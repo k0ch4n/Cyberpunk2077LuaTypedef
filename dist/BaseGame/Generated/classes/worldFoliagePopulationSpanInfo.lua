@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldFoliagePopulationSpanInfo
----@field public stancesBegin Uint32
----@field public cketBegin Uint32
----@field public stancesCount Uint32
----@field public cketCount Uint32
+---@field stancesBegin Uint32
+---@field cketBegin Uint32
+---@field stancesCount Uint32
+---@field cketCount Uint32
 worldFoliagePopulationSpanInfo = {}
 
 ---@param fields? worldFoliagePopulationSpanInfo
 ---@return worldFoliagePopulationSpanInfo
-function worldFoliagePopulationSpanInfo.new(fields) return end
+function worldFoliagePopulationSpanInfo.new(fields) end

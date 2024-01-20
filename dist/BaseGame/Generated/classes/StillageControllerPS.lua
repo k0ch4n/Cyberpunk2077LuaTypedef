@@ -1,35 +1,32 @@
 ---@meta
 
 ---@class StillageControllerPS: ScriptableDeviceComponentPS
----@field private isCleared Bool
+---@field isCleared Bool
 StillageControllerPS = {}
 
 ---@param fields? StillageControllerPS
 ---@return StillageControllerPS
-function StillageControllerPS.new(fields) return end
+function StillageControllerPS.new(fields) end
 
----@protected
 ---@return ThrowStuff
-function StillageControllerPS:ActionThrowStuff() return end
+function StillageControllerPS:ActionThrowStuff() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function StillageControllerPS:GetActions(context) return end
+function StillageControllerPS:GetActions(context) end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function StillageControllerPS:GetQuestActionByName(actionName) return end
+function StillageControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function StillageControllerPS:GetQuestActions(context) return end
+function StillageControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param evt QuestResetDeviceToInitialState
 ---@return EntityNotificationType
-function StillageControllerPS:OnQuestResetDeviceToInitialState(evt) return end
+function StillageControllerPS:OnQuestResetDeviceToInitialState(evt) end
 
----@protected
 ---@param evt ThrowStuff
 ---@return EntityNotificationType
-function StillageControllerPS:OnThrowStuff(evt) return end
+function StillageControllerPS:OnThrowStuff(evt) end

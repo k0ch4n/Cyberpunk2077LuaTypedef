@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class TeleportCommandHandler: AICommandHandlerBase
----@field protected position AIArgumentMapping
----@field protected rotation AIArgumentMapping
----@field protected doNavTest AIArgumentMapping
+---@field position AIArgumentMapping
+---@field rotation AIArgumentMapping
+---@field doNavTest AIArgumentMapping
 TeleportCommandHandler = {}
 
 ---@param fields? TeleportCommandHandler
 ---@return TeleportCommandHandler
-function TeleportCommandHandler.new(fields) return end
+function TeleportCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TeleportCommandHandler:Activate(context) return end
+function TeleportCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function TeleportCommandHandler:UpdateCommand(context, command) return end
+function TeleportCommandHandler:UpdateCommand(context, command) end

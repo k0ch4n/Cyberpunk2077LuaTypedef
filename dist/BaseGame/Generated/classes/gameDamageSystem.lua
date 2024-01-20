@@ -1,66 +1,63 @@
 ---@meta
 
 ---@class gameDamageSystem: gameIDamageSystem
----@field public previewTarget previewTargetStruct
----@field public previewLock Bool
----@field public previewRWLockTemp ScriptReentrantRWLock
+---@field previewTarget previewTargetStruct
+---@field previewLock Bool
+---@field previewRWLockTemp ScriptReentrantRWLock
 gameDamageSystem = {}
 
 ---@param fields? gameDamageSystem
 ---@return gameDamageSystem
-function gameDamageSystem.new(fields) return end
+function gameDamageSystem.new(fields) end
 
 ---@param curve CName|string
 ---@param value Float
 ---@return Float
-function gameDamageSystem.GetDamageModFromCurve(curve, value) return end
+function gameDamageSystem.GetDamageModFromCurve(curve, value) end
 
 ---@param attackData gamedamageAttackData
 ---@param hitPosition Vector4
 ---@param statsSystem gameStatsSystem
 ---@return Float
-function gameDamageSystem.GetEffectiveRangeModifierForWeapon(attackData, hitPosition, statsSystem) return end
+function gameDamageSystem.GetEffectiveRangeModifierForWeapon(attackData, hitPosition, statsSystem) end
 
----@private
 ---@return TweakDBID
-function gameDamageSystem.GetMantisBladesCripplingRandStatusEffectID() return end
+function gameDamageSystem.GetMantisBladesCripplingRandStatusEffectID() end
 
----@private
 ---@param minOffset Vector3
 ---@param maxOffset Vector3
 ---@return Vector3
-function gameDamageSystem.GetRandomOffset(minOffset, maxOffset) return end
+function gameDamageSystem.GetRandomOffset(minOffset, maxOffset) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function gameDamageSystem.HasGrandFinaleStatFlag(scriptInterface) return end
+function gameDamageSystem.HasGrandFinaleStatFlag(scriptInterface) end
 
 ---@param stage gameDamagePipelineStage
 ---@param hitEvent gameeventsHitEvent
 ---@param damagePipelineType gameDamageListenerPipelineType
 ---@return nil
-function gameDamageSystem:ProcessSyncStageCallbacks(stage, hitEvent, damagePipelineType) return end
+function gameDamageSystem:ProcessSyncStageCallbacks(stage, hitEvent, damagePipelineType) end
 
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function gameDamageSystem:ProcessSyncStageMissCallbacks(missEvent) return end
+function gameDamageSystem:ProcessSyncStageMissCallbacks(missEvent) end
 
 ---@param evt gameeventsHitEvent
 ---@param receiver gameObject
 ---@return nil
-function gameDamageSystem:QueueHitEvent(evt, receiver) return end
+function gameDamageSystem:QueueHitEvent(evt, receiver) end
 
 ---@param evt gameeventsMissEvent
 ---@return nil
-function gameDamageSystem:QueueMissEvent(evt) return end
+function gameDamageSystem:QueueMissEvent(evt) end
 
 ---@param damageListener gameScriptedDamageSystemListener
 ---@param registereeID entEntityID
 ---@param callbackType gameDamageCallbackType
 ---@param damagePipelineType? gameDamageListenerPipelineType
 ---@return nil
-function gameDamageSystem:RegisterListener(damageListener, registereeID, callbackType, damagePipelineType) return end
+function gameDamageSystem:RegisterListener(damageListener, registereeID, callbackType, damagePipelineType) end
 
 ---@param damageListener gameScriptedDamageSystemListener
 ---@param registereeID entEntityID
@@ -68,18 +65,18 @@ function gameDamageSystem:RegisterListener(damageListener, registereeID, callbac
 ---@param stage gameDamagePipelineStage
 ---@param damagePipelineType? gameDamageListenerPipelineType
 ---@return nil
-function gameDamageSystem:RegisterSyncListener(damageListener, registereeID, callbackType, stage, damagePipelineType) return end
+function gameDamageSystem:RegisterSyncListener(damageListener, registereeID, callbackType, stage, damagePipelineType) end
 
 ---@param evt gameeventsProjectedHitEvent
 ---@return nil
-function gameDamageSystem:StartProjectionPipeline(evt) return end
+function gameDamageSystem:StartProjectionPipeline(evt) end
 
 ---@param damageListener gameScriptedDamageSystemListener
 ---@param registereeID entEntityID
 ---@param callbackType gameDamageCallbackType
 ---@param damagePipelineType? gameDamageListenerPipelineType
 ---@return nil
-function gameDamageSystem:UnregisterListener(damageListener, registereeID, callbackType, damagePipelineType) return end
+function gameDamageSystem:UnregisterListener(damageListener, registereeID, callbackType, damagePipelineType) end
 
 ---@param damageListener gameScriptedDamageSystemListener
 ---@param registereeID entEntityID
@@ -87,506 +84,422 @@ function gameDamageSystem:UnregisterListener(damageListener, registereeID, callb
 ---@param stage gameDamagePipelineStage
 ---@param damagePipelineType? gameDamageListenerPipelineType
 ---@return nil
-function gameDamageSystem:UnregisterSyncListener(damageListener, registereeID, callbackType, stage, damagePipelineType) return end
+function gameDamageSystem:UnregisterSyncListener(damageListener, registereeID, callbackType, stage, damagePipelineType) end
 
----@protected
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function gameDamageSystem:AllowWeaponCrit(attackData) return end
+function gameDamageSystem:AllowWeaponCrit(attackData) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param statType gamedataStatType
 ---@param effect TweakDBID|string
 ---@return nil
-function gameDamageSystem:ApplyStatusEffectByApplicationRate(hitEvent, statType, effect) return end
+function gameDamageSystem:ApplyStatusEffectByApplicationRate(hitEvent, statType, effect) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:CacheLocalVars(hitEvent, cache) return end
+function gameDamageSystem:CacheLocalVars(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:CalculateDamageVariants(hitEvent) return end
+function gameDamageSystem:CalculateDamageVariants(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:CalculateGlobalModifiers(hitEvent, cache) return end
+function gameDamageSystem:CalculateGlobalModifiers(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:CalculateSourceModifiers(hitEvent, cache) return end
+function gameDamageSystem:CalculateSourceModifiers(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:CalculateSourceVsTargetModifiers(hitEvent) return end
+function gameDamageSystem:CalculateSourceVsTargetModifiers(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:CalculateTargetModifiers(hitEvent) return end
+function gameDamageSystem:CalculateTargetModifiers(hitEvent) end
 
----@private
 ---@param weaponObject gameweaponObject
 ---@param attackType gamedataAttackType
 ---@param isBodySlam Bool
 ---@param statSystem gameStatsSystem
 ---@return Float
-function gameDamageSystem:CalculateVehicleTargetMeleeDamage(weaponObject, attackType, isBodySlam, statSystem) return end
+function gameDamageSystem:CalculateVehicleTargetMeleeDamage(weaponObject, attackType, isBodySlam, statSystem) end
 
----@private
 ---@param weaponObject gameweaponObject
 ---@param chargeDamageMultiplier Float
 ---@param statSystem gameStatsSystem
 ---@return Float
-function gameDamageSystem:CalculateVehicleTargetRangedDamage(weaponObject, chargeDamageMultiplier, statSystem) return end
+function gameDamageSystem:CalculateVehicleTargetRangedDamage(weaponObject, chargeDamageMultiplier, statSystem) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return Bool
-function gameDamageSystem:CheckForQuickExit(hitEvent, cache) return end
+function gameDamageSystem:CheckForQuickExit(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsProjectedHitEvent
 ---@return Bool
-function gameDamageSystem:CheckProjectionPipelineTargetConditions(hitEvent) return end
+function gameDamageSystem:CheckProjectionPipelineTargetConditions(hitEvent) end
 
 ---@return nil
-function gameDamageSystem:ClearPreviewTargetStruct() return end
+function gameDamageSystem:ClearPreviewTargetStruct() end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ConvertDPSToHitDamage(hitEvent) return end
+function gameDamageSystem:ConvertDPSToHitDamage(hitEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return gameuiDamageInfo[]
-function gameDamageSystem:ConvertHitDataToDamageInfo(hitEvent) return end
+function gameDamageSystem:ConvertHitDataToDamageInfo(hitEvent) end
 
----@private
 ---@param gameObject gameObject
 ---@return CName
-function gameDamageSystem:CreateDebugDataName(gameObject) return end
+function gameDamageSystem:CreateDebugDataName(gameObject) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function gameDamageSystem:DEBUG_InvulnerabilityCheckForVehicle(hitEvent) return end
+function gameDamageSystem:DEBUG_InvulnerabilityCheckForVehicle(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:DealDamages(hitEvent) return end
+function gameDamageSystem:DealDamages(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:DeathCheck(hitEvent) return end
+function gameDamageSystem:DeathCheck(hitEvent) end
 
----@private
 ---@param hitPosition Vector4
 ---@param hitDirection Vector4
 ---@param hitMagnitude Float
 ---@return nil
-function gameDamageSystem:DebugDraw_VehicleHit(hitPosition, hitDirection, hitMagnitude) return end
+function gameDamageSystem:DebugDraw_VehicleHit(hitPosition, hitDirection, hitMagnitude) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:FillInDamageBlackboard(hitEvent) return end
+function gameDamageSystem:FillInDamageBlackboard(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil, gamedamageHitDebugData hitDebugData
-function gameDamageSystem:GatherDebugData(hitEvent, cache) return end
+function gameDamageSystem:GatherDebugData(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil, gamedamageServerHitData serverHitData
-function gameDamageSystem:GatherServerData(hitEvent, cache) return end
+function gameDamageSystem:GatherServerData(hitEvent, cache) end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param hitEvent gameeventsHitEvent
 ---@return Float
-function gameDamageSystem:GetArmorPenetrationValue(weapon, hitEvent) return end
+function gameDamageSystem:GetArmorPenetrationValue(weapon, hitEvent) end
 
----@protected
 ---@param statSystem gameStatsSystem
 ---@param attackData gamedamageAttackData
 ---@return Float
-function gameDamageSystem:GetCritDamageModifier(statSystem, attackData) return end
+function gameDamageSystem:GetCritDamageModifier(statSystem, attackData) end
 
----@protected
 ---@param statSystem gameStatsSystem
 ---@param attackData gamedamageAttackData
 ---@return Float
-function gameDamageSystem:GetHeadshotDamageModifier(statSystem, attackData) return end
+function gameDamageSystem:GetHeadshotDamageModifier(statSystem, attackData) end
 
----@private
 ---@param hitEvent gameeventsProjectedHitEvent
 ---@return EHitReactionZone
-function gameDamageSystem:GetHitReactionZone(hitEvent) return end
+function gameDamageSystem:GetHitReactionZone(hitEvent) end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return gamedataAttackSubtype
-function gameDamageSystem:GetSubAttackSubType(attackData) return end
+function gameDamageSystem:GetSubAttackSubType(attackData) end
 
----@protected
 ---@param attackData gamedamageAttackData
 ---@return Float
-function gameDamageSystem:GetVehiclePerksDamageMultiplier(attackData) return end
+function gameDamageSystem:GetVehiclePerksDamageMultiplier(attackData) end
 
----@protected
 ---@param statSystem gameStatsSystem
 ---@param attackData gamedamageAttackData
 ---@return Float
-function gameDamageSystem:GetWeakspotDamageModifier(statSystem, attackData) return end
+function gameDamageSystem:GetWeakspotDamageModifier(statSystem, attackData) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:ImmortalityCheck(hitEvent, cache) return end
+function gameDamageSystem:ImmortalityCheck(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:InvulnerabilityCheck(hitEvent, cache) return end
+function gameDamageSystem:InvulnerabilityCheck(hitEvent, cache) end
 
----@private
 ---@param target gameObject
 ---@param statusEffectID TweakDBID|string
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function gameDamageSystem:IsImmune(target, statusEffectID, attackData) return end
+function gameDamageSystem:IsImmune(target, statusEffectID, attackData) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function gameDamageSystem:IsOverridenExplosionVsVehicleHit(hitEvent) return end
+function gameDamageSystem:IsOverridenExplosionVsVehicleHit(hitEvent) end
 
----@private
 ---@param cache gamedamageCacheData
 ---@return Bool
-function gameDamageSystem:IsTargetImmortal(cache) return end
+function gameDamageSystem:IsTargetImmortal(cache) end
 
----@private
 ---@param cache gamedamageCacheData
 ---@return Bool
-function gameDamageSystem:IsTargetInvulnerable(cache) return end
+function gameDamageSystem:IsTargetInvulnerable(cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ModifyHitData(hitEvent) return end
+function gameDamageSystem:ModifyHitData(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:ModifyHitFlagsForPlayer(hitEvent, cache) return end
+function gameDamageSystem:ModifyHitFlagsForPlayer(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:PostProcess(hitEvent) return end
+function gameDamageSystem:PostProcess(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return Bool
-function gameDamageSystem:PreProcess(hitEvent, cache) return end
+function gameDamageSystem:PreProcess(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:PreProcessVehicleTarget(hitEvent) return end
+function gameDamageSystem:PreProcessVehicleTarget(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:Process(hitEvent, cache) return end
+function gameDamageSystem:Process(hitEvent, cache) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessArmor(hitEvent) return end
+function gameDamageSystem:ProcessArmor(hitEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessBikeMelee(hitEvent) return end
+function gameDamageSystem:ProcessBikeMelee(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessBlockAndDeflect(hitEvent) return end
+function gameDamageSystem:ProcessBlockAndDeflect(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessBulletBlockAndDeflect(hitEvent) return end
+function gameDamageSystem:ProcessBulletBlockAndDeflect(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param isBulletTimeActive Bool
 ---@param blockingItem gameItemObject
 ---@return nil
-function gameDamageSystem:ProcessBulletDeflect(hitEvent, isBulletTimeActive, blockingItem) return end
+function gameDamageSystem:ProcessBulletDeflect(hitEvent, isBulletTimeActive, blockingItem) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:ProcessChargeAttack(hitEvent, cache) return end
+function gameDamageSystem:ProcessChargeAttack(hitEvent, cache) end
 
----@private
 ---@param serverHitData gamedamageServerHitData
 ---@return nil
-function gameDamageSystem:ProcessClientHit(serverHitData) return end
+function gameDamageSystem:ProcessClientHit(serverHitData) end
 
----@private
 ---@param serverKillData gamedamageServerKillData
 ---@return nil
-function gameDamageSystem:ProcessClientKill(serverKillData) return end
+function gameDamageSystem:ProcessClientKill(serverKillData) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessCriticalHit(hitEvent) return end
-
----@private
----@param hitEvent gameeventsHitEvent
----@return nil
-function gameDamageSystem:ProcessCrowdTarget(hitEvent) return end
+function gameDamageSystem:ProcessCriticalHit(hitEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessCyberwareModifiers(hitEvent) return end
+function gameDamageSystem:ProcessCrowdTarget(hitEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessDamageMultipliers(hitEvent) return end
-
----@private
----@param hitEvent gameeventsHitEvent
----@return nil
-function gameDamageSystem:ProcessDamageReduction(hitEvent) return end
-
----@private
----@param hitEvent gameeventsHitEvent
----@return nil
-function gameDamageSystem:ProcessDeviceExplosionDamageToTierNPC(hitEvent) return end
-
----@private
----@param hitEvent gameeventsHitEvent
----@return nil
-function gameDamageSystem:ProcessDeviceTarget(hitEvent) return end
-
----@private
----@param hitEvent gameeventsHitEvent
----@return nil
-function gameDamageSystem:ProcessDodge(hitEvent) return end
+function gameDamageSystem:ProcessCyberwareModifiers(hitEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessEffectiveRange(hitEvent) return end
+function gameDamageSystem:ProcessDamageMultipliers(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessEvasion(hitEvent) return end
+function gameDamageSystem:ProcessDamageReduction(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessGrenadeExplosionDamageToPlayer(hitEvent) return end
+function gameDamageSystem:ProcessDeviceExplosionDamageToTierNPC(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessHitReaction(hitEvent) return end
+function gameDamageSystem:ProcessDeviceTarget(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessInstantKill(hitEvent) return end
+function gameDamageSystem:ProcessDodge(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessLevelDifference(hitEvent) return end
+function gameDamageSystem:ProcessEffectiveRange(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessLocalizedDamage(hitEvent) return end
+function gameDamageSystem:ProcessEvasion(hitEvent) end
 
----@private
+---@param hitEvent gameeventsHitEvent
+---@return nil
+function gameDamageSystem:ProcessGrenadeExplosionDamageToPlayer(hitEvent) end
+
+---@param hitEvent gameeventsHitEvent
+---@return nil
+function gameDamageSystem:ProcessHitReaction(hitEvent) end
+
+---@param hitEvent gameeventsHitEvent
+---@return nil
+function gameDamageSystem:ProcessInstantKill(hitEvent) end
+
+---@param hitEvent gameeventsHitEvent
+---@return nil
+function gameDamageSystem:ProcessLevelDifference(hitEvent) end
+
+---@param hitEvent gameeventsHitEvent
+---@return nil
+function gameDamageSystem:ProcessLocalizedDamage(hitEvent) end
+
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function gameDamageSystem:ProcessMissPipeline(missEvent) return end
-
----@private
----@param hitEvent gameeventsHitEvent
----@return nil
-function gameDamageSystem:ProcessMitigation(hitEvent) return end
-
----@private
----@param hitEvent gameeventsHitEvent
----@return nil
-function gameDamageSystem:ProcessNPCPassengerVehicleCollision(hitEvent) return end
+function gameDamageSystem:ProcessMissPipeline(missEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessOnVehicleMitigation(hitEvent) return end
+function gameDamageSystem:ProcessMitigation(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessOneShotProtection(hitEvent) return end
+function gameDamageSystem:ProcessNPCPassengerVehicleCollision(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessPierceAttack(hitEvent) return end
+function gameDamageSystem:ProcessOnVehicleMitigation(hitEvent) end
 
----@private
+---@param hitEvent gameeventsHitEvent
+---@return nil
+function gameDamageSystem:ProcessOneShotProtection(hitEvent) end
+
+---@param hitEvent gameeventsHitEvent
+---@return nil
+function gameDamageSystem:ProcessPierceAttack(hitEvent) end
+
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:ProcessPipeline(hitEvent, cache) return end
+function gameDamageSystem:ProcessPipeline(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessPlayerFixedPercentageOverride(hitEvent) return end
+function gameDamageSystem:ProcessPlayerFixedPercentageOverride(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessPlayerIncomingDamageMultiplier(hitEvent) return end
+function gameDamageSystem:ProcessPlayerIncomingDamageMultiplier(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsProjectedHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:ProcessProjectionPipeline(hitEvent, cache) return end
+function gameDamageSystem:ProcessProjectionPipeline(hitEvent, cache) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessQuickHackModifiers(hitEvent) return end
+function gameDamageSystem:ProcessQuickHackModifiers(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessRagdollHit(hitEvent) return end
+function gameDamageSystem:ProcessRagdollHit(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessReturnedDamage(hitEvent) return end
+function gameDamageSystem:ProcessReturnedDamage(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessRicochet(hitEvent) return end
+function gameDamageSystem:ProcessRicochet(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessSpreadingMultiplier(hitEvent) return end
+function gameDamageSystem:ProcessSpreadingMultiplier(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessStatusEffectApplicationStats(hitEvent) return end
+function gameDamageSystem:ProcessStatusEffectApplicationStats(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessStatusEffects(hitEvent) return end
+function gameDamageSystem:ProcessStatusEffects(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessStealthAttack(hitEvent) return end
+function gameDamageSystem:ProcessStealthAttack(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessTurretAttack(hitEvent) return end
+function gameDamageSystem:ProcessTurretAttack(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessTurretDamageTakenFromMelee(hitEvent) return end
+function gameDamageSystem:ProcessTurretDamageTakenFromMelee(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessVehicleHit(hitEvent) return end
+function gameDamageSystem:ProcessVehicleHit(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param cache gamedamageCacheData
 ---@return nil
-function gameDamageSystem:ProcessVehicleTarget(hitEvent, cache) return end
+function gameDamageSystem:ProcessVehicleTarget(hitEvent, cache) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ProcessVehicleVsExplosion(hitEvent) return end
+function gameDamageSystem:ProcessVehicleVsExplosion(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:ScalePlayerDamage(hitEvent) return end
+function gameDamageSystem:ScalePlayerDamage(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param resourcesLost SDamageDealt[]
 ---@return nil
-function gameDamageSystem:SendDamageEvents(hitEvent, resourcesLost) return end
+function gameDamageSystem:SendDamageEvents(hitEvent, resourcesLost) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:SendDamageRequestToPreventionSystem(hitEvent) return end
+function gameDamageSystem:SendDamageRequestToPreventionSystem(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameDamageSystem:SendVehicleImpactTelemetryIfValid(hitEvent) return end
+function gameDamageSystem:SendVehicleImpactTelemetryIfValid(hitEvent) end
 
 ---@param newState Bool
 ---@return nil
-function gameDamageSystem:SetPreviewLock(newState) return end
+function gameDamageSystem:SetPreviewLock(newState) end
 
----@private
 ---@param trackedTarget gameObject
 ---@param bodyPart EHitReactionZone
 ---@param hittingBreach Bool
 ---@return nil
-function gameDamageSystem:SetPreviewTargetStruct(trackedTarget, bodyPart, hittingBreach) return end
+function gameDamageSystem:SetPreviewTargetStruct(trackedTarget, bodyPart, hittingBreach) end
 
----@private
 ---@param factName CName|string
 ---@return nil
-function gameDamageSystem:SetTutorialFact(factName) return end
+function gameDamageSystem:SetTutorialFact(factName) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool, entEntityID driverEntityID
-function gameDamageSystem:ShouldProcessStatusEffectsOnVehicleDriver(hitEvent) return end
+function gameDamageSystem:ShouldProcessStatusEffectsOnVehicleDriver(hitEvent) end

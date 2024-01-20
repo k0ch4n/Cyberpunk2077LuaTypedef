@@ -5,4 +5,4 @@ WaitingForSceneEvents = {}
 
 ---@param fields? WaitingForSceneEvents
 ---@return WaitingForSceneEvents
-function WaitingForSceneEvents.new(fields) return end
+function WaitingForSceneEvents.new(fields) end

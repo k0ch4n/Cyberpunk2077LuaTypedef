@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class audioBreathingStateTransitionMetadata: audioAudioMetadata
----@field public fromNames CName[]
----@field public toName CName
----@field public transitionStateName CName
----@field public conditionType audioBreathingTransitionType
----@field public conditionComparator audioBreathingTransitionComparator
----@field public value CName
----@field public eventTags audiobreathingEventTag[]
----@field public isImmediate Bool
+---@field fromNames CName[]
+---@field toName CName
+---@field transitionStateName CName
+---@field conditionType audioBreathingTransitionType
+---@field conditionComparator audioBreathingTransitionComparator
+---@field value CName
+---@field eventTags audiobreathingEventTag[]
+---@field isImmediate Bool
 audioBreathingStateTransitionMetadata = {}
 
 ---@param fields? audioBreathingStateTransitionMetadata
 ---@return audioBreathingStateTransitionMetadata
-function audioBreathingStateTransitionMetadata.new(fields) return end
+function audioBreathingStateTransitionMetadata.new(fields) end

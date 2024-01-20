@@ -1,165 +1,152 @@
 ---@meta
 
 ---@class gameuiHackingMinigameGameController: gameuiWidgetGameController
----@field public symbolsRecordTDBID TweakDBID
----@field public minigameDefaultsTDBID TweakDBID
----@field public deviceMode Bool
----@field private isAlternativeVariant Bool
----@field private helpInputHintRef inkWidgetReference
----@field private miniGameRecord gamedataMinigame_Def_Record
----@field private dimension Int32
----@field private isTutorialActive Bool
----@field private isOfficerBreach Bool
----@field private isRemoteBreach Bool
----@field private isItemBreach Bool
----@field private numberAttempts Int32
----@field private tooltipsManagerRef inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field private uiSystem gameuiGameSystemUI
----@field private contextHelpOverlay Bool
----@field private bbMinigame gameIBlackboard
----@field private bbMinigameStateListener redCallbackObject
----@field private bbUiData gameIBlackboard
----@field private bbControllerStateListener redCallbackObject
+---@field symbolsRecordTDBID TweakDBID
+---@field minigameDefaultsTDBID TweakDBID
+---@field deviceMode Bool
+---@field isAlternativeVariant Bool
+---@field helpInputHintRef inkWidgetReference
+---@field miniGameRecord gamedataMinigame_Def_Record
+---@field dimension Int32
+---@field isTutorialActive Bool
+---@field isOfficerBreach Bool
+---@field isRemoteBreach Bool
+---@field isItemBreach Bool
+---@field numberAttempts Int32
+---@field tooltipsManagerRef inkWidgetReference
+---@field TooltipsManager gameuiTooltipsManager
+---@field uiSystem gameuiGameSystemUI
+---@field contextHelpOverlay Bool
+---@field bbMinigame gameIBlackboard
+---@field bbMinigameStateListener redCallbackObject
+---@field bbUiData gameIBlackboard
+---@field bbControllerStateListener redCallbackObject
 gameuiHackingMinigameGameController = {}
 
 ---@param fields? gameuiHackingMinigameGameController
 ---@return gameuiHackingMinigameGameController
-function gameuiHackingMinigameGameController.new(fields) return end
+function gameuiHackingMinigameGameController.new(fields) end
 
 ---@param program gameuiUnlockableProgram
 ---@param instruction Uint32[]
 ---@return nil
-function gameuiHackingMinigameGameController:AddUnlockableProgram(program, instruction) return end
+function gameuiHackingMinigameGameController:AddUnlockableProgram(program, instruction) end
 
 ---@param enable Bool
 ---@return nil
-function gameuiHackingMinigameGameController:EnableWhitelist(enable) return end
+function gameuiHackingMinigameGameController:EnableWhitelist(enable) end
 
 ---@return gameuiMinigameProgramData[]
-function gameuiHackingMinigameGameController:GetPlayerPrograms() return end
+function gameuiHackingMinigameGameController:GetPlayerPrograms() end
 
 ---@return gameuiCharactersChain[]
-function gameuiHackingMinigameGameController:GetProgramsChains() return end
+function gameuiHackingMinigameGameController:GetProgramsChains() end
 
 ---@param rarityValue Float
 ---@return Int32
-function gameuiHackingMinigameGameController:GetRarity(rarityValue) return end
+function gameuiHackingMinigameGameController:GetRarity(rarityValue) end
 
 ---@param probabilityValue Float
 ---@return gamedataMiniGame_Trap_Record
-function gameuiHackingMinigameGameController:GetTrapByProbability(probabilityValue) return end
+function gameuiHackingMinigameGameController:GetTrapByProbability(probabilityValue) end
 
 ---@return gameuiUnlockableProgram[]
-function gameuiHackingMinigameGameController:GetUnlockablePrograms() return end
+function gameuiHackingMinigameGameController:GetUnlockablePrograms() end
 
 ---@return Bool
-function gameuiHackingMinigameGameController:IsWhitelistEnabled() return end
+function gameuiHackingMinigameGameController:IsWhitelistEnabled() end
 
 ---@return nil
-function gameuiHackingMinigameGameController:PauseTheTimer() return end
+function gameuiHackingMinigameGameController:PauseTheTimer() end
 
 ---@param position Vector2
 ---@return nil
-function gameuiHackingMinigameGameController:RemoveWhitelistedPosition(position) return end
+function gameuiHackingMinigameGameController:RemoveWhitelistedPosition(position) end
 
 ---@return nil
-function gameuiHackingMinigameGameController:ResumeTheTimer() return end
+function gameuiHackingMinigameGameController:ResumeTheTimer() end
 
 ---@param cellCoordinates Vector2
 ---@param trap CName|string
 ---@return nil
-function gameuiHackingMinigameGameController:SetTrapIconAtCell(cellCoordinates, trap) return end
+function gameuiHackingMinigameGameController:SetTrapIconAtCell(cellCoordinates, trap) end
 
 ---@param position Vector2
 ---@return nil
-function gameuiHackingMinigameGameController:WhitelistPosition(position) return end
+function gameuiHackingMinigameGameController:WhitelistPosition(position) end
 
----@protected
 ---@param isDisconnected Bool
 ---@return Bool
-function gameuiHackingMinigameGameController:OnDisconnectController(isDisconnected) return end
+function gameuiHackingMinigameGameController:OnDisconnectController(isDisconnected) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiHackingMinigameGameController:OnGameStateChanged(value) return end
+function gameuiHackingMinigameGameController:OnGameStateChanged(value) end
 
----@protected
 ---@param wasHorizontalyActive Bool
 ---@return Bool
-function gameuiHackingMinigameGameController:OnGridCellPressed(wasHorizontalyActive) return end
+function gameuiHackingMinigameGameController:OnGridCellPressed(wasHorizontalyActive) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiHackingMinigameGameController:OnHandleInput(evt) return end
+function gameuiHackingMinigameGameController:OnHandleInput(evt) end
 
----@protected
 ---@param request MinigameTooltipHideRequest
 ---@return Bool
-function gameuiHackingMinigameGameController:OnHideTooltipRequest(request) return end
+function gameuiHackingMinigameGameController:OnHideTooltipRequest(request) end
 
----@protected
 ---@return Bool
-function gameuiHackingMinigameGameController:OnInitialize() return end
+function gameuiHackingMinigameGameController:OnInitialize() end
 
----@protected
 ---@param position Vector2
 ---@return Bool
-function gameuiHackingMinigameGameController:OnPositionSelected(position) return end
+function gameuiHackingMinigameGameController:OnPositionSelected(position) end
 
----@protected
 ---@param request MinigameTooltipShowRequest
 ---@return Bool
-function gameuiHackingMinigameGameController:OnShowTooltipRequest(request) return end
+function gameuiHackingMinigameGameController:OnShowTooltipRequest(request) end
 
----@protected
 ---@return Bool
-function gameuiHackingMinigameGameController:OnUninitialize() return end
+function gameuiHackingMinigameGameController:OnUninitialize() end
 
 ---@param trapList gamedataMiniGame_Trap_Record[]
 ---@return nil
-function gameuiHackingMinigameGameController:FilterTraps(trapList) return end
+function gameuiHackingMinigameGameController:FilterTraps(trapList) end
 
----@private
 ---@return nil
-function gameuiHackingMinigameGameController:PrepareTooltips() return end
+function gameuiHackingMinigameGameController:PrepareTooltips() end
 
----@private
 ---@param horizontal Bool
 ---@return nil
-function gameuiHackingMinigameGameController:ProcessMinigameGridClickTutorialFacts(horizontal) return end
+function gameuiHackingMinigameGameController:ProcessMinigameGridClickTutorialFacts(horizontal) end
 
----@private
 ---@param player PlayerPuppet
 ---@return Bool
-function gameuiHackingMinigameGameController:ProcessMinigameTutorialFact(player) return end
+function gameuiHackingMinigameGameController:ProcessMinigameTutorialFact(player) end
 
 ---@param entity entEntity
 ---@param powerLevel Float
 ---@return nil, Int32 size, gamedataMiniGame_AllSymbols_Record symbolsToUse
-function gameuiHackingMinigameGameController:ScaleBoard(entity, powerLevel) return end
+function gameuiHackingMinigameGameController:ScaleBoard(entity, powerLevel) end
 
 ---@param entity entEntity
 ---@param powerLevel Float
 ---@param player PlayerPuppet
 ---@return nil, Float size
-function gameuiHackingMinigameGameController:ScaleBuffer(entity, powerLevel, player) return end
+function gameuiHackingMinigameGameController:ScaleBuffer(entity, powerLevel, player) end
 
 ---@param player PlayerPuppet
 ---@param entity entEntity
 ---@param powerLevel Float
 ---@return nil, Float time, Bool waitInteraction
-function gameuiHackingMinigameGameController:ScaleTimer(player, entity, powerLevel) return end
+function gameuiHackingMinigameGameController:ScaleTimer(player, entity, powerLevel) end
 
 ---@param entity entEntity
 ---@param player PlayerPuppet
 ---@param powerLevel Float
 ---@return nil, Float prob
-function gameuiHackingMinigameGameController:ScaleTraps(entity, player, powerLevel) return end
+function gameuiHackingMinigameGameController:ScaleTraps(entity, player, powerLevel) end
 
----@private
 ---@param value Bool
 ---@return nil
-function gameuiHackingMinigameGameController:ToggleTutorialOverlay(value) return end
+function gameuiHackingMinigameGameController:ToggleTutorialOverlay(value) end

@@ -5,4 +5,4 @@ worldDebugColoring_MeshLod = {}
 
 ---@param fields? worldDebugColoring_MeshLod
 ---@return worldDebugColoring_MeshLod
-function worldDebugColoring_MeshLod.new(fields) return end
+function worldDebugColoring_MeshLod.new(fields) end

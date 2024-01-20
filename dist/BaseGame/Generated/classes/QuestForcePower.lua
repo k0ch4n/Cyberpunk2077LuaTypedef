@@ -5,7 +5,7 @@ QuestForcePower = {}
 
 ---@param fields? QuestForcePower
 ---@return QuestForcePower
-function QuestForcePower.new(fields) return end
+function QuestForcePower.new(fields) end
 
 ---@return nil
-function QuestForcePower:SetProperties() return end
+function QuestForcePower:SetProperties() end

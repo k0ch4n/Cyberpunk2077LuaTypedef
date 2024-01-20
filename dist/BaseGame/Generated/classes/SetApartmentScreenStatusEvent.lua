@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetApartmentScreenStatusEvent: redEvent
----@field public rentStatus ERentStatus
+---@field rentStatus ERentStatus
 SetApartmentScreenStatusEvent = {}
 
 ---@param fields? SetApartmentScreenStatusEvent
 ---@return SetApartmentScreenStatusEvent
-function SetApartmentScreenStatusEvent.new(fields) return end
+function SetApartmentScreenStatusEvent.new(fields) end
 
 ---@return String
-function SetApartmentScreenStatusEvent:GetFriendlyDescription() return end
+function SetApartmentScreenStatusEvent:GetFriendlyDescription() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entComponentsStorage: ISerializable
----@field public components entIComponent[]
+---@field components entIComponent[]
 entComponentsStorage = {}
 
 ---@param fields? entComponentsStorage
 ---@return entComponentsStorage
-function entComponentsStorage.new(fields) return end
+function entComponentsStorage.new(fields) end

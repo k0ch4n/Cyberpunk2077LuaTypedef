@@ -5,16 +5,14 @@ NotReadyDecisions = {}
 
 ---@param fields? NotReadyDecisions
 ---@return NotReadyDecisions
-function NotReadyDecisions.new(fields) return end
+function NotReadyDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function NotReadyDecisions:EnterCondition(stateContext, scriptInterface) return end
+function NotReadyDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function NotReadyDecisions:ExitCondition(stateContext, scriptInterface) return end
+function NotReadyDecisions:ExitCondition(stateContext, scriptInterface) end

@@ -4,8 +4,8 @@
 NamedEvent = {}
 
 ---@return CName
-function NamedEvent:GetEventName() return end
+function NamedEvent:GetEventName() end
 
 ---@param name CName|string
 ---@return nil
-function NamedEvent:InitEvent(name) return end
+function NamedEvent:InitEvent(name) end

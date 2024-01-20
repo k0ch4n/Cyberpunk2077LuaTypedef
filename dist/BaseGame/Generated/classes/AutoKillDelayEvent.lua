@@ -5,4 +5,4 @@ AutoKillDelayEvent = {}
 
 ---@param fields? AutoKillDelayEvent
 ---@return AutoKillDelayEvent
-function AutoKillDelayEvent.new(fields) return end
+function AutoKillDelayEvent.new(fields) end

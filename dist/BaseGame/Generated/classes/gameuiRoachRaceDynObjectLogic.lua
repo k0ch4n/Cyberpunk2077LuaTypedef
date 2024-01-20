@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiRoachRaceDynObjectLogic: gameuiSideScrollerMiniGameDynObjectLogic
----@field public minSpawnY Float
----@field public maxSpawnY Float
----@field public extraSpeed Float
----@field public availableY Float[]
+---@field minSpawnY Float
+---@field maxSpawnY Float
+---@field extraSpeed Float
+---@field availableY Float[]
 gameuiRoachRaceDynObjectLogic = {}
 
 ---@param fields? gameuiRoachRaceDynObjectLogic
 ---@return gameuiRoachRaceDynObjectLogic
-function gameuiRoachRaceDynObjectLogic.new(fields) return end
+function gameuiRoachRaceDynObjectLogic.new(fields) end

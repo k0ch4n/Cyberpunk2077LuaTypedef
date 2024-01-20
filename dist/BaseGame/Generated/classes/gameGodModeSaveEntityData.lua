@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameGodModeSaveEntityData
----@field public entityId entEntityID
----@field public data gameGodModeEntityData
+---@field entityId entEntityID
+---@field data gameGodModeEntityData
 gameGodModeSaveEntityData = {}
 
 ---@param fields? gameGodModeSaveEntityData
 ---@return gameGodModeSaveEntityData
-function gameGodModeSaveEntityData.new(fields) return end
+function gameGodModeSaveEntityData.new(fields) end

@@ -1,24 +1,23 @@
 ---@meta
 
 ---@class TeleportNodetoSlotOperation: DeviceOperationBase
----@field public slotName CName
----@field public gameObjectRef NodeRef
+---@field slotName CName
+---@field gameObjectRef NodeRef
 TeleportNodetoSlotOperation = {}
 
 ---@param fields? TeleportNodetoSlotOperation
 ---@return TeleportNodetoSlotOperation
-function TeleportNodetoSlotOperation.new(fields) return end
+function TeleportNodetoSlotOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function TeleportNodetoSlotOperation:Execute(owner) return end
+function TeleportNodetoSlotOperation:Execute(owner) end
 
 ---@param owner gameObject
 ---@return nil
-function TeleportNodetoSlotOperation:Restore(owner) return end
+function TeleportNodetoSlotOperation:Restore(owner) end
 
----@private
 ---@param owner gameObject
 ---@param DeviceInSlot CName|string
 ---@return nil
-function TeleportNodetoSlotOperation:TeleportNodetoSlot(owner, DeviceInSlot) return end
+function TeleportNodetoSlotOperation:TeleportNodetoSlot(owner, DeviceInSlot) end

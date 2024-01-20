@@ -5,15 +5,15 @@ OpenInteriorManager = {}
 
 ---@param fields? OpenInteriorManager
 ---@return OpenInteriorManager
-function OpenInteriorManager.new(fields) return end
+function OpenInteriorManager.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function OpenInteriorManager.IsDefaultConditionMet(device, context) return end
+function OpenInteriorManager.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function OpenInteriorManager:GetTweakDBChoiceRecord() return end
+function OpenInteriorManager:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function OpenInteriorManager:SetProperties() return end
+function OpenInteriorManager:SetProperties() end

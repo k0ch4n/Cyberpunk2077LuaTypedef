@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioRadioTrack
----@field public trackEventName CName
----@field public localizationKey CName
----@field public primaryLocKey Uint64
----@field public isStreamingFriendly Bool
+---@field trackEventName CName
+---@field localizationKey CName
+---@field primaryLocKey Uint64
+---@field isStreamingFriendly Bool
 audioRadioTrack = {}
 
 ---@param fields? audioRadioTrack
 ---@return audioRadioTrack
-function audioRadioTrack.new(fields) return end
+function audioRadioTrack.new(fields) end

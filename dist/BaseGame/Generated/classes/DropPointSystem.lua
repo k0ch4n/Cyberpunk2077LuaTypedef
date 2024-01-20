@@ -1,140 +1,120 @@
 ---@meta
 
 ---@class DropPointSystem: gameScriptableSystem
----@field private packages DropPointPackage[]
----@field private mappins DropPointMappinRegistrationData[]
----@field private isEnabled Bool
----@field private dropPointSystemLocks DropPointSystemLock[]
+---@field packages DropPointPackage[]
+---@field mappins DropPointMappinRegistrationData[]
+---@field isEnabled Bool
+---@field dropPointSystemLocks DropPointSystemLock[]
 DropPointSystem = {}
 
 ---@param fields? DropPointSystem
 ---@return DropPointSystem
-function DropPointSystem.new(fields) return end
+function DropPointSystem.new(fields) end
 
----@private
 ---@param reason CName|string
 ---@return nil
-function DropPointSystem:AddDropPointSystemLock(reason) return end
+function DropPointSystem:AddDropPointSystemLock(reason) end
 
 ---@param record TweakDBID|string
 ---@param dropPoint gamePersistentID
 ---@return Bool
-function DropPointSystem:CanDeposit(record, dropPoint) return end
+function DropPointSystem:CanDeposit(record, dropPoint) end
 
----@private
 ---@param request DropPointRequest
 ---@return nil
-function DropPointSystem:CreatePackage(request) return end
+function DropPointSystem:CreatePackage(request) end
 
----@private
 ---@param ownerID entEntityID
 ---@return DropPointMappinRegistrationData
-function DropPointSystem:GetMappinData(ownerID) return end
+function DropPointSystem:GetMappinData(ownerID) end
 
----@private
 ---@return gamemappinsMappinSystem
-function DropPointSystem:GetMappinSystem() return end
+function DropPointSystem:GetMappinSystem() end
 
 ---@param user gameObject
 ---@param dropPoint gamePersistentID
 ---@return Bool
-function DropPointSystem:HasItemsThatCanBeDeposited(user, dropPoint) return end
+function DropPointSystem:HasItemsThatCanBeDeposited(user, dropPoint) end
 
----@private
 ---@param ownerID entEntityID
 ---@return Bool
-function DropPointSystem:HasMappin(ownerID) return end
+function DropPointSystem:HasMappin(ownerID) end
 
----@protected
 ---@param items gameItemData[]
 ---@param dropPoint gamePersistentID
 ---@return Bool
-function DropPointSystem:HasMeaningfulItems(items, dropPoint) return end
+function DropPointSystem:HasMeaningfulItems(items, dropPoint) end
 
----@private
 ---@param informDevice? Bool
 ---@return nil
-function DropPointSystem:HideDropPointMappins(informDevice) return end
+function DropPointSystem:HideDropPointMappins(informDevice) end
 
 ---@param record TweakDBID|string
 ---@param status DropPointPackageStatus
 ---@return Bool
-function DropPointSystem:Is(record, status) return end
+function DropPointSystem:Is(record, status) end
 
 ---@param record TweakDBID|string
 ---@return Bool
-function DropPointSystem:IsActive(record) return end
+function DropPointSystem:IsActive(record) end
 
 ---@param record TweakDBID|string
 ---@return Bool
-function DropPointSystem:IsCollected(record) return end
+function DropPointSystem:IsCollected(record) end
 
 ---@return Bool
-function DropPointSystem:IsEnabled() return end
+function DropPointSystem:IsEnabled() end
 
----@private
 ---@return nil
-function DropPointSystem:OnAttach() return end
+function DropPointSystem:OnAttach() end
 
----@protected
 ---@param dropPointRequest DropPointRequest
 ---@return nil
-function DropPointSystem:OnDropPointRequest(dropPointRequest) return end
+function DropPointSystem:OnDropPointRequest(dropPointRequest) end
 
----@protected
 ---@param request RegisterDropPointMappinRequest
 ---@return nil
-function DropPointSystem:OnRegisterDropPointMappinRequest(request) return end
+function DropPointSystem:OnRegisterDropPointMappinRequest(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function DropPointSystem:OnRestored(saveVersion, gameVersion) return end
+function DropPointSystem:OnRestored(saveVersion, gameVersion) end
 
----@protected
 ---@param request ToggleDropPointSystemRequest
 ---@return nil
-function DropPointSystem:OnToggleDropPointSystemRequest(request) return end
+function DropPointSystem:OnToggleDropPointSystemRequest(request) end
 
----@protected
 ---@param request UnregisterDropPointMappinRequest
 ---@return nil
-function DropPointSystem:OnUnregisterDropPointMappinRequest(request) return end
+function DropPointSystem:OnUnregisterDropPointMappinRequest(request) end
 
----@private
 ---@param data DropPointMappinRegistrationData
 ---@return nil
-function DropPointSystem:RegisterDropPointMappin(data) return end
+function DropPointSystem:RegisterDropPointMappin(data) end
 
----@private
 ---@param reason CName|string
 ---@return nil
-function DropPointSystem:RemoveDropPointSystemLock(reason) return end
+function DropPointSystem:RemoveDropPointSystemLock(reason) end
 
----@private
 ---@param ownerID entEntityID
 ---@return nil
-function DropPointSystem:RemoveMappinData(ownerID) return end
+function DropPointSystem:RemoveMappinData(ownerID) end
 
----@private
 ---@param informDevice? Bool
 ---@return nil
-function DropPointSystem:RestoreDropPointMappins(informDevice) return end
+function DropPointSystem:RestoreDropPointMappins(informDevice) end
 
----@private
 ---@param data DropPointMappinRegistrationData
 ---@return nil
-function DropPointSystem:UnregisterDropPointMappin(data) return end
+function DropPointSystem:UnregisterDropPointMappin(data) end
 
----@private
 ---@param dropPointRequest DropPointRequest
 ---@return nil
-function DropPointSystem:UpdatePackage(dropPointRequest) return end
+function DropPointSystem:UpdatePackage(dropPointRequest) end
 
----@private
 ---@param package DropPointPackage
 ---@param status DropPointPackageStatus
 ---@param holder gamePersistentID
 ---@return nil
-function DropPointSystem:UpdateRecord(package, status, holder) return end
+function DropPointSystem:UpdateRecord(package, status, holder) end

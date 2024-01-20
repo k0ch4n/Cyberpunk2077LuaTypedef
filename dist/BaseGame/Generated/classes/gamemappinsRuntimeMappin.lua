@@ -5,11 +5,11 @@ gamemappinsRuntimeMappin = {}
 
 ---@param fields? gamemappinsRuntimeMappin
 ---@return gamemappinsRuntimeMappin
-function gamemappinsRuntimeMappin.new(fields) return end
+function gamemappinsRuntimeMappin.new(fields) end
 
 ---@param visible Bool
 ---@return nil
-function gamemappinsRuntimeMappin:EnableVisibilityThroughWalls(visible) return end
+function gamemappinsRuntimeMappin:EnableVisibilityThroughWalls(visible) end
 
 ---@return Bool
-function gamemappinsRuntimeMappin:GetOwnerObjectMarkerPossibility() return end
+function gamemappinsRuntimeMappin:GetOwnerObjectMarkerPossibility() end

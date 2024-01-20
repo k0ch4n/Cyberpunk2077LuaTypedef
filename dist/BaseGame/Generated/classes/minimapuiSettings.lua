@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class minimapuiSettings
----@field public showTime Float
----@field public hideTime Float
+---@field showTime Float
+---@field hideTime Float
 minimapuiSettings = {}
 
 ---@param fields? minimapuiSettings
 ---@return minimapuiSettings
-function minimapuiSettings.new(fields) return end
+function minimapuiSettings.new(fields) end

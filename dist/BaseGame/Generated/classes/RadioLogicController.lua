@@ -1,40 +1,38 @@
 ---@meta
 
 ---@class RadioLogicController: IVehicleModuleController
----@field private radioTextWidget inkTextWidgetReference
----@field private radioEQWidget inkCanvasWidgetReference
----@field private radioStateBBConnectionId redCallbackObject
----@field private radioNameBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private eqLoopAnimProxy inkanimProxy
----@field private radioTextWidgetSize Vector2
+---@field radioTextWidget inkTextWidgetReference
+---@field radioEQWidget inkCanvasWidgetReference
+---@field radioStateBBConnectionId redCallbackObject
+---@field radioNameBBConnectionId redCallbackObject
+---@field vehBB gameIBlackboard
+---@field eqLoopAnimProxy inkanimProxy
+---@field radioTextWidgetSize Vector2
 RadioLogicController = {}
 
 ---@param fields? RadioLogicController
 ---@return RadioLogicController
-function RadioLogicController.new(fields) return end
+function RadioLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function RadioLogicController:OnUninitialize() return end
+function RadioLogicController:OnUninitialize() end
 
----@private
 ---@return nil
-function RadioLogicController:InternalUnregisterCallbacks() return end
+function RadioLogicController:InternalUnregisterCallbacks() end
 
 ---@param station CName|string
 ---@return nil
-function RadioLogicController:OnRadioNameChanged(station) return end
+function RadioLogicController:OnRadioNameChanged(station) end
 
 ---@param state Bool
 ---@return nil
-function RadioLogicController:OnRadioStateChanged(state) return end
+function RadioLogicController:OnRadioStateChanged(state) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function RadioLogicController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function RadioLogicController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function RadioLogicController:UnregisterCallbacks() return end
+function RadioLogicController:UnregisterCallbacks() end

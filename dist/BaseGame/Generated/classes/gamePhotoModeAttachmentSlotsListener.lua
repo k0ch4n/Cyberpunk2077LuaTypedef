@@ -5,4 +5,4 @@ gamePhotoModeAttachmentSlotsListener = {}
 
 ---@param fields? gamePhotoModeAttachmentSlotsListener
 ---@return gamePhotoModeAttachmentSlotsListener
-function gamePhotoModeAttachmentSlotsListener.new(fields) return end
+function gamePhotoModeAttachmentSlotsListener.new(fields) end

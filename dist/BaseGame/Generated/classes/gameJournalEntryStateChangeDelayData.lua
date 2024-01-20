@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameJournalEntryStateChangeDelayData
----@field public entryPath gameJournalPath
----@field public entryType CName
----@field public oldState gameJournalEntryState
----@field public newState gameJournalEntryState
----@field public notifyOption gameJournalNotifyOption
----@field public changeType gameJournalChangeType
----@field public delay Float
+---@field entryPath gameJournalPath
+---@field entryType CName
+---@field oldState gameJournalEntryState
+---@field newState gameJournalEntryState
+---@field notifyOption gameJournalNotifyOption
+---@field changeType gameJournalChangeType
+---@field delay Float
 gameJournalEntryStateChangeDelayData = {}
 
 ---@param fields? gameJournalEntryStateChangeDelayData
 ---@return gameJournalEntryStateChangeDelayData
-function gameJournalEntryStateChangeDelayData.new(fields) return end
+function gameJournalEntryStateChangeDelayData.new(fields) end

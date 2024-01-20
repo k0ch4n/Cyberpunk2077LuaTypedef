@@ -5,4 +5,4 @@ genNullRandomizationSupervisor = {}
 
 ---@param fields? genNullRandomizationSupervisor
 ---@return genNullRandomizationSupervisor
-function genNullRandomizationSupervisor.new(fields) return end
+function genNullRandomizationSupervisor.new(fields) end

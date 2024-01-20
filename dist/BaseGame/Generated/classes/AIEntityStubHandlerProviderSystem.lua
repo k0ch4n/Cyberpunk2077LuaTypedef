@@ -5,4 +5,4 @@ AIEntityStubHandlerProviderSystem = {}
 
 ---@param fields? AIEntityStubHandlerProviderSystem
 ---@return AIEntityStubHandlerProviderSystem
-function AIEntityStubHandlerProviderSystem.new(fields) return end
+function AIEntityStubHandlerProviderSystem.new(fields) end

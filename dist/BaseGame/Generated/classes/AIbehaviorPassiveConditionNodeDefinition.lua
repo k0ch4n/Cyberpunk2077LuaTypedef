@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorPassiveConditionNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public condition AIbehaviorPassiveConditionDefinition
----@field public resultIfFailed AIbehaviorCompletionStatus
+---@field condition AIbehaviorPassiveConditionDefinition
+---@field resultIfFailed AIbehaviorCompletionStatus
 AIbehaviorPassiveConditionNodeDefinition = {}
 
 ---@param fields? AIbehaviorPassiveConditionNodeDefinition
 ---@return AIbehaviorPassiveConditionNodeDefinition
-function AIbehaviorPassiveConditionNodeDefinition.new(fields) return end
+function AIbehaviorPassiveConditionNodeDefinition.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VehicleLightQuestChangeColorEvent: redEvent
----@field public color Color
----@field public lightType vehicleELightType
+---@field color Color
+---@field lightType vehicleELightType
 VehicleLightQuestChangeColorEvent = {}
 
 ---@param fields? VehicleLightQuestChangeColorEvent
 ---@return VehicleLightQuestChangeColorEvent
-function VehicleLightQuestChangeColorEvent.new(fields) return end
+function VehicleLightQuestChangeColorEvent.new(fields) end
 
 ---@return String
-function VehicleLightQuestChangeColorEvent:GetFriendlyDescription() return end
+function VehicleLightQuestChangeColorEvent:GetFriendlyDescription() end

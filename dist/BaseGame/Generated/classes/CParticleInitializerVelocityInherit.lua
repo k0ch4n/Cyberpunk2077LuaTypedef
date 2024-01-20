@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleInitializerVelocityInherit: IParticleInitializer
----@field public scale IEvaluatorFloat
+---@field scale IEvaluatorFloat
 CParticleInitializerVelocityInherit = {}
 
 ---@param fields? CParticleInitializerVelocityInherit
 ---@return CParticleInitializerVelocityInherit
-function CParticleInitializerVelocityInherit.new(fields) return end
+function CParticleInitializerVelocityInherit.new(fields) end

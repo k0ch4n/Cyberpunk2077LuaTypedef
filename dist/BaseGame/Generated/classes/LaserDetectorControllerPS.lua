@@ -5,12 +5,10 @@ LaserDetectorControllerPS = {}
 
 ---@param fields? LaserDetectorControllerPS
 ---@return LaserDetectorControllerPS
-function LaserDetectorControllerPS.new(fields) return end
+function LaserDetectorControllerPS.new(fields) end
 
----@protected
 ---@return TweakDBID
-function LaserDetectorControllerPS:GetBackgroundTextureTweakDBID() return end
+function LaserDetectorControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function LaserDetectorControllerPS:GetDeviceIconTweakDBID() return end
+function LaserDetectorControllerPS:GetDeviceIconTweakDBID() end

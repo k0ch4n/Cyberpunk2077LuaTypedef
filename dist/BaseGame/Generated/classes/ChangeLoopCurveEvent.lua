@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ChangeLoopCurveEvent: redEvent
----@field public loopTime Float
----@field public loopCurve CName
+---@field loopTime Float
+---@field loopCurve CName
 ChangeLoopCurveEvent = {}
 
 ---@param fields? ChangeLoopCurveEvent
 ---@return ChangeLoopCurveEvent
-function ChangeLoopCurveEvent.new(fields) return end
+function ChangeLoopCurveEvent.new(fields) end
 
 ---@return String
-function ChangeLoopCurveEvent:GetFriendlyDescription() return end
+function ChangeLoopCurveEvent:GetFriendlyDescription() end

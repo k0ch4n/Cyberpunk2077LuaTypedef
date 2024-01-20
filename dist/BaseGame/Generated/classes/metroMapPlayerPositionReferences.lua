@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class metroMapPlayerPositionReferences
----@field public lineNumber Uint32
----@field public positionRefWidget inkWidgetReference
+---@field lineNumber Uint32
+---@field positionRefWidget inkWidgetReference
 metroMapPlayerPositionReferences = {}
 
 ---@param fields? metroMapPlayerPositionReferences
 ---@return metroMapPlayerPositionReferences
-function metroMapPlayerPositionReferences.new(fields) return end
+function metroMapPlayerPositionReferences.new(fields) end

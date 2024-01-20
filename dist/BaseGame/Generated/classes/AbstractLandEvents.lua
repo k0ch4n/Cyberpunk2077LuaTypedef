@@ -1,28 +1,26 @@
 ---@meta
 
 ---@class AbstractLandEvents: LocomotionGroundEvents
----@field public blockLandingStimBroadcasting Bool
+---@field blockLandingStimBroadcasting Bool
 AbstractLandEvents = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stimType gamedataStimType
 ---@return nil
-function AbstractLandEvents:BroadcastLandingStim(stateContext, scriptInterface, stimType) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function AbstractLandEvents:EvaluatePlayingLandingVFX(stateContext, scriptInterface) return end
+function AbstractLandEvents:BroadcastLandingStim(stateContext, scriptInterface, stimType) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AbstractLandEvents:OnEnter(stateContext, scriptInterface) return end
+function AbstractLandEvents:EvaluatePlayingLandingVFX(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AbstractLandEvents:OnExit(stateContext, scriptInterface) return end
+function AbstractLandEvents:OnEnter(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function AbstractLandEvents:OnExit(stateContext, scriptInterface) end

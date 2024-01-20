@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetAggressiveMask: redEvent
----@field public isAggressive Bool
+---@field isAggressive Bool
 gameSetAggressiveMask = {}
 
 ---@param fields? gameSetAggressiveMask
 ---@return gameSetAggressiveMask
-function gameSetAggressiveMask.new(fields) return end
+function gameSetAggressiveMask.new(fields) end

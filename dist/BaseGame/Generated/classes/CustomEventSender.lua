@@ -5,10 +5,10 @@ CustomEventSender = {}
 
 ---@param fields? CustomEventSender
 ---@return CustomEventSender
-function CustomEventSender.new(fields) return end
+function CustomEventSender.new(fields) end
 
 ---@return String
-function CustomEventSender:GetEditorSubCaption() return end
+function CustomEventSender:GetEditorSubCaption() end
 
 ---@return Float
-function CustomEventSender:GetSignalLifeTime() return end
+function CustomEventSender:GetSignalLifeTime() end

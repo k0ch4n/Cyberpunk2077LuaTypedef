@@ -5,169 +5,169 @@ gamedataVehicleDestruction_Record = {}
 
 ---@param fields? gamedataVehicleDestruction_Record
 ---@return gamedataVehicleDestruction_Record
-function gamedataVehicleDestruction_Record.new(fields) return end
+function gamedataVehicleDestruction_Record.new(fields) end
 
 ---@return Vector3
-function gamedataVehicleDestruction_Record:ChargePortCenter() return end
+function gamedataVehicleDestruction_Record:ChargePortCenter() end
 
 ---@return Float
-function gamedataVehicleDestruction_Record:ChargePortRadius() return end
+function gamedataVehicleDestruction_Record:ChargePortRadius() end
 
 ---@return Float
-function gamedataVehicleDestruction_Record:DamageExponent() return end
+function gamedataVehicleDestruction_Record:DamageExponent() end
 
 ---@return Float
-function gamedataVehicleDestruction_Record:DamageThreshold() return end
+function gamedataVehicleDestruction_Record:DamageThreshold() end
 
 ---@return nil, gamedataVehicleDeformablePart_Record[] outList
-function gamedataVehicleDestruction_Record:DeformableParts() return end
+function gamedataVehicleDestruction_Record:DeformableParts() end
 
 ---@param item gamedataVehicleDeformablePart_Record
 ---@return Bool
-function gamedataVehicleDestruction_Record:DeformablePartsContains(item) return end
+function gamedataVehicleDestruction_Record:DeformablePartsContains(item) end
 
 ---@return nil, gamedataVehicleDetachablePart_Record[] outList
-function gamedataVehicleDestruction_Record:DetachableParts() return end
+function gamedataVehicleDestruction_Record:DetachableParts() end
 
 ---@param item gamedataVehicleDetachablePart_Record
 ---@return Bool
-function gamedataVehicleDestruction_Record:DetachablePartsContains(item) return end
+function gamedataVehicleDestruction_Record:DetachablePartsContains(item) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataVehicleDestruction_Record:DetachedPartExplosionEffect() return end
+function gamedataVehicleDestruction_Record:DetachedPartExplosionEffect() end
 
 ---@return nil, gamedataVehicleDoorDetachRule_Record[] outList
-function gamedataVehicleDestruction_Record:DoorDetachRules() return end
+function gamedataVehicleDestruction_Record:DoorDetachRules() end
 
 ---@param item gamedataVehicleDoorDetachRule_Record
 ---@return Bool
-function gamedataVehicleDestruction_Record:DoorDetachRulesContains(item) return end
+function gamedataVehicleDestruction_Record:DoorDetachRulesContains(item) end
 
 ---@return Bool
-function gamedataVehicleDestruction_Record:EnableOnHit() return end
+function gamedataVehicleDestruction_Record:EnableOnHit() end
 
 ---@return Float
-function gamedataVehicleDestruction_Record:ForcePropagationFalloff() return end
+function gamedataVehicleDestruction_Record:ForcePropagationFalloff() end
 
 ---@return Int32
-function gamedataVehicleDestruction_Record:GetDeformablePartsCount() return end
+function gamedataVehicleDestruction_Record:GetDeformablePartsCount() end
 
 ---@param index Int32
 ---@return gamedataVehicleDeformablePart_Record
-function gamedataVehicleDestruction_Record:GetDeformablePartsItem(index) return end
+function gamedataVehicleDestruction_Record:GetDeformablePartsItem(index) end
 
 ---@param index Int32
 ---@return gamedataVehicleDeformablePart_Record
-function gamedataVehicleDestruction_Record:GetDeformablePartsItemHandle(index) return end
+function gamedataVehicleDestruction_Record:GetDeformablePartsItemHandle(index) end
 
 ---@return Int32
-function gamedataVehicleDestruction_Record:GetDetachablePartsCount() return end
+function gamedataVehicleDestruction_Record:GetDetachablePartsCount() end
 
 ---@param index Int32
 ---@return gamedataVehicleDetachablePart_Record
-function gamedataVehicleDestruction_Record:GetDetachablePartsItem(index) return end
+function gamedataVehicleDestruction_Record:GetDetachablePartsItem(index) end
 
 ---@param index Int32
 ---@return gamedataVehicleDetachablePart_Record
-function gamedataVehicleDestruction_Record:GetDetachablePartsItemHandle(index) return end
+function gamedataVehicleDestruction_Record:GetDetachablePartsItemHandle(index) end
 
 ---@return Int32
-function gamedataVehicleDestruction_Record:GetDoorDetachRulesCount() return end
+function gamedataVehicleDestruction_Record:GetDoorDetachRulesCount() end
 
 ---@param index Int32
 ---@return gamedataVehicleDoorDetachRule_Record
-function gamedataVehicleDestruction_Record:GetDoorDetachRulesItem(index) return end
+function gamedataVehicleDestruction_Record:GetDoorDetachRulesItem(index) end
 
 ---@param index Int32
 ---@return gamedataVehicleDoorDetachRule_Record
-function gamedataVehicleDestruction_Record:GetDoorDetachRulesItemHandle(index) return end
+function gamedataVehicleDestruction_Record:GetDoorDetachRulesItemHandle(index) end
 
 ---@return Int32
-function gamedataVehicleDestruction_Record:GetGlassCount() return end
+function gamedataVehicleDestruction_Record:GetGlassCount() end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructibleGlass_Record
-function gamedataVehicleDestruction_Record:GetGlassItem(index) return end
+function gamedataVehicleDestruction_Record:GetGlassItem(index) end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructibleGlass_Record
-function gamedataVehicleDestruction_Record:GetGlassItemHandle(index) return end
+function gamedataVehicleDestruction_Record:GetGlassItemHandle(index) end
 
 ---@return Int32
-function gamedataVehicleDestruction_Record:GetLightsCount() return end
+function gamedataVehicleDestruction_Record:GetLightsCount() end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructibleLight_Record
-function gamedataVehicleDestruction_Record:GetLightsItem(index) return end
+function gamedataVehicleDestruction_Record:GetLightsItem(index) end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructibleLight_Record
-function gamedataVehicleDestruction_Record:GetLightsItemHandle(index) return end
+function gamedataVehicleDestruction_Record:GetLightsItemHandle(index) end
 
 ---@return Int32
-function gamedataVehicleDestruction_Record:GetPointDampersCount() return end
+function gamedataVehicleDestruction_Record:GetPointDampersCount() end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructionPointDamper_Record
-function gamedataVehicleDestruction_Record:GetPointDampersItem(index) return end
+function gamedataVehicleDestruction_Record:GetPointDampersItem(index) end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructionPointDamper_Record
-function gamedataVehicleDestruction_Record:GetPointDampersItemHandle(index) return end
+function gamedataVehicleDestruction_Record:GetPointDampersItemHandle(index) end
 
 ---@return Int32
-function gamedataVehicleDestruction_Record:GetWheelsCount() return end
+function gamedataVehicleDestruction_Record:GetWheelsCount() end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructibleWheel_Record
-function gamedataVehicleDestruction_Record:GetWheelsItem(index) return end
+function gamedataVehicleDestruction_Record:GetWheelsItem(index) end
 
 ---@param index Int32
 ---@return gamedataVehicleDestructibleWheel_Record
-function gamedataVehicleDestruction_Record:GetWheelsItemHandle(index) return end
+function gamedataVehicleDestruction_Record:GetWheelsItemHandle(index) end
 
 ---@return nil, gamedataVehicleDestructibleGlass_Record[] outList
-function gamedataVehicleDestruction_Record:Glass() return end
+function gamedataVehicleDestruction_Record:Glass() end
 
 ---@param item gamedataVehicleDestructibleGlass_Record
 ---@return Bool
-function gamedataVehicleDestruction_Record:GlassContains(item) return end
+function gamedataVehicleDestruction_Record:GlassContains(item) end
 
 ---@return Vector3
-function gamedataVehicleDestruction_Record:GridDimensions() return end
+function gamedataVehicleDestruction_Record:GridDimensions() end
 
 ---@return Vector3
-function gamedataVehicleDestruction_Record:GridLocalOffset() return end
+function gamedataVehicleDestruction_Record:GridLocalOffset() end
 
 ---@return nil, gamedataVehicleDestructibleLight_Record[] outList
-function gamedataVehicleDestruction_Record:Lights() return end
+function gamedataVehicleDestruction_Record:Lights() end
 
 ---@param item gamedataVehicleDestructibleLight_Record
 ---@return Bool
-function gamedataVehicleDestruction_Record:LightsContains(item) return end
+function gamedataVehicleDestruction_Record:LightsContains(item) end
 
 ---@return Float
-function gamedataVehicleDestruction_Record:OnHitVelocity() return end
+function gamedataVehicleDestruction_Record:OnHitVelocity() end
 
 ---@return nil, gamedataVehicleDestructionPointDamper_Record[] outList
-function gamedataVehicleDestruction_Record:PointDampers() return end
+function gamedataVehicleDestruction_Record:PointDampers() end
 
 ---@param item gamedataVehicleDestructionPointDamper_Record
 ---@return Bool
-function gamedataVehicleDestruction_Record:PointDampersContains(item) return end
+function gamedataVehicleDestruction_Record:PointDampersContains(item) end
 
 ---@return Vector3
-function gamedataVehicleDestruction_Record:VehicleDimensions() return end
+function gamedataVehicleDestruction_Record:VehicleDimensions() end
 
 ---@return Float
-function gamedataVehicleDestruction_Record:VelocityValueMaxDamage() return end
+function gamedataVehicleDestruction_Record:VelocityValueMaxDamage() end
 
 ---@return Float
-function gamedataVehicleDestruction_Record:VelocityValueMinDamage() return end
+function gamedataVehicleDestruction_Record:VelocityValueMinDamage() end
 
 ---@return nil, gamedataVehicleDestructibleWheel_Record[] outList
-function gamedataVehicleDestruction_Record:Wheels() return end
+function gamedataVehicleDestruction_Record:Wheels() end
 
 ---@param item gamedataVehicleDestructibleWheel_Record
 ---@return Bool
-function gamedataVehicleDestruction_Record:WheelsContains(item) return end
+function gamedataVehicleDestruction_Record:WheelsContains(item) end

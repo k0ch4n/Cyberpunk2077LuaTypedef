@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AICombatGuardAreaConnectedCommunity
----@field public communityArea gameEntityReference
----@field public conditions AIICombatGuardAreaCondition[]
+---@field communityArea gameEntityReference
+---@field conditions AIICombatGuardAreaCondition[]
 AICombatGuardAreaConnectedCommunity = {}
 
 ---@param fields? AICombatGuardAreaConnectedCommunity
 ---@return AICombatGuardAreaConnectedCommunity
-function AICombatGuardAreaConnectedCommunity.new(fields) return end
+function AICombatGuardAreaConnectedCommunity.new(fields) end

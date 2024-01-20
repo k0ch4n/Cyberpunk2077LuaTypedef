@@ -5,22 +5,18 @@ E3EndMenuGameController = {}
 
 ---@param fields? E3EndMenuGameController
 ---@return E3EndMenuGameController
-function E3EndMenuGameController.new(fields) return end
+function E3EndMenuGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function E3EndMenuGameController:OnAnyKeyPress(e) return end
+function E3EndMenuGameController:OnAnyKeyPress(e) end
 
----@protected
 ---@return Bool
-function E3EndMenuGameController:OnInitialize() return end
+function E3EndMenuGameController:OnInitialize() end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function E3EndMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function E3EndMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function E3EndMenuGameController:OnUninitialize() return end
+function E3EndMenuGameController:OnUninitialize() end

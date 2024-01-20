@@ -5,4 +5,4 @@ OnHoverOver = {}
 
 ---@param fields? OnHoverOver
 ---@return OnHoverOver
-function OnHoverOver.new(fields) return end
+function OnHoverOver.new(fields) end

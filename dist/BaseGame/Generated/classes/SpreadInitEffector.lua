@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class SpreadInitEffector: gameEffector
----@field public objectActionRecord gamedataObjectAction_Record
----@field public effectorRecord gamedataSpreadInitEffector_Record
----@field public player PlayerPuppet
----@field public applyOverclock Bool
+---@field objectActionRecord gamedataObjectAction_Record
+---@field effectorRecord gamedataSpreadInitEffector_Record
+---@field player PlayerPuppet
+---@field applyOverclock Bool
 SpreadInitEffector = {}
 
 ---@param fields? SpreadInitEffector
 ---@return SpreadInitEffector
-function SpreadInitEffector.new(fields) return end
+function SpreadInitEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SpreadInitEffector:ActionOn(owner) return end
+function SpreadInitEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SpreadInitEffector:Initialize(record, parentRecord) return end
+function SpreadInitEffector:Initialize(record, parentRecord) end

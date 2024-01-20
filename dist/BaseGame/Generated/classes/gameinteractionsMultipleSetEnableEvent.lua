@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameinteractionsMultipleSetEnableEvent: redEvent
----@field public enable Bool
----@field public layer CName
----@field public linkedLayers CName
+---@field enable Bool
+---@field layer CName
+---@field linkedLayers CName
 gameinteractionsMultipleSetEnableEvent = {}
 
 ---@param fields? gameinteractionsMultipleSetEnableEvent
 ---@return gameinteractionsMultipleSetEnableEvent
-function gameinteractionsMultipleSetEnableEvent.new(fields) return end
+function gameinteractionsMultipleSetEnableEvent.new(fields) end
 
 ---@param enable Bool
 ---@param layer CName|string
 ---@param linkedLayers? CName|string
 ---@return nil
-function gameinteractionsMultipleSetEnableEvent:PushBack(enable, layer, linkedLayers) return end
+function gameinteractionsMultipleSetEnableEvent:PushBack(enable, layer, linkedLayers) end

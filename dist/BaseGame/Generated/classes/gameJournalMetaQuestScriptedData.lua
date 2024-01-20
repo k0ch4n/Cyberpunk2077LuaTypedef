@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameJournalMetaQuestScriptedData
----@field public percent Uint32
----@field public hidden Bool
----@field public text String
+---@field percent Uint32
+---@field hidden Bool
+---@field text String
 gameJournalMetaQuestScriptedData = {}
 
 ---@param fields? gameJournalMetaQuestScriptedData
 ---@return gameJournalMetaQuestScriptedData
-function gameJournalMetaQuestScriptedData.new(fields) return end
+function gameJournalMetaQuestScriptedData.new(fields) end

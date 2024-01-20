@@ -5,4 +5,4 @@ worldLightChannelShapeNodeInstance = {}
 
 ---@param fields? worldLightChannelShapeNodeInstance
 ---@return worldLightChannelShapeNodeInstance
-function worldLightChannelShapeNodeInstance.new(fields) return end
+function worldLightChannelShapeNodeInstance.new(fields) end

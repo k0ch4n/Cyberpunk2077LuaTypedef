@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiSongbirdAudioCallGameController: gameuiHUDGameController
----@field public waveformEnabled Bool
----@field public voLevelsUpdateTimer Float
----@field public intensityMultiplier Float
----@field public targets inkWidgetReference[]
+---@field waveformEnabled Bool
+---@field voLevelsUpdateTimer Float
+---@field intensityMultiplier Float
+---@field targets inkWidgetReference[]
 gameuiSongbirdAudioCallGameController = {}
 
 ---@param fields? gameuiSongbirdAudioCallGameController
 ---@return gameuiSongbirdAudioCallGameController
-function gameuiSongbirdAudioCallGameController.new(fields) return end
+function gameuiSongbirdAudioCallGameController.new(fields) end

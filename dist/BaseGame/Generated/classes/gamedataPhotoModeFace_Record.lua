@@ -5,7 +5,7 @@ gamedataPhotoModeFace_Record = {}
 
 ---@param fields? gamedataPhotoModeFace_Record
 ---@return gamedataPhotoModeFace_Record
-function gamedataPhotoModeFace_Record.new(fields) return end
+function gamedataPhotoModeFace_Record.new(fields) end
 
 ---@return Int32
-function gamedataPhotoModeFace_Record:FaceId() return end
+function gamedataPhotoModeFace_Record:FaceId() end

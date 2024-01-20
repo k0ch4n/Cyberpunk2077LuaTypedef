@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class RegisterDropPointMappinRequest: gameScriptableSystemRequest
----@field public ownerID entEntityID
----@field public position Vector4
----@field public trackingAlternativeMappinID gameNewMappinID
+---@field ownerID entEntityID
+---@field position Vector4
+---@field trackingAlternativeMappinID gameNewMappinID
 RegisterDropPointMappinRequest = {}
 
 ---@param fields? RegisterDropPointMappinRequest
 ---@return RegisterDropPointMappinRequest
-function RegisterDropPointMappinRequest.new(fields) return end
+function RegisterDropPointMappinRequest.new(fields) end

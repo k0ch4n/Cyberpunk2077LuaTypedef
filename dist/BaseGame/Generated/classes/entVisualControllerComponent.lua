@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class entVisualControllerComponent: entIComponent
----@field public meshProxy CMesh
----@field public appearanceDependency entVisualControllerDependency[]
----@field public cookedAppearanceData appearanceCookedAppearanceData
----@field public forcedLodDistance entForcedLodDistance
+---@field meshProxy CMesh
+---@field appearanceDependency entVisualControllerDependency[]
+---@field cookedAppearanceData appearanceCookedAppearanceData
+---@field forcedLodDistance entForcedLodDistance
 entVisualControllerComponent = {}
 
 ---@param fields? entVisualControllerComponent
 ---@return entVisualControllerComponent
-function entVisualControllerComponent.new(fields) return end
+function entVisualControllerComponent.new(fields) end

@@ -1,115 +1,102 @@
 ---@meta
 
 ---@class MeleeBodySlamAttackEvents: MeleeEventsTransition
----@field public effect gameEffectInstance
----@field public speedModifier gameStatModifierData_Deprecated
----@field public stunModifier gameStatModifierData_Deprecated
----@field public chargeStage Int32
----@field public attackSpawnDelay Float
----@field public timeToFullAttack Float
----@field public nextAttackRefresh Float
----@field public playBumpSFX Bool
----@field public bumpCallback redCallbackObject
----@field public delayBetweenBumpSFX Float
----@field public bumpSFXCooldown Float
----@field public staminaCost Float
----@field public fullAttackIndex Int32
----@field public weakAttackIndex Int32
+---@field effect gameEffectInstance
+---@field speedModifier gameStatModifierData_Deprecated
+---@field stunModifier gameStatModifierData_Deprecated
+---@field chargeStage Int32
+---@field attackSpawnDelay Float
+---@field timeToFullAttack Float
+---@field nextAttackRefresh Float
+---@field playBumpSFX Bool
+---@field bumpCallback redCallbackObject
+---@field delayBetweenBumpSFX Float
+---@field bumpSFXCooldown Float
+---@field staminaCost Float
+---@field fullAttackIndex Int32
+---@field weakAttackIndex Int32
 MeleeBodySlamAttackEvents = {}
 
 ---@param fields? MeleeBodySlamAttackEvents
 ---@return MeleeBodySlamAttackEvents
-function MeleeBodySlamAttackEvents.new(fields) return end
+function MeleeBodySlamAttackEvents.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function MeleeBodySlamAttackEvents:OnBodySlamBump(value) return end
+function MeleeBodySlamAttackEvents:OnBodySlamBump(value) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:AddSpeedModifier(scriptInterface) return end
+function MeleeBodySlamAttackEvents:AddSpeedModifier(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:AddStunModifier(scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeBodySlamAttackEvents:OnDetach(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackEvents:AddStunModifier(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackEvents:OnDetach(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:OnExit(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeBodySlamAttackEvents:OnExitCommon(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackEvents:OnExit(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeBodySlamAttackEvents:OnExitCommon(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeBodySlamAttackEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeBodySlamAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:RemoveSpeedModifier(scriptInterface) return end
+function MeleeBodySlamAttackEvents:RemoveSpeedModifier(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:RemoveStatModifiers(scriptInterface) return end
+function MeleeBodySlamAttackEvents:RemoveStatModifiers(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:RemoveStunModifier(scriptInterface) return end
+function MeleeBodySlamAttackEvents:RemoveStunModifier(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:SetBodySlamAnimFeature(scriptInterface) return end
+function MeleeBodySlamAttackEvents:SetBodySlamAnimFeature(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param chargeStage Int32
 ---@return nil
-function MeleeBodySlamAttackEvents:SetChargeStage(scriptInterface, chargeStage) return end
+function MeleeBodySlamAttackEvents:SetChargeStage(scriptInterface, chargeStage) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackStage Int32
 ---@return nil
-function MeleeBodySlamAttackEvents:SpawnBodySlamAttack(stateContext, scriptInterface, attackStage) return end
+function MeleeBodySlamAttackEvents:SpawnBodySlamAttack(stateContext, scriptInterface, attackStage) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:UpdateChargeStage(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackEvents:UpdateChargeStage(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBodySlamAttackEvents:UpdateEffectPosition(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackEvents:UpdateEffectPosition(stateContext, scriptInterface) end

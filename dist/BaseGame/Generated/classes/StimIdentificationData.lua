@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class StimIdentificationData
----@field public sourceID entEntityID
----@field public stimType gamedataStimType
----@field public stimName CName
----@field public delayID gameDelayID
+---@field sourceID entEntityID
+---@field stimType gamedataStimType
+---@field stimName CName
+---@field delayID gameDelayID
 StimIdentificationData = {}
 
 ---@param fields? StimIdentificationData
 ---@return StimIdentificationData
-function StimIdentificationData.new(fields) return end
+function StimIdentificationData.new(fields) end

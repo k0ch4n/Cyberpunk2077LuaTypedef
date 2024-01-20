@@ -5,4 +5,4 @@ gamedataDeviceWidgetDefinition_Record = {}
 
 ---@param fields? gamedataDeviceWidgetDefinition_Record
 ---@return gamedataDeviceWidgetDefinition_Record
-function gamedataDeviceWidgetDefinition_Record.new(fields) return end
+function gamedataDeviceWidgetDefinition_Record.new(fields) end

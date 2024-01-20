@@ -1,609 +1,531 @@
 ---@meta
 
 ---@class ScriptableDeviceComponentPS: SharedGameplayPS
----@field protected isInitialized Bool
----@field protected forceResolveStateOnAttach Bool
----@field protected forceVisibilityInAnimSystemOnLogicReady Bool
----@field protected masters gameDeviceComponentPS[]
----@field protected mastersCached Bool
----@field protected deviceName String
----@field protected activationState EActivationState
----@field protected drawGridLink Bool
----@field protected isLinkDynamic Bool
----@field protected fullDepth Bool
----@field public virtualNetworkShapeID TweakDBID
----@field protected tweakDBRecord TweakDBID
----@field protected tweakDBDescriptionRecord TweakDBID
----@field protected contentScale TweakDBID
----@field protected skillCheckContainer BaseSkillCheckContainer
----@field protected hasUICameraZoom Bool
----@field protected allowUICameraZoomDynamicSwitch Bool
----@field protected hasFullScreenUI Bool
----@field protected hasAuthorizationModule Bool
----@field protected hasPersonalLinkSlot Bool
----@field protected backdoorBreachDifficulty EGameplayChallengeLevel
----@field protected shouldSkipNetrunnerMinigame Bool
----@field protected minigameDefinition TweakDBID
----@field protected minigameAttempt Int32
----@field protected hackingMinigameState gameuiHackingMinigameState
----@field protected disablePersonalLinkAutoDisconnect Bool
----@field protected canHandleAdvancedInteraction Bool
----@field protected canBeTrapped Bool
----@field protected disassembleProperties DisassembleOptions
----@field protected flatheadScavengeProperties SpiderbotScavengeOptions
----@field protected destructionProperties DestructionData
----@field protected canPlayerTakeOverControl Bool
----@field protected canBeInDeviceChain Bool
----@field protected personalLinkForced Bool
----@field protected personalLinkCustomInteraction TweakDBID
----@field protected personalLinkStatus EPersonalLinkConnectionStatus
----@field protected isAdvancedInteractionModeOn Bool
----@field protected juryrigTrapState EJuryrigTrapState
----@field protected isControlledByThePlayer Bool
----@field private isHighlightedInFocusMode Bool
----@field protected wasQuickHacked Bool
----@field protected wasQuickHackAttempt Bool
----@field protected lastPerformedQuickHack CName
----@field protected isGlitching Bool
----@field protected isTimedTurnOff Bool
----@field protected isRestarting Bool
----@field protected blockSecurityWakeUp Bool
----@field protected isLockedViaSequencer Bool
----@field protected distractExecuted Bool
----@field protected distractionTimeCompleted Bool
----@field protected hasNPCWorkspotKillInteraction Bool
----@field protected shouldNPCWorkspotFinishLoop Bool
----@field protected durabilityState EDeviceDurabilityState
----@field protected hasBeenScavenged Bool
----@field protected currentlyAuthorizedUsers SecuritySystemClearanceEntry[]
----@field protected performedActions SPerformedActions[]
----@field protected isInitialStateOperationPerformed Bool
----@field protected illegalActions IllegalActionTypes
----@field protected disableQuickHacks Bool
----@field private availableQuickHacks CName[]
----@field protected isKeyloggerInstalled Bool
----@field private actionsWithDisabledRPGChecks TweakDBID[]
----@field private availableSpiderbotActions CName[]
----@field protected currentSpiderbotActionPerformed ScriptableDeviceAction
----@field protected isSpiderbotInteractionOrdered Bool
----@field protected shouldScannerShowStatus Bool
----@field protected shouldScannerShowNetwork Bool
----@field protected shouldScannerShowAttitude Bool
----@field protected shouldScannerShowRole Bool
----@field protected shouldScannerShowHealth Bool
----@field protected debugDevice Bool
----@field protected debugName CName
----@field protected debugExposeQuickHacks Bool
----@field protected debugPath CName
----@field protected debugID Uint32
----@field private isUnderEMPEffect Bool
----@field protected deviceOperationsSetup DeviceOperationsContainer
----@field protected connectionHighlightObjects NodeRef[]
----@field private activeContexts gamedeviceRequestType[]
----@field private playstyles EPlaystyle[]
----@field private quickHackVulnerabilties TweakDBID[]
----@field private quickHackVulnerabiltiesInitialized Bool
----@field private willingInvestigators entEntityID[]
----@field private isInteractive Bool
+---@field isInitialized Bool
+---@field forceResolveStateOnAttach Bool
+---@field forceVisibilityInAnimSystemOnLogicReady Bool
+---@field masters gameDeviceComponentPS[]
+---@field mastersCached Bool
+---@field deviceName String
+---@field activationState EActivationState
+---@field drawGridLink Bool
+---@field isLinkDynamic Bool
+---@field fullDepth Bool
+---@field virtualNetworkShapeID TweakDBID
+---@field tweakDBRecord TweakDBID
+---@field tweakDBDescriptionRecord TweakDBID
+---@field contentScale TweakDBID
+---@field skillCheckContainer BaseSkillCheckContainer
+---@field hasUICameraZoom Bool
+---@field allowUICameraZoomDynamicSwitch Bool
+---@field hasFullScreenUI Bool
+---@field hasAuthorizationModule Bool
+---@field hasPersonalLinkSlot Bool
+---@field backdoorBreachDifficulty EGameplayChallengeLevel
+---@field shouldSkipNetrunnerMinigame Bool
+---@field minigameDefinition TweakDBID
+---@field minigameAttempt Int32
+---@field hackingMinigameState gameuiHackingMinigameState
+---@field disablePersonalLinkAutoDisconnect Bool
+---@field canHandleAdvancedInteraction Bool
+---@field canBeTrapped Bool
+---@field disassembleProperties DisassembleOptions
+---@field flatheadScavengeProperties SpiderbotScavengeOptions
+---@field destructionProperties DestructionData
+---@field canPlayerTakeOverControl Bool
+---@field canBeInDeviceChain Bool
+---@field personalLinkForced Bool
+---@field personalLinkCustomInteraction TweakDBID
+---@field personalLinkStatus EPersonalLinkConnectionStatus
+---@field isAdvancedInteractionModeOn Bool
+---@field juryrigTrapState EJuryrigTrapState
+---@field isControlledByThePlayer Bool
+---@field isHighlightedInFocusMode Bool
+---@field wasQuickHacked Bool
+---@field wasQuickHackAttempt Bool
+---@field lastPerformedQuickHack CName
+---@field isGlitching Bool
+---@field isTimedTurnOff Bool
+---@field isRestarting Bool
+---@field blockSecurityWakeUp Bool
+---@field isLockedViaSequencer Bool
+---@field distractExecuted Bool
+---@field distractionTimeCompleted Bool
+---@field hasNPCWorkspotKillInteraction Bool
+---@field shouldNPCWorkspotFinishLoop Bool
+---@field durabilityState EDeviceDurabilityState
+---@field hasBeenScavenged Bool
+---@field currentlyAuthorizedUsers SecuritySystemClearanceEntry[]
+---@field performedActions SPerformedActions[]
+---@field isInitialStateOperationPerformed Bool
+---@field illegalActions IllegalActionTypes
+---@field disableQuickHacks Bool
+---@field availableQuickHacks CName[]
+---@field isKeyloggerInstalled Bool
+---@field actionsWithDisabledRPGChecks TweakDBID[]
+---@field availableSpiderbotActions CName[]
+---@field currentSpiderbotActionPerformed ScriptableDeviceAction
+---@field isSpiderbotInteractionOrdered Bool
+---@field shouldScannerShowStatus Bool
+---@field shouldScannerShowNetwork Bool
+---@field shouldScannerShowAttitude Bool
+---@field shouldScannerShowRole Bool
+---@field shouldScannerShowHealth Bool
+---@field debugDevice Bool
+---@field debugName CName
+---@field debugExposeQuickHacks Bool
+---@field debugPath CName
+---@field debugID Uint32
+---@field isUnderEMPEffect Bool
+---@field deviceOperationsSetup DeviceOperationsContainer
+---@field connectionHighlightObjects NodeRef[]
+---@field activeContexts gamedeviceRequestType[]
+---@field playstyles EPlaystyle[]
+---@field quickHackVulnerabilties TweakDBID[]
+---@field quickHackVulnerabiltiesInitialized Bool
+---@field willingInvestigators entEntityID[]
+---@field isInteractive Bool
 ScriptableDeviceComponentPS = {}
 
 ---@param fields? ScriptableDeviceComponentPS
 ---@return ScriptableDeviceComponentPS
-function ScriptableDeviceComponentPS.new(fields) return end
+function ScriptableDeviceComponentPS.new(fields) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS.IsConnectedToMaintenanceSystem() return end
+function ScriptableDeviceComponentPS.IsConnectedToMaintenanceSystem() end
 
 ---@param actions gamedeviceAction[]
 ---@param reason? String
 ---@param exludedAction? CName|string
 ---@return nil
-function ScriptableDeviceComponentPS.SetActionsInactiveAll(actions, reason, exludedAction) return end
+function ScriptableDeviceComponentPS.SetActionsInactiveAll(actions, reason, exludedAction) end
 
----@protected
 ---@return Bool
-function ScriptableDeviceComponentPS:OnInstantiated() return end
+function ScriptableDeviceComponentPS:OnInstantiated() end
 
----@protected
 ---@param evt RevokeQuickHackAccess
 ---@return Bool
-function ScriptableDeviceComponentPS:OnRevokeQuickHackAccess(evt) return end
+function ScriptableDeviceComponentPS:OnRevokeQuickHackAccess(evt) end
 
 ---@return ActivateDevice
-function ScriptableDeviceComponentPS:ActionActivateDevice() return end
+function ScriptableDeviceComponentPS:ActionActivateDevice() end
 
----@protected
 ---@param isForced? Bool
 ---@return AuthorizeUser
-function ScriptableDeviceComponentPS:ActionAuthorizeUser(isForced) return end
+function ScriptableDeviceComponentPS:ActionAuthorizeUser(isForced) end
 
 ---@return DeactivateDevice
-function ScriptableDeviceComponentPS:ActionDeactivateDevice() return end
+function ScriptableDeviceComponentPS:ActionDeactivateDevice() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionDemolition
-function ScriptableDeviceComponentPS:ActionDemolition(context) return end
+function ScriptableDeviceComponentPS:ActionDemolition(context) end
 
----@protected
 ---@return BaseDeviceStatus
-function ScriptableDeviceComponentPS:ActionDeviceStatus() return end
+function ScriptableDeviceComponentPS:ActionDeviceStatus() end
 
----@protected
 ---@return DisassembleDevice
-function ScriptableDeviceComponentPS:ActionDisassembleDevice() return end
+function ScriptableDeviceComponentPS:ActionDisassembleDevice() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionEngineering
-function ScriptableDeviceComponentPS:ActionEngineering(context) return end
+function ScriptableDeviceComponentPS:ActionEngineering(context) end
 
----@protected
 ---@return FixDevice
-function ScriptableDeviceComponentPS:ActionFixDevice() return end
+function ScriptableDeviceComponentPS:ActionFixDevice() end
 
----@protected
 ---@param actionID TweakDBID|string
 ---@param programID TweakDBID|string
 ---@param timeout? Float
 ---@return GlitchScreen
-function ScriptableDeviceComponentPS:ActionGlitchScreen(actionID, programID, timeout) return end
+function ScriptableDeviceComponentPS:ActionGlitchScreen(actionID, programID, timeout) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionHacking
-function ScriptableDeviceComponentPS:ActionHacking(context) return end
+function ScriptableDeviceComponentPS:ActionHacking(context) end
 
----@protected
 ---@return OpenFullscreenUI
-function ScriptableDeviceComponentPS:ActionOpenFullscreenUI() return end
+function ScriptableDeviceComponentPS:ActionOpenFullscreenUI() end
 
----@protected
 ---@return OverloadDevice
-function ScriptableDeviceComponentPS:ActionOverloadDevice() return end
+function ScriptableDeviceComponentPS:ActionOverloadDevice() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Pay
-function ScriptableDeviceComponentPS:ActionPay(context) return end
+function ScriptableDeviceComponentPS:ActionPay(context) end
 
----@private
 ---@return PingDevice
-function ScriptableDeviceComponentPS:ActionPing() return end
+function ScriptableDeviceComponentPS:ActionPing() end
 
 ---@return ProgramSetDeviceAttitude
-function ScriptableDeviceComponentPS:ActionProgramSetDeviceAttitude() return end
+function ScriptableDeviceComponentPS:ActionProgramSetDeviceAttitude() end
 
 ---@return ProgramSetDeviceOff
-function ScriptableDeviceComponentPS:ActionProgramSetDeviceOff() return end
+function ScriptableDeviceComponentPS:ActionProgramSetDeviceOff() end
 
----@protected
 ---@return QuestBreachAccessPoint
-function ScriptableDeviceComponentPS:ActionQuestBreachAccessPoint() return end
+function ScriptableDeviceComponentPS:ActionQuestBreachAccessPoint() end
 
----@protected
 ---@return QuestDisableFixing
-function ScriptableDeviceComponentPS:ActionQuestDisableFixing() return end
+function ScriptableDeviceComponentPS:ActionQuestDisableFixing() end
 
----@protected
 ---@return QuestEnableFixing
-function ScriptableDeviceComponentPS:ActionQuestEnableFixing() return end
+function ScriptableDeviceComponentPS:ActionQuestEnableFixing() end
 
----@protected
 ---@return QuestForceActivate
-function ScriptableDeviceComponentPS:ActionQuestForceActivate() return end
+function ScriptableDeviceComponentPS:ActionQuestForceActivate() end
 
----@protected
 ---@return QuestForceAuthorizationDisabled
-function ScriptableDeviceComponentPS:ActionQuestForceAuthorizationDisabled() return end
+function ScriptableDeviceComponentPS:ActionQuestForceAuthorizationDisabled() end
 
----@protected
 ---@return QuestForceAuthorizationEnabled
-function ScriptableDeviceComponentPS:ActionQuestForceAuthorizationEnabled() return end
+function ScriptableDeviceComponentPS:ActionQuestForceAuthorizationEnabled() end
 
 ---@param enable Bool
 ---@param instant? Bool
 ---@return QuestForceCameraZoom
-function ScriptableDeviceComponentPS:ActionQuestForceCameraZoom(enable, instant) return end
+function ScriptableDeviceComponentPS:ActionQuestForceCameraZoom(enable, instant) end
 
----@protected
 ---@param value Bool
 ---@return QuestForceCameraZoom
-function ScriptableDeviceComponentPS:ActionQuestForceCameraZoomNoWorkspot(value) return end
+function ScriptableDeviceComponentPS:ActionQuestForceCameraZoomNoWorkspot(value) end
 
----@protected
 ---@return QuestForceDeactivate
-function ScriptableDeviceComponentPS:ActionQuestForceDeactivate() return end
+function ScriptableDeviceComponentPS:ActionQuestForceDeactivate() end
 
----@protected
 ---@return QuestForceDestructible
-function ScriptableDeviceComponentPS:ActionQuestForceDestructible() return end
+function ScriptableDeviceComponentPS:ActionQuestForceDestructible() end
 
----@protected
 ---@return QuestForceDisabled
-function ScriptableDeviceComponentPS:ActionQuestForceDisabled() return end
+function ScriptableDeviceComponentPS:ActionQuestForceDisabled() end
 
----@protected
 ---@return QuestForceDisconnectPersonalLink
-function ScriptableDeviceComponentPS:ActionQuestForceDisconnectPersonalLink() return end
+function ScriptableDeviceComponentPS:ActionQuestForceDisconnectPersonalLink() end
 
----@protected
 ---@return QuestForceEnabled
-function ScriptableDeviceComponentPS:ActionQuestForceEnabled() return end
+function ScriptableDeviceComponentPS:ActionQuestForceEnabled() end
 
----@protected
 ---@return QuestForceIndestructible
-function ScriptableDeviceComponentPS:ActionQuestForceIndestructible() return end
+function ScriptableDeviceComponentPS:ActionQuestForceIndestructible() end
 
----@protected
 ---@return QuestForceInvulnerable
-function ScriptableDeviceComponentPS:ActionQuestForceInvulnerable() return end
+function ScriptableDeviceComponentPS:ActionQuestForceInvulnerable() end
 
----@protected
 ---@return QuestForceJuryrigTrapArmed
-function ScriptableDeviceComponentPS:ActionQuestForceJuryrigTrapArmed() return end
+function ScriptableDeviceComponentPS:ActionQuestForceJuryrigTrapArmed() end
 
----@protected
 ---@return QuestForceJuryrigTrapDeactivated
-function ScriptableDeviceComponentPS:ActionQuestForceJuryrigTrapDeactivated() return end
+function ScriptableDeviceComponentPS:ActionQuestForceJuryrigTrapDeactivated() end
 
 ---@return QuestForceOFF
-function ScriptableDeviceComponentPS:ActionQuestForceOFF() return end
+function ScriptableDeviceComponentPS:ActionQuestForceOFF() end
 
 ---@return QuestForceON
-function ScriptableDeviceComponentPS:ActionQuestForceON() return end
+function ScriptableDeviceComponentPS:ActionQuestForceON() end
 
----@protected
 ---@return QuestForcePersonalLinkUnderStrictQuestControl
-function ScriptableDeviceComponentPS:ActionQuestForcePersonalLinkUnderStrictQuestControl() return end
+function ScriptableDeviceComponentPS:ActionQuestForcePersonalLinkUnderStrictQuestControl() end
 
----@protected
 ---@return QuestForcePower
-function ScriptableDeviceComponentPS:ActionQuestForcePower() return end
+function ScriptableDeviceComponentPS:ActionQuestForcePower() end
 
----@protected
 ---@return QuestForceSecuritySystemAlarmed
-function ScriptableDeviceComponentPS:ActionQuestForceSecuritySystemAlarmed() return end
+function ScriptableDeviceComponentPS:ActionQuestForceSecuritySystemAlarmed() end
 
----@protected
 ---@return QuestForceSecuritySystemArmed
-function ScriptableDeviceComponentPS:ActionQuestForceSecuritySystemArmed() return end
+function ScriptableDeviceComponentPS:ActionQuestForceSecuritySystemArmed() end
 
----@protected
 ---@return QuestForceSecuritySystemSafe
-function ScriptableDeviceComponentPS:ActionQuestForceSecuritySystemSafe() return end
+function ScriptableDeviceComponentPS:ActionQuestForceSecuritySystemSafe() end
 
----@protected
 ---@return QuestForceStopTakeControlOverCamera
-function ScriptableDeviceComponentPS:ActionQuestForceStopTakeControlOverCamera() return end
+function ScriptableDeviceComponentPS:ActionQuestForceStopTakeControlOverCamera() end
 
----@protected
 ---@return QuestForceTakeControlOverCamera
-function ScriptableDeviceComponentPS:ActionQuestForceTakeControlOverCamera() return end
+function ScriptableDeviceComponentPS:ActionQuestForceTakeControlOverCamera() end
 
----@protected
 ---@return QuestForceTakeControlOverCameraWithChain
-function ScriptableDeviceComponentPS:ActionQuestForceTakeControlOverCameraWithChain() return end
+function ScriptableDeviceComponentPS:ActionQuestForceTakeControlOverCameraWithChain() end
 
----@protected
 ---@return QuestForceUnpower
-function ScriptableDeviceComponentPS:ActionQuestForceUnpower() return end
+function ScriptableDeviceComponentPS:ActionQuestForceUnpower() end
 
----@protected
 ---@return QuestRemoveQuickHacks
-function ScriptableDeviceComponentPS:ActionQuestRemoveQuickHacks() return end
+function ScriptableDeviceComponentPS:ActionQuestRemoveQuickHacks() end
 
----@protected
 ---@return QuestResetDeviceToInitialState
-function ScriptableDeviceComponentPS:ActionQuestResetDeviceToInitialState() return end
+function ScriptableDeviceComponentPS:ActionQuestResetDeviceToInitialState() end
 
----@protected
 ---@return QuestResetPerformedActionsStorage
-function ScriptableDeviceComponentPS:ActionQuestResetPerfomedActionsStorage() return end
+function ScriptableDeviceComponentPS:ActionQuestResetPerfomedActionsStorage() end
 
----@protected
 ---@return QuestRestoreQuickHacks
-function ScriptableDeviceComponentPS:ActionQuestRestoreQuickHacks() return end
+function ScriptableDeviceComponentPS:ActionQuestRestoreQuickHacks() end
 
----@protected
 ---@return QuestStartGlitch
-function ScriptableDeviceComponentPS:ActionQuestStartGlitch() return end
+function ScriptableDeviceComponentPS:ActionQuestStartGlitch() end
 
----@protected
 ---@return QuestStopGlitch
-function ScriptableDeviceComponentPS:ActionQuestStopGlitch() return end
+function ScriptableDeviceComponentPS:ActionQuestStopGlitch() end
 
----@protected
 ---@return QuickHackAoeDamage
-function ScriptableDeviceComponentPS:ActionQuickHackAoeDamage() return end
+function ScriptableDeviceComponentPS:ActionQuickHackAoeDamage() end
 
----@protected
 ---@return QuickHackDistraction
-function ScriptableDeviceComponentPS:ActionQuickHackDistraction() return end
+function ScriptableDeviceComponentPS:ActionQuickHackDistraction() end
 
----@protected
 ---@return QuickHackHighPitchNoise
-function ScriptableDeviceComponentPS:ActionQuickHackHighPitchNoise() return end
+function ScriptableDeviceComponentPS:ActionQuickHackHighPitchNoise() end
 
----@protected
 ---@return QuickHackToggleON
-function ScriptableDeviceComponentPS:ActionQuickHackToggleON() return end
+function ScriptableDeviceComponentPS:ActionQuickHackToggleON() end
 
----@private
 ---@return RemoteBreach
-function ScriptableDeviceComponentPS:ActionRemoteBreach() return end
+function ScriptableDeviceComponentPS:ActionRemoteBreach() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionScavenge
-function ScriptableDeviceComponentPS:ActionScavenge(context) return end
+function ScriptableDeviceComponentPS:ActionScavenge(context) end
 
 ---@param lastKnownPosition Vector4
 ---@param whoBreached gameObject
 ---@param type ESecurityNotificationType
 ---@return SecuritySystemInput
-function ScriptableDeviceComponentPS:ActionSecurityBreachNotification(lastKnownPosition, whoBreached, type) return end
+function ScriptableDeviceComponentPS:ActionSecurityBreachNotification(lastKnownPosition, whoBreached, type) end
 
----@protected
 ---@return SetAuthorizationModuleOFF
-function ScriptableDeviceComponentPS:ActionSetAuthorizationModuleOFF() return end
+function ScriptableDeviceComponentPS:ActionSetAuthorizationModuleOFF() end
 
----@protected
 ---@return SetAuthorizationModuleON
-function ScriptableDeviceComponentPS:ActionSetAuthorizationModuleON() return end
+function ScriptableDeviceComponentPS:ActionSetAuthorizationModuleON() end
 
 ---@return SetDeviceAttitude
-function ScriptableDeviceComponentPS:ActionSetDeviceAttitude() return end
+function ScriptableDeviceComponentPS:ActionSetDeviceAttitude() end
 
 ---@return SetDeviceOFF
-function ScriptableDeviceComponentPS:ActionSetDeviceOFF() return end
+function ScriptableDeviceComponentPS:ActionSetDeviceOFF() end
 
 ---@return SetDeviceON
-function ScriptableDeviceComponentPS:ActionSetDeviceON() return end
+function ScriptableDeviceComponentPS:ActionSetDeviceON() end
 
 ---@return SetDevicePowered
-function ScriptableDeviceComponentPS:ActionSetDevicePowered() return end
+function ScriptableDeviceComponentPS:ActionSetDevicePowered() end
 
 ---@return SetDeviceUnpowered
-function ScriptableDeviceComponentPS:ActionSetDeviceUnpowered() return end
+function ScriptableDeviceComponentPS:ActionSetDeviceUnpowered() end
 
----@protected
 ---@return SetExposeQuickHacks
-function ScriptableDeviceComponentPS:ActionSetExposeQuickHacks() return end
+function ScriptableDeviceComponentPS:ActionSetExposeQuickHacks() end
 
----@protected
 ---@return SpiderbotDistraction
-function ScriptableDeviceComponentPS:ActionSpiderbotDistraction() return end
+function ScriptableDeviceComponentPS:ActionSpiderbotDistraction() end
 
----@protected
 ---@param executor gameObject
 ---@return TakeOverSecuritySystem
-function ScriptableDeviceComponentPS:ActionTakeOverSecuritySystem(executor) return end
+function ScriptableDeviceComponentPS:ActionTakeOverSecuritySystem(executor) end
 
----@protected
 ---@return ToggleActivate
-function ScriptableDeviceComponentPS:ActionToggleActivate() return end
+function ScriptableDeviceComponentPS:ActionToggleActivate() end
 
----@protected
 ---@return ToggleActivation
-function ScriptableDeviceComponentPS:ActionToggleActivation() return end
+function ScriptableDeviceComponentPS:ActionToggleActivation() end
 
----@protected
 ---@return ToggleJuryrigTrap
-function ScriptableDeviceComponentPS:ActionToggleJuryrigTrap() return end
+function ScriptableDeviceComponentPS:ActionToggleJuryrigTrap() end
 
----@protected
 ---@param abortDive Bool
 ---@param skipMinigame? Bool
 ---@param isRemote? Bool
 ---@return ToggleNetrunnerDive
-function ScriptableDeviceComponentPS:ActionToggleNetrunnerDive(abortDive, skipMinigame, isRemote) return end
+function ScriptableDeviceComponentPS:ActionToggleNetrunnerDive(abortDive, skipMinigame, isRemote) end
 
 ---@return ToggleON
-function ScriptableDeviceComponentPS:ActionToggleON() return end
+function ScriptableDeviceComponentPS:ActionToggleON() end
 
----@protected
 ---@param executor gameObject
 ---@param questForcesDisconnection? Bool
 ---@param skipMinigame? Bool
 ---@return TogglePersonalLink
-function ScriptableDeviceComponentPS:ActionTogglePersonalLink(executor, questForcesDisconnection, skipMinigame) return end
+function ScriptableDeviceComponentPS:ActionTogglePersonalLink(executor, questForcesDisconnection, skipMinigame) end
 
----@protected
 ---@return TogglePower
-function ScriptableDeviceComponentPS:ActionTogglePower() return end
+function ScriptableDeviceComponentPS:ActionTogglePower() end
 
----@protected
 ---@return ToggleTakeOverControl
-function ScriptableDeviceComponentPS:ActionToggleTakeOverControl() return end
+function ScriptableDeviceComponentPS:ActionToggleTakeOverControl() end
 
 ---@return ToggleZoomInteraction
-function ScriptableDeviceComponentPS:ActionToggleZoomInteraction() return end
+function ScriptableDeviceComponentPS:ActionToggleZoomInteraction() end
 
----@protected
 ---@return VehicleOverrideAccelerate
-function ScriptableDeviceComponentPS:ActionVehicleOverrideAccelerate() return end
+function ScriptableDeviceComponentPS:ActionVehicleOverrideAccelerate() end
 
----@protected
 ---@return VehicleOverrideExplode
-function ScriptableDeviceComponentPS:ActionVehicleOverrideExplode() return end
+function ScriptableDeviceComponentPS:ActionVehicleOverrideExplode() end
 
----@protected
 ---@return VehicleOverrideForceBrakes
-function ScriptableDeviceComponentPS:ActionVehicleOverrideForceBrakes() return end
+function ScriptableDeviceComponentPS:ActionVehicleOverrideForceBrakes() end
 
 ---@param context gamedeviceRequestType
 ---@return nil
-function ScriptableDeviceComponentPS:AddActiveContext(context) return end
+function ScriptableDeviceComponentPS:AddActiveContext(context) end
 
 ---@param quickHackName CName|string
 ---@return nil
-function ScriptableDeviceComponentPS:AddAvailableQuickHack(quickHackName) return end
+function ScriptableDeviceComponentPS:AddAvailableQuickHack(quickHackName) end
 
----@protected
 ---@param SpiderbotActionName CName|string
 ---@return nil
-function ScriptableDeviceComponentPS:AddAvailableSpiderbotActions(SpiderbotActionName) return end
+function ScriptableDeviceComponentPS:AddAvailableSpiderbotActions(SpiderbotActionName) end
 
 ---@param playstyle EPlaystyle
 ---@return nil
-function ScriptableDeviceComponentPS:AddPlaystyle(playstyle) return end
+function ScriptableDeviceComponentPS:AddPlaystyle(playstyle) end
 
 ---@param data TweakDBID|string
 ---@return nil
-function ScriptableDeviceComponentPS:AddQuickHackVulnerability(data) return end
+function ScriptableDeviceComponentPS:AddQuickHackVulnerability(data) end
 
----@protected
 ---@param user entEntityID
 ---@param level ESecurityAccessLevel
 ---@return Bool
-function ScriptableDeviceComponentPS:AddUser(user, level) return end
+function ScriptableDeviceComponentPS:AddUser(user, level) end
 
 ---@param id entEntityID
 ---@return nil
-function ScriptableDeviceComponentPS:AddWillingInvestigator(id) return end
+function ScriptableDeviceComponentPS:AddWillingInvestigator(id) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:AllowsUICameraZoomDynamicSwitch() return end
+function ScriptableDeviceComponentPS:AllowsUICameraZoomDynamicSwitch() end
 
 ---@return nil
-function ScriptableDeviceComponentPS:BreakDevice() return end
+function ScriptableDeviceComponentPS:BreakDevice() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:CacheDevices() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:CanAddEngineeringSkillcheck() return end
+function ScriptableDeviceComponentPS:CacheDevices() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanBeDisassembled() return end
+function ScriptableDeviceComponentPS:CanAddEngineeringSkillcheck() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanBeFixed() return end
+function ScriptableDeviceComponentPS:CanBeDisassembled() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanBeInDeviceChain() return end
+function ScriptableDeviceComponentPS:CanBeFixed() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanBeScavenged() return end
+function ScriptableDeviceComponentPS:CanBeInDeviceChain() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanBeScavengedBySpiderbot() return end
+function ScriptableDeviceComponentPS:CanBeScavenged() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanBeTrapped() return end
+function ScriptableDeviceComponentPS:CanBeScavengedBySpiderbot() end
 
----@protected
 ---@return Bool
-function ScriptableDeviceComponentPS:CanConnectToPersonalLink() return end
+function ScriptableDeviceComponentPS:CanBeTrapped() end
 
----@protected
 ---@return Bool
-function ScriptableDeviceComponentPS:CanCreateAnyQuickHackActions() return end
+function ScriptableDeviceComponentPS:CanConnectToPersonalLink() end
 
----@protected
 ---@return Bool
-function ScriptableDeviceComponentPS:CanCreateAnySpiderbotActions() return end
+function ScriptableDeviceComponentPS:CanCreateAnyQuickHackActions() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:CanCreateAnySpiderbotActions() end
 
 ---@param requester gameObject
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPassAnySkillCheck(requester) return end
+function ScriptableDeviceComponentPS:CanPassAnySkillCheck(requester) end
 
 ---@param requester gameObject
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPassAnySkillCheckOnMaster(requester) return end
+function ScriptableDeviceComponentPS:CanPassAnySkillCheckOnMaster(requester) end
 
 ---@param requester gameObject
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPassDemolitionSkillCheck(requester) return end
+function ScriptableDeviceComponentPS:CanPassDemolitionSkillCheck(requester) end
 
 ---@param requester gameObject
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPassEngineeringSkillCheck(requester) return end
+function ScriptableDeviceComponentPS:CanPassEngineeringSkillCheck(requester) end
 
 ---@param requester gameObject
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPassHackingSkillCheck(requester) return end
+function ScriptableDeviceComponentPS:CanPassHackingSkillCheck(requester) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPayToAuthorize() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:CanPerformReprimand() return end
+function ScriptableDeviceComponentPS:CanPayToAuthorize() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPlayerTakeOverControl() return end
+function ScriptableDeviceComponentPS:CanPerformReprimand() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:CanPlayerTakeOverControl() end
 
 ---@param data TweakDBID|string
 ---@return Bool
-function ScriptableDeviceComponentPS:CanPlayerUseQuickHackVulnerability(data) return end
+function ScriptableDeviceComponentPS:CanPlayerUseQuickHackVulnerability(data) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CanRevealDevicesGridWhenUnpowered() return end
+function ScriptableDeviceComponentPS:CanRevealDevicesGridWhenUnpowered() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:CheckIfMyBackdoorsWereRevealedInNetworkPing() return end
+function ScriptableDeviceComponentPS:CheckIfMyBackdoorsWereRevealedInNetworkPing() end
 
 ---@return nil
-function ScriptableDeviceComponentPS:ClearAvailableQuickHacks() return end
-
----@protected
----@return nil
-function ScriptableDeviceComponentPS:ClearAvailableSpiderbotActions() return end
+function ScriptableDeviceComponentPS:ClearAvailableQuickHacks() end
 
 ---@return nil
-function ScriptableDeviceComponentPS:ClearWillingInvestigators() return end
+function ScriptableDeviceComponentPS:ClearAvailableSpiderbotActions() end
+
+---@return nil
+function ScriptableDeviceComponentPS:ClearWillingInvestigators() end
 
 ---@param context gameGetActionsContext
 ---@return UIInteractionSkillCheck[]
-function ScriptableDeviceComponentPS:CreateSkillcheckInfo(context) return end
+function ScriptableDeviceComponentPS:CreateSkillcheckInfo(context) end
 
 ---@return SecuritySystemClearanceEntry[]
-function ScriptableDeviceComponentPS:CurrentlyAuthorizedUsers() return end
+function ScriptableDeviceComponentPS:CurrentlyAuthorizedUsers() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:DemolitionPerformed() return end
+function ScriptableDeviceComponentPS:DemolitionPerformed() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil
-function ScriptableDeviceComponentPS:DetermineAreaHintIndicatorState(context) return end
+function ScriptableDeviceComponentPS:DetermineAreaHintIndicatorState(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param hasActiveActions Bool
 ---@return Bool
-function ScriptableDeviceComponentPS:DetermineGameplayViability(context, hasActiveActions) return end
+function ScriptableDeviceComponentPS:DetermineGameplayViability(context, hasActiveActions) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:DetermineInitialPlaystyle() return end
+function ScriptableDeviceComponentPS:DetermineInitialPlaystyle() end
 
 ---@param interactionComponent gameinteractionsComponent
 ---@param context gameGetActionsContext
 ---@return nil
-function ScriptableDeviceComponentPS:DetermineInteractionState(interactionComponent, context) return end
+function ScriptableDeviceComponentPS:DetermineInteractionState(interactionComponent, context) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:DisableDevice() return end
+function ScriptableDeviceComponentPS:DisableDevice() end
 
 ---@param actionID TweakDBID|string
 ---@return nil
-function ScriptableDeviceComponentPS:DisbaleRPGChecksForAction(actionID) return end
+function ScriptableDeviceComponentPS:DisbaleRPGChecksForAction(actionID) end
 
 ---@param executor gameObject
 ---@param layer CName|string
 ---@param isForcedByQuest? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:DisconnectPersonalLink(executor, layer, isForcedByQuest) return end
+function ScriptableDeviceComponentPS:DisconnectPersonalLink(executor, layer, isForcedByQuest) end
 
 ---@param evt ScriptableDeviceAction
 ---@param isForcedByQuest? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:DisconnectPersonalLink(evt, isForcedByQuest) return end
+function ScriptableDeviceComponentPS:DisconnectPersonalLink(evt, isForcedByQuest) end
 
 ---@param shouldDraw Bool
 ---@param focusModeOnly Bool
@@ -616,103 +538,90 @@ function ScriptableDeviceComponentPS:DisconnectPersonalLink(evt, isForcedByQuest
 ---@param isEyeContact? Bool
 ---@param isPermanent? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:DrawBetweenEntities(shouldDraw, focusModeOnly, fxResource, masterID, slaveID, revealMaster, revealSlave, onlyRemoveWeakLink, isEyeContact, isPermanent) return end
+function ScriptableDeviceComponentPS:DrawBetweenEntities(shouldDraw, focusModeOnly, fxResource, masterID, slaveID, revealMaster, revealSlave, onlyRemoveWeakLink, isEyeContact, isPermanent) end
 
 ---@param val Int32
 ---@return nil
-function ScriptableDeviceComponentPS:EnableDebugQuickHacks(val) return end
+function ScriptableDeviceComponentPS:EnableDebugQuickHacks(val) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:EnableDevice() return end
+function ScriptableDeviceComponentPS:EnableDevice() end
 
 ---@param actionID TweakDBID|string
 ---@return nil
-function ScriptableDeviceComponentPS:EnableRPGChecksForAction(actionID) return end
+function ScriptableDeviceComponentPS:EnableRPGChecksForAction(actionID) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:EngineeringPerformed() return end
+function ScriptableDeviceComponentPS:EngineeringPerformed() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:ErasePassedSkillchecks() return end
+function ScriptableDeviceComponentPS:ErasePassedSkillchecks() end
 
----@protected
 ---@param outActions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function ScriptableDeviceComponentPS:EvaluateActionsRPGAvailabilty(outActions, context) return end
+function ScriptableDeviceComponentPS:EvaluateActionsRPGAvailabilty(outActions, context) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:ExecuteCurrentSpiderbotActionPerformed() return end
+function ScriptableDeviceComponentPS:ExecuteCurrentSpiderbotActionPerformed() end
 
 ---@param action ScriptableDeviceAction
 ---@param layerTag? CName|string
 ---@return nil
-function ScriptableDeviceComponentPS:ExecutePSAction(action, layerTag) return end
+function ScriptableDeviceComponentPS:ExecutePSAction(action, layerTag) end
 
 ---@param action ScriptableDeviceAction
 ---@param persistentState gamePersistentState
 ---@return nil
-function ScriptableDeviceComponentPS:ExecutePSAction(action, persistentState) return end
+function ScriptableDeviceComponentPS:ExecutePSAction(action, persistentState) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@param persistentState gamePersistentState
 ---@param forcedDelay? Float
 ---@return nil
-function ScriptableDeviceComponentPS:ExecutePSActionWithDelay(action, persistentState, forcedDelay) return end
+function ScriptableDeviceComponentPS:ExecutePSActionWithDelay(action, persistentState, forcedDelay) end
 
----@protected
 ---@param actionNames CName[]|string[]
 ---@return gamedeviceAction[]
-function ScriptableDeviceComponentPS:ExtractActions(actionNames) return end
+function ScriptableDeviceComponentPS:ExtractActions(actionNames) end
 
----@protected
 ---@param evt entTriggerEvent
 ---@return entEntityID
-function ScriptableDeviceComponentPS:ExtractEntityID(evt) return end
+function ScriptableDeviceComponentPS:ExtractEntityID(evt) end
 
 ---@param persistentStates gamePersistentState[]
 ---@param persistentIDs gamePersistentID[]
 ---@return nil
-function ScriptableDeviceComponentPS:ExtractIDs(persistentStates, persistentIDs) return end
+function ScriptableDeviceComponentPS:ExtractIDs(persistentStates, persistentIDs) end
 
----@protected
 ---@param data SecurityAccessLevelEntry[]
 ---@return TweakDBID[]
-function ScriptableDeviceComponentPS:ExtractKeycardsFromAuthorizationData(data) return end
+function ScriptableDeviceComponentPS:ExtractKeycardsFromAuthorizationData(data) end
 
----@protected
 ---@param data SecurityAccessLevelEntryClient[]
 ---@return TweakDBID[]
-function ScriptableDeviceComponentPS:ExtractKeycardsFromAuthorizationData(data) return end
+function ScriptableDeviceComponentPS:ExtractKeycardsFromAuthorizationData(data) end
 
----@protected
 ---@param data SecurityAccessLevelEntry[]
 ---@return CName[]
-function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data) return end
+function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data) end
 
----@protected
 ---@param data SecurityAccessLevelEntryClient[]
 ---@return CName[]
-function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data) return end
+function ScriptableDeviceComponentPS:ExtractPasswordsFromAuthorizationData(data) end
 
----@protected
 ---@return nil, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:FinalizeGetActions() return end
+function ScriptableDeviceComponentPS:FinalizeGetActions() end
 
----@protected
 ---@param outActions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function ScriptableDeviceComponentPS:FinalizeGetQuickHackActions(outActions, context) return end
+function ScriptableDeviceComponentPS:FinalizeGetQuickHackActions(outActions, context) end
 
 ---@param state gameuiHackingMinigameState
 ---@return nil
-function ScriptableDeviceComponentPS:FinalizeNetrunnerDive(state) return end
+function ScriptableDeviceComponentPS:FinalizeNetrunnerDive(state) end
 
----@private
 ---@param registerAsMaster Bool
 ---@param relevantDevices gameDeviceComponentPS[]
 ---@param breachedResource gameFxResource
@@ -722,1380 +631,1266 @@ function ScriptableDeviceComponentPS:FinalizeNetrunnerDive(state) return end
 ---@param revealSlave? Bool
 ---@param revealMaster? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:FinalizeNetworkLinkRegistration(registerAsMaster, relevantDevices, breachedResource, defaultResource, isPing, lifetime, revealSlave, revealMaster) return end
+function ScriptableDeviceComponentPS:FinalizeNetworkLinkRegistration(registerAsMaster, relevantDevices, breachedResource, defaultResource, isPing, lifetime, revealSlave, revealMaster) end
 
----@protected
 ---@param actionName CName|string
 ---@param allowedNames String[]
 ---@return Bool
-function ScriptableDeviceComponentPS:FindActionInTweakList(actionName, allowedNames) return end
+function ScriptableDeviceComponentPS:FindActionInTweakList(actionName, allowedNames) end
 
----@protected
 ---@param user entEntityID
 ---@return ESecurityAccessLevel
-function ScriptableDeviceComponentPS:FindCurrentAuthorizationLevelForUser(user) return end
+function ScriptableDeviceComponentPS:FindCurrentAuthorizationLevelForUser(user) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:FinishDistraction() return end
+function ScriptableDeviceComponentPS:FinishDistraction() end
 
 ---@return nil
-function ScriptableDeviceComponentPS:ForceDeviceON() return end
+function ScriptableDeviceComponentPS:ForceDeviceON() end
 
 ---@return nil
-function ScriptableDeviceComponentPS:ForceDisableDevice() return end
+function ScriptableDeviceComponentPS:ForceDisableDevice() end
 
 ---@return nil
-function ScriptableDeviceComponentPS:ForceEnableDevice() return end
+function ScriptableDeviceComponentPS:ForceEnableDevice() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ForceResolveGameplayStateOnAttach() return end
+function ScriptableDeviceComponentPS:ForceResolveGameplayStateOnAttach() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ForceVisibilityInAnimSystemOnLogicReady() return end
+function ScriptableDeviceComponentPS:ForceVisibilityInAnimSystemOnLogicReady() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:GameAttached() return end
+function ScriptableDeviceComponentPS:GameAttached() end
 
 ---@param requestType gamedeviceRequestType
 ---@param providedClearance gamedeviceClearance
 ---@param providedProcessInitiator? gameObject
 ---@param providedRequestor? entEntityID
 ---@return gameGetActionsContext
-function ScriptableDeviceComponentPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) return end
+function ScriptableDeviceComponentPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) end
 
 ---@param actionName CName|string
 ---@param entityID? entEntityID
 ---@return gamedeviceAction
-function ScriptableDeviceComponentPS:GetActionByName(actionName, entityID) return end
+function ScriptableDeviceComponentPS:GetActionByName(actionName, entityID) end
 
 ---@param actionName CName|string
 ---@param context gameGetActionsContext
 ---@return gamedeviceAction
-function ScriptableDeviceComponentPS:GetActionByName(actionName, context) return end
+function ScriptableDeviceComponentPS:GetActionByName(actionName, context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return SActionWidgetPackage[]
-function ScriptableDeviceComponentPS:GetActionWidgets(context) return end
+function ScriptableDeviceComponentPS:GetActionWidgets(context) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:GetActions(context) return end
+function ScriptableDeviceComponentPS:GetActions(context) end
 
----@protected
 ---@param allowedNames String[]
 ---@param disallowedNames String[]
 ---@param inactiveReason String
 ---@return Bool
-function ScriptableDeviceComponentPS:GetActionsRestrictionData(allowedNames, disallowedNames, inactiveReason) return end
+function ScriptableDeviceComponentPS:GetActionsRestrictionData(allowedNames, disallowedNames, inactiveReason) end
 
 ---@return ActionsSequencerControllerPS
-function ScriptableDeviceComponentPS:GetActionsSequencer() return end
+function ScriptableDeviceComponentPS:GetActionsSequencer() end
 
 ---@return EActivationState
-function ScriptableDeviceComponentPS:GetActivationState() return end
+function ScriptableDeviceComponentPS:GetActivationState() end
 
 ---@return gamedeviceRequestType[]
-function ScriptableDeviceComponentPS:GetActiveContexts() return end
+function ScriptableDeviceComponentPS:GetActiveContexts() end
 
 ---@return TweakDBID[]
-function ScriptableDeviceComponentPS:GetActiveQuickHackVulnerabilities() return end
+function ScriptableDeviceComponentPS:GetActiveQuickHackVulnerabilities() end
 
 ---@return TweakDBID[]
-function ScriptableDeviceComponentPS:GetAllQuickHackVulnerabilities() return end
+function ScriptableDeviceComponentPS:GetAllQuickHackVulnerabilities() end
 
 ---@param action ScriptableDeviceAction
 ---@return Float
-function ScriptableDeviceComponentPS:GetAreaEffectStimRangeByAction(action) return end
+function ScriptableDeviceComponentPS:GetAreaEffectStimRangeByAction(action) end
 
 ---@return CName[]
-function ScriptableDeviceComponentPS:GetAvailableQuickHacks() return end
+function ScriptableDeviceComponentPS:GetAvailableQuickHacks() end
 
 ---@return CName[]
-function ScriptableDeviceComponentPS:GetAvailableSpiderbotActions() return end
+function ScriptableDeviceComponentPS:GetAvailableSpiderbotActions() end
 
 ---@return ScriptableDeviceComponentPS[]
-function ScriptableDeviceComponentPS:GetBackdoorDevices() return end
+function ScriptableDeviceComponentPS:GetBackdoorDevices() end
 
----@protected
 ---@return CityLightSystem
-function ScriptableDeviceComponentPS:GetCityLightSystem() return end
+function ScriptableDeviceComponentPS:GetCityLightSystem() end
 
 ---@return gamedeviceClearance
-function ScriptableDeviceComponentPS:GetClearance() return end
+function ScriptableDeviceComponentPS:GetClearance() end
 
 ---@return NodeRef[]
-function ScriptableDeviceComponentPS:GetConnectionHighlightObjects() return end
+function ScriptableDeviceComponentPS:GetConnectionHighlightObjects() end
 
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetContentAssignmentID() return end
+function ScriptableDeviceComponentPS:GetContentAssignmentID() end
 
 ---@return ScriptableDeviceAction
-function ScriptableDeviceComponentPS:GetCurrentlyQueuedSpiderbotAction() return end
+function ScriptableDeviceComponentPS:GetCurrentlyQueuedSpiderbotAction() end
 
----@protected
 ---@param min Int32
 ---@param max Int32
 ---@return gamedeviceClearance
-function ScriptableDeviceComponentPS:GetCustomClearance(min, max) return end
+function ScriptableDeviceComponentPS:GetCustomClearance(min, max) end
 
 ---@return String
-function ScriptableDeviceComponentPS:GetDebugName() return end
+function ScriptableDeviceComponentPS:GetDebugName() end
 
 ---@return CName
-function ScriptableDeviceComponentPS:GetDebugPath() return end
+function ScriptableDeviceComponentPS:GetDebugPath() end
 
 ---@return String
-function ScriptableDeviceComponentPS:GetDebugTags() return end
+function ScriptableDeviceComponentPS:GetDebugTags() end
 
 ---@return CName
-function ScriptableDeviceComponentPS:GetDeviceIconID() return end
+function ScriptableDeviceComponentPS:GetDeviceIconID() end
 
 ---@return String
-function ScriptableDeviceComponentPS:GetDeviceIconPath() return end
+function ScriptableDeviceComponentPS:GetDeviceIconPath() end
 
 ---@return String
-function ScriptableDeviceComponentPS:GetDeviceName() return end
+function ScriptableDeviceComponentPS:GetDeviceName() end
 
 ---@return DeviceOperationsContainer
-function ScriptableDeviceComponentPS:GetDeviceOperationsContainer() return end
+function ScriptableDeviceComponentPS:GetDeviceOperationsContainer() end
 
 ---@return String
-function ScriptableDeviceComponentPS:GetDeviceStatus() return end
+function ScriptableDeviceComponentPS:GetDeviceStatus() end
 
 ---@return BaseDeviceStatus
-function ScriptableDeviceComponentPS:GetDeviceStatusAction() return end
+function ScriptableDeviceComponentPS:GetDeviceStatusAction() end
 
 ---@return textTextParameterSet
-function ScriptableDeviceComponentPS:GetDeviceStatusTextData() return end
+function ScriptableDeviceComponentPS:GetDeviceStatusTextData() end
 
 ---@param context gameGetActionsContext
 ---@return SDeviceWidgetPackage
-function ScriptableDeviceComponentPS:GetDeviceWidget(context) return end
+function ScriptableDeviceComponentPS:GetDeviceWidget(context) end
 
 ---@param action ScriptableDeviceAction
 ---@return Float
-function ScriptableDeviceComponentPS:GetDistractionDuration(action) return end
+function ScriptableDeviceComponentPS:GetDistractionDuration(action) end
 
----@protected
 ---@param effectName CName|string
 ---@return Float
-function ScriptableDeviceComponentPS:GetDistractionDuration(effectName) return end
+function ScriptableDeviceComponentPS:GetDistractionDuration(effectName) end
 
 ---@return DropPointSystem
-function ScriptableDeviceComponentPS:GetDropPointSystem() return end
+function ScriptableDeviceComponentPS:GetDropPointSystem() end
 
 ---@return EDeviceDurabilityState
-function ScriptableDeviceComponentPS:GetDurabilityState() return end
+function ScriptableDeviceComponentPS:GetDurabilityState() end
 
 ---@return EDeviceDurabilityType
-function ScriptableDeviceComponentPS:GetDurabilityType() return end
+function ScriptableDeviceComponentPS:GetDurabilityType() end
 
----@protected
 ---@return EquipmentSystem
-function ScriptableDeviceComponentPS:GetEquipmentSystem() return end
+function ScriptableDeviceComponentPS:GetEquipmentSystem() end
 
----@protected
 ---@return SecurityAccessLevelEntryClient[]
-function ScriptableDeviceComponentPS:GetFullAuthorizationData() return end
+function ScriptableDeviceComponentPS:GetFullAuthorizationData() end
 
----@private
 ---@param passwords CName[]|string[]
 ---@param keycards TweakDBID[]|string[]
 ---@return nil
-function ScriptableDeviceComponentPS:GetFullAuthorizationDataSegregated(passwords, keycards) return end
+function ScriptableDeviceComponentPS:GetFullAuthorizationDataSegregated(passwords, keycards) end
 
----@protected
 ---@return HUDManager
-function ScriptableDeviceComponentPS:GetHudManager() return end
+function ScriptableDeviceComponentPS:GetHudManager() end
 
 ---@return gameDeviceComponentPS[]
-function ScriptableDeviceComponentPS:GetImmediateParents() return end
+function ScriptableDeviceComponentPS:GetImmediateParents() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetInkWidgetTweakDBID(context) return end
+function ScriptableDeviceComponentPS:GetInkWidgetTweakDBID(context) end
 
 ---@return EJuryrigTrapState
-function ScriptableDeviceComponentPS:GetJuryrigTrapState() return end
+function ScriptableDeviceComponentPS:GetJuryrigTrapState() end
 
----@protected
 ---@param record TweakDBID|string
 ---@return String
-function ScriptableDeviceComponentPS:GetKeycardLocalizedString(record) return end
+function ScriptableDeviceComponentPS:GetKeycardLocalizedString(record) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return gamedataItem_Record
-function ScriptableDeviceComponentPS:GetKeycardRecord(record) return end
+function ScriptableDeviceComponentPS:GetKeycardRecord(record) end
 
 ---@return TweakDBID[]
-function ScriptableDeviceComponentPS:GetKeycards() return end
+function ScriptableDeviceComponentPS:GetKeycards() end
 
----@protected
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetKeypadWidgetStyle() return end
+function ScriptableDeviceComponentPS:GetKeypadWidgetStyle() end
 
----@protected
 ---@return CName
-function ScriptableDeviceComponentPS:GetLocalPassword() return end
+function ScriptableDeviceComponentPS:GetLocalPassword() end
 
----@protected
 ---@return gameObject
-function ScriptableDeviceComponentPS:GetLocalPlayer() return end
+function ScriptableDeviceComponentPS:GetLocalPlayer() end
 
----@protected
 ---@return gameObject
-function ScriptableDeviceComponentPS:GetLocalPlayerControlledGameObject() return end
+function ScriptableDeviceComponentPS:GetLocalPlayerControlledGameObject() end
 
 ---@return TweakDBID[]
-function ScriptableDeviceComponentPS:GetMasterDevicesTweaks() return end
+function ScriptableDeviceComponentPS:GetMasterDevicesTweaks() end
 
 ---@param actionName CName|string
 ---@param context gameGetActionsContext
 ---@return gamedeviceAction
-function ScriptableDeviceComponentPS:GetMinigameActionByName(actionName, context) return end
+function ScriptableDeviceComponentPS:GetMinigameActionByName(actionName, context) end
 
----@protected
 ---@param outActions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function ScriptableDeviceComponentPS:GetMinigameActions(outActions, context) return end
+function ScriptableDeviceComponentPS:GetMinigameActions(outActions, context) end
 
 ---@return Int32
-function ScriptableDeviceComponentPS:GetMinigameAttempt() return end
+function ScriptableDeviceComponentPS:GetMinigameAttempt() end
 
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetMinigameDefinition() return end
+function ScriptableDeviceComponentPS:GetMinigameDefinition() end
 
 ---@return ESecurityAccessLevel
-function ScriptableDeviceComponentPS:GetMySecurityAccessLevel() return end
+function ScriptableDeviceComponentPS:GetMySecurityAccessLevel() end
 
----@protected
 ---@return NetworkAreaControllerPS
-function ScriptableDeviceComponentPS:GetNetworkArea() return end
+function ScriptableDeviceComponentPS:GetNetworkArea() end
 
----@private
 ---@return gameIBlackboard
-function ScriptableDeviceComponentPS:GetNetworkBlackboard() return end
+function ScriptableDeviceComponentPS:GetNetworkBlackboard() end
 
----@private
 ---@return NetworkBlackboardDef
-function ScriptableDeviceComponentPS:GetNetworkBlackboardDef() return end
+function ScriptableDeviceComponentPS:GetNetworkBlackboardDef() end
 
 ---@return Int32
-function ScriptableDeviceComponentPS:GetNetworkSizeCount() return end
+function ScriptableDeviceComponentPS:GetNetworkSizeCount() end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function ScriptableDeviceComponentPS:GetParents() return end
+function ScriptableDeviceComponentPS:GetParents() end
 
 ---@return CName[]
-function ScriptableDeviceComponentPS:GetPasswords() return end
+function ScriptableDeviceComponentPS:GetPasswords() end
 
 ---@return SPerformedActions[]
-function ScriptableDeviceComponentPS:GetPerformedActions() return end
+function ScriptableDeviceComponentPS:GetPerformedActions() end
 
 ---@return CName[]
-function ScriptableDeviceComponentPS:GetPerformedActionsIDs() return end
+function ScriptableDeviceComponentPS:GetPerformedActionsIDs() end
 
 ---@return EPersonalLinkConnectionStatus
-function ScriptableDeviceComponentPS:GetPersonalLinkStatus() return end
+function ScriptableDeviceComponentPS:GetPersonalLinkStatus() end
 
 ---@return entEntityID
-function ScriptableDeviceComponentPS:GetPlayerEntityID() return end
+function ScriptableDeviceComponentPS:GetPlayerEntityID() end
 
----@protected
 ---@return gameObject
-function ScriptableDeviceComponentPS:GetPlayerMainObject() return end
+function ScriptableDeviceComponentPS:GetPlayerMainObject() end
 
 ---@return EPlaystyle[]
-function ScriptableDeviceComponentPS:GetPlaystyles() return end
+function ScriptableDeviceComponentPS:GetPlaystyles() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function ScriptableDeviceComponentPS:GetQuestActionByName(actionName) return end
+function ScriptableDeviceComponentPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:GetQuestActions(context) return end
-
----@protected
----@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:GetQuickHackActions(context) return end
+function ScriptableDeviceComponentPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:GetQuickHackActionsExternal(context) return end
+function ScriptableDeviceComponentPS:GetQuickHackActions(context) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:GetRemoteActions(context) return end
+function ScriptableDeviceComponentPS:GetQuickHackActionsExternal(context) end
+
+---@param context gameGetActionsContext
+---@return nil, gamedeviceAction[] outActions
+function ScriptableDeviceComponentPS:GetRemoteActions(context) end
 
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetScannerStatusRecord() return end
+function ScriptableDeviceComponentPS:GetScannerStatusRecord() end
 
 ---@return SecurityAlarmControllerPS
-function ScriptableDeviceComponentPS:GetSecurityAlarm() return end
+function ScriptableDeviceComponentPS:GetSecurityAlarm() end
 
 ---@param whoToCheck entEntityID
 ---@return SecurityAreaControllerPS[]
-function ScriptableDeviceComponentPS:GetSecurityAreasWithUserInside(whoToCheck) return end
+function ScriptableDeviceComponentPS:GetSecurityAreasWithUserInside(whoToCheck) end
 
 ---@param whoToCheck gameObject
 ---@return SecurityAreaControllerPS[]
-function ScriptableDeviceComponentPS:GetSecurityAreasWithUserInside(whoToCheck) return end
+function ScriptableDeviceComponentPS:GetSecurityAreasWithUserInside(whoToCheck) end
 
 ---@param uniqueUsers AreaEntry[]
 ---@return SecurityAreaControllerPS[]
-function ScriptableDeviceComponentPS:GetSecurityAreasWithUsersInside(uniqueUsers) return end
+function ScriptableDeviceComponentPS:GetSecurityAreasWithUsersInside(uniqueUsers) end
 
 ---@return SecurityAreaControllerPS[]
-function ScriptableDeviceComponentPS:GetSecurityAreasWithUsersInside() return end
+function ScriptableDeviceComponentPS:GetSecurityAreasWithUsersInside() end
 
 ---@return BaseSkillCheckContainer
-function ScriptableDeviceComponentPS:GetSkillCheckContainer() return end
+function ScriptableDeviceComponentPS:GetSkillCheckContainer() end
 
----@protected
 ---@return BaseSkillCheckContainer
-function ScriptableDeviceComponentPS:GetSkillCheckContainerForSetup() return end
+function ScriptableDeviceComponentPS:GetSkillCheckContainerForSetup() end
 
----@protected
 ---@param outActions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function ScriptableDeviceComponentPS:GetSpiderbotActions(outActions, context) return end
+function ScriptableDeviceComponentPS:GetSpiderbotActions(outActions, context) end
 
----@protected
 ---@return TakeOverControlSystem
-function ScriptableDeviceComponentPS:GetTakeOverControlSystem() return end
+function ScriptableDeviceComponentPS:GetTakeOverControlSystem() end
 
 ---@return SThumbnailWidgetPackage
-function ScriptableDeviceComponentPS:GetThumbnailWidget() return end
+function ScriptableDeviceComponentPS:GetThumbnailWidget() end
 
----@protected
 ---@param entityID? entEntityID
 ---@return gameGetActionsContext
-function ScriptableDeviceComponentPS:GetTotalClearance(entityID) return end
+function ScriptableDeviceComponentPS:GetTotalClearance(entityID) end
 
 ---@return gamedeviceClearance
-function ScriptableDeviceComponentPS:GetTotalClearanceValue() return end
+function ScriptableDeviceComponentPS:GetTotalClearanceValue() end
 
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetTweakDBDescriptionRecord() return end
+function ScriptableDeviceComponentPS:GetTweakDBDescriptionRecord() end
 
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetTweakDBRecord() return end
+function ScriptableDeviceComponentPS:GetTweakDBRecord() end
 
 ---@return DeviceConnectionScannerData[]
-function ScriptableDeviceComponentPS:GetUniqueConnectionTypes() return end
+function ScriptableDeviceComponentPS:GetUniqueConnectionTypes() end
 
 ---@param user entEntityID
 ---@return ESecurityAccessLevel
-function ScriptableDeviceComponentPS:GetUserAuthorizationLevel(user) return end
+function ScriptableDeviceComponentPS:GetUserAuthorizationLevel(user) end
 
 ---@return TweakDBID
-function ScriptableDeviceComponentPS:GetVirtualNetworkShapeID() return end
+function ScriptableDeviceComponentPS:GetVirtualNetworkShapeID() end
 
 ---@return Bool, VirtualSystemPS vs
-function ScriptableDeviceComponentPS:GetVirtualSystem() return end
+function ScriptableDeviceComponentPS:GetVirtualSystem() end
 
 ---@return CName
-function ScriptableDeviceComponentPS:GetWidgetTypeName() return end
+function ScriptableDeviceComponentPS:GetWidgetTypeName() end
 
----@protected
 ---@return EWidgetState
-function ScriptableDeviceComponentPS:GetWidgetVisualState() return end
+function ScriptableDeviceComponentPS:GetWidgetVisualState() end
 
 ---@return entEntityID[]
-function ScriptableDeviceComponentPS:GetWillingInvestigators() return end
+function ScriptableDeviceComponentPS:GetWillingInvestigators() end
 
 ---@param state gameuiHackingMinigameState
 ---@return nil
-function ScriptableDeviceComponentPS:HackingMinigameEnded(state) return end
+function ScriptableDeviceComponentPS:HackingMinigameEnded(state) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HackingPerformed() return end
+function ScriptableDeviceComponentPS:HackingPerformed() end
 
 ---@param context gamedeviceRequestType
 ---@return Bool
-function ScriptableDeviceComponentPS:HasActiveContext(context) return end
+function ScriptableDeviceComponentPS:HasActiveContext(context) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasActiveStaticHackingSkillcheck() return end
+function ScriptableDeviceComponentPS:HasActiveStaticHackingSkillcheck() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAdvancedInteractions() return end
+function ScriptableDeviceComponentPS:HasAdvancedInteractions() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnyActionsWithDisabledRPGChecks() return end
+function ScriptableDeviceComponentPS:HasAnyActionsWithDisabledRPGChecks() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnyActiveQuickHackVulnerabilities() return end
+function ScriptableDeviceComponentPS:HasAnyActiveQuickHackVulnerabilities() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnyAvailableQuickHack() return end
+function ScriptableDeviceComponentPS:HasAnyAvailableQuickHack() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnyAvailableSpiderbotActions() return end
+function ScriptableDeviceComponentPS:HasAnyAvailableSpiderbotActions() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnyPlaystyle() return end
+function ScriptableDeviceComponentPS:HasAnyPlaystyle() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnyQuickHack() return end
+function ScriptableDeviceComponentPS:HasAnyQuickHack() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnySkillCheckActive() return end
+function ScriptableDeviceComponentPS:HasAnySkillCheckActive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAnySpiderbotAction() return end
+function ScriptableDeviceComponentPS:HasAnySpiderbotAction() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasAuthorizationModule() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:HasCyberdeck() return end
+function ScriptableDeviceComponentPS:HasAuthorizationModule() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasFullScreenUI() return end
-
----@private
----@return Bool
-function ScriptableDeviceComponentPS:HasHasQuickHackVulnerabilitiesInitialized() return end
+function ScriptableDeviceComponentPS:HasCyberdeck() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasNPCWorkspotKillInteraction() return end
+function ScriptableDeviceComponentPS:HasFullScreenUI() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasPersonalLinkSlot() return end
+function ScriptableDeviceComponentPS:HasHasQuickHackVulnerabilitiesInitialized() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:HasNPCWorkspotKillInteraction() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:HasPersonalLinkSlot() end
 
 ---@param playstyle EPlaystyle
 ---@return Bool
-function ScriptableDeviceComponentPS:HasPlaystyle(playstyle) return end
+function ScriptableDeviceComponentPS:HasPlaystyle(playstyle) end
 
 ---@param data TweakDBID|string
 ---@return Bool
-function ScriptableDeviceComponentPS:HasQuickHackVulnerability(data) return end
+function ScriptableDeviceComponentPS:HasQuickHackVulnerability(data) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasQuickHacksDisabled() return end
+function ScriptableDeviceComponentPS:HasQuickHacksDisabled() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:HasUICameraZoom() return end
+function ScriptableDeviceComponentPS:HasUICameraZoom() end
 
 ---@param id entEntityID
 ---@return Bool
-function ScriptableDeviceComponentPS:HasWillingInvestigator(id) return end
+function ScriptableDeviceComponentPS:HasWillingInvestigator(id) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:Initialize() return end
+function ScriptableDeviceComponentPS:Initialize() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeBackdoorSkillcheck() return end
+function ScriptableDeviceComponentPS:InitializeBackdoorSkillcheck() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeContentScale() return end
+function ScriptableDeviceComponentPS:InitializeContentScale() end
 
----@private
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeQuickHackVulnerabilities() return end
+function ScriptableDeviceComponentPS:InitializeQuickHackVulnerabilities() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeRPGParams() return end
+function ScriptableDeviceComponentPS:InitializeRPGParams() end
 
----@protected
 ---@param container BaseSkillCheckContainer
 ---@param isOverride? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeSkillChecks(container, isOverride) return end
+function ScriptableDeviceComponentPS:InitializeSkillChecks(container, isOverride) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeStatPools() return end
+function ScriptableDeviceComponentPS:InitializeStatPools() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeStats() return end
+function ScriptableDeviceComponentPS:InitializeStats() end
 
----@protected
 ---@param container BaseSkillCheckContainer
 ---@return nil
-function ScriptableDeviceComponentPS:InitializeWrapper(container) return end
+function ScriptableDeviceComponentPS:InitializeWrapper(container) end
 
----@private
 ---@param actionID TweakDBID|string
 ---@return Bool
-function ScriptableDeviceComponentPS:IsActionRPGRequirementDisabled(actionID) return end
+function ScriptableDeviceComponentPS:IsActionRPGRequirementDisabled(actionID) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsActivated() return end
+function ScriptableDeviceComponentPS:IsActivated() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsAdvancedInteractionModeOff() return end
+function ScriptableDeviceComponentPS:IsAdvancedInteractionModeOff() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsAdvancedInteractionModeOn() return end
+function ScriptableDeviceComponentPS:IsAdvancedInteractionModeOn() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsAuthorizationModuleOff() return end
+function ScriptableDeviceComponentPS:IsAuthorizationModuleOff() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsAuthorizationModuleOn() return end
+function ScriptableDeviceComponentPS:IsAuthorizationModuleOn() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsAuthorizationValid() return end
+function ScriptableDeviceComponentPS:IsAuthorizationValid() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsBroken() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:IsConnectedToAccessPoint() return end
+function ScriptableDeviceComponentPS:IsBroken() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsConnectedToActionsSequencer() return end
+function ScriptableDeviceComponentPS:IsConnectedToAccessPoint() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsConnectedToCLS() return end
+function ScriptableDeviceComponentPS:IsConnectedToActionsSequencer() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsConnectedToSystem() return end
+function ScriptableDeviceComponentPS:IsConnectedToCLS() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsControlledByPlayer() return end
+function ScriptableDeviceComponentPS:IsConnectedToSystem() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsControlledByThePlayer() return end
+function ScriptableDeviceComponentPS:IsControlledByPlayer() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsDemolitionSkillCheckActive() return end
+function ScriptableDeviceComponentPS:IsControlledByThePlayer() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsDeviceSecured() return end
+function ScriptableDeviceComponentPS:IsDemolitionSkillCheckActive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsDeviceSecuredWithKeycard() return end
+function ScriptableDeviceComponentPS:IsDeviceSecured() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsDeviceSecuredWithPassword() return end
+function ScriptableDeviceComponentPS:IsDeviceSecuredWithKeycard() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsDisabled() return end
+function ScriptableDeviceComponentPS:IsDeviceSecuredWithPassword() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsDisruptivePlayerStatusEffectPresent() return end
+function ScriptableDeviceComponentPS:IsDisabled() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsDistracting() return end
+function ScriptableDeviceComponentPS:IsDisruptivePlayerStatusEffectPresent() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsEnabled() return end
+function ScriptableDeviceComponentPS:IsDistracting() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsEngineeringSkillCheckActive() return end
+function ScriptableDeviceComponentPS:IsEnabled() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsGlitching() return end
+function ScriptableDeviceComponentPS:IsEngineeringSkillCheckActive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsHackingSkillCheckActive() return end
+function ScriptableDeviceComponentPS:IsGlitching() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsHighlightedInFocusMode() return end
+function ScriptableDeviceComponentPS:IsHackingSkillCheckActive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsInDirectInteractionRange() return end
+function ScriptableDeviceComponentPS:IsHighlightedInFocusMode() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsIniatialStateOperationPerformed() return end
+function ScriptableDeviceComponentPS:IsInDirectInteractionRange() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsInitialized() return end
+function ScriptableDeviceComponentPS:IsIniatialStateOperationPerformed() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsInteractive() return end
+function ScriptableDeviceComponentPS:IsInitialized() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsInvestigated() return end
+function ScriptableDeviceComponentPS:IsInteractive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsJuryrigTrapArmed() return end
+function ScriptableDeviceComponentPS:IsInvestigated() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsJuryrigTrapTriggered() return end
+function ScriptableDeviceComponentPS:IsJuryrigTrapArmed() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsJuryrigTrapUnarmed() return end
+function ScriptableDeviceComponentPS:IsJuryrigTrapTriggered() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsLinkDynamic() return end
+function ScriptableDeviceComponentPS:IsJuryrigTrapUnarmed() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsLockedViaSequencer() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:IsLogInExclusiveMode() return end
+function ScriptableDeviceComponentPS:IsLinkDynamic() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsMainframe() return end
+function ScriptableDeviceComponentPS:IsLockedViaSequencer() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsOFF() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:IsOFFTimed() return end
+function ScriptableDeviceComponentPS:IsLogInExclusiveMode() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsON() return end
+function ScriptableDeviceComponentPS:IsMainframe() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:IsOFF() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:IsOFFTimed() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:IsON() end
 
 ---@param systemType ESystems
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPartOfSystem(systemType) return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:IsPersonalLinkActionIllegal() return end
+function ScriptableDeviceComponentPS:IsPartOfSystem(systemType) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPersonalLinkConnected() return end
+function ScriptableDeviceComponentPS:IsPersonalLinkActionIllegal() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPersonalLinkConnecting() return end
+function ScriptableDeviceComponentPS:IsPersonalLinkConnected() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPersonalLinkDisconnected() return end
+function ScriptableDeviceComponentPS:IsPersonalLinkConnecting() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPersonalLinkDisconnecting() return end
+function ScriptableDeviceComponentPS:IsPersonalLinkDisconnected() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPlayerAuthorized() return end
+function ScriptableDeviceComponentPS:IsPersonalLinkDisconnecting() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPlayerPerformingTakedown() return end
+function ScriptableDeviceComponentPS:IsPlayerAuthorized() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPotentiallyQuickHackable() return end
+function ScriptableDeviceComponentPS:IsPlayerPerformingTakedown() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPowered() return end
+function ScriptableDeviceComponentPS:IsPotentiallyQuickHackable() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsPoweredAndEnabled() return end
+function ScriptableDeviceComponentPS:IsPowered() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsRestarting() return end
+function ScriptableDeviceComponentPS:IsPoweredAndEnabled() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsSecurityWakeUpBlocked() return end
+function ScriptableDeviceComponentPS:IsRestarting() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsSkillCheckActive() return end
+function ScriptableDeviceComponentPS:IsSecurityWakeUpBlocked() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsSomeoneUsingNPCWorkspot() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:IsSpiderbotActionsConditionsFulfilled() return end
+function ScriptableDeviceComponentPS:IsSkillCheckActive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsSpiderbotInteractionOrdered() return end
+function ScriptableDeviceComponentPS:IsSomeoneUsingNPCWorkspot() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsTimedTurnOff() return end
+function ScriptableDeviceComponentPS:IsSpiderbotActionsConditionsFulfilled() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:IsUnpowered() return end
+function ScriptableDeviceComponentPS:IsSpiderbotInteractionOrdered() end
 
----@protected
+---@return Bool
+function ScriptableDeviceComponentPS:IsTimedTurnOff() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:IsUnpowered() end
+
 ---@param entityID entEntityID
 ---@return Int32
-function ScriptableDeviceComponentPS:IsUserAlreadyOnTheList(entityID) return end
+function ScriptableDeviceComponentPS:IsUserAlreadyOnTheList(entityID) end
 
 ---@param user entEntityID
 ---@return Bool
-function ScriptableDeviceComponentPS:IsUserAuthorized(user) return end
+function ScriptableDeviceComponentPS:IsUserAuthorized(user) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:LogResaveInfo() return end
+function ScriptableDeviceComponentPS:LogResaveInfo() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:LogicReady() return end
+function ScriptableDeviceComponentPS:LogicReady() end
 
----@protected
 ---@param actionsToMark gamedeviceAction[]
 ---@return nil
-function ScriptableDeviceComponentPS:MarkActionsAsQuickHacks(actionsToMark) return end
+function ScriptableDeviceComponentPS:MarkActionsAsQuickHacks(actionsToMark) end
 
----@protected
 ---@param actionsToMark gamedeviceAction[]
 ---@return nil
-function ScriptableDeviceComponentPS:MarkActionsAsSpiderbotActions(actionsToMark) return end
+function ScriptableDeviceComponentPS:MarkActionsAsSpiderbotActions(actionsToMark) end
 
 ---@param userToAuthorize entEntityID
 ---@param password? CName|string
 ---@return Bool
-function ScriptableDeviceComponentPS:MasterUserAuthorizationAttempt(userToAuthorize, password) return end
+function ScriptableDeviceComponentPS:MasterUserAuthorizationAttempt(userToAuthorize, password) end
 
----@protected
 ---@param notifier ActionNotifier
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptableDeviceComponentPS:Notify(notifier, action) return end
+function ScriptableDeviceComponentPS:Notify(notifier, action) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:NotifyParents() return end
+function ScriptableDeviceComponentPS:NotifyParents() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:NotifyParents_Event() return end
+function ScriptableDeviceComponentPS:NotifyParents_Event() end
 
 ---@param evt ActionCooldownEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionCooldownEvent(evt) return end
+function ScriptableDeviceComponentPS:OnActionCooldownEvent(evt) end
 
 ---@param evt ActionDemolition
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionDemolition(evt) return end
+function ScriptableDeviceComponentPS:OnActionDemolition(evt) end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionEngineering(evt) return end
+function ScriptableDeviceComponentPS:OnActionEngineering(evt) end
 
 ---@param evt ActionForceResetDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionForceResetDevice(evt) return end
+function ScriptableDeviceComponentPS:OnActionForceResetDevice(evt) end
 
 ---@param evt ActionHacking
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionHacking(evt) return end
+function ScriptableDeviceComponentPS:OnActionHacking(evt) end
 
----@protected
 ---@param evt ActionOverride
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionOverride(evt) return end
+function ScriptableDeviceComponentPS:OnActionOverride(evt) end
 
----@private
 ---@param evt PingDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionPing(evt) return end
+function ScriptableDeviceComponentPS:OnActionPing(evt) end
 
----@private
 ---@param evt RemoteBreach
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionRemoteBreach(evt) return end
+function ScriptableDeviceComponentPS:OnActionRemoteBreach(evt) end
 
 ---@param evt ActionScavenge
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActionScavenge(evt) return end
+function ScriptableDeviceComponentPS:OnActionScavenge(evt) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnActivateDevice(evt) return end
+function ScriptableDeviceComponentPS:OnActivateDevice(evt) end
 
 ---@param evt AddActiveContextEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnAddActiveContext(evt) return end
+function ScriptableDeviceComponentPS:OnAddActiveContext(evt) end
 
 ---@param evt AddUserEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnAddUserEvent(evt) return end
+function ScriptableDeviceComponentPS:OnAddUserEvent(evt) end
 
 ---@param evt AuthorizeUser
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnAuthorizeUser(evt) return end
+function ScriptableDeviceComponentPS:OnAuthorizeUser(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnDeactivateDevice(evt) return end
+function ScriptableDeviceComponentPS:OnDeactivateDevice(evt) end
 
 ---@param evt DelayedDeviceActionEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnDelayedActionEvent(evt) return end
+function ScriptableDeviceComponentPS:OnDelayedActionEvent(evt) end
 
----@protected
 ---@param evt gameDeviceDynamicConnectionChange
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnDeviceDynamicConnectionChange(evt) return end
+function ScriptableDeviceComponentPS:OnDeviceDynamicConnectionChange(evt) end
 
 ---@param evt DisassembleDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnDisassembleDevice(evt) return end
+function ScriptableDeviceComponentPS:OnDisassembleDevice(evt) end
 
 ---@param evt FixDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnFixDevice(evt) return end
+function ScriptableDeviceComponentPS:OnFixDevice(evt) end
 
 ---@param evt ForceUpdateDefaultHighlightEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnForceUpdateDefaultHighlightEvent(evt) return end
+function ScriptableDeviceComponentPS:OnForceUpdateDefaultHighlightEvent(evt) end
 
 ---@param evt FullSystemRestart
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnFullSystemRestart(evt) return end
+function ScriptableDeviceComponentPS:OnFullSystemRestart(evt) end
 
 ---@param evt GameAttachedEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnGameAttached(evt) return end
+function ScriptableDeviceComponentPS:OnGameAttached(evt) end
 
 ---@param evt GlitchScreen
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnGlitchScreen(evt) return end
+function ScriptableDeviceComponentPS:OnGlitchScreen(evt) end
 
 ---@param evt SetLogicReadyEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnLogicReady(evt) return end
+function ScriptableDeviceComponentPS:OnLogicReady(evt) end
 
 ---@param evt NotifyHighlightedDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnNotifyHighlightedDevice(evt) return end
+function ScriptableDeviceComponentPS:OnNotifyHighlightedDevice(evt) end
 
----@private
 ---@param evt NotifyParentsEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnNotifyParents(evt) return end
+function ScriptableDeviceComponentPS:OnNotifyParents(evt) end
 
 ---@param evt OpenFullscreenUI
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnOpenFullscreenUI(evt) return end
+function ScriptableDeviceComponentPS:OnOpenFullscreenUI(evt) end
 
----@protected
 ---@param evt OverloadDevice
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnOverloadDevice(evt) return end
+function ScriptableDeviceComponentPS:OnOverloadDevice(evt) end
 
 ---@param evt PSRefreshEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnPSRefreshEvent(evt) return end
+function ScriptableDeviceComponentPS:OnPSRefreshEvent(evt) end
 
----@protected
 ---@param evt PingNetworkGridEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnPingNetworkGridEvent(evt) return end
+function ScriptableDeviceComponentPS:OnPingNetworkGridEvent(evt) end
 
----@private
 ---@param evt ForwardPingToSquadEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnPingSquadEvent(evt) return end
+function ScriptableDeviceComponentPS:OnPingSquadEvent(evt) end
 
----@private
 ---@param evt ProcessRelevantDevicesForNetworkGridEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnProcessRelevantDevicesForNetworkGridEvent(evt) return end
+function ScriptableDeviceComponentPS:OnProcessRelevantDevicesForNetworkGridEvent(evt) end
 
----@protected
 ---@param evt ProgramSetDeviceAttitude
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnProgramSetDeviceAttitude(evt) return end
+function ScriptableDeviceComponentPS:OnProgramSetDeviceAttitude(evt) end
 
----@protected
 ---@param evt ProgramSetDeviceOff
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnProgramSetDeviceOff(evt) return end
+function ScriptableDeviceComponentPS:OnProgramSetDeviceOff(evt) end
 
 ---@param evt QuestBreachAccessPoint
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestBreachAccessPoint(evt) return end
+function ScriptableDeviceComponentPS:OnQuestBreachAccessPoint(evt) end
 
 ---@param evt QuestDisableFixing
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestDisableFixing(evt) return end
+function ScriptableDeviceComponentPS:OnQuestDisableFixing(evt) end
 
 ---@param evt QuestEnableFixing
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestEnableFixing(evt) return end
+function ScriptableDeviceComponentPS:OnQuestEnableFixing(evt) end
 
 ---@param evt QuestForceActivate
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceActivate(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceActivate(evt) end
 
 ---@param evt QuestForceAuthorizationDisabled
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceAuthorizationDisabled(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceAuthorizationDisabled(evt) end
 
 ---@param evt QuestForceAuthorizationEnabled
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceAuthorizationEnabled(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceAuthorizationEnabled(evt) end
 
 ---@param evt QuestForceCameraZoom
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceCameraZoom(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceCameraZoom(evt) end
 
 ---@param evt QuestForceDeactivate
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceDeactivate(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceDeactivate(evt) end
 
 ---@param evt QuestForceDestructible
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceDestructible(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceDestructible(evt) end
 
 ---@param evt QuestForceDisabled
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceDisabled(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceDisabled(evt) end
 
----@private
 ---@param evt QuestForceDisconnectPersonalLink
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceDisconnectPersonalLink(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceDisconnectPersonalLink(evt) end
 
 ---@param evt QuestForceEnabled
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceEnabled(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceEnabled(evt) end
 
 ---@param evt QuestForceIndestructible
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceIndestructible(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceIndestructible(evt) end
 
 ---@param evt QuestForceInvulnerable
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceInvulnerable(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceInvulnerable(evt) end
 
 ---@param evt QuestForceJuryrigTrapArmed
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceJuryrigTrapArmed(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceJuryrigTrapArmed(evt) end
 
 ---@param evt QuestForceJuryrigTrapDeactivated
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceJuryrigTrapDeactivated(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceJuryrigTrapDeactivated(evt) end
 
----@protected
 ---@param evt QuestForceOFF
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceOFF(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceOFF(evt) end
 
----@protected
 ---@param evt QuestForceON
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceON(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceON(evt) end
 
----@private
 ---@param evt QuestForcePersonalLinkUnderStrictQuestControl
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForcePersonalLinkUnderStrictQuestControl(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForcePersonalLinkUnderStrictQuestControl(evt) end
 
----@protected
 ---@param evt QuestForcePower
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForcePower(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForcePower(evt) end
 
 ---@param evt QuestForceSecuritySystemAlarmed
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceSecuritySystemAlarmed(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceSecuritySystemAlarmed(evt) end
 
 ---@param evt QuestForceSecuritySystemArmed
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceSecuritySystemArmed(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceSecuritySystemArmed(evt) end
 
 ---@param evt QuestForceSecuritySystemSafe
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceSecuritySystemSafe(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceSecuritySystemSafe(evt) end
 
----@protected
 ---@param evt QuestForceUnpower
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestForceUnpower(evt) return end
+function ScriptableDeviceComponentPS:OnQuestForceUnpower(evt) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:OnQuestMinigameRequest() return end
+function ScriptableDeviceComponentPS:OnQuestMinigameRequest() end
 
 ---@param evt QuestRemoveQuickHacks
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestRemoveQuickHacks(evt) return end
+function ScriptableDeviceComponentPS:OnQuestRemoveQuickHacks(evt) end
 
 ---@param evt QuestResetDeviceToInitialState
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestResetDeviceToInitialState(evt) return end
+function ScriptableDeviceComponentPS:OnQuestResetDeviceToInitialState(evt) end
 
 ---@param evt QuestResetPerformedActionsStorage
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestResetPerfomedActionsStorage(evt) return end
+function ScriptableDeviceComponentPS:OnQuestResetPerfomedActionsStorage(evt) end
 
----@protected
 ---@param evt ResolveAllSkillchecksEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestResolveSkillchecks(evt) return end
+function ScriptableDeviceComponentPS:OnQuestResolveSkillchecks(evt) end
 
 ---@param evt QuestRestoreQuickHacks
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestRestoreQuickHacks(evt) return end
+function ScriptableDeviceComponentPS:OnQuestRestoreQuickHacks(evt) end
 
----@protected
 ---@param evt SetSkillcheckEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestSetSkillchecks(evt) return end
+function ScriptableDeviceComponentPS:OnQuestSetSkillchecks(evt) end
 
----@protected
 ---@param evt QuestStartGlitch
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestStartGlitch(evt) return end
+function ScriptableDeviceComponentPS:OnQuestStartGlitch(evt) end
 
----@protected
 ---@param evt QuestStopGlitch
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuestStopGlitch(evt) return end
+function ScriptableDeviceComponentPS:OnQuestStopGlitch(evt) end
 
----@protected
 ---@param evt QuickHackAoeDamage
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuickHackAoeDamage(evt) return end
+function ScriptableDeviceComponentPS:OnQuickHackAoeDamage(evt) end
 
 ---@param evt QuickHackAuthorization
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuickHackAuthorization(evt) return end
+function ScriptableDeviceComponentPS:OnQuickHackAuthorization(evt) end
 
 ---@param evt QuickHackDistraction
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuickHackDistraction(evt) return end
+function ScriptableDeviceComponentPS:OnQuickHackDistraction(evt) end
 
----@protected
 ---@param evt QuickHackHighPitchNoise
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuickHackHighPitchNoise(evt) return end
+function ScriptableDeviceComponentPS:OnQuickHackHighPitchNoise(evt) end
 
 ---@param evt QuickHackToggleON
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnQuickHackToggleOn(evt) return end
+function ScriptableDeviceComponentPS:OnQuickHackToggleOn(evt) end
 
 ---@param evt RemoveActiveContextEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnRemoveActiveContext(evt) return end
+function ScriptableDeviceComponentPS:OnRemoveActiveContext(evt) end
 
 ---@param evt RequestActionWidgetsUpdateEvent
 ---@return nil
-function ScriptableDeviceComponentPS:OnRequestActionWidgetsUpdate(evt) return end
+function ScriptableDeviceComponentPS:OnRequestActionWidgetsUpdate(evt) end
 
 ---@param evt RequestUIRefreshEvent
 ---@return nil
-function ScriptableDeviceComponentPS:OnRequestUIRefresh(evt) return end
+function ScriptableDeviceComponentPS:OnRequestUIRefresh(evt) end
 
----@protected
 ---@param evt ResolveSkillchecksEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnResolveSkillchecksEvent(evt) return end
+function ScriptableDeviceComponentPS:OnResolveSkillchecksEvent(evt) end
 
----@protected
 ---@param evt RevealDevicesGridEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnRevealDevicesGridEvent(evt) return end
+function ScriptableDeviceComponentPS:OnRevealDevicesGridEvent(evt) end
 
----@protected
 ---@param evt RevealNetworkGridEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnRevealNetworkGridEvent(evt) return end
+function ScriptableDeviceComponentPS:OnRevealNetworkGridEvent(evt) end
 
 ---@param evt SecurityAlarmBreachResponse
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSecurityAlarmBreachResponse(evt) return end
+function ScriptableDeviceComponentPS:OnSecurityAlarmBreachResponse(evt) end
 
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSecurityAreaCrossingPerimeter(evt) return end
+function ScriptableDeviceComponentPS:OnSecurityAreaCrossingPerimeter(evt) end
 
 ---@param evt SecuritySystemForceAttitudeChange
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSecuritySystemForceAttitudeChange(evt) return end
+function ScriptableDeviceComponentPS:OnSecuritySystemForceAttitudeChange(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSecuritySystemOutput(evt) return end
+function ScriptableDeviceComponentPS:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt SequencerLock
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSequencerLock(evt) return end
+function ScriptableDeviceComponentPS:OnSequencerLock(evt) end
 
 ---@param evt gameSetAsQuestImportantEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetAsQuestImportantEvent(evt) return end
+function ScriptableDeviceComponentPS:OnSetAsQuestImportantEvent(evt) end
 
 ---@param evt SetAuthorizationModuleOFF
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetAuthorizationModuleOFF(evt) return end
+function ScriptableDeviceComponentPS:OnSetAuthorizationModuleOFF(evt) end
 
 ---@param evt SetAuthorizationModuleON
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetAuthorizationModuleON(evt) return end
+function ScriptableDeviceComponentPS:OnSetAuthorizationModuleON(evt) end
 
----@protected
 ---@param evt SetCustomPersonalLinkReason
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetCustomPersonalLinkReason(evt) return end
+function ScriptableDeviceComponentPS:OnSetCustomPersonalLinkReason(evt) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetDeviceOFF(evt) return end
+function ScriptableDeviceComponentPS:OnSetDeviceOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetDeviceON(evt) return end
+function ScriptableDeviceComponentPS:OnSetDeviceON(evt) end
 
----@protected
 ---@param evt SetDevicePowered
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetDevicePowered(evt) return end
+function ScriptableDeviceComponentPS:OnSetDevicePowered(evt) end
 
----@protected
 ---@param evt SetDeviceUnpowered
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetDeviceUnpowered(evt) return end
+function ScriptableDeviceComponentPS:OnSetDeviceUnpowered(evt) end
 
 ---@param evt SetExposeQuickHacks
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetExposeQuickHacks(evt) return end
+function ScriptableDeviceComponentPS:OnSetExposeQuickHacks(evt) end
 
----@protected
 ---@param evt SetIsSpiderbotInteractionOrderedEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetIsSpiderbotInteractionOrderedEvent(evt) return end
+function ScriptableDeviceComponentPS:OnSetIsSpiderbotInteractionOrderedEvent(evt) end
 
 ---@param evt SetQuickHackEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetWasQuickHacked(evt) return end
+function ScriptableDeviceComponentPS:OnSetWasQuickHacked(evt) end
 
 ---@param evt SetQuickHackAttemptEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnSetWasQuickHackedAtempt(evt) return end
+function ScriptableDeviceComponentPS:OnSetWasQuickHackedAtempt(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlActivate
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnTCSTakeOverControlActivate(evt) return end
+function ScriptableDeviceComponentPS:OnTCSTakeOverControlActivate(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlDeactivate
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnTCSTakeOverControlDeactivate(evt) return end
+function ScriptableDeviceComponentPS:OnTCSTakeOverControlDeactivate(evt) end
 
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnTargetAssessmentRequest(evt) return end
+function ScriptableDeviceComponentPS:OnTargetAssessmentRequest(evt) end
 
 ---@param evt ThumbnailUI
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnThumbnailUI(evt) return end
+function ScriptableDeviceComponentPS:OnThumbnailUI(evt) end
 
 ---@param evt ToggleActivate
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnToggleActivate(evt) return end
+function ScriptableDeviceComponentPS:OnToggleActivate(evt) end
 
 ---@param evt ToggleActivation
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnToggleActivation(evt) return end
+function ScriptableDeviceComponentPS:OnToggleActivation(evt) end
 
 ---@param evt ToggleJuryrigTrap
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnToggleJuryrigTrap(evt) return end
+function ScriptableDeviceComponentPS:OnToggleJuryrigTrap(evt) end
 
 ---@param evt ToggleNetrunnerDive
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnToggleNetrunnerDive(evt) return end
+function ScriptableDeviceComponentPS:OnToggleNetrunnerDive(evt) end
 
 ---@param evt ToggleON
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnToggleON(evt) return end
+function ScriptableDeviceComponentPS:OnToggleON(evt) end
 
 ---@param evt TogglePersonalLink
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnTogglePersonalLink(evt) return end
+function ScriptableDeviceComponentPS:OnTogglePersonalLink(evt) end
 
 ---@param evt TogglePower
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnTogglePower(evt) return end
+function ScriptableDeviceComponentPS:OnTogglePower(evt) end
 
----@protected
 ---@param evt ToggleTakeOverControl
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnToggleTakeOverControl(evt) return end
+function ScriptableDeviceComponentPS:OnToggleTakeOverControl(evt) end
 
 ---@param evt ToggleZoomInteraction
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnToggleZoomInteraction(evt) return end
+function ScriptableDeviceComponentPS:OnToggleZoomInteraction(evt) end
 
----@protected
 ---@param evt VehicleOverrideAccelerate
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnVehicleOverrideAccelerate(evt) return end
+function ScriptableDeviceComponentPS:OnVehicleOverrideAccelerate(evt) end
 
----@protected
 ---@param evt VehicleOverrideExplode
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnVehicleOverrideExplode(evt) return end
+function ScriptableDeviceComponentPS:OnVehicleOverrideExplode(evt) end
 
----@protected
 ---@param evt VehicleOverrideForceBrakes
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnVehicleOverrideForceBrakes(evt) return end
+function ScriptableDeviceComponentPS:OnVehicleOverrideForceBrakes(evt) end
 
 ---@param evt WakeUpFromRestartEvent
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:OnWakeUpEvent(evt) return end
+function ScriptableDeviceComponentPS:OnWakeUpEvent(evt) end
 
 ---@param deviceName String
 ---@param dbgDeviceName? CName|string
 ---@return nil
-function ScriptableDeviceComponentPS:PassDeviceName(deviceName, dbgDeviceName) return end
+function ScriptableDeviceComponentPS:PassDeviceName(deviceName, dbgDeviceName) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:PerformRestart() return end
+function ScriptableDeviceComponentPS:PerformRestart() end
 
----@private
 ---@return nil
-function ScriptableDeviceComponentPS:PingSquad() return end
+function ScriptableDeviceComponentPS:PingSquad() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:PowerDevice() return end
+function ScriptableDeviceComponentPS:PowerDevice() end
 
----@private
 ---@param interactionComponent gameinteractionsComponent
 ---@param context gameGetActionsContext
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function ScriptableDeviceComponentPS:PushChoicesToInteractionComponent(interactionComponent, context, choices) return end
+function ScriptableDeviceComponentPS:PushChoicesToInteractionComponent(interactionComponent, context, choices) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function ScriptableDeviceComponentPS:PushInactiveInteractionChoice(context, choices) return end
+function ScriptableDeviceComponentPS:PushInactiveInteractionChoice(context, choices) end
 
 ---@param data BaseDeviceData
 ---@return nil
-function ScriptableDeviceComponentPS:PushPersistentData(data) return end
+function ScriptableDeviceComponentPS:PushPersistentData(data) end
 
 ---@param data BaseResaveData
 ---@return nil
-function ScriptableDeviceComponentPS:PushResaveData(data) return end
+function ScriptableDeviceComponentPS:PushResaveData(data) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:PushReturnActions(context) return end
+function ScriptableDeviceComponentPS:PushReturnActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:PushSkillCheckActions(context) return end
+function ScriptableDeviceComponentPS:PushSkillCheckActions(context) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:QuestResolveSkillchecks() return end
+function ScriptableDeviceComponentPS:QuestResolveSkillchecks() end
 
 ---@param container BaseSkillCheckContainer
 ---@return nil
-function ScriptableDeviceComponentPS:QuestSetSkillchecks(container) return end
+function ScriptableDeviceComponentPS:QuestSetSkillchecks(container) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:RefreshPS() return end
+function ScriptableDeviceComponentPS:RefreshPS() end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ScriptableDeviceComponentPS:RefreshUI(blackboard) return end
+function ScriptableDeviceComponentPS:RefreshUI(blackboard) end
 
----@private
 ---@return nil
-function ScriptableDeviceComponentPS:RegisterDebugEnableQuickHacksListener() return end
+function ScriptableDeviceComponentPS:RegisterDebugEnableQuickHacksListener() end
 
 ---@param context gamedeviceRequestType
 ---@return nil
-function ScriptableDeviceComponentPS:RemoveActiveContext(context) return end
+function ScriptableDeviceComponentPS:RemoveActiveContext(context) end
 
----@protected
 ---@param quickHackName CName|string
 ---@return nil
-function ScriptableDeviceComponentPS:RemoveAvailableQuickHack(quickHackName) return end
+function ScriptableDeviceComponentPS:RemoveAvailableQuickHack(quickHackName) end
 
----@protected
 ---@param SpiderbotActionName CName|string
 ---@return nil
-function ScriptableDeviceComponentPS:RemoveAvailableSpiderbotActions(SpiderbotActionName) return end
+function ScriptableDeviceComponentPS:RemoveAvailableSpiderbotActions(SpiderbotActionName) end
 
 ---@param playstyle EPlaystyle
 ---@return nil
-function ScriptableDeviceComponentPS:RemovePlaystyle(playstyle) return end
+function ScriptableDeviceComponentPS:RemovePlaystyle(playstyle) end
 
 ---@param data TweakDBID|string
 ---@return nil
-function ScriptableDeviceComponentPS:RemoveQuickHackVoulnerability(data) return end
+function ScriptableDeviceComponentPS:RemoveQuickHackVoulnerability(data) end
 
----@protected
 ---@param user entEntityID
 ---@return Bool
-function ScriptableDeviceComponentPS:RemoveUser(user) return end
+function ScriptableDeviceComponentPS:RemoveUser(user) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ScriptableDeviceComponentPS:RequestActionWidgetsUpdate(blackboard) return end
+function ScriptableDeviceComponentPS:RequestActionWidgetsUpdate(blackboard) end
 
 ---@param blackboard gameIBlackboard
 ---@param data SBreadCrumbUpdateData
 ---@return nil
-function ScriptableDeviceComponentPS:RequestBreadCrumbUpdate(blackboard, data) return end
+function ScriptableDeviceComponentPS:RequestBreadCrumbUpdate(blackboard, data) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ScriptableDeviceComponentPS:RequestDeviceWidgetsUpdate(blackboard) return end
+function ScriptableDeviceComponentPS:RequestDeviceWidgetsUpdate(blackboard) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
-function ScriptableDeviceComponentPS:RequestDeviceWidgetsUpdate(blackboard, widgetsData) return end
+function ScriptableDeviceComponentPS:RequestDeviceWidgetsUpdate(blackboard, widgetsData) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:ResetPerformedActionsStorage() return end
+function ScriptableDeviceComponentPS:ResetPerformedActionsStorage() end
 
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptableDeviceComponentPS:ResloveUIOnAction(action) return end
+function ScriptableDeviceComponentPS:ResloveUIOnAction(action) end
 
----@protected
 ---@param evt ActionHacking
 ---@return nil
-function ScriptableDeviceComponentPS:ResolveActionHackingCompleted(evt) return end
+function ScriptableDeviceComponentPS:ResolveActionHackingCompleted(evt) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptableDeviceComponentPS:ResolveBaseActionOperation(action) return end
+function ScriptableDeviceComponentPS:ResolveBaseActionOperation(action) end
 
----@private
 ---@param data SDeviceWidgetPackage
 ---@return SDeviceWidgetPackage
-function ScriptableDeviceComponentPS:ResolveDeviceWidgetTweakDBData(data) return end
+function ScriptableDeviceComponentPS:ResolveDeviceWidgetTweakDBData(data) end
 
----@protected
 ---@param isBackdoor Bool
 ---@return nil
-function ScriptableDeviceComponentPS:ResolveDive(isBackdoor) return end
+function ScriptableDeviceComponentPS:ResolveDive(isBackdoor) end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:ResolveOtherSkillchecks() return end
+function ScriptableDeviceComponentPS:ResolveOtherSkillchecks() end
 
----@protected
 ---@param evt TogglePersonalLink
 ---@param abortOperations Bool
 ---@return nil
-function ScriptableDeviceComponentPS:ResolvePersonalLinkConnection(evt, abortOperations) return end
+function ScriptableDeviceComponentPS:ResolvePersonalLinkConnection(evt, abortOperations) end
 
 ---@param shouldDraw Bool
 ---@param ownerEntityPosition? Vector4
@@ -2106,15 +1901,13 @@ function ScriptableDeviceComponentPS:ResolvePersonalLinkConnection(evt, abortOpe
 ---@param revealMaster? Bool
 ---@param ignoreRevealed? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:RevealDevicesGrid(shouldDraw, ownerEntityPosition, fxDefault, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) return end
+function ScriptableDeviceComponentPS:RevealDevicesGrid(shouldDraw, ownerEntityPosition, fxDefault, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) end
 
----@protected
 ---@param shouldDraw Bool
 ---@param target entEntityID
 ---@return nil
-function ScriptableDeviceComponentPS:RevealDevicesGridOnEntity_Event(shouldDraw, target) return end
+function ScriptableDeviceComponentPS:RevealDevicesGridOnEntity_Event(shouldDraw, target) end
 
----@protected
 ---@param shouldDraw Bool
 ---@param ownerEntityPosition? Vector4
 ---@param fxDefault? gameFxResource
@@ -2125,276 +1918,252 @@ function ScriptableDeviceComponentPS:RevealDevicesGridOnEntity_Event(shouldDraw,
 ---@param revealMaster? Bool
 ---@param ignoreRevealed? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:RevealNetworkGrid(shouldDraw, ownerEntityPosition, fxDefault, fxBreached, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) return end
+function ScriptableDeviceComponentPS:RevealNetworkGrid(shouldDraw, ownerEntityPosition, fxDefault, fxBreached, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) end
 
----@private
 ---@return Bool
-function ScriptableDeviceComponentPS:SceneInteractionsBlocked() return end
+function ScriptableDeviceComponentPS:SceneInteractionsBlocked() end
 
----@protected
 ---@param failedAction ScriptableDeviceAction
 ---@param whereToSend entEntityID
 ---@param context? String
 ---@return EntityNotificationType
-function ScriptableDeviceComponentPS:SendActionFailedEvent(failedAction, whereToSend, context) return end
+function ScriptableDeviceComponentPS:SendActionFailedEvent(failedAction, whereToSend, context) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:SendDeviceNotOperationalEvent() return end
+function ScriptableDeviceComponentPS:SendDeviceNotOperationalEvent() end
 
----@protected
 ---@return nil
-function ScriptableDeviceComponentPS:SendPSChangedEvent() return end
+function ScriptableDeviceComponentPS:SendPSChangedEvent() end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@param oryginalExecutor gameObject
 ---@return nil
-function ScriptableDeviceComponentPS:SendSpiderbotToPerformAction(action, oryginalExecutor) return end
+function ScriptableDeviceComponentPS:SendSpiderbotToPerformAction(action, oryginalExecutor) end
 
----@protected
 ---@param outActions gamedeviceAction[]
 ---@param isIllegal Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetActionIllegality(outActions, isIllegal) return end
+function ScriptableDeviceComponentPS:SetActionIllegality(outActions, isIllegal) end
 
----@protected
 ---@param outActions gamedeviceAction[]
 ---@return nil
-function ScriptableDeviceComponentPS:SetActionsQuickHacksExecutioner(outActions) return end
+function ScriptableDeviceComponentPS:SetActionsQuickHacksExecutioner(outActions) end
 
 ---@param value Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetAdvancedInteractionModeOn(value) return end
+function ScriptableDeviceComponentPS:SetAdvancedInteractionModeOn(value) end
 
 ---@param value Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetBlockSecurityWakeUp(value) return end
+function ScriptableDeviceComponentPS:SetBlockSecurityWakeUp(value) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptableDeviceComponentPS:SetCurrentSpiderbotActionPerformed(action) return end
+function ScriptableDeviceComponentPS:SetCurrentSpiderbotActionPerformed(action) end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function ScriptableDeviceComponentPS:SetDeviceState(state) return end
+function ScriptableDeviceComponentPS:SetDeviceState(state) end
 
 ---@param newState EDeviceDurabilityState
 ---@return nil
-function ScriptableDeviceComponentPS:SetDurabilityState(newState) return end
+function ScriptableDeviceComponentPS:SetDurabilityState(newState) end
 
 ---@param durabilityType EDeviceDurabilityType
 ---@return nil
-function ScriptableDeviceComponentPS:SetDurabilityType(durabilityType) return end
+function ScriptableDeviceComponentPS:SetDurabilityType(durabilityType) end
 
 ---@param isActive Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetEMPEffectActiveState(isActive) return end
+function ScriptableDeviceComponentPS:SetEMPEffectActiveState(isActive) end
 
 ---@param isHighlighted Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetFocusModeData(isHighlighted) return end
+function ScriptableDeviceComponentPS:SetFocusModeData(isHighlighted) end
 
 ---@param isGlitching Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetGlitchingState(isGlitching) return end
+function ScriptableDeviceComponentPS:SetGlitchingState(isGlitching) end
 
 ---@param isPersonalLinkSlotPresent Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetHasPersonalLinkSlot(isPersonalLinkSlotPresent) return end
+function ScriptableDeviceComponentPS:SetHasPersonalLinkSlot(isPersonalLinkSlotPresent) end
 
 ---@param hasUICameraZoom Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetHasUICameraZoom(hasUICameraZoom) return end
+function ScriptableDeviceComponentPS:SetHasUICameraZoom(hasUICameraZoom) end
 
----@protected
 ---@return nil, gamedeviceAction[] outActions
-function ScriptableDeviceComponentPS:SetInactiveActionsWithExceptions() return end
+function ScriptableDeviceComponentPS:SetInactiveActionsWithExceptions() end
 
 ---@param value Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetInitialStateOperataionPerformed(value) return end
+function ScriptableDeviceComponentPS:SetInitialStateOperataionPerformed(value) end
 
 ---@param isActive Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetInteractionState(isActive) return end
+function ScriptableDeviceComponentPS:SetInteractionState(isActive) end
 
 ---@param newState Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetJuryrigTrapActiveState(newState) return end
+function ScriptableDeviceComponentPS:SetJuryrigTrapActiveState(newState) end
 
 ---@param newState EJuryrigTrapState
 ---@return nil
-function ScriptableDeviceComponentPS:SetJuryrigTrapArmedState(newState) return end
+function ScriptableDeviceComponentPS:SetJuryrigTrapArmedState(newState) end
 
----@protected
 ---@param state gameuiHackingMinigameState
 ---@return nil
-function ScriptableDeviceComponentPS:SetMinigameState(state) return end
+function ScriptableDeviceComponentPS:SetMinigameState(state) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetPSMPostpondedParameterBool(value) return end
+function ScriptableDeviceComponentPS:SetPSMPostpondedParameterBool(value) end
 
----@private
 ---@param status EPersonalLinkConnectionStatus
 ---@return nil
-function ScriptableDeviceComponentPS:SetPersonalLinkStatus(status) return end
+function ScriptableDeviceComponentPS:SetPersonalLinkStatus(status) end
 
 ---@param canBeControlled Bool
 ---@return nil
-function ScriptableDeviceComponentPS:SetPlayerTakeOverControl(canBeControlled) return end
+function ScriptableDeviceComponentPS:SetPlayerTakeOverControl(canBeControlled) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldDebug() return end
+function ScriptableDeviceComponentPS:ShouldDebug() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldDrawGridLink() return end
+function ScriptableDeviceComponentPS:ShouldDrawGridLink() end
 
----@protected
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldExposePersonalLinkAction() return end
+function ScriptableDeviceComponentPS:ShouldExposePersonalLinkAction() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldForceAuthorizeUser(context) return end
+function ScriptableDeviceComponentPS:ShouldForceAuthorizeUser(context) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldNPCWorkspotFinishLoop() return end
-
----@protected
----@return Bool
-function ScriptableDeviceComponentPS:ShouldPersonalLinkBlockActions() return end
+function ScriptableDeviceComponentPS:ShouldNPCWorkspotFinishLoop() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldRevealDevicesGrid() return end
+function ScriptableDeviceComponentPS:ShouldPersonalLinkBlockActions() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldRevealNetworkGrid() return end
+function ScriptableDeviceComponentPS:ShouldRevealDevicesGrid() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldScannerShowAttitude() return end
+function ScriptableDeviceComponentPS:ShouldRevealNetworkGrid() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldScannerShowHealth() return end
+function ScriptableDeviceComponentPS:ShouldScannerShowAttitude() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldScannerShowNetwork() return end
+function ScriptableDeviceComponentPS:ShouldScannerShowHealth() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldScannerShowRole() return end
+function ScriptableDeviceComponentPS:ShouldScannerShowNetwork() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldScannerShowStatus() return end
+function ScriptableDeviceComponentPS:ShouldScannerShowRole() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:ShouldShowExamineIntaraction() return end
+function ScriptableDeviceComponentPS:ShouldScannerShowStatus() end
+
+---@return Bool
+function ScriptableDeviceComponentPS:ShouldShowExamineIntaraction() end
 
 ---@param oryginalAction ScriptableDeviceAction
 ---@return nil
-function ScriptableDeviceComponentPS:StorePerformedActionID(oryginalAction) return end
+function ScriptableDeviceComponentPS:StorePerformedActionID(oryginalAction) end
 
 ---@param whoBreached gameObject
 ---@param lastKnownPosition Vector4
 ---@param type ESecurityNotificationType
 ---@param forceNotification? Bool
 ---@return nil
-function ScriptableDeviceComponentPS:TriggerSecuritySystemNotification(whoBreached, lastKnownPosition, type, forceNotification) return end
+function ScriptableDeviceComponentPS:TriggerSecuritySystemNotification(whoBreached, lastKnownPosition, type, forceNotification) end
 
----@protected
 ---@param duration Int32
 ---@return nil
-function ScriptableDeviceComponentPS:TriggerWakeUpDelayedEvent(duration) return end
+function ScriptableDeviceComponentPS:TriggerWakeUpDelayedEvent(duration) end
 
----@protected
 ---@return Bool, Device device
-function ScriptableDeviceComponentPS:TryGetDevice() return end
-
----@protected
----@return nil
-function ScriptableDeviceComponentPS:TryInitializeSkillChecks() return end
+function ScriptableDeviceComponentPS:TryGetDevice() end
 
 ---@return nil
-function ScriptableDeviceComponentPS:TurnAuthorizationModuleOFF() return end
+function ScriptableDeviceComponentPS:TryInitializeSkillChecks() end
+
+---@return nil
+function ScriptableDeviceComponentPS:TurnAuthorizationModuleOFF() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:TurnAuthorizationModuleON() return end
+function ScriptableDeviceComponentPS:TurnAuthorizationModuleON() end
 
----@private
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function ScriptableDeviceComponentPS:TutorialProcessSkillcheck(choices) return end
+function ScriptableDeviceComponentPS:TutorialProcessSkillcheck(choices) end
 
 ---@return nil
-function ScriptableDeviceComponentPS:UnpowerDevice() return end
+function ScriptableDeviceComponentPS:UnpowerDevice() end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@return nil
-function ScriptableDeviceComponentPS:UpdateAvailAbleQuickHacks(actions) return end
+function ScriptableDeviceComponentPS:UpdateAvailAbleQuickHacks(actions) end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@return nil
-function ScriptableDeviceComponentPS:UpdateAvailableSpiderbotActions(actions) return end
+function ScriptableDeviceComponentPS:UpdateAvailableSpiderbotActions(actions) end
 
----@private
 ---@param isQuickHackable Bool
 ---@return nil
-function ScriptableDeviceComponentPS:UpdateQuickHackableState(isQuickHackable) return end
+function ScriptableDeviceComponentPS:UpdateQuickHackableState(isQuickHackable) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptableDeviceComponentPS:UseNotifier(action) return end
+function ScriptableDeviceComponentPS:UseNotifier(action) end
 
 ---@param userToAuthorize entEntityID
 ---@param password? CName|string
 ---@param userToAuthorizeHandle? gameObject
 ---@return Bool
-function ScriptableDeviceComponentPS:UserAuthorizationAttempt(userToAuthorize, password, userToAuthorizeHandle) return end
+function ScriptableDeviceComponentPS:UserAuthorizationAttempt(userToAuthorize, password, userToAuthorizeHandle) end
 
----@protected
 ---@return Bool
-function ScriptableDeviceComponentPS:WakeUpDevice() return end
+function ScriptableDeviceComponentPS:WakeUpDevice() end
 
 ---@param actionID CName|string
 ---@param context EActionContext
 ---@return Bool
-function ScriptableDeviceComponentPS:WasActionPerformed(actionID, context) return end
+function ScriptableDeviceComponentPS:WasActionPerformed(actionID, context) end
 
 ---@param actionID CName|string
 ---@return Int32
-function ScriptableDeviceComponentPS:WasActionPerformed(actionID) return end
+function ScriptableDeviceComponentPS:WasActionPerformed(actionID) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:WasDemolitionSkillCheckActive() return end
+function ScriptableDeviceComponentPS:WasDemolitionSkillCheckActive() end
 
 ---@param actionID CName|string
 ---@return Bool
-function ScriptableDeviceComponentPS:WasDeviceActionPerformed(actionID) return end
+function ScriptableDeviceComponentPS:WasDeviceActionPerformed(actionID) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:WasEngineeringSkillCheckActive() return end
+function ScriptableDeviceComponentPS:WasEngineeringSkillCheckActive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:WasHackingMinigameSucceeded() return end
+function ScriptableDeviceComponentPS:WasHackingMinigameSucceeded() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:WasHackingSkillCheckActive() return end
+function ScriptableDeviceComponentPS:WasHackingSkillCheckActive() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:WasQuickHackAttempt() return end
+function ScriptableDeviceComponentPS:WasQuickHackAttempt() end
 
 ---@param quickHackName CName|string
 ---@return Bool
-function ScriptableDeviceComponentPS:WasQuickHackJustPerformed(quickHackName) return end
+function ScriptableDeviceComponentPS:WasQuickHackJustPerformed(quickHackName) end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:WasQuickHacked() return end
+function ScriptableDeviceComponentPS:WasQuickHacked() end
 
 ---@return Bool
-function ScriptableDeviceComponentPS:WashackingMinigameFailed() return end
+function ScriptableDeviceComponentPS:WashackingMinigameFailed() end

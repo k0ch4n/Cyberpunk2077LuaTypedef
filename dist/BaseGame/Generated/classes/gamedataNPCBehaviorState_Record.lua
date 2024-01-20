@@ -5,13 +5,13 @@ gamedataNPCBehaviorState_Record = {}
 
 ---@param fields? gamedataNPCBehaviorState_Record
 ---@return gamedataNPCBehaviorState_Record
-function gamedataNPCBehaviorState_Record.new(fields) return end
+function gamedataNPCBehaviorState_Record.new(fields) end
 
 ---@return String
-function gamedataNPCBehaviorState_Record:Comment() return end
+function gamedataNPCBehaviorState_Record:Comment() end
 
 ---@return CName
-function gamedataNPCBehaviorState_Record:EnumName() return end
+function gamedataNPCBehaviorState_Record:EnumName() end
 
 ---@return gamedataNPCBehaviorState
-function gamedataNPCBehaviorState_Record:Type() return end
+function gamedataNPCBehaviorState_Record:Type() end

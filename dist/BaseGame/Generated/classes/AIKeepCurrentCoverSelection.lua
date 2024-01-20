@@ -5,4 +5,4 @@ AIKeepCurrentCoverSelection = {}
 
 ---@param fields? AIKeepCurrentCoverSelection
 ---@return AIKeepCurrentCoverSelection
-function AIKeepCurrentCoverSelection.new(fields) return end
+function AIKeepCurrentCoverSelection.new(fields) end

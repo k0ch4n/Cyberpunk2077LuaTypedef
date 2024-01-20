@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CooldownStorageID
----@field public ID Uint32
----@field public isValid EBOOL
+---@field ID Uint32
+---@field isValid EBOOL
 CooldownStorageID = {}
 
 ---@param fields? CooldownStorageID
 ---@return CooldownStorageID
-function CooldownStorageID.new(fields) return end
+function CooldownStorageID.new(fields) end

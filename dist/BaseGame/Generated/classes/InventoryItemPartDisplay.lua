@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class InventoryItemPartDisplay: inkWidgetLogicController
----@field protected PartIconImage inkImageWidgetReference
----@field protected Rarity inkWidgetReference
----@field protected TexturePartName CName
----@field protected attachmentData gameInventoryItemAttachments
+---@field PartIconImage inkImageWidgetReference
+---@field Rarity inkWidgetReference
+---@field TexturePartName CName
+---@field attachmentData gameInventoryItemAttachments
 InventoryItemPartDisplay = {}
 
 ---@param fields? InventoryItemPartDisplay
 ---@return InventoryItemPartDisplay
-function InventoryItemPartDisplay.new(fields) return end
+function InventoryItemPartDisplay.new(fields) end
 
 ---@param weaponPartType WeaponPartType
 ---@return CName
-function InventoryItemPartDisplay.GetCorrespondingTexturePartName(weaponPartType) return end
+function InventoryItemPartDisplay.GetCorrespondingTexturePartName(weaponPartType) end
 
----@protected
 ---@return nil
-function InventoryItemPartDisplay:SetRarity() return end
+function InventoryItemPartDisplay:SetRarity() end
 
 ---@param attachmentDataArg gameInventoryItemAttachments
 ---@return nil
-function InventoryItemPartDisplay:Setup(attachmentDataArg) return end
+function InventoryItemPartDisplay:Setup(attachmentDataArg) end
 
----@protected
 ---@return nil
-function InventoryItemPartDisplay:UpdateMounted() return end
+function InventoryItemPartDisplay:UpdateMounted() end
 
----@protected
 ---@return nil
-function InventoryItemPartDisplay:UpdateTexture() return end
+function InventoryItemPartDisplay:UpdateTexture() end

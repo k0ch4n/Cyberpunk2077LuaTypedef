@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class textTextBlockStyle
----@field public tintColor HDRColor
----@field public shadowOffset Vector2
----@field public shadowColor HDRColor
----@field public fontStyle textTextBlockFontStyle
----@field public fontSize Uint16
+---@field tintColor HDRColor
+---@field shadowOffset Vector2
+---@field shadowColor HDRColor
+---@field fontStyle textTextBlockFontStyle
+---@field fontSize Uint16
 textTextBlockStyle = {}
 
 ---@param fields? textTextBlockStyle
 ---@return textTextBlockStyle
-function textTextBlockStyle.new(fields) return end
+function textTextBlockStyle.new(fields) end

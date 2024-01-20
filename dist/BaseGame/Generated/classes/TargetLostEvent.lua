@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TargetLostEvent: redEvent
----@field public target ScriptedPuppet
+---@field target ScriptedPuppet
 TargetLostEvent = {}
 
 ---@param fields? TargetLostEvent
 ---@return TargetLostEvent
-function TargetLostEvent.new(fields) return end
+function TargetLostEvent.new(fields) end

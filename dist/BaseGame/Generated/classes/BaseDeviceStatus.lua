@@ -1,42 +1,42 @@
 ---@meta
 
 ---@class BaseDeviceStatus: ActionEnum
----@field public isRestarting Bool
+---@field isRestarting Bool
 BaseDeviceStatus = {}
 
 ---@param fields? BaseDeviceStatus
 ---@return BaseDeviceStatus
-function BaseDeviceStatus.new(fields) return end
+function BaseDeviceStatus.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function BaseDeviceStatus.IsAvailable(device) return end
+function BaseDeviceStatus.IsAvailable(device) end
 
 ---@param requesterClearancer gamedeviceClearance
 ---@return Bool
-function BaseDeviceStatus.IsClearanceValid(requesterClearancer) return end
+function BaseDeviceStatus.IsClearanceValid(requesterClearancer) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function BaseDeviceStatus.IsContextValid(context) return end
+function BaseDeviceStatus.IsContextValid(context) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function BaseDeviceStatus.IsDefaultConditionMet(device, context) return end
+function BaseDeviceStatus.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function BaseDeviceStatus:GetCurrentDisplayString() return end
+function BaseDeviceStatus:GetCurrentDisplayString() end
 
 ---@return TweakDBID
-function BaseDeviceStatus:GetScannerStatusRecord() return end
+function BaseDeviceStatus:GetScannerStatusRecord() end
 
 ---@return Int32
-function BaseDeviceStatus:GetStatusValue() return end
+function BaseDeviceStatus:GetStatusValue() end
 
 ---@return String
-function BaseDeviceStatus:GetTweakDBChoiceRecord() return end
+function BaseDeviceStatus:GetTweakDBChoiceRecord() end
 
 ---@param deviceRef ScriptableDeviceComponentPS
 ---@return nil
-function BaseDeviceStatus:SetProperties(deviceRef) return end
+function BaseDeviceStatus:SetProperties(deviceRef) end

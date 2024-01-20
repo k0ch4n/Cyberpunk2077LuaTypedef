@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animSAnimationBufferBitwiseCompressedBoneTrack
----@field public position animSAnimationBufferBitwiseCompressedData
----@field public orientation animSAnimationBufferBitwiseCompressedData
----@field public scale animSAnimationBufferBitwiseCompressedData
+---@field position animSAnimationBufferBitwiseCompressedData
+---@field orientation animSAnimationBufferBitwiseCompressedData
+---@field scale animSAnimationBufferBitwiseCompressedData
 animSAnimationBufferBitwiseCompressedBoneTrack = {}
 
 ---@param fields? animSAnimationBufferBitwiseCompressedBoneTrack
 ---@return animSAnimationBufferBitwiseCompressedBoneTrack
-function animSAnimationBufferBitwiseCompressedBoneTrack.new(fields) return end
+function animSAnimationBufferBitwiseCompressedBoneTrack.new(fields) end

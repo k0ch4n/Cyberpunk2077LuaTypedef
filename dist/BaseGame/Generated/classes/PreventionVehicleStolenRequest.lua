@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PreventionVehicleStolenRequest: gameScriptableSystemRequest
----@field public requesterPosition Vector4
----@field public vehicleAffiliation gamedataAffiliation
+---@field requesterPosition Vector4
+---@field vehicleAffiliation gamedataAffiliation
 PreventionVehicleStolenRequest = {}
 
 ---@param fields? PreventionVehicleStolenRequest
 ---@return PreventionVehicleStolenRequest
-function PreventionVehicleStolenRequest.new(fields) return end
+function PreventionVehicleStolenRequest.new(fields) end

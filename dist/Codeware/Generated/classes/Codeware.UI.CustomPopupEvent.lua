@@ -4,4 +4,4 @@
 Codeware_UI_CustomPopupEvent = {}
 
 ---@return Codeware_UI_CustomPopup
-function Codeware_UI_CustomPopupEvent:GetPopupController() return end
+function Codeware_UI_CustomPopupEvent:GetPopupController() end

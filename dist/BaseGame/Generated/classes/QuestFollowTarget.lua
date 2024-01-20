@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class QuestFollowTarget: ActionEntityReference
----@field public ForcedTarget entEntityID
+---@field ForcedTarget entEntityID
 QuestFollowTarget = {}
 
 ---@param fields? QuestFollowTarget
 ---@return QuestFollowTarget
-function QuestFollowTarget.new(fields) return end
+function QuestFollowTarget.new(fields) end
 
 ---@return nil
-function QuestFollowTarget:SetProperties() return end
+function QuestFollowTarget:SetProperties() end
 
 ---@param id entEntityID
 ---@return nil
-function QuestFollowTarget:SetPropertiesFromScripts(id) return end
+function QuestFollowTarget:SetPropertiesFromScripts(id) end

@@ -5,7 +5,7 @@ MasterController = {}
 
 ---@param fields? MasterController
 ---@return MasterController
-function MasterController.new(fields) return end
+function MasterController.new(fields) end
 
 ---@return MasterControllerPS
-function MasterController:GetPS() return end
+function MasterController:GetPS() end

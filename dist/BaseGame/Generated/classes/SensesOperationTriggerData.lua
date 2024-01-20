@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SensesOperationTriggerData: DeviceOperationTriggerData
----@field public isActivatorPlayer Bool
----@field public isActivatorNPC Bool
----@field public attitudeGroup CName
----@field public operationType ETriggerOperationType
+---@field isActivatorPlayer Bool
+---@field isActivatorNPC Bool
+---@field attitudeGroup CName
+---@field operationType ETriggerOperationType
 SensesOperationTriggerData = {}
 
 ---@param fields? SensesOperationTriggerData
 ---@return SensesOperationTriggerData
-function SensesOperationTriggerData.new(fields) return end
+function SensesOperationTriggerData.new(fields) end

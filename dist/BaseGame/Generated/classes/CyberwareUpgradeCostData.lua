@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CyberwareUpgradeCostData
----@field public materialRecordID TweakDBID
----@field public materialCount Int32
----@field public moneyRequired Int32
+---@field materialRecordID TweakDBID
+---@field materialCount Int32
+---@field moneyRequired Int32
 CyberwareUpgradeCostData = {}
 
 ---@param fields? CyberwareUpgradeCostData
 ---@return CyberwareUpgradeCostData
-function CyberwareUpgradeCostData.new(fields) return end
+function CyberwareUpgradeCostData.new(fields) end

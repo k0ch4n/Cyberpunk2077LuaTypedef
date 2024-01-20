@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAnimFeature_VehiclePassengerAnimSetup: animAnimFeature
----@field public enableAdditiveAnim Bool
----@field public additiveScale Float
+---@field enableAdditiveAnim Bool
+---@field additiveScale Float
 animAnimFeature_VehiclePassengerAnimSetup = {}
 
 ---@param fields? animAnimFeature_VehiclePassengerAnimSetup
 ---@return animAnimFeature_VehiclePassengerAnimSetup
-function animAnimFeature_VehiclePassengerAnimSetup.new(fields) return end
+function animAnimFeature_VehiclePassengerAnimSetup.new(fields) end

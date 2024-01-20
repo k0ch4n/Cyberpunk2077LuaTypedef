@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questGameManagerNodeDefinition: questTypedSignalStoppingNodeDefinition
----@field public type questIGameManagerNodeType
+---@field type questIGameManagerNodeType
 questGameManagerNodeDefinition = {}
 
 ---@param fields? questGameManagerNodeDefinition
 ---@return questGameManagerNodeDefinition
-function questGameManagerNodeDefinition.new(fields) return end
+function questGameManagerNodeDefinition.new(fields) end

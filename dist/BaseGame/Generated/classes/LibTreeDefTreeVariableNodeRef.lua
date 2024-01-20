@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class LibTreeDefTreeVariableNodeRef: LibTreeDefTreeVariable
----@field public exportAsProperty Bool
----@field public defaultValue NodeRef
+---@field exportAsProperty Bool
+---@field defaultValue NodeRef
 LibTreeDefTreeVariableNodeRef = {}
 
 ---@param fields? LibTreeDefTreeVariableNodeRef
 ---@return LibTreeDefTreeVariableNodeRef
-function LibTreeDefTreeVariableNodeRef.new(fields) return end
+function LibTreeDefTreeVariableNodeRef.new(fields) end

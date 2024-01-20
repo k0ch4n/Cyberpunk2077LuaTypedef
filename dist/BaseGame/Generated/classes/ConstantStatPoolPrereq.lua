@@ -5,10 +5,9 @@ ConstantStatPoolPrereq = {}
 
 ---@param fields? ConstantStatPoolPrereq
 ---@return ConstantStatPoolPrereq
-function ConstantStatPoolPrereq.new(fields) return end
+function ConstantStatPoolPrereq.new(fields) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ConstantStatPoolPrereq:OnRegister(state, context) return end
+function ConstantStatPoolPrereq:OnRegister(state, context) end

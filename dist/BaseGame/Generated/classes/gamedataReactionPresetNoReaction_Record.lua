@@ -5,4 +5,4 @@ gamedataReactionPresetNoReaction_Record = {}
 
 ---@param fields? gamedataReactionPresetNoReaction_Record
 ---@return gamedataReactionPresetNoReaction_Record
-function gamedataReactionPresetNoReaction_Record.new(fields) return end
+function gamedataReactionPresetNoReaction_Record.new(fields) end

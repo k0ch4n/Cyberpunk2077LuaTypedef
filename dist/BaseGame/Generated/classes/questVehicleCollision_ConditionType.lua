@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questVehicleCollision_ConditionType: questIVehicleConditionType
----@field public magnitude questImpulseMagnitude
+---@field magnitude questImpulseMagnitude
 questVehicleCollision_ConditionType = {}
 
 ---@param fields? questVehicleCollision_ConditionType
 ---@return questVehicleCollision_ConditionType
-function questVehicleCollision_ConditionType.new(fields) return end
+function questVehicleCollision_ConditionType.new(fields) end

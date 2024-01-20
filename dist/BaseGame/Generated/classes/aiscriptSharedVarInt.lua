@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class aiscriptSharedVarInt
----@field public varName LibTreeSharedVarReferenceName
+---@field varName LibTreeSharedVarReferenceName
 aiscriptSharedVarInt = {}
 
 ---@param fields? aiscriptSharedVarInt
 ---@return aiscriptSharedVarInt
-function aiscriptSharedVarInt.new(fields) return end
+function aiscriptSharedVarInt.new(fields) end
 
 ---@return nil
-function aiscriptSharedVarInt.Get() return end
+function aiscriptSharedVarInt.Get() end
 
 ---@return nil
-function aiscriptSharedVarInt.IsValid() return end
+function aiscriptSharedVarInt.IsValid() end
 
 ---@return nil
-function aiscriptSharedVarInt.Set() return end
+function aiscriptSharedVarInt.Set() end

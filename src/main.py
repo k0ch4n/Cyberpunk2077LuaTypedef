@@ -238,11 +238,6 @@ class Annotation:
         if ~flags & Flags.Function.isStatic:
             operator = ":"
 
-        if flags & Flags.Function.isPrivate:
-            self.add_custom(f"---@private")
-        elif flags & Flags.Function.isProtected:
-            self.add_custom(f"---@protected")
-
         types = [type]
         param_names = []
         for param in params:
@@ -265,7 +260,7 @@ class Annotation:
         separator = ", "
 
         self.add_custom(f"---@return {separator.join(types)}")
-        self.add_custom(f"function {self.class_name}{operator}{name}({separator.join(param_names)}) return end")
+        self.add_custom(f"function {self.class_name}{operator}{name}({separator.join(param_names)}) end")
 
     def add_constructor(self):
         params = [{"name": "fields", "type": self.class_name, "flags": Flags.Property.isOptional}]
@@ -275,16 +270,7 @@ class Annotation:
         self.add_custom("\n", False)
 
     def add_field(self, name: str, type: str, flags: int):
-        scope = "public"
-
-        if flags & Flags.Property.isPrivate:
-            scope = "private"
-        elif flags & Flags.Property.isProtected:
-            scope = "protected"
-        elif flags & Flags.Property.isPublic:
-            scope = "public"
-
-        self.add_custom(f"---@field {scope} {name} {type}")
+        self.add_custom(f"---@field {name} {type}")
 
     def add_enum(self, name: str, options: list[dict]):
         self.add_custom(f"---@class {name}: Enum")

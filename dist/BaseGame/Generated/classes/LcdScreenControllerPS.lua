@@ -1,59 +1,52 @@
 ---@meta
 
 ---@class LcdScreenControllerPS: ScriptableDeviceComponentPS
----@field private messageRecordID TweakDBID
----@field private replaceTextWithCustomNumber Bool
----@field private customNumber Int32
----@field private messageRecordSelector ScreenMessageSelector
+---@field messageRecordID TweakDBID
+---@field replaceTextWithCustomNumber Bool
+---@field customNumber Int32
+---@field messageRecordSelector ScreenMessageSelector
 LcdScreenControllerPS = {}
 
 ---@param fields? LcdScreenControllerPS
 ---@return LcdScreenControllerPS
-function LcdScreenControllerPS.new(fields) return end
+function LcdScreenControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function LcdScreenControllerPS:OnInstantiated() return end
+function LcdScreenControllerPS:OnInstantiated() end
 
----@protected
 ---@return Bool
-function LcdScreenControllerPS:CanCreateAnyQuickHackActions() return end
+function LcdScreenControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return TweakDBID
-function LcdScreenControllerPS:GetBackgroundTextureTweakDBID() return end
+function LcdScreenControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return LcdScreenBlackBoardDef
-function LcdScreenControllerPS:GetBlackboardDef() return end
+function LcdScreenControllerPS:GetBlackboardDef() end
 
 ---@return Int32
-function LcdScreenControllerPS:GetCustomNumber() return end
-
----@protected
----@return TweakDBID
-function LcdScreenControllerPS:GetDeviceIconTweakDBID() return end
+function LcdScreenControllerPS:GetCustomNumber() end
 
 ---@return TweakDBID
-function LcdScreenControllerPS:GetMessageRecordID() return end
+function LcdScreenControllerPS:GetDeviceIconTweakDBID() end
+
+---@return TweakDBID
+function LcdScreenControllerPS:GetMessageRecordID() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function LcdScreenControllerPS:GetQuestActions(context) return end
+function LcdScreenControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function LcdScreenControllerPS:GetQuickHackActions(context) return end
+function LcdScreenControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool
-function LcdScreenControllerPS:HasCustomNumber() return end
+function LcdScreenControllerPS:HasCustomNumber() end
 
----@private
 ---@param evt SetMessageRecordEvent
 ---@return EntityNotificationType
-function LcdScreenControllerPS:OnSetMessageRecord(evt) return end
+function LcdScreenControllerPS:OnSetMessageRecord(evt) end
 
----@protected
 ---@param id TweakDBID|string
 ---@return nil
-function LcdScreenControllerPS:SetMessageRecordID(id) return end
+function LcdScreenControllerPS:SetMessageRecordID(id) end

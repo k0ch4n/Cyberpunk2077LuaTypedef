@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class ItemSlotsFilledPrereq: gameIScriptablePrereq
----@field public equipAreas gamedataEquipmentArea[]
+---@field equipAreas gamedataEquipmentArea[]
 ItemSlotsFilledPrereq = {}
 
 ---@param fields? ItemSlotsFilledPrereq
 ---@return ItemSlotsFilledPrereq
-function ItemSlotsFilledPrereq.new(fields) return end
+function ItemSlotsFilledPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ItemSlotsFilledPrereq:Initialize(recordID) return end
+function ItemSlotsFilledPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ItemSlotsFilledPrereq:OnApplied(state, context) return end
+function ItemSlotsFilledPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ItemSlotsFilledPrereq:OnRegister(state, context) return end
+function ItemSlotsFilledPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ItemSlotsFilledPrereq:OnUnregister(state, context) return end
+function ItemSlotsFilledPrereq:OnUnregister(state, context) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scneventsPlayAnimEventData
----@field public blendIn Float
----@field public blendOut Float
----@field public clipFront Float
----@field public clipEnd Float
----@field public stretch Float
----@field public blendInCurve scnEasingType
----@field public blendOutCurve scnEasingType
+---@field blendIn Float
+---@field blendOut Float
+---@field clipFront Float
+---@field clipEnd Float
+---@field stretch Float
+---@field blendInCurve scnEasingType
+---@field blendOutCurve scnEasingType
 scneventsPlayAnimEventData = {}
 
 ---@param fields? scneventsPlayAnimEventData
 ---@return scneventsPlayAnimEventData
-function scneventsPlayAnimEventData.new(fields) return end
+function scneventsPlayAnimEventData.new(fields) end

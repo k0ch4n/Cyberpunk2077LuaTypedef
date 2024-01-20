@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class CerberusRangedKillTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIShootCommand
----@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
----@field protected activationTimeStamp Float
----@field protected commandDuration Float
----@field protected target gameObject
----@field protected targetID entEntityID
----@field public playerPuppet PlayerPuppet
----@field private fadeOutStarted Bool
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIShootCommand
+---@field threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field activationTimeStamp Float
+---@field commandDuration Float
+---@field target gameObject
+---@field targetID entEntityID
+---@field playerPuppet PlayerPuppet
+---@field fadeOutStarted Bool
 CerberusRangedKillTask = {}
 
 ---@param fields? CerberusRangedKillTask
 ---@return CerberusRangedKillTask
-function CerberusRangedKillTask.new(fields) return end
+function CerberusRangedKillTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CerberusRangedKillTask:Activate(context) return end
+function CerberusRangedKillTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CerberusRangedKillTask:CancelCommand(context) return end
+function CerberusRangedKillTask:CancelCommand(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CerberusRangedKillTask:Deactivate(context) return end
+function CerberusRangedKillTask:Deactivate(context) end

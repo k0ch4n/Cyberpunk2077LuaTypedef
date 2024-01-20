@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class entISkinTargetComponent: entIVisualComponent
----@field public skinning entSkinningBinding
----@field public useSkinningLOD Bool
+---@field skinning entSkinningBinding
+---@field useSkinningLOD Bool
 entISkinTargetComponent = {}

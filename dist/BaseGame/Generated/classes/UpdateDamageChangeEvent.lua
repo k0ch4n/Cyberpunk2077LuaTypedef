@@ -5,4 +5,4 @@ UpdateDamageChangeEvent = {}
 
 ---@param fields? UpdateDamageChangeEvent
 ---@return UpdateDamageChangeEvent
-function UpdateDamageChangeEvent.new(fields) return end
+function UpdateDamageChangeEvent.new(fields) end

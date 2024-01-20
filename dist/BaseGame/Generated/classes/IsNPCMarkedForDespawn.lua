@@ -5,9 +5,8 @@ IsNPCMarkedForDespawn = {}
 
 ---@param fields? IsNPCMarkedForDespawn
 ---@return IsNPCMarkedForDespawn
-function IsNPCMarkedForDespawn.new(fields) return end
+function IsNPCMarkedForDespawn.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsNPCMarkedForDespawn:Check(context) return end
+function IsNPCMarkedForDespawn:Check(context) end

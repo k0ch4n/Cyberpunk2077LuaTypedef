@@ -1,856 +1,749 @@
 ---@meta
 
 ---@class SecuritySystemControllerPS: DeviceSystemBaseControllerPS
----@field private level_0 SecurityAccessLevelEntry[]
----@field private level_1 SecurityAccessLevelEntry[]
----@field private level_2 SecurityAccessLevelEntry[]
----@field private level_3 SecurityAccessLevelEntry[]
----@field private level_4 SecurityAccessLevelEntry[]
----@field private allowSecuritySystemToDisableItself Bool
----@field private attitudeGroup TweakDBID
----@field private suppressAbilityToModifyAttitude Bool
----@field private attitudeChangeMode EShouldChangeAttitude
----@field private performAutomaticResetAfter Time
----@field private hideAreasOnMinimap Bool
----@field private isUnderStrictQuestControl Bool
----@field private securitySystemState ESecuritySystemState
----@field private agentsRegistry AgentRegistry
----@field private securitySystem SecuritySystemControllerPS
----@field private latestOutputEngineTime Float
----@field private updateInterval Float
----@field private restartDuration Int32
----@field private protectedEntityIDs entEntityID[]
----@field private entitiesRemainingAtGate entEntityID[]
----@field private blacklist BlacklistEntry[]
----@field private currentReprimandID Int32
----@field private blacklistDelayValid Bool
----@field private blacklistDelayID gameDelayID
----@field private maxGlobalWarningsCount Int32
----@field private delayIDValid Bool
----@field private deescalationEventID gameDelayID
----@field private outputsSend Int32
----@field private inputsReceived Int32
+---@field level_0 SecurityAccessLevelEntry[]
+---@field level_1 SecurityAccessLevelEntry[]
+---@field level_2 SecurityAccessLevelEntry[]
+---@field level_3 SecurityAccessLevelEntry[]
+---@field level_4 SecurityAccessLevelEntry[]
+---@field allowSecuritySystemToDisableItself Bool
+---@field attitudeGroup TweakDBID
+---@field suppressAbilityToModifyAttitude Bool
+---@field attitudeChangeMode EShouldChangeAttitude
+---@field performAutomaticResetAfter Time
+---@field hideAreasOnMinimap Bool
+---@field isUnderStrictQuestControl Bool
+---@field securitySystemState ESecuritySystemState
+---@field agentsRegistry AgentRegistry
+---@field securitySystem SecuritySystemControllerPS
+---@field latestOutputEngineTime Float
+---@field updateInterval Float
+---@field restartDuration Int32
+---@field protectedEntityIDs entEntityID[]
+---@field entitiesRemainingAtGate entEntityID[]
+---@field blacklist BlacklistEntry[]
+---@field currentReprimandID Int32
+---@field blacklistDelayValid Bool
+---@field blacklistDelayID gameDelayID
+---@field maxGlobalWarningsCount Int32
+---@field delayIDValid Bool
+---@field deescalationEventID gameDelayID
+---@field outputsSend Int32
+---@field inputsReceived Int32
 SecuritySystemControllerPS = {}
 
 ---@param fields? SecuritySystemControllerPS
 ---@return SecuritySystemControllerPS
-function SecuritySystemControllerPS.new(fields) return end
+function SecuritySystemControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SecuritySystemControllerPS:OnInstantiated() return end
+function SecuritySystemControllerPS:OnInstantiated() end
 
----@private
 ---@return FullSystemRestart
-function SecuritySystemControllerPS:ActionFullSystemRestart() return end
+function SecuritySystemControllerPS:ActionFullSystemRestart() end
 
 ---@param notificationEvent SecuritySystemInput
 ---@return SecuritySystemOutput
-function SecuritySystemControllerPS:ActionSecuritySystemBreachResponse(notificationEvent) return end
+function SecuritySystemControllerPS:ActionSecuritySystemBreachResponse(notificationEvent) end
 
----@protected
 ---@return SecuritySystemStatus
-function SecuritySystemControllerPS:ActionSecuritySystemStatus() return end
+function SecuritySystemControllerPS:ActionSecuritySystemStatus() end
 
----@protected
 ---@return ThumbnailUI
-function SecuritySystemControllerPS:ActionThumbnailUI() return end
+function SecuritySystemControllerPS:ActionThumbnailUI() end
 
 ---@param entryLevel ESecurityAccessLevel
 ---@param password? CName|string
 ---@param keycard? TweakDBID|string
 ---@return nil
-function SecuritySystemControllerPS:AddAccessLevelData(entryLevel, password, keycard) return end
+function SecuritySystemControllerPS:AddAccessLevelData(entryLevel, password, keycard) end
 
----@private
 ---@param level SecurityAccessLevelEntry[]
 ---@param password? CName|string
 ---@param keycard? TweakDBID|string
 ---@return nil
-function SecuritySystemControllerPS:AddAccessLevelEntry(level, password, keycard) return end
+function SecuritySystemControllerPS:AddAccessLevelEntry(level, password, keycard) end
 
----@private
 ---@param agent DeviceLink
 ---@param connectedAreas SecurityAreaControllerPS[]
 ---@param requestLatestOutput Bool
 ---@return nil
-function SecuritySystemControllerPS:AddAgentRecord(agent, connectedAreas, requestLatestOutput) return end
+function SecuritySystemControllerPS:AddAgentRecord(agent, connectedAreas, requestLatestOutput) end
 
 ---@param user entEntityID
 ---@param level ESecurityAccessLevel
 ---@return nil
-function SecuritySystemControllerPS:AuthorizeUser(user, level) return end
+function SecuritySystemControllerPS:AuthorizeUser(user, level) end
 
 ---@param user entEntityID
 ---@param password? CName|string
 ---@return Bool
-function SecuritySystemControllerPS:AuthorizeUser(user, password) return end
+function SecuritySystemControllerPS:AuthorizeUser(user, password) end
 
----@private
 ---@param entityID entEntityID
 ---@param reason BlacklistReason
 ---@return nil
-function SecuritySystemControllerPS:BlacklistEntityID(entityID, reason) return end
+function SecuritySystemControllerPS:BlacklistEntityID(entityID, reason) end
 
----@private
 ---@param go gameObject
 ---@param reason BlacklistReason
 ---@return nil
-function SecuritySystemControllerPS:BlacklistEntityID(go, reason) return end
+function SecuritySystemControllerPS:BlacklistEntityID(go, reason) end
 
----@private
 ---@return nil
-function SecuritySystemControllerPS:CancelAutomaticDeescalationEvent() return end
+function SecuritySystemControllerPS:CancelAutomaticDeescalationEvent() end
 
----@private
 ---@return nil
-function SecuritySystemControllerPS:CleanSecuritySystemMemory() return end
+function SecuritySystemControllerPS:CleanSecuritySystemMemory() end
 
----@private
 ---@return nil
-function SecuritySystemControllerPS:CompileSecurityAgentRegistry() return end
+function SecuritySystemControllerPS:CompileSecurityAgentRegistry() end
 
----@private
 ---@return nil
-function SecuritySystemControllerPS:CreateRegistry() return end
+function SecuritySystemControllerPS:CreateRegistry() end
 
 ---@return Int32
-function SecuritySystemControllerPS:DebugGetInputsCount() return end
+function SecuritySystemControllerPS:DebugGetInputsCount() end
 
 ---@return Int32
-function SecuritySystemControllerPS:DebugGetOutputsCount() return end
+function SecuritySystemControllerPS:DebugGetOutputsCount() end
 
 ---@return BlacklistReason
-function SecuritySystemControllerPS:Debug_GetPlayerBlacklistReason() return end
+function SecuritySystemControllerPS:Debug_GetPlayerBlacklistReason() end
 
 ---@return Int32
-function SecuritySystemControllerPS:Debug_GetPlayerWarningCount() return end
+function SecuritySystemControllerPS:Debug_GetPlayerWarningCount() end
 
 ---@return Int32
-function SecuritySystemControllerPS:Debug_GetReprimandID() return end
+function SecuritySystemControllerPS:Debug_GetReprimandID() end
 
----@private
 ---@param evt SecuritySystemInput
 ---@return nil
-function SecuritySystemControllerPS:Deescalate(evt) return end
+function SecuritySystemControllerPS:Deescalate(evt) end
 
 ---@param entityID entEntityID
 ---@return ESecurityAreaType
-function SecuritySystemControllerPS:DetermineSecurityAreaTypeForEntityID(entityID) return end
+function SecuritySystemControllerPS:DetermineSecurityAreaTypeForEntityID(entityID) end
 
 ---@param evt SecuritySystemInput
 ---@param isSimulation? Bool
 ---@return ESecuritySystemState
-function SecuritySystemControllerPS:DetermineSecuritySystemState(evt, isSimulation) return end
+function SecuritySystemControllerPS:DetermineSecuritySystemState(evt, isSimulation) end
 
----@private
 ---@param wasScheduled Bool
 ---@return nil
-function SecuritySystemControllerPS:DisableSecuritySystem(wasScheduled) return end
+function SecuritySystemControllerPS:DisableSecuritySystem(wasScheduled) end
 
----@private
 ---@param evt QuestSecuritySystemInput
 ---@return entEntityID[]
-function SecuritySystemControllerPS:ExtractNPCIDsFromQuestNotification(evt) return end
+function SecuritySystemControllerPS:ExtractNPCIDsFromQuestNotification(evt) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function SecuritySystemControllerPS:GetActions(context) return end
+function SecuritySystemControllerPS:GetActions(context) end
 
----@protected
 ---@param agentID gamePersistentID
 ---@return SecurityAreaControllerPS[]
-function SecuritySystemControllerPS:GetAgentAreas(agentID) return end
+function SecuritySystemControllerPS:GetAgentAreas(agentID) end
 
 ---@return AgentRegistry
-function SecuritySystemControllerPS:GetAgentRegistry() return end
+function SecuritySystemControllerPS:GetAgentRegistry() end
 
----@private
 ---@return gameCAttitudeManager
-function SecuritySystemControllerPS:GetAttitudeSystem() return end
+function SecuritySystemControllerPS:GetAttitudeSystem() end
 
----@private
 ---@param target entEntityID
 ---@return EAIAttitude
-function SecuritySystemControllerPS:GetAttitudeTowards(target) return end
+function SecuritySystemControllerPS:GetAttitudeTowards(target) end
 
----@private
 ---@param otherGroup CName|string
 ---@return EAIAttitude
-function SecuritySystemControllerPS:GetAttitudeTowards(otherGroup) return end
+function SecuritySystemControllerPS:GetAttitudeTowards(otherGroup) end
 
----@private
 ---@param target gameObject
 ---@return EAIAttitude
-function SecuritySystemControllerPS:GetAttitudeTowards(target) return end
+function SecuritySystemControllerPS:GetAttitudeTowards(target) end
 
----@protected
 ---@return TweakDBID
-function SecuritySystemControllerPS:GetBackgroundTextureTweakDBID() return end
+function SecuritySystemControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return String
-function SecuritySystemControllerPS:GetDebugTags() return end
+function SecuritySystemControllerPS:GetDebugTags() end
 
----@protected
 ---@return TweakDBID
-function SecuritySystemControllerPS:GetDeviceIconTweakDBID() return end
+function SecuritySystemControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return SecuritySystemStatus
-function SecuritySystemControllerPS:GetDeviceStatusAction() return end
+function SecuritySystemControllerPS:GetDeviceStatusAction() end
 
----@private
 ---@param entityID entEntityID
 ---@return Int32
-function SecuritySystemControllerPS:GetEntityBlacklistIndex(entityID) return end
+function SecuritySystemControllerPS:GetEntityBlacklistIndex(entityID) end
 
 ---@param entityID entEntityID
 ---@return SecurityAreaControllerPS
-function SecuritySystemControllerPS:GetMostDangerousSecurityAreaForEntityID(entityID) return end
+function SecuritySystemControllerPS:GetMostDangerousSecurityAreaForEntityID(entityID) end
 
 ---@param go gameObject
 ---@return SecurityAreaControllerPS
-function SecuritySystemControllerPS:GetMostDangerousSecurityAreaForEntityID(go) return end
+function SecuritySystemControllerPS:GetMostDangerousSecurityAreaForEntityID(go) end
 
----@private
 ---@param bunch1 SecurityAreaControllerPS[]
 ---@param bunch2 SecurityAreaControllerPS[]
 ---@return SecurityAreaControllerPS[]
-function SecuritySystemControllerPS:GetOverlappingAreas(bunch1, bunch2) return end
+function SecuritySystemControllerPS:GetOverlappingAreas(bunch1, bunch2) end
 
----@private
 ---@param input SecuritySystemInput
 ---@return SecurityAreaControllerPS[]
-function SecuritySystemControllerPS:GetOverlappingAreas(input) return end
+function SecuritySystemControllerPS:GetOverlappingAreas(input) end
 
----@private
 ---@param agent Agent
 ---@return gameDeviceComponentPS
-function SecuritySystemControllerPS:GetPS(agent) return end
+function SecuritySystemControllerPS:GetPS(agent) end
 
 ---@param target? entEntityID
 ---@return gameObject
-function SecuritySystemControllerPS:GetReprimandPerformer(target) return end
+function SecuritySystemControllerPS:GetReprimandPerformer(target) end
 
 ---@param agentID gamePersistentID
 ---@return entEntityID
-function SecuritySystemControllerPS:GetReprimandReceiver(agentID) return end
+function SecuritySystemControllerPS:GetReprimandReceiver(agentID) end
 
 ---@param level ESecurityAccessLevel
 ---@return SecurityAccessLevelEntry[]
-function SecuritySystemControllerPS:GetSecurityAccessData(level) return end
+function SecuritySystemControllerPS:GetSecurityAccessData(level) end
 
 ---@param includeInactive? Bool
 ---@param acquireOnlyDirectlyConnected? Bool
 ---@return SecurityAreaControllerPS[]
-function SecuritySystemControllerPS:GetSecurityAreas(includeInactive, acquireOnlyDirectlyConnected) return end
+function SecuritySystemControllerPS:GetSecurityAreas(includeInactive, acquireOnlyDirectlyConnected) end
 
 ---@return BlacklistEntry[]
-function SecuritySystemControllerPS:GetSecurityBlacklist() return end
+function SecuritySystemControllerPS:GetSecurityBlacklist() end
 
----@private
 ---@param area SecurityAreaControllerPS
 ---@return SecurityAreaData
-function SecuritySystemControllerPS:GetSecurityDataForArea(area) return end
+function SecuritySystemControllerPS:GetSecurityDataForArea(area) end
 
 ---@return ESecuritySystemState
-function SecuritySystemControllerPS:GetSecurityState() return end
+function SecuritySystemControllerPS:GetSecurityState() end
 
 ---@return CName
-function SecuritySystemControllerPS:GetSecuritySystemAttitudeGroupName() return end
+function SecuritySystemControllerPS:GetSecuritySystemAttitudeGroupName() end
 
 ---@return SensorDeviceControllerPS[]
-function SecuritySystemControllerPS:GetSensors() return end
+function SecuritySystemControllerPS:GetSensors() end
 
 ---@param area SecurityAreaControllerPS
 ---@param turrets SecurityTurretControllerPS[]
 ---@return Bool
-function SecuritySystemControllerPS:GetTurrets(area, turrets) return end
+function SecuritySystemControllerPS:GetTurrets(area, turrets) end
 
 ---@param user entEntityID
 ---@return ESecurityAccessLevel
-function SecuritySystemControllerPS:GetUserAuthorizationLevel(user) return end
+function SecuritySystemControllerPS:GetUserAuthorizationLevel(user) end
 
 ---@param input SecuritySystemInput
 ---@return SecuritySystemOutputData[]
-function SecuritySystemControllerPS:GetValidRecipients(input) return end
+function SecuritySystemControllerPS:GetValidRecipients(input) end
 
----@private
 ---@param area SecurityAreaControllerPS
 ---@return nil
-function SecuritySystemControllerPS:HandleAreaBeingDisabled(area) return end
+function SecuritySystemControllerPS:HandleAreaBeingDisabled(area) end
 
----@private
 ---@param area SecurityAreaControllerPS
 ---@return nil
-function SecuritySystemControllerPS:HandleAreaBeingEnabled(area) return end
+function SecuritySystemControllerPS:HandleAreaBeingEnabled(area) end
 
----@private
 ---@param evt SecuritySystemInput
 ---@return nil
-function SecuritySystemControllerPS:HandleSecuritySystemInput(evt) return end
+function SecuritySystemControllerPS:HandleSecuritySystemInput(evt) end
 
----@protected
 ---@param inputEvent SecuritySystemInput
 ---@return nil
-function SecuritySystemControllerPS:HandleSecuritySystemInputByTask(inputEvent) return end
+function SecuritySystemControllerPS:HandleSecuritySystemInputByTask(inputEvent) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function SecuritySystemControllerPS:HandleSecuritySystemInputTask(data) return end
+function SecuritySystemControllerPS:HandleSecuritySystemInputTask(data) end
 
 ---@param reporter gamePersistentID
 ---@param target gameObject
 ---@param notificationType ESecurityNotificationType
 ---@return Bool
-function SecuritySystemControllerPS:HasEntityBeenSpottedTooManyTimes(reporter, target, notificationType) return end
+function SecuritySystemControllerPS:HasEntityBeenSpottedTooManyTimes(reporter, target, notificationType) end
 
 ---@param reporter gamePersistentID
 ---@param target entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:HasEntityBeenSpottedTooManyTimes(reporter, target) return end
+function SecuritySystemControllerPS:HasEntityBeenSpottedTooManyTimes(reporter, target) end
 
 ---@param agentID gamePersistentID
 ---@return Bool
-function SecuritySystemControllerPS:HasSupport(agentID) return end
+function SecuritySystemControllerPS:HasSupport(agentID) end
 
 ---@param target entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:HasSurpassedGlobalWarningsCount(target) return end
+function SecuritySystemControllerPS:HasSurpassedGlobalWarningsCount(target) end
 
----@protected
 ---@return nil
-function SecuritySystemControllerPS:Initialize() return end
+function SecuritySystemControllerPS:Initialize() end
 
----@private
 ---@return nil
-function SecuritySystemControllerPS:InitiateAgentRegistry() return end
+function SecuritySystemControllerPS:InitiateAgentRegistry() end
 
----@private
 ---@param evt SecuritySystemInput
 ---@return nil
-function SecuritySystemControllerPS:InitiateAutomaticDeescalationEvent(evt) return end
+function SecuritySystemControllerPS:InitiateAutomaticDeescalationEvent(evt) end
 
 ---@param entityID entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:IsEntityBlacklisted(entityID) return end
+function SecuritySystemControllerPS:IsEntityBlacklisted(entityID) end
 
 ---@param gameObject gameObject
 ---@return Bool
-function SecuritySystemControllerPS:IsEntityBlacklisted(gameObject) return end
+function SecuritySystemControllerPS:IsEntityBlacklisted(gameObject) end
 
 ---@param go gameObject
 ---@param reason BlacklistReason
 ---@return Bool
-function SecuritySystemControllerPS:IsEntityBlacklistedForAtLeast(go, reason) return end
+function SecuritySystemControllerPS:IsEntityBlacklistedForAtLeast(go, reason) end
 
 ---@param entityID entEntityID
 ---@param reason BlacklistReason
 ---@return Bool
-function SecuritySystemControllerPS:IsEntityBlacklistedForAtLeast(entityID, reason) return end
+function SecuritySystemControllerPS:IsEntityBlacklistedForAtLeast(entityID, reason) end
 
----@protected
 ---@param entityID entEntityID
 ---@param reason BlacklistReason
 ---@return Bool
-function SecuritySystemControllerPS:IsEntityBlacklistedForSpecificReason(entityID, reason) return end
+function SecuritySystemControllerPS:IsEntityBlacklistedForSpecificReason(entityID, reason) end
 
----@private
 ---@param entityId entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:IsEntityInsideAnyArea(entityId) return end
+function SecuritySystemControllerPS:IsEntityInsideAnyArea(entityId) end
 
 ---@return Bool
-function SecuritySystemControllerPS:IsHidden() return end
+function SecuritySystemControllerPS:IsHidden() end
 
----@private
 ---@param evt SecuritySystemInput
 ---@return Bool
-function SecuritySystemControllerPS:IsNotificationValid(evt) return end
+function SecuritySystemControllerPS:IsNotificationValid(evt) end
 
----@private
 ---@param entityID entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:IsPlayersEntityID(entityID) return end
+function SecuritySystemControllerPS:IsPlayersEntityID(entityID) end
 
 ---@return Bool
-function SecuritySystemControllerPS:IsPoliceSecuritySystem() return end
-
----@private
----@return Bool
-function SecuritySystemControllerPS:IsRefreshRequired() return end
-
----@private
----@return Bool
-function SecuritySystemControllerPS:IsRegistryReady() return end
+function SecuritySystemControllerPS:IsPoliceSecuritySystem() end
 
 ---@return Bool
-function SecuritySystemControllerPS:IsReprimandOngoing() return end
+function SecuritySystemControllerPS:IsRefreshRequired() end
+
+---@return Bool
+function SecuritySystemControllerPS:IsRegistryReady() end
+
+---@return Bool
+function SecuritySystemControllerPS:IsReprimandOngoing() end
 
 ---@param suspect entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:IsReprimandOngoingAgainst(suspect) return end
+function SecuritySystemControllerPS:IsReprimandOngoingAgainst(suspect) end
 
 ---@return Bool
-function SecuritySystemControllerPS:IsSystemAlerted() return end
-
----@private
----@return Bool
-function SecuritySystemControllerPS:IsSystemClean() return end
+function SecuritySystemControllerPS:IsSystemAlerted() end
 
 ---@return Bool
-function SecuritySystemControllerPS:IsSystemInCombat() return end
+function SecuritySystemControllerPS:IsSystemClean() end
 
 ---@return Bool
-function SecuritySystemControllerPS:IsSystemSafe() return end
+function SecuritySystemControllerPS:IsSystemInCombat() end
 
----@private
 ---@return Bool
-function SecuritySystemControllerPS:IsSystemSafeOrUninitialized() return end
+function SecuritySystemControllerPS:IsSystemSafe() end
+
+---@return Bool
+function SecuritySystemControllerPS:IsSystemSafeOrUninitialized() end
 
 ---@param suspect entEntityID
 ---@param reporter entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:IsTargetTresspassingMyZone(suspect, reporter) return end
+function SecuritySystemControllerPS:IsTargetTresspassingMyZone(suspect, reporter) end
 
 ---@return Bool
-function SecuritySystemControllerPS:IsUnderStrictQuestControl() return end
+function SecuritySystemControllerPS:IsUnderStrictQuestControl() end
 
 ---@param user gameObject
 ---@param level ESecurityAccessLevel
 ---@return Bool
-function SecuritySystemControllerPS:IsUserAuthorized(user, level) return end
+function SecuritySystemControllerPS:IsUserAuthorized(user, level) end
 
 ---@param user entEntityID
 ---@param level ESecurityAccessLevel
 ---@return Bool
-function SecuritySystemControllerPS:IsUserAuthorized(user, level) return end
+function SecuritySystemControllerPS:IsUserAuthorized(user, level) end
 
----@private
 ---@param user entEntityID
 ---@param level ESecurityAccessLevel
 ---@return Bool
-function SecuritySystemControllerPS:IsUserAuthorizedViaCard(user, level) return end
+function SecuritySystemControllerPS:IsUserAuthorizedViaCard(user, level) end
 
----@private
 ---@param password CName|string
 ---@param level ESecurityAccessLevel
 ---@return Bool
-function SecuritySystemControllerPS:IsUserAuthorizedViaPassword(password, level) return end
+function SecuritySystemControllerPS:IsUserAuthorizedViaPassword(password, level) end
 
 ---@param userToBeChecked entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:IsUserInsideSystem(userToBeChecked) return end
+function SecuritySystemControllerPS:IsUserInsideSystem(userToBeChecked) end
 
 ---@param userToBeChecked entEntityID
 ---@return Bool, ESecurityAccessLevel highestSecurityAccessLevel
-function SecuritySystemControllerPS:IsUserInsideSystem(userToBeChecked) return end
+function SecuritySystemControllerPS:IsUserInsideSystem(userToBeChecked) end
 
 ---@param userToBeChecked entEntityID
 ---@return Bool, ESecurityAccessLevel highestSecurityAccessLevel, ESecurityAreaType highestThreat
-function SecuritySystemControllerPS:IsUserInsideSystem(userToBeChecked) return end
+function SecuritySystemControllerPS:IsUserInsideSystem(userToBeChecked) end
 
----@protected
 ---@return nil
-function SecuritySystemControllerPS:NotifyAboutAttitudeChange() return end
+function SecuritySystemControllerPS:NotifyAboutAttitudeChange() end
 
 ---@param evt ActionForceResetDevice
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnActionForceResetDevice(evt) return end
+function SecuritySystemControllerPS:OnActionForceResetDevice(evt) end
 
----@protected
 ---@param evt TakeOverSecuritySystem
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnActionTakeOverSecuritySystem(evt) return end
+function SecuritySystemControllerPS:OnActionTakeOverSecuritySystem(evt) end
 
 ---@param evt AddUserEvent
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnAddUserEvent(evt) return end
+function SecuritySystemControllerPS:OnAddUserEvent(evt) end
 
----@private
 ---@param evt SecurityAgentSpawnedEvent
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnAgentSpawned(evt) return end
+function SecuritySystemControllerPS:OnAgentSpawned(evt) end
 
 ---@param evt AutomaticDeescalationEvent
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnAutomaticDeescalationEvent(evt) return end
+function SecuritySystemControllerPS:OnAutomaticDeescalationEvent(evt) end
 
----@private
 ---@param evt BlacklistPeriodEnded
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnBlacklistPeriodEnded(evt) return end
+function SecuritySystemControllerPS:OnBlacklistPeriodEnded(evt) end
 
----@private
 ---@param evt DeescalationEvent
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnDeescalation(evt) return end
+function SecuritySystemControllerPS:OnDeescalation(evt) end
 
 ---@param evt FullSystemRestart
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnFullSystemRestart(evt) return end
+function SecuritySystemControllerPS:OnFullSystemRestart(evt) end
 
----@protected
 ---@param evt MadnessDebuff
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnMadnessDebuff(evt) return end
+function SecuritySystemControllerPS:OnMadnessDebuff(evt) end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function SecuritySystemControllerPS:OnMaraudersMapDeviceDebug(sink) return end
+function SecuritySystemControllerPS:OnMaraudersMapDeviceDebug(sink) end
 
 ---@param evt PSInitializeEvent
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnPSInitializeEvent(evt) return end
+function SecuritySystemControllerPS:OnPSInitializeEvent(evt) end
 
 ---@param evt PSInstantiateEvent
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnPSInstantiateEvent(evt) return end
+function SecuritySystemControllerPS:OnPSInstantiateEvent(evt) end
 
----@protected
 ---@param evt PlayerSpotted
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnPlayerSpotted(evt) return end
+function SecuritySystemControllerPS:OnPlayerSpotted(evt) end
 
----@protected
 ---@param evt AuthorizePlayerInSecuritySystem
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnQuestAuthorizePlayer(evt) return end
+function SecuritySystemControllerPS:OnQuestAuthorizePlayer(evt) end
 
----@protected
 ---@param evt BlacklistPlayer
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnQuestBlackListPlayer(evt) return end
+function SecuritySystemControllerPS:OnQuestBlackListPlayer(evt) end
 
----@protected
 ---@param evt QuestChangeSecuritySystemAttitudeGroup
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnQuestChangeSecuritySystemAttitudeGroup(evt) return end
+function SecuritySystemControllerPS:OnQuestChangeSecuritySystemAttitudeGroup(evt) end
 
----@protected
 ---@param evt QuestCombatActionNotification
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnQuestCombatActionNotification(evt) return end
+function SecuritySystemControllerPS:OnQuestCombatActionNotification(evt) end
 
----@protected
 ---@param evt SuppressSecuritySystemStateChange
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnQuestExclusiveQuestControl(evt) return end
+function SecuritySystemControllerPS:OnQuestExclusiveQuestControl(evt) end
 
----@protected
 ---@param evt QuestForceON
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnQuestForceON(evt) return end
+function SecuritySystemControllerPS:OnQuestForceON(evt) end
 
----@protected
 ---@param evt QuestIllegalActionNotification
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnQuestIllegalActionNotification(evt) return end
+function SecuritySystemControllerPS:OnQuestIllegalActionNotification(evt) end
 
----@private
 ---@param evt RemoveFromBlacklistEvent
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnRemoveFromBlacklist(evt) return end
+function SecuritySystemControllerPS:OnRemoveFromBlacklist(evt) end
 
----@protected
 ---@param evt RevokeAuthorization
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnRevokeAuthorization(evt) return end
+function SecuritySystemControllerPS:OnRevokeAuthorization(evt) end
 
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnSecurityAreaCrossingPerimeter(evt) return end
+function SecuritySystemControllerPS:OnSecurityAreaCrossingPerimeter(evt) end
 
----@private
 ---@param evt SecurityAreaTypeChangedNotification
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnSecurityAreaTypeChangedNotification(evt) return end
+function SecuritySystemControllerPS:OnSecurityAreaTypeChangedNotification(evt) end
 
 ---@param evt SecuritySystemInput
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnSecuritySystemInput(evt) return end
+function SecuritySystemControllerPS:OnSecuritySystemInput(evt) end
 
----@protected
 ---@param evt SetSecuritySystemState
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnSetSecuritySystemState(evt) return end
+function SecuritySystemControllerPS:OnSetSecuritySystemState(evt) end
 
----@protected
 ---@param evt SuppressSecuritySystemReaction
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnSuppressSecuritySystemReaction(evt) return end
+function SecuritySystemControllerPS:OnSuppressSecuritySystemReaction(evt) end
 
----@private
 ---@param user entEntityID
 ---@return ESecurityAccessLevel
-function SecuritySystemControllerPS:PerformAuthorizationAttemptUsingKeycard(user) return end
+function SecuritySystemControllerPS:PerformAuthorizationAttemptUsingKeycard(user) end
 
----@private
 ---@param user entEntityID
 ---@param password CName|string
 ---@return ESecurityAccessLevel
-function SecuritySystemControllerPS:PerformAuthorizationAttemptUsingPassword(user, password) return end
+function SecuritySystemControllerPS:PerformAuthorizationAttemptUsingPassword(user, password) end
 
----@protected
 ---@param addresseeList entEntityID[]
 ---@param securitySystemInput SecuritySystemInput
 ---@return nil
-function SecuritySystemControllerPS:ProcessBreachNotificationWithRecipientsList(addresseeList, securitySystemInput) return end
+function SecuritySystemControllerPS:ProcessBreachNotificationWithRecipientsList(addresseeList, securitySystemInput) end
 
----@private
 ---@param input SecuritySystemInput
 ---@return Bool
-function SecuritySystemControllerPS:ProcessFriendly(input) return end
+function SecuritySystemControllerPS:ProcessFriendly(input) end
 
----@private
 ---@return Bool
-function SecuritySystemControllerPS:ProcessHostile() return end
+function SecuritySystemControllerPS:ProcessHostile() end
 
----@private
 ---@param input SecuritySystemInput
 ---@return Bool
-function SecuritySystemControllerPS:ProcessInput(input) return end
+function SecuritySystemControllerPS:ProcessInput(input) end
 
----@private
 ---@param input SecuritySystemInput
 ---@return Bool
-function SecuritySystemControllerPS:ProcessNeutral(input) return end
+function SecuritySystemControllerPS:ProcessNeutral(input) end
 
----@private
 ---@param input SecuritySystemInput
 ---@param securityStateChanged Bool
 ---@return nil
-function SecuritySystemControllerPS:ProduceOutput(input, securityStateChanged) return end
+function SecuritySystemControllerPS:ProduceOutput(input, securityStateChanged) end
 
 ---@param evt redEvent
 ---@return nil
-function SecuritySystemControllerPS:PropagateEventToAgents(evt) return end
+function SecuritySystemControllerPS:PropagateEventToAgents(evt) end
 
----@private
 ---@return SecurityAccessLevelEntry[]
-function SecuritySystemControllerPS:ProvideAccessDataLevel_0() return end
+function SecuritySystemControllerPS:ProvideAccessDataLevel_0() end
 
----@private
 ---@return SecurityAccessLevelEntry[]
-function SecuritySystemControllerPS:ProvideAccessDataLevel_1() return end
+function SecuritySystemControllerPS:ProvideAccessDataLevel_1() end
 
----@private
 ---@return SecurityAccessLevelEntry[]
-function SecuritySystemControllerPS:ProvideAccessDataLevel_2() return end
+function SecuritySystemControllerPS:ProvideAccessDataLevel_2() end
 
----@private
 ---@return SecurityAccessLevelEntry[]
-function SecuritySystemControllerPS:ProvideAccessDataLevel_3() return end
+function SecuritySystemControllerPS:ProvideAccessDataLevel_3() end
 
----@private
 ---@return SecurityAccessLevelEntry[]
-function SecuritySystemControllerPS:ProvideAccessDataLevel_4() return end
+function SecuritySystemControllerPS:ProvideAccessDataLevel_4() end
 
 ---@param evt AuthorizePlayerInSecuritySystem
 ---@return nil
-function SecuritySystemControllerPS:QuestAuthorizePlayer(evt) return end
+function SecuritySystemControllerPS:QuestAuthorizePlayer(evt) end
 
 ---@param evt BlacklistPlayer
 ---@return nil
-function SecuritySystemControllerPS:QuestBlacklistPlayer(evt) return end
+function SecuritySystemControllerPS:QuestBlacklistPlayer(evt) end
 
 ---@param evt QuestChangeSecuritySystemAttitudeGroup
 ---@return nil
-function SecuritySystemControllerPS:QuestChangeSecuritySystemAttitudeGroup(evt) return end
+function SecuritySystemControllerPS:QuestChangeSecuritySystemAttitudeGroup(evt) end
 
 ---@param evt SetSecuritySystemState
 ---@return nil
-function SecuritySystemControllerPS:QuestChangeSecuritySystemState(evt) return end
+function SecuritySystemControllerPS:QuestChangeSecuritySystemState(evt) end
 
 ---@param evt QuestCombatActionNotification
 ---@return nil
-function SecuritySystemControllerPS:QuestCombatActionNotification(evt) return end
+function SecuritySystemControllerPS:QuestCombatActionNotification(evt) end
 
 ---@param evt QuestIllegalActionNotification
 ---@return nil
-function SecuritySystemControllerPS:QuestIllegalActionNotification(evt) return end
+function SecuritySystemControllerPS:QuestIllegalActionNotification(evt) end
 
 ---@param evt SuppressSecuritySystemStateChange
 ---@return nil
-function SecuritySystemControllerPS:QuestSuppressSecuritySystem(evt) return end
+function SecuritySystemControllerPS:QuestSuppressSecuritySystem(evt) end
 
----@private
 ---@param level ESecurityAccessLevel
 ---@return ESecurityAccessLevel
-function SecuritySystemControllerPS:ReduceLevelByOne(level) return end
+function SecuritySystemControllerPS:ReduceLevelByOne(level) end
 
----@private
 ---@return nil
-function SecuritySystemControllerPS:ReleaseAllReprimands() return end
+function SecuritySystemControllerPS:ReleaseAllReprimands() end
 
----@private
 ---@param instructions EReprimandInstructions
 ---@param target entEntityID
 ---@return nil
-function SecuritySystemControllerPS:ReleaseCurrentPerformerFromReprimand(instructions, target) return end
+function SecuritySystemControllerPS:ReleaseCurrentPerformerFromReprimand(instructions, target) end
 
 ---@param go gameObject
 ---@return nil
-function SecuritySystemControllerPS:RemoveFromBlacklist(go) return end
+function SecuritySystemControllerPS:RemoveFromBlacklist(go) end
 
----@private
 ---@param entityID entEntityID
 ---@return nil
-function SecuritySystemControllerPS:RemoveFromBlacklist(entityID) return end
+function SecuritySystemControllerPS:RemoveFromBlacklist(entityID) end
 
----@private
 ---@param index Int32
 ---@return nil
-function SecuritySystemControllerPS:RemoveIndexFromBlacklist(index) return end
+function SecuritySystemControllerPS:RemoveIndexFromBlacklist(index) end
 
----@protected
 ---@param user entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:RemoveUser(user) return end
+function SecuritySystemControllerPS:RemoveUser(user) end
 
 ---@param input SecuritySystemInput
 ---@return Bool
-function SecuritySystemControllerPS:ReportPotentialSituation(input) return end
+function SecuritySystemControllerPS:ReportPotentialSituation(input) end
 
 ---@param id gamePersistentID
 ---@return nil
-function SecuritySystemControllerPS:RequestLatestOutput(id) return end
+function SecuritySystemControllerPS:RequestLatestOutput(id) end
 
----@private
 ---@param providedAgents? Agent[]
 ---@param target gameObject
 ---@return nil
-function SecuritySystemControllerPS:RequestTargetsAssessment(providedAgents, target) return end
+function SecuritySystemControllerPS:RequestTargetsAssessment(providedAgents, target) end
 
----@private
 ---@param entityID entEntityID
 ---@return nil
-function SecuritySystemControllerPS:ResetBlacklistWipeCountdown(entityID) return end
+function SecuritySystemControllerPS:ResetBlacklistWipeCountdown(entityID) end
 
----@private
 ---@param evt SecuritySystemInput
 ---@return nil
-function SecuritySystemControllerPS:ResolveNotificationImmediately(evt) return end
+function SecuritySystemControllerPS:ResolveNotificationImmediately(evt) end
 
----@private
 ---@return Bool
-function SecuritySystemControllerPS:ResolvePotentialDeescalation() return end
+function SecuritySystemControllerPS:ResolvePotentialDeescalation() end
 
----@private
 ---@param evt SecuritySystemInput
 ---@param determinedState ESecuritySystemState
 ---@return Bool
-function SecuritySystemControllerPS:ResolveReprimand(evt, determinedState) return end
+function SecuritySystemControllerPS:ResolveReprimand(evt, determinedState) end
 
----@private
 ---@param evt SecuritySystemInput
 ---@param isSimulation? Bool
 ---@return ESecuritySystemState
-function SecuritySystemControllerPS:ResolveTransitionFromAlerted(evt, isSimulation) return end
+function SecuritySystemControllerPS:ResolveTransitionFromAlerted(evt, isSimulation) end
 
----@private
 ---@param evt SecuritySystemInput
 ---@param isSimulation? Bool
 ---@return ESecuritySystemState
-function SecuritySystemControllerPS:ResolveTransitionFromCombat(evt, isSimulation) return end
+function SecuritySystemControllerPS:ResolveTransitionFromCombat(evt, isSimulation) end
 
----@private
 ---@param evt SecuritySystemInput
 ---@param isSimulation? Bool
 ---@return ESecuritySystemState
-function SecuritySystemControllerPS:ResolveTransitionFromSafe(evt, isSimulation) return end
+function SecuritySystemControllerPS:ResolveTransitionFromSafe(evt, isSimulation) end
 
----@private
 ---@param entityID entEntityID
 ---@return nil
-function SecuritySystemControllerPS:RevokeProtection(entityID) return end
+function SecuritySystemControllerPS:RevokeProtection(entityID) end
 
----@private
 ---@param message String
 ---@return nil
-function SecuritySystemControllerPS:SecuritySystemLog(message) return end
+function SecuritySystemControllerPS:SecuritySystemLog(message) end
 
----@private
 ---@param evt ReprimandUpdate
 ---@return nil
-function SecuritySystemControllerPS:SecuritySystemLog(evt) return end
+function SecuritySystemControllerPS:SecuritySystemLog(evt) end
 
----@private
 ---@param evt ReprimandUpdate
 ---@return nil
-function SecuritySystemControllerPS:SendReprimandEvent(evt) return end
+function SecuritySystemControllerPS:SendReprimandEvent(evt) end
 
----@private
 ---@param response SecuritySystemOutput
 ---@return nil
-function SecuritySystemControllerPS:SendResponseToCustomRecipients(response) return end
+function SecuritySystemControllerPS:SendResponseToCustomRecipients(response) end
 
----@protected
 ---@param modifiedAgents? Agent[]
 ---@param forceRevokeSupport Bool
 ---@return nil
-function SecuritySystemControllerPS:SendSupportEvents(modifiedAgents, forceRevokeSupport) return end
+function SecuritySystemControllerPS:SendSupportEvents(modifiedAgents, forceRevokeSupport) end
 
----@private
 ---@param evt SecuritySystemInput
 ---@param instructions EReprimandInstructions
 ---@return nil
-function SecuritySystemControllerPS:SetReprimandPerformer(evt, instructions) return end
+function SecuritySystemControllerPS:SetReprimandPerformer(evt, instructions) end
 
----@private
 ---@param newState ESecuritySystemState
 ---@param input? SecuritySystemInput
 ---@param isComingFromQuest? Bool
 ---@return nil
-function SecuritySystemControllerPS:SetSecurityState(newState, input, isComingFromQuest) return end
+function SecuritySystemControllerPS:SetSecurityState(newState, input, isComingFromQuest) end
 
----@private
 ---@param newState ESecuritySystemState
 ---@param evt SecuritySystemInput
 ---@param isComingFromQuest? Bool
 ---@return Bool
-function SecuritySystemControllerPS:SetSecurityStateAndTriggerResponse(newState, evt, isComingFromQuest) return end
+function SecuritySystemControllerPS:SetSecurityStateAndTriggerResponse(newState, evt, isComingFromQuest) end
 
----@private
 ---@param desiredAttitude EAIAttitude
 ---@param input SecuritySystemInput
 ---@param isComingFromQuest? Bool
 ---@return nil
-function SecuritySystemControllerPS:SetSecuritySystemAttitude(desiredAttitude, input, isComingFromQuest) return end
+function SecuritySystemControllerPS:SetSecuritySystemAttitude(desiredAttitude, input, isComingFromQuest) end
 
----@protected
 ---@param newAttitude TweakDBID|string
 ---@return nil
-function SecuritySystemControllerPS:SetSecuritySystemAttitudeGroup(newAttitude) return end
+function SecuritySystemControllerPS:SetSecuritySystemAttitudeGroup(newAttitude) end
 
 ---@param suspect entEntityID
 ---@param reporter entEntityID
 ---@return Bool
-function SecuritySystemControllerPS:ShouldReactToTarget(suspect, reporter) return end
+function SecuritySystemControllerPS:ShouldReactToTarget(suspect, reporter) end
 
----@private
 ---@return Bool
-function SecuritySystemControllerPS:ShouldSecuritySystemDisableItself() return end
-
----@private
----@param entityID entEntityID
----@return nil
-function SecuritySystemControllerPS:TriggerBlacklistWipeCountdown(entityID) return end
+function SecuritySystemControllerPS:ShouldSecuritySystemDisableItself() end
 
 ---@param entityID entEntityID
 ---@return nil
-function SecuritySystemControllerPS:TryReleaseFromReprimand(entityID) return end
+function SecuritySystemControllerPS:TriggerBlacklistWipeCountdown(entityID) end
 
----@private
+---@param entityID entEntityID
+---@return nil
+function SecuritySystemControllerPS:TryReleaseFromReprimand(entityID) end
+
 ---@param entityId entEntityID
 ---@return nil
-function SecuritySystemControllerPS:TryUpdateBlackboardAreaDataFor(entityId) return end
+function SecuritySystemControllerPS:TryUpdateBlackboardAreaDataFor(entityId) end
 
----@private
 ---@return nil
-function SecuritySystemControllerPS:UpdateBlackboardAreaDataForPlayer() return end
+function SecuritySystemControllerPS:UpdateBlackboardAreaDataForPlayer() end
 
----@private
 ---@param securityAreaData SecurityAreaData
 ---@return nil
-function SecuritySystemControllerPS:UpdateSecurityZoneDataBlackboard(securityAreaData) return end
+function SecuritySystemControllerPS:UpdateSecurityZoneDataBlackboard(securityAreaData) end

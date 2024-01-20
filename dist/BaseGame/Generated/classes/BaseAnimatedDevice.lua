@@ -1,84 +1,69 @@
 ---@meta
 
 ---@class BaseAnimatedDevice: InteractiveDevice
----@field public openingSpeed Float
----@field public closingSpeed Float
----@field protected animationController entAnimationControllerComponent
----@field protected animFeature AnimFeature_RoadBlock
----@field protected animationType EAnimationType
+---@field openingSpeed Float
+---@field closingSpeed Float
+---@field animationController entAnimationControllerComponent
+---@field animFeature AnimFeature_RoadBlock
+---@field animationType EAnimationType
 BaseAnimatedDevice = {}
 
 ---@param fields? BaseAnimatedDevice
 ---@return BaseAnimatedDevice
-function BaseAnimatedDevice.new(fields) return end
+function BaseAnimatedDevice.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function BaseAnimatedDevice:OnActivateDevice(evt) return end
+function BaseAnimatedDevice:OnActivateDevice(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return Bool
-function BaseAnimatedDevice:OnDeactivateDevice(evt) return end
+function BaseAnimatedDevice:OnDeactivateDevice(evt) end
 
----@protected
 ---@param evt QuickHackToggleActivate
 ---@return Bool
-function BaseAnimatedDevice:OnQuickHackToggleActivate(evt) return end
+function BaseAnimatedDevice:OnQuickHackToggleActivate(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function BaseAnimatedDevice:OnRequestComponents(ri) return end
+function BaseAnimatedDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BaseAnimatedDevice:OnTakeControl(ri) return end
+function BaseAnimatedDevice:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function BaseAnimatedDevice:ActivateAnimation() return end
+function BaseAnimatedDevice:ActivateAnimation() end
 
----@protected
 ---@return nil
-function BaseAnimatedDevice:ActivateDevice() return end
+function BaseAnimatedDevice:ActivateDevice() end
 
----@protected
 ---@return nil
-function BaseAnimatedDevice:Animate() return end
+function BaseAnimatedDevice:Animate() end
 
----@protected
 ---@return nil
-function BaseAnimatedDevice:DeactivateDevice() return end
+function BaseAnimatedDevice:DeactivateDevice() end
 
 ---@return EGameplayRole
-function BaseAnimatedDevice:DeterminGameplayRole() return end
+function BaseAnimatedDevice:DeterminGameplayRole() end
 
----@private
 ---@return BaseAnimatedDeviceController
-function BaseAnimatedDevice:GetController() return end
+function BaseAnimatedDevice:GetController() end
 
----@private
 ---@return CName
-function BaseAnimatedDevice:GetCurrentAnimationName() return end
+function BaseAnimatedDevice:GetCurrentAnimationName() end
 
 ---@return BaseAnimatedDeviceControllerPS
-function BaseAnimatedDevice:GetDevicePS() return end
+function BaseAnimatedDevice:GetDevicePS() end
 
----@protected
 ---@return Float
-function BaseAnimatedDevice:GetTimeScale() return end
+function BaseAnimatedDevice:GetTimeScale() end
 
----@private
 ---@return nil
-function BaseAnimatedDevice:InvokePlayAnimationEvent() return end
+function BaseAnimatedDevice:InvokePlayAnimationEvent() end
 
----@protected
 ---@return nil
-function BaseAnimatedDevice:OnPlayAnimation() return end
+function BaseAnimatedDevice:OnPlayAnimation() end
 
----@protected
 ---@return nil
-function BaseAnimatedDevice:ResolveGameplayState() return end
+function BaseAnimatedDevice:ResolveGameplayState() end

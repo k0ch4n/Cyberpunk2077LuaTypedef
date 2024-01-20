@@ -1,281 +1,256 @@
 ---@meta
 
 ---@class SecurityAreaControllerPS: MasterControllerPS
----@field private system SecuritySystemControllerPS
----@field private usersInPerimeter AreaEntry[]
----@field private isPlayerInside Bool
----@field private securityAccessLevel ESecurityAccessLevel
----@field private securityAreaType ESecurityAreaType
----@field private eventsFilters EventsFilters
----@field private areaTransitions AreaTypeTransition[]
----@field private runtimeTransitions AreaTypeTransition[]
----@field private pendingDisableRequest Bool
----@field private lastOutput OutputPersistentData
----@field private questPlayerHasTriggeredCombat Bool
----@field private hasThisAreaReceivedCombatNotification Bool
----@field private pendingNotifyPlayerAboutTransition Bool
+---@field system SecuritySystemControllerPS
+---@field usersInPerimeter AreaEntry[]
+---@field isPlayerInside Bool
+---@field securityAccessLevel ESecurityAccessLevel
+---@field securityAreaType ESecurityAreaType
+---@field eventsFilters EventsFilters
+---@field areaTransitions AreaTypeTransition[]
+---@field runtimeTransitions AreaTypeTransition[]
+---@field pendingDisableRequest Bool
+---@field lastOutput OutputPersistentData
+---@field questPlayerHasTriggeredCombat Bool
+---@field hasThisAreaReceivedCombatNotification Bool
+---@field pendingNotifyPlayerAboutTransition Bool
 SecurityAreaControllerPS = {}
 
 ---@param fields? SecurityAreaControllerPS
 ---@return SecurityAreaControllerPS
-function SecurityAreaControllerPS.new(fields) return end
+function SecurityAreaControllerPS.new(fields) end
 
 ---@param type ESecurityAreaType
 ---@return CName
-function SecurityAreaControllerPS.SecurityAreaTypeEnumToName(type) return end
+function SecurityAreaControllerPS.SecurityAreaTypeEnumToName(type) end
 
----@protected
 ---@return Bool
-function SecurityAreaControllerPS:OnInstantiated() return end
+function SecurityAreaControllerPS:OnInstantiated() end
 
----@private
 ---@param whoEntered gameObject
 ---@param entered Bool
 ---@return SecurityAreaCrossingPerimeter
-function SecurityAreaControllerPS:ActionSecurityAreaCrossingPerimeter(whoEntered, entered) return end
+function SecurityAreaControllerPS:ActionSecurityAreaCrossingPerimeter(whoEntered, entered) end
 
----@private
 ---@param transition AreaTypeTransition
 ---@param isScheduled Bool
 ---@return Bool
-function SecurityAreaControllerPS:ApplyTransition(transition, isScheduled) return end
+function SecurityAreaControllerPS:ApplyTransition(transition, isScheduled) end
 
 ---@param listenerIndex Uint32
 ---@return Bool
-function SecurityAreaControllerPS:ApplyTransition(listenerIndex) return end
+function SecurityAreaControllerPS:ApplyTransition(listenerIndex) end
 
 ---@return Bool
-function SecurityAreaControllerPS:AreThereAnyValidTransitions() return end
+function SecurityAreaControllerPS:AreThereAnyValidTransitions() end
 
 ---@param evt entAreaEnteredEvent
 ---@return nil
-function SecurityAreaControllerPS:AreaEntered(evt) return end
+function SecurityAreaControllerPS:AreaEntered(evt) end
 
 ---@param obj gameObject
 ---@return nil
-function SecurityAreaControllerPS:AreaExited(obj) return end
+function SecurityAreaControllerPS:AreaExited(obj) end
 
----@private
 ---@return nil
-function SecurityAreaControllerPS:CopyAreaTransitions() return end
+function SecurityAreaControllerPS:CopyAreaTransitions() end
 
----@private
 ---@return CommunityProxyPS[]
-function SecurityAreaControllerPS:ExtractSquadProxies() return end
+function SecurityAreaControllerPS:ExtractSquadProxies() end
 
----@private
 ---@param userToFind entEntityID
 ---@return Int32
-function SecurityAreaControllerPS:FindEntryIndex(userToFind) return end
+function SecurityAreaControllerPS:FindEntryIndex(userToFind) end
 
----@protected
 ---@return nil
-function SecurityAreaControllerPS:GameAttached() return end
+function SecurityAreaControllerPS:GameAttached() end
 
----@protected
 ---@return TweakDBID
-function SecurityAreaControllerPS:GetBackgroundTextureTweakDBID() return end
+function SecurityAreaControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return String
-function SecurityAreaControllerPS:GetDebugTags() return end
+function SecurityAreaControllerPS:GetDebugTags() end
 
----@protected
 ---@return TweakDBID
-function SecurityAreaControllerPS:GetDeviceIconTweakDBID() return end
+function SecurityAreaControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return String
-function SecurityAreaControllerPS:GetDeviceName() return end
+function SecurityAreaControllerPS:GetDeviceName() end
 
 ---@return entEntityID[]
-function SecurityAreaControllerPS:GetDevices() return end
+function SecurityAreaControllerPS:GetDevices() end
 
 ---@return EFilterType
-function SecurityAreaControllerPS:GetIncomingFilter() return end
+function SecurityAreaControllerPS:GetIncomingFilter() end
 
 ---@return SecuritySystemOutput
-function SecurityAreaControllerPS:GetLastOutput() return end
+function SecurityAreaControllerPS:GetLastOutput() end
 
 ---@return entEntityID[]
-function SecurityAreaControllerPS:GetNPCs() return end
+function SecurityAreaControllerPS:GetNPCs() end
 
 ---@return EFilterType
-function SecurityAreaControllerPS:GetOutgoingFilter() return end
+function SecurityAreaControllerPS:GetOutgoingFilter() end
 
 ---@return ESecurityAccessLevel
-function SecurityAreaControllerPS:GetSecurityAccessLevel() return end
+function SecurityAreaControllerPS:GetSecurityAccessLevel() end
 
 ---@return entEntityID[]
-function SecurityAreaControllerPS:GetSecurityAreaAgents() return end
+function SecurityAreaControllerPS:GetSecurityAreaAgents() end
 
 ---@return SecurityAreaData
-function SecurityAreaControllerPS:GetSecurityAreaData() return end
+function SecurityAreaControllerPS:GetSecurityAreaData() end
 
 ---@return ESecurityAreaType
-function SecurityAreaControllerPS:GetSecurityAreaType() return end
+function SecurityAreaControllerPS:GetSecurityAreaType() end
 
 ---@return Uint32
-function SecurityAreaControllerPS:GetSecurityAreaTypeAsUint32() return end
+function SecurityAreaControllerPS:GetSecurityAreaTypeAsUint32() end
 
 ---@return SecuritySystemControllerPS
-function SecurityAreaControllerPS:GetSecuritySystem() return end
+function SecurityAreaControllerPS:GetSecuritySystem() end
 
----@private
 ---@param turrets SecurityTurretControllerPS[]
 ---@return nil
-function SecurityAreaControllerPS:GetTurrets(turrets) return end
+function SecurityAreaControllerPS:GetTurrets(turrets) end
 
 ---@return AreaEntry[]
-function SecurityAreaControllerPS:GetUsersInPerimeter() return end
+function SecurityAreaControllerPS:GetUsersInPerimeter() end
 
 ---@return Bool
-function SecurityAreaControllerPS:HasPlayerBeenSpottedAndTriggeredCombat() return end
+function SecurityAreaControllerPS:HasPlayerBeenSpottedAndTriggeredCombat() end
 
 ---@return Bool
-function SecurityAreaControllerPS:HasThisAreaReceivedCombatNotification() return end
+function SecurityAreaControllerPS:HasThisAreaReceivedCombatNotification() end
 
----@protected
 ---@return nil
-function SecurityAreaControllerPS:Initialize() return end
+function SecurityAreaControllerPS:Initialize() end
 
 ---@return Bool
-function SecurityAreaControllerPS:IsActive() return end
+function SecurityAreaControllerPS:IsActive() end
 
 ---@return Bool
-function SecurityAreaControllerPS:IsAreaCompromised() return end
+function SecurityAreaControllerPS:IsAreaCompromised() end
 
 ---@return Bool, ESecurityAccessLevel level
-function SecurityAreaControllerPS:IsConnectedToSecuritySystem() return end
+function SecurityAreaControllerPS:IsConnectedToSecuritySystem() end
 
 ---@return Bool
-function SecurityAreaControllerPS:IsConnectedToSystem() return end
+function SecurityAreaControllerPS:IsConnectedToSystem() end
 
----@private
 ---@param turrets SecurityTurretControllerPS[]
 ---@return Bool
-function SecurityAreaControllerPS:IsDisableAllowed(turrets) return end
+function SecurityAreaControllerPS:IsDisableAllowed(turrets) end
 
----@protected
 ---@return Bool
-function SecurityAreaControllerPS:IsPlayerInside() return end
+function SecurityAreaControllerPS:IsPlayerInside() end
 
 ---@param userToBeChecked entEntityID
 ---@return Bool
-function SecurityAreaControllerPS:IsUserInside(userToBeChecked) return end
+function SecurityAreaControllerPS:IsUserInside(userToBeChecked) end
 
----@private
 ---@param tresspassingEvent SecurityAreaCrossingPerimeter
 ---@return nil
-function SecurityAreaControllerPS:NotifySecuritySystem(tresspassingEvent) return end
+function SecurityAreaControllerPS:NotifySecuritySystem(tresspassingEvent) end
 
----@private
 ---@param tresspasser gameObject
 ---@param entering Bool
 ---@return nil
-function SecurityAreaControllerPS:NotifySystemAboutCrossingPerimeter(tresspasser, entering) return end
+function SecurityAreaControllerPS:NotifySystemAboutCrossingPerimeter(tresspasser, entering) end
 
 ---@param evt FullSystemRestart
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnFullSystemRestart(evt) return end
+function SecurityAreaControllerPS:OnFullSystemRestart(evt) end
 
 ---@param evt gameEntitySpawnerEvent
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnGameEntitySpawnerEvent(evt) return end
+function SecurityAreaControllerPS:OnGameEntitySpawnerEvent(evt) end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function SecurityAreaControllerPS:OnMaraudersMapDeviceDebug(sink) return end
+function SecurityAreaControllerPS:OnMaraudersMapDeviceDebug(sink) end
 
 ---@param evt PurgeAllTransitions
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnPurgeTransitions(evt) return end
+function SecurityAreaControllerPS:OnPurgeTransitions(evt) end
 
 ---@param evt QuestAddTransition
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnQuestAddTransition(evt) return end
+function SecurityAreaControllerPS:OnQuestAddTransition(evt) end
 
 ---@param evt QuestCombatActionAreaNotification
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnQuestCombatActionAreaNotification(evt) return end
+function SecurityAreaControllerPS:OnQuestCombatActionAreaNotification(evt) end
 
 ---@param evt QuestExecuteTransition
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnQuestExecuteTransition(evt) return end
+function SecurityAreaControllerPS:OnQuestExecuteTransition(evt) end
 
 ---@param evt QuestIllegalActionAreaNotification
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnQuestIllegalActionAreaNotification(evt) return end
+function SecurityAreaControllerPS:OnQuestIllegalActionAreaNotification(evt) end
 
 ---@param evt QuestModifyFilters
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnQuestModifyFilter(evt) return end
+function SecurityAreaControllerPS:OnQuestModifyFilter(evt) end
 
 ---@param evt QuestRemoveTransition
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnQuestRemoveTransition(evt) return end
+function SecurityAreaControllerPS:OnQuestRemoveTransition(evt) end
 
 ---@param evt SecuritySystemForceAttitudeChange
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnSecuritySystemForceAttitudeChange(evt) return end
+function SecurityAreaControllerPS:OnSecuritySystemForceAttitudeChange(evt) end
 
 ---@param breachEvent SecuritySystemOutput
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnSecuritySystemOutput(breachEvent) return end
+function SecurityAreaControllerPS:OnSecuritySystemOutput(breachEvent) end
 
----@private
 ---@param evt SecurityTurretOffline
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnSecurityTurretOffline(evt) return end
+function SecurityAreaControllerPS:OnSecurityTurretOffline(evt) end
 
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function SecurityAreaControllerPS:OnTargetAssessmentRequest(evt) return end
+function SecurityAreaControllerPS:OnTargetAssessmentRequest(evt) end
 
----@private
 ---@param turrets SecurityTurretControllerPS[]
 ---@return nil
-function SecurityAreaControllerPS:PostponeAreaDisabling(turrets) return end
+function SecurityAreaControllerPS:PostponeAreaDisabling(turrets) end
 
----@private
 ---@param objectToProcess gameObject
 ---@return nil
-function SecurityAreaControllerPS:ProcessOnEnterRequest(objectToProcess) return end
+function SecurityAreaControllerPS:ProcessOnEnterRequest(objectToProcess) end
 
----@private
 ---@param entryToProcess AreaEntry
 ---@return nil
-function SecurityAreaControllerPS:ProcessOnExitRequest(entryToProcess) return end
+function SecurityAreaControllerPS:ProcessOnExitRequest(entryToProcess) end
 
----@private
 ---@param entryToPush AreaEntry
 ---@return nil
-function SecurityAreaControllerPS:PushUniqueEntry(entryToPush) return end
+function SecurityAreaControllerPS:PushUniqueEntry(entryToPush) end
 
 ---@param entity entEntity
 ---@return nil
-function SecurityAreaControllerPS:RegisterTimeSystemListeners(entity) return end
+function SecurityAreaControllerPS:RegisterTimeSystemListeners(entity) end
 
----@private
 ---@return nil
-function SecurityAreaControllerPS:ResolveSecurityAreaType() return end
+function SecurityAreaControllerPS:ResolveSecurityAreaType() end
 
----@private
 ---@return SecuritySystemOutput
-function SecurityAreaControllerPS:RestoreLastOutput() return end
+function SecurityAreaControllerPS:RestoreLastOutput() end
 
----@private
 ---@param newType ESecurityAreaType
 ---@param wasScheduled? Bool
 ---@return nil
-function SecurityAreaControllerPS:SetSecurityAreaType(newType, wasScheduled) return end
+function SecurityAreaControllerPS:SetSecurityAreaType(newType, wasScheduled) end
 
----@private
 ---@param breachEvent SecuritySystemOutput
 ---@return nil
-function SecurityAreaControllerPS:StoreLastOutputPersistentData(breachEvent) return end
+function SecurityAreaControllerPS:StoreLastOutputPersistentData(breachEvent) end
 
 ---@return nil
-function SecurityAreaControllerPS:UnregisterTimeSystemListeners() return end
+function SecurityAreaControllerPS:UnregisterTimeSystemListeners() end
 
----@private
 ---@return nil
-function SecurityAreaControllerPS:UpdateMiniMapRepresentation() return end
+function SecurityAreaControllerPS:UpdateMiniMapRepresentation() end

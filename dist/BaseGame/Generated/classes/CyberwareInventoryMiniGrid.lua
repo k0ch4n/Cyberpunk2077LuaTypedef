@@ -1,213 +1,200 @@
 ---@meta
 
 ---@class CyberwareInventoryMiniGrid: inkWidgetLogicController
----@field private isLeftAligned Bool
----@field private gridContainer inkUniformGridWidgetReference
----@field private label inkTextWidgetReference
----@field private isNew inkWidgetReference
----@field private selectedSlotIndex Int32
----@field public equipArea gamedataEquipmentArea
----@field private parentObject IScriptable
----@field private onRealeaseCallbackName CName
----@field private opacityAnimation inkanimProxy
----@field private marginAnimation inkanimProxy
----@field private labelAnimation inkanimProxy
----@field private labelPulse PulseAnimation
----@field private margin inkMargin
----@field private targetMargin inkMargin
----@field private parent inkCompoundWidgetReference
----@field private player PlayerPuppet
----@field private minigridAnimation inkanimProxy
----@field private screen CyberwareScreenType
----@field private displayContext ItemDisplayContextData
----@field private gridData InventoryItemDisplayController[]
----@field private root inkWidget
+---@field isLeftAligned Bool
+---@field gridContainer inkUniformGridWidgetReference
+---@field label inkTextWidgetReference
+---@field isNew inkWidgetReference
+---@field selectedSlotIndex Int32
+---@field equipArea gamedataEquipmentArea
+---@field parentObject IScriptable
+---@field onRealeaseCallbackName CName
+---@field opacityAnimation inkanimProxy
+---@field marginAnimation inkanimProxy
+---@field labelAnimation inkanimProxy
+---@field labelPulse PulseAnimation
+---@field margin inkMargin
+---@field targetMargin inkMargin
+---@field parent inkCompoundWidgetReference
+---@field player PlayerPuppet
+---@field minigridAnimation inkanimProxy
+---@field screen CyberwareScreenType
+---@field displayContext ItemDisplayContextData
+---@field gridData InventoryItemDisplayController[]
+---@field root inkWidget
 CyberwareInventoryMiniGrid = {}
 
 ---@param fields? CyberwareInventoryMiniGrid
 ---@return CyberwareInventoryMiniGrid
-function CyberwareInventoryMiniGrid.new(fields) return end
+function CyberwareInventoryMiniGrid.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnHoverOutCategory(e) return end
+function CyberwareInventoryMiniGrid:OnHoverOutCategory(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnHoverOutCategoryLabel(e) return end
+function CyberwareInventoryMiniGrid:OnHoverOutCategoryLabel(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnHoverOverCategory(e) return end
+function CyberwareInventoryMiniGrid:OnHoverOverCategory(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnHoverOverCategoryLabel(e) return end
+function CyberwareInventoryMiniGrid:OnHoverOverCategoryLabel(e) end
 
----@protected
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnInitialize() return end
+function CyberwareInventoryMiniGrid:OnInitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnSlotSpawned(widget, userData) return end
+function CyberwareInventoryMiniGrid:OnSlotSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param oldState CName|string
 ---@param newState CName|string
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnStateChanged(widget, oldState, newState) return end
+function CyberwareInventoryMiniGrid:OnStateChanged(widget, oldState, newState) end
 
----@protected
 ---@return Bool
-function CyberwareInventoryMiniGrid:OnUninitialize() return end
+function CyberwareInventoryMiniGrid:OnUninitialize() end
 
----@private
 ---@param hide Bool
 ---@return nil
-function CyberwareInventoryMiniGrid:AnimateLabel(hide) return end
+function CyberwareInventoryMiniGrid:AnimateLabel(hide) end
 
----@private
 ---@param area gamedataEquipmentArea
 ---@return String
-function CyberwareInventoryMiniGrid:GetAreaHeader(area) return end
+function CyberwareInventoryMiniGrid:GetAreaHeader(area) end
 
 ---@return gamedataEquipmentArea
-function CyberwareInventoryMiniGrid:GetEquipmentArea() return end
+function CyberwareInventoryMiniGrid:GetEquipmentArea() end
 
 ---@param itemID gameItemID
 ---@return UIInventoryItem
-function CyberwareInventoryMiniGrid:GetEquippedData(itemID) return end
+function CyberwareInventoryMiniGrid:GetEquippedData(itemID) end
 
 ---@return inkWidget
-function CyberwareInventoryMiniGrid:GetFirstSlot() return end
+function CyberwareInventoryMiniGrid:GetFirstSlot() end
 
 ---@return InventoryItemDisplayController[]
-function CyberwareInventoryMiniGrid:GetInventoryItemDisplays() return end
+function CyberwareInventoryMiniGrid:GetInventoryItemDisplays() end
 
 ---@return inkWidget
-function CyberwareInventoryMiniGrid:GetLastSlot() return end
+function CyberwareInventoryMiniGrid:GetLastSlot() end
 
 ---@return UIInventoryItem
-function CyberwareInventoryMiniGrid:GetSelectedSlotData() return end
+function CyberwareInventoryMiniGrid:GetSelectedSlotData() end
 
 ---@return Int32
-function CyberwareInventoryMiniGrid:GetSelectedSlotIndex() return end
+function CyberwareInventoryMiniGrid:GetSelectedSlotIndex() end
 
 ---@param slotIndex Int32
 ---@return UIInventoryItem
-function CyberwareInventoryMiniGrid:GetSlotData(slotIndex) return end
+function CyberwareInventoryMiniGrid:GetSlotData(slotIndex) end
 
 ---@param slot InventoryItemDisplayController
 ---@return Int32
-function CyberwareInventoryMiniGrid:GetSlotIndex(slot) return end
+function CyberwareInventoryMiniGrid:GetSlotIndex(slot) end
 
 ---@param itemID gameItemID
 ---@return Int32
-function CyberwareInventoryMiniGrid:GetSlotToEquipe(itemID) return end
+function CyberwareInventoryMiniGrid:GetSlotToEquipe(itemID) end
 
 ---@return nil
-function CyberwareInventoryMiniGrid:HighlightSelectedSlot() return end
+function CyberwareInventoryMiniGrid:HighlightSelectedSlot() end
 
 ---@param index Int32
 ---@param animatedHighlight? Bool
 ---@return nil
-function CyberwareInventoryMiniGrid:HighlightSlot(index, animatedHighlight) return end
+function CyberwareInventoryMiniGrid:HighlightSlot(index, animatedHighlight) end
 
 ---@param player PlayerPuppet
 ---@param attribute gamedataStatType
 ---@return nil
-function CyberwareInventoryMiniGrid:HoveredAttribute(player, attribute) return end
+function CyberwareInventoryMiniGrid:HoveredAttribute(player, attribute) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Bool
-function CyberwareInventoryMiniGrid:IsEquipmentAreaRequiringPerk(equipmentArea) return end
+function CyberwareInventoryMiniGrid:IsEquipmentAreaRequiringPerk(equipmentArea) end
 
 ---@return Bool
-function CyberwareInventoryMiniGrid:IsLeftSide() return end
+function CyberwareInventoryMiniGrid:IsLeftSide() end
 
 ---@return nil
-function CyberwareInventoryMiniGrid:OpacityFullHide() return end
+function CyberwareInventoryMiniGrid:OpacityFullHide() end
 
 ---@return nil
-function CyberwareInventoryMiniGrid:OpacityFullShow() return end
+function CyberwareInventoryMiniGrid:OpacityFullShow() end
 
 ---@param shouldDim? Bool
 ---@return nil
-function CyberwareInventoryMiniGrid:OpacityHide(shouldDim) return end
+function CyberwareInventoryMiniGrid:OpacityHide(shouldDim) end
 
 ---@param delay? Float
 ---@return nil
-function CyberwareInventoryMiniGrid:OpacityShow(delay) return end
+function CyberwareInventoryMiniGrid:OpacityShow(delay) end
 
 ---@param index Int32
 ---@return nil
-function CyberwareInventoryMiniGrid:PlayEquipAnimation(index) return end
+function CyberwareInventoryMiniGrid:PlayEquipAnimation(index) end
 
 ---@param duration Float
 ---@param interpolationMode inkanimInterpolationMode
 ---@param interpolationType inkanimInterpolationType
 ---@return nil
-function CyberwareInventoryMiniGrid:PlayIntroAnimation(duration, interpolationMode, interpolationType) return end
+function CyberwareInventoryMiniGrid:PlayIntroAnimation(duration, interpolationMode, interpolationType) end
 
 ---@param playReverse Bool
 ---@return nil
-function CyberwareInventoryMiniGrid:PlayMinigridAnim(playReverse) return end
+function CyberwareInventoryMiniGrid:PlayMinigridAnim(playReverse) end
 
 ---@param hasNew Bool
 ---@return nil
-function CyberwareInventoryMiniGrid:RefreshisNewPreview(hasNew) return end
+function CyberwareInventoryMiniGrid:RefreshisNewPreview(hasNew) end
 
----@private
 ---@param limit Int32
 ---@return nil
-function CyberwareInventoryMiniGrid:RemoveElements(limit) return end
+function CyberwareInventoryMiniGrid:RemoveElements(limit) end
 
 ---@param immediate? Bool
 ---@param duration? Float
 ---@return nil
-function CyberwareInventoryMiniGrid:ResetPosition(immediate, duration) return end
+function CyberwareInventoryMiniGrid:ResetPosition(immediate, duration) end
 
 ---@param index Int32
 ---@return nil
-function CyberwareInventoryMiniGrid:SelectSlot(index) return end
+function CyberwareInventoryMiniGrid:SelectSlot(index) end
 
 ---@param interactive Bool
 ---@return nil
-function CyberwareInventoryMiniGrid:SetInteractive(interactive) return end
+function CyberwareInventoryMiniGrid:SetInteractive(interactive) end
 
 ---@param show Bool
 ---@return nil
-function CyberwareInventoryMiniGrid:SetLabelImmediate(show) return end
+function CyberwareInventoryMiniGrid:SetLabelImmediate(show) end
 
----@private
 ---@param hide Bool
 ---@param shouldDim Bool
 ---@param duration Float
 ---@param delay Float
 ---@return nil
-function CyberwareInventoryMiniGrid:SetOpacityDumb(hide, shouldDim, duration, delay) return end
+function CyberwareInventoryMiniGrid:SetOpacityDumb(hide, shouldDim, duration, delay) end
 
 ---@param orientation inkEOrientation
 ---@return nil
-function CyberwareInventoryMiniGrid:SetOrientation(orientation) return end
+function CyberwareInventoryMiniGrid:SetOrientation(orientation) end
 
 ---@param margin inkMargin
 ---@param duration Float
 ---@return nil
-function CyberwareInventoryMiniGrid:SetPosition(margin, duration) return end
+function CyberwareInventoryMiniGrid:SetPosition(margin, duration) end
 
 ---@param margin inkMargin
 ---@return nil
-function CyberwareInventoryMiniGrid:SetPositionImmediate(margin) return end
+function CyberwareInventoryMiniGrid:SetPositionImmediate(margin) end
 
 ---@param margin inkMargin
 ---@param duration Float
@@ -216,12 +203,12 @@ function CyberwareInventoryMiniGrid:SetPositionImmediate(margin) return end
 ---@param interpolationMode? inkanimInterpolationMode
 ---@param interpolationType? inkanimInterpolationType
 ---@return nil
-function CyberwareInventoryMiniGrid:SetPosition_Animation(margin, duration, isReversed, customOffset, interpolationMode, interpolationType) return end
+function CyberwareInventoryMiniGrid:SetPosition_Animation(margin, duration, isReversed, customOffset, interpolationMode, interpolationType) end
 
 ---@param margin inkMargin
 ---@param parent inkCompoundWidgetReference
 ---@return nil
-function CyberwareInventoryMiniGrid:SetTargetMargin(margin, parent) return end
+function CyberwareInventoryMiniGrid:SetTargetMargin(margin, parent) end
 
 ---@param equipArea gamedataEquipmentArea
 ---@param playerEquipAreaInventory UIInventoryItem[]
@@ -233,28 +220,27 @@ function CyberwareInventoryMiniGrid:SetTargetMargin(margin, parent) return end
 ---@param inventoryManager? InventoryDataManagerV2
 ---@param player? PlayerPuppet
 ---@return nil
-function CyberwareInventoryMiniGrid:SetupData(equipArea, playerEquipAreaInventory, parent, onRealeaseCallbackName, screen, hasMods, displayContext, inventoryManager, player) return end
+function CyberwareInventoryMiniGrid:SetupData(equipArea, playerEquipAreaInventory, parent, onRealeaseCallbackName, screen, hasMods, displayContext, inventoryManager, player) end
 
 ---@return nil
-function CyberwareInventoryMiniGrid:UnhighlightAllSlots() return end
+function CyberwareInventoryMiniGrid:UnhighlightAllSlots() end
 
 ---@return nil
-function CyberwareInventoryMiniGrid:UnhighlightSelectedSlot() return end
+function CyberwareInventoryMiniGrid:UnhighlightSelectedSlot() end
 
 ---@param index Int32
 ---@return nil
-function CyberwareInventoryMiniGrid:UnhighlightSlot(index) return end
+function CyberwareInventoryMiniGrid:UnhighlightSlot(index) end
 
 ---@return nil
-function CyberwareInventoryMiniGrid:UnselectSlot() return end
+function CyberwareInventoryMiniGrid:UnselectSlot() end
 
 ---@param equipArea gamedataEquipmentArea
 ---@param playerEquipAreaInventory UIInventoryItem[]
 ---@param screen? CyberwareScreenType
 ---@return nil
-function CyberwareInventoryMiniGrid:UpdateData(equipArea, playerEquipAreaInventory, screen) return end
+function CyberwareInventoryMiniGrid:UpdateData(equipArea, playerEquipAreaInventory, screen) end
 
----@private
 ---@param label String
 ---@return nil
-function CyberwareInventoryMiniGrid:UpdateTitle(label) return end
+function CyberwareInventoryMiniGrid:UpdateTitle(label) end

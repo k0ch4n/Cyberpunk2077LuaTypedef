@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameMuppetAbilities
----@field public canLook gameMuppetAbility
----@field public canMove gameMuppetAbility
----@field public canCrouch gameMuppetAbility
----@field public canSprint gameMuppetAbility
----@field public canSwitchWeapon gameMuppetAbility
----@field public canHoldWeapon gameMuppetAbility
----@field public canShoot gameMuppetAbility
----@field public canAimDownSight gameMuppetAbility
+---@field canLook gameMuppetAbility
+---@field canMove gameMuppetAbility
+---@field canCrouch gameMuppetAbility
+---@field canSprint gameMuppetAbility
+---@field canSwitchWeapon gameMuppetAbility
+---@field canHoldWeapon gameMuppetAbility
+---@field canShoot gameMuppetAbility
+---@field canAimDownSight gameMuppetAbility
 gameMuppetAbilities = {}
 
 ---@param fields? gameMuppetAbilities
 ---@return gameMuppetAbilities
-function gameMuppetAbilities.new(fields) return end
+function gameMuppetAbilities.new(fields) end

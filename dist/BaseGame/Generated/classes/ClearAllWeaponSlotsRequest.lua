@@ -5,4 +5,4 @@ ClearAllWeaponSlotsRequest = {}
 
 ---@param fields? ClearAllWeaponSlotsRequest
 ---@return ClearAllWeaponSlotsRequest
-function ClearAllWeaponSlotsRequest.new(fields) return end
+function ClearAllWeaponSlotsRequest.new(fields) end

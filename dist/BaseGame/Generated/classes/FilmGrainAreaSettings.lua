@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class FilmGrainAreaSettings: IAreaSettings
----@field public strength curveData
----@field public luminanceBias curveData
----@field public grainSize Vector3
----@field public applyAfterUpsampling Bool
+---@field strength curveData
+---@field luminanceBias curveData
+---@field grainSize Vector3
+---@field applyAfterUpsampling Bool
 FilmGrainAreaSettings = {}
 
 ---@param fields? FilmGrainAreaSettings
 ---@return FilmGrainAreaSettings
-function FilmGrainAreaSettings.new(fields) return end
+function FilmGrainAreaSettings.new(fields) end

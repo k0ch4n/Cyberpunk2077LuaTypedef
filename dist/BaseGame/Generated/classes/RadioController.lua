@@ -5,7 +5,7 @@ RadioController = {}
 
 ---@param fields? RadioController
 ---@return RadioController
-function RadioController.new(fields) return end
+function RadioController.new(fields) end
 
 ---@return RadioControllerPS
-function RadioController:GetPS() return end
+function RadioController:GetPS() end

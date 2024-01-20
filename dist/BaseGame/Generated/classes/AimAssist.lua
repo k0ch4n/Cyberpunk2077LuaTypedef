@@ -5,4 +5,4 @@ AimAssist = {}
 
 ---@param fields? AimAssist
 ---@return AimAssist
-function AimAssist.new(fields) return end
+function AimAssist.new(fields) end

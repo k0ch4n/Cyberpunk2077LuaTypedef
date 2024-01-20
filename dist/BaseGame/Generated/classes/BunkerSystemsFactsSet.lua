@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class BunkerSystemsFactsSet
----@field public ALPHA_FACT CName
----@field public BRAVO_FACT CName
----@field public SIERRA_FACT CName
----@field public VICTOR_FACT CName
+---@field ALPHA_FACT CName
+---@field BRAVO_FACT CName
+---@field SIERRA_FACT CName
+---@field VICTOR_FACT CName
 BunkerSystemsFactsSet = {}
 
 ---@param fields? BunkerSystemsFactsSet
 ---@return BunkerSystemsFactsSet
-function BunkerSystemsFactsSet.new(fields) return end
+function BunkerSystemsFactsSet.new(fields) end

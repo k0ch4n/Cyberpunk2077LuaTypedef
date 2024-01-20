@@ -5,4 +5,4 @@ gameinfluenceHeatAgentComponent = {}
 
 ---@param fields? gameinfluenceHeatAgentComponent
 ---@return gameinfluenceHeatAgentComponent
-function gameinfluenceHeatAgentComponent.new(fields) return end
+function gameinfluenceHeatAgentComponent.new(fields) end

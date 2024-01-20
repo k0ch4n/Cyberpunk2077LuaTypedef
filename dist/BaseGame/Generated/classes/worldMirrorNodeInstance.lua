@@ -5,4 +5,4 @@ worldMirrorNodeInstance = {}
 
 ---@param fields? worldMirrorNodeInstance
 ---@return worldMirrorNodeInstance
-function worldMirrorNodeInstance.new(fields) return end
+function worldMirrorNodeInstance.new(fields) end

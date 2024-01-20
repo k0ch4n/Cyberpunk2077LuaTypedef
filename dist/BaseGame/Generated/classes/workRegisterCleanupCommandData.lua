@@ -5,4 +5,4 @@ workRegisterCleanupCommandData = {}
 
 ---@param fields? workRegisterCleanupCommandData
 ---@return workRegisterCleanupCommandData
-function workRegisterCleanupCommandData.new(fields) return end
+function workRegisterCleanupCommandData.new(fields) end

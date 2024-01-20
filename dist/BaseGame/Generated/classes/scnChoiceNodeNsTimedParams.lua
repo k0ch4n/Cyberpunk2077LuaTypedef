@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnChoiceNodeNsTimedParams: ISerializable
----@field public action scnChoiceNodeNsTimedAction
----@field public timeLimitedFinish Bool
----@field public duration scnSceneTime
+---@field action scnChoiceNodeNsTimedAction
+---@field timeLimitedFinish Bool
+---@field duration scnSceneTime
 scnChoiceNodeNsTimedParams = {}
 
 ---@param fields? scnChoiceNodeNsTimedParams
 ---@return scnChoiceNodeNsTimedParams
-function scnChoiceNodeNsTimedParams.new(fields) return end
+function scnChoiceNodeNsTimedParams.new(fields) end

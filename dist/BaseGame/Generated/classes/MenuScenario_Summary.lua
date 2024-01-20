@@ -5,19 +5,16 @@ MenuScenario_Summary = {}
 
 ---@param fields? MenuScenario_Summary
 ---@return MenuScenario_Summary
-function MenuScenario_Summary.new(fields) return end
+function MenuScenario_Summary.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_Summary:OnAccept() return end
+function MenuScenario_Summary:OnAccept() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Summary:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_Summary:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_Summary:OnLeaveScenario(nextScenario) return end
+function MenuScenario_Summary:OnLeaveScenario(nextScenario) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class UsingCoverPSMPrereqState: PlayerStateMachinePrereqState
----@field public bValue Bool
+---@field bValue Bool
 UsingCoverPSMPrereqState = {}
 
 ---@param fields? UsingCoverPSMPrereqState
 ---@return UsingCoverPSMPrereqState
-function UsingCoverPSMPrereqState.new(fields) return end
+function UsingCoverPSMPrereqState.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function UsingCoverPSMPrereqState:OnStateUpdateBool(value) return end
+function UsingCoverPSMPrereqState:OnStateUpdateBool(value) end

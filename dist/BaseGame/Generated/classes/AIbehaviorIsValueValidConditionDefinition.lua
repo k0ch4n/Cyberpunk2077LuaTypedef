@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorIsValueValidConditionDefinition: AIbehaviorConditionDefinition
----@field public value AIArgumentMapping
+---@field value AIArgumentMapping
 AIbehaviorIsValueValidConditionDefinition = {}
 
 ---@param fields? AIbehaviorIsValueValidConditionDefinition
 ---@return AIbehaviorIsValueValidConditionDefinition
-function AIbehaviorIsValueValidConditionDefinition.new(fields) return end
+function AIbehaviorIsValueValidConditionDefinition.new(fields) end

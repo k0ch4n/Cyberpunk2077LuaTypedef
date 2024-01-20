@@ -5,96 +5,96 @@ gamedataAISubActionCover_Record = {}
 
 ---@param fields? gamedataAISubActionCover_Record
 ---@return gamedataAISubActionCover_Record
-function gamedataAISubActionCover_Record.new(fields) return end
+function gamedataAISubActionCover_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionCover_Record:ClearLOSDistanceTolerance() return end
+function gamedataAISubActionCover_Record:ClearLOSDistanceTolerance() end
 
 ---@return nil, gamedataAIActionCondition_Record[] outList
-function gamedataAISubActionCover_Record:CommandCoverConditions() return end
+function gamedataAISubActionCover_Record:CommandCoverConditions() end
 
 ---@param item gamedataAIActionCondition_Record
 ---@return Bool
-function gamedataAISubActionCover_Record:CommandCoverConditionsContains(item) return end
+function gamedataAISubActionCover_Record:CommandCoverConditionsContains(item) end
 
 ---@return CName[]
-function gamedataAISubActionCover_Record:CoverExposureMethods() return end
+function gamedataAISubActionCover_Record:CoverExposureMethods() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataAISubActionCover_Record:CoverExposureMethodsContains(item) return end
+function gamedataAISubActionCover_Record:CoverExposureMethodsContains(item) end
 
 ---@return Float
-function gamedataAISubActionCover_Record:DelayExposedInCoverReset() return end
+function gamedataAISubActionCover_Record:DelayExposedInCoverReset() end
 
 ---@return Int32
-function gamedataAISubActionCover_Record:ExposedInCover() return end
+function gamedataAISubActionCover_Record:ExposedInCover() end
 
 ---@return nil, gamedataAIExposureMethodType_Record[] outList
-function gamedataAISubActionCover_Record:ExposureMethodPriority() return end
+function gamedataAISubActionCover_Record:ExposureMethodPriority() end
 
 ---@param item gamedataAIExposureMethodType_Record
 ---@return Bool
-function gamedataAISubActionCover_Record:ExposureMethodPriorityContains(item) return end
+function gamedataAISubActionCover_Record:ExposureMethodPriorityContains(item) end
 
 ---@return Int32
-function gamedataAISubActionCover_Record:GetCommandCoverConditionsCount() return end
+function gamedataAISubActionCover_Record:GetCommandCoverConditionsCount() end
 
 ---@param index Int32
 ---@return gamedataAIActionCondition_Record
-function gamedataAISubActionCover_Record:GetCommandCoverConditionsItem(index) return end
+function gamedataAISubActionCover_Record:GetCommandCoverConditionsItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIActionCondition_Record
-function gamedataAISubActionCover_Record:GetCommandCoverConditionsItemHandle(index) return end
+function gamedataAISubActionCover_Record:GetCommandCoverConditionsItemHandle(index) end
 
 ---@return Int32
-function gamedataAISubActionCover_Record:GetCoverExposureMethodsCount() return end
+function gamedataAISubActionCover_Record:GetCoverExposureMethodsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataAISubActionCover_Record:GetCoverExposureMethodsItem(index) return end
+function gamedataAISubActionCover_Record:GetCoverExposureMethodsItem(index) end
 
 ---@return Int32
-function gamedataAISubActionCover_Record:GetExposureMethodPriorityCount() return end
+function gamedataAISubActionCover_Record:GetExposureMethodPriorityCount() end
 
 ---@param index Int32
 ---@return gamedataAIExposureMethodType_Record
-function gamedataAISubActionCover_Record:GetExposureMethodPriorityItem(index) return end
+function gamedataAISubActionCover_Record:GetExposureMethodPriorityItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIExposureMethodType_Record
-function gamedataAISubActionCover_Record:GetExposureMethodPriorityItemHandle(index) return end
+function gamedataAISubActionCover_Record:GetExposureMethodPriorityItemHandle(index) end
 
 ---@return gamedataAIActionCooldown_Record
-function gamedataAISubActionCover_Record:InsideCoverReselectionCooldown() return end
+function gamedataAISubActionCover_Record:InsideCoverReselectionCooldown() end
 
 ---@return gamedataAIActionCooldown_Record
-function gamedataAISubActionCover_Record:InsideCoverReselectionCooldownHandle() return end
+function gamedataAISubActionCover_Record:InsideCoverReselectionCooldownHandle() end
 
 ---@return Float
-function gamedataAISubActionCover_Record:PrioritizeBlindFireAfterHit() return end
+function gamedataAISubActionCover_Record:PrioritizeBlindFireAfterHit() end
 
 ---@return Bool
-function gamedataAISubActionCover_Record:SetCoverExposureAnim() return end
+function gamedataAISubActionCover_Record:SetCoverExposureAnim() end
 
 ---@return Bool
-function gamedataAISubActionCover_Record:SetCurrentCover() return end
+function gamedataAISubActionCover_Record:SetCurrentCover() end
 
 ---@return Int32
-function gamedataAISubActionCover_Record:SetDesiredCover() return end
+function gamedataAISubActionCover_Record:SetDesiredCover() end
 
 ---@return Bool
-function gamedataAISubActionCover_Record:SetInitialCoverData() return end
+function gamedataAISubActionCover_Record:SetInitialCoverData() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCover_Record:Target() return end
+function gamedataAISubActionCover_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCover_Record:TargetHandle() return end
+function gamedataAISubActionCover_Record:TargetHandle() end
 
 ---@return Bool
-function gamedataAISubActionCover_Record:UseGrenadeThrowMethods() return end
+function gamedataAISubActionCover_Record:UseGrenadeThrowMethods() end
 
 ---@return Bool
-function gamedataAISubActionCover_Record:UseLastAvailableExposureMethodsIfNoneAvailable() return end
+function gamedataAISubActionCover_Record:UseLastAvailableExposureMethodsIfNoneAvailable() end

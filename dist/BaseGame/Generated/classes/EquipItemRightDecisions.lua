@@ -5,10 +5,9 @@ EquipItemRightDecisions = {}
 
 ---@param fields? EquipItemRightDecisions
 ---@return EquipItemRightDecisions
-function EquipItemRightDecisions.new(fields) return end
+function EquipItemRightDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function EquipItemRightDecisions:EnterCondition(stateContext, scriptInterface) return end
+function EquipItemRightDecisions:EnterCondition(stateContext, scriptInterface) end

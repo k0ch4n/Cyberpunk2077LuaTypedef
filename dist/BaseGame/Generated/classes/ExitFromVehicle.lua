@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class ExitFromVehicle: AIVehicleTaskAbstract
----@field public useFastExit Bool
----@field public tryBlendToWalk Bool
+---@field useFastExit Bool
+---@field tryBlendToWalk Bool
 ExitFromVehicle = {}
 
 ---@param fields? ExitFromVehicle
 ---@return ExitFromVehicle
-function ExitFromVehicle.new(fields) return end
+function ExitFromVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ExitFromVehicle:Activate(context) return end
+function ExitFromVehicle:Activate(context) end

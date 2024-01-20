@@ -5,4 +5,4 @@ AIAvoidLineOfSightCoverSelection = {}
 
 ---@param fields? AIAvoidLineOfSightCoverSelection
 ---@return AIAvoidLineOfSightCoverSelection
-function AIAvoidLineOfSightCoverSelection.new(fields) return end
+function AIAvoidLineOfSightCoverSelection.new(fields) end

@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class worldEnvAreaNotifier: worldITriggerAreaNotifer
----@field public priority Uint8
----@field public horizontalFadeDistance Float
----@field public verticalFadeDistance Float
----@field public blendTimeIn Float
----@field public blendTimeOut Float
----@field public env worldEnvironmentAreaParameters
----@field public params WorldRenderAreaSettings
----@field public weatherStateNames CName[]
----@field public weatherStateValues Bool[]
----@field public resourceVersion Uint8
+---@field priority Uint8
+---@field horizontalFadeDistance Float
+---@field verticalFadeDistance Float
+---@field blendTimeIn Float
+---@field blendTimeOut Float
+---@field env worldEnvironmentAreaParameters
+---@field params WorldRenderAreaSettings
+---@field weatherStateNames CName[]
+---@field weatherStateValues Bool[]
+---@field resourceVersion Uint8
 worldEnvAreaNotifier = {}
 
 ---@param fields? worldEnvAreaNotifier
 ---@return worldEnvAreaNotifier
-function worldEnvAreaNotifier.new(fields) return end
+function worldEnvAreaNotifier.new(fields) end

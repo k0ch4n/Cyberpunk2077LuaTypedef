@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamemappinsQuestMappinManagerReplicatedState
----@field public dynamicQuestMappinRepInfo gamemappinsDynamicQuestMappinRepInfo[]
+---@field dynamicQuestMappinRepInfo gamemappinsDynamicQuestMappinRepInfo[]
 gamemappinsQuestMappinManagerReplicatedState = {}
 
 ---@param fields? gamemappinsQuestMappinManagerReplicatedState
 ---@return gamemappinsQuestMappinManagerReplicatedState
-function gamemappinsQuestMappinManagerReplicatedState.new(fields) return end
+function gamemappinsQuestMappinManagerReplicatedState.new(fields) end

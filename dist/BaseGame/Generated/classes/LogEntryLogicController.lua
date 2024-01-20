@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class LogEntryLogicController: inkWidgetLogicController
----@field private root inkWidget
----@field private textWidget inkTextWidgetReference
----@field private animProxyTimeout inkanimProxy
----@field private animProxyFadeOut inkanimProxy
+---@field root inkWidget
+---@field textWidget inkTextWidgetReference
+---@field animProxyTimeout inkanimProxy
+---@field animProxyFadeOut inkanimProxy
 LogEntryLogicController = {}
 
 ---@param fields? LogEntryLogicController
 ---@return LogEntryLogicController
-function LogEntryLogicController.new(fields) return end
+function LogEntryLogicController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function LogEntryLogicController:OnHide(anim) return end
+function LogEntryLogicController:OnHide(anim) end
 
----@protected
 ---@return Bool
-function LogEntryLogicController:OnInitialize() return end
+function LogEntryLogicController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function LogEntryLogicController:OnTimeout(anim) return end
+function LogEntryLogicController:OnTimeout(anim) end
 
----@private
 ---@param value Float
 ---@return nil
-function LogEntryLogicController:SetTimeout(value) return end
+function LogEntryLogicController:SetTimeout(value) end
 
 ---@param entry gameuiNarrationEvent
 ---@return nil
-function LogEntryLogicController:SetValues(entry) return end
+function LogEntryLogicController:SetValues(entry) end

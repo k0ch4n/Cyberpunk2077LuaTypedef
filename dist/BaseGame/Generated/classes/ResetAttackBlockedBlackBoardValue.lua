@@ -5,4 +5,4 @@ ResetAttackBlockedBlackBoardValue = {}
 
 ---@param fields? ResetAttackBlockedBlackBoardValue
 ---@return ResetAttackBlockedBlackBoardValue
-function ResetAttackBlockedBlackBoardValue.new(fields) return end
+function ResetAttackBlockedBlackBoardValue.new(fields) end

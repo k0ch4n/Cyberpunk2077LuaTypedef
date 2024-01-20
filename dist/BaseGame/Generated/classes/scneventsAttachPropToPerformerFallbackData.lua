@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scneventsAttachPropToPerformerFallbackData
----@field public owner scnPerformerId
----@field public fallbackCachedBones scneventsAttachPropToPerformerCachedFallbackBone
----@field public fallbackAnimset animAnimSet
----@field public fallbackAnimationName CName
----@field public fallbackAnimTime Float
+---@field owner scnPerformerId
+---@field fallbackCachedBones scneventsAttachPropToPerformerCachedFallbackBone
+---@field fallbackAnimset animAnimSet
+---@field fallbackAnimationName CName
+---@field fallbackAnimTime Float
 scneventsAttachPropToPerformerFallbackData = {}
 
 ---@param fields? scneventsAttachPropToPerformerFallbackData
 ---@return scneventsAttachPropToPerformerFallbackData
-function scneventsAttachPropToPerformerFallbackData.new(fields) return end
+function scneventsAttachPropToPerformerFallbackData.new(fields) end

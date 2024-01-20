@@ -5,14 +5,12 @@ NotifyPoliceEffector = {}
 
 ---@param fields? NotifyPoliceEffector
 ---@return NotifyPoliceEffector
-function NotifyPoliceEffector.new(fields) return end
+function NotifyPoliceEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function NotifyPoliceEffector:ActionOn(owner) return end
+function NotifyPoliceEffector:ActionOn(owner) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function NotifyPoliceEffector:ProcessAction(owner) return end
+function NotifyPoliceEffector:ProcessAction(owner) end

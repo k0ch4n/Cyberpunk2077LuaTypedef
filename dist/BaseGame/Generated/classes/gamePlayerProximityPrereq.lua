@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamePlayerProximityPrereq: gameIPrereq
----@field public squaredRange Float
+---@field squaredRange Float
 gamePlayerProximityPrereq = {}
 
 ---@param fields? gamePlayerProximityPrereq
 ---@return gamePlayerProximityPrereq
-function gamePlayerProximityPrereq.new(fields) return end
+function gamePlayerProximityPrereq.new(fields) end

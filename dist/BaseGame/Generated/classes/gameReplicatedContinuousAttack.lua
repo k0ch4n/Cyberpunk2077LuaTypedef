@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameReplicatedContinuousAttack
----@field public startTimeStamp netTime
----@field public stopTimeStamp netTime
----@field public attackId TweakDBID
+---@field startTimeStamp netTime
+---@field stopTimeStamp netTime
+---@field attackId TweakDBID
 gameReplicatedContinuousAttack = {}
 
 ---@param fields? gameReplicatedContinuousAttack
 ---@return gameReplicatedContinuousAttack
-function gameReplicatedContinuousAttack.new(fields) return end
+function gameReplicatedContinuousAttack.new(fields) end

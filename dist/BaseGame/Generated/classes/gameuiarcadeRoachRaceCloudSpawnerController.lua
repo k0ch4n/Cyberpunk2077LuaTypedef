@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiarcadeRoachRaceCloudSpawnerController: gameuiarcadeArcadeSpawnerController
----@field public minCloudRelativeVelocity Float
----@field public maxCloudRelativeVelocity Float
----@field public cloudSpawnTime Float
+---@field minCloudRelativeVelocity Float
+---@field maxCloudRelativeVelocity Float
+---@field cloudSpawnTime Float
 gameuiarcadeRoachRaceCloudSpawnerController = {}
 
 ---@param fields? gameuiarcadeRoachRaceCloudSpawnerController
 ---@return gameuiarcadeRoachRaceCloudSpawnerController
-function gameuiarcadeRoachRaceCloudSpawnerController.new(fields) return end
+function gameuiarcadeRoachRaceCloudSpawnerController.new(fields) end

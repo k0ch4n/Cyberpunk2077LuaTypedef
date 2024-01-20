@@ -5,4 +5,4 @@ questAudioCharacterManagerBreathing_NodeSubType = {}
 
 ---@param fields? questAudioCharacterManagerBreathing_NodeSubType
 ---@return questAudioCharacterManagerBreathing_NodeSubType
-function questAudioCharacterManagerBreathing_NodeSubType.new(fields) return end
+function questAudioCharacterManagerBreathing_NodeSubType.new(fields) end

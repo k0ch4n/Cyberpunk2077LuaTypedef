@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIBoolArgumentInstancePS: AIArgumentInstancePS
----@field public value Bool
+---@field value Bool
 AIBoolArgumentInstancePS = {}
 
 ---@param fields? AIBoolArgumentInstancePS
 ---@return AIBoolArgumentInstancePS
-function AIBoolArgumentInstancePS.new(fields) return end
+function AIBoolArgumentInstancePS.new(fields) end

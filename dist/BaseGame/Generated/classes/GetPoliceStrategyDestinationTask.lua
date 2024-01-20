@@ -5,9 +5,8 @@ GetPoliceStrategyDestinationTask = {}
 
 ---@param fields? GetPoliceStrategyDestinationTask
 ---@return GetPoliceStrategyDestinationTask
-function GetPoliceStrategyDestinationTask.new(fields) return end
+function GetPoliceStrategyDestinationTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetPoliceStrategyDestinationTask:Activate(context) return end
+function GetPoliceStrategyDestinationTask:Activate(context) end

@@ -1,49 +1,42 @@
 ---@meta
 
 ---@class SemiAutoDecisions: WeaponTransition
----@field public callBackID redCallbackObject
+---@field callBackID redCallbackObject
 SemiAutoDecisions = {}
 
 ---@param fields? SemiAutoDecisions
 ---@return SemiAutoDecisions
-function SemiAutoDecisions.new(fields) return end
+function SemiAutoDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function SemiAutoDecisions:OnAction(action, consumer) return end
+function SemiAutoDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SemiAutoDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SemiAutoDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SemiAutoDecisions:OnAttach(stateContext, scriptInterface) return end
+function SemiAutoDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SemiAutoDecisions:OnDetach(stateContext, scriptInterface) return end
+function SemiAutoDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function SemiAutoDecisions:OnQuestForcedShoot(value) return end
+function SemiAutoDecisions:OnQuestForcedShoot(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function SemiAutoDecisions:OnRangeAttackInput(value) return end
+function SemiAutoDecisions:OnRangeAttackInput(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SemiAutoDecisions:ToShoot(stateContext, scriptInterface) return end
+function SemiAutoDecisions:ToShoot(stateContext, scriptInterface) end

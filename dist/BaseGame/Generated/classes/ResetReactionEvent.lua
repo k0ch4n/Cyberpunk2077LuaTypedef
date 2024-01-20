@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ResetReactionEvent: redEvent
----@field public data AIReactionData
+---@field data AIReactionData
 ResetReactionEvent = {}
 
 ---@param fields? ResetReactionEvent
 ---@return ResetReactionEvent
-function ResetReactionEvent.new(fields) return end
+function ResetReactionEvent.new(fields) end

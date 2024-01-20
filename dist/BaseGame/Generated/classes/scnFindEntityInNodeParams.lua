@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnFindEntityInNodeParams
----@field public nodeRef NodeRef
----@field public forceMaxVisibility Bool
+---@field nodeRef NodeRef
+---@field forceMaxVisibility Bool
 scnFindEntityInNodeParams = {}
 
 ---@param fields? scnFindEntityInNodeParams
 ---@return scnFindEntityInNodeParams
-function scnFindEntityInNodeParams.new(fields) return end
+function scnFindEntityInNodeParams.new(fields) end

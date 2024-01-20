@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questCharacterManagerParameters_SetGroupsAttitude: questICharacterManagerParameters_NodeSubType
----@field public set Bool
----@field public group1Name CName
----@field public group2Name CName
----@field public attitude EAIAttitude
+---@field set Bool
+---@field group1Name CName
+---@field group2Name CName
+---@field attitude EAIAttitude
 questCharacterManagerParameters_SetGroupsAttitude = {}
 
 ---@param fields? questCharacterManagerParameters_SetGroupsAttitude
 ---@return questCharacterManagerParameters_SetGroupsAttitude
-function questCharacterManagerParameters_SetGroupsAttitude.new(fields) return end
+function questCharacterManagerParameters_SetGroupsAttitude.new(fields) end

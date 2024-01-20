@@ -3,132 +3,110 @@
 ---@class CombatGadgetTransitions: DefaultTransition
 CombatGadgetTransitions = {}
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CombatGadgetTransitions:CheckEquipDurationCondition(scriptInterface, stateContext) return end
+function CombatGadgetTransitions:CheckEquipDurationCondition(scriptInterface, stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CombatGadgetTransitions:CheckVehicleStatesForUnequipRequest(stateContext) return end
+function CombatGadgetTransitions:CheckVehicleStatesForUnequipRequest(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetTransitions:ClearLastUsedAnimWrapperInfo(scriptInterface) return end
+function CombatGadgetTransitions:ClearLastUsedAnimWrapperInfo(scriptInterface) end
 
----@protected
 ---@param item gameItemObject
 ---@param isQuickthrow Bool
 ---@return gameprojectileTrajectoryParams
-function CombatGadgetTransitions:CreateTrajectoryParams(item, isQuickthrow) return end
+function CombatGadgetTransitions:CreateTrajectoryParams(item, isQuickthrow) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CombatGadgetTransitions:GetCancelGrenadeAction(stateContext) return end
+function CombatGadgetTransitions:GetCancelGrenadeAction(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CombatGadgetTransitions:GetLockHoldCondition(stateContext) return end
+function CombatGadgetTransitions:GetLockHoldCondition(stateContext) end
 
----@protected
 ---@param isQuickthrow Bool
 ---@return Float
-function CombatGadgetTransitions:GetRotateAngle(isQuickthrow) return end
+function CombatGadgetTransitions:GetRotateAngle(isQuickthrow) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return TweakDBID
-function CombatGadgetTransitions:GetSlotTDBID(stateContext) return end
+function CombatGadgetTransitions:GetSlotTDBID(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetTransitions:NotifyAutocraftSystem(scriptInterface) return end
+function CombatGadgetTransitions:NotifyAutocraftSystem(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetTransitions:RemoveGrenadeFromInventory(scriptInterface) return end
+function CombatGadgetTransitions:RemoveGrenadeFromInventory(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetTransitions:RemoveGrenadeFromRightHand(scriptInterface) return end
+function CombatGadgetTransitions:RemoveGrenadeFromRightHand(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param item gameItemID
 ---@return nil
-function CombatGadgetTransitions:SaveLastUsedCombatGadget(scriptInterface, item) return end
+function CombatGadgetTransitions:SaveLastUsedCombatGadget(scriptInterface, item) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param item gameItemID
 ---@param clearWrapperInfo Bool
 ---@param delay? Float
 ---@return nil
-function CombatGadgetTransitions:SendAnimWrapperInfo(scriptInterface, item, clearWrapperInfo, delay) return end
+function CombatGadgetTransitions:SendAnimWrapperInfo(scriptInterface, item, clearWrapperInfo, delay) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newThrowUnequip Bool
 ---@return nil
-function CombatGadgetTransitions:SetBlackbordThrowUnequip(scriptInterface, newThrowUnequip) return end
+function CombatGadgetTransitions:SetBlackbordThrowUnequip(scriptInterface, newThrowUnequip) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param isQuickthrow Bool
 ---@param isChargedThrow Bool
 ---@return nil
-function CombatGadgetTransitions:SetCombatGadgetAnimFeature(scriptInterface, isQuickthrow, isChargedThrow) return end
+function CombatGadgetTransitions:SetCombatGadgetAnimFeature(scriptInterface, isQuickthrow, isChargedThrow) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Bool
 ---@return nil
-function CombatGadgetTransitions:SetItemInLeftHand(scriptInterface, newState) return end
+function CombatGadgetTransitions:SetItemInLeftHand(scriptInterface, newState) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Bool
 ---@return nil
-function CombatGadgetTransitions:SetLeftHandAnimationAnimFeature(scriptInterface, newState) return end
+function CombatGadgetTransitions:SetLeftHandAnimationAnimFeature(scriptInterface, newState) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Int32
 ---@return nil
-function CombatGadgetTransitions:SetLeftHandItemHandlingItemState(scriptInterface, newState) return end
+function CombatGadgetTransitions:SetLeftHandItemHandlingItemState(scriptInterface, newState) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Int32
 ---@param target gameObject
 ---@return nil
-function CombatGadgetTransitions:SetThrowableAnimFeatureOnGrenade(scriptInterface, newState, target) return end
+function CombatGadgetTransitions:SetThrowableAnimFeatureOnGrenade(scriptInterface, newState, target) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Int32
 ---@param isQuickthrow Bool
 ---@return nil
-function CombatGadgetTransitions:SetThrowableAnimFeatureOnGrenade(scriptInterface, newState, isQuickthrow) return end
+function CombatGadgetTransitions:SetThrowableAnimFeatureOnGrenade(scriptInterface, newState, isQuickthrow) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatGadgetTransitions:ShouldForceUnequipGrenade(scriptInterface) return end
+function CombatGadgetTransitions:ShouldForceUnequipGrenade(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@param isQuickthrow Bool
 ---@param inLocalAimForward? Vector4
 ---@param inLocalAimPosition? Vector4
 ---@return nil
-function CombatGadgetTransitions:Throw(scriptInterface, stateContext, isQuickthrow, inLocalAimForward, inLocalAimPosition) return end
+function CombatGadgetTransitions:Throw(scriptInterface, stateContext, isQuickthrow, inLocalAimForward, inLocalAimPosition) end

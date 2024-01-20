@@ -5,14 +5,12 @@ ForceAnimationOffScreen = {}
 
 ---@param fields? ForceAnimationOffScreen
 ---@return ForceAnimationOffScreen
-function ForceAnimationOffScreen.new(fields) return end
+function ForceAnimationOffScreen.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceAnimationOffScreen:Activate(context) return end
+function ForceAnimationOffScreen:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceAnimationOffScreen:Deactivate(context) return end
+function ForceAnimationOffScreen:Deactivate(context) end

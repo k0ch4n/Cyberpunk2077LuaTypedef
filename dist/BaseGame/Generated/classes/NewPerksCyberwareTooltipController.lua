@@ -1,116 +1,101 @@
 ---@meta
 
 ---@class NewPerksCyberwareTooltipController: AGenericTooltipController
----@field private title inkTextWidgetReference
----@field private subTitle inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private subDescription inkTextWidgetReference
----@field private videoWidget inkVideoWidgetReference
----@field private cornerContainer inkWidgetReference
----@field private relicCost inkWidgetReference
----@field private bars inkWidgetReference[]
----@field private inputHints inkWidgetReference
----@field private buyHint inkWidgetReference
----@field private sellHint inkWidgetReference
----@field private currentEntry NewPerksCyberwareDetailsMenu
----@field private swipeOutAnim inkanimProxy
----@field private swipeInAnim inkanimProxy
----@field private data NewPerkTooltipData
----@field protected settings userSettingsUserSettings
----@field protected settingsListener EspionageTooltipSettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field private wrapper inkWidgetReference
----@field private c_swipeLeftOut CName
----@field private c_swipeLeftIn CName
----@field private c_swipeRightOut CName
----@field private c_swipeRightIn CName
+---@field title inkTextWidgetReference
+---@field subTitle inkTextWidgetReference
+---@field description inkTextWidgetReference
+---@field subDescription inkTextWidgetReference
+---@field videoWidget inkVideoWidgetReference
+---@field cornerContainer inkWidgetReference
+---@field relicCost inkWidgetReference
+---@field bars inkWidgetReference[]
+---@field inputHints inkWidgetReference
+---@field buyHint inkWidgetReference
+---@field sellHint inkWidgetReference
+---@field currentEntry NewPerksCyberwareDetailsMenu
+---@field swipeOutAnim inkanimProxy
+---@field swipeInAnim inkanimProxy
+---@field data NewPerkTooltipData
+---@field settings userSettingsUserSettings
+---@field settingsListener EspionageTooltipSettingsListener
+---@field groupPath CName
+---@field bigFontEnabled Bool
+---@field wrapper inkWidgetReference
+---@field c_swipeLeftOut CName
+---@field c_swipeLeftIn CName
+---@field c_swipeRightOut CName
+---@field c_swipeRightIn CName
 NewPerksCyberwareTooltipController = {}
 
 ---@param fields? NewPerksCyberwareTooltipController
 ---@return NewPerksCyberwareTooltipController
-function NewPerksCyberwareTooltipController.new(fields) return end
+function NewPerksCyberwareTooltipController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCyberwareTooltipController:OnHandlePressInput(evt) return end
+function NewPerksCyberwareTooltipController:OnHandlePressInput(evt) end
 
----@protected
 ---@return Bool
-function NewPerksCyberwareTooltipController:OnInitialize() return end
+function NewPerksCyberwareTooltipController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NewPerksCyberwareTooltipController:OnSwipeLeftOutAnimFinished(proxy) return end
+function NewPerksCyberwareTooltipController:OnSwipeLeftOutAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NewPerksCyberwareTooltipController:OnSwipeRightOutAnimFinished(proxy) return end
+function NewPerksCyberwareTooltipController:OnSwipeRightOutAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function NewPerksCyberwareTooltipController:OnUninitialize() return end
+function NewPerksCyberwareTooltipController:OnUninitialize() end
 
----@private
 ---@return String
-function NewPerksCyberwareTooltipController:GetDescription() return end
+function NewPerksCyberwareTooltipController:GetDescription() end
 
----@private
 ---@return String
-function NewPerksCyberwareTooltipController:GetRecordString() return end
+function NewPerksCyberwareTooltipController:GetRecordString() end
 
----@private
 ---@return String
-function NewPerksCyberwareTooltipController:GetTitle() return end
+function NewPerksCyberwareTooltipController:GetTitle() end
 
----@private
 ---@return redResourceReferenceScriptToken
-function NewPerksCyberwareTooltipController:GetVideo() return end
+function NewPerksCyberwareTooltipController:GetVideo() end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function NewPerksCyberwareTooltipController:OnVarModified(groupPath, varName, varType, reason) return end
+function NewPerksCyberwareTooltipController:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@return nil
-function NewPerksCyberwareTooltipController:Refresh() return end
+function NewPerksCyberwareTooltipController:Refresh() end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function NewPerksCyberwareTooltipController:SetData(tooltipData) return end
+function NewPerksCyberwareTooltipController:SetData(tooltipData) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function NewPerksCyberwareTooltipController:SetTooltipSize(value) return end
+function NewPerksCyberwareTooltipController:SetTooltipSize(value) end
 
 ---@return nil
-function NewPerksCyberwareTooltipController:Show() return end
+function NewPerksCyberwareTooltipController:Show() end
 
----@private
 ---@return nil
-function NewPerksCyberwareTooltipController:StopSwipeAnims() return end
+function NewPerksCyberwareTooltipController:StopSwipeAnims() end
 
----@private
 ---@return nil
-function NewPerksCyberwareTooltipController:UpdateData() return end
+function NewPerksCyberwareTooltipController:UpdateData() end
 
----@private
 ---@param data BasePerksMenuTooltipData
 ---@param perkData BasePerkDisplayData
 ---@return nil
-function NewPerksCyberwareTooltipController:UpdateInputHints(data, perkData) return end
+function NewPerksCyberwareTooltipController:UpdateInputHints(data, perkData) end
 
----@private
 ---@param perkData NewPerkDisplayData
 ---@return nil
-function NewPerksCyberwareTooltipController:UpdateState(perkData) return end
+function NewPerksCyberwareTooltipController:UpdateState(perkData) end
 
----@private
 ---@return nil
-function NewPerksCyberwareTooltipController:UpdateTooltipSize() return end
+function NewPerksCyberwareTooltipController:UpdateTooltipSize() end

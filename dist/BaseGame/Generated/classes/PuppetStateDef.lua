@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class PuppetStateDef: gamebbScriptDefinition
----@field public HighLevel gamebbScriptID_Int32
----@field public UpperBody gamebbScriptID_Int32
----@field public BehaviorState gamebbScriptID_Int32
----@field public PhaseState gamebbScriptID_Int32
----@field public Stance gamebbScriptID_Int32
----@field public HitReactionMode gamebbScriptID_Int32
----@field public DefenseMode gamebbScriptID_Int32
----@field public LocomotionMode gamebbScriptID_Int32
----@field public WeakSpots gamebbScriptID_Int32
----@field public ReactionBehavior gamebbScriptID_Int32
----@field public ForceRagdollOnDeath gamebbScriptID_Bool
----@field public InExclusiveAction gamebbScriptID_Bool
----@field public SlotAnimationInProgress gamebbScriptID_Bool
----@field public WorkspotAnimationInProgress gamebbScriptID_Bool
----@field public InAirAnimation gamebbScriptID_Bool
----@field public InPendingBehavior gamebbScriptID_Bool
----@field public HasCalledReinforcements gamebbScriptID_Bool
----@field public IsBodyDisposed gamebbScriptID_Bool
----@field public DetectionPercentage gamebbScriptID_Float
+---@field HighLevel gamebbScriptID_Int32
+---@field UpperBody gamebbScriptID_Int32
+---@field BehaviorState gamebbScriptID_Int32
+---@field PhaseState gamebbScriptID_Int32
+---@field Stance gamebbScriptID_Int32
+---@field HitReactionMode gamebbScriptID_Int32
+---@field DefenseMode gamebbScriptID_Int32
+---@field LocomotionMode gamebbScriptID_Int32
+---@field WeakSpots gamebbScriptID_Int32
+---@field ReactionBehavior gamebbScriptID_Int32
+---@field ForceRagdollOnDeath gamebbScriptID_Bool
+---@field InExclusiveAction gamebbScriptID_Bool
+---@field SlotAnimationInProgress gamebbScriptID_Bool
+---@field WorkspotAnimationInProgress gamebbScriptID_Bool
+---@field InAirAnimation gamebbScriptID_Bool
+---@field InPendingBehavior gamebbScriptID_Bool
+---@field HasCalledReinforcements gamebbScriptID_Bool
+---@field IsBodyDisposed gamebbScriptID_Bool
+---@field DetectionPercentage gamebbScriptID_Float
 PuppetStateDef = {}
 
 ---@param fields? PuppetStateDef
 ---@return PuppetStateDef
-function PuppetStateDef.new(fields) return end
+function PuppetStateDef.new(fields) end
 
 ---@return Bool
-function PuppetStateDef:AutoCreateInSystem() return end
+function PuppetStateDef:AutoCreateInSystem() end

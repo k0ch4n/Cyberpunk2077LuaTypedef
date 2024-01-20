@@ -1,47 +1,41 @@
 ---@meta
 
 ---@class activityLogGameController: gameuiHUDGameController
----@field private readIndex Int32
----@field private writeIndex Int32
----@field private maxSize Int32
----@field private entries String[]
----@field private panel inkVerticalPanelWidgetReference
----@field private onNewEntries redCallbackObject
----@field private onHide redCallbackObject
+---@field readIndex Int32
+---@field writeIndex Int32
+---@field maxSize Int32
+---@field entries String[]
+---@field panel inkVerticalPanelWidgetReference
+---@field onNewEntries redCallbackObject
+---@field onHide redCallbackObject
 activityLogGameController = {}
 
 ---@param fields? activityLogGameController
 ---@return activityLogGameController
-function activityLogGameController.new(fields) return end
+function activityLogGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function activityLogGameController:OnDisappeared(widget) return end
+function activityLogGameController:OnDisappeared(widget) end
 
----@protected
 ---@param val Bool
 ---@return Bool
-function activityLogGameController:OnHide(val) return end
+function activityLogGameController:OnHide(val) end
 
----@protected
 ---@return Bool
-function activityLogGameController:OnInitialize() return end
+function activityLogGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function activityLogGameController:OnNewEntries(value) return end
+function activityLogGameController:OnNewEntries(value) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function activityLogGameController:OnTypingFinished(widget) return end
+function activityLogGameController:OnTypingFinished(widget) end
 
----@protected
 ---@return Bool
-function activityLogGameController:OnUninitialize() return end
+function activityLogGameController:OnUninitialize() end
 
 ---@param value String
 ---@return nil
-function activityLogGameController:AddNewEntry(value) return end
+function activityLogGameController:AddNewEntry(value) end

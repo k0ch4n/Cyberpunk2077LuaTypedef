@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class StimBroadcasterComponent: gameScriptableComponent
----@field public activeRequests StimRequest[]
----@field public currentID Uint32
----@field public shouldBroadcast Bool
----@field public targets gameNPCstubData[]
----@field private blockedStims StimIdentificationData[]
----@field public fallbackInterval Float
+---@field activeRequests StimRequest[]
+---@field currentID Uint32
+---@field shouldBroadcast Bool
+---@field targets gameNPCstubData[]
+---@field blockedStims StimIdentificationData[]
+---@field fallbackInterval Float
 StimBroadcasterComponent = {}
 
 ---@param fields? StimBroadcasterComponent
 ---@return StimBroadcasterComponent
-function StimBroadcasterComponent.new(fields) return end
+function StimBroadcasterComponent.new(fields) end
 
 ---@param sender gameObject
 ---@param gdStimType gamedataStimType
@@ -20,7 +20,7 @@ function StimBroadcasterComponent.new(fields) return end
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return nil
-function StimBroadcasterComponent.BroadcastActiveStim(sender, gdStimType, lifetime, radius, investigateData, propagationChange) return end
+function StimBroadcasterComponent.BroadcastActiveStim(sender, gdStimType, lifetime, radius, investigateData, propagationChange) end
 
 ---@param sender gameObject
 ---@param gdStimType gamedataStimType
@@ -28,7 +28,7 @@ function StimBroadcasterComponent.BroadcastActiveStim(sender, gdStimType, lifeti
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return nil
-function StimBroadcasterComponent.BroadcastStim(sender, gdStimType, radius, investigateData, propagationChange) return end
+function StimBroadcasterComponent.BroadcastStim(sender, gdStimType, radius, investigateData, propagationChange) end
 
 ---@param sender gameObject
 ---@param gdStimType gamedataStimType
@@ -36,36 +36,31 @@ function StimBroadcasterComponent.BroadcastStim(sender, gdStimType, radius, inve
 ---@param investigateData? senseStimInvestigateData
 ---@param delay? Float
 ---@return nil
-function StimBroadcasterComponent.SendStimDirectly(sender, gdStimType, target, investigateData, delay) return end
+function StimBroadcasterComponent.SendStimDirectly(sender, gdStimType, target, investigateData, delay) end
 
 ---@param stimName CName|string
 ---@return nil, gamedataStimType stimType
-function StimBroadcasterComponent.nameToStimEnum(stimName) return end
+function StimBroadcasterComponent.nameToStimEnum(stimName) end
 
----@protected
 ---@param evt BlockStimProcessingCooldownEvent
 ---@return Bool
-function StimBroadcasterComponent:OnBlockStimProcessingCooldownEvent(evt) return end
+function StimBroadcasterComponent:OnBlockStimProcessingCooldownEvent(evt) end
 
----@protected
 ---@param evt BroadcastEvent
 ---@return Bool
-function StimBroadcasterComponent:OnBroadcastEvent(evt) return end
+function StimBroadcasterComponent:OnBroadcastEvent(evt) end
 
----@protected
 ---@param evt RecurrentStimuliEvent
 ---@return Bool
-function StimBroadcasterComponent:OnRecurrentStimuliEvent(evt) return end
+function StimBroadcasterComponent:OnRecurrentStimuliEvent(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function StimBroadcasterComponent:OnStatusEffectApplied(evt) return end
+function StimBroadcasterComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt StimTargetsEvent
 ---@return Bool
-function StimBroadcasterComponent:OnStimTargetsUpdate(evt) return end
+function StimBroadcasterComponent:OnStimTargetsUpdate(evt) end
 
 ---@param contextOwner gameObject
 ---@param gdStimType gamedataStimType
@@ -75,9 +70,8 @@ function StimBroadcasterComponent:OnStimTargetsUpdate(evt) return end
 ---@param propagationChange? Bool
 ---@param shouldOverride? Bool
 ---@return nil
-function StimBroadcasterComponent:AddActiveStimuli(contextOwner, gdStimType, lifetime, radius, investigateData, propagationChange, shouldOverride) return end
+function StimBroadcasterComponent:AddActiveStimuli(contextOwner, gdStimType, lifetime, radius, investigateData, propagationChange, shouldOverride) end
 
----@private
 ---@param gdStimType gamedataStimType
 ---@param lifetime Float
 ---@param shouldOverride? Bool
@@ -85,173 +79,145 @@ function StimBroadcasterComponent:AddActiveStimuli(contextOwner, gdStimType, lif
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return nil
-function StimBroadcasterComponent:AddActiveStimulus(gdStimType, lifetime, shouldOverride, radius, investigateData, propagationChange) return end
+function StimBroadcasterComponent:AddActiveStimulus(gdStimType, lifetime, shouldOverride, radius, investigateData, propagationChange) end
 
----@private
 ---@param data StimIdentificationData
 ---@return nil
-function StimBroadcasterComponent:AddBlockedStim(data) return end
+function StimBroadcasterComponent:AddBlockedStim(data) end
 
----@private
 ---@return nil
-function StimBroadcasterComponent:AddNewDelayEvent() return end
+function StimBroadcasterComponent:AddNewDelayEvent() end
 
----@private
 ---@param data StimTargetData
 ---@return nil
-function StimBroadcasterComponent:AddStimmTarget(data) return end
+function StimBroadcasterComponent:AddStimmTarget(data) end
 
----@private
 ---@return StimRequestID
-function StimBroadcasterComponent:AssignNextValidUniqueID() return end
+function StimBroadcasterComponent:AssignNextValidUniqueID() end
 
----@private
 ---@return nil
-function StimBroadcasterComponent:ClearRequests() return end
+function StimBroadcasterComponent:ClearRequests() end
 
----@private
 ---@return nil
-function StimBroadcasterComponent:ClearStimTargets() return end
+function StimBroadcasterComponent:ClearStimTargets() end
 
----@private
 ---@param gdStimType gamedataStimType
 ---@param duration? Float
 ---@param radius? Float
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return StimRequest
-function StimBroadcasterComponent:CreateStimRequest(gdStimType, duration, radius, investigateData, propagationChange) return end
+function StimBroadcasterComponent:CreateStimRequest(gdStimType, duration, radius, investigateData, propagationChange) end
 
----@private
 ---@param request StimRequest
 ---@return Int32
-function StimBroadcasterComponent:DetermineHowManyRepeats(request) return end
+function StimBroadcasterComponent:DetermineHowManyRepeats(request) end
 
----@private
 ---@param request StimRequest
 ---@return Int32
-function StimBroadcasterComponent:FindRequestIndex(request) return end
+function StimBroadcasterComponent:FindRequestIndex(request) end
 
----@private
 ---@param id StimRequestID
 ---@return Int32
-function StimBroadcasterComponent:FindRequestIndexByID(id) return end
+function StimBroadcasterComponent:FindRequestIndexByID(id) end
 
----@private
 ---@param gdStimType gamedataStimType
 ---@return Int32
-function StimBroadcasterComponent:FindRequestIndexByName(gdStimType) return end
+function StimBroadcasterComponent:FindRequestIndexByName(gdStimType) end
 
----@private
 ---@param id Uint32
 ---@param valid Bool
 ---@return StimRequestID
-function StimBroadcasterComponent:GenerateRequestID(id, valid) return end
+function StimBroadcasterComponent:GenerateRequestID(id, valid) end
 
----@private
 ---@param index Int32
 ---@return StimRequest
-function StimBroadcasterComponent:GetRequestByArrayIndex(index) return end
+function StimBroadcasterComponent:GetRequestByArrayIndex(index) end
 
----@private
 ---@param id StimRequestID
 ---@return StimRequest
-function StimBroadcasterComponent:GetRequestByID(id) return end
+function StimBroadcasterComponent:GetRequestByID(id) end
 
----@private
 ---@param gdStimType gamedataStimType
 ---@return StimRequest
-function StimBroadcasterComponent:GetRequestByName(gdStimType) return end
+function StimBroadcasterComponent:GetRequestByName(gdStimType) end
 
----@private
 ---@param data StimTargetData
 ---@return Bool
-function StimBroadcasterComponent:HasStimTarget(data) return end
+function StimBroadcasterComponent:HasStimTarget(data) end
 
 ---@return Bool
-function StimBroadcasterComponent:HasStimTargets() return end
+function StimBroadcasterComponent:HasStimTargets() end
 
----@private
 ---@param stim senseStimuliEvent
 ---@param gdStimType gamedataStimType
 ---@return Bool
-function StimBroadcasterComponent:IsEqual(stim, gdStimType) return end
+function StimBroadcasterComponent:IsEqual(stim, gdStimType) end
 
----@private
 ---@param gdStimType gamedataStimType
 ---@return Bool
-function StimBroadcasterComponent:IsRequestDuplicated(gdStimType) return end
+function StimBroadcasterComponent:IsRequestDuplicated(gdStimType) end
 
----@private
 ---@param data StimIdentificationData
 ---@return Bool
-function StimBroadcasterComponent:IsStimBlocked(data) return end
+function StimBroadcasterComponent:IsStimBlocked(data) end
 
 ---@param sourceID entEntityID
 ---@param stimType gamedataStimType
 ---@param stimName? CName|string
 ---@return Bool
-function StimBroadcasterComponent:IsStimProcessingBlocked(sourceID, stimType, stimName) return end
+function StimBroadcasterComponent:IsStimProcessingBlocked(sourceID, stimType, stimName) end
 
----@protected
 ---@return nil
-function StimBroadcasterComponent:OnGameDetach() return end
+function StimBroadcasterComponent:OnGameDetach() end
 
----@private
 ---@param gdStimType gamedataStimType
 ---@param lifetime Float
 ---@param radius? Float
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return StimRequestID
-function StimBroadcasterComponent:ProcessStartRequest(gdStimType, lifetime, radius, investigateData, propagationChange) return end
+function StimBroadcasterComponent:ProcessStartRequest(gdStimType, lifetime, radius, investigateData, propagationChange) end
 
----@private
 ---@param gdStimType gamedataStimType
 ---@return nil
-function StimBroadcasterComponent:ProcessStopRequest(gdStimType) return end
+function StimBroadcasterComponent:ProcessStopRequest(gdStimType) end
 
----@private
 ---@param evt RecurrentStimuliEvent
 ---@return Bool
-function StimBroadcasterComponent:RebroadcastStimuli(evt) return end
+function StimBroadcasterComponent:RebroadcastStimuli(evt) end
 
----@private
 ---@param id StimRequestID
 ---@return nil
-function StimBroadcasterComponent:RemoveActiveStimByID(id) return end
+function StimBroadcasterComponent:RemoveActiveStimByID(id) end
 
 ---@param contextOwner gameObject
 ---@param gdStimType gamedataStimType
 ---@return nil
-function StimBroadcasterComponent:RemoveActiveStimuliByName(contextOwner, gdStimType) return end
+function StimBroadcasterComponent:RemoveActiveStimuliByName(contextOwner, gdStimType) end
 
----@private
 ---@param delayID gameDelayID
 ---@return nil
-function StimBroadcasterComponent:RemoveBlockedStim(delayID) return end
+function StimBroadcasterComponent:RemoveBlockedStim(delayID) end
 
----@private
 ---@param data StimIdentificationData
 ---@return nil
-function StimBroadcasterComponent:RemoveBlockedStim(data) return end
+function StimBroadcasterComponent:RemoveBlockedStim(data) end
 
----@private
 ---@param request StimRequest
 ---@return nil
-function StimBroadcasterComponent:RemoveRequest(request) return end
+function StimBroadcasterComponent:RemoveRequest(request) end
 
----@private
 ---@param index Int32
 ---@return nil
-function StimBroadcasterComponent:RemoveRequest(index) return end
+function StimBroadcasterComponent:RemoveRequest(index) end
 
 ---@param sourceID entEntityID
 ---@param stimType gamedataStimType
 ---@param stimName? CName|string
 ---@param cooldown Float
 ---@return Bool
-function StimBroadcasterComponent:ResolveStimProcessingCooldown(sourceID, stimType, stimName, cooldown) return end
+function StimBroadcasterComponent:ResolveStimProcessingCooldown(sourceID, stimType, stimName, cooldown) end
 
 ---@param contextOwner gameObject
 ---@param gdStimType gamedataStimType
@@ -261,7 +227,7 @@ function StimBroadcasterComponent:ResolveStimProcessingCooldown(sourceID, stimTy
 ---@param purelyDirect? Bool
 ---@param propagationChange? Bool
 ---@return nil
-function StimBroadcasterComponent:SendDrirectStimuliToTarget(contextOwner, gdStimType, target, investigateData, delay, purelyDirect, propagationChange) return end
+function StimBroadcasterComponent:SendDrirectStimuliToTarget(contextOwner, gdStimType, target, investigateData, delay, purelyDirect, propagationChange) end
 
 ---@param contextOwner gameObject
 ---@param gdStimType gamedataStimType
@@ -270,16 +236,15 @@ function StimBroadcasterComponent:SendDrirectStimuliToTarget(contextOwner, gdSti
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return nil
-function StimBroadcasterComponent:SetSingleActiveStimuli(contextOwner, gdStimType, lifetime, radius, investigateData, propagationChange) return end
+function StimBroadcasterComponent:SetSingleActiveStimuli(contextOwner, gdStimType, lifetime, radius, investigateData, propagationChange) end
 
----@private
 ---@return nil
-function StimBroadcasterComponent:StopTriggeringStims() return end
+function StimBroadcasterComponent:StopTriggeringStims() end
 
 ---@param owner gameObject
 ---@param takedownActionType ETakedownActionType
 ---@return nil
-function StimBroadcasterComponent:TriggerNoiseStim(owner, takedownActionType) return end
+function StimBroadcasterComponent:TriggerNoiseStim(owner, takedownActionType) end
 
 ---@param contextOwner gameObject
 ---@param gdStimType gamedataStimType
@@ -287,4 +252,4 @@ function StimBroadcasterComponent:TriggerNoiseStim(owner, takedownActionType) re
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return nil
-function StimBroadcasterComponent:TriggerSingleBroadcast(contextOwner, gdStimType, radius, investigateData, propagationChange) return end
+function StimBroadcasterComponent:TriggerSingleBroadcast(contextOwner, gdStimType, radius, investigateData, propagationChange) end

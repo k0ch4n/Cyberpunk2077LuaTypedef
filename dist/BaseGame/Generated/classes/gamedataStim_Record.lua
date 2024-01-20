@@ -5,60 +5,60 @@ gamedataStim_Record = {}
 
 ---@param fields? gamedataStim_Record
 ---@return gamedataStim_Record
-function gamedataStim_Record.new(fields) return end
+function gamedataStim_Record.new(fields) end
 
 ---@return Float
-function gamedataStim_Record:Aggressive() return end
+function gamedataStim_Record:Aggressive() end
 
 ---@return CName
-function gamedataStim_Record:Category() return end
+function gamedataStim_Record:Category() end
 
 ---@return Float
-function gamedataStim_Record:Fear() return end
+function gamedataStim_Record:Fear() end
 
 ---@return Int32
-function gamedataStim_Record:GetTagsCount() return end
+function gamedataStim_Record:GetTagsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataStim_Record:GetTagsItem(index) return end
+function gamedataStim_Record:GetTagsItem(index) end
 
 ---@return Float
-function gamedataStim_Record:Interval() return end
+function gamedataStim_Record:Interval() end
 
 ---@return Bool
-function gamedataStim_Record:IsReactionStim() return end
+function gamedataStim_Record:IsReactionStim() end
 
 ---@return gamedataStimPriority_Record
-function gamedataStim_Record:Priority() return end
+function gamedataStim_Record:Priority() end
 
 ---@return gamedataStimPriority_Record
-function gamedataStim_Record:PriorityHandle() return end
+function gamedataStim_Record:PriorityHandle() end
 
 ---@return gamedataStimPropagation_Record
-function gamedataStim_Record:Propagation() return end
+function gamedataStim_Record:Propagation() end
 
 ---@return gamedataStimPropagation_Record
-function gamedataStim_Record:PropagationHandle() return end
+function gamedataStim_Record:PropagationHandle() end
 
 ---@return Float
-function gamedataStim_Record:Radius() return end
+function gamedataStim_Record:Radius() end
 
 ---@return CName[]
-function gamedataStim_Record:Tags() return end
+function gamedataStim_Record:Tags() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataStim_Record:TagsContains(item) return end
+function gamedataStim_Record:TagsContains(item) end
 
 ---@return gamedataStimTargets_Record
-function gamedataStim_Record:Targets() return end
+function gamedataStim_Record:Targets() end
 
 ---@return gamedataStimTargets_Record
-function gamedataStim_Record:TargetsHandle() return end
+function gamedataStim_Record:TargetsHandle() end
 
 ---@return gamedataStimType_Record
-function gamedataStim_Record:Type() return end
+function gamedataStim_Record:Type() end
 
 ---@return gamedataStimType_Record
-function gamedataStim_Record:TypeHandle() return end
+function gamedataStim_Record:TypeHandle() end

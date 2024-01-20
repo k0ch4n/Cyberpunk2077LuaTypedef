@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ScannerSkillCheckConditionDescriptionLogicController: inkWidgetLogicController
----@field private NameRef inkTextWidgetReference
----@field private PassedStateName CName
----@field private FailedStateName CName
+---@field NameRef inkTextWidgetReference
+---@field PassedStateName CName
+---@field FailedStateName CName
 ScannerSkillCheckConditionDescriptionLogicController = {}
 
 ---@param fields? ScannerSkillCheckConditionDescriptionLogicController
 ---@return ScannerSkillCheckConditionDescriptionLogicController
-function ScannerSkillCheckConditionDescriptionLogicController.new(fields) return end
+function ScannerSkillCheckConditionDescriptionLogicController.new(fields) end
 
 ---@param condition Condition
 ---@return nil
-function ScannerSkillCheckConditionDescriptionLogicController:Setup(condition) return end
+function ScannerSkillCheckConditionDescriptionLogicController:Setup(condition) end

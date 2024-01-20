@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioVoiceTagGroup: audioAudioMetadata
----@field public voiceTags CName[]
+---@field voiceTags CName[]
 audioVoiceTagGroup = {}
 
 ---@param fields? audioVoiceTagGroup
 ---@return audioVoiceTagGroup
-function audioVoiceTagGroup.new(fields) return end
+function audioVoiceTagGroup.new(fields) end

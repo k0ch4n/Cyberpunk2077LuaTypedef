@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class inkLayerDefinitionCollection
----@field public menuLayer inkMenuLayerDefinition
----@field public menuLayerMP inkMenuLayerDefinition
----@field public hudLayer inkHUDLayerDefinition
----@field public videoLayer inkVideoLayerDefinition
----@field public offscreenLayer inkOffscreenLayerDefinition
----@field public gameNotificationsLayer inkGameNotificationsLayerDefinition
----@field public photoModeLayer inkPhotoModeLayerDefinition
----@field public debugLayer inkDebugLayerDefinition
+---@field menuLayer inkMenuLayerDefinition
+---@field menuLayerMP inkMenuLayerDefinition
+---@field hudLayer inkHUDLayerDefinition
+---@field videoLayer inkVideoLayerDefinition
+---@field offscreenLayer inkOffscreenLayerDefinition
+---@field gameNotificationsLayer inkGameNotificationsLayerDefinition
+---@field photoModeLayer inkPhotoModeLayerDefinition
+---@field debugLayer inkDebugLayerDefinition
 inkLayerDefinitionCollection = {}
 
 ---@param fields? inkLayerDefinitionCollection
 ---@return inkLayerDefinitionCollection
-function inkLayerDefinitionCollection.new(fields) return end
+function inkLayerDefinitionCollection.new(fields) end

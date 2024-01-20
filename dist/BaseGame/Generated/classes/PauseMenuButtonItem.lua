@@ -1,33 +1,28 @@
 ---@meta
 
 ---@class PauseMenuButtonItem: AnimatedListItemController
----@field private Fluff inkTextWidgetReference
----@field private animLoop inkanimProxy
+---@field Fluff inkTextWidgetReference
+---@field animLoop inkanimProxy
 PauseMenuButtonItem = {}
 
 ---@param fields? PauseMenuButtonItem
 ---@return PauseMenuButtonItem
-function PauseMenuButtonItem.new(fields) return end
+function PauseMenuButtonItem.new(fields) end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function PauseMenuButtonItem:OnAddedToList(target) return end
+function PauseMenuButtonItem:OnAddedToList(target) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PauseMenuButtonItem:OnHoverOut(e) return end
+function PauseMenuButtonItem:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PauseMenuButtonItem:OnHoverOver(e) return end
+function PauseMenuButtonItem:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function PauseMenuButtonItem:OnInitialize() return end
+function PauseMenuButtonItem:OnInitialize() end
 
----@protected
 ---@return Bool
-function PauseMenuButtonItem:OnUninitialize() return end
+function PauseMenuButtonItem:OnUninitialize() end

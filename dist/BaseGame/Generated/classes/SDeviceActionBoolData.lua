@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SDeviceActionBoolData: SDeviceActionData
----@field public nameOnTrueRecord TweakDBID
----@field public nameOnTrue String
----@field public nameOnFalseRecord TweakDBID
----@field public nameOnFalse String
+---@field nameOnTrueRecord TweakDBID
+---@field nameOnTrue String
+---@field nameOnFalseRecord TweakDBID
+---@field nameOnFalse String
 SDeviceActionBoolData = {}
 
 ---@param fields? SDeviceActionBoolData
 ---@return SDeviceActionBoolData
-function SDeviceActionBoolData.new(fields) return end
+function SDeviceActionBoolData.new(fields) end
 
 ---@param self SDeviceActionBoolData
 ---@return String
-function SDeviceActionBoolData.GetCurrentDisplayName(self) return end
+function SDeviceActionBoolData.GetCurrentDisplayName(self) end

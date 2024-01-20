@@ -1,249 +1,221 @@
 ---@meta
 
 ---@class TerminalControllerPS: MasterControllerPS
----@field private terminalSetup TerminalSetup
----@field private terminalSkillChecks HackEngContainer
----@field protected spawnedSystems VirtualSystemPS[]
----@field private useKeyloggerHack Bool
----@field protected shouldShowTerminalTitle Bool
----@field protected defaultGlitchVideoPath redResourceReferenceScriptToken
----@field protected broadcastGlitchVideoPath redResourceReferenceScriptToken
----@field protected state gameinteractionsReactionState
----@field protected forcedElevatorArrowsState EForcedElevatorArrowsState
+---@field terminalSetup TerminalSetup
+---@field terminalSkillChecks HackEngContainer
+---@field spawnedSystems VirtualSystemPS[]
+---@field useKeyloggerHack Bool
+---@field shouldShowTerminalTitle Bool
+---@field defaultGlitchVideoPath redResourceReferenceScriptToken
+---@field broadcastGlitchVideoPath redResourceReferenceScriptToken
+---@field state gameinteractionsReactionState
+---@field forcedElevatorArrowsState EForcedElevatorArrowsState
 TerminalControllerPS = {}
 
 ---@param fields? TerminalControllerPS
 ---@return TerminalControllerPS
-function TerminalControllerPS.new(fields) return end
+function TerminalControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function TerminalControllerPS:OnInstantiated() return end
+function TerminalControllerPS:OnInstantiated() end
 
----@protected
 ---@return InstallKeylogger
-function TerminalControllerPS:ActionInstallKeylogger() return end
+function TerminalControllerPS:ActionInstallKeylogger() end
 
----@protected
 ---@param isArrowsUp Bool
 ---@return QuestForceFakeElevatorArrows
-function TerminalControllerPS:ActionQuestForceFakeElevatorArrows(isArrowsUp) return end
+function TerminalControllerPS:ActionQuestForceFakeElevatorArrows(isArrowsUp) end
 
----@protected
 ---@return QuestResetFakeElevatorArrows
-function TerminalControllerPS:ActionQuestResetFakeElevatorArrows() return end
+function TerminalControllerPS:ActionQuestResetFakeElevatorArrows() end
 
----@protected
 ---@return QuickHackToggleOpen
-function TerminalControllerPS:ActionQuickHackToggleOpen() return end
+function TerminalControllerPS:ActionQuickHackToggleOpen() end
 
 ---@return ToggleON
-function TerminalControllerPS:ActionToggleON() return end
+function TerminalControllerPS:ActionToggleON() end
 
----@protected
 ---@param userToAuthorize gameObject
 ---@param password? CName|string
 ---@return nil
-function TerminalControllerPS:AuthorizeUserOnSlaves(userToAuthorize, password) return end
+function TerminalControllerPS:AuthorizeUserOnSlaves(userToAuthorize, password) end
 
----@protected
 ---@return Bool
-function TerminalControllerPS:CanCreateAnyQuickHackActions() return end
+function TerminalControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function TerminalControllerPS:DisbleAuthorizationOnSlaves() return end
+function TerminalControllerPS:DisbleAuthorizationOnSlaves() end
 
----@protected
 ---@return nil
-function TerminalControllerPS:EnableAuthorizationOnSlaves() return end
+function TerminalControllerPS:EnableAuthorizationOnSlaves() end
 
----@protected
 ---@return nil
-function TerminalControllerPS:GameAttached() return end
+function TerminalControllerPS:GameAttached() end
 
----@protected
 ---@param requestType gamedeviceRequestType
 ---@param providedClearance gamedeviceClearance
 ---@param providedProcessInitiator? gameObject
 ---@param providedRequestor? entEntityID
 ---@return gameGetActionsContext
-function TerminalControllerPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) return end
+function TerminalControllerPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function TerminalControllerPS:GetActions(context) return end
+function TerminalControllerPS:GetActions(context) end
 
 ---@return redResourceReferenceScriptToken
-function TerminalControllerPS:GetBroadcastGlitchVideoPath() return end
+function TerminalControllerPS:GetBroadcastGlitchVideoPath() end
 
----@protected
 ---@return gamedeviceClearance
-function TerminalControllerPS:GetClearance() return end
+function TerminalControllerPS:GetClearance() end
 
 ---@return redResourceReferenceScriptToken
-function TerminalControllerPS:GetDefaultGlitchVideoPath() return end
+function TerminalControllerPS:GetDefaultGlitchVideoPath() end
 
 ---@return SDeviceWidgetPackage[]
-function TerminalControllerPS:GetDeviceWidgets() return end
+function TerminalControllerPS:GetDeviceWidgets() end
 
 ---@return EForcedElevatorArrowsState
-function TerminalControllerPS:GetForcedElevatorArrowsState() return end
+function TerminalControllerPS:GetForcedElevatorArrowsState() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function TerminalControllerPS:GetInkWidgetTweakDBID(context) return end
+function TerminalControllerPS:GetInkWidgetTweakDBID(context) end
 
----@private
 ---@param device gameDeviceComponentPS
 ---@param listToCheck gameDeviceComponentPS[]
 ---@param data DeviceCounter
 ---@return Bool
-function TerminalControllerPS:GetMatchingVirtualSystemsData(device, listToCheck, data) return end
+function TerminalControllerPS:GetMatchingVirtualSystemsData(device, listToCheck, data) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function TerminalControllerPS:GetQuestActions(context) return end
+function TerminalControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function TerminalControllerPS:GetQuickHackActions(context) return end
+function TerminalControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function TerminalControllerPS:GetSkillCheckContainerForSetup() return end
+function TerminalControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@param deviceID gamePersistentID
 ---@return SDeviceWidgetPackage
-function TerminalControllerPS:GetSlaveDeviceWidget(deviceID) return end
+function TerminalControllerPS:GetSlaveDeviceWidget(deviceID) end
 
 ---@return SThumbnailWidgetPackage[]
-function TerminalControllerPS:GetThumbnailWidgets() return end
+function TerminalControllerPS:GetThumbnailWidgets() end
 
 ---@param slave gameDeviceComponentPS
 ---@return Bool, VirtualSystemPS vs
-function TerminalControllerPS:GetVirtualSystem(slave) return end
+function TerminalControllerPS:GetVirtualSystem(slave) end
 
 ---@param id gamePersistentID
 ---@return Bool, VirtualSystemPS vs
-function TerminalControllerPS:GetVirtualSystem(id) return end
+function TerminalControllerPS:GetVirtualSystem(id) end
 
 ---@return Int32
-function TerminalControllerPS:GetVirtualSystemsCount() return end
+function TerminalControllerPS:GetVirtualSystemsCount() end
 
 ---@return Bool
-function TerminalControllerPS:HasAnyVirtualSystem() return end
+function TerminalControllerPS:HasAnyVirtualSystem() end
 
----@private
 ---@param device gameDeviceComponentPS
 ---@param listToCheck gameDeviceComponentPS[]
 ---@return Bool, EVirtualSystem type
-function TerminalControllerPS:HasMatchingVirtualSystemType(device, listToCheck) return end
+function TerminalControllerPS:HasMatchingVirtualSystemType(device, listToCheck) end
 
----@private
 ---@return nil
-function TerminalControllerPS:InitializeVirtualSystems() return end
+function TerminalControllerPS:InitializeVirtualSystems() end
 
----@private
 ---@return nil
-function TerminalControllerPS:InitializeVirtualSystems_Test() return end
+function TerminalControllerPS:InitializeVirtualSystems_Test() end
 
----@protected
 ---@return nil
-function TerminalControllerPS:InstallKeyloggerOnSlaves() return end
+function TerminalControllerPS:InstallKeyloggerOnSlaves() end
 
 ---@return Bool, SecuritySystemControllerPS secSys
-function TerminalControllerPS:IsOwningSecuritySystem() return end
+function TerminalControllerPS:IsOwningSecuritySystem() end
 
 ---@param slaveID gamePersistentID
 ---@return Bool
-function TerminalControllerPS:IsPartOfAnyVirtualSystem(slaveID) return end
+function TerminalControllerPS:IsPartOfAnyVirtualSystem(slaveID) end
 
 ---@param slave gameDeviceComponentPS
 ---@return Bool
-function TerminalControllerPS:IsPartOfAnyVirtualSystem(slave) return end
+function TerminalControllerPS:IsPartOfAnyVirtualSystem(slave) end
 
----@protected
 ---@return nil
-function TerminalControllerPS:LogicReady() return end
+function TerminalControllerPS:LogicReady() end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function TerminalControllerPS:OnActionEngineering(evt) return end
+function TerminalControllerPS:OnActionEngineering(evt) end
 
----@protected
 ---@param evt InstallKeylogger
 ---@return EntityNotificationType
-function TerminalControllerPS:OnActionInstallKeylogger(evt) return end
+function TerminalControllerPS:OnActionInstallKeylogger(evt) end
 
 ---@param evt AuthorizeUser
 ---@return EntityNotificationType
-function TerminalControllerPS:OnAuthorizeUser(evt) return end
+function TerminalControllerPS:OnAuthorizeUser(evt) end
 
 ---@param evt DisassembleDevice
 ---@return EntityNotificationType
-function TerminalControllerPS:OnDisassembleDevice(evt) return end
+function TerminalControllerPS:OnDisassembleDevice(evt) end
 
 ---@param evt QuestForceFakeElevatorArrows
 ---@return EntityNotificationType
-function TerminalControllerPS:OnQuestForceFakeElevatorArrows(evt) return end
+function TerminalControllerPS:OnQuestForceFakeElevatorArrows(evt) end
 
 ---@param evt QuestResetFakeElevatorArrows
 ---@return EntityNotificationType
-function TerminalControllerPS:OnQuestResetFakeElevatorArrows(evt) return end
+function TerminalControllerPS:OnQuestResetFakeElevatorArrows(evt) end
 
 ---@param evt QuickHackToggleOpen
 ---@return EntityNotificationType
-function TerminalControllerPS:OnQuickHackToggleOpen(evt) return end
+function TerminalControllerPS:OnQuickHackToggleOpen(evt) end
 
 ---@param evt RequestDeviceWidgetUpdateEvent
 ---@return nil
-function TerminalControllerPS:OnRequestDeviceWidgetUpdate(evt) return end
+function TerminalControllerPS:OnRequestDeviceWidgetUpdate(evt) end
 
 ---@param evt TerminalSetState
 ---@return EntityNotificationType
-function TerminalControllerPS:OnSetState(evt) return end
+function TerminalControllerPS:OnSetState(evt) end
 
 ---@return Bool
-function TerminalControllerPS:QuestCondition_IsFinished() return end
+function TerminalControllerPS:QuestCondition_IsFinished() end
 
 ---@return Bool
-function TerminalControllerPS:QuestCondition_IsStarted() return end
+function TerminalControllerPS:QuestCondition_IsStarted() end
 
----@protected
 ---@return nil
-function TerminalControllerPS:ResolveOtherSkillchecks() return end
+function TerminalControllerPS:ResolveOtherSkillchecks() end
 
----@protected
 ---@param evt TogglePersonalLink
 ---@param abortOperations Bool
 ---@return nil
-function TerminalControllerPS:ResolvePersonalLinkConnection(evt, abortOperations) return end
+function TerminalControllerPS:ResolvePersonalLinkConnection(evt, abortOperations) end
 
 ---@return Bool
-function TerminalControllerPS:ShouldShowTerminalTitle() return end
+function TerminalControllerPS:ShouldShowTerminalTitle() end
 
----@private
 ---@param slavesToConnect gameDeviceComponentPS[]
 ---@return nil
-function TerminalControllerPS:SpawnDoorSystemUI(slavesToConnect) return end
+function TerminalControllerPS:SpawnDoorSystemUI(slavesToConnect) end
 
----@private
 ---@param slavesToConnect gameDeviceComponentPS[]
 ---@return nil
-function TerminalControllerPS:SpawnMediaSystemUI(slavesToConnect) return end
+function TerminalControllerPS:SpawnMediaSystemUI(slavesToConnect) end
 
----@private
 ---@param slavesToConnect gameDeviceComponentPS[]
 ---@return nil
-function TerminalControllerPS:SpawnSecuritySystemUI(slavesToConnect) return end
+function TerminalControllerPS:SpawnSecuritySystemUI(slavesToConnect) end
 
----@private
 ---@param slavesToConnect gameDeviceComponentPS[]
 ---@return nil
-function TerminalControllerPS:SpawnSurveillanceSystemUI(slavesToConnect) return end
+function TerminalControllerPS:SpawnSurveillanceSystemUI(slavesToConnect) end
 
 ---@return nil
-function TerminalControllerPS:TurnAuthorizationModuleOFF() return end
+function TerminalControllerPS:TurnAuthorizationModuleOFF() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NewItemTooltipAttachmentEntrySpawnData: IScriptable
----@field public index Int32
+---@field index Int32
 NewItemTooltipAttachmentEntrySpawnData = {}
 
 ---@param fields? NewItemTooltipAttachmentEntrySpawnData
 ---@return NewItemTooltipAttachmentEntrySpawnData
-function NewItemTooltipAttachmentEntrySpawnData.new(fields) return end
+function NewItemTooltipAttachmentEntrySpawnData.new(fields) end

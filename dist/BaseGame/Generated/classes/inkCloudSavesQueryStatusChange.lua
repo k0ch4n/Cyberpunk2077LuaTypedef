@@ -5,4 +5,4 @@ inkCloudSavesQueryStatusChange = {}
 
 ---@param fields? inkCloudSavesQueryStatusChange
 ---@return inkCloudSavesQueryStatusChange
-function inkCloudSavesQueryStatusChange.new(fields) return end
+function inkCloudSavesQueryStatusChange.new(fields) end

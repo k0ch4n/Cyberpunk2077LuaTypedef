@@ -5,4 +5,4 @@ worldDebugColoring_EPContext = {}
 
 ---@param fields? worldDebugColoring_EPContext
 ---@return worldDebugColoring_EPContext
-function worldDebugColoring_EPContext.new(fields) return end
+function worldDebugColoring_EPContext.new(fields) end

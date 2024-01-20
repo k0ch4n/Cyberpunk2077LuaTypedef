@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AnimFeature_BulletBend: animAnimFeature
----@field public animProgression Float
----@field public randomAdditive Float
----@field public isResetting Bool
+---@field animProgression Float
+---@field randomAdditive Float
+---@field isResetting Bool
 AnimFeature_BulletBend = {}
 
 ---@param fields? AnimFeature_BulletBend
 ---@return AnimFeature_BulletBend
-function AnimFeature_BulletBend.new(fields) return end
+function AnimFeature_BulletBend.new(fields) end

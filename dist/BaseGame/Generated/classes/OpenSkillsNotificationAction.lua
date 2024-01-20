@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class OpenSkillsNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
+---@field eventDispatcher worlduiIWidgetGameController
 OpenSkillsNotificationAction = {}
 
 ---@param fields? OpenSkillsNotificationAction
 ---@return OpenSkillsNotificationAction
-function OpenSkillsNotificationAction.new(fields) return end
+function OpenSkillsNotificationAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function OpenSkillsNotificationAction:Execute(data) return end
+function OpenSkillsNotificationAction:Execute(data) end
 
 ---@return String
-function OpenSkillsNotificationAction:GetLabel() return end
+function OpenSkillsNotificationAction:GetLabel() end
 
----@private
 ---@return nil
-function OpenSkillsNotificationAction:ShowSkills() return end
+function OpenSkillsNotificationAction:ShowSkills() end

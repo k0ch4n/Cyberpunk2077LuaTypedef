@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AbsolutePathSerializable
----@field public Path String
+---@field Path String
 AbsolutePathSerializable = {}
 
 ---@param fields? AbsolutePathSerializable
 ---@return AbsolutePathSerializable
-function AbsolutePathSerializable.new(fields) return end
+function AbsolutePathSerializable.new(fields) end

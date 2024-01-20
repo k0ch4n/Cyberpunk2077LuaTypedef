@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineActionParameterFloat
----@field public name CName
----@field public value Float
+---@field name CName
+---@field value Float
 gamestateMachineActionParameterFloat = {}
 
 ---@param fields? gamestateMachineActionParameterFloat
 ---@return gamestateMachineActionParameterFloat
-function gamestateMachineActionParameterFloat.new(fields) return end
+function gamestateMachineActionParameterFloat.new(fields) end

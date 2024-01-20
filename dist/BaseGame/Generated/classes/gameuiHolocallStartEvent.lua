@@ -5,10 +5,10 @@ gameuiHolocallStartEvent = {}
 
 ---@param fields? gameuiHolocallStartEvent
 ---@return gameuiHolocallStartEvent
-function gameuiHolocallStartEvent.new(fields) return end
+function gameuiHolocallStartEvent.new(fields) end
 
 ---@return String
-function gameuiHolocallStartEvent:GetVideoPath() return end
+function gameuiHolocallStartEvent:GetVideoPath() end
 
 ---@return Bool
-function gameuiHolocallStartEvent:ShouldForceFrameRate() return end
+function gameuiHolocallStartEvent:ShouldForceFrameRate() end

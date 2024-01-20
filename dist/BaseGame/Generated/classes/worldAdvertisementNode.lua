@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class worldAdvertisementNode: worldStaticMeshNode
----@field public meshInitialScale Vector3
----@field public format AdvertisementFormat
----@field public adGroupTDBID TweakDBID
----@field public enableOverride Bool
----@field public adOverrideTDBID TweakDBID
----@field public adVersion Uint32
----@field public glitchValue Float
----@field public lightsData worldAdvertisementLightData[]
+---@field meshInitialScale Vector3
+---@field format AdvertisementFormat
+---@field adGroupTDBID TweakDBID
+---@field enableOverride Bool
+---@field adOverrideTDBID TweakDBID
+---@field adVersion Uint32
+---@field glitchValue Float
+---@field lightsData worldAdvertisementLightData[]
 worldAdvertisementNode = {}
 
 ---@param fields? worldAdvertisementNode
 ---@return worldAdvertisementNode
-function worldAdvertisementNode.new(fields) return end
+function worldAdvertisementNode.new(fields) end

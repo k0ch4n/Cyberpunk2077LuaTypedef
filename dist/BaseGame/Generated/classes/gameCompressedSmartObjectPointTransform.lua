@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCompressedSmartObjectPointTransform
----@field public transformId Uint16
+---@field transformId Uint16
 gameCompressedSmartObjectPointTransform = {}
 
 ---@param fields? gameCompressedSmartObjectPointTransform
 ---@return gameCompressedSmartObjectPointTransform
-function gameCompressedSmartObjectPointTransform.new(fields) return end
+function gameCompressedSmartObjectPointTransform.new(fields) end

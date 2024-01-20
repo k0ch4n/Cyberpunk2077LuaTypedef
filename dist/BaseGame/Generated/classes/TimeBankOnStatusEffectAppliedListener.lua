@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class TimeBankOnStatusEffectAppliedListener: gameScriptStatusEffectListener
----@field public effector StatusEffectBasedTimeBankEffector
+---@field effector StatusEffectBasedTimeBankEffector
 TimeBankOnStatusEffectAppliedListener = {}
 
 ---@param fields? TimeBankOnStatusEffectAppliedListener
 ---@return TimeBankOnStatusEffectAppliedListener
-function TimeBankOnStatusEffectAppliedListener.new(fields) return end
+function TimeBankOnStatusEffectAppliedListener.new(fields) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function TimeBankOnStatusEffectAppliedListener:OnStatusEffectApplied(statusEffect) return end
+function TimeBankOnStatusEffectAppliedListener:OnStatusEffectApplied(statusEffect) end

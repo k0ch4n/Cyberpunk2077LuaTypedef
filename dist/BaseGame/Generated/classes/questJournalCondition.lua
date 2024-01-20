@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questJournalCondition: questTypedCondition
----@field public type questIJournalConditionType
+---@field type questIJournalConditionType
 questJournalCondition = {}
 
 ---@param fields? questJournalCondition
 ---@return questJournalCondition
-function questJournalCondition.new(fields) return end
+function questJournalCondition.new(fields) end

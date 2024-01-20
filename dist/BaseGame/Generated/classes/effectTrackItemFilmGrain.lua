@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class effectTrackItemFilmGrain: effectTrackItem
----@field public override Bool
----@field public luminanceBias effectEffectParameterEvaluatorFloat
----@field public strength effectEffectParameterEvaluatorVector
----@field public mask ERenderObjectType[]
+---@field override Bool
+---@field luminanceBias effectEffectParameterEvaluatorFloat
+---@field strength effectEffectParameterEvaluatorVector
+---@field mask ERenderObjectType[]
 effectTrackItemFilmGrain = {}
 
 ---@param fields? effectTrackItemFilmGrain
 ---@return effectTrackItemFilmGrain
-function effectTrackItemFilmGrain.new(fields) return end
+function effectTrackItemFilmGrain.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineConsumableParameterFloat: gamestateMachineActionParameterFloat
----@field public consumed Bool
+---@field consumed Bool
 gamestateMachineConsumableParameterFloat = {}
 
 ---@param fields? gamestateMachineConsumableParameterFloat
 ---@return gamestateMachineConsumableParameterFloat
-function gamestateMachineConsumableParameterFloat.new(fields) return end
+function gamestateMachineConsumableParameterFloat.new(fields) end

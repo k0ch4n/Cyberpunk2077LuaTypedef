@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class DropdownItemClickedEvent: redEvent
----@field public owner IScriptable
----@field public triggerButton DropdownButtonController
----@field public identifier Variant
+---@field owner IScriptable
+---@field triggerButton DropdownButtonController
+---@field identifier Variant
 DropdownItemClickedEvent = {}
 
 ---@param fields? DropdownItemClickedEvent
 ---@return DropdownItemClickedEvent
-function DropdownItemClickedEvent.new(fields) return end
+function DropdownItemClickedEvent.new(fields) end

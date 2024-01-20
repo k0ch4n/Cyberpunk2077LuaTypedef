@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIbehaviorActionDynamicMoveTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public moveType AIArgumentMapping
----@field public target AIArgumentMapping
----@field public targetPosition AIArgumentMapping
----@field public toleranceRadius AIArgumentMapping
----@field public desiredDistanceFromTarget AIArgumentMapping
----@field public strafingTarget AIArgumentMapping
----@field public stopWhenDestinationReached AIArgumentMapping
----@field public rotateEntity AIArgumentMapping
----@field public ignoreNavigation AIArgumentMapping
+---@field moveType AIArgumentMapping
+---@field target AIArgumentMapping
+---@field targetPosition AIArgumentMapping
+---@field toleranceRadius AIArgumentMapping
+---@field desiredDistanceFromTarget AIArgumentMapping
+---@field strafingTarget AIArgumentMapping
+---@field stopWhenDestinationReached AIArgumentMapping
+---@field rotateEntity AIArgumentMapping
+---@field ignoreNavigation AIArgumentMapping
 AIbehaviorActionDynamicMoveTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionDynamicMoveTreeNodeDefinition
 ---@return AIbehaviorActionDynamicMoveTreeNodeDefinition
-function AIbehaviorActionDynamicMoveTreeNodeDefinition.new(fields) return end
+function AIbehaviorActionDynamicMoveTreeNodeDefinition.new(fields) end

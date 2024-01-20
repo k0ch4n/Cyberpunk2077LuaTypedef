@@ -1,79 +1,69 @@
 ---@meta
 
 ---@class DiodeControlComponent: gameScriptableComponent
----@field private affectedLights CName[]
----@field private lightsState Bool
----@field private primaryLightPreset DiodeLightPreset
----@field private secondaryLightPreset DiodeLightPreset
----@field private secondaryPresetActive Bool
----@field private secondaryPresetRemovalID gameDelayID
+---@field affectedLights CName[]
+---@field lightsState Bool
+---@field primaryLightPreset DiodeLightPreset
+---@field secondaryLightPreset DiodeLightPreset
+---@field secondaryPresetActive Bool
+---@field secondaryPresetRemovalID gameDelayID
 DiodeControlComponent = {}
 
 ---@param fields? DiodeControlComponent
 ---@return DiodeControlComponent
-function DiodeControlComponent.new(fields) return end
+function DiodeControlComponent.new(fields) end
 
 ---@param owner gameObject
 ---@param lightPreset gamedataLightPreset_Record
 ---@param delay? Float
 ---@return nil
-function DiodeControlComponent.ActivateLightPreset(owner, lightPreset, delay) return end
+function DiodeControlComponent.ActivateLightPreset(owner, lightPreset, delay) end
 
----@protected
 ---@param evt ApplyDiodeLightPresetEvent
 ---@return Bool
-function DiodeControlComponent:OnApplyDiodeLightPresetEvent(evt) return end
+function DiodeControlComponent:OnApplyDiodeLightPresetEvent(evt) end
 
----@protected
 ---@param evt ChangeDiodeLightSettingsEvent
 ---@return Bool
-function DiodeControlComponent:OnChangeDiodeLightSettingsEvent(evt) return end
+function DiodeControlComponent:OnChangeDiodeLightSettingsEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function DiodeControlComponent:OnDeath(evt) return end
+function DiodeControlComponent:OnDeath(evt) end
 
----@protected
 ---@param evt RemoveSecondaryDiodeLightPresetEvent
 ---@return Bool
-function DiodeControlComponent:OnRemoveSecondaryDiodeLightPresetEvent(evt) return end
+function DiodeControlComponent:OnRemoveSecondaryDiodeLightPresetEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DiodeControlComponent:OnRequestComponents(ri) return end
+function DiodeControlComponent:OnRequestComponents(ri) end
 
----@private
 ---@param preset DiodeLightPreset
 ---@param delay? Float
 ---@return nil
-function DiodeControlComponent:ApplyPreset(preset, delay) return end
+function DiodeControlComponent:ApplyPreset(preset, delay) end
 
----@private
 ---@param preset DiodeLightPreset
 ---@param delay Float
 ---@param force Bool
 ---@return nil
-function DiodeControlComponent:ApplyPrimaryPreset(preset, delay, force) return end
+function DiodeControlComponent:ApplyPrimaryPreset(preset, delay, force) end
 
----@private
 ---@param preset DiodeLightPreset
 ---@param delay Float
 ---@param duration Float
 ---@return nil
-function DiodeControlComponent:ApplySecondaryPreset(preset, delay, duration) return end
+function DiodeControlComponent:ApplySecondaryPreset(preset, delay, duration) end
 
----@private
 ---@param colorValues Int32[]
 ---@param strength Float
 ---@param time Float
 ---@param curve CName|string
 ---@param loop Bool
 ---@return nil
-function DiodeControlComponent:ChangeLightSettings(colorValues, strength, time, curve, loop) return end
+function DiodeControlComponent:ChangeLightSettings(colorValues, strength, time, curve, loop) end
 
----@private
 ---@param colorValues Int32[]
 ---@param strength Float
 ---@param time Float
@@ -81,9 +71,8 @@ function DiodeControlComponent:ChangeLightSettings(colorValues, strength, time, 
 ---@param loop Bool
 ---@param delay Float
 ---@return nil
-function DiodeControlComponent:QueueLightSettings(colorValues, strength, time, curve, loop, delay) return end
+function DiodeControlComponent:QueueLightSettings(colorValues, strength, time, curve, loop, delay) end
 
----@private
 ---@param state Bool
 ---@return nil
-function DiodeControlComponent:ToggleDiodes(state) return end
+function DiodeControlComponent:ToggleDiodes(state) end

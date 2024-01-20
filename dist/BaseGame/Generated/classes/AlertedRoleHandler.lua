@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class AlertedRoleHandler: AIbehaviortaskScript
----@field private pathParamsModified Bool
+---@field pathParamsModified Bool
 AlertedRoleHandler = {}
 
 ---@param fields? AlertedRoleHandler
 ---@return AlertedRoleHandler
-function AlertedRoleHandler.new(fields) return end
+function AlertedRoleHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AlertedRoleHandler:Activate(context) return end
+function AlertedRoleHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AlertedRoleHandler:Deactivate(context) return end
+function AlertedRoleHandler:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AlertedRoleHandler:Update(context) return end
+function AlertedRoleHandler:Update(context) end

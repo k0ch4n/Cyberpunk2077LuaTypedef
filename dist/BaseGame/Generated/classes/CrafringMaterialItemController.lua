@@ -1,80 +1,76 @@
 ---@meta
 
 ---@class CrafringMaterialItemController: BaseButtonView
----@field protected nameText inkTextWidgetReference
----@field protected quantityText inkTextWidgetReference
----@field protected quantityChangeText inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected frame inkWidgetReference
----@field protected data CachedCraftingMaterial
----@field private quantity Int32
----@field private hovered Bool
----@field private lastState CrafringMaterialItemHighlight
----@field private shouldBeHighlighted Bool
----@field private useSimpleFromat Bool
----@field private hideIfZero Bool
+---@field nameText inkTextWidgetReference
+---@field quantityText inkTextWidgetReference
+---@field quantityChangeText inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field frame inkWidgetReference
+---@field data CachedCraftingMaterial
+---@field quantity Int32
+---@field hovered Bool
+---@field lastState CrafringMaterialItemHighlight
+---@field shouldBeHighlighted Bool
+---@field useSimpleFromat Bool
+---@field hideIfZero Bool
 CrafringMaterialItemController = {}
 
 ---@param fields? CrafringMaterialItemController
 ---@return CrafringMaterialItemController
-function CrafringMaterialItemController.new(fields) return end
+function CrafringMaterialItemController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function CrafringMaterialItemController:OnCraftingMaterialAnimationCompleted(anim) return end
+function CrafringMaterialItemController:OnCraftingMaterialAnimationCompleted(anim) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CrafringMaterialItemController:OnCraftingMaterialHoverOut(evt) return end
+function CrafringMaterialItemController:OnCraftingMaterialHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CrafringMaterialItemController:OnCraftingMaterialHoverOver(evt) return end
+function CrafringMaterialItemController:OnCraftingMaterialHoverOver(evt) end
 
----@protected
 ---@return Bool
-function CrafringMaterialItemController:OnInitialize() return end
+function CrafringMaterialItemController:OnInitialize() end
 
 ---@return CachedCraftingMaterial
-function CrafringMaterialItemController:GetCachedCraftingMaterial() return end
+function CrafringMaterialItemController:GetCachedCraftingMaterial() end
 
 ---@return gameItemID
-function CrafringMaterialItemController:GetItemID() return end
+function CrafringMaterialItemController:GetItemID() end
 
 ---@return String
-function CrafringMaterialItemController:GetMateialDisplayName() return end
+function CrafringMaterialItemController:GetMateialDisplayName() end
 
 ---@return Int32
-function CrafringMaterialItemController:GetQuantity() return end
+function CrafringMaterialItemController:GetQuantity() end
 
 ---@param hideIfZero? Bool
 ---@return nil
-function CrafringMaterialItemController:PlayAnimation(hideIfZero) return end
+function CrafringMaterialItemController:PlayAnimation(hideIfZero) end
 
 ---@return nil
-function CrafringMaterialItemController:RefreshUI() return end
+function CrafringMaterialItemController:RefreshUI() end
 
 ---@param type CrafringMaterialItemHighlight
 ---@param quantityChanged? Int32
 ---@param canAfford? Bool
 ---@return nil
-function CrafringMaterialItemController:SetHighlighted(type, quantityChanged, canAfford) return end
+function CrafringMaterialItemController:SetHighlighted(type, quantityChanged, canAfford) end
 
 ---@param quantityChanged? Int32
 ---@return nil
-function CrafringMaterialItemController:SetHighlighted(quantityChanged) return end
+function CrafringMaterialItemController:SetHighlighted(quantityChanged) end
 
 ---@param quantity Int32
 ---@return nil
-function CrafringMaterialItemController:SetQuantity(quantity) return end
+function CrafringMaterialItemController:SetQuantity(quantity) end
 
 ---@param useSimpleFromat Bool
 ---@return nil
-function CrafringMaterialItemController:SetUseSimpleFromat(useSimpleFromat) return end
+function CrafringMaterialItemController:SetUseSimpleFromat(useSimpleFromat) end
 
 ---@param craftingMaterial CachedCraftingMaterial
 ---@return nil
-function CrafringMaterialItemController:Setup(craftingMaterial) return end
+function CrafringMaterialItemController:Setup(craftingMaterial) end

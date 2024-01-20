@@ -5,4 +5,4 @@ AIbehaviorIdleTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorIdleTreeNodeDefinition
 ---@return AIbehaviorIdleTreeNodeDefinition
-function AIbehaviorIdleTreeNodeDefinition.new(fields) return end
+function AIbehaviorIdleTreeNodeDefinition.new(fields) end

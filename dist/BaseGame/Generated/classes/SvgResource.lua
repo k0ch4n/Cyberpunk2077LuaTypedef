@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SvgResource: CResource
----@field public vectorGraphicDef vgVectorGraphicDefinition
+---@field vectorGraphicDef vgVectorGraphicDefinition
 SvgResource = {}
 
 ---@param fields? SvgResource
 ---@return SvgResource
-function SvgResource.new(fields) return end
+function SvgResource.new(fields) end

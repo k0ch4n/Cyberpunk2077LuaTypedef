@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questAudioSetListenerOverrideNodeType: questIAudioNodeType
----@field public enable Bool
+---@field enable Bool
 questAudioSetListenerOverrideNodeType = {}
 
 ---@param fields? questAudioSetListenerOverrideNodeType
 ---@return questAudioSetListenerOverrideNodeType
-function questAudioSetListenerOverrideNodeType.new(fields) return end
+function questAudioSetListenerOverrideNodeType.new(fields) end

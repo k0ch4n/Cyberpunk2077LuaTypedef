@@ -5,4 +5,4 @@ UnregisterAllNetworkLinksRequest = {}
 
 ---@param fields? UnregisterAllNetworkLinksRequest
 ---@return UnregisterAllNetworkLinksRequest
-function UnregisterAllNetworkLinksRequest.new(fields) return end
+function UnregisterAllNetworkLinksRequest.new(fields) end

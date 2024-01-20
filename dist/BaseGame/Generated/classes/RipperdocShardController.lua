@@ -1,35 +1,35 @@
 ---@meta
 
 ---@class RipperdocShardController: inkWidgetLogicController
----@field private icon inkImageWidgetReference
----@field private text inkTextWidgetReference
----@field private data RipperdocShardData
----@field private pulse PulseAnimation
----@field private RootWidget inkWidget
+---@field icon inkImageWidgetReference
+---@field text inkTextWidgetReference
+---@field data RipperdocShardData
+---@field pulse PulseAnimation
+---@field RootWidget inkWidget
 RipperdocShardController = {}
 
 ---@param fields? RipperdocShardController
 ---@return RipperdocShardController
-function RipperdocShardController.new(fields) return end
+function RipperdocShardController.new(fields) end
 
 ---@param data RipperdocShardData
 ---@return nil
-function RipperdocShardController:Configure(data) return end
+function RipperdocShardController:Configure(data) end
 
 ---@return Int32
-function RipperdocShardController:GetCount() return end
+function RipperdocShardController:GetCount() end
 
 ---@return gamedataQuality
-function RipperdocShardController:GetQuality() return end
+function RipperdocShardController:GetQuality() end
 
 ---@param active Bool
 ---@return nil
-function RipperdocShardController:Highlight(active) return end
+function RipperdocShardController:Highlight(active) end
 
 ---@param count Int32
 ---@return nil
-function RipperdocShardController:SetCount(count) return end
+function RipperdocShardController:SetCount(count) end
 
 ---@param isVisible Bool
 ---@return nil
-function RipperdocShardController:SetVisible(isVisible) return end
+function RipperdocShardController:SetVisible(isVisible) end

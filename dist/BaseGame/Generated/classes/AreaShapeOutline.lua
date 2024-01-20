@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AreaShapeOutline: ISerializable
----@field public points Vector3[]
----@field public height Float
+---@field points Vector3[]
+---@field height Float
 AreaShapeOutline = {}
 
 ---@param fields? AreaShapeOutline
 ---@return AreaShapeOutline
-function AreaShapeOutline.new(fields) return end
+function AreaShapeOutline.new(fields) end

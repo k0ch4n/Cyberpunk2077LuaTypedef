@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questInputAction_ConditionType: questISystemConditionType
----@field public anyInputAction Bool
----@field public inputAction CName
----@field public checkIfButtonAlreadyPressed Bool
----@field public axisAction Bool
----@field public valueLessThan Float
----@field public valueMoreThan Float
+---@field anyInputAction Bool
+---@field inputAction CName
+---@field checkIfButtonAlreadyPressed Bool
+---@field axisAction Bool
+---@field valueLessThan Float
+---@field valueMoreThan Float
 questInputAction_ConditionType = {}
 
 ---@param fields? questInputAction_ConditionType
 ---@return questInputAction_ConditionType
-function questInputAction_ConditionType.new(fields) return end
+function questInputAction_ConditionType.new(fields) end

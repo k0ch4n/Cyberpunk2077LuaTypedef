@@ -5,4 +5,4 @@ gameOutOfCrowd = {}
 
 ---@param fields? gameOutOfCrowd
 ---@return gameOutOfCrowd
-function gameOutOfCrowd.new(fields) return end
+function gameOutOfCrowd.new(fields) end

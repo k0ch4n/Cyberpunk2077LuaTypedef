@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class gameuiarcadeRoachRaceGameplayController: gameuiarcadeArcadeGameplayController
----@field public defaultWorldVelocity Float
----@field public cycleWorldVelocityMultiplier Float
----@field public carrotPowerupPointsPerSecond Float
----@field public carrotPowerupTime Float
----@field public carrotPowerupWorldVelocityMultiplier Float
----@field public collisionSFX CName
----@field public powerupPickupSFX CName
----@field public player inkWidgetReference
----@field public obstacleSpawner inkWidgetReference
----@field public background inkWidgetReference
----@field public currentLevelAndCycleText inkTextWidgetReference
----@field public pointsBoostPickupText inkTextWidgetReference
----@field public dummy inkWidgetReference
----@field public invincibilityCooldownIndicator inkWidgetReference
+---@field defaultWorldVelocity Float
+---@field cycleWorldVelocityMultiplier Float
+---@field carrotPowerupPointsPerSecond Float
+---@field carrotPowerupTime Float
+---@field carrotPowerupWorldVelocityMultiplier Float
+---@field collisionSFX CName
+---@field powerupPickupSFX CName
+---@field player inkWidgetReference
+---@field obstacleSpawner inkWidgetReference
+---@field background inkWidgetReference
+---@field currentLevelAndCycleText inkTextWidgetReference
+---@field pointsBoostPickupText inkTextWidgetReference
+---@field dummy inkWidgetReference
+---@field invincibilityCooldownIndicator inkWidgetReference
 gameuiarcadeRoachRaceGameplayController = {}
 
 ---@param fields? gameuiarcadeRoachRaceGameplayController
 ---@return gameuiarcadeRoachRaceGameplayController
-function gameuiarcadeRoachRaceGameplayController.new(fields) return end
+function gameuiarcadeRoachRaceGameplayController.new(fields) end

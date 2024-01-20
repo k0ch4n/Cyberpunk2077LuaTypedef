@@ -1,74 +1,60 @@
 ---@meta
 
 ---@class gameuiNewPhoneRelatedHUDGameController: gameuiHUDGameController
----@field public isNewPhoneEnabled Bool
----@field protected player PlayerPuppet
----@field protected isRemoteControllingVehicle Bool
----@field protected visibilityFact1ListenerId Uint32
----@field protected visibilityFact2ListenerId Uint32
----@field protected remoteControlledVehicleDataCallback redCallbackObject
+---@field isNewPhoneEnabled Bool
+---@field player PlayerPuppet
+---@field isRemoteControllingVehicle Bool
+---@field visibilityFact1ListenerId Uint32
+---@field visibilityFact2ListenerId Uint32
+---@field remoteControlledVehicleDataCallback redCallbackObject
 gameuiNewPhoneRelatedHUDGameController = {}
 
 ---@param fields? gameuiNewPhoneRelatedHUDGameController
 ---@return gameuiNewPhoneRelatedHUDGameController
-function gameuiNewPhoneRelatedHUDGameController.new(fields) return end
+function gameuiNewPhoneRelatedHUDGameController.new(fields) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiNewPhoneRelatedHUDGameController:OnPlayerAttach(player) return end
+function gameuiNewPhoneRelatedHUDGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiNewPhoneRelatedHUDGameController:OnRemoteControlledVehicleChanged(value) return end
+function gameuiNewPhoneRelatedHUDGameController:OnRemoteControlledVehicleChanged(value) end
 
----@protected
 ---@return Bool
-function gameuiNewPhoneRelatedHUDGameController:CanUseOverclock() return end
+function gameuiNewPhoneRelatedHUDGameController:CanUseOverclock() end
 
----@protected
 ---@return Bool
-function gameuiNewPhoneRelatedHUDGameController:GameStarted() return end
+function gameuiNewPhoneRelatedHUDGameController:GameStarted() end
 
----@protected
 ---@return Bool
-function gameuiNewPhoneRelatedHUDGameController:IsDerivedHUDVisible() return end
+function gameuiNewPhoneRelatedHUDGameController:IsDerivedHUDVisible() end
 
----@protected
 ---@param value Int32
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:OnConsumableTutorial(value) return end
+function gameuiNewPhoneRelatedHUDGameController:OnConsumableTutorial(value) end
 
----@protected
 ---@param value Int32
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:OnGameStarted(value) return end
+function gameuiNewPhoneRelatedHUDGameController:OnGameStarted(value) end
 
----@protected
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:RegisterCommonBlackboardListeners() return end
+function gameuiNewPhoneRelatedHUDGameController:RegisterCommonBlackboardListeners() end
 
----@protected
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:RegisterFactVisibilityListeners() return end
+function gameuiNewPhoneRelatedHUDGameController:RegisterFactVisibilityListeners() end
 
----@protected
 ---@return Bool
-function gameuiNewPhoneRelatedHUDGameController:TutorialActivated() return end
+function gameuiNewPhoneRelatedHUDGameController:TutorialActivated() end
 
----@protected
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:UnregisterCommonBlackboardListeners() return end
+function gameuiNewPhoneRelatedHUDGameController:UnregisterCommonBlackboardListeners() end
 
----@protected
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:UnregisterFactVisibilityListeners() return end
+function gameuiNewPhoneRelatedHUDGameController:UnregisterFactVisibilityListeners() end
 
----@protected
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:UpdateCurrentItem() return end
+function gameuiNewPhoneRelatedHUDGameController:UpdateCurrentItem() end
 
----@protected
 ---@return nil
-function gameuiNewPhoneRelatedHUDGameController:UpdateVisibility() return end
+function gameuiNewPhoneRelatedHUDGameController:UpdateVisibility() end

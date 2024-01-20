@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamePartRemovedEvent: redEvent
----@field public itemID gameItemID
----@field public removedPartID gameItemID
+---@field itemID gameItemID
+---@field removedPartID gameItemID
 gamePartRemovedEvent = {}
 
 ---@param fields? gamePartRemovedEvent
 ---@return gamePartRemovedEvent
-function gamePartRemovedEvent.new(fields) return end
+function gamePartRemovedEvent.new(fields) end

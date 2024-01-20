@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class gameFPPCameraComponent: gameCameraComponent
----@field public pitchMin Float
----@field public pitchMax Float
----@field public yawMaxLeft Float
----@field public yawMaxRight Float
----@field public headingLocked Bool
----@field public sensitivityMultX Float
----@field public sensitivityMultY Float
----@field public timeDilationCurveName CName
+---@field pitchMin Float
+---@field pitchMax Float
+---@field yawMaxLeft Float
+---@field yawMaxRight Float
+---@field headingLocked Bool
+---@field sensitivityMultX Float
+---@field sensitivityMultY Float
+---@field timeDilationCurveName CName
 gameFPPCameraComponent = {}
 
 ---@param fields? gameFPPCameraComponent
 ---@return gameFPPCameraComponent
-function gameFPPCameraComponent.new(fields) return end
+function gameFPPCameraComponent.new(fields) end
 
 ---@return nil
-function gameFPPCameraComponent:ResetPitch() return end
+function gameFPPCameraComponent:ResetPitch() end
 
 ---@return nil
-function gameFPPCameraComponent:SceneDisableBlendingToStaticPosition() return end
+function gameFPPCameraComponent:SceneDisableBlendingToStaticPosition() end

@@ -1,60 +1,55 @@
 ---@meta
 
 ---@class WardrobeOutfitSlotController: inkWidgetLogicController
----@field private slotNumberText inkTextWidgetReference
----@field private newSetIndicator inkWidgetReference
----@field private index Int32
----@field private hovered Bool
----@field private active Bool
----@field private equipped Bool
----@field private isNew Bool
+---@field slotNumberText inkTextWidgetReference
+---@field newSetIndicator inkWidgetReference
+---@field index Int32
+---@field hovered Bool
+---@field active Bool
+---@field equipped Bool
+---@field isNew Bool
 WardrobeOutfitSlotController = {}
 
 ---@param fields? WardrobeOutfitSlotController
 ---@return WardrobeOutfitSlotController
-function WardrobeOutfitSlotController.new(fields) return end
+function WardrobeOutfitSlotController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WardrobeOutfitSlotController:OnHoverOut(e) return end
+function WardrobeOutfitSlotController:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WardrobeOutfitSlotController:OnHoverOver(e) return end
+function WardrobeOutfitSlotController:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function WardrobeOutfitSlotController:OnInitialize() return end
+function WardrobeOutfitSlotController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WardrobeOutfitSlotController:OnRelease(e) return end
+function WardrobeOutfitSlotController:OnRelease(e) end
 
 ---@return Int32
-function WardrobeOutfitSlotController:GetIndex() return end
+function WardrobeOutfitSlotController:GetIndex() end
 
 ---@return Bool
-function WardrobeOutfitSlotController:IsNew() return end
+function WardrobeOutfitSlotController:IsNew() end
 
 ---@param isNew Bool
 ---@return nil
-function WardrobeOutfitSlotController:SetIsNew(isNew) return end
+function WardrobeOutfitSlotController:SetIsNew(isNew) end
 
 ---@param index Int32
 ---@param active Bool
 ---@param equipped Bool
 ---@param isNew Bool
 ---@return nil
-function WardrobeOutfitSlotController:Setup(index, active, equipped, isNew) return end
+function WardrobeOutfitSlotController:Setup(index, active, equipped, isNew) end
 
 ---@param active Bool
 ---@param equipped Bool
 ---@return nil
-function WardrobeOutfitSlotController:Update(active, equipped) return end
+function WardrobeOutfitSlotController:Update(active, equipped) end
 
----@private
 ---@return nil
-function WardrobeOutfitSlotController:UpdateState() return end
+function WardrobeOutfitSlotController:UpdateState() end

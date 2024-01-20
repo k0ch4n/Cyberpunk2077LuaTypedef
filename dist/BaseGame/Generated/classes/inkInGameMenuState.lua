@@ -5,4 +5,4 @@ inkInGameMenuState = {}
 
 ---@param fields? inkInGameMenuState
 ---@return inkInGameMenuState
-function inkInGameMenuState.new(fields) return end
+function inkInGameMenuState.new(fields) end

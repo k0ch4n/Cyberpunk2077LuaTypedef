@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class MarketSystemRequest: gameScriptableSystemRequest
----@field public owner gameObject
----@field public vendorID TweakDBID
+---@field owner gameObject
+---@field vendorID TweakDBID
 MarketSystemRequest = {}
 
 ---@param fields? MarketSystemRequest
 ---@return MarketSystemRequest
-function MarketSystemRequest.new(fields) return end
+function MarketSystemRequest.new(fields) end

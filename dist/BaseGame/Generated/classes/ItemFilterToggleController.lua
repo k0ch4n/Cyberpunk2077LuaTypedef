@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class ItemFilterToggleController: ToggleController
----@field private newItemDot inkWidgetReference
----@field private useCategoryFilter Bool
+---@field newItemDot inkWidgetReference
+---@field useCategoryFilter Bool
 ItemFilterToggleController = {}
 
 ---@param fields? ItemFilterToggleController
 ---@return ItemFilterToggleController
-function ItemFilterToggleController.new(fields) return end
+function ItemFilterToggleController.new(fields) end
 
 ---@return String
-function ItemFilterToggleController:GetIcon() return end
+function ItemFilterToggleController:GetIcon() end
 
 ---@return String
-function ItemFilterToggleController:GetLabelKey() return end
+function ItemFilterToggleController:GetLabelKey() end

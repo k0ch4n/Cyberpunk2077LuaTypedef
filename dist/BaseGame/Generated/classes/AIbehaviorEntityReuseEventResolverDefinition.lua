@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorEntityReuseEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public destination AIArgumentMapping
----@field public fastForwardAfterTeleport AIArgumentMapping
+---@field destination AIArgumentMapping
+---@field fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorEntityReuseEventResolverDefinition = {}
 
 ---@param fields? AIbehaviorEntityReuseEventResolverDefinition
 ---@return AIbehaviorEntityReuseEventResolverDefinition
-function AIbehaviorEntityReuseEventResolverDefinition.new(fields) return end
+function AIbehaviorEntityReuseEventResolverDefinition.new(fields) end

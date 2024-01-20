@@ -1,243 +1,234 @@
 ---@meta
 
 ---@class VendorDataManager: IScriptable
----@field private VendorObject gameObject
----@field private BuyingCart VendorShoppingCartItem[]
----@field private SellingCart VendorShoppingCartItem[]
----@field private VendorID TweakDBID
----@field private VendingBlacklist EVendorMode[]
----@field private TimeToCompletePurchase Float
----@field protected UIBBEquipment UI_EquipmentDef
----@field private InventoryBBID redCallbackObject
----@field private EquipmentBBID redCallbackObject
----@field private openTime GameTime
+---@field VendorObject gameObject
+---@field BuyingCart VendorShoppingCartItem[]
+---@field SellingCart VendorShoppingCartItem[]
+---@field VendorID TweakDBID
+---@field VendingBlacklist EVendorMode[]
+---@field TimeToCompletePurchase Float
+---@field UIBBEquipment UI_EquipmentDef
+---@field InventoryBBID redCallbackObject
+---@field EquipmentBBID redCallbackObject
+---@field openTime GameTime
 VendorDataManager = {}
 
 ---@param fields? VendorDataManager
 ---@return VendorDataManager
-function VendorDataManager.new(fields) return end
+function VendorDataManager.new(fields) end
 
 ---@return PlayerPuppet
-function VendorDataManager.GetLocalPlayer() return end
+function VendorDataManager.GetLocalPlayer() end
 
 ---@param player gameObject
 ---@return Int32
-function VendorDataManager.GetLocalPlayerCurrencyAmount(player) return end
+function VendorDataManager.GetLocalPlayerCurrencyAmount(player) end
 
 ---@param itemToAdd gameItemData
 ---@return ECartOperationResult
-function VendorDataManager:AddToBuyingCart(itemToAdd) return end
+function VendorDataManager:AddToBuyingCart(itemToAdd) end
 
----@private
 ---@param itemToAdd gameItemData
 ---@return nil, VendorShoppingCartItem[] cart
-function VendorDataManager:AddToCart(itemToAdd) return end
+function VendorDataManager:AddToCart(itemToAdd) end
 
 ---@param itemToAdd gameItemData
 ---@return ECartOperationResult
-function VendorDataManager:AddToSellingCart(itemToAdd) return end
+function VendorDataManager:AddToSellingCart(itemToAdd) end
 
 ---@return Bool
-function VendorDataManager:ArePlayerQuestItemsHidden() return end
+function VendorDataManager:ArePlayerQuestItemsHidden() end
 
 ---@param itemData gameItemData
 ---@param amount Int32
 ---@param requestId? Int32
 ---@return nil
-function VendorDataManager:BuyItemFromVendor(itemData, amount, requestId) return end
+function VendorDataManager:BuyItemFromVendor(itemData, amount, requestId) end
 
 ---@param itemData gameItemData
 ---@param amount Int32
 ---@param requestId? Int32
 ---@return nil
-function VendorDataManager:BuybackItemFromVendor(itemData, amount, requestId) return end
+function VendorDataManager:BuybackItemFromVendor(itemData, amount, requestId) end
 
----@private
 ---@param itemToAdd gameItemData
 ---@return ECartOperationResult
-function VendorDataManager:CanAddToBuyingCart(itemToAdd) return end
+function VendorDataManager:CanAddToBuyingCart(itemToAdd) end
 
----@private
 ---@param itemToAdd gameItemData
 ---@return ECartOperationResult
-function VendorDataManager:CanAddToSellingCart(itemToAdd) return end
+function VendorDataManager:CanAddToSellingCart(itemToAdd) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function VendorDataManager:CanPlayerSellItem(itemID) return end
+function VendorDataManager:CanPlayerSellItem(itemID) end
 
 ---@param andEquip Bool
 ---@return Bool
-function VendorDataManager:Checkout(andEquip) return end
-
----@private
----@return nil
-function VendorDataManager:ClearBuyingCart() return end
+function VendorDataManager:Checkout(andEquip) end
 
 ---@return nil
-function VendorDataManager:ClearCart() return end
+function VendorDataManager:ClearBuyingCart() end
 
----@private
 ---@return nil
-function VendorDataManager:ClearSellingCart() return end
+function VendorDataManager:ClearCart() end
+
+---@return nil
+function VendorDataManager:ClearSellingCart() end
 
 ---@param item gameItemData
 ---@return Int32
-function VendorDataManager:GetAmountInBuiyngCart(item) return end
+function VendorDataManager:GetAmountInBuiyngCart(item) end
 
----@private
 ---@param itemToAdd gameItemData
 ---@param cart VendorShoppingCartItem[]
 ---@return Int32
-function VendorDataManager:GetAmountInCart(itemToAdd, cart) return end
+function VendorDataManager:GetAmountInCart(itemToAdd, cart) end
 
 ---@param item gameItemData
 ---@return Int32
-function VendorDataManager:GetAmountInSellingCart(item) return end
+function VendorDataManager:GetAmountInSellingCart(item) end
 
 ---@param itemID gameItemID
 ---@return Int32
-function VendorDataManager:GetBuyingPrice(itemID) return end
+function VendorDataManager:GetBuyingPrice(itemID) end
 
 ---@param items gameItemData[]
 ---@return nil
-function VendorDataManager:GetItemDataFromBuyingCart(items) return end
+function VendorDataManager:GetItemDataFromBuyingCart(items) end
 
----@private
 ---@param items gameItemData[]
 ---@param cart VendorShoppingCartItem[]
 ---@return nil
-function VendorDataManager:GetItemDataFromCart(items, cart) return end
+function VendorDataManager:GetItemDataFromCart(items, cart) end
 
 ---@param items gameItemData[]
 ---@return nil
-function VendorDataManager:GetItemDataFromSellingCart(items) return end
+function VendorDataManager:GetItemDataFromSellingCart(items) end
 
 ---@param itemIds gameItemID[]
 ---@param cart VendorShoppingCartItem[]
 ---@return nil
-function VendorDataManager:GetItemIDsFromCart(itemIds, cart) return end
+function VendorDataManager:GetItemIDsFromCart(itemIds, cart) end
 
 ---@return gameItemData[]
-function VendorDataManager:GetItemsPlayerCanSell() return end
+function VendorDataManager:GetItemsPlayerCanSell() end
 
 ---@param player gameObject
 ---@param excludeEquipped? Bool
 ---@return gameItemData[]
-function VendorDataManager:GetItemsPlayerCanSellFast(player, excludeEquipped) return end
+function VendorDataManager:GetItemsPlayerCanSellFast(player, excludeEquipped) end
 
 ---@return PlayerPuppet
-function VendorDataManager:GetLocalPlayer() return end
+function VendorDataManager:GetLocalPlayer() end
 
 ---@return Int32
-function VendorDataManager:GetLocalPlayerCurrencyAmount() return end
+function VendorDataManager:GetLocalPlayerCurrencyAmount() end
 
 ---@return GameTime
-function VendorDataManager:GetOpenTime() return end
+function VendorDataManager:GetOpenTime() end
 
 ---@return Int32
-function VendorDataManager:GetPriceInBuyingCart() return end
+function VendorDataManager:GetPriceInBuyingCart() end
 
 ---@return Int32
-function VendorDataManager:GetPriceInSellingCart() return end
+function VendorDataManager:GetPriceInSellingCart() end
 
 ---@return VendorGameItemData[]
-function VendorDataManager:GetRipperDocItems() return end
+function VendorDataManager:GetRipperDocItems() end
 
 ---@param itemID gameItemID
 ---@return Int32
-function VendorDataManager:GetSellingPrice(itemID) return end
+function VendorDataManager:GetSellingPrice(itemID) end
 
 ---@return gameItemData[]
-function VendorDataManager:GetStorageItems() return end
+function VendorDataManager:GetStorageItems() end
 
 ---@return Float
-function VendorDataManager:GetTimeToCompletePurchase() return end
+function VendorDataManager:GetTimeToCompletePurchase() end
 
----@private
 ---@param cart VendorShoppingCartItem[]
 ---@return Int32
-function VendorDataManager:GetTotalAmountInCart(cart) return end
+function VendorDataManager:GetTotalAmountInCart(cart) end
 
 ---@return String
-function VendorDataManager:GetVendorDescription() return end
+function VendorDataManager:GetVendorDescription() end
 
 ---@return TweakDBID
-function VendorDataManager:GetVendorID() return end
+function VendorDataManager:GetVendorID() end
 
 ---@return gameObject
-function VendorDataManager:GetVendorInstance() return end
+function VendorDataManager:GetVendorInstance() end
 
 ---@return VendorGameItemData[]
-function VendorDataManager:GetVendorInventoryItems() return end
+function VendorDataManager:GetVendorInventoryItems() end
 
 ---@return String
-function VendorDataManager:GetVendorName() return end
+function VendorDataManager:GetVendorName() end
 
 ---@return gamedataVendor_Record
-function VendorDataManager:GetVendorRecord() return end
+function VendorDataManager:GetVendorRecord() end
 
 ---@return SoldItemsCache
-function VendorDataManager:GetVendorSoldItems() return end
+function VendorDataManager:GetVendorSoldItems() end
 
 ---@param owner gameObject
 ---@param entityID entEntityID
 ---@return nil
-function VendorDataManager:Initialize(owner, entityID) return end
+function VendorDataManager:Initialize(owner, entityID) end
 
 ---@param vendor gameObject
 ---@param vendingTerminalSetup VendingTerminalSetup
 ---@return nil
-function VendorDataManager:Initialize(vendor, vendingTerminalSetup) return end
+function VendorDataManager:Initialize(vendor, vendingTerminalSetup) end
 
 ---@return Int32
-function VendorDataManager:NumItemsInAllCarts() return end
+function VendorDataManager:NumItemsInAllCarts() end
 
 ---@return Int32
-function VendorDataManager:NumItemsInBuyingCart() return end
+function VendorDataManager:NumItemsInBuyingCart() end
 
 ---@return Int32
-function VendorDataManager:NumItemsInSellingCart() return end
+function VendorDataManager:NumItemsInSellingCart() end
 
 ---@param vendorMode EVendorMode
 ---@param tooltipsData ATooltipData[]
 ---@return nil
-function VendorDataManager:ProcessTooltipsData(vendorMode, tooltipsData) return end
+function VendorDataManager:ProcessTooltipsData(vendorMode, tooltipsData) end
 
 ---@param itemToRemove gameItemData
 ---@return ECartOperationResult
-function VendorDataManager:RemoveFromBuyingCart(itemToRemove) return end
+function VendorDataManager:RemoveFromBuyingCart(itemToRemove) end
 
----@private
 ---@param itemToAdd gameItemData
 ---@return Bool, VendorShoppingCartItem[] cart
-function VendorDataManager:RemoveFromCart(itemToAdd) return end
+function VendorDataManager:RemoveFromCart(itemToAdd) end
 
 ---@param itemToRemove gameItemData
 ---@return ECartOperationResult
-function VendorDataManager:RemoveFromSellingCart(itemToRemove) return end
+function VendorDataManager:RemoveFromSellingCart(itemToRemove) end
 
 ---@param itemData gameItemData
 ---@param amount Int32
 ---@param requestId? Int32
 ---@return nil
-function VendorDataManager:SellItemToVendor(itemData, amount, requestId) return end
+function VendorDataManager:SellItemToVendor(itemData, amount, requestId) end
 
 ---@param itemsData gameItemData[]
 ---@param amounts Int32[]
 ---@param requestId? Int32
 ---@return nil
-function VendorDataManager:SellItemsToVendor(itemsData, amounts, requestId) return end
+function VendorDataManager:SellItemsToVendor(itemsData, amounts, requestId) end
 
 ---@return Int32
-function VendorDataManager:TotalNumItemsInAllCarts() return end
+function VendorDataManager:TotalNumItemsInAllCarts() end
 
 ---@param source gameObject
 ---@param target gameObject
 ---@param itemData gameItemData
 ---@param amount Int32
 ---@return nil
-function VendorDataManager:TransferItem(source, target, itemData, amount) return end
+function VendorDataManager:TransferItem(source, target, itemData, amount) end
 
 ---@return nil
-function VendorDataManager:UpdateOpenTime() return end
+function VendorDataManager:UpdateOpenTime() end

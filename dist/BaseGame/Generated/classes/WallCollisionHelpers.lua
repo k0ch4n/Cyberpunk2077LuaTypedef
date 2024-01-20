@@ -8,4 +8,4 @@ WallCollisionHelpers = {}
 ---@param up Vector4
 ---@param capsuleRadius Float
 ---@return Bool, physicsControllerHit wallCollision
-function WallCollisionHelpers.GetWallCollision(scriptInterface, playerPosition, up, capsuleRadius) return end
+function WallCollisionHelpers.GetWallCollision(scriptInterface, playerPosition, up, capsuleRadius) end

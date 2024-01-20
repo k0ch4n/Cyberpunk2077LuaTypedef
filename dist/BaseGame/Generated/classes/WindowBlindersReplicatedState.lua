@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class WindowBlindersReplicatedState: gameDeviceReplicatedState
----@field public isOpen Bool
----@field public isTilted Bool
+---@field isOpen Bool
+---@field isTilted Bool
 WindowBlindersReplicatedState = {}
 
 ---@param fields? WindowBlindersReplicatedState
 ---@return WindowBlindersReplicatedState
-function WindowBlindersReplicatedState.new(fields) return end
+function WindowBlindersReplicatedState.new(fields) end

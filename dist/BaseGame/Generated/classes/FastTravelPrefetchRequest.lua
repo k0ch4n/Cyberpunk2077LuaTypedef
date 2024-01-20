@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class FastTravelPrefetchRequest: gameScriptableSystemRequest
----@field public destinationRef NodeRef
+---@field destinationRef NodeRef
 FastTravelPrefetchRequest = {}
 
 ---@param fields? FastTravelPrefetchRequest
 ---@return FastTravelPrefetchRequest
-function FastTravelPrefetchRequest.new(fields) return end
+function FastTravelPrefetchRequest.new(fields) end
 
 ---@return NodeRef
-function FastTravelPrefetchRequest:GetDestinationRef() return end
+function FastTravelPrefetchRequest:GetDestinationRef() end
 
 ---@return String
-function FastTravelPrefetchRequest:GetFriendlyDescription() return end
+function FastTravelPrefetchRequest:GetFriendlyDescription() end

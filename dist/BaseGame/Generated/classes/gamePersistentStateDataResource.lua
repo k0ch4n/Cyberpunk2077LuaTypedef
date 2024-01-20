@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamePersistentStateDataResource: CResource
----@field public buffer DataBuffer
+---@field buffer DataBuffer
 gamePersistentStateDataResource = {}
 
 ---@param fields? gamePersistentStateDataResource
 ---@return gamePersistentStateDataResource
-function gamePersistentStateDataResource.new(fields) return end
+function gamePersistentStateDataResource.new(fields) end

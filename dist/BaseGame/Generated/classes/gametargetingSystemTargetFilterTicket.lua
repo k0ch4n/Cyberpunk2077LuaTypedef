@@ -5,4 +5,4 @@ gametargetingSystemTargetFilterTicket = {}
 
 ---@param fields? gametargetingSystemTargetFilterTicket
 ---@return gametargetingSystemTargetFilterTicket
-function gametargetingSystemTargetFilterTicket.new(fields) return end
+function gametargetingSystemTargetFilterTicket.new(fields) end

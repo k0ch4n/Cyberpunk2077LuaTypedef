@@ -1,104 +1,91 @@
 ---@meta
 
 ---@class ReloadEvents: WeaponEventsTransition
----@field public statListener DefaultTransitionStatListener
----@field public randomSync AnimFeature_SelectRandomAnimSync
----@field public animReloadData AnimFeature_WeaponReload
----@field public animReloadSpeed AnimFeature_WeaponReloadSpeedData
----@field public weaponRecord gamedataWeaponItem_Record
----@field public animReloadDataDirty Bool
----@field public animReloadSpeedDirty Bool
----@field public uninteruptibleSet Bool
----@field public weaponHasAutoLoader Bool
----@field public canReloadWhileSprinting Bool
----@field public lastReloadWasEmpty Bool
----@field public isCoolPerkReload Bool
+---@field statListener DefaultTransitionStatListener
+---@field randomSync AnimFeature_SelectRandomAnimSync
+---@field animReloadData AnimFeature_WeaponReload
+---@field animReloadSpeed AnimFeature_WeaponReloadSpeedData
+---@field weaponRecord gamedataWeaponItem_Record
+---@field animReloadDataDirty Bool
+---@field animReloadSpeedDirty Bool
+---@field uninteruptibleSet Bool
+---@field weaponHasAutoLoader Bool
+---@field canReloadWhileSprinting Bool
+---@field lastReloadWasEmpty Bool
+---@field isCoolPerkReload Bool
 ReloadEvents = {}
 
 ---@param fields? ReloadEvents
 ---@return ReloadEvents
-function ReloadEvents.new(fields) return end
+function ReloadEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:ActivateReloadAnimData(stateContext, scriptInterface) return end
+function ReloadEvents:ActivateReloadAnimData(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:DeactivateReloadAnimData(stateContext, scriptInterface) return end
+function ReloadEvents:DeactivateReloadAnimData(stateContext, scriptInterface) end
 
----@protected
 ---@param statType gamedataStatType
 ---@param weaponRecord gamedataWeaponItem_Record
 ---@return Float
-function ReloadEvents:GetReloadAnimSpeed(statType, weaponRecord) return end
+function ReloadEvents:GetReloadAnimSpeed(statType, weaponRecord) end
 
----@protected
 ---@param weaponType gamedataItemType
 ---@return Bool
-function ReloadEvents:IsCoolFirearmWeaponType(weaponType) return end
+function ReloadEvents:IsCoolFirearmWeaponType(weaponType) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnAttach(stateContext, scriptInterface) return end
+function ReloadEvents:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnDetach(stateContext, scriptInterface) return end
+function ReloadEvents:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnEnter(stateContext, scriptInterface) return end
+function ReloadEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnExit(stateContext, scriptInterface) return end
+function ReloadEvents:OnExit(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnExitCleanup(stateContext, scriptInterface) return end
+function ReloadEvents:OnExitCleanup(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnExitToReload(stateContext, scriptInterface) return end
+function ReloadEvents:OnExitToReload(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnForcedExit(stateContext, scriptInterface) return end
+function ReloadEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param value Float
 ---@return nil
-function ReloadEvents:OnStatChanged(ownerID, statType, diff, value) return end
+function ReloadEvents:OnStatChanged(ownerID, statType, diff, value) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReloadEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ReloadEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function ReloadEvents:RefreshReloadPermanentFloats(stateContext) return end
+function ReloadEvents:RefreshReloadPermanentFloats(stateContext) end

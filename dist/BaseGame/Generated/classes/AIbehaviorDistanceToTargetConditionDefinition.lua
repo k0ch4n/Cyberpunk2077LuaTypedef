@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class AIbehaviorDistanceToTargetConditionDefinition: AIbehaviorConditionDefinition
----@field public target AIArgumentMapping
----@field public distance AIArgumentMapping
----@field public comparisonOperator EComparisonType
+---@field target AIArgumentMapping
+---@field distance AIArgumentMapping
+---@field comparisonOperator EComparisonType
 AIbehaviorDistanceToTargetConditionDefinition = {}

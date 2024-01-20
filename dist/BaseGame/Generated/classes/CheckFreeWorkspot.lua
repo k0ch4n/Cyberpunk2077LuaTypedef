@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class CheckFreeWorkspot: AIbehaviorconditionScript
----@field public AIAction gamedataWorkspotActionType
----@field public workspotObject gameObject
----@field public workspotData WorkspotEntryData
----@field public globalRef worldGlobalNodeRef
+---@field AIAction gamedataWorkspotActionType
+---@field workspotObject gameObject
+---@field workspotData WorkspotEntryData
+---@field globalRef worldGlobalNodeRef
 CheckFreeWorkspot = {}
 
 ---@param fields? CheckFreeWorkspot
 ---@return CheckFreeWorkspot
-function CheckFreeWorkspot.new(fields) return end
+function CheckFreeWorkspot.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckFreeWorkspot:Activate(context) return end
+function CheckFreeWorkspot:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckFreeWorkspot:Check(context) return end
+function CheckFreeWorkspot:Check(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckFreeWorkspot:Deactivate(context) return end
+function CheckFreeWorkspot:Deactivate(context) end

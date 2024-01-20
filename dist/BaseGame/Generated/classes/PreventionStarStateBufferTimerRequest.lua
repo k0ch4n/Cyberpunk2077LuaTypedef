@@ -5,4 +5,4 @@ PreventionStarStateBufferTimerRequest = {}
 
 ---@param fields? PreventionStarStateBufferTimerRequest
 ---@return PreventionStarStateBufferTimerRequest
-function PreventionStarStateBufferTimerRequest.new(fields) return end
+function PreventionStarStateBufferTimerRequest.new(fields) end

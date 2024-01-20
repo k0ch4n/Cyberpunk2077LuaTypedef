@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameMuppetInventoryState
----@field public slots gameMuppetInventorySlotInfo[]
----@field public activeSlot Int32
+---@field slots gameMuppetInventorySlotInfo[]
+---@field activeSlot Int32
 gameMuppetInventoryState = {}
 
 ---@param fields? gameMuppetInventoryState
 ---@return gameMuppetInventoryState
-function gameMuppetInventoryState.new(fields) return end
+function gameMuppetInventoryState.new(fields) end

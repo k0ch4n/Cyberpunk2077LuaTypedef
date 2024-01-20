@@ -5,4 +5,4 @@ gameaudioeventsStopWeaponFire = {}
 
 ---@param fields? gameaudioeventsStopWeaponFire
 ---@return gameaudioeventsStopWeaponFire
-function gameaudioeventsStopWeaponFire.new(fields) return end
+function gameaudioeventsStopWeaponFire.new(fields) end

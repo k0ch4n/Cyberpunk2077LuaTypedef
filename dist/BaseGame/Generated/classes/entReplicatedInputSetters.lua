@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entReplicatedInputSetters
----@field public serverReplicatedTime netTime
+---@field serverReplicatedTime netTime
 entReplicatedInputSetters = {}
 
 ---@param fields? entReplicatedInputSetters
 ---@return entReplicatedInputSetters
-function entReplicatedInputSetters.new(fields) return end
+function entReplicatedInputSetters.new(fields) end

@@ -5,4 +5,4 @@ CleanUpThrownNPCNearbyCrowdNPCs = {}
 
 ---@param fields? CleanUpThrownNPCNearbyCrowdNPCs
 ---@return CleanUpThrownNPCNearbyCrowdNPCs
-function CleanUpThrownNPCNearbyCrowdNPCs.new(fields) return end
+function CleanUpThrownNPCNearbyCrowdNPCs.new(fields) end

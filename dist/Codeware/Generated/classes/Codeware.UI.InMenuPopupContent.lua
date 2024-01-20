@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class Codeware_UI_InMenuPopupContent: Codeware_UI_inkCustomController
----@field public content inkFlexWidget
----@field public title inkTextWidget
+---@field content inkFlexWidget
+---@field title inkTextWidget
 Codeware_UI_InMenuPopupContent = {}
 
 ---@param fields? Codeware_UI_InMenuPopupContent
 ---@return Codeware_UI_InMenuPopupContent
-function Codeware_UI_InMenuPopupContent.new(fields) return end
+function Codeware_UI_InMenuPopupContent.new(fields) end
 
 ---@return Codeware_UI_InMenuPopupContent
-function Codeware_UI_InMenuPopupContent.Create() return end
+function Codeware_UI_InMenuPopupContent.Create() end
 
 ---@return nil
-function Codeware_UI_InMenuPopupContent:OnCreate() return end
+function Codeware_UI_InMenuPopupContent:OnCreate() end
 
 ---@return Vector2
-function Codeware_UI_InMenuPopupContent:GetSize() return end
+function Codeware_UI_InMenuPopupContent:GetSize() end
 
 ---@param text String
 ---@return nil
-function Codeware_UI_InMenuPopupContent:SetTitle(text) return end
+function Codeware_UI_InMenuPopupContent:SetTitle(text) end

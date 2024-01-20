@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RegisterPostionEvent: BlackBoardRequestEvent
----@field public start Bool
+---@field start Bool
 RegisterPostionEvent = {}
 
 ---@param fields? RegisterPostionEvent
 ---@return RegisterPostionEvent
-function RegisterPostionEvent.new(fields) return end
+function RegisterPostionEvent.new(fields) end

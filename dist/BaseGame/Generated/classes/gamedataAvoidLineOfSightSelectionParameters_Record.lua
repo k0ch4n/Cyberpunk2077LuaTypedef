@@ -5,16 +5,16 @@ gamedataAvoidLineOfSightSelectionParameters_Record = {}
 
 ---@param fields? gamedataAvoidLineOfSightSelectionParameters_Record
 ---@return gamedataAvoidLineOfSightSelectionParameters_Record
-function gamedataAvoidLineOfSightSelectionParameters_Record.new(fields) return end
+function gamedataAvoidLineOfSightSelectionParameters_Record.new(fields) end
 
 ---@return Float
-function gamedataAvoidLineOfSightSelectionParameters_Record:Angle() return end
+function gamedataAvoidLineOfSightSelectionParameters_Record:Angle() end
 
 ---@return Float
-function gamedataAvoidLineOfSightSelectionParameters_Record:Distance() return end
+function gamedataAvoidLineOfSightSelectionParameters_Record:Distance() end
 
 ---@return Float
-function gamedataAvoidLineOfSightSelectionParameters_Record:Height() return end
+function gamedataAvoidLineOfSightSelectionParameters_Record:Height() end
 
 ---@return Float
-function gamedataAvoidLineOfSightSelectionParameters_Record:Multiplier() return end
+function gamedataAvoidLineOfSightSelectionParameters_Record:Multiplier() end

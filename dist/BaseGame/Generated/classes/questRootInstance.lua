@@ -5,4 +5,4 @@ questRootInstance = {}
 
 ---@param fields? questRootInstance
 ---@return questRootInstance
-function questRootInstance.new(fields) return end
+function questRootInstance.new(fields) end

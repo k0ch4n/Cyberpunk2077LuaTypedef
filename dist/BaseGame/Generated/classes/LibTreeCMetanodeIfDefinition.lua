@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class LibTreeCMetanodeIfDefinition: LibTreeCMetanodeDefinition
----@field public ifCondition LibTreeDefBool
----@field public ifBranch LibTreeINodeDefinition
----@field public elseBranch LibTreeINodeDefinition
+---@field ifCondition LibTreeDefBool
+---@field ifBranch LibTreeINodeDefinition
+---@field elseBranch LibTreeINodeDefinition
 LibTreeCMetanodeIfDefinition = {}
 
 ---@param fields? LibTreeCMetanodeIfDefinition
 ---@return LibTreeCMetanodeIfDefinition
-function LibTreeCMetanodeIfDefinition.new(fields) return end
+function LibTreeCMetanodeIfDefinition.new(fields) end

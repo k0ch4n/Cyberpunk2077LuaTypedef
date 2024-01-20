@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class ReloadFromEmptyPrereq: gameIScriptablePrereq
----@field private minAmountOfAmmoReloaded Int32
+---@field minAmountOfAmmoReloaded Int32
 ReloadFromEmptyPrereq = {}
 
 ---@param fields? ReloadFromEmptyPrereq
 ---@return ReloadFromEmptyPrereq
-function ReloadFromEmptyPrereq.new(fields) return end
+function ReloadFromEmptyPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ReloadFromEmptyPrereq:Initialize(recordID) return end
+function ReloadFromEmptyPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ReloadFromEmptyPrereq:OnApplied(state, context) return end
+function ReloadFromEmptyPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ReloadFromEmptyPrereq:OnRegister(state, context) return end
+function ReloadFromEmptyPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ReloadFromEmptyPrereq:OnUnregister(state, context) return end
+function ReloadFromEmptyPrereq:OnUnregister(state, context) end

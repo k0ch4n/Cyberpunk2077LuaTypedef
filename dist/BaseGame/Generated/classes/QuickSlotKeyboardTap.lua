@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuickSlotKeyboardTap: redEvent
----@field public keyIndex Int32
+---@field keyIndex Int32
 QuickSlotKeyboardTap = {}
 
 ---@param fields? QuickSlotKeyboardTap
 ---@return QuickSlotKeyboardTap
-function QuickSlotKeyboardTap.new(fields) return end
+function QuickSlotKeyboardTap.new(fields) end

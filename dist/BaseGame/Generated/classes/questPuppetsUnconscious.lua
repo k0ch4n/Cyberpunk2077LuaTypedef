@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questPuppetsUnconscious: questPuppetsEffector
----@field public setUnconscious Bool
+---@field setUnconscious Bool
 questPuppetsUnconscious = {}
 
 ---@param fields? questPuppetsUnconscious
 ---@return questPuppetsUnconscious
-function questPuppetsUnconscious.new(fields) return end
+function questPuppetsUnconscious.new(fields) end

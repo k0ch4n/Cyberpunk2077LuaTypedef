@@ -5,193 +5,193 @@ gamedataVehicleDriveModelData_Record = {}
 
 ---@param fields? gamedataVehicleDriveModelData_Record
 ---@return gamedataVehicleDriveModelData_Record
-function gamedataVehicleDriveModelData_Record.new(fields) return end
+function gamedataVehicleDriveModelData_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:AirResistanceFactor() return end
+function gamedataVehicleDriveModelData_Record:AirResistanceFactor() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:AntiSwaybarDampingScalor() return end
+function gamedataVehicleDriveModelData_Record:AntiSwaybarDampingScalor() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:BankBodyFBTanMultiplier() return end
+function gamedataVehicleDriveModelData_Record:BankBodyFBTanMultiplier() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:BankBodyLRTanMultiplier() return end
+function gamedataVehicleDriveModelData_Record:BankBodyLRTanMultiplier() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:BodyFriction() return end
+function gamedataVehicleDriveModelData_Record:BodyFriction() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:BrakingEstimationMagicFactor() return end
+function gamedataVehicleDriveModelData_Record:BrakingEstimationMagicFactor() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:BrakingFrictionFactor() return end
+function gamedataVehicleDriveModelData_Record:BrakingFrictionFactor() end
 
 ---@return gamedataVehicleBurnOut_Record
-function gamedataVehicleDriveModelData_Record:BurnOut() return end
+function gamedataVehicleDriveModelData_Record:BurnOut() end
 
 ---@return gamedataVehicleBurnOut_Record
-function gamedataVehicleDriveModelData_Record:BurnOutHandle() return end
+function gamedataVehicleDriveModelData_Record:BurnOutHandle() end
 
 ---@return Vector3
-function gamedataVehicleDriveModelData_Record:Center_of_mass_offset() return end
+function gamedataVehicleDriveModelData_Record:Center_of_mass_offset() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:Chassis_mass() return end
+function gamedataVehicleDriveModelData_Record:Chassis_mass() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:DifferentialOvershootFactor() return end
+function gamedataVehicleDriveModelData_Record:DifferentialOvershootFactor() end
 
 ---@return nil, gamedataDriveHelper_Record[] outList
-function gamedataVehicleDriveModelData_Record:DriveHelpers() return end
+function gamedataVehicleDriveModelData_Record:DriveHelpers() end
 
 ---@param item gamedataDriveHelper_Record
 ---@return Bool
-function gamedataVehicleDriveModelData_Record:DriveHelpersContains(item) return end
+function gamedataVehicleDriveModelData_Record:DriveHelpersContains(item) end
 
 ---@return gamedataVehicleFlatTireSimulation_Record
-function gamedataVehicleDriveModelData_Record:FlatTireSim() return end
+function gamedataVehicleDriveModelData_Record:FlatTireSim() end
 
 ---@return gamedataVehicleFlatTireSimulation_Record
-function gamedataVehicleDriveModelData_Record:FlatTireSimHandle() return end
+function gamedataVehicleDriveModelData_Record:FlatTireSimHandle() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:ForwardWeightTransferFactor() return end
+function gamedataVehicleDriveModelData_Record:ForwardWeightTransferFactor() end
 
 ---@return Int32
-function gamedataVehicleDriveModelData_Record:GetDriveHelpersCount() return end
+function gamedataVehicleDriveModelData_Record:GetDriveHelpersCount() end
 
 ---@param index Int32
 ---@return gamedataDriveHelper_Record
-function gamedataVehicleDriveModelData_Record:GetDriveHelpersItem(index) return end
+function gamedataVehicleDriveModelData_Record:GetDriveHelpersItem(index) end
 
 ---@param index Int32
 ---@return gamedataDriveHelper_Record
-function gamedataVehicleDriveModelData_Record:GetDriveHelpersItemHandle(index) return end
+function gamedataVehicleDriveModelData_Record:GetDriveHelpersItemHandle(index) end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:HandbrakeBrakingTorque() return end
+function gamedataVehicleDriveModelData_Record:HandbrakeBrakingTorque() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:LowVelStoppingDeceleration() return end
+function gamedataVehicleDriveModelData_Record:LowVelStoppingDeceleration() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:MaxWheelTurnDeg() return end
+function gamedataVehicleDriveModelData_Record:MaxWheelTurnDeg() end
 
 ---@return Vector3
-function gamedataVehicleDriveModelData_Record:MomentOfInertia() return end
+function gamedataVehicleDriveModelData_Record:MomentOfInertia() end
 
 ---@return Vector3
-function gamedataVehicleDriveModelData_Record:MomentOfInertiaScale() return end
+function gamedataVehicleDriveModelData_Record:MomentOfInertiaScale() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:PerfectSteeringFactor() return end
+function gamedataVehicleDriveModelData_Record:PerfectSteeringFactor() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SideWeightTransferFactor() return end
+function gamedataVehicleDriveModelData_Record:SideWeightTransferFactor() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SlipAngleCurveScale() return end
+function gamedataVehicleDriveModelData_Record:SlipAngleCurveScale() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SlipAngleMinSpeedThreshold() return end
+function gamedataVehicleDriveModelData_Record:SlipAngleMinSpeedThreshold() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SlipRatioCurveScale() return end
+function gamedataVehicleDriveModelData_Record:SlipRatioCurveScale() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SlipRatioMinSpeedThreshold() return end
+function gamedataVehicleDriveModelData_Record:SlipRatioMinSpeedThreshold() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SlopeTractionReductionBegin() return end
+function gamedataVehicleDriveModelData_Record:SlopeTractionReductionBegin() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SlopeTractionReductionFactor() return end
+function gamedataVehicleDriveModelData_Record:SlopeTractionReductionFactor() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SlopeTractionReductionMax() return end
+function gamedataVehicleDriveModelData_Record:SlopeTractionReductionMax() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SmoothWheelContactDecreaseTime() return end
+function gamedataVehicleDriveModelData_Record:SmoothWheelContactDecreaseTime() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:SmoothWheelContactIncreseTime() return end
+function gamedataVehicleDriveModelData_Record:SmoothWheelContactIncreseTime() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:Total_mass() return end
+function gamedataVehicleDriveModelData_Record:Total_mass() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateBaseSpeedThreshold() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateBaseSpeedThreshold() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateInputDiffForFastChange() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateInputDiffForFastChange() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateInputDiffForSlowChange() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateInputDiffForSlowChange() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateInputDiffProgressionPow() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateInputDiffProgressionPow() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateInputFastChangeSpeed() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateInputFastChangeSpeed() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateInputSlowChangeSpeed() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateInputSlowChangeSpeed() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateMaxSpeedThreshold() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateMaxSpeedThreshold() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateMaxSpeedTurnChangeMul() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateMaxSpeedTurnChangeMul() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateMaxSpeedTurnMul() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateMaxSpeedTurnMul() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateMidSpeedThreshold() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateMidSpeedThreshold() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateMidSpeedTurnChangeMul() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateMidSpeedTurnChangeMul() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurnUpdateMidSpeedTurnMul() return end
+function gamedataVehicleDriveModelData_Record:TurnUpdateMidSpeedTurnMul() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurningRollFactor() return end
+function gamedataVehicleDriveModelData_Record:TurningRollFactor() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurningRollFactorWeakContactMul() return end
+function gamedataVehicleDriveModelData_Record:TurningRollFactorWeakContactMul() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurningRollFactorWeakContactThresholdMax() return end
+function gamedataVehicleDriveModelData_Record:TurningRollFactorWeakContactThresholdMax() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:TurningRollFactorWeakContactThresholdMin() return end
+function gamedataVehicleDriveModelData_Record:TurningRollFactorWeakContactThresholdMin() end
 
 ---@return Bool
-function gamedataVehicleDriveModelData_Record:UseAlternativeTurnUpdate() return end
+function gamedataVehicleDriveModelData_Record:UseAlternativeTurnUpdate() end
 
 ---@return gamedataVehicleWater_Record
-function gamedataVehicleDriveModelData_Record:WaterParams() return end
+function gamedataVehicleDriveModelData_Record:WaterParams() end
 
 ---@return gamedataVehicleWater_Record
-function gamedataVehicleDriveModelData_Record:WaterParamsHandle() return end
+function gamedataVehicleDriveModelData_Record:WaterParamsHandle() end
 
 ---@return gamedataVehicleWheelDrivingSetup_Record
-function gamedataVehicleDriveModelData_Record:WheelSetup() return end
+function gamedataVehicleDriveModelData_Record:WheelSetup() end
 
 ---@return gamedataVehicleWheelDrivingSetup_Record
-function gamedataVehicleDriveModelData_Record:WheelSetupHandle() return end
+function gamedataVehicleDriveModelData_Record:WheelSetupHandle() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:WheelTurnMaxAddPerSecond() return end
+function gamedataVehicleDriveModelData_Record:WheelTurnMaxAddPerSecond() end
 
 ---@return Float
-function gamedataVehicleDriveModelData_Record:WheelTurnMaxSubPerSecond() return end
+function gamedataVehicleDriveModelData_Record:WheelTurnMaxSubPerSecond() end
 
 ---@return gamedataVehicleWheelsFrictionMap_Record
-function gamedataVehicleDriveModelData_Record:WheelsFrictionMap() return end
+function gamedataVehicleDriveModelData_Record:WheelsFrictionMap() end
 
 ---@return gamedataVehicleWheelsFrictionMap_Record
-function gamedataVehicleDriveModelData_Record:WheelsFrictionMapHandle() return end
+function gamedataVehicleDriveModelData_Record:WheelsFrictionMapHandle() end

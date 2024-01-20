@@ -5,7 +5,7 @@ PerkTrainingController = {}
 
 ---@param fields? PerkTrainingController
 ---@return PerkTrainingController
-function PerkTrainingController.new(fields) return end
+function PerkTrainingController.new(fields) end
 
 ---@return PerkTrainingControllerPS
-function PerkTrainingController:GetPS() return end
+function PerkTrainingController:GetPS() end

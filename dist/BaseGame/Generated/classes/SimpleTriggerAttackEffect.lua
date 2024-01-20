@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class SimpleTriggerAttackEffect: gameEffector
----@field public owner gameObject
----@field public attackTDBID TweakDBID
----@field public shouldDelay Bool
+---@field owner gameObject
+---@field attackTDBID TweakDBID
+---@field shouldDelay Bool
 SimpleTriggerAttackEffect = {}
 
 ---@param fields? SimpleTriggerAttackEffect
 ---@return SimpleTriggerAttackEffect
-function SimpleTriggerAttackEffect.new(fields) return end
+function SimpleTriggerAttackEffect.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SimpleTriggerAttackEffect:ActionOn(owner) return end
+function SimpleTriggerAttackEffect:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SimpleTriggerAttackEffect:Initialize(record, parentRecord) return end
+function SimpleTriggerAttackEffect:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SimpleTriggerAttackEffect:RepeatedAction(owner) return end
+function SimpleTriggerAttackEffect:RepeatedAction(owner) end

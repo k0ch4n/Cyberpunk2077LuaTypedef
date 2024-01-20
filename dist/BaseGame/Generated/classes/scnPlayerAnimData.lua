@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnPlayerAnimData
----@field public tierData gameSceneTierData
----@field public useZSnapping Bool
----@field public unmountBodyCarry Bool
----@field public isEndOfCarryingAnimation Bool
+---@field tierData gameSceneTierData
+---@field useZSnapping Bool
+---@field unmountBodyCarry Bool
+---@field isEndOfCarryingAnimation Bool
 scnPlayerAnimData = {}
 
 ---@param fields? scnPlayerAnimData
 ---@return scnPlayerAnimData
-function scnPlayerAnimData.new(fields) return end
+function scnPlayerAnimData.new(fields) end

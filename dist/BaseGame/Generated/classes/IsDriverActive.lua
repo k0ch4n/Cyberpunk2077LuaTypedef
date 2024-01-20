@@ -5,9 +5,8 @@ IsDriverActive = {}
 
 ---@param fields? IsDriverActive
 ---@return IsDriverActive
-function IsDriverActive.new(fields) return end
+function IsDriverActive.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsDriverActive:Check(context) return end
+function IsDriverActive:Check(context) end

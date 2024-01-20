@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class moveMovePoliciesComponentReplicatedState: netIComponentState
----@field public movePolicies moveReplicatedMovePoliciesState
+---@field movePolicies moveReplicatedMovePoliciesState
 moveMovePoliciesComponentReplicatedState = {}
 
 ---@param fields? moveMovePoliciesComponentReplicatedState
 ---@return moveMovePoliciesComponentReplicatedState
-function moveMovePoliciesComponentReplicatedState.new(fields) return end
+function moveMovePoliciesComponentReplicatedState.new(fields) end

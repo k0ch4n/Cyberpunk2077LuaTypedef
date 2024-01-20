@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class ConstantStatPoolPrereqState: StatPoolPrereqState
----@field public listenConstantly Bool
+---@field listenConstantly Bool
 ConstantStatPoolPrereqState = {}
 
 ---@param fields? ConstantStatPoolPrereqState
 ---@return ConstantStatPoolPrereqState
-function ConstantStatPoolPrereqState.new(fields) return end
+function ConstantStatPoolPrereqState.new(fields) end
 
 ---@param statPoolType gamedataStatPoolType
 ---@param valueToCheck Float
 ---@return nil
-function ConstantStatPoolPrereqState:RegisterStatPoolListener(statPoolType, valueToCheck) return end
+function ConstantStatPoolPrereqState:RegisterStatPoolListener(statPoolType, valueToCheck) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function ConstantStatPoolPrereqState:StatPoolConstantUpdate(oldValue, newValue, percToPoints) return end
+function ConstantStatPoolPrereqState:StatPoolConstantUpdate(oldValue, newValue, percToPoints) end

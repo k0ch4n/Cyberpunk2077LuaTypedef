@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnOverrideInterruptConditions_InterruptionScenarioOperation: scnIInterruptionScenarioOperation
----@field public interruptConditions scnIInterruptCondition[]
+---@field interruptConditions scnIInterruptCondition[]
 scnOverrideInterruptConditions_InterruptionScenarioOperation = {}
 
 ---@param fields? scnOverrideInterruptConditions_InterruptionScenarioOperation
 ---@return scnOverrideInterruptConditions_InterruptionScenarioOperation
-function scnOverrideInterruptConditions_InterruptionScenarioOperation.new(fields) return end
+function scnOverrideInterruptConditions_InterruptionScenarioOperation.new(fields) end

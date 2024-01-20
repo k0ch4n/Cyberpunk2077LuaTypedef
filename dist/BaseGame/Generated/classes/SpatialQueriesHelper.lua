@@ -5,11 +5,11 @@ SpatialQueriesHelper = {}
 
 ---@param fields? SpatialQueriesHelper
 ---@return SpatialQueriesHelper
-function SpatialQueriesHelper.new(fields) return end
+function SpatialQueriesHelper.new(fields) end
 
 ---@param sourceObject gameObject
 ---@return Bool, Float floorAngle
-function SpatialQueriesHelper.GetFloorAngle(sourceObject) return end
+function SpatialQueriesHelper.GetFloorAngle(sourceObject) end
 
 ---@param sourceObject gameObject
 ---@param queryDirection Vector4
@@ -18,7 +18,7 @@ function SpatialQueriesHelper.GetFloorAngle(sourceObject) return end
 ---@param areaLength Float
 ---@param areaHeight Float
 ---@return Bool
-function SpatialQueriesHelper.HasSpaceInFront(sourceObject, queryDirection, groundClearance, areaWidth, areaLength, areaHeight) return end
+function SpatialQueriesHelper.HasSpaceInFront(sourceObject, queryDirection, groundClearance, areaWidth, areaLength, areaHeight) end
 
 ---@param sourceObject gameObject
 ---@param groundClearance Float
@@ -26,11 +26,11 @@ function SpatialQueriesHelper.HasSpaceInFront(sourceObject, queryDirection, grou
 ---@param areaLength Float
 ---@param areaHeight Float
 ---@return Bool
-function SpatialQueriesHelper.HasSpaceInFront(sourceObject, groundClearance, areaWidth, areaLength, areaHeight) return end
+function SpatialQueriesHelper.HasSpaceInFront(sourceObject, groundClearance, areaWidth, areaLength, areaHeight) end
 
 ---@param owner gameObject
 ---@param target gameObject
 ---@param targetPos Vector4
 ---@param depthTestForObstacle Bool
 ---@return Bool, Bool isObstacleVaultable
-function SpatialQueriesHelper.IsTargetReachable(owner, target, targetPos, depthTestForObstacle) return end
+function SpatialQueriesHelper.IsTargetReachable(owner, target, targetPos, depthTestForObstacle) end

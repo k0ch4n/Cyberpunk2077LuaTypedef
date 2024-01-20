@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class MaterialTooltipData: ATooltipData
----@field public Title String
----@field public BaseMaterialQuantity Int32
----@field public MaterialQuantity Int32
----@field public TitleLocalizationPackage gameUILocalizationDataPackage
----@field public DescriptionLocalizationPackage gameUILocalizationDataPackage
+---@field Title String
+---@field BaseMaterialQuantity Int32
+---@field MaterialQuantity Int32
+---@field TitleLocalizationPackage gameUILocalizationDataPackage
+---@field DescriptionLocalizationPackage gameUILocalizationDataPackage
 MaterialTooltipData = {}
 
 ---@param fields? MaterialTooltipData
 ---@return MaterialTooltipData
-function MaterialTooltipData.new(fields) return end
+function MaterialTooltipData.new(fields) end

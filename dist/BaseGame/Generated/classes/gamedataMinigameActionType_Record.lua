@@ -5,13 +5,13 @@ gamedataMinigameActionType_Record = {}
 
 ---@param fields? gamedataMinigameActionType_Record
 ---@return gamedataMinigameActionType_Record
-function gamedataMinigameActionType_Record.new(fields) return end
+function gamedataMinigameActionType_Record.new(fields) end
 
 ---@return String
-function gamedataMinigameActionType_Record:EnumComment() return end
+function gamedataMinigameActionType_Record:EnumComment() end
 
 ---@return CName
-function gamedataMinigameActionType_Record:EnumName() return end
+function gamedataMinigameActionType_Record:EnumName() end
 
 ---@return gamedataMinigameActionType
-function gamedataMinigameActionType_Record:Type() return end
+function gamedataMinigameActionType_Record:Type() end

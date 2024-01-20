@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationInfo: IScriptable
----@field public name CName
----@field public uiSlot CName
----@field public localizedName String
----@field public defaultIndex Int32
----@field public index Int32
----@field public hidden Bool
----@field public enabled Bool
----@field public link CName
----@field public linkController Bool
----@field public editTags gameuiCharacterCustomizationEditTag[]
----@field public censorFlag CensorshipFlags
----@field public censorFlagAction gameuiCharacterCustomizationActionType
----@field public onDeactivateActions gameuiCharacterCustomizationAction[]
+---@field name CName
+---@field uiSlot CName
+---@field localizedName String
+---@field defaultIndex Int32
+---@field index Int32
+---@field hidden Bool
+---@field enabled Bool
+---@field link CName
+---@field linkController Bool
+---@field editTags gameuiCharacterCustomizationEditTag[]
+---@field censorFlag CensorshipFlags
+---@field censorFlagAction gameuiCharacterCustomizationActionType
+---@field onDeactivateActions gameuiCharacterCustomizationAction[]
 gameuiCharacterCustomizationInfo = {}

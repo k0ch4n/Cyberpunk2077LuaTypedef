@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class gameuiSideScrollerMiniGameStateAdvanced: IScriptable
----@field public opertyMaxScore CName
----@field public opertyCurrentLives CName
----@field public opertyCurrentScore CName
----@field public PropertyChanged gameuiGameStatePropertyChangedCallback
+---@field opertyMaxScore CName
+---@field opertyCurrentLives CName
+---@field opertyCurrentScore CName
+---@field PropertyChanged gameuiGameStatePropertyChangedCallback
 gameuiSideScrollerMiniGameStateAdvanced = {}
 
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:AddLife() return end
+function gameuiSideScrollerMiniGameStateAdvanced:AddLife() end
 
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:AddScore() return end
+function gameuiSideScrollerMiniGameStateAdvanced:AddScore() end
 
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:GetLives() return end
+function gameuiSideScrollerMiniGameStateAdvanced:GetLives() end
 
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:GetMaxScore() return end
+function gameuiSideScrollerMiniGameStateAdvanced:GetMaxScore() end
 
 ---@return Uint32
-function gameuiSideScrollerMiniGameStateAdvanced:GetScore() return end
+function gameuiSideScrollerMiniGameStateAdvanced:GetScore() end
 
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:SetLives() return end
+function gameuiSideScrollerMiniGameStateAdvanced:SetLives() end
 
 ---@param score Uint32
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:SetMaxScore(score) return end
+function gameuiSideScrollerMiniGameStateAdvanced:SetMaxScore(score) end
 
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:SetScore() return end
+function gameuiSideScrollerMiniGameStateAdvanced:SetScore() end
 
 ---@return nil
-function gameuiSideScrollerMiniGameStateAdvanced:SpendLife() return end
+function gameuiSideScrollerMiniGameStateAdvanced:SpendLife() end

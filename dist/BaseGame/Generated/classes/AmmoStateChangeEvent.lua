@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AmmoStateChangeEvent: redEvent
----@field public weaponOwner gameObject
+---@field weaponOwner gameObject
 AmmoStateChangeEvent = {}
 
 ---@param fields? AmmoStateChangeEvent
 ---@return AmmoStateChangeEvent
-function AmmoStateChangeEvent.new(fields) return end
+function AmmoStateChangeEvent.new(fields) end

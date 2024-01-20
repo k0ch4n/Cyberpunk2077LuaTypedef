@@ -5,21 +5,18 @@ DOTContinuousEffector = {}
 
 ---@param fields? DOTContinuousEffector
 ---@return DOTContinuousEffector
-function DOTContinuousEffector.new(fields) return end
+function DOTContinuousEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function DOTContinuousEffector:ActionOn(owner) return end
+function DOTContinuousEffector:ActionOn(owner) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function DOTContinuousEffector:ContinuousAction(owner, instigator) return end
+function DOTContinuousEffector:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function DOTContinuousEffector:Initialize(record, parentRecord) return end
+function DOTContinuousEffector:Initialize(record, parentRecord) end

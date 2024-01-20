@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class BetOnMark
----@field public betOn CasinoTableBet
----@field public mark inkWidgetReference
+---@field betOn CasinoTableBet
+---@field mark inkWidgetReference
 BetOnMark = {}
 
 ---@param fields? BetOnMark
 ---@return BetOnMark
-function BetOnMark.new(fields) return end
+function BetOnMark.new(fields) end

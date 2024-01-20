@@ -5,4 +5,4 @@ Blacklist = {}
 
 ---@param fields? Blacklist
 ---@return Blacklist
-function Blacklist.new(fields) return end
+function Blacklist.new(fields) end

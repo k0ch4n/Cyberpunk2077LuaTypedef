@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class vehicleDriveFollowEvent: redEvent
----@field public targetObjToFollow gameObject
----@field public distanceMin Float
----@field public distanceMax Float
----@field public stopWhenTargetReached Bool
----@field public useTraffic Bool
+---@field targetObjToFollow gameObject
+---@field distanceMin Float
+---@field distanceMax Float
+---@field stopWhenTargetReached Bool
+---@field useTraffic Bool
 vehicleDriveFollowEvent = {}
 
 ---@param fields? vehicleDriveFollowEvent
 ---@return vehicleDriveFollowEvent
-function vehicleDriveFollowEvent.new(fields) return end
+function vehicleDriveFollowEvent.new(fields) end

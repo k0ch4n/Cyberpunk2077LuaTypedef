@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class ChargedItemsPrereq: gameIScriptablePrereq
----@field public chargesToCheck EChargesAmount
----@field public typeOfItem EChargesItem
+---@field chargesToCheck EChargesAmount
+---@field typeOfItem EChargesItem
 ChargedItemsPrereq = {}
 
 ---@param fields? ChargedItemsPrereq
 ---@return ChargedItemsPrereq
-function ChargedItemsPrereq.new(fields) return end
+function ChargedItemsPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ChargedItemsPrereq:Initialize(recordID) return end
+function ChargedItemsPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ChargedItemsPrereq:OnRegister(state, context) return end
+function ChargedItemsPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ChargedItemsPrereq:OnUnregister(state, context) return end
+function ChargedItemsPrereq:OnUnregister(state, context) end

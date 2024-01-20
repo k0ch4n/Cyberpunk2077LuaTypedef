@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class CheckUpperBodyState: AINPCUpperBodyStateCheck
----@field public state gamedataNPCUpperBodyState
+---@field state gamedataNPCUpperBodyState
 CheckUpperBodyState = {}
 
 ---@param fields? CheckUpperBodyState
 ---@return CheckUpperBodyState
-function CheckUpperBodyState.new(fields) return end
+function CheckUpperBodyState.new(fields) end
 
----@private
 ---@return gamedataNPCUpperBodyState
-function CheckUpperBodyState:GetStateToCheck() return end
+function CheckUpperBodyState:GetStateToCheck() end

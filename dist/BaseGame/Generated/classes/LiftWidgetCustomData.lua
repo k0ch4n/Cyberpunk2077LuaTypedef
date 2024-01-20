@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class LiftWidgetCustomData: WidgetCustomData
----@field private movementState gamePlatformMovementState
+---@field movementState gamePlatformMovementState
 LiftWidgetCustomData = {}
 
 ---@param fields? LiftWidgetCustomData
 ---@return LiftWidgetCustomData
-function LiftWidgetCustomData.new(fields) return end
+function LiftWidgetCustomData.new(fields) end
 
 ---@return gamePlatformMovementState
-function LiftWidgetCustomData:GetMovementState() return end
+function LiftWidgetCustomData:GetMovementState() end
 
 ---@param value gamePlatformMovementState
 ---@return nil
-function LiftWidgetCustomData:SetMovementState(value) return end
+function LiftWidgetCustomData:SetMovementState(value) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIFollowerTakedownCommandParams: questScriptedAICommandParams
----@field public targetRef gameEntityReference
----@field public approachBeforeTakedown Bool
----@field public doNotTeleportIfTargetIsVisible Bool
+---@field targetRef gameEntityReference
+---@field approachBeforeTakedown Bool
+---@field doNotTeleportIfTargetIsVisible Bool
 AIFollowerTakedownCommandParams = {}
 
 ---@param fields? AIFollowerTakedownCommandParams
 ---@return AIFollowerTakedownCommandParams
-function AIFollowerTakedownCommandParams.new(fields) return end
+function AIFollowerTakedownCommandParams.new(fields) end
 
 ---@return AICommand
-function AIFollowerTakedownCommandParams:CreateCommand() return end
+function AIFollowerTakedownCommandParams:CreateCommand() end
 
 ---@return String
-function AIFollowerTakedownCommandParams:GetCommandName() return end
+function AIFollowerTakedownCommandParams:GetCommandName() end

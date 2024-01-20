@@ -5,4 +5,4 @@ DelayedHighlightUpdateEvent = {}
 
 ---@param fields? DelayedHighlightUpdateEvent
 ---@return DelayedHighlightUpdateEvent
-function DelayedHighlightUpdateEvent.new(fields) return end
+function DelayedHighlightUpdateEvent.new(fields) end

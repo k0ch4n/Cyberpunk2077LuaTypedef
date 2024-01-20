@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioGenericNameEventItem: audioInlinedAudioMetadata
----@field public key CName
----@field public value CName
+---@field key CName
+---@field value CName
 audioGenericNameEventItem = {}
 
 ---@param fields? audioGenericNameEventItem
 ---@return audioGenericNameEventItem
-function audioGenericNameEventItem.new(fields) return end
+function audioGenericNameEventItem.new(fields) end

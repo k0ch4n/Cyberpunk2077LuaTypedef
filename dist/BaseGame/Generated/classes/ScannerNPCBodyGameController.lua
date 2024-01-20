@@ -1,42 +1,36 @@
 ---@meta
 
 ---@class ScannerNPCBodyGameController: BaseChunkGameController
----@field private factionText inkTextWidgetReference
----@field private dataBaseWidgetHolder inkWidgetReference
----@field private factionCallbackID redCallbackObject
----@field private rarityCallbackID redCallbackObject
----@field private isValidFaction Bool
----@field private asyncSpawnRequest inkAsyncSpawnRequest
+---@field factionText inkTextWidgetReference
+---@field dataBaseWidgetHolder inkWidgetReference
+---@field factionCallbackID redCallbackObject
+---@field rarityCallbackID redCallbackObject
+---@field isValidFaction Bool
+---@field asyncSpawnRequest inkAsyncSpawnRequest
 ScannerNPCBodyGameController = {}
 
 ---@param fields? ScannerNPCBodyGameController
 ---@return ScannerNPCBodyGameController
-function ScannerNPCBodyGameController.new(fields) return end
+function ScannerNPCBodyGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ScannerNPCBodyGameController:OnCitizenDBSpawned(widget, userData) return end
+function ScannerNPCBodyGameController:OnCitizenDBSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerNPCBodyGameController:OnFactionChanged(value) return end
+function ScannerNPCBodyGameController:OnFactionChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerNPCBodyGameController:OnInitialize() return end
+function ScannerNPCBodyGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerNPCBodyGameController:OnRarityChanged(value) return end
+function ScannerNPCBodyGameController:OnRarityChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerNPCBodyGameController:OnUninitialize() return end
+function ScannerNPCBodyGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ScannerNPCBodyGameController:UpdateGlobalVisibility() return end
+function ScannerNPCBodyGameController:UpdateGlobalVisibility() end

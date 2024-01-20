@@ -1,36 +1,35 @@
 ---@meta
 
 ---@class LevelBarsController: inkWidgetLogicController
----@field protected bar0 inkWidgetReference
----@field protected bar1 inkWidgetReference
----@field protected bar2 inkWidgetReference
----@field protected bar3 inkWidgetReference
----@field protected bar4 inkWidgetReference
----@field protected bars inkWidgetReference[]
+---@field bar0 inkWidgetReference
+---@field bar1 inkWidgetReference
+---@field bar2 inkWidgetReference
+---@field bar3 inkWidgetReference
+---@field bar4 inkWidgetReference
+---@field bars inkWidgetReference[]
 LevelBarsController = {}
 
 ---@param fields? LevelBarsController
 ---@return LevelBarsController
-function LevelBarsController.new(fields) return end
+function LevelBarsController.new(fields) end
 
----@protected
 ---@return Bool
-function LevelBarsController:OnInitialize() return end
+function LevelBarsController:OnInitialize() end
 
 ---@param index Int32
 ---@return inkWidgetReference
-function LevelBarsController:GetBarWidget(index) return end
+function LevelBarsController:GetBarWidget(index) end
 
 ---@param quality CName|string
 ---@param qualityToCompare? CName|string
 ---@return nil
-function LevelBarsController:Update(quality, qualityToCompare) return end
+function LevelBarsController:Update(quality, qualityToCompare) end
 
 ---@param quality Int32
 ---@return nil
-function LevelBarsController:Update(quality) return end
+function LevelBarsController:Update(quality) end
 
 ---@param quality Int32
 ---@param qualityToCompare Int32
 ---@return nil
-function LevelBarsController:Update(quality, qualityToCompare) return end
+function LevelBarsController:Update(quality, qualityToCompare) end

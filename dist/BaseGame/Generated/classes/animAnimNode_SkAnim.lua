@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class animAnimNode_SkAnim: animAnimNode_Base
----@field public animation CName
----@field public applyMotion Bool
----@field public isLooped Bool
----@field public resume Bool
----@field public collectEvents Bool
----@field public fireAnimLoopEvent Bool
----@field public animLoopEventName CName
----@field public clipFront Float
----@field public clipEnd Float
----@field public clipFrontByEvent CName
----@field public clipEndByEvent CName
----@field public pushDataByTag CName
----@field public popDataByTag CName
----@field public pushSafeCutTag CName
----@field public convertToAdditive Bool
----@field public motionProvider animIMotionTableProvider
----@field public applyInertializationOnAnimSetSwap Bool
+---@field animation CName
+---@field applyMotion Bool
+---@field isLooped Bool
+---@field resume Bool
+---@field collectEvents Bool
+---@field fireAnimLoopEvent Bool
+---@field animLoopEventName CName
+---@field clipFront Float
+---@field clipEnd Float
+---@field clipFrontByEvent CName
+---@field clipEndByEvent CName
+---@field pushDataByTag CName
+---@field popDataByTag CName
+---@field pushSafeCutTag CName
+---@field convertToAdditive Bool
+---@field motionProvider animIMotionTableProvider
+---@field applyInertializationOnAnimSetSwap Bool
 animAnimNode_SkAnim = {}
 
 ---@param fields? animAnimNode_SkAnim
 ---@return animAnimNode_SkAnim
-function animAnimNode_SkAnim.new(fields) return end
+function animAnimNode_SkAnim.new(fields) end

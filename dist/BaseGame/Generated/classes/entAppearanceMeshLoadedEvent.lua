@@ -5,4 +5,4 @@ entAppearanceMeshLoadedEvent = {}
 
 ---@param fields? entAppearanceMeshLoadedEvent
 ---@return entAppearanceMeshLoadedEvent
-function entAppearanceMeshLoadedEvent.new(fields) return end
+function entAppearanceMeshLoadedEvent.new(fields) end

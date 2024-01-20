@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldPhysicalFractureFieldNode: worldNode
----@field public shape physicsTriggerShape
----@field public fractureFieldParams physicsFractureFieldParams
+---@field shape physicsTriggerShape
+---@field fractureFieldParams physicsFractureFieldParams
 worldPhysicalFractureFieldNode = {}
 
 ---@param fields? worldPhysicalFractureFieldNode
 ---@return worldPhysicalFractureFieldNode
-function worldPhysicalFractureFieldNode.new(fields) return end
+function worldPhysicalFractureFieldNode.new(fields) end

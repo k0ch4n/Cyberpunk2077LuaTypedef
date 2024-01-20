@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class PlayLibraryAnimationButtonView: BaseButtonView
----@field protected ToHoverAnimationName CName
----@field protected ToPressedAnimationName CName
----@field protected ToDefaultAnimationName CName
----@field protected ToDisabledAnimationName CName
----@field private InputAnimation inkanimProxy
+---@field ToHoverAnimationName CName
+---@field ToPressedAnimationName CName
+---@field ToDefaultAnimationName CName
+---@field ToDisabledAnimationName CName
+---@field InputAnimation inkanimProxy
 PlayLibraryAnimationButtonView = {}
 
 ---@param fields? PlayLibraryAnimationButtonView
 ---@return PlayLibraryAnimationButtonView
-function PlayLibraryAnimationButtonView.new(fields) return end
+function PlayLibraryAnimationButtonView.new(fields) end
 
----@protected
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function PlayLibraryAnimationButtonView:ButtonStateChanged(oldState, newState) return end
+function PlayLibraryAnimationButtonView:ButtonStateChanged(oldState, newState) end

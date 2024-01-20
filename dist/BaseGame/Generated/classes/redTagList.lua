@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class redTagList
----@field public tags CName[]
+---@field tags CName[]
 redTagList = {}
 
 ---@param fields? redTagList
 ---@return redTagList
-function redTagList.new(fields) return end
+function redTagList.new(fields) end

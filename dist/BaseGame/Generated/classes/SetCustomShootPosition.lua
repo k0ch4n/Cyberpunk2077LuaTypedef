@@ -1,66 +1,60 @@
 ---@meta
 
 ---@class SetCustomShootPosition: AIbehaviortaskScript
----@field private offset Vector3
----@field private fxOffset Vector3
----@field private lockTimer Float
----@field private landIndicatorFX gameFxResource
----@field private keepsAcquiring Bool
----@field private shootToTheGround Bool
----@field private predictionTime Float
----@field private waypointTag CName
----@field private refOwner gamedataAIActionTarget_Record
----@field private refAIActionTarget gamedataAIActionTarget_Record
----@field private refCustomWorldPositionTarget gamedataAIActionTarget_Record
----@field private ownerPosition Vector4
----@field private targetPosition Vector4
----@field private direction Vector4
----@field private fxPosition Vector4
----@field private target gameObject
----@field private owner gameObject
----@field private fxInstance gameFxInstance
----@field private targetAcquired Bool
----@field private startTime Float
----@field private shootPointPosition Vector4
----@field private targetsPosition Vector4[]
+---@field offset Vector3
+---@field fxOffset Vector3
+---@field lockTimer Float
+---@field landIndicatorFX gameFxResource
+---@field keepsAcquiring Bool
+---@field shootToTheGround Bool
+---@field predictionTime Float
+---@field waypointTag CName
+---@field refOwner gamedataAIActionTarget_Record
+---@field refAIActionTarget gamedataAIActionTarget_Record
+---@field refCustomWorldPositionTarget gamedataAIActionTarget_Record
+---@field ownerPosition Vector4
+---@field targetPosition Vector4
+---@field direction Vector4
+---@field fxPosition Vector4
+---@field target gameObject
+---@field owner gameObject
+---@field fxInstance gameFxInstance
+---@field targetAcquired Bool
+---@field startTime Float
+---@field shootPointPosition Vector4
+---@field targetsPosition Vector4[]
 SetCustomShootPosition = {}
 
 ---@param fields? SetCustomShootPosition
 ---@return SetCustomShootPosition
-function SetCustomShootPosition.new(fields) return end
+function SetCustomShootPosition.new(fields) end
 
----@private
 ---@param ownerPosition Vector4
 ---@param offset Vector3
 ---@param shootToTheGround Bool
 ---@return nil, Vector4 targetPosition
-function SetCustomShootPosition.ApplyTargetOffset(ownerPosition, offset, shootToTheGround) return end
+function SetCustomShootPosition.ApplyTargetOffset(ownerPosition, offset, shootToTheGround) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetCustomShootPosition:Activate(context) return end
+function SetCustomShootPosition:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param resource gameFxResource
 ---@param transform WorldTransform
 ---@return gameFxInstance
-function SetCustomShootPosition:CreateFxInstance(context, resource, transform) return end
+function SetCustomShootPosition:CreateFxInstance(context, resource, transform) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetCustomShootPosition:Deactivate(context) return end
+function SetCustomShootPosition:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param fx gameFxResource
 ---@param fxposition Vector4
 ---@return nil
-function SetCustomShootPosition:SpawnLandVFXs(context, fx, fxposition) return end
+function SetCustomShootPosition:SpawnLandVFXs(context, fx, fxposition) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function SetCustomShootPosition:Update(context) return end
+function SetCustomShootPosition:Update(context) end

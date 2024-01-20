@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameStatModifierGroup
----@field public statModifierArray gameStatModifierHandle[]
----@field public statModifiersLimit Int32
----@field public statModifiersLimitModifier TweakDBID
----@field public relatedModifierGroups TweakDBID[]
----@field public statModifierGroupRecordID TweakDBID
----@field public stackCount Uint16
----@field public drawBasedOnStatType Bool
----@field public saveBasedOnStatType Bool
----@field public optimiseCombinedModifiers Bool
+---@field statModifierArray gameStatModifierHandle[]
+---@field statModifiersLimit Int32
+---@field statModifiersLimitModifier TweakDBID
+---@field relatedModifierGroups TweakDBID[]
+---@field statModifierGroupRecordID TweakDBID
+---@field stackCount Uint16
+---@field drawBasedOnStatType Bool
+---@field saveBasedOnStatType Bool
+---@field optimiseCombinedModifiers Bool
 gameStatModifierGroup = {}
 
 ---@param fields? gameStatModifierGroup
 ---@return gameStatModifierGroup
-function gameStatModifierGroup.new(fields) return end
+function gameStatModifierGroup.new(fields) end

@@ -5,13 +5,13 @@ SetDeviceTagKillMode = {}
 
 ---@param fields? SetDeviceTagKillMode
 ---@return SetDeviceTagKillMode
-function SetDeviceTagKillMode.new(fields) return end
+function SetDeviceTagKillMode.new(fields) end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function SetDeviceTagKillMode:GetInteractionIcon() return end
+function SetDeviceTagKillMode:GetInteractionIcon() end
 
 ---@return String
-function SetDeviceTagKillMode:GetTweakDBChoiceRecord() return end
+function SetDeviceTagKillMode:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function SetDeviceTagKillMode:SetProperties() return end
+function SetDeviceTagKillMode:SetProperties() end

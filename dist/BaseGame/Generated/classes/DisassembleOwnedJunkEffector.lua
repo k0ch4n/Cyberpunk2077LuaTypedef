@@ -5,9 +5,8 @@ DisassembleOwnedJunkEffector = {}
 
 ---@param fields? DisassembleOwnedJunkEffector
 ---@return DisassembleOwnedJunkEffector
-function DisassembleOwnedJunkEffector.new(fields) return end
+function DisassembleOwnedJunkEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function DisassembleOwnedJunkEffector:ActionOn(owner) return end
+function DisassembleOwnedJunkEffector:ActionOn(owner) end

@@ -5,14 +5,13 @@ HitStatPoolPrereqState = {}
 
 ---@param fields? HitStatPoolPrereqState
 ---@return HitStatPoolPrereqState
-function HitStatPoolPrereqState.new(fields) return end
+function HitStatPoolPrereqState.new(fields) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param prereq HitStatPoolPrereq
 ---@return Bool
-function HitStatPoolPrereqState:ComparePoolValues(hitEvent, prereq) return end
+function HitStatPoolPrereqState:ComparePoolValues(hitEvent, prereq) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitStatPoolPrereqState:Evaluate(hitEvent) return end
+function HitStatPoolPrereqState:Evaluate(hitEvent) end

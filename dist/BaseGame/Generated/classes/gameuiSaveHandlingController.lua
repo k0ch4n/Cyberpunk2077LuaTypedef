@@ -5,55 +5,55 @@ gameuiSaveHandlingController = {}
 
 ---@param fields? gameuiSaveHandlingController
 ---@return gameuiSaveHandlingController
-function gameuiSaveHandlingController.new(fields) return end
+function gameuiSaveHandlingController.new(fields) end
 
 ---@param saveId Int32
 ---@return nil
-function gameuiSaveHandlingController:DeleteSavedGame(saveId) return end
+function gameuiSaveHandlingController:DeleteSavedGame(saveId) end
 
 ---@return Bool
-function gameuiSaveHandlingController:IsGameSavedNotificationActive() return end
+function gameuiSaveHandlingController:IsGameSavedNotificationActive() end
 
 ---@return Bool
-function gameuiSaveHandlingController:IsSaveFailedNotificationActive() return end
+function gameuiSaveHandlingController:IsSaveFailedNotificationActive() end
 
 ---@return Bool
-function gameuiSaveHandlingController:IsTransferSavedExportSupported() return end
+function gameuiSaveHandlingController:IsTransferSavedExportSupported() end
 
 ---@return Bool
-function gameuiSaveHandlingController:IsTransferSavedImportSupported() return end
+function gameuiSaveHandlingController:IsTransferSavedImportSupported() end
 
 ---@param saveId Int32
 ---@return nil
-function gameuiSaveHandlingController:LoadModdedSave(saveId) return end
+function gameuiSaveHandlingController:LoadModdedSave(saveId) end
 
 ---@param saveId Int32
 ---@return nil
-function gameuiSaveHandlingController:LoadSaveInGame(saveId) return end
+function gameuiSaveHandlingController:LoadSaveInGame(saveId) end
 
 ---@param saveId Int32
 ---@param showXbCompatWarn? Bool
 ---@return nil
-function gameuiSaveHandlingController:OverrideSavedGame(saveId, showXbCompatWarn) return end
+function gameuiSaveHandlingController:OverrideSavedGame(saveId, showXbCompatWarn) end
 
 ---@param tweakID Uint64
 ---@return nil
-function gameuiSaveHandlingController:PreSpawnInitialLoadingScreen(tweakID) return end
+function gameuiSaveHandlingController:PreSpawnInitialLoadingScreen(tweakID) end
 
 ---@return nil
-function gameuiSaveHandlingController:RequestGameSavedNotification() return end
+function gameuiSaveHandlingController:RequestGameSavedNotification() end
 
 ---@return nil
-function gameuiSaveHandlingController:RequestSaveFailedNotification() return end
+function gameuiSaveHandlingController:RequestSaveFailedNotification() end
 
 ---@param tweakID Uint64
 ---@return nil
-function gameuiSaveHandlingController:SetNextInitialLoadingScreen(tweakID) return end
+function gameuiSaveHandlingController:SetNextInitialLoadingScreen(tweakID) end
 
 ---@param scriptableData IScriptable
 ---@return nil
-function gameuiSaveHandlingController:TransferSavedGame(scriptableData) return end
+function gameuiSaveHandlingController:TransferSavedGame(scriptableData) end
 
 ---@param locks gameSaveLock[]
 ---@return nil
-function gameuiSaveHandlingController:ShowSavingLockedNotification(locks) return end
+function gameuiSaveHandlingController:ShowSavingLockedNotification(locks) end

@@ -5,9 +5,8 @@ CrowdWalkAwayAfterCombat = {}
 
 ---@param fields? CrowdWalkAwayAfterCombat
 ---@return CrowdWalkAwayAfterCombat
-function CrowdWalkAwayAfterCombat.new(fields) return end
+function CrowdWalkAwayAfterCombat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CrowdWalkAwayAfterCombat:Deactivate(context) return end
+function CrowdWalkAwayAfterCombat:Deactivate(context) end

@@ -5,4 +5,4 @@ HeadlessGameEngine = {}
 
 ---@param fields? HeadlessGameEngine
 ---@return HeadlessGameEngine
-function HeadlessGameEngine.new(fields) return end
+function HeadlessGameEngine.new(fields) end

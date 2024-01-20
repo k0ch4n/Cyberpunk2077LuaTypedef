@@ -1,288 +1,244 @@
 ---@meta
 
 ---@class SettingsMainGameController: gameuiSettingsMenuGameController
----@field private scrollPanel inkWidgetReference
----@field private selectorWidget inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private settingsOptionsList inkCompoundWidgetReference
----@field private applyButton inkWidgetReference
----@field private resetButton inkWidgetReference
----@field private defaultButton inkWidgetReference
----@field private benchmarkButton inkWidgetReference
----@field private brightnessButton inkWidgetReference
----@field private hdrButton inkWidgetReference
----@field private controllerButton inkWidgetReference
----@field private safezonesButton inkWidgetReference
----@field private languageInstallProgressBarRoot inkWidgetReference
----@field private languageDisclaimer inkWidgetReference
----@field private descriptionText inkTextWidgetReference
----@field private settingGroupName_Video CName
----@field private settingGroupName_Graphics CName
----@field private settingGroupName_Interface CName
----@field private settingGroupName_Controls CName
----@field private settingGroupName_Language CName
----@field private settingGroupName_KeyBindings CName
----@field private languageInstallProgressBar SettingsLanguageInstallProgressBar
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private settingsElements inkSettingsSelectorController[]
----@field private buttonHintsController ButtonHints
----@field private data SettingsCategory[]
----@field private menusList CName[]
----@field private settingsListener SettingsVarListener
----@field private settingsNotificationListener SettingsNotificationListener
----@field private settings userSettingsUserSettings
----@field private isPreGame Bool
----@field private benchmarkNotificationToken inkGameNotificationToken
----@field private safezonesEditorToken inkGameNotificationToken
----@field private applyButtonEnabled Bool
----@field private resetButtonEnabled Bool
----@field private closeSettingsRequest Bool
----@field private resetSettingsRequest Bool
----@field private isDlcSettings Bool
----@field private isBenchmarkSettings Bool
----@field private showHdrButton Bool
----@field private showBrightnessButton Bool
----@field private useRightAligned Bool
----@field private currentHDRindex Int32
----@field private selectorCtrl inkListController
+---@field scrollPanel inkWidgetReference
+---@field selectorWidget inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field settingsOptionsList inkCompoundWidgetReference
+---@field applyButton inkWidgetReference
+---@field resetButton inkWidgetReference
+---@field defaultButton inkWidgetReference
+---@field benchmarkButton inkWidgetReference
+---@field brightnessButton inkWidgetReference
+---@field hdrButton inkWidgetReference
+---@field controllerButton inkWidgetReference
+---@field safezonesButton inkWidgetReference
+---@field languageInstallProgressBarRoot inkWidgetReference
+---@field languageDisclaimer inkWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field settingGroupName_Video CName
+---@field settingGroupName_Graphics CName
+---@field settingGroupName_Interface CName
+---@field settingGroupName_Controls CName
+---@field settingGroupName_Language CName
+---@field settingGroupName_KeyBindings CName
+---@field languageInstallProgressBar SettingsLanguageInstallProgressBar
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field settingsElements inkSettingsSelectorController[]
+---@field buttonHintsController ButtonHints
+---@field data SettingsCategory[]
+---@field menusList CName[]
+---@field settingsListener SettingsVarListener
+---@field settingsNotificationListener SettingsNotificationListener
+---@field settings userSettingsUserSettings
+---@field isPreGame Bool
+---@field benchmarkNotificationToken inkGameNotificationToken
+---@field safezonesEditorToken inkGameNotificationToken
+---@field applyButtonEnabled Bool
+---@field resetButtonEnabled Bool
+---@field closeSettingsRequest Bool
+---@field resetSettingsRequest Bool
+---@field isDlcSettings Bool
+---@field isBenchmarkSettings Bool
+---@field showHdrButton Bool
+---@field showBrightnessButton Bool
+---@field useRightAligned Bool
+---@field currentHDRindex Int32
+---@field selectorCtrl inkListController
 SettingsMainGameController = {}
 
 ---@param fields? SettingsMainGameController
 ---@return SettingsMainGameController
-function SettingsMainGameController.new(fields) return end
+function SettingsMainGameController.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnApplyButtonReleased(controller) return end
+function SettingsMainGameController:OnApplyButtonReleased(controller) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function SettingsMainGameController:OnBack(userData) return end
+function SettingsMainGameController:OnBack(userData) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnBenchmarkButtonReleased(controller) return end
+function SettingsMainGameController:OnBenchmarkButtonReleased(controller) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnBrightnessButtonReleased(controller) return end
+function SettingsMainGameController:OnBrightnessButtonReleased(controller) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function SettingsMainGameController:OnButtonRelease(evt) return end
+function SettingsMainGameController:OnButtonRelease(evt) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnControllerButtonReleased(controller) return end
+function SettingsMainGameController:OnControllerButtonReleased(controller) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnDefaultButtonReleased(controller) return end
+function SettingsMainGameController:OnDefaultButtonReleased(controller) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnHDRButtonReleased(controller) return end
+function SettingsMainGameController:OnHDRButtonReleased(controller) end
 
----@protected
 ---@return Bool
-function SettingsMainGameController:OnInitialize() return end
+function SettingsMainGameController:OnInitialize() end
 
----@protected
 ---@param evt inkLocalizationChangedEvent
 ---@return Bool
-function SettingsMainGameController:OnLocalizationChanged(evt) return end
+function SettingsMainGameController:OnLocalizationChanged(evt) end
 
----@protected
 ---@param index Int32
 ---@param target inkListItemController
 ---@return Bool
-function SettingsMainGameController:OnMenuChanged(index, target) return end
+function SettingsMainGameController:OnMenuChanged(index, target) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnResetButtonReleased(controller) return end
+function SettingsMainGameController:OnResetButtonReleased(controller) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function SettingsMainGameController:OnSafezonesButtonReleased(controller) return end
+function SettingsMainGameController:OnSafezonesButtonReleased(controller) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function SettingsMainGameController:OnSafezonesEditorCloseRequest(data) return end
+function SettingsMainGameController:OnSafezonesEditorCloseRequest(data) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function SettingsMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function SettingsMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function SettingsMainGameController:OnSetUserData(userData) return end
+function SettingsMainGameController:OnSetUserData(userData) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function SettingsMainGameController:OnSettingHoverOut(evt) return end
+function SettingsMainGameController:OnSettingHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function SettingsMainGameController:OnSettingHoverOver(evt) return end
+function SettingsMainGameController:OnSettingHoverOver(evt) end
 
----@protected
 ---@return Bool
-function SettingsMainGameController:OnUninitialize() return end
+function SettingsMainGameController:OnUninitialize() end
 
----@private
 ---@param settingsGroup userSettingsGroup
 ---@return nil
-function SettingsMainGameController:AddSettingsGroup(settingsGroup) return end
-
----@private
----@return nil
-function SettingsMainGameController:CheckAcceptSettings() return end
+function SettingsMainGameController:AddSettingsGroup(settingsGroup) end
 
 ---@return nil
-function SettingsMainGameController:CheckButtons() return end
-
----@private
----@return nil
-function SettingsMainGameController:CheckDualSenseSettingsVisibility() return end
-
----@private
----@return nil
-function SettingsMainGameController:CheckHDRSettingVisibility() return end
-
----@private
----@return nil
-function SettingsMainGameController:CheckRejectSettings() return end
-
----@private
----@return nil
-function SettingsMainGameController:CheckSettings() return end
+function SettingsMainGameController:CheckAcceptSettings() end
 
 ---@return nil
-function SettingsMainGameController:DisableApplyButton() return end
+function SettingsMainGameController:CheckButtons() end
 
 ---@return nil
-function SettingsMainGameController:DisableResetButton() return end
+function SettingsMainGameController:CheckDualSenseSettingsVisibility() end
 
 ---@return nil
-function SettingsMainGameController:EnableApplyButton() return end
+function SettingsMainGameController:CheckHDRSettingVisibility() end
 
 ---@return nil
-function SettingsMainGameController:EnableResetButton() return end
+function SettingsMainGameController:CheckRejectSettings() end
+
+---@return nil
+function SettingsMainGameController:CheckSettings() end
+
+---@return nil
+function SettingsMainGameController:DisableApplyButton() end
+
+---@return nil
+function SettingsMainGameController:DisableResetButton() end
+
+---@return nil
+function SettingsMainGameController:EnableApplyButton() end
+
+---@return nil
+function SettingsMainGameController:EnableResetButton() end
 
 ---@return Bool
-function SettingsMainGameController:IsApplyButtonEnabled() return end
-
----@private
----@return Bool
-function SettingsMainGameController:IsBlockedByActionWithoutAssignedKey() return end
+function SettingsMainGameController:IsApplyButtonEnabled() end
 
 ---@return Bool
-function SettingsMainGameController:IsResetButtonEnabled() return end
+function SettingsMainGameController:IsBlockedByActionWithoutAssignedKey() end
 
----@private
----@return nil
-function SettingsMainGameController:OnApplyButton() return end
+---@return Bool
+function SettingsMainGameController:IsResetButtonEnabled() end
 
----@private
 ---@return nil
-function SettingsMainGameController:OnResetButton() return end
+function SettingsMainGameController:OnApplyButton() end
+
+---@return nil
+function SettingsMainGameController:OnResetButton() end
 
 ---@param status InGameConfigNotificationType
 ---@return nil
-function SettingsMainGameController:OnSettingsNotify(status) return end
+function SettingsMainGameController:OnSettingsNotify(status) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function SettingsMainGameController:OnVarModified(groupPath, varName, varType, reason) return end
+function SettingsMainGameController:OnVarModified(groupPath, varName, varType, reason) end
 
----@private
 ---@param idx Int32
 ---@return nil
-function SettingsMainGameController:PopulateCategories(idx) return end
+function SettingsMainGameController:PopulateCategories(idx) end
 
----@private
 ---@param idx Int32
 ---@return nil
-function SettingsMainGameController:PopulateCategorySettingsOptions(idx) return end
+function SettingsMainGameController:PopulateCategorySettingsOptions(idx) end
 
----@private
 ---@return nil
-function SettingsMainGameController:PopulateHints() return end
+function SettingsMainGameController:PopulateHints() end
 
----@private
 ---@param options userSettingsVar[]
 ---@return nil
-function SettingsMainGameController:PopulateOptions(options) return end
+function SettingsMainGameController:PopulateOptions(options) end
 
----@private
 ---@return nil
-function SettingsMainGameController:PopulateSettingsData() return end
+function SettingsMainGameController:PopulateSettingsData() end
 
----@private
 ---@return nil
-function SettingsMainGameController:RequestClose() return end
+function SettingsMainGameController:RequestClose() end
 
----@private
 ---@return nil
-function SettingsMainGameController:RequestRestoreDefaults() return end
+function SettingsMainGameController:RequestRestoreDefaults() end
 
----@private
 ---@return nil
-function SettingsMainGameController:RunSafezonesEditor() return end
+function SettingsMainGameController:RunSafezonesEditor() end
 
----@private
 ---@param i Int32
 ---@return nil
-function SettingsMainGameController:SetLanguageDisclaimerVisiblity(i) return end
+function SettingsMainGameController:SetLanguageDisclaimerVisiblity(i) end
 
----@protected
 ---@param progress Float
 ---@return nil
-function SettingsMainGameController:SetLanguagePackageInstallProgress(progress) return end
+function SettingsMainGameController:SetLanguagePackageInstallProgress(progress) end
 
----@protected
 ---@param progress Float
 ---@param completed Bool
 ---@param started Bool
 ---@return nil
-function SettingsMainGameController:SetLanguagePackageInstallProgressBar(progress, completed, started) return end
+function SettingsMainGameController:SetLanguagePackageInstallProgressBar(progress, completed, started) end
 
----@private
 ---@param i Int32
 ---@return nil
-function SettingsMainGameController:SetSideButtonsVisiblity(i) return end
+function SettingsMainGameController:SetSideButtonsVisiblity(i) end
 
----@private
 ---@return nil
-function SettingsMainGameController:ShowBrightnessScreen() return end
+function SettingsMainGameController:ShowBrightnessScreen() end
 
----@private
 ---@return nil
-function SettingsMainGameController:ShowControllerScreen() return end
+function SettingsMainGameController:ShowControllerScreen() end
 
----@private
 ---@return nil
-function SettingsMainGameController:ShowHDRScreen() return end
+function SettingsMainGameController:ShowHDRScreen() end
 
----@private
 ---@return Bool
-function SettingsMainGameController:UseRightAligned() return end
+function SettingsMainGameController:UseRightAligned() end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class NewItemTooltipSettingsListener: userSettingsVarListener
----@field private ctrl NewItemTooltipCommonController
+---@field ctrl NewItemTooltipCommonController
 NewItemTooltipSettingsListener = {}
 
 ---@param fields? NewItemTooltipSettingsListener
 ---@return NewItemTooltipSettingsListener
-function NewItemTooltipSettingsListener.new(fields) return end
+function NewItemTooltipSettingsListener.new(fields) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function NewItemTooltipSettingsListener:OnVarModified(groupPath, varName, varType, reason) return end
+function NewItemTooltipSettingsListener:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@param ctrl NewItemTooltipCommonController
 ---@return nil
-function NewItemTooltipSettingsListener:RegisterController(ctrl) return end
+function NewItemTooltipSettingsListener:RegisterController(ctrl) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkStyleProperty
----@field public propertyPath CName
----@field public value Variant
+---@field propertyPath CName
+---@field value Variant
 inkStyleProperty = {}
 
 ---@param fields? inkStyleProperty
 ---@return inkStyleProperty
-function inkStyleProperty.new(fields) return end
+function inkStyleProperty.new(fields) end

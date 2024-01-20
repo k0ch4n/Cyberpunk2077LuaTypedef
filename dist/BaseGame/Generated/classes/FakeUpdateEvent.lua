@@ -5,4 +5,4 @@ FakeUpdateEvent = {}
 
 ---@param fields? FakeUpdateEvent
 ---@return FakeUpdateEvent
-function FakeUpdateEvent.new(fields) return end
+function FakeUpdateEvent.new(fields) end

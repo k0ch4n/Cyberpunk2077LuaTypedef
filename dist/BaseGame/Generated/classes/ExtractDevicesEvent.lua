@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ExtractDevicesEvent: redEvent
----@field public lazyDevices gameLazyDevice[]
----@field public devices gameDeviceComponentPS[]
----@field public eventToSendOnCompleted ProcessDevicesEvent
----@field public lastExtractedIndex Int32
+---@field lazyDevices gameLazyDevice[]
+---@field devices gameDeviceComponentPS[]
+---@field eventToSendOnCompleted ProcessDevicesEvent
+---@field lastExtractedIndex Int32
 ExtractDevicesEvent = {}
 
 ---@param fields? ExtractDevicesEvent
 ---@return ExtractDevicesEvent
-function ExtractDevicesEvent.new(fields) return end
+function ExtractDevicesEvent.new(fields) end

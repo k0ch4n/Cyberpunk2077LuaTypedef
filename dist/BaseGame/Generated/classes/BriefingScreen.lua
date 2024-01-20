@@ -1,42 +1,36 @@
 ---@meta
 
 ---@class BriefingScreen: gameuiHUDGameController
----@field public logicControllerRef inkWidgetReference
----@field protected journalManager gameJournalManager
----@field private bbOpenerEventID redCallbackObject
----@field private bbSizeEventID redCallbackObject
----@field private bbAlignmentEventID redCallbackObject
+---@field logicControllerRef inkWidgetReference
+---@field journalManager gameJournalManager
+---@field bbOpenerEventID redCallbackObject
+---@field bbSizeEventID redCallbackObject
+---@field bbAlignmentEventID redCallbackObject
 BriefingScreen = {}
 
 ---@param fields? BriefingScreen
 ---@return BriefingScreen
-function BriefingScreen.new(fields) return end
+function BriefingScreen.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BriefingScreen:OnBriefingAlignmentCalled(value) return end
+function BriefingScreen:OnBriefingAlignmentCalled(value) end
 
----@protected
 ---@param value String
 ---@return Bool
-function BriefingScreen:OnBriefingOpenerCalled(value) return end
+function BriefingScreen:OnBriefingOpenerCalled(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BriefingScreen:OnBriefingSizeCalled(value) return end
+function BriefingScreen:OnBriefingSizeCalled(value) end
 
----@protected
 ---@return Bool
-function BriefingScreen:OnInitialize() return end
+function BriefingScreen:OnInitialize() end
 
----@protected
 ---@return Bool
-function BriefingScreen:OnUninitialize() return end
+function BriefingScreen:OnUninitialize() end
 
----@private
 ---@param toFind String
 ---@param entries gameJournalEntry[]
 ---@return gameJournalEntry
-function BriefingScreen:FindEntry(toFind, entries) return end
+function BriefingScreen:FindEntry(toFind, entries) end

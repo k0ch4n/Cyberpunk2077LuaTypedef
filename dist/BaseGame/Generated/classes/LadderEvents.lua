@@ -5,130 +5,116 @@ LadderEvents = {}
 
 ---@param fields? LadderEvents
 ---@return LadderEvents
-function LadderEvents.new(fields) return end
+function LadderEvents.new(fields) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:CleanUpLadderState(stateContext, scriptInterface) return end
+function LadderEvents:CleanUpLadderState(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LadderEvents:IsPlayerLookingDirectlyAtLadder(stateContext, scriptInterface) return end
+function LadderEvents:IsPlayerLookingDirectlyAtLadder(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnEnter(stateContext, scriptInterface) return end
+function LadderEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnEnterFromChargeJump(stateContext, scriptInterface) return end
+function LadderEvents:OnEnterFromChargeJump(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnEnterFromDodgeAir(stateContext, scriptInterface) return end
+function LadderEvents:OnEnterFromDodgeAir(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnEnterFromDoubleJump(stateContext, scriptInterface) return end
+function LadderEvents:OnEnterFromDoubleJump(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnEnterFromFall(stateContext, scriptInterface) return end
+function LadderEvents:OnEnterFromFall(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnEnterFromJump(stateContext, scriptInterface) return end
+function LadderEvents:OnEnterFromJump(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnExit(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LadderEvents:OnExitToKnockdown(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LadderEvents:OnExitToLadderCrouch(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LadderEvents:OnExitToLadderJump(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LadderEvents:OnExitToLadderSlide(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LadderEvents:OnExitToLadderSprint(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LadderEvents:OnExitToStand(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LadderEvents:OnExitToStunned(stateContext, scriptInterface) return end
+function LadderEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnForcedExit(stateContext, scriptInterface) return end
+function LadderEvents:OnExitToKnockdown(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LadderEvents:OnExitToLadderCrouch(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LadderEvents:OnExitToLadderJump(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LadderEvents:OnExitToLadderSlide(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LadderEvents:OnExitToLadderSprint(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LadderEvents:OnExitToStand(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LadderEvents:OnExitToStunned(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LadderEvents:OnForcedExit(stateContext, scriptInterface) end
+
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function LadderEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param enterStyle Int32
 ---@return nil
-function LadderEvents:SendLadderEnterStyleToGraph(scriptInterface, enterStyle) return end
+function LadderEvents:SendLadderEnterStyleToGraph(scriptInterface, enterStyle) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderEvents:SetLadderEntryDuration(stateContext, scriptInterface) return end
+function LadderEvents:SetLadderEntryDuration(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LadderEvents:ShouldResetCamera(stateContext, scriptInterface) return end
+function LadderEvents:ShouldResetCamera(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param params LadderCameraParams
 ---@return nil
-function LadderEvents:UseLadderCameraParams(stateContext, scriptInterface, params) return end
+function LadderEvents:UseLadderCameraParams(stateContext, scriptInterface, params) end

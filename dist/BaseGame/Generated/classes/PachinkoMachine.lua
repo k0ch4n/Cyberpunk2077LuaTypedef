@@ -1,50 +1,42 @@
 ---@meta
 
 ---@class PachinkoMachine: ArcadeMachine
----@field protected distractionFXName CName
+---@field distractionFXName CName
 PachinkoMachine = {}
 
 ---@param fields? PachinkoMachine
 ---@return PachinkoMachine
-function PachinkoMachine.new(fields) return end
+function PachinkoMachine.new(fields) end
 
----@protected
 ---@return Bool
-function PachinkoMachine:OnGameAttached() return end
+function PachinkoMachine:OnGameAttached() end
 
----@protected
 ---@param evt QuickHackDistraction
 ---@return Bool
-function PachinkoMachine:OnQuickHackDistraction(evt) return end
+function PachinkoMachine:OnQuickHackDistraction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function PachinkoMachine:OnRequestComponents(ri) return end
+function PachinkoMachine:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function PachinkoMachine:OnTakeControl(ri) return end
+function PachinkoMachine:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function PachinkoMachine:DeterminGameplayRole() return end
+function PachinkoMachine:DeterminGameplayRole() end
 
----@protected
 ---@return PachinkoMachineController
-function PachinkoMachine:GetController() return end
+function PachinkoMachine:GetController() end
 
 ---@return PachinkoMachineControllerPS
-function PachinkoMachine:GetDevicePS() return end
+function PachinkoMachine:GetDevicePS() end
 
----@protected
 ---@return nil
-function PachinkoMachine:RefreshDeviceInteractions() return end
+function PachinkoMachine:RefreshDeviceInteractions() end
 
----@protected
 ---@return nil
-function PachinkoMachine:TurnOffScreen() return end
+function PachinkoMachine:TurnOffScreen() end
 
----@protected
 ---@return nil
-function PachinkoMachine:TurnOnScreen() return end
+function PachinkoMachine:TurnOnScreen() end

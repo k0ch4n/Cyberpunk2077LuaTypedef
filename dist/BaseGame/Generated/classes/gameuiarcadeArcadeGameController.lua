@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeGameController: gameuiWidgetGameController
----@field public minigame gameuiarcadeArcadeMinigame
----@field public defaultScreenTransitionTotalTime Float
----@field public screenTransitionWidget inkImageWidgetReference
----@field public menu inkWidgetReference
----@field public gameplay inkWidgetReference
----@field public scoreboard inkWidgetReference
+---@field minigame gameuiarcadeArcadeMinigame
+---@field defaultScreenTransitionTotalTime Float
+---@field screenTransitionWidget inkImageWidgetReference
+---@field menu inkWidgetReference
+---@field gameplay inkWidgetReference
+---@field scoreboard inkWidgetReference
 gameuiarcadeArcadeGameController = {}
 
 ---@param fields? gameuiarcadeArcadeGameController
 ---@return gameuiarcadeArcadeGameController
-function gameuiarcadeArcadeGameController.new(fields) return end
+function gameuiarcadeArcadeGameController.new(fields) end

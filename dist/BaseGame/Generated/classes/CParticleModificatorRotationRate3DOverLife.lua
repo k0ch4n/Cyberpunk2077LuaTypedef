@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleModificatorRotationRate3DOverLife: IParticleModificator
----@field public rotationRate IEvaluatorVector
+---@field rotationRate IEvaluatorVector
 CParticleModificatorRotationRate3DOverLife = {}
 
 ---@param fields? CParticleModificatorRotationRate3DOverLife
 ---@return CParticleModificatorRotationRate3DOverLife
-function CParticleModificatorRotationRate3DOverLife.new(fields) return end
+function CParticleModificatorRotationRate3DOverLife.new(fields) end

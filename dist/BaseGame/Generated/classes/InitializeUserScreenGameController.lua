@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class InitializeUserScreenGameController: gameuiMenuGameController
----@field private backgroundVideo inkVideoWidgetReference
----@field private breachingContainer inkCompoundWidgetReference
----@field private progressBar inkCompoundWidgetReference
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private requestHandler inkISystemRequestsHandler
----@field private progressBarController LoadingScreenProgressBarController
+---@field backgroundVideo inkVideoWidgetReference
+---@field breachingContainer inkCompoundWidgetReference
+---@field progressBar inkCompoundWidgetReference
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field requestHandler inkISystemRequestsHandler
+---@field progressBarController LoadingScreenProgressBarController
 InitializeUserScreenGameController = {}
 
 ---@param fields? InitializeUserScreenGameController
 ---@return InitializeUserScreenGameController
-function InitializeUserScreenGameController.new(fields) return end
+function InitializeUserScreenGameController.new(fields) end
 
----@protected
 ---@param progress Float
 ---@return Bool
-function InitializeUserScreenGameController:OnAdditionalContentDataReloadProgress(progress) return end
+function InitializeUserScreenGameController:OnAdditionalContentDataReloadProgress(progress) end
 
----@protected
 ---@return Bool
-function InitializeUserScreenGameController:OnInitialize() return end
+function InitializeUserScreenGameController:OnInitialize() end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function InitializeUserScreenGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function InitializeUserScreenGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function InitializeUserScreenGameController:OnUninitialize() return end
+function InitializeUserScreenGameController:OnUninitialize() end

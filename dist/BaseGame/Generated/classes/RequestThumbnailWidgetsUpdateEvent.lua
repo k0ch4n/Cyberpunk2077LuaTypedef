@@ -5,4 +5,4 @@ RequestThumbnailWidgetsUpdateEvent = {}
 
 ---@param fields? RequestThumbnailWidgetsUpdateEvent
 ---@return RequestThumbnailWidgetsUpdateEvent
-function RequestThumbnailWidgetsUpdateEvent.new(fields) return end
+function RequestThumbnailWidgetsUpdateEvent.new(fields) end

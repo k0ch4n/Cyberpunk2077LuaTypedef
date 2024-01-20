@@ -5,4 +5,4 @@ gameScanningPulseEvent = {}
 
 ---@param fields? gameScanningPulseEvent
 ---@return gameScanningPulseEvent
-function gameScanningPulseEvent.new(fields) return end
+function gameScanningPulseEvent.new(fields) end

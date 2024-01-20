@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsContainedInShapesPredicate: gameinteractionsIPredicateType
----@field public useCameraPosition Bool
+---@field useCameraPosition Bool
 gameinteractionsContainedInShapesPredicate = {}
 
 ---@param fields? gameinteractionsContainedInShapesPredicate
 ---@return gameinteractionsContainedInShapesPredicate
-function gameinteractionsContainedInShapesPredicate.new(fields) return end
+function gameinteractionsContainedInShapesPredicate.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class grsGatherAreaReplicatedInfo
----@field public enteredPlayerIDs netPeerID
----@field public hasActiveQuestListener Bool
----@field public enabled Bool
+---@field enteredPlayerIDs netPeerID
+---@field hasActiveQuestListener Bool
+---@field enabled Bool
 grsGatherAreaReplicatedInfo = {}
 
 ---@param fields? grsGatherAreaReplicatedInfo
 ---@return grsGatherAreaReplicatedInfo
-function grsGatherAreaReplicatedInfo.new(fields) return end
+function grsGatherAreaReplicatedInfo.new(fields) end

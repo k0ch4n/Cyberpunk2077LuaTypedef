@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineConsumableParameterWeakIScriptable: gamestateMachineActionParameterWeakIScriptable
----@field public consumed Bool
+---@field consumed Bool
 gamestateMachineConsumableParameterWeakIScriptable = {}
 
 ---@param fields? gamestateMachineConsumableParameterWeakIScriptable
 ---@return gamestateMachineConsumableParameterWeakIScriptable
-function gamestateMachineConsumableParameterWeakIScriptable.new(fields) return end
+function gamestateMachineConsumableParameterWeakIScriptable.new(fields) end

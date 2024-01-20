@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsEditorObjectIDPath
----@field public elements EditorObjectID[]
+---@field elements EditorObjectID[]
 toolsEditorObjectIDPath = {}
 
 ---@param fields? toolsEditorObjectIDPath
 ---@return toolsEditorObjectIDPath
-function toolsEditorObjectIDPath.new(fields) return end
+function toolsEditorObjectIDPath.new(fields) end

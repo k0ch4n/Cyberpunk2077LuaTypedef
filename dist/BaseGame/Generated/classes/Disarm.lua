@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class Disarm: redEvent
----@field public requester gameObject
+---@field requester gameObject
 Disarm = {}
 
 ---@param fields? Disarm
 ---@return Disarm
-function Disarm.new(fields) return end
+function Disarm.new(fields) end

@@ -5,4 +5,4 @@ DestroyWeakspotDelayedEvent = {}
 
 ---@param fields? DestroyWeakspotDelayedEvent
 ---@return DestroyWeakspotDelayedEvent
-function DestroyWeakspotDelayedEvent.new(fields) return end
+function DestroyWeakspotDelayedEvent.new(fields) end

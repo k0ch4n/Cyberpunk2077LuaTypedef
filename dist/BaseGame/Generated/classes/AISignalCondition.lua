@@ -1,65 +1,54 @@
 ---@meta
 
 ---@class AISignalCondition: AIbehaviorconditionScript
----@field public requiredFlags AISignalFlags[]
----@field public consumesSignal Bool
----@field private activated Bool
----@field protected executingSignal AIGateSignal
----@field protected executingSignalId Uint32
+---@field requiredFlags AISignalFlags[]
+---@field consumesSignal Bool
+---@field activated Bool
+---@field executingSignal AIGateSignal
+---@field executingSignalId Uint32
 AISignalCondition = {}
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISignalCondition:Activate(context) return end
+function AISignalCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AISignalCondition:Check(context) return end
+function AISignalCondition:Check(context) end
 
----@protected
 ---@param gateSignal AIGateSignal
 ---@param checkAgainst AISignalFlags
 ---@return Bool
-function AISignalCondition:CheckFlagRequirements(gateSignal, checkAgainst) return end
+function AISignalCondition:CheckFlagRequirements(gateSignal, checkAgainst) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISignalCondition:Deactivate(context) return end
+function AISignalCondition:Deactivate(context) end
 
 ---@return String
-function AISignalCondition:GetEditorSubCaption() return end
+function AISignalCondition:GetEditorSubCaption() end
 
----@protected
 ---@return Bool
-function AISignalCondition:GetSignalEvaluationOutcome() return end
+function AISignalCondition:GetSignalEvaluationOutcome() end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AISignalHandlerComponent
-function AISignalCondition:GetSignalHandler(context) return end
+function AISignalCondition:GetSignalHandler(context) end
 
----@protected
 ---@return CName
-function AISignalCondition:GetSignalName() return end
+function AISignalCondition:GetSignalName() end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gameBoolSignalTable
-function AISignalCondition:GetSignalTable(context) return end
+function AISignalCondition:GetSignalTable(context) end
 
----@protected
 ---@return Bool
-function AISignalCondition:IsActivated() return end
+function AISignalCondition:IsActivated() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AISignalCondition:KeepExecuting(context) return end
+function AISignalCondition:KeepExecuting(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AISignalCondition:StartExecuting(context) return end
+function AISignalCondition:StartExecuting(context) end

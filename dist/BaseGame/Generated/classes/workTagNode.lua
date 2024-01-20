@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workTagNode: workIEntry
----@field public tag CName
+---@field tag CName
 workTagNode = {}
 
 ---@param fields? workTagNode
 ---@return workTagNode
-function workTagNode.new(fields) return end
+function workTagNode.new(fields) end

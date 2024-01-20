@@ -1,336 +1,275 @@
 ---@meta
 
 ---@class RadialWheelController: gameuiHUDGameController
----@field private radialWeapons WeaponRadialSlot[]
----@field private inputHintController RadialSlot
----@field private activeSlotTooltip RadialSlot
----@field private activeWeaponSlotTooltip RadialSlot
----@field private statusEffects RadialSlot
----@field private pointerRef inkWidgetReference
----@field private activeSlot WeaponRadialSlot
----@field private pointer PointerController
----@field private activeIndex Int32
----@field private initialized Bool
----@field private isActive Bool
----@field private pendingRadialSlotAsyncSpawnCount Int32
----@field private consSlotCachedData gameInventoryItemData
----@field private gadgetSlotCachedData gameInventoryItemData
----@field private cyclingActionRegistered CName
----@field private registeredInputHints gameuiInputHintData[]
----@field private applyInputHint gameuiInputHintData
----@field private cycleInputHintDataLeft gameuiInputHintData
----@field private cycleInputHintDataRight gameuiInputHintData
----@field private radialMode ERadialMode
----@field private inventoryManager InventoryDataManagerV2
----@field private equipmentSystem EquipmentSystem
----@field private transactionSystem gameTransactionSystem
----@field private quickSlotBlackboard gameIBlackboard
----@field private QuickSlotBlackboardDef UI_QuickSlotsDataDef
----@field private axisInputCallbackID redCallbackObject
----@field private UISystemBB gameIBlackboard
----@field private UISystemDef UI_SystemDef
----@field private isInMenuCallbackID redCallbackObject
----@field private equipmentUIBlackboard gameIBlackboard
----@field private EquipmentBlackboardDef UI_EquipmentDef
----@field private equipmentUICallbackID redCallbackObject
+---@field radialWeapons WeaponRadialSlot[]
+---@field inputHintController RadialSlot
+---@field activeSlotTooltip RadialSlot
+---@field activeWeaponSlotTooltip RadialSlot
+---@field statusEffects RadialSlot
+---@field pointerRef inkWidgetReference
+---@field activeSlot WeaponRadialSlot
+---@field pointer PointerController
+---@field activeIndex Int32
+---@field initialized Bool
+---@field isActive Bool
+---@field pendingRadialSlotAsyncSpawnCount Int32
+---@field consSlotCachedData gameInventoryItemData
+---@field gadgetSlotCachedData gameInventoryItemData
+---@field cyclingActionRegistered CName
+---@field registeredInputHints gameuiInputHintData[]
+---@field applyInputHint gameuiInputHintData
+---@field cycleInputHintDataLeft gameuiInputHintData
+---@field cycleInputHintDataRight gameuiInputHintData
+---@field radialMode ERadialMode
+---@field inventoryManager InventoryDataManagerV2
+---@field equipmentSystem EquipmentSystem
+---@field transactionSystem gameTransactionSystem
+---@field quickSlotBlackboard gameIBlackboard
+---@field QuickSlotBlackboardDef UI_QuickSlotsDataDef
+---@field axisInputCallbackID redCallbackObject
+---@field UISystemBB gameIBlackboard
+---@field UISystemDef UI_SystemDef
+---@field isInMenuCallbackID redCallbackObject
+---@field equipmentUIBlackboard gameIBlackboard
+---@field EquipmentBlackboardDef UI_EquipmentDef
+---@field equipmentUICallbackID redCallbackObject
 RadialWheelController = {}
 
 ---@param fields? RadialWheelController
 ---@return RadialWheelController
-function RadialWheelController.new(fields) return end
+function RadialWheelController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function RadialWheelController:OnAction(action, consumer) return end
+function RadialWheelController:OnAction(action, consumer) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function RadialWheelController:OnEquipmentChanged(value) return end
+function RadialWheelController:OnEquipmentChanged(value) end
 
----@protected
 ---@param evt ForceRadialWheelRebuild
 ---@return Bool
-function RadialWheelController:OnForceRadialWheelRebuild(evt) return end
+function RadialWheelController:OnForceRadialWheelRebuild(evt) end
 
----@protected
 ---@param evt ForceRadialWheelShutdown
 ---@return Bool
-function RadialWheelController:OnForceRadialWheelShutdown(evt) return end
+function RadialWheelController:OnForceRadialWheelShutdown(evt) end
 
----@protected
 ---@return Bool
-function RadialWheelController:OnInitialize() return end
+function RadialWheelController:OnInitialize() end
 
----@protected
 ---@param param Bool
 ---@return Bool
-function RadialWheelController:OnIsInMenuChanged(param) return end
+function RadialWheelController:OnIsInMenuChanged(param) end
 
----@protected
 ---@param evt LateInit
 ---@return Bool
-function RadialWheelController:OnLateInit(evt) return end
+function RadialWheelController:OnLateInit(evt) end
 
----@protected
 ---@param evt QuickSlotButtonHoldStartEvent
 ---@return Bool
-function RadialWheelController:OnOpenWheelRequest(evt) return end
+function RadialWheelController:OnOpenWheelRequest(evt) end
 
----@protected
 ---@param v Vector4
 ---@return Bool
-function RadialWheelController:OnRadialAngleChanged(v) return end
+function RadialWheelController:OnRadialAngleChanged(v) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function RadialWheelController:OnSlotWidgetSpawned(widget, userData) return end
+function RadialWheelController:OnSlotWidgetSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function RadialWheelController:OnUninitialize() return end
+function RadialWheelController:OnUninitialize() end
 
----@private
 ---@param inputHint gameuiInputHintData
 ---@param add Bool
 ---@return nil
-function RadialWheelController:AddInputHint(inputHint, add) return end
+function RadialWheelController:AddInputHint(inputHint, add) end
 
----@private
 ---@param slot RadialSlot
 ---@return nil
-function RadialWheelController:ApplySlot(slot) return end
+function RadialWheelController:ApplySlot(slot) end
 
----@private
 ---@param slot CyclableRadialSlot
 ---@param requestType EHotkeyRequestType
 ---@return Bool
-function RadialWheelController:BindItem(slot, requestType) return end
+function RadialWheelController:BindItem(slot, requestType) end
 
----@private
 ---@return nil
-function RadialWheelController:CacheData() return end
+function RadialWheelController:CacheData() end
 
----@private
 ---@return nil
-function RadialWheelController:CacheInputHintData() return end
+function RadialWheelController:CacheInputHintData() end
 
----@private
 ---@return Bool
-function RadialWheelController:CanPlayerCycleCyberware() return end
+function RadialWheelController:CanPlayerCycleCyberware() end
 
----@private
 ---@param cyclableSlot CyclableRadialSlot
 ---@return Bool
-function RadialWheelController:CanPlayerCycleMisc(cyclableSlot) return end
+function RadialWheelController:CanPlayerCycleMisc(cyclableSlot) end
 
----@private
 ---@param slot CyclableRadialSlot
 ---@return Bool
-function RadialWheelController:CanPlayerCycleSlot(slot) return end
+function RadialWheelController:CanPlayerCycleSlot(slot) end
 
----@private
 ---@return nil
-function RadialWheelController:ClearInputHints() return end
+function RadialWheelController:ClearInputHints() end
 
----@private
 ---@param margin inkMargin
 ---@return Vector2
-function RadialWheelController:ConvertMarginToVector(margin) return end
+function RadialWheelController:ConvertMarginToVector(margin) end
 
----@private
 ---@param input Vector4
 ---@return Float
-function RadialWheelController:ConvertVectorToAngle(input) return end
+function RadialWheelController:ConvertVectorToAngle(input) end
 
----@private
 ---@param cyclableSlot CyclableRadialSlot
 ---@return nil
-function RadialWheelController:CycleCyberware(cyclableSlot) return end
+function RadialWheelController:CycleCyberware(cyclableSlot) end
 
----@private
 ---@param cyclableSlot CyclableRadialSlot
 ---@param next Bool
 ---@return nil
-function RadialWheelController:CycleHotkeys(cyclableSlot, next) return end
+function RadialWheelController:CycleHotkeys(cyclableSlot, next) end
 
----@private
 ---@param cyclableSlot CyclableRadialSlot
 ---@param actionName CName|string
 ---@return nil
-function RadialWheelController:CycleSlot(cyclableSlot, actionName) return end
+function RadialWheelController:CycleSlot(cyclableSlot, actionName) end
 
----@private
 ---@param angle Float
 ---@return WeaponRadialSlot
-function RadialWheelController:DetermineActiveSlot(angle) return end
+function RadialWheelController:DetermineActiveSlot(angle) end
 
----@private
 ---@return nil
-function RadialWheelController:DisarmPlayer() return end
+function RadialWheelController:DisarmPlayer() end
 
----@private
 ---@param slot RadialSlot
 ---@return Bool
-function RadialWheelController:DrawItem(slot) return end
+function RadialWheelController:DrawItem(slot) end
 
----@private
 ---@return gameInventoryItemData
-function RadialWheelController:GetBaseFists() return end
+function RadialWheelController:GetBaseFists() end
 
----@private
 ---@param slot RadialSlot
 ---@return InventoryItemDisplayController
-function RadialWheelController:GetController(slot) return end
+function RadialWheelController:GetController(slot) end
 
----@private
 ---@return EquipmentSystem
-function RadialWheelController:GetEquipmentSystem() return end
+function RadialWheelController:GetEquipmentSystem() end
 
----@private
 ---@param slot RadialSlot
 ---@return gameInventoryItemData
-function RadialWheelController:GetInventoryItemData(slot) return end
+function RadialWheelController:GetInventoryItemData(slot) end
 
----@private
 ---@param itemID gameItemID
 ---@return gameItemData
-function RadialWheelController:GetItemData(itemID) return end
+function RadialWheelController:GetItemData(itemID) end
 
----@private
 ---@param slot RadialSlot
 ---@return gameItemID
-function RadialWheelController:GetItemID(slot) return end
+function RadialWheelController:GetItemID(slot) end
 
----@private
 ---@return gameObject
-function RadialWheelController:GetPlayer() return end
+function RadialWheelController:GetPlayer() end
 
----@private
 ---@return gameInventoryItemData
-function RadialWheelController:GetValidCombatCyberware() return end
+function RadialWheelController:GetValidCombatCyberware() end
 
----@private
 ---@param cyclableSlot CyclableRadialSlot
 ---@return gameInventoryItemData[]
-function RadialWheelController:GetValidItemsForMiscSlot(cyclableSlot) return end
+function RadialWheelController:GetValidItemsForMiscSlot(cyclableSlot) end
 
----@private
 ---@param arr gameInventoryItemData[]
 ---@param fromIndex Int32
 ---@param searchNext Bool
 ---@return Int32
-function RadialWheelController:GetValidNeighbouringIndex(arr, fromIndex, searchNext) return end
+function RadialWheelController:GetValidNeighbouringIndex(arr, fromIndex, searchNext) end
 
----@protected
 ---@return gameItemData[]
-function RadialWheelController:GetWeapons() return end
+function RadialWheelController:GetWeapons() end
 
----@private
 ---@param data SPaperdollEquipData
 ---@return nil
-function RadialWheelController:HandleEquipmentChange(data) return end
+function RadialWheelController:HandleEquipmentChange(data) end
 
----@protected
 ---@param eqData SPaperdollEquipData
 ---@return nil
-function RadialWheelController:HandleEquipmentChangeByTask(eqData) return end
+function RadialWheelController:HandleEquipmentChangeByTask(eqData) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function RadialWheelController:HandleEquipmentChangeTask(data) return end
+function RadialWheelController:HandleEquipmentChangeTask(data) end
 
----@private
 ---@param slot WeaponRadialSlot
 ---@return Bool
-function RadialWheelController:IsGadgetOrConsumableSlot(slot) return end
+function RadialWheelController:IsGadgetOrConsumableSlot(slot) end
 
----@private
 ---@return nil
-function RadialWheelController:RefreshCyberware() return end
+function RadialWheelController:RefreshCyberware() end
 
----@private
 ---@param slot CyclableRadialSlot
 ---@return nil
-function RadialWheelController:RefreshHotkey(slot) return end
+function RadialWheelController:RefreshHotkey(slot) end
 
----@private
 ---@return nil
-function RadialWheelController:RefreshHotkeys() return end
+function RadialWheelController:RefreshHotkeys() end
 
----@private
 ---@return nil
-function RadialWheelController:RefreshSlots() return end
+function RadialWheelController:RefreshSlots() end
 
----@private
 ---@return nil
-function RadialWheelController:RefreshWeapons() return end
+function RadialWheelController:RefreshWeapons() end
 
----@protected
 ---@param shouldRegister Bool
 ---@return nil
-function RadialWheelController:RegisterBlackboards(shouldRegister) return end
+function RadialWheelController:RegisterBlackboards(shouldRegister) end
 
----@private
 ---@return nil
-function RadialWheelController:RestoreCachedSlots() return end
+function RadialWheelController:RestoreCachedSlots() end
 
----@private
 ---@param inputHint gameuiInputHintData
 ---@param show Bool
 ---@return nil
-function RadialWheelController:SendInputHintEvent(inputHint, show) return end
+function RadialWheelController:SendInputHintEvent(inputHint, show) end
 
----@private
 ---@return nil
-function RadialWheelController:SendPSMRadialCloseRequest() return end
+function RadialWheelController:SendPSMRadialCloseRequest() end
 
----@private
 ---@param newActiveSlot WeaponRadialSlot
 ---@return Bool
-function RadialWheelController:SetActiveSlot(newActiveSlot) return end
+function RadialWheelController:SetActiveSlot(newActiveSlot) end
 
----@private
 ---@param widget inkWidget
 ---@param slot RadialSlot
 ---@return nil
-function RadialWheelController:SetupWidgetForSlot(widget, slot) return end
+function RadialWheelController:SetupWidgetForSlot(widget, slot) end
 
----@private
 ---@return nil
-function RadialWheelController:Shutdown() return end
+function RadialWheelController:Shutdown() end
 
----@private
 ---@return nil
-function RadialWheelController:SpawnRadialWeapons() return end
+function RadialWheelController:SpawnRadialWeapons() end
 
----@private
 ---@param slot RadialSlot
 ---@return Bool
-function RadialWheelController:SpawnSlotWidget(slot) return end
+function RadialWheelController:SpawnSlotWidget(slot) end
 
----@private
 ---@return nil
-function RadialWheelController:UpdateActiveTooltip() return end
+function RadialWheelController:UpdateActiveTooltip() end
 
----@private
 ---@return nil
-function RadialWheelController:UpdateInputHints() return end
+function RadialWheelController:UpdateInputHints() end
 
----@private
 ---@param rawInputVector Vector4
 ---@param rawAngle Float
 ---@return nil
-function RadialWheelController:UpdatePointer(rawInputVector, rawAngle) return end
+function RadialWheelController:UpdatePointer(rawInputVector, rawAngle) end
 
 ---@return nil
-function RadialWheelController:UpdateRequired() return end
+function RadialWheelController:UpdateRequired() end
 
----@private
 ---@return nil
-function RadialWheelController:UpdateStatusEffects() return end
+function RadialWheelController:UpdateStatusEffects() end

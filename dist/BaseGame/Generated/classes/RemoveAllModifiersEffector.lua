@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class RemoveAllModifiersEffector: gameEffector
----@field public statType gamedataStatType
----@field public applicationTarget CName
----@field public target gameStatsObjectID
+---@field statType gamedataStatType
+---@field applicationTarget CName
+---@field target gameStatsObjectID
 RemoveAllModifiersEffector = {}
 
 ---@param fields? RemoveAllModifiersEffector
 ---@return RemoveAllModifiersEffector
-function RemoveAllModifiersEffector.new(fields) return end
+function RemoveAllModifiersEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RemoveAllModifiersEffector:ActionOn(owner) return end
+function RemoveAllModifiersEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function RemoveAllModifiersEffector:Initialize(record, parentRecord) return end
+function RemoveAllModifiersEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function RemoveAllModifiersEffector:ProcessEffector(owner) return end
+function RemoveAllModifiersEffector:ProcessEffector(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RemoveAllModifiersEffector:RepeatedAction(owner) return end
+function RemoveAllModifiersEffector:RepeatedAction(owner) end

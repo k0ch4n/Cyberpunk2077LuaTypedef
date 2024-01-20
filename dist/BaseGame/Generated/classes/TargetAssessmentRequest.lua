@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TargetAssessmentRequest: ScriptableDeviceAction
----@field public targetToAssess gameObject
+---@field targetToAssess gameObject
 TargetAssessmentRequest = {}
 
 ---@param fields? TargetAssessmentRequest
 ---@return TargetAssessmentRequest
-function TargetAssessmentRequest.new(fields) return end
+function TargetAssessmentRequest.new(fields) end

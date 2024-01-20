@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetCameraParamsEvent: redEvent
----@field public paramsName CName
+---@field paramsName CName
 gameSetCameraParamsEvent = {}
 
 ---@param fields? gameSetCameraParamsEvent
 ---@return gameSetCameraParamsEvent
-function gameSetCameraParamsEvent.new(fields) return end
+function gameSetCameraParamsEvent.new(fields) end

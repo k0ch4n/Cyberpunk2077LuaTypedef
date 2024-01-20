@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class inkBorderWidget: inkLeafWidget
----@field public thickness Float
+---@field thickness Float
 inkBorderWidget = {}
 
 ---@param fields? inkBorderWidget
 ---@return inkBorderWidget
-function inkBorderWidget.new(fields) return end
+function inkBorderWidget.new(fields) end
 
 ---@param thickness Float
 ---@return nil
-function inkBorderWidget:SetThickness(thickness) return end
+function inkBorderWidget:SetThickness(thickness) end

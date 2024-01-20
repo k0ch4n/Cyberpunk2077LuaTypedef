@@ -5,70 +5,70 @@ inkanimController = {}
 
 ---@param fields? inkanimController
 ---@return inkanimController
-function inkanimController.new(fields) return end
+function inkanimController.new(fields) end
 
 ---@param caller inkWidget
 ---@return inkanimController
-function inkanimController:Caller(caller) return end
+function inkanimController:Caller(caller) end
 
 ---@param other inkWidgetsSet
 ---@return inkanimController
-function inkanimController:FromSet(other) return end
+function inkanimController:FromSet(other) end
 
 ---@param index Uint32
 ---@return inkanimProxy
-function inkanimController:GetProxy(index) return end
+function inkanimController:GetProxy(index) end
 
 ---@param interpolatorName CName|string
 ---@param startValue Variant
 ---@param endValue Variant
 ---@return inkanimBuilder
-function inkanimController:Interpolate(interpolatorName, startValue, endValue) return end
+function inkanimController:Interpolate(interpolatorName, startValue, endValue) end
 
 ---@param interpolatorName CName|string
 ---@param startValue Variant
 ---@return inkanimBuilder
-function inkanimController:InterpolateFrom(interpolatorName, startValue) return end
+function inkanimController:InterpolateFrom(interpolatorName, startValue) end
 
 ---@param interpolatorName CName|string
 ---@param endValue Variant
 ---@return inkanimBuilder
-function inkanimController:InterpolateTo(interpolatorName, endValue) return end
+function inkanimController:InterpolateTo(interpolatorName, endValue) end
 
 ---@return nil
-function inkanimController:Pause() return end
+function inkanimController:Pause() end
 
 ---@return Bool
-function inkanimController:Play() return end
+function inkanimController:Play() end
 
 ---@param offset Float
 ---@return inkanimController
-function inkanimController:PlayOffset(offset) return end
+function inkanimController:PlayOffset(offset) end
 
 ---@param playbackOptions inkanimPlaybackOptions
 ---@return Bool
-function inkanimController:PlayWithOptions(playbackOptions) return end
+function inkanimController:PlayWithOptions(playbackOptions) end
 
 ---@param eventType inkanimEventType
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function inkanimController:RegisterToCallback(eventType, object, functionName) return end
+function inkanimController:RegisterToCallback(eventType, object, functionName) end
 
 ---@return nil
-function inkanimController:Resume() return end
+function inkanimController:Resume() end
 
 ---@param widget inkWidget
 ---@param selectionRule? inkSelectionRule
 ---@param param? String
 ---@return inkanimController
-function inkanimController:Select(widget, selectionRule, param) return end
+function inkanimController:Select(widget, selectionRule, param) end
 
 ---@return nil
-function inkanimController:Stop() return end
+function inkanimController:Stop() end
 
 ---@param eventType inkanimEventType
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function inkanimController:UnregisterFromCallback(eventType, object, functionName) return end
+function inkanimController:UnregisterFromCallback(eventType, object, functionName) end

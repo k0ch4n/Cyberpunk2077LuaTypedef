@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LiftStartDelayEvent: redEvent
----@field public targetFloor Int32
+---@field targetFloor Int32
 LiftStartDelayEvent = {}
 
 ---@param fields? LiftStartDelayEvent
 ---@return LiftStartDelayEvent
-function LiftStartDelayEvent.new(fields) return end
+function LiftStartDelayEvent.new(fields) end

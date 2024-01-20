@@ -5,10 +5,10 @@ gamedataVendorItem_Record = {}
 
 ---@param fields? gamedataVendorItem_Record
 ---@return gamedataVendorItem_Record
-function gamedataVendorItem_Record.new(fields) return end
+function gamedataVendorItem_Record.new(fields) end
 
 ---@return gamedataItem_Record
-function gamedataVendorItem_Record:Item() return end
+function gamedataVendorItem_Record:Item() end
 
 ---@return gamedataItem_Record
-function gamedataVendorItem_Record:ItemHandle() return end
+function gamedataVendorItem_Record:ItemHandle() end

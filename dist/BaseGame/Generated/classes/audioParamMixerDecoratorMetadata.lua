@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioParamMixerDecoratorMetadata: audioEmitterMetadata
----@field public inParams audioMixParamDescription[]
----@field public outputName CName
----@field public operation audioMixParamsAction
----@field public globalOutput Bool
+---@field inParams audioMixParamDescription[]
+---@field outputName CName
+---@field operation audioMixParamsAction
+---@field globalOutput Bool
 audioParamMixerDecoratorMetadata = {}
 
 ---@param fields? audioParamMixerDecoratorMetadata
 ---@return audioParamMixerDecoratorMetadata
-function audioParamMixerDecoratorMetadata.new(fields) return end
+function audioParamMixerDecoratorMetadata.new(fields) end

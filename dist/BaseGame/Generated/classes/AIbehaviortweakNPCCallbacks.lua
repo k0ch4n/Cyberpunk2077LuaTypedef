@@ -5,4 +5,4 @@ AIbehaviortweakNPCCallbacks = {}
 
 ---@param fields? AIbehaviortweakNPCCallbacks
 ---@return AIbehaviortweakNPCCallbacks
-function AIbehaviortweakNPCCallbacks.new(fields) return end
+function AIbehaviortweakNPCCallbacks.new(fields) end

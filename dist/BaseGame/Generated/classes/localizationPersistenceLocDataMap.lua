@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class localizationPersistenceLocDataMap: ISerializable
----@field public entries localizationPersistenceLocDataMapEntry[]
+---@field entries localizationPersistenceLocDataMapEntry[]
 localizationPersistenceLocDataMap = {}
 
 ---@param fields? localizationPersistenceLocDataMap
 ---@return localizationPersistenceLocDataMap
-function localizationPersistenceLocDataMap.new(fields) return end
+function localizationPersistenceLocDataMap.new(fields) end

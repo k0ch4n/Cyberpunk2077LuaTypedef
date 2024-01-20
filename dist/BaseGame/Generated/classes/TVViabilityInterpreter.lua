@@ -5,9 +5,9 @@ TVViabilityInterpreter = {}
 
 ---@param fields? TVViabilityInterpreter
 ---@return TVViabilityInterpreter
-function TVViabilityInterpreter.new(fields) return end
+function TVViabilityInterpreter.new(fields) end
 
 ---@param device MediaDeviceControllerPS
 ---@param hasActiveActions Bool
 ---@return Bool
-function TVViabilityInterpreter.Evaluate(device, hasActiveActions) return end
+function TVViabilityInterpreter.Evaluate(device, hasActiveActions) end

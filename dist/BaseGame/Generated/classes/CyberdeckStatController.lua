@@ -1,34 +1,32 @@
 ---@meta
 
 ---@class CyberdeckStatController: inkWidgetLogicController
----@field protected label inkTextWidgetReference
----@field protected settings userSettingsUserSettings
----@field protected settingsListener CyberdeckTooltipSettingsListener
----@field protected groupPath CName
----@field protected minWidth inkWidgetReference
----@field protected bigFontEnabled Bool
+---@field label inkTextWidgetReference
+---@field settings userSettingsUserSettings
+---@field settingsListener CyberdeckTooltipSettingsListener
+---@field groupPath CName
+---@field minWidth inkWidgetReference
+---@field bigFontEnabled Bool
 CyberdeckStatController = {}
 
 ---@param fields? CyberdeckStatController
 ---@return CyberdeckStatController
-function CyberdeckStatController.new(fields) return end
+function CyberdeckStatController.new(fields) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function CyberdeckStatController:OnVarModified(groupPath, varName, varType, reason) return end
+function CyberdeckStatController:OnVarModified(groupPath, varName, varType, reason) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function CyberdeckStatController:SetTooltipSize(value) return end
+function CyberdeckStatController:SetTooltipSize(value) end
 
 ---@param ability gameInventoryItemAbility
 ---@return nil
-function CyberdeckStatController:Setup(ability) return end
+function CyberdeckStatController:Setup(ability) end
 
----@private
 ---@return nil
-function CyberdeckStatController:UpdateTooltipSize() return end
+function CyberdeckStatController:UpdateTooltipSize() end

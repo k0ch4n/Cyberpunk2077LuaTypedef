@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamemappinsCommonVariant: gamemappinsIPointOfInterestVariant
----@field public variant gamedataMappinVariant
+---@field variant gamedataMappinVariant
 gamemappinsCommonVariant = {}
 
 ---@param fields? gamemappinsCommonVariant
 ---@return gamemappinsCommonVariant
-function gamemappinsCommonVariant.new(fields) return end
+function gamemappinsCommonVariant.new(fields) end

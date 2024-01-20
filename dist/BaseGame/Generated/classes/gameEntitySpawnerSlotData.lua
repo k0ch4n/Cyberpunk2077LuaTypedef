@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameEntitySpawnerSlotData
----@field public slotName CName
----@field public spawnableObject TweakDBID
+---@field slotName CName
+---@field spawnableObject TweakDBID
 gameEntitySpawnerSlotData = {}
 
 ---@param fields? gameEntitySpawnerSlotData
 ---@return gameEntitySpawnerSlotData
-function gameEntitySpawnerSlotData.new(fields) return end
+function gameEntitySpawnerSlotData.new(fields) end

@@ -5,4 +5,4 @@ gameuiSpawnNewFeedEvent = {}
 
 ---@param fields? gameuiSpawnNewFeedEvent
 ---@return gameuiSpawnNewFeedEvent
-function gameuiSpawnNewFeedEvent.new(fields) return end
+function gameuiSpawnNewFeedEvent.new(fields) end

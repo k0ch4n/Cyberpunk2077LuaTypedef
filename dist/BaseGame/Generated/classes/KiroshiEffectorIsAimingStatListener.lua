@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class KiroshiEffectorIsAimingStatListener: gameScriptStatsListener
----@field public effector KiroshiHighlightEffector
+---@field effector KiroshiHighlightEffector
 KiroshiEffectorIsAimingStatListener = {}
 
 ---@param fields? KiroshiEffectorIsAimingStatListener
 ---@return KiroshiEffectorIsAimingStatListener
-function KiroshiEffectorIsAimingStatListener.new(fields) return end
+function KiroshiEffectorIsAimingStatListener.new(fields) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function KiroshiEffectorIsAimingStatListener:OnStatChanged(ownerID, statType, diff, total) return end
+function KiroshiEffectorIsAimingStatListener:OnStatChanged(ownerID, statType, diff, total) end

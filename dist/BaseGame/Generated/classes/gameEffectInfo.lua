@@ -5,16 +5,16 @@ gameEffectInfo = {}
 
 ---@param fields? gameEffectInfo
 ---@return gameEffectInfo
-function gameEffectInfo.new(fields) return end
+function gameEffectInfo.new(fields) end
 
 ---@param info gameEffectInfo
 ---@return Int32
-function gameEffectInfo.GetFilteredCount(info) return end
+function gameEffectInfo.GetFilteredCount(info) end
 
 ---@param info gameEffectInfo
 ---@return Int32
-function gameEffectInfo.GetGatheredCount(info) return end
+function gameEffectInfo.GetGatheredCount(info) end
 
 ---@param info gameEffectInfo
 ---@return Int32
-function gameEffectInfo.GetProcessedCount(info) return end
+function gameEffectInfo.GetProcessedCount(info) end

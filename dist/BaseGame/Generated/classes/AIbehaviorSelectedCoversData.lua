@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorSelectedCoversData: IScriptable
----@field public selectedCovers Uint64[]
----@field public coverRingTypes gamedataAIRingType[]
----@field public coversUseLOS Bool[]
----@field public sourcePresetName CName[]
+---@field selectedCovers Uint64[]
+---@field coverRingTypes gamedataAIRingType[]
+---@field coversUseLOS Bool[]
+---@field sourcePresetName CName[]
 AIbehaviorSelectedCoversData = {}
 
 ---@param fields? AIbehaviorSelectedCoversData
 ---@return AIbehaviorSelectedCoversData
-function AIbehaviorSelectedCoversData.new(fields) return end
+function AIbehaviorSelectedCoversData.new(fields) end

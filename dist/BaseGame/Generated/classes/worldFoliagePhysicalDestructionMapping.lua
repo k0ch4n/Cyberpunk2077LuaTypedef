@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldFoliagePhysicalDestructionMapping: worldFoliageDestructionMapping
----@field public audioMetadata CName
----@field public destructionParams physicsDestructionParams
----@field public destructionLevelData physicsDestructionLevelData[]
+---@field audioMetadata CName
+---@field destructionParams physicsDestructionParams
+---@field destructionLevelData physicsDestructionLevelData[]
 worldFoliagePhysicalDestructionMapping = {}
 
 ---@param fields? worldFoliagePhysicalDestructionMapping
 ---@return worldFoliagePhysicalDestructionMapping
-function worldFoliagePhysicalDestructionMapping.new(fields) return end
+function worldFoliagePhysicalDestructionMapping.new(fields) end

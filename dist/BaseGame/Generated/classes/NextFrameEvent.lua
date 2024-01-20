@@ -5,4 +5,4 @@ NextFrameEvent = {}
 
 ---@param fields? NextFrameEvent
 ---@return NextFrameEvent
-function NextFrameEvent.new(fields) return end
+function NextFrameEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TerminalSystemCustomData: WidgetCustomData
----@field public connectedDevices Int32
+---@field connectedDevices Int32
 TerminalSystemCustomData = {}
 
 ---@param fields? TerminalSystemCustomData
 ---@return TerminalSystemCustomData
-function TerminalSystemCustomData.new(fields) return end
+function TerminalSystemCustomData.new(fields) end

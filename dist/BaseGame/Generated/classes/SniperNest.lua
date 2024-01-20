@@ -1,227 +1,187 @@
 ---@meta
 
 ---@class SniperNest: SensorDevice
----@field private animFeature AnimFeature_SecurityTurretData
----@field private animFeatureName CName
----@field protected weapon gameweaponObject
----@field protected itemID gameItemID
----@field private teleportAfterEnter NodeRef
----@field private burstDelayEvtID gameDelayID
----@field private isBurstDelayOngoing Bool
----@field private nextShootCycleDelayEvtID gameDelayID
----@field private isShootingOngoing Bool
----@field private timeToNextShot Float
----@field private player PlayerPuppet
----@field private targetZoom Float
----@field private startZoom Float
----@field private zoomLerpTimeStamp Float
----@field private zoomLerpDuration Float
+---@field animFeature AnimFeature_SecurityTurretData
+---@field animFeatureName CName
+---@field weapon gameweaponObject
+---@field itemID gameItemID
+---@field teleportAfterEnter NodeRef
+---@field burstDelayEvtID gameDelayID
+---@field isBurstDelayOngoing Bool
+---@field nextShootCycleDelayEvtID gameDelayID
+---@field isShootingOngoing Bool
+---@field timeToNextShot Float
+---@field player PlayerPuppet
+---@field targetZoom Float
+---@field startZoom Float
+---@field zoomLerpTimeStamp Float
+---@field zoomLerpDuration Float
 SniperNest = {}
 
 ---@param fields? SniperNest
 ---@return SniperNest
-function SniperNest.new(fields) return end
+function SniperNest.new(fields) end
 
 ---@param isVisible Bool
 ---@return nil
-function SniperNest.CreateInputHint(isVisible) return end
+function SniperNest.CreateInputHint(isVisible) end
 
----@protected
 ---@param evt gameeventsDamageReceivedEvent
 ---@return Bool
-function SniperNest:OnDamageReceived(evt) return end
+function SniperNest:OnDamageReceived(evt) end
 
----@protected
 ---@return Bool
-function SniperNest:OnDetach() return end
+function SniperNest:OnDetach() end
 
----@protected
 ---@return Bool
-function SniperNest:OnGameAttached() return end
+function SniperNest:OnGameAttached() end
 
----@protected
 ---@param evt GrabReferenceToWeaponEvent
 ---@return Bool
-function SniperNest:OnGrabReferenceToWeaponEvent(evt) return end
+function SniperNest:OnGrabReferenceToWeaponEvent(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function SniperNest:OnHit(evt) return end
+function SniperNest:OnHit(evt) end
 
----@protected
 ---@param evt QuestEjectPlayer
 ---@return Bool
-function SniperNest:OnQuestEjectPlayer(evt) return end
+function SniperNest:OnQuestEjectPlayer(evt) end
 
----@protected
 ---@param evt QuestEnterNoAnimation
 ---@return Bool
-function SniperNest:OnQuestEnterNoAnimation(evt) return end
+function SniperNest:OnQuestEnterNoAnimation(evt) end
 
----@protected
 ---@param evt QuestEnterPlayer
 ---@return Bool
-function SniperNest:OnQuestEnterPlayer(evt) return end
+function SniperNest:OnQuestEnterPlayer(evt) end
 
----@protected
 ---@param evt QuestExitNoAnimation
 ---@return Bool
-function SniperNest:OnQuestExitNoAnimation(evt) return end
+function SniperNest:OnQuestExitNoAnimation(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SniperNest:OnRequestComponents(ri) return end
+function SniperNest:OnRequestComponents(ri) end
 
----@protected
 ---@param evt TCSTakeOverControlActivate
 ---@return Bool
-function SniperNest:OnTCSTakeOverControlActivate(evt) return end
+function SniperNest:OnTCSTakeOverControlActivate(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlDeactivate
 ---@return Bool
-function SniperNest:OnTCSTakeOverControlDeactivate(evt) return end
+function SniperNest:OnTCSTakeOverControlDeactivate(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SniperNest:OnTakeControl(ri) return end
+function SniperNest:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleTakeOverControl
 ---@return Bool
-function SniperNest:OnToggleTakeOverControl(evt) return end
+function SniperNest:OnToggleTakeOverControl(evt) end
 
----@protected
 ---@param evt TurretShootingIntervalEvent
 ---@return Bool
-function SniperNest:OnTurretShootingIntervalEvent(evt) return end
+function SniperNest:OnTurretShootingIntervalEvent(evt) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function SniperNest:OnWorkspotFinished(componentName) return end
+function SniperNest:OnWorkspotFinished(componentName) end
 
----@private
 ---@return nil
-function SniperNest:AddHeadshotModifier() return end
+function SniperNest:AddHeadshotModifier() end
 
----@private
 ---@return nil
-function SniperNest:ApplyShootingInterval() return end
+function SniperNest:ApplyShootingInterval() end
 
----@private
 ---@param blocked Bool
 ---@return nil
-function SniperNest:BlockSniperNestFunctionalities(blocked) return end
+function SniperNest:BlockSniperNestFunctionalities(blocked) end
 
 ---@param isPressed Bool
 ---@return nil
-function SniperNest:ControlledDeviceInputAction(isPressed) return end
+function SniperNest:ControlledDeviceInputAction(isPressed) end
 
 ---@return EGameplayRole
-function SniperNest:DeterminGameplayRole() return end
+function SniperNest:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function SniperNest:DeviceUpdate() return end
+function SniperNest:DeviceUpdate() end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@return nil
-function SniperNest:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
+function SniperNest:EnterWorkspot(activator, freeCamera, componentName, deviceData) end
 
----@private
 ---@return SniperNestController
-function SniperNest:GetController() return end
+function SniperNest:GetController() end
 
 ---@return SniperNestControllerPS
-function SniperNest:GetDevicePS() return end
+function SniperNest:GetDevicePS() end
 
----@protected
 ---@return Float
-function SniperNest:GetFirerate() return end
+function SniperNest:GetFirerate() end
 
----@protected
 ---@return String
-function SniperNest:GetScannerName() return end
+function SniperNest:GetScannerName() end
 
----@protected
 ---@return gameweaponObject
-function SniperNest:GetWeapon() return end
+function SniperNest:GetWeapon() end
 
----@private
 ---@return nil
-function SniperNest:GiveSniperRifleToThePlayer() return end
+function SniperNest:GiveSniperRifleToThePlayer() end
 
----@protected
 ---@return nil
-function SniperNest:GiveWeaponToTurret() return end
+function SniperNest:GiveWeaponToTurret() end
 
----@protected
 ---@return nil
-function SniperNest:GrabReferenceToWeapon() return end
+function SniperNest:GrabReferenceToWeapon() end
 
----@protected
 ---@param value Float
 ---@return nil
-function SniperNest:HandlePlayerStateMachineZoom(value) return end
+function SniperNest:HandlePlayerStateMachineZoom(value) end
 
----@private
 ---@return nil
-function SniperNest:LeaveSniperNest() return end
+function SniperNest:LeaveSniperNest() end
 
----@protected
 ---@return nil
-function SniperNest:PushPersistentData() return end
+function SniperNest:PushPersistentData() end
 
----@private
 ---@param delay Float
 ---@return nil
-function SniperNest:QueueNextShot(delay) return end
+function SniperNest:QueueNextShot(delay) end
 
----@private
 ---@return nil
-function SniperNest:RemoveHeadshotModifier() return end
+function SniperNest:RemoveHeadshotModifier() end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param weaponOwner gameObject
 ---@param forceReselection? Bool
 ---@return nil
-function SniperNest:SelectShootingPattern(weapon, weaponOwner, forceReselection) return end
+function SniperNest:SelectShootingPattern(weapon, weaponOwner, forceReselection) end
 
----@private
 ---@param value Float
 ---@return nil
-function SniperNest:SetFirerate(value) return end
+function SniperNest:SetFirerate(value) end
 
----@private
 ---@return nil
-function SniperNest:SetUpSniperNestOnEnter() return end
+function SniperNest:SetUpSniperNestOnEnter() end
 
----@private
 ---@param shootStart? Bool
 ---@return nil
-function SniperNest:ShootAttachedWeapon(shootStart) return end
+function SniperNest:ShootAttachedWeapon(shootStart) end
 
----@private
 ---@return nil
-function SniperNest:ShootStart() return end
+function SniperNest:ShootStart() end
 
----@private
 ---@return nil
-function SniperNest:ShootStop() return end
+function SniperNest:ShootStop() end
 
 ---@return Bool
-function SniperNest:ShouldShowDamageNumber() return end
+function SniperNest:ShouldShowDamageNumber() end
 
----@private
 ---@param activator gameObject
 ---@return nil
-function SniperNest:TeleportToNode(activator) return end
+function SniperNest:TeleportToNode(activator) end

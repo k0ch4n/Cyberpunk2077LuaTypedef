@@ -5,4 +5,4 @@ effectMaterialParameterPlayData = {}
 
 ---@param fields? effectMaterialParameterPlayData
 ---@return effectMaterialParameterPlayData
-function effectMaterialParameterPlayData.new(fields) return end
+function effectMaterialParameterPlayData.new(fields) end

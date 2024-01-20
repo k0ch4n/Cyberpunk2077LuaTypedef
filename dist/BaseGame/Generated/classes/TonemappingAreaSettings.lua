@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TonemappingAreaSettings: IAreaSettings
----@field public mode ITonemappingMode
----@field public hdrMode ITonemappingMode
+---@field mode ITonemappingMode
+---@field hdrMode ITonemappingMode
 TonemappingAreaSettings = {}
 
 ---@param fields? TonemappingAreaSettings
 ---@return TonemappingAreaSettings
-function TonemappingAreaSettings.new(fields) return end
+function TonemappingAreaSettings.new(fields) end

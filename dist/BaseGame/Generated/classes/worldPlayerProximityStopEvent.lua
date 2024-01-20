@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldPlayerProximityStopEvent: redEvent
----@field public profile CName
+---@field profile CName
 worldPlayerProximityStopEvent = {}
 
 ---@param fields? worldPlayerProximityStopEvent
 ---@return worldPlayerProximityStopEvent
-function worldPlayerProximityStopEvent.new(fields) return end
+function worldPlayerProximityStopEvent.new(fields) end

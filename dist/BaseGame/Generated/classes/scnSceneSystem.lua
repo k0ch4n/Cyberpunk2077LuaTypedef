@@ -5,4 +5,4 @@ scnSceneSystem = {}
 
 ---@param fields? scnSceneSystem
 ---@return scnSceneSystem
-function scnSceneSystem.new(fields) return end
+function scnSceneSystem.new(fields) end

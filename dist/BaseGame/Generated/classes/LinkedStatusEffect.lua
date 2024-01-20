@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class LinkedStatusEffect
----@field public netrunnerIDs entEntityID[]
----@field public targetID entEntityID
----@field public statusEffectList TweakDBID[]
+---@field netrunnerIDs entEntityID[]
+---@field targetID entEntityID
+---@field statusEffectList TweakDBID[]
 LinkedStatusEffect = {}
 
 ---@param fields? LinkedStatusEffect
 ---@return LinkedStatusEffect
-function LinkedStatusEffect.new(fields) return end
+function LinkedStatusEffect.new(fields) end

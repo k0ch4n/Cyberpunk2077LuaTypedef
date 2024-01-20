@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TestBehaviorDelegateTask: AIbehaviortaskScript
----@field public attrRef AIbehaviorDelegateAttrRef
----@field public taskRef AIbehaviorDelegateTaskRef
+---@field attrRef AIbehaviorDelegateAttrRef
+---@field taskRef AIbehaviorDelegateTaskRef
 TestBehaviorDelegateTask = {}
 
 ---@param fields? TestBehaviorDelegateTask
 ---@return TestBehaviorDelegateTask
-function TestBehaviorDelegateTask.new(fields) return end
+function TestBehaviorDelegateTask.new(fields) end

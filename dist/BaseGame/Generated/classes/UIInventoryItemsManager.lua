@@ -1,242 +1,240 @@
 ---@meta
 
 ---@class UIInventoryItemsManager: IScriptable
----@field private iconsNameResolver gameuiIconsNameResolver
----@field private useMaleIcons Bool
----@field private ammoTypeCache inkScriptIntHashMap
----@field private statsMapCache inkScriptWeakHashMap
----@field private statsPropertiesCache inkScriptHashMap
----@field private player PlayerPuppet
----@field private transactionSystem gameTransactionSystem
----@field private statsDataSystem gameStatsDataSystem
----@field private uiScriptableSystem UIScriptableSystem
----@field private inventoryManager gameInventoryManager
----@field private equippedItemsFetched Bool
----@field private equippedItems gameItemID[]
----@field private transmogItemsFetched Bool
----@field private transmogItems gameItemID[]
----@field private maxStatValuesData WeaponMaxStatValueData[]
----@field private notSellableTags CName[]
----@field private TEMP_cuverBarsEnabled Bool
----@field private TEMP_separatorBarsEnabled Bool
+---@field iconsNameResolver gameuiIconsNameResolver
+---@field useMaleIcons Bool
+---@field ammoTypeCache inkScriptIntHashMap
+---@field statsMapCache inkScriptWeakHashMap
+---@field statsPropertiesCache inkScriptHashMap
+---@field player PlayerPuppet
+---@field transactionSystem gameTransactionSystem
+---@field statsDataSystem gameStatsDataSystem
+---@field uiScriptableSystem UIScriptableSystem
+---@field inventoryManager gameInventoryManager
+---@field equippedItemsFetched Bool
+---@field equippedItems gameItemID[]
+---@field transmogItemsFetched Bool
+---@field transmogItems gameItemID[]
+---@field maxStatValuesData WeaponMaxStatValueData[]
+---@field notSellableTags CName[]
+---@field TEMP_cuverBarsEnabled Bool
+---@field TEMP_separatorBarsEnabled Bool
 UIInventoryItemsManager = {}
 
 ---@param fields? UIInventoryItemsManager
 ---@return UIInventoryItemsManager
-function UIInventoryItemsManager.new(fields) return end
+function UIInventoryItemsManager.new(fields) end
 
 ---@param itemRecord gamedataItem_Record
 ---@param force? Bool
 ---@param manager UIInventoryItemsManager
 ---@return Int32
-function UIInventoryItemsManager.GetAmmo(itemRecord, force, manager) return end
+function UIInventoryItemsManager.GetAmmo(itemRecord, force, manager) end
 
 ---@return CName[]
-function UIInventoryItemsManager.GetBlacklistedTags() return end
+function UIInventoryItemsManager.GetBlacklistedTags() end
 
 ---@return gamedataEquipmentArea[]
-function UIInventoryItemsManager.GetCyberwarEquipmentAreas() return end
+function UIInventoryItemsManager.GetCyberwarEquipmentAreas() end
 
 ---@param itemType gamedataItemType
 ---@return WeaponType
-function UIInventoryItemsManager.GetItemTypeWeapon(itemType) return end
+function UIInventoryItemsManager.GetItemTypeWeapon(itemType) end
 
 ---@return CName[]
-function UIInventoryItemsManager.GetStashBlacklistedTags() return end
+function UIInventoryItemsManager.GetStashBlacklistedTags() end
 
 ---@param statType gamedataStatType
 ---@param roundValue Bool
 ---@param manager? UIInventoryItemsManager
 ---@return UIItemStatProperties
-function UIInventoryItemsManager.GetUIStatProperties(statType, roundValue, manager) return end
+function UIInventoryItemsManager.GetUIStatProperties(statType, roundValue, manager) end
 
 ---@param statType gamedataStatType
 ---@param manager? UIInventoryItemsManager
 ---@return UIItemStatProperties
-function UIInventoryItemsManager.GetUIStatProperties(statType, manager) return end
+function UIInventoryItemsManager.GetUIStatProperties(statType, manager) end
 
 ---@param itemType gamedataItemType
 ---@param manager? UIInventoryItemsManager
 ---@return gamedataUIStatsMap_Record
-function UIInventoryItemsManager.GetUIStatsMap(itemType, manager) return end
+function UIInventoryItemsManager.GetUIStatsMap(itemType, manager) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.IsItemTypeCloting(itemType) return end
+function UIInventoryItemsManager.IsItemTypeCloting(itemType) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.IsItemTypeCyberware(itemType) return end
+function UIInventoryItemsManager.IsItemTypeCyberware(itemType) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.IsItemTypeCyberwareWeapon(itemType) return end
+function UIInventoryItemsManager.IsItemTypeCyberwareWeapon(itemType) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.IsItemTypeGrenade(itemType) return end
+function UIInventoryItemsManager.IsItemTypeGrenade(itemType) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.IsItemTypeMeleeWeapon(itemType) return end
+function UIInventoryItemsManager.IsItemTypeMeleeWeapon(itemType) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.IsItemTypeRangedWeapon(itemType) return end
+function UIInventoryItemsManager.IsItemTypeRangedWeapon(itemType) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.IsItemTypeWeapon(itemType) return end
+function UIInventoryItemsManager.IsItemTypeWeapon(itemType) end
 
 ---@param itemData gameItemData
 ---@return Bool
-function UIInventoryItemsManager.IsSellableStatic(itemData) return end
+function UIInventoryItemsManager.IsSellableStatic(itemData) end
 
 ---@param itemData gameItemData
 ---@param filterTags CName[]|string[]
 ---@return Bool
-function UIInventoryItemsManager.IsSellableStatic(itemData, filterTags) return end
+function UIInventoryItemsManager.IsSellableStatic(itemData, filterTags) end
 
 ---@param player PlayerPuppet
 ---@param transactionSystem gameTransactionSystem
 ---@param uiScriptableSystem UIScriptableSystem
 ---@return UIInventoryItemsManager
-function UIInventoryItemsManager.Make(player, transactionSystem, uiScriptableSystem) return end
+function UIInventoryItemsManager.Make(player, transactionSystem, uiScriptableSystem) end
 
 ---@param quality Int32
 ---@return gamedataQuality
-function UIInventoryItemsManager.QualityFromInt(quality) return end
+function UIInventoryItemsManager.QualityFromInt(quality) end
 
 ---@param quality gamedataQuality
 ---@return Int32
-function UIInventoryItemsManager.QualityToInt(quality) return end
+function UIInventoryItemsManager.QualityToInt(quality) end
 
 ---@param quality gamedataQuality
 ---@return CName
-function UIInventoryItemsManager.QualityToName(quality) return end
+function UIInventoryItemsManager.QualityToName(quality) end
 
 ---@param itemTweakID TweakDBID|string
 ---@param itemRecord gamedataItem_Record
 ---@param manager UIInventoryItemsManager
 ---@return String
-function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, manager) return end
+function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, manager) end
 
 ---@param itemTweakID TweakDBID|string
 ---@param itemRecord gamedataItem_Record
 ---@param useMaleIcon Bool
 ---@return String
-function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, useMaleIcon) return end
+function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, useMaleIcon) end
 
 ---@param itemTweakID TweakDBID|string
 ---@param itemRecord gamedataItem_Record
 ---@param player PlayerPuppet
 ---@return String
-function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, player) return end
+function UIInventoryItemsManager.ResolveItemIconName(itemTweakID, itemRecord, player) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function UIInventoryItemsManager.ShouldHideTier(itemType) return end
+function UIInventoryItemsManager.ShouldHideTier(itemType) end
 
----@private
 ---@param itemID gameItemID
 ---@return nil
-function UIInventoryItemsManager:AddTransmogIfNotEmpty(itemID) return end
+function UIInventoryItemsManager:AddTransmogIfNotEmpty(itemID) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function UIInventoryItemsManager:AttachPlayer(player) return end
+function UIInventoryItemsManager:AttachPlayer(player) end
 
 ---@return nil
-function UIInventoryItemsManager:FlushAmmoCache() return end
+function UIInventoryItemsManager:FlushAmmoCache() end
 
 ---@return nil
-function UIInventoryItemsManager:FlushEquippedItems() return end
+function UIInventoryItemsManager:FlushEquippedItems() end
 
 ---@return nil
-function UIInventoryItemsManager:FlushStatMaps() return end
+function UIInventoryItemsManager:FlushStatMaps() end
 
 ---@return nil
-function UIInventoryItemsManager:FlushTransmogItems() return end
+function UIInventoryItemsManager:FlushTransmogItems() end
 
 ---@return PlayerPuppet
-function UIInventoryItemsManager:GetAttachedPlayer() return end
+function UIInventoryItemsManager:GetAttachedPlayer() end
 
 ---@return gameItemID[]
-function UIInventoryItemsManager:GetCachedEquippedItems() return end
+function UIInventoryItemsManager:GetCachedEquippedItems() end
 
 ---@return gameItemID[]
-function UIInventoryItemsManager:GetCachedTransmogItems() return end
+function UIInventoryItemsManager:GetCachedTransmogItems() end
 
 ---@param statType gamedataStatType
 ---@param roundValue Bool
 ---@return UIItemStatProperties
-function UIInventoryItemsManager:GetCachedUIStatProperties(statType, roundValue) return end
+function UIInventoryItemsManager:GetCachedUIStatProperties(statType, roundValue) end
 
 ---@param statType gamedataStatType
 ---@return UIItemStatProperties
-function UIInventoryItemsManager:GetCachedUIStatProperties(statType) return end
+function UIInventoryItemsManager:GetCachedUIStatProperties(statType) end
 
 ---@return Bool
-function UIInventoryItemsManager:GetCurveBarsEnabled() return end
+function UIInventoryItemsManager:GetCurveBarsEnabled() end
 
 ---@return gameInventoryManager
-function UIInventoryItemsManager:GetInventoryManager() return end
+function UIInventoryItemsManager:GetInventoryManager() end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Int32
-function UIInventoryItemsManager:GetNumberOfSlots(equipmentArea) return end
+function UIInventoryItemsManager:GetNumberOfSlots(equipmentArea) end
 
 ---@return Float
-function UIInventoryItemsManager:GetPlayerBufferSize() return end
+function UIInventoryItemsManager:GetPlayerBufferSize() end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return gameItemID[]
-function UIInventoryItemsManager:GetRawEquippedItems(equipmentArea) return end
+function UIInventoryItemsManager:GetRawEquippedItems(equipmentArea) end
 
 ---@return Bool
-function UIInventoryItemsManager:GetSeparatorBarsEnabled() return end
+function UIInventoryItemsManager:GetSeparatorBarsEnabled() end
 
 ---@param set CName|string
 ---@param curve CName|string
 ---@param value Float
 ---@return Float
-function UIInventoryItemsManager:GetStatsSystemValueFromCurve(set, curve, value) return end
+function UIInventoryItemsManager:GetStatsSystemValueFromCurve(set, curve, value) end
 
 ---@return gameTransactionSystem
-function UIInventoryItemsManager:GetTransactionSystem() return end
+function UIInventoryItemsManager:GetTransactionSystem() end
 
 ---@param stat gamedataStatType
 ---@return Float
-function UIInventoryItemsManager:GetWeaponStatMaxValue(stat) return end
+function UIInventoryItemsManager:GetWeaponStatMaxValue(stat) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function UIInventoryItemsManager:IsItemEquipped(itemID) return end
+function UIInventoryItemsManager:IsItemEquipped(itemID) end
 
 ---@param item gameItemID
 ---@return Bool
-function UIInventoryItemsManager:IsItemNew(item) return end
+function UIInventoryItemsManager:IsItemNew(item) end
 
 ---@param item gameItemID
 ---@return Bool
-function UIInventoryItemsManager:IsItemPlayerFavourite(item) return end
+function UIInventoryItemsManager:IsItemPlayerFavourite(item) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function UIInventoryItemsManager:IsItemTransmog(itemID) return end
+function UIInventoryItemsManager:IsItemTransmog(itemID) end
 
 ---@param itemData gameItemData
 ---@return Bool
-function UIInventoryItemsManager:IsSellable(itemData) return end
+function UIInventoryItemsManager:IsSellable(itemData) end
 
----@private
 ---@return nil
-function UIInventoryItemsManager:PopulatemaxStatValues() return end
-
----@param value Bool
----@return nil
-function UIInventoryItemsManager:SetCuverBarsEnabled(value) return end
+function UIInventoryItemsManager:PopulatemaxStatValues() end
 
 ---@param value Bool
 ---@return nil
-function UIInventoryItemsManager:SetSeparatorBarsEnabled(value) return end
+function UIInventoryItemsManager:SetCuverBarsEnabled(value) end
+
+---@param value Bool
+---@return nil
+function UIInventoryItemsManager:SetSeparatorBarsEnabled(value) end

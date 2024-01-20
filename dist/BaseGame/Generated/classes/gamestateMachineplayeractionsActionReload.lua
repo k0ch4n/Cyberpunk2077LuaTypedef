@@ -5,4 +5,4 @@ gamestateMachineplayeractionsActionReload = {}
 
 ---@param fields? gamestateMachineplayeractionsActionReload
 ---@return gamestateMachineplayeractionsActionReload
-function gamestateMachineplayeractionsActionReload.new(fields) return end
+function gamestateMachineplayeractionsActionReload.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldInteriorAreaNotifier: worldITriggerAreaNotifer
----@field public gameRestrictionIDs TweakDBID[]
----@field public treatAsInterior Bool
----@field public setTier2 Bool
+---@field gameRestrictionIDs TweakDBID[]
+---@field treatAsInterior Bool
+---@field setTier2 Bool
 worldInteriorAreaNotifier = {}
 
 ---@param fields? worldInteriorAreaNotifier
 ---@return worldInteriorAreaNotifier
-function worldInteriorAreaNotifier.new(fields) return end
+function worldInteriorAreaNotifier.new(fields) end

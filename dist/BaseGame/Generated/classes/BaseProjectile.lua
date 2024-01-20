@@ -1,87 +1,73 @@
 ---@meta
 
 ---@class BaseProjectile: gameItemObject
----@field protected projectileComponent gameprojectileComponent
----@field protected user gameObject
----@field protected projectile gameObject
----@field protected projectileSpawnPoint Vector4
----@field protected projectilePosition Vector4
----@field protected initialLaunchVelocity Float
----@field protected lifeTime Float
----@field public tweakDBPath String
+---@field projectileComponent gameprojectileComponent
+---@field user gameObject
+---@field projectile gameObject
+---@field projectileSpawnPoint Vector4
+---@field projectilePosition Vector4
+---@field initialLaunchVelocity Float
+---@field lifeTime Float
+---@field tweakDBPath String
 BaseProjectile = {}
 
 ---@param fields? BaseProjectile
 ---@return BaseProjectile
-function BaseProjectile.new(fields) return end
+function BaseProjectile.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function BaseProjectile:OnCollision(eventData) return end
+function BaseProjectile:OnCollision(eventData) end
 
----@protected
 ---@param evt ProjectileDelayEvent
 ---@return Bool
-function BaseProjectile:OnMaxLifetimeReached(evt) return end
+function BaseProjectile:OnMaxLifetimeReached(evt) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function BaseProjectile:OnProjectileInitialize(eventData) return end
+function BaseProjectile:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function BaseProjectile:OnRequestComponents(ri) return end
+function BaseProjectile:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function BaseProjectile:OnShoot(eventData) return end
+function BaseProjectile:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function BaseProjectile:OnShootTarget(eventData) return end
+function BaseProjectile:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BaseProjectile:OnTakeControl(ri) return end
+function BaseProjectile:OnTakeControl(ri) end
 
----@protected
 ---@param evt ProjectileTickEvent
 ---@return Bool
-function BaseProjectile:OnUpdate(evt) return end
+function BaseProjectile:OnUpdate(evt) end
 
----@protected
 ---@param effectName CName|string
 ---@return nil
-function BaseProjectile:BreakVisualEffectLoop(effectName) return end
+function BaseProjectile:BreakVisualEffectLoop(effectName) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseProjectile:CanBounceAfterCollision(value) return end
+function BaseProjectile:CanBounceAfterCollision(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function BaseProjectile:CreateCustomTickEventWithDuration(value) return end
+function BaseProjectile:CreateCustomTickEventWithDuration(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function BaseProjectile:CreateDelayEvent(value) return end
+function BaseProjectile:CreateDelayEvent(value) end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@param value Float
 ---@return nil
-function BaseProjectile:CreateProjectileDeviceBreachEvent(hitInstance, value) return end
+function BaseProjectile:CreateProjectileDeviceBreachEvent(hitInstance, value) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param targetObject? gameObject
 ---@param targetComponent? entIPlacedComponent
@@ -95,128 +81,106 @@ function BaseProjectile:CreateProjectileDeviceBreachEvent(hitInstance, value) re
 ---@param endLeanAngle Float
 ---@param angleInterpolationDuration Float
 ---@return nil
-function BaseProjectile:CurvedLaunch(eventData, targetObject, targetComponent, startVelocity, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, halfLeanAngle, endLeanAngle, angleInterpolationDuration) return end
+function BaseProjectile:CurvedLaunch(eventData, targetObject, targetComponent, startVelocity, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, halfLeanAngle, endLeanAngle, angleInterpolationDuration) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param targetObject? gameObject
 ---@param targetComponent? entIPlacedComponent
 ---@return nil
-function BaseProjectile:CurvedLaunchToTarget(eventData, targetObject, targetComponent) return end
+function BaseProjectile:CurvedLaunchToTarget(eventData, targetObject, targetComponent) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return nil
-function BaseProjectile:GeneralLaunchSetup(eventData) return end
+function BaseProjectile:GeneralLaunchSetup(eventData) end
 
 ---@return gameObject
-function BaseProjectile:GetInstigator() return end
+function BaseProjectile:GetInstigator() end
 
----@protected
 ---@param user gameObject
 ---@return EActionType
-function BaseProjectile:GetLeftHandCyberwareAction(user) return end
+function BaseProjectile:GetLeftHandCyberwareAction(user) end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@return gameObject
-function BaseProjectile:GetObject(hitInstance) return end
+function BaseProjectile:GetObject(hitInstance) end
 
----@protected
 ---@param object gameObject
 ---@return Vector4
-function BaseProjectile:GetObjectWorldPosition(object) return end
+function BaseProjectile:GetObjectWorldPosition(object) end
 
----@protected
 ---@param param String
 ---@return Float
-function BaseProjectile:GetProjectileTweakDBFloatParameter(param) return end
+function BaseProjectile:GetProjectileTweakDBFloatParameter(param) end
 
----@protected
 ---@return Bool
-function BaseProjectile:HasTrajectory() return end
+function BaseProjectile:HasTrajectory() end
 
----@protected
 ---@param effectName CName|string
 ---@return nil
-function BaseProjectile:KillVisualEffect(effectName) return end
+function BaseProjectile:KillVisualEffect(effectName) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param startVelocity Float
 ---@return nil
-function BaseProjectile:LinearLaunch(eventData, startVelocity) return end
+function BaseProjectile:LinearLaunch(eventData, startVelocity) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param gravitySimulation Float
 ---@param startVelocity Float
 ---@param energyLossFactorAfterCollision Float
 ---@return nil
-function BaseProjectile:ParabolicLaunch(eventData, gravitySimulation, startVelocity, energyLossFactorAfterCollision) return end
+function BaseProjectile:ParabolicLaunch(eventData, gravitySimulation, startVelocity, energyLossFactorAfterCollision) end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@param value Float
 ---@return nil
-function BaseProjectile:ProjectileBreachDevice(hitInstance, value) return end
+function BaseProjectile:ProjectileBreachDevice(hitInstance, value) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return nil
-function BaseProjectile:ProjectileHit(eventData) return end
+function BaseProjectile:ProjectileHit(eventData) end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@param attackRadius Float
 ---@param attackRecord? gamedataAttack_Record
 ---@return nil
-function BaseProjectile:ProjectileHitAoE(hitInstance, attackRadius, attackRecord) return end
+function BaseProjectile:ProjectileHitAoE(hitInstance, attackRadius, attackRecord) end
 
----@protected
 ---@return nil
-function BaseProjectile:Release() return end
+function BaseProjectile:Release() end
 
----@protected
 ---@param user gameObject
 ---@return nil
-function BaseProjectile:SetInitialVelocityBasedOnActionType(user) return end
+function BaseProjectile:SetInitialVelocityBasedOnActionType(user) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseProjectile:SetMeshVisible(value) return end
+function BaseProjectile:SetMeshVisible(value) end
 
----@protected
 ---@return nil
-function BaseProjectile:SetProjectileLifetime() return end
+function BaseProjectile:SetProjectileLifetime() end
 
----@protected
 ---@param fx gameFxResource
 ---@param fxposition Vector4
 ---@return gameFxInstance
-function BaseProjectile:SpawnLandVFXs(fx, fxposition) return end
+function BaseProjectile:SpawnLandVFXs(fx, fxposition) end
 
----@protected
 ---@param effectName CName|string
 ---@param eventTag? CName|string
 ---@return nil
-function BaseProjectile:SpawnVisualEffect(effectName, eventTag) return end
+function BaseProjectile:SpawnVisualEffect(effectName, eventTag) end
 
----@protected
 ---@return nil
-function BaseProjectile:StopProjectile() return end
+function BaseProjectile:StopProjectile() end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@param stimToSend gamedataStimType
 ---@param lifetime Float
 ---@param radius Float
 ---@return nil
-function BaseProjectile:TriggerActiveStimuliWithLifetime(hitInstance, stimToSend, lifetime, radius) return end
+function BaseProjectile:TriggerActiveStimuliWithLifetime(hitInstance, stimToSend, lifetime, radius) end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@param stimToSend gamedataStimType
 ---@return nil
-function BaseProjectile:TriggerSingleStimuli(hitInstance, stimToSend) return end
+function BaseProjectile:TriggerSingleStimuli(hitInstance, stimToSend) end

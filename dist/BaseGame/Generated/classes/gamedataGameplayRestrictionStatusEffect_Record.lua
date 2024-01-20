@@ -5,10 +5,10 @@ gamedataGameplayRestrictionStatusEffect_Record = {}
 
 ---@param fields? gamedataGameplayRestrictionStatusEffect_Record
 ---@return gamedataGameplayRestrictionStatusEffect_Record
-function gamedataGameplayRestrictionStatusEffect_Record.new(fields) return end
+function gamedataGameplayRestrictionStatusEffect_Record.new(fields) end
 
 ---@return gamedataActionRestrictionGroup_Record
-function gamedataGameplayRestrictionStatusEffect_Record:ActionRestriction() return end
+function gamedataGameplayRestrictionStatusEffect_Record:ActionRestriction() end
 
 ---@return gamedataActionRestrictionGroup_Record
-function gamedataGameplayRestrictionStatusEffect_Record:ActionRestrictionHandle() return end
+function gamedataGameplayRestrictionStatusEffect_Record:ActionRestrictionHandle() end

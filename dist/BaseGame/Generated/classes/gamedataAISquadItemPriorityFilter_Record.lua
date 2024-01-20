@@ -5,7 +5,7 @@ gamedataAISquadItemPriorityFilter_Record = {}
 
 ---@param fields? gamedataAISquadItemPriorityFilter_Record
 ---@return gamedataAISquadItemPriorityFilter_Record
-function gamedataAISquadItemPriorityFilter_Record.new(fields) return end
+function gamedataAISquadItemPriorityFilter_Record.new(fields) end
 
 ---@return Bool
-function gamedataAISquadItemPriorityFilter_Record:RestoreOnFail() return end
+function gamedataAISquadItemPriorityFilter_Record:RestoreOnFail() end

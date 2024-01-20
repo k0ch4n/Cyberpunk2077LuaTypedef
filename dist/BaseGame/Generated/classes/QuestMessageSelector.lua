@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class QuestMessageSelector: ScreenMessageSelector
----@field private recordID TweakDBID
+---@field recordID TweakDBID
 QuestMessageSelector = {}
 
 ---@param fields? QuestMessageSelector
 ---@return QuestMessageSelector
-function QuestMessageSelector.new(fields) return end
+function QuestMessageSelector.new(fields) end
 
 ---@return TweakDBID
-function QuestMessageSelector:GetRecordID() return end
+function QuestMessageSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function QuestMessageSelector:SetRecordID(recordID) return end
+function QuestMessageSelector:SetRecordID(recordID) end

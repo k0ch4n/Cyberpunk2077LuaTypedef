@@ -1,96 +1,81 @@
 ---@meta
 
 ---@class DroneComponent: gameScriptableComponent
----@field private senseComponent senseComponent
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private playerOnlyCollisionComponent entSimpleColliderComponent
----@field private highLevelCb Uint32
----@field private currentScanType MechanicalScanType
----@field private currentScanEffect gameEffectInstance
----@field private currentScanAnimation CName
----@field private isDetectionScanning Bool
----@field private trackedTarget gameObject
----@field private currentLocomotionWrapper CName
+---@field senseComponent senseComponent
+---@field npcCollisionComponent entSimpleColliderComponent
+---@field playerOnlyCollisionComponent entSimpleColliderComponent
+---@field highLevelCb Uint32
+---@field currentScanType MechanicalScanType
+---@field currentScanEffect gameEffectInstance
+---@field currentScanAnimation CName
+---@field isDetectionScanning Bool
+---@field trackedTarget gameObject
+---@field currentLocomotionWrapper CName
 DroneComponent = {}
 
 ---@param fields? DroneComponent
 ---@return DroneComponent
-function DroneComponent.new(fields) return end
+function DroneComponent.new(fields) end
 
 ---@param owner ScriptedPuppet
 ---@param movementType CName|string
 ---@return nil
-function DroneComponent.SetLocomotionWrappers(owner, movementType) return end
+function DroneComponent.SetLocomotionWrappers(owner, movementType) end
 
----@protected
 ---@param aiEvent AIAIEvent
 ---@return Bool
-function DroneComponent:OnAIEvent(aiEvent) return end
+function DroneComponent:OnAIEvent(aiEvent) end
 
----@protected
 ---@param evt ApplyDroneLocomotionWrapperEvent
 ---@return Bool
-function DroneComponent:OnApplyDroneLocomotionWrapperEvent(evt) return end
+function DroneComponent:OnApplyDroneLocomotionWrapperEvent(evt) end
 
----@protected
 ---@param evt ApplyDroneProceduralAnimFeatureEvent
 ---@return Bool
-function DroneComponent:OnApplyProceduralAnimFeatureEvent(evt) return end
+function DroneComponent:OnApplyProceduralAnimFeatureEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function DroneComponent:OnDeath(evt) return end
+function DroneComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function DroneComponent:OnDefeated(evt) return end
+function DroneComponent:OnDefeated(evt) end
 
----@protected
 ---@param evt gameeventsHighLevelStateDataEvent
 ---@return Bool
-function DroneComponent:OnHighLevelStateDataEvent(evt) return end
+function DroneComponent:OnHighLevelStateDataEvent(evt) end
 
----@protected
 ---@param evt entRagdollNotifyEnabledEvent
 ---@return Bool
-function DroneComponent:OnRagdollEnabledEvent(evt) return end
+function DroneComponent:OnRagdollEnabledEvent(evt) end
 
----@protected
 ---@param evt ReenableColliderEvent
 ---@return Bool
-function DroneComponent:OnReenableCollider(evt) return end
+function DroneComponent:OnReenableCollider(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DroneComponent:OnRequestComponents(ri) return end
+function DroneComponent:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DroneComponent:OnTakeControl(ri) return end
+function DroneComponent:OnTakeControl(ri) end
 
----@private
 ---@param movementType CName|string
 ---@return nil
-function DroneComponent:ApplyLocomotionWrappers(movementType) return end
+function DroneComponent:ApplyLocomotionWrappers(movementType) end
 
----@private
 ---@param desiredPose DronePose
 ---@return nil
-function DroneComponent:ApplyPose(desiredPose) return end
+function DroneComponent:ApplyPose(desiredPose) end
 
----@protected
 ---@return nil
-function DroneComponent:OnGameAttach() return end
+function DroneComponent:OnGameAttach() end
 
----@private
 ---@param owner NPCPuppet
 ---@return nil
-function DroneComponent:RemoveSpawnGLPs(owner) return end
+function DroneComponent:RemoveSpawnGLPs(owner) end
 
----@private
 ---@return nil
-function DroneComponent:SendStaticDataToAnimgraph() return end
+function DroneComponent:SendStaticDataToAnimgraph() end

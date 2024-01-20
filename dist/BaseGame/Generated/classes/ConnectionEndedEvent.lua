@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class ConnectionEndedEvent: redEvent
----@field private togglePersonalLinkAction TogglePersonalLink
+---@field togglePersonalLinkAction TogglePersonalLink
 ConnectionEndedEvent = {}
 
 ---@param fields? ConnectionEndedEvent
 ---@return ConnectionEndedEvent
-function ConnectionEndedEvent.new(fields) return end
+function ConnectionEndedEvent.new(fields) end
 
 ---@return TogglePersonalLink
-function ConnectionEndedEvent:GetTogglePersonalLinkAction() return end
+function ConnectionEndedEvent:GetTogglePersonalLinkAction() end
 
 ---@param togglePersonalLinkAction TogglePersonalLink
 ---@return nil
-function ConnectionEndedEvent:SetTogglePersonalLinkAction(togglePersonalLinkAction) return end
+function ConnectionEndedEvent:SetTogglePersonalLinkAction(togglePersonalLinkAction) end

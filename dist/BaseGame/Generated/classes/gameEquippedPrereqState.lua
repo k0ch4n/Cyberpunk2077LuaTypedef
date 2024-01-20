@@ -5,4 +5,4 @@ gameEquippedPrereqState = {}
 
 ---@param fields? gameEquippedPrereqState
 ---@return gameEquippedPrereqState
-function gameEquippedPrereqState.new(fields) return end
+function gameEquippedPrereqState.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ExpansionErrorPopuppData: inkGameNotificationData
----@field public title CName
----@field public description CName
----@field public errorCode Uint32
+---@field title CName
+---@field description CName
+---@field errorCode Uint32
 ExpansionErrorPopuppData = {}
 
 ---@param fields? ExpansionErrorPopuppData
 ---@return ExpansionErrorPopuppData
-function ExpansionErrorPopuppData.new(fields) return end
+function ExpansionErrorPopuppData.new(fields) end

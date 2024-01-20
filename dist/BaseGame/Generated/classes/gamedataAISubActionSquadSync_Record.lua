@@ -5,13 +5,13 @@ gamedataAISubActionSquadSync_Record = {}
 
 ---@param fields? gamedataAISubActionSquadSync_Record
 ---@return gamedataAISubActionSquadSync_Record
-function gamedataAISubActionSquadSync_Record.new(fields) return end
+function gamedataAISubActionSquadSync_Record.new(fields) end
 
 ---@return Bool
-function gamedataAISubActionSquadSync_Record:Pull() return end
+function gamedataAISubActionSquadSync_Record:Pull() end
 
 ---@return gamedataAISquadType_Record
-function gamedataAISubActionSquadSync_Record:SquadType() return end
+function gamedataAISubActionSquadSync_Record:SquadType() end
 
 ---@return gamedataAISquadType_Record
-function gamedataAISubActionSquadSync_Record:SquadTypeHandle() return end
+function gamedataAISubActionSquadSync_Record:SquadTypeHandle() end

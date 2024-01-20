@@ -1,28 +1,27 @@
 ---@meta
 
 ---@class ProgressBarAnimationChunkController: inkWidgetLogicController
----@field private rootCanvas inkWidgetReference
----@field private barCanvas inkWidgetReference
----@field private hitAnim inkanimProxy
----@field private fullbarSize Float
----@field private isNegative Bool
+---@field rootCanvas inkWidgetReference
+---@field barCanvas inkWidgetReference
+---@field hitAnim inkanimProxy
+---@field fullbarSize Float
+---@field isNegative Bool
 ProgressBarAnimationChunkController = {}
 
 ---@param fields? ProgressBarAnimationChunkController
 ---@return ProgressBarAnimationChunkController
-function ProgressBarAnimationChunkController.new(fields) return end
+function ProgressBarAnimationChunkController.new(fields) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function ProgressBarAnimationChunkController:OnAnimationEnd(e) return end
+function ProgressBarAnimationChunkController:OnAnimationEnd(e) end
 
 ---@return Bool
-function ProgressBarAnimationChunkController:IsProgressAnimationPlaying() return end
+function ProgressBarAnimationChunkController:IsProgressAnimationPlaying() end
 
 ---@param widght Float
 ---@param height Float
 ---@param fullbarSize Float
 ---@param isNegative Bool
 ---@return nil
-function ProgressBarAnimationChunkController:SetAnimation(widght, height, fullbarSize, isNegative) return end
+function ProgressBarAnimationChunkController:SetAnimation(widght, height, fullbarSize, isNegative) end

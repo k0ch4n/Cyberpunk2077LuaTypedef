@@ -5,10 +5,9 @@ ConsumableChargesPrereq = {}
 
 ---@param fields? ConsumableChargesPrereq
 ---@return ConsumableChargesPrereq
-function ConsumableChargesPrereq.new(fields) return end
+function ConsumableChargesPrereq.new(fields) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ConsumableChargesPrereq:OnRegister(state, context) return end
+function ConsumableChargesPrereq:OnRegister(state, context) end

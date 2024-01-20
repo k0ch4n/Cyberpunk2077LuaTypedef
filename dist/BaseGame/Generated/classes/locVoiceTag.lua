@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class locVoiceTag
----@field public voiceTag CName
----@field public voicesetScenePath String
----@field public id CRUID
----@field public isApuc Bool
+---@field voiceTag CName
+---@field voicesetScenePath String
+---@field id CRUID
+---@field isApuc Bool
 locVoiceTag = {}
 
 ---@param fields? locVoiceTag
 ---@return locVoiceTag
-function locVoiceTag.new(fields) return end
+function locVoiceTag.new(fields) end

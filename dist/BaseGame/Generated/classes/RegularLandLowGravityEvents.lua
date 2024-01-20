@@ -5,9 +5,9 @@ RegularLandLowGravityEvents = {}
 
 ---@param fields? RegularLandLowGravityEvents
 ---@return RegularLandLowGravityEvents
-function RegularLandLowGravityEvents.new(fields) return end
+function RegularLandLowGravityEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function RegularLandLowGravityEvents:OnEnter(stateContext, scriptInterface) return end
+function RegularLandLowGravityEvents:OnEnter(stateContext, scriptInterface) end

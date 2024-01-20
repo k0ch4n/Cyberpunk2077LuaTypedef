@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animAnimNode_BlendSpace: animAnimNode_Base
----@field public inputLinks animFloatLink[]
----@field public blendSpace animAnimNode_BlendSpace_InternalsBlendSpace
----@field public progressLink animFloatLink
----@field public fireAnimEndEvent Bool
----@field public animEndEventName CName
----@field public isLooped Bool
+---@field inputLinks animFloatLink[]
+---@field blendSpace animAnimNode_BlendSpace_InternalsBlendSpace
+---@field progressLink animFloatLink
+---@field fireAnimEndEvent Bool
+---@field animEndEventName CName
+---@field isLooped Bool
 animAnimNode_BlendSpace = {}
 
 ---@param fields? animAnimNode_BlendSpace
 ---@return animAnimNode_BlendSpace
-function animAnimNode_BlendSpace.new(fields) return end
+function animAnimNode_BlendSpace.new(fields) end

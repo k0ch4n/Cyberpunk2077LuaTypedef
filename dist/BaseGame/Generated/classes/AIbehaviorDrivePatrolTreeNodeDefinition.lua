@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AIbehaviorDrivePatrolTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
----@field public maxSpeed AIArgumentMapping
----@field public minSpeed AIArgumentMapping
----@field public clearTrafficOnPath AIArgumentMapping
----@field public emergencyPatrol AIArgumentMapping
----@field public numPatrolLoops AIArgumentMapping
----@field public forcedStartSpeed AIArgumentMapping
+---@field maxSpeed AIArgumentMapping
+---@field minSpeed AIArgumentMapping
+---@field clearTrafficOnPath AIArgumentMapping
+---@field emergencyPatrol AIArgumentMapping
+---@field numPatrolLoops AIArgumentMapping
+---@field forcedStartSpeed AIArgumentMapping
 AIbehaviorDrivePatrolTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDrivePatrolTreeNodeDefinition
 ---@return AIbehaviorDrivePatrolTreeNodeDefinition
-function AIbehaviorDrivePatrolTreeNodeDefinition.new(fields) return end
+function AIbehaviorDrivePatrolTreeNodeDefinition.new(fields) end

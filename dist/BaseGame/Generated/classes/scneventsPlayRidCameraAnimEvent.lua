@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class scneventsPlayRidCameraAnimEvent: scnSceneEvent
----@field public cameraRef NodeRef
----@field public cameraPlacement scneventsRidCameraPlacement
----@field public animData scneventsPlayAnimEventData
----@field public animSRRefId scnRidCameraAnimationSRRefId
----@field public animOriginMarker scnMarker
----@field public activateAsGameCamera Bool
----@field public controlRenderToTextureState Bool
----@field public markCamerCut Bool
+---@field cameraRef NodeRef
+---@field cameraPlacement scneventsRidCameraPlacement
+---@field animData scneventsPlayAnimEventData
+---@field animSRRefId scnRidCameraAnimationSRRefId
+---@field animOriginMarker scnMarker
+---@field activateAsGameCamera Bool
+---@field controlRenderToTextureState Bool
+---@field markCamerCut Bool
 scneventsPlayRidCameraAnimEvent = {}
 
 ---@param fields? scneventsPlayRidCameraAnimEvent
 ---@return scneventsPlayRidCameraAnimEvent
-function scneventsPlayRidCameraAnimEvent.new(fields) return end
+function scneventsPlayRidCameraAnimEvent.new(fields) end

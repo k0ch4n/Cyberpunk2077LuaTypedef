@@ -5,4 +5,4 @@ ResetLightHitsReceivedRequest = {}
 
 ---@param fields? ResetLightHitsReceivedRequest
 ---@return ResetLightHitsReceivedRequest
-function ResetLightHitsReceivedRequest.new(fields) return end
+function ResetLightHitsReceivedRequest.new(fields) end

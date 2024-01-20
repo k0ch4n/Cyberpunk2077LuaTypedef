@@ -5,4 +5,4 @@ SecurityLockerUserEntry = {}
 
 ---@param fields? SecurityLockerUserEntry
 ---@return SecurityLockerUserEntry
-function SecurityLockerUserEntry.new(fields) return end
+function SecurityLockerUserEntry.new(fields) end

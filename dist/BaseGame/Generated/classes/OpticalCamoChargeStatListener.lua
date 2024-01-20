@@ -5,27 +5,25 @@ OpticalCamoChargeStatListener = {}
 
 ---@param fields? OpticalCamoChargeStatListener
 ---@return OpticalCamoChargeStatListener
-function OpticalCamoChargeStatListener.new(fields) return end
+function OpticalCamoChargeStatListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function OpticalCamoChargeStatListener:OnStatPoolMaxValueReached(value) return end
+function OpticalCamoChargeStatListener:OnStatPoolMaxValueReached(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function OpticalCamoChargeStatListener:OnStatPoolMinValueReached(value) return end
+function OpticalCamoChargeStatListener:OnStatPoolMinValueReached(value) end
 
 ---@return Int32
-function OpticalCamoChargeStatListener:GetRechargeDuration() return end
+function OpticalCamoChargeStatListener:GetRechargeDuration() end
 
 ---@param player PlayerPuppet
 ---@return nil
-function OpticalCamoChargeStatListener:Init(player) return end
+function OpticalCamoChargeStatListener:Init(player) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function OpticalCamoChargeStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function OpticalCamoChargeStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end

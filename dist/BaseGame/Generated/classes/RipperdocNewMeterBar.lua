@@ -1,47 +1,46 @@
 ---@meta
 
 ---@class RipperdocNewMeterBar: inkWidgetLogicController
----@field private bar inkWidgetReference
----@field private overchargeHighlight inkWidgetReference
----@field private root inkWidget
----@field private sizeAnimation inkanimProxy
----@field private meterWidth Float
----@field private pulse PulseAnimation
+---@field bar inkWidgetReference
+---@field overchargeHighlight inkWidgetReference
+---@field root inkWidget
+---@field sizeAnimation inkanimProxy
+---@field meterWidth Float
+---@field pulse PulseAnimation
 RipperdocNewMeterBar = {}
 
 ---@param fields? RipperdocNewMeterBar
 ---@return RipperdocNewMeterBar
-function RipperdocNewMeterBar.new(fields) return end
+function RipperdocNewMeterBar.new(fields) end
 
----@protected
 ---@return Bool
-function RipperdocNewMeterBar:OnInitialize() return end
+function RipperdocNewMeterBar:OnInitialize() end
 
 ---@return Float
-function RipperdocNewMeterBar:GetHeight() return end
+function RipperdocNewMeterBar:GetHeight() end
 
 ---@param margin String
 ---@return Float
-function RipperdocNewMeterBar:GetMargin(margin) return end
+function RipperdocNewMeterBar:GetMargin(margin) end
 
 ---@param size Float
 ---@return nil
-function RipperdocNewMeterBar:SetSize(size) return end
+function RipperdocNewMeterBar:SetSize(size) end
 
 ---@param size Float
 ---@param sizeOffset Float
 ---@param delay Float
 ---@param duration Float
 ---@return nil
-function RipperdocNewMeterBar:SetSizeAnimation(size, sizeOffset, delay, duration) return end
+function RipperdocNewMeterBar:SetSizeAnimation(size, sizeOffset, delay, duration) end
 
 ---@param state CName|string
 ---@return nil
-function RipperdocNewMeterBar:SetState(state) return end
+function RipperdocNewMeterBar:SetState(state) end
 
 ---@param params PulseAnimationParams
 ---@return nil
-function RipperdocNewMeterBar:StartPulse(params) return end
+function RipperdocNewMeterBar:StartPulse(params) end
 
 ---@return nil
-function RipperdocNewMeterBar:StopPulse() return end
+function RipperdocNewMeterBar:StopPulse() end

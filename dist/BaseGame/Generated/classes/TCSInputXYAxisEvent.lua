@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TCSInputXYAxisEvent: redEvent
----@field public isAnyInput Bool
+---@field isAnyInput Bool
 TCSInputXYAxisEvent = {}
 
 ---@param fields? TCSInputXYAxisEvent
 ---@return TCSInputXYAxisEvent
-function TCSInputXYAxisEvent.new(fields) return end
+function TCSInputXYAxisEvent.new(fields) end

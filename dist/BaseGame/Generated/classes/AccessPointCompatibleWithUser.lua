@@ -5,10 +5,10 @@ AccessPointCompatibleWithUser = {}
 
 ---@param fields? AccessPointCompatibleWithUser
 ---@return AccessPointCompatibleWithUser
-function AccessPointCompatibleWithUser.new(fields) return end
+function AccessPointCompatibleWithUser.new(fields) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@param hotSpotLayer gameinteractionsCHotSpotLayerDefinition
 ---@return Bool
-function AccessPointCompatibleWithUser:Test(activatorObject, hotSpotObject, hotSpotLayer) return end
+function AccessPointCompatibleWithUser:Test(activatorObject, hotSpotObject, hotSpotLayer) end

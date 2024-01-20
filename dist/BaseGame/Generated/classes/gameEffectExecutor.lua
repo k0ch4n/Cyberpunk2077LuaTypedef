@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameEffectExecutor: gameEffectNode
----@field public usesHitCooldown Bool
+---@field usesHitCooldown Bool
 gameEffectExecutor = {}

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class animDyngConstraintCone: animIDyngConstraint
----@field public constrainedBone animTransformIndex
----@field public coneAttachmentBone animTransformIndex
----@field public coneTransformLS QsTransform
----@field public constraintType animPendulumConstraintType
----@field public halfOfMaxApertureAngle Float
----@field public projectionType animPendulumProjectionType
----@field public collisionCapsuleRadius Float
----@field public collisionCapsuleHeightExtent Float
+---@field constrainedBone animTransformIndex
+---@field coneAttachmentBone animTransformIndex
+---@field coneTransformLS QsTransform
+---@field constraintType animPendulumConstraintType
+---@field halfOfMaxApertureAngle Float
+---@field projectionType animPendulumProjectionType
+---@field collisionCapsuleRadius Float
+---@field collisionCapsuleHeightExtent Float
 animDyngConstraintCone = {}
 
 ---@param fields? animDyngConstraintCone
 ---@return animDyngConstraintCone
-function animDyngConstraintCone.new(fields) return end
+function animDyngConstraintCone.new(fields) end

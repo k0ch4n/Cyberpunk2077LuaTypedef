@@ -5,4 +5,4 @@ AIbehaviorAsyncCallbackToken = {}
 
 ---@param fields? AIbehaviorAsyncCallbackToken
 ---@return AIbehaviorAsyncCallbackToken
-function AIbehaviorAsyncCallbackToken.new(fields) return end
+function AIbehaviorAsyncCallbackToken.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UpdateWeaponChargeEvent: redEvent
----@field public newValue Float
----@field public oldValue Float
+---@field newValue Float
+---@field oldValue Float
 UpdateWeaponChargeEvent = {}
 
 ---@param fields? UpdateWeaponChargeEvent
 ---@return UpdateWeaponChargeEvent
-function UpdateWeaponChargeEvent.new(fields) return end
+function UpdateWeaponChargeEvent.new(fields) end

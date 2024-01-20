@@ -5,12 +5,12 @@ StatCheckPrereqState = {}
 
 ---@param fields? StatCheckPrereqState
 ---@return StatCheckPrereqState
-function StatCheckPrereqState.new(fields) return end
+function StatCheckPrereqState.new(fields) end
 
 ---@return gamedataStatType
-function StatCheckPrereqState:GetStatToCheck() return end
+function StatCheckPrereqState:GetStatToCheck() end
 
 ---@param obj gameObject
 ---@param newValue Float
 ---@return nil
-function StatCheckPrereqState:UpdateStatCheckPrereqData(obj, newValue) return end
+function StatCheckPrereqState:UpdateStatCheckPrereqData(obj, newValue) end

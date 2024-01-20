@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class SandevistanEvents: TimeDilationEventsTransitions
----@field private lastTimeDilation Float
+---@field lastTimeDilation Float
 SandevistanEvents = {}
 
 ---@param fields? SandevistanEvents
 ---@return SandevistanEvents
-function SandevistanEvents.new(fields) return end
+function SandevistanEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SandevistanEvents:OnEnter(stateContext, scriptInterface) return end
+function SandevistanEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SandevistanEvents:OnExit(stateContext, scriptInterface) return end
+function SandevistanEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SandevistanEvents:OnForcedExit(stateContext, scriptInterface) return end
+function SandevistanEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SandevistanEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SandevistanEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

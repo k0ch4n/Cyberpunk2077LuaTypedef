@@ -5,4 +5,4 @@ audioIndexedSinglePositionStrategy = {}
 
 ---@param fields? audioIndexedSinglePositionStrategy
 ---@return audioIndexedSinglePositionStrategy
-function audioIndexedSinglePositionStrategy.new(fields) return end
+function audioIndexedSinglePositionStrategy.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SToggleOperationData
----@field public index Int32
----@field public enable Bool
----@field public classType EOperationClassType
+---@field index Int32
+---@field enable Bool
+---@field classType EOperationClassType
 SToggleOperationData = {}
 
 ---@param fields? SToggleOperationData
 ---@return SToggleOperationData
-function SToggleOperationData.new(fields) return end
+function SToggleOperationData.new(fields) end

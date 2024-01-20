@@ -1,129 +1,124 @@
 ---@meta
 
 ---@class NameplateVisualsLogicController: inkWidgetLogicController
----@field private rootWidget inkCompoundWidget
----@field private nameTextMain inkTextWidgetReference
----@field private nameFrame inkWidgetReference
----@field private healthbarWidget inkWidgetReference
----@field private healthBarFull inkWidgetReference
----@field private healthBarFrame inkWidgetReference
----@field private stealthMappinSlot inkCompoundWidgetReference
----@field private damagePreviewWrapper inkWidgetReference
----@field private damagePreviewWidget inkWidgetReference
----@field private damagePreviewArrow inkWidgetReference
----@field private rarityHolder inkWidgetReference
----@field private rarities inkWidgetReference[]
----@field private cachedPuppet gameObject
----@field private cachedIncomingData gameuiNPCNextToTheCrosshair
----@field private isBoss Bool
----@field private isElite Bool
----@field private isRare Bool
----@field private isNCPD Bool
----@field private canCallReinforcements Bool
----@field private isBurning Bool
----@field private isPoisoned Bool
----@field private bossColor Color
----@field private npcDefeated Bool
----@field private isStealthMappinVisible Bool
----@field private playerZone gamePSMZones
----@field private npcNamesEnabled Bool
----@field private healthController NameplateBarLogicController
----@field private hasCenterIcon Bool
----@field private animatingObject inkWidgetReference
----@field private isAnimating Bool
----@field private animProxy inkanimProxy
----@field private alpha_fadein inkanimDefinition
----@field private damagePreviewAnimProxy inkanimProxy
----@field private isQuestTarget Bool
----@field private forceHide Bool
----@field private isHardEnemy Bool
----@field private npcIsAggressive Bool
----@field private playerAimingDownSights Bool
----@field private playerInCombat Bool
----@field private playerInStealth Bool
----@field private healthNotFull Bool
----@field private healthbarVisible Bool
----@field private levelContainerShouldBeVisible Bool
----@field private currentHealth Int32
----@field private maximumHealth Int32
----@field private currentDamagePreviewValue Int32
+---@field rootWidget inkCompoundWidget
+---@field nameTextMain inkTextWidgetReference
+---@field nameFrame inkWidgetReference
+---@field healthbarWidget inkWidgetReference
+---@field healthBarFull inkWidgetReference
+---@field healthBarFrame inkWidgetReference
+---@field stealthMappinSlot inkCompoundWidgetReference
+---@field damagePreviewWrapper inkWidgetReference
+---@field damagePreviewWidget inkWidgetReference
+---@field damagePreviewArrow inkWidgetReference
+---@field rarityHolder inkWidgetReference
+---@field rarities inkWidgetReference[]
+---@field cachedPuppet gameObject
+---@field cachedIncomingData gameuiNPCNextToTheCrosshair
+---@field isBoss Bool
+---@field isElite Bool
+---@field isRare Bool
+---@field isNCPD Bool
+---@field canCallReinforcements Bool
+---@field isBurning Bool
+---@field isPoisoned Bool
+---@field bossColor Color
+---@field npcDefeated Bool
+---@field isStealthMappinVisible Bool
+---@field playerZone gamePSMZones
+---@field npcNamesEnabled Bool
+---@field healthController NameplateBarLogicController
+---@field hasCenterIcon Bool
+---@field animatingObject inkWidgetReference
+---@field isAnimating Bool
+---@field animProxy inkanimProxy
+---@field alpha_fadein inkanimDefinition
+---@field damagePreviewAnimProxy inkanimProxy
+---@field isQuestTarget Bool
+---@field forceHide Bool
+---@field isHardEnemy Bool
+---@field npcIsAggressive Bool
+---@field playerAimingDownSights Bool
+---@field playerInCombat Bool
+---@field playerInStealth Bool
+---@field healthNotFull Bool
+---@field healthbarVisible Bool
+---@field levelContainerShouldBeVisible Bool
+---@field currentHealth Int32
+---@field maximumHealth Int32
+---@field currentDamagePreviewValue Int32
 NameplateVisualsLogicController = {}
 
 ---@param fields? NameplateVisualsLogicController
 ---@return NameplateVisualsLogicController
-function NameplateVisualsLogicController.new(fields) return end
-
----@protected
----@return Bool
-function NameplateVisualsLogicController:OnInitialize() return end
+function NameplateVisualsLogicController.new(fields) end
 
 ---@return Bool
-function NameplateVisualsLogicController:IsAnyElementVisible() return end
+function NameplateVisualsLogicController:OnInitialize() end
 
 ---@return Bool
-function NameplateVisualsLogicController:IsQuestTarget() return end
+function NameplateVisualsLogicController:IsAnyElementVisible() end
+
+---@return Bool
+function NameplateVisualsLogicController:IsQuestTarget() end
 
 ---@param value Int32
 ---@return nil
-function NameplateVisualsLogicController:PreviewDamage(value) return end
+function NameplateVisualsLogicController:PreviewDamage(value) end
 
----@private
 ---@param puppet gamePuppetBase
 ---@param incomingData gameuiNPCNextToTheCrosshair
 ---@return nil
-function NameplateVisualsLogicController:SetAttitudeColors(puppet, incomingData) return end
+function NameplateVisualsLogicController:SetAttitudeColors(puppet, incomingData) end
 
----@private
 ---@param incomingData gameuiNPCNextToTheCrosshair
 ---@return nil
-function NameplateVisualsLogicController:SetElementVisibility(incomingData) return end
+function NameplateVisualsLogicController:SetElementVisibility(incomingData) end
 
 ---@param value Bool
 ---@return nil
-function NameplateVisualsLogicController:SetForceHide(value) return end
+function NameplateVisualsLogicController:SetForceHide(value) end
 
----@private
 ---@param puppet ScriptedPuppet
 ---@return nil
-function NameplateVisualsLogicController:SetNPCType(puppet) return end
+function NameplateVisualsLogicController:SetNPCType(puppet) end
 
 ---@param value Bool
 ---@return nil
-function NameplateVisualsLogicController:SetQuestTarget(value) return end
+function NameplateVisualsLogicController:SetQuestTarget(value) end
 
 ---@param puppet gameObject
 ---@param incomingData gameuiNPCNextToTheCrosshair
 ---@param isNewNpc? Bool
 ---@return nil
-function NameplateVisualsLogicController:SetVisualData(puppet, incomingData, isNewNpc) return end
+function NameplateVisualsLogicController:SetVisualData(puppet, incomingData, isNewNpc) end
 
 ---@return nil
-function NameplateVisualsLogicController:UpdateBecauseOfMapPin() return end
+function NameplateVisualsLogicController:UpdateBecauseOfMapPin() end
 
 ---@param isHostile Bool
 ---@return nil
-function NameplateVisualsLogicController:UpdateHealthbarColor(isHostile) return end
+function NameplateVisualsLogicController:UpdateHealthbarColor(isHostile) end
 
----@private
 ---@return nil
-function NameplateVisualsLogicController:UpdateHealthbarVisibility() return end
+function NameplateVisualsLogicController:UpdateHealthbarVisibility() end
 
 ---@param value Bool
 ---@param onlySetValue? Bool
 ---@return nil
-function NameplateVisualsLogicController:UpdateNPCNamesEnabled(value, onlySetValue) return end
+function NameplateVisualsLogicController:UpdateNPCNamesEnabled(value, onlySetValue) end
 
 ---@param state gamePSMUpperBodyStates
 ---@param onlySetValue? Bool
 ---@return nil
-function NameplateVisualsLogicController:UpdatePlayerAimStatus(state, onlySetValue) return end
+function NameplateVisualsLogicController:UpdatePlayerAimStatus(state, onlySetValue) end
 
 ---@param state gamePSMCombat
 ---@param onlySetValue? Bool
 ---@return nil
-function NameplateVisualsLogicController:UpdatePlayerCombat(state, onlySetValue) return end
+function NameplateVisualsLogicController:UpdatePlayerCombat(state, onlySetValue) end
 
 ---@param zone gamePSMZones
 ---@param onlySetValue? Bool
 ---@return nil
-function NameplateVisualsLogicController:UpdatePlayerZone(zone, onlySetValue) return end
+function NameplateVisualsLogicController:UpdatePlayerZone(zone, onlySetValue) end

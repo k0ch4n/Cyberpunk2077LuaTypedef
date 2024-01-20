@@ -5,4 +5,4 @@ DownloadFundsAction = {}
 
 ---@param fields? DownloadFundsAction
 ---@return DownloadFundsAction
-function DownloadFundsAction.new(fields) return end
+function DownloadFundsAction.new(fields) end

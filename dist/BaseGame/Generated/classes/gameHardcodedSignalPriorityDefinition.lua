@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameHardcodedSignalPriorityDefinition: gameSignalPriorityDefinition
----@field public signals CName[]
+---@field signals CName[]
 gameHardcodedSignalPriorityDefinition = {}
 
 ---@param fields? gameHardcodedSignalPriorityDefinition
 ---@return gameHardcodedSignalPriorityDefinition
-function gameHardcodedSignalPriorityDefinition.new(fields) return end
+function gameHardcodedSignalPriorityDefinition.new(fields) end

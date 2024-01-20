@@ -5,13 +5,13 @@ gamedataVendorType_Record = {}
 
 ---@param fields? gamedataVendorType_Record
 ---@return gamedataVendorType_Record
-function gamedataVendorType_Record.new(fields) return end
+function gamedataVendorType_Record.new(fields) end
 
 ---@return String
-function gamedataVendorType_Record:EnumComment() return end
+function gamedataVendorType_Record:EnumComment() end
 
 ---@return CName
-function gamedataVendorType_Record:EnumName() return end
+function gamedataVendorType_Record:EnumName() end
 
 ---@return gamedataVendorType
-function gamedataVendorType_Record:Type() return end
+function gamedataVendorType_Record:Type() end

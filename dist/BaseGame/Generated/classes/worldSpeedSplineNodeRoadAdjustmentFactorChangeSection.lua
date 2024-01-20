@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldSpeedSplineNodeRoadAdjustmentFactorChangeSection
----@field public pos Float
----@field public targetFactor Float
+---@field pos Float
+---@field targetFactor Float
 worldSpeedSplineNodeRoadAdjustmentFactorChangeSection = {}
 
 ---@param fields? worldSpeedSplineNodeRoadAdjustmentFactorChangeSection
 ---@return worldSpeedSplineNodeRoadAdjustmentFactorChangeSection
-function worldSpeedSplineNodeRoadAdjustmentFactorChangeSection.new(fields) return end
+function worldSpeedSplineNodeRoadAdjustmentFactorChangeSection.new(fields) end

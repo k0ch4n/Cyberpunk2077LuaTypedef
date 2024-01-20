@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class ReactionPresetHitPrereqCondition: BaseHitPrereqCondition
----@field public reactionPreset String
+---@field reactionPreset String
 ReactionPresetHitPrereqCondition = {}
 
 ---@param fields? ReactionPresetHitPrereqCondition
 ---@return ReactionPresetHitPrereqCondition
-function ReactionPresetHitPrereqCondition.new(fields) return end
+function ReactionPresetHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function ReactionPresetHitPrereqCondition:Evaluate(hitEvent) return end
+function ReactionPresetHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function ReactionPresetHitPrereqCondition:SetData(recordID) return end
+function ReactionPresetHitPrereqCondition:SetData(recordID) end

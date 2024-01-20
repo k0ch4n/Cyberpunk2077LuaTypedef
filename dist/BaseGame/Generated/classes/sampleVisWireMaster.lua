@@ -1,44 +1,37 @@
 ---@meta
 
 ---@class sampleVisWireMaster: gameObject
----@field private dependableEntities NodeRef[]
----@field private inFocus Bool
----@field private found Bool
----@field private lookedAt Bool
+---@field dependableEntities NodeRef[]
+---@field inFocus Bool
+---@field found Bool
+---@field lookedAt Bool
 sampleVisWireMaster = {}
 
 ---@param fields? sampleVisWireMaster
 ---@return sampleVisWireMaster
-function sampleVisWireMaster.new(fields) return end
+function sampleVisWireMaster.new(fields) end
 
----@protected
 ---@return Bool
-function sampleVisWireMaster:OnGameAttached() return end
+function sampleVisWireMaster:OnGameAttached() end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function sampleVisWireMaster:OnHUDInstruction(evt) return end
+function sampleVisWireMaster:OnHUDInstruction(evt) end
 
----@protected
 ---@param choice gameinteractionsChoiceEvent
 ---@return Bool
-function sampleVisWireMaster:OnInteractionChoice(choice) return end
+function sampleVisWireMaster:OnInteractionChoice(choice) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function sampleVisWireMaster:OnRequestComponents(ri) return end
+function sampleVisWireMaster:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function sampleVisWireMaster:OnTakeControl(ri) return end
+function sampleVisWireMaster:OnTakeControl(ri) end
 
----@private
 ---@return Bool
-function sampleVisWireMaster:IsModeOn() return end
+function sampleVisWireMaster:IsModeOn() end
 
----@private
 ---@return nil
-function sampleVisWireMaster:OnFound() return end
+function sampleVisWireMaster:OnFound() end

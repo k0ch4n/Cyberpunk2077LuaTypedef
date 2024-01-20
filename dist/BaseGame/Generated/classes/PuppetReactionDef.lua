@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class PuppetReactionDef: gamebbScriptDefinition
----@field public exitReactionFlag gamebbScriptID_Bool
----@field public blockReactionFlag gamebbScriptID_Bool
+---@field exitReactionFlag gamebbScriptID_Bool
+---@field blockReactionFlag gamebbScriptID_Bool
 PuppetReactionDef = {}
 
 ---@param fields? PuppetReactionDef
 ---@return PuppetReactionDef
-function PuppetReactionDef.new(fields) return end
+function PuppetReactionDef.new(fields) end
 
 ---@return Bool
-function PuppetReactionDef:AutoCreateInSystem() return end
+function PuppetReactionDef:AutoCreateInSystem() end

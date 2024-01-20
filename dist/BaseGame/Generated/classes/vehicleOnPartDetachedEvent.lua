@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleOnPartDetachedEvent: redEvent
----@field public partName CName
+---@field partName CName
 vehicleOnPartDetachedEvent = {}
 
 ---@param fields? vehicleOnPartDetachedEvent
 ---@return vehicleOnPartDetachedEvent
-function vehicleOnPartDetachedEvent.new(fields) return end
+function vehicleOnPartDetachedEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnCheckPlayerTargetNodeDistanceReturnCondition: scnIReturnCondition
----@field public params scnCheckPlayerTargetNodeDistanceReturnConditionParams
+---@field params scnCheckPlayerTargetNodeDistanceReturnConditionParams
 scnCheckPlayerTargetNodeDistanceReturnCondition = {}
 
 ---@param fields? scnCheckPlayerTargetNodeDistanceReturnCondition
 ---@return scnCheckPlayerTargetNodeDistanceReturnCondition
-function scnCheckPlayerTargetNodeDistanceReturnCondition.new(fields) return end
+function scnCheckPlayerTargetNodeDistanceReturnCondition.new(fields) end

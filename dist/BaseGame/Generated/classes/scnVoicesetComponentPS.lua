@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class scnVoicesetComponentPS: gameComponentPS
----@field public blockedInputs entVoicesetInputToBlock[]
----@field public voiceTag CName
----@field public NPCHighLevelState gamedataNPCHighLevelState
----@field public gruntSetIndex Uint32
----@field public areVoicesetLinesEnabled Bool
----@field public areVoicesetGruntsEnabled Bool
+---@field blockedInputs entVoicesetInputToBlock[]
+---@field voiceTag CName
+---@field NPCHighLevelState gamedataNPCHighLevelState
+---@field gruntSetIndex Uint32
+---@field areVoicesetLinesEnabled Bool
+---@field areVoicesetGruntsEnabled Bool
 scnVoicesetComponentPS = {}
 
 ---@param fields? scnVoicesetComponentPS
 ---@return scnVoicesetComponentPS
-function scnVoicesetComponentPS.new(fields) return end
+function scnVoicesetComponentPS.new(fields) end

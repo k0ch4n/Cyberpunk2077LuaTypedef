@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scneventsAttachPropToWorldCachedFallbackBone
----@field public boneName CName
----@field public modelSpaceTransform Transform
+---@field boneName CName
+---@field modelSpaceTransform Transform
 scneventsAttachPropToWorldCachedFallbackBone = {}
 
 ---@param fields? scneventsAttachPropToWorldCachedFallbackBone
 ---@return scneventsAttachPropToWorldCachedFallbackBone
-function scneventsAttachPropToWorldCachedFallbackBone.new(fields) return end
+function scneventsAttachPropToWorldCachedFallbackBone.new(fields) end

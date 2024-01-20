@@ -5,4 +5,4 @@ CBaseEngine = {}
 
 ---@param fields? CBaseEngine
 ---@return CBaseEngine
-function CBaseEngine.new(fields) return end
+function CBaseEngine.new(fields) end

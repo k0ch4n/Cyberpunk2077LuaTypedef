@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class RemoveDOTStatusEffectsEffector: gameEffector
----@field protected ownerEntityID entEntityID
----@field protected delay Float
+---@field ownerEntityID entEntityID
+---@field delay Float
 RemoveDOTStatusEffectsEffector = {}
 
 ---@param fields? RemoveDOTStatusEffectsEffector
 ---@return RemoveDOTStatusEffectsEffector
-function RemoveDOTStatusEffectsEffector.new(fields) return end
+function RemoveDOTStatusEffectsEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RemoveDOTStatusEffectsEffector:ActionOn(owner) return end
+function RemoveDOTStatusEffectsEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function RemoveDOTStatusEffectsEffector:Initialize(record, parentRecord) return end
+function RemoveDOTStatusEffectsEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function RemoveDOTStatusEffectsEffector:Uninitialize() return end
+function RemoveDOTStatusEffectsEffector:Uninitialize() end

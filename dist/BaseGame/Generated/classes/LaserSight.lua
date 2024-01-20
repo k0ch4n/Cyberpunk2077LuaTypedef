@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class LaserSight: Attack_Beam
----@field private previousTarget entEntity
+---@field previousTarget entEntity
 LaserSight = {}
 
 ---@param fields? LaserSight
 ---@return LaserSight
-function LaserSight.new(fields) return end
+function LaserSight.new(fields) end
 
----@private
 ---@param weapon gameweaponObject
 ---@param target entEntity
 ---@return nil
-function LaserSight:HandleTargetEvents(weapon, target) return end
+function LaserSight:HandleTargetEvents(weapon, target) end
 
 ---@param weapon gameweaponObject
 ---@return nil
-function LaserSight:OnStop(weapon) return end
+function LaserSight:OnStop(weapon) end
 
 ---@param weapon gameweaponObject
 ---@return nil
-function LaserSight:OnTick(weapon) return end
+function LaserSight:OnTick(weapon) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AICNameArgumentInstancePS: AIArgumentInstancePS
----@field public value CName
+---@field value CName
 AICNameArgumentInstancePS = {}
 
 ---@param fields? AICNameArgumentInstancePS
 ---@return AICNameArgumentInstancePS
-function AICNameArgumentInstancePS.new(fields) return end
+function AICNameArgumentInstancePS.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class interopOpaqueData
----@field public description String
----@field public payload String
----@field public version Int32
+---@field description String
+---@field payload String
+---@field version Int32
 interopOpaqueData = {}
 
 ---@param fields? interopOpaqueData
 ---@return interopOpaqueData
-function interopOpaqueData.new(fields) return end
+function interopOpaqueData.new(fields) end

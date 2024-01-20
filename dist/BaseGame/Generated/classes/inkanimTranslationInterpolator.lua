@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkanimTranslationInterpolator: inkanimInterpolator
----@field public startValue Vector2
----@field public endValue Vector2
+---@field startValue Vector2
+---@field endValue Vector2
 inkanimTranslationInterpolator = {}
 
 ---@param fields? inkanimTranslationInterpolator
 ---@return inkanimTranslationInterpolator
-function inkanimTranslationInterpolator.new(fields) return end
+function inkanimTranslationInterpolator.new(fields) end
 
 ---@return Vector2
-function inkanimTranslationInterpolator:GetEndTranslation() return end
+function inkanimTranslationInterpolator:GetEndTranslation() end
 
 ---@return Vector2
-function inkanimTranslationInterpolator:GetStartTranslation() return end
+function inkanimTranslationInterpolator:GetStartTranslation() end
 
 ---@param endTranslation Vector2
 ---@return nil
-function inkanimTranslationInterpolator:SetEndTranslation(endTranslation) return end
+function inkanimTranslationInterpolator:SetEndTranslation(endTranslation) end
 
 ---@param startTranslation Vector2
 ---@return nil
-function inkanimTranslationInterpolator:SetStartTranslation(startTranslation) return end
+function inkanimTranslationInterpolator:SetStartTranslation(startTranslation) end

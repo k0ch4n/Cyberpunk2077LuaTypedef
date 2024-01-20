@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class senseVisibleObjectSecondaryPositionEvent: redEvent
----@field public offset Vector3
+---@field offset Vector3
 senseVisibleObjectSecondaryPositionEvent = {}
 
 ---@param fields? senseVisibleObjectSecondaryPositionEvent
 ---@return senseVisibleObjectSecondaryPositionEvent
-function senseVisibleObjectSecondaryPositionEvent.new(fields) return end
+function senseVisibleObjectSecondaryPositionEvent.new(fields) end

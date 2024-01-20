@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class vehiclePatrolNearbyStrategyRequest: vehicleBaseStrategyRequest
----@field public angleRange Vector2
+---@field angleRange Vector2
 vehiclePatrolNearbyStrategyRequest = {}
 
 ---@param fields? vehiclePatrolNearbyStrategyRequest
 ---@return vehiclePatrolNearbyStrategyRequest
-function vehiclePatrolNearbyStrategyRequest.new(fields) return end
+function vehiclePatrolNearbyStrategyRequest.new(fields) end
 
 ---@param spawnDistanceRange Vector2
 ---@param spawnAngleRange Vector2
 ---@return vehiclePatrolNearbyStrategyRequest
-function vehiclePatrolNearbyStrategyRequest.Create(spawnDistanceRange, spawnAngleRange) return end
+function vehiclePatrolNearbyStrategyRequest.Create(spawnDistanceRange, spawnAngleRange) end

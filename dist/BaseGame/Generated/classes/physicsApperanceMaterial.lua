@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class physicsApperanceMaterial
----@field public apperanceName CName
----@field public materialFrom CName
----@field public material CName
+---@field apperanceName CName
+---@field materialFrom CName
+---@field material CName
 physicsApperanceMaterial = {}
 
 ---@param fields? physicsApperanceMaterial
 ---@return physicsApperanceMaterial
-function physicsApperanceMaterial.new(fields) return end
+function physicsApperanceMaterial.new(fields) end

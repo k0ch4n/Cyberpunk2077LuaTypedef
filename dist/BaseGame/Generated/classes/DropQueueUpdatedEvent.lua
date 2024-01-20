@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DropQueueUpdatedEvent: redEvent
----@field public dropQueue gameItemModParams[]
+---@field dropQueue gameItemModParams[]
 DropQueueUpdatedEvent = {}
 
 ---@param fields? DropQueueUpdatedEvent
 ---@return DropQueueUpdatedEvent
-function DropQueueUpdatedEvent.new(fields) return end
+function DropQueueUpdatedEvent.new(fields) end

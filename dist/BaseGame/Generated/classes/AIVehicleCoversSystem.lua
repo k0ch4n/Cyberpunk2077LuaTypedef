@@ -5,4 +5,4 @@ AIVehicleCoversSystem = {}
 
 ---@param fields? AIVehicleCoversSystem
 ---@return AIVehicleCoversSystem
-function AIVehicleCoversSystem.new(fields) return end
+function AIVehicleCoversSystem.new(fields) end

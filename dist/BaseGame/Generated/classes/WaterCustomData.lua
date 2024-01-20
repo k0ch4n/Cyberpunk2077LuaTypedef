@@ -5,4 +5,4 @@ WaterCustomData = {}
 
 ---@param fields? WaterCustomData
 ---@return WaterCustomData
-function WaterCustomData.new(fields) return end
+function WaterCustomData.new(fields) end

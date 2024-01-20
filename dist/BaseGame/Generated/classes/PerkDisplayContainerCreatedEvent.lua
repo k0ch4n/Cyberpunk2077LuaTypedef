@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PerkDisplayContainerCreatedEvent: redEvent
----@field public index Int32
----@field public isTrait Bool
----@field public container PerkDisplayContainerController
+---@field index Int32
+---@field isTrait Bool
+---@field container PerkDisplayContainerController
 PerkDisplayContainerCreatedEvent = {}
 
 ---@param fields? PerkDisplayContainerCreatedEvent
 ---@return PerkDisplayContainerCreatedEvent
-function PerkDisplayContainerCreatedEvent.new(fields) return end
+function PerkDisplayContainerCreatedEvent.new(fields) end

@@ -5,4 +5,4 @@ gameEffectObjectFilter_NoDuplicates = {}
 
 ---@param fields? gameEffectObjectFilter_NoDuplicates
 ---@return gameEffectObjectFilter_NoDuplicates
-function gameEffectObjectFilter_NoDuplicates.new(fields) return end
+function gameEffectObjectFilter_NoDuplicates.new(fields) end

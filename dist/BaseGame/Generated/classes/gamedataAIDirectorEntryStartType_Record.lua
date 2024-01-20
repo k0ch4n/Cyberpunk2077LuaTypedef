@@ -5,10 +5,10 @@ gamedataAIDirectorEntryStartType_Record = {}
 
 ---@param fields? gamedataAIDirectorEntryStartType_Record
 ---@return gamedataAIDirectorEntryStartType_Record
-function gamedataAIDirectorEntryStartType_Record.new(fields) return end
+function gamedataAIDirectorEntryStartType_Record.new(fields) end
 
 ---@return CName
-function gamedataAIDirectorEntryStartType_Record:EnumName() return end
+function gamedataAIDirectorEntryStartType_Record:EnumName() end
 
 ---@return gamedataAIDirectorEntryStartType
-function gamedataAIDirectorEntryStartType_Record:Type() return end
+function gamedataAIDirectorEntryStartType_Record:Type() end

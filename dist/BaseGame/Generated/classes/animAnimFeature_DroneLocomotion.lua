@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animAnimFeature_DroneLocomotion: animAnimFeature
----@field public speed Float
----@field public angularSpeed Float
----@field public lookAtAngle Float
----@field public desiredSpeed Float
----@field public pathCurvative Float
+---@field speed Float
+---@field angularSpeed Float
+---@field lookAtAngle Float
+---@field desiredSpeed Float
+---@field pathCurvative Float
 animAnimFeature_DroneLocomotion = {}
 
 ---@param fields? animAnimFeature_DroneLocomotion
 ---@return animAnimFeature_DroneLocomotion
-function animAnimFeature_DroneLocomotion.new(fields) return end
+function animAnimFeature_DroneLocomotion.new(fields) end

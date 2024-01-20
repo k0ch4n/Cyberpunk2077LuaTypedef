@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class senseVisibilityPartsEvent: redEvent
----@field public target gameObject
----@field public isPrimaryVisible Bool
----@field public isSecondaryVisible Bool
----@field public description CName
+---@field target gameObject
+---@field isPrimaryVisible Bool
+---@field isSecondaryVisible Bool
+---@field description CName
 senseVisibilityPartsEvent = {}
 
 ---@param fields? senseVisibilityPartsEvent
 ---@return senseVisibilityPartsEvent
-function senseVisibilityPartsEvent.new(fields) return end
+function senseVisibilityPartsEvent.new(fields) end

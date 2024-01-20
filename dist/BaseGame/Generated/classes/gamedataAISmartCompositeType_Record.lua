@@ -5,22 +5,22 @@ gamedataAISmartCompositeType_Record = {}
 
 ---@param fields? gamedataAISmartCompositeType_Record
 ---@return gamedataAISmartCompositeType_Record
-function gamedataAISmartCompositeType_Record.new(fields) return end
+function gamedataAISmartCompositeType_Record.new(fields) end
 
 ---@return String
-function gamedataAISmartCompositeType_Record:EnumComment() return end
+function gamedataAISmartCompositeType_Record:EnumComment() end
 
 ---@return CName
-function gamedataAISmartCompositeType_Record:EnumName() return end
+function gamedataAISmartCompositeType_Record:EnumName() end
 
 ---@return Bool
-function gamedataAISmartCompositeType_Record:HasMemory() return end
+function gamedataAISmartCompositeType_Record:HasMemory() end
 
 ---@return Bool
-function gamedataAISmartCompositeType_Record:IncrementIteratorOnDeactivation() return end
+function gamedataAISmartCompositeType_Record:IncrementIteratorOnDeactivation() end
 
 ---@return Bool
-function gamedataAISmartCompositeType_Record:RandomizeIteratorOnReset() return end
+function gamedataAISmartCompositeType_Record:RandomizeIteratorOnReset() end
 
 ---@return gamedataAISmartCompositeType
-function gamedataAISmartCompositeType_Record:Type() return end
+function gamedataAISmartCompositeType_Record:Type() end

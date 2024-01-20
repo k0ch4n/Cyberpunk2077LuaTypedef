@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameJournalChoiceEntryData
----@field public entryPath gameJournalPath
+---@field entryPath gameJournalPath
 gameJournalChoiceEntryData = {}
 
 ---@param fields? gameJournalChoiceEntryData
 ---@return gameJournalChoiceEntryData
-function gameJournalChoiceEntryData.new(fields) return end
+function gameJournalChoiceEntryData.new(fields) end

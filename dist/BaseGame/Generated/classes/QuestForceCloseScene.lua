@@ -5,7 +5,7 @@ QuestForceCloseScene = {}
 
 ---@param fields? QuestForceCloseScene
 ---@return QuestForceCloseScene
-function QuestForceCloseScene.new(fields) return end
+function QuestForceCloseScene.new(fields) end
 
 ---@return nil
-function QuestForceCloseScene:SetProperties() return end
+function QuestForceCloseScene:SetProperties() end

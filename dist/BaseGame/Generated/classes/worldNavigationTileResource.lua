@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldNavigationTileResource: resStreamedResource
----@field public localBoundingBox Box
----@field public tilesData worldNavigationTileData[]
----@field public tileBuffers DataBuffer[]
----@field public agentSize NavGenAgentSize
+---@field localBoundingBox Box
+---@field tilesData worldNavigationTileData[]
+---@field tileBuffers DataBuffer[]
+---@field agentSize NavGenAgentSize
 worldNavigationTileResource = {}
 
 ---@param fields? worldNavigationTileResource
 ---@return worldNavigationTileResource
-function worldNavigationTileResource.new(fields) return end
+function worldNavigationTileResource.new(fields) end

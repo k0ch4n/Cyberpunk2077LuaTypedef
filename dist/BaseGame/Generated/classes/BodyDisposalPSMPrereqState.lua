@@ -5,4 +5,4 @@ BodyDisposalPSMPrereqState = {}
 
 ---@param fields? BodyDisposalPSMPrereqState
 ---@return BodyDisposalPSMPrereqState
-function BodyDisposalPSMPrereqState.new(fields) return end
+function BodyDisposalPSMPrereqState.new(fields) end

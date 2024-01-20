@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entFootPlantedEvent: redEvent
----@field public customAction CName
----@field public footSide animEventSide
+---@field customAction CName
+---@field footSide animEventSide
 entFootPlantedEvent = {}
 
 ---@param fields? entFootPlantedEvent
 ---@return entFootPlantedEvent
-function entFootPlantedEvent.new(fields) return end
+function entFootPlantedEvent.new(fields) end

@@ -1,136 +1,115 @@
 ---@meta
 
 ---@class questLogV2GameController: gameuiMenuGameController
----@field private QuestDetailsRef inkWidgetReference
----@field private QuestDetailsHeader inkWidgetReference
----@field private OptinalObjectivesGroupRef inkWidgetReference
----@field private CompletedObjectivesGroupRef inkWidgetReference
----@field private QuestListRef inkCompoundWidgetReference
----@field private ObjectivesListRef inkCompoundWidgetReference
----@field private OptinalObjectivesListRef inkCompoundWidgetReference
----@field private CompletedObjectivesListRef inkCompoundWidgetReference
----@field private QuestTitleRef inkTextWidgetReference
----@field private QuestDescriptionRef inkTextWidgetReference
----@field private recommendedLevel inkTextWidgetReference
----@field private rewardsList inkCompoundWidgetReference
----@field private codexLinksList inkCompoundWidgetReference
----@field private CodexEntryParent inkCompoundWidgetReference
----@field private CodexButtonRef inkCompoundWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private codexLibraryPath redResourceReferenceScriptToken
----@field private ObjectiveViewName CName
----@field private QuestGroupName CName
----@field private JournalWrapper JournalWrapper
----@field private CurrentQuestData QuestDataWrapper
----@field private ObjectiveItems ObjectiveController[]
----@field private QuestLists QuestListController[]
----@field private CodexLinksListController inkListController
----@field private codexButton inkButtonController
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private buttonHintsController ButtonHints
+---@field QuestDetailsRef inkWidgetReference
+---@field QuestDetailsHeader inkWidgetReference
+---@field OptinalObjectivesGroupRef inkWidgetReference
+---@field CompletedObjectivesGroupRef inkWidgetReference
+---@field QuestListRef inkCompoundWidgetReference
+---@field ObjectivesListRef inkCompoundWidgetReference
+---@field OptinalObjectivesListRef inkCompoundWidgetReference
+---@field CompletedObjectivesListRef inkCompoundWidgetReference
+---@field QuestTitleRef inkTextWidgetReference
+---@field QuestDescriptionRef inkTextWidgetReference
+---@field recommendedLevel inkTextWidgetReference
+---@field rewardsList inkCompoundWidgetReference
+---@field codexLinksList inkCompoundWidgetReference
+---@field CodexEntryParent inkCompoundWidgetReference
+---@field CodexButtonRef inkCompoundWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field codexLibraryPath redResourceReferenceScriptToken
+---@field ObjectiveViewName CName
+---@field QuestGroupName CName
+---@field JournalWrapper JournalWrapper
+---@field CurrentQuestData QuestDataWrapper
+---@field ObjectiveItems ObjectiveController[]
+---@field QuestLists QuestListController[]
+---@field CodexLinksListController inkListController
+---@field codexButton inkButtonController
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field buttonHintsController ButtonHints
 questLogV2GameController = {}
 
 ---@param fields? questLogV2GameController
 ---@return questLogV2GameController
-function questLogV2GameController.new(fields) return end
+function questLogV2GameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function questLogV2GameController:OnActiveQuestChanged(widget) return end
+function questLogV2GameController:OnActiveQuestChanged(widget) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function questLogV2GameController:OnBack(userData) return end
+function questLogV2GameController:OnBack(userData) end
 
----@protected
 ---@param index Int32
 ---@param target inkListItemController
 ---@return Bool
-function questLogV2GameController:OnCodexLinkClicked(index, target) return end
+function questLogV2GameController:OnCodexLinkClicked(index, target) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function questLogV2GameController:OnCodexOpenButtonClicked(e) return end
+function questLogV2GameController:OnCodexOpenButtonClicked(e) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function questLogV2GameController:OnHoverOut(evt) return end
+function questLogV2GameController:OnHoverOut(evt) end
 
----@protected
 ---@return Bool
-function questLogV2GameController:OnInitialize() return end
+function questLogV2GameController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function questLogV2GameController:OnObjectiveHover(evt) return end
+function questLogV2GameController:OnObjectiveHover(evt) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function questLogV2GameController:OnPlayerAttach(playerPuppet) return end
+function questLogV2GameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function questLogV2GameController:OnQuestHover(evt) return end
+function questLogV2GameController:OnQuestHover(evt) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function questLogV2GameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function questLogV2GameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function questLogV2GameController:OnTrackingRequest(widget) return end
+function questLogV2GameController:OnTrackingRequest(widget) end
 
----@protected
 ---@param evt QuestTrackingEvent
 ---@return Bool
-function questLogV2GameController:OnTrackingRequestEvent(evt) return end
+function questLogV2GameController:OnTrackingRequestEvent(evt) end
 
----@protected
 ---@return Bool
-function questLogV2GameController:OnUninitialize() return end
+function questLogV2GameController:OnUninitialize() end
 
----@private
 ---@return nil
-function questLogV2GameController:AddQuestObjective() return end
+function questLogV2GameController:AddQuestObjective() end
 
----@private
 ---@return nil
-function questLogV2GameController:BuildQuestDetails() return end
+function questLogV2GameController:BuildQuestDetails() end
 
----@private
 ---@return nil
-function questLogV2GameController:BuildQuestList() return end
+function questLogV2GameController:BuildQuestList() end
 
----@private
 ---@param questType gameJournalQuestType
 ---@param questLOCKey String
 ---@return nil
-function questLogV2GameController:CreateQuestGroup(questType, questLOCKey) return end
+function questLogV2GameController:CreateQuestGroup(questType, questLOCKey) end
 
----@private
 ---@param currQuestData QuestDataWrapper
 ---@return nil
-function questLogV2GameController:CreateQuestObjectives(currQuestData) return end
+function questLogV2GameController:CreateQuestObjectives(currQuestData) end
 
----@private
 ---@param entry gameJournalCodexEntry
 ---@return nil
-function questLogV2GameController:OpenEntry(entry) return end
+function questLogV2GameController:OpenEntry(entry) end
 
----@private
 ---@return nil
-function questLogV2GameController:RefreshUI() return end
+function questLogV2GameController:RefreshUI() end
 
----@private
 ---@param index Int32
 ---@return nil
-function questLogV2GameController:RemoveQuestObjective(index) return end
+function questLogV2GameController:RemoveQuestObjective(index) end

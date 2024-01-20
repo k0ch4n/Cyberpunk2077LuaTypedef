@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class animAnimNode_WorkspotHub: animAnimNode_Base
----@field public additionalLinkIds workWorkEntryId[]
----@field public additionalLinks animPoseLink[]
----@field public animLoopEventName CName
----@field public isCoverHubHack Bool
----@field public eventFilterType animEventFilterType
----@field public mainEmotionalState CName
----@field public emotionalExpression CName
----@field public facialKeyWeight Float
----@field public facialIdleMaleAnimation CName
----@field public facialIdleKey_MaleAnimation CName
----@field public facialIdleFemaleAnimation CName
----@field public facialIdleKey_FemaleAnimation CName
+---@field additionalLinkIds workWorkEntryId[]
+---@field additionalLinks animPoseLink[]
+---@field animLoopEventName CName
+---@field isCoverHubHack Bool
+---@field eventFilterType animEventFilterType
+---@field mainEmotionalState CName
+---@field emotionalExpression CName
+---@field facialKeyWeight Float
+---@field facialIdleMaleAnimation CName
+---@field facialIdleKey_MaleAnimation CName
+---@field facialIdleFemaleAnimation CName
+---@field facialIdleKey_FemaleAnimation CName
 animAnimNode_WorkspotHub = {}
 
 ---@param fields? animAnimNode_WorkspotHub
 ---@return animAnimNode_WorkspotHub
-function animAnimNode_WorkspotHub.new(fields) return end
+function animAnimNode_WorkspotHub.new(fields) end

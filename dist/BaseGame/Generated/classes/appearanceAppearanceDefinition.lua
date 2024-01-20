@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class appearanceAppearanceDefinition: ISerializable
----@field public name CName
----@field public parentAppearance CName
----@field public partsMasks CName[][]
----@field public partsValues appearanceAppearancePart[]
----@field public partsOverrides appearanceAppearancePartOverrides[]
----@field public proxyMesh CMesh
----@field public forcedLodDistance Uint8
----@field public proxyMeshAppearance CName
----@field public cookedDataPathOverride CResource
----@field public parametersBuffer entEntityParametersBuffer
----@field public visualTags redTagList
----@field public inheritedVisualTags redTagList
----@field public hitRepresentationOverrides gameHitRepresentationOverride[]
----@field public compiledData serializationDeferredDataBuffer
----@field public resolvedDependencies CResource[]
----@field public looseDependencies CResource[]
----@field public censorFlags Uint32
+---@field name CName
+---@field parentAppearance CName
+---@field partsMasks CName[][]
+---@field partsValues appearanceAppearancePart[]
+---@field partsOverrides appearanceAppearancePartOverrides[]
+---@field proxyMesh CMesh
+---@field forcedLodDistance Uint8
+---@field proxyMeshAppearance CName
+---@field cookedDataPathOverride CResource
+---@field parametersBuffer entEntityParametersBuffer
+---@field visualTags redTagList
+---@field inheritedVisualTags redTagList
+---@field hitRepresentationOverrides gameHitRepresentationOverride[]
+---@field compiledData serializationDeferredDataBuffer
+---@field resolvedDependencies CResource[]
+---@field looseDependencies CResource[]
+---@field censorFlags Uint32
 appearanceAppearanceDefinition = {}
 
 ---@param fields? appearanceAppearanceDefinition
 ---@return appearanceAppearanceDefinition
-function appearanceAppearanceDefinition.new(fields) return end
+function appearanceAppearanceDefinition.new(fields) end

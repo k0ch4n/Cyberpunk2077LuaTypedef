@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamePrereqDefinition
----@field public prereqName CName
----@field public prereq gameIPrereq
+---@field prereqName CName
+---@field prereq gameIPrereq
 gamePrereqDefinition = {}
 
 ---@param fields? gamePrereqDefinition
 ---@return gamePrereqDefinition
-function gamePrereqDefinition.new(fields) return end
+function gamePrereqDefinition.new(fields) end

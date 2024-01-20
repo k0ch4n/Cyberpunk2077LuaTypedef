@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HackLoopReportPlayerLocationRequest: gameScriptableSystemRequest
----@field public state VehiclePreventionHackState
+---@field state VehiclePreventionHackState
 HackLoopReportPlayerLocationRequest = {}
 
 ---@param fields? HackLoopReportPlayerLocationRequest
 ---@return HackLoopReportPlayerLocationRequest
-function HackLoopReportPlayerLocationRequest.new(fields) return end
+function HackLoopReportPlayerLocationRequest.new(fields) end

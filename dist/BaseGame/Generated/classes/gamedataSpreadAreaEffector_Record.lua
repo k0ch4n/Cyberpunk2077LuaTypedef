@@ -5,28 +5,28 @@ gamedataSpreadAreaEffector_Record = {}
 
 ---@param fields? gamedataSpreadAreaEffector_Record
 ---@return gamedataSpreadAreaEffector_Record
-function gamedataSpreadAreaEffector_Record.new(fields) return end
+function gamedataSpreadAreaEffector_Record.new(fields) end
 
 ---@return Int32
-function gamedataSpreadAreaEffector_Record:GetObjectActionsCount() return end
+function gamedataSpreadAreaEffector_Record:GetObjectActionsCount() end
 
 ---@param index Int32
 ---@return gamedataObjectAction_Record
-function gamedataSpreadAreaEffector_Record:GetObjectActionsItem(index) return end
+function gamedataSpreadAreaEffector_Record:GetObjectActionsItem(index) end
 
 ---@param index Int32
 ---@return gamedataObjectAction_Record
-function gamedataSpreadAreaEffector_Record:GetObjectActionsItemHandle(index) return end
+function gamedataSpreadAreaEffector_Record:GetObjectActionsItemHandle(index) end
 
 ---@return Int32
-function gamedataSpreadAreaEffector_Record:MaxTargetNum() return end
+function gamedataSpreadAreaEffector_Record:MaxTargetNum() end
 
 ---@return nil, gamedataObjectAction_Record[] outList
-function gamedataSpreadAreaEffector_Record:ObjectActions() return end
+function gamedataSpreadAreaEffector_Record:ObjectActions() end
 
 ---@param item gamedataObjectAction_Record
 ---@return Bool
-function gamedataSpreadAreaEffector_Record:ObjectActionsContains(item) return end
+function gamedataSpreadAreaEffector_Record:ObjectActionsContains(item) end
 
 ---@return Float
-function gamedataSpreadAreaEffector_Record:Range() return end
+function gamedataSpreadAreaEffector_Record:Range() end

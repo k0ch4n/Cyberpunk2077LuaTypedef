@@ -5,4 +5,4 @@ inkDefaultCallback = {}
 
 ---@param fields? inkDefaultCallback
 ---@return inkDefaultCallback
-function inkDefaultCallback.new(fields) return end
+function inkDefaultCallback.new(fields) end

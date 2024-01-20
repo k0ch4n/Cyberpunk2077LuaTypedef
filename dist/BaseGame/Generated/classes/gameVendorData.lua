@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameVendorData
----@field public vendorId String
----@field public entityID entEntityID
----@field public isActive Bool
+---@field vendorId String
+---@field entityID entEntityID
+---@field isActive Bool
 gameVendorData = {}
 
 ---@param fields? gameVendorData
 ---@return gameVendorData
-function gameVendorData.new(fields) return end
+function gameVendorData.new(fields) end

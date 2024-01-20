@@ -1,63 +1,52 @@
 ---@meta
 
 ---@class RoboticArms: InteractiveDevice
----@field public workSFX CName
----@field public distractSFX CName
----@field private animationController entAnimationControllerComponent
----@field private animFeature AnimFeature_RoboticArm
+---@field workSFX CName
+---@field distractSFX CName
+---@field animationController entAnimationControllerComponent
+---@field animFeature AnimFeature_RoboticArm
 RoboticArms = {}
 
 ---@param fields? RoboticArms
 ---@return RoboticArms
-function RoboticArms.new(fields) return end
+function RoboticArms.new(fields) end
 
----@protected
 ---@param evt QuickHackDistraction
 ---@return Bool
-function RoboticArms:OnQuickHackDistraction(evt) return end
+function RoboticArms:OnQuickHackDistraction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function RoboticArms:OnRequestComponents(ri) return end
+function RoboticArms:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function RoboticArms:OnTakeControl(ri) return end
+function RoboticArms:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function RoboticArms:DeterminGameplayRole() return end
+function RoboticArms:DeterminGameplayRole() end
 
----@private
 ---@return nil
-function RoboticArms:PlayDistractSFX() return end
+function RoboticArms:PlayDistractSFX() end
 
----@private
 ---@return nil
-function RoboticArms:PlayWorkSFX() return end
+function RoboticArms:PlayWorkSFX() end
 
----@protected
 ---@return nil
-function RoboticArms:ResolveGameplayState() return end
+function RoboticArms:ResolveGameplayState() end
 
----@private
 ---@param state RoboticArmStateType
 ---@return nil
-function RoboticArms:SetAnimationState(state) return end
+function RoboticArms:SetAnimationState(state) end
 
----@private
 ---@return nil
-function RoboticArms:SetDistractState() return end
+function RoboticArms:SetDistractState() end
 
----@private
 ---@return nil
-function RoboticArms:SetWorkState() return end
+function RoboticArms:SetWorkState() end
 
----@private
 ---@return nil
-function RoboticArms:StopDistractSFX() return end
+function RoboticArms:StopDistractSFX() end
 
----@private
 ---@return nil
-function RoboticArms:StopWorkSFX() return end
+function RoboticArms:StopWorkSFX() end

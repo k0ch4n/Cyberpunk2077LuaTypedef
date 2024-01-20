@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AICTreeNodeSingleSharedVarDecoratorDefinition: AICTreeNodeSharedVarsBaseDecoratorDefinition
----@field public sharedVarName LibTreeSharedVarRegistrationName
+---@field sharedVarName LibTreeSharedVarRegistrationName
 AICTreeNodeSingleSharedVarDecoratorDefinition = {}

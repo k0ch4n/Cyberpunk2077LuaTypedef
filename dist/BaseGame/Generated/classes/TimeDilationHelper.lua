@@ -5,52 +5,52 @@ TimeDilationHelper = {}
 
 ---@param fields? TimeDilationHelper
 ---@return TimeDilationHelper
-function TimeDilationHelper.new(fields) return end
+function TimeDilationHelper.new(fields) end
 
 ---@param playerGameObject gameObject
 ---@return Bool
-function TimeDilationHelper.CanUseTimeDilation(playerGameObject) return end
+function TimeDilationHelper.CanUseTimeDilation(playerGameObject) end
 
 ---@param tweakDBPath String
 ---@param paramName String
 ---@return CName
-function TimeDilationHelper.GetCNameFromTimeSystemTweak(tweakDBPath, paramName) return end
+function TimeDilationHelper.GetCNameFromTimeSystemTweak(tweakDBPath, paramName) end
 
 ---@param tweakDBPath String
 ---@param paramName String
 ---@return Float
-function TimeDilationHelper.GetFloatFromTimeSystemTweak(tweakDBPath, paramName) return end
+function TimeDilationHelper.GetFloatFromTimeSystemTweak(tweakDBPath, paramName) end
 
 ---@return CName
-function TimeDilationHelper.GetFocusModeKey() return end
+function TimeDilationHelper.GetFocusModeKey() end
 
 ---@return CName
-function TimeDilationHelper.GetFocusedStateKey() return end
+function TimeDilationHelper.GetFocusedStateKey() end
 
 ---@return CName
-function TimeDilationHelper.GetKerenzikovKey() return end
+function TimeDilationHelper.GetKerenzikovKey() end
 
 ---@return CName
-function TimeDilationHelper.GetSandevistanKey() return end
+function TimeDilationHelper.GetSandevistanKey() end
 
 ---@return CName
-function TimeDilationHelper.GetSandevistanVersusSandevistanKey() return end
+function TimeDilationHelper.GetSandevistanVersusSandevistanKey() end
 
 ---@return CName
-function TimeDilationHelper.GetTimeDilationKey() return end
+function TimeDilationHelper.GetTimeDilationKey() end
 
 ---@param profileName String
 ---@return nil, TimeDilationParameters timeDilationParameters
-function TimeDilationHelper.GetTimeDilationParameters(profileName) return end
+function TimeDilationHelper.GetTimeDilationParameters(profileName) end
 
 ---@param requester gameObject
 ---@return Bool
-function TimeDilationHelper.RestorePreviousIgnoreTimeDilationOnLocalPlayerZero(requester) return end
+function TimeDilationHelper.RestorePreviousIgnoreTimeDilationOnLocalPlayerZero(requester) end
 
 ---@param requester gameObject
 ---@param ignore Bool
 ---@return Bool
-function TimeDilationHelper.SetIgnoreTimeDilationOnLocalPlayerZero(requester, ignore) return end
+function TimeDilationHelper.SetIgnoreTimeDilationOnLocalPlayerZero(requester, ignore) end
 
 ---@param target gameObject
 ---@param reason CName|string
@@ -59,7 +59,7 @@ function TimeDilationHelper.SetIgnoreTimeDilationOnLocalPlayerZero(requester, ig
 ---@param easeInCurve? CName|string
 ---@param easeOutCurve? CName|string
 ---@return Bool
-function TimeDilationHelper.SetIndividualTimeDilation(target, reason, timeDilation, duration, easeInCurve, easeOutCurve) return end
+function TimeDilationHelper.SetIndividualTimeDilation(target, reason, timeDilation, duration, easeInCurve, easeOutCurve) end
 
 ---@param requester gameObject
 ---@param reason CName|string
@@ -70,7 +70,7 @@ function TimeDilationHelper.SetIndividualTimeDilation(target, reason, timeDilati
 ---@param allowMultipleTimeDilationSimultaneously Bool
 ---@param listener? tickScriptTimeDilationListener
 ---@return Bool
-function TimeDilationHelper.SetTimeDilation(requester, reason, timeDilation, duration, easeInCurve, easeOutCurve, allowMultipleTimeDilationSimultaneously, listener) return end
+function TimeDilationHelper.SetTimeDilation(requester, reason, timeDilation, duration, easeInCurve, easeOutCurve, allowMultipleTimeDilationSimultaneously, listener) end
 
 ---@param requester gameObject
 ---@param reason CName|string
@@ -81,28 +81,28 @@ function TimeDilationHelper.SetTimeDilation(requester, reason, timeDilation, dur
 ---@param allowMultipleTimeDilationSimultaneously Bool
 ---@param listener? tickScriptTimeDilationListener
 ---@return Bool
-function TimeDilationHelper.SetTimeDilationOnPlayer(requester, reason, timeDilation, duration, easeInCurve, easeOutCurve, allowMultipleTimeDilationSimultaneously, listener) return end
+function TimeDilationHelper.SetTimeDilationOnPlayer(requester, reason, timeDilation, duration, easeInCurve, easeOutCurve, allowMultipleTimeDilationSimultaneously, listener) end
 
 ---@param requester gameObject
 ---@param profileName String
 ---@param enable Bool
 ---@param allowMultipleTimeDilationSimultaneously Bool
 ---@return Bool
-function TimeDilationHelper.SetTimeDilationWithProfile(requester, profileName, enable, allowMultipleTimeDilationSimultaneously) return end
+function TimeDilationHelper.SetTimeDilationWithProfile(requester, profileName, enable, allowMultipleTimeDilationSimultaneously) end
 
 ---@param requester gameObject
 ---@param reason? CName|string
 ---@param easeOutCurve? CName|string
 ---@return Bool
-function TimeDilationHelper.UnSetTimeDilation(requester, reason, easeOutCurve) return end
+function TimeDilationHelper.UnSetTimeDilation(requester, reason, easeOutCurve) end
 
 ---@param requester gameObject
 ---@param reason? CName|string
 ---@param easeOutCurve? CName|string
 ---@return Bool
-function TimeDilationHelper.UnSetTimeDilationOnPlayer(requester, reason, easeOutCurve) return end
+function TimeDilationHelper.UnSetTimeDilationOnPlayer(requester, reason, easeOutCurve) end
 
 ---@param target gameObject
 ---@param easeOutCurve? CName|string
 ---@return Bool
-function TimeDilationHelper.UnsetIndividualTimeDilation(target, easeOutCurve) return end
+function TimeDilationHelper.UnsetIndividualTimeDilation(target, easeOutCurve) end

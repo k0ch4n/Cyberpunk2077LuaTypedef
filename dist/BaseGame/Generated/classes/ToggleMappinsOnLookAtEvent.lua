@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ToggleMappinsOnLookAtEvent: redEvent
----@field public state Bool
+---@field state Bool
 ToggleMappinsOnLookAtEvent = {}
 
 ---@param fields? ToggleMappinsOnLookAtEvent
 ---@return ToggleMappinsOnLookAtEvent
-function ToggleMappinsOnLookAtEvent.new(fields) return end
+function ToggleMappinsOnLookAtEvent.new(fields) end

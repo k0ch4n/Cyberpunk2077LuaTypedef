@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldWorldEnvironmentAreaParameters
----@field public enable Bool
----@field public globalLight worldWorldGlobalLightParameters
+---@field enable Bool
+---@field globalLight worldWorldGlobalLightParameters
 worldWorldEnvironmentAreaParameters = {}
 
 ---@param fields? worldWorldEnvironmentAreaParameters
 ---@return worldWorldEnvironmentAreaParameters
-function worldWorldEnvironmentAreaParameters.new(fields) return end
+function worldWorldEnvironmentAreaParameters.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scneventsEquipItemToPerformer: scnSceneEvent
----@field public performerId scnPerformerId
----@field public slotId TweakDBID
----@field public itemId TweakDBID
+---@field performerId scnPerformerId
+---@field slotId TweakDBID
+---@field itemId TweakDBID
 scneventsEquipItemToPerformer = {}
 
 ---@param fields? scneventsEquipItemToPerformer
 ---@return scneventsEquipItemToPerformer
-function scneventsEquipItemToPerformer.new(fields) return end
+function scneventsEquipItemToPerformer.new(fields) end

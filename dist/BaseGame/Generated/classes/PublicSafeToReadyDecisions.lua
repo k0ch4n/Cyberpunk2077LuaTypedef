@@ -5,10 +5,9 @@ PublicSafeToReadyDecisions = {}
 
 ---@param fields? PublicSafeToReadyDecisions
 ---@return PublicSafeToReadyDecisions
-function PublicSafeToReadyDecisions.new(fields) return end
+function PublicSafeToReadyDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PublicSafeToReadyDecisions:ToReady(stateContext, scriptInterface) return end
+function PublicSafeToReadyDecisions:ToReady(stateContext, scriptInterface) end

@@ -1,99 +1,85 @@
 ---@meta
 
 ---@class vehicleDebugUIGameController: gameuiBaseVehicleHUDGameController
----@field private vehicleBlackboard gameIBlackboard
----@field private vehicleBBStateConectionId redCallbackObject
----@field private mountBBConnectionId redCallbackObject
----@field private speedBBConnectionId redCallbackObject
----@field private gearBBConnectionId redCallbackObject
----@field private rpmValueBBConnectionId redCallbackObject
----@field private rpmMaxBBConnectionId redCallbackObject
----@field private radioStateBBConnectionId redCallbackObject
----@field private radioNameBBConnectionId redCallbackObject
----@field private radioState Bool
----@field private radioName CName
----@field private radioStateWidget inkTextWidget
----@field private radioNameWidget inkTextWidget
----@field private autopilotOnId redCallbackObject
----@field private rootWidget inkCanvasWidget
----@field private speedTextWidget inkTextWidget
----@field private gearTextWidget inkTextWidget
----@field private rpmValueWidget inkTextWidget
----@field private rpmGaugeForegroundWidget inkRectangleWidget
----@field private rpmGaugeMaxSize Vector2
----@field private rpmMinValue Float
----@field private rpmMaxValue Float
----@field private rpmMaxValueInitialized Bool
----@field private autopilotTextWidget inkTextWidget
----@field private isInAutoPilot Bool
----@field private useDebugUI Bool
+---@field vehicleBlackboard gameIBlackboard
+---@field vehicleBBStateConectionId redCallbackObject
+---@field mountBBConnectionId redCallbackObject
+---@field speedBBConnectionId redCallbackObject
+---@field gearBBConnectionId redCallbackObject
+---@field rpmValueBBConnectionId redCallbackObject
+---@field rpmMaxBBConnectionId redCallbackObject
+---@field radioStateBBConnectionId redCallbackObject
+---@field radioNameBBConnectionId redCallbackObject
+---@field radioState Bool
+---@field radioName CName
+---@field radioStateWidget inkTextWidget
+---@field radioNameWidget inkTextWidget
+---@field autopilotOnId redCallbackObject
+---@field rootWidget inkCanvasWidget
+---@field speedTextWidget inkTextWidget
+---@field gearTextWidget inkTextWidget
+---@field rpmValueWidget inkTextWidget
+---@field rpmGaugeForegroundWidget inkRectangleWidget
+---@field rpmGaugeMaxSize Vector2
+---@field rpmMinValue Float
+---@field rpmMaxValue Float
+---@field rpmMaxValueInitialized Bool
+---@field autopilotTextWidget inkTextWidget
+---@field isInAutoPilot Bool
+---@field useDebugUI Bool
 vehicleDebugUIGameController = {}
 
 ---@param fields? vehicleDebugUIGameController
 ---@return vehicleDebugUIGameController
-function vehicleDebugUIGameController.new(fields) return end
+function vehicleDebugUIGameController.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function vehicleDebugUIGameController:OnActivateTest(value) return end
+function vehicleDebugUIGameController:OnActivateTest(value) end
 
----@protected
 ---@param autopilotOn Bool
 ---@return Bool
-function vehicleDebugUIGameController:OnAutopilotChanged(autopilotOn) return end
+function vehicleDebugUIGameController:OnAutopilotChanged(autopilotOn) end
 
----@protected
 ---@param gearValue Int32
 ---@return Bool
-function vehicleDebugUIGameController:OnGearValueChanged(gearValue) return end
+function vehicleDebugUIGameController:OnGearValueChanged(gearValue) end
 
----@protected
 ---@return Bool
-function vehicleDebugUIGameController:OnInitialize() return end
+function vehicleDebugUIGameController:OnInitialize() end
 
----@protected
 ---@param stationName CName|string
 ---@return Bool
-function vehicleDebugUIGameController:OnRadioNameChanged(stationName) return end
+function vehicleDebugUIGameController:OnRadioNameChanged(stationName) end
 
----@protected
 ---@param state Bool
 ---@return Bool
-function vehicleDebugUIGameController:OnRadioStateChanged(state) return end
+function vehicleDebugUIGameController:OnRadioStateChanged(state) end
 
----@protected
 ---@param rpmMax Float
 ---@return Bool
-function vehicleDebugUIGameController:OnRpmMaxChanged(rpmMax) return end
+function vehicleDebugUIGameController:OnRpmMaxChanged(rpmMax) end
 
----@protected
 ---@param rpmValue Float
 ---@return Bool
-function vehicleDebugUIGameController:OnRpmValueChanged(rpmValue) return end
+function vehicleDebugUIGameController:OnRpmValueChanged(rpmValue) end
 
----@protected
 ---@param speedValue Float
 ---@return Bool
-function vehicleDebugUIGameController:OnSpeedValueChanged(speedValue) return end
+function vehicleDebugUIGameController:OnSpeedValueChanged(speedValue) end
 
----@protected
 ---@return Bool
-function vehicleDebugUIGameController:OnUninitialize() return end
+function vehicleDebugUIGameController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function vehicleDebugUIGameController:OnVehicleMounted() return end
+function vehicleDebugUIGameController:OnVehicleMounted() end
 
----@protected
 ---@param state Int32
 ---@return Bool
-function vehicleDebugUIGameController:OnVehicleStateChanged(state) return end
+function vehicleDebugUIGameController:OnVehicleStateChanged(state) end
 
----@protected
 ---@return Bool
-function vehicleDebugUIGameController:OnVehicleUnmounted() return end
+function vehicleDebugUIGameController:OnVehicleUnmounted() end
 
----@private
 ---@return nil
-function vehicleDebugUIGameController:RefreshUI() return end
+function vehicleDebugUIGameController:RefreshUI() end

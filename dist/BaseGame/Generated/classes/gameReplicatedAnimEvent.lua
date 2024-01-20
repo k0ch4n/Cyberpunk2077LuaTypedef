@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameReplicatedAnimEvent: entReplicatedItem
----@field public name CName
+---@field name CName
 gameReplicatedAnimEvent = {}
 
 ---@param fields? gameReplicatedAnimEvent
 ---@return gameReplicatedAnimEvent
-function gameReplicatedAnimEvent.new(fields) return end
+function gameReplicatedAnimEvent.new(fields) end

@@ -5,4 +5,4 @@ gameTPPRepresentationPositionProvider = {}
 
 ---@param fields? gameTPPRepresentationPositionProvider
 ---@return gameTPPRepresentationPositionProvider
-function gameTPPRepresentationPositionProvider.new(fields) return end
+function gameTPPRepresentationPositionProvider.new(fields) end

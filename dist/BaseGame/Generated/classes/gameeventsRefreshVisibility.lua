@@ -5,4 +5,4 @@ gameeventsRefreshVisibility = {}
 
 ---@param fields? gameeventsRefreshVisibility
 ---@return gameeventsRefreshVisibility
-function gameeventsRefreshVisibility.new(fields) return end
+function gameeventsRefreshVisibility.new(fields) end

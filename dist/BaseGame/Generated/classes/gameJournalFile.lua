@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class gameJournalFile: gameJournalEntry
----@field public title LocalizationString
----@field public content LocalizationString
----@field public videoResource Bink
----@field public ["PictureFilename(legacy)"] String
----@field public pictureTweak TweakDBID
+---@field title LocalizationString
+---@field content LocalizationString
+---@field videoResource Bink
+---@field ["PictureFilename(legacy)"] String
+---@field pictureTweak TweakDBID
 gameJournalFile = {}
 
 ---@param fields? gameJournalFile
 ---@return gameJournalFile
-function gameJournalFile.new(fields) return end
+function gameJournalFile.new(fields) end
 
 ---@return String
-function gameJournalFile:GetContent() return end
+function gameJournalFile:GetContent() end
 
 ---@return TweakDBID
-function gameJournalFile:GetImageTweak() return end
+function gameJournalFile:GetImageTweak() end
 
 ---@return String
-function gameJournalFile:GetTitle() return end
+function gameJournalFile:GetTitle() end
 
 ---@return redResourceReferenceScriptToken
-function gameJournalFile:GetVideoResourcePath() return end
+function gameJournalFile:GetVideoResourcePath() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class garmentHiddenTrianglesRemovalParams
----@field public garmentBorderThreshold Float
----@field public removeHiddenTriangles Bool
----@field public removeHiddenTrianglesRasterization Bool
----@field public rayLengthInCM Float
----@field public rayLengthMorphOffsetFactor Float
+---@field garmentBorderThreshold Float
+---@field removeHiddenTriangles Bool
+---@field removeHiddenTrianglesRasterization Bool
+---@field rayLengthInCM Float
+---@field rayLengthMorphOffsetFactor Float
 garmentHiddenTrianglesRemovalParams = {}
 
 ---@param fields? garmentHiddenTrianglesRemovalParams
 ---@return garmentHiddenTrianglesRemovalParams
-function garmentHiddenTrianglesRemovalParams.new(fields) return end
+function garmentHiddenTrianglesRemovalParams.new(fields) end

@@ -5,4 +5,4 @@ TrackedQuestPhaseUpdateRequest = {}
 
 ---@param fields? TrackedQuestPhaseUpdateRequest
 ---@return TrackedQuestPhaseUpdateRequest
-function TrackedQuestPhaseUpdateRequest.new(fields) return end
+function TrackedQuestPhaseUpdateRequest.new(fields) end

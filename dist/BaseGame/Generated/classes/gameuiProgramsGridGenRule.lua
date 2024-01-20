@@ -5,4 +5,4 @@ gameuiProgramsGridGenRule = {}
 
 ---@param fields? gameuiProgramsGridGenRule
 ---@return gameuiProgramsGridGenRule
-function gameuiProgramsGridGenRule.new(fields) return end
+function gameuiProgramsGridGenRule.new(fields) end

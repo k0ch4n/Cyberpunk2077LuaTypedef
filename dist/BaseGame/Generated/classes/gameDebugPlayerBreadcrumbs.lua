@@ -5,4 +5,4 @@ gameDebugPlayerBreadcrumbs = {}
 
 ---@param fields? gameDebugPlayerBreadcrumbs
 ---@return gameDebugPlayerBreadcrumbs
-function gameDebugPlayerBreadcrumbs.new(fields) return end
+function gameDebugPlayerBreadcrumbs.new(fields) end

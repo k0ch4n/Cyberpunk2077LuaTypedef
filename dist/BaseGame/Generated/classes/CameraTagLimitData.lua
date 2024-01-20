@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CameraTagLimitData: IScriptable
----@field public add Bool
----@field public object SurveillanceCamera
+---@field add Bool
+---@field object SurveillanceCamera
 CameraTagLimitData = {}
 
 ---@param fields? CameraTagLimitData
 ---@return CameraTagLimitData
-function CameraTagLimitData.new(fields) return end
+function CameraTagLimitData.new(fields) end

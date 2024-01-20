@@ -1,67 +1,64 @@
 ---@meta
 
 ---@class DpadWheelItemController: inkWidgetLogicController
----@field private selectorWrapper inkWidgetReference
----@field private icon inkImageWidgetReference
----@field private displayWrapper inkWidgetReference
----@field private itemWrapper inkWidgetReference
----@field private arrows inkWidgetReference
----@field private abilityIcon inkImageWidgetReference
----@field private quickHackIcon inkImageWidgetReference
----@field private highlight02 inkImageWidgetReference
----@field private highlight03 inkImageWidgetReference
----@field private highlight04 inkImageWidgetReference
----@field private highlight05 inkImageWidgetReference
----@field private highlight06 inkImageWidgetReference
----@field private highlight07 inkImageWidgetReference
----@field private highlight08 inkImageWidgetReference
----@field private textDist Float
----@field private weaponTextDist Float
----@field private data QuickSlotCommand
----@field private root inkWidget
----@field private item InventoryItemDisplay
----@field private itemWidget inkWidget
----@field private InventoryDataManager InventoryDataManagerV2
----@field private highlight inkImageWidgetReference
----@field private itemData gameInventoryItemData
----@field private abilityData AbilityData
----@field private quickHackWheelDefIcon CName
+---@field selectorWrapper inkWidgetReference
+---@field icon inkImageWidgetReference
+---@field displayWrapper inkWidgetReference
+---@field itemWrapper inkWidgetReference
+---@field arrows inkWidgetReference
+---@field abilityIcon inkImageWidgetReference
+---@field quickHackIcon inkImageWidgetReference
+---@field highlight02 inkImageWidgetReference
+---@field highlight03 inkImageWidgetReference
+---@field highlight04 inkImageWidgetReference
+---@field highlight05 inkImageWidgetReference
+---@field highlight06 inkImageWidgetReference
+---@field highlight07 inkImageWidgetReference
+---@field highlight08 inkImageWidgetReference
+---@field textDist Float
+---@field weaponTextDist Float
+---@field data QuickSlotCommand
+---@field root inkWidget
+---@field item InventoryItemDisplay
+---@field itemWidget inkWidget
+---@field InventoryDataManager InventoryDataManagerV2
+---@field highlight inkImageWidgetReference
+---@field itemData gameInventoryItemData
+---@field abilityData AbilityData
+---@field quickHackWheelDefIcon CName
 DpadWheelItemController = {}
 
 ---@param fields? DpadWheelItemController
 ---@return DpadWheelItemController
-function DpadWheelItemController.new(fields) return end
+function DpadWheelItemController.new(fields) end
 
----@protected
 ---@return Bool
-function DpadWheelItemController:OnInitialize() return end
+function DpadWheelItemController:OnInitialize() end
 
 ---@param abilityData AbilityData
 ---@return nil
-function DpadWheelItemController:AddAbility(abilityData) return end
+function DpadWheelItemController:AddAbility(abilityData) end
 
 ---@return AbilityData
-function DpadWheelItemController:GetAbilityData() return end
+function DpadWheelItemController:GetAbilityData() end
 
 ---@return QuickSlotCommand
-function DpadWheelItemController:GetData() return end
+function DpadWheelItemController:GetData() end
 
 ---@return gameInventoryItemData
-function DpadWheelItemController:GetItemData() return end
+function DpadWheelItemController:GetItemData() end
 
----@private
 ---@param numOfWheelItems Int32
 ---@return nil
-function DpadWheelItemController:SetHighlight(numOfWheelItems) return end
+function DpadWheelItemController:SetHighlight(numOfWheelItems) end
 
 ---@param isHover Bool
 ---@return nil
-function DpadWheelItemController:SetHover(isHover) return end
+function DpadWheelItemController:SetHover(isHover) end
 
----@private
 ---@param rotation Float
 ---@return nil
-function DpadWheelItemController:SetIcon(rotation) return end
+function DpadWheelItemController:SetIcon(rotation) end
 
 ---@param data QuickSlotCommand
 ---@param rotation Float
@@ -69,4 +66,4 @@ function DpadWheelItemController:SetIcon(rotation) return end
 ---@param inventoryManager InventoryDataManagerV2
 ---@param isLeft Bool
 ---@return nil
-function DpadWheelItemController:SetupData(data, rotation, numOfWheelItems, inventoryManager, isLeft) return end
+function DpadWheelItemController:SetupData(data, rotation, numOfWheelItems, inventoryManager, isLeft) end

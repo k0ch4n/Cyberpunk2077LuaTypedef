@@ -5,4 +5,4 @@ inkMenuLayer_AbortHackingMinigame = {}
 
 ---@param fields? inkMenuLayer_AbortHackingMinigame
 ---@return inkMenuLayer_AbortHackingMinigame
-function inkMenuLayer_AbortHackingMinigame.new(fields) return end
+function inkMenuLayer_AbortHackingMinigame.new(fields) end

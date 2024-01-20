@@ -5,9 +5,8 @@ IsPlayerFarFromLKP = {}
 
 ---@param fields? IsPlayerFarFromLKP
 ---@return IsPlayerFarFromLKP
-function IsPlayerFarFromLKP.new(fields) return end
+function IsPlayerFarFromLKP.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPlayerFarFromLKP:Check(context) return end
+function IsPlayerFarFromLKP:Check(context) end

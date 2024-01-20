@@ -5,4 +5,4 @@ gamedataStickyGDM_Record = {}
 
 ---@param fields? gamedataStickyGDM_Record
 ---@return gamedataStickyGDM_Record
-function gamedataStickyGDM_Record.new(fields) return end
+function gamedataStickyGDM_Record.new(fields) end

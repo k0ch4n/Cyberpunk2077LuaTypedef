@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class worldExtractedNodeSocket
----@field public name CName
----@field public displayName CName
----@field public position Vector3
----@field public rotation Quaternion
----@field public direction Vector3
----@field public type worldNodeSocketType
----@field public isSnapped Bool
----@field public color Color
+---@field name CName
+---@field displayName CName
+---@field position Vector3
+---@field rotation Quaternion
+---@field direction Vector3
+---@field type worldNodeSocketType
+---@field isSnapped Bool
+---@field color Color
 worldExtractedNodeSocket = {}
 
 ---@param fields? worldExtractedNodeSocket
 ---@return worldExtractedNodeSocket
-function worldExtractedNodeSocket.new(fields) return end
+function worldExtractedNodeSocket.new(fields) end

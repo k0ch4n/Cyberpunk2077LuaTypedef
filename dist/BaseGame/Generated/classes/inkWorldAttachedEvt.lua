@@ -5,4 +5,4 @@ inkWorldAttachedEvt = {}
 
 ---@param fields? inkWorldAttachedEvt
 ---@return inkWorldAttachedEvt
-function inkWorldAttachedEvt.new(fields) return end
+function inkWorldAttachedEvt.new(fields) end

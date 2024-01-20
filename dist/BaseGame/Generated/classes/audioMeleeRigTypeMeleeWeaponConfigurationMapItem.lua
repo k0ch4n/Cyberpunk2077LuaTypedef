@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioMeleeRigTypeMeleeWeaponConfigurationMapItem
----@field public name CName
----@field public meleeWeaponConfiguration CName
+---@field name CName
+---@field meleeWeaponConfiguration CName
 audioMeleeRigTypeMeleeWeaponConfigurationMapItem = {}
 
 ---@param fields? audioMeleeRigTypeMeleeWeaponConfigurationMapItem
 ---@return audioMeleeRigTypeMeleeWeaponConfigurationMapItem
-function audioMeleeRigTypeMeleeWeaponConfigurationMapItem.new(fields) return end
+function audioMeleeRigTypeMeleeWeaponConfigurationMapItem.new(fields) end

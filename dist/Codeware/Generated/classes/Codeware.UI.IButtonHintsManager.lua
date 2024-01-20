@@ -5,4 +5,4 @@ Codeware_UI_IButtonHintsManager = {}
 
 ---@param parentWidget inkWidget
 ---@return Codeware_UI_ButtonHintsEx
-function Codeware_UI_IButtonHintsManager:SpawnButtonHints(parentWidget) return end
+function Codeware_UI_IButtonHintsManager:SpawnButtonHints(parentWidget) end

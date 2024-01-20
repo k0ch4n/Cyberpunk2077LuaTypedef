@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class TriggerAttackOnOwnerEffect: gameEffector
----@field public owner gameObject
----@field public attackTDBID TweakDBID
----@field public attackPositionSlotName CName
----@field public playerAsInstigator Bool
----@field public triggerHitReaction Bool
----@field public isRandom Bool
----@field public applicationChance Float
+---@field owner gameObject
+---@field attackTDBID TweakDBID
+---@field attackPositionSlotName CName
+---@field playerAsInstigator Bool
+---@field triggerHitReaction Bool
+---@field isRandom Bool
+---@field applicationChance Float
 TriggerAttackOnOwnerEffect = {}
 
 ---@param fields? TriggerAttackOnOwnerEffect
 ---@return TriggerAttackOnOwnerEffect
-function TriggerAttackOnOwnerEffect.new(fields) return end
+function TriggerAttackOnOwnerEffect.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TriggerAttackOnOwnerEffect:ActionOn(owner) return end
+function TriggerAttackOnOwnerEffect:ActionOn(owner) end
 
----@private
 ---@param obj gameObject
 ---@return Vector4
-function TriggerAttackOnOwnerEffect:GetAttackPosition(obj) return end
+function TriggerAttackOnOwnerEffect:GetAttackPosition(obj) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function TriggerAttackOnOwnerEffect:Initialize(record, parentRecord) return end
+function TriggerAttackOnOwnerEffect:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TriggerAttackOnOwnerEffect:RepeatedAction(owner) return end
+function TriggerAttackOnOwnerEffect:RepeatedAction(owner) end

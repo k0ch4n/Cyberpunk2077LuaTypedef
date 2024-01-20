@@ -5,4 +5,4 @@ PositionEvaluator = {}
 
 ---@param fields? PositionEvaluator
 ---@return PositionEvaluator
-function PositionEvaluator.new(fields) return end
+function PositionEvaluator.new(fields) end

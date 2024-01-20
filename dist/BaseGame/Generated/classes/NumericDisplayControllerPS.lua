@@ -1,62 +1,58 @@
 ---@meta
 
 ---@class NumericDisplayControllerPS: ScriptableDeviceComponentPS
----@field private numberToDisplay Int32
----@field private targetNumber Int32
+---@field numberToDisplay Int32
+---@field targetNumber Int32
 NumericDisplayControllerPS = {}
 
 ---@param fields? NumericDisplayControllerPS
 ---@return NumericDisplayControllerPS
-function NumericDisplayControllerPS.new(fields) return end
+function NumericDisplayControllerPS.new(fields) end
 
 ---@return QuestDecreaseNumber
-function NumericDisplayControllerPS:ActionQuestDecreaseNumber() return end
+function NumericDisplayControllerPS:ActionQuestDecreaseNumber() end
 
 ---@return QuestIdle
-function NumericDisplayControllerPS:ActionQuestIdle() return end
+function NumericDisplayControllerPS:ActionQuestIdle() end
 
 ---@return QuestIncreaseNumber
-function NumericDisplayControllerPS:ActionQuestIncreaseNumber() return end
+function NumericDisplayControllerPS:ActionQuestIncreaseNumber() end
 
----@protected
 ---@return nil
-function NumericDisplayControllerPS:GameAttached() return end
+function NumericDisplayControllerPS:GameAttached() end
 
 ---@return NumericDisplayBlackboardDef
-function NumericDisplayControllerPS:GetBlackboardDef() return end
+function NumericDisplayControllerPS:GetBlackboardDef() end
 
 ---@return Int32
-function NumericDisplayControllerPS:GetCurrentNumber() return end
+function NumericDisplayControllerPS:GetCurrentNumber() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function NumericDisplayControllerPS:GetInkWidgetTweakDBID(context) return end
+function NumericDisplayControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function NumericDisplayControllerPS:GetQuestActions(context) return end
+function NumericDisplayControllerPS:GetQuestActions(context) end
 
 ---@param evt QuestDecreaseNumber
 ---@return EntityNotificationType
-function NumericDisplayControllerPS:OnQuestDecreaseNumber(evt) return end
+function NumericDisplayControllerPS:OnQuestDecreaseNumber(evt) end
 
 ---@param evt QuestIdle
 ---@return EntityNotificationType
-function NumericDisplayControllerPS:OnQuestIdle(evt) return end
+function NumericDisplayControllerPS:OnQuestIdle(evt) end
 
 ---@param evt QuestIncreaseNumber
 ---@return EntityNotificationType
-function NumericDisplayControllerPS:OnQuestIncreaseNumber(evt) return end
+function NumericDisplayControllerPS:OnQuestIncreaseNumber(evt) end
 
----@protected
 ---@param direction Int32
 ---@return nil
-function NumericDisplayControllerPS:SendDirectionToUIBlackboard(direction) return end
+function NumericDisplayControllerPS:SendDirectionToUIBlackboard(direction) end
 
----@protected
 ---@return nil
-function NumericDisplayControllerPS:SendNumberToUIBlackboard() return end
+function NumericDisplayControllerPS:SendNumberToUIBlackboard() end
 
 ---@return Bool
-function NumericDisplayControllerPS:TargetReached() return end
+function NumericDisplayControllerPS:TargetReached() end

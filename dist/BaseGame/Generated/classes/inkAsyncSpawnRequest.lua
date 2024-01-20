@@ -5,7 +5,7 @@ inkAsyncSpawnRequest = {}
 
 ---@param fields? inkAsyncSpawnRequest
 ---@return inkAsyncSpawnRequest
-function inkAsyncSpawnRequest.new(fields) return end
+function inkAsyncSpawnRequest.new(fields) end
 
 ---@return nil
-function inkAsyncSpawnRequest:Cancel() return end
+function inkAsyncSpawnRequest:Cancel() end

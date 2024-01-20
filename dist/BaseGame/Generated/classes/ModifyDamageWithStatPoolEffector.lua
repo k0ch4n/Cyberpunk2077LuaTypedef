@@ -1,33 +1,29 @@
 ---@meta
 
 ---@class ModifyDamageWithStatPoolEffector: ModifyDamageEffector
----@field public statPool gamedataStatPoolType
----@field public poolStatus String
----@field public maxDmg Float
----@field public percentMult Float
----@field public refObj String
+---@field statPool gamedataStatPoolType
+---@field poolStatus String
+---@field maxDmg Float
+---@field percentMult Float
+---@field refObj String
 ModifyDamageWithStatPoolEffector = {}
 
 ---@param fields? ModifyDamageWithStatPoolEffector
 ---@return ModifyDamageWithStatPoolEffector
-function ModifyDamageWithStatPoolEffector.new(fields) return end
+function ModifyDamageWithStatPoolEffector.new(fields) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return gameObject
-function ModifyDamageWithStatPoolEffector:GetRefObject(hitEvent) return end
+function ModifyDamageWithStatPoolEffector:GetRefObject(hitEvent) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyDamageWithStatPoolEffector:Initialize(record, parentRecord) return end
+function ModifyDamageWithStatPoolEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyDamageWithStatPoolEffector:RepeatedAction(owner) return end
+function ModifyDamageWithStatPoolEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ModifyDamageWithStatPoolEffector:Uninitialize() return end
+function ModifyDamageWithStatPoolEffector:Uninitialize() end

@@ -5,4 +5,4 @@ gameEffectObjectFilter_Unique = {}
 
 ---@param fields? gameEffectObjectFilter_Unique
 ---@return gameEffectObjectFilter_Unique
-function gameEffectObjectFilter_Unique.new(fields) return end
+function gameEffectObjectFilter_Unique.new(fields) end

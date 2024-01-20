@@ -5,4 +5,4 @@ gamebbScriptID_Float = {}
 
 ---@param fields? gamebbScriptID_Float
 ---@return gamebbScriptID_Float
-function gamebbScriptID_Float.new(fields) return end
+function gamebbScriptID_Float.new(fields) end

@@ -5,4 +5,4 @@ LongBladeLookAtEvents = {}
 
 ---@param fields? LongBladeLookAtEvents
 ---@return LongBladeLookAtEvents
-function LongBladeLookAtEvents.new(fields) return end
+function LongBladeLookAtEvents.new(fields) end

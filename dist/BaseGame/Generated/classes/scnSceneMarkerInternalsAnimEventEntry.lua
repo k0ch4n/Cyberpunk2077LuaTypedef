@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scnSceneMarkerInternalsAnimEventEntry
----@field public startName CName
----@field public endName CName
----@field public startPos Vector3
----@field public endPos Vector3
----@field public startDir Vector3
----@field public endDir Vector3
----@field public flags Uint8
+---@field startName CName
+---@field endName CName
+---@field startPos Vector3
+---@field endPos Vector3
+---@field startDir Vector3
+---@field endDir Vector3
+---@field flags Uint8
 scnSceneMarkerInternalsAnimEventEntry = {}
 
 ---@param fields? scnSceneMarkerInternalsAnimEventEntry
 ---@return scnSceneMarkerInternalsAnimEventEntry
-function scnSceneMarkerInternalsAnimEventEntry.new(fields) return end
+function scnSceneMarkerInternalsAnimEventEntry.new(fields) end

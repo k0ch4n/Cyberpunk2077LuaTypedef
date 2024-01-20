@@ -1,42 +1,37 @@
 ---@meta
 
 ---@class AIFollowerInterpolateFollowingSpeed: AIbehaviortaskScript
----@field public enterCondition TweakDBID
----@field public exitCondition TweakDBID
----@field public minInterpolationDistanceToDestination Float
----@field public maxInterpolationDistanceToDestination Float
----@field public maxTimeDilation Float
----@field private enterConditionInstance gamedataAIActionCondition_Record
----@field private exitConditionInstace gamedataAIActionCondition_Record
----@field private isActive Bool
----@field private reason CName
+---@field enterCondition TweakDBID
+---@field exitCondition TweakDBID
+---@field minInterpolationDistanceToDestination Float
+---@field maxInterpolationDistanceToDestination Float
+---@field maxTimeDilation Float
+---@field enterConditionInstance gamedataAIActionCondition_Record
+---@field exitConditionInstace gamedataAIActionCondition_Record
+---@field isActive Bool
+---@field reason CName
 AIFollowerInterpolateFollowingSpeed = {}
 
 ---@param fields? AIFollowerInterpolateFollowingSpeed
 ---@return AIFollowerInterpolateFollowingSpeed
-function AIFollowerInterpolateFollowingSpeed.new(fields) return end
+function AIFollowerInterpolateFollowingSpeed.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIFollowerInterpolateFollowingSpeed:Activate(context) return end
+function AIFollowerInterpolateFollowingSpeed:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIFollowerInterpolateFollowingSpeed:Deactivate(context) return end
+function AIFollowerInterpolateFollowingSpeed:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIFollowerInterpolateFollowingSpeed:MakeActive(context) return end
+function AIFollowerInterpolateFollowingSpeed:MakeActive(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIFollowerInterpolateFollowingSpeed:MakeInactive(context) return end
+function AIFollowerInterpolateFollowingSpeed:MakeInactive(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIFollowerInterpolateFollowingSpeed:Update(context) return end
+function AIFollowerInterpolateFollowingSpeed:Update(context) end

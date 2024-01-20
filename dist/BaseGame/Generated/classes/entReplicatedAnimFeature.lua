@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entReplicatedAnimFeature: entReplicatedItem
----@field public name CName
----@field public value animAnimFeature
----@field public invokeCallback Bool
+---@field name CName
+---@field value animAnimFeature
+---@field invokeCallback Bool
 entReplicatedAnimFeature = {}
 
 ---@param fields? entReplicatedAnimFeature
 ---@return entReplicatedAnimFeature
-function entReplicatedAnimFeature.new(fields) return end
+function entReplicatedAnimFeature.new(fields) end

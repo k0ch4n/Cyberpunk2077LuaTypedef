@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentPuppetRefValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue gameEntityReference
+---@field type AIArgumentType
+---@field defaultValue gameEntityReference
 AIArgumentPuppetRefValue = {}
 
 ---@param fields? AIArgumentPuppetRefValue
 ---@return AIArgumentPuppetRefValue
-function AIArgumentPuppetRefValue.new(fields) return end
+function AIArgumentPuppetRefValue.new(fields) end

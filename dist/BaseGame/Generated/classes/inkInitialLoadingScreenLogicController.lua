@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class inkInitialLoadingScreenLogicController: inkILoadingLogicController
----@field public skipButtonPanel inkWidgetReference
----@field public loadingPartsContainer inkCompoundWidgetReference
----@field public afterSkipAnimation CName
----@field public loadingFinishedAudioStopEvent CName
----@field private progressBarRoot inkWidgetReference
----@field private progressBarController LoadingScreenProgressBarController
+---@field skipButtonPanel inkWidgetReference
+---@field loadingPartsContainer inkCompoundWidgetReference
+---@field afterSkipAnimation CName
+---@field loadingFinishedAudioStopEvent CName
+---@field progressBarRoot inkWidgetReference
+---@field progressBarController LoadingScreenProgressBarController
 inkInitialLoadingScreenLogicController = {}
 
 ---@param fields? inkInitialLoadingScreenLogicController
 ---@return inkInitialLoadingScreenLogicController
-function inkInitialLoadingScreenLogicController.new(fields) return end
+function inkInitialLoadingScreenLogicController.new(fields) end
 
 ---@return nil
-function inkInitialLoadingScreenLogicController:OnAnimReadyForLoadingSkip() return end
+function inkInitialLoadingScreenLogicController:OnAnimReadyForLoadingSkip() end
 
----@protected
 ---@return Bool
-function inkInitialLoadingScreenLogicController:OnAnimReadyForLoadingSkipEvent() return end
+function inkInitialLoadingScreenLogicController:OnAnimReadyForLoadingSkipEvent() end
 
----@protected
 ---@return Bool
-function inkInitialLoadingScreenLogicController:OnInitialize() return end
+function inkInitialLoadingScreenLogicController:OnInitialize() end
 
----@protected
 ---@param progress Float
 ---@return nil
-function inkInitialLoadingScreenLogicController:SetLoadProgress(progress) return end
+function inkInitialLoadingScreenLogicController:SetLoadProgress(progress) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function inkInitialLoadingScreenLogicController:SetProgressIndicatorVisibility(visible) return end
+function inkInitialLoadingScreenLogicController:SetProgressIndicatorVisibility(visible) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function inkInitialLoadingScreenLogicController:SetSpinnerVisiblility(visible) return end
+function inkInitialLoadingScreenLogicController:SetSpinnerVisiblility(visible) end

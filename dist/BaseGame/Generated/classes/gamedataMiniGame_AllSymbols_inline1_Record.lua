@@ -5,4 +5,4 @@ gamedataMiniGame_AllSymbols_inline1_Record = {}
 
 ---@param fields? gamedataMiniGame_AllSymbols_inline1_Record
 ---@return gamedataMiniGame_AllSymbols_inline1_Record
-function gamedataMiniGame_AllSymbols_inline1_Record.new(fields) return end
+function gamedataMiniGame_AllSymbols_inline1_Record.new(fields) end

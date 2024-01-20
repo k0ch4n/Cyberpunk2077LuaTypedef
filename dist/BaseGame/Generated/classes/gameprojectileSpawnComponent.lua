@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameprojectileSpawnComponent: entIPlacedComponent
----@field public spawnOffset Vector3
----@field public projectileTemplates CName[]
----@field public slotName CName
+---@field spawnOffset Vector3
+---@field projectileTemplates CName[]
+---@field slotName CName
 gameprojectileSpawnComponent = {}
 
 ---@param fields? gameprojectileSpawnComponent
 ---@return gameprojectileSpawnComponent
-function gameprojectileSpawnComponent.new(fields) return end
+function gameprojectileSpawnComponent.new(fields) end
 
 ---@param templateID Uint32
 ---@return nil
-function gameprojectileSpawnComponent:Spawn(templateID) return end
+function gameprojectileSpawnComponent:Spawn(templateID) end

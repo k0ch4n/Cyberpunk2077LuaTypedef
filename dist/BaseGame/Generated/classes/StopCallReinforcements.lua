@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class StopCallReinforcements: AIbehaviortaskScript
----@field protected puppet ScriptedPuppet
----@field protected pauseResumePhoneCallEvent PauseResumePhoneCallEvent
----@field protected statPoolType gamedataStatPoolType
+---@field puppet ScriptedPuppet
+---@field pauseResumePhoneCallEvent PauseResumePhoneCallEvent
+---@field statPoolType gamedataStatPoolType
 StopCallReinforcements = {}
 
 ---@param fields? StopCallReinforcements
 ---@return StopCallReinforcements
-function StopCallReinforcements.new(fields) return end
+function StopCallReinforcements.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function StopCallReinforcements:Activate(context) return end
+function StopCallReinforcements:Activate(context) end

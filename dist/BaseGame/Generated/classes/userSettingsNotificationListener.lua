@@ -5,14 +5,14 @@ userSettingsNotificationListener = {}
 
 ---@param fields? userSettingsNotificationListener
 ---@return userSettingsNotificationListener
-function userSettingsNotificationListener.new(fields) return end
+function userSettingsNotificationListener.new(fields) end
 
 ---@param status InGameConfigNotificationType
 ---@return nil
-function userSettingsNotificationListener:OnNotify(status) return end
+function userSettingsNotificationListener:OnNotify(status) end
 
 ---@return Bool
-function userSettingsNotificationListener:Register() return end
+function userSettingsNotificationListener:Register() end
 
 ---@return Bool
-function userSettingsNotificationListener:Unregister() return end
+function userSettingsNotificationListener:Unregister() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameSmartObjectResource: CResource
----@field public entryPoints gameSmartObjectGate[]
----@field public exitPoints gameSmartObjectGate[]
----@field public bodyTypes gameBodyTypeAnimationDefinition[]
----@field public loopAnimations gameSmartObjectGate[]
----@field public type gameSmartObjectType
+---@field entryPoints gameSmartObjectGate[]
+---@field exitPoints gameSmartObjectGate[]
+---@field bodyTypes gameBodyTypeAnimationDefinition[]
+---@field loopAnimations gameSmartObjectGate[]
+---@field type gameSmartObjectType
 gameSmartObjectResource = {}
 
 ---@param fields? gameSmartObjectResource
 ---@return gameSmartObjectResource
-function gameSmartObjectResource.new(fields) return end
+function gameSmartObjectResource.new(fields) end

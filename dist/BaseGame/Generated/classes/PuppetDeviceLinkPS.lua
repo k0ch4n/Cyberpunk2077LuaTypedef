@@ -1,68 +1,63 @@
 ---@meta
 
 ---@class PuppetDeviceLinkPS: DeviceLinkComponentPS
----@field private securitySystemData SecuritySystemData
+---@field securitySystemData SecuritySystemData
 PuppetDeviceLinkPS = {}
 
 ---@param fields? PuppetDeviceLinkPS
 ---@return PuppetDeviceLinkPS
-function PuppetDeviceLinkPS.new(fields) return end
+function PuppetDeviceLinkPS.new(fields) end
 
 ---@param entityID entEntityID
 ---@return PuppetDeviceLinkPS
-function PuppetDeviceLinkPS.AcquirePuppetDeviceLink(entityID) return end
+function PuppetDeviceLinkPS.AcquirePuppetDeviceLink(entityID) end
 
 ---@param id entEntityID
 ---@return PuppetDeviceLinkPS
-function PuppetDeviceLinkPS.CreateAndAcquirePuppetDeviceLinkPS(id) return end
+function PuppetDeviceLinkPS.CreateAndAcquirePuppetDeviceLinkPS(id) end
 
----@private
 ---@return PingSquad
-function PuppetDeviceLinkPS:ActionPingSquad() return end
+function PuppetDeviceLinkPS:ActionPingSquad() end
 
 ---@return Bool
-function PuppetDeviceLinkPS:AreIncomingEventsSuppressed() return end
+function PuppetDeviceLinkPS:AreIncomingEventsSuppressed() end
 
 ---@return Bool
-function PuppetDeviceLinkPS:AreOutgoingEventsSuppressed() return end
+function PuppetDeviceLinkPS:AreOutgoingEventsSuppressed() end
 
 ---@return Bool
-function PuppetDeviceLinkPS:IsPuppet() return end
+function PuppetDeviceLinkPS:IsPuppet() end
 
 ---@param doSee Bool
 ---@return nil
-function PuppetDeviceLinkPS:NotifyAboutSpottingPlayer(doSee) return end
+function PuppetDeviceLinkPS:NotifyAboutSpottingPlayer(doSee) end
 
----@protected
 ---@param evt DeviceLinkRequest
 ---@return EntityNotificationType
-function PuppetDeviceLinkPS:OnDeviceLinkRequest(evt) return end
+function PuppetDeviceLinkPS:OnDeviceLinkRequest(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function PuppetDeviceLinkPS:OnSecuritySystemOutput(evt) return end
+function PuppetDeviceLinkPS:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt SecuritySystemSupport
 ---@return EntityNotificationType
-function PuppetDeviceLinkPS:OnSecuritySystemSupport(evt) return end
+function PuppetDeviceLinkPS:OnSecuritySystemSupport(evt) end
 
----@private
 ---@param evt SuppressNPCInSecuritySystem
 ---@return EntityNotificationType
-function PuppetDeviceLinkPS:OnSuppressNPCInSecuritySystem(evt) return end
+function PuppetDeviceLinkPS:OnSuppressNPCInSecuritySystem(evt) end
 
 ---@param state gameuiHackingMinigameState
 ---@return nil
-function PuppetDeviceLinkPS:PerformNPCBreach(state) return end
+function PuppetDeviceLinkPS:PerformNPCBreach(state) end
 
 ---@return nil
-function PuppetDeviceLinkPS:PingSquadNetwork() return end
+function PuppetDeviceLinkPS:PingSquadNetwork() end
 
 ---@param lastKnownPosition Vector4
 ---@param whoBreached gameObject
 ---@param type ESecurityNotificationType
 ---@param stimType? gamedataStimType
 ---@return nil
-function PuppetDeviceLinkPS:TriggerSecuritySystemNotification(lastKnownPosition, whoBreached, type, stimType) return end
+function PuppetDeviceLinkPS:TriggerSecuritySystemNotification(lastKnownPosition, whoBreached, type, stimType) end

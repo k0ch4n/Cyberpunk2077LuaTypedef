@@ -5,9 +5,8 @@ TestFalseConditon = {}
 
 ---@param fields? TestFalseConditon
 ---@return TestFalseConditon
-function TestFalseConditon.new(fields) return end
+function TestFalseConditon.new(fields) end
 
----@protected
 ---@param ent entEntity
 ---@return Bool
-function TestFalseConditon:CheckCondition(ent) return end
+function TestFalseConditon:CheckCondition(ent) end

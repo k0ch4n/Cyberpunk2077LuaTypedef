@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeShooterCollisionController: inkWidgetLogicController
----@field public explosionPlatformDelay Float
----@field public respawnPlatformDetails gameuiarcadeShooterExplodingPlatformSpawnDetail[]
+---@field explosionPlatformDelay Float
+---@field respawnPlatformDetails gameuiarcadeShooterExplodingPlatformSpawnDetail[]
 gameuiarcadeShooterCollisionController = {}
 
 ---@param fields? gameuiarcadeShooterCollisionController
 ---@return gameuiarcadeShooterCollisionController
-function gameuiarcadeShooterCollisionController.new(fields) return end
+function gameuiarcadeShooterCollisionController.new(fields) end

@@ -1,53 +1,47 @@
 ---@meta
 
 ---@class ItemDisplayVirtualController: inkVirtualCompoundItemController
----@field protected itemDisplayWidget inkWidgetReference
----@field protected widgetToSpawn CName
----@field protected wrappedData WrappedInventoryItemData
----@field protected data gameInventoryItemData
----@field protected spawnedWidget inkWidget
----@field protected notificationListenerID Int32
----@field protected immediateNotificationListener ImmediateNotificationListener
+---@field itemDisplayWidget inkWidgetReference
+---@field widgetToSpawn CName
+---@field wrappedData WrappedInventoryItemData
+---@field data gameInventoryItemData
+---@field spawnedWidget inkWidget
+---@field notificationListenerID Int32
+---@field immediateNotificationListener ImmediateNotificationListener
 ItemDisplayVirtualController = {}
 
 ---@param fields? ItemDisplayVirtualController
 ---@return ItemDisplayVirtualController
-function ItemDisplayVirtualController.new(fields) return end
+function ItemDisplayVirtualController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ItemDisplayVirtualController:OnDataChanged(value) return end
+function ItemDisplayVirtualController:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function ItemDisplayVirtualController:OnInitialize() return end
+function ItemDisplayVirtualController:OnInitialize() end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function ItemDisplayVirtualController:OnSelected(itemController, discreteNav) return end
+function ItemDisplayVirtualController:OnSelected(itemController, discreteNav) end
 
----@protected
 ---@return Bool
-function ItemDisplayVirtualController:OnUninitialize() return end
+function ItemDisplayVirtualController:OnUninitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemDisplayVirtualController:OnWidgetSpawned(widget, userData) return end
+function ItemDisplayVirtualController:OnWidgetSpawned(widget, userData) end
 
 ---@return InventoryItemDisplayController
-function ItemDisplayVirtualController:GetItemView() return end
+function ItemDisplayVirtualController:GetItemView() end
 
 ---@return WrappedInventoryItemData
-function ItemDisplayVirtualController:GetWrappedData() return end
-
----@private
----@return nil
-function ItemDisplayVirtualController:SetupData() return end
+function ItemDisplayVirtualController:GetWrappedData() end
 
 ---@return nil
-function ItemDisplayVirtualController:Update() return end
+function ItemDisplayVirtualController:SetupData() end
+
+---@return nil
+function ItemDisplayVirtualController:Update() end

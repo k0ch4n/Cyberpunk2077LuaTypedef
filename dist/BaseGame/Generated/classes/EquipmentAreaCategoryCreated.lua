@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class EquipmentAreaCategoryCreated: redEvent
----@field public categoryController InventoryItemDisplayCategoryArea
----@field public equipmentAreasControllers InventoryItemDisplayEquipmentArea[]
+---@field categoryController InventoryItemDisplayCategoryArea
+---@field equipmentAreasControllers InventoryItemDisplayEquipmentArea[]
 EquipmentAreaCategoryCreated = {}
 
 ---@param fields? EquipmentAreaCategoryCreated
 ---@return EquipmentAreaCategoryCreated
-function EquipmentAreaCategoryCreated.new(fields) return end
+function EquipmentAreaCategoryCreated.new(fields) end

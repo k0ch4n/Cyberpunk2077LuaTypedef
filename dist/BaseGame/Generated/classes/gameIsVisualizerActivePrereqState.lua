@@ -5,4 +5,4 @@ gameIsVisualizerActivePrereqState = {}
 
 ---@param fields? gameIsVisualizerActivePrereqState
 ---@return gameIsVisualizerActivePrereqState
-function gameIsVisualizerActivePrereqState.new(fields) return end
+function gameIsVisualizerActivePrereqState.new(fields) end

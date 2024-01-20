@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RefreshFloorDataEvent: redEvent
----@field public passToEntity Bool
+---@field passToEntity Bool
 RefreshFloorDataEvent = {}
 
 ---@param fields? RefreshFloorDataEvent
 ---@return RefreshFloorDataEvent
-function RefreshFloorDataEvent.new(fields) return end
+function RefreshFloorDataEvent.new(fields) end

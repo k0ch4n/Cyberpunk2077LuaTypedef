@@ -5,7 +5,7 @@ BasicDistractionDeviceController = {}
 
 ---@param fields? BasicDistractionDeviceController
 ---@return BasicDistractionDeviceController
-function BasicDistractionDeviceController.new(fields) return end
+function BasicDistractionDeviceController.new(fields) end
 
 ---@return BasicDistractionDeviceControllerPS
-function BasicDistractionDeviceController:GetPS() return end
+function BasicDistractionDeviceController:GetPS() end

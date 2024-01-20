@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class CyberspaceMappinController: gameuiQuestMappinController
----@field public image inkImageWidgetReference
+---@field image inkImageWidgetReference
 CyberspaceMappinController = {}
 
 ---@param fields? CyberspaceMappinController
 ---@return CyberspaceMappinController
-function CyberspaceMappinController.new(fields) return end
+function CyberspaceMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function CyberspaceMappinController:OnIntro() return end
+function CyberspaceMappinController:OnIntro() end

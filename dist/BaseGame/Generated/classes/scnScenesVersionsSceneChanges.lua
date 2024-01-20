@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnScenesVersionsSceneChanges
----@field public scene scnSceneResource
----@field public sceneChanges scnScenesVersionsChangedRecord[]
+---@field scene scnSceneResource
+---@field sceneChanges scnScenesVersionsChangedRecord[]
 scnScenesVersionsSceneChanges = {}
 
 ---@param fields? scnScenesVersionsSceneChanges
 ---@return scnScenesVersionsSceneChanges
-function scnScenesVersionsSceneChanges.new(fields) return end
+function scnScenesVersionsSceneChanges.new(fields) end

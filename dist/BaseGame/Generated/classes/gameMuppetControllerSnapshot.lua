@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameMuppetControllerSnapshot
----@field public controllerId CName
----@field public isActive Bool
+---@field controllerId CName
+---@field isActive Bool
 gameMuppetControllerSnapshot = {}
 
 ---@param fields? gameMuppetControllerSnapshot
 ---@return gameMuppetControllerSnapshot
-function gameMuppetControllerSnapshot.new(fields) return end
+function gameMuppetControllerSnapshot.new(fields) end

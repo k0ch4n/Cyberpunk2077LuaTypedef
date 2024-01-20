@@ -1,41 +1,37 @@
 ---@meta
 
 ---@class ApproachVehicleDecorator: AIVehicleTaskAbstract
----@field protected mountData AIArgumentMapping
----@field protected mountRequest AIArgumentMapping
----@field protected entryPoint AIArgumentMapping
----@field private doorOpenRequestSent Bool
----@field private closeDoor Bool
----@field private mountEventData gameMountEventData
----@field private mountRequestData gameMountEventData
----@field private mountEntryPoint Vector4
----@field private activationTime EngineTime
----@field private runCompanionCheck Bool
----@field private slotOccupiedTimestamp Float
+---@field mountData AIArgumentMapping
+---@field mountRequest AIArgumentMapping
+---@field entryPoint AIArgumentMapping
+---@field doorOpenRequestSent Bool
+---@field closeDoor Bool
+---@field mountEventData gameMountEventData
+---@field mountRequestData gameMountEventData
+---@field mountEntryPoint Vector4
+---@field activationTime EngineTime
+---@field runCompanionCheck Bool
+---@field slotOccupiedTimestamp Float
 ApproachVehicleDecorator = {}
 
 ---@param fields? ApproachVehicleDecorator
 ---@return ApproachVehicleDecorator
-function ApproachVehicleDecorator.new(fields) return end
+function ApproachVehicleDecorator.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ApproachVehicleDecorator:Activate(context) return end
+function ApproachVehicleDecorator:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ApproachVehicleDecorator:Deactivate(context) return end
+function ApproachVehicleDecorator:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ApproachVehicleDecorator:Update(context) return end
+function ApproachVehicleDecorator:Update(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param ownerVehicle vehicleBaseObject
 ---@param delay Float
 ---@return Bool
-function ApproachVehicleDecorator:UpdateCompanionChecks(context, ownerVehicle, delay) return end
+function ApproachVehicleDecorator:UpdateCompanionChecks(context, ownerVehicle, delay) end

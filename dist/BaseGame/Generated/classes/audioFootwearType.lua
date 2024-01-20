@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioFootwearType: audioAudioMetadata
----@field public itemNames CName[]
+---@field itemNames CName[]
 audioFootwearType = {}
 
 ---@param fields? audioFootwearType
 ---@return audioFootwearType
-function audioFootwearType.new(fields) return end
+function audioFootwearType.new(fields) end

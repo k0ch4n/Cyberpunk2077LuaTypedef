@@ -1,77 +1,65 @@
 ---@meta
 
 ---@class gameuiStealthIndicatorPartLogicController: gameuiBaseDirectionalIndicatorPartLogicController
----@field private arrowFrontWidget inkImageWidgetReference
----@field private wrapper inkCompoundWidgetReference
----@field private stealthIndicatorDeadZoneAngle Float
----@field private slowestFlashTime Float
----@field private rootWidget inkCompoundWidget
----@field private lastValue Float
----@field private animProxy inkanimProxy
----@field private flashAnimProxy inkanimProxy
----@field private scaleAnimDef inkanimDefinition
+---@field arrowFrontWidget inkImageWidgetReference
+---@field wrapper inkCompoundWidgetReference
+---@field stealthIndicatorDeadZoneAngle Float
+---@field slowestFlashTime Float
+---@field rootWidget inkCompoundWidget
+---@field lastValue Float
+---@field animProxy inkanimProxy
+---@field flashAnimProxy inkanimProxy
+---@field scaleAnimDef inkanimDefinition
 gameuiStealthIndicatorPartLogicController = {}
 
 ---@param fields? gameuiStealthIndicatorPartLogicController
 ---@return gameuiStealthIndicatorPartLogicController
-function gameuiStealthIndicatorPartLogicController.new(fields) return end
+function gameuiStealthIndicatorPartLogicController.new(fields) end
 
 ---@return Vector4
-function gameuiStealthIndicatorPartLogicController:GetDetectionProgress() return end
+function gameuiStealthIndicatorPartLogicController:GetDetectionProgress() end
 
----@protected
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnHideIndicator() return end
+function gameuiStealthIndicatorPartLogicController:OnHideIndicator() end
 
----@protected
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnInitialize() return end
+function gameuiStealthIndicatorPartLogicController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnIntroComplete(proxy) return end
+function gameuiStealthIndicatorPartLogicController:OnIntroComplete(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnOutroComplete(proxy) return end
+function gameuiStealthIndicatorPartLogicController:OnOutroComplete(proxy) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnScaleInComplete(anim) return end
+function gameuiStealthIndicatorPartLogicController:OnScaleInComplete(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnScaleOutComplete(anim) return end
+function gameuiStealthIndicatorPartLogicController:OnScaleOutComplete(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnScreenDelayComplete(anim) return end
+function gameuiStealthIndicatorPartLogicController:OnScreenDelayComplete(anim) end
 
----@protected
 ---@param params gameuiDetectionParams
 ---@return Bool
-function gameuiStealthIndicatorPartLogicController:OnUpdateDetection(params) return end
+function gameuiStealthIndicatorPartLogicController:OnUpdateDetection(params) end
 
----@private
 ---@return nil
-function gameuiStealthIndicatorPartLogicController:OnScaleIn() return end
+function gameuiStealthIndicatorPartLogicController:OnScaleIn() end
 
----@private
 ---@return nil
-function gameuiStealthIndicatorPartLogicController:OnScaleOut() return end
+function gameuiStealthIndicatorPartLogicController:OnScaleOut() end
 
----@private
 ---@return nil
-function gameuiStealthIndicatorPartLogicController:OnScreenDelay() return end
+function gameuiStealthIndicatorPartLogicController:OnScreenDelay() end
 
----@private
 ---@param animName CName|string
 ---@param callback CName|string
 ---@param forceVisible Bool
 ---@return nil
-function gameuiStealthIndicatorPartLogicController:PlayAnim(animName, callback, forceVisible) return end
+function gameuiStealthIndicatorPartLogicController:PlayAnim(animName, callback, forceVisible) end

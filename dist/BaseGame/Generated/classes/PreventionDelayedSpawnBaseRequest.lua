@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PreventionDelayedSpawnBaseRequest: gameScriptableSystemRequest
----@field public heatStage EPreventionHeatStage
+---@field heatStage EPreventionHeatStage
 PreventionDelayedSpawnBaseRequest = {}
 
 ---@param fields? PreventionDelayedSpawnBaseRequest
 ---@return PreventionDelayedSpawnBaseRequest
-function PreventionDelayedSpawnBaseRequest.new(fields) return end
+function PreventionDelayedSpawnBaseRequest.new(fields) end

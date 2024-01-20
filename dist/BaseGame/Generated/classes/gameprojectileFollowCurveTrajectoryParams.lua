@@ -1,31 +1,31 @@
 ---@meta
 
 ---@class gameprojectileFollowCurveTrajectoryParams: gameprojectileTrajectoryParams
----@field public target gameObject
----@field public componentName CName
----@field public targetComponent entIPlacedComponent
----@field public targetSlotName CName
----@field public targetPosition Vector4
----@field public startVelocity Float
----@field public linearTimeRatio Float
----@field public interpolationTimeRatio Float
----@field public returnTimeMargin Float
----@field public bendTimeRatio Float
----@field public bendFactor Float
----@field public angleInHitPlane Float
----@field public angleInVerticalPlane Float
----@field public shouldRotate Bool
----@field public halfLeanAngle Float
----@field public endLeanAngle Float
----@field public angleInterpolationDuration Float
----@field public snapRadius Float
----@field public accuracy Float
----@field public offset Vector4
----@field public offsetInPlane Vector3
----@field public sendFollowEvent Bool
----@field public startVelocityDirectionCheck Bool
+---@field target gameObject
+---@field componentName CName
+---@field targetComponent entIPlacedComponent
+---@field targetSlotName CName
+---@field targetPosition Vector4
+---@field startVelocity Float
+---@field linearTimeRatio Float
+---@field interpolationTimeRatio Float
+---@field returnTimeMargin Float
+---@field bendTimeRatio Float
+---@field bendFactor Float
+---@field angleInHitPlane Float
+---@field angleInVerticalPlane Float
+---@field shouldRotate Bool
+---@field halfLeanAngle Float
+---@field endLeanAngle Float
+---@field angleInterpolationDuration Float
+---@field snapRadius Float
+---@field accuracy Float
+---@field offset Vector4
+---@field offsetInPlane Vector3
+---@field sendFollowEvent Bool
+---@field startVelocityDirectionCheck Bool
 gameprojectileFollowCurveTrajectoryParams = {}
 
 ---@param fields? gameprojectileFollowCurveTrajectoryParams
 ---@return gameprojectileFollowCurveTrajectoryParams
-function gameprojectileFollowCurveTrajectoryParams.new(fields) return end
+function gameprojectileFollowCurveTrajectoryParams.new(fields) end

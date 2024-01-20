@@ -1,54 +1,48 @@
 ---@meta
 
 ---@class CpoCharacterSelectionWidgetGameController: gameuiWidgetGameController
----@field public defaultCharacterTexturePart String
----@field public soloCharacterTexturePart String
----@field private horizontalPanelsList inkHorizontalPanelWidget[]
----@field private amount Int32
+---@field defaultCharacterTexturePart String
+---@field soloCharacterTexturePart String
+---@field horizontalPanelsList inkHorizontalPanelWidget[]
+---@field amount Int32
 CpoCharacterSelectionWidgetGameController = {}
 
 ---@param fields? CpoCharacterSelectionWidgetGameController
 ---@return CpoCharacterSelectionWidgetGameController
-function CpoCharacterSelectionWidgetGameController.new(fields) return end
+function CpoCharacterSelectionWidgetGameController.new(fields) end
 
----@protected
 ---@return Bool
-function CpoCharacterSelectionWidgetGameController:OnInitialize() return end
+function CpoCharacterSelectionWidgetGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function CpoCharacterSelectionWidgetGameController:OnUninitialize() return end
+function CpoCharacterSelectionWidgetGameController:OnUninitialize() end
 
----@private
 ---@param parent inkHorizontalPanelWidget
 ---@param argText String
 ---@param characterRecordId TweakDBID|string
 ---@return nil
-function CpoCharacterSelectionWidgetGameController:CreateCharacterButton(parent, argText, characterRecordId) return end
+function CpoCharacterSelectionWidgetGameController:CreateCharacterButton(parent, argText, characterRecordId) end
 
----@private
 ---@param characterRecordId TweakDBID|string
 ---@return nil
-function CpoCharacterSelectionWidgetGameController:FillTooltip(characterRecordId) return end
+function CpoCharacterSelectionWidgetGameController:FillTooltip(characterRecordId) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function CpoCharacterSelectionWidgetGameController:OnSelectCharacter(e) return end
+function CpoCharacterSelectionWidgetGameController:OnSelectCharacter(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function CpoCharacterSelectionWidgetGameController:OnSelectCharacterEnter(e) return end
+function CpoCharacterSelectionWidgetGameController:OnSelectCharacterEnter(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function CpoCharacterSelectionWidgetGameController:OnSelectCharacterLeave(e) return end
+function CpoCharacterSelectionWidgetGameController:OnSelectCharacterLeave(e) end
 
----@private
 ---@param isVisible Bool
 ---@return nil
-function CpoCharacterSelectionWidgetGameController:SetVisibilityInBlackboard(isVisible) return end
+function CpoCharacterSelectionWidgetGameController:SetVisibilityInBlackboard(isVisible) end
 
----@private
 ---@param visible Bool
 ---@return nil
-function CpoCharacterSelectionWidgetGameController:ShowTooltip(visible) return end
+function CpoCharacterSelectionWidgetGameController:ShowTooltip(visible) end

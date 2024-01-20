@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RequestReleaseControl: gameScriptableSystemRequest
----@field public followupEvent redEvent
----@field public followupEventEntityID entEntityID
+---@field followupEvent redEvent
+---@field followupEventEntityID entEntityID
 RequestReleaseControl = {}
 
 ---@param fields? RequestReleaseControl
 ---@return RequestReleaseControl
-function RequestReleaseControl.new(fields) return end
+function RequestReleaseControl.new(fields) end

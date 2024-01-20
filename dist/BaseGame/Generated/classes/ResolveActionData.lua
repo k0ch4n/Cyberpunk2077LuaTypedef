@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ResolveActionData: IScriptable
----@field public password String
+---@field password String
 ResolveActionData = {}
 
 ---@param fields? ResolveActionData
 ---@return ResolveActionData
-function ResolveActionData.new(fields) return end
+function ResolveActionData.new(fields) end

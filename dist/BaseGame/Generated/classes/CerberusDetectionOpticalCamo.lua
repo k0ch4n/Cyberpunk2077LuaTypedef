@@ -5,14 +5,12 @@ CerberusDetectionOpticalCamo = {}
 
 ---@param fields? CerberusDetectionOpticalCamo
 ---@return CerberusDetectionOpticalCamo
-function CerberusDetectionOpticalCamo.new(fields) return end
+function CerberusDetectionOpticalCamo.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CerberusDetectionOpticalCamo:Activate(context) return end
+function CerberusDetectionOpticalCamo:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CerberusDetectionOpticalCamo:Check(context) return end
+function CerberusDetectionOpticalCamo:Check(context) end

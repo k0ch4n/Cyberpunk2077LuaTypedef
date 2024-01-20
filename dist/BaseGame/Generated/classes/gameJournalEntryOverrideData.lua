@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameJournalEntryOverrideData: IScriptable
----@field public inputDevice inputESimplifiedInputDevice
----@field public inputScheme inputEInputScheme
----@field public overriddenLocalizationString LocalizationString
+---@field inputDevice inputESimplifiedInputDevice
+---@field inputScheme inputEInputScheme
+---@field overriddenLocalizationString LocalizationString
 gameJournalEntryOverrideData = {}
 
 ---@param fields? gameJournalEntryOverrideData
 ---@return gameJournalEntryOverrideData
-function gameJournalEntryOverrideData.new(fields) return end
+function gameJournalEntryOverrideData.new(fields) end
 
 ---@return String
-function gameJournalEntryOverrideData:GetOverriddenLocalizedText() return end
+function gameJournalEntryOverrideData:GetOverriddenLocalizedText() end

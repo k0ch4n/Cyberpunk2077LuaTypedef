@@ -1,123 +1,108 @@
 ---@meta
 
 ---@class hubStaticSelectorController: inkSelectorController
----@field protected leftArrowWidget inkWidgetReference
----@field protected rightArrowWidget inkWidgetReference
----@field protected container inkWidgetReference
----@field protected line inkWidgetReference
----@field protected leftArrowController inkInputDisplayController
----@field protected rightArrowController inkInputDisplayController
----@field protected data MenuData[]
----@field protected widgetsControllers HubMenuLabelContentContainer[]
----@field protected currentIndex Int32
----@field protected currentParent Int32
----@field private currentData MenuData[]
----@field private lineTranslationAnimProxy inkanimProxy
----@field private lineSizeAnimProxy inkanimProxy
----@field private instantLineUpdateRequested Bool
----@field private animationsRetryDiv Float
----@field private debugText inkTextWidgetReference
+---@field leftArrowWidget inkWidgetReference
+---@field rightArrowWidget inkWidgetReference
+---@field container inkWidgetReference
+---@field line inkWidgetReference
+---@field leftArrowController inkInputDisplayController
+---@field rightArrowController inkInputDisplayController
+---@field data MenuData[]
+---@field widgetsControllers HubMenuLabelContentContainer[]
+---@field currentIndex Int32
+---@field currentParent Int32
+---@field currentData MenuData[]
+---@field lineTranslationAnimProxy inkanimProxy
+---@field lineSizeAnimProxy inkanimProxy
+---@field instantLineUpdateRequested Bool
+---@field animationsRetryDiv Float
+---@field debugText inkTextWidgetReference
 hubStaticSelectorController = {}
 
 ---@param fields? hubStaticSelectorController
 ---@return hubStaticSelectorController
-function hubStaticSelectorController.new(fields) return end
+function hubStaticSelectorController.new(fields) end
 
----@protected
 ---@return Bool
-function hubStaticSelectorController:OnArrangeChildrenComplete() return end
+function hubStaticSelectorController:OnArrangeChildrenComplete() end
 
----@protected
 ---@return Bool
-function hubStaticSelectorController:OnInitialize() return end
+function hubStaticSelectorController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function hubStaticSelectorController:OnLineAnimationFinished(anim) return end
+function hubStaticSelectorController:OnLineAnimationFinished(anim) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function hubStaticSelectorController:OnMenuLabelClick(e) return end
+function hubStaticSelectorController:OnMenuLabelClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function hubStaticSelectorController:OnMenuLabelHover(e) return end
+function hubStaticSelectorController:OnMenuLabelHover(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function hubStaticSelectorController:OnMenuLabelHoverOut(e) return end
+function hubStaticSelectorController:OnMenuLabelHoverOut(e) end
 
----@protected
 ---@param e hubStaticSelectorPostArrangeEvent
 ---@return Bool
-function hubStaticSelectorController:OnPostArrange(e) return end
+function hubStaticSelectorController:OnPostArrange(e) end
 
----@protected
 ---@param index Int32
 ---@param value String
 ---@return Bool
-function hubStaticSelectorController:OnSelectionChanged(index, value) return end
+function hubStaticSelectorController:OnSelectionChanged(index, value) end
 
----@protected
 ---@return Bool
-function hubStaticSelectorController:OnUninitialize() return end
+function hubStaticSelectorController:OnUninitialize() end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param targetWidth Float
 ---@param time Float
 ---@return nil
-function hubStaticSelectorController:AnimateLineSize(targetWidget, targetWidth, time) return end
+function hubStaticSelectorController:AnimateLineSize(targetWidget, targetWidth, time) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param targetX Float
 ---@param time Float
 ---@return nil
-function hubStaticSelectorController:AnimateLineTranslation(targetWidget, targetX, time) return end
+function hubStaticSelectorController:AnimateLineTranslation(targetWidget, targetX, time) end
 
 ---@param identifier Int32
 ---@return MenuData[]
-function hubStaticSelectorController:GetMenusByParent(identifier) return end
+function hubStaticSelectorController:GetMenusByParent(identifier) end
 
----@protected
 ---@param controller HubMenuLabelContentContainer
 ---@return Bool
-function hubStaticSelectorController:IsCurrent(controller) return end
+function hubStaticSelectorController:IsCurrent(controller) end
 
 ---@param data MenuData
 ---@return nil
-function hubStaticSelectorController:ScrollTo(data) return end
+function hubStaticSelectorController:ScrollTo(data) end
 
 ---@param data MenuData[]
 ---@param startIdentifier Int32
 ---@return nil
-function hubStaticSelectorController:SetupMenu(data, startIdentifier) return end
+function hubStaticSelectorController:SetupMenu(data, startIdentifier) end
 
 ---@param data MenuData[]
 ---@param currentElement MenuData
 ---@return nil
-function hubStaticSelectorController:SetupMenuValues(data, currentElement) return end
+function hubStaticSelectorController:SetupMenuValues(data, currentElement) end
 
 ---@param data MenuData[]
 ---@return nil
-function hubStaticSelectorController:SetupWidgets(data) return end
+function hubStaticSelectorController:SetupWidgets(data) end
 
----@private
 ---@return nil
-function hubStaticSelectorController:UpdateArrowsVisibility() return end
+function hubStaticSelectorController:UpdateArrowsVisibility() end
 
----@protected
 ---@param index Int32
 ---@param instant? Bool
 ---@return nil
-function hubStaticSelectorController:UpdateHightlight(index, instant) return end
+function hubStaticSelectorController:UpdateHightlight(index, instant) end
 
----@protected
 ---@param currentIndex Int32
 ---@return nil
-function hubStaticSelectorController:UpdateLabelsStates(currentIndex) return end
+function hubStaticSelectorController:UpdateLabelsStates(currentIndex) end

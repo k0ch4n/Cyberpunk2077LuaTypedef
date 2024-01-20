@@ -5,4 +5,4 @@ SecuritySystemEnabled = {}
 
 ---@param fields? SecuritySystemEnabled
 ---@return SecuritySystemEnabled
-function SecuritySystemEnabled.new(fields) return end
+function SecuritySystemEnabled.new(fields) end

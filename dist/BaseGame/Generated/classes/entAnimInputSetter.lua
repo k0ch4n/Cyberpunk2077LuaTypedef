@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimInputSetter: redEvent
----@field public key CName
+---@field key CName
 entAnimInputSetter = {}
 
 ---@param fields? entAnimInputSetter
 ---@return entAnimInputSetter
-function entAnimInputSetter.new(fields) return end
+function entAnimInputSetter.new(fields) end

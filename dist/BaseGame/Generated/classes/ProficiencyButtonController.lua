@@ -1,44 +1,41 @@
 ---@meta
 
 ---@class ProficiencyButtonController: inkButtonController
----@field private labelText inkTextWidgetReference
----@field private levelText inkTextWidgetReference
----@field private frameHovered inkWidgetReference
----@field private transparencyAnimationProxy inkanimProxy
----@field private index Int32
+---@field labelText inkTextWidgetReference
+---@field levelText inkTextWidgetReference
+---@field frameHovered inkWidgetReference
+---@field transparencyAnimationProxy inkanimProxy
+---@field index Int32
 ProficiencyButtonController = {}
 
 ---@param fields? ProficiencyButtonController
 ---@return ProficiencyButtonController
-function ProficiencyButtonController.new(fields) return end
+function ProficiencyButtonController.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function ProficiencyButtonController:OnButtonStateChanged(controller, oldState, newState) return end
+function ProficiencyButtonController:OnButtonStateChanged(controller, oldState, newState) end
 
----@protected
 ---@return Bool
-function ProficiencyButtonController:OnInitialize() return end
+function ProficiencyButtonController:OnInitialize() end
 
 ---@return Int32
-function ProficiencyButtonController:GetIndex() return end
+function ProficiencyButtonController:GetIndex() end
 
----@private
 ---@param value Bool
 ---@return nil
-function ProficiencyButtonController:PlaySelectionAnimation(value) return end
+function ProficiencyButtonController:PlaySelectionAnimation(value) end
 
 ---@param value Int32
 ---@return nil
-function ProficiencyButtonController:SetIndex(value) return end
+function ProficiencyButtonController:SetIndex(value) end
 
 ---@param value String
 ---@return nil
-function ProficiencyButtonController:SetLabel(value) return end
+function ProficiencyButtonController:SetLabel(value) end
 
 ---@param value Int32
 ---@return nil
-function ProficiencyButtonController:SetLevel(value) return end
+function ProficiencyButtonController:SetLevel(value) end

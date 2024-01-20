@@ -5,28 +5,24 @@ MeleeChargedHoldDecisions = {}
 
 ---@param fields? MeleeChargedHoldDecisions
 ---@return MeleeChargedHoldDecisions
-function MeleeChargedHoldDecisions.new(fields) return end
+function MeleeChargedHoldDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeChargedHoldDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeChargedHoldDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeChargedHoldDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeChargedHoldDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeChargedHoldDecisions:ToMeleeMountedStrongAttack(stateContext, scriptInterface) return end
+function MeleeChargedHoldDecisions:ToMeleeMountedStrongAttack(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeChargedHoldDecisions:ToMeleeStrongAttack(stateContext, scriptInterface) return end
+function MeleeChargedHoldDecisions:ToMeleeStrongAttack(stateContext, scriptInterface) end

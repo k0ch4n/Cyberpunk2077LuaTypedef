@@ -5,4 +5,4 @@ gameReplAnimTransformSyncAnimRequest = {}
 
 ---@param fields? gameReplAnimTransformSyncAnimRequest
 ---@return gameReplAnimTransformSyncAnimRequest
-function gameReplAnimTransformSyncAnimRequest.new(fields) return end
+function gameReplAnimTransformSyncAnimRequest.new(fields) end

@@ -5,17 +5,16 @@ SettingsSelectorControllerListFloat = {}
 
 ---@param fields? SettingsSelectorControllerListFloat
 ---@return SettingsSelectorControllerListFloat
-function SettingsSelectorControllerListFloat.new(fields) return end
+function SettingsSelectorControllerListFloat.new(fields) end
 
----@private
 ---@param forward Bool
 ---@return nil
-function SettingsSelectorControllerListFloat:ChangeValue(forward) return end
+function SettingsSelectorControllerListFloat:ChangeValue(forward) end
 
 ---@return nil
-function SettingsSelectorControllerListFloat:Refresh() return end
+function SettingsSelectorControllerListFloat:Refresh() end
 
 ---@param entry userSettingsVar
 ---@param isPreGame Bool
 ---@return nil
-function SettingsSelectorControllerListFloat:Setup(entry, isPreGame) return end
+function SettingsSelectorControllerListFloat:Setup(entry, isPreGame) end

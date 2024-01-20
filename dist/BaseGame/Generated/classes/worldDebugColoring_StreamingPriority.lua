@@ -5,4 +5,4 @@ worldDebugColoring_StreamingPriority = {}
 
 ---@param fields? worldDebugColoring_StreamingPriority
 ---@return worldDebugColoring_StreamingPriority
-function worldDebugColoring_StreamingPriority.new(fields) return end
+function worldDebugColoring_StreamingPriority.new(fields) end

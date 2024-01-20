@@ -5,4 +5,4 @@ TimerEvent = {}
 
 ---@param fields? TimerEvent
 ---@return TimerEvent
-function TimerEvent.new(fields) return end
+function TimerEvent.new(fields) end

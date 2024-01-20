@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkGridWidget: inkCompoundWidget
----@field public orientation inkEOrientation
----@field public childPadding inkMargin
----@field public childSizeStep Vector2
+---@field orientation inkEOrientation
+---@field childPadding inkMargin
+---@field childSizeStep Vector2
 inkGridWidget = {}
 
 ---@param fields? inkGridWidget
 ---@return inkGridWidget
-function inkGridWidget.new(fields) return end
+function inkGridWidget.new(fields) end

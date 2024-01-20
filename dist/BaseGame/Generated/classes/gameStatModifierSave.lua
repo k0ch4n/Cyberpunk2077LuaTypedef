@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameStatModifierSave
----@field public statModifierUnions gameStatModifierData_Deprecated[]
----@field public statsObjectID gameStatsObjectID
----@field public recordID TweakDBID
----@field public seed Uint32
+---@field statModifierUnions gameStatModifierData_Deprecated[]
+---@field statsObjectID gameStatsObjectID
+---@field recordID TweakDBID
+---@field seed Uint32
 gameStatModifierSave = {}
 
 ---@param fields? gameStatModifierSave
 ---@return gameStatModifierSave
-function gameStatModifierSave.new(fields) return end
+function gameStatModifierSave.new(fields) end

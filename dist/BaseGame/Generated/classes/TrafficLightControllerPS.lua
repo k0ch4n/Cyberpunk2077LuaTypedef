@@ -5,23 +5,20 @@ TrafficLightControllerPS = {}
 
 ---@param fields? TrafficLightControllerPS
 ---@return TrafficLightControllerPS
-function TrafficLightControllerPS.new(fields) return end
-
----@protected
----@return Bool
-function TrafficLightControllerPS:OnInstantiated() return end
-
----@protected
----@return nil
-function TrafficLightControllerPS:GameAttached() return end
-
----@protected
----@return nil
-function TrafficLightControllerPS:Initialize() return end
+function TrafficLightControllerPS.new(fields) end
 
 ---@return Bool
-function TrafficLightControllerPS:IsMasterDestroyed() return end
+function TrafficLightControllerPS:OnInstantiated() end
+
+---@return nil
+function TrafficLightControllerPS:GameAttached() end
+
+---@return nil
+function TrafficLightControllerPS:Initialize() end
+
+---@return Bool
+function TrafficLightControllerPS:IsMasterDestroyed() end
 
 ---@param evt MasterDeviceDestroyed
 ---@return EntityNotificationType
-function TrafficLightControllerPS:OnMasterDeviceDestroyed(evt) return end
+function TrafficLightControllerPS:OnMasterDeviceDestroyed(evt) end

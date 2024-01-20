@@ -5,4 +5,4 @@ AIDistanceFromOthersCoverSelection = {}
 
 ---@param fields? AIDistanceFromOthersCoverSelection
 ---@return AIDistanceFromOthersCoverSelection
-function AIDistanceFromOthersCoverSelection.new(fields) return end
+function AIDistanceFromOthersCoverSelection.new(fields) end

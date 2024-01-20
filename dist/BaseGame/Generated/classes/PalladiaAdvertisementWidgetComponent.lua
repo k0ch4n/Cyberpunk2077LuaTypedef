@@ -5,4 +5,4 @@ PalladiaAdvertisementWidgetComponent = {}
 
 ---@param fields? PalladiaAdvertisementWidgetComponent
 ---@return PalladiaAdvertisementWidgetComponent
-function PalladiaAdvertisementWidgetComponent.new(fields) return end
+function PalladiaAdvertisementWidgetComponent.new(fields) end

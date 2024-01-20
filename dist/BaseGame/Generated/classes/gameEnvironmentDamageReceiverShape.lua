@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameEnvironmentDamageReceiverShape: ISerializable
----@field public transform Transform
+---@field transform Transform
 gameEnvironmentDamageReceiverShape = {}

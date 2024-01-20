@@ -5,4 +5,4 @@ SpawnSphereEvaluator = {}
 
 ---@param fields? SpawnSphereEvaluator
 ---@return SpawnSphereEvaluator
-function SpawnSphereEvaluator.new(fields) return end
+function SpawnSphereEvaluator.new(fields) end

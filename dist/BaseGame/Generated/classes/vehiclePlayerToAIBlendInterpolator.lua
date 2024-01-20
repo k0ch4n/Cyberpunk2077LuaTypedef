@@ -5,4 +5,4 @@ vehiclePlayerToAIBlendInterpolator = {}
 
 ---@param fields? vehiclePlayerToAIBlendInterpolator
 ---@return vehiclePlayerToAIBlendInterpolator
-function vehiclePlayerToAIBlendInterpolator.new(fields) return end
+function vehiclePlayerToAIBlendInterpolator.new(fields) end

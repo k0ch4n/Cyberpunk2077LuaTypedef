@@ -5,4 +5,4 @@ worldRuntimeSystemEntityTransforms = {}
 
 ---@param fields? worldRuntimeSystemEntityTransforms
 ---@return worldRuntimeSystemEntityTransforms
-function worldRuntimeSystemEntityTransforms.new(fields) return end
+function worldRuntimeSystemEntityTransforms.new(fields) end

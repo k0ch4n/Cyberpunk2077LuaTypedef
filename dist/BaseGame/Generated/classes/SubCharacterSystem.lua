@@ -1,145 +1,127 @@
 ---@meta
 
 ---@class SubCharacterSystem: gameScriptableSystem
----@field private uniqueSubCharacters SSubCharacter[]
----@field private scriptSpawnedFlathead Bool
----@field private isDespawningFlathead Bool
+---@field uniqueSubCharacters SSubCharacter[]
+---@field scriptSpawnedFlathead Bool
+---@field isDespawningFlathead Bool
 SubCharacterSystem = {}
 
 ---@param fields? SubCharacterSystem
 ---@return SubCharacterSystem
-function SubCharacterSystem.new(fields) return end
+function SubCharacterSystem.new(fields) end
 
 ---@param characterID? TweakDBID|string
 ---@return Bool
-function SubCharacterSystem.CancelDespawnRequest(characterID) return end
+function SubCharacterSystem.CancelDespawnRequest(characterID) end
 
 ---@param characterID? TweakDBID|string
 ---@return Bool
-function SubCharacterSystem.DespawnRequest(characterID) return end
+function SubCharacterSystem.DespawnRequest(characterID) end
 
 ---@return SubCharacterSystem
-function SubCharacterSystem.GetInstance() return end
+function SubCharacterSystem.GetInstance() end
 
 ---@param object gameObject
 ---@return Bool
-function SubCharacterSystem.IsFlathead(object) return end
+function SubCharacterSystem.IsFlathead(object) end
 
 ---@param characterID? TweakDBID|string
 ---@return Bool
-function SubCharacterSystem.IsSubCharacterSpawned(characterID) return end
+function SubCharacterSystem.IsSubCharacterSpawned(characterID) end
 
----@private
 ---@return nil
-function SubCharacterSystem:AddFlathead() return end
+function SubCharacterSystem:AddFlathead() end
 
----@private
 ---@param character ScriptedPuppet
 ---@return nil
-function SubCharacterSystem:AddSubCharacter(character) return end
+function SubCharacterSystem:AddSubCharacter(character) end
 
 ---@return SSubCharacter[]
-function SubCharacterSystem:GetAllSubCharacters() return end
+function SubCharacterSystem:GetAllSubCharacters() end
 
 ---@return ScriptedPuppet
-function SubCharacterSystem:GetFlathead() return end
+function SubCharacterSystem:GetFlathead() end
 
 ---@return EquipmentSystemPlayerData
-function SubCharacterSystem:GetFlatheadEquipment() return end
+function SubCharacterSystem:GetFlatheadEquipment() end
 
 ---@return gamePersistentID
-function SubCharacterSystem:GetFlatheadPersistentID() return end
+function SubCharacterSystem:GetFlatheadPersistentID() end
 
 ---@param subCharType gamedataSubCharacter
 ---@return EquipmentSystemPlayerData
-function SubCharacterSystem:GetSubCharacterEquipment(subCharType) return end
+function SubCharacterSystem:GetSubCharacterEquipment(subCharType) end
 
----@private
 ---@param subCharType gamedataSubCharacter
 ---@return Int32
-function SubCharacterSystem:GetSubCharacterIndex(subCharType) return end
+function SubCharacterSystem:GetSubCharacterIndex(subCharType) end
 
 ---@param subCharType gamedataSubCharacter
 ---@return gamePersistentID
-function SubCharacterSystem:GetSubCharacterPersistentID(subCharType) return end
+function SubCharacterSystem:GetSubCharacterPersistentID(subCharType) end
 
 ---@param subCharType gamedataSubCharacter
 ---@return ScriptedPuppet
-function SubCharacterSystem:GetSubCharacterPuppet(subCharType) return end
+function SubCharacterSystem:GetSubCharacterPuppet(subCharType) end
 
 ---@return Bool
-function SubCharacterSystem:IsFlatheadFollowing() return end
+function SubCharacterSystem:IsFlatheadFollowing() end
 
----@private
 ---@param request AddSubCharacterRequest
 ---@return nil
-function SubCharacterSystem:OnAddSubCharacterRequest(request) return end
+function SubCharacterSystem:OnAddSubCharacterRequest(request) end
 
----@private
 ---@return nil
-function SubCharacterSystem:OnAttach() return end
+function SubCharacterSystem:OnAttach() end
 
----@private
 ---@param request DespawnSubCharacterRequest
 ---@return nil
-function SubCharacterSystem:OnDespawnSubCharacterRequest(request) return end
+function SubCharacterSystem:OnDespawnSubCharacterRequest(request) end
 
----@private
 ---@param request DespawnUniqueSubCharacterRequest
 ---@return nil
-function SubCharacterSystem:OnDespawnUniqueSubCharacterRequest(request) return end
+function SubCharacterSystem:OnDespawnUniqueSubCharacterRequest(request) end
 
----@private
 ---@param request RemoveSubCharacterRequest
 ---@return nil
-function SubCharacterSystem:OnRemoveSubCharacterRequest(request) return end
+function SubCharacterSystem:OnRemoveSubCharacterRequest(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function SubCharacterSystem:OnRestored(saveVersion, gameVersion) return end
+function SubCharacterSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request SpawnSubCharacterRequest
 ---@return nil
-function SubCharacterSystem:OnSpawnSubCharacterRequest(request) return end
+function SubCharacterSystem:OnSpawnSubCharacterRequest(request) end
 
----@private
 ---@param request SpawnUniquePursuitSubCharacterRequest
 ---@return nil
-function SubCharacterSystem:OnSpawnUniquePursuitSubCharacterRequest(request) return end
+function SubCharacterSystem:OnSpawnUniquePursuitSubCharacterRequest(request) end
 
----@private
 ---@param request SpawnUniqueSubCharacterRequest
 ---@return nil
-function SubCharacterSystem:OnSpawnUniqueSubCharacterRequest(request) return end
+function SubCharacterSystem:OnSpawnUniqueSubCharacterRequest(request) end
 
----@private
 ---@param request SubCharEquipRequest
 ---@return nil
-function SubCharacterSystem:OnSubCharEquipRequest(request) return end
+function SubCharacterSystem:OnSubCharEquipRequest(request) end
 
----@private
 ---@param request SubCharUnequipRequest
 ---@return nil
-function SubCharacterSystem:OnSubCharEquipRequest(request) return end
+function SubCharacterSystem:OnSubCharEquipRequest(request) end
 
----@private
 ---@return nil
-function SubCharacterSystem:RemoveFlathead() return end
+function SubCharacterSystem:RemoveFlathead() end
 
----@private
 ---@param subCharType gamedataSubCharacter
 ---@return nil
-function SubCharacterSystem:RemoveSubCharacter(subCharType) return end
+function SubCharacterSystem:RemoveSubCharacter(subCharType) end
 
----@private
 ---@param value Bool
 ---@return nil
-function SubCharacterSystem:ShowFlatheadUI(value) return end
+function SubCharacterSystem:ShowFlatheadUI(value) end
 
----@private
 ---@param subCharType gamedataSubCharacter
 ---@return Bool
-function SubCharacterSystem:SubCharacterExists(subCharType) return end
+function SubCharacterSystem:SubCharacterExists(subCharType) end

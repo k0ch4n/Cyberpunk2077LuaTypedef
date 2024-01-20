@@ -5,25 +5,21 @@ TakedownPSMPrereq = {}
 
 ---@param fields? TakedownPSMPrereq
 ---@return TakedownPSMPrereq
-function TakedownPSMPrereq.new(fields) return end
+function TakedownPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function TakedownPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function TakedownPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function TakedownPSMPrereq:GetStateMachineEnum() return end
+function TakedownPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function TakedownPSMPrereq:OnRegister(state, context) return end
+function TakedownPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function TakedownPSMPrereq:OnUnregister(state, context) return end
+function TakedownPSMPrereq:OnUnregister(state, context) end

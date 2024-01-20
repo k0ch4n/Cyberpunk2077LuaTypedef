@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CategoryClickedEvent: redEvent
----@field public statsData gameStatViewData
+---@field statsData gameStatViewData
 CategoryClickedEvent = {}
 
 ---@param fields? CategoryClickedEvent
 ---@return CategoryClickedEvent
-function CategoryClickedEvent.new(fields) return end
+function CategoryClickedEvent.new(fields) end

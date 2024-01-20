@@ -1,26 +1,25 @@
 ---@meta
 
 ---@class ConstantStatPoolPrereqListener: BaseStatPoolPrereqListener
----@field protected state ConstantStatPoolPrereqState
+---@field state ConstantStatPoolPrereqState
 ConstantStatPoolPrereqListener = {}
 
 ---@param fields? ConstantStatPoolPrereqListener
 ---@return ConstantStatPoolPrereqListener
-function ConstantStatPoolPrereqListener.new(fields) return end
+function ConstantStatPoolPrereqListener.new(fields) end
 
----@protected
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return Bool
-function ConstantStatPoolPrereqListener:OnStatPoolValueReached(oldValue, newValue, percToPoints) return end
+function ConstantStatPoolPrereqListener:OnStatPoolValueReached(oldValue, newValue, percToPoints) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function ConstantStatPoolPrereqListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function ConstantStatPoolPrereqListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end
 
 ---@param state gamePrereqState
 ---@return nil
-function ConstantStatPoolPrereqListener:RegisterState(state) return end
+function ConstantStatPoolPrereqListener:RegisterState(state) end

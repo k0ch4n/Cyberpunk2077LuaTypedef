@@ -5,4 +5,4 @@ CameraCustomData_Histogram = {}
 
 ---@param fields? CameraCustomData_Histogram
 ---@return CameraCustomData_Histogram
-function CameraCustomData_Histogram.new(fields) return end
+function CameraCustomData_Histogram.new(fields) end

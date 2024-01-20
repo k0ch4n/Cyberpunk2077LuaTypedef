@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleVehicleAudioMultipliersEvent: redEvent
----@field public multipliers audioVehicleMultipliers
+---@field multipliers audioVehicleMultipliers
 vehicleVehicleAudioMultipliersEvent = {}
 
 ---@param fields? vehicleVehicleAudioMultipliersEvent
 ---@return vehicleVehicleAudioMultipliersEvent
-function vehicleVehicleAudioMultipliersEvent.new(fields) return end
+function vehicleVehicleAudioMultipliersEvent.new(fields) end

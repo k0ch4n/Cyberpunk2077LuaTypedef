@@ -5,16 +5,14 @@ SwimmingDeathEvents = {}
 
 ---@param fields? SwimmingDeathEvents
 ---@return SwimmingDeathEvents
-function SwimmingDeathEvents.new(fields) return end
+function SwimmingDeathEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingDeathEvents:OnEnter(stateContext, scriptInterface) return end
+function SwimmingDeathEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingDeathEvents:SetSwimming(stateContext, scriptInterface) return end
+function SwimmingDeathEvents:SetSwimming(stateContext, scriptInterface) end

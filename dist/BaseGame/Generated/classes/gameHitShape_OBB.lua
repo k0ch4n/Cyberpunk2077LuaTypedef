@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameHitShape_OBB: gameHitShapeBase
----@field public dimensions Vector3
+---@field dimensions Vector3
 gameHitShape_OBB = {}
 
 ---@param fields? gameHitShape_OBB
 ---@return gameHitShape_OBB
-function gameHitShape_OBB.new(fields) return end
+function gameHitShape_OBB.new(fields) end

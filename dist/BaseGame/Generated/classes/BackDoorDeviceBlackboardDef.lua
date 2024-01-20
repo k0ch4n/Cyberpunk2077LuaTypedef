@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class BackDoorDeviceBlackboardDef: MasterDeviceBaseBlackboardDef
----@field public isInDefaultState gamebbScriptID_Bool
----@field public shutdownModule gamebbScriptID_Int32
----@field public bootModule gamebbScriptID_Int32
+---@field isInDefaultState gamebbScriptID_Bool
+---@field shutdownModule gamebbScriptID_Int32
+---@field bootModule gamebbScriptID_Int32
 BackDoorDeviceBlackboardDef = {}
 
 ---@param fields? BackDoorDeviceBlackboardDef
 ---@return BackDoorDeviceBlackboardDef
-function BackDoorDeviceBlackboardDef.new(fields) return end
+function BackDoorDeviceBlackboardDef.new(fields) end

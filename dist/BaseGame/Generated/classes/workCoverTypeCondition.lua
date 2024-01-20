@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workCoverTypeCondition: workIWorkspotCondition
----@field public isHighCover Bool
+---@field isHighCover Bool
 workCoverTypeCondition = {}
 
 ---@param fields? workCoverTypeCondition
 ---@return workCoverTypeCondition
-function workCoverTypeCondition.new(fields) return end
+function workCoverTypeCondition.new(fields) end

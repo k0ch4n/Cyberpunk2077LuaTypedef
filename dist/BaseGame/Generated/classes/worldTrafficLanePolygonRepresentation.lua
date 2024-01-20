@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTrafficLanePolygonRepresentation
----@field public outline Vector3[]
----@field public polygon Vector2[]
+---@field outline Vector3[]
+---@field polygon Vector2[]
 worldTrafficLanePolygonRepresentation = {}
 
 ---@param fields? worldTrafficLanePolygonRepresentation
 ---@return worldTrafficLanePolygonRepresentation
-function worldTrafficLanePolygonRepresentation.new(fields) return end
+function worldTrafficLanePolygonRepresentation.new(fields) end

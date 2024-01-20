@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorSubtreeDefinition: AIbehaviorNestedTreeDefinition
----@field public tree AIbehaviorParameterizedBehavior
+---@field tree AIbehaviorParameterizedBehavior
 AIbehaviorSubtreeDefinition = {}
 
 ---@param fields? AIbehaviorSubtreeDefinition
 ---@return AIbehaviorSubtreeDefinition
-function AIbehaviorSubtreeDefinition.new(fields) return end
+function AIbehaviorSubtreeDefinition.new(fields) end

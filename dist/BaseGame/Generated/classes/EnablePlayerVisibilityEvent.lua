@@ -5,4 +5,4 @@ EnablePlayerVisibilityEvent = {}
 
 ---@param fields? EnablePlayerVisibilityEvent
 ---@return EnablePlayerVisibilityEvent
-function EnablePlayerVisibilityEvent.new(fields) return end
+function EnablePlayerVisibilityEvent.new(fields) end

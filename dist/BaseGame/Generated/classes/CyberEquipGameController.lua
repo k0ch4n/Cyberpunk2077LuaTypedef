@@ -1,47 +1,42 @@
 ---@meta
 
 ---@class CyberEquipGameController: ArmorEquipGameController
----@field private eyesTags CName[]
----@field private brainTags CName[]
----@field private musculoskeletalTags CName[]
----@field private nervousTags CName[]
----@field private cardiovascularTags CName[]
----@field private immuneTags CName[]
----@field private integumentaryTags CName[]
----@field private handsTags CName[]
----@field private armsTags CName[]
----@field private legsTags CName[]
----@field private quickSlotTags CName[]
----@field private weaponsQuickSlotTags CName[]
----@field private fragmentTags CName[]
+---@field eyesTags CName[]
+---@field brainTags CName[]
+---@field musculoskeletalTags CName[]
+---@field nervousTags CName[]
+---@field cardiovascularTags CName[]
+---@field immuneTags CName[]
+---@field integumentaryTags CName[]
+---@field handsTags CName[]
+---@field armsTags CName[]
+---@field legsTags CName[]
+---@field quickSlotTags CName[]
+---@field weaponsQuickSlotTags CName[]
+---@field fragmentTags CName[]
 CyberEquipGameController = {}
 
 ---@param fields? CyberEquipGameController
 ---@return CyberEquipGameController
-function CyberEquipGameController.new(fields) return end
+function CyberEquipGameController.new(fields) end
 
----@protected
 ---@return Bool
-function CyberEquipGameController:OnInitialize() return end
+function CyberEquipGameController:OnInitialize() end
 
----@private
 ---@param title String
 ---@param btnPath String
 ---@param area gamedataEquipmentArea
 ---@param numSlots Int32
 ---@return nil
-function CyberEquipGameController:CreateButton(title, btnPath, area, numSlots) return end
+function CyberEquipGameController:CreateButton(title, btnPath, area, numSlots) end
 
----@private
 ---@param itemID gameItemID
 ---@return gameItemViewData
-function CyberEquipGameController:GetPartialViewData(itemID) return end
+function CyberEquipGameController:GetPartialViewData(itemID) end
 
----@protected
 ---@return nil
-function CyberEquipGameController:RefreshInventoryList() return end
+function CyberEquipGameController:RefreshInventoryList() end
 
----@protected
 ---@param items gameItemData[]
 ---@return gameItemData[]
-function CyberEquipGameController:RemovedEverythingButCyberware(items) return end
+function CyberEquipGameController:RemovedEverythingButCyberware(items) end

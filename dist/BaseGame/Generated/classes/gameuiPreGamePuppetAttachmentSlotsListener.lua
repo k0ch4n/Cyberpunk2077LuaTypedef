@@ -5,4 +5,4 @@ gameuiPreGamePuppetAttachmentSlotsListener = {}
 
 ---@param fields? gameuiPreGamePuppetAttachmentSlotsListener
 ---@return gameuiPreGamePuppetAttachmentSlotsListener
-function gameuiPreGamePuppetAttachmentSlotsListener.new(fields) return end
+function gameuiPreGamePuppetAttachmentSlotsListener.new(fields) end

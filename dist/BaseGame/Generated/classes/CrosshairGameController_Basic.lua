@@ -1,111 +1,93 @@
 ---@meta
 
 ---@class CrosshairGameController_Basic: gameuiCrosshairBaseGameController
----@field private leftPart inkImageWidgetReference
----@field private rightPart inkImageWidgetReference
----@field private upPart inkImageWidgetReference
----@field private downPart inkImageWidgetReference
----@field private centerPart inkImageWidgetReference
----@field private bufferedSpread Vector2
----@field private currentFireMode gamedataTriggerMode
----@field private weaponlocalBB gameIBlackboard
----@field private bbcurrentFireMode redCallbackObject
----@field private ricochetModeActive Uint32
----@field private RicochetChance Uint32
----@field public horizontalMinSpread Float
----@field public verticalMinSpread Float
----@field public gameplaySpreadMultiplier Float
+---@field leftPart inkImageWidgetReference
+---@field rightPart inkImageWidgetReference
+---@field upPart inkImageWidgetReference
+---@field downPart inkImageWidgetReference
+---@field centerPart inkImageWidgetReference
+---@field bufferedSpread Vector2
+---@field currentFireMode gamedataTriggerMode
+---@field weaponlocalBB gameIBlackboard
+---@field bbcurrentFireMode redCallbackObject
+---@field ricochetModeActive Uint32
+---@field RicochetChance Uint32
+---@field horizontalMinSpread Float
+---@field verticalMinSpread Float
+---@field gameplaySpreadMultiplier Float
 CrosshairGameController_Basic = {}
 
 ---@param fields? CrosshairGameController_Basic
 ---@return CrosshairGameController_Basic
-function CrosshairGameController_Basic.new(fields) return end
+function CrosshairGameController_Basic.new(fields) end
 
----@protected
 ---@param spread Vector2
 ---@return Bool
-function CrosshairGameController_Basic:OnBulletSpreadChanged(spread) return end
+function CrosshairGameController_Basic:OnBulletSpreadChanged(spread) end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Basic:OnPreIntro() return end
+function CrosshairGameController_Basic:OnPreIntro() end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Basic:OnPreOutro() return end
+function CrosshairGameController_Basic:OnPreOutro() end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function CrosshairGameController_Basic:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function CrosshairGameController_Basic:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
----@protected
 ---@param full Bool
 ---@param duration Float
 ---@return nil
-function CrosshairGameController_Basic:ColapseCrosshair(full, duration) return end
+function CrosshairGameController_Basic:ColapseCrosshair(full, duration) end
 
----@protected
 ---@param full Bool
 ---@param duration Float
 ---@return nil
-function CrosshairGameController_Basic:ExpandCrosshair(full, duration) return end
+function CrosshairGameController_Basic:ExpandCrosshair(full, duration) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function CrosshairGameController_Basic:GetIntroAnimation(firstEquip) return end
+function CrosshairGameController_Basic:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function CrosshairGameController_Basic:GetOutroAnimation() return end
+function CrosshairGameController_Basic:GetOutroAnimation() end
 
----@private
 ---@param duration Float
 ---@return nil
-function CrosshairGameController_Basic:HideCenterPart(duration) return end
+function CrosshairGameController_Basic:HideCenterPart(duration) end
 
----@private
 ---@return nil
-function CrosshairGameController_Basic:OnHide() return end
+function CrosshairGameController_Basic:OnHide() end
 
----@private
 ---@return nil
-function CrosshairGameController_Basic:OnShow() return end
+function CrosshairGameController_Basic:OnShow() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Basic:OnState_Aim() return end
+function CrosshairGameController_Basic:OnState_Aim() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Basic:OnState_GrenadeCharging() return end
+function CrosshairGameController_Basic:OnState_GrenadeCharging() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Basic:OnState_HipFire() return end
+function CrosshairGameController_Basic:OnState_HipFire() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Basic:OnState_Reload() return end
+function CrosshairGameController_Basic:OnState_Reload() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Basic:OnState_Safe() return end
+function CrosshairGameController_Basic:OnState_Safe() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Basic:OnState_Scanning() return end
+function CrosshairGameController_Basic:OnState_Scanning() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Basic:OnState_Sprint() return end
+function CrosshairGameController_Basic:OnState_Sprint() end
 
----@protected
 ---@param value Variant
 ---@return nil
-function CrosshairGameController_Basic:OnTriggerModeChanged(value) return end
+function CrosshairGameController_Basic:OnTriggerModeChanged(value) end
 
----@private
 ---@param duration Float
 ---@return nil
-function CrosshairGameController_Basic:ShowCenterPart(duration) return end
+function CrosshairGameController_Basic:ShowCenterPart(duration) end

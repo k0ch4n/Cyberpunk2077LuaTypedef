@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ExposureCompensationAreaSettings: IAreaSettings
----@field public exposureCompensation Float
+---@field exposureCompensation Float
 ExposureCompensationAreaSettings = {}
 
 ---@param fields? ExposureCompensationAreaSettings
 ---@return ExposureCompensationAreaSettings
-function ExposureCompensationAreaSettings.new(fields) return end
+function ExposureCompensationAreaSettings.new(fields) end

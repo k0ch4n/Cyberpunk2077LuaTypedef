@@ -5,4 +5,4 @@ HitIsBodyPartTorsoPrereq = {}
 
 ---@param fields? HitIsBodyPartTorsoPrereq
 ---@return HitIsBodyPartTorsoPrereq
-function HitIsBodyPartTorsoPrereq.new(fields) return end
+function HitIsBodyPartTorsoPrereq.new(fields) end

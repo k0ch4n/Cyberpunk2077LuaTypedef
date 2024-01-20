@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entAnimGraphResourceContainerEntry
----@field public graphName CName
----@field public animGraphResource animAnimGraph
+---@field graphName CName
+---@field animGraphResource animAnimGraph
 entAnimGraphResourceContainerEntry = {}
 
 ---@param fields? entAnimGraphResourceContainerEntry
 ---@return entAnimGraphResourceContainerEntry
-function entAnimGraphResourceContainerEntry.new(fields) return end
+function entAnimGraphResourceContainerEntry.new(fields) end

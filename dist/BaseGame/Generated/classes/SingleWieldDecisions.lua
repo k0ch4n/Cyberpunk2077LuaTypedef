@@ -5,16 +5,14 @@ SingleWieldDecisions = {}
 
 ---@param fields? SingleWieldDecisions
 ---@return SingleWieldDecisions
-function SingleWieldDecisions.new(fields) return end
+function SingleWieldDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SingleWieldDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SingleWieldDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SingleWieldDecisions:ToEmptyHands(stateContext, scriptInterface) return end
+function SingleWieldDecisions:ToEmptyHands(stateContext, scriptInterface) end

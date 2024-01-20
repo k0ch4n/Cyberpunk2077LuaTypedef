@@ -5,9 +5,8 @@ CheckAbilityCanRetreat = {}
 
 ---@param fields? CheckAbilityCanRetreat
 ---@return CheckAbilityCanRetreat
-function CheckAbilityCanRetreat.new(fields) return end
+function CheckAbilityCanRetreat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckAbilityCanRetreat:Check(context) return end
+function CheckAbilityCanRetreat:Check(context) end

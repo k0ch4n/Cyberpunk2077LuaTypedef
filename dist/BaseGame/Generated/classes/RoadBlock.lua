@@ -1,149 +1,121 @@
 ---@meta
 
 ---@class RoadBlock: InteractiveDevice
----@field public openingSpeed Float
----@field private coverObjectRefs NodeRef[]
----@field protected animationController entAnimationControllerComponent
----@field protected offMeshConnection AIOffMeshConnectionComponent
----@field private animFeature AnimFeature_RoadBlock
----@field protected animationType EAnimationType
----@field protected forceEnableLink Bool
----@field private globalCoverObjectRefs worldGlobalNodeRef[]
----@field private areGlobalCoverRefsInitialized Bool
+---@field openingSpeed Float
+---@field coverObjectRefs NodeRef[]
+---@field animationController entAnimationControllerComponent
+---@field offMeshConnection AIOffMeshConnectionComponent
+---@field animFeature AnimFeature_RoadBlock
+---@field animationType EAnimationType
+---@field forceEnableLink Bool
+---@field globalCoverObjectRefs worldGlobalNodeRef[]
+---@field areGlobalCoverRefsInitialized Bool
 RoadBlock = {}
 
 ---@param fields? RoadBlock
 ---@return RoadBlock
-function RoadBlock.new(fields) return end
+function RoadBlock.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function RoadBlock:OnActivateDevice(evt) return end
+function RoadBlock:OnActivateDevice(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return Bool
-function RoadBlock:OnDeactivateDevice(evt) return end
+function RoadBlock:OnDeactivateDevice(evt) end
 
----@protected
 ---@return Bool
-function RoadBlock:OnDetach() return end
+function RoadBlock:OnDetach() end
 
----@protected
 ---@return Bool
-function RoadBlock:OnGameAttached() return end
+function RoadBlock:OnGameAttached() end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function RoadBlock:OnPhysicalDestructionEvent(evt) return end
+function RoadBlock:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param evt QuestForceRoadBlockadeActivate
 ---@return Bool
-function RoadBlock:OnQuestForceRoadBlockadeActivate(evt) return end
+function RoadBlock:OnQuestForceRoadBlockadeActivate(evt) end
 
----@protected
 ---@param evt QuestForceRoadBlockadeDeactivate
 ---@return Bool
-function RoadBlock:OnQuestForceRoadBlockadeDeactivate(evt) return end
+function RoadBlock:OnQuestForceRoadBlockadeDeactivate(evt) end
 
----@protected
 ---@param evt QuickHackToggleBlockade
 ---@return Bool
-function RoadBlock:OnQuickHackToggleBlockade(evt) return end
+function RoadBlock:OnQuickHackToggleBlockade(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function RoadBlock:OnRequestComponents(ri) return end
+function RoadBlock:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function RoadBlock:OnTakeControl(ri) return end
+function RoadBlock:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleBlockade
 ---@return Bool
-function RoadBlock:OnToggleBlockade(evt) return end
+function RoadBlock:OnToggleBlockade(evt) end
 
----@protected
 ---@return nil
-function RoadBlock:ActivateDevice() return end
+function RoadBlock:ActivateDevice() end
 
----@private
 ---@param immediate Bool
 ---@return nil
-function RoadBlock:Animate(immediate) return end
+function RoadBlock:Animate(immediate) end
 
----@protected
 ---@return nil
-function RoadBlock:DeactivateDevice() return end
+function RoadBlock:DeactivateDevice() end
 
 ---@return EGameplayRole
-function RoadBlock:DeterminGameplayRole() return end
+function RoadBlock:DeterminGameplayRole() end
 
----@private
 ---@return nil
-function RoadBlock:DisableCoverObjects() return end
+function RoadBlock:DisableCoverObjects() end
 
----@private
 ---@return nil
-function RoadBlock:EnableCoverObjects() return end
+function RoadBlock:EnableCoverObjects() end
 
----@private
 ---@return RoadBlockController
-function RoadBlock:GetController() return end
+function RoadBlock:GetController() end
 
 ---@return RoadBlockControllerPS
-function RoadBlock:GetDevicePS() return end
+function RoadBlock:GetDevicePS() end
 
----@private
 ---@param immediate Bool
 ---@return nil
-function RoadBlock:InternalUpdateRoadBlockState(immediate) return end
+function RoadBlock:InternalUpdateRoadBlockState(immediate) end
 
----@private
 ---@return nil
-function RoadBlock:RegisterCoverObjects() return end
+function RoadBlock:RegisterCoverObjects() end
 
----@protected
 ---@return nil
-function RoadBlock:ResolveGameplayState() return end
+function RoadBlock:ResolveGameplayState() end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function RoadBlock:ToggleOffMeshConnection(toggle) return end
+function RoadBlock:ToggleOffMeshConnection(toggle) end
 
----@private
 ---@param immediate Bool
 ---@return nil
-function RoadBlock:TransformAnimate(immediate) return end
+function RoadBlock:TransformAnimate(immediate) end
 
----@private
 ---@return nil
-function RoadBlock:TryInitializeGlobalCoverObjectRefs() return end
+function RoadBlock:TryInitializeGlobalCoverObjectRefs() end
 
----@private
 ---@return nil
-function RoadBlock:UnregisterCoverObjects() return end
+function RoadBlock:UnregisterCoverObjects() end
 
----@private
 ---@param immediate Bool
 ---@return nil
-function RoadBlock:UpdateAnimationState(immediate) return end
+function RoadBlock:UpdateAnimationState(immediate) end
 
----@private
 ---@return nil
-function RoadBlock:UpdateCoverObjectState() return end
+function RoadBlock:UpdateCoverObjectState() end
 
----@private
 ---@return nil
-function RoadBlock:UpdateRoadBlockState() return end
+function RoadBlock:UpdateRoadBlockState() end
 
----@private
 ---@return nil
-function RoadBlock:UpdateRoadBlockStateImmediate() return end
+function RoadBlock:UpdateRoadBlockStateImmediate() end

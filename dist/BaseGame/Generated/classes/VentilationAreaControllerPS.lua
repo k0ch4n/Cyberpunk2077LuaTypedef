@@ -1,52 +1,46 @@
 ---@meta
 
 ---@class VentilationAreaControllerPS: MasterControllerPS
----@field private ventilationAreaSetup VentilationAreaSetup
----@field private isActive Bool
+---@field ventilationAreaSetup VentilationAreaSetup
+---@field isActive Bool
 VentilationAreaControllerPS = {}
 
 ---@param fields? VentilationAreaControllerPS
 ---@return VentilationAreaControllerPS
-function VentilationAreaControllerPS.new(fields) return end
+function VentilationAreaControllerPS.new(fields) end
 
----@protected
 ---@return ActivateDevice
-function VentilationAreaControllerPS:ActionActivateDevice() return end
+function VentilationAreaControllerPS:ActionActivateDevice() end
 
----@private
 ---@return nil
-function VentilationAreaControllerPS:ActivateEffectors() return end
+function VentilationAreaControllerPS:ActivateEffectors() end
 
 ---@return CName
-function VentilationAreaControllerPS:GetActionName() return end
+function VentilationAreaControllerPS:GetActionName() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function VentilationAreaControllerPS:GetActions(context) return end
+function VentilationAreaControllerPS:GetActions(context) end
 
 ---@return ETrapEffects
-function VentilationAreaControllerPS:GetAreaEffect() return end
+function VentilationAreaControllerPS:GetAreaEffect() end
 
----@protected
 ---@return TweakDBID
-function VentilationAreaControllerPS:GetBackgroundTextureTweakDBID() return end
+function VentilationAreaControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function VentilationAreaControllerPS:GetDeviceIconTweakDBID() return end
+function VentilationAreaControllerPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function VentilationAreaControllerPS:GetInkWidgetTweakDBID(context) return end
+function VentilationAreaControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@return SThumbnailWidgetPackage
-function VentilationAreaControllerPS:GetThumbnailWidget() return end
+function VentilationAreaControllerPS:GetThumbnailWidget() end
 
 ---@return Bool
-function VentilationAreaControllerPS:IsAreaActive() return end
+function VentilationAreaControllerPS:IsAreaActive() end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function VentilationAreaControllerPS:OnActivateDevice(evt) return end
+function VentilationAreaControllerPS:OnActivateDevice(evt) end

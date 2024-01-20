@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class JukeboxSetup
----@field public randomizeStartingStation Bool
----@field public startingStation ERadioStationList
----@field public glitchSFX CName
----@field public paymentRecordID TweakDBID
+---@field randomizeStartingStation Bool
+---@field startingStation ERadioStationList
+---@field glitchSFX CName
+---@field paymentRecordID TweakDBID
 JukeboxSetup = {}
 
 ---@param fields? JukeboxSetup
 ---@return JukeboxSetup
-function JukeboxSetup.new(fields) return end
+function JukeboxSetup.new(fields) end

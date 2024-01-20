@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class OvershieldEffectorBase: gameContinuousEffector
----@field public statSystem gameStatsSystem
----@field public poolSystem gameStatPoolsSystem
----@field public immunityTypes gameStatModifierData_Deprecated[]
----@field public modifiersAdded Bool
----@field public owner gameObject
+---@field statSystem gameStatsSystem
+---@field poolSystem gameStatPoolsSystem
+---@field immunityTypes gameStatModifierData_Deprecated[]
+---@field modifiersAdded Bool
+---@field owner gameObject
 OvershieldEffectorBase = {}
 
 ---@param fields? OvershieldEffectorBase
 ---@return OvershieldEffectorBase
-function OvershieldEffectorBase.new(fields) return end
+function OvershieldEffectorBase.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function OvershieldEffectorBase:ContinuousAction(owner, instigator) return end
+function OvershieldEffectorBase:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function OvershieldEffectorBase:Initialize(record, parentRecord) return end
+function OvershieldEffectorBase:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function OvershieldEffectorBase:ProcessAction(owner) return end
+function OvershieldEffectorBase:ProcessAction(owner) end
 
----@protected
 ---@return gameStatModifierData_Deprecated[]
-function OvershieldEffectorBase:SetStatsToModify() return end
+function OvershieldEffectorBase:SetStatsToModify() end

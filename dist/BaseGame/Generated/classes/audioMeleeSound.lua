@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioMeleeSound
----@field public events audioMeleeEvent[]
+---@field events audioMeleeEvent[]
 audioMeleeSound = {}
 
 ---@param fields? audioMeleeSound
 ---@return audioMeleeSound
-function audioMeleeSound.new(fields) return end
+function audioMeleeSound.new(fields) end

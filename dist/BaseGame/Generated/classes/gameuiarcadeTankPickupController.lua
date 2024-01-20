@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeTankPickupController: gameuiarcadeArcadeObjectController
----@field public pickup inkWidgetReference
----@field public pickupText inkWidgetReference
+---@field pickup inkWidgetReference
+---@field pickupText inkWidgetReference
 gameuiarcadeTankPickupController = {}
 
 ---@param fields? gameuiarcadeTankPickupController
 ---@return gameuiarcadeTankPickupController
-function gameuiarcadeTankPickupController.new(fields) return end
+function gameuiarcadeTankPickupController.new(fields) end

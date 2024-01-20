@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameEffectAction_ChildEffectsMovingInCone: gameEffectPostAction
----@field public effectsCount Uint32
----@field public effectTagInThisFile CName
----@field public coneAngle Float
----@field public minEffectDuration Float
----@field public maxEffectDuration Float
----@field public twoDimensional Bool
----@field public smoothInterpolations Bool
+---@field effectsCount Uint32
+---@field effectTagInThisFile CName
+---@field coneAngle Float
+---@field minEffectDuration Float
+---@field maxEffectDuration Float
+---@field twoDimensional Bool
+---@field smoothInterpolations Bool
 gameEffectAction_ChildEffectsMovingInCone = {}
 
 ---@param fields? gameEffectAction_ChildEffectsMovingInCone
 ---@return gameEffectAction_ChildEffectsMovingInCone
-function gameEffectAction_ChildEffectsMovingInCone.new(fields) return end
+function gameEffectAction_ChildEffectsMovingInCone.new(fields) end

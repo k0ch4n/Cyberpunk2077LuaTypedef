@@ -1,44 +1,37 @@
 ---@meta
 
 ---@class LaserDetector: ProximityDetector
----@field private lasers handle[]
+---@field lasers handle[]
 LaserDetector = {}
 
 ---@param fields? LaserDetector
 ---@return LaserDetector
-function LaserDetector.new(fields) return end
+function LaserDetector.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function LaserDetector:OnRequestComponents(ri) return end
+function LaserDetector:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function LaserDetector:OnTakeControl(ri) return end
+function LaserDetector:OnTakeControl(ri) end
 
----@private
 ---@param toGreen Bool
 ---@return nil
-function LaserDetector:ChangeLasersColor(toGreen) return end
+function LaserDetector:ChangeLasersColor(toGreen) end
 
----@private
 ---@return LaserDetectorController
-function LaserDetector:GetController() return end
+function LaserDetector:GetController() end
 
 ---@return LaserDetectorControllerPS
-function LaserDetector:GetDevicePS() return end
+function LaserDetector:GetDevicePS() end
 
----@protected
 ---@param on Bool
 ---@return nil
-function LaserDetector:LockDevice(on) return end
+function LaserDetector:LockDevice(on) end
 
----@protected
 ---@return nil
-function LaserDetector:TurnOffDevice() return end
+function LaserDetector:TurnOffDevice() end
 
----@protected
 ---@return nil
-function LaserDetector:TurnOnDevice() return end
+function LaserDetector:TurnOnDevice() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ItemChooserUnequipItem: redEvent
----@field public itemData gameInventoryItemData
+---@field itemData gameInventoryItemData
 ItemChooserUnequipItem = {}
 
 ---@param fields? ItemChooserUnequipItem
 ---@return ItemChooserUnequipItem
-function ItemChooserUnequipItem.new(fields) return end
+function ItemChooserUnequipItem.new(fields) end

@@ -5,4 +5,4 @@ AIFollowerCombatCommand = {}
 
 ---@param fields? AIFollowerCombatCommand
 ---@return AIFollowerCombatCommand
-function AIFollowerCombatCommand.new(fields) return end
+function AIFollowerCombatCommand.new(fields) end

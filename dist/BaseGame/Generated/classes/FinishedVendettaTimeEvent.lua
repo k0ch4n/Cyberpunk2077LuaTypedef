@@ -5,4 +5,4 @@ FinishedVendettaTimeEvent = {}
 
 ---@param fields? FinishedVendettaTimeEvent
 ---@return FinishedVendettaTimeEvent
-function FinishedVendettaTimeEvent.new(fields) return end
+function FinishedVendettaTimeEvent.new(fields) end

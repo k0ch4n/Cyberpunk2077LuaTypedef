@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameuiSwitcherOption
----@field public index Int32
----@field public names CName[]
----@field public localizedName String
----@field public actions gameuiCharacterCustomizationAction[]
----@field public tags redTagList
+---@field index Int32
+---@field names CName[]
+---@field localizedName String
+---@field actions gameuiCharacterCustomizationAction[]
+---@field tags redTagList
 gameuiSwitcherOption = {}
 
 ---@param fields? gameuiSwitcherOption
 ---@return gameuiSwitcherOption
-function gameuiSwitcherOption.new(fields) return end
+function gameuiSwitcherOption.new(fields) end

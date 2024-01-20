@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ChromaticAberrationAreaSettings: IAreaSettings
----@field public chromaticAberrationEnabled Bool
----@field public chromaticAberrationMargin Float
----@field public chromaticAberrationSize Vector2
----@field public chromaticAberrationExp Float
----@field public subpixelDispersal Float
+---@field chromaticAberrationEnabled Bool
+---@field chromaticAberrationMargin Float
+---@field chromaticAberrationSize Vector2
+---@field chromaticAberrationExp Float
+---@field subpixelDispersal Float
 ChromaticAberrationAreaSettings = {}
 
 ---@param fields? ChromaticAberrationAreaSettings
 ---@return ChromaticAberrationAreaSettings
-function ChromaticAberrationAreaSettings.new(fields) return end
+function ChromaticAberrationAreaSettings.new(fields) end

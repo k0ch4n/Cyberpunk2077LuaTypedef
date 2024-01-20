@@ -5,22 +5,19 @@ CarryDecisions = {}
 
 ---@param fields? CarryDecisions
 ---@return CarryDecisions
-function CarryDecisions.new(fields) return end
+function CarryDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CarryDecisions:ToDispose(stateContext, scriptInterface) return end
+function CarryDecisions:ToDispose(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CarryDecisions:ToDrop(stateContext, scriptInterface) return end
+function CarryDecisions:ToDrop(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CarryDecisions:ToThrow(stateContext, scriptInterface) return end
+function CarryDecisions:ToThrow(stateContext, scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorAssignTaskItem
----@field public leftHandSide AIArgumentMapping
----@field public rightHandSide AIArgumentMapping
+---@field leftHandSide AIArgumentMapping
+---@field rightHandSide AIArgumentMapping
 AIbehaviorAssignTaskItem = {}
 
 ---@param fields? AIbehaviorAssignTaskItem
 ---@return AIbehaviorAssignTaskItem
-function AIbehaviorAssignTaskItem.new(fields) return end
+function AIbehaviorAssignTaskItem.new(fields) end

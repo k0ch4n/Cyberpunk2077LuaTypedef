@@ -5,4 +5,4 @@ CodexPopupClosedEvent = {}
 
 ---@param fields? CodexPopupClosedEvent
 ---@return CodexPopupClosedEvent
-function CodexPopupClosedEvent.new(fields) return end
+function CodexPopupClosedEvent.new(fields) end

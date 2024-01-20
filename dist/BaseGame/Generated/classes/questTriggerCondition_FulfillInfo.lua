@@ -5,4 +5,4 @@ questTriggerCondition_FulfillInfo = {}
 
 ---@param fields? questTriggerCondition_FulfillInfo
 ---@return questTriggerCondition_FulfillInfo
-function questTriggerCondition_FulfillInfo.new(fields) return end
+function questTriggerCondition_FulfillInfo.new(fields) end

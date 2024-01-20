@@ -1,84 +1,69 @@
 ---@meta
 
 ---@class GenericHotkeyController: gameuiNewPhoneRelatedHUDGameController
----@field protected hotkeyBackground inkImageWidgetReference
----@field protected buttonHint inkWidgetReference
----@field protected hotkey gameEHotkey
----@field protected pressStarted Bool
----@field protected buttonHintController inkInputDisplayController
----@field private questActivatingFact CName
----@field protected restrictions CName[]
----@field protected statusEffectsListener HotkeyWidgetStatsListener
----@field private debugCommands Uint32[]
----@field private factListenerId Uint32
+---@field hotkeyBackground inkImageWidgetReference
+---@field buttonHint inkWidgetReference
+---@field hotkey gameEHotkey
+---@field pressStarted Bool
+---@field buttonHintController inkInputDisplayController
+---@field questActivatingFact CName
+---@field restrictions CName[]
+---@field statusEffectsListener HotkeyWidgetStatsListener
+---@field debugCommands Uint32[]
+---@field factListenerId Uint32
 GenericHotkeyController = {}
 
----@protected
 ---@param evt DPADActionPerformed
 ---@return Bool
-function GenericHotkeyController:OnDpadActionPerformed(evt) return end
+function GenericHotkeyController:OnDpadActionPerformed(evt) end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:OnInitialize() return end
+function GenericHotkeyController:OnInitialize() end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:OnUninitialize() return end
+function GenericHotkeyController:OnUninitialize() end
 
----@protected
 ---@param animName CName|string
 ---@return nil
-function GenericHotkeyController:DBGPlayAnim(animName) return end
+function GenericHotkeyController:DBGPlayAnim(animName) end
 
----@protected
 ---@return PlayerPuppet
-function GenericHotkeyController:GetPlayer() return end
+function GenericHotkeyController:GetPlayer() end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:Initialize() return end
+function GenericHotkeyController:Initialize() end
 
----@private
 ---@return nil
-function GenericHotkeyController:InitializeButtonHint() return end
+function GenericHotkeyController:InitializeButtonHint() end
 
----@protected
 ---@return nil
-function GenericHotkeyController:InitializeStatusListener() return end
+function GenericHotkeyController:InitializeStatusListener() end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:IsActivatedByQuest() return end
+function GenericHotkeyController:IsActivatedByQuest() end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:IsAllowedByGameplay() return end
+function GenericHotkeyController:IsAllowedByGameplay() end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:IsControllingDevice() return end
+function GenericHotkeyController:IsControllingDevice() end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:IsControllingDeviceChain() return end
+function GenericHotkeyController:IsControllingDeviceChain() end
 
----@protected
 ---@return Bool
-function GenericHotkeyController:IsInDefaultState() return end
+function GenericHotkeyController:IsInDefaultState() end
 
 ---@param value Int32
 ---@return nil
-function GenericHotkeyController:OnActivation(value) return end
+function GenericHotkeyController:OnActivation(value) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function GenericHotkeyController:OnRestrictionUpdate(statusEffect) return end
+function GenericHotkeyController:OnRestrictionUpdate(statusEffect) end
 
----@protected
 ---@return nil
-function GenericHotkeyController:ResolveState() return end
+function GenericHotkeyController:ResolveState() end
 
----@protected
 ---@return nil
-function GenericHotkeyController:Uninitialize() return end
+function GenericHotkeyController:Uninitialize() end

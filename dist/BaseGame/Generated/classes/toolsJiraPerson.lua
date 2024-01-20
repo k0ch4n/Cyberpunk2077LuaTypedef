@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class toolsJiraPerson
----@field public name String
----@field public key String
----@field public displayName String
+---@field name String
+---@field key String
+---@field displayName String
 toolsJiraPerson = {}
 
 ---@param fields? toolsJiraPerson
 ---@return toolsJiraPerson
-function toolsJiraPerson.new(fields) return end
+function toolsJiraPerson.new(fields) end

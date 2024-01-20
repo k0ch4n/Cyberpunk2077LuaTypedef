@@ -5,23 +5,20 @@ HighlightModule = {}
 
 ---@param fields? HighlightModule
 ---@return HighlightModule
-function HighlightModule.new(fields) return end
+function HighlightModule.new(fields) end
 
----@protected
 ---@param actor gameHudActor
 ---@return HighlightInstance
-function HighlightModule:DuplicateLastInstance(actor) return end
+function HighlightModule:DuplicateLastInstance(actor) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob task
-function HighlightModule:Process(mode) return end
+function HighlightModule:Process(mode) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob[] jobs
-function HighlightModule:Process(mode) return end
+function HighlightModule:Process(mode) end
 
 ---@param jobs HUDJob[]
 ---@return nil
-function HighlightModule:Suppress(jobs) return end
+function HighlightModule:Suppress(jobs) end

@@ -1,64 +1,61 @@
 ---@meta
 
 ---@class HoloAudioCallLogicController: inkWidgetLogicController
----@field private AvatarControllerRef inkWidgetReference
----@field private Holder inkWidgetReference
----@field private AvatarController HudPhoneAvatarController
----@field private Owner gameObject
+---@field AvatarControllerRef inkWidgetReference
+---@field Holder inkWidgetReference
+---@field AvatarController HudPhoneAvatarController
+---@field Owner gameObject
 HoloAudioCallLogicController = {}
 
 ---@param fields? HoloAudioCallLogicController
 ---@return HoloAudioCallLogicController
-function HoloAudioCallLogicController.new(fields) return end
+function HoloAudioCallLogicController.new(fields) end
 
----@protected
 ---@param target inkWidget
 ---@return Bool
-function HoloAudioCallLogicController:OnAvatarControllerHidden(target) return end
+function HoloAudioCallLogicController:OnAvatarControllerHidden(target) end
 
----@protected
 ---@return Bool
-function HoloAudioCallLogicController:OnInitialize() return end
+function HoloAudioCallLogicController:OnInitialize() end
 
----@protected
 ---@return Bool
-function HoloAudioCallLogicController:OnUninitialize() return end
+function HoloAudioCallLogicController:OnUninitialize() end
 
 ---@param minimized Bool
 ---@return nil
-function HoloAudioCallLogicController:ChangeMinimized(minimized) return end
+function HoloAudioCallLogicController:ChangeMinimized(minimized) end
 
 ---@return nil
-function HoloAudioCallLogicController:Hide() return end
+function HoloAudioCallLogicController:Hide() end
 
 ---@param value Bool
 ---@return nil
-function HoloAudioCallLogicController:Interrupt(value) return end
+function HoloAudioCallLogicController:Interrupt(value) end
 
 ---@param statusText String
 ---@return nil
-function HoloAudioCallLogicController:SetStatusText(statusText) return end
+function HoloAudioCallLogicController:SetStatusText(statusText) end
 
 ---@return nil
-function HoloAudioCallLogicController:Show() return end
-
----@param avatarID TweakDBID|string
----@param contactName String
----@return nil
-function HoloAudioCallLogicController:ShowEndCallContact(avatarID, contactName) return end
+function HoloAudioCallLogicController:Show() end
 
 ---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
-function HoloAudioCallLogicController:ShowIncomingContact(avatarID, contactName) return end
+function HoloAudioCallLogicController:ShowEndCallContact(avatarID, contactName) end
+
+---@param avatarID TweakDBID|string
+---@param contactName String
+---@return nil
+function HoloAudioCallLogicController:ShowIncomingContact(avatarID, contactName) end
 
 ---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@param showAvatar Bool
 ---@return nil
-function HoloAudioCallLogicController:StartAudiocall(avatarID, contactName, showAvatar) return end
+function HoloAudioCallLogicController:StartAudiocall(avatarID, contactName, showAvatar) end
 
 ---@param avatarID TweakDBID|string
 ---@param contactName String
 ---@return nil
-function HoloAudioCallLogicController:StartHolocall(avatarID, contactName) return end
+function HoloAudioCallLogicController:StartHolocall(avatarID, contactName) end

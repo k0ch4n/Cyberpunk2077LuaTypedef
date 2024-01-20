@@ -4,4 +4,4 @@
 AIEvents = {}
 
 ---@return AIAIEvent
-function AIEvents.ExitVehicleEvent() return end
+function AIEvents.ExitVehicleEvent() end

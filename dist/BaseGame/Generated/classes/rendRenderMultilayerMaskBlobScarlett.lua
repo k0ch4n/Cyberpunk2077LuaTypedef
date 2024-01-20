@@ -5,4 +5,4 @@ rendRenderMultilayerMaskBlobScarlett = {}
 
 ---@param fields? rendRenderMultilayerMaskBlobScarlett
 ---@return rendRenderMultilayerMaskBlobScarlett
-function rendRenderMultilayerMaskBlobScarlett.new(fields) return end
+function rendRenderMultilayerMaskBlobScarlett.new(fields) end

@@ -5,4 +5,4 @@ NPCRarityPrereqState = {}
 
 ---@param fields? NPCRarityPrereqState
 ---@return NPCRarityPrereqState
-function NPCRarityPrereqState.new(fields) return end
+function NPCRarityPrereqState.new(fields) end

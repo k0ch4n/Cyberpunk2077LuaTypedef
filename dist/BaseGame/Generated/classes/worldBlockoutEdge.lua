@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldBlockoutEdge
----@field public points Uint32[]
----@field public areas Uint32[]
----@field public isFree Bool
+---@field points Uint32[]
+---@field areas Uint32[]
+---@field isFree Bool
 worldBlockoutEdge = {}
 
 ---@param fields? worldBlockoutEdge
 ---@return worldBlockoutEdge
-function worldBlockoutEdge.new(fields) return end
+function worldBlockoutEdge.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class vehicleAudioPSData
----@field public activeRadioStation CName
----@field public acousticIsolationFactor Float
----@field public glassAcousticIsolationFactor Float
----@field public isPlayerVehicleSummoned Bool
----@field public openedWindows CName
+---@field activeRadioStation CName
+---@field acousticIsolationFactor Float
+---@field glassAcousticIsolationFactor Float
+---@field isPlayerVehicleSummoned Bool
+---@field openedWindows CName
 vehicleAudioPSData = {}
 
 ---@param fields? vehicleAudioPSData
 ---@return vehicleAudioPSData
-function vehicleAudioPSData.new(fields) return end
+function vehicleAudioPSData.new(fields) end

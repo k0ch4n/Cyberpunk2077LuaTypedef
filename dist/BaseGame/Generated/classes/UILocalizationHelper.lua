@@ -5,12 +5,11 @@ UILocalizationHelper = {}
 
 ---@param statRecord gamedataStat_Record
 ---@return String
-function UILocalizationHelper.GetStatNameLockey(statRecord) return end
+function UILocalizationHelper.GetStatNameLockey(statRecord) end
 
 ---@return EMeasurementUnit
-function UILocalizationHelper.GetSystemBaseUnit() return end
+function UILocalizationHelper.GetSystemBaseUnit() end
 
----@private
 ---@param statType gamedataStatType
 ---@return Bool
-function UILocalizationHelper.IsStatProficiency(statType) return end
+function UILocalizationHelper.IsStatProficiency(statType) end

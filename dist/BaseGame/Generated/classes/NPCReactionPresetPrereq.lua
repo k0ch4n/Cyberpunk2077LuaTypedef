@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class NPCReactionPresetPrereq: gameIScriptablePrereq
----@field public reactionPreset gamedataReactionPresetType
----@field public invert Bool
+---@field reactionPreset gamedataReactionPresetType
+---@field invert Bool
 NPCReactionPresetPrereq = {}
 
 ---@param fields? NPCReactionPresetPrereq
 ---@return NPCReactionPresetPrereq
-function NPCReactionPresetPrereq.new(fields) return end
+function NPCReactionPresetPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCReactionPresetPrereq:Initialize(recordID) return end
+function NPCReactionPresetPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCReactionPresetPrereq:IsFulfilled(context) return end
+function NPCReactionPresetPrereq:IsFulfilled(context) end

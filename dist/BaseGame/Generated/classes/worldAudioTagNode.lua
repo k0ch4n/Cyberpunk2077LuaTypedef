@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldAudioTagNode: worldNode
----@field public audioTag CName
----@field public radius Float
+---@field audioTag CName
+---@field radius Float
 worldAudioTagNode = {}
 
 ---@param fields? worldAudioTagNode
 ---@return worldAudioTagNode
-function worldAudioTagNode.new(fields) return end
+function worldAudioTagNode.new(fields) end

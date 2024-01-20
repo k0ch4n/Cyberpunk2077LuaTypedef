@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class audioWeaponAmmoSettingsMap: audioAudioMetadata
----@field public standardFlyby audioFlybySettings
----@field public sniperFlyby audioFlybySettings
----@field public shotFlyby audioFlybySettings
----@field public railFlyby audioFlybySettings
----@field public automaticFlyby audioFlybySettings
----@field public smartFlyby audioFlybySettings
----@field public smartSniperFlyby audioFlybySettings
----@field public hmgFlyby audioFlybySettings
----@field public flybyMinDistance Float
+---@field standardFlyby audioFlybySettings
+---@field sniperFlyby audioFlybySettings
+---@field shotFlyby audioFlybySettings
+---@field railFlyby audioFlybySettings
+---@field automaticFlyby audioFlybySettings
+---@field smartFlyby audioFlybySettings
+---@field smartSniperFlyby audioFlybySettings
+---@field hmgFlyby audioFlybySettings
+---@field flybyMinDistance Float
 audioWeaponAmmoSettingsMap = {}
 
 ---@param fields? audioWeaponAmmoSettingsMap
 ---@return audioWeaponAmmoSettingsMap
-function audioWeaponAmmoSettingsMap.new(fields) return end
+function audioWeaponAmmoSettingsMap.new(fields) end

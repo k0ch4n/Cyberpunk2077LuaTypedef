@@ -5,16 +5,14 @@ MeleeStrongAttackDecisions = {}
 
 ---@param fields? MeleeStrongAttackDecisions
 ---@return MeleeStrongAttackDecisions
-function MeleeStrongAttackDecisions.new(fields) return end
+function MeleeStrongAttackDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeStrongAttackDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeStrongAttackDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeStrongAttackDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeStrongAttackDecisions:ExitCondition(stateContext, scriptInterface) end

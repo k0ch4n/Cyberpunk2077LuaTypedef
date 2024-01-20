@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimSetup
----@field public cinematics animAnimSetupEntry[]
----@field public gameplay animAnimSetupEntry[]
----@field public hash Uint64
+---@field cinematics animAnimSetupEntry[]
+---@field gameplay animAnimSetupEntry[]
+---@field hash Uint64
 animAnimSetup = {}
 
 ---@param fields? animAnimSetup
 ---@return animAnimSetup
-function animAnimSetup.new(fields) return end
+function animAnimSetup.new(fields) end

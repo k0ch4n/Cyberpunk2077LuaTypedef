@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questCharacterQuickHacked_ConditionType: questICharacterConditionType
----@field public objectRef gameEntityReference
----@field public quickHacked Bool
+---@field objectRef gameEntityReference
+---@field quickHacked Bool
 questCharacterQuickHacked_ConditionType = {}
 
 ---@param fields? questCharacterQuickHacked_ConditionType
 ---@return questCharacterQuickHacked_ConditionType
-function questCharacterQuickHacked_ConditionType.new(fields) return end
+function questCharacterQuickHacked_ConditionType.new(fields) end

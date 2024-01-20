@@ -1,35 +1,33 @@
 ---@meta
 
 ---@class CharacterCreationTopBarHeader: inkButtonController
----@field private icon inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field public root inkWidget
----@field private animationProxy inkanimProxy
+---@field icon inkImageWidgetReference
+---@field label inkTextWidgetReference
+---@field root inkWidget
+---@field animationProxy inkanimProxy
 CharacterCreationTopBarHeader = {}
 
 ---@param fields? CharacterCreationTopBarHeader
 ---@return CharacterCreationTopBarHeader
-function CharacterCreationTopBarHeader.new(fields) return end
+function CharacterCreationTopBarHeader.new(fields) end
 
----@protected
 ---@return Bool
-function CharacterCreationTopBarHeader:OnInitialize() return end
+function CharacterCreationTopBarHeader:OnInitialize() end
 
----@protected
 ---@return Bool
-function CharacterCreationTopBarHeader:OnUninitialize() return end
+function CharacterCreationTopBarHeader:OnUninitialize() end
 
 ---@param animName CName|string
 ---@return nil
-function CharacterCreationTopBarHeader:PlayAnim(animName) return end
+function CharacterCreationTopBarHeader:PlayAnim(animName) end
 
 ---@return nil
-function CharacterCreationTopBarHeader:Select() return end
+function CharacterCreationTopBarHeader:Select() end
 
 ---@param label String
 ---@param icon CName|string
 ---@return nil
-function CharacterCreationTopBarHeader:SetData(label, icon) return end
+function CharacterCreationTopBarHeader:SetData(label, icon) end
 
 ---@return nil
-function CharacterCreationTopBarHeader:Unselect() return end
+function CharacterCreationTopBarHeader:Unselect() end

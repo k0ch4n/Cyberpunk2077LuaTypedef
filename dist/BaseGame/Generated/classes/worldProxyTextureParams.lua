@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class worldProxyTextureParams
----@field public exportVertexColor Bool
----@field public albedoTextureResolution worldProxyMeshTexRes
----@field public generateAlbedo Bool
----@field public normalTextureResolution worldProxyMeshTexRes
----@field public generateNormal Bool
----@field public roughnessTextureResolution worldProxyMeshTexRes
----@field public generateRoughness Bool
----@field public metalnessTextureResolution worldProxyMeshTexRes
----@field public generateMetalness Bool
----@field public disableTextureFilter Bool
----@field public diffuseAlphaAsEmissive Bool
+---@field exportVertexColor Bool
+---@field albedoTextureResolution worldProxyMeshTexRes
+---@field generateAlbedo Bool
+---@field normalTextureResolution worldProxyMeshTexRes
+---@field generateNormal Bool
+---@field roughnessTextureResolution worldProxyMeshTexRes
+---@field generateRoughness Bool
+---@field metalnessTextureResolution worldProxyMeshTexRes
+---@field generateMetalness Bool
+---@field disableTextureFilter Bool
+---@field diffuseAlphaAsEmissive Bool
 worldProxyTextureParams = {}
 
 ---@param fields? worldProxyTextureParams
 ---@return worldProxyTextureParams
-function worldProxyTextureParams.new(fields) return end
+function worldProxyTextureParams.new(fields) end

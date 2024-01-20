@@ -5,4 +5,4 @@ gameWaypoint = {}
 
 ---@param fields? gameWaypoint
 ---@return gameWaypoint
-function gameWaypoint.new(fields) return end
+function gameWaypoint.new(fields) end

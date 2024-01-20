@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entLightBlockingComponent: entIVisualComponent
----@field public radius Float
----@field public lightBlockerComponentVersion Uint8
+---@field radius Float
+---@field lightBlockerComponentVersion Uint8
 entLightBlockingComponent = {}
 
 ---@param fields? entLightBlockingComponent
 ---@return entLightBlockingComponent
-function entLightBlockingComponent.new(fields) return end
+function entLightBlockingComponent.new(fields) end

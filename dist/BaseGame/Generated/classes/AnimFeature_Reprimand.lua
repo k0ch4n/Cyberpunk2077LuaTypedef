@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AnimFeature_Reprimand: animAnimFeature
----@field public state Int32
----@field public isActive Bool
----@field public isLocomotion Bool
----@field public weaponType Int32
+---@field state Int32
+---@field isActive Bool
+---@field isLocomotion Bool
+---@field weaponType Int32
 AnimFeature_Reprimand = {}
 
 ---@param fields? AnimFeature_Reprimand
 ---@return AnimFeature_Reprimand
-function AnimFeature_Reprimand.new(fields) return end
+function AnimFeature_Reprimand.new(fields) end

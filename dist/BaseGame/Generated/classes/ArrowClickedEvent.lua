@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ArrowClickedEvent: redEvent
----@field public direction Direction
+---@field direction Direction
 ArrowClickedEvent = {}
 
 ---@param fields? ArrowClickedEvent
 ---@return ArrowClickedEvent
-function ArrowClickedEvent.new(fields) return end
+function ArrowClickedEvent.new(fields) end

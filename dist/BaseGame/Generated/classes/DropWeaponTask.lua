@@ -5,14 +5,12 @@ DropWeaponTask = {}
 
 ---@param fields? DropWeaponTask
 ---@return DropWeaponTask
-function DropWeaponTask.new(fields) return end
+function DropWeaponTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function DropWeaponTask:Activate(context) return end
+function DropWeaponTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function DropWeaponTask:Deactivate(context) return end
+function DropWeaponTask:Deactivate(context) end

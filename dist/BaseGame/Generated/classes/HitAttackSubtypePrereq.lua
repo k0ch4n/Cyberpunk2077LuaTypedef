@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class HitAttackSubtypePrereq: GenericHitPrereq
----@field public attackSubtype gamedataAttackSubtype
+---@field attackSubtype gamedataAttackSubtype
 HitAttackSubtypePrereq = {}
 
 ---@param fields? HitAttackSubtypePrereq
 ---@return HitAttackSubtypePrereq
-function HitAttackSubtypePrereq.new(fields) return end
+function HitAttackSubtypePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitAttackSubtypePrereq:Initialize(recordID) return end
+function HitAttackSubtypePrereq:Initialize(recordID) end

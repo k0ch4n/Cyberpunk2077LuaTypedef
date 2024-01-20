@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class SlideExitingEvents: ExitingEvents
----@field public exitMomentum Vector4
+---@field exitMomentum Vector4
 SlideExitingEvents = {}
 
 ---@param fields? SlideExitingEvents
 ---@return SlideExitingEvents
-function SlideExitingEvents.new(fields) return end
+function SlideExitingEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideExitingEvents:OnEnter(stateContext, scriptInterface) return end
+function SlideExitingEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideExitingEvents:OnExit(stateContext, scriptInterface) return end
+function SlideExitingEvents:OnExit(stateContext, scriptInterface) end

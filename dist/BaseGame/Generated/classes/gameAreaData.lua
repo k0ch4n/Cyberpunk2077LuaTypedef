@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameAreaData
----@field public position Vector4
----@field public size Float
----@field public type gameEAreaType
----@field public shape gameEAreaShape
----@field public name CName
----@field public priority Uint32
----@field public lootID TweakDBID
+---@field position Vector4
+---@field size Float
+---@field type gameEAreaType
+---@field shape gameEAreaShape
+---@field name CName
+---@field priority Uint32
+---@field lootID TweakDBID
 gameAreaData = {}
 
 ---@param fields? gameAreaData
 ---@return gameAreaData
-function gameAreaData.new(fields) return end
+function gameAreaData.new(fields) end

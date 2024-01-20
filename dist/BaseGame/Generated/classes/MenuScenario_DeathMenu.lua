@@ -5,55 +5,43 @@ MenuScenario_DeathMenu = {}
 
 ---@param fields? MenuScenario_DeathMenu
 ---@return MenuScenario_DeathMenu
-function MenuScenario_DeathMenu.new(fields) return end
+function MenuScenario_DeathMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnBack() return end
+function MenuScenario_DeathMenu:OnBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnCloseDeathMenu() return end
+function MenuScenario_DeathMenu:OnCloseDeathMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnCloseSettingsScreen() return end
+function MenuScenario_DeathMenu:OnCloseSettingsScreen() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_DeathMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_DeathMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnMainMenuBack() return end
+function MenuScenario_DeathMenu:OnMainMenuBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnSwitchToBrightnessSettings() return end
+function MenuScenario_DeathMenu:OnSwitchToBrightnessSettings() end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnSwitchToControllerPanel() return end
+function MenuScenario_DeathMenu:OnSwitchToControllerPanel() end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnSwitchToHDRSettings() return end
+function MenuScenario_DeathMenu:OnSwitchToHDRSettings() end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnSwitchToLoadGame() return end
+function MenuScenario_DeathMenu:OnSwitchToLoadGame() end
 
----@protected
 ---@return Bool
-function MenuScenario_DeathMenu:OnSwitchToSettings() return end
+function MenuScenario_DeathMenu:OnSwitchToSettings() end
 
----@private
 ---@param forceCloseSettings Bool
 ---@return nil
-function MenuScenario_DeathMenu:GoBack(forceCloseSettings) return end
+function MenuScenario_DeathMenu:GoBack(forceCloseSettings) end
 
----@protected
 ---@return nil
-function MenuScenario_DeathMenu:GotoIdleState() return end
+function MenuScenario_DeathMenu:GotoIdleState() end

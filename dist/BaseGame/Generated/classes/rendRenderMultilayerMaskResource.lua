@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class rendRenderMultilayerMaskResource
----@field public renderResourceBlobPC IRenderResourceBlob
+---@field renderResourceBlobPC IRenderResourceBlob
 rendRenderMultilayerMaskResource = {}
 
 ---@param fields? rendRenderMultilayerMaskResource
 ---@return rendRenderMultilayerMaskResource
-function rendRenderMultilayerMaskResource.new(fields) return end
+function rendRenderMultilayerMaskResource.new(fields) end

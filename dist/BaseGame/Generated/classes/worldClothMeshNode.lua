@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldClothMeshNode: worldMeshNode
----@field public affectedByWind Bool
----@field public collisionMask physicsEClothCollisionMaskEnum
+---@field affectedByWind Bool
+---@field collisionMask physicsEClothCollisionMaskEnum
 worldClothMeshNode = {}
 
 ---@param fields? worldClothMeshNode
 ---@return worldClothMeshNode
-function worldClothMeshNode.new(fields) return end
+function worldClothMeshNode.new(fields) end

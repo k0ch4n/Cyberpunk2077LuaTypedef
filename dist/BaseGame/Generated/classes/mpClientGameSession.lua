@@ -5,4 +5,4 @@ mpClientGameSession = {}
 
 ---@param fields? mpClientGameSession
 ---@return mpClientGameSession
-function mpClientGameSession.new(fields) return end
+function mpClientGameSession.new(fields) end

@@ -5,4 +5,4 @@ OnRelease = {}
 
 ---@param fields? OnRelease
 ---@return OnRelease
-function OnRelease.new(fields) return end
+function OnRelease.new(fields) end

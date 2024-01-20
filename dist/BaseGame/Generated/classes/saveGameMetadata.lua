@@ -1,50 +1,50 @@
 ---@meta
 
 ---@class saveGameMetadata
----@field public gameDefinition String
----@field public activeQuests String
----@field public trackedQuestEntry String
----@field public trackedQuest String
----@field public mainQuest String
----@field public debugString String
----@field public locationName String
----@field public playerPosition Vector3
----@field public playTime Double
----@field public playthroughTime Double
----@field public nextSavableEntityID Uint32
----@field public nextNonSavableEntityID Uint32
----@field public lifePath gamedataLifePath
----@field public bodyGender String
----@field public brainGender String
----@field public level Float
----@field public streetCred Float
----@field public gunslinger Float
----@field public assault Float
----@field public demolition Float
----@field public athletics Float
----@field public brawling Float
----@field public coldBlood Float
----@field public stealth Float
----@field public engineering Float
----@field public crafting Float
----@field public hacking Float
----@field public combatHacking Float
----@field public strength Float
----@field public intelligence Float
----@field public reflexes Float
----@field public technicalAbility Float
----@field public cool Float
----@field public initialBuildID String
----@field public finishedQuests String
----@field public playthroughID String
----@field public pointOfNoReturnId String
----@field public visitID String
----@field public buildSKU String
----@field public buildPatch String
----@field public difficulty gameDifficulty
----@field public facts String[]
+---@field gameDefinition String
+---@field activeQuests String
+---@field trackedQuestEntry String
+---@field trackedQuest String
+---@field mainQuest String
+---@field debugString String
+---@field locationName String
+---@field playerPosition Vector3
+---@field playTime Double
+---@field playthroughTime Double
+---@field nextSavableEntityID Uint32
+---@field nextNonSavableEntityID Uint32
+---@field lifePath gamedataLifePath
+---@field bodyGender String
+---@field brainGender String
+---@field level Float
+---@field streetCred Float
+---@field gunslinger Float
+---@field assault Float
+---@field demolition Float
+---@field athletics Float
+---@field brawling Float
+---@field coldBlood Float
+---@field stealth Float
+---@field engineering Float
+---@field crafting Float
+---@field hacking Float
+---@field combatHacking Float
+---@field strength Float
+---@field intelligence Float
+---@field reflexes Float
+---@field technicalAbility Float
+---@field cool Float
+---@field initialBuildID String
+---@field finishedQuests String
+---@field playthroughID String
+---@field pointOfNoReturnId String
+---@field visitID String
+---@field buildSKU String
+---@field buildPatch String
+---@field difficulty gameDifficulty
+---@field facts String[]
 saveGameMetadata = {}
 
 ---@param fields? saveGameMetadata
 ---@return saveGameMetadata
-function saveGameMetadata.new(fields) return end
+function saveGameMetadata.new(fields) end

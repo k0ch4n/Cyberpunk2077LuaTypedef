@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animVisualTagCondition: animIStaticCondition
----@field public visualTag CName
+---@field visualTag CName
 animVisualTagCondition = {}
 
 ---@param fields? animVisualTagCondition
 ---@return animVisualTagCondition
-function animVisualTagCondition.new(fields) return end
+function animVisualTagCondition.new(fields) end

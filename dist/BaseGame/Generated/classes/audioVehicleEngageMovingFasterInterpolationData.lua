@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioVehicleEngageMovingFasterInterpolationData
----@field public enterCurveType audioESoundCurveType
----@field public enterCurveTime Float
----@field public exitCurveType audioESoundCurveType
----@field public exitCurveTime Float
+---@field enterCurveType audioESoundCurveType
+---@field enterCurveTime Float
+---@field exitCurveType audioESoundCurveType
+---@field exitCurveTime Float
 audioVehicleEngageMovingFasterInterpolationData = {}
 
 ---@param fields? audioVehicleEngageMovingFasterInterpolationData
 ---@return audioVehicleEngageMovingFasterInterpolationData
-function audioVehicleEngageMovingFasterInterpolationData.new(fields) return end
+function audioVehicleEngageMovingFasterInterpolationData.new(fields) end

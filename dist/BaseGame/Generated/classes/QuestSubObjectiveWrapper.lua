@@ -5,7 +5,7 @@ QuestSubObjectiveWrapper = {}
 
 ---@param fields? QuestSubObjectiveWrapper
 ---@return QuestSubObjectiveWrapper
-function QuestSubObjectiveWrapper.new(fields) return end
+function QuestSubObjectiveWrapper.new(fields) end
 
 ---@return String
-function QuestSubObjectiveWrapper:ToString() return end
+function QuestSubObjectiveWrapper:ToString() end

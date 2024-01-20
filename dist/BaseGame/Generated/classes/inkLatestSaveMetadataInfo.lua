@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class inkLatestSaveMetadataInfo: IScriptable
----@field public locationName String
----@field public trackedQuest String
----@field public lifePath inkLifePath
----@field public playTime Double
----@field public playthroughTime Double
----@field public initialLoadingScreenID Uint64
----@field public gameVersion String
----@field public additionalContentIds CName[]
+---@field locationName String
+---@field trackedQuest String
+---@field lifePath inkLifePath
+---@field playTime Double
+---@field playthroughTime Double
+---@field initialLoadingScreenID Uint64
+---@field gameVersion String
+---@field additionalContentIds CName[]
 inkLatestSaveMetadataInfo = {}
 
 ---@param fields? inkLatestSaveMetadataInfo
 ---@return inkLatestSaveMetadataInfo
-function inkLatestSaveMetadataInfo.new(fields) return end
+function inkLatestSaveMetadataInfo.new(fields) end

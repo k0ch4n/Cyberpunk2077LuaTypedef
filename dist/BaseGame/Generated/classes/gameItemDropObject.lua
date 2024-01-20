@@ -1,119 +1,104 @@
 ---@meta
 
 ---@class gameItemDropObject: gameLootObject
----@field private isEmpty Bool
----@field private isIconic Bool
----@field private hasQuestItems Bool
----@field private spawnedItemID gameItemID
+---@field isEmpty Bool
+---@field isIconic Bool
+---@field hasQuestItems Bool
+---@field spawnedItemID gameItemID
 gameItemDropObject = {}
 
 ---@param fields? gameItemDropObject
 ---@return gameItemDropObject
-function gameItemDropObject.new(fields) return end
+function gameItemDropObject.new(fields) end
 
 ---@return entEntityID
-function gameItemDropObject:GetItemEntityID() return end
+function gameItemDropObject:GetItemEntityID() end
 
 ---@return gameItemObject
-function gameItemDropObject:GetItemObject() return end
+function gameItemDropObject:GetItemObject() end
 
----@protected
 ---@return Bool
-function gameItemDropObject:OnGameAttached() return end
+function gameItemDropObject:OnGameAttached() end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function gameItemDropObject:OnHUDInstruction(evt) return end
+function gameItemDropObject:OnHUDInstruction(evt) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function gameItemDropObject:OnInteractionActivated(evt) return end
+function gameItemDropObject:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt gameInventoryChangedEvent
 ---@return Bool
-function gameItemDropObject:OnInventoryChangedEvent(evt) return end
+function gameItemDropObject:OnInventoryChangedEvent(evt) end
 
----@protected
 ---@param evt gameOnInventoryEmptyEvent
 ---@return Bool
-function gameItemDropObject:OnInventoryEmptyEvent(evt) return end
+function gameItemDropObject:OnInventoryEmptyEvent(evt) end
 
----@protected
 ---@param evt gameItemAddedEvent
 ---@return Bool
-function gameItemDropObject:OnItemAddedEvent(evt) return end
+function gameItemDropObject:OnItemAddedEvent(evt) end
 
----@protected
 ---@param evt gameItemBeingRemovedEvent
 ---@return Bool
-function gameItemDropObject:OnItemRemoveddEvent(evt) return end
+function gameItemDropObject:OnItemRemoveddEvent(evt) end
 
 ---@return EGameplayRole
-function gameItemDropObject:DeterminGameplayRole() return end
+function gameItemDropObject:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function gameItemDropObject:DeterminGameplayRoleMappinVisuaState(data) return end
+function gameItemDropObject:DeterminGameplayRoleMappinVisuaState(data) end
 
----@private
 ---@return Bool
-function gameItemDropObject:EvaluateLootQuality() return end
+function gameItemDropObject:EvaluateLootQuality() end
 
----@protected
 ---@return nil
-function gameItemDropObject:EvaluateLootQualityByTask() return end
+function gameItemDropObject:EvaluateLootQualityByTask() end
 
----@private
 ---@param target entEntityID
 ---@return nil
-function gameItemDropObject:EvaluateLootQualityEvent(target) return end
+function gameItemDropObject:EvaluateLootQualityEvent(target) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function gameItemDropObject:EvaluateLootQualityTask(data) return end
+function gameItemDropObject:EvaluateLootQualityTask(data) end
 
 ---@return EFocusOutlineType
-function gameItemDropObject:GetCurrentOutline() return end
+function gameItemDropObject:GetCurrentOutline() end
 
 ---@return FocusForcedHighlightData
-function gameItemDropObject:GetDefaultHighlight() return end
+function gameItemDropObject:GetDefaultHighlight() end
 
 ---@return Bool
-function gameItemDropObject:GetIsIconic() return end
+function gameItemDropObject:GetIsIconic() end
 
 ---@return gamedataQuality
-function gameItemDropObject:GetLootQuality() return end
-
----@private
----@return Bool
-function gameItemDropObject:HasValidLootQuality() return end
+function gameItemDropObject:GetLootQuality() end
 
 ---@return Bool
-function gameItemDropObject:IsContainer() return end
+function gameItemDropObject:HasValidLootQuality() end
 
 ---@return Bool
-function gameItemDropObject:IsEmpty() return end
+function gameItemDropObject:IsContainer() end
 
 ---@return Bool
-function gameItemDropObject:IsQuest() return end
+function gameItemDropObject:IsEmpty() end
 
----@protected
+---@return Bool
+function gameItemDropObject:IsQuest() end
+
 ---@param entID entEntityID
 ---@return nil
-function gameItemDropObject:OnItemEntitySpawned(entID) return end
+function gameItemDropObject:OnItemEntitySpawned(entID) end
 
----@private
 ---@return nil
-function gameItemDropObject:ResolveInvotoryContent() return end
+function gameItemDropObject:ResolveInvotoryContent() end
 
 ---@return Bool
-function gameItemDropObject:ShouldRegisterToHUD() return end
+function gameItemDropObject:ShouldRegisterToHUD() end
 
----@private
 ---@param enable Bool
 ---@return nil
-function gameItemDropObject:ToggleLootHighlight(enable) return end
+function gameItemDropObject:ToggleLootHighlight(enable) end

@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class CheckStimRevealsInstigatorPosition: AIbehaviorconditionScript
----@field public checkStimType Bool
----@field public stimType gamedataStimType
+---@field checkStimType Bool
+---@field stimType gamedataStimType
 CheckStimRevealsInstigatorPosition = {}
 
 ---@param fields? CheckStimRevealsInstigatorPosition
 ---@return CheckStimRevealsInstigatorPosition
-function CheckStimRevealsInstigatorPosition.new(fields) return end
+function CheckStimRevealsInstigatorPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckStimRevealsInstigatorPosition:Check(context) return end
+function CheckStimRevealsInstigatorPosition:Check(context) end

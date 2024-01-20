@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class MountRequestCondition: AIbehaviorconditionScript
----@field public testMountRequest Bool
----@field public testUnmountRequest Bool
----@field public acceptInstant Bool
----@field public acceptNotInstant Bool
+---@field testMountRequest Bool
+---@field testUnmountRequest Bool
+---@field acceptInstant Bool
+---@field acceptNotInstant Bool
 MountRequestCondition = {}
 
 ---@param fields? MountRequestCondition
 ---@return MountRequestCondition
-function MountRequestCondition.new(fields) return end
+function MountRequestCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MountRequestCondition:Activate(context) return end
+function MountRequestCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function MountRequestCondition:Check(context) return end
+function MountRequestCondition:Check(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param argumentName CName|string
 ---@return AIbehaviorConditionOutcomes
-function MountRequestCondition:TestRequest(context, argumentName) return end
+function MountRequestCondition:TestRequest(context, argumentName) end

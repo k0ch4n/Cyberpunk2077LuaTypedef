@@ -1,46 +1,43 @@
 ---@meta
 
 ---@class QuestMissionLinkController: BaseCodexLinkController
----@field private linkContainer inkWidgetReference
----@field private title inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private journalManager gameJournalManager
----@field private questEntry gameJournalQuest
----@field private questState gameJournalEntryState
----@field private questEntryHash Int32
+---@field linkContainer inkWidgetReference
+---@field title inkTextWidgetReference
+---@field description inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field journalManager gameJournalManager
+---@field questEntry gameJournalQuest
+---@field questState gameJournalEntryState
+---@field questEntryHash Int32
 QuestMissionLinkController = {}
 
 ---@param fields? QuestMissionLinkController
 ---@return QuestMissionLinkController
-function QuestMissionLinkController.new(fields) return end
+function QuestMissionLinkController.new(fields) end
 
 ---@param filterType gameJournalQuestType
 ---@return CName
-function QuestMissionLinkController.GetIcon(filterType) return end
+function QuestMissionLinkController.GetIcon(filterType) end
 
 ---@param filterType gameJournalQuestType
 ---@return CName
-function QuestMissionLinkController.GetState(filterType) return end
+function QuestMissionLinkController.GetState(filterType) end
 
----@protected
 ---@param e ActivateLink
 ---@return Bool
-function QuestMissionLinkController:OnActivateLink(e) return end
+function QuestMissionLinkController:OnActivateLink(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function QuestMissionLinkController:OnRelease(e) return end
+function QuestMissionLinkController:OnRelease(e) end
 
----@private
 ---@return nil
-function QuestMissionLinkController:Activate() return end
+function QuestMissionLinkController:Activate() end
 
 ---@return gameJournalQuestObjective
-function QuestMissionLinkController:GetFirstObjective() return end
+function QuestMissionLinkController:GetFirstObjective() end
 
 ---@param journalEntry gameJournalQuest
 ---@param journalManager gameJournalManager
 ---@return nil
-function QuestMissionLinkController:Setup(journalEntry, journalManager) return end
+function QuestMissionLinkController:Setup(journalEntry, journalManager) end

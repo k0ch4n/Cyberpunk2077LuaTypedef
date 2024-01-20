@@ -4,7 +4,7 @@
 Codeware_UI_ScreenHelper = {}
 
 ---@return String
-function Codeware_UI_ScreenHelper.GetResolution() return end
+function Codeware_UI_ScreenHelper.GetResolution() end
 
 ---@return Vector2
-function Codeware_UI_ScreenHelper.GetScreenSize() return end
+function Codeware_UI_ScreenHelper.GetScreenSize() end

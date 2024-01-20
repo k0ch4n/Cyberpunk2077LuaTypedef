@@ -5,13 +5,13 @@ gamedataVehicleDestructionPointDamper_Record = {}
 
 ---@param fields? gamedataVehicleDestructionPointDamper_Record
 ---@return gamedataVehicleDestructionPointDamper_Record
-function gamedataVehicleDestructionPointDamper_Record.new(fields) return end
+function gamedataVehicleDestructionPointDamper_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleDestructionPointDamper_Record:DampValue() return end
+function gamedataVehicleDestructionPointDamper_Record:DampValue() end
 
 ---@return Float
-function gamedataVehicleDestructionPointDamper_Record:PointFragility() return end
+function gamedataVehicleDestructionPointDamper_Record:PointFragility() end
 
 ---@return Int32
-function gamedataVehicleDestructionPointDamper_Record:PointIndex() return end
+function gamedataVehicleDestructionPointDamper_Record:PointIndex() end

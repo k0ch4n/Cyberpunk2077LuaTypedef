@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class meshRawClothData
----@field public state physicsclothState
----@field public maxDistanceChannel DataBuffer[]
----@field public maxDistanceExtChannel DataBuffer[]
----@field public backstopDistanceChannel DataBuffer[]
----@field public backstopRadiusChannel DataBuffer[]
----@field public selfCollisionChannel DataBuffer[]
+---@field state physicsclothState
+---@field maxDistanceChannel DataBuffer[]
+---@field maxDistanceExtChannel DataBuffer[]
+---@field backstopDistanceChannel DataBuffer[]
+---@field backstopRadiusChannel DataBuffer[]
+---@field selfCollisionChannel DataBuffer[]
 meshRawClothData = {}
 
 ---@param fields? meshRawClothData
 ---@return meshRawClothData
-function meshRawClothData.new(fields) return end
+function meshRawClothData.new(fields) end

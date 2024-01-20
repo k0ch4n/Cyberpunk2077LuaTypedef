@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class scannerBorderLogicController: inkWidgetLogicController
----@field private braindanceSetVisible inkWidgetReference[]
----@field private braindanceSetHidden inkWidgetReference[]
+---@field braindanceSetVisible inkWidgetReference[]
+---@field braindanceSetHidden inkWidgetReference[]
 scannerBorderLogicController = {}
 
 ---@param fields? scannerBorderLogicController
 ---@return scannerBorderLogicController
-function scannerBorderLogicController.new(fields) return end
+function scannerBorderLogicController.new(fields) end
 
 ---@param isBraindance Bool
 ---@return nil
-function scannerBorderLogicController:SetBraindanceMode(isBraindance) return end
+function scannerBorderLogicController:SetBraindanceMode(isBraindance) end

@@ -5,14 +5,14 @@ gameuiBaseGOGProfileController = {}
 
 ---@param fields? gameuiBaseGOGProfileController
 ---@return gameuiBaseGOGProfileController
-function gameuiBaseGOGProfileController.new(fields) return end
+function gameuiBaseGOGProfileController.new(fields) end
 
 ---@return Bool
-function gameuiBaseGOGProfileController:CanSignOut() return end
+function gameuiBaseGOGProfileController:CanSignOut() end
 
 ---@param url String
 ---@return nil
-function gameuiBaseGOGProfileController:OpenProfileUrl(url) return end
+function gameuiBaseGOGProfileController:OpenProfileUrl(url) end
 
 ---@return nil
-function gameuiBaseGOGProfileController:RequestStop() return end
+function gameuiBaseGOGProfileController:RequestStop() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SecuritySystemForceAttitudeChange: ScriptableDeviceAction
----@field public newAttitude CName
+---@field newAttitude CName
 SecuritySystemForceAttitudeChange = {}
 
 ---@param fields? SecuritySystemForceAttitudeChange
 ---@return SecuritySystemForceAttitudeChange
-function SecuritySystemForceAttitudeChange.new(fields) return end
+function SecuritySystemForceAttitudeChange.new(fields) end

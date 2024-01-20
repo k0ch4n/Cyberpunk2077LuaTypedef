@@ -3,14 +3,12 @@
 ---@class ReactionTransition: DefaultTransition
 ReactionTransition = {}
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param textLayerId Uint32
 ---@return nil
-function ReactionTransition:ClearDebugText(scriptInterface, textLayerId) return end
+function ReactionTransition:ClearDebugText(scriptInterface, textLayerId) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param text String
 ---@return nil, Uint32 textLayerId
-function ReactionTransition:DrawDebugText(scriptInterface, text) return end
+function ReactionTransition:DrawDebugText(scriptInterface, text) end

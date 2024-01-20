@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animSmoothFloatClamp
----@field public min Float
----@field public max Float
----@field public marginEaseOutCurve curveData
+---@field min Float
+---@field max Float
+---@field marginEaseOutCurve curveData
 animSmoothFloatClamp = {}
 
 ---@param fields? animSmoothFloatClamp
 ---@return animSmoothFloatClamp
-function animSmoothFloatClamp.new(fields) return end
+function animSmoothFloatClamp.new(fields) end

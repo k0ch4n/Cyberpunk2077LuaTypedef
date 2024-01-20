@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class ItemDisplayHoverOverEvent: redEvent
----@field public itemData gameInventoryItemData
----@field public display InventoryItemDisplayController
----@field public widget inkWidget
----@field public isBuybackStack Bool
----@field public isQuestBought Bool
----@field public toggleVisibilityControll Bool
----@field public isItemHidden Bool
----@field public transmogItem gameItemID
----@field public uiInventoryItem UIInventoryItem
----@field public displayContextData ItemDisplayContextData
+---@field itemData gameInventoryItemData
+---@field display InventoryItemDisplayController
+---@field widget inkWidget
+---@field isBuybackStack Bool
+---@field isQuestBought Bool
+---@field toggleVisibilityControll Bool
+---@field isItemHidden Bool
+---@field transmogItem gameItemID
+---@field uiInventoryItem UIInventoryItem
+---@field displayContextData ItemDisplayContextData
 ItemDisplayHoverOverEvent = {}
 
 ---@param fields? ItemDisplayHoverOverEvent
 ---@return ItemDisplayHoverOverEvent
-function ItemDisplayHoverOverEvent.new(fields) return end
+function ItemDisplayHoverOverEvent.new(fields) end

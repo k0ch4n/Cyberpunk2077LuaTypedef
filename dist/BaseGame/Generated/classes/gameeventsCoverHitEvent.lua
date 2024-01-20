@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsCoverHitEvent: gameeventsHitEvent
----@field public cover gameObject
+---@field cover gameObject
 gameeventsCoverHitEvent = {}
 
 ---@param fields? gameeventsCoverHitEvent
 ---@return gameeventsCoverHitEvent
-function gameeventsCoverHitEvent.new(fields) return end
+function gameeventsCoverHitEvent.new(fields) end

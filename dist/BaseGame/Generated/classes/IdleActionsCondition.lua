@@ -5,12 +5,11 @@ IdleActionsCondition = {}
 
 ---@param fields? IdleActionsCondition
 ---@return IdleActionsCondition
-function IdleActionsCondition.new(fields) return end
+function IdleActionsCondition.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IdleActionsCondition:Check(context) return end
+function IdleActionsCondition:Check(context) end
 
 ---@return String
-function IdleActionsCondition:GetFriendlyName() return end
+function IdleActionsCondition:GetFriendlyName() end

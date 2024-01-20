@@ -5,10 +5,10 @@ AIClearRoleCommandParams = {}
 
 ---@param fields? AIClearRoleCommandParams
 ---@return AIClearRoleCommandParams
-function AIClearRoleCommandParams.new(fields) return end
+function AIClearRoleCommandParams.new(fields) end
 
 ---@return AICommand
-function AIClearRoleCommandParams:CreateCommand() return end
+function AIClearRoleCommandParams:CreateCommand() end
 
 ---@return String
-function AIClearRoleCommandParams:GetCommandName() return end
+function AIClearRoleCommandParams:GetCommandName() end

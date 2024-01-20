@@ -5,9 +5,8 @@ NitroCollisionLogic = {}
 
 ---@param fields? NitroCollisionLogic
 ---@return NitroCollisionLogic
-function NitroCollisionLogic.new(fields) return end
+function NitroCollisionLogic.new(fields) end
 
----@protected
 ---@param gameState gameuiQuadRacerGameState
 ---@return nil
-function NitroCollisionLogic:ChangeGameState(gameState) return end
+function NitroCollisionLogic:ChangeGameState(gameState) end

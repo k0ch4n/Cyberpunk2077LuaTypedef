@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorIsBlockedByCompanionConditionDefinition: AIbehaviorCompanionConditionDefinition
----@field public distance AIArgumentMapping
+---@field distance AIArgumentMapping
 AIbehaviorIsBlockedByCompanionConditionDefinition = {}
 
 ---@param fields? AIbehaviorIsBlockedByCompanionConditionDefinition
 ---@return AIbehaviorIsBlockedByCompanionConditionDefinition
-function AIbehaviorIsBlockedByCompanionConditionDefinition.new(fields) return end
+function AIbehaviorIsBlockedByCompanionConditionDefinition.new(fields) end

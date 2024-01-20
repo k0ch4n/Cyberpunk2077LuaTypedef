@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class audioMixSettings: audioAudioMetadata
----@field public masterVolume Float
----@field public sfxVolume Float
----@field public musicVolume Float
----@field public voVolume Float
----@field public uiMenuVolume Float
----@field public onStartupEvent CName
+---@field masterVolume Float
+---@field sfxVolume Float
+---@field musicVolume Float
+---@field voVolume Float
+---@field uiMenuVolume Float
+---@field onStartupEvent CName
 audioMixSettings = {}
 
 ---@param fields? audioMixSettings
 ---@return audioMixSettings
-function audioMixSettings.new(fields) return end
+function audioMixSettings.new(fields) end

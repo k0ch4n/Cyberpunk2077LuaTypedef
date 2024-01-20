@@ -5,4 +5,4 @@ RenderProxyCustomData_MiscMeshParams = {}
 
 ---@param fields? RenderProxyCustomData_MiscMeshParams
 ---@return RenderProxyCustomData_MiscMeshParams
-function RenderProxyCustomData_MiscMeshParams.new(fields) return end
+function RenderProxyCustomData_MiscMeshParams.new(fields) end

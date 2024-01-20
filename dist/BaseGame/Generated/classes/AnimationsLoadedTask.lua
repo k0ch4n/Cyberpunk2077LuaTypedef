@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class AnimationsLoadedTask: AIbehaviortaskScript
----@field public coreAnims Bool
----@field public setSignal Bool
----@field public melee Bool
+---@field coreAnims Bool
+---@field setSignal Bool
+---@field melee Bool
 AnimationsLoadedTask = {}
 
 ---@param fields? AnimationsLoadedTask
 ---@return AnimationsLoadedTask
-function AnimationsLoadedTask.new(fields) return end
+function AnimationsLoadedTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AnimationsLoadedTask:Activate(context) return end
+function AnimationsLoadedTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AnimationsLoadedTask:Update(context) return end
+function AnimationsLoadedTask:Update(context) end

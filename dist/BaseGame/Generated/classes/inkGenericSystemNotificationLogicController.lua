@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class inkGenericSystemNotificationLogicController: inkWidgetLogicController
----@field public titleTextWidget inkTextWidgetReference
----@field public descriptionTextWidget inkTextWidgetReference
----@field public additionalDataTextWidget inkTextWidgetReference
----@field public introAnimationName CName
----@field public outroAnimationName CName
----@field public confirmButton inkWidgetReference
----@field public cancelButton inkWidgetReference
----@field public DataSetByToken inkEmptyCallback
+---@field titleTextWidget inkTextWidgetReference
+---@field descriptionTextWidget inkTextWidgetReference
+---@field additionalDataTextWidget inkTextWidgetReference
+---@field introAnimationName CName
+---@field outroAnimationName CName
+---@field confirmButton inkWidgetReference
+---@field cancelButton inkWidgetReference
+---@field DataSetByToken inkEmptyCallback
 inkGenericSystemNotificationLogicController = {}
 
 ---@param fields? inkGenericSystemNotificationLogicController
 ---@return inkGenericSystemNotificationLogicController
-function inkGenericSystemNotificationLogicController.new(fields) return end
+function inkGenericSystemNotificationLogicController.new(fields) end
 
 ---@return nil
-function inkGenericSystemNotificationLogicController:DisableDefaultInputHandler() return end
+function inkGenericSystemNotificationLogicController:DisableDefaultInputHandler() end
 
 ---@return IScriptable
-function inkGenericSystemNotificationLogicController:GetScriptableData() return end
+function inkGenericSystemNotificationLogicController:GetScriptableData() end
 
 ---@return nil
-function inkGenericSystemNotificationLogicController:TriggerCancel() return end
+function inkGenericSystemNotificationLogicController:TriggerCancel() end
 
 ---@return nil
-function inkGenericSystemNotificationLogicController:TriggerProceed() return end
+function inkGenericSystemNotificationLogicController:TriggerProceed() end

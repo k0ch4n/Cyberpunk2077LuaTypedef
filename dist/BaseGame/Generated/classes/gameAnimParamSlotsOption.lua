@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameAnimParamSlotsOption
----@field public slotID TweakDBID
----@field public paramName CName
----@field public function entAnimParamSlotFunction
+---@field slotID TweakDBID
+---@field paramName CName
+---@field function entAnimParamSlotFunction
 gameAnimParamSlotsOption = {}
 
 ---@param fields? gameAnimParamSlotsOption
 ---@return gameAnimParamSlotsOption
-function gameAnimParamSlotsOption.new(fields) return end
+function gameAnimParamSlotsOption.new(fields) end

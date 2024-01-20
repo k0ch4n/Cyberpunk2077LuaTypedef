@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameprojectileSpawnerLaunchEvent: redEvent
----@field public launchParams gameprojectileLaunchParams
----@field public templateName CName
----@field public appearance CName
----@field public owner gameObject
----@field public projectileParams gameprojectileWeaponParams
+---@field launchParams gameprojectileLaunchParams
+---@field templateName CName
+---@field appearance CName
+---@field owner gameObject
+---@field projectileParams gameprojectileWeaponParams
 gameprojectileSpawnerLaunchEvent = {}
 
 ---@param fields? gameprojectileSpawnerLaunchEvent
 ---@return gameprojectileSpawnerLaunchEvent
-function gameprojectileSpawnerLaunchEvent.new(fields) return end
+function gameprojectileSpawnerLaunchEvent.new(fields) end

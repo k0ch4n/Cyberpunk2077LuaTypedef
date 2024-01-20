@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class redResourceListResource: CResource
----@field public resources CResource[]
----@field public descriptions String[]
+---@field resources CResource[]
+---@field descriptions String[]
 redResourceListResource = {}
 
 ---@param fields? redResourceListResource
 ---@return redResourceListResource
-function redResourceListResource.new(fields) return end
+function redResourceListResource.new(fields) end

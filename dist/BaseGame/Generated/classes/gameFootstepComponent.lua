@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameFootstepComponent: entIComponent
----@field public tweakDBID TweakDBID
----@field public leftFootSlot CName
----@field public rightFootSlot CName
+---@field tweakDBID TweakDBID
+---@field leftFootSlot CName
+---@field rightFootSlot CName
 gameFootstepComponent = {}
 
 ---@param fields? gameFootstepComponent
 ---@return gameFootstepComponent
-function gameFootstepComponent.new(fields) return end
+function gameFootstepComponent.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class navLocomotionPathSegmentInfo
----@field public type navLocomotionPathSegmentTypes
----@field public segmentEnd navSerializableSplineProgression
----@field public offMeshLink Uint64
+---@field type navLocomotionPathSegmentTypes
+---@field segmentEnd navSerializableSplineProgression
+---@field offMeshLink Uint64
 navLocomotionPathSegmentInfo = {}
 
 ---@param fields? navLocomotionPathSegmentInfo
 ---@return navLocomotionPathSegmentInfo
-function navLocomotionPathSegmentInfo.new(fields) return end
+function navLocomotionPathSegmentInfo.new(fields) end

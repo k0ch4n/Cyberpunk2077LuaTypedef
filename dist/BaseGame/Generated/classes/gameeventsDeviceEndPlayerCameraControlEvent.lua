@@ -5,4 +5,4 @@ gameeventsDeviceEndPlayerCameraControlEvent = {}
 
 ---@param fields? gameeventsDeviceEndPlayerCameraControlEvent
 ---@return gameeventsDeviceEndPlayerCameraControlEvent
-function gameeventsDeviceEndPlayerCameraControlEvent.new(fields) return end
+function gameeventsDeviceEndPlayerCameraControlEvent.new(fields) end

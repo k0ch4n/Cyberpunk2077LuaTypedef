@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameinfluenceBumpReactionSetting: ISerializable
----@field public reaction gameinteractionsBumpIntensity
----@field public maxVelocity Float
+---@field reaction gameinteractionsBumpIntensity
+---@field maxVelocity Float
 gameinfluenceBumpReactionSetting = {}
 
 ---@param fields? gameinfluenceBumpReactionSetting
 ---@return gameinfluenceBumpReactionSetting
-function gameinfluenceBumpReactionSetting.new(fields) return end
+function gameinfluenceBumpReactionSetting.new(fields) end

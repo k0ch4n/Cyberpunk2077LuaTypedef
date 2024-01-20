@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RequestBreadCrumbBarUpdateEvent: redEvent
----@field public requester gamePersistentID
----@field public breadCrumbData SBreadCrumbUpdateData
+---@field requester gamePersistentID
+---@field breadCrumbData SBreadCrumbUpdateData
 RequestBreadCrumbBarUpdateEvent = {}
 
 ---@param fields? RequestBreadCrumbBarUpdateEvent
 ---@return RequestBreadCrumbBarUpdateEvent
-function RequestBreadCrumbBarUpdateEvent.new(fields) return end
+function RequestBreadCrumbBarUpdateEvent.new(fields) end

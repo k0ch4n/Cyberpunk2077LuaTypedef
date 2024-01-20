@@ -5,15 +5,13 @@ UiQuickHackPanelContextDecisions = {}
 
 ---@param fields? UiQuickHackPanelContextDecisions
 ---@return UiQuickHackPanelContextDecisions
-function UiQuickHackPanelContextDecisions.new(fields) return end
+function UiQuickHackPanelContextDecisions.new(fields) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiQuickHackPanelContextDecisions:CheckRequiredStates(scriptInterface) return end
+function UiQuickHackPanelContextDecisions:CheckRequiredStates(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiQuickHackPanelContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function UiQuickHackPanelContextDecisions:EnterCondition(stateContext, scriptInterface) end

@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class ScannerDeviceBodyGameController: BaseChunkGameController
----@field private networkStatusText inkTextWidgetReference
----@field private deviceAuthorizationText inkTextWidgetReference
----@field private deviceAuthorizationRow inkCompoundWidgetReference
----@field private networkStatusRow inkCompoundWidgetReference
----@field private networkStatusCallbackID redCallbackObject
----@field private deviceAuthorizationCallbackID redCallbackObject
----@field private isValidnetworkStatus Bool
----@field private isValidDeviceAuthorization Bool
+---@field networkStatusText inkTextWidgetReference
+---@field deviceAuthorizationText inkTextWidgetReference
+---@field deviceAuthorizationRow inkCompoundWidgetReference
+---@field networkStatusRow inkCompoundWidgetReference
+---@field networkStatusCallbackID redCallbackObject
+---@field deviceAuthorizationCallbackID redCallbackObject
+---@field isValidnetworkStatus Bool
+---@field isValidDeviceAuthorization Bool
 ScannerDeviceBodyGameController = {}
 
 ---@param fields? ScannerDeviceBodyGameController
 ---@return ScannerDeviceBodyGameController
-function ScannerDeviceBodyGameController.new(fields) return end
+function ScannerDeviceBodyGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDeviceBodyGameController:OnDeviceAuthorizationChanged(value) return end
+function ScannerDeviceBodyGameController:OnDeviceAuthorizationChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerDeviceBodyGameController:OnInitialize() return end
+function ScannerDeviceBodyGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDeviceBodyGameController:OnNetworkStatusChanged(value) return end
+function ScannerDeviceBodyGameController:OnNetworkStatusChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerDeviceBodyGameController:OnUninitialize() return end
+function ScannerDeviceBodyGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ScannerDeviceBodyGameController:UpdateGlobalVisibility() return end
+function ScannerDeviceBodyGameController:UpdateGlobalVisibility() end

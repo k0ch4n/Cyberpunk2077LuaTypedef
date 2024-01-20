@@ -5,8 +5,8 @@ HitIsSourceGrenadePrereqState = {}
 
 ---@param fields? HitIsSourceGrenadePrereqState
 ---@return HitIsSourceGrenadePrereqState
-function HitIsSourceGrenadePrereqState.new(fields) return end
+function HitIsSourceGrenadePrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitIsSourceGrenadePrereqState:Evaluate(hitEvent) return end
+function HitIsSourceGrenadePrereqState:Evaluate(hitEvent) end

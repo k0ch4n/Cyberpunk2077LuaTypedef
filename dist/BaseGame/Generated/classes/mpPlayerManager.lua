@@ -5,27 +5,27 @@ mpPlayerManager = {}
 
 ---@param fields? mpPlayerManager
 ---@return mpPlayerManager
-function mpPlayerManager.new(fields) return end
+function mpPlayerManager.new(fields) end
 
 ---@param spawnParams gamePlayerSpawnParams
 ---@return nil
-function mpPlayerManager.PrespawnRequest(spawnParams) return end
+function mpPlayerManager.PrespawnRequest(spawnParams) end
 
 ---@return nil
-function mpPlayerManager.PrespawnRequestAccepted() return end
+function mpPlayerManager.PrespawnRequestAccepted() end
 
 ---@return nil
-function mpPlayerManager.PrespawnRequestDenied() return end
+function mpPlayerManager.PrespawnRequestDenied() end
 
 ---@return nil
-function mpPlayerManager.SpawnRequest() return end
+function mpPlayerManager.SpawnRequest() end
 
 ---@return nil
-function mpPlayerManager.SpawnRequestAccepted() return end
+function mpPlayerManager.SpawnRequestAccepted() end
 
 ---@return nil
-function mpPlayerManager.SpawnRequestDenied() return end
+function mpPlayerManager.SpawnRequestDenied() end
 
 ---@param gameObject gameObject
 ---@return String
-function mpPlayerManager:GetPlayerNicknameByGameObject(gameObject) return end
+function mpPlayerManager:GetPlayerNicknameByGameObject(gameObject) end

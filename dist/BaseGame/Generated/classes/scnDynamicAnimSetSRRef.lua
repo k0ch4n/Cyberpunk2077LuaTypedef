@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnDynamicAnimSetSRRef
----@field public asyncAnimSet animAnimSet
+---@field asyncAnimSet animAnimSet
 scnDynamicAnimSetSRRef = {}
 
 ---@param fields? scnDynamicAnimSetSRRef
 ---@return scnDynamicAnimSetSRRef
-function scnDynamicAnimSetSRRef.new(fields) return end
+function scnDynamicAnimSetSRRef.new(fields) end

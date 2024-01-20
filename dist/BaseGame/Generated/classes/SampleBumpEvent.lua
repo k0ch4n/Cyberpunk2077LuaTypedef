@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SampleBumpEvent: redEvent
----@field public amount Int32
+---@field amount Int32
 SampleBumpEvent = {}
 
 ---@param fields? SampleBumpEvent
 ---@return SampleBumpEvent
-function SampleBumpEvent.new(fields) return end
+function SampleBumpEvent.new(fields) end

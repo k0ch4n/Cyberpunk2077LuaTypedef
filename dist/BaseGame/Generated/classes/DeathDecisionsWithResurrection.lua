@@ -5,10 +5,9 @@ DeathDecisionsWithResurrection = {}
 
 ---@param fields? DeathDecisionsWithResurrection
 ---@return DeathDecisionsWithResurrection
-function DeathDecisionsWithResurrection.new(fields) return end
+function DeathDecisionsWithResurrection.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DeathDecisionsWithResurrection:ToResurrect(stateContext, scriptInterface) return end
+function DeathDecisionsWithResurrection:ToResurrect(stateContext, scriptInterface) end

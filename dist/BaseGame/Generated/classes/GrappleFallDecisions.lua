@@ -5,10 +5,9 @@ GrappleFallDecisions = {}
 
 ---@param fields? GrappleFallDecisions
 ---@return GrappleFallDecisions
-function GrappleFallDecisions.new(fields) return end
+function GrappleFallDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleFallDecisions:ToGrappleStand(stateContext, scriptInterface) return end
+function GrappleFallDecisions:ToGrappleStand(stateContext, scriptInterface) end

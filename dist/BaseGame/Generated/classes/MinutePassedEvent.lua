@@ -5,4 +5,4 @@ MinutePassedEvent = {}
 
 ---@param fields? MinutePassedEvent
 ---@return MinutePassedEvent
-function MinutePassedEvent.new(fields) return end
+function MinutePassedEvent.new(fields) end

@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class DoorSetup
----@field public doorType EDoorType
----@field public doorTypeSideOne EDoorType
----@field public doorTypeSideTwo EDoorType
----@field public skillCheckSide EDoorSkillcheckSide
----@field public authorizationSide EDoorSkillcheckSide
----@field public doorTriggerSide EDoorTriggerSide
----@field public isShutter Bool
----@field public initialDoorState EDoorStatus
----@field public canPlayerToggleLockState Bool
----@field public canPlayerToggleSealState Bool
----@field public canPlayerRemotelyAuthorize Bool
----@field public automaticallyClosesItself Bool
----@field public openingSpeed Float
----@field public doorOpeningTime Float
----@field public doorOpeningStimRange Float
----@field public canPayToUnlock Bool
----@field public paymentRecordID TweakDBID
----@field public exposeQuickHacksIfNotConnectedToAP Bool
+---@field doorType EDoorType
+---@field doorTypeSideOne EDoorType
+---@field doorTypeSideTwo EDoorType
+---@field skillCheckSide EDoorSkillcheckSide
+---@field authorizationSide EDoorSkillcheckSide
+---@field doorTriggerSide EDoorTriggerSide
+---@field isShutter Bool
+---@field initialDoorState EDoorStatus
+---@field canPlayerToggleLockState Bool
+---@field canPlayerToggleSealState Bool
+---@field canPlayerRemotelyAuthorize Bool
+---@field automaticallyClosesItself Bool
+---@field openingSpeed Float
+---@field doorOpeningTime Float
+---@field doorOpeningStimRange Float
+---@field canPayToUnlock Bool
+---@field paymentRecordID TweakDBID
+---@field exposeQuickHacksIfNotConnectedToAP Bool
 DoorSetup = {}
 
 ---@param fields? DoorSetup
 ---@return DoorSetup
-function DoorSetup.new(fields) return end
+function DoorSetup.new(fields) end

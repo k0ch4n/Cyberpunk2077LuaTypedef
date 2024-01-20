@@ -5,4 +5,4 @@ TweakDBResource = {}
 
 ---@param fields? TweakDBResource
 ---@return TweakDBResource
-function TweakDBResource.new(fields) return end
+function TweakDBResource.new(fields) end

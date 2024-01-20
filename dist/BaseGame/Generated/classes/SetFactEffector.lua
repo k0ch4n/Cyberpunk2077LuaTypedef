@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class SetFactEffector: gameEffector
----@field public fact CName
----@field public value Int32
+---@field fact CName
+---@field value Int32
 SetFactEffector = {}
 
 ---@param fields? SetFactEffector
 ---@return SetFactEffector
-function SetFactEffector.new(fields) return end
+function SetFactEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetFactEffector:ActionOn(owner) return end
+function SetFactEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SetFactEffector:Initialize(record, parentRecord) return end
+function SetFactEffector:Initialize(record, parentRecord) end

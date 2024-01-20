@@ -1,58 +1,49 @@
 ---@meta
 
 ---@class nanowireGrenade: BaseProjectile
----@field private countTime Float
----@field private timeToActivation Float
----@field private energyLossFactor Float
----@field private startVelocity Float
----@field private grenadeLifetime Float
----@field private gravitySimulation Float
----@field private trailEffectName CName
----@field private alive Bool
+---@field countTime Float
+---@field timeToActivation Float
+---@field energyLossFactor Float
+---@field startVelocity Float
+---@field grenadeLifetime Float
+---@field gravitySimulation Float
+---@field trailEffectName CName
+---@field alive Bool
 nanowireGrenade = {}
 
 ---@param fields? nanowireGrenade
 ---@return nanowireGrenade
-function nanowireGrenade.new(fields) return end
+function nanowireGrenade.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function nanowireGrenade:OnCollision(eventData) return end
+function nanowireGrenade:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function nanowireGrenade:OnProjectileInitialize(eventData) return end
+function nanowireGrenade:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function nanowireGrenade:OnShoot(eventData) return end
+function nanowireGrenade:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function nanowireGrenade:OnShootTarget(eventData) return end
+function nanowireGrenade:OnShootTarget(eventData) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function nanowireGrenade:OnTick(eventData) return end
+function nanowireGrenade:OnTick(eventData) end
 
----@private
 ---@param position Vector4
 ---@return nil
-function nanowireGrenade:Explode(position) return end
+function nanowireGrenade:Explode(position) end
 
----@private
 ---@return nil
-function nanowireGrenade:Reset() return end
+function nanowireGrenade:Reset() end
 
----@private
 ---@return nil
-function nanowireGrenade:StartTrailEffect() return end
+function nanowireGrenade:StartTrailEffect() end
 
----@private
 ---@return nil
-function nanowireGrenade:StopMovement() return end
+function nanowireGrenade:StopMovement() end

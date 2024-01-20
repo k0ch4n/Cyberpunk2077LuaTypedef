@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class SetArgumentName: SetArguments
----@field public customVar CName
+---@field customVar CName
 SetArgumentName = {}
 
 ---@param fields? SetArgumentName
 ---@return SetArgumentName
-function SetArgumentName.new(fields) return end
+function SetArgumentName.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetArgumentName:Activate(context) return end
+function SetArgumentName:Activate(context) end
 
 ---@return String
-function SetArgumentName:GetEditorSubCaption() return end
+function SetArgumentName:GetEditorSubCaption() end

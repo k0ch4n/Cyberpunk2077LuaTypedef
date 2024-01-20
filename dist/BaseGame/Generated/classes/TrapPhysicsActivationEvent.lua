@@ -5,4 +5,4 @@ TrapPhysicsActivationEvent = {}
 
 ---@param fields? TrapPhysicsActivationEvent
 ---@return TrapPhysicsActivationEvent
-function TrapPhysicsActivationEvent.new(fields) return end
+function TrapPhysicsActivationEvent.new(fields) end

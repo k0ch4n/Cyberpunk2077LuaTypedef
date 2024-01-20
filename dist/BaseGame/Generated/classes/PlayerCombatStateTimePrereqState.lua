@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class PlayerCombatStateTimePrereqState: gamePrereqState
----@field public owner gameObject
----@field public listener redCallbackObject
+---@field owner gameObject
+---@field listener redCallbackObject
 PlayerCombatStateTimePrereqState = {}
 
 ---@param fields? PlayerCombatStateTimePrereqState
 ---@return PlayerCombatStateTimePrereqState
-function PlayerCombatStateTimePrereqState.new(fields) return end
+function PlayerCombatStateTimePrereqState.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function PlayerCombatStateTimePrereqState:OnStateUpdate(value) return end
+function PlayerCombatStateTimePrereqState:OnStateUpdate(value) end

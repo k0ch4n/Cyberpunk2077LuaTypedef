@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questDynamicSpawnSystemNodeDefinition: questDisableableNodeDefinition
----@field public type questIDynamicSpawnSystemType
+---@field type questIDynamicSpawnSystemType
 questDynamicSpawnSystemNodeDefinition = {}
 
 ---@param fields? questDynamicSpawnSystemNodeDefinition
 ---@return questDynamicSpawnSystemNodeDefinition
-function questDynamicSpawnSystemNodeDefinition.new(fields) return end
+function questDynamicSpawnSystemNodeDefinition.new(fields) end

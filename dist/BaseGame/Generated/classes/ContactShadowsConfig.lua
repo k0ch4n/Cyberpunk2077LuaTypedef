@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ContactShadowsConfig
----@field public range Float
----@field public rangeLimit Float
----@field public screenEdgeFadeRange Float
----@field public distanceFadeLimit Float
----@field public distanceFadeRange Float
+---@field range Float
+---@field rangeLimit Float
+---@field screenEdgeFadeRange Float
+---@field distanceFadeLimit Float
+---@field distanceFadeRange Float
 ContactShadowsConfig = {}
 
 ---@param fields? ContactShadowsConfig
 ---@return ContactShadowsConfig
-function ContactShadowsConfig.new(fields) return end
+function ContactShadowsConfig.new(fields) end

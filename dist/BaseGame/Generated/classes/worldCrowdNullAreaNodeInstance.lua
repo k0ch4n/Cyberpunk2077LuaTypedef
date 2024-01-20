@@ -5,4 +5,4 @@ worldCrowdNullAreaNodeInstance = {}
 
 ---@param fields? worldCrowdNullAreaNodeInstance
 ---@return worldCrowdNullAreaNodeInstance
-function worldCrowdNullAreaNodeInstance.new(fields) return end
+function worldCrowdNullAreaNodeInstance.new(fields) end

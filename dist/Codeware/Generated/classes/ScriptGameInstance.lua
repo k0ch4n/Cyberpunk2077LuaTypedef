@@ -4,25 +4,25 @@
 ScriptGameInstance = {}
 
 ---@return ScriptGameInstance
-function ScriptGameInstance.new() return end
+function ScriptGameInstance.new() end
 
 ---@return CallbackSystem
-function ScriptGameInstance.GetCallbackSystem() return end
+function ScriptGameInstance.GetCallbackSystem() end
 
 ---@return DynamicEntitySystem
-function ScriptGameInstance.GetDynamicEntitySystem() return end
+function ScriptGameInstance.GetDynamicEntitySystem() end
 
 ---@return inkSystem
-function ScriptGameInstance.GetInkSystem() return end
+function ScriptGameInstance.GetInkSystem() end
 
 ---@return OpenWorldSystem
-function ScriptGameInstance.GetOpenWorldSystem() return end
+function ScriptGameInstance.GetOpenWorldSystem() end
 
 ---@return ResourceDepot
-function ScriptGameInstance.GetResourceDepot() return end
+function ScriptGameInstance.GetResourceDepot() end
 
 ---@return WorldStateSystem
-function ScriptGameInstance.GetWorldStateSystem() return end
+function ScriptGameInstance.GetWorldStateSystem() end
 
 ---@return inkISystemRequestsHandler
-function ScriptGameInstance.GetSystemRequestsHandler() return end
+function ScriptGameInstance.GetSystemRequestsHandler() end

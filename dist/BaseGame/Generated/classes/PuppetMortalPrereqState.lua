@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class PuppetMortalPrereqState: gamePrereqState
----@field public owner gameObject
----@field public listener PuppetMortalityListener
+---@field owner gameObject
+---@field listener PuppetMortalityListener
 PuppetMortalPrereqState = {}
 
 ---@param fields? PuppetMortalPrereqState
 ---@return PuppetMortalPrereqState
-function PuppetMortalPrereqState.new(fields) return end
+function PuppetMortalPrereqState.new(fields) end
 
 ---@param newType gameGodModeType
 ---@return nil
-function PuppetMortalPrereqState:ProcessGodModeChanged(newType) return end
+function PuppetMortalPrereqState:ProcessGodModeChanged(newType) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkScanlineWipeEffect: inkIEffect
----@field public angle Float
----@field public transition Float
----@field public width Float
+---@field angle Float
+---@field transition Float
+---@field width Float
 inkScanlineWipeEffect = {}
 
 ---@param fields? inkScanlineWipeEffect
 ---@return inkScanlineWipeEffect
-function inkScanlineWipeEffect.new(fields) return end
+function inkScanlineWipeEffect.new(fields) end

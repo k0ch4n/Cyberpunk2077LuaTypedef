@@ -5,11 +5,11 @@ UseSecurityLocker = {}
 
 ---@param fields? UseSecurityLocker
 ---@return UseSecurityLocker
-function UseSecurityLocker.new(fields) return end
+function UseSecurityLocker.new(fields) end
 
 ---@return String
-function UseSecurityLocker:GetTweakDBChoiceRecord() return end
+function UseSecurityLocker:GetTweakDBChoiceRecord() end
 
 ---@param shouldDeposit Bool
 ---@return nil
-function UseSecurityLocker:SetProperties(shouldDeposit) return end
+function UseSecurityLocker:SetProperties(shouldDeposit) end

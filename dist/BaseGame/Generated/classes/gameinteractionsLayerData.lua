@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsLayerData
----@field public tag CName
+---@field tag CName
 gameinteractionsLayerData = {}
 
 ---@param fields? gameinteractionsLayerData
 ---@return gameinteractionsLayerData
-function gameinteractionsLayerData.new(fields) return end
+function gameinteractionsLayerData.new(fields) end

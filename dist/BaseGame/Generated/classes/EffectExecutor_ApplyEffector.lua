@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class EffectExecutor_ApplyEffector: gameEffectExecutor_Scripted
----@field public effector TweakDBID
+---@field effector TweakDBID
 EffectExecutor_ApplyEffector = {}
 
 ---@param fields? EffectExecutor_ApplyEffector
 ---@return EffectExecutor_ApplyEffector
-function EffectExecutor_ApplyEffector.new(fields) return end
+function EffectExecutor_ApplyEffector.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function EffectExecutor_ApplyEffector:Process(ctx, applierCtx) return end
+function EffectExecutor_ApplyEffector:Process(ctx, applierCtx) end

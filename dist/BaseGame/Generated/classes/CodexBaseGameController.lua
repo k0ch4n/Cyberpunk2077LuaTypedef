@@ -5,4 +5,4 @@ CodexBaseGameController = {}
 
 ---@param fields? CodexBaseGameController
 ---@return CodexBaseGameController
-function CodexBaseGameController.new(fields) return end
+function CodexBaseGameController.new(fields) end

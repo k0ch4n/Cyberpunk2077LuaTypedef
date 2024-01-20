@@ -5,67 +5,67 @@ gamedataLookAtPreset_Record = {}
 
 ---@param fields? gamedataLookAtPreset_Record
 ---@return gamedataLookAtPreset_Record
-function gamedataLookAtPreset_Record.new(fields) return end
+function gamedataLookAtPreset_Record.new(fields) end
 
 ---@return Bool
-function gamedataLookAtPreset_Record:AttachLeftHandtoRightHand() return end
+function gamedataLookAtPreset_Record:AttachLeftHandtoRightHand() end
 
 ---@return Bool
-function gamedataLookAtPreset_Record:AttachRightHandtoLeftHand() return end
+function gamedataLookAtPreset_Record:AttachRightHandtoLeftHand() end
 
 ---@return Float
-function gamedataLookAtPreset_Record:BackLimitDegrees() return end
+function gamedataLookAtPreset_Record:BackLimitDegrees() end
 
 ---@return CName
-function gamedataLookAtPreset_Record:BodyPart() return end
+function gamedataLookAtPreset_Record:BodyPart() end
 
 ---@return Bool
-function gamedataLookAtPreset_Record:CalculatePositionInParentSpace() return end
+function gamedataLookAtPreset_Record:CalculatePositionInParentSpace() end
 
 ---@return Float
-function gamedataLookAtPreset_Record:FollowingSpeedFactorOverride() return end
+function gamedataLookAtPreset_Record:FollowingSpeedFactorOverride() end
 
 ---@return Int32
-function gamedataLookAtPreset_Record:GetLookAtPartsCount() return end
+function gamedataLookAtPreset_Record:GetLookAtPartsCount() end
 
 ---@param index Int32
 ---@return gamedataLookAtPart_Record
-function gamedataLookAtPreset_Record:GetLookAtPartsItem(index) return end
+function gamedataLookAtPreset_Record:GetLookAtPartsItem(index) end
 
 ---@param index Int32
 ---@return gamedataLookAtPart_Record
-function gamedataLookAtPreset_Record:GetLookAtPartsItemHandle(index) return end
+function gamedataLookAtPreset_Record:GetLookAtPartsItemHandle(index) end
 
 ---@return Float
-function gamedataLookAtPreset_Record:HardLimitDegrees() return end
+function gamedataLookAtPreset_Record:HardLimitDegrees() end
 
 ---@return Float
-function gamedataLookAtPreset_Record:HardLimitDistance() return end
+function gamedataLookAtPreset_Record:HardLimitDistance() end
 
 ---@return Bool
-function gamedataLookAtPreset_Record:HasOutTransition() return end
+function gamedataLookAtPreset_Record:HasOutTransition() end
 
 ---@return nil, gamedataLookAtPart_Record[] outList
-function gamedataLookAtPreset_Record:LookAtParts() return end
+function gamedataLookAtPreset_Record:LookAtParts() end
 
 ---@param item gamedataLookAtPart_Record
 ---@return Bool
-function gamedataLookAtPreset_Record:LookAtPartsContains(item) return end
+function gamedataLookAtPreset_Record:LookAtPartsContains(item) end
 
 ---@return Int32
-function gamedataLookAtPreset_Record:Mode() return end
+function gamedataLookAtPreset_Record:Mode() end
 
 ---@return Float
-function gamedataLookAtPreset_Record:OutTransitionSpeed() return end
+function gamedataLookAtPreset_Record:OutTransitionSpeed() end
 
 ---@return Int32
-function gamedataLookAtPreset_Record:Priority() return end
+function gamedataLookAtPreset_Record:Priority() end
 
 ---@return Float
-function gamedataLookAtPreset_Record:SoftLimitDegrees() return end
+function gamedataLookAtPreset_Record:SoftLimitDegrees() end
 
 ---@return Float
-function gamedataLookAtPreset_Record:Suppress() return end
+function gamedataLookAtPreset_Record:Suppress() end
 
 ---@return Float
-function gamedataLookAtPreset_Record:TransitionSpeed() return end
+function gamedataLookAtPreset_Record:TransitionSpeed() end

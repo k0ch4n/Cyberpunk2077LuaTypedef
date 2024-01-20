@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class BunkerComputerButtonController: LinkController
----@field public usePopupDefault Bool
+---@field usePopupDefault Bool
 BunkerComputerButtonController = {}
 
 ---@param fields? BunkerComputerButtonController
 ---@return BunkerComputerButtonController
-function BunkerComputerButtonController.new(fields) return end
+function BunkerComputerButtonController.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function BunkerComputerButtonController:OnButtonStateChanged(controller, oldState, newState) return end
+function BunkerComputerButtonController:OnButtonStateChanged(controller, oldState, newState) end
 
----@protected
 ---@return Bool
-function BunkerComputerButtonController:OnInitialize() return end
+function BunkerComputerButtonController:OnInitialize() end

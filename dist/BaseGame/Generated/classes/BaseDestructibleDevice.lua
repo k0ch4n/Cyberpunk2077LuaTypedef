@@ -1,71 +1,58 @@
 ---@meta
 
 ---@class BaseDestructibleDevice: Device
----@field protected minTime Float
----@field protected maxTime Float
----@field protected destroyedMesh entPhysicalMeshComponent
+---@field minTime Float
+---@field maxTime Float
+---@field destroyedMesh entPhysicalMeshComponent
 BaseDestructibleDevice = {}
 
 ---@param fields? BaseDestructibleDevice
 ---@return BaseDestructibleDevice
-function BaseDestructibleDevice.new(fields) return end
+function BaseDestructibleDevice.new(fields) end
 
----@protected
 ---@param evt DelayEvent
 ---@return Bool
-function BaseDestructibleDevice:OnDelayEvent(evt) return end
+function BaseDestructibleDevice:OnDelayEvent(evt) end
 
----@protected
 ---@param evt MasterDeviceDestroyed
 ---@return Bool
-function BaseDestructibleDevice:OnMasterDeviceDestroyed(evt) return end
+function BaseDestructibleDevice:OnMasterDeviceDestroyed(evt) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function BaseDestructibleDevice:OnPhysicalDestructionEvent(evt) return end
+function BaseDestructibleDevice:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function BaseDestructibleDevice:OnRequestComponents(ri) return end
+function BaseDestructibleDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BaseDestructibleDevice:OnTakeControl(ri) return end
+function BaseDestructibleDevice:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function BaseDestructibleDevice:ActivateDevice() return end
+function BaseDestructibleDevice:ActivateDevice() end
 
----@protected
 ---@return nil
-function BaseDestructibleDevice:CreateDestructionEffects() return end
+function BaseDestructibleDevice:CreateDestructionEffects() end
 
----@protected
 ---@return nil
-function BaseDestructibleDevice:CreatePhysicalBody() return end
+function BaseDestructibleDevice:CreatePhysicalBody() end
 
----@protected
 ---@return nil
-function BaseDestructibleDevice:DeactivateDevice() return end
+function BaseDestructibleDevice:DeactivateDevice() end
 
----@protected
 ---@return nil
-function BaseDestructibleDevice:DeactivateDeviceSilent() return end
+function BaseDestructibleDevice:DeactivateDeviceSilent() end
 
----@private
 ---@return BaseDestructibleController
-function BaseDestructibleDevice:GetController() return end
+function BaseDestructibleDevice:GetController() end
 
 ---@return BaseDestructibleControllerPS
-function BaseDestructibleDevice:GetDevicePS() return end
+function BaseDestructibleDevice:GetDevicePS() end
 
----@protected
 ---@return nil
-function BaseDestructibleDevice:HidePhysicalBody() return end
+function BaseDestructibleDevice:HidePhysicalBody() end
 
----@protected
 ---@return nil
-function BaseDestructibleDevice:ResolveGameplayState() return end
+function BaseDestructibleDevice:ResolveGameplayState() end

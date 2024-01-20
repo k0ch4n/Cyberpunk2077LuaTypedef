@@ -1,62 +1,57 @@
 ---@meta
 
 ---@class SecSystemDebugger: gameScriptableSystem
----@field private lastInstruction EReprimandInstructions
----@field private instructionSet Bool
----@field private lastInstructionTime Float
----@field private lastInput ESecurityNotificationType
----@field private inputSet Bool
----@field private lastInputTime Float
----@field private lastUpdateTime Float
----@field private realTimeCallbackID gameDelayID
----@field private realTimeCallback Bool
----@field private realTime Float
----@field private callstack CName[]
----@field private ids Uint32[]
----@field private background Uint32
----@field private sysName Uint32
----@field private sysState Uint32
----@field private mostDangerousArea Uint32
----@field private blacklistReason Uint32
----@field private blacklistCount Uint32
----@field private reprimand Uint32
----@field private repInstruction Uint32
----@field private reprimandID Uint32
----@field private input Uint32
----@field private regTime Uint32
----@field private inputTime Uint32
----@field private instructionTime Uint32
----@field private actualTime Uint32
----@field private system SecuritySystemControllerPS
----@field private refreshTime Float
+---@field lastInstruction EReprimandInstructions
+---@field instructionSet Bool
+---@field lastInstructionTime Float
+---@field lastInput ESecurityNotificationType
+---@field inputSet Bool
+---@field lastInputTime Float
+---@field lastUpdateTime Float
+---@field realTimeCallbackID gameDelayID
+---@field realTimeCallback Bool
+---@field realTime Float
+---@field callstack CName[]
+---@field ids Uint32[]
+---@field background Uint32
+---@field sysName Uint32
+---@field sysState Uint32
+---@field mostDangerousArea Uint32
+---@field blacklistReason Uint32
+---@field blacklistCount Uint32
+---@field reprimand Uint32
+---@field repInstruction Uint32
+---@field reprimandID Uint32
+---@field input Uint32
+---@field regTime Uint32
+---@field inputTime Uint32
+---@field instructionTime Uint32
+---@field actualTime Uint32
+---@field system SecuritySystemControllerPS
+---@field refreshTime Float
 SecSystemDebugger = {}
 
 ---@param fields? SecSystemDebugger
 ---@return SecSystemDebugger
-function SecSystemDebugger.new(fields) return end
+function SecSystemDebugger.new(fields) end
 
----@private
 ---@param dvs gameDebugVisualizerSystem
 ---@return nil
-function SecSystemDebugger:Clean(dvs) return end
+function SecSystemDebugger:Clean(dvs) end
 
----@private
 ---@param req RealTimeUpdateRequest
 ---@return nil
-function SecSystemDebugger:OnRealTimeUpdate(req) return end
+function SecSystemDebugger:OnRealTimeUpdate(req) end
 
----@private
 ---@param req UpdateDebuggerRequest
 ---@return nil
-function SecSystemDebugger:OnUpdateDebuggerRequest(req) return end
+function SecSystemDebugger:OnUpdateDebuggerRequest(req) end
 
----@private
 ---@param evt gameTickableEvent
 ---@param time Float
 ---@return nil
-function SecSystemDebugger:RealTimeUpdate(evt, time) return end
+function SecSystemDebugger:RealTimeUpdate(evt, time) end
 
----@private
 ---@param sys SecuritySystemControllerPS
 ---@param time Float
 ---@param instructionsAttached Bool
@@ -65,4 +60,4 @@ function SecSystemDebugger:RealTimeUpdate(evt, time) return end
 ---@param instruction? EReprimandInstructions
 ---@param recentInput? SecuritySystemInput
 ---@return nil
-function SecSystemDebugger:Update(sys, time, instructionsAttached, inputAttached, trace, instruction, recentInput) return end
+function SecSystemDebugger:Update(sys, time, instructionsAttached, inputAttached, trace, instruction, recentInput) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameEffectDebugSettings
----@field public overrideGlobalSettings Bool
----@field public duration Float
----@field public color Color
+---@field overrideGlobalSettings Bool
+---@field duration Float
+---@field color Color
 gameEffectDebugSettings = {}
 
 ---@param fields? gameEffectDebugSettings
 ---@return gameEffectDebugSettings
-function gameEffectDebugSettings.new(fields) return end
+function gameEffectDebugSettings.new(fields) end

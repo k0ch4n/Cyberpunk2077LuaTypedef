@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIFlatheadSetSoloModeCommand: AIFollowerCommand
----@field public soloModeState Bool
+---@field soloModeState Bool
 AIFlatheadSetSoloModeCommand = {}
 
 ---@param fields? AIFlatheadSetSoloModeCommand
 ---@return AIFlatheadSetSoloModeCommand
-function AIFlatheadSetSoloModeCommand.new(fields) return end
+function AIFlatheadSetSoloModeCommand.new(fields) end

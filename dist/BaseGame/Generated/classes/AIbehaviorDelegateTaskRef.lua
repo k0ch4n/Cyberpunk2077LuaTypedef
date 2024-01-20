@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorDelegateTaskRef
----@field public name CName
+---@field name CName
 AIbehaviorDelegateTaskRef = {}
 
 ---@param fields? AIbehaviorDelegateTaskRef
 ---@return AIbehaviorDelegateTaskRef
-function AIbehaviorDelegateTaskRef.new(fields) return end
+function AIbehaviorDelegateTaskRef.new(fields) end

@@ -5,4 +5,4 @@ gameEffectExecutor_NewEffect_ReflectedVector = {}
 
 ---@param fields? gameEffectExecutor_NewEffect_ReflectedVector
 ---@return gameEffectExecutor_NewEffect_ReflectedVector
-function gameEffectExecutor_NewEffect_ReflectedVector.new(fields) return end
+function gameEffectExecutor_NewEffect_ReflectedVector.new(fields) end

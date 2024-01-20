@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DelayedAnimFeatureCall: gameDelaySystemScriptedDelayCallbackWrapper
----@field public featureName CName
----@field public animFeature animAnimFeature_EquipUnequipItem
----@field public scriptInterface gamestateMachineGameScriptInterface
+---@field featureName CName
+---@field animFeature animAnimFeature_EquipUnequipItem
+---@field scriptInterface gamestateMachineGameScriptInterface
 DelayedAnimFeatureCall = {}
 
 ---@param fields? DelayedAnimFeatureCall
 ---@return DelayedAnimFeatureCall
-function DelayedAnimFeatureCall.new(fields) return end
+function DelayedAnimFeatureCall.new(fields) end
 
 ---@return nil
-function DelayedAnimFeatureCall:Call() return end
+function DelayedAnimFeatureCall:Call() end

@@ -5,4 +5,4 @@ VehicleForwardRaceClockUpdateEvent = {}
 
 ---@param fields? VehicleForwardRaceClockUpdateEvent
 ---@return VehicleForwardRaceClockUpdateEvent
-function VehicleForwardRaceClockUpdateEvent.new(fields) return end
+function VehicleForwardRaceClockUpdateEvent.new(fields) end

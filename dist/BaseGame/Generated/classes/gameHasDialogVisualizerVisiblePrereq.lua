@@ -5,4 +5,4 @@ gameHasDialogVisualizerVisiblePrereq = {}
 
 ---@param fields? gameHasDialogVisualizerVisiblePrereq
 ---@return gameHasDialogVisualizerVisiblePrereq
-function gameHasDialogVisualizerVisiblePrereq.new(fields) return end
+function gameHasDialogVisualizerVisiblePrereq.new(fields) end

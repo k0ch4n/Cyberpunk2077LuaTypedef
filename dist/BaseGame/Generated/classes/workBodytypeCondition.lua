@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workBodytypeCondition: workIWorkspotCondition
----@field public rig animRig
+---@field rig animRig
 workBodytypeCondition = {}
 
 ---@param fields? workBodytypeCondition
 ---@return workBodytypeCondition
-function workBodytypeCondition.new(fields) return end
+function workBodytypeCondition.new(fields) end

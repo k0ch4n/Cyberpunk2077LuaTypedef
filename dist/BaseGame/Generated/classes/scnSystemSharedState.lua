@@ -5,4 +5,4 @@ scnSystemSharedState = {}
 
 ---@param fields? scnSystemSharedState
 ---@return scnSystemSharedState
-function scnSystemSharedState.new(fields) return end
+function scnSystemSharedState.new(fields) end

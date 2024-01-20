@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class sharedMenuCollection
----@field public items sharedMenuItem[]
+---@field items sharedMenuItem[]
 sharedMenuCollection = {}
 
 ---@param fields? sharedMenuCollection
 ---@return sharedMenuCollection
-function sharedMenuCollection.new(fields) return end
+function sharedMenuCollection.new(fields) end

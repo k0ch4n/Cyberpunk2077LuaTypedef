@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class WeakFenceControllerPS: ScriptableDeviceComponentPS
----@field public weakfenceSkillChecks EngDemoContainer
----@field protected weakFenceSetup WeakFenceSetup
+---@field weakfenceSkillChecks EngDemoContainer
+---@field weakFenceSetup WeakFenceSetup
 WeakFenceControllerPS = {}
 
 ---@param fields? WeakFenceControllerPS
 ---@return WeakFenceControllerPS
-function WeakFenceControllerPS.new(fields) return end
+function WeakFenceControllerPS.new(fields) end
 
----@protected
 ---@param interactionName String
 ---@return ActivateDevice
-function WeakFenceControllerPS:ActionActivateDevice(interactionName) return end
+function WeakFenceControllerPS:ActionActivateDevice(interactionName) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionEngineering
-function WeakFenceControllerPS:ActionEngineering(context) return end
+function WeakFenceControllerPS:ActionEngineering(context) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function WeakFenceControllerPS:GetActions(context) return end
+function WeakFenceControllerPS:GetActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function WeakFenceControllerPS:GetSkillCheckContainerForSetup() return end
+function WeakFenceControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function WeakFenceControllerPS:OnActionEngineering(evt) return end
+function WeakFenceControllerPS:OnActionEngineering(evt) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function WeakFenceControllerPS:OnActivateDevice(evt) return end
+function WeakFenceControllerPS:OnActivateDevice(evt) end

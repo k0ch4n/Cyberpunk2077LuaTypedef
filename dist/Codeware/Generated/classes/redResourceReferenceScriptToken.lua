@@ -5,12 +5,12 @@ redResourceReferenceScriptToken = {}
 
 ---@param fields? redResourceReferenceScriptToken
 ---@return redResourceReferenceScriptToken
-function redResourceReferenceScriptToken.new(fields) return end
+function redResourceReferenceScriptToken.new(fields) end
 
 ---@param self redResourceReferenceScriptToken
 ---@return Uint64
-function redResourceReferenceScriptToken.GetHash(self) return end
+function redResourceReferenceScriptToken.GetHash(self) end
 
 ---@param arg redResourceReferenceScriptToken
 ---@return Uint64
-function redResourceReferenceScriptToken.GetHash(arg) return end
+function redResourceReferenceScriptToken.GetHash(arg) end

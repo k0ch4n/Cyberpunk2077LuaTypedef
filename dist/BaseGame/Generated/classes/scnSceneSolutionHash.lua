@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnSceneSolutionHash
----@field public sceneSolutionHash scnSceneSolutionHashHash
+---@field sceneSolutionHash scnSceneSolutionHashHash
 scnSceneSolutionHash = {}
 
 ---@param fields? scnSceneSolutionHash
 ---@return scnSceneSolutionHash
-function scnSceneSolutionHash.new(fields) return end
+function scnSceneSolutionHash.new(fields) end

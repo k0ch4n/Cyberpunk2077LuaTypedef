@@ -1,42 +1,39 @@
 ---@meta
 
 ---@class CasinoTableGameController: gameuiWidgetGameController
----@field public casinoChipTDBID TweakDBID
----@field public multiplier Uint32
----@field public slots CasinoTableSlotData[]
----@field public casinoChipID gameItemID
----@field public player gameObject
----@field public transactionSystem gameTransactionSystem
+---@field casinoChipTDBID TweakDBID
+---@field multiplier Uint32
+---@field slots CasinoTableSlotData[]
+---@field casinoChipID gameItemID
+---@field player gameObject
+---@field transactionSystem gameTransactionSystem
 CasinoTableGameController = {}
 
 ---@param fields? CasinoTableGameController
 ---@return CasinoTableGameController
-function CasinoTableGameController.new(fields) return end
+function CasinoTableGameController.new(fields) end
 
----@protected
 ---@param evt ChangeCasinoTableStateEvent
 ---@return Bool
-function CasinoTableGameController:OnChangeCasinoTableState(evt) return end
+function CasinoTableGameController:OnChangeCasinoTableState(evt) end
 
----@protected
 ---@return Bool
-function CasinoTableGameController:OnInitialize() return end
+function CasinoTableGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function CasinoTableGameController:OnUninitialize() return end
+function CasinoTableGameController:OnUninitialize() end
 
 ---@param slotData CasinoTableSlotData
 ---@param evt ChangeCasinoTableStateEvent
 ---@return nil
-function CasinoTableGameController:ChangeCasinoTableState(slotData, evt) return end
+function CasinoTableGameController:ChangeCasinoTableState(slotData, evt) end
 
 ---@param slot CasinoTableSlot
 ---@param item gameItemID
 ---@param total Uint32
 ---@return nil
-function CasinoTableGameController:SetItemQuantity(slot, item, total) return end
+function CasinoTableGameController:SetItemQuantity(slot, item, total) end
 
 ---@param slotData CasinoTableSlotData
 ---@return nil
-function CasinoTableGameController:UnregisterInventoryListener(slotData) return end
+function CasinoTableGameController:UnregisterInventoryListener(slotData) end

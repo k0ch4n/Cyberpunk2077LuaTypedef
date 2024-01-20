@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldHeatmapResource: CResource
----@field public setup worldHeatmapSetup
----@field public name String
----@field public layerNames String[]
----@field public layers worldHeatmapLayer[]
+---@field setup worldHeatmapSetup
+---@field name String
+---@field layerNames String[]
+---@field layers worldHeatmapLayer[]
 worldHeatmapResource = {}
 
 ---@param fields? worldHeatmapResource
 ---@return worldHeatmapResource
-function worldHeatmapResource.new(fields) return end
+function worldHeatmapResource.new(fields) end

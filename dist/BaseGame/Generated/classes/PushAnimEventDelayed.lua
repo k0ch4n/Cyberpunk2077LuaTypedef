@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PushAnimEventDelayed: gameScriptableSystemRequest
----@field public eventName CName
----@field public go gameObject
+---@field eventName CName
+---@field go gameObject
 PushAnimEventDelayed = {}
 
 ---@param fields? PushAnimEventDelayed
 ---@return PushAnimEventDelayed
-function PushAnimEventDelayed.new(fields) return end
+function PushAnimEventDelayed.new(fields) end

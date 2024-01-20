@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TrespasserEntry
----@field public trespasser gameObject
----@field public isScanned Bool
----@field public isInsideA Bool
----@field public isInsideB Bool
----@field public isInsideScanner Bool
----@field public areaStack CName[]
+---@field trespasser gameObject
+---@field isScanned Bool
+---@field isInsideA Bool
+---@field isInsideB Bool
+---@field isInsideScanner Bool
+---@field areaStack CName[]
 TrespasserEntry = {}
 
 ---@param fields? TrespasserEntry
 ---@return TrespasserEntry
-function TrespasserEntry.new(fields) return end
+function TrespasserEntry.new(fields) end

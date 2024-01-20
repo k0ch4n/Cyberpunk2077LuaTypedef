@@ -5,4 +5,4 @@ AIbehaviorClearActiveNodesDebuggerCommand = {}
 
 ---@param fields? AIbehaviorClearActiveNodesDebuggerCommand
 ---@return AIbehaviorClearActiveNodesDebuggerCommand
-function AIbehaviorClearActiveNodesDebuggerCommand.new(fields) return end
+function AIbehaviorClearActiveNodesDebuggerCommand.new(fields) end

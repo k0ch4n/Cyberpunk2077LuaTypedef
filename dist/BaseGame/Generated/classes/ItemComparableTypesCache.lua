@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ItemComparableTypesCache: IScriptable
----@field public itemTypeRecord gamedataItemType_Record
----@field public comparableTypes gamedataItemType[]
----@field public comparableRecordTypes gamedataItemType_Record[]
+---@field itemTypeRecord gamedataItemType_Record
+---@field comparableTypes gamedataItemType[]
+---@field comparableRecordTypes gamedataItemType_Record[]
 ItemComparableTypesCache = {}
 
 ---@param fields? ItemComparableTypesCache
 ---@return ItemComparableTypesCache
-function ItemComparableTypesCache.new(fields) return end
+function ItemComparableTypesCache.new(fields) end

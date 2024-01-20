@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gamestateMachineeventPostponedParameterBase: gamestateMachineeventBaseEvent
----@field public aspect gamestateMachineParameterAspect
+---@field aspect gamestateMachineParameterAspect
 gamestateMachineeventPostponedParameterBase = {}

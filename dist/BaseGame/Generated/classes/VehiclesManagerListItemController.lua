@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class VehiclesManagerListItemController: inkVirtualCompoundItemController
----@field private label inkTextWidgetReference
----@field private typeIcon inkImageWidgetReference
----@field private repairTime inkTextWidgetReference
----@field private vehicleData VehicleListItemData
+---@field label inkTextWidgetReference
+---@field typeIcon inkImageWidgetReference
+---@field repairTime inkTextWidgetReference
+---@field vehicleData VehicleListItemData
 VehiclesManagerListItemController = {}
 
 ---@param fields? VehiclesManagerListItemController
 ---@return VehiclesManagerListItemController
-function VehiclesManagerListItemController.new(fields) return end
+function VehiclesManagerListItemController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function VehiclesManagerListItemController:OnDataChanged(value) return end
+function VehiclesManagerListItemController:OnDataChanged(value) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function VehiclesManagerListItemController:OnDeselected(itemController) return end
+function VehiclesManagerListItemController:OnDeselected(itemController) end
 
----@protected
 ---@return Bool
-function VehiclesManagerListItemController:OnInitialize() return end
+function VehiclesManagerListItemController:OnInitialize() end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function VehiclesManagerListItemController:OnSelected(itemController, discreteNav) return end
+function VehiclesManagerListItemController:OnSelected(itemController, discreteNav) end
 
 ---@return VehicleListItemData
-function VehiclesManagerListItemController:GetVehicleData() return end
+function VehiclesManagerListItemController:GetVehicleData() end

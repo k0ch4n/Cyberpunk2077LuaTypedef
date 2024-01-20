@@ -5,4 +5,4 @@ ReserveAssignedSeat = {}
 
 ---@param fields? ReserveAssignedSeat
 ---@return ReserveAssignedSeat
-function ReserveAssignedSeat.new(fields) return end
+function ReserveAssignedSeat.new(fields) end

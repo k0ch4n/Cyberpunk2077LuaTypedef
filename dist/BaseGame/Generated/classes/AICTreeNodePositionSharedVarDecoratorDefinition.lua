@@ -5,4 +5,4 @@ AICTreeNodePositionSharedVarDecoratorDefinition = {}
 
 ---@param fields? AICTreeNodePositionSharedVarDecoratorDefinition
 ---@return AICTreeNodePositionSharedVarDecoratorDefinition
-function AICTreeNodePositionSharedVarDecoratorDefinition.new(fields) return end
+function AICTreeNodePositionSharedVarDecoratorDefinition.new(fields) end

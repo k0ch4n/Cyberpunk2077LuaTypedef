@@ -5,14 +5,12 @@ DoesVehicleSupportCombat = {}
 
 ---@param fields? DoesVehicleSupportCombat
 ---@return DoesVehicleSupportCombat
-function DoesVehicleSupportCombat.new(fields) return end
+function DoesVehicleSupportCombat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function DoesVehicleSupportCombat:Activate(context) return end
+function DoesVehicleSupportCombat:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function DoesVehicleSupportCombat:Check(context) return end
+function DoesVehicleSupportCombat:Check(context) end

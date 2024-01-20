@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questDynamicSpawnSystemCondition: questTypedCondition
----@field public type questIDynamicSpawnSystemConditionType
+---@field type questIDynamicSpawnSystemConditionType
 questDynamicSpawnSystemCondition = {}
 
 ---@param fields? questDynamicSpawnSystemCondition
 ---@return questDynamicSpawnSystemCondition
-function questDynamicSpawnSystemCondition.new(fields) return end
+function questDynamicSpawnSystemCondition.new(fields) end

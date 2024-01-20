@@ -1,141 +1,120 @@
 ---@meta
 
 ---@class hudCarController: gameuiHUDGameController
----@field private SpeedValue inkTextWidgetReference
----@field private SpeedUnits inkTextWidgetReference
----@field private RPMChunks inkImageWidgetReference[]
----@field private psmBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private currentZoom Float
----@field private currentTime GameTime
----@field private activeVehicleUIBlackboard gameIBlackboard
----@field private vehicleBBStateConectionId redCallbackObject
----@field private speedBBConnectionId redCallbackObject
----@field private gearBBConnectionId redCallbackObject
----@field private tppBBConnectionId redCallbackObject
----@field private rpmValueBBConnectionId redCallbackObject
----@field private leanAngleBBConnectionId redCallbackObject
----@field private playerStateBBConnectionId redCallbackObject
----@field private activeChunks Int32
----@field private rpmMaxValue Float
----@field private currentSpeed Int32
----@field private activeVehicle vehicleBaseObject
----@field private driver Bool
----@field protected settings userSettingsUserSettings
----@field protected settingsListener CarSpeedometerSettingsListener
----@field protected groupPath CName
----@field private kmOn Bool
+---@field SpeedValue inkTextWidgetReference
+---@field SpeedUnits inkTextWidgetReference
+---@field RPMChunks inkImageWidgetReference[]
+---@field psmBlackboard gameIBlackboard
+---@field PSM_BBID redCallbackObject
+---@field currentZoom Float
+---@field currentTime GameTime
+---@field activeVehicleUIBlackboard gameIBlackboard
+---@field vehicleBBStateConectionId redCallbackObject
+---@field speedBBConnectionId redCallbackObject
+---@field gearBBConnectionId redCallbackObject
+---@field tppBBConnectionId redCallbackObject
+---@field rpmValueBBConnectionId redCallbackObject
+---@field leanAngleBBConnectionId redCallbackObject
+---@field playerStateBBConnectionId redCallbackObject
+---@field activeChunks Int32
+---@field rpmMaxValue Float
+---@field currentSpeed Int32
+---@field activeVehicle vehicleBaseObject
+---@field driver Bool
+---@field settings userSettingsUserSettings
+---@field settingsListener CarSpeedometerSettingsListener
+---@field groupPath CName
+---@field kmOn Bool
 hudCarController = {}
 
 ---@param fields? hudCarController
 ---@return hudCarController
-function hudCarController.new(fields) return end
+function hudCarController.new(fields) end
 
----@protected
 ---@param mode Bool
 ---@return Bool
-function hudCarController:OnCameraModeChanged(mode) return end
+function hudCarController:OnCameraModeChanged(mode) end
 
----@protected
 ---@param gearValue Int32
 ---@return Bool
-function hudCarController:OnGearValueChanged(gearValue) return end
+function hudCarController:OnGearValueChanged(gearValue) end
 
----@protected
 ---@return Bool
-function hudCarController:OnInitialize() return end
+function hudCarController:OnInitialize() end
 
----@protected
 ---@param leanAngle Float
 ---@return Bool
-function hudCarController:OnLeanAngleChanged(leanAngle) return end
+function hudCarController:OnLeanAngleChanged(leanAngle) end
 
----@protected
 ---@param evt gamemountingMountingEvent
 ---@return Bool
-function hudCarController:OnMountingEvent(evt) return end
+function hudCarController:OnMountingEvent(evt) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudCarController:OnPlayerAttach(playerPuppet) return end
+function hudCarController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudCarController:OnPlayerDetach(playerPuppet) return end
+function hudCarController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param rpmMax Float
 ---@return Bool
-function hudCarController:OnRpmMaxChanged(rpmMax) return end
+function hudCarController:OnRpmMaxChanged(rpmMax) end
 
----@protected
 ---@param rpmValue Float
 ---@return Bool
-function hudCarController:OnRpmValueChanged(rpmValue) return end
+function hudCarController:OnRpmValueChanged(rpmValue) end
 
----@protected
 ---@param speedValue Float
 ---@return Bool
-function hudCarController:OnSpeedValueChanged(speedValue) return end
+function hudCarController:OnSpeedValueChanged(speedValue) end
 
----@protected
 ---@return Bool
-function hudCarController:OnUninitialize() return end
+function hudCarController:OnUninitialize() end
 
----@protected
 ---@param evt gamemountingUnmountingEvent
 ---@return Bool
-function hudCarController:OnUnmountingEvent(evt) return end
+function hudCarController:OnUnmountingEvent(evt) end
 
----@protected
 ---@param evt Float
 ---@return Bool
-function hudCarController:OnZoomChange(evt) return end
+function hudCarController:OnZoomChange(evt) end
 
----@private
 ---@return Bool
-function hudCarController:CheckIfInTPP() return end
+function hudCarController:CheckIfInTPP() end
 
----@private
 ---@param currentAmountOfChunks Int32
 ---@return nil
-function hudCarController:EvaluateRPMMeterWidget(currentAmountOfChunks) return end
+function hudCarController:EvaluateRPMMeterWidget(currentAmountOfChunks) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function hudCarController:OnVarModified(groupPath, varName, varType, reason) return end
+function hudCarController:OnVarModified(groupPath, varName, varType, reason) end
 
----@private
 ---@param register Bool
 ---@return nil
-function hudCarController:RegisterToVehicle(register) return end
+function hudCarController:RegisterToVehicle(register) end
 
----@private
 ---@return nil
-function hudCarController:RegisterUserSettingsListener() return end
+function hudCarController:RegisterUserSettingsListener() end
 
----@private
 ---@return nil
-function hudCarController:Reset() return end
+function hudCarController:Reset() end
 
----@protected
 ---@param value Int32
 ---@return nil
-function hudCarController:SetMeasurementUnits(value) return end
+function hudCarController:SetMeasurementUnits(value) end
 
----@private
 ---@return nil
-function hudCarController:UpdateChunkVisibility() return end
+function hudCarController:UpdateChunkVisibility() end
 
----@private
 ---@return nil
-function hudCarController:UpdateMeasurementUnits() return end
+function hudCarController:UpdateMeasurementUnits() end
 
 ---@param rpmValue Float
 ---@return nil
-function hudCarController:drawRPMGaugeFull(rpmValue) return end
+function hudCarController:drawRPMGaugeFull(rpmValue) end

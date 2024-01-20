@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class audioNpcGunChoirVoice: audioAudioMetadata
----@field public fireSound CName
----@field public burstFireSound CName
----@field public chargedSound CName
----@field public autoFireSound CName
----@field public autoFireStop CName
----@field public shutdown CName
----@field public init CName
+---@field fireSound CName
+---@field burstFireSound CName
+---@field chargedSound CName
+---@field autoFireSound CName
+---@field autoFireStop CName
+---@field shutdown CName
+---@field init CName
 audioNpcGunChoirVoice = {}
 
 ---@param fields? audioNpcGunChoirVoice
 ---@return audioNpcGunChoirVoice
-function audioNpcGunChoirVoice.new(fields) return end
+function audioNpcGunChoirVoice.new(fields) end

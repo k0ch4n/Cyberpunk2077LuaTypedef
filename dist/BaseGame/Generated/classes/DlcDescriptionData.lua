@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DlcDescriptionData: inkUserData
----@field public title CName
----@field public description CName
----@field public guide CName
----@field public imagePart CName
----@field public settingVar userSettingsVar
----@field public isPreGame Bool
+---@field title CName
+---@field description CName
+---@field guide CName
+---@field imagePart CName
+---@field settingVar userSettingsVar
+---@field isPreGame Bool
 DlcDescriptionData = {}
 
 ---@param fields? DlcDescriptionData
 ---@return DlcDescriptionData
-function DlcDescriptionData.new(fields) return end
+function DlcDescriptionData.new(fields) end

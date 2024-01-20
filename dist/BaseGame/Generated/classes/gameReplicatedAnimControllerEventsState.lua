@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameReplicatedAnimControllerEventsState
----@field public items gameReplicatedAnimEvent[]
----@field public lastAppliedActionsTime netTime
+---@field items gameReplicatedAnimEvent[]
+---@field lastAppliedActionsTime netTime
 gameReplicatedAnimControllerEventsState = {}
 
 ---@param fields? gameReplicatedAnimControllerEventsState
 ---@return gameReplicatedAnimControllerEventsState
-function gameReplicatedAnimControllerEventsState.new(fields) return end
+function gameReplicatedAnimControllerEventsState.new(fields) end

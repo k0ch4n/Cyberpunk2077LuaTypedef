@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class IsAggressiveCrowd: AIbehaviorconditionScript
----@field public reactionSystem AIReactionSystem
----@field public entityID entEntityID
----@field public npc NPCPuppet
+---@field reactionSystem AIReactionSystem
+---@field entityID entEntityID
+---@field npc NPCPuppet
 IsAggressiveCrowd = {}
 
 ---@param fields? IsAggressiveCrowd
 ---@return IsAggressiveCrowd
-function IsAggressiveCrowd.new(fields) return end
+function IsAggressiveCrowd.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsAggressiveCrowd:Activate(context) return end
+function IsAggressiveCrowd:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsAggressiveCrowd:Check(context) return end
+function IsAggressiveCrowd:Check(context) end

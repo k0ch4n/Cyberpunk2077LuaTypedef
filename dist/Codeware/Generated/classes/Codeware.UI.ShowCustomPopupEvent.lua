@@ -5,8 +5,8 @@ Codeware_UI_ShowCustomPopupEvent = {}
 
 ---@param fields? Codeware_UI_ShowCustomPopupEvent
 ---@return Codeware_UI_ShowCustomPopupEvent
-function Codeware_UI_ShowCustomPopupEvent.new(fields) return end
+function Codeware_UI_ShowCustomPopupEvent.new(fields) end
 
 ---@param controller Codeware_UI_CustomPopup
 ---@return Codeware_UI_ShowCustomPopupEvent
-function Codeware_UI_ShowCustomPopupEvent.Create(controller) return end
+function Codeware_UI_ShowCustomPopupEvent.Create(controller) end

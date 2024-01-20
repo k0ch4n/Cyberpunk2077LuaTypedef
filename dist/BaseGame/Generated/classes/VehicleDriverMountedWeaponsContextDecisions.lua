@@ -5,9 +5,8 @@ VehicleDriverMountedWeaponsContextDecisions = {}
 
 ---@param fields? VehicleDriverMountedWeaponsContextDecisions
 ---@return VehicleDriverMountedWeaponsContextDecisions
-function VehicleDriverMountedWeaponsContextDecisions.new(fields) return end
+function VehicleDriverMountedWeaponsContextDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function VehicleDriverMountedWeaponsContextDecisions:DriverCombatTypeEnterCondition(stateContext) return end
+function VehicleDriverMountedWeaponsContextDecisions:DriverCombatTypeEnterCondition(stateContext) end

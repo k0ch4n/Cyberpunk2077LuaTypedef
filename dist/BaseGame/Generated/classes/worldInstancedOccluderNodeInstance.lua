@@ -5,4 +5,4 @@ worldInstancedOccluderNodeInstance = {}
 
 ---@param fields? worldInstancedOccluderNodeInstance
 ---@return worldInstancedOccluderNodeInstance
-function worldInstancedOccluderNodeInstance.new(fields) return end
+function worldInstancedOccluderNodeInstance.new(fields) end

@@ -1,71 +1,62 @@
 ---@meta
 
 ---@class gameuiMinimapPreventionVehicleMappinController: gameuiBaseMinimapMappinController
----@field protected pulseWidget inkWidgetReference
----@field protected visionWidget inkWidgetReference
----@field private outerIcon inkImageWidgetReference
----@field private maxTackIcon inkImageWidgetReference
----@field private fadeInAnimName CName
----@field private fadeOutAnimName CName
----@field private fadeAnimProxy inkanimProxy
----@field private UIWantedBarBB gameIBlackboard
----@field private UIWantedBarDef UI_WantedBarDef
----@field private currentWantedStateCallback redCallbackObject
----@field private playerEscapingPursuit Bool
----@field private playerWanted Bool
----@field private mappinState CName
----@field private keepIconOnClamping Bool
----@field private maxVisibilityDistance Float
----@field private currentChaseState CName
----@field private detectionDropThreshold Float
----@field private wasMaxDetectionReached Bool
----@field private vehicle vehicleBaseObject
----@field private isMaxTacAV Bool
+---@field pulseWidget inkWidgetReference
+---@field visionWidget inkWidgetReference
+---@field outerIcon inkImageWidgetReference
+---@field maxTackIcon inkImageWidgetReference
+---@field fadeInAnimName CName
+---@field fadeOutAnimName CName
+---@field fadeAnimProxy inkanimProxy
+---@field UIWantedBarBB gameIBlackboard
+---@field UIWantedBarDef UI_WantedBarDef
+---@field currentWantedStateCallback redCallbackObject
+---@field playerEscapingPursuit Bool
+---@field playerWanted Bool
+---@field mappinState CName
+---@field keepIconOnClamping Bool
+---@field maxVisibilityDistance Float
+---@field currentChaseState CName
+---@field detectionDropThreshold Float
+---@field wasMaxDetectionReached Bool
+---@field vehicle vehicleBaseObject
+---@field isMaxTacAV Bool
 gameuiMinimapPreventionVehicleMappinController = {}
 
 ---@param fields? gameuiMinimapPreventionVehicleMappinController
 ---@return gameuiMinimapPreventionVehicleMappinController
-function gameuiMinimapPreventionVehicleMappinController.new(fields) return end
+function gameuiMinimapPreventionVehicleMappinController.new(fields) end
 
----@protected
 ---@param value CName|string
 ---@return Bool
-function gameuiMinimapPreventionVehicleMappinController:OnCurrentWantedStateChanged(value) return end
+function gameuiMinimapPreventionVehicleMappinController:OnCurrentWantedStateChanged(value) end
 
----@private
 ---@param distance Float
 ---@return Bool
-function gameuiMinimapPreventionVehicleMappinController:CanShowMappin(distance) return end
+function gameuiMinimapPreventionVehicleMappinController:CanShowMappin(distance) end
 
----@protected
 ---@return CName
-function gameuiMinimapPreventionVehicleMappinController:ComputeRootState() return end
-
----@protected
----@return nil
-function gameuiMinimapPreventionVehicleMappinController:Initialize() return end
-
----@protected
----@return nil
-function gameuiMinimapPreventionVehicleMappinController:Intro() return end
+function gameuiMinimapPreventionVehicleMappinController:ComputeRootState() end
 
 ---@return nil
-function gameuiMinimapPreventionVehicleMappinController:OnUninitialize() return end
+function gameuiMinimapPreventionVehicleMappinController:Initialize() end
 
----@protected
 ---@return nil
-function gameuiMinimapPreventionVehicleMappinController:Update() return end
+function gameuiMinimapPreventionVehicleMappinController:Intro() end
 
----@private
+---@return nil
+function gameuiMinimapPreventionVehicleMappinController:OnUninitialize() end
+
+---@return nil
+function gameuiMinimapPreventionVehicleMappinController:Update() end
+
 ---@param value CName|string
 ---@return nil
-function gameuiMinimapPreventionVehicleMappinController:UpdatePlayerEscapingPursuit(value) return end
+function gameuiMinimapPreventionVehicleMappinController:UpdatePlayerEscapingPursuit(value) end
 
----@private
 ---@param value CName|string
 ---@return nil
-function gameuiMinimapPreventionVehicleMappinController:UpdatePlayerWanted(value) return end
+function gameuiMinimapPreventionVehicleMappinController:UpdatePlayerWanted(value) end
 
----@private
 ---@return nil
-function gameuiMinimapPreventionVehicleMappinController:UpdateVisiblity() return end
+function gameuiMinimapPreventionVehicleMappinController:UpdateVisiblity() end

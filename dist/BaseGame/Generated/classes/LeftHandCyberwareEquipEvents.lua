@@ -5,14 +5,14 @@ LeftHandCyberwareEquipEvents = {}
 
 ---@param fields? LeftHandCyberwareEquipEvents
 ---@return LeftHandCyberwareEquipEvents
-function LeftHandCyberwareEquipEvents.new(fields) return end
+function LeftHandCyberwareEquipEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareEquipEvents:OnEnter(stateContext, scriptInterface) return end
+function LeftHandCyberwareEquipEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareEquipEvents:OnExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareEquipEvents:OnExit(stateContext, scriptInterface) end

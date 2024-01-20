@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameinteractionsvisDeviceVisualizerDefinition: gameinteractionsvisIVisualizerDefinition
----@field public interactionType gameinteractionsvisInteractionType
----@field public displayNameOverride String
----@field public useDefaultActionMapping Bool
----@field public createMappin Bool
----@field public isDynamic Bool
----@field public timeProvider gameinteractionsvisIVisualizerTimeProvider
+---@field interactionType gameinteractionsvisInteractionType
+---@field displayNameOverride String
+---@field useDefaultActionMapping Bool
+---@field createMappin Bool
+---@field isDynamic Bool
+---@field timeProvider gameinteractionsvisIVisualizerTimeProvider
 gameinteractionsvisDeviceVisualizerDefinition = {}
 
 ---@param fields? gameinteractionsvisDeviceVisualizerDefinition
 ---@return gameinteractionsvisDeviceVisualizerDefinition
-function gameinteractionsvisDeviceVisualizerDefinition.new(fields) return end
+function gameinteractionsvisDeviceVisualizerDefinition.new(fields) end

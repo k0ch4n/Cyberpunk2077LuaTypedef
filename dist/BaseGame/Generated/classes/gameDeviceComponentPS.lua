@@ -1,307 +1,293 @@
 ---@meta
 
 ---@class gameDeviceComponentPS: gameComponentPS
----@field protected markAsQuest Bool
----@field protected autoToggleQuestMark Bool
----@field protected factToDisableQuestMark CName
----@field protected callbackToDisableQuestMarkID Uint32
----@field protected backdoorObjectiveData BackDoorObjectiveData
----@field protected controlPanelObjectiveData ControlPanelObjectiveData
----@field protected deviceUIStyle gamedataComputerUIStyle
----@field protected blackboard gameIBlackboard
----@field protected isScanned Bool
----@field private isBeingScanned Bool
----@field protected exposeQuickHacks Bool
----@field protected isAttachedToGame Bool
----@field protected isLogicReady Bool
----@field protected maxDevicesToExtractInOneFrame Int32
+---@field markAsQuest Bool
+---@field autoToggleQuestMark Bool
+---@field factToDisableQuestMark CName
+---@field callbackToDisableQuestMarkID Uint32
+---@field backdoorObjectiveData BackDoorObjectiveData
+---@field controlPanelObjectiveData ControlPanelObjectiveData
+---@field deviceUIStyle gamedataComputerUIStyle
+---@field blackboard gameIBlackboard
+---@field isScanned Bool
+---@field isBeingScanned Bool
+---@field exposeQuickHacks Bool
+---@field isAttachedToGame Bool
+---@field isLogicReady Bool
+---@field maxDevicesToExtractInOneFrame Int32
 gameDeviceComponentPS = {}
 
 ---@param fields? gameDeviceComponentPS
 ---@return gameDeviceComponentPS
-function gameDeviceComponentPS.new(fields) return end
+function gameDeviceComponentPS.new(fields) end
 
 ---@return gamedeviceClearance
-function gameDeviceComponentPS:GetClearance() return end
+function gameDeviceComponentPS:GetClearance() end
 
 ---@return String
-function gameDeviceComponentPS:GetDeviceIconPath() return end
+function gameDeviceComponentPS:GetDeviceIconPath() end
 
 ---@return String
-function gameDeviceComponentPS:GetDeviceName() return end
+function gameDeviceComponentPS:GetDeviceName() end
 
 ---@return String
-function gameDeviceComponentPS:GetDeviceStatus() return end
+function gameDeviceComponentPS:GetDeviceStatus() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function gameDeviceComponentPS:GetNativeActions(context) return end
+function gameDeviceComponentPS:GetNativeActions(context) end
 
 ---@return CName
-function gameDeviceComponentPS:GetWidgetTypeName() return end
+function gameDeviceComponentPS:GetWidgetTypeName() end
 
----@protected
 ---@return ThumbnailUI
-function gameDeviceComponentPS:ActionThumbnailUI() return end
+function gameDeviceComponentPS:ActionThumbnailUI() end
 
 ---@param interactionComponent gameinteractionsComponent
 ---@param context gameGetActionsContext
 ---@return nil
-function gameDeviceComponentPS:DetermineInteractionState(interactionComponent, context) return end
+function gameDeviceComponentPS:DetermineInteractionState(interactionComponent, context) end
 
----@private
 ---@return nil
-function gameDeviceComponentPS:ExposeQuickHacks() return end
+function gameDeviceComponentPS:ExposeQuickHacks() end
 
----@protected
 ---@param shouldExpose Bool
 ---@return nil
-function gameDeviceComponentPS:ExposeQuickHacks(shouldExpose) return end
+function gameDeviceComponentPS:ExposeQuickHacks(shouldExpose) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return SActionWidgetPackage[]
-function gameDeviceComponentPS:GetActionWidgets(context) return end
+function gameDeviceComponentPS:GetActionWidgets(context) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function gameDeviceComponentPS:GetActions(context) return end
+function gameDeviceComponentPS:GetActions(context) end
 
 ---@param context gameGetActionsContext
 ---@return gamedeviceAction[]
-function gameDeviceComponentPS:GetActionsToNative(context) return end
+function gameDeviceComponentPS:GetActionsToNative(context) end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameDeviceComponentPS:GetAncestors() return end
+function gameDeviceComponentPS:GetAncestors() end
 
 ---@param context? MasterControllerPS
 ---@return gameDeviceComponentPS
-function gameDeviceComponentPS:GetAttachedSlaveForPing(context) return end
+function gameDeviceComponentPS:GetAttachedSlaveForPing(context) end
 
 ---@return BackDoorObjectiveData
-function gameDeviceComponentPS:GetBackdoorObjectiveData() return end
+function gameDeviceComponentPS:GetBackdoorObjectiveData() end
 
----@protected
 ---@return TweakDBID
-function gameDeviceComponentPS:GetBackgroundTextureTweakDBID() return end
+function gameDeviceComponentPS:GetBackgroundTextureTweakDBID() end
 
 ---@return gameIBlackboard
-function gameDeviceComponentPS:GetBlackboard() return end
+function gameDeviceComponentPS:GetBlackboard() end
 
 ---@return DeviceBaseBlackboardDef
-function gameDeviceComponentPS:GetBlackboardDef() return end
+function gameDeviceComponentPS:GetBlackboardDef() end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameDeviceComponentPS:GetChildren() return end
+function gameDeviceComponentPS:GetChildren() end
 
 ---@return ControlPanelObjectiveData
-function gameDeviceComponentPS:GetControlPanelObjectiveData() return end
+function gameDeviceComponentPS:GetControlPanelObjectiveData() end
 
 ---@return CName
-function gameDeviceComponentPS:GetDeviceIconID() return end
+function gameDeviceComponentPS:GetDeviceIconID() end
 
----@protected
 ---@return TweakDBID
-function gameDeviceComponentPS:GetDeviceIconTweakDBID() return end
+function gameDeviceComponentPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
 ---@return SDeviceWidgetPackage
-function gameDeviceComponentPS:GetDeviceWidget(context) return end
+function gameDeviceComponentPS:GetDeviceWidget(context) end
 
 ---@return CName
-function gameDeviceComponentPS:GetFactToDisableQuestMarkName() return end
+function gameDeviceComponentPS:GetFactToDisableQuestMarkName() end
 
 ---@return gameDeviceComponentPS
-function gameDeviceComponentPS:GetFirstAttachedSlave() return end
+function gameDeviceComponentPS:GetFirstAttachedSlave() end
 
 ---@return gameDeviceComponentPS[]
-function gameDeviceComponentPS:GetImmediateParents() return end
+function gameDeviceComponentPS:GetImmediateParents() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return CName
-function gameDeviceComponentPS:GetInkWidgetLibraryID(context) return end
+function gameDeviceComponentPS:GetInkWidgetLibraryID(context) end
 
----@protected
 ---@return redResourceReferenceScriptToken
-function gameDeviceComponentPS:GetInkWidgetLibraryPath() return end
+function gameDeviceComponentPS:GetInkWidgetLibraryPath() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function gameDeviceComponentPS:GetInkWidgetTweakDBID(context) return end
+function gameDeviceComponentPS:GetInkWidgetTweakDBID(context) end
 
 ---@return gameLazyDevice[]
-function gameDeviceComponentPS:GetLazyAncestors() return end
+function gameDeviceComponentPS:GetLazyAncestors() end
 
 ---@return nil, gameLazyDevice[] outDevices
-function gameDeviceComponentPS:GetLazyChildren() return end
+function gameDeviceComponentPS:GetLazyChildren() end
 
 ---@return gameLazyDevice[]
-function gameDeviceComponentPS:GetLazyParents() return end
+function gameDeviceComponentPS:GetLazyParents() end
 
----@protected
 ---@return entEntityID
-function gameDeviceComponentPS:GetMyEntityID() return end
+function gameDeviceComponentPS:GetMyEntityID() end
 
----@protected
 ---@return NetworkSystem
-function gameDeviceComponentPS:GetNetworkSystem() return end
+function gameDeviceComponentPS:GetNetworkSystem() end
 
 ---@return entEntity
-function gameDeviceComponentPS:GetOwnerEntityWeak() return end
+function gameDeviceComponentPS:GetOwnerEntityWeak() end
 
 ---@param deviceLink DeviceLink
 ---@return gameDeviceComponentPS
-function gameDeviceComponentPS:GetPS(deviceLink) return end
+function gameDeviceComponentPS:GetPS(deviceLink) end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameDeviceComponentPS:GetParents() return end
+function gameDeviceComponentPS:GetParents() end
 
 ---@return CName
-function gameDeviceComponentPS:GetPersistentStateName() return end
+function gameDeviceComponentPS:GetPersistentStateName() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function gameDeviceComponentPS:GetQuestActionByName(actionName) return end
+function gameDeviceComponentPS:GetQuestActionByName(actionName) end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function gameDeviceComponentPS:GetQuestActionByNameToNative(actionName) return end
+function gameDeviceComponentPS:GetQuestActionByNameToNative(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function gameDeviceComponentPS:GetQuestActions(context) return end
+function gameDeviceComponentPS:GetQuestActions(context) end
 
 ---@param context gameGetActionsContext
 ---@return gamedeviceAction[]
-function gameDeviceComponentPS:GetQuestActionsToNative(context) return end
+function gameDeviceComponentPS:GetQuestActionsToNative(context) end
 
 ---@param includeInactive? Bool
 ---@param returnOnlyDirectlyConnected? Bool
 ---@return SecurityAreaControllerPS[]
-function gameDeviceComponentPS:GetSecurityAreas(includeInactive, returnOnlyDirectlyConnected) return end
+function gameDeviceComponentPS:GetSecurityAreas(includeInactive, returnOnlyDirectlyConnected) end
 
 ---@return SecuritySystemControllerPS
-function gameDeviceComponentPS:GetSecuritySystem() return end
+function gameDeviceComponentPS:GetSecuritySystem() end
 
 ---@return ThumbnailUI
-function gameDeviceComponentPS:GetThumbnailAction() return end
+function gameDeviceComponentPS:GetThumbnailAction() end
 
 ---@return SThumbnailWidgetPackage
-function gameDeviceComponentPS:GetThumbnailWidget() return end
+function gameDeviceComponentPS:GetThumbnailWidget() end
 
 ---@param slave gameDeviceComponentPS
 ---@return Bool, VirtualSystemPS vs
-function gameDeviceComponentPS:GetVirtualSystem(slave) return end
+function gameDeviceComponentPS:GetVirtualSystem(slave) end
 
 ---@param id gamePersistentID
 ---@return Bool, VirtualSystemPS vs
-function gameDeviceComponentPS:GetVirtualSystem(id) return end
+function gameDeviceComponentPS:GetVirtualSystem(id) end
 
 ---@return Bool, VirtualSystemPS vs
-function gameDeviceComponentPS:GetVirtualSystem() return end
+function gameDeviceComponentPS:GetVirtualSystem() end
 
 ---@return EVirtualSystem
-function gameDeviceComponentPS:GetVirtualSystemType() return end
+function gameDeviceComponentPS:GetVirtualSystemType() end
 
 ---@return entEntity
-function gameDeviceComponentPS:HackGetOwner() return end
+function gameDeviceComponentPS:HackGetOwner() end
 
 ---@return Bool
-function gameDeviceComponentPS:HasAnyDeviceConnection() return end
+function gameDeviceComponentPS:HasAnyDeviceConnection() end
 
 ---@return Bool
-function gameDeviceComponentPS:HasAnySlave() return end
+function gameDeviceComponentPS:HasAnySlave() end
 
 ---@return nil
-function gameDeviceComponentPS:InitializeGameplayObjectives() return end
+function gameDeviceComponentPS:InitializeGameplayObjectives() end
 
 ---@return nil
-function gameDeviceComponentPS:InitializeQuestDBCallbacksForQuestmark() return end
+function gameDeviceComponentPS:InitializeQuestDBCallbacksForQuestmark() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsAnyMasterFlaggedAsQuest() return end
+function gameDeviceComponentPS:IsAnyMasterFlaggedAsQuest() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsAttachedToGame() return end
+function gameDeviceComponentPS:IsAttachedToGame() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsAutoTogglingQuestMark() return end
+function gameDeviceComponentPS:IsAutoTogglingQuestMark() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsBeingScanned() return end
+function gameDeviceComponentPS:IsBeingScanned() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsLogicReady() return end
+function gameDeviceComponentPS:IsLogicReady() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsMarkedAsQuest() return end
+function gameDeviceComponentPS:IsMarkedAsQuest() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsMasterType() return end
+function gameDeviceComponentPS:IsMasterType() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsQuickHacksExposed() return end
+function gameDeviceComponentPS:IsQuickHacksExposed() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsScanned() return end
+function gameDeviceComponentPS:IsScanned() end
 
 ---@return Bool
-function gameDeviceComponentPS:IsStatic() return end
+function gameDeviceComponentPS:IsStatic() end
 
----@protected
 ---@param evt ExtractDevicesEvent
 ---@return EntityNotificationType
-function gameDeviceComponentPS:OnExtractDevicesEvent(evt) return end
+function gameDeviceComponentPS:OnExtractDevicesEvent(evt) end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function gameDeviceComponentPS:OnMaraudersMapDeviceDebug(sink) return end
+function gameDeviceComponentPS:OnMaraudersMapDeviceDebug(sink) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function gameDeviceComponentPS:PassBlackboard(blackboard) return end
+function gameDeviceComponentPS:PassBlackboard(blackboard) end
 
----@protected
 ---@param lazyDevices gameLazyDevice[]
 ---@param eventToSendOnCompleted? ProcessDevicesEvent
 ---@return nil
-function gameDeviceComponentPS:ProcessDevicesLazy(lazyDevices, eventToSendOnCompleted) return end
+function gameDeviceComponentPS:ProcessDevicesLazy(lazyDevices, eventToSendOnCompleted) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function gameDeviceComponentPS:RefreshUI(blackboard) return end
+function gameDeviceComponentPS:RefreshUI(blackboard) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function gameDeviceComponentPS:RequestActionWidgetsUpdate(blackboard) return end
+function gameDeviceComponentPS:RequestActionWidgetsUpdate(blackboard) end
 
 ---@param blackboard gameIBlackboard
 ---@param data SBreadCrumbUpdateData
 ---@return nil
-function gameDeviceComponentPS:RequestBreadCrumbUpdate(blackboard, data) return end
+function gameDeviceComponentPS:RequestBreadCrumbUpdate(blackboard, data) end
 
 ---@param action ScriptableDeviceAction
 ---@return nil
-function gameDeviceComponentPS:ResloveUIOnAction(action) return end
+function gameDeviceComponentPS:ResloveUIOnAction(action) end
 
----@private
 ---@param evt ExtractDevicesEvent
 ---@return nil
-function gameDeviceComponentPS:ResolveExtractDevicesEvent(evt) return end
+function gameDeviceComponentPS:ResolveExtractDevicesEvent(evt) end
 
 ---@param isBeingScanned Bool
 ---@return nil
-function gameDeviceComponentPS:SetIsBeingScannedFlag(isBeingScanned) return end
+function gameDeviceComponentPS:SetIsBeingScannedFlag(isBeingScanned) end
 
 ---@param isQuest Bool
 ---@return nil
-function gameDeviceComponentPS:SetIsMarkedAsQuest(isQuest) return end
+function gameDeviceComponentPS:SetIsMarkedAsQuest(isQuest) end
 
 ---@param isComplete Bool
 ---@return nil
-function gameDeviceComponentPS:SetIsScanComplete(isComplete) return end
+function gameDeviceComponentPS:SetIsScanComplete(isComplete) end
 
 ---@return nil
-function gameDeviceComponentPS:UnInitializeQuestDBCallbacksForQuestmark() return end
+function gameDeviceComponentPS:UnInitializeQuestDBCallbacksForQuestmark() end

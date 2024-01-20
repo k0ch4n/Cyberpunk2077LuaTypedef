@@ -5,10 +5,10 @@ RipperdocFilterToggleController = {}
 
 ---@param fields? RipperdocFilterToggleController
 ---@return RipperdocFilterToggleController
-function RipperdocFilterToggleController.new(fields) return end
+function RipperdocFilterToggleController.new(fields) end
 
 ---@return String
-function RipperdocFilterToggleController:GetIcon() return end
+function RipperdocFilterToggleController:GetIcon() end
 
 ---@return String
-function RipperdocFilterToggleController:GetLabelKey() return end
+function RipperdocFilterToggleController:GetLabelKey() end

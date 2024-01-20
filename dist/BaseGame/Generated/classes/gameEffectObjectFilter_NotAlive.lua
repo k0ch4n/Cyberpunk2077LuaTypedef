@@ -5,4 +5,4 @@ gameEffectObjectFilter_NotAlive = {}
 
 ---@param fields? gameEffectObjectFilter_NotAlive
 ---@return gameEffectObjectFilter_NotAlive
-function gameEffectObjectFilter_NotAlive.new(fields) return end
+function gameEffectObjectFilter_NotAlive.new(fields) end

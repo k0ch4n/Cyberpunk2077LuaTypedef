@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animAnimNode_FloatTrackDirectConnConstraint: animAnimNode_OnePoseInput
----@field public floatTrackIndex animNamedTrackIndex
----@field public transformIndex animTransformIndex
----@field public channel animTransformChannel
----@field public mulFactor Float
----@field public weight Float
----@field public weightNode animFloatLink
----@field public mulFactorNode animFloatLink
+---@field floatTrackIndex animNamedTrackIndex
+---@field transformIndex animTransformIndex
+---@field channel animTransformChannel
+---@field mulFactor Float
+---@field weight Float
+---@field weightNode animFloatLink
+---@field mulFactorNode animFloatLink
 animAnimNode_FloatTrackDirectConnConstraint = {}
 
 ---@param fields? animAnimNode_FloatTrackDirectConnConstraint
 ---@return animAnimNode_FloatTrackDirectConnConstraint
-function animAnimNode_FloatTrackDirectConnConstraint.new(fields) return end
+function animAnimNode_FloatTrackDirectConnConstraint.new(fields) end

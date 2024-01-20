@@ -5,4 +5,4 @@ HammerLookAtDecisions = {}
 
 ---@param fields? HammerLookAtDecisions
 ---@return HammerLookAtDecisions
-function HammerLookAtDecisions.new(fields) return end
+function HammerLookAtDecisions.new(fields) end

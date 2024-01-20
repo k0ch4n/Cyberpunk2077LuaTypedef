@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SelectMenuRequest: redEvent
----@field public eventData MenuItemController
+---@field eventData MenuItemController
 SelectMenuRequest = {}
 
 ---@param fields? SelectMenuRequest
 ---@return SelectMenuRequest
-function SelectMenuRequest.new(fields) return end
+function SelectMenuRequest.new(fields) end

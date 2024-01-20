@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animSetBoneTransform_JsonEntry
----@field public transformToChange CName
----@field public setMethod animSetBoneTransformEntry_SetMethod
----@field public snapToReference Bool
----@field public sourceBone CName
----@field public offsetToReference Bool
----@field public offsetSpaceBone CName
----@field public offset QsTransform
+---@field transformToChange CName
+---@field setMethod animSetBoneTransformEntry_SetMethod
+---@field snapToReference Bool
+---@field sourceBone CName
+---@field offsetToReference Bool
+---@field offsetSpaceBone CName
+---@field offset QsTransform
 animSetBoneTransform_JsonEntry = {}
 
 ---@param fields? animSetBoneTransform_JsonEntry
 ---@return animSetBoneTransform_JsonEntry
-function animSetBoneTransform_JsonEntry.new(fields) return end
+function animSetBoneTransform_JsonEntry.new(fields) end

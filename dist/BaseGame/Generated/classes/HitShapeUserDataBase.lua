@@ -1,94 +1,94 @@
 ---@meta
 
 ---@class HitShapeUserDataBase: gameHitShapeUserData
----@field public hitShapeTag CName
----@field public hitShapeType EHitShapeType
----@field public hitReactionZone EHitReactionZone
----@field public dismembermentPart EAIDismembermentBodyPart
----@field public isProtectionLayer Bool
----@field public quickHacksPierceProtection Bool
----@field public isInternalWeakspot Bool
----@field public hitShapeDamageMod Float
+---@field hitShapeTag CName
+---@field hitShapeType EHitShapeType
+---@field hitReactionZone EHitReactionZone
+---@field dismembermentPart EAIDismembermentBodyPart
+---@field isProtectionLayer Bool
+---@field quickHacksPierceProtection Bool
+---@field isInternalWeakspot Bool
+---@field hitShapeDamageMod Float
 HitShapeUserDataBase = {}
 
 ---@param fields? HitShapeUserDataBase
 ---@return HitShapeUserDataBase
-function HitShapeUserDataBase.new(fields) return end
+function HitShapeUserDataBase.new(fields) end
 
 ---@param gameObj gameObject
 ---@param shapeName CName|string
 ---@param hierarchical Bool
 ---@return nil
-function HitShapeUserDataBase.DisableHitShape(gameObj, shapeName, hierarchical) return end
+function HitShapeUserDataBase.DisableHitShape(gameObj, shapeName, hierarchical) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.DoQuickHacksPierceProtection(userData) return end
+function HitShapeUserDataBase.DoQuickHacksPierceProtection(userData) end
 
 ---@param gameObj gameObject
 ---@param shapeName CName|string
 ---@param hierarchical Bool
 ---@return nil
-function HitShapeUserDataBase.EnableHitShape(gameObj, shapeName, hierarchical) return end
+function HitShapeUserDataBase.EnableHitShape(gameObj, shapeName, hierarchical) end
 
 ---@param userData HitShapeUserDataBase
 ---@return gameDismBodyPart
-function HitShapeUserDataBase.GetDismembermentBodyPart(userData) return end
+function HitShapeUserDataBase.GetDismembermentBodyPart(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return EHitReactionZone
-function HitShapeUserDataBase.GetHitReactionZone(userData) return end
+function HitShapeUserDataBase.GetHitReactionZone(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Float
-function HitShapeUserDataBase.GetHitShapeDamageMod(userData) return end
+function HitShapeUserDataBase.GetHitShapeDamageMod(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneArm(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneArm(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneHead(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneHead(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneLeftArm(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneLeftArm(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneLeftLeg(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneLeftLeg(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneLeg(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneLeg(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneLimb(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneLimb(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneRightArm(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneRightArm(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneRightLeg(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneRightLeg(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsHitReactionZoneTorso(userData) return end
+function HitShapeUserDataBase.IsHitReactionZoneTorso(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsInternalWeakspot(userData) return end
+function HitShapeUserDataBase.IsInternalWeakspot(userData) end
 
 ---@param userData HitShapeUserDataBase
 ---@return Bool
-function HitShapeUserDataBase.IsProtectionLayer(userData) return end
+function HitShapeUserDataBase.IsProtectionLayer(userData) end
 
 ---@return EHitShapeType
-function HitShapeUserDataBase:GetShapeType() return end
+function HitShapeUserDataBase:GetShapeType() end
 
 ---@return Bool
-function HitShapeUserDataBase:IsHead() return end
+function HitShapeUserDataBase:IsHead() end

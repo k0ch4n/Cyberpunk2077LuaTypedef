@@ -5,9 +5,8 @@ ShouldNPCContinueInAlerted = {}
 
 ---@param fields? ShouldNPCContinueInAlerted
 ---@return ShouldNPCContinueInAlerted
-function ShouldNPCContinueInAlerted.new(fields) return end
+function ShouldNPCContinueInAlerted.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldNPCContinueInAlerted:Check(context) return end
+function ShouldNPCContinueInAlerted:Check(context) end

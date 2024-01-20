@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class STeleportOperationData
----@field public nodeRef NodeRef
+---@field nodeRef NodeRef
 STeleportOperationData = {}
 
 ---@param fields? STeleportOperationData
 ---@return STeleportOperationData
-function STeleportOperationData.new(fields) return end
+function STeleportOperationData.new(fields) end

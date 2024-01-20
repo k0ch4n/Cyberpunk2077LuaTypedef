@@ -5,20 +5,20 @@ TakeOverSecuritySystem = {}
 
 ---@param fields? TakeOverSecuritySystem
 ---@return TakeOverSecuritySystem
-function TakeOverSecuritySystem.new(fields) return end
+function TakeOverSecuritySystem.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function TakeOverSecuritySystem.IsAvailable(device) return end
+function TakeOverSecuritySystem.IsAvailable(device) end
 
 ---@param requesterClearancer gamedeviceClearance
 ---@return Bool
-function TakeOverSecuritySystem.IsClearanceValid(requesterClearancer) return end
+function TakeOverSecuritySystem.IsClearanceValid(requesterClearancer) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function TakeOverSecuritySystem.IsDefaultConditionMet(device, context) return end
+function TakeOverSecuritySystem.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function TakeOverSecuritySystem:SetProperties() return end
+function TakeOverSecuritySystem:SetProperties() end

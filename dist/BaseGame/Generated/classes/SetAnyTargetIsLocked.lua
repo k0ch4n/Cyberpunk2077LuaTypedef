@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetAnyTargetIsLocked: redEvent
----@field public wasSeen Bool
+---@field wasSeen Bool
 SetAnyTargetIsLocked = {}
 
 ---@param fields? SetAnyTargetIsLocked
 ---@return SetAnyTargetIsLocked
-function SetAnyTargetIsLocked.new(fields) return end
+function SetAnyTargetIsLocked.new(fields) end

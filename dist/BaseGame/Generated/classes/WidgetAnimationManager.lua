@@ -1,54 +1,51 @@
 ---@meta
 
 ---@class WidgetAnimationManager: IScriptable
----@field private animations SWidgetAnimationData[]
+---@field animations SWidgetAnimationData[]
 WidgetAnimationManager = {}
 
 ---@param fields? WidgetAnimationManager
 ---@return WidgetAnimationManager
-function WidgetAnimationManager.new(fields) return end
+function WidgetAnimationManager.new(fields) end
 
 ---@return nil
-function WidgetAnimationManager:CleanAllAnimationsChachedData() return end
+function WidgetAnimationManager:CleanAllAnimationsChachedData() end
 
----@private
 ---@param animData SWidgetAnimationData
 ---@return nil
-function WidgetAnimationManager:CleanProxyData(animData) return end
+function WidgetAnimationManager:CleanProxyData(animData) end
 
----@private
 ---@param animData SWidgetAnimationData
 ---@param eventType inkanimEventType
 ---@return CName
-function WidgetAnimationManager:GetAnimationCallbackName(animData, eventType) return end
+function WidgetAnimationManager:GetAnimationCallbackName(animData, eventType) end
 
 ---@return SWidgetAnimationData[]
-function WidgetAnimationManager:GetAnimations() return end
+function WidgetAnimationManager:GetAnimations() end
 
 ---@param animName CName|string
 ---@return Bool
-function WidgetAnimationManager:HasAnimation(animName) return end
+function WidgetAnimationManager:HasAnimation(animName) end
 
 ---@param animations SWidgetAnimationData[]
 ---@return nil
-function WidgetAnimationManager:Initialize(animations) return end
+function WidgetAnimationManager:Initialize(animations) end
 
 ---@param owner IScriptable
 ---@param animData SWidgetAnimationData
 ---@return nil
-function WidgetAnimationManager:RegisterAllCallbacks(owner, animData) return end
+function WidgetAnimationManager:RegisterAllCallbacks(owner, animData) end
 
----@private
 ---@param animData SWidgetAnimationData
 ---@param requestedState EInkAnimationPlaybackOption
 ---@return nil
-function WidgetAnimationManager:ResolveActiveAnimDataPlaybackState(animData, requestedState) return end
+function WidgetAnimationManager:ResolveActiveAnimDataPlaybackState(animData, requestedState) end
 
 ---@param owner IScriptable
 ---@param animProxy inkanimProxy
 ---@param eventType inkanimEventType
 ---@return nil
-function WidgetAnimationManager:ResolveCallback(owner, animProxy, eventType) return end
+function WidgetAnimationManager:ResolveCallback(owner, animProxy, eventType) end
 
 ---@param owner inkWidgetLogicController
 ---@param animName CName|string
@@ -56,7 +53,7 @@ function WidgetAnimationManager:ResolveCallback(owner, animProxy, eventType) ret
 ---@param targetWidget? inkWidget
 ---@param playbackOptionsOverrideData? PlaybackOptionsUpdateData
 ---@return nil
-function WidgetAnimationManager:TriggerAnimationByName(owner, animName, playbackOption, targetWidget, playbackOptionsOverrideData) return end
+function WidgetAnimationManager:TriggerAnimationByName(owner, animName, playbackOption, targetWidget, playbackOptionsOverrideData) end
 
 ---@param owner gameuiWidgetGameController
 ---@param animName CName|string
@@ -64,21 +61,21 @@ function WidgetAnimationManager:TriggerAnimationByName(owner, animName, playback
 ---@param targetWidget? inkWidget
 ---@param playbackOptionsOverrideData? PlaybackOptionsUpdateData
 ---@return nil
-function WidgetAnimationManager:TriggerAnimationByName(owner, animName, playbackOption, targetWidget, playbackOptionsOverrideData) return end
+function WidgetAnimationManager:TriggerAnimationByName(owner, animName, playbackOption, targetWidget, playbackOptionsOverrideData) end
 
 ---@param owner inkWidgetLogicController
 ---@return nil
-function WidgetAnimationManager:TriggerAnimations(owner) return end
+function WidgetAnimationManager:TriggerAnimations(owner) end
 
 ---@param owner gameuiWidgetGameController
 ---@return nil
-function WidgetAnimationManager:TriggerAnimations(owner) return end
+function WidgetAnimationManager:TriggerAnimations(owner) end
 
 ---@param animData SWidgetAnimationData
 ---@return nil
-function WidgetAnimationManager:UnregisterAllCallbacks(animData) return end
+function WidgetAnimationManager:UnregisterAllCallbacks(animData) end
 
 ---@param animName CName|string
 ---@param updateData PlaybackOptionsUpdateData
 ---@return nil
-function WidgetAnimationManager:UpdateAnimationsList(animName, updateData) return end
+function WidgetAnimationManager:UpdateAnimationsList(animName, updateData) end

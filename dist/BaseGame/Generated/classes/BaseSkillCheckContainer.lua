@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class BaseSkillCheckContainer: IScriptable
----@field protected hackingCheckSlot HackingSkillCheck
----@field protected engineeringCheckSlot EngineeringSkillCheck
----@field protected demolitionCheckSlot DemolitionSkillCheck
----@field protected isInitialized Bool
+---@field hackingCheckSlot HackingSkillCheck
+---@field engineeringCheckSlot EngineeringSkillCheck
+---@field demolitionCheckSlot DemolitionSkillCheck
+---@field isInitialized Bool
 BaseSkillCheckContainer = {}
 
 ---@return DemolitionSkillCheck
-function BaseSkillCheckContainer:GetDemolitionSlot() return end
+function BaseSkillCheckContainer:GetDemolitionSlot() end
 
 ---@return EngineeringSkillCheck
-function BaseSkillCheckContainer:GetEngineeringSlot() return end
+function BaseSkillCheckContainer:GetEngineeringSlot() end
 
 ---@return HackingSkillCheck
-function BaseSkillCheckContainer:GetHackingSlot() return end
+function BaseSkillCheckContainer:GetHackingSlot() end
 
 ---@param container BaseSkillCheckContainer
 ---@return nil
-function BaseSkillCheckContainer:Initialize(container) return end
+function BaseSkillCheckContainer:Initialize(container) end
 
 ---@param difficulty EGameplayChallengeLevel
 ---@return nil
-function BaseSkillCheckContainer:InitializeBackdoor(difficulty) return end
+function BaseSkillCheckContainer:InitializeBackdoor(difficulty) end
 
 ---@return Bool
-function BaseSkillCheckContainer:IsInitialized() return end
+function BaseSkillCheckContainer:IsInitialized() end
 
----@protected
 ---@param slotToInitialize SkillCheckBase
 ---@return nil
-function BaseSkillCheckContainer:TryToInitialize(slotToInitialize) return end
+function BaseSkillCheckContainer:TryToInitialize(slotToInitialize) end

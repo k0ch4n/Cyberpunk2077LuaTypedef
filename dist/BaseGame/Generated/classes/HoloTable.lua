@@ -1,81 +1,66 @@
 ---@meta
 
 ---@class HoloTable: InteractiveDevice
----@field public componentCounter Int32
----@field public meshTable entMeshComponent[]
----@field public currentMesh Int32
----@field public glitchMesh entMeshComponent
+---@field componentCounter Int32
+---@field meshTable entMeshComponent[]
+---@field currentMesh Int32
+---@field glitchMesh entMeshComponent
 HoloTable = {}
 
 ---@param fields? HoloTable
 ---@return HoloTable
-function HoloTable.new(fields) return end
+function HoloTable.new(fields) end
 
----@protected
 ---@param evt NextStation
 ---@return Bool
-function HoloTable:OnNextStation(evt) return end
+function HoloTable:OnNextStation(evt) end
 
----@protected
 ---@param evt PreviousStation
 ---@return Bool
-function HoloTable:OnPreviousStation(evt) return end
+function HoloTable:OnPreviousStation(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function HoloTable:OnRequestComponents(ri) return end
+function HoloTable:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function HoloTable:OnTakeControl(ri) return end
+function HoloTable:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function HoloTable:CutPower() return end
+function HoloTable:CutPower() end
 
----@protected
 ---@return nil
-function HoloTable:DeactivateDevice() return end
+function HoloTable:DeactivateDevice() end
 
----@protected
 ---@return EGameplayRole
-function HoloTable:DeterminGameplayRole() return end
+function HoloTable:DeterminGameplayRole() end
 
----@protected
 ---@return HoloTableController
-function HoloTable:GetController() return end
+function HoloTable:GetController() end
 
 ---@return HoloTableControllerPS
-function HoloTable:GetDevicePS() return end
+function HoloTable:GetDevicePS() end
 
----@protected
 ---@return nil
-function HoloTable:ResolveGameplayState() return end
+function HoloTable:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function HoloTable:SetActiveMesh() return end
+function HoloTable:SetActiveMesh() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function HoloTable:StartGlitching(glitchState, intensity) return end
+function HoloTable:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function HoloTable:StopGlitching() return end
+function HoloTable:StopGlitching() end
 
----@protected
 ---@return nil
-function HoloTable:TurnOffDevice() return end
+function HoloTable:TurnOffDevice() end
 
----@protected
 ---@return nil
-function HoloTable:TurnOffMeshes() return end
+function HoloTable:TurnOffMeshes() end
 
----@protected
 ---@return nil
-function HoloTable:TurnOnDevice() return end
+function HoloTable:TurnOnDevice() end

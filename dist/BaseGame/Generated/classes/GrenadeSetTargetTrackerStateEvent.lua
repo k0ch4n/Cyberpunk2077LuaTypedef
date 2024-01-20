@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class GrenadeSetTargetTrackerStateEvent: redEvent
----@field public state Bool
+---@field state Bool
 GrenadeSetTargetTrackerStateEvent = {}
 
 ---@param fields? GrenadeSetTargetTrackerStateEvent
 ---@return GrenadeSetTargetTrackerStateEvent
-function GrenadeSetTargetTrackerStateEvent.new(fields) return end
+function GrenadeSetTargetTrackerStateEvent.new(fields) end

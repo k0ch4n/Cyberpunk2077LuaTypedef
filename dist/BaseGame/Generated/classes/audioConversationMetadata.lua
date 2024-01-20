@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioConversationMetadata: audioAudioMetadata
----@field public conversations audioConversationItemMetadata[]
+---@field conversations audioConversationItemMetadata[]
 audioConversationMetadata = {}
 
 ---@param fields? audioConversationMetadata
 ---@return audioConversationMetadata
-function audioConversationMetadata.new(fields) return end
+function audioConversationMetadata.new(fields) end

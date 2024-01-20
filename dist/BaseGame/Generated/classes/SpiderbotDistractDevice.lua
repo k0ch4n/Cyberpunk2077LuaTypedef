@@ -5,22 +5,22 @@ SpiderbotDistractDevice = {}
 
 ---@param fields? SpiderbotDistractDevice
 ---@return SpiderbotDistractDevice
-function SpiderbotDistractDevice.new(fields) return end
+function SpiderbotDistractDevice.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function SpiderbotDistractDevice.IsAvailable(device) return end
+function SpiderbotDistractDevice.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SpiderbotDistractDevice.IsClearanceValid(clearance) return end
+function SpiderbotDistractDevice.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function SpiderbotDistractDevice.IsContextValid(context) return end
+function SpiderbotDistractDevice.IsContextValid(context) end
 
 ---@return String
-function SpiderbotDistractDevice:GetTweakDBChoiceRecord() return end
+function SpiderbotDistractDevice:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function SpiderbotDistractDevice:SetProperties() return end
+function SpiderbotDistractDevice:SetProperties() end

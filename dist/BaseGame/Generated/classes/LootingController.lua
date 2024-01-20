@@ -1,204 +1,188 @@
 ---@meta
 
 ---@class LootingController: inkWidgetLogicController
----@field private root inkWidget
----@field private itemsListContainer inkCompoundWidgetReference
----@field private titleContainer inkCompoundWidgetReference
----@field private upArrow inkWidgetReference
----@field private downArrow inkWidgetReference
----@field private listWrapper inkWidgetReference
----@field private actionsListV inkCompoundWidgetReference
----@field private lockedStatusContainer inkWidgetReference
----@field private widgetsPoolList inkWidget[]
----@field private requestedWidgetsPoolItems Int32
----@field private lootList inkWidget[]
----@field private requestedItemsPoolItems Int32
----@field private dataManager InventoryDataManagerV2
----@field private uiInventorySystem UIInventoryScriptableSystem
----@field private gameInstance ScriptGameInstance
----@field private player gameObject
----@field private maxItemsNum Int32
----@field private boundOwnerID entEntityID
----@field private lootingItems gameItemData[]
----@field private uiInventoryItems UIInventoryItem[]
----@field private tooltipProvider TooltipProvider
----@field private cachedTooltipData ATooltipData
----@field private cachedTooltipUIInventoryItem UIInventoryItem
----@field private displayContext ItemDisplayContextData
----@field private startIndex Int32
----@field private selectedItemIndex Int32
----@field private itemsToCompare Int32
----@field private isShown Bool
----@field private currentComparisonItemId gameItemID
----@field private lastTooltipItemId gameItemID
----@field private currentTooltipItemId gameItemID
----@field private currentTooltipLootingData TooltipLootingCachedData
----@field private lastItemOwnerId entEntityID
----@field private currentItemOwnerId entEntityID
----@field private currentComparisonEquipmentArea gamedataEquipmentArea
----@field private lastListOpenedState Bool
----@field private isComaprisonDirty Bool
----@field private bufferedOwnerId entEntityID
----@field private introAnimProxy inkanimProxy
----@field private currendData gameinteractionsvisLootData
----@field private activeWeaponID gameItemID
----@field private isLocked Bool
----@field private currentWidgetRequestVersion Int32
----@field private currentItemRequestVersion Int32
----@field private brokenLocPrefix String
----@field private requestsCounter Int32
+---@field root inkWidget
+---@field itemsListContainer inkCompoundWidgetReference
+---@field titleContainer inkCompoundWidgetReference
+---@field upArrow inkWidgetReference
+---@field downArrow inkWidgetReference
+---@field listWrapper inkWidgetReference
+---@field actionsListV inkCompoundWidgetReference
+---@field lockedStatusContainer inkWidgetReference
+---@field widgetsPoolList inkWidget[]
+---@field requestedWidgetsPoolItems Int32
+---@field lootList inkWidget[]
+---@field requestedItemsPoolItems Int32
+---@field dataManager InventoryDataManagerV2
+---@field uiInventorySystem UIInventoryScriptableSystem
+---@field gameInstance ScriptGameInstance
+---@field player gameObject
+---@field maxItemsNum Int32
+---@field boundOwnerID entEntityID
+---@field lootingItems gameItemData[]
+---@field uiInventoryItems UIInventoryItem[]
+---@field tooltipProvider TooltipProvider
+---@field cachedTooltipData ATooltipData
+---@field cachedTooltipUIInventoryItem UIInventoryItem
+---@field displayContext ItemDisplayContextData
+---@field startIndex Int32
+---@field selectedItemIndex Int32
+---@field itemsToCompare Int32
+---@field isShown Bool
+---@field currentComparisonItemId gameItemID
+---@field lastTooltipItemId gameItemID
+---@field currentTooltipItemId gameItemID
+---@field currentTooltipLootingData TooltipLootingCachedData
+---@field lastItemOwnerId entEntityID
+---@field currentItemOwnerId entEntityID
+---@field currentComparisonEquipmentArea gamedataEquipmentArea
+---@field lastListOpenedState Bool
+---@field isComaprisonDirty Bool
+---@field bufferedOwnerId entEntityID
+---@field introAnimProxy inkanimProxy
+---@field currendData gameinteractionsvisLootData
+---@field activeWeaponID gameItemID
+---@field isLocked Bool
+---@field currentWidgetRequestVersion Int32
+---@field currentItemRequestVersion Int32
+---@field brokenLocPrefix String
+---@field requestsCounter Int32
 LootingController = {}
 
 ---@param fields? LootingController
 ---@return LootingController
-function LootingController.new(fields) return end
+function LootingController.new(fields) end
 
----@protected
 ---@return Bool
-function LootingController:OnInitialize() return end
+function LootingController:OnInitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function LootingController:OnItemsPoolItemSpawned(widget, userData) return end
+function LootingController:OnItemsPoolItemSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function LootingController:OnWidgetsPoolItemSpawned(widget, userData) return end
+function LootingController:OnWidgetsPoolItemSpawned(widget, userData) end
 
 ---@return entEntityID
-function LootingController:GetCurrentItemOwnerId() return end
+function LootingController:GetCurrentItemOwnerId() end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return gameItemID
-function LootingController:GetCurrentlyEquippedComparisonItemID(equipmentArea) return end
+function LootingController:GetCurrentlyEquippedComparisonItemID(equipmentArea) end
 
 ---@param item gameItemData
 ---@param itemRecord gamedataItem_Record
 ---@param equipmentArea gamedataEquipmentArea
 ---@return gameItemID
-function LootingController:GetItemIDForComparison(item, itemRecord, equipmentArea) return end
+function LootingController:GetItemIDForComparison(item, itemRecord, equipmentArea) end
 
----@private
 ---@param itemData gameItemData
 ---@param itemRecord gamedataItem_Record
 ---@return String
-function LootingController:GetItemName(itemData, itemRecord) return end
+function LootingController:GetItemName(itemData, itemRecord) end
 
----@private
 ---@param itemData gameItemData
 ---@param itemRecord gamedataItem_Record
 ---@param equipmentArea gamedataEquipmentArea
 ---@param comparisionItemData gameItemData
 ---@return MinimalLootingListItemData
-function LootingController:GetMinimalLootingData(itemData, itemRecord, equipmentArea, comparisionItemData) return end
+function LootingController:GetMinimalLootingData(itemData, itemRecord, equipmentArea, comparisionItemData) end
 
----@private
 ---@param itemData gameItemData
 ---@return UIInventoryItem
-function LootingController:GetOrCreateUIInventoryItem(itemData) return end
+function LootingController:GetOrCreateUIInventoryItem(itemData) end
 
----@private
 ---@param itemRecord gamedataItem_Record
 ---@return gameJournalOnscreen
-function LootingController:GetShardData(itemRecord) return end
+function LootingController:GetShardData(itemRecord) end
 
----@private
 ---@param itemTDBID TweakDBID|string
 ---@return gameJournalOnscreen
-function LootingController:GetShardData(itemTDBID) return end
+function LootingController:GetShardData(itemTDBID) end
 
 ---@param index Int32
 ---@return entEntityID
-function LootingController:GetTooltipOwner(index) return end
+function LootingController:GetTooltipOwner(index) end
 
 ---@return nil
-function LootingController:Hide() return end
+function LootingController:Hide() end
 
 ---@return Bool
-function LootingController:IsShown() return end
+function LootingController:IsShown() end
 
 ---@return Bool
-function LootingController:IsTooltipVisible() return end
+function LootingController:IsTooltipVisible() end
 
----@private
 ---@param choices gameinteractionsvisInteractionChoiceData[]
 ---@return nil
-function LootingController:RefreshChoicesPool(choices) return end
+function LootingController:RefreshChoicesPool(choices) end
 
----@private
 ---@return nil
-function LootingController:RefreshComparisonData() return end
+function LootingController:RefreshComparisonData() end
 
----@private
 ---@param data gameinteractionsvisLootData
 ---@param visibleItems Int32
 ---@param totalItems Int32
 ---@return nil, Int32 lastIndex
-function LootingController:RefreshItemsData(data, visibleItems, totalItems) return end
+function LootingController:RefreshItemsData(data, visibleItems, totalItems) end
 
----@private
 ---@param totalItems Int32
 ---@param visibleItems Int32
 ---@return nil
-function LootingController:RefreshItemsPool(totalItems, visibleItems) return end
+function LootingController:RefreshItemsPool(totalItems, visibleItems) end
 
----@private
 ---@return nil
-function LootingController:RefreshTooltips() return end
+function LootingController:RefreshTooltips() end
 
 ---@param weaponID gameItemID
 ---@return nil
-function LootingController:SetActiveWeapon(weaponID) return end
+function LootingController:SetActiveWeapon(weaponID) end
 
 ---@param dataManager InventoryDataManagerV2
 ---@return nil
-function LootingController:SetDataManager(dataManager) return end
+function LootingController:SetDataManager(dataManager) end
 
 ---@param isDialogOpen Bool
 ---@return nil
-function LootingController:SetDialogOpen(isDialogOpen) return end
+function LootingController:SetDialogOpen(isDialogOpen) end
 
 ---@return nil
-function LootingController:SetGameInstance() return end
+function LootingController:SetGameInstance() end
 
 ---@param data gameinteractionsvisLootData
 ---@return nil
-function LootingController:SetLootData(data) return end
+function LootingController:SetLootData(data) end
 
 ---@param player gameObject
 ---@return nil
-function LootingController:SetPlayer(player) return end
+function LootingController:SetPlayer(player) end
 
 ---@param visible Bool
 ---@return nil
-function LootingController:SetTooltipVisible(visible) return end
+function LootingController:SetTooltipVisible(visible) end
 
 ---@param uiInventorySystem UIInventoryScriptableSystem
 ---@return nil
-function LootingController:SetUIInventorySystem(uiInventorySystem) return end
+function LootingController:SetUIInventorySystem(uiInventorySystem) end
 
 ---@return nil
-function LootingController:Show() return end
+function LootingController:Show() end
 
 ---@param islokced Bool
 ---@return nil
-function LootingController:ShowLockedStatus(islokced) return end
+function LootingController:ShowLockedStatus(islokced) end
 
----@private
 ---@param data gameinteractionsvisLootData
 ---@return nil
-function LootingController:UpdateCachedItems(data) return end
+function LootingController:UpdateCachedItems(data) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return nil
-function LootingController:UpdateEquipmentArea(equipmentArea) return end
+function LootingController:UpdateEquipmentArea(equipmentArea) end
 
----@private
 ---@param index Int32
 ---@return nil
-function LootingController:UpdateIndexedWidgetData(index) return end
+function LootingController:UpdateIndexedWidgetData(index) end

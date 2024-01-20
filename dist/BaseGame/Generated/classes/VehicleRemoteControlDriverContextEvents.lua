@@ -5,35 +5,30 @@ VehicleRemoteControlDriverContextEvents = {}
 
 ---@param fields? VehicleRemoteControlDriverContextEvents
 ---@return VehicleRemoteControlDriverContextEvents
-function VehicleRemoteControlDriverContextEvents.new(fields) return end
+function VehicleRemoteControlDriverContextEvents.new(fields) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleRemoteControlDriverContextEvents:OnCommonExit(stateContext, scriptInterface) return end
+function VehicleRemoteControlDriverContextEvents:OnCommonExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleRemoteControlDriverContextEvents:OnEnter(stateContext, scriptInterface) return end
+function VehicleRemoteControlDriverContextEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleRemoteControlDriverContextEvents:OnExit(stateContext, scriptInterface) return end
+function VehicleRemoteControlDriverContextEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleRemoteControlDriverContextEvents:OnForcedExit(stateContext, scriptInterface) return end
+function VehicleRemoteControlDriverContextEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleRemoteControlDriverContextEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function VehicleRemoteControlDriverContextEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

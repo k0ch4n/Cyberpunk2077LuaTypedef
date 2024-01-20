@@ -5,7 +5,7 @@ DisassembleAction = {}
 
 ---@param fields? DisassembleAction
 ---@return DisassembleAction
-function DisassembleAction.new(fields) return end
+function DisassembleAction.new(fields) end
 
 ---@return nil
-function DisassembleAction:CompleteAction() return end
+function DisassembleAction:CompleteAction() end

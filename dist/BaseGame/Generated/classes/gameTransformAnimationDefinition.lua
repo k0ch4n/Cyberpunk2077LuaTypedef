@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameTransformAnimationDefinition
----@field public name CName
----@field public autoStart Bool
----@field public autoStartDelay Float
----@field public timesToPlay Uint32
----@field public looping Bool
----@field public timeScale Float
----@field public reverse Bool
----@field public timeline gameTransformAnimationTimeline
+---@field name CName
+---@field autoStart Bool
+---@field autoStartDelay Float
+---@field timesToPlay Uint32
+---@field looping Bool
+---@field timeScale Float
+---@field reverse Bool
+---@field timeline gameTransformAnimationTimeline
 gameTransformAnimationDefinition = {}
 
 ---@param fields? gameTransformAnimationDefinition
 ---@return gameTransformAnimationDefinition
-function gameTransformAnimationDefinition.new(fields) return end
+function gameTransformAnimationDefinition.new(fields) end

@@ -5,16 +5,13 @@ TrafficZebraControllerPS = {}
 
 ---@param fields? TrafficZebraControllerPS
 ---@return TrafficZebraControllerPS
-function TrafficZebraControllerPS.new(fields) return end
+function TrafficZebraControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function TrafficZebraControllerPS:OnInstantiated() return end
+function TrafficZebraControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function TrafficZebraControllerPS:GameAttached() return end
+function TrafficZebraControllerPS:GameAttached() end
 
----@protected
 ---@return nil
-function TrafficZebraControllerPS:Initialize() return end
+function TrafficZebraControllerPS:Initialize() end

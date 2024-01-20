@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMovingPlatformMovementDynamic: gameIMovingPlatformMovementPointToPoint
----@field public curveName CName
+---@field curveName CName
 gameMovingPlatformMovementDynamic = {}
 
 ---@param fields? gameMovingPlatformMovementDynamic
 ---@return gameMovingPlatformMovementDynamic
-function gameMovingPlatformMovementDynamic.new(fields) return end
+function gameMovingPlatformMovementDynamic.new(fields) end

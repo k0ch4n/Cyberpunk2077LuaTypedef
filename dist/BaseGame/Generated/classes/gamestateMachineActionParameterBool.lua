@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineActionParameterBool
----@field public name CName
----@field public value Bool
+---@field name CName
+---@field value Bool
 gamestateMachineActionParameterBool = {}
 
 ---@param fields? gamestateMachineActionParameterBool
 ---@return gamestateMachineActionParameterBool
-function gamestateMachineActionParameterBool.new(fields) return end
+function gamestateMachineActionParameterBool.new(fields) end

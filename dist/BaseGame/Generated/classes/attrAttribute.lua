@@ -5,4 +5,4 @@ attrAttribute = {}
 
 ---@param fields? attrAttribute
 ---@return attrAttribute
-function attrAttribute.new(fields) return end
+function attrAttribute.new(fields) end

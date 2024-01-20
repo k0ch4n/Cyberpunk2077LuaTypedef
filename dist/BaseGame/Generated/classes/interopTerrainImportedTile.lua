@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class interopTerrainImportedTile
----@field public heightMapAbsolutePath String
----@field public controlMapAbsolutePath String
----@field public colorMapAbsolutePath String
----@field public position Point
+---@field heightMapAbsolutePath String
+---@field controlMapAbsolutePath String
+---@field colorMapAbsolutePath String
+---@field position Point
 interopTerrainImportedTile = {}
 
 ---@param fields? interopTerrainImportedTile
 ---@return interopTerrainImportedTile
-function interopTerrainImportedTile.new(fields) return end
+function interopTerrainImportedTile.new(fields) end

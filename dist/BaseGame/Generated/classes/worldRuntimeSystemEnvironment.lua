@@ -5,4 +5,4 @@ worldRuntimeSystemEnvironment = {}
 
 ---@param fields? worldRuntimeSystemEnvironment
 ---@return worldRuntimeSystemEnvironment
-function worldRuntimeSystemEnvironment.new(fields) return end
+function worldRuntimeSystemEnvironment.new(fields) end

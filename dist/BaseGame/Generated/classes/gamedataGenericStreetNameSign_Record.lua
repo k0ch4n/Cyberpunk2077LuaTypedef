@@ -5,13 +5,13 @@ gamedataGenericStreetNameSign_Record = {}
 
 ---@param fields? gamedataGenericStreetNameSign_Record
 ---@return gamedataGenericStreetNameSign_Record
-function gamedataGenericStreetNameSign_Record.new(fields) return end
+function gamedataGenericStreetNameSign_Record.new(fields) end
 
 ---@return String
-function gamedataGenericStreetNameSign_Record:DistrictName() return end
+function gamedataGenericStreetNameSign_Record:DistrictName() end
 
 ---@return String
-function gamedataGenericStreetNameSign_Record:StreetName() return end
+function gamedataGenericStreetNameSign_Record:StreetName() end
 
 ---@return String
-function gamedataGenericStreetNameSign_Record:SubDistrictName() return end
+function gamedataGenericStreetNameSign_Record:SubDistrictName() end

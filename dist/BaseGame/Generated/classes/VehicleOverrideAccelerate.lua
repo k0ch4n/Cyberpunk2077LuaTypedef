@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class VehicleOverrideAccelerate: ActionBool
----@field public isRequestedFormOtherDevice Bool
+---@field isRequestedFormOtherDevice Bool
 VehicleOverrideAccelerate = {}
 
 ---@param fields? VehicleOverrideAccelerate
 ---@return VehicleOverrideAccelerate
-function VehicleOverrideAccelerate.new(fields) return end
+function VehicleOverrideAccelerate.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function VehicleOverrideAccelerate.IsAvailable(device) return end
+function VehicleOverrideAccelerate.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function VehicleOverrideAccelerate.IsClearanceValid(clearance) return end
+function VehicleOverrideAccelerate.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function VehicleOverrideAccelerate.IsDefaultConditionMet(device, context) return end
+function VehicleOverrideAccelerate.IsDefaultConditionMet(device, context) end
 
 ---@return Int32
-function VehicleOverrideAccelerate:GetBaseCost() return end
+function VehicleOverrideAccelerate:GetBaseCost() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function VehicleOverrideAccelerate:GetInteractionIcon() return end
+function VehicleOverrideAccelerate:GetInteractionIcon() end
 
 ---@return String
-function VehicleOverrideAccelerate:GetTweakDBChoiceRecord() return end
+function VehicleOverrideAccelerate:GetTweakDBChoiceRecord() end
 
 ---@param isDeviceUnderControl Bool
 ---@param createdAsQuickHack? Bool
 ---@return nil
-function VehicleOverrideAccelerate:SetProperties(isDeviceUnderControl, createdAsQuickHack) return end
+function VehicleOverrideAccelerate:SetProperties(isDeviceUnderControl, createdAsQuickHack) end

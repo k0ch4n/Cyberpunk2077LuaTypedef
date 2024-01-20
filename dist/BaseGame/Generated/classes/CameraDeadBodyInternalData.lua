@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class CameraDeadBodyInternalData: IScriptable
----@field public ownerID entEntityID
----@field public bodyIDs entEntityID[]
+---@field ownerID entEntityID
+---@field bodyIDs entEntityID[]
 CameraDeadBodyInternalData = {}
 
 ---@param fields? CameraDeadBodyInternalData
 ---@return CameraDeadBodyInternalData
-function CameraDeadBodyInternalData.new(fields) return end
+function CameraDeadBodyInternalData.new(fields) end
 
 ---@param entryID entEntityID
 ---@return nil
-function CameraDeadBodyInternalData:AddEntry(entryID) return end
+function CameraDeadBodyInternalData:AddEntry(entryID) end
 
 ---@param entryID entEntityID
 ---@return Bool
-function CameraDeadBodyInternalData:ContainsEntry(entryID) return end
+function CameraDeadBodyInternalData:ContainsEntry(entryID) end

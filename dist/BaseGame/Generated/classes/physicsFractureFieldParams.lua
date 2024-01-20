@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class physicsFractureFieldParams
----@field public origin Vector3
----@field public fractureFieldValue Float
----@field public destructionTypeMask physicsDestructionType
----@field public fractureFieldTypeMask physicsFractureFieldType
----@field public fractureFieldOptionsMask physicsFractureFieldOptions
----@field public fractureFieldEffect physicsFractureFieldEffect
----@field public fractureFieldValueType physicsFractureFieldValueType
+---@field origin Vector3
+---@field fractureFieldValue Float
+---@field destructionTypeMask physicsDestructionType
+---@field fractureFieldTypeMask physicsFractureFieldType
+---@field fractureFieldOptionsMask physicsFractureFieldOptions
+---@field fractureFieldEffect physicsFractureFieldEffect
+---@field fractureFieldValueType physicsFractureFieldValueType
 physicsFractureFieldParams = {}
 
 ---@param fields? physicsFractureFieldParams
 ---@return physicsFractureFieldParams
-function physicsFractureFieldParams.new(fields) return end
+function physicsFractureFieldParams.new(fields) end

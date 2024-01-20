@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineTransitionDefinition: graphGraphConnectionDefinition
----@field public priority Float
+---@field priority Float
 gamestateMachineTransitionDefinition = {}
 
 ---@param fields? gamestateMachineTransitionDefinition
 ---@return gamestateMachineTransitionDefinition
-function gamestateMachineTransitionDefinition.new(fields) return end
+function gamestateMachineTransitionDefinition.new(fields) end

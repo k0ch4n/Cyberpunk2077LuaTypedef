@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class UpdateDebuggerRequest: gameScriptableSystemRequest
----@field public system SecuritySystemControllerPS
----@field public time Float
----@field public instructionAttached Bool
----@field public inputAttached Bool
----@field public callstack CName
----@field public instruction EReprimandInstructions
----@field public recentInput SecuritySystemInput
+---@field system SecuritySystemControllerPS
+---@field time Float
+---@field instructionAttached Bool
+---@field inputAttached Bool
+---@field callstack CName
+---@field instruction EReprimandInstructions
+---@field recentInput SecuritySystemInput
 UpdateDebuggerRequest = {}
 
 ---@param fields? UpdateDebuggerRequest
 ---@return UpdateDebuggerRequest
-function UpdateDebuggerRequest.new(fields) return end
+function UpdateDebuggerRequest.new(fields) end

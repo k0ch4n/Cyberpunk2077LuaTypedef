@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scndevEvent
----@field public nodeId scnNodeId
----@field public type scndevEventType
----@field public message String
+---@field nodeId scnNodeId
+---@field type scndevEventType
+---@field message String
 scndevEvent = {}
 
 ---@param fields? scndevEvent
 ---@return scndevEvent
-function scndevEvent.new(fields) return end
+function scndevEvent.new(fields) end

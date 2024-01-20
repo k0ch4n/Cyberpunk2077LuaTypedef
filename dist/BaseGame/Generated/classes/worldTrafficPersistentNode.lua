@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficPersistentNode: worldNode
----@field public resource worldTrafficPersistentResource
+---@field resource worldTrafficPersistentResource
 worldTrafficPersistentNode = {}
 
 ---@param fields? worldTrafficPersistentNode
 ---@return worldTrafficPersistentNode
-function worldTrafficPersistentNode.new(fields) return end
+function worldTrafficPersistentNode.new(fields) end

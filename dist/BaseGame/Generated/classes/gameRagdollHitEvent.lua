@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameRagdollHitEvent: gameeventsHitEvent
----@field public impactForce Float
----@field public speedDelta Float
----@field public heightDelta Float
+---@field impactForce Float
+---@field speedDelta Float
+---@field heightDelta Float
 gameRagdollHitEvent = {}
 
 ---@param fields? gameRagdollHitEvent
 ---@return gameRagdollHitEvent
-function gameRagdollHitEvent.new(fields) return end
+function gameRagdollHitEvent.new(fields) end

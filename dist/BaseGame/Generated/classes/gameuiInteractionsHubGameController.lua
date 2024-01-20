@@ -1,46 +1,41 @@
 ---@meta
 
 ---@class gameuiInteractionsHubGameController: gameuiHUDGameController
----@field private TopInteractionWidgetsLibraries inkWidgetLibraryReference[]
----@field private TopInteractionsRoot inkWidgetReference
----@field private BotInteractionWidgetsLibraries inkWidgetLibraryReference[]
----@field private BotInteractionsRoot inkWidgetReference
----@field private TooltipsManagerRef inkWidgetReference
----@field private TooltipsAnchorPoint inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field public tooltipProvider TooltipProvider
+---@field TopInteractionWidgetsLibraries inkWidgetLibraryReference[]
+---@field TopInteractionsRoot inkWidgetReference
+---@field BotInteractionWidgetsLibraries inkWidgetLibraryReference[]
+---@field BotInteractionsRoot inkWidgetReference
+---@field TooltipsManagerRef inkWidgetReference
+---@field TooltipsAnchorPoint inkWidgetReference
+---@field TooltipsManager gameuiTooltipsManager
+---@field tooltipProvider TooltipProvider
 gameuiInteractionsHubGameController = {}
 
 ---@param fields? gameuiInteractionsHubGameController
 ---@return gameuiInteractionsHubGameController
-function gameuiInteractionsHubGameController.new(fields) return end
+function gameuiInteractionsHubGameController.new(fields) end
 
 ---@return nil
-function gameuiInteractionsHubGameController:ResetShowTooltipsTimer() return end
+function gameuiInteractionsHubGameController:ResetShowTooltipsTimer() end
 
 ---@param time? Float
 ---@return nil
-function gameuiInteractionsHubGameController:SetShowTooltipsTimer(time) return end
+function gameuiInteractionsHubGameController:SetShowTooltipsTimer(time) end
 
----@protected
 ---@return Bool
-function gameuiInteractionsHubGameController:OnInitialize() return end
+function gameuiInteractionsHubGameController:OnInitialize() end
 
----@protected
 ---@param e InvalidateTooltipHiddenStateEvent
 ---@return Bool
-function gameuiInteractionsHubGameController:OnInvalidateHidden(e) return end
+function gameuiInteractionsHubGameController:OnInvalidateHidden(e) end
 
----@protected
 ---@param e RefreshTooltipEvent
 ---@return Bool
-function gameuiInteractionsHubGameController:OnRefreshTooltipEvent(e) return end
+function gameuiInteractionsHubGameController:OnRefreshTooltipEvent(e) end
 
----@protected
 ---@return Bool
-function gameuiInteractionsHubGameController:OnShowTooltips() return end
+function gameuiInteractionsHubGameController:OnShowTooltips() end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function gameuiInteractionsHubGameController:OnTooltipRequest(e) return end
+function gameuiInteractionsHubGameController:OnTooltipRequest(e) end

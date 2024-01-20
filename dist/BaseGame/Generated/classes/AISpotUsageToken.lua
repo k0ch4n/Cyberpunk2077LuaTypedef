@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AISpotUsageToken
----@field public usedSpotId worldGlobalNodeID
----@field public spotUserId entEntityID
+---@field usedSpotId worldGlobalNodeID
+---@field spotUserId entEntityID
 AISpotUsageToken = {}
 
 ---@param fields? AISpotUsageToken
 ---@return AISpotUsageToken
-function AISpotUsageToken.new(fields) return end
+function AISpotUsageToken.new(fields) end

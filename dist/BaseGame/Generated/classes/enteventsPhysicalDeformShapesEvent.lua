@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class enteventsPhysicalDeformShapesEvent: redEvent
----@field public shapes Int32[]
----@field public value Float
+---@field shapes Int32[]
+---@field value Float
 enteventsPhysicalDeformShapesEvent = {}
 
 ---@param fields? enteventsPhysicalDeformShapesEvent
 ---@return enteventsPhysicalDeformShapesEvent
-function enteventsPhysicalDeformShapesEvent.new(fields) return end
+function enteventsPhysicalDeformShapesEvent.new(fields) end

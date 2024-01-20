@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class ItemAddedNotification: GenericNotificationController
----@field protected itemImage inkImageWidgetReference
----@field protected rarityBar inkWidgetReference
----@field protected itemIconGender gameItemIconGender
----@field protected animationName CName
+---@field itemImage inkImageWidgetReference
+---@field rarityBar inkWidgetReference
+---@field itemIconGender gameItemIconGender
+---@field animationName CName
 ItemAddedNotification = {}
 
 ---@param fields? ItemAddedNotification
 ---@return ItemAddedNotification
-function ItemAddedNotification.new(fields) return end
+function ItemAddedNotification.new(fields) end
 
----@protected
 ---@param e inkCallbackData
 ---@return Bool
-function ItemAddedNotification:OnIconCallback(e) return end
+function ItemAddedNotification:OnIconCallback(e) end
 
----@private
 ---@param itemID TweakDBID|string
 ---@param rarity CName|string
 ---@return nil
-function ItemAddedNotification:SetIcon(itemID, rarity) return end
+function ItemAddedNotification:SetIcon(itemID, rarity) end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function ItemAddedNotification:SetNotificationData(notificationData) return end
+function ItemAddedNotification:SetNotificationData(notificationData) end
 
----@protected
 ---@param rarity CName|string
 ---@return nil
-function ItemAddedNotification:UpdateRarity(rarity) return end
+function ItemAddedNotification:UpdateRarity(rarity) end

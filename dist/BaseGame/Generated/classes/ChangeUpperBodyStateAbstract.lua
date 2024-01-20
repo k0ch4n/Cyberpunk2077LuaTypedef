@@ -3,27 +3,22 @@
 ---@class ChangeUpperBodyStateAbstract: AIbehaviortaskScript
 ChangeUpperBodyStateAbstract = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeUpperBodyStateAbstract:Activate(context) return end
+function ChangeUpperBodyStateAbstract:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeUpperBodyStateAbstract:Deactivate(context) return end
+function ChangeUpperBodyStateAbstract:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCUpperBodyState
-function ChangeUpperBodyStateAbstract:GetDesiredUpperBodyState(context) return end
+function ChangeUpperBodyStateAbstract:GetDesiredUpperBodyState(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeUpperBodyStateAbstract:OnActivate(context) return end
+function ChangeUpperBodyStateAbstract:OnActivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeUpperBodyStateAbstract:OnDeactivate(context) return end
+function ChangeUpperBodyStateAbstract:OnDeactivate(context) end

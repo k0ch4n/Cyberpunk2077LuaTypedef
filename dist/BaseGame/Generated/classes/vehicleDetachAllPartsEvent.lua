@@ -5,4 +5,4 @@ vehicleDetachAllPartsEvent = {}
 
 ---@param fields? vehicleDetachAllPartsEvent
 ---@return vehicleDetachAllPartsEvent
-function vehicleDetachAllPartsEvent.new(fields) return end
+function vehicleDetachAllPartsEvent.new(fields) end

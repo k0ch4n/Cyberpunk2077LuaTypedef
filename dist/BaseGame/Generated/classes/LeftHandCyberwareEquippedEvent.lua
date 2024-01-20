@@ -5,4 +5,4 @@ LeftHandCyberwareEquippedEvent = {}
 
 ---@param fields? LeftHandCyberwareEquippedEvent
 ---@return LeftHandCyberwareEquippedEvent
-function LeftHandCyberwareEquippedEvent.new(fields) return end
+function LeftHandCyberwareEquippedEvent.new(fields) end

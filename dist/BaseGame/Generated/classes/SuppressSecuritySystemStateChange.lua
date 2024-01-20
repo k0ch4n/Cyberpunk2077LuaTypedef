@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SuppressSecuritySystemStateChange: redEvent
----@field public forceSecuritySystemIntoStrictQuestControl Bool
+---@field forceSecuritySystemIntoStrictQuestControl Bool
 SuppressSecuritySystemStateChange = {}
 
 ---@param fields? SuppressSecuritySystemStateChange
 ---@return SuppressSecuritySystemStateChange
-function SuppressSecuritySystemStateChange.new(fields) return end
+function SuppressSecuritySystemStateChange.new(fields) end
 
 ---@return String
-function SuppressSecuritySystemStateChange:GetFriendlyDescription() return end
+function SuppressSecuritySystemStateChange:GetFriendlyDescription() end

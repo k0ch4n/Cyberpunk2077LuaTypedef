@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class MinimalItemTooltipModRecordData: MinimalItemTooltipModData
----@field public dataPackage gameUILocalizationDataPackage
----@field public description String
----@field public attunementData MinimalItemTooltipModsAttunementData
+---@field dataPackage gameUILocalizationDataPackage
+---@field description String
+---@field attunementData MinimalItemTooltipModsAttunementData
 MinimalItemTooltipModRecordData = {}
 
 ---@param fields? MinimalItemTooltipModRecordData
 ---@return MinimalItemTooltipModRecordData
-function MinimalItemTooltipModRecordData.new(fields) return end
+function MinimalItemTooltipModRecordData.new(fields) end

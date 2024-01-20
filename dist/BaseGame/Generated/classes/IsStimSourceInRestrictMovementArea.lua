@@ -5,14 +5,12 @@ IsStimSourceInRestrictMovementArea = {}
 
 ---@param fields? IsStimSourceInRestrictMovementArea
 ---@return IsStimSourceInRestrictMovementArea
-function IsStimSourceInRestrictMovementArea.new(fields) return end
+function IsStimSourceInRestrictMovementArea.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsStimSourceInRestrictMovementArea:Activate(context) return end
+function IsStimSourceInRestrictMovementArea:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsStimSourceInRestrictMovementArea:Check(context) return end
+function IsStimSourceInRestrictMovementArea:Check(context) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraAddAttachmentsResult: ISerializable
----@field public array toolsJiraAttachment[]
+---@field array toolsJiraAttachment[]
 toolsJiraAddAttachmentsResult = {}
 
 ---@param fields? toolsJiraAddAttachmentsResult
 ---@return toolsJiraAddAttachmentsResult
-function toolsJiraAddAttachmentsResult.new(fields) return end
+function toolsJiraAddAttachmentsResult.new(fields) end

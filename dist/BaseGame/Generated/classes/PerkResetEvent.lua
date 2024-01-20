@@ -5,4 +5,4 @@ PerkResetEvent = {}
 
 ---@param fields? PerkResetEvent
 ---@return PerkResetEvent
-function PerkResetEvent.new(fields) return end
+function PerkResetEvent.new(fields) end

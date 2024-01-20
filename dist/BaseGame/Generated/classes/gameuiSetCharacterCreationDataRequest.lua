@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiSetCharacterCreationDataRequest: gamePlayerScriptableSystemRequest
----@field public lifepath TweakDBID
----@field public attributes gameuiCharacterCustomizationAttribute[]
+---@field lifepath TweakDBID
+---@field attributes gameuiCharacterCustomizationAttribute[]
 gameuiSetCharacterCreationDataRequest = {}
 
 ---@param fields? gameuiSetCharacterCreationDataRequest
 ---@return gameuiSetCharacterCreationDataRequest
-function gameuiSetCharacterCreationDataRequest.new(fields) return end
+function gameuiSetCharacterCreationDataRequest.new(fields) end

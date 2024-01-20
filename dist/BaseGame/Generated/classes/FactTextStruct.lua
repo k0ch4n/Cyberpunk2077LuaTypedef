@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class FactTextStruct
----@field public locKeyList CName[]
----@field public description inkTextWidgetReference
----@field public factName CName
+---@field locKeyList CName[]
+---@field description inkTextWidgetReference
+---@field factName CName
 FactTextStruct = {}
 
 ---@param fields? FactTextStruct
 ---@return FactTextStruct
-function FactTextStruct.new(fields) return end
+function FactTextStruct.new(fields) end

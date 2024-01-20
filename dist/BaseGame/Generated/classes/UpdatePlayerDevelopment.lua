@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class UpdatePlayerDevelopment: gamePlayerScriptableSystemRequest
----@field public ForceRefresh Bool
+---@field ForceRefresh Bool
 UpdatePlayerDevelopment = {}
 
 ---@param fields? UpdatePlayerDevelopment
 ---@return UpdatePlayerDevelopment
-function UpdatePlayerDevelopment.new(fields) return end
+function UpdatePlayerDevelopment.new(fields) end
 
 ---@param _owner gameObject
 ---@return nil
-function UpdatePlayerDevelopment:Set(_owner) return end
+function UpdatePlayerDevelopment:Set(_owner) end

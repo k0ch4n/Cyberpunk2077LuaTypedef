@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorActionMoveWithPolicyTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public stopWhenDestinationReached Bool
+---@field stopWhenDestinationReached Bool
 AIbehaviorActionMoveWithPolicyTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionMoveWithPolicyTreeNodeDefinition
 ---@return AIbehaviorActionMoveWithPolicyTreeNodeDefinition
-function AIbehaviorActionMoveWithPolicyTreeNodeDefinition.new(fields) return end
+function AIbehaviorActionMoveWithPolicyTreeNodeDefinition.new(fields) end

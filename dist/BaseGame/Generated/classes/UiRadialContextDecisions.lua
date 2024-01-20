@@ -5,16 +5,14 @@ UiRadialContextDecisions = {}
 
 ---@param fields? UiRadialContextDecisions
 ---@return UiRadialContextDecisions
-function UiRadialContextDecisions.new(fields) return end
+function UiRadialContextDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiRadialContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function UiRadialContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiRadialContextDecisions:ExitCondition(stateContext, scriptInterface) return end
+function UiRadialContextDecisions:ExitCondition(stateContext, scriptInterface) end

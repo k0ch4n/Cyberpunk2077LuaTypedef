@@ -5,8 +5,8 @@ AccessPointIsBlocked = {}
 
 ---@param fields? AccessPointIsBlocked
 ---@return AccessPointIsBlocked
-function AccessPointIsBlocked.new(fields) return end
+function AccessPointIsBlocked.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function AccessPointIsBlocked:IsFulfilled(context) return end
+function AccessPointIsBlocked:IsFulfilled(context) end

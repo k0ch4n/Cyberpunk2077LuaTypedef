@@ -5,14 +5,12 @@ HasPatrolAction = {}
 
 ---@param fields? HasPatrolAction
 ---@return HasPatrolAction
-function HasPatrolAction.new(fields) return end
+function HasPatrolAction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function HasPatrolAction:Activate(context) return end
+function HasPatrolAction:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HasPatrolAction:Check(context) return end
+function HasPatrolAction:Check(context) end

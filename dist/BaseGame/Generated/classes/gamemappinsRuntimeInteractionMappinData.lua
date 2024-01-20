@@ -5,4 +5,4 @@ gamemappinsRuntimeInteractionMappinData = {}
 
 ---@param fields? gamemappinsRuntimeInteractionMappinData
 ---@return gamemappinsRuntimeInteractionMappinData
-function gamemappinsRuntimeInteractionMappinData.new(fields) return end
+function gamemappinsRuntimeInteractionMappinData.new(fields) end

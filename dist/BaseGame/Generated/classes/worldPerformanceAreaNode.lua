@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldPerformanceAreaNode: worldTriggerAreaNode
----@field public qualitySettingsArray worldQualitySetting[]
----@field public disableCrowdUniqueName CName
----@field public globalStreamingDistanceScale Float
----@field public globalEntityLODDistanceScale Float
+---@field qualitySettingsArray worldQualitySetting[]
+---@field disableCrowdUniqueName CName
+---@field globalStreamingDistanceScale Float
+---@field globalEntityLODDistanceScale Float
 worldPerformanceAreaNode = {}
 
 ---@param fields? worldPerformanceAreaNode
 ---@return worldPerformanceAreaNode
-function worldPerformanceAreaNode.new(fields) return end
+function worldPerformanceAreaNode.new(fields) end

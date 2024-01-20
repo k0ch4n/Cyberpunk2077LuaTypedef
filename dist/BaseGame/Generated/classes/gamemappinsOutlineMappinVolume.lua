@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamemappinsOutlineMappinVolume: gamemappinsIMappinVolume
----@field public height Float
----@field public outlinePoints Vector2[]
+---@field height Float
+---@field outlinePoints Vector2[]
 gamemappinsOutlineMappinVolume = {}
 
 ---@param fields? gamemappinsOutlineMappinVolume
 ---@return gamemappinsOutlineMappinVolume
-function gamemappinsOutlineMappinVolume.new(fields) return end
+function gamemappinsOutlineMappinVolume.new(fields) end

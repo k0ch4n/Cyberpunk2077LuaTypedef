@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class effectTrackItemLightParameter: effectTrackItem
----@field public scale Float
----@field public intensityMultiplier effectEffectParameterEvaluatorFloat
----@field public intensity effectEffectParameterEvaluatorFloat
----@field public radius effectEffectParameterEvaluatorFloat
+---@field scale Float
+---@field intensityMultiplier effectEffectParameterEvaluatorFloat
+---@field intensity effectEffectParameterEvaluatorFloat
+---@field radius effectEffectParameterEvaluatorFloat
 effectTrackItemLightParameter = {}
 
 ---@param fields? effectTrackItemLightParameter
 ---@return effectTrackItemLightParameter
-function effectTrackItemLightParameter.new(fields) return end
+function effectTrackItemLightParameter.new(fields) end

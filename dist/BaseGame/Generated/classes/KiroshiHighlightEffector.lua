@@ -1,56 +1,49 @@
 ---@meta
 
 ---@class KiroshiHighlightEffector: HighlightEffector
----@field private onlyWhileAiming Bool
----@field private onlyClosestToCrosshair Bool
----@field private onlyClosestByDistance Bool
----@field private aimingStatListener KiroshiEffectorIsAimingStatListener
----@field private techPreviewStatListener KiroshiEffectorTechPreviewStatListener
----@field private slotCallback KiroshiHighlightEffectorCallback
----@field private slotListener gameAttachmentSlotsScriptListener
----@field public IsAiming Bool
----@field public isTechWeaponEquipped Bool
----@field public isMeleeWeaponEquipped Bool
----@field public isTechPreviewEnabled Bool
+---@field onlyWhileAiming Bool
+---@field onlyClosestToCrosshair Bool
+---@field onlyClosestByDistance Bool
+---@field aimingStatListener KiroshiEffectorIsAimingStatListener
+---@field techPreviewStatListener KiroshiEffectorTechPreviewStatListener
+---@field slotCallback KiroshiHighlightEffectorCallback
+---@field slotListener gameAttachmentSlotsScriptListener
+---@field IsAiming Bool
+---@field isTechWeaponEquipped Bool
+---@field isMeleeWeaponEquipped Bool
+---@field isTechPreviewEnabled Bool
 KiroshiHighlightEffector = {}
 
 ---@param fields? KiroshiHighlightEffector
 ---@return KiroshiHighlightEffector
-function KiroshiHighlightEffector.new(fields) return end
+function KiroshiHighlightEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function KiroshiHighlightEffector:ContinuousAction(owner, instigator) return end
+function KiroshiHighlightEffector:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function KiroshiHighlightEffector:Initialize(record, parentRecord) return end
+function KiroshiHighlightEffector:Initialize(record, parentRecord) end
 
----@private
 ---@return nil
-function KiroshiHighlightEffector:InitializeListeners() return end
+function KiroshiHighlightEffector:InitializeListeners() end
 
----@private
 ---@param searchQuery gameTargetSearchQuery
 ---@return nil
-function KiroshiHighlightEffector:ProcessHighlight(searchQuery) return end
+function KiroshiHighlightEffector:ProcessHighlight(searchQuery) end
 
----@private
 ---@param owner gameObject
 ---@param query gameTargetSearchQuery
 ---@return nil
-function KiroshiHighlightEffector:RevealClosestByDistance(owner, query) return end
+function KiroshiHighlightEffector:RevealClosestByDistance(owner, query) end
 
----@private
 ---@param owner gameObject
 ---@param query gameTargetSearchQuery
 ---@return nil
-function KiroshiHighlightEffector:RevealClosestToCrosshair(owner, query) return end
+function KiroshiHighlightEffector:RevealClosestToCrosshair(owner, query) end
 
----@protected
 ---@return nil
-function KiroshiHighlightEffector:Uninitialize() return end
+function KiroshiHighlightEffector:Uninitialize() end

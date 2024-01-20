@@ -5,4 +5,4 @@ worldReflectionProbeNodeInstance = {}
 
 ---@param fields? worldReflectionProbeNodeInstance
 ---@return worldReflectionProbeNodeInstance
-function worldReflectionProbeNodeInstance.new(fields) return end
+function worldReflectionProbeNodeInstance.new(fields) end

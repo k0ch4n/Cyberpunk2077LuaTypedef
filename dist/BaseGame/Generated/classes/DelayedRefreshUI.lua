@@ -5,4 +5,4 @@ DelayedRefreshUI = {}
 
 ---@param fields? DelayedRefreshUI
 ---@return DelayedRefreshUI
-function DelayedRefreshUI.new(fields) return end
+function DelayedRefreshUI.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animLookAtPreset_EyesHeadWithBodyFreeForFollower: animLookAtPreset
----@field public suppressHeadAnimation Float
----@field public headMobility Float
----@field public suppressChestAnimation Float
----@field public chestMobility Float
----@field public softLimitAngle Float
+---@field suppressHeadAnimation Float
+---@field headMobility Float
+---@field suppressChestAnimation Float
+---@field chestMobility Float
+---@field softLimitAngle Float
 animLookAtPreset_EyesHeadWithBodyFreeForFollower = {}
 
 ---@param fields? animLookAtPreset_EyesHeadWithBodyFreeForFollower
 ---@return animLookAtPreset_EyesHeadWithBodyFreeForFollower
-function animLookAtPreset_EyesHeadWithBodyFreeForFollower.new(fields) return end
+function animLookAtPreset_EyesHeadWithBodyFreeForFollower.new(fields) end

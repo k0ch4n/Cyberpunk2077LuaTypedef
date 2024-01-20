@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class PlayVFXOnHitPositionEffector: gameEffector
----@field public effectName CName
----@field public effectTag CName
----@field public applicationTarget CName
+---@field effectName CName
+---@field effectTag CName
+---@field applicationTarget CName
 PlayVFXOnHitPositionEffector = {}
 
 ---@param fields? PlayVFXOnHitPositionEffector
 ---@return PlayVFXOnHitPositionEffector
-function PlayVFXOnHitPositionEffector.new(fields) return end
+function PlayVFXOnHitPositionEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlayVFXOnHitPositionEffector:ActionOn(owner) return end
+function PlayVFXOnHitPositionEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function PlayVFXOnHitPositionEffector:Initialize(record, parentRecord) return end
+function PlayVFXOnHitPositionEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlayVFXOnHitPositionEffector:RepeatedAction(owner) return end
+function PlayVFXOnHitPositionEffector:RepeatedAction(owner) end

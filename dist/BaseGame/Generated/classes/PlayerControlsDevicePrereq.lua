@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class PlayerControlsDevicePrereq: gameIScriptablePrereq
----@field private inverse Bool
+---@field inverse Bool
 PlayerControlsDevicePrereq = {}
 
 ---@param fields? PlayerControlsDevicePrereq
 ---@return PlayerControlsDevicePrereq
-function PlayerControlsDevicePrereq.new(fields) return end
+function PlayerControlsDevicePrereq.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return nil
-function PlayerControlsDevicePrereq:Initialize(record) return end
+function PlayerControlsDevicePrereq:Initialize(record) end
 
 ---@param context IScriptable
 ---@return Bool
-function PlayerControlsDevicePrereq:IsFulfilled(context) return end
+function PlayerControlsDevicePrereq:IsFulfilled(context) end

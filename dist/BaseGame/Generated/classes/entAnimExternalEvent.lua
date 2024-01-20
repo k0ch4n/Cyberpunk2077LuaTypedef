@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimExternalEvent: redEvent
----@field public name CName
+---@field name CName
 entAnimExternalEvent = {}
 
 ---@param fields? entAnimExternalEvent
 ---@return entAnimExternalEvent
-function entAnimExternalEvent.new(fields) return end
+function entAnimExternalEvent.new(fields) end

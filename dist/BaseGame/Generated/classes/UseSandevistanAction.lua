@@ -5,7 +5,7 @@ UseSandevistanAction = {}
 
 ---@param fields? UseSandevistanAction
 ---@return UseSandevistanAction
-function UseSandevistanAction.new(fields) return end
+function UseSandevistanAction.new(fields) end
 
 ---@return nil
-function UseSandevistanAction:StartAction() return end
+function UseSandevistanAction:StartAction() end

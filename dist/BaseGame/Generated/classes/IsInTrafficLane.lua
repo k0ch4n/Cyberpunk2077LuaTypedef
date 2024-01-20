@@ -5,9 +5,8 @@ IsInTrafficLane = {}
 
 ---@param fields? IsInTrafficLane
 ---@return IsInTrafficLane
-function IsInTrafficLane.new(fields) return end
+function IsInTrafficLane.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsInTrafficLane:Check(context) return end
+function IsInTrafficLane:Check(context) end

@@ -5,53 +5,45 @@ BaseContextEvents = {}
 
 ---@param fields? BaseContextEvents
 ---@return BaseContextEvents
-function BaseContextEvents.new(fields) return end
+function BaseContextEvents.new(fields) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BaseContextEvents:IsStateValidForExploration(stateContext, scriptInterface) return end
+function BaseContextEvents:IsStateValidForExploration(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BaseContextEvents:OnExit(stateContext, scriptInterface) return end
+function BaseContextEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BaseContextEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function BaseContextEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return ActiveBaseContext
-function BaseContextEvents:UpdateBodyCarryInputHints(stateContext, scriptInterface) return end
+function BaseContextEvents:UpdateBodyCarryInputHints(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BaseContextEvents:UpdateHints(stateContext, scriptInterface) return end
+function BaseContextEvents:UpdateHints(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return ActiveBaseContext
-function BaseContextEvents:UpdateLadderInputHints(stateContext, scriptInterface) return end
+function BaseContextEvents:UpdateLadderInputHints(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return ActiveBaseContext
-function BaseContextEvents:UpdateLocomotionInputHints(stateContext, scriptInterface) return end
+function BaseContextEvents:UpdateLocomotionInputHints(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return ActiveBaseContext
-function BaseContextEvents:UpdateSwimmingInputHints(stateContext, scriptInterface) return end
+function BaseContextEvents:UpdateSwimmingInputHints(stateContext, scriptInterface) end

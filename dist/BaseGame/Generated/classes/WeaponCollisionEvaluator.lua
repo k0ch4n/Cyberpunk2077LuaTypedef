@@ -5,10 +5,9 @@ WeaponCollisionEvaluator = {}
 
 ---@param fields? WeaponCollisionEvaluator
 ---@return WeaponCollisionEvaluator
-function WeaponCollisionEvaluator.new(fields) return end
+function WeaponCollisionEvaluator.new(fields) end
 
----@protected
 ---@param defaultOnCollisionAction gameprojectileOnCollisionAction
 ---@param params gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileOnCollisionAction
-function WeaponCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) return end
+function WeaponCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) end

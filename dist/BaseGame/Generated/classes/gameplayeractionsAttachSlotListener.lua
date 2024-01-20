@@ -5,4 +5,4 @@ gameplayeractionsAttachSlotListener = {}
 
 ---@param fields? gameplayeractionsAttachSlotListener
 ---@return gameplayeractionsAttachSlotListener
-function gameplayeractionsAttachSlotListener.new(fields) return end
+function gameplayeractionsAttachSlotListener.new(fields) end

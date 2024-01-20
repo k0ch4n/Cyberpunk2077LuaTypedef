@@ -5,4 +5,4 @@ PickupBodyWorkspotDelayEvent = {}
 
 ---@param fields? PickupBodyWorkspotDelayEvent
 ---@return PickupBodyWorkspotDelayEvent
-function PickupBodyWorkspotDelayEvent.new(fields) return end
+function PickupBodyWorkspotDelayEvent.new(fields) end

@@ -5,9 +5,8 @@ TurnOnPsychoSquadAvCammoImmediatly = {}
 
 ---@param fields? TurnOnPsychoSquadAvCammoImmediatly
 ---@return TurnOnPsychoSquadAvCammoImmediatly
-function TurnOnPsychoSquadAvCammoImmediatly.new(fields) return end
+function TurnOnPsychoSquadAvCammoImmediatly.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TurnOnPsychoSquadAvCammoImmediatly:Activate(context) return end
+function TurnOnPsychoSquadAvCammoImmediatly:Activate(context) end

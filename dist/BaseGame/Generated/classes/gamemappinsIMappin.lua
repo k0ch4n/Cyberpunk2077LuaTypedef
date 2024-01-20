@@ -4,61 +4,61 @@
 gamemappinsIMappin = {}
 
 ---@return String
-function gamemappinsIMappin:GetDisplayName() return end
+function gamemappinsIMappin:GetDisplayName() end
 
 ---@return Float
-function gamemappinsIMappin:GetDistanceToPlayer() return end
+function gamemappinsIMappin:GetDistanceToPlayer() end
 
 ---@return entEntityID
-function gamemappinsIMappin:GetEntityID() return end
+function gamemappinsIMappin:GetEntityID() end
 
 ---@return gameNewMappinID
-function gamemappinsIMappin:GetNewMappinID() return end
+function gamemappinsIMappin:GetNewMappinID() end
 
 ---@return gamedataMappinPhase
-function gamemappinsIMappin:GetPhase() return end
+function gamemappinsIMappin:GetPhase() end
 
 ---@return gamemappinsMappinScriptData
-function gamemappinsIMappin:GetScriptData() return end
+function gamemappinsIMappin:GetScriptData() end
 
 ---@return gamedataMappinVariant
-function gamemappinsIMappin:GetVariant() return end
+function gamemappinsIMappin:GetVariant() end
 
 ---@return gamemappinsVerticalPositioning
-function gamemappinsIMappin:GetVerticalRelationToPlayer() return end
+function gamemappinsIMappin:GetVerticalRelationToPlayer() end
 
 ---@return Vector4
-function gamemappinsIMappin:GetWorldPosition() return end
+function gamemappinsIMappin:GetWorldPosition() end
 
 ---@return Bool
-function gamemappinsIMappin:IsActive() return end
+function gamemappinsIMappin:IsActive() end
 
 ---@return Bool
-function gamemappinsIMappin:IsPlayerTracked() return end
+function gamemappinsIMappin:IsPlayerTracked() end
 
 ---@return Bool
-function gamemappinsIMappin:IsQuestAreaMappin() return end
+function gamemappinsIMappin:IsQuestAreaMappin() end
 
 ---@return Bool
-function gamemappinsIMappin:IsQuestEntityMappin() return end
+function gamemappinsIMappin:IsQuestEntityMappin() end
 
 ---@return Bool
-function gamemappinsIMappin:IsQuestImportant() return end
+function gamemappinsIMappin:IsQuestImportant() end
 
 ---@return Bool
-function gamemappinsIMappin:IsQuestMappin() return end
+function gamemappinsIMappin:IsQuestMappin() end
 
 ---@return Bool
-function gamemappinsIMappin:IsQuestNPCMappin() return end
+function gamemappinsIMappin:IsQuestNPCMappin() end
 
 ---@return Bool
-function gamemappinsIMappin:IsQuestPath() return end
+function gamemappinsIMappin:IsQuestPath() end
 
 ---@return Bool
-function gamemappinsIMappin:IsStatic() return end
+function gamemappinsIMappin:IsStatic() end
 
 ---@return Bool
-function gamemappinsIMappin:IsVisible() return end
+function gamemappinsIMappin:IsVisible() end
 
 ---@return Bool
-function gamemappinsIMappin:IsVisited() return end
+function gamemappinsIMappin:IsVisited() end

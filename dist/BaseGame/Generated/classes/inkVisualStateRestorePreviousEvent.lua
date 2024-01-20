@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkVisualStateRestorePreviousEvent: redEvent
----@field public visualState CName
+---@field visualState CName
 inkVisualStateRestorePreviousEvent = {}
 
 ---@param fields? inkVisualStateRestorePreviousEvent
 ---@return inkVisualStateRestorePreviousEvent
-function inkVisualStateRestorePreviousEvent.new(fields) return end
+function inkVisualStateRestorePreviousEvent.new(fields) end

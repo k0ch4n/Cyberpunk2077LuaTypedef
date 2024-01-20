@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class RipperdocTokenManager: IScriptable
----@field public player PlayerPuppet
----@field public tokenBlackboard gameIBlackboard
----@field public gameInstance ScriptGameInstance
+---@field player PlayerPuppet
+---@field tokenBlackboard gameIBlackboard
+---@field gameInstance ScriptGameInstance
 RipperdocTokenManager = {}
 
 ---@param fields? RipperdocTokenManager
 ---@return RipperdocTokenManager
-function RipperdocTokenManager.new(fields) return end
+function RipperdocTokenManager.new(fields) end
 
 ---@param cyberwareItemID gameItemID
 ---@return nil
-function RipperdocTokenManager:ApplyToken(cyberwareItemID) return end
+function RipperdocTokenManager:ApplyToken(cyberwareItemID) end
 
 ---@return Int32
-function RipperdocTokenManager:GetTokensAmount() return end
+function RipperdocTokenManager:GetTokensAmount() end
 
 ---@return Bool
-function RipperdocTokenManager:IfPlayerHasTokens() return end
+function RipperdocTokenManager:IfPlayerHasTokens() end
 
 ---@param player PlayerPuppet
 ---@return nil
-function RipperdocTokenManager:Initialize(player) return end
+function RipperdocTokenManager:Initialize(player) end
 
 ---@param cyberwareItem gameItemID
 ---@return Bool
-function RipperdocTokenManager:IsItemUpgraded(cyberwareItem) return end
+function RipperdocTokenManager:IsItemUpgraded(cyberwareItem) end

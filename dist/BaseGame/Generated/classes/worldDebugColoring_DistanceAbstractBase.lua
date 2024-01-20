@@ -1,8 +1,8 @@
 ---@meta
 
 ---@class worldDebugColoring_DistanceAbstractBase: worldEditorDebugColoringSettings
----@field public maxColor Color
----@field public minColor Color
----@field public minDistance Float
----@field public maxDistance Float
+---@field maxColor Color
+---@field minColor Color
+---@field minDistance Float
+---@field maxDistance Float
 worldDebugColoring_DistanceAbstractBase = {}

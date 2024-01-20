@@ -1,69 +1,60 @@
 ---@meta
 
 ---@class gameuiBaseMinimapMappinController: gameuiMappinBaseController
----@field public iconOrientation gameuiEIconOrientation
----@field public fixedOrientationWidget inkWidgetReference
----@field public clampArrowWidget inkWidgetReference
----@field protected mappin gamemappinsIMappin
----@field protected root inkWidget
----@field protected aboveWidget inkWidget
----@field protected belowWidget inkWidget
+---@field iconOrientation gameuiEIconOrientation
+---@field fixedOrientationWidget inkWidgetReference
+---@field clampArrowWidget inkWidgetReference
+---@field mappin gamemappinsIMappin
+---@field root inkWidget
+---@field aboveWidget inkWidget
+---@field belowWidget inkWidget
 gameuiBaseMinimapMappinController = {}
 
 ---@param fields? gameuiBaseMinimapMappinController
 ---@return gameuiBaseMinimapMappinController
-function gameuiBaseMinimapMappinController.new(fields) return end
+function gameuiBaseMinimapMappinController.new(fields) end
 
 ---@return Bool
-function gameuiBaseMinimapMappinController:IsForceHide() return end
+function gameuiBaseMinimapMappinController:IsForceHide() end
 
 ---@return Bool
-function gameuiBaseMinimapMappinController:IsForceShow() return end
+function gameuiBaseMinimapMappinController:IsForceShow() end
 
 ---@param value Bool
 ---@return nil
-function gameuiBaseMinimapMappinController:LockIconRotation(value) return end
+function gameuiBaseMinimapMappinController:LockIconRotation(value) end
 
 ---@param value Bool
 ---@return nil
-function gameuiBaseMinimapMappinController:SetForceHide(value) return end
+function gameuiBaseMinimapMappinController:SetForceHide(value) end
 
 ---@param value Bool
 ---@return nil
-function gameuiBaseMinimapMappinController:SetForceShow(value) return end
+function gameuiBaseMinimapMappinController:SetForceShow(value) end
 
----@protected
 ---@return Bool
-function gameuiBaseMinimapMappinController:OnInitialize() return end
+function gameuiBaseMinimapMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function gameuiBaseMinimapMappinController:OnIntro() return end
+function gameuiBaseMinimapMappinController:OnIntro() end
 
----@protected
 ---@return Bool
-function gameuiBaseMinimapMappinController:OnUpdate() return end
+function gameuiBaseMinimapMappinController:OnUpdate() end
 
----@protected
 ---@return nil
-function gameuiBaseMinimapMappinController:Initialize() return end
+function gameuiBaseMinimapMappinController:Initialize() end
 
----@protected
 ---@return nil
-function gameuiBaseMinimapMappinController:Intro() return end
+function gameuiBaseMinimapMappinController:Intro() end
 
----@protected
 ---@return Bool
-function gameuiBaseMinimapMappinController:KeepIconOnClamping() return end
+function gameuiBaseMinimapMappinController:KeepIconOnClamping() end
 
----@protected
 ---@return nil
-function gameuiBaseMinimapMappinController:Update() return end
+function gameuiBaseMinimapMappinController:Update() end
 
----@protected
 ---@return nil
-function gameuiBaseMinimapMappinController:UpdateAboveBelowVerticalRelation() return end
+function gameuiBaseMinimapMappinController:UpdateAboveBelowVerticalRelation() end
 
----@protected
 ---@return nil
-function gameuiBaseMinimapMappinController:UpdateClamping() return end
+function gameuiBaseMinimapMappinController:UpdateClamping() end

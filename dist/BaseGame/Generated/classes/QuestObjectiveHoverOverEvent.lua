@@ -5,4 +5,4 @@ QuestObjectiveHoverOverEvent = {}
 
 ---@param fields? QuestObjectiveHoverOverEvent
 ---@return QuestObjectiveHoverOverEvent
-function QuestObjectiveHoverOverEvent.new(fields) return end
+function QuestObjectiveHoverOverEvent.new(fields) end

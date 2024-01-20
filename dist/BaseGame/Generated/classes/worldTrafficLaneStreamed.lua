@@ -5,4 +5,4 @@ worldTrafficLaneStreamed = {}
 
 ---@param fields? worldTrafficLaneStreamed
 ---@return worldTrafficLaneStreamed
-function worldTrafficLaneStreamed.new(fields) return end
+function worldTrafficLaneStreamed.new(fields) end

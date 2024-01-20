@@ -5,4 +5,4 @@ StartOverheatEffectEvent = {}
 
 ---@param fields? StartOverheatEffectEvent
 ---@return StartOverheatEffectEvent
-function StartOverheatEffectEvent.new(fields) return end
+function StartOverheatEffectEvent.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class GameplaySettingsDef: gamebbScriptDefinition
----@field public DisableAutomaticSwitchToVehicleTPP gamebbScriptID_Bool
----@field public EnableVehicleToggleSummonMode gamebbScriptID_Bool
+---@field DisableAutomaticSwitchToVehicleTPP gamebbScriptID_Bool
+---@field EnableVehicleToggleSummonMode gamebbScriptID_Bool
 GameplaySettingsDef = {}
 
 ---@param fields? GameplaySettingsDef
 ---@return GameplaySettingsDef
-function GameplaySettingsDef.new(fields) return end
+function GameplaySettingsDef.new(fields) end
 
 ---@return Bool
-function GameplaySettingsDef:AutoCreateInSystem() return end
+function GameplaySettingsDef:AutoCreateInSystem() end

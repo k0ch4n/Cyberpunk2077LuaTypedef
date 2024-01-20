@@ -1,209 +1,171 @@
 ---@meta
 
 ---@class Computer: Terminal
----@field private bannerUpdateActive Bool
----@field private bannerUpdateID gameDelayID
----@field private transformX entIPlacedComponent
----@field private transformY entIPlacedComponent
----@field private playerControlData PlayerControlDeviceData
----@field private currentAnimationState EComputerAnimationState
+---@field bannerUpdateActive Bool
+---@field bannerUpdateID gameDelayID
+---@field transformX entIPlacedComponent
+---@field transformY entIPlacedComponent
+---@field playerControlData PlayerControlDeviceData
+---@field currentAnimationState EComputerAnimationState
 Computer = {}
 
 ---@param fields? Computer
 ---@return Computer
-function Computer.new(fields) return end
+function Computer.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function Computer:OnActivateDevice(evt) return end
+function Computer:OnActivateDevice(evt) end
 
----@protected
 ---@param evt FactQuickHack
 ---@return Bool
-function Computer:OnCreateFactQuickHack(evt) return end
+function Computer:OnCreateFactQuickHack(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return Bool
-function Computer:OnDeactivateDevice(evt) return end
+function Computer:OnDeactivateDevice(evt) end
 
----@protected
 ---@param evt EnableDocumentEvent
 ---@return Bool
-function Computer:OnEnableDocumentEvent(evt) return end
+function Computer:OnEnableDocumentEvent(evt) end
 
----@protected
 ---@param evt GoToMenuEvent
 ---@return Bool
-function Computer:OnGoToMenuEvent(evt) return end
+function Computer:OnGoToMenuEvent(evt) end
 
----@protected
 ---@param evt OpenDocumentEvent
 ---@return Bool
-function Computer:OnOpenDocumentEvent(evt) return end
+function Computer:OnOpenDocumentEvent(evt) end
 
----@protected
 ---@param evt RequestBannerWidgetUpdateEvent
 ---@return Bool
-function Computer:OnRequestBannerWidgetUpdate(evt) return end
+function Computer:OnRequestBannerWidgetUpdate(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Computer:OnRequestComponents(ri) return end
+function Computer:OnRequestComponents(ri) end
 
----@protected
 ---@param evt RequestDocumentThumbnailWidgetsUpdateEvent
 ---@return Bool
-function Computer:OnRequestDocumentThumbnailWidgetsUpdate(evt) return end
+function Computer:OnRequestDocumentThumbnailWidgetsUpdate(evt) end
 
----@protected
 ---@param evt RequestDocumentWidgetUpdateEvent
 ---@return Bool
-function Computer:OnRequestDocumentWidgetUpdate(evt) return end
+function Computer:OnRequestDocumentWidgetUpdate(evt) end
 
----@protected
 ---@param evt RequestComputerMainMenuWidgetsUpdateEvent
 ---@return Bool
-function Computer:OnRequestMainMenuWidgetsUpdate(evt) return end
+function Computer:OnRequestMainMenuWidgetsUpdate(evt) end
 
----@protected
 ---@param evt RequestComputerMenuWidgetsUpdateEvent
 ---@return Bool
-function Computer:OnRequestMenuWidgetsUpdate(evt) return end
+function Computer:OnRequestMenuWidgetsUpdate(evt) end
 
----@protected
 ---@param evt SetDocumentStateEvent
 ---@return Bool
-function Computer:OnSetDocumentState(evt) return end
+function Computer:OnSetDocumentState(evt) end
 
----@protected
 ---@param evt TCSInputXAxisEvent
 ---@return Bool
-function Computer:OnTCSInputXAxisEvent(evt) return end
+function Computer:OnTCSInputXAxisEvent(evt) end
 
----@protected
 ---@param evt TCSInputYAxisEvent
 ---@return Bool
-function Computer:OnTCSInputYAxisEvent(evt) return end
+function Computer:OnTCSInputYAxisEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Computer:OnTakeControl(ri) return end
+function Computer:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleOpenComputer
 ---@return Bool
-function Computer:OnToggleOpen(evt) return end
+function Computer:OnToggleOpen(evt) end
 
----@private
 ---@return nil
-function Computer:ClearOpenedFileAdress() return end
+function Computer:ClearOpenedFileAdress() end
 
----@private
 ---@return nil
-function Computer:ClearOpenedMailAdress() return end
+function Computer:ClearOpenedMailAdress() end
 
----@protected
 ---@return nil
-function Computer:CreateBlackboard() return end
+function Computer:CreateBlackboard() end
 
----@private
 ---@param fileAdress SDocumentAdress
 ---@return nil
-function Computer:DecryptFile(fileAdress) return end
+function Computer:DecryptFile(fileAdress) end
 
----@private
 ---@param fileAdress SDocumentAdress
 ---@return nil
-function Computer:DecryptMail(fileAdress) return end
+function Computer:DecryptMail(fileAdress) end
 
 ---@return EGameplayRole
-function Computer:DeterminGameplayRole() return end
+function Computer:DeterminGameplayRole() end
 
----@private
 ---@return nil
-function Computer:DetermineActivationState() return end
+function Computer:DetermineActivationState() end
 
 ---@return ComputerDeviceBlackboardDef
-function Computer:GetBlackboardDef() return end
+function Computer:GetBlackboardDef() end
 
----@private
 ---@return ComputerController
-function Computer:GetController() return end
+function Computer:GetController() end
 
 ---@return ComputerControllerPS
-function Computer:GetDevicePS() return end
+function Computer:GetDevicePS() end
 
 ---@return EComputerMenuType
-function Computer:GetInitialMenuType() return end
+function Computer:GetInitialMenuType() end
 
----@private
 ---@return nil
-function Computer:InitializeBanners() return end
+function Computer:InitializeBanners() end
 
----@private
 ---@return nil
-function Computer:InitializeScreenDefinition() return end
+function Computer:InitializeScreenDefinition() end
 
 ---@return Bool
-function Computer:IsInSleepMode() return end
+function Computer:IsInSleepMode() end
 
----@private
 ---@param fileAdress SDocumentAdress
 ---@return nil
-function Computer:ReadFile(fileAdress) return end
+function Computer:ReadFile(fileAdress) end
 
----@private
 ---@param fileAdress SDocumentAdress
 ---@return nil
-function Computer:ReadMail(fileAdress) return end
+function Computer:ReadMail(fileAdress) end
 
----@private
 ---@param blackboard gameIBlackboard
 ---@return nil
-function Computer:RequestBannerWidgetsUpdate(blackboard) return end
+function Computer:RequestBannerWidgetsUpdate(blackboard) end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function Computer:ResavePersistentData(ps) return end
+function Computer:ResavePersistentData(ps) end
 
----@private
 ---@param state EComputerAnimationState
 ---@return nil
-function Computer:ResolveAnimationState(state) return end
+function Computer:ResolveAnimationState(state) end
 
----@protected
 ---@return nil
-function Computer:ResolveGameplayState() return end
+function Computer:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function Computer:RestoreDeviceState() return end
+function Computer:RestoreDeviceState() end
 
----@protected
 ---@return Bool
-function Computer:ShouldAlwasyRefreshUIInLogicAra() return end
+function Computer:ShouldAlwasyRefreshUIInLogicAra() end
 
----@protected
 ---@return Bool
-function Computer:ShouldExitZoomOnAuthorization() return end
+function Computer:ShouldExitZoomOnAuthorization() end
 
----@protected
 ---@return nil
-function Computer:StopBannerWidgetsUpdate() return end
+function Computer:StopBannerWidgetsUpdate() end
 
----@private
 ---@param activate Bool
 ---@return nil
-function Computer:TransformAnimActivate(activate) return end
+function Computer:TransformAnimActivate(activate) end
 
----@protected
 ---@return nil
-function Computer:TurnOffDevice() return end
+function Computer:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Computer:TurnOnDevice() return end
+function Computer:TurnOnDevice() end

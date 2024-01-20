@@ -1,42 +1,38 @@
 ---@meta
 
 ---@class PerfectDischargePrereq: StatPoolPrereq
----@field public invert Bool
+---@field invert Bool
 PerfectDischargePrereq = {}
 
 ---@param fields? PerfectDischargePrereq
 ---@return PerfectDischargePrereq
-function PerfectDischargePrereq.new(fields) return end
+function PerfectDischargePrereq.new(fields) end
 
 ---@param player gameObject
 ---@param isDischargePerfect Bool
 ---@param state PerfectDischargePrereqState
 ---@return Bool
-function PerfectDischargePrereq:AddTimeWindow(player, isDischargePerfect, state) return end
+function PerfectDischargePrereq:AddTimeWindow(player, isDischargePerfect, state) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function PerfectDischargePrereq:Initialize(recordID) return end
+function PerfectDischargePrereq:Initialize(recordID) end
 
----@protected
 ---@param weaponObject gameweaponObject
 ---@param state? PerfectDischargePrereqState
 ---@return Bool
-function PerfectDischargePrereq:IsDischargePerfect(weaponObject, state) return end
+function PerfectDischargePrereq:IsDischargePerfect(weaponObject, state) end
 
 ---@param context IScriptable
 ---@return Bool
-function PerfectDischargePrereq:IsFulfilled(context) return end
+function PerfectDischargePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function PerfectDischargePrereq:OnApplied(state, context) return end
+function PerfectDischargePrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function PerfectDischargePrereq:OnRegister(state, context) return end
+function PerfectDischargePrereq:OnRegister(state, context) end

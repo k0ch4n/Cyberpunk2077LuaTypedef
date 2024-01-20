@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioMusicController
----@field public playEvent CName
----@field public stopEvent CName
----@field public muteEvent CName
----@field public unmuteEvent CName
+---@field playEvent CName
+---@field stopEvent CName
+---@field muteEvent CName
+---@field unmuteEvent CName
 audioMusicController = {}
 
 ---@param fields? audioMusicController
 ---@return audioMusicController
-function audioMusicController.new(fields) return end
+function audioMusicController.new(fields) end

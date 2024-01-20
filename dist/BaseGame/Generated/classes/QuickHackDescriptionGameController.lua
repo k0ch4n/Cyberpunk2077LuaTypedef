@@ -1,93 +1,79 @@
 ---@meta
 
 ---@class QuickHackDescriptionGameController: BaseChunkGameController
----@field private subHeader inkTextWidgetReference
----@field private tier inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private recompileTimer inkTextWidgetReference
----@field private duration inkTextWidgetReference
----@field private durationRoot inkWidgetReference
----@field private cooldown inkTextWidgetReference
----@field private cooldownRoot inkWidgetReference
----@field private uploadTime inkTextWidgetReference
----@field private uploadTimeRoot inkWidgetReference
----@field private memoryCost inkTextWidgetReference
----@field private memoryRawCost inkTextWidgetReference
----@field private categoryText inkTextWidgetReference
----@field private categoryContainer inkWidgetReference
----@field private damageWrapper inkWidgetReference
----@field private damageLabel inkTextWidgetReference
----@field private damageValue inkTextWidgetReference
----@field private healthPercentageLabel inkTextWidgetReference
----@field private effectsList inkCompoundWidgetReference
----@field private quickHackDataCallbackID redCallbackObject
----@field private selectedData QuickhackData
----@field private player PlayerPuppet
----@field private equippedQuickHackData EquippedQuickHackData
----@field private uiScriptableSystem UIScriptableSystem
+---@field subHeader inkTextWidgetReference
+---@field tier inkTextWidgetReference
+---@field description inkTextWidgetReference
+---@field recompileTimer inkTextWidgetReference
+---@field duration inkTextWidgetReference
+---@field durationRoot inkWidgetReference
+---@field cooldown inkTextWidgetReference
+---@field cooldownRoot inkWidgetReference
+---@field uploadTime inkTextWidgetReference
+---@field uploadTimeRoot inkWidgetReference
+---@field memoryCost inkTextWidgetReference
+---@field memoryRawCost inkTextWidgetReference
+---@field categoryText inkTextWidgetReference
+---@field categoryContainer inkWidgetReference
+---@field damageWrapper inkWidgetReference
+---@field damageLabel inkTextWidgetReference
+---@field damageValue inkTextWidgetReference
+---@field healthPercentageLabel inkTextWidgetReference
+---@field effectsList inkCompoundWidgetReference
+---@field quickHackDataCallbackID redCallbackObject
+---@field selectedData QuickhackData
+---@field player PlayerPuppet
+---@field equippedQuickHackData EquippedQuickHackData
+---@field uiScriptableSystem UIScriptableSystem
 QuickHackDescriptionGameController = {}
 
 ---@param fields? QuickHackDescriptionGameController
 ---@return QuickHackDescriptionGameController
-function QuickHackDescriptionGameController.new(fields) return end
+function QuickHackDescriptionGameController.new(fields) end
 
----@protected
 ---@return Bool
-function QuickHackDescriptionGameController:OnInitialize() return end
+function QuickHackDescriptionGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function QuickHackDescriptionGameController:OnQuickHackDataChanged(value) return end
+function QuickHackDescriptionGameController:OnQuickHackDataChanged(value) end
 
----@protected
 ---@return Bool
-function QuickHackDescriptionGameController:OnUninitialize() return end
+function QuickHackDescriptionGameController:OnUninitialize() end
 
----@private
 ---@param baseValue Float
 ---@return Float
-function QuickHackDescriptionGameController:GetModifiedDuration(baseValue) return end
+function QuickHackDescriptionGameController:GetModifiedDuration(baseValue) end
 
----@private
 ---@param baseValue Float
 ---@return Float
-function QuickHackDescriptionGameController:GetModifiedUploadTime(baseValue) return end
+function QuickHackDescriptionGameController:GetModifiedUploadTime(baseValue) end
 
----@private
 ---@param targetStat gamedataStatType
 ---@param valueStat gamedataStatType
 ---@return Bool
-function QuickHackDescriptionGameController:IsDamageStat(targetStat, valueStat) return end
+function QuickHackDescriptionGameController:IsDamageStat(targetStat, valueStat) end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupCategory() return end
+function QuickHackDescriptionGameController:SetupCategory() end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupDamage() return end
+function QuickHackDescriptionGameController:SetupDamage() end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupDuration() return end
+function QuickHackDescriptionGameController:SetupDuration() end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupMaxCooldown() return end
+function QuickHackDescriptionGameController:SetupMaxCooldown() end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupMemoryCost() return end
+function QuickHackDescriptionGameController:SetupMemoryCost() end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupMods() return end
+function QuickHackDescriptionGameController:SetupMods() end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupTier() return end
+function QuickHackDescriptionGameController:SetupTier() end
 
----@private
 ---@return nil
-function QuickHackDescriptionGameController:SetupUploadTime() return end
+function QuickHackDescriptionGameController:SetupUploadTime() end

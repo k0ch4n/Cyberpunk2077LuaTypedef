@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTrafficPersistentLaneConnections
----@field public outlanes worldTrafficConnectivityOutLane[]
----@field public inLanes worldTrafficConnectivityInLane[]
+---@field outlanes worldTrafficConnectivityOutLane[]
+---@field inLanes worldTrafficConnectivityInLane[]
 worldTrafficPersistentLaneConnections = {}
 
 ---@param fields? worldTrafficPersistentLaneConnections
 ---@return worldTrafficPersistentLaneConnections
-function worldTrafficPersistentLaneConnections.new(fields) return end
+function worldTrafficPersistentLaneConnections.new(fields) end

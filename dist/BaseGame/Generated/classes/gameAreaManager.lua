@@ -5,4 +5,4 @@ gameAreaManager = {}
 
 ---@param fields? gameAreaManager
 ---@return gameAreaManager
-function gameAreaManager.new(fields) return end
+function gameAreaManager.new(fields) end

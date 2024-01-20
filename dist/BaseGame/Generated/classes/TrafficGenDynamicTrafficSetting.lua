@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TrafficGenDynamicTrafficSetting
----@field public impact TrafficGenDynamicImpact
+---@field impact TrafficGenDynamicImpact
 TrafficGenDynamicTrafficSetting = {}
 
 ---@param fields? TrafficGenDynamicTrafficSetting
 ---@return TrafficGenDynamicTrafficSetting
-function TrafficGenDynamicTrafficSetting.new(fields) return end
+function TrafficGenDynamicTrafficSetting.new(fields) end

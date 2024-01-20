@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class OnscreenDisplayManager: inkWidgetLogicController
----@field protected contentText inkTextWidgetReference
+---@field contentText inkTextWidgetReference
 OnscreenDisplayManager = {}
 
 ---@param fields? OnscreenDisplayManager
 ---@return OnscreenDisplayManager
-function OnscreenDisplayManager.new(fields) return end
+function OnscreenDisplayManager.new(fields) end
 
 ---@param entry gameJournalOnscreen
 ---@return nil
-function OnscreenDisplayManager:ShowEntry(entry) return end
+function OnscreenDisplayManager:ShowEntry(entry) end

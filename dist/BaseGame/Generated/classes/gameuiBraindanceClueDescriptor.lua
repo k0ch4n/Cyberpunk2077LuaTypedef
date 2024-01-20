@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameuiBraindanceClueDescriptor
----@field public mode gameuiEClueDescriptorMode
----@field public layer gameuiEBraindanceLayer
----@field public startTime Float
----@field public endTime Float
----@field public clueName CName
+---@field mode gameuiEClueDescriptorMode
+---@field layer gameuiEBraindanceLayer
+---@field startTime Float
+---@field endTime Float
+---@field clueName CName
 gameuiBraindanceClueDescriptor = {}
 
 ---@param fields? gameuiBraindanceClueDescriptor
 ---@return gameuiBraindanceClueDescriptor
-function gameuiBraindanceClueDescriptor.new(fields) return end
+function gameuiBraindanceClueDescriptor.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class meshMeshParamDeformableShapesData: meshMeshParameter
----@field public ownerIndex Uint8[]
----@field public startingPose Transform[]
----@field public finalPose Transform[]
+---@field ownerIndex Uint8[]
+---@field startingPose Transform[]
+---@field finalPose Transform[]
 meshMeshParamDeformableShapesData = {}
 
 ---@param fields? meshMeshParamDeformableShapesData
 ---@return meshMeshParamDeformableShapesData
-function meshMeshParamDeformableShapesData.new(fields) return end
+function meshMeshParamDeformableShapesData.new(fields) end

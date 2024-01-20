@@ -5,4 +5,4 @@ vehicleVehicleProxyBlendCamera = {}
 
 ---@param fields? vehicleVehicleProxyBlendCamera
 ---@return vehicleVehicleProxyBlendCamera
-function vehicleVehicleProxyBlendCamera.new(fields) return end
+function vehicleVehicleProxyBlendCamera.new(fields) end

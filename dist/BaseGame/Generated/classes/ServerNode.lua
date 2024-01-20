@@ -1,172 +1,141 @@
 ---@meta
 
 ---@class ServerNode: InteractiveDevice
----@field private minWeaponCharge Float
----@field private maxWeaponCharge Float
----@field private livePinMeshes entMeshComponent[]
----@field private deadPinMeshes entMeshComponent[]
----@field private closedFrontPlates entMeshComponent[]
----@field private animatedFrontPlates entMeshComponent[]
----@field private numOfPins Int32
----@field private alivePins Int32
----@field protected pinIndices Int32[]
----@field protected nodesDestroyedInTotalQuestFactName CName
----@field private animFeatureServer AnimFeatureServer
----@field private statPoolSystem gameStatPoolsSystem
----@field private healthListener ServerNodeHealthChangeListener
----@field private ventingFX CName
----@field private damagedFX CName
----@field protected destroyedMesh entPhysicalMeshComponent
+---@field minWeaponCharge Float
+---@field maxWeaponCharge Float
+---@field livePinMeshes entMeshComponent[]
+---@field deadPinMeshes entMeshComponent[]
+---@field closedFrontPlates entMeshComponent[]
+---@field animatedFrontPlates entMeshComponent[]
+---@field numOfPins Int32
+---@field alivePins Int32
+---@field pinIndices Int32[]
+---@field nodesDestroyedInTotalQuestFactName CName
+---@field animFeatureServer AnimFeatureServer
+---@field statPoolSystem gameStatPoolsSystem
+---@field healthListener ServerNodeHealthChangeListener
+---@field ventingFX CName
+---@field damagedFX CName
+---@field destroyedMesh entPhysicalMeshComponent
 ServerNode = {}
 
 ---@param fields? ServerNode
 ---@return ServerNode
-function ServerNode.new(fields) return end
+function ServerNode.new(fields) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function ServerNode:OnDeath(evt) return end
+function ServerNode:OnDeath(evt) end
 
----@protected
 ---@return Bool
-function ServerNode:OnDetach() return end
+function ServerNode:OnDetach() end
 
----@protected
 ---@return Bool
-function ServerNode:OnGameAttached() return end
+function ServerNode:OnGameAttached() end
 
----@protected
 ---@param evt OverloadDevice
 ---@return Bool
-function ServerNode:OnOverloadDevice(evt) return end
+function ServerNode:OnOverloadDevice(evt) end
 
----@protected
 ---@param evt QuestClose
 ---@return Bool
-function ServerNode:OnQuestClose(evt) return end
+function ServerNode:OnQuestClose(evt) end
 
----@protected
 ---@param evt QuestExplode
 ---@return Bool
-function ServerNode:OnQuestExplode(evt) return end
+function ServerNode:OnQuestExplode(evt) end
 
----@protected
 ---@param evt QuestOpen
 ---@return Bool
-function ServerNode:OnQuestOpen(evt) return end
+function ServerNode:OnQuestOpen(evt) end
 
----@protected
 ---@param evt QuestStartHacking
 ---@return Bool
-function ServerNode:OnQuestStartHacking(evt) return end
+function ServerNode:OnQuestStartHacking(evt) end
 
----@protected
 ---@param evt QuestStopHacking
 ---@return Bool
-function ServerNode:OnQuestStopHacking(evt) return end
+function ServerNode:OnQuestStopHacking(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ServerNode:OnRequestComponents(ri) return end
+function ServerNode:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ServerNode:OnTakeControl(ri) return end
+function ServerNode:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function ServerNode:DamageFX() return end
+function ServerNode:DamageFX() end
 
----@private
 ---@return nil
-function ServerNode:DestroyFX() return end
+function ServerNode:DestroyFX() end
 
----@private
 ---@return nil
-function ServerNode:DestroyedClosed() return end
+function ServerNode:DestroyedClosed() end
 
----@private
 ---@return nil
-function ServerNode:Explode() return end
+function ServerNode:Explode() end
 
----@private
 ---@return ServerNodeController
-function ServerNode:GetController() return end
+function ServerNode:GetController() end
 
 ---@return ServerNodeControllerPS
-function ServerNode:GetDevicePS() return end
+function ServerNode:GetDevicePS() end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function ServerNode:IsExplosionChargeMet(attackData) return end
+function ServerNode:IsExplosionChargeMet(attackData) end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function ServerNode:IsPiercingChargeMet(attackData) return end
+function ServerNode:IsPiercingChargeMet(attackData) end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function ServerNode:IsPiercingHit(attackData) return end
+function ServerNode:IsPiercingHit(attackData) end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function ServerNode:IsPlayerHitting(attackData) return end
+function ServerNode:IsPlayerHitting(attackData) end
 
 ---@param currentHealthPercentage Float
 ---@return nil
-function ServerNode:OnHealthChanged(currentHealthPercentage) return end
+function ServerNode:OnHealthChanged(currentHealthPercentage) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function ServerNode:ProcessDamagePipeline(evt) return end
+function ServerNode:ProcessDamagePipeline(evt) end
 
----@protected
 ---@return nil
-function ServerNode:ResolveGameplayState() return end
+function ServerNode:ResolveGameplayState() end
 
----@private
 ---@param isVisible Bool
 ---@return nil
-function ServerNode:SetLineVisibleState(isVisible) return end
+function ServerNode:SetLineVisibleState(isVisible) end
 
----@private
 ---@param numOfPinsToKeepOn Int32
 ---@return nil
-function ServerNode:SetPinMeshes(numOfPinsToKeepOn) return end
+function ServerNode:SetPinMeshes(numOfPinsToKeepOn) end
 
----@private
 ---@return Int32
-function ServerNode:SetRandom() return end
+function ServerNode:SetRandom() end
 
----@private
 ---@return nil
-function ServerNode:StartHackingFX() return end
+function ServerNode:StartHackingFX() end
 
----@private
 ---@return nil
-function ServerNode:StopHackingFX() return end
+function ServerNode:StopHackingFX() end
 
----@private
 ---@return nil
-function ServerNode:UpdateAnimation() return end
+function ServerNode:UpdateAnimation() end
 
----@protected
 ---@param isDelayed? Bool
 ---@return Bool
-function ServerNode:UpdateDeviceState(isDelayed) return end
+function ServerNode:UpdateDeviceState(isDelayed) end
 
----@private
 ---@return nil
-function ServerNode:UpdateFX() return end
+function ServerNode:UpdateFX() end
 
----@private
 ---@return nil
-function ServerNode:UpdateVisuals() return end
+function ServerNode:UpdateVisuals() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerCombatControllerBBListeners
----@field public crouchActive redCallbackObject
+---@field crouchActive redCallbackObject
 PlayerCombatControllerBBListeners = {}
 
 ---@param fields? PlayerCombatControllerBBListeners
 ---@return PlayerCombatControllerBBListeners
-function PlayerCombatControllerBBListeners.new(fields) return end
+function PlayerCombatControllerBBListeners.new(fields) end

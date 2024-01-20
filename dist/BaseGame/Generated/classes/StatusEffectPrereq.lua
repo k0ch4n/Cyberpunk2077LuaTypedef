@@ -1,50 +1,45 @@
 ---@meta
 
 ---@class StatusEffectPrereq: gameIScriptablePrereq
----@field public statusEffectRecordID TweakDBID
----@field public tag CName
----@field public checkType gamedataCheckType
----@field public invert Bool
----@field public fireAndForget Bool
----@field public objectToCheck CName
+---@field statusEffectRecordID TweakDBID
+---@field tag CName
+---@field checkType gamedataCheckType
+---@field invert Bool
+---@field fireAndForget Bool
+---@field objectToCheck CName
 StatusEffectPrereq = {}
 
 ---@param fields? StatusEffectPrereq
 ---@return StatusEffectPrereq
-function StatusEffectPrereq.new(fields) return end
+function StatusEffectPrereq.new(fields) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return Bool
-function StatusEffectPrereq:Evaluate(statusEffect) return end
+function StatusEffectPrereq:Evaluate(statusEffect) end
 
----@private
 ---@param context IScriptable
 ---@return gameObject
-function StatusEffectPrereq:GetObjectToCheck(context) return end
+function StatusEffectPrereq:GetObjectToCheck(context) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function StatusEffectPrereq:Initialize(recordID) return end
+function StatusEffectPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function StatusEffectPrereq:IsFulfilled(context) return end
+function StatusEffectPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatusEffectPrereq:OnApplied(state, context) return end
+function StatusEffectPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function StatusEffectPrereq:OnRegister(state, context) return end
+function StatusEffectPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatusEffectPrereq:OnUnregister(state, context) return end
+function StatusEffectPrereq:OnUnregister(state, context) end

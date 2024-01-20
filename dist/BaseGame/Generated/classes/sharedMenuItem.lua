@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class sharedMenuItem
----@field public id CName
----@field public displayName String
----@field public tooltip String
----@field public subItems sharedMenuItem[]
----@field public isEnabled Bool
----@field public type sharedMenuItemType
----@field public isChecked Bool
----@field public checkGroup String
+---@field id CName
+---@field displayName String
+---@field tooltip String
+---@field subItems sharedMenuItem[]
+---@field isEnabled Bool
+---@field type sharedMenuItemType
+---@field isChecked Bool
+---@field checkGroup String
 sharedMenuItem = {}
 
 ---@param fields? sharedMenuItem
 ---@return sharedMenuItem
-function sharedMenuItem.new(fields) return end
+function sharedMenuItem.new(fields) end

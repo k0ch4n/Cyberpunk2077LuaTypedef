@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class InteractionAreaOperationTriggerData: DeviceOperationTriggerData
----@field public isActivatorPlayer Bool
----@field public isActivatorNPC Bool
----@field public areaTag CName
----@field public operationType gameinteractionsEInteractionEventType
+---@field isActivatorPlayer Bool
+---@field isActivatorNPC Bool
+---@field areaTag CName
+---@field operationType gameinteractionsEInteractionEventType
 InteractionAreaOperationTriggerData = {}
 
 ---@param fields? InteractionAreaOperationTriggerData
 ---@return InteractionAreaOperationTriggerData
-function InteractionAreaOperationTriggerData.new(fields) return end
+function InteractionAreaOperationTriggerData.new(fields) end

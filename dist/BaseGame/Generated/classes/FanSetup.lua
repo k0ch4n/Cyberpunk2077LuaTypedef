@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class FanSetup
----@field public animationType EAnimationType
----@field public rotateClockwise Bool
----@field public randomizeBladesSpeed Bool
----@field public maxRotationSpeed Float
----@field public timeToMaxRotation Float
+---@field animationType EAnimationType
+---@field rotateClockwise Bool
+---@field randomizeBladesSpeed Bool
+---@field maxRotationSpeed Float
+---@field timeToMaxRotation Float
 FanSetup = {}
 
 ---@param fields? FanSetup
 ---@return FanSetup
-function FanSetup.new(fields) return end
+function FanSetup.new(fields) end

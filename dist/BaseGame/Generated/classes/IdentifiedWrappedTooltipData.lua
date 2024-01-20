@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class IdentifiedWrappedTooltipData: ATooltipData
----@field public identifier CName
----@field public tooltipOwner entEntityID
----@field public data ATooltipData
+---@field identifier CName
+---@field tooltipOwner entEntityID
+---@field data ATooltipData
 IdentifiedWrappedTooltipData = {}
 
 ---@param fields? IdentifiedWrappedTooltipData
 ---@return IdentifiedWrappedTooltipData
-function IdentifiedWrappedTooltipData.new(fields) return end
+function IdentifiedWrappedTooltipData.new(fields) end
 
 ---@param identifier CName|string
 ---@param data? ATooltipData
 ---@return IdentifiedWrappedTooltipData
-function IdentifiedWrappedTooltipData.Make(identifier, data) return end
+function IdentifiedWrappedTooltipData.Make(identifier, data) end

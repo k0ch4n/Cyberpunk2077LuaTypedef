@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class animAnimFeature_Vault: animAnimFeature_Climb
----@field public landPosition Vector4
----@field public travellingTime Float
----@field public obstacleDepth Float
+---@field landPosition Vector4
+---@field travellingTime Float
+---@field obstacleDepth Float
 animAnimFeature_Vault = {}
 
 ---@param fields? animAnimFeature_Vault
 ---@return animAnimFeature_Vault
-function animAnimFeature_Vault.new(fields) return end
+function animAnimFeature_Vault.new(fields) end
 
 ---@return nil
-function animAnimFeature_Vault:SetObstacleDepth() return end
+function animAnimFeature_Vault:SetObstacleDepth() end
 
 ---@return nil
-function animAnimFeature_Vault:SetTravellingTime() return end
+function animAnimFeature_Vault:SetTravellingTime() end
 
 ---@return nil
-function animAnimFeature_Vault:SetlandPosition() return end
+function animAnimFeature_Vault:SetlandPosition() end

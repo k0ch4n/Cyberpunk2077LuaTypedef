@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleDrawerEmitterOrientation: IParticleDrawer
----@field public coordinateSystem EulerAngles
----@field public isGPUBased Bool
+---@field coordinateSystem EulerAngles
+---@field isGPUBased Bool
 CParticleDrawerEmitterOrientation = {}
 
 ---@param fields? CParticleDrawerEmitterOrientation
 ---@return CParticleDrawerEmitterOrientation
-function CParticleDrawerEmitterOrientation.new(fields) return end
+function CParticleDrawerEmitterOrientation.new(fields) end

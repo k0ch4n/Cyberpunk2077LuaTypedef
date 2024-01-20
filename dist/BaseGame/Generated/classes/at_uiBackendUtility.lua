@@ -5,16 +5,16 @@ at_uiBackendUtility = {}
 
 ---@param fields? at_uiBackendUtility
 ---@return at_uiBackendUtility
-function at_uiBackendUtility.new(fields) return end
+function at_uiBackendUtility.new(fields) end
 
 ---@return nil
-function at_uiBackendUtility:ClickOnWidget() return end
+function at_uiBackendUtility:ClickOnWidget() end
 
 ---@return nil
-function at_uiBackendUtility:FindWidgetByATID() return end
+function at_uiBackendUtility:FindWidgetByATID() end
 
 ---@return nil
-function at_uiBackendUtility:GetAllWidgetGameControllersOfType() return end
+function at_uiBackendUtility:GetAllWidgetGameControllersOfType() end
 
 ---@return nil
-function at_uiBackendUtility:GetWidgetGameControllerOfType() return end
+function at_uiBackendUtility:GetWidgetGameControllerOfType() end

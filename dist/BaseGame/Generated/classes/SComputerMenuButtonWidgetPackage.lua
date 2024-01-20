@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SComputerMenuButtonWidgetPackage: SWidgetPackage
----@field public counter Int32
+---@field counter Int32
 SComputerMenuButtonWidgetPackage = {}
 
 ---@param fields? SComputerMenuButtonWidgetPackage
 ---@return SComputerMenuButtonWidgetPackage
-function SComputerMenuButtonWidgetPackage.new(fields) return end
+function SComputerMenuButtonWidgetPackage.new(fields) end

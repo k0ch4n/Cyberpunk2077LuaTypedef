@@ -5,4 +5,4 @@ CSpeedTreeWindDataUpdater = {}
 
 ---@param fields? CSpeedTreeWindDataUpdater
 ---@return CSpeedTreeWindDataUpdater
-function CSpeedTreeWindDataUpdater.new(fields) return end
+function CSpeedTreeWindDataUpdater.new(fields) end

@@ -1,34 +1,29 @@
 ---@meta
 
 ---@class Stillage: InteractiveDevice
----@field private collider entIPlacedComponent
+---@field collider entIPlacedComponent
 Stillage = {}
 
 ---@param fields? Stillage
 ---@return Stillage
-function Stillage.new(fields) return end
+function Stillage.new(fields) end
 
----@protected
 ---@param evt QuestResetDeviceToInitialState
 ---@return Bool
-function Stillage:OnQuestResetDeviceToInitialState(evt) return end
+function Stillage:OnQuestResetDeviceToInitialState(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Stillage:OnRequestComponents(ri) return end
+function Stillage:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Stillage:OnTakeControl(ri) return end
+function Stillage:OnTakeControl(ri) end
 
----@protected
 ---@param evt ThrowStuff
 ---@return Bool
-function Stillage:OnThrowStuff(evt) return end
+function Stillage:OnThrowStuff(evt) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function Stillage:OnWorkspotFinished(componentName) return end
+function Stillage:OnWorkspotFinished(componentName) end

@@ -5,9 +5,8 @@ BodyInvestigated = {}
 
 ---@param fields? BodyInvestigated
 ---@return BodyInvestigated
-function BodyInvestigated.new(fields) return end
+function BodyInvestigated.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function BodyInvestigated:Activate(context) return end
+function BodyInvestigated:Activate(context) end

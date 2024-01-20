@@ -5,48 +5,45 @@ LocomotionSwimmingEvents = {}
 
 ---@param fields? LocomotionSwimmingEvents
 ---@return LocomotionSwimmingEvents
-function LocomotionSwimmingEvents.new(fields) return end
+function LocomotionSwimmingEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionSwimmingEvents:ExitCleanup(stateContext, scriptInterface) return end
+function LocomotionSwimmingEvents:ExitCleanup(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionSwimmingEvents:IsSwimmingForward(stateContext, scriptInterface) return end
+function LocomotionSwimmingEvents:IsSwimmingForward(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionSwimmingEvents:OnEnter(stateContext, scriptInterface) return end
+function LocomotionSwimmingEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionSwimmingEvents:OnExit(stateContext, scriptInterface) return end
+function LocomotionSwimmingEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionSwimmingEvents:OnForcedExit(stateContext, scriptInterface) return end
+function LocomotionSwimmingEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gamestateMachineparameterTypeActionLocomotionParameters
-function LocomotionSwimmingEvents:SetLocomotionParameters(stateContext, scriptInterface) return end
+function LocomotionSwimmingEvents:SetLocomotionParameters(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param value Int32
 ---@return nil
-function LocomotionSwimmingEvents:SetSwimmingState(stateContext, scriptInterface, value) return end
+function LocomotionSwimmingEvents:SetSwimmingState(stateContext, scriptInterface, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionSwimmingEvents:UpdateSwimmingAnimFeatureData(stateContext, scriptInterface) return end
+function LocomotionSwimmingEvents:UpdateSwimmingAnimFeatureData(stateContext, scriptInterface) end

@@ -5,4 +5,4 @@ gameuiSetPhotoModeKeyEnabledCallback = {}
 
 ---@param fields? gameuiSetPhotoModeKeyEnabledCallback
 ---@return gameuiSetPhotoModeKeyEnabledCallback
-function gameuiSetPhotoModeKeyEnabledCallback.new(fields) return end
+function gameuiSetPhotoModeKeyEnabledCallback.new(fields) end

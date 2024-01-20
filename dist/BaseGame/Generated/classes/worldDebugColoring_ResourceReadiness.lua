@@ -5,4 +5,4 @@ worldDebugColoring_ResourceReadiness = {}
 
 ---@param fields? worldDebugColoring_ResourceReadiness
 ---@return worldDebugColoring_ResourceReadiness
-function worldDebugColoring_ResourceReadiness.new(fields) return end
+function worldDebugColoring_ResourceReadiness.new(fields) end

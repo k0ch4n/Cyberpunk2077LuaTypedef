@@ -5,4 +5,4 @@ OpenSmsMessengerEvent = {}
 
 ---@param fields? OpenSmsMessengerEvent
 ---@return OpenSmsMessengerEvent
-function OpenSmsMessengerEvent.new(fields) return end
+function OpenSmsMessengerEvent.new(fields) end

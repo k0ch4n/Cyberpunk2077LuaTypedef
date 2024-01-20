@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AINavigationSystemQuery
----@field public source AIPositionSpec
----@field public target AIPositionSpec
----@field public allowedTags CName[]
----@field public blockedTags CName[]
----@field public minDesiredDistance Float
----@field public maxDesiredDistance Float
----@field public useFollowSlots Bool
----@field public usePredictionTime Bool
+---@field source AIPositionSpec
+---@field target AIPositionSpec
+---@field allowedTags CName[]
+---@field blockedTags CName[]
+---@field minDesiredDistance Float
+---@field maxDesiredDistance Float
+---@field useFollowSlots Bool
+---@field usePredictionTime Bool
 AINavigationSystemQuery = {}
 
 ---@param fields? AINavigationSystemQuery
 ---@return AINavigationSystemQuery
-function AINavigationSystemQuery.new(fields) return end
+function AINavigationSystemQuery.new(fields) end

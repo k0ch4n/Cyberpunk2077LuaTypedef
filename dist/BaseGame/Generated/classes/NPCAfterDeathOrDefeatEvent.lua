@@ -5,4 +5,4 @@ NPCAfterDeathOrDefeatEvent = {}
 
 ---@param fields? NPCAfterDeathOrDefeatEvent
 ---@return NPCAfterDeathOrDefeatEvent
-function NPCAfterDeathOrDefeatEvent.new(fields) return end
+function NPCAfterDeathOrDefeatEvent.new(fields) end

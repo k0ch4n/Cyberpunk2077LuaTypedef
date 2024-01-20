@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class audioDialogLineEventData
----@field public stringId CRUID
----@field public context locVoiceoverContext
----@field public expression locVoiceoverExpression
----@field public isPlayer Bool
----@field public isRewind Bool
----@field public isHolocall Bool
----@field public customVoEvent CName
----@field public seekTime Float
----@field public playbackSpeedParameter Float
+---@field stringId CRUID
+---@field context locVoiceoverContext
+---@field expression locVoiceoverExpression
+---@field isPlayer Bool
+---@field isRewind Bool
+---@field isHolocall Bool
+---@field customVoEvent CName
+---@field seekTime Float
+---@field playbackSpeedParameter Float
 audioDialogLineEventData = {}
 
 ---@param fields? audioDialogLineEventData
 ---@return audioDialogLineEventData
-function audioDialogLineEventData.new(fields) return end
+function audioDialogLineEventData.new(fields) end

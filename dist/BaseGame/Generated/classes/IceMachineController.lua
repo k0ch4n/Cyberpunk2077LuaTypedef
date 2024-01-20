@@ -5,7 +5,7 @@ IceMachineController = {}
 
 ---@param fields? IceMachineController
 ---@return IceMachineController
-function IceMachineController.new(fields) return end
+function IceMachineController.new(fields) end
 
 ---@return IceMachineControllerPS
-function IceMachineController:GetPS() return end
+function IceMachineController:GetPS() end

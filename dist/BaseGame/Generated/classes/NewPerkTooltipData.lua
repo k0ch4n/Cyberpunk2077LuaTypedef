@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class NewPerkTooltipData: BasePerksMenuTooltipData
----@field public perkType gamedataNewPerkType
----@field public perkArea gamedataNewPerkSlotType
----@field public attributeId TweakDBID
----@field public proficiency gamedataProficiencyType
----@field public isRipperdoc Bool
----@field public perkData NewPerkDisplayData
----@field public attributeData AttributeData
+---@field perkType gamedataNewPerkType
+---@field perkArea gamedataNewPerkSlotType
+---@field attributeId TweakDBID
+---@field proficiency gamedataProficiencyType
+---@field isRipperdoc Bool
+---@field perkData NewPerkDisplayData
+---@field attributeData AttributeData
 NewPerkTooltipData = {}
 
 ---@param fields? NewPerkTooltipData
 ---@return NewPerkTooltipData
-function NewPerkTooltipData.new(fields) return end
+function NewPerkTooltipData.new(fields) end
 
 ---@return nil
-function NewPerkTooltipData:RefreshRuntimeData() return end
+function NewPerkTooltipData:RefreshRuntimeData() end

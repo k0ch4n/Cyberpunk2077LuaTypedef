@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class PatrolRoleCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public patrolWithWeapon Bool
----@field public forceAlerted Bool
+---@field patrolWithWeapon Bool
+---@field forceAlerted Bool
 PatrolRoleCommandDelegate = {}
 
 ---@param fields? PatrolRoleCommandDelegate
 ---@return PatrolRoleCommandDelegate
-function PatrolRoleCommandDelegate.new(fields) return end
+function PatrolRoleCommandDelegate.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function PatrolRoleCommandDelegate:IsForceAlerted(context) return end
+function PatrolRoleCommandDelegate:IsForceAlerted(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function PatrolRoleCommandDelegate:IsPatrolWithWeapon(context) return end
+function PatrolRoleCommandDelegate:IsPatrolWithWeapon(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function PatrolRoleCommandDelegate:ResetVariables(context) return end
+function PatrolRoleCommandDelegate:ResetVariables(context) end

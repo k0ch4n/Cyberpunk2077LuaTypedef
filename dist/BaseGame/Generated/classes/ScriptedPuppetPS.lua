@@ -1,101 +1,96 @@
 ---@meta
 
 ---@class ScriptedPuppetPS: gamePuppetPS
----@field private deviceLink PuppetDeviceLinkPS
----@field private cooldownStorage CooldownStorage
----@field private isInitialized EBOOL
----@field private wasAttached Bool
----@field protected wasRevealedInNetworkPing Bool
----@field private numberActions Int32
----@field protected wasQuickHackAttempt Bool
----@field protected hasDirectInteractionChoicesActive Bool
----@field private wasIncapacitated Bool
----@field private isBreached Bool
----@field private isDead Bool
----@field private isIncapacitated Bool
----@field private isAndroidTurnedOff Bool
----@field private isPreventionNotified Bool
----@field private securitySystemData SecuritySystemData
----@field private activeContexts gamedeviceRequestType[]
----@field protected lastInteractionLayerTag CName
----@field private quickHacksExposed Bool
----@field private currentCooldownID Uint32
----@field private reactionPresetID TweakDBID
----@field private isDefeatMechanicActive Bool
----@field private leftHandLoadout gameItemID
----@field private rightHandLoadout gameItemID
----@field private customWeaponLoadout CachedItemLoadout[]
----@field private genericMeleeLoadout CachedItemLoadout
----@field private genericRangedLoadout CachedItemLoadout
----@field private questForceScannerPreset TweakDBID
----@field private bountyID TweakDBID
----@field private transgressions TweakDBID[]
+---@field deviceLink PuppetDeviceLinkPS
+---@field cooldownStorage CooldownStorage
+---@field isInitialized EBOOL
+---@field wasAttached Bool
+---@field wasRevealedInNetworkPing Bool
+---@field numberActions Int32
+---@field wasQuickHackAttempt Bool
+---@field hasDirectInteractionChoicesActive Bool
+---@field wasIncapacitated Bool
+---@field isBreached Bool
+---@field isDead Bool
+---@field isIncapacitated Bool
+---@field isAndroidTurnedOff Bool
+---@field isPreventionNotified Bool
+---@field securitySystemData SecuritySystemData
+---@field activeContexts gamedeviceRequestType[]
+---@field lastInteractionLayerTag CName
+---@field quickHacksExposed Bool
+---@field currentCooldownID Uint32
+---@field reactionPresetID TweakDBID
+---@field isDefeatMechanicActive Bool
+---@field leftHandLoadout gameItemID
+---@field rightHandLoadout gameItemID
+---@field customWeaponLoadout CachedItemLoadout[]
+---@field genericMeleeLoadout CachedItemLoadout
+---@field genericRangedLoadout CachedItemLoadout
+---@field questForceScannerPreset TweakDBID
+---@field bountyID TweakDBID
+---@field transgressions TweakDBID[]
 ScriptedPuppetPS = {}
 
 ---@param fields? ScriptedPuppetPS
 ---@return ScriptedPuppetPS
-function ScriptedPuppetPS.new(fields) return end
+function ScriptedPuppetPS.new(fields) end
 
 ---@param lastKnownPosition Vector4
 ---@param whoBreached gameObject
 ---@param reporterHandle gameObject
 ---@param type ESecurityNotificationType
 ---@return SecuritySystemInput
-function ScriptedPuppetPS.ActionSecurityBreachNotificationStatic(lastKnownPosition, whoBreached, reporterHandle, type) return end
+function ScriptedPuppetPS.ActionSecurityBreachNotificationStatic(lastKnownPosition, whoBreached, reporterHandle, type) end
 
----@private
 ---@return Bool
-function ScriptedPuppetPS.CanPerformReprimend() return end
+function ScriptedPuppetPS.CanPerformReprimend() end
 
 ---@return Int32
-function ScriptedPuppetPS.GetNPCsConnectedToThisAPCount() return end
+function ScriptedPuppetPS.GetNPCsConnectedToThisAPCount() end
 
 ---@param evt ScriptableDeviceAction
 ---@return EntityNotificationType
-function ScriptedPuppetPS.OnObjectAction(evt) return end
+function ScriptedPuppetPS.OnObjectAction(evt) end
 
----@protected
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function ScriptedPuppetPS.OnTargetAssessmentRequest(evt) return end
+function ScriptedPuppetPS.OnTargetAssessmentRequest(evt) end
 
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function ScriptedPuppetPS.RemoveDuplicatedChoices(choices) return end
+function ScriptedPuppetPS.RemoveDuplicatedChoices(choices) end
 
----@protected
 ---@return Bool
-function ScriptedPuppetPS:OnInstantiated() return end
+function ScriptedPuppetPS:OnInstantiated() end
 
----@protected
 ---@return SetExposeQuickHacks
-function ScriptedPuppetPS:ActionSetExposeQuickHacks() return end
+function ScriptedPuppetPS:ActionSetExposeQuickHacks() end
 
 ---@param context gamedeviceRequestType
 ---@return nil
-function ScriptedPuppetPS:AddActiveContext(context) return end
+function ScriptedPuppetPS:AddActiveContext(context) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function ScriptedPuppetPS:CheckFlatheadTakedownAvailability(context) return end
+function ScriptedPuppetPS:CheckFlatheadTakedownAvailability(context) end
 
 ---@return ConnectedClassTypes
-function ScriptedPuppetPS:CheckMasterConnectedClassTypes() return end
+function ScriptedPuppetPS:CheckMasterConnectedClassTypes() end
 
----@protected
 ---@param minigameProgramsCompleted Int32
 ---@return nil
-function ScriptedPuppetPS:CheckMasterRunnerAchievement(minigameProgramsCompleted) return end
+function ScriptedPuppetPS:CheckMasterRunnerAchievement(minigameProgramsCompleted) end
 
 ---@param interaction gameinteractionsComponent
 ---@param context gameGetActionsContext
 ---@param objectActionsCallbackController gameObjectActionsCallbackController
 ---@return nil
-function ScriptedPuppetPS:DetermineInteractionState(interaction, context, objectActionsCallbackController) return end
+function ScriptedPuppetPS:DetermineInteractionState(interaction, context, objectActionsCallbackController) end
 
 ---@param entityID entEntityID
 ---@return ESecurityAreaType
-function ScriptedPuppetPS:DetermineSecurityAreaTypeForEntityID(entityID) return end
+function ScriptedPuppetPS:DetermineSecurityAreaTypeForEntityID(entityID) end
 
 ---@param shouldDraw Bool
 ---@param focusModeOnly Bool
@@ -108,129 +103,120 @@ function ScriptedPuppetPS:DetermineSecurityAreaTypeForEntityID(entityID) return 
 ---@param isEyeContact? Bool
 ---@param isPermanent? Bool
 ---@return nil
-function ScriptedPuppetPS:DrawBetweenEntities(shouldDraw, focusModeOnly, fxResource, masterID, slaveID, revealMaster, revealSlave, onlyRemoveWeakLink, isEyeContact, isPermanent) return end
+function ScriptedPuppetPS:DrawBetweenEntities(shouldDraw, focusModeOnly, fxResource, masterID, slaveID, revealMaster, revealSlave, onlyRemoveWeakLink, isEyeContact, isPermanent) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@param persistentState gamePersistentState
 ---@return nil
-function ScriptedPuppetPS:ExecutePSAction(action, persistentState) return end
+function ScriptedPuppetPS:ExecutePSAction(action, persistentState) end
 
----@private
 ---@param programs TweakDBID[]|string[]
 ---@return nil
-function ScriptedPuppetPS:FilterRedundantPrograms(programs) return end
+function ScriptedPuppetPS:FilterRedundantPrograms(programs) end
 
----@private
 ---@param shouldForce Bool
 ---@return nil
-function ScriptedPuppetPS:ForceExposeQuickHack(shouldForce) return end
+function ScriptedPuppetPS:ForceExposeQuickHack(shouldForce) end
 
 ---@param requestType gamedeviceRequestType
 ---@param providedClearance gamedeviceClearance
 ---@param providedProcessInitiator? gameObject
 ---@param providedRequestor? entEntityID
 ---@return gameGetActionsContext
-function ScriptedPuppetPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) return end
+function ScriptedPuppetPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) end
 
 ---@return AccessPointControllerPS
-function ScriptedPuppetPS:GetAccessPoint() return end
+function ScriptedPuppetPS:GetAccessPoint() end
 
----@protected
 ---@param actionRecord gamedataObjectAction_Record
 ---@return PuppetAction
-function ScriptedPuppetPS:GetAction(actionRecord) return end
+function ScriptedPuppetPS:GetAction(actionRecord) end
 
 ---@return gamedeviceRequestType[]
-function ScriptedPuppetPS:GetActiveContexts() return end
+function ScriptedPuppetPS:GetActiveContexts() end
 
 ---@param actions gamedataObjectAction_Record[]
 ---@param context gameGetActionsContext
 ---@param puppetActions PuppetAction[]
 ---@return nil
-function ScriptedPuppetPS:GetAllChoices(actions, context, puppetActions) return end
+function ScriptedPuppetPS:GetAllChoices(actions, context, puppetActions) end
 
 ---@return TweakDBID
-function ScriptedPuppetPS:GetBountyID() return end
+function ScriptedPuppetPS:GetBountyID() end
 
 ---@return CooldownStorage
-function ScriptedPuppetPS:GetCooldownStorage() return end
+function ScriptedPuppetPS:GetCooldownStorage() end
 
 ---@return CachedItemLoadout[]
-function ScriptedPuppetPS:GetCustomWeaponLoadout() return end
+function ScriptedPuppetPS:GetCustomWeaponLoadout() end
 
 ---@return PuppetDeviceLinkPS
-function ScriptedPuppetPS:GetDeviceLink() return end
+function ScriptedPuppetPS:GetDeviceLink() end
 
 ---@return TweakDBID
-function ScriptedPuppetPS:GetForcedScannerPreset() return end
+function ScriptedPuppetPS:GetForcedScannerPreset() end
 
 ---@return CachedItemLoadout
-function ScriptedPuppetPS:GetGenericMeleeLoadout() return end
+function ScriptedPuppetPS:GetGenericMeleeLoadout() end
 
 ---@return CachedItemLoadout
-function ScriptedPuppetPS:GetGenericRangedLoadout() return end
+function ScriptedPuppetPS:GetGenericRangedLoadout() end
 
----@protected
 ---@return HUDManager
-function ScriptedPuppetPS:GetHudManager() return end
+function ScriptedPuppetPS:GetHudManager() end
 
 ---@return Bool
-function ScriptedPuppetPS:GetIsAndroidTurnedOff() return end
+function ScriptedPuppetPS:GetIsAndroidTurnedOff() end
 
 ---@return Bool
-function ScriptedPuppetPS:GetIsDead() return end
+function ScriptedPuppetPS:GetIsDead() end
 
 ---@return Bool
-function ScriptedPuppetPS:GetIsIncapacitated() return end
+function ScriptedPuppetPS:GetIsIncapacitated() end
 
 ---@return gameItemID
-function ScriptedPuppetPS:GetLeftHandLoadout() return end
+function ScriptedPuppetPS:GetLeftHandLoadout() end
 
----@protected
 ---@return entEntityID
-function ScriptedPuppetPS:GetMyEntityID() return end
+function ScriptedPuppetPS:GetMyEntityID() end
 
 ---@return String
-function ScriptedPuppetPS:GetNetworkName() return end
+function ScriptedPuppetPS:GetNetworkName() end
 
----@protected
 ---@return NetworkSystem
-function ScriptedPuppetPS:GetNetworkSystem() return end
+function ScriptedPuppetPS:GetNetworkSystem() end
 
 ---@return Int32
-function ScriptedPuppetPS:GetNumberActions() return end
+function ScriptedPuppetPS:GetNumberActions() end
 
----@protected
 ---@return ScriptedPuppet
-function ScriptedPuppetPS:GetOwnerEntity() return end
+function ScriptedPuppetPS:GetOwnerEntity() end
 
 ---@return entEntity
-function ScriptedPuppetPS:GetOwnerEntityWeak() return end
+function ScriptedPuppetPS:GetOwnerEntityWeak() end
 
 ---@return CooldownStorage
-function ScriptedPuppetPS:GetPlayerCooldownStorage() return end
+function ScriptedPuppetPS:GetPlayerCooldownStorage() end
 
----@protected
 ---@return gameObject
-function ScriptedPuppetPS:GetPlayerMainObject() return end
+function ScriptedPuppetPS:GetPlayerMainObject() end
 
 ---@return TweakDBID
-function ScriptedPuppetPS:GetReactionPresetID() return end
+function ScriptedPuppetPS:GetReactionPresetID() end
 
 ---@return gameItemID
-function ScriptedPuppetPS:GetRightHandLoadout() return end
+function ScriptedPuppetPS:GetRightHandLoadout() end
 
 ---@param includeInactive? Bool
 ---@param returnOnlyDirectlyConnected? Bool
 ---@return SecurityAreaControllerPS[]
-function ScriptedPuppetPS:GetSecurityAreas(includeInactive, returnOnlyDirectlyConnected) return end
+function ScriptedPuppetPS:GetSecurityAreas(includeInactive, returnOnlyDirectlyConnected) end
 
 ---@return SecuritySystemControllerPS
-function ScriptedPuppetPS:GetSecuritySystem() return end
+function ScriptedPuppetPS:GetSecuritySystem() end
 
 ---@return TweakDBID[]
-function ScriptedPuppetPS:GetTransgressions() return end
+function ScriptedPuppetPS:GetTransgressions() end
 
 ---@param actions gamedataObjectAction_Record[]
 ---@param context gameGetActionsContext
@@ -238,170 +224,161 @@ function ScriptedPuppetPS:GetTransgressions() return end
 ---@param checkPlayerQuickHackList Bool
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function ScriptedPuppetPS:GetValidChoices(actions, context, objectActionsCallbackController, checkPlayerQuickHackList, choices) return end
+function ScriptedPuppetPS:GetValidChoices(actions, context, objectActionsCallbackController, checkPlayerQuickHackList, choices) end
 
 ---@return Bool
-function ScriptedPuppetPS:GetWasIncapacitated() return end
+function ScriptedPuppetPS:GetWasIncapacitated() end
 
 ---@param context gamedeviceRequestType
 ---@return Bool
-function ScriptedPuppetPS:HasActiveContext(context) return end
+function ScriptedPuppetPS:HasActiveContext(context) end
 
 ---@return Bool
-function ScriptedPuppetPS:HasDirectInteractionChoicesActive() return end
+function ScriptedPuppetPS:HasDirectInteractionChoicesActive() end
 
----@private
 ---@return nil
-function ScriptedPuppetPS:Initialize() return end
+function ScriptedPuppetPS:Initialize() end
 
----@protected
 ---@return nil
-function ScriptedPuppetPS:InitializeCooldownStorage() return end
+function ScriptedPuppetPS:InitializeCooldownStorage() end
 
 ---@param actionID TweakDBID|string
 ---@return Bool
-function ScriptedPuppetPS:IsActionReady(actionID) return end
+function ScriptedPuppetPS:IsActionReady(actionID) end
 
 ---@return Bool
-function ScriptedPuppetPS:IsBreached() return end
+function ScriptedPuppetPS:IsBreached() end
 
 ---@return Bool
-function ScriptedPuppetPS:IsConnectedToAccessPoint() return end
+function ScriptedPuppetPS:IsConnectedToAccessPoint() end
 
 ---@return Bool
-function ScriptedPuppetPS:IsConnectedToSecuritySystem() return end
+function ScriptedPuppetPS:IsConnectedToSecuritySystem() end
 
 ---@return Bool
-function ScriptedPuppetPS:IsDefeatMechanicActive() return end
+function ScriptedPuppetPS:IsDefeatMechanicActive() end
 
 ---@return Bool
-function ScriptedPuppetPS:IsInitialized() return end
+function ScriptedPuppetPS:IsInitialized() end
 
 ---@return Bool
-function ScriptedPuppetPS:IsPreventionNotified() return end
+function ScriptedPuppetPS:IsPreventionNotified() end
 
 ---@return Bool
-function ScriptedPuppetPS:IsQuickHacksExposed() return end
+function ScriptedPuppetPS:IsQuickHacksExposed() end
 
 ---@param actionID TweakDBID|string
 ---@return nil
-function ScriptedPuppetPS:ManuallyTriggerActionCooldown(actionID) return end
+function ScriptedPuppetPS:ManuallyTriggerActionCooldown(actionID) end
 
----@private
 ---@param evt AcquireDeviceLink
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnAcquireDeviceLink(evt) return end
+function ScriptedPuppetPS:OnAcquireDeviceLink(evt) end
 
 ---@param evt ActionCooldownEvent
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnActionCooldownEvent(evt) return end
+function ScriptedPuppetPS:OnActionCooldownEvent(evt) end
 
 ---@param evt CacheItemEquippedToHandsEvent
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnCacheLoadout(evt) return end
+function ScriptedPuppetPS:OnCacheLoadout(evt) end
 
 ---@param evt DeviceLinkEstablished
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnDeviceAttachment(evt) return end
+function ScriptedPuppetPS:OnDeviceAttachment(evt) end
 
----@protected
 ---@param evt GameAttachedEvent
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnGameAttached(evt) return end
+function ScriptedPuppetPS:OnGameAttached(evt) end
 
----@protected
 ---@param evt PingSquad
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnPingSquad(evt) return end
+function ScriptedPuppetPS:OnPingSquad(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnSecuritySystemOutput(evt) return end
+function ScriptedPuppetPS:OnSecuritySystemOutput(evt) end
 
 ---@param evt SetExposeQuickHacks
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnSetExposeQuickHacks(evt) return end
+function ScriptedPuppetPS:OnSetExposeQuickHacks(evt) end
 
 ---@param evt SetQuickHackEvent
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnSetWasQuickHacked(evt) return end
+function ScriptedPuppetPS:OnSetWasQuickHacked(evt) end
 
 ---@param evt SetQuickHackAttemptEvent
 ---@return EntityNotificationType
-function ScriptedPuppetPS:OnSetWasQuickHackedAtempt(evt) return end
+function ScriptedPuppetPS:OnSetWasQuickHackedAtempt(evt) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function ScriptedPuppetPS:PushAerialTakedownActionEventToPSM(target) return end
+function ScriptedPuppetPS:PushAerialTakedownActionEventToPSM(target) end
 
----@private
 ---@param interactionComponent gameinteractionsComponent
 ---@param context gameGetActionsContext
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function ScriptedPuppetPS:PushChoicesToInteractionComponent(interactionComponent, context, choices) return end
+function ScriptedPuppetPS:PushChoicesToInteractionComponent(interactionComponent, context, choices) end
 
 ---@param context gamedeviceRequestType
 ---@return nil
-function ScriptedPuppetPS:RemoveActiveContext(context) return end
+function ScriptedPuppetPS:RemoveActiveContext(context) end
 
 ---@param preset TweakDBID|string
 ---@return nil
-function ScriptedPuppetPS:SetForcedScannerPreset(preset) return end
+function ScriptedPuppetPS:SetForcedScannerPreset(preset) end
 
 ---@param hasInteraction Bool
 ---@return nil
-function ScriptedPuppetPS:SetHasDirectInteractionChoicesActive(hasInteraction) return end
+function ScriptedPuppetPS:SetHasDirectInteractionChoicesActive(hasInteraction) end
 
 ---@param isAndroidTurnedOff Bool
 ---@return nil
-function ScriptedPuppetPS:SetIsAndroidTurnedOff(isAndroidTurnedOff) return end
+function ScriptedPuppetPS:SetIsAndroidTurnedOff(isAndroidTurnedOff) end
 
----@private
 ---@param isBreached Bool
 ---@return nil
-function ScriptedPuppetPS:SetIsBreached(isBreached) return end
+function ScriptedPuppetPS:SetIsBreached(isBreached) end
 
 ---@param isDead Bool
 ---@return nil
-function ScriptedPuppetPS:SetIsDead(isDead) return end
+function ScriptedPuppetPS:SetIsDead(isDead) end
 
 ---@param isDefeatMechanicActive Bool
 ---@return nil
-function ScriptedPuppetPS:SetIsDefeatMechanicActive(isDefeatMechanicActive) return end
+function ScriptedPuppetPS:SetIsDefeatMechanicActive(isDefeatMechanicActive) end
 
 ---@param isIncapacitated Bool
 ---@return nil
-function ScriptedPuppetPS:SetIsIncapacitated(isIncapacitated) return end
+function ScriptedPuppetPS:SetIsIncapacitated(isIncapacitated) end
 
 ---@param isPreventionNotified Bool
 ---@return nil
-function ScriptedPuppetPS:SetIsPreventionNotified(isPreventionNotified) return end
+function ScriptedPuppetPS:SetIsPreventionNotified(isPreventionNotified) end
 
 ---@param presetID TweakDBID|string
 ---@return nil
-function ScriptedPuppetPS:SetReactionPresetID(presetID) return end
+function ScriptedPuppetPS:SetReactionPresetID(presetID) end
 
 ---@param wasRevealed Bool
 ---@return nil
-function ScriptedPuppetPS:SetRevealedInNetworkPing(wasRevealed) return end
+function ScriptedPuppetPS:SetRevealedInNetworkPing(wasRevealed) end
 
 ---@param wasIncapacitated Bool
 ---@return nil
-function ScriptedPuppetPS:SetWasIncapacitated(wasIncapacitated) return end
+function ScriptedPuppetPS:SetWasIncapacitated(wasIncapacitated) end
 
 ---@param bountyID TweakDBID|string
 ---@param transgressions TweakDBID[]|string[]
 ---@return nil
-function ScriptedPuppetPS:StoreBountyData(bountyID, transgressions) return end
-
----@private
----@return Bool
-function ScriptedPuppetPS:Sts_Ep1_12_ActiveForQHack_Hack() return end
+function ScriptedPuppetPS:StoreBountyData(bountyID, transgressions) end
 
 ---@return Bool
-function ScriptedPuppetPS:WasAttached() return end
+function ScriptedPuppetPS:Sts_Ep1_12_ActiveForQHack_Hack() end
 
 ---@return Bool
-function ScriptedPuppetPS:WasRevealedInNetworkPing() return end
+function ScriptedPuppetPS:WasAttached() end
+
+---@return Bool
+function ScriptedPuppetPS:WasRevealedInNetworkPing() end

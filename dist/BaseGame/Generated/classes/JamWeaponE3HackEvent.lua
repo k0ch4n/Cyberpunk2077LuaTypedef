@@ -5,4 +5,4 @@ JamWeaponE3HackEvent = {}
 
 ---@param fields? JamWeaponE3HackEvent
 ---@return JamWeaponE3HackEvent
-function JamWeaponE3HackEvent.new(fields) return end
+function JamWeaponE3HackEvent.new(fields) end

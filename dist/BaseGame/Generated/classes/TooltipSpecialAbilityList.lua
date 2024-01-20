@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class TooltipSpecialAbilityList: inkWidgetLogicController
----@field private libraryItemName CName
----@field private container inkCompoundWidgetReference
----@field private itemsList inkWidget[]
----@field private data gameInventoryItemAbility[]
----@field private qualityName CName
+---@field libraryItemName CName
+---@field container inkCompoundWidgetReference
+---@field itemsList inkWidget[]
+---@field data gameInventoryItemAbility[]
+---@field qualityName CName
 TooltipSpecialAbilityList = {}
 
 ---@param fields? TooltipSpecialAbilityList
 ---@return TooltipSpecialAbilityList
-function TooltipSpecialAbilityList.new(fields) return end
+function TooltipSpecialAbilityList.new(fields) end
 
 ---@param toLeave Int32
 ---@return nil
-function TooltipSpecialAbilityList:ClearData(toLeave) return end
+function TooltipSpecialAbilityList:ClearData(toLeave) end
 
 ---@param qualityState CName|string
 ---@param data gameInventoryItemAbility[]
 ---@return nil
-function TooltipSpecialAbilityList:SetData(qualityState, data) return end
+function TooltipSpecialAbilityList:SetData(qualityState, data) end
 
----@private
 ---@return nil
-function TooltipSpecialAbilityList:UpdateLayout() return end
+function TooltipSpecialAbilityList:UpdateLayout() end
 
 ---@param force Bool
 ---@return nil
-function TooltipSpecialAbilityList:UpdateVisibility(force) return end
+function TooltipSpecialAbilityList:UpdateVisibility(force) end
 
 ---@return nil
-function TooltipSpecialAbilityList:UpdateVisibility() return end
+function TooltipSpecialAbilityList:UpdateVisibility() end

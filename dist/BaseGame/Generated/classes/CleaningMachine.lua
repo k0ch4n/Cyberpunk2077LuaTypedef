@@ -5,21 +5,18 @@ CleaningMachine = {}
 
 ---@param fields? CleaningMachine
 ---@return CleaningMachine
-function CleaningMachine.new(fields) return end
+function CleaningMachine.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function CleaningMachine:OnRequestComponents(ri) return end
+function CleaningMachine:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function CleaningMachine:OnTakeControl(ri) return end
+function CleaningMachine:OnTakeControl(ri) end
 
----@private
 ---@return CleaningMachineController
-function CleaningMachine:GetController() return end
+function CleaningMachine:GetController() end
 
 ---@return CleaningMachineControllerPS
-function CleaningMachine:GetDevicePS() return end
+function CleaningMachine:GetDevicePS() end

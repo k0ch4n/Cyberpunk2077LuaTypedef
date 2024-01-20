@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DequeueQuickHackEvent: redEvent
----@field public mappinID gameNewMappinID
+---@field mappinID gameNewMappinID
 DequeueQuickHackEvent = {}
 
 ---@param fields? DequeueQuickHackEvent
 ---@return DequeueQuickHackEvent
-function DequeueQuickHackEvent.new(fields) return end
+function DequeueQuickHackEvent.new(fields) end

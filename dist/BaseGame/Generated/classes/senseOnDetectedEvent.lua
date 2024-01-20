@@ -5,4 +5,4 @@ senseOnDetectedEvent = {}
 
 ---@param fields? senseOnDetectedEvent
 ---@return senseOnDetectedEvent
-function senseOnDetectedEvent.new(fields) return end
+function senseOnDetectedEvent.new(fields) end

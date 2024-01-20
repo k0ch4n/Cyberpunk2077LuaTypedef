@@ -5,4 +5,4 @@ redPackageRUIDSerializer = {}
 
 ---@param fields? redPackageRUIDSerializer
 ---@return redPackageRUIDSerializer
-function redPackageRUIDSerializer.new(fields) return end
+function redPackageRUIDSerializer.new(fields) end

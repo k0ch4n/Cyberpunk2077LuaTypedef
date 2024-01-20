@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldRoadMaterialInfo
----@field public startOffset Float
----@field public material worldRoadMaterial
+---@field startOffset Float
+---@field material worldRoadMaterial
 worldRoadMaterialInfo = {}
 
 ---@param fields? worldRoadMaterialInfo
 ---@return worldRoadMaterialInfo
-function worldRoadMaterialInfo.new(fields) return end
+function worldRoadMaterialInfo.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AISquadBlackBoardDef: gamebbScriptDefinition
----@field public BarkPlayed gamebbScriptID_Bool
----@field public LowHealthBarkPlayed gamebbScriptID_Bool
----@field public BarkPlayedTimeStamp gamebbScriptID_Float
+---@field BarkPlayed gamebbScriptID_Bool
+---@field LowHealthBarkPlayed gamebbScriptID_Bool
+---@field BarkPlayedTimeStamp gamebbScriptID_Float
 AISquadBlackBoardDef = {}
 
 ---@param fields? AISquadBlackBoardDef
 ---@return AISquadBlackBoardDef
-function AISquadBlackBoardDef.new(fields) return end
+function AISquadBlackBoardDef.new(fields) end
 
 ---@return Bool
-function AISquadBlackBoardDef:AutoCreateInSystem() return end
+function AISquadBlackBoardDef:AutoCreateInSystem() end

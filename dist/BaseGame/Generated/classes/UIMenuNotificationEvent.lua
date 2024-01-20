@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class UIMenuNotificationEvent: redEvent
----@field public notificationType UIMenuNotificationType
----@field public additionalInfo Variant
----@field public animContainer inGameMenuAnimContainer
+---@field notificationType UIMenuNotificationType
+---@field additionalInfo Variant
+---@field animContainer inGameMenuAnimContainer
 UIMenuNotificationEvent = {}
 
 ---@param fields? UIMenuNotificationEvent
 ---@return UIMenuNotificationEvent
-function UIMenuNotificationEvent.new(fields) return end
+function UIMenuNotificationEvent.new(fields) end

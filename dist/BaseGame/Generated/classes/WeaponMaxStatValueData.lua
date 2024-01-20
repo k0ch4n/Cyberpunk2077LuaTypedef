@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class WeaponMaxStatValueData: IScriptable
----@field public stat gamedataStatType
----@field public value Float
+---@field stat gamedataStatType
+---@field value Float
 WeaponMaxStatValueData = {}
 
 ---@param fields? WeaponMaxStatValueData
 ---@return WeaponMaxStatValueData
-function WeaponMaxStatValueData.new(fields) return end
+function WeaponMaxStatValueData.new(fields) end

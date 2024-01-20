@@ -5,7 +5,7 @@ SurveillanceSystemController = {}
 
 ---@param fields? SurveillanceSystemController
 ---@return SurveillanceSystemController
-function SurveillanceSystemController.new(fields) return end
+function SurveillanceSystemController.new(fields) end
 
 ---@return SurveillanceSystemControllerPS
-function SurveillanceSystemController:GetPS() return end
+function SurveillanceSystemController:GetPS() end

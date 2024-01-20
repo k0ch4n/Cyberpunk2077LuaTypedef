@@ -5,25 +5,25 @@ gamedataShooterBullet_Record = {}
 
 ---@param fields? gamedataShooterBullet_Record
 ---@return gamedataShooterBullet_Record
-function gamedataShooterBullet_Record.new(fields) return end
+function gamedataShooterBullet_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterBullet_Record:Damage() return end
+function gamedataShooterBullet_Record:Damage() end
 
 ---@return Float
-function gamedataShooterBullet_Record:ExplosionRange() return end
+function gamedataShooterBullet_Record:ExplosionRange() end
 
 ---@return String
-function gamedataShooterBullet_Record:LibraryWidget() return end
+function gamedataShooterBullet_Record:LibraryWidget() end
 
 ---@return Float
-function gamedataShooterBullet_Record:Scale() return end
+function gamedataShooterBullet_Record:Scale() end
 
 ---@return Float
-function gamedataShooterBullet_Record:SpecialValue() return end
+function gamedataShooterBullet_Record:SpecialValue() end
 
 ---@return Float
-function gamedataShooterBullet_Record:Speed() return end
+function gamedataShooterBullet_Record:Speed() end
 
 ---@return Float
-function gamedataShooterBullet_Record:Value() return end
+function gamedataShooterBullet_Record:Value() end

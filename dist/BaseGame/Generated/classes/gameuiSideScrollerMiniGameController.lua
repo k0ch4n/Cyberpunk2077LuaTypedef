@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class gameuiSideScrollerMiniGameController: gameuiWidgetGameController
----@field public gameplayCanvas inkWidgetReference
----@field public gameName CName
+---@field gameplayCanvas inkWidgetReference
+---@field gameName CName
 gameuiSideScrollerMiniGameController = {}
 
 ---@param fields? gameuiSideScrollerMiniGameController
 ---@return gameuiSideScrollerMiniGameController
-function gameuiSideScrollerMiniGameController.new(fields) return end
+function gameuiSideScrollerMiniGameController.new(fields) end
 
 ---@return nil
-function gameuiSideScrollerMiniGameController:StartGame() return end
+function gameuiSideScrollerMiniGameController:StartGame() end
 
----@protected
 ---@param gameFinishEvent gameuiOnGameFinishEvent
 ---@return Bool
-function gameuiSideScrollerMiniGameController:OnGameFinish(gameFinishEvent) return end
+function gameuiSideScrollerMiniGameController:OnGameFinish(gameFinishEvent) end
 
----@protected
 ---@param gameFinishEvent gameuiOnGameFinishEvent
 ---@return nil
-function gameuiSideScrollerMiniGameController:OnGameFinishLogic(gameFinishEvent) return end
+function gameuiSideScrollerMiniGameController:OnGameFinishLogic(gameFinishEvent) end

@@ -5,16 +5,14 @@ ChargeMaxEvents = {}
 
 ---@param fields? ChargeMaxEvents
 ---@return ChargeMaxEvents
-function ChargeMaxEvents.new(fields) return end
+function ChargeMaxEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeMaxEvents:OnEnter(stateContext, scriptInterface) return end
+function ChargeMaxEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeMaxEvents:OnExitToShoot(stateContext, scriptInterface) return end
+function ChargeMaxEvents:OnExitToShoot(stateContext, scriptInterface) end

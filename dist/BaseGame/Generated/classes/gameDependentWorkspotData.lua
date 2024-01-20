@@ -5,4 +5,4 @@ gameDependentWorkspotData = {}
 
 ---@param fields? gameDependentWorkspotData
 ---@return gameDependentWorkspotData
-function gameDependentWorkspotData.new(fields) return end
+function gameDependentWorkspotData.new(fields) end

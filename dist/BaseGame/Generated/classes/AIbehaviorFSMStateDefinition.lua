@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorFSMStateDefinition: AIbehaviorTreeNodeDefinition
----@field public behaviorRoot AIbehaviorTreeNodeDefinition
----@field public isInitial Bool
----@field public isExit Bool
----@field public completionStatus AIbehaviorStateCompletionStatus
+---@field behaviorRoot AIbehaviorTreeNodeDefinition
+---@field isInitial Bool
+---@field isExit Bool
+---@field completionStatus AIbehaviorStateCompletionStatus
 AIbehaviorFSMStateDefinition = {}
 
 ---@param fields? AIbehaviorFSMStateDefinition
 ---@return AIbehaviorFSMStateDefinition
-function AIbehaviorFSMStateDefinition.new(fields) return end
+function AIbehaviorFSMStateDefinition.new(fields) end

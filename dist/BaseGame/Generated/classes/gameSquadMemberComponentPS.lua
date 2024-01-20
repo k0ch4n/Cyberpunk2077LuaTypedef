@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSquadMemberComponentPS: gameComponentPS
----@field public entries gameSquadMemberDataEntry[]
+---@field entries gameSquadMemberDataEntry[]
 gameSquadMemberComponentPS = {}
 
 ---@param fields? gameSquadMemberComponentPS
 ---@return gameSquadMemberComponentPS
-function gameSquadMemberComponentPS.new(fields) return end
+function gameSquadMemberComponentPS.new(fields) end

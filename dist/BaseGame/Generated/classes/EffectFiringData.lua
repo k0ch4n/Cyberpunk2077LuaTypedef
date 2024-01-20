@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class EffectFiringData
----@field public FXTime Float
----@field public VFX CName
----@field public SFX CName
+---@field FXTime Float
+---@field VFX CName
+---@field SFX CName
 EffectFiringData = {}
 
 ---@param fields? EffectFiringData
 ---@return EffectFiringData
-function EffectFiringData.new(fields) return end
+function EffectFiringData.new(fields) end

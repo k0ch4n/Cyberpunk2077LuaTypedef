@@ -5,10 +5,10 @@ ReflectionMemberFunc = {}
 
 ---@param fields? ReflectionMemberFunc
 ---@return ReflectionMemberFunc
-function ReflectionMemberFunc.new(fields) return end
+function ReflectionMemberFunc.new(fields) end
 
 ---@param self IScriptable
 ---@param args? Variant[]
 ---@param status? Bool
 ---@return Variant
-function ReflectionMemberFunc:Call(self, args, status) return end
+function ReflectionMemberFunc:Call(self, args, status) end

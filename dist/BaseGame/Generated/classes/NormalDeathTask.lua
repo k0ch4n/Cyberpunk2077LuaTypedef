@@ -5,4 +5,4 @@ NormalDeathTask = {}
 
 ---@param fields? NormalDeathTask
 ---@return NormalDeathTask
-function NormalDeathTask.new(fields) return end
+function NormalDeathTask.new(fields) end

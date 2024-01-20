@@ -5,10 +5,9 @@ ControlsActiveDecisions = {}
 
 ---@param fields? ControlsActiveDecisions
 ---@return ControlsActiveDecisions
-function ControlsActiveDecisions.new(fields) return end
+function ControlsActiveDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ControlsActiveDecisions:ToControlsInactive(stateContext, scriptInterface) return end
+function ControlsActiveDecisions:ToControlsInactive(stateContext, scriptInterface) end

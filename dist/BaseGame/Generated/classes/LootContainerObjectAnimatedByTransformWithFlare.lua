@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class LootContainerObjectAnimatedByTransformWithFlare: LootContainerObjectAnimatedByTransform
----@field public colliderWithInteraction entIComponent
----@field public colliderWithoutInteraction entIComponent
----@field public lightComponent1 entIComponent
----@field public lightComponent2 entIComponent
+---@field colliderWithInteraction entIComponent
+---@field colliderWithoutInteraction entIComponent
+---@field lightComponent1 entIComponent
+---@field lightComponent2 entIComponent
 LootContainerObjectAnimatedByTransformWithFlare = {}
 
 ---@param fields? LootContainerObjectAnimatedByTransformWithFlare
 ---@return LootContainerObjectAnimatedByTransformWithFlare
-function LootContainerObjectAnimatedByTransformWithFlare.new(fields) return end
+function LootContainerObjectAnimatedByTransformWithFlare.new(fields) end
 
----@protected
 ---@return Bool
-function LootContainerObjectAnimatedByTransformWithFlare:OnGameAttached() return end
+function LootContainerObjectAnimatedByTransformWithFlare:OnGameAttached() end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function LootContainerObjectAnimatedByTransformWithFlare:OnInteraction(choiceEvent) return end
+function LootContainerObjectAnimatedByTransformWithFlare:OnInteraction(choiceEvent) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function LootContainerObjectAnimatedByTransformWithFlare:OnRequestComponents(ri) return end
+function LootContainerObjectAnimatedByTransformWithFlare:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function LootContainerObjectAnimatedByTransformWithFlare:OnTakeControl(ri) return end
+function LootContainerObjectAnimatedByTransformWithFlare:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleContainerLockEvent
 ---@return Bool
-function LootContainerObjectAnimatedByTransformWithFlare:OnToggleContainerLockEvent(evt) return end
+function LootContainerObjectAnimatedByTransformWithFlare:OnToggleContainerLockEvent(evt) end

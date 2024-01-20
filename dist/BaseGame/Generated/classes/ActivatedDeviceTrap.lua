@@ -1,54 +1,45 @@
 ---@meta
 
 ---@class ActivatedDeviceTrap: ActivatedDeviceTransfromAnim
----@field protected areaComponent gameStaticTriggerAreaComponent
+---@field areaComponent gameStaticTriggerAreaComponent
 ActivatedDeviceTrap = {}
 
 ---@param fields? ActivatedDeviceTrap
 ---@return ActivatedDeviceTrap
-function ActivatedDeviceTrap.new(fields) return end
+function ActivatedDeviceTrap.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function ActivatedDeviceTrap:OnActivateDevice(evt) return end
+function ActivatedDeviceTrap:OnActivateDevice(evt) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function ActivatedDeviceTrap:OnAreaEnter(evt) return end
+function ActivatedDeviceTrap:OnAreaEnter(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ActivatedDeviceTrap:OnRequestComponents(ri) return end
+function ActivatedDeviceTrap:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ActivatedDeviceTrap:OnTakeControl(ri) return end
+function ActivatedDeviceTrap:OnTakeControl(ri) end
 
----@protected
 ---@param evt TimerEvent
 ---@return Bool
-function ActivatedDeviceTrap:OnTimerEvent(evt) return end
+function ActivatedDeviceTrap:OnTimerEvent(evt) end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrap:Distract() return end
+function ActivatedDeviceTrap:Distract() end
 
----@protected
 ---@param attackRecord TweakDBID|string
 ---@return nil
-function ActivatedDeviceTrap:DoAttack(attackRecord) return end
+function ActivatedDeviceTrap:DoAttack(attackRecord) end
 
 ---@return entEntity[]
-function ActivatedDeviceTrap:GetEntitiesInArea() return end
+function ActivatedDeviceTrap:GetEntitiesInArea() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrap:RefreshAnimation() return end
+function ActivatedDeviceTrap:RefreshAnimation() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrap:ResolveGameplayState() return end
+function ActivatedDeviceTrap:ResolveGameplayState() end

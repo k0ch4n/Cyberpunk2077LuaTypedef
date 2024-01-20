@@ -5,4 +5,4 @@ CVariableStoragePtr = {}
 
 ---@param fields? CVariableStoragePtr
 ---@return CVariableStoragePtr
-function CVariableStoragePtr.new(fields) return end
+function CVariableStoragePtr.new(fields) end

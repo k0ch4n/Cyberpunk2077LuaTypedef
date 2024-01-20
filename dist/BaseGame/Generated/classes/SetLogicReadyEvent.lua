@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetLogicReadyEvent: redEvent
----@field public isReady Bool
+---@field isReady Bool
 SetLogicReadyEvent = {}
 
 ---@param fields? SetLogicReadyEvent
 ---@return SetLogicReadyEvent
-function SetLogicReadyEvent.new(fields) return end
+function SetLogicReadyEvent.new(fields) end

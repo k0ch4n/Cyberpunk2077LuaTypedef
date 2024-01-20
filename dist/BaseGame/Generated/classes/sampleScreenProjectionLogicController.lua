@@ -1,35 +1,32 @@
 ---@meta
 
 ---@class sampleScreenProjectionLogicController: inkWidgetLogicController
----@field private widgetPos inkTextWidget
----@field private worldPos inkTextWidget
----@field private projection inkScreenProjection
+---@field widgetPos inkTextWidget
+---@field worldPos inkTextWidget
+---@field projection inkScreenProjection
 sampleScreenProjectionLogicController = {}
 
 ---@param fields? sampleScreenProjectionLogicController
 ---@return sampleScreenProjectionLogicController
-function sampleScreenProjectionLogicController.new(fields) return end
+function sampleScreenProjectionLogicController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function sampleScreenProjectionLogicController:OnAnimFinished(proxy) return end
+function sampleScreenProjectionLogicController:OnAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function sampleScreenProjectionLogicController:OnInitialize() return end
+function sampleScreenProjectionLogicController:OnInitialize() end
 
 ---@return inkScreenProjection
-function sampleScreenProjectionLogicController:GetProjection() return end
+function sampleScreenProjectionLogicController:GetProjection() end
 
----@private
 ---@return nil
-function sampleScreenProjectionLogicController:PlayAnimation() return end
-
----@param projection inkScreenProjection
----@return nil
-function sampleScreenProjectionLogicController:SetProjection(projection) return end
+function sampleScreenProjectionLogicController:PlayAnimation() end
 
 ---@param projection inkScreenProjection
 ---@return nil
-function sampleScreenProjectionLogicController:UpdatewidgetPosition(projection) return end
+function sampleScreenProjectionLogicController:SetProjection(projection) end
+
+---@param projection inkScreenProjection
+---@return nil
+function sampleScreenProjectionLogicController:UpdatewidgetPosition(projection) end

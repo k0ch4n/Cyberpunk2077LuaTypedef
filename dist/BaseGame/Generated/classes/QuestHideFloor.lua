@@ -5,8 +5,8 @@ QuestHideFloor = {}
 
 ---@param fields? QuestHideFloor
 ---@return QuestHideFloor
-function QuestHideFloor.new(fields) return end
+function QuestHideFloor.new(fields) end
 
 ---@param floor Int32
 ---@return nil
-function QuestHideFloor:SetProperties(floor) return end
+function QuestHideFloor:SetProperties(floor) end

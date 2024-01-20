@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SInteractionAreaOperationData
----@field public isActivatorPlayer Bool
----@field public isActivatorNPC Bool
----@field public areaTag CName
----@field public operationType gameinteractionsEInteractionEventType
----@field public operation SBaseDeviceOperationData
+---@field isActivatorPlayer Bool
+---@field isActivatorNPC Bool
+---@field areaTag CName
+---@field operationType gameinteractionsEInteractionEventType
+---@field operation SBaseDeviceOperationData
 SInteractionAreaOperationData = {}
 
 ---@param fields? SInteractionAreaOperationData
 ---@return SInteractionAreaOperationData
-function SInteractionAreaOperationData.new(fields) return end
+function SInteractionAreaOperationData.new(fields) end

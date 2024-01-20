@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSmartObjectTransformSequenceDictionaryEntry
----@field public sequence Uint16[]
----@field public id Uint8
+---@field sequence Uint16[]
+---@field id Uint8
 gameSmartObjectTransformSequenceDictionaryEntry = {}
 
 ---@param fields? gameSmartObjectTransformSequenceDictionaryEntry
 ---@return gameSmartObjectTransformSequenceDictionaryEntry
-function gameSmartObjectTransformSequenceDictionaryEntry.new(fields) return end
+function gameSmartObjectTransformSequenceDictionaryEntry.new(fields) end

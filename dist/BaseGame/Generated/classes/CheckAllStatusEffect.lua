@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class CheckAllStatusEffect: AIStatusEffectCondition
----@field public behaviorArgumentNameTag CName
----@field public behaviorArgumentFloatPriority CName
----@field public behaviorArgumentNameFlag CName
+---@field behaviorArgumentNameTag CName
+---@field behaviorArgumentFloatPriority CName
+---@field behaviorArgumentNameFlag CName
 CheckAllStatusEffect = {}
 
 ---@param fields? CheckAllStatusEffect
 ---@return CheckAllStatusEffect
-function CheckAllStatusEffect.new(fields) return end
+function CheckAllStatusEffect.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckAllStatusEffect:Activate(context) return end
+function CheckAllStatusEffect:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckAllStatusEffect:Check(context) return end
+function CheckAllStatusEffect:Check(context) end

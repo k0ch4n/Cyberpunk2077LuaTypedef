@@ -5,4 +5,4 @@ inkWatermarksLayerDefinition = {}
 
 ---@param fields? inkWatermarksLayerDefinition
 ---@return inkWatermarksLayerDefinition
-function inkWatermarksLayerDefinition.new(fields) return end
+function inkWatermarksLayerDefinition.new(fields) end

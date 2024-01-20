@@ -6,4 +6,4 @@ FailedLandingAbstractEvents = {}
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FailedLandingAbstractEvents:OnEnter(stateContext, scriptInterface) return end
+function FailedLandingAbstractEvents:OnEnter(stateContext, scriptInterface) end

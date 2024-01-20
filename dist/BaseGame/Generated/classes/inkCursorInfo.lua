@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class inkCursorInfo: inkUserData
----@field public pos Vector2
----@field public isVisible Bool
----@field public cursorForDevice CName
+---@field pos Vector2
+---@field isVisible Bool
+---@field cursorForDevice CName
 inkCursorInfo = {}
 
 ---@param fields? inkCursorInfo
 ---@return inkCursorInfo
-function inkCursorInfo.new(fields) return end
+function inkCursorInfo.new(fields) end
 
 ---@return Vector2
-function inkCursorInfo:GetResizableWidgetSize() return end
+function inkCursorInfo:GetResizableWidgetSize() end
 
 ---@param widget inkWidget
 ---@return nil
-function inkCursorInfo:SetResizableWidget(widget) return end
+function inkCursorInfo:SetResizableWidget(widget) end
 
 ---@param size Vector2
 ---@return nil
-function inkCursorInfo:SetSize(size) return end
+function inkCursorInfo:SetSize(size) end

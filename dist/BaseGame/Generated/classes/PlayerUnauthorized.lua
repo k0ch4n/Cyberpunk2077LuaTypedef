@@ -1,34 +1,34 @@
 ---@meta
 
 ---@class PlayerUnauthorized: ActionBool
----@field protected isLiftDoor Bool
+---@field isLiftDoor Bool
 PlayerUnauthorized = {}
 
 ---@param fields? PlayerUnauthorized
 ---@return PlayerUnauthorized
-function PlayerUnauthorized.new(fields) return end
+function PlayerUnauthorized.new(fields) end
 
 ---@param device DoorControllerPS
 ---@return Bool
-function PlayerUnauthorized.IsAvailable(device) return end
+function PlayerUnauthorized.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function PlayerUnauthorized.IsClearanceValid(clearance) return end
+function PlayerUnauthorized.IsClearanceValid(clearance) end
 
 ---@param device DoorControllerPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function PlayerUnauthorized.IsDefaultConditionMet(device, context) return end
+function PlayerUnauthorized.IsDefaultConditionMet(device, context) end
 
 ---@param device DoorControllerPS
 ---@param actions? gamedeviceAction[]
 ---@return nil
-function PlayerUnauthorized:CreateInteraction(device, actions) return end
+function PlayerUnauthorized:CreateInteraction(device, actions) end
 
 ---@return String
-function PlayerUnauthorized:GetTweakDBChoiceRecord() return end
+function PlayerUnauthorized:GetTweakDBChoiceRecord() end
 
 ---@param isLift Bool
 ---@return nil
-function PlayerUnauthorized:SetProperties(isLift) return end
+function PlayerUnauthorized:SetProperties(isLift) end

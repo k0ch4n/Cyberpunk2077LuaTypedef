@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAnimMathExpressionVectorSocket
----@field public link animVectorLink
----@field public expressionVarId Uint16
+---@field link animVectorLink
+---@field expressionVarId Uint16
 animAnimMathExpressionVectorSocket = {}
 
 ---@param fields? animAnimMathExpressionVectorSocket
 ---@return animAnimMathExpressionVectorSocket
-function animAnimMathExpressionVectorSocket.new(fields) return end
+function animAnimMathExpressionVectorSocket.new(fields) end

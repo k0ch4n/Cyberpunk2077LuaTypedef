@@ -5,8 +5,8 @@ moveMoveComponentVelocityProvider = {}
 
 ---@param fields? moveMoveComponentVelocityProvider
 ---@return moveMoveComponentVelocityProvider
-function moveMoveComponentVelocityProvider.new(fields) return end
+function moveMoveComponentVelocityProvider.new(fields) end
 
 ---@param puppet gamePuppet
 ---@return entIVelocityProvider
-function moveMoveComponentVelocityProvider.CreateMoveComponentVelocityProvider(puppet) return end
+function moveMoveComponentVelocityProvider.CreateMoveComponentVelocityProvider(puppet) end

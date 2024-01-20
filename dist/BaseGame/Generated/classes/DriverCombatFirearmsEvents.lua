@@ -1,130 +1,110 @@
 ---@meta
 
 ---@class DriverCombatFirearmsEvents: DriverCombatEvents
----@field protected attachmentSlotListener gameAttachmentSlotsScriptListener
----@field protected posAnimFeature AnimFeature_ProceduralDriverCombatData
----@field protected vehicleRecord gamedataVehicle_Record
----@field protected angleDelta EulerAngles
----@field protected localOrientation EulerAngles
----@field protected updateItemType gamedataItemType
----@field protected photoModeActiveListener redCallbackObject
----@field protected isPhotoModeActive Bool
----@field protected minSwaySpeed Float
----@field protected prevSpeed Float
+---@field attachmentSlotListener gameAttachmentSlotsScriptListener
+---@field posAnimFeature AnimFeature_ProceduralDriverCombatData
+---@field vehicleRecord gamedataVehicle_Record
+---@field angleDelta EulerAngles
+---@field localOrientation EulerAngles
+---@field updateItemType gamedataItemType
+---@field photoModeActiveListener redCallbackObject
+---@field isPhotoModeActive Bool
+---@field minSwaySpeed Float
+---@field prevSpeed Float
 DriverCombatFirearmsEvents = {}
 
 ---@param fields? DriverCombatFirearmsEvents
 ---@return DriverCombatFirearmsEvents
-function DriverCombatFirearmsEvents.new(fields) return end
+function DriverCombatFirearmsEvents.new(fields) end
 
----@protected
 ---@param isInPhotoMode Bool
 ---@return Bool
-function DriverCombatFirearmsEvents:OnPhotomodeUpdate(isInPhotoMode) return end
+function DriverCombatFirearmsEvents:OnPhotomodeUpdate(isInPhotoMode) end
 
----@protected
 ---@param itemType gamedataItemType
 ---@return nil
-function DriverCombatFirearmsEvents:ApplyWeaponFxScalings(itemType) return end
+function DriverCombatFirearmsEvents:ApplyWeaponFxScalings(itemType) end
 
----@private
 ---@param enable Bool
 ---@return nil
-function DriverCombatFirearmsEvents:EnableSmartGunHandler(enable) return end
+function DriverCombatFirearmsEvents:EnableSmartGunHandler(enable) end
 
----@protected
 ---@return nil
-function DriverCombatFirearmsEvents:OnAimChange() return end
+function DriverCombatFirearmsEvents:OnAimChange() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatFirearmsEvents:OnAttach(stateContext, scriptInterface) return end
+function DriverCombatFirearmsEvents:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatFirearmsEvents:OnDetach(stateContext, scriptInterface) return end
+function DriverCombatFirearmsEvents:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatFirearmsEvents:OnEnter(stateContext, scriptInterface) return end
+function DriverCombatFirearmsEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatFirearmsEvents:OnExit(stateContext, scriptInterface) return end
+function DriverCombatFirearmsEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatFirearmsEvents:OnForcedExit(stateContext, scriptInterface) return end
+function DriverCombatFirearmsEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@private
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function DriverCombatFirearmsEvents:OnItemEquipped(slot, item) return end
+function DriverCombatFirearmsEvents:OnItemEquipped(slot, item) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatFirearmsEvents:OnPerspectiveUpdate(scriptInterface) return end
+function DriverCombatFirearmsEvents:OnPerspectiveUpdate(scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatFirearmsEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function DriverCombatFirearmsEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param value Bool
 ---@return nil
-function DriverCombatFirearmsEvents:RollDownWindowsForCombat(scriptInterface, value) return end
+function DriverCombatFirearmsEvents:RollDownWindowsForCombat(scriptInterface, value) end
 
----@private
 ---@param playerOwner PlayerPuppet
 ---@return nil
-function DriverCombatFirearmsEvents:UpdateAimingDirectionAnimFeature(playerOwner) return end
+function DriverCombatFirearmsEvents:UpdateAimingDirectionAnimFeature(playerOwner) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param itemType gamedataItemType
 ---@return nil
-function DriverCombatFirearmsEvents:UpdateItemEquipped(scriptInterface, itemType) return end
+function DriverCombatFirearmsEvents:UpdateItemEquipped(scriptInterface, itemType) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param playerOwner PlayerPuppet
 ---@return nil
-function DriverCombatFirearmsEvents:UpdateOrientations(scriptInterface, playerOwner) return end
+function DriverCombatFirearmsEvents:UpdateOrientations(scriptInterface, playerOwner) end
 
----@private
 ---@param applyEffect Bool
 ---@return nil
-function DriverCombatFirearmsEvents:UpdatePistolADSSpread(applyEffect) return end
+function DriverCombatFirearmsEvents:UpdatePistolADSSpread(applyEffect) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@param yaw Float
 ---@return nil
-function DriverCombatFirearmsEvents:UpdateSafeMode(scriptInterface, stateContext, yaw) return end
+function DriverCombatFirearmsEvents:UpdateSafeMode(scriptInterface, stateContext, yaw) end
 
----@private
 ---@param applyEffect Bool
 ---@return nil
-function DriverCombatFirearmsEvents:UpdateWeaponSwayPause(applyEffect) return end
+function DriverCombatFirearmsEvents:UpdateWeaponSwayPause(applyEffect) end
 
----@private
 ---@param applyEffect Bool
 ---@return nil
-function DriverCombatFirearmsEvents:UpdateWeaponSwayRemoval(applyEffect) return end
+function DriverCombatFirearmsEvents:UpdateWeaponSwayRemoval(applyEffect) end

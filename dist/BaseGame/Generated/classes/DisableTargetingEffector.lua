@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class DisableTargetingEffector: gameEffector
----@field private owner gameObject
+---@field owner gameObject
 DisableTargetingEffector = {}
 
 ---@param fields? DisableTargetingEffector
 ---@return DisableTargetingEffector
-function DisableTargetingEffector.new(fields) return end
+function DisableTargetingEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function DisableTargetingEffector:ActionOn(owner) return end
+function DisableTargetingEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function DisableTargetingEffector:Initialize(record, parentRecord) return end
+function DisableTargetingEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param toggle Bool
 ---@return nil
-function DisableTargetingEffector:SignalEvent(toggle) return end
+function DisableTargetingEffector:SignalEvent(toggle) end
 
----@protected
 ---@return nil
-function DisableTargetingEffector:Uninitialize() return end
+function DisableTargetingEffector:Uninitialize() end

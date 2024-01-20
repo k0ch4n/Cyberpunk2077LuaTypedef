@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class StatsDetailListController: inkWidgetLogicController
----@field private StatLabelRef inkTextWidgetReference
----@field private statsList inkCompoundWidgetReference
+---@field StatLabelRef inkTextWidgetReference
+---@field statsList inkCompoundWidgetReference
 StatsDetailListController = {}
 
 ---@param fields? StatsDetailListController
 ---@return StatsDetailListController
-function StatsDetailListController.new(fields) return end
+function StatsDetailListController.new(fields) end
 
----@protected
 ---@return Bool
-function StatsDetailListController:OnInitialize() return end
+function StatsDetailListController:OnInitialize() end
 
 ---@param categoryData gameStatViewData
 ---@param detailsData gameStatViewData[]
 ---@return nil
-function StatsDetailListController:SetData(categoryData, detailsData) return end
+function StatsDetailListController:SetData(categoryData, detailsData) end

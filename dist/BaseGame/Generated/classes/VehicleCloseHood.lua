@@ -5,7 +5,7 @@ VehicleCloseHood = {}
 
 ---@param fields? VehicleCloseHood
 ---@return VehicleCloseHood
-function VehicleCloseHood.new(fields) return end
+function VehicleCloseHood.new(fields) end
 
 ---@return nil
-function VehicleCloseHood:SetProperties() return end
+function VehicleCloseHood:SetProperties() end

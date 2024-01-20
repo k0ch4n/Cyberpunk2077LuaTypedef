@@ -5,4 +5,4 @@ QuestPrefabStateListener = {}
 
 ---@param fields? QuestPrefabStateListener
 ---@return QuestPrefabStateListener
-function QuestPrefabStateListener.new(fields) return end
+function QuestPrefabStateListener.new(fields) end

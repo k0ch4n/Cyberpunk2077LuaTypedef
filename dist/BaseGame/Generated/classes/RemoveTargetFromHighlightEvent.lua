@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RemoveTargetFromHighlightEvent: redEvent
----@field public target ScriptedPuppet
+---@field target ScriptedPuppet
 RemoveTargetFromHighlightEvent = {}
 
 ---@param fields? RemoveTargetFromHighlightEvent
 ---@return RemoveTargetFromHighlightEvent
-function RemoveTargetFromHighlightEvent.new(fields) return end
+function RemoveTargetFromHighlightEvent.new(fields) end

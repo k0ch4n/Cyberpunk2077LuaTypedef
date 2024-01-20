@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendHairProfileGradientEntry: ISerializable
----@field public value Float
----@field public color Color
+---@field value Float
+---@field color Color
 rendHairProfileGradientEntry = {}
 
 ---@param fields? rendHairProfileGradientEntry
 ---@return rendHairProfileGradientEntry
-function rendHairProfileGradientEntry.new(fields) return end
+function rendHairProfileGradientEntry.new(fields) end

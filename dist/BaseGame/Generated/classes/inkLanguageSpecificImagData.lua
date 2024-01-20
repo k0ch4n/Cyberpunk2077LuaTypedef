@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkLanguageSpecificImagData
----@field public languageID inkLanguageId
----@field public textureAtlasForLanguage inkTextureAtlas
----@field public partNameForLanguage CName
+---@field languageID inkLanguageId
+---@field textureAtlasForLanguage inkTextureAtlas
+---@field partNameForLanguage CName
 inkLanguageSpecificImagData = {}
 
 ---@param fields? inkLanguageSpecificImagData
 ---@return inkLanguageSpecificImagData
-function inkLanguageSpecificImagData.new(fields) return end
+function inkLanguageSpecificImagData.new(fields) end

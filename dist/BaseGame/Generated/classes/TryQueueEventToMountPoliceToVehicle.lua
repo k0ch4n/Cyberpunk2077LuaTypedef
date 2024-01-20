@@ -5,9 +5,8 @@ TryQueueEventToMountPoliceToVehicle = {}
 
 ---@param fields? TryQueueEventToMountPoliceToVehicle
 ---@return TryQueueEventToMountPoliceToVehicle
-function TryQueueEventToMountPoliceToVehicle.new(fields) return end
+function TryQueueEventToMountPoliceToVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function TryQueueEventToMountPoliceToVehicle:Check(context) return end
+function TryQueueEventToMountPoliceToVehicle:Check(context) end

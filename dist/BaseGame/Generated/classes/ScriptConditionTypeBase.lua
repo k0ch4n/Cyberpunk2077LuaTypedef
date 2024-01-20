@@ -5,7 +5,7 @@ ScriptConditionTypeBase = {}
 
 ---@param playerObject gameObject
 ---@return Bool
-function ScriptConditionTypeBase:Evaluate(playerObject) return end
+function ScriptConditionTypeBase:Evaluate(playerObject) end
 
 ---@return String
-function ScriptConditionTypeBase:ToString() return end
+function ScriptConditionTypeBase:ToString() end

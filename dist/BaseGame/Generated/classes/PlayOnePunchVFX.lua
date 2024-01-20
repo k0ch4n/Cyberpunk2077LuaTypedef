@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PlayOnePunchVFX: redEvent
----@field public target gameObject
----@field public instigator gameObject
+---@field target gameObject
+---@field instigator gameObject
 PlayOnePunchVFX = {}
 
 ---@param fields? PlayOnePunchVFX
 ---@return PlayOnePunchVFX
-function PlayOnePunchVFX.new(fields) return end
+function PlayOnePunchVFX.new(fields) end

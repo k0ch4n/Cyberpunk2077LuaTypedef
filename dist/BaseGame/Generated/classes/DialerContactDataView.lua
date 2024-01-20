@@ -1,34 +1,32 @@
 ---@meta
 
 ---@class DialerContactDataView: inkScriptableDataViewWrapper
----@field private compareBuilder CompareBuilder
----@field public sortMethod ContactsSortMethod
+---@field compareBuilder CompareBuilder
+---@field sortMethod ContactsSortMethod
 DialerContactDataView = {}
 
 ---@param fields? DialerContactDataView
 ---@return DialerContactDataView
-function DialerContactDataView.new(fields) return end
+function DialerContactDataView.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function DialerContactDataView:FilterItem(data) return end
+function DialerContactDataView:FilterItem(data) end
 
 ---@return nil
-function DialerContactDataView:Setup() return end
+function DialerContactDataView:Setup() end
 
----@private
 ---@param leftData ContactData
 ---@param rightData ContactData
 ---@return Bool
-function DialerContactDataView:SortByName(leftData, rightData) return end
+function DialerContactDataView:SortByName(leftData, rightData) end
 
----@private
 ---@param leftData ContactData
 ---@param rightData ContactData
 ---@return Bool
-function DialerContactDataView:SortByTime(leftData, rightData) return end
+function DialerContactDataView:SortByTime(leftData, rightData) end
 
 ---@param left IScriptable
 ---@param right IScriptable
 ---@return Bool
-function DialerContactDataView:SortItem(left, right) return end
+function DialerContactDataView:SortItem(left, right) end

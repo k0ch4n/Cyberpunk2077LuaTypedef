@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVehicleWheelMaterialsMapItem
----@field public name CName
----@field public audioMaterialCoeff Float
+---@field name CName
+---@field audioMaterialCoeff Float
 audioVehicleWheelMaterialsMapItem = {}
 
 ---@param fields? audioVehicleWheelMaterialsMapItem
 ---@return audioVehicleWheelMaterialsMapItem
-function audioVehicleWheelMaterialsMapItem.new(fields) return end
+function audioVehicleWheelMaterialsMapItem.new(fields) end

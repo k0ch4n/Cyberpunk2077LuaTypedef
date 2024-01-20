@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameinteractionsChoiceLookAtDescriptor
----@field public type gameinteractionsChoiceLookAtType
----@field public slotName CName
----@field public offset Vector3
----@field public orbId gameinteractionsOrbID
+---@field type gameinteractionsChoiceLookAtType
+---@field slotName CName
+---@field offset Vector3
+---@field orbId gameinteractionsOrbID
 gameinteractionsChoiceLookAtDescriptor = {}
 
 ---@param fields? gameinteractionsChoiceLookAtDescriptor
 ---@return gameinteractionsChoiceLookAtDescriptor
-function gameinteractionsChoiceLookAtDescriptor.new(fields) return end
+function gameinteractionsChoiceLookAtDescriptor.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ForwardVehicleQuestEnableUIEvent: redEvent
----@field public mode vehicleQuestUIEnable
+---@field mode vehicleQuestUIEnable
 ForwardVehicleQuestEnableUIEvent = {}
 
 ---@param fields? ForwardVehicleQuestEnableUIEvent
 ---@return ForwardVehicleQuestEnableUIEvent
-function ForwardVehicleQuestEnableUIEvent.new(fields) return end
+function ForwardVehicleQuestEnableUIEvent.new(fields) end

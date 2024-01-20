@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animFacialSetup_BufferInfo
----@field public tracksMapping animFacialSetup_TracksMapping
----@field public numLipsyncOverridesIndexMapping Uint16
----@field public numJointRegions Uint16
----@field public face animFacialSetup_OneSermoBufferInfo
----@field public eyes animFacialSetup_OneSermoBufferInfo
----@field public tongue animFacialSetup_OneSermoBufferInfo
+---@field tracksMapping animFacialSetup_TracksMapping
+---@field numLipsyncOverridesIndexMapping Uint16
+---@field numJointRegions Uint16
+---@field face animFacialSetup_OneSermoBufferInfo
+---@field eyes animFacialSetup_OneSermoBufferInfo
+---@field tongue animFacialSetup_OneSermoBufferInfo
 animFacialSetup_BufferInfo = {}
 
 ---@param fields? animFacialSetup_BufferInfo
 ---@return animFacialSetup_BufferInfo
-function animFacialSetup_BufferInfo.new(fields) return end
+function animFacialSetup_BufferInfo.new(fields) end

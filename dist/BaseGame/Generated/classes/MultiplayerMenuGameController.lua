@@ -5,27 +5,24 @@ MultiplayerMenuGameController = {}
 
 ---@param fields? MultiplayerMenuGameController
 ---@return MultiplayerMenuGameController
-function MultiplayerMenuGameController.new(fields) return end
+function MultiplayerMenuGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function MultiplayerMenuGameController:OnExit(e) return end
+function MultiplayerMenuGameController:OnExit(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function MultiplayerMenuGameController:OnFindServers(e) return end
+function MultiplayerMenuGameController:OnFindServers(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function MultiplayerMenuGameController:OnPlayRecordedSession(e) return end
+function MultiplayerMenuGameController:OnPlayRecordedSession(e) end
 
 ---@param buttonsList inkVerticalPanelWidget
 ---@return nil
-function MultiplayerMenuGameController:InitializeButtons(buttonsList) return end
+function MultiplayerMenuGameController:InitializeButtons(buttonsList) end
 
 ---@param menuName inkTextWidget
 ---@return nil
-function MultiplayerMenuGameController:InitializeMenuName(menuName) return end
+function MultiplayerMenuGameController:InitializeMenuName(menuName) end

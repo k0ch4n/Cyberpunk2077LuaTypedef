@@ -1,44 +1,42 @@
 ---@meta
 
 ---@class ComputerDocumentThumbnailWidgetController: DeviceButtonLogicControllerBase
----@field protected documentIconWidget inkImageWidgetReference
----@field protected documentAdress SDocumentAdress
----@field protected documentType EDocumentType
----@field protected questInfo gamedeviceQuestInfo
+---@field documentIconWidget inkImageWidgetReference
+---@field documentAdress SDocumentAdress
+---@field documentType EDocumentType
+---@field questInfo gamedeviceQuestInfo
 ComputerDocumentThumbnailWidgetController = {}
 
 ---@param fields? ComputerDocumentThumbnailWidgetController
 ---@return ComputerDocumentThumbnailWidgetController
-function ComputerDocumentThumbnailWidgetController.new(fields) return end
+function ComputerDocumentThumbnailWidgetController.new(fields) end
 
----@protected
 ---@return Bool
-function ComputerDocumentThumbnailWidgetController:OnInitialize() return end
+function ComputerDocumentThumbnailWidgetController:OnInitialize() end
 
 ---@return nil
-function ComputerDocumentThumbnailWidgetController:CloseDocument() return end
+function ComputerDocumentThumbnailWidgetController:CloseDocument() end
 
 ---@return SDocumentAdress
-function ComputerDocumentThumbnailWidgetController:GetDocumentAdress() return end
+function ComputerDocumentThumbnailWidgetController:GetDocumentAdress() end
 
 ---@return EDocumentType
-function ComputerDocumentThumbnailWidgetController:GetDocumentType() return end
+function ComputerDocumentThumbnailWidgetController:GetDocumentType() end
 
 ---@return gamedeviceQuestInfo
-function ComputerDocumentThumbnailWidgetController:GetQuestInfo() return end
+function ComputerDocumentThumbnailWidgetController:GetQuestInfo() end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetData SDocumentThumbnailWidgetPackage
 ---@return nil
-function ComputerDocumentThumbnailWidgetController:Initialize(gameController, widgetData) return end
+function ComputerDocumentThumbnailWidgetController:Initialize(gameController, widgetData) end
 
 ---@return nil
-function ComputerDocumentThumbnailWidgetController:OpenDocument() return end
+function ComputerDocumentThumbnailWidgetController:OpenDocument() end
 
----@protected
 ---@param gameController ComputerInkGameController
 ---@return nil
-function ComputerDocumentThumbnailWidgetController:RegisterThumbnailCallback(gameController) return end
+function ComputerDocumentThumbnailWidgetController:RegisterThumbnailCallback(gameController) end
 
 ---@return nil
-function ComputerDocumentThumbnailWidgetController:ResolveSelection() return end
+function ComputerDocumentThumbnailWidgetController:ResolveSelection() end

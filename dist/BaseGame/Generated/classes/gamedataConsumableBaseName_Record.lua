@@ -5,13 +5,13 @@ gamedataConsumableBaseName_Record = {}
 
 ---@param fields? gamedataConsumableBaseName_Record
 ---@return gamedataConsumableBaseName_Record
-function gamedataConsumableBaseName_Record.new(fields) return end
+function gamedataConsumableBaseName_Record.new(fields) end
 
 ---@return CName
-function gamedataConsumableBaseName_Record:EnumComment() return end
+function gamedataConsumableBaseName_Record:EnumComment() end
 
 ---@return CName
-function gamedataConsumableBaseName_Record:EnumName() return end
+function gamedataConsumableBaseName_Record:EnumName() end
 
 ---@return gamedataConsumableBaseName
-function gamedataConsumableBaseName_Record:Type() return end
+function gamedataConsumableBaseName_Record:Type() end

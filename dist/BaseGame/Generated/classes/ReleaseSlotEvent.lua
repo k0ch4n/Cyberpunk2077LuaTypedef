@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ReleaseSlotEvent: redEvent
----@field public slotID Int32
+---@field slotID Int32
 ReleaseSlotEvent = {}
 
 ---@param fields? ReleaseSlotEvent
 ---@return ReleaseSlotEvent
-function ReleaseSlotEvent.new(fields) return end
+function ReleaseSlotEvent.new(fields) end

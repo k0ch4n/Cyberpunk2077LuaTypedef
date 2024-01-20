@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class NetrunnerChairControllerPS: ScriptableDeviceComponentPS
----@field protected killDelay Float
----@field protected wasOverloaded Bool
+---@field killDelay Float
+---@field wasOverloaded Bool
 NetrunnerChairControllerPS = {}
 
 ---@param fields? NetrunnerChairControllerPS
 ---@return NetrunnerChairControllerPS
-function NetrunnerChairControllerPS.new(fields) return end
+function NetrunnerChairControllerPS.new(fields) end
 
----@protected
 ---@return OverloadDevice
-function NetrunnerChairControllerPS:ActionOverloadDevice() return end
+function NetrunnerChairControllerPS:ActionOverloadDevice() end
 
----@protected
 ---@return Bool
-function NetrunnerChairControllerPS:CanCreateAnyQuickHackActions() return end
+function NetrunnerChairControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function NetrunnerChairControllerPS:GetQuickHackActions(context) return end
+function NetrunnerChairControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@param evt OverloadDevice
 ---@return EntityNotificationType
-function NetrunnerChairControllerPS:OnOverloadDevice(evt) return end
+function NetrunnerChairControllerPS:OnOverloadDevice(evt) end

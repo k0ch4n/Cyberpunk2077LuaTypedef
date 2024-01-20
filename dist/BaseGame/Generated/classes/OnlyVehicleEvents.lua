@@ -5,9 +5,9 @@ OnlyVehicleEvents = {}
 
 ---@param fields? OnlyVehicleEvents
 ---@return OnlyVehicleEvents
-function OnlyVehicleEvents.new(fields) return end
+function OnlyVehicleEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function OnlyVehicleEvents:ToCycleObjective(stateContext, scriptInterface) return end
+function OnlyVehicleEvents:ToCycleObjective(stateContext, scriptInterface) end

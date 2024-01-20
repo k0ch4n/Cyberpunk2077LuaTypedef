@@ -5,7 +5,7 @@ gamedataShooterProjectileAI_Record = {}
 
 ---@param fields? gamedataShooterProjectileAI_Record
 ---@return gamedataShooterProjectileAI_Record
-function gamedataShooterProjectileAI_Record.new(fields) return end
+function gamedataShooterProjectileAI_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterProjectileAI_Record:FireDelay() return end
+function gamedataShooterProjectileAI_Record:FireDelay() end

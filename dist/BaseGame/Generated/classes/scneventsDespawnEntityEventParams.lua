@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scneventsDespawnEntityEventParams
----@field public performer scnPerformerId
+---@field performer scnPerformerId
 scneventsDespawnEntityEventParams = {}
 
 ---@param fields? scneventsDespawnEntityEventParams
 ---@return scneventsDespawnEntityEventParams
-function scneventsDespawnEntityEventParams.new(fields) return end
+function scneventsDespawnEntityEventParams.new(fields) end

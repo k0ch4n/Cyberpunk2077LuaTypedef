@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class ToggleMaterialOverlayEffector: gameEffector
----@field private effectPath String
----@field private effectTag CName
----@field private owner gameObject
+---@field effectPath String
+---@field effectTag CName
+---@field owner gameObject
 ToggleMaterialOverlayEffector = {}
 
 ---@param fields? ToggleMaterialOverlayEffector
 ---@return ToggleMaterialOverlayEffector
-function ToggleMaterialOverlayEffector.new(fields) return end
+function ToggleMaterialOverlayEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ToggleMaterialOverlayEffector:ActionOff(owner) return end
+function ToggleMaterialOverlayEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ToggleMaterialOverlayEffector:ActionOn(owner) return end
+function ToggleMaterialOverlayEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ToggleMaterialOverlayEffector:Initialize(record, parentRecord) return end
+function ToggleMaterialOverlayEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param enable Bool
 ---@return nil
-function ToggleMaterialOverlayEffector:ToggleEffect(enable) return end
+function ToggleMaterialOverlayEffector:ToggleEffect(enable) end
 
----@protected
 ---@return nil
-function ToggleMaterialOverlayEffector:Uninitialize() return end
+function ToggleMaterialOverlayEffector:Uninitialize() end

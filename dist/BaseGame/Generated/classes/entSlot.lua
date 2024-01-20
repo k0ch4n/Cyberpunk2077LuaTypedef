@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class entSlot
----@field public slotName CName
----@field public relativePosition Vector3
----@field public relativeRotation Quaternion
----@field public boneName CName
+---@field slotName CName
+---@field relativePosition Vector3
+---@field relativeRotation Quaternion
+---@field boneName CName
 entSlot = {}
 
 ---@param fields? entSlot
 ---@return entSlot
-function entSlot.new(fields) return end
+function entSlot.new(fields) end

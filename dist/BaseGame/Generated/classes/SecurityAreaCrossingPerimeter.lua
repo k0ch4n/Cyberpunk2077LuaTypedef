@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class SecurityAreaCrossingPerimeter: SecurityAreaEvent
----@field private entered Bool
+---@field entered Bool
 SecurityAreaCrossingPerimeter = {}
 
 ---@param fields? SecurityAreaCrossingPerimeter
 ---@return SecurityAreaCrossingPerimeter
-function SecurityAreaCrossingPerimeter.new(fields) return end
+function SecurityAreaCrossingPerimeter.new(fields) end
 
 ---@return Bool
-function SecurityAreaCrossingPerimeter:GetEnteredState() return end
+function SecurityAreaCrossingPerimeter:GetEnteredState() end
 
 ---@param whoBreached gameObject
 ---@param didEnter Bool
 ---@return nil
-function SecurityAreaCrossingPerimeter:SetProperties(whoBreached, didEnter) return end
+function SecurityAreaCrossingPerimeter:SetProperties(whoBreached, didEnter) end

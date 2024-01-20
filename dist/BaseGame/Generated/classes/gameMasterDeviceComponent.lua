@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameMasterDeviceComponent: gameComponent
----@field public clearance gamedeviceClearance
+---@field clearance gamedeviceClearance
 gameMasterDeviceComponent = {}
 
 ---@param fields? gameMasterDeviceComponent
 ---@return gameMasterDeviceComponent
-function gameMasterDeviceComponent.new(fields) return end
+function gameMasterDeviceComponent.new(fields) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function gameMasterDeviceComponent:GetActionsOfConnectedDevices(context) return end
+function gameMasterDeviceComponent:GetActionsOfConnectedDevices(context) end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameMasterDeviceComponent:GetConnectedDevices() return end
+function gameMasterDeviceComponent:GetConnectedDevices() end

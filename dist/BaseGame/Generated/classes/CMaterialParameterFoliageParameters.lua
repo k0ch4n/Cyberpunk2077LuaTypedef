@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CMaterialParameterFoliageParameters: CMaterialParameter
----@field public foliageProfile CFoliageProfile
+---@field foliageProfile CFoliageProfile
 CMaterialParameterFoliageParameters = {}
 
 ---@param fields? CMaterialParameterFoliageParameters
 ---@return CMaterialParameterFoliageParameters
-function CMaterialParameterFoliageParameters.new(fields) return end
+function CMaterialParameterFoliageParameters.new(fields) end

@@ -1,42 +1,39 @@
 ---@meta
 
 ---@class InventoryGenericItemChooser: inkWidgetLogicController
----@field protected itemContainer inkCompoundWidgetReference
----@field protected slotsCategory inkWidgetReference
----@field protected slotsRootContainer inkWidgetReference
----@field protected slotsRootLabel inkTextWidgetReference
----@field protected slotsContainer inkCompoundWidgetReference
----@field protected player PlayerPuppet
----@field protected inventoryDataManager InventoryDataManagerV2
----@field protected uiScriptableSystem UIScriptableSystem
----@field protected equipmentArea gamedataEquipmentArea
----@field protected itemDisplay InventoryItemDisplayController
----@field protected slotIndex Int32
----@field protected selectedItem InventoryItemDisplayController
----@field protected tooltipsManager gameuiTooltipsManager
----@field private transmogCtrlsContainer inkCompoundWidgetReference
----@field private transmogIndicatorCtrl TransmogButtonView
----@field private transmogIndicator inkWidget
+---@field itemContainer inkCompoundWidgetReference
+---@field slotsCategory inkWidgetReference
+---@field slotsRootContainer inkWidgetReference
+---@field slotsRootLabel inkTextWidgetReference
+---@field slotsContainer inkCompoundWidgetReference
+---@field player PlayerPuppet
+---@field inventoryDataManager InventoryDataManagerV2
+---@field uiScriptableSystem UIScriptableSystem
+---@field equipmentArea gamedataEquipmentArea
+---@field itemDisplay InventoryItemDisplayController
+---@field slotIndex Int32
+---@field selectedItem InventoryItemDisplayController
+---@field tooltipsManager gameuiTooltipsManager
+---@field transmogCtrlsContainer inkCompoundWidgetReference
+---@field transmogIndicatorCtrl TransmogButtonView
+---@field transmogIndicator inkWidget
 InventoryGenericItemChooser = {}
 
 ---@param fields? InventoryGenericItemChooser
 ---@return InventoryGenericItemChooser
-function InventoryGenericItemChooser.new(fields) return end
+function InventoryGenericItemChooser.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryGenericItemChooser:OnInventoryItemHoverOut(evt) return end
+function InventoryGenericItemChooser:OnInventoryItemHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryGenericItemChooser:OnInventoryItemHoverOver(evt) return end
+function InventoryGenericItemChooser:OnInventoryItemHoverOver(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function InventoryGenericItemChooser:OnItemInventoryClick(e) return end
+function InventoryGenericItemChooser:OnItemInventoryClick(e) end
 
 ---@param playerArg PlayerPuppet
 ---@param inventoryDataManagerArg InventoryDataManagerV2
@@ -45,116 +42,102 @@ function InventoryGenericItemChooser:OnItemInventoryClick(e) return end
 ---@param tooltipsManagerArg? gameuiTooltipsManager
 ---@param showTransmogedIcon? Bool
 ---@return nil
-function InventoryGenericItemChooser:Bind(playerArg, inventoryDataManagerArg, equipmentAreaArg, slotIndexArg, tooltipsManagerArg, showTransmogedIcon) return end
+function InventoryGenericItemChooser:Bind(playerArg, inventoryDataManagerArg, equipmentAreaArg, slotIndexArg, tooltipsManagerArg, showTransmogedIcon) end
 
 ---@param scriptableSystem UIScriptableSystem
 ---@return nil
-function InventoryGenericItemChooser:BindUIScriptableSystem(scriptableSystem) return end
+function InventoryGenericItemChooser:BindUIScriptableSystem(scriptableSystem) end
 
 ---@param targetItem gameItemID
 ---@return Bool
-function InventoryGenericItemChooser:CanEquipVisuals(targetItem) return end
+function InventoryGenericItemChooser:CanEquipVisuals(targetItem) end
 
----@protected
 ---@param controller InventoryItemDisplayController
 ---@return nil
-function InventoryGenericItemChooser:ChangeSelectedItem(controller) return end
+function InventoryGenericItemChooser:ChangeSelectedItem(controller) end
 
----@private
 ---@return UIMenuNotificationType
-function InventoryGenericItemChooser:DetermineUIMenuNotificationType() return end
+function InventoryGenericItemChooser:DetermineUIMenuNotificationType() end
 
----@protected
 ---@return Bool
-function InventoryGenericItemChooser:ForceDisplayLabel() return end
+function InventoryGenericItemChooser:ForceDisplayLabel() end
 
----@protected
 ---@return CName
-function InventoryGenericItemChooser:GetDisplayToSpawn() return end
+function InventoryGenericItemChooser:GetDisplayToSpawn() end
 
 ---@return gamedataEquipmentArea
-function InventoryGenericItemChooser:GetEquipmentArea() return end
+function InventoryGenericItemChooser:GetEquipmentArea() end
 
----@protected
 ---@return CName
-function InventoryGenericItemChooser:GetIntroAnimation() return end
+function InventoryGenericItemChooser:GetIntroAnimation() end
 
----@private
 ---@param evt inkPointerEvent
 ---@return InventoryItemDisplayController
-function InventoryGenericItemChooser:GetInventoryItemDisplayControllerFromTarget(evt) return end
+function InventoryGenericItemChooser:GetInventoryItemDisplayControllerFromTarget(evt) end
 
 ---@return InventoryItemDisplayController
-function InventoryGenericItemChooser:GetModifiedItem() return end
+function InventoryGenericItemChooser:GetModifiedItem() end
 
 ---@return gameInventoryItemData
-function InventoryGenericItemChooser:GetModifiedItemData() return end
+function InventoryGenericItemChooser:GetModifiedItemData() end
 
 ---@return gameItemID
-function InventoryGenericItemChooser:GetModifiedItemID() return end
+function InventoryGenericItemChooser:GetModifiedItemID() end
 
 ---@return InventoryItemDisplayController
-function InventoryGenericItemChooser:GetSelectedItem() return end
+function InventoryGenericItemChooser:GetSelectedItem() end
 
 ---@return TweakDBID
-function InventoryGenericItemChooser:GetSelectedSlotID() return end
+function InventoryGenericItemChooser:GetSelectedSlotID() end
 
----@protected
 ---@return CName
-function InventoryGenericItemChooser:GetSlotDisplayToSpawn() return end
+function InventoryGenericItemChooser:GetSlotDisplayToSpawn() end
 
 ---@return Int32
-function InventoryGenericItemChooser:GetSlotIndex() return end
+function InventoryGenericItemChooser:GetSlotIndex() end
 
----@protected
 ---@return gameInventoryItemAttachments[]
-function InventoryGenericItemChooser:GetSlots() return end
+function InventoryGenericItemChooser:GetSlots() end
 
----@private
 ---@return nil
-function InventoryGenericItemChooser:HideTooltips() return end
+function InventoryGenericItemChooser:HideTooltips() end
 
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function InventoryGenericItemChooser:IsAttachmentItem(itemData) return end
+function InventoryGenericItemChooser:IsAttachmentItem(itemData) end
 
----@protected
 ---@return nil
-function InventoryGenericItemChooser:RebuildSlots() return end
+function InventoryGenericItemChooser:RebuildSlots() end
 
 ---@param overrideClothingSet? Bool
 ---@param clothingSetIndex? Int32
 ---@param showTransmogedIcon? Bool
 ---@return nil
-function InventoryGenericItemChooser:RefreshItems(overrideClothingSet, clothingSetIndex, showTransmogedIcon) return end
+function InventoryGenericItemChooser:RefreshItems(overrideClothingSet, clothingSetIndex, showTransmogedIcon) end
 
----@protected
 ---@param overrideClothingSet? Bool
 ---@param clothingSetIndex? Int32
 ---@param showTransmogedIcon? Bool
 ---@return nil
-function InventoryGenericItemChooser:RefreshMainItem(overrideClothingSet, clothingSetIndex, showTransmogedIcon) return end
+function InventoryGenericItemChooser:RefreshMainItem(overrideClothingSet, clothingSetIndex, showTransmogedIcon) end
 
 ---@return nil
-function InventoryGenericItemChooser:RefreshSelectedItem() return end
+function InventoryGenericItemChooser:RefreshSelectedItem() end
 
 ---@return Bool
-function InventoryGenericItemChooser:RequestClose() return end
+function InventoryGenericItemChooser:RequestClose() end
 
 ---@return nil
-function InventoryGenericItemChooser:SelectMainItem() return end
+function InventoryGenericItemChooser:SelectMainItem() end
 
----@private
 ---@param type UIMenuNotificationType
 ---@return nil
-function InventoryGenericItemChooser:ShowNotification(type) return end
+function InventoryGenericItemChooser:ShowNotification(type) end
 
----@protected
 ---@param controller InventoryItemDisplayController
 ---@return nil
-function InventoryGenericItemChooser:UnequipItem(controller) return end
+function InventoryGenericItemChooser:UnequipItem(controller) end
 
----@protected
 ---@param controller InventoryItemDisplayController
 ---@return nil
-function InventoryGenericItemChooser:UnequipItemMods(controller) return end
+function InventoryGenericItemChooser:UnequipItemMods(controller) end

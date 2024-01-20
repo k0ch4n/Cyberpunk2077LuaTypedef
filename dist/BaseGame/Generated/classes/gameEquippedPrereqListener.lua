@@ -5,4 +5,4 @@ gameEquippedPrereqListener = {}
 
 ---@param fields? gameEquippedPrereqListener
 ---@return gameEquippedPrereqListener
-function gameEquippedPrereqListener.new(fields) return end
+function gameEquippedPrereqListener.new(fields) end

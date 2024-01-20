@@ -5,10 +5,9 @@ FastForwardSelfRemovalDecisions = {}
 
 ---@param fields? FastForwardSelfRemovalDecisions
 ---@return FastForwardSelfRemovalDecisions
-function FastForwardSelfRemovalDecisions.new(fields) return end
+function FastForwardSelfRemovalDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FastForwardSelfRemovalDecisions:EnterCondition(stateContext, scriptInterface) return end
+function FastForwardSelfRemovalDecisions:EnterCondition(stateContext, scriptInterface) end

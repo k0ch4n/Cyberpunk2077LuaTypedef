@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class SystemCollapseModifyRevealBarEffector: gameEffector
----@field public value Float
+---@field value Float
 SystemCollapseModifyRevealBarEffector = {}
 
 ---@param fields? SystemCollapseModifyRevealBarEffector
 ---@return SystemCollapseModifyRevealBarEffector
-function SystemCollapseModifyRevealBarEffector.new(fields) return end
+function SystemCollapseModifyRevealBarEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SystemCollapseModifyRevealBarEffector:ActionOn(owner) return end
+function SystemCollapseModifyRevealBarEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SystemCollapseModifyRevealBarEffector:Initialize(record, parentRecord) return end
+function SystemCollapseModifyRevealBarEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function SystemCollapseModifyRevealBarEffector:ProcessEffector(owner) return end
+function SystemCollapseModifyRevealBarEffector:ProcessEffector(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SystemCollapseModifyRevealBarEffector:RepeatedAction(owner) return end
+function SystemCollapseModifyRevealBarEffector:RepeatedAction(owner) end

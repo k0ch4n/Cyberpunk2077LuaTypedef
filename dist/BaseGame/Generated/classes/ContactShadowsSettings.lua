@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ContactShadowsSettings: IAreaSettings
----@field public contactShadows ContactShadowsConfig
+---@field contactShadows ContactShadowsConfig
 ContactShadowsSettings = {}
 
 ---@param fields? ContactShadowsSettings
 ---@return ContactShadowsSettings
-function ContactShadowsSettings.new(fields) return end
+function ContactShadowsSettings.new(fields) end

@@ -1,48 +1,45 @@
 ---@meta
 
 ---@class textScrollingAnimController: inkWidgetLogicController
----@field public scannerDetailsHackLog inkTextWidgetReference
----@field public defaultScrollSpeed Float
----@field public playOnInit Bool
----@field public numOfLines Int32
----@field public numOfStartingLines Int32
----@field public transparency Float
----@field public gapIndex Int32
----@field public binaryOnly Bool
----@field public binaryClusterCount Int32
----@field public scrollingText ScrollingText
----@field private logArray String[]
----@field private upload_counter Float
----@field private scrollSpeed Float
----@field private fastScrollSpeed Float
----@field private panel inkCompoundWidget
----@field private alpha_fadein inkanimDefinition
----@field private AnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private lineCount Int32
+---@field scannerDetailsHackLog inkTextWidgetReference
+---@field defaultScrollSpeed Float
+---@field playOnInit Bool
+---@field numOfLines Int32
+---@field numOfStartingLines Int32
+---@field transparency Float
+---@field gapIndex Int32
+---@field binaryOnly Bool
+---@field binaryClusterCount Int32
+---@field scrollingText ScrollingText
+---@field logArray String[]
+---@field upload_counter Float
+---@field scrollSpeed Float
+---@field fastScrollSpeed Float
+---@field panel inkCompoundWidget
+---@field alpha_fadein inkanimDefinition
+---@field AnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field lineCount Int32
 textScrollingAnimController = {}
 
 ---@param fields? textScrollingAnimController
 ---@return textScrollingAnimController
-function textScrollingAnimController.new(fields) return end
+function textScrollingAnimController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function textScrollingAnimController:OnEndLoop(proxy) return end
+function textScrollingAnimController:OnEndLoop(proxy) end
 
----@protected
 ---@return Bool
-function textScrollingAnimController:OnInitialize() return end
+function textScrollingAnimController:OnInitialize() end
 
----@private
 ---@param count Int32
 ---@return nil
-function textScrollingAnimController:AddToHackLog(count) return end
+function textScrollingAnimController:AddToHackLog(count) end
 
 ---@param fast? Bool
 ---@return nil
-function textScrollingAnimController:StartScroll(fast) return end
+function textScrollingAnimController:StartScroll(fast) end
 
 ---@return nil
-function textScrollingAnimController:StopScroll() return end
+function textScrollingAnimController:StopScroll() end

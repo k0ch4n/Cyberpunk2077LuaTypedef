@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class physicsMaterialTags
----@field public aiVisibility physicsMaterialTagVisibility
----@field public playerVisibility physicsMaterialTagVisibility
----@field public projectilePenetration physicsMaterialTagProjectilePenetration
----@field public projectileRicochet physicsMaterialTagProjectileRicochet
----@field public vehicleTraction physicsMaterialTagVehicleTraction
+---@field aiVisibility physicsMaterialTagVisibility
+---@field playerVisibility physicsMaterialTagVisibility
+---@field projectilePenetration physicsMaterialTagProjectilePenetration
+---@field projectileRicochet physicsMaterialTagProjectileRicochet
+---@field vehicleTraction physicsMaterialTagVehicleTraction
 physicsMaterialTags = {}
 
 ---@param fields? physicsMaterialTags
 ---@return physicsMaterialTags
-function physicsMaterialTags.new(fields) return end
+function physicsMaterialTags.new(fields) end

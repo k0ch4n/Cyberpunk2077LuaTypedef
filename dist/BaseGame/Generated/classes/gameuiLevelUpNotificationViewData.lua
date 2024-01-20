@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameuiLevelUpNotificationViewData: gameuiGenericNotificationViewData
----@field public canBeMerged Bool
----@field public levelupdata questLevelUpData
----@field public proficiencyRecord gamedataProficiency_Record
----@field public profString String
+---@field canBeMerged Bool
+---@field levelupdata questLevelUpData
+---@field proficiencyRecord gamedataProficiency_Record
+---@field profString String
 gameuiLevelUpNotificationViewData = {}
 
 ---@param fields? gameuiLevelUpNotificationViewData
 ---@return gameuiLevelUpNotificationViewData
-function gameuiLevelUpNotificationViewData.new(fields) return end
+function gameuiLevelUpNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function gameuiLevelUpNotificationViewData:CanMerge(data) return end
+function gameuiLevelUpNotificationViewData:CanMerge(data) end

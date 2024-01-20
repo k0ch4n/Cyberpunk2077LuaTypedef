@@ -5,13 +5,13 @@ gamedataImprovementRelation_Record = {}
 
 ---@param fields? gamedataImprovementRelation_Record
 ---@return gamedataImprovementRelation_Record
-function gamedataImprovementRelation_Record.new(fields) return end
+function gamedataImprovementRelation_Record.new(fields) end
 
 ---@return String
-function gamedataImprovementRelation_Record:EnumComment() return end
+function gamedataImprovementRelation_Record:EnumComment() end
 
 ---@return CName
-function gamedataImprovementRelation_Record:EnumName() return end
+function gamedataImprovementRelation_Record:EnumName() end
 
 ---@return gamedataImprovementRelation
-function gamedataImprovementRelation_Record:Type() return end
+function gamedataImprovementRelation_Record:Type() end

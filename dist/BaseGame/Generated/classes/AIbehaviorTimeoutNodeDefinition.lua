@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorTimeoutNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public time AIArgumentMapping
+---@field time AIArgumentMapping
 AIbehaviorTimeoutNodeDefinition = {}
 
 ---@param fields? AIbehaviorTimeoutNodeDefinition
 ---@return AIbehaviorTimeoutNodeDefinition
-function AIbehaviorTimeoutNodeDefinition.new(fields) return end
+function AIbehaviorTimeoutNodeDefinition.new(fields) end

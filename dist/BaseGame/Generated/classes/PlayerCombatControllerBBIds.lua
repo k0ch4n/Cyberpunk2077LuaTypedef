@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerCombatControllerBBIds
----@field public crouchActive gamebbScriptDefinition
+---@field crouchActive gamebbScriptDefinition
 PlayerCombatControllerBBIds = {}
 
 ---@param fields? PlayerCombatControllerBBIds
 ---@return PlayerCombatControllerBBIds
-function PlayerCombatControllerBBIds.new(fields) return end
+function PlayerCombatControllerBBIds.new(fields) end

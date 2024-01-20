@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkLineVertex
----@field public int Vector2
----@field public neType inkLineType
+---@field int Vector2
+---@field neType inkLineType
 inkLineVertex = {}
 
 ---@param fields? inkLineVertex
 ---@return inkLineVertex
-function inkLineVertex.new(fields) return end
+function inkLineVertex.new(fields) end

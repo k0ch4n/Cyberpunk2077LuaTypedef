@@ -5,21 +5,21 @@ gamePrereqState = {}
 
 ---@param fields? gamePrereqState
 ---@return gamePrereqState
-function gamePrereqState.new(fields) return end
+function gamePrereqState.new(fields) end
 
 ---@return IScriptable
-function gamePrereqState:GetContext() return end
+function gamePrereqState:GetContext() end
 
 ---@return gameIPrereq
-function gamePrereqState:GetPrereq() return end
+function gamePrereqState:GetPrereq() end
 
 ---@return Bool
-function gamePrereqState:IsFulfilled() return end
+function gamePrereqState:IsFulfilled() end
 
 ---@param newState Bool
 ---@return nil
-function gamePrereqState:OnChanged(newState) return end
+function gamePrereqState:OnChanged(newState) end
 
 ---@param callOnlyOnStateFulfilled? Bool
 ---@return nil
-function gamePrereqState:OnChangedRepeated(callOnlyOnStateFulfilled) return end
+function gamePrereqState:OnChangedRepeated(callOnlyOnStateFulfilled) end

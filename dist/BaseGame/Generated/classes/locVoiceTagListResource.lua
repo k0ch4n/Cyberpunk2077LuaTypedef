@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class locVoiceTagListResource: CResource
----@field public voiceTags locVoiceTag[]
+---@field voiceTags locVoiceTag[]
 locVoiceTagListResource = {}
 
 ---@param fields? locVoiceTagListResource
 ---@return locVoiceTagListResource
-function locVoiceTagListResource.new(fields) return end
+function locVoiceTagListResource.new(fields) end

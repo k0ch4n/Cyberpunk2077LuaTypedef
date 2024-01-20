@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameMovingPlatformArrivedAt: redEvent
----@field public destinationName CName
----@field public data Int32
+---@field destinationName CName
+---@field data Int32
 gameMovingPlatformArrivedAt = {}
 
 ---@param fields? gameMovingPlatformArrivedAt
 ---@return gameMovingPlatformArrivedAt
-function gameMovingPlatformArrivedAt.new(fields) return end
+function gameMovingPlatformArrivedAt.new(fields) end

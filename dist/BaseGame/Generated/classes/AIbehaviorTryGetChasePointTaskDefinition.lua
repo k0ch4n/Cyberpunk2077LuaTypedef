@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorTryGetChasePointTaskDefinition: AIbehaviorTaskDefinition
----@field public inPlayerPositionDelay AIArgumentMapping
----@field public inPlayerPositionMaxDistance AIArgumentMapping
----@field public inNearestNavmeshPolyExtent AIArgumentMapping
----@field public outChasePosition AIArgumentMapping
+---@field inPlayerPositionDelay AIArgumentMapping
+---@field inPlayerPositionMaxDistance AIArgumentMapping
+---@field inNearestNavmeshPolyExtent AIArgumentMapping
+---@field outChasePosition AIArgumentMapping
 AIbehaviorTryGetChasePointTaskDefinition = {}
 
 ---@param fields? AIbehaviorTryGetChasePointTaskDefinition
 ---@return AIbehaviorTryGetChasePointTaskDefinition
-function AIbehaviorTryGetChasePointTaskDefinition.new(fields) return end
+function AIbehaviorTryGetChasePointTaskDefinition.new(fields) end

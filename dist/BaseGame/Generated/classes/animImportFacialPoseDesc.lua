@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animImportFacialPoseDesc
----@field public transforms animImportFacialTransform[]
----@field public transformsNoScale animImportFacialTransformNoScale[]
----@field public transformIds Uint16[]
----@field public transformNames CName[]
+---@field transforms animImportFacialTransform[]
+---@field transformsNoScale animImportFacialTransformNoScale[]
+---@field transformIds Uint16[]
+---@field transformNames CName[]
 animImportFacialPoseDesc = {}
 
 ---@param fields? animImportFacialPoseDesc
 ---@return animImportFacialPoseDesc
-function animImportFacialPoseDesc.new(fields) return end
+function animImportFacialPoseDesc.new(fields) end

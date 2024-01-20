@@ -1,65 +1,65 @@
 ---@meta
 
 ---@class TestStepLogic: IScriptable
----@field public maxExecutionTimeSec Float
----@field public executionTimeSec Float
----@field public paramsData ParamData[]
+---@field maxExecutionTimeSec Float
+---@field executionTimeSec Float
+---@field paramsData ParamData[]
 TestStepLogic = {}
 
 ---@param fields? TestStepLogic
 ---@return TestStepLogic
-function TestStepLogic.new(fields) return end
+function TestStepLogic.new(fields) end
 
 ---@return nil
-function TestStepLogic:GetATUI() return end
+function TestStepLogic:GetATUI() end
 
 ---@return nil
-function TestStepLogic:GetAudioFunctionalTests() return end
+function TestStepLogic:GetAudioFunctionalTests() end
 
 ---@return nil
-function TestStepLogic:GetFunctionalTestsGameSystem() return end
+function TestStepLogic:GetFunctionalTestsGameSystem() end
 
 ---@return nil
-function TestStepLogic:GetGameInstance() return end
+function TestStepLogic:GetGameInstance() end
 
 ---@return nil
-function TestStepLogic:GetNavigationFunctionalTests() return end
+function TestStepLogic:GetNavigationFunctionalTests() end
 
 ---@return nil
-function TestStepLogic:GetOptionalParam() return end
+function TestStepLogic:GetOptionalParam() end
 
 ---@return nil
-function TestStepLogic:GetParam() return end
+function TestStepLogic:GetParam() end
 
 ---@return nil
-function TestStepLogic:GetPhysicsFunctionalTests() return end
+function TestStepLogic:GetPhysicsFunctionalTests() end
 
 ---@return nil
-function TestStepLogic:GetPlayerFunctionalTests() return end
+function TestStepLogic:GetPlayerFunctionalTests() end
 
 ---@return nil
-function TestStepLogic:GetPlayerSystem() return end
+function TestStepLogic:GetPlayerSystem() end
 
 ---@return nil
-function TestStepLogic:GetRenderingFunctionalTests() return end
+function TestStepLogic:GetRenderingFunctionalTests() end
 
 ---@return nil
-function TestStepLogic:GetUIFunctionalTests() return end
+function TestStepLogic:GetUIFunctionalTests() end
 
 ---@return nil
-function TestStepLogic:GetWorldFunctionalTests() return end
+function TestStepLogic:GetWorldFunctionalTests() end
 
 ---@return nil
-function TestStepLogic:RegisterToEntityEvents() return end
+function TestStepLogic:RegisterToEntityEvents() end
 
 ---@return nil
-function TestStepLogic:ReturnResult() return end
+function TestStepLogic:ReturnResult() end
 
 ---@return nil
-function TestStepLogic:ReturnValue() return end
+function TestStepLogic:ReturnValue() end
 
 ---@return nil
-function TestStepLogic:SetParamTypes() return end
+function TestStepLogic:SetParamTypes() end
 
 ---@return nil
-function TestStepLogic:StartTest() return end
+function TestStepLogic:StartTest() end

@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class SimpleSetEquipWeapons: AIbehaviortaskScript
----@field public primary Bool
----@field public secondary Bool
----@field private puppet ScriptedPuppet
----@field private game ScriptGameInstance
----@field private transactionSystem gameTransactionSystem
----@field private primaryItems gamedataNPCEquipmentItem_Record[]
----@field private secondaryItems gamedataNPCEquipmentItem_Record[]
----@field private initialized Bool
+---@field primary Bool
+---@field secondary Bool
+---@field puppet ScriptedPuppet
+---@field game ScriptGameInstance
+---@field transactionSystem gameTransactionSystem
+---@field primaryItems gamedataNPCEquipmentItem_Record[]
+---@field secondaryItems gamedataNPCEquipmentItem_Record[]
+---@field initialized Bool
 SimpleSetEquipWeapons = {}
 
 ---@param fields? SimpleSetEquipWeapons
 ---@return SimpleSetEquipWeapons
-function SimpleSetEquipWeapons.new(fields) return end
+function SimpleSetEquipWeapons.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleSetEquipWeapons:Activate(context) return end
+function SimpleSetEquipWeapons:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param itemsList NPCItemToEquip[]
 ---@return Bool
-function SimpleSetEquipWeapons:GetItemsToEquip(context, itemsList) return end
+function SimpleSetEquipWeapons:GetItemsToEquip(context, itemsList) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleSetEquipWeapons:Init(context) return end
+function SimpleSetEquipWeapons:Init(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param itemsToCheck gamedataNPCEquipmentItem_Record[]
 ---@return NPCItemToEquip[]
-function SimpleSetEquipWeapons:IterateOverEquipItems(context, itemsToCheck) return end
+function SimpleSetEquipWeapons:IterateOverEquipItems(context, itemsToCheck) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function SimpleSetEquipWeapons:Update(context) return end
+function SimpleSetEquipWeapons:Update(context) end

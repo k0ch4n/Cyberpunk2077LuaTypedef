@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questForceModule_NodeTypeParams
----@field public objectRef NodeRef
----@field public module String
----@field public components CName[]
+---@field objectRef NodeRef
+---@field module String
+---@field components CName[]
 questForceModule_NodeTypeParams = {}
 
 ---@param fields? questForceModule_NodeTypeParams
 ---@return questForceModule_NodeTypeParams
-function questForceModule_NodeTypeParams.new(fields) return end
+function questForceModule_NodeTypeParams.new(fields) end

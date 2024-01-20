@@ -5,184 +5,184 @@ FunctionalTestsGameSystem = {}
 
 ---@param fields? FunctionalTestsGameSystem
 ---@return FunctionalTestsGameSystem
-function FunctionalTestsGameSystem.new(fields) return end
+function FunctionalTestsGameSystem.new(fields) end
 
 ---@return nil
-function FunctionalTestsGameSystem.GetLocalizationStringByKey() return end
+function FunctionalTestsGameSystem.GetLocalizationStringByKey() end
 
 ---@return nil
-function FunctionalTestsGameSystem:ActivateSpawner() return end
+function FunctionalTestsGameSystem:ActivateSpawner() end
 
 ---@return nil
-function FunctionalTestsGameSystem:CheckCurrentAnimation() return end
+function FunctionalTestsGameSystem:CheckCurrentAnimation() end
 
 ---@return nil
-function FunctionalTestsGameSystem:CheckCurrentAnimations() return end
+function FunctionalTestsGameSystem:CheckCurrentAnimations() end
 
 ---@return nil
-function FunctionalTestsGameSystem:CheckSessionLoaded() return end
+function FunctionalTestsGameSystem:CheckSessionLoaded() end
 
 ---@return nil
-function FunctionalTestsGameSystem:ClearQuestArrays() return end
+function FunctionalTestsGameSystem:ClearQuestArrays() end
 
 ---@return nil
-function FunctionalTestsGameSystem:ClearSingleQuest() return end
+function FunctionalTestsGameSystem:ClearSingleQuest() end
 
 ---@return nil
-function FunctionalTestsGameSystem:DeactivateSpawner() return end
+function FunctionalTestsGameSystem:DeactivateSpawner() end
 
 ---@return nil
-function FunctionalTestsGameSystem:DespawnEntityByID() return end
+function FunctionalTestsGameSystem:DespawnEntityByID() end
 
 ---@return nil
-function FunctionalTestsGameSystem:DisableAutoMemoryDump() return end
+function FunctionalTestsGameSystem:DisableAutoMemoryDump() end
 
 ---@return nil
-function FunctionalTestsGameSystem:DumpMemoryReport() return end
+function FunctionalTestsGameSystem:DumpMemoryReport() end
 
 ---@return nil
-function FunctionalTestsGameSystem:ExecuteDebugCommand() return end
+function FunctionalTestsGameSystem:ExecuteDebugCommand() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeInputAxisAction() return end
+function FunctionalTestsGameSystem:FakeInputAxisAction() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeInputClickAction() return end
+function FunctionalTestsGameSystem:FakeInputClickAction() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeInputHoldAction() return end
+function FunctionalTestsGameSystem:FakeInputHoldAction() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeInputMultitapAction() return end
+function FunctionalTestsGameSystem:FakeInputMultitapAction() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeInputPressAction() return end
+function FunctionalTestsGameSystem:FakeInputPressAction() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeInputReleaseAction() return end
+function FunctionalTestsGameSystem:FakeInputReleaseAction() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeInputReleaseAxisAction() return end
+function FunctionalTestsGameSystem:FakeInputReleaseAxisAction() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakePressButton() return end
+function FunctionalTestsGameSystem:FakePressButton() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeReleaseButton() return end
+function FunctionalTestsGameSystem:FakeReleaseButton() end
 
 ---@return nil
-function FunctionalTestsGameSystem:FakeSetAxis() return end
+function FunctionalTestsGameSystem:FakeSetAxis() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetAnyEntityFromSpawner() return end
+function FunctionalTestsGameSystem:GetAnyEntityFromSpawner() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetAxisDeadzoneInner() return end
+function FunctionalTestsGameSystem:GetAxisDeadzoneInner() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetAxisDeadzoneOuter() return end
+function FunctionalTestsGameSystem:GetAxisDeadzoneOuter() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetBasicCrowdInfo() return end
+function FunctionalTestsGameSystem:GetBasicCrowdInfo() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetBoneWorldTransform() return end
+function FunctionalTestsGameSystem:GetBoneWorldTransform() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetConfigVar() return end
+function FunctionalTestsGameSystem:GetConfigVar() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetCrowdStubsEntitiesIDs() return end
+function FunctionalTestsGameSystem:GetCrowdStubsEntitiesIDs() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetCurrentTargetPosition() return end
+function FunctionalTestsGameSystem:GetCurrentTargetPosition() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetDebugCameraWorldTransform() return end
+function FunctionalTestsGameSystem:GetDebugCameraWorldTransform() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetEntitiesFromSpawner() return end
+function FunctionalTestsGameSystem:GetEntitiesFromSpawner() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetEntityByTag() return end
+function FunctionalTestsGameSystem:GetEntityByTag() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetEntityComponent() return end
+function FunctionalTestsGameSystem:GetEntityComponent() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetEntityIDsFromSpawner() return end
+function FunctionalTestsGameSystem:GetEntityIDsFromSpawner() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetLastSaveName() return end
+function FunctionalTestsGameSystem:GetLastSaveName() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetLastSpawnedEntityID() return end
+function FunctionalTestsGameSystem:GetLastSpawnedEntityID() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetNodeEntityByGlobalName() return end
+function FunctionalTestsGameSystem:GetNodeEntityByGlobalName() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetPeerID() return end
+function FunctionalTestsGameSystem:GetPeerID() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetPlayerControlledObject() return end
+function FunctionalTestsGameSystem:GetPlayerControlledObject() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetPlayerOrientation() return end
+function FunctionalTestsGameSystem:GetPlayerOrientation() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetPlayerPosition() return end
+function FunctionalTestsGameSystem:GetPlayerPosition() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetSceneEntity() return end
+function FunctionalTestsGameSystem:GetSceneEntity() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetSceneEntityID() return end
+function FunctionalTestsGameSystem:GetSceneEntityID() end
 
 ---@return nil
-function FunctionalTestsGameSystem:GetStaticMarkerWorldMatrix() return end
+function FunctionalTestsGameSystem:GetStaticMarkerWorldMatrix() end
 
 ---@return nil
-function FunctionalTestsGameSystem:IsQuestBlockFinished() return end
+function FunctionalTestsGameSystem:IsQuestBlockFinished() end
 
 ---@return nil
-function FunctionalTestsGameSystem:IsQuestBlockStarted() return end
+function FunctionalTestsGameSystem:IsQuestBlockStarted() end
 
 ---@return nil
-function FunctionalTestsGameSystem:IsSpawnerActive() return end
+function FunctionalTestsGameSystem:IsSpawnerActive() end
 
 ---@return nil
-function FunctionalTestsGameSystem:IsStreaming() return end
+function FunctionalTestsGameSystem:IsStreaming() end
 
 ---@return nil
-function FunctionalTestsGameSystem:IsStreamingTestFinished() return end
+function FunctionalTestsGameSystem:IsStreamingTestFinished() end
 
 ---@return nil
-function FunctionalTestsGameSystem:LookAtPosition() return end
+function FunctionalTestsGameSystem:LookAtPosition() end
 
 ---@return nil
-function FunctionalTestsGameSystem:NavigateFlatTowards() return end
+function FunctionalTestsGameSystem:NavigateFlatTowards() end
 
 ---@return nil
-function FunctionalTestsGameSystem:NotifyReachedCurrentDestination() return end
+function FunctionalTestsGameSystem:NotifyReachedCurrentDestination() end
 
 ---@return nil
-function FunctionalTestsGameSystem:ReleaseAllInput() return end
+function FunctionalTestsGameSystem:ReleaseAllInput() end
 
 ---@return nil
-function FunctionalTestsGameSystem:RequestAutoSave() return end
+function FunctionalTestsGameSystem:RequestAutoSave() end
 
 ---@return nil
-function FunctionalTestsGameSystem:SetConfigVar() return end
+function FunctionalTestsGameSystem:SetConfigVar() end
 
 ---@return nil
-function FunctionalTestsGameSystem:SetCurrentTargetPosition() return end
+function FunctionalTestsGameSystem:SetCurrentTargetPosition() end
 
 ---@return nil
-function FunctionalTestsGameSystem:SpawnEntity() return end
+function FunctionalTestsGameSystem:SpawnEntity() end
 
 ---@return nil
-function FunctionalTestsGameSystem:TakeOverInput() return end
+function FunctionalTestsGameSystem:TakeOverInput() end
 
 ---@return nil
-function FunctionalTestsGameSystem:TeleportPlayer() return end
+function FunctionalTestsGameSystem:TeleportPlayer() end

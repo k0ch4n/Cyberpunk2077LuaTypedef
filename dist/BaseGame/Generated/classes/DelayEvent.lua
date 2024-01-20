@@ -5,7 +5,7 @@ DelayEvent = {}
 
 ---@param fields? DelayEvent
 ---@return DelayEvent
-function DelayEvent.new(fields) return end
+function DelayEvent.new(fields) end
 
 ---@return nil
-function DelayEvent:SetProperties() return end
+function DelayEvent:SetProperties() end

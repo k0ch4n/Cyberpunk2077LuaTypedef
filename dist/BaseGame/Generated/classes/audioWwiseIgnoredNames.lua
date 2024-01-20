@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioWwiseIgnoredNames: audioAudioMetadata
----@field public ignoredNames CName[]
+---@field ignoredNames CName[]
 audioWwiseIgnoredNames = {}
 
 ---@param fields? audioWwiseIgnoredNames
 ---@return audioWwiseIgnoredNames
-function audioWwiseIgnoredNames.new(fields) return end
+function audioWwiseIgnoredNames.new(fields) end

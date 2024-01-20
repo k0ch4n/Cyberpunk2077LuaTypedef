@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class animAnimFeature_PlayerSpatialAwareness: animAnimFeature
----@field public leftClosestVector Vector4
----@field public rightClosestVector Vector4
----@field public upHitPosition Vector4
----@field public forwardDistance Float
+---@field leftClosestVector Vector4
+---@field rightClosestVector Vector4
+---@field upHitPosition Vector4
+---@field forwardDistance Float
 animAnimFeature_PlayerSpatialAwareness = {}
 
 ---@param fields? animAnimFeature_PlayerSpatialAwareness
 ---@return animAnimFeature_PlayerSpatialAwareness
-function animAnimFeature_PlayerSpatialAwareness.new(fields) return end
+function animAnimFeature_PlayerSpatialAwareness.new(fields) end
 
 ---@return nil
-function animAnimFeature_PlayerSpatialAwareness:SetForwardDistance() return end
+function animAnimFeature_PlayerSpatialAwareness:SetForwardDistance() end
 
 ---@return nil
-function animAnimFeature_PlayerSpatialAwareness:SetLeftClosestVector() return end
+function animAnimFeature_PlayerSpatialAwareness:SetLeftClosestVector() end
 
 ---@return nil
-function animAnimFeature_PlayerSpatialAwareness:SetRightClosestVector() return end
+function animAnimFeature_PlayerSpatialAwareness:SetRightClosestVector() end
 
 ---@return nil
-function animAnimFeature_PlayerSpatialAwareness:SetSetUpHitPosition() return end
+function animAnimFeature_PlayerSpatialAwareness:SetSetUpHitPosition() end

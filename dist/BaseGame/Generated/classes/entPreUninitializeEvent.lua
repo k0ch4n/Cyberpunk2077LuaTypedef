@@ -5,4 +5,4 @@ entPreUninitializeEvent = {}
 
 ---@param fields? entPreUninitializeEvent
 ---@return entPreUninitializeEvent
-function entPreUninitializeEvent.new(fields) return end
+function entPreUninitializeEvent.new(fields) end

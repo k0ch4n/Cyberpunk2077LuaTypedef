@@ -5,15 +5,14 @@ ProjectileLauncherChargeStatListener = {}
 
 ---@param fields? ProjectileLauncherChargeStatListener
 ---@return ProjectileLauncherChargeStatListener
-function ProjectileLauncherChargeStatListener.new(fields) return end
+function ProjectileLauncherChargeStatListener.new(fields) end
 
 ---@return Int32
-function ProjectileLauncherChargeStatListener:GetRechargeDuration() return end
+function ProjectileLauncherChargeStatListener:GetRechargeDuration() end
 
 ---@param player PlayerPuppet
 ---@return nil
-function ProjectileLauncherChargeStatListener:Init(player) return end
+function ProjectileLauncherChargeStatListener:Init(player) end
 
----@private
 ---@return nil
-function ProjectileLauncherChargeStatListener:Recharged() return end
+function ProjectileLauncherChargeStatListener:Recharged() end

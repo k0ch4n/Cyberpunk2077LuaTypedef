@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class MeleeBlockEvents: MeleeRumblingEvents
----@field public blockStatFlag gameStatModifierData_Deprecated
+---@field blockStatFlag gameStatModifierData_Deprecated
 MeleeBlockEvents = {}
 
 ---@param fields? MeleeBlockEvents
 ---@return MeleeBlockEvents
-function MeleeBlockEvents.new(fields) return end
+function MeleeBlockEvents.new(fields) end
 
 ---@return String
-function MeleeBlockEvents:GetIntensity() return end
+function MeleeBlockEvents:GetIntensity() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBlockEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeBlockEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBlockEvents:OnExit(stateContext, scriptInterface) return end
-
----@private
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeBlockEvents:OnExitCommon(stateContext, scriptInterface) return end
+function MeleeBlockEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeBlockEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeBlockEvents:OnExitCommon(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeBlockEvents:OnForcedExit(stateContext, scriptInterface) end

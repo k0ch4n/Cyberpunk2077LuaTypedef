@@ -5,4 +5,4 @@ DelayedHandleQuickLoadEvent = {}
 
 ---@param fields? DelayedHandleQuickLoadEvent
 ---@return DelayedHandleQuickLoadEvent
-function DelayedHandleQuickLoadEvent.new(fields) return end
+function DelayedHandleQuickLoadEvent.new(fields) end

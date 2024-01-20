@@ -5,4 +5,4 @@ AIAngleDistanceCoverSelection = {}
 
 ---@param fields? AIAngleDistanceCoverSelection
 ---@return AIAngleDistanceCoverSelection
-function AIAngleDistanceCoverSelection.new(fields) return end
+function AIAngleDistanceCoverSelection.new(fields) end

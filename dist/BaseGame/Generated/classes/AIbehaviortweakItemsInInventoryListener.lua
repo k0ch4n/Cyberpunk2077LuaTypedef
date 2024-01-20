@@ -5,4 +5,4 @@ AIbehaviortweakItemsInInventoryListener = {}
 
 ---@param fields? AIbehaviortweakItemsInInventoryListener
 ---@return AIbehaviortweakItemsInInventoryListener
-function AIbehaviortweakItemsInInventoryListener.new(fields) return end
+function AIbehaviortweakItemsInInventoryListener.new(fields) end

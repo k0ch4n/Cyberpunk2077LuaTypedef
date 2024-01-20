@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class workTimeOfDayCondition: workIWorkspotCondition
----@field public activeAfter GameTime
----@field public activeUntil GameTime
+---@field activeAfter GameTime
+---@field activeUntil GameTime
 workTimeOfDayCondition = {}
 
 ---@param fields? workTimeOfDayCondition
 ---@return workTimeOfDayCondition
-function workTimeOfDayCondition.new(fields) return end
+function workTimeOfDayCondition.new(fields) end

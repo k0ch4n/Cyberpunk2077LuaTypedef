@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameItemModParams
----@field public itemID gameItemID
----@field public quantity Int32
----@field public customPartsToInstall gameItemID[]
+---@field itemID gameItemID
+---@field quantity Int32
+---@field customPartsToInstall gameItemID[]
 gameItemModParams = {}
 
 ---@param fields? gameItemModParams
 ---@return gameItemModParams
-function gameItemModParams.new(fields) return end
+function gameItemModParams.new(fields) end

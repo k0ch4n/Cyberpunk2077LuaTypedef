@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NPCTrackingPlayerPrereqState: gamePrereqState
----@field public listener PuppetListener
+---@field listener PuppetListener
 NPCTrackingPlayerPrereqState = {}
 
 ---@param fields? NPCTrackingPlayerPrereqState
 ---@return NPCTrackingPlayerPrereqState
-function NPCTrackingPlayerPrereqState.new(fields) return end
+function NPCTrackingPlayerPrereqState.new(fields) end

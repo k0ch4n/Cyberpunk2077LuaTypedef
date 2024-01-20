@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameLoadoutData
----@field public slotID TweakDBID
----@field public itemID gameItemID
+---@field slotID TweakDBID
+---@field itemID gameItemID
 gameLoadoutData = {}
 
 ---@param fields? gameLoadoutData
 ---@return gameLoadoutData
-function gameLoadoutData.new(fields) return end
+function gameLoadoutData.new(fields) end

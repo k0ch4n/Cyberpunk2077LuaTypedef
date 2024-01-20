@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIISerializableArgumentInstancePS: AIArgumentInstancePS
----@field public value ISerializable
+---@field value ISerializable
 AIISerializableArgumentInstancePS = {}
 
 ---@param fields? AIISerializableArgumentInstancePS
 ---@return AIISerializableArgumentInstancePS
-function AIISerializableArgumentInstancePS.new(fields) return end
+function AIISerializableArgumentInstancePS.new(fields) end

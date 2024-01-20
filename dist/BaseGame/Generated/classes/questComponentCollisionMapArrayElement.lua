@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questComponentCollisionMapArrayElement
----@field public componentNameKey CName
----@field public enableCollision Bool
----@field public enableQueries Bool
+---@field componentNameKey CName
+---@field enableCollision Bool
+---@field enableQueries Bool
 questComponentCollisionMapArrayElement = {}
 
 ---@param fields? questComponentCollisionMapArrayElement
 ---@return questComponentCollisionMapArrayElement
-function questComponentCollisionMapArrayElement.new(fields) return end
+function questComponentCollisionMapArrayElement.new(fields) end

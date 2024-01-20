@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class rendRenderParticleBlob: IRenderResourceBlob
----@field public header rendRenderParticleBlobHeader
----@field public updaterData rendRenderParticleUpdaterData
----@field public gpuSimShaders rendEmitterSimulationShaders
+---@field header rendRenderParticleBlobHeader
+---@field updaterData rendRenderParticleUpdaterData
+---@field gpuSimShaders rendEmitterSimulationShaders
 rendRenderParticleBlob = {}
 
 ---@param fields? rendRenderParticleBlob
 ---@return rendRenderParticleBlob
-function rendRenderParticleBlob.new(fields) return end
+function rendRenderParticleBlob.new(fields) end

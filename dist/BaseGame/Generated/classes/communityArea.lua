@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class communityArea: ISerializable
----@field public entriesData communityCommunityEntrySpotsData[]
+---@field entriesData communityCommunityEntrySpotsData[]
 communityArea = {}
 
 ---@param fields? communityArea
 ---@return communityArea
-function communityArea.new(fields) return end
+function communityArea.new(fields) end

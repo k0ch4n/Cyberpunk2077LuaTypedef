@@ -5,28 +5,24 @@ HoverJumpDecisions = {}
 
 ---@param fields? HoverJumpDecisions
 ---@return HoverJumpDecisions
-function HoverJumpDecisions.new(fields) return end
+function HoverJumpDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function HoverJumpDecisions:OnAction(action, consumer) return end
+function HoverJumpDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function HoverJumpDecisions:EnterCondition(stateContext, scriptInterface) return end
+function HoverJumpDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function HoverJumpDecisions:OnAttach(stateContext, scriptInterface) return end
+function HoverJumpDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function HoverJumpDecisions:OnDetach(stateContext, scriptInterface) return end
+function HoverJumpDecisions:OnDetach(stateContext, scriptInterface) end

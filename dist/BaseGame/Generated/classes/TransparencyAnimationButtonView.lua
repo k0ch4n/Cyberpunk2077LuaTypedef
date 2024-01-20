@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class TransparencyAnimationButtonView: BaseButtonView
----@field private AnimationTime Float
----@field private HoverTransparency Float
----@field private PressTransparency Float
----@field private DefaultTransparency Float
----@field private DisabledTransparency Float
----@field private AnimationProxies inkanimProxy[]
----@field private Targets inkWidgetReference[]
+---@field AnimationTime Float
+---@field HoverTransparency Float
+---@field PressTransparency Float
+---@field DefaultTransparency Float
+---@field DisabledTransparency Float
+---@field AnimationProxies inkanimProxy[]
+---@field Targets inkWidgetReference[]
 TransparencyAnimationButtonView = {}
 
 ---@param fields? TransparencyAnimationButtonView
 ---@return TransparencyAnimationButtonView
-function TransparencyAnimationButtonView.new(fields) return end
+function TransparencyAnimationButtonView.new(fields) end
 
----@protected
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function TransparencyAnimationButtonView:ButtonStateChanged(oldState, newState) return end
+function TransparencyAnimationButtonView:ButtonStateChanged(oldState, newState) end

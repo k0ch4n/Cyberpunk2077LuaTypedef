@@ -15,4 +15,4 @@ EffectDataHelper = {}
 ---@param axisConstraints Vector4
 ---@param coneHalfAngle Float
 ---@return nil
-function EffectDataHelper.FillMeleeEffectData(effectData, colliderBoxSize, duration, position, rotation, direction, range, initRange, width, axisConstraints, coneHalfAngle) return end
+function EffectDataHelper.FillMeleeEffectData(effectData, colliderBoxSize, duration, position, rotation, direction, range, initRange, width, axisConstraints, coneHalfAngle) end

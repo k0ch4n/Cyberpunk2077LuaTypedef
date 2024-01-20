@@ -5,19 +5,19 @@ gamedataVehicleStoppingSettings_Record = {}
 
 ---@param fields? gamedataVehicleStoppingSettings_Record
 ---@return gamedataVehicleStoppingSettings_Record
-function gamedataVehicleStoppingSettings_Record.new(fields) return end
+function gamedataVehicleStoppingSettings_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleStoppingSettings_Record:DecreaseMul() return end
+function gamedataVehicleStoppingSettings_Record:DecreaseMul() end
 
 ---@return Float
-function gamedataVehicleStoppingSettings_Record:ErrorMagnitudeForFullBrakingChange() return end
+function gamedataVehicleStoppingSettings_Record:ErrorMagnitudeForFullBrakingChange() end
 
 ---@return Float
-function gamedataVehicleStoppingSettings_Record:ErrorMagnitudeForMildBrakingChange() return end
+function gamedataVehicleStoppingSettings_Record:ErrorMagnitudeForMildBrakingChange() end
 
 ---@return Float
-function gamedataVehicleStoppingSettings_Record:FullBrakingChangeSpeed() return end
+function gamedataVehicleStoppingSettings_Record:FullBrakingChangeSpeed() end
 
 ---@return Float
-function gamedataVehicleStoppingSettings_Record:MildBrakingChangeSpeed() return end
+function gamedataVehicleStoppingSettings_Record:MildBrakingChangeSpeed() end

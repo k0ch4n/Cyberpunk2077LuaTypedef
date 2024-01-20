@@ -5,28 +5,24 @@ NumericDisplay = {}
 
 ---@param fields? NumericDisplay
 ---@return NumericDisplay
-function NumericDisplay.new(fields) return end
+function NumericDisplay.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function NumericDisplay:OnRequestComponents(ri) return end
+function NumericDisplay:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function NumericDisplay:OnTakeControl(ri) return end
+function NumericDisplay:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function NumericDisplay:CreateBlackboard() return end
+function NumericDisplay:CreateBlackboard() end
 
 ---@return NumericDisplayBlackboardDef
-function NumericDisplay:GetBlackboardDef() return end
+function NumericDisplay:GetBlackboardDef() end
 
----@protected
 ---@return NumericDisplayController
-function NumericDisplay:GetController() return end
+function NumericDisplay:GetController() end
 
 ---@return NumericDisplayControllerPS
-function NumericDisplay:GetDevicePS() return end
+function NumericDisplay:GetDevicePS() end

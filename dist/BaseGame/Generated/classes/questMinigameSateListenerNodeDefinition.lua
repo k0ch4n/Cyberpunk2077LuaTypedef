@@ -5,4 +5,4 @@ questMinigameSateListenerNodeDefinition = {}
 
 ---@param fields? questMinigameSateListenerNodeDefinition
 ---@return questMinigameSateListenerNodeDefinition
-function questMinigameSateListenerNodeDefinition.new(fields) return end
+function questMinigameSateListenerNodeDefinition.new(fields) end

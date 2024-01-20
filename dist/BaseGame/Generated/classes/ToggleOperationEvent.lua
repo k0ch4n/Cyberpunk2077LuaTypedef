@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ToggleOperationEvent: redEvent
----@field public enable Bool
----@field public index Int32
----@field public type EOperationClassType
+---@field enable Bool
+---@field index Int32
+---@field type EOperationClassType
 ToggleOperationEvent = {}
 
 ---@param fields? ToggleOperationEvent
 ---@return ToggleOperationEvent
-function ToggleOperationEvent.new(fields) return end
+function ToggleOperationEvent.new(fields) end

@@ -5,14 +5,12 @@ NcartMetroComponent = {}
 
 ---@param fields? NcartMetroComponent
 ---@return NcartMetroComponent
-function NcartMetroComponent.new(fields) return end
+function NcartMetroComponent.new(fields) end
 
----@protected
 ---@param evt gamemountingMountingEvent
 ---@return Bool
-function NcartMetroComponent:OnMountingEvent(evt) return end
+function NcartMetroComponent:OnMountingEvent(evt) end
 
----@protected
 ---@param evt gamemountingUnmountingEvent
 ---@return Bool
-function NcartMetroComponent:OnUnmountingEvent(evt) return end
+function NcartMetroComponent:OnUnmountingEvent(evt) end

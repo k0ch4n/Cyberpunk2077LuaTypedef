@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVoiceContextMap: audioAudioMetadata
----@field public includes CName[]
----@field public contexts audioVoiceContextMapItem[]
+---@field includes CName[]
+---@field contexts audioVoiceContextMapItem[]
 audioVoiceContextMap = {}
 
 ---@param fields? audioVoiceContextMap
 ---@return audioVoiceContextMap
-function audioVoiceContextMap.new(fields) return end
+function audioVoiceContextMap.new(fields) end

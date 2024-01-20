@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class ManageSirensAndLightsInPoliceCar: AIbehaviortaskScript
----@field public turnOnLights AIArgumentMapping
----@field public turnOnSirens AIArgumentMapping
+---@field turnOnLights AIArgumentMapping
+---@field turnOnSirens AIArgumentMapping
 ManageSirensAndLightsInPoliceCar = {}
 
 ---@param fields? ManageSirensAndLightsInPoliceCar
 ---@return ManageSirensAndLightsInPoliceCar
-function ManageSirensAndLightsInPoliceCar.new(fields) return end
+function ManageSirensAndLightsInPoliceCar.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ManageSirensAndLightsInPoliceCar:Activate(context) return end
+function ManageSirensAndLightsInPoliceCar:Activate(context) end

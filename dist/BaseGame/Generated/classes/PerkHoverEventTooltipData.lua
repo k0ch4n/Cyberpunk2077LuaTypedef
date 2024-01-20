@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class PerkHoverEventTooltipData
----@field public widget inkWidget
----@field public data IDisplayData
----@field public placement gameuiETooltipPlacement
----@field public isShown Bool
+---@field widget inkWidget
+---@field data IDisplayData
+---@field placement gameuiETooltipPlacement
+---@field isShown Bool
 PerkHoverEventTooltipData = {}
 
 ---@param fields? PerkHoverEventTooltipData
 ---@return PerkHoverEventTooltipData
-function PerkHoverEventTooltipData.new(fields) return end
+function PerkHoverEventTooltipData.new(fields) end

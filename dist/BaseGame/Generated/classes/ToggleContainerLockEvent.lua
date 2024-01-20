@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ToggleContainerLockEvent: redEvent
----@field public isLocked Bool
+---@field isLocked Bool
 ToggleContainerLockEvent = {}
 
 ---@param fields? ToggleContainerLockEvent
 ---@return ToggleContainerLockEvent
-function ToggleContainerLockEvent.new(fields) return end
+function ToggleContainerLockEvent.new(fields) end
 
 ---@return String
-function ToggleContainerLockEvent:GetFriendlyDescription() return end
+function ToggleContainerLockEvent:GetFriendlyDescription() end

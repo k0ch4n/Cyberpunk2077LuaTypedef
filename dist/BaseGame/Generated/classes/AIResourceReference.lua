@@ -5,4 +5,4 @@ AIResourceReference = {}
 
 ---@param fields? AIResourceReference
 ---@return AIResourceReference
-function AIResourceReference.new(fields) return end
+function AIResourceReference.new(fields) end

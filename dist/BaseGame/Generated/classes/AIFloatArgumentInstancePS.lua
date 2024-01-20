@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIFloatArgumentInstancePS: AIArgumentInstancePS
----@field public value Float
+---@field value Float
 AIFloatArgumentInstancePS = {}
 
 ---@param fields? AIFloatArgumentInstancePS
 ---@return AIFloatArgumentInstancePS
-function AIFloatArgumentInstancePS.new(fields) return end
+function AIFloatArgumentInstancePS.new(fields) end

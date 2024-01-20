@@ -5,4 +5,4 @@ vehicleCameraResetEvent = {}
 
 ---@param fields? vehicleCameraResetEvent
 ---@return vehicleCameraResetEvent
-function vehicleCameraResetEvent.new(fields) return end
+function vehicleCameraResetEvent.new(fields) end

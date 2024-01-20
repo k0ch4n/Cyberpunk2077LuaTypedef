@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleInitializerVelocitySpread: IParticleInitializer
----@field public scale IEvaluatorFloat
----@field public conserveMomentum Bool
+---@field scale IEvaluatorFloat
+---@field conserveMomentum Bool
 CParticleInitializerVelocitySpread = {}
 
 ---@param fields? CParticleInitializerVelocitySpread
 ---@return CParticleInitializerVelocitySpread
-function CParticleInitializerVelocitySpread.new(fields) return end
+function CParticleInitializerVelocitySpread.new(fields) end

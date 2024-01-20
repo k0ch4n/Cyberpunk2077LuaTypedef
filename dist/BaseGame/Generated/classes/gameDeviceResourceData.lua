@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameDeviceResourceData: ISerializable
----@field public version Uint32
+---@field version Uint32
 gameDeviceResourceData = {}
 
 ---@param fields? gameDeviceResourceData
 ---@return gameDeviceResourceData
-function gameDeviceResourceData.new(fields) return end
+function gameDeviceResourceData.new(fields) end

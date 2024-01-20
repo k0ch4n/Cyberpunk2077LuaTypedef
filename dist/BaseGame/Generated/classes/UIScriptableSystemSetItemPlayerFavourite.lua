@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UIScriptableSystemSetItemPlayerFavourite: gameScriptableSystemRequest
----@field public itemID gameItemID
----@field public favourite Bool
+---@field itemID gameItemID
+---@field favourite Bool
 UIScriptableSystemSetItemPlayerFavourite = {}
 
 ---@param fields? UIScriptableSystemSetItemPlayerFavourite
 ---@return UIScriptableSystemSetItemPlayerFavourite
-function UIScriptableSystemSetItemPlayerFavourite.new(fields) return end
+function UIScriptableSystemSetItemPlayerFavourite.new(fields) end

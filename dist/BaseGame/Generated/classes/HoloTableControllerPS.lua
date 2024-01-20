@@ -5,37 +5,33 @@ HoloTableControllerPS = {}
 
 ---@param fields? HoloTableControllerPS
 ---@return HoloTableControllerPS
-function HoloTableControllerPS.new(fields) return end
+function HoloTableControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function HoloTableControllerPS:OnInstantiated() return end
+function HoloTableControllerPS:OnInstantiated() end
 
----@protected
 ---@return Bool
-function HoloTableControllerPS:CanCreateAnyQuickHackActions() return end
+function HoloTableControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function HoloTableControllerPS:GetActions(context) return end
+function HoloTableControllerPS:GetActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function HoloTableControllerPS:GetQuickHackActions(context) return end
+function HoloTableControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return nil
-function HoloTableControllerPS:Initialize() return end
+function HoloTableControllerPS:Initialize() end
 
 ---@param evt NextStation
 ---@return EntityNotificationType
-function HoloTableControllerPS:OnNextStation(evt) return end
+function HoloTableControllerPS:OnNextStation(evt) end
 
 ---@param evt PreviousStation
 ---@return EntityNotificationType
-function HoloTableControllerPS:OnPreviousStation(evt) return end
+function HoloTableControllerPS:OnPreviousStation(evt) end
 
 ---@param value Int32
 ---@return nil
-function HoloTableControllerPS:SetMeshesAmount(value) return end
+function HoloTableControllerPS:SetMeshesAmount(value) end

@@ -5,4 +5,4 @@ gameMuppetInputActionAimDownSight = {}
 
 ---@param fields? gameMuppetInputActionAimDownSight
 ---@return gameMuppetInputActionAimDownSight
-function gameMuppetInputActionAimDownSight.new(fields) return end
+function gameMuppetInputActionAimDownSight.new(fields) end

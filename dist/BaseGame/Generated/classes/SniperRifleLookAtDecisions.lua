@@ -5,4 +5,4 @@ SniperRifleLookAtDecisions = {}
 
 ---@param fields? SniperRifleLookAtDecisions
 ---@return SniperRifleLookAtDecisions
-function SniperRifleLookAtDecisions.new(fields) return end
+function SniperRifleLookAtDecisions.new(fields) end

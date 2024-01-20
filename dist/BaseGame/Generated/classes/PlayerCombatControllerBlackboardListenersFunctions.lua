@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerCombatControllerBlackboardListenersFunctions
----@field public crouchActive CName
+---@field crouchActive CName
 PlayerCombatControllerBlackboardListenersFunctions = {}
 
 ---@param fields? PlayerCombatControllerBlackboardListenersFunctions
 ---@return PlayerCombatControllerBlackboardListenersFunctions
-function PlayerCombatControllerBlackboardListenersFunctions.new(fields) return end
+function PlayerCombatControllerBlackboardListenersFunctions.new(fields) end

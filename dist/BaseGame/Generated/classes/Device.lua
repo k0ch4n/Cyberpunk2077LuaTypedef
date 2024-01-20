@@ -1,865 +1,712 @@
 ---@meta
 
 ---@class Device: gameDeviceBase
----@field protected controller ScriptableDeviceComponent
----@field protected wasVisible Bool
----@field protected isVisible Bool
----@field protected controllerTypeName CName
----@field protected deviceState EDeviceStatus
----@field protected uiComponent IWorldWidgetComponent
----@field protected screenDefinition SUIScreenDefinition
----@field protected isUIdirty Bool
----@field private onInputHintManagerInitializedChangedCallback redCallbackObject
----@field protected personalLinkComponent workWorkspotResourceComponent
----@field protected durabilityType EDeviceDurabilityType
----@field protected disassemblableComponent DisassemblableComponent
----@field protected localization entLocalizationStringComponent
----@field protected IKslotComponent entSlotComponent
----@field private slotComponent entSlotComponent
----@field private isInitialized Bool
----@field protected isInsideLogicArea Bool
----@field protected cameraComponent gameCameraComponent
----@field protected cameraZoomComponent gameCameraComponent
----@field private cameraZoomActive Bool
----@field protected ToggleZoomInteractionWorkspot workWorkspotResourceComponent
----@field protected ZoomUIListenerID redCallbackObject
----@field protected ZoomStateMachineListenerID redCallbackObject
----@field protected advanceInteractionStateResolveDelayID gameDelayID
----@field protected activeStatusEffect TweakDBID
----@field protected activeProgramToUploadOnNPC TweakDBID
----@field protected isQhackUploadInProgerss Bool
----@field protected scanningTweakDBRecord TweakDBID
----@field private updateRunning Bool
----@field private updateID gameDelayID
----@field protected delayedUpdateDeviceStateID gameDelayID
----@field protected blackboard gameIBlackboard
----@field private currentPlayerTargetCallbackID redCallbackObject
----@field private wasLookedAtLast Bool
----@field private lastPingSourceID entEntityID
----@field protected networkGridBeamFX gameFxResource
----@field protected fxResourceMapper FxResourceMapperComponent
----@field protected effectVisualization AreaEffectVisualizationComponent
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected gameplayRoleComponent GameplayRoleComponent
----@field protected personalLinkHackSend Bool
----@field protected personalLinkFailsafeID gameDelayID
----@field protected wasAnimationFastForwarded Bool
----@field private wasEngineeringSkillcheckTriggered Bool
----@field protected contentScale TweakDBID
----@field protected networkGridBeamOffset Vector4
----@field public areaEffectsData SAreaEffectData[]
----@field public areaEffectsInFocusMode SAreaEffectTargetData[]
----@field protected debugOptions DebuggerProperties
----@field public currentlyUploadingAction ScriptableDeviceAction
----@field protected workspotActivator gameObject
+---@field controller ScriptableDeviceComponent
+---@field wasVisible Bool
+---@field isVisible Bool
+---@field controllerTypeName CName
+---@field deviceState EDeviceStatus
+---@field uiComponent IWorldWidgetComponent
+---@field screenDefinition SUIScreenDefinition
+---@field isUIdirty Bool
+---@field onInputHintManagerInitializedChangedCallback redCallbackObject
+---@field personalLinkComponent workWorkspotResourceComponent
+---@field durabilityType EDeviceDurabilityType
+---@field disassemblableComponent DisassemblableComponent
+---@field localization entLocalizationStringComponent
+---@field IKslotComponent entSlotComponent
+---@field slotComponent entSlotComponent
+---@field isInitialized Bool
+---@field isInsideLogicArea Bool
+---@field cameraComponent gameCameraComponent
+---@field cameraZoomComponent gameCameraComponent
+---@field cameraZoomActive Bool
+---@field ToggleZoomInteractionWorkspot workWorkspotResourceComponent
+---@field ZoomUIListenerID redCallbackObject
+---@field ZoomStateMachineListenerID redCallbackObject
+---@field advanceInteractionStateResolveDelayID gameDelayID
+---@field activeStatusEffect TweakDBID
+---@field activeProgramToUploadOnNPC TweakDBID
+---@field isQhackUploadInProgerss Bool
+---@field scanningTweakDBRecord TweakDBID
+---@field updateRunning Bool
+---@field updateID gameDelayID
+---@field delayedUpdateDeviceStateID gameDelayID
+---@field blackboard gameIBlackboard
+---@field currentPlayerTargetCallbackID redCallbackObject
+---@field wasLookedAtLast Bool
+---@field lastPingSourceID entEntityID
+---@field networkGridBeamFX gameFxResource
+---@field fxResourceMapper FxResourceMapperComponent
+---@field effectVisualization AreaEffectVisualizationComponent
+---@field resourceLibraryComponent ResourceLibraryComponent
+---@field gameplayRoleComponent GameplayRoleComponent
+---@field personalLinkHackSend Bool
+---@field personalLinkFailsafeID gameDelayID
+---@field wasAnimationFastForwarded Bool
+---@field wasEngineeringSkillcheckTriggered Bool
+---@field contentScale TweakDBID
+---@field networkGridBeamOffset Vector4
+---@field areaEffectsData SAreaEffectData[]
+---@field areaEffectsInFocusMode SAreaEffectTargetData[]
+---@field debugOptions DebuggerProperties
+---@field currentlyUploadingAction ScriptableDeviceAction
+---@field workspotActivator gameObject
 Device = {}
 
 ---@param fields? Device
 ---@return Device
-function Device.new(fields) return end
+function Device.new(fields) end
 
 ---@return gamedeviceClearance
-function Device.GetInteractionClearance() return end
+function Device.GetInteractionClearance() end
 
 ---@return gameObject
-function Device.GetPlayerMainObjectStatic() return end
+function Device.GetPlayerMainObjectStatic() end
 
 ---@param stim DeviceStimType
 ---@return gamedataStimType
-function Device.MapStimType(stim) return end
+function Device.MapStimType(stim) end
 
----@protected
 ---@param evt gameuiAccessPointMiniGameStatus
 ---@return Bool
-function Device:OnAccessPointMiniGameStatus(evt) return end
+function Device:OnAccessPointMiniGameStatus(evt) end
 
----@protected
 ---@param evt ActionCooldownEvent
 ---@return Bool
-function Device:OnActionCooldownEvent(evt) return end
+function Device:OnActionCooldownEvent(evt) end
 
----@protected
 ---@param evt PingDevice
 ---@return Bool
-function Device:OnActionPing(evt) return end
+function Device:OnActionPing(evt) end
 
----@protected
 ---@param evt AdvanceInteractionStateResolveEvent
 ---@return Bool
-function Device:OnAdvanceInteractionStateResolveEvent(evt) return end
+function Device:OnAdvanceInteractionStateResolveEvent(evt) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function Device:OnAreaEnter(evt) return end
+function Device:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function Device:OnAreaExit(evt) return end
+function Device:OnAreaExit(evt) end
 
----@protected
 ---@param evt gameeventsAttitudeChangedEvent
 ---@return Bool
-function Device:OnAttitudeChanged(evt) return end
+function Device:OnAttitudeChanged(evt) end
 
----@protected
 ---@param evt AuthorizeUser
 ---@return Bool
-function Device:OnAuthorizeUser(evt) return end
+function Device:OnAuthorizeUser(evt) end
 
----@protected
 ---@param evt CancelDeviceUpdateEvent
 ---@return Bool
-function Device:OnCancelUpdateEvent(evt) return end
+function Device:OnCancelUpdateEvent(evt) end
 
----@protected
 ---@param evt ChangeJuryrigTrapState
 ---@return Bool
-function Device:OnChangeJuryrigTrapState(evt) return end
+function Device:OnChangeJuryrigTrapState(evt) end
 
----@protected
 ---@param evt ChangeLoopCurveEvent
 ---@return Bool
-function Device:OnChangeLoopCurveEvent(evt) return end
+function Device:OnChangeLoopCurveEvent(evt) end
 
----@protected
 ---@param evt CommunicationEvent
 ---@return Bool
-function Device:OnCommunicationEvent(evt) return end
+function Device:OnCommunicationEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function Device:OnDeath(evt) return end
+function Device:OnDeath(evt) end
 
----@protected
 ---@param evt DelayedOperationEvent
 ---@return Bool
-function Device:OnDelayedDeviceOperation(evt) return end
+function Device:OnDelayedDeviceOperation(evt) end
 
----@protected
 ---@param evt DelayedUpdateDeviceStateEvent
 ---@return Bool
-function Device:OnDelayedUpdateDeviceStateEvent(evt) return end
+function Device:OnDelayedUpdateDeviceStateEvent(evt) end
 
----@protected
 ---@return Bool
-function Device:OnDetach() return end
+function Device:OnDetach() end
 
----@protected
 ---@param evt DeviceUpdateEvent
 ---@return Bool
-function Device:OnDeviceUpdate(evt) return end
+function Device:OnDeviceUpdate(evt) end
 
----@protected
 ---@param evt gameDeviceVisibilityChangedEvent
 ---@return Bool
-function Device:OnDeviceVisible(evt) return end
+function Device:OnDeviceVisible(evt) end
 
----@protected
 ---@param evt RequestDeviceWidgetUpdateEvent
 ---@return Bool
-function Device:OnDeviceWidgetUpdate(evt) return end
+function Device:OnDeviceWidgetUpdate(evt) end
 
----@protected
 ---@param evt DisableAreaIndicatorEvent
 ---@return Bool
-function Device:OnDisableAreaIndicator(evt) return end
+function Device:OnDisableAreaIndicator(evt) end
 
----@protected
 ---@param evt DisableRPGRequirementsForDeviceActions
 ---@return Bool
-function Device:OnDisableRPGRequirementsForQucikHackActions(evt) return end
+function Device:OnDisableRPGRequirementsForQucikHackActions(evt) end
 
----@protected
 ---@param evt DisassembleDevice
 ---@return Bool
-function Device:OnDisassembleDevice(evt) return end
+function Device:OnDisassembleDevice(evt) end
 
----@protected
 ---@param evt DurabilityLimitReach
 ---@return Bool
-function Device:OnDurabilityLimitReach(evt) return end
+function Device:OnDurabilityLimitReach(evt) end
 
----@protected
 ---@param evt gameFactChangedEvent
 ---@return Bool
-function Device:OnFactChanged(evt) return end
+function Device:OnFactChanged(evt) end
 
----@protected
 ---@return Bool
-function Device:OnGameAttached() return end
+function Device:OnGameAttached() end
 
----@protected
 ---@param evt GlitchScreen
 ---@return Bool
-function Device:OnGlitchScreen(evt) return end
+function Device:OnGlitchScreen(evt) end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function Device:OnHUDInstruction(evt) return end
+function Device:OnHUDInstruction(evt) end
 
----@protected
 ---@param evt ActionEngineering
 ---@return Bool
-function Device:OnHandleEngineeringSkillcheckSFX(evt) return end
+function Device:OnHandleEngineeringSkillcheckSFX(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function Device:OnHitEvent(hit) return end
+function Device:OnHitEvent(hit) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function Device:OnInputHintManagerInitializedChanged(value) return end
+function Device:OnInputHintManagerInitializedChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function Device:OnIsUIZoomDeviceChange(value) return end
+function Device:OnIsUIZoomDeviceChange(value) end
 
----@protected
 ---@param evt SetLogicReadyEvent
 ---@return Bool
-function Device:OnLogicReady(evt) return end
+function Device:OnLogicReady(evt) end
 
----@protected
 ---@param evt MissingWorkspotComponentFailsafeEvent
 ---@return Bool
-function Device:OnMissingWorkspotComponentFailsafeEvent(evt) return end
+function Device:OnMissingWorkspotComponentFailsafeEvent(evt) end
 
----@protected
 ---@param evt NPCKillDelayEvent
 ---@return Bool
-function Device:OnNPCKillDelayEvent(evt) return end
+function Device:OnNPCKillDelayEvent(evt) end
 
----@protected
 ---@param evt NotifyHighlightedDevice
 ---@return Bool
-function Device:OnNotifyHighlightedDevice(evt) return end
+function Device:OnNotifyHighlightedDevice(evt) end
 
----@protected
 ---@param evt NotifyParentsEvent
 ---@return Bool
-function Device:OnNotifyParents(evt) return end
+function Device:OnNotifyParents(evt) end
 
----@protected
 ---@param evt OpenFullscreenUI
 ---@return Bool
-function Device:OnOpenFullscreenUI(evt) return end
+function Device:OnOpenFullscreenUI(evt) end
 
----@protected
 ---@param evt OverloadDevice
 ---@return Bool
-function Device:OnOverloadDevice(evt) return end
+function Device:OnOverloadDevice(evt) end
 
----@protected
 ---@param evt gamePSChangedEvent
 ---@return Bool
-function Device:OnPSChangedEvent(evt) return end
+function Device:OnPSChangedEvent(evt) end
 
----@protected
 ---@param evt PerformedAction
 ---@return Bool
-function Device:OnPerformedAction(evt) return end
+function Device:OnPerformedAction(evt) end
 
----@protected
 ---@param evt GameAttachedEvent
 ---@return Bool
-function Device:OnPersitentStateInitialized(evt) return end
+function Device:OnPersitentStateInitialized(evt) end
 
----@protected
 ---@param evt PlayBinkEvent
 ---@return Bool
-function Device:OnPlayBink(evt) return end
+function Device:OnPlayBink(evt) end
 
----@protected
 ---@param evt gamePlayInDeviceCallbackEvent
 ---@return Bool
-function Device:OnPlayInDeviceCallbackEvent(evt) return end
+function Device:OnPlayInDeviceCallbackEvent(evt) end
 
----@protected
 ---@param evt senseOnDetectedEvent
 ---@return Bool
-function Device:OnPlayerDetectedVisibleEvent(evt) return end
+function Device:OnPlayerDetectedVisibleEvent(evt) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function Device:OnPlayerStateMachineZoom(value) return end
+function Device:OnPlayerStateMachineZoom(value) end
 
----@protected
 ---@param evt ProjectileBreachEvent
 ---@return Bool
-function Device:OnProjectileBreachEvent(evt) return end
+function Device:OnProjectileBreachEvent(evt) end
 
----@protected
 ---@param evt gameVisionModeUpdateVisuals
 ---@return Bool
-function Device:OnPulseEvent(evt) return end
+function Device:OnPulseEvent(evt) end
 
----@protected
 ---@param evt QuestForceJuryrigTrapArmed
 ---@return Bool
-function Device:OnQuestForceArmJuryrigTrap(evt) return end
+function Device:OnQuestForceArmJuryrigTrap(evt) end
 
----@protected
 ---@param evt QuestForceCameraZoom
 ---@return Bool
-function Device:OnQuestForceCameraZoom(evt) return end
+function Device:OnQuestForceCameraZoom(evt) end
 
----@protected
 ---@param evt QuestForceJuryrigTrapDeactivated
 ---@return Bool
-function Device:OnQuestForceDeactivateJuryrigTrap(evt) return end
+function Device:OnQuestForceDeactivateJuryrigTrap(evt) end
 
----@protected
 ---@param evt QuestForceAuthorizationDisabled
 ---@return Bool
-function Device:OnQuestForceDisableAuthorization(evt) return end
+function Device:OnQuestForceDisableAuthorization(evt) end
 
----@protected
 ---@param evt QuestForceDisabled
 ---@return Bool
-function Device:OnQuestForceDisabled(evt) return end
+function Device:OnQuestForceDisabled(evt) end
 
----@protected
 ---@param evt QuestForceAuthorizationEnabled
 ---@return Bool
-function Device:OnQuestForceEnableAuthorization(evt) return end
+function Device:OnQuestForceEnableAuthorization(evt) end
 
----@protected
 ---@param evt QuestForceEnabled
 ---@return Bool
-function Device:OnQuestForceEnabled(evt) return end
+function Device:OnQuestForceEnabled(evt) end
 
----@protected
 ---@param evt QuestForceOFF
 ---@return Bool
-function Device:OnQuestForceOFF(evt) return end
+function Device:OnQuestForceOFF(evt) end
 
----@protected
 ---@param evt QuestForceON
 ---@return Bool
-function Device:OnQuestForceON(evt) return end
+function Device:OnQuestForceON(evt) end
 
----@protected
 ---@param evt QuestForcePower
 ---@return Bool
-function Device:OnQuestForcePower(evt) return end
+function Device:OnQuestForcePower(evt) end
 
----@protected
 ---@param evt QuestForceSecuritySystemAlarmed
 ---@return Bool
-function Device:OnQuestForceSecuritySystemAlarmed(evt) return end
+function Device:OnQuestForceSecuritySystemAlarmed(evt) end
 
----@protected
 ---@param evt QuestForceSecuritySystemArmed
 ---@return Bool
-function Device:OnQuestForceSecuritySystemArmed(evt) return end
+function Device:OnQuestForceSecuritySystemArmed(evt) end
 
----@protected
 ---@param evt QuestForceSecuritySystemSafe
 ---@return Bool
-function Device:OnQuestForceSecuritySystemSafe(evt) return end
+function Device:OnQuestForceSecuritySystemSafe(evt) end
 
----@protected
 ---@param evt QuestForceUnpower
 ---@return Bool
-function Device:OnQuestForceUnpower(evt) return end
+function Device:OnQuestForceUnpower(evt) end
 
----@protected
 ---@param evt ResolveAllSkillchecksEvent
 ---@return Bool
-function Device:OnQuestResolveSkillchecks(evt) return end
+function Device:OnQuestResolveSkillchecks(evt) end
 
----@protected
 ---@param evt SetSkillcheckEvent
 ---@return Bool
-function Device:OnQuestSetSkillchecks(evt) return end
+function Device:OnQuestSetSkillchecks(evt) end
 
----@protected
 ---@param evt QuestStartGlitch
 ---@return Bool
-function Device:OnQuestStartGlitch(evt) return end
+function Device:OnQuestStartGlitch(evt) end
 
----@protected
 ---@param evt QuestStopGlitch
 ---@return Bool
-function Device:OnQuestStopGlitch(evt) return end
+function Device:OnQuestStopGlitch(evt) end
 
----@protected
 ---@param evt QuickHackDistraction
 ---@return Bool
-function Device:OnQuickHackDistraction(evt) return end
+function Device:OnQuickHackDistraction(evt) end
 
----@protected
 ---@param evt QuickHackPanelStateEvent
 ---@return Bool
-function Device:OnQuickHackPanelStateChanged(evt) return end
+function Device:OnQuickHackPanelStateChanged(evt) end
 
----@protected
 ---@param evt QuickHackToggleON
 ---@return Bool
-function Device:OnQuickHackToggleOn(evt) return end
+function Device:OnQuickHackToggleOn(evt) end
 
----@protected
 ---@param evt QuickSlotCommandUsed
 ---@return Bool
-function Device:OnQuickSlotCommandUsed(evt) return end
+function Device:OnQuickSlotCommandUsed(evt) end
 
----@protected
 ---@param evt RevealDevicesGridOnEntityEvent
 ---@return Bool
-function Device:OnReavealDevicesGrid(evt) return end
+function Device:OnReavealDevicesGrid(evt) end
 
----@protected
 ---@param evt RepeatPersonalLinkAnimFeaturesHACK
 ---@return Bool
-function Device:OnRepeatApplyAnimFeatureHACK(evt) return end
+function Device:OnRepeatApplyAnimFeatureHACK(evt) end
 
----@protected
 ---@param evt RequestBreadCrumbBarUpdateEvent
 ---@return Bool
-function Device:OnRequesBreadCrumbBarUpdate(evt) return end
+function Device:OnRequesBreadCrumbBarUpdate(evt) end
 
----@protected
 ---@param evt RequestActionWidgetsUpdateEvent
 ---@return Bool
-function Device:OnRequestActionWidgetsUpdate(evt) return end
+function Device:OnRequestActionWidgetsUpdate(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Device:OnRequestComponents(ri) return end
+function Device:OnRequestComponents(ri) end
 
----@protected
 ---@param evt RequestUIRefreshEvent
 ---@return Bool
-function Device:OnRequestUiRefresh(evt) return end
+function Device:OnRequestUiRefresh(evt) end
 
----@protected
 ---@param evt ReturnToDeviceScreenEvent
 ---@return Bool
-function Device:OnReturnToDeviceScreenEvent(evt) return end
+function Device:OnReturnToDeviceScreenEvent(evt) end
 
----@protected
 ---@param evt RevealDeviceRequest
 ---@return Bool
-function Device:OnRevealDeviceRequest(evt) return end
+function Device:OnRevealDeviceRequest(evt) end
 
----@protected
 ---@param evt RevealNetworkGridOnPulse
 ---@return Bool
-function Device:OnRevealNetworkGridOnPulse(evt) return end
+function Device:OnRevealNetworkGridOnPulse(evt) end
 
----@protected
 ---@param evt RevealNetworkGridNetworkRequest
 ---@return Bool
-function Device:OnRevealNetworkGridRequestFromNetworkSystem(evt) return end
+function Device:OnRevealNetworkGridRequestFromNetworkSystem(evt) end
 
----@protected
 ---@param evt RevealStateChangedEvent
 ---@return Bool
-function Device:OnRevealStateChanged(evt) return end
+function Device:OnRevealStateChanged(evt) end
 
----@protected
 ---@param evt gameScanningActionFinishedEvent
 ---@return Bool
-function Device:OnScanningActionFinishedEvent(evt) return end
+function Device:OnScanningActionFinishedEvent(evt) end
 
----@protected
 ---@param evt gameScanningLookAtEvent
 ---@return Bool
-function Device:OnScanningLookedAt(evt) return end
+function Device:OnScanningLookedAt(evt) end
 
----@protected
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return Bool
-function Device:OnSecurityAreaCrossingPerimeter(evt) return end
+function Device:OnSecurityAreaCrossingPerimeter(evt) end
 
----@protected
 ---@param evt SecuritySystemForceAttitudeChange
 ---@return Bool
-function Device:OnSecuritySystemForceAttitudeChange(evt) return end
+function Device:OnSecuritySystemForceAttitudeChange(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return Bool
-function Device:OnSecuritySystemOutput(evt) return end
+function Device:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt SendSpiderbotToPerformActionEvent
 ---@return Bool
-function Device:OnSendSpiderbotToPerformActionEvent(evt) return end
+function Device:OnSendSpiderbotToPerformActionEvent(evt) end
 
----@protected
 ---@param evt SetAuthorizationModuleOFF
 ---@return Bool
-function Device:OnSetAuthorizationModuleOFF(evt) return end
+function Device:OnSetAuthorizationModuleOFF(evt) end
 
----@protected
 ---@param evt SetAuthorizationModuleON
 ---@return Bool
-function Device:OnSetAuthorizationModuleON(evt) return end
+function Device:OnSetAuthorizationModuleON(evt) end
 
----@protected
 ---@param evt SetDeviceAttitude
 ---@return Bool
-function Device:OnSetDeviceAttitude(evt) return end
+function Device:OnSetDeviceAttitude(evt) end
 
----@protected
 ---@param evt SetDevicePowered
 ---@return Bool
-function Device:OnSetDevicePowered(evt) return end
+function Device:OnSetDevicePowered(evt) end
 
----@protected
 ---@param evt SetDeviceUnpowered
 ---@return Bool
-function Device:OnSetDeviceUnpowered(evt) return end
+function Device:OnSetDeviceUnpowered(evt) end
 
----@protected
 ---@param evt SetExposeQuickHacks
 ---@return Bool
-function Device:OnSetExposeQuickHacks(evt) return end
+function Device:OnSetExposeQuickHacks(evt) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return Bool
-function Device:OnSetOFF(evt) return end
+function Device:OnSetOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return Bool
-function Device:OnSetON(evt) return end
+function Device:OnSetON(evt) end
 
----@protected
 ---@param evt gamePSDeviceChangedEvent
 ---@return Bool
-function Device:OnSlaveStateChanged(evt) return end
+function Device:OnSlaveStateChanged(evt) end
 
----@protected
 ---@param evt SpiderbotOrderCompletedEvent
 ---@return Bool
-function Device:OnSpiderbotOrderCompletedEvent(evt) return end
+function Device:OnSpiderbotOrderCompletedEvent(evt) end
 
----@protected
 ---@param evt TCSInputCameraZoom
 ---@return Bool
-function Device:OnTCSInputCameraZoom(evt) return end
+function Device:OnTCSInputCameraZoom(evt) end
 
----@protected
 ---@param evt TCSInputDeviceAttack
 ---@return Bool
-function Device:OnTCSInputDeviceAttack(evt) return end
+function Device:OnTCSInputDeviceAttack(evt) end
 
----@protected
 ---@param evt TCSInputXAxisEvent
 ---@return Bool
-function Device:OnTCSInputXAxisEvent(evt) return end
+function Device:OnTCSInputXAxisEvent(evt) end
 
----@protected
 ---@param evt TCSInputXYAxisEvent
 ---@return Bool
-function Device:OnTCSInputXYAxisEvent(evt) return end
+function Device:OnTCSInputXYAxisEvent(evt) end
 
----@protected
 ---@param evt TCSInputYAxisEvent
 ---@return Bool
-function Device:OnTCSInputYAxisEvent(evt) return end
+function Device:OnTCSInputYAxisEvent(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlActivate
 ---@return Bool
-function Device:OnTCSTakeOverControlActivate(evt) return end
+function Device:OnTCSTakeOverControlActivate(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlDeactivate
 ---@return Bool
-function Device:OnTCSTakeOverControlDeactivate(evt) return end
+function Device:OnTCSTakeOverControlDeactivate(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Device:OnTakeControl(ri) return end
+function Device:OnTakeControl(ri) end
 
----@protected
 ---@param evt DeviceTimetableEvent
 ---@return Bool
-function Device:OnTimetableEntryTriggered(evt) return end
+function Device:OnTimetableEntryTriggered(evt) end
 
----@protected
 ---@param evt ToggleActivation
 ---@return Bool
-function Device:OnToggleActivation(evt) return end
+function Device:OnToggleActivation(evt) end
 
----@protected
 ---@param evt ToggleComponentsEvent
 ---@return Bool
-function Device:OnToggleComponents(evt) return end
+function Device:OnToggleComponents(evt) end
 
----@protected
 ---@param evt ToggleJuryrigTrap
 ---@return Bool
-function Device:OnToggleJuryrigTrap(evt) return end
+function Device:OnToggleJuryrigTrap(evt) end
 
----@protected
 ---@param evt ToggleNetrunnerDive
 ---@return Bool
-function Device:OnToggleNetrunnerDive(evt) return end
+function Device:OnToggleNetrunnerDive(evt) end
 
----@protected
 ---@param evt ToggleON
 ---@return Bool
-function Device:OnToggleON(evt) return end
+function Device:OnToggleON(evt) end
 
----@protected
 ---@param evt TogglePersonalLink
 ---@return Bool
-function Device:OnTogglePersonalLink(evt) return end
+function Device:OnTogglePersonalLink(evt) end
 
----@protected
 ---@param evt TogglePower
 ---@return Bool
-function Device:OnTogglePower(evt) return end
+function Device:OnTogglePower(evt) end
 
----@protected
 ---@param evt ToggleTakeOverControl
 ---@return Bool
-function Device:OnToggleTakeOverControl(evt) return end
+function Device:OnToggleTakeOverControl(evt) end
 
----@protected
 ---@param evt ToggleUIInteractivity
 ---@return Bool
-function Device:OnToggleUIInteractivity(evt) return end
+function Device:OnToggleUIInteractivity(evt) end
 
----@protected
 ---@param evt ToggleZoomInteraction
 ---@return Bool
-function Device:OnToggleZoomInteraction(evt) return end
+function Device:OnToggleZoomInteraction(evt) end
 
----@protected
 ---@param evt UIActionEvent
 ---@return Bool
-function Device:OnUIAction(evt) return end
+function Device:OnUIAction(evt) end
 
----@protected
 ---@param evt UnregisterFromZoomBlackboardEvent
 ---@return Bool
-function Device:OnUnregisterFromZoomBlackboardEvent(evt) return end
+function Device:OnUnregisterFromZoomBlackboardEvent(evt) end
 
----@protected
 ---@param evt UpdateWillingInvestigators
 ---@return Bool
-function Device:OnUpdateWillingInvestigators(evt) return end
+function Device:OnUpdateWillingInvestigators(evt) end
 
----@protected
 ---@param evt UploadProgramProgressEvent
 ---@return Bool
-function Device:OnUploadProgressStateChanged(evt) return end
+function Device:OnUploadProgressStateChanged(evt) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function Device:OnWorkspotFinished(componentName) return end
+function Device:OnWorkspotFinished(componentName) end
 
----@protected
 ---@param evt DelayedDeviceOperationTriggerEvent
 ---@return Bool
-function Device:OndDeviceOperationTriggerDelayed(evt) return end
+function Device:OndDeviceOperationTriggerDelayed(evt) end
 
----@protected
 ---@return nil
-function Device:ActivateDevice() return end
+function Device:ActivateDevice() end
 
----@protected
 ---@param context gamedeviceRequestType
 ---@return nil
-function Device:AddActiveContext(context) return end
+function Device:AddActiveContext(context) end
 
----@protected
 ---@param argText String
 ---@param argIcon CName|string
 ---@return nil
-function Device:AddHudButtonHelper(argText, argIcon) return end
+function Device:AddHudButtonHelper(argText, argIcon) end
 
----@protected
 ---@return nil
-function Device:AdjustInteractionComponent() return end
+function Device:AdjustInteractionComponent() end
 
----@protected
 ---@param target entEntityID
 ---@param statusEffect TweakDBID|string
 ---@return nil
-function Device:ApplyActiveStatusEffect(target, statusEffect) return end
+function Device:ApplyActiveStatusEffect(target, statusEffect) end
 
----@protected
 ---@param attackData gamedamageAttackData
 ---@return nil
-function Device:ApplyDamage(attackData) return end
+function Device:ApplyDamage(attackData) end
 
----@protected
 ---@return nil
-function Device:ArmJuryrigTrap() return end
+function Device:ArmJuryrigTrap() end
 
----@protected
 ---@return nil
-function Device:BreakDevice() return end
+function Device:BreakDevice() end
 
 ---@return Bool
-function Device:CanBeInvestigated() return end
+function Device:CanBeInvestigated() end
 
 ---@return Bool
-function Device:CanOverrideNetworkContext() return end
-
----@protected
----@return Bool
-function Device:CanPassAnySkillCheck() return end
-
----@protected
----@return Bool
-function Device:CanPassAnySkillCheckOnMaster() return end
+function Device:CanOverrideNetworkContext() end
 
 ---@return Bool
-function Device:CanPassDemolitionSkillCheck() return end
+function Device:CanPassAnySkillCheck() end
 
 ---@return Bool
-function Device:CanPassEngineeringSkillCheck() return end
+function Device:CanPassAnySkillCheckOnMaster() end
 
 ---@return Bool
-function Device:CanPassHackingSkillCheck() return end
+function Device:CanPassDemolitionSkillCheck() end
+
+---@return Bool
+function Device:CanPassEngineeringSkillCheck() end
+
+---@return Bool
+function Device:CanPassHackingSkillCheck() end
 
 ---@param data TweakDBID|string
 ---@return Bool
-function Device:CanPlayerUseQuickHackVulnerability(data) return end
+function Device:CanPlayerUseQuickHackVulnerability(data) end
 
 ---@return Bool
-function Device:CanRevealRemoteActionsWheel() return end
+function Device:CanRevealRemoteActionsWheel() end
 
----@protected
 ---@return nil
-function Device:CheckDistractionAchievemnt() return end
+function Device:CheckDistractionAchievemnt() end
 
 ---@param transform WorldTransform
 ---@return Vector4
-function Device:CheckQueryStartPoint(transform) return end
+function Device:CheckQueryStartPoint(transform) end
 
----@protected
 ---@return nil
-function Device:ClearActiveProgramToUploadOnNPC() return end
+function Device:ClearActiveProgramToUploadOnNPC() end
 
----@protected
 ---@return nil
-function Device:ClearActiveStatusEffect() return end
+function Device:ClearActiveStatusEffect() end
 
----@protected
 ---@return nil
-function Device:ClearQuickHacks() return end
+function Device:ClearQuickHacks() end
 
 ---@return Bool
-function Device:CompileScannerChunks() return end
+function Device:CompileScannerChunks() end
 
 ---@param isPressed Bool
 ---@return nil
-function Device:ControlledDeviceInputAction(isPressed) return end
+function Device:ControlledDeviceInputAction(isPressed) end
 
----@protected
 ---@return nil
-function Device:CreateBlackboard() return end
+function Device:CreateBlackboard() end
 
----@protected
 ---@param range Float
 ---@return nil
-function Device:CreateEMPGameEffect(range) return end
+function Device:CreateEMPGameEffect(range) end
 
----@protected
 ---@param resource gameFxResource
 ---@param transform WorldTransform
 ---@return gameFxInstance
-function Device:CreateFxInstance(resource, transform) return end
+function Device:CreateFxInstance(resource, transform) end
 
----@protected
 ---@param data GemplayObjectiveData
 ---@return nil
-function Device:CreateGameplayObjective(data) return end
+function Device:CreateGameplayObjective(data) end
 
----@protected
 ---@return nil
-function Device:CutPower() return end
+function Device:CutPower() end
 
----@protected
 ---@return nil
-function Device:DeactivateDevice() return end
+function Device:DeactivateDevice() end
 
----@protected
 ---@return nil
-function Device:DeactivateJuryrigTrap() return end
+function Device:DeactivateJuryrigTrap() end
 
 ---@param data SDeviceMappinData
 ---@return Float
-function Device:DeterminGameplayRoleMappinRange(data) return end
+function Device:DeterminGameplayRoleMappinRange(data) end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function Device:DeterminGameplayRoleMappinVisuaState(data) return end
+function Device:DeterminGameplayRoleMappinVisuaState(data) end
 
----@protected
 ---@param context? gameGetActionsContext
 ---@return nil
-function Device:DetermineInteractionState(context) return end
+function Device:DetermineInteractionState(context) end
 
----@protected
 ---@param context? gameGetActionsContext
 ---@return nil
-function Device:DetermineInteractionStateByTask(context) return end
+function Device:DetermineInteractionStateByTask(context) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function Device:DetermineInteractionStateTask(data) return end
+function Device:DetermineInteractionStateTask(data) end
 
----@protected
 ---@return nil
-function Device:DeviceUpdate() return end
+function Device:DeviceUpdate() end
 
----@protected
 ---@return nil
-function Device:Die() return end
+function Device:Die() end
 
----@private
 ---@param shouldDisplay Bool
 ---@param attempt Int32
 ---@return nil
-function Device:DisplayConnectionWindowOnPlayerHUD(shouldDisplay, attempt) return end
+function Device:DisplayConnectionWindowOnPlayerHUD(shouldDisplay, attempt) end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function Device:EnableProximityMappinInteractionLayer(enable) return end
+function Device:EnableProximityMappinInteractionLayer(enable) end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function Device:EnableProximityRevealInteractionLayer(enable) return end
+function Device:EnableProximityRevealInteractionLayer(enable) end
 
----@protected
 ---@param shouldEnable Bool
 ---@param time? Float
 ---@return nil
-function Device:EnableUpdate(shouldEnable, time) return end
+function Device:EnableUpdate(shouldEnable, time) end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@return nil
-function Device:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
+function Device:EnterWorkspot(activator, freeCamera, componentName, deviceData) end
 
----@protected
 ---@param activator gameObject
 ---@param shouldCrouch Bool
 ---@param cameraFlavour? CName|string
@@ -871,604 +718,534 @@ function Device:EnterWorkspot(activator, freeCamera, componentName, deviceData) 
 ---@param leftHandPosition? Vector4
 ---@param leftHandRotation? Quaternion
 ---@return nil
-function Device:EnterWorkspotWithIK(activator, shouldCrouch, cameraFlavour, componentName, cameraPosition, cameraRotation, rightHandPosition, rightHandRotation, leftHandPosition, leftHandRotation) return end
+function Device:EnterWorkspotWithIK(activator, shouldCrouch, cameraFlavour, componentName, cameraPosition, cameraRotation, rightHandPosition, rightHandRotation, leftHandPosition, leftHandRotation) end
 
----@protected
 ---@param executor gameObject
 ---@param instant? Bool
 ---@return nil
-function Device:EvaluateCameraZoomState(executor, instant) return end
+function Device:EvaluateCameraZoomState(executor, instant) end
 
----@protected
 ---@return nil
-function Device:EvaluateProximityMappinInteractionLayerState() return end
+function Device:EvaluateProximityMappinInteractionLayerState() end
 
----@protected
 ---@return nil
-function Device:EvaluateProximityRevealInteractionLayerState() return end
+function Device:EvaluateProximityRevealInteractionLayerState() end
 
----@protected
 ---@param choice gameinteractionsChoice
 ---@param executor gameObject
 ---@param layerTag CName|string
 ---@return nil
-function Device:ExecuteAction(choice, executor, layerTag) return end
+function Device:ExecuteAction(choice, executor, layerTag) end
 
----@protected
 ---@param action gamedeviceAction
 ---@param executor? gameObject
 ---@return Bool
-function Device:ExecuteAction(action, executor) return end
+function Device:ExecuteAction(action, executor) end
 
----@protected
 ---@param actionClassName CName|string
 ---@return nil
-function Device:ExecuteBaseActionOperation(actionClassName) return end
+function Device:ExecuteBaseActionOperation(actionClassName) end
 
----@protected
 ---@return nil
-function Device:ExecuteDeviceStateOperation() return end
+function Device:ExecuteDeviceStateOperation() end
 
----@protected
 ---@param evt entTriggerEvent
 ---@return entEntityID
-function Device:ExtractEntityID(evt) return end
+function Device:ExtractEntityID(evt) end
 
 ---@return nil
-function Device:FastForwardAnimations() return end
+function Device:FastForwardAnimations() end
 
----@protected
 ---@return nil, gameScanningTooltipElementDef[] arr
-function Device:FillObjectDescription() return end
+function Device:FillObjectDescription() end
 
----@private
 ---@return nil
-function Device:FireSingleTick() return end
+function Device:FireSingleTick() end
 
----@protected
 ---@return nil
-function Device:ForceReEvaluateGameplayRole() return end
+function Device:ForceReEvaluateGameplayRole() end
 
 ---@return Vector4
-function Device:GetAcousticQuerryStartPoint() return end
+function Device:GetAcousticQuerryStartPoint() end
 
 ---@param context gameGetActionsContext
 ---@param debugger DeviceDebuggerComponent
 ---@return Bool, gamedeviceAction[] outActions
-function Device:GetActionsDebug(context, debugger) return end
+function Device:GetActionsDebug(context, debugger) end
 
----@protected
 ---@return TweakDBID
-function Device:GetActiveProgramToUploadOnNPC() return end
+function Device:GetActiveProgramToUploadOnNPC() end
 
----@protected
 ---@return TweakDBID
-function Device:GetActiveStatusEffect() return end
+function Device:GetActiveStatusEffect() end
 
 ---@param action ScriptableDeviceAction
 ---@return Float
-function Device:GetAreaEffectLifetimeByAction(action) return end
+function Device:GetAreaEffectLifetimeByAction(action) end
 
 ---@param effectName CName|string
 ---@return Float
-function Device:GetAreaEffectLifetimeByName(effectName) return end
+function Device:GetAreaEffectLifetimeByName(effectName) end
 
 ---@param action ScriptableDeviceAction
 ---@return Float
-function Device:GetAreaEffectStimRangeByAction(action) return end
+function Device:GetAreaEffectStimRangeByAction(action) end
 
 ---@return gameIBlackboard
-function Device:GetBlackboard() return end
+function Device:GetBlackboard() end
 
 ---@return DeviceBaseBlackboardDef
-function Device:GetBlackboardDef() return end
+function Device:GetBlackboardDef() end
 
----@private
 ---@param id gamebbScriptID_Int32
 ---@return Int32
-function Device:GetBlackboardIntVariable(id) return end
+function Device:GetBlackboardIntVariable(id) end
 
----@protected
 ---@return gameFxResource
-function Device:GetBreachedNetworkBeamResource() return end
+function Device:GetBreachedNetworkBeamResource() end
 
----@protected
 ---@param globalNodeRef worldGlobalNodeRef
 ---@return Vector4[]
-function Device:GetCachedInvestigationPositionsArray(globalNodeRef) return end
+function Device:GetCachedInvestigationPositionsArray(globalNodeRef) end
 
 ---@return TweakDBID
-function Device:GetContentScale() return end
+function Device:GetContentScale() end
 
 ---@param processInitiator? gameObject
 ---@param requestType? gamedeviceRequestType
 ---@return gameGetActionsContext
-function Device:GetContext(processInitiator, requestType) return end
+function Device:GetContext(processInitiator, requestType) end
 
 ---@return ScriptableDeviceComponent
-function Device:GetController() return end
+function Device:GetController() end
 
 ---@return EGameplayRole
-function Device:GetCurrentGameplayRole() return end
+function Device:GetCurrentGameplayRole() end
 
 ---@return Float
-function Device:GetCurrentHealth() return end
+function Device:GetCurrentHealth() end
 
 ---@return EFocusOutlineType
-function Device:GetCurrentOutline() return end
+function Device:GetCurrentOutline() end
 
 ---@return ScriptableDeviceAction
-function Device:GetCurrentlyUploadingAction() return end
+function Device:GetCurrentlyUploadingAction() end
 
 ---@return DebuggerProperties
-function Device:GetDebuggerProperties() return end
+function Device:GetDebuggerProperties() end
 
----@protected
 ---@return gameFxResource
-function Device:GetDefaultDevicesBeamResource() return end
+function Device:GetDefaultDevicesBeamResource() end
 
----@protected
 ---@return AreaEffectData
-function Device:GetDefaultDistractionAreaEffectData() return end
+function Device:GetDefaultDistractionAreaEffectData() end
 
 ---@return FocusForcedHighlightData
-function Device:GetDefaultHighlight() return end
+function Device:GetDefaultHighlight() end
 
----@protected
 ---@return gameFxResource
-function Device:GetDefaultNetworkBeamResource() return end
+function Device:GetDefaultNetworkBeamResource() end
 
----@private
 ---@return DeviceConnectionsHighlightSystem
-function Device:GetDeviceConnectionsHighlightSystem() return end
+function Device:GetDeviceConnectionsHighlightSystem() end
 
 ---@return DeviceLinkComponentPS
-function Device:GetDeviceLink() return end
+function Device:GetDeviceLink() end
 
 ---@return String
-function Device:GetDeviceName() return end
+function Device:GetDeviceName() end
 
 ---@return ScriptableDeviceComponentPS
-function Device:GetDevicePS() return end
+function Device:GetDevicePS() end
 
 ---@return EDeviceStatus
-function Device:GetDeviceState() return end
+function Device:GetDeviceState() end
 
 ---@return String
-function Device:GetDeviceStatusString() return end
+function Device:GetDeviceStatusString() end
 
 ---@param effectData? AreaEffectData
 ---@return entEntity
-function Device:GetDistractionControllerSource(effectData) return end
+function Device:GetDistractionControllerSource(effectData) end
 
 ---@param device gameObject
 ---@return Vector4
-function Device:GetDistractionPointPosition(device) return end
+function Device:GetDistractionPointPosition(device) end
 
----@protected
 ---@param type DeviceStimType
 ---@return Float
-function Device:GetDistractionRange(type) return end
+function Device:GetDistractionRange(type) end
 
 ---@param defaultValue Float
 ---@return Float
-function Device:GetDistractionStimLifetime(defaultValue) return end
+function Device:GetDistractionStimLifetime(defaultValue) end
 
----@private
 ---@return CName
-function Device:GetEngineeringSkillcheckSFXName() return end
+function Device:GetEngineeringSkillcheckSFXName() end
 
 ---@param nodeRef NodeRef
 ---@return entEntity
-function Device:GetEntityFromNode(nodeRef) return end
+function Device:GetEntityFromNode(nodeRef) end
 
 ---@param key CName|string
 ---@return gameFxResource
-function Device:GetFxResourceByKey(key) return end
+function Device:GetFxResourceByKey(key) end
 
 ---@return FxResourceMapperComponent
-function Device:GetFxResourceMapper() return end
+function Device:GetFxResourceMapper() end
 
----@protected
 ---@return DeviceInkGameControllerBase
-function Device:GetGameController() return end
+function Device:GetGameController() end
 
----@protected
 ---@return GameplayQuestSystem
-function Device:GetGameplayQuestSystem() return end
+function Device:GetGameplayQuestSystem() end
 
----@protected
 ---@param hitSourceEntityID entEntityID
 ---@return Vector4
-function Device:GetHitSourcePosition(hitSourceEntityID) return end
+function Device:GetHitSourcePosition(hitSourceEntityID) end
 
 ---@return CName
-function Device:GetInputContextName() return end
+function Device:GetInputContextName() end
 
----@protected
 ---@return entLocalizationStringComponent
-function Device:GetLocalization() return end
+function Device:GetLocalization() end
 
----@private
 ---@param actions gamedeviceAction[]
 ---@param searchWord String
 ---@return Int32
-function Device:GetMatchingActionProgramName(actions, searchWord) return end
+function Device:GetMatchingActionProgramName(actions, searchWord) end
 
 ---@return Vector4
-function Device:GetNetworkBeamEndpoint() return end
+function Device:GetNetworkBeamEndpoint() end
 
----@protected
 ---@return Vector4
-function Device:GetNetworkBeamOffset() return end
+function Device:GetNetworkBeamOffset() end
 
----@private
 ---@return gameIBlackboard
-function Device:GetNetworkBlackboard() return end
+function Device:GetNetworkBlackboard() end
 
----@private
 ---@return NetworkBlackboardDef
-function Device:GetNetworkBlackboardDef() return end
+function Device:GetNetworkBlackboardDef() end
 
 ---@return CName
-function Device:GetNetworkLinkSlotName() return end
+function Device:GetNetworkLinkSlotName() end
 
 ---@return CName, WorldTransform transform
-function Device:GetNetworkLinkSlotName() return end
+function Device:GetNetworkLinkSlotName() end
 
 ---@return String
-function Device:GetNetworkSecurityLevel() return end
+function Device:GetNetworkSecurityLevel() end
 
 ---@param nodeRef? NodeRef
 ---@return Vector4[]
-function Device:GetNodePosition(nodeRef) return end
+function Device:GetNodePosition(nodeRef) end
 
 ---@return CName
-function Device:GetPSClassName() return end
+function Device:GetPSClassName() end
 
----@protected
 ---@return CName
-function Device:GetPSName() return end
+function Device:GetPSName() end
 
----@private
 ---@return String[]
-function Device:GetPlayerCyberDeck() return end
+function Device:GetPlayerCyberDeck() end
 
----@protected
 ---@return gameObject
-function Device:GetPlayerMainObject() return end
+function Device:GetPlayerMainObject() end
 
 ---@return Vector4
-function Device:GetPlaystyleMappinLocalPos() return end
+function Device:GetPlaystyleMappinLocalPos() end
 
 ---@return Vector4
-function Device:GetPlaystyleMappinSlotWorldPos() return end
+function Device:GetPlaystyleMappinSlotWorldPos() end
 
 ---@return WorldTransform
-function Device:GetPlaystyleMappinSlotWorldTransform() return end
+function Device:GetPlaystyleMappinSlotWorldTransform() end
 
 ---@return ResourceLibraryComponent
-function Device:GetResourceLibrary() return end
+function Device:GetResourceLibrary() end
 
----@protected
 ---@return Float
-function Device:GetRevealOnProximityStopLifetimeValue() return end
+function Device:GetRevealOnProximityStopLifetimeValue() end
 
 ---@return TweakDBID
-function Device:GetScannerAttitudeTweak() return end
+function Device:GetScannerAttitudeTweak() end
 
----@protected
 ---@return String
-function Device:GetScannerName() return end
+function Device:GetScannerName() end
 
 ---@return ScreenDefinitionPackage
-function Device:GetScreenDefinition() return end
+function Device:GetScreenDefinition() end
 
 ---@return SecuritySystemControllerPS
-function Device:GetSecuritySystem() return end
+function Device:GetSecuritySystem() end
 
 ---@return entSlotComponent
-function Device:GetSlotComponent() return end
+function Device:GetSlotComponent() end
 
----@protected
 ---@return CName
-function Device:GetSlotTag() return end
+function Device:GetSlotTag() end
 
----@protected
 ---@param type DeviceStimType
 ---@return Float
-function Device:GetSmallestDistractionRange(type) return end
+function Device:GetSmallestDistractionRange(type) end
 
 ---@return gameObject
-function Device:GetStimTarget() return end
+function Device:GetStimTarget() end
 
 ---@return Float
-function Device:GetTotalHealth() return end
+function Device:GetTotalHealth() end
 
 ---@return TweakDBID
-function Device:GetTweakDBRecord() return end
+function Device:GetTweakDBRecord() end
 
 ---@return entEntityID[]
-function Device:GetWillingInvestigators() return end
+function Device:GetWillingInvestigators() end
 
----@protected
 ---@param value Float
 ---@return nil
-function Device:HandlePlayerStateMachineZoom(value) return end
+function Device:HandlePlayerStateMachineZoom(value) end
 
 ---@return Bool
-function Device:HasActiveDistraction() return end
+function Device:HasActiveDistraction() end
 
 ---@return Bool
-function Device:HasActiveQuickHackUpload() return end
+function Device:HasActiveQuickHackUpload() end
 
 ---@return Bool
-function Device:HasActiveStaticHackingSkillcheck() return end
+function Device:HasActiveStaticHackingSkillcheck() end
 
----@protected
 ---@return Bool
-function Device:HasAnyActiveQuickHackVulnerabilities() return end
+function Device:HasAnyActiveQuickHackVulnerabilities() end
 
----@protected
 ---@return Bool
-function Device:HasAnyDistractions() return end
+function Device:HasAnyDistractions() end
 
----@protected
 ---@param ignorePingLinks Bool
 ---@return Bool
-function Device:HasAnyNetworkLink(ignorePingLinks) return end
-
----@protected
----@return Bool
-function Device:HasAnyNetworkLink() return end
+function Device:HasAnyNetworkLink(ignorePingLinks) end
 
 ---@return Bool
-function Device:HasAnyPlaystyle() return end
-
----@protected
----@return Bool
-function Device:HasAnyQuickHackActive() return end
+function Device:HasAnyNetworkLink() end
 
 ---@return Bool
-function Device:HasAnySkillCheckActive() return end
+function Device:HasAnyPlaystyle() end
 
 ---@return Bool
-function Device:HasAnySlaveDevices() return end
-
----@protected
----@return Bool
-function Device:HasAnySpiderBotOrdersActive() return end
+function Device:HasAnyQuickHackActive() end
 
 ---@return Bool
-function Device:HasDirectActionsActive() return end
+function Device:HasAnySkillCheckActive() end
 
 ---@return Bool
-function Device:HasImportantInteraction() return end
+function Device:HasAnySlaveDevices() end
 
----@protected
+---@return Bool
+function Device:HasAnySpiderBotOrdersActive() end
+
+---@return Bool
+function Device:HasDirectActionsActive() end
+
+---@return Bool
+function Device:HasImportantInteraction() end
+
 ---@param globalNodeRef worldGlobalNodeRef
 ---@return Bool
-function Device:HasInvestigationPositionsArrayCached(globalNodeRef) return end
+function Device:HasInvestigationPositionsArrayCached(globalNodeRef) end
 
 ---@param id entEntityID
 ---@return Bool
-function Device:HasWillingInvestigator(id) return end
+function Device:HasWillingInvestigator(id) end
 
----@private
 ---@return nil
-function Device:HideAdvanceInteractionInputHints() return end
+function Device:HideAdvanceInteractionInputHints() end
 
----@protected
 ---@return nil
-function Device:HideMappinOnProximity() return end
+function Device:HideMappinOnProximity() end
 
----@private
 ---@return nil
-function Device:InitializeGameplayObjectives() return end
+function Device:InitializeGameplayObjectives() end
 
----@protected
 ---@return nil
-function Device:InitializeScanningData() return end
+function Device:InitializeScanningData() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function Device:InitializeScanningDataTask(data) return end
+function Device:InitializeScanningDataTask(data) end
 
----@private
 ---@return nil
-function Device:InitializeScreenDefinition() return end
+function Device:InitializeScreenDefinition() end
 
----@protected
 ---@param puppet gameObject
 ---@return nil
-function Device:InitiatePersonalLinkWorkspot(puppet) return end
-
----@private
----@return Bool
-function Device:IsActionQueueEnabled() return end
-
----@private
----@return Bool
-function Device:IsActionQueueFull() return end
+function Device:InitiatePersonalLinkWorkspot(puppet) end
 
 ---@return Bool
-function Device:IsActive() return end
+function Device:IsActionQueueEnabled() end
 
 ---@return Bool
-function Device:IsActiveBackdoor() return end
-
----@protected
----@return Bool
-function Device:IsActiveProgramToUploadOnNPCValid() return end
-
----@protected
----@return Bool
-function Device:IsActiveStatusEffectValid() return end
+function Device:IsActionQueueFull() end
 
 ---@return Bool
-function Device:IsBackdoor() return end
+function Device:IsActive() end
 
 ---@return Bool
-function Device:IsBreached() return end
-
----@protected
----@return Bool
-function Device:IsConnectedToActionsSequencer() return end
+function Device:IsActiveBackdoor() end
 
 ---@return Bool
-function Device:IsConnectedToBackdoorDevice() return end
+function Device:IsActiveProgramToUploadOnNPCValid() end
 
 ---@return Bool
-function Device:IsConnectedToSecuritySystem() return end
+function Device:IsActiveStatusEffectValid() end
 
 ---@return Bool
-function Device:IsControllingDevices() return end
-
----@protected
----@return Bool
-function Device:IsCyberdeckEquippedOnPlayer() return end
+function Device:IsBackdoor() end
 
 ---@return Bool
-function Device:IsDemolitionSkillCheckActive() return end
+function Device:IsBreached() end
 
 ---@return Bool
-function Device:IsDevice() return end
+function Device:IsConnectedToActionsSequencer() end
 
 ---@return Bool
-function Device:IsDeviceSecured() return end
+function Device:IsConnectedToBackdoorDevice() end
 
 ---@return Bool
-function Device:IsDirectInteractionCondition() return end
+function Device:IsConnectedToSecuritySystem() end
 
 ---@return Bool
-function Device:IsEngineeringSkillCheckActive() return end
+function Device:IsControllingDevices() end
 
 ---@return Bool
-function Device:IsGameplayRelevant() return end
+function Device:IsCyberdeckEquippedOnPlayer() end
 
 ---@return Bool
-function Device:IsGameplayRoleStatic() return end
+function Device:IsDemolitionSkillCheckActive() end
+
+---@return Bool
+function Device:IsDevice() end
+
+---@return Bool
+function Device:IsDeviceSecured() end
+
+---@return Bool
+function Device:IsDirectInteractionCondition() end
+
+---@return Bool
+function Device:IsEngineeringSkillCheckActive() end
+
+---@return Bool
+function Device:IsGameplayRelevant() end
+
+---@return Bool
+function Device:IsGameplayRoleStatic() end
 
 ---@param role EGameplayRole
 ---@return Bool
-function Device:IsGameplayRoleValid(role) return end
+function Device:IsGameplayRoleValid(role) end
 
 ---@return Bool
-function Device:IsHackingSkillCheckActive() return end
+function Device:IsHackingSkillCheckActive() end
 
 ---@return Bool
-function Device:IsHighlightedInFocusMode() return end
+function Device:IsHighlightedInFocusMode() end
 
 ---@return Bool
-function Device:IsInitialized() return end
+function Device:IsInitialized() end
 
 ---@return Bool
-function Device:IsInvestigated() return end
-
----@protected
----@return Bool
-function Device:IsLockedViaSequencer() return end
-
----@protected
----@return Bool
-function Device:IsLookedAt() return end
+function Device:IsInvestigated() end
 
 ---@return Bool
-function Device:IsNetrunner() return end
+function Device:IsLockedViaSequencer() end
 
 ---@return Bool
-function Device:IsNetworkKnownToPlayer() return end
+function Device:IsLookedAt() end
 
 ---@return Bool
-function Device:IsNetworkLinkDynamic() return end
+function Device:IsNetrunner() end
 
----@protected
+---@return Bool
+function Device:IsNetworkKnownToPlayer() end
+
+---@return Bool
+function Device:IsNetworkLinkDynamic() end
+
 ---@param entityID entEntityID
 ---@return Bool
-function Device:IsPlayer(entityID) return end
+function Device:IsPlayer(entityID) end
 
 ---@return Bool
-function Device:IsPlayerAround() return end
+function Device:IsPlayerAround() end
 
 ---@return Bool
-function Device:IsPotentiallyQuickHackable() return end
+function Device:IsPotentiallyQuickHackable() end
 
 ---@return Bool
-function Device:IsQuest() return end
+function Device:IsQuest() end
 
 ---@return Bool
-function Device:IsQuickHackAble() return end
+function Device:IsQuickHackAble() end
 
 ---@return Bool
-function Device:IsQuickHacksExposed() return end
+function Device:IsQuickHacksExposed() end
 
 ---@return Bool
-function Device:IsReadyForUI() return end
+function Device:IsReadyForUI() end
 
 ---@return Bool
-function Device:IsSolo() return end
+function Device:IsSolo() end
 
 ---@param target gameObject
 ---@return Bool
-function Device:IsTargetTresspassingMyZone(target) return end
+function Device:IsTargetTresspassingMyZone(target) end
 
 ---@return Bool
-function Device:IsTechie() return end
+function Device:IsTechie() end
 
 ---@return Bool
-function Device:IsUIdirty() return end
+function Device:IsUIdirty() end
 
 ---@return Bool
-function Device:IsVisible() return end
+function Device:IsVisible() end
 
----@protected
 ---@param killDelay Float
 ---@return nil
-function Device:KillNPCWorkspotUser(killDelay) return end
+function Device:KillNPCWorkspotUser(killDelay) end
 
----@protected
 ---@param activator gameObject
 ---@return nil
-function Device:LeaveWorkspot(activator) return end
+function Device:LeaveWorkspot(activator) end
 
----@protected
 ---@param isQuest Bool
 ---@return nil
-function Device:MarkAsQuest(isQuest) return end
+function Device:MarkAsQuest(isQuest) end
 
----@protected
 ---@param IsHighlightON Bool
 ---@param IsNotifiedByMasterDevice Bool
 ---@return Bool
-function Device:NotifyConnectionHighlightSystem(IsHighlightON, IsNotifiedByMasterDevice) return end
+function Device:NotifyConnectionHighlightSystem(IsHighlightON, IsNotifiedByMasterDevice) end
 
----@protected
 ---@return nil
-function Device:NotifyParents() return end
+function Device:NotifyParents() end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function Device:OnMaraudersMapDeviceDebug(sink) return end
+function Device:OnMaraudersMapDeviceDebug(sink) end
 
 ---@return nil
-function Device:OnQuestMinigameRequest() return end
+function Device:OnQuestMinigameRequest() end
 
----@protected
 ---@return nil
-function Device:OnVisibilityChanged() return end
+function Device:OnVisibilityChanged() end
 
----@protected
 ---@return nil
-function Device:OrderSpiderbot() return end
+function Device:OrderSpiderbot() end
 
----@protected
 ---@param attempt Int32
 ---@param isRemote Bool
 ---@return nil
-function Device:PerformDive(attempt, isRemote) return end
+function Device:PerformDive(attempt, isRemote) end
 
----@protected
 ---@param lifetime Float
 ---@param pingType EPingType
 ---@param resource gameFxResource
@@ -1476,16 +1253,15 @@ function Device:PerformDive(attempt, isRemote) return end
 ---@param revealMaster Bool
 ---@param ignoreRevealed Bool
 ---@return nil
-function Device:PingNetworkGrid(lifetime, pingType, resource, revealSlave, revealMaster, ignoreRevealed) return end
+function Device:PingNetworkGrid(lifetime, pingType, resource, revealSlave, revealMaster, ignoreRevealed) end
 
----@protected
 ---@param lifetime Float
 ---@param pingType EPingType
 ---@param revealSlave Bool
 ---@param revealMaster Bool
 ---@param ignoreRevealed Bool
 ---@return nil
-function Device:PingNetworkGrid(lifetime, pingType, revealSlave, revealMaster, ignoreRevealed) return end
+function Device:PingNetworkGrid(lifetime, pingType, revealSlave, revealMaster, ignoreRevealed) end
 
 ---@param ownerEntityPosition Vector4
 ---@param fxResource gameFxResource
@@ -1495,462 +1271,372 @@ function Device:PingNetworkGrid(lifetime, pingType, revealSlave, revealMaster, i
 ---@param revealMaster Bool
 ---@param ignoreRevealed Bool
 ---@return nil
-function Device:PingNetworkGrid_Event(ownerEntityPosition, fxResource, lifetime, pingType, revealSlave, revealMaster, ignoreRevealed) return end
+function Device:PingNetworkGrid_Event(ownerEntityPosition, fxResource, lifetime, pingType, revealSlave, revealMaster, ignoreRevealed) end
 
----@protected
 ---@param effectEventName CName|string
 ---@param effectEventTag CName|string
 ---@return nil
-function Device:PlayEffect(effectEventName, effectEventTag) return end
+function Device:PlayEffect(effectEventName, effectEventTag) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function Device:ProcessDamagePipeline(evt) return end
+function Device:ProcessDamagePipeline(evt) end
 
----@private
 ---@return nil
-function Device:ProjectileExposeQuickHacks() return end
+function Device:ProjectileExposeQuickHacks() end
 
----@protected
 ---@param revealNetworkAtEnd Bool
 ---@return nil
-function Device:PulseNetwork(revealNetworkAtEnd) return end
+function Device:PulseNetwork(revealNetworkAtEnd) end
 
----@protected
 ---@return nil
-function Device:PushData() return end
+function Device:PushData() end
 
----@protected
 ---@return nil
-function Device:PushPersistentData() return end
+function Device:PushPersistentData() end
 
----@protected
 ---@return nil
-function Device:ReEvaluateGameplayRole() return end
+function Device:ReEvaluateGameplayRole() end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return nil
-function Device:ReactToHit(hit) return end
+function Device:ReactToHit(hit) end
 
----@protected
 ---@return nil
-function Device:RefreshInteraction() return end
+function Device:RefreshInteraction() end
 
----@protected
 ---@param isDelayed? Bool
 ---@return nil
-function Device:RefreshUI(isDelayed) return end
+function Device:RefreshUI(isDelayed) end
 
----@protected
 ---@param shouldRegister Bool
 ---@return nil
-function Device:RegisterPlayerInputListener(shouldRegister) return end
+function Device:RegisterPlayerInputListener(shouldRegister) end
 
----@protected
 ---@return nil
-function Device:RegisterPlayerTargetCallback() return end
+function Device:RegisterPlayerTargetCallback() end
 
----@protected
 ---@param context gamedeviceRequestType
 ---@return nil
-function Device:RemoveActiveContext(context) return end
+function Device:RemoveActiveContext(context) end
 
----@protected
 ---@param data GemplayObjectiveData
 ---@return nil
-function Device:RemoveGameplayObjective(data) return end
+function Device:RemoveGameplayObjective(data) end
 
----@protected
 ---@return nil
-function Device:RemoveHudButtonHelper() return end
+function Device:RemoveHudButtonHelper() end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function Device:RequestActionWidgetsUpdate(blackboard) return end
+function Device:RequestActionWidgetsUpdate(blackboard) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function Device:RequestDeviceWidgetsUpdate(blackboard) return end
+function Device:RequestDeviceWidgetsUpdate(blackboard) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function Device:RequestThumbnailWidgetsUpdate(blackboard) return end
+function Device:RequestThumbnailWidgetsUpdate(blackboard) end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function Device:ResavePersistentData(ps) return end
+function Device:ResavePersistentData(ps) end
 
----@protected
 ---@return nil
-function Device:ResetChoicesByEvent() return end
+function Device:ResetChoicesByEvent() end
 
----@private
 ---@param componentsData SComponentOperationData[]
 ---@return nil
-function Device:ResolveComponents(componentsData) return end
+function Device:ResolveComponents(componentsData) end
 
----@private
 ---@param visionType gameVisionModeType
 ---@param activated Bool
 ---@return nil
-function Device:ResolveDeviceOperationOnFocusMode(visionType, activated) return end
+function Device:ResolveDeviceOperationOnFocusMode(visionType, activated) end
 
----@protected
 ---@param show Bool
 ---@return nil
-function Device:ResolveGameplayObjectives(show) return end
+function Device:ResolveGameplayObjectives(show) end
 
----@protected
 ---@return nil
-function Device:ResolveGameplayState() return end
+function Device:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function Device:ResolveGameplayStateByTask() return end
+function Device:ResolveGameplayStateByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function Device:ResolveGameplayStateTask(data) return end
+function Device:ResolveGameplayStateTask(data) end
 
----@protected
 ---@param executor gameObject
 ---@param duration Float
 ---@return nil
-function Device:ResolveIllegalAction(executor, duration) return end
+function Device:ResolveIllegalAction(executor, duration) end
 
----@private
 ---@param action ScriptableDeviceAction
 ---@return nil
-function Device:ResolveQuestImportanceOnPerformedAction(action) return end
+function Device:ResolveQuestImportanceOnPerformedAction(action) end
 
----@private
 ---@return nil
-function Device:ResolveQuestMarkOnFact() return end
+function Device:ResolveQuestMarkOnFact() end
 
----@private
 ---@param state Bool
 ---@return nil
-function Device:ResolveRemoteActions(state) return end
+function Device:ResolveRemoteActions(state) end
 
----@protected
 ---@return nil
-function Device:RestoreBaseActionOperations() return end
+function Device:RestoreBaseActionOperations() end
 
----@protected
 ---@return nil
-function Device:RestoreDeviceState() return end
+function Device:RestoreDeviceState() end
 
----@protected
 ---@return nil
-function Device:RestorePower() return end
+function Device:RestorePower() end
 
----@protected
 ---@param shouldDraw Bool
 ---@return nil
-function Device:RevealDevicesGrid(shouldDraw) return end
+function Device:RevealDevicesGrid(shouldDraw) end
 
 ---@param shouldDraw Bool
 ---@param ownerEntityPosition? Vector4
 ---@param fxDefault? gameFxResource
 ---@return nil
-function Device:RevealDevicesGrid_Event(shouldDraw, ownerEntityPosition, fxDefault) return end
+function Device:RevealDevicesGrid_Event(shouldDraw, ownerEntityPosition, fxDefault) end
 
----@protected
 ---@param shouldDraw Bool
 ---@return nil
-function Device:RevealNetworkGrid(shouldDraw) return end
+function Device:RevealNetworkGrid(shouldDraw) end
 
 ---@param shouldDraw Bool
 ---@param ownerEntityPosition? Vector4
 ---@param fxDefault? gameFxResource
 ---@param fxBreached? gameFxResource
 ---@return nil
-function Device:RevealNetworkGrid_Event(shouldDraw, ownerEntityPosition, fxDefault, fxBreached) return end
+function Device:RevealNetworkGrid_Event(shouldDraw, ownerEntityPosition, fxDefault, fxBreached) end
 
----@protected
 ---@return nil
-function Device:SendDisableAreaIndicatorEvent() return end
+function Device:SendDisableAreaIndicatorEvent() end
 
----@protected
 ---@param evt redEvent
 ---@return nil
-function Device:SendEventToDefaultPS(evt) return end
+function Device:SendEventToDefaultPS(evt) end
 
----@protected
 ---@param shouldOpen Bool
 ---@return nil
-function Device:SendQuickhackCommands(shouldOpen) return end
+function Device:SendQuickhackCommands(shouldOpen) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function Device:SendSetIsSpiderbotInteractionOrderedEvent(value) return end
+function Device:SendSetIsSpiderbotInteractionOrderedEvent(value) end
 
----@protected
 ---@param display Bool
 ---@return nil
-function Device:SendSkillCheckInfo(display) return end
+function Device:SendSkillCheckInfo(display) end
 
----@protected
 ---@param program TweakDBID|string
 ---@return nil
-function Device:SetActiveProgramToUploadOnNPC(program) return end
+function Device:SetActiveProgramToUploadOnNPC(program) end
 
----@protected
 ---@param effect TweakDBID|string
 ---@return nil
-function Device:SetActiveStatusEffect(effect) return end
+function Device:SetActiveStatusEffect(effect) end
 
----@protected
 ---@return nil
-function Device:SetClearance() return end
+function Device:SetClearance() end
 
 ---@param action ScriptableDeviceAction
 ---@return nil
-function Device:SetCurrentlyUploadingAction(action) return end
+function Device:SetCurrentlyUploadingAction(action) end
 
----@protected
 ---@param role EGameplayRole
 ---@return nil
-function Device:SetGameplayRole(role) return end
+function Device:SetGameplayRole(role) end
 
----@protected
 ---@return nil
-function Device:SetGameplayRoleToNone() return end
+function Device:SetGameplayRoleToNone() end
 
----@protected
 ---@param globalNodeRef worldGlobalNodeRef
 ---@param arr Vector4[]
 ---@return nil
-function Device:SetInvestigationPositionsArray(globalNodeRef, arr) return end
+function Device:SetInvestigationPositionsArray(globalNodeRef, arr) end
 
----@protected
 ---@param newState Bool
 ---@return nil
-function Device:SetJuryrigTrapComponentState(newState) return end
+function Device:SetJuryrigTrapComponentState(newState) end
 
----@private
 ---@param newState EJuryrigTrapState
 ---@return nil
-function Device:SetJuryrigTrapState(newState) return end
+function Device:SetJuryrigTrapState(newState) end
 
----@protected
 ---@return nil
-function Device:SetLogicReady() return end
+function Device:SetLogicReady() end
 
----@protected
 ---@param appearance CName|string
 ---@param component? CName|string
 ---@return nil
-function Device:SetMeshAppearance(appearance, component) return end
+function Device:SetMeshAppearance(appearance, component) end
 
----@protected
 ---@return nil
-function Device:SetScanningProgressBarText() return end
+function Device:SetScanningProgressBarText() end
 
----@protected
 ---@return nil
-function Device:SetStateAlarmed() return end
+function Device:SetStateAlarmed() end
 
----@protected
 ---@return nil
-function Device:SetStateArmed() return end
+function Device:SetStateArmed() end
 
----@protected
 ---@return nil
-function Device:SetStateSafe() return end
+function Device:SetStateSafe() end
 
----@protected
 ---@param newState Bool
 ---@param lockPlayerFor? Float
 ---@return nil
-function Device:SetZoomBlackboardValues(newState, lockPlayerFor) return end
-
----@protected
----@return Bool
-function Device:ShouldAllowSpiderbotToPerformAction() return end
-
----@protected
----@return Bool
-function Device:ShouldAlwasyRefreshUIInLogicAra() return end
-
----@private
----@return Bool
-function Device:ShouldBeHighlightedLongerOnPing() return end
+function Device:SetZoomBlackboardValues(newState, lockPlayerFor) end
 
 ---@return Bool
-function Device:ShouldEnableRemoteLayer() return end
-
----@protected
----@return Bool
-function Device:ShouldExitZoomOnAuthorization() return end
+function Device:ShouldAllowSpiderbotToPerformAction() end
 
 ---@return Bool
-function Device:ShouldInitiateDebug() return end
-
----@private
----@return Bool
-function Device:ShouldPulseNetwork() return end
-
----@protected
----@return Bool
-function Device:ShouldRegisterToHUD() return end
+function Device:ShouldAlwasyRefreshUIInLogicAra() end
 
 ---@return Bool
-function Device:ShouldRevealDevicesGrid() return end
+function Device:ShouldBeHighlightedLongerOnPing() end
 
 ---@return Bool
-function Device:ShouldShowDamageNumber() return end
+function Device:ShouldEnableRemoteLayer() end
 
 ---@return Bool
-function Device:ShouldShowScanner() return end
+function Device:ShouldExitZoomOnAuthorization() end
 
----@private
+---@return Bool
+function Device:ShouldInitiateDebug() end
+
+---@return Bool
+function Device:ShouldPulseNetwork() end
+
+---@return Bool
+function Device:ShouldRegisterToHUD() end
+
+---@return Bool
+function Device:ShouldRevealDevicesGrid() end
+
+---@return Bool
+function Device:ShouldShowDamageNumber() end
+
+---@return Bool
+function Device:ShouldShowScanner() end
+
 ---@return nil
-function Device:ShowAdvanceInteractionInputHints() return end
+function Device:ShowAdvanceInteractionInputHints() end
 
----@protected
 ---@param data GemplayObjectiveData
 ---@return nil
-function Device:ShowGameplayObjective(data) return end
+function Device:ShowGameplayObjective(data) end
 
----@protected
 ---@return nil
-function Device:ShowMappinOnProximity() return end
+function Device:ShowMappinOnProximity() end
 
----@private
 ---@param action ScriptableDeviceAction
 ---@return nil
-function Device:ShowQuickHackDuration(action) return end
+function Device:ShowQuickHackDuration(action) end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function Device:StartGlitching(glitchState, intensity) return end
+function Device:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function Device:StartOverload() return end
+function Device:StartOverload() end
 
----@protected
 ---@return nil
-function Device:StartPingingNetwork() return end
+function Device:StartPingingNetwork() end
 
----@protected
 ---@return nil
-function Device:StartRevealingOnProximity() return end
+function Device:StartRevealingOnProximity() end
 
----@protected
 ---@return nil
-function Device:StopEMPGameEffect() return end
+function Device:StopEMPGameEffect() end
 
----@protected
 ---@return nil
-function Device:StopGlitching() return end
+function Device:StopGlitching() end
 
----@protected
 ---@param killDelay Float
 ---@return nil
-function Device:StopOverload(killDelay) return end
+function Device:StopOverload(killDelay) end
 
----@protected
 ---@return nil
-function Device:StopPingingNetwork() return end
+function Device:StopPingingNetwork() end
 
----@protected
 ---@param lifetime Float
 ---@return nil
-function Device:StopRevealingOnProximity(lifetime) return end
+function Device:StopRevealingOnProximity(lifetime) end
 
----@protected
 ---@param data GemplayObjectiveData
 ---@return nil
-function Device:SucceedGameplayObjective(data) return end
+function Device:SucceedGameplayObjective(data) end
 
----@protected
 ---@param isOn Bool
 ---@return nil
-function Device:TakeControlOverCamera(isOn) return end
+function Device:TakeControlOverCamera(isOn) end
 
----@protected
 ---@return nil
-function Device:TerminateConnection() return end
+function Device:TerminateConnection() end
 
----@protected
 ---@param turnOn Bool
 ---@return nil
-function Device:ToggleAreaIndicator(turnOn) return end
+function Device:ToggleAreaIndicator(turnOn) end
 
----@protected
 ---@param toggle Bool
 ---@param instant? Bool
 ---@return nil
-function Device:ToggleCameraZoom(toggle, instant) return end
+function Device:ToggleCameraZoom(toggle, instant) end
 
----@protected
 ---@param componentName CName|string
 ---@param toggle Bool
 ---@return nil
-function Device:ToggleComponentByName(componentName, toggle) return end
+function Device:ToggleComponentByName(componentName, toggle) end
 
----@protected
 ---@param toggle Bool
 ---@param puppet gameObject
 ---@return nil
-function Device:TogglePersonalLink(toggle, puppet) return end
+function Device:TogglePersonalLink(toggle, puppet) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function Device:TriggerAreaEffectDistractionByAction(action) return end
+function Device:TriggerAreaEffectDistractionByAction(action) end
 
----@protected
 ---@param effectName CName|string
 ---@return nil
-function Device:TriggerAreaEffectDistractionByName(effectName) return end
+function Device:TriggerAreaEffectDistractionByName(effectName) end
 
----@protected
 ---@param effectData AreaEffectData
 ---@param executor? gameObject
 ---@return nil
-function Device:TriggerArreaEffectDistraction(effectData, executor) return end
+function Device:TriggerArreaEffectDistraction(effectData, executor) end
 
----@protected
 ---@return nil
-function Device:TurnAuthorizationModuleOFF() return end
+function Device:TurnAuthorizationModuleOFF() end
 
----@protected
 ---@return nil
-function Device:TurnAuthorizationModuleON() return end
+function Device:TurnAuthorizationModuleON() end
 
----@protected
 ---@return nil
-function Device:TurnOffDevice() return end
+function Device:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Device:TurnOnDevice() return end
+function Device:TurnOnDevice() end
 
----@protected
 ---@return nil
-function Device:UnRegisterPlayerTargetCallback() return end
+function Device:UnRegisterPlayerTargetCallback() end
 
----@protected
 ---@param isDelayed? Bool
 ---@return Bool
-function Device:UpdateDeviceState(isDelayed) return end
+function Device:UpdateDeviceState(isDelayed) end
 
----@protected
 ---@param targetID entEntityID
 ---@return nil
-function Device:UploadActiveProgramOnNPC(targetID) return end
+function Device:UploadActiveProgramOnNPC(targetID) end
 
 ---@return Bool
-function Device:WasVisible() return end
+function Device:WasVisible() end

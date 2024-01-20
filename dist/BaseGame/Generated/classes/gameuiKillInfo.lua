@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiKillInfo
----@field public killerEntity gameObject
----@field public victimEntity gameObject
----@field public killType gameKillType
+---@field killerEntity gameObject
+---@field victimEntity gameObject
+---@field killType gameKillType
 gameuiKillInfo = {}
 
 ---@param fields? gameuiKillInfo
 ---@return gameuiKillInfo
-function gameuiKillInfo.new(fields) return end
+function gameuiKillInfo.new(fields) end

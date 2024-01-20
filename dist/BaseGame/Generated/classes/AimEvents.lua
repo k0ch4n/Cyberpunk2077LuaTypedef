@@ -5,17 +5,15 @@ AimEvents = {}
 
 ---@param fields? AimEvents
 ---@return AimEvents
-function AimEvents.new(fields) return end
+function AimEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimEvents:OnEnter(stateContext, scriptInterface) return end
+function AimEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function AimEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

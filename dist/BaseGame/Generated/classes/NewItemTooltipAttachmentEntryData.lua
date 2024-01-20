@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class NewItemTooltipAttachmentEntryData: IScriptable
----@field public text String
----@field public colorState CName
----@field public dataPackage gameUILocalizationDataPackage
----@field public attunementData UIInventoryItemModAttunementData
+---@field text String
+---@field colorState CName
+---@field dataPackage gameUILocalizationDataPackage
+---@field attunementData UIInventoryItemModAttunementData
 NewItemTooltipAttachmentEntryData = {}
 
 ---@param fields? NewItemTooltipAttachmentEntryData
 ---@return NewItemTooltipAttachmentEntryData
-function NewItemTooltipAttachmentEntryData.new(fields) return end
+function NewItemTooltipAttachmentEntryData.new(fields) end
 
 ---@param text String
 ---@param dataPackage? gameUILocalizationDataPackage
 ---@param attunementData? UIInventoryItemModAttunementData
 ---@return NewItemTooltipAttachmentEntryData
-function NewItemTooltipAttachmentEntryData.Make(text, dataPackage, attunementData) return end
+function NewItemTooltipAttachmentEntryData.Make(text, dataPackage, attunementData) end
 
 ---@param text String
 ---@param colorState CName|string
 ---@param dataPackage? gameUILocalizationDataPackage
 ---@param attunementData? UIInventoryItemModAttunementData
 ---@return NewItemTooltipAttachmentEntryData
-function NewItemTooltipAttachmentEntryData.Make(text, colorState, dataPackage, attunementData) return end
+function NewItemTooltipAttachmentEntryData.Make(text, colorState, dataPackage, attunementData) end

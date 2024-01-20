@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class gameEffectObjectProvider_SweepOverTime: gameEffectObjectProvider
----@field public filterData physicsFilterData
----@field public queryPreset physicsQueryPreset
+---@field filterData physicsFilterData
+---@field queryPreset physicsQueryPreset
 gameEffectObjectProvider_SweepOverTime = {}

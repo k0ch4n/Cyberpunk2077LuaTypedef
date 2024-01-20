@@ -5,9 +5,8 @@ UiQuickHackPanelContextDriverCombatDecisions = {}
 
 ---@param fields? UiQuickHackPanelContextDriverCombatDecisions
 ---@return UiQuickHackPanelContextDriverCombatDecisions
-function UiQuickHackPanelContextDriverCombatDecisions.new(fields) return end
+function UiQuickHackPanelContextDriverCombatDecisions.new(fields) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiQuickHackPanelContextDriverCombatDecisions:CheckRequiredStates(scriptInterface) return end
+function UiQuickHackPanelContextDriverCombatDecisions:CheckRequiredStates(scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ItemLogUserData: inkGameNotificationData
----@field public itemID gameItemID
----@field public itemLogQueueEmpty Bool
+---@field itemID gameItemID
+---@field itemLogQueueEmpty Bool
 ItemLogUserData = {}
 
 ---@param fields? ItemLogUserData
 ---@return ItemLogUserData
-function ItemLogUserData.new(fields) return end
+function ItemLogUserData.new(fields) end

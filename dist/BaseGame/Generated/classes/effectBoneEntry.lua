@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class effectBoneEntry
----@field public boneName CName
----@field public relativePosition Vector3
----@field public relativeRotation Quaternion
+---@field boneName CName
+---@field relativePosition Vector3
+---@field relativeRotation Quaternion
 effectBoneEntry = {}
 
 ---@param fields? effectBoneEntry
 ---@return effectBoneEntry
-function effectBoneEntry.new(fields) return end
+function effectBoneEntry.new(fields) end

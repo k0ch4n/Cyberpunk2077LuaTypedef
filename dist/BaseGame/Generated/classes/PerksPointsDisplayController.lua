@@ -1,45 +1,43 @@
 ---@meta
 
 ---@class PerksPointsDisplayController: inkWidgetLogicController
----@field protected desc1Text inkTextWidgetReference
----@field protected value1Text inkTextWidgetReference
----@field protected icon1 inkImageWidgetReference
----@field protected desc2Text inkTextWidgetReference
----@field protected value2Text inkTextWidgetReference
----@field protected icon2 inkImageWidgetReference
----@field protected desc3Text inkTextWidgetReference
----@field protected value3Text inkTextWidgetReference
----@field protected icon3 inkImageWidgetReference
----@field private screenType CharacterScreenType
+---@field desc1Text inkTextWidgetReference
+---@field value1Text inkTextWidgetReference
+---@field icon1 inkImageWidgetReference
+---@field desc2Text inkTextWidgetReference
+---@field value2Text inkTextWidgetReference
+---@field icon2 inkImageWidgetReference
+---@field desc3Text inkTextWidgetReference
+---@field value3Text inkTextWidgetReference
+---@field icon3 inkImageWidgetReference
+---@field screenType CharacterScreenType
 PerksPointsDisplayController = {}
 
 ---@param fields? PerksPointsDisplayController
 ---@return PerksPointsDisplayController
-function PerksPointsDisplayController.new(fields) return end
+function PerksPointsDisplayController.new(fields) end
 
----@private
 ---@param desc1 String
 ---@param desc2 String
 ---@return nil
-function PerksPointsDisplayController:SetDescriptions(desc1, desc2) return end
+function PerksPointsDisplayController:SetDescriptions(desc1, desc2) end
 
----@private
 ---@param part1 CName|string
 ---@param part2 CName|string
 ---@return nil
-function PerksPointsDisplayController:SetIcons(part1, part2) return end
+function PerksPointsDisplayController:SetIcons(part1, part2) end
 
 ---@param value1 Int32
 ---@param value2 Int32
 ---@param value3 Int32
 ---@return nil
-function PerksPointsDisplayController:SetValues(value1, value2, value3) return end
+function PerksPointsDisplayController:SetValues(value1, value2, value3) end
 
 ---@param value1 Int32
 ---@param value2 Int32
 ---@return nil
-function PerksPointsDisplayController:SetValues(value1, value2) return end
+function PerksPointsDisplayController:SetValues(value1, value2) end
 
 ---@param type CharacterScreenType
 ---@return nil
-function PerksPointsDisplayController:Setup(type) return end
+function PerksPointsDisplayController:Setup(type) end

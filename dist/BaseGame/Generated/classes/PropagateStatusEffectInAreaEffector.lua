@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class PropagateStatusEffectInAreaEffector: ApplyEffectToDismemberedEffector
----@field private statusEffect TweakDBID
----@field private range Float
----@field private duration Float
----@field private applicationTarget CName
----@field private propagateToInstigator Bool
+---@field statusEffect TweakDBID
+---@field range Float
+---@field duration Float
+---@field applicationTarget CName
+---@field propagateToInstigator Bool
 PropagateStatusEffectInAreaEffector = {}
 
 ---@param fields? PropagateStatusEffectInAreaEffector
 ---@return PropagateStatusEffectInAreaEffector
-function PropagateStatusEffectInAreaEffector.new(fields) return end
+function PropagateStatusEffectInAreaEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PropagateStatusEffectInAreaEffector:ActionOn(owner) return end
+function PropagateStatusEffectInAreaEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function PropagateStatusEffectInAreaEffector:Initialize(record, parentRecord) return end
+function PropagateStatusEffectInAreaEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function PropagateStatusEffectInAreaEffector:ProcessAction(owner) return end
+function PropagateStatusEffectInAreaEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PropagateStatusEffectInAreaEffector:RepeatedAction(owner) return end
+function PropagateStatusEffectInAreaEffector:RepeatedAction(owner) end

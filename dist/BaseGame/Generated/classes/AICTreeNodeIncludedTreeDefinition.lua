@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AICTreeNodeIncludedTreeDefinition: AICTreeNodeDefinition
----@field public tree LibTreeDefTree
+---@field tree LibTreeDefTree
 AICTreeNodeIncludedTreeDefinition = {}
 
 ---@param fields? AICTreeNodeIncludedTreeDefinition
 ---@return AICTreeNodeIncludedTreeDefinition
-function AICTreeNodeIncludedTreeDefinition.new(fields) return end
+function AICTreeNodeIncludedTreeDefinition.new(fields) end

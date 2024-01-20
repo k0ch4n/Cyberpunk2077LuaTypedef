@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorNaryOperatorExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public operator AIbehaviorNaryExpressionOperators
----@field public operands AIbehaviorExpressionSocket[]
+---@field operator AIbehaviorNaryExpressionOperators
+---@field operands AIbehaviorExpressionSocket[]
 AIbehaviorNaryOperatorExpressionDefinition = {}
 
 ---@param fields? AIbehaviorNaryOperatorExpressionDefinition
 ---@return AIbehaviorNaryOperatorExpressionDefinition
-function AIbehaviorNaryOperatorExpressionDefinition.new(fields) return end
+function AIbehaviorNaryOperatorExpressionDefinition.new(fields) end

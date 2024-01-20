@@ -1,515 +1,430 @@
 ---@meta
 
 ---@class ItemTooltipCommonController: AGenericTooltipControllerWithDebug
----@field protected backgroundContainer inkWidgetReference
----@field protected itemEquippedContainer inkWidgetReference
----@field protected itemRecipeContainer inkWidgetReference
----@field protected itemHeaderContainer inkWidgetReference
----@field protected itemIconContainer inkWidgetReference
----@field protected itemWeaponInfoContainer inkWidgetReference
----@field protected itemClothingInfoContainer inkWidgetReference
----@field protected itemGrenadeInfoContainer inkWidgetReference
----@field protected itemCyberwareContainer inkWidgetReference
----@field protected itemRequirementsContainer inkWidgetReference
----@field protected itemDetailsContainer inkWidgetReference
----@field protected itemRecipeDataContainer inkWidgetReference
----@field protected itemEvolutionContainer inkWidgetReference
----@field protected itemCraftedContainer inkWidgetReference
----@field protected itemActionContainer inkWidgetReference
----@field protected itemBottomContainer inkWidgetReference
----@field protected itemCWUpgradeContainer inkWidgetReference
----@field protected itemCWQuickHackMenuLinkContainer inkWidgetReference
----@field protected contentWrapper inkWidgetReference
----@field protected cornerContainer inkWidgetReference
----@field protected root inkWidgetReference
----@field protected iconicBG inkWidgetReference
----@field protected recipeBG inkWidgetReference
----@field protected illegalBG inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionText inkTextWidgetReference
----@field protected cyberwareUpgradeModuleName CName
----@field protected cyberwareQuickHackMenuLinkName CName
----@field protected cyberwareModulesLibraryRes redResourceReferenceScriptToken
----@field protected DEBUG_iconErrorWrapper inkWidgetReference
----@field protected DEBUG_iconErrorText inkTextWidgetReference
----@field protected spawnedModules ItemTooltipModuleController[]
----@field protected itemEquippedController ItemTooltipEquippedModule
----@field protected itemRecipeController ItemTooltipRepiceModule
----@field protected itemHeaderController ItemTooltipHeaderController
----@field protected itemIconController ItemTooltipIconModule
----@field protected itemWeaponInfoController ItemTooltipWeaponInfoModule
----@field protected itemClothingInfoController ItemTooltipClothingInfoModule
----@field protected itemGrenadeInfoController ItemTooltipGrenadeInfoModule
----@field protected itemCyberwareController ItemTooltipCyberwareWeaponModule
----@field protected itemRequirementsController ItemTooltipRequirementsModule
----@field protected itemDetailsController ItemTooltipDetailsModule
----@field protected itemRecipeDataController ItemTooltipRecipeDataModule
----@field protected itemEvolutionController ItemTooltipEvolutionModule
----@field protected itemCraftedController ItemTooltipCraftedModule
----@field protected itemCWUpgradeController ItemTooltipCyberwareUpgradeController
----@field protected itemBottomController ItemTooltipBottomModule
----@field protected DEBUG_showAdditionalInfo Bool
----@field protected data MinimalItemTooltipData
----@field protected inventoryTooltipData InventoryTooltipData
----@field protected itemData UIInventoryItem
----@field protected comparisonData UIInventoryItemComparisonManager
----@field public player PlayerPuppet
----@field protected requestedModules CName[]
----@field protected pendingModules CName[]
----@field protected displayContext ItemDisplayContextData
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
----@field protected itemDisplayContext gameItemDisplayContext
----@field protected priceOverride Int32
----@field protected settings userSettingsUserSettings
----@field protected settingsListener ItemTooltipSettingsListener
----@field protected groupPath CName
----@field protected minWidth inkWidgetReference
----@field protected bigFontEnabled Bool
----@field protected inCrafting Bool
+---@field backgroundContainer inkWidgetReference
+---@field itemEquippedContainer inkWidgetReference
+---@field itemRecipeContainer inkWidgetReference
+---@field itemHeaderContainer inkWidgetReference
+---@field itemIconContainer inkWidgetReference
+---@field itemWeaponInfoContainer inkWidgetReference
+---@field itemClothingInfoContainer inkWidgetReference
+---@field itemGrenadeInfoContainer inkWidgetReference
+---@field itemCyberwareContainer inkWidgetReference
+---@field itemRequirementsContainer inkWidgetReference
+---@field itemDetailsContainer inkWidgetReference
+---@field itemRecipeDataContainer inkWidgetReference
+---@field itemEvolutionContainer inkWidgetReference
+---@field itemCraftedContainer inkWidgetReference
+---@field itemActionContainer inkWidgetReference
+---@field itemBottomContainer inkWidgetReference
+---@field itemCWUpgradeContainer inkWidgetReference
+---@field itemCWQuickHackMenuLinkContainer inkWidgetReference
+---@field contentWrapper inkWidgetReference
+---@field cornerContainer inkWidgetReference
+---@field root inkWidgetReference
+---@field iconicBG inkWidgetReference
+---@field recipeBG inkWidgetReference
+---@field illegalBG inkWidgetReference
+---@field descriptionWrapper inkWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field cyberwareUpgradeModuleName CName
+---@field cyberwareQuickHackMenuLinkName CName
+---@field cyberwareModulesLibraryRes redResourceReferenceScriptToken
+---@field DEBUG_iconErrorWrapper inkWidgetReference
+---@field DEBUG_iconErrorText inkTextWidgetReference
+---@field spawnedModules ItemTooltipModuleController[]
+---@field itemEquippedController ItemTooltipEquippedModule
+---@field itemRecipeController ItemTooltipRepiceModule
+---@field itemHeaderController ItemTooltipHeaderController
+---@field itemIconController ItemTooltipIconModule
+---@field itemWeaponInfoController ItemTooltipWeaponInfoModule
+---@field itemClothingInfoController ItemTooltipClothingInfoModule
+---@field itemGrenadeInfoController ItemTooltipGrenadeInfoModule
+---@field itemCyberwareController ItemTooltipCyberwareWeaponModule
+---@field itemRequirementsController ItemTooltipRequirementsModule
+---@field itemDetailsController ItemTooltipDetailsModule
+---@field itemRecipeDataController ItemTooltipRecipeDataModule
+---@field itemEvolutionController ItemTooltipEvolutionModule
+---@field itemCraftedController ItemTooltipCraftedModule
+---@field itemCWUpgradeController ItemTooltipCyberwareUpgradeController
+---@field itemBottomController ItemTooltipBottomModule
+---@field DEBUG_showAdditionalInfo Bool
+---@field data MinimalItemTooltipData
+---@field inventoryTooltipData InventoryTooltipData
+---@field itemData UIInventoryItem
+---@field comparisonData UIInventoryItemComparisonManager
+---@field player PlayerPuppet
+---@field requestedModules CName[]
+---@field pendingModules CName[]
+---@field displayContext ItemDisplayContextData
+---@field tooltipDisplayContext InventoryTooltipDisplayContext
+---@field itemDisplayContext gameItemDisplayContext
+---@field priceOverride Int32
+---@field settings userSettingsUserSettings
+---@field settingsListener ItemTooltipSettingsListener
+---@field groupPath CName
+---@field minWidth inkWidgetReference
+---@field bigFontEnabled Bool
+---@field inCrafting Bool
 ItemTooltipCommonController = {}
 
 ---@param fields? ItemTooltipCommonController
 ---@return ItemTooltipCommonController
-function ItemTooltipCommonController.new(fields) return end
+function ItemTooltipCommonController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnBottomModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnBottomModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnClothingInfoModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnClothingInfoModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnCraftedModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnCraftedModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnCyberwareUpgradeModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnCyberwareUpgradeModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnCyberwareWeaponModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnCyberwareWeaponModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnDetailsModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnDetailsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnEquippedModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnEquippedModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnEvolutionModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnEvolutionModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnGrenadeInfoModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnGrenadeInfoModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnHeaderModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnHeaderModuleSpawned(widget, userData) end
 
----@protected
 ---@param evt HideIconModuleEvent
 ---@return Bool
-function ItemTooltipCommonController:OnHideIconModuleEvent(evt) return end
+function ItemTooltipCommonController:OnHideIconModuleEvent(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnIconModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnIconModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_BottomModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_BottomModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_ClothingInfoModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_ClothingInfoModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_CraftedModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_CraftedModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_CyberwareUpgradeModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_CyberwareUpgradeModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_CyberwareWeaponModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_CyberwareWeaponModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_DetailsModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_DetailsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_EquippedModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_EquippedModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_EvolutionModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_EvolutionModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_GrenadeInfoModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_GrenadeInfoModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_HeaderModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_HeaderModuleSpawned(widget, userData) end
 
----@protected
 ---@param evt HideIconModuleEvent
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_HideIconModuleEvent(evt) return end
+function ItemTooltipCommonController:OnNEW_HideIconModuleEvent(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_IconModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_IconModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_RecipeDataModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_RecipeDataModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_RecipeModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_RecipeModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_RequirementsModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_RequirementsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_TransmogModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_TransmogModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnNEW_WeaponInfoModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnNEW_WeaponInfoModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnRecipeDataModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnRecipeDataModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnRecipeModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnRecipeModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnRequirementsModuleSpawned(widget, userData) return end
+function ItemTooltipCommonController:OnRequirementsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ItemTooltipCommonController:OnWeaponInfoModuleSpawned(widget, userData) return end
-
----@private
----@return nil
-function ItemTooltipCommonController:DEBUG_NewUpdateIconErrorInfo() return end
-
----@protected
----@return nil
-function ItemTooltipCommonController:DEBUG_UpdateDebugInfo() return end
+function ItemTooltipCommonController:OnWeaponInfoModuleSpawned(widget, userData) end
 
 ---@return nil
-function ItemTooltipCommonController:ForceNoEquipped() return end
+function ItemTooltipCommonController:DEBUG_NewUpdateIconErrorInfo() end
 
----@protected
+---@return nil
+function ItemTooltipCommonController:DEBUG_UpdateDebugInfo() end
+
+---@return nil
+function ItemTooltipCommonController:ForceNoEquipped() end
+
 ---@param widget inkWidget
 ---@param data ItemTooltipModuleSpawnedCallbackData
 ---@return nil
-function ItemTooltipCommonController:HandleModuleSpawned(widget, data) return end
+function ItemTooltipCommonController:HandleModuleSpawned(widget, data) end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:InvalidateSpawnedModules() return end
+function ItemTooltipCommonController:InvalidateSpawnedModules() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateBottomModule() return end
+function ItemTooltipCommonController:NEW_UpdateBottomModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateClothingInfoModule() return end
+function ItemTooltipCommonController:NEW_UpdateClothingInfoModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateCraftedModule() return end
+function ItemTooltipCommonController:NEW_UpdateCraftedModule() end
 
----@private
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateCyberwareQuickHackMenuLinkModule() return end
+function ItemTooltipCommonController:NEW_UpdateCyberwareQuickHackMenuLinkModule() end
 
----@private
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateCyberwareUpgradeModule() return end
+function ItemTooltipCommonController:NEW_UpdateCyberwareUpgradeModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateCyberwareWeaponModule() return end
+function ItemTooltipCommonController:NEW_UpdateCyberwareWeaponModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateDetailsModule() return end
+function ItemTooltipCommonController:NEW_UpdateDetailsModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateEquippedModule() return end
+function ItemTooltipCommonController:NEW_UpdateEquippedModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateEvolutionModule() return end
+function ItemTooltipCommonController:NEW_UpdateEvolutionModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateGrenadeInfoModule() return end
+function ItemTooltipCommonController:NEW_UpdateGrenadeInfoModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateHeaderModule() return end
+function ItemTooltipCommonController:NEW_UpdateHeaderModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateIconModule() return end
+function ItemTooltipCommonController:NEW_UpdateIconModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateIconicBG() return end
+function ItemTooltipCommonController:NEW_UpdateIconicBG() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateIllegalBG() return end
+function ItemTooltipCommonController:NEW_UpdateIllegalBG() end
 
----@private
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateLayout() return end
+function ItemTooltipCommonController:NEW_UpdateLayout() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateRecipeBG() return end
+function ItemTooltipCommonController:NEW_UpdateRecipeBG() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateRecipeDataModule() return end
+function ItemTooltipCommonController:NEW_UpdateRecipeDataModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateRecipeModule() return end
+function ItemTooltipCommonController:NEW_UpdateRecipeModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateRequirementsModule() return end
+function ItemTooltipCommonController:NEW_UpdateRequirementsModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateTransmogModule() return end
+function ItemTooltipCommonController:NEW_UpdateTransmogModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:NEW_UpdateWeaponInfoModule() return end
+function ItemTooltipCommonController:NEW_UpdateWeaponInfoModule() end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function ItemTooltipCommonController:OnVarModified(groupPath, varName, varType, reason) return end
+function ItemTooltipCommonController:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@return nil
-function ItemTooltipCommonController:PrespawnLazyModules() return end
+function ItemTooltipCommonController:PrespawnLazyModules() end
 
----@private
 ---@return nil
-function ItemTooltipCommonController:RegisterUserSettingsListener() return end
+function ItemTooltipCommonController:RegisterUserSettingsListener() end
 
----@protected
 ---@param container inkWidgetReference
 ---@param moduleName CName|string
 ---@param modulesLibraryRes redResourceReferenceScriptToken
 ---@param callback CName|string
 ---@param data? ItemTooltipModuleSpawnedCallbackData
 ---@return Bool
-function ItemTooltipCommonController:RequestExternalModule(container, moduleName, modulesLibraryRes, callback, data) return end
+function ItemTooltipCommonController:RequestExternalModule(container, moduleName, modulesLibraryRes, callback, data) end
 
----@protected
 ---@param container inkWidgetReference
 ---@param moduleName CName|string
 ---@param callback CName|string
 ---@param data? ItemTooltipModuleSpawnedCallbackData
 ---@return Bool
-function ItemTooltipCommonController:RequestModule(container, moduleName, callback, data) return end
+function ItemTooltipCommonController:RequestModule(container, moduleName, callback, data) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function ItemTooltipCommonController:SetData(tooltipData) return end
+function ItemTooltipCommonController:SetData(tooltipData) end
 
 ---@param data gameItemViewData
 ---@return nil
-function ItemTooltipCommonController:SetData(data) return end
+function ItemTooltipCommonController:SetData(data) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function ItemTooltipCommonController:SetTooltipSize(value) return end
+function ItemTooltipCommonController:SetTooltipSize(value) end
 
----@private
 ---@param itemType gamedataItemType
 ---@return Bool
-function ItemTooltipCommonController:ShouldHideDescription(itemType) return end
+function ItemTooltipCommonController:ShouldHideDescription(itemType) end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateBottomModule() return end
+function ItemTooltipCommonController:UpdateBottomModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateClothingInfoModule() return end
+function ItemTooltipCommonController:UpdateClothingInfoModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateCraftedModule() return end
+function ItemTooltipCommonController:UpdateCraftedModule() end
 
----@private
 ---@return nil
-function ItemTooltipCommonController:UpdateCyberwareQuickHackMenuLinkModule() return end
+function ItemTooltipCommonController:UpdateCyberwareQuickHackMenuLinkModule() end
 
----@private
 ---@return nil
-function ItemTooltipCommonController:UpdateCyberwareUpgradeModule() return end
+function ItemTooltipCommonController:UpdateCyberwareUpgradeModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateCyberwareWeaponModule() return end
+function ItemTooltipCommonController:UpdateCyberwareWeaponModule() end
 
 ---@param tooltipData InventoryTooltipData
 ---@return nil
-function ItemTooltipCommonController:UpdateData(tooltipData) return end
+function ItemTooltipCommonController:UpdateData(tooltipData) end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateDetailsModule() return end
+function ItemTooltipCommonController:UpdateDetailsModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateEquippedModule() return end
+function ItemTooltipCommonController:UpdateEquippedModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateEvolutionModule() return end
+function ItemTooltipCommonController:UpdateEvolutionModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateGrenadeInfoModule() return end
+function ItemTooltipCommonController:UpdateGrenadeInfoModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateHeaderModule() return end
+function ItemTooltipCommonController:UpdateHeaderModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateIconModule() return end
+function ItemTooltipCommonController:UpdateIconModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateIconicBG() return end
+function ItemTooltipCommonController:UpdateIconicBG() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateIllegalBG() return end
+function ItemTooltipCommonController:UpdateIllegalBG() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateLayout() return end
+function ItemTooltipCommonController:UpdateLayout() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateRecipeBG() return end
+function ItemTooltipCommonController:UpdateRecipeBG() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateRecipeDataModule() return end
+function ItemTooltipCommonController:UpdateRecipeDataModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateRecipeModule() return end
+function ItemTooltipCommonController:UpdateRecipeModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateRequirementsModule() return end
+function ItemTooltipCommonController:UpdateRequirementsModule() end
 
----@private
 ---@return nil
-function ItemTooltipCommonController:UpdateTooltipSize() return end
+function ItemTooltipCommonController:UpdateTooltipSize() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateTransmogModule() return end
+function ItemTooltipCommonController:UpdateTransmogModule() end
 
----@protected
 ---@return nil
-function ItemTooltipCommonController:UpdateWeaponInfoModule() return end
+function ItemTooltipCommonController:UpdateWeaponInfoModule() end

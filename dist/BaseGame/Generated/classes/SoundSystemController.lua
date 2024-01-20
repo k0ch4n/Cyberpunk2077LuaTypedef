@@ -5,7 +5,7 @@ SoundSystemController = {}
 
 ---@param fields? SoundSystemController
 ---@return SoundSystemController
-function SoundSystemController.new(fields) return end
+function SoundSystemController.new(fields) end
 
 ---@return SoundSystemControllerPS
-function SoundSystemController:GetPS() return end
+function SoundSystemController:GetPS() end

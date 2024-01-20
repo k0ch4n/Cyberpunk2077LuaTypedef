@@ -5,4 +5,4 @@ gamestateMachineplayeractionsVault = {}
 
 ---@param fields? gamestateMachineplayeractionsVault
 ---@return gamestateMachineplayeractionsVault
-function gamestateMachineplayeractionsVault.new(fields) return end
+function gamestateMachineplayeractionsVault.new(fields) end

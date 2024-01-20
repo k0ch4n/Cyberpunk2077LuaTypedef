@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questSetCustomStyle_NodeType: questIPhoneManagerNodeType
----@field public style questCustomStyle
----@field public isActive Bool
+---@field style questCustomStyle
+---@field isActive Bool
 questSetCustomStyle_NodeType = {}
 
 ---@param fields? questSetCustomStyle_NodeType
 ---@return questSetCustomStyle_NodeType
-function questSetCustomStyle_NodeType.new(fields) return end
+function questSetCustomStyle_NodeType.new(fields) end

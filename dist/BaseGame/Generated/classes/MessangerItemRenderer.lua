@@ -1,31 +1,29 @@
 ---@meta
 
 ---@class MessangerItemRenderer: JournalEntryListItemController
----@field private image inkImageWidgetReference
----@field private container inkWidgetReference
----@field private MessageBubbleBG inkImageWidgetReference
----@field private MessageBubbleFG inkImageWidgetReference
----@field private ReplyBubbleBG inkImageWidgetReference
----@field private ReplyBubbleFG inkImageWidgetReference
----@field private stateMessage CName
----@field private statePlayerReply CName
----@field private stateQuestReply CName
----@field private imageId TweakDBID
+---@field image inkImageWidgetReference
+---@field container inkWidgetReference
+---@field MessageBubbleBG inkImageWidgetReference
+---@field MessageBubbleFG inkImageWidgetReference
+---@field ReplyBubbleBG inkImageWidgetReference
+---@field ReplyBubbleFG inkImageWidgetReference
+---@field stateMessage CName
+---@field statePlayerReply CName
+---@field stateQuestReply CName
+---@field imageId TweakDBID
 MessangerItemRenderer = {}
 
 ---@param fields? MessangerItemRenderer
 ---@return MessangerItemRenderer
-function MessangerItemRenderer.new(fields) return end
+function MessangerItemRenderer.new(fields) end
 
----@protected
 ---@param entry gameJournalEntry
 ---@param extraData IScriptable
 ---@return nil
-function MessangerItemRenderer:OnJournalEntryUpdated(entry, extraData) return end
+function MessangerItemRenderer:OnJournalEntryUpdated(entry, extraData) end
 
----@private
 ---@param txt String
 ---@param type MessageViewType
 ---@param contactName String
 ---@return nil
-function MessangerItemRenderer:SetMessageView(txt, type, contactName) return end
+function MessangerItemRenderer:SetMessageView(txt, type, contactName) end

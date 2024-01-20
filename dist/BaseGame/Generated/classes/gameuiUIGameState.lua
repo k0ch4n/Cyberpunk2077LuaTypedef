@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiUIGameState: ISerializable
----@field public uiData gameuiBaseUIData[]
+---@field uiData gameuiBaseUIData[]
 gameuiUIGameState = {}
 
 ---@param fields? gameuiUIGameState
 ---@return gameuiUIGameState
-function gameuiUIGameState.new(fields) return end
+function gameuiUIGameState.new(fields) end

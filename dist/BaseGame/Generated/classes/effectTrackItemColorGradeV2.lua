@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class effectTrackItemColorGradeV2: effectTrackItem
----@field public contrast effectEffectParameterEvaluatorFloat
----@field public contrastPivot effectEffectParameterEvaluatorFloat
----@field public saturation effectEffectParameterEvaluatorFloat
----@field public hue effectEffectParameterEvaluatorFloat
----@field public brightness effectEffectParameterEvaluatorFloat
----@field public lowRange effectEffectParameterEvaluatorFloat
----@field public highRange effectEffectParameterEvaluatorFloat
----@field public lift effectEffectParameterEvaluatorVector
----@field public gamma effectEffectParameterEvaluatorVector
----@field public gain effectEffectParameterEvaluatorVector
----@field public offset effectEffectParameterEvaluatorVector
----@field public shadow effectEffectParameterEvaluatorVector
----@field public midtone effectEffectParameterEvaluatorVector
----@field public highlight effectEffectParameterEvaluatorVector
+---@field contrast effectEffectParameterEvaluatorFloat
+---@field contrastPivot effectEffectParameterEvaluatorFloat
+---@field saturation effectEffectParameterEvaluatorFloat
+---@field hue effectEffectParameterEvaluatorFloat
+---@field brightness effectEffectParameterEvaluatorFloat
+---@field lowRange effectEffectParameterEvaluatorFloat
+---@field highRange effectEffectParameterEvaluatorFloat
+---@field lift effectEffectParameterEvaluatorVector
+---@field gamma effectEffectParameterEvaluatorVector
+---@field gain effectEffectParameterEvaluatorVector
+---@field offset effectEffectParameterEvaluatorVector
+---@field shadow effectEffectParameterEvaluatorVector
+---@field midtone effectEffectParameterEvaluatorVector
+---@field highlight effectEffectParameterEvaluatorVector
 effectTrackItemColorGradeV2 = {}
 
 ---@param fields? effectTrackItemColorGradeV2
 ---@return effectTrackItemColorGradeV2
-function effectTrackItemColorGradeV2.new(fields) return end
+function effectTrackItemColorGradeV2.new(fields) end

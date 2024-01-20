@@ -1,193 +1,166 @@
 ---@meta
 
 ---@class RipperdocTokenPopup: gameuiWidgetGameController
----@field private optionRef inkWidgetReference[]
----@field private optionTooltipParent inkWidgetReference[]
----@field private option1ProgressBarRef inkWidgetReference
----@field private option2ProgressBarRef inkWidgetReference
----@field private option3ProgressBarRef inkWidgetReference
----@field private option1HoverZone inkWidgetReference
----@field private option2HoverZone inkWidgetReference
----@field private option3HoverZone inkWidgetReference
----@field private progressEffectName CName
----@field private option1UpgradeBtnAnchor inkWidgetReference
----@field private option2UpgradeBtnAnchor inkWidgetReference
----@field private option3UpgradeBtnAnchor inkWidgetReference
----@field private upgradeBtnContainerRef inkWidgetReference
----@field private upgradeButtonLabelKey String
----@field private upgradeButtonAnimDuration Float
----@field private upgradeButtonResRef redResourceReferenceScriptToken
----@field private upgradeButtonResName CName
----@field private noChoiceIntroAnimName CName
----@field private twoChoiceIntroAnimName CName
----@field private threeChoiceIntroAnimName CName
----@field private noChoiceOutroAnimName CName
----@field private twoChoice1OutroAnimName CName
----@field private twoChoice2OutroAnimName CName
----@field private threeChoice1OutroAnimName CName
----@field private threeChoice2OutroAnimName CName
----@field private threeChoice3OutroAnimName CName
----@field private holdInputName CName
----@field private exitInputName CName
----@field private buttonHintsRoot inkWidgetReference
----@field private itemToolitpResRef redResourceReferenceScriptToken
----@field private itemTooltipName CName
----@field private cyberdeckToolitpResRef redResourceReferenceScriptToken
----@field private cyberdeckTooltipName CName
----@field private toolitpWidgetRef redResourceReferenceScriptToken
----@field private tooltipName CName
----@field private itemTooltipController0 AGenericTooltipController
----@field private itemTooltipController1 AGenericTooltipController
----@field private itemTooltipController2 AGenericTooltipController
----@field private itemTooltipController3 AGenericTooltipController
----@field private itemTooltipCyberwareUpgrade ItemTooltipCyberwareUpgradeController
----@field private option1ProgressBar inkWidget
----@field private option2ProgressBar inkWidget
----@field private option3ProgressBar inkWidget
----@field private audioSystem gameGameAudioSystem
----@field private data RipperdocTokenPopupData
----@field private multichoice Bool
----@field private thirdChoiceAvailable Bool
----@field private progressStarted Bool
----@field private introAnimationPlaying Bool
----@field private choicesAnimProxy inkanimProxy
----@field private buttonAnimProxy inkanimProxy
----@field private currentOption Int32
----@field private choice Int32
----@field private result Bool
----@field private inputListenersRegistered Bool
+---@field optionRef inkWidgetReference[]
+---@field optionTooltipParent inkWidgetReference[]
+---@field option1ProgressBarRef inkWidgetReference
+---@field option2ProgressBarRef inkWidgetReference
+---@field option3ProgressBarRef inkWidgetReference
+---@field option1HoverZone inkWidgetReference
+---@field option2HoverZone inkWidgetReference
+---@field option3HoverZone inkWidgetReference
+---@field progressEffectName CName
+---@field option1UpgradeBtnAnchor inkWidgetReference
+---@field option2UpgradeBtnAnchor inkWidgetReference
+---@field option3UpgradeBtnAnchor inkWidgetReference
+---@field upgradeBtnContainerRef inkWidgetReference
+---@field upgradeButtonLabelKey String
+---@field upgradeButtonAnimDuration Float
+---@field upgradeButtonResRef redResourceReferenceScriptToken
+---@field upgradeButtonResName CName
+---@field noChoiceIntroAnimName CName
+---@field twoChoiceIntroAnimName CName
+---@field threeChoiceIntroAnimName CName
+---@field noChoiceOutroAnimName CName
+---@field twoChoice1OutroAnimName CName
+---@field twoChoice2OutroAnimName CName
+---@field threeChoice1OutroAnimName CName
+---@field threeChoice2OutroAnimName CName
+---@field threeChoice3OutroAnimName CName
+---@field holdInputName CName
+---@field exitInputName CName
+---@field buttonHintsRoot inkWidgetReference
+---@field itemToolitpResRef redResourceReferenceScriptToken
+---@field itemTooltipName CName
+---@field cyberdeckToolitpResRef redResourceReferenceScriptToken
+---@field cyberdeckTooltipName CName
+---@field toolitpWidgetRef redResourceReferenceScriptToken
+---@field tooltipName CName
+---@field itemTooltipController0 AGenericTooltipController
+---@field itemTooltipController1 AGenericTooltipController
+---@field itemTooltipController2 AGenericTooltipController
+---@field itemTooltipController3 AGenericTooltipController
+---@field itemTooltipCyberwareUpgrade ItemTooltipCyberwareUpgradeController
+---@field option1ProgressBar inkWidget
+---@field option2ProgressBar inkWidget
+---@field option3ProgressBar inkWidget
+---@field audioSystem gameGameAudioSystem
+---@field data RipperdocTokenPopupData
+---@field multichoice Bool
+---@field thirdChoiceAvailable Bool
+---@field progressStarted Bool
+---@field introAnimationPlaying Bool
+---@field choicesAnimProxy inkanimProxy
+---@field buttonAnimProxy inkanimProxy
+---@field currentOption Int32
+---@field choice Int32
+---@field result Bool
+---@field inputListenersRegistered Bool
 RipperdocTokenPopup = {}
 
 ---@param fields? RipperdocTokenPopup
 ---@return RipperdocTokenPopup
-function RipperdocTokenPopup.new(fields) return end
+function RipperdocTokenPopup.new(fields) end
 
----@protected
 ---@return Bool
-function RipperdocTokenPopup:OnInitialize() return end
+function RipperdocTokenPopup:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnInputRelease(evt) return end
+function RipperdocTokenPopup:OnInputRelease(evt) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function RipperdocTokenPopup:OnIntroFinished(anim) return end
+function RipperdocTokenPopup:OnIntroFinished(anim) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption1Hold(evt) return end
+function RipperdocTokenPopup:OnOption1Hold(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption1HoverOver(evt) return end
+function RipperdocTokenPopup:OnOption1HoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption1Press(evt) return end
+function RipperdocTokenPopup:OnOption1Press(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption2Hold(evt) return end
+function RipperdocTokenPopup:OnOption2Hold(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption2HoverOver(evt) return end
+function RipperdocTokenPopup:OnOption2HoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption2Press(evt) return end
+function RipperdocTokenPopup:OnOption2Press(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption3Hold(evt) return end
+function RipperdocTokenPopup:OnOption3Hold(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption3HoverOver(evt) return end
+function RipperdocTokenPopup:OnOption3HoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOption3Press(evt) return end
+function RipperdocTokenPopup:OnOption3Press(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnOptionOnHoverOut(evt) return end
+function RipperdocTokenPopup:OnOptionOnHoverOut(evt) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function RipperdocTokenPopup:OnOutroFinished(anim) return end
+function RipperdocTokenPopup:OnOutroFinished(anim) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocTokenPopup:OnPressInput(evt) return end
+function RipperdocTokenPopup:OnPressInput(evt) end
 
----@protected
 ---@return Bool
-function RipperdocTokenPopup:OnUninitialize() return end
+function RipperdocTokenPopup:OnUninitialize() end
 
----@private
 ---@param actionName CName|string
 ---@param label String
 ---@param isHold Bool
 ---@return nil
-function RipperdocTokenPopup:AddButtonHints(actionName, label, isHold) return end
+function RipperdocTokenPopup:AddButtonHints(actionName, label, isHold) end
 
----@private
 ---@return nil
-function RipperdocTokenPopup:Close() return end
+function RipperdocTokenPopup:Close() end
 
----@private
 ---@return nil
-function RipperdocTokenPopup:ForceResetCursor() return end
+function RipperdocTokenPopup:ForceResetCursor() end
 
----@protected
 ---@param button inkWidgetReference
 ---@param anchor inkWidgetReference
 ---@param instant Bool
 ---@return nil
-function RipperdocTokenPopup:MoveButtonToOption(button, anchor, instant) return end
+function RipperdocTokenPopup:MoveButtonToOption(button, anchor, instant) end
 
----@private
 ---@param navDirection ECustomFilterDPadNavigationOption
 ---@return nil
-function RipperdocTokenPopup:NavigateOptions(navDirection) return end
+function RipperdocTokenPopup:NavigateOptions(navDirection) end
 
----@private
 ---@return nil
-function RipperdocTokenPopup:PlayOutro() return end
+function RipperdocTokenPopup:PlayOutro() end
 
----@private
 ---@return nil
-function RipperdocTokenPopup:ResetProgress() return end
+function RipperdocTokenPopup:ResetProgress() end
 
----@private
 ---@return nil
-function RipperdocTokenPopup:SetButtonHints() return end
+function RipperdocTokenPopup:SetButtonHints() end
 
----@private
 ---@param visible Bool
 ---@return nil
-function RipperdocTokenPopup:SetCursorVisible(visible) return end
+function RipperdocTokenPopup:SetCursorVisible(visible) end
 
----@private
 ---@return nil
-function RipperdocTokenPopup:SetTooltipsData() return end
+function RipperdocTokenPopup:SetTooltipsData() end
 
----@private
 ---@return nil
-function RipperdocTokenPopup:UnregisterInputListeners() return end
+function RipperdocTokenPopup:UnregisterInputListeners() end

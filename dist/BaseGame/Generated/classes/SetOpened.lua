@@ -5,24 +5,24 @@ SetOpened = {}
 
 ---@param fields? SetOpened
 ---@return SetOpened
-function SetOpened.new(fields) return end
+function SetOpened.new(fields) end
 
 ---@param device DoorControllerPS
 ---@param isPlayerRequest Bool
 ---@return Bool
-function SetOpened.IsAvailable(device, isPlayerRequest) return end
+function SetOpened.IsAvailable(device, isPlayerRequest) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SetOpened.IsClearanceValid(clearance) return end
+function SetOpened.IsClearanceValid(clearance) end
 
 ---@param device DoorControllerPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function SetOpened.IsDefaultConditionMet(device, context) return end
+function SetOpened.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function SetOpened:GetTweakDBChoiceRecord() return end
+function SetOpened:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function SetOpened:SetProperties() return end
+function SetOpened:SetProperties() end

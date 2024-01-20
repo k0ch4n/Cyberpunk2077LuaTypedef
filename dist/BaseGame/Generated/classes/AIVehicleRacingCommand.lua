@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class AIVehicleRacingCommand: AIVehicleCommand
----@field public splineRef NodeRef
----@field public secureTimeOut Float
----@field public reverseSpline Bool
----@field public driveBackwards Bool
----@field public startFromClosest Bool
----@field public rubberBandingBool Bool
----@field public rubberBandingTargetRef gameObject
----@field public rubberBandingMinDistance Float
----@field public rubberBandingMaxDistance Float
----@field public rubberBandingStopAndWait Bool
----@field public rubberBandingTeleportToCatchUp Bool
----@field public rubberBandingStayInFront Bool
+---@field splineRef NodeRef
+---@field secureTimeOut Float
+---@field reverseSpline Bool
+---@field driveBackwards Bool
+---@field startFromClosest Bool
+---@field rubberBandingBool Bool
+---@field rubberBandingTargetRef gameObject
+---@field rubberBandingMinDistance Float
+---@field rubberBandingMaxDistance Float
+---@field rubberBandingStopAndWait Bool
+---@field rubberBandingTeleportToCatchUp Bool
+---@field rubberBandingStayInFront Bool
 AIVehicleRacingCommand = {}
 
 ---@param fields? AIVehicleRacingCommand
 ---@return AIVehicleRacingCommand
-function AIVehicleRacingCommand.new(fields) return end
+function AIVehicleRacingCommand.new(fields) end

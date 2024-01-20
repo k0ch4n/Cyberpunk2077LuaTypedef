@@ -5,8 +5,8 @@ inkImageWidgetReference = {}
 
 ---@param fields? inkImageWidgetReference
 ---@return inkImageWidgetReference
-function inkImageWidgetReference.new(fields) return end
+function inkImageWidgetReference.new(fields) end
 
 ---@param widget inkImageWidget
 ---@return inkImageWidgetReference
-function inkImageWidgetReference.Create(widget) return end
+function inkImageWidgetReference.Create(widget) end

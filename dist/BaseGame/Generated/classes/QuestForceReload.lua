@@ -5,7 +5,7 @@ QuestForceReload = {}
 
 ---@param fields? QuestForceReload
 ---@return QuestForceReload
-function QuestForceReload.new(fields) return end
+function QuestForceReload.new(fields) end
 
 ---@return nil
-function QuestForceReload:SetProperties() return end
+function QuestForceReload:SetProperties() end

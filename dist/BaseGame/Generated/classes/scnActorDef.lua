@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class scnActorDef
----@field public actorId scnActorId
----@field public voicetagId scnVoicetagId
----@field public acquisitionPlan scnEntityAcquisitionPlan
----@field public findActorInContextParams scnFindEntityInContextParams
----@field public findActorInWorldParams scnFindEntityInWorldParams
----@field public spawnDespawnParams scnSpawnDespawnEntityParams
----@field public spawnSetParams scnSpawnSetParams
----@field public communityParams scnCommunityParams
----@field public spawnerParams scnSpawnerParams
----@field public animSets scnSRRefId[]
----@field public lipsyncAnimSet scnLipsyncAnimSetSRRefId
----@field public facialAnimSets scnRidFacialAnimSetSRRefId[]
----@field public cyberwareAnimSets scnRidCyberwareAnimSetSRRefId[]
----@field public deformationAnimSets scnRidDeformationAnimSetSRRefId[]
----@field public bodyCinematicAnimSets scnCinematicAnimSetSRRefId[]
----@field public facialCinematicAnimSets scnCinematicAnimSetSRRefId[]
----@field public cyberwareCinematicAnimSets scnCinematicAnimSetSRRefId[]
----@field public dynamicAnimSets scnDynamicAnimSetSRRefId[]
----@field public holocallInitScn CResource
----@field public actorName String
----@field public specCharacterRecordId TweakDBID
----@field public specAppearance CName
+---@field actorId scnActorId
+---@field voicetagId scnVoicetagId
+---@field acquisitionPlan scnEntityAcquisitionPlan
+---@field findActorInContextParams scnFindEntityInContextParams
+---@field findActorInWorldParams scnFindEntityInWorldParams
+---@field spawnDespawnParams scnSpawnDespawnEntityParams
+---@field spawnSetParams scnSpawnSetParams
+---@field communityParams scnCommunityParams
+---@field spawnerParams scnSpawnerParams
+---@field animSets scnSRRefId[]
+---@field lipsyncAnimSet scnLipsyncAnimSetSRRefId
+---@field facialAnimSets scnRidFacialAnimSetSRRefId[]
+---@field cyberwareAnimSets scnRidCyberwareAnimSetSRRefId[]
+---@field deformationAnimSets scnRidDeformationAnimSetSRRefId[]
+---@field bodyCinematicAnimSets scnCinematicAnimSetSRRefId[]
+---@field facialCinematicAnimSets scnCinematicAnimSetSRRefId[]
+---@field cyberwareCinematicAnimSets scnCinematicAnimSetSRRefId[]
+---@field dynamicAnimSets scnDynamicAnimSetSRRefId[]
+---@field holocallInitScn CResource
+---@field actorName String
+---@field specCharacterRecordId TweakDBID
+---@field specAppearance CName
 scnActorDef = {}
 
 ---@param fields? scnActorDef
 ---@return scnActorDef
-function scnActorDef.new(fields) return end
+function scnActorDef.new(fields) end

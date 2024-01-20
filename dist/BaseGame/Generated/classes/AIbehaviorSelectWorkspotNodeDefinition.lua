@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIbehaviorSelectWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public spotInstance AIArgumentMapping
----@field public workspotData AIArgumentMapping
----@field public dependentWorkspotData AIArgumentMapping
----@field public repeatChild Bool
----@field public fastForwardAfterTeleport AIArgumentMapping
+---@field spotInstance AIArgumentMapping
+---@field workspotData AIArgumentMapping
+---@field dependentWorkspotData AIArgumentMapping
+---@field repeatChild Bool
+---@field fastForwardAfterTeleport AIArgumentMapping
 AIbehaviorSelectWorkspotNodeDefinition = {}
 
 ---@param fields? AIbehaviorSelectWorkspotNodeDefinition
 ---@return AIbehaviorSelectWorkspotNodeDefinition
-function AIbehaviorSelectWorkspotNodeDefinition.new(fields) return end
+function AIbehaviorSelectWorkspotNodeDefinition.new(fields) end

@@ -1,61 +1,52 @@
 ---@meta
 
 ---@class gameuiRemoteControlDrivingHUDGameController: gameuiHUDGameController
----@field private overlay inkWidgetReference
----@field private vehicleManufacturer inkImageWidgetReference
----@field private containerSignalStrength inkWidgetReference
----@field private signalStrengthBarFill inkWidgetReference
----@field private containerSignalStrengthIntroOutroAnimProxy inkanimProxy
----@field private weakSignalStrengthAnimProxy inkanimProxy
----@field private remoteControlledVehicleDataCallback redCallbackObject
----@field private remoteControlledVehicleCameraChangedToTPPCallback redCallbackObject
----@field private remoteControlledVehicle vehicleBaseObject
----@field private maxRemoteControlDrivingRange Float
----@field private mappinID gameNewMappinID
+---@field overlay inkWidgetReference
+---@field vehicleManufacturer inkImageWidgetReference
+---@field containerSignalStrength inkWidgetReference
+---@field signalStrengthBarFill inkWidgetReference
+---@field containerSignalStrengthIntroOutroAnimProxy inkanimProxy
+---@field weakSignalStrengthAnimProxy inkanimProxy
+---@field remoteControlledVehicleDataCallback redCallbackObject
+---@field remoteControlledVehicleCameraChangedToTPPCallback redCallbackObject
+---@field remoteControlledVehicle vehicleBaseObject
+---@field maxRemoteControlDrivingRange Float
+---@field mappinID gameNewMappinID
 gameuiRemoteControlDrivingHUDGameController = {}
 
 ---@param fields? gameuiRemoteControlDrivingHUDGameController
 ---@return gameuiRemoteControlDrivingHUDGameController
-function gameuiRemoteControlDrivingHUDGameController.new(fields) return end
+function gameuiRemoteControlDrivingHUDGameController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiRemoteControlDrivingHUDGameController:OnConnectionOutroFinished(anim) return end
+function gameuiRemoteControlDrivingHUDGameController:OnConnectionOutroFinished(anim) end
 
----@protected
 ---@return Bool
-function gameuiRemoteControlDrivingHUDGameController:OnInitialize() return end
+function gameuiRemoteControlDrivingHUDGameController:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiRemoteControlDrivingHUDGameController:OnPSMRemoteControlledVehicleCameraChangedToTPP(value) return end
+function gameuiRemoteControlDrivingHUDGameController:OnPSMRemoteControlledVehicleCameraChangedToTPP(value) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiRemoteControlDrivingHUDGameController:OnPlayerAttach(player) return end
+function gameuiRemoteControlDrivingHUDGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiRemoteControlDrivingHUDGameController:OnPlayerDetach(player) return end
+function gameuiRemoteControlDrivingHUDGameController:OnPlayerDetach(player) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiRemoteControlDrivingHUDGameController:OnRemoteControlledVehicleChanged(value) return end
+function gameuiRemoteControlDrivingHUDGameController:OnRemoteControlledVehicleChanged(value) end
 
----@protected
 ---@param dT Float
 ---@return Bool
-function gameuiRemoteControlDrivingHUDGameController:OnUpdate(dT) return end
+function gameuiRemoteControlDrivingHUDGameController:OnUpdate(dT) end
 
----@private
 ---@return nil
-function gameuiRemoteControlDrivingHUDGameController:CreateMappin() return end
+function gameuiRemoteControlDrivingHUDGameController:CreateMappin() end
 
----@private
 ---@return nil
-function gameuiRemoteControlDrivingHUDGameController:DestroyMappin() return end
+function gameuiRemoteControlDrivingHUDGameController:DestroyMappin() end

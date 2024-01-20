@@ -1,69 +1,62 @@
 ---@meta
 
 ---@class VaultDecisions: LocomotionGroundDecisions
----@field public callbackIDs redCallbackObject[]
----@field public stateBodyDone Bool
----@field public shouldDisableEnterCondition Bool
+---@field callbackIDs redCallbackObject[]
+---@field stateBodyDone Bool
+---@field shouldDisableEnterCondition Bool
 VaultDecisions = {}
 
 ---@param fields? VaultDecisions
 ---@return VaultDecisions
-function VaultDecisions.new(fields) return end
+function VaultDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function VaultDecisions:OnAction(action, consumer) return end
+function VaultDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function VaultDecisions:OnMeleeLeapChanged(value) return end
+function VaultDecisions:OnMeleeLeapChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VaultDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VaultDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param playerCapsuleDimensions Vector4
 ---@param vaultInfo gamePlayerClimbInfo
 ---@return Bool
-function VaultDecisions:FitTest(scriptInterface, playerCapsuleDimensions, vaultInfo) return end
+function VaultDecisions:FitTest(scriptInterface, playerCapsuleDimensions, vaultInfo) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param vaultInfo gamePlayerClimbInfo
 ---@return Bool
-function VaultDecisions:ObstacleLengthCheck(stateContext, scriptInterface, vaultInfo) return end
+function VaultDecisions:ObstacleLengthCheck(stateContext, scriptInterface, vaultInfo) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VaultDecisions:OnAttach(stateContext, scriptInterface) return end
+function VaultDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VaultDecisions:OnDetach(stateContext, scriptInterface) return end
+function VaultDecisions:OnDetach(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VaultDecisions:ToCrouch(stateContext, scriptInterface) return end
+function VaultDecisions:ToCrouch(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VaultDecisions:ToSlide(stateContext, scriptInterface) return end
+function VaultDecisions:ToSlide(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VaultDecisions:ToStand(stateContext, scriptInterface) return end
+function VaultDecisions:ToStand(stateContext, scriptInterface) end

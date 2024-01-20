@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkContainerNavigationController: inkDiscreteNavigationController
----@field public overrideEntries inkNavigationOverrideEntry[]
----@field public useGlobalInput Bool
+---@field overrideEntries inkNavigationOverrideEntry[]
+---@field useGlobalInput Bool
 inkContainerNavigationController = {}
 
 ---@param fields? inkContainerNavigationController
 ---@return inkContainerNavigationController
-function inkContainerNavigationController.new(fields) return end
+function inkContainerNavigationController.new(fields) end

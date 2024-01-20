@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entEntityInstanceData: ISerializable
----@field public buffer DataBuffer
+---@field buffer DataBuffer
 entEntityInstanceData = {}
 
 ---@param fields? entEntityInstanceData
 ---@return entEntityInstanceData
-function entEntityInstanceData.new(fields) return end
+function entEntityInstanceData.new(fields) end

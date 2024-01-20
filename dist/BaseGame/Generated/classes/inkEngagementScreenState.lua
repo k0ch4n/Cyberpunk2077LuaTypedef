@@ -5,4 +5,4 @@ inkEngagementScreenState = {}
 
 ---@param fields? inkEngagementScreenState
 ---@return inkEngagementScreenState
-function inkEngagementScreenState.new(fields) return end
+function inkEngagementScreenState.new(fields) end

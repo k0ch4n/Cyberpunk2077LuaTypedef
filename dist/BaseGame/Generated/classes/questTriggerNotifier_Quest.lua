@@ -5,4 +5,4 @@ questTriggerNotifier_Quest = {}
 
 ---@param fields? questTriggerNotifier_Quest
 ---@return questTriggerNotifier_Quest
-function questTriggerNotifier_Quest.new(fields) return end
+function questTriggerNotifier_Quest.new(fields) end

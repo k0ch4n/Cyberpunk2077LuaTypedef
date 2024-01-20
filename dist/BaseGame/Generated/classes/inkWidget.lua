@@ -1,391 +1,391 @@
 ---@meta
 
 ---@class inkWidget: IScriptable
----@field public logicController inkWidgetLogicController
----@field public secondaryControllers inkWidgetLogicController[]
----@field public userData inkUserData[]
----@field public name CName
----@field public state CName
----@field public visible Bool
----@field public affectsLayoutWhenHidden Bool
----@field public isInteractive Bool
----@field public canSupportFocus Bool
----@field public style inkStyleResourceWrapper
----@field public parentWidget inkWidget
----@field public propertyManager inkPropertyManager
----@field public fitToContent Bool
----@field public layout inkWidgetLayout
----@field public opacity Float
----@field public tintColor HDRColor
----@field public size Vector2
----@field public renderTransformPivot Vector2
----@field public renderTransform inkUITransform
----@field public effects inkIEffect[]
+---@field logicController inkWidgetLogicController
+---@field secondaryControllers inkWidgetLogicController[]
+---@field userData inkUserData[]
+---@field name CName
+---@field state CName
+---@field visible Bool
+---@field affectsLayoutWhenHidden Bool
+---@field isInteractive Bool
+---@field canSupportFocus Bool
+---@field style inkStyleResourceWrapper
+---@field parentWidget inkWidget
+---@field propertyManager inkPropertyManager
+---@field fitToContent Bool
+---@field layout inkWidgetLayout
+---@field opacity Float
+---@field tintColor HDRColor
+---@field size Vector2
+---@field renderTransformPivot Vector2
+---@field renderTransform inkUITransform
+---@field effects inkIEffect[]
 inkWidget = {}
 
 ---@param fields? inkWidget
 ---@return inkWidget
-function inkWidget.new(fields) return end
+function inkWidget.new(fields) end
 
 ---@return CName
-function inkWidget.DefaultState() return end
+function inkWidget.DefaultState() end
 
 ---@param propertyName CName|string
 ---@param stylePath CName|string
 ---@return Bool
-function inkWidget:BindProperty(propertyName, stylePath) return end
+function inkWidget:BindProperty(propertyName, stylePath) end
 
 ---@param eventName CName|string
 ---@return nil
-function inkWidget:CallCustomCallback(eventName) return end
+function inkWidget:CallCustomCallback(eventName) end
 
 ---@param translationVector Vector2
 ---@return nil
-function inkWidget:ChangeTranslation(translationVector) return end
+function inkWidget:ChangeTranslation(translationVector) end
 
 ---@param effectType inkEffectType
 ---@return nil
-function inkWidget:DisableAllEffectsByType(effectType) return end
+function inkWidget:DisableAllEffectsByType(effectType) end
 
 ---@param userDataTypeName CName|string
 ---@param userDataCollection inkUserData[]
 ---@return nil
-function inkWidget:GatherUserData(userDataTypeName, userDataCollection) return end
+function inkWidget:GatherUserData(userDataTypeName, userDataCollection) end
 
 ---@return Bool
-function inkWidget:GetAffectsLayoutWhenHidden() return end
+function inkWidget:GetAffectsLayoutWhenHidden() end
 
 ---@return inkEAnchor
-function inkWidget:GetAnchor() return end
+function inkWidget:GetAnchor() end
 
 ---@return Vector2
-function inkWidget:GetAnchorPoint() return end
+function inkWidget:GetAnchorPoint() end
 
 ---@return inkWidgetLogicController
-function inkWidget:GetController() return end
-
----@param controllerType CName|string
----@return inkWidgetLogicController
-function inkWidget:GetControllerByBaseType(controllerType) return end
+function inkWidget:GetController() end
 
 ---@param controllerType CName|string
 ---@return inkWidgetLogicController
-function inkWidget:GetControllerByType(controllerType) return end
+function inkWidget:GetControllerByBaseType(controllerType) end
+
+---@param controllerType CName|string
+---@return inkWidgetLogicController
+function inkWidget:GetControllerByType(controllerType) end
 
 ---@return inkWidgetLogicController[]
-function inkWidget:GetControllers() return end
+function inkWidget:GetControllers() end
 
 ---@param controllerType CName|string
 ---@return inkWidgetLogicController[]
-function inkWidget:GetControllersByType(controllerType) return end
+function inkWidget:GetControllersByType(controllerType) end
 
 ---@return Vector2
-function inkWidget:GetDesiredSize() return end
+function inkWidget:GetDesiredSize() end
 
 ---@param effectType inkEffectType
 ---@param effectName CName|string
 ---@return Bool
-function inkWidget:GetEffectEnabled(effectType, effectName) return end
+function inkWidget:GetEffectEnabled(effectType, effectName) end
 
 ---@param effectType inkEffectType
 ---@param effectName CName|string
 ---@param paramName CName|string
 ---@return Float
-function inkWidget:GetEffectParamValue(effectType, effectName, paramName) return end
+function inkWidget:GetEffectParamValue(effectType, effectName, paramName) end
 
 ---@return Bool
-function inkWidget:GetFitToContent() return end
+function inkWidget:GetFitToContent() end
 
 ---@return inkEHorizontalAlign
-function inkWidget:GetHAlign() return end
+function inkWidget:GetHAlign() end
 
 ---@return inkMargin
-function inkWidget:GetMargin() return end
+function inkWidget:GetMargin() end
 
 ---@return CName
-function inkWidget:GetName() return end
+function inkWidget:GetName() end
 
 ---@return Int32
-function inkWidget:GetNumControllers() return end
+function inkWidget:GetNumControllers() end
 
 ---@param controllerType CName|string
 ---@return Int32
-function inkWidget:GetNumControllersOfType(controllerType) return end
+function inkWidget:GetNumControllersOfType(controllerType) end
 
 ---@return Float
-function inkWidget:GetOpacity() return end
+function inkWidget:GetOpacity() end
 
 ---@return inkMargin
-function inkWidget:GetPadding() return end
+function inkWidget:GetPadding() end
 
 ---@return Vector2
-function inkWidget:GetRenderTransformPivot() return end
+function inkWidget:GetRenderTransformPivot() end
 
 ---@return Float
-function inkWidget:GetRotation() return end
+function inkWidget:GetRotation() end
 
 ---@return Vector2
-function inkWidget:GetScale() return end
+function inkWidget:GetScale() end
 
 ---@return Vector2
-function inkWidget:GetShear() return end
+function inkWidget:GetShear() end
 
 ---@return Vector2
-function inkWidget:GetSize() return end
+function inkWidget:GetSize() end
 
 ---@return Float
-function inkWidget:GetSizeCoefficient() return end
+function inkWidget:GetSizeCoefficient() end
 
 ---@return inkESizeRule
-function inkWidget:GetSizeRule() return end
+function inkWidget:GetSizeRule() end
 
 ---@return CName
-function inkWidget:GetState() return end
+function inkWidget:GetState() end
 
 ---@return redResourceReferenceScriptToken
-function inkWidget:GetStylePath() return end
+function inkWidget:GetStylePath() end
 
 ---@return HDRColor
-function inkWidget:GetTintColor() return end
+function inkWidget:GetTintColor() end
 
 ---@return Vector2
-function inkWidget:GetTranslation() return end
+function inkWidget:GetTranslation() end
 
 ---@param userDataTypeName CName|string
 ---@return inkUserData
-function inkWidget:GetUserData(userDataTypeName) return end
+function inkWidget:GetUserData(userDataTypeName) end
 
 ---@param userDataTypeName CName|string
 ---@return inkUserData[]
-function inkWidget:GetUserDataArray(userDataTypeName) return end
+function inkWidget:GetUserDataArray(userDataTypeName) end
 
 ---@param userDataTypeName CName|string
 ---@return Uint32
-function inkWidget:GetUserDataObjectCount(userDataTypeName) return end
+function inkWidget:GetUserDataObjectCount(userDataTypeName) end
 
 ---@return inkEVerticalAlign
-function inkWidget:GetVAlign() return end
+function inkWidget:GetVAlign() end
 
 ---@param userDataTypeName CName|string
 ---@return Bool
-function inkWidget:HasUserDataObject(userDataTypeName) return end
+function inkWidget:HasUserDataObject(userDataTypeName) end
 
 ---@return Bool
-function inkWidget:IsInteractive() return end
+function inkWidget:IsInteractive() end
 
 ---@return Bool
-function inkWidget:IsVisible() return end
+function inkWidget:IsVisible() end
 
 ---@param animationDefinition inkanimDefinition
 ---@return inkanimProxy
-function inkWidget:PlayAnimation(animationDefinition) return end
+function inkWidget:PlayAnimation(animationDefinition) end
 
 ---@param animationDefinition inkanimDefinition
 ---@param playbackOptions inkanimPlaybackOptions
 ---@return inkanimProxy
-function inkWidget:PlayAnimationWithOptions(animationDefinition, playbackOptions) return end
+function inkWidget:PlayAnimationWithOptions(animationDefinition, playbackOptions) end
 
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function inkWidget:RegisterToCallback(eventName, object, functionName) return end
+function inkWidget:RegisterToCallback(eventName, object, functionName) end
 
 ---@param newParent inkCompoundWidget
 ---@param index? Int32
 ---@return nil
-function inkWidget:Reparent(newParent, index) return end
+function inkWidget:Reparent(newParent, index) end
 
 ---@param affectsLayoutWhenHidden Bool
 ---@return nil
-function inkWidget:SetAffectsLayoutWhenHidden(affectsLayoutWhenHidden) return end
+function inkWidget:SetAffectsLayoutWhenHidden(affectsLayoutWhenHidden) end
 
 ---@param anchor inkEAnchor
 ---@return nil
-function inkWidget:SetAnchor(anchor) return end
+function inkWidget:SetAnchor(anchor) end
 
 ---@param anchorPoint Vector2
 ---@return nil
-function inkWidget:SetAnchorPoint(anchorPoint) return end
+function inkWidget:SetAnchorPoint(anchorPoint) end
 
 ---@param effectType inkEffectType
 ---@param effectName CName|string
 ---@param enabled Bool
 ---@return nil
-function inkWidget:SetEffectEnabled(effectType, effectName, enabled) return end
+function inkWidget:SetEffectEnabled(effectType, effectName, enabled) end
 
 ---@param effectType inkEffectType
 ---@param effectName CName|string
 ---@param paramName CName|string
 ---@param paramValue Float
 ---@return Float
-function inkWidget:SetEffectParamValue(effectType, effectName, paramName, paramValue) return end
+function inkWidget:SetEffectParamValue(effectType, effectName, paramName, paramValue) end
 
 ---@param fitToContent Bool
 ---@return nil
-function inkWidget:SetFitToContent(fitToContent) return end
+function inkWidget:SetFitToContent(fitToContent) end
 
 ---@param hAlign inkEHorizontalAlign
 ---@return nil
-function inkWidget:SetHAlign(hAlign) return end
+function inkWidget:SetHAlign(hAlign) end
 
 ---@param value Bool
 ---@return nil
-function inkWidget:SetInteractive(value) return end
+function inkWidget:SetInteractive(value) end
 
 ---@param layout inkWidgetLayout
 ---@return nil
-function inkWidget:SetLayout(layout) return end
+function inkWidget:SetLayout(layout) end
 
 ---@param margin inkMargin
 ---@return nil
-function inkWidget:SetMargin(margin) return end
+function inkWidget:SetMargin(margin) end
 
 ---@param widgetName CName|string
 ---@return nil
-function inkWidget:SetName(widgetName) return end
+function inkWidget:SetName(widgetName) end
 
 ---@param opacity Float
 ---@return nil
-function inkWidget:SetOpacity(opacity) return end
+function inkWidget:SetOpacity(opacity) end
 
 ---@param padding inkMargin
 ---@return nil
-function inkWidget:SetPadding(padding) return end
+function inkWidget:SetPadding(padding) end
 
 ---@param pivot Vector2
 ---@return nil
-function inkWidget:SetRenderTransformPivot(pivot) return end
+function inkWidget:SetRenderTransformPivot(pivot) end
 
 ---@param angleInDegrees Float
 ---@return nil
-function inkWidget:SetRotation(angleInDegrees) return end
+function inkWidget:SetRotation(angleInDegrees) end
 
 ---@param scale Vector2
 ---@return nil
-function inkWidget:SetScale(scale) return end
+function inkWidget:SetScale(scale) end
 
 ---@param shear Vector2
 ---@return nil
-function inkWidget:SetShear(shear) return end
+function inkWidget:SetShear(shear) end
 
 ---@param size Vector2
 ---@return nil
-function inkWidget:SetSize(size) return end
+function inkWidget:SetSize(size) end
 
 ---@param sizeCoefficient Float
 ---@return nil
-function inkWidget:SetSizeCoefficient(sizeCoefficient) return end
+function inkWidget:SetSizeCoefficient(sizeCoefficient) end
 
 ---@param sizeRule inkESizeRule
 ---@return nil
-function inkWidget:SetSizeRule(sizeRule) return end
+function inkWidget:SetSizeRule(sizeRule) end
 
 ---@param state CName|string
 ---@return nil
-function inkWidget:SetState(state) return end
+function inkWidget:SetState(state) end
 
 ---@param styleResPath redResourceReferenceScriptToken
 ---@return nil
-function inkWidget:SetStyle(styleResPath) return end
+function inkWidget:SetStyle(styleResPath) end
 
 ---@param color HDRColor
 ---@return nil
-function inkWidget:SetTintColor(color) return end
+function inkWidget:SetTintColor(color) end
 
 ---@param translationVector Vector2
 ---@return nil
-function inkWidget:SetTranslation(translationVector) return end
+function inkWidget:SetTranslation(translationVector) end
 
 ---@param vAlign inkEVerticalAlign
 ---@return nil
-function inkWidget:SetVAlign(vAlign) return end
+function inkWidget:SetVAlign(vAlign) end
 
 ---@param visible Bool
 ---@return nil
-function inkWidget:SetVisible(visible) return end
+function inkWidget:SetVisible(visible) end
 
 ---@return nil
-function inkWidget:StopAllAnimations() return end
+function inkWidget:StopAllAnimations() end
 
 ---@param propertyName CName|string
 ---@return Bool
-function inkWidget:UnbindProperty(propertyName) return end
+function inkWidget:UnbindProperty(propertyName) end
 
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function inkWidget:UnregisterFromCallback(eventName, object, functionName) return end
+function inkWidget:UnregisterFromCallback(eventName, object, functionName) end
 
 ---@return Float
-function inkWidget:GetDesiredHeight() return end
+function inkWidget:GetDesiredHeight() end
 
 ---@return Float
-function inkWidget:GetDesiredWidth() return end
+function inkWidget:GetDesiredWidth() end
 
 ---@return Float
-function inkWidget:GetHeight() return end
+function inkWidget:GetHeight() end
 
 ---@return Float
-function inkWidget:GetWidth() return end
+function inkWidget:GetWidth() end
 
 ---@param x Float
 ---@param y Float
 ---@return nil
-function inkWidget:SetAnchorPoint(x, y) return end
+function inkWidget:SetAnchorPoint(x, y) end
 
 ---@param height Float
 ---@return nil
-function inkWidget:SetHeight(height) return end
+function inkWidget:SetHeight(height) end
 
 ---@param left Float
 ---@param top Float
 ---@param right Float
 ---@param bottom Float
 ---@return nil
-function inkWidget:SetMargin(left, top, right, bottom) return end
+function inkWidget:SetMargin(left, top, right, bottom) end
 
 ---@param left Float
 ---@param top Float
 ---@param right Float
 ---@param bottom Float
 ---@return nil
-function inkWidget:SetPadding(left, top, right, bottom) return end
+function inkWidget:SetPadding(left, top, right, bottom) end
 
 ---@param x Float
 ---@param y Float
 ---@return nil
-function inkWidget:SetRenderTransformPivot(x, y) return end
+function inkWidget:SetRenderTransformPivot(x, y) end
 
 ---@param width Float
 ---@param height Float
 ---@return nil
-function inkWidget:SetSize(width, height) return end
+function inkWidget:SetSize(width, height) end
 
 ---@param r Uint8
 ---@param g Uint8
 ---@param b Uint8
 ---@param a Uint8
 ---@return nil
-function inkWidget:SetTintColor(r, g, b, a) return end
+function inkWidget:SetTintColor(r, g, b, a) end
 
 ---@param color Color
 ---@return nil
-function inkWidget:SetTintColor(color) return end
+function inkWidget:SetTintColor(color) end
 
 ---@param x Float
 ---@param y Float
 ---@return nil
-function inkWidget:SetTranslation(x, y) return end
+function inkWidget:SetTranslation(x, y) end
 
 ---@param width Float
 ---@return nil
-function inkWidget:SetWidth(width) return end
+function inkWidget:SetWidth(width) end
 
 ---@param left Float
 ---@param top Float
 ---@param right Float
 ---@param bottom Float
 ---@return nil
-function inkWidget:UpdateMargin(left, top, right, bottom) return end
+function inkWidget:UpdateMargin(left, top, right, bottom) end

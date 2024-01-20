@@ -5,25 +5,21 @@ UpperBodyPSMPrereq = {}
 
 ---@param fields? UpperBodyPSMPrereq
 ---@return UpperBodyPSMPrereq
-function UpperBodyPSMPrereq.new(fields) return end
+function UpperBodyPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function UpperBodyPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function UpperBodyPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function UpperBodyPSMPrereq:GetStateMachineEnum() return end
+function UpperBodyPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function UpperBodyPSMPrereq:OnRegister(state, context) return end
+function UpperBodyPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function UpperBodyPSMPrereq:OnUnregister(state, context) return end
+function UpperBodyPSMPrereq:OnUnregister(state, context) end

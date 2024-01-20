@@ -5,4 +5,4 @@ gameuiCharacterCustomizationSystem_OnInitializeOptionsListEvent = {}
 
 ---@param fields? gameuiCharacterCustomizationSystem_OnInitializeOptionsListEvent
 ---@return gameuiCharacterCustomizationSystem_OnInitializeOptionsListEvent
-function gameuiCharacterCustomizationSystem_OnInitializeOptionsListEvent.new(fields) return end
+function gameuiCharacterCustomizationSystem_OnInitializeOptionsListEvent.new(fields) end

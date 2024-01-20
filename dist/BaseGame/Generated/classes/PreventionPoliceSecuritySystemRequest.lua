@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PreventionPoliceSecuritySystemRequest: gameScriptableSystemRequest
----@field public securitySystemID gamePersistentID
+---@field securitySystemID gamePersistentID
 PreventionPoliceSecuritySystemRequest = {}
 
 ---@param fields? PreventionPoliceSecuritySystemRequest
 ---@return PreventionPoliceSecuritySystemRequest
-function PreventionPoliceSecuritySystemRequest.new(fields) return end
+function PreventionPoliceSecuritySystemRequest.new(fields) end

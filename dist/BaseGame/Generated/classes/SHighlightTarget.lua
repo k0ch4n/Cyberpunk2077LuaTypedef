@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SHighlightTarget
----@field public targetID entEntityID
----@field public highlightType EFocusForcedHighlightType
+---@field targetID entEntityID
+---@field highlightType EFocusForcedHighlightType
 SHighlightTarget = {}
 
 ---@param fields? SHighlightTarget
 ---@return SHighlightTarget
-function SHighlightTarget.new(fields) return end
+function SHighlightTarget.new(fields) end

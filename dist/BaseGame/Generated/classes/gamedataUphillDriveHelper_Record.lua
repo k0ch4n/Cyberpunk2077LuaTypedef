@@ -5,10 +5,10 @@ gamedataUphillDriveHelper_Record = {}
 
 ---@param fields? gamedataUphillDriveHelper_Record
 ---@return gamedataUphillDriveHelper_Record
-function gamedataUphillDriveHelper_Record.new(fields) return end
+function gamedataUphillDriveHelper_Record.new(fields) end
 
 ---@return Float
-function gamedataUphillDriveHelper_Record:SlopeCompensationFactor() return end
+function gamedataUphillDriveHelper_Record:SlopeCompensationFactor() end
 
 ---@return Float
-function gamedataUphillDriveHelper_Record:SlopeCompensationMaxAngle() return end
+function gamedataUphillDriveHelper_Record:SlopeCompensationMaxAngle() end

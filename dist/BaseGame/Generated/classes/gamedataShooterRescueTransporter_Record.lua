@@ -5,4 +5,4 @@ gamedataShooterRescueTransporter_Record = {}
 
 ---@param fields? gamedataShooterRescueTransporter_Record
 ---@return gamedataShooterRescueTransporter_Record
-function gamedataShooterRescueTransporter_Record.new(fields) return end
+function gamedataShooterRescueTransporter_Record.new(fields) end

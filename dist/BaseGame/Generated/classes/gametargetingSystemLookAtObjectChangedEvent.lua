@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gametargetingSystemLookAtObjectChangedEvent: redEvent
----@field public lookatObject gameObject
+---@field lookatObject gameObject
 gametargetingSystemLookAtObjectChangedEvent = {}
 
 ---@param fields? gametargetingSystemLookAtObjectChangedEvent
 ---@return gametargetingSystemLookAtObjectChangedEvent
-function gametargetingSystemLookAtObjectChangedEvent.new(fields) return end
+function gametargetingSystemLookAtObjectChangedEvent.new(fields) end

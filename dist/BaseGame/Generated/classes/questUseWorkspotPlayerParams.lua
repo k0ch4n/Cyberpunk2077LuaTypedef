@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class questUseWorkspotPlayerParams
----@field public tier questUseWorkspotTier
----@field public cameraSettings gameTier3CameraSettings
----@field public emptyHands Bool
----@field public cameraUseTrajectorySpace Bool
----@field public applyCameraParams Bool
----@field public vehicleProceduralCameraWeight Float
----@field public parallaxWeight Float
----@field public parallaxSpace questCameraParallaxSpace
+---@field tier questUseWorkspotTier
+---@field cameraSettings gameTier3CameraSettings
+---@field emptyHands Bool
+---@field cameraUseTrajectorySpace Bool
+---@field applyCameraParams Bool
+---@field vehicleProceduralCameraWeight Float
+---@field parallaxWeight Float
+---@field parallaxSpace questCameraParallaxSpace
 questUseWorkspotPlayerParams = {}
 
 ---@param fields? questUseWorkspotPlayerParams
 ---@return questUseWorkspotPlayerParams
-function questUseWorkspotPlayerParams.new(fields) return end
+function questUseWorkspotPlayerParams.new(fields) end

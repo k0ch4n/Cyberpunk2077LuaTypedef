@@ -5,4 +5,4 @@ inkanimTextValueProgressInterpolator = {}
 
 ---@param fields? inkanimTextValueProgressInterpolator
 ---@return inkanimTextValueProgressInterpolator
-function inkanimTextValueProgressInterpolator.new(fields) return end
+function inkanimTextValueProgressInterpolator.new(fields) end

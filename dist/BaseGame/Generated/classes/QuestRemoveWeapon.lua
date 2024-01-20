@@ -5,7 +5,7 @@ QuestRemoveWeapon = {}
 
 ---@param fields? QuestRemoveWeapon
 ---@return QuestRemoveWeapon
-function QuestRemoveWeapon.new(fields) return end
+function QuestRemoveWeapon.new(fields) end
 
 ---@return nil
-function QuestRemoveWeapon:SetProperties() return end
+function QuestRemoveWeapon:SetProperties() end

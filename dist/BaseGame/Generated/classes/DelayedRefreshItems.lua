@@ -5,4 +5,4 @@ DelayedRefreshItems = {}
 
 ---@param fields? DelayedRefreshItems
 ---@return DelayedRefreshItems
-function DelayedRefreshItems.new(fields) return end
+function DelayedRefreshItems.new(fields) end

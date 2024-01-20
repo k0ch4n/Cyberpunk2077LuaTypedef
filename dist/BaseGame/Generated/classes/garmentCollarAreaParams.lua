@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class garmentCollarAreaParams
----@field public enable Bool
----@field public radiusInCM Float
----@field public radiusForTriangleRemovalInCM Float
----@field public offsetFromSkinInCM Float
----@field public offset Vector3
+---@field enable Bool
+---@field radiusInCM Float
+---@field radiusForTriangleRemovalInCM Float
+---@field offsetFromSkinInCM Float
+---@field offset Vector3
 garmentCollarAreaParams = {}
 
 ---@param fields? garmentCollarAreaParams
 ---@return garmentCollarAreaParams
-function garmentCollarAreaParams.new(fields) return end
+function garmentCollarAreaParams.new(fields) end

@@ -5,4 +5,4 @@ gamePlayerMappinComponent = {}
 
 ---@param fields? gamePlayerMappinComponent
 ---@return gamePlayerMappinComponent
-function gamePlayerMappinComponent.new(fields) return end
+function gamePlayerMappinComponent.new(fields) end

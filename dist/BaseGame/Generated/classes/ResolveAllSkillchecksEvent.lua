@@ -5,7 +5,7 @@ ResolveAllSkillchecksEvent = {}
 
 ---@param fields? ResolveAllSkillchecksEvent
 ---@return ResolveAllSkillchecksEvent
-function ResolveAllSkillchecksEvent.new(fields) return end
+function ResolveAllSkillchecksEvent.new(fields) end
 
 ---@return String
-function ResolveAllSkillchecksEvent:GetFriendlyDescription() return end
+function ResolveAllSkillchecksEvent:GetFriendlyDescription() end

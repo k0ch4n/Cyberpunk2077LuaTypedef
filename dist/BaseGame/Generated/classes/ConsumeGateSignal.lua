@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ConsumeGateSignal: GateSignal
----@field public consumeCallName CName
----@field public signalToConsume GateSignal
+---@field consumeCallName CName
+---@field signalToConsume GateSignal
 ConsumeGateSignal = {}
 
 ---@param fields? ConsumeGateSignal
 ---@return ConsumeGateSignal
-function ConsumeGateSignal.new(fields) return end
+function ConsumeGateSignal.new(fields) end

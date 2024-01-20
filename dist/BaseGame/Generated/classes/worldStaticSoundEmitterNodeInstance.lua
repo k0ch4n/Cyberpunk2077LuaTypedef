@@ -5,4 +5,4 @@ worldStaticSoundEmitterNodeInstance = {}
 
 ---@param fields? worldStaticSoundEmitterNodeInstance
 ---@return worldStaticSoundEmitterNodeInstance
-function worldStaticSoundEmitterNodeInstance.new(fields) return end
+function worldStaticSoundEmitterNodeInstance.new(fields) end

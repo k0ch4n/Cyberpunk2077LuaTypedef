@@ -1,81 +1,68 @@
 ---@meta
 
 ---@class CharacterCreationBackstorySelectionMenu: gameuiBaseCharacterCreationController
----@field public nomad inkWidgetReference
----@field public streetRat inkWidgetReference
----@field public corpo inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private clickTarget String
----@field private nomadTarget String
----@field private streetTarget String
----@field private corpoTarget String
+---@field nomad inkWidgetReference
+---@field streetRat inkWidgetReference
+---@field corpo inkWidgetReference
+---@field animationProxy inkanimProxy
+---@field clickTarget String
+---@field nomadTarget String
+---@field streetTarget String
+---@field corpoTarget String
 CharacterCreationBackstorySelectionMenu = {}
 
 ---@param fields? CharacterCreationBackstorySelectionMenu
 ---@return CharacterCreationBackstorySelectionMenu
-function CharacterCreationBackstorySelectionMenu.new(fields) return end
+function CharacterCreationBackstorySelectionMenu.new(fields) end
 
----@protected
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnInitialize() return end
+function CharacterCreationBackstorySelectionMenu:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnIntroComplete(anim) return end
+function CharacterCreationBackstorySelectionMenu:OnIntroComplete(anim) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnPressCorpo(e) return end
+function CharacterCreationBackstorySelectionMenu:OnPressCorpo(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnPressNomad(e) return end
+function CharacterCreationBackstorySelectionMenu:OnPressNomad(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnPressStreet(e) return end
+function CharacterCreationBackstorySelectionMenu:OnPressStreet(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnReleaseCorpo(e) return end
+function CharacterCreationBackstorySelectionMenu:OnReleaseCorpo(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnReleaseNomad(e) return end
+function CharacterCreationBackstorySelectionMenu:OnReleaseNomad(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnReleaseStreet(e) return end
+function CharacterCreationBackstorySelectionMenu:OnReleaseStreet(e) end
 
----@protected
 ---@return Bool
-function CharacterCreationBackstorySelectionMenu:OnUninitialize() return end
+function CharacterCreationBackstorySelectionMenu:OnUninitialize() end
 
----@private
 ---@return nil
-function CharacterCreationBackstorySelectionMenu:OnIntro() return end
+function CharacterCreationBackstorySelectionMenu:OnIntro() end
 
----@private
 ---@return nil
-function CharacterCreationBackstorySelectionMenu:OnOutro() return end
+function CharacterCreationBackstorySelectionMenu:OnOutro() end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@return nil
-function CharacterCreationBackstorySelectionMenu:PlayAnim(animName, callBack) return end
+function CharacterCreationBackstorySelectionMenu:PlayAnim(animName, callBack) end
 
----@protected
 ---@return nil
-function CharacterCreationBackstorySelectionMenu:PriorMenu() return end
+function CharacterCreationBackstorySelectionMenu:PriorMenu() end
 
----@private
 ---@param widget inkWidget
 ---@param desc CName|string
 ---@param imagePath CName|string
@@ -84,8 +71,7 @@ function CharacterCreationBackstorySelectionMenu:PriorMenu() return end
 ---@param onPressEvent CName|string
 ---@param onReleaseEvent CName|string
 ---@return nil
-function CharacterCreationBackstorySelectionMenu:SetupLifePathButton(widget, desc, imagePath, videoPath, label, onPressEvent, onReleaseEvent) return end
+function CharacterCreationBackstorySelectionMenu:SetupLifePathButton(widget, desc, imagePath, videoPath, label, onPressEvent, onReleaseEvent) end
 
----@private
 ---@return nil
-function CharacterCreationBackstorySelectionMenu:SetupLifePathButtons() return end
+function CharacterCreationBackstorySelectionMenu:SetupLifePathButtons() end

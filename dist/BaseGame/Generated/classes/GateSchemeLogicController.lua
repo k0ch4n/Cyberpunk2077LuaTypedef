@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class GateSchemeLogicController: inkWidgetLogicController
----@field public sfxFactsSet SoundFxFactsSet
----@field public tube1 inkWidgetReference
----@field public tube2 inkWidgetReference
----@field public tube3 inkWidgetReference
----@field public tube4 inkWidgetReference
----@field public tube5 inkWidgetReference
----@field public tube6 inkWidgetReference
----@field public tube7 inkWidgetReference
----@field public tube8 inkWidgetReference
----@field public OpeningGateLeftAnimName CName
----@field public OpeningGateRightAnimName CName
----@field public currentSystemIndex Int32
----@field public gameInstance ScriptGameInstance
+---@field sfxFactsSet SoundFxFactsSet
+---@field tube1 inkWidgetReference
+---@field tube2 inkWidgetReference
+---@field tube3 inkWidgetReference
+---@field tube4 inkWidgetReference
+---@field tube5 inkWidgetReference
+---@field tube6 inkWidgetReference
+---@field tube7 inkWidgetReference
+---@field tube8 inkWidgetReference
+---@field OpeningGateLeftAnimName CName
+---@field OpeningGateRightAnimName CName
+---@field currentSystemIndex Int32
+---@field gameInstance ScriptGameInstance
 GateSchemeLogicController = {}
 
 ---@param fields? GateSchemeLogicController
 ---@return GateSchemeLogicController
-function GateSchemeLogicController.new(fields) return end
+function GateSchemeLogicController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function GateSchemeLogicController:OnAnimationFinished(proxy) return end
+function GateSchemeLogicController:OnAnimationFinished(proxy) end
 
 ---@param system BunkerSystems
 ---@return nil
-function GateSchemeLogicController:DoOpenGate(system) return end
+function GateSchemeLogicController:DoOpenGate(system) end
 
 ---@return nil
-function GateSchemeLogicController:OpenGate() return end
+function GateSchemeLogicController:OpenGate() end

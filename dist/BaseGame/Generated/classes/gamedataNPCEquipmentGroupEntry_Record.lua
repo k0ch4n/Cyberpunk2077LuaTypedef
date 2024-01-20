@@ -5,4 +5,4 @@ gamedataNPCEquipmentGroupEntry_Record = {}
 
 ---@param fields? gamedataNPCEquipmentGroupEntry_Record
 ---@return gamedataNPCEquipmentGroupEntry_Record
-function gamedataNPCEquipmentGroupEntry_Record.new(fields) return end
+function gamedataNPCEquipmentGroupEntry_Record.new(fields) end

@@ -5,4 +5,4 @@ questBuild_ConditionType = {}
 
 ---@param fields? questBuild_ConditionType
 ---@return questBuild_ConditionType
-function questBuild_ConditionType.new(fields) return end
+function questBuild_ConditionType.new(fields) end

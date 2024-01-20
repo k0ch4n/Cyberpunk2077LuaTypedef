@@ -5,4 +5,4 @@ gameTargetingActivatorComponent = {}
 
 ---@param fields? gameTargetingActivatorComponent
 ---@return gameTargetingActivatorComponent
-function gameTargetingActivatorComponent.new(fields) return end
+function gameTargetingActivatorComponent.new(fields) end

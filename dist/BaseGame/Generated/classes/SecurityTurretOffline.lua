@@ -5,4 +5,4 @@ SecurityTurretOffline = {}
 
 ---@param fields? SecurityTurretOffline
 ---@return SecurityTurretOffline
-function SecurityTurretOffline.new(fields) return end
+function SecurityTurretOffline.new(fields) end

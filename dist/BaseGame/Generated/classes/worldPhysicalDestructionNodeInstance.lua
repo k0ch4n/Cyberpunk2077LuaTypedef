@@ -5,4 +5,4 @@ worldPhysicalDestructionNodeInstance = {}
 
 ---@param fields? worldPhysicalDestructionNodeInstance
 ---@return worldPhysicalDestructionNodeInstance
-function worldPhysicalDestructionNodeInstance.new(fields) return end
+function worldPhysicalDestructionNodeInstance.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class JsonResource: CResource
----@field public root ISerializable
+---@field root ISerializable
 JsonResource = {}
 
 ---@param fields? JsonResource
 ---@return JsonResource
-function JsonResource.new(fields) return end
+function JsonResource.new(fields) end

@@ -5,4 +5,4 @@ questQuestResource = {}
 
 ---@param fields? questQuestResource
 ---@return questQuestResource
-function questQuestResource.new(fields) return end
+function questQuestResource.new(fields) end

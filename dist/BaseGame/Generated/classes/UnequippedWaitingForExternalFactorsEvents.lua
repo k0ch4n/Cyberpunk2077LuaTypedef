@@ -5,4 +5,4 @@ UnequippedWaitingForExternalFactorsEvents = {}
 
 ---@param fields? UnequippedWaitingForExternalFactorsEvents
 ---@return UnequippedWaitingForExternalFactorsEvents
-function UnequippedWaitingForExternalFactorsEvents.new(fields) return end
+function UnequippedWaitingForExternalFactorsEvents.new(fields) end

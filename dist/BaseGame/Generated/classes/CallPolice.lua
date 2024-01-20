@@ -5,9 +5,8 @@ CallPolice = {}
 
 ---@param fields? CallPolice
 ---@return CallPolice
-function CallPolice.new(fields) return end
+function CallPolice.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CallPolice:Activate(context) return end
+function CallPolice:Activate(context) end

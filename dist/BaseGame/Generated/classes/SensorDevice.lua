@@ -1,879 +1,741 @@
 ---@meta
 
 ---@class SensorDevice: ExplosiveDevice
----@field protected attitudeAgent gameAttitudeAgent
----@field protected senseComponent senseComponent
----@field protected visibleObjectComponent senseVisibleObjectComponent
----@field private forwardFaceSlotComponent entSlotComponent
----@field private targetingComponent gameTargetingComponent
----@field private targetTrackerComponent AITargetTrackerComponent
----@field protected cameraComponentInverted gameCameraComponent
----@field private targets Target[]
----@field private currentlyFollowedTarget gameObject
----@field protected currentLookAtEventVert entLookAtAddEvent
----@field protected currentLookAtEventHor entLookAtAddEvent
----@field private HPListenersList TargetedObjectDeathListener[]
----@field private sensorDeviceState ESensorDeviceStates
----@field private sensorWakeState ESensorDeviceWakeState
----@field private sensorWakeStatePrevious ESensorDeviceWakeState
----@field private targetingDelayEventID gameDelayID
----@field private hack_isTargetingDelayEventFilled Bool
----@field private currentResolveDelayEventID gameDelayID
----@field private hack_isResolveDelayEventFilled Bool
----@field private animFeatureData AnimFeature_SensorDevice
----@field private animFeatureDataName CName
----@field private targetLostBySensesDelayEventID gameDelayID
----@field private hack_isTargetLostBySensesDelEvtFilled Bool
----@field private initialAttitude CName
----@field private detectionFactorMultiplier Float
----@field private taggedListenerCallback redCallbackObject
----@field protected lightScanRefs gameLightComponent[]
----@field protected lightAttitudeRefs gameLightComponent[]
----@field protected lightInfoRefs gameLightComponent[]
----@field protected lightColors LedColors_SensorDevice
----@field protected deviceFXRecord gamedataDeviceFX_Record
----@field protected scanGameEffect gameEffectInstance
----@field protected scanFXSlotName CName
----@field protected visionConeEffectInstance gameEffectInstance
----@field protected idleGameEffectInstance gameEffectInstance
----@field private targetForcedFormTagKill Bool
----@field private hasSupport Bool
----@field protected defaultSensePreset TweakDBID
----@field private keepHostilityTowardsPlayerHostiles Bool
----@field private hostileUpdateTowardsPlayerHostilesDelayed Bool
----@field protected elementsToHideOnTCS CName[]
----@field protected elementsToHideOnTCSRefs entIPlacedComponent[]
----@field public previoustagKillList gameObject[]
----@field protected playIdleSoundOnIdle Bool
----@field protected idleSound CName
----@field protected idleSoundStop CName
----@field protected soundDeviceON CName
----@field protected soundDeviceOFF CName
----@field private idleSoundIsPlaying Bool
----@field protected soundDeviceDestroyed CName
----@field protected soundDetectionLoop CName
----@field protected soundDetectionLoopStop CName
----@field private isPLAYERSAFETargetLock Bool
----@field private playerDetected Bool
----@field private clientForceSetAnimFeature Bool
----@field private playerControlData PlayerControlDeviceData
----@field private engineTimeInSec Float
----@field private TCExitEngineTime Float
----@field private hack_wasTargetReevaluated Bool
----@field private hack_wasSSOutupFromSelf Bool
----@field private degbu_SS_inputsSend Int32
----@field private debug_SS_inputsSendTargetLock Int32
----@field private debug_SS_inputsSendIntresting Int32
----@field private debug_SS_inputsSendLoseTarget Int32
----@field private debug_SS_outputRecieved Int32
----@field private debug_SS_outputFormSelfRecieved Int32
----@field private debug_SS_outputFromElseRecieved Int32
----@field private debug_SS_reevaluatesDone Int32
----@field private debug_SS_trespassingRecieved Int32
----@field private debug_SS_TargetAssessmentRequest Int32
----@field protected minPitch Float
----@field protected maxPitch Float
----@field protected minYaw Float
----@field protected maxYaw Float
+---@field attitudeAgent gameAttitudeAgent
+---@field senseComponent senseComponent
+---@field visibleObjectComponent senseVisibleObjectComponent
+---@field forwardFaceSlotComponent entSlotComponent
+---@field targetingComponent gameTargetingComponent
+---@field targetTrackerComponent AITargetTrackerComponent
+---@field cameraComponentInverted gameCameraComponent
+---@field targets Target[]
+---@field currentlyFollowedTarget gameObject
+---@field currentLookAtEventVert entLookAtAddEvent
+---@field currentLookAtEventHor entLookAtAddEvent
+---@field HPListenersList TargetedObjectDeathListener[]
+---@field sensorDeviceState ESensorDeviceStates
+---@field sensorWakeState ESensorDeviceWakeState
+---@field sensorWakeStatePrevious ESensorDeviceWakeState
+---@field targetingDelayEventID gameDelayID
+---@field hack_isTargetingDelayEventFilled Bool
+---@field currentResolveDelayEventID gameDelayID
+---@field hack_isResolveDelayEventFilled Bool
+---@field animFeatureData AnimFeature_SensorDevice
+---@field animFeatureDataName CName
+---@field targetLostBySensesDelayEventID gameDelayID
+---@field hack_isTargetLostBySensesDelEvtFilled Bool
+---@field initialAttitude CName
+---@field detectionFactorMultiplier Float
+---@field taggedListenerCallback redCallbackObject
+---@field lightScanRefs gameLightComponent[]
+---@field lightAttitudeRefs gameLightComponent[]
+---@field lightInfoRefs gameLightComponent[]
+---@field lightColors LedColors_SensorDevice
+---@field deviceFXRecord gamedataDeviceFX_Record
+---@field scanGameEffect gameEffectInstance
+---@field scanFXSlotName CName
+---@field visionConeEffectInstance gameEffectInstance
+---@field idleGameEffectInstance gameEffectInstance
+---@field targetForcedFormTagKill Bool
+---@field hasSupport Bool
+---@field defaultSensePreset TweakDBID
+---@field keepHostilityTowardsPlayerHostiles Bool
+---@field hostileUpdateTowardsPlayerHostilesDelayed Bool
+---@field elementsToHideOnTCS CName[]
+---@field elementsToHideOnTCSRefs entIPlacedComponent[]
+---@field previoustagKillList gameObject[]
+---@field playIdleSoundOnIdle Bool
+---@field idleSound CName
+---@field idleSoundStop CName
+---@field soundDeviceON CName
+---@field soundDeviceOFF CName
+---@field idleSoundIsPlaying Bool
+---@field soundDeviceDestroyed CName
+---@field soundDetectionLoop CName
+---@field soundDetectionLoopStop CName
+---@field isPLAYERSAFETargetLock Bool
+---@field playerDetected Bool
+---@field clientForceSetAnimFeature Bool
+---@field playerControlData PlayerControlDeviceData
+---@field engineTimeInSec Float
+---@field TCExitEngineTime Float
+---@field hack_wasTargetReevaluated Bool
+---@field hack_wasSSOutupFromSelf Bool
+---@field degbu_SS_inputsSend Int32
+---@field debug_SS_inputsSendTargetLock Int32
+---@field debug_SS_inputsSendIntresting Int32
+---@field debug_SS_inputsSendLoseTarget Int32
+---@field debug_SS_outputRecieved Int32
+---@field debug_SS_outputFormSelfRecieved Int32
+---@field debug_SS_outputFromElseRecieved Int32
+---@field debug_SS_reevaluatesDone Int32
+---@field debug_SS_trespassingRecieved Int32
+---@field debug_SS_TargetAssessmentRequest Int32
+---@field minPitch Float
+---@field maxPitch Float
+---@field minYaw Float
+---@field maxYaw Float
 SensorDevice = {}
 
 ---@param fields? SensorDevice
 ---@return SensorDevice
-function SensorDevice.new(fields) return end
+function SensorDevice.new(fields) end
 
----@protected
 ---@param evt gameeventsAttitudeChangedEvent
 ---@return Bool
-function SensorDevice:OnAttitudeChanged(evt) return end
+function SensorDevice:OnAttitudeChanged(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function SensorDevice:OnDeath(evt) return end
+function SensorDevice:OnDeath(evt) end
 
----@protected
 ---@return Bool
-function SensorDevice:OnDetach() return end
+function SensorDevice:OnDetach() end
 
----@protected
 ---@param evt DetectionRiseEvent
 ---@return Bool
-function SensorDevice:OnDetectionRiseEvent(evt) return end
+function SensorDevice:OnDetectionRiseEvent(evt) end
 
----@protected
 ---@param evt senseOnEnterShapeEvent
 ---@return Bool
-function SensorDevice:OnEnterShapeEvent(evt) return end
+function SensorDevice:OnEnterShapeEvent(evt) end
 
----@protected
 ---@param evt ForceIgnoreTargets
 ---@return Bool
-function SensorDevice:OnForcePlayerIgnore(evt) return end
+function SensorDevice:OnForcePlayerIgnore(evt) end
 
----@protected
 ---@return Bool
-function SensorDevice:OnGameAttached() return end
+function SensorDevice:OnGameAttached() end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function SensorDevice:OnHit(hit) return end
+function SensorDevice:OnHit(hit) end
 
----@protected
 ---@param evt HostileUpdateTowardsPlayerHostiles
 ---@return Bool
-function SensorDevice:OnHostileUpdateTowardsPlayerHostiles(evt) return end
+function SensorDevice:OnHostileUpdateTowardsPlayerHostiles(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function SensorDevice:OnKillTaggedTarget(value) return end
+function SensorDevice:OnKillTaggedTarget(value) end
 
----@protected
 ---@param evt LostTargetDelayFalsePositivesDelay
 ---@return Bool
-function SensorDevice:OnLostTargetDelayFalsePositivesDelay(evt) return end
+function SensorDevice:OnLostTargetDelayFalsePositivesDelay(evt) end
 
----@protected
 ---@param evt NetworkLinkQuickhackEvent
 ---@return Bool
-function SensorDevice:OnNetworkLinkQuickhackEvent(evt) return end
+function SensorDevice:OnNetworkLinkQuickhackEvent(evt) end
 
----@protected
 ---@param evt senseOnDetectedEvent
 ---@return Bool
-function SensorDevice:OnOnDetectedEvent(evt) return end
+function SensorDevice:OnOnDetectedEvent(evt) end
 
----@protected
 ---@param evt senseOnRemoveDetection
 ---@return Bool
-function SensorDevice:OnOnRemoveDetection(evt) return end
+function SensorDevice:OnOnRemoveDetection(evt) end
 
----@protected
 ---@param evt entPostInitializeEvent
 ---@return Bool
-function SensorDevice:OnPostInitialize(evt) return end
+function SensorDevice:OnPostInitialize(evt) end
 
----@protected
 ---@param evt entPreUninitializeEvent
 ---@return Bool
-function SensorDevice:OnPreUninitialize(evt) return end
+function SensorDevice:OnPreUninitialize(evt) end
 
----@protected
 ---@param evt ProgramSetDeviceAttitude
 ---@return Bool
-function SensorDevice:OnProgramSetDeviceAttitude(evt) return end
+function SensorDevice:OnProgramSetDeviceAttitude(evt) end
 
----@protected
 ---@param evt QhackExecuted
 ---@return Bool
-function SensorDevice:OnQhackExecuted(evt) return end
+function SensorDevice:OnQhackExecuted(evt) end
 
----@protected
 ---@param evt QuestForceAttitude
 ---@return Bool
-function SensorDevice:OnQuestForceAttitude(evt) return end
+function SensorDevice:OnQuestForceAttitude(evt) end
 
----@protected
 ---@param evt QuestForceScanEffect
 ---@return Bool
-function SensorDevice:OnQuestForceScanEffect(evt) return end
+function SensorDevice:OnQuestForceScanEffect(evt) end
 
----@protected
 ---@param evt QuestForceScanEffectStop
 ---@return Bool
-function SensorDevice:OnQuestForceScanEffectStop(evt) return end
+function SensorDevice:OnQuestForceScanEffectStop(evt) end
 
----@protected
 ---@param evt QuestSetDetectionToFalse
 ---@return Bool
-function SensorDevice:OnQuestSetDetectionToFalse(evt) return end
+function SensorDevice:OnQuestSetDetectionToFalse(evt) end
 
----@protected
 ---@param evt QuestSetDetectionToTrue
 ---@return Bool
-function SensorDevice:OnQuestSetDetectionToTrue(evt) return end
+function SensorDevice:OnQuestSetDetectionToTrue(evt) end
 
----@protected
 ---@param evt ReactoToPreventionSystem
 ---@return Bool
-function SensorDevice:OnReactoToPreventionSystem(evt) return end
+function SensorDevice:OnReactoToPreventionSystem(evt) end
 
----@protected
 ---@param evt ReprimandUpdate
 ---@return Bool
-function SensorDevice:OnReprimandUpdate(evt) return end
+function SensorDevice:OnReprimandUpdate(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SensorDevice:OnRequestComponents(ri) return end
+function SensorDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt ResolveSensorDeviceBehaviour
 ---@return Bool
-function SensorDevice:OnResolveSensorDeviceBehaviour(evt) return end
+function SensorDevice:OnResolveSensorDeviceBehaviour(evt) end
 
----@protected
 ---@param evt RevealStateChangedEvent
 ---@return Bool
-function SensorDevice:OnRevealStateChanged(evt) return end
+function SensorDevice:OnRevealStateChanged(evt) end
 
----@protected
 ---@param evt SecuritySystemEnabled
 ---@return Bool
-function SensorDevice:OnSecuritySystemEnabled(evt) return end
+function SensorDevice:OnSecuritySystemEnabled(evt) end
 
----@protected
 ---@param evt SecuritySystemForceAttitudeChange
 ---@return Bool
-function SensorDevice:OnSecuritySystemForceAttitudeChange(evt) return end
+function SensorDevice:OnSecuritySystemForceAttitudeChange(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return Bool
-function SensorDevice:OnSecuritySystemOutput(evt) return end
+function SensorDevice:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt SecuritySystemSupport
 ---@return Bool
-function SensorDevice:OnSecuritySystemSupport(evt) return end
+function SensorDevice:OnSecuritySystemSupport(evt) end
 
----@protected
 ---@param evt senseVisibilityEvent
 ---@return Bool
-function SensorDevice:OnSenseVisibilityEvent(evt) return end
+function SensorDevice:OnSenseVisibilityEvent(evt) end
 
----@protected
 ---@param evt SetDetectionMultiplier
 ---@return Bool
-function SensorDevice:OnSetDetectionMultiplier(evt) return end
+function SensorDevice:OnSetDetectionMultiplier(evt) end
 
----@protected
 ---@param evt SetDeviceAttitude
 ---@return Bool
-function SensorDevice:OnSetDeviceAttitude(evt) return end
+function SensorDevice:OnSetDeviceAttitude(evt) end
 
----@protected
 ---@param evt SetDeviceTagKillMode
 ---@return Bool
-function SensorDevice:OnSetDeviceTagKillMode(evt) return end
+function SensorDevice:OnSetDeviceTagKillMode(evt) end
 
----@protected
 ---@param evt SetJammedEvent
 ---@return Bool
-function SensorDevice:OnSetJammedEvent(evt) return end
+function SensorDevice:OnSetJammedEvent(evt) end
 
----@protected
 ---@param evt QuestFollowTarget
 ---@return Bool
-function SensorDevice:OnStartFollowingForcedTarget(evt) return end
+function SensorDevice:OnStartFollowingForcedTarget(evt) end
 
----@protected
 ---@param evt QuestLookAtTarget
 ---@return Bool
-function SensorDevice:OnStartQuestLookAtTarget(evt) return end
+function SensorDevice:OnStartQuestLookAtTarget(evt) end
 
----@protected
 ---@param evt QuestStopFollowingTarget
 ---@return Bool
-function SensorDevice:OnStopFollowingForcedTarget(evt) return end
+function SensorDevice:OnStopFollowingForcedTarget(evt) end
 
----@protected
 ---@param evt QuestStopLookAtTarget
 ---@return Bool
-function SensorDevice:OnStopQuestStopLookAtTarget(evt) return end
+function SensorDevice:OnStopQuestStopLookAtTarget(evt) end
 
----@protected
 ---@param evt TCSInputXYAxisEvent
 ---@return Bool
-function SensorDevice:OnTCSInputXYAxisEvent(evt) return end
+function SensorDevice:OnTCSInputXYAxisEvent(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlActivate
 ---@return Bool
-function SensorDevice:OnTCSTakeOverControlActivate(evt) return end
+function SensorDevice:OnTCSTakeOverControlActivate(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlDeactivate
 ---@return Bool
-function SensorDevice:OnTCSTakeOverControlDeactivate(evt) return end
+function SensorDevice:OnTCSTakeOverControlDeactivate(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SensorDevice:OnTakeControl(ri) return end
+function SensorDevice:OnTakeControl(ri) end
 
----@protected
 ---@param evt TargetAssessmentRequest
 ---@return Bool
-function SensorDevice:OnTargetAssessmentRequest(evt) return end
+function SensorDevice:OnTargetAssessmentRequest(evt) end
 
----@protected
 ---@param evt TargetLockedEvent
 ---@return Bool
-function SensorDevice:OnTargetLocked(evt) return end
+function SensorDevice:OnTargetLocked(evt) end
 
----@protected
 ---@param evt TurnOnVisibilitySenseComponent
 ---@return Bool
-function SensorDevice:OnTurnOnVisibilitySenseComponent(evt) return end
+function SensorDevice:OnTurnOnVisibilitySenseComponent(evt) end
 
----@protected
 ---@param evt UnregisterListenerOnTargetHPEvent
 ---@return Bool
-function SensorDevice:OnUnregisterListenerOnTargetHPEvent(evt) return end
+function SensorDevice:OnUnregisterListenerOnTargetHPEvent(evt) end
 
----@private
 ---@param object gameObject
 ---@param funcName CName|string
 ---@return nil
-function SensorDevice:AddTaggedListener(object, funcName) return end
+function SensorDevice:AddTaggedListener(object, funcName) end
 
 ---@param obj gameObject
 ---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
-function SensorDevice:ApplyAnimFeatureToReplicate(obj, inputName, value) return end
+function SensorDevice:ApplyAnimFeatureToReplicate(obj, inputName, value) end
 
----@private
 ---@param howManyTimes Int32
 ---@return nil
-function SensorDevice:BlinkSecurityLight(howManyTimes) return end
+function SensorDevice:BlinkSecurityLight(howManyTimes) end
 
----@private
 ---@return nil
-function SensorDevice:BreakBehaviourResolve() return end
+function SensorDevice:BreakBehaviourResolve() end
 
----@private
 ---@param wasSucesfull? Bool
 ---@return nil
-function SensorDevice:BreakReprimand(wasSucesfull) return end
+function SensorDevice:BreakReprimand(wasSucesfull) end
 
----@private
 ---@return nil
-function SensorDevice:BreakTargeting() return end
+function SensorDevice:BreakTargeting() end
 
----@private
 ---@return nil
-function SensorDevice:CacheInitialAttitude() return end
+function SensorDevice:CacheInitialAttitude() end
 
----@private
 ---@param newState ESensorDeviceStates
 ---@return ESensorDeviceStates
-function SensorDevice:CanResolveStateChange(newState) return end
+function SensorDevice:CanResolveStateChange(newState) end
 
----@private
 ---@return nil
-function SensorDevice:CancelLosetargetFalsePositiveDelay() return end
+function SensorDevice:CancelLosetargetFalsePositiveDelay() end
 
----@private
 ---@return nil
-function SensorDevice:CancelPLAYERSAFEDelayEvent() return end
+function SensorDevice:CancelPLAYERSAFEDelayEvent() end
 
----@private
 ---@param currentList gameObject[]
 ---@return nil
-function SensorDevice:ChangeAttiudetowardsTag(currentList) return end
+function SensorDevice:ChangeAttiudetowardsTag(currentList) end
 
----@protected
 ---@return nil
-function SensorDevice:ChangeTemporaryAttitude() return end
+function SensorDevice:ChangeTemporaryAttitude() end
 
----@private
 ---@param object gameObject
 ---@return Bool
-function SensorDevice:CheckIfTargetIsTaggedByPlayer(object) return end
+function SensorDevice:CheckIfTargetIsTaggedByPlayer(object) end
 
----@private
 ---@return nil
-function SensorDevice:ClearAllHPListeners() return end
+function SensorDevice:ClearAllHPListeners() end
 
----@private
 ---@return nil
-function SensorDevice:ClearInitialAttitude() return end
+function SensorDevice:ClearInitialAttitude() end
 
----@protected
 ---@return nil
-function SensorDevice:CreateLightSettings() return end
+function SensorDevice:CreateLightSettings() end
 
----@private
 ---@param position? Vector4
 ---@param otherTarget? gameObject
 ---@return nil
-function SensorDevice:CreateLookAt(position, otherTarget) return end
+function SensorDevice:CreateLookAt(position, otherTarget) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function SensorDevice:DamagePipelineFinalized(evt) return end
+function SensorDevice:DamagePipelineFinalized(evt) end
 
----@protected
 ---@return nil
-function SensorDevice:DestroySensor() return end
+function SensorDevice:DestroySensor() end
 
----@protected
 ---@return nil
-function SensorDevice:DetermineLightAttitudeRefs() return end
+function SensorDevice:DetermineLightAttitudeRefs() end
 
----@protected
 ---@param desiredColor ScriptLightSettings
 ---@return nil
-function SensorDevice:DetermineLightInfoRefs(desiredColor) return end
+function SensorDevice:DetermineLightInfoRefs(desiredColor) end
 
----@protected
 ---@param desiredColor ScriptLightSettings
 ---@return nil
-function SensorDevice:DetermineLightScanRefs(desiredColor) return end
+function SensorDevice:DetermineLightScanRefs(desiredColor) end
 
----@private
 ---@return nil
-function SensorDevice:ForceCancelAllForcedBehaviours() return end
+function SensorDevice:ForceCancelAllForcedBehaviours() end
 
----@private
 ---@return nil
-function SensorDevice:ForceLookAtQuestTarget() return end
+function SensorDevice:ForceLookAtQuestTarget() end
 
----@private
 ---@param newState ESensorDeviceStates
 ---@return nil
-function SensorDevice:ForceStartBehaviorResolve(newState) return end
+function SensorDevice:ForceStartBehaviorResolve(newState) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function SensorDevice:ForcedLookAtEntityWithoutTargetMODE(target) return end
+function SensorDevice:ForcedLookAtEntityWithoutTargetMODE(target) end
 
 ---@return AnimFeature_SensorDevice
-function SensorDevice:GetAnimFeatureInCurrentState() return end
+function SensorDevice:GetAnimFeatureInCurrentState() end
 
 ---@return gameAttitudeAgent
-function SensorDevice:GetAttitudeAgent() return end
+function SensorDevice:GetAttitudeAgent() end
 
----@private
 ---@return Float
-function SensorDevice:GetBehaviourTimeToTakeAction() return end
+function SensorDevice:GetBehaviourTimeToTakeAction() end
 
----@private
 ---@return SensorDeviceController
-function SensorDevice:GetController() return end
+function SensorDevice:GetController() end
 
 ---@return EFocusOutlineType
-function SensorDevice:GetCurrentOutline() return end
+function SensorDevice:GetCurrentOutline() end
 
 ---@return Target[]
-function SensorDevice:GetCurrentTargets() return end
+function SensorDevice:GetCurrentTargets() end
 
 ---@return gameObject
-function SensorDevice:GetCurrentlyFollowedTarget() return end
+function SensorDevice:GetCurrentlyFollowedTarget() end
 
 ---@return FocusForcedHighlightData
-function SensorDevice:GetDefaultHighlight() return end
+function SensorDevice:GetDefaultHighlight() end
 
----@private
 ---@return Float
-function SensorDevice:GetDetectionFactor() return end
+function SensorDevice:GetDetectionFactor() end
 
 ---@return gamedataDeviceFX_Record
-function SensorDevice:GetDeviceFXRecord() return end
+function SensorDevice:GetDeviceFXRecord() end
 
 ---@return SensorDeviceControllerPS
-function SensorDevice:GetDevicePS() return end
+function SensorDevice:GetDevicePS() end
 
----@private
 ---@return gameObject
-function SensorDevice:GetForcedTargetObject() return end
+function SensorDevice:GetForcedTargetObject() end
 
----@protected
 ---@param hitSourceEntityID entEntityID
 ---@return Vector4
-function SensorDevice:GetHitSourcePosition(hitSourceEntityID) return end
+function SensorDevice:GetHitSourcePosition(hitSourceEntityID) end
 
----@private
 ---@param hitSourceEntityID entEntityID
 ---@return Vector4
-function SensorDevice:GetPotentialHitSourcePosition(hitSourceEntityID) return end
+function SensorDevice:GetPotentialHitSourcePosition(hitSourceEntityID) end
 
 ---@return CameraRotationData
-function SensorDevice:GetRotationData() return end
+function SensorDevice:GetRotationData() end
 
 ---@return EulerAngles
-function SensorDevice:GetRotationFromSlotRotation() return end
+function SensorDevice:GetRotationFromSlotRotation() end
 
----@private
 ---@return Float
-function SensorDevice:GetSenseRange() return end
+function SensorDevice:GetSenseRange() end
 
 ---@return senseComponent
-function SensorDevice:GetSensesComponent() return end
+function SensorDevice:GetSensesComponent() end
 
 ---@return ESensorDeviceStates
-function SensorDevice:GetSensorDeviceState() return end
+function SensorDevice:GetSensorDeviceState() end
 
 ---@return AITargetTrackerComponent
-function SensorDevice:GetTargetTrackerComponent() return end
+function SensorDevice:GetTargetTrackerComponent() end
 
 ---@return Target[]
-function SensorDevice:GetTargets() return end
+function SensorDevice:GetTargets() end
 
 ---@return senseVisibleObjectComponent
-function SensorDevice:GetVisibleObjectComponent() return end
+function SensorDevice:GetVisibleObjectComponent() end
 
----@protected
 ---@return nil
-function SensorDevice:HandleSecuritySystemOutput() return end
+function SensorDevice:HandleSecuritySystemOutput() end
 
----@protected
 ---@return nil
-function SensorDevice:HandleSecuritySystemOutputByTask() return end
+function SensorDevice:HandleSecuritySystemOutputByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function SensorDevice:HandleSecuritySystemOutputTask(data) return end
-
----@protected
----@return Bool
-function SensorDevice:HasEntityPlayerAttitudeGroup() return end
+function SensorDevice:HandleSecuritySystemOutputTask(data) end
 
 ---@return Bool
-function SensorDevice:HasSupport() return end
+function SensorDevice:HasEntityPlayerAttitudeGroup() end
 
----@protected
+---@return Bool
+function SensorDevice:HasSupport() end
+
 ---@return nil
-function SensorDevice:InitializeDeviceFXRecord() return end
+function SensorDevice:InitializeDeviceFXRecord() end
 
----@protected
 ---@return nil
-function SensorDevice:InitializeLights() return end
+function SensorDevice:InitializeLights() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function SensorDevice:InitializeLightsTask(data) return end
+function SensorDevice:InitializeLightsTask(data) end
 
----@private
 ---@param lostTarget gameObject
 ---@return Bool
-function SensorDevice:IsCurrentTargetOutOfSenseRange(lostTarget) return end
+function SensorDevice:IsCurrentTargetOutOfSenseRange(lostTarget) end
 
 ---@return Bool
-function SensorDevice:IsExplosive() return end
+function SensorDevice:IsExplosive() end
 
 ---@return Bool
-function SensorDevice:IsGameplayRelevant() return end
+function SensorDevice:IsGameplayRelevant() end
 
 ---@return Bool
-function SensorDevice:IsPlayerSafeTargetLock() return end
+function SensorDevice:IsPlayerSafeTargetLock() end
 
 ---@return Bool
-function SensorDevice:IsPrevention() return end
+function SensorDevice:IsPrevention() end
 
 ---@return Bool
-function SensorDevice:IsSensor() return end
+function SensorDevice:IsSensor() end
 
 ---@return Bool
-function SensorDevice:IsSurveillanceCamera() return end
+function SensorDevice:IsSurveillanceCamera() end
 
 ---@return Bool
-function SensorDevice:IsTargetForcedFromTagKill() return end
+function SensorDevice:IsTargetForcedFromTagKill() end
 
 ---@return Bool
-function SensorDevice:IsTemporaryAttitudeChanged() return end
+function SensorDevice:IsTemporaryAttitudeChanged() end
 
----@private
 ---@param keep Bool
 ---@return nil
-function SensorDevice:KeepHostilityTowardsPlayerHostiles(keep) return end
+function SensorDevice:KeepHostilityTowardsPlayerHostiles(keep) end
 
----@private
 ---@return nil
-function SensorDevice:LookAtStop() return end
+function SensorDevice:LookAtStop() end
 
 ---@param lostObject gameObject
 ---@param forceRemoveTarget? Bool
 ---@return nil
-function SensorDevice:LoseTarget(lostObject, forceRemoveTarget) return end
+function SensorDevice:LoseTarget(lostObject, forceRemoveTarget) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function SensorDevice:LoseTargetFalsePositiveDelay(target) return end
+function SensorDevice:LoseTargetFalsePositiveDelay(target) end
 
----@private
 ---@return nil
-function SensorDevice:ModeIdleNoTarget() return end
+function SensorDevice:ModeIdleNoTarget() end
 
----@private
 ---@return nil
-function SensorDevice:ModeLookAtCurrentTarget() return end
+function SensorDevice:ModeLookAtCurrentTarget() end
 
----@private
 ---@param speedMultipler? Float
 ---@return nil
-function SensorDevice:ModeSearch(speedMultipler) return end
+function SensorDevice:ModeSearch(speedMultipler) end
 
----@private
 ---@param targetPosition Vector4
 ---@return nil
-function SensorDevice:ModeStopMovementAtTargetPos(targetPosition) return end
+function SensorDevice:ModeStopMovementAtTargetPos(targetPosition) end
 
 ---@return nil
-function SensorDevice:OnAllValidTargetsDisappears() return end
+function SensorDevice:OnAllValidTargetsDisappears() end
 
 ---@param target gameObject
 ---@return nil
-function SensorDevice:OnCurrentTargetAppears(target) return end
+function SensorDevice:OnCurrentTargetAppears(target) end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function SensorDevice:OnMaraudersMapDeviceDebug(sink) return end
+function SensorDevice:OnMaraudersMapDeviceDebug(sink) end
 
 ---@param target gameObject
 ---@return nil
-function SensorDevice:OnValidTargetAppears(target) return end
+function SensorDevice:OnValidTargetAppears(target) end
 
 ---@param target gameObject
 ---@return nil
-function SensorDevice:OnValidTargetDisappears(target) return end
+function SensorDevice:OnValidTargetDisappears(target) end
 
----@private
 ---@param targetPos Vector4
 ---@param forcedLook? Bool
 ---@return nil
-function SensorDevice:OneShotLookAtPosition(targetPos, forcedLook) return end
+function SensorDevice:OneShotLookAtPosition(targetPos, forcedLook) end
 
----@protected
 ---@return nil, entLookAtAddEvent lookAtEntityEvent
-function SensorDevice:OverrideLookAtSetupHor() return end
+function SensorDevice:OverrideLookAtSetupHor() end
 
----@protected
 ---@return nil, entLookAtAddEvent lookAtEntityEvent
-function SensorDevice:OverrideLookAtSetupVert() return end
+function SensorDevice:OverrideLookAtSetupVert() end
 
----@private
 ---@param newObject gameObject
 ---@param questForcedIntresting? Bool
 ---@return nil
-function SensorDevice:RecognizeTarget(newObject, questForcedIntresting) return end
+function SensorDevice:RecognizeTarget(newObject, questForcedIntresting) end
 
 ---@return nil
-function SensorDevice:ReevaluateTargets() return end
+function SensorDevice:ReevaluateTargets() end
 
----@private
 ---@param target gameObject
 ---@return nil
-function SensorDevice:RegisterListenerOnTargetHP(target) return end
+function SensorDevice:RegisterListenerOnTargetHP(target) end
 
 ---@return nil
-function SensorDevice:RemoveAllTargets() return end
+function SensorDevice:RemoveAllTargets() end
 
 ---@return nil
-function SensorDevice:RemoveLink() return end
+function SensorDevice:RemoveLink() end
 
 ---@return Bool
-function SensorDevice:RemoveLinkedStatusEffects() return end
+function SensorDevice:RemoveLinkedStatusEffects() end
 
 ---@param sourceID entEntityID
 ---@return Bool
-function SensorDevice:RemoveLinkedStatusEffectsFromTarget(sourceID) return end
+function SensorDevice:RemoveLinkedStatusEffectsFromTarget(sourceID) end
 
 ---@return nil
-function SensorDevice:ResetRotation() return end
+function SensorDevice:ResetRotation() end
 
----@protected
 ---@return nil
-function SensorDevice:ResolveConnectionWithSecuritySystem() return end
+function SensorDevice:ResolveConnectionWithSecuritySystem() end
 
----@protected
 ---@return nil
-function SensorDevice:ResolveConnectionWithSecuritySystemByTask() return end
+function SensorDevice:ResolveConnectionWithSecuritySystemByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function SensorDevice:ResolveConnectionWithSecuritySystemTask(data) return end
+function SensorDevice:ResolveConnectionWithSecuritySystemTask(data) end
 
----@protected
 ---@return nil
-function SensorDevice:ResolveGameplayState() return end
+function SensorDevice:ResolveGameplayState() end
 
----@private
 ---@return nil
-function SensorDevice:ResolveLogicIDLE() return end
+function SensorDevice:ResolveLogicIDLE() end
 
----@private
 ---@return nil
-function SensorDevice:ResolveLogicJAMMER() return end
+function SensorDevice:ResolveLogicJAMMER() end
 
----@private
 ---@param iterator Int32
 ---@return nil
-function SensorDevice:ResolveLogicLOSETARGET(iterator) return end
+function SensorDevice:ResolveLogicLOSETARGET(iterator) end
 
----@private
 ---@return nil
-function SensorDevice:ResolveLogicREPRIMEND() return end
+function SensorDevice:ResolveLogicREPRIMEND() end
 
----@private
 ---@return nil
-function SensorDevice:ResolveLogicTARGETLOCK() return end
+function SensorDevice:ResolveLogicTARGETLOCK() end
 
----@private
 ---@param iterator Int32
 ---@return nil
-function SensorDevice:ResolveLogicTARGETRECEIVED(iterator) return end
+function SensorDevice:ResolveLogicTARGETRECEIVED(iterator) end
 
----@private
 ---@return nil
-function SensorDevice:RevertTemporaryAttitude() return end
+function SensorDevice:RevertTemporaryAttitude() end
 
----@protected
 ---@param effectRef gameEffectRef
 ---@param slotName CName|string
 ---@param range Float
 ---@return nil, gameEffectInstance effectInstance
-function SensorDevice:RunGameEffect(effectRef, slotName, range) return end
-
----@private
----@return nil
-function SensorDevice:RunVisionConeGameEffect() return end
+function SensorDevice:RunGameEffect(effectRef, slotName, range) end
 
 ---@return nil
-function SensorDevice:ScheduleHostileUpdateTowardsPlayerHostiles() return end
+function SensorDevice:RunVisionConeGameEffect() end
 
----@private
+---@return nil
+function SensorDevice:ScheduleHostileUpdateTowardsPlayerHostiles() end
+
 ---@param target gameObject
 ---@param securityIntresting Bool
 ---@return nil
-function SensorDevice:SendDefaultSSNotification(target, securityIntresting) return end
+function SensorDevice:SendDefaultSSNotification(target, securityIntresting) end
 
----@protected
 ---@return nil
-function SensorDevice:SendDisableAreaIndicatorEvent() return end
+function SensorDevice:SendDisableAreaIndicatorEvent() end
 
----@protected
 ---@return nil
-function SensorDevice:SendReprimandInstructionToSecuritySystem() return end
+function SensorDevice:SendReprimandInstructionToSecuritySystem() end
 
----@protected
 ---@param target gameObject
 ---@return nil
-function SensorDevice:SenseLoseTarget(target) return end
+function SensorDevice:SenseLoseTarget(target) end
 
 ---@param target gameObject
 ---@return Bool
-function SensorDevice:SetAsIntrestingTarget(target) return end
+function SensorDevice:SetAsIntrestingTarget(target) end
 
 ---@param multiplier Float
 ---@return nil
-function SensorDevice:SetDetectionMultiplier(multiplier) return end
+function SensorDevice:SetDetectionMultiplier(multiplier) end
 
----@private
 ---@param evt SetDeviceAttitude
 ---@return nil
-function SensorDevice:SetDeviceFriendly(evt) return end
+function SensorDevice:SetDeviceFriendly(evt) end
 
----@private
 ---@param evt SetDeviceAttitude
 ---@return nil
-function SensorDevice:SetDeviceNeutral(evt) return end
+function SensorDevice:SetDeviceNeutral(evt) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function SensorDevice:SetHasSupport(value) return end
+function SensorDevice:SetHasSupport(value) end
 
----@protected
 ---@param useTargetingSystem? Bool
 ---@return nil
-function SensorDevice:SetHostileTowardsPlayerHostiles(useTargetingSystem) return end
+function SensorDevice:SetHostileTowardsPlayerHostiles(useTargetingSystem) end
 
----@protected
 ---@param evt entLookAtAddEvent
 ---@param otherTarget? gameObject
 ---@return nil
-function SensorDevice:SetLookAtPositionProviderOnFollowedTarget(evt, otherTarget) return end
+function SensorDevice:SetLookAtPositionProviderOnFollowedTarget(evt, otherTarget) end
 
----@private
 ---@param isVisible Bool
 ---@return nil
-function SensorDevice:SetQuestVisibility(isVisible) return end
+function SensorDevice:SetQuestVisibility(isVisible) end
 
 ---@param type gamedataSenseObjectType
 ---@return nil
-function SensorDevice:SetSenseObjectType(type) return end
+function SensorDevice:SetSenseObjectType(type) end
 
----@private
 ---@return nil
-function SensorDevice:SetSensePresetBasedOnSSState() return end
+function SensorDevice:SetSensePresetBasedOnSSState() end
 
----@private
 ---@param recordID TweakDBID|string
 ---@param position? Vector4
 ---@param otherTarget? gameObject
 ---@return entLookAtAddEvent
-function SensorDevice:SetupLookAtProperties(recordID, position, otherTarget) return end
+function SensorDevice:SetupLookAtProperties(recordID, position, otherTarget) end
 
----@private
 ---@param newState ESensorDeviceStates
 ---@return nil
-function SensorDevice:StartBehaviourResolve(newState) return end
+function SensorDevice:StartBehaviourResolve(newState) end
 
----@protected
 ---@param lockingTime Float
 ---@return nil
-function SensorDevice:StartLockingTarget(lockingTime) return end
-
----@private
----@return nil
-function SensorDevice:StartReprimand() return end
+function SensorDevice:StartLockingTarget(lockingTime) end
 
 ---@return nil
-function SensorDevice:SyncRotationWithAnimGraph() return end
+function SensorDevice:StartReprimand() end
 
----@protected
+---@return nil
+function SensorDevice:SyncRotationWithAnimGraph() end
+
 ---@param isVisible Bool
 ---@return nil
-function SensorDevice:TCSMeshToggle(isVisible) return end
+function SensorDevice:TCSMeshToggle(isVisible) end
 
----@protected
 ---@return nil, gameEffectInstance effectInstance
-function SensorDevice:TerminateGameEffect() return end
+function SensorDevice:TerminateGameEffect() end
 
----@protected
 ---@param active Bool
 ---@return nil
-function SensorDevice:ToggleActiveEffect(active) return end
+function SensorDevice:ToggleActiveEffect(active) end
 
----@protected
 ---@param turnOn Bool
 ---@return nil
-function SensorDevice:ToggleAreaIndicator(turnOn) return end
+function SensorDevice:ToggleAreaIndicator(turnOn) end
 
----@protected
 ---@return nil
-function SensorDevice:TurnOffDevice() return end
+function SensorDevice:TurnOffDevice() end
 
----@private
 ---@return nil
-function SensorDevice:TurnOffSenseComponent() return end
+function SensorDevice:TurnOffSenseComponent() end
 
----@protected
 ---@return nil
-function SensorDevice:TurnOnDevice() return end
+function SensorDevice:TurnOnDevice() end
 
----@protected
 ---@param listeningObject gameObject
 ---@param lostObject gameObject
 ---@return nil
-function SensorDevice:UnregisterListenerOnTargetHP(listeningObject, lostObject) return end
+function SensorDevice:UnregisterListenerOnTargetHP(listeningObject, lostObject) end
 
 ---@param listeningObject gameObject
 ---@param listener TargetedObjectDeathListener
 ---@return nil
-function SensorDevice:UnregisterListenerOnTargetHP(listeningObject, listener) return end
+function SensorDevice:UnregisterListenerOnTargetHP(listeningObject, listener) end
 
----@private
 ---@return nil
-function SensorDevice:UpdateAnimFeatureWakeState() return end
+function SensorDevice:UpdateAnimFeatureWakeState() end

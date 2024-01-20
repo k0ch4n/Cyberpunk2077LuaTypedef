@@ -1,36 +1,35 @@
 ---@meta
 
 ---@class SubtitleLineLogicController: BaseSubtitleLineLogicController
----@field private speakerNameWidget inkTextWidgetReference
----@field private subtitleWidget inkTextWidgetReference
----@field private radioSpeaker inkTextWidgetReference
----@field private radioSubtitle inkTextWidgetReference
----@field private background inkWidgetReference
----@field private backgroundSpeaker inkWidgetReference
----@field private kiroshiAnimationContainer inkWidgetReference
----@field private motherTongueContainter inkWidgetReference
----@field private targetTextWidgetRef inkTextWidgetReference
----@field private lineData scnDialogLineData
----@field private spekerNameParams textTextParameterSet
+---@field speakerNameWidget inkTextWidgetReference
+---@field subtitleWidget inkTextWidgetReference
+---@field radioSpeaker inkTextWidgetReference
+---@field radioSubtitle inkTextWidgetReference
+---@field background inkWidgetReference
+---@field backgroundSpeaker inkWidgetReference
+---@field kiroshiAnimationContainer inkWidgetReference
+---@field motherTongueContainter inkWidgetReference
+---@field targetTextWidgetRef inkTextWidgetReference
+---@field lineData scnDialogLineData
+---@field spekerNameParams textTextParameterSet
 SubtitleLineLogicController = {}
 
 ---@param fields? SubtitleLineLogicController
 ---@return SubtitleLineLogicController
-function SubtitleLineLogicController.new(fields) return end
+function SubtitleLineLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function SubtitleLineLogicController:OnInitialize() return end
+function SubtitleLineLogicController:OnInitialize() end
 
 ---@param lineData scnDialogLineData
 ---@return nil
-function SubtitleLineLogicController:SetLineData(lineData) return end
+function SubtitleLineLogicController:SetLineData(lineData) end
 
 ---@param textSize Int32
 ---@param backgroundOpacity Float
 ---@return nil
-function SubtitleLineLogicController:SetupSettings(textSize, backgroundOpacity) return end
+function SubtitleLineLogicController:SetupSettings(textSize, backgroundOpacity) end
 
 ---@param value Bool
 ---@return nil
-function SubtitleLineLogicController:ShowBackground(value) return end
+function SubtitleLineLogicController:ShowBackground(value) end

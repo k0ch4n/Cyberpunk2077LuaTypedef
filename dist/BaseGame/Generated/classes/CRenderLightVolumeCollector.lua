@@ -5,4 +5,4 @@ CRenderLightVolumeCollector = {}
 
 ---@param fields? CRenderLightVolumeCollector
 ---@return CRenderLightVolumeCollector
-function CRenderLightVolumeCollector.new(fields) return end
+function CRenderLightVolumeCollector.new(fields) end

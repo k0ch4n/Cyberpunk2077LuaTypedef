@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnCheckDistractedReturnConditionParams
----@field public distracted Bool
----@field public target scnDistractedConditionTarget
+---@field distracted Bool
+---@field target scnDistractedConditionTarget
 scnCheckDistractedReturnConditionParams = {}
 
 ---@param fields? scnCheckDistractedReturnConditionParams
 ---@return scnCheckDistractedReturnConditionParams
-function scnCheckDistractedReturnConditionParams.new(fields) return end
+function scnCheckDistractedReturnConditionParams.new(fields) end

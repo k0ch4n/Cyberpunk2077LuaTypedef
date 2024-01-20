@@ -5,7 +5,7 @@ AICoverHelper = {}
 
 ---@param fields? AICoverHelper
 ---@return AICoverHelper
-function AICoverHelper.new(fields) return end
+function AICoverHelper.new(fields) end
 
 ---@param puppet ScriptedPuppet
 ---@param target gameObject
@@ -15,43 +15,43 @@ function AICoverHelper.new(fields) return end
 ---@param trackedLocation AITrackedLocation
 ---@param exposureMethods AICoverExposureMethod[]
 ---@return AICoverExposureMethod
-function AICoverHelper.CalculateCoverExposureMethod(puppet, target, coverID, record, lineOfSightTolerance, trackedLocation, exposureMethods) return end
+function AICoverHelper.CalculateCoverExposureMethod(puppet, target, coverID, record, lineOfSightTolerance, trackedLocation, exposureMethods) end
 
 ---@param actionName CName|string
 ---@return EAICoverAction
-function AICoverHelper.CoverActionNameToEnum(actionName) return end
+function AICoverHelper.CoverActionNameToEnum(actionName) end
 
 ---@param exposureMethodName CName|string
 ---@return AICoverExposureMethod
-function AICoverHelper.CoverExposureMethodNameToEnum(exposureMethodName) return end
+function AICoverHelper.CoverExposureMethodNameToEnum(exposureMethodName) end
 
 ---@param coverHeight CName|string
 ---@return gameCoverHeight
-function AICoverHelper.CoverHeightNameToEnum(coverHeight) return end
+function AICoverHelper.CoverHeightNameToEnum(coverHeight) end
 
 ---@return AICoverExposureMethod[]
-function AICoverHelper.FillEmptyCoverExposureMethodArray() return end
+function AICoverHelper.FillEmptyCoverExposureMethodArray() end
 
 ---@return CName[]
-function AICoverHelper.FillEmptyCoverExposureMethodNameArray() return end
+function AICoverHelper.FillEmptyCoverExposureMethodNameArray() end
 
 ---@param puppet ScriptedPuppet
 ---@param targetPosition Vector4
 ---@param coverID Uint64
 ---@return Float
-function AICoverHelper.GetAbsAngleFromCoverToCombatTarget(puppet, targetPosition, coverID) return end
+function AICoverHelper.GetAbsAngleFromCoverToCombatTarget(puppet, targetPosition, coverID) end
 
 ---@param puppet ScriptedPuppet
 ---@param movementTargetPos Vector4
 ---@param coverID Uint64
 ---@return Float
-function AICoverHelper.GetAbsAngleFromCoverToMovementTarget(puppet, movementTargetPos, coverID) return end
+function AICoverHelper.GetAbsAngleFromCoverToMovementTarget(puppet, movementTargetPos, coverID) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
 ---@param targetPosition Vector4
 ---@return Float
-function AICoverHelper.GetAbsAngleFromCoverToTargetPosition(puppet, coverID, targetPosition) return end
+function AICoverHelper.GetAbsAngleFromCoverToTargetPosition(puppet, coverID, targetPosition) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
@@ -60,7 +60,7 @@ function AICoverHelper.GetAbsAngleFromCoverToTargetPosition(puppet, coverID, tar
 ---@param lineOfSightTolerance Float
 ---@param exposureMethodPriority? gamedataAIExposureMethodType_Record[]
 ---@return AICoverExposureMethod[]
-function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, requestedExposureMethods, lineOfSightTolerance, exposureMethodPriority) return end
+function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, requestedExposureMethods, lineOfSightTolerance, exposureMethodPriority) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
@@ -69,7 +69,7 @@ function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, reques
 ---@param lineOfSightTolerance Float
 ---@param exposureMethodPriority? gamedataAIExposureMethodType_Record[]
 ---@return AICoverExposureMethod[]
-function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, record, lineOfSightTolerance, exposureMethodPriority) return end
+function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, record, lineOfSightTolerance, exposureMethodPriority) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
@@ -79,185 +79,185 @@ function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, record
 ---@param exposureMethodPriority? gamedataAIExposureMethodType_Record[]
 ---@param allAvailableExposureMethods AICoverExposureMethod[]
 ---@return AICoverExposureMethod[]
-function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, record, lineOfSightTolerance, exposureMethodPriority, allAvailableExposureMethods) return end
+function AICoverHelper.GetAvailableExposureSpots(puppet, coverID, target, record, lineOfSightTolerance, exposureMethodPriority, allAvailableExposureMethods) end
 
 ---@param puppet ScriptedPuppet
 ---@return gameIBlackboard
-function AICoverHelper.GetCoverBlackboard(puppet) return end
+function AICoverHelper.GetCoverBlackboard(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil, AICoverExposureMethod method
-function AICoverHelper.GetCoverExposureMethod(puppet) return end
+function AICoverHelper.GetCoverExposureMethod(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return CName
-function AICoverHelper.GetCoverExposureMethod(puppet) return end
+function AICoverHelper.GetCoverExposureMethod(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
 ---@return gameCoverHeight
-function AICoverHelper.GetCoverHeight(puppet, coverID) return end
+function AICoverHelper.GetCoverHeight(puppet, coverID) end
 
 ---@param puppet ScriptedPuppet
 ---@return AISmartCoverManager
-function AICoverHelper.GetCoverManager(puppet) return end
+function AICoverHelper.GetCoverManager(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function AICoverHelper.GetCoverNPCCurrentlyExposed(puppet) return end
+function AICoverHelper.GetCoverNPCCurrentlyExposed(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
 ---@return Float
-function AICoverHelper.GetCoverRemainingHealthPerc(puppet, coverID) return end
+function AICoverHelper.GetCoverRemainingHealthPerc(puppet, coverID) end
 
 ---@param puppet ScriptedPuppet
 ---@param exposureSpot AICoverExposureMethod
 ---@return gameCoverHeight
-function AICoverHelper.GetCoverStanceFromExposureSpot(puppet, exposureSpot) return end
+function AICoverHelper.GetCoverStanceFromExposureSpot(puppet, exposureSpot) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
 ---@return gameCoverHeight, Bool shootingSpot
-function AICoverHelper.GetCoverType(puppet, coverID) return end
+function AICoverHelper.GetCoverType(puppet, coverID) end
 
 ---@param puppet ScriptedPuppet
 ---@return Uint64
-function AICoverHelper.GetCurrentCover(puppet) return end
+function AICoverHelper.GetCurrentCover(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return Uint64
-function AICoverHelper.GetCurrentCoverId(puppet) return end
+function AICoverHelper.GetCurrentCoverId(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return CName
-function AICoverHelper.GetCurrentCoverStance(puppet) return end
+function AICoverHelper.GetCurrentCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil, gameCoverHeight coverStance
-function AICoverHelper.GetCurrentCoverStance(puppet) return end
+function AICoverHelper.GetCurrentCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil, gameCoverHeight coverStance
-function AICoverHelper.GetDesiredCoverStance(puppet) return end
+function AICoverHelper.GetDesiredCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return CName
-function AICoverHelper.GetDesiredCoverStance(puppet) return end
+function AICoverHelper.GetDesiredCoverStance(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil, AICoverExposureMethod method
-function AICoverHelper.GetFallbackCoverExposureMethod(puppet) return end
+function AICoverHelper.GetFallbackCoverExposureMethod(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil, AICoverExposureMethod method
-function AICoverHelper.GetRandomCoverLastAvailableExposureMethod(puppet) return end
+function AICoverHelper.GetRandomCoverLastAvailableExposureMethod(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function AICoverHelper.HasAnyCoverLastAvailableExposureMethod(puppet) return end
+function AICoverHelper.HasAnyCoverLastAvailableExposureMethod(puppet) end
 
 ---@param ownerPuppet ScriptedPuppet
 ---@param coverID Uint64
 ---@param target gameObject
 ---@param exposureMethods CName[]|string[]
 ---@return Bool
-function AICoverHelper.HasCoverExposureMethods(ownerPuppet, coverID, target, exposureMethods) return end
+function AICoverHelper.HasCoverExposureMethods(ownerPuppet, coverID, target, exposureMethods) end
 
 ---@param puppetOwner ScriptedPuppet
 ---@param coverID Uint64
 ---@param target gameObject
 ---@param exposureMethods AICoverExposureMethod[]
 ---@return Bool
-function AICoverHelper.HasCoverExposureMethods(puppetOwner, coverID, target, exposureMethods) return end
+function AICoverHelper.HasCoverExposureMethods(puppetOwner, coverID, target, exposureMethods) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function AICoverHelper.IsCurrentlyInCover(puppet) return end
+function AICoverHelper.IsCurrentlyInCover(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function AICoverHelper.IsCurrentlyInShootingSpot(puppet) return end
+function AICoverHelper.IsCurrentlyInShootingSpot(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function AICoverHelper.IsCurrentlyInSmartObject(puppet) return end
+function AICoverHelper.IsCurrentlyInSmartObject(puppet) end
 
 ---@param exposureMethodName CName|string
 ---@return Bool
-function AICoverHelper.IsStandingExposureMethod(exposureMethodName) return end
+function AICoverHelper.IsStandingExposureMethod(exposureMethodName) end
 
 ---@param exposureMethodName CName|string
 ---@return Bool
-function AICoverHelper.IsUnsafeExposureMethod(exposureMethodName) return end
+function AICoverHelper.IsUnsafeExposureMethod(exposureMethodName) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function AICoverHelper.LeaveCoverImmediately(puppet) return end
+function AICoverHelper.LeaveCoverImmediately(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverID Uint64
 ---@param damageTime EngineTime
 ---@param executingCoverAction Bool
 ---@return nil
-function AICoverHelper.NotifyGotDamageInCover(puppet, coverID, damageTime, executingCoverAction) return end
+function AICoverHelper.NotifyGotDamageInCover(puppet, coverID, damageTime, executingCoverAction) end
 
 ---@param puppet ScriptedPuppet
 ---@param coverId Uint64
 ---@return nil
-function AICoverHelper.RegisterNewCover(puppet, coverId) return end
+function AICoverHelper.RegisterNewCover(puppet, coverId) end
 
 ---@param puppet ScriptedPuppet
 ---@param record gamedataAISubActionCover_Record
 ---@param exposureMethods AICoverExposureMethod[]
 ---@return AICoverExposureMethod[]
-function AICoverHelper.ReturnHighestPriorityMethods(puppet, record, exposureMethods) return end
+function AICoverHelper.ReturnHighestPriorityMethods(puppet, record, exposureMethods) end
 
 ---@param puppet ScriptedPuppet
 ---@param value AICoverExposureMethod
 ---@return nil
-function AICoverHelper.SetCoverExposureMethod(puppet, value) return end
+function AICoverHelper.SetCoverExposureMethod(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@param value CName|string
 ---@return nil
-function AICoverHelper.SetCoverExposureMethod(puppet, value) return end
+function AICoverHelper.SetCoverExposureMethod(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@param exposureMethods? AICoverExposureMethod[]
 ---@return nil
-function AICoverHelper.SetCoverLastAvailableExposureMethod(puppet, exposureMethods) return end
+function AICoverHelper.SetCoverLastAvailableExposureMethod(puppet, exposureMethods) end
 
 ---@param puppet ScriptedPuppet
 ---@param value Bool
 ---@return nil
-function AICoverHelper.SetCoverNPCCurrentlyExposed(puppet, value) return end
+function AICoverHelper.SetCoverNPCCurrentlyExposed(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@param value gameCoverHeight
 ---@return nil
-function AICoverHelper.SetCurrentCoverStance(puppet, value) return end
+function AICoverHelper.SetCurrentCoverStance(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@param value CName|string
 ---@return nil
-function AICoverHelper.SetCurrentCoverStance(puppet, value) return end
+function AICoverHelper.SetCurrentCoverStance(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@param value CName|string
 ---@return nil
-function AICoverHelper.SetDesiredCoverStance(puppet, value) return end
+function AICoverHelper.SetDesiredCoverStance(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@param value gameCoverHeight
 ---@return nil
-function AICoverHelper.SetDesiredCoverStance(puppet, value) return end
+function AICoverHelper.SetDesiredCoverStance(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@param value AICoverExposureMethod
 ---@return nil
-function AICoverHelper.SetFallbackCoverExposureMethod(puppet, value) return end
+function AICoverHelper.SetFallbackCoverExposureMethod(puppet, value) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil
-function AICoverHelper.UnregisterLastCover(puppet) return end
+function AICoverHelper.UnregisterLastCover(puppet) end

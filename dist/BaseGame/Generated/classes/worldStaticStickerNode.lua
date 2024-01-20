@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class worldStaticStickerNode: worldNode
----@field public labels String[]
----@field public showBackground Bool
----@field public textColor Color
----@field public backgroundColor Color
----@field public sprites CBitmapTexture[]
----@field public spriteSize Int32
----@field public alignSpritesHorizontally Bool
----@field public scale Float
----@field public visibilityDistance Float
+---@field labels String[]
+---@field showBackground Bool
+---@field textColor Color
+---@field backgroundColor Color
+---@field sprites CBitmapTexture[]
+---@field spriteSize Int32
+---@field alignSpritesHorizontally Bool
+---@field scale Float
+---@field visibilityDistance Float
 worldStaticStickerNode = {}
 
 ---@param fields? worldStaticStickerNode
 ---@return worldStaticStickerNode
-function worldStaticStickerNode.new(fields) return end
+function worldStaticStickerNode.new(fields) end

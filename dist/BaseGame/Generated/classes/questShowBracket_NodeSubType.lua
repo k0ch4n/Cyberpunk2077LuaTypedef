@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class questShowBracket_NodeSubType: questITutorial_NodeSubType
----@field public bracketID CName
----@field public visible Bool
----@field public visibleOnUILayer inkELayerType
----@field public bracketType gameTutorialBracketType
----@field public anchor inkEAnchor
----@field public offset Vector2
----@field public size Vector2
----@field public ignoreDisabledTutorials Bool
+---@field bracketID CName
+---@field visible Bool
+---@field visibleOnUILayer inkELayerType
+---@field bracketType gameTutorialBracketType
+---@field anchor inkEAnchor
+---@field offset Vector2
+---@field size Vector2
+---@field ignoreDisabledTutorials Bool
 questShowBracket_NodeSubType = {}
 
 ---@param fields? questShowBracket_NodeSubType
 ---@return questShowBracket_NodeSubType
-function questShowBracket_NodeSubType.new(fields) return end
+function questShowBracket_NodeSubType.new(fields) end

@@ -1,30 +1,25 @@
 ---@meta
 
 ---@class ChangeStanceStateAbstract: AIbehaviortaskScript
----@field public changeStateOnDeactivate Bool
+---@field changeStateOnDeactivate Bool
 ChangeStanceStateAbstract = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeStanceStateAbstract:Activate(context) return end
+function ChangeStanceStateAbstract:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeStanceStateAbstract:Deactivate(context) return end
+function ChangeStanceStateAbstract:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCStanceState
-function ChangeStanceStateAbstract:GetDesiredStanceState(context) return end
+function ChangeStanceStateAbstract:GetDesiredStanceState(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeStanceStateAbstract:OnActivate(context) return end
+function ChangeStanceStateAbstract:OnActivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeStanceStateAbstract:OnDeactivate(context) return end
+function ChangeStanceStateAbstract:OnDeactivate(context) end

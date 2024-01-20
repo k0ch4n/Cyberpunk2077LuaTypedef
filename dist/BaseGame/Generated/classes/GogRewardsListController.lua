@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class GogRewardsListController: inkWidgetLogicController
----@field private containerWidget inkWidgetReference
----@field private scrollArea inkWidgetReference
----@field private sizeRefWrapper inkWidgetReference
----@field private scrollBarRequiredHeight Int32
----@field private shouldUpdateLayout Bool
+---@field containerWidget inkWidgetReference
+---@field scrollArea inkWidgetReference
+---@field sizeRefWrapper inkWidgetReference
+---@field scrollBarRequiredHeight Int32
+---@field shouldUpdateLayout Bool
 GogRewardsListController = {}
 
 ---@param fields? GogRewardsListController
 ---@return GogRewardsListController
-function GogRewardsListController.new(fields) return end
+function GogRewardsListController.new(fields) end
 
----@protected
 ---@return Bool
-function GogRewardsListController:OnArrangeChildrenComplete() return end
+function GogRewardsListController:OnArrangeChildrenComplete() end
 
----@protected
 ---@param evt DelayedUpdateLayoutEvent
 ---@return Bool
-function GogRewardsListController:OnDelayedUpdateLayoutEvent(evt) return end
+function GogRewardsListController:OnDelayedUpdateLayoutEvent(evt) end
 
----@private
 ---@param groupName CName|string
 ---@return Int32
-function GogRewardsListController:GetGroupIndex(groupName) return end
+function GogRewardsListController:GetGroupIndex(groupName) end
 
 ---@param rewards GogRewardEntryData[]
 ---@return nil
-function GogRewardsListController:UpdateRewardsList(rewards) return end
+function GogRewardsListController:UpdateRewardsList(rewards) end

@@ -5,4 +5,4 @@ enteventsSetCustomCameraTarget = {}
 
 ---@param fields? enteventsSetCustomCameraTarget
 ---@return enteventsSetCustomCameraTarget
-function enteventsSetCustomCameraTarget.new(fields) return end
+function enteventsSetCustomCameraTarget.new(fields) end

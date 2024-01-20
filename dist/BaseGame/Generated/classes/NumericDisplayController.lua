@@ -5,7 +5,7 @@ NumericDisplayController = {}
 
 ---@param fields? NumericDisplayController
 ---@return NumericDisplayController
-function NumericDisplayController.new(fields) return end
+function NumericDisplayController.new(fields) end
 
 ---@return NumericDisplayControllerPS
-function NumericDisplayController:GetPS() return end
+function NumericDisplayController:GetPS() end

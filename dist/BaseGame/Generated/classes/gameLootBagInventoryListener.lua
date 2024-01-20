@@ -5,4 +5,4 @@ gameLootBagInventoryListener = {}
 
 ---@param fields? gameLootBagInventoryListener
 ---@return gameLootBagInventoryListener
-function gameLootBagInventoryListener.new(fields) return end
+function gameLootBagInventoryListener.new(fields) end

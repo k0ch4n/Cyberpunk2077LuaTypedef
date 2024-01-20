@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class SimpleCanUseCover: AIbehaviorconditionScript
----@field private ability gamedataGameplayAbility_Record
----@field private prereqs gameIPrereq[]
----@field private prereqCount Int32
----@field private game ScriptGameInstance
+---@field ability gamedataGameplayAbility_Record
+---@field prereqs gameIPrereq[]
+---@field prereqCount Int32
+---@field game ScriptGameInstance
 SimpleCanUseCover = {}
 
 ---@param fields? SimpleCanUseCover
 ---@return SimpleCanUseCover
-function SimpleCanUseCover.new(fields) return end
+function SimpleCanUseCover.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleCanUseCover:Activate(context) return end
+function SimpleCanUseCover:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function SimpleCanUseCover:Check(context) return end
+function SimpleCanUseCover:Check(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function SimpleCanUseCover:CheckAbility(context) return end
+function SimpleCanUseCover:CheckAbility(context) end

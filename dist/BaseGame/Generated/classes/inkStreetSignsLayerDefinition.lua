@@ -5,4 +5,4 @@ inkStreetSignsLayerDefinition = {}
 
 ---@param fields? inkStreetSignsLayerDefinition
 ---@return inkStreetSignsLayerDefinition
-function inkStreetSignsLayerDefinition.new(fields) return end
+function inkStreetSignsLayerDefinition.new(fields) end

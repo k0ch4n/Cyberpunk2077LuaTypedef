@@ -5,10 +5,9 @@ gameprojectileScriptCollisionEvaluator = {}
 
 ---@param fields? gameprojectileScriptCollisionEvaluator
 ---@return gameprojectileScriptCollisionEvaluator
-function gameprojectileScriptCollisionEvaluator.new(fields) return end
+function gameprojectileScriptCollisionEvaluator.new(fields) end
 
----@protected
 ---@param defaultOnCollisionAction gameprojectileOnCollisionAction
 ---@param params gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileOnCollisionAction
-function gameprojectileScriptCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) return end
+function gameprojectileScriptCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) end

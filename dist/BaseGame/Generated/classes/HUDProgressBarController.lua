@@ -1,188 +1,163 @@
 ---@meta
 
 ---@class HUDProgressBarController: gameuiHUDGameController
----@field private bar inkWidgetReference
----@field private barExtra inkWidgetReference
----@field private header inkTextWidgetReference
----@field private bottomText inkTextWidgetReference
----@field private percent inkTextWidgetReference
----@field private completed inkTextWidgetReference
----@field private failed inkTextWidgetReference
----@field private attencionIcon inkWidgetReference
----@field private neutralIcon inkWidgetReference
----@field private relicIcon inkWidgetReference
----@field private moneyIcon inkWidgetReference
----@field private apartmentIcon inkImageWidgetReference
----@field private vehicleIcon inkImageWidgetReference
----@field private neutralInIcon inkImageWidgetReference
----@field private revealIcon inkWidgetReference
----@field private vahicleHackIcon inkWidgetReference
----@field private wrapper inkWidgetReference
----@field private rootWidget inkWidget
----@field private progressBarBB gameIBlackboard
----@field private progressBarDef UI_HUDProgressBarDef
----@field private activeBBID redCallbackObject
----@field private headerBBID redCallbackObject
----@field private typeBBID redCallbackObject
----@field private bottomTextBBID redCallbackObject
----@field private completedTextBBID redCallbackObject
----@field private failedTextBBID redCallbackObject
----@field private progressBBID redCallbackObject
----@field private progressBumpBBID redCallbackObject
----@field private bb gameIBlackboard
----@field private bbUIInteractionsDef UIInteractionsDef
----@field private bbChoiceHubDataCallbackId redCallbackObject
----@field private OutroAnimation inkanimProxy
----@field private LoopAnimation inkanimProxy
----@field private VLoopAnimation inkanimProxy
----@field private IntroAnimation inkanimProxy
----@field private IntroWasPlayed Bool
----@field private title String
----@field private type gameSimpleMessageType
----@field private valueSaved Float
----@field private bumpValue Float
+---@field bar inkWidgetReference
+---@field barExtra inkWidgetReference
+---@field header inkTextWidgetReference
+---@field bottomText inkTextWidgetReference
+---@field percent inkTextWidgetReference
+---@field completed inkTextWidgetReference
+---@field failed inkTextWidgetReference
+---@field attencionIcon inkWidgetReference
+---@field neutralIcon inkWidgetReference
+---@field relicIcon inkWidgetReference
+---@field moneyIcon inkWidgetReference
+---@field apartmentIcon inkImageWidgetReference
+---@field vehicleIcon inkImageWidgetReference
+---@field neutralInIcon inkImageWidgetReference
+---@field revealIcon inkWidgetReference
+---@field vahicleHackIcon inkWidgetReference
+---@field wrapper inkWidgetReference
+---@field rootWidget inkWidget
+---@field progressBarBB gameIBlackboard
+---@field progressBarDef UI_HUDProgressBarDef
+---@field activeBBID redCallbackObject
+---@field headerBBID redCallbackObject
+---@field typeBBID redCallbackObject
+---@field bottomTextBBID redCallbackObject
+---@field completedTextBBID redCallbackObject
+---@field failedTextBBID redCallbackObject
+---@field progressBBID redCallbackObject
+---@field progressBumpBBID redCallbackObject
+---@field bb gameIBlackboard
+---@field bbUIInteractionsDef UIInteractionsDef
+---@field bbChoiceHubDataCallbackId redCallbackObject
+---@field OutroAnimation inkanimProxy
+---@field LoopAnimation inkanimProxy
+---@field VLoopAnimation inkanimProxy
+---@field IntroAnimation inkanimProxy
+---@field IntroWasPlayed Bool
+---@field title String
+---@field type gameSimpleMessageType
+---@field valueSaved Float
+---@field bumpValue Float
 HUDProgressBarController = {}
 
 ---@param fields? HUDProgressBarController
 ---@return HUDProgressBarController
-function HUDProgressBarController.new(fields) return end
+function HUDProgressBarController.new(fields) end
 
----@protected
 ---@param activated Bool
 ---@return Bool
-function HUDProgressBarController:OnActivated(activated) return end
+function HUDProgressBarController:OnActivated(activated) end
 
----@protected
 ---@param bottomText String
 ---@return Bool
-function HUDProgressBarController:OnBottomTextChanged(bottomText) return end
+function HUDProgressBarController:OnBottomTextChanged(bottomText) end
 
----@protected
 ---@param completedText String
 ---@return Bool
-function HUDProgressBarController:OnCompletedTextChanged(completedText) return end
+function HUDProgressBarController:OnCompletedTextChanged(completedText) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function HUDProgressBarController:OnDialogHubAppeared(value) return end
+function HUDProgressBarController:OnDialogHubAppeared(value) end
 
----@protected
 ---@param failedText String
 ---@return Bool
-function HUDProgressBarController:OnFailedTextChanged(failedText) return end
+function HUDProgressBarController:OnFailedTextChanged(failedText) end
 
----@protected
 ---@param header String
 ---@return Bool
-function HUDProgressBarController:OnHeaderChanged(header) return end
+function HUDProgressBarController:OnHeaderChanged(header) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function HUDProgressBarController:OnHide(proxy) return end
+function HUDProgressBarController:OnHide(proxy) end
 
----@protected
 ---@return Bool
-function HUDProgressBarController:OnInitialize() return end
+function HUDProgressBarController:OnInitialize() end
 
----@protected
 ---@param progress Float
 ---@return Bool
-function HUDProgressBarController:OnProgressBumpChanged(progress) return end
+function HUDProgressBarController:OnProgressBumpChanged(progress) end
 
----@protected
 ---@param progress Float
 ---@return Bool
-function HUDProgressBarController:OnProgressChanged(progress) return end
+function HUDProgressBarController:OnProgressChanged(progress) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function HUDProgressBarController:OnTypeChanged(value) return end
+function HUDProgressBarController:OnTypeChanged(value) end
 
----@protected
 ---@return Bool
-function HUDProgressBarController:OnUnInitialize() return end
-
----@private
----@return nil
-function HUDProgressBarController:DisableIcons() return end
+function HUDProgressBarController:OnUnInitialize() end
 
 ---@return nil
-function HUDProgressBarController:Hide() return end
-
----@private
----@return nil
-function HUDProgressBarController:Intro() return end
+function HUDProgressBarController:DisableIcons() end
 
 ---@return nil
-function HUDProgressBarController:IntroEnded() return end
+function HUDProgressBarController:Hide() end
 
----@private
 ---@return nil
-function HUDProgressBarController:Outro() return end
+function HUDProgressBarController:Intro() end
 
----@private
 ---@return nil
-function HUDProgressBarController:ResetLabels() return end
+function HUDProgressBarController:IntroEnded() end
 
----@private
 ---@return nil
-function HUDProgressBarController:SetupBB() return end
+function HUDProgressBarController:Outro() end
 
----@private
 ---@return nil
-function HUDProgressBarController:UnregisterFromBB() return end
+function HUDProgressBarController:ResetLabels() end
 
----@private
 ---@return nil
-function HUDProgressBarController:UpdateBossType() return end
+function HUDProgressBarController:SetupBB() end
 
----@private
 ---@return nil
-function HUDProgressBarController:UpdateDefaultType() return end
+function HUDProgressBarController:UnregisterFromBB() end
 
----@private
 ---@return nil
-function HUDProgressBarController:UpdateMoneyType() return end
+function HUDProgressBarController:UpdateBossType() end
 
----@private
 ---@return nil
-function HUDProgressBarController:UpdateNeutralType() return end
+function HUDProgressBarController:UpdateDefaultType() end
+
+---@return nil
+function HUDProgressBarController:UpdateMoneyType() end
+
+---@return nil
+function HUDProgressBarController:UpdateNeutralType() end
 
 ---@param active Bool
 ---@return nil
-function HUDProgressBarController:UpdateProgressBarActive(active) return end
+function HUDProgressBarController:UpdateProgressBarActive(active) end
 
----@private
 ---@return nil
-function HUDProgressBarController:UpdateRelicType() return end
+function HUDProgressBarController:UpdateRelicType() end
 
----@private
 ---@return nil
-function HUDProgressBarController:UpdateRevealType() return end
+function HUDProgressBarController:UpdateRevealType() end
 
 ---@param label String
 ---@return nil
-function HUDProgressBarController:UpdateTimerBottomText(label) return end
+function HUDProgressBarController:UpdateTimerBottomText(label) end
 
 ---@param label String
 ---@return nil
-function HUDProgressBarController:UpdateTimerCompletedText(label) return end
+function HUDProgressBarController:UpdateTimerCompletedText(label) end
 
 ---@param label String
 ---@return nil
-function HUDProgressBarController:UpdateTimerFailedText(label) return end
+function HUDProgressBarController:UpdateTimerFailedText(label) end
 
 ---@param label String
 ---@return nil
-function HUDProgressBarController:UpdateTimerHeader(label) return end
+function HUDProgressBarController:UpdateTimerHeader(label) end
 
 ---@param value Float
 ---@return nil
-function HUDProgressBarController:UpdateTimerProgress(value) return end
+function HUDProgressBarController:UpdateTimerProgress(value) end
 
----@private
 ---@return nil
-function HUDProgressBarController:UpdateVehicleType() return end
+function HUDProgressBarController:UpdateVehicleType() end

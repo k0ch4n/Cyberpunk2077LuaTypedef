@@ -1,127 +1,109 @@
 ---@meta
 
 ---@class gameLootBag: gameObject
----@field private lootQuality gamedataQuality
----@field private hasQuestItems Bool
----@field private isInIconForcedVisibilityRange Bool
----@field private isIconic Bool
----@field private isEmpty Bool
----@field private activeQualityRangeInteraction CName
+---@field lootQuality gamedataQuality
+---@field hasQuestItems Bool
+---@field isInIconForcedVisibilityRange Bool
+---@field isIconic Bool
+---@field isEmpty Bool
+---@field activeQualityRangeInteraction CName
 gameLootBag = {}
 
 ---@param fields? gameLootBag
 ---@return gameLootBag
-function gameLootBag.new(fields) return end
+function gameLootBag.new(fields) end
 
----@protected
 ---@param evt gameeventsEvaluateLootQualityEvent
 ---@return Bool
-function gameLootBag:OnEvaluateLootQuality(evt) return end
+function gameLootBag:OnEvaluateLootQuality(evt) end
 
----@protected
 ---@return Bool
-function gameLootBag:OnGameAttached() return end
+function gameLootBag:OnGameAttached() end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function gameLootBag:OnInteraction(choiceEvent) return end
+function gameLootBag:OnInteraction(choiceEvent) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function gameLootBag:OnInteractionActivated(evt) return end
+function gameLootBag:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt gameInventoryChangedEvent
 ---@return Bool
-function gameLootBag:OnInventoryChangedEvent(evt) return end
+function gameLootBag:OnInventoryChangedEvent(evt) end
 
----@protected
 ---@param evt gameOnInventoryEmptyEvent
 ---@return Bool
-function gameLootBag:OnInventoryEmptyEvent(evt) return end
+function gameLootBag:OnInventoryEmptyEvent(evt) end
 
----@protected
 ---@param evt gameItemAddedEvent
 ---@return Bool
-function gameLootBag:OnItemAddedEvent(evt) return end
+function gameLootBag:OnItemAddedEvent(evt) end
 
----@protected
 ---@param evt gameItemBeingRemovedEvent
 ---@return Bool
-function gameLootBag:OnItemRemoveddEvent(evt) return end
+function gameLootBag:OnItemRemoveddEvent(evt) end
 
 ---@return EGameplayRole
-function gameLootBag:DeterminGameplayRole() return end
+function gameLootBag:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function gameLootBag:DeterminGameplayRoleMappinVisuaState(data) return end
+function gameLootBag:DeterminGameplayRoleMappinVisuaState(data) end
 
----@private
 ---@return Bool
-function gameLootBag:EvaluateLootQuality() return end
+function gameLootBag:EvaluateLootQuality() end
 
----@protected
 ---@return nil
-function gameLootBag:EvaluateLootQualityByTask() return end
+function gameLootBag:EvaluateLootQualityByTask() end
 
----@protected
 ---@return nil
-function gameLootBag:EvaluateLootQualityEvent() return end
+function gameLootBag:EvaluateLootQualityEvent() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function gameLootBag:EvaluateLootQualityTask(data) return end
+function gameLootBag:EvaluateLootQualityTask(data) end
 
 ---@return EFocusOutlineType
-function gameLootBag:GetCurrentOutline() return end
+function gameLootBag:GetCurrentOutline() end
 
 ---@return FocusForcedHighlightData
-function gameLootBag:GetDefaultHighlight() return end
+function gameLootBag:GetDefaultHighlight() end
 
 ---@return Bool
-function gameLootBag:GetIsIconic() return end
+function gameLootBag:GetIsIconic() end
 
 ---@return gamedataQuality
-function gameLootBag:GetLootQuality() return end
+function gameLootBag:GetLootQuality() end
 
 ---@return Bool
-function gameLootBag:HasValidLootQuality() return end
+function gameLootBag:HasValidLootQuality() end
 
 ---@return Bool
-function gameLootBag:IsContainer() return end
-
----@private
----@return Bool
-function gameLootBag:IsEmpty() return end
+function gameLootBag:IsContainer() end
 
 ---@return Bool
-function gameLootBag:IsInIconForcedVisibilityRange() return end
+function gameLootBag:IsEmpty() end
 
----@private
+---@return Bool
+function gameLootBag:IsInIconForcedVisibilityRange() end
+
 ---@param layerTag CName|string
 ---@return Bool
-function gameLootBag:IsQualityRangeInteractionLayer(layerTag) return end
+function gameLootBag:IsQualityRangeInteractionLayer(layerTag) end
 
 ---@return Bool
-function gameLootBag:IsQuest() return end
+function gameLootBag:IsQuest() end
 
----@private
 ---@return nil
-function gameLootBag:ResolveInvotoryContent() return end
+function gameLootBag:ResolveInvotoryContent() end
 
----@protected
 ---@return nil
-function gameLootBag:ResolveQualityRangeInteractionLayer() return end
+function gameLootBag:ResolveQualityRangeInteractionLayer() end
 
----@protected
 ---@return Bool
-function gameLootBag:ShouldRegisterToHUD() return end
+function gameLootBag:ShouldRegisterToHUD() end
 
----@private
 ---@param enable Bool
 ---@return nil
-function gameLootBag:ToggleLootHighlight(enable) return end
+function gameLootBag:ToggleLootHighlight(enable) end

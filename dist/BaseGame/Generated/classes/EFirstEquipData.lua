@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class EFirstEquipData
----@field public weaponID TweakDBID
----@field public hasPlayedFirstEquip Bool
+---@field weaponID TweakDBID
+---@field hasPlayedFirstEquip Bool
 EFirstEquipData = {}
 
 ---@param fields? EFirstEquipData
 ---@return EFirstEquipData
-function EFirstEquipData.new(fields) return end
+function EFirstEquipData.new(fields) end

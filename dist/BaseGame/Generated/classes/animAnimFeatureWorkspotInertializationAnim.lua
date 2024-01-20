@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimFeatureWorkspotInertializationAnim: animAnimFeature
----@field public duration Float
+---@field duration Float
 animAnimFeatureWorkspotInertializationAnim = {}
 
 ---@param fields? animAnimFeatureWorkspotInertializationAnim
 ---@return animAnimFeatureWorkspotInertializationAnim
-function animAnimFeatureWorkspotInertializationAnim.new(fields) return end
+function animAnimFeatureWorkspotInertializationAnim.new(fields) end

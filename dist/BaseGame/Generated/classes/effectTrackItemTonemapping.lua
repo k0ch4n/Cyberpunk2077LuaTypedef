@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class effectTrackItemTonemapping: effectTrackItem
----@field public override Bool
----@field public maxStopsSDR effectEffectParameterEvaluatorFloat
----@field public midGrayScaleSDR effectEffectParameterEvaluatorFloat
----@field public maxStopsHDR effectEffectParameterEvaluatorFloat
----@field public midGrayScaleHDR effectEffectParameterEvaluatorFloat
+---@field override Bool
+---@field maxStopsSDR effectEffectParameterEvaluatorFloat
+---@field midGrayScaleSDR effectEffectParameterEvaluatorFloat
+---@field maxStopsHDR effectEffectParameterEvaluatorFloat
+---@field midGrayScaleHDR effectEffectParameterEvaluatorFloat
 effectTrackItemTonemapping = {}
 
 ---@param fields? effectTrackItemTonemapping
 ---@return effectTrackItemTonemapping
-function effectTrackItemTonemapping.new(fields) return end
+function effectTrackItemTonemapping.new(fields) end

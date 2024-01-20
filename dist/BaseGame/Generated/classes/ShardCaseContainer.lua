@@ -1,33 +1,29 @@
 ---@meta
 
 ---@class ShardCaseContainer: gameContainerObjectSingleItem
----@field public wasOpened Bool
----@field public shardMesh entMeshComponent
+---@field wasOpened Bool
+---@field shardMesh entMeshComponent
 ShardCaseContainer = {}
 
 ---@param fields? ShardCaseContainer
 ---@return ShardCaseContainer
-function ShardCaseContainer.new(fields) return end
+function ShardCaseContainer.new(fields) end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function ShardCaseContainer:OnInteraction(choiceEvent) return end
+function ShardCaseContainer:OnInteraction(choiceEvent) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ShardCaseContainer:OnRequestComponents(ri) return end
+function ShardCaseContainer:OnRequestComponents(ri) end
 
----@protected
 ---@param evt ShardCaseAnimationEnded
 ---@return Bool
-function ShardCaseContainer:OnShardCaseAnimationEnded(evt) return end
+function ShardCaseContainer:OnShardCaseAnimationEnded(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ShardCaseContainer:OnTakeControl(ri) return end
+function ShardCaseContainer:OnTakeControl(ri) end
 
 ---@return Bool
-function ShardCaseContainer:IsShardContainer() return end
+function ShardCaseContainer:IsShardContainer() end

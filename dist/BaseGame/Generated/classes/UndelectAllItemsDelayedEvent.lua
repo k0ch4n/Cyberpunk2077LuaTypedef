@@ -5,4 +5,4 @@ UndelectAllItemsDelayedEvent = {}
 
 ---@param fields? UndelectAllItemsDelayedEvent
 ---@return UndelectAllItemsDelayedEvent
-function UndelectAllItemsDelayedEvent.new(fields) return end
+function UndelectAllItemsDelayedEvent.new(fields) end

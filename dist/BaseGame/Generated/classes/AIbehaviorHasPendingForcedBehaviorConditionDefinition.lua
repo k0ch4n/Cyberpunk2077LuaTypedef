@@ -5,4 +5,4 @@ AIbehaviorHasPendingForcedBehaviorConditionDefinition = {}
 
 ---@param fields? AIbehaviorHasPendingForcedBehaviorConditionDefinition
 ---@return AIbehaviorHasPendingForcedBehaviorConditionDefinition
-function AIbehaviorHasPendingForcedBehaviorConditionDefinition.new(fields) return end
+function AIbehaviorHasPendingForcedBehaviorConditionDefinition.new(fields) end

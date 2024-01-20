@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkWidgetLibraryItem
----@field public name CName
----@field public package SharedDataBuffer
----@field public packageData DataBuffer
+---@field name CName
+---@field package SharedDataBuffer
+---@field packageData DataBuffer
 inkWidgetLibraryItem = {}
 
 ---@param fields? inkWidgetLibraryItem
 ---@return inkWidgetLibraryItem
-function inkWidgetLibraryItem.new(fields) return end
+function inkWidgetLibraryItem.new(fields) end

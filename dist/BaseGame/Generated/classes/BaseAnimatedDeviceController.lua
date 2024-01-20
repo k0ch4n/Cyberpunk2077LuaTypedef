@@ -5,7 +5,7 @@ BaseAnimatedDeviceController = {}
 
 ---@param fields? BaseAnimatedDeviceController
 ---@return BaseAnimatedDeviceController
-function BaseAnimatedDeviceController.new(fields) return end
+function BaseAnimatedDeviceController.new(fields) end
 
 ---@return BaseAnimatedDeviceControllerPS
-function BaseAnimatedDeviceController:GetPS() return end
+function BaseAnimatedDeviceController:GetPS() end

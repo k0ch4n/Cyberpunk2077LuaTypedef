@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entReplicatedAnimWrapperVars
----@field public serverReplicatedTime netTime
----@field public data entReplicatedVariableValue[]
+---@field serverReplicatedTime netTime
+---@field data entReplicatedVariableValue[]
 entReplicatedAnimWrapperVars = {}
 
 ---@param fields? entReplicatedAnimWrapperVars
 ---@return entReplicatedAnimWrapperVars
-function entReplicatedAnimWrapperVars.new(fields) return end
+function entReplicatedAnimWrapperVars.new(fields) end

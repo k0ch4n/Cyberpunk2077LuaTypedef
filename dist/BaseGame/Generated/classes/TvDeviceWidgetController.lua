@@ -1,96 +1,82 @@
 ---@meta
 
 ---@class TvDeviceWidgetController: DeviceWidgetControllerBase
----@field protected videoWidget inkVideoWidgetReference
----@field protected globalTVChannelSlot inkBasePanelWidgetReference
----@field protected messegeWidget inkTextWidgetReference
----@field protected messageBackgroundWidget inkLeafWidgetReference
----@field private globalTVChannel inkWidget
----@field private activeVideo redResourceReferenceScriptToken
+---@field videoWidget inkVideoWidgetReference
+---@field globalTVChannelSlot inkBasePanelWidgetReference
+---@field messegeWidget inkTextWidgetReference
+---@field messageBackgroundWidget inkLeafWidgetReference
+---@field globalTVChannel inkWidget
+---@field activeVideo redResourceReferenceScriptToken
 TvDeviceWidgetController = {}
 
 ---@param fields? TvDeviceWidgetController
 ---@return TvDeviceWidgetController
-function TvDeviceWidgetController.new(fields) return end
+function TvDeviceWidgetController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function TvDeviceWidgetController:OnGLobalChannelSpawned(widget, userData) return end
+function TvDeviceWidgetController:OnGLobalChannelSpawned(widget, userData) end
 
----@private
 ---@param colorArray Int32[]
 ---@return Color
-function TvDeviceWidgetController:GetColorFromArray(colorArray) return end
+function TvDeviceWidgetController:GetColorFromArray(colorArray) end
 
----@private
 ---@param messageID TweakDBID|string
 ---@return gamedataScreenMessageData_Record
-function TvDeviceWidgetController:GetMessageRecord(messageID) return end
+function TvDeviceWidgetController:GetMessageRecord(messageID) end
 
----@private
 ---@return nil
-function TvDeviceWidgetController:HideGlobalTVChannel() return end
+function TvDeviceWidgetController:HideGlobalTVChannel() end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SDeviceWidgetPackage
 ---@return nil
-function TvDeviceWidgetController:Initialize(gameController, widgetData) return end
+function TvDeviceWidgetController:Initialize(gameController, widgetData) end
 
----@private
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@return nil
-function TvDeviceWidgetController:PlayVideo(videoPath, looped) return end
+function TvDeviceWidgetController:PlayVideo(videoPath, looped) end
 
----@private
 ---@param index Int32
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function TvDeviceWidgetController:RegisterTvChannel(index, gameController) return end
+function TvDeviceWidgetController:RegisterTvChannel(index, gameController) end
 
----@private
 ---@param data TvDeviceWidgetCustomData
 ---@param widgetData SDeviceWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function TvDeviceWidgetController:ResolveChannelData(data, widgetData, gameController) return end
+function TvDeviceWidgetController:ResolveChannelData(data, widgetData, gameController) end
 
----@protected
 ---@param record gamedataScreenMessageData_Record
 ---@return nil
-function TvDeviceWidgetController:ResolveMessegeRecord(record) return end
+function TvDeviceWidgetController:ResolveMessegeRecord(record) end
 
----@private
 ---@param imageWidget inkImageWidget
 ---@param textureID TweakDBID|string
 ---@return nil
-function TvDeviceWidgetController:SetBackgroundTexture(imageWidget, textureID) return end
+function TvDeviceWidgetController:SetBackgroundTexture(imageWidget, textureID) end
 
----@private
 ---@param imageWidget inkImageWidget
 ---@param textureRecord gamedataUIIcon_Record
 ---@return nil
-function TvDeviceWidgetController:SetBackgroundTexture(imageWidget, textureRecord) return end
+function TvDeviceWidgetController:SetBackgroundTexture(imageWidget, textureRecord) end
 
----@private
 ---@param imageWidgetRef inkImageWidgetReference
 ---@param textureRecord gamedataUIIcon_Record
 ---@return nil
-function TvDeviceWidgetController:SetBackgroundTexture(imageWidgetRef, textureRecord) return end
+function TvDeviceWidgetController:SetBackgroundTexture(imageWidgetRef, textureRecord) end
 
----@private
 ---@return nil
-function TvDeviceWidgetController:ShowGlobalTVChannel() return end
+function TvDeviceWidgetController:ShowGlobalTVChannel() end
 
----@private
 ---@param gameController DeviceInkGameControllerBase
 ---@param channelRecord gamedataChannelData_Record
 ---@param libraryPath? redResourceReferenceScriptToken
 ---@return nil
-function TvDeviceWidgetController:SpawnGlobalTVChannelWidget(gameController, channelRecord, libraryPath) return end
+function TvDeviceWidgetController:SpawnGlobalTVChannelWidget(gameController, channelRecord, libraryPath) end
 
----@private
 ---@return nil
-function TvDeviceWidgetController:StopVideo() return end
+function TvDeviceWidgetController:StopVideo() end

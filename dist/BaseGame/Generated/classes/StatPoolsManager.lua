@@ -5,46 +5,41 @@ StatPoolsManager = {}
 
 ---@param fields? StatPoolsManager
 ---@return StatPoolsManager
-function StatPoolsManager.new(fields) return end
+function StatPoolsManager.new(fields) end
 
----@private
 ---@param type gamedataStatPoolType
 ---@param value Float
 ---@param dmgType gamedataDamageType
 ---@return nil, SDamageDealt[] arr
-function StatPoolsManager.AddDrain(type, value, dmgType) return end
+function StatPoolsManager.AddDrain(type, value, dmgType) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param forReal Bool
 ---@return nil, SDamageDealt[] valuesLost
-function StatPoolsManager.ApplyDamage(hitEvent, forReal) return end
+function StatPoolsManager.ApplyDamage(hitEvent, forReal) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param dmgType gamedataDamageType
 ---@param initialDamageValue Float
 ---@param forReal Bool
 ---@param valuesLost SDamageDealt[]
 ---@return nil
-function StatPoolsManager.ApplyDamageSingle(hitEvent, dmgType, initialDamageValue, forReal, valuesLost) return end
+function StatPoolsManager.ApplyDamageSingle(hitEvent, dmgType, initialDamageValue, forReal, valuesLost) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param dmgType gamedataDamageType
 ---@param forReal Bool
 ---@param valuesLost SDamageDealt[]
 ---@return nil, Float initialDamageValue
-function StatPoolsManager.ApplyDamageToArmorSingle(hitEvent, dmgType, forReal, valuesLost) return end
+function StatPoolsManager.ApplyDamageToArmorSingle(hitEvent, dmgType, forReal, valuesLost) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param dmgType gamedataDamageType
 ---@param forReal Bool
 ---@param valuesLost SDamageDealt[]
 ---@return nil, Float initialDamageValue
-function StatPoolsManager.ApplyDamageToOverShieldSingle(hitEvent, dmgType, forReal, valuesLost) return end
+function StatPoolsManager.ApplyDamageToOverShieldSingle(hitEvent, dmgType, forReal, valuesLost) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@param dmg Float
 ---@param dmgType gamedataDamageType
@@ -52,40 +47,37 @@ function StatPoolsManager.ApplyDamageToOverShieldSingle(hitEvent, dmgType, forRe
 ---@param forReal Bool
 ---@param valuesLost SDamageDealt[]
 ---@return nil
-function StatPoolsManager.ApplyLocalizedDamageSingle(hitEvent, dmg, dmgType, poolType, forReal, valuesLost) return end
+function StatPoolsManager.ApplyLocalizedDamageSingle(hitEvent, dmg, dmgType, poolType, forReal, valuesLost) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param resistPoolRecord gamedataStatPool_Record
 ---@param statusEffectID TweakDBID|string
 ---@return nil
-function StatPoolsManager.ApplyStatusEffectDamage(hitEvent, resistPoolRecord, statusEffectID) return end
+function StatPoolsManager.ApplyStatusEffectDamage(hitEvent, resistPoolRecord, statusEffectID) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param statPoolType gamedataStatPoolType
 ---@param value Float
 ---@return nil
-function StatPoolsManager.DrainStatPool(hitEvent, statPoolType, value) return end
+function StatPoolsManager.DrainStatPool(hitEvent, statPoolType, value) end
 
----@private
 ---@param obj gameObject
 ---@param bodyPartName CName|string
 ---@return Bool, gamedataStatPoolType poolType
-function StatPoolsManager.GetBodyPartStatPool(obj, bodyPartName) return end
+function StatPoolsManager.GetBodyPartStatPool(obj, bodyPartName) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function StatPoolsManager.IsFinisherGrace(hitEvent) return end
+function StatPoolsManager.IsFinisherGrace(hitEvent) end
 
 ---@param type gamedataStatPoolType
 ---@return Bool
-function StatPoolsManager.IsStatPoolValid(type) return end
+function StatPoolsManager.IsStatPoolValid(type) end
 
----@private
 ---@param from SDamageDealt[]
 ---@return nil, SDamageDealt[] to
-function StatPoolsManager.MergeStatPoolsLost(from) return end
+function StatPoolsManager.MergeStatPoolsLost(from) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function StatPoolsManager.SimulateKill(hitEvent) return end
+function StatPoolsManager.SimulateKill(hitEvent) end

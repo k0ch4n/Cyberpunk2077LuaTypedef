@@ -5,4 +5,4 @@ gameCurveStatModifier = {}
 
 ---@param fields? gameCurveStatModifier
 ---@return gameCurveStatModifier
-function gameCurveStatModifier.new(fields) return end
+function gameCurveStatModifier.new(fields) end

@@ -5,8 +5,8 @@ ItemModeGridClassifier = {}
 
 ---@param fields? ItemModeGridClassifier
 ---@return ItemModeGridClassifier
-function ItemModeGridClassifier.new(fields) return end
+function ItemModeGridClassifier.new(fields) end
 
 ---@param data Variant
 ---@return Uint32
-function ItemModeGridClassifier:ClassifyItem(data) return end
+function ItemModeGridClassifier:ClassifyItem(data) end

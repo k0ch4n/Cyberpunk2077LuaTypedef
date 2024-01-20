@@ -5,4 +5,4 @@ inkSystemRequesResult = {}
 
 ---@param fields? inkSystemRequesResult
 ---@return inkSystemRequesResult
-function inkSystemRequesResult.new(fields) return end
+function inkSystemRequesResult.new(fields) end

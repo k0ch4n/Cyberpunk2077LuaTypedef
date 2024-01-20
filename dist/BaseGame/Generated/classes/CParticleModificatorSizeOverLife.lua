@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CParticleModificatorSizeOverLife: IParticleModificator
----@field public size IEvaluatorVector
----@field public scale Float
----@field public modulate Bool
+---@field size IEvaluatorVector
+---@field scale Float
+---@field modulate Bool
 CParticleModificatorSizeOverLife = {}
 
 ---@param fields? CParticleModificatorSizeOverLife
 ---@return CParticleModificatorSizeOverLife
-function CParticleModificatorSizeOverLife.new(fields) return end
+function CParticleModificatorSizeOverLife.new(fields) end

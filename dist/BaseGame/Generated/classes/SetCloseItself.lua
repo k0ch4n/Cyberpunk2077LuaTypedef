@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetCloseItself: redEvent
----@field public automaticallyClosesItself Bool
+---@field automaticallyClosesItself Bool
 SetCloseItself = {}
 
 ---@param fields? SetCloseItself
 ---@return SetCloseItself
-function SetCloseItself.new(fields) return end
+function SetCloseItself.new(fields) end
 
 ---@return String
-function SetCloseItself:GetFriendlyDescription() return end
+function SetCloseItself:GetFriendlyDescription() end

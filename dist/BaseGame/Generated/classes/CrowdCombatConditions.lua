@@ -5,14 +5,12 @@ CrowdCombatConditions = {}
 
 ---@param fields? CrowdCombatConditions
 ---@return CrowdCombatConditions
-function CrowdCombatConditions.new(fields) return end
+function CrowdCombatConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CrowdCombatConditions:Activate(context) return end
+function CrowdCombatConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CrowdCombatConditions:Check(context) return end
+function CrowdCombatConditions:Check(context) end

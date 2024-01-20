@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiRoachRaceChunk
----@field public obstacles gameuiRoachRaceObstacle[]
+---@field obstacles gameuiRoachRaceObstacle[]
 gameuiRoachRaceChunk = {}
 
 ---@param fields? gameuiRoachRaceChunk
 ---@return gameuiRoachRaceChunk
-function gameuiRoachRaceChunk.new(fields) return end
+function gameuiRoachRaceChunk.new(fields) end

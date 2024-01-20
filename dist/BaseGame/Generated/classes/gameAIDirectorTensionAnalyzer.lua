@@ -5,4 +5,4 @@ gameAIDirectorTensionAnalyzer = {}
 
 ---@param fields? gameAIDirectorTensionAnalyzer
 ---@return gameAIDirectorTensionAnalyzer
-function gameAIDirectorTensionAnalyzer.new(fields) return end
+function gameAIDirectorTensionAnalyzer.new(fields) end

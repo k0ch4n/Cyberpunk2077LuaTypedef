@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class StatusEffectBasedTimeBankEffector: gameEffector
----@field private player gameObject
----@field private playerEntityID entEntityID
----@field private statusEffectListener TimeBankOnStatusEffectAppliedListener
----@field private gameInstance ScriptGameInstance
+---@field player gameObject
+---@field playerEntityID entEntityID
+---@field statusEffectListener TimeBankOnStatusEffectAppliedListener
+---@field gameInstance ScriptGameInstance
 StatusEffectBasedTimeBankEffector = {}
 
 ---@param fields? StatusEffectBasedTimeBankEffector
 ---@return StatusEffectBasedTimeBankEffector
-function StatusEffectBasedTimeBankEffector.new(fields) return end
+function StatusEffectBasedTimeBankEffector.new(fields) end
 
 ---@param statusEffectID TweakDBID|string
 ---@return nil
-function StatusEffectBasedTimeBankEffector:EvaluateCyberwareCooldown(statusEffectID) return end
+function StatusEffectBasedTimeBankEffector:EvaluateCyberwareCooldown(statusEffectID) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StatusEffectBasedTimeBankEffector:Initialize(record, parentRecord) return end
+function StatusEffectBasedTimeBankEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function StatusEffectBasedTimeBankEffector:Uninitialize() return end
+function StatusEffectBasedTimeBankEffector:Uninitialize() end

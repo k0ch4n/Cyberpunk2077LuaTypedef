@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ToggleQuestPreventionTrigger: gameScriptableSystemRequest
----@field public areaReference NodeRef
----@field public enable Bool
+---@field areaReference NodeRef
+---@field enable Bool
 ToggleQuestPreventionTrigger = {}
 
 ---@param fields? ToggleQuestPreventionTrigger
 ---@return ToggleQuestPreventionTrigger
-function ToggleQuestPreventionTrigger.new(fields) return end
+function ToggleQuestPreventionTrigger.new(fields) end
 
 ---@return String
-function ToggleQuestPreventionTrigger:GetFriendlyDesctiption() return end
+function ToggleQuestPreventionTrigger:GetFriendlyDesctiption() end

@@ -5,10 +5,9 @@ MineDispenserIdleEvents = {}
 
 ---@param fields? MineDispenserIdleEvents
 ---@return MineDispenserIdleEvents
-function MineDispenserIdleEvents.new(fields) return end
+function MineDispenserIdleEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MineDispenserIdleEvents:OnEnter(stateContext, scriptInterface) return end
+function MineDispenserIdleEvents:OnEnter(stateContext, scriptInterface) end

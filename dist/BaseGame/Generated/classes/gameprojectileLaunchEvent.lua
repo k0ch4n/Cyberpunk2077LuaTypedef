@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameprojectileLaunchEvent: redEvent
----@field public launchParams gameprojectileLaunchParams
----@field public owner gameObject
----@field public weapon gameObject
----@field public projectileParams gameprojectileWeaponParams
+---@field launchParams gameprojectileLaunchParams
+---@field owner gameObject
+---@field weapon gameObject
+---@field projectileParams gameprojectileWeaponParams
 gameprojectileLaunchEvent = {}
 
 ---@param fields? gameprojectileLaunchEvent
 ---@return gameprojectileLaunchEvent
-function gameprojectileLaunchEvent.new(fields) return end
+function gameprojectileLaunchEvent.new(fields) end

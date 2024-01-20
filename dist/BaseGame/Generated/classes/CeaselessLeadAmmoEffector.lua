@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class CeaselessLeadAmmoEffector: gameEffector
----@field public percentToRefund Float
+---@field percentToRefund Float
 CeaselessLeadAmmoEffector = {}
 
 ---@param fields? CeaselessLeadAmmoEffector
 ---@return CeaselessLeadAmmoEffector
-function CeaselessLeadAmmoEffector.new(fields) return end
+function CeaselessLeadAmmoEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function CeaselessLeadAmmoEffector:ActionOn(owner) return end
+function CeaselessLeadAmmoEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function CeaselessLeadAmmoEffector:Initialize(record, parentRecord) return end
+function CeaselessLeadAmmoEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function CeaselessLeadAmmoEffector:ProcessAction(owner) return end
+function CeaselessLeadAmmoEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function CeaselessLeadAmmoEffector:RepeatedAction(owner) return end
+function CeaselessLeadAmmoEffector:RepeatedAction(owner) end

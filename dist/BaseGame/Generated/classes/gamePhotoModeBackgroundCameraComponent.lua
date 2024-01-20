@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gamePhotoModeBackgroundCameraComponent: entBaseCameraComponent
----@field public isEnabled Bool
----@field public virtualCameraName CName
----@field public dynamicTextureRes DynamicTexture
----@field public env worldEnvironmentAreaParameters
----@field public params WorldRenderAreaSettings
----@field public depthCutDistance Float
----@field public backgroundColor Color
----@field public overrideBackgroundColor Bool
----@field public renderSceneLayer RenderSceneLayer
----@field public streamingDistance Float
+---@field isEnabled Bool
+---@field virtualCameraName CName
+---@field dynamicTextureRes DynamicTexture
+---@field env worldEnvironmentAreaParameters
+---@field params WorldRenderAreaSettings
+---@field depthCutDistance Float
+---@field backgroundColor Color
+---@field overrideBackgroundColor Bool
+---@field renderSceneLayer RenderSceneLayer
+---@field streamingDistance Float
 gamePhotoModeBackgroundCameraComponent = {}
 
 ---@param fields? gamePhotoModeBackgroundCameraComponent
 ---@return gamePhotoModeBackgroundCameraComponent
-function gamePhotoModeBackgroundCameraComponent.new(fields) return end
+function gamePhotoModeBackgroundCameraComponent.new(fields) end

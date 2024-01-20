@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIFollowSlotDef: gamebbScriptDefinition
----@field public slotID gamebbScriptID_Int32
----@field public slotTransform gamebbScriptID_Variant
+---@field slotID gamebbScriptID_Int32
+---@field slotTransform gamebbScriptID_Variant
 AIFollowSlotDef = {}
 
 ---@param fields? AIFollowSlotDef
 ---@return AIFollowSlotDef
-function AIFollowSlotDef.new(fields) return end
+function AIFollowSlotDef.new(fields) end
 
 ---@return Bool
-function AIFollowSlotDef:AutoCreateInSystem() return end
+function AIFollowSlotDef:AutoCreateInSystem() end

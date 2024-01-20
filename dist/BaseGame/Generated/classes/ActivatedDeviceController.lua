@@ -5,7 +5,7 @@ ActivatedDeviceController = {}
 
 ---@param fields? ActivatedDeviceController
 ---@return ActivatedDeviceController
-function ActivatedDeviceController.new(fields) return end
+function ActivatedDeviceController.new(fields) end
 
 ---@return ActivatedDeviceControllerPS
-function ActivatedDeviceController:GetPS() return end
+function ActivatedDeviceController:GetPS() end

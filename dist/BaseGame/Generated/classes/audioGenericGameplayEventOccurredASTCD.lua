@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioGenericGameplayEventOccurredASTCD: audioAudioStateTransitionConditionData
----@field public gameplayEvent CName
+---@field gameplayEvent CName
 audioGenericGameplayEventOccurredASTCD = {}
 
 ---@param fields? audioGenericGameplayEventOccurredASTCD
 ---@return audioGenericGameplayEventOccurredASTCD
-function audioGenericGameplayEventOccurredASTCD.new(fields) return end
+function audioGenericGameplayEventOccurredASTCD.new(fields) end

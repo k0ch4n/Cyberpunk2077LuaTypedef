@@ -5,4 +5,4 @@ gameuiMoveTargetCallback = {}
 
 ---@param fields? gameuiMoveTargetCallback
 ---@return gameuiMoveTargetCallback
-function gameuiMoveTargetCallback.new(fields) return end
+function gameuiMoveTargetCallback.new(fields) end

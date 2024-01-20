@@ -5,4 +5,4 @@ gamewatchdogSystem = {}
 
 ---@param fields? gamewatchdogSystem
 ---@return gamewatchdogSystem
-function gamewatchdogSystem.new(fields) return end
+function gamewatchdogSystem.new(fields) end

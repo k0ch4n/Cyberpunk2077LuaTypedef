@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LibTreeSharedVarReferenceName
----@field public name CName
+---@field name CName
 LibTreeSharedVarReferenceName = {}
 
 ---@param fields? LibTreeSharedVarReferenceName
 ---@return LibTreeSharedVarReferenceName
-function LibTreeSharedVarReferenceName.new(fields) return end
+function LibTreeSharedVarReferenceName.new(fields) end

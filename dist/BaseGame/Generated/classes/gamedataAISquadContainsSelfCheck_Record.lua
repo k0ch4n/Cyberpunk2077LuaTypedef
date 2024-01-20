@@ -5,4 +5,4 @@ gamedataAISquadContainsSelfCheck_Record = {}
 
 ---@param fields? gamedataAISquadContainsSelfCheck_Record
 ---@return gamedataAISquadContainsSelfCheck_Record
-function gamedataAISquadContainsSelfCheck_Record.new(fields) return end
+function gamedataAISquadContainsSelfCheck_Record.new(fields) end

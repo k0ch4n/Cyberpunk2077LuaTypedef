@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiarcadeShooterGameplayController: gameuiarcadeArcadeGameplayController
----@field public player inkWidgetReference
----@field public hud inkWidgetReference
----@field public levelContainer inkWidgetReference
+---@field player inkWidgetReference
+---@field hud inkWidgetReference
+---@field levelContainer inkWidgetReference
 gameuiarcadeShooterGameplayController = {}
 
 ---@param fields? gameuiarcadeShooterGameplayController
 ---@return gameuiarcadeShooterGameplayController
-function gameuiarcadeShooterGameplayController.new(fields) return end
+function gameuiarcadeShooterGameplayController.new(fields) end

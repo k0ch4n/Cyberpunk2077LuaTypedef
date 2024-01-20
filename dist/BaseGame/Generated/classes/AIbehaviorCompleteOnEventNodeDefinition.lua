@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorCompleteOnEventNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public eventName CName
----@field public resultOnEvent AIbehaviorCompletionStatus
+---@field eventName CName
+---@field resultOnEvent AIbehaviorCompletionStatus
 AIbehaviorCompleteOnEventNodeDefinition = {}
 
 ---@param fields? AIbehaviorCompleteOnEventNodeDefinition
 ---@return AIbehaviorCompleteOnEventNodeDefinition
-function AIbehaviorCompleteOnEventNodeDefinition.new(fields) return end
+function AIbehaviorCompleteOnEventNodeDefinition.new(fields) end

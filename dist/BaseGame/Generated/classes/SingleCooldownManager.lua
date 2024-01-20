@@ -1,89 +1,81 @@
 ---@meta
 
 ---@class SingleCooldownManager: inkWidgetLogicController
----@field private sprite inkImageWidgetReference
----@field private spriteBg inkImageWidgetReference
----@field private icon inkImageWidgetReference
----@field private type ECooldownGameControllerMode
----@field private name inkTextWidgetReference
----@field private desc inkTextWidgetReference
----@field private timeRemaining inkTextWidgetReference
----@field private stackCount inkTextWidgetReference
----@field private fill inkRectangleWidgetReference
----@field private outroDuration Float
----@field private fullSizeValue Vector2
----@field private initialDuration Float
----@field private state ECooldownIndicatorState
----@field private pool inkCompoundWidgetReference
----@field private grid inkCompoundWidgetReference
----@field private currentAnimProxy inkanimProxy
----@field private buffData UIBuffInfo
----@field private defaultTimeRemainingText String
----@field private excludedStatusEffect TweakDBID
----@field private C_EXCLUDED_STATUS_EFFECT_NAME String
+---@field sprite inkImageWidgetReference
+---@field spriteBg inkImageWidgetReference
+---@field icon inkImageWidgetReference
+---@field type ECooldownGameControllerMode
+---@field name inkTextWidgetReference
+---@field desc inkTextWidgetReference
+---@field timeRemaining inkTextWidgetReference
+---@field stackCount inkTextWidgetReference
+---@field fill inkRectangleWidgetReference
+---@field outroDuration Float
+---@field fullSizeValue Vector2
+---@field initialDuration Float
+---@field state ECooldownIndicatorState
+---@field pool inkCompoundWidgetReference
+---@field grid inkCompoundWidgetReference
+---@field currentAnimProxy inkanimProxy
+---@field buffData UIBuffInfo
+---@field defaultTimeRemainingText String
+---@field excludedStatusEffect TweakDBID
+---@field C_EXCLUDED_STATUS_EFFECT_NAME String
 SingleCooldownManager = {}
 
 ---@param fields? SingleCooldownManager
 ---@return SingleCooldownManager
-function SingleCooldownManager.new(fields) return end
+function SingleCooldownManager.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function SingleCooldownManager:OnFillIntroAnimationOver(proxy) return end
+function SingleCooldownManager:OnFillIntroAnimationOver(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function SingleCooldownManager:OnFillOutroAnimationOver(proxy) return end
+function SingleCooldownManager:OnFillOutroAnimationOver(proxy) end
 
 ---@param buffData UIBuffInfo
 ---@return nil
-function SingleCooldownManager:ActivateCooldown(buffData) return end
+function SingleCooldownManager:ActivateCooldown(buffData) end
 
----@private
 ---@param f Float
 ---@return nil, GameTime time, Int32 totalSeconds, Int32 fraction
-function SingleCooldownManager:ConvertFloatToTime(f) return end
+function SingleCooldownManager:ConvertFloatToTime(f) end
 
----@private
 ---@return nil
-function SingleCooldownManager:FillIntroAnimationStart() return end
+function SingleCooldownManager:FillIntroAnimationStart() end
 
----@private
 ---@return nil
-function SingleCooldownManager:FillOutroAnimationStart() return end
+function SingleCooldownManager:FillOutroAnimationStart() end
 
 ---@return ECooldownIndicatorState
-function SingleCooldownManager:GetState() return end
+function SingleCooldownManager:GetState() end
 
----@private
 ---@return nil
-function SingleCooldownManager:HideCooldownWidget() return end
+function SingleCooldownManager:HideCooldownWidget() end
 
 ---@param pool inkCompoundWidgetReference
 ---@param grid inkCompoundWidgetReference
 ---@return nil
-function SingleCooldownManager:Init(pool, grid) return end
+function SingleCooldownManager:Init(pool, grid) end
 
 ---@param id TweakDBID|string
 ---@return Bool
-function SingleCooldownManager:IsIDMatch(id) return end
+function SingleCooldownManager:IsIDMatch(id) end
 
 ---@return nil
-function SingleCooldownManager:RemoveCooldown() return end
+function SingleCooldownManager:RemoveCooldown() end
 
----@private
 ---@param count Int32
 ---@return nil
-function SingleCooldownManager:SetStackCount(count) return end
+function SingleCooldownManager:SetStackCount(count) end
 
----@private
 ---@param time Float
 ---@return nil
-function SingleCooldownManager:SetTimeRemaining(time) return end
+function SingleCooldownManager:SetTimeRemaining(time) end
 
 ---@param timeLeft Float
 ---@param stackCount Uint32
 ---@return nil
-function SingleCooldownManager:Update(timeLeft, stackCount) return end
+function SingleCooldownManager:Update(timeLeft, stackCount) end

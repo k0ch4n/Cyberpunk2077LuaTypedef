@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ApplyDiodeLightPresetEvent: redEvent
----@field public preset DiodeLightPreset
----@field public delay Float
----@field public duration Float
----@field public force Bool
+---@field preset DiodeLightPreset
+---@field delay Float
+---@field duration Float
+---@field force Bool
 ApplyDiodeLightPresetEvent = {}
 
 ---@param fields? ApplyDiodeLightPresetEvent
 ---@return ApplyDiodeLightPresetEvent
-function ApplyDiodeLightPresetEvent.new(fields) return end
+function ApplyDiodeLightPresetEvent.new(fields) end

@@ -5,4 +5,4 @@ inputInputSystemEditor = {}
 
 ---@param fields? inputInputSystemEditor
 ---@return inputInputSystemEditor
-function inputInputSystemEditor.new(fields) return end
+function inputInputSystemEditor.new(fields) end

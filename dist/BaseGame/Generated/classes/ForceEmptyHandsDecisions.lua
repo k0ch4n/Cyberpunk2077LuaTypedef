@@ -1,33 +1,29 @@
 ---@meta
 
 ---@class ForceEmptyHandsDecisions: UpperBodyTransition
----@field public stateBodyDone Bool
+---@field stateBodyDone Bool
 ForceEmptyHandsDecisions = {}
 
 ---@param fields? ForceEmptyHandsDecisions
 ---@return ForceEmptyHandsDecisions
-function ForceEmptyHandsDecisions.new(fields) return end
+function ForceEmptyHandsDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceEmptyHandsDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ForceEmptyHandsDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceEmptyHandsDecisions:ExitCondition(stateContext, scriptInterface) return end
+function ForceEmptyHandsDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceEmptyHandsDecisions:ToEmptyHands(stateContext, scriptInterface) return end
+function ForceEmptyHandsDecisions:ToEmptyHands(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceEmptyHandsDecisions:ToSingleWield(stateContext, scriptInterface) return end
+function ForceEmptyHandsDecisions:ToSingleWield(stateContext, scriptInterface) end

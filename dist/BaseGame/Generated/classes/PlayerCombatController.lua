@@ -1,132 +1,114 @@
 ---@meta
 
 ---@class PlayerCombatController: IScriptable
----@field private gameplayActiveFlagsRefreshPolicy PlayerCombatControllerRefreshPolicy
----@field private blackboardIds PlayerCombatControllerBBIds
----@field private blackboardValuesIds PlayerCombatControllerBBValuesIds
----@field private blackboardListenersFunctions PlayerCombatControllerBlackboardListenersFunctions
----@field private blackboardListeners PlayerCombatControllerBBListeners
----@field private delayEventsIds PlayerCombatControllerDelayCallbacksIds
----@field private gameplayActiveFlags PlayerCombatControllerActiveFlags
----@field private otherVars PlayerCombatControllerOtherVars
----@field private owner gameObject
+---@field gameplayActiveFlagsRefreshPolicy PlayerCombatControllerRefreshPolicy
+---@field blackboardIds PlayerCombatControllerBBIds
+---@field blackboardValuesIds PlayerCombatControllerBBValuesIds
+---@field blackboardListenersFunctions PlayerCombatControllerBlackboardListenersFunctions
+---@field blackboardListeners PlayerCombatControllerBBListeners
+---@field delayEventsIds PlayerCombatControllerDelayCallbacksIds
+---@field gameplayActiveFlags PlayerCombatControllerActiveFlags
+---@field otherVars PlayerCombatControllerOtherVars
+---@field owner gameObject
 PlayerCombatController = {}
 
 ---@param fields? PlayerCombatController
 ---@return PlayerCombatController
-function PlayerCombatController.new(fields) return end
+function PlayerCombatController.new(fields) end
 
----@private
 ---@return nil
-function PlayerCombatController:ActivateCombat() return end
+function PlayerCombatController:ActivateCombat() end
 
----@private
 ---@return nil
-function PlayerCombatController:ActivateOutOfCombat() return end
+function PlayerCombatController:ActivateOutOfCombat() end
 
----@private
 ---@return nil
-function PlayerCombatController:ActivateStealth() return end
+function PlayerCombatController:ActivateStealth() end
 
 ---@param varName CName|string
 ---@return Bool
-function PlayerCombatController:GetBoolFromQuestDB(varName) return end
+function PlayerCombatController:GetBoolFromQuestDB(varName) end
 
----@private
 ---@return nil
-function PlayerCombatController:InitBlackboardFunctions() return end
+function PlayerCombatController:InitBlackboardFunctions() end
 
----@private
 ---@return nil
-function PlayerCombatController:InitBlackboardIds() return end
+function PlayerCombatController:InitBlackboardIds() end
 
----@private
 ---@return nil
-function PlayerCombatController:InitBlackboardValuesIds() return end
+function PlayerCombatController:InitBlackboardValuesIds() end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function PlayerCombatController:InitOwnerVars(owner) return end
+function PlayerCombatController:InitOwnerVars(owner) end
 
----@private
 ---@return nil
-function PlayerCombatController:InitPlayerCombatControllerRefreshPolicy() return end
+function PlayerCombatController:InitPlayerCombatControllerRefreshPolicy() end
 
----@private
 ---@param state PlayerCombatState
 ---@return nil
-function PlayerCombatController:InvalidateActivationState(state) return end
+function PlayerCombatController:InvalidateActivationState(state) end
 
----@private
 ---@return Bool
-function PlayerCombatController:IsRightHandInUnequippedState() return end
+function PlayerCombatController:IsRightHandInUnequippedState() end
 
----@private
 ---@param value Int32
 ---@return nil
-function PlayerCombatController:OnCrouchActiveChanged(value) return end
+function PlayerCombatController:OnCrouchActiveChanged(value) end
 
 ---@param evt CrouchDelayEvent
 ---@return nil
-function PlayerCombatController:OnCrouchDelayEvent(evt) return end
+function PlayerCombatController:OnCrouchDelayEvent(evt) end
 
 ---@param evt PlayerCombatControllerInvalidateEvent
 ---@return nil
-function PlayerCombatController:OnInvalidateActiveState(evt) return end
+function PlayerCombatController:OnInvalidateActiveState(evt) end
 
 ---@param evt AIStartedBeingTrackedAsHostile
 ---@return nil
-function PlayerCombatController:OnStartedBeingTrackedAsHostile(evt) return end
+function PlayerCombatController:OnStartedBeingTrackedAsHostile(evt) end
 
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@param gameplayTags CName[]|string[]
 ---@return nil
-function PlayerCombatController:OnStatusEffectApplied(evt, gameplayTags) return end
+function PlayerCombatController:OnStatusEffectApplied(evt, gameplayTags) end
 
 ---@param evt gameeventsRemoveStatusEffect
 ---@param gameplayTags CName[]|string[]
 ---@return nil
-function PlayerCombatController:OnStatusEffectRemoved(evt, gameplayTags) return end
+function PlayerCombatController:OnStatusEffectRemoved(evt, gameplayTags) end
 
 ---@return nil
-function PlayerCombatController:OnStoppedBeingTrackedAsHostile() return end
+function PlayerCombatController:OnStoppedBeingTrackedAsHostile() end
 
----@private
 ---@return nil
-function PlayerCombatController:ProcessFlagsRefreshPolicy() return end
+function PlayerCombatController:ProcessFlagsRefreshPolicy() end
 
----@private
 ---@return nil
-function PlayerCombatController:RegisterBlackboardListeners() return end
+function PlayerCombatController:RegisterBlackboardListeners() end
 
 ---@param owner gameObject
 ---@return nil
-function PlayerCombatController:RegisterOwner(owner) return end
+function PlayerCombatController:RegisterOwner(owner) end
 
----@private
 ---@param inCombat Bool
 ---@return nil
-function PlayerCombatController:SendAnimFeatureData(inCombat) return end
+function PlayerCombatController:SendAnimFeatureData(inCombat) end
 
----@private
 ---@param id gamebbScriptID_Int32
 ---@param value Int32
 ---@return nil
-function PlayerCombatController:SetBlackboardIntVariable(id, value) return end
+function PlayerCombatController:SetBlackboardIntVariable(id, value) end
 
----@private
 ---@param factName CName|string
 ---@return nil
-function PlayerCombatController:TutorialSetFact(factName) return end
-
----@private
----@return nil
-function PlayerCombatController:UnregisterBlackboardListeners() return end
+function PlayerCombatController:TutorialSetFact(factName) end
 
 ---@return nil
-function PlayerCombatController:UnregisterOwner() return end
+function PlayerCombatController:UnregisterBlackboardListeners() end
 
----@private
 ---@return nil
-function PlayerCombatController:VerifyActivation() return end
+function PlayerCombatController:UnregisterOwner() end
+
+---@return nil
+function PlayerCombatController:VerifyActivation() end

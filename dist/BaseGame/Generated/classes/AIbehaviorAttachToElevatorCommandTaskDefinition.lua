@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorAttachToElevatorCommandTaskDefinition: AIbehaviorTaskDefinition
----@field public command AIArgumentMapping
+---@field command AIArgumentMapping
 AIbehaviorAttachToElevatorCommandTaskDefinition = {}
 
 ---@param fields? AIbehaviorAttachToElevatorCommandTaskDefinition
 ---@return AIbehaviorAttachToElevatorCommandTaskDefinition
-function AIbehaviorAttachToElevatorCommandTaskDefinition.new(fields) return end
+function AIbehaviorAttachToElevatorCommandTaskDefinition.new(fields) end

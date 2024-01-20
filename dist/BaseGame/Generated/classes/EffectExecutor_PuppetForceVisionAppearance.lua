@@ -5,83 +5,72 @@ EffectExecutor_PuppetForceVisionAppearance = {}
 
 ---@param fields? EffectExecutor_PuppetForceVisionAppearance
 ---@return EffectExecutor_PuppetForceVisionAppearance
-function EffectExecutor_PuppetForceVisionAppearance.new(fields) return end
+function EffectExecutor_PuppetForceVisionAppearance.new(fields) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@return String
-function EffectExecutor_PuppetForceVisionAppearance:GetEffectName(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:GetEffectName(ctx) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@return PuppetForceVisionAppearanceData
-function EffectExecutor_PuppetForceVisionAppearance:GetForceVisionAppearanceData(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:GetForceVisionAppearanceData(ctx) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@return EFocusForcedHighlightType
-function EffectExecutor_PuppetForceVisionAppearance:GetHighlightType(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:GetHighlightType(ctx) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@return EFocusOutlineType
-function EffectExecutor_PuppetForceVisionAppearance:GetOutlineType(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:GetOutlineType(ctx) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@return EPriority
-function EffectExecutor_PuppetForceVisionAppearance:GetPriority(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:GetPriority(ctx) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@return Float
-function EffectExecutor_PuppetForceVisionAppearance:GetTransitionTime(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:GetTransitionTime(ctx) end
 
 ---@param ctx gameEffectScriptContext
 ---@return Bool
-function EffectExecutor_PuppetForceVisionAppearance:Init(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:Init(ctx) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@return Bool
-function EffectExecutor_PuppetForceVisionAppearance:IsSourceHighlighted(ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:IsSourceHighlighted(ctx) end
 
----@private
 ---@param source gameObject
 ---@return Bool
-function EffectExecutor_PuppetForceVisionAppearance:IsSourceValid(source) return end
+function EffectExecutor_PuppetForceVisionAppearance:IsSourceValid(source) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function EffectExecutor_PuppetForceVisionAppearance:Process(ctx, applierCtx) return end
+function EffectExecutor_PuppetForceVisionAppearance:Process(ctx, applierCtx) end
 
----@private
 ---@param enable Bool
 ---@param owner gameObject
 ---@param source gameObject
 ---@param ctx gameEffectScriptContext
 ---@return nil
-function EffectExecutor_PuppetForceVisionAppearance:SendForceVisionApperaceEvent(enable, owner, source, ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:SendForceVisionApperaceEvent(enable, owner, source, ctx) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@param data PuppetForceVisionAppearanceData
 ---@return nil
-function EffectExecutor_PuppetForceVisionAppearance:SetForceVisionAppearanceData(ctx, data) return end
+function EffectExecutor_PuppetForceVisionAppearance:SetForceVisionAppearanceData(ctx, data) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return nil
-function EffectExecutor_PuppetForceVisionAppearance:TargetAcquired(ctx, applierCtx) return end
+function EffectExecutor_PuppetForceVisionAppearance:TargetAcquired(ctx, applierCtx) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return nil
-function EffectExecutor_PuppetForceVisionAppearance:TargetLost(ctx, applierCtx) return end
+function EffectExecutor_PuppetForceVisionAppearance:TargetLost(ctx, applierCtx) end
 
----@private
 ---@param source gameObject
 ---@param ctx gameEffectScriptContext
 ---@return nil
-function EffectExecutor_PuppetForceVisionAppearance:UpdateSourceHighlight(source, ctx) return end
+function EffectExecutor_PuppetForceVisionAppearance:UpdateSourceHighlight(source, ctx) end

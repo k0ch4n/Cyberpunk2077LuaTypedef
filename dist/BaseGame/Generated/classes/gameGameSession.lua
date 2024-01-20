@@ -5,4 +5,4 @@ gameGameSession = {}
 
 ---@param fields? gameGameSession
 ---@return gameGameSession
-function gameGameSession.new(fields) return end
+function gameGameSession.new(fields) end

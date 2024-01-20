@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class FactTextGameController: gameuiWidgetGameController
----@field private factTextArray FactTextStruct[]
+---@field factTextArray FactTextStruct[]
 FactTextGameController = {}
 
 ---@param fields? FactTextGameController
 ---@return FactTextGameController
-function FactTextGameController.new(fields) return end
+function FactTextGameController.new(fields) end
 
----@protected
 ---@return Bool
-function FactTextGameController:OnInitialize() return end
+function FactTextGameController:OnInitialize() end

@@ -5,4 +5,4 @@ DelayedHUDInitializeEvent = {}
 
 ---@param fields? DelayedHUDInitializeEvent
 ---@return DelayedHUDInitializeEvent
-function DelayedHUDInitializeEvent.new(fields) return end
+function DelayedHUDInitializeEvent.new(fields) end

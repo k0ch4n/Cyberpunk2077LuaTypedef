@@ -1,526 +1,479 @@
 ---@meta
 
 ---@class senseComponent: entIPlacedComponent
----@field public enableBeingDetectable Bool
----@field public visibleObject senseVisibleObject
----@field public sensorObject senseSensorObject
----@field public isEnabled Bool
----@field public forceDisableUI Bool
----@field private highLevelCb redCallbackObject
----@field private reactionCb redCallbackObject
----@field private wantedLevelChangedCb redCallbackObject
----@field private highLevelState gamedataNPCHighLevelState
----@field private mainPreset TweakDBID
----@field private secondaryPreset TweakDBID
----@field private puppetBlackboard gameIBlackboard
----@field private uiWantedBarBB gameIBlackboard
----@field private hideUIElements Bool
----@field private enabledSenses Bool
----@field private shouldStartDetectingPlayerCached Bool
----@field private wasPlayerLastReactionTarget Bool
----@field private logSource ESenseLogSource
----@field private playerTakedownStateCallbackID redCallbackObject
----@field private playerUpperBodyStateCallbackID redCallbackObject
----@field private playerCarryingStateCallbackID redCallbackObject
----@field private playerInPerception PlayerPuppet
+---@field enableBeingDetectable Bool
+---@field visibleObject senseVisibleObject
+---@field sensorObject senseSensorObject
+---@field isEnabled Bool
+---@field forceDisableUI Bool
+---@field highLevelCb redCallbackObject
+---@field reactionCb redCallbackObject
+---@field wantedLevelChangedCb redCallbackObject
+---@field highLevelState gamedataNPCHighLevelState
+---@field mainPreset TweakDBID
+---@field secondaryPreset TweakDBID
+---@field puppetBlackboard gameIBlackboard
+---@field uiWantedBarBB gameIBlackboard
+---@field hideUIElements Bool
+---@field enabledSenses Bool
+---@field shouldStartDetectingPlayerCached Bool
+---@field wasPlayerLastReactionTarget Bool
+---@field logSource ESenseLogSource
+---@field playerTakedownStateCallbackID redCallbackObject
+---@field playerUpperBodyStateCallbackID redCallbackObject
+---@field playerCarryingStateCallbackID redCallbackObject
+---@field playerInPerception PlayerPuppet
 senseComponent = {}
 
 ---@param fields? senseComponent
 ---@return senseComponent
-function senseComponent.new(fields) return end
+function senseComponent.new(fields) end
 
 ---@param obj gameObject
 ---@param target entEntity
 ---@param delay? Float
 ---@return nil
-function senseComponent.RequestDetectionOverwriteReevaluation(obj, target, delay) return end
+function senseComponent.RequestDetectionOverwriteReevaluation(obj, target, delay) end
 
 ---@param obj gameObject
 ---@param presetName String
 ---@return nil
-function senseComponent.RequestMainPresetChange(obj, presetName) return end
+function senseComponent.RequestMainPresetChange(obj, presetName) end
 
 ---@param obj gameObject
 ---@param presetID TweakDBID|string
 ---@param mainPreset Bool
 ---@return nil
-function senseComponent.RequestPresetChange(obj, presetID, mainPreset) return end
+function senseComponent.RequestPresetChange(obj, presetID, mainPreset) end
 
 ---@param obj gameObject
 ---@param presetName String
 ---@return nil
-function senseComponent.RequestSecondaryPresetChange(obj, presetName) return end
+function senseComponent.RequestSecondaryPresetChange(obj, presetName) end
 
 ---@param obj gameObject
 ---@param presetID TweakDBID|string
 ---@return nil
-function senseComponent.RequestSecondaryPresetChange(obj, presetID) return end
+function senseComponent.RequestSecondaryPresetChange(obj, presetID) end
 
 ---@param obj gameObject
 ---@return nil
-function senseComponent.ResetPreset(obj) return end
+function senseComponent.ResetPreset(obj) end
 
 ---@param owner entEntity
 ---@param target entEntity
 ---@return Bool
-function senseComponent.ShouldIgnoreIfPlayerCompanion(owner, target) return end
+function senseComponent.ShouldIgnoreIfPlayerCompanion(owner, target) end
 
 ---@param target senseComponent
 ---@param detection Float
 ---@return Bool
-function senseComponent:AddDetection(target, detection) return end
+function senseComponent:AddDetection(target, detection) end
 
 ---@return nil
-function senseComponent:CreateHearingMappin() return end
+function senseComponent:CreateHearingMappin() end
 
 ---@return nil
-function senseComponent:CreateSenseMappin() return end
+function senseComponent:CreateSenseMappin() end
 
 ---@return TweakDBID
-function senseComponent:GetCurrentPreset() return end
+function senseComponent:GetCurrentPreset() end
 
 ---@return nil
-function senseComponent:GetCurrentPreset() return end
+function senseComponent:GetCurrentPreset() end
 
 ---@param entityID entEntityID
 ---@return Float
-function senseComponent:GetDetection(entityID) return end
+function senseComponent:GetDetection(entityID) end
 
 ---@param entityID entEntityID
 ---@return Float
-function senseComponent:GetDetectionMultiplier(entityID) return end
+function senseComponent:GetDetectionMultiplier(entityID) end
 
 ---@param traceType senseAdditionalTraceType
 ---@return Float
-function senseComponent:GetDistToTraceEndFromPosToMainTrackedObject(traceType) return end
+function senseComponent:GetDistToTraceEndFromPosToMainTrackedObject(traceType) end
 
 ---@return senseIShape[]
-function senseComponent:GetSenseShapes() return end
+function senseComponent:GetSenseShapes() end
 
 ---@param entityID entEntityID
 ---@return Float
-function senseComponent:GetTimeSinceLastEntityVisible(entityID) return end
+function senseComponent:GetTimeSinceLastEntityVisible(entityID) end
 
 ---@param object gameObject
 ---@return Float
-function senseComponent:GetVisibilityTraceEndToAgentDist(object) return end
+function senseComponent:GetVisibilityTraceEndToAgentDist(object) end
 
 ---@param attitudeGroup CName|string
 ---@return Bool
-function senseComponent:HasDetectionAttitudeOverwrite(attitudeGroup) return end
+function senseComponent:HasDetectionAttitudeOverwrite(attitudeGroup) end
 
 ---@param entityID entEntityID
 ---@return Bool
-function senseComponent:HasDetectionOverwrite(entityID) return end
+function senseComponent:HasDetectionOverwrite(entityID) end
 
 ---@return Bool
-function senseComponent:HasHearingMappin() return end
+function senseComponent:HasHearingMappin() end
 
 ---@return Bool
-function senseComponent:HasSenseMappin() return end
+function senseComponent:HasSenseMappin() end
 
 ---@param ignoreLOD Bool
 ---@return nil
-function senseComponent:IgnoreLODChange(ignoreLOD) return end
+function senseComponent:IgnoreLODChange(ignoreLOD) end
 
 ---@param object gameObject
 ---@return Bool
-function senseComponent:IsAgentVisible(object) return end
+function senseComponent:IsAgentVisible(object) end
 
 ---@return Bool
-function senseComponent:IsHearingEnabled() return end
+function senseComponent:IsHearingEnabled() end
 
 ---@param attitudeGroup CName|string
 ---@return Bool
-function senseComponent:RemoveDetectionAttitudeOverwrite(attitudeGroup) return end
+function senseComponent:RemoveDetectionAttitudeOverwrite(attitudeGroup) end
 
 ---@param entityID entEntityID
 ---@return Bool
-function senseComponent:RemoveDetectionOverwrite(entityID) return end
+function senseComponent:RemoveDetectionOverwrite(entityID) end
 
 ---@param targetObjectType gamedataSenseObjectType
 ---@param attitudeToTarget EAIAttitude
 ---@return Bool
-function senseComponent:RemoveForcedSensesTracing(targetObjectType, attitudeToTarget) return end
+function senseComponent:RemoveForcedSensesTracing(targetObjectType, attitudeToTarget) end
 
 ---@return nil
-function senseComponent:RemoveHearingMappin() return end
+function senseComponent:RemoveHearingMappin() end
 
 ---@return nil
-function senseComponent:RemoveSenseMappin() return end
+function senseComponent:RemoveSenseMappin() end
 
 ---@return nil
-function senseComponent:RequestRemovingSenseMappin() return end
+function senseComponent:RequestRemovingSenseMappin() end
 
 ---@param entityID entEntityID
 ---@return Bool
-function senseComponent:ResetDetection(entityID) return end
+function senseComponent:ResetDetection(entityID) end
 
 ---@param isAggresive Bool
 ---@return nil
-function senseComponent:SetCrowdsAggressiveState(isAggresive) return end
+function senseComponent:SetCrowdsAggressiveState(isAggresive) end
 
 ---@param attitudeGroup CName|string
 ---@return nil
-function senseComponent:SetDetectionAttitudeOverwrite(attitudeGroup) return end
+function senseComponent:SetDetectionAttitudeOverwrite(attitudeGroup) end
 
 ---@param coolDown Float
 ---@return nil
-function senseComponent:SetDetectionCoolDown(coolDown) return end
+function senseComponent:SetDetectionCoolDown(coolDown) end
 
 ---@param detectionDrop Float
 ---@return nil
-function senseComponent:SetDetectionDropFactor(detectionDrop) return end
+function senseComponent:SetDetectionDropFactor(detectionDrop) end
 
 ---@param detection Float
 ---@param shapeName? CName|string
 ---@return Bool
-function senseComponent:SetDetectionFactor(detection, shapeName) return end
+function senseComponent:SetDetectionFactor(detection, shapeName) end
 
 ---@param range Float
 ---@return Bool
-function senseComponent:SetDetectionMinRange(range) return end
+function senseComponent:SetDetectionMinRange(range) end
 
 ---@param entityID entEntityID
 ---@param multiplier Float
 ---@return nil
-function senseComponent:SetDetectionMultiplier(entityID, multiplier) return end
+function senseComponent:SetDetectionMultiplier(entityID, multiplier) end
 
 ---@param entityID entEntityID
 ---@return nil
-function senseComponent:SetDetectionOverwrite(entityID) return end
+function senseComponent:SetDetectionOverwrite(entityID) end
 
 ---@param targetObjectType gamedataSenseObjectType
 ---@param attitudeToTarget EAIAttitude
 ---@return Bool
-function senseComponent:SetForcedSensesTracing(targetObjectType, attitudeToTarget) return end
+function senseComponent:SetForcedSensesTracing(targetObjectType, attitudeToTarget) end
 
 ---@param hasTechWeapon Bool
 ---@return Bool
-function senseComponent:SetHasPierceableWapon(hasTechWeapon) return end
+function senseComponent:SetHasPierceableWapon(hasTechWeapon) end
 
 ---@param enabled Bool
 ---@return nil
-function senseComponent:SetHearingEnabled(enabled) return end
+function senseComponent:SetHearingEnabled(enabled) end
 
 ---@param isPlayerInteresting Bool
 ---@return nil
-function senseComponent:SetIsPlayerInterestingFromSecuritySystemPOV(isPlayerInteresting) return end
+function senseComponent:SetIsPlayerInterestingFromSecuritySystemPOV(isPlayerInteresting) end
 
 ---@param target gameObject
 ---@return Bool
-function senseComponent:SetMainTrackedObject(target) return end
+function senseComponent:SetMainTrackedObject(target) end
 
 ---@param traceType senseAdditionalTraceType
 ---@param zOffset Float
 ---@return Bool
-function senseComponent:SetMainTrackedObjectTraceZOffset(traceType, zOffset) return end
+function senseComponent:SetMainTrackedObjectTraceZOffset(traceType, zOffset) end
 
 ---@param objectType gamedataSenseObjectType
 ---@return Bool
-function senseComponent:SetSensorObjectType(objectType) return end
+function senseComponent:SetSensorObjectType(objectType) end
 
 ---@param overrideDistance Float
 ---@return Bool
-function senseComponent:SetTickDistanceOverride(overrideDistance) return end
+function senseComponent:SetTickDistanceOverride(overrideDistance) end
 
 ---@param objectType gamedataSenseObjectType
 ---@return Bool
-function senseComponent:SetVisibleObjectType(objectType) return end
+function senseComponent:SetVisibleObjectType(objectType) end
 
 ---@param ignoredVisionBlockers senseVisionBlockerTypeFlags
 ---@return Bool
-function senseComponent:SetVisionBlockersIgnoredBySensor(ignoredVisionBlockers) return end
+function senseComponent:SetVisionBlockersIgnoredBySensor(ignoredVisionBlockers) end
 
 ---@return nil
-function senseComponent:UpdateCrowdMappin() return end
+function senseComponent:UpdateCrowdMappin() end
 
 ---@param presetID TweakDBID|string
 ---@return Bool
-function senseComponent:UsePreset(presetID) return end
+function senseComponent:UsePreset(presetID) end
 
----@protected
 ---@param evt AddToBlacklistEvent
 ---@return Bool
-function senseComponent:OnAddToBlacklistEvent(evt) return end
+function senseComponent:OnAddToBlacklistEvent(evt) end
 
----@protected
 ---@param evt gameeventsAttitudeChangedEvent
 ---@return Bool
-function senseComponent:OnAttitudeChanged(evt) return end
+function senseComponent:OnAttitudeChanged(evt) end
 
----@protected
 ---@param evt gameeventsAttitudeGroupChangedEvent
 ---@return Bool
-function senseComponent:OnAttitudeGroupChanged(evt) return end
+function senseComponent:OnAttitudeGroupChanged(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function senseComponent:OnCurrentWantedLevelChanged(value) return end
+function senseComponent:OnCurrentWantedLevelChanged(value) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function senseComponent:OnDeath(evt) return end
+function senseComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function senseComponent:OnDefeated(evt) return end
+function senseComponent:OnDefeated(evt) end
 
----@protected
 ---@param evt senseOnDetectedEvent
 ---@return Bool
-function senseComponent:OnDetectedEvent(evt) return end
+function senseComponent:OnDetectedEvent(evt) end
 
----@protected
 ---@param evt senseOnRemoveDetection
 ---@return Bool
-function senseComponent:OnDetectionReachedZero(evt) return end
+function senseComponent:OnDetectionReachedZero(evt) end
 
----@protected
 ---@param evt gameHACK_UseSensePresetEvent
 ---@return Bool
-function senseComponent:OnHACK_UseSensePresetEvent(evt) return end
+function senseComponent:OnHACK_UseSensePresetEvent(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function senseComponent:OnHighLevelChanged(value) return end
+function senseComponent:OnHighLevelChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function senseComponent:OnReactionChanged(value) return end
+function senseComponent:OnReactionChanged(value) end
 
----@protected
 ---@param evt ReevaluateDetectionOverwriteEvent
 ---@return Bool
-function senseComponent:OnReevaluateDetectionOverwriteEvent(evt) return end
+function senseComponent:OnReevaluateDetectionOverwriteEvent(evt) end
 
----@protected
 ---@param evt RemoveFromBlacklistEvent
 ---@return Bool
-function senseComponent:OnRemoveFromBlacklistEvent(evt) return end
+function senseComponent:OnRemoveFromBlacklistEvent(evt) end
 
----@protected
 ---@param evt gameeventsResurrectEvent
 ---@return Bool
-function senseComponent:OnResurrect(evt) return end
+function senseComponent:OnResurrect(evt) end
 
----@protected
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return Bool
-function senseComponent:OnSecurityAreaCrossingPerimeter(evt) return end
+function senseComponent:OnSecurityAreaCrossingPerimeter(evt) end
 
----@protected
 ---@param evt senseEnabledEvent
 ---@return Bool
-function senseComponent:OnSenseEnabledEvent(evt) return end
+function senseComponent:OnSenseEnabledEvent(evt) end
 
----@protected
 ---@param evt senseInitializeEvent
 ---@return Bool
-function senseComponent:OnSenseInitialize(evt) return end
+function senseComponent:OnSenseInitialize(evt) end
 
----@protected
 ---@param evt sensePresetChangeEvent
 ---@return Bool
-function senseComponent:OnSensePresetChangeEvent(evt) return end
+function senseComponent:OnSensePresetChangeEvent(evt) end
 
----@protected
 ---@param evt senseVisibilityEvent
 ---@return Bool
-function senseComponent:OnSenseVisibilityEvent(evt) return end
+function senseComponent:OnSenseVisibilityEvent(evt) end
 
----@protected
 ---@param evt senseSensorOwnerChangedEvent
 ---@return Bool
-function senseComponent:OnSensorOwnerChangedEvent(evt) return end
+function senseComponent:OnSensorOwnerChangedEvent(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function senseComponent:OnStatusEffectApplied(evt) return end
+function senseComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt AIbehaviorSuspiciousObjectEvent
 ---@return Bool
-function senseComponent:OnSuspiciousObjectEvent(evt) return end
+function senseComponent:OnSuspiciousObjectEvent(evt) end
 
----@protected
 ---@param evt TargetAssessmentRequest
 ---@return Bool
-function senseComponent:OnTargetAssessmentRequest(evt) return end
+function senseComponent:OnTargetAssessmentRequest(evt) end
 
 ---@return ScriptedPuppet
-function senseComponent:GetConstOwnerPuppet() return end
+function senseComponent:GetConstOwnerPuppet() end
 
----@private
 ---@return ScriptGameInstance
-function senseComponent:GetGame() return end
+function senseComponent:GetGame() end
 
 ---@return gameObject
-function senseComponent:GetOwner() return end
+function senseComponent:GetOwner() end
 
 ---@return SensorDevice
-function senseComponent:GetOwnerDevice() return end
+function senseComponent:GetOwnerDevice() end
 
 ---@return ScriptedPuppet
-function senseComponent:GetOwnerPuppet() return end
+function senseComponent:GetOwnerPuppet() end
 
----@private
 ---@return SecuritySystemControllerPS
-function senseComponent:GetSecuritySystem() return end
+function senseComponent:GetSecuritySystem() end
 
 ---@return Bool
-function senseComponent:GetShouldStartDetectingPlayerCached() return end
+function senseComponent:GetShouldStartDetectingPlayerCached() end
 
----@private
 ---@return nil
-function senseComponent:InitDetectionOverwrite() return end
+function senseComponent:InitDetectionOverwrite() end
 
----@private
 ---@return Bool
-function senseComponent:IsOwnerFriendlyTowardsPlayer() return end
+function senseComponent:IsOwnerFriendlyTowardsPlayer() end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function senseComponent:IsOwnerFriendlyTowardsTarget(target) return end
+function senseComponent:IsOwnerFriendlyTowardsTarget(target) end
 
----@private
 ---@return Bool
-function senseComponent:IsOwnerHostileTowardsPlayer() return end
+function senseComponent:IsOwnerHostileTowardsPlayer() end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function senseComponent:IsOwnerHostileTowardsTarget(target) return end
+function senseComponent:IsOwnerHostileTowardsTarget(target) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function senseComponent:IsPlayerRecentlyDroppedThreat(target) return end
+function senseComponent:IsPlayerRecentlyDroppedThreat(target) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function senseComponent:IsTargetInteresting(target) return end
+function senseComponent:IsTargetInteresting(target) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function senseComponent:IsTargetInterestingForSecuritySystem(target) return end
+function senseComponent:IsTargetInterestingForSecuritySystem(target) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function senseComponent:IsTargetPlayer(target) return end
+function senseComponent:IsTargetPlayer(target) end
 
----@private
 ---@param category CName|string
 ---@param message String
 ---@return nil
-function senseComponent:Log(category, message) return end
+function senseComponent:Log(category, message) end
 
----@private
 ---@param category CName|string
 ---@param message String
 ---@return nil
-function senseComponent:LogBySource(category, message) return end
+function senseComponent:LogBySource(category, message) end
 
----@private
 ---@param suffix String
 ---@return CName
-function senseComponent:LogCategory(suffix) return end
+function senseComponent:LogCategory(suffix) end
 
----@private
 ---@return Bool
-function senseComponent:LogEnabled() return end
+function senseComponent:LogEnabled() end
 
 ---@param message String
 ---@return nil
-function senseComponent:LogInfo(message) return end
+function senseComponent:LogInfo(message) end
 
 ---@param source ESenseLogSource
 ---@param message String
 ---@return nil
-function senseComponent:LogStart(source, message) return end
+function senseComponent:LogStart(source, message) end
 
 ---@param message String
 ---@param value Bool
 ---@return nil
-function senseComponent:LogTrueFalse(message, value) return end
+function senseComponent:LogTrueFalse(message, value) end
 
----@private
 ---@return nil
-function senseComponent:OnDetach() return end
+function senseComponent:OnDetach() end
 
----@private
 ---@param carrying Bool
 ---@return nil
-function senseComponent:OnPlayerCarryingStateChange(carrying) return end
+function senseComponent:OnPlayerCarryingStateChange(carrying) end
 
----@private
 ---@param takedownState Int32
 ---@return nil
-function senseComponent:OnPlayerTakedownStateChange(takedownState) return end
+function senseComponent:OnPlayerTakedownStateChange(takedownState) end
 
----@private
 ---@param upperBodyState Int32
 ---@return nil
-function senseComponent:OnPlayerUpperBodyStateChange(upperBodyState) return end
+function senseComponent:OnPlayerUpperBodyStateChange(upperBodyState) end
 
----@private
 ---@param player PlayerPuppet
 ---@return nil
-function senseComponent:PlayerEnteredPerception(player) return end
+function senseComponent:PlayerEnteredPerception(player) end
 
----@private
 ---@param player PlayerPuppet
 ---@return nil
-function senseComponent:PlayerExitedPercpetion(player) return end
+function senseComponent:PlayerExitedPercpetion(player) end
 
 ---@param target gameObject
 ---@param isVisible? Bool
 ---@return Bool
-function senseComponent:ReevaluateDetectionOverwrite(target, isVisible) return end
+function senseComponent:ReevaluateDetectionOverwrite(target, isVisible) end
 
----@private
 ---@return Bool
-function senseComponent:ReevaluatePlayerInterestFromSecuritySystemPOV() return end
+function senseComponent:ReevaluatePlayerInterestFromSecuritySystemPOV() end
 
 ---@param target ScriptedPuppet
 ---@return nil
-function senseComponent:RefreshCombatDetectionMultiplier(target) return end
+function senseComponent:RefreshCombatDetectionMultiplier(target) end
 
----@private
 ---@param target gameObject
 ---@param isVisible Bool
 ---@return nil
-function senseComponent:SendDetectionRiseEvent(target, isVisible) return end
+function senseComponent:SendDetectionRiseEvent(target, isVisible) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function senseComponent:ShouldStartDetecting(target) return end
+function senseComponent:ShouldStartDetecting(target) end
 
 ---@param player PlayerPuppet
 ---@return Bool
-function senseComponent:ShouldStartDetectingPlayer(player) return end
+function senseComponent:ShouldStartDetectingPlayer(player) end
 
 ---@param condition Bool
 ---@return nil
-function senseComponent:ToggleComponent(condition) return end
+function senseComponent:ToggleComponent(condition) end
 
 ---@param condition Bool
 ---@return nil
-function senseComponent:ToggleSenses(condition) return end
+function senseComponent:ToggleSenses(condition) end
 
 ---@return Bool
-function senseComponent:TryCreateSenseMappin() return end
+function senseComponent:TryCreateSenseMappin() end
 
 ---@return nil
-function senseComponent:UpdateVisionBlockersIgnoredBySensor() return end
+function senseComponent:UpdateVisionBlockersIgnoredBySensor() end

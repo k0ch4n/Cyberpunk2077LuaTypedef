@@ -5,13 +5,13 @@ gamedataNewPerkSlot_Record = {}
 
 ---@param fields? gamedataNewPerkSlot_Record
 ---@return gamedataNewPerkSlot_Record
-function gamedataNewPerkSlot_Record.new(fields) return end
+function gamedataNewPerkSlot_Record.new(fields) end
 
 ---@return String
-function gamedataNewPerkSlot_Record:EnumComment() return end
+function gamedataNewPerkSlot_Record:EnumComment() end
 
 ---@return CName
-function gamedataNewPerkSlot_Record:EnumName() return end
+function gamedataNewPerkSlot_Record:EnumName() end
 
 ---@return gamedataNewPerkSlotType
-function gamedataNewPerkSlot_Record:Type() return end
+function gamedataNewPerkSlot_Record:Type() end

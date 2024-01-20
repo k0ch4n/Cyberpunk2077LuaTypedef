@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class animAnimVariable: ISerializable
----@field public name CName
+---@field name CName
 animAnimVariable = {}

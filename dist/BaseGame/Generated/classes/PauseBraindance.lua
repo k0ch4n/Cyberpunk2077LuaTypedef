@@ -5,7 +5,7 @@ PauseBraindance = {}
 
 ---@param fields? PauseBraindance
 ---@return PauseBraindance
-function PauseBraindance.new(fields) return end
+function PauseBraindance.new(fields) end
 
 ---@return String
-function PauseBraindance:GetFriendlyDescription() return end
+function PauseBraindance:GetFriendlyDescription() end

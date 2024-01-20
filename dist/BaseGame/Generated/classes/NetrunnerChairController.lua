@@ -5,7 +5,7 @@ NetrunnerChairController = {}
 
 ---@param fields? NetrunnerChairController
 ---@return NetrunnerChairController
-function NetrunnerChairController.new(fields) return end
+function NetrunnerChairController.new(fields) end
 
 ---@return NetrunnerChairControllerPS
-function NetrunnerChairController:GetPS() return end
+function NetrunnerChairController:GetPS() end

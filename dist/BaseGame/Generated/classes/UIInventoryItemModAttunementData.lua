@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UIInventoryItemModAttunementData: IScriptable
----@field public Name String
----@field public Icon CName
+---@field Name String
+---@field Icon CName
 UIInventoryItemModAttunementData = {}
 
 ---@param fields? UIInventoryItemModAttunementData
 ---@return UIInventoryItemModAttunementData
-function UIInventoryItemModAttunementData.new(fields) return end
+function UIInventoryItemModAttunementData.new(fields) end

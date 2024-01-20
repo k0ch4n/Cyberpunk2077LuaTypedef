@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiUpdateInputHintEvent: redEvent
----@field public data gameuiInputHintData
----@field public show Bool
----@field public targetHintContainer CName
+---@field data gameuiInputHintData
+---@field show Bool
+---@field targetHintContainer CName
 gameuiUpdateInputHintEvent = {}
 
 ---@param fields? gameuiUpdateInputHintEvent
 ---@return gameuiUpdateInputHintEvent
-function gameuiUpdateInputHintEvent.new(fields) return end
+function gameuiUpdateInputHintEvent.new(fields) end

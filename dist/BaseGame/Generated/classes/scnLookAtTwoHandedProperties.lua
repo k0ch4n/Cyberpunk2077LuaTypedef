@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnLookAtTwoHandedProperties
----@field public enableFactor Float
----@field public override Float
----@field public mode Int32
+---@field enableFactor Float
+---@field override Float
+---@field mode Int32
 scnLookAtTwoHandedProperties = {}
 
 ---@param fields? scnLookAtTwoHandedProperties
 ---@return scnLookAtTwoHandedProperties
-function scnLookAtTwoHandedProperties.new(fields) return end
+function scnLookAtTwoHandedProperties.new(fields) end

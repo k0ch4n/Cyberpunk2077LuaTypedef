@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class physicsSimulationFilter
----@field public mask1 Uint64
----@field public mask2 Uint64
+---@field mask1 Uint64
+---@field mask2 Uint64
 physicsSimulationFilter = {}
 
 ---@param fields? physicsSimulationFilter
 ---@return physicsSimulationFilter
-function physicsSimulationFilter.new(fields) return end
+function physicsSimulationFilter.new(fields) end
 
 ---@return physicsSimulationFilter
-function physicsSimulationFilter.ALL() return end
+function physicsSimulationFilter.ALL() end
 
 ---@param preset CName|string
 ---@return nil, physicsSimulationFilter f
-function physicsSimulationFilter.SimulationFilter_BuildFromPreset(preset) return end
+function physicsSimulationFilter.SimulationFilter_BuildFromPreset(preset) end
 
 ---@return physicsSimulationFilter
-function physicsSimulationFilter.ZERO() return end
+function physicsSimulationFilter.ZERO() end

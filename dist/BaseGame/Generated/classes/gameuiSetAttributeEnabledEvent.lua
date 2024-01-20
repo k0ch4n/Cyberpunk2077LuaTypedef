@@ -5,4 +5,4 @@ gameuiSetAttributeEnabledEvent = {}
 
 ---@param fields? gameuiSetAttributeEnabledEvent
 ---@return gameuiSetAttributeEnabledEvent
-function gameuiSetAttributeEnabledEvent.new(fields) return end
+function gameuiSetAttributeEnabledEvent.new(fields) end

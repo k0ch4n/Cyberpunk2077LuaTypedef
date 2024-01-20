@@ -1,122 +1,106 @@
 ---@meta
 
 ---@class hudCameraController: gameuiHUDGameController
----@field private pitch_min Float
----@field private pitch_max Float
----@field private yaw_min Float
----@field private yaw_max Float
----@field private tele_min Float
----@field private tele_max Float
----@field private tele_scale Float
----@field private max_zoom_level Float
----@field private dateAndTimeHolder inkHorizontalPanelWidgetReference
----@field private recHolder inkCanvasWidgetReference
----@field private Date inkTextWidgetReference
----@field private Timer inkTextWidgetReference
----@field private CameraID inkTextWidgetReference
----@field private timerHrs inkTextWidgetReference
----@field private timerMin inkTextWidgetReference
----@field private timerSec inkTextWidgetReference
----@field private watermark inkWidgetReference
----@field private yawCounter inkTextWidgetReference
----@field private pitchCounter inkTextWidgetReference
----@field private pitch inkCanvasWidgetReference
----@field private yaw inkCanvasWidgetReference
----@field private tele inkCanvasWidgetReference
----@field private teleScale inkCanvasWidgetReference
----@field private psmBlackboard gameIBlackboard
----@field private tcsBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private tcs_BBID redCallbackObject
----@field private deviceChain_BBID redCallbackObject
----@field private root inkCompoundWidget
----@field private currentZoom Float
----@field private controlledObjectRef gameObject
----@field private alpha_fadein inkanimDefinition
----@field private AnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private ownerObject gameObject
----@field private maxZoomLevel Int32
----@field private overclockListener OverclockHudListener
----@field private isOverclockActive Bool
----@field private canActivateOverclock Bool
+---@field pitch_min Float
+---@field pitch_max Float
+---@field yaw_min Float
+---@field yaw_max Float
+---@field tele_min Float
+---@field tele_max Float
+---@field tele_scale Float
+---@field max_zoom_level Float
+---@field dateAndTimeHolder inkHorizontalPanelWidgetReference
+---@field recHolder inkCanvasWidgetReference
+---@field Date inkTextWidgetReference
+---@field Timer inkTextWidgetReference
+---@field CameraID inkTextWidgetReference
+---@field timerHrs inkTextWidgetReference
+---@field timerMin inkTextWidgetReference
+---@field timerSec inkTextWidgetReference
+---@field watermark inkWidgetReference
+---@field yawCounter inkTextWidgetReference
+---@field pitchCounter inkTextWidgetReference
+---@field pitch inkCanvasWidgetReference
+---@field yaw inkCanvasWidgetReference
+---@field tele inkCanvasWidgetReference
+---@field teleScale inkCanvasWidgetReference
+---@field psmBlackboard gameIBlackboard
+---@field tcsBlackboard gameIBlackboard
+---@field PSM_BBID redCallbackObject
+---@field tcs_BBID redCallbackObject
+---@field deviceChain_BBID redCallbackObject
+---@field root inkCompoundWidget
+---@field currentZoom Float
+---@field controlledObjectRef gameObject
+---@field alpha_fadein inkanimDefinition
+---@field AnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field ownerObject gameObject
+---@field maxZoomLevel Int32
+---@field overclockListener OverclockHudListener
+---@field isOverclockActive Bool
+---@field canActivateOverclock Bool
 hudCameraController = {}
 
 ---@param fields? hudCameraController
 ---@return hudCameraController
-function hudCameraController.new(fields) return end
+function hudCameraController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function hudCameraController:OnAction(action, consumer) return end
+function hudCameraController:OnAction(action, consumer) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function hudCameraController:OnChangeControlledDevice(value) return end
+function hudCameraController:OnChangeControlledDevice(value) end
 
----@protected
 ---@param evt DelayedHUDInitializeEvent
 ---@return Bool
-function hudCameraController:OnDelayedHUDInitializeEvent(evt) return end
+function hudCameraController:OnDelayedHUDInitializeEvent(evt) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function hudCameraController:OnEndLoop(proxy) return end
+function hudCameraController:OnEndLoop(proxy) end
 
----@protected
 ---@return Bool
-function hudCameraController:OnInitialize() return end
+function hudCameraController:OnInitialize() end
 
----@protected
 ---@param overclockEvent OverclockHudEvent
 ---@return Bool
-function hudCameraController:OnOverclockHudEvent(overclockEvent) return end
+function hudCameraController:OnOverclockHudEvent(overclockEvent) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudCameraController:OnPlayerAttach(playerPuppet) return end
+function hudCameraController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudCameraController:OnPlayerDetach(playerPuppet) return end
+function hudCameraController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function hudCameraController:OnTakeControllOverDevice(value) return end
+function hudCameraController:OnTakeControllOverDevice(value) end
 
----@protected
 ---@return Bool
-function hudCameraController:OnUninitialize() return end
+function hudCameraController:OnUninitialize() end
 
----@protected
 ---@param curZoom Float
 ---@return Bool
-function hudCameraController:OnZoomChange(curZoom) return end
+function hudCameraController:OnZoomChange(curZoom) end
 
----@protected
 ---@return nil
-function hudCameraController:ChangeCameraName() return end
+function hudCameraController:ChangeCameraName() end
 
----@protected
 ---@param obj gameObject
 ---@return String
-function hudCameraController:GetEntityNameFromEntityID(obj) return end
+function hudCameraController:GetEntityNameFromEntityID(obj) end
 
----@private
 ---@return nil
-function hudCameraController:ResolveState() return end
+function hudCameraController:ResolveState() end
 
----@private
 ---@return nil
-function hudCameraController:UpdateRulers() return end
+function hudCameraController:UpdateRulers() end
 
----@private
 ---@return nil
-function hudCameraController:UpdateTime() return end
+function hudCameraController:UpdateTime() end

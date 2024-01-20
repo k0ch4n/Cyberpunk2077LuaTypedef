@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gametargetingSystemTargetFilterResult: IScriptable
----@field public hitEntId entEntityID
----@field public hitComponent entIComponent
+---@field hitEntId entEntityID
+---@field hitComponent entIComponent
 gametargetingSystemTargetFilterResult = {}
 
 ---@param fields? gametargetingSystemTargetFilterResult
 ---@return gametargetingSystemTargetFilterResult
-function gametargetingSystemTargetFilterResult.new(fields) return end
+function gametargetingSystemTargetFilterResult.new(fields) end
 
 ---@return nil, gametargetingSystemTargetFilterResult cloneDestination
-function gametargetingSystemTargetFilterResult:OnClone() return end
+function gametargetingSystemTargetFilterResult:OnClone() end
 
 ---@return nil
-function gametargetingSystemTargetFilterResult:OnReset() return end
+function gametargetingSystemTargetFilterResult:OnReset() end

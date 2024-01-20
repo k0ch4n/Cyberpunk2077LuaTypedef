@@ -5,4 +5,4 @@ worldStaticOccluderMeshNodeInstance = {}
 
 ---@param fields? worldStaticOccluderMeshNodeInstance
 ---@return worldStaticOccluderMeshNodeInstance
-function worldStaticOccluderMeshNodeInstance.new(fields) return end
+function worldStaticOccluderMeshNodeInstance.new(fields) end

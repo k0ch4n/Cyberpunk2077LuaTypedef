@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VehicleLightQuestToggleEvent: redEvent
----@field public toggle Bool
----@field public lightType vehicleELightType
+---@field toggle Bool
+---@field lightType vehicleELightType
 VehicleLightQuestToggleEvent = {}
 
 ---@param fields? VehicleLightQuestToggleEvent
 ---@return VehicleLightQuestToggleEvent
-function VehicleLightQuestToggleEvent.new(fields) return end
+function VehicleLightQuestToggleEvent.new(fields) end
 
 ---@return String
-function VehicleLightQuestToggleEvent:GetFriendlyDescription() return end
+function VehicleLightQuestToggleEvent:GetFriendlyDescription() end

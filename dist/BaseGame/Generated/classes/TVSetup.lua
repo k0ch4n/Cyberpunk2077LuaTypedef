@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TVSetup
----@field public channels STvChannel[]
----@field public initialChannel Int32
----@field public initialGlobalTvChannel TweakDBID
----@field public muteInterface Bool
----@field public isInteractive Bool
----@field public isGlobalTvOnly Bool
+---@field channels STvChannel[]
+---@field initialChannel Int32
+---@field initialGlobalTvChannel TweakDBID
+---@field muteInterface Bool
+---@field isInteractive Bool
+---@field isGlobalTvOnly Bool
 TVSetup = {}
 
 ---@param fields? TVSetup
 ---@return TVSetup
-function TVSetup.new(fields) return end
+function TVSetup.new(fields) end

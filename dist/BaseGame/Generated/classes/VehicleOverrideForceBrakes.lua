@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class VehicleOverrideForceBrakes: ActionBool
----@field public isRequestedFormOtherDevice Bool
+---@field isRequestedFormOtherDevice Bool
 VehicleOverrideForceBrakes = {}
 
 ---@param fields? VehicleOverrideForceBrakes
 ---@return VehicleOverrideForceBrakes
-function VehicleOverrideForceBrakes.new(fields) return end
+function VehicleOverrideForceBrakes.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function VehicleOverrideForceBrakes.IsAvailable(device) return end
+function VehicleOverrideForceBrakes.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function VehicleOverrideForceBrakes.IsClearanceValid(clearance) return end
+function VehicleOverrideForceBrakes.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function VehicleOverrideForceBrakes.IsDefaultConditionMet(device, context) return end
+function VehicleOverrideForceBrakes.IsDefaultConditionMet(device, context) end
 
 ---@return Int32
-function VehicleOverrideForceBrakes:GetBaseCost() return end
+function VehicleOverrideForceBrakes:GetBaseCost() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function VehicleOverrideForceBrakes:GetInteractionIcon() return end
+function VehicleOverrideForceBrakes:GetInteractionIcon() end
 
 ---@return String
-function VehicleOverrideForceBrakes:GetTweakDBChoiceRecord() return end
+function VehicleOverrideForceBrakes:GetTweakDBChoiceRecord() end
 
 ---@param isDeviceUnderControl Bool
 ---@param createdAsQuickHack? Bool
 ---@return nil
-function VehicleOverrideForceBrakes:SetProperties(isDeviceUnderControl, createdAsQuickHack) return end
+function VehicleOverrideForceBrakes:SetProperties(isDeviceUnderControl, createdAsQuickHack) end

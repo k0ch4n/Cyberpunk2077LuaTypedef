@@ -1,1400 +1,1272 @@
 ---@meta
 
 ---@class ScriptedPuppet: gamePuppet
----@field private aiController AIHumanComponent
----@field private movePolicies movePoliciesComponent
----@field private aiStateHandlerComponent AIPhaseStateEventHandlerComponent
----@field protected hitReactionComponent HitReactionComponent
----@field private signalHandlerComponent AISignalHandlerComponent
----@field private reactionComponent ReactionManagerComponent
----@field private dismembermentComponent gameDismembermentComponent
----@field private hitRepresantation entSlotComponent
----@field private interactionComponent gameinteractionsComponent
----@field private slotComponent entSlotComponent
----@field private sensesComponent senseComponent
----@field protected visibleObjectComponent senseVisibleObjectComponent
----@field public visibleObjectPositionUpdated Bool
----@field private sensorObjectComponent senseSensorObjectComponent
----@field private targetTrackerComponent AITargetTrackerComponent
----@field private targetingComponentsArray gameTargetingComponent[]
----@field private statesComponent NPCStatesComponent
----@field private fxResourceMapper FxResourceMapperComponent
----@field private linkedStatusEffect LinkedStatusEffect
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected crowdMemberComponent CrowdMemberBaseComponent
----@field private inventoryComponent gameInventory
----@field private objectSelectionComponent AIObjectSelectionComponent
----@field private transformHistoryComponent entTransformHistoryComponent
----@field private animationControllerComponent entAnimationControllerComponent
----@field private bumpComponent gameinfluenceBumpComponent
----@field private isCrowd Bool
----@field private incapacitatedOnAttach Bool
----@field private isIconic Bool
----@field private combatHUDManager CombatHUDManager
----@field private exposePosition Bool
----@field private puppetStateBlackboard gameIBlackboard
----@field private customBlackboard gameIBlackboard
----@field private securityAreaCallbackID Uint32
----@field private customAIComponents AICustomComponents[]
----@field protected listeners PuppetListener[]
----@field protected securitySupportListener SecuritySupportListener
----@field private shouldBeRevealedStorage RevealRequestsStorage
----@field private inputProcessed Bool
----@field private shouldSpawnBloodPuddle Bool
----@field private bloodPuddleSpawned Bool
----@field private skipDeathAnimation Bool
----@field private hitHistory HitHistory
----@field private currentWorkspotTags CName[]
----@field private lootQuality gamedataQuality
----@field private hasQuestItems Bool
----@field private activeQualityRangeInteraction CName
----@field private droppedWeapons Bool
----@field private weakspotComponent gameWeakspotComponent
----@field private breachControllerComponent gameBreachControllerComponent
----@field private highlightData FocusForcedHighlightData
----@field private currentTagsStack Uint32
----@field private killer entEntity
----@field private objectActionsCallbackCtrl gameObjectActionsCallbackController
----@field private isActiveCached AIUtilsCachedBoolValue
----@field private isCyberpsycho Bool
----@field private isCivilian Bool
----@field private isPolice Bool
----@field private isGanger Bool
----@field private currentlyUploadingAction ScriptableDeviceAction
----@field private gameplayRoleComponent GameplayRoleComponent
----@field private activeQuickhackActionHistory ScriptableDeviceAction[]
----@field private completedQuickhackHistory ScriptableDeviceAction[]
----@field private isFinsherSoundPlayed Bool
----@field private attemptedShards gameItemID[]
+---@field aiController AIHumanComponent
+---@field movePolicies movePoliciesComponent
+---@field aiStateHandlerComponent AIPhaseStateEventHandlerComponent
+---@field hitReactionComponent HitReactionComponent
+---@field signalHandlerComponent AISignalHandlerComponent
+---@field reactionComponent ReactionManagerComponent
+---@field dismembermentComponent gameDismembermentComponent
+---@field hitRepresantation entSlotComponent
+---@field interactionComponent gameinteractionsComponent
+---@field slotComponent entSlotComponent
+---@field sensesComponent senseComponent
+---@field visibleObjectComponent senseVisibleObjectComponent
+---@field visibleObjectPositionUpdated Bool
+---@field sensorObjectComponent senseSensorObjectComponent
+---@field targetTrackerComponent AITargetTrackerComponent
+---@field targetingComponentsArray gameTargetingComponent[]
+---@field statesComponent NPCStatesComponent
+---@field fxResourceMapper FxResourceMapperComponent
+---@field linkedStatusEffect LinkedStatusEffect
+---@field resourceLibraryComponent ResourceLibraryComponent
+---@field crowdMemberComponent CrowdMemberBaseComponent
+---@field inventoryComponent gameInventory
+---@field objectSelectionComponent AIObjectSelectionComponent
+---@field transformHistoryComponent entTransformHistoryComponent
+---@field animationControllerComponent entAnimationControllerComponent
+---@field bumpComponent gameinfluenceBumpComponent
+---@field isCrowd Bool
+---@field incapacitatedOnAttach Bool
+---@field isIconic Bool
+---@field combatHUDManager CombatHUDManager
+---@field exposePosition Bool
+---@field puppetStateBlackboard gameIBlackboard
+---@field customBlackboard gameIBlackboard
+---@field securityAreaCallbackID Uint32
+---@field customAIComponents AICustomComponents[]
+---@field listeners PuppetListener[]
+---@field securitySupportListener SecuritySupportListener
+---@field shouldBeRevealedStorage RevealRequestsStorage
+---@field inputProcessed Bool
+---@field shouldSpawnBloodPuddle Bool
+---@field bloodPuddleSpawned Bool
+---@field skipDeathAnimation Bool
+---@field hitHistory HitHistory
+---@field currentWorkspotTags CName[]
+---@field lootQuality gamedataQuality
+---@field hasQuestItems Bool
+---@field activeQualityRangeInteraction CName
+---@field droppedWeapons Bool
+---@field weakspotComponent gameWeakspotComponent
+---@field breachControllerComponent gameBreachControllerComponent
+---@field highlightData FocusForcedHighlightData
+---@field currentTagsStack Uint32
+---@field killer entEntity
+---@field objectActionsCallbackCtrl gameObjectActionsCallbackController
+---@field isActiveCached AIUtilsCachedBoolValue
+---@field isCyberpsycho Bool
+---@field isCivilian Bool
+---@field isPolice Bool
+---@field isGanger Bool
+---@field currentlyUploadingAction ScriptableDeviceAction
+---@field gameplayRoleComponent GameplayRoleComponent
+---@field activeQuickhackActionHistory ScriptableDeviceAction[]
+---@field completedQuickhackHistory ScriptableDeviceAction[]
+---@field isFinsherSoundPlayed Bool
+---@field attemptedShards gameItemID[]
 ScriptedPuppet = {}
 
 ---@param fields? ScriptedPuppet
 ---@return ScriptedPuppet
-function ScriptedPuppet.new(fields) return end
+function ScriptedPuppet.new(fields) end
 
 ---@param obj gameObject
 ---@param listener PuppetListener
 ---@return nil
-function ScriptedPuppet.AddListener(obj, listener) return end
+function ScriptedPuppet.AddListener(obj, listener) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.CanRagdoll(obj) return end
+function ScriptedPuppet.CanRagdoll(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.CanTripOverRagdolls(obj) return end
+function ScriptedPuppet.CanTripOverRagdolls(obj) end
 
 ---@param obj gameObject
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ScriptedPuppet.CreateCustomBlackboard(obj, blackboard) return end
+function ScriptedPuppet.CreateCustomBlackboard(obj, blackboard) end
 
 ---@param obj gameObject
 ---@param blackboardDef CustomBlackboardDef
 ---@return nil
-function ScriptedPuppet.CreateCustomBlackboardFromDef(obj, blackboardDef) return end
+function ScriptedPuppet.CreateCustomBlackboardFromDef(obj, blackboardDef) end
 
 ---@param obj gameObject
 ---@param slot TweakDBID|string
 ---@return nil
-function ScriptedPuppet.DropItemFromSlot(obj, slot) return end
+function ScriptedPuppet.DropItemFromSlot(obj, slot) end
 
 ---@param obj gameObject
 ---@param slot TweakDBID|string
 ---@return nil
-function ScriptedPuppet.DropWeaponFromSlot(obj, slot) return end
+function ScriptedPuppet.DropWeaponFromSlot(obj, slot) end
 
 ---@param npc gameObject
 ---@param player gameObject
 ---@return nil
-function ScriptedPuppet.EvaluateApplyingStatusEffectsFromMountedObjectToPlayer(npc, player) return end
+function ScriptedPuppet.EvaluateApplyingStatusEffectsFromMountedObjectToPlayer(npc, player) end
 
 ---@param self gameObject
 ---@return nil
-function ScriptedPuppet.EvaluateLootQuality(self) return end
+function ScriptedPuppet.EvaluateLootQuality(self) end
 
 ---@param self gameObject
 ---@return nil
-function ScriptedPuppet.EvaluateLootQualityByTask(self) return end
+function ScriptedPuppet.EvaluateLootQualityByTask(self) end
 
 ---@param obj gameObject
 ---@return gameweaponObject
-function ScriptedPuppet.GetActiveWeapon(obj) return end
+function ScriptedPuppet.GetActiveWeapon(obj) end
 
 ---@param obj gameObject
 ---@return gameObject
-function ScriptedPuppet.GetGrappleChild(obj) return end
+function ScriptedPuppet.GetGrappleChild(obj) end
 
 ---@param obj gameObject
 ---@return gameObject
-function ScriptedPuppet.GetGrappleParent(obj) return end
+function ScriptedPuppet.GetGrappleParent(obj) end
 
 ---@param obj gameObject
 ---@return gameweaponObject
-function ScriptedPuppet.GetWeaponLeft(obj) return end
+function ScriptedPuppet.GetWeaponLeft(obj) end
 
 ---@param obj gameObject
 ---@return gameweaponObject
-function ScriptedPuppet.GetWeaponRight(obj) return end
+function ScriptedPuppet.GetWeaponRight(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsActive(obj) return end
+function ScriptedPuppet.IsActive(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsAlive(obj) return end
+function ScriptedPuppet.IsAlive(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsBeingGrappled(obj) return end
+function ScriptedPuppet.IsBeingGrappled(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsBlinded(obj) return end
+function ScriptedPuppet.IsBlinded(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsBoss(obj) return end
+function ScriptedPuppet.IsBoss(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsCharacterPolice(obj) return end
+function ScriptedPuppet.IsCharacterPolice(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsDeaf(obj) return end
+function ScriptedPuppet.IsDeaf(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsDefeated(obj) return end
+function ScriptedPuppet.IsDefeated(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsMaxTac(obj) return end
+function ScriptedPuppet.IsMaxTac(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsNanoWireHacked(obj) return end
+function ScriptedPuppet.IsNanoWireHacked(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsOnOffMeshLink(obj) return end
+function ScriptedPuppet.IsOnOffMeshLink(obj) end
 
 ---@return Bool
-function ScriptedPuppet.IsPlayerAround() return end
+function ScriptedPuppet.IsPlayerAround() end
 
 ---@param obj gameObject
 ---@return Bool, gameObject companion
-function ScriptedPuppet.IsPlayerCompanion(obj) return end
+function ScriptedPuppet.IsPlayerCompanion(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsPlayerCompanion(obj) return end
+function ScriptedPuppet.IsPlayerCompanion(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsPlayerFollower(obj) return end
+function ScriptedPuppet.IsPlayerFollower(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsTurnedOff(obj) return end
+function ScriptedPuppet.IsTurnedOff(obj) end
 
 ---@param obj gameObject
 ---@return Bool
-function ScriptedPuppet.IsUnconscious(obj) return end
+function ScriptedPuppet.IsUnconscious(obj) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil
-function ScriptedPuppet.ReevaluateOxygenConsumption(puppet) return end
+function ScriptedPuppet.ReevaluateOxygenConsumption(puppet) end
 
 ---@param obj gameObject
 ---@param listener PuppetListener
 ---@return nil
-function ScriptedPuppet.RemoveListener(obj, listener) return end
+function ScriptedPuppet.RemoveListener(obj, listener) end
 
 ---@param obj gameObject
 ---@param device Device
 ---@return nil
-function ScriptedPuppet.RequestDeviceDebug(obj, device) return end
+function ScriptedPuppet.RequestDeviceDebug(obj, device) end
 
 ---@param obj gameObject
 ---@param doReveal Bool
 ---@param whoWantsToReveal entEntityID
 ---@return nil
-function ScriptedPuppet.RequestRevealOutline(obj, doReveal, whoWantsToReveal) return end
+function ScriptedPuppet.RequestRevealOutline(obj, doReveal, whoWantsToReveal) end
 
 ---@param puppet ScriptedPuppet
 ---@param signalName CName|string
 ---@return Bool
-function ScriptedPuppet.ResetActionSignal(puppet, signalName) return end
+function ScriptedPuppet.ResetActionSignal(puppet, signalName) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil
-function ScriptedPuppet.RevokeAllTicketsForPrevention(puppet) return end
+function ScriptedPuppet.RevokeAllTicketsForPrevention(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@param signalName CName|string
 ---@param duration? Float
 ---@return Bool
-function ScriptedPuppet.SendActionSignal(puppet, signalName, duration) return end
+function ScriptedPuppet.SendActionSignal(puppet, signalName, duration) end
 
 ---@param obj gameObject
 ---@return nil
-function ScriptedPuppet.SendAndroidTurnOffEvent(obj) return end
+function ScriptedPuppet.SendAndroidTurnOffEvent(obj) end
 
 ---@param obj gameObject
 ---@return nil
-function ScriptedPuppet.SendAndroidTurnOnEvent(obj) return end
+function ScriptedPuppet.SendAndroidTurnOnEvent(obj) end
 
 ---@param obj gameObject
 ---@return nil
-function ScriptedPuppet.SendDefeatedEvent(obj) return end
+function ScriptedPuppet.SendDefeatedEvent(obj) end
 
 ---@param obj gameObject
 ---@param visible Bool
 ---@return nil
-function ScriptedPuppet.SendNameplateVisibleEvent(obj, visible) return end
+function ScriptedPuppet.SendNameplateVisibleEvent(obj, visible) end
 
 ---@param obj gameObject
 ---@return nil
-function ScriptedPuppet.SendResurrectEvent(obj) return end
+function ScriptedPuppet.SendResurrectEvent(obj) end
 
----@private
 ---@param item gameItemObject
 ---@param animWrappers CName[]|string[]
 ---@return nil
-function ScriptedPuppet.SetAnimWrappersOnItem(item, animWrappers) return end
+function ScriptedPuppet.SetAnimWrappersOnItem(item, animWrappers) end
 
 ---@param puppet gameObject
 ---@param shouldSpawnBloodPuddle Bool
 ---@return nil
-function ScriptedPuppet.SetBloodPuddleSettings(puppet, shouldSpawnBloodPuddle) return end
+function ScriptedPuppet.SetBloodPuddleSettings(puppet, shouldSpawnBloodPuddle) end
 
----@protected
 ---@param evt gameuiAccessPointMiniGameStatus
 ---@return Bool
-function ScriptedPuppet:OnAccessPointMiniGameStatus(evt) return end
+function ScriptedPuppet:OnAccessPointMiniGameStatus(evt) end
 
----@protected
 ---@param evt AddOrRemoveListenerEvent
 ---@return Bool
-function ScriptedPuppet:OnAddOrRemoveListener(evt) return end
+function ScriptedPuppet:OnAddOrRemoveListener(evt) end
 
----@protected
 ---@param evt ApplyNewStatusEffectEvent
 ---@return Bool
-function ScriptedPuppet:OnApplyNewStatusEffect(evt) return end
+function ScriptedPuppet:OnApplyNewStatusEffect(evt) end
 
----@protected
 ---@param evt gameeventsAttitudeChangedEvent
 ---@return Bool
-function ScriptedPuppet:OnAttitudeChanged(evt) return end
+function ScriptedPuppet:OnAttitudeChanged(evt) end
 
----@protected
 ---@param evt BloodPuddleEvent
 ---@return Bool
-function ScriptedPuppet:OnBloodPuddleEvent(evt) return end
+function ScriptedPuppet:OnBloodPuddleEvent(evt) end
 
----@protected
 ---@param evt CommunicationEvent
 ---@return Bool
-function ScriptedPuppet:OnCommunicationEvent(evt) return end
+function ScriptedPuppet:OnCommunicationEvent(evt) end
 
----@protected
 ---@param evt CreateCustomBlackboardEvent
 ---@return Bool
-function ScriptedPuppet:OnCreateCustomBlackboard(evt) return end
+function ScriptedPuppet:OnCreateCustomBlackboard(evt) end
 
----@protected
 ---@param evt gameeventsTargetDamageEvent
 ---@return Bool
-function ScriptedPuppet:OnDamageDealt(evt) return end
+function ScriptedPuppet:OnDamageDealt(evt) end
 
----@protected
 ---@param evt gameeventsDamageReceivedEvent
 ---@return Bool
-function ScriptedPuppet:OnDamageReceived(evt) return end
+function ScriptedPuppet:OnDamageReceived(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function ScriptedPuppet:OnDeath(evt) return end
+function ScriptedPuppet:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function ScriptedPuppet:OnDefeated(evt) return end
+function ScriptedPuppet:OnDefeated(evt) end
 
----@protected
 ---@param evt DelayedGameEffectEvent
 ---@return Bool
-function ScriptedPuppet:OnDelayedTakedownGameEffectEvent(evt) return end
+function ScriptedPuppet:OnDelayedTakedownGameEffectEvent(evt) end
 
----@protected
 ---@return Bool
-function ScriptedPuppet:OnDetach() return end
+function ScriptedPuppet:OnDetach() end
 
----@protected
 ---@param evt gameeventsEvaluateLootQualityEvent
 ---@return Bool
-function ScriptedPuppet:OnEvaluateLootQuality(evt) return end
+function ScriptedPuppet:OnEvaluateLootQuality(evt) end
 
----@protected
 ---@param evt EvaluateMinigame
 ---@return Bool
-function ScriptedPuppet:OnEvaluateMinigame(evt) return end
+function ScriptedPuppet:OnEvaluateMinigame(evt) end
 
----@protected
 ---@param evt ExecutePuppetActionEvent
 ---@return Bool
-function ScriptedPuppet:OnExecutePuppetAction(evt) return end
+function ScriptedPuppet:OnExecutePuppetAction(evt) end
 
----@protected
 ---@param evt senseOnExitShapeEvent
 ---@return Bool
-function ScriptedPuppet:OnExitShapeEvent(evt) return end
+function ScriptedPuppet:OnExitShapeEvent(evt) end
 
----@protected
 ---@return Bool
-function ScriptedPuppet:OnGameAttached() return end
+function ScriptedPuppet:OnGameAttached() end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function ScriptedPuppet:OnHUDInstruction(evt) return end
+function ScriptedPuppet:OnHUDInstruction(evt) end
 
----@protected
 ---@param evt HackTargetEvent
 ---@return Bool
-function ScriptedPuppet:OnHackTargetEvent(evt) return end
+function ScriptedPuppet:OnHackTargetEvent(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function ScriptedPuppet:OnHit(evt) return end
+function ScriptedPuppet:OnHit(evt) end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function ScriptedPuppet:OnInteraction(choiceEvent) return end
+function ScriptedPuppet:OnInteraction(choiceEvent) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function ScriptedPuppet:OnInteractionActivated(evt) return end
+function ScriptedPuppet:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt gameinteractionsChoiceEvent
 ---@return Bool
-function ScriptedPuppet:OnInteractionUsed(evt) return end
+function ScriptedPuppet:OnInteractionUsed(evt) end
 
----@protected
 ---@param evt gameInventoryChangedEvent
 ---@return Bool
-function ScriptedPuppet:OnInventoryChangedEvent(evt) return end
+function ScriptedPuppet:OnInventoryChangedEvent(evt) end
 
----@protected
 ---@param evt gameOnInventoryEmptyEvent
 ---@return Bool
-function ScriptedPuppet:OnInventoryEmptyEvent(evt) return end
+function ScriptedPuppet:OnInventoryEmptyEvent(evt) end
 
----@protected
 ---@param evt gameItemAddedEvent
 ---@return Bool
-function ScriptedPuppet:OnItemAddedEvent(evt) return end
+function ScriptedPuppet:OnItemAddedEvent(evt) end
 
----@protected
 ---@param evt gameAttachmentSlotEventsItemAddedToSlot
 ---@return Bool
-function ScriptedPuppet:OnItemAddedToSlot(evt) return end
+function ScriptedPuppet:OnItemAddedToSlot(evt) end
 
----@protected
 ---@param evt gameItemBeingRemovedEvent
 ---@return Bool
-function ScriptedPuppet:OnItemRemovedEvent(evt) return end
+function ScriptedPuppet:OnItemRemovedEvent(evt) end
 
----@protected
 ---@param evt gameAttachmentSlotEventsItemRemovedFromSlot
 ---@return Bool
-function ScriptedPuppet:OnItemRemovedFromSlot(evt) return end
+function ScriptedPuppet:OnItemRemovedFromSlot(evt) end
 
----@protected
 ---@param evt gameeventsKillRewardEvent
 ---@return Bool
-function ScriptedPuppet:OnKillRewardEvent(evt) return end
+function ScriptedPuppet:OnKillRewardEvent(evt) end
 
----@protected
 ---@param evt LootPickupDelayEvent
 ---@return Bool
-function ScriptedPuppet:OnLootPickupDelayEvent(evt) return end
+function ScriptedPuppet:OnLootPickupDelayEvent(evt) end
 
----@protected
 ---@param evt MinigameFailEvent
 ---@return Bool
-function ScriptedPuppet:OnMinigameFailEvent(evt) return end
+function ScriptedPuppet:OnMinigameFailEvent(evt) end
 
----@protected
 ---@param evt NetworkLinkQuickhackEvent
 ---@return Bool
-function ScriptedPuppet:OnNetworkLinkQuickhackEvent(evt) return end
+function ScriptedPuppet:OnNetworkLinkQuickhackEvent(evt) end
 
----@protected
 ---@param evt gameObjectActionRefreshEvent
 ---@return Bool
-function ScriptedPuppet:OnObjectActionRefreshEvent(evt) return end
+function ScriptedPuppet:OnObjectActionRefreshEvent(evt) end
 
----@protected
 ---@param evt OutlineRequestEvent
 ---@return Bool
-function ScriptedPuppet:OnOutlineRequestEvent(evt) return end
+function ScriptedPuppet:OnOutlineRequestEvent(evt) end
 
----@protected
 ---@param evt PauseResumePhoneCallEvent
 ---@return Bool
-function ScriptedPuppet:OnPauseResumePhoneCallEvent(evt) return end
+function ScriptedPuppet:OnPauseResumePhoneCallEvent(evt) end
 
----@protected
 ---@param evt gameVisionModeUpdateVisuals
 ---@return Bool
-function ScriptedPuppet:OnPulseEvent(evt) return end
+function ScriptedPuppet:OnPulseEvent(evt) end
 
----@protected
 ---@param evt QuickHackPanelStateEvent
 ---@return Bool
-function ScriptedPuppet:OnQuickHackPanelStateChanged(evt) return end
+function ScriptedPuppet:OnQuickHackPanelStateChanged(evt) end
 
----@protected
 ---@param evt QuickSlotCommandUsed
 ---@return Bool
-function ScriptedPuppet:OnQuickSlotCommandUsed(evt) return end
+function ScriptedPuppet:OnQuickSlotCommandUsed(evt) end
 
----@protected
 ---@param evt ReevaluateOxygenEvent
 ---@return Bool
-function ScriptedPuppet:OnReevaluateOxygenEvent(evt) return end
+function ScriptedPuppet:OnReevaluateOxygenEvent(evt) end
 
----@protected
 ---@param evt RegisterPostionEvent
 ---@return Bool
-function ScriptedPuppet:OnRegisterPostion(evt) return end
+function ScriptedPuppet:OnRegisterPostion(evt) end
 
----@protected
 ---@param evt RemoveAllStatusEffectOfTypeEvent
 ---@return Bool
-function ScriptedPuppet:OnRemoveAllStatusEffectOfTypeEvent(evt) return end
+function ScriptedPuppet:OnRemoveAllStatusEffectOfTypeEvent(evt) end
 
----@protected
 ---@param evt RemoveLinkEvent
 ---@return Bool
-function ScriptedPuppet:OnRemoveLinkEvent(evt) return end
+function ScriptedPuppet:OnRemoveLinkEvent(evt) end
 
----@protected
 ---@param evt RemoveLinkedStatusEffectsEvent
 ---@return Bool
-function ScriptedPuppet:OnRemoveLinkedStatusEffectsEvent(evt) return end
+function ScriptedPuppet:OnRemoveLinkedStatusEffectsEvent(evt) end
 
----@protected
 ---@param evt RemoveStatusEffectEvent
 ---@return Bool
-function ScriptedPuppet:OnRemoveStatusEffect(evt) return end
+function ScriptedPuppet:OnRemoveStatusEffect(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ScriptedPuppet:OnRequestComponents(ri) return end
+function ScriptedPuppet:OnRequestComponents(ri) end
 
----@protected
 ---@param evt RequestDismembermentEvent
 ---@return Bool
-function ScriptedPuppet:OnRequestDismemberment(evt) return end
+function ScriptedPuppet:OnRequestDismemberment(evt) end
 
----@protected
 ---@param evt ResetSignal
 ---@return Bool
-function ScriptedPuppet:OnResetSignalAIEventReceived(evt) return end
+function ScriptedPuppet:OnResetSignalAIEventReceived(evt) end
 
----@protected
 ---@param evt gameeventsResurrectEvent
 ---@return Bool
-function ScriptedPuppet:OnResurrect(evt) return end
+function ScriptedPuppet:OnResurrect(evt) end
 
----@protected
 ---@param evt RevealDeviceRequest
 ---@return Bool
-function ScriptedPuppet:OnRevealDeviceRequest(evt) return end
+function ScriptedPuppet:OnRevealDeviceRequest(evt) end
 
----@protected
 ---@param evt RevealNetworkGridOnPulse
 ---@return Bool
-function ScriptedPuppet:OnRevealNetworkGridOnPulse(evt) return end
+function ScriptedPuppet:OnRevealNetworkGridOnPulse(evt) end
 
----@protected
 ---@param evt RevealRequestEvent
 ---@return Bool
-function ScriptedPuppet:OnRevealRequest(evt) return end
+function ScriptedPuppet:OnRevealRequest(evt) end
 
----@protected
 ---@param evt RevealStateChangedEvent
 ---@return Bool
-function ScriptedPuppet:OnRevealStateChanged(evt) return end
+function ScriptedPuppet:OnRevealStateChanged(evt) end
 
----@protected
 ---@param evt gameScanningEvent
 ---@return Bool
-function ScriptedPuppet:OnScanningEvent(evt) return end
+function ScriptedPuppet:OnScanningEvent(evt) end
 
----@protected
 ---@param evt gameScanningLookAtEvent
 ---@return Bool
-function ScriptedPuppet:OnScanningLookAtEvent(evt) return end
+function ScriptedPuppet:OnScanningLookAtEvent(evt) end
 
----@protected
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return Bool
-function ScriptedPuppet:OnSecurityAreaCrossingPerimeter(evt) return end
+function ScriptedPuppet:OnSecurityAreaCrossingPerimeter(evt) end
 
----@protected
 ---@param evt SetBloodPuddleSettingsEvent
 ---@return Bool
-function ScriptedPuppet:OnSetBloodPuddleSettingsEvent(evt) return end
+function ScriptedPuppet:OnSetBloodPuddleSettingsEvent(evt) end
 
----@protected
 ---@param evt SetExposeQuickHacks
 ---@return Bool
-function ScriptedPuppet:OnSetExposeQuickHacks(evt) return end
+function ScriptedPuppet:OnSetExposeQuickHacks(evt) end
 
----@protected
 ---@param evt gameSetLootInteractionAccessibilityEvent
 ---@return Bool
-function ScriptedPuppet:OnSetLootInteractionAccessEvent(evt) return end
+function ScriptedPuppet:OnSetLootInteractionAccessEvent(evt) end
 
----@protected
 ---@param evt StartEndPhoneCallEvent
 ---@return Bool
-function ScriptedPuppet:OnStartEndPhoneCallEvent(evt) return end
+function ScriptedPuppet:OnStartEndPhoneCallEvent(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function ScriptedPuppet:OnStatusEffectApplied(evt) return end
+function ScriptedPuppet:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function ScriptedPuppet:OnStatusEffectRemoved(evt) return end
+function ScriptedPuppet:OnStatusEffectRemoved(evt) end
 
----@protected
 ---@param evt SuppressNPCInSecuritySystem
 ---@return Bool
-function ScriptedPuppet:OnSuppressNPCInSecuritySystem(evt) return end
+function ScriptedPuppet:OnSuppressNPCInSecuritySystem(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ScriptedPuppet:OnTakeControl(ri) return end
+function ScriptedPuppet:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleTargetingComponentsEvent
 ---@return Bool
-function ScriptedPuppet:OnToggleTargetingComponentsEvent(evt) return end
+function ScriptedPuppet:OnToggleTargetingComponentsEvent(evt) end
 
----@protected
 ---@param evt UploadProgramProgressEvent
 ---@return Bool
-function ScriptedPuppet:OnUploadProgressStateChanged(evt) return end
+function ScriptedPuppet:OnUploadProgressStateChanged(evt) end
 
----@protected
 ---@param evt workWorkspotFinishedEvent
 ---@return Bool
-function ScriptedPuppet:OnWorkspotFinishedEvent(evt) return end
+function ScriptedPuppet:OnWorkspotFinishedEvent(evt) end
 
----@protected
 ---@param evt workWorkspotStartedEvent
 ---@return Bool
-function ScriptedPuppet:OnWorkspotStartedEvent(evt) return end
+function ScriptedPuppet:OnWorkspotStartedEvent(evt) end
 
----@private
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptedPuppet:ActivateIntelligencePerks(action) return end
+function ScriptedPuppet:ActivateIntelligencePerks(action) end
 
 ---@param netrunner entEntityID
 ---@param target entEntityID
 ---@param actionEffects? gamedataObjectActionEffect_Record[]
 ---@return nil
-function ScriptedPuppet:AddLinkedStatusEffect(netrunner, target, actionEffects) return end
+function ScriptedPuppet:AddLinkedStatusEffect(netrunner, target, actionEffects) end
 
 ---@param equipmentPriority EquipmentPriority
 ---@param powerLevel? Int32
 ---@return nil
-function ScriptedPuppet:AddRecordEquipment(equipmentPriority, powerLevel) return end
+function ScriptedPuppet:AddRecordEquipment(equipmentPriority, powerLevel) end
 
 ---@return Bool
-function ScriptedPuppet:AllowFinisherThreshold() return end
+function ScriptedPuppet:AllowFinisherThreshold() end
 
 ---@return Bool
-function ScriptedPuppet:AwardsExperience() return end
+function ScriptedPuppet:AwardsExperience() end
 
 ---@return Bool
-function ScriptedPuppet:CanBeTagged() return end
+function ScriptedPuppet:CanBeTagged() end
 
 ---@return Bool
-function ScriptedPuppet:CanNewActionBeQueued() return end
+function ScriptedPuppet:CanNewActionBeQueued() end
 
 ---@return Bool
-function ScriptedPuppet:CanOverrideNetworkContext() return end
+function ScriptedPuppet:CanOverrideNetworkContext() end
 
 ---@return Bool
-function ScriptedPuppet:CanRevealRemoteActionsWheel() return end
+function ScriptedPuppet:CanRevealRemoteActionsWheel() end
 
----@private
 ---@return nil
-function ScriptedPuppet:ClearLinkedStatusEffect() return end
+function ScriptedPuppet:ClearLinkedStatusEffect() end
 
----@private
 ---@return nil
-function ScriptedPuppet:CreateClearOutlinesRequest() return end
+function ScriptedPuppet:CreateClearOutlinesRequest() end
 
----@protected
 ---@return nil
-function ScriptedPuppet:CreateListeners() return end
+function ScriptedPuppet:CreateListeners() end
 
----@private
 ---@param instigator entEntity
 ---@return nil
-function ScriptedPuppet:CreateObjectActionsCallbackController(instigator) return end
+function ScriptedPuppet:CreateObjectActionsCallbackController(instigator) end
 
----@private
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return nil
-function ScriptedPuppet:CreateTakedownEventOnLayerActivation(evt) return end
+function ScriptedPuppet:CreateTakedownEventOnLayerActivation(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function ScriptedPuppet:DamagePipelineFinalized(evt) return end
+function ScriptedPuppet:DamagePipelineFinalized(evt) end
 
----@private
 ---@return nil
-function ScriptedPuppet:DestroyObjectActionsCallbackController() return end
+function ScriptedPuppet:DestroyObjectActionsCallbackController() end
 
 ---@return EGameplayRole
-function ScriptedPuppet:DeterminGameplayRole() return end
+function ScriptedPuppet:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function ScriptedPuppet:DetermineInteractionState() return end
+function ScriptedPuppet:DetermineInteractionState() end
 
----@protected
 ---@return nil
-function ScriptedPuppet:DetermineInteractionStateByTask() return end
+function ScriptedPuppet:DetermineInteractionStateByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function ScriptedPuppet:DetermineInteractionStateTask(data) return end
+function ScriptedPuppet:DetermineInteractionStateTask(data) end
 
----@private
 ---@return Bool
-function ScriptedPuppet:DropHeldItems() return end
+function ScriptedPuppet:DropHeldItems() end
 
 ---@param layer CName|string
 ---@param b Bool
 ---@return nil
-function ScriptedPuppet:EnableInteraction(layer, b) return end
+function ScriptedPuppet:EnableInteraction(layer, b) end
 
----@protected
 ---@param puppet gamePuppet
 ---@return nil
-function ScriptedPuppet:EnableLootInteractionWithDelay(puppet) return end
+function ScriptedPuppet:EnableLootInteractionWithDelay(puppet) end
 
 ---@param b Bool
 ---@return nil
-function ScriptedPuppet:EnableSensesComponent(b) return end
+function ScriptedPuppet:EnableSensesComponent(b) end
 
----@private
 ---@return nil
-function ScriptedPuppet:EquipSavedLoadout() return end
+function ScriptedPuppet:EquipSavedLoadout() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function ScriptedPuppet:EquipSavedLoadoutTask(data) return end
+function ScriptedPuppet:EquipSavedLoadoutTask(data) end
 
----@private
 ---@return Bool
-function ScriptedPuppet:EvaluateLootQuality() return end
-
----@protected
----@return nil
-function ScriptedPuppet:EvaluateLootQualityByTask() return end
+function ScriptedPuppet:EvaluateLootQuality() end
 
 ---@return nil
-function ScriptedPuppet:EvaluateLootQualityEvent() return end
+function ScriptedPuppet:EvaluateLootQualityByTask() end
 
----@protected
+---@return nil
+function ScriptedPuppet:EvaluateLootQualityEvent() end
+
 ---@param data gameScriptTaskData
 ---@return nil
-function ScriptedPuppet:EvaluateLootQualityTask(data) return end
+function ScriptedPuppet:EvaluateLootQualityTask(data) end
 
----@private
 ---@return nil
-function ScriptedPuppet:EvaluateQuickhacksCount() return end
+function ScriptedPuppet:EvaluateQuickhacksCount() end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptedPuppet:ExecuteAction(action) return end
+function ScriptedPuppet:ExecuteAction(action) end
 
----@protected
 ---@param choice gameinteractionsChoice
 ---@return nil
-function ScriptedPuppet:ExecuteAction(choice) return end
+function ScriptedPuppet:ExecuteAction(choice) end
 
 ---@param target gameObject
 ---@param sourceID entEntityID
 ---@param sourceName CName|string
 ---@param toggle Bool
 ---@return nil
-function ScriptedPuppet:ForceVisionAppearanceNetrunner(target, sourceID, sourceName, toggle) return end
+function ScriptedPuppet:ForceVisionAppearanceNetrunner(target, sourceID, sourceName, toggle) end
 
----@private
 ---@param baseUncommonMaterials Float
 ---@param baseRareMaterials Float
 ---@param baseEpicMaterials Float
 ---@param baseLegendaryMaterials Float
 ---@param TS gameTransactionSystem
 ---@return nil
-function ScriptedPuppet:GenerateMaterialDrops(baseUncommonMaterials, baseRareMaterials, baseEpicMaterials, baseLegendaryMaterials, TS) return end
+function ScriptedPuppet:GenerateMaterialDrops(baseUncommonMaterials, baseRareMaterials, baseEpicMaterials, baseLegendaryMaterials, TS) end
 
 ---@return AIHumanComponent
-function ScriptedPuppet:GetAIControllerComponent() return end
+function ScriptedPuppet:GetAIControllerComponent() end
 
 ---@return ScriptableDeviceAction[]
-function ScriptedPuppet:GetActiveQuickhackActionHistory() return end
+function ScriptedPuppet:GetActiveQuickhackActionHistory() end
 
 ---@return entAnimationControllerComponent
-function ScriptedPuppet:GetAnimationControllerComponent() return end
+function ScriptedPuppet:GetAnimationControllerComponent() end
 
 ---@return Bool
-function ScriptedPuppet:GetAreIncomingSecuritySystemEventsSuppressed() return end
+function ScriptedPuppet:GetAreIncomingSecuritySystemEventsSuppressed() end
 
 ---@return gameAttitudeAgent
-function ScriptedPuppet:GetAttitudeAgent() return end
+function ScriptedPuppet:GetAttitudeAgent() end
 
----@private
 ---@param id gamebbScriptID_Int32
 ---@return Int32
-function ScriptedPuppet:GetBlackboardIntVariable(id) return end
+function ScriptedPuppet:GetBlackboardIntVariable(id) end
 
 ---@return gameBreachControllerComponent
-function ScriptedPuppet:GetBreachControllerComponent() return end
+function ScriptedPuppet:GetBreachControllerComponent() end
 
 ---@return gameinfluenceBumpComponent
-function ScriptedPuppet:GetBumpComponent() return end
+function ScriptedPuppet:GetBumpComponent() end
 
 ---@return CombatHUDManager
-function ScriptedPuppet:GetCombatHUDManagerComponent() return end
+function ScriptedPuppet:GetCombatHUDManagerComponent() end
 
 ---@return ScriptableDeviceAction[]
-function ScriptedPuppet:GetCompletedQuickhackActionHistory() return end
+function ScriptedPuppet:GetCompletedQuickhackActionHistory() end
 
 ---@return CooldownStorage
-function ScriptedPuppet:GetCooldownStorage() return end
+function ScriptedPuppet:GetCooldownStorage() end
 
----@private
 ---@return Bool
-function ScriptedPuppet:GetCrowd() return end
+function ScriptedPuppet:GetCrowd() end
 
 ---@return CrowdMemberBaseComponent
-function ScriptedPuppet:GetCrowdMemberComponent() return end
+function ScriptedPuppet:GetCrowdMemberComponent() end
 
 ---@return EFocusOutlineType
-function ScriptedPuppet:GetCurrentOutline() return end
+function ScriptedPuppet:GetCurrentOutline() end
 
 ---@return CName[]
-function ScriptedPuppet:GetCurrentWorkspotTags() return end
+function ScriptedPuppet:GetCurrentWorkspotTags() end
 
----@private
 ---@param heldObjects gameItemObject[]
 ---@return Bool
-function ScriptedPuppet:GetCurrentlyEquippedItems(heldObjects) return end
+function ScriptedPuppet:GetCurrentlyEquippedItems(heldObjects) end
 
 ---@return ScriptableDeviceAction
-function ScriptedPuppet:GetCurrentlyUploadingAction() return end
+function ScriptedPuppet:GetCurrentlyUploadingAction() end
 
 ---@return gameIBlackboard
-function ScriptedPuppet:GetCustomBlackboard() return end
+function ScriptedPuppet:GetCustomBlackboard() end
 
 ---@return FocusForcedHighlightData
-function ScriptedPuppet:GetDefaultHighlight() return end
+function ScriptedPuppet:GetDefaultHighlight() end
 
 ---@return gamedataDefenseMode
-function ScriptedPuppet:GetDefenseModeStateFromBlackboard() return end
+function ScriptedPuppet:GetDefenseModeStateFromBlackboard() end
 
 ---@return ESecurityAreaType
-function ScriptedPuppet:GetDeterminatedSecurityAreaType() return end
+function ScriptedPuppet:GetDeterminatedSecurityAreaType() end
 
 ---@return Int32
-function ScriptedPuppet:GetDeviceActionMaxQueueSize() return end
+function ScriptedPuppet:GetDeviceActionMaxQueueSize() end
 
 ---@return CName[]
-function ScriptedPuppet:GetDeviceActionQueueNames() return end
+function ScriptedPuppet:GetDeviceActionQueueNames() end
 
 ---@return Int32
-function ScriptedPuppet:GetDeviceActionQueueSize() return end
+function ScriptedPuppet:GetDeviceActionQueueSize() end
 
 ---@return PuppetDeviceLinkPS
-function ScriptedPuppet:GetDeviceLink() return end
+function ScriptedPuppet:GetDeviceLink() end
 
 ---@return gameDismembermentComponent
-function ScriptedPuppet:GetDismembermentComponent() return end
+function ScriptedPuppet:GetDismembermentComponent() end
 
 ---@param traceSource senseAdditionalTraceType
 ---@return Float
-function ScriptedPuppet:GetDistToTraceEndFromPosToMainTrackedObject(traceSource) return end
+function ScriptedPuppet:GetDistToTraceEndFromPosToMainTrackedObject(traceSource) end
 
 ---@param key CName|string
 ---@return gameFxResource
-function ScriptedPuppet:GetFxResourceByKey(key) return end
+function ScriptedPuppet:GetFxResourceByKey(key) end
 
 ---@return GameplayRoleComponent
-function ScriptedPuppet:GetGameplayRoleComponent() return end
+function ScriptedPuppet:GetGameplayRoleComponent() end
 
 ---@return CName
-function ScriptedPuppet:GetGender() return end
+function ScriptedPuppet:GetGender() end
 
 ---@return gamedataNPCHighLevelState
-function ScriptedPuppet:GetHighLevelStateFromBlackboard() return end
+function ScriptedPuppet:GetHighLevelStateFromBlackboard() end
 
 ---@return HitReactionComponent
-function ScriptedPuppet:GetHitReactionComponent() return end
+function ScriptedPuppet:GetHitReactionComponent() end
 
 ---@return EHitReactionMode
-function ScriptedPuppet:GetHitReactionModeFromBlackboard() return end
+function ScriptedPuppet:GetHitReactionModeFromBlackboard() end
 
 ---@return entSlotComponent
-function ScriptedPuppet:GetHitRepresantationSlotComponent() return end
+function ScriptedPuppet:GetHitRepresantationSlotComponent() end
 
----@private
 ---@return Float
-function ScriptedPuppet:GetICELevel() return end
+function ScriptedPuppet:GetICELevel() end
 
----@private
 ---@return gamedataStatusEffect_Record[]
-function ScriptedPuppet:GetIgnoredDurationStats() return end
+function ScriptedPuppet:GetIgnoredDurationStats() end
 
 ---@return Bool
-function ScriptedPuppet:GetIsIconic() return end
+function ScriptedPuppet:GetIsIconic() end
 
 ---@param itemID gameItemID
 ---@return Bool
-function ScriptedPuppet:GetItemMinigameAttempted(itemID) return end
+function ScriptedPuppet:GetItemMinigameAttempted(itemID) end
 
 ---@return entEntity
-function ScriptedPuppet:GetKiller() return end
+function ScriptedPuppet:GetKiller() end
 
 ---@param threat gameObject
 ---@return Float, Bool isMelee
-function ScriptedPuppet:GetLastDamageTimeFrom(threat) return end
+function ScriptedPuppet:GetLastDamageTimeFrom(threat) end
 
 ---@return LinkedStatusEffect
-function ScriptedPuppet:GetLinkedStatusEffect() return end
+function ScriptedPuppet:GetLinkedStatusEffect() end
 
 ---@return gamedataQuality
-function ScriptedPuppet:GetLootQuality() return end
+function ScriptedPuppet:GetLootQuality() end
 
 ---@return ConnectedClassTypes
-function ScriptedPuppet:GetMasterConnectedClassTypes() return end
+function ScriptedPuppet:GetMasterConnectedClassTypes() end
 
 ---@return movePoliciesComponent
-function ScriptedPuppet:GetMovePolicesComponent() return end
+function ScriptedPuppet:GetMovePolicesComponent() end
 
 ---@return gamedataNPCType
-function ScriptedPuppet:GetNPCType() return end
+function ScriptedPuppet:GetNPCType() end
 
----@private
 ---@return gameIBlackboard
-function ScriptedPuppet:GetNetworkBlackboard() return end
+function ScriptedPuppet:GetNetworkBlackboard() end
 
----@private
 ---@return NetworkBlackboardDef
-function ScriptedPuppet:GetNetworkBlackboardDef() return end
+function ScriptedPuppet:GetNetworkBlackboardDef() end
 
 ---@return CName
-function ScriptedPuppet:GetNetworkLinkSlotName() return end
+function ScriptedPuppet:GetNetworkLinkSlotName() end
 
 ---@return CName, WorldTransform transform
-function ScriptedPuppet:GetNetworkLinkSlotName() return end
+function ScriptedPuppet:GetNetworkLinkSlotName() end
 
----@private
 ---@param category gamedataHackCategory
 ---@param durationMods gamedataObjectActionEffect_Record[]
 ---@param rootObject gameObject
 ---@param targetID gameStatsObjectID
 ---@param instigatorID entEntityID
 ---@return Float
-function ScriptedPuppet:GetObjectActionEffectDurationValue(category, durationMods, rootObject, targetID, instigatorID) return end
+function ScriptedPuppet:GetObjectActionEffectDurationValue(category, durationMods, rootObject, targetID, instigatorID) end
 
 ---@return AIObjectSelectionComponent
-function ScriptedPuppet:GetObjectSelectionComponent() return end
+function ScriptedPuppet:GetObjectSelectionComponent() end
 
 ---@return gameObject[]
-function ScriptedPuppet:GetObjectToForwardHighlight() return end
+function ScriptedPuppet:GetObjectToForwardHighlight() end
 
----@protected
 ---@return ScriptedPuppetPS
-function ScriptedPuppet:GetPS() return end
+function ScriptedPuppet:GetPS() end
 
 ---@return CName
-function ScriptedPuppet:GetPhoneCallIndicatorSlotName() return end
+function ScriptedPuppet:GetPhoneCallIndicatorSlotName() end
 
 ---@return Float
-function ScriptedPuppet:GetPingDuration() return end
+function ScriptedPuppet:GetPingDuration() end
 
 ---@return ScriptedPuppetPS
-function ScriptedPuppet:GetPuppetPS() return end
+function ScriptedPuppet:GetPuppetPS() end
 
 ---@return gamedataReactionPresetType
-function ScriptedPuppet:GetPuppetReactionPresetType() return end
+function ScriptedPuppet:GetPuppetReactionPresetType() end
 
 ---@return gameIBlackboard
-function ScriptedPuppet:GetPuppetStateBlackboard() return end
+function ScriptedPuppet:GetPuppetStateBlackboard() end
 
----@private
 ---@param quickHackID TweakDBID|string
 ---@param rootObject gameObject
 ---@param targetID gameStatsObjectID
 ---@param instigatorID entEntityID
 ---@return Float
-function ScriptedPuppet:GetQuickHackDuration(quickHackID, rootObject, targetID, instigatorID) return end
-
----@private
----@param quickHackRecord gamedataObjectAction_Record
----@param rootObject gameObject
----@param targetID gameStatsObjectID
----@param instigatorID entEntityID
----@return Float
-function ScriptedPuppet:GetQuickHackDuration(quickHackRecord, rootObject, targetID, instigatorID) return end
+function ScriptedPuppet:GetQuickHackDuration(quickHackID, rootObject, targetID, instigatorID) end
 
 ---@param quickHackRecord gamedataObjectAction_Record
 ---@param rootObject gameObject
 ---@param targetID gameStatsObjectID
 ---@param instigatorID entEntityID
 ---@return Float
-function ScriptedPuppet:GetQuickHackDurationFromLongestEffect(quickHackRecord, rootObject, targetID, instigatorID) return end
+function ScriptedPuppet:GetQuickHackDuration(quickHackRecord, rootObject, targetID, instigatorID) end
+
+---@param quickHackRecord gamedataObjectAction_Record
+---@param rootObject gameObject
+---@param targetID gameStatsObjectID
+---@param instigatorID entEntityID
+---@return Float
+function ScriptedPuppet:GetQuickHackDurationFromLongestEffect(quickHackRecord, rootObject, targetID, instigatorID) end
 
 ---@return TweakDBID
-function ScriptedPuppet:GetReactionPresetID() return end
+function ScriptedPuppet:GetReactionPresetID() end
 
 ---@return gamedataCharacter_Record
-function ScriptedPuppet:GetRecord() return end
+function ScriptedPuppet:GetRecord() end
 
 ---@return SecuritySystemControllerPS
-function ScriptedPuppet:GetSecuritySystem() return end
+function ScriptedPuppet:GetSecuritySystem() end
 
 ---@return senseComponent
-function ScriptedPuppet:GetSensesComponent() return end
+function ScriptedPuppet:GetSensesComponent() end
 
 ---@return senseSensorObjectComponent
-function ScriptedPuppet:GetSensorObjectComponent() return end
+function ScriptedPuppet:GetSensorObjectComponent() end
 
 ---@return AISignalHandlerComponent
-function ScriptedPuppet:GetSignalHandlerComponent() return end
+function ScriptedPuppet:GetSignalHandlerComponent() end
 
 ---@return gameBoolSignalTable
-function ScriptedPuppet:GetSignalTable() return end
+function ScriptedPuppet:GetSignalTable() end
 
 ---@return entSlotComponent
-function ScriptedPuppet:GetSlotComponent() return end
+function ScriptedPuppet:GetSlotComponent() end
 
 ---@return gamedataNPCStanceState
-function ScriptedPuppet:GetStanceStateFromBlackboard() return end
+function ScriptedPuppet:GetStanceStateFromBlackboard() end
 
 ---@return NPCStatesComponent
-function ScriptedPuppet:GetStatesComponent() return end
+function ScriptedPuppet:GetStatesComponent() end
 
 ---@return ReactionManagerComponent
-function ScriptedPuppet:GetStimReactionComponent() return end
+function ScriptedPuppet:GetStimReactionComponent() end
 
 ---@return AITargetTrackerComponent
-function ScriptedPuppet:GetTargetTrackerComponent() return end
+function ScriptedPuppet:GetTargetTrackerComponent() end
 
 ---@return TargetTrackingExtension
-function ScriptedPuppet:GetTargetTrackingExension() return end
+function ScriptedPuppet:GetTargetTrackingExension() end
 
 ---@return entTransformHistoryComponent
-function ScriptedPuppet:GetTransformHistoryComponent() return end
+function ScriptedPuppet:GetTransformHistoryComponent() end
 
 ---@return gamedataNPCUpperBodyState
-function ScriptedPuppet:GetUpperBodyStateFromBlackboard() return end
+function ScriptedPuppet:GetUpperBodyStateFromBlackboard() end
 
 ---@return gamedataVendorType
-function ScriptedPuppet:GetVendorType() return end
+function ScriptedPuppet:GetVendorType() end
 
 ---@return senseVisibleObjectComponent
-function ScriptedPuppet:GetVisibleObjectComponent() return end
+function ScriptedPuppet:GetVisibleObjectComponent() end
 
 ---@return Bool
-function ScriptedPuppet:GetWasAggressiveCrowd() return end
+function ScriptedPuppet:GetWasAggressiveCrowd() end
 
 ---@return gameWeakspotComponent
-function ScriptedPuppet:GetWeakspotComponent() return end
+function ScriptedPuppet:GetWeakspotComponent() end
 
----@private
 ---@param equipmentPriority EquipmentPriority
 ---@param characterRecord gamedataCharacter_Record
 ---@param powerLevel Int32
 ---@return nil
-function ScriptedPuppet:GiveEquipment(equipmentPriority, characterRecord, powerLevel) return end
+function ScriptedPuppet:GiveEquipment(equipmentPriority, characterRecord, powerLevel) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function ScriptedPuppet:HandleChainLightningEffectAndDamageTask(data) return end
+function ScriptedPuppet:HandleChainLightningEffectAndDamageTask(data) end
 
----@protected
 ---@param instigator gameObject
 ---@return nil
-function ScriptedPuppet:HandleDeath(instigator) return end
+function ScriptedPuppet:HandleDeath(instigator) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:HandleDefeated() return end
+function ScriptedPuppet:HandleDefeated() end
 
----@protected
 ---@return nil
-function ScriptedPuppet:HandleDefeatedByTask() return end
+function ScriptedPuppet:HandleDefeatedByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function ScriptedPuppet:HandleDefeatedTask(data) return end
+function ScriptedPuppet:HandleDefeatedTask(data) end
 
 ---@param actionName CName|string
 ---@param verb EAISquadVerb
 ---@return nil
-function ScriptedPuppet:HandleSquadAction(actionName, verb) return end
+function ScriptedPuppet:HandleSquadAction(actionName, verb) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function ScriptedPuppet:HandleStimsOnHit(evt) return end
+function ScriptedPuppet:HandleStimsOnHit(evt) end
 
 ---@return Bool
-function ScriptedPuppet:HasActiveQuickHackUpload() return end
+function ScriptedPuppet:HasActiveQuickHackUpload() end
 
----@private
 ---@param equipmentPriority EquipmentPriority
 ---@param characterRecord gamedataCharacter_Record
 ---@return Bool
-function ScriptedPuppet:HasCalculatedEquipment(equipmentPriority, characterRecord) return end
+function ScriptedPuppet:HasCalculatedEquipment(equipmentPriority, characterRecord) end
 
 ---@return Bool
-function ScriptedPuppet:HasDirectActionsActive() return end
+function ScriptedPuppet:HasDirectActionsActive() end
 
 ---@param equipmentPriority EquipmentPriority
 ---@return Bool
-function ScriptedPuppet:HasEquipment(equipmentPriority) return end
+function ScriptedPuppet:HasEquipment(equipmentPriority) end
 
 ---@return Bool
-function ScriptedPuppet:HasHeadUnderwater() return end
-
----@protected
----@return Bool
-function ScriptedPuppet:HasLoot() return end
+function ScriptedPuppet:HasHeadUnderwater() end
 
 ---@return Bool
-function ScriptedPuppet:HasPrimaryOrSecondaryEquipment() return end
+function ScriptedPuppet:HasLoot() end
 
 ---@return Bool
-function ScriptedPuppet:HasQuestItems() return end
+function ScriptedPuppet:HasPrimaryOrSecondaryEquipment() end
 
----@protected
 ---@return Bool
-function ScriptedPuppet:HasValidLootQuality() return end
+function ScriptedPuppet:HasQuestItems() end
+
+---@return Bool
+function ScriptedPuppet:HasValidLootQuality() end
 
 ---@param tag CName|string
 ---@return Bool
-function ScriptedPuppet:HasWorkspotTag(tag) return end
+function ScriptedPuppet:HasWorkspotTag(tag) end
 
----@private
 ---@param statPoolType gamedataStatPoolType
 ---@return nil
-function ScriptedPuppet:HidePhoneCallDuration(statPoolType) return end
+function ScriptedPuppet:HidePhoneCallDuration(statPoolType) end
 
 ---@return Bool
-function ScriptedPuppet:IsActionCurrentlyUploading() return end
+function ScriptedPuppet:IsActionCurrentlyUploading() end
 
 ---@return Bool
-function ScriptedPuppet:IsActionQueueEnabled() return end
+function ScriptedPuppet:IsActionQueueEnabled() end
 
 ---@return Bool
-function ScriptedPuppet:IsActionQueueFull() return end
+function ScriptedPuppet:IsActionQueueFull() end
 
 ---@return Bool
-function ScriptedPuppet:IsActive() return end
+function ScriptedPuppet:IsActive() end
 
 ---@return Bool
-function ScriptedPuppet:IsActiveBackdoor() return end
-
----@private
----@return Bool
-function ScriptedPuppet:IsActiveInternal() return end
+function ScriptedPuppet:IsActiveBackdoor() end
 
 ---@return Bool
-function ScriptedPuppet:IsAggressive() return end
+function ScriptedPuppet:IsActiveInternal() end
 
 ---@return Bool
-function ScriptedPuppet:IsAimAssistEnabled() return end
+function ScriptedPuppet:IsAggressive() end
 
 ---@return Bool
-function ScriptedPuppet:IsAndroid() return end
+function ScriptedPuppet:IsAimAssistEnabled() end
 
 ---@return Bool
-function ScriptedPuppet:IsBackdoor() return end
+function ScriptedPuppet:IsAndroid() end
 
 ---@return Bool
-function ScriptedPuppet:IsBoss() return end
+function ScriptedPuppet:IsBackdoor() end
 
 ---@return Bool
-function ScriptedPuppet:IsBreached() return end
+function ScriptedPuppet:IsBoss() end
 
 ---@return Bool
-function ScriptedPuppet:IsCerberus() return end
+function ScriptedPuppet:IsBreached() end
 
 ---@return Bool
-function ScriptedPuppet:IsCharacterChildren() return end
+function ScriptedPuppet:IsCerberus() end
 
 ---@return Bool
-function ScriptedPuppet:IsCharacterCivilian() return end
+function ScriptedPuppet:IsCharacterChildren() end
 
 ---@return Bool
-function ScriptedPuppet:IsCharacterCyberpsycho() return end
+function ScriptedPuppet:IsCharacterCivilian() end
 
 ---@return Bool
-function ScriptedPuppet:IsCharacterGanger() return end
+function ScriptedPuppet:IsCharacterCyberpsycho() end
 
 ---@return Bool
-function ScriptedPuppet:IsCharacterPolice() return end
+function ScriptedPuppet:IsCharacterGanger() end
 
 ---@return Bool
-function ScriptedPuppet:IsCivilian() return end
+function ScriptedPuppet:IsCharacterPolice() end
 
 ---@return Bool
-function ScriptedPuppet:IsConnectedToBackdoorDevice() return end
+function ScriptedPuppet:IsCivilian() end
 
 ---@return Bool
-function ScriptedPuppet:IsConnectedToSecuritySystem() return end
+function ScriptedPuppet:IsConnectedToBackdoorDevice() end
 
 ---@return Bool
-function ScriptedPuppet:IsContainer() return end
+function ScriptedPuppet:IsConnectedToSecuritySystem() end
 
 ---@return Bool
-function ScriptedPuppet:IsCrowd() return end
+function ScriptedPuppet:IsContainer() end
 
 ---@return Bool
-function ScriptedPuppet:IsDead() return end
+function ScriptedPuppet:IsCrowd() end
 
 ---@return Bool
-function ScriptedPuppet:IsDeadNoStatPool() return end
+function ScriptedPuppet:IsDead() end
 
 ---@return Bool
-function ScriptedPuppet:IsDrone() return end
+function ScriptedPuppet:IsDeadNoStatPool() end
 
 ---@return Bool
-function ScriptedPuppet:IsElite() return end
+function ScriptedPuppet:IsDrone() end
 
 ---@return Bool
-function ScriptedPuppet:IsEnemy() return end
+function ScriptedPuppet:IsElite() end
 
 ---@return Bool
-function ScriptedPuppet:IsFinisherSoundPlayed() return end
+function ScriptedPuppet:IsEnemy() end
 
 ---@return Bool
-function ScriptedPuppet:IsHackingPlayer() return end
+function ScriptedPuppet:IsFinisherSoundPlayed() end
 
 ---@return Bool
-function ScriptedPuppet:IsHuman() return end
+function ScriptedPuppet:IsHackingPlayer() end
 
 ---@return Bool
-function ScriptedPuppet:IsHumanoid() return end
+function ScriptedPuppet:IsHuman() end
 
 ---@return Bool
-function ScriptedPuppet:IsInvestigating() return end
+function ScriptedPuppet:IsHumanoid() end
+
+---@return Bool
+function ScriptedPuppet:IsInvestigating() end
 
 ---@param object gameObject
 ---@return Bool
-function ScriptedPuppet:IsInvestigatingObject(object) return end
+function ScriptedPuppet:IsInvestigatingObject(object) end
 
 ---@return Bool
-function ScriptedPuppet:IsMassive() return end
+function ScriptedPuppet:IsMassive() end
 
 ---@return Bool
-function ScriptedPuppet:IsMaxTac() return end
+function ScriptedPuppet:IsMaxTac() end
 
 ---@return Bool
-function ScriptedPuppet:IsMech() return end
+function ScriptedPuppet:IsMech() end
 
 ---@return Bool
-function ScriptedPuppet:IsMechanical() return end
+function ScriptedPuppet:IsMechanical() end
 
 ---@return Bool
-function ScriptedPuppet:IsNetrunnerPuppet() return end
+function ScriptedPuppet:IsNetrunnerPuppet() end
 
 ---@return Bool
-function ScriptedPuppet:IsNetworkKnownToPlayer() return end
+function ScriptedPuppet:IsNetworkKnownToPlayer() end
 
 ---@return Bool
-function ScriptedPuppet:IsNetworkLinkDynamic() return end
+function ScriptedPuppet:IsNetworkLinkDynamic() end
 
 ---@return Bool
-function ScriptedPuppet:IsOfficer() return end
+function ScriptedPuppet:IsOfficer() end
 
 ---@return Bool
-function ScriptedPuppet:IsOnAutonomousAI() return end
-
----@private
----@return Bool
-function ScriptedPuppet:IsPerformingCallReinforcements() return end
+function ScriptedPuppet:IsOnAutonomousAI() end
 
 ---@return Bool
-function ScriptedPuppet:IsPlayerCompanion() return end
+function ScriptedPuppet:IsPerformingCallReinforcements() end
 
 ---@return Bool
-function ScriptedPuppet:IsPrevention() return end
+function ScriptedPuppet:IsPlayerCompanion() end
 
 ---@return Bool
-function ScriptedPuppet:IsPuppet() return end
+function ScriptedPuppet:IsPrevention() end
 
----@private
+---@return Bool
+function ScriptedPuppet:IsPuppet() end
+
 ---@param layerTag CName|string
 ---@return Bool
-function ScriptedPuppet:IsQualityRangeInteractionLayer(layerTag) return end
+function ScriptedPuppet:IsQualityRangeInteractionLayer(layerTag) end
 
 ---@return Bool
-function ScriptedPuppet:IsQuest() return end
+function ScriptedPuppet:IsQuest() end
 
 ---@return Bool
-function ScriptedPuppet:IsQuickHackAble() return end
+function ScriptedPuppet:IsQuickHackAble() end
 
 ---@return Bool
-function ScriptedPuppet:IsQuickHacksExposed() return end
+function ScriptedPuppet:IsQuickHacksExposed() end
 
 ---@return Bool
-function ScriptedPuppet:IsResistantToTakedown() return end
+function ScriptedPuppet:IsResistantToTakedown() end
 
 ---@return Bool
-function ScriptedPuppet:IsRevealed() return end
+function ScriptedPuppet:IsRevealed() end
 
 ---@param target gameObject
 ---@return Bool
-function ScriptedPuppet:IsTargetTresspassingMyZone(target) return end
+function ScriptedPuppet:IsTargetTresspassingMyZone(target) end
 
 ---@return Bool
-function ScriptedPuppet:IsTurnedOffNoStatusEffect() return end
+function ScriptedPuppet:IsTurnedOffNoStatusEffect() end
 
 ---@param howDeep? Float
 ---@return Bool
-function ScriptedPuppet:IsUnderwater(howDeep) return end
+function ScriptedPuppet:IsUnderwater(howDeep) end
 
 ---@return Bool
-function ScriptedPuppet:IsVendor() return end
+function ScriptedPuppet:IsVendor() end
 
 ---@param instigator? gameObject
 ---@param skipNPCDeathAnim? Bool
 ---@param disableNPCRagdoll? Bool
 ---@return nil
-function ScriptedPuppet:Kill(instigator, skipNPCDeathAnim, disableNPCRagdoll) return end
+function ScriptedPuppet:Kill(instigator, skipNPCDeathAnim, disableNPCRagdoll) end
 
----@protected
 ---@param evt gameeventsDamageReceivedEvent
 ---@param instigator gameObject
 ---@param dmgSituation gameTelemetryDamageSituation
 ---@return nil
-function ScriptedPuppet:LogDamageReceived(evt, instigator, dmgSituation) return end
+function ScriptedPuppet:LogDamageReceived(evt, instigator, dmgSituation) end
 
----@private
 ---@param evt gameeventsKillRewardEvent
 ---@param dmgSituation gameTelemetryDamageSituation
 ---@return nil
-function ScriptedPuppet:LogEnemyDown(evt, dmgSituation) return end
+function ScriptedPuppet:LogEnemyDown(evt, dmgSituation) end
 
----@private
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return nil
-function ScriptedPuppet:LootAllItems(choiceEvent) return end
+function ScriptedPuppet:LootAllItems(choiceEvent) end
 
 ---@return ESecuritySystemState
-function ScriptedPuppet:MySecuritySystemState() return end
+function ScriptedPuppet:MySecuritySystemState() end
 
 ---@param hitSource Int32
 ---@return nil
-function ScriptedPuppet:NotifyHitReactionSourceChanged(hitSource) return end
+function ScriptedPuppet:NotifyHitReactionSourceChanged(hitSource) end
 
 ---@param hitType Int32
 ---@return nil
-function ScriptedPuppet:NotifyHitReactionTypeChanged(hitType) return end
+function ScriptedPuppet:NotifyHitReactionTypeChanged(hitType) end
 
----@private
 ---@param evt ClearOutlinesRequestEvent
 ---@return nil
-function ScriptedPuppet:OnClearOutlinesRequest(evt) return end
+function ScriptedPuppet:OnClearOutlinesRequest(evt) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:OnDied() return end
+function ScriptedPuppet:OnDied() end
 
 ---@param reason CName|string
 ---@return nil
-function ScriptedPuppet:OnDiveFinished(reason) return end
+function ScriptedPuppet:OnDiveFinished(reason) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:OnIncapacitated() return end
+function ScriptedPuppet:OnIncapacitated() end
 
----@protected
 ---@return nil
-function ScriptedPuppet:OnResurrected() return end
+function ScriptedPuppet:OnResurrected() end
 
 ---@param above Bool
 ---@return nil
-function ScriptedPuppet:OnSecuritySupportThreshold(above) return end
+function ScriptedPuppet:OnSecuritySupportThreshold(above) end
 
 ---@param signalId Uint16
 ---@param newValue Bool
 ---@param userData ForcedRagdollDeathSignal
 ---@return nil
-function ScriptedPuppet:OnSignalForcedRagdollDeathSignal(signalId, newValue, userData) return end
+function ScriptedPuppet:OnSignalForcedRagdollDeathSignal(signalId, newValue, userData) end
 
 ---@param signalId Uint16
 ---@param newValue Bool
 ---@param userData NPCStateChangeSignal
 ---@return nil
-function ScriptedPuppet:OnSignalNPCStateChangeSignal(signalId, newValue, userData) return end
+function ScriptedPuppet:OnSignalNPCStateChangeSignal(signalId, newValue, userData) end
 
 ---@param signalId Uint16
 ---@param newValue Bool
 ---@return nil
-function ScriptedPuppet:OnSignalSquadActionSignal(signalId, newValue) return end
+function ScriptedPuppet:OnSignalSquadActionSignal(signalId, newValue) end
 
----@private
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return nil
-function ScriptedPuppet:OrderChoice(choiceEvent) return end
+function ScriptedPuppet:OrderChoice(choiceEvent) end
 
----@private
 ---@param statPoolType gamedataStatPoolType
 ---@return nil
-function ScriptedPuppet:PausePhoneCallDuration(statPoolType) return end
+function ScriptedPuppet:PausePhoneCallDuration(statPoolType) end
 
----@private
 ---@return nil
-function ScriptedPuppet:ProcessEnemyNetrunnerTutorialFact() return end
+function ScriptedPuppet:ProcessEnemyNetrunnerTutorialFact() end
 
----@private
 ---@param baseMoney Float
 ---@param baseUncommonMaterials Float
 ---@param baseRareMaterials Float
@@ -1403,298 +1275,258 @@ function ScriptedPuppet:ProcessEnemyNetrunnerTutorialFact() return end
 ---@param baseShardDropChance Float
 ---@param TS gameTransactionSystem
 ---@return nil
-function ScriptedPuppet:ProcessLootMinigame(baseMoney, baseUncommonMaterials, baseRareMaterials, baseEpicMaterials, baseLegendaryMaterials, baseShardDropChance, TS) return end
+function ScriptedPuppet:ProcessLootMinigame(baseMoney, baseUncommonMaterials, baseRareMaterials, baseEpicMaterials, baseLegendaryMaterials, baseShardDropChance, TS) end
 
----@private
 ---@param evt gameinteractionsChoiceEvent
 ---@param playerPuppet PlayerPuppet
 ---@param npcPuppet NPCPuppet
 ---@return nil
-function ScriptedPuppet:ProcessNewPerkFinisherLayer(evt, playerPuppet, npcPuppet) return end
+function ScriptedPuppet:ProcessNewPerkFinisherLayer(evt, playerPuppet, npcPuppet) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:ProcessQuickHackQueueOnDefeat() return end
+function ScriptedPuppet:ProcessQuickHackQueueOnDefeat() end
 
----@private
 ---@param evt gameinteractionsChoiceEvent
 ---@return nil
-function ScriptedPuppet:ProcessSyncedAnimationPuppetActions(evt) return end
+function ScriptedPuppet:ProcessSyncedAnimationPuppetActions(evt) end
 
----@private
 ---@return nil
-function ScriptedPuppet:PropagateFadeOutlinesRequestToItems() return end
+function ScriptedPuppet:PropagateFadeOutlinesRequestToItems() end
 
----@private
 ---@param evt OutlineRequestEvent
 ---@return nil
-function ScriptedPuppet:PropagateOutlineToCurrentlyUsedItems(evt) return end
+function ScriptedPuppet:PropagateOutlineToCurrentlyUsedItems(evt) end
 
----@protected
 ---@param revealNetworkAtEnd Bool
 ---@return nil
-function ScriptedPuppet:PulseNetwork(revealNetworkAtEnd) return end
+function ScriptedPuppet:PulseNetwork(revealNetworkAtEnd) end
 
 ---@param evt gameeventsHitEvent
 ---@return nil
-function ScriptedPuppet:PuppetDamagePipelineFinalized(evt) return end
+function ScriptedPuppet:PuppetDamagePipelineFinalized(evt) end
 
 ---@param obj gameObject
 ---@return nil
-function ScriptedPuppet:PuppetSubmergedRequestRemovingStatusEffects(obj) return end
+function ScriptedPuppet:PuppetSubmergedRequestRemovingStatusEffects(obj) end
 
----@private
 ---@param evt gameinteractionsChoiceEvent
 ---@param isFastFinisher Bool
 ---@return nil
-function ScriptedPuppet:PushFinisherActionEventToPSM(evt, isFastFinisher) return end
+function ScriptedPuppet:PushFinisherActionEventToPSM(evt, isFastFinisher) end
 
----@private
 ---@param evt gameinteractionsChoiceEvent
 ---@return nil
-function ScriptedPuppet:PushTakedownActionEventToPSM(evt) return end
+function ScriptedPuppet:PushTakedownActionEventToPSM(evt) end
 
 ---@return nil
-function ScriptedPuppet:RefreshCachedDataCharacterTags() return end
+function ScriptedPuppet:RefreshCachedDataCharacterTags() end
 
 ---@return nil
-function ScriptedPuppet:RefreshCachedReactionPresetData() return end
-
----@private
----@return nil
-function ScriptedPuppet:RegisterSubCharacter() return end
+function ScriptedPuppet:RefreshCachedReactionPresetData() end
 
 ---@return nil
-function ScriptedPuppet:RemoveLink() return end
+function ScriptedPuppet:RegisterSubCharacter() end
+
+---@return nil
+function ScriptedPuppet:RemoveLink() end
 
 ---@param ssAction? Bool
 ---@return Bool
-function ScriptedPuppet:RemoveLinkedStatusEffects(ssAction) return end
+function ScriptedPuppet:RemoveLinkedStatusEffects(ssAction) end
 
 ---@param sourceID entEntityID
 ---@param ssAction? Bool
 ---@return Bool
-function ScriptedPuppet:RemoveLinkedStatusEffectsFromTarget(sourceID, ssAction) return end
+function ScriptedPuppet:RemoveLinkedStatusEffectsFromTarget(sourceID, ssAction) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:RemoveListeners() return end
+function ScriptedPuppet:RemoveListeners() end
 
----@private
 ---@param shouldIncreaseCounter Bool
 ---@param requester entEntityID
 ---@return nil
-function ScriptedPuppet:RequestRevealOutline(shouldIncreaseCounter, requester) return end
+function ScriptedPuppet:RequestRevealOutline(shouldIncreaseCounter, requester) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:ResolveConnectionWithDeviceSystem() return end
+function ScriptedPuppet:ResolveConnectionWithDeviceSystem() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function ScriptedPuppet:ResolveConnectionWithDeviceSystemTask(data) return end
+function ScriptedPuppet:ResolveConnectionWithDeviceSystemTask(data) end
 
----@private
 ---@return nil
-function ScriptedPuppet:ResolveQualityRangeInteractionLayer() return end
+function ScriptedPuppet:ResolveQualityRangeInteractionLayer() end
 
----@private
 ---@param statPoolType gamedataStatPoolType
 ---@param initialDuration Float
 ---@return nil
-function ScriptedPuppet:ResumePhoneCallDuration(statPoolType, initialDuration) return end
+function ScriptedPuppet:ResumePhoneCallDuration(statPoolType, initialDuration) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:RevokeAllTickets() return end
+function ScriptedPuppet:RevokeAllTickets() end
 
----@protected
 ---@return nil
-function ScriptedPuppet:RevokeAllTicketsForPreventionSquad() return end
+function ScriptedPuppet:RevokeAllTicketsForPreventionSquad() end
 
----@protected
 ---@param killer gameObject
 ---@param killType gameKillType
 ---@param isAnyDamageNonlethal Bool
 ---@return nil
-function ScriptedPuppet:RewardKiller(killer, killType, isAnyDamageNonlethal) return end
+function ScriptedPuppet:RewardKiller(killer, killType, isAnyDamageNonlethal) end
 
----@private
 ---@return nil
-function ScriptedPuppet:SendAIDeathSignal() return end
+function ScriptedPuppet:SendAIDeathSignal() end
 
----@private
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@param id CName|string
 ---@param isChoiceActive Bool
 ---@return nil
-function ScriptedPuppet:SendInteractionChoiceToPSM(choiceEvent, id, isChoiceActive) return end
+function ScriptedPuppet:SendInteractionChoiceToPSM(choiceEvent, id, isChoiceActive) end
 
----@protected
 ---@param shouldOpen Bool
 ---@return nil
-function ScriptedPuppet:SendQuickhackCommands(shouldOpen) return end
+function ScriptedPuppet:SendQuickhackCommands(shouldOpen) end
 
 ---@param item gameItemObject
 ---@return nil
-function ScriptedPuppet:SetAnimWrappersOnItem(item) return end
+function ScriptedPuppet:SetAnimWrappersOnItem(item) end
 
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptedPuppet:SetCurrentlyUploadingAction(action) return end
+function ScriptedPuppet:SetCurrentlyUploadingAction(action) end
 
 ---@param value Bool
 ---@return nil
-function ScriptedPuppet:SetFinisherSoundPlayed(value) return end
+function ScriptedPuppet:SetFinisherSoundPlayed(value) end
 
 ---@param itemID gameItemID
 ---@return nil
-function ScriptedPuppet:SetItemMinigameAttempted(itemID) return end
+function ScriptedPuppet:SetItemMinigameAttempted(itemID) end
 
 ---@param killer entEntity
 ---@return nil
-function ScriptedPuppet:SetKiller(killer) return end
+function ScriptedPuppet:SetKiller(killer) end
 
 ---@param target gameObject
 ---@return nil
-function ScriptedPuppet:SetMainTrackedObject(target) return end
+function ScriptedPuppet:SetMainTrackedObject(target) end
 
 ---@param presetID TweakDBID|string
 ---@return nil
-function ScriptedPuppet:SetReactionPresetID(presetID) return end
+function ScriptedPuppet:SetReactionPresetID(presetID) end
 
 ---@param type gamedataSenseObjectType
 ---@return nil
-function ScriptedPuppet:SetSenseObjectType(type) return end
+function ScriptedPuppet:SetSenseObjectType(type) end
 
 ---@param value Bool
 ---@return nil
-function ScriptedPuppet:SetSkipDeathAnimation(value) return end
+function ScriptedPuppet:SetSkipDeathAnimation(value) end
 
----@private
 ---@param value Bool
 ---@return nil
-function ScriptedPuppet:SetWasIncapacitatedOnAttach(value) return end
+function ScriptedPuppet:SetWasIncapacitatedOnAttach(value) end
 
 ---@return Bool
-function ScriptedPuppet:ShouldEnableRemoteLayer() return end
-
----@private
----@return Bool
-function ScriptedPuppet:ShouldPulseNetwork() return end
-
----@protected
----@return Bool
-function ScriptedPuppet:ShouldRegisterToHUD() return end
+function ScriptedPuppet:ShouldEnableRemoteLayer() end
 
 ---@return Bool
-function ScriptedPuppet:ShouldShowScanner() return end
+function ScriptedPuppet:ShouldPulseNetwork() end
 
 ---@return Bool
-function ScriptedPuppet:ShouldSkipDeathAnimation() return end
+function ScriptedPuppet:ShouldRegisterToHUD() end
 
 ---@return Bool
-function ScriptedPuppet:ShouldSpawnBloodPuddle() return end
+function ScriptedPuppet:ShouldShowScanner() end
 
----@private
+---@return Bool
+function ScriptedPuppet:ShouldSkipDeathAnimation() end
+
+---@return Bool
+function ScriptedPuppet:ShouldSpawnBloodPuddle() end
+
 ---@param duration Float
 ---@param statType gamedataStatType
 ---@param statPoolType gamedataStatPoolType
 ---@param statPoolID TweakDBID|string
 ---@return nil
-function ScriptedPuppet:ShowPhoneCallDuration(duration, statType, statPoolType, statPoolID) return end
+function ScriptedPuppet:ShowPhoneCallDuration(duration, statType, statPoolType, statPoolID) end
 
----@private
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ScriptedPuppet:ShowQuickHackDuration(action) return end
+function ScriptedPuppet:ShowQuickHackDuration(action) end
 
 ---@param instigator? gameObject
 ---@param skipNPCDeathAnim? Bool
 ---@param disableNPCRagdoll? Bool
 ---@return nil
-function ScriptedPuppet:SoftKill(instigator, skipNPCDeathAnim, disableNPCRagdoll) return end
+function ScriptedPuppet:SoftKill(instigator, skipNPCDeathAnim, disableNPCRagdoll) end
 
----@private
 ---@param leaveSquad Bool
 ---@param squadType AISquadType
 ---@return nil
-function ScriptedPuppet:SquadUpdate(leaveSquad, squadType) return end
-
----@protected
----@return nil
-function ScriptedPuppet:StartOxygenDecay() return end
-
----@protected
----@return nil
-function ScriptedPuppet:StartPingingNetwork() return end
-
----@protected
----@return nil
-function ScriptedPuppet:StopOxygenDecay() return end
-
----@protected
----@return nil
-function ScriptedPuppet:StopPingingNetwork() return end
+function ScriptedPuppet:SquadUpdate(leaveSquad, squadType) end
 
 ---@return nil
-function ScriptedPuppet:StopPoliceBehaviour() return end
+function ScriptedPuppet:StartOxygenDecay() end
 
----@private
 ---@return nil
-function ScriptedPuppet:ToggleInteractionLayers() return end
+function ScriptedPuppet:StartPingingNetwork() end
 
----@private
+---@return nil
+function ScriptedPuppet:StopOxygenDecay() end
+
+---@return nil
+function ScriptedPuppet:StopPingingNetwork() end
+
+---@return nil
+function ScriptedPuppet:StopPoliceBehaviour() end
+
+---@return nil
+function ScriptedPuppet:ToggleInteractionLayers() end
+
 ---@param puppetActions PuppetAction[]
 ---@param commands QuickhackData[]
 ---@return nil
-function ScriptedPuppet:TranslateChoicesIntoQuickSlotCommands(puppetActions, commands) return end
+function ScriptedPuppet:TranslateChoicesIntoQuickSlotCommands(puppetActions, commands) end
 
----@private
 ---@param evt gameinteractionsChoiceEvent
 ---@param playerPuppet PlayerPuppet
 ---@return nil
-function ScriptedPuppet:TriggerNewPerkFinisher(evt, playerPuppet) return end
+function ScriptedPuppet:TriggerNewPerkFinisher(evt, playerPuppet) end
 
----@private
 ---@param playerPuppet PlayerPuppet
 ---@param npcPuppet NPCPuppet
 ---@return nil
-function ScriptedPuppet:TriggerNewPerkFinisherBluntHold(playerPuppet, npcPuppet) return end
+function ScriptedPuppet:TriggerNewPerkFinisherBluntHold(playerPuppet, npcPuppet) end
 
 ---@param lastKnownPosition Vector4
 ---@param threat gameObject
 ---@param type ESecurityNotificationType
 ---@param stimType? gamedataStimType
 ---@return nil
-function ScriptedPuppet:TriggerSecuritySystemNotification(lastKnownPosition, threat, type, stimType) return end
+function ScriptedPuppet:TriggerSecuritySystemNotification(lastKnownPosition, threat, type, stimType) end
 
 ---@return nil
-function ScriptedPuppet:TryRegisterToPrevention() return end
+function ScriptedPuppet:TryRegisterToPrevention() end
 
----@private
 ---@return nil
-function ScriptedPuppet:UnregisterSubCharacter() return end
+function ScriptedPuppet:UnregisterSubCharacter() end
 
----@protected
 ---@param dt Float
 ---@return nil
-function ScriptedPuppet:Update(dt) return end
+function ScriptedPuppet:Update(dt) end
 
----@protected
 ---@return nil
-function ScriptedPuppet:UpdateLootInteraction() return end
+function ScriptedPuppet:UpdateLootInteraction() end
 
----@private
 ---@param isQuickHackable Bool
 ---@return nil
-function ScriptedPuppet:UpdateQuickHackableState(isQuickHackable) return end
+function ScriptedPuppet:UpdateQuickHackableState(isQuickHackable) end
 
----@private
 ---@param b Bool
 ---@return nil
-function ScriptedPuppet:UpdateScannerLookAtBB(b) return end
+function ScriptedPuppet:UpdateScannerLookAtBB(b) end
 
 ---@return Bool
-function ScriptedPuppet:WasIncapacitatedOnAttach() return end
+function ScriptedPuppet:WasIncapacitatedOnAttach() end

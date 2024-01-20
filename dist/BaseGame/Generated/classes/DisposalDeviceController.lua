@@ -5,7 +5,7 @@ DisposalDeviceController = {}
 
 ---@param fields? DisposalDeviceController
 ---@return DisposalDeviceController
-function DisposalDeviceController.new(fields) return end
+function DisposalDeviceController.new(fields) end
 
 ---@return DisposalDeviceControllerPS
-function DisposalDeviceController:GetPS() return end
+function DisposalDeviceController:GetPS() end

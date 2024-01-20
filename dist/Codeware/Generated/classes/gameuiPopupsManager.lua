@@ -5,14 +5,12 @@ gameuiPopupsManager = {}
 
 ---@param fields? gameuiPopupsManager
 ---@return gameuiPopupsManager
-function gameuiPopupsManager.new(fields) return end
+function gameuiPopupsManager.new(fields) end
 
----@protected
 ---@param evt Codeware_UI_HideCustomPopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnHideCustomPopup(evt) return end
+function gameuiPopupsManager:OnHideCustomPopup(evt) end
 
----@protected
 ---@param evt Codeware_UI_ShowCustomPopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnShowCustomPopup(evt) return end
+function gameuiPopupsManager:OnShowCustomPopup(evt) end

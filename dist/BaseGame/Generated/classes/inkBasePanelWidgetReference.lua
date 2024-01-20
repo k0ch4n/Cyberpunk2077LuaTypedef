@@ -5,4 +5,4 @@ inkBasePanelWidgetReference = {}
 
 ---@param fields? inkBasePanelWidgetReference
 ---@return inkBasePanelWidgetReference
-function inkBasePanelWidgetReference.new(fields) return end
+function inkBasePanelWidgetReference.new(fields) end

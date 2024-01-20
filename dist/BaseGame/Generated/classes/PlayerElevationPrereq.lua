@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class PlayerElevationPrereq: gameIScriptablePrereq
----@field public elevationThreshold Float
+---@field elevationThreshold Float
 PlayerElevationPrereq = {}
 
 ---@param fields? PlayerElevationPrereq
 ---@return PlayerElevationPrereq
-function PlayerElevationPrereq.new(fields) return end
+function PlayerElevationPrereq.new(fields) end
 
 ---@param owner gameObject
 ---@param minElevationVal Float
 ---@param maxElevationVal Float
 ---@return Bool
-function PlayerElevationPrereq:Evaluate(owner, minElevationVal, maxElevationVal) return end
+function PlayerElevationPrereq:Evaluate(owner, minElevationVal, maxElevationVal) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function PlayerElevationPrereq:Initialize(recordID) return end
+function PlayerElevationPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function PlayerElevationPrereq:OnRegister(state, context) return end
+function PlayerElevationPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function PlayerElevationPrereq:OnUnregister(state, context) return end
+function PlayerElevationPrereq:OnUnregister(state, context) end

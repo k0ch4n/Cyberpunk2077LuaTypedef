@@ -1,33 +1,28 @@
 ---@meta
 
 ---@class LevelUpGameController: gameuiHUDGameController
----@field private value inkTextWidgetReference
----@field private proficencyLabel inkTextWidgetReference
----@field private animationProxy inkanimProxy
----@field private data LevelUpUserData
+---@field value inkTextWidgetReference
+---@field proficencyLabel inkTextWidgetReference
+---@field animationProxy inkanimProxy
+---@field data LevelUpUserData
 LevelUpGameController = {}
 
 ---@param fields? LevelUpGameController
 ---@return LevelUpGameController
-function LevelUpGameController.new(fields) return end
+function LevelUpGameController.new(fields) end
 
----@protected
 ---@return Bool
-function LevelUpGameController:OnInitialize() return end
+function LevelUpGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function LevelUpGameController:OnOutroAnimFinished(anim) return end
+function LevelUpGameController:OnOutroAnimFinished(anim) end
 
----@protected
 ---@return Bool
-function LevelUpGameController:OnUninitialize() return end
+function LevelUpGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function LevelUpGameController:PlayIntroAnimation() return end
+function LevelUpGameController:PlayIntroAnimation() end
 
----@private
 ---@return nil
-function LevelUpGameController:Setup() return end
+function LevelUpGameController:Setup() end

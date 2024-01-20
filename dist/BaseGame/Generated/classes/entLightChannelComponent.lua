@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entLightChannelComponent: entIVisualComponent
----@field public isEnabled Bool
----@field public channels rendLightChannel
----@field public shape GeometryShape
+---@field isEnabled Bool
+---@field channels rendLightChannel
+---@field shape GeometryShape
 entLightChannelComponent = {}
 
 ---@param fields? entLightChannelComponent
 ---@return entLightChannelComponent
-function entLightChannelComponent.new(fields) return end
+function entLightChannelComponent.new(fields) end

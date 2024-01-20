@@ -5,16 +5,14 @@ LadderSlideDecisions = {}
 
 ---@param fields? LadderSlideDecisions
 ---@return LadderSlideDecisions
-function LadderSlideDecisions.new(fields) return end
+function LadderSlideDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LadderSlideDecisions:EnterCondition(stateContext, scriptInterface) return end
+function LadderSlideDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LadderSlideDecisions:ToLadder(stateContext, scriptInterface) return end
+function LadderSlideDecisions:ToLadder(stateContext, scriptInterface) end

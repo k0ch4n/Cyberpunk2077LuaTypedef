@@ -5,9 +5,8 @@ TriggerCombatReaction = {}
 
 ---@param fields? TriggerCombatReaction
 ---@return TriggerCombatReaction
-function TriggerCombatReaction.new(fields) return end
+function TriggerCombatReaction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TriggerCombatReaction:Deactivate(context) return end
+function TriggerCombatReaction:Deactivate(context) end

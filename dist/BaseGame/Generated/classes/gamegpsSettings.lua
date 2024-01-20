@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gamegpsSettings
----@field public lineEffectOnFoot worldEffect
----@field public lineEffectVehicle worldEffect
----@field public fixedPathOffset Vector3
----@field public fixedPortalMappinOffset Vector3
----@field public pathRefreshTimeInterval Float
----@field public lastPlayerNavmeshPositionRefreshTimeIntervalSecs Float
----@field public maxPathDisplayLength Float
+---@field lineEffectOnFoot worldEffect
+---@field lineEffectVehicle worldEffect
+---@field fixedPathOffset Vector3
+---@field fixedPortalMappinOffset Vector3
+---@field pathRefreshTimeInterval Float
+---@field lastPlayerNavmeshPositionRefreshTimeIntervalSecs Float
+---@field maxPathDisplayLength Float
 gamegpsSettings = {}
 
 ---@param fields? gamegpsSettings
 ---@return gamegpsSettings
-function gamegpsSettings.new(fields) return end
+function gamegpsSettings.new(fields) end

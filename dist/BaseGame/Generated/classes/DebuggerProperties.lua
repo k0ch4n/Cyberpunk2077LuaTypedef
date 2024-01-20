@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DebuggerProperties
----@field public exclusiveMode Bool
----@field public factActivated CName
----@field public debugName CName
----@field public layerIDs Uint32[]
+---@field exclusiveMode Bool
+---@field factActivated CName
+---@field debugName CName
+---@field layerIDs Uint32[]
 DebuggerProperties = {}
 
 ---@param fields? DebuggerProperties
 ---@return DebuggerProperties
-function DebuggerProperties.new(fields) return end
+function DebuggerProperties.new(fields) end

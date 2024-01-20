@@ -5,4 +5,4 @@ gameCameraCurveSet = {}
 
 ---@param fields? gameCameraCurveSet
 ---@return gameCameraCurveSet
-function gameCameraCurveSet.new(fields) return end
+function gameCameraCurveSet.new(fields) end

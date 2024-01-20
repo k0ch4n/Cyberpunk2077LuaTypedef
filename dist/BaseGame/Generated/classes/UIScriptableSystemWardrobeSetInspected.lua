@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemWardrobeSetInspected: gameScriptableSystemRequest
----@field public wardrobeSet gameWardrobeClothingSetIndex
+---@field wardrobeSet gameWardrobeClothingSetIndex
 UIScriptableSystemWardrobeSetInspected = {}
 
 ---@param fields? UIScriptableSystemWardrobeSetInspected
 ---@return UIScriptableSystemWardrobeSetInspected
-function UIScriptableSystemWardrobeSetInspected.new(fields) return end
+function UIScriptableSystemWardrobeSetInspected.new(fields) end

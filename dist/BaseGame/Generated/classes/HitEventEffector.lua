@@ -5,13 +5,11 @@ HitEventEffector = {}
 
 ---@param fields? HitEventEffector
 ---@return HitEventEffector
-function HitEventEffector.new(fields) return end
+function HitEventEffector.new(fields) end
 
----@private
 ---@param multiPrereqState gameMultiPrereqState
 ---@return gameeventsHitEvent
-function HitEventEffector:FindHitEventInMultiPrereq(multiPrereqState) return end
+function HitEventEffector:FindHitEventInMultiPrereq(multiPrereqState) end
 
----@protected
 ---@return gameeventsHitEvent
-function HitEventEffector:GetHitEvent() return end
+function HitEventEffector:GetHitEvent() end

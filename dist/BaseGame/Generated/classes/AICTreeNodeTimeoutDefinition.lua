@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AICTreeNodeTimeoutDefinition: AICTreeExtendableNodeDefinition
----@field public timeout Float
+---@field timeout Float
 AICTreeNodeTimeoutDefinition = {}
 
 ---@param fields? AICTreeNodeTimeoutDefinition
 ---@return AICTreeNodeTimeoutDefinition
-function AICTreeNodeTimeoutDefinition.new(fields) return end
+function AICTreeNodeTimeoutDefinition.new(fields) end

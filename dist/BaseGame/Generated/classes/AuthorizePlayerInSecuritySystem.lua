@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AuthorizePlayerInSecuritySystem: redEvent
----@field public authorize Bool
----@field public forceRemoveFromBlacklist Bool
----@field public ESL ESecurityAccessLevel
+---@field authorize Bool
+---@field forceRemoveFromBlacklist Bool
+---@field ESL ESecurityAccessLevel
 AuthorizePlayerInSecuritySystem = {}
 
 ---@param fields? AuthorizePlayerInSecuritySystem
 ---@return AuthorizePlayerInSecuritySystem
-function AuthorizePlayerInSecuritySystem.new(fields) return end
+function AuthorizePlayerInSecuritySystem.new(fields) end
 
 ---@return String
-function AuthorizePlayerInSecuritySystem:GetFriendlyDescription() return end
+function AuthorizePlayerInSecuritySystem:GetFriendlyDescription() end

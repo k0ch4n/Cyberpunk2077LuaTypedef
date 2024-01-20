@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class ApplyEffectorEffector: gameEffector
----@field public target entEntityID
----@field public applicationTarget CName
----@field public effectorToApply TweakDBID
+---@field target entEntityID
+---@field applicationTarget CName
+---@field effectorToApply TweakDBID
 ApplyEffectorEffector = {}
 
 ---@param fields? ApplyEffectorEffector
 ---@return ApplyEffectorEffector
-function ApplyEffectorEffector.new(fields) return end
+function ApplyEffectorEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyEffectorEffector:ActionOff(owner) return end
+function ApplyEffectorEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyEffectorEffector:ActionOn(owner) return end
+function ApplyEffectorEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyEffectorEffector:Initialize(record, parentRecord) return end
+function ApplyEffectorEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function ApplyEffectorEffector:Uninitialize() return end
+function ApplyEffectorEffector:Uninitialize() end

@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class gameuiNewHudPhoneGameController: gameuiGenericNotificationGameController
----@field public holoAudioCallElement gameuiLocalPhoneElement
----@field public incomingCallElement gameuiLocalPhoneElement
----@field public contactsElement gameuiLocalPhoneElement
----@field public smsMessengerElement gameuiExternalPhoneElement
----@field public notificationsElement gameuiPhoneElementVisibility
----@field public phoneIconElement gameuiLocalPhoneElement
----@field public resolutionSensitiveWidgets gameuiResolutionSensitiveWidget[]
----@field public hudScalingSensitiveWidgets gameuiHudScalingSensitiveWidget[]
----@field public phoneIconMarker inkWidgetReference
----@field public phoneIconVehicleMarker inkWidgetReference
----@field public callMarker inkWidgetReference
----@field public contactsMarker inkWidgetReference
----@field public notificationMarker inkWidgetReference
+---@field holoAudioCallElement gameuiLocalPhoneElement
+---@field incomingCallElement gameuiLocalPhoneElement
+---@field contactsElement gameuiLocalPhoneElement
+---@field smsMessengerElement gameuiExternalPhoneElement
+---@field notificationsElement gameuiPhoneElementVisibility
+---@field phoneIconElement gameuiLocalPhoneElement
+---@field resolutionSensitiveWidgets gameuiResolutionSensitiveWidget[]
+---@field hudScalingSensitiveWidgets gameuiHudScalingSensitiveWidget[]
+---@field phoneIconMarker inkWidgetReference
+---@field phoneIconVehicleMarker inkWidgetReference
+---@field callMarker inkWidgetReference
+---@field contactsMarker inkWidgetReference
+---@field notificationMarker inkWidgetReference
 gameuiNewHudPhoneGameController = {}
 
 ---@param fields? gameuiNewHudPhoneGameController
 ---@return gameuiNewHudPhoneGameController
-function gameuiNewHudPhoneGameController.new(fields) return end
+function gameuiNewHudPhoneGameController.new(fields) end
 
 ---@return nil
-function gameuiNewHudPhoneGameController:CloseSmsMessenger() return end
+function gameuiNewHudPhoneGameController:CloseSmsMessenger() end
 
 ---@param data inkGameNotificationData
 ---@return nil
-function gameuiNewHudPhoneGameController:OpenSmsMessenger(data) return end
+function gameuiNewHudPhoneGameController:OpenSmsMessenger(data) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class physicsICollider: ISerializable
----@field public localToBody Transform
----@field public material CName
----@field public materialApperanceOverrides physicsApperanceMaterial[]
----@field public tag CName
----@field public isImported Bool
----@field public isQueryShapeOnly Bool
----@field public volumeModifier Float
----@field public filterData physicsFilterData
+---@field localToBody Transform
+---@field material CName
+---@field materialApperanceOverrides physicsApperanceMaterial[]
+---@field tag CName
+---@field isImported Bool
+---@field isQueryShapeOnly Bool
+---@field volumeModifier Float
+---@field filterData physicsFilterData
 physicsICollider = {}

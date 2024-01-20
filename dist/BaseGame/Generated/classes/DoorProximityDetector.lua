@@ -1,91 +1,74 @@
 ---@meta
 
 ---@class DoorProximityDetector: ProximityDetector
----@field private triggeredAlarmID gameDelayID
----@field private blinkInterval Float
----@field private authorizationLevel ESecurityAccessLevel
+---@field triggeredAlarmID gameDelayID
+---@field blinkInterval Float
+---@field authorizationLevel ESecurityAccessLevel
 DoorProximityDetector = {}
 
 ---@param fields? DoorProximityDetector
 ---@return DoorProximityDetector
-function DoorProximityDetector.new(fields) return end
+function DoorProximityDetector.new(fields) end
 
----@protected
 ---@param evt AlarmEvent
 ---@return Bool
-function DoorProximityDetector:OnAlarmBlink(evt) return end
+function DoorProximityDetector:OnAlarmBlink(evt) end
 
----@protected
 ---@return Bool
-function DoorProximityDetector:OnDetach() return end
+function DoorProximityDetector:OnDetach() end
 
----@protected
 ---@return Bool
-function DoorProximityDetector:OnGameAttached() return end
+function DoorProximityDetector:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DoorProximityDetector:OnRequestComponents(ri) return end
+function DoorProximityDetector:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return Bool
-function DoorProximityDetector:OnSecuritySystemOutput(evt) return end
+function DoorProximityDetector:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DoorProximityDetector:OnTakeControl(ri) return end
+function DoorProximityDetector:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function DoorProximityDetector:CancelAlarmCallback() return end
+function DoorProximityDetector:CancelAlarmCallback() end
 
----@private
 ---@return DoorProximityDetectorController
-function DoorProximityDetector:GetController() return end
+function DoorProximityDetector:GetController() end
 
 ---@return DoorProximityDetectorControllerPS
-function DoorProximityDetector:GetDevicePS() return end
+function DoorProximityDetector:GetDevicePS() end
 
----@private
 ---@return Bool
-function DoorProximityDetector:IsAlarmTriggered() return end
+function DoorProximityDetector:IsAlarmTriggered() end
 
----@private
 ---@return Bool
-function DoorProximityDetector:IsPlayerAuthorized() return end
+function DoorProximityDetector:IsPlayerAuthorized() end
 
----@protected
 ---@param shouldLock Bool
 ---@return nil
-function DoorProximityDetector:LockDevice(shouldLock) return end
+function DoorProximityDetector:LockDevice(shouldLock) end
 
----@private
 ---@param appearanceState DoorProximityDetectorAppearanceStateType
 ---@return nil
-function DoorProximityDetector:SetAppearanceState(appearanceState) return end
+function DoorProximityDetector:SetAppearanceState(appearanceState) end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function DoorProximityDetector:StartGlitching(glitchState, intensity) return end
+function DoorProximityDetector:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function DoorProximityDetector:StopGlitching() return end
+function DoorProximityDetector:StopGlitching() end
 
----@private
 ---@param yes Bool
 ---@return nil
-function DoorProximityDetector:TriggerAlarmBehavior(yes) return end
+function DoorProximityDetector:TriggerAlarmBehavior(yes) end
 
----@protected
 ---@return nil
-function DoorProximityDetector:TurnOffDevice() return end
+function DoorProximityDetector:TurnOffDevice() end
 
----@protected
 ---@return nil
-function DoorProximityDetector:TurnOnDevice() return end
+function DoorProximityDetector:TurnOnDevice() end

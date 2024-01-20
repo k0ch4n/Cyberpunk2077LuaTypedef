@@ -1,102 +1,89 @@
 ---@meta
 
 ---@class gameuiTutorialPopupGameController: gameuiWidgetGameController
----@field public actionHint inkWidgetReference
----@field public popupPanel inkWidgetReference
----@field public popupFullscreenPanel inkWidgetReference
----@field public popupBlockingPanel inkWidgetReference
----@field public popupFullscreenRightPanel inkWidgetReference
----@field private data TutorialPopupData
----@field private inputBlocked Bool
----@field private gamePaused Bool
----@field private isShownBbId redCallbackObject
----@field private animIntroPopup CName
----@field private animIntroPopupModal CName
----@field private animIntroFullscreenLeft CName
----@field private animIntroFullscreenRight CName
----@field private animOutroPopup CName
----@field private animOutroPopupModal CName
----@field private animOutroFullscreenLeft CName
----@field private animOutroFullscreenRight CName
----@field private animIntro CName
----@field private animOutro CName
----@field private targetPopup inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private targetPosition gamePopupPosition
----@field private onInputDeviceChangedCallbackID redCallbackObject
+---@field actionHint inkWidgetReference
+---@field popupPanel inkWidgetReference
+---@field popupFullscreenPanel inkWidgetReference
+---@field popupBlockingPanel inkWidgetReference
+---@field popupFullscreenRightPanel inkWidgetReference
+---@field data TutorialPopupData
+---@field inputBlocked Bool
+---@field gamePaused Bool
+---@field isShownBbId redCallbackObject
+---@field animIntroPopup CName
+---@field animIntroPopupModal CName
+---@field animIntroFullscreenLeft CName
+---@field animIntroFullscreenRight CName
+---@field animOutroPopup CName
+---@field animOutroPopupModal CName
+---@field animOutroFullscreenLeft CName
+---@field animOutroFullscreenRight CName
+---@field animIntro CName
+---@field animOutro CName
+---@field targetPopup inkWidgetReference
+---@field animationProxy inkanimProxy
+---@field targetPosition gamePopupPosition
+---@field onInputDeviceChangedCallbackID redCallbackObject
 gameuiTutorialPopupGameController = {}
 
 ---@param fields? gameuiTutorialPopupGameController
 ---@return gameuiTutorialPopupGameController
-function gameuiTutorialPopupGameController.new(fields) return end
+function gameuiTutorialPopupGameController.new(fields) end
 
 ---@return nil
-function gameuiTutorialPopupGameController:AdaptToScreenComposition() return end
+function gameuiTutorialPopupGameController:AdaptToScreenComposition() end
 
 ---@return nil
-function gameuiTutorialPopupGameController:RequestVisualState() return end
+function gameuiTutorialPopupGameController:RequestVisualState() end
 
 ---@return nil
-function gameuiTutorialPopupGameController:RestorePreviousVisualState() return end
+function gameuiTutorialPopupGameController:RestorePreviousVisualState() end
 
----@protected
 ---@return Bool
-function gameuiTutorialPopupGameController:OnInitialize() return end
+function gameuiTutorialPopupGameController:OnInitialize() end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function gameuiTutorialPopupGameController:OnInputDeviceChanged(value) return end
+function gameuiTutorialPopupGameController:OnInputDeviceChanged(value) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiTutorialPopupGameController:OnIntro(anim) return end
+function gameuiTutorialPopupGameController:OnIntro(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiTutorialPopupGameController:OnOutro(anim) return end
+function gameuiTutorialPopupGameController:OnOutro(anim) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiTutorialPopupGameController:OnPlayerAttach(playerPuppet) return end
+function gameuiTutorialPopupGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiTutorialPopupGameController:OnPlayerDetach(playerPuppet) return end
+function gameuiTutorialPopupGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiTutorialPopupGameController:OnRelease(e) return end
+function gameuiTutorialPopupGameController:OnRelease(e) end
 
----@protected
 ---@return Bool
-function gameuiTutorialPopupGameController:OnUninitialize() return end
+function gameuiTutorialPopupGameController:OnUninitialize() end
 
----@private
 ---@param offset Float
 ---@return nil
-function gameuiTutorialPopupGameController:AdaptToBlackBars(offset) return end
+function gameuiTutorialPopupGameController:AdaptToBlackBars(offset) end
 
----@private
 ---@param safezones Vector2
 ---@return nil
-function gameuiTutorialPopupGameController:AdaptToHudSafezones(safezones) return end
+function gameuiTutorialPopupGameController:AdaptToHudSafezones(safezones) end
 
----@private
 ---@param value Bool
 ---@return nil
-function gameuiTutorialPopupGameController:BlockInput(value) return end
+function gameuiTutorialPopupGameController:BlockInput(value) end
 
----@private
 ---@param value Bool
 ---@return nil
-function gameuiTutorialPopupGameController:PauseGame(value) return end
+function gameuiTutorialPopupGameController:PauseGame(value) end
 
----@private
 ---@return nil
-function gameuiTutorialPopupGameController:SetupView() return end
+function gameuiTutorialPopupGameController:SetupView() end

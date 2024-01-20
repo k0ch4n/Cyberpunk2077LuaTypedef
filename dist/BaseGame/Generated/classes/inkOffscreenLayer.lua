@@ -5,4 +5,4 @@ inkOffscreenLayer = {}
 
 ---@param fields? inkOffscreenLayer
 ---@return inkOffscreenLayer
-function inkOffscreenLayer.new(fields) return end
+function inkOffscreenLayer.new(fields) end

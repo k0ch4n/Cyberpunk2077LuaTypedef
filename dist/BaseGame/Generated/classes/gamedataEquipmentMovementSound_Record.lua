@@ -5,10 +5,10 @@ gamedataEquipmentMovementSound_Record = {}
 
 ---@param fields? gamedataEquipmentMovementSound_Record
 ---@return gamedataEquipmentMovementSound_Record
-function gamedataEquipmentMovementSound_Record.new(fields) return end
+function gamedataEquipmentMovementSound_Record.new(fields) end
 
 ---@return CName
-function gamedataEquipmentMovementSound_Record:AudioMovementName() return end
+function gamedataEquipmentMovementSound_Record:AudioMovementName() end
 
 ---@return Float
-function gamedataEquipmentMovementSound_Record:Priority() return end
+function gamedataEquipmentMovementSound_Record:Priority() end

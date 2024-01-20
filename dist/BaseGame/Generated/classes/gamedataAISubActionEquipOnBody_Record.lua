@@ -5,4 +5,4 @@ gamedataAISubActionEquipOnBody_Record = {}
 
 ---@param fields? gamedataAISubActionEquipOnBody_Record
 ---@return gamedataAISubActionEquipOnBody_Record
-function gamedataAISubActionEquipOnBody_Record.new(fields) return end
+function gamedataAISubActionEquipOnBody_Record.new(fields) end

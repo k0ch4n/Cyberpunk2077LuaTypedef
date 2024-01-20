@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class saveMetadata: saveGameMetadata
----@field public saveVersion Uint32
----@field public gameVersion Uint32
----@field public timestampString String
----@field public name String
----@field public userName String
----@field public buildID String
----@field public platform String
----@field public censorFlags String
----@field public buildConfiguration String
----@field public fileSize Uint32
----@field public isForced Bool
----@field public isCheckpoint Bool
----@field public initialLoadingScreenID Uint64
----@field public isStoryMode Bool
----@field public isPointOfNoReturn Bool
----@field public isEndGameSave Bool
----@field public isModded Bool
----@field public additionalContentIds CName[]
+---@field saveVersion Uint32
+---@field gameVersion Uint32
+---@field timestampString String
+---@field name String
+---@field userName String
+---@field buildID String
+---@field platform String
+---@field censorFlags String
+---@field buildConfiguration String
+---@field fileSize Uint32
+---@field isForced Bool
+---@field isCheckpoint Bool
+---@field initialLoadingScreenID Uint64
+---@field isStoryMode Bool
+---@field isPointOfNoReturn Bool
+---@field isEndGameSave Bool
+---@field isModded Bool
+---@field additionalContentIds CName[]
 saveMetadata = {}
 
 ---@param fields? saveMetadata
 ---@return saveMetadata
-function saveMetadata.new(fields) return end
+function saveMetadata.new(fields) end

@@ -5,4 +5,4 @@ RevokeQuickHackAccess = {}
 
 ---@param fields? RevokeQuickHackAccess
 ---@return RevokeQuickHackAccess
-function RevokeQuickHackAccess.new(fields) return end
+function RevokeQuickHackAccess.new(fields) end

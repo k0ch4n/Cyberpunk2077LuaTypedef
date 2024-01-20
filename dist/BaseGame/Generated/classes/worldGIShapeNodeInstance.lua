@@ -5,4 +5,4 @@ worldGIShapeNodeInstance = {}
 
 ---@param fields? worldGIShapeNodeInstance
 ---@return worldGIShapeNodeInstance
-function worldGIShapeNodeInstance.new(fields) return end
+function worldGIShapeNodeInstance.new(fields) end

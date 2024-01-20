@@ -5,4 +5,4 @@ questCharacterEquippedItemInventoryListener = {}
 
 ---@param fields? questCharacterEquippedItemInventoryListener
 ---@return questCharacterEquippedItemInventoryListener
-function questCharacterEquippedItemInventoryListener.new(fields) return end
+function questCharacterEquippedItemInventoryListener.new(fields) end

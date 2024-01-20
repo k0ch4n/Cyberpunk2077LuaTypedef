@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class audioMeleeWeaponConfiguration: audioAudioMetadata
----@field public fastWhoosh audioMeleeSound
----@field public normalWhoosh audioMeleeSound
----@field public slowWhoosh audioMeleeSound
----@field public detailSound audioMeleeSound
----@field public handlingSound audioMeleeSound
----@field public equipSound audioMeleeSound
----@field public unequipSound audioMeleeSound
----@field public blockSound audioMeleeSound
----@field public parrySound audioMeleeSound
----@field public attackChargedSound audioMeleeSound
----@field public attackDischargedSound audioMeleeSound
----@field public meleeSoundsByHitPerMaterialType audioMeleeHitTypeMeleeSoundDictionary
----@field public meleeWeaponConfigurationsByRigTypeMap audioMeleeRigTypeMeleeWeaponConfigurationMap
+---@field fastWhoosh audioMeleeSound
+---@field normalWhoosh audioMeleeSound
+---@field slowWhoosh audioMeleeSound
+---@field detailSound audioMeleeSound
+---@field handlingSound audioMeleeSound
+---@field equipSound audioMeleeSound
+---@field unequipSound audioMeleeSound
+---@field blockSound audioMeleeSound
+---@field parrySound audioMeleeSound
+---@field attackChargedSound audioMeleeSound
+---@field attackDischargedSound audioMeleeSound
+---@field meleeSoundsByHitPerMaterialType audioMeleeHitTypeMeleeSoundDictionary
+---@field meleeWeaponConfigurationsByRigTypeMap audioMeleeRigTypeMeleeWeaponConfigurationMap
 audioMeleeWeaponConfiguration = {}
 
 ---@param fields? audioMeleeWeaponConfiguration
 ---@return audioMeleeWeaponConfiguration
-function audioMeleeWeaponConfiguration.new(fields) return end
+function audioMeleeWeaponConfiguration.new(fields) end

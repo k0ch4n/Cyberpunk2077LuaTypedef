@@ -5,101 +5,101 @@ gameUIItemsHelper = {}
 
 ---@param fields? gameUIItemsHelper
 ---@return gameUIItemsHelper
-function gameUIItemsHelper.new(fields) return end
+function gameUIItemsHelper.new(fields) end
 
 ---@param quality Int32
 ---@return gamedataQuality
-function gameUIItemsHelper.IntToQuality(quality) return end
+function gameUIItemsHelper.IntToQuality(quality) end
 
 ---@param quality gamedataQuality
 ---@return Int32
-function gameUIItemsHelper.QualityEnumToInt(quality) return end
+function gameUIItemsHelper.QualityEnumToInt(quality) end
 
 ---@param quality gamedataQuality
 ---@return CName
-function gameUIItemsHelper.QualityEnumToName(quality) return end
+function gameUIItemsHelper.QualityEnumToName(quality) end
 
 ---@param quality gamedataQuality
 ---@return String
-function gameUIItemsHelper.QualityEnumToString(quality) return end
+function gameUIItemsHelper.QualityEnumToString(quality) end
 
 ---@param quality Int32
 ---@return CName
-function gameUIItemsHelper.QualityIntToName(quality) return end
+function gameUIItemsHelper.QualityIntToName(quality) end
 
 ---@param quality CName|string
 ---@return gamedataQuality
-function gameUIItemsHelper.QualityNameToEnum(quality) return end
+function gameUIItemsHelper.QualityNameToEnum(quality) end
 
 ---@param quality CName|string
 ---@return Int32
-function gameUIItemsHelper.QualityNameToInt(quality) return end
+function gameUIItemsHelper.QualityNameToInt(quality) end
 
 ---@param quality String
 ---@return Int32
-function gameUIItemsHelper.QualityStringToInt(quality) return end
+function gameUIItemsHelper.QualityStringToInt(quality) end
 
 ---@param quality String
 ---@return CName
-function gameUIItemsHelper.QualityStringToStateName(quality) return end
+function gameUIItemsHelper.QualityStringToStateName(quality) end
 
 ---@param quality gamedataQuality
 ---@return Int32
-function gameUIItemsHelper.QualityToInt(quality) return end
+function gameUIItemsHelper.QualityToInt(quality) end
 
 ---@param quality gamedataQuality
 ---@return String
-function gameUIItemsHelper.QualityToLocalizationKey(quality) return end
+function gameUIItemsHelper.QualityToLocalizationKey(quality) end
 
 ---@param itemType gamedataItemType
 ---@return CName
-function gameUIItemsHelper.GetAmmoIconByType(itemType) return end
+function gameUIItemsHelper.GetAmmoIconByType(itemType) end
 
 ---@param statType gamedataStatType
 ---@return CName
-function gameUIItemsHelper.GetBGIconNameForStat(statType) return end
+function gameUIItemsHelper.GetBGIconNameForStat(statType) end
 
 ---@param perkGroup gamedataPerkWeaponGroupType
 ---@return CName
-function gameUIItemsHelper.GetBasicPerkRelevance(perkGroup) return end
+function gameUIItemsHelper.GetBasicPerkRelevance(perkGroup) end
 
 ---@param itemType gamedataItemType
 ---@return gamedataPerkWeaponGroupType
-function gameUIItemsHelper.GetBasicPerkRelevanceGroup(itemType) return end
+function gameUIItemsHelper.GetBasicPerkRelevanceGroup(itemType) end
 
 ---@param slotId TweakDBID|string
 ---@return String
-function gameUIItemsHelper.GetEmptySlotName(slotId) return end
+function gameUIItemsHelper.GetEmptySlotName(slotId) end
 
 ---@param itemType gamedataItemType
 ---@return String
-function gameUIItemsHelper.GetEvolutionWeaponType(itemType) return end
+function gameUIItemsHelper.GetEvolutionWeaponType(itemType) end
 
 ---@param damageType gamedataDamageType
 ---@return String
-function gameUIItemsHelper.GetIconNameForDamageType(damageType) return end
+function gameUIItemsHelper.GetIconNameForDamageType(damageType) end
 
 ---@param statType gamedataStatType
 ---@return CName
-function gameUIItemsHelper.GetIconNameForStat(statType) return end
+function gameUIItemsHelper.GetIconNameForStat(statType) end
 
 ---@param itemData gameInventoryItemData
 ---@return String
-function gameUIItemsHelper.GetItemName(itemData) return end
+function gameUIItemsHelper.GetItemName(itemData) end
 
 ---@param itemRecord gamedataItem_Record
 ---@param itemData gameItemData
 ---@return String
-function gameUIItemsHelper.GetItemName(itemRecord, itemData) return end
+function gameUIItemsHelper.GetItemName(itemRecord, itemData) end
 
 ---@param itemID TweakDBID|string
 ---@param itemData gameItemData
 ---@return String
-function gameUIItemsHelper.GetItemName(itemID, itemData) return end
+function gameUIItemsHelper.GetItemName(itemID, itemData) end
 
 ---@param itemType gamedataItemType
 ---@return String
-function gameUIItemsHelper.GetItemTypeKey(itemType) return end
+function gameUIItemsHelper.GetItemTypeKey(itemType) end
 
 ---@param itemData gameItemData
 ---@param equipmentArea gamedataEquipmentArea
@@ -107,184 +107,184 @@ function gameUIItemsHelper.GetItemTypeKey(itemType) return end
 ---@param itemType gamedataItemType
 ---@param weaponEvolutionType gamedataWeaponEvolution
 ---@return String
-function gameUIItemsHelper.GetItemTypeKey(itemData, equipmentArea, itemID, itemType, weaponEvolutionType) return end
+function gameUIItemsHelper.GetItemTypeKey(itemData, equipmentArea, itemID, itemType, weaponEvolutionType) end
 
 ---@param itemID TweakDBID|string
 ---@param itemType gamedataItemType
 ---@param weaponEvolutionType gamedataWeaponEvolution
 ---@return String
-function gameUIItemsHelper.GetItemTypeKey(itemID, itemType, weaponEvolutionType) return end
+function gameUIItemsHelper.GetItemTypeKey(itemID, itemType, weaponEvolutionType) end
 
 ---@param itemType gamedataItemType
 ---@param weaponEvolutionType gamedataWeaponEvolution
 ---@return String
-function gameUIItemsHelper.GetItemTypeKey(itemType, weaponEvolutionType) return end
+function gameUIItemsHelper.GetItemTypeKey(itemType, weaponEvolutionType) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@param itemID TweakDBID|string
 ---@param itemType gamedataItemType
 ---@param weaponEvolutionType gamedataWeaponEvolution
 ---@return String
-function gameUIItemsHelper.GetItemTypeKey(equipmentArea, itemID, itemType, weaponEvolutionType) return end
+function gameUIItemsHelper.GetItemTypeKey(equipmentArea, itemID, itemType, weaponEvolutionType) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetLootingShadowIcon(equipmentArea) return end
+function gameUIItemsHelper.GetLootingShadowIcon(equipmentArea) end
 
 ---@param itemTDBID TweakDBID|string
 ---@param slotID TweakDBID|string
 ---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetLootingShadowIcon(itemTDBID, slotID, itemType, equipmentArea) return end
+function gameUIItemsHelper.GetLootingShadowIcon(itemTDBID, slotID, itemType, equipmentArea) end
 
 ---@param slotID TweakDBID|string
 ---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetLootingShadowIcon(slotID, itemType, equipmentArea) return end
+function gameUIItemsHelper.GetLootingShadowIcon(slotID, itemType, equipmentArea) end
 
 ---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetLootingShadowIcon(itemType, equipmentArea) return end
+function gameUIItemsHelper.GetLootingShadowIcon(itemType, equipmentArea) end
 
 ---@param itemType gamedataItemType
 ---@return gamedataPerkWeaponGroupType
-function gameUIItemsHelper.GetMasterPerkRelevanceGroup(itemType) return end
+function gameUIItemsHelper.GetMasterPerkRelevanceGroup(itemType) end
 
 ---@param type gamedataItemType
 ---@return CName
-function gameUIItemsHelper.GetMellewareEvolutionTexturePartByType(type) return end
+function gameUIItemsHelper.GetMellewareEvolutionTexturePartByType(type) end
 
 ---@param type gamedataItemType
 ---@return String
-function gameUIItemsHelper.GetMellewareSecondaryTypeText(type) return end
+function gameUIItemsHelper.GetMellewareSecondaryTypeText(type) end
 
 ---@param item gameInventoryItemData
 ---@return Float
-function gameUIItemsHelper.GetQualityF(item) return end
+function gameUIItemsHelper.GetQualityF(item) end
 
 ---@param itemData gameItemData
 ---@return Float
-function gameUIItemsHelper.GetQualityF(itemData) return end
+function gameUIItemsHelper.GetQualityF(itemData) end
 
 ---@param qualityInt Int32
 ---@param isIconic Bool
 ---@param plusValue Float
 ---@return Float
-function gameUIItemsHelper.GetQualityF(qualityInt, isIconic, plusValue) return end
+function gameUIItemsHelper.GetQualityF(qualityInt, isIconic, plusValue) end
 
 ---@param itemRecord gamedataItem_Record
 ---@return gameJournalOnscreen
-function gameUIItemsHelper.GetShardData(itemRecord) return end
+function gameUIItemsHelper.GetShardData(itemRecord) end
 
 ---@param itemRecord gamedataItem_Record
 ---@return String
-function gameUIItemsHelper.GetShardName(itemRecord) return end
+function gameUIItemsHelper.GetShardName(itemRecord) end
 
 ---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return String
-function gameUIItemsHelper.GetSlotName(itemType, equipmentArea) return end
+function gameUIItemsHelper.GetSlotName(itemType, equipmentArea) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return String
-function gameUIItemsHelper.GetSlotName(equipmentArea) return end
+function gameUIItemsHelper.GetSlotName(equipmentArea) end
 
 ---@param slotID TweakDBID|string
 ---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return String
-function gameUIItemsHelper.GetSlotName(slotID, itemType, equipmentArea) return end
+function gameUIItemsHelper.GetSlotName(slotID, itemType, equipmentArea) end
 
 ---@param slotID TweakDBID|string
 ---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetSlotShadowIcon(slotID, itemType, equipmentArea) return end
+function gameUIItemsHelper.GetSlotShadowIcon(slotID, itemType, equipmentArea) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetSlotShadowIcon(equipmentArea) return end
+function gameUIItemsHelper.GetSlotShadowIcon(equipmentArea) end
 
 ---@param itemType gamedataItemType
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function gameUIItemsHelper.GetSlotShadowIcon(itemType, equipmentArea) return end
+function gameUIItemsHelper.GetSlotShadowIcon(itemType, equipmentArea) end
 
 ---@param type gamedataDamageType
 ---@return gamedataStatType
-function gameUIItemsHelper.GetStatTypeByDamageType(type) return end
+function gameUIItemsHelper.GetStatTypeByDamageType(type) end
 
 ---@param damageType gamedataDamageType
 ---@return CName
-function gameUIItemsHelper.GetStateNameForDamageType(damageType) return end
+function gameUIItemsHelper.GetStateNameForDamageType(damageType) end
 
 ---@param statType gamedataStatType
 ---@return CName
-function gameUIItemsHelper.GetStateNameForStat(statType) return end
+function gameUIItemsHelper.GetStateNameForStat(statType) end
 
 ---@param damageType gamedataDamageType
 ---@return CName
-function gameUIItemsHelper.GetStateNameForType(damageType) return end
+function gameUIItemsHelper.GetStateNameForType(damageType) end
 
 ---@param itemID TweakDBID|string
 ---@param itemData gameItemData
 ---@param fallbackName String
 ---@return String
-function gameUIItemsHelper.GetTooltipItemName(itemID, itemData, fallbackName) return end
+function gameUIItemsHelper.GetTooltipItemName(itemID, itemData, fallbackName) end
 
 ---@param data InventoryTooltipData
 ---@return String
-function gameUIItemsHelper.GetTooltipItemName(data) return end
+function gameUIItemsHelper.GetTooltipItemName(data) end
 
 ---@param damageType gamedataDamageType
 ---@return TweakDBID
-function gameUIItemsHelper.GetTweakDBIDForDamageType(damageType) return end
+function gameUIItemsHelper.GetTweakDBIDForDamageType(damageType) end
 
 ---@param evolution gamedataWeaponEvolution
 ---@return CName
-function gameUIItemsHelper.GetWeaponEvolutionTexturePart(evolution) return end
+function gameUIItemsHelper.GetWeaponEvolutionTexturePart(evolution) end
 
 ---@param itemType gamedataItemType
 ---@return CName
-function gameUIItemsHelper.GetWeaponTooltipIcon(itemType) return end
+function gameUIItemsHelper.GetWeaponTooltipIcon(itemType) end
 
 ---@param itemType gamedataItemType
 ---@return CName
-function gameUIItemsHelper.GetWeaponTypeIcon(itemType) return end
+function gameUIItemsHelper.GetWeaponTypeIcon(itemType) end
 
 ---@param stat gamedataStatType
 ---@return Bool
-function gameUIItemsHelper.IsAttributeAllocationStat(stat) return end
+function gameUIItemsHelper.IsAttributeAllocationStat(stat) end
 
 ---@param itemType gamedataItemType
 ---@param itemData? gameItemData
 ---@return RarityItemType
-function gameUIItemsHelper.ItemTypeToRarity(itemType, itemData) return end
+function gameUIItemsHelper.ItemTypeToRarity(itemType, itemData) end
 
 ---@param perkGroup gamedataPerkWeaponGroupType
 ---@return String
-function gameUIItemsHelper.PerkWeaponGroupToText(perkGroup) return end
+function gameUIItemsHelper.PerkWeaponGroupToText(perkGroup) end
 
 ---@param quality gamedataQuality
 ---@param type? RarityItemType
 ---@return String
-function gameUIItemsHelper.QualityToDefaultString(quality, type) return end
+function gameUIItemsHelper.QualityToDefaultString(quality, type) end
 
 ---@param quality gamedataQuality
 ---@return String
-function gameUIItemsHelper.QualityToTierPlusString(quality) return end
+function gameUIItemsHelper.QualityToTierPlusString(quality) end
 
 ---@param quality gamedataQuality
 ---@return String
-function gameUIItemsHelper.QualityToTierString(quality) return end
+function gameUIItemsHelper.QualityToTierString(quality) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function gameUIItemsHelper.ShouldDisplayTier(itemType) return end
+function gameUIItemsHelper.ShouldDisplayTier(itemType) end
 
 ---@param evolution gamedataWeaponEvolution
 ---@return String
-function gameUIItemsHelper.WeaponEvolutionText(evolution) return end
+function gameUIItemsHelper.WeaponEvolutionText(evolution) end

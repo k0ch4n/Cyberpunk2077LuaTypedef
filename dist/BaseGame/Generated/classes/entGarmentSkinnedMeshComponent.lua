@@ -5,4 +5,4 @@ entGarmentSkinnedMeshComponent = {}
 
 ---@param fields? entGarmentSkinnedMeshComponent
 ---@return entGarmentSkinnedMeshComponent
-function entGarmentSkinnedMeshComponent.new(fields) return end
+function entGarmentSkinnedMeshComponent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnInterestingConversationsGroup: ISerializable
----@field public condition questIBaseCondition
----@field public conversations scnInterestingConversationData[]
+---@field condition questIBaseCondition
+---@field conversations scnInterestingConversationData[]
 scnInterestingConversationsGroup = {}
 
 ---@param fields? scnInterestingConversationsGroup
 ---@return scnInterestingConversationsGroup
-function scnInterestingConversationsGroup.new(fields) return end
+function scnInterestingConversationsGroup.new(fields) end

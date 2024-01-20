@@ -5,35 +5,35 @@ gameNativeHudManager = {}
 
 ---@param fields? gameNativeHudManager
 ---@return gameNativeHudManager
-function gameNativeHudManager.new(fields) return end
+function gameNativeHudManager.new(fields) end
 
 ---@param actorId entEntityID
 ---@return gameHudActor
-function gameNativeHudManager:GetActor(actorId) return end
+function gameNativeHudManager:GetActor(actorId) end
 
 ---@return gameHudActor[]
-function gameNativeHudManager:GetAllActors() return end
+function gameNativeHudManager:GetAllActors() end
 
 ---@return Bool
-function gameNativeHudManager:IsQuickHackPanelOpened() return end
+function gameNativeHudManager:IsQuickHackPanelOpened() end
 
 ---@param actorId entEntityID
 ---@return gameHudActor
-function gameNativeHudManager:RegisterActor(actorId) return end
+function gameNativeHudManager:RegisterActor(actorId) end
 
 ---@param actorId entEntityID
 ---@param associatedId entEntityID
 ---@return nil
-function gameNativeHudManager:RegisterAssociatedActor(actorId, associatedId) return end
+function gameNativeHudManager:RegisterAssociatedActor(actorId, associatedId) end
 
 ---@param isOpen Bool
 ---@return nil
-function gameNativeHudManager:SetIsQuickHackPanelOpened(isOpen) return end
+function gameNativeHudManager:SetIsQuickHackPanelOpened(isOpen) end
 
 ---@param actorId entEntityID
 ---@return Bool
-function gameNativeHudManager:UnregisterActor(actorId) return end
+function gameNativeHudManager:UnregisterActor(actorId) end
 
 ---@param actorId entEntityID
 ---@return nil
-function gameNativeHudManager:UnregisterAssociatedActor(actorId) return end
+function gameNativeHudManager:UnregisterAssociatedActor(actorId) end

@@ -5,65 +5,52 @@ MenuScenario_Vendor = {}
 
 ---@param fields? MenuScenario_Vendor
 ---@return MenuScenario_Vendor
-function MenuScenario_Vendor.new(fields) return end
+function MenuScenario_Vendor.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_Vendor:OnCloseHubMenuRequest() return end
+function MenuScenario_Vendor:OnCloseHubMenuRequest() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Vendor:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_Vendor:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Vendor:OnEquipAnimationDataUpdate(userData) return end
+function MenuScenario_Vendor:OnEquipAnimationDataUpdate(userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_Vendor:OnLeaveScenario(nextScenario) return end
+function MenuScenario_Vendor:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_Vendor:OnRefreshCurrentTab() return end
+function MenuScenario_Vendor:OnRefreshCurrentTab() end
 
----@protected
 ---@param userData? IScriptable
 ---@return Bool
-function MenuScenario_Vendor:OnSwitchToCharacter(userData) return end
+function MenuScenario_Vendor:OnSwitchToCharacter(userData) end
 
----@protected
 ---@param userData? IScriptable
 ---@return Bool
-function MenuScenario_Vendor:OnSwitchToCrafting(userData) return end
+function MenuScenario_Vendor:OnSwitchToCrafting(userData) end
 
----@protected
 ---@param userData? IScriptable
 ---@return Bool
-function MenuScenario_Vendor:OnSwitchToInventory(userData) return end
+function MenuScenario_Vendor:OnSwitchToInventory(userData) end
 
----@protected
 ---@param userData? IScriptable
 ---@return Bool
-function MenuScenario_Vendor:OnSwitchToRipperDoc(userData) return end
+function MenuScenario_Vendor:OnSwitchToRipperDoc(userData) end
 
----@protected
 ---@param userData? IScriptable
 ---@return Bool
-function MenuScenario_Vendor:OnSwitchToVendor(userData) return end
+function MenuScenario_Vendor:OnSwitchToVendor(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_Vendor:OnTutorialComplete() return end
+function MenuScenario_Vendor:OnTutorialComplete() end
 
----@protected
 ---@return Bool
-function MenuScenario_Vendor:OnVendorClose() return end
+function MenuScenario_Vendor:OnVendorClose() end
 
----@protected
 ---@return nil
-function MenuScenario_Vendor:GotoIdleState() return end
+function MenuScenario_Vendor:GotoIdleState() end

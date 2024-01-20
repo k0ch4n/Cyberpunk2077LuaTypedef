@@ -5,24 +5,21 @@ LootContainerAccessPoint = {}
 
 ---@param fields? LootContainerAccessPoint
 ---@return LootContainerAccessPoint
-function LootContainerAccessPoint.new(fields) return end
+function LootContainerAccessPoint.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function LootContainerAccessPoint:OnRequestComponents(ri) return end
+function LootContainerAccessPoint:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function LootContainerAccessPoint:OnTakeControl(ri) return end
+function LootContainerAccessPoint:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function LootContainerAccessPoint:DeterminGameplayRole() return end
+function LootContainerAccessPoint:DeterminGameplayRole() end
 
----@private
 ---@return LootContainerAccessPointController
-function LootContainerAccessPoint:GetController() return end
+function LootContainerAccessPoint:GetController() end
 
 ---@return LootContainerAccessPointControllerPS
-function LootContainerAccessPoint:GetDevicePS() return end
+function LootContainerAccessPoint:GetDevicePS() end

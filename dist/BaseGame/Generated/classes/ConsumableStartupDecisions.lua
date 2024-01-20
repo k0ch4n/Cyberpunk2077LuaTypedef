@@ -5,10 +5,9 @@ ConsumableStartupDecisions = {}
 
 ---@param fields? ConsumableStartupDecisions
 ---@return ConsumableStartupDecisions
-function ConsumableStartupDecisions.new(fields) return end
+function ConsumableStartupDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ConsumableStartupDecisions:ToConsumableUse(stateContext, scriptInterface) return end
+function ConsumableStartupDecisions:ToConsumableUse(stateContext, scriptInterface) end

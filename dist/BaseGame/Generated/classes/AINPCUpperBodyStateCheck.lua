@@ -1,19 +1,16 @@
 ---@meta
 
 ---@class AINPCUpperBodyStateCheck: AINPCStateCheck
----@field public blackboard gameIBlackboard
+---@field blackboard gameIBlackboard
 AINPCUpperBodyStateCheck = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AINPCUpperBodyStateCheck:Activate(context) return end
+function AINPCUpperBodyStateCheck:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AINPCUpperBodyStateCheck:Check(context) return end
+function AINPCUpperBodyStateCheck:Check(context) end
 
----@private
 ---@return gamedataNPCUpperBodyState
-function AINPCUpperBodyStateCheck:GetStateToCheck() return end
+function AINPCUpperBodyStateCheck:GetStateToCheck() end

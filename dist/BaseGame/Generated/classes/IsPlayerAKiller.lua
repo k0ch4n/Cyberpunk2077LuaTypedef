@@ -5,9 +5,8 @@ IsPlayerAKiller = {}
 
 ---@param fields? IsPlayerAKiller
 ---@return IsPlayerAKiller
-function IsPlayerAKiller.new(fields) return end
+function IsPlayerAKiller.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPlayerAKiller:Check(context) return end
+function IsPlayerAKiller:Check(context) end

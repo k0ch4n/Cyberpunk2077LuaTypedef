@@ -5,10 +5,10 @@ gamedataAIWeaponLockedOnTargetCond_Record = {}
 
 ---@param fields? gamedataAIWeaponLockedOnTargetCond_Record
 ---@return gamedataAIWeaponLockedOnTargetCond_Record
-function gamedataAIWeaponLockedOnTargetCond_Record.new(fields) return end
+function gamedataAIWeaponLockedOnTargetCond_Record.new(fields) end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAIWeaponLockedOnTargetCond_Record:WeaponSlot() return end
+function gamedataAIWeaponLockedOnTargetCond_Record:WeaponSlot() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAIWeaponLockedOnTargetCond_Record:WeaponSlotHandle() return end
+function gamedataAIWeaponLockedOnTargetCond_Record:WeaponSlotHandle() end

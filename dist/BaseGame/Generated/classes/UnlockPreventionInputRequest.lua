@@ -5,4 +5,4 @@ UnlockPreventionInputRequest = {}
 
 ---@param fields? UnlockPreventionInputRequest
 ---@return UnlockPreventionInputRequest
-function UnlockPreventionInputRequest.new(fields) return end
+function UnlockPreventionInputRequest.new(fields) end

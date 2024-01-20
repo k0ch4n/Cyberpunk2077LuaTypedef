@@ -1,46 +1,43 @@
 ---@meta
 
 ---@class WorldMapTooltipContainer: inkWidgetLogicController
----@field protected defaultTooltip inkWidgetReference
----@field protected policeTooltip inkWidgetReference
----@field protected defaultTooltipController WorldMapTooltipBaseController
----@field protected policeTooltipController WorldMapTooltipBaseController
----@field protected tooltips whandle[]
----@field protected currentVisibleIndex Int32
+---@field defaultTooltip inkWidgetReference
+---@field policeTooltip inkWidgetReference
+---@field defaultTooltipController WorldMapTooltipBaseController
+---@field policeTooltipController WorldMapTooltipBaseController
+---@field tooltips whandle[]
+---@field currentVisibleIndex Int32
 WorldMapTooltipContainer = {}
 
 ---@param fields? WorldMapTooltipContainer
 ---@return WorldMapTooltipContainer
-function WorldMapTooltipContainer.new(fields) return end
+function WorldMapTooltipContainer.new(fields) end
 
----@protected
 ---@return Bool
-function WorldMapTooltipContainer:OnInitialize() return end
+function WorldMapTooltipContainer:OnInitialize() end
 
----@private
 ---@param controller WorldMapTooltipBaseController
 ---@return Int32
-function WorldMapTooltipContainer:GetControllerPriorityIndex(controller) return end
+function WorldMapTooltipContainer:GetControllerPriorityIndex(controller) end
 
----@private
 ---@param type WorldMapTooltipType
 ---@return WorldMapTooltipBaseController
-function WorldMapTooltipContainer:GetTooltipController(type) return end
+function WorldMapTooltipContainer:GetTooltipController(type) end
 
 ---@param target WorldMapTooltipType
 ---@return nil
-function WorldMapTooltipContainer:Hide(target) return end
+function WorldMapTooltipContainer:Hide(target) end
 
 ---@param force? Bool
 ---@return nil
-function WorldMapTooltipContainer:HideAll(force) return end
+function WorldMapTooltipContainer:HideAll(force) end
 
 ---@param target WorldMapTooltipType
 ---@param data WorldMapTooltipData
 ---@param menu gameuiWorldMapMenuGameController
 ---@return nil
-function WorldMapTooltipContainer:SetData(target, data, menu) return end
+function WorldMapTooltipContainer:SetData(target, data, menu) end
 
 ---@param target WorldMapTooltipType
 ---@return nil
-function WorldMapTooltipContainer:Show(target) return end
+function WorldMapTooltipContainer:Show(target) end

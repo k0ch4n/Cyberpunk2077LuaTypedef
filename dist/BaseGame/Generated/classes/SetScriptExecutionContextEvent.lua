@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetScriptExecutionContextEvent: redEvent
----@field public scriptExecutionContext AIbehaviorScriptExecutionContext
+---@field scriptExecutionContext AIbehaviorScriptExecutionContext
 SetScriptExecutionContextEvent = {}
 
 ---@param fields? SetScriptExecutionContextEvent
 ---@return SetScriptExecutionContextEvent
-function SetScriptExecutionContextEvent.new(fields) return end
+function SetScriptExecutionContextEvent.new(fields) end

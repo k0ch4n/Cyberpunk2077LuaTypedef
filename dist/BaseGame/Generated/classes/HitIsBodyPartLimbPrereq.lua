@@ -5,4 +5,4 @@ HitIsBodyPartLimbPrereq = {}
 
 ---@param fields? HitIsBodyPartLimbPrereq
 ---@return HitIsBodyPartLimbPrereq
-function HitIsBodyPartLimbPrereq.new(fields) return end
+function HitIsBodyPartLimbPrereq.new(fields) end

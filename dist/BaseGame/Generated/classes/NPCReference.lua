@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class NPCReference
----@field public communitySpawner NodeRef
----@field public entryName CName
+---@field communitySpawner NodeRef
+---@field entryName CName
 NPCReference = {}
 
 ---@param fields? NPCReference
 ---@return NPCReference
-function NPCReference.new(fields) return end
+function NPCReference.new(fields) end
 
 ---@param self NPCReference
 ---@return entEntityID
-function NPCReference.GetSpawnerEntityID(self) return end
+function NPCReference.GetSpawnerEntityID(self) end
 
 ---@param self NPCReference
 ---@return Bool
-function NPCReference.IsValid(self) return end
+function NPCReference.IsValid(self) end

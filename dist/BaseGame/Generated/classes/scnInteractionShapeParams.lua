@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class scnInteractionShapeParams: ISerializable
----@field public preset scnChoiceNodeNsSizePreset
----@field public offset Vector3
----@field public rotation Quaternion
----@field public customIndicationRange Float
----@field public customActivationRange Float
----@field public activationYawLimit Float
----@field public activationBaseLength Float
----@field public activationHeight Float
+---@field preset scnChoiceNodeNsSizePreset
+---@field offset Vector3
+---@field rotation Quaternion
+---@field customIndicationRange Float
+---@field customActivationRange Float
+---@field activationYawLimit Float
+---@field activationBaseLength Float
+---@field activationHeight Float
 scnInteractionShapeParams = {}
 
 ---@param fields? scnInteractionShapeParams
 ---@return scnInteractionShapeParams
-function scnInteractionShapeParams.new(fields) return end
+function scnInteractionShapeParams.new(fields) end

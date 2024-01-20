@@ -1,76 +1,64 @@
 ---@meta
 
 ---@class VehiclesManagerPopupGameController: BaseModalListPopupGameController
----@field private repairOverlay inkWidgetReference
----@field private vehicleIconContainer inkWidgetReference
----@field private vehicleIcon inkImageWidgetReference
----@field private scrollArea inkScrollAreaWidgetReference
----@field private scrollControllerWidget inkWidgetReference
----@field private confirmButton inkWidgetReference
----@field private dataView VehiclesManagerDataView
----@field private dataSource inkScriptableDataSourceWrapper
----@field private quickSlotsManager QuickSlotsManager
----@field private scrollController inkScrollController
----@field private selectAnimProxy inkanimProxy
----@field private initialIndex Uint32
+---@field repairOverlay inkWidgetReference
+---@field vehicleIconContainer inkWidgetReference
+---@field vehicleIcon inkImageWidgetReference
+---@field scrollArea inkScrollAreaWidgetReference
+---@field scrollControllerWidget inkWidgetReference
+---@field confirmButton inkWidgetReference
+---@field dataView VehiclesManagerDataView
+---@field dataSource inkScriptableDataSourceWrapper
+---@field quickSlotsManager QuickSlotsManager
+---@field scrollController inkScrollController
+---@field selectAnimProxy inkanimProxy
+---@field initialIndex Uint32
 VehiclesManagerPopupGameController = {}
 
 ---@param fields? VehiclesManagerPopupGameController
 ---@return VehiclesManagerPopupGameController
-function VehiclesManagerPopupGameController.new(fields) return end
+function VehiclesManagerPopupGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function VehiclesManagerPopupGameController:OnAction(action, consumer) return end
+function VehiclesManagerPopupGameController:OnAction(action, consumer) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function VehiclesManagerPopupGameController:OnPlayerAttach(player) return end
+function VehiclesManagerPopupGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param value Vector2
 ---@return Bool
-function VehiclesManagerPopupGameController:OnScrollChanged(value) return end
+function VehiclesManagerPopupGameController:OnScrollChanged(value) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function VehiclesManagerPopupGameController:OnSelectAnimFinished(proxy) return end
+function VehiclesManagerPopupGameController:OnSelectAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function VehiclesManagerPopupGameController:OnShowAnimFinished(proxy) return end
+function VehiclesManagerPopupGameController:OnShowAnimFinished(proxy) end
 
----@protected
 ---@return nil
-function VehiclesManagerPopupGameController:Activate() return end
+function VehiclesManagerPopupGameController:Activate() end
 
----@protected
 ---@return nil
-function VehiclesManagerPopupGameController:CleanVirtualList() return end
+function VehiclesManagerPopupGameController:CleanVirtualList() end
 
----@protected
 ---@param previous inkVirtualCompoundItemController
 ---@param next inkVirtualCompoundItemController
 ---@return nil
-function VehiclesManagerPopupGameController:Select(previous, next) return end
+function VehiclesManagerPopupGameController:Select(previous, next) end
 
----@private
 ---@return nil
-function VehiclesManagerPopupGameController:SelectActiveVehicle() return end
+function VehiclesManagerPopupGameController:SelectActiveVehicle() end
 
----@protected
 ---@return nil
-function VehiclesManagerPopupGameController:SetupData() return end
+function VehiclesManagerPopupGameController:SetupData() end
 
----@protected
 ---@return nil
-function VehiclesManagerPopupGameController:SetupVirtualList() return end
+function VehiclesManagerPopupGameController:SetupVirtualList() end
 
----@private
 ---@return nil
-function VehiclesManagerPopupGameController:ToggleFavorite() return end
+function VehiclesManagerPopupGameController:ToggleFavorite() end

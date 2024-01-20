@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CutCone
----@field public positionAndRadius1 Vector4
----@field public normalAndRadius2 Vector4
----@field public height Float
+---@field positionAndRadius1 Vector4
+---@field normalAndRadius2 Vector4
+---@field height Float
 CutCone = {}
 
 ---@param fields? CutCone
 ---@return CutCone
-function CutCone.new(fields) return end
+function CutCone.new(fields) end

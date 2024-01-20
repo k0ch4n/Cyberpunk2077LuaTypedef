@@ -1,139 +1,120 @@
 ---@meta
 
 ---@class AdamSmasherComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private statusEffect_armor1_id TweakDBID
----@field private statusEffect_armor2_id TweakDBID
----@field private statusEffect_armor3_id TweakDBID
----@field private statusEffect_smashed_id TweakDBID
----@field private statPoolSystem gameStatPoolsSystem
----@field private statPoolType gamedataStatPoolType
----@field private healthListener AdamSmasherHealthChangeListener
----@field private phase2Threshold Float
----@field private phase3Threshold Float
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private targetTrackerComponent AITargetTrackerComponent
----@field private weakspotDestroyed Bool
+---@field owner NPCPuppet
+---@field owner_id entEntityID
+---@field statusEffect_armor1_id TweakDBID
+---@field statusEffect_armor2_id TweakDBID
+---@field statusEffect_armor3_id TweakDBID
+---@field statusEffect_smashed_id TweakDBID
+---@field statPoolSystem gameStatPoolsSystem
+---@field statPoolType gamedataStatPoolType
+---@field healthListener AdamSmasherHealthChangeListener
+---@field phase2Threshold Float
+---@field phase3Threshold Float
+---@field npcCollisionComponent entSimpleColliderComponent
+---@field targetTrackerComponent AITargetTrackerComponent
+---@field weakspotDestroyed Bool
 AdamSmasherComponent = {}
 
 ---@param fields? AdamSmasherComponent
 ---@return AdamSmasherComponent
-function AdamSmasherComponent.new(fields) return end
+function AdamSmasherComponent.new(fields) end
 
 ---@return Float
-function AdamSmasherComponent.GetDefeatedHealthValue() return end
+function AdamSmasherComponent.GetDefeatedHealthValue() end
 
 ---@return Float
-function AdamSmasherComponent.GetEmergencyPhaseHealthValue() return end
+function AdamSmasherComponent.GetEmergencyPhaseHealthValue() end
 
 ---@return Float
-function AdamSmasherComponent.GetPhase2HealthValue() return end
+function AdamSmasherComponent.GetPhase2HealthValue() end
 
 ---@return Float
-function AdamSmasherComponent.GetPhase3HealthValue() return end
+function AdamSmasherComponent.GetPhase3HealthValue() end
 
 ---@return Float
-function AdamSmasherComponent.GetRemovePlateHealthValue() return end
+function AdamSmasherComponent.GetRemovePlateHealthValue() end
 
----@protected
 ---@param evt entAudioEvent
 ---@return Bool
-function AdamSmasherComponent:OnAudioEvent(evt) return end
+function AdamSmasherComponent:OnAudioEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function AdamSmasherComponent:OnDeathAfterDefeatedSmasher(evt) return end
+function AdamSmasherComponent:OnDeathAfterDefeatedSmasher(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function AdamSmasherComponent:OnDefeated(evt) return end
+function AdamSmasherComponent:OnDefeated(evt) end
 
----@protected
 ---@param evt DisableWeakspotDelayedEvent
 ---@return Bool
-function AdamSmasherComponent:OnDisableWeakspotDelayedEvent(evt) return end
+function AdamSmasherComponent:OnDisableWeakspotDelayedEvent(evt) end
 
----@protected
 ---@param enableColliderEvent EnableColliderDelayEvent
 ---@return Bool
-function AdamSmasherComponent:OnEnableColliderDelayEvent(enableColliderEvent) return end
+function AdamSmasherComponent:OnEnableColliderDelayEvent(enableColliderEvent) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AdamSmasherComponent:OnRequestComponents(ri) return end
+function AdamSmasherComponent:OnRequestComponents(ri) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function AdamSmasherComponent:OnStatusEffectApplied(evt) return end
+function AdamSmasherComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AdamSmasherComponent:OnTakeControl(ri) return end
+function AdamSmasherComponent:OnTakeControl(ri) end
 
 ---@return nil
-function AdamSmasherComponent:ApplyNoInterrupt() return end
+function AdamSmasherComponent:ApplyNoInterrupt() end
 
 ---@return nil
-function AdamSmasherComponent:ApplySmashed() return end
-
----@protected
----@return nil
-function AdamSmasherComponent:DisableAllDefeatedHitShapes() return end
-
----@protected
----@return nil
-function AdamSmasherComponent:DisableAllHitShapes() return end
-
----@private
----@return nil
-function AdamSmasherComponent:DisableAllSandyEdgerunnerFxs() return end
-
----@private
----@return nil
-function AdamSmasherComponent:DisableFrontPlate() return end
-
----@private
----@return nil
-function AdamSmasherComponent:DisableRipInteractionLayer() return end
-
----@private
----@return nil
-function AdamSmasherComponent:DisableWeakspots() return end
-
----@protected
----@return nil
-function AdamSmasherComponent:EnableDefeatedHitShapes() return end
-
----@private
----@return nil
-function AdamSmasherComponent:EnableRipInteractionLayer() return end
-
----@private
----@return nil
-function AdamSmasherComponent:EnableTorsoWeakspot() return end
-
----@protected
----@return nil
-function AdamSmasherComponent:OnDeactivate() return end
+function AdamSmasherComponent:ApplySmashed() end
 
 ---@return nil
-function AdamSmasherComponent:OnGameAttach() return end
+function AdamSmasherComponent:DisableAllDefeatedHitShapes() end
 
 ---@return nil
-function AdamSmasherComponent:OnGameDetach() return end
+function AdamSmasherComponent:DisableAllHitShapes() end
 
----@private
+---@return nil
+function AdamSmasherComponent:DisableAllSandyEdgerunnerFxs() end
+
+---@return nil
+function AdamSmasherComponent:DisableFrontPlate() end
+
+---@return nil
+function AdamSmasherComponent:DisableRipInteractionLayer() end
+
+---@return nil
+function AdamSmasherComponent:DisableWeakspots() end
+
+---@return nil
+function AdamSmasherComponent:EnableDefeatedHitShapes() end
+
+---@return nil
+function AdamSmasherComponent:EnableRipInteractionLayer() end
+
+---@return nil
+function AdamSmasherComponent:EnableTorsoWeakspot() end
+
+---@return nil
+function AdamSmasherComponent:OnDeactivate() end
+
+---@return nil
+function AdamSmasherComponent:OnGameAttach() end
+
+---@return nil
+function AdamSmasherComponent:OnGameDetach() end
+
 ---@param target NPCPuppet
 ---@param valueToSet Float
 ---@return nil
-function AdamSmasherComponent:SetHealth(target, valueToSet) return end
+function AdamSmasherComponent:SetHealth(target, valueToSet) end
 
 ---@param value Float
 ---@return nil
-function AdamSmasherComponent:SetPercentLifeForPhase(value) return end
+function AdamSmasherComponent:SetPercentLifeForPhase(value) end

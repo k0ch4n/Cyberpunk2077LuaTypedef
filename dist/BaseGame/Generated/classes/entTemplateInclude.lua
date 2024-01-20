@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entTemplateInclude
----@field public name CName
----@field public template entEntityTemplate
+---@field name CName
+---@field template entEntityTemplate
 entTemplateInclude = {}
 
 ---@param fields? entTemplateInclude
 ---@return entTemplateInclude
-function entTemplateInclude.new(fields) return end
+function entTemplateInclude.new(fields) end

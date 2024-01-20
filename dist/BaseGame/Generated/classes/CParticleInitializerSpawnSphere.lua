@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class CParticleInitializerSpawnSphere: IParticleInitializer
----@field public innerRadius IEvaluatorFloat
----@field public outerRadius IEvaluatorFloat
----@field public surfaceOnly Bool
----@field public spawnPositiveX Bool
----@field public spawnNegativeX Bool
----@field public spawnPositiveY Bool
----@field public spawnNegativeY Bool
----@field public spawnPositiveZ Bool
----@field public spawnNegativeZ Bool
----@field public velocity Bool
----@field public worldSpace Bool
----@field public forceScale IEvaluatorFloat
+---@field innerRadius IEvaluatorFloat
+---@field outerRadius IEvaluatorFloat
+---@field surfaceOnly Bool
+---@field spawnPositiveX Bool
+---@field spawnNegativeX Bool
+---@field spawnPositiveY Bool
+---@field spawnNegativeY Bool
+---@field spawnPositiveZ Bool
+---@field spawnNegativeZ Bool
+---@field velocity Bool
+---@field worldSpace Bool
+---@field forceScale IEvaluatorFloat
 CParticleInitializerSpawnSphere = {}
 
 ---@param fields? CParticleInitializerSpawnSphere
 ---@return CParticleInitializerSpawnSphere
-function CParticleInitializerSpawnSphere.new(fields) return end
+function CParticleInitializerSpawnSphere.new(fields) end

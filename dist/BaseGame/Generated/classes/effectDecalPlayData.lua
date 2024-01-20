@@ -5,4 +5,4 @@ effectDecalPlayData = {}
 
 ---@param fields? effectDecalPlayData
 ---@return effectDecalPlayData
-function effectDecalPlayData.new(fields) return end
+function effectDecalPlayData.new(fields) end

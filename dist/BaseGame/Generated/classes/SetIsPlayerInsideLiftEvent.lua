@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetIsPlayerInsideLiftEvent: redEvent
----@field public value Bool
+---@field value Bool
 SetIsPlayerInsideLiftEvent = {}
 
 ---@param fields? SetIsPlayerInsideLiftEvent
 ---@return SetIsPlayerInsideLiftEvent
-function SetIsPlayerInsideLiftEvent.new(fields) return end
+function SetIsPlayerInsideLiftEvent.new(fields) end

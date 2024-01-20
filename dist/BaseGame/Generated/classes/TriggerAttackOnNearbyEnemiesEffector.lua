@@ -1,63 +1,57 @@
 ---@meta
 
 ---@class TriggerAttackOnNearbyEnemiesEffector: gameEffector
----@field public owner gameObject
----@field public attackRecord gamedataAttack_Record
----@field public targetHowManyEnemies Int32
----@field public targetMaxDistance Float
----@field public targetMinDistance Float
----@field public ignoreCivilians Bool
----@field public gameInstance ScriptGameInstance
----@field public playVFXOnHitTargets CName
----@field public statusEffectRecord gamedataStatusEffect_Record
----@field public enemySlotTransform CName
+---@field owner gameObject
+---@field attackRecord gamedataAttack_Record
+---@field targetHowManyEnemies Int32
+---@field targetMaxDistance Float
+---@field targetMinDistance Float
+---@field ignoreCivilians Bool
+---@field gameInstance ScriptGameInstance
+---@field playVFXOnHitTargets CName
+---@field statusEffectRecord gamedataStatusEffect_Record
+---@field enemySlotTransform CName
 TriggerAttackOnNearbyEnemiesEffector = {}
 
 ---@param fields? TriggerAttackOnNearbyEnemiesEffector
 ---@return TriggerAttackOnNearbyEnemiesEffector
-function TriggerAttackOnNearbyEnemiesEffector.new(fields) return end
+function TriggerAttackOnNearbyEnemiesEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TriggerAttackOnNearbyEnemiesEffector:ActionOn(owner) return end
+function TriggerAttackOnNearbyEnemiesEffector:ActionOn(owner) end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return nil
-function TriggerAttackOnNearbyEnemiesEffector:AddHitFlags(attackData) return end
+function TriggerAttackOnNearbyEnemiesEffector:AddHitFlags(attackData) end
 
----@private
 ---@param spatialQueriesSystem gameSpatialQueriesSystem
 ---@param hitPosition1 Vector4
 ---@param hitPosition2 Vector4
 ---@return Bool
-function TriggerAttackOnNearbyEnemiesEffector:CanRaycastBetweenTwoPositions(spatialQueriesSystem, hitPosition1, hitPosition2) return end
+function TriggerAttackOnNearbyEnemiesEffector:CanRaycastBetweenTwoPositions(spatialQueriesSystem, hitPosition1, hitPosition2) end
 
 ---@param hitevent gameeventsHitEvent
 ---@param threats entEntity[]
 ---@return nil, ScriptedPuppet[] closestEnemies
-function TriggerAttackOnNearbyEnemiesEffector:GetClosestEnemies(hitevent, threats) return end
+function TriggerAttackOnNearbyEnemiesEffector:GetClosestEnemies(hitevent, threats) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function TriggerAttackOnNearbyEnemiesEffector:Initialize(record, parentRecord) return end
+function TriggerAttackOnNearbyEnemiesEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TriggerAttackOnNearbyEnemiesEffector:RepeatedAction(owner) return end
+function TriggerAttackOnNearbyEnemiesEffector:RepeatedAction(owner) end
 
 ---@param hitevent gameeventsHitEvent
 ---@param closestEnemies ScriptedPuppet[]
 ---@return nil
-function TriggerAttackOnNearbyEnemiesEffector:SendEffectAndDamageToEnemies(hitevent, closestEnemies) return end
+function TriggerAttackOnNearbyEnemiesEffector:SendEffectAndDamageToEnemies(hitevent, closestEnemies) end
 
----@private
 ---@param hitevent gameeventsHitEvent
 ---@param enemy ScriptedPuppet
 ---@param enemyHitWorldPosition Vector4
 ---@return nil
-function TriggerAttackOnNearbyEnemiesEffector:SendHitEvent(hitevent, enemy, enemyHitWorldPosition) return end
+function TriggerAttackOnNearbyEnemiesEffector:SendHitEvent(hitevent, enemy, enemyHitWorldPosition) end

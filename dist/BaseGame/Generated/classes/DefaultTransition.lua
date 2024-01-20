@@ -5,99 +5,99 @@ DefaultTransition = {}
 
 ---@param fields? DefaultTransition
 ---@return DefaultTransition
-function DefaultTransition.new(fields) return end
+function DefaultTransition.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.DEBUG_IsDivingForced(stateContext, scriptInterface) return end
+function DefaultTransition.DEBUG_IsDivingForced(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.DEBUG_IsSurfaceSwimmingForced(stateContext, scriptInterface) return end
+function DefaultTransition.DEBUG_IsSurfaceSwimmingForced(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.DEBUG_IsSwimmingForced(stateContext, scriptInterface) return end
+function DefaultTransition.DEBUG_IsSwimmingForced(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition.Get2DLinearSpeed(scriptInterface) return end
+function DefaultTransition.Get2DLinearSpeed(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameItemObject
-function DefaultTransition.GetActiveLeftHandItem(scriptInterface) return end
+function DefaultTransition.GetActiveLeftHandItem(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameweaponObject
-function DefaultTransition.GetActiveWeapon(scriptInterface) return end
+function DefaultTransition.GetActiveWeapon(scriptInterface) end
 
 ---@param executionOwner gameObject
 ---@param id gamebbScriptID_Int32
 ---@return Int32
-function DefaultTransition.GetBlackboardIntVariable(executionOwner, id) return end
+function DefaultTransition.GetBlackboardIntVariable(executionOwner, id) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param targetObject ScriptedPuppet
 ---@param withinDistance Float
 ---@return gameWeakspotObject
-function DefaultTransition.GetClosestWeakspot(scriptInterface, targetObject, withinDistance) return end
+function DefaultTransition.GetClosestWeakspot(scriptInterface, targetObject, withinDistance) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition.GetDistanceToGround(scriptInterface) return end
+function DefaultTransition.GetDistanceToGround(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition.GetDistanceToTarget(scriptInterface) return end
+function DefaultTransition.GetDistanceToTarget(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param inLenght Float
 ---@return Vector4
-function DefaultTransition.GetGroundPosition(scriptInterface, inLenght) return end
+function DefaultTransition.GetGroundPosition(scriptInterface, inLenght) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param targetingSystem gametargetingTargetingSystem
 ---@param withinDistance Float
 ---@param withinAngle Float
 ---@return gameObject, EulerAngles angleOut
-function DefaultTransition.GetLeapableObject(scriptInterface, targetingSystem, withinDistance, withinAngle) return end
+function DefaultTransition.GetLeapableObject(scriptInterface, targetingSystem, withinDistance, withinAngle) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Vector4
-function DefaultTransition.GetLinearVelocity(scriptInterface) return end
+function DefaultTransition.GetLinearVelocity(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return EPlayerMovementDirection
-function DefaultTransition.GetMovementDirection(stateContext, scriptInterface) return end
+function DefaultTransition.GetMovementDirection(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition.GetMovementInputActionValue(stateContext, scriptInterface) return end
+function DefaultTransition.GetMovementInputActionValue(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param downwardRaycastLength Float
 ---@return Float
-function DefaultTransition.GetPlayerDistanceToGround(scriptInterface, downwardRaycastLength) return end
+function DefaultTransition.GetPlayerDistanceToGround(scriptInterface, downwardRaycastLength) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Vector4
-function DefaultTransition.GetPlayerPosition(scriptInterface) return end
+function DefaultTransition.GetPlayerPosition(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return PlayerPuppet
-function DefaultTransition.GetPlayerPuppet(scriptInterface) return end
+function DefaultTransition.GetPlayerPuppet(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param withinDistance? Float
 ---@param checkForLeapableObject? Bool
 ---@param withinAngle? Float
 ---@return gameObject
-function DefaultTransition.GetTargetObject(scriptInterface, withinDistance, checkForLeapableObject, withinAngle) return end
+function DefaultTransition.GetTargetObject(scriptInterface, withinDistance, checkForLeapableObject, withinAngle) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param searchQuery gameTargetSearchQuery
@@ -105,119 +105,117 @@ function DefaultTransition.GetTargetObject(scriptInterface, withinDistance, chec
 ---@param checkForLeapableObject? Bool
 ---@param withinAngle? Float
 ---@return gameObject
-function DefaultTransition.GetTargetObject(scriptInterface, searchQuery, withinDistance, checkForLeapableObject, withinAngle) return end
+function DefaultTransition.GetTargetObject(scriptInterface, searchQuery, withinDistance, checkForLeapableObject, withinAngle) end
 
 ---@return Vector4
-function DefaultTransition.GetUpVector() return end
+function DefaultTransition.GetUpVector() end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param weapon gameweaponObject
 ---@return Bool, gamedataItemType itemType
-function DefaultTransition.GetWeaponItemType(scriptInterface, weapon) return end
+function DefaultTransition.GetWeaponItemType(scriptInterface, weapon) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition.GetYawMovementDirection(stateContext, scriptInterface) return end
+function DefaultTransition.GetYawMovementDirection(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.HasActiveInteraction(scriptInterface) return end
+function DefaultTransition.HasActiveInteraction(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.HasMeleeWeaponEquipped(scriptInterface) return end
+function DefaultTransition.HasMeleeWeaponEquipped(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param checkForTag? Bool
 ---@return Bool
-function DefaultTransition.HasRightWeaponEquipped(scriptInterface, checkForTag) return end
+function DefaultTransition.HasRightWeaponEquipped(scriptInterface, checkForTag) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param threshold Float
 ---@return Bool
-function DefaultTransition.IsAxisButtonHeldGreaterEqual(scriptInterface, threshold) return end
+function DefaultTransition.IsAxisButtonHeldGreaterEqual(scriptInterface, threshold) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.IsChargeRangedWeapon(scriptInterface) return end
+function DefaultTransition.IsChargeRangedWeapon(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.IsChargingWeapon(scriptInterface) return end
+function DefaultTransition.IsChargingWeapon(scriptInterface) end
 
 ---@param owner gameObject
 ---@return Bool
-function DefaultTransition.IsFastForwardByLine(owner) return end
+function DefaultTransition.IsFastForwardByLine(owner) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.IsHeavyWeaponEquipped(scriptInterface) return end
+function DefaultTransition.IsHeavyWeaponEquipped(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.IsInRpgContext(scriptInterface) return end
+function DefaultTransition.IsInRpgContext(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.IsInWorkspot(scriptInterface) return end
+function DefaultTransition.IsInWorkspot(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.IsInteractingWithTerminal(scriptInterface) return end
+function DefaultTransition.IsInteractingWithTerminal(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param targetObject gameObject
 ---@param withinDistance? Float
 ---@return Bool
-function DefaultTransition.IsLeapableTargetValid(scriptInterface, targetObject, withinDistance) return end
+function DefaultTransition.IsLeapableTargetValid(scriptInterface, targetObject, withinDistance) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition.IsRangedWeaponEquipped(scriptInterface) return end
+function DefaultTransition.IsRangedWeaponEquipped(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param threshold Float
 ---@return Bool
-function DefaultTransition.IsXYActionInputGreaterEqual(scriptInterface, threshold) return end
+function DefaultTransition.IsXYActionInputGreaterEqual(scriptInterface, threshold) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param presetName String
 ---@return nil
-function DefaultTransition.PlayRumble(scriptInterface, presetName) return end
+function DefaultTransition.PlayRumble(scriptInterface, presetName) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param intensity String
 ---@return nil
-function DefaultTransition.PlayRumbleLoop(scriptInterface, intensity) return end
+function DefaultTransition.PlayRumbleLoop(scriptInterface, intensity) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition.RemoveAllBreathingEffects(scriptInterface) return end
+function DefaultTransition.RemoveAllBreathingEffects(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param weaponObject gameweaponObject
 ---@return Bool
-function DefaultTransition.ShouldCheckForLeapableTarget(scriptInterface, weaponObject) return end
+function DefaultTransition.ShouldCheckForLeapableTarget(scriptInterface, weaponObject) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param intensity String
 ---@return nil
-function DefaultTransition.StopRumbleLoop(scriptInterface, intensity) return end
+function DefaultTransition.StopRumbleLoop(scriptInterface, intensity) end
 
 ---@param stringToChange String
 ---@return nil
-function DefaultTransition.UppercaseFirstChar(stringToChange) return end
+function DefaultTransition.UppercaseFirstChar(stringToChange) end
 
----@protected
 ---@param newState Bool
 ---@param weapon gameweaponObject
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ActivateDamageProjection(newState, weapon, scriptInterface, stateContext) return end
+function DefaultTransition:ActivateDamageProjection(newState, weapon, scriptInterface, stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param target gameObject
@@ -228,858 +226,736 @@ function DefaultTransition:ActivateDamageProjection(newState, weapon, scriptInte
 ---@param useParabolicMotion? Bool
 ---@param targetPosition? Vector4
 ---@return Bool
-function DefaultTransition:AdjustPlayerPosition(stateContext, scriptInterface, target, duration, distanceRadius, rotationDuration, curveName, useParabolicMotion, targetPosition) return end
+function DefaultTransition:AdjustPlayerPosition(stateContext, scriptInterface, target, duration, distanceRadius, rotationDuration, curveName, useParabolicMotion, targetPosition) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:AreChoiceHubsActive(scriptInterface) return end
+function DefaultTransition:AreChoiceHubsActive(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param blockAimingFor Float
 ---@return nil
-function DefaultTransition:BlockAimingForTime(stateContext, scriptInterface, blockAimingFor) return end
+function DefaultTransition:BlockAimingForTime(stateContext, scriptInterface, blockAimingFor) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectName CName|string
 ---@return nil
-function DefaultTransition:BreakEffectLoop(scriptInterface, effectName) return end
+function DefaultTransition:BreakEffectLoop(scriptInterface, effectName) end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:CanWeaponSilentKill(weapon, scriptInterface) return end
+function DefaultTransition:CanWeaponSilentKill(weapon, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param entityID entEntityID
 ---@param statPoolType gamedataStatPoolType
 ---@param changeByValue Float
 ---@param asPercentage? Bool
 ---@return nil
-function DefaultTransition:ChangeStatPoolValue(scriptInterface, entityID, statPoolType, changeByValue, asPercentage) return end
+function DefaultTransition:ChangeStatPoolValue(scriptInterface, entityID, statPoolType, changeByValue, asPercentage) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:CheckActiveConsumable(scriptInterface) return end
+function DefaultTransition:CheckActiveConsumable(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:CheckConsumableLootDataCondition(scriptInterface) return end
+function DefaultTransition:CheckConsumableLootDataCondition(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param SMSide EEquipmentSide
 ---@param compareToState EEquipmentState
 ---@return Bool
-function DefaultTransition:CheckEquipmentStateMachineState(stateContext, SMSide, compareToState) return end
+function DefaultTransition:CheckEquipmentStateMachineState(stateContext, SMSide, compareToState) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:CheckGenericEquipItemConditions(stateContext, scriptInterface) return end
+function DefaultTransition:CheckGenericEquipItemConditions(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:CheckIsFastForwardByLine(scriptInterface) return end
+function DefaultTransition:CheckIsFastForwardByLine(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param compareToType gamedataItemCategory
 ---@return Bool
-function DefaultTransition:CheckItemCategoryInQuickWheel(scriptInterface, compareToType) return end
+function DefaultTransition:CheckItemCategoryInQuickWheel(scriptInterface, compareToType) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param parameterName CName|string
 ---@return nil
-function DefaultTransition:ClearItemIDWrapperPermanentParameter(stateContext, parameterName) return end
+function DefaultTransition:ClearItemIDWrapperPermanentParameter(stateContext, parameterName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param blackboardID gamebbScriptID_Int32
 ---@param CompareTo Int32
 ---@return Bool
-function DefaultTransition:CompareLocalBlackboardInt(scriptInterface, blackboardID, CompareTo) return end
+function DefaultTransition:CompareLocalBlackboardInt(scriptInterface, blackboardID, CompareTo) end
 
 ---@param smName CName|string
 ---@param smState CName[]|string[]
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:CompareSMState(smName, smState, stateContext) return end
+function DefaultTransition:CompareSMState(smName, smState, stateContext) end
 
 ---@param smName CName|string
 ---@param smState CName|string
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:CompareSMState(smName, smState, stateContext) return end
+function DefaultTransition:CompareSMState(smName, smState, stateContext) end
 
 ---@param definitionName CName|string
 ---@param referenceName CName|string
 ---@param smState CName|string
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:CompareSMStateWithIden(definitionName, referenceName, smState, stateContext) return end
+function DefaultTransition:CompareSMStateWithIden(definitionName, referenceName, smState, stateContext) end
 
----@protected
 ---@param adjustRequest gamestateMachineparameterTypeAdjustTransformWithDurations
 ---@param target gameObject
 ---@param targetPosition Vector4
 ---@param distanceRadius Float
 ---@param playerPosition Vector4
 ---@return Vector4
-function DefaultTransition:CompensateTargetPos(adjustRequest, target, targetPosition, distanceRadius, playerPosition) return end
+function DefaultTransition:CompensateTargetPos(adjustRequest, target, targetPosition, distanceRadius, playerPosition) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param b Bool
 ---@return nil
-function DefaultTransition:DisableCameraBobbing(stateContext, scriptInterface, b) return end
+function DefaultTransition:DisableCameraBobbing(stateContext, scriptInterface, b) end
 
----@protected
 ---@param lookAtTarget Vector4
 ---@param duration Float
 ---@param maxDuration Float
 ---@return gameaimAssistAimRequest
-function DefaultTransition:FillLookAtRequestData(lookAtTarget, duration, maxDuration) return end
+function DefaultTransition:FillLookAtRequestData(lookAtTarget, duration, maxDuration) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:ForceDisableRadialWheel(scriptInterface) return end
+function DefaultTransition:ForceDisableRadialWheel(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ForceDisableToggleWalk(stateContext) return end
+function DefaultTransition:ForceDisableToggleWalk(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ForceDisableVisionMode(stateContext) return end
+function DefaultTransition:ForceDisableVisionMode(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:ForceDisableVisionModeWithInput(stateContext, scriptInterface) return end
+function DefaultTransition:ForceDisableVisionModeWithInput(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ForceFreeze(stateContext) return end
+function DefaultTransition:ForceFreeze(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ForceIdle(stateContext) return end
+function DefaultTransition:ForceIdle(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ForceIdleVehicle(stateContext) return end
+function DefaultTransition:ForceIdleVehicle(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param actionName CName|string
 ---@return Float
-function DefaultTransition:GetActionHoldTime(stateContext, scriptInterface, actionName) return end
+function DefaultTransition:GetActionHoldTime(stateContext, scriptInterface, actionName) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param varName CName|string
 ---@return Bool
-function DefaultTransition:GetBoolFromQuestDB(scriptInterface, varName) return end
+function DefaultTransition:GetBoolFromQuestDB(scriptInterface, varName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return BraindanceSystem
-function DefaultTransition:GetBraindanceSystem(scriptInterface) return end
+function DefaultTransition:GetBraindanceSystem(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition:GetCameraYaw(stateContext, scriptInterface) return end
+function DefaultTransition:GetCameraYaw(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:GetCancelChargeButtonInput(scriptInterface) return end
+function DefaultTransition:GetCancelChargeButtonInput(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param isTargetKnockedOver Bool
 ---@param slotComponent entSlotComponent
 ---@return Bool, WorldTransform slotTransform
-function DefaultTransition:GetClosestSlotTransform(scriptInterface, isTargetKnockedOver, slotComponent) return end
+function DefaultTransition:GetClosestSlotTransform(scriptInterface, isTargetKnockedOver, slotComponent) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gameSceneTierData
-function DefaultTransition:GetCurrentSceneTierData(stateContext) return end
+function DefaultTransition:GetCurrentSceneTierData(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return GameplayTier
-function DefaultTransition:GetCurrentTier(stateContext) return end
+function DefaultTransition:GetCurrentTier(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return CName
-function DefaultTransition:GetFFParamsForCrouch(scriptInterface) return end
+function DefaultTransition:GetFFParamsForCrouch(scriptInterface) end
 
 ---@param tweakDBPath String
 ---@return nil, GameplayCameraData cameraParameters
-function DefaultTransition:GetGameplayCameraParameters(tweakDBPath) return end
+function DefaultTransition:GetGameplayCameraParameters(tweakDBPath) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition:GetHorizontalMovementDirection(stateContext, scriptInterface) return end
+function DefaultTransition:GetHorizontalMovementDirection(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return HUDManager
-function DefaultTransition:GetHudManager(scriptInterface) return end
+function DefaultTransition:GetHudManager(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param parameterName CName|string
 ---@return gameItemID
-function DefaultTransition:GetItemIDFromWrapperPermanentParameter(stateContext, parameterName) return end
+function DefaultTransition:GetItemIDFromWrapperPermanentParameter(stateContext, parameterName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameItemObject
-function DefaultTransition:GetItemInLeftHandSlot(scriptInterface) return end
+function DefaultTransition:GetItemInLeftHandSlot(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameItemObject
-function DefaultTransition:GetItemInRightHandSlot(scriptInterface) return end
+function DefaultTransition:GetItemInRightHandSlot(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gameItemID
-function DefaultTransition:GetLeftHandItemFromParam(stateContext) return end
+function DefaultTransition:GetLeftHandItemFromParam(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return CName
-function DefaultTransition:GetLocomotionState(stateContext) return end
+function DefaultTransition:GetLocomotionState(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameinteractionsvisLootData
-function DefaultTransition:GetLootData(scriptInterface) return end
+function DefaultTransition:GetLootData(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return String
-function DefaultTransition:GetQuickWheelItemName(scriptInterface) return end
+function DefaultTransition:GetQuickWheelItemName(scriptInterface) end
 
----@protected
 ---@param side EEquipmentSide
 ---@return CName
-function DefaultTransition:GetReferenceNameFromEquipmentSide(side) return end
+function DefaultTransition:GetReferenceNameFromEquipmentSide(side) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gameItemID
-function DefaultTransition:GetRightHandItemFromParam(stateContext) return end
+function DefaultTransition:GetRightHandItemFromParam(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return scnScriptInterface
-function DefaultTransition:GetSceneSystemInterface(scriptInterface) return end
+function DefaultTransition:GetSceneSystemInterface(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Int32
-function DefaultTransition:GetSceneTier(scriptInterface) return end
+function DefaultTransition:GetSceneTier(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param statType gamedataStatType
 ---@param statSystem gameStatsSystem
 ---@param object? gameObject
 ---@return Float
-function DefaultTransition:GetStatFloatValue(scriptInterface, statType, statSystem, object) return end
+function DefaultTransition:GetStatFloatValue(scriptInterface, statType, statSystem, object) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param entityID entEntityID
 ---@param statPool gamedataStatPoolType
 ---@param asPrecentage? Bool
 ---@return Float
-function DefaultTransition:GetStatPoolValue(scriptInterface, entityID, statPool, asPrecentage) return end
+function DefaultTransition:GetStatPoolValue(scriptInterface, entityID, statPool, asPrecentage) end
 
----@protected
 ---@param equipmentState EEquipmentState
 ---@return CName
-function DefaultTransition:GetStateNameFromEquipmentState(equipmentState) return end
+function DefaultTransition:GetStateNameFromEquipmentState(equipmentState) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gamedataStatusEffectPlayerData_Record
-function DefaultTransition:GetStatusEffectRecordData(stateContext) return end
+function DefaultTransition:GetStatusEffectRecordData(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return ETakedownActionType
-function DefaultTransition:GetTakedownAction(stateContext) return end
+function DefaultTransition:GetTakedownAction(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function DefaultTransition:GetVerticalSpeed(scriptInterface) return end
+function DefaultTransition:GetVerticalSpeed(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param tag CName|string
 ---@param itemID? gameItemID
 ---@return Bool
-function DefaultTransition:GetWeaponItemTag(stateContext, scriptInterface, tag, itemID) return end
+function DefaultTransition:GetWeaponItemTag(stateContext, scriptInterface, tag, itemID) end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:HandleDamagePreview(weapon, scriptInterface, stateContext) return end
+function DefaultTransition:HandleDamagePreview(weapon, scriptInterface, stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:HasActiveConsumable(scriptInterface) return end
+function DefaultTransition:HasActiveConsumable(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:HasAnyValidWeaponAvailable(scriptInterface) return end
+function DefaultTransition:HasAnyValidWeaponAvailable(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param entityID entEntityID
 ---@param statPool gamedataStatPoolType
 ---@return Bool
-function DefaultTransition:HasStatPoolValueReachedMax(scriptInterface, entityID, statPool) return end
+function DefaultTransition:HasStatPoolValueReachedMax(scriptInterface, entityID, statPool) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param timeStampName CName|string
 ---@return Bool
-function DefaultTransition:HasTimeStampElapsed(stateContext, scriptInterface, timeStampName) return end
+function DefaultTransition:HasTimeStampElapsed(stateContext, scriptInterface, timeStampName) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param blockAimingFor Float
 ---@return nil
-function DefaultTransition:HoldAimingForTime(stateContext, scriptInterface, blockAimingFor) return end
+function DefaultTransition:HoldAimingForTime(stateContext, scriptInterface, blockAimingFor) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param distance? Float
 ---@return Bool
-function DefaultTransition:IsActiveVehicleVisible(scriptInterface, distance) return end
+function DefaultTransition:IsActiveVehicleVisible(scriptInterface, distance) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsAimingBlockedForTime(stateContext, scriptInterface) return end
+function DefaultTransition:IsAimingBlockedForTime(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsAimingHeldForTime(stateContext, scriptInterface) return end
+function DefaultTransition:IsAimingHeldForTime(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsAimingSoftBlocked(stateContext, scriptInterface) return end
+function DefaultTransition:IsAimingSoftBlocked(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsAnyEquipmentStateMachineActive(stateContext) return end
+function DefaultTransition:IsAnyEquipmentStateMachineActive(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param cameraPitchThreshold Float
 ---@return Bool
-function DefaultTransition:IsCameraPitchAcceptable(stateContext, scriptInterface, cameraPitchThreshold) return end
+function DefaultTransition:IsCameraPitchAcceptable(stateContext, scriptInterface, cameraPitchThreshold) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsCarryingBody(scriptInterface) return end
+function DefaultTransition:IsCarryingBody(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsCrouchForced(scriptInterface) return end
+function DefaultTransition:IsCrouchForced(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsDeepEnoughToSwim(scriptInterface) return end
+function DefaultTransition:IsDeepEnoughToSwim(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param actionName CName|string
 ---@return Bool
-function DefaultTransition:IsDisplayingInputHintBlocked(scriptInterface, actionName) return end
+function DefaultTransition:IsDisplayingInputHintBlocked(scriptInterface, actionName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsDoorInteractionActive(scriptInterface) return end
+function DefaultTransition:IsDoorInteractionActive(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsEmptyHandsForced(stateContext, scriptInterface) return end
+function DefaultTransition:IsEmptyHandsForced(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param distance? Float
 ---@return Bool
-function DefaultTransition:IsEnemyOrSensoryDeviceVisible(scriptInterface, distance) return end
+function DefaultTransition:IsEnemyOrSensoryDeviceVisible(scriptInterface, distance) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param distance? Float
 ---@return Bool
-function DefaultTransition:IsEnemyVisible(scriptInterface, distance) return end
+function DefaultTransition:IsEnemyVisible(scriptInterface, distance) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsExaminingDevice(scriptInterface) return end
+function DefaultTransition:IsExaminingDevice(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsExitVehicleBlocked(scriptInterface) return end
+function DefaultTransition:IsExitVehicleBlocked(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsInEmptyHandsState(stateContext) return end
+function DefaultTransition:IsInEmptyHandsState(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsInFirstEquip(stateContext) return end
+function DefaultTransition:IsInFirstEquip(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInFocusMode(scriptInterface) return end
+function DefaultTransition:IsInFocusMode(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param highLevelStateName CName|string
 ---@return Bool
-function DefaultTransition:IsInHighLevelState(stateContext, highLevelStateName) return end
+function DefaultTransition:IsInHighLevelState(stateContext, highLevelStateName) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param inputContextStateName CName|string
 ---@return Bool
-function DefaultTransition:IsInInputContextState(stateContext, inputContextStateName) return end
+function DefaultTransition:IsInInputContextState(stateContext, inputContextStateName) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsInItemWheelState(stateContext) return end
+function DefaultTransition:IsInItemWheelState(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsInLadderState(stateContext) return end
+function DefaultTransition:IsInLadderState(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param locomotionStateName CName|string
 ---@return Bool
-function DefaultTransition:IsInLocomotionState(stateContext, locomotionStateName) return end
+function DefaultTransition:IsInLocomotionState(stateContext, locomotionStateName) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param meleeStateName CName|string
 ---@return Bool
-function DefaultTransition:IsInMeleeState(stateContext, meleeStateName) return end
+function DefaultTransition:IsInMeleeState(stateContext, meleeStateName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInMinigame(scriptInterface) return end
+function DefaultTransition:IsInMinigame(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInPhotoMode(scriptInterface) return end
+function DefaultTransition:IsInPhotoMode(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInSafeSceneTier(scriptInterface) return end
+function DefaultTransition:IsInSafeSceneTier(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInSafeZone(scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@return Bool
-function DefaultTransition:IsInSlidingState(stateContext) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@return Bool
-function DefaultTransition:IsInStealthLocomotion(stateContext) return end
+function DefaultTransition:IsInSafeZone(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsInTakedownState(stateContext) return end
+function DefaultTransition:IsInSlidingState(stateContext) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@return Bool
+function DefaultTransition:IsInStealthLocomotion(stateContext) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@return Bool
+function DefaultTransition:IsInTakedownState(stateContext) end
+
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInTier2Locomotion(scriptInterface) return end
+function DefaultTransition:IsInTier2Locomotion(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param upperBodyStateName CName|string
 ---@return Bool
-function DefaultTransition:IsInUpperBodyState(stateContext, upperBodyStateName) return end
+function DefaultTransition:IsInUpperBodyState(stateContext, upperBodyStateName) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param vehicleStateName CName|string
 ---@return Bool
-function DefaultTransition:IsInVehicleState(stateContext, vehicleStateName) return end
+function DefaultTransition:IsInVehicleState(stateContext, vehicleStateName) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInVisionModeActiveState(stateContext, scriptInterface) return end
+function DefaultTransition:IsInVisionModeActiveState(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsInWeaponReloadState(scriptInterface) return end
+function DefaultTransition:IsInWeaponReloadState(scriptInterface) end
 
----@protected
 ---@param item gameItemID
 ---@return Bool
-function DefaultTransition:IsItemMeleeWeapon(item) return end
+function DefaultTransition:IsItemMeleeWeapon(item) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsLeftHandInEquippedState(stateContext) return end
+function DefaultTransition:IsLeftHandInEquippedState(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsLeftHandInUnequippedState(stateContext) return end
+function DefaultTransition:IsLeftHandInUnequippedState(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsLeftHandInUnequippingState(stateContext) return end
+function DefaultTransition:IsLeftHandInUnequippingState(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsLookingAtEnemyNPC(scriptInterface) return end
+function DefaultTransition:IsLookingAtEnemyNPC(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsLootDataActive(scriptInterface) return end
+function DefaultTransition:IsLootDataActive(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsMovementInput(stateContext, scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsNameplateVisible(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsNoCombatActionsForced(scriptInterface) return end
+function DefaultTransition:IsMovementInput(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerExhausted(scriptInterface) return end
+function DefaultTransition:IsNameplateVisible(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerInAnyMenu(scriptInterface) return end
+function DefaultTransition:IsNoCombatActionsForced(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerInBraindance(scriptInterface) return end
+function DefaultTransition:IsPlayerExhausted(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerInCombat(scriptInterface) return end
+function DefaultTransition:IsPlayerInAnyMenu(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerInSecuritySystem(scriptInterface) return end
+function DefaultTransition:IsPlayerInBraindance(scriptInterface) end
 
----@protected
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsPlayerInCombat(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsPlayerInSecuritySystem(scriptInterface) end
+
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerMoving(stateContext, scriptInterface) return end
+function DefaultTransition:IsPlayerMoving(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerMovingBackwards(stateContext, scriptInterface) return end
+function DefaultTransition:IsPlayerMovingBackwards(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerMovingHorizontally(stateContext, scriptInterface) return end
+function DefaultTransition:IsPlayerMovingHorizontally(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerMovingVertically(stateContext, scriptInterface) return end
+function DefaultTransition:IsPlayerMovingVertically(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayerTired(scriptInterface) return end
+function DefaultTransition:IsPlayerTired(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsPlayingAsReplacer(scriptInterface) return end
+function DefaultTransition:IsPlayingAsReplacer(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsQuickHackPanelOpened(scriptInterface) return end
+function DefaultTransition:IsQuickHackPanelOpened(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsQuickWheelItemACyberdeck(scriptInterface) return end
+function DefaultTransition:IsQuickWheelItemACyberdeck(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param cyberwareType gamedataItemType
 ---@return Bool
-function DefaultTransition:IsQuickWheelItemACyberware(scriptInterface, cyberwareType) return end
+function DefaultTransition:IsQuickWheelItemACyberware(scriptInterface, cyberwareType) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsRadialWheelOpen(scriptInterface) return end
+function DefaultTransition:IsRadialWheelOpen(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsRightHandChangingEquipState(stateContext) return end
+function DefaultTransition:IsRightHandChangingEquipState(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsRightHandInEquippedState(stateContext) return end
+function DefaultTransition:IsRightHandInEquippedState(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsRightHandInEquippingState(stateContext) return end
+function DefaultTransition:IsRightHandInEquippingState(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsRightHandInUnequippedState(stateContext) return end
+function DefaultTransition:IsRightHandInUnequippedState(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function DefaultTransition:IsRightHandInUnequippingState(stateContext) return end
+function DefaultTransition:IsRightHandInUnequippingState(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsSafeStateForced(stateContext, scriptInterface) return end
+function DefaultTransition:IsSafeStateForced(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param timeDilationReason CName|string
 ---@return Bool
-function DefaultTransition:IsTimeDilationActive(stateContext, scriptInterface, timeDilationReason) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsUploadingQuickHack(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsUsingConsumableRestricted(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsUsingFirearmsForced(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsUsingFistsForced(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsUsingLeftHandAllowed(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsUsingMeleeForced(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsVaultingClimbingRestricted(scriptInterface) return end
+function DefaultTransition:IsTimeDilationActive(stateContext, scriptInterface, timeDilationReason) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsVehicleBlockingCombat(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsVehicleCameraChangeBlocked(scriptInterface) return end
-
----@protected
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function DefaultTransition:IsVehicleExitCombatModeBlocked(scriptInterface) return end
+function DefaultTransition:IsUploadingQuickHack(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:IsWeaponStateBlockingAiming(scriptInterface) return end
+function DefaultTransition:IsUsingConsumableRestricted(scriptInterface) end
 
----@protected
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsUsingFirearmsForced(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsUsingFistsForced(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsUsingLeftHandAllowed(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsUsingMeleeForced(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsVaultingClimbingRestricted(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsVehicleBlockingCombat(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsVehicleCameraChangeBlocked(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsVehicleExitCombatModeBlocked(scriptInterface) end
+
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function DefaultTransition:IsWeaponStateBlockingAiming(scriptInterface) end
+
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Int32
-function DefaultTransition:ItemsInLootData(scriptInterface) return end
+function DefaultTransition:ItemsInLootData(scriptInterface) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function DefaultTransition:OnItemEquipped(slot, item) return end
+function DefaultTransition:OnItemEquipped(slot, item) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function DefaultTransition:OnItemUnequipped(slot, item) return end
+function DefaultTransition:OnItemUnequipped(slot, item) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param value Float
 ---@return nil
-function DefaultTransition:OnStatChanged(ownerID, statType, diff, value) return end
+function DefaultTransition:OnStatChanged(ownerID, statType, diff, value) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function DefaultTransition:OnStatusEffectApplied(statusEffect) return end
+function DefaultTransition:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function DefaultTransition:OnStatusEffectRemoved(statusEffect) return end
+function DefaultTransition:OnStatusEffectRemoved(statusEffect) end
 
----@protected
 ---@param soundName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:PlaySound(soundName, scriptInterface) return end
+function DefaultTransition:PlaySound(soundName, scriptInterface) end
 
----@protected
 ---@param evtName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param evtParam Float
 ---@return nil
-function DefaultTransition:PlaySoundMetadataEvent(evtName, scriptInterface, evtParam) return end
+function DefaultTransition:PlaySoundMetadataEvent(evtName, scriptInterface, evtParam) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:PlayerHasGrenadeCharges(scriptInterface) return end
+function DefaultTransition:PlayerHasGrenadeCharges(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackRecord gamedataAttack_Record
 ---@return Bool
-function DefaultTransition:PrepareGameEffectAoEAttack(stateContext, scriptInterface, attackRecord) return end
+function DefaultTransition:PrepareGameEffectAoEAttack(stateContext, scriptInterface, attackRecord) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ProcessCombatGadgetActionInputCaching(scriptInterface, stateContext) return end
+function DefaultTransition:ProcessCombatGadgetActionInputCaching(scriptInterface, stateContext) end
 
----@protected
 ---@param parameterName CName|string
 ---@param state Bool
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ProcessPermanentBoolParameterToggle(parameterName, state, stateContext) return end
+function DefaultTransition:ProcessPermanentBoolParameterToggle(parameterName, state, stateContext) end
 
----@protected
 ---@param cameraParams CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:QueueSetCameraParamsEvent(cameraParams, scriptInterface) return end
+function DefaultTransition:QueueSetCameraParamsEvent(cameraParams, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:QueueSetCameraParamsEvent_Tier3Scene(stateContext, scriptInterface) return end
+function DefaultTransition:QueueSetCameraParamsEvent_Tier3Scene(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param actionName CName|string
 ---@param source CName|string
 ---@return nil
-function DefaultTransition:RemoveInputHint(scriptInterface, actionName, source) return end
+function DefaultTransition:RemoveInputHint(scriptInterface, actionName, source) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param source CName|string
 ---@return nil
-function DefaultTransition:RemoveInputHintsBySource(scriptInterface, source) return end
+function DefaultTransition:RemoveInputHintsBySource(scriptInterface, source) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param target gameObject
@@ -1089,9 +965,8 @@ function DefaultTransition:RemoveInputHintsBySource(scriptInterface, source) ret
 ---@param adjustPosition Vector4
 ---@param useParabolicMotion? Bool
 ---@return Bool
-function DefaultTransition:RequestPlayerPositionAdjustment(stateContext, scriptInterface, target, slideTime, distanceRadius, rotationDuration, adjustPosition, useParabolicMotion) return end
+function DefaultTransition:RequestPlayerPositionAdjustment(stateContext, scriptInterface, target, slideTime, distanceRadius, rotationDuration, adjustPosition, useParabolicMotion) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param slideTime Float
@@ -1099,126 +974,113 @@ function DefaultTransition:RequestPlayerPositionAdjustment(stateContext, scriptI
 ---@param adjustPosition Vector4
 ---@param adjustCurveName CName|string
 ---@return Bool
-function DefaultTransition:RequestPlayerPositionAdjustmentWithCurve(stateContext, scriptInterface, slideTime, distanceRadius, adjustPosition, adjustCurveName) return end
+function DefaultTransition:RequestPlayerPositionAdjustmentWithCurve(stateContext, scriptInterface, slideTime, distanceRadius, adjustPosition, adjustCurveName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param requestedCameraPerspective vehicleCameraPerspective
 ---@return nil
-function DefaultTransition:RequestVehicleCameraPerspective(scriptInterface, requestedCameraPerspective) return end
+function DefaultTransition:RequestVehicleCameraPerspective(scriptInterface, requestedCameraPerspective) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ResetForceFlags(stateContext) return end
+function DefaultTransition:ResetForceFlags(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:ResetSoftBlockAiming(stateContext, scriptInterface) return end
+function DefaultTransition:ResetSoftBlockAiming(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param telemetryData ETelemetryData
 ---@param modifyValue Int32
 ---@return nil
-function DefaultTransition:SendDataTrackingRequest(scriptInterface, telemetryData, modifyValue) return end
+function DefaultTransition:SendDataTrackingRequest(scriptInterface, telemetryData, modifyValue) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param item gameItemID
 ---@param equipAnimType? gameEquipAnimationType
 ---@return nil
-function DefaultTransition:SendDrawItemRequest(scriptInterface, item, equipAnimType) return end
+function DefaultTransition:SendDrawItemRequest(scriptInterface, item, equipAnimType) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param requestType EquipmentManipulationAction
 ---@param equipAnimType? gameEquipAnimationType
 ---@return nil
-function DefaultTransition:SendEquipmentSystemWeaponManipulationRequest(scriptInterface, requestType, equipAnimType) return end
+function DefaultTransition:SendEquipmentSystemWeaponManipulationRequest(scriptInterface, requestType, equipAnimType) end
 
----@protected
 ---@param paramName CName|string
 ---@param paramValue Float
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:SetAudioParameter(paramName, paramValue, scriptInterface) return end
+function DefaultTransition:SetAudioParameter(paramName, paramValue, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param id gamebbScriptID_Bool
 ---@param value Bool
 ---@return nil
-function DefaultTransition:SetBlackboardBoolVariable(scriptInterface, id, value) return end
+function DefaultTransition:SetBlackboardBoolVariable(scriptInterface, id, value) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param id gamebbScriptID_EntityID
 ---@param value entEntityID
 ---@return nil
-function DefaultTransition:SetBlackboardEntityID(scriptInterface, id, value) return end
+function DefaultTransition:SetBlackboardEntityID(scriptInterface, id, value) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param id gamebbScriptID_Float
 ---@param value Float
 ---@return nil
-function DefaultTransition:SetBlackboardFloatVariable(scriptInterface, id, value) return end
+function DefaultTransition:SetBlackboardFloatVariable(scriptInterface, id, value) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param id gamebbScriptID_Int32
 ---@param value Int32
 ---@return nil
-function DefaultTransition:SetBlackboardIntVariable(scriptInterface, id, value) return end
+function DefaultTransition:SetBlackboardIntVariable(scriptInterface, id, value) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param tweakDBPath String
 ---@return nil
-function DefaultTransition:SetGameplayCameraParameters(scriptInterface, tweakDBPath) return end
+function DefaultTransition:SetGameplayCameraParameters(scriptInterface, tweakDBPath) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param parameterName CName|string
 ---@param item gameItemID
 ---@return nil
-function DefaultTransition:SetItemIDWrapperPermanentParameter(stateContext, parameterName, item) return end
+function DefaultTransition:SetItemIDWrapperPermanentParameter(stateContext, parameterName, item) end
 
----@protected
 ---@param direction gameaudioeventsSurfaceDirection
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:SetSurfaceMaterialProbingDirection(direction, scriptInterface) return end
+function DefaultTransition:SetSurfaceMaterialProbingDirection(direction, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param sceneMode Bool
 ---@return nil
-function DefaultTransition:SetVehicleCameraSceneMode(scriptInterface, sceneMode) return end
+function DefaultTransition:SetVehicleCameraSceneMode(scriptInterface, sceneMode) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param shouldAim Bool
 ---@return nil
-function DefaultTransition:SetZoomStateAnimFeature(scriptInterface, shouldAim) return end
+function DefaultTransition:SetZoomStateAnimFeature(scriptInterface, shouldAim) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param maxDistanceSquared? Float
 ---@return Bool
-function DefaultTransition:ShouldEnterSafe(stateContext, scriptInterface, maxDistanceSquared) return end
+function DefaultTransition:ShouldEnterSafe(stateContext, scriptInterface, maxDistanceSquared) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:ShouldIgnoreWeaponSafe(scriptInterface) return end
+function DefaultTransition:ShouldIgnoreWeaponSafe(scriptInterface) end
 
----@protected
 ---@param showIfAiming Bool
 ---@param weaponObject gameweaponObject
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function DefaultTransition:ShowAttackPreview(showIfAiming, weaponObject, scriptInterface, stateContext) return end
+function DefaultTransition:ShowAttackPreview(showIfAiming, weaponObject, scriptInterface, stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param actionName CName|string
 ---@param source CName|string
@@ -1228,22 +1090,20 @@ function DefaultTransition:ShowAttackPreview(showIfAiming, weaponObject, scriptI
 ---@param sortingPriority? Int32
 ---@param inputHintKeyCombinationType? inkInputHintKeyCombinationType
 ---@return nil
-function DefaultTransition:ShowInputHint(scriptInterface, actionName, source, label, holdIndicationType, enableHoldAnimation, sortingPriority, inputHintKeyCombinationType) return end
+function DefaultTransition:ShowInputHint(scriptInterface, actionName, source, label, holdIndicationType, enableHoldAnimation, sortingPriority, inputHintKeyCombinationType) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param blockAimingFor Float
 ---@return nil
-function DefaultTransition:SoftBlockAimingForTime(stateContext, scriptInterface, blockAimingFor) return end
+function DefaultTransition:SoftBlockAimingForTime(stateContext, scriptInterface, blockAimingFor) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectName CName|string
 ---@param blackboard? worldEffectBlackboard
 ---@return nil
-function DefaultTransition:StartEffect(scriptInterface, effectName, blackboard) return end
+function DefaultTransition:StartEffect(scriptInterface, effectName, blackboard) end
 
----@protected
 ---@param statPoolsSystem gameStatPoolsSystem
 ---@param weaponEntityID entEntityID
 ---@param poolType gamedataStatPoolType
@@ -1251,21 +1111,18 @@ function DefaultTransition:StartEffect(scriptInterface, effectName, blackboard) 
 ---@param rangeEnd? Float
 ---@param valuePerSec? Float
 ---@return nil
-function DefaultTransition:StartPool(statPoolsSystem, weaponEntityID, poolType, rangeBegin, rangeEnd, valuePerSec) return end
+function DefaultTransition:StartPool(statPoolsSystem, weaponEntityID, poolType, rangeBegin, rangeEnd, valuePerSec) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param statPoolType gamedataStatPoolType
 ---@return nil
-function DefaultTransition:StartStatPoolDecay(scriptInterface, statPoolType) return end
+function DefaultTransition:StartStatPoolDecay(scriptInterface, statPoolType) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectName CName|string
 ---@return nil
-function DefaultTransition:StopEffect(scriptInterface, effectName) return end
+function DefaultTransition:StopEffect(scriptInterface, effectName) end
 
----@protected
 ---@param statPoolsSystem gameStatPoolsSystem
 ---@param weaponEntityID entEntityID
 ---@param poolType gamedataStatPoolType
@@ -1273,51 +1130,43 @@ function DefaultTransition:StopEffect(scriptInterface, effectName) return end
 ---@param rangeBegin? Float
 ---@param rangeEnd? Float
 ---@return nil
-function DefaultTransition:StopPool(statPoolsSystem, weaponEntityID, poolType, startDecay, rangeBegin, rangeEnd) return end
+function DefaultTransition:StopPool(statPoolsSystem, weaponEntityID, poolType, startDecay, rangeBegin, rangeEnd) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param statPoolType gamedataStatPoolType
 ---@return nil
-function DefaultTransition:StopStatPoolDecayAndRegenerate(scriptInterface, statPoolType) return end
+function DefaultTransition:StopStatPoolDecayAndRegenerate(scriptInterface, statPoolType) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:ThreatsOnPlayerThreatList(scriptInterface) return end
+function DefaultTransition:ThreatsOnPlayerThreatList(scriptInterface) end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param toggleOn Bool
 ---@return nil
-function DefaultTransition:ToggleAudioAimDownSights(weapon, toggleOn) return end
+function DefaultTransition:ToggleAudioAimDownSights(weapon, toggleOn) end
 
----@protected
 ---@param owner gameObject
 ---@param takedownActionType ETakedownActionType
 ---@return nil
-function DefaultTransition:TriggerNoiseStim(owner, takedownActionType) return end
+function DefaultTransition:TriggerNoiseStim(owner, takedownActionType) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param factName CName|string
 ---@param add Int32
 ---@return nil
-function DefaultTransition:TutorialAddFact(scriptInterface, factName, add) return end
+function DefaultTransition:TutorialAddFact(scriptInterface, factName, add) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param factName CName|string
 ---@return nil
-function DefaultTransition:TutorialSetFact(scriptInterface, factName) return end
+function DefaultTransition:TutorialSetFact(scriptInterface, factName) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DefaultTransition:UpdateCameraParams(stateContext, scriptInterface) return end
+function DefaultTransition:UpdateCameraParams(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTransition:UsingJohnnyReplacer(scriptInterface) return end
+function DefaultTransition:UsingJohnnyReplacer(scriptInterface) end

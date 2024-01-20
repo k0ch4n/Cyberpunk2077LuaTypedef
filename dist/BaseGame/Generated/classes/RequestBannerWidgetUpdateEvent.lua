@@ -5,4 +5,4 @@ RequestBannerWidgetUpdateEvent = {}
 
 ---@param fields? RequestBannerWidgetUpdateEvent
 ---@return RequestBannerWidgetUpdateEvent
-function RequestBannerWidgetUpdateEvent.new(fields) return end
+function RequestBannerWidgetUpdateEvent.new(fields) end

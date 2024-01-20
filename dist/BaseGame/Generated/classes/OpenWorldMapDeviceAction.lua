@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class OpenWorldMapDeviceAction: ActionBool
----@field private fastTravelPointData gameFastTravelPointData
+---@field fastTravelPointData gameFastTravelPointData
 OpenWorldMapDeviceAction = {}
 
 ---@param fields? OpenWorldMapDeviceAction
 ---@return OpenWorldMapDeviceAction
-function OpenWorldMapDeviceAction.new(fields) return end
+function OpenWorldMapDeviceAction.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function OpenWorldMapDeviceAction.IsAvailable(device) return end
+function OpenWorldMapDeviceAction.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function OpenWorldMapDeviceAction.IsClearanceValid(clearance) return end
+function OpenWorldMapDeviceAction.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function OpenWorldMapDeviceAction.IsDefaultConditionMet(device, context) return end
+function OpenWorldMapDeviceAction.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function OpenWorldMapDeviceAction:GetTweakDBChoiceRecord() return end
+function OpenWorldMapDeviceAction:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function OpenWorldMapDeviceAction:SetProperties() return end
+function OpenWorldMapDeviceAction:SetProperties() end

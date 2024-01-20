@@ -1,56 +1,51 @@
 ---@meta
 
 ---@class SettingsSelectorControllerLanguagesList: SettingsSelectorControllerListName
----@field protected downloadButton inkWidgetReference
----@field private descriptionText inkTextWidgetReference
----@field private isVoiceOverInstalled Bool
----@field private currentSetIndex Int32
+---@field downloadButton inkWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field isVoiceOverInstalled Bool
+---@field currentSetIndex Int32
 SettingsSelectorControllerLanguagesList = {}
 
 ---@param fields? SettingsSelectorControllerLanguagesList
 ---@return SettingsSelectorControllerLanguagesList
-function SettingsSelectorControllerLanguagesList.new(fields) return end
+function SettingsSelectorControllerLanguagesList.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SettingsSelectorControllerLanguagesList:OnDownload(e) return end
+function SettingsSelectorControllerLanguagesList:OnDownload(e) end
 
----@protected
 ---@return Bool
-function SettingsSelectorControllerLanguagesList:OnInitialize() return end
+function SettingsSelectorControllerLanguagesList:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SettingsSelectorControllerLanguagesList:OnSettingHoverOut(e) return end
+function SettingsSelectorControllerLanguagesList:OnSettingHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SettingsSelectorControllerLanguagesList:OnSettingHoverOver(e) return end
+function SettingsSelectorControllerLanguagesList:OnSettingHoverOver(e) end
 
----@private
 ---@param forward Bool
 ---@return nil
-function SettingsSelectorControllerLanguagesList:ChangeValue(forward) return end
+function SettingsSelectorControllerLanguagesList:ChangeValue(forward) end
 
 ---@return nil
-function SettingsSelectorControllerLanguagesList:Refresh() return end
+function SettingsSelectorControllerLanguagesList:Refresh() end
 
 ---@param descriptionText inkTextWidgetReference
 ---@return nil
-function SettingsSelectorControllerLanguagesList:RegisterDownloadButtonHovers(descriptionText) return end
+function SettingsSelectorControllerLanguagesList:RegisterDownloadButtonHovers(descriptionText) end
 
 ---@param enabled Bool
 ---@return nil
-function SettingsSelectorControllerLanguagesList:SetDownloadButtonEnabled(enabled) return end
+function SettingsSelectorControllerLanguagesList:SetDownloadButtonEnabled(enabled) end
 
 ---@param visible Bool
 ---@return nil
-function SettingsSelectorControllerLanguagesList:SetDownloadButtonVisible(visible) return end
+function SettingsSelectorControllerLanguagesList:SetDownloadButtonVisible(visible) end
 
 ---@param entry userSettingsVar
 ---@param isPreGame Bool
 ---@return nil
-function SettingsSelectorControllerLanguagesList:Setup(entry, isPreGame) return end
+function SettingsSelectorControllerLanguagesList:Setup(entry, isPreGame) end

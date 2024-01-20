@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameReplAnimTransformSyncElem
----@field public definitionId Int32
----@field public currentTime Float
----@field public timeScale Float
----@field public duration Float
----@field public timesToPlay Int32
----@field public playing Bool
+---@field definitionId Int32
+---@field currentTime Float
+---@field timeScale Float
+---@field duration Float
+---@field timesToPlay Int32
+---@field playing Bool
 gameReplAnimTransformSyncElem = {}
 
 ---@param fields? gameReplAnimTransformSyncElem
 ---@return gameReplAnimTransformSyncElem
-function gameReplAnimTransformSyncElem.new(fields) return end
+function gameReplAnimTransformSyncElem.new(fields) end

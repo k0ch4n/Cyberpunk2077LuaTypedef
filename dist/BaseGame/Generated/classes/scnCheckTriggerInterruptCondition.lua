@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnCheckTriggerInterruptCondition: scnIInterruptCondition
----@field public params scnCheckTriggerInterruptConditionParams
+---@field params scnCheckTriggerInterruptConditionParams
 scnCheckTriggerInterruptCondition = {}
 
 ---@param fields? scnCheckTriggerInterruptCondition
 ---@return scnCheckTriggerInterruptCondition
-function scnCheckTriggerInterruptCondition.new(fields) return end
+function scnCheckTriggerInterruptCondition.new(fields) end

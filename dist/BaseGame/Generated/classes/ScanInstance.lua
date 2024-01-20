@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ScanInstance: ModuleInstance
----@field public isScanningCluesBlocked Bool
+---@field isScanningCluesBlocked Bool
 ScanInstance = {}
 
 ---@param fields? ScanInstance
 ---@return ScanInstance
-function ScanInstance.new(fields) return end
+function ScanInstance.new(fields) end
 
 ---@param _isLookedAt Bool
 ---@param _isRevealed Bool
 ---@param _isScanningCluesBlocked Bool
 ---@return nil
-function ScanInstance:SetContext(_isLookedAt, _isRevealed, _isScanningCluesBlocked) return end
+function ScanInstance:SetContext(_isLookedAt, _isRevealed, _isScanningCluesBlocked) end

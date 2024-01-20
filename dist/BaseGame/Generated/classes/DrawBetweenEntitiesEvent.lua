@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DrawBetweenEntitiesEvent: redEvent
----@field public shouldDraw Bool
----@field public fxResource gameFxResource
----@field public revealMaster Bool
----@field public revealSlave Bool
----@field public masterEntity entEntityID
----@field public slaveEntity entEntityID
+---@field shouldDraw Bool
+---@field fxResource gameFxResource
+---@field revealMaster Bool
+---@field revealSlave Bool
+---@field masterEntity entEntityID
+---@field slaveEntity entEntityID
 DrawBetweenEntitiesEvent = {}
 
 ---@param fields? DrawBetweenEntitiesEvent
 ---@return DrawBetweenEntitiesEvent
-function DrawBetweenEntitiesEvent.new(fields) return end
+function DrawBetweenEntitiesEvent.new(fields) end

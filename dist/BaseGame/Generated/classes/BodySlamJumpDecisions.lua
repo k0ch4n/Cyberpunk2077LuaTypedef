@@ -5,4 +5,4 @@ BodySlamJumpDecisions = {}
 
 ---@param fields? BodySlamJumpDecisions
 ---@return BodySlamJumpDecisions
-function BodySlamJumpDecisions.new(fields) return end
+function BodySlamJumpDecisions.new(fields) end

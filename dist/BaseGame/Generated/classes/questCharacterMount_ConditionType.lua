@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class questCharacterMount_ConditionType: questICharacterConditionType
----@field public anyParent Bool
----@field public parentRef gameEntityReference
----@field public parentIsPlayer Bool
----@field public anyChild Bool
----@field public childRef gameEntityReference
----@field public childIsPlayer Bool
----@field public condition questMountConditionType
----@field public enterAnimationFinished Bool
----@field public role gameMountingSlotRole
----@field public usePlayersVehicle Bool
----@field public playerVehicleName String
----@field public vehicleType questMountVehicleType
----@field public vehicleOrigin questMountVehicleOrigin
----@field public vehicleAfiliation gamedataAffiliation
+---@field anyParent Bool
+---@field parentRef gameEntityReference
+---@field parentIsPlayer Bool
+---@field anyChild Bool
+---@field childRef gameEntityReference
+---@field childIsPlayer Bool
+---@field condition questMountConditionType
+---@field enterAnimationFinished Bool
+---@field role gameMountingSlotRole
+---@field usePlayersVehicle Bool
+---@field playerVehicleName String
+---@field vehicleType questMountVehicleType
+---@field vehicleOrigin questMountVehicleOrigin
+---@field vehicleAfiliation gamedataAffiliation
 questCharacterMount_ConditionType = {}
 
 ---@param fields? questCharacterMount_ConditionType
 ---@return questCharacterMount_ConditionType
-function questCharacterMount_ConditionType.new(fields) return end
+function questCharacterMount_ConditionType.new(fields) end

@@ -5,4 +5,4 @@ IdleTier4Decisions = {}
 
 ---@param fields? IdleTier4Decisions
 ---@return IdleTier4Decisions
-function IdleTier4Decisions.new(fields) return end
+function IdleTier4Decisions.new(fields) end

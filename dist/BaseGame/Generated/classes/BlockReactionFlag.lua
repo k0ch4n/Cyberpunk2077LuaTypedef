@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class BlockReactionFlag: AIbehaviortaskScript
----@field public target gameObject
+---@field target gameObject
 BlockReactionFlag = {}
 
 ---@param fields? BlockReactionFlag
 ---@return BlockReactionFlag
-function BlockReactionFlag.new(fields) return end
+function BlockReactionFlag.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function BlockReactionFlag:Activate(context) return end
+function BlockReactionFlag:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function BlockReactionFlag:Deactivate(context) return end
+function BlockReactionFlag:Deactivate(context) end

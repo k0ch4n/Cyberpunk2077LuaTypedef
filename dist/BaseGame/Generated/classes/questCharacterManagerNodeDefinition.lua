@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questCharacterManagerNodeDefinition: questSignalStoppingNodeDefinition
----@field public type questICharacterManager_NodeType
+---@field type questICharacterManager_NodeType
 questCharacterManagerNodeDefinition = {}
 
 ---@param fields? questCharacterManagerNodeDefinition
 ---@return questCharacterManagerNodeDefinition
-function questCharacterManagerNodeDefinition.new(fields) return end
+function questCharacterManagerNodeDefinition.new(fields) end

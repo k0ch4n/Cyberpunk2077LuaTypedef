@@ -5,7 +5,7 @@ gamedataLinearAccuracy_Record = {}
 
 ---@param fields? gamedataLinearAccuracy_Record
 ---@return gamedataLinearAccuracy_Record
-function gamedataLinearAccuracy_Record.new(fields) return end
+function gamedataLinearAccuracy_Record.new(fields) end
 
 ---@return Float
-function gamedataLinearAccuracy_Record:Duration() return end
+function gamedataLinearAccuracy_Record:Duration() end

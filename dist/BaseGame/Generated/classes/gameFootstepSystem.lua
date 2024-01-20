@@ -5,4 +5,4 @@ gameFootstepSystem = {}
 
 ---@param fields? gameFootstepSystem
 ---@return gameFootstepSystem
-function gameFootstepSystem.new(fields) return end
+function gameFootstepSystem.new(fields) end

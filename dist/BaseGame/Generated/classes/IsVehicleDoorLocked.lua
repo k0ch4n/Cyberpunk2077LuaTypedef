@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class IsVehicleDoorLocked: gameIScriptablePrereq
----@field protected slotName CName
----@field protected isCheckInverted Bool
+---@field slotName CName
+---@field isCheckInverted Bool
 IsVehicleDoorLocked = {}
 
 ---@param fields? IsVehicleDoorLocked
 ---@return IsVehicleDoorLocked
-function IsVehicleDoorLocked.new(fields) return end
+function IsVehicleDoorLocked.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IsVehicleDoorLocked:Initialize(recordID) return end
+function IsVehicleDoorLocked:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function IsVehicleDoorLocked:IsFulfilled(context) return end
+function IsVehicleDoorLocked:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function IsVehicleDoorLocked:OnRegister(state, context) return end
+function IsVehicleDoorLocked:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IsVehicleDoorLocked:OnUnregister(state, context) return end
+function IsVehicleDoorLocked:OnUnregister(state, context) end

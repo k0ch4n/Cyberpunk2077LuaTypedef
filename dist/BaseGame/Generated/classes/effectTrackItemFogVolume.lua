@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class effectTrackItemFogVolume: effectTrackItem
----@field public priority Uint8
----@field public densityFalloff Float
----@field public blendFalloff Float
----@field public density IEvaluatorFloat
----@field public size IEvaluatorVector
----@field public color IEvaluatorColor
+---@field priority Uint8
+---@field densityFalloff Float
+---@field blendFalloff Float
+---@field density IEvaluatorFloat
+---@field size IEvaluatorVector
+---@field color IEvaluatorColor
 effectTrackItemFogVolume = {}
 
 ---@param fields? effectTrackItemFogVolume
 ---@return effectTrackItemFogVolume
-function effectTrackItemFogVolume.new(fields) return end
+function effectTrackItemFogVolume.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkCensorshipEffect: inkGlitchEffect
----@field public censorshipFlags CensorshipFlags
+---@field censorshipFlags CensorshipFlags
 inkCensorshipEffect = {}
 
 ---@param fields? inkCensorshipEffect
 ---@return inkCensorshipEffect
-function inkCensorshipEffect.new(fields) return end
+function inkCensorshipEffect.new(fields) end

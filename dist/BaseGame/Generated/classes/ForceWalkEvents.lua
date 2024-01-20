@@ -1,26 +1,25 @@
 ---@meta
 
 ---@class ForceWalkEvents: LocomotionGroundEvents
----@field public storedSpeedValue Float
+---@field storedSpeedValue Float
 ForceWalkEvents = {}
 
 ---@param fields? ForceWalkEvents
 ---@return ForceWalkEvents
-function ForceWalkEvents.new(fields) return end
+function ForceWalkEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForceWalkEvents:OnEnter(stateContext, scriptInterface) return end
+function ForceWalkEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForceWalkEvents:OnExit(stateContext, scriptInterface) return end
+function ForceWalkEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForceWalkEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ForceWalkEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

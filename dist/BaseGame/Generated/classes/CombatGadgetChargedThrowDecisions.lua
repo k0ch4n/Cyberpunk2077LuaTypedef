@@ -5,10 +5,9 @@ CombatGadgetChargedThrowDecisions = {}
 
 ---@param fields? CombatGadgetChargedThrowDecisions
 ---@return CombatGadgetChargedThrowDecisions
-function CombatGadgetChargedThrowDecisions.new(fields) return end
+function CombatGadgetChargedThrowDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatGadgetChargedThrowDecisions:ToCombatGadgetWaitForUnequip(stateContext, scriptInterface) return end
+function CombatGadgetChargedThrowDecisions:ToCombatGadgetWaitForUnequip(stateContext, scriptInterface) end

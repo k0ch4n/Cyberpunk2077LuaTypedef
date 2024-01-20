@@ -5,4 +5,4 @@ inkIconAtlasManager = {}
 
 ---@param fields? inkIconAtlasManager
 ---@return inkIconAtlasManager
-function inkIconAtlasManager.new(fields) return end
+function inkIconAtlasManager.new(fields) end

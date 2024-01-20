@@ -1,241 +1,205 @@
 ---@meta
 
 ---@class CarriedObjectEvents: CarriedObjectTransition
----@field public animFeature AnimFeature_Mounting
----@field public animCarryFeature AnimFeature_Carry
----@field public leftHandFeature AnimFeature_LeftHandAnimation
----@field public AnimWrapperWeightSetterStrong entAnimWrapperWeightSetter
----@field public AnimWrapperWeightSetterFriendly entAnimWrapperWeightSetter
----@field public styleName CName
----@field public forceStyleName CName
----@field public isFriendlyCarry Bool
----@field public forcedCarryStyle gamePSMBodyCarryingStyle
+---@field animFeature AnimFeature_Mounting
+---@field animCarryFeature AnimFeature_Carry
+---@field leftHandFeature AnimFeature_LeftHandAnimation
+---@field AnimWrapperWeightSetterStrong entAnimWrapperWeightSetter
+---@field AnimWrapperWeightSetterFriendly entAnimWrapperWeightSetter
+---@field styleName CName
+---@field forceStyleName CName
+---@field isFriendlyCarry Bool
+---@field forcedCarryStyle gamePSMBodyCarryingStyle
 CarriedObjectEvents = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:ApplyFriendlyCarryGameplayRestrictions(stateContext, scriptInterface) return end
+function CarriedObjectEvents:ApplyFriendlyCarryGameplayRestrictions(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:ApplyInitGameplayRestrictions(scriptInterface) return end
+function CarriedObjectEvents:ApplyInitGameplayRestrictions(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:ApplyWoundedSoldierCarryGameplayRestrictions(stateContext, scriptInterface) return end
+function CarriedObjectEvents:ApplyWoundedSoldierCarryGameplayRestrictions(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:CalculateForcedCarryStyleAndIsFriendlyCarry(stateContext, scriptInterface) return end
+function CarriedObjectEvents:CalculateForcedCarryStyleAndIsFriendlyCarry(stateContext, scriptInterface) end
 
----@protected
 ---@param state ECarryState
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:CleanUpCarryStateMachine(state, stateContext, scriptInterface) return end
+function CarriedObjectEvents:CleanUpCarryStateMachine(state, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function CarriedObjectEvents:ClearForcedStyle(stateContext) return end
+function CarriedObjectEvents:ClearForcedStyle(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function CarriedObjectEvents:ClearStyleParameters(stateContext) return end
+function CarriedObjectEvents:ClearStyleParameters(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:DisableAndResetRagdoll(stateContext, scriptInterface) return end
+function CarriedObjectEvents:DisableAndResetRagdoll(stateContext, scriptInterface) end
 
----@private
 ---@param enable Bool
 ---@param animSet CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:EnableAnimSet(enable, animSet, scriptInterface) return end
+function CarriedObjectEvents:EnableAnimSet(enable, animSet, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:EnableRagdoll(stateContext, scriptInterface) return end
+function CarriedObjectEvents:EnableRagdoll(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:EnableRagdollUncontrolledMovement(stateContext, scriptInterface) return end
+function CarriedObjectEvents:EnableRagdollUncontrolledMovement(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:EvaluateAutomaticLootPickupFromMountedPuppet(scriptInterface) return end
+function CarriedObjectEvents:EvaluateAutomaticLootPickupFromMountedPuppet(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:EvaluateWeaponUnequipping(stateContext, scriptInterface) return end
+function CarriedObjectEvents:EvaluateWeaponUnequipping(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Int32
-function CarriedObjectEvents:GetPickupAnimationParameter(stateContext) return end
+function CarriedObjectEvents:GetPickupAnimationParameter(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gamePSMBodyCarryingStyle
-function CarriedObjectEvents:GetStyle(stateContext) return end
+function CarriedObjectEvents:GetStyle(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CarriedObjectEvents:GetWasThrownParameter(stateContext) return end
+function CarriedObjectEvents:GetWasThrownParameter(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CarriedObjectEvents:IsBodyDisposalOngoing(stateContext, scriptInterface) return end
+function CarriedObjectEvents:IsBodyDisposalOngoing(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:OnEnter(stateContext, scriptInterface) return end
+function CarriedObjectEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:OnExit(stateContext, scriptInterface) return end
+function CarriedObjectEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:OnForcedExit(stateContext, scriptInterface) return end
+function CarriedObjectEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:RemoveGameplayRestrictions(stateContext, scriptInterface) return end
+function CarriedObjectEvents:RemoveGameplayRestrictions(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:ResetMountingAnimFeature(stateContext, scriptInterface) return end
+function CarriedObjectEvents:ResetMountingAnimFeature(stateContext, scriptInterface) end
 
----@protected
 ---@param state ECarryState
 ---@param instant Bool
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param setExecutionOwnerOnly? Bool
 ---@return nil
-function CarriedObjectEvents:SetAnimFeature_Carry(state, instant, stateContext, scriptInterface, setExecutionOwnerOnly) return end
+function CarriedObjectEvents:SetAnimFeature_Carry(state, instant, stateContext, scriptInterface, setExecutionOwnerOnly) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param lockLeftHand Bool
 ---@return nil
-function CarriedObjectEvents:SetAnimFeature_LeftHandAnimation(scriptInterface, lockLeftHand) return end
+function CarriedObjectEvents:SetAnimFeature_LeftHandAnimation(scriptInterface, lockLeftHand) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param value Bool
 ---@param skipCameraContextUpdate? Bool
 ---@return nil
-function CarriedObjectEvents:SetBodyCarryCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) return end
+function CarriedObjectEvents:SetBodyCarryCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param value Bool
 ---@param skipCameraContextUpdate? Bool
 ---@return nil
-function CarriedObjectEvents:SetBodyCarryFriendlyCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) return end
+function CarriedObjectEvents:SetBodyCarryFriendlyCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param value Bool
 ---@param skipCameraContextUpdate? Bool
 ---@return nil
-function CarriedObjectEvents:SetBodyCarryWoundedSoldierCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) return end
+function CarriedObjectEvents:SetBodyCarryWoundedSoldierCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param value Bool
 ---@param skipCameraContextUpdate? Bool
 ---@return nil
-function CarriedObjectEvents:SetBodyPickUpCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) return end
+function CarriedObjectEvents:SetBodyPickUpCameraContext(stateContext, scriptInterface, value, skipCameraContextUpdate) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param varName CName|string
 ---@param value Bool
 ---@param skipCameraContextUpdate Bool
 ---@return nil
-function CarriedObjectEvents:SetCameraContext(stateContext, scriptInterface, varName, value, skipCameraContextUpdate) return end
+function CarriedObjectEvents:SetCameraContext(stateContext, scriptInterface, varName, value, skipCameraContextUpdate) end
 
----@protected
 ---@param style gamePSMBodyCarryingStyle
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:SetForcedStyle(style, stateContext, scriptInterface) return end
+function CarriedObjectEvents:SetForcedStyle(style, stateContext, scriptInterface) end
 
----@protected
 ---@param object gameObject
 ---@param enable Bool
 ---@return nil
-function CarriedObjectEvents:SetObjectInvulnerable(object, enable) return end
+function CarriedObjectEvents:SetObjectInvulnerable(object, enable) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param pickupAnimation Int32
 ---@return nil
-function CarriedObjectEvents:SetPickupAnimationParameter(stateContext, pickupAnimation) return end
+function CarriedObjectEvents:SetPickupAnimationParameter(stateContext, pickupAnimation) end
 
----@protected
 ---@param style gamePSMBodyCarryingStyle
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:SetStyle(style, stateContext, scriptInterface) return end
+function CarriedObjectEvents:SetStyle(style, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param wasThrown Bool
 ---@return nil
-function CarriedObjectEvents:SetWasThrownParameter(stateContext, wasThrown) return end
+function CarriedObjectEvents:SetWasThrownParameter(stateContext, wasThrown) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param isFriendly Bool
 ---@return nil
-function CarriedObjectEvents:UpdateCarryStylePickUpAndDropParams(stateContext, scriptInterface, isFriendly) return end
+function CarriedObjectEvents:UpdateCarryStylePickUpAndDropParams(stateContext, scriptInterface, isFriendly) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarriedObjectEvents:UpdateGameplayRestrictions(stateContext, scriptInterface) return end
+function CarriedObjectEvents:UpdateGameplayRestrictions(stateContext, scriptInterface) end

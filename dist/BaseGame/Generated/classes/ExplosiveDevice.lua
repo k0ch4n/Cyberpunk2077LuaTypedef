@@ -1,265 +1,222 @@
 ---@meta
 
 ---@class ExplosiveDevice: BasicDistractionDevice
----@field protected numberOfComponentsToON Int32
----@field protected numberOfComponentsToOFF Int32
----@field protected indexesOfComponentsToOFF Int32[]
----@field protected shouldDistractionEnableCollider Bool
----@field protected shouldDistractionVFXstay Bool
----@field protected loopAudioEvent CName
----@field protected spawnedFxInstancesToKill gameFxInstance[]
----@field public mesh entMeshComponent
----@field public collider entIPlacedComponent
----@field public distractionCollider entIPlacedComponent
----@field private numberOfReceivedHits Int32
----@field private devicePenetrationHealth Float
----@field private killedByExplosion Bool
----@field private distractionTimeStart Float
----@field private isBroadcastingEnvironmentalHazardStim Bool
----@field private explodedByQuickhack Bool
----@field private switchAppearanceOnExplosion Bool
----@field private explodedAppearanceName CName
----@field private componentsON entIPlacedComponent[]
----@field private componentsOFF entIPlacedComponent[]
+---@field numberOfComponentsToON Int32
+---@field numberOfComponentsToOFF Int32
+---@field indexesOfComponentsToOFF Int32[]
+---@field shouldDistractionEnableCollider Bool
+---@field shouldDistractionVFXstay Bool
+---@field loopAudioEvent CName
+---@field spawnedFxInstancesToKill gameFxInstance[]
+---@field mesh entMeshComponent
+---@field collider entIPlacedComponent
+---@field distractionCollider entIPlacedComponent
+---@field numberOfReceivedHits Int32
+---@field devicePenetrationHealth Float
+---@field killedByExplosion Bool
+---@field distractionTimeStart Float
+---@field isBroadcastingEnvironmentalHazardStim Bool
+---@field explodedByQuickhack Bool
+---@field switchAppearanceOnExplosion Bool
+---@field explodedAppearanceName CName
+---@field componentsON entIPlacedComponent[]
+---@field componentsOFF entIPlacedComponent[]
 ExplosiveDevice = {}
 
 ---@param fields? ExplosiveDevice
 ---@return ExplosiveDevice
-function ExplosiveDevice.new(fields) return end
+function ExplosiveDevice.new(fields) end
 
----@protected
 ---@param evt gameeventsDamageReceivedEvent
 ---@return Bool
-function ExplosiveDevice:OnDamageReceived(evt) return end
+function ExplosiveDevice:OnDamageReceived(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function ExplosiveDevice:OnDeath(evt) return end
+function ExplosiveDevice:OnDeath(evt) end
 
----@protected
 ---@param evt ExplosiveDeviceDelayedEvent
 ---@return Bool
-function ExplosiveDevice:OnExplosiveDeviceDelayedEvent(evt) return end
+function ExplosiveDevice:OnExplosiveDeviceDelayedEvent(evt) end
 
----@protected
 ---@param evt ExplosiveDeviceHideDeviceEvent
 ---@return Bool
-function ExplosiveDevice:OnExplosiveDeviceHideDeviceEvent(evt) return end
+function ExplosiveDevice:OnExplosiveDeviceHideDeviceEvent(evt) end
 
----@protected
 ---@param evt ForceDetonate
 ---@return Bool
-function ExplosiveDevice:OnForceDetonate(evt) return end
+function ExplosiveDevice:OnForceDetonate(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function ExplosiveDevice:OnHit(evt) return end
+function ExplosiveDevice:OnHit(evt) end
 
----@protected
 ---@param evt entPostInitializeEvent
 ---@return Bool
-function ExplosiveDevice:OnPostInitialize(evt) return end
+function ExplosiveDevice:OnPostInitialize(evt) end
 
----@protected
 ---@param evt entPreUninitializeEvent
 ---@return Bool
-function ExplosiveDevice:OnPreUninitialize(evt) return end
+function ExplosiveDevice:OnPreUninitialize(evt) end
 
----@protected
 ---@param evt QuestForceDetonate
 ---@return Bool
-function ExplosiveDevice:OnQuestForceDetonate(evt) return end
+function ExplosiveDevice:OnQuestForceDetonate(evt) end
 
----@protected
 ---@param evt QuickHackDistractExplosive
 ---@return Bool
-function ExplosiveDevice:OnQuickHackDistractExplosive(evt) return end
+function ExplosiveDevice:OnQuickHackDistractExplosive(evt) end
 
----@protected
 ---@param evt QuickHackExplodeExplosive
 ---@return Bool
-function ExplosiveDevice:OnQuickHackExplodeExplosive(evt) return end
+function ExplosiveDevice:OnQuickHackExplodeExplosive(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ExplosiveDevice:OnRequestComponents(ri) return end
+function ExplosiveDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SpiderbotDistractExplosiveDevicePerformed
 ---@return Bool
-function ExplosiveDevice:OnSpiderbotDistractExplosiveDevicePerformed(evt) return end
+function ExplosiveDevice:OnSpiderbotDistractExplosiveDevicePerformed(evt) end
 
----@protected
 ---@param evt SpiderbotExplodeExplosiveDevicePerformed
 ---@return Bool
-function ExplosiveDevice:OnSpiderbotExplodeExplosiveDevicePerformed(evt) return end
+function ExplosiveDevice:OnSpiderbotExplodeExplosiveDevicePerformed(evt) end
 
----@protected
 ---@param evt SwapMeshDelayedEvent
 ---@return Bool
-function ExplosiveDevice:OnSwapMeshDelayedEvent(evt) return end
+function ExplosiveDevice:OnSwapMeshDelayedEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ExplosiveDevice:OnTakeControl(ri) return end
+function ExplosiveDevice:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function ExplosiveDevice:BroadcastEnvironmentalHazardStimuli() return end
+function ExplosiveDevice:BroadcastEnvironmentalHazardStimuli() end
 
 ---@return Bool
-function ExplosiveDevice:CanOverrideNetworkContext() return end
+function ExplosiveDevice:CanOverrideNetworkContext() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function ExplosiveDevice:DamagePipelineFinalized(evt) return end
+function ExplosiveDevice:DamagePipelineFinalized(evt) end
 
 ---@return EGameplayRole
-function ExplosiveDevice:DeterminGameplayRole() return end
+function ExplosiveDevice:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return Float
-function ExplosiveDevice:DeterminGameplayRoleMappinRange(data) return end
+function ExplosiveDevice:DeterminGameplayRoleMappinRange(data) end
 
----@private
 ---@param additionalGameEffect EExplosiveAdditionalGameEffectType
 ---@return nil
-function ExplosiveDevice:DoAdditionalGameEffect(additionalGameEffect) return end
+function ExplosiveDevice:DoAdditionalGameEffect(additionalGameEffect) end
 
----@private
 ---@param damageType TweakDBID|string
 ---@param instigator? gameObject
 ---@return nil
-function ExplosiveDevice:DoAttack(damageType, instigator) return end
+function ExplosiveDevice:DoAttack(damageType, instigator) end
 
----@private
 ---@param damageType TweakDBID|string
 ---@return nil
-function ExplosiveDevice:DoPhysicsPulse(damageType) return end
+function ExplosiveDevice:DoPhysicsPulse(damageType) end
 
----@private
 ---@param index Int32
 ---@param instigator gameObject
 ---@return nil
-function ExplosiveDevice:Explode(index, instigator) return end
+function ExplosiveDevice:Explode(index, instigator) end
 
----@private
 ---@param index Int32
 ---@return nil
-function ExplosiveDevice:Explosion(index) return end
+function ExplosiveDevice:Explosion(index) end
 
----@protected
 ---@param attackTDBID TweakDBID|string
 ---@return Float
-function ExplosiveDevice:GetAttackRange(attackTDBID) return end
+function ExplosiveDevice:GetAttackRange(attackTDBID) end
 
----@private
 ---@return ExplosiveDeviceController
-function ExplosiveDevice:GetController() return end
+function ExplosiveDevice:GetController() end
 
 ---@return EFocusOutlineType
-function ExplosiveDevice:GetCurrentOutline() return end
+function ExplosiveDevice:GetCurrentOutline() end
 
 ---@return FocusForcedHighlightData
-function ExplosiveDevice:GetDefaultHighlight() return end
+function ExplosiveDevice:GetDefaultHighlight() end
 
 ---@return ExplosiveDeviceControllerPS
-function ExplosiveDevice:GetDevicePS() return end
+function ExplosiveDevice:GetDevicePS() end
 
----@protected
 ---@param instigator gameObject
 ---@return nil
-function ExplosiveDevice:HandleDeath(instigator) return end
-
----@protected
----@return Bool
-function ExplosiveDevice:HasAnyDirectInteractionActive() return end
+function ExplosiveDevice:HandleDeath(instigator) end
 
 ---@return Bool
-function ExplosiveDevice:HasImportantInteraction() return end
+function ExplosiveDevice:HasAnyDirectInteractionActive() end
 
----@private
+---@return Bool
+function ExplosiveDevice:HasImportantInteraction() end
+
 ---@param health Float
 ---@param delay Float
 ---@return nil
-function ExplosiveDevice:InitializeHealthDecay(health, delay) return end
+function ExplosiveDevice:InitializeHealthDecay(health, delay) end
 
 ---@return Bool
-function ExplosiveDevice:IsExplosive() return end
+function ExplosiveDevice:IsExplosive() end
 
----@protected
 ---@return nil
-function ExplosiveDevice:KillAllFxInstances() return end
+function ExplosiveDevice:KillAllFxInstances() end
 
----@private
 ---@return nil
-function ExplosiveDevice:RemoveEnvironmentalHazardStimuli() return end
+function ExplosiveDevice:RemoveEnvironmentalHazardStimuli() end
 
----@protected
 ---@return nil
-function ExplosiveDevice:ResolveGameplayState() return end
+function ExplosiveDevice:ResolveGameplayState() end
 
----@protected
 ---@param delay Float
 ---@return nil
-function ExplosiveDevice:SendSwapMeshDelayedEvent(delay) return end
+function ExplosiveDevice:SendSwapMeshDelayedEvent(delay) end
 
----@private
 ---@param fx gameFxResource
 ---@param newPosition? Vector4
 ---@param hitDirection? Vector4
 ---@return nil
-function ExplosiveDevice:SpawnVFXs(fx, newPosition, hitDirection) return end
+function ExplosiveDevice:SpawnVFXs(fx, newPosition, hitDirection) end
 
----@private
 ---@param fxEventName CName[]|string[]
 ---@return Bool
-function ExplosiveDevice:SpawnVFXs(fxEventName) return end
+function ExplosiveDevice:SpawnVFXs(fxEventName) end
 
----@protected
 ---@param loopAnimation? Bool
 ---@return nil
-function ExplosiveDevice:StartDistraction(loopAnimation) return end
+function ExplosiveDevice:StartDistraction(loopAnimation) end
 
----@protected
 ---@param instigator gameObject
 ---@param additionalDelays? Float
 ---@return nil
-function ExplosiveDevice:StartExplosionPipeline(instigator, additionalDelays) return end
+function ExplosiveDevice:StartExplosionPipeline(instigator, additionalDelays) end
 
----@protected
 ---@return nil
-function ExplosiveDevice:StopDistraction() return end
+function ExplosiveDevice:StopDistraction() end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function ExplosiveDevice:ToggleComponentsON_OFF(visible) return end
+function ExplosiveDevice:ToggleComponentsON_OFF(visible) end
 
----@protected
 ---@param on Bool
 ---@return nil
-function ExplosiveDevice:ToggleLightsON_OFF(on) return end
+function ExplosiveDevice:ToggleLightsON_OFF(on) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function ExplosiveDevice:ToggleVisibility(visible) return end
+function ExplosiveDevice:ToggleVisibility(visible) end
 
----@protected
 ---@return nil
-function ExplosiveDevice:TurnOffDevice() return end
+function ExplosiveDevice:TurnOffDevice() end
 
----@protected
 ---@return nil
-function ExplosiveDevice:TurnOnDevice() return end
+function ExplosiveDevice:TurnOnDevice() end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function ExplosiveDevice:ValidateRelicCWAttack(attackData) return end
+function ExplosiveDevice:ValidateRelicCWAttack(attackData) end

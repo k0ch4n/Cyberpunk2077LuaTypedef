@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioUiControl
----@field public uiEventsByAction audioKeyUiSoundDictionary
+---@field uiEventsByAction audioKeyUiSoundDictionary
 audioUiControl = {}
 
 ---@param fields? audioUiControl
 ---@return audioUiControl
-function audioUiControl.new(fields) return end
+function audioUiControl.new(fields) end

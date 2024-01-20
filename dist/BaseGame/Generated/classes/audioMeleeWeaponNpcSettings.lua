@@ -5,4 +5,4 @@ audioMeleeWeaponNpcSettings = {}
 
 ---@param fields? audioMeleeWeaponNpcSettings
 ---@return audioMeleeWeaponNpcSettings
-function audioMeleeWeaponNpcSettings.new(fields) return end
+function audioMeleeWeaponNpcSettings.new(fields) end

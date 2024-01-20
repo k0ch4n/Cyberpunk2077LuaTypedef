@@ -1,256 +1,213 @@
 ---@meta
 
 ---@class DisposalDevice: InteractiveDevice
----@field protected additionalMeshComponent entMeshComponent
----@field protected npcBody NPCPuppet
----@field protected playerStateMachineBlackboard gameIBlackboard
----@field protected sideTriggerNames CName[]
----@field protected triggerComponents gameStaticTriggerAreaComponent[]
----@field protected currentDisposalSyncName CName
----@field protected currentKillSyncName CName
----@field protected isNonlethal Bool
----@field protected physicalMeshNames CName[]
----@field protected physicalMeshes entPhysicalMeshComponent[]
----@field protected lethalTakedownKillDelay Float
----@field protected lethalTakedownComponentNames CName[]
----@field protected lethalTakedownComponents entIPlacedComponent[]
----@field protected isReactToHit Bool
----@field protected distractionSoundName CName
----@field protected distractionSoundDuration Float
----@field protected workspotDuration Float
----@field private OnReplacerChangedCallback redCallbackObject
----@field private OnTakedownChangedCallback redCallbackObject
----@field private OnCarryingChangedCallback redCallbackObject
+---@field additionalMeshComponent entMeshComponent
+---@field npcBody NPCPuppet
+---@field playerStateMachineBlackboard gameIBlackboard
+---@field sideTriggerNames CName[]
+---@field triggerComponents gameStaticTriggerAreaComponent[]
+---@field currentDisposalSyncName CName
+---@field currentKillSyncName CName
+---@field isNonlethal Bool
+---@field physicalMeshNames CName[]
+---@field physicalMeshes entPhysicalMeshComponent[]
+---@field lethalTakedownKillDelay Float
+---@field lethalTakedownComponentNames CName[]
+---@field lethalTakedownComponents entIPlacedComponent[]
+---@field isReactToHit Bool
+---@field distractionSoundName CName
+---@field distractionSoundDuration Float
+---@field workspotDuration Float
+---@field OnReplacerChangedCallback redCallbackObject
+---@field OnTakedownChangedCallback redCallbackObject
+---@field OnCarryingChangedCallback redCallbackObject
 DisposalDevice = {}
 
 ---@param fields? DisposalDevice
 ---@return DisposalDevice
-function DisposalDevice.new(fields) return end
+function DisposalDevice.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function DisposalDevice:OnCarryingChanged(value) return end
+function DisposalDevice:OnCarryingChanged(value) end
 
----@protected
 ---@param evt DisposeBody
 ---@return Bool
-function DisposalDevice:OnDisposeBody(evt) return end
+function DisposalDevice:OnDisposeBody(evt) end
 
----@protected
 ---@param evt Distraction
 ---@return Bool
-function DisposalDevice:OnDistraction(evt) return end
+function DisposalDevice:OnDistraction(evt) end
 
----@protected
 ---@param evt ExplosiveDeviceDelayedEvent
 ---@return Bool
-function DisposalDevice:OnExplosiveDeviceDelayedEvent(evt) return end
+function DisposalDevice:OnExplosiveDeviceDelayedEvent(evt) end
 
----@protected
 ---@return Bool
-function DisposalDevice:OnGameAttached() return end
+function DisposalDevice:OnGameAttached() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function DisposalDevice:OnHit(evt) return end
+function DisposalDevice:OnHit(evt) end
 
----@protected
 ---@param evt NPCKillDelayEvent
 ---@return Bool
-function DisposalDevice:OnNPCKillDelayEvent(evt) return end
+function DisposalDevice:OnNPCKillDelayEvent(evt) end
 
----@protected
 ---@param evt NonlethalTakedownAndDisposeBody
 ---@return Bool
-function DisposalDevice:OnNonlethalTakedownAndDisposeBody(evt) return end
+function DisposalDevice:OnNonlethalTakedownAndDisposeBody(evt) end
 
----@protected
 ---@param evt OverchargeDevice
 ---@return Bool
-function DisposalDevice:OnOverChargeDevice(evt) return end
+function DisposalDevice:OnOverChargeDevice(evt) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function DisposalDevice:OnReplacerChanged(value) return end
+function DisposalDevice:OnReplacerChanged(value) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DisposalDevice:OnRequestComponents(ri) return end
+function DisposalDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SpiderbotDistractionPerformed
 ---@return Bool
-function DisposalDevice:OnSpiderbotDistractionPerformed(evt) return end
+function DisposalDevice:OnSpiderbotDistractionPerformed(evt) end
 
----@protected
 ---@param evt SpiderbotExplodeExplosiveDevicePerformed
 ---@return Bool
-function DisposalDevice:OnSpiderbotExplodeExplosiveDevicePerformed(evt) return end
+function DisposalDevice:OnSpiderbotExplodeExplosiveDevicePerformed(evt) end
 
----@protected
 ---@param evt StopSoundDisposal
 ---@return Bool
-function DisposalDevice:OnStopSoundDisposal(evt) return end
+function DisposalDevice:OnStopSoundDisposal(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DisposalDevice:OnTakeControl(ri) return end
+function DisposalDevice:OnTakeControl(ri) end
 
----@protected
 ---@param evt TakedownAndDisposeBody
 ---@return Bool
-function DisposalDevice:OnTakedownAndDisposeBody(evt) return end
+function DisposalDevice:OnTakedownAndDisposeBody(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function DisposalDevice:OnTakedownChanged(value) return end
+function DisposalDevice:OnTakedownChanged(value) end
 
----@protected
 ---@param evt TimerEvent
 ---@return Bool
-function DisposalDevice:OnTimerEvent(evt) return end
+function DisposalDevice:OnTimerEvent(evt) end
 
----@protected
 ---@param evt ToggleActivation
 ---@return Bool
-function DisposalDevice:OnToggleActivation(evt) return end
+function DisposalDevice:OnToggleActivation(evt) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function DisposalDevice:OnWorkspotFinished(componentName) return end
+function DisposalDevice:OnWorkspotFinished(componentName) end
 
----@protected
 ---@return nil
-function DisposalDevice:ActivatePhysicalMeshes() return end
+function DisposalDevice:ActivatePhysicalMeshes() end
 
----@protected
 ---@return nil
-function DisposalDevice:CheckCurrentSide() return end
+function DisposalDevice:CheckCurrentSide() end
 
 ---@return EGameplayRole
-function DisposalDevice:DeterminGameplayRole() return end
+function DisposalDevice:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return Float
-function DisposalDevice:DeterminGameplayRoleMappinRange(data) return end
+function DisposalDevice:DeterminGameplayRoleMappinRange(data) end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function DisposalDevice:DeterminGameplayRoleMappinVisuaState(data) return end
+function DisposalDevice:DeterminGameplayRoleMappinVisuaState(data) end
 
----@private
 ---@param index Int32
 ---@return nil
-function DisposalDevice:Distract(index) return end
+function DisposalDevice:Distract(index) end
 
----@private
 ---@param damageType TweakDBID|string
 ---@return nil
-function DisposalDevice:DoAttack(damageType) return end
+function DisposalDevice:DoAttack(damageType) end
 
----@protected
 ---@return nil
-function DisposalDevice:EnableLethalTakedownComponents() return end
+function DisposalDevice:EnableLethalTakedownComponents() end
 
----@private
 ---@param index Int32
 ---@param instigator gameObject
 ---@return nil
-function DisposalDevice:Explode(index, instigator) return end
+function DisposalDevice:Explode(index, instigator) end
 
----@protected
 ---@param attackTDBID TweakDBID|string
 ---@return Float
-function DisposalDevice:GetAttackRange(attackTDBID) return end
+function DisposalDevice:GetAttackRange(attackTDBID) end
 
----@protected
 ---@return DisposalDeviceController
-function DisposalDevice:GetController() return end
+function DisposalDevice:GetController() end
 
 ---@return DisposalDeviceControllerPS
-function DisposalDevice:GetDevicePS() return end
-
----@protected
----@return Bool
-function DisposalDevice:HasAnyDirectInteractionActive() return end
+function DisposalDevice:GetDevicePS() end
 
 ---@return Bool
-function DisposalDevice:HasImportantInteraction() return end
+function DisposalDevice:HasAnyDirectInteractionActive() end
 
----@private
+---@return Bool
+function DisposalDevice:HasImportantInteraction() end
+
 ---@return nil
-function DisposalDevice:HideNPCPermanently() return end
+function DisposalDevice:HideNPCPermanently() end
 
----@protected
 ---@return nil
-function DisposalDevice:InitializeAlreadyUsedDevice() return end
+function DisposalDevice:InitializeAlreadyUsedDevice() end
 
 ---@return Bool
-function DisposalDevice:IsBodyDisposalPossible() return end
+function DisposalDevice:IsBodyDisposalPossible() end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function DisposalDevice:OnMaraudersMapDeviceDebug(sink) return end
+function DisposalDevice:OnMaraudersMapDeviceDebug(sink) end
 
----@protected
 ---@param animationName CName|string
 ---@return nil
-function DisposalDevice:PlayTransformAnim(animationName) return end
+function DisposalDevice:PlayTransformAnim(animationName) end
 
----@protected
 ---@return nil
-function DisposalDevice:ResolveGameplayState() return end
+function DisposalDevice:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function DisposalDevice:SendRefreshInteractionEvent() return end
+function DisposalDevice:SendRefreshInteractionEvent() end
 
----@private
 ---@return nil
-function DisposalDevice:SetNpcIsDisposedBlackboard() return end
+function DisposalDevice:SetNpcIsDisposedBlackboard() end
 
----@protected
 ---@param value Int32
 ---@return nil
-function DisposalDevice:SetTakedownCameraAnimFeature(value) return end
+function DisposalDevice:SetTakedownCameraAnimFeature(value) end
 
----@private
 ---@return nil
-function DisposalDevice:SetUpPlayerStateMachineBlackboard() return end
+function DisposalDevice:SetUpPlayerStateMachineBlackboard() end
 
----@private
 ---@param fx gameFxResource
 ---@return nil
-function DisposalDevice:SpawnVFXs(fx) return end
+function DisposalDevice:SpawnVFXs(fx) end
 
----@protected
 ---@param instigator gameObject
 ---@param additionalDelays? Float
 ---@return nil
-function DisposalDevice:StartExplosionPipeline(instigator, additionalDelays) return end
+function DisposalDevice:StartExplosionPipeline(instigator, additionalDelays) end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function DisposalDevice:StartGlitching(glitchState, intensity) return end
+function DisposalDevice:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function DisposalDevice:StopGlitching() return end
+function DisposalDevice:StopGlitching() end
 
----@private
 ---@param isNonlethal Bool
 ---@return nil
-function DisposalDevice:TakedownAndDispose(isNonlethal) return end
+function DisposalDevice:TakedownAndDispose(isNonlethal) end
 
----@private
 ---@return nil
-function DisposalDevice:UpdateLightAppearance() return end
+function DisposalDevice:UpdateLightAppearance() end

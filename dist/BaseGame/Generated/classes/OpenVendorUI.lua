@@ -5,7 +5,7 @@ OpenVendorUI = {}
 
 ---@param fields? OpenVendorUI
 ---@return OpenVendorUI
-function OpenVendorUI.new(fields) return end
+function OpenVendorUI.new(fields) end
 
 ---@return nil
-function OpenVendorUI:SetProperties() return end
+function OpenVendorUI:SetProperties() end

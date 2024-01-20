@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AINewThreat: AIAIEvent
----@field public owner entEntity
----@field public threat entEntity
----@field public isHostile Bool
----@field public isEnemy Bool
+---@field owner entEntity
+---@field threat entEntity
+---@field isHostile Bool
+---@field isEnemy Bool
 AINewThreat = {}
 
 ---@param fields? AINewThreat
 ---@return AINewThreat
-function AINewThreat.new(fields) return end
+function AINewThreat.new(fields) end

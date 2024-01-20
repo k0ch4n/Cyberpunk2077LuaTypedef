@@ -5,4 +5,4 @@ entEffectAttachmentComponent = {}
 
 ---@param fields? entEffectAttachmentComponent
 ---@return entEffectAttachmentComponent
-function entEffectAttachmentComponent.new(fields) return end
+function entEffectAttachmentComponent.new(fields) end

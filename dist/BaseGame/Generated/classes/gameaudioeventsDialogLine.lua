@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameaudioeventsDialogLine: redEvent
----@field public data audioDialogLineEventData
+---@field data audioDialogLineEventData
 gameaudioeventsDialogLine = {}
 
 ---@param fields? gameaudioeventsDialogLine
 ---@return gameaudioeventsDialogLine
-function gameaudioeventsDialogLine.new(fields) return end
+function gameaudioeventsDialogLine.new(fields) end

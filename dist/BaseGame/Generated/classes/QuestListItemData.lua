@@ -1,50 +1,50 @@
 ---@meta
 
 ---@class QuestListItemData: IScriptable
----@field public questType QuestListItemType
----@field public lastUpdateTimestamp GameTime
----@field public isTrackedQuest Bool
----@field public isOpenedQuest Bool
----@field public questData gameJournalQuest
----@field public journalManager gameJournalManager
----@field public playerLevel Int32
----@field public recommendedLevel Int32
----@field public State gameJournalEntryState
----@field public distance Float
----@field private distancesFetched Bool
----@field private objectivesDistances QuestListDistanceData[]
+---@field questType QuestListItemType
+---@field lastUpdateTimestamp GameTime
+---@field isTrackedQuest Bool
+---@field isOpenedQuest Bool
+---@field questData gameJournalQuest
+---@field journalManager gameJournalManager
+---@field playerLevel Int32
+---@field recommendedLevel Int32
+---@field State gameJournalEntryState
+---@field distance Float
+---@field distancesFetched Bool
+---@field objectivesDistances QuestListDistanceData[]
 QuestListItemData = {}
 
 ---@param fields? QuestListItemData
 ---@return QuestListItemData
-function QuestListItemData.new(fields) return end
+function QuestListItemData.new(fields) end
 
 ---@return QuestListDistanceData[]
-function QuestListItemData:GetDistances() return end
+function QuestListItemData:GetDistances() end
 
 ---@return Int32
-function QuestListItemData:GetEntryHash() return end
+function QuestListItemData:GetEntryHash() end
 
 ---@return gameJournalQuestObjective
-function QuestListItemData:GetFirstObjective() return end
+function QuestListItemData:GetFirstObjective() end
 
 ---@return QuestListDistanceData
-function QuestListItemData:GetNearestDistance() return end
+function QuestListItemData:GetNearestDistance() end
 
 ---@return QuestListItemType
-function QuestListItemData:GetQuestType() return end
+function QuestListItemData:GetQuestType() end
 
 ---@return QuestListDistanceData
-function QuestListItemData:GetTrackedOrNearest() return end
+function QuestListItemData:GetTrackedOrNearest() end
 
 ---@return nil
-function QuestListItemData:QuestLastUpdateTime() return end
+function QuestListItemData:QuestLastUpdateTime() end
 
 ---@return nil
-function QuestListItemData:SetVisited() return end
+function QuestListItemData:SetVisited() end
 
 ---@return Bool
-function QuestListItemData:isDone() return end
+function QuestListItemData:isDone() end
 
 ---@return Bool
-function QuestListItemData:isVisited() return end
+function QuestListItemData:isVisited() end

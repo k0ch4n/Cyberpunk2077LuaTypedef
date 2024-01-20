@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiarcadeShooterTransporterSpawnData
----@field public aiType gameuiarcadeShooterAIType
----@field public parameter CName
----@field public count Int32
+---@field aiType gameuiarcadeShooterAIType
+---@field parameter CName
+---@field count Int32
 gameuiarcadeShooterTransporterSpawnData = {}
 
 ---@param fields? gameuiarcadeShooterTransporterSpawnData
 ---@return gameuiarcadeShooterTransporterSpawnData
-function gameuiarcadeShooterTransporterSpawnData.new(fields) return end
+function gameuiarcadeShooterTransporterSpawnData.new(fields) end

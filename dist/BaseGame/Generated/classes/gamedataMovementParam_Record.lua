@@ -5,25 +5,25 @@ gamedataMovementParam_Record = {}
 
 ---@param fields? gamedataMovementParam_Record
 ---@return gamedataMovementParam_Record
-function gamedataMovementParam_Record.new(fields) return end
+function gamedataMovementParam_Record.new(fields) end
 
 ---@return Float
-function gamedataMovementParam_Record:Acceleration() return end
+function gamedataMovementParam_Record:Acceleration() end
 
 ---@return Float
-function gamedataMovementParam_Record:Deceleration() return end
+function gamedataMovementParam_Record:Deceleration() end
 
 ---@return String
-function gamedataMovementParam_Record:EnumComment() return end
+function gamedataMovementParam_Record:EnumComment() end
 
 ---@return CName
-function gamedataMovementParam_Record:EnumName() return end
+function gamedataMovementParam_Record:EnumName() end
 
 ---@return Float
-function gamedataMovementParam_Record:MaxSpeed() return end
+function gamedataMovementParam_Record:MaxSpeed() end
 
 ---@return Float
-function gamedataMovementParam_Record:RotationSpeed() return end
+function gamedataMovementParam_Record:RotationSpeed() end
 
 ---@return gamedataMovementType
-function gamedataMovementParam_Record:Type() return end
+function gamedataMovementParam_Record:Type() end

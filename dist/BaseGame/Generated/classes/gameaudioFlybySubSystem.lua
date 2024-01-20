@@ -5,4 +5,4 @@ gameaudioFlybySubSystem = {}
 
 ---@param fields? gameaudioFlybySubSystem
 ---@return gameaudioFlybySubSystem
-function gameaudioFlybySubSystem.new(fields) return end
+function gameaudioFlybySubSystem.new(fields) end

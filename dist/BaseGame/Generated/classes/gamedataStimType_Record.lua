@@ -5,13 +5,13 @@ gamedataStimType_Record = {}
 
 ---@param fields? gamedataStimType_Record
 ---@return gamedataStimType_Record
-function gamedataStimType_Record.new(fields) return end
+function gamedataStimType_Record.new(fields) end
 
 ---@return String
-function gamedataStimType_Record:Comment() return end
+function gamedataStimType_Record:Comment() end
 
 ---@return CName
-function gamedataStimType_Record:EnumName() return end
+function gamedataStimType_Record:EnumName() end
 
 ---@return gamedataStimType
-function gamedataStimType_Record:Type() return end
+function gamedataStimType_Record:Type() end

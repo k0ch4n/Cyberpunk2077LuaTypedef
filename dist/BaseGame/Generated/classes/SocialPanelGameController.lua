@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class SocialPanelGameController: gameuiMenuGameController
----@field private SocialPanelContactsListRef inkWidgetReference
----@field private SocialPanelContactsDetailsRef inkWidgetReference
----@field private ContactsList SocialPanelContactsList
----@field private ContactDetails SocialPanelContactsDetails
----@field private RootWidget inkWidget
----@field private JournalMgr gameJournalManager
+---@field SocialPanelContactsListRef inkWidgetReference
+---@field SocialPanelContactsDetailsRef inkWidgetReference
+---@field ContactsList SocialPanelContactsList
+---@field ContactDetails SocialPanelContactsDetails
+---@field RootWidget inkWidget
+---@field JournalMgr gameJournalManager
 SocialPanelGameController = {}
 
 ---@param fields? SocialPanelGameController
 ---@return SocialPanelGameController
-function SocialPanelGameController.new(fields) return end
+function SocialPanelGameController.new(fields) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function SocialPanelGameController:OnContactChangedRequest(e) return end
+function SocialPanelGameController:OnContactChangedRequest(e) end
 
----@protected
 ---@return Bool
-function SocialPanelGameController:OnInitialize() return end
+function SocialPanelGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function SocialPanelGameController:OnUninitialize() return end
+function SocialPanelGameController:OnUninitialize() end
 
 ---@param contactToShow gameJournalContact
 ---@return nil
-function SocialPanelGameController:DisplayContact(contactToShow) return end
+function SocialPanelGameController:DisplayContact(contactToShow) end
 
----@private
 ---@return nil
-function SocialPanelGameController:RefreshView() return end
+function SocialPanelGameController:RefreshView() end

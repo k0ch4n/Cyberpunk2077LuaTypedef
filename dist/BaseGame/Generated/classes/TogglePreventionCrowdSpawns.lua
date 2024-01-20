@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TogglePreventionCrowdSpawns: gameScriptableSystemRequest
----@field public toggle Bool
+---@field toggle Bool
 TogglePreventionCrowdSpawns = {}
 
 ---@param fields? TogglePreventionCrowdSpawns
 ---@return TogglePreventionCrowdSpawns
-function TogglePreventionCrowdSpawns.new(fields) return end
+function TogglePreventionCrowdSpawns.new(fields) end
 
 ---@return String
-function TogglePreventionCrowdSpawns:GetFriendlyDesctiption() return end
+function TogglePreventionCrowdSpawns:GetFriendlyDesctiption() end

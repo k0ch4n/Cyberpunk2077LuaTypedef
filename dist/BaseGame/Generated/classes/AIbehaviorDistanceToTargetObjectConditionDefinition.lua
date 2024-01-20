@@ -5,4 +5,4 @@ AIbehaviorDistanceToTargetObjectConditionDefinition = {}
 
 ---@param fields? AIbehaviorDistanceToTargetObjectConditionDefinition
 ---@return AIbehaviorDistanceToTargetObjectConditionDefinition
-function AIbehaviorDistanceToTargetObjectConditionDefinition.new(fields) return end
+function AIbehaviorDistanceToTargetObjectConditionDefinition.new(fields) end

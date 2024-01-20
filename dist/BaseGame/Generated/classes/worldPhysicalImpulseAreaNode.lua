@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldPhysicalImpulseAreaNode: worldPhysicalTriggerAreaNode
----@field public impulse Vector3
----@field public impulseRadius Float
+---@field impulse Vector3
+---@field impulseRadius Float
 worldPhysicalImpulseAreaNode = {}
 
 ---@param fields? worldPhysicalImpulseAreaNode
 ---@return worldPhysicalImpulseAreaNode
-function worldPhysicalImpulseAreaNode.new(fields) return end
+function worldPhysicalImpulseAreaNode.new(fields) end

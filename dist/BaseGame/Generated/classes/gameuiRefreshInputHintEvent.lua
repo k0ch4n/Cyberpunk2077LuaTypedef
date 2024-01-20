@@ -5,4 +5,4 @@ gameuiRefreshInputHintEvent = {}
 
 ---@param fields? gameuiRefreshInputHintEvent
 ---@return gameuiRefreshInputHintEvent
-function gameuiRefreshInputHintEvent.new(fields) return end
+function gameuiRefreshInputHintEvent.new(fields) end

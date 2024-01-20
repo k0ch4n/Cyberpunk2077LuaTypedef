@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldAudioSignpostTriggerNode: worldTriggerAreaNode
----@field public enterSignpost CName
----@field public exitSignpost CName
----@field public reEnterSignpost CName
----@field public preExitSignpost CName
----@field public exitCooldown Float
+---@field enterSignpost CName
+---@field exitSignpost CName
+---@field reEnterSignpost CName
+---@field preExitSignpost CName
+---@field exitCooldown Float
 worldAudioSignpostTriggerNode = {}
 
 ---@param fields? worldAudioSignpostTriggerNode
 ---@return worldAudioSignpostTriggerNode
-function worldAudioSignpostTriggerNode.new(fields) return end
+function worldAudioSignpostTriggerNode.new(fields) end

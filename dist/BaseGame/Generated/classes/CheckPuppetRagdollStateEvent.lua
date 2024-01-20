@@ -5,4 +5,4 @@ CheckPuppetRagdollStateEvent = {}
 
 ---@param fields? CheckPuppetRagdollStateEvent
 ---@return CheckPuppetRagdollStateEvent
-function CheckPuppetRagdollStateEvent.new(fields) return end
+function CheckPuppetRagdollStateEvent.new(fields) end

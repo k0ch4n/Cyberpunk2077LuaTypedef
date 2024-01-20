@@ -5,4 +5,4 @@ gameRequestStats = {}
 
 ---@param fields? gameRequestStats
 ---@return gameRequestStats
-function gameRequestStats.new(fields) return end
+function gameRequestStats.new(fields) end

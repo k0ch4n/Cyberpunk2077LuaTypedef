@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class PassiveAlertedConditions: PassiveAutonomousCondition
----@field protected highLevelCbId Uint32
----@field protected delayEvaluationCbId Uint32
+---@field highLevelCbId Uint32
+---@field delayEvaluationCbId Uint32
 PassiveAlertedConditions = {}
 
 ---@param fields? PassiveAlertedConditions
 ---@return PassiveAlertedConditions
-function PassiveAlertedConditions.new(fields) return end
+function PassiveAlertedConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveAlertedConditions:Activate(context) return end
+function PassiveAlertedConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveAlertedConditions:CalculateValue(context) return end
+function PassiveAlertedConditions:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveAlertedConditions:Deactivate(context) return end
+function PassiveAlertedConditions:Deactivate(context) end

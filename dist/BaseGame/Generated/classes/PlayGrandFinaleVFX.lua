@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayGrandFinaleVFX: redEvent
----@field public target ScriptedPuppet
+---@field target ScriptedPuppet
 PlayGrandFinaleVFX = {}
 
 ---@param fields? PlayGrandFinaleVFX
 ---@return PlayGrandFinaleVFX
-function PlayGrandFinaleVFX.new(fields) return end
+function PlayGrandFinaleVFX.new(fields) end

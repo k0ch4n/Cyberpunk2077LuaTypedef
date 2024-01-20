@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questPrefabVariantMapArrayElement
----@field public globalNodeRef worldGlobalNodeRef
----@field public PrefabVariantsReplicatedInfos questPrefabVariantReplicatedInfo[]
+---@field globalNodeRef worldGlobalNodeRef
+---@field PrefabVariantsReplicatedInfos questPrefabVariantReplicatedInfo[]
 questPrefabVariantMapArrayElement = {}
 
 ---@param fields? questPrefabVariantMapArrayElement
 ---@return questPrefabVariantMapArrayElement
-function questPrefabVariantMapArrayElement.new(fields) return end
+function questPrefabVariantMapArrayElement.new(fields) end

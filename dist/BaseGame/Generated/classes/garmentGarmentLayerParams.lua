@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class garmentGarmentLayerParams: CResource
----@field public bending garmentBendingParams
----@field public smoothing garmentSmoothingParams
----@field public collarArea garmentCollarAreaParams
----@field public hiddenTrianglesRemoval garmentHiddenTrianglesRemovalParams
+---@field bending garmentBendingParams
+---@field smoothing garmentSmoothingParams
+---@field collarArea garmentCollarAreaParams
+---@field hiddenTrianglesRemoval garmentHiddenTrianglesRemovalParams
 garmentGarmentLayerParams = {}
 
 ---@param fields? garmentGarmentLayerParams
 ---@return garmentGarmentLayerParams
-function garmentGarmentLayerParams.new(fields) return end
+function garmentGarmentLayerParams.new(fields) end

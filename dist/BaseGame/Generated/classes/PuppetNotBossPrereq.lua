@@ -5,8 +5,8 @@ PuppetNotBossPrereq = {}
 
 ---@param fields? PuppetNotBossPrereq
 ---@return PuppetNotBossPrereq
-function PuppetNotBossPrereq.new(fields) return end
+function PuppetNotBossPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function PuppetNotBossPrereq:IsFulfilled(context) return end
+function PuppetNotBossPrereq:IsFulfilled(context) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkStreetNameSignLogicController: inkIStreetNameSignLogicController
----@field public streetName inkTextWidgetReference
----@field public districtName inkTextWidgetReference
----@field public subdistrictName inkTextWidgetReference
+---@field streetName inkTextWidgetReference
+---@field districtName inkTextWidgetReference
+---@field subdistrictName inkTextWidgetReference
 inkStreetNameSignLogicController = {}
 
 ---@param fields? inkStreetNameSignLogicController
 ---@return inkStreetNameSignLogicController
-function inkStreetNameSignLogicController.new(fields) return end
+function inkStreetNameSignLogicController.new(fields) end

@@ -1,117 +1,111 @@
 ---@meta
 
 ---@class ItemCompareBuilder: IScriptable
----@field private sortData1 gameInventoryItemSortData
----@field private sortData2 gameInventoryItemSortData
----@field private compareBuilder CompareBuilder
+---@field sortData1 gameInventoryItemSortData
+---@field sortData2 gameInventoryItemSortData
+---@field compareBuilder CompareBuilder
 ItemCompareBuilder = {}
 
 ---@param fields? ItemCompareBuilder
 ---@return ItemCompareBuilder
-function ItemCompareBuilder.new(fields) return end
+function ItemCompareBuilder.new(fields) end
 
 ---@param item gameInventoryItemData
 ---@param uiScriptableSystem UIScriptableSystem
 ---@return gameInventoryItemSortData
-function ItemCompareBuilder.BuildInventoryItemSortData(item, uiScriptableSystem) return end
+function ItemCompareBuilder.BuildInventoryItemSortData(item, uiScriptableSystem) end
 
----@private
 ---@param item gameInventoryItemData
 ---@return Int32
-function ItemCompareBuilder.GetDPS(item) return end
+function ItemCompareBuilder.GetDPS(item) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Int32
-function ItemCompareBuilder.GetEquipmentAreaIndex(equipmentArea) return end
+function ItemCompareBuilder.GetEquipmentAreaIndex(equipmentArea) end
 
----@private
 ---@param itemType gamedataItemType
 ---@return Int32
-function ItemCompareBuilder.GetItemTypeIndex(itemType) return end
+function ItemCompareBuilder.GetItemTypeIndex(itemType) end
 
----@private
 ---@param itemType gamedataItemType
 ---@param itemData gameItemData
 ---@return Int32
-function ItemCompareBuilder.GetItemTypeInnerIndex(itemType, itemData) return end
+function ItemCompareBuilder.GetItemTypeInnerIndex(itemType, itemData) end
 
 ---@param itemData gameItemData
 ---@param equipmentArea gamedataEquipmentArea
 ---@param itemType gamedataItemType
 ---@return Int32
-function ItemCompareBuilder.GetItemTypeOrder(itemData, equipmentArea, itemType) return end
+function ItemCompareBuilder.GetItemTypeOrder(itemData, equipmentArea, itemType) end
 
 ---@param item gameInventoryItemData
 ---@return Int32
-function ItemCompareBuilder.GetItemTypeOrder(item) return end
+function ItemCompareBuilder.GetItemTypeOrder(item) end
 
----@private
 ---@param item gameInventoryItemData
 ---@return Int32
-function ItemCompareBuilder.GetTypeSortValue(item) return end
+function ItemCompareBuilder.GetTypeSortValue(item) end
 
----@private
 ---@param itemType gamedataItemType
 ---@return Bool
-function ItemCompareBuilder.HasItemTypeInnerIndex(itemType) return end
+function ItemCompareBuilder.HasItemTypeInnerIndex(itemType) end
 
 ---@param sortData1 gameInventoryItemSortData
 ---@param sortData2 gameInventoryItemSortData
 ---@return ItemCompareBuilder
-function ItemCompareBuilder.Make(sortData1, sortData2) return end
+function ItemCompareBuilder.Make(sortData1, sortData2) end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:ChimeraMod() return end
+function ItemCompareBuilder:ChimeraMod() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:DLCAddedItem() return end
+function ItemCompareBuilder:DLCAddedItem() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:DPSAsc() return end
+function ItemCompareBuilder:DPSAsc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:DPSDesc() return end
+function ItemCompareBuilder:DPSDesc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:FavouriteItem() return end
+function ItemCompareBuilder:FavouriteItem() end
 
 ---@return Int32
-function ItemCompareBuilder:Get() return end
+function ItemCompareBuilder:Get() end
 
 ---@return Bool
-function ItemCompareBuilder:GetBool() return end
+function ItemCompareBuilder:GetBool() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:ItemType() return end
+function ItemCompareBuilder:ItemType() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:NameAsc() return end
+function ItemCompareBuilder:NameAsc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:NameDesc() return end
+function ItemCompareBuilder:NameDesc() end
 
 ---@param uiScriptableSystem UIScriptableSystem
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:NewItem(uiScriptableSystem) return end
+function ItemCompareBuilder:NewItem(uiScriptableSystem) end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:PriceAsc() return end
+function ItemCompareBuilder:PriceAsc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:PriceDesc() return end
+function ItemCompareBuilder:PriceDesc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:QualityAsc() return end
+function ItemCompareBuilder:QualityAsc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:QualityDesc() return end
+function ItemCompareBuilder:QualityDesc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:QuestItem() return end
+function ItemCompareBuilder:QuestItem() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:WeightAsc() return end
+function ItemCompareBuilder:WeightAsc() end
 
 ---@return ItemCompareBuilder
-function ItemCompareBuilder:WeightDesc() return end
+function ItemCompareBuilder:WeightDesc() end

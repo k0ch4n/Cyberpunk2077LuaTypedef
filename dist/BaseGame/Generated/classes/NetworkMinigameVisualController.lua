@@ -1,118 +1,106 @@
 ---@meta
 
 ---@class NetworkMinigameVisualController: inkWidgetLogicController
----@field protected gridContainer inkCompoundWidgetReference
----@field protected middleVideoContainer inkVideoWidgetReference
----@field protected sidesAnimContainer inkWidgetReference
----@field protected sidesLibraryPath redResourceReferenceScriptToken
----@field protected introAnimationLibraryName CName
----@field protected gridOutroAnimationLibraryName CName
----@field protected endScreenIntroAnimationLibraryName CName
----@field protected programsContainer inkWidgetReference
----@field protected bufferContainer inkWidgetReference
----@field protected endScreenContainer inkWidgetReference
----@field protected FluffToHideContainer inkWidgetReference[]
----@field protected DottedLinesList inkWidgetReference[]
----@field protected basicAccessContainer inkWidgetReference
----@field protected animationCallbackContainer inkWidgetReference
----@field protected dotMask inkWidgetReference
----@field protected linesToGridOffset Float
----@field protected linesSeparationDistance Float
----@field protected animationCallback NetworkMinigameAnimationCallbacksTransmitter
----@field protected grid NetworkMinigameGridController
----@field private gridController inkWidgetReference
----@field private programListController inkWidgetReference
----@field private bufferController inkWidgetReference
----@field private endScreenController inkWidgetReference
----@field protected programList NetworkMinigameProgramListController
----@field protected buffer NetworkMinigameBufferController
----@field protected endScreen NetworkMinigameEndScreenController
----@field protected basicAccess NetworkMinigameBasicProgramController
----@field protected sidesAnim inkWidget
----@field private bufferFillCount Int32
----@field private bufferAnimProxy inkanimProxy
----@field private fillProgress inkanimDefinition
+---@field gridContainer inkCompoundWidgetReference
+---@field middleVideoContainer inkVideoWidgetReference
+---@field sidesAnimContainer inkWidgetReference
+---@field sidesLibraryPath redResourceReferenceScriptToken
+---@field introAnimationLibraryName CName
+---@field gridOutroAnimationLibraryName CName
+---@field endScreenIntroAnimationLibraryName CName
+---@field programsContainer inkWidgetReference
+---@field bufferContainer inkWidgetReference
+---@field endScreenContainer inkWidgetReference
+---@field FluffToHideContainer inkWidgetReference[]
+---@field DottedLinesList inkWidgetReference[]
+---@field basicAccessContainer inkWidgetReference
+---@field animationCallbackContainer inkWidgetReference
+---@field dotMask inkWidgetReference
+---@field linesToGridOffset Float
+---@field linesSeparationDistance Float
+---@field animationCallback NetworkMinigameAnimationCallbacksTransmitter
+---@field grid NetworkMinigameGridController
+---@field gridController inkWidgetReference
+---@field programListController inkWidgetReference
+---@field bufferController inkWidgetReference
+---@field endScreenController inkWidgetReference
+---@field programList NetworkMinigameProgramListController
+---@field buffer NetworkMinigameBufferController
+---@field endScreen NetworkMinigameEndScreenController
+---@field basicAccess NetworkMinigameBasicProgramController
+---@field sidesAnim inkWidget
+---@field bufferFillCount Int32
+---@field bufferAnimProxy inkanimProxy
+---@field fillProgress inkanimDefinition
 NetworkMinigameVisualController = {}
 
 ---@param fields? NetworkMinigameVisualController
 ---@return NetworkMinigameVisualController
-function NetworkMinigameVisualController.new(fields) return end
+function NetworkMinigameVisualController.new(fields) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function NetworkMinigameVisualController:OnCellSelectCallback(e) return end
+function NetworkMinigameVisualController:OnCellSelectCallback(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function NetworkMinigameVisualController:OnCloseClicked(e) return end
+function NetworkMinigameVisualController:OnCloseClicked(e) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function NetworkMinigameVisualController:OnGridOutroOver(e) return end
+function NetworkMinigameVisualController:OnGridOutroOver(e) end
 
----@protected
 ---@return Bool
-function NetworkMinigameVisualController:OnInitialize() return end
+function NetworkMinigameVisualController:OnInitialize() end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function NetworkMinigameVisualController:OnIntroAnimationFinished(e) return end
+function NetworkMinigameVisualController:OnIntroAnimationFinished(e) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function NetworkMinigameVisualController:OnStartMinigameBGIntroAnimation(e) return end
+function NetworkMinigameVisualController:OnStartMinigameBGIntroAnimation(e) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function NetworkMinigameVisualController:OnStartSidesAnimation(e) return end
+function NetworkMinigameVisualController:OnStartSidesAnimation(e) end
 
----@protected
 ---@return Bool
-function NetworkMinigameVisualController:OnUninitialize() return end
+function NetworkMinigameVisualController:OnUninitialize() end
 
----@private
 ---@param toClear inkCompoundWidget
 ---@return nil
-function NetworkMinigameVisualController:ClearContainer(toClear) return end
+function NetworkMinigameVisualController:ClearContainer(toClear) end
 
 ---@return nil
-function NetworkMinigameVisualController:Close() return end
+function NetworkMinigameVisualController:Close() end
 
 ---@return CellData
-function NetworkMinigameVisualController:GetLastCellSelected() return end
+function NetworkMinigameVisualController:GetLastCellSelected() end
 
----@private
 ---@return nil
-function NetworkMinigameVisualController:InitializeFluffLines() return end
+function NetworkMinigameVisualController:InitializeFluffLines() end
 
----@private
 ---@param isVisible Bool
 ---@return nil
-function NetworkMinigameVisualController:SetFluffVisibility(isVisible) return end
+function NetworkMinigameVisualController:SetFluffVisibility(isVisible) end
 
 ---@param newData NewTurnMinigameData
 ---@return nil
-function NetworkMinigameVisualController:SetGridElementPicked(newData) return end
+function NetworkMinigameVisualController:SetGridElementPicked(newData) end
 
 ---@param id String
 ---@param revealLocalizedName Bool
 ---@return nil
-function NetworkMinigameVisualController:SetProgramCompleted(id, revealLocalizedName) return end
+function NetworkMinigameVisualController:SetProgramCompleted(id, revealLocalizedName) end
 
 ---@param data NetworkMinigameData
 ---@return nil
-function NetworkMinigameVisualController:SetUp(data) return end
+function NetworkMinigameVisualController:SetUp(data) end
 
 ---@param endData EndScreenData
 ---@return nil
-function NetworkMinigameVisualController:ShowEndScreen(endData) return end
+function NetworkMinigameVisualController:ShowEndScreen(endData) end
 
----@private
 ---@return nil
-function NetworkMinigameVisualController:StartIntroAnimation() return end
+function NetworkMinigameVisualController:StartIntroAnimation() end

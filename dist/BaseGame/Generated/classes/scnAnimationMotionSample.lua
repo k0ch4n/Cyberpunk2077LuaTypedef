@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnAnimationMotionSample
----@field public time Float
----@field public transform Transform
+---@field time Float
+---@field transform Transform
 scnAnimationMotionSample = {}
 
 ---@param fields? scnAnimationMotionSample
 ---@return scnAnimationMotionSample
-function scnAnimationMotionSample.new(fields) return end
+function scnAnimationMotionSample.new(fields) end

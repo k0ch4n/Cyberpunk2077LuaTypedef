@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorGetNextPointOnPathTaskDefinition: AIbehaviorTaskDefinition
----@field public patrolProgress AIArgumentMapping
----@field public positionOnPath AIArgumentMapping
----@field public entryTangent AIArgumentMapping
+---@field patrolProgress AIArgumentMapping
+---@field positionOnPath AIArgumentMapping
+---@field entryTangent AIArgumentMapping
 AIbehaviorGetNextPointOnPathTaskDefinition = {}
 
 ---@param fields? AIbehaviorGetNextPointOnPathTaskDefinition
 ---@return AIbehaviorGetNextPointOnPathTaskDefinition
-function AIbehaviorGetNextPointOnPathTaskDefinition.new(fields) return end
+function AIbehaviorGetNextPointOnPathTaskDefinition.new(fields) end

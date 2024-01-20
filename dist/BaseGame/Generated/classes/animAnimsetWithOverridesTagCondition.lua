@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimsetWithOverridesTagCondition: animIRuntimeCondition
----@field public animsetTags redTagList
+---@field animsetTags redTagList
 animAnimsetWithOverridesTagCondition = {}
 
 ---@param fields? animAnimsetWithOverridesTagCondition
 ---@return animAnimsetWithOverridesTagCondition
-function animAnimsetWithOverridesTagCondition.new(fields) return end
+function animAnimsetWithOverridesTagCondition.new(fields) end

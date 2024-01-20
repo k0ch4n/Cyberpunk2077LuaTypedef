@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameActionEquipItemState: gameActionReplicatedState
----@field public slotId TweakDBID
----@field public itemId gameItemID
----@field public animFeatureNameRight CName
----@field public animFeatureNameLeft CName
----@field public duration Float
----@field public spawnDelay Float
+---@field slotId TweakDBID
+---@field itemId gameItemID
+---@field animFeatureNameRight CName
+---@field animFeatureNameLeft CName
+---@field duration Float
+---@field spawnDelay Float
 gameActionEquipItemState = {}
 
 ---@param fields? gameActionEquipItemState
 ---@return gameActionEquipItemState
-function gameActionEquipItemState.new(fields) return end
+function gameActionEquipItemState.new(fields) end

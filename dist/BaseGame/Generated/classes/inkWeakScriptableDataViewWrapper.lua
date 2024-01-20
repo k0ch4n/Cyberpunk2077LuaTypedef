@@ -5,32 +5,32 @@ inkWeakScriptableDataViewWrapper = {}
 
 ---@param fields? inkWeakScriptableDataViewWrapper
 ---@return inkWeakScriptableDataViewWrapper
-function inkWeakScriptableDataViewWrapper.new(fields) return end
+function inkWeakScriptableDataViewWrapper.new(fields) end
 
 ---@return nil
-function inkWeakScriptableDataViewWrapper:DisableSorting() return end
+function inkWeakScriptableDataViewWrapper:DisableSorting() end
 
 ---@return nil
-function inkWeakScriptableDataViewWrapper:EnableSorting() return end
+function inkWeakScriptableDataViewWrapper:EnableSorting() end
 
 ---@return nil
-function inkWeakScriptableDataViewWrapper:Filter() return end
+function inkWeakScriptableDataViewWrapper:Filter() end
 
 ---@return Bool
-function inkWeakScriptableDataViewWrapper:IsSortingEnabled() return end
+function inkWeakScriptableDataViewWrapper:IsSortingEnabled() end
 
 ---@param source inkBaseWeakScriptableDataSource
 ---@return nil
-function inkWeakScriptableDataViewWrapper:SetSource(source) return end
+function inkWeakScriptableDataViewWrapper:SetSource(source) end
 
 ---@return nil
-function inkWeakScriptableDataViewWrapper:Sort() return end
+function inkWeakScriptableDataViewWrapper:Sort() end
 
 ---@param data IScriptable
 ---@return Bool
-function inkWeakScriptableDataViewWrapper:FilterItem(data) return end
+function inkWeakScriptableDataViewWrapper:FilterItem(data) end
 
 ---@param left IScriptable
 ---@param right IScriptable
 ---@return Bool
-function inkWeakScriptableDataViewWrapper:SortItem(left, right) return end
+function inkWeakScriptableDataViewWrapper:SortItem(left, right) end

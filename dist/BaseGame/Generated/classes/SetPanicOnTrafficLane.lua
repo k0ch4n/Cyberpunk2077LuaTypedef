@@ -5,9 +5,8 @@ SetPanicOnTrafficLane = {}
 
 ---@param fields? SetPanicOnTrafficLane
 ---@return SetPanicOnTrafficLane
-function SetPanicOnTrafficLane.new(fields) return end
+function SetPanicOnTrafficLane.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetPanicOnTrafficLane:Activate(context) return end
+function SetPanicOnTrafficLane:Activate(context) end

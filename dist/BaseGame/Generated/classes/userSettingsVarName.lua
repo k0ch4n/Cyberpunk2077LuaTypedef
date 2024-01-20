@@ -5,14 +5,14 @@ userSettingsVarName = {}
 
 ---@param fields? userSettingsVarName
 ---@return userSettingsVarName
-function userSettingsVarName.new(fields) return end
+function userSettingsVarName.new(fields) end
 
 ---@return CName
-function userSettingsVarName:GetDefaultValue() return end
+function userSettingsVarName:GetDefaultValue() end
 
 ---@return CName
-function userSettingsVarName:GetValue() return end
+function userSettingsVarName:GetValue() end
 
 ---@param value CName|string
 ---@return nil
-function userSettingsVarName:SetValue(value) return end
+function userSettingsVarName:SetValue(value) end

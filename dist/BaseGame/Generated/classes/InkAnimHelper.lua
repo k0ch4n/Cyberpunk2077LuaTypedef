@@ -5,7 +5,7 @@ InkAnimHelper = {}
 
 ---@param fields? InkAnimHelper
 ---@return InkAnimHelper
-function InkAnimHelper.new(fields) return end
+function InkAnimHelper.new(fields) end
 
 ---@param startAlpha Float
 ---@param endAlpha Float
@@ -14,7 +14,7 @@ function InkAnimHelper.new(fields) return end
 ---@param type inkanimInterpolationType
 ---@param mode inkanimInterpolationMode
 ---@return inkanimDefinition
-function InkAnimHelper.GetDef_Blink(startAlpha, endAlpha, duration, delay, type, mode) return end
+function InkAnimHelper.GetDef_Blink(startAlpha, endAlpha, duration, delay, type, mode) end
 
 ---@param startAlpha Float
 ---@param endAlpha Float
@@ -23,4 +23,4 @@ function InkAnimHelper.GetDef_Blink(startAlpha, endAlpha, duration, delay, type,
 ---@param type inkanimInterpolationType
 ---@param mode inkanimInterpolationMode
 ---@return inkanimDefinition
-function InkAnimHelper.GetDef_Transparency(startAlpha, endAlpha, duration, delay, type, mode) return end
+function InkAnimHelper.GetDef_Transparency(startAlpha, endAlpha, duration, delay, type, mode) end

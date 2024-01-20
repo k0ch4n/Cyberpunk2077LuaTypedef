@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OnWorkspotAvailabilityEvent: redEvent
----@field public workspotRef NodeRef
+---@field workspotRef NodeRef
 OnWorkspotAvailabilityEvent = {}
 
 ---@param fields? OnWorkspotAvailabilityEvent
 ---@return OnWorkspotAvailabilityEvent
-function OnWorkspotAvailabilityEvent.new(fields) return end
+function OnWorkspotAvailabilityEvent.new(fields) end

@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class StopSFXEffector: gameEffector
----@field public sfxName CName
----@field public owner gameObject
+---@field sfxName CName
+---@field owner gameObject
 StopSFXEffector = {}
 
 ---@param fields? StopSFXEffector
 ---@return StopSFXEffector
-function StopSFXEffector.new(fields) return end
+function StopSFXEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StopSFXEffector:ActionOn(owner) return end
+function StopSFXEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StopSFXEffector:Initialize(record, parentRecord) return end
+function StopSFXEffector:Initialize(record, parentRecord) end

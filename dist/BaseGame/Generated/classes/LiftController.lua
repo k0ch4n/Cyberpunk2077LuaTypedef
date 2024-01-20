@@ -5,7 +5,7 @@ LiftController = {}
 
 ---@param fields? LiftController
 ---@return LiftController
-function LiftController.new(fields) return end
+function LiftController.new(fields) end
 
 ---@return LiftControllerPS
-function LiftController:GetPS() return end
+function LiftController:GetPS() end

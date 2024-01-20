@@ -5,73 +5,73 @@ gamedataShooterBasilisk_Record = {}
 
 ---@param fields? gamedataShooterBasilisk_Record
 ---@return gamedataShooterBasilisk_Record
-function gamedataShooterBasilisk_Record.new(fields) return end
+function gamedataShooterBasilisk_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:CannonCoolDown() return end
+function gamedataShooterBasilisk_Record:CannonCoolDown() end
 
 ---@return Int32
-function gamedataShooterBasilisk_Record:CannonCount() return end
+function gamedataShooterBasilisk_Record:CannonCount() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:CannonFireRate() return end
+function gamedataShooterBasilisk_Record:CannonFireRate() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:CannonHealthPercent() return end
+function gamedataShooterBasilisk_Record:CannonHealthPercent() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:CannonMoveDistance() return end
+function gamedataShooterBasilisk_Record:CannonMoveDistance() end
 
 ---@return Int32
-function gamedataShooterBasilisk_Record:EnragedCannonCount() return end
+function gamedataShooterBasilisk_Record:EnragedCannonCount() end
 
 ---@return Int32
-function gamedataShooterBasilisk_Record:EnragedMissileCount() return end
+function gamedataShooterBasilisk_Record:EnragedMissileCount() end
 
 ---@return Int32
-function gamedataShooterBasilisk_Record:EnragedTurretBulletCount() return end
+function gamedataShooterBasilisk_Record:EnragedTurretBulletCount() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:EnragedTurretInterval() return end
+function gamedataShooterBasilisk_Record:EnragedTurretInterval() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:MissileCoolDown() return end
+function gamedataShooterBasilisk_Record:MissileCoolDown() end
 
 ---@return Int32
-function gamedataShooterBasilisk_Record:MissileCount() return end
+function gamedataShooterBasilisk_Record:MissileCount() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:MissileEnhancedSpeed() return end
+function gamedataShooterBasilisk_Record:MissileEnhancedSpeed() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:MissileExplosionRange() return end
+function gamedataShooterBasilisk_Record:MissileExplosionRange() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:MissileHealthPercent() return end
+function gamedataShooterBasilisk_Record:MissileHealthPercent() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:MissileOffset() return end
+function gamedataShooterBasilisk_Record:MissileOffset() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:MissleFireRate() return end
+function gamedataShooterBasilisk_Record:MissleFireRate() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:RammingSpeed() return end
+function gamedataShooterBasilisk_Record:RammingSpeed() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:RammingSpeedTime() return end
+function gamedataShooterBasilisk_Record:RammingSpeedTime() end
 
 ---@return CName
-function gamedataShooterBasilisk_Record:SfxDud() return end
+function gamedataShooterBasilisk_Record:SfxDud() end
 
 ---@return CName
-function gamedataShooterBasilisk_Record:SfxExplosion() return end
+function gamedataShooterBasilisk_Record:SfxExplosion() end
 
 ---@return Int32
-function gamedataShooterBasilisk_Record:TurretBulletCount() return end
+function gamedataShooterBasilisk_Record:TurretBulletCount() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:TurretHealthPercent() return end
+function gamedataShooterBasilisk_Record:TurretHealthPercent() end
 
 ---@return Float
-function gamedataShooterBasilisk_Record:TurretInterval() return end
+function gamedataShooterBasilisk_Record:TurretInterval() end

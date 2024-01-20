@@ -5,10 +5,10 @@ PlayerCanGiveCPOMissionDataPrereq = {}
 
 ---@param fields? PlayerCanGiveCPOMissionDataPrereq
 ---@return PlayerCanGiveCPOMissionDataPrereq
-function PlayerCanGiveCPOMissionDataPrereq.new(fields) return end
+function PlayerCanGiveCPOMissionDataPrereq.new(fields) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@param hotSpotLayer gameinteractionsCHotSpotLayerDefinition
 ---@return Bool
-function PlayerCanGiveCPOMissionDataPrereq:Test(activatorObject, hotSpotObject, hotSpotLayer) return end
+function PlayerCanGiveCPOMissionDataPrereq:Test(activatorObject, hotSpotObject, hotSpotLayer) end

@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class blunderbussWeaponController: gameuiWidgetGameController
----@field private chargeWidgetInitialY Float
----@field private chargeWidgetSize Vector2
----@field private semiAutoModeInfo inkWidget
----@field private chargeModeInfo inkWidget
----@field private semiAutoModeIndicator inkWidget
----@field private chargeModeIndicator inkWidget
----@field private shots inkWidget[]
----@field private charge inkWidget
----@field private onCharge redCallbackObject
----@field private onTriggerMode redCallbackObject
----@field private onMagazineAmmoCount redCallbackObject
----@field private blackboard gameIBlackboard
+---@field chargeWidgetInitialY Float
+---@field chargeWidgetSize Vector2
+---@field semiAutoModeInfo inkWidget
+---@field chargeModeInfo inkWidget
+---@field semiAutoModeIndicator inkWidget
+---@field chargeModeIndicator inkWidget
+---@field shots inkWidget[]
+---@field charge inkWidget
+---@field onCharge redCallbackObject
+---@field onTriggerMode redCallbackObject
+---@field onMagazineAmmoCount redCallbackObject
+---@field blackboard gameIBlackboard
 blunderbussWeaponController = {}
 
 ---@param fields? blunderbussWeaponController
 ---@return blunderbussWeaponController
-function blunderbussWeaponController.new(fields) return end
+function blunderbussWeaponController.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function blunderbussWeaponController:OnCharge(value) return end
+function blunderbussWeaponController:OnCharge(value) end
 
----@protected
 ---@return Bool
-function blunderbussWeaponController:OnInitialize() return end
+function blunderbussWeaponController:OnInitialize() end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function blunderbussWeaponController:OnMagazineAmmoCount(value) return end
+function blunderbussWeaponController:OnMagazineAmmoCount(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function blunderbussWeaponController:OnTriggerMode(value) return end
+function blunderbussWeaponController:OnTriggerMode(value) end
 
----@protected
 ---@return Bool
-function blunderbussWeaponController:OnUninitialize() return end
+function blunderbussWeaponController:OnUninitialize() end

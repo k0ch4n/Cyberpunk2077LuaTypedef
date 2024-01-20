@@ -5,13 +5,11 @@ LookatCombatTarget = {}
 
 ---@param fields? LookatCombatTarget
 ---@return LookatCombatTarget
-function LookatCombatTarget.new(fields) return end
+function LookatCombatTarget.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gameObject
-function LookatCombatTarget:GetAimingLookatTarget(context) return end
+function LookatCombatTarget:GetAimingLookatTarget(context) end
 
----@private
 ---@return animLookAtStyle
-function LookatCombatTarget:GetLookatStyle() return end
+function LookatCombatTarget:GetLookatStyle() end

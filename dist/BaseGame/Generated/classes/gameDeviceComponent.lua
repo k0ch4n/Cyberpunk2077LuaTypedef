@@ -5,4 +5,4 @@ gameDeviceComponent = {}
 
 ---@param fields? gameDeviceComponent
 ---@return gameDeviceComponent
-function gameDeviceComponent.new(fields) return end
+function gameDeviceComponent.new(fields) end

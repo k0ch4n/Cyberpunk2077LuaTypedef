@@ -5,4 +5,4 @@ gameComponentsStateSaveComponent = {}
 
 ---@param fields? gameComponentsStateSaveComponent
 ---@return gameComponentsStateSaveComponent
-function gameComponentsStateSaveComponent.new(fields) return end
+function gameComponentsStateSaveComponent.new(fields) end

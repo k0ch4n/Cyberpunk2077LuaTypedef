@@ -5,15 +5,14 @@ FilterStimTargets = {}
 
 ---@param fields? FilterStimTargets
 ---@return FilterStimTargets
-function FilterStimTargets.new(fields) return end
+function FilterStimTargets.new(fields) end
 
----@private
 ---@param puppet NPCPuppet
 ---@param targets gameNPCstubData[]
 ---@return Bool
-function FilterStimTargets:EvaluateTarget(puppet, targets) return end
+function FilterStimTargets:EvaluateTarget(puppet, targets) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function FilterStimTargets:Process(ctx, filterCtx) return end
+function FilterStimTargets:Process(ctx, filterCtx) end

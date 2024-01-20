@@ -5,4 +5,4 @@ questLootPurge_NodeType = {}
 
 ---@param fields? questLootPurge_NodeType
 ---@return questLootPurge_NodeType
-function questLootPurge_NodeType.new(fields) return end
+function questLootPurge_NodeType.new(fields) end

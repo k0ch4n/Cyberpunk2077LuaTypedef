@@ -1,38 +1,34 @@
 ---@meta
 
 ---@class HUDPhoneElement: inkWidgetLogicController
----@field protected RootWidget inkWidget
+---@field RootWidget inkWidget
 HUDPhoneElement = {}
 
----@protected
 ---@return Bool
-function HUDPhoneElement:OnInitialize() return end
+function HUDPhoneElement:OnInitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param oldState CName|string
 ---@param newState CName|string
 ---@return Bool
-function HUDPhoneElement:OnStateChanged(widget, oldState, newState) return end
+function HUDPhoneElement:OnStateChanged(widget, oldState, newState) end
 
----@protected
 ---@return Bool
-function HUDPhoneElement:OnUninitialize() return end
+function HUDPhoneElement:OnUninitialize() end
 
 ---@return EHudPhoneVisibility
-function HUDPhoneElement:GetState() return end
+function HUDPhoneElement:GetState() end
 
----@protected
 ---@param stateName CName|string
 ---@return EHudPhoneVisibility
-function HUDPhoneElement:GetStateFromName(stateName) return end
+function HUDPhoneElement:GetStateFromName(stateName) end
 
 ---@return nil
-function HUDPhoneElement:Hide() return end
+function HUDPhoneElement:Hide() end
 
 ---@param visibility EHudPhoneVisibility
 ---@return nil
-function HUDPhoneElement:SetState(visibility) return end
+function HUDPhoneElement:SetState(visibility) end
 
 ---@return nil
-function HUDPhoneElement:Show() return end
+function HUDPhoneElement:Show() end

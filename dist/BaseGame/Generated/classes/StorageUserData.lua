@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class StorageUserData: IScriptable
----@field public storageObject gameObject
+---@field storageObject gameObject
 StorageUserData = {}
 
 ---@param fields? StorageUserData
 ---@return StorageUserData
-function StorageUserData.new(fields) return end
+function StorageUserData.new(fields) end

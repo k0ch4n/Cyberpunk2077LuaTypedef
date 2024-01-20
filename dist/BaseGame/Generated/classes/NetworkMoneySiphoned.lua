@@ -5,4 +5,4 @@ NetworkMoneySiphoned = {}
 
 ---@param fields? NetworkMoneySiphoned
 ---@return NetworkMoneySiphoned
-function NetworkMoneySiphoned.new(fields) return end
+function NetworkMoneySiphoned.new(fields) end

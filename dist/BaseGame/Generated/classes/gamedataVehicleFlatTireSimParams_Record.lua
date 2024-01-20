@@ -5,16 +5,16 @@ gamedataVehicleFlatTireSimParams_Record = {}
 
 ---@param fields? gamedataVehicleFlatTireSimParams_Record
 ---@return gamedataVehicleFlatTireSimParams_Record
-function gamedataVehicleFlatTireSimParams_Record.new(fields) return end
+function gamedataVehicleFlatTireSimParams_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleFlatTireSimParams_Record:BlowOutImpulse() return end
+function gamedataVehicleFlatTireSimParams_Record:BlowOutImpulse() end
 
 ---@return Float
-function gamedataVehicleFlatTireSimParams_Record:LateralFrictionDecimation() return end
+function gamedataVehicleFlatTireSimParams_Record:LateralFrictionDecimation() end
 
 ---@return Float
-function gamedataVehicleFlatTireSimParams_Record:LongitudinalFrictionDecimation() return end
+function gamedataVehicleFlatTireSimParams_Record:LongitudinalFrictionDecimation() end
 
 ---@return Float
-function gamedataVehicleFlatTireSimParams_Record:RotationResistanceTorque() return end
+function gamedataVehicleFlatTireSimParams_Record:RotationResistanceTorque() end

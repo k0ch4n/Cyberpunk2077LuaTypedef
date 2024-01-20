@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameIMovingPlatformMovement: IScriptable
----@field public initData gameIMovingPlatformMovementInitData
----@field public endNode NodeRef
+---@field initData gameIMovingPlatformMovementInitData
+---@field endNode NodeRef
 gameIMovingPlatformMovement = {}
 
 ---@param type gameMovingPlatformMovementInitializationType
 ---@param value Float
 ---@return nil
-function gameIMovingPlatformMovement:SetInitData(type, value) return end
+function gameIMovingPlatformMovement:SetInitData(type, value) end

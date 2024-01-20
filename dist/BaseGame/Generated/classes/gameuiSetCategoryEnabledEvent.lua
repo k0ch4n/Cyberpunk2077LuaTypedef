@@ -5,4 +5,4 @@ gameuiSetCategoryEnabledEvent = {}
 
 ---@param fields? gameuiSetCategoryEnabledEvent
 ---@return gameuiSetCategoryEnabledEvent
-function gameuiSetCategoryEnabledEvent.new(fields) return end
+function gameuiSetCategoryEnabledEvent.new(fields) end

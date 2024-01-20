@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameEntitySpawnerEvent: redEvent
----@field public spawnedEntityId entEntityID
----@field public eventType gameEntitySpawnerEventType
+---@field spawnedEntityId entEntityID
+---@field eventType gameEntitySpawnerEventType
 gameEntitySpawnerEvent = {}
 
 ---@param fields? gameEntitySpawnerEvent
 ---@return gameEntitySpawnerEvent
-function gameEntitySpawnerEvent.new(fields) return end
+function gameEntitySpawnerEvent.new(fields) end

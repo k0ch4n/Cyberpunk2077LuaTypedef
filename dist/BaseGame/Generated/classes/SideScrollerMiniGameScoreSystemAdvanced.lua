@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class SideScrollerMiniGameScoreSystemAdvanced: gameScriptableSystem
----@field private scoreData Int32[]
----@field private gameNames String[]
+---@field scoreData Int32[]
+---@field gameNames String[]
 SideScrollerMiniGameScoreSystemAdvanced = {}
 
 ---@param fields? SideScrollerMiniGameScoreSystemAdvanced
 ---@return SideScrollerMiniGameScoreSystemAdvanced
-function SideScrollerMiniGameScoreSystemAdvanced.new(fields) return end
-
----@private
----@param gameName String
----@return Int32
-function SideScrollerMiniGameScoreSystemAdvanced:GetGameId(gameName) return end
+function SideScrollerMiniGameScoreSystemAdvanced.new(fields) end
 
 ---@param gameName String
 ---@return Int32
-function SideScrollerMiniGameScoreSystemAdvanced:GetMaxScore(gameName) return end
+function SideScrollerMiniGameScoreSystemAdvanced:GetGameId(gameName) end
 
----@private
+---@param gameName String
+---@return Int32
+function SideScrollerMiniGameScoreSystemAdvanced:GetMaxScore(gameName) end
+
 ---@return nil
-function SideScrollerMiniGameScoreSystemAdvanced:OnAttach() return end
+function SideScrollerMiniGameScoreSystemAdvanced:OnAttach() end
 
----@private
 ---@param request SendScoreRequestAdvanced
 ---@return nil
-function SideScrollerMiniGameScoreSystemAdvanced:OnSendScore(request) return end
+function SideScrollerMiniGameScoreSystemAdvanced:OnSendScore(request) end

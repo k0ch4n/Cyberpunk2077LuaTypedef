@@ -5,4 +5,4 @@ gameComponentsStateSystem = {}
 
 ---@param fields? gameComponentsStateSystem
 ---@return gameComponentsStateSystem
-function gameComponentsStateSystem.new(fields) return end
+function gameComponentsStateSystem.new(fields) end

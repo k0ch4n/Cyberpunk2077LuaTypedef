@@ -1,32 +1,27 @@
 ---@meta
 
 ---@class SettingsCategoryItem: inkListItemController
----@field private labelHighlight inkTextWidgetReference
+---@field labelHighlight inkTextWidgetReference
 SettingsCategoryItem = {}
 
 ---@param fields? SettingsCategoryItem
 ---@return SettingsCategoryItem
-function SettingsCategoryItem.new(fields) return end
+function SettingsCategoryItem.new(fields) end
 
----@protected
 ---@param value IScriptable
 ---@return Bool
-function SettingsCategoryItem:OnDataChanged(value) return end
+function SettingsCategoryItem:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function SettingsCategoryItem:OnInitialize() return end
+function SettingsCategoryItem:OnInitialize() end
 
----@protected
 ---@param itemController inkListItemController
 ---@return Bool
-function SettingsCategoryItem:OnToggledOff(itemController) return end
+function SettingsCategoryItem:OnToggledOff(itemController) end
 
----@protected
 ---@param itemController inkListItemController
 ---@return Bool
-function SettingsCategoryItem:OnToggledOn(itemController) return end
+function SettingsCategoryItem:OnToggledOn(itemController) end
 
----@protected
 ---@return Bool
-function SettingsCategoryItem:OnUninitialize() return end
+function SettingsCategoryItem:OnUninitialize() end

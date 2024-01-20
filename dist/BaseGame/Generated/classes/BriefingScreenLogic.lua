@@ -1,76 +1,67 @@
 ---@meta
 
 ---@class BriefingScreenLogic: inkWidgetLogicController
----@field protected lastSizeSet Vector2
----@field protected isBriefingVisible Bool
----@field protected briefingToOpen gameJournalEntry
----@field private videoWidget inkVideoWidgetReference
----@field private mapWidget inkWidgetReference
----@field private paperdollWidget inkWidgetReference
----@field private animatedWidget inkWidgetReference
----@field private fadeDuration Float
----@field private InterpolationType inkanimInterpolationType
----@field private InterpolationMode inkanimInterpolationMode
----@field private minimizedSize Vector2
----@field private maximizedSize Vector2
+---@field lastSizeSet Vector2
+---@field isBriefingVisible Bool
+---@field briefingToOpen gameJournalEntry
+---@field videoWidget inkVideoWidgetReference
+---@field mapWidget inkWidgetReference
+---@field paperdollWidget inkWidgetReference
+---@field animatedWidget inkWidgetReference
+---@field fadeDuration Float
+---@field InterpolationType inkanimInterpolationType
+---@field InterpolationMode inkanimInterpolationMode
+---@field minimizedSize Vector2
+---@field maximizedSize Vector2
 BriefingScreenLogic = {}
 
 ---@param fields? BriefingScreenLogic
 ---@return BriefingScreenLogic
-function BriefingScreenLogic.new(fields) return end
+function BriefingScreenLogic.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function BriefingScreenLogic:OnFadeInEnd(proxy) return end
+function BriefingScreenLogic:OnFadeInEnd(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function BriefingScreenLogic:OnFadeOutEnd(proxy) return end
+function BriefingScreenLogic:OnFadeOutEnd(proxy) end
 
----@protected
 ---@return Bool
-function BriefingScreenLogic:OnInitialize() return end
+function BriefingScreenLogic:OnInitialize() end
 
----@private
 ---@param startValue Float
 ---@param endValue Float
 ---@param callbackName CName|string
 ---@return nil
-function BriefingScreenLogic:Fade(startValue, endValue, callbackName) return end
+function BriefingScreenLogic:Fade(startValue, endValue, callbackName) end
 
----@private
 ---@return nil
-function BriefingScreenLogic:HideAll() return end
+function BriefingScreenLogic:HideAll() end
 
----@private
 ---@param toProcess gameJournalBriefingMapSection
 ---@return nil
-function BriefingScreenLogic:ProcessMap(toProcess) return end
+function BriefingScreenLogic:ProcessMap(toProcess) end
 
----@private
 ---@param toProcess gameJournalBriefingPaperDollSection
 ---@return nil
-function BriefingScreenLogic:ProcessPaperdoll(toProcess) return end
+function BriefingScreenLogic:ProcessPaperdoll(toProcess) end
 
----@private
 ---@param toProcess gameJournalBriefingVideoSection
 ---@return nil
-function BriefingScreenLogic:ProcessVideo(toProcess) return end
+function BriefingScreenLogic:ProcessVideo(toProcess) end
 
 ---@param alignmentToSet questJournalAlignmentEventType
 ---@return nil
-function BriefingScreenLogic:SetAlignment(alignmentToSet) return end
+function BriefingScreenLogic:SetAlignment(alignmentToSet) end
 
----@private
 ---@return nil
-function BriefingScreenLogic:SetBriefing() return end
+function BriefingScreenLogic:SetBriefing() end
 
 ---@param sizeToSet questJournalSizeEventType
 ---@return nil
-function BriefingScreenLogic:SetSize(sizeToSet) return end
+function BriefingScreenLogic:SetSize(sizeToSet) end
 
 ---@param briefingToOpen gameJournalEntry
 ---@return nil
-function BriefingScreenLogic:ShowBriefing(briefingToOpen) return end
+function BriefingScreenLogic:ShowBriefing(briefingToOpen) end

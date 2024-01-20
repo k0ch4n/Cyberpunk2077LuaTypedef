@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class senseVisibleObjectDistanceEvent: redEvent
----@field public distance Float
+---@field distance Float
 senseVisibleObjectDistanceEvent = {}
 
 ---@param fields? senseVisibleObjectDistanceEvent
 ---@return senseVisibleObjectDistanceEvent
-function senseVisibleObjectDistanceEvent.new(fields) return end
+function senseVisibleObjectDistanceEvent.new(fields) end

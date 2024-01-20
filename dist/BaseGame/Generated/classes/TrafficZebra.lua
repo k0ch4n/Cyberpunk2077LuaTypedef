@@ -5,29 +5,24 @@ TrafficZebra = {}
 
 ---@param fields? TrafficZebra
 ---@return TrafficZebra
-function TrafficZebra.new(fields) return end
+function TrafficZebra.new(fields) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function TrafficZebra:OnTakeControl(ri) return end
+function TrafficZebra:OnTakeControl(ri) end
 
----@protected
 ---@param evt worldTrafficLightChangeEvent
 ---@return Bool
-function TrafficZebra:OnTrafficLightChangeEvent(evt) return end
+function TrafficZebra:OnTrafficLightChangeEvent(evt) end
 
----@private
 ---@return TrafficZebraController
-function TrafficZebra:GetController() return end
+function TrafficZebra:GetController() end
 
 ---@return TrafficZebraControllerPS
-function TrafficZebra:GetDevicePS() return end
+function TrafficZebra:GetDevicePS() end
 
----@private
 ---@return nil
-function TrafficZebra:HandleGreenLight() return end
+function TrafficZebra:HandleGreenLight() end
 
----@private
 ---@return nil
-function TrafficZebra:HandleRedLight() return end
+function TrafficZebra:HandleRedLight() end

@@ -1,41 +1,41 @@
 ---@meta
 
 ---@class QuickhackData: IScriptable
----@field public actionOwner entEntityID
----@field public action BaseScriptableAction
----@field public actionOwnerName CName
----@field public itemID gameItemID
----@field public icon TweakDBID
----@field public iconCategory CName
----@field public title String
----@field public titleAlternative String
----@field public description String
----@field public inactiveReason String
----@field public isLocked Bool
----@field public actionState EActionInactivityReson
----@field public type gamedataObjectActionType
----@field public cost Int32
----@field public awarenessCost Float
----@field public showRevealInfo Bool
----@field public willReveal Bool
----@field public costRaw Int32
----@field public uploadTime Float
----@field public duration Float
----@field public ICELevelVisible Bool
----@field public ICELevel Float
----@field public vulnerabilities TweakDBID[]
----@field public quality Int32
----@field public isInstant Bool
----@field public cooldown Float
----@field public cooldownTweak TweakDBID
----@field public actionMatchesTarget Bool
----@field public maxListSize Int32
----@field public category gamedataHackCategory_Record
----@field public actionCompletionEffects gamedataObjectActionEffect_Record[]
----@field public noQuickhackData Bool
----@field public networkBreached Bool
+---@field actionOwner entEntityID
+---@field action BaseScriptableAction
+---@field actionOwnerName CName
+---@field itemID gameItemID
+---@field icon TweakDBID
+---@field iconCategory CName
+---@field title String
+---@field titleAlternative String
+---@field description String
+---@field inactiveReason String
+---@field isLocked Bool
+---@field actionState EActionInactivityReson
+---@field type gamedataObjectActionType
+---@field cost Int32
+---@field awarenessCost Float
+---@field showRevealInfo Bool
+---@field willReveal Bool
+---@field costRaw Int32
+---@field uploadTime Float
+---@field duration Float
+---@field ICELevelVisible Bool
+---@field ICELevel Float
+---@field vulnerabilities TweakDBID[]
+---@field quality Int32
+---@field isInstant Bool
+---@field cooldown Float
+---@field cooldownTweak TweakDBID
+---@field actionMatchesTarget Bool
+---@field maxListSize Int32
+---@field category gamedataHackCategory_Record
+---@field actionCompletionEffects gamedataObjectActionEffect_Record[]
+---@field noQuickhackData Bool
+---@field networkBreached Bool
 QuickhackData = {}
 
 ---@param fields? QuickhackData
 ---@return QuickhackData
-function QuickhackData.new(fields) return end
+function QuickhackData.new(fields) end

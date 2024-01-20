@@ -5,4 +5,4 @@ QuickhackDescriptionUpdate = {}
 
 ---@param fields? QuickhackDescriptionUpdate
 ---@return QuickhackDescriptionUpdate
-function QuickhackDescriptionUpdate.new(fields) return end
+function QuickhackDescriptionUpdate.new(fields) end

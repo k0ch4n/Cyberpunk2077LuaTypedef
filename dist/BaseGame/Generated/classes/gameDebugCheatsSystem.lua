@@ -5,32 +5,32 @@ gameDebugCheatsSystem = {}
 
 ---@param fields? gameDebugCheatsSystem
 ---@return gameDebugCheatsSystem
-function gameDebugCheatsSystem.new(fields) return end
+function gameDebugCheatsSystem.new(fields) end
 
 ---@return nil
-function gameDebugCheatsSystem:DecreaseGlobalTimeDilation() return end
+function gameDebugCheatsSystem:DecreaseGlobalTimeDilation() end
 
 ---@return nil
-function gameDebugCheatsSystem:DecreasePlayerTimeDilation() return end
+function gameDebugCheatsSystem:DecreasePlayerTimeDilation() end
 
 ---@param object gameObject
 ---@param cheatType gamecheatsystemFlag
 ---@param enable Bool
 ---@return Bool
-function gameDebugCheatsSystem:EnableCheat(object, cheatType, enable) return end
+function gameDebugCheatsSystem:EnableCheat(object, cheatType, enable) end
 
 ---@param object gameObject
 ---@param gmType gamecheatsystemFlag
 ---@return Bool
-function gameDebugCheatsSystem:HasCheat(object, gmType) return end
+function gameDebugCheatsSystem:HasCheat(object, gmType) end
 
 ---@return nil
-function gameDebugCheatsSystem:IncreaseGlobalTimeDilation() return end
+function gameDebugCheatsSystem:IncreaseGlobalTimeDilation() end
 
 ---@return nil
-function gameDebugCheatsSystem:IncreasePlayerTimeDilation() return end
+function gameDebugCheatsSystem:IncreasePlayerTimeDilation() end
 
 ---@param object gameObject
 ---@param gmType gamecheatsystemFlag
 ---@return Bool
-function gameDebugCheatsSystem:ToggleCheat(object, gmType) return end
+function gameDebugCheatsSystem:ToggleCheat(object, gmType) end

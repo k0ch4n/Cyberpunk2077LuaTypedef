@@ -5,4 +5,4 @@ gamePlayerControlledComponent = {}
 
 ---@param fields? gamePlayerControlledComponent
 ---@return gamePlayerControlledComponent
-function gamePlayerControlledComponent.new(fields) return end
+function gamePlayerControlledComponent.new(fields) end

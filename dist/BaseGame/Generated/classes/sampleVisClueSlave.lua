@@ -5,27 +5,22 @@ sampleVisClueSlave = {}
 
 ---@param fields? sampleVisClueSlave
 ---@return sampleVisClueSlave
-function sampleVisClueSlave.new(fields) return end
+function sampleVisClueSlave.new(fields) end
 
----@protected
 ---@return Bool
-function sampleVisClueSlave:OnGameAttached() return end
+function sampleVisClueSlave:OnGameAttached() end
 
----@protected
 ---@param choice gameinteractionsChoiceEvent
 ---@return Bool
-function sampleVisClueSlave:OnInteractionChoice(choice) return end
+function sampleVisClueSlave:OnInteractionChoice(choice) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function sampleVisClueSlave:OnRequestComponents(ri) return end
+function sampleVisClueSlave:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function sampleVisClueSlave:OnTakeControl(ri) return end
+function sampleVisClueSlave:OnTakeControl(ri) end
 
----@private
 ---@return Bool
-function sampleVisClueSlave:IsModeOn() return end
+function sampleVisClueSlave:IsModeOn() end

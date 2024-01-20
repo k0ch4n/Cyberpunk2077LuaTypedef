@@ -5,10 +5,9 @@ CheckHitReactionStimID = {}
 
 ---@param fields? CheckHitReactionStimID
 ---@return CheckHitReactionStimID
-function CheckHitReactionStimID.new(fields) return end
+function CheckHitReactionStimID.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param behaviorEvent AIAIEvent
 ---@return AIbehaviorConditionOutcomes
-function CheckHitReactionStimID:CheckOnEvent(context, behaviorEvent) return end
+function CheckHitReactionStimID:CheckOnEvent(context, behaviorEvent) end

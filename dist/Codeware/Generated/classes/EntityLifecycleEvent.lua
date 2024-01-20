@@ -5,7 +5,7 @@ EntityLifecycleEvent = {}
 
 ---@param fields? EntityLifecycleEvent
 ---@return EntityLifecycleEvent
-function EntityLifecycleEvent.new(fields) return end
+function EntityLifecycleEvent.new(fields) end
 
 ---@return entEntity
-function EntityLifecycleEvent:GetEntity() return end
+function EntityLifecycleEvent:GetEntity() end

@@ -1,64 +1,64 @@
 ---@meta
 
 ---@class NewItemCompareBuilder: IScriptable
----@field private sortData1 UIInventoryItem
----@field private sortData2 UIInventoryItem
----@field private compareBuilder CompareBuilder
+---@field sortData1 UIInventoryItem
+---@field sortData2 UIInventoryItem
+---@field compareBuilder CompareBuilder
 NewItemCompareBuilder = {}
 
 ---@param fields? NewItemCompareBuilder
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder.new(fields) return end
+function NewItemCompareBuilder.new(fields) end
 
 ---@param sortData1 UIInventoryItem
 ---@param sortData2 UIInventoryItem
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder.Make(sortData1, sortData2) return end
+function NewItemCompareBuilder.Make(sortData1, sortData2) end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:DPSAsc() return end
+function NewItemCompareBuilder:DPSAsc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:DPSDesc() return end
+function NewItemCompareBuilder:DPSDesc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:FavouriteItem() return end
+function NewItemCompareBuilder:FavouriteItem() end
 
 ---@return Int32
-function NewItemCompareBuilder:Get() return end
+function NewItemCompareBuilder:Get() end
 
 ---@return Bool
-function NewItemCompareBuilder:GetBool() return end
+function NewItemCompareBuilder:GetBool() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:ItemType() return end
+function NewItemCompareBuilder:ItemType() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:NameAsc() return end
+function NewItemCompareBuilder:NameAsc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:NameDesc() return end
+function NewItemCompareBuilder:NameDesc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:NewItem() return end
+function NewItemCompareBuilder:NewItem() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:PriceAsc() return end
+function NewItemCompareBuilder:PriceAsc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:PriceDesc() return end
+function NewItemCompareBuilder:PriceDesc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:QualityAsc() return end
+function NewItemCompareBuilder:QualityAsc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:QualityDesc() return end
+function NewItemCompareBuilder:QualityDesc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:QuestItem() return end
+function NewItemCompareBuilder:QuestItem() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:WeightAsc() return end
+function NewItemCompareBuilder:WeightAsc() end
 
 ---@return NewItemCompareBuilder
-function NewItemCompareBuilder:WeightDesc() return end
+function NewItemCompareBuilder:WeightDesc() end

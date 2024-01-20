@@ -5,7 +5,7 @@ QuestBreachAccessPoint = {}
 
 ---@param fields? QuestBreachAccessPoint
 ---@return QuestBreachAccessPoint
-function QuestBreachAccessPoint.new(fields) return end
+function QuestBreachAccessPoint.new(fields) end
 
 ---@return nil
-function QuestBreachAccessPoint:SetProperties() return end
+function QuestBreachAccessPoint:SetProperties() end

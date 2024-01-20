@@ -1,72 +1,60 @@
 ---@meta
 
 ---@class forklift: InteractiveDevice
----@field protected reversed Bool
----@field protected animFeature AnimFeature_ForkliftDevice
----@field protected animationController entAnimationControllerComponent
----@field protected isPlayerUnder Bool
----@field protected cargoBox entPhysicalMeshComponent
+---@field reversed Bool
+---@field animFeature AnimFeature_ForkliftDevice
+---@field animationController entAnimationControllerComponent
+---@field isPlayerUnder Bool
+---@field cargoBox entPhysicalMeshComponent
 forklift = {}
 
 ---@param fields? forklift
 ---@return forklift
-function forklift.new(fields) return end
+function forklift.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function forklift:OnActivateDevice(evt) return end
+function forklift:OnActivateDevice(evt) end
 
----@protected
 ---@param evt ForkliftCompleteActivateEvent
 ---@return Bool
-function forklift:OnForkliftCompleteActivateEvent(evt) return end
+function forklift:OnForkliftCompleteActivateEvent(evt) end
 
----@protected
 ---@return Bool
-function forklift:OnGameAttached() return end
+function forklift:OnGameAttached() end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function forklift:OnPlayerEnter(evt) return end
+function forklift:OnPlayerEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function forklift:OnPlayerExit(evt) return end
+function forklift:OnPlayerExit(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function forklift:OnRequestComponents(ri) return end
+function forklift:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function forklift:OnTakeControl(ri) return end
+function forklift:OnTakeControl(ri) end
 
----@protected
 ---@return ForkliftController
-function forklift:GetController() return end
+function forklift:GetController() end
 
 ---@return ForkliftControllerPS
-function forklift:GetDevicePS() return end
+function forklift:GetDevicePS() end
 
----@protected
 ---@return nil
-function forklift:RefreshDeviceInteractions() return end
+function forklift:RefreshDeviceInteractions() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function forklift:StartGlitching(glitchState, intensity) return end
+function forklift:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function forklift:StopGlitching() return end
+function forklift:StopGlitching() end
 
----@private
 ---@return nil
-function forklift:UpdateAnimState() return end
+function forklift:UpdateAnimState() end

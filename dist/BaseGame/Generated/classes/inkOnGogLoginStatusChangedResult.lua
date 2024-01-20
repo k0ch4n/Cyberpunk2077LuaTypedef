@@ -5,4 +5,4 @@ inkOnGogLoginStatusChangedResult = {}
 
 ---@param fields? inkOnGogLoginStatusChangedResult
 ---@return inkOnGogLoginStatusChangedResult
-function inkOnGogLoginStatusChangedResult.new(fields) return end
+function inkOnGogLoginStatusChangedResult.new(fields) end

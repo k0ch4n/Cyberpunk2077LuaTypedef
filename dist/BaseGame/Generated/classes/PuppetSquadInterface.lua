@@ -1,198 +1,171 @@
 ---@meta
 
 ---@class PuppetSquadInterface: AICombatSquadScriptInterface
----@field private baseSquadRecord gamedataAISquadParams_Record
----@field private ticketHistory SquadTicketReceipt[]
----@field private enumValueToNdx gameEnumNameToIndexCache
----@field private sectorsInitialized Bool
+---@field baseSquadRecord gamedataAISquadParams_Record
+---@field ticketHistory SquadTicketReceipt[]
+---@field enumValueToNdx gameEnumNameToIndexCache
+---@field sectorsInitialized Bool
 PuppetSquadInterface = {}
 
 ---@param fields? PuppetSquadInterface
 ---@return PuppetSquadInterface
-function PuppetSquadInterface.new(fields) return end
+function PuppetSquadInterface.new(fields) end
 
----@protected
 ---@param orderId Uint32
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnAckOrder(orderId, actionName, entity) return end
+function PuppetSquadInterface:OnAckOrder(orderId, actionName, entity) end
 
----@protected
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnCloseSquadAction(actionName, entity) return end
+function PuppetSquadInterface:OnCloseSquadAction(actionName, entity) end
 
----@protected
 ---@param actionName CName|string
 ---@param orderId Uint32
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnCommitToOrder(actionName, orderId, entity) return end
+function PuppetSquadInterface:OnCommitToOrder(actionName, orderId, entity) end
 
----@protected
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnEvaluationActivation(actionName, entity) return end
+function PuppetSquadInterface:OnEvaluationActivation(actionName, entity) end
 
----@protected
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnEvaluationDeActivation(actionName, entity) return end
+function PuppetSquadInterface:OnEvaluationDeActivation(actionName, entity) end
 
----@protected
 ---@param orderId Uint32
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnGiveOrder(orderId, actionName, entity) return end
+function PuppetSquadInterface:OnGiveOrder(orderId, actionName, entity) end
 
----@protected
 ---@return Bool
-function PuppetSquadInterface:OnInitialise() return end
+function PuppetSquadInterface:OnInitialise() end
 
----@protected
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnOpenSquadAction(actionName, entity) return end
+function PuppetSquadInterface:OnOpenSquadAction(actionName, entity) end
 
----@protected
 ---@param orderId Uint32
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnOrderDone(orderId, actionName, entity) return end
+function PuppetSquadInterface:OnOrderDone(orderId, actionName, entity) end
 
----@protected
 ---@param orderId Uint32
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnOrderFail(orderId, actionName, entity) return end
+function PuppetSquadInterface:OnOrderFail(orderId, actionName, entity) end
 
----@protected
 ---@param orderId Uint32
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:OnOrderRevoked(orderId, actionName, entity) return end
+function PuppetSquadInterface:OnOrderRevoked(orderId, actionName, entity) end
 
----@private
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
 ---@param delay Float
 ---@return Bool
-function PuppetSquadInterface:AcknowledgeTicket(actionName, entity, ticketRecord, ticketHistoryID, delay) return end
+function PuppetSquadInterface:AcknowledgeTicket(actionName, entity, ticketRecord, ticketHistoryID, delay) end
 
----@private
 ---@return nil
-function PuppetSquadInterface:AllocateTacticsSectors() return end
+function PuppetSquadInterface:AllocateTacticsSectors() end
 
----@private
 ---@return nil
-function PuppetSquadInterface:AllocateTicketHistoryArray() return end
+function PuppetSquadInterface:AllocateTicketHistoryArray() end
 
----@private
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
 ---@return Bool
-function PuppetSquadInterface:CheckCooldown(entity, ticketRecord, ticketHistoryID) return end
+function PuppetSquadInterface:CheckCooldown(entity, ticketRecord, ticketHistoryID) end
 
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:CheckTicketConditions(actionName, entity) return end
+function PuppetSquadInterface:CheckTicketConditions(actionName, entity) end
 
----@private
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
 ---@param squadRecord gamedataAISquadParams_Record
 ---@return Bool
-function PuppetSquadInterface:EvaluateTicketActivation(actionName, entity, ticketRecord, ticketHistoryID, squadRecord) return end
+function PuppetSquadInterface:EvaluateTicketActivation(actionName, entity, ticketRecord, ticketHistoryID, squadRecord) end
 
----@private
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
 ---@param squadRecord gamedataAISquadParams_Record
 ---@return Bool
-function PuppetSquadInterface:EvaluateTicketDeactivation(actionName, entity, ticketRecord, ticketHistoryID, squadRecord) return end
+function PuppetSquadInterface:EvaluateTicketDeactivation(actionName, entity, ticketRecord, ticketHistoryID, squadRecord) end
 
----@private
 ---@param entity entEntity
 ---@return Float
-function PuppetSquadInterface:GetAITime(entity) return end
+function PuppetSquadInterface:GetAITime(entity) end
 
----@private
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
 ---@return Bool, Float acknowledgeDelay
-function PuppetSquadInterface:GetAcknowledgeDelay(entity, ticketRecord, ticketHistoryID) return end
+function PuppetSquadInterface:GetAcknowledgeDelay(entity, ticketRecord, ticketHistoryID) end
 
 ---@param actionName CName|string
 ---@return entEntityID
-function PuppetSquadInterface:GetLastTicketRecipient(actionName) return end
+function PuppetSquadInterface:GetLastTicketRecipient(actionName) end
 
----@private
 ---@param entity entEntity
 ---@return Bool, gamedataAISquadParams_Record squadRecord
-function PuppetSquadInterface:GetSquadRecord(entity) return end
+function PuppetSquadInterface:GetSquadRecord(entity) end
 
----@private
 ---@param actionName CName|string
 ---@return Int32
-function PuppetSquadInterface:GetTicketHistoryID(actionName) return end
+function PuppetSquadInterface:GetTicketHistoryID(actionName) end
 
----@private
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool, gamedataAITicket_Record ticketRecord, Int32 ticketHistoryID, gamedataAISquadParams_Record squadRecord
-function PuppetSquadInterface:GetTicketType(actionName, entity) return end
+function PuppetSquadInterface:GetTicketType(actionName, entity) end
 
----@private
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool, gamedataAITicket_Record ticketRecord, Int32 ticketHistoryID
-function PuppetSquadInterface:GetTicketType(actionName, entity) return end
+function PuppetSquadInterface:GetTicketType(actionName, entity) end
 
----@private
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@return nil
-function PuppetSquadInterface:ProcessRingTicket(entity, ticketRecord) return end
+function PuppetSquadInterface:ProcessRingTicket(entity, ticketRecord) end
 
----@private
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
 ---@return nil
-function PuppetSquadInterface:RandomizeDeactivationConditionCheckInterval(ticketRecord, ticketHistoryID) return end
+function PuppetSquadInterface:RandomizeDeactivationConditionCheckInterval(ticketRecord, ticketHistoryID) end
 
----@private
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return nil
-function PuppetSquadInterface:ReleaseSquadMembersTickets(actionName, entity) return end
+function PuppetSquadInterface:ReleaseSquadMembersTickets(actionName, entity) end
 
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool
-function PuppetSquadInterface:SimpleTicketConditionsCheck(actionName, entity) return end
+function PuppetSquadInterface:SimpleTicketConditionsCheck(actionName, entity) end
 
----@private
 ---@param entity entEntity
 ---@param ticketRecord gamedataAITicket_Record
 ---@param ticketHistoryID Int32
 ---@param ticketStatus EAITicketStatus
 ---@return nil
-function PuppetSquadInterface:UpdateTicketHistory(entity, ticketRecord, ticketHistoryID, ticketStatus) return end
+function PuppetSquadInterface:UpdateTicketHistory(entity, ticketRecord, ticketHistoryID, ticketStatus) end

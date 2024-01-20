@@ -5,4 +5,4 @@ workSyncBindBaseCommandData = {}
 
 ---@param fields? workSyncBindBaseCommandData
 ---@return workSyncBindBaseCommandData
-function workSyncBindBaseCommandData.new(fields) return end
+function workSyncBindBaseCommandData.new(fields) end

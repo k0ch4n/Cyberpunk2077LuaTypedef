@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorFSMTreeNodeDefinition: AIbehaviorTreeNodeDefinition
----@field public states AIbehaviorFSMStateDefinition[]
----@field public transitions AIbehaviorFSMTransitionDefinition[]
----@field public initialState AIbehaviorFSMStateDefinition
+---@field states AIbehaviorFSMStateDefinition[]
+---@field transitions AIbehaviorFSMTransitionDefinition[]
+---@field initialState AIbehaviorFSMStateDefinition
 AIbehaviorFSMTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorFSMTreeNodeDefinition
 ---@return AIbehaviorFSMTreeNodeDefinition
-function AIbehaviorFSMTreeNodeDefinition.new(fields) return end
+function AIbehaviorFSMTreeNodeDefinition.new(fields) end

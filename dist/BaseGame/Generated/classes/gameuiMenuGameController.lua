@@ -1,51 +1,46 @@
 ---@meta
 
 ---@class gameuiMenuGameController: gameuiWidgetGameController
----@field private baseEventDispatcher inkMenuEventDispatcher
+---@field baseEventDispatcher inkMenuEventDispatcher
 gameuiMenuGameController = {}
 
 ---@param fields? gameuiMenuGameController
 ---@return gameuiMenuGameController
-function gameuiMenuGameController.new(fields) return end
+function gameuiMenuGameController.new(fields) end
 
 ---@return gameITelemetrySystem
-function gameuiMenuGameController:GetTelemetrySystem() return end
+function gameuiMenuGameController:GetTelemetrySystem() end
 
 ---@return Bool
-function gameuiMenuGameController:IsAnyActionWithoutAssignedKey() return end
+function gameuiMenuGameController:IsAnyActionWithoutAssignedKey() end
 
 ---@param notificationTitle CName|string
 ---@param noticationDescription CName|string
 ---@return nil
-function gameuiMenuGameController:PushNotification(notificationTitle, noticationDescription) return end
+function gameuiMenuGameController:PushNotification(notificationTitle, noticationDescription) end
 
 ---@return nil
-function gameuiMenuGameController:RefreshInputIcons() return end
+function gameuiMenuGameController:RefreshInputIcons() end
 
 ---@return nil
-function gameuiMenuGameController:RegisterToGlobalInputCallback() return end
+function gameuiMenuGameController:RegisterToGlobalInputCallback() end
 
 ---@return nil
-function gameuiMenuGameController:UnregisterFromGlobalInputCallback() return end
+function gameuiMenuGameController:UnregisterFromGlobalInputCallback() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function gameuiMenuGameController:OnBack(userData) return end
+function gameuiMenuGameController:OnBack(userData) end
 
----@protected
 ---@return Bool
-function gameuiMenuGameController:OnInitialize() return end
+function gameuiMenuGameController:OnInitialize() end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function gameuiMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function gameuiMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function gameuiMenuGameController:OnUninitialize() return end
+function gameuiMenuGameController:OnUninitialize() end
 
----@protected
 ---@return nil
-function gameuiMenuGameController:ForceResetCursorType() return end
+function gameuiMenuGameController:ForceResetCursorType() end

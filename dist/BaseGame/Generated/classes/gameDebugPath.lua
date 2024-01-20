@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameDebugPath
----@field public str String
+---@field str String
 gameDebugPath = {}
 
 ---@param fields? gameDebugPath
 ---@return gameDebugPath
-function gameDebugPath.new(fields) return end
+function gameDebugPath.new(fields) end

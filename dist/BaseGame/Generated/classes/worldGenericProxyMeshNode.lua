@@ -5,4 +5,4 @@ worldGenericProxyMeshNode = {}
 
 ---@param fields? worldGenericProxyMeshNode
 ---@return worldGenericProxyMeshNode
-function worldGenericProxyMeshNode.new(fields) return end
+function worldGenericProxyMeshNode.new(fields) end

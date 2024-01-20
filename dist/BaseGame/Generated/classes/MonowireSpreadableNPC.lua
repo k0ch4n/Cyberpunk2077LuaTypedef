@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class MonowireSpreadableNPC: IScriptable
----@field public NPCPuppet NPCPuppet
----@field public HitEvent gameeventsHitEvent
+---@field NPCPuppet NPCPuppet
+---@field HitEvent gameeventsHitEvent
 MonowireSpreadableNPC = {}
 
 ---@param fields? MonowireSpreadableNPC
 ---@return MonowireSpreadableNPC
-function MonowireSpreadableNPC.new(fields) return end
+function MonowireSpreadableNPC.new(fields) end

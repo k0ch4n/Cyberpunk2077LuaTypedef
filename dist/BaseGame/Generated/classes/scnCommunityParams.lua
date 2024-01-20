@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnCommunityParams
----@field public reference NodeRef
----@field public entryName CName
----@field public forceMaxVisibility Bool
+---@field reference NodeRef
+---@field entryName CName
+---@field forceMaxVisibility Bool
 scnCommunityParams = {}
 
 ---@param fields? scnCommunityParams
 ---@return scnCommunityParams
-function scnCommunityParams.new(fields) return end
+function scnCommunityParams.new(fields) end

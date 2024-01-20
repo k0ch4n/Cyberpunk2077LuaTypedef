@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ArcadeMinigameUserData: inkUserData
----@field public minigame ArcadeMinigame
+---@field minigame ArcadeMinigame
 ArcadeMinigameUserData = {}
 
 ---@param fields? ArcadeMinigameUserData
 ---@return ArcadeMinigameUserData
-function ArcadeMinigameUserData.new(fields) return end
+function ArcadeMinigameUserData.new(fields) end
 
 ---@return CName
-function ArcadeMinigameUserData:GetMinigameName() return end
+function ArcadeMinigameUserData:GetMinigameName() end

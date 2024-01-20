@@ -5,4 +5,4 @@ inkButtonStateChangeCallback = {}
 
 ---@param fields? inkButtonStateChangeCallback
 ---@return inkButtonStateChangeCallback
-function inkButtonStateChangeCallback.new(fields) return end
+function inkButtonStateChangeCallback.new(fields) end

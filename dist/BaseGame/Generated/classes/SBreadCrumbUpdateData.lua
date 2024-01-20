@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SBreadCrumbUpdateData
----@field public elementName String
----@field public elementID Int32
----@field public context CName
+---@field elementName String
+---@field elementID Int32
+---@field context CName
 SBreadCrumbUpdateData = {}
 
 ---@param fields? SBreadCrumbUpdateData
 ---@return SBreadCrumbUpdateData
-function SBreadCrumbUpdateData.new(fields) return end
+function SBreadCrumbUpdateData.new(fields) end

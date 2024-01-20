@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameaudioeventsStopSound: redEvent
----@field public soundName CName
+---@field soundName CName
 gameaudioeventsStopSound = {}
 
 ---@param fields? gameaudioeventsStopSound
 ---@return gameaudioeventsStopSound
-function gameaudioeventsStopSound.new(fields) return end
+function gameaudioeventsStopSound.new(fields) end

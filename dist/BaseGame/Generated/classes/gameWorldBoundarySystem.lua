@@ -5,4 +5,4 @@ gameWorldBoundarySystem = {}
 
 ---@param fields? gameWorldBoundarySystem
 ---@return gameWorldBoundarySystem
-function gameWorldBoundarySystem.new(fields) return end
+function gameWorldBoundarySystem.new(fields) end

@@ -5,4 +5,4 @@ gameActionInternalEvent = {}
 
 ---@param fields? gameActionInternalEvent
 ---@return gameActionInternalEvent
-function gameActionInternalEvent.new(fields) return end
+function gameActionInternalEvent.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scnSceneSharedState: ISerializable
----@field public entrypoint CName
----@field public syncNodesVisited scnSyncNodeSignal[]
----@field public instanceHash Uint64
----@field public finishedOnServer Bool
----@field public finishedOnClient Bool
+---@field entrypoint CName
+---@field syncNodesVisited scnSyncNodeSignal[]
+---@field instanceHash Uint64
+---@field finishedOnServer Bool
+---@field finishedOnClient Bool
 scnSceneSharedState = {}
 
 ---@param fields? scnSceneSharedState
 ---@return scnSceneSharedState
-function scnSceneSharedState.new(fields) return end
+function scnSceneSharedState.new(fields) end

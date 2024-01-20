@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class WeaponRadialSlot: RadialSlot
----@field private equipmentArea gamedataEquipmentArea
----@field private index Int32
+---@field equipmentArea gamedataEquipmentArea
+---@field index Int32
 WeaponRadialSlot = {}
 
 ---@param fields? WeaponRadialSlot
 ---@return WeaponRadialSlot
-function WeaponRadialSlot.new(fields) return end
+function WeaponRadialSlot.new(fields) end
 
 ---@return InventoryItemDisplayController
-function WeaponRadialSlot:GetController() return end
+function WeaponRadialSlot:GetController() end
 
 ---@return nil, String[] info
-function WeaponRadialSlot:GetDebugInfo() return end
+function WeaponRadialSlot:GetDebugInfo() end
 
 ---@return gamedataEquipmentArea
-function WeaponRadialSlot:GetEquipmentArea() return end
+function WeaponRadialSlot:GetEquipmentArea() end
 
 ---@return Int32
-function WeaponRadialSlot:GetIndex() return end
+function WeaponRadialSlot:GetIndex() end
 
 ---@param i Int32
 ---@return nil
-function WeaponRadialSlot:SetIndex(i) return end
+function WeaponRadialSlot:SetIndex(i) end

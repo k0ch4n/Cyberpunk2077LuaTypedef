@@ -5,4 +5,4 @@ gamedataAISquadFurthestToSectorCheck_Record = {}
 
 ---@param fields? gamedataAISquadFurthestToSectorCheck_Record
 ---@return gamedataAISquadFurthestToSectorCheck_Record
-function gamedataAISquadFurthestToSectorCheck_Record.new(fields) return end
+function gamedataAISquadFurthestToSectorCheck_Record.new(fields) end

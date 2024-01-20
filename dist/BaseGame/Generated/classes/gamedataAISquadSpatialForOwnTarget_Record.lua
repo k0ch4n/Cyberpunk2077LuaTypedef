@@ -5,10 +5,10 @@ gamedataAISquadSpatialForOwnTarget_Record = {}
 
 ---@param fields? gamedataAISquadSpatialForOwnTarget_Record
 ---@return gamedataAISquadSpatialForOwnTarget_Record
-function gamedataAISquadSpatialForOwnTarget_Record.new(fields) return end
+function gamedataAISquadSpatialForOwnTarget_Record.new(fields) end
 
 ---@return gamedataAISpatialCond_Record
-function gamedataAISquadSpatialForOwnTarget_Record:Spatial() return end
+function gamedataAISquadSpatialForOwnTarget_Record:Spatial() end
 
 ---@return gamedataAISpatialCond_Record
-function gamedataAISquadSpatialForOwnTarget_Record:SpatialHandle() return end
+function gamedataAISquadSpatialForOwnTarget_Record:SpatialHandle() end

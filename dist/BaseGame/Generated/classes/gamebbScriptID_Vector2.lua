@@ -5,4 +5,4 @@ gamebbScriptID_Vector2 = {}
 
 ---@param fields? gamebbScriptID_Vector2
 ---@return gamebbScriptID_Vector2
-function gamebbScriptID_Vector2.new(fields) return end
+function gamebbScriptID_Vector2.new(fields) end

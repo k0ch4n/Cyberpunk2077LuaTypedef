@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class KeyBindings
----@field public DPAD_UP TweakDBID
----@field public RB TweakDBID
+---@field DPAD_UP TweakDBID
+---@field RB TweakDBID
 KeyBindings = {}
 
 ---@param fields? KeyBindings
 ---@return KeyBindings
-function KeyBindings.new(fields) return end
+function KeyBindings.new(fields) end

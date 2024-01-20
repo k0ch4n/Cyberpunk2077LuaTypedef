@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIDriveCommandUpdate: IScriptable
----@field public minSpeed Float
----@field public maxSpeed Float
----@field public clearTrafficOnPath Bool
+---@field minSpeed Float
+---@field maxSpeed Float
+---@field clearTrafficOnPath Bool
 AIDriveCommandUpdate = {}
 
 ---@param fields? AIDriveCommandUpdate
 ---@return AIDriveCommandUpdate
-function AIDriveCommandUpdate.new(fields) return end
+function AIDriveCommandUpdate.new(fields) end

@@ -5,4 +5,4 @@ AICommsCallMoveToCommand = {}
 
 ---@param fields? AICommsCallMoveToCommand
 ---@return AICommsCallMoveToCommand
-function AICommsCallMoveToCommand.new(fields) return end
+function AICommsCallMoveToCommand.new(fields) end

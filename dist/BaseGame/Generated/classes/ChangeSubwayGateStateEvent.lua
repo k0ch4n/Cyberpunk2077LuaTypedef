@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ChangeSubwayGateStateEvent: redEvent
----@field public open Bool
+---@field open Bool
 ChangeSubwayGateStateEvent = {}
 
 ---@param fields? ChangeSubwayGateStateEvent
 ---@return ChangeSubwayGateStateEvent
-function ChangeSubwayGateStateEvent.new(fields) return end
+function ChangeSubwayGateStateEvent.new(fields) end

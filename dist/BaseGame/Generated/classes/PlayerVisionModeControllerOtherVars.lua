@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class PlayerVisionModeControllerOtherVars
----@field public enabledByToggle Bool
----@field public active Bool
----@field public toggledDuringHold Bool
----@field public buttonHoldPressTime Float
----@field public buttonHoldTapTime Float
----@field public buttonHoldTapCount Int32
+---@field enabledByToggle Bool
+---@field active Bool
+---@field toggledDuringHold Bool
+---@field buttonHoldPressTime Float
+---@field buttonHoldTapTime Float
+---@field buttonHoldTapCount Int32
 PlayerVisionModeControllerOtherVars = {}
 
 ---@param fields? PlayerVisionModeControllerOtherVars
 ---@return PlayerVisionModeControllerOtherVars
-function PlayerVisionModeControllerOtherVars.new(fields) return end
+function PlayerVisionModeControllerOtherVars.new(fields) end

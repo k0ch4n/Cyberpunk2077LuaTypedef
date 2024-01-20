@@ -1,266 +1,226 @@
 ---@meta
 
 ---@class gameuiPopupsManager: gameuiWidgetGameController
----@field public bracketsContainer inkCompoundWidgetReference
----@field public tutorialOverlayContainer inkCompoundWidgetReference
----@field public bracketLibraryID CName
----@field private blackboard gameIBlackboard
----@field private bbDefinition UIGameDataDef
----@field private journalManager gameJournalManager
----@field private uiSystemBB gameIBlackboard
----@field private uiSystemBBDef UI_SystemDef
----@field private uiSystemId redCallbackObject
----@field private isShownBbId redCallbackObject
----@field private dataBbId redCallbackObject
----@field private photomodeActiveId redCallbackObject
----@field private tutorialOnHold Bool
----@field private tutorialData gamePopupData
----@field private tutorialSettings gamePopupSettings
----@field private phoneMessageOnHold Bool
----@field private phoneMessageData JournalNotificationData
----@field private shardReadOnHold Bool
----@field private shardReadData NotifyShardRead
----@field private tutorialToken inkGameNotificationToken
----@field private phoneMessageToken inkGameNotificationToken
----@field private shardToken inkGameNotificationToken
----@field private vehiclesManagerToken inkGameNotificationToken
----@field private vehicleRadioToken inkGameNotificationToken
----@field private codexToken inkGameNotificationToken
----@field private ponrToken inkGameNotificationToken
----@field private expansionToken inkGameNotificationToken
----@field private expansionErrorToken inkGameNotificationToken
----@field private patchNotesToken inkGameNotificationToken
----@field private expansionStateToken inkGameNotificationToken
+---@field bracketsContainer inkCompoundWidgetReference
+---@field tutorialOverlayContainer inkCompoundWidgetReference
+---@field bracketLibraryID CName
+---@field blackboard gameIBlackboard
+---@field bbDefinition UIGameDataDef
+---@field journalManager gameJournalManager
+---@field uiSystemBB gameIBlackboard
+---@field uiSystemBBDef UI_SystemDef
+---@field uiSystemId redCallbackObject
+---@field isShownBbId redCallbackObject
+---@field dataBbId redCallbackObject
+---@field photomodeActiveId redCallbackObject
+---@field tutorialOnHold Bool
+---@field tutorialData gamePopupData
+---@field tutorialSettings gamePopupSettings
+---@field phoneMessageOnHold Bool
+---@field phoneMessageData JournalNotificationData
+---@field shardReadOnHold Bool
+---@field shardReadData NotifyShardRead
+---@field tutorialToken inkGameNotificationToken
+---@field phoneMessageToken inkGameNotificationToken
+---@field shardToken inkGameNotificationToken
+---@field vehiclesManagerToken inkGameNotificationToken
+---@field vehicleRadioToken inkGameNotificationToken
+---@field codexToken inkGameNotificationToken
+---@field ponrToken inkGameNotificationToken
+---@field expansionToken inkGameNotificationToken
+---@field expansionErrorToken inkGameNotificationToken
+---@field patchNotesToken inkGameNotificationToken
+---@field expansionStateToken inkGameNotificationToken
 gameuiPopupsManager = {}
 
 ---@param fields? gameuiPopupsManager
 ---@return gameuiPopupsManager
-function gameuiPopupsManager.new(fields) return end
+function gameuiPopupsManager.new(fields) end
 
 ---@param hideTutorial Bool
 ---@param reason gameuiTutorialHiddenReason
 ---@return nil
-function gameuiPopupsManager:ChangeTutorialVisibility(hideTutorial, reason) return end
+function gameuiPopupsManager:ChangeTutorialVisibility(hideTutorial, reason) end
 
 ---@param isInMenu Bool
 ---@return nil
-function gameuiPopupsManager:ChangeTutorialVisibilityInMenu(isInMenu) return end
+function gameuiPopupsManager:ChangeTutorialVisibilityInMenu(isInMenu) end
 
----@protected
 ---@param progress Float
 ---@return Bool
-function gameuiPopupsManager:OnAdditionalContentDataReloadProgress(progress) return end
+function gameuiPopupsManager:OnAdditionalContentDataReloadProgress(progress) end
 
----@protected
 ---@param id CName|string
 ---@param success Bool
 ---@return Bool
-function gameuiPopupsManager:OnAdditionalContentInstallationRequestResult(id, success) return end
+function gameuiPopupsManager:OnAdditionalContentInstallationRequestResult(id, success) end
 
----@protected
 ---@param id CName|string
 ---@param success Bool
 ---@return Bool
-function gameuiPopupsManager:OnAdditionalContentInstallationResult(id, success) return end
+function gameuiPopupsManager:OnAdditionalContentInstallationResult(id, success) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnClosePonRRewardsScreen(data) return end
+function gameuiPopupsManager:OnClosePonRRewardsScreen(data) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnCodexPopupCloseRequest(data) return end
+function gameuiPopupsManager:OnCodexPopupCloseRequest(data) end
 
----@protected
 ---@param evt OpenCodexPopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnCodexPopupRequest(evt) return end
+function gameuiPopupsManager:OnCodexPopupRequest(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnExpansionErrorPopupCloseRequest(data) return end
+function gameuiPopupsManager:OnExpansionErrorPopupCloseRequest(data) end
 
----@protected
 ---@param evt OpenExpansionErrorPopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnExpansionErrorPopupRequest(evt) return end
+function gameuiPopupsManager:OnExpansionErrorPopupRequest(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnExpansionPopupCloseRequest(data) return end
+function gameuiPopupsManager:OnExpansionPopupCloseRequest(data) end
 
----@protected
 ---@param evt OpenExpansionPopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnExpansionPopupRequest(evt) return end
+function gameuiPopupsManager:OnExpansionPopupRequest(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnExpansionStatePopupCloseRequest(data) return end
+function gameuiPopupsManager:OnExpansionStatePopupCloseRequest(data) end
 
----@protected
 ---@return Bool
-function gameuiPopupsManager:OnInitialize() return end
+function gameuiPopupsManager:OnInitialize() end
 
----@protected
 ---@param isInMenu Bool
 ---@return Bool
-function gameuiPopupsManager:OnMenuUpdate(isInMenu) return end
+function gameuiPopupsManager:OnMenuUpdate(isInMenu) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnMessagePopupUseCloseRequest(data) return end
+function gameuiPopupsManager:OnMessagePopupUseCloseRequest(data) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnPatchNotesPopupCloseRequest(data) return end
+function gameuiPopupsManager:OnPatchNotesPopupCloseRequest(data) end
 
----@protected
 ---@param evt OpenPatchNotesPopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnPatchNotesPopupRequest(evt) return end
+function gameuiPopupsManager:OnPatchNotesPopupRequest(evt) end
 
----@protected
 ---@param evt PhoneMessageHidePopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnPhoneMessageHideRequest(evt) return end
+function gameuiPopupsManager:OnPhoneMessageHideRequest(evt) end
 
----@protected
 ---@param evt PhoneMessagePopupEvent
 ---@return Bool
-function gameuiPopupsManager:OnPhoneMessageShowRequest(evt) return end
+function gameuiPopupsManager:OnPhoneMessageShowRequest(evt) end
 
----@protected
 ---@param isInPhotomode Bool
 ---@return Bool
-function gameuiPopupsManager:OnPhotomodeUpdate(isInPhotomode) return end
+function gameuiPopupsManager:OnPhotomodeUpdate(isInPhotomode) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPopupsManager:OnPlayerAttach(playerPuppet) return end
+function gameuiPopupsManager:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPopupsManager:OnPlayerDetach(playerPuppet) return end
+function gameuiPopupsManager:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnPopupCloseRequest(data) return end
+function gameuiPopupsManager:OnPopupCloseRequest(data) end
 
----@protected
 ---@param evt QuickSlotButtonHoldStartEvent
 ---@return Bool
-function gameuiPopupsManager:OnQuickSlotButtonHoldStartEvent(evt) return end
+function gameuiPopupsManager:OnQuickSlotButtonHoldStartEvent(evt) end
 
----@protected
 ---@param evt NotifyShardRead
 ---@return Bool
-function gameuiPopupsManager:OnShardRead(evt) return end
+function gameuiPopupsManager:OnShardRead(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnShardReadClosed(data) return end
+function gameuiPopupsManager:OnShardReadClosed(data) end
 
----@protected
 ---@param evt questShowPointOfNoReturnPromptEvent
 ---@return Bool
-function gameuiPopupsManager:OnSpawnPonRRewardsScreen(evt) return end
+function gameuiPopupsManager:OnSpawnPonRRewardsScreen(evt) end
 
----@protected
 ---@return Bool
-function gameuiPopupsManager:OnUninitialize() return end
+function gameuiPopupsManager:OnUninitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiPopupsManager:OnUpdateData(value) return end
+function gameuiPopupsManager:OnUpdateData(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiPopupsManager:OnUpdateVisibility(value) return end
+function gameuiPopupsManager:OnUpdateVisibility(value) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnVehicleRadioCloseRequest(data) return end
+function gameuiPopupsManager:OnVehicleRadioCloseRequest(data) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiPopupsManager:OnVehiclesManagerCloseRequest(data) return end
+function gameuiPopupsManager:OnVehiclesManagerCloseRequest(data) end
 
 ---@return nil
-function gameuiPopupsManager:ProcessCrackableShardTutorial() return end
+function gameuiPopupsManager:ProcessCrackableShardTutorial() end
 
----@private
 ---@param hideToken Bool
 ---@return nil
-function gameuiPopupsManager:SetPhoneMessageVisibility(hideToken) return end
+function gameuiPopupsManager:SetPhoneMessageVisibility(hideToken) end
 
----@private
 ---@param hideToken Bool
 ---@return nil
-function gameuiPopupsManager:SetShardReadVisibility(hideToken) return end
+function gameuiPopupsManager:SetShardReadVisibility(hideToken) end
 
----@private
 ---@param hideToken Bool
 ---@return nil
-function gameuiPopupsManager:SetTutorialTokenVisibility(hideToken) return end
+function gameuiPopupsManager:SetTutorialTokenVisibility(hideToken) end
 
 ---@return nil
-function gameuiPopupsManager:ShardRead() return end
+function gameuiPopupsManager:ShardRead() end
 
----@private
 ---@return nil
-function gameuiPopupsManager:ShowActionBlockedNotification() return end
+function gameuiPopupsManager:ShowActionBlockedNotification() end
 
 ---@param state ExpansionStatus
 ---@param type ExpansionPopupType
 ---@return nil
-function gameuiPopupsManager:ShowExpansionPopup(state, type) return end
+function gameuiPopupsManager:ShowExpansionPopup(state, type) end
 
 ---@param state ExpansionStatus
 ---@return nil
-function gameuiPopupsManager:ShowExpansionStateGameNotificationRequest(state) return end
+function gameuiPopupsManager:ShowExpansionStateGameNotificationRequest(state) end
 
 ---@param state ExpansionStatus
 ---@return nil
-function gameuiPopupsManager:ShowExpansionStatePopupRequest(state) return end
+function gameuiPopupsManager:ShowExpansionStatePopupRequest(state) end
 
 ---@return nil
-function gameuiPopupsManager:ShowPatchNotesPopup() return end
+function gameuiPopupsManager:ShowPatchNotesPopup() end
 
 ---@return nil
-function gameuiPopupsManager:ShowPhoneMessage() return end
+function gameuiPopupsManager:ShowPhoneMessage() end
 
----@private
 ---@return nil
-function gameuiPopupsManager:ShowTutorial() return end
+function gameuiPopupsManager:ShowTutorial() end
 
----@private
 ---@return nil
-function gameuiPopupsManager:SpawnVehicleRadioPopup() return end
+function gameuiPopupsManager:SpawnVehicleRadioPopup() end
 
----@private
 ---@return nil
-function gameuiPopupsManager:SpawnVehiclesManagerPopup() return end
+function gameuiPopupsManager:SpawnVehiclesManagerPopup() end
 
----@private
 ---@return nil
-function gameuiPopupsManager:TrySpawnPocketRadioPopup() return end
+function gameuiPopupsManager:TrySpawnPocketRadioPopup() end
 
----@private
 ---@return nil
-function gameuiPopupsManager:TrySpawnVehicleRadioPopup() return end
+function gameuiPopupsManager:TrySpawnVehicleRadioPopup() end

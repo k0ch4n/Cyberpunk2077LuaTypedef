@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnAddIdleWithBlendAnimEvent: scnSceneEvent
----@field public performerId scnPerformerId
----@field public actorComponent CName
----@field public targetWeight Float
+---@field performerId scnPerformerId
+---@field actorComponent CName
+---@field targetWeight Float
 scnAddIdleWithBlendAnimEvent = {}
 
 ---@param fields? scnAddIdleWithBlendAnimEvent
 ---@return scnAddIdleWithBlendAnimEvent
-function scnAddIdleWithBlendAnimEvent.new(fields) return end
+function scnAddIdleWithBlendAnimEvent.new(fields) end

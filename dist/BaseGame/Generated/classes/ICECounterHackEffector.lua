@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class ICECounterHackEffector: gameEffector
----@field public quickhackObjectActionID TweakDBID
----@field public quickhackObjectActionRecord gamedataObjectAction_Record
+---@field quickhackObjectActionID TweakDBID
+---@field quickhackObjectActionRecord gamedataObjectAction_Record
 ICECounterHackEffector = {}
 
 ---@param fields? ICECounterHackEffector
 ---@return ICECounterHackEffector
-function ICECounterHackEffector.new(fields) return end
+function ICECounterHackEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ICECounterHackEffector:ActionOn(owner) return end
+function ICECounterHackEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ICECounterHackEffector:Initialize(record, parentRecord) return end
+function ICECounterHackEffector:Initialize(record, parentRecord) end

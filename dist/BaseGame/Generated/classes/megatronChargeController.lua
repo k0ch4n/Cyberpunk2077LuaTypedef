@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class megatronChargeController: ChargeLogicController
----@field private chargeBar inkImageWidget
+---@field chargeBar inkImageWidget
 megatronChargeController = {}
 
 ---@param fields? megatronChargeController
 ---@return megatronChargeController
-function megatronChargeController.new(fields) return end
+function megatronChargeController.new(fields) end
 
----@protected
 ---@return Bool
-function megatronChargeController:OnInitialize() return end
+function megatronChargeController:OnInitialize() end
 
 ---@param value Float
 ---@return nil
-function megatronChargeController:OnChargeChanged(value) return end
+function megatronChargeController:OnChargeChanged(value) end

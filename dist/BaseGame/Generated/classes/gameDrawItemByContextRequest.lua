@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameDrawItemByContextRequest: gamePlayerScriptableSystemRequest
----@field public itemEquipContext gameItemEquipContexts
----@field public equipAnimationType gameEquipAnimationType
+---@field itemEquipContext gameItemEquipContexts
+---@field equipAnimationType gameEquipAnimationType
 gameDrawItemByContextRequest = {}
 
 ---@param fields? gameDrawItemByContextRequest
 ---@return gameDrawItemByContextRequest
-function gameDrawItemByContextRequest.new(fields) return end
+function gameDrawItemByContextRequest.new(fields) end

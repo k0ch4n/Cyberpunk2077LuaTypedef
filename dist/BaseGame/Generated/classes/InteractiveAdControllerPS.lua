@@ -1,56 +1,52 @@
 ---@meta
 
 ---@class InteractiveAdControllerPS: ScriptableDeviceComponentPS
----@field protected showAd Bool
----@field protected showVendor Bool
----@field protected locationAdded Bool
+---@field showAd Bool
+---@field showVendor Bool
+---@field locationAdded Bool
 InteractiveAdControllerPS = {}
 
 ---@param fields? InteractiveAdControllerPS
 ---@return InteractiveAdControllerPS
-function InteractiveAdControllerPS.new(fields) return end
+function InteractiveAdControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function InteractiveAdControllerPS:OnInstantiated() return end
+function InteractiveAdControllerPS:OnInstantiated() end
 
----@protected
 ---@param ButtonName String
 ---@return CloseAd
-function InteractiveAdControllerPS:ActionCloseAd(ButtonName) return end
+function InteractiveAdControllerPS:ActionCloseAd(ButtonName) end
 
----@protected
 ---@param ButtonName String
 ---@return ShowVendor
-function InteractiveAdControllerPS:ActionShowVendor(ButtonName) return end
+function InteractiveAdControllerPS:ActionShowVendor(ButtonName) end
 
 ---@param value Bool
 ---@return nil
-function InteractiveAdControllerPS:AddLocation(value) return end
+function InteractiveAdControllerPS:AddLocation(value) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function InteractiveAdControllerPS:GetActions(context) return end
+function InteractiveAdControllerPS:GetActions(context) end
 
 ---@return InteractiveDeviceBlackboardDef
-function InteractiveAdControllerPS:GetBlackboardDef() return end
+function InteractiveAdControllerPS:GetBlackboardDef() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function InteractiveAdControllerPS:GetQuestActions(context) return end
+function InteractiveAdControllerPS:GetQuestActions(context) end
 
----@protected
 ---@return nil
-function InteractiveAdControllerPS:Initialize() return end
+function InteractiveAdControllerPS:Initialize() end
 
 ---@param evt CloseAd
 ---@return EntityNotificationType
-function InteractiveAdControllerPS:OnCloseAd(evt) return end
+function InteractiveAdControllerPS:OnCloseAd(evt) end
 
 ---@param evt ShowVendor
 ---@return EntityNotificationType
-function InteractiveAdControllerPS:OnShowVendor(evt) return end
+function InteractiveAdControllerPS:OnShowVendor(evt) end
 
 ---@param value Bool
 ---@return nil
-function InteractiveAdControllerPS:SetIsReady(value) return end
+function InteractiveAdControllerPS:SetIsReady(value) end

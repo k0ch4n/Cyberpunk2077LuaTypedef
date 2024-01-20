@@ -1,91 +1,90 @@
 ---@meta
 
 ---@class ChatterLineLogicController: BaseSubtitleLineLogicController
----@field private TextContainer inkWidgetReference
----@field private speachBubble inkWidgetReference
----@field private background inkRectangleWidgetReference
----@field private container_normal inkWidgetReference
----@field private container_wide inkWidgetReference
----@field private text_normal inkTextWidgetReference
----@field private text_wide inkTextWidgetReference
----@field private kiroshiAnimationCtrl_Normal inkTextKiroshiAnimationController
----@field private kiroshiAnimationCtrl_Wide inkTextKiroshiAnimationController
----@field private motherTongueCtrl_Normal inkTextMotherTongueController
----@field private motherTongueCtrl_Wide inkTextMotherTongueController
----@field private isNameplateVisible Bool
----@field private nameplateEntityId entEntityID
----@field private nameplatHeightOffset Float
----@field private ownerId entEntityID
----@field private c_ExtraWideTextWidth Int32
----@field private rootWidget inkWidget
----@field private projection inkScreenProjection
----@field private subtitlesMaxDistance Float
----@field private bubbleMinDistance Float
----@field private limitSubtitlesDistance Bool
----@field private isOverHead Bool
+---@field TextContainer inkWidgetReference
+---@field speachBubble inkWidgetReference
+---@field background inkRectangleWidgetReference
+---@field container_normal inkWidgetReference
+---@field container_wide inkWidgetReference
+---@field text_normal inkTextWidgetReference
+---@field text_wide inkTextWidgetReference
+---@field kiroshiAnimationCtrl_Normal inkTextKiroshiAnimationController
+---@field kiroshiAnimationCtrl_Wide inkTextKiroshiAnimationController
+---@field motherTongueCtrl_Normal inkTextMotherTongueController
+---@field motherTongueCtrl_Wide inkTextMotherTongueController
+---@field isNameplateVisible Bool
+---@field nameplateEntityId entEntityID
+---@field nameplatHeightOffset Float
+---@field ownerId entEntityID
+---@field c_ExtraWideTextWidth Int32
+---@field rootWidget inkWidget
+---@field projection inkScreenProjection
+---@field subtitlesMaxDistance Float
+---@field bubbleMinDistance Float
+---@field limitSubtitlesDistance Bool
+---@field isOverHead Bool
 ChatterLineLogicController = {}
 
 ---@param fields? ChatterLineLogicController
 ---@return ChatterLineLogicController
-function ChatterLineLogicController.new(fields) return end
+function ChatterLineLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function ChatterLineLogicController:OnInitialize() return end
+function ChatterLineLogicController:OnInitialize() end
 
 ---@param isDevice Bool
 ---@return inkScreenProjectionData
-function ChatterLineLogicController:CreateProjectionData(isDevice) return end
+function ChatterLineLogicController:CreateProjectionData(isDevice) end
 
 ---@return entEntityID
-function ChatterLineLogicController:GetOwnerID() return end
+function ChatterLineLogicController:GetOwnerID() end
 
 ---@return inkScreenProjection
-function ChatterLineLogicController:GetProjection() return end
+function ChatterLineLogicController:GetProjection() end
 
 ---@param targetedObject entEntityID
 ---@return Bool
-function ChatterLineLogicController:IsBubble(targetedObject) return end
+function ChatterLineLogicController:IsBubble(targetedObject) end
 
 ---@param targetedObject entEntityID
 ---@return Bool
-function ChatterLineLogicController:IsVisible(targetedObject) return end
+function ChatterLineLogicController:IsVisible(targetedObject) end
 
 ---@param lineData scnDialogLineData
 ---@return nil
-function ChatterLineLogicController:SetLineData(lineData) return end
+function ChatterLineLogicController:SetLineData(lineData) end
 
 ---@param argNameplateVisible Bool
 ---@param argEntityId entEntityID
 ---@return nil
-function ChatterLineLogicController:SetNameplateData(argNameplateVisible, argEntityId) return end
+function ChatterLineLogicController:SetNameplateData(argNameplateVisible, argEntityId) end
 
 ---@param blackboardVariant Variant
 ---@return nil
-function ChatterLineLogicController:SetNameplateEntity(blackboardVariant) return end
+function ChatterLineLogicController:SetNameplateEntity(blackboardVariant) end
 
 ---@param value Float
 ---@return nil
-function ChatterLineLogicController:SetNameplateOffsetValue(value) return end
+function ChatterLineLogicController:SetNameplateOffsetValue(value) end
 
 ---@param isVisible Bool
 ---@return nil
-function ChatterLineLogicController:SetNameplateVisibility(isVisible) return end
+function ChatterLineLogicController:SetNameplateVisibility(isVisible) end
 
 ---@param projection inkScreenProjection
 ---@return nil
-function ChatterLineLogicController:SetProjection(projection) return end
+function ChatterLineLogicController:SetProjection(projection) end
 
 ---@param textSize Int32
 ---@param backgroundOpacity Float
 ---@return nil
-function ChatterLineLogicController:SetupSettings(textSize, backgroundOpacity) return end
+function ChatterLineLogicController:SetupSettings(textSize, backgroundOpacity) end
 
 ---@param value Bool
 ---@return nil
-function ChatterLineLogicController:ShowBackground(value) return end
+function ChatterLineLogicController:ShowBackground(value) end
 
 ---@param targetedObject entEntityID
 ---@param owner ChattersGameController
 ---@return nil
-function ChatterLineLogicController:UpdateProjection(targetedObject, owner) return end
+function ChatterLineLogicController:UpdateProjection(targetedObject, owner) end

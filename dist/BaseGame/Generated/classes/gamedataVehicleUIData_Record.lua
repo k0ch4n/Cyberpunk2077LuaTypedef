@@ -5,19 +5,19 @@ gamedataVehicleUIData_Record = {}
 
 ---@param fields? gamedataVehicleUIData_Record
 ---@return gamedataVehicleUIData_Record
-function gamedataVehicleUIData_Record.new(fields) return end
+function gamedataVehicleUIData_Record.new(fields) end
 
 ---@return String
-function gamedataVehicleUIData_Record:DriveLayout() return end
+function gamedataVehicleUIData_Record:DriveLayout() end
 
 ---@return Float
-function gamedataVehicleUIData_Record:Horsepower() return end
+function gamedataVehicleUIData_Record:Horsepower() end
 
 ---@return String
-function gamedataVehicleUIData_Record:Info() return end
+function gamedataVehicleUIData_Record:Info() end
 
 ---@return Float
-function gamedataVehicleUIData_Record:Mass() return end
+function gamedataVehicleUIData_Record:Mass() end
 
 ---@return String
-function gamedataVehicleUIData_Record:ProductionYear() return end
+function gamedataVehicleUIData_Record:ProductionYear() end

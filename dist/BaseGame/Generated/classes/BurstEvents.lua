@@ -5,11 +5,10 @@ BurstEvents = {}
 
 ---@param fields? BurstEvents
 ---@return BurstEvents
-function BurstEvents.new(fields) return end
+function BurstEvents.new(fields) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BurstEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function BurstEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

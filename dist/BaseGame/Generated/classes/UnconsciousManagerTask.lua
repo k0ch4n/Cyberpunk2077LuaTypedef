@@ -5,20 +5,17 @@ UnconsciousManagerTask = {}
 
 ---@param fields? UnconsciousManagerTask
 ---@return UnconsciousManagerTask
-function UnconsciousManagerTask.new(fields) return end
+function UnconsciousManagerTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UnconsciousManagerTask:Activate(context) return end
+function UnconsciousManagerTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UnconsciousManagerTask:Deactivate(context) return end
+function UnconsciousManagerTask:Deactivate(context) end
 
----@protected
 ---@param puppet NPCPuppet
 ---@param state Bool
 ---@return nil
-function UnconsciousManagerTask:SetUnconsciousBodyVisibleComponent(puppet, state) return end
+function UnconsciousManagerTask:SetUnconsciousBodyVisibleComponent(puppet, state) end

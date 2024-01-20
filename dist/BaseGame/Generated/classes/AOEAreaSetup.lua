@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class AOEAreaSetup
----@field public areaEffect TweakDBID
----@field public actionName TweakDBID
----@field public blocksVisibility Bool
----@field public isDangerous Bool
----@field public activateOnStartup Bool
----@field public effectsOnlyActiveInArea Bool
----@field public duration Float
----@field public actionWidgetRecord TweakDBID
----@field public deviceWidgetRecord TweakDBID
----@field public thumbnailWidgetRecord TweakDBID
+---@field areaEffect TweakDBID
+---@field actionName TweakDBID
+---@field blocksVisibility Bool
+---@field isDangerous Bool
+---@field activateOnStartup Bool
+---@field effectsOnlyActiveInArea Bool
+---@field duration Float
+---@field actionWidgetRecord TweakDBID
+---@field deviceWidgetRecord TweakDBID
+---@field thumbnailWidgetRecord TweakDBID
 AOEAreaSetup = {}
 
 ---@param fields? AOEAreaSetup
 ---@return AOEAreaSetup
-function AOEAreaSetup.new(fields) return end
+function AOEAreaSetup.new(fields) end

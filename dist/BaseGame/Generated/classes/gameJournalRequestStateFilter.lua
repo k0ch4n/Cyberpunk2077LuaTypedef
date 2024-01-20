@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalRequestStateFilter
----@field public inactive Bool
----@field public active Bool
----@field public succeeded Bool
----@field public failed Bool
+---@field inactive Bool
+---@field active Bool
+---@field succeeded Bool
+---@field failed Bool
 gameJournalRequestStateFilter = {}
 
 ---@param fields? gameJournalRequestStateFilter
 ---@return gameJournalRequestStateFilter
-function gameJournalRequestStateFilter.new(fields) return end
+function gameJournalRequestStateFilter.new(fields) end

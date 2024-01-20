@@ -5,16 +5,16 @@ gamedataAIIsInActiveCameraCond_Record = {}
 
 ---@param fields? gamedataAIIsInActiveCameraCond_Record
 ---@return gamedataAIIsInActiveCameraCond_Record
-function gamedataAIIsInActiveCameraCond_Record.new(fields) return end
+function gamedataAIIsInActiveCameraCond_Record.new(fields) end
 
 ---@return Float
-function gamedataAIIsInActiveCameraCond_Record:Height() return end
+function gamedataAIIsInActiveCameraCond_Record:Height() end
 
 ---@return Float
-function gamedataAIIsInActiveCameraCond_Record:Radius() return end
+function gamedataAIIsInActiveCameraCond_Record:Radius() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIIsInActiveCameraCond_Record:Target() return end
+function gamedataAIIsInActiveCameraCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIIsInActiveCameraCond_Record:TargetHandle() return end
+function gamedataAIIsInActiveCameraCond_Record:TargetHandle() end

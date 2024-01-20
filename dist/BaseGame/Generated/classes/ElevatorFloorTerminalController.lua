@@ -5,7 +5,7 @@ ElevatorFloorTerminalController = {}
 
 ---@param fields? ElevatorFloorTerminalController
 ---@return ElevatorFloorTerminalController
-function ElevatorFloorTerminalController.new(fields) return end
+function ElevatorFloorTerminalController.new(fields) end
 
 ---@return ElevatorFloorTerminalControllerPS
-function ElevatorFloorTerminalController:GetPS() return end
+function ElevatorFloorTerminalController:GetPS() end

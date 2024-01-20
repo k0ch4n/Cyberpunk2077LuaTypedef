@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class IsLootContainer: gameEffectObjectSingleFilter_Scripted
----@field public invert Bool
+---@field invert Bool
 IsLootContainer = {}
 
 ---@param fields? IsLootContainer
 ---@return IsLootContainer
-function IsLootContainer.new(fields) return end
+function IsLootContainer.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IsLootContainer:Process(ctx, filterCtx) return end
+function IsLootContainer:Process(ctx, filterCtx) end

@@ -1,105 +1,95 @@
 ---@meta
 
 ---@class gameItemObject: gameTimeDilatable
----@field public updateBucket UpdateBucketEnum
----@field private lootQuality gamedataQuality
----@field private isIconic Bool
----@field private isBroken Bool
+---@field updateBucket UpdateBucketEnum
+---@field lootQuality gamedataQuality
+---@field isIconic Bool
+---@field isBroken Bool
 gameItemObject = {}
 
 ---@param fields? gameItemObject
 ---@return gameItemObject
-function gameItemObject.new(fields) return end
+function gameItemObject.new(fields) end
 
 ---@return CName[]
-function gameItemObject:GetAnimationParameters() return end
+function gameItemObject:GetAnimationParameters() end
 
 ---@return gameItemDropObject
-function gameItemObject:GetConnectedItemDrop() return end
+function gameItemObject:GetConnectedItemDrop() end
 
 ---@return gameItemData
-function gameItemObject:GetItemData() return end
+function gameItemObject:GetItemData() end
 
 ---@return gameItemID
-function gameItemObject:GetItemID() return end
+function gameItemObject:GetItemID() end
 
 ---@return Bool
-function gameItemObject:IsClientSideOnlyGadget() return end
+function gameItemObject:IsClientSideOnlyGadget() end
 
 ---@return Bool
-function gameItemObject:IsConnectedWithDrop() return end
+function gameItemObject:IsConnectedWithDrop() end
 
 ---@return Bool
-function gameItemObject:IsVisualSpawnAttached() return end
+function gameItemObject:IsVisualSpawnAttached() end
 
 ---@param evt redEvent
 ---@return nil
-function gameItemObject:QueueEventToChildItems(evt) return end
+function gameItemObject:QueueEventToChildItems(evt) end
 
----@protected
 ---@param evt gameeventsEvaluateLootQualityEvent
 ---@return Bool
-function gameItemObject:OnEvaluateLootQuality(evt) return end
+function gameItemObject:OnEvaluateLootQuality(evt) end
 
----@protected
 ---@return Bool
-function gameItemObject:OnGameAttached() return end
+function gameItemObject:OnGameAttached() end
 
----@protected
 ---@param evt ItemLootedEvent
 ---@return Bool
-function gameItemObject:OnItemLooted(evt) return end
+function gameItemObject:OnItemLooted(evt) end
 
----@protected
 ---@return Bool
-function gameItemObject:OnVisualSpawnAttached() return end
+function gameItemObject:OnVisualSpawnAttached() end
 
 ---@return EGameplayRole
-function gameItemObject:DeterminGameplayRole() return end
+function gameItemObject:DeterminGameplayRole() end
 
----@private
 ---@return nil
-function gameItemObject:EvaluateLootQuality() return end
+function gameItemObject:EvaluateLootQuality() end
 
----@protected
 ---@return nil
-function gameItemObject:EvaluateLootQualityByTask() return end
+function gameItemObject:EvaluateLootQualityByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function gameItemObject:EvaluateLootQualityTask(data) return end
+function gameItemObject:EvaluateLootQualityTask(data) end
 
 ---@return EFocusOutlineType
-function gameItemObject:GetCurrentOutline() return end
+function gameItemObject:GetCurrentOutline() end
 
 ---@return FocusForcedHighlightData
-function gameItemObject:GetDefaultHighlight() return end
+function gameItemObject:GetDefaultHighlight() end
 
 ---@return Bool
-function gameItemObject:GetIsBroken() return end
+function gameItemObject:GetIsBroken() end
 
 ---@return Bool
-function gameItemObject:GetIsIconic() return end
+function gameItemObject:GetIsIconic() end
 
 ---@return gamedataQuality
-function gameItemObject:GetLootQuality() return end
-
----@protected
----@return Bool
-function gameItemObject:HasValidLootQuality() return end
+function gameItemObject:GetLootQuality() end
 
 ---@return Bool
-function gameItemObject:IsContainer() return end
+function gameItemObject:HasValidLootQuality() end
 
 ---@return Bool
-function gameItemObject:IsQuest() return end
+function gameItemObject:IsContainer() end
 
----@protected
 ---@return Bool
-function gameItemObject:ShouldRegisterToHUD() return end
+function gameItemObject:IsQuest() end
 
----@private
+---@return Bool
+function gameItemObject:ShouldRegisterToHUD() end
+
 ---@param enable Bool
 ---@return nil
-function gameItemObject:ToggleLootHighlight(enable) return end
+function gameItemObject:ToggleLootHighlight(enable) end

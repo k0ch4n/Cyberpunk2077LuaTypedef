@@ -5,4 +5,4 @@ ReturnToDeviceScreenEvent = {}
 
 ---@param fields? ReturnToDeviceScreenEvent
 ---@return ReturnToDeviceScreenEvent
-function ReturnToDeviceScreenEvent.new(fields) return end
+function ReturnToDeviceScreenEvent.new(fields) end

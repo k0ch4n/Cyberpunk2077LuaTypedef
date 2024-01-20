@@ -1,35 +1,32 @@
 ---@meta
 
 ---@class HoloDeviceControllerPS: ScriptableDeviceComponentPS
----@field private isPlaying Bool
+---@field isPlaying Bool
 HoloDeviceControllerPS = {}
 
 ---@param fields? HoloDeviceControllerPS
 ---@return HoloDeviceControllerPS
-function HoloDeviceControllerPS.new(fields) return end
+function HoloDeviceControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function HoloDeviceControllerPS:OnInstantiated() return end
+function HoloDeviceControllerPS:OnInstantiated() end
 
----@protected
 ---@return TogglePlay
-function HoloDeviceControllerPS:ActionTogglePlay() return end
+function HoloDeviceControllerPS:ActionTogglePlay() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function HoloDeviceControllerPS:GetActions(context) return end
+function HoloDeviceControllerPS:GetActions(context) end
 
 ---@return gamedeviceClearance
-function HoloDeviceControllerPS:GetClearance() return end
+function HoloDeviceControllerPS:GetClearance() end
 
----@protected
 ---@return nil
-function HoloDeviceControllerPS:Initialize() return end
+function HoloDeviceControllerPS:Initialize() end
 
 ---@return Bool
-function HoloDeviceControllerPS:IsPlaying() return end
+function HoloDeviceControllerPS:IsPlaying() end
 
 ---@param evt TogglePlay
 ---@return EntityNotificationType
-function HoloDeviceControllerPS:OnPlay(evt) return end
+function HoloDeviceControllerPS:OnPlay(evt) end

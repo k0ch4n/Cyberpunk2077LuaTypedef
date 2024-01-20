@@ -5,4 +5,4 @@ gameTransformAnimatorComponentReplicatedState = {}
 
 ---@param fields? gameTransformAnimatorComponentReplicatedState
 ---@return gameTransformAnimatorComponentReplicatedState
-function gameTransformAnimatorComponentReplicatedState.new(fields) return end
+function gameTransformAnimatorComponentReplicatedState.new(fields) end

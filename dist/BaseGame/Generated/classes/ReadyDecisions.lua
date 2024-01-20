@@ -5,14 +5,12 @@ ReadyDecisions = {}
 
 ---@param fields? ReadyDecisions
 ---@return ReadyDecisions
-function ReadyDecisions.new(fields) return end
+function ReadyDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ReadyDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ReadyDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@return nil
-function ReadyDecisions:UpdateWeaponReadyListenerReturnValue() return end
+function ReadyDecisions:UpdateWeaponReadyListenerReturnValue() end

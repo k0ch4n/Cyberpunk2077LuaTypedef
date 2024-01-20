@@ -5,13 +5,13 @@ gamedataNPCHighLevelState_Record = {}
 
 ---@param fields? gamedataNPCHighLevelState_Record
 ---@return gamedataNPCHighLevelState_Record
-function gamedataNPCHighLevelState_Record.new(fields) return end
+function gamedataNPCHighLevelState_Record.new(fields) end
 
 ---@return String
-function gamedataNPCHighLevelState_Record:Comment() return end
+function gamedataNPCHighLevelState_Record:Comment() end
 
 ---@return CName
-function gamedataNPCHighLevelState_Record:EnumName() return end
+function gamedataNPCHighLevelState_Record:EnumName() end
 
 ---@return gamedataNPCHighLevelState
-function gamedataNPCHighLevelState_Record:Type() return end
+function gamedataNPCHighLevelState_Record:Type() end

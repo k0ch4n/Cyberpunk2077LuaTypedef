@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AddItemForPlayerToPickUp: ScriptableDeviceAction
----@field public lootTable TweakDBID
----@field public shouldAdd Bool
+---@field lootTable TweakDBID
+---@field shouldAdd Bool
 AddItemForPlayerToPickUp = {}
 
 ---@param fields? AddItemForPlayerToPickUp
 ---@return AddItemForPlayerToPickUp
-function AddItemForPlayerToPickUp.new(fields) return end
+function AddItemForPlayerToPickUp.new(fields) end
 
 ---@return String
-function AddItemForPlayerToPickUp:GetFriendlyDescription() return end
+function AddItemForPlayerToPickUp:GetFriendlyDescription() end

@@ -1,39 +1,36 @@
 ---@meta
 
 ---@class inkListItemController: inkButtonController
----@field public ToggledOff inkListItemControllerCallback
----@field public ToggledOn inkListItemControllerCallback
----@field public Selected inkListItemControllerCallback
----@field public Deselected inkListItemControllerCallback
----@field public AddedToList inkListItemControllerCallback
----@field public labelPathRef inkTextWidgetReference
+---@field ToggledOff inkListItemControllerCallback
+---@field ToggledOn inkListItemControllerCallback
+---@field Selected inkListItemControllerCallback
+---@field Deselected inkListItemControllerCallback
+---@field AddedToList inkListItemControllerCallback
+---@field labelPathRef inkTextWidgetReference
 inkListItemController = {}
 
 ---@param fields? inkListItemController
 ---@return inkListItemController
-function inkListItemController.new(fields) return end
+function inkListItemController.new(fields) end
 
 ---@return IScriptable
-function inkListItemController:GetData() return end
+function inkListItemController:GetData() end
 
 ---@return Int32
-function inkListItemController:GetIndex() return end
+function inkListItemController:GetIndex() end
 
 ---@return Bool
-function inkListItemController:IsSelected() return end
+function inkListItemController:IsSelected() end
 
 ---@return Bool
-function inkListItemController:IsToggled() return end
+function inkListItemController:IsToggled() end
 
----@protected
 ---@param value IScriptable
 ---@return Bool
-function inkListItemController:OnDataChanged(value) return end
+function inkListItemController:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function inkListItemController:OnInitialize() return end
+function inkListItemController:OnInitialize() end
 
----@protected
 ---@return Bool
-function inkListItemController:OnSetCursorOver() return end
+function inkListItemController:OnSetCursorOver() end

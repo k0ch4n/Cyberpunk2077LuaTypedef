@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameuiBinkResource
----@field public video Bink
+---@field video Bink
 gameuiBinkResource = {}
 
 ---@param fields? gameuiBinkResource
 ---@return gameuiBinkResource
-function gameuiBinkResource.new(fields) return end
+function gameuiBinkResource.new(fields) end
 
 ---@param self gameuiBinkResource
 ---@return redResourceReferenceScriptToken
-function gameuiBinkResource.GetPath(self) return end
+function gameuiBinkResource.GetPath(self) end
 
 ---@param self gameuiBinkResource
 ---@return Bool
-function gameuiBinkResource.IsValid(self) return end
+function gameuiBinkResource.IsValid(self) end

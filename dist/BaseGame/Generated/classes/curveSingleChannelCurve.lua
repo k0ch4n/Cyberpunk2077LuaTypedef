@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class curveSingleChannelCurve
----@field public interpolationType curveEInterpolationType
----@field public linkType curveESegmentsLinkType
----@field public data DataBuffer
+---@field interpolationType curveEInterpolationType
+---@field linkType curveESegmentsLinkType
+---@field data DataBuffer
 curveSingleChannelCurve = {}
 
 ---@param fields? curveSingleChannelCurve
 ---@return curveSingleChannelCurve
-function curveSingleChannelCurve.new(fields) return end
+function curveSingleChannelCurve.new(fields) end

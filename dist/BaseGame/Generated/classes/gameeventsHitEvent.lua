@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class gameeventsHitEvent: redEvent
----@field public attackData gamedamageAttackData
----@field public target gameObject
----@field public hitPosition Vector4
----@field public hitDirection Vector4
----@field public hitComponent entIPlacedComponent
----@field public hitColliderTag CName
----@field public hitRepresentationResult gameQueryResult
----@field public attackPentration Float
----@field public hasPiercedTechSurface Bool
----@field public attackComputed gameAttackComputed
----@field public wasAliveBeforeHit Bool
----@field public projectionPipeline Bool
+---@field attackData gamedamageAttackData
+---@field target gameObject
+---@field hitPosition Vector4
+---@field hitDirection Vector4
+---@field hitComponent entIPlacedComponent
+---@field hitColliderTag CName
+---@field hitRepresentationResult gameQueryResult
+---@field attackPentration Float
+---@field hasPiercedTechSurface Bool
+---@field attackComputed gameAttackComputed
+---@field wasAliveBeforeHit Bool
+---@field projectionPipeline Bool
 gameeventsHitEvent = {}
 
 ---@param fields? gameeventsHitEvent
 ---@return gameeventsHitEvent
-function gameeventsHitEvent.new(fields) return end
+function gameeventsHitEvent.new(fields) end

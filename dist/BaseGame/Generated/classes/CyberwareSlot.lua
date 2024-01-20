@@ -1,26 +1,25 @@
 ---@meta
 
 ---@class CyberwareSlot: BaseButtonView
----@field private IconImageRef inkImageWidgetReference
----@field private SlotEquipArea gamedataEquipmentArea
----@field private NumSlots Int32
+---@field IconImageRef inkImageWidgetReference
+---@field SlotEquipArea gamedataEquipmentArea
+---@field NumSlots Int32
 CyberwareSlot = {}
 
 ---@param fields? CyberwareSlot
 ---@return CyberwareSlot
-function CyberwareSlot.new(fields) return end
+function CyberwareSlot.new(fields) end
 
----@protected
 ---@return Bool
-function CyberwareSlot:OnInitialize() return end
+function CyberwareSlot:OnInitialize() end
 
 ---@return gamedataEquipmentArea
-function CyberwareSlot:GetEquipmentArea() return end
+function CyberwareSlot:GetEquipmentArea() end
 
 ---@return Int32
-function CyberwareSlot:GetNumSlots() return end
+function CyberwareSlot:GetNumSlots() end
 
 ---@param equipArea gamedataEquipmentArea
 ---@param numSlots Int32
 ---@return nil
-function CyberwareSlot:Setup(equipArea, numSlots) return end
+function CyberwareSlot:Setup(equipArea, numSlots) end

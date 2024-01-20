@@ -5,9 +5,8 @@ IsNPCInActivePoliceChase = {}
 
 ---@param fields? IsNPCInActivePoliceChase
 ---@return IsNPCInActivePoliceChase
-function IsNPCInActivePoliceChase.new(fields) return end
+function IsNPCInActivePoliceChase.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsNPCInActivePoliceChase:Check(context) return end
+function IsNPCInActivePoliceChase:Check(context) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class workWorkspotGlobalProp
----@field public id CName
----@field public boneName CName
----@field public prop entEntityTemplate
+---@field id CName
+---@field boneName CName
+---@field prop entEntityTemplate
 workWorkspotGlobalProp = {}
 
 ---@param fields? workWorkspotGlobalProp
 ---@return workWorkspotGlobalProp
-function workWorkspotGlobalProp.new(fields) return end
+function workWorkspotGlobalProp.new(fields) end

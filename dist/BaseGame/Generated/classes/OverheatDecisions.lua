@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class OverheatDecisions: WeaponTransition
----@field private callbackID redCallbackObject
+---@field callbackID redCallbackObject
 OverheatDecisions = {}
 
 ---@param fields? OverheatDecisions
 ---@return OverheatDecisions
-function OverheatDecisions.new(fields) return end
+function OverheatDecisions.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function OverheatDecisions:OnForcedOverheatCooldownChanged(value) return end
+function OverheatDecisions:OnForcedOverheatCooldownChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function OverheatDecisions:EnterCondition(stateContext, scriptInterface) return end
+function OverheatDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function OverheatDecisions:ExitCondition(stateContext, scriptInterface) return end
+function OverheatDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function OverheatDecisions:OnAttach(stateContext, scriptInterface) return end
+function OverheatDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function OverheatDecisions:OnDetach(stateContext, scriptInterface) return end
+function OverheatDecisions:OnDetach(stateContext, scriptInterface) end

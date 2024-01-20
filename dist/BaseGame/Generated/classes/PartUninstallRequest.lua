@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PartUninstallRequest: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
----@field public partID gameItemID
+---@field itemID gameItemID
+---@field partID gameItemID
 PartUninstallRequest = {}
 
 ---@param fields? PartUninstallRequest
 ---@return PartUninstallRequest
-function PartUninstallRequest.new(fields) return end
+function PartUninstallRequest.new(fields) end

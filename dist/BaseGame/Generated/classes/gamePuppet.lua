@@ -5,115 +5,115 @@ gamePuppet = {}
 
 ---@param fields? gamePuppet
 ---@return gamePuppet
-function gamePuppet.new(fields) return end
+function gamePuppet.new(fields) end
 
 ---@param self ScriptedPuppet
 ---@return Bool
-function gamePuppet.HasLootableItems(self) return end
+function gamePuppet.HasLootableItems(self) end
 
 ---@return nil
-function gamePuppet:CacheLootForDropping() return end
+function gamePuppet:CacheLootForDropping() end
 
 ---@return Bool
-function gamePuppet:CanRagdoll() return end
+function gamePuppet:CanRagdoll() end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function gamePuppet:CheckIsStandingOnVehicle(vehicleID) return end
+function gamePuppet:CheckIsStandingOnVehicle(vehicleID) end
 
 ---@return nil
-function gamePuppet:DropAmmo() return end
+function gamePuppet:DropAmmo() end
 
 ---@return nil
-function gamePuppet:DropLootBag() return end
+function gamePuppet:DropLootBag() end
 
 ---@return nil
-function gamePuppet:DropWeapons() return end
+function gamePuppet:DropWeapons() end
 
 ---@return nil
-function gamePuppet:GenerateLoot() return end
+function gamePuppet:GenerateLoot() end
 
 ---@param lootModifiers gameStatModifierData_Deprecated[]
 ---@return nil
-function gamePuppet:GenerateLootWithStats(lootModifiers) return end
+function gamePuppet:GenerateLootWithStats(lootModifiers) end
 
 ---@return gameAttitudeAgent
-function gamePuppet:GetAttitude() return end
+function gamePuppet:GetAttitude() end
 
 ---@return gameIBlackboard
-function gamePuppet:GetBlackboard() return end
+function gamePuppet:GetBlackboard() end
 
 ---@return CName
-function gamePuppet:GetBodyType() return end
+function gamePuppet:GetBodyType() end
 
 ---@param deviceGroup CName|string
 ---@return Bool
-function gamePuppet:GetCPOMissionVoted(deviceGroup) return end
+function gamePuppet:GetCPOMissionVoted(deviceGroup) end
 
 ---@param position Vector4
 ---@return navNaviPositionType
-function gamePuppet:GetCurrentNavmeshPosition(position) return end
+function gamePuppet:GetCurrentNavmeshPosition(position) end
 
 ---@return Vector4
-function gamePuppet:GetLastValidNavmeshPoint() return end
+function gamePuppet:GetLastValidNavmeshPoint() end
 
 ---@return gamedataNPCRarity
-function gamePuppet:GetNPCRarity() return end
+function gamePuppet:GetNPCRarity() end
 
 ---@return gamedataNPCRarity_Record
-function gamePuppet:GetNPCRarityRecord() return end
+function gamePuppet:GetNPCRarityRecord() end
 
 ---@return CName
-function gamePuppet:GetResolvedGenderName() return end
+function gamePuppet:GetResolvedGenderName() end
 
 ---@return senseComponent
-function gamePuppet:GetSenses() return end
+function gamePuppet:GetSenses() end
 
 ---@return AITargetTrackerComponent
-function gamePuppet:GetTargetTracker() return end
+function gamePuppet:GetTargetTracker() end
 
 ---@return Vector4
-function gamePuppet:GetVelocity() return end
+function gamePuppet:GetVelocity() end
 
 ---@return senseVisibleObjectComponent
-function gamePuppet:GetVisibleObject() return end
+function gamePuppet:GetVisibleObject() end
 
 ---@return Bool
-function gamePuppet:HasCPOMissionData() return end
+function gamePuppet:HasCPOMissionData() end
 
 ---@return Bool
-function gamePuppet:HasCrowdStaticLOD() return end
+function gamePuppet:HasCrowdStaticLOD() end
 
 ---@return Bool
-function gamePuppet:HasMechanicalImpactComponent() return end
+function gamePuppet:HasMechanicalImpactComponent() end
 
 ---@param tagList CName[]|string[]
 ---@return Bool
-function gamePuppet:HasRuntimeAnimsetTags(tagList) return end
+function gamePuppet:HasRuntimeAnimsetTags(tagList) end
 
 ---@return nil
-function gamePuppet:HideIrreversibly() return end
+function gamePuppet:HideIrreversibly() end
 
 ---@return nil
-function gamePuppet:InitializeBaseInventory() return end
+function gamePuppet:InitializeBaseInventory() end
 
 ---@return Bool
-function gamePuppet:IsLooted() return end
+function gamePuppet:IsLooted() end
 
 ---@return nil
-function gamePuppet:ProcessLoot() return end
+function gamePuppet:ProcessLoot() end
 
 ---@param hasCPOMissionData Bool
 ---@return nil
-function gamePuppet:SetCPOMissionData(hasCPOMissionData) return end
+function gamePuppet:SetCPOMissionData(hasCPOMissionData) end
 
 ---@param deviceGroup CName|string
 ---@param hasVoted Bool
 ---@return nil
-function gamePuppet:SetCPOMissionVoted(deviceGroup, hasVoted) return end
+function gamePuppet:SetCPOMissionVoted(deviceGroup, hasVoted) end
 
 ---@return entEntityID
-function gamePuppet:TryGetVehicleBelow() return end
+function gamePuppet:TryGetVehicleBelow() end
 
 ---@return Bool
-function gamePuppet:WasLootGenerated() return end
+function gamePuppet:WasLootGenerated() end

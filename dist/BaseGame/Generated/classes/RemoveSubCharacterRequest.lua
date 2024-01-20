@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RemoveSubCharacterRequest: gameScriptableSystemRequest
----@field public subCharType gamedataSubCharacter
+---@field subCharType gamedataSubCharacter
 RemoveSubCharacterRequest = {}
 
 ---@param fields? RemoveSubCharacterRequest
 ---@return RemoveSubCharacterRequest
-function RemoveSubCharacterRequest.new(fields) return end
+function RemoveSubCharacterRequest.new(fields) end

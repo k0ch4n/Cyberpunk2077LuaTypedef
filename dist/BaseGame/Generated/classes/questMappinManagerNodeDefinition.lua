@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questMappinManagerNodeDefinition: questDisableableNodeDefinition
----@field public path gameJournalPath
----@field public disablePreviousMappins Bool
+---@field path gameJournalPath
+---@field disablePreviousMappins Bool
 questMappinManagerNodeDefinition = {}
 
 ---@param fields? questMappinManagerNodeDefinition
 ---@return questMappinManagerNodeDefinition
-function questMappinManagerNodeDefinition.new(fields) return end
+function questMappinManagerNodeDefinition.new(fields) end

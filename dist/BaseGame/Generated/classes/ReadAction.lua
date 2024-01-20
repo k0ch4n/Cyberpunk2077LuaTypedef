@@ -5,20 +5,19 @@ ReadAction = {}
 
 ---@param fields? ReadAction
 ---@return ReadAction
-function ReadAction.new(fields) return end
+function ReadAction.new(fields) end
 
 ---@param actionID TweakDBID|string
 ---@return String
-function ReadAction.GetJournalEntryFromAction(actionID) return end
+function ReadAction.GetJournalEntryFromAction(actionID) end
 
 ---@return nil
-function ReadAction:CompleteAction() return end
+function ReadAction:CompleteAction() end
 
----@private
 ---@return String
-function ReadAction:GetJournalEntryFromAction() return end
+function ReadAction:GetJournalEntryFromAction() end
 
 ---@param context gameGetActionsContext
 ---@param objectActionsCallbackController? gameObjectActionsCallbackController
 ---@return Bool
-function ReadAction:IsVisible(context, objectActionsCallbackController) return end
+function ReadAction:IsVisible(context, objectActionsCallbackController) end

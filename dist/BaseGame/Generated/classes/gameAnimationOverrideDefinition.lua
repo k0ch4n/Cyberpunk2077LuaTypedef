@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameAnimationOverrideDefinition
----@field public animset animAnimSet
----@field public variables CName[]
+---@field animset animAnimSet
+---@field variables CName[]
 gameAnimationOverrideDefinition = {}
 
 ---@param fields? gameAnimationOverrideDefinition
 ---@return gameAnimationOverrideDefinition
-function gameAnimationOverrideDefinition.new(fields) return end
+function gameAnimationOverrideDefinition.new(fields) end

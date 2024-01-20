@@ -5,4 +5,4 @@ gameuiSetBackgroundEvent = {}
 
 ---@param fields? gameuiSetBackgroundEvent
 ---@return gameuiSetBackgroundEvent
-function gameuiSetBackgroundEvent.new(fields) return end
+function gameuiSetBackgroundEvent.new(fields) end

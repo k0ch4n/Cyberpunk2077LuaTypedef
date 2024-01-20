@@ -5,4 +5,4 @@ AIbehaviorHasDriverConditionDefinition = {}
 
 ---@param fields? AIbehaviorHasDriverConditionDefinition
 ---@return AIbehaviorHasDriverConditionDefinition
-function AIbehaviorHasDriverConditionDefinition.new(fields) return end
+function AIbehaviorHasDriverConditionDefinition.new(fields) end

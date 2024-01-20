@@ -1,100 +1,83 @@
 ---@meta
 
 ---@class FuseBox: InteractiveMasterDevice
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field protected numberOfComponentsToON Int32
----@field protected numberOfComponentsToOFF Int32
----@field protected indexesOfComponentsToOFF Int32[]
----@field public mesh entMeshComponent
----@field private componentsON entIPlacedComponent[]
----@field private componentsOFF entIPlacedComponent[]
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
+---@field numberOfComponentsToON Int32
+---@field numberOfComponentsToOFF Int32
+---@field indexesOfComponentsToOFF Int32[]
+---@field mesh entMeshComponent
+---@field componentsON entIPlacedComponent[]
+---@field componentsOFF entIPlacedComponent[]
 FuseBox = {}
 
 ---@param fields? FuseBox
 ---@return FuseBox
-function FuseBox.new(fields) return end
+function FuseBox.new(fields) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function FuseBox:OnHitEvent(hit) return end
+function FuseBox:OnHitEvent(hit) end
 
----@protected
 ---@param evt OverloadDevice
 ---@return Bool
-function FuseBox:OnOverloadDevice(evt) return end
+function FuseBox:OnOverloadDevice(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function FuseBox:OnRequestComponents(ri) return end
+function FuseBox:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function FuseBox:OnStopShortGlitch(evt) return end
+function FuseBox:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function FuseBox:OnTakeControl(ri) return end
+function FuseBox:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function FuseBox:DeterminGameplayRole() return end
+function FuseBox:DeterminGameplayRole() end
 
----@private
 ---@return FuseBoxController
-function FuseBox:GetController() return end
+function FuseBox:GetController() end
 
 ---@return FuseBoxControllerPS
-function FuseBox:GetDevicePS() return end
+function FuseBox:GetDevicePS() end
 
----@protected
 ---@return Bool
-function FuseBox:HasAnyDirectInteractionActive() return end
+function FuseBox:HasAnyDirectInteractionActive() end
 
----@protected
 ---@return nil
-function FuseBox:ResolveGameplayState() return end
+function FuseBox:ResolveGameplayState() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function FuseBox:StartGlitching(glitchState, intensity) return end
+function FuseBox:StartGlitching(glitchState, intensity) end
 
----@private
 ---@param effectName CName|string
 ---@return nil
-function FuseBox:StartOverloading(effectName) return end
+function FuseBox:StartOverloading(effectName) end
 
----@private
 ---@return nil
-function FuseBox:StartShortGlitch() return end
+function FuseBox:StartShortGlitch() end
 
----@protected
 ---@return nil
-function FuseBox:StopGlitching() return end
+function FuseBox:StopGlitching() end
 
----@private
 ---@return nil
-function FuseBox:StopOverloading() return end
+function FuseBox:StopOverloading() end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function FuseBox:ToggleComponentsON_OFF(visible) return end
+function FuseBox:ToggleComponentsON_OFF(visible) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function FuseBox:ToggleVisibility(visible) return end
+function FuseBox:ToggleVisibility(visible) end
 
----@protected
 ---@return nil
-function FuseBox:TurnOffDevice() return end
+function FuseBox:TurnOffDevice() end
 
----@protected
 ---@return nil
-function FuseBox:TurnOnDevice() return end
+function FuseBox:TurnOnDevice() end

@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class StopVFXEffector: gameEffector
----@field public vfxName CName
----@field public owner gameObject
+---@field vfxName CName
+---@field owner gameObject
 StopVFXEffector = {}
 
 ---@param fields? StopVFXEffector
 ---@return StopVFXEffector
-function StopVFXEffector.new(fields) return end
+function StopVFXEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StopVFXEffector:ActionOn(owner) return end
+function StopVFXEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StopVFXEffector:Initialize(record, parentRecord) return end
+function StopVFXEffector:Initialize(record, parentRecord) end

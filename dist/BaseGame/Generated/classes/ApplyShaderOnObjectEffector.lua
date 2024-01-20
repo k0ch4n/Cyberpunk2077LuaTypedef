@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class ApplyShaderOnObjectEffector: gameEffector
----@field private applicationTargetName CName
----@field private applicationTarget gameObject
----@field private effects gameEffectInstance[]
----@field private overrideMaterialName CName
----@field private overrideMaterialTag CName
----@field private overrideMaterialClearOnDetach Bool
----@field private effectInstance gameEffectInstance
----@field private owner gameObject
----@field private ownerEffect gameEffectInstance
+---@field applicationTargetName CName
+---@field applicationTarget gameObject
+---@field effects gameEffectInstance[]
+---@field overrideMaterialName CName
+---@field overrideMaterialTag CName
+---@field overrideMaterialClearOnDetach Bool
+---@field effectInstance gameEffectInstance
+---@field owner gameObject
+---@field ownerEffect gameEffectInstance
 ApplyShaderOnObjectEffector = {}
 
 ---@param fields? ApplyShaderOnObjectEffector
 ---@return ApplyShaderOnObjectEffector
-function ApplyShaderOnObjectEffector.new(fields) return end
+function ApplyShaderOnObjectEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyShaderOnObjectEffector:ActionOff(owner) return end
+function ApplyShaderOnObjectEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyShaderOnObjectEffector:ActionOn(owner) return end
+function ApplyShaderOnObjectEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyShaderOnObjectEffector:Initialize(record, parentRecord) return end
+function ApplyShaderOnObjectEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function ApplyShaderOnObjectEffector:Uninitialize() return end
+function ApplyShaderOnObjectEffector:Uninitialize() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CustomQuestNotificationUserData: inkGameNotificationData
----@field public data questCustomQuestNotificationData
+---@field data questCustomQuestNotificationData
 CustomQuestNotificationUserData = {}
 
 ---@param fields? CustomQuestNotificationUserData
 ---@return CustomQuestNotificationUserData
-function CustomQuestNotificationUserData.new(fields) return end
+function CustomQuestNotificationUserData.new(fields) end

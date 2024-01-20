@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ToggleWeakspotHighlightEvent: redEvent
----@field public sourceName CName
----@field public operation EToggleOperationType
+---@field sourceName CName
+---@field operation EToggleOperationType
 ToggleWeakspotHighlightEvent = {}
 
 ---@param fields? ToggleWeakspotHighlightEvent
 ---@return ToggleWeakspotHighlightEvent
-function ToggleWeakspotHighlightEvent.new(fields) return end
+function ToggleWeakspotHighlightEvent.new(fields) end
 
 ---@return String
-function ToggleWeakspotHighlightEvent:GetFriendlyDescription() return end
+function ToggleWeakspotHighlightEvent:GetFriendlyDescription() end

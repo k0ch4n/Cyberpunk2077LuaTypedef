@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameFreeCamera: gameObject
----@field public baseSpeed Float
----@field public analogTurnRate Float
----@field public mouseTurnRate Float
----@field public activationBlendTime Float
----@field public deactivationBlendTime Float
----@field public usePhysicalCollision Bool
+---@field baseSpeed Float
+---@field analogTurnRate Float
+---@field mouseTurnRate Float
+---@field activationBlendTime Float
+---@field deactivationBlendTime Float
+---@field usePhysicalCollision Bool
 gameFreeCamera = {}
 
 ---@param fields? gameFreeCamera
 ---@return gameFreeCamera
-function gameFreeCamera.new(fields) return end
+function gameFreeCamera.new(fields) end

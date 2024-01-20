@@ -5,16 +5,14 @@ SprintJumpLowGravityDecisions = {}
 
 ---@param fields? SprintJumpLowGravityDecisions
 ---@return SprintJumpLowGravityDecisions
-function SprintJumpLowGravityDecisions.new(fields) return end
+function SprintJumpLowGravityDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SprintJumpLowGravityDecisions:ToJumpLowGravity(stateContext, scriptInterface) return end
+function SprintJumpLowGravityDecisions:ToJumpLowGravity(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SprintJumpLowGravityDecisions:ToSprintLowGravity(stateContext, scriptInterface) return end
+function SprintJumpLowGravityDecisions:ToSprintLowGravity(stateContext, scriptInterface) end

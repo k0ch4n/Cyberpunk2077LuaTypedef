@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnSetupSyncWorkspotRelationshipsEvent: scnSceneEvent
----@field public syncedWorkspotIds scnSceneWorkspotInstanceId
+---@field syncedWorkspotIds scnSceneWorkspotInstanceId
 scnSetupSyncWorkspotRelationshipsEvent = {}
 
 ---@param fields? scnSetupSyncWorkspotRelationshipsEvent
 ---@return scnSetupSyncWorkspotRelationshipsEvent
-function scnSetupSyncWorkspotRelationshipsEvent.new(fields) return end
+function scnSetupSyncWorkspotRelationshipsEvent.new(fields) end

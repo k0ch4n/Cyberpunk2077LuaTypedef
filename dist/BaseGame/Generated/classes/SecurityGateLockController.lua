@@ -5,7 +5,7 @@ SecurityGateLockController = {}
 
 ---@param fields? SecurityGateLockController
 ---@return SecurityGateLockController
-function SecurityGateLockController.new(fields) return end
+function SecurityGateLockController.new(fields) end
 
 ---@return SecurityGateLockControllerPS
-function SecurityGateLockController:GetPS() return end
+function SecurityGateLockController:GetPS() end

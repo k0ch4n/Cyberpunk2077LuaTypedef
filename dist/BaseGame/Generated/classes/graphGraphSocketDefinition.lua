@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class graphGraphSocketDefinition: graphIGraphObjectDefinition
----@field public name CName
----@field public connections graphGraphConnectionDefinition[]
+---@field name CName
+---@field connections graphGraphConnectionDefinition[]
 graphGraphSocketDefinition = {}

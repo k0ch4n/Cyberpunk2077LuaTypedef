@@ -5,4 +5,4 @@ AIbehavioreventResolverScript = {}
 
 ---@param fields? AIbehavioreventResolverScript
 ---@return AIbehavioreventResolverScript
-function AIbehavioreventResolverScript.new(fields) return end
+function AIbehavioreventResolverScript.new(fields) end

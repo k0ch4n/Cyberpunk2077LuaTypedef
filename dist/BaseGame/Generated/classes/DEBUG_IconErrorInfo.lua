@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DEBUG_IconErrorInfo: IScriptable
----@field public itemName String
----@field public innerItemName String
----@field public resolvedIconName String
----@field public errorMessage String
----@field public errorType inkIconResult
----@field public isManuallySet Bool
+---@field itemName String
+---@field innerItemName String
+---@field resolvedIconName String
+---@field errorMessage String
+---@field errorType inkIconResult
+---@field isManuallySet Bool
 DEBUG_IconErrorInfo = {}
 
 ---@param fields? DEBUG_IconErrorInfo
 ---@return DEBUG_IconErrorInfo
-function DEBUG_IconErrorInfo.new(fields) return end
+function DEBUG_IconErrorInfo.new(fields) end

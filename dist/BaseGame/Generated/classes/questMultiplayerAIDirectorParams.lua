@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questMultiplayerAIDirectorParams: ISerializable
----@field public function questMultiplayerAIDirectorFunction
----@field public status questMultiplayerAIDirectorStatus
----@field public pathRef NodeRef
----@field public scheduleEntryName String
----@field public scheduleName String
+---@field function questMultiplayerAIDirectorFunction
+---@field status questMultiplayerAIDirectorStatus
+---@field pathRef NodeRef
+---@field scheduleEntryName String
+---@field scheduleName String
 questMultiplayerAIDirectorParams = {}
 
 ---@param fields? questMultiplayerAIDirectorParams
 ---@return questMultiplayerAIDirectorParams
-function questMultiplayerAIDirectorParams.new(fields) return end
+function questMultiplayerAIDirectorParams.new(fields) end

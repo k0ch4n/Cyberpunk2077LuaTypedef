@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class SNameplateRangesData
----@field private c_DisplayRange Float
----@field private c_MaxDisplayRange Float
----@field private c_MaxDisplayRangeNotAggressive Float
----@field private c_DisplayRangeNotAggressive Float
+---@field c_DisplayRange Float
+---@field c_MaxDisplayRange Float
+---@field c_MaxDisplayRangeNotAggressive Float
+---@field c_DisplayRangeNotAggressive Float
 SNameplateRangesData = {}
 
 ---@param fields? SNameplateRangesData
 ---@return SNameplateRangesData
-function SNameplateRangesData.new(fields) return end
+function SNameplateRangesData.new(fields) end
 
 ---@return Float
-function SNameplateRangesData.GetDisplayRange() return end
+function SNameplateRangesData.GetDisplayRange() end
 
 ---@return Float
-function SNameplateRangesData.GetDisplayRangeNotAggressive() return end
+function SNameplateRangesData.GetDisplayRangeNotAggressive() end
 
 ---@return Float
-function SNameplateRangesData.GetMaxDisplayRange() return end
+function SNameplateRangesData.GetMaxDisplayRange() end
 
 ---@return Float
-function SNameplateRangesData.GetMaxDisplayRangeNotAggressive() return end
+function SNameplateRangesData.GetMaxDisplayRangeNotAggressive() end

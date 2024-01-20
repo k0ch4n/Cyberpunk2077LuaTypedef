@@ -5,4 +5,4 @@ gameuiarcadeShooterPowerup = {}
 
 ---@param fields? gameuiarcadeShooterPowerup
 ---@return gameuiarcadeShooterPowerup
-function gameuiarcadeShooterPowerup.new(fields) return end
+function gameuiarcadeShooterPowerup.new(fields) end

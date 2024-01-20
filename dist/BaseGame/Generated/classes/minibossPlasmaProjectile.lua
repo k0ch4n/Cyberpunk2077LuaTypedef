@@ -1,79 +1,68 @@
 ---@meta
 
 ---@class minibossPlasmaProjectile: BaseProjectile
----@field private countTime Float
----@field private startVelocity Float
----@field private lifetime Float
----@field private effectName CName
----@field private hitEffectName CName
----@field private followTarget Bool
----@field private bendFactor Float
----@field private bendRatio Float
----@field private shouldRotate Bool
----@field public attackRecordID TweakDBID
----@field protected instigator gameObject
----@field private spawnGameEffectOnCollision Bool
----@field private collisionAttackRecord gamedataAttack_Record
----@field private alive Bool
----@field private owner ScriptedPuppet
----@field private target gameObject
+---@field countTime Float
+---@field startVelocity Float
+---@field lifetime Float
+---@field effectName CName
+---@field hitEffectName CName
+---@field followTarget Bool
+---@field bendFactor Float
+---@field bendRatio Float
+---@field shouldRotate Bool
+---@field attackRecordID TweakDBID
+---@field instigator gameObject
+---@field spawnGameEffectOnCollision Bool
+---@field collisionAttackRecord gamedataAttack_Record
+---@field alive Bool
+---@field owner ScriptedPuppet
+---@field target gameObject
 minibossPlasmaProjectile = {}
 
 ---@param fields? minibossPlasmaProjectile
 ---@return minibossPlasmaProjectile
-function minibossPlasmaProjectile.new(fields) return end
+function minibossPlasmaProjectile.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function minibossPlasmaProjectile:OnAreaEnter(evt) return end
+function minibossPlasmaProjectile:OnAreaEnter(evt) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function minibossPlasmaProjectile:OnCollision(eventData) return end
+function minibossPlasmaProjectile:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function minibossPlasmaProjectile:OnProjectileInitialize(eventData) return end
+function minibossPlasmaProjectile:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function minibossPlasmaProjectile:OnShoot(eventData) return end
+function minibossPlasmaProjectile:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function minibossPlasmaProjectile:OnShootTarget(eventData) return end
+function minibossPlasmaProjectile:OnShootTarget(eventData) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function minibossPlasmaProjectile:OnTick(eventData) return end
+function minibossPlasmaProjectile:OnTick(eventData) end
 
----@private
 ---@param eventData gameprojectileHitEvent
 ---@return nil
-function minibossPlasmaProjectile:DealDamage(eventData) return end
+function minibossPlasmaProjectile:DealDamage(eventData) end
 
----@private
 ---@param record TweakDBID|string
 ---@return nil
-function minibossPlasmaProjectile:Explode(record) return end
+function minibossPlasmaProjectile:Explode(record) end
 
 ---@return nil
-function minibossPlasmaProjectile:FireAttack() return end
+function minibossPlasmaProjectile:FireAttack() end
 
----@private
 ---@return nil
-function minibossPlasmaProjectile:Reset() return end
+function minibossPlasmaProjectile:Reset() end
 
----@private
 ---@return nil
-function minibossPlasmaProjectile:StartEffect() return end
+function minibossPlasmaProjectile:StartEffect() end
 
----@private
 ---@return nil
-function minibossPlasmaProjectile:StopEffect() return end
+function minibossPlasmaProjectile:StopEffect() end

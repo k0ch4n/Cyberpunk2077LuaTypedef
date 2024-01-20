@@ -5,4 +5,4 @@ gameEffectPostAction_Scripted = {}
 
 ---@param fields? gameEffectPostAction_Scripted
 ---@return gameEffectPostAction_Scripted
-function gameEffectPostAction_Scripted.new(fields) return end
+function gameEffectPostAction_Scripted.new(fields) end

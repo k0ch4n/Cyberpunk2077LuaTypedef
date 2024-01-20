@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class worldTrafficLaneExitDefinition
----@field public outLaneRef NodeRef
----@field public exitPosition Vector4
----@field public exitProbability Float
----@field public endConnection Bool
----@field public thisLaneReversed Bool
----@field public outLaneReversed Bool
+---@field outLaneRef NodeRef
+---@field exitPosition Vector4
+---@field exitProbability Float
+---@field endConnection Bool
+---@field thisLaneReversed Bool
+---@field outLaneReversed Bool
 worldTrafficLaneExitDefinition = {}
 
 ---@param fields? worldTrafficLaneExitDefinition
 ---@return worldTrafficLaneExitDefinition
-function worldTrafficLaneExitDefinition.new(fields) return end
+function worldTrafficLaneExitDefinition.new(fields) end

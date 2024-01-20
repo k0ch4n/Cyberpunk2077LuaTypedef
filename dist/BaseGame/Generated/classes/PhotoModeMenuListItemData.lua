@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PhotoModeMenuListItemData: ListItemData
----@field public attributeKey Uint32
+---@field attributeKey Uint32
 PhotoModeMenuListItemData = {}
 
 ---@param fields? PhotoModeMenuListItemData
 ---@return PhotoModeMenuListItemData
-function PhotoModeMenuListItemData.new(fields) return end
+function PhotoModeMenuListItemData.new(fields) end

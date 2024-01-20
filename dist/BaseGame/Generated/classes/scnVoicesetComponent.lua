@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnVoicesetComponent: gameComponent
----@field public combatVoSettingsName CName
+---@field combatVoSettingsName CName
 scnVoicesetComponent = {}
 
 ---@param fields? scnVoicesetComponent
 ---@return scnVoicesetComponent
-function scnVoicesetComponent.new(fields) return end
+function scnVoicesetComponent.new(fields) end
 
 ---@return Bool
-function scnVoicesetComponent:IsGenericTalkInteractionEnabled() return end
+function scnVoicesetComponent:IsGenericTalkInteractionEnabled() end

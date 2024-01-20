@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnQuestNode: scnSceneGraphNode
----@field public questNode questNodeDefinition
----@field public isockMappings CName[]
----@field public osockMappings CName[]
+---@field questNode questNodeDefinition
+---@field isockMappings CName[]
+---@field osockMappings CName[]
 scnQuestNode = {}
 
 ---@param fields? scnQuestNode
 ---@return scnQuestNode
-function scnQuestNode.new(fields) return end
+function scnQuestNode.new(fields) end

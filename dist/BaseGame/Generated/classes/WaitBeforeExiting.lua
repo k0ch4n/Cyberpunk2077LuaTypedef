@@ -5,14 +5,12 @@ WaitBeforeExiting = {}
 
 ---@param fields? WaitBeforeExiting
 ---@return WaitBeforeExiting
-function WaitBeforeExiting.new(fields) return end
+function WaitBeforeExiting.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function WaitBeforeExiting:Activate(context) return end
+function WaitBeforeExiting:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function WaitBeforeExiting:Update(context) return end
+function WaitBeforeExiting:Update(context) end

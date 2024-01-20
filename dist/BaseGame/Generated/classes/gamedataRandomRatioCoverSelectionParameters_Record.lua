@@ -5,4 +5,4 @@ gamedataRandomRatioCoverSelectionParameters_Record = {}
 
 ---@param fields? gamedataRandomRatioCoverSelectionParameters_Record
 ---@return gamedataRandomRatioCoverSelectionParameters_Record
-function gamedataRandomRatioCoverSelectionParameters_Record.new(fields) return end
+function gamedataRandomRatioCoverSelectionParameters_Record.new(fields) end

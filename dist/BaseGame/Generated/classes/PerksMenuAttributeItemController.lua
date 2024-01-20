@@ -1,93 +1,81 @@
 ---@meta
 
 ---@class PerksMenuAttributeItemController: inkWidgetLogicController
----@field protected attributeDisplay inkWidgetReference
----@field protected connectionLine inkImageWidgetReference
----@field protected attributeType PerkMenuAttribute
----@field protected skillsLevelsContainer inkCompoundWidgetReference
----@field protected proficiencyButtonRefs inkWidgetReference[]
----@field protected isReversed Bool
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected attributeDisplayController PerksMenuAttributeDisplayController
----@field protected recentlyPurchased Bool
----@field protected holdStarted Bool
----@field protected data AttributeData
----@field protected cool_in_proxy inkanimProxy
----@field protected cool_out_proxy inkanimProxy
+---@field attributeDisplay inkWidgetReference
+---@field connectionLine inkImageWidgetReference
+---@field attributeType PerkMenuAttribute
+---@field skillsLevelsContainer inkCompoundWidgetReference
+---@field proficiencyButtonRefs inkWidgetReference[]
+---@field isReversed Bool
+---@field dataManager PlayerDevelopmentDataManager
+---@field attributeDisplayController PerksMenuAttributeDisplayController
+---@field recentlyPurchased Bool
+---@field holdStarted Bool
+---@field data AttributeData
+---@field cool_in_proxy inkanimProxy
+---@field cool_out_proxy inkanimProxy
 PerksMenuAttributeItemController = {}
 
 ---@param fields? PerksMenuAttributeItemController
 ---@return PerksMenuAttributeItemController
-function PerksMenuAttributeItemController.new(fields) return end
+function PerksMenuAttributeItemController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMenuAttributeItemController:OnAttributeItemClicked(evt) return end
+function PerksMenuAttributeItemController:OnAttributeItemClicked(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMenuAttributeItemController:OnAttributeItemHold(evt) return end
+function PerksMenuAttributeItemController:OnAttributeItemHold(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMenuAttributeItemController:OnAttributeItemHoverOut(evt) return end
+function PerksMenuAttributeItemController:OnAttributeItemHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMenuAttributeItemController:OnAttributeItemHoverOver(evt) return end
+function PerksMenuAttributeItemController:OnAttributeItemHoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMenuAttributeItemController:OnContainerHoverOut(evt) return end
+function PerksMenuAttributeItemController:OnContainerHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMenuAttributeItemController:OnContainerHoverOver(evt) return end
+function PerksMenuAttributeItemController:OnContainerHoverOver(evt) end
 
----@protected
 ---@return Bool
-function PerksMenuAttributeItemController:OnInitialize() return end
+function PerksMenuAttributeItemController:OnInitialize() end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function PerksMenuAttributeItemController:OnProficiencyClicked(controller) return end
+function PerksMenuAttributeItemController:OnProficiencyClicked(controller) end
 
 ---@return PerkMenuAttribute
-function PerksMenuAttributeItemController:GetAttributeType() return end
+function PerksMenuAttributeItemController:GetAttributeType() end
 
 ---@return gamedataStatType
-function PerksMenuAttributeItemController:GetStatType() return end
+function PerksMenuAttributeItemController:GetStatType() end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PerksMenuAttributeItemController:PlayConnectionAnimation(value) return end
+function PerksMenuAttributeItemController:PlayConnectionAnimation(value) end
 
 ---@param dataManager PlayerDevelopmentDataManager
 ---@return nil
-function PerksMenuAttributeItemController:Setup(dataManager) return end
+function PerksMenuAttributeItemController:Setup(dataManager) end
 
----@protected
 ---@param attributeData AttributeData
 ---@return nil
-function PerksMenuAttributeItemController:SetupProficiencyButtons(attributeData) return end
+function PerksMenuAttributeItemController:SetupProficiencyButtons(attributeData) end
 
----@private
 ---@param value Bool
 ---@return nil
-function PerksMenuAttributeItemController:ShowProficiencyButton(value) return end
+function PerksMenuAttributeItemController:ShowProficiencyButton(value) end
 
----@private
 ---@return nil
-function PerksMenuAttributeItemController:StopHoverAnimations() return end
+function PerksMenuAttributeItemController:StopHoverAnimations() end
 
 ---@param attributeData AttributeData
 ---@return nil
-function PerksMenuAttributeItemController:UpdateData(attributeData) return end
+function PerksMenuAttributeItemController:UpdateData(attributeData) end

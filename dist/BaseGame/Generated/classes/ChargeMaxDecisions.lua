@@ -5,10 +5,9 @@ ChargeMaxDecisions = {}
 
 ---@param fields? ChargeMaxDecisions
 ---@return ChargeMaxDecisions
-function ChargeMaxDecisions.new(fields) return end
+function ChargeMaxDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ChargeMaxDecisions:ToShoot(stateContext, scriptInterface) return end
+function ChargeMaxDecisions:ToShoot(stateContext, scriptInterface) end

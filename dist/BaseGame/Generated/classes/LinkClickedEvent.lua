@@ -5,4 +5,4 @@ LinkClickedEvent = {}
 
 ---@param fields? LinkClickedEvent
 ---@return LinkClickedEvent
-function LinkClickedEvent.new(fields) return end
+function LinkClickedEvent.new(fields) end

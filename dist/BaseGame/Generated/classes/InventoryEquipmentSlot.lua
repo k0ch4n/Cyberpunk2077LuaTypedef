@@ -1,73 +1,71 @@
 ---@meta
 
 ---@class InventoryEquipmentSlot: inkWidgetLogicController
----@field protected EquipSlotRef inkWidgetReference
----@field protected EmptySlotButtonRef inkWidgetReference
----@field protected BackgroundShape inkImageWidgetReference
----@field protected BackgroundHighlight inkImageWidgetReference
----@field protected BackgroundFrame inkImageWidgetReference
----@field protected unavailableIcon inkWidgetReference
----@field protected toggleHighlight inkImageWidgetReference
----@field protected CurrentItemView InventoryItemDisplayController
----@field private Empty Bool
----@field private itemData gameInventoryItemData
----@field private equipmentArea gamedataEquipmentArea
----@field private slotName String
----@field private slotIndex Int32
----@field private DisableSlot Bool
----@field protected smallSize Vector2
----@field protected bigSize Vector2
+---@field EquipSlotRef inkWidgetReference
+---@field EmptySlotButtonRef inkWidgetReference
+---@field BackgroundShape inkImageWidgetReference
+---@field BackgroundHighlight inkImageWidgetReference
+---@field BackgroundFrame inkImageWidgetReference
+---@field unavailableIcon inkWidgetReference
+---@field toggleHighlight inkImageWidgetReference
+---@field CurrentItemView InventoryItemDisplayController
+---@field Empty Bool
+---@field itemData gameInventoryItemData
+---@field equipmentArea gamedataEquipmentArea
+---@field slotName String
+---@field slotIndex Int32
+---@field DisableSlot Bool
+---@field smallSize Vector2
+---@field bigSize Vector2
 InventoryEquipmentSlot = {}
 
 ---@param fields? InventoryEquipmentSlot
 ---@return InventoryEquipmentSlot
-function InventoryEquipmentSlot.new(fields) return end
+function InventoryEquipmentSlot.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryEquipmentSlot:OnInitialize() return end
+function InventoryEquipmentSlot:OnInitialize() end
 
 ---@return nil
-function InventoryEquipmentSlot:Clear() return end
+function InventoryEquipmentSlot:Clear() end
 
 ---@return inkWidget
-function InventoryEquipmentSlot:GetCustomizeWidget() return end
+function InventoryEquipmentSlot:GetCustomizeWidget() end
 
 ---@return gamedataEquipmentArea
-function InventoryEquipmentSlot:GetEquipmentArea() return end
+function InventoryEquipmentSlot:GetEquipmentArea() end
 
 ---@return Int32
-function InventoryEquipmentSlot:GetEquipmentAreaEnumToInt() return end
+function InventoryEquipmentSlot:GetEquipmentAreaEnumToInt() end
 
 ---@return gameInventoryItemData
-function InventoryEquipmentSlot:GetItemData() return end
+function InventoryEquipmentSlot:GetItemData() end
 
 ---@return Int32
-function InventoryEquipmentSlot:GetSlotIndex() return end
+function InventoryEquipmentSlot:GetSlotIndex() end
 
 ---@return String
-function InventoryEquipmentSlot:GetSlotName() return end
+function InventoryEquipmentSlot:GetSlotName() end
 
 ---@return inkWidget
-function InventoryEquipmentSlot:GetSlotWidget() return end
+function InventoryEquipmentSlot:GetSlotWidget() end
 
 ---@return Bool
-function InventoryEquipmentSlot:IsEmpty() return end
-
----@protected
----@return nil
-function InventoryEquipmentSlot:RefreshUI() return end
+function InventoryEquipmentSlot:IsEmpty() end
 
 ---@return nil
-function InventoryEquipmentSlot:Select() return end
+function InventoryEquipmentSlot:RefreshUI() end
+
+---@return nil
+function InventoryEquipmentSlot:Select() end
 
 ---@param disableSlot Bool
 ---@return nil
-function InventoryEquipmentSlot:SetDisableSlot(disableSlot) return end
+function InventoryEquipmentSlot:SetDisableSlot(disableSlot) end
 
 ---@param shapeType gameInventoryItemShape
 ---@return nil
-function InventoryEquipmentSlot:SetShape(shapeType) return end
+function InventoryEquipmentSlot:SetShape(shapeType) end
 
 ---@param itemData gameInventoryItemData
 ---@param equipmentArea gamedataEquipmentArea
@@ -75,10 +73,10 @@ function InventoryEquipmentSlot:SetShape(shapeType) return end
 ---@param slotIndex? Int32
 ---@param ownerEntity? entEntity
 ---@return nil
-function InventoryEquipmentSlot:Setup(itemData, equipmentArea, slotName, slotIndex, ownerEntity) return end
+function InventoryEquipmentSlot:Setup(itemData, equipmentArea, slotName, slotIndex, ownerEntity) end
 
 ---@return nil
-function InventoryEquipmentSlot:Show() return end
+function InventoryEquipmentSlot:Show() end
 
 ---@return nil
-function InventoryEquipmentSlot:Unselect() return end
+function InventoryEquipmentSlot:Unselect() end

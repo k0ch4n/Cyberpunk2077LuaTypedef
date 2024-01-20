@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class UIVendorItemsBoughtEvent: redEvent
----@field public requestID Int32
----@field public itemsID gameItemID[]
----@field public quantity Int32[]
+---@field requestID Int32
+---@field itemsID gameItemID[]
+---@field quantity Int32[]
 UIVendorItemsBoughtEvent = {}
 
 ---@param fields? UIVendorItemsBoughtEvent
 ---@return UIVendorItemsBoughtEvent
-function UIVendorItemsBoughtEvent.new(fields) return end
+function UIVendorItemsBoughtEvent.new(fields) end

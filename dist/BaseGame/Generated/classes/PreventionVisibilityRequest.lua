@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PreventionVisibilityRequest: gameScriptableSystemRequest
----@field public requester gameObject
----@field public seePlayer Bool
+---@field requester gameObject
+---@field seePlayer Bool
 PreventionVisibilityRequest = {}
 
 ---@param fields? PreventionVisibilityRequest
 ---@return PreventionVisibilityRequest
-function PreventionVisibilityRequest.new(fields) return end
+function PreventionVisibilityRequest.new(fields) end

@@ -4,18 +4,18 @@
 gameIGameRulesSystem = {}
 
 ---@return grsHeistStatus
-function gameIGameRulesSystem:GetHeistStatus() return end
+function gameIGameRulesSystem:GetHeistStatus() end
 
 ---@return Bool
-function gameIGameRulesSystem:IsGameUnsuccessful() return end
+function gameIGameRulesSystem:IsGameUnsuccessful() end
 
 ---@return Bool
-function gameIGameRulesSystem:IsGameVictorious() return end
+function gameIGameRulesSystem:IsGameVictorious() end
 
 ---@param PeerID String
 ---@return Bool
-function gameIGameRulesSystem:IsPlayerReady(PeerID) return end
+function gameIGameRulesSystem:IsPlayerReady(PeerID) end
 
 ---@param chat String
 ---@return nil
-function gameIGameRulesSystem:SendChat(chat) return end
+function gameIGameRulesSystem:SendChat(chat) end

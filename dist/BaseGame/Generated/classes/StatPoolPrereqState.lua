@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class StatPoolPrereqState: gamePrereqState
----@field public statPoolListener BaseStatPoolPrereqListener
----@field public statpoolWasMissing Bool
----@field public object gameObject
----@field public statsObjID gameStatsObjectID
+---@field statPoolListener BaseStatPoolPrereqListener
+---@field statpoolWasMissing Bool
+---@field object gameObject
+---@field statsObjID gameStatsObjectID
 StatPoolPrereqState = {}
 
 ---@param fields? StatPoolPrereqState
 ---@return StatPoolPrereqState
-function StatPoolPrereqState.new(fields) return end
+function StatPoolPrereqState.new(fields) end
 
 ---@param statPoolType gamedataStatPoolType
 ---@param valueToCheck Float
 ---@return nil
-function StatPoolPrereqState:RegisterStatPoolListener(statPoolType, valueToCheck) return end
+function StatPoolPrereqState:RegisterStatPoolListener(statPoolType, valueToCheck) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@return nil
-function StatPoolPrereqState:StatPoolUpdate(oldValue, newValue) return end
+function StatPoolPrereqState:StatPoolUpdate(oldValue, newValue) end
 
 ---@param statPoolType gamedataStatPoolType
 ---@return nil
-function StatPoolPrereqState:UnregisterStatPoolListener(statPoolType) return end
+function StatPoolPrereqState:UnregisterStatPoolListener(statPoolType) end

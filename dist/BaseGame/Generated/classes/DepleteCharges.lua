@@ -5,4 +5,4 @@ DepleteCharges = {}
 
 ---@param fields? DepleteCharges
 ---@return DepleteCharges
-function DepleteCharges.new(fields) return end
+function DepleteCharges.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gamePatrolSplineProgress: IScriptable
----@field public currentControlPoints gamePatrolSplineControlPoint[]
----@field public entrySplineParam Float
----@field public controlPointIndex Uint32
+---@field currentControlPoints gamePatrolSplineControlPoint[]
+---@field entrySplineParam Float
+---@field controlPointIndex Uint32
 gamePatrolSplineProgress = {}
 
 ---@param fields? gamePatrolSplineProgress
 ---@return gamePatrolSplineProgress
-function gamePatrolSplineProgress.new(fields) return end
+function gamePatrolSplineProgress.new(fields) end
 
 ---@return Bool
-function gamePatrolSplineProgress:IsControlPointIndexValid() return end
+function gamePatrolSplineProgress:IsControlPointIndexValid() end

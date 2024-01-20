@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class inkanimVideoInterpolator: inkanimInterpolator
----@field public startValue Float
----@field public endValue Float
----@field public synchronizeToAudio Bool
----@field public allowSkipBackward Bool
----@field public audioEvent CName
----@field public retriggerAudioOnLoop Bool
+---@field startValue Float
+---@field endValue Float
+---@field synchronizeToAudio Bool
+---@field allowSkipBackward Bool
+---@field audioEvent CName
+---@field retriggerAudioOnLoop Bool
 inkanimVideoInterpolator = {}
 
 ---@param fields? inkanimVideoInterpolator
 ---@return inkanimVideoInterpolator
-function inkanimVideoInterpolator.new(fields) return end
+function inkanimVideoInterpolator.new(fields) end

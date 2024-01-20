@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnRidTag
----@field public signature CName
----@field public serialNumber scnRidSerialNumber
+---@field signature CName
+---@field serialNumber scnRidSerialNumber
 scnRidTag = {}
 
 ---@param fields? scnRidTag
 ---@return scnRidTag
-function scnRidTag.new(fields) return end
+function scnRidTag.new(fields) end

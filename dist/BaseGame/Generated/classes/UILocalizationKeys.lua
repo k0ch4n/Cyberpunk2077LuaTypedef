@@ -5,13 +5,13 @@ UILocalizationKeys = {}
 
 ---@param fields? UILocalizationKeys
 ---@return UILocalizationKeys
-function UILocalizationKeys.new(fields) return end
+function UILocalizationKeys.new(fields) end
 
 ---@return String
-function UILocalizationKeys.Common_EuroDollar() return end
+function UILocalizationKeys.Common_EuroDollar() end
 
 ---@return String
-function UILocalizationKeys.Inventory_NoSlots() return end
+function UILocalizationKeys.Inventory_NoSlots() end
 
 ---@return String
-function UILocalizationKeys.Inventory_NoSuitableItems() return end
+function UILocalizationKeys.Inventory_NoSuitableItems() end

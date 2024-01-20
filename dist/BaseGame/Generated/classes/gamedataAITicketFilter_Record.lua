@@ -5,13 +5,13 @@ gamedataAITicketFilter_Record = {}
 
 ---@param fields? gamedataAITicketFilter_Record
 ---@return gamedataAITicketFilter_Record
-function gamedataAITicketFilter_Record.new(fields) return end
+function gamedataAITicketFilter_Record.new(fields) end
 
 ---@return Bool
-function gamedataAITicketFilter_Record:ResetMembers() return end
+function gamedataAITicketFilter_Record:ResetMembers() end
 
 ---@return Bool
-function gamedataAITicketFilter_Record:ResetMembersIncludingUnwillings() return end
+function gamedataAITicketFilter_Record:ResetMembersIncludingUnwillings() end
 
 ---@return Bool
-function gamedataAITicketFilter_Record:SkipSelfOnce() return end
+function gamedataAITicketFilter_Record:SkipSelfOnce() end

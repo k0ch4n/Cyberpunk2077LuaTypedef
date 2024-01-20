@@ -5,9 +5,8 @@ IsWorkspotReaction = {}
 
 ---@param fields? IsWorkspotReaction
 ---@return IsWorkspotReaction
-function IsWorkspotReaction.new(fields) return end
+function IsWorkspotReaction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsWorkspotReaction:Check(context) return end
+function IsWorkspotReaction:Check(context) end

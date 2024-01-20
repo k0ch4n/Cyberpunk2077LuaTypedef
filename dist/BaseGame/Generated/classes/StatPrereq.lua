@@ -1,53 +1,48 @@
 ---@meta
 
 ---@class StatPrereq: gameIScriptablePrereq
----@field public notifyOnAnyChange Bool
----@field public notifyOnlyOnStateFulfilled Bool
----@field public statType gamedataStatType
----@field public valueToCheck Float
----@field public comparisonType EComparisonType
----@field public statModifiersUsed Bool
----@field private statPrereqRecordID TweakDBID
----@field public objToCheck CName
+---@field notifyOnAnyChange Bool
+---@field notifyOnlyOnStateFulfilled Bool
+---@field statType gamedataStatType
+---@field valueToCheck Float
+---@field comparisonType EComparisonType
+---@field statModifiersUsed Bool
+---@field statPrereqRecordID TweakDBID
+---@field objToCheck CName
 StatPrereq = {}
 
 ---@param fields? StatPrereq
 ---@return StatPrereq
-function StatPrereq.new(fields) return end
+function StatPrereq.new(fields) end
 
----@private
 ---@param context IScriptable
 ---@return gameObject
-function StatPrereq:GetObjectToCheck(context) return end
+function StatPrereq:GetObjectToCheck(context) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function StatPrereq:Initialize(recordID) return end
+function StatPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function StatPrereq:IsFulfilled(context) return end
+function StatPrereq:IsFulfilled(context) end
 
 ---@param context IScriptable
 ---@param itemStatsID gameStatsObjectID
 ---@return Bool
-function StatPrereq:IsFulfilled(context, itemStatsID) return end
+function StatPrereq:IsFulfilled(context, itemStatsID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatPrereq:OnApplied(state, context) return end
+function StatPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function StatPrereq:OnRegister(state, context) return end
+function StatPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatPrereq:OnUnregister(state, context) return end
+function StatPrereq:OnUnregister(state, context) end

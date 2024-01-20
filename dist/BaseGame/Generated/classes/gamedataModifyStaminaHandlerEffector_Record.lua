@@ -5,7 +5,7 @@ gamedataModifyStaminaHandlerEffector_Record = {}
 
 ---@param fields? gamedataModifyStaminaHandlerEffector_Record
 ---@return gamedataModifyStaminaHandlerEffector_Record
-function gamedataModifyStaminaHandlerEffector_Record.new(fields) return end
+function gamedataModifyStaminaHandlerEffector_Record.new(fields) end
 
 ---@return CName
-function gamedataModifyStaminaHandlerEffector_Record:OpSymbol() return end
+function gamedataModifyStaminaHandlerEffector_Record:OpSymbol() end

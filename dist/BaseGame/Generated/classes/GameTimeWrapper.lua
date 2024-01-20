@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class GameTimeWrapper
----@field public gameTime GameTime
+---@field gameTime GameTime
 GameTimeWrapper = {}
 
 ---@param fields? GameTimeWrapper
 ---@return GameTimeWrapper
-function GameTimeWrapper.new(fields) return end
+function GameTimeWrapper.new(fields) end

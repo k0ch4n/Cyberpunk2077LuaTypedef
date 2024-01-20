@@ -5,9 +5,8 @@ CheckDroppedThreat = {}
 
 ---@param fields? CheckDroppedThreat
 ---@return CheckDroppedThreat
-function CheckDroppedThreat.new(fields) return end
+function CheckDroppedThreat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckDroppedThreat:Check(context) return end
+function CheckDroppedThreat:Check(context) end

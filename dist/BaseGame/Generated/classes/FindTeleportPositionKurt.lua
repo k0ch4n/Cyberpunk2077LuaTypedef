@@ -1,27 +1,25 @@
 ---@meta
 
 ---@class FindTeleportPositionKurt: AIbehaviortaskScript
----@field public target AIArgumentMapping
----@field public extents AIArgumentMapping
----@field public extentsOffset AIArgumentMapping
----@field public workspotRotation AIArgumentMapping
----@field public workspotOffset AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
----@field public outRotationArgument AIArgumentMapping
----@field public outMaybeStairs AIArgumentMapping
+---@field target AIArgumentMapping
+---@field extents AIArgumentMapping
+---@field extentsOffset AIArgumentMapping
+---@field workspotRotation AIArgumentMapping
+---@field workspotOffset AIArgumentMapping
+---@field outPositionArgument AIArgumentMapping
+---@field outRotationArgument AIArgumentMapping
+---@field outMaybeStairs AIArgumentMapping
 FindTeleportPositionKurt = {}
 
 ---@param fields? FindTeleportPositionKurt
 ---@return FindTeleportPositionKurt
-function FindTeleportPositionKurt.new(fields) return end
+function FindTeleportPositionKurt.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param targetPosition Vector4
 ---@return Bool
-function FindTeleportPositionKurt:CheckForGround(context, targetPosition) return end
+function FindTeleportPositionKurt:CheckForGround(context, targetPosition) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param targetPosition Vector4
 ---@param targetOffset Vector4
@@ -29,38 +27,33 @@ function FindTeleportPositionKurt:CheckForGround(context, targetPosition) return
 ---@param queryOrientation Quaternion
 ---@param queryFilter physicsQueryFilter
 ---@return Bool
-function FindTeleportPositionKurt:CheckForOverlap(context, targetPosition, targetOffset, queryDimensions, queryOrientation, queryFilter) return end
+function FindTeleportPositionKurt:CheckForOverlap(context, targetPosition, targetOffset, queryDimensions, queryOrientation, queryFilter) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param queryOffset Vector4
 ---@param queryExtents Vector4
 ---@param queryPosition Vector4
 ---@return Bool, Quaternion queryOrientation
-function FindTeleportPositionKurt:CheckForOverlapAdvanced(context, queryOffset, queryExtents, queryPosition) return end
+function FindTeleportPositionKurt:CheckForOverlapAdvanced(context, queryOffset, queryExtents, queryPosition) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param targetPosition Vector4
 ---@return Bool
-function FindTeleportPositionKurt:CheckForStairs(context, targetPosition) return end
+function FindTeleportPositionKurt:CheckForStairs(context, targetPosition) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param position Vector4
 ---@param extents Vector4
 ---@param orientation Quaternion
 ---@return nil
-function FindTeleportPositionKurt:DrawDebugBox(context, position, extents, orientation) return end
+function FindTeleportPositionKurt:DrawDebugBox(context, position, extents, orientation) end
 
----@private
 ---@param origin entEntity
 ---@param rotation Quaternion
 ---@param offset? Vector4
 ---@return Bool, Vector4 point
-function FindTeleportPositionKurt:GetNavmeshPointWithOffset(origin, rotation, offset) return end
+function FindTeleportPositionKurt:GetNavmeshPointWithOffset(origin, rotation, offset) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function FindTeleportPositionKurt:Update(context) return end
+function FindTeleportPositionKurt:Update(context) end

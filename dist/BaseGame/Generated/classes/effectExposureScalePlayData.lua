@@ -5,4 +5,4 @@ effectExposureScalePlayData = {}
 
 ---@param fields? effectExposureScalePlayData
 ---@return effectExposureScalePlayData
-function effectExposureScalePlayData.new(fields) return end
+function effectExposureScalePlayData.new(fields) end

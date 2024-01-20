@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class InvalidateTooltipHiddenStateEvent: redEvent
----@field public widget inkWidget
+---@field widget inkWidget
 InvalidateTooltipHiddenStateEvent = {}
 
 ---@param fields? InvalidateTooltipHiddenStateEvent
 ---@return InvalidateTooltipHiddenStateEvent
-function InvalidateTooltipHiddenStateEvent.new(fields) return end
+function InvalidateTooltipHiddenStateEvent.new(fields) end

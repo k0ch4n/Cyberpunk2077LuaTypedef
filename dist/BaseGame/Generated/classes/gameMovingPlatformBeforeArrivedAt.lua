@@ -5,4 +5,4 @@ gameMovingPlatformBeforeArrivedAt = {}
 
 ---@param fields? gameMovingPlatformBeforeArrivedAt
 ---@return gameMovingPlatformBeforeArrivedAt
-function gameMovingPlatformBeforeArrivedAt.new(fields) return end
+function gameMovingPlatformBeforeArrivedAt.new(fields) end

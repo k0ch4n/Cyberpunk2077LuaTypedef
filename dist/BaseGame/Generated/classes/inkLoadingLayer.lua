@@ -5,4 +5,4 @@ inkLoadingLayer = {}
 
 ---@param fields? inkLoadingLayer
 ---@return inkLoadingLayer
-function inkLoadingLayer.new(fields) return end
+function inkLoadingLayer.new(fields) end

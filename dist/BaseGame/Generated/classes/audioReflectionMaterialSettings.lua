@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioReflectionMaterialSettings: audioAudioMetadata
----@field public lowPass Float
----@field public highPass Float
----@field public gain Float
+---@field lowPass Float
+---@field highPass Float
+---@field gain Float
 audioReflectionMaterialSettings = {}
 
 ---@param fields? audioReflectionMaterialSettings
 ---@return audioReflectionMaterialSettings
-function audioReflectionMaterialSettings.new(fields) return end
+function audioReflectionMaterialSettings.new(fields) end

@@ -5,22 +5,22 @@ gamedataObjectActionEffect_Record = {}
 
 ---@param fields? gamedataObjectActionEffect_Record
 ---@return gamedataObjectActionEffect_Record
-function gamedataObjectActionEffect_Record.new(fields) return end
+function gamedataObjectActionEffect_Record.new(fields) end
 
 ---@return gamedataEffector_Record
-function gamedataObjectActionEffect_Record:EffectorToTrigger() return end
+function gamedataObjectActionEffect_Record:EffectorToTrigger() end
 
 ---@return gamedataEffector_Record
-function gamedataObjectActionEffect_Record:EffectorToTriggerHandle() return end
+function gamedataObjectActionEffect_Record:EffectorToTriggerHandle() end
 
 ---@return gamedataObjectActionReference_Record
-function gamedataObjectActionEffect_Record:Recipient() return end
+function gamedataObjectActionEffect_Record:Recipient() end
 
 ---@return gamedataObjectActionReference_Record
-function gamedataObjectActionEffect_Record:RecipientHandle() return end
+function gamedataObjectActionEffect_Record:RecipientHandle() end
 
 ---@return gamedataStatusEffect_Record
-function gamedataObjectActionEffect_Record:StatusEffect() return end
+function gamedataObjectActionEffect_Record:StatusEffect() end
 
 ---@return gamedataStatusEffect_Record
-function gamedataObjectActionEffect_Record:StatusEffectHandle() return end
+function gamedataObjectActionEffect_Record:StatusEffectHandle() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LiftSetMovementStateEvent: redEvent
----@field public movementState gamePlatformMovementState
+---@field movementState gamePlatformMovementState
 LiftSetMovementStateEvent = {}
 
 ---@param fields? LiftSetMovementStateEvent
 ---@return LiftSetMovementStateEvent
-function LiftSetMovementStateEvent.new(fields) return end
+function LiftSetMovementStateEvent.new(fields) end

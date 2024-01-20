@@ -5,8 +5,7 @@ SystemCollapseLifetimeEffector = {}
 
 ---@param fields? SystemCollapseLifetimeEffector
 ---@return SystemCollapseLifetimeEffector
-function SystemCollapseLifetimeEffector.new(fields) return end
+function SystemCollapseLifetimeEffector.new(fields) end
 
----@protected
 ---@return nil
-function SystemCollapseLifetimeEffector:Uninitialize() return end
+function SystemCollapseLifetimeEffector:Uninitialize() end

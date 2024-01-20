@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorSystemVariableExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public variable AIbehaviorSystemVariableExpressionTypes
+---@field variable AIbehaviorSystemVariableExpressionTypes
 AIbehaviorSystemVariableExpressionDefinition = {}
 
 ---@param fields? AIbehaviorSystemVariableExpressionDefinition
 ---@return AIbehaviorSystemVariableExpressionDefinition
-function AIbehaviorSystemVariableExpressionDefinition.new(fields) return end
+function AIbehaviorSystemVariableExpressionDefinition.new(fields) end

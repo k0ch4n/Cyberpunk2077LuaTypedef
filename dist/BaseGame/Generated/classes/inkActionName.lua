@@ -5,8 +5,8 @@ inkActionName = {}
 
 ---@param fields? inkActionName
 ---@return inkActionName
-function inkActionName.new(fields) return end
+function inkActionName.new(fields) end
 
 ---@param actionName CName|string
 ---@return Bool
-function inkActionName:IsAction(actionName) return end
+function inkActionName:IsAction(actionName) end

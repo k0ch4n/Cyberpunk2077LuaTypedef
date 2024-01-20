@@ -5,4 +5,4 @@ gamecameraSettingManager = {}
 
 ---@param fields? gamecameraSettingManager
 ---@return gamecameraSettingManager
-function gamecameraSettingManager.new(fields) return end
+function gamecameraSettingManager.new(fields) end

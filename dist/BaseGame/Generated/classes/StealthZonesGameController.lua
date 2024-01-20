@@ -5,4 +5,4 @@ StealthZonesGameController = {}
 
 ---@param fields? StealthZonesGameController
 ---@return StealthZonesGameController
-function StealthZonesGameController.new(fields) return end
+function StealthZonesGameController.new(fields) end

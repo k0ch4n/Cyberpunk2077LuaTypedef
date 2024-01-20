@@ -1,132 +1,111 @@
 ---@meta
 
 ---@class vehicleInteriorUIGameController: gameuiHUDGameController
----@field private vehicleBlackboard gameIBlackboard
----@field private vehicleBBStateConectionId redCallbackObject
----@field private vehicleBBReadyConectionId redCallbackObject
----@field private vehicleBBUIActivId redCallbackObject
----@field private speedBBConnectionId redCallbackObject
----@field private gearBBConnectionId redCallbackObject
----@field private rpmValueBBConnectionId redCallbackObject
----@field private rpmMaxBBConnectionId redCallbackObject
----@field private autopilotOnId redCallbackObject
----@field private rootWidget inkCanvasWidget
----@field private speedTextWidget inkTextWidgetReference
----@field private gearTextWidget inkTextWidgetReference
----@field private rpmValueWidget inkTextWidgetReference
----@field private rpmGaugeForegroundWidget inkRectangleWidgetReference
----@field private autopilotTextWidget inkTextWidgetReference
----@field private activeChunks Int32
----@field private chunksNumber Int32
----@field private dynamicRpmPath CName
----@field private rpmPerChunk Int32
----@field private hasRevMax Bool
----@field private rpmGaugeMaxSize Vector2
----@field private rpmMaxValue Float
----@field private isInAutoPilot Bool
----@field private isVehicleReady Bool
----@field private HudRedLineAnimation inkanimProxy
+---@field vehicleBlackboard gameIBlackboard
+---@field vehicleBBStateConectionId redCallbackObject
+---@field vehicleBBReadyConectionId redCallbackObject
+---@field vehicleBBUIActivId redCallbackObject
+---@field speedBBConnectionId redCallbackObject
+---@field gearBBConnectionId redCallbackObject
+---@field rpmValueBBConnectionId redCallbackObject
+---@field rpmMaxBBConnectionId redCallbackObject
+---@field autopilotOnId redCallbackObject
+---@field rootWidget inkCanvasWidget
+---@field speedTextWidget inkTextWidgetReference
+---@field gearTextWidget inkTextWidgetReference
+---@field rpmValueWidget inkTextWidgetReference
+---@field rpmGaugeForegroundWidget inkRectangleWidgetReference
+---@field autopilotTextWidget inkTextWidgetReference
+---@field activeChunks Int32
+---@field chunksNumber Int32
+---@field dynamicRpmPath CName
+---@field rpmPerChunk Int32
+---@field hasRevMax Bool
+---@field rpmGaugeMaxSize Vector2
+---@field rpmMaxValue Float
+---@field isInAutoPilot Bool
+---@field isVehicleReady Bool
+---@field HudRedLineAnimation inkanimProxy
 vehicleInteriorUIGameController = {}
 
 ---@param fields? vehicleInteriorUIGameController
 ---@return vehicleInteriorUIGameController
-function vehicleInteriorUIGameController.new(fields) return end
+function vehicleInteriorUIGameController.new(fields) end
 
----@protected
 ---@param activate Bool
 ---@return Bool
-function vehicleInteriorUIGameController:OnActivateUI(activate) return end
+function vehicleInteriorUIGameController:OnActivateUI(activate) end
 
----@protected
 ---@param evt VehicleUIactivateEvent
 ---@return Bool
-function vehicleInteriorUIGameController:OnActivateUIEvent(evt) return end
+function vehicleInteriorUIGameController:OnActivateUIEvent(evt) end
 
----@protected
 ---@param autopilotOn Bool
 ---@return Bool
-function vehicleInteriorUIGameController:OnAutopilotChanged(autopilotOn) return end
+function vehicleInteriorUIGameController:OnAutopilotChanged(autopilotOn) end
 
----@protected
 ---@param gearValue Int32
 ---@return Bool
-function vehicleInteriorUIGameController:OnGearValueChanged(gearValue) return end
+function vehicleInteriorUIGameController:OnGearValueChanged(gearValue) end
 
----@protected
 ---@return Bool
-function vehicleInteriorUIGameController:OnInitialize() return end
+function vehicleInteriorUIGameController:OnInitialize() end
 
----@protected
 ---@param rpmMax Float
 ---@return Bool
-function vehicleInteriorUIGameController:OnRpmMaxChanged(rpmMax) return end
+function vehicleInteriorUIGameController:OnRpmMaxChanged(rpmMax) end
 
----@protected
 ---@param rpmValue Float
 ---@return Bool
-function vehicleInteriorUIGameController:OnRpmValueChanged(rpmValue) return end
+function vehicleInteriorUIGameController:OnRpmValueChanged(rpmValue) end
 
----@protected
 ---@param speedValue Float
 ---@return Bool
-function vehicleInteriorUIGameController:OnSpeedValueChanged(speedValue) return end
+function vehicleInteriorUIGameController:OnSpeedValueChanged(speedValue) end
 
----@protected
 ---@return Bool
-function vehicleInteriorUIGameController:OnUninitialize() return end
+function vehicleInteriorUIGameController:OnUninitialize() end
 
----@protected
 ---@param ready Bool
 ---@return Bool
-function vehicleInteriorUIGameController:OnVehicleReady(ready) return end
+function vehicleInteriorUIGameController:OnVehicleReady(ready) end
 
----@protected
 ---@param state Int32
 ---@return Bool
-function vehicleInteriorUIGameController:OnVehicleStateChanged(state) return end
+function vehicleInteriorUIGameController:OnVehicleStateChanged(state) end
 
----@private
 ---@return nil
-function vehicleInteriorUIGameController:ActivateUI() return end
+function vehicleInteriorUIGameController:ActivateUI() end
 
----@private
 ---@return nil
-function vehicleInteriorUIGameController:AddChunk() return end
+function vehicleInteriorUIGameController:AddChunk() end
 
----@private
 ---@return nil
-function vehicleInteriorUIGameController:DeactivateUI() return end
+function vehicleInteriorUIGameController:DeactivateUI() end
 
----@private
 ---@param currentAmountOfChunks Int32
 ---@return nil
-function vehicleInteriorUIGameController:EvaluateRPMMeterWidget(currentAmountOfChunks) return end
+function vehicleInteriorUIGameController:EvaluateRPMMeterWidget(currentAmountOfChunks) end
 
----@private
 ---@return Bool
-function vehicleInteriorUIGameController:IsUIactive() return end
+function vehicleInteriorUIGameController:IsUIactive() end
 
----@private
 ---@param currentAmountOfChunks Int32
 ---@return nil
-function vehicleInteriorUIGameController:RedrawRPM(currentAmountOfChunks) return end
+function vehicleInteriorUIGameController:RedrawRPM(currentAmountOfChunks) end
 
----@private
 ---@return nil
-function vehicleInteriorUIGameController:RefreshUI() return end
+function vehicleInteriorUIGameController:RefreshUI() end
 
----@private
 ---@return nil
-function vehicleInteriorUIGameController:RegisterBlackBoardCallbacks() return end
+function vehicleInteriorUIGameController:RegisterBlackBoardCallbacks() end
 
----@private
 ---@return nil
-function vehicleInteriorUIGameController:RemoveChunk() return end
+function vehicleInteriorUIGameController:RemoveChunk() end
 
----@private
 ---@return nil
-function vehicleInteriorUIGameController:UnregisterBlackBoardCallbacks() return end
+function vehicleInteriorUIGameController:UnregisterBlackBoardCallbacks() end
 
 ---@param rpmValue Float
 ---@return nil
-function vehicleInteriorUIGameController:drawRPMGaugeFull(rpmValue) return end
+function vehicleInteriorUIGameController:drawRPMGaugeFull(rpmValue) end

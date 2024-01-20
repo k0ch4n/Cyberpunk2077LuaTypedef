@@ -5,16 +5,14 @@ IdleEvents = {}
 
 ---@param fields? IdleEvents
 ---@return IdleEvents
-function IdleEvents.new(fields) return end
+function IdleEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function IdleEvents:OnEnter(stateContext, scriptInterface) return end
+function IdleEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function IdleEvents:SetVehicleCombatType(stateContext, scriptInterface) return end
+function IdleEvents:SetVehicleCombatType(stateContext, scriptInterface) end

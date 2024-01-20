@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTerrainMeshNode: worldNode
----@field public mesh CMesh
----@field public meshRef CMesh
+---@field mesh CMesh
+---@field meshRef CMesh
 worldTerrainMeshNode = {}
 
 ---@param fields? worldTerrainMeshNode
 ---@return worldTerrainMeshNode
-function worldTerrainMeshNode.new(fields) return end
+function worldTerrainMeshNode.new(fields) end

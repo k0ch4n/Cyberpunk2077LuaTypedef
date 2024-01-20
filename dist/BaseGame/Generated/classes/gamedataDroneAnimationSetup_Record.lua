@@ -5,40 +5,40 @@ gamedataDroneAnimationSetup_Record = {}
 
 ---@param fields? gamedataDroneAnimationSetup_Record
 ---@return gamedataDroneAnimationSetup_Record
-function gamedataDroneAnimationSetup_Record.new(fields) return end
+function gamedataDroneAnimationSetup_Record.new(fields) end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:Mass() return end
+function gamedataDroneAnimationSetup_Record:Mass() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:MassNormalizedCoefficient() return end
+function gamedataDroneAnimationSetup_Record:MassNormalizedCoefficient() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:PseudoAcceleration() return end
+function gamedataDroneAnimationSetup_Record:PseudoAcceleration() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:SizeBack() return end
+function gamedataDroneAnimationSetup_Record:SizeBack() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:SizeFront() return end
+function gamedataDroneAnimationSetup_Record:SizeFront() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:SizeLeft() return end
+function gamedataDroneAnimationSetup_Record:SizeLeft() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:SizeRight() return end
+function gamedataDroneAnimationSetup_Record:SizeRight() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:SpeedIdleThreshold() return end
+function gamedataDroneAnimationSetup_Record:SpeedIdleThreshold() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:StartingRecoveryBalance() return end
+function gamedataDroneAnimationSetup_Record:StartingRecoveryBalance() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:TiltAngleOnSpeed() return end
+function gamedataDroneAnimationSetup_Record:TiltAngleOnSpeed() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:TurnInertiaDamping() return end
+function gamedataDroneAnimationSetup_Record:TurnInertiaDamping() end
 
 ---@return Float
-function gamedataDroneAnimationSetup_Record:WalkTiltCoefficient() return end
+function gamedataDroneAnimationSetup_Record:WalkTiltCoefficient() end

@@ -5,9 +5,8 @@ GetOffThePsychoSquadAV = {}
 
 ---@param fields? GetOffThePsychoSquadAV
 ---@return GetOffThePsychoSquadAV
-function GetOffThePsychoSquadAV.new(fields) return end
+function GetOffThePsychoSquadAV.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetOffThePsychoSquadAV:Activate(context) return end
+function GetOffThePsychoSquadAV:Activate(context) end

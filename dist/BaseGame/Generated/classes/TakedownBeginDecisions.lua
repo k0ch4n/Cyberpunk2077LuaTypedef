@@ -5,16 +5,14 @@ TakedownBeginDecisions = {}
 
 ---@param fields? TakedownBeginDecisions
 ---@return TakedownBeginDecisions
-function TakedownBeginDecisions.new(fields) return end
+function TakedownBeginDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownBeginDecisions:EnterCondition(stateContext, scriptInterface) return end
+function TakedownBeginDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownBeginDecisions:ExitCondition(stateContext, scriptInterface) return end
+function TakedownBeginDecisions:ExitCondition(stateContext, scriptInterface) end

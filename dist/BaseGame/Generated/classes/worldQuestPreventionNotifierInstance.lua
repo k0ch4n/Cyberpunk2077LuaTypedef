@@ -5,4 +5,4 @@ worldQuestPreventionNotifierInstance = {}
 
 ---@param fields? worldQuestPreventionNotifierInstance
 ---@return worldQuestPreventionNotifierInstance
-function worldQuestPreventionNotifierInstance.new(fields) return end
+function worldQuestPreventionNotifierInstance.new(fields) end

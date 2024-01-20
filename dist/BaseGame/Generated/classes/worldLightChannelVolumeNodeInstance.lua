@@ -5,4 +5,4 @@ worldLightChannelVolumeNodeInstance = {}
 
 ---@param fields? worldLightChannelVolumeNodeInstance
 ---@return worldLightChannelVolumeNodeInstance
-function worldLightChannelVolumeNodeInstance.new(fields) return end
+function worldLightChannelVolumeNodeInstance.new(fields) end

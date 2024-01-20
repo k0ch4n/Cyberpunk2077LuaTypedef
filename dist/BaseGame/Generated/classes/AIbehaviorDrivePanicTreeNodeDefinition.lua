@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AIbehaviorDrivePanicTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
----@field public allowSimplifiedMovement AIArgumentMapping
----@field public ignoreTickets AIArgumentMapping
----@field public disableStuckDetection AIArgumentMapping
----@field public useSpeedBasedLookupRange AIArgumentMapping
----@field public tryDriveAwayFromPlayer AIArgumentMapping
----@field public needDriver AIArgumentMapping
+---@field allowSimplifiedMovement AIArgumentMapping
+---@field ignoreTickets AIArgumentMapping
+---@field disableStuckDetection AIArgumentMapping
+---@field useSpeedBasedLookupRange AIArgumentMapping
+---@field tryDriveAwayFromPlayer AIArgumentMapping
+---@field needDriver AIArgumentMapping
 AIbehaviorDrivePanicTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDrivePanicTreeNodeDefinition
 ---@return AIbehaviorDrivePanicTreeNodeDefinition
-function AIbehaviorDrivePanicTreeNodeDefinition.new(fields) return end
+function AIbehaviorDrivePanicTreeNodeDefinition.new(fields) end

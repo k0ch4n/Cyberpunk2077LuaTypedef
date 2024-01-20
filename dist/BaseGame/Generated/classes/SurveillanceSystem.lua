@@ -5,21 +5,18 @@ SurveillanceSystem = {}
 
 ---@param fields? SurveillanceSystem
 ---@return SurveillanceSystem
-function SurveillanceSystem.new(fields) return end
+function SurveillanceSystem.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SurveillanceSystem:OnRequestComponents(ri) return end
+function SurveillanceSystem:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SurveillanceSystem:OnTakeControl(ri) return end
+function SurveillanceSystem:OnTakeControl(ri) end
 
----@protected
 ---@return SurveillanceSystemController
-function SurveillanceSystem:GetController() return end
+function SurveillanceSystem:GetController() end
 
 ---@return SurveillanceSystemControllerPS
-function SurveillanceSystem:GetDevicePS() return end
+function SurveillanceSystem:GetDevicePS() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class senseEnabledEvent: redEvent
----@field public isEnabled Bool
+---@field isEnabled Bool
 senseEnabledEvent = {}
 
 ---@param fields? senseEnabledEvent
 ---@return senseEnabledEvent
-function senseEnabledEvent.new(fields) return end
+function senseEnabledEvent.new(fields) end

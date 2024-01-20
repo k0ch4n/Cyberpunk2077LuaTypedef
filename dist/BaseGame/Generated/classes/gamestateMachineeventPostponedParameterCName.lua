@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineeventPostponedParameterCName: gamestateMachineeventPostponedParameterBase
----@field public value CName
+---@field value CName
 gamestateMachineeventPostponedParameterCName = {}
 
 ---@param fields? gamestateMachineeventPostponedParameterCName
 ---@return gamestateMachineeventPostponedParameterCName
-function gamestateMachineeventPostponedParameterCName.new(fields) return end
+function gamestateMachineeventPostponedParameterCName.new(fields) end

@@ -5,4 +5,4 @@ audioMeleeWeaponPlayerSettings = {}
 
 ---@param fields? audioMeleeWeaponPlayerSettings
 ---@return audioMeleeWeaponPlayerSettings
-function audioMeleeWeaponPlayerSettings.new(fields) return end
+function audioMeleeWeaponPlayerSettings.new(fields) end

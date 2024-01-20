@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PreventionRegisterRequest: gameScriptableSystemRequest
----@field public requester gamePersistentState
----@field public attitudeGroup CName
----@field public register Bool
+---@field requester gamePersistentState
+---@field attitudeGroup CName
+---@field register Bool
 PreventionRegisterRequest = {}
 
 ---@param fields? PreventionRegisterRequest
 ---@return PreventionRegisterRequest
-function PreventionRegisterRequest.new(fields) return end
+function PreventionRegisterRequest.new(fields) end

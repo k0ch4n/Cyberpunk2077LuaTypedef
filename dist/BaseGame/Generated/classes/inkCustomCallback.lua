@@ -5,4 +5,4 @@ inkCustomCallback = {}
 
 ---@param fields? inkCustomCallback
 ---@return inkCustomCallback
-function inkCustomCallback.new(fields) return end
+function inkCustomCallback.new(fields) end

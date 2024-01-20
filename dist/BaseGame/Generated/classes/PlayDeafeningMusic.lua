@@ -5,18 +5,18 @@ PlayDeafeningMusic = {}
 
 ---@param fields? PlayDeafeningMusic
 ---@return PlayDeafeningMusic
-function PlayDeafeningMusic.new(fields) return end
+function PlayDeafeningMusic.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function PlayDeafeningMusic.IsAvailable(device) return end
+function PlayDeafeningMusic.IsAvailable(device) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function PlayDeafeningMusic.IsDefaultConditionMet(device) return end
+function PlayDeafeningMusic.IsDefaultConditionMet(device) end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function PlayDeafeningMusic:GetInteractionIcon() return end
+function PlayDeafeningMusic:GetInteractionIcon() end
 
 ---@return nil
-function PlayDeafeningMusic:SetProperties() return end
+function PlayDeafeningMusic:SetProperties() end

@@ -5,4 +5,4 @@ OnDoubleClick = {}
 
 ---@param fields? OnDoubleClick
 ---@return OnDoubleClick
-function OnDoubleClick.new(fields) return end
+function OnDoubleClick.new(fields) end

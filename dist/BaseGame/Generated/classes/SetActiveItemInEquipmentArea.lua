@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetActiveItemInEquipmentArea: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
+---@field itemID gameItemID
 SetActiveItemInEquipmentArea = {}
 
 ---@param fields? SetActiveItemInEquipmentArea
 ---@return SetActiveItemInEquipmentArea
-function SetActiveItemInEquipmentArea.new(fields) return end
+function SetActiveItemInEquipmentArea.new(fields) end

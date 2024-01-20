@@ -5,4 +5,4 @@ gameCompiledSmartObjectData = {}
 
 ---@param fields? gameCompiledSmartObjectData
 ---@return gameCompiledSmartObjectData
-function gameCompiledSmartObjectData.new(fields) return end
+function gameCompiledSmartObjectData.new(fields) end

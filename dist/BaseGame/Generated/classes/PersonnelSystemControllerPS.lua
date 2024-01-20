@@ -5,12 +5,10 @@ PersonnelSystemControllerPS = {}
 
 ---@param fields? PersonnelSystemControllerPS
 ---@return PersonnelSystemControllerPS
-function PersonnelSystemControllerPS.new(fields) return end
+function PersonnelSystemControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function PersonnelSystemControllerPS:OnInstantiated() return end
+function PersonnelSystemControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function PersonnelSystemControllerPS:Initialize() return end
+function PersonnelSystemControllerPS:Initialize() end

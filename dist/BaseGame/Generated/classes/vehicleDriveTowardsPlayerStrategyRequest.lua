@@ -5,9 +5,9 @@ vehicleDriveTowardsPlayerStrategyRequest = {}
 
 ---@param fields? vehicleDriveTowardsPlayerStrategyRequest
 ---@return vehicleDriveTowardsPlayerStrategyRequest
-function vehicleDriveTowardsPlayerStrategyRequest.new(fields) return end
+function vehicleDriveTowardsPlayerStrategyRequest.new(fields) end
 
 ---@param spawnDistanceRange Vector2
 ---@param minDirectDist Float
 ---@return vehicleDriveTowardsPlayerStrategyRequest
-function vehicleDriveTowardsPlayerStrategyRequest.Create(spawnDistanceRange, minDirectDist) return end
+function vehicleDriveTowardsPlayerStrategyRequest.Create(spawnDistanceRange, minDirectDist) end

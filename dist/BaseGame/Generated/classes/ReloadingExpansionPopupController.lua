@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class ReloadingExpansionPopupController: inkWidgetLogicController
----@field private progressBarRef inkWidgetReference
----@field private titleTextRef inkTextWidgetReference
----@field private descriptionTextRef inkTextWidgetReference
----@field private warningTextRef inkTextWidgetReference
----@field private progressBarController LoadingScreenProgressBarController
----@field private animProxy inkanimProxy
+---@field progressBarRef inkWidgetReference
+---@field titleTextRef inkTextWidgetReference
+---@field descriptionTextRef inkTextWidgetReference
+---@field warningTextRef inkTextWidgetReference
+---@field progressBarController LoadingScreenProgressBarController
+---@field animProxy inkanimProxy
 ReloadingExpansionPopupController = {}
 
 ---@param fields? ReloadingExpansionPopupController
 ---@return ReloadingExpansionPopupController
-function ReloadingExpansionPopupController.new(fields) return end
+function ReloadingExpansionPopupController.new(fields) end
 
----@protected
 ---@return Bool
-function ReloadingExpansionPopupController:OnInitialize() return end
+function ReloadingExpansionPopupController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function ReloadingExpansionPopupController:OnReloadingAnimationFinished(proxy) return end
+function ReloadingExpansionPopupController:OnReloadingAnimationFinished(proxy) end
 
----@private
 ---@return nil
-function ReloadingExpansionPopupController:SetPlatformSpecificText() return end
+function ReloadingExpansionPopupController:SetPlatformSpecificText() end
 
 ---@param progress Float
 ---@return nil
-function ReloadingExpansionPopupController:UpdateProgress(progress) return end
+function ReloadingExpansionPopupController:UpdateProgress(progress) end

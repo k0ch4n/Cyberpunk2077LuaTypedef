@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class IsMountedByPreventionNPCPrereq: gameIScriptablePrereq
----@field protected isCheckInverted Bool
+---@field isCheckInverted Bool
 IsMountedByPreventionNPCPrereq = {}
 
 ---@param fields? IsMountedByPreventionNPCPrereq
 ---@return IsMountedByPreventionNPCPrereq
-function IsMountedByPreventionNPCPrereq.new(fields) return end
+function IsMountedByPreventionNPCPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IsMountedByPreventionNPCPrereq:Initialize(recordID) return end
+function IsMountedByPreventionNPCPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function IsMountedByPreventionNPCPrereq:IsFulfilled(context) return end
+function IsMountedByPreventionNPCPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function IsMountedByPreventionNPCPrereq:OnRegister(state, context) return end
+function IsMountedByPreventionNPCPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IsMountedByPreventionNPCPrereq:OnUnregister(state, context) return end
+function IsMountedByPreventionNPCPrereq:OnUnregister(state, context) end

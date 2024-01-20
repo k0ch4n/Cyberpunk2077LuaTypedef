@@ -1,45 +1,45 @@
 ---@meta
 
 ---@class Codeware_UI_SimpleButton: Codeware_UI_CustomButton
----@field public isFlipped Bool
----@field public bg inkImageWidget
----@field public fill inkImageWidget
----@field public frame inkImageWidget
----@field public disabledRootAnimDef inkanimDefinition
----@field public disabledRootAnimProxy inkanimProxy
----@field public hoverFillAnimDef inkanimDefinition
----@field public hoverFillAnimProxy inkanimProxy
----@field public hoverFrameAnimDef inkanimDefinition
----@field public hoverFrameAnimProxy inkanimProxy
----@field public pressedFillAnimDef inkanimDefinition
----@field public pressedFillAnimProxy inkanimProxy
+---@field isFlipped Bool
+---@field bg inkImageWidget
+---@field fill inkImageWidget
+---@field frame inkImageWidget
+---@field disabledRootAnimDef inkanimDefinition
+---@field disabledRootAnimProxy inkanimProxy
+---@field hoverFillAnimDef inkanimDefinition
+---@field hoverFillAnimProxy inkanimProxy
+---@field hoverFrameAnimDef inkanimDefinition
+---@field hoverFrameAnimProxy inkanimProxy
+---@field pressedFillAnimDef inkanimDefinition
+---@field pressedFillAnimProxy inkanimProxy
 Codeware_UI_SimpleButton = {}
 
 ---@param fields? Codeware_UI_SimpleButton
 ---@return Codeware_UI_SimpleButton
-function Codeware_UI_SimpleButton.new(fields) return end
+function Codeware_UI_SimpleButton.new(fields) end
 
 ---@return Codeware_UI_SimpleButton
-function Codeware_UI_SimpleButton.Create() return end
+function Codeware_UI_SimpleButton.Create() end
 
 ---@return nil
-function Codeware_UI_SimpleButton:ApplyDisabledState() return end
+function Codeware_UI_SimpleButton:ApplyDisabledState() end
 
 ---@return nil
-function Codeware_UI_SimpleButton:ApplyFlippedState() return end
+function Codeware_UI_SimpleButton:ApplyFlippedState() end
 
 ---@return nil
-function Codeware_UI_SimpleButton:ApplyHoveredState() return end
+function Codeware_UI_SimpleButton:ApplyHoveredState() end
 
 ---@return nil
-function Codeware_UI_SimpleButton:ApplyPressedState() return end
+function Codeware_UI_SimpleButton:ApplyPressedState() end
 
 ---@return nil
-function Codeware_UI_SimpleButton:CreateAnimations() return end
+function Codeware_UI_SimpleButton:CreateAnimations() end
 
 ---@return nil
-function Codeware_UI_SimpleButton:CreateWidgets() return end
+function Codeware_UI_SimpleButton:CreateWidgets() end
 
 ---@param isFlipped Bool
 ---@return nil
-function Codeware_UI_SimpleButton:SetFlipped(isFlipped) return end
+function Codeware_UI_SimpleButton:SetFlipped(isFlipped) end

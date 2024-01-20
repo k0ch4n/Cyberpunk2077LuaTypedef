@@ -5,7 +5,7 @@ questScriptedAICommandParams = {}
 
 ---@param fields? questScriptedAICommandParams
 ---@return questScriptedAICommandParams
-function questScriptedAICommandParams.new(fields) return end
+function questScriptedAICommandParams.new(fields) end
 
 ---@return AICommand
-function questScriptedAICommandParams:CreateCommand() return end
+function questScriptedAICommandParams:CreateCommand() end

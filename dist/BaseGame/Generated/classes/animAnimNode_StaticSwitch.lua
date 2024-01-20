@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animAnimNode_StaticSwitch: animAnimNode_MotionTableSwitch
----@field public condition animIStaticCondition
----@field public motionProvider animIMotionTableProvider
----@field public True animPoseLink
----@field public False animPoseLink
+---@field condition animIStaticCondition
+---@field motionProvider animIMotionTableProvider
+---@field True animPoseLink
+---@field False animPoseLink
 animAnimNode_StaticSwitch = {}
 
 ---@param fields? animAnimNode_StaticSwitch
 ---@return animAnimNode_StaticSwitch
-function animAnimNode_StaticSwitch.new(fields) return end
+function animAnimNode_StaticSwitch.new(fields) end

@@ -5,9 +5,8 @@ SetNPCSensesMainPresetPrevention = {}
 
 ---@param fields? SetNPCSensesMainPresetPrevention
 ---@return SetNPCSensesMainPresetPrevention
-function SetNPCSensesMainPresetPrevention.new(fields) return end
+function SetNPCSensesMainPresetPrevention.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetNPCSensesMainPresetPrevention:Activate(context) return end
+function SetNPCSensesMainPresetPrevention:Activate(context) end

@@ -5,10 +5,9 @@ ExplorationDecisions = {}
 
 ---@param fields? ExplorationDecisions
 ---@return ExplorationDecisions
-function ExplorationDecisions.new(fields) return end
+function ExplorationDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ExplorationDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ExplorationDecisions:EnterCondition(stateContext, scriptInterface) end

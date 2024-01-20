@@ -1,39 +1,34 @@
 ---@meta
 
 ---@class SasquatchComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private weakspotDestroyed Bool
----@field private player PlayerPuppet
+---@field owner NPCPuppet
+---@field owner_id entEntityID
+---@field weakspotDestroyed Bool
+---@field player PlayerPuppet
 SasquatchComponent = {}
 
 ---@param fields? SasquatchComponent
 ---@return SasquatchComponent
-function SasquatchComponent.new(fields) return end
+function SasquatchComponent.new(fields) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function SasquatchComponent:OnDeath(evt) return end
+function SasquatchComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function SasquatchComponent:OnDefeatedSasquatch(evt) return end
+function SasquatchComponent:OnDefeatedSasquatch(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function SasquatchComponent:OnStatusEffectApplied(evt) return end
+function SasquatchComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function SasquatchComponent:OnStatusEffectRemoved(evt) return end
-
----@private
----@return nil
-function SasquatchComponent:DestroyAllWeakspots() return end
+function SasquatchComponent:OnStatusEffectRemoved(evt) end
 
 ---@return nil
-function SasquatchComponent:OnGameAttach() return end
+function SasquatchComponent:DestroyAllWeakspots() end
+
+---@return nil
+function SasquatchComponent:OnGameAttach() end

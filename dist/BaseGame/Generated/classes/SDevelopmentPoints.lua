@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SDevelopmentPoints
----@field public type gamedataDevelopmentPointType
----@field public spent Int32
----@field public unspent Int32
+---@field type gamedataDevelopmentPointType
+---@field spent Int32
+---@field unspent Int32
 SDevelopmentPoints = {}
 
 ---@param fields? SDevelopmentPoints
 ---@return SDevelopmentPoints
-function SDevelopmentPoints.new(fields) return end
+function SDevelopmentPoints.new(fields) end

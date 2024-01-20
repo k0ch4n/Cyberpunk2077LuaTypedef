@@ -5,4 +5,4 @@ gameEffectExecutor_UpdateMeleeTireHit = {}
 
 ---@param fields? gameEffectExecutor_UpdateMeleeTireHit
 ---@return gameEffectExecutor_UpdateMeleeTireHit
-function gameEffectExecutor_UpdateMeleeTireHit.new(fields) return end
+function gameEffectExecutor_UpdateMeleeTireHit.new(fields) end

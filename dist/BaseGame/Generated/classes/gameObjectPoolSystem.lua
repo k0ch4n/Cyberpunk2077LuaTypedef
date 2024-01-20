@@ -5,8 +5,8 @@ gameObjectPoolSystem = {}
 
 ---@param fields? gameObjectPoolSystem
 ---@return gameObjectPoolSystem
-function gameObjectPoolSystem.new(fields) return end
+function gameObjectPoolSystem.new(fields) end
 
 ---@param object gameObject
 ---@return Bool
-function gameObjectPoolSystem:Release(object) return end
+function gameObjectPoolSystem:Release(object) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OnBeingNoticed: redEvent
----@field public objectThatNoticed gameObject
+---@field objectThatNoticed gameObject
 OnBeingNoticed = {}
 
 ---@param fields? OnBeingNoticed
 ---@return OnBeingNoticed
-function OnBeingNoticed.new(fields) return end
+function OnBeingNoticed.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class Multilayer_LayerTemplateOverrides
----@field public colorScale Multilayer_LayerTemplateOverridesColor[]
----@field public roughLevelsIn Multilayer_LayerTemplateOverridesLevels[]
----@field public roughLevelsOut Multilayer_LayerTemplateOverridesLevels[]
----@field public metalLevelsIn Multilayer_LayerTemplateOverridesLevels[]
----@field public metalLevelsOut Multilayer_LayerTemplateOverridesLevels[]
----@field public normalStrength Multilayer_LayerTemplateOverridesNormalStrength[]
+---@field colorScale Multilayer_LayerTemplateOverridesColor[]
+---@field roughLevelsIn Multilayer_LayerTemplateOverridesLevels[]
+---@field roughLevelsOut Multilayer_LayerTemplateOverridesLevels[]
+---@field metalLevelsIn Multilayer_LayerTemplateOverridesLevels[]
+---@field metalLevelsOut Multilayer_LayerTemplateOverridesLevels[]
+---@field normalStrength Multilayer_LayerTemplateOverridesNormalStrength[]
 Multilayer_LayerTemplateOverrides = {}
 
 ---@param fields? Multilayer_LayerTemplateOverrides
 ---@return Multilayer_LayerTemplateOverrides
-function Multilayer_LayerTemplateOverrides.new(fields) return end
+function Multilayer_LayerTemplateOverrides.new(fields) end

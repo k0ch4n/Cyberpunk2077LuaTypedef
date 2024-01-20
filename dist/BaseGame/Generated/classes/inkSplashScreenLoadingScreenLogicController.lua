@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class inkSplashScreenLoadingScreenLogicController: inkILoadingLogicController
----@field public logoTrainWBBink Bink
----@field public logoTrainNamcoBink Bink
----@field public logoTrainStadiaBink Bink
----@field public logoTrainNoRTXBink Bink
----@field public logoTrainRTXBink Bink
----@field public introMessageBink inkLocalizedBink
----@field public trailerBink Bink
----@field public logosTrainAnimation CName
----@field public localizedMessageAnimation CName
----@field public gameIntroAnimation CName
----@field public longLogosTrainAnimation CName
----@field public stopIntroAudioEventName CName
----@field public afterSkipAnimation CName
----@field public videoPlayer inkVideoWidgetReference
----@field public skipButtonPanel inkCompoundWidgetReference
+---@field logoTrainWBBink Bink
+---@field logoTrainNamcoBink Bink
+---@field logoTrainStadiaBink Bink
+---@field logoTrainNoRTXBink Bink
+---@field logoTrainRTXBink Bink
+---@field introMessageBink inkLocalizedBink
+---@field trailerBink Bink
+---@field logosTrainAnimation CName
+---@field localizedMessageAnimation CName
+---@field gameIntroAnimation CName
+---@field longLogosTrainAnimation CName
+---@field stopIntroAudioEventName CName
+---@field afterSkipAnimation CName
+---@field videoPlayer inkVideoWidgetReference
+---@field skipButtonPanel inkCompoundWidgetReference
 inkSplashScreenLoadingScreenLogicController = {}
 
 ---@param fields? inkSplashScreenLoadingScreenLogicController
 ---@return inkSplashScreenLoadingScreenLogicController
-function inkSplashScreenLoadingScreenLogicController.new(fields) return end
+function inkSplashScreenLoadingScreenLogicController.new(fields) end

@@ -1,31 +1,31 @@
 ---@meta
 
 ---@class GogRewardEntryController: inkWidgetLogicController
----@field public nameWidget inkWidgetReference
----@field public descriptionWidget inkWidgetReference
----@field public iconImage inkImageWidgetReference
----@field public ep1LabelContainer inkWidgetReference
----@field public backgroundWidget inkWidgetReference
----@field private isUnlocked Bool
+---@field nameWidget inkWidgetReference
+---@field descriptionWidget inkWidgetReference
+---@field iconImage inkImageWidgetReference
+---@field ep1LabelContainer inkWidgetReference
+---@field backgroundWidget inkWidgetReference
+---@field isUnlocked Bool
 GogRewardEntryController = {}
 
 ---@param fields? GogRewardEntryController
 ---@return GogRewardEntryController
-function GogRewardEntryController.new(fields) return end
+function GogRewardEntryController.new(fields) end
 
 ---@return Bool
-function GogRewardEntryController:IsUnlocked() return end
+function GogRewardEntryController:IsUnlocked() end
 
 ---@param rewardTitle String
 ---@param rewardDescription String
 ---@param iconSlot CName|string
 ---@param isUnlocked? Bool
 ---@return nil
-function GogRewardEntryController:OldUpdateRewardDetails(rewardTitle, rewardDescription, iconSlot, isUnlocked) return end
+function GogRewardEntryController:OldUpdateRewardDetails(rewardTitle, rewardDescription, iconSlot, isUnlocked) end
 
 ---@param iconName CName|string
 ---@param state CName|string
 ---@param isUnlocked Bool
 ---@param isOutfit? Bool
 ---@return nil
-function GogRewardEntryController:UpdateRewardDetails(iconName, state, isUnlocked, isOutfit) return end
+function GogRewardEntryController:UpdateRewardDetails(iconName, state, isUnlocked, isOutfit) end

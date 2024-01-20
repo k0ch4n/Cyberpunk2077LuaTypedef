@@ -5,4 +5,4 @@ gamePlayerCoverInfo = {}
 
 ---@param fields? gamePlayerCoverInfo
 ---@return gamePlayerCoverInfo
-function gamePlayerCoverInfo.new(fields) return end
+function gamePlayerCoverInfo.new(fields) end

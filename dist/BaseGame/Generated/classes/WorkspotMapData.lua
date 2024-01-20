@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class WorkspotMapData: IScriptable
----@field public action gamedataWorkspotActionType
----@field public workspots WorkspotEntryData[]
+---@field action gamedataWorkspotActionType
+---@field workspots WorkspotEntryData[]
 WorkspotMapData = {}
 
 ---@param fields? WorkspotMapData
 ---@return WorkspotMapData
-function WorkspotMapData.new(fields) return end
+function WorkspotMapData.new(fields) end
 
 ---@return WorkspotEntryData
-function WorkspotMapData:FindFreeWorkspotData() return end
+function WorkspotMapData:FindFreeWorkspotData() end
 
 ---@return NodeRef
-function WorkspotMapData:FindFreeWorkspotRef() return end
+function WorkspotMapData:FindFreeWorkspotRef() end
 
 ---@return Int32
-function WorkspotMapData:GetFreeWorkspotsCount() return end
+function WorkspotMapData:GetFreeWorkspotsCount() end
 
 ---@param workspotRef NodeRef
 ---@return nil
-function WorkspotMapData:ReleaseWorkspot(workspotRef) return end
+function WorkspotMapData:ReleaseWorkspot(workspotRef) end
 
 ---@param workspotRef NodeRef
 ---@return nil
-function WorkspotMapData:ReserveWorkspot(workspotRef) return end
+function WorkspotMapData:ReserveWorkspot(workspotRef) end

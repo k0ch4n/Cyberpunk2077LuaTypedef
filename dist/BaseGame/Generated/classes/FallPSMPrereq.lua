@@ -5,25 +5,21 @@ FallPSMPrereq = {}
 
 ---@param fields? FallPSMPrereq
 ---@return FallPSMPrereq
-function FallPSMPrereq.new(fields) return end
+function FallPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function FallPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function FallPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function FallPSMPrereq:GetStateMachineEnum() return end
+function FallPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function FallPSMPrereq:OnRegister(state, context) return end
+function FallPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function FallPSMPrereq:OnUnregister(state, context) return end
+function FallPSMPrereq:OnUnregister(state, context) end

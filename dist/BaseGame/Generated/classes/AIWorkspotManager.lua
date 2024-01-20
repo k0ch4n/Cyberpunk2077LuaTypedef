@@ -5,4 +5,4 @@ AIWorkspotManager = {}
 
 ---@param fields? AIWorkspotManager
 ---@return AIWorkspotManager
-function AIWorkspotManager.new(fields) return end
+function AIWorkspotManager.new(fields) end

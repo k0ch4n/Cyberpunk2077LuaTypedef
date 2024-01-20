@@ -1,102 +1,91 @@
 ---@meta
 
 ---@class gameScanningComponentPS: gameComponentPS
----@field public scanningState gameScanningState
----@field public pctScanned Float
----@field public isBlocked Bool
----@field private storedClues CluePSData[]
----@field private isScanningDisabled Bool
----@field private isDecriptionEnabled Bool
----@field private objectDescriptionOverride ObjectScanningDescription
+---@field scanningState gameScanningState
+---@field pctScanned Float
+---@field isBlocked Bool
+---@field storedClues CluePSData[]
+---@field isScanningDisabled Bool
+---@field isDecriptionEnabled Bool
+---@field objectDescriptionOverride ObjectScanningDescription
 gameScanningComponentPS = {}
 
 ---@param fields? gameScanningComponentPS
 ---@return gameScanningComponentPS
-function gameScanningComponentPS.new(fields) return end
+function gameScanningComponentPS.new(fields) end
 
 ---@return FocusCluesSystem
-function gameScanningComponentPS:GetFocusClueSystem() return end
+function gameScanningComponentPS:GetFocusClueSystem() end
 
----@private
 ---@return entEntityID
-function gameScanningComponentPS:GetMyEntityID() return end
+function gameScanningComponentPS:GetMyEntityID() end
 
 ---@return ObjectScanningDescription
-function gameScanningComponentPS:GetObjectDecriptionOverride() return end
+function gameScanningComponentPS:GetObjectDecriptionOverride() end
 
----@private
 ---@return entEntity
-function gameScanningComponentPS:GetOwnerEntityWeak() return end
+function gameScanningComponentPS:GetOwnerEntityWeak() end
 
 ---@param id Int32
 ---@return Bool, CluePSData data
-function gameScanningComponentPS:GetStoredClueData(id) return end
+function gameScanningComponentPS:GetStoredClueData(id) end
 
 ---@return Bool
-function gameScanningComponentPS:HasAnyStoredClues() return end
+function gameScanningComponentPS:HasAnyStoredClues() end
 
 ---@param id Int32
 ---@return Bool
-function gameScanningComponentPS:HasStoredClue(id) return end
+function gameScanningComponentPS:HasStoredClue(id) end
 
 ---@return Bool
-function gameScanningComponentPS:IsDescriptionEnabled() return end
+function gameScanningComponentPS:IsDescriptionEnabled() end
 
 ---@return Bool
-function gameScanningComponentPS:IsScanningDisabled() return end
+function gameScanningComponentPS:IsScanningDisabled() end
 
----@private
 ---@param evt ClearCustomObjectDescriptionEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnClearCustomObjectDescription(evt) return end
+function gameScanningComponentPS:OnClearCustomObjectDescription(evt) end
 
----@private
 ---@param evt gameFocusClueStateChangeEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnClueStateChanged(evt) return end
+function gameScanningComponentPS:OnClueStateChanged(evt) end
 
----@private
 ---@param evt DisableObjectDescriptionEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnDisableObjectDescription(evt) return end
+function gameScanningComponentPS:OnDisableObjectDescription(evt) end
 
----@private
 ---@param evt DisableScannerEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnDisableScanner(evt) return end
+function gameScanningComponentPS:OnDisableScanner(evt) end
 
----@private
 ---@param evt linkedClueUpdateEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnLinkedClueUpdateEvent(evt) return end
+function gameScanningComponentPS:OnLinkedClueUpdateEvent(evt) end
 
----@private
 ---@param evt ToggleClueConclusionEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnQuestToggleClueConclusion(evt) return end
+function gameScanningComponentPS:OnQuestToggleClueConclusion(evt) end
 
----@private
 ---@param evt SetCustomObjectDescriptionEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnSetCustomObjectDescription(evt) return end
+function gameScanningComponentPS:OnSetCustomObjectDescription(evt) end
 
----@private
 ---@param evt ToggleFocusClueEvent
 ---@return EntityNotificationType
-function gameScanningComponentPS:OnToggleFocusClue(evt) return end
+function gameScanningComponentPS:OnToggleFocusClue(evt) end
 
----@private
 ---@param clueData CluePSData
 ---@return nil
-function gameScanningComponentPS:RequestFocusClueSystemUpdate(clueData) return end
+function gameScanningComponentPS:RequestFocusClueSystemUpdate(clueData) end
 
 ---@param id Int32
 ---@param clueData FocusClueDefinition
 ---@param isScanned Bool
 ---@return nil
-function gameScanningComponentPS:StoreClueData(id, clueData, isScanned) return end
+function gameScanningComponentPS:StoreClueData(id, clueData, isScanned) end
 
 ---@param id Int32
 ---@param clueData FocusClueDefinition
 ---@return Bool
-function gameScanningComponentPS:UpdateFocusClueData(id, clueData) return end
+function gameScanningComponentPS:UpdateFocusClueData(id, clueData) end

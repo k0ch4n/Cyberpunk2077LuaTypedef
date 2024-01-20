@@ -5,4 +5,4 @@ entAreaExitedEvent = {}
 
 ---@param fields? entAreaExitedEvent
 ---@return entAreaExitedEvent
-function entAreaExitedEvent.new(fields) return end
+function entAreaExitedEvent.new(fields) end

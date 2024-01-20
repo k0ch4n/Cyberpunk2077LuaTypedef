@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class InspectionObject: gameObject
----@field public interaction gameinteractionsComponent
+---@field interaction gameinteractionsComponent
 InspectionObject = {}
 
 ---@param fields? InspectionObject
 ---@return InspectionObject
-function InspectionObject.new(fields) return end
+function InspectionObject.new(fields) end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function InspectionObject:OnInteractionChoice(choiceEvent) return end
+function InspectionObject:OnInteractionChoice(choiceEvent) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function InspectionObject:OnRequestComponents(ri) return end
+function InspectionObject:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function InspectionObject:OnTakeControl(ri) return end
+function InspectionObject:OnTakeControl(ri) end
 
----@private
 ---@param choiceName String
 ---@param data Int32
 ---@return gameinteractionsChoice
-function InspectionObject:CreateChoice(choiceName, data) return end
+function InspectionObject:CreateChoice(choiceName, data) end

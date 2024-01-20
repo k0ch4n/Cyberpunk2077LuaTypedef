@@ -5,15 +5,14 @@ StandDecisions = {}
 
 ---@param fields? StandDecisions
 ---@return StandDecisions
-function StandDecisions.new(fields) return end
+function StandDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function StandDecisions:EnterCondition(stateContext, scriptInterface) return end
+function StandDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function StandDecisions:ToSlide(stateContext, scriptInterface) return end
+function StandDecisions:ToSlide(stateContext, scriptInterface) end

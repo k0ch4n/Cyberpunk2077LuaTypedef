@@ -1,31 +1,31 @@
 ---@meta
 
 ---@class UIInventoryItemInternalData: IScriptable
----@field public Name String
----@field public Quality gamedataQuality
----@field public ItemType gamedataItemType
----@field public Quantity Int32
----@field public Description String
----@field public IconPath String
----@field public IsQuestItem Bool
----@field public IsRecipeItem Bool
----@field public IsIconicItem Bool
----@field public EquipmentArea gamedataEquipmentArea
----@field public FilterCategory ItemFilterCategory
----@field public PrimaryStat UIInventoryItemStat
----@field public ItemTypeOrder Int32
----@field public Weight Float
----@field public ItemPlus Float
----@field public StatsManager UIInventoryItemStatsManager
----@field public ModsManager UIInventoryItemModsManager
----@field public RequirementsManager UIInventoryItemRequirementsManager
----@field public UIItemCategory UIItemCategory
----@field public ComparisonQuality Float
----@field public QualityText String
----@field public IsSellable Bool
----@field public IsBroken Bool
+---@field Name String
+---@field Quality gamedataQuality
+---@field ItemType gamedataItemType
+---@field Quantity Int32
+---@field Description String
+---@field IconPath String
+---@field IsQuestItem Bool
+---@field IsRecipeItem Bool
+---@field IsIconicItem Bool
+---@field EquipmentArea gamedataEquipmentArea
+---@field FilterCategory ItemFilterCategory
+---@field PrimaryStat UIInventoryItemStat
+---@field ItemTypeOrder Int32
+---@field Weight Float
+---@field ItemPlus Float
+---@field StatsManager UIInventoryItemStatsManager
+---@field ModsManager UIInventoryItemModsManager
+---@field RequirementsManager UIInventoryItemRequirementsManager
+---@field UIItemCategory UIItemCategory
+---@field ComparisonQuality Float
+---@field QualityText String
+---@field IsSellable Bool
+---@field IsBroken Bool
 UIInventoryItemInternalData = {}
 
 ---@param fields? UIInventoryItemInternalData
 ---@return UIInventoryItemInternalData
-function UIInventoryItemInternalData.new(fields) return end
+function UIInventoryItemInternalData.new(fields) end

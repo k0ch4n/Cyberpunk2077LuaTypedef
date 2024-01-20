@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ComputerQuickHackData
----@field public alternativeName TweakDBID
----@field public factName CName
----@field public factValue Int32
----@field public operationType EMathOperationType
+---@field alternativeName TweakDBID
+---@field factName CName
+---@field factValue Int32
+---@field operationType EMathOperationType
 ComputerQuickHackData = {}
 
 ---@param fields? ComputerQuickHackData
 ---@return ComputerQuickHackData
-function ComputerQuickHackData.new(fields) return end
+function ComputerQuickHackData.new(fields) end

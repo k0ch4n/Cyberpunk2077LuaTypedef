@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class MorphTargetMesh: resStreamedResource
----@field public baseMesh CMesh
----@field public targets MorphTargetMeshEntry[]
----@field public boundingBox Box
----@field public baseTextureParamName CName
----@field public blob IRenderResourceBlob
----@field public baseMeshAppearance CName
----@field public baseTexture ITexture
+---@field baseMesh CMesh
+---@field targets MorphTargetMeshEntry[]
+---@field boundingBox Box
+---@field baseTextureParamName CName
+---@field blob IRenderResourceBlob
+---@field baseMeshAppearance CName
+---@field baseTexture ITexture
 MorphTargetMesh = {}
 
 ---@param fields? MorphTargetMesh
 ---@return MorphTargetMesh
-function MorphTargetMesh.new(fields) return end
+function MorphTargetMesh.new(fields) end

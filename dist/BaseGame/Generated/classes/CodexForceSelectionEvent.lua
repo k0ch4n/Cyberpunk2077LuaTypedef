@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CodexForceSelectionEvent: redEvent
----@field public selectionIndex Int32
----@field public hash Int32
+---@field selectionIndex Int32
+---@field hash Int32
 CodexForceSelectionEvent = {}
 
 ---@param fields? CodexForceSelectionEvent
 ---@return CodexForceSelectionEvent
-function CodexForceSelectionEvent.new(fields) return end
+function CodexForceSelectionEvent.new(fields) end

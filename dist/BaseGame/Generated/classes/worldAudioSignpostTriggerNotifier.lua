@@ -5,4 +5,4 @@ worldAudioSignpostTriggerNotifier = {}
 
 ---@param fields? worldAudioSignpostTriggerNotifier
 ---@return worldAudioSignpostTriggerNotifier
-function worldAudioSignpostTriggerNotifier.new(fields) return end
+function worldAudioSignpostTriggerNotifier.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class HideVisualSlot: redEvent
----@field public slot TransmogSlots
+---@field slot TransmogSlots
 HideVisualSlot = {}
 
 ---@param fields? HideVisualSlot
 ---@return HideVisualSlot
-function HideVisualSlot.new(fields) return end
+function HideVisualSlot.new(fields) end
 
 ---@return String
-function HideVisualSlot:GetFriendlyDescription() return end
+function HideVisualSlot:GetFriendlyDescription() end

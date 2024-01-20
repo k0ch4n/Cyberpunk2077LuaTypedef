@@ -5,22 +5,22 @@ gamedataScannableData_Record = {}
 
 ---@param fields? gamedataScannableData_Record
 ---@return gamedataScannableData_Record
-function gamedataScannableData_Record.new(fields) return end
+function gamedataScannableData_Record.new(fields) end
 
 ---@return String
-function gamedataScannableData_Record:FriendlyName() return end
+function gamedataScannableData_Record:FriendlyName() end
 
 ---@return CName
-function gamedataScannableData_Record:IconName() return end
+function gamedataScannableData_Record:IconName() end
 
 ---@return gamedataUIIcon_Record
-function gamedataScannableData_Record:IconRecord() return end
+function gamedataScannableData_Record:IconRecord() end
 
 ---@return gamedataUIIcon_Record
-function gamedataScannableData_Record:IconRecordHandle() return end
+function gamedataScannableData_Record:IconRecordHandle() end
 
 ---@return CName
-function gamedataScannableData_Record:LocalizedDescription() return end
+function gamedataScannableData_Record:LocalizedDescription() end
 
 ---@return CName
-function gamedataScannableData_Record:LocalizedName() return end
+function gamedataScannableData_Record:LocalizedName() end

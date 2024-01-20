@@ -5,28 +5,24 @@ Ladder = {}
 
 ---@param fields? Ladder
 ---@return Ladder
-function Ladder.new(fields) return end
+function Ladder.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Ladder:OnRequestComponents(ri) return end
+function Ladder:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Ladder:OnTakeControl(ri) return end
+function Ladder:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function Ladder:DeterminGameplayRole() return end
+function Ladder:DeterminGameplayRole() end
 
----@private
 ---@return LadderController
-function Ladder:GetController() return end
+function Ladder:GetController() end
 
 ---@return LadderControllerPS
-function Ladder:GetDevicePS() return end
+function Ladder:GetDevicePS() end
 
----@protected
 ---@return Bool
-function Ladder:HasAnyDirectInteractionActive() return end
+function Ladder:HasAnyDirectInteractionActive() end

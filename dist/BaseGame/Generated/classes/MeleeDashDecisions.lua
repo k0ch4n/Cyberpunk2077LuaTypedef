@@ -5,33 +5,28 @@ MeleeDashDecisions = {}
 
 ---@param fields? MeleeDashDecisions
 ---@return MeleeDashDecisions
-function MeleeDashDecisions.new(fields) return end
+function MeleeDashDecisions.new(fields) end
 
----@private
 ---@param arr Float[]
 ---@return Vector4
-function MeleeDashDecisions.ConvertArray4ToVector4(arr) return end
+function MeleeDashDecisions.ConvertArray4ToVector4(arr) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeDashDecisions:CheckDashCollision(stateContext, scriptInterface) return end
+function MeleeDashDecisions:CheckDashCollision(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeDashDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeDashDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeDashDecisions:ToMeleeIdle(stateContext, scriptInterface) return end
+function MeleeDashDecisions:ToMeleeIdle(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeDashDecisions:ToMeleeSprintAttack(stateContext, scriptInterface) return end
+function MeleeDashDecisions:ToMeleeSprintAttack(stateContext, scriptInterface) end

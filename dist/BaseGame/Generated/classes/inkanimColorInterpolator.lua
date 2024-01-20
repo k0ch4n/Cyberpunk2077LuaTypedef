@@ -1,32 +1,32 @@
 ---@meta
 
 ---@class inkanimColorInterpolator: inkanimInterpolator
----@field public startValue HDRColor
----@field public endValue HDRColor
+---@field startValue HDRColor
+---@field endValue HDRColor
 inkanimColorInterpolator = {}
 
 ---@param fields? inkanimColorInterpolator
 ---@return inkanimColorInterpolator
-function inkanimColorInterpolator.new(fields) return end
+function inkanimColorInterpolator.new(fields) end
 
 ---@return Color
-function inkanimColorInterpolator:GetEndColor() return end
+function inkanimColorInterpolator:GetEndColor() end
 
 ---@return Color
-function inkanimColorInterpolator:GetStartColor() return end
+function inkanimColorInterpolator:GetStartColor() end
 
 ---@param endColor HDRColor
 ---@return nil
-function inkanimColorInterpolator:SetEndColor(endColor) return end
+function inkanimColorInterpolator:SetEndColor(endColor) end
 
 ---@param startColor HDRColor
 ---@return nil
-function inkanimColorInterpolator:SetStartColor(startColor) return end
+function inkanimColorInterpolator:SetStartColor(startColor) end
 
 ---@param endColor Color
 ---@return nil
-function inkanimColorInterpolator:SetEndColor(endColor) return end
+function inkanimColorInterpolator:SetEndColor(endColor) end
 
 ---@param startColor Color
 ---@return nil
-function inkanimColorInterpolator:SetStartColor(startColor) return end
+function inkanimColorInterpolator:SetStartColor(startColor) end

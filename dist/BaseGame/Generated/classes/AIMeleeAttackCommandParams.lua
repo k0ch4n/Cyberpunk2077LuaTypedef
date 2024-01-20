@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIMeleeAttackCommandParams: questScriptedAICommandParams
----@field public targetOverrideNodeRef NodeRef
----@field public targetOverridePuppetRef gameEntityReference
----@field public duration Float
+---@field targetOverrideNodeRef NodeRef
+---@field targetOverridePuppetRef gameEntityReference
+---@field duration Float
 AIMeleeAttackCommandParams = {}
 
 ---@param fields? AIMeleeAttackCommandParams
 ---@return AIMeleeAttackCommandParams
-function AIMeleeAttackCommandParams.new(fields) return end
+function AIMeleeAttackCommandParams.new(fields) end
 
 ---@return AICommand
-function AIMeleeAttackCommandParams:CreateCommand() return end
+function AIMeleeAttackCommandParams:CreateCommand() end
 
 ---@return String
-function AIMeleeAttackCommandParams:GetCommandName() return end
+function AIMeleeAttackCommandParams:GetCommandName() end

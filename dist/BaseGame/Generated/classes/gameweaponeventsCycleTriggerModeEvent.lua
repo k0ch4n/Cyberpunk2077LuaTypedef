@@ -5,4 +5,4 @@ gameweaponeventsCycleTriggerModeEvent = {}
 
 ---@param fields? gameweaponeventsCycleTriggerModeEvent
 ---@return gameweaponeventsCycleTriggerModeEvent
-function gameweaponeventsCycleTriggerModeEvent.new(fields) return end
+function gameweaponeventsCycleTriggerModeEvent.new(fields) end

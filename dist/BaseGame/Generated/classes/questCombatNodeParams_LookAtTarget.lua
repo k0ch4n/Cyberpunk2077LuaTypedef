@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questCombatNodeParams_LookAtTarget: questCombatNodeParams
----@field public targetNode NodeRef
----@field public targetPuppet gameEntityReference
----@field public duration Float
----@field public immediately Bool
+---@field targetNode NodeRef
+---@field targetPuppet gameEntityReference
+---@field duration Float
+---@field immediately Bool
 questCombatNodeParams_LookAtTarget = {}
 
 ---@param fields? questCombatNodeParams_LookAtTarget
 ---@return questCombatNodeParams_LookAtTarget
-function questCombatNodeParams_LookAtTarget.new(fields) return end
+function questCombatNodeParams_LookAtTarget.new(fields) end

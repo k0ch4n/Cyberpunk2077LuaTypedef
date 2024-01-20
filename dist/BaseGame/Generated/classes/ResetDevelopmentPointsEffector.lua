@@ -5,9 +5,8 @@ ResetDevelopmentPointsEffector = {}
 
 ---@param fields? ResetDevelopmentPointsEffector
 ---@return ResetDevelopmentPointsEffector
-function ResetDevelopmentPointsEffector.new(fields) return end
+function ResetDevelopmentPointsEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ResetDevelopmentPointsEffector:ActionOn(owner) return end
+function ResetDevelopmentPointsEffector:ActionOn(owner) end

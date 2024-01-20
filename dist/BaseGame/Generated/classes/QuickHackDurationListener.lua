@@ -5,26 +5,21 @@ QuickHackDurationListener = {}
 
 ---@param fields? QuickHackDurationListener
 ---@return QuickHackDurationListener
-function QuickHackDurationListener.new(fields) return end
+function QuickHackDurationListener.new(fields) end
 
----@protected
 ---@return Bool
-function QuickHackDurationListener:OnStatPoolAdded() return end
+function QuickHackDurationListener:OnStatPoolAdded() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function QuickHackDurationListener:OnStatPoolMaxValueReached(value) return end
+function QuickHackDurationListener:OnStatPoolMaxValueReached(value) end
 
----@protected
 ---@return nil
-function QuickHackDurationListener:SendUploadFinishedEvent() return end
+function QuickHackDurationListener:SendUploadFinishedEvent() end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function QuickHackDurationListener:SendUploadStartedEvent(action) return end
+function QuickHackDurationListener:SendUploadStartedEvent(action) end
 
----@protected
 ---@return nil
-function QuickHackDurationListener:SetRegenBehavior() return end
+function QuickHackDurationListener:SetRegenBehavior() end

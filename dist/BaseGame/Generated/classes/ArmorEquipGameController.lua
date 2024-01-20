@@ -1,204 +1,182 @@
 ---@meta
 
 ---@class ArmorEquipGameController: gameuiMenuGameController
----@field protected inventoryCanvas inkWidget
----@field protected inventoryList inkVerticalPanelWidget
----@field protected inventory gameItemData[]
----@field protected player PlayerPuppet
----@field protected equipmentSystem EquipmentSystem
----@field protected subCharacterSystem SubCharacterSystem
----@field protected transactionSystem gameTransactionSystem
----@field protected craftingSystem CraftingSystem
----@field protected buttonScrollUp inkCanvasWidget
----@field protected buttonScrollDn inkCanvasWidget
----@field protected buttonPlayer inkCanvasWidget
----@field protected buttonFlathead inkCanvasWidget
----@field protected buttonToolbox inkCanvasWidget
----@field protected panelPlayer inkCanvasWidget
----@field protected panelFlathead inkCanvasWidget
----@field protected panelToolbox inkCanvasWidget
----@field protected uiBB_Equipment UI_EquipmentDef
----@field protected uiBB_EquipmentBlackboard gameIBlackboard
----@field protected backgroundVideo inkVideoWidget
----@field protected paperdollVideo inkVideoWidget
----@field protected areaTags CName[]
----@field protected inventoryManager InventoryDataManager
----@field protected equipArea gamedataEquipmentArea
----@field protected slotIndex Int32
----@field protected recipeItemList TweakDBID[]
----@field protected playerCraftBook CraftBook
----@field protected tooltipsLibrary redResourceReferenceScriptToken
----@field protected itemTooltipName CName
----@field protected tooltipStylePath redResourceReferenceScriptToken
----@field protected tooltipLeft InventorySlotTooltip
----@field protected tooltipRight InventorySlotTooltip
----@field protected tooltipContainer inkCompoundWidget
----@field protected paperDollList CName[]
----@field protected scrollOffset Int32
----@field protected faceTags CName[]
----@field protected headTags CName[]
----@field protected chestTags CName[]
----@field protected legTags CName[]
----@field protected weaponTags CName[]
----@field protected consumableTags CName[]
----@field protected modulesTags CName[]
----@field protected framesTags CName[]
----@field protected operationsMode operationsMode
+---@field inventoryCanvas inkWidget
+---@field inventoryList inkVerticalPanelWidget
+---@field inventory gameItemData[]
+---@field player PlayerPuppet
+---@field equipmentSystem EquipmentSystem
+---@field subCharacterSystem SubCharacterSystem
+---@field transactionSystem gameTransactionSystem
+---@field craftingSystem CraftingSystem
+---@field buttonScrollUp inkCanvasWidget
+---@field buttonScrollDn inkCanvasWidget
+---@field buttonPlayer inkCanvasWidget
+---@field buttonFlathead inkCanvasWidget
+---@field buttonToolbox inkCanvasWidget
+---@field panelPlayer inkCanvasWidget
+---@field panelFlathead inkCanvasWidget
+---@field panelToolbox inkCanvasWidget
+---@field uiBB_Equipment UI_EquipmentDef
+---@field uiBB_EquipmentBlackboard gameIBlackboard
+---@field backgroundVideo inkVideoWidget
+---@field paperdollVideo inkVideoWidget
+---@field areaTags CName[]
+---@field inventoryManager InventoryDataManager
+---@field equipArea gamedataEquipmentArea
+---@field slotIndex Int32
+---@field recipeItemList TweakDBID[]
+---@field playerCraftBook CraftBook
+---@field tooltipsLibrary redResourceReferenceScriptToken
+---@field itemTooltipName CName
+---@field tooltipStylePath redResourceReferenceScriptToken
+---@field tooltipLeft InventorySlotTooltip
+---@field tooltipRight InventorySlotTooltip
+---@field tooltipContainer inkCompoundWidget
+---@field paperDollList CName[]
+---@field scrollOffset Int32
+---@field faceTags CName[]
+---@field headTags CName[]
+---@field chestTags CName[]
+---@field legTags CName[]
+---@field weaponTags CName[]
+---@field consumableTags CName[]
+---@field modulesTags CName[]
+---@field framesTags CName[]
+---@field operationsMode operationsMode
 ArmorEquipGameController = {}
 
 ---@param fields? ArmorEquipGameController
 ---@return ArmorEquipGameController
-function ArmorEquipGameController.new(fields) return end
+function ArmorEquipGameController.new(fields) end
 
----@protected
 ---@return Bool
-function ArmorEquipGameController:OnInitialize() return end
+function ArmorEquipGameController:OnInitialize() end
 
----@protected
 ---@return nil, InventorySlotTooltip tooltipController
-function ArmorEquipGameController:CreateTooltip() return end
+function ArmorEquipGameController:CreateTooltip() end
 
----@protected
 ---@param itemID gameItemID
 ---@param quantity Int32
 ---@return nil
-function ArmorEquipGameController:DisassembleItem(itemID, quantity) return end
+function ArmorEquipGameController:DisassembleItem(itemID, quantity) end
 
----@protected
 ---@param itemData gameItemData
 ---@param slotId Int32
 ---@return nil
-function ArmorEquipGameController:HelperAddInventoryButton(itemData, slotId) return end
+function ArmorEquipGameController:HelperAddInventoryButton(itemData, slotId) end
 
----@protected
 ---@param argTitle String
 ---@param containerSlot inkCanvasWidget
 ---@param equipArea gamedataEquipmentArea
 ---@param slotIndex Int32
 ---@param areaTags CName[]|string[]
 ---@return nil
-function ArmorEquipGameController:HelperAddPaperdollButton(argTitle, containerSlot, equipArea, slotIndex, areaTags) return end
+function ArmorEquipGameController:HelperAddPaperdollButton(argTitle, containerSlot, equipArea, slotIndex, areaTags) end
 
----@protected
 ---@param slotId Int32
 ---@return nil
-function ArmorEquipGameController:HelperClearButton(slotId) return end
+function ArmorEquipGameController:HelperClearButton(slotId) end
 
----@protected
 ---@return nil
-function ArmorEquipGameController:HideTooltips() return end
+function ArmorEquipGameController:HideTooltips() end
 
----@protected
 ---@param value Variant
 ---@return nil
-function ArmorEquipGameController:OnEquipmentChange(value) return end
+function ArmorEquipGameController:OnEquipmentChange(value) end
 
----@protected
 ---@param value Variant
 ---@return nil
-function ArmorEquipGameController:OnInventoryChange(value) return end
+function ArmorEquipGameController:OnInventoryChange(value) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnInventoryItemEnter(e) return end
+function ArmorEquipGameController:OnInventoryItemEnter(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnInventoryItemExit(e) return end
+function ArmorEquipGameController:OnInventoryItemExit(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnInventoryItemPush(e) return end
+function ArmorEquipGameController:OnInventoryItemPush(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnPaperDollCursor(e) return end
+function ArmorEquipGameController:OnPaperDollCursor(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnPaperdollItemEnter(e) return end
+function ArmorEquipGameController:OnPaperdollItemEnter(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnPaperdollItemExit(e) return end
+function ArmorEquipGameController:OnPaperdollItemExit(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnScrollDn(e) return end
+function ArmorEquipGameController:OnScrollDn(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnScrollUp(e) return end
+function ArmorEquipGameController:OnScrollUp(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnSelectFlathead(e) return end
+function ArmorEquipGameController:OnSelectFlathead(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnSelectPlayer(e) return end
+function ArmorEquipGameController:OnSelectPlayer(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:OnSelectToolbox(e) return end
+function ArmorEquipGameController:OnSelectToolbox(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:ProcessFlatheadClick(e) return end
+function ArmorEquipGameController:ProcessFlatheadClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:ProcessPaperDollFlatheadClick(e) return end
+function ArmorEquipGameController:ProcessPaperDollFlatheadClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:ProcessPaperDollPlayerClick(e) return end
+function ArmorEquipGameController:ProcessPaperDollPlayerClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:ProcessPlayerClick(e) return end
+function ArmorEquipGameController:ProcessPlayerClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function ArmorEquipGameController:ProcessToolboxClick(e) return end
+function ArmorEquipGameController:ProcessToolboxClick(e) end
 
----@protected
 ---@return nil
-function ArmorEquipGameController:RefreshEquipment() return end
+function ArmorEquipGameController:RefreshEquipment() end
 
----@protected
 ---@return nil
-function ArmorEquipGameController:RefreshFlatheadEquipment() return end
+function ArmorEquipGameController:RefreshFlatheadEquipment() end
 
----@protected
 ---@return nil
-function ArmorEquipGameController:RefreshInventoryList() return end
+function ArmorEquipGameController:RefreshInventoryList() end
 
----@protected
 ---@return nil
-function ArmorEquipGameController:RefreshPlayerEquipment() return end
+function ArmorEquipGameController:RefreshPlayerEquipment() end
 
----@protected
 ---@param tooltipItemData gameItemData
 ---@param equippedItemId gameItemID
 ---@return nil
-function ArmorEquipGameController:RefreshTooltipsInventory(tooltipItemData, equippedItemId) return end
+function ArmorEquipGameController:RefreshTooltipsInventory(tooltipItemData, equippedItemId) end
 
----@protected
 ---@param tooltipItemData gameItemViewData
 ---@return nil
-function ArmorEquipGameController:RefreshTooltipsPaperdoll(tooltipItemData) return end
+function ArmorEquipGameController:RefreshTooltipsPaperdoll(tooltipItemData) end
 
----@protected
 ---@param items gameItemData[]
 ---@return gameItemData[]
-function ArmorEquipGameController:RemovedCyberware(items) return end
+function ArmorEquipGameController:RemovedCyberware(items) end
 
----@protected
 ---@return nil
-function ArmorEquipGameController:SetCraftList() return end
+function ArmorEquipGameController:SetCraftList() end

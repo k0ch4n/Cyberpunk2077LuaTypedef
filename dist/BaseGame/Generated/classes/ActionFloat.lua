@@ -4,7 +4,7 @@
 ActionFloat = {}
 
 ---@return String
-function ActionFloat:GetCurrentDisplayString() return end
+function ActionFloat:GetCurrentDisplayString() end
 
 ---@return gamedeviceActionProperty[]
-function ActionFloat:GetProperties() return end
+function ActionFloat:GetProperties() end

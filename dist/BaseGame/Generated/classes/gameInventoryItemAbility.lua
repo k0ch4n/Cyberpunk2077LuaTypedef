@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameInventoryItemAbility
----@field public IconPath CName
----@field public Title String
----@field public Description String
----@field public LocalizationDataPackage gameUILocalizationDataPackage
+---@field IconPath CName
+---@field Title String
+---@field Description String
+---@field LocalizationDataPackage gameUILocalizationDataPackage
 gameInventoryItemAbility = {}
 
 ---@param fields? gameInventoryItemAbility
 ---@return gameInventoryItemAbility
-function gameInventoryItemAbility.new(fields) return end
+function gameInventoryItemAbility.new(fields) end

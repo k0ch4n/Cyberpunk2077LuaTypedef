@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class DisassemblableComponent: gameScriptableComponent
----@field private disassembled Bool
----@field private disassembleTargetRequesters gameObject[]
+---@field disassembled Bool
+---@field disassembleTargetRequesters gameObject[]
 DisassemblableComponent = {}
 
 ---@param fields? DisassemblableComponent
 ---@return DisassemblableComponent
-function DisassemblableComponent.new(fields) return end
+function DisassemblableComponent.new(fields) end
 
----@protected
 ---@param evt DisassembleEvent
 ---@return Bool
-function DisassemblableComponent:OnDisassembled(evt) return end
+function DisassemblableComponent:OnDisassembled(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DisassemblableComponent:OnTakeControl(ri) return end
+function DisassemblableComponent:OnTakeControl(ri) end
 
----@protected
 ---@param evt DisassembleTargetRequest
 ---@return Bool
-function DisassemblableComponent:OnTargetRequested(evt) return end
+function DisassemblableComponent:OnTargetRequested(evt) end
 
 ---@return nil
-function DisassemblableComponent:ObtainParts() return end
+function DisassemblableComponent:ObtainParts() end
 
----@protected
 ---@return nil
-function DisassemblableComponent:OnGameAttach() return end
+function DisassemblableComponent:OnGameAttach() end
 
----@protected
 ---@return nil
-function DisassemblableComponent:OnGameDetach() return end
+function DisassemblableComponent:OnGameDetach() end
 
----@protected
 ---@param deltaTime Float
 ---@return nil
-function DisassemblableComponent:OnUpdate(deltaTime) return end
+function DisassemblableComponent:OnUpdate(deltaTime) end

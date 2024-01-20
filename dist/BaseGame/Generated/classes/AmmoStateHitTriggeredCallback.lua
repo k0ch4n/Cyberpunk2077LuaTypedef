@@ -5,14 +5,12 @@ AmmoStateHitTriggeredCallback = {}
 
 ---@param fields? AmmoStateHitTriggeredCallback
 ---@return AmmoStateHitTriggeredCallback
-function AmmoStateHitTriggeredCallback.new(fields) return end
+function AmmoStateHitTriggeredCallback.new(fields) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function AmmoStateHitTriggeredCallback:OnHitReceived(hitEvent) return end
+function AmmoStateHitTriggeredCallback:OnHitReceived(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function AmmoStateHitTriggeredCallback:OnHitTriggered(hitEvent) return end
+function AmmoStateHitTriggeredCallback:OnHitTriggered(hitEvent) end

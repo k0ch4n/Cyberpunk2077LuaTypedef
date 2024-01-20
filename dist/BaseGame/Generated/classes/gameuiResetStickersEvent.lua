@@ -5,4 +5,4 @@ gameuiResetStickersEvent = {}
 
 ---@param fields? gameuiResetStickersEvent
 ---@return gameuiResetStickersEvent
-function gameuiResetStickersEvent.new(fields) return end
+function gameuiResetStickersEvent.new(fields) end

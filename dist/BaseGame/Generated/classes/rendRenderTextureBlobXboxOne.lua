@@ -5,4 +5,4 @@ rendRenderTextureBlobXboxOne = {}
 
 ---@param fields? rendRenderTextureBlobXboxOne
 ---@return rendRenderTextureBlobXboxOne
-function rendRenderTextureBlobXboxOne.new(fields) return end
+function rendRenderTextureBlobXboxOne.new(fields) end

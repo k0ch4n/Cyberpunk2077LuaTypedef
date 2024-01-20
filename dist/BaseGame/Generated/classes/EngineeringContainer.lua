@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class EngineeringContainer: BaseSkillCheckContainer
----@field public engineeringCheck EngineeringSkillCheck
+---@field engineeringCheck EngineeringSkillCheck
 EngineeringContainer = {}
 
 ---@param fields? EngineeringContainer
 ---@return EngineeringContainer
-function EngineeringContainer.new(fields) return end
+function EngineeringContainer.new(fields) end
 
 ---@param container BaseSkillCheckContainer
 ---@return nil
-function EngineeringContainer:Initialize(container) return end
+function EngineeringContainer:Initialize(container) end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class KiroshiHighlightEffectorCallback: gameAttachmentSlotsScriptCallback
----@field public effector KiroshiHighlightEffector
+---@field effector KiroshiHighlightEffector
 KiroshiHighlightEffectorCallback = {}
 
 ---@param fields? KiroshiHighlightEffectorCallback
 ---@return KiroshiHighlightEffectorCallback
-function KiroshiHighlightEffectorCallback.new(fields) return end
+function KiroshiHighlightEffectorCallback.new(fields) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function KiroshiHighlightEffectorCallback:OnItemEquipped(slot, item) return end
+function KiroshiHighlightEffectorCallback:OnItemEquipped(slot, item) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function KiroshiHighlightEffectorCallback:OnItemUnequipped(slot, item) return end
+function KiroshiHighlightEffectorCallback:OnItemUnequipped(slot, item) end

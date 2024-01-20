@@ -5,4 +5,4 @@ RangedWeaponPSMPrereqState = {}
 
 ---@param fields? RangedWeaponPSMPrereqState
 ---@return RangedWeaponPSMPrereqState
-function RangedWeaponPSMPrereqState.new(fields) return end
+function RangedWeaponPSMPrereqState.new(fields) end

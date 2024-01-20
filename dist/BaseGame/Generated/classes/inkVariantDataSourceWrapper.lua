@@ -5,31 +5,31 @@ inkVariantDataSourceWrapper = {}
 
 ---@param fields? inkVariantDataSourceWrapper
 ---@return inkVariantDataSourceWrapper
-function inkVariantDataSourceWrapper.new(fields) return end
+function inkVariantDataSourceWrapper.new(fields) end
 
 ---@param data Variant
 ---@return nil
-function inkVariantDataSourceWrapper:AppendItem(data) return end
+function inkVariantDataSourceWrapper:AppendItem(data) end
 
 ---@return nil
-function inkVariantDataSourceWrapper:Clear() return end
+function inkVariantDataSourceWrapper:Clear() end
 
 ---@return Variant[]
-function inkVariantDataSourceWrapper:GetArray() return end
+function inkVariantDataSourceWrapper:GetArray() end
 
 ---@param index Uint32
 ---@param data Variant
 ---@return nil
-function inkVariantDataSourceWrapper:InsertItemAt(index, data) return end
+function inkVariantDataSourceWrapper:InsertItemAt(index, data) end
 
 ---@param data Variant
 ---@return nil
-function inkVariantDataSourceWrapper:RemoveItem(data) return end
+function inkVariantDataSourceWrapper:RemoveItem(data) end
 
 ---@param index Uint32
 ---@return nil
-function inkVariantDataSourceWrapper:RemoveItemAt(index) return end
+function inkVariantDataSourceWrapper:RemoveItemAt(index) end
 
 ---@param variants Variant[]
 ---@return nil
-function inkVariantDataSourceWrapper:Reset(variants) return end
+function inkVariantDataSourceWrapper:Reset(variants) end

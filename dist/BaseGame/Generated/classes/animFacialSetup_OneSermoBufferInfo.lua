@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class animFacialSetup_OneSermoBufferInfo
----@field public numGlobalLimits Uint16
----@field public numInfluencedPoses Uint16
----@field public numInfluenceIndices Uint16
----@field public numUpperLowerFace Uint16
----@field public numLipsyncPosesSides Uint16
----@field public numAllCorrectives Uint16
----@field public numGlobalCorrectiveEntries Uint16
----@field public numInbetweenCorrectiveEntries Uint16
----@field public numCorrectiveInfluencedPoses Uint16
----@field public numCorrectiveInfluenceIndices Uint16
----@field public numAllMainPoses Uint16
----@field public numAllMainPosesInbetweens Uint16
----@field public numAllMainPosesInbetweenScopeMultipliers Uint16
----@field public numEnvelopesPerTrackMapping Uint16
----@field public wrinkleStartingIndex Uint16
----@field public numWrinkles Uint16
+---@field numGlobalLimits Uint16
+---@field numInfluencedPoses Uint16
+---@field numInfluenceIndices Uint16
+---@field numUpperLowerFace Uint16
+---@field numLipsyncPosesSides Uint16
+---@field numAllCorrectives Uint16
+---@field numGlobalCorrectiveEntries Uint16
+---@field numInbetweenCorrectiveEntries Uint16
+---@field numCorrectiveInfluencedPoses Uint16
+---@field numCorrectiveInfluenceIndices Uint16
+---@field numAllMainPoses Uint16
+---@field numAllMainPosesInbetweens Uint16
+---@field numAllMainPosesInbetweenScopeMultipliers Uint16
+---@field numEnvelopesPerTrackMapping Uint16
+---@field wrinkleStartingIndex Uint16
+---@field numWrinkles Uint16
 animFacialSetup_OneSermoBufferInfo = {}
 
 ---@param fields? animFacialSetup_OneSermoBufferInfo
 ---@return animFacialSetup_OneSermoBufferInfo
-function animFacialSetup_OneSermoBufferInfo.new(fields) return end
+function animFacialSetup_OneSermoBufferInfo.new(fields) end

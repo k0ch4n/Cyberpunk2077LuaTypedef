@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldBlockoutResource: CResource
----@field public blockoutData worldBlockoutData
+---@field blockoutData worldBlockoutData
 worldBlockoutResource = {}
 
 ---@param fields? worldBlockoutResource
 ---@return worldBlockoutResource
-function worldBlockoutResource.new(fields) return end
+function worldBlockoutResource.new(fields) end

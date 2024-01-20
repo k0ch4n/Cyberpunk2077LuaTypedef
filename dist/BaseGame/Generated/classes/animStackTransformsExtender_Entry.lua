@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animStackTransformsExtender_Entry
----@field public transformInfo animTransformInfo
----@field public snapMethod animStackTransformsExtender_SnapToBoneMethod
----@field public snapToReference Bool
----@field public snapTargetBone animTransformIndex
----@field public offsetToReference Bool
----@field public offsetSpaceBone animTransformIndex
----@field public offset QsTransform
+---@field transformInfo animTransformInfo
+---@field snapMethod animStackTransformsExtender_SnapToBoneMethod
+---@field snapToReference Bool
+---@field snapTargetBone animTransformIndex
+---@field offsetToReference Bool
+---@field offsetSpaceBone animTransformIndex
+---@field offset QsTransform
 animStackTransformsExtender_Entry = {}
 
 ---@param fields? animStackTransformsExtender_Entry
 ---@return animStackTransformsExtender_Entry
-function animStackTransformsExtender_Entry.new(fields) return end
+function animStackTransformsExtender_Entry.new(fields) end

@@ -5,4 +5,4 @@ MenuItemDelayedUpdate = {}
 
 ---@param fields? MenuItemDelayedUpdate
 ---@return MenuItemDelayedUpdate
-function MenuItemDelayedUpdate.new(fields) return end
+function MenuItemDelayedUpdate.new(fields) end

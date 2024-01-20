@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CEvaluatorVectorStartEnd: IEvaluatorVector
----@field public start Vector4
----@field public end Vector4
+---@field start Vector4
+---@field end Vector4
 CEvaluatorVectorStartEnd = {}
 
 ---@param fields? CEvaluatorVectorStartEnd
 ---@return CEvaluatorVectorStartEnd
-function CEvaluatorVectorStartEnd.new(fields) return end
+function CEvaluatorVectorStartEnd.new(fields) end

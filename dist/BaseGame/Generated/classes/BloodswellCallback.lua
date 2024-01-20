@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class BloodswellCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field private bloodswellEffector BloodswellEffector
+---@field bloodswellEffector BloodswellEffector
 BloodswellCallback = {}
 
 ---@param fields? BloodswellCallback
 ---@return BloodswellCallback
-function BloodswellCallback.new(fields) return end
+function BloodswellCallback.new(fields) end
 
 ---@param eff BloodswellEffector
 ---@return BloodswellCallback
-function BloodswellCallback.Construct(eff) return end
+function BloodswellCallback.Construct(eff) end

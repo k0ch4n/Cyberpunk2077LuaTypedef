@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class CityFluffScreenSelector: LCDScreenSelector
----@field private recordID TweakDBID
+---@field recordID TweakDBID
 CityFluffScreenSelector = {}
 
 ---@param fields? CityFluffScreenSelector
 ---@return CityFluffScreenSelector
-function CityFluffScreenSelector.new(fields) return end
+function CityFluffScreenSelector.new(fields) end
 
 ---@return TweakDBID
-function CityFluffScreenSelector:GetRecordID() return end
+function CityFluffScreenSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function CityFluffScreenSelector:SetRecordID(recordID) return end
+function CityFluffScreenSelector:SetRecordID(recordID) end

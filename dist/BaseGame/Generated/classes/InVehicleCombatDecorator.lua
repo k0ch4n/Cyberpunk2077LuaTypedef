@@ -1,42 +1,36 @@
 ---@meta
 
 ---@class InVehicleCombatDecorator: AIVehicleTaskAbstract
----@field public targetToChase gameObject
----@field public vehCommand AIVehicleChaseCommand
+---@field targetToChase gameObject
+---@field vehCommand AIVehicleChaseCommand
 InVehicleCombatDecorator = {}
 
 ---@param fields? InVehicleCombatDecorator
 ---@return InVehicleCombatDecorator
-function InVehicleCombatDecorator.new(fields) return end
+function InVehicleCombatDecorator.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleCombatDecorator:Activate(context) return end
+function InVehicleCombatDecorator:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param newTarget gameObject
 ---@return nil
-function InVehicleCombatDecorator:ChaseNewTarget(context, newTarget) return end
+function InVehicleCombatDecorator:ChaseNewTarget(context, newTarget) end
 
----@protected
 ---@param newTarget gameObject
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIVehicleChaseCommand
-function InVehicleCombatDecorator:CreateChaseCommand(newTarget, context) return end
+function InVehicleCombatDecorator:CreateChaseCommand(newTarget, context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleCombatDecorator:Deactivate(context) return end
+function InVehicleCombatDecorator:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleCombatDecorator:ProcessInitCommands(context) return end
+function InVehicleCombatDecorator:ProcessInitCommands(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function InVehicleCombatDecorator:Update(context) return end
+function InVehicleCombatDecorator:Update(context) end

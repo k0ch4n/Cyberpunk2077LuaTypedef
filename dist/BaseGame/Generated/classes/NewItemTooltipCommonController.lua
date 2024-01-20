@@ -1,358 +1,300 @@
 ---@meta
 
 ---@class NewItemTooltipCommonController: AGenericTooltipControllerWithDebug
----@field protected backgroundContainer inkWidgetReference
----@field protected itemEquippedContainer inkWidgetReference
----@field protected itemRecipeContainer inkWidgetReference
----@field protected itemHeaderContainer inkWidgetReference
----@field protected itemBrokenContainer inkWidgetReference
----@field protected itemWeaponBarsContainer inkWidgetReference
----@field protected itemRequirementsContainer inkWidgetReference
----@field protected itemDetailsStatsContainer inkWidgetReference
----@field protected itemDescriptionContainer inkWidgetReference
----@field protected itemDetailsContainer inkWidgetReference
----@field protected itemBottomContainer inkWidgetReference
----@field protected cornerContainer inkWidgetReference
----@field protected root inkWidgetReference
----@field protected iconicBG inkWidgetReference
----@field protected recipeBG inkWidgetReference
----@field protected illegalBG inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionText inkTextWidgetReference
----@field protected DEBUG_iconErrorWrapper inkWidgetReference
----@field protected DEBUG_iconErrorText inkTextWidgetReference
----@field protected frames inkWidgetReference[]
----@field protected spawnedModules NewItemTooltipModuleController[]
----@field protected itemEquippedController NewItemTooltipEquippedModule
----@field protected itemRecipeController NewItemTooltipRepiceModule
----@field protected itemHeaderController NewItemTooltipHeaderController
----@field protected itemBrokenController NewItemTooltipBrokenModule
----@field protected itemWeaponBarsController NewItemTooltipWeaponBarsModule
----@field protected itemRequirementsController NewItemTooltipRequirementsModule
----@field protected itemDetailsStatsController NewItemTooltipDetailsStatsModule
----@field protected itemDescriptionController NewItemTooltipDescriptionModule
----@field protected itemDetailsController NewItemTooltipDetailsModule
----@field protected itemBottomController NewItemTooltipBottomModule
----@field protected DEBUG_showAdditionalInfo Bool
----@field protected data MinimalItemTooltipData
----@field protected itemData UIInventoryItem
----@field protected comparisonData UIInventoryItemComparisonManager
----@field protected player PlayerPuppet
----@field protected requestedModules CName[]
----@field protected pendingModules CName[]
----@field protected displayContext ItemDisplayContextData
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
----@field protected itemDisplayContext gameItemDisplayContext
----@field protected priceOverride Int32
----@field protected settings userSettingsUserSettings
----@field protected settingsListener NewItemTooltipSettingsListener
----@field protected groupPath CName
----@field protected minWidth inkWidgetReference
----@field protected bigFontEnabled Bool
----@field protected inCrafting Bool
+---@field backgroundContainer inkWidgetReference
+---@field itemEquippedContainer inkWidgetReference
+---@field itemRecipeContainer inkWidgetReference
+---@field itemHeaderContainer inkWidgetReference
+---@field itemBrokenContainer inkWidgetReference
+---@field itemWeaponBarsContainer inkWidgetReference
+---@field itemRequirementsContainer inkWidgetReference
+---@field itemDetailsStatsContainer inkWidgetReference
+---@field itemDescriptionContainer inkWidgetReference
+---@field itemDetailsContainer inkWidgetReference
+---@field itemBottomContainer inkWidgetReference
+---@field cornerContainer inkWidgetReference
+---@field root inkWidgetReference
+---@field iconicBG inkWidgetReference
+---@field recipeBG inkWidgetReference
+---@field illegalBG inkWidgetReference
+---@field descriptionWrapper inkWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field DEBUG_iconErrorWrapper inkWidgetReference
+---@field DEBUG_iconErrorText inkTextWidgetReference
+---@field frames inkWidgetReference[]
+---@field spawnedModules NewItemTooltipModuleController[]
+---@field itemEquippedController NewItemTooltipEquippedModule
+---@field itemRecipeController NewItemTooltipRepiceModule
+---@field itemHeaderController NewItemTooltipHeaderController
+---@field itemBrokenController NewItemTooltipBrokenModule
+---@field itemWeaponBarsController NewItemTooltipWeaponBarsModule
+---@field itemRequirementsController NewItemTooltipRequirementsModule
+---@field itemDetailsStatsController NewItemTooltipDetailsStatsModule
+---@field itemDescriptionController NewItemTooltipDescriptionModule
+---@field itemDetailsController NewItemTooltipDetailsModule
+---@field itemBottomController NewItemTooltipBottomModule
+---@field DEBUG_showAdditionalInfo Bool
+---@field data MinimalItemTooltipData
+---@field itemData UIInventoryItem
+---@field comparisonData UIInventoryItemComparisonManager
+---@field player PlayerPuppet
+---@field requestedModules CName[]
+---@field pendingModules CName[]
+---@field displayContext ItemDisplayContextData
+---@field tooltipDisplayContext InventoryTooltipDisplayContext
+---@field itemDisplayContext gameItemDisplayContext
+---@field priceOverride Int32
+---@field settings userSettingsUserSettings
+---@field settingsListener NewItemTooltipSettingsListener
+---@field groupPath CName
+---@field minWidth inkWidgetReference
+---@field bigFontEnabled Bool
+---@field inCrafting Bool
 NewItemTooltipCommonController = {}
 
 ---@param fields? NewItemTooltipCommonController
 ---@return NewItemTooltipCommonController
-function NewItemTooltipCommonController.new(fields) return end
+function NewItemTooltipCommonController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnBottomModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnBottomModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnBrokenModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnBrokenModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnDescriptionModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnDescriptionModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnDetailsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnDetailsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnDetailsStatsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnDetailsStatsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnEquippedModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnEquippedModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnHeaderModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnHeaderModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_BottomModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_BottomModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_BrokenModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_BrokenModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_DescriptionModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_DescriptionModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_DetailsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_DetailsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_DetailsStatsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_DetailsStatsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_EquippedModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_EquippedModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_HeaderModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_HeaderModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_RecipeModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_RecipeModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_RequirementsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_RequirementsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnNEW_WeaponBarsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnNEW_WeaponBarsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnRecipeModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnRecipeModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnRequirementsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnRequirementsModuleSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewItemTooltipCommonController:OnWeaponBarsModuleSpawned(widget, userData) return end
+function NewItemTooltipCommonController:OnWeaponBarsModuleSpawned(widget, userData) end
 
----@private
 ---@return nil
-function NewItemTooltipCommonController:DEBUG_NewUpdateIconErrorInfo() return end
+function NewItemTooltipCommonController:DEBUG_NewUpdateIconErrorInfo() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:DEBUG_UpdateDebugInfo() return end
+function NewItemTooltipCommonController:DEBUG_UpdateDebugInfo() end
 
----@protected
 ---@param widget inkWidget
 ---@param data NewItemTooltipModuleSpawnedCallbackData
 ---@return nil
-function NewItemTooltipCommonController:HandleModuleSpawned(widget, data) return end
+function NewItemTooltipCommonController:HandleModuleSpawned(widget, data) end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:InvalidateSpawnedModules() return end
+function NewItemTooltipCommonController:InvalidateSpawnedModules() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateBottomModule() return end
+function NewItemTooltipCommonController:NEW_UpdateBottomModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateBrokenModule() return end
+function NewItemTooltipCommonController:NEW_UpdateBrokenModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateDescriptionModule() return end
+function NewItemTooltipCommonController:NEW_UpdateDescriptionModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateDetailsModule() return end
+function NewItemTooltipCommonController:NEW_UpdateDetailsModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateDetailsStatsModule() return end
+function NewItemTooltipCommonController:NEW_UpdateDetailsStatsModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateEquippedModule() return end
+function NewItemTooltipCommonController:NEW_UpdateEquippedModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateHeaderModule() return end
+function NewItemTooltipCommonController:NEW_UpdateHeaderModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateIconicBG() return end
+function NewItemTooltipCommonController:NEW_UpdateIconicBG() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateIllegalBG() return end
+function NewItemTooltipCommonController:NEW_UpdateIllegalBG() end
 
----@private
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateLayout() return end
+function NewItemTooltipCommonController:NEW_UpdateLayout() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateRecipeBG() return end
+function NewItemTooltipCommonController:NEW_UpdateRecipeBG() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateRecipeModule() return end
+function NewItemTooltipCommonController:NEW_UpdateRecipeModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateRequirementsModule() return end
+function NewItemTooltipCommonController:NEW_UpdateRequirementsModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:NEW_UpdateWeaponBarsModule() return end
+function NewItemTooltipCommonController:NEW_UpdateWeaponBarsModule() end
 
----@protected
 ---@param value Bool
 ---@return nil
-function NewItemTooltipCommonController:NewSetTooltipSize(value) return end
+function NewItemTooltipCommonController:NewSetTooltipSize(value) end
 
----@private
 ---@return nil
-function NewItemTooltipCommonController:NewUpdateTooltipSize() return end
+function NewItemTooltipCommonController:NewUpdateTooltipSize() end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function NewItemTooltipCommonController:OnVarModified(groupPath, varName, varType, reason) return end
+function NewItemTooltipCommonController:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@return nil
-function NewItemTooltipCommonController:PrespawnLazyModules() return end
+function NewItemTooltipCommonController:PrespawnLazyModules() end
 
----@private
 ---@return nil
-function NewItemTooltipCommonController:RegisterUserSettingsListener() return end
+function NewItemTooltipCommonController:RegisterUserSettingsListener() end
 
----@protected
 ---@param container inkWidgetReference
 ---@param moduleName CName|string
 ---@param callback CName|string
 ---@param data? NewItemTooltipModuleSpawnedCallbackData
 ---@return Bool
-function NewItemTooltipCommonController:RequestModule(container, moduleName, callback, data) return end
+function NewItemTooltipCommonController:RequestModule(container, moduleName, callback, data) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function NewItemTooltipCommonController:SetData(tooltipData) return end
+function NewItemTooltipCommonController:SetData(tooltipData) end
 
 ---@param data gameItemViewData
 ---@return nil
-function NewItemTooltipCommonController:SetData(data) return end
+function NewItemTooltipCommonController:SetData(data) end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateBottomModule() return end
+function NewItemTooltipCommonController:UpdateBottomModule() end
 
----@private
 ---@return nil
-function NewItemTooltipCommonController:UpdateBrokenController() return end
+function NewItemTooltipCommonController:UpdateBrokenController() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateBrokenModule() return end
+function NewItemTooltipCommonController:UpdateBrokenModule() end
 
 ---@param tooltipData InventoryTooltipData
 ---@return nil
-function NewItemTooltipCommonController:UpdateData(tooltipData) return end
+function NewItemTooltipCommonController:UpdateData(tooltipData) end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateDescriptionModule() return end
+function NewItemTooltipCommonController:UpdateDescriptionModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateDetailsModule() return end
+function NewItemTooltipCommonController:UpdateDetailsModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateDetailsStatsModule() return end
+function NewItemTooltipCommonController:UpdateDetailsStatsModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateEquippedModule() return end
+function NewItemTooltipCommonController:UpdateEquippedModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateFramesVisibility() return end
+function NewItemTooltipCommonController:UpdateFramesVisibility() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateHeaderModule() return end
+function NewItemTooltipCommonController:UpdateHeaderModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateIconicBG() return end
+function NewItemTooltipCommonController:UpdateIconicBG() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateIllegalBG() return end
+function NewItemTooltipCommonController:UpdateIllegalBG() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateLayout() return end
+function NewItemTooltipCommonController:UpdateLayout() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateRecipeBG() return end
+function NewItemTooltipCommonController:UpdateRecipeBG() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateRecipeModule() return end
+function NewItemTooltipCommonController:UpdateRecipeModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateRequirementsModule() return end
+function NewItemTooltipCommonController:UpdateRequirementsModule() end
 
----@protected
 ---@return nil
-function NewItemTooltipCommonController:UpdateWeaponBarsModule() return end
+function NewItemTooltipCommonController:UpdateWeaponBarsModule() end

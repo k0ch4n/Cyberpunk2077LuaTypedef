@@ -1,47 +1,40 @@
 ---@meta
 
 ---@class PhoneMessageNotificationsGameController: gameuiWidgetGameController
----@field private maxMessageSize Int32
----@field private title inkTextWidgetReference
----@field private text inkTextWidgetReference
----@field private actionText inkTextWidgetReference
----@field private actionPanel inkWidget
----@field private player PlayerPuppet
----@field private animationProxy inkanimProxy
----@field private data JournalNotificationData
+---@field maxMessageSize Int32
+---@field title inkTextWidgetReference
+---@field text inkTextWidgetReference
+---@field actionText inkTextWidgetReference
+---@field actionPanel inkWidget
+---@field player PlayerPuppet
+---@field animationProxy inkanimProxy
+---@field data JournalNotificationData
 PhoneMessageNotificationsGameController = {}
 
 ---@param fields? PhoneMessageNotificationsGameController
 ---@return PhoneMessageNotificationsGameController
-function PhoneMessageNotificationsGameController.new(fields) return end
+function PhoneMessageNotificationsGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function PhoneMessageNotificationsGameController:OnAction(action, consumer) return end
+function PhoneMessageNotificationsGameController:OnAction(action, consumer) end
 
----@protected
 ---@return Bool
-function PhoneMessageNotificationsGameController:OnInitialize() return end
+function PhoneMessageNotificationsGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function PhoneMessageNotificationsGameController:OnOutroAnimFinished(anim) return end
+function PhoneMessageNotificationsGameController:OnOutroAnimFinished(anim) end
 
----@protected
 ---@return Bool
-function PhoneMessageNotificationsGameController:OnUninitialize() return end
+function PhoneMessageNotificationsGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function PhoneMessageNotificationsGameController:PlayIntroAnimation() return end
+function PhoneMessageNotificationsGameController:PlayIntroAnimation() end
 
----@private
 ---@return nil
-function PhoneMessageNotificationsGameController:ShowNotification() return end
+function PhoneMessageNotificationsGameController:ShowNotification() end
 
----@private
 ---@return nil
-function PhoneMessageNotificationsGameController:ShowPopup() return end
+function PhoneMessageNotificationsGameController:ShowPopup() end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questMiscAICommandNode: questConfigurableAICommandNode
----@field public entityReference gameEntityReference
----@field public function CName
----@field public params questAICommandParams
+---@field entityReference gameEntityReference
+---@field function CName
+---@field params questAICommandParams
 questMiscAICommandNode = {}
 
 ---@param fields? questMiscAICommandNode
 ---@return questMiscAICommandNode
-function questMiscAICommandNode.new(fields) return end
+function questMiscAICommandNode.new(fields) end

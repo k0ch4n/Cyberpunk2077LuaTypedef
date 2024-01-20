@@ -1,44 +1,37 @@
 ---@meta
 
 ---@class Fridge: InteractiveDevice
----@field private animFeature AnimFeature_SimpleDevice
----@field private factOnDoorOpened CName
+---@field animFeature AnimFeature_SimpleDevice
+---@field factOnDoorOpened CName
 Fridge = {}
 
 ---@param fields? Fridge
 ---@return Fridge
-function Fridge.new(fields) return end
+function Fridge.new(fields) end
 
----@protected
 ---@param evt ToggleOpenFridge
 ---@return Bool
-function Fridge:OnOpenDoor(evt) return end
+function Fridge:OnOpenDoor(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Fridge:OnRequestComponents(ri) return end
+function Fridge:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Fridge:OnTakeControl(ri) return end
+function Fridge:OnTakeControl(ri) end
 
----@private
 ---@return FridgeController
-function Fridge:GetController() return end
+function Fridge:GetController() end
 
 ---@return FridgeControllerPS
-function Fridge:GetDevicePS() return end
+function Fridge:GetDevicePS() end
 
----@protected
 ---@return nil
-function Fridge:ResolveGameplayState() return end
+function Fridge:ResolveGameplayState() end
 
----@private
 ---@return nil
-function Fridge:UpdateDoorAnimState() return end
+function Fridge:UpdateDoorAnimState() end
 
----@private
 ---@return nil
-function Fridge:UpdateFactDB() return end
+function Fridge:UpdateFactDB() end

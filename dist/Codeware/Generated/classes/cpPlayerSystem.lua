@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class cpPlayerSystem: gamePlayerSystem
----@field private customizationPuppet gamePuppet
----@field private inventoryPuppet gamePuppet
----@field private photoPuppet gamePuppet
+---@field customizationPuppet gamePuppet
+---@field inventoryPuppet gamePuppet
+---@field photoPuppet gamePuppet
 cpPlayerSystem = {}
 
 ---@param fields? cpPlayerSystem
 ---@return cpPlayerSystem
-function cpPlayerSystem.new(fields) return end
+function cpPlayerSystem.new(fields) end
 
 ---@return gamePuppet
-function cpPlayerSystem:GetCustomizationPuppet() return end
+function cpPlayerSystem:GetCustomizationPuppet() end
 
 ---@return gamePuppet
-function cpPlayerSystem:GetInventoryPuppet() return end
+function cpPlayerSystem:GetInventoryPuppet() end
 
 ---@return gamePuppet
-function cpPlayerSystem:GetPhotoPuppet() return end
+function cpPlayerSystem:GetPhotoPuppet() end
 
 ---@return PlayerPuppet
-function cpPlayerSystem:GetPlayer() return end
+function cpPlayerSystem:GetPlayer() end

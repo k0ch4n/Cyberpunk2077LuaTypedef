@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnLookAtBodyPartPropertiesAdvanced
----@field public bodyPartName CName
+---@field bodyPartName CName
 scnLookAtBodyPartPropertiesAdvanced = {}
 
 ---@param fields? scnLookAtBodyPartPropertiesAdvanced
 ---@return scnLookAtBodyPartPropertiesAdvanced
-function scnLookAtBodyPartPropertiesAdvanced.new(fields) return end
+function scnLookAtBodyPartPropertiesAdvanced.new(fields) end

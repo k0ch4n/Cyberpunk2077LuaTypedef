@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class ApplyStatusEffectDeviceOperation: DeviceOperationBase
----@field public statusEffects SStatusEffectOperationData[]
+---@field statusEffects SStatusEffectOperationData[]
 ApplyStatusEffectDeviceOperation = {}
 
 ---@param fields? ApplyStatusEffectDeviceOperation
 ---@return ApplyStatusEffectDeviceOperation
-function ApplyStatusEffectDeviceOperation.new(fields) return end
+function ApplyStatusEffectDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectDeviceOperation:Execute(owner) return end
+function ApplyStatusEffectDeviceOperation:Execute(owner) end
 
----@private
 ---@param statusEffectsArg SStatusEffectOperationData[]
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectDeviceOperation:ResolveStatusEffects(statusEffectsArg, owner) return end
+function ApplyStatusEffectDeviceOperation:ResolveStatusEffects(statusEffectsArg, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectDeviceOperation:Restore(owner) return end
+function ApplyStatusEffectDeviceOperation:Restore(owner) end

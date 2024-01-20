@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class OnStatusEffectAppliedListener: gameScriptStatusEffectListener
----@field public effector ModifyStatusEffectDurationEffector
----@field public tags CName[]
----@field public owner gameObject
+---@field effector ModifyStatusEffectDurationEffector
+---@field tags CName[]
+---@field owner gameObject
 OnStatusEffectAppliedListener = {}
 
 ---@param fields? OnStatusEffectAppliedListener
 ---@return OnStatusEffectAppliedListener
-function OnStatusEffectAppliedListener.new(fields) return end
+function OnStatusEffectAppliedListener.new(fields) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function OnStatusEffectAppliedListener:OnStatusEffectApplied(statusEffect) return end
+function OnStatusEffectAppliedListener:OnStatusEffectApplied(statusEffect) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameuiQuadRacerRoad: gameuiSideScrollerMiniGameDynObjectLogic
----@field public roadQuad inkQuadWidgetReference
----@field public leftBackground inkQuadWidgetReference
----@field public rightBackground inkQuadWidgetReference
----@field public groundParts CName[]
----@field public roadParts CName[]
+---@field roadQuad inkQuadWidgetReference
+---@field leftBackground inkQuadWidgetReference
+---@field rightBackground inkQuadWidgetReference
+---@field groundParts CName[]
+---@field roadParts CName[]
 gameuiQuadRacerRoad = {}
 
 ---@param fields? gameuiQuadRacerRoad
 ---@return gameuiQuadRacerRoad
-function gameuiQuadRacerRoad.new(fields) return end
+function gameuiQuadRacerRoad.new(fields) end

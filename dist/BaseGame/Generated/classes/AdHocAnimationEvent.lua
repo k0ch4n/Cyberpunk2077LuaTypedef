@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AdHocAnimationEvent: redEvent
----@field public animationIndex Int32
----@field public useBothHands Bool
----@field public unequipWeapon Bool
----@field public animationDuration Float
+---@field animationIndex Int32
+---@field useBothHands Bool
+---@field unequipWeapon Bool
+---@field animationDuration Float
 AdHocAnimationEvent = {}
 
 ---@param fields? AdHocAnimationEvent
 ---@return AdHocAnimationEvent
-function AdHocAnimationEvent.new(fields) return end
+function AdHocAnimationEvent.new(fields) end

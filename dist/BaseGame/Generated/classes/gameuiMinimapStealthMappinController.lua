@@ -1,144 +1,125 @@
 ---@meta
 
 ---@class gameuiMinimapStealthMappinController: gameuiBaseMinimapMappinController
----@field public visionConeWidget inkImageWidgetReference
----@field private stealthMappin gamemappinsStealthMappin
----@field private fadeOutAnim inkanimProxy
----@field private isTagged Bool
----@field private wasVisible Bool
----@field private mappinState CName
----@field private preventionState CName
----@field private hasBeenLooted Bool
----@field private isAggressive Bool
----@field private detectionAboveZero Bool
----@field private isAlive Bool
----@field private wasAlive Bool
----@field private wasCompanion Bool
----@field private couldSeePlayer Bool
----@field private isPrevention Bool
----@field private isCrowdNPC Bool
----@field private cautious Bool
----@field private shouldShowVisionCone Bool
----@field private isDevice Bool
----@field private isCamera Bool
----@field private isTurret Bool
----@field private isNetrunner Bool
----@field private isHacking Bool
----@field private isSquadInCombat Bool
----@field private wasSquadInCombat Bool
----@field private clampingAvailable Bool
----@field private defaultOpacity Float
----@field private adjustedOpacity Float
----@field private defaultConeOpacity Float
----@field private detectingConeOpacity Float
----@field private highestLootQuality Uint32
----@field private lockLootQuality Bool
----@field private highLevelState gamedataNPCHighLevelState
----@field private iconWidgetGlitch inkWidget
----@field private visionConeWidgetGlitch inkWidget
----@field private clampArrowWidgetGlitch inkWidget
----@field private puppetStateBlackboard gameIBlackboard
----@field private isInVehicleStance Bool
----@field private stanceStateCb redCallbackObject
----@field private policeChasePrototypeEnabled Bool
----@field private preventionMinimapMappinComponent PreventionMinimapMappinComponent
----@field private preventionVisionConeColor CName
----@field private preventionDetectionDropThreshold Float
----@field private wasMaxDetectionReached Bool
----@field private showAnim inkanimProxy
----@field private alertedAnim inkanimProxy
----@field private preventionAnimProxy inkanimProxy
+---@field visionConeWidget inkImageWidgetReference
+---@field stealthMappin gamemappinsStealthMappin
+---@field fadeOutAnim inkanimProxy
+---@field isTagged Bool
+---@field wasVisible Bool
+---@field mappinState CName
+---@field preventionState CName
+---@field hasBeenLooted Bool
+---@field isAggressive Bool
+---@field detectionAboveZero Bool
+---@field isAlive Bool
+---@field wasAlive Bool
+---@field wasCompanion Bool
+---@field couldSeePlayer Bool
+---@field isPrevention Bool
+---@field isCrowdNPC Bool
+---@field cautious Bool
+---@field shouldShowVisionCone Bool
+---@field isDevice Bool
+---@field isCamera Bool
+---@field isTurret Bool
+---@field isNetrunner Bool
+---@field isHacking Bool
+---@field isSquadInCombat Bool
+---@field wasSquadInCombat Bool
+---@field clampingAvailable Bool
+---@field defaultOpacity Float
+---@field adjustedOpacity Float
+---@field defaultConeOpacity Float
+---@field detectingConeOpacity Float
+---@field highestLootQuality Uint32
+---@field lockLootQuality Bool
+---@field highLevelState gamedataNPCHighLevelState
+---@field iconWidgetGlitch inkWidget
+---@field visionConeWidgetGlitch inkWidget
+---@field clampArrowWidgetGlitch inkWidget
+---@field puppetStateBlackboard gameIBlackboard
+---@field isInVehicleStance Bool
+---@field stanceStateCb redCallbackObject
+---@field policeChasePrototypeEnabled Bool
+---@field preventionMinimapMappinComponent PreventionMinimapMappinComponent
+---@field preventionVisionConeColor CName
+---@field preventionDetectionDropThreshold Float
+---@field wasMaxDetectionReached Bool
+---@field showAnim inkanimProxy
+---@field alertedAnim inkanimProxy
+---@field preventionAnimProxy inkanimProxy
 gameuiMinimapStealthMappinController = {}
 
 ---@param fields? gameuiMinimapStealthMappinController
 ---@return gameuiMinimapStealthMappinController
-function gameuiMinimapStealthMappinController.new(fields) return end
+function gameuiMinimapStealthMappinController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiMinimapStealthMappinController:OnFadeOutAnimFinished(proxy) return end
+function gameuiMinimapStealthMappinController:OnFadeOutAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function gameuiMinimapStealthMappinController:OnInitialize() return end
+function gameuiMinimapStealthMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function gameuiMinimapStealthMappinController:OnIntro() return end
+function gameuiMinimapStealthMappinController:OnIntro() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiMinimapStealthMappinController:OnPreventionAnimLoop(anim) return end
+function gameuiMinimapStealthMappinController:OnPreventionAnimLoop(anim) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiMinimapStealthMappinController:OnStanceStateChanged(value) return end
+function gameuiMinimapStealthMappinController:OnStanceStateChanged(value) end
 
----@protected
 ---@return Bool
-function gameuiMinimapStealthMappinController:OnUninitialize() return end
+function gameuiMinimapStealthMappinController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function gameuiMinimapStealthMappinController:OnUpdate() return end
+function gameuiMinimapStealthMappinController:OnUpdate() end
 
----@protected
 ---@return CName
-function gameuiMinimapStealthMappinController:ComputeRootState() return end
+function gameuiMinimapStealthMappinController:ComputeRootState() end
 
----@protected
 ---@return nil
-function gameuiMinimapStealthMappinController:FadeOut() return end
+function gameuiMinimapStealthMappinController:FadeOut() end
 
----@protected
 ---@return CName
-function gameuiMinimapStealthMappinController:GetPreventionMapinState() return end
+function gameuiMinimapStealthMappinController:GetPreventionMapinState() end
 
----@protected
 ---@param attitude EAIAttitude
 ---@param canSeePlayer Bool
 ---@return CName
-function gameuiMinimapStealthMappinController:GetStateForAttitude(attitude, canSeePlayer) return end
+function gameuiMinimapStealthMappinController:GetStateForAttitude(attitude, canSeePlayer) end
 
----@protected
 ---@return nil
-function gameuiMinimapStealthMappinController:Intro() return end
+function gameuiMinimapStealthMappinController:Intro() end
 
----@private
 ---@param stance gamedataNPCStanceState
 ---@return Bool
-function gameuiMinimapStealthMappinController:IsVehicleStance(stance) return end
-
----@private
----@return nil
-function gameuiMinimapStealthMappinController:PlayPreventionAnim() return end
+function gameuiMinimapStealthMappinController:IsVehicleStance(stance) end
 
 ---@return nil
-function gameuiMinimapStealthMappinController:RequestUpdateRootState() return end
+function gameuiMinimapStealthMappinController:PlayPreventionAnim() end
 
----@private
 ---@return nil
-function gameuiMinimapStealthMappinController:StopPreventionAnim() return end
+function gameuiMinimapStealthMappinController:RequestUpdateRootState() end
 
----@private
+---@return nil
+function gameuiMinimapStealthMappinController:StopPreventionAnim() end
+
 ---@param shouldShowVisionCone Bool
 ---@return nil
-function gameuiMinimapStealthMappinController:ToggleVisionConeVisibility(shouldShowVisionCone) return end
-
----@protected
----@return nil
-function gameuiMinimapStealthMappinController:Update() return end
-
----@protected
----@return nil
-function gameuiMinimapStealthMappinController:UpdateAboveBelowVerticalRelation() return end
-
----@protected
----@return nil
-function gameuiMinimapStealthMappinController:UpdateClamping() return end
+function gameuiMinimapStealthMappinController:ToggleVisionConeVisibility(shouldShowVisionCone) end
 
 ---@return nil
-function gameuiMinimapStealthMappinController:UpdateVisionWidgetVisiblity() return end
+function gameuiMinimapStealthMappinController:Update() end
+
+---@return nil
+function gameuiMinimapStealthMappinController:UpdateAboveBelowVerticalRelation() end
+
+---@return nil
+function gameuiMinimapStealthMappinController:UpdateClamping() end
+
+---@return nil
+function gameuiMinimapStealthMappinController:UpdateVisionWidgetVisiblity() end

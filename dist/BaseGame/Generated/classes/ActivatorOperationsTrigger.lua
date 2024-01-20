@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class ActivatorOperationsTrigger: DeviceOperationsTrigger
----@field protected triggerData ActivatorOperationTriggerData
+---@field triggerData ActivatorOperationTriggerData
 ActivatorOperationsTrigger = {}
 
 ---@param fields? ActivatorOperationsTrigger
 ---@return ActivatorOperationsTrigger
-function ActivatorOperationsTrigger.new(fields) return end
+function ActivatorOperationsTrigger.new(fields) end
 
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
-function ActivatorOperationsTrigger:EvaluateTrigger(owner, container) return end
+function ActivatorOperationsTrigger:EvaluateTrigger(owner, container) end

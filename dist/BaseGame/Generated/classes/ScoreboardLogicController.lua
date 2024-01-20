@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScoreboardLogicController: inkWidgetLogicController
----@field private gridItem CName
----@field private namesWidget inkCompoundWidgetReference
----@field private scoresWidget inkCompoundWidgetReference
----@field private highScores ScoreboardPlayer[]
+---@field gridItem CName
+---@field namesWidget inkCompoundWidgetReference
+---@field scoresWidget inkCompoundWidgetReference
+---@field highScores ScoreboardPlayer[]
 ScoreboardLogicController = {}
 
 ---@param fields? ScoreboardLogicController
 ---@return ScoreboardLogicController
-function ScoreboardLogicController.new(fields) return end
+function ScoreboardLogicController.new(fields) end
 
 ---@return nil
-function ScoreboardLogicController:CleanGrid() return end
+function ScoreboardLogicController:CleanGrid() end
 
 ---@param playerScore Int32
 ---@return nil
-function ScoreboardLogicController:FillGrid(playerScore) return end
+function ScoreboardLogicController:FillGrid(playerScore) end

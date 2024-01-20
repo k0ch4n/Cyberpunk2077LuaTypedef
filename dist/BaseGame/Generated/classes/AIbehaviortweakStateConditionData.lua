@@ -5,4 +5,4 @@ AIbehaviortweakStateConditionData = {}
 
 ---@param fields? AIbehaviortweakStateConditionData
 ---@return AIbehaviortweakStateConditionData
-function AIbehaviortweakStateConditionData.new(fields) return end
+function AIbehaviortweakStateConditionData.new(fields) end

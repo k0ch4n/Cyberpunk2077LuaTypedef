@@ -1,55 +1,47 @@
 ---@meta
 
 ---@class GameSessionDataSystem: gameScriptableSystem
----@field private gameSessionDataModules GameSessionDataModule[]
+---@field gameSessionDataModules GameSessionDataModule[]
 GameSessionDataSystem = {}
 
 ---@param fields? GameSessionDataSystem
 ---@return GameSessionDataSystem
-function GameSessionDataSystem.new(fields) return end
+function GameSessionDataSystem.new(fields) end
 
 ---@param dataType EGameSessionDataType
 ---@param data Variant
 ---@return nil
-function GameSessionDataSystem.AddDataEntryRequest(dataType, data) return end
+function GameSessionDataSystem.AddDataEntryRequest(dataType, data) end
 
 ---@param dataType EGameSessionDataType
 ---@param dataHelper Variant
 ---@return Bool
-function GameSessionDataSystem.CheckDataRequest(dataType, dataHelper) return end
+function GameSessionDataSystem.CheckDataRequest(dataType, dataHelper) end
 
----@private
 ---@param dataType EGameSessionDataType
 ---@return GameSessionDataModule
-function GameSessionDataSystem:GetModule(dataType) return end
+function GameSessionDataSystem:GetModule(dataType) end
 
----@private
 ---@return nil
-function GameSessionDataSystem:Initialize() return end
+function GameSessionDataSystem:Initialize() end
 
----@protected
 ---@param dataType EGameSessionDataType
 ---@param data Variant
 ---@return Bool
-function GameSessionDataSystem:IsDataValid(dataType, data) return end
+function GameSessionDataSystem:IsDataValid(dataType, data) end
 
----@private
 ---@return nil
-function GameSessionDataSystem:OnAttach() return end
+function GameSessionDataSystem:OnAttach() end
 
----@private
 ---@param request DataEntryRequest
 ---@return nil
-function GameSessionDataSystem:OnDataEntryRequest(request) return end
+function GameSessionDataSystem:OnDataEntryRequest(request) end
 
----@private
 ---@return nil
-function GameSessionDataSystem:OnDetach() return end
+function GameSessionDataSystem:OnDetach() end
 
----@private
 ---@return nil
-function GameSessionDataSystem:RefreshDebug() return end
+function GameSessionDataSystem:RefreshDebug() end
 
----@private
 ---@return nil
-function GameSessionDataSystem:Uninitialize() return end
+function GameSessionDataSystem:Uninitialize() end

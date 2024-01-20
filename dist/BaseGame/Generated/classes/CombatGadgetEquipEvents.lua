@@ -5,17 +5,15 @@ CombatGadgetEquipEvents = {}
 
 ---@param fields? CombatGadgetEquipEvents
 ---@return CombatGadgetEquipEvents
-function CombatGadgetEquipEvents.new(fields) return end
+function CombatGadgetEquipEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetEquipEvents:OnEnter(stateContext, scriptInterface) return end
+function CombatGadgetEquipEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetEquipEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function CombatGadgetEquipEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

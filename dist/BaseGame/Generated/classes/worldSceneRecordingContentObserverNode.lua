@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldSceneRecordingContentObserverNode: worldNode
----@field public filter worldSceneRecordingNodeFilter
+---@field filter worldSceneRecordingNodeFilter
 worldSceneRecordingContentObserverNode = {}
 
 ---@param fields? worldSceneRecordingContentObserverNode
 ---@return worldSceneRecordingContentObserverNode
-function worldSceneRecordingContentObserverNode.new(fields) return end
+function worldSceneRecordingContentObserverNode.new(fields) end

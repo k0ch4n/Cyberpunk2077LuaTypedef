@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entAnimTrackParameter
----@field public animTrackName CName
----@field public parameterName CName
----@field public defaultValue Float
+---@field animTrackName CName
+---@field parameterName CName
+---@field defaultValue Float
 entAnimTrackParameter = {}
 
 ---@param fields? entAnimTrackParameter
 ---@return entAnimTrackParameter
-function entAnimTrackParameter.new(fields) return end
+function entAnimTrackParameter.new(fields) end

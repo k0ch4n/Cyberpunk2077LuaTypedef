@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ToggleComponentsEvent: redEvent
----@field public componentsData SComponentOperationData[]
+---@field componentsData SComponentOperationData[]
 ToggleComponentsEvent = {}
 
 ---@param fields? ToggleComponentsEvent
 ---@return ToggleComponentsEvent
-function ToggleComponentsEvent.new(fields) return end
+function ToggleComponentsEvent.new(fields) end

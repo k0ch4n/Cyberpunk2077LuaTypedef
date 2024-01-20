@@ -1,45 +1,41 @@
 ---@meta
 
 ---@class FanControllerPS: BasicDistractionDeviceControllerPS
----@field private fanSetup FanSetup
+---@field fanSetup FanSetup
 FanControllerPS = {}
 
 ---@param fields? FanControllerPS
 ---@return FanControllerPS
-function FanControllerPS.new(fields) return end
+function FanControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function FanControllerPS:OnInstantiated() return end
+function FanControllerPS:OnInstantiated() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function FanControllerPS:GetActions(context) return end
+function FanControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function FanControllerPS:GetBackgroundTextureTweakDBID() return end
+function FanControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function FanControllerPS:GetDeviceIconTweakDBID() return end
+function FanControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return Float
-function FanControllerPS:GetMaxRotationSpeed() return end
+function FanControllerPS:GetMaxRotationSpeed() end
 
 ---@return Float
-function FanControllerPS:GetTimeToMaxRotation() return end
+function FanControllerPS:GetTimeToMaxRotation() end
 
----@protected
 ---@return nil
-function FanControllerPS:Initialize() return end
+function FanControllerPS:Initialize() end
 
 ---@return Bool
-function FanControllerPS:IsBladesSpeedRandomized() return end
+function FanControllerPS:IsBladesSpeedRandomized() end
 
 ---@return Bool
-function FanControllerPS:IsRotatingClockwise() return end
+function FanControllerPS:IsRotatingClockwise() end
 
 ---@param data FanResaveData
 ---@return nil
-function FanControllerPS:PushResaveData(data) return end
+function FanControllerPS:PushResaveData(data) end

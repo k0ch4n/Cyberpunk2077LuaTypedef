@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class TextSectionLogicController: inkWidgetLogicController
----@field private rootWidget inkWidget
----@field private textWidget inkTextWidget
----@field private showAnimProxy inkanimProxy
+---@field rootWidget inkWidget
+---@field textWidget inkTextWidget
+---@field showAnimProxy inkanimProxy
 TextSectionLogicController = {}
 
 ---@param fields? TextSectionLogicController
 ---@return TextSectionLogicController
-function TextSectionLogicController.new(fields) return end
+function TextSectionLogicController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function TextSectionLogicController:OnHide(anim) return end
+function TextSectionLogicController:OnHide(anim) end
 
----@protected
 ---@return Bool
-function TextSectionLogicController:OnInitialize() return end
+function TextSectionLogicController:OnInitialize() end
 
----@protected
 ---@return Bool
-function TextSectionLogicController:OnUninitialize() return end
+function TextSectionLogicController:OnUninitialize() end
 
----@private
 ---@param active Bool
 ---@return nil
-function TextSectionLogicController:SetActive(active) return end
+function TextSectionLogicController:SetActive(active) end
 
 ---@param chatBoxText gameuiChatBoxText
 ---@return nil
-function TextSectionLogicController:Show(chatBoxText) return end
+function TextSectionLogicController:Show(chatBoxText) end
 
 ---@return nil
-function TextSectionLogicController:StartFadeOut() return end
+function TextSectionLogicController:StartFadeOut() end

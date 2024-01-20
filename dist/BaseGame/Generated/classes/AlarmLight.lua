@@ -1,103 +1,83 @@
 ---@meta
 
 ---@class AlarmLight: BasicDistractionDevice
----@field protected isGlitching Bool
+---@field isGlitching Bool
 AlarmLight = {}
 
 ---@param fields? AlarmLight
 ---@return AlarmLight
-function AlarmLight.new(fields) return end
+function AlarmLight.new(fields) end
 
----@protected
 ---@param evt QuestForceSecuritySystemArmed
 ---@return Bool
-function AlarmLight:OnQuestForceSecuritySystemArmed(evt) return end
+function AlarmLight:OnQuestForceSecuritySystemArmed(evt) end
 
----@protected
 ---@param evt QuestForceSecuritySystemSafe
 ---@return Bool
-function AlarmLight:OnQuestForceSecuritySystemSafe(evt) return end
+function AlarmLight:OnQuestForceSecuritySystemSafe(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AlarmLight:OnRequestComponents(ri) return end
+function AlarmLight:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SecurityAlarmBreachResponse
 ---@return Bool
-function AlarmLight:OnSecurityAlarmBreachResponse(evt) return end
+function AlarmLight:OnSecurityAlarmBreachResponse(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return Bool
-function AlarmLight:OnSecuritySystemOutput(evt) return end
+function AlarmLight:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AlarmLight:OnTakeControl(ri) return end
+function AlarmLight:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function AlarmLight:CutPower() return end
+function AlarmLight:CutPower() end
 
 ---@return EGameplayRole
-function AlarmLight:DeterminGameplayRole() return end
+function AlarmLight:DeterminGameplayRole() end
 
----@private
 ---@return AlarmLightController
-function AlarmLight:GetController() return end
+function AlarmLight:GetController() end
 
 ---@return AlarmLightControllerPS
-function AlarmLight:GetDevicePS() return end
+function AlarmLight:GetDevicePS() end
 
----@protected
 ---@return nil
-function AlarmLight:ResolveGameplayState() return end
+function AlarmLight:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function AlarmLight:SendStim() return end
+function AlarmLight:SendStim() end
 
----@protected
 ---@return nil
-function AlarmLight:StartBlinking() return end
+function AlarmLight:StartBlinking() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function AlarmLight:StartGlitching(glitchState, intensity) return end
+function AlarmLight:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function AlarmLight:StopBlinking() return end
+function AlarmLight:StopBlinking() end
 
----@protected
 ---@return nil
-function AlarmLight:StopGlitching() return end
+function AlarmLight:StopGlitching() end
 
----@protected
 ---@return nil
-function AlarmLight:StopStim() return end
+function AlarmLight:StopStim() end
 
----@protected
 ---@return nil
-function AlarmLight:TurnOffDevice() return end
+function AlarmLight:TurnOffDevice() end
 
----@private
 ---@return nil
-function AlarmLight:TurnOffLights() return end
+function AlarmLight:TurnOffLights() end
 
----@protected
 ---@return nil
-function AlarmLight:TurnOnDevice() return end
+function AlarmLight:TurnOnDevice() end
 
----@private
 ---@return nil
-function AlarmLight:TurnOnLights() return end
+function AlarmLight:TurnOnLights() end
 
----@protected
 ---@return nil
-function AlarmLight:UpdateLights() return end
+function AlarmLight:UpdateLights() end

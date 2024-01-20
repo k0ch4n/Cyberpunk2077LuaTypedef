@@ -5,4 +5,4 @@ gameShootingSpotInstance = {}
 
 ---@param fields? gameShootingSpotInstance
 ---@return gameShootingSpotInstance
-function gameShootingSpotInstance.new(fields) return end
+function gameShootingSpotInstance.new(fields) end

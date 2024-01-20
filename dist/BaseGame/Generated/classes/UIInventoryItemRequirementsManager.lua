@@ -1,105 +1,103 @@
 ---@meta
 
 ---@class UIInventoryItemRequirementsManager: IScriptable
----@field private itemRequiredLevel Int32
----@field private requiredStrength Int32
----@field private requiredReflex Int32
----@field private perkRequirementName String
----@field private isSmartlinkRequirementMet Bool
----@field private isLevelRequirementMet Bool
----@field private isStrengthRequirementMet Bool
----@field private isReflexRequirementMet Bool
----@field private isPerkRequirementMet Bool
----@field private isHumanityRequirementMet Bool
----@field private isEquippable Bool
----@field private isEquippableAdditionalValue Bool
----@field private isEquippableFetched Bool
----@field private equipRequirements gameSItemStackRequirementData[]
----@field private equipRequirementsFetched Bool
----@field private player gameObject
----@field private attachedItem UIInventoryItem
+---@field itemRequiredLevel Int32
+---@field requiredStrength Int32
+---@field requiredReflex Int32
+---@field perkRequirementName String
+---@field isSmartlinkRequirementMet Bool
+---@field isLevelRequirementMet Bool
+---@field isStrengthRequirementMet Bool
+---@field isReflexRequirementMet Bool
+---@field isPerkRequirementMet Bool
+---@field isHumanityRequirementMet Bool
+---@field isEquippable Bool
+---@field isEquippableAdditionalValue Bool
+---@field isEquippableFetched Bool
+---@field equipRequirements gameSItemStackRequirementData[]
+---@field equipRequirementsFetched Bool
+---@field player gameObject
+---@field attachedItem UIInventoryItem
 UIInventoryItemRequirementsManager = {}
 
 ---@param fields? UIInventoryItemRequirementsManager
 ---@return UIInventoryItemRequirementsManager
-function UIInventoryItemRequirementsManager.new(fields) return end
+function UIInventoryItemRequirementsManager.new(fields) end
 
 ---@param inventoryItem UIInventoryItem
 ---@param player gameObject
 ---@return UIInventoryItemRequirementsManager
-function UIInventoryItemRequirementsManager.Make(inventoryItem, player) return end
+function UIInventoryItemRequirementsManager.Make(inventoryItem, player) end
 
----@private
 ---@param statToCheck gamedataStatType
 ---@param player gameObject
 ---@param statsSystem gameStatsSystem
 ---@return Bool
-function UIInventoryItemRequirementsManager:CheckStatEquipRequirement(statToCheck, player, statsSystem) return end
+function UIInventoryItemRequirementsManager:CheckStatEquipRequirement(statToCheck, player, statsSystem) end
 
----@private
 ---@param force? Bool
 ---@return nil
-function UIInventoryItemRequirementsManager:FetchEquipRequirements(force) return end
+function UIInventoryItemRequirementsManager:FetchEquipRequirements(force) end
 
 ---@return gameSItemStackRequirementData
-function UIInventoryItemRequirementsManager:GetFirstUnmetEquipRequirement() return end
+function UIInventoryItemRequirementsManager:GetFirstUnmetEquipRequirement() end
 
 ---@return Int32
-function UIInventoryItemRequirementsManager:GetLevelRequirementValue() return end
+function UIInventoryItemRequirementsManager:GetLevelRequirementValue() end
 
 ---@return String
-function UIInventoryItemRequirementsManager:GetPerkRequirementValue() return end
+function UIInventoryItemRequirementsManager:GetPerkRequirementValue() end
 
 ---@return Int32
-function UIInventoryItemRequirementsManager:GetReflexRequirementValue() return end
+function UIInventoryItemRequirementsManager:GetReflexRequirementValue() end
 
 ---@return Int32
-function UIInventoryItemRequirementsManager:GetStrengthRequirementValue() return end
+function UIInventoryItemRequirementsManager:GetStrengthRequirementValue() end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsAnyItemDisplayRequirementNotMet() return end
+function UIInventoryItemRequirementsManager:IsAnyItemDisplayRequirementNotMet() end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsAnyRequirementNotMet() return end
+function UIInventoryItemRequirementsManager:IsAnyRequirementNotMet() end
 
 ---@param force? Bool
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsEquippable(force) return end
+function UIInventoryItemRequirementsManager:IsEquippable(force) end
 
 ---@param force? Bool
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsEquippableRaw(force) return end
+function UIInventoryItemRequirementsManager:IsEquippableRaw(force) end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsHumanityRequirementMet() return end
+function UIInventoryItemRequirementsManager:IsHumanityRequirementMet() end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsLevelRequirementMet() return end
+function UIInventoryItemRequirementsManager:IsLevelRequirementMet() end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsPerkRequirementMet() return end
+function UIInventoryItemRequirementsManager:IsPerkRequirementMet() end
 
 ---@param parentItem UIInventoryItem
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsRarityRequirementMet(parentItem) return end
+function UIInventoryItemRequirementsManager:IsRarityRequirementMet(parentItem) end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsReflexRequirementMet() return end
+function UIInventoryItemRequirementsManager:IsReflexRequirementMet() end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsSmartlinkRequirementMet() return end
+function UIInventoryItemRequirementsManager:IsSmartlinkRequirementMet() end
 
 ---@return Bool
-function UIInventoryItemRequirementsManager:IsStrengthRequirementMet() return end
+function UIInventoryItemRequirementsManager:IsStrengthRequirementMet() end
 
 ---@param value Bool
 ---@return nil
-function UIInventoryItemRequirementsManager:SetIsEquippable(value) return end
+function UIInventoryItemRequirementsManager:SetIsEquippable(value) end
 
 ---@param value Bool
 ---@return nil
-function UIInventoryItemRequirementsManager:SetIsEquippableAdditionalValue(value) return end
+function UIInventoryItemRequirementsManager:SetIsEquippableAdditionalValue(value) end
 
 ---@param statsSystem? gameStatsSystem
 ---@return nil
-function UIInventoryItemRequirementsManager:Update(statsSystem) return end
+function UIInventoryItemRequirementsManager:Update(statsSystem) end

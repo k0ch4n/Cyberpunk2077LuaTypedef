@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiMorphInfo: gameuiCharacterCustomizationInfo
----@field public morphNames gameuiIndexedMorphName[]
+---@field morphNames gameuiIndexedMorphName[]
 gameuiMorphInfo = {}
 
 ---@param fields? gameuiMorphInfo
 ---@return gameuiMorphInfo
-function gameuiMorphInfo.new(fields) return end
+function gameuiMorphInfo.new(fields) end

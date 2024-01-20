@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CallOffReactionAction: SquadTask
----@field public squadActionName EAISquadAction
+---@field squadActionName EAISquadAction
 CallOffReactionAction = {}
 
 ---@param fields? CallOffReactionAction
 ---@return CallOffReactionAction
-function CallOffReactionAction.new(fields) return end
+function CallOffReactionAction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CallOffReactionAction:Activate(context) return end
+function CallOffReactionAction:Activate(context) end

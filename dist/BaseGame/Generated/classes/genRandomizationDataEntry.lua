@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class genRandomizationDataEntry
----@field public id String
----@field public templateName CName
----@field public transform Transform
----@field public probability Float
+---@field id String
+---@field templateName CName
+---@field transform Transform
+---@field probability Float
 genRandomizationDataEntry = {}
 
 ---@param fields? genRandomizationDataEntry
 ---@return genRandomizationDataEntry
-function genRandomizationDataEntry.new(fields) return end
+function genRandomizationDataEntry.new(fields) end

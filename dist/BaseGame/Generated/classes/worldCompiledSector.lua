@@ -5,4 +5,4 @@ worldCompiledSector = {}
 
 ---@param fields? worldCompiledSector
 ---@return worldCompiledSector
-function worldCompiledSector.new(fields) return end
+function worldCompiledSector.new(fields) end

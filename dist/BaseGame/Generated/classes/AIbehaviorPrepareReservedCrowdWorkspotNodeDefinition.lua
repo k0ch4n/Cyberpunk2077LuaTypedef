@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public workspotData AIArgumentMapping
----@field public returnPosition AIArgumentMapping
----@field public returnPositionVector AIArgumentMapping
----@field public workspotExitTangent AIArgumentMapping
----@field public joinTrafficSettings AIArgumentMapping
----@field public overrideExit AIArgumentMapping
+---@field workspotData AIArgumentMapping
+---@field returnPosition AIArgumentMapping
+---@field returnPositionVector AIArgumentMapping
+---@field workspotExitTangent AIArgumentMapping
+---@field joinTrafficSettings AIArgumentMapping
+---@field overrideExit AIArgumentMapping
 AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition = {}
 
 ---@param fields? AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition
 ---@return AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition
-function AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition.new(fields) return end
+function AIbehaviorPrepareReservedCrowdWorkspotNodeDefinition.new(fields) end

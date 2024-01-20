@@ -5,4 +5,4 @@ QuickSlotsReadyDecisions = {}
 
 ---@param fields? QuickSlotsReadyDecisions
 ---@return QuickSlotsReadyDecisions
-function QuickSlotsReadyDecisions.new(fields) return end
+function QuickSlotsReadyDecisions.new(fields) end

@@ -5,9 +5,8 @@ SystemCollapseManagerTask = {}
 
 ---@param fields? SystemCollapseManagerTask
 ---@return SystemCollapseManagerTask
-function SystemCollapseManagerTask.new(fields) return end
+function SystemCollapseManagerTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SystemCollapseManagerTask:Activate(context) return end
+function SystemCollapseManagerTask:Activate(context) end

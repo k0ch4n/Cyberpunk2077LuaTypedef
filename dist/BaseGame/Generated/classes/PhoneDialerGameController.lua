@@ -1,101 +1,85 @@
 ---@meta
 
 ---@class PhoneDialerGameController: gameuiNewPhoneRelatedHUDGameController
----@field private contactsList inkWidgetReference
----@field private avatarImage inkImageWidgetReference
----@field private hintMessenger inkWidgetReference
----@field private scrollArea inkScrollAreaWidgetReference
----@field private scrollControllerWidget inkWidgetReference
----@field private journalManager gameJournalManager
----@field private phoneSystem PhoneSystem
----@field private active Bool
----@field private listController inkVirtualListController
----@field private dataSource inkScriptableDataSourceWrapper
----@field private dataView DialerContactDataView
----@field private templateClassifier DialerContactTemplateClassifier
----@field private scrollController inkScrollController
----@field private soundName CName
----@field private audioPhoneNavigation CName
----@field private phoneBlackboard gameIBlackboard
----@field private phoneBBDefinition UI_ComDeviceDef
----@field private contactOpensBBID redCallbackObject
----@field private switchAnimProxy inkanimProxy
----@field private transitionAnimProxy inkanimProxy
----@field private repeatingScrollActionEnabled Bool
----@field private firstInit Bool
+---@field contactsList inkWidgetReference
+---@field avatarImage inkImageWidgetReference
+---@field hintMessenger inkWidgetReference
+---@field scrollArea inkScrollAreaWidgetReference
+---@field scrollControllerWidget inkWidgetReference
+---@field journalManager gameJournalManager
+---@field phoneSystem PhoneSystem
+---@field active Bool
+---@field listController inkVirtualListController
+---@field dataSource inkScriptableDataSourceWrapper
+---@field dataView DialerContactDataView
+---@field templateClassifier DialerContactTemplateClassifier
+---@field scrollController inkScrollController
+---@field soundName CName
+---@field audioPhoneNavigation CName
+---@field phoneBlackboard gameIBlackboard
+---@field phoneBBDefinition UI_ComDeviceDef
+---@field contactOpensBBID redCallbackObject
+---@field switchAnimProxy inkanimProxy
+---@field transitionAnimProxy inkanimProxy
+---@field repeatingScrollActionEnabled Bool
+---@field firstInit Bool
 PhoneDialerGameController = {}
 
 ---@param fields? PhoneDialerGameController
 ---@return PhoneDialerGameController
-function PhoneDialerGameController.new(fields) return end
+function PhoneDialerGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function PhoneDialerGameController:OnAction(action, consumer) return end
+function PhoneDialerGameController:OnAction(action, consumer) end
 
----@protected
 ---@return Bool
-function PhoneDialerGameController:OnAllElementsSpawned() return end
+function PhoneDialerGameController:OnAllElementsSpawned() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PhoneDialerGameController:OnHideAnimFinished(proxy) return end
+function PhoneDialerGameController:OnHideAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function PhoneDialerGameController:OnInitialize() return end
+function PhoneDialerGameController:OnInitialize() end
 
----@protected
 ---@param previous inkVirtualCompoundItemController
 ---@param next inkVirtualCompoundItemController
 ---@return Bool
-function PhoneDialerGameController:OnItemSelected(previous, next) return end
+function PhoneDialerGameController:OnItemSelected(previous, next) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function PhoneDialerGameController:OnPhoneStateChanged(value) return end
+function PhoneDialerGameController:OnPhoneStateChanged(value) end
 
----@protected
 ---@param value Vector2
 ---@return Bool
-function PhoneDialerGameController:OnScrollChanged(value) return end
+function PhoneDialerGameController:OnScrollChanged(value) end
 
----@protected
 ---@return Bool
-function PhoneDialerGameController:OnUninitialize() return end
+function PhoneDialerGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:CallSelectedContact() return end
+function PhoneDialerGameController:CallSelectedContact() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:CleanVirtualList() return end
+function PhoneDialerGameController:CleanVirtualList() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:CloseContactList() return end
+function PhoneDialerGameController:CloseContactList() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:GotoMessengerMenu() return end
+function PhoneDialerGameController:GotoMessengerMenu() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:Hide() return end
+function PhoneDialerGameController:Hide() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:InitVirtualList() return end
+function PhoneDialerGameController:InitVirtualList() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:PopulateData() return end
+function PhoneDialerGameController:PopulateData() end
 
----@private
 ---@return nil
-function PhoneDialerGameController:Show() return end
+function PhoneDialerGameController:Show() end

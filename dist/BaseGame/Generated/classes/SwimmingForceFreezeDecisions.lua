@@ -5,16 +5,14 @@ SwimmingForceFreezeDecisions = {}
 
 ---@param fields? SwimmingForceFreezeDecisions
 ---@return SwimmingForceFreezeDecisions
-function SwimmingForceFreezeDecisions.new(fields) return end
+function SwimmingForceFreezeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingForceFreezeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SwimmingForceFreezeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingForceFreezeDecisions:ExitCondition(stateContext, scriptInterface) return end
+function SwimmingForceFreezeDecisions:ExitCondition(stateContext, scriptInterface) end

@@ -5,4 +5,4 @@ gameHalloweenEvent = {}
 
 ---@param fields? gameHalloweenEvent
 ---@return gameHalloweenEvent
-function gameHalloweenEvent.new(fields) return end
+function gameHalloweenEvent.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class QuestListHeaderLogicController: inkWidgetLogicController
----@field private label inkTextWidgetReference
+---@field label inkTextWidgetReference
 QuestListHeaderLogicController = {}
 
 ---@param fields? QuestListHeaderLogicController
 ---@return QuestListHeaderLogicController
-function QuestListHeaderLogicController.new(fields) return end
+function QuestListHeaderLogicController.new(fields) end
 
 ---@param text String
 ---@return nil
-function QuestListHeaderLogicController:SetLabel(text) return end
+function QuestListHeaderLogicController:SetLabel(text) end

@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class RipperdocCwPreviewItemController: inkWidgetLogicController
----@field private itemIcon inkWidgetReference
----@field private addIcon inkWidgetReference
----@field private root inkWidget
+---@field itemIcon inkWidgetReference
+---@field addIcon inkWidgetReference
+---@field root inkWidget
 RipperdocCwPreviewItemController = {}
 
 ---@param fields? RipperdocCwPreviewItemController
 ---@return RipperdocCwPreviewItemController
-function RipperdocCwPreviewItemController.new(fields) return end
+function RipperdocCwPreviewItemController.new(fields) end
 
----@protected
 ---@return Bool
-function RipperdocCwPreviewItemController:OnInitialize() return end
+function RipperdocCwPreviewItemController:OnInitialize() end
 
 ---@return nil
-function RipperdocCwPreviewItemController:Configure() return end
+function RipperdocCwPreviewItemController:Configure() end
 
 ---@param isStandard Bool
 ---@param isVendor Bool
 ---@return nil
-function RipperdocCwPreviewItemController:Configure(isStandard, isVendor) return end
+function RipperdocCwPreviewItemController:Configure(isStandard, isVendor) end

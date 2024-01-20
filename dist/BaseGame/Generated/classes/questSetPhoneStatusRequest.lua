@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questSetPhoneStatusRequest: gameScriptableSystemRequest
----@field public status CName
+---@field status CName
 questSetPhoneStatusRequest = {}
 
 ---@param fields? questSetPhoneStatusRequest
 ---@return questSetPhoneStatusRequest
-function questSetPhoneStatusRequest.new(fields) return end
+function questSetPhoneStatusRequest.new(fields) end

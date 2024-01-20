@@ -5,4 +5,4 @@ CParticleModificatorAlphaOverEffect = {}
 
 ---@param fields? CParticleModificatorAlphaOverEffect
 ---@return CParticleModificatorAlphaOverEffect
-function CParticleModificatorAlphaOverEffect.new(fields) return end
+function CParticleModificatorAlphaOverEffect.new(fields) end

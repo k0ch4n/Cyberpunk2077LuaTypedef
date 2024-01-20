@@ -5,4 +5,4 @@ gameuiRequestResetContextEvent = {}
 
 ---@param fields? gameuiRequestResetContextEvent
 ---@return gameuiRequestResetContextEvent
-function gameuiRequestResetContextEvent.new(fields) return end
+function gameuiRequestResetContextEvent.new(fields) end

@@ -1,101 +1,89 @@
 ---@meta
 
 ---@class RoadBlockControllerPS: ScriptableDeviceComponentPS
----@field protected isBlocking Bool
----@field protected negateAnimState Bool
----@field protected nameForBlocking TweakDBID
----@field protected nameForUnblocking TweakDBID
+---@field isBlocking Bool
+---@field negateAnimState Bool
+---@field nameForBlocking TweakDBID
+---@field nameForUnblocking TweakDBID
 RoadBlockControllerPS = {}
 
 ---@param fields? RoadBlockControllerPS
 ---@return RoadBlockControllerPS
-function RoadBlockControllerPS.new(fields) return end
+function RoadBlockControllerPS.new(fields) end
 
----@protected
 ---@return QuestForceRoadBlockadeActivate
-function RoadBlockControllerPS:ActionQuestForceRoadBlockadeActivate() return end
+function RoadBlockControllerPS:ActionQuestForceRoadBlockadeActivate() end
 
----@protected
 ---@return QuestForceRoadBlockadeDeactivate
-function RoadBlockControllerPS:ActionQuestForceRoadBlockadeDeactivate() return end
+function RoadBlockControllerPS:ActionQuestForceRoadBlockadeDeactivate() end
 
----@protected
 ---@return QuickHackToggleBlockade
-function RoadBlockControllerPS:ActionQuickHackToggleBlockade() return end
+function RoadBlockControllerPS:ActionQuickHackToggleBlockade() end
 
----@protected
 ---@return ToggleBlockade
-function RoadBlockControllerPS:ActionToggleBlockade() return end
+function RoadBlockControllerPS:ActionToggleBlockade() end
 
----@protected
 ---@return Bool
-function RoadBlockControllerPS:CanCreateAnyQuickHackActions() return end
+function RoadBlockControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function RoadBlockControllerPS:GameAttached() return end
+function RoadBlockControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function RoadBlockControllerPS:GetActions(context) return end
+function RoadBlockControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function RoadBlockControllerPS:GetBackgroundTextureTweakDBID() return end
+function RoadBlockControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function RoadBlockControllerPS:GetDeviceIconTweakDBID() return end
+function RoadBlockControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function RoadBlockControllerPS:GetQuestActionByName(actionName) return end
+function RoadBlockControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function RoadBlockControllerPS:GetQuestActions(context) return end
+function RoadBlockControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function RoadBlockControllerPS:GetQuickHackActions(context) return end
+function RoadBlockControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool
-function RoadBlockControllerPS:IsBlocking() return end
+function RoadBlockControllerPS:IsBlocking() end
 
 ---@return Bool
-function RoadBlockControllerPS:IsNotBlocking() return end
+function RoadBlockControllerPS:IsNotBlocking() end
 
 ---@return Bool
-function RoadBlockControllerPS:NegateAnim() return end
+function RoadBlockControllerPS:NegateAnim() end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function RoadBlockControllerPS:OnActivateDevice(evt) return end
+function RoadBlockControllerPS:OnActivateDevice(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return EntityNotificationType
-function RoadBlockControllerPS:OnDeactivateDevice(evt) return end
+function RoadBlockControllerPS:OnDeactivateDevice(evt) end
 
 ---@param evt QuestForceRoadBlockadeActivate
 ---@return EntityNotificationType
-function RoadBlockControllerPS:OnQuestForceRoadBlockadeActivate(evt) return end
+function RoadBlockControllerPS:OnQuestForceRoadBlockadeActivate(evt) end
 
 ---@param evt QuestForceRoadBlockadeDeactivate
 ---@return EntityNotificationType
-function RoadBlockControllerPS:OnQuestForceRoadBlockadeDeactivate(evt) return end
+function RoadBlockControllerPS:OnQuestForceRoadBlockadeDeactivate(evt) end
 
 ---@param evt QuickHackToggleBlockade
 ---@return EntityNotificationType
-function RoadBlockControllerPS:OnQuickHackToggleBlockadeQuickHackToggleBlockade(evt) return end
+function RoadBlockControllerPS:OnQuickHackToggleBlockadeQuickHackToggleBlockade(evt) end
 
 ---@param evt ToggleBlockade
 ---@return EntityNotificationType
-function RoadBlockControllerPS:OnToggleBlockade(evt) return end
+function RoadBlockControllerPS:OnToggleBlockade(evt) end
 
----@private
 ---@param isBlocking Bool
 ---@return nil
-function RoadBlockControllerPS:SetIsBlockingState(isBlocking) return end
+function RoadBlockControllerPS:SetIsBlockingState(isBlocking) end

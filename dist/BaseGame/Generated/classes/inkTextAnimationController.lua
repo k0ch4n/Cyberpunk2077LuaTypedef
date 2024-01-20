@@ -1,42 +1,42 @@
 ---@meta
 
 ---@class inkTextAnimationController: inkWidgetLogicController
----@field public playOnInitialize Bool
----@field public animationName CName
----@field public useDefaultAnimation Bool
----@field public duration Float
----@field public startDelay Float
----@field public startValue Float
----@field public endValue Float
+---@field playOnInitialize Bool
+---@field animationName CName
+---@field useDefaultAnimation Bool
+---@field duration Float
+---@field startDelay Float
+---@field startValue Float
+---@field endValue Float
 inkTextAnimationController = {}
 
 ---@return Float
-function inkTextAnimationController:GetDelay() return end
+function inkTextAnimationController:GetDelay() end
 
 ---@return Float
-function inkTextAnimationController:GetDuration() return end
+function inkTextAnimationController:GetDuration() end
 
 ---@return Float
-function inkTextAnimationController:GetEnd() return end
+function inkTextAnimationController:GetEnd() end
 
 ---@return Float
-function inkTextAnimationController:GetStart() return end
+function inkTextAnimationController:GetStart() end
 
 ---@return inkanimProxy
-function inkTextAnimationController:PlaySetAnimation() return end
+function inkTextAnimationController:PlaySetAnimation() end
 
 ---@param delay Float
 ---@return nil
-function inkTextAnimationController:SetDelay(delay) return end
+function inkTextAnimationController:SetDelay(delay) end
 
 ---@param duration Float
 ---@return nil
-function inkTextAnimationController:SetDuration(duration) return end
+function inkTextAnimationController:SetDuration(duration) end
 
 ---@param delay Float
 ---@return nil
-function inkTextAnimationController:SetEnd(delay) return end
+function inkTextAnimationController:SetEnd(delay) end
 
 ---@param delay Float
 ---@return nil
-function inkTextAnimationController:SetStart(delay) return end
+function inkTextAnimationController:SetStart(delay) end

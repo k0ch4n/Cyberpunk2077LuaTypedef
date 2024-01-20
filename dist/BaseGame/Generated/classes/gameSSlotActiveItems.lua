@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSSlotActiveItems
----@field public rightHandItem gameItemID
----@field public leftHandItem gameItemID
+---@field rightHandItem gameItemID
+---@field leftHandItem gameItemID
 gameSSlotActiveItems = {}
 
 ---@param fields? gameSSlotActiveItems
 ---@return gameSSlotActiveItems
-function gameSSlotActiveItems.new(fields) return end
+function gameSSlotActiveItems.new(fields) end

@@ -5,4 +5,4 @@ gamedataReactionPresetMechanical_Record = {}
 
 ---@param fields? gamedataReactionPresetMechanical_Record
 ---@return gamedataReactionPresetMechanical_Record
-function gamedataReactionPresetMechanical_Record.new(fields) return end
+function gamedataReactionPresetMechanical_Record.new(fields) end

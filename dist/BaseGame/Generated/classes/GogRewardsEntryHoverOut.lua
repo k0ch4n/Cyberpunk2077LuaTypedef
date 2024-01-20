@@ -5,4 +5,4 @@ GogRewardsEntryHoverOut = {}
 
 ---@param fields? GogRewardsEntryHoverOut
 ---@return GogRewardsEntryHoverOut
-function GogRewardsEntryHoverOut.new(fields) return end
+function GogRewardsEntryHoverOut.new(fields) end

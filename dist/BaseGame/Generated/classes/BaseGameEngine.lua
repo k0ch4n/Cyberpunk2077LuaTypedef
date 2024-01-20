@@ -5,4 +5,4 @@ BaseGameEngine = {}
 
 ---@param fields? BaseGameEngine
 ---@return BaseGameEngine
-function BaseGameEngine.new(fields) return end
+function BaseGameEngine.new(fields) end

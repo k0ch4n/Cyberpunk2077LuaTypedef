@@ -5,4 +5,4 @@ PlayRelicIntroAnimationEvent = {}
 
 ---@param fields? PlayRelicIntroAnimationEvent
 ---@return PlayRelicIntroAnimationEvent
-function PlayRelicIntroAnimationEvent.new(fields) return end
+function PlayRelicIntroAnimationEvent.new(fields) end

@@ -1,49 +1,46 @@
 ---@meta
 
 ---@class DataTermControllerPS: ScriptableDeviceComponentPS
----@field private linkedFastTravelPoint gameFastTravelPointData
----@field private triggerType EFastTravelTriggerType
----@field private fastTravelDeviceType EFastTravelDeviceType
+---@field linkedFastTravelPoint gameFastTravelPointData
+---@field triggerType EFastTravelTriggerType
+---@field fastTravelDeviceType EFastTravelDeviceType
 DataTermControllerPS = {}
 
 ---@param fields? DataTermControllerPS
 ---@return DataTermControllerPS
-function DataTermControllerPS.new(fields) return end
+function DataTermControllerPS.new(fields) end
 
----@protected
 ---@param actionData gameFastTravelPointData
 ---@return FastTravelDeviceAction
-function DataTermControllerPS:ActionFastTravel(actionData) return end
+function DataTermControllerPS:ActionFastTravel(actionData) end
 
----@protected
 ---@return OpenWorldMapDeviceAction
-function DataTermControllerPS:ActionOpenWorldMap() return end
+function DataTermControllerPS:ActionOpenWorldMap() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function DataTermControllerPS:GetActions(context) return end
+function DataTermControllerPS:GetActions(context) end
 
 ---@return DataTermDeviceBlackboardDef
-function DataTermControllerPS:GetBlackboardDef() return end
+function DataTermControllerPS:GetBlackboardDef() end
 
----@private
 ---@return FastTravelSystem
-function DataTermControllerPS:GetFastTravelSystem() return end
+function DataTermControllerPS:GetFastTravelSystem() end
 
 ---@return EFastTravelDeviceType
-function DataTermControllerPS:GetFastravelDeviceType() return end
+function DataTermControllerPS:GetFastravelDeviceType() end
 
 ---@return EFastTravelTriggerType
-function DataTermControllerPS:GetFastravelTriggerType() return end
+function DataTermControllerPS:GetFastravelTriggerType() end
 
 ---@param evt FastTravelDeviceAction
 ---@return EntityNotificationType
-function DataTermControllerPS:OnFastTravelAction(evt) return end
+function DataTermControllerPS:OnFastTravelAction(evt) end
 
 ---@param evt OpenWorldMapDeviceAction
 ---@return EntityNotificationType
-function DataTermControllerPS:OnOpenWorldMapAction(evt) return end
+function DataTermControllerPS:OnOpenWorldMapAction(evt) end
 
 ---@param point gameFastTravelPointData
 ---@return nil
-function DataTermControllerPS:SetLinkedFastTravelPoint(point) return end
+function DataTermControllerPS:SetLinkedFastTravelPoint(point) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnCheckSpeakersDistanceReturnConditionParams
----@field public distance Float
----@field public comparisonType EComparisonType
+---@field distance Float
+---@field comparisonType EComparisonType
 scnCheckSpeakersDistanceReturnConditionParams = {}
 
 ---@param fields? scnCheckSpeakersDistanceReturnConditionParams
 ---@return scnCheckSpeakersDistanceReturnConditionParams
-function scnCheckSpeakersDistanceReturnConditionParams.new(fields) return end
+function scnCheckSpeakersDistanceReturnConditionParams.new(fields) end

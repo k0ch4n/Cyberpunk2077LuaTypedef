@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SendEquipWeaponCommand: AIbehaviortaskScript
----@field public secondary Bool
+---@field secondary Bool
 SendEquipWeaponCommand = {}
 
 ---@param fields? SendEquipWeaponCommand
 ---@return SendEquipWeaponCommand
-function SendEquipWeaponCommand.new(fields) return end
+function SendEquipWeaponCommand.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SendEquipWeaponCommand:Activate(context) return end
+function SendEquipWeaponCommand:Activate(context) end

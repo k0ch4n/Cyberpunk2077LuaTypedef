@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class MenuData
----@field public identifier Int32
----@field public label String
----@field public icon CName
----@field public subMenus MenuData[]
----@field public eventName CName
----@field public fullscreenName CName
----@field public userData IScriptable
----@field public disabled Bool
----@field public parentIdentifier Int32
----@field public attrFlag Bool
----@field public attrText Int32
----@field public perkFlag Bool
----@field public perkText Int32
----@field public overrideDefaultUserData Bool
----@field public overrideSubMenuUserData Bool
+---@field identifier Int32
+---@field label String
+---@field icon CName
+---@field subMenus MenuData[]
+---@field eventName CName
+---@field fullscreenName CName
+---@field userData IScriptable
+---@field disabled Bool
+---@field parentIdentifier Int32
+---@field attrFlag Bool
+---@field attrText Int32
+---@field perkFlag Bool
+---@field perkText Int32
+---@field overrideDefaultUserData Bool
+---@field overrideSubMenuUserData Bool
 MenuData = {}
 
 ---@param fields? MenuData
 ---@return MenuData
-function MenuData.new(fields) return end
+function MenuData.new(fields) end

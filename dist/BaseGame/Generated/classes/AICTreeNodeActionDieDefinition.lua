@@ -5,4 +5,4 @@ AICTreeNodeActionDieDefinition = {}
 
 ---@param fields? AICTreeNodeActionDieDefinition
 ---@return AICTreeNodeActionDieDefinition
-function AICTreeNodeActionDieDefinition.new(fields) return end
+function AICTreeNodeActionDieDefinition.new(fields) end

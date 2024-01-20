@@ -5,11 +5,11 @@ PlayerCoverHelper = {}
 
 ---@param fields? PlayerCoverHelper
 ---@return PlayerCoverHelper
-function PlayerCoverHelper.new(fields) return end
+function PlayerCoverHelper.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function PlayerCoverHelper.BlockCoverVisibilityReduction(owner) return end
+function PlayerCoverHelper.BlockCoverVisibilityReduction(owner) end
 
 ---@return TweakDBID
-function PlayerCoverHelper.GetBlockCoverStatusEffectID() return end
+function PlayerCoverHelper.GetBlockCoverStatusEffectID() end

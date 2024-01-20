@@ -1,42 +1,35 @@
 ---@meta
 
 ---@class FastTravelGameController: gameuiWidgetGameController
----@field private fastTravelPointsList inkCompoundWidgetReference
----@field private menuEventDispatcher inkMenuEventDispatcher
+---@field fastTravelPointsList inkCompoundWidgetReference
+---@field menuEventDispatcher inkMenuEventDispatcher
 FastTravelGameController = {}
 
 ---@param fields? FastTravelGameController
 ---@return FastTravelGameController
-function FastTravelGameController.new(fields) return end
+function FastTravelGameController.new(fields) end
 
----@protected
 ---@return Bool
-function FastTravelGameController:OnInitialize() return end
+function FastTravelGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FastTravelGameController:OnPerformFastTravel(e) return end
+function FastTravelGameController:OnPerformFastTravel(e) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function FastTravelGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function FastTravelGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@private
 ---@return FastTravelSystem
-function FastTravelGameController:GetFastTravelSystem() return end
+function FastTravelGameController:GetFastTravelSystem() end
 
----@private
 ---@return gameObject
-function FastTravelGameController:GetOwner() return end
+function FastTravelGameController:GetOwner() end
 
----@private
 ---@return nil
-function FastTravelGameController:Initialize() return end
+function FastTravelGameController:Initialize() end
 
----@private
 ---@param pointData gameFastTravelPointData
 ---@param player gameObject
 ---@return nil
-function FastTravelGameController:PerformFastTravel(pointData, player) return end
+function FastTravelGameController:PerformFastTravel(pointData, player) end

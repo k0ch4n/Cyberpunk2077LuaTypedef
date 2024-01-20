@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class inkCompositionPreviewSettings: ISerializable
----@field public sourceState CName
----@field public targetState CName
----@field public previewResolution inkETextureResolution
----@field public gameFrameTexture CBitmapTexture
----@field public textureAtlas inkTextureAtlas
----@field public texturePart CName
+---@field sourceState CName
+---@field targetState CName
+---@field previewResolution inkETextureResolution
+---@field gameFrameTexture CBitmapTexture
+---@field textureAtlas inkTextureAtlas
+---@field texturePart CName
 inkCompositionPreviewSettings = {}
 
 ---@param fields? inkCompositionPreviewSettings
 ---@return inkCompositionPreviewSettings
-function inkCompositionPreviewSettings.new(fields) return end
+function inkCompositionPreviewSettings.new(fields) end

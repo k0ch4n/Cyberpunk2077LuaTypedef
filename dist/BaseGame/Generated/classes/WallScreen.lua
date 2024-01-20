@@ -1,46 +1,39 @@
 ---@meta
 
 ---@class WallScreen: TV
----@field private movementPattern SMovementPattern
----@field private factOnFullyOpened CName
----@field private objectMover ObjectMoverComponent
+---@field movementPattern SMovementPattern
+---@field factOnFullyOpened CName
+---@field objectMover ObjectMoverComponent
 WallScreen = {}
 
 ---@param fields? WallScreen
 ---@return WallScreen
-function WallScreen.new(fields) return end
+function WallScreen.new(fields) end
 
----@protected
 ---@param movementStatus ObjectMoverStatus
 ---@return Bool
-function WallScreen:OnMovementFinished(movementStatus) return end
+function WallScreen:OnMovementFinished(movementStatus) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function WallScreen:OnRequestComponents(ri) return end
+function WallScreen:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function WallScreen:OnTakeControl(ri) return end
+function WallScreen:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleShow
 ---@return Bool
-function WallScreen:OnToggleSecureShow(evt) return end
+function WallScreen:OnToggleSecureShow(evt) end
 
----@private
 ---@return WallScreenController
-function WallScreen:GetController() return end
+function WallScreen:GetController() end
 
 ---@return WallScreenControllerPS
-function WallScreen:GetDevicePS() return end
+function WallScreen:GetDevicePS() end
 
----@private
 ---@return nil
-function WallScreen:Move() return end
+function WallScreen:Move() end
 
----@private
 ---@return nil
-function WallScreen:MoveBack() return end
+function WallScreen:MoveBack() end

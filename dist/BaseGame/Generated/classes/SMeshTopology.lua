@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SMeshTopology
----@field public data DataBuffer
----@field public metadata DataBuffer
+---@field data DataBuffer
+---@field metadata DataBuffer
 SMeshTopology = {}
 
 ---@param fields? SMeshTopology
 ---@return SMeshTopology
-function SMeshTopology.new(fields) return end
+function SMeshTopology.new(fields) end

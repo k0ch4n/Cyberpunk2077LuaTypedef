@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class SwimmingTransitionEvents: LocomotionSwimmingEvents
----@field public maxDownwardSpeed Float
----@field public minDownwardsSpeed Float
----@field public upwardsImpulseStrength Float
+---@field maxDownwardSpeed Float
+---@field minDownwardsSpeed Float
+---@field upwardsImpulseStrength Float
 SwimmingTransitionEvents = {}
 
 ---@param fields? SwimmingTransitionEvents
 ---@return SwimmingTransitionEvents
-function SwimmingTransitionEvents.new(fields) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function SwimmingTransitionEvents:OnAttach(stateContext, scriptInterface) return end
+function SwimmingTransitionEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingTransitionEvents:OnEnter(stateContext, scriptInterface) return end
+function SwimmingTransitionEvents:OnAttach(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingTransitionEvents:OnExit(stateContext, scriptInterface) return end
+function SwimmingTransitionEvents:OnEnter(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SwimmingTransitionEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingTransitionEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SwimmingTransitionEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

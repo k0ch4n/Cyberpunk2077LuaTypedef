@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ZoneAlertNotification: GenericNotificationController
----@field private animation inkanimProxy
----@field private zone_data ZoneAlertNotificationViewData
----@field private ZoneLabelText inkTextWidgetReference
+---@field animation inkanimProxy
+---@field zone_data ZoneAlertNotificationViewData
+---@field ZoneLabelText inkTextWidgetReference
 ZoneAlertNotification = {}
 
 ---@param fields? ZoneAlertNotification
 ---@return ZoneAlertNotification
-function ZoneAlertNotification.new(fields) return end
+function ZoneAlertNotification.new(fields) end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function ZoneAlertNotification:SetNotificationData(notificationData) return end
+function ZoneAlertNotification:SetNotificationData(notificationData) end

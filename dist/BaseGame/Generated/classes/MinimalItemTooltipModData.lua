@@ -5,4 +5,4 @@ MinimalItemTooltipModData = {}
 
 ---@param fields? MinimalItemTooltipModData
 ---@return MinimalItemTooltipModData
-function MinimalItemTooltipModData.new(fields) return end
+function MinimalItemTooltipModData.new(fields) end

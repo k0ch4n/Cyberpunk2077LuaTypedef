@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class vehicleStartedMountingEvent: redEvent
----@field public slotID CName
----@field public animationSlotName CName
----@field public isMounting Bool
----@field public character gameObject
----@field public instant Bool
----@field public silent Bool
+---@field slotID CName
+---@field animationSlotName CName
+---@field isMounting Bool
+---@field character gameObject
+---@field instant Bool
+---@field silent Bool
 vehicleStartedMountingEvent = {}
 
 ---@param fields? vehicleStartedMountingEvent
 ---@return vehicleStartedMountingEvent
-function vehicleStartedMountingEvent.new(fields) return end
+function vehicleStartedMountingEvent.new(fields) end

@@ -5,4 +5,4 @@ worldPrefabMetadata = {}
 
 ---@param fields? worldPrefabMetadata
 ---@return worldPrefabMetadata
-function worldPrefabMetadata.new(fields) return end
+function worldPrefabMetadata.new(fields) end

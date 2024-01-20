@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldFoliageRawData: ISerializable
----@field public items worldFoliageRawItem[]
+---@field items worldFoliageRawItem[]
 worldFoliageRawData = {}
 
 ---@param fields? worldFoliageRawData
 ---@return worldFoliageRawData
-function worldFoliageRawData.new(fields) return end
+function worldFoliageRawData.new(fields) end

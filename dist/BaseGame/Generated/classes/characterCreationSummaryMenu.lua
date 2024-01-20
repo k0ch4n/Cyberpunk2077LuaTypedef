@@ -1,95 +1,83 @@
 ---@meta
 
 ---@class characterCreationSummaryMenu: gameuiBaseCharacterCreationController
----@field public backstoryTitle inkTextWidgetReference
----@field public backstoryIcon inkImageWidgetReference
----@field public backstory inkTextWidgetReference
----@field public difficulty inkTextWidgetReference
----@field public attributeBodyValue inkTextWidgetReference
----@field public attributeIntelligenceValue inkTextWidgetReference
----@field public attributeReflexesValue inkTextWidgetReference
----@field public attributeTechnicalAbilityValue inkTextWidgetReference
----@field public attributeCoolValue inkTextWidgetReference
----@field public attributeUnsetValue inkTextWidgetReference
----@field public unsetAttributeWrapper inkWidgetReference
----@field public expansionInfoWrapper inkWidgetReference
----@field public previousPageBtn inkWidgetReference
----@field public glitchBtn inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private loadingAnimationProxy inkanimProxy
----@field private loadingFinished Bool
----@field private glitchClicks Int32
+---@field backstoryTitle inkTextWidgetReference
+---@field backstoryIcon inkImageWidgetReference
+---@field backstory inkTextWidgetReference
+---@field difficulty inkTextWidgetReference
+---@field attributeBodyValue inkTextWidgetReference
+---@field attributeIntelligenceValue inkTextWidgetReference
+---@field attributeReflexesValue inkTextWidgetReference
+---@field attributeTechnicalAbilityValue inkTextWidgetReference
+---@field attributeCoolValue inkTextWidgetReference
+---@field attributeUnsetValue inkTextWidgetReference
+---@field unsetAttributeWrapper inkWidgetReference
+---@field expansionInfoWrapper inkWidgetReference
+---@field previousPageBtn inkWidgetReference
+---@field glitchBtn inkWidgetReference
+---@field animationProxy inkanimProxy
+---@field loadingAnimationProxy inkanimProxy
+---@field loadingFinished Bool
+---@field glitchClicks Int32
 characterCreationSummaryMenu = {}
 
 ---@param fields? characterCreationSummaryMenu
 ---@return characterCreationSummaryMenu
-function characterCreationSummaryMenu.new(fields) return end
+function characterCreationSummaryMenu.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function characterCreationSummaryMenu:OnButtonRelease(evt) return end
+function characterCreationSummaryMenu:OnButtonRelease(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationSummaryMenu:OnGlitchButton(e) return end
+function characterCreationSummaryMenu:OnGlitchButton(e) end
 
----@protected
 ---@return Bool
-function characterCreationSummaryMenu:OnInitialize() return end
+function characterCreationSummaryMenu:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function characterCreationSummaryMenu:OnIntroComplete(anim) return end
+function characterCreationSummaryMenu:OnIntroComplete(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function characterCreationSummaryMenu:OnLoadingComplete(anim) return end
+function characterCreationSummaryMenu:OnLoadingComplete(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function characterCreationSummaryMenu:OnOutroComplete(anim) return end
+function characterCreationSummaryMenu:OnOutroComplete(anim) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationSummaryMenu:OnPreviousButton(e) return end
+function characterCreationSummaryMenu:OnPreviousButton(e) end
 
----@protected
 ---@return Bool
-function characterCreationSummaryMenu:OnUninitialize() return end
+function characterCreationSummaryMenu:OnUninitialize() end
 
----@protected
 ---@return nil
-function characterCreationSummaryMenu:NextMenu() return end
+function characterCreationSummaryMenu:NextMenu() end
 
----@private
 ---@return nil
-function characterCreationSummaryMenu:OnIntro() return end
+function characterCreationSummaryMenu:OnIntro() end
 
----@private
 ---@return nil
-function characterCreationSummaryMenu:OnOutro() return end
+function characterCreationSummaryMenu:OnOutro() end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@param animProxy inkanimProxy
 ---@return nil
-function characterCreationSummaryMenu:PlayAnim(animName, callBack, animProxy) return end
-
----@protected
----@return nil
-function characterCreationSummaryMenu:PriorMenu() return end
+function characterCreationSummaryMenu:PlayAnim(animName, callBack, animProxy) end
 
 ---@return nil
-function characterCreationSummaryMenu:SetUpAttribiutes() return end
+function characterCreationSummaryMenu:PriorMenu() end
 
 ---@return nil
-function characterCreationSummaryMenu:SetUpDifficulty() return end
+function characterCreationSummaryMenu:SetUpAttribiutes() end
 
 ---@return nil
-function characterCreationSummaryMenu:SetUpLifePath() return end
+function characterCreationSummaryMenu:SetUpDifficulty() end
+
+---@return nil
+function characterCreationSummaryMenu:SetUpLifePath() end

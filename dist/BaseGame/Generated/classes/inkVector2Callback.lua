@@ -5,4 +5,4 @@ inkVector2Callback = {}
 
 ---@param fields? inkVector2Callback
 ---@return inkVector2Callback
-function inkVector2Callback.new(fields) return end
+function inkVector2Callback.new(fields) end

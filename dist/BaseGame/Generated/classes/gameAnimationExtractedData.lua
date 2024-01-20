@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameAnimationExtractedData
----@field public animationName CName
----@field public animsetsExtractedTransforms gameAnimationTransforms[]
----@field public smartObjectPointType gameSmartObjectPointType
+---@field animationName CName
+---@field animsetsExtractedTransforms gameAnimationTransforms[]
+---@field smartObjectPointType gameSmartObjectPointType
 gameAnimationExtractedData = {}
 
 ---@param fields? gameAnimationExtractedData
 ---@return gameAnimationExtractedData
-function gameAnimationExtractedData.new(fields) return end
+function gameAnimationExtractedData.new(fields) end

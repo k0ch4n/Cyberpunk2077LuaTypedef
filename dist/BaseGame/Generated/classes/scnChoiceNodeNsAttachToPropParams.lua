@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnChoiceNodeNsAttachToPropParams
----@field public propId scnPropId
----@field public visualizerStyle scnChoiceNodeNsVisualizerStyle
+---@field propId scnPropId
+---@field visualizerStyle scnChoiceNodeNsVisualizerStyle
 scnChoiceNodeNsAttachToPropParams = {}
 
 ---@param fields? scnChoiceNodeNsAttachToPropParams
 ---@return scnChoiceNodeNsAttachToPropParams
-function scnChoiceNodeNsAttachToPropParams.new(fields) return end
+function scnChoiceNodeNsAttachToPropParams.new(fields) end

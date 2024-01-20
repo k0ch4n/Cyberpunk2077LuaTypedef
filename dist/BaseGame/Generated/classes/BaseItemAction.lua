@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class BaseItemAction: BaseScriptableAction
----@field private itemData gameItemData
----@field private removeAfterUse Bool
----@field private quantity Int32
+---@field itemData gameItemData
+---@field removeAfterUse Bool
+---@field quantity Int32
 BaseItemAction = {}
 
 ---@return gameItemData
-function BaseItemAction:GetItemData() return end
+function BaseItemAction:GetItemData() end
 
 ---@return gamedataItemType
-function BaseItemAction:GetItemType() return end
+function BaseItemAction:GetItemType() end
 
 ---@return Int32
-function BaseItemAction:GetRequestQuantity() return end
+function BaseItemAction:GetRequestQuantity() end
 
 ---@param item gameItemData
 ---@return nil
-function BaseItemAction:SetItemData(item) return end
+function BaseItemAction:SetItemData(item) end
 
 ---@return nil
-function BaseItemAction:SetRemoveAfterUse() return end
+function BaseItemAction:SetRemoveAfterUse() end
 
 ---@param quantity Int32
 ---@return nil
-function BaseItemAction:SetRequestQuantity(quantity) return end
+function BaseItemAction:SetRequestQuantity(quantity) end
 
 ---@return Bool
-function BaseItemAction:ShouldRemoveAfterUse() return end
+function BaseItemAction:ShouldRemoveAfterUse() end

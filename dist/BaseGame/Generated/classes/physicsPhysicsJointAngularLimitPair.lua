@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class physicsPhysicsJointAngularLimitPair: physicsPhysicsJointLimitBase
----@field public twist physicsPhysicsJointMotion
----@field public upper Float
----@field public lower Float
+---@field twist physicsPhysicsJointMotion
+---@field upper Float
+---@field lower Float
 physicsPhysicsJointAngularLimitPair = {}
 
 ---@param fields? physicsPhysicsJointAngularLimitPair
 ---@return physicsPhysicsJointAngularLimitPair
-function physicsPhysicsJointAngularLimitPair.new(fields) return end
+function physicsPhysicsJointAngularLimitPair.new(fields) end

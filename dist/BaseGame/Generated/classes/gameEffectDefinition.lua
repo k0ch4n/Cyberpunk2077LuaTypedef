@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameEffectDefinition
----@field public tag CName
----@field public objectProviders gameEffectObjectProvider[]
----@field public objectFilters gameEffectObjectFilter[]
----@field public effectExecutors gameEffectExecutor[]
----@field public durationModifiers gameEffectDurationModifier[]
----@field public preActions gameEffectPreAction[]
----@field public postActions gameEffectPostAction[]
----@field public noTargetsActions gameEffectAction[]
----@field public settings gameEffectSettings
----@field public debugSettings gameEffectDebugSettings
+---@field tag CName
+---@field objectProviders gameEffectObjectProvider[]
+---@field objectFilters gameEffectObjectFilter[]
+---@field effectExecutors gameEffectExecutor[]
+---@field durationModifiers gameEffectDurationModifier[]
+---@field preActions gameEffectPreAction[]
+---@field postActions gameEffectPostAction[]
+---@field noTargetsActions gameEffectAction[]
+---@field settings gameEffectSettings
+---@field debugSettings gameEffectDebugSettings
 gameEffectDefinition = {}
 
 ---@param fields? gameEffectDefinition
 ---@return gameEffectDefinition
-function gameEffectDefinition.new(fields) return end
+function gameEffectDefinition.new(fields) end

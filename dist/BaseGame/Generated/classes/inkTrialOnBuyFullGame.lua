@@ -5,4 +5,4 @@ inkTrialOnBuyFullGame = {}
 
 ---@param fields? inkTrialOnBuyFullGame
 ---@return inkTrialOnBuyFullGame
-function inkTrialOnBuyFullGame.new(fields) return end
+function inkTrialOnBuyFullGame.new(fields) end

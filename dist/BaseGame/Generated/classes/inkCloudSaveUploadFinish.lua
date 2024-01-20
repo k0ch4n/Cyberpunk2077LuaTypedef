@@ -5,4 +5,4 @@ inkCloudSaveUploadFinish = {}
 
 ---@param fields? inkCloudSaveUploadFinish
 ---@return inkCloudSaveUploadFinish
-function inkCloudSaveUploadFinish.new(fields) return end
+function inkCloudSaveUploadFinish.new(fields) end

@@ -5,7 +5,7 @@ gameDelaySystemScriptedDelayCallbackWrapper = {}
 
 ---@param fields? gameDelaySystemScriptedDelayCallbackWrapper
 ---@return gameDelaySystemScriptedDelayCallbackWrapper
-function gameDelaySystemScriptedDelayCallbackWrapper.new(fields) return end
+function gameDelaySystemScriptedDelayCallbackWrapper.new(fields) end
 
 ---@return nil
-function gameDelaySystemScriptedDelayCallbackWrapper:Call() return end
+function gameDelaySystemScriptedDelayCallbackWrapper:Call() end

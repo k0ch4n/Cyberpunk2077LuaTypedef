@@ -5,4 +5,4 @@ audioAmbientAreaNotifierInstance = {}
 
 ---@param fields? audioAmbientAreaNotifierInstance
 ---@return audioAmbientAreaNotifierInstance
-function audioAmbientAreaNotifierInstance.new(fields) return end
+function audioAmbientAreaNotifierInstance.new(fields) end

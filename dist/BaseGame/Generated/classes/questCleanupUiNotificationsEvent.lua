@@ -5,4 +5,4 @@ questCleanupUiNotificationsEvent = {}
 
 ---@param fields? questCleanupUiNotificationsEvent
 ---@return questCleanupUiNotificationsEvent
-function questCleanupUiNotificationsEvent.new(fields) return end
+function questCleanupUiNotificationsEvent.new(fields) end

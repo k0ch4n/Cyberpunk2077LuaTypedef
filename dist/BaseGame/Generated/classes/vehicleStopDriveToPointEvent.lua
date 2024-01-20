@@ -5,4 +5,4 @@ vehicleStopDriveToPointEvent = {}
 
 ---@param fields? vehicleStopDriveToPointEvent
 ---@return vehicleStopDriveToPointEvent
-function vehicleStopDriveToPointEvent.new(fields) return end
+function vehicleStopDriveToPointEvent.new(fields) end

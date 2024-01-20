@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PlayerCompanionCacheDataEvent: redEvent
----@field public isPlayerCompanionCached Bool
----@field public isPlayerCompanionCachedTimeStamp Float
+---@field isPlayerCompanionCached Bool
+---@field isPlayerCompanionCachedTimeStamp Float
 PlayerCompanionCacheDataEvent = {}
 
 ---@param fields? PlayerCompanionCacheDataEvent
 ---@return PlayerCompanionCacheDataEvent
-function PlayerCompanionCacheDataEvent.new(fields) return end
+function PlayerCompanionCacheDataEvent.new(fields) end

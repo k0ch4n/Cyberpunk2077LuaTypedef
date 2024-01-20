@@ -5,4 +5,4 @@ inkSettingChangeCallback = {}
 
 ---@param fields? inkSettingChangeCallback
 ---@return inkSettingChangeCallback
-function inkSettingChangeCallback.new(fields) return end
+function inkSettingChangeCallback.new(fields) end

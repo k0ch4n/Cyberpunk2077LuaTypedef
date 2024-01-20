@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class DamageHistoryEntry
----@field public hitEvent gameeventsHitEvent
----@field public totalDamageReceived Float
----@field public frameReceived Uint64
----@field public timestamp Float
----@field public healthAtTheTime Float
----@field public source gameObject
----@field public target gameObject
+---@field hitEvent gameeventsHitEvent
+---@field totalDamageReceived Float
+---@field frameReceived Uint64
+---@field timestamp Float
+---@field healthAtTheTime Float
+---@field source gameObject
+---@field target gameObject
 DamageHistoryEntry = {}
 
 ---@param fields? DamageHistoryEntry
 ---@return DamageHistoryEntry
-function DamageHistoryEntry.new(fields) return end
+function DamageHistoryEntry.new(fields) end

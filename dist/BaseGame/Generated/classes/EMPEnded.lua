@@ -5,4 +5,4 @@ EMPEnded = {}
 
 ---@param fields? EMPEnded
 ---@return EMPEnded
-function EMPEnded.new(fields) return end
+function EMPEnded.new(fields) end

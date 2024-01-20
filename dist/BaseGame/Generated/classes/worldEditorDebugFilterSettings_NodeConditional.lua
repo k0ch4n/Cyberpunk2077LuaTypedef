@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldEditorDebugFilterSettings_NodeConditional: worldEditorDebugFilterSettings
----@field public isDiscarded Bool
----@field public isProxyDependencyModeAutoSet Bool
----@field public isProxyDependencyModeDiscardedSet Bool
+---@field isDiscarded Bool
+---@field isProxyDependencyModeAutoSet Bool
+---@field isProxyDependencyModeDiscardedSet Bool
 worldEditorDebugFilterSettings_NodeConditional = {}
 
 ---@param fields? worldEditorDebugFilterSettings_NodeConditional
 ---@return worldEditorDebugFilterSettings_NodeConditional
-function worldEditorDebugFilterSettings_NodeConditional.new(fields) return end
+function worldEditorDebugFilterSettings_NodeConditional.new(fields) end

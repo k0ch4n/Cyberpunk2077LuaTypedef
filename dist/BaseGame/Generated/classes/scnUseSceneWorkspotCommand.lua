@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnUseSceneWorkspotCommand: AIBaseUseWorkspotCommand
----@field public sceneInstanceId scnSceneInstanceId
----@field public workspotInstanceId scnSceneWorkspotInstanceId
----@field public itemOverride workWorkspotItemOverride
----@field public nodeId scnNodeId
+---@field sceneInstanceId scnSceneInstanceId
+---@field workspotInstanceId scnSceneWorkspotInstanceId
+---@field itemOverride workWorkspotItemOverride
+---@field nodeId scnNodeId
 scnUseSceneWorkspotCommand = {}
 
 ---@param fields? scnUseSceneWorkspotCommand
 ---@return scnUseSceneWorkspotCommand
-function scnUseSceneWorkspotCommand.new(fields) return end
+function scnUseSceneWorkspotCommand.new(fields) end

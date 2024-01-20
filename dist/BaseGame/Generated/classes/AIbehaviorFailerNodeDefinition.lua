@@ -5,4 +5,4 @@ AIbehaviorFailerNodeDefinition = {}
 
 ---@param fields? AIbehaviorFailerNodeDefinition
 ---@return AIbehaviorFailerNodeDefinition
-function AIbehaviorFailerNodeDefinition.new(fields) return end
+function AIbehaviorFailerNodeDefinition.new(fields) end

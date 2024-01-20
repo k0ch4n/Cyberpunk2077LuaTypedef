@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class SpreadAreaEffector: gameEffector
----@field public maxTargetNum Int32
----@field public range Float
----@field public objectActionsRecord gamedataObjectAction_Record[]
----@field public player PlayerPuppet
+---@field maxTargetNum Int32
+---@field range Float
+---@field objectActionsRecord gamedataObjectAction_Record[]
+---@field player PlayerPuppet
 SpreadAreaEffector = {}
 
 ---@param fields? SpreadAreaEffector
 ---@return SpreadAreaEffector
-function SpreadAreaEffector.new(fields) return end
+function SpreadAreaEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SpreadAreaEffector:ActionOn(owner) return end
+function SpreadAreaEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SpreadAreaEffector:Initialize(record, parentRecord) return end
+function SpreadAreaEffector:Initialize(record, parentRecord) end

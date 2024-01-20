@@ -5,4 +5,4 @@ gameItemDecorationEvent = {}
 
 ---@param fields? gameItemDecorationEvent
 ---@return gameItemDecorationEvent
-function gameItemDecorationEvent.new(fields) return end
+function gameItemDecorationEvent.new(fields) end

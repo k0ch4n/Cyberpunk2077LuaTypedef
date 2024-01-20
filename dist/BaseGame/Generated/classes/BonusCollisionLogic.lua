@@ -1,31 +1,26 @@
 ---@meta
 
 ---@class BonusCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
----@field protected hasTriggered Bool
+---@field hasTriggered Bool
 BonusCollisionLogic = {}
 
 ---@param fields? BonusCollisionLogic
 ---@return BonusCollisionLogic
-function BonusCollisionLogic.new(fields) return end
+function BonusCollisionLogic.new(fields) end
 
----@protected
 ---@param hitEvent gameuiOnHitPlayerEvent
 ---@return Bool
-function BonusCollisionLogic:OnHitPlayer(hitEvent) return end
+function BonusCollisionLogic:OnHitPlayer(hitEvent) end
 
----@protected
 ---@return Bool
-function BonusCollisionLogic:OnInitialize() return end
+function BonusCollisionLogic:OnInitialize() end
 
----@protected
 ---@return Bool
-function BonusCollisionLogic:OnRecycle() return end
+function BonusCollisionLogic:OnRecycle() end
 
----@protected
 ---@param gameState gameuiRoachRaceGameState
 ---@return nil
-function BonusCollisionLogic:ChangeGameState(gameState) return end
+function BonusCollisionLogic:ChangeGameState(gameState) end
 
----@private
 ---@return nil
-function BonusCollisionLogic:Reset() return end
+function BonusCollisionLogic:Reset() end

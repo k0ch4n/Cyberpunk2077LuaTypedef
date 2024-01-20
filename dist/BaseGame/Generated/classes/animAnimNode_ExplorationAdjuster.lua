@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animAnimNode_ExplorationAdjuster: animAnimNode_MotionAdjuster
----@field public targetPosition2 animVectorLink
----@field public targetDirection2 animVectorLink
----@field public totalTimeToAdjust2 animFloatLink
----@field public targetPosition3 animVectorLink
----@field public targetDirection3 animVectorLink
----@field public totalTimeToAdjust3 animFloatLink
+---@field targetPosition2 animVectorLink
+---@field targetDirection2 animVectorLink
+---@field totalTimeToAdjust2 animFloatLink
+---@field targetPosition3 animVectorLink
+---@field targetDirection3 animVectorLink
+---@field totalTimeToAdjust3 animFloatLink
 animAnimNode_ExplorationAdjuster = {}
 
 ---@param fields? animAnimNode_ExplorationAdjuster
 ---@return animAnimNode_ExplorationAdjuster
-function animAnimNode_ExplorationAdjuster.new(fields) return end
+function animAnimNode_ExplorationAdjuster.new(fields) end

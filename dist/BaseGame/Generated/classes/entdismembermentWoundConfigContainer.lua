@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entdismembermentWoundConfigContainer: ISerializable
----@field public AppearanceName CName
----@field public Wounds entdismembermentWoundConfig[]
+---@field AppearanceName CName
+---@field Wounds entdismembermentWoundConfig[]
 entdismembermentWoundConfigContainer = {}
 
 ---@param fields? entdismembermentWoundConfigContainer
 ---@return entdismembermentWoundConfigContainer
-function entdismembermentWoundConfigContainer.new(fields) return end
+function entdismembermentWoundConfigContainer.new(fields) end

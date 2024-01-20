@@ -5,31 +5,31 @@ UIFunctionalTests = {}
 
 ---@param fields? UIFunctionalTests
 ---@return UIFunctionalTests
-function UIFunctionalTests.new(fields) return end
+function UIFunctionalTests.new(fields) end
 
 ---@return nil
-function UIFunctionalTests:EnableExitGameAction() return end
+function UIFunctionalTests:EnableExitGameAction() end
 
 ---@return nil
-function UIFunctionalTests:GetPlaybackFailInfo() return end
+function UIFunctionalTests:GetPlaybackFailInfo() end
 
 ---@return nil
-function UIFunctionalTests:GetPlaybackResult() return end
+function UIFunctionalTests:GetPlaybackResult() end
 
 ---@return nil
-function UIFunctionalTests:HideHUD() return end
+function UIFunctionalTests:HideHUD() end
 
 ---@return nil
-function UIFunctionalTests:IsInGameMenuVisible() return end
+function UIFunctionalTests:IsInGameMenuVisible() end
 
 ---@return nil
-function UIFunctionalTests:IsMessageBoxVisible() return end
+function UIFunctionalTests:IsMessageBoxVisible() end
 
 ---@return nil
-function UIFunctionalTests:IsPlaying() return end
+function UIFunctionalTests:IsPlaying() end
 
 ---@return nil
-function UIFunctionalTests:LockGameStatesTransitions() return end
+function UIFunctionalTests:LockGameStatesTransitions() end
 
 ---@return nil
-function UIFunctionalTests:Play() return end
+function UIFunctionalTests:Play() end

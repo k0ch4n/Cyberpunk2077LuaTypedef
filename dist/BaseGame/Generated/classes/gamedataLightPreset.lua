@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamedataLightPreset
----@field public lightSourcesName CName
----@field public preset TweakDBID
+---@field lightSourcesName CName
+---@field preset TweakDBID
 gamedataLightPreset = {}
 
 ---@param fields? gamedataLightPreset
 ---@return gamedataLightPreset
-function gamedataLightPreset.new(fields) return end
+function gamedataLightPreset.new(fields) end

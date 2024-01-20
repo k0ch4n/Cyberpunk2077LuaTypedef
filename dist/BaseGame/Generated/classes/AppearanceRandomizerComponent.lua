@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class AppearanceRandomizerComponent: gameScriptableComponent
----@field public appearances CName[]
----@field public isEnabled Bool
+---@field appearances CName[]
+---@field isEnabled Bool
 AppearanceRandomizerComponent = {}
 
 ---@param fields? AppearanceRandomizerComponent
 ---@return AppearanceRandomizerComponent
-function AppearanceRandomizerComponent.new(fields) return end
+function AppearanceRandomizerComponent.new(fields) end
 
----@private
 ---@param appearance CName|string
 ---@return nil
-function AppearanceRandomizerComponent:ApplyAppearance(appearance) return end
+function AppearanceRandomizerComponent:ApplyAppearance(appearance) end
 
----@private
 ---@return nil
-function AppearanceRandomizerComponent:OnGameAttach() return end
+function AppearanceRandomizerComponent:OnGameAttach() end
 
----@private
 ---@return CName
-function AppearanceRandomizerComponent:PickAppearance() return end
+function AppearanceRandomizerComponent:PickAppearance() end

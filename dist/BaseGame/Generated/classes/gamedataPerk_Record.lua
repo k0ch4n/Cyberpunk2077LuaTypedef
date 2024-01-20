@@ -5,58 +5,58 @@ gamedataPerk_Record = {}
 
 ---@param fields? gamedataPerk_Record
 ---@return gamedataPerk_Record
-function gamedataPerk_Record.new(fields) return end
+function gamedataPerk_Record.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataPerk_Record:BinkPath() return end
+function gamedataPerk_Record:BinkPath() end
 
 ---@return String
-function gamedataPerk_Record:DisplayName() return end
+function gamedataPerk_Record:DisplayName() end
 
 ---@return String
-function gamedataPerk_Record:EnumComment() return end
+function gamedataPerk_Record:EnumComment() end
 
 ---@return CName
-function gamedataPerk_Record:EnumName() return end
+function gamedataPerk_Record:EnumName() end
 
 ---@return Int32
-function gamedataPerk_Record:GetLevelsCount() return end
+function gamedataPerk_Record:GetLevelsCount() end
 
 ---@param index Int32
 ---@return gamedataPerkLevelData_Record
-function gamedataPerk_Record:GetLevelsItem(index) return end
+function gamedataPerk_Record:GetLevelsItem(index) end
 
 ---@param index Int32
 ---@return gamedataPerkLevelData_Record
-function gamedataPerk_Record:GetLevelsItemHandle(index) return end
+function gamedataPerk_Record:GetLevelsItemHandle(index) end
 
 ---@return CName
-function gamedataPerk_Record:IconPath() return end
+function gamedataPerk_Record:IconPath() end
 
 ---@return nil, gamedataPerkLevelData_Record[] outList
-function gamedataPerk_Record:Levels() return end
+function gamedataPerk_Record:Levels() end
 
 ---@param item gamedataPerkLevelData_Record
 ---@return Bool
-function gamedataPerk_Record:LevelsContains(item) return end
+function gamedataPerk_Record:LevelsContains(item) end
 
 ---@return String
-function gamedataPerk_Record:Loc_desc_key() return end
+function gamedataPerk_Record:Loc_desc_key() end
 
 ---@return String
-function gamedataPerk_Record:Loc_name_key() return end
+function gamedataPerk_Record:Loc_name_key() end
 
 ---@return gamedataUIIcon_Record
-function gamedataPerk_Record:PerkIcon() return end
+function gamedataPerk_Record:PerkIcon() end
 
 ---@return gamedataUIIcon_Record
-function gamedataPerk_Record:PerkIconHandle() return end
+function gamedataPerk_Record:PerkIconHandle() end
 
 ---@return gamedataPerkType
-function gamedataPerk_Record:Type() return end
+function gamedataPerk_Record:Type() end
 
 ---@return gamedataPerkUtility_Record
-function gamedataPerk_Record:Utility() return end
+function gamedataPerk_Record:Utility() end
 
 ---@return gamedataPerkUtility_Record
-function gamedataPerk_Record:UtilityHandle() return end
+function gamedataPerk_Record:UtilityHandle() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioRigMetadata: audioAudioMetadata
----@field public positionBones CName[]
----@field public defaultBone CName
+---@field positionBones CName[]
+---@field defaultBone CName
 audioRigMetadata = {}
 
 ---@param fields? audioRigMetadata
 ---@return audioRigMetadata
-function audioRigMetadata.new(fields) return end
+function audioRigMetadata.new(fields) end

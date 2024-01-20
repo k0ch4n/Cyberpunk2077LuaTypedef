@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ReevaluateDetectionOverwriteEvent: redEvent
----@field public target entEntity
+---@field target entEntity
 ReevaluateDetectionOverwriteEvent = {}
 
 ---@param fields? ReevaluateDetectionOverwriteEvent
 ---@return ReevaluateDetectionOverwriteEvent
-function ReevaluateDetectionOverwriteEvent.new(fields) return end
+function ReevaluateDetectionOverwriteEvent.new(fields) end

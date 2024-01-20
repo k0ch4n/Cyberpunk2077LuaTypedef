@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIArgumentOverrideWrapper
----@field public name CName
----@field public type AIArgumentType
----@field public definition AIArgumentDefinition
+---@field name CName
+---@field type AIArgumentType
+---@field definition AIArgumentDefinition
 AIArgumentOverrideWrapper = {}
 
 ---@param fields? AIArgumentOverrideWrapper
 ---@return AIArgumentOverrideWrapper
-function AIArgumentOverrideWrapper.new(fields) return end
+function AIArgumentOverrideWrapper.new(fields) end

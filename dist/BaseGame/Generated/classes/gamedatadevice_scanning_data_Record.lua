@@ -5,4 +5,4 @@ gamedatadevice_scanning_data_Record = {}
 
 ---@param fields? gamedatadevice_scanning_data_Record
 ---@return gamedatadevice_scanning_data_Record
-function gamedatadevice_scanning_data_Record.new(fields) return end
+function gamedatadevice_scanning_data_Record.new(fields) end

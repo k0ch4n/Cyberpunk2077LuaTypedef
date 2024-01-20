@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldEntityProxyMeshNode: worldPrefabProxyMeshNode
----@field public ownerGlobalId worldGlobalNodeID
----@field public entityAttachDistance Float
+---@field ownerGlobalId worldGlobalNodeID
+---@field entityAttachDistance Float
 worldEntityProxyMeshNode = {}
 
 ---@param fields? worldEntityProxyMeshNode
 ---@return worldEntityProxyMeshNode
-function worldEntityProxyMeshNode.new(fields) return end
+function worldEntityProxyMeshNode.new(fields) end

@@ -5,4 +5,4 @@ gameEntityIDArrayPrereqState = {}
 
 ---@param fields? gameEntityIDArrayPrereqState
 ---@return gameEntityIDArrayPrereqState
-function gameEntityIDArrayPrereqState.new(fields) return end
+function gameEntityIDArrayPrereqState.new(fields) end

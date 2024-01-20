@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorIncludedTreeDefinition: AIbehaviorNestedTreeDefinition
----@field public treeReference AIArgumentMapping
+---@field treeReference AIArgumentMapping
 AIbehaviorIncludedTreeDefinition = {}
 
 ---@param fields? AIbehaviorIncludedTreeDefinition
 ---@return AIbehaviorIncludedTreeDefinition
-function AIbehaviorIncludedTreeDefinition.new(fields) return end
+function AIbehaviorIncludedTreeDefinition.new(fields) end

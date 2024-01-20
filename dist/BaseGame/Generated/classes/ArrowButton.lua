@@ -1,37 +1,31 @@
 ---@meta
 
 ---@class ArrowButton: inkButtonController
----@field private direction Direction
+---@field direction Direction
 ArrowButton = {}
 
 ---@param fields? ArrowButton
 ---@return ArrowButton
-function ArrowButton.new(fields) return end
+function ArrowButton.new(fields) end
 
----@protected
 ---@return Bool
-function ArrowButton:OnInitialize() return end
+function ArrowButton:OnInitialize() end
 
----@protected
 ---@return Bool
-function ArrowButton:OnUninitialize() return end
+function ArrowButton:OnUninitialize() end
 
----@private
 ---@param evt inkPointerEvent
 ---@return nil
-function ArrowButton:OnClick(evt) return end
+function ArrowButton:OnClick(evt) end
 
----@private
 ---@param evt inkPointerEvent
 ---@return nil
-function ArrowButton:OnHoverOut(evt) return end
+function ArrowButton:OnHoverOut(evt) end
 
----@private
 ---@param evt inkPointerEvent
 ---@return nil
-function ArrowButton:OnHoverOver(evt) return end
+function ArrowButton:OnHoverOver(evt) end
 
----@private
 ---@param stateName CName|string
 ---@return nil
-function ArrowButton:SetState(stateName) return end
+function ArrowButton:SetState(stateName) end

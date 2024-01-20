@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gamePopupSettings
----@field public closeAtInput Bool
----@field public pauseGame Bool
----@field public position gamePopupPosition
----@field public fullscreen Bool
----@field public hideInMenu Bool
----@field public margin inkMargin
+---@field closeAtInput Bool
+---@field pauseGame Bool
+---@field position gamePopupPosition
+---@field fullscreen Bool
+---@field hideInMenu Bool
+---@field margin inkMargin
 gamePopupSettings = {}
 
 ---@param fields? gamePopupSettings
 ---@return gamePopupSettings
-function gamePopupSettings.new(fields) return end
+function gamePopupSettings.new(fields) end

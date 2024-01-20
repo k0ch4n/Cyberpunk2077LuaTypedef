@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameInventoryItemSortData
----@field public Name String
----@field public Quality Int32
----@field public Price Int32
----@field public Weight Float
----@field public DPS Int32
----@field public ItemType Int32
----@field public QuestItem Bool
----@field public NewItem Bool
----@field public DLCAddedItem Bool
----@field public ChimeraMod Bool
----@field public IsPlayerFavourite Bool
+---@field Name String
+---@field Quality Int32
+---@field Price Int32
+---@field Weight Float
+---@field DPS Int32
+---@field ItemType Int32
+---@field QuestItem Bool
+---@field NewItem Bool
+---@field DLCAddedItem Bool
+---@field ChimeraMod Bool
+---@field IsPlayerFavourite Bool
 gameInventoryItemSortData = {}
 
 ---@param fields? gameInventoryItemSortData
 ---@return gameInventoryItemSortData
-function gameInventoryItemSortData.new(fields) return end
+function gameInventoryItemSortData.new(fields) end

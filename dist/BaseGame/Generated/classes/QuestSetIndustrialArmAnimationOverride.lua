@@ -5,8 +5,8 @@ QuestSetIndustrialArmAnimationOverride = {}
 
 ---@param fields? QuestSetIndustrialArmAnimationOverride
 ---@return QuestSetIndustrialArmAnimationOverride
-function QuestSetIndustrialArmAnimationOverride.new(fields) return end
+function QuestSetIndustrialArmAnimationOverride.new(fields) end
 
 ---@param animation Int32
 ---@return nil
-function QuestSetIndustrialArmAnimationOverride:SetProperties(animation) return end
+function QuestSetIndustrialArmAnimationOverride:SetProperties(animation) end

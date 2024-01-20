@@ -5,7 +5,7 @@ FridgeController = {}
 
 ---@param fields? FridgeController
 ---@return FridgeController
-function FridgeController.new(fields) return end
+function FridgeController.new(fields) end
 
 ---@return FridgeControllerPS
-function FridgeController:GetPS() return end
+function FridgeController:GetPS() end

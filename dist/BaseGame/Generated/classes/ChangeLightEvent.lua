@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ChangeLightEvent: redEvent
----@field public settings ScriptLightSettings
----@field public time Float
----@field public curve CName
----@field public loop Bool
+---@field settings ScriptLightSettings
+---@field time Float
+---@field curve CName
+---@field loop Bool
 ChangeLightEvent = {}
 
 ---@param fields? ChangeLightEvent
 ---@return ChangeLightEvent
-function ChangeLightEvent.new(fields) return end
+function ChangeLightEvent.new(fields) end

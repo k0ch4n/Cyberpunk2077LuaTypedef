@@ -1,89 +1,78 @@
 ---@meta
 
 ---@class CrouchDecisions: LocomotionGroundDecisions
----@field public gameplaySettings GameplaySettingsSystem
----@field public executionOwner gameObject
----@field public callbackID redCallbackObject
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private crouchPressed Bool
----@field private toggleCrouchPressed Bool
----@field private forcedCrouch Bool
----@field private controllingDevice Bool
+---@field gameplaySettings GameplaySettingsSystem
+---@field executionOwner gameObject
+---@field callbackID redCallbackObject
+---@field statusEffectListener DefaultTransitionStatusEffectListener
+---@field crouchPressed Bool
+---@field toggleCrouchPressed Bool
+---@field forcedCrouch Bool
+---@field controllingDevice Bool
 CrouchDecisions = {}
 
 ---@param fields? CrouchDecisions
 ---@return CrouchDecisions
-function CrouchDecisions.new(fields) return end
+function CrouchDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function CrouchDecisions:OnAction(action, consumer) return end
+function CrouchDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function CrouchDecisions:OnControllingDeviceChange(value) return end
+function CrouchDecisions:OnControllingDeviceChange(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchDecisions:EnterCondition(stateContext, scriptInterface) return end
+function CrouchDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CrouchDecisions:OnAttach(stateContext, scriptInterface) return end
+function CrouchDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CrouchDecisions:OnDetach(stateContext, scriptInterface) return end
+function CrouchDecisions:OnDetach(stateContext, scriptInterface) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function CrouchDecisions:OnStatusEffectApplied(statusEffect) return end
+function CrouchDecisions:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function CrouchDecisions:OnStatusEffectRemoved(statusEffect) return end
+function CrouchDecisions:OnStatusEffectRemoved(statusEffect) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchDecisions:ToCrouch(stateContext, scriptInterface) return end
+function CrouchDecisions:ToCrouch(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchDecisions:ToCrouchSprint(stateContext, scriptInterface) return end
+function CrouchDecisions:ToCrouchSprint(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchDecisions:ToDodge(stateContext, scriptInterface) return end
+function CrouchDecisions:ToDodge(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchDecisions:ToSprint(stateContext, scriptInterface) return end
+function CrouchDecisions:ToSprint(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchDecisions:ToStand(stateContext, scriptInterface) return end
+function CrouchDecisions:ToStand(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchDecisions:WantsToDodgeFromCrouch(stateContext, scriptInterface) return end
+function CrouchDecisions:WantsToDodgeFromCrouch(stateContext, scriptInterface) end

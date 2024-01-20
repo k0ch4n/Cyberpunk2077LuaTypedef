@@ -5,4 +5,4 @@ CategoryHoverOutEvent = {}
 
 ---@param fields? CategoryHoverOutEvent
 ---@return CategoryHoverOutEvent
-function CategoryHoverOutEvent.new(fields) return end
+function CategoryHoverOutEvent.new(fields) end

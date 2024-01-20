@@ -5,14 +5,14 @@ vehicleCameraManagerFT = {}
 
 ---@param fields? vehicleCameraManagerFT
 ---@return vehicleCameraManagerFT
-function vehicleCameraManagerFT.new(fields) return end
+function vehicleCameraManagerFT.new(fields) end
 
 ---@return vehicleCameraType
-function vehicleCameraManagerFT:FT_GetActiveCameraType() return end
+function vehicleCameraManagerFT:FT_GetActiveCameraType() end
 
 ---@return Bool
-function vehicleCameraManagerFT:FT_IsSceneModeActive() return end
+function vehicleCameraManagerFT:FT_IsSceneModeActive() end
 
 ---@param active Bool
 ---@return nil
-function vehicleCameraManagerFT:FT_RequestSceneMode(active) return end
+function vehicleCameraManagerFT:FT_RequestSceneMode(active) end

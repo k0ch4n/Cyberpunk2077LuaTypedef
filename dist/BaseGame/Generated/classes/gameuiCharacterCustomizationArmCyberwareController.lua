@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationArmCyberwareController: gameuiCharacterCustomizationBodyPartsController
----@field public defaultGroupName CName
----@field public additionalCyberArmAppearances appearanceAppearanceResource[]
+---@field defaultGroupName CName
+---@field additionalCyberArmAppearances appearanceAppearanceResource[]
 gameuiCharacterCustomizationArmCyberwareController = {}
 
 ---@param fields? gameuiCharacterCustomizationArmCyberwareController
 ---@return gameuiCharacterCustomizationArmCyberwareController
-function gameuiCharacterCustomizationArmCyberwareController.new(fields) return end
+function gameuiCharacterCustomizationArmCyberwareController.new(fields) end

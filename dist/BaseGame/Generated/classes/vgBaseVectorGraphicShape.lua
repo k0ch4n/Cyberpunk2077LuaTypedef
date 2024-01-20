@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class vgBaseVectorGraphicShape: ISerializable
----@field public calTransform Matrix
----@field public yle vgVectorGraphicStyle
+---@field calTransform Matrix
+---@field yle vgVectorGraphicStyle
 vgBaseVectorGraphicShape = {}

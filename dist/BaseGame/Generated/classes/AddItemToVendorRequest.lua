@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AddItemToVendorRequest: gameScriptableSystemRequest
----@field public vendorID TweakDBID
----@field public itemToAddID TweakDBID
----@field public quantity Int32
+---@field vendorID TweakDBID
+---@field itemToAddID TweakDBID
+---@field quantity Int32
 AddItemToVendorRequest = {}
 
 ---@param fields? AddItemToVendorRequest
 ---@return AddItemToVendorRequest
-function AddItemToVendorRequest.new(fields) return end
+function AddItemToVendorRequest.new(fields) end
 
 ---@return String
-function AddItemToVendorRequest:GetFriendlyDescription() return end
+function AddItemToVendorRequest:GetFriendlyDescription() end

@@ -5,4 +5,4 @@ inkVideoLayer = {}
 
 ---@param fields? inkVideoLayer
 ---@return inkVideoLayer
-function inkVideoLayer.new(fields) return end
+function inkVideoLayer.new(fields) end

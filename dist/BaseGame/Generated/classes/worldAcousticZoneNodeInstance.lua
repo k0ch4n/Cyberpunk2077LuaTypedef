@@ -5,4 +5,4 @@ worldAcousticZoneNodeInstance = {}
 
 ---@param fields? worldAcousticZoneNodeInstance
 ---@return worldAcousticZoneNodeInstance
-function worldAcousticZoneNodeInstance.new(fields) return end
+function worldAcousticZoneNodeInstance.new(fields) end

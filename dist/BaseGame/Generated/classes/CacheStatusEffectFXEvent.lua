@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CacheStatusEffectFXEvent: redEvent
----@field public vfxToCache gamedataStatusEffectFX_Record[]
----@field public sfxToCache gamedataStatusEffectFX_Record[]
+---@field vfxToCache gamedataStatusEffectFX_Record[]
+---@field sfxToCache gamedataStatusEffectFX_Record[]
 CacheStatusEffectFXEvent = {}
 
 ---@param fields? CacheStatusEffectFXEvent
 ---@return CacheStatusEffectFXEvent
-function CacheStatusEffectFXEvent.new(fields) return end
+function CacheStatusEffectFXEvent.new(fields) end

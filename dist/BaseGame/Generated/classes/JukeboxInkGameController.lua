@@ -1,46 +1,40 @@
 ---@meta
 
 ---@class JukeboxInkGameController: DeviceInkGameControllerBase
----@field private ActionsPanel inkHorizontalPanelWidgetReference
----@field private PriceText inkTextWidgetReference
----@field private playButton PlayPauseActionWidgetController
----@field private nextButton NextPreviousActionWidgetController
----@field private previousButton NextPreviousActionWidgetController
+---@field ActionsPanel inkHorizontalPanelWidgetReference
+---@field PriceText inkTextWidgetReference
+---@field playButton PlayPauseActionWidgetController
+---@field nextButton NextPreviousActionWidgetController
+---@field previousButton NextPreviousActionWidgetController
 JukeboxInkGameController = {}
 
 ---@param fields? JukeboxInkGameController
 ---@return JukeboxInkGameController
-function JukeboxInkGameController.new(fields) return end
+function JukeboxInkGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function JukeboxInkGameController:OnActionWidgetSpawned(widget, userData) return end
+function JukeboxInkGameController:OnActionWidgetSpawned(widget, userData) end
 
----@protected
 ---@return nil
-function JukeboxInkGameController:Decline() return end
+function JukeboxInkGameController:Decline() end
 
----@protected
 ---@param controller DeviceActionWidgetControllerBase
 ---@return nil
-function JukeboxInkGameController:ExecuteDeviceActions(controller) return end
+function JukeboxInkGameController:ExecuteDeviceActions(controller) end
 
----@protected
 ---@return Jukebox
-function JukeboxInkGameController:GetOwner() return end
+function JukeboxInkGameController:GetOwner() end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function JukeboxInkGameController:Refresh(state) return end
+function JukeboxInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function JukeboxInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function JukeboxInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function JukeboxInkGameController:UpdateActionWidgets(widgetsData) return end
+function JukeboxInkGameController:UpdateActionWidgets(widgetsData) end

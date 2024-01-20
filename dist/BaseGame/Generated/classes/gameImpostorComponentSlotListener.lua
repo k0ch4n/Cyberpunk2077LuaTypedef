@@ -5,4 +5,4 @@ gameImpostorComponentSlotListener = {}
 
 ---@param fields? gameImpostorComponentSlotListener
 ---@return gameImpostorComponentSlotListener
-function gameImpostorComponentSlotListener.new(fields) return end
+function gameImpostorComponentSlotListener.new(fields) end

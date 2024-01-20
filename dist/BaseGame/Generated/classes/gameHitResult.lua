@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameHitResult
----@field public hitPositionEnter Vector4
----@field public hitPositionExit Vector4
----@field public enterDistanceFromOriginSq Float
+---@field hitPositionEnter Vector4
+---@field hitPositionExit Vector4
+---@field enterDistanceFromOriginSq Float
 gameHitResult = {}
 
 ---@param fields? gameHitResult
 ---@return gameHitResult
-function gameHitResult.new(fields) return end
+function gameHitResult.new(fields) end

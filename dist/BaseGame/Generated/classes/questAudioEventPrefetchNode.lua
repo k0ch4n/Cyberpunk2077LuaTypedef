@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questAudioEventPrefetchNode: questIAudioNodeType
----@field public prefetchEvents questAudioEventPrefetchStruct[]
+---@field prefetchEvents questAudioEventPrefetchStruct[]
 questAudioEventPrefetchNode = {}
 
 ---@param fields? questAudioEventPrefetchNode
 ---@return questAudioEventPrefetchNode
-function questAudioEventPrefetchNode.new(fields) return end
+function questAudioEventPrefetchNode.new(fields) end

@@ -5,4 +5,4 @@ EvaluateMappinsVisualStateEvent = {}
 
 ---@param fields? EvaluateMappinsVisualStateEvent
 ---@return EvaluateMappinsVisualStateEvent
-function EvaluateMappinsVisualStateEvent.new(fields) return end
+function EvaluateMappinsVisualStateEvent.new(fields) end

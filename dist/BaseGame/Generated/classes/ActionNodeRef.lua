@@ -4,7 +4,7 @@
 ActionNodeRef = {}
 
 ---@return String
-function ActionNodeRef:GetCurrentDisplayString() return end
+function ActionNodeRef:GetCurrentDisplayString() end
 
 ---@return gamedeviceActionProperty[]
-function ActionNodeRef:GetProperties() return end
+function ActionNodeRef:GetProperties() end

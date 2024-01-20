@@ -5,7 +5,7 @@ VehicleOpenTrunk = {}
 
 ---@param fields? VehicleOpenTrunk
 ---@return VehicleOpenTrunk
-function VehicleOpenTrunk.new(fields) return end
+function VehicleOpenTrunk.new(fields) end
 
 ---@return nil
-function VehicleOpenTrunk:SetProperties() return end
+function VehicleOpenTrunk:SetProperties() end

@@ -1,211 +1,183 @@
 ---@meta
 
 ---@class PerkDisplayTooltipController: AGenericTooltipControllerWithDebug
----@field private root inkWidgetReference
----@field private perkNameText inkTextWidgetReference
----@field private videoWrapper inkWidgetReference
----@field private videoWidget inkVideoWidgetReference
----@field private unlockStateText inkTextWidgetReference
----@field private perkTypeText inkTextWidgetReference
----@field private perkTypeWrapper inkWidgetReference
----@field private unlockInfoWrapper inkWidgetReference
----@field private unlockPointsText inkTextWidgetReference
----@field private unlockPointsDesc inkTextWidgetReference
----@field private unlockPerkWrapper inkWidgetReference
----@field private levelText inkTextWidgetReference
----@field private levelDescriptionText inkTextWidgetReference
----@field private nextLevelWrapper inkWidgetReference
----@field private nextLevelText inkTextWidgetReference
----@field private nextLevelDescriptionText inkTextWidgetReference
----@field private level1Wrapper inkWidgetReference
----@field private levelsDescriptions PerkTooltipDescriptionEntry[]
----@field private relatedWeaponTypeWrapper inkWidgetReference
----@field private relatedWeaponTypeIcon inkImageWidgetReference
----@field private relatedWeaponTypeText inkTextWidgetReference
----@field private traitLevelGrowthText inkTextWidgetReference
----@field private unlockTraitPointsText inkTextWidgetReference
----@field private unlockTraitWrapper inkWidgetReference
----@field private inputHints inkWidgetReference
----@field private buyHint inkWidgetReference
----@field private sellHint inkWidgetReference
----@field private relicCost inkWidgetReference
----@field private costText inkTextWidgetReference
----@field private costImage inkImageWidgetReference
----@field private perkLevelWrapper inkWidgetReference
----@field private perkLevelCurrent inkTextWidgetReference
----@field private perkLevelMax inkTextWidgetReference
----@field private cornerContainer inkWidgetReference
----@field private cyberwareDetailsInfo inkWidgetReference
----@field protected DEBUG_iconErrorWrapper inkWidgetReference
----@field protected DEBUG_iconErrorText inkTextWidgetReference
----@field private data BasePerksMenuTooltipData
----@field protected settings userSettingsUserSettings
----@field protected settingsListener PerkDisplayTooltipSettingsListener
----@field protected groupPath CName
----@field protected tooltipWrapper inkWidgetReference
----@field protected horizontalSizer inkWidgetReference
----@field protected bigFontEnabled Bool
+---@field root inkWidgetReference
+---@field perkNameText inkTextWidgetReference
+---@field videoWrapper inkWidgetReference
+---@field videoWidget inkVideoWidgetReference
+---@field unlockStateText inkTextWidgetReference
+---@field perkTypeText inkTextWidgetReference
+---@field perkTypeWrapper inkWidgetReference
+---@field unlockInfoWrapper inkWidgetReference
+---@field unlockPointsText inkTextWidgetReference
+---@field unlockPointsDesc inkTextWidgetReference
+---@field unlockPerkWrapper inkWidgetReference
+---@field levelText inkTextWidgetReference
+---@field levelDescriptionText inkTextWidgetReference
+---@field nextLevelWrapper inkWidgetReference
+---@field nextLevelText inkTextWidgetReference
+---@field nextLevelDescriptionText inkTextWidgetReference
+---@field level1Wrapper inkWidgetReference
+---@field levelsDescriptions PerkTooltipDescriptionEntry[]
+---@field relatedWeaponTypeWrapper inkWidgetReference
+---@field relatedWeaponTypeIcon inkImageWidgetReference
+---@field relatedWeaponTypeText inkTextWidgetReference
+---@field traitLevelGrowthText inkTextWidgetReference
+---@field unlockTraitPointsText inkTextWidgetReference
+---@field unlockTraitWrapper inkWidgetReference
+---@field inputHints inkWidgetReference
+---@field buyHint inkWidgetReference
+---@field sellHint inkWidgetReference
+---@field relicCost inkWidgetReference
+---@field costText inkTextWidgetReference
+---@field costImage inkImageWidgetReference
+---@field perkLevelWrapper inkWidgetReference
+---@field perkLevelCurrent inkTextWidgetReference
+---@field perkLevelMax inkTextWidgetReference
+---@field cornerContainer inkWidgetReference
+---@field cyberwareDetailsInfo inkWidgetReference
+---@field DEBUG_iconErrorWrapper inkWidgetReference
+---@field DEBUG_iconErrorText inkTextWidgetReference
+---@field data BasePerksMenuTooltipData
+---@field settings userSettingsUserSettings
+---@field settingsListener PerkDisplayTooltipSettingsListener
+---@field groupPath CName
+---@field tooltipWrapper inkWidgetReference
+---@field horizontalSizer inkWidgetReference
+---@field bigFontEnabled Bool
 PerkDisplayTooltipController = {}
 
 ---@param fields? PerkDisplayTooltipController
 ---@return PerkDisplayTooltipController
-function PerkDisplayTooltipController.new(fields) return end
+function PerkDisplayTooltipController.new(fields) end
 
----@private
 ---@param data BasePerkDisplayData
 ---@return nil
-function PerkDisplayTooltipController:CommonUpdateVideo(data) return end
+function PerkDisplayTooltipController:CommonUpdateVideo(data) end
 
----@protected
 ---@return nil
-function PerkDisplayTooltipController:DEBUG_UpdateDebugInfo() return end
+function PerkDisplayTooltipController:DEBUG_UpdateDebugInfo() end
 
----@private
 ---@param perkData BasePerkDisplayData
 ---@param levelDataRecord gamedataTweakDBRecord
 ---@return String
-function PerkDisplayTooltipController:GetLevelDescription(perkData, levelDataRecord) return end
+function PerkDisplayTooltipController:GetLevelDescription(perkData, levelDataRecord) end
 
----@private
 ---@param levelDataRecord gamedataTweakDBRecord
 ---@return gameUILocalizationDataPackage
-function PerkDisplayTooltipController:GetUiLocalizationData(levelDataRecord) return end
+function PerkDisplayTooltipController:GetUiLocalizationData(levelDataRecord) end
 
----@private
 ---@param type gamedataNewPerkType
 ---@return Bool
-function PerkDisplayTooltipController:IsMeleewarePerk(type) return end
+function PerkDisplayTooltipController:IsMeleewarePerk(type) end
 
----@private
 ---@param perkType gamedataNewPerkType
 ---@return Bool
-function PerkDisplayTooltipController:IsTrulyEspionagePerk(perkType) return end
+function PerkDisplayTooltipController:IsTrulyEspionagePerk(perkType) end
 
----@private
 ---@param type gamedataNewPerkType
 ---@return CName
-function PerkDisplayTooltipController:MeleewarePerkToIcon(type) return end
+function PerkDisplayTooltipController:MeleewarePerkToIcon(type) end
 
----@private
 ---@param type gamedataNewPerkType
 ---@return String
-function PerkDisplayTooltipController:MeleewarePerkToText(type) return end
+function PerkDisplayTooltipController:MeleewarePerkToText(type) end
 
----@private
 ---@param type gamedataPerkWeaponGroupType
 ---@return CName
-function PerkDisplayTooltipController:NewPerkWeaponGroupTypeToIcon(type) return end
+function PerkDisplayTooltipController:NewPerkWeaponGroupTypeToIcon(type) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function PerkDisplayTooltipController:OnVarModified(groupPath, varName, varType, reason) return end
+function PerkDisplayTooltipController:OnVarModified(groupPath, varName, varType, reason) end
 
----@private
 ---@param type gamedataPerkWeaponGroupType
 ---@return TweakDBID
-function PerkDisplayTooltipController:PerkWeaponGroupTypeToIcon(type) return end
+function PerkDisplayTooltipController:PerkWeaponGroupTypeToIcon(type) end
 
----@private
 ---@param type gamedataPerkWeaponGroupType
 ---@return String
-function PerkDisplayTooltipController:PerkWeaponGroupTypeToText(type) return end
+function PerkDisplayTooltipController:PerkWeaponGroupTypeToText(type) end
 
 ---@return nil
-function PerkDisplayTooltipController:Refresh() return end
+function PerkDisplayTooltipController:Refresh() end
 
----@private
 ---@param data PerkTooltipData
 ---@return nil
-function PerkDisplayTooltipController:RefreshTooltip(data) return end
+function PerkDisplayTooltipController:RefreshTooltip(data) end
 
----@private
 ---@param data NewPerkTooltipData
 ---@return nil
-function PerkDisplayTooltipController:RefreshTooltip(data) return end
+function PerkDisplayTooltipController:RefreshTooltip(data) end
 
----@private
 ---@param data TraitTooltipData
 ---@return nil
-function PerkDisplayTooltipController:RefreshTooltip(data) return end
+function PerkDisplayTooltipController:RefreshTooltip(data) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function PerkDisplayTooltipController:SetData(tooltipData) return end
+function PerkDisplayTooltipController:SetData(tooltipData) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PerkDisplayTooltipController:SetTooltipSize(value) return end
+function PerkDisplayTooltipController:SetTooltipSize(value) end
 
----@private
 ---@param data BasePerkDisplayData
 ---@return nil
-function PerkDisplayTooltipController:UpdateName(data) return end
+function PerkDisplayTooltipController:UpdateName(data) end
 
----@private
 ---@param perkData BasePerkDisplayData
 ---@param perkPackageRecords BasePerkLevelData_Records
 ---@return nil
-function PerkDisplayTooltipController:UpdatePerkDescriptions(perkData, perkPackageRecords) return end
+function PerkDisplayTooltipController:UpdatePerkDescriptions(perkData, perkPackageRecords) end
 
----@private
 ---@param perkRecord? gamedataNewPerk_Record
 ---@return nil
-function PerkDisplayTooltipController:UpdateRelatedWeaponType(perkRecord) return end
+function PerkDisplayTooltipController:UpdateRelatedWeaponType(perkRecord) end
 
----@private
 ---@param playerDevelopmentData PlayerDevelopmentData
 ---@param data PerkTooltipData
 ---@return nil
-function PerkDisplayTooltipController:UpdateRequirements(playerDevelopmentData, data) return end
+function PerkDisplayTooltipController:UpdateRequirements(playerDevelopmentData, data) end
 
----@private
 ---@param playerDevelopmentData PlayerDevelopmentData
 ---@param data NewPerkTooltipData
 ---@return nil
-function PerkDisplayTooltipController:UpdateRequirements(playerDevelopmentData, data) return end
+function PerkDisplayTooltipController:UpdateRequirements(playerDevelopmentData, data) end
 
----@private
 ---@param playerDevelopmentData PlayerDevelopmentData
 ---@param data TraitTooltipData
 ---@return nil
-function PerkDisplayTooltipController:UpdateRequirements(playerDevelopmentData, data) return end
+function PerkDisplayTooltipController:UpdateRequirements(playerDevelopmentData, data) end
 
----@private
 ---@param basePerkData BasePerkDisplayData
 ---@return nil
-function PerkDisplayTooltipController:UpdateState(basePerkData) return end
+function PerkDisplayTooltipController:UpdateState(basePerkData) end
 
----@private
 ---@param data BasePerksMenuTooltipData
 ---@param perkData BasePerkDisplayData
 ---@return nil
-function PerkDisplayTooltipController:UpdateTooltipHints(data, perkData) return end
+function PerkDisplayTooltipController:UpdateTooltipHints(data, perkData) end
 
----@private
 ---@return nil
-function PerkDisplayTooltipController:UpdateTooltipSize() return end
+function PerkDisplayTooltipController:UpdateTooltipSize() end
 
----@private
 ---@param data TraitTooltipData
 ---@return nil
-function PerkDisplayTooltipController:UpdateTraitDescriptions(data) return end
+function PerkDisplayTooltipController:UpdateTraitDescriptions(data) end
 
----@private
 ---@param perkRecord? gamedataTweakDBRecord
 ---@return nil
-function PerkDisplayTooltipController:UpdateType(perkRecord) return end
+function PerkDisplayTooltipController:UpdateType(perkRecord) end
 
----@private
 ---@param data BasePerksMenuTooltipData
 ---@param perkData BasePerkDisplayData
 ---@return nil
-function PerkDisplayTooltipController:UpdateVideo(data, perkData) return end
+function PerkDisplayTooltipController:UpdateVideo(data, perkData) end
 
----@private
 ---@param data TraitTooltipData
 ---@return nil
-function PerkDisplayTooltipController:UpdateVideo(data) return end
+function PerkDisplayTooltipController:UpdateVideo(data) end

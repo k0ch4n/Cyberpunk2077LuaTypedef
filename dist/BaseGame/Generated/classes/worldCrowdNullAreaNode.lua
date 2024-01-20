@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldCrowdNullAreaNode: worldAreaShapeNode
----@field public IsForBlockade Bool
----@field public permanentlyEnabledByDefault Bool
+---@field IsForBlockade Bool
+---@field permanentlyEnabledByDefault Bool
 worldCrowdNullAreaNode = {}
 
 ---@param fields? worldCrowdNullAreaNode
 ---@return worldCrowdNullAreaNode
-function worldCrowdNullAreaNode.new(fields) return end
+function worldCrowdNullAreaNode.new(fields) end

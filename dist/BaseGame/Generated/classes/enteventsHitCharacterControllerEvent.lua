@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class enteventsHitCharacterControllerEvent: redEvent
----@field public entity entEntity
----@field public component entIComponent
+---@field entity entEntity
+---@field component entIComponent
 enteventsHitCharacterControllerEvent = {}
 
 ---@param fields? enteventsHitCharacterControllerEvent
 ---@return enteventsHitCharacterControllerEvent
-function enteventsHitCharacterControllerEvent.new(fields) return end
+function enteventsHitCharacterControllerEvent.new(fields) end

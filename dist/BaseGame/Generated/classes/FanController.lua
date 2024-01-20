@@ -5,7 +5,7 @@ FanController = {}
 
 ---@param fields? FanController
 ---@return FanController
-function FanController.new(fields) return end
+function FanController.new(fields) end
 
 ---@return FanControllerPS
-function FanController:GetPS() return end
+function FanController:GetPS() end

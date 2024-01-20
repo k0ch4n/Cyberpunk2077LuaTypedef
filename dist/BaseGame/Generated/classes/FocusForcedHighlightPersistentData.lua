@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class FocusForcedHighlightPersistentData: IScriptable
----@field private sourceID entEntityID
----@field private sourceName CName
----@field private highlightType EFocusForcedHighlightType
----@field private outlineType EFocusOutlineType
----@field private priority EPriority
----@field private inTransitionTime Float
----@field private outTransitionTime Float
----@field private isRevealed Bool
----@field private patternType gameVisionModePatternType
+---@field sourceID entEntityID
+---@field sourceName CName
+---@field highlightType EFocusForcedHighlightType
+---@field outlineType EFocusOutlineType
+---@field priority EPriority
+---@field inTransitionTime Float
+---@field outTransitionTime Float
+---@field isRevealed Bool
+---@field patternType gameVisionModePatternType
 FocusForcedHighlightPersistentData = {}
 
 ---@param fields? FocusForcedHighlightPersistentData
 ---@return FocusForcedHighlightPersistentData
-function FocusForcedHighlightPersistentData.new(fields) return end
+function FocusForcedHighlightPersistentData.new(fields) end
 
 ---@return FocusForcedHighlightData
-function FocusForcedHighlightPersistentData:GetData() return end
+function FocusForcedHighlightPersistentData:GetData() end
 
 ---@param data FocusForcedHighlightData
 ---@return nil
-function FocusForcedHighlightPersistentData:Initialize(data) return end
+function FocusForcedHighlightPersistentData:Initialize(data) end

@@ -5,10 +5,9 @@ AimDecisions = {}
 
 ---@param fields? AimDecisions
 ---@return AimDecisions
-function AimDecisions.new(fields) return end
+function AimDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AimDecisions:ToThrow(stateContext, scriptInterface) return end
+function AimDecisions:ToThrow(stateContext, scriptInterface) end

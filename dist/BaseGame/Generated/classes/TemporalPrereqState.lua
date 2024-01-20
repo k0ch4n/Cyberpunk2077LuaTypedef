@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class TemporalPrereqState: gamePrereqState
----@field public delaySystem gameDelaySystem
----@field public callback TemporalPrereqDelayCallback
----@field public lapsedTime Float
----@field public delayID gameDelayID
+---@field delaySystem gameDelaySystem
+---@field callback TemporalPrereqDelayCallback
+---@field lapsedTime Float
+---@field delayID gameDelayID
 TemporalPrereqState = {}
 
 ---@param fields? TemporalPrereqState
 ---@return TemporalPrereqState
-function TemporalPrereqState.new(fields) return end
+function TemporalPrereqState.new(fields) end
 
 ---@return nil
-function TemporalPrereqState:CallbackRecall() return end
+function TemporalPrereqState:CallbackRecall() end
 
 ---@param delayTime Float
 ---@return nil
-function TemporalPrereqState:RegisterDealyCallback(delayTime) return end
+function TemporalPrereqState:RegisterDealyCallback(delayTime) end

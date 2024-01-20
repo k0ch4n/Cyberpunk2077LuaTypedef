@@ -5,10 +5,9 @@ PickUpBodyAfterTakedownDecisions = {}
 
 ---@param fields? PickUpBodyAfterTakedownDecisions
 ---@return PickUpBodyAfterTakedownDecisions
-function PickUpBodyAfterTakedownDecisions.new(fields) return end
+function PickUpBodyAfterTakedownDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PickUpBodyAfterTakedownDecisions:EnterCondition(stateContext, scriptInterface) return end
+function PickUpBodyAfterTakedownDecisions:EnterCondition(stateContext, scriptInterface) end

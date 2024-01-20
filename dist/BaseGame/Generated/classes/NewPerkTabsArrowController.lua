@@ -1,39 +1,33 @@
 ---@meta
 
 ---@class NewPerkTabsArrowController: inkWidgetLogicController
----@field private direction NewPerkTabsArrowDirection
----@field private hovered Bool
----@field private pressed Bool
+---@field direction NewPerkTabsArrowDirection
+---@field hovered Bool
+---@field pressed Bool
 NewPerkTabsArrowController = {}
 
 ---@param fields? NewPerkTabsArrowController
 ---@return NewPerkTabsArrowController
-function NewPerkTabsArrowController.new(fields) return end
+function NewPerkTabsArrowController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerkTabsArrowController:OnHoverOut(evt) return end
+function NewPerkTabsArrowController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerkTabsArrowController:OnHoverOver(evt) return end
+function NewPerkTabsArrowController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function NewPerkTabsArrowController:OnInitialize() return end
+function NewPerkTabsArrowController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerkTabsArrowController:OnPress(evt) return end
+function NewPerkTabsArrowController:OnPress(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerkTabsArrowController:OnRelease(evt) return end
+function NewPerkTabsArrowController:OnRelease(evt) end
 
----@private
 ---@return nil
-function NewPerkTabsArrowController:UpdateState() return end
+function NewPerkTabsArrowController:UpdateState() end

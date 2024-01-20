@@ -5,9 +5,9 @@ DisposeDecisions = {}
 
 ---@param fields? DisposeDecisions
 ---@return DisposeDecisions
-function DisposeDecisions.new(fields) return end
+function DisposeDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DisposeDecisions:ExitCondition(stateContext, scriptInterface) return end
+function DisposeDecisions:ExitCondition(stateContext, scriptInterface) end

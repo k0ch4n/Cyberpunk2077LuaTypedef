@@ -5,10 +5,9 @@ UnsecureFootingFallDecisions = {}
 
 ---@param fields? UnsecureFootingFallDecisions
 ---@return UnsecureFootingFallDecisions
-function UnsecureFootingFallDecisions.new(fields) return end
+function UnsecureFootingFallDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UnsecureFootingFallDecisions:EnterCondition(stateContext, scriptInterface) return end
+function UnsecureFootingFallDecisions:EnterCondition(stateContext, scriptInterface) end

@@ -5,4 +5,4 @@ gameuiEnableStickerEditorEvent = {}
 
 ---@param fields? gameuiEnableStickerEditorEvent
 ---@return gameuiEnableStickerEditorEvent
-function gameuiEnableStickerEditorEvent.new(fields) return end
+function gameuiEnableStickerEditorEvent.new(fields) end

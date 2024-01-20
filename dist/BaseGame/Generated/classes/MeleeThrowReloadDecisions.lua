@@ -5,16 +5,14 @@ MeleeThrowReloadDecisions = {}
 
 ---@param fields? MeleeThrowReloadDecisions
 ---@return MeleeThrowReloadDecisions
-function MeleeThrowReloadDecisions.new(fields) return end
+function MeleeThrowReloadDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeThrowReloadDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeThrowReloadDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeThrowReloadDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeThrowReloadDecisions:ExitCondition(stateContext, scriptInterface) end

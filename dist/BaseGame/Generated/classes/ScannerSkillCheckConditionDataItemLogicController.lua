@@ -1,41 +1,37 @@
 ---@meta
 
 ---@class ScannerSkillCheckConditionDataItemLogicController: inkWidgetLogicController
----@field private ConditionDataDescriptionName CName
----@field private ParentConditionTextPath inkWidgetPath
----@field private OwnConditionTextPath inkWidgetPath
----@field private ConditionDescriptionListPath inkWidgetPath
----@field private ConditionDescriptions inkWidget[]
----@field private ParentConditionText inkTextWidget
----@field private OwnConditionText inkTextWidget
----@field private ConditionDescriptionList inkCompoundWidget
+---@field ConditionDataDescriptionName CName
+---@field ParentConditionTextPath inkWidgetPath
+---@field OwnConditionTextPath inkWidgetPath
+---@field ConditionDescriptionListPath inkWidgetPath
+---@field ConditionDescriptions inkWidget[]
+---@field ParentConditionText inkTextWidget
+---@field OwnConditionText inkTextWidget
+---@field ConditionDescriptionList inkCompoundWidget
 ScannerSkillCheckConditionDataItemLogicController = {}
 
 ---@param fields? ScannerSkillCheckConditionDataItemLogicController
 ---@return ScannerSkillCheckConditionDataItemLogicController
-function ScannerSkillCheckConditionDataItemLogicController.new(fields) return end
+function ScannerSkillCheckConditionDataItemLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerSkillCheckConditionDataItemLogicController:OnInitialize() return end
+function ScannerSkillCheckConditionDataItemLogicController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ScannerSkillCheckConditionDataItemLogicController:OnUninitialize() return end
+function ScannerSkillCheckConditionDataItemLogicController:OnUninitialize() end
 
----@private
 ---@param ownOperator ELogicOperator
 ---@param parentOperator ELogicOperator
 ---@param passed Int32
 ---@param total Int32
 ---@return nil
-function ScannerSkillCheckConditionDataItemLogicController:ConstructTexts(ownOperator, parentOperator, passed, total) return end
+function ScannerSkillCheckConditionDataItemLogicController:ConstructTexts(ownOperator, parentOperator, passed, total) end
 
----@private
 ---@return inkWidget
-function ScannerSkillCheckConditionDataItemLogicController:CreateConditionDescriptionObject() return end
+function ScannerSkillCheckConditionDataItemLogicController:CreateConditionDescriptionObject() end
 
 ---@param conditionData ConditionData
 ---@param parentOperator ELogicOperator
 ---@return nil
-function ScannerSkillCheckConditionDataItemLogicController:Setup(conditionData, parentOperator) return end
+function ScannerSkillCheckConditionDataItemLogicController:Setup(conditionData, parentOperator) end

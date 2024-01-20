@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class WorkspotEntryData: IScriptable
----@field public workspotRef NodeRef
----@field public isEnabled Bool
----@field public isAvailable Bool
+---@field workspotRef NodeRef
+---@field isEnabled Bool
+---@field isAvailable Bool
 WorkspotEntryData = {}
 
 ---@param fields? WorkspotEntryData
 ---@return WorkspotEntryData
-function WorkspotEntryData.new(fields) return end
+function WorkspotEntryData.new(fields) end

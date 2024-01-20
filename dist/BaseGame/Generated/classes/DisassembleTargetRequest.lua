@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DisassembleTargetRequest: redEvent
----@field public requester gameObject
+---@field requester gameObject
 DisassembleTargetRequest = {}
 
 ---@param fields? DisassembleTargetRequest
 ---@return DisassembleTargetRequest
-function DisassembleTargetRequest.new(fields) return end
+function DisassembleTargetRequest.new(fields) end

@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class AIbehaviorSelectCoverTaskDefinition: AIbehaviorTaskDefinition
----@field public cover AIArgumentMapping
----@field public coverID AIArgumentMapping
----@field public multiCoverID AIArgumentMapping
----@field public combatTarget AIArgumentMapping
----@field public friendlyTarget AIArgumentMapping
----@field public combatZone AIArgumentMapping
----@field public sectorSelection CName
----@field public ignoreRestrictMovementArea AIArgumentMapping
----@field public selectionPreset AIArgumentMapping
----@field public onActivationSelectionPreset AIArgumentMapping
----@field public secondStagePreset AIArgumentMapping
----@field public coverChangeThreshold AIArgumentMapping
----@field public coverGatheringCenterObject AIArgumentMapping
----@field public coverDisablingDuration AIArgumentMapping
+---@field cover AIArgumentMapping
+---@field coverID AIArgumentMapping
+---@field multiCoverID AIArgumentMapping
+---@field combatTarget AIArgumentMapping
+---@field friendlyTarget AIArgumentMapping
+---@field combatZone AIArgumentMapping
+---@field sectorSelection CName
+---@field ignoreRestrictMovementArea AIArgumentMapping
+---@field selectionPreset AIArgumentMapping
+---@field onActivationSelectionPreset AIArgumentMapping
+---@field secondStagePreset AIArgumentMapping
+---@field coverChangeThreshold AIArgumentMapping
+---@field coverGatheringCenterObject AIArgumentMapping
+---@field coverDisablingDuration AIArgumentMapping
 AIbehaviorSelectCoverTaskDefinition = {}
 
 ---@param fields? AIbehaviorSelectCoverTaskDefinition
 ---@return AIbehaviorSelectCoverTaskDefinition
-function AIbehaviorSelectCoverTaskDefinition.new(fields) return end
+function AIbehaviorSelectCoverTaskDefinition.new(fields) end

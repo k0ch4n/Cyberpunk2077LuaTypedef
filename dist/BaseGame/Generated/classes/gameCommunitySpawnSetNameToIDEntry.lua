@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameCommunitySpawnSetNameToIDEntry
----@field public communityId gameCommunityID
----@field public nameReference CName
+---@field communityId gameCommunityID
+---@field nameReference CName
 gameCommunitySpawnSetNameToIDEntry = {}
 
 ---@param fields? gameCommunitySpawnSetNameToIDEntry
 ---@return gameCommunitySpawnSetNameToIDEntry
-function gameCommunitySpawnSetNameToIDEntry.new(fields) return end
+function gameCommunitySpawnSetNameToIDEntry.new(fields) end

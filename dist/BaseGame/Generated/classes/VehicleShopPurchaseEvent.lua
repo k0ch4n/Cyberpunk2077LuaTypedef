@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class VehicleShopPurchaseEvent: redEvent
----@field public offerRecord gamedataVehicleOffer_Record
+---@field offerRecord gamedataVehicleOffer_Record
 VehicleShopPurchaseEvent = {}
 
 ---@param fields? VehicleShopPurchaseEvent
 ---@return VehicleShopPurchaseEvent
-function VehicleShopPurchaseEvent.new(fields) return end
+function VehicleShopPurchaseEvent.new(fields) end

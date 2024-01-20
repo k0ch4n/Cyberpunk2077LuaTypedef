@@ -5,4 +5,4 @@ inkanimAdvertPauseEvent = {}
 
 ---@param fields? inkanimAdvertPauseEvent
 ---@return inkanimAdvertPauseEvent
-function inkanimAdvertPauseEvent.new(fields) return end
+function inkanimAdvertPauseEvent.new(fields) end

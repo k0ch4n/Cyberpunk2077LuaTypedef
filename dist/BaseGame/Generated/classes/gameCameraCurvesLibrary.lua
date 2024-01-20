@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCameraCurvesLibrary: entEntity
----@field public cameraCurves gameCameraCurveSet[]
+---@field cameraCurves gameCameraCurveSet[]
 gameCameraCurvesLibrary = {}
 
 ---@param fields? gameCameraCurvesLibrary
 ---@return gameCameraCurvesLibrary
-function gameCameraCurvesLibrary.new(fields) return end
+function gameCameraCurvesLibrary.new(fields) end

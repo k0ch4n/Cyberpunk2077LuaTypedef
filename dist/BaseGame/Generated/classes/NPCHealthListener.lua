@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class NPCHealthListener: gameScriptStatPoolsListener
----@field public npc NPCPuppet
+---@field npc NPCPuppet
 NPCHealthListener = {}
 
 ---@param fields? NPCHealthListener
 ---@return NPCHealthListener
-function NPCHealthListener.new(fields) return end
+function NPCHealthListener.new(fields) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function NPCHealthListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function NPCHealthListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end

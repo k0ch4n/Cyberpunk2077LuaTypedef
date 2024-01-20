@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AnimationElement
----@field public animation CName
----@field public animOptions inkanimPlaybackOptions
+---@field animation CName
+---@field animOptions inkanimPlaybackOptions
 AnimationElement = {}
 
 ---@param fields? AnimationElement
 ---@return AnimationElement
-function AnimationElement.new(fields) return end
+function AnimationElement.new(fields) end

@@ -1,40 +1,34 @@
 ---@meta
 
 ---@class GiveRewardEffector: gameEffector
----@field public reward TweakDBID
----@field public target entEntityID
+---@field reward TweakDBID
+---@field target entEntityID
 GiveRewardEffector = {}
 
 ---@param fields? GiveRewardEffector
 ---@return GiveRewardEffector
-function GiveRewardEffector.new(fields) return end
+function GiveRewardEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function GiveRewardEffector:ActionOff(owner) return end
+function GiveRewardEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function GiveRewardEffector:ActionOn(owner) return end
+function GiveRewardEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function GiveRewardEffector:Initialize(record, parentRecord) return end
+function GiveRewardEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function GiveRewardEffector:ProcessAction(owner) return end
+function GiveRewardEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function GiveRewardEffector:RepeatedAction(owner) return end
+function GiveRewardEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function GiveRewardEffector:Uninitialize() return end
+function GiveRewardEffector:Uninitialize() end

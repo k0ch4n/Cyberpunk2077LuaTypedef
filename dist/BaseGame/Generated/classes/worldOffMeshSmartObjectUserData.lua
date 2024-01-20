@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldOffMeshSmartObjectUserData: worldOffMeshUserData
----@field public nodeTransform WorldTransform
----@field public localSpaceTrajectoryStartPoint Vector3
----@field public localSpaceTrajectoryEndPoint Vector3
----@field public smartObjectDefinition gameSmartObjectDefinition
----@field public type worldOffMeshConnectionType
+---@field nodeTransform WorldTransform
+---@field localSpaceTrajectoryStartPoint Vector3
+---@field localSpaceTrajectoryEndPoint Vector3
+---@field smartObjectDefinition gameSmartObjectDefinition
+---@field type worldOffMeshConnectionType
 worldOffMeshSmartObjectUserData = {}
 
 ---@param fields? worldOffMeshSmartObjectUserData
 ---@return worldOffMeshSmartObjectUserData
-function worldOffMeshSmartObjectUserData.new(fields) return end
+function worldOffMeshSmartObjectUserData.new(fields) end

@@ -5,4 +5,4 @@ TimeDilationPSMPrereqState = {}
 
 ---@param fields? TimeDilationPSMPrereqState
 ---@return TimeDilationPSMPrereqState
-function TimeDilationPSMPrereqState.new(fields) return end
+function TimeDilationPSMPrereqState.new(fields) end

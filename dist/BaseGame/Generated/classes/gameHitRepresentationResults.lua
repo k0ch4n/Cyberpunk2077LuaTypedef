@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameHitRepresentationResults
----@field public sults gameHitRepresentationResult[]
+---@field sults gameHitRepresentationResult[]
 gameHitRepresentationResults = {}
 
 ---@param fields? gameHitRepresentationResults
 ---@return gameHitRepresentationResults
-function gameHitRepresentationResults.new(fields) return end
+function gameHitRepresentationResults.new(fields) end

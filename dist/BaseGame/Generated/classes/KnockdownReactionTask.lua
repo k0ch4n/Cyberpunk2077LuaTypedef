@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class KnockdownReactionTask: AIHitReactionTask
----@field public tweakDBPackage TweakDBID
+---@field tweakDBPackage TweakDBID
 KnockdownReactionTask = {}
 
 ---@param fields? KnockdownReactionTask
 ---@return KnockdownReactionTask
-function KnockdownReactionTask.new(fields) return end
+function KnockdownReactionTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function KnockdownReactionTask:Activate(context) return end
+function KnockdownReactionTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function KnockdownReactionTask:GetDesiredHitReactionDuration(context) return end
+function KnockdownReactionTask:GetDesiredHitReactionDuration(context) end
 
----@private
 ---@return animHitReactionType
-function KnockdownReactionTask:GetHitReactionType() return end
+function KnockdownReactionTask:GetHitReactionType() end

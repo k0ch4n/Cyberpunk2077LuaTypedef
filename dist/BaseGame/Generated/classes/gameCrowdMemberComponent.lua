@@ -5,51 +5,51 @@ gameCrowdMemberComponent = {}
 
 ---@param fields? gameCrowdMemberComponent
 ---@return gameCrowdMemberComponent
-function gameCrowdMemberComponent.new(fields) return end
+function gameCrowdMemberComponent.new(fields) end
 
 ---@param allowUsage Bool
 ---@return nil
-function gameCrowdMemberComponent:AllowWorkspotsUsage(allowUsage) return end
+function gameCrowdMemberComponent:AllowWorkspotsUsage(allowUsage) end
 
 ---@param stage gameFearStage
 ---@param playInitAniation? Bool
 ---@return Bool
-function gameCrowdMemberComponent:ChangeFearStage(stage, playInitAniation) return end
+function gameCrowdMemberComponent:ChangeFearStage(stage, playInitAniation) end
 
 ---@param name CName|string
 ---@return Bool
-function gameCrowdMemberComponent:ChangeMoveType(name) return end
+function gameCrowdMemberComponent:ChangeMoveType(name) end
 
 ---@param distance Float
 ---@return Bool
-function gameCrowdMemberComponent:CheckEmptyPath(distance) return end
+function gameCrowdMemberComponent:CheckEmptyPath(distance) end
 
 ---@return Bool
-function gameCrowdMemberComponent:CheckIsMoving() return end
+function gameCrowdMemberComponent:CheckIsMoving() end
 
 ---@param context gameJoinTrafficNPCContext
 ---@return Bool
-function gameCrowdMemberComponent:CheckTrafficPath(context) return end
+function gameCrowdMemberComponent:CheckTrafficPath(context) end
 
 ---@return Vector4
-function gameCrowdMemberComponent:GetMovementDirection() return end
+function gameCrowdMemberComponent:GetMovementDirection() end
 
 ---@return Bool
-function gameCrowdMemberComponent:IsBlockedInTraffic() return end
+function gameCrowdMemberComponent:IsBlockedInTraffic() end
 
 ---@return Bool
-function gameCrowdMemberComponent:IsInCrowd() return end
+function gameCrowdMemberComponent:IsInCrowd() end
 
 ---@param stimType gamedataStimType
 ---@return nil
-function gameCrowdMemberComponent:OnCrowdReaction(stimType) return end
+function gameCrowdMemberComponent:OnCrowdReaction(stimType) end
 
 ---@param position Vector4
 ---@return nil
-function gameCrowdMemberComponent:SetThreatLastKnownPosition(position) return end
+function gameCrowdMemberComponent:SetThreatLastKnownPosition(position) end
 
 ---@return nil
-function gameCrowdMemberComponent:TryChangeMovementDirection() return end
+function gameCrowdMemberComponent:TryChangeMovementDirection() end
 
 ---@return nil
-function gameCrowdMemberComponent:TryStopTrafficMovement() return end
+function gameCrowdMemberComponent:TryStopTrafficMovement() end

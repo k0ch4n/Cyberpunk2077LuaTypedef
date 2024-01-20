@@ -5,4 +5,4 @@ worldRuntimeSystemEffects = {}
 
 ---@param fields? worldRuntimeSystemEffects
 ---@return worldRuntimeSystemEffects
-function worldRuntimeSystemEffects.new(fields) return end
+function worldRuntimeSystemEffects.new(fields) end

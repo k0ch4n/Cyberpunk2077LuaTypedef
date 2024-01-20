@@ -5,4 +5,4 @@ gameinteractionsvisDialogVisualizerFamily = {}
 
 ---@param fields? gameinteractionsvisDialogVisualizerFamily
 ---@return gameinteractionsvisDialogVisualizerFamily
-function gameinteractionsvisDialogVisualizerFamily.new(fields) return end
+function gameinteractionsvisDialogVisualizerFamily.new(fields) end

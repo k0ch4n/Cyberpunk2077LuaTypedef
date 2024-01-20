@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class SurveillanceCameraResaveData
----@field public shouldRotate Bool
----@field public maxRotationAngle Float
----@field public pitchAngle Float
----@field public rotationSpeed Float
----@field public canStreamVideo Bool
----@field public canDetectIntruders Bool
----@field public canBeControled Bool
----@field public factOnFeedReceived CName
----@field public questFactOnDetection CName
+---@field shouldRotate Bool
+---@field maxRotationAngle Float
+---@field pitchAngle Float
+---@field rotationSpeed Float
+---@field canStreamVideo Bool
+---@field canDetectIntruders Bool
+---@field canBeControled Bool
+---@field factOnFeedReceived CName
+---@field questFactOnDetection CName
 SurveillanceCameraResaveData = {}
 
 ---@param fields? SurveillanceCameraResaveData
 ---@return SurveillanceCameraResaveData
-function SurveillanceCameraResaveData.new(fields) return end
+function SurveillanceCameraResaveData.new(fields) end

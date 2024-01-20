@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class PerkPrereq: gameIScriptablePrereq
----@field public invert Bool
----@field public perk gamedataPerkType
+---@field invert Bool
+---@field perk gamedataPerkType
 PerkPrereq = {}
 
 ---@param fields? PerkPrereq
 ---@return PerkPrereq
-function PerkPrereq.new(fields) return end
+function PerkPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function PerkPrereq:Initialize(recordID) return end
+function PerkPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function PerkPrereq:IsFulfilled(context) return end
+function PerkPrereq:IsFulfilled(context) end

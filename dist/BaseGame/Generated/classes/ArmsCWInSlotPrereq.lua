@@ -1,57 +1,53 @@
 ---@meta
 
 ---@class ArmsCWInSlotPrereq: gameIScriptablePrereq
----@field public equipmentArea gamedataEquipmentArea
----@field public slotCheckType gamedataCheckType
----@field public itemType gamedataItemType
----@field public itemTag CName
----@field public invert Bool
+---@field equipmentArea gamedataEquipmentArea
+---@field slotCheckType gamedataCheckType
+---@field itemType gamedataItemType
+---@field itemTag CName
+---@field invert Bool
 ArmsCWInSlotPrereq = {}
 
 ---@param fields? ArmsCWInSlotPrereq
 ---@return ArmsCWInSlotPrereq
-function ArmsCWInSlotPrereq.new(fields) return end
+function ArmsCWInSlotPrereq.new(fields) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function ArmsCWInSlotPrereq:Evaluate(itemID) return end
+function ArmsCWInSlotPrereq:Evaluate(itemID) end
 
 ---@param owner gameObject
 ---@return Bool
-function ArmsCWInSlotPrereq:EvaluateAll(owner) return end
+function ArmsCWInSlotPrereq:EvaluateAll(owner) end
 
 ---@param itemID gameItemID
 ---@param tag CName|string
 ---@return Bool
-function ArmsCWInSlotPrereq:EvaluateTag(itemID, tag) return end
+function ArmsCWInSlotPrereq:EvaluateTag(itemID, tag) end
 
 ---@param itemType gamedataItemType
 ---@return Bool
-function ArmsCWInSlotPrereq:EvaluateType(itemType) return end
+function ArmsCWInSlotPrereq:EvaluateType(itemType) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ArmsCWInSlotPrereq:Initialize(recordID) return end
+function ArmsCWInSlotPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function ArmsCWInSlotPrereq:IsFulfilled(context) return end
+function ArmsCWInSlotPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ArmsCWInSlotPrereq:OnApplied(state, context) return end
+function ArmsCWInSlotPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ArmsCWInSlotPrereq:OnRegister(state, context) return end
+function ArmsCWInSlotPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ArmsCWInSlotPrereq:OnUnregister(state, context) return end
+function ArmsCWInSlotPrereq:OnUnregister(state, context) end

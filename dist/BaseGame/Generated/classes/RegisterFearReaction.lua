@@ -5,14 +5,12 @@ RegisterFearReaction = {}
 
 ---@param fields? RegisterFearReaction
 ---@return RegisterFearReaction
-function RegisterFearReaction.new(fields) return end
+function RegisterFearReaction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function RegisterFearReaction:Activate(context) return end
+function RegisterFearReaction:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function RegisterFearReaction:Deactivate(context) return end
+function RegisterFearReaction:Deactivate(context) end

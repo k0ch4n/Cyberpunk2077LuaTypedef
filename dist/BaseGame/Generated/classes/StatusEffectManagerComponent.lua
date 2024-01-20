@@ -1,32 +1,27 @@
 ---@meta
 
 ---@class StatusEffectManagerComponent: AIMandatoryComponents
----@field private weaponDropedInWounded Bool
+---@field weaponDropedInWounded Bool
 StatusEffectManagerComponent = {}
 
 ---@param fields? StatusEffectManagerComponent
 ---@return StatusEffectManagerComponent
-function StatusEffectManagerComponent.new(fields) return end
+function StatusEffectManagerComponent.new(fields) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function StatusEffectManagerComponent:OnStatusEffectApplied(evt) return end
+function StatusEffectManagerComponent:OnStatusEffectApplied(evt) end
 
----@private
 ---@return nil
-function StatusEffectManagerComponent:EnterInstantDismemberment() return end
+function StatusEffectManagerComponent:EnterInstantDismemberment() end
 
----@private
 ---@return gameIBlackboard
-function StatusEffectManagerComponent:GetBlackboard() return end
+function StatusEffectManagerComponent:GetBlackboard() end
 
----@private
 ---@return ScriptedPuppet
-function StatusEffectManagerComponent:GetPuppet() return end
+function StatusEffectManagerComponent:GetPuppet() end
 
----@private
 ---@param key CName|string
 ---@param value Float
 ---@return nil
-function StatusEffectManagerComponent:SetAnimWrapperWeight(key, value) return end
+function StatusEffectManagerComponent:SetAnimWrapperWeight(key, value) end

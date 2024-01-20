@@ -5,4 +5,4 @@ AIbehaviorLeaveCoverImmediatelyNodeDefinition = {}
 
 ---@param fields? AIbehaviorLeaveCoverImmediatelyNodeDefinition
 ---@return AIbehaviorLeaveCoverImmediatelyNodeDefinition
-function AIbehaviorLeaveCoverImmediatelyNodeDefinition.new(fields) return end
+function AIbehaviorLeaveCoverImmediatelyNodeDefinition.new(fields) end

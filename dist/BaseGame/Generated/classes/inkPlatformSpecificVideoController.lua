@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkPlatformSpecificVideoController: inkWidgetLogicController
----@field public isLooped Bool
----@field public video Bink
----@field public video_PS4 Bink
----@field public video_XB1 Bink
+---@field isLooped Bool
+---@field video Bink
+---@field video_PS4 Bink
+---@field video_XB1 Bink
 inkPlatformSpecificVideoController = {}
 
 ---@param fields? inkPlatformSpecificVideoController
 ---@return inkPlatformSpecificVideoController
-function inkPlatformSpecificVideoController.new(fields) return end
+function inkPlatformSpecificVideoController.new(fields) end

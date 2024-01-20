@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamePendingSubtitles
----@field public pendingSubtitles scnDialogLineData[]
+---@field pendingSubtitles scnDialogLineData[]
 gamePendingSubtitles = {}
 
 ---@param fields? gamePendingSubtitles
 ---@return gamePendingSubtitles
-function gamePendingSubtitles.new(fields) return end
+function gamePendingSubtitles.new(fields) end

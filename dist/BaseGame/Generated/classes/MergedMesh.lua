@@ -5,4 +5,4 @@ MergedMesh = {}
 
 ---@param fields? MergedMesh
 ---@return MergedMesh
-function MergedMesh.new(fields) return end
+function MergedMesh.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetQuestTargetWasSeen: redEvent
----@field public wasSeen Bool
+---@field wasSeen Bool
 SetQuestTargetWasSeen = {}
 
 ---@param fields? SetQuestTargetWasSeen
 ---@return SetQuestTargetWasSeen
-function SetQuestTargetWasSeen.new(fields) return end
+function SetQuestTargetWasSeen.new(fields) end

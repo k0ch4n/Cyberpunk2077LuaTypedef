@@ -1,33 +1,28 @@
 ---@meta
 
 ---@class AddHitFlagToAttackEffector: ModifyAttackEffector
----@field public hitFlag hitFlag
+---@field hitFlag hitFlag
 AddHitFlagToAttackEffector = {}
 
 ---@param fields? AddHitFlagToAttackEffector
 ---@return AddHitFlagToAttackEffector
-function AddHitFlagToAttackEffector.new(fields) return end
+function AddHitFlagToAttackEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AddHitFlagToAttackEffector:ActionOn(owner) return end
+function AddHitFlagToAttackEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function AddHitFlagToAttackEffector:Initialize(record, parentRecord) return end
+function AddHitFlagToAttackEffector:Initialize(record, parentRecord) end
 
----@private
 ---@return nil
-function AddHitFlagToAttackEffector:ProcessEffector() return end
+function AddHitFlagToAttackEffector:ProcessEffector() end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AddHitFlagToAttackEffector:RepeatedAction(owner) return end
+function AddHitFlagToAttackEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function AddHitFlagToAttackEffector:Uninitialize() return end
+function AddHitFlagToAttackEffector:Uninitialize() end

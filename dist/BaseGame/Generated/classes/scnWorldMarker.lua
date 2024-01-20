@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnWorldMarker
----@field public type scnWorldMarkerType
----@field public tag CName
----@field public nodeRef NodeRef
+---@field type scnWorldMarkerType
+---@field tag CName
+---@field nodeRef NodeRef
 scnWorldMarker = {}
 
 ---@param fields? scnWorldMarker
 ---@return scnWorldMarker
-function scnWorldMarker.new(fields) return end
+function scnWorldMarker.new(fields) end

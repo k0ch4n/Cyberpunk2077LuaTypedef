@@ -5,4 +5,4 @@ tempshitJournalNodeDefinition = {}
 
 ---@param fields? tempshitJournalNodeDefinition
 ---@return tempshitJournalNodeDefinition
-function tempshitJournalNodeDefinition.new(fields) return end
+function tempshitJournalNodeDefinition.new(fields) end

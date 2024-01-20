@@ -1,108 +1,88 @@
 ---@meta
 
 ---@class ConfessionBooth: BasicDistractionDevice
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
 ConfessionBooth = {}
 
 ---@param fields? ConfessionBooth
 ---@return ConfessionBooth
-function ConfessionBooth.new(fields) return end
+function ConfessionBooth.new(fields) end
 
----@protected
 ---@param evt Confess
 ---@return Bool
-function ConfessionBooth:OnConfess(evt) return end
+function ConfessionBooth:OnConfess(evt) end
 
----@protected
 ---@param evt ConfessionCompletedEvent
 ---@return Bool
-function ConfessionBooth:OnConfessionCompleted(evt) return end
+function ConfessionBooth:OnConfessionCompleted(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function ConfessionBooth:OnHitEvent(hit) return end
+function ConfessionBooth:OnHitEvent(hit) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ConfessionBooth:OnRequestComponents(ri) return end
+function ConfessionBooth:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function ConfessionBooth:OnStopShortGlitch(evt) return end
+function ConfessionBooth:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ConfessionBooth:OnTakeControl(ri) return end
+function ConfessionBooth:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function ConfessionBooth:CreateBlackboard() return end
+function ConfessionBooth:CreateBlackboard() end
 
 ---@return ConfessionalBlackboardDef
-function ConfessionBooth:GetBlackboardDef() return end
+function ConfessionBooth:GetBlackboardDef() end
 
----@private
 ---@return ConfessionBoothController
-function ConfessionBooth:GetController() return end
+function ConfessionBooth:GetController() end
 
 ---@return ConfessionBoothControllerPS
-function ConfessionBooth:GetDevicePS() return end
+function ConfessionBooth:GetDevicePS() end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function ConfessionBooth:ResavePersistentData(ps) return end
+function ConfessionBooth:ResavePersistentData(ps) end
 
----@protected
 ---@return nil
-function ConfessionBooth:ResolveGameplayState() return end
+function ConfessionBooth:ResolveGameplayState() end
 
----@private
 ---@return nil
-function ConfessionBooth:StartBlinking() return end
+function ConfessionBooth:StartBlinking() end
 
----@private
 ---@return nil
-function ConfessionBooth:StartConfessing() return end
+function ConfessionBooth:StartConfessing() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function ConfessionBooth:StartGlitching(glitchState, intensity) return end
+function ConfessionBooth:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function ConfessionBooth:StartShortGlitch() return end
+function ConfessionBooth:StartShortGlitch() end
 
----@private
 ---@return nil
-function ConfessionBooth:StopBlinking() return end
+function ConfessionBooth:StopBlinking() end
 
----@private
 ---@return nil
-function ConfessionBooth:StopConfessing() return end
+function ConfessionBooth:StopConfessing() end
 
----@protected
 ---@return nil
-function ConfessionBooth:StopGlitching() return end
+function ConfessionBooth:StopGlitching() end
 
----@protected
 ---@return nil
-function ConfessionBooth:TurnOffDevice() return end
+function ConfessionBooth:TurnOffDevice() end
 
----@protected
 ---@return nil
-function ConfessionBooth:TurnOffLights() return end
+function ConfessionBooth:TurnOffLights() end
 
----@protected
 ---@return nil
-function ConfessionBooth:TurnOnDevice() return end
+function ConfessionBooth:TurnOnDevice() end
 
----@protected
 ---@return nil
-function ConfessionBooth:TurnOnLights() return end
+function ConfessionBooth:TurnOnLights() end

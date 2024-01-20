@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioPerfectChargePerkSounds
----@field public perfectChargeChargingSound CName
----@field public perfectChargeChargedSound CName
----@field public perfectChargeShootingSound CName
+---@field perfectChargeChargingSound CName
+---@field perfectChargeChargedSound CName
+---@field perfectChargeShootingSound CName
 audioPerfectChargePerkSounds = {}
 
 ---@param fields? audioPerfectChargePerkSounds
 ---@return audioPerfectChargePerkSounds
-function audioPerfectChargePerkSounds.new(fields) return end
+function audioPerfectChargePerkSounds.new(fields) end

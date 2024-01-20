@@ -5,7 +5,7 @@ BunkerComputerController = {}
 
 ---@param fields? BunkerComputerController
 ---@return BunkerComputerController
-function BunkerComputerController.new(fields) return end
+function BunkerComputerController.new(fields) end
 
 ---@return BunkerComputerControllerPS
-function BunkerComputerController:GetPS() return end
+function BunkerComputerController:GetPS() end

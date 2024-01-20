@@ -5,142 +5,142 @@ AISquadScriptInterface = {}
 
 ---@param fields? AISquadScriptInterface
 ---@return AISquadScriptInterface
-function AISquadScriptInterface.new(fields) return end
+function AISquadScriptInterface.new(fields) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:AckOrder(sqAction, et) return end
+function AISquadScriptInterface:AckOrder(sqAction, et) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:Commit(sqAction, et) return end
+function AISquadScriptInterface:Commit(sqAction, et) end
 
 ---@param et entEntity
 ---@return Uint32[]
-function AISquadScriptInterface:GetAllAcknowledgedOrders(et) return end
+function AISquadScriptInterface:GetAllAcknowledgedOrders(et) end
 
 ---@param et entEntity
 ---@return Uint32[]
-function AISquadScriptInterface:GetAllCommitedOrders(et) return end
+function AISquadScriptInterface:GetAllCommitedOrders(et) end
 
 ---@param et entEntity
 ---@return Uint32[]
-function AISquadScriptInterface:GetAllOrders(et) return end
+function AISquadScriptInterface:GetAllOrders(et) end
 
 ---@return Uint32
-function AISquadScriptInterface:GetMembersCount() return end
+function AISquadScriptInterface:GetMembersCount() end
 
 ---@return CName
-function AISquadScriptInterface:GetName() return end
+function AISquadScriptInterface:GetName() end
 
 ---@param orderId Uint32
 ---@return AIsquadsOrder
-function AISquadScriptInterface:GetOrderById(orderId) return end
+function AISquadScriptInterface:GetOrderById(orderId) end
 
 ---@return AISquadType
-function AISquadScriptInterface:GetSquadType() return end
+function AISquadScriptInterface:GetSquadType() end
 
 ---@return CName
-function AISquadScriptInterface:GetTemplate() return end
+function AISquadScriptInterface:GetTemplate() end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Uint32
-function AISquadScriptInterface:GiveOrder(sqAction, et) return end
+function AISquadScriptInterface:GiveOrder(sqAction, et) end
 
 ---@param callThisFunction CName|string
 ---@return nil
-function AISquadScriptInterface:GuardedCall(callThisFunction) return end
+function AISquadScriptInterface:GuardedCall(callThisFunction) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:HasAcknowledgedOrderBySquadAction(sqAction, et) return end
+function AISquadScriptInterface:HasAcknowledgedOrderBySquadAction(sqAction, et) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:HasOrderBySquadAction(sqAction, et) return end
+function AISquadScriptInterface:HasOrderBySquadAction(sqAction, et) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:IsSquadActionOpen(sqAction, et) return end
+function AISquadScriptInterface:IsSquadActionOpen(sqAction, et) end
 
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:Join(et) return end
+function AISquadScriptInterface:Join(et) end
 
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:Leave(et) return end
+function AISquadScriptInterface:Leave(et) end
 
 ---@return entEntity[]
-function AISquadScriptInterface:ListMembers() return end
+function AISquadScriptInterface:ListMembers() end
 
 ---@return entEntity[]
-function AISquadScriptInterface:ListMembersWeak() return end
+function AISquadScriptInterface:ListMembersWeak() end
 
 ---@param sqAction CName|string
 ---@return entEntity[]
-function AISquadScriptInterface:ListMembersWithSquadActionWeak(sqAction) return end
+function AISquadScriptInterface:ListMembersWithSquadActionWeak(sqAction) end
 
 ---@return Bool
-function AISquadScriptInterface:LockAccess() return end
+function AISquadScriptInterface:LockAccess() end
 
 ---@param name CName|string
 ---@param et entEntity
 ---@param timeout Float
 ---@return Bool
-function AISquadScriptInterface:OpenSquadAction(name, et, timeout) return end
+function AISquadScriptInterface:OpenSquadAction(name, et, timeout) end
 
 ---@param name CName|string
 ---@param et entEntity
 ---@param timeout Float
 ---@return Bool
-function AISquadScriptInterface:RefreshSquadAction(name, et, timeout) return end
+function AISquadScriptInterface:RefreshSquadAction(name, et, timeout) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:ReportDone(sqAction, et) return end
+function AISquadScriptInterface:ReportDone(sqAction, et) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:ReportFail(sqAction, et) return end
+function AISquadScriptInterface:ReportFail(sqAction, et) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:RequestOrder(sqAction, et) return end
+function AISquadScriptInterface:RequestOrder(sqAction, et) end
 
 ---@param sqAction CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:RevokeOrder(sqAction, et) return end
+function AISquadScriptInterface:RevokeOrder(sqAction, et) end
 
 ---@param name CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:RevokeSquadAction(name, et) return end
+function AISquadScriptInterface:RevokeSquadAction(name, et) end
 
 ---@param name CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:TriggerActivation(name, et) return end
+function AISquadScriptInterface:TriggerActivation(name, et) end
 
 ---@param name CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:TriggerDeactivation(name, et) return end
+function AISquadScriptInterface:TriggerDeactivation(name, et) end
 
 ---@param name CName|string
 ---@param et entEntity
 ---@return Bool
-function AISquadScriptInterface:TriggerEvaluation(name, et) return end
+function AISquadScriptInterface:TriggerEvaluation(name, et) end
 
 ---@return Bool
-function AISquadScriptInterface:UnlockAccess() return end
+function AISquadScriptInterface:UnlockAccess() end

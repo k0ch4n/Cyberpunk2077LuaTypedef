@@ -5,4 +5,4 @@ CRenderStateManagerData = {}
 
 ---@param fields? CRenderStateManagerData
 ---@return CRenderStateManagerData
-function CRenderStateManagerData.new(fields) return end
+function CRenderStateManagerData.new(fields) end

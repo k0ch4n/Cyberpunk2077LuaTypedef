@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class TestStep: IScriptable
----@field public stepName CName
----@field public scriptId Uint16
----@field public reproStep String
----@field public args Variant[]
----@field public stepTimeout Float
----@field public stopTestOnFailure Bool
+---@field stepName CName
+---@field scriptId Uint16
+---@field reproStep String
+---@field args Variant[]
+---@field stepTimeout Float
+---@field stopTestOnFailure Bool
 TestStep = {}
 
 ---@param fields? TestStep
 ---@return TestStep
-function TestStep.new(fields) return end
+function TestStep.new(fields) end
 
 ---@return nil
-function TestStep:Param() return end
+function TestStep:Param() end
 
 ---@return nil
-function TestStep:SetStepLogic() return end
+function TestStep:SetStepLogic() end

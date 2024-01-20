@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkSize
----@field public width Float
----@field public height Float
+---@field width Float
+---@field height Float
 inkSize = {}
 
 ---@param fields? inkSize
 ---@return inkSize
-function inkSize.new(fields) return end
+function inkSize.new(fields) end

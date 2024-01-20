@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldTrafficLaneUID
----@field public nodeRefHash Uint64
----@field public laneNumber Uint16
----@field public seqNumber Uint16
----@field public isReversed Bool
+---@field nodeRefHash Uint64
+---@field laneNumber Uint16
+---@field seqNumber Uint16
+---@field isReversed Bool
 worldTrafficLaneUID = {}
 
 ---@param fields? worldTrafficLaneUID
 ---@return worldTrafficLaneUID
-function worldTrafficLaneUID.new(fields) return end
+function worldTrafficLaneUID.new(fields) end

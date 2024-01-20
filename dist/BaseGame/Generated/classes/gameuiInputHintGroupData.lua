@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiInputHintGroupData
----@field public iconReference TweakDBID
----@field public localizedTitle String
----@field public localizedDescription String
----@field public sortingPriority Int32
+---@field iconReference TweakDBID
+---@field localizedTitle String
+---@field localizedDescription String
+---@field sortingPriority Int32
 gameuiInputHintGroupData = {}
 
 ---@param fields? gameuiInputHintGroupData
 ---@return gameuiInputHintGroupData
-function gameuiInputHintGroupData.new(fields) return end
+function gameuiInputHintGroupData.new(fields) end

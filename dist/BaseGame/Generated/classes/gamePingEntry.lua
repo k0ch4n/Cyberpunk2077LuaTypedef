@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gamePingEntry
----@field public owner gameObject
----@field public worldPosition Vector4
----@field public time netTime
----@field public pingType gamedataPingType
----@field public hitObject entEntity
+---@field owner gameObject
+---@field worldPosition Vector4
+---@field time netTime
+---@field pingType gamedataPingType
+---@field hitObject entEntity
 gamePingEntry = {}
 
 ---@param fields? gamePingEntry
 ---@return gamePingEntry
-function gamePingEntry.new(fields) return end
+function gamePingEntry.new(fields) end

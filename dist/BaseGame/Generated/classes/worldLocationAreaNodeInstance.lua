@@ -5,4 +5,4 @@ worldLocationAreaNodeInstance = {}
 
 ---@param fields? worldLocationAreaNodeInstance
 ---@return worldLocationAreaNodeInstance
-function worldLocationAreaNodeInstance.new(fields) return end
+function worldLocationAreaNodeInstance.new(fields) end

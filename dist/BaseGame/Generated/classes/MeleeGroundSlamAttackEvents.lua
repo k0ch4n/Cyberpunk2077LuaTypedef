@@ -1,41 +1,39 @@
 ---@meta
 
 ---@class MeleeGroundSlamAttackEvents: MeleeAttackGenericEvents
----@field public knockdownImmunityModifier gameStatModifierData_Deprecated
----@field public stunImmunityModifier gameStatModifierData_Deprecated
+---@field knockdownImmunityModifier gameStatModifierData_Deprecated
+---@field stunImmunityModifier gameStatModifierData_Deprecated
 MeleeGroundSlamAttackEvents = {}
 
 ---@param fields? MeleeGroundSlamAttackEvents
 ---@return MeleeGroundSlamAttackEvents
-function MeleeGroundSlamAttackEvents.new(fields) return end
+function MeleeGroundSlamAttackEvents.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeGroundSlamAttackEvents:AddStatModifiers(scriptInterface) return end
-
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeGroundSlamAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeGroundSlamAttackEvents:AddStatModifiers(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeGroundSlamAttackEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeGroundSlamAttackEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeGroundSlamAttackEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeGroundSlamAttackEvents:OnExit(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeGroundSlamAttackEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeGroundSlamAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeGroundSlamAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeGroundSlamAttackEvents:RemoveStatModifiers(scriptInterface) return end
+function MeleeGroundSlamAttackEvents:RemoveStatModifiers(scriptInterface) end

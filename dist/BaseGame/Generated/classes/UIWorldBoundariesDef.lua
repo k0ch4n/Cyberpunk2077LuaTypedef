@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class UIWorldBoundariesDef: gamebbScriptDefinition
----@field public IsPlayerCloseToBoundary gamebbScriptID_Bool
----@field public IsPlayerGoingDeeper gamebbScriptID_Bool
+---@field IsPlayerCloseToBoundary gamebbScriptID_Bool
+---@field IsPlayerGoingDeeper gamebbScriptID_Bool
 UIWorldBoundariesDef = {}
 
 ---@param fields? UIWorldBoundariesDef
 ---@return UIWorldBoundariesDef
-function UIWorldBoundariesDef.new(fields) return end
+function UIWorldBoundariesDef.new(fields) end
 
 ---@return Bool
-function UIWorldBoundariesDef:AutoCreateInSystem() return end
+function UIWorldBoundariesDef:AutoCreateInSystem() end

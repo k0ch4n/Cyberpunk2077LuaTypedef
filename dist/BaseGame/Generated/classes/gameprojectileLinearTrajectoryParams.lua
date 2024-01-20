@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameprojectileLinearTrajectoryParams: gameprojectileTrajectoryParams
----@field public startVel Float
----@field public acceleration Float
+---@field startVel Float
+---@field acceleration Float
 gameprojectileLinearTrajectoryParams = {}
 
 ---@param fields? gameprojectileLinearTrajectoryParams
 ---@return gameprojectileLinearTrajectoryParams
-function gameprojectileLinearTrajectoryParams.new(fields) return end
+function gameprojectileLinearTrajectoryParams.new(fields) end

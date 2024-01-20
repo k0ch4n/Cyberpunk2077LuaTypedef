@@ -5,10 +5,9 @@ InitialDecisions = {}
 
 ---@param fields? InitialDecisions
 ---@return InitialDecisions
-function InitialDecisions.new(fields) return end
+function InitialDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function InitialDecisions:ToCrouch(stateContext, scriptInterface) return end
+function InitialDecisions:ToCrouch(stateContext, scriptInterface) end

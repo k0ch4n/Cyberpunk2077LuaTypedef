@@ -5,4 +5,4 @@ UnlimitedUnlocked = {}
 
 ---@param fields? UnlimitedUnlocked
 ---@return UnlimitedUnlocked
-function UnlimitedUnlocked.new(fields) return end
+function UnlimitedUnlocked.new(fields) end

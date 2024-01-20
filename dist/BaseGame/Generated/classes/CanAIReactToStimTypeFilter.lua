@@ -5,9 +5,9 @@ CanAIReactToStimTypeFilter = {}
 
 ---@param fields? CanAIReactToStimTypeFilter
 ---@return CanAIReactToStimTypeFilter
-function CanAIReactToStimTypeFilter.new(fields) return end
+function CanAIReactToStimTypeFilter.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function CanAIReactToStimTypeFilter:Process(ctx, filterCtx) return end
+function CanAIReactToStimTypeFilter:Process(ctx, filterCtx) end

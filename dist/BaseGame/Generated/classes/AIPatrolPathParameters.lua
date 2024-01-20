@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class AIPatrolPathParameters: IScriptable
----@field public path NodeRef
----@field public movementType moveMovementType
----@field public continuationPolicy AIPatrolContinuationPolicy
----@field public startFromClosestPoint Bool
----@field public patrolWithWeapon Bool
----@field public isBackAndForth Bool
----@field public isInfinite Bool
----@field public numberOfLoops Uint32
----@field public sortPatrolPoints Bool
----@field public patrolAction TweakDBID
+---@field path NodeRef
+---@field movementType moveMovementType
+---@field continuationPolicy AIPatrolContinuationPolicy
+---@field startFromClosestPoint Bool
+---@field patrolWithWeapon Bool
+---@field isBackAndForth Bool
+---@field isInfinite Bool
+---@field numberOfLoops Uint32
+---@field sortPatrolPoints Bool
+---@field patrolAction TweakDBID
 AIPatrolPathParameters = {}
 
 ---@param fields? AIPatrolPathParameters
 ---@return AIPatrolPathParameters
-function AIPatrolPathParameters.new(fields) return end
+function AIPatrolPathParameters.new(fields) end

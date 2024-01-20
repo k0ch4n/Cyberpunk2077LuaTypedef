@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SecurityAreaTypeChangedNotification: redEvent
----@field public previousType ESecurityAreaType
----@field public currentType ESecurityAreaType
----@field public area SecurityAreaControllerPS
----@field public wasScheduled Bool
+---@field previousType ESecurityAreaType
+---@field currentType ESecurityAreaType
+---@field area SecurityAreaControllerPS
+---@field wasScheduled Bool
 SecurityAreaTypeChangedNotification = {}
 
 ---@param fields? SecurityAreaTypeChangedNotification
 ---@return SecurityAreaTypeChangedNotification
-function SecurityAreaTypeChangedNotification.new(fields) return end
+function SecurityAreaTypeChangedNotification.new(fields) end

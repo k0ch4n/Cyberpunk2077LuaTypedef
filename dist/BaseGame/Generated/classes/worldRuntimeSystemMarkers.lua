@@ -5,4 +5,4 @@ worldRuntimeSystemMarkers = {}
 
 ---@param fields? worldRuntimeSystemMarkers
 ---@return worldRuntimeSystemMarkers
-function worldRuntimeSystemMarkers.new(fields) return end
+function worldRuntimeSystemMarkers.new(fields) end

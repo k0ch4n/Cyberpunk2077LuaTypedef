@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class gameJournalPhoneMessage: gameJournalEntry
----@field public sender gameMessageSender
----@field public text LocalizationString
----@field public imageId TweakDBID
----@field public delay Float
----@field public attachment gameJournalPath
----@field public isQuestImportant Bool
+---@field sender gameMessageSender
+---@field text LocalizationString
+---@field imageId TweakDBID
+---@field delay Float
+---@field attachment gameJournalPath
+---@field isQuestImportant Bool
 gameJournalPhoneMessage = {}
 
 ---@param fields? gameJournalPhoneMessage
 ---@return gameJournalPhoneMessage
-function gameJournalPhoneMessage.new(fields) return end
+function gameJournalPhoneMessage.new(fields) end
 
 ---@return Uint32
-function gameJournalPhoneMessage:GetAttachmentPathHash() return end
+function gameJournalPhoneMessage:GetAttachmentPathHash() end
 
 ---@return TweakDBID
-function gameJournalPhoneMessage:GetImageID() return end
+function gameJournalPhoneMessage:GetImageID() end
 
 ---@return gameMessageSender
-function gameJournalPhoneMessage:GetSender() return end
+function gameJournalPhoneMessage:GetSender() end
 
 ---@return String
-function gameJournalPhoneMessage:GetText() return end
+function gameJournalPhoneMessage:GetText() end
 
 ---@return Bool
-function gameJournalPhoneMessage:IsQuestImportant() return end
+function gameJournalPhoneMessage:IsQuestImportant() end

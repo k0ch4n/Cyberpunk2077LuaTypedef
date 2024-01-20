@@ -1,543 +1,477 @@
 ---@meta
 
 ---@class EquipmentSystem: gameIEquipmentSystem
----@field private ownerData EquipmentSystemPlayerData[]
+---@field ownerData EquipmentSystemPlayerData[]
 EquipmentSystem = {}
 
 ---@param fields? EquipmentSystem
 ---@return EquipmentSystem
-function EquipmentSystem.new(fields) return end
+function EquipmentSystem.new(fields) end
 
 ---@param ownerGameObject gameObject
 ---@param suffix? String
 ---@return String
-function EquipmentSystem.ComposeSDORootPath(ownerGameObject, suffix) return end
+function EquipmentSystem.ComposeSDORootPath(ownerGameObject, suffix) end
 
 ---@param owner gameObject
 ---@return gameClothingSet
-function EquipmentSystem.GetActiveWardrobeSet(owner) return end
+function EquipmentSystem.GetActiveWardrobeSet(owner) end
 
 ---@param owner gameObject
 ---@return gameWardrobeClothingSetIndex
-function EquipmentSystem.GetActiveWardrobeSetID(owner) return end
+function EquipmentSystem.GetActiveWardrobeSetID(owner) end
 
 ---@return gamedataEquipmentArea[]
-function EquipmentSystem.GetClothingEquipmentAreas() return end
+function EquipmentSystem.GetClothingEquipmentAreas() end
 
 ---@param itemID gameItemID
 ---@return CName
-function EquipmentSystem.GetClothingItemAppearanceName(itemID) return end
+function EquipmentSystem.GetClothingItemAppearanceName(itemID) end
 
 ---@param owner gameObject
 ---@return EquipmentSystemPlayerData
-function EquipmentSystem.GetData(owner) return end
+function EquipmentSystem.GetData(owner) end
 
 ---@param item gameItemID
 ---@return gamedataEquipmentArea
-function EquipmentSystem.GetEquipAreaType(item) return end
+function EquipmentSystem.GetEquipAreaType(item) end
 
 ---@param item gameItemID
 ---@return gamedataEquipmentArea
-function EquipmentSystem.GetEquipAreaTypeForDpad(item) return end
+function EquipmentSystem.GetEquipAreaTypeForDpad(item) end
 
 ---@param owner gameObject
 ---@return gameItemID
-function EquipmentSystem.GetFirstAvailableWeapon(owner) return end
+function EquipmentSystem.GetFirstAvailableWeapon(owner) end
 
 ---@param owner gameObject
 ---@return EquipmentSystem
-function EquipmentSystem.GetInstance(owner) return end
+function EquipmentSystem.GetInstance(owner) end
 
 ---@param owner gameObject
 ---@param area gamedataEquipmentArea
 ---@return gameItemID[]
-function EquipmentSystem.GetItemsInArea(owner, area) return end
+function EquipmentSystem.GetItemsInArea(owner, area) end
 
 ---@param owner gameObject
 ---@param type ELastUsed
 ---@return gameItemID
-function EquipmentSystem.GetLastUsedItemByType(owner, type) return end
+function EquipmentSystem.GetLastUsedItemByType(owner, type) end
 
 ---@param item gameItemID
 ---@return TweakDBID
-function EquipmentSystem.GetPlacementSlot(item) return end
+function EquipmentSystem.GetPlacementSlot(item) end
 
 ---@param owner gameObject
 ---@param requestSlot EquipmentManipulationRequestSlot
 ---@return gameItemID
-function EquipmentSystem.GetSlotActiveItem(owner, requestSlot) return end
+function EquipmentSystem.GetSlotActiveItem(owner, requestSlot) end
 
 ---@param owner gameObject
 ---@param area gamedataEquipmentArea
 ---@return gameItemID
-function EquipmentSystem.GetSlotOverridenItem(owner, area) return end
+function EquipmentSystem.GetSlotOverridenItem(owner, area) end
 
 ---@param owner gameObject
 ---@param area gamedataEquipmentArea
 ---@return Bool
-function EquipmentSystem.HasItemInArea(owner, area) return end
+function EquipmentSystem.HasItemInArea(owner, area) end
 
 ---@param item gameItemObject
 ---@param tag CName|string
 ---@return Bool
-function EquipmentSystem.HasTag(item, tag) return end
+function EquipmentSystem.HasTag(item, tag) end
 
 ---@param item gameItemID
 ---@return Bool
-function EquipmentSystem.IsClothing(item) return end
+function EquipmentSystem.IsClothing(item) end
 
 ---@param owner gameObject
 ---@return Bool
-function EquipmentSystem.IsCyberdeckEquipped(owner) return end
+function EquipmentSystem.IsCyberdeckEquipped(owner) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function EquipmentSystem.IsItemCyberdeck(itemID) return end
+function EquipmentSystem.IsItemCyberdeck(itemID) end
 
 ---@param item gameItemID
 ---@param category gamedataItemCategory
 ---@return Bool
-function EquipmentSystem.IsItemOfCategory(item, category) return end
+function EquipmentSystem.IsItemOfCategory(item, category) end
 
 ---@param owner gameObject
 ---@param equipmentArea gamedataEquipmentArea
 ---@param slotIndex Int32
 ---@return nil
-function EquipmentSystem.RequestUnequipItem(owner, equipmentArea, slotIndex) return end
+function EquipmentSystem.RequestUnequipItem(owner, equipmentArea, slotIndex) end
 
 ---@param owner gameObject
 ---@return nil
-function EquipmentSystem.UnequipPrereqItems(owner) return end
+function EquipmentSystem.UnequipPrereqItems(owner) end
 
----@private
 ---@return nil
-function EquipmentSystem:BlockAndCompensateScaling() return end
+function EquipmentSystem:BlockAndCompensateScaling() end
 
----@private
 ---@return nil
-function EquipmentSystem:CheckReginaRewardsPresence() return end
+function EquipmentSystem:CheckReginaRewardsPresence() end
 
----@private
 ---@return nil
-function EquipmentSystem:CheckSaburoDogTagPresence() return end
+function EquipmentSystem:CheckSaburoDogTagPresence() end
 
----@private
 ---@return nil
-function EquipmentSystem:ConsumablesChargesRework() return end
+function EquipmentSystem:ConsumablesChargesRework() end
 
 ---@param slotIndex Int32
 ---@param area gamedataEquipmentArea
 ---@param itemID gameItemID
 ---@param ownerGameObject gameObject
 ---@return nil
-function EquipmentSystem:Debug_FillESSlotData(slotIndex, area, itemID, ownerGameObject) return end
+function EquipmentSystem:Debug_FillESSlotData(slotIndex, area, itemID, ownerGameObject) end
 
 ---@param slotIndex Int32
 ---@param areaStr String
 ---@param itemID gameItemID
 ---@param ownerGameObject gameObject
 ---@return nil
-function EquipmentSystem:Debug_FillESSlotData(slotIndex, areaStr, itemID, ownerGameObject) return end
+function EquipmentSystem:Debug_FillESSlotData(slotIndex, areaStr, itemID, ownerGameObject) end
 
 ---@param slotIndex Int32
 ---@param areaStr String
 ---@param ownerGameObject gameObject
 ---@return nil
-function EquipmentSystem:Debug_SetESSlotData(slotIndex, areaStr, ownerGameObject) return end
+function EquipmentSystem:Debug_SetESSlotData(slotIndex, areaStr, ownerGameObject) end
 
 ---@param equipArea gameSEquipArea
 ---@param ownerGameObject gameObject
 ---@return nil
-function EquipmentSystem:Debug_SetupESAreaButton(equipArea, ownerGameObject) return end
+function EquipmentSystem:Debug_SetupESAreaButton(equipArea, ownerGameObject) end
 
 ---@param slotIndex Int32
 ---@param areaStr String
 ---@param ownerGameObject gameObject
 ---@return nil
-function EquipmentSystem:Debug_SetupESSlotButton(slotIndex, areaStr, ownerGameObject) return end
+function EquipmentSystem:Debug_SetupESSlotButton(slotIndex, areaStr, ownerGameObject) end
 
----@private
 ---@param dataOwner gameObject
 ---@return nil
-function EquipmentSystem:Debug_SetupEquipmentSystemOverlay(dataOwner) return end
+function EquipmentSystem:Debug_SetupEquipmentSystemOverlay(dataOwner) end
 
 ---@param player PlayerPuppet
 ---@param tdbid TweakDBID|string
 ---@return nil
-function EquipmentSystem:EquipCyberwareByTDBID(player, tdbid) return end
+function EquipmentSystem:EquipCyberwareByTDBID(player, tdbid) end
 
----@private
 ---@param player PlayerPuppet
 ---@return nil
-function EquipmentSystem:EquipTutorialCyberware(player) return end
+function EquipmentSystem:EquipTutorialCyberware(player) end
 
 ---@param owner gameObject
 ---@param area gamedataEquipmentArea
 ---@return gameItemID
-function EquipmentSystem:GetActiveItem(owner, area) return end
+function EquipmentSystem:GetActiveItem(owner, area) end
 
 ---@param owner gameObject
 ---@param area gamedataEquipmentArea
 ---@return gameItemID
-function EquipmentSystem:GetActiveVisualItem(owner, area) return end
+function EquipmentSystem:GetActiveVisualItem(owner, area) end
 
 ---@param owner gameObject
 ---@param area gamedataEquipmentArea
 ---@return gameItemObject
-function EquipmentSystem:GetActiveWeaponObject(owner, area) return end
+function EquipmentSystem:GetActiveWeaponObject(owner, area) end
 
 ---@param owner gameObject
 ---@return gameSEquipSlot[]
-function EquipmentSystem:GetAllInstalledCyberwareAbilities(owner) return end
+function EquipmentSystem:GetAllInstalledCyberwareAbilities(owner) end
 
 ---@param owner gameObject
 ---@param item gameItemID
 ---@return gameSEquipArea
-function EquipmentSystem:GetEquipAreaFromItemID(owner, item) return end
+function EquipmentSystem:GetEquipAreaFromItemID(owner, item) end
 
----@private
 ---@param itemId gameItemID
 ---@param owner gameObject
 ---@param suffixRecord gamedataItemsFactoryAppearanceSuffixBase_Record
 ---@return String
-function EquipmentSystem:GetHairSuffix(itemId, owner, suffixRecord) return end
+function EquipmentSystem:GetHairSuffix(itemId, owner, suffixRecord) end
 
 ---@param owner gameObject
 ---@param itemID gameItemID
 ---@return gameEHotkey
-function EquipmentSystem:GetHotkeyTypeForItemID(owner, itemID) return end
+function EquipmentSystem:GetHotkeyTypeForItemID(owner, itemID) end
 
 ---@param owner gameObject
 ---@param itemID gameItemID
 ---@return gameEHotkey
-function EquipmentSystem:GetHotkeyTypeFromItemID(owner, itemID) return end
+function EquipmentSystem:GetHotkeyTypeFromItemID(owner, itemID) end
 
 ---@param owner gameObject
 ---@return InventoryDataManagerV2
-function EquipmentSystem:GetInventoryManager(owner) return end
+function EquipmentSystem:GetInventoryManager(owner) end
 
 ---@param owner gameObject
 ---@param hotkey gameEHotkey
 ---@return gameItemID
-function EquipmentSystem:GetItemIDFromHotkey(owner, hotkey) return end
+function EquipmentSystem:GetItemIDFromHotkey(owner, hotkey) end
 
 ---@param owner gameObject
 ---@param equipArea gamedataEquipmentArea
 ---@param slotIndex Int32
 ---@return gameItemID
-function EquipmentSystem:GetItemInEquipSlot(owner, equipArea, slotIndex) return end
+function EquipmentSystem:GetItemInEquipSlot(owner, equipArea, slotIndex) end
 
 ---@param owner gameObject
 ---@param item gameItemID
 ---@return Int32
-function EquipmentSystem:GetItemSlotIndex(owner, item) return end
+function EquipmentSystem:GetItemSlotIndex(owner, item) end
 
 ---@param owner gameObject
 ---@return gamedataEquipmentArea[]
-function EquipmentSystem:GetPaperDollSlots(owner) return end
+function EquipmentSystem:GetPaperDollSlots(owner) end
 
 ---@param owner gameObject
 ---@return EquipmentSystemPlayerData
-function EquipmentSystem:GetPlayerData(owner) return end
+function EquipmentSystem:GetPlayerData(owner) end
 
----@private
 ---@return nil
-function EquipmentSystem:GiveAndEquipAutoscalingFleshFists() return end
+function EquipmentSystem:GiveAndEquipAutoscalingFleshFists() end
 
----@private
 ---@return nil
-function EquipmentSystem:GiveFixerShirt() return end
+function EquipmentSystem:GiveFixerShirt() end
 
----@private
 ---@return nil
-function EquipmentSystem:GiveSaburoTanto() return end
+function EquipmentSystem:GiveSaburoTanto() end
 
----@private
 ---@return nil
-function EquipmentSystem:IconicsReworkCompensate() return end
+function EquipmentSystem:IconicsReworkCompensate() end
 
----@private
 ---@return nil
-function EquipmentSystem:IconicsUpgradeCountWithEffectiveTierMatch() return end
+function EquipmentSystem:IconicsUpgradeCountWithEffectiveTierMatch() end
 
----@private
 ---@return nil
-function EquipmentSystem:InitializeWardrobeDatabase() return end
+function EquipmentSystem:InitializeWardrobeDatabase() end
 
 ---@param owner gameObject
 ---@param itemData gameItemData
 ---@return Bool
-function EquipmentSystem:IsEquippable(owner, itemData) return end
+function EquipmentSystem:IsEquippable(owner, itemData) end
 
 ---@param owner gameObject
 ---@param item gameItemID
 ---@return Bool
-function EquipmentSystem:IsEquipped(owner, item) return end
+function EquipmentSystem:IsEquipped(owner, item) end
 
 ---@param owner gameObject
 ---@param item gameItemID
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Bool
-function EquipmentSystem:IsEquipped(owner, item, equipmentArea) return end
+function EquipmentSystem:IsEquipped(owner, item, equipmentArea) end
 
 ---@param owner gameObject
 ---@param itemID gameItemID
 ---@return Bool
-function EquipmentSystem:IsItemInHotkey(owner, itemID) return end
+function EquipmentSystem:IsItemInHotkey(owner, itemID) end
 
----@private
 ---@param request AssignHotkeyIfEmptySlot
 ---@return nil
-function EquipmentSystem:OnAssignHotkeyIfEmptySlot(request) return end
+function EquipmentSystem:OnAssignHotkeyIfEmptySlot(request) end
 
----@private
 ---@param request AssignToCyberwareWheelRequest
 ---@return nil
-function EquipmentSystem:OnAssignToCyberwareWheelRequest(request) return end
+function EquipmentSystem:OnAssignToCyberwareWheelRequest(request) end
 
----@private
 ---@param request CheckRemovedItemWithSlotActiveItem
 ---@return nil
-function EquipmentSystem:OnCheckRemovedItemWithSlotActiveItem(request) return end
+function EquipmentSystem:OnCheckRemovedItemWithSlotActiveItem(request) end
 
----@private
 ---@param request ClearAllWeaponSlotsRequest
 ---@return nil
-function EquipmentSystem:OnClearAllWeaponSlotsRequest(request) return end
+function EquipmentSystem:OnClearAllWeaponSlotsRequest(request) end
 
----@private
 ---@param request ClearEquipmentRequest
 ---@return nil
-function EquipmentSystem:OnClearEquipmentRequest(request) return end
+function EquipmentSystem:OnClearEquipmentRequest(request) end
 
----@private
 ---@param request DeleteEquipmentSetRequest
 ---@return nil
-function EquipmentSystem:OnDeleteEquipmentSetRequest(request) return end
+function EquipmentSystem:OnDeleteEquipmentSetRequest(request) end
 
----@private
 ---@param request DeleteWardrobeSetRequest
 ---@return nil
-function EquipmentSystem:OnDeleteWardrobeSetRequest(request) return end
+function EquipmentSystem:OnDeleteWardrobeSetRequest(request) end
 
----@private
 ---@param request gameDrawItemByContextRequest
 ---@return nil
-function EquipmentSystem:OnDrawItemByContextRequest(request) return end
+function EquipmentSystem:OnDrawItemByContextRequest(request) end
 
----@private
 ---@param request gameDrawItemRequest
 ---@return nil
-function EquipmentSystem:OnDrawItemRequest(request) return end
+function EquipmentSystem:OnDrawItemRequest(request) end
 
----@private
 ---@param request gameEquipRequest
 ---@return nil
-function EquipmentSystem:OnEquipRequest(request) return end
+function EquipmentSystem:OnEquipRequest(request) end
 
----@private
 ---@param request EquipVisualsRequest
 ---@return nil
-function EquipmentSystem:OnEquipVisualsRequest(request) return end
+function EquipmentSystem:OnEquipVisualsRequest(request) end
 
----@private
 ---@param request EquipWardrobeSetRequest
 ---@return nil
-function EquipmentSystem:OnEquipWardrobeSetRequest(request) return end
+function EquipmentSystem:OnEquipWardrobeSetRequest(request) end
 
----@private
 ---@param request EquipmentSystemWeaponManipulationRequest
 ---@return nil
-function EquipmentSystem:OnEquipmentSystemWeaponManipulationRequest(request) return end
+function EquipmentSystem:OnEquipmentSystemWeaponManipulationRequest(request) end
 
----@private
 ---@param request EquipmentUIBBRequest
 ---@return nil
-function EquipmentSystem:OnEquipmentUIBBRequest(request) return end
+function EquipmentSystem:OnEquipmentUIBBRequest(request) end
 
----@private
 ---@param request GameplayEquipProgramsRequest
 ---@return nil
-function EquipmentSystem:OnGameplayEquipProgramsRequest(request) return end
+function EquipmentSystem:OnGameplayEquipProgramsRequest(request) end
 
----@private
 ---@param request GameplayEquipRequest
 ---@return nil
-function EquipmentSystem:OnGameplayEquipRequest(request) return end
+function EquipmentSystem:OnGameplayEquipRequest(request) end
 
----@private
 ---@param request HotkeyAssignmentRequest
 ---@return nil
-function EquipmentSystem:OnHotkeyAssignmentRequest(request) return end
+function EquipmentSystem:OnHotkeyAssignmentRequest(request) end
 
----@private
 ---@param request HotkeyRefreshRequest
 ---@return nil
-function EquipmentSystem:OnHotkeyRefreshRequest(request) return end
+function EquipmentSystem:OnHotkeyRefreshRequest(request) end
 
----@private
 ---@param request InstallCyberwareRequest
 ---@return nil
-function EquipmentSystem:OnInstallCyberwareRequest(request) return end
+function EquipmentSystem:OnInstallCyberwareRequest(request) end
 
----@private
 ---@param request LoadEquipmentSetRequest
 ---@return nil
-function EquipmentSystem:OnLoadEquipmentSetRequest(request) return end
+function EquipmentSystem:OnLoadEquipmentSetRequest(request) end
 
----@private
 ---@param request PartInstallRequest
 ---@return nil
-function EquipmentSystem:OnPartInstallRequest(request) return end
+function EquipmentSystem:OnPartInstallRequest(request) end
 
----@private
 ---@param request PartUninstallRequest
 ---@return nil
-function EquipmentSystem:OnPartUninstallRequest(request) return end
+function EquipmentSystem:OnPartUninstallRequest(request) end
 
----@private
 ---@param request gamePlayerAttachRequest
 ---@return nil
-function EquipmentSystem:OnPlayerAttach(request) return end
+function EquipmentSystem:OnPlayerAttach(request) end
 
----@private
 ---@param request gamePlayerDetachRequest
 ---@return nil
-function EquipmentSystem:OnPlayerDetach(request) return end
+function EquipmentSystem:OnPlayerDetach(request) end
 
----@private
 ---@param request QuestDisableWardrobeSetRequest
 ---@return nil
-function EquipmentSystem:OnQuestDisableWardrobeSetRequest(request) return end
+function EquipmentSystem:OnQuestDisableWardrobeSetRequest(request) end
 
----@private
 ---@param request QuestEnableWardrobeSetRequest
 ---@return nil
-function EquipmentSystem:OnQuestEnableWardrobeSetRequest(request) return end
+function EquipmentSystem:OnQuestEnableWardrobeSetRequest(request) end
 
----@private
 ---@param request QuestHideSlotRequest
 ---@return nil
-function EquipmentSystem:OnQuestHideSlotRequest(request) return end
+function EquipmentSystem:OnQuestHideSlotRequest(request) end
 
----@private
 ---@param request QuestRestoreSlotRequest
 ---@return nil
-function EquipmentSystem:OnQuestRestoreSlotRequest(request) return end
+function EquipmentSystem:OnQuestRestoreSlotRequest(request) end
 
----@private
 ---@param request QuestRestoreWardrobeSetRequest
 ---@return nil
-function EquipmentSystem:OnQuestRestoreWardrobeSetRequest(request) return end
+function EquipmentSystem:OnQuestRestoreWardrobeSetRequest(request) end
 
----@private
 ---@param request ReplaceEquipmentRequest
 ---@return nil
-function EquipmentSystem:OnReplaceEquipmentRequest(request) return end
+function EquipmentSystem:OnReplaceEquipmentRequest(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function EquipmentSystem:OnRestored(saveVersion, gameVersion) return end
+function EquipmentSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request SaveEquipmentSetRequest
 ---@return nil
-function EquipmentSystem:OnSaveEquipmentSetRequest(request) return end
+function EquipmentSystem:OnSaveEquipmentSetRequest(request) end
 
----@private
 ---@param request SetActiveItemInEquipmentArea
 ---@return nil
-function EquipmentSystem:OnSetActiveItemInEquipmentArea(request) return end
+function EquipmentSystem:OnSetActiveItemInEquipmentArea(request) end
 
----@private
 ---@param request gameSynchronizeAttachmentSlotRequest
 ---@return nil
-function EquipmentSystem:OnSynchronizeAttachmentSlotRequest(request) return end
+function EquipmentSystem:OnSynchronizeAttachmentSlotRequest(request) end
 
----@private
 ---@param request gameUnequipByContextRequest
 ---@return nil
-function EquipmentSystem:OnUnequipByContextRequest(request) return end
+function EquipmentSystem:OnUnequipByContextRequest(request) end
 
----@private
 ---@param request gameUnequipByTDBIDRequest
 ---@return nil
-function EquipmentSystem:OnUnequipByTDBIDRequest(request) return end
+function EquipmentSystem:OnUnequipByTDBIDRequest(request) end
 
----@private
 ---@param request UnequipItemsRequest
 ---@return nil
-function EquipmentSystem:OnUnequipItemsRequest(request) return end
+function EquipmentSystem:OnUnequipItemsRequest(request) end
 
----@private
 ---@param request UnequipRequest
 ---@return nil
-function EquipmentSystem:OnUnequipRequest(request) return end
+function EquipmentSystem:OnUnequipRequest(request) end
 
----@private
 ---@param request UnequipVisualsRequest
 ---@return nil
-function EquipmentSystem:OnUnequipVisualsRequest(request) return end
+function EquipmentSystem:OnUnequipVisualsRequest(request) end
 
----@private
 ---@param request UnequipWardrobeSetRequest
 ---@return nil
-function EquipmentSystem:OnUnequipWardrobeSetRequest(request) return end
+function EquipmentSystem:OnUnequipWardrobeSetRequest(request) end
 
----@private
 ---@param request UninstallCyberwareRequest
 ---@return nil
-function EquipmentSystem:OnUninstallCyberwareRequest(request) return end
+function EquipmentSystem:OnUninstallCyberwareRequest(request) end
 
 ---@return nil
-function EquipmentSystem:PrintEquipment() return end
+function EquipmentSystem:PrintEquipment() end
 
----@private
 ---@return nil
-function EquipmentSystem:ProcessIconicsFactsForBlackMarketer() return end
+function EquipmentSystem:ProcessIconicsFactsForBlackMarketer() end
 
----@private
 ---@return nil
-function EquipmentSystem:ProcessNonIconicWeaponsRescale() return end
+function EquipmentSystem:ProcessNonIconicWeaponsRescale() end
 
----@private
 ---@return nil
-function EquipmentSystem:ProcessQ105AccessCardFacts() return end
+function EquipmentSystem:ProcessQ105AccessCardFacts() end
 
----@private
 ---@return nil
-function EquipmentSystem:RasetsuItemPlayerScaling() return end
+function EquipmentSystem:RasetsuItemPlayerScaling() end
 
----@private
 ---@return nil
-function EquipmentSystem:RefreshItemPlayerScaling() return end
+function EquipmentSystem:RefreshItemPlayerScaling() end
 
----@private
 ---@return nil
-function EquipmentSystem:RemoveDeprecatedReginaCWReward() return end
+function EquipmentSystem:RemoveDeprecatedReginaCWReward() end
 
----@private
 ---@return nil
-function EquipmentSystem:RemoveNPCMeleeware() return end
+function EquipmentSystem:RemoveNPCMeleeware() end
 
----@private
 ---@return nil
-function EquipmentSystem:ReplaceLeftHandVariantWeaponsWithRegular() return end
+function EquipmentSystem:ReplaceLeftHandVariantWeaponsWithRegular() end
 
----@private
 ---@return nil
-function EquipmentSystem:RestoreCybWeaponQualities() return end
+function EquipmentSystem:RestoreCybWeaponQualities() end
 
----@private
 ---@return nil
-function EquipmentSystem:RetrofixCyberwares() return end
+function EquipmentSystem:RetrofixCyberwares() end
 
----@private
 ---@return nil
-function EquipmentSystem:RetrofixHolsteredArms() return end
+function EquipmentSystem:RetrofixHolsteredArms() end
 
----@private
 ---@return nil
-function EquipmentSystem:RetrofixQuickhacks() return end
+function EquipmentSystem:RetrofixQuickhacks() end

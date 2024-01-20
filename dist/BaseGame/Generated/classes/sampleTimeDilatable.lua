@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class sampleTimeDilatable: gameTimeDilatable
----@field public listener sampleTimeListener
+---@field listener sampleTimeListener
 sampleTimeDilatable = {}
 
 ---@param fields? sampleTimeDilatable
 ---@return sampleTimeDilatable
-function sampleTimeDilatable.new(fields) return end
+function sampleTimeDilatable.new(fields) end
 
----@protected
 ---@return Bool
-function sampleTimeDilatable:OnGameAttached() return end
+function sampleTimeDilatable:OnGameAttached() end
 
----@protected
 ---@param choice gameinteractionsChoiceEvent
 ---@return Bool
-function sampleTimeDilatable:OnInteractionChoice(choice) return end
+function sampleTimeDilatable:OnInteractionChoice(choice) end
 
----@protected
 ---@return Bool
-function sampleTimeDilatable:OnTimeDilationFinished() return end
+function sampleTimeDilatable:OnTimeDilationFinished() end
 
 ---@param reason CName|string
 ---@return nil
-function sampleTimeDilatable:OnFinished(reason) return end
+function sampleTimeDilatable:OnFinished(reason) end

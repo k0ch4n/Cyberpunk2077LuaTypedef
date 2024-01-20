@@ -5,4 +5,4 @@ worldDestructibleProxyMeshNodeInstance = {}
 
 ---@param fields? worldDestructibleProxyMeshNodeInstance
 ---@return worldDestructibleProxyMeshNodeInstance
-function worldDestructibleProxyMeshNodeInstance.new(fields) return end
+function worldDestructibleProxyMeshNodeInstance.new(fields) end

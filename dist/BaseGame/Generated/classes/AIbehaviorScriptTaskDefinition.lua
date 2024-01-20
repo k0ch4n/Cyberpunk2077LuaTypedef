@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorScriptTaskDefinition: AIbehaviorTaskDefinition
----@field public script AIbehaviortaskScript
----@field public disableLazyInitialization Bool
+---@field script AIbehaviortaskScript
+---@field disableLazyInitialization Bool
 AIbehaviorScriptTaskDefinition = {}
 
 ---@param fields? AIbehaviorScriptTaskDefinition
 ---@return AIbehaviorScriptTaskDefinition
-function AIbehaviorScriptTaskDefinition.new(fields) return end
+function AIbehaviorScriptTaskDefinition.new(fields) end

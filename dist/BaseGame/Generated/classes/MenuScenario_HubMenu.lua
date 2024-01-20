@@ -1,80 +1,66 @@
 ---@meta
 
 ---@class MenuScenario_HubMenu: MenuScenario_BaseMenu
----@field public hubMenuInitData HubMenuInitData
----@field public currentState inkMenusState
----@field public combatRestriction Bool
----@field public hubMenuInstanceID Uint32
+---@field hubMenuInitData HubMenuInitData
+---@field currentState inkMenusState
+---@field combatRestriction Bool
+---@field hubMenuInstanceID Uint32
 MenuScenario_HubMenu = {}
 
 ---@param fields? MenuScenario_HubMenu
 ---@return MenuScenario_HubMenu
-function MenuScenario_HubMenu.new(fields) return end
+function MenuScenario_HubMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnCloseHubMenu() return end
+function MenuScenario_HubMenu:OnCloseHubMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnCloseHubMenuRequest() return end
+function MenuScenario_HubMenu:OnCloseHubMenuRequest() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_HubMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_HubMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnHotkeySwitchToCrafting() return end
+function MenuScenario_HubMenu:OnHotkeySwitchToCrafting() end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnHotkeySwitchToInventory() return end
+function MenuScenario_HubMenu:OnHotkeySwitchToInventory() end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnHotkeySwitchToJournal() return end
+function MenuScenario_HubMenu:OnHotkeySwitchToJournal() end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnHotkeySwitchToMap() return end
+function MenuScenario_HubMenu:OnHotkeySwitchToMap() end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnHotkeySwitchToPerks() return end
+function MenuScenario_HubMenu:OnHotkeySwitchToPerks() end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnNetworkBreachBegin() return end
+function MenuScenario_HubMenu:OnNetworkBreachBegin() end
 
----@protected
 ---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return Bool
-function MenuScenario_HubMenu:OnOpenMenu(menuName, userData) return end
+function MenuScenario_HubMenu:OnOpenMenu(menuName, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnRequestHubMenu() return end
+function MenuScenario_HubMenu:OnRequestHubMenu() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_HubMenu:OnSelectMenuItem(userData) return end
+function MenuScenario_HubMenu:OnSelectMenuItem(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_HubMenu:OnSwitchToTimeManager() return end
+function MenuScenario_HubMenu:OnSwitchToTimeManager() end
 
 ---@return CName
-function MenuScenario_HubMenu:GetMenuName() return end
+function MenuScenario_HubMenu:GetMenuName() end
 
----@protected
 ---@return nil
-function MenuScenario_HubMenu:GotoIdleState() return end
+function MenuScenario_HubMenu:GotoIdleState() end
 
 ---@param menuName CName|string
 ---@return nil
-function MenuScenario_HubMenu:ToggleMenu(menuName) return end
+function MenuScenario_HubMenu:ToggleMenu(menuName) end

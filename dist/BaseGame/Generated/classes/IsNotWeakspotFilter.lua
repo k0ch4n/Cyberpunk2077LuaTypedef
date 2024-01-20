@@ -5,9 +5,9 @@ IsNotWeakspotFilter = {}
 
 ---@param fields? IsNotWeakspotFilter
 ---@return IsNotWeakspotFilter
-function IsNotWeakspotFilter.new(fields) return end
+function IsNotWeakspotFilter.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IsNotWeakspotFilter:Process(ctx, filterCtx) return end
+function IsNotWeakspotFilter:Process(ctx, filterCtx) end

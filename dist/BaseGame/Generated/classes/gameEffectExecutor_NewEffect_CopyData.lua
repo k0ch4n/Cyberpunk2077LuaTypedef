@@ -5,4 +5,4 @@ gameEffectExecutor_NewEffect_CopyData = {}
 
 ---@param fields? gameEffectExecutor_NewEffect_CopyData
 ---@return gameEffectExecutor_NewEffect_CopyData
-function gameEffectExecutor_NewEffect_CopyData.new(fields) return end
+function gameEffectExecutor_NewEffect_CopyData.new(fields) end

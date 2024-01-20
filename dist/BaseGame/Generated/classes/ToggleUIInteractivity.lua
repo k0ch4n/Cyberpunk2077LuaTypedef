@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ToggleUIInteractivity: redEvent
----@field public isInteractive Bool
+---@field isInteractive Bool
 ToggleUIInteractivity = {}
 
 ---@param fields? ToggleUIInteractivity
 ---@return ToggleUIInteractivity
-function ToggleUIInteractivity.new(fields) return end
+function ToggleUIInteractivity.new(fields) end
 
 ---@return String
-function ToggleUIInteractivity:GetFriendlyDescription() return end
+function ToggleUIInteractivity:GetFriendlyDescription() end

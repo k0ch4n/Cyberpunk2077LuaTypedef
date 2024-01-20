@@ -8,4 +8,4 @@ AISubActionSetEquipWeaponsUtils = {}
 ---@param itemsToEquip NPCItemToEquip[]
 ---@param duration Float
 ---@return AIbehaviorUpdateOutcome
-function AISubActionSetEquipWeaponsUtils.Update(context, record, itemsToEquip, duration) return end
+function AISubActionSetEquipWeaponsUtils.Update(context, record, itemsToEquip, duration) end

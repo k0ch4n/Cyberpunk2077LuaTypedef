@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class ChargedItemsPrereqState: gamePrereqState
----@field public chargesState EChargesAmount
----@field public typeOfItem EChargesItem
----@field public listener BaseStatPoolPrereqListener
----@field public owner ScriptGameInstance
+---@field chargesState EChargesAmount
+---@field typeOfItem EChargesItem
+---@field listener BaseStatPoolPrereqListener
+---@field owner ScriptGameInstance
 ChargedItemsPrereqState = {}
 
 ---@param fields? ChargedItemsPrereqState
 ---@return ChargedItemsPrereqState
-function ChargedItemsPrereqState.new(fields) return end
+function ChargedItemsPrereqState.new(fields) end
 
 ---@return EChargesAmount
-function ChargedItemsPrereqState:GetChargesState() return end
+function ChargedItemsPrereqState:GetChargesState() end
 
 ---@param value EChargesAmount
 ---@return nil
-function ChargedItemsPrereqState:SetChargesState(value) return end
+function ChargedItemsPrereqState:SetChargesState(value) end
 
 ---@param value EChargesItem
 ---@return nil
-function ChargedItemsPrereqState:SetTypeOfItem(value) return end
+function ChargedItemsPrereqState:SetTypeOfItem(value) end
 
 ---@return EChargesItem
-function ChargedItemsPrereqState:getTypeOfItem() return end
+function ChargedItemsPrereqState:getTypeOfItem() end

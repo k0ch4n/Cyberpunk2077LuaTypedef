@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DoorStateOperationTriggerData: DeviceOperationTriggerData
----@field public state EDoorStatus
+---@field state EDoorStatus
 DoorStateOperationTriggerData = {}
 
 ---@param fields? DoorStateOperationTriggerData
 ---@return DoorStateOperationTriggerData
-function DoorStateOperationTriggerData.new(fields) return end
+function DoorStateOperationTriggerData.new(fields) end

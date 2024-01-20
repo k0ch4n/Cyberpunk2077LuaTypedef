@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameLadderComponent: entIComponent
----@field public heightOfBottomPart Float
----@field public exitStepTop Float
----@field public verticalStepTop Float
----@field public exitStepBottom Float
----@field public verticalStepBottom Float
----@field public exitStepJump Float
----@field public verticalStepJump Float
----@field public enterOffset Float
+---@field heightOfBottomPart Float
+---@field exitStepTop Float
+---@field verticalStepTop Float
+---@field exitStepBottom Float
+---@field verticalStepBottom Float
+---@field exitStepJump Float
+---@field verticalStepJump Float
+---@field enterOffset Float
 gameLadderComponent = {}
 
 ---@param fields? gameLadderComponent
 ---@return gameLadderComponent
-function gameLadderComponent.new(fields) return end
+function gameLadderComponent.new(fields) end

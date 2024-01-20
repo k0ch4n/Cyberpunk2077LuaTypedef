@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AICTreeNodeBrainDefinition: AICTreeNodeCompositeDefinition
----@field public children LibTreeINodeDefinition[]
----@field public useScoring Bool
+---@field children LibTreeINodeDefinition[]
+---@field useScoring Bool
 AICTreeNodeBrainDefinition = {}
 
 ---@param fields? AICTreeNodeBrainDefinition
 ---@return AICTreeNodeBrainDefinition
-function AICTreeNodeBrainDefinition.new(fields) return end
+function AICTreeNodeBrainDefinition.new(fields) end

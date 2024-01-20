@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class PSODescBlendModeDesc
----@field public numTargets Uint8
----@field public independent Bool
----@field public alphaToCoverage Bool
----@field public renderTarget PSODescRenderTarget[]
+---@field numTargets Uint8
+---@field independent Bool
+---@field alphaToCoverage Bool
+---@field renderTarget PSODescRenderTarget[]
 PSODescBlendModeDesc = {}
 
 ---@param fields? PSODescBlendModeDesc
 ---@return PSODescBlendModeDesc
-function PSODescBlendModeDesc.new(fields) return end
+function PSODescBlendModeDesc.new(fields) end

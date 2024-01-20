@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class sampleTimeListener: tickScriptTimeDilationListener
----@field public myOwner sampleTimeDilatable
+---@field myOwner sampleTimeDilatable
 sampleTimeListener = {}
 
 ---@param fields? sampleTimeListener
 ---@return sampleTimeListener
-function sampleTimeListener.new(fields) return end
+function sampleTimeListener.new(fields) end
 
----@protected
 ---@param reason CName|string
 ---@return Bool
-function sampleTimeListener:OnFinished(reason) return end
+function sampleTimeListener:OnFinished(reason) end
 
 ---@param owner sampleTimeDilatable
 ---@return nil
-function sampleTimeListener:SetOwner(owner) return end
+function sampleTimeListener:SetOwner(owner) end

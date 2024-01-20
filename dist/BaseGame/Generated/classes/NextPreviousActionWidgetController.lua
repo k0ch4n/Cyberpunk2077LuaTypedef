@@ -1,39 +1,38 @@
 ---@meta
 
 ---@class NextPreviousActionWidgetController: DeviceActionWidgetControllerBase
----@field protected defaultContainer inkWidgetReference
----@field protected declineContainer inkWidgetReference
----@field protected moneyStatusAnimName CName
----@field protected isProcessing Bool
+---@field defaultContainer inkWidgetReference
+---@field declineContainer inkWidgetReference
+---@field moneyStatusAnimName CName
+---@field isProcessing Bool
 NextPreviousActionWidgetController = {}
 
 ---@param fields? NextPreviousActionWidgetController
 ---@return NextPreviousActionWidgetController
-function NextPreviousActionWidgetController.new(fields) return end
+function NextPreviousActionWidgetController.new(fields) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function NextPreviousActionWidgetController:OnNoMoneyShowed(e) return end
+function NextPreviousActionWidgetController:OnNoMoneyShowed(e) end
 
 ---@return Bool
-function NextPreviousActionWidgetController:CanExecuteAction() return end
+function NextPreviousActionWidgetController:CanExecuteAction() end
 
 ---@return nil
-function NextPreviousActionWidgetController:Deactivate() return end
+function NextPreviousActionWidgetController:Deactivate() end
 
 ---@return nil
-function NextPreviousActionWidgetController:Decline() return end
+function NextPreviousActionWidgetController:Decline() end
 
 ---@param executor gameObject
 ---@param action gamedeviceAction
 ---@return nil
-function NextPreviousActionWidgetController:FinalizeActionExecution(executor, action) return end
+function NextPreviousActionWidgetController:FinalizeActionExecution(executor, action) end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function NextPreviousActionWidgetController:Initialize(gameController, widgetData) return end
+function NextPreviousActionWidgetController:Initialize(gameController, widgetData) end
 
 ---@return nil
-function NextPreviousActionWidgetController:Reset() return end
+function NextPreviousActionWidgetController:Reset() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AnimFeature_Grapple: animAnimFeature
----@field public inGrapple Bool
+---@field inGrapple Bool
 AnimFeature_Grapple = {}
 
 ---@param fields? AnimFeature_Grapple
 ---@return AnimFeature_Grapple
-function AnimFeature_Grapple.new(fields) return end
+function AnimFeature_Grapple.new(fields) end

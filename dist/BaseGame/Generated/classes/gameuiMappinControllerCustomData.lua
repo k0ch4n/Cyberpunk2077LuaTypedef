@@ -5,4 +5,4 @@ gameuiMappinControllerCustomData = {}
 
 ---@param fields? gameuiMappinControllerCustomData
 ---@return gameuiMappinControllerCustomData
-function gameuiMappinControllerCustomData.new(fields) return end
+function gameuiMappinControllerCustomData.new(fields) end

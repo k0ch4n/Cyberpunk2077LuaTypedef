@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalPhoneConversation: gameJournalContainerEntry
----@field public title LocalizationString
+---@field title LocalizationString
 gameJournalPhoneConversation = {}
 
 ---@param fields? gameJournalPhoneConversation
 ---@return gameJournalPhoneConversation
-function gameJournalPhoneConversation.new(fields) return end
+function gameJournalPhoneConversation.new(fields) end
 
 ---@return String
-function gameJournalPhoneConversation:GetTitle() return end
+function gameJournalPhoneConversation:GetTitle() end

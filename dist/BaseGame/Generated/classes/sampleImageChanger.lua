@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class sampleImageChanger: inkWidgetLogicController
----@field public imagePath CName
----@field public imageName_1 CName
----@field public imageName_2 CName
----@field private imageWidget inkImageWidget
+---@field imagePath CName
+---@field imageName_1 CName
+---@field imageName_2 CName
+---@field imageWidget inkImageWidget
 sampleImageChanger = {}
 
 ---@param fields? sampleImageChanger
 ---@return sampleImageChanger
-function sampleImageChanger.new(fields) return end
+function sampleImageChanger.new(fields) end
 
----@protected
 ---@return Bool
-function sampleImageChanger:OnInitialize() return end
+function sampleImageChanger:OnInitialize() end
 
----@private
 ---@param imageName CName|string
 ---@return nil
-function sampleImageChanger:ChangeImage(imageName) return end
+function sampleImageChanger:ChangeImage(imageName) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleImageChanger:OnButtonClick(e) return end
+function sampleImageChanger:OnButtonClick(e) end

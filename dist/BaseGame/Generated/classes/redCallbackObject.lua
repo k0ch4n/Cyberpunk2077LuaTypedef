@@ -5,4 +5,4 @@ redCallbackObject = {}
 
 ---@param fields? redCallbackObject
 ---@return redCallbackObject
-function redCallbackObject.new(fields) return end
+function redCallbackObject.new(fields) end

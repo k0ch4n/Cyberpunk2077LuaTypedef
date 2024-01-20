@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SCachedStat
----@field public stat gamedataStatType
----@field public value Float
+---@field stat gamedataStatType
+---@field value Float
 SCachedStat = {}
 
 ---@param fields? SCachedStat
 ---@return SCachedStat
-function SCachedStat.new(fields) return end
+function SCachedStat.new(fields) end

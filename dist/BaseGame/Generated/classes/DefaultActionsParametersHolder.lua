@@ -5,115 +5,115 @@ DefaultActionsParametersHolder = {}
 
 ---@param fields? DefaultActionsParametersHolder
 ---@return DefaultActionsParametersHolder
-function DefaultActionsParametersHolder.new(fields) return end
+function DefaultActionsParametersHolder.new(fields) end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetAuthorizeUserClearance() return end
+function DefaultActionsParametersHolder.GetAuthorizeUserClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetControlPanelCompatibleClearance() return end
+function DefaultActionsParametersHolder.GetControlPanelCompatibleClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetCrackDeviceProtectionClearance() return end
+function DefaultActionsParametersHolder.GetCrackDeviceProtectionClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetDefaultPuppetActionClearance() return end
+function DefaultActionsParametersHolder.GetDefaultPuppetActionClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetDisassembleClearance() return end
+function DefaultActionsParametersHolder.GetDisassembleClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetFixingClearance() return end
+function DefaultActionsParametersHolder.GetFixingClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetForceAirlockDecompressionClearance() return end
+function DefaultActionsParametersHolder.GetForceAirlockDecompressionClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetForceDecompressionClearance() return end
+function DefaultActionsParametersHolder.GetForceDecompressionClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetForceOpenClearance() return end
+function DefaultActionsParametersHolder.GetForceOpenClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetForceSafetyShuttersClearance() return end
+function DefaultActionsParametersHolder.GetForceSafetyShuttersClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetHackDecompressionClearance() return end
+function DefaultActionsParametersHolder.GetHackDecompressionClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetHackSafetyShuttersClearance() return end
+function DefaultActionsParametersHolder.GetHackSafetyShuttersClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetInteractiveClearance() return end
+function DefaultActionsParametersHolder.GetInteractiveClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetOpenSecretClearance() return end
+function DefaultActionsParametersHolder.GetOpenSecretClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetQuestClearance() return end
+function DefaultActionsParametersHolder.GetQuestClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetRewireSmashRoverLiftClearance() return end
+function DefaultActionsParametersHolder.GetRewireSmashRoverLiftClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetRewireToggleRoverLiftClearance() return end
+function DefaultActionsParametersHolder.GetRewireToggleRoverLiftClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetSetOnSetOffActions() return end
+function DefaultActionsParametersHolder.GetSetOnSetOffActions() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetSmashRoverLiftClearance() return end
+function DefaultActionsParametersHolder.GetSmashRoverLiftClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetSpiderbotClearance() return end
+function DefaultActionsParametersHolder.GetSpiderbotClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetStatusClearance() return end
+function DefaultActionsParametersHolder.GetStatusClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetSystemCompatibleClearance() return end
+function DefaultActionsParametersHolder.GetSystemCompatibleClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetTakeOverControl() return end
+function DefaultActionsParametersHolder.GetTakeOverControl() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetTerminalCompatibleClearance() return end
+function DefaultActionsParametersHolder.GetTerminalCompatibleClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleActivationClearance() return end
+function DefaultActionsParametersHolder.GetToggleActivationClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleAlarmClearance() return end
+function DefaultActionsParametersHolder.GetToggleAlarmClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleAuthorizationClearance() return end
+function DefaultActionsParametersHolder.GetToggleAuthorizationClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleCycleAirLockClearance() return end
+function DefaultActionsParametersHolder.GetToggleCycleAirLockClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleLockClearance() return end
+function DefaultActionsParametersHolder.GetToggleLockClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleOnClearance() return end
+function DefaultActionsParametersHolder.GetToggleOnClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleOpenBlindersClearance() return end
+function DefaultActionsParametersHolder.GetToggleOpenBlindersClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleOpenClearance() return end
+function DefaultActionsParametersHolder.GetToggleOpenClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetTogglePowerClearance() return end
+function DefaultActionsParametersHolder.GetTogglePowerClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleRoverLiftClearance() return end
+function DefaultActionsParametersHolder.GetToggleRoverLiftClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleSealClearance() return end
+function DefaultActionsParametersHolder.GetToggleSealClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleSecureScreenClearance() return end
+function DefaultActionsParametersHolder.GetToggleSecureScreenClearance() end
 
 ---@return Int32
-function DefaultActionsParametersHolder.GetToggleStreamFeedClearance() return end
+function DefaultActionsParametersHolder.GetToggleStreamFeedClearance() end

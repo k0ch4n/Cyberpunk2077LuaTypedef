@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimEvent_EffectDuration: animAnimEvent
----@field public effectName CName
----@field public sequenceShift Uint32
----@field public breakAllLoopsOnStop Bool
+---@field effectName CName
+---@field sequenceShift Uint32
+---@field breakAllLoopsOnStop Bool
 animAnimEvent_EffectDuration = {}
 
 ---@param fields? animAnimEvent_EffectDuration
 ---@return animAnimEvent_EffectDuration
-function animAnimEvent_EffectDuration.new(fields) return end
+function animAnimEvent_EffectDuration.new(fields) end

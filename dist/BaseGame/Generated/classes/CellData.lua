@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CellData
----@field public position Vector2
----@field public element ElementData
----@field public properties SpecialProperties
----@field public assignedCell NetworkMinigameGridCellController
----@field public consumed Bool
+---@field position Vector2
+---@field element ElementData
+---@field properties SpecialProperties
+---@field assignedCell NetworkMinigameGridCellController
+---@field consumed Bool
 CellData = {}
 
 ---@param fields? CellData
 ---@return CellData
-function CellData.new(fields) return end
+function CellData.new(fields) end

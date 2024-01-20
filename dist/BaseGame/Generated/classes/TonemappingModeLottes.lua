@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TonemappingModeLottes: ITonemappingMode
----@field public maxInput Float
----@field public contrast Float
----@field public midIn Float
----@field public midOut Float
----@field public crosstalk Vector3
----@field public crosstalkSaturation Vector3
+---@field maxInput Float
+---@field contrast Float
+---@field midIn Float
+---@field midOut Float
+---@field crosstalk Vector3
+---@field crosstalkSaturation Vector3
 TonemappingModeLottes = {}
 
 ---@param fields? TonemappingModeLottes
 ---@return TonemappingModeLottes
-function TonemappingModeLottes.new(fields) return end
+function TonemappingModeLottes.new(fields) end

@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class ProgressionWidgetGameController: gameuiGenericNotificationGameController
----@field private duration Float
----@field private playerDevelopmentSystem PlayerDevelopmentSystem
----@field private combatModePSM gamePSMCombat
----@field private combatModeListener redCallbackObject
----@field private playerObject gameObject
----@field private gameInstance ScriptGameInstance
+---@field duration Float
+---@field playerDevelopmentSystem PlayerDevelopmentSystem
+---@field combatModePSM gamePSMCombat
+---@field combatModeListener redCallbackObject
+---@field playerObject gameObject
+---@field gameInstance ScriptGameInstance
 ProgressionWidgetGameController = {}
 
 ---@param fields? ProgressionWidgetGameController
 ---@return ProgressionWidgetGameController
-function ProgressionWidgetGameController.new(fields) return end
+function ProgressionWidgetGameController.new(fields) end
 
----@protected
 ---@param evt ProficiencyProgressEvent
 ---@return Bool
-function ProgressionWidgetGameController:OnCharacterProficiencyUpdated(evt) return end
+function ProgressionWidgetGameController:OnCharacterProficiencyUpdated(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ProgressionWidgetGameController:OnCombatStateChanged(value) return end
+function ProgressionWidgetGameController:OnCombatStateChanged(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ProgressionWidgetGameController:OnPlayerAttach(playerPuppet) return end
+function ProgressionWidgetGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function ProgressionWidgetGameController:OnPlayerDetach(playerGameObject) return end
+function ProgressionWidgetGameController:OnPlayerDetach(playerGameObject) end
 
 ---@param value Int32
 ---@param remainingPointsToLevelUp Int32
@@ -42,20 +38,18 @@ function ProgressionWidgetGameController:OnPlayerDetach(playerGameObject) return
 ---@param currentLevel Int32
 ---@param isLevelMaxed Bool
 ---@return nil
-function ProgressionWidgetGameController:AddToNotificationQueue(value, remainingPointsToLevelUp, delta, notificationColorTheme, notificationName, type, currentLevel, isLevelMaxed) return end
+function ProgressionWidgetGameController:AddToNotificationQueue(value, remainingPointsToLevelUp, delta, notificationColorTheme, notificationName, type, currentLevel, isLevelMaxed) end
 
 ---@return Int32
-function ProgressionWidgetGameController:GetID() return end
+function ProgressionWidgetGameController:GetID() end
 
 ---@return Bool
-function ProgressionWidgetGameController:GetShouldSaveState() return end
+function ProgressionWidgetGameController:GetShouldSaveState() end
 
----@protected
 ---@param playerObject gameObject
 ---@return nil
-function ProgressionWidgetGameController:RegisterPSMListeners(playerObject) return end
+function ProgressionWidgetGameController:RegisterPSMListeners(playerObject) end
 
----@protected
 ---@param playerObject gameObject
 ---@return nil
-function ProgressionWidgetGameController:UnregisterPSMListeners(playerObject) return end
+function ProgressionWidgetGameController:UnregisterPSMListeners(playerObject) end

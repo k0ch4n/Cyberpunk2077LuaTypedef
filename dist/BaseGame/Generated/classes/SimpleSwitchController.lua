@@ -5,7 +5,7 @@ SimpleSwitchController = {}
 
 ---@param fields? SimpleSwitchController
 ---@return SimpleSwitchController
-function SimpleSwitchController.new(fields) return end
+function SimpleSwitchController.new(fields) end
 
 ---@return SimpleSwitchControllerPS
-function SimpleSwitchController:GetPS() return end
+function SimpleSwitchController:GetPS() end

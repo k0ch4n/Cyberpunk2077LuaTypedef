@@ -5,7 +5,7 @@ gamedataShooterVIP_Record = {}
 
 ---@param fields? gamedataShooterVIP_Record
 ---@return gamedataShooterVIP_Record
-function gamedataShooterVIP_Record.new(fields) return end
+function gamedataShooterVIP_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterVIP_Record:SpawnDuration() return end
+function gamedataShooterVIP_Record:SpawnDuration() end

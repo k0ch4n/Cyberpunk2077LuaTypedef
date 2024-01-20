@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameinteractionsActiveLayerData
----@field public activator gameObject
----@field public linkedLayersName CName
----@field public layerName CName
+---@field activator gameObject
+---@field linkedLayersName CName
+---@field layerName CName
 gameinteractionsActiveLayerData = {}
 
 ---@param fields? gameinteractionsActiveLayerData
 ---@return gameinteractionsActiveLayerData
-function gameinteractionsActiveLayerData.new(fields) return end
+function gameinteractionsActiveLayerData.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameAppearanceNameVisualTagsPreset_Entity: ISerializable
----@field public entityPathHash Uint64
----@field public debugEntityPath CName
----@field public entityRigPathHash Uint64
----@field public debugEntityRigPath CName
----@field public commonVisualTags redTagList
----@field public appearancesToTags gameAppearanceNameVisualTagsPreset_AppearanceTags[]
+---@field entityPathHash Uint64
+---@field debugEntityPath CName
+---@field entityRigPathHash Uint64
+---@field debugEntityRigPath CName
+---@field commonVisualTags redTagList
+---@field appearancesToTags gameAppearanceNameVisualTagsPreset_AppearanceTags[]
 gameAppearanceNameVisualTagsPreset_Entity = {}
 
 ---@param fields? gameAppearanceNameVisualTagsPreset_Entity
 ---@return gameAppearanceNameVisualTagsPreset_Entity
-function gameAppearanceNameVisualTagsPreset_Entity.new(fields) return end
+function gameAppearanceNameVisualTagsPreset_Entity.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RefreshCrosshairEvent: redEvent
----@field public force Bool
+---@field force Bool
 RefreshCrosshairEvent = {}
 
 ---@param fields? RefreshCrosshairEvent
 ---@return RefreshCrosshairEvent
-function RefreshCrosshairEvent.new(fields) return end
+function RefreshCrosshairEvent.new(fields) end

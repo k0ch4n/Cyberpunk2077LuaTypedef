@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerAttitude: ScannerChunk
----@field private attitude EAIAttitude
+---@field attitude EAIAttitude
 ScannerAttitude = {}
 
 ---@param fields? ScannerAttitude
 ---@return ScannerAttitude
-function ScannerAttitude.new(fields) return end
+function ScannerAttitude.new(fields) end
 
 ---@return EAIAttitude
-function ScannerAttitude:GetAttitude() return end
+function ScannerAttitude:GetAttitude() end
 
 ---@return ScannerDataType
-function ScannerAttitude:GetType() return end
+function ScannerAttitude:GetType() end
 
 ---@param att EAIAttitude
 ---@return nil
-function ScannerAttitude:Set(att) return end
+function ScannerAttitude:Set(att) end

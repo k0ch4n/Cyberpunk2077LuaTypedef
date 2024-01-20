@@ -5,4 +5,4 @@ AIbehaviorDriveFollowSlotTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDriveFollowSlotTreeNodeDefinition
 ---@return AIbehaviorDriveFollowSlotTreeNodeDefinition
-function AIbehaviorDriveFollowSlotTreeNodeDefinition.new(fields) return end
+function AIbehaviorDriveFollowSlotTreeNodeDefinition.new(fields) end

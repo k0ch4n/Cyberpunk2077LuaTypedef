@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class inkAsyncSpawnData: IScriptable
----@field public libraryID CName
----@field public parentWidget inkCompoundWidget
----@field public triggerCallbackAsync Bool
----@field public userData IScriptable
----@field public introAnimation CName
+---@field libraryID CName
+---@field parentWidget inkCompoundWidget
+---@field triggerCallbackAsync Bool
+---@field userData IScriptable
+---@field introAnimation CName
 inkAsyncSpawnData = {}
 
 ---@param fields? inkAsyncSpawnData
 ---@return inkAsyncSpawnData
-function inkAsyncSpawnData.new(fields) return end
+function inkAsyncSpawnData.new(fields) end
 
 ---@param resourceRef redResourceReferenceScriptToken
 ---@return nil
-function inkAsyncSpawnData:SetResourcePath(resourceRef) return end
+function inkAsyncSpawnData:SetResourcePath(resourceRef) end

@@ -1,41 +1,37 @@
 ---@meta
 
 ---@class WorldMapPreloader: inkWidgetLogicController
----@field private splashAnim CName
----@field private spinnerAnim CName
----@field private spinnerFadeOutAnim CName
----@field private spinnerFadeInAnim CName
----@field private mapFadeOutAnim CName
----@field public isMapLoaded Bool
----@field public isMapFadeOutStarted Bool
----@field public isSpinnerVisible Bool
----@field public splashProxy inkanimProxy
----@field public spinnerFadeOutProxy inkanimProxy
+---@field splashAnim CName
+---@field spinnerAnim CName
+---@field spinnerFadeOutAnim CName
+---@field spinnerFadeInAnim CName
+---@field mapFadeOutAnim CName
+---@field isMapLoaded Bool
+---@field isMapFadeOutStarted Bool
+---@field isSpinnerVisible Bool
+---@field splashProxy inkanimProxy
+---@field spinnerFadeOutProxy inkanimProxy
 WorldMapPreloader = {}
 
 ---@param fields? WorldMapPreloader
 ---@return WorldMapPreloader
-function WorldMapPreloader.new(fields) return end
+function WorldMapPreloader.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function WorldMapPreloader:OnEndLoop(proxy) return end
+function WorldMapPreloader:OnEndLoop(proxy) end
 
----@protected
 ---@return Bool
-function WorldMapPreloader:OnInitialize() return end
+function WorldMapPreloader:OnInitialize() end
 
----@protected
 ---@return Bool
-function WorldMapPreloader:OnSplash() return end
+function WorldMapPreloader:OnSplash() end
 
----@protected
 ---@return Bool
-function WorldMapPreloader:OnUninitialize() return end
+function WorldMapPreloader:OnUninitialize() end
 
 ---@return nil
-function WorldMapPreloader:SetMapLoaded() return end
+function WorldMapPreloader:SetMapLoaded() end
 
 ---@return nil
-function WorldMapPreloader:ShowSpinner() return end
+function WorldMapPreloader:ShowSpinner() end

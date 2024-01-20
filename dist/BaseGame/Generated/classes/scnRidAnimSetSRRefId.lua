@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnRidAnimSetSRRefId
----@field public id Uint32
+---@field id Uint32
 scnRidAnimSetSRRefId = {}
 
 ---@param fields? scnRidAnimSetSRRefId
 ---@return scnRidAnimSetSRRefId
-function scnRidAnimSetSRRefId.new(fields) return end
+function scnRidAnimSetSRRefId.new(fields) end

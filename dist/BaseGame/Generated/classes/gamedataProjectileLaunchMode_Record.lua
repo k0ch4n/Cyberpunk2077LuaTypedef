@@ -5,13 +5,13 @@ gamedataProjectileLaunchMode_Record = {}
 
 ---@param fields? gamedataProjectileLaunchMode_Record
 ---@return gamedataProjectileLaunchMode_Record
-function gamedataProjectileLaunchMode_Record.new(fields) return end
+function gamedataProjectileLaunchMode_Record.new(fields) end
 
 ---@return String
-function gamedataProjectileLaunchMode_Record:EnumComment() return end
+function gamedataProjectileLaunchMode_Record:EnumComment() end
 
 ---@return CName
-function gamedataProjectileLaunchMode_Record:EnumName() return end
+function gamedataProjectileLaunchMode_Record:EnumName() end
 
 ---@return gamedataProjectileLaunchMode
-function gamedataProjectileLaunchMode_Record:Type() return end
+function gamedataProjectileLaunchMode_Record:Type() end

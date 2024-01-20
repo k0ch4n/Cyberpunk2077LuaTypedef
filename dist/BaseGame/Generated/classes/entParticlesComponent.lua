@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class entParticlesComponent: entIVisualComponent
----@field public emissionRate Float
----@field public particleSystem CParticleSystem
----@field public autoHideRange Float
----@field public renderLayerMask RenderSceneLayerMask
----@field public isEnabled Bool
+---@field emissionRate Float
+---@field particleSystem CParticleSystem
+---@field autoHideRange Float
+---@field renderLayerMask RenderSceneLayerMask
+---@field isEnabled Bool
 entParticlesComponent = {}
 
 ---@param fields? entParticlesComponent
 ---@return entParticlesComponent
-function entParticlesComponent.new(fields) return end
+function entParticlesComponent.new(fields) end

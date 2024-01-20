@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class attrSoftMinMax: attrAttribute
----@field public n Float
----@field public x Float
+---@field n Float
+---@field x Float
 attrSoftMinMax = {}
 
 ---@param fields? attrSoftMinMax
 ---@return attrSoftMinMax
-function attrSoftMinMax.new(fields) return end
+function attrSoftMinMax.new(fields) end

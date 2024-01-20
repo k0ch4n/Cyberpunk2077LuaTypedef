@@ -5,4 +5,4 @@ worldTrafficSpotNode = {}
 
 ---@param fields? worldTrafficSpotNode
 ---@return worldTrafficSpotNode
-function worldTrafficSpotNode.new(fields) return end
+function worldTrafficSpotNode.new(fields) end

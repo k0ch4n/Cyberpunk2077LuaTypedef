@@ -5,25 +5,25 @@ gamedataInAirGravityModifier_Record = {}
 
 ---@param fields? gamedataInAirGravityModifier_Record
 ---@return gamedataInAirGravityModifier_Record
-function gamedataInAirGravityModifier_Record.new(fields) return end
+function gamedataInAirGravityModifier_Record.new(fields) end
 
 ---@return Float
-function gamedataInAirGravityModifier_Record:BaseAddedGravity() return end
+function gamedataInAirGravityModifier_Record:BaseAddedGravity() end
 
 ---@return Float
-function gamedataInAirGravityModifier_Record:DriveSpeedAddedGravity() return end
+function gamedataInAirGravityModifier_Record:DriveSpeedAddedGravity() end
 
 ---@return Float
-function gamedataInAirGravityModifier_Record:MaxDriveSpeed() return end
+function gamedataInAirGravityModifier_Record:MaxDriveSpeed() end
 
 ---@return Float
-function gamedataInAirGravityModifier_Record:MinDriveSpeed() return end
+function gamedataInAirGravityModifier_Record:MinDriveSpeed() end
 
 ---@return Float
-function gamedataInAirGravityModifier_Record:SmoothingFactor() return end
+function gamedataInAirGravityModifier_Record:SmoothingFactor() end
 
 ---@return Float
-function gamedataInAirGravityModifier_Record:ZVelReductionEnd() return end
+function gamedataInAirGravityModifier_Record:ZVelReductionEnd() end
 
 ---@return Float
-function gamedataInAirGravityModifier_Record:ZVelReductionStart() return end
+function gamedataInAirGravityModifier_Record:ZVelReductionStart() end

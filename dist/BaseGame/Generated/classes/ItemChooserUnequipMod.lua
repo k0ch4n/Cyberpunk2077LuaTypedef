@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ItemChooserUnequipMod: redEvent
----@field public itemData gameInventoryItemData
----@field public slotID TweakDBID
+---@field itemData gameInventoryItemData
+---@field slotID TweakDBID
 ItemChooserUnequipMod = {}
 
 ---@param fields? ItemChooserUnequipMod
 ---@return ItemChooserUnequipMod
-function ItemChooserUnequipMod.new(fields) return end
+function ItemChooserUnequipMod.new(fields) end

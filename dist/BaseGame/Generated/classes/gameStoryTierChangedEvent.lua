@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameStoryTierChangedEvent: AIAIEvent
----@field public newTier gameStoryTier
+---@field newTier gameStoryTier
 gameStoryTierChangedEvent = {}
 
 ---@param fields? gameStoryTierChangedEvent
 ---@return gameStoryTierChangedEvent
-function gameStoryTierChangedEvent.new(fields) return end
+function gameStoryTierChangedEvent.new(fields) end

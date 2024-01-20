@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleAIVehicleDisabledEvent: redEvent
----@field public reason vehicleDisabledReason
+---@field reason vehicleDisabledReason
 vehicleAIVehicleDisabledEvent = {}
 
 ---@param fields? vehicleAIVehicleDisabledEvent
 ---@return vehicleAIVehicleDisabledEvent
-function vehicleAIVehicleDisabledEvent.new(fields) return end
+function vehicleAIVehicleDisabledEvent.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class IllegalActionTypes
----@field public regularActions Bool
----@field public quickHacks Bool
----@field public skillChecks Bool
+---@field regularActions Bool
+---@field quickHacks Bool
+---@field skillChecks Bool
 IllegalActionTypes = {}
 
 ---@param fields? IllegalActionTypes
 ---@return IllegalActionTypes
-function IllegalActionTypes.new(fields) return end
+function IllegalActionTypes.new(fields) end

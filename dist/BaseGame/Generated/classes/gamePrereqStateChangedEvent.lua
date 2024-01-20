@@ -5,7 +5,7 @@ gamePrereqStateChangedEvent = {}
 
 ---@param fields? gamePrereqStateChangedEvent
 ---@return gamePrereqStateChangedEvent
-function gamePrereqStateChangedEvent.new(fields) return end
+function gamePrereqStateChangedEvent.new(fields) end
 
 ---@return gamePrereqState
-function gamePrereqStateChangedEvent:GetPrereqState() return end
+function gamePrereqStateChangedEvent:GetPrereqState() end

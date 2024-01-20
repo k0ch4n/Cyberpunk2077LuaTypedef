@@ -5,4 +5,4 @@ inkVORequestEvt = {}
 
 ---@param fields? inkVORequestEvt
 ---@return inkVORequestEvt
-function inkVORequestEvt.new(fields) return end
+function inkVORequestEvt.new(fields) end

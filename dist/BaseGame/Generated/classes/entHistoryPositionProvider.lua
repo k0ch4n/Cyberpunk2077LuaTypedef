@@ -5,4 +5,4 @@ entHistoryPositionProvider = {}
 
 ---@param fields? entHistoryPositionProvider
 ---@return entHistoryPositionProvider
-function entHistoryPositionProvider.new(fields) return end
+function entHistoryPositionProvider.new(fields) end

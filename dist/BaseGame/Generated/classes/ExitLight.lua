@@ -5,47 +5,38 @@ ExitLight = {}
 
 ---@param fields? ExitLight
 ---@return ExitLight
-function ExitLight.new(fields) return end
+function ExitLight.new(fields) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function ExitLight:OnHitEvent(hit) return end
+function ExitLight:OnHitEvent(hit) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ExitLight:OnRequestComponents(ri) return end
+function ExitLight:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ExitLight:OnTakeControl(ri) return end
+function ExitLight:OnTakeControl(ri) end
 
----@private
 ---@return ExitLightController
-function ExitLight:GetController() return end
+function ExitLight:GetController() end
 
 ---@return ExitLightControllerPS
-function ExitLight:GetDevicePS() return end
+function ExitLight:GetDevicePS() end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return nil
-function ExitLight:ReactToHit(hit) return end
+function ExitLight:ReactToHit(hit) end
 
----@private
 ---@return nil
-function ExitLight:TurnGreen() return end
+function ExitLight:TurnGreen() end
 
----@protected
 ---@return nil
-function ExitLight:TurnOffDevice() return end
+function ExitLight:TurnOffDevice() end
 
----@protected
 ---@return nil
-function ExitLight:TurnOnDevice() return end
+function ExitLight:TurnOnDevice() end
 
----@private
 ---@return nil
-function ExitLight:TurnRed() return end
+function ExitLight:TurnRed() end

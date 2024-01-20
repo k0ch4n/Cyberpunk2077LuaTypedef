@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiNewsFeedDataProvider: IScriptable
----@field public newsTitleTweak TweakDBID
----@field public randomNewsFeedPack TweakDBID
+---@field newsTitleTweak TweakDBID
+---@field randomNewsFeedPack TweakDBID
 gameuiNewsFeedDataProvider = {}
 
 ---@param fields? gameuiNewsFeedDataProvider
 ---@return gameuiNewsFeedDataProvider
-function gameuiNewsFeedDataProvider.new(fields) return end
+function gameuiNewsFeedDataProvider.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimNode_TransformJoin: animAnimNode_TransformValue
----@field public input animTransformLink
+---@field input animTransformLink
 animAnimNode_TransformJoin = {}
 
 ---@param fields? animAnimNode_TransformJoin
 ---@return animAnimNode_TransformJoin
-function animAnimNode_TransformJoin.new(fields) return end
+function animAnimNode_TransformJoin.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnLookAtEvent: scnSceneEvent
----@field public basicData scnLookAtBasicEventData
+---@field basicData scnLookAtBasicEventData
 scnLookAtEvent = {}
 
 ---@param fields? scnLookAtEvent
 ---@return scnLookAtEvent
-function scnLookAtEvent.new(fields) return end
+function scnLookAtEvent.new(fields) end

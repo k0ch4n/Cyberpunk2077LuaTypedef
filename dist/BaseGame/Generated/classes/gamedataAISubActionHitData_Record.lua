@@ -5,13 +5,13 @@ gamedataAISubActionHitData_Record = {}
 
 ---@param fields? gamedataAISubActionHitData_Record
 ---@return gamedataAISubActionHitData_Record
-function gamedataAISubActionHitData_Record.new(fields) return end
+function gamedataAISubActionHitData_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionHitData_Record:DirectionObj() return end
+function gamedataAISubActionHitData_Record:DirectionObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionHitData_Record:DirectionObjHandle() return end
+function gamedataAISubActionHitData_Record:DirectionObjHandle() end
 
 ---@return Bool
-function gamedataAISubActionHitData_Record:OverrideHitDirection() return end
+function gamedataAISubActionHitData_Record:OverrideHitDirection() end

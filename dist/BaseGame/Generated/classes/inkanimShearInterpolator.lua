@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkanimShearInterpolator: inkanimInterpolator
----@field public startValue Vector2
----@field public endValue Vector2
+---@field startValue Vector2
+---@field endValue Vector2
 inkanimShearInterpolator = {}
 
 ---@param fields? inkanimShearInterpolator
 ---@return inkanimShearInterpolator
-function inkanimShearInterpolator.new(fields) return end
+function inkanimShearInterpolator.new(fields) end
 
 ---@return Vector2
-function inkanimShearInterpolator:GetEndShear() return end
+function inkanimShearInterpolator:GetEndShear() end
 
 ---@return Vector2
-function inkanimShearInterpolator:GetStartShear() return end
+function inkanimShearInterpolator:GetStartShear() end
 
 ---@param endShear Vector2
 ---@return nil
-function inkanimShearInterpolator:SetEndShear(endShear) return end
+function inkanimShearInterpolator:SetEndShear(endShear) end
 
 ---@param startShear Vector2
 ---@return nil
-function inkanimShearInterpolator:SetStartShear(startShear) return end
+function inkanimShearInterpolator:SetStartShear(startShear) end

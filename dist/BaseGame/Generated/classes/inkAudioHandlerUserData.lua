@@ -5,4 +5,4 @@ inkAudioHandlerUserData = {}
 
 ---@param fields? inkAudioHandlerUserData
 ---@return inkAudioHandlerUserData
-function inkAudioHandlerUserData.new(fields) return end
+function inkAudioHandlerUserData.new(fields) end

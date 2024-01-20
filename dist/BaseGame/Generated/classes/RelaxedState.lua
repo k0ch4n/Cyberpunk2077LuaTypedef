@@ -5,9 +5,8 @@ RelaxedState = {}
 
 ---@param fields? RelaxedState
 ---@return RelaxedState
-function RelaxedState.new(fields) return end
+function RelaxedState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCHighLevelState
-function RelaxedState:GetDesiredHighLevelState(context) return end
+function RelaxedState:GetDesiredHighLevelState(context) end

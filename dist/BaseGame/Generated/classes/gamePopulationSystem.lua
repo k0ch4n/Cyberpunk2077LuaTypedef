@@ -5,4 +5,4 @@ gamePopulationSystem = {}
 
 ---@param fields? gamePopulationSystem
 ---@return gamePopulationSystem
-function gamePopulationSystem.new(fields) return end
+function gamePopulationSystem.new(fields) end

@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class QuickHackToggleON: ActionBool
----@field public Repeat Bool
+---@field Repeat Bool
 QuickHackToggleON = {}
 
 ---@param fields? QuickHackToggleON
 ---@return QuickHackToggleON
-function QuickHackToggleON.new(fields) return end
+function QuickHackToggleON.new(fields) end
 
 ---@return Int32
-function QuickHackToggleON:GetBaseCost() return end
+function QuickHackToggleON:GetBaseCost() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function QuickHackToggleON:GetInteractionIcon() return end
+function QuickHackToggleON:GetInteractionIcon() end
 
 ---@return String
-function QuickHackToggleON:GetTweakDBChoiceRecord() return end
+function QuickHackToggleON:GetTweakDBChoiceRecord() end
 
 ---@param status EDeviceStatus
 ---@return nil
-function QuickHackToggleON:SetProperties(status) return end
+function QuickHackToggleON:SetProperties(status) end

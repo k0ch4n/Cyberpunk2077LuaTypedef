@@ -1,40 +1,38 @@
 ---@meta
 
 ---@class SimpleMessengerContactsVirtualListController: inkVirtualListController
----@field private dataView SimpleMessengerContactDataView
----@field protected dataSource inkScriptableDataSourceWrapper
----@field protected classifier QuestListVirtualTemplateClassifier
+---@field dataView SimpleMessengerContactDataView
+---@field dataSource inkScriptableDataSourceWrapper
+---@field classifier QuestListVirtualTemplateClassifier
 SimpleMessengerContactsVirtualListController = {}
 
 ---@param fields? SimpleMessengerContactsVirtualListController
 ---@return SimpleMessengerContactsVirtualListController
-function SimpleMessengerContactsVirtualListController.new(fields) return end
+function SimpleMessengerContactsVirtualListController.new(fields) end
 
----@protected
 ---@return Bool
-function SimpleMessengerContactsVirtualListController:OnInitialize() return end
+function SimpleMessengerContactsVirtualListController:OnInitialize() end
 
----@protected
 ---@return Bool
-function SimpleMessengerContactsVirtualListController:OnUninitialize() return end
+function SimpleMessengerContactsVirtualListController:OnUninitialize() end
 
 ---@return nil
-function SimpleMessengerContactsVirtualListController:DisableSorting() return end
+function SimpleMessengerContactsVirtualListController:DisableSorting() end
 
 ---@return nil
-function SimpleMessengerContactsVirtualListController:EnableSorting() return end
+function SimpleMessengerContactsVirtualListController:EnableSorting() end
 
 ---@return Int32
-function SimpleMessengerContactsVirtualListController:GetDataSize() return end
+function SimpleMessengerContactsVirtualListController:GetDataSize() end
 
 ---@return inkScriptableDataViewWrapper
-function SimpleMessengerContactsVirtualListController:GetDataView() return end
+function SimpleMessengerContactsVirtualListController:GetDataView() end
 
 ---@param hash Int32
 ---@return Int32
-function SimpleMessengerContactsVirtualListController:GetIndexByJournalHash(hash) return end
+function SimpleMessengerContactsVirtualListController:GetIndexByJournalHash(hash) end
 
 ---@param data IScriptable[]
 ---@param sortOnce? Bool
 ---@return nil
-function SimpleMessengerContactsVirtualListController:SetData(data, sortOnce) return end
+function SimpleMessengerContactsVirtualListController:SetData(data, sortOnce) end

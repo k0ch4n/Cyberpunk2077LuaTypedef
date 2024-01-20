@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CodexFilterButtonClicked: redEvent
----@field public category CodexCategoryType
----@field public toggled Bool
+---@field category CodexCategoryType
+---@field toggled Bool
 CodexFilterButtonClicked = {}
 
 ---@param fields? CodexFilterButtonClicked
 ---@return CodexFilterButtonClicked
-function CodexFilterButtonClicked.new(fields) return end
+function CodexFilterButtonClicked.new(fields) end

@@ -5,4 +5,4 @@ OneHandedClubLookAtEvents = {}
 
 ---@param fields? OneHandedClubLookAtEvents
 ---@return OneHandedClubLookAtEvents
-function OneHandedClubLookAtEvents.new(fields) return end
+function OneHandedClubLookAtEvents.new(fields) end

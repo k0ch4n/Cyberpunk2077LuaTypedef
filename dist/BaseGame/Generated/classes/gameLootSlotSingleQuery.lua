@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameLootSlotSingleQuery: gameLootSlot
----@field public queryTDBID TweakDBID
+---@field queryTDBID TweakDBID
 gameLootSlotSingleQuery = {}
 
 ---@param fields? gameLootSlotSingleQuery
 ---@return gameLootSlotSingleQuery
-function gameLootSlotSingleQuery.new(fields) return end
+function gameLootSlotSingleQuery.new(fields) end

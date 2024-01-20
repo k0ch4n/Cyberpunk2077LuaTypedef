@@ -5,21 +5,21 @@ ToggleActivation = {}
 
 ---@param fields? ToggleActivation
 ---@return ToggleActivation
-function ToggleActivation.new(fields) return end
+function ToggleActivation.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ToggleActivation.IsAvailable(device) return end
+function ToggleActivation.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ToggleActivation.IsClearanceValid(clearance) return end
+function ToggleActivation.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleActivation.IsDefaultConditionMet(device, context) return end
+function ToggleActivation.IsDefaultConditionMet(device, context) end
 
 ---@param status EDeviceStatus
 ---@return nil
-function ToggleActivation:SetProperties(status) return end
+function ToggleActivation:SetProperties(status) end

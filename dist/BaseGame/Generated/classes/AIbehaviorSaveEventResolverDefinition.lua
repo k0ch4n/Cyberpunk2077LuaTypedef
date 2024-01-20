@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorSaveEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public eventData AIArgumentMapping
+---@field eventData AIArgumentMapping
 AIbehaviorSaveEventResolverDefinition = {}
 
 ---@param fields? AIbehaviorSaveEventResolverDefinition
 ---@return AIbehaviorSaveEventResolverDefinition
-function AIbehaviorSaveEventResolverDefinition.new(fields) return end
+function AIbehaviorSaveEventResolverDefinition.new(fields) end

@@ -5,4 +5,4 @@ AIThreatSharedBeliefPositionProvider = {}
 
 ---@param fields? AIThreatSharedBeliefPositionProvider
 ---@return AIThreatSharedBeliefPositionProvider
-function AIThreatSharedBeliefPositionProvider.new(fields) return end
+function AIThreatSharedBeliefPositionProvider.new(fields) end

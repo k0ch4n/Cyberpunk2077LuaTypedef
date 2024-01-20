@@ -5,7 +5,7 @@ QuestForceDisconnectPersonalLink = {}
 
 ---@param fields? QuestForceDisconnectPersonalLink
 ---@return QuestForceDisconnectPersonalLink
-function QuestForceDisconnectPersonalLink.new(fields) return end
+function QuestForceDisconnectPersonalLink.new(fields) end
 
 ---@return nil
-function QuestForceDisconnectPersonalLink:SetProperties() return end
+function QuestForceDisconnectPersonalLink:SetProperties() end

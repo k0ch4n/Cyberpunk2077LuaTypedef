@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class InvestigateController: AIbehaviorconditionScript
----@field protected investigateData senseStimInvestigateData
+---@field investigateData senseStimInvestigateData
 InvestigateController = {}
 
 ---@param fields? InvestigateController
 ---@return InvestigateController
-function InvestigateController.new(fields) return end
+function InvestigateController.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function InvestigateController:Check(context) return end
+function InvestigateController:Check(context) end

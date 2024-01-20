@@ -5,9 +5,9 @@ IgnoreFriendlyTargets = {}
 
 ---@param fields? IgnoreFriendlyTargets
 ---@return IgnoreFriendlyTargets
-function IgnoreFriendlyTargets.new(fields) return end
+function IgnoreFriendlyTargets.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IgnoreFriendlyTargets:Process(ctx, filterCtx) return end
+function IgnoreFriendlyTargets:Process(ctx, filterCtx) end

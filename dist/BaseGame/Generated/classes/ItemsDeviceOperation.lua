@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class ItemsDeviceOperation: DeviceOperationBase
----@field public items SInventoryOperationData[]
+---@field items SInventoryOperationData[]
 ItemsDeviceOperation = {}
 
 ---@param fields? ItemsDeviceOperation
 ---@return ItemsDeviceOperation
-function ItemsDeviceOperation.new(fields) return end
+function ItemsDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function ItemsDeviceOperation:Execute(owner) return end
+function ItemsDeviceOperation:Execute(owner) end
 
----@private
 ---@param itemsArg SInventoryOperationData[]
 ---@param owner gameObject
 ---@return nil
-function ItemsDeviceOperation:ResolveItems(itemsArg, owner) return end
+function ItemsDeviceOperation:ResolveItems(itemsArg, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function ItemsDeviceOperation:Restore(owner) return end
+function ItemsDeviceOperation:Restore(owner) end

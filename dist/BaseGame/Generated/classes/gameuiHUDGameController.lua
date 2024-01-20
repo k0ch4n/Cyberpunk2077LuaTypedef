@@ -1,59 +1,52 @@
 ---@meta
 
 ---@class gameuiHUDGameController: gameuiWidgetGameController
----@field protected showAnimDef inkanimDefinition
----@field protected hideAnimDef inkanimDefinition
----@field private showAnimationName CName
----@field private hideAnimationName CName
----@field private moduleShown Bool
----@field private showAnimProxy inkanimProxy
----@field private hideAnimProxy inkanimProxy
+---@field showAnimDef inkanimDefinition
+---@field hideAnimDef inkanimDefinition
+---@field showAnimationName CName
+---@field hideAnimationName CName
+---@field moduleShown Bool
+---@field showAnimProxy inkanimProxy
+---@field hideAnimProxy inkanimProxy
 gameuiHUDGameController = {}
 
 ---@param fields? gameuiHUDGameController
 ---@return gameuiHUDGameController
-function gameuiHUDGameController.new(fields) return end
+function gameuiHUDGameController.new(fields) end
 
 ---@param value Bool
 ---@param isSkippingInOutAnimation Bool
 ---@return nil
-function gameuiHUDGameController:ToggleVisibility(value, isSkippingInOutAnimation) return end
+function gameuiHUDGameController:ToggleVisibility(value, isSkippingInOutAnimation) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiHUDGameController:OnHideAnimationFinished(anim) return end
+function gameuiHUDGameController:OnHideAnimationFinished(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiHUDGameController:OnPlayInitFoldingAnimFinished(anim) return end
+function gameuiHUDGameController:OnPlayInitFoldingAnimFinished(anim) end
 
----@private
 ---@return nil
-function gameuiHUDGameController:CreateContextChangeAnimations() return end
+function gameuiHUDGameController:CreateContextChangeAnimations() end
 
 ---@return inkanimDefinition
-function gameuiHUDGameController:GetIntroAnimation() return end
+function gameuiHUDGameController:GetIntroAnimation() end
 
 ---@return inkanimDefinition
-function gameuiHUDGameController:GetOutroAnimation() return end
+function gameuiHUDGameController:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function gameuiHUDGameController:HideRequest() return end
+function gameuiHUDGameController:HideRequest() end
 
----@protected
 ---@return Bool
-function gameuiHUDGameController:IsPlayingMultiplayer() return end
-
----@protected
----@return nil
-function gameuiHUDGameController:PlayInitFoldingAnim() return end
-
----@protected
----@return nil
-function gameuiHUDGameController:ShowRequest() return end
+function gameuiHUDGameController:IsPlayingMultiplayer() end
 
 ---@return nil
-function gameuiHUDGameController:UpdateRequired() return end
+function gameuiHUDGameController:PlayInitFoldingAnim() end
+
+---@return nil
+function gameuiHUDGameController:ShowRequest() end
+
+---@return nil
+function gameuiHUDGameController:UpdateRequired() end

@@ -5,4 +5,4 @@ CuttingGrenadeSpawnBlinkEffectEvent = {}
 
 ---@param fields? CuttingGrenadeSpawnBlinkEffectEvent
 ---@return CuttingGrenadeSpawnBlinkEffectEvent
-function CuttingGrenadeSpawnBlinkEffectEvent.new(fields) return end
+function CuttingGrenadeSpawnBlinkEffectEvent.new(fields) end

@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class animAnimGraph: CResource
----@field public rootNode animAnimNode_Root
----@field public variables animAnimVariableContainer
----@field public animFeatures animAnimFeatureEntry[]
----@field public timeDeltaMultiplier Float
----@field public isPaused Bool
----@field public oneFrameToggle Bool
----@field public hasMixerSlot Bool
----@field public additionalAnimDatabases animAnimDatabaseCollectionEntry[]
----@field public nodesToInit animAnimNode_Base[]
----@field public useLunaticMode Bool
----@field public useAnimCommands Bool
----@field public useAnimCommandsForCrowd Bool
----@field public useAnimStaticCommands Bool
----@field public staticCommandsRig animRig
----@field public hackAlwaysSample Bool
+---@field rootNode animAnimNode_Root
+---@field variables animAnimVariableContainer
+---@field animFeatures animAnimFeatureEntry[]
+---@field timeDeltaMultiplier Float
+---@field isPaused Bool
+---@field oneFrameToggle Bool
+---@field hasMixerSlot Bool
+---@field additionalAnimDatabases animAnimDatabaseCollectionEntry[]
+---@field nodesToInit animAnimNode_Base[]
+---@field useLunaticMode Bool
+---@field useAnimCommands Bool
+---@field useAnimCommandsForCrowd Bool
+---@field useAnimStaticCommands Bool
+---@field staticCommandsRig animRig
+---@field hackAlwaysSample Bool
 animAnimGraph = {}
 
 ---@param fields? animAnimGraph
 ---@return animAnimGraph
-function animAnimGraph.new(fields) return end
+function animAnimGraph.new(fields) end

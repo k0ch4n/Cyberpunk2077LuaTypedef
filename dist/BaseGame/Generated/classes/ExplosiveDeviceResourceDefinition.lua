@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ExplosiveDeviceResourceDefinition
----@field public damageType TweakDBID
----@field public vfxResource gameFxResource
----@field public vfxEventNamesOnExplosion CName[]
----@field public vfxResourceOnFirstHit gameFxResource[]
----@field public executionDelay Float
----@field public additionalGameEffectType EExplosiveAdditionalGameEffectType
----@field public dontHighlightOnLookat Bool
+---@field damageType TweakDBID
+---@field vfxResource gameFxResource
+---@field vfxEventNamesOnExplosion CName[]
+---@field vfxResourceOnFirstHit gameFxResource[]
+---@field executionDelay Float
+---@field additionalGameEffectType EExplosiveAdditionalGameEffectType
+---@field dontHighlightOnLookat Bool
 ExplosiveDeviceResourceDefinition = {}
 
 ---@param fields? ExplosiveDeviceResourceDefinition
 ---@return ExplosiveDeviceResourceDefinition
-function ExplosiveDeviceResourceDefinition.new(fields) return end
+function ExplosiveDeviceResourceDefinition.new(fields) end

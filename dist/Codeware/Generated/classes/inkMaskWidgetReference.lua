@@ -5,8 +5,8 @@ inkMaskWidgetReference = {}
 
 ---@param fields? inkMaskWidgetReference
 ---@return inkMaskWidgetReference
-function inkMaskWidgetReference.new(fields) return end
+function inkMaskWidgetReference.new(fields) end
 
 ---@param widget inkMaskWidget
 ---@return inkMaskWidgetReference
-function inkMaskWidgetReference.Create(widget) return end
+function inkMaskWidgetReference.Create(widget) end

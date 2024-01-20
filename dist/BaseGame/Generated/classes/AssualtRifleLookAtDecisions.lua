@@ -5,4 +5,4 @@ AssualtRifleLookAtDecisions = {}
 
 ---@param fields? AssualtRifleLookAtDecisions
 ---@return AssualtRifleLookAtDecisions
-function AssualtRifleLookAtDecisions.new(fields) return end
+function AssualtRifleLookAtDecisions.new(fields) end

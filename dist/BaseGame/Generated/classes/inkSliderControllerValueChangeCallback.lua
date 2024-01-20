@@ -5,4 +5,4 @@ inkSliderControllerValueChangeCallback = {}
 
 ---@param fields? inkSliderControllerValueChangeCallback
 ---@return inkSliderControllerValueChangeCallback
-function inkSliderControllerValueChangeCallback.new(fields) return end
+function inkSliderControllerValueChangeCallback.new(fields) end

@@ -1,29 +1,24 @@
 ---@meta
 
 ---@class ChargedHotkeyItemConsumableController: ChargedHotkeyItemBaseController
----@field public c_statPool gamedataStatPoolType
+---@field c_statPool gamedataStatPoolType
 ChargedHotkeyItemConsumableController = {}
 
 ---@param fields? ChargedHotkeyItemConsumableController
 ---@return ChargedHotkeyItemConsumableController
-function ChargedHotkeyItemConsumableController.new(fields) return end
+function ChargedHotkeyItemConsumableController.new(fields) end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemConsumableController:GetMaxCharges() return end
+function ChargedHotkeyItemConsumableController:GetMaxCharges() end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemConsumableController:GetRechargeDuration() return end
+function ChargedHotkeyItemConsumableController:GetRechargeDuration() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemConsumableController:RegisterStatListener() return end
+function ChargedHotkeyItemConsumableController:RegisterStatListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemConsumableController:UnregisterStatListener() return end
+function ChargedHotkeyItemConsumableController:UnregisterStatListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemConsumableController:UpdateCurrentItem() return end
+function ChargedHotkeyItemConsumableController:UpdateCurrentItem() end

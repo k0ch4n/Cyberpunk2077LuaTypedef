@@ -5,4 +5,4 @@ ForwardPingToSquadEvent = {}
 
 ---@param fields? ForwardPingToSquadEvent
 ---@return ForwardPingToSquadEvent
-function ForwardPingToSquadEvent.new(fields) return end
+function ForwardPingToSquadEvent.new(fields) end

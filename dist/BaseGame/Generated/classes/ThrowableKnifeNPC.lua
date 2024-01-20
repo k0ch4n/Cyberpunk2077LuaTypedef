@@ -1,102 +1,87 @@
 ---@meta
 
 ---@class ThrowableKnifeNPC: BaseProjectile
----@field private visualComponent entIComponent
----@field private resourceLibraryComponent ResourceLibraryComponent
----@field private weapon gameweaponObject
----@field private attack_record gamedataAttack_Record
----@field private explosionRadius Float
----@field private tweakRecord gamedataGrenade_Record
----@field private isActive Bool
----@field private hasHitWater Bool
----@field private projectileStopped Bool
----@field private desiredLifetime Float
----@field private waterHeight Float
----@field private deactivationDepth Float
----@field private waterImpulseRadius Float
----@field private waterImpulseStrength Float
----@field private dbgCurrentLifetime Float
----@field protected projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
+---@field visualComponent entIComponent
+---@field resourceLibraryComponent ResourceLibraryComponent
+---@field weapon gameweaponObject
+---@field attack_record gamedataAttack_Record
+---@field explosionRadius Float
+---@field tweakRecord gamedataGrenade_Record
+---@field isActive Bool
+---@field hasHitWater Bool
+---@field projectileStopped Bool
+---@field desiredLifetime Float
+---@field waterHeight Float
+---@field deactivationDepth Float
+---@field waterImpulseRadius Float
+---@field waterImpulseStrength Float
+---@field dbgCurrentLifetime Float
+---@field projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
 ThrowableKnifeNPC = {}
 
 ---@param fields? ThrowableKnifeNPC
 ---@return ThrowableKnifeNPC
-function ThrowableKnifeNPC.new(fields) return end
+function ThrowableKnifeNPC.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function ThrowableKnifeNPC:OnCollision(eventData) return end
+function ThrowableKnifeNPC:OnCollision(eventData) end
 
----@protected
 ---@param evt GrenadeDespawnRequestEvent
 ---@return Bool
-function ThrowableKnifeNPC:OnDespawnRequest(evt) return end
+function ThrowableKnifeNPC:OnDespawnRequest(evt) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function ThrowableKnifeNPC:OnProjectileInitialize(eventData) return end
+function ThrowableKnifeNPC:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param evt GrenadeReleaseRequestEvent
 ---@return Bool
-function ThrowableKnifeNPC:OnReleaseRequestEvent(evt) return end
+function ThrowableKnifeNPC:OnReleaseRequestEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ThrowableKnifeNPC:OnRequestComponents(ri) return end
+function ThrowableKnifeNPC:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function ThrowableKnifeNPC:OnShoot(eventData) return end
+function ThrowableKnifeNPC:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function ThrowableKnifeNPC:OnShootTarget(eventData) return end
+function ThrowableKnifeNPC:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ThrowableKnifeNPC:OnTakeControl(ri) return end
+function ThrowableKnifeNPC:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function ThrowableKnifeNPC:OnTick(eventData) return end
+function ThrowableKnifeNPC:OnTick(eventData) end
 
----@protected
 ---@return nil
-function ThrowableKnifeNPC:DeactivateAndSink() return end
+function ThrowableKnifeNPC:DeactivateAndSink() end
 
 ---@return Float
-function ThrowableKnifeNPC:GetAccelerationZ() return end
+function ThrowableKnifeNPC:GetAccelerationZ() end
 
 ---@param isQuickThrow Bool
 ---@return Float
-function ThrowableKnifeNPC:GetInitialVelocity(isQuickThrow) return end
+function ThrowableKnifeNPC:GetInitialVelocity(isQuickThrow) end
 
----@private
 ---@return nil
-function ThrowableKnifeNPC:InitializeRotation() return end
+function ThrowableKnifeNPC:InitializeRotation() end
 
----@protected
 ---@return nil
-function ThrowableKnifeNPC:ReleaseKnife() return end
+function ThrowableKnifeNPC:ReleaseKnife() end
 
----@protected
 ---@param delay Float
 ---@return nil
-function ThrowableKnifeNPC:ReleaseKnifeWithDelay(delay) return end
+function ThrowableKnifeNPC:ReleaseKnifeWithDelay(delay) end
 
----@private
 ---@return nil
-function ThrowableKnifeNPC:Reset() return end
+function ThrowableKnifeNPC:Reset() end
 
----@protected
 ---@param attackRecord gamedataAttack_Record
 ---@param range? Float
 ---@param duration? Float
@@ -104,7 +89,7 @@ function ThrowableKnifeNPC:Reset() return end
 ---@param position? Vector4
 ---@param vfxOffset? Vector4
 ---@return gameEffectInstance
-function ThrowableKnifeNPC:SpawnAttack(attackRecord, range, duration, hitNormal, position, vfxOffset) return end
+function ThrowableKnifeNPC:SpawnAttack(attackRecord, range, duration, hitNormal, position, vfxOffset) end
 
 ---@return Bool
-function ThrowableKnifeNPC:isFollowingKnife() return end
+function ThrowableKnifeNPC:isFollowingKnife() end

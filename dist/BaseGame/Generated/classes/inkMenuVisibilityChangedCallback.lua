@@ -5,4 +5,4 @@ inkMenuVisibilityChangedCallback = {}
 
 ---@param fields? inkMenuVisibilityChangedCallback
 ---@return inkMenuVisibilityChangedCallback
-function inkMenuVisibilityChangedCallback.new(fields) return end
+function inkMenuVisibilityChangedCallback.new(fields) end

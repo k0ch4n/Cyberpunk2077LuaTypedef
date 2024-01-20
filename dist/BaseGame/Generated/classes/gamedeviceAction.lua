@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class gamedeviceAction: redEvent
----@field public actionName CName
----@field public clearanceLevel Int32
----@field public localizedObjectName String
----@field public paymentQuantity Int32
+---@field actionName CName
+---@field clearanceLevel Int32
+---@field localizedObjectName String
+---@field paymentQuantity Int32
 gamedeviceAction = {}
 
 ---@param fields? gamedeviceAction
 ---@return gamedeviceAction
-function gamedeviceAction.new(fields) return end
+function gamedeviceAction.new(fields) end
 
 ---@return String
-function gamedeviceAction:GetCurrentDisplayString() return end
+function gamedeviceAction:GetCurrentDisplayString() end
 
 ---@return CName
-function gamedeviceAction:GetDeviceClassName() return end
+function gamedeviceAction:GetDeviceClassName() end
 
 ---@return gamePersistentID
-function gamedeviceAction:GetPersistentID() return end
+function gamedeviceAction:GetPersistentID() end
 
 ---@return gamedeviceActionProperty[]
-function gamedeviceAction:GetProperties() return end
+function gamedeviceAction:GetProperties() end
 
 ---@param ps gamePersistentState
 ---@return nil
-function gamedeviceAction:SetUp(ps) return end
+function gamedeviceAction:SetUp(ps) end

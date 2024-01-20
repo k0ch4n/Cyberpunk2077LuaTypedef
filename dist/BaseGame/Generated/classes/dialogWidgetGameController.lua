@@ -1,72 +1,62 @@
 ---@meta
 
 ---@class dialogWidgetGameController: InteractionUIBase
----@field private root inkCanvasWidget
----@field private hubsContainer inkBasePanelWidgetReference
----@field private hubControllers DialogHubLogicController[]
----@field private activeHubController DialogHubLogicController
----@field private data gameinteractionsvisDialogChoiceHubs
----@field private activeHubID Int32
----@field private prevActiveHubID Int32
----@field private selectedIndex Int32
----@field private fadeAnimTime Float
----@field private fadeDelay Float
----@field private dialogFocusInputHintShown Bool
----@field private hubAvailable Bool
----@field private animCloseHudProxy inkanimProxy
----@field public currentFadeItem DialogHubLogicController
----@field private blackboard gameIBlackboard
----@field private uiSystemBB UI_SystemDef
----@field private uiSystemId redCallbackObject
+---@field root inkCanvasWidget
+---@field hubsContainer inkBasePanelWidgetReference
+---@field hubControllers DialogHubLogicController[]
+---@field activeHubController DialogHubLogicController
+---@field data gameinteractionsvisDialogChoiceHubs
+---@field activeHubID Int32
+---@field prevActiveHubID Int32
+---@field selectedIndex Int32
+---@field fadeAnimTime Float
+---@field fadeDelay Float
+---@field dialogFocusInputHintShown Bool
+---@field hubAvailable Bool
+---@field animCloseHudProxy inkanimProxy
+---@field currentFadeItem DialogHubLogicController
+---@field blackboard gameIBlackboard
+---@field uiSystemBB UI_SystemDef
+---@field uiSystemId redCallbackObject
 dialogWidgetGameController = {}
 
 ---@param fields? dialogWidgetGameController
 ---@return dialogWidgetGameController
-function dialogWidgetGameController.new(fields) return end
+function dialogWidgetGameController.new(fields) end
 
----@protected
 ---@param activeHubId Int32
 ---@return Bool
-function dialogWidgetGameController:OnDialogsActivateHub(activeHubId) return end
+function dialogWidgetGameController:OnDialogsActivateHub(activeHubId) end
 
----@protected
 ---@param index Int32
 ---@return Bool
-function dialogWidgetGameController:OnDialogsSelectIndex(index) return end
+function dialogWidgetGameController:OnDialogsSelectIndex(index) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function dialogWidgetGameController:OnFinish(proxy) return end
+function dialogWidgetGameController:OnFinish(proxy) end
 
----@protected
 ---@return Bool
-function dialogWidgetGameController:OnInitialize() return end
+function dialogWidgetGameController:OnInitialize() end
 
----@protected
 ---@param isMenuVisible Bool
 ---@return Bool
-function dialogWidgetGameController:OnMenuVisibilityChange(isMenuVisible) return end
+function dialogWidgetGameController:OnMenuVisibilityChange(isMenuVisible) end
 
----@protected
 ---@return Bool
-function dialogWidgetGameController:OnUninitialize() return end
+function dialogWidgetGameController:OnUninitialize() end
 
----@private
 ---@param count Int32
 ---@return nil
-function dialogWidgetGameController:AdjustHubsCount(count) return end
+function dialogWidgetGameController:AdjustHubsCount(count) end
 
----@private
 ---@param hudController DialogHubLogicController
 ---@return nil
-function dialogWidgetGameController:CloseDelayed(hudController) return end
+function dialogWidgetGameController:CloseDelayed(hudController) end
 
----@protected
 ---@return nil
-function dialogWidgetGameController:OnInteractionsChanged() return end
+function dialogWidgetGameController:OnInteractionsChanged() end
 
----@protected
 ---@param data gameinteractionsvisDialogChoiceHubs
 ---@return nil
-function dialogWidgetGameController:UpdateDialogsData(data) return end
+function dialogWidgetGameController:UpdateDialogsData(data) end

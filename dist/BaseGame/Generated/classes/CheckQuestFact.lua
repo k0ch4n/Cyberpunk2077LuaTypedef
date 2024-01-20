@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class CheckQuestFact: AIbehaviorconditionScript
----@field public questFactName CName
----@field public comparedValue Int32
----@field public comparator ECompareOp
+---@field questFactName CName
+---@field comparedValue Int32
+---@field comparator ECompareOp
 CheckQuestFact = {}
 
 ---@param fields? CheckQuestFact
 ---@return CheckQuestFact
-function CheckQuestFact.new(fields) return end
+function CheckQuestFact.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckQuestFact:Activate(context) return end
+function CheckQuestFact:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckQuestFact:Check(context) return end
+function CheckQuestFact:Check(context) end

@@ -5,359 +5,359 @@ gamestateMachineStateContextScript = {}
 
 ---@param fields? gamestateMachineStateContextScript
 ---@return gamestateMachineStateContextScript
-function gamestateMachineStateContextScript.new(fields) return end
+function gamestateMachineStateContextScript.new(fields) end
 
 ---@param parameterName CName|string
 ---@param isPermanent? Bool
 ---@return Bool
-function gamestateMachineStateContextScript:GetBoolParameter(parameterName, isPermanent) return end
+function gamestateMachineStateContextScript:GetBoolParameter(parameterName, isPermanent) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:GetConditionBool(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionBool(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultBool
-function gamestateMachineStateContextScript:GetConditionBoolParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionBoolParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultCName
-function gamestateMachineStateContextScript:GetConditionCNameParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionCNameParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Float
-function gamestateMachineStateContextScript:GetConditionFloat(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionFloat(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultFloat
-function gamestateMachineStateContextScript:GetConditionFloatParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionFloatParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Int32
-function gamestateMachineStateContextScript:GetConditionInt(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionInt(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultInt
-function gamestateMachineStateContextScript:GetConditionIntParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionIntParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return IScriptable
-function gamestateMachineStateContextScript:GetConditionScriptableParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionScriptableParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return TweakDBID
-function gamestateMachineStateContextScript:GetConditionTweakDBIDParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionTweakDBIDParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultVector
-function gamestateMachineStateContextScript:GetConditionVectorParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionVectorParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return IScriptable
-function gamestateMachineStateContextScript:GetConditionWeakScriptableParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetConditionWeakScriptableParameter(parameterName) end
 
 ---@param stateMachineIdentifier gamestateMachineStateMachineIdentifier
 ---@return CName[]
-function gamestateMachineStateContextScript:GetCurrentStates(stateMachineIdentifier) return end
+function gamestateMachineStateContextScript:GetCurrentStates(stateMachineIdentifier) end
 
 ---@return nil
-function gamestateMachineStateContextScript:GetCurrentStatesWithIdentifier() return end
+function gamestateMachineStateContextScript:GetCurrentStatesWithIdentifier() end
 
 ---@param parameterName CName|string
 ---@param isPermanent? Bool
 ---@return Float
-function gamestateMachineStateContextScript:GetFloatParameter(parameterName, isPermanent) return end
+function gamestateMachineStateContextScript:GetFloatParameter(parameterName, isPermanent) end
 
 ---@param parameterName CName|string
 ---@param isPermanent? Bool
 ---@return Int32
-function gamestateMachineStateContextScript:GetIntParameter(parameterName, isPermanent) return end
+function gamestateMachineStateContextScript:GetIntParameter(parameterName, isPermanent) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultBool
-function gamestateMachineStateContextScript:GetPermanentBoolParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetPermanentBoolParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultCName
-function gamestateMachineStateContextScript:GetPermanentCNameParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetPermanentCNameParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultFloat
-function gamestateMachineStateContextScript:GetPermanentFloatParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetPermanentFloatParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultInt
-function gamestateMachineStateContextScript:GetPermanentIntParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetPermanentIntParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return IScriptable
-function gamestateMachineStateContextScript:GetPermanentScriptableParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetPermanentScriptableParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return TweakDBID
-function gamestateMachineStateContextScript:GetPermanentTweakDBIDParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetPermanentTweakDBIDParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultVector
-function gamestateMachineStateContextScript:GetPermanentVectorParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetPermanentVectorParameter(parameterName) end
 
 ---@param stateMachineName CName|string
 ---@return CName
-function gamestateMachineStateContextScript:GetStateMachineCurrentState(stateMachineName) return end
+function gamestateMachineStateContextScript:GetStateMachineCurrentState(stateMachineName) end
 
 ---@param stateMachineIdentifier gamestateMachineStateMachineIdentifier
 ---@return CName
-function gamestateMachineStateContextScript:GetStateMachineCurrentStateWithIdentifier(stateMachineIdentifier) return end
+function gamestateMachineStateContextScript:GetStateMachineCurrentStateWithIdentifier(stateMachineIdentifier) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultBool
-function gamestateMachineStateContextScript:GetTemporaryBoolParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetTemporaryBoolParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultCName
-function gamestateMachineStateContextScript:GetTemporaryCNameParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetTemporaryCNameParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultFloat
-function gamestateMachineStateContextScript:GetTemporaryFloatParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetTemporaryFloatParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultInt
-function gamestateMachineStateContextScript:GetTemporaryIntParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetTemporaryIntParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return IScriptable
-function gamestateMachineStateContextScript:GetTemporaryScriptableParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetTemporaryScriptableParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return TweakDBID
-function gamestateMachineStateContextScript:GetTemporaryTweakDBIDParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetTemporaryTweakDBIDParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return gamestateMachineResultVector
-function gamestateMachineStateContextScript:GetTemporaryVectorParameter(parameterName) return end
+function gamestateMachineStateContextScript:GetTemporaryVectorParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@param isPermanent? Bool
 ---@return Vector4
-function gamestateMachineStateContextScript:GetVectorParameter(parameterName, isPermanent) return end
+function gamestateMachineStateContextScript:GetVectorParameter(parameterName, isPermanent) end
 
 ---@param stateMachineName CName|string
 ---@param stateName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:IsStateActive(stateMachineName, stateName) return end
+function gamestateMachineStateContextScript:IsStateActive(stateMachineName, stateName) end
 
 ---@param stateMachineIdentifier gamestateMachineStateMachineIdentifier
 ---@param stateName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:IsStateActiveWithIdentifier(stateMachineIdentifier, stateName) return end
+function gamestateMachineStateContextScript:IsStateActiveWithIdentifier(stateMachineIdentifier, stateName) end
 
 ---@param stateMachineName CName|string
 ---@param stateName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:IsStateJustBecomeActive(stateMachineName, stateName) return end
+function gamestateMachineStateContextScript:IsStateJustBecomeActive(stateMachineName, stateName) end
 
 ---@param stateMachineIdentifier gamestateMachineStateMachineIdentifier
 ---@param stateName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:IsStateJustBecomeActiveWithIdentifier(stateMachineIdentifier, stateName) return end
+function gamestateMachineStateContextScript:IsStateJustBecomeActiveWithIdentifier(stateMachineIdentifier, stateName) end
 
 ---@param stateMachineName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:IsStateMachineActive(stateMachineName) return end
+function gamestateMachineStateContextScript:IsStateMachineActive(stateMachineName) end
 
 ---@param stateMachineIdentifier gamestateMachineStateMachineIdentifier
 ---@return Bool
-function gamestateMachineStateContextScript:IsStateMachineActiveWithIdentifier(stateMachineIdentifier) return end
+function gamestateMachineStateContextScript:IsStateMachineActiveWithIdentifier(stateMachineIdentifier) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionBoolParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionBoolParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionCNameParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionCNameParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionFloatParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionFloatParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionIntParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionIntParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionScriptableParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionScriptableParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionTweakDBIDParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionTweakDBIDParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionVectorParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionVectorParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemoveConditionWeakScriptableParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemoveConditionWeakScriptableParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemovePermanentBoolParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemovePermanentBoolParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemovePermanentCNameParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemovePermanentCNameParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemovePermanentFloatParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemovePermanentFloatParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemovePermanentIntParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemovePermanentIntParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemovePermanentScriptableParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemovePermanentScriptableParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemovePermanentTweakDBIDParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemovePermanentTweakDBIDParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@return Bool
-function gamestateMachineStateContextScript:RemovePermanentVectorParameter(parameterName) return end
+function gamestateMachineStateContextScript:RemovePermanentVectorParameter(parameterName) end
 
 ---@param parameterName CName|string
 ---@param value Bool
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionBoolParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionBoolParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value CName|string
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionCNameParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionCNameParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Float
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionFloatParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionFloatParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Int32
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionIntParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionIntParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value IScriptable
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionScriptableParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionScriptableParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value TweakDBID|string
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionTweakDBIDParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionTweakDBIDParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Vector4
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionVectorParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionVectorParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value IScriptable
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetConditionWeakScriptableParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetConditionWeakScriptableParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Bool
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetPermanentBoolParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetPermanentBoolParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value CName|string
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetPermanentCNameParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetPermanentCNameParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Float
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetPermanentFloatParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetPermanentFloatParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Int32
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetPermanentIntParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetPermanentIntParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value IScriptable
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetPermanentScriptableParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetPermanentScriptableParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value TweakDBID|string
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetPermanentTweakDBIDParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetPermanentTweakDBIDParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Vector4
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetPermanentVectorParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetPermanentVectorParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Bool
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetTemporaryBoolParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetTemporaryBoolParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value CName|string
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetTemporaryCNameParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetTemporaryCNameParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Float
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetTemporaryFloatParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetTemporaryFloatParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Int32
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetTemporaryIntParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetTemporaryIntParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value IScriptable
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetTemporaryScriptableParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetTemporaryScriptableParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value TweakDBID|string
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetTemporaryTweakDBIDParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetTemporaryTweakDBIDParameter(parameterName, value, force) end
 
 ---@param parameterName CName|string
 ---@param value Vector4
 ---@param force? Bool
 ---@return nil
-function gamestateMachineStateContextScript:SetTemporaryVectorParameter(parameterName, value, force) return end
+function gamestateMachineStateContextScript:SetTemporaryVectorParameter(parameterName, value, force) end

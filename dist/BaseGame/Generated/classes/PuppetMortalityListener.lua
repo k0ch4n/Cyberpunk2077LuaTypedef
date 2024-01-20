@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class PuppetMortalityListener: gameScriptStatsListener
----@field public state PuppetMortalPrereqState
+---@field state PuppetMortalPrereqState
 PuppetMortalityListener = {}
 
 ---@param fields? PuppetMortalityListener
 ---@return PuppetMortalityListener
-function PuppetMortalityListener.new(fields) return end
+function PuppetMortalityListener.new(fields) end
 
 ---@param ownerID entEntityID
 ---@param newType gameGodModeType
 ---@return nil
-function PuppetMortalityListener:OnGodModeChanged(ownerID, newType) return end
+function PuppetMortalityListener:OnGodModeChanged(ownerID, newType) end

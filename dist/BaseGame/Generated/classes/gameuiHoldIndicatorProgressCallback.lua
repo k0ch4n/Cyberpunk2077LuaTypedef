@@ -5,4 +5,4 @@ gameuiHoldIndicatorProgressCallback = {}
 
 ---@param fields? gameuiHoldIndicatorProgressCallback
 ---@return gameuiHoldIndicatorProgressCallback
-function gameuiHoldIndicatorProgressCallback.new(fields) return end
+function gameuiHoldIndicatorProgressCallback.new(fields) end

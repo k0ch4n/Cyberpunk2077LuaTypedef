@@ -5,4 +5,4 @@ effectFogVolumePlayData = {}
 
 ---@param fields? effectFogVolumePlayData
 ---@return effectFogVolumePlayData
-function effectFogVolumePlayData.new(fields) return end
+function effectFogVolumePlayData.new(fields) end

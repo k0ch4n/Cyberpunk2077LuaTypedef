@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameuiIndexedAppearanceDefinition
----@field public index Int32
----@field public color Color
----@field public icon TweakDBID
----@field public name CName
----@field public localizedName String
----@field public actions gameuiCharacterCustomizationAction[]
----@field public tags redTagList
+---@field index Int32
+---@field color Color
+---@field icon TweakDBID
+---@field name CName
+---@field localizedName String
+---@field actions gameuiCharacterCustomizationAction[]
+---@field tags redTagList
 gameuiIndexedAppearanceDefinition = {}
 
 ---@param fields? gameuiIndexedAppearanceDefinition
 ---@return gameuiIndexedAppearanceDefinition
-function gameuiIndexedAppearanceDefinition.new(fields) return end
+function gameuiIndexedAppearanceDefinition.new(fields) end

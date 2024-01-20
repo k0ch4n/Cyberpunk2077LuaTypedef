@@ -5,7 +5,7 @@ QuickHackHighPitchNoise = {}
 
 ---@param fields? QuickHackHighPitchNoise
 ---@return QuickHackHighPitchNoise
-function QuickHackHighPitchNoise.new(fields) return end
+function QuickHackHighPitchNoise.new(fields) end
 
 ---@return nil
-function QuickHackHighPitchNoise:SetProperties() return end
+function QuickHackHighPitchNoise:SetProperties() end

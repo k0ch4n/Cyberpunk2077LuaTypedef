@@ -5,4 +5,4 @@ EquipmentUIBBRequest = {}
 
 ---@param fields? EquipmentUIBBRequest
 ---@return EquipmentUIBBRequest
-function EquipmentUIBBRequest.new(fields) return end
+function EquipmentUIBBRequest.new(fields) end

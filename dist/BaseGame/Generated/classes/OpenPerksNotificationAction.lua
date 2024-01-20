@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class OpenPerksNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
+---@field eventDispatcher worlduiIWidgetGameController
 OpenPerksNotificationAction = {}
 
 ---@param fields? OpenPerksNotificationAction
 ---@return OpenPerksNotificationAction
-function OpenPerksNotificationAction.new(fields) return end
+function OpenPerksNotificationAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function OpenPerksNotificationAction:Execute(data) return end
+function OpenPerksNotificationAction:Execute(data) end
 
 ---@return String
-function OpenPerksNotificationAction:GetLabel() return end
+function OpenPerksNotificationAction:GetLabel() end
 
----@private
 ---@return nil
-function OpenPerksNotificationAction:ShowPerks() return end
+function OpenPerksNotificationAction:ShowPerks() end

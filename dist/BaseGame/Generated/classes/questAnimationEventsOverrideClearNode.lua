@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questAnimationEventsOverrideClearNode: questIAudioNodeType
----@field public resetGlobalOverride Bool
----@field public resetActorsOverride Bool
+---@field resetGlobalOverride Bool
+---@field resetActorsOverride Bool
 questAnimationEventsOverrideClearNode = {}
 
 ---@param fields? questAnimationEventsOverrideClearNode
 ---@return questAnimationEventsOverrideClearNode
-function questAnimationEventsOverrideClearNode.new(fields) return end
+function questAnimationEventsOverrideClearNode.new(fields) end

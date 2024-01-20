@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EndLookatEvent: redEvent
----@field public repeat Bool
+---@field repeat Bool
 EndLookatEvent = {}
 
 ---@param fields? EndLookatEvent
 ---@return EndLookatEvent
-function EndLookatEvent.new(fields) return end
+function EndLookatEvent.new(fields) end

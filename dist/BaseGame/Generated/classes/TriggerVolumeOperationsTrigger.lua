@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TriggerVolumeOperationsTrigger: DeviceOperationsTrigger
----@field protected triggerData TriggerVolumeOperationTriggerData
+---@field triggerData TriggerVolumeOperationTriggerData
 TriggerVolumeOperationsTrigger = {}
 
 ---@param fields? TriggerVolumeOperationsTrigger
 ---@return TriggerVolumeOperationsTrigger
-function TriggerVolumeOperationsTrigger.new(fields) return end
+function TriggerVolumeOperationsTrigger.new(fields) end
 
 ---@param componentName CName|string
 ---@param owner gameObject
@@ -14,4 +14,4 @@ function TriggerVolumeOperationsTrigger.new(fields) return end
 ---@param operationType ETriggerOperationType
 ---@param container DeviceOperationsContainer
 ---@return nil
-function TriggerVolumeOperationsTrigger:EvaluateTrigger(componentName, owner, activator, operationType, container) return end
+function TriggerVolumeOperationsTrigger:EvaluateTrigger(componentName, owner, activator, operationType, container) end

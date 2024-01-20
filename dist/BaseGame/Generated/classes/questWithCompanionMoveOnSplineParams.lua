@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class questWithCompanionMoveOnSplineParams
----@field public movementType AIMovementTypeSpec
----@field public facingTargetRef questUniversalRef
----@field public rotateEntityTowardsFacingTarget Bool
----@field public snapToTerrain Bool
----@field public shootingTargetRef questUniversalRef
----@field public companionRef questUniversalRef
----@field public companionDistancePreset gamedataCompanionDistancePreset
----@field public companionPosition questCompanionPositions
----@field public catchUpWithCompanion Bool
----@field public teleportToCompanion Bool
----@field public useMatchForSpeedForPlayer Bool
----@field public ignoreNavigation Bool
----@field public ignoreLineOfSightCheck Bool
----@field public useOffMeshLinkReservation Bool
----@field public lookAtTargetRef questUniversalRef
----@field public minSearchAngle Float
----@field public maxSearchAngle Float
----@field public interruptCapability scnInterruptCapability
----@field public maxCompanionDistanceOnSpline Float
+---@field movementType AIMovementTypeSpec
+---@field facingTargetRef questUniversalRef
+---@field rotateEntityTowardsFacingTarget Bool
+---@field snapToTerrain Bool
+---@field shootingTargetRef questUniversalRef
+---@field companionRef questUniversalRef
+---@field companionDistancePreset gamedataCompanionDistancePreset
+---@field companionPosition questCompanionPositions
+---@field catchUpWithCompanion Bool
+---@field teleportToCompanion Bool
+---@field useMatchForSpeedForPlayer Bool
+---@field ignoreNavigation Bool
+---@field ignoreLineOfSightCheck Bool
+---@field useOffMeshLinkReservation Bool
+---@field lookAtTargetRef questUniversalRef
+---@field minSearchAngle Float
+---@field maxSearchAngle Float
+---@field interruptCapability scnInterruptCapability
+---@field maxCompanionDistanceOnSpline Float
 questWithCompanionMoveOnSplineParams = {}
 
 ---@param fields? questWithCompanionMoveOnSplineParams
 ---@return questWithCompanionMoveOnSplineParams
-function questWithCompanionMoveOnSplineParams.new(fields) return end
+function questWithCompanionMoveOnSplineParams.new(fields) end

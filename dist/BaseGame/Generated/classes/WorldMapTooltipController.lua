@@ -1,87 +1,78 @@
 ---@meta
 
 ---@class WorldMapTooltipController: WorldMapTooltipBaseController
----@field protected titleText inkTextWidgetReference
----@field protected fixerIcon inkImageWidgetReference
----@field protected descText inkTextWidgetReference
----@field protected additionalDescText inkTextWidgetReference
----@field protected lineBreak inkWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected ep1Icon inkImageWidgetReference
----@field protected inputOpenJournalContainer inkCompoundWidgetReference
----@field protected inputInteractContainer inkCompoundWidgetReference
----@field protected inputMoreInfoContainer inkCompoundWidgetReference
----@field protected threatLevelPanel inkWidgetReference
----@field protected threatLevelValue inkTextWidgetReference
----@field protected fixerPanel inkWidgetReference
----@field protected linkImage inkImageWidgetReference
----@field private gigProgress Float
----@field private bar inkWidgetReference
----@field private barAnimationProxy inkanimProxy
----@field private animationProxy inkanimProxy
----@field private gigBarCompletedText inkTextWidgetReference
----@field private gigBarTotalText inkTextWidgetReference
+---@field titleText inkTextWidgetReference
+---@field fixerIcon inkImageWidgetReference
+---@field descText inkTextWidgetReference
+---@field additionalDescText inkTextWidgetReference
+---@field lineBreak inkWidgetReference
+---@field icon inkImageWidgetReference
+---@field ep1Icon inkImageWidgetReference
+---@field inputOpenJournalContainer inkCompoundWidgetReference
+---@field inputInteractContainer inkCompoundWidgetReference
+---@field inputMoreInfoContainer inkCompoundWidgetReference
+---@field threatLevelPanel inkWidgetReference
+---@field threatLevelValue inkTextWidgetReference
+---@field fixerPanel inkWidgetReference
+---@field linkImage inkImageWidgetReference
+---@field gigProgress Float
+---@field bar inkWidgetReference
+---@field barAnimationProxy inkanimProxy
+---@field animationProxy inkanimProxy
+---@field gigBarCompletedText inkTextWidgetReference
+---@field gigBarTotalText inkTextWidgetReference
 WorldMapTooltipController = {}
 
 ---@param fields? WorldMapTooltipController
 ---@return WorldMapTooltipController
-function WorldMapTooltipController.new(fields) return end
+function WorldMapTooltipController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function WorldMapTooltipController:OnFixerProgressBarAnim(anim) return end
+function WorldMapTooltipController:OnFixerProgressBarAnim(anim) end
 
----@protected
 ---@param e inkCallbackData
 ---@return Bool
-function WorldMapTooltipController:OnIconCallback(e) return end
+function WorldMapTooltipController:OnIconCallback(e) end
 
----@protected
 ---@return Bool
-function WorldMapTooltipController:OnInitialize() return end
+function WorldMapTooltipController:OnInitialize() end
 
----@private
 ---@param objective gameJournalQuestObjective
 ---@param widget inkImageWidgetReference
 ---@param journalManager gameJournalManager
 ---@return nil
-function WorldMapTooltipController:DisplayAttachedImage(objective, widget, journalManager) return end
+function WorldMapTooltipController:DisplayAttachedImage(objective, widget, journalManager) end
 
----@private
 ---@param poiMappin gamemappinsPointOfInterestMappin
 ---@param journalManager gameJournalManager
 ---@return gamedataPurchaseOffer_Record
-function WorldMapTooltipController:GetApartmentOfferForMapPin(poiMappin, journalManager) return end
+function WorldMapTooltipController:GetApartmentOfferForMapPin(poiMappin, journalManager) end
 
----@protected
 ---@param playerLevel Int32
 ---@param recommendedLvl Int32
 ---@return CName
-function WorldMapTooltipController:GetLevelState(playerLevel, recommendedLvl) return end
+function WorldMapTooltipController:GetLevelState(playerLevel, recommendedLvl) end
 
----@private
 ---@param poiMappin gamemappinsPointOfInterestMappin
 ---@param journalManager gameJournalManager
 ---@return gamedataVehicleOffer_Record
-function WorldMapTooltipController:GetVehicleOfferForMapPin(poiMappin, journalManager) return end
+function WorldMapTooltipController:GetVehicleOfferForMapPin(poiMappin, journalManager) end
 
----@private
 ---@param vehicleObject vehicleBaseObject
 ---@param player gameObject
 ---@return Bool
-function WorldMapTooltipController:IsVehicleUnlocked(vehicleObject, player) return end
+function WorldMapTooltipController:IsVehicleUnlocked(vehicleObject, player) end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@return nil
-function WorldMapTooltipController:PlayAnim(animName, callBack) return end
+function WorldMapTooltipController:PlayAnim(animName, callBack) end
 
----@protected
 ---@return nil
-function WorldMapTooltipController:Reset() return end
+function WorldMapTooltipController:Reset() end
 
 ---@param data WorldMapTooltipData
 ---@param menu gameuiWorldMapMenuGameController
 ---@return nil
-function WorldMapTooltipController:SetData(data, menu) return end
+function WorldMapTooltipController:SetData(data, menu) end

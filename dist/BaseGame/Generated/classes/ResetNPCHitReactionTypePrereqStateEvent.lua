@@ -5,4 +5,4 @@ ResetNPCHitReactionTypePrereqStateEvent = {}
 
 ---@param fields? ResetNPCHitReactionTypePrereqStateEvent
 ---@return ResetNPCHitReactionTypePrereqStateEvent
-function ResetNPCHitReactionTypePrereqStateEvent.new(fields) return end
+function ResetNPCHitReactionTypePrereqStateEvent.new(fields) end

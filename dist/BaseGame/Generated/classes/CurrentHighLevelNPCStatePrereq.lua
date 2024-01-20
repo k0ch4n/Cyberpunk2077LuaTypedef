@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class CurrentHighLevelNPCStatePrereq: gameIScriptablePrereq
----@field public valueToCheck gamedataNPCHighLevelState
----@field public invert Bool
+---@field valueToCheck gamedataNPCHighLevelState
+---@field invert Bool
 CurrentHighLevelNPCStatePrereq = {}
 
 ---@param fields? CurrentHighLevelNPCStatePrereq
 ---@return CurrentHighLevelNPCStatePrereq
-function CurrentHighLevelNPCStatePrereq.new(fields) return end
+function CurrentHighLevelNPCStatePrereq.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return nil
-function CurrentHighLevelNPCStatePrereq:Initialize(record) return end
+function CurrentHighLevelNPCStatePrereq:Initialize(record) end
 
 ---@param context IScriptable
 ---@return Bool
-function CurrentHighLevelNPCStatePrereq:IsFulfilled(context) return end
+function CurrentHighLevelNPCStatePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function CurrentHighLevelNPCStatePrereq:OnApplied(state, context) return end
+function CurrentHighLevelNPCStatePrereq:OnApplied(state, context) end

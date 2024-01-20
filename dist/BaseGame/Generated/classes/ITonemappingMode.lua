@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class ITonemappingMode: ISerializable
----@field public colorPreservation curveData
+---@field colorPreservation curveData
 ITonemappingMode = {}

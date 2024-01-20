@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GlitchData
----@field public intensity Float
----@field public state EGlitchState
+---@field intensity Float
+---@field state EGlitchState
 GlitchData = {}
 
 ---@param fields? GlitchData
 ---@return GlitchData
-function GlitchData.new(fields) return end
+function GlitchData.new(fields) end

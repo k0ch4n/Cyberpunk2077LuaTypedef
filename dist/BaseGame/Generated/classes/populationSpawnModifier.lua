@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class populationSpawnModifier: populationModifier
----@field public spawnParameter gameObjectSpawnParameter
+---@field spawnParameter gameObjectSpawnParameter
 populationSpawnModifier = {}
 
 ---@param fields? populationSpawnModifier
 ---@return populationSpawnModifier
-function populationSpawnModifier.new(fields) return end
+function populationSpawnModifier.new(fields) end

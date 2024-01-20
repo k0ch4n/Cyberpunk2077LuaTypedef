@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ChangeActiveContextRequest: gamePlayerScriptableSystemRequest
----@field public newContext inputContextType
+---@field newContext inputContextType
 ChangeActiveContextRequest = {}
 
 ---@param fields? ChangeActiveContextRequest
 ---@return ChangeActiveContextRequest
-function ChangeActiveContextRequest.new(fields) return end
+function ChangeActiveContextRequest.new(fields) end

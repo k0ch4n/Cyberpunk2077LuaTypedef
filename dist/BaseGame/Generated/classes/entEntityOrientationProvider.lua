@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class entEntityOrientationProvider: entIOrientationProvider
----@field public slotComponent entSlotComponent
----@field public slotId Int32
----@field public entity entEntity
----@field public orientationEntitySpace Quaternion
+---@field slotComponent entSlotComponent
+---@field slotId Int32
+---@field entity entEntity
+---@field orientationEntitySpace Quaternion
 entEntityOrientationProvider = {}
 
 ---@param fields? entEntityOrientationProvider
 ---@return entEntityOrientationProvider
-function entEntityOrientationProvider.new(fields) return end
+function entEntityOrientationProvider.new(fields) end

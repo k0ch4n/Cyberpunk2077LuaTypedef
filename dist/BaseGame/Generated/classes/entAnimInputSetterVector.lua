@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimInputSetterVector: entAnimInputSetter
----@field public value Vector4
+---@field value Vector4
 entAnimInputSetterVector = {}
 
 ---@param fields? entAnimInputSetterVector
 ---@return entAnimInputSetterVector
-function entAnimInputSetterVector.new(fields) return end
+function entAnimInputSetterVector.new(fields) end

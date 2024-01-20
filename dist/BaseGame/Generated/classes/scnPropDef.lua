@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class scnPropDef
----@field public propId scnPropId
----@field public propName String
----@field public specPropRecordId TweakDBID
----@field public animSets scnRidAnimSetSRRefId[]
----@field public cinematicAnimSets scnCinematicAnimSetSRRefId[]
----@field public dynamicAnimSets scnDynamicAnimSetSRRefId[]
----@field public entityAcquisitionPlan scnEntityAcquisitionPlan
----@field public findEntityInEntityParams scnFindEntityInEntityParams
----@field public spawnDespawnParams scnSpawnDespawnEntityParams
----@field public spawnSetParams scnSpawnSetParams
----@field public communityParams scnCommunityParams
----@field public spawnerParams scnSpawnerParams
----@field public findEntityInNodeParams scnFindEntityInNodeParams
----@field public findEntityInWorldParams scnFindEntityInWorldParams
+---@field propId scnPropId
+---@field propName String
+---@field specPropRecordId TweakDBID
+---@field animSets scnRidAnimSetSRRefId[]
+---@field cinematicAnimSets scnCinematicAnimSetSRRefId[]
+---@field dynamicAnimSets scnDynamicAnimSetSRRefId[]
+---@field entityAcquisitionPlan scnEntityAcquisitionPlan
+---@field findEntityInEntityParams scnFindEntityInEntityParams
+---@field spawnDespawnParams scnSpawnDespawnEntityParams
+---@field spawnSetParams scnSpawnSetParams
+---@field communityParams scnCommunityParams
+---@field spawnerParams scnSpawnerParams
+---@field findEntityInNodeParams scnFindEntityInNodeParams
+---@field findEntityInWorldParams scnFindEntityInWorldParams
 scnPropDef = {}
 
 ---@param fields? scnPropDef
 ---@return scnPropDef
-function scnPropDef.new(fields) return end
+function scnPropDef.new(fields) end

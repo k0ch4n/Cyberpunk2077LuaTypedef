@@ -5,15 +5,13 @@ DeviceConnectionHighlightComponent = {}
 
 ---@param fields? DeviceConnectionHighlightComponent
 ---@return DeviceConnectionHighlightComponent
-function DeviceConnectionHighlightComponent.new(fields) return end
+function DeviceConnectionHighlightComponent.new(fields) end
 
----@protected
 ---@param evt HighlightConnectionComponentEvent
 ---@return Bool
-function DeviceConnectionHighlightComponent:OnDeviceConnectionHighlightEvent(evt) return end
+function DeviceConnectionHighlightComponent:OnDeviceConnectionHighlightEvent(evt) end
 
----@private
 ---@param enable Bool
 ---@param target gameObject
 ---@return nil
-function DeviceConnectionHighlightComponent:SendForceVisionApperaceEvent(enable, target) return end
+function DeviceConnectionHighlightComponent:SendForceVisionApperaceEvent(enable, target) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DetectionParameters
----@field public canDetectIntruders Bool
----@field public timeToActionAfterSpot Float
----@field public overrideRootRotation Float
----@field public maxRotationAngle Float
----@field public pitchAngle Float
----@field public rotationSpeed Float
+---@field canDetectIntruders Bool
+---@field timeToActionAfterSpot Float
+---@field overrideRootRotation Float
+---@field maxRotationAngle Float
+---@field pitchAngle Float
+---@field rotationSpeed Float
 DetectionParameters = {}
 
 ---@param fields? DetectionParameters
 ---@return DetectionParameters
-function DetectionParameters.new(fields) return end
+function DetectionParameters.new(fields) end

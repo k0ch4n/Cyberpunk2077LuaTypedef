@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetInputStates: gameMuppetComponent
----@field public replicationTime netTime
+---@field replicationTime netTime
 gameMuppetInputStates = {}
 
 ---@param fields? gameMuppetInputStates
 ---@return gameMuppetInputStates
-function gameMuppetInputStates.new(fields) return end
+function gameMuppetInputStates.new(fields) end

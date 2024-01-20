@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiTarotCardAddedNotificationViewData: gameuiGenericNotificationViewData
----@field public imagePart CName
----@field public cardName String
----@field public animation CName
+---@field imagePart CName
+---@field cardName String
+---@field animation CName
 gameuiTarotCardAddedNotificationViewData = {}
 
 ---@param fields? gameuiTarotCardAddedNotificationViewData
 ---@return gameuiTarotCardAddedNotificationViewData
-function gameuiTarotCardAddedNotificationViewData.new(fields) return end
+function gameuiTarotCardAddedNotificationViewData.new(fields) end

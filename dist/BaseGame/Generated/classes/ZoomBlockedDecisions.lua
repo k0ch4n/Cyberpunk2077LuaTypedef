@@ -5,14 +5,14 @@ ZoomBlockedDecisions = {}
 
 ---@param fields? ZoomBlockedDecisions
 ---@return ZoomBlockedDecisions
-function ZoomBlockedDecisions.new(fields) return end
+function ZoomBlockedDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ZoomBlockedDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ZoomBlockedDecisions:EnterCondition(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ZoomBlockedDecisions:ExitCondition(stateContext, scriptInterface) return end
+function ZoomBlockedDecisions:ExitCondition(stateContext, scriptInterface) end

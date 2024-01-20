@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PhoneMessagePopupEvent: redEvent
----@field public data JournalNotificationData
+---@field data JournalNotificationData
 PhoneMessagePopupEvent = {}
 
 ---@param fields? PhoneMessagePopupEvent
 ---@return PhoneMessagePopupEvent
-function PhoneMessagePopupEvent.new(fields) return end
+function PhoneMessagePopupEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AITrafficWorkspotDefinition: worldTrafficSpotDefinition
----@field public workspotResource workWorkspotResource
+---@field workspotResource workWorkspotResource
 AITrafficWorkspotDefinition = {}
 
 ---@param fields? AITrafficWorkspotDefinition
 ---@return AITrafficWorkspotDefinition
-function AITrafficWorkspotDefinition.new(fields) return end
+function AITrafficWorkspotDefinition.new(fields) end

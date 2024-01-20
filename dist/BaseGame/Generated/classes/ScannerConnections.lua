@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class ScannerConnections: ScannerChunk
----@field private deviceConnections DeviceConnectionScannerData[]
+---@field deviceConnections DeviceConnectionScannerData[]
 ScannerConnections = {}
 
 ---@param fields? ScannerConnections
 ---@return ScannerConnections
-function ScannerConnections.new(fields) return end
+function ScannerConnections.new(fields) end
 
 ---@return DeviceConnectionScannerData[]
-function ScannerConnections:GetConnections() return end
+function ScannerConnections:GetConnections() end
 
 ---@return ScannerDataType
-function ScannerConnections:GetType() return end
+function ScannerConnections:GetType() end
 
 ---@return Bool
-function ScannerConnections:IsValid() return end
+function ScannerConnections:IsValid() end
 
 ---@param connections DeviceConnectionScannerData[]
 ---@return nil
-function ScannerConnections:Set(connections) return end
+function ScannerConnections:Set(connections) end

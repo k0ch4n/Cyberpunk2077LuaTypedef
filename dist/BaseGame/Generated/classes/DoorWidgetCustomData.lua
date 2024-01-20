@@ -1,32 +1,32 @@
 ---@meta
 
 ---@class DoorWidgetCustomData: WidgetCustomData
----@field private passcode Int32
----@field private card CName
----@field private isPasswordKnown Bool
+---@field passcode Int32
+---@field card CName
+---@field isPasswordKnown Bool
 DoorWidgetCustomData = {}
 
 ---@param fields? DoorWidgetCustomData
 ---@return DoorWidgetCustomData
-function DoorWidgetCustomData.new(fields) return end
+function DoorWidgetCustomData.new(fields) end
 
 ---@return CName
-function DoorWidgetCustomData:GetCardName() return end
+function DoorWidgetCustomData:GetCardName() end
 
 ---@return Int32
-function DoorWidgetCustomData:GetPasscode() return end
+function DoorWidgetCustomData:GetPasscode() end
 
 ---@return Bool
-function DoorWidgetCustomData:IsPasswordKnown() return end
+function DoorWidgetCustomData:IsPasswordKnown() end
 
 ---@param cardName CName|string
 ---@return nil
-function DoorWidgetCustomData:SetCardName(cardName) return end
+function DoorWidgetCustomData:SetCardName(cardName) end
 
 ---@param choice Bool
 ---@return nil
-function DoorWidgetCustomData:SetIsPasswordKnown(choice) return end
+function DoorWidgetCustomData:SetIsPasswordKnown(choice) end
 
 ---@param newCode Int32
 ---@return nil
-function DoorWidgetCustomData:SetPasscode(newCode) return end
+function DoorWidgetCustomData:SetPasscode(newCode) end

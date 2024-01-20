@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class CodexListItemController: inkListItemController
----@field protected doMarkNew Bool
----@field protected stateMapperRef inkWidgetReference
----@field protected stateMapper ListItemStateMapper
+---@field doMarkNew Bool
+---@field stateMapperRef inkWidgetReference
+---@field stateMapper ListItemStateMapper
 CodexListItemController = {}
 
 ---@param fields? CodexListItemController
 ---@return CodexListItemController
-function CodexListItemController.new(fields) return end
+function CodexListItemController.new(fields) end
 
----@protected
 ---@param value IScriptable
 ---@return Bool
-function CodexListItemController:OnDataChanged(value) return end
+function CodexListItemController:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function CodexListItemController:OnInitialize() return end
+function CodexListItemController:OnInitialize() end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function CodexListItemController:OnToggledOn(target) return end
+function CodexListItemController:OnToggledOn(target) end
 
----@protected
 ---@return nil
-function CodexListItemController:RemoveNew() return end
+function CodexListItemController:RemoveNew() end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class ItemDisplayClickEvent: redEvent
----@field public itemData gameInventoryItemData
----@field public displayContext gameItemDisplayContext
----@field public display InventoryItemDisplayController
----@field public isBuybackStack Bool
----@field public isQuestBought Bool
----@field public toggleVisibilityRequest Bool
----@field public transmogItem gameItemID
----@field public uiInventoryItem UIInventoryItem
----@field public displayContextData ItemDisplayContextData
----@field public additionalData IScriptable
----@field public evt inkPointerEvent
----@field public actionName inkActionName
+---@field itemData gameInventoryItemData
+---@field displayContext gameItemDisplayContext
+---@field display InventoryItemDisplayController
+---@field isBuybackStack Bool
+---@field isQuestBought Bool
+---@field toggleVisibilityRequest Bool
+---@field transmogItem gameItemID
+---@field uiInventoryItem UIInventoryItem
+---@field displayContextData ItemDisplayContextData
+---@field additionalData IScriptable
+---@field evt inkPointerEvent
+---@field actionName inkActionName
 ItemDisplayClickEvent = {}
 
 ---@param fields? ItemDisplayClickEvent
 ---@return ItemDisplayClickEvent
-function ItemDisplayClickEvent.new(fields) return end
+function ItemDisplayClickEvent.new(fields) end

@@ -5,13 +5,13 @@ gamedataStatPoolDistributionData_Record = {}
 
 ---@param fields? gamedataStatPoolDistributionData_Record
 ---@return gamedataStatPoolDistributionData_Record
-function gamedataStatPoolDistributionData_Record.new(fields) return end
+function gamedataStatPoolDistributionData_Record.new(fields) end
 
 ---@return gamedataStatPool_Record
-function gamedataStatPoolDistributionData_Record:StatPoolType() return end
+function gamedataStatPoolDistributionData_Record:StatPoolType() end
 
 ---@return gamedataStatPool_Record
-function gamedataStatPoolDistributionData_Record:StatPoolTypeHandle() return end
+function gamedataStatPoolDistributionData_Record:StatPoolTypeHandle() end
 
 ---@return Float
-function gamedataStatPoolDistributionData_Record:Value() return end
+function gamedataStatPoolDistributionData_Record:Value() end

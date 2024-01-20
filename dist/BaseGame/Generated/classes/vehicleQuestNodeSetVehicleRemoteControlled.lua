@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class vehicleQuestNodeSetVehicleRemoteControlled: redEvent
----@field public enable Bool
----@field public shouldUnseatPassengers Bool
----@field public shouldModifyInteractionState Bool
+---@field enable Bool
+---@field shouldUnseatPassengers Bool
+---@field shouldModifyInteractionState Bool
 vehicleQuestNodeSetVehicleRemoteControlled = {}
 
 ---@param fields? vehicleQuestNodeSetVehicleRemoteControlled
 ---@return vehicleQuestNodeSetVehicleRemoteControlled
-function vehicleQuestNodeSetVehicleRemoteControlled.new(fields) return end
+function vehicleQuestNodeSetVehicleRemoteControlled.new(fields) end

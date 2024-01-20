@@ -5,4 +5,4 @@ GrenadeRechargeDelayedEvent = {}
 
 ---@param fields? GrenadeRechargeDelayedEvent
 ---@return GrenadeRechargeDelayedEvent
-function GrenadeRechargeDelayedEvent.new(fields) return end
+function GrenadeRechargeDelayedEvent.new(fields) end

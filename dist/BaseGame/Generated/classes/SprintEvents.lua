@@ -1,100 +1,88 @@
 ---@meta
 
 ---@class SprintEvents: LocomotionGroundEvents
----@field public previousStimTimeStamp Float
----@field public reloadModifier gameStatModifierData_Deprecated
----@field public isInSecondSprint Bool
----@field public sprintModifier gameStatModifierData_Deprecated
----@field public sprintAnimBlocked Bool
+---@field previousStimTimeStamp Float
+---@field reloadModifier gameStatModifierData_Deprecated
+---@field isInSecondSprint Bool
+---@field sprintModifier gameStatModifierData_Deprecated
+---@field sprintAnimBlocked Bool
 SprintEvents = {}
 
 ---@param fields? SprintEvents
 ---@return SprintEvents
-function SprintEvents.new(fields) return end
+function SprintEvents.new(fields) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:AddMaxSpeedModifier(stateContext, scriptInterface) return end
+function SprintEvents:AddMaxSpeedModifier(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:ApplySprintAnimBlock(scriptInterface) return end
+function SprintEvents:ApplySprintAnimBlock(scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:CleanupTwoStepSprint(stateContext, scriptInterface) return end
+function SprintEvents:CleanupTwoStepSprint(stateContext, scriptInterface) end
 
----@protected
 ---@param enable Bool
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:EnableReloadStatModifier(enable, stateContext, scriptInterface) return end
+function SprintEvents:EnableReloadStatModifier(enable, stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:EvaluateTwoStepSprint(stateContext, scriptInterface) return end
+function SprintEvents:EvaluateTwoStepSprint(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function SprintEvents:GetReloadModifier(scriptInterface) return end
+function SprintEvents:GetReloadModifier(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:OnEnter(stateContext, scriptInterface) return end
+function SprintEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:OnExit(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function SprintEvents:OnExitToChargeJump(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function SprintEvents:OnExitToJump(stateContext, scriptInterface) return end
+function SprintEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:OnForcedExit(stateContext, scriptInterface) return end
+function SprintEvents:OnExitToChargeJump(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SprintEvents:OnExitToJump(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SprintEvents:OnForcedExit(stateContext, scriptInterface) end
+
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SprintEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:RemoveMaxSpeedModifier(stateContext, scriptInterface) return end
+function SprintEvents:RemoveMaxSpeedModifier(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SprintEvents:ShouldEnterSecondSprint(stateContext, scriptInterface) return end
+function SprintEvents:ShouldEnterSecondSprint(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintEvents:UpdateFootstepSprintStim(stateContext, scriptInterface) return end
+function SprintEvents:UpdateFootstepSprintStim(stateContext, scriptInterface) end

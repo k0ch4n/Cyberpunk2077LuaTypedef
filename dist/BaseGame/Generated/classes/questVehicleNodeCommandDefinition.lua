@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questVehicleNodeCommandDefinition: questAICommandNodeBase
----@field public vehicle gameEntityReference
----@field public commandParams questVehicleCommandParams
+---@field vehicle gameEntityReference
+---@field commandParams questVehicleCommandParams
 questVehicleNodeCommandDefinition = {}
 
 ---@param fields? questVehicleNodeCommandDefinition
 ---@return questVehicleNodeCommandDefinition
-function questVehicleNodeCommandDefinition.new(fields) return end
+function questVehicleNodeCommandDefinition.new(fields) end

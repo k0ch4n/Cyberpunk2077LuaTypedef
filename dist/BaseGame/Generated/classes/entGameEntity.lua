@@ -5,4 +5,4 @@ entGameEntity = {}
 
 ---@param fields? entGameEntity
 ---@return entGameEntity
-function entGameEntity.new(fields) return end
+function entGameEntity.new(fields) end

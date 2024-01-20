@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class FunctionalTestsDataMemoryStatsData: ISerializable
----@field public totalPhysicalMemory Uint64
----@field public availablePhysicalMemory Uint64
----@field public runtimeTotalBytesAllocated Uint64
----@field public cpuBytesAllocated Uint64
----@field public gpuBytesAllocated Uint64
----@field public totalAllocationCount Uint32
----@field public cpuAllocationCount Uint32
----@field public gpuAllocationCount Uint32
----@field public engineTick Uint64
----@field public lastTimeDelta Float
----@field public engineTime Double
----@field public rawLocalTime Uint64
----@field public playerPosition String
----@field public playerOrientation String
----@field public poolsRuntimeInfo FunctionalTestsDataMemoryPoolRuntimeData[]
----@field public poolsCurrentInfo FunctionalTestsDataMemoryPoolStaticData[]
+---@field totalPhysicalMemory Uint64
+---@field availablePhysicalMemory Uint64
+---@field runtimeTotalBytesAllocated Uint64
+---@field cpuBytesAllocated Uint64
+---@field gpuBytesAllocated Uint64
+---@field totalAllocationCount Uint32
+---@field cpuAllocationCount Uint32
+---@field gpuAllocationCount Uint32
+---@field engineTick Uint64
+---@field lastTimeDelta Float
+---@field engineTime Double
+---@field rawLocalTime Uint64
+---@field playerPosition String
+---@field playerOrientation String
+---@field poolsRuntimeInfo FunctionalTestsDataMemoryPoolRuntimeData[]
+---@field poolsCurrentInfo FunctionalTestsDataMemoryPoolStaticData[]
 FunctionalTestsDataMemoryStatsData = {}
 
 ---@param fields? FunctionalTestsDataMemoryStatsData
 ---@return FunctionalTestsDataMemoryStatsData
-function FunctionalTestsDataMemoryStatsData.new(fields) return end
+function FunctionalTestsDataMemoryStatsData.new(fields) end

@@ -1,49 +1,45 @@
 ---@meta
 
 ---@class ScannerResistancesGameController: BaseChunkGameController
----@field private physicalResistText inkTextWidgetReference
----@field private physicalResistContainer inkCompoundWidgetReference
----@field private thermalResistText inkTextWidgetReference
----@field private thermalResistContainer inkCompoundWidgetReference
----@field private chemicalResistText inkTextWidgetReference
----@field private chemicalResistContainer inkCompoundWidgetReference
----@field private electricResistText inkTextWidgetReference
----@field private electricResistContainer inkCompoundWidgetReference
----@field private hackingResistText inkTextWidgetReference
----@field private hackingResistContainer inkCompoundWidgetReference
----@field private physicalWeaknessText inkTextWidgetReference
----@field private physicalWeaknessContainer inkCompoundWidgetReference
----@field private thermalWeaknessText inkTextWidgetReference
----@field private thermalWeaknessContainer inkCompoundWidgetReference
----@field private chemicalWeaknessText inkTextWidgetReference
----@field private chemicalWeaknessContainer inkCompoundWidgetReference
----@field private electricWeaknessText inkTextWidgetReference
----@field private electricWeaknessContainer inkCompoundWidgetReference
----@field private hackingWeaknessText inkTextWidgetReference
----@field private hackingWeaknessContainer inkCompoundWidgetReference
----@field private leftPanel inkCompoundWidgetReference
----@field private rightPanel inkCompoundWidgetReference
----@field private resistancesCallbackID redCallbackObject
----@field private isValidResistances Bool
+---@field physicalResistText inkTextWidgetReference
+---@field physicalResistContainer inkCompoundWidgetReference
+---@field thermalResistText inkTextWidgetReference
+---@field thermalResistContainer inkCompoundWidgetReference
+---@field chemicalResistText inkTextWidgetReference
+---@field chemicalResistContainer inkCompoundWidgetReference
+---@field electricResistText inkTextWidgetReference
+---@field electricResistContainer inkCompoundWidgetReference
+---@field hackingResistText inkTextWidgetReference
+---@field hackingResistContainer inkCompoundWidgetReference
+---@field physicalWeaknessText inkTextWidgetReference
+---@field physicalWeaknessContainer inkCompoundWidgetReference
+---@field thermalWeaknessText inkTextWidgetReference
+---@field thermalWeaknessContainer inkCompoundWidgetReference
+---@field chemicalWeaknessText inkTextWidgetReference
+---@field chemicalWeaknessContainer inkCompoundWidgetReference
+---@field electricWeaknessText inkTextWidgetReference
+---@field electricWeaknessContainer inkCompoundWidgetReference
+---@field hackingWeaknessText inkTextWidgetReference
+---@field hackingWeaknessContainer inkCompoundWidgetReference
+---@field leftPanel inkCompoundWidgetReference
+---@field rightPanel inkCompoundWidgetReference
+---@field resistancesCallbackID redCallbackObject
+---@field isValidResistances Bool
 ScannerResistancesGameController = {}
 
 ---@param fields? ScannerResistancesGameController
 ---@return ScannerResistancesGameController
-function ScannerResistancesGameController.new(fields) return end
+function ScannerResistancesGameController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerResistancesGameController:OnInitialize() return end
+function ScannerResistancesGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerResistancesGameController:OnResistancesChanged(value) return end
+function ScannerResistancesGameController:OnResistancesChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerResistancesGameController:OnUninitialize() return end
+function ScannerResistancesGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ScannerResistancesGameController:UpdateGlobalVisibility() return end
+function ScannerResistancesGameController:UpdateGlobalVisibility() end

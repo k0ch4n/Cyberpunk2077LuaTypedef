@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class GetFollowTarget: FollowVehicleTask
----@field private blackboard gameIBlackboard
----@field private vehicle vehicleBaseObject
+---@field blackboard gameIBlackboard
+---@field vehicle vehicleBaseObject
 GetFollowTarget = {}
 
 ---@param fields? GetFollowTarget
 ---@return GetFollowTarget
-function GetFollowTarget.new(fields) return end
+function GetFollowTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetFollowTarget:Activate(context) return end
+function GetFollowTarget:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetFollowTarget:Deactivate(context) return end
+function GetFollowTarget:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function GetFollowTarget:Update(context) return end
+function GetFollowTarget:Update(context) end

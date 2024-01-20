@@ -5,4 +5,4 @@ AICoverHealthCoverSelection = {}
 
 ---@param fields? AICoverHealthCoverSelection
 ---@return AICoverHealthCoverSelection
-function AICoverHealthCoverSelection.new(fields) return end
+function AICoverHealthCoverSelection.new(fields) end

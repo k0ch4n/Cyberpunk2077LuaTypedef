@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldSpawnPointMarker: worldIMarker
----@field public type Uint32
+---@field type Uint32
 worldSpawnPointMarker = {}
 
 ---@param fields? worldSpawnPointMarker
 ---@return worldSpawnPointMarker
-function worldSpawnPointMarker.new(fields) return end
+function worldSpawnPointMarker.new(fields) end

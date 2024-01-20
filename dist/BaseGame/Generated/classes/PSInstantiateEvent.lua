@@ -5,4 +5,4 @@ PSInstantiateEvent = {}
 
 ---@param fields? PSInstantiateEvent
 ---@return PSInstantiateEvent
-function PSInstantiateEvent.new(fields) return end
+function PSInstantiateEvent.new(fields) end

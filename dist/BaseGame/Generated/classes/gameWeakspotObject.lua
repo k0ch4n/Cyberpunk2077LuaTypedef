@@ -5,20 +5,20 @@ gameWeakspotObject = {}
 
 ---@param fields? gameWeakspotObject
 ---@return gameWeakspotObject
-function gameWeakspotObject.new(fields) return end
+function gameWeakspotObject.new(fields) end
 
 ---@return gamedataWeakspot_Record
-function gameWeakspotObject:GetRecord() return end
+function gameWeakspotObject:GetRecord() end
 
 ---@return gameObject
-function gameWeakspotObject:GetReplicationInstigator() return end
+function gameWeakspotObject:GetReplicationInstigator() end
 
 ---@param instigator gameObject
 ---@return nil
-function gameWeakspotObject:SetReplicationInstigator(instigator) return end
+function gameWeakspotObject:SetReplicationInstigator(instigator) end
 
 ---@return Bool
-function gameWeakspotObject:IsInternal() return end
+function gameWeakspotObject:IsInternal() end
 
 ---@return Bool
-function gameWeakspotObject:IsInvulnerable() return end
+function gameWeakspotObject:IsInvulnerable() end

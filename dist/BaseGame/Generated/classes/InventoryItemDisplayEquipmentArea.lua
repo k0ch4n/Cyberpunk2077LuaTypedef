@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class InventoryItemDisplayEquipmentArea: inkWidgetLogicController
----@field protected equipmentAreas gamedataEquipmentArea[]
----@field protected numberOfSlots Int32
+---@field equipmentAreas gamedataEquipmentArea[]
+---@field numberOfSlots Int32
 InventoryItemDisplayEquipmentArea = {}
 
 ---@param fields? InventoryItemDisplayEquipmentArea
 ---@return InventoryItemDisplayEquipmentArea
-function InventoryItemDisplayEquipmentArea.new(fields) return end
+function InventoryItemDisplayEquipmentArea.new(fields) end
 
 ---@param categoryName String
 ---@return gamedataEquipmentArea
-function InventoryItemDisplayEquipmentArea.GetEquipmentAreaByName(categoryName) return end
+function InventoryItemDisplayEquipmentArea.GetEquipmentAreaByName(categoryName) end
 
 ---@return gamedataEquipmentArea[]
-function InventoryItemDisplayEquipmentArea:GetEquipmentAreas() return end
+function InventoryItemDisplayEquipmentArea:GetEquipmentAreas() end
 
 ---@return Int32
-function InventoryItemDisplayEquipmentArea:GetNumberOfSlots() return end
+function InventoryItemDisplayEquipmentArea:GetNumberOfSlots() end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldTransformBuffer
----@field public sharedDataBuffer worldSharedDataBuffer
----@field public startIndex Uint32
----@field public numElements Uint32
+---@field sharedDataBuffer worldSharedDataBuffer
+---@field startIndex Uint32
+---@field numElements Uint32
 worldTransformBuffer = {}
 
 ---@param fields? worldTransformBuffer
 ---@return worldTransformBuffer
-function worldTransformBuffer.new(fields) return end
+function worldTransformBuffer.new(fields) end

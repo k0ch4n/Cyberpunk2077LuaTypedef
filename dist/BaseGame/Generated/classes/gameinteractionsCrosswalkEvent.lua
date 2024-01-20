@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameinteractionsCrosswalkEvent: redEvent
----@field public trafficLightColor worldTrafficLightColor
----@field public oldTrafficLightColor worldTrafficLightColor
----@field public totalDistance Float
----@field public distanceLeft Float
+---@field trafficLightColor worldTrafficLightColor
+---@field oldTrafficLightColor worldTrafficLightColor
+---@field totalDistance Float
+---@field distanceLeft Float
 gameinteractionsCrosswalkEvent = {}
 
 ---@param fields? gameinteractionsCrosswalkEvent
 ---@return gameinteractionsCrosswalkEvent
-function gameinteractionsCrosswalkEvent.new(fields) return end
+function gameinteractionsCrosswalkEvent.new(fields) end

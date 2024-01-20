@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class graphGraphResource: CResource
----@field public graph graphGraphDefinition
+---@field graph graphGraphDefinition
 graphGraphResource = {}

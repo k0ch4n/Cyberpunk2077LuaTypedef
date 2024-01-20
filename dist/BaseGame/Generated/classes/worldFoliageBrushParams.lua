@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldFoliageBrushParams
----@field public Proximity Float
----@field public Scale Float
----@field public ScaleVariation Float
+---@field Proximity Float
+---@field Scale Float
+---@field ScaleVariation Float
 worldFoliageBrushParams = {}
 
 ---@param fields? worldFoliageBrushParams
 ---@return worldFoliageBrushParams
-function worldFoliageBrushParams.new(fields) return end
+function worldFoliageBrushParams.new(fields) end

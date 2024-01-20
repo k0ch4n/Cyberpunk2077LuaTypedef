@@ -5,4 +5,4 @@ SecuritySystemUIPS = {}
 
 ---@param fields? SecuritySystemUIPS
 ---@return SecuritySystemUIPS
-function SecuritySystemUIPS.new(fields) return end
+function SecuritySystemUIPS.new(fields) end

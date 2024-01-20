@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCommunitySpawnSetNameToID
----@field public entries gameCommunitySpawnSetNameToIDEntry[]
+---@field entries gameCommunitySpawnSetNameToIDEntry[]
 gameCommunitySpawnSetNameToID = {}
 
 ---@param fields? gameCommunitySpawnSetNameToID
 ---@return gameCommunitySpawnSetNameToID
-function gameCommunitySpawnSetNameToID.new(fields) return end
+function gameCommunitySpawnSetNameToID.new(fields) end

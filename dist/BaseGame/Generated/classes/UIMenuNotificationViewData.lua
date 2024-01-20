@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class UIMenuNotificationViewData: gameuiGenericNotificationViewData
----@field public animContainer inGameMenuAnimContainer
----@field public notificationType UIMenuNotificationType
+---@field animContainer inGameMenuAnimContainer
+---@field notificationType UIMenuNotificationType
 UIMenuNotificationViewData = {}
 
 ---@param fields? UIMenuNotificationViewData
 ---@return UIMenuNotificationViewData
-function UIMenuNotificationViewData.new(fields) return end
+function UIMenuNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function UIMenuNotificationViewData:CanMerge(data) return end
+function UIMenuNotificationViewData:CanMerge(data) end
 
 ---@param data IScriptable
 ---@return Bool
-function UIMenuNotificationViewData:OnRemoveNotification(data) return end
+function UIMenuNotificationViewData:OnRemoveNotification(data) end

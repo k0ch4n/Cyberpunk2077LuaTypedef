@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class EquipmentManipulationRequest: IScriptable
----@field public requestType EquipmentManipulationRequestType
----@field public requestSlot EquipmentManipulationRequestSlot
----@field public equipAnim gameEquipAnimationType
+---@field requestType EquipmentManipulationRequestType
+---@field requestSlot EquipmentManipulationRequestSlot
+---@field equipAnim gameEquipAnimationType
 EquipmentManipulationRequest = {}
 
 ---@param fields? EquipmentManipulationRequest
 ---@return EquipmentManipulationRequest
-function EquipmentManipulationRequest.new(fields) return end
+function EquipmentManipulationRequest.new(fields) end

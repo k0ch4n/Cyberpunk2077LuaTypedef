@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questCombatNodeParams_ShootAt: questCombatNodeParams
----@field public targetOverrideNode NodeRef
----@field public targetOverridePuppet gameEntityReference
----@field public duration Float
----@field public once Bool
----@field public immediately Bool
+---@field targetOverrideNode NodeRef
+---@field targetOverridePuppet gameEntityReference
+---@field duration Float
+---@field once Bool
+---@field immediately Bool
 questCombatNodeParams_ShootAt = {}
 
 ---@param fields? questCombatNodeParams_ShootAt
 ---@return questCombatNodeParams_ShootAt
-function questCombatNodeParams_ShootAt.new(fields) return end
+function questCombatNodeParams_ShootAt.new(fields) end

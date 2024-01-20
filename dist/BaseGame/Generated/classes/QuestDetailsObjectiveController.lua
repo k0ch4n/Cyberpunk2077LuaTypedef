@@ -1,42 +1,37 @@
 ---@meta
 
 ---@class QuestDetailsObjectiveController: inkWidgetLogicController
----@field private objectiveName inkTextWidgetReference
----@field private trackingMarker inkWidgetReference
----@field private root inkWidgetReference
----@field private objective gameJournalQuestObjective
----@field private journalManager gameJournalManager
----@field private hovered Bool
----@field private isTracked Bool
+---@field objectiveName inkTextWidgetReference
+---@field trackingMarker inkWidgetReference
+---@field root inkWidgetReference
+---@field objective gameJournalQuestObjective
+---@field journalManager gameJournalManager
+---@field hovered Bool
+---@field isTracked Bool
 QuestDetailsObjectiveController = {}
 
 ---@param fields? QuestDetailsObjectiveController
 ---@return QuestDetailsObjectiveController
-function QuestDetailsObjectiveController.new(fields) return end
+function QuestDetailsObjectiveController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function QuestDetailsObjectiveController:OnHoverOut(e) return end
+function QuestDetailsObjectiveController:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function QuestDetailsObjectiveController:OnHoverOver(e) return end
+function QuestDetailsObjectiveController:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function QuestDetailsObjectiveController:OnInitialize() return end
+function QuestDetailsObjectiveController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function QuestDetailsObjectiveController:OnRelease(e) return end
+function QuestDetailsObjectiveController:OnRelease(e) end
 
----@protected
 ---@param e UpdateTrackedObjectiveEvent
 ---@return Bool
-function QuestDetailsObjectiveController:OnUpdateTrackedObjectiveEvent(e) return end
+function QuestDetailsObjectiveController:OnUpdateTrackedObjectiveEvent(e) end
 
 ---@param objective gameJournalQuestObjective
 ---@param journalManager gameJournalManager
@@ -44,7 +39,7 @@ function QuestDetailsObjectiveController:OnUpdateTrackedObjectiveEvent(e) return
 ---@param totalCounter Int32
 ---@param isTracked? Bool
 ---@return nil
-function QuestDetailsObjectiveController:Setup(objective, journalManager, currentCounter, totalCounter, isTracked) return end
+function QuestDetailsObjectiveController:Setup(objective, journalManager, currentCounter, totalCounter, isTracked) end
 
 ---@return nil
-function QuestDetailsObjectiveController:UpdateState() return end
+function QuestDetailsObjectiveController:UpdateState() end

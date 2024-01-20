@@ -5,4 +5,4 @@ gameWeaponAudioComponent = {}
 
 ---@param fields? gameWeaponAudioComponent
 ---@return gameWeaponAudioComponent
-function gameWeaponAudioComponent.new(fields) return end
+function gameWeaponAudioComponent.new(fields) end

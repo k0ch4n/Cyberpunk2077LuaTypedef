@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ToggleVisibilityInAnimSystemEvent: redEvent
----@field public isVisible Bool
----@field public sourceName CName
----@field public transitionTime Float
+---@field isVisible Bool
+---@field sourceName CName
+---@field transitionTime Float
 ToggleVisibilityInAnimSystemEvent = {}
 
 ---@param fields? ToggleVisibilityInAnimSystemEvent
 ---@return ToggleVisibilityInAnimSystemEvent
-function ToggleVisibilityInAnimSystemEvent.new(fields) return end
+function ToggleVisibilityInAnimSystemEvent.new(fields) end

@@ -1,86 +1,71 @@
 ---@meta
 
 ---@class ClaymoreMine: gameweaponObject
----@field private visualComponent entMeshComponent
----@field private triggerAreaIndicator entMeshComponent
----@field private shootCollision entSimpleColliderComponent
----@field private triggerComponent gameStaticTriggerAreaComponent
----@field private alive Bool
----@field private armed Bool
+---@field visualComponent entMeshComponent
+---@field triggerAreaIndicator entMeshComponent
+---@field shootCollision entSimpleColliderComponent
+---@field triggerComponent gameStaticTriggerAreaComponent
+---@field alive Bool
+---@field armed Bool
 ClaymoreMine = {}
 
 ---@param fields? ClaymoreMine
 ---@return ClaymoreMine
-function ClaymoreMine.new(fields) return end
+function ClaymoreMine.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function ClaymoreMine:OnAreaEnter(evt) return end
+function ClaymoreMine:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function ClaymoreMine:OnAreaExit(evt) return end
+function ClaymoreMine:OnAreaExit(evt) end
 
----@protected
 ---@param evt MineArmEvent
 ---@return Bool
-function ClaymoreMine:OnArmed(evt) return end
+function ClaymoreMine:OnArmed(evt) end
 
----@protected
 ---@return Bool
-function ClaymoreMine:OnGameAttached() return end
+function ClaymoreMine:OnGameAttached() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function ClaymoreMine:OnHit(evt) return end
+function ClaymoreMine:OnHit(evt) end
 
----@protected
 ---@param evt PlaceMineEvent
 ---@return Bool
-function ClaymoreMine:OnMinePlace(evt) return end
+function ClaymoreMine:OnMinePlace(evt) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function ClaymoreMine:OnProjectileInitialize(eventData) return end
+function ClaymoreMine:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param evt MineDespawnEvent
 ---@return Bool
-function ClaymoreMine:OnRelease(evt) return end
+function ClaymoreMine:OnRelease(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ClaymoreMine:OnRequestComponents(ri) return end
+function ClaymoreMine:OnRequestComponents(ri) end
 
----@protected
 ---@param evt gameScanningEvent
 ---@return Bool
-function ClaymoreMine:OnScanningEvent(evt) return end
+function ClaymoreMine:OnScanningEvent(evt) end
 
----@protected
 ---@param evt gameScanningLookAtEvent
 ---@return Bool
-function ClaymoreMine:OnScanningLookedAt(evt) return end
+function ClaymoreMine:OnScanningLookedAt(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ClaymoreMine:OnTakeControl(ri) return end
+function ClaymoreMine:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function ClaymoreMine:AdjustRotation() return end
+function ClaymoreMine:AdjustRotation() end
 
----@private
 ---@return nil
-function ClaymoreMine:Explode() return end
+function ClaymoreMine:Explode() end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function ClaymoreMine:ToggleTriggerAreaIndicator(visible) return end
+function ClaymoreMine:ToggleTriggerAreaIndicator(visible) end

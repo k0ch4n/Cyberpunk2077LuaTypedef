@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AICTreeNodeParallelDefinition: AICTreeNodeChildrenListDefinition
----@field public forwardChildrenCompleteness Bool
+---@field forwardChildrenCompleteness Bool
 AICTreeNodeParallelDefinition = {}
 
 ---@param fields? AICTreeNodeParallelDefinition
 ---@return AICTreeNodeParallelDefinition
-function AICTreeNodeParallelDefinition.new(fields) return end
+function AICTreeNodeParallelDefinition.new(fields) end

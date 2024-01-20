@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class SetDesiredReaction: AIbehaviortaskScript
----@field public behaviorArgumentNameTag CName
----@field public behaviorArgumentFloatPriority CName
----@field public behaviorArgumentNameFlag CName
----@field protected reactionData AIReactionData
+---@field behaviorArgumentNameTag CName
+---@field behaviorArgumentFloatPriority CName
+---@field behaviorArgumentNameFlag CName
+---@field reactionData AIReactionData
 SetDesiredReaction = {}
 
 ---@param fields? SetDesiredReaction
 ---@return SetDesiredReaction
-function SetDesiredReaction.new(fields) return end
+function SetDesiredReaction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetDesiredReaction:Activate(context) return end
+function SetDesiredReaction:Activate(context) end

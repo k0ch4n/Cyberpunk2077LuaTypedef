@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class BossStealthComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private player PlayerPuppet
----@field private statPoolSystem gameStatPoolsSystem
----@field private statPoolType gamedataStatPoolType
----@field private targetTrackerComponent AITargetTrackerComponent
+---@field owner NPCPuppet
+---@field owner_id entEntityID
+---@field player PlayerPuppet
+---@field statPoolSystem gameStatPoolsSystem
+---@field statPoolType gamedataStatPoolType
+---@field targetTrackerComponent AITargetTrackerComponent
 BossStealthComponent = {}
 
 ---@param fields? BossStealthComponent
 ---@return BossStealthComponent
-function BossStealthComponent.new(fields) return end
+function BossStealthComponent.new(fields) end
 
----@protected
 ---@param evt NonStealthQuickHackVictimEvent
 ---@return Bool
-function BossStealthComponent:OnNonStealthQuickHackVictimEvent(evt) return end
+function BossStealthComponent:OnNonStealthQuickHackVictimEvent(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function BossStealthComponent:OnStatusEffectApplied(evt) return end
+function BossStealthComponent:OnStatusEffectApplied(evt) end
 
----@private
 ---@return nil
-function BossStealthComponent:OnGameAttach() return end
+function BossStealthComponent:OnGameAttach() end

@@ -1,48 +1,48 @@
 ---@meta
 
 ---@class rendRenderParticleBlobEmitterInfo
----@field public emitterHash Uint64
----@field public diffuseWrapFactor Float
----@field public backLightingFactor Float
----@field public lightingMipBias Uint32
----@field public maskInsideCar Bool
----@field public maskInsideInterior Bool
----@field public maskAboveWater Bool
----@field public maskUnderWater Bool
----@field public maxParticles Uint32
----@field public emitterLoops Int8
----@field public internalPriority Uint8
----@field public keepSimulationLocal Bool
----@field public killOnCollision Bool
----@field public initialParticleCount Uint8
----@field public useSubFrameEmission Bool
----@field public windInfluence Float
----@field public particleType Uint32
----@field public vertexDrawerType Uint32
----@field public simulationType Uint32
----@field public envColorGroup Uint32
----@field public emitterGroup Uint32
----@field public renderObjectType ERenderObjectType
----@field public numModifiers Uint32
----@field public modifierSetMask Uint64
----@field public numInitializers Uint32
----@field public initializerSetMask Uint64
----@field public simulationHash Uint64
----@field public eventSetMask Uint16
----@field public seeds Uint32[]
----@field public lods rendEmitterLOD[]
----@field public volumetricParticleEnabled Bool
----@field public volumetricParticleRelative Bool
----@field public volumetricParticleUseFogColor Bool
----@field public volumetricParticleColor HDRColor
----@field public volumetricParticleSize Float
----@field public volumetricParticleDensity Float
----@field public volumetricParticleFalloff Float
----@field public volumetricParticleNoiseScale Float
----@field public volumetricParticleNoiseThreshold Float
----@field public volumetricParticleNoiseVelocity Vector3
+---@field emitterHash Uint64
+---@field diffuseWrapFactor Float
+---@field backLightingFactor Float
+---@field lightingMipBias Uint32
+---@field maskInsideCar Bool
+---@field maskInsideInterior Bool
+---@field maskAboveWater Bool
+---@field maskUnderWater Bool
+---@field maxParticles Uint32
+---@field emitterLoops Int8
+---@field internalPriority Uint8
+---@field keepSimulationLocal Bool
+---@field killOnCollision Bool
+---@field initialParticleCount Uint8
+---@field useSubFrameEmission Bool
+---@field windInfluence Float
+---@field particleType Uint32
+---@field vertexDrawerType Uint32
+---@field simulationType Uint32
+---@field envColorGroup Uint32
+---@field emitterGroup Uint32
+---@field renderObjectType ERenderObjectType
+---@field numModifiers Uint32
+---@field modifierSetMask Uint64
+---@field numInitializers Uint32
+---@field initializerSetMask Uint64
+---@field simulationHash Uint64
+---@field eventSetMask Uint16
+---@field seeds Uint32[]
+---@field lods rendEmitterLOD[]
+---@field volumetricParticleEnabled Bool
+---@field volumetricParticleRelative Bool
+---@field volumetricParticleUseFogColor Bool
+---@field volumetricParticleColor HDRColor
+---@field volumetricParticleSize Float
+---@field volumetricParticleDensity Float
+---@field volumetricParticleFalloff Float
+---@field volumetricParticleNoiseScale Float
+---@field volumetricParticleNoiseThreshold Float
+---@field volumetricParticleNoiseVelocity Vector3
 rendRenderParticleBlobEmitterInfo = {}
 
 ---@param fields? rendRenderParticleBlobEmitterInfo
 ---@return rendRenderParticleBlobEmitterInfo
-function rendRenderParticleBlobEmitterInfo.new(fields) return end
+function rendRenderParticleBlobEmitterInfo.new(fields) end

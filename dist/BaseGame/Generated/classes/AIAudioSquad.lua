@@ -5,4 +5,4 @@ AIAudioSquad = {}
 
 ---@param fields? AIAudioSquad
 ---@return AIAudioSquad
-function AIAudioSquad.new(fields) return end
+function AIAudioSquad.new(fields) end

@@ -5,4 +5,4 @@ itempreviewUIObjectsLoaderSystemListener = {}
 
 ---@param fields? itempreviewUIObjectsLoaderSystemListener
 ---@return itempreviewUIObjectsLoaderSystemListener
-function itempreviewUIObjectsLoaderSystemListener.new(fields) return end
+function itempreviewUIObjectsLoaderSystemListener.new(fields) end

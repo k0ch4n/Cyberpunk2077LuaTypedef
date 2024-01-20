@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class NCPDJobDoneNotification: JournalNotification
----@field private NCPD_Reward inkWidgetReference
----@field private NCPD_XP_RewardText inkTextWidgetReference
----@field private NCPD_SC_RewardText inkTextWidgetReference
+---@field NCPD_Reward inkWidgetReference
+---@field NCPD_XP_RewardText inkTextWidgetReference
+---@field NCPD_SC_RewardText inkTextWidgetReference
 NCPDJobDoneNotification = {}
 
 ---@param fields? NCPDJobDoneNotification
 ---@return NCPDJobDoneNotification
-function NCPDJobDoneNotification.new(fields) return end
+function NCPDJobDoneNotification.new(fields) end
 
----@protected
 ---@return Bool
-function NCPDJobDoneNotification:OnInitialize() return end
+function NCPDJobDoneNotification:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function NCPDJobDoneNotification:OnInteractionUpdate(value) return end
+function NCPDJobDoneNotification:OnInteractionUpdate(value) end
 
----@protected
 ---@return Bool
-function NCPDJobDoneNotification:OnNotificationPaused() return end
+function NCPDJobDoneNotification:OnNotificationPaused() end
 
----@protected
 ---@return Bool
-function NCPDJobDoneNotification:OnNotificationResumed() return end
+function NCPDJobDoneNotification:OnNotificationResumed() end
 
----@protected
 ---@return Bool
-function NCPDJobDoneNotification:OnUninitialize() return end
+function NCPDJobDoneNotification:OnUninitialize() end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function NCPDJobDoneNotification:SetNotificationData(notificationData) return end
+function NCPDJobDoneNotification:SetNotificationData(notificationData) end

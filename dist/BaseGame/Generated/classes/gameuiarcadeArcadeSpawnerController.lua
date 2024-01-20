@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeSpawnerController: inkWidgetLogicController
----@field public objectLibraryID CName
----@field public initialObjectsCount Uint32
+---@field objectLibraryID CName
+---@field initialObjectsCount Uint32
 gameuiarcadeArcadeSpawnerController = {}
 
 ---@param fields? gameuiarcadeArcadeSpawnerController
 ---@return gameuiarcadeArcadeSpawnerController
-function gameuiarcadeArcadeSpawnerController.new(fields) return end
+function gameuiarcadeArcadeSpawnerController.new(fields) end

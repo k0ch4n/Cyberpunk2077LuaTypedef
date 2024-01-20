@@ -5,8 +5,8 @@ NPCGrappledByPlayerPrereq = {}
 
 ---@param fields? NPCGrappledByPlayerPrereq
 ---@return NPCGrappledByPlayerPrereq
-function NPCGrappledByPlayerPrereq.new(fields) return end
+function NPCGrappledByPlayerPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCGrappledByPlayerPrereq:IsFulfilled(context) return end
+function NPCGrappledByPlayerPrereq:IsFulfilled(context) end

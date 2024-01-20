@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameinteractionsvisBluelinePart: IScriptable
----@field public passed Bool
----@field public captionIconRecordId TweakDBID
+---@field passed Bool
+---@field captionIconRecordId TweakDBID
 gameinteractionsvisBluelinePart = {}
 
 ---@param fields? gameinteractionsvisBluelinePart
 ---@return gameinteractionsvisBluelinePart
-function gameinteractionsvisBluelinePart.new(fields) return end
+function gameinteractionsvisBluelinePart.new(fields) end

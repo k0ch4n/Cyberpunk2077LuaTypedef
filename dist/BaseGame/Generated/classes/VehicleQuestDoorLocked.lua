@@ -5,7 +5,7 @@ VehicleQuestDoorLocked = {}
 
 ---@param fields? VehicleQuestDoorLocked
 ---@return VehicleQuestDoorLocked
-function VehicleQuestDoorLocked.new(fields) return end
+function VehicleQuestDoorLocked.new(fields) end
 
 ---@return nil
-function VehicleQuestDoorLocked:SetProperties() return end
+function VehicleQuestDoorLocked:SetProperties() end

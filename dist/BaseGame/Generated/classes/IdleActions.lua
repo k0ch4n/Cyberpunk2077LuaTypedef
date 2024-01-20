@@ -5,13 +5,13 @@ IdleActions = {}
 
 ---@param fields? IdleActions
 ---@return IdleActions
-function IdleActions.new(fields) return end
+function IdleActions.new(fields) end
 
 ---@return String
-function IdleActions:GetFriendlyName() return end
+function IdleActions:GetFriendlyName() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param smartCompositeID TweakDBID|string
 ---@param smartCompositeDebugName String
 ---@return Bool, gamedataAIActionSmartComposite_Record smartCompositeRecord
-function IdleActions:GetSmartCompositeRecord(context, smartCompositeID, smartCompositeDebugName) return end
+function IdleActions:GetSmartCompositeRecord(context, smartCompositeID, smartCompositeDebugName) end

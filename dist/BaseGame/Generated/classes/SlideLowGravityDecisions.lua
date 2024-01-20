@@ -5,22 +5,19 @@ SlideLowGravityDecisions = {}
 
 ---@param fields? SlideLowGravityDecisions
 ---@return SlideLowGravityDecisions
-function SlideLowGravityDecisions.new(fields) return end
+function SlideLowGravityDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideLowGravityDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SlideLowGravityDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideLowGravityDecisions:ShouldExit(stateContext, scriptInterface) return end
+function SlideLowGravityDecisions:ShouldExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideLowGravityDecisions:ToCrouchLowGravity(stateContext, scriptInterface) return end
+function SlideLowGravityDecisions:ToCrouchLowGravity(stateContext, scriptInterface) end

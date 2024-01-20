@@ -5,9 +5,8 @@ GenerateHeatAroundLastTriggeredStimuli = {}
 
 ---@param fields? GenerateHeatAroundLastTriggeredStimuli
 ---@return GenerateHeatAroundLastTriggeredStimuli
-function GenerateHeatAroundLastTriggeredStimuli.new(fields) return end
+function GenerateHeatAroundLastTriggeredStimuli.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GenerateHeatAroundLastTriggeredStimuli:Activate(context) return end
+function GenerateHeatAroundLastTriggeredStimuli:Activate(context) end

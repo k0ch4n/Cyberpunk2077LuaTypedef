@@ -5,4 +5,4 @@ animAnimNode_StageFloatEntry = {}
 
 ---@param fields? animAnimNode_StageFloatEntry
 ---@return animAnimNode_StageFloatEntry
-function animAnimNode_StageFloatEntry.new(fields) return end
+function animAnimNode_StageFloatEntry.new(fields) end

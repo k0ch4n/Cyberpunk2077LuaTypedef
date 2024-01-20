@@ -5,4 +5,4 @@ gameeventsStealthMappinCheckLootEvent = {}
 
 ---@param fields? gameeventsStealthMappinCheckLootEvent
 ---@return gameeventsStealthMappinCheckLootEvent
-function gameeventsStealthMappinCheckLootEvent.new(fields) return end
+function gameeventsStealthMappinCheckLootEvent.new(fields) end

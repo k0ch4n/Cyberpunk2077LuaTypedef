@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SCustomActionOperationData
----@field public actionID CName
----@field public operation SBaseDeviceOperationData
+---@field actionID CName
+---@field operation SBaseDeviceOperationData
 SCustomActionOperationData = {}
 
 ---@param fields? SCustomActionOperationData
 ---@return SCustomActionOperationData
-function SCustomActionOperationData.new(fields) return end
+function SCustomActionOperationData.new(fields) end

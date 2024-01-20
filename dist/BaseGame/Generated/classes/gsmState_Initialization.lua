@@ -5,4 +5,4 @@ gsmState_Initialization = {}
 
 ---@param fields? gsmState_Initialization
 ---@return gsmState_Initialization
-function gsmState_Initialization.new(fields) return end
+function gsmState_Initialization.new(fields) end

@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class StimRequestID
----@field public ID Uint32
----@field public isValid Bool
+---@field ID Uint32
+---@field isValid Bool
 StimRequestID = {}
 
 ---@param fields? StimRequestID
 ---@return StimRequestID
-function StimRequestID.new(fields) return end
+function StimRequestID.new(fields) end
 
 ---@param self StimRequestID
 ---@return Uint32
-function StimRequestID.GetID(self) return end
+function StimRequestID.GetID(self) end
 
 ---@param self StimRequestID
 ---@return Bool
-function StimRequestID.IsValid(self) return end
+function StimRequestID.IsValid(self) end

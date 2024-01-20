@@ -5,25 +5,21 @@ TimeDilationPSMPrereq = {}
 
 ---@param fields? TimeDilationPSMPrereq
 ---@return TimeDilationPSMPrereq
-function TimeDilationPSMPrereq.new(fields) return end
+function TimeDilationPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function TimeDilationPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function TimeDilationPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function TimeDilationPSMPrereq:GetStateMachineEnum() return end
+function TimeDilationPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function TimeDilationPSMPrereq:OnRegister(state, context) return end
+function TimeDilationPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function TimeDilationPSMPrereq:OnUnregister(state, context) return end
+function TimeDilationPSMPrereq:OnUnregister(state, context) end

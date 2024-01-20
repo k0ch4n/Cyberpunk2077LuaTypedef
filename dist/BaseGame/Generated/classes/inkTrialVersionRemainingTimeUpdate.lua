@@ -5,4 +5,4 @@ inkTrialVersionRemainingTimeUpdate = {}
 
 ---@param fields? inkTrialVersionRemainingTimeUpdate
 ---@return inkTrialVersionRemainingTimeUpdate
-function inkTrialVersionRemainingTimeUpdate.new(fields) return end
+function inkTrialVersionRemainingTimeUpdate.new(fields) end

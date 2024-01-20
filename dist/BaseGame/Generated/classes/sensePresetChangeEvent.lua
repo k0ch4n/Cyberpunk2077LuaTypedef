@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class sensePresetChangeEvent: senseVisibilityEvent
----@field public presetID TweakDBID
----@field public mainPreset Bool
----@field public reset Bool
+---@field presetID TweakDBID
+---@field mainPreset Bool
+---@field reset Bool
 sensePresetChangeEvent = {}
 
 ---@param fields? sensePresetChangeEvent
 ---@return sensePresetChangeEvent
-function sensePresetChangeEvent.new(fields) return end
+function sensePresetChangeEvent.new(fields) end

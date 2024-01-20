@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class vehicleChangeStateEvent: redEvent
----@field public newState vehicleEState
----@field public oldState vehicleEState
+---@field newState vehicleEState
+---@field oldState vehicleEState
 vehicleChangeStateEvent = {}
 
 ---@param fields? vehicleChangeStateEvent
 ---@return vehicleChangeStateEvent
-function vehicleChangeStateEvent.new(fields) return end
+function vehicleChangeStateEvent.new(fields) end

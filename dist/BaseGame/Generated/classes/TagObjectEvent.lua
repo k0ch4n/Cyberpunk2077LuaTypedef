@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TagObjectEvent: redEvent
----@field public isTagged Bool
+---@field isTagged Bool
 TagObjectEvent = {}
 
 ---@param fields? TagObjectEvent
 ---@return TagObjectEvent
-function TagObjectEvent.new(fields) return end
+function TagObjectEvent.new(fields) end
 
 ---@return String
-function TagObjectEvent:GetFriendlyDescription() return end
+function TagObjectEvent:GetFriendlyDescription() end

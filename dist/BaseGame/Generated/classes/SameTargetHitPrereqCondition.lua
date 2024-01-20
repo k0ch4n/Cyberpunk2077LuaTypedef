@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SameTargetHitPrereqCondition: BaseHitPrereqCondition
----@field public previousTarget gameObject
----@field public previousSource gameObject
----@field public previousWeapon gameweaponObject
+---@field previousTarget gameObject
+---@field previousSource gameObject
+---@field previousWeapon gameweaponObject
 SameTargetHitPrereqCondition = {}
 
 ---@param fields? SameTargetHitPrereqCondition
 ---@return SameTargetHitPrereqCondition
-function SameTargetHitPrereqCondition.new(fields) return end
+function SameTargetHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function SameTargetHitPrereqCondition:Evaluate(hitEvent) return end
+function SameTargetHitPrereqCondition:Evaluate(hitEvent) end

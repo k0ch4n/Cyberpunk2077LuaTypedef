@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class effectEffectParameterEvaluatorFloat
----@field public evaluator IEvaluatorFloat
----@field public inputParameterOverride CName
----@field public inputParameterIsPostMultiplier Bool
+---@field evaluator IEvaluatorFloat
+---@field inputParameterOverride CName
+---@field inputParameterIsPostMultiplier Bool
 effectEffectParameterEvaluatorFloat = {}
 
 ---@param fields? effectEffectParameterEvaluatorFloat
 ---@return effectEffectParameterEvaluatorFloat
-function effectEffectParameterEvaluatorFloat.new(fields) return end
+function effectEffectParameterEvaluatorFloat.new(fields) end

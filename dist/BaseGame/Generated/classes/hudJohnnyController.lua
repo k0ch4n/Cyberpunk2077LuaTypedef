@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class hudJohnnyController: gameuiHUDGameController
----@field private tourHeader inkTextWidgetReference
----@field private leftDates inkTextWidgetReference
----@field private rightDates inkTextWidgetReference
----@field private cancelled inkWidgetReference
----@field private gameInstance ScriptGameInstance
+---@field tourHeader inkTextWidgetReference
+---@field leftDates inkTextWidgetReference
+---@field rightDates inkTextWidgetReference
+---@field cancelled inkWidgetReference
+---@field gameInstance ScriptGameInstance
 hudJohnnyController = {}
 
 ---@param fields? hudJohnnyController
 ---@return hudJohnnyController
-function hudJohnnyController.new(fields) return end
+function hudJohnnyController.new(fields) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudJohnnyController:OnPlayerAttach(playerPuppet) return end
+function hudJohnnyController:OnPlayerAttach(playerPuppet) end

@@ -5,4 +5,4 @@ entAnimationExtensionAttachment = {}
 
 ---@param fields? entAnimationExtensionAttachment
 ---@return entAnimationExtensionAttachment
-function entAnimationExtensionAttachment.new(fields) return end
+function entAnimationExtensionAttachment.new(fields) end

@@ -4,4 +4,4 @@
 DeviceSystemBaseController = {}
 
 ---@return DeviceSystemBaseControllerPS
-function DeviceSystemBaseController:GetPS() return end
+function DeviceSystemBaseController:GetPS() end

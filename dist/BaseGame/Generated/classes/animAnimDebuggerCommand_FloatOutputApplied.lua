@@ -5,4 +5,4 @@ animAnimDebuggerCommand_FloatOutputApplied = {}
 
 ---@param fields? animAnimDebuggerCommand_FloatOutputApplied
 ---@return animAnimDebuggerCommand_FloatOutputApplied
-function animAnimDebuggerCommand_FloatOutputApplied.new(fields) return end
+function animAnimDebuggerCommand_FloatOutputApplied.new(fields) end

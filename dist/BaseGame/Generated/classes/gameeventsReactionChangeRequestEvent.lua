@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameeventsReactionChangeRequestEvent: redEvent
----@field public reactionPresetRecord gamedataReactionPreset_Record
+---@field reactionPresetRecord gamedataReactionPreset_Record
 gameeventsReactionChangeRequestEvent = {}

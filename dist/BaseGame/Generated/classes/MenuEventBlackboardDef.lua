@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class MenuEventBlackboardDef: gamebbScriptDefinition
----@field public MenuEventToTrigger gamebbScriptID_CName
+---@field MenuEventToTrigger gamebbScriptID_CName
 MenuEventBlackboardDef = {}
 
 ---@param fields? MenuEventBlackboardDef
 ---@return MenuEventBlackboardDef
-function MenuEventBlackboardDef.new(fields) return end
+function MenuEventBlackboardDef.new(fields) end
 
 ---@return Bool
-function MenuEventBlackboardDef:AutoCreateInSystem() return end
+function MenuEventBlackboardDef:AutoCreateInSystem() end

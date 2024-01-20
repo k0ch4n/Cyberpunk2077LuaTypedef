@@ -5,4 +5,4 @@ StanceNPCStatePrereqState = {}
 
 ---@param fields? StanceNPCStatePrereqState
 ---@return StanceNPCStatePrereqState
-function StanceNPCStatePrereqState.new(fields) return end
+function StanceNPCStatePrereqState.new(fields) end

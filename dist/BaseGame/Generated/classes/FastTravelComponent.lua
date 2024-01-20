@@ -1,40 +1,34 @@
 ---@meta
 
 ---@class FastTravelComponent: gameScriptableComponent
----@field private fastTravelNodes gameFastTravelPointData[]
+---@field fastTravelNodes gameFastTravelPointData[]
 FastTravelComponent = {}
 
 ---@param fields? FastTravelComponent
 ---@return FastTravelComponent
-function FastTravelComponent.new(fields) return end
+function FastTravelComponent.new(fields) end
 
----@protected
 ---@param evt FastTravelDeviceAction
 ---@return Bool
-function FastTravelComponent:OnFastTravelAction(evt) return end
+function FastTravelComponent:OnFastTravelAction(evt) end
 
----@protected
 ---@param evt RegisterFastTravelPointsEvent
 ---@return Bool
-function FastTravelComponent:OnRegisterFastTravelPoints(evt) return end
+function FastTravelComponent:OnRegisterFastTravelPoints(evt) end
 
----@private
 ---@return FastTravelSystem
-function FastTravelComponent:GetFastTravelSystem() return end
+function FastTravelComponent:GetFastTravelSystem() end
 
 ---@return gameFastTravelPointData[]
-function FastTravelComponent:GetFasttravelNodes() return end
+function FastTravelComponent:GetFasttravelNodes() end
 
----@protected
 ---@return nil
-function FastTravelComponent:OnGameAttach() return end
+function FastTravelComponent:OnGameAttach() end
 
----@protected
 ---@return nil
-function FastTravelComponent:OnGameDetach() return end
+function FastTravelComponent:OnGameDetach() end
 
----@private
 ---@param pointData gameFastTravelPointData
 ---@param player gameObject
 ---@return nil
-function FastTravelComponent:PerformFastTravel(pointData, player) return end
+function FastTravelComponent:PerformFastTravel(pointData, player) end

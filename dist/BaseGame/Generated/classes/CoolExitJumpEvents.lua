@@ -5,10 +5,9 @@ CoolExitJumpEvents = {}
 
 ---@param fields? CoolExitJumpEvents
 ---@return CoolExitJumpEvents
-function CoolExitJumpEvents.new(fields) return end
+function CoolExitJumpEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CoolExitJumpEvents:OnEnter(stateContext, scriptInterface) return end
+function CoolExitJumpEvents:OnEnter(stateContext, scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PreloadAnimationsEvent: redEvent
----@field public streamingContextName CName
----@field public highPriority Bool
+---@field streamingContextName CName
+---@field highPriority Bool
 PreloadAnimationsEvent = {}
 
 ---@param fields? PreloadAnimationsEvent
 ---@return PreloadAnimationsEvent
-function PreloadAnimationsEvent.new(fields) return end
+function PreloadAnimationsEvent.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CraftingNotificationViewData: gameuiGenericNotificationViewData
----@field public canBeMerged Bool
+---@field canBeMerged Bool
 CraftingNotificationViewData = {}
 
 ---@param fields? CraftingNotificationViewData
 ---@return CraftingNotificationViewData
-function CraftingNotificationViewData.new(fields) return end
+function CraftingNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function CraftingNotificationViewData:CanMerge(data) return end
+function CraftingNotificationViewData:CanMerge(data) end

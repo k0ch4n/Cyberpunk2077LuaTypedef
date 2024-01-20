@@ -5,4 +5,4 @@ SimpleTemporalCustomData = {}
 
 ---@param fields? SimpleTemporalCustomData
 ---@return SimpleTemporalCustomData
-function SimpleTemporalCustomData.new(fields) return end
+function SimpleTemporalCustomData.new(fields) end

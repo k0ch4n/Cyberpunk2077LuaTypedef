@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIAssignRoleCommand: AICommand
----@field public role AIRole
+---@field role AIRole
 AIAssignRoleCommand = {}
 
 ---@param fields? AIAssignRoleCommand
 ---@return AIAssignRoleCommand
-function AIAssignRoleCommand.new(fields) return end
+function AIAssignRoleCommand.new(fields) end

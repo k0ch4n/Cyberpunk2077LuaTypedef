@@ -5,7 +5,7 @@ QuestForceStopReplacingStream = {}
 
 ---@param fields? QuestForceStopReplacingStream
 ---@return QuestForceStopReplacingStream
-function QuestForceStopReplacingStream.new(fields) return end
+function QuestForceStopReplacingStream.new(fields) end
 
 ---@return nil
-function QuestForceStopReplacingStream:SetProperties() return end
+function QuestForceStopReplacingStream:SetProperties() end

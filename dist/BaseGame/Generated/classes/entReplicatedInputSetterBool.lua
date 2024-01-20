@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entReplicatedInputSetterBool: entReplicatedInputSetterBase
----@field public value Bool
+---@field value Bool
 entReplicatedInputSetterBool = {}
 
 ---@param fields? entReplicatedInputSetterBool
 ---@return entReplicatedInputSetterBool
-function entReplicatedInputSetterBool.new(fields) return end
+function entReplicatedInputSetterBool.new(fields) end

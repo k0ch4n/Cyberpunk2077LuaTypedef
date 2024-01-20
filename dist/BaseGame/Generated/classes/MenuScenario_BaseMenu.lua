@@ -1,63 +1,53 @@
 ---@meta
 
 ---@class MenuScenario_BaseMenu: inkMenuScenario
----@field protected currMenuName CName
----@field protected currUserData IScriptable
----@field protected currSubMenuName CName
----@field protected prevMenuName CName
+---@field currMenuName CName
+---@field currUserData IScriptable
+---@field currSubMenuName CName
+---@field prevMenuName CName
 MenuScenario_BaseMenu = {}
 
 ---@param fields? MenuScenario_BaseMenu
 ---@return MenuScenario_BaseMenu
-function MenuScenario_BaseMenu.new(fields) return end
+function MenuScenario_BaseMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_BaseMenu:OnBack() return end
+function MenuScenario_BaseMenu:OnBack() end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_BaseMenu:OnLeaveScenario(nextScenario) return end
+function MenuScenario_BaseMenu:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return nil
-function MenuScenario_BaseMenu:CloseMenu() return end
+function MenuScenario_BaseMenu:CloseMenu() end
 
----@protected
 ---@return nil
-function MenuScenario_BaseMenu:CloseSubMenu() return end
+function MenuScenario_BaseMenu:CloseSubMenu() end
 
----@protected
 ---@return nil
-function MenuScenario_BaseMenu:GotoIdleState() return end
+function MenuScenario_BaseMenu:GotoIdleState() end
 
----@protected
 ---@param menuName CName|string
 ---@param userData? IScriptable
 ---@param context? ScreenDisplayContext
 ---@return nil
-function MenuScenario_BaseMenu:OpenMenu(menuName, userData, context) return end
+function MenuScenario_BaseMenu:OpenMenu(menuName, userData, context) end
 
----@protected
 ---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return nil
-function MenuScenario_BaseMenu:OpenSubMenu(menuName, userData) return end
+function MenuScenario_BaseMenu:OpenSubMenu(menuName, userData) end
 
----@protected
 ---@param context ScreenDisplayContext
 ---@return nil
-function MenuScenario_BaseMenu:SetContext(context) return end
+function MenuScenario_BaseMenu:SetContext(context) end
 
----@private
 ---@param context ScreenDisplayContext
 ---@return nil
-function MenuScenario_BaseMenu:SetDisplayContext(context) return end
+function MenuScenario_BaseMenu:SetDisplayContext(context) end
 
----@protected
 ---@param menuName CName|string
 ---@param userData? IScriptable
 ---@param context? ScreenDisplayContext
 ---@return nil
-function MenuScenario_BaseMenu:SwitchMenu(menuName, userData, context) return end
+function MenuScenario_BaseMenu:SwitchMenu(menuName, userData, context) end

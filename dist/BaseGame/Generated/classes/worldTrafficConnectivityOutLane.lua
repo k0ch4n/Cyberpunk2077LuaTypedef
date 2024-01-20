@@ -5,4 +5,4 @@ worldTrafficConnectivityOutLane = {}
 
 ---@param fields? worldTrafficConnectivityOutLane
 ---@return worldTrafficConnectivityOutLane
-function worldTrafficConnectivityOutLane.new(fields) return end
+function worldTrafficConnectivityOutLane.new(fields) end

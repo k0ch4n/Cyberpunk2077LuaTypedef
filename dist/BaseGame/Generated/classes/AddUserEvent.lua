@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AddUserEvent: redEvent
----@field public userEntry SecuritySystemClearanceEntry
+---@field userEntry SecuritySystemClearanceEntry
 AddUserEvent = {}
 
 ---@param fields? AddUserEvent
 ---@return AddUserEvent
-function AddUserEvent.new(fields) return end
+function AddUserEvent.new(fields) end

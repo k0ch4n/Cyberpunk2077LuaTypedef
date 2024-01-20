@@ -5,19 +5,16 @@ BraindanceModule = {}
 
 ---@param fields? BraindanceModule
 ---@return BraindanceModule
-function BraindanceModule.new(fields) return end
+function BraindanceModule.new(fields) end
 
----@protected
 ---@param actor gameHudActor
 ---@return BraindanceInstance
-function BraindanceModule:DuplicateLastInstance(actor) return end
+function BraindanceModule:DuplicateLastInstance(actor) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob task
-function BraindanceModule:Process(mode) return end
+function BraindanceModule:Process(mode) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob[] jobs
-function BraindanceModule:Process(mode) return end
+function BraindanceModule:Process(mode) end

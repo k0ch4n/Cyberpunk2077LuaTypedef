@@ -5,4 +5,4 @@ AIbehaviorFSMStateWrapper = {}
 
 ---@param fields? AIbehaviorFSMStateWrapper
 ---@return AIbehaviorFSMStateWrapper
-function AIbehaviorFSMStateWrapper.new(fields) return end
+function AIbehaviorFSMStateWrapper.new(fields) end

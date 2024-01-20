@@ -1,43 +1,37 @@
 ---@meta
 
 ---@class WardrobeControllerPS: ScriptableDeviceComponentPS
----@field protected clothingSets gameClothingSet[]
----@field protected hasInteraction Bool
+---@field clothingSets gameClothingSet[]
+---@field hasInteraction Bool
 WardrobeControllerPS = {}
 
 ---@param fields? WardrobeControllerPS
 ---@return WardrobeControllerPS
-function WardrobeControllerPS.new(fields) return end
+function WardrobeControllerPS.new(fields) end
 
----@protected
 ---@param executor gameObject
 ---@return OpenWardrobeUI
-function WardrobeControllerPS:ActionOpenWardrobeUI(executor) return end
+function WardrobeControllerPS:ActionOpenWardrobeUI(executor) end
 
----@protected
 ---@return nil
-function WardrobeControllerPS:FirstInit() return end
+function WardrobeControllerPS:FirstInit() end
 
----@protected
 ---@return nil
-function WardrobeControllerPS:GameAttached() return end
+function WardrobeControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function WardrobeControllerPS:GetActions(context) return end
+function WardrobeControllerPS:GetActions(context) end
 
 ---@return Bool
-function WardrobeControllerPS:HasInteraction() return end
+function WardrobeControllerPS:HasInteraction() end
 
----@protected
 ---@return nil
-function WardrobeControllerPS:InitializeWardrobeFromStash() return end
+function WardrobeControllerPS:InitializeWardrobeFromStash() end
 
----@protected
 ---@return nil
-function WardrobeControllerPS:LogicReady() return end
+function WardrobeControllerPS:LogicReady() end
 
----@protected
 ---@param evt OpenWardrobeUI
 ---@return EntityNotificationType
-function WardrobeControllerPS:OnOpenWardrobeUI(evt) return end
+function WardrobeControllerPS:OnOpenWardrobeUI(evt) end

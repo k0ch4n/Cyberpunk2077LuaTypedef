@@ -5,7 +5,7 @@ QuestForceRoadBlockadeDeactivate = {}
 
 ---@param fields? QuestForceRoadBlockadeDeactivate
 ---@return QuestForceRoadBlockadeDeactivate
-function QuestForceRoadBlockadeDeactivate.new(fields) return end
+function QuestForceRoadBlockadeDeactivate.new(fields) end
 
 ---@return nil
-function QuestForceRoadBlockadeDeactivate:SetProperties() return end
+function QuestForceRoadBlockadeDeactivate:SetProperties() end

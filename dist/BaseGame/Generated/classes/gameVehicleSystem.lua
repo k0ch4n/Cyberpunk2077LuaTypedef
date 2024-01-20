@@ -1,101 +1,100 @@
 ---@meta
 
 ---@class gameVehicleSystem: gameIVehicleSystem
----@field private restrictionTags CName[]
+---@field restrictionTags CName[]
 gameVehicleSystem = {}
 
 ---@param fields? gameVehicleSystem
 ---@return gameVehicleSystem
-function gameVehicleSystem.new(fields) return end
+function gameVehicleSystem.new(fields) end
 
 ---@return Bool
-function gameVehicleSystem.IsPlayerInVehicle() return end
+function gameVehicleSystem.IsPlayerInVehicle() end
 
 ---@return Bool
-function gameVehicleSystem.IsSummoningVehiclesRestricted() return end
-
----@param vehicleID entEntityID
----@return Bool
-function gameVehicleSystem:CanDriverShootInCarChase(vehicleID) return end
+function gameVehicleSystem.IsSummoningVehiclesRestricted() end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function gameVehicleSystem:CanPassengersShootInCarChase(vehicleID) return end
+function gameVehicleSystem:CanDriverShootInCarChase(vehicleID) end
+
+---@param vehicleID entEntityID
+---@return Bool
+function gameVehicleSystem:CanPassengersShootInCarChase(vehicleID) end
 
 ---@param vehicleID vehicleGarageVehicleID
 ---@return nil
-function gameVehicleSystem:DespawnPlayerVehicle(vehicleID) return end
+function gameVehicleSystem:DespawnPlayerVehicle(vehicleID) end
 
 ---@return nil
-function gameVehicleSystem:EnableAllPlayerVehicles() return end
+function gameVehicleSystem:EnableAllPlayerVehicles() end
 
 ---@param vehicle String
 ---@param enable Bool
 ---@param despawnIfDisabling? Bool
 ---@return Bool
-function gameVehicleSystem:EnablePlayerVehicle(vehicle, enable, despawnIfDisabling) return end
+function gameVehicleSystem:EnablePlayerVehicle(vehicle, enable, despawnIfDisabling) end
 
 ---@param enable Bool
 ---@return nil
-function gameVehicleSystem:EnablePlayerVehicleCollision(enable) return end
+function gameVehicleSystem:EnablePlayerVehicleCollision(enable) end
 
 ---@param vehicleType? gamedataVehicleType
 ---@return vehiclePlayerVehicle
-function gameVehicleSystem:GetActivePlayerVehicle(vehicleType) return end
+function gameVehicleSystem:GetActivePlayerVehicle(vehicleType) end
 
 ---@return nil, vehiclePlayerVehicle[] unlockedVehicles
-function gameVehicleSystem:GetPlayerUnlockedVehicles() return end
+function gameVehicleSystem:GetPlayerUnlockedVehicles() end
 
 ---@return nil, vehiclePlayerVehicle[] vehicles
-function gameVehicleSystem:GetPlayerVehicles() return end
+function gameVehicleSystem:GetPlayerVehicles() end
 
 ---@param vehicleType? gamedataVehicleType
 ---@return Bool
-function gameVehicleSystem:IsActivePlayerVehicleOnCooldown(vehicleType) return end
+function gameVehicleSystem:IsActivePlayerVehicleOnCooldown(vehicleType) end
 
 ---@param recordID TweakDBID|string
 ---@return Bool
-function gameVehicleSystem:IsVehiclePlayerUnlocked(recordID) return end
+function gameVehicleSystem:IsVehiclePlayerUnlocked(recordID) end
 
 ---@return nil
-function gameVehicleSystem:ResetChaseManager() return end
+function gameVehicleSystem:ResetChaseManager() end
 
 ---@param limit Int32
 ---@return nil
-function gameVehicleSystem:SetChaseManagerLimit(limit) return end
+function gameVehicleSystem:SetChaseManagerLimit(limit) end
 
 ---@param value Float
 ---@return nil
-function gameVehicleSystem:SetRammingAttemptDuration(value) return end
+function gameVehicleSystem:SetRammingAttemptDuration(value) end
 
 ---@param value Float
 ---@return nil
-function gameVehicleSystem:SetRammingUponCollisionDuration(value) return end
+function gameVehicleSystem:SetRammingUponCollisionDuration(value) end
 
 ---@param value Float
 ---@return nil
-function gameVehicleSystem:SetSuicideSpeedChancePercentage(value) return end
+function gameVehicleSystem:SetSuicideSpeedChancePercentage(value) end
 
 ---@param vehicleType? gamedataVehicleType
 ---@return Bool
-function gameVehicleSystem:SpawnPlayerVehicle(vehicleType) return end
+function gameVehicleSystem:SpawnPlayerVehicle(vehicleType) end
 
 ---@param vehicleID vehicleGarageVehicleID
 ---@param vehicleType gamedataVehicleType
 ---@param enable Bool
 ---@return nil
-function gameVehicleSystem:TogglePlayerActiveVehicle(vehicleID, vehicleType, enable) return end
+function gameVehicleSystem:TogglePlayerActiveVehicle(vehicleID, vehicleType, enable) end
 
 ---@param vehicleID vehicleGarageVehicleID
 ---@return Bool
-function gameVehicleSystem:TogglePlayerFavoriteVehicle(vehicleID) return end
+function gameVehicleSystem:TogglePlayerFavoriteVehicle(vehicleID) end
 
 ---@return nil
-function gameVehicleSystem:ToggleSummonMode() return end
+function gameVehicleSystem:ToggleSummonMode() end
 
 ---@return CName[]
-function gameVehicleSystem:GetVehicleRestrictions() return end
+function gameVehicleSystem:GetVehicleRestrictions() end
 
----@protected
 ---@return nil
-function gameVehicleSystem:OnVehicleSystemAttach() return end
+function gameVehicleSystem:OnVehicleSystemAttach() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVisualTagToNPCMetadata
----@field public visualTags CName[]
----@field public foleyNPCMetadata CName
+---@field visualTags CName[]
+---@field foleyNPCMetadata CName
 audioVisualTagToNPCMetadata = {}
 
 ---@param fields? audioVisualTagToNPCMetadata
 ---@return audioVisualTagToNPCMetadata
-function audioVisualTagToNPCMetadata.new(fields) return end
+function audioVisualTagToNPCMetadata.new(fields) end

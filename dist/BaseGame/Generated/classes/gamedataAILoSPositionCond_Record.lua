@@ -5,22 +5,22 @@ gamedataAILoSPositionCond_Record = {}
 
 ---@param fields? gamedataAILoSPositionCond_Record
 ---@return gamedataAILoSPositionCond_Record
-function gamedataAILoSPositionCond_Record.new(fields) return end
+function gamedataAILoSPositionCond_Record.new(fields) end
 
 ---@return Float
-function gamedataAILoSPositionCond_Record:MaxNotFoundTime() return end
+function gamedataAILoSPositionCond_Record:MaxNotFoundTime() end
 
 ---@return Float
-function gamedataAILoSPositionCond_Record:MaxRadiusXY() return end
+function gamedataAILoSPositionCond_Record:MaxRadiusXY() end
 
 ---@return Float
-function gamedataAILoSPositionCond_Record:MaxRadiusZ() return end
+function gamedataAILoSPositionCond_Record:MaxRadiusZ() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAILoSPositionCond_Record:Target() return end
+function gamedataAILoSPositionCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAILoSPositionCond_Record:TargetHandle() return end
+function gamedataAILoSPositionCond_Record:TargetHandle() end
 
 ---@return Int32
-function gamedataAILoSPositionCond_Record:Type() return end
+function gamedataAILoSPositionCond_Record:Type() end

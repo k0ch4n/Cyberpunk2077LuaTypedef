@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animMathExpressionNodeData
----@field public expression mathExprExpression
----@field public floatSockets animAnimMathExpressionFloatSocket[]
----@field public vectorSockets animAnimMathExpressionVectorSocket[]
----@field public quaternionSockets animAnimMathExpressionQuaternionSocket[]
+---@field expression mathExprExpression
+---@field floatSockets animAnimMathExpressionFloatSocket[]
+---@field vectorSockets animAnimMathExpressionVectorSocket[]
+---@field quaternionSockets animAnimMathExpressionQuaternionSocket[]
 animMathExpressionNodeData = {}
 
 ---@param fields? animMathExpressionNodeData
 ---@return animMathExpressionNodeData
-function animMathExpressionNodeData.new(fields) return end
+function animMathExpressionNodeData.new(fields) end

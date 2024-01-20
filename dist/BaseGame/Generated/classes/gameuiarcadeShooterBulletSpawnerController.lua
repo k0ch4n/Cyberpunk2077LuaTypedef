@@ -5,4 +5,4 @@ gameuiarcadeShooterBulletSpawnerController = {}
 
 ---@param fields? gameuiarcadeShooterBulletSpawnerController
 ---@return gameuiarcadeShooterBulletSpawnerController
-function gameuiarcadeShooterBulletSpawnerController.new(fields) return end
+function gameuiarcadeShooterBulletSpawnerController.new(fields) end

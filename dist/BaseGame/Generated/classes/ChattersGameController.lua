@@ -1,178 +1,147 @@
 ---@meta
 
 ---@class ChattersGameController: BaseSubtitlesGameController
----@field private c_DisplayRange Float
----@field private c_CloseDisplayRange Float
----@field private c_TimeToUnblockSec Float
----@field private rootWidget inkCompoundWidget
----@field private AllControllers ChatterKeyValuePair[]
----@field private targetingSystem gametargetingTargetingSystem
----@field private broadcastBlockingLines CRUID[]
----@field private playerInDialogChoice Bool
----@field private lastBroadcastBlockingLineTime EngineTime
----@field private lastChoiceTime EngineTime
----@field private bbPSceneTierEventId redCallbackObject
----@field private sceneTier Int32
----@field private OnNameplateEntityChangedCallback redCallbackObject
----@field private OnNameplateOffsetChangedCallback redCallbackObject
----@field private OnNameplateVisibilityChangedCallback redCallbackObject
----@field private OnScannerModeChangedCallback redCallbackObject
----@field private OnOnDialogsDataCallback redCallbackObject
+---@field c_DisplayRange Float
+---@field c_CloseDisplayRange Float
+---@field c_TimeToUnblockSec Float
+---@field rootWidget inkCompoundWidget
+---@field AllControllers ChatterKeyValuePair[]
+---@field targetingSystem gametargetingTargetingSystem
+---@field broadcastBlockingLines CRUID[]
+---@field playerInDialogChoice Bool
+---@field lastBroadcastBlockingLineTime EngineTime
+---@field lastChoiceTime EngineTime
+---@field bbPSceneTierEventId redCallbackObject
+---@field sceneTier Int32
+---@field OnNameplateEntityChangedCallback redCallbackObject
+---@field OnNameplateOffsetChangedCallback redCallbackObject
+---@field OnNameplateVisibilityChangedCallback redCallbackObject
+---@field OnScannerModeChangedCallback redCallbackObject
+---@field OnOnDialogsDataCallback redCallbackObject
 ChattersGameController = {}
 
 ---@param fields? ChattersGameController
 ---@return ChattersGameController
-function ChattersGameController.new(fields) return end
+function ChattersGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ChattersGameController:OnDialogsData(value) return end
+function ChattersGameController:OnDialogsData(value) end
 
----@protected
 ---@return Bool
-function ChattersGameController:OnInitialize() return end
+function ChattersGameController:OnInitialize() end
 
----@protected
 ---@param evt NameplateVisibleEvent
 ---@return Bool
-function ChattersGameController:OnNameplateVisibleEvent(evt) return end
+function ChattersGameController:OnNameplateVisibleEvent(evt) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function ChattersGameController:OnPlayerAttach(playerGameObject) return end
+function ChattersGameController:OnPlayerAttach(playerGameObject) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function ChattersGameController:OnPlayerDetach(playerGameObject) return end
+function ChattersGameController:OnPlayerDetach(playerGameObject) end
 
----@protected
 ---@param val Variant
 ---@return Bool
-function ChattersGameController:OnScannerModeChanged(val) return end
+function ChattersGameController:OnScannerModeChanged(val) end
 
----@protected
 ---@param argTier Int32
 ---@return Bool
-function ChattersGameController:OnSceneTierChange(argTier) return end
+function ChattersGameController:OnSceneTierChange(argTier) end
 
----@protected
 ---@param projections gameuiScreenProjectionsData
 ---@return Bool
-function ChattersGameController:OnScreenProjectionUpdate(projections) return end
+function ChattersGameController:OnScreenProjectionUpdate(projections) end
 
----@protected
 ---@return Bool
-function ChattersGameController:OnUninitialize() return end
+function ChattersGameController:OnUninitialize() end
 
----@private
 ---@param lineData scnDialogLineData
 ---@return nil
-function ChattersGameController:AddBroadcastBlockingLine(lineData) return end
+function ChattersGameController:AddBroadcastBlockingLine(lineData) end
 
----@protected
 ---@param lineSpawnData LineSpawnData
 ---@return nil
-function ChattersGameController:CreateLine(lineSpawnData) return end
+function ChattersGameController:CreateLine(lineSpawnData) end
 
----@protected
 ---@return CName
-function ChattersGameController:GetTextSizeSettigId() return end
+function ChattersGameController:GetTextSizeSettigId() end
 
----@private
 ---@return Bool
-function ChattersGameController:IsBroadcastBlockedByMainDialogue() return end
+function ChattersGameController:IsBroadcastBlockedByMainDialogue() end
 
----@private
 ---@param lineData scnDialogLineData
 ---@return Bool
-function ChattersGameController:IsDistanceConditionFulfilled(lineData) return end
+function ChattersGameController:IsDistanceConditionFulfilled(lineData) end
 
----@private
 ---@param lineData scnDialogLineData
 ---@return Bool
-function ChattersGameController:IsLineTypeConditionFulfilled(lineData) return end
+function ChattersGameController:IsLineTypeConditionFulfilled(lineData) end
 
----@protected
 ---@param lineData subtitleLineMapEntry
 ---@return nil
-function ChattersGameController:OnHideLine(lineData) return end
+function ChattersGameController:OnHideLine(lineData) end
 
----@protected
 ---@param lineData subtitleLineMapEntry
 ---@return nil
-function ChattersGameController:OnHideLineByData(lineData) return end
+function ChattersGameController:OnHideLineByData(lineData) end
 
----@private
 ---@return nil
-function ChattersGameController:OnNameplateChanged() return end
+function ChattersGameController:OnNameplateChanged() end
 
----@private
 ---@param vrt Variant
 ---@return nil
-function ChattersGameController:OnNameplateEntityChanged(vrt) return end
+function ChattersGameController:OnNameplateEntityChanged(vrt) end
 
----@private
 ---@param vrt Float
 ---@return nil
-function ChattersGameController:OnNameplateOffsetChanged(vrt) return end
+function ChattersGameController:OnNameplateOffsetChanged(vrt) end
 
----@private
 ---@param visibility Bool
 ---@return nil
-function ChattersGameController:OnNameplateVisibilityChanged(visibility) return end
+function ChattersGameController:OnNameplateVisibilityChanged(visibility) end
 
----@private
 ---@param lineId CRUID
 ---@return nil
-function ChattersGameController:OnRemovalFailure(lineId) return end
+function ChattersGameController:OnRemovalFailure(lineId) end
 
----@protected
 ---@param controller BaseSubtitleLineLogicController
 ---@return nil
-function ChattersGameController:OnSubCreated(controller) return end
+function ChattersGameController:OnSubCreated(controller) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function ChattersGameController:SetChattersForeignLinesVisibilitySetting(value) return end
+function ChattersGameController:SetChattersForeignLinesVisibilitySetting(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function ChattersGameController:SetChattersVisibilitySetting(value) return end
+function ChattersGameController:SetChattersVisibilitySetting(value) end
 
----@protected
 ---@param lineWidget inkWidget
 ---@param lineSpawnData LineSpawnData
 ---@return nil
-function ChattersGameController:SetupLine(lineWidget, lineSpawnData) return end
+function ChattersGameController:SetupLine(lineWidget, lineSpawnData) end
 
----@protected
 ---@param lineData scnDialogLineData
 ---@return Bool
-function ChattersGameController:ShouldDisplayLine(lineData) return end
+function ChattersGameController:ShouldDisplayLine(lineData) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function ChattersGameController:ShowKiroshiSettings(value) return end
+function ChattersGameController:ShowKiroshiSettings(value) end
 
----@private
 ---@param lineWidget inkWidget
 ---@param isDevice Bool
 ---@return nil
-function ChattersGameController:StartScreenProjection(lineWidget, isDevice) return end
+function ChattersGameController:StartScreenProjection(lineWidget, isDevice) end
 
----@private
 ---@param lineWidget inkWidget
 ---@return nil
-function ChattersGameController:StopScreenProjection(lineWidget) return end
+function ChattersGameController:StopScreenProjection(lineWidget) end
 
----@private
 ---@param entID entEntityID
 ---@param isVisible Bool
 ---@return nil
-function ChattersGameController:UpdateChattersNameplateData(entID, isVisible) return end
+function ChattersGameController:UpdateChattersNameplateData(entID, isVisible) end

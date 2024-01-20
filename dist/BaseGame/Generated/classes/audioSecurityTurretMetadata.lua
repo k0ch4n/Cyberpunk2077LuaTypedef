@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class audioSecurityTurretMetadata: audioCustomEmitterMetadata
----@field public singleFire CName
----@field public activated CName
----@field public deactivaed CName
----@field public destroyed CName
----@field public idleStart CName
----@field public idleStop CName
----@field public triggerEffectSingle CName
----@field public triggerEffectAuto CName
----@field public obstructionEnabled Bool
----@field public occlusionEnabled Bool
+---@field singleFire CName
+---@field activated CName
+---@field deactivaed CName
+---@field destroyed CName
+---@field idleStart CName
+---@field idleStop CName
+---@field triggerEffectSingle CName
+---@field triggerEffectAuto CName
+---@field obstructionEnabled Bool
+---@field occlusionEnabled Bool
 audioSecurityTurretMetadata = {}
 
 ---@param fields? audioSecurityTurretMetadata
 ---@return audioSecurityTurretMetadata
-function audioSecurityTurretMetadata.new(fields) return end
+function audioSecurityTurretMetadata.new(fields) end

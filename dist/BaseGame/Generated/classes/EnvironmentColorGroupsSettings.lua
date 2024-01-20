@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class EnvironmentColorGroupsSettings: IAreaSettings
----@field public skyTint curveData
----@field public colorGroup curveData[]
+---@field skyTint curveData
+---@field colorGroup curveData[]
 EnvironmentColorGroupsSettings = {}
 
 ---@param fields? EnvironmentColorGroupsSettings
 ---@return EnvironmentColorGroupsSettings
-function EnvironmentColorGroupsSettings.new(fields) return end
+function EnvironmentColorGroupsSettings.new(fields) end

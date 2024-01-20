@@ -1,108 +1,88 @@
 ---@meta
 
 ---@class BillboardDevice: InteractiveDevice
----@field protected advUiComponent entIComponent
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
+---@field advUiComponent entIComponent
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
 BillboardDevice = {}
 
 ---@param fields? BillboardDevice
 ---@return BillboardDevice
-function BillboardDevice.new(fields) return end
+function BillboardDevice.new(fields) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function BillboardDevice:OnHitEvent(hit) return end
+function BillboardDevice:OnHitEvent(hit) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function BillboardDevice:OnPhysicalDestructionEvent(evt) return end
+function BillboardDevice:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function BillboardDevice:OnRequestComponents(ri) return end
+function BillboardDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function BillboardDevice:OnStopShortGlitch(evt) return end
+function BillboardDevice:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BillboardDevice:OnTakeControl(ri) return end
+function BillboardDevice:OnTakeControl(ri) end
 
----@protected
 ---@param target entEntityID
 ---@param statusEffect TweakDBID|string
 ---@return nil
-function BillboardDevice:ApplyActiveStatusEffect(target, statusEffect) return end
+function BillboardDevice:ApplyActiveStatusEffect(target, statusEffect) end
 
----@protected
 ---@return nil
-function BillboardDevice:BreakDevice() return end
+function BillboardDevice:BreakDevice() end
 
----@protected
 ---@return nil
-function BillboardDevice:CutPower() return end
+function BillboardDevice:CutPower() end
 
 ---@return EGameplayRole
-function BillboardDevice:DeterminGameplayRole() return end
+function BillboardDevice:DeterminGameplayRole() end
 
----@private
 ---@return BillboardDeviceController
-function BillboardDevice:GetController() return end
+function BillboardDevice:GetController() end
 
 ---@return BillboardDeviceControllerPS
-function BillboardDevice:GetDevicePS() return end
+function BillboardDevice:GetDevicePS() end
 
----@protected
 ---@return nil
-function BillboardDevice:ResolveGameplayState() return end
+function BillboardDevice:ResolveGameplayState() end
 
----@protected
 ---@return Bool
-function BillboardDevice:ShouldRegisterToHUD() return end
+function BillboardDevice:ShouldRegisterToHUD() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function BillboardDevice:StartGlitching(glitchState, intensity) return end
+function BillboardDevice:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function BillboardDevice:StartShortGlitch() return end
+function BillboardDevice:StartShortGlitch() end
 
----@protected
 ---@return nil
-function BillboardDevice:StopGlitching() return end
+function BillboardDevice:StopGlitching() end
 
----@protected
 ---@param on Bool
 ---@return nil
-function BillboardDevice:ToggleLights(on) return end
+function BillboardDevice:ToggleLights(on) end
 
----@protected
 ---@return nil
-function BillboardDevice:TurnOffDevice() return end
+function BillboardDevice:TurnOffDevice() end
 
----@private
 ---@return nil
-function BillboardDevice:TurnOffScreen() return end
+function BillboardDevice:TurnOffScreen() end
 
----@protected
 ---@return nil
-function BillboardDevice:TurnOnDevice() return end
+function BillboardDevice:TurnOnDevice() end
 
----@private
 ---@return nil
-function BillboardDevice:TurnOnScreen() return end
+function BillboardDevice:TurnOnScreen() end
 
----@protected
 ---@param targetID entEntityID
 ---@return nil
-function BillboardDevice:UploadActiveProgramOnNPC(targetID) return end
+function BillboardDevice:UploadActiveProgramOnNPC(targetID) end

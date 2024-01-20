@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldConversationGroupData: ISerializable
----@field public conversationGroup scnInterestingConversationsResource
----@field public interruptionOperations scnIInterruptionOperation[]
----@field public ignoreLocalLimit Bool
----@field public ignoreGlobalLimit Bool
+---@field conversationGroup scnInterestingConversationsResource
+---@field interruptionOperations scnIInterruptionOperation[]
+---@field ignoreLocalLimit Bool
+---@field ignoreGlobalLimit Bool
 worldConversationGroupData = {}
 
 ---@param fields? worldConversationGroupData
 ---@return worldConversationGroupData
-function worldConversationGroupData.new(fields) return end
+function worldConversationGroupData.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiOnGameFinishEventAdvanced: redEvent
----@field public gameState gameuiSideScrollerMiniGameStateAdvanced
+---@field gameState gameuiSideScrollerMiniGameStateAdvanced
 gameuiOnGameFinishEventAdvanced = {}
 
 ---@param fields? gameuiOnGameFinishEventAdvanced
 ---@return gameuiOnGameFinishEventAdvanced
-function gameuiOnGameFinishEventAdvanced.new(fields) return end
+function gameuiOnGameFinishEventAdvanced.new(fields) end

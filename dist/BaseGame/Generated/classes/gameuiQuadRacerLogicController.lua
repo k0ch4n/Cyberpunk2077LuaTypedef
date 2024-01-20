@@ -1,65 +1,61 @@
 ---@meta
 
 ---@class gameuiQuadRacerLogicController: gameuiSideScrollerMiniGameLogicController
----@field public endgameDelay Float
----@field public baseMultiplicatorScale Float
----@field public skyWidget inkWidgetReference
----@field public road gameuiRoadEditorSegment[]
----@field public checkpointLibraryName CName
----@field public roadLibraryName CName
----@field public backgroundLibraryName CName
----@field public timeToPassCheckpoint Float
----@field public scorePerMeter Int32
----@field public scorePerExtraSecond Int32
----@field public bonusTime Float
----@field public backgroundStitch Float
----@field public drawDistance Uint32
----@field public carDistanceOfView Int32
----@field public colorBlindDrawDistance Uint32
----@field public segmentDetails Uint32
----@field public segmentLength Float
----@field public roadWidth Float
----@field public backgroundSpeed Float
----@field public cameraFov Float
----@field public cameraHeight Float
----@field public startTime Float
----@field public defaultMaxSpeed Float
----@field public nitroMaxSpeed Float
----@field public acceleration Float
----@field public breaking Float
----@field public deceleration Float
----@field public offRoadLimit Float
----@field public offRoadDeceleration Float
----@field public centrifugalForce Float
----@field public playerSegmentOffset Int32
----@field private timeLeftText inkTextWidgetReference
----@field private scoreText inkTextWidgetReference
----@field private speedText inkTextWidgetReference
----@field private notificationText inkTextWidgetReference
----@field private notificationAnimationName CName
----@field private speedCoeficient Float
----@field private currentNotificationAnimation inkanimProxy
----@field private lastTime Int32
+---@field endgameDelay Float
+---@field baseMultiplicatorScale Float
+---@field skyWidget inkWidgetReference
+---@field road gameuiRoadEditorSegment[]
+---@field checkpointLibraryName CName
+---@field roadLibraryName CName
+---@field backgroundLibraryName CName
+---@field timeToPassCheckpoint Float
+---@field scorePerMeter Int32
+---@field scorePerExtraSecond Int32
+---@field bonusTime Float
+---@field backgroundStitch Float
+---@field drawDistance Uint32
+---@field carDistanceOfView Int32
+---@field colorBlindDrawDistance Uint32
+---@field segmentDetails Uint32
+---@field segmentLength Float
+---@field roadWidth Float
+---@field backgroundSpeed Float
+---@field cameraFov Float
+---@field cameraHeight Float
+---@field startTime Float
+---@field defaultMaxSpeed Float
+---@field nitroMaxSpeed Float
+---@field acceleration Float
+---@field breaking Float
+---@field deceleration Float
+---@field offRoadLimit Float
+---@field offRoadDeceleration Float
+---@field centrifugalForce Float
+---@field playerSegmentOffset Int32
+---@field timeLeftText inkTextWidgetReference
+---@field scoreText inkTextWidgetReference
+---@field speedText inkTextWidgetReference
+---@field notificationText inkTextWidgetReference
+---@field notificationAnimationName CName
+---@field speedCoeficient Float
+---@field currentNotificationAnimation inkanimProxy
+---@field lastTime Int32
 gameuiQuadRacerLogicController = {}
 
 ---@param fields? gameuiQuadRacerLogicController
 ---@return gameuiQuadRacerLogicController
-function gameuiQuadRacerLogicController.new(fields) return end
+function gameuiQuadRacerLogicController.new(fields) end
 
----@protected
 ---@param gameStateUpdateEvent gameuiOnMiniGameStateUpdateEvent
 ---@return nil
-function gameuiQuadRacerLogicController:OnGameStateUpdateLogic(gameStateUpdateEvent) return end
+function gameuiQuadRacerLogicController:OnGameStateUpdateLogic(gameStateUpdateEvent) end
 
----@protected
 ---@return nil
-function gameuiQuadRacerLogicController:OnInitializeGameLogic() return end
+function gameuiQuadRacerLogicController:OnInitializeGameLogic() end
 
----@private
 ---@param text String
 ---@return nil
-function gameuiQuadRacerLogicController:PlayNotificationAnimation(text) return end
+function gameuiQuadRacerLogicController:PlayNotificationAnimation(text) end
 
----@private
 ---@return nil
-function gameuiQuadRacerLogicController:StopCurrentNotificationAnimation() return end
+function gameuiQuadRacerLogicController:StopCurrentNotificationAnimation() end

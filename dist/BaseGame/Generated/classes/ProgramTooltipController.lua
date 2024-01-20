@@ -1,162 +1,139 @@
 ---@meta
 
 ---@class ProgramTooltipController: AGenericTooltipControllerWithDebug
----@field protected backgroundContainer inkCompoundWidgetReference
----@field protected equipedWrapper inkWidgetReference
----@field protected equipedCorner inkWidgetReference
----@field protected recipeWrapper inkWidgetReference
----@field protected recipeBG inkWidgetReference
----@field protected root inkWidgetReference
----@field private nameText inkTextWidgetReference
----@field private nameTextContainer inkWidgetReference
----@field private nameForRecipeText inkTextWidgetReference
----@field private tierText inkTextWidgetReference
----@field private durationWidget inkWidgetReference
----@field private uploadTimeWidget inkWidgetReference
----@field private cooldownWidget inkWidgetReference
----@field private memoryCostValueText inkTextWidgetReference
----@field private damageWrapper inkWidgetReference
----@field private damageLabel inkTextWidgetReference
----@field private damageValue inkTextWidgetReference
----@field private damageContinuous inkTextWidgetReference
----@field private healthPercentageLabel inkTextWidgetReference
----@field private priceContainer inkWidgetReference
----@field private priceText inkTextWidgetReference
----@field private descriptionWrapper inkWidgetReference
----@field private descriptionText inkTextWidgetReference
----@field private hackTypeWrapper inkWidgetReference
----@field private hackTypeText inkTextWidgetReference
----@field private perkContainer inkWidgetReference
----@field private perkText inkTextWidgetReference
----@field private qualityContainer inkWidgetReference
----@field private qualityText inkTextWidgetReference
----@field private effectsList inkCompoundWidgetReference
----@field private headerSegment inkWidgetReference
----@field private typeSegment inkWidgetReference
----@field private DEBUG_iconErrorWrapper inkWidgetReference
----@field private DEBUG_iconErrorText inkTextWidgetReference
----@field private data InventoryTooltipData
----@field private quickHackData InventoryTooltipData_QuickhackData
----@field private itemData UIInventoryItem
----@field private displayContext InventoryTooltipDisplayContext
----@field private itemDisplayContext gameItemDisplayContext
----@field private isCrafting Bool
+---@field backgroundContainer inkCompoundWidgetReference
+---@field equipedWrapper inkWidgetReference
+---@field equipedCorner inkWidgetReference
+---@field recipeWrapper inkWidgetReference
+---@field recipeBG inkWidgetReference
+---@field root inkWidgetReference
+---@field nameText inkTextWidgetReference
+---@field nameTextContainer inkWidgetReference
+---@field nameForRecipeText inkTextWidgetReference
+---@field tierText inkTextWidgetReference
+---@field durationWidget inkWidgetReference
+---@field uploadTimeWidget inkWidgetReference
+---@field cooldownWidget inkWidgetReference
+---@field memoryCostValueText inkTextWidgetReference
+---@field damageWrapper inkWidgetReference
+---@field damageLabel inkTextWidgetReference
+---@field damageValue inkTextWidgetReference
+---@field damageContinuous inkTextWidgetReference
+---@field healthPercentageLabel inkTextWidgetReference
+---@field priceContainer inkWidgetReference
+---@field priceText inkTextWidgetReference
+---@field descriptionWrapper inkWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field hackTypeWrapper inkWidgetReference
+---@field hackTypeText inkTextWidgetReference
+---@field perkContainer inkWidgetReference
+---@field perkText inkTextWidgetReference
+---@field qualityContainer inkWidgetReference
+---@field qualityText inkTextWidgetReference
+---@field effectsList inkCompoundWidgetReference
+---@field headerSegment inkWidgetReference
+---@field typeSegment inkWidgetReference
+---@field DEBUG_iconErrorWrapper inkWidgetReference
+---@field DEBUG_iconErrorText inkTextWidgetReference
+---@field data InventoryTooltipData
+---@field quickHackData InventoryTooltipData_QuickhackData
+---@field itemData UIInventoryItem
+---@field displayContext InventoryTooltipDisplayContext
+---@field itemDisplayContext gameItemDisplayContext
+---@field isCrafting Bool
 ProgramTooltipController = {}
 
 ---@param fields? ProgramTooltipController
 ---@return ProgramTooltipController
-function ProgramTooltipController.new(fields) return end
+function ProgramTooltipController.new(fields) end
 
----@protected
 ---@return nil
-function ProgramTooltipController:DEBUG_UpdateDebugInfo() return end
+function ProgramTooltipController:DEBUG_UpdateDebugInfo() end
 
----@private
 ---@return gamedataHackCategory_Record
-function ProgramTooltipController:GetHackCategory() return end
+function ProgramTooltipController:GetHackCategory() end
 
----@private
 ---@param targetStat gamedataStatType
 ---@param valueStat gamedataStatType
 ---@return Bool
-function ProgramTooltipController:IsDamageStat(targetStat, valueStat) return end
+function ProgramTooltipController:IsDamageStat(targetStat, valueStat) end
 
----@private
 ---@return gamedataHackCategory_Record
-function ProgramTooltipController:NewGetHackCategory() return end
+function ProgramTooltipController:NewGetHackCategory() end
 
----@private
 ---@param itemData UIInventoryItem
 ---@param player PlayerPuppet
 ---@return nil
-function ProgramTooltipController:NewRefreshUI(itemData, player) return end
+function ProgramTooltipController:NewRefreshUI(itemData, player) end
 
----@private
 ---@return nil
-function ProgramTooltipController:NewUpdateCategory() return end
+function ProgramTooltipController:NewUpdateCategory() end
 
----@private
 ---@param programData UIInventoryItemProgramData
 ---@return nil
-function ProgramTooltipController:NewUpdateDamage(programData) return end
+function ProgramTooltipController:NewUpdateDamage(programData) end
 
----@private
 ---@return nil
-function ProgramTooltipController:NewUpdateDescription() return end
+function ProgramTooltipController:NewUpdateDescription() end
 
----@private
 ---@return nil
-function ProgramTooltipController:NewUpdateMods() return end
+function ProgramTooltipController:NewUpdateMods() end
 
----@private
 ---@param player PlayerPuppet
 ---@return nil
-function ProgramTooltipController:NewUpdatePrice(player) return end
+function ProgramTooltipController:NewUpdatePrice(player) end
 
----@private
 ---@param programData UIInventoryItemProgramData
 ---@return nil
-function ProgramTooltipController:NewUpdateRarity(programData) return end
+function ProgramTooltipController:NewUpdateRarity(programData) end
 
----@private
 ---@return nil
-function ProgramTooltipController:RefreshUI() return end
+function ProgramTooltipController:RefreshUI() end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function ProgramTooltipController:SetData(tooltipData) return end
+function ProgramTooltipController:SetData(tooltipData) end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdateCategory() return end
+function ProgramTooltipController:UpdateCategory() end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdateDamage() return end
+function ProgramTooltipController:UpdateDamage() end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdateDescription() return end
+function ProgramTooltipController:UpdateDescription() end
 
----@private
 ---@param itemID TweakDBID|string
 ---@param targetWidget inkWidgetReference
 ---@param key String
 ---@param value Float
 ---@param diff Float
 ---@return nil
-function ProgramTooltipController:UpdateDetail(itemID, targetWidget, key, value, diff) return end
+function ProgramTooltipController:UpdateDetail(itemID, targetWidget, key, value, diff) end
 
----@private
 ---@param item UIInventoryItem
 ---@param value Float
 ---@return nil
-function ProgramTooltipController:UpdateDetail(item, value) return end
+function ProgramTooltipController:UpdateDetail(item, value) end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdateMods() return end
+function ProgramTooltipController:UpdateMods() end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdatePerkRequirement() return end
+function ProgramTooltipController:UpdatePerkRequirement() end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdatePrice() return end
+function ProgramTooltipController:UpdatePrice() end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdateRarity() return end
+function ProgramTooltipController:UpdateRarity() end
 
----@private
 ---@return nil
-function ProgramTooltipController:UpdateRequirements() return end
+function ProgramTooltipController:UpdateRequirements() end
 
----@private
 ---@param targetWidget inkWidgetReference
 ---@param key String
 ---@param value Float
 ---@param diff Float
 ---@return nil
-function ProgramTooltipController:UpdateUploadDetail(targetWidget, key, value, diff) return end
+function ProgramTooltipController:UpdateUploadDetail(targetWidget, key, value, diff) end

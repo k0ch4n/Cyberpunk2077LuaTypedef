@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class FuseData
----@field public psOwnerData PSOwnerData
----@field public timeTable SDeviceTimetableEntry[]
----@field public lights Int32
+---@field psOwnerData PSOwnerData
+---@field timeTable SDeviceTimetableEntry[]
+---@field lights Int32
 FuseData = {}
 
 ---@param fields? FuseData
 ---@return FuseData
-function FuseData.new(fields) return end
+function FuseData.new(fields) end

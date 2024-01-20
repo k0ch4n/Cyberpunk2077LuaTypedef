@@ -5,4 +5,4 @@ UIGenderHelper = {}
 
 ---@param playerPuppet PlayerPuppet
 ---@return gameItemIconGender
-function UIGenderHelper.GetIconGender(playerPuppet) return end
+function UIGenderHelper.GetIconGender(playerPuppet) end

@@ -1,42 +1,42 @@
 ---@meta
 
 ---@class Codeware_UI_PopupButton: Codeware_UI_CustomButton
----@field public isFlipped Bool
----@field public bg inkImageWidget
----@field public frame inkImageWidget
----@field public input inkInputDisplayController
+---@field isFlipped Bool
+---@field bg inkImageWidget
+---@field frame inkImageWidget
+---@field input inkInputDisplayController
 Codeware_UI_PopupButton = {}
 
 ---@param fields? Codeware_UI_PopupButton
 ---@return Codeware_UI_PopupButton
-function Codeware_UI_PopupButton.new(fields) return end
+function Codeware_UI_PopupButton.new(fields) end
 
 ---@return Codeware_UI_PopupButton
-function Codeware_UI_PopupButton.Create() return end
+function Codeware_UI_PopupButton.Create() end
 
 ---@return nil
-function Codeware_UI_PopupButton:ApplyFlippedState() return end
+function Codeware_UI_PopupButton:ApplyFlippedState() end
 
 ---@return nil
-function Codeware_UI_PopupButton:ApplyHoveredState() return end
+function Codeware_UI_PopupButton:ApplyHoveredState() end
 
 ---@return nil
-function Codeware_UI_PopupButton:ApplyInputState() return end
+function Codeware_UI_PopupButton:ApplyInputState() end
 
 ---@return nil
-function Codeware_UI_PopupButton:CreateWidgets() return end
+function Codeware_UI_PopupButton:CreateWidgets() end
 
 ---@return CName
-function Codeware_UI_PopupButton:GetInputAction() return end
+function Codeware_UI_PopupButton:GetInputAction() end
 
 ---@param isFlipped Bool
 ---@return nil
-function Codeware_UI_PopupButton:SetFlipped(isFlipped) return end
+function Codeware_UI_PopupButton:SetFlipped(isFlipped) end
 
 ---@param action CName|string
 ---@return nil
-function Codeware_UI_PopupButton:SetInputAction(action) return end
+function Codeware_UI_PopupButton:SetInputAction(action) end
 
 ---@param input inkInputKeyData
 ---@return nil
-function Codeware_UI_PopupButton:SetInputKey(input) return end
+function Codeware_UI_PopupButton:SetInputKey(input) end

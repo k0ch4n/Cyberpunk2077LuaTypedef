@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameTargetingLocalizedEffectComponent: entIComponent
----@field public streamingDistance Float
----@field public visibleTargetRange Float
+---@field streamingDistance Float
+---@field visibleTargetRange Float
 gameTargetingLocalizedEffectComponent = {}
 
 ---@param fields? gameTargetingLocalizedEffectComponent
 ---@return gameTargetingLocalizedEffectComponent
-function gameTargetingLocalizedEffectComponent.new(fields) return end
+function gameTargetingLocalizedEffectComponent.new(fields) end

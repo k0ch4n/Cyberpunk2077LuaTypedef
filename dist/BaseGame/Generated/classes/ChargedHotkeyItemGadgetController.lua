@@ -1,108 +1,87 @@
 ---@meta
 
 ---@class ChargedHotkeyItemGadgetController: ChargedHotkeyItemBaseController
----@field protected currentStatPoolType gamedataStatPoolType
----@field private c_grenadeKey CName
----@field private c_projectileLauncherKey CName
----@field private c_opticalCamoKey CName
----@field protected c_cwMaskKey CName
----@field private opticalCamoTags CName[]
----@field private currentCombatState gamePSMCombat
----@field private combatStateCallback redCallbackObject
----@field private c_grenadeFlashSalePerkType gamedataNewPerkType
+---@field currentStatPoolType gamedataStatPoolType
+---@field c_grenadeKey CName
+---@field c_projectileLauncherKey CName
+---@field c_opticalCamoKey CName
+---@field c_cwMaskKey CName
+---@field opticalCamoTags CName[]
+---@field currentCombatState gamePSMCombat
+---@field combatStateCallback redCallbackObject
+---@field c_grenadeFlashSalePerkType gamedataNewPerkType
 ChargedHotkeyItemGadgetController = {}
 
 ---@param fields? ChargedHotkeyItemGadgetController
 ---@return ChargedHotkeyItemGadgetController
-function ChargedHotkeyItemGadgetController.new(fields) return end
+function ChargedHotkeyItemGadgetController.new(fields) end
 
----@protected
 ---@param newState Int32
 ---@return Bool
-function ChargedHotkeyItemGadgetController:OnCombatStateChanged(newState) return end
+function ChargedHotkeyItemGadgetController:OnCombatStateChanged(newState) end
 
----@protected
 ---@return Bool
-function ChargedHotkeyItemGadgetController:OnInitialize() return end
+function ChargedHotkeyItemGadgetController:OnInitialize() end
 
----@protected
 ---@param evt NewPerkBoughtEvent
 ---@return Bool
-function ChargedHotkeyItemGadgetController:OnNewPerkBought(evt) return end
+function ChargedHotkeyItemGadgetController:OnNewPerkBought(evt) end
 
----@protected
 ---@param evt NewPerkSoldEvent
 ---@return Bool
-function ChargedHotkeyItemGadgetController:OnNewPerkSold(evt) return end
+function ChargedHotkeyItemGadgetController:OnNewPerkSold(evt) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ChargedHotkeyItemGadgetController:OnPlayerAttach(playerPuppet) return end
+function ChargedHotkeyItemGadgetController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ChargedHotkeyItemGadgetController:OnPlayerDetach(playerPuppet) return end
+function ChargedHotkeyItemGadgetController:OnPlayerDetach(playerPuppet) end
 
----@private
 ---@return gamedataStatType
-function ChargedHotkeyItemGadgetController:GetCurrentItemMaxChargesStatType() return end
+function ChargedHotkeyItemGadgetController:GetCurrentItemMaxChargesStatType() end
 
----@protected
 ---@return gamedataStatPoolType
-function ChargedHotkeyItemGadgetController:GetCurrentItemStatPoolType() return end
+function ChargedHotkeyItemGadgetController:GetCurrentItemStatPoolType() end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemGadgetController:GetMaxCharges() return end
+function ChargedHotkeyItemGadgetController:GetMaxCharges() end
 
----@private
 ---@return gamePSMCombat
-function ChargedHotkeyItemGadgetController:GetPSMCombatState() return end
+function ChargedHotkeyItemGadgetController:GetPSMCombatState() end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemGadgetController:GetRechargeDuration() return end
+function ChargedHotkeyItemGadgetController:GetRechargeDuration() end
 
----@private
 ---@return Bool
-function ChargedHotkeyItemGadgetController:IsCyberwareActive() return end
+function ChargedHotkeyItemGadgetController:IsCyberwareActive() end
 
----@private
 ---@return nil
-function ChargedHotkeyItemGadgetController:RegisterCombatStateListener() return end
+function ChargedHotkeyItemGadgetController:RegisterCombatStateListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetController:RegisterStatListener() return end
+function ChargedHotkeyItemGadgetController:RegisterStatListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetController:ResolveState() return end
+function ChargedHotkeyItemGadgetController:ResolveState() end
 
----@protected
 ---@param progress Float
 ---@param valueChanged Bool
 ---@return nil
-function ChargedHotkeyItemGadgetController:SetRechargeProgress(progress, valueChanged) return end
+function ChargedHotkeyItemGadgetController:SetRechargeProgress(progress, valueChanged) end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetController:UnregisterStatListener() return end
+function ChargedHotkeyItemGadgetController:UnregisterStatListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetController:UpdateButtonHint() return end
+function ChargedHotkeyItemGadgetController:UpdateButtonHint() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetController:UpdateChargeThreshold() return end
+function ChargedHotkeyItemGadgetController:UpdateChargeThreshold() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetController:UpdateCurrentItem() return end
+function ChargedHotkeyItemGadgetController:UpdateCurrentItem() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetController:UpdateStatListener() return end
+function ChargedHotkeyItemGadgetController:UpdateStatListener() end

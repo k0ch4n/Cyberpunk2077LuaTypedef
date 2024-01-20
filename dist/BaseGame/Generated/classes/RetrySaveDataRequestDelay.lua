@@ -5,4 +5,4 @@ RetrySaveDataRequestDelay = {}
 
 ---@param fields? RetrySaveDataRequestDelay
 ---@return RetrySaveDataRequestDelay
-function RetrySaveDataRequestDelay.new(fields) return end
+function RetrySaveDataRequestDelay.new(fields) end

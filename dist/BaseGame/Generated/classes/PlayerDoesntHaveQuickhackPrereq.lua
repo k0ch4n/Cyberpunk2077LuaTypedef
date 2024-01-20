@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class PlayerDoesntHaveQuickhackPrereq: gameIScriptablePrereq
----@field public quickhackID TweakDBID
+---@field quickhackID TweakDBID
 PlayerDoesntHaveQuickhackPrereq = {}
 
 ---@param fields? PlayerDoesntHaveQuickhackPrereq
 ---@return PlayerDoesntHaveQuickhackPrereq
-function PlayerDoesntHaveQuickhackPrereq.new(fields) return end
+function PlayerDoesntHaveQuickhackPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function PlayerDoesntHaveQuickhackPrereq:Initialize(recordID) return end
+function PlayerDoesntHaveQuickhackPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function PlayerDoesntHaveQuickhackPrereq:IsFulfilled(context) return end
+function PlayerDoesntHaveQuickhackPrereq:IsFulfilled(context) end

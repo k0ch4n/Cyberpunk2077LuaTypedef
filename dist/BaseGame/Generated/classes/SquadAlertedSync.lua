@@ -5,9 +5,8 @@ SquadAlertedSync = {}
 
 ---@param fields? SquadAlertedSync
 ---@return SquadAlertedSync
-function SquadAlertedSync.new(fields) return end
+function SquadAlertedSync.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SquadAlertedSync:Activate(context) return end
+function SquadAlertedSync:Activate(context) end

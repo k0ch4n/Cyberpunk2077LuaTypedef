@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetNPCSensesMainPreset: AIbehaviortaskScript
----@field public newSensesPresetName String
+---@field newSensesPresetName String
 SetNPCSensesMainPreset = {}
 
 ---@param fields? SetNPCSensesMainPreset
 ---@return SetNPCSensesMainPreset
-function SetNPCSensesMainPreset.new(fields) return end
+function SetNPCSensesMainPreset.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetNPCSensesMainPreset:Activate(context) return end
+function SetNPCSensesMainPreset:Activate(context) end

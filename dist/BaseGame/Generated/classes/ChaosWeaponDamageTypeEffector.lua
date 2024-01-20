@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class ChaosWeaponDamageTypeEffector: ChaosWeaponCustomEffector
----@field public damageTypeModGroups TweakDBID[]
+---@field damageTypeModGroups TweakDBID[]
 ChaosWeaponDamageTypeEffector = {}
 
 ---@param fields? ChaosWeaponDamageTypeEffector
 ---@return ChaosWeaponDamageTypeEffector
-function ChaosWeaponDamageTypeEffector.new(fields) return end
+function ChaosWeaponDamageTypeEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ChaosWeaponDamageTypeEffector:Initialize(record, parentRecord) return end
+function ChaosWeaponDamageTypeEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ChaosWeaponDamageTypeEffector:ProcessEffector(owner) return end
+function ChaosWeaponDamageTypeEffector:ProcessEffector(owner) end

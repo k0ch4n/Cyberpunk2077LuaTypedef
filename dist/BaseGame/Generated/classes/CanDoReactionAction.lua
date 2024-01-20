@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CanDoReactionAction: AIbehaviorconditionScript
----@field public reactionName CName
+---@field reactionName CName
 CanDoReactionAction = {}
 
 ---@param fields? CanDoReactionAction
 ---@return CanDoReactionAction
-function CanDoReactionAction.new(fields) return end
+function CanDoReactionAction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CanDoReactionAction:Check(context) return end
+function CanDoReactionAction:Check(context) end

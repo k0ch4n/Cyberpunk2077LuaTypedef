@@ -5,4 +5,4 @@ AIbehaviorShouldEnterCrowdConditionDefinition = {}
 
 ---@param fields? AIbehaviorShouldEnterCrowdConditionDefinition
 ---@return AIbehaviorShouldEnterCrowdConditionDefinition
-function AIbehaviorShouldEnterCrowdConditionDefinition.new(fields) return end
+function AIbehaviorShouldEnterCrowdConditionDefinition.new(fields) end

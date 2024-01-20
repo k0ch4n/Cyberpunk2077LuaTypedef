@@ -1,40 +1,38 @@
 ---@meta
 
 ---@class FocusForcedHighlightData: IScriptable
----@field public sourceID entEntityID
----@field public sourceName CName
----@field public highlightType EFocusForcedHighlightType
----@field public outlineType EFocusOutlineType
----@field public priority EPriority
----@field public inTransitionTime Float
----@field public outTransitionTime Float
----@field public hudData HighlightInstance
----@field public isRevealed Bool
----@field public isSavable Bool
----@field public patternType gameVisionModePatternType
+---@field sourceID entEntityID
+---@field sourceName CName
+---@field highlightType EFocusForcedHighlightType
+---@field outlineType EFocusOutlineType
+---@field priority EPriority
+---@field inTransitionTime Float
+---@field outTransitionTime Float
+---@field hudData HighlightInstance
+---@field isRevealed Bool
+---@field isSavable Bool
+---@field patternType gameVisionModePatternType
 FocusForcedHighlightData = {}
 
 ---@param fields? FocusForcedHighlightData
 ---@return FocusForcedHighlightData
-function FocusForcedHighlightData.new(fields) return end
+function FocusForcedHighlightData.new(fields) end
 
 ---@return gameVisionAppearance
-function FocusForcedHighlightData:GetBlackwallVisionApperance() return end
+function FocusForcedHighlightData:GetBlackwallVisionApperance() end
 
----@private
 ---@return Int32
-function FocusForcedHighlightData:GetFillColorIndex() return end
+function FocusForcedHighlightData:GetFillColorIndex() end
 
----@private
 ---@return Int32
-function FocusForcedHighlightData:GetOutlineColorIndex() return end
+function FocusForcedHighlightData:GetOutlineColorIndex() end
 
 ---@return gameVisionAppearance
-function FocusForcedHighlightData:GetVisionApperance() return end
+function FocusForcedHighlightData:GetVisionApperance() end
 
 ---@param data HighlightInstance
 ---@return nil
-function FocusForcedHighlightData:InitializeWithHudInstruction(data) return end
+function FocusForcedHighlightData:InitializeWithHudInstruction(data) end
 
 ---@return Bool
-function FocusForcedHighlightData:IsValid() return end
+function FocusForcedHighlightData:IsValid() end

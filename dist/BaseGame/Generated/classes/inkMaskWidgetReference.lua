@@ -5,18 +5,18 @@ inkMaskWidgetReference = {}
 
 ---@param fields? inkMaskWidgetReference
 ---@return inkMaskWidgetReference
-function inkMaskWidgetReference.new(fields) return end
+function inkMaskWidgetReference.new(fields) end
 
 ---@param self inkMaskWidgetReference
 ---@return CName
-function inkMaskWidgetReference.GetTexturePart(self) return end
+function inkMaskWidgetReference.GetTexturePart(self) end
 
 ---@param self inkMaskWidgetReference
 ---@param texturePart CName|string
 ---@return Bool
-function inkMaskWidgetReference.IsTexturePartExist(self, texturePart) return end
+function inkMaskWidgetReference.IsTexturePartExist(self, texturePart) end
 
 ---@param self inkMaskWidgetReference
 ---@param texturePart CName|string
 ---@return Bool
-function inkMaskWidgetReference.SetTexturePart(self, texturePart) return end
+function inkMaskWidgetReference.SetTexturePart(self, texturePart) end

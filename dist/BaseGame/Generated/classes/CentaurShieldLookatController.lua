@@ -1,75 +1,63 @@
 ---@meta
 
 ---@class CentaurShieldLookatController: AILookatTask
----@field private mainShieldLookat entLookAtAddEvent
----@field private mainShieldlookatActive Bool
----@field private currentLookatTarget gameObject
----@field private shieldTarget gameObject
----@field private centaurBlackboard gameIBlackboard
----@field private shieldTargetTimeStamp Float
+---@field mainShieldLookat entLookAtAddEvent
+---@field mainShieldlookatActive Bool
+---@field currentLookatTarget gameObject
+---@field shieldTarget gameObject
+---@field centaurBlackboard gameIBlackboard
+---@field shieldTargetTimeStamp Float
 CentaurShieldLookatController = {}
 
 ---@param fields? CentaurShieldLookatController
 ---@return CentaurShieldLookatController
-function CentaurShieldLookatController.new(fields) return end
+function CentaurShieldLookatController.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CentaurShieldLookatController:Activate(context) return end
+function CentaurShieldLookatController:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param lookatTarget gameObject
 ---@return nil
-function CentaurShieldLookatController:ActivateMainShieldLookat(context, lookatTarget) return end
+function CentaurShieldLookatController:ActivateMainShieldLookat(context, lookatTarget) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CentaurShieldLookatController:Deactivate(context) return end
+function CentaurShieldLookatController:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CentaurShieldLookatController:DeactivateMainShieldLookat(context) return end
+function CentaurShieldLookatController:DeactivateMainShieldLookat(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function CentaurShieldLookatController:GetDistanceToShieldTarget(context) return end
+function CentaurShieldLookatController:GetDistanceToShieldTarget(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return ECentaurShieldState
-function CentaurShieldLookatController:GetShieldState(context) return end
+function CentaurShieldLookatController:GetShieldState(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function CentaurShieldLookatController:IsShieldTargetValid(context) return end
+function CentaurShieldLookatController:IsShieldTargetValid(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CentaurShieldLookatController:ReevaluateDesiredLookatTarget(context) return end
+function CentaurShieldLookatController:ReevaluateDesiredLookatTarget(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function CentaurShieldLookatController:ShouldLookatAtCombatTarget(context) return end
+function CentaurShieldLookatController:ShouldLookatAtCombatTarget(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function CentaurShieldLookatController:ShouldLookatAtShieldTarget(context) return end
+function CentaurShieldLookatController:ShouldLookatAtShieldTarget(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function CentaurShieldLookatController:Update(context) return end
+function CentaurShieldLookatController:Update(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CentaurShieldLookatController:UpdateActiveShield(context) return end
+function CentaurShieldLookatController:UpdateActiveShield(context) end

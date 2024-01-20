@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationInfoResource: CResource
----@field public version Uint32
----@field public headCustomizationOptions gameuiCharacterCustomizationInfo[]
----@field public bodyCustomizationOptions gameuiCharacterCustomizationInfo[]
----@field public armsCustomizationOptions gameuiCharacterCustomizationInfo[]
----@field public armsGroups gameuiOptionsGroup[]
----@field public headGroups gameuiOptionsGroup[]
----@field public bodyGroups gameuiOptionsGroup[]
----@field public perspectiveInfo gameuiPerspectiveInfo[]
----@field public uiPresets gameuiCharacterCustomizationUiPresetInfo[]
----@field public excludedFromRandomize CName[]
----@field public versionUpdateInfo gameuiCharacterCustomizationVersionUpdateInfo[]
+---@field version Uint32
+---@field headCustomizationOptions gameuiCharacterCustomizationInfo[]
+---@field bodyCustomizationOptions gameuiCharacterCustomizationInfo[]
+---@field armsCustomizationOptions gameuiCharacterCustomizationInfo[]
+---@field armsGroups gameuiOptionsGroup[]
+---@field headGroups gameuiOptionsGroup[]
+---@field bodyGroups gameuiOptionsGroup[]
+---@field perspectiveInfo gameuiPerspectiveInfo[]
+---@field uiPresets gameuiCharacterCustomizationUiPresetInfo[]
+---@field excludedFromRandomize CName[]
+---@field versionUpdateInfo gameuiCharacterCustomizationVersionUpdateInfo[]
 gameuiCharacterCustomizationInfoResource = {}
 
 ---@param fields? gameuiCharacterCustomizationInfoResource
 ---@return gameuiCharacterCustomizationInfoResource
-function gameuiCharacterCustomizationInfoResource.new(fields) return end
+function gameuiCharacterCustomizationInfoResource.new(fields) end

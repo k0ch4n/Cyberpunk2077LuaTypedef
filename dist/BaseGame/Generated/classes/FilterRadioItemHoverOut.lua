@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class FilterRadioItemHoverOut: redEvent
----@field public target inkWidget
----@field public identifier Int32
+---@field target inkWidget
+---@field identifier Int32
 FilterRadioItemHoverOut = {}
 
 ---@param fields? FilterRadioItemHoverOut
 ---@return FilterRadioItemHoverOut
-function FilterRadioItemHoverOut.new(fields) return end
+function FilterRadioItemHoverOut.new(fields) end

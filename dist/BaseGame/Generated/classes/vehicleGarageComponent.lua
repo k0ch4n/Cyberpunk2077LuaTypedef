@@ -5,4 +5,4 @@ vehicleGarageComponent = {}
 
 ---@param fields? vehicleGarageComponent
 ---@return vehicleGarageComponent
-function vehicleGarageComponent.new(fields) return end
+function vehicleGarageComponent.new(fields) end

@@ -5,4 +5,4 @@ entUpdateRenderProxyStateEvent = {}
 
 ---@param fields? entUpdateRenderProxyStateEvent
 ---@return entUpdateRenderProxyStateEvent
-function entUpdateRenderProxyStateEvent.new(fields) return end
+function entUpdateRenderProxyStateEvent.new(fields) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CustomValueTimeout: AITimeoutCondition
----@field public timeoutValue Float
+---@field timeoutValue Float
 CustomValueTimeout = {}
 
 ---@param fields? CustomValueTimeout
 ---@return CustomValueTimeout
-function CustomValueTimeout.new(fields) return end
+function CustomValueTimeout.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function CustomValueTimeout:GetTimeoutValue(context) return end
+function CustomValueTimeout:GetTimeoutValue(context) end

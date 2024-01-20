@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CameraDeadBodyData: IScriptable
----@field public dataType EGameSessionDataType
----@field public ownerID entEntityID
----@field public bodyID entEntityID
+---@field dataType EGameSessionDataType
+---@field ownerID entEntityID
+---@field bodyID entEntityID
 CameraDeadBodyData = {}
 
 ---@param fields? CameraDeadBodyData
 ---@return CameraDeadBodyData
-function CameraDeadBodyData.new(fields) return end
+function CameraDeadBodyData.new(fields) end

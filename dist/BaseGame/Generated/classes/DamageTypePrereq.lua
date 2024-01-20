@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class DamageTypePrereq: GenericHitPrereq
----@field public damageType gamedataDamageType
+---@field damageType gamedataDamageType
 DamageTypePrereq = {}
 
 ---@param fields? DamageTypePrereq
 ---@return DamageTypePrereq
-function DamageTypePrereq.new(fields) return end
+function DamageTypePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function DamageTypePrereq:Initialize(recordID) return end
+function DamageTypePrereq:Initialize(recordID) end

@@ -5,20 +5,17 @@ TestEffector = {}
 
 ---@param fields? TestEffector
 ---@return TestEffector
-function TestEffector.new(fields) return end
+function TestEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TestEffector:ActionOff(owner) return end
+function TestEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TestEffector:ActionOn(owner) return end
+function TestEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function TestEffector:Initialize(record, parentRecord) return end
+function TestEffector:Initialize(record, parentRecord) end

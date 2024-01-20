@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DelayedDeviceActionEvent: redEvent
----@field public action ScriptableDeviceAction
+---@field action ScriptableDeviceAction
 DelayedDeviceActionEvent = {}
 
 ---@param fields? DelayedDeviceActionEvent
 ---@return DelayedDeviceActionEvent
-function DelayedDeviceActionEvent.new(fields) return end
+function DelayedDeviceActionEvent.new(fields) end

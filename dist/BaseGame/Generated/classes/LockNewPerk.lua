@@ -5,4 +5,4 @@ LockNewPerk = {}
 
 ---@param fields? LockNewPerk
 ---@return LockNewPerk
-function LockNewPerk.new(fields) return end
+function LockNewPerk.new(fields) end

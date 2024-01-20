@@ -1,33 +1,30 @@
 ---@meta
 
 ---@class ModifyStatusEffectDurationOnAttackEffector: ModifyAttackEffector
----@field public tags CName[]
----@field public change Float
----@field public isPercentage Bool
----@field public listenConstantly Bool
----@field public gameInstance ScriptGameInstance
+---@field tags CName[]
+---@field change Float
+---@field isPercentage Bool
+---@field listenConstantly Bool
+---@field gameInstance ScriptGameInstance
 ModifyStatusEffectDurationOnAttackEffector = {}
 
 ---@param fields? ModifyStatusEffectDurationOnAttackEffector
 ---@return ModifyStatusEffectDurationOnAttackEffector
-function ModifyStatusEffectDurationOnAttackEffector.new(fields) return end
+function ModifyStatusEffectDurationOnAttackEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatusEffectDurationOnAttackEffector:ActionOn(owner) return end
+function ModifyStatusEffectDurationOnAttackEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyStatusEffectDurationOnAttackEffector:Initialize(record, parentRecord) return end
+function ModifyStatusEffectDurationOnAttackEffector:Initialize(record, parentRecord) end
 
 ---@param owner gameObject
 ---@return nil
-function ModifyStatusEffectDurationOnAttackEffector:ProcessAction(owner) return end
+function ModifyStatusEffectDurationOnAttackEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatusEffectDurationOnAttackEffector:RepeatedAction(owner) return end
+function ModifyStatusEffectDurationOnAttackEffector:RepeatedAction(owner) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldSnapTags
----@field public includeTags CName[]
----@field public excludeTags CName[]
+---@field includeTags CName[]
+---@field excludeTags CName[]
 worldSnapTags = {}
 
 ---@param fields? worldSnapTags
 ---@return worldSnapTags
-function worldSnapTags.new(fields) return end
+function worldSnapTags.new(fields) end

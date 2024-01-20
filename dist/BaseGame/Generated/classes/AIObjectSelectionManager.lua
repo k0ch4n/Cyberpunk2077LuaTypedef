@@ -5,4 +5,4 @@ AIObjectSelectionManager = {}
 
 ---@param fields? AIObjectSelectionManager
 ---@return AIObjectSelectionManager
-function AIObjectSelectionManager.new(fields) return end
+function AIObjectSelectionManager.new(fields) end

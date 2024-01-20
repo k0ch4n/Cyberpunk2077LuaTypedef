@@ -1,41 +1,40 @@
 ---@meta
 
 ---@class TimetableCallbackData: IScriptable
----@field private time SSimpleGameTime
----@field private recipients RecipientData[]
----@field private callbackID Uint32
+---@field time SSimpleGameTime
+---@field recipients RecipientData[]
+---@field callbackID Uint32
 TimetableCallbackData = {}
 
 ---@param fields? TimetableCallbackData
 ---@return TimetableCallbackData
-function TimetableCallbackData.new(fields) return end
+function TimetableCallbackData.new(fields) end
 
 ---@param recipient RecipientData
 ---@return nil
-function TimetableCallbackData:AddRecipient(recipient) return end
+function TimetableCallbackData:AddRecipient(recipient) end
 
 ---@return Uint32
-function TimetableCallbackData:GetCallbackID() return end
+function TimetableCallbackData:GetCallbackID() end
 
 ---@return GameTime
-function TimetableCallbackData:GetGameTime() return end
+function TimetableCallbackData:GetGameTime() end
 
 ---@return RecipientData[]
-function TimetableCallbackData:GetRecipients() return end
+function TimetableCallbackData:GetRecipients() end
 
 ---@return SSimpleGameTime
-function TimetableCallbackData:GetTime() return end
+function TimetableCallbackData:GetTime() end
 
----@private
 ---@param recipient RecipientData
 ---@return Bool
-function TimetableCallbackData:HasReciepient(recipient) return end
+function TimetableCallbackData:HasReciepient(recipient) end
 
 ---@param timetableEntry SSimpleGameTime
 ---@param recipient RecipientData
 ---@return nil
-function TimetableCallbackData:Initialize(timetableEntry, recipient) return end
+function TimetableCallbackData:Initialize(timetableEntry, recipient) end
 
 ---@param id Uint32
 ---@return nil
-function TimetableCallbackData:SetCallbackID(id) return end
+function TimetableCallbackData:SetCallbackID(id) end

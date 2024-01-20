@@ -5,8 +5,8 @@ SinglePlayerPrereq = {}
 
 ---@param fields? SinglePlayerPrereq
 ---@return SinglePlayerPrereq
-function SinglePlayerPrereq.new(fields) return end
+function SinglePlayerPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function SinglePlayerPrereq:IsFulfilled(context) return end
+function SinglePlayerPrereq:IsFulfilled(context) end

@@ -5,4 +5,4 @@ gameMuppetInputActionActivateScanning = {}
 
 ---@param fields? gameMuppetInputActionActivateScanning
 ---@return gameMuppetInputActionActivateScanning
-function gameMuppetInputActionActivateScanning.new(fields) return end
+function gameMuppetInputActionActivateScanning.new(fields) end

@@ -5,4 +5,4 @@ animAnimDebuggerCommand_RecordActiveChanged = {}
 
 ---@param fields? animAnimDebuggerCommand_RecordActiveChanged
 ---@return animAnimDebuggerCommand_RecordActiveChanged
-function animAnimDebuggerCommand_RecordActiveChanged.new(fields) return end
+function animAnimDebuggerCommand_RecordActiveChanged.new(fields) end

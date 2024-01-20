@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CParticleModificatorTarget: IParticleModificator
----@field public position IEvaluatorVector
----@field public forceScale IEvaluatorFloat
----@field public killRadius IEvaluatorFloat
----@field public maxForce Float
+---@field position IEvaluatorVector
+---@field forceScale IEvaluatorFloat
+---@field killRadius IEvaluatorFloat
+---@field maxForce Float
 CParticleModificatorTarget = {}
 
 ---@param fields? CParticleModificatorTarget
 ---@return CParticleModificatorTarget
-function CParticleModificatorTarget.new(fields) return end
+function CParticleModificatorTarget.new(fields) end

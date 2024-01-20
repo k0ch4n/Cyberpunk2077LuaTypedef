@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraCommentIssueBody: ISerializable
----@field public body String
+---@field body String
 toolsJiraCommentIssueBody = {}
 
 ---@param fields? toolsJiraCommentIssueBody
 ---@return toolsJiraCommentIssueBody
-function toolsJiraCommentIssueBody.new(fields) return end
+function toolsJiraCommentIssueBody.new(fields) end

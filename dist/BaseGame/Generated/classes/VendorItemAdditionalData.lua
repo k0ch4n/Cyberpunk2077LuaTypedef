@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class VendorItemAdditionalData: IScriptable
----@field public Requirement gameSItemStackRequirementData
----@field public IsAvailable Bool
+---@field Requirement gameSItemStackRequirementData
+---@field IsAvailable Bool
 VendorItemAdditionalData = {}
 
 ---@param fields? VendorItemAdditionalData
 ---@return VendorItemAdditionalData
-function VendorItemAdditionalData.new(fields) return end
+function VendorItemAdditionalData.new(fields) end
 
 ---@param itemStack gameSItemStack
 ---@return VendorItemAdditionalData
-function VendorItemAdditionalData.Make(itemStack) return end
+function VendorItemAdditionalData.Make(itemStack) end

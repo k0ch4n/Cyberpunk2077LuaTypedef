@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TarotCardData
----@field public empty Bool
----@field public index Int32
----@field public imagePath CName
----@field public label String
----@field public desc String
----@field public isEp1 Bool
+---@field empty Bool
+---@field index Int32
+---@field imagePath CName
+---@field label String
+---@field desc String
+---@field isEp1 Bool
 TarotCardData = {}
 
 ---@param fields? TarotCardData
 ---@return TarotCardData
-function TarotCardData.new(fields) return end
+function TarotCardData.new(fields) end

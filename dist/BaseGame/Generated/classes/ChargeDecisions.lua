@@ -1,66 +1,56 @@
 ---@meta
 
 ---@class ChargeDecisions: WeaponTransition
----@field private callbackID redCallbackObject
----@field private triggerModeCorrect Bool
----@field private inputPressed Bool
+---@field callbackID redCallbackObject
+---@field triggerModeCorrect Bool
+---@field inputPressed Bool
 ChargeDecisions = {}
 
 ---@param fields? ChargeDecisions
 ---@return ChargeDecisions
-function ChargeDecisions.new(fields) return end
+function ChargeDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function ChargeDecisions:OnAction(action, consumer) return end
+function ChargeDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ChargeDecisions:OnTriggerModeChanged(value) return end
+function ChargeDecisions:OnTriggerModeChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ChargeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ChargeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeDecisions:OnAttach(stateContext, scriptInterface) return end
+function ChargeDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeDecisions:OnDetach(stateContext, scriptInterface) return end
+function ChargeDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ChargeDecisions:ToChargeReady(stateContext, scriptInterface) return end
+function ChargeDecisions:ToChargeReady(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ChargeDecisions:ToShoot(stateContext, scriptInterface) return end
+function ChargeDecisions:ToShoot(stateContext, scriptInterface) end
 
----@protected
 ---@return nil
-function ChargeDecisions:UpdateOnEnterConditionEnabled() return end
+function ChargeDecisions:UpdateOnEnterConditionEnabled() end
 
----@protected
 ---@param value Float
 ---@return nil
-function ChargeDecisions:UpdateRangedAttackInput(value) return end
+function ChargeDecisions:UpdateRangedAttackInput(value) end
 
----@protected
 ---@param modeType gamedataTriggerMode
 ---@return nil
-function ChargeDecisions:UpdateTriggerMode(modeType) return end
+function ChargeDecisions:UpdateTriggerMode(modeType) end

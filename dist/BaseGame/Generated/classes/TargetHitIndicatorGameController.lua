@@ -1,144 +1,123 @@
 ---@meta
 
 ---@class TargetHitIndicatorGameController: gameuiWidgetGameController
----@field private currentAnim inkanimProxy
----@field private bonusAnim inkanimProxy
----@field private currentAnimWidget inkWidget
----@field private currentPriority Int32
----@field private currentController TargetHitIndicatorLogicController
----@field private damageController TargetHitIndicatorLogicController
----@field private defeatController TargetHitIndicatorLogicController
----@field private killController TargetHitIndicatorLogicController
----@field private bonusController TargetHitIndicatorLogicController
----@field private damageListBlackboardId redCallbackObject
----@field private killListBlackboardId redCallbackObject
----@field private indicatorEnabledBlackboardId redCallbackObject
----@field private weaponSwayBlackboardId redCallbackObject
----@field private weaponChangedListener gameAttachmentSlotsScriptListener
----@field private aimingStatusBlackboardId redCallbackObject
----@field private zoomLevelBlackboardId redCallbackObject
----@field private realOwner gameObject
----@field private hitIndicatorEnabled Bool
----@field private entityHit gameObject
----@field private rootWidget inkWidget
----@field private player PlayerPuppet
----@field private currentSway Vector2
----@field public currentWeaponZoom Float
----@field public weaponZoomNeedsUpdate Bool
----@field private currentZoomLevel Float
----@field private weaponZoomListener HitIndicatorWeaponZoomListener
----@field private weaponID gameStatsObjectID
----@field private isAimingDownSights Bool
----@field private uiSystem gameuiGameSystemUI
+---@field currentAnim inkanimProxy
+---@field bonusAnim inkanimProxy
+---@field currentAnimWidget inkWidget
+---@field currentPriority Int32
+---@field currentController TargetHitIndicatorLogicController
+---@field damageController TargetHitIndicatorLogicController
+---@field defeatController TargetHitIndicatorLogicController
+---@field killController TargetHitIndicatorLogicController
+---@field bonusController TargetHitIndicatorLogicController
+---@field damageListBlackboardId redCallbackObject
+---@field killListBlackboardId redCallbackObject
+---@field indicatorEnabledBlackboardId redCallbackObject
+---@field weaponSwayBlackboardId redCallbackObject
+---@field weaponChangedListener gameAttachmentSlotsScriptListener
+---@field aimingStatusBlackboardId redCallbackObject
+---@field zoomLevelBlackboardId redCallbackObject
+---@field realOwner gameObject
+---@field hitIndicatorEnabled Bool
+---@field entityHit gameObject
+---@field rootWidget inkWidget
+---@field player PlayerPuppet
+---@field currentSway Vector2
+---@field currentWeaponZoom Float
+---@field weaponZoomNeedsUpdate Bool
+---@field currentZoomLevel Float
+---@field weaponZoomListener HitIndicatorWeaponZoomListener
+---@field weaponID gameStatsObjectID
+---@field isAimingDownSights Bool
+---@field uiSystem gameuiGameSystemUI
 TargetHitIndicatorGameController = {}
 
 ---@param fields? TargetHitIndicatorGameController
 ---@return TargetHitIndicatorGameController
-function TargetHitIndicatorGameController.new(fields) return end
+function TargetHitIndicatorGameController.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function TargetHitIndicatorGameController:OnAimStatusChange(value) return end
+function TargetHitIndicatorGameController:OnAimStatusChange(value) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function TargetHitIndicatorGameController:OnAnimFinished(anim) return end
+function TargetHitIndicatorGameController:OnAnimFinished(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function TargetHitIndicatorGameController:OnBonusAnimFinished(anim) return end
+function TargetHitIndicatorGameController:OnBonusAnimFinished(anim) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function TargetHitIndicatorGameController:OnDamageAdded(value) return end
+function TargetHitIndicatorGameController:OnDamageAdded(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function TargetHitIndicatorGameController:OnHitIndicatorEnabledChanged(value) return end
+function TargetHitIndicatorGameController:OnHitIndicatorEnabledChanged(value) end
 
----@protected
 ---@return Bool
-function TargetHitIndicatorGameController:OnInitialize() return end
+function TargetHitIndicatorGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function TargetHitIndicatorGameController:OnKillAdded(value) return end
+function TargetHitIndicatorGameController:OnKillAdded(value) end
 
----@protected
 ---@param evt NormalizeAndSaveSwayEvent
 ---@return Bool
-function TargetHitIndicatorGameController:OnNormalizeAndSaveSwayEvent(evt) return end
+function TargetHitIndicatorGameController:OnNormalizeAndSaveSwayEvent(evt) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function TargetHitIndicatorGameController:OnPlayerAttach(player) return end
+function TargetHitIndicatorGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function TargetHitIndicatorGameController:OnPlayerDetach(player) return end
+function TargetHitIndicatorGameController:OnPlayerDetach(player) end
 
----@protected
 ---@param pos Vector2
 ---@return Bool
-function TargetHitIndicatorGameController:OnSway(pos) return end
+function TargetHitIndicatorGameController:OnSway(pos) end
 
----@protected
 ---@return Bool
-function TargetHitIndicatorGameController:OnUninitialize() return end
+function TargetHitIndicatorGameController:OnUninitialize() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function TargetHitIndicatorGameController:OnZoomLevelChange(value) return end
+function TargetHitIndicatorGameController:OnZoomLevelChange(value) end
 
 ---@return nil
-function TargetHitIndicatorGameController:OnWeaponChanged() return end
+function TargetHitIndicatorGameController:OnWeaponChanged() end
 
 ---@return nil
-function TargetHitIndicatorGameController:PlayAnimation() return end
+function TargetHitIndicatorGameController:PlayAnimation() end
 
----@private
 ---@return nil
-function TargetHitIndicatorGameController:RegisterWeaponChangedListener() return end
+function TargetHitIndicatorGameController:RegisterWeaponChangedListener() end
 
----@private
 ---@param damageInfo gameuiDamageInfo
 ---@return Bool
-function TargetHitIndicatorGameController:ShouldShowBonus(damageInfo) return end
+function TargetHitIndicatorGameController:ShouldShowBonus(damageInfo) end
 
----@private
 ---@param damageInfo gameuiDamageInfo
 ---@return Bool
-function TargetHitIndicatorGameController:ShouldShowDamage(damageInfo) return end
+function TargetHitIndicatorGameController:ShouldShowDamage(damageInfo) end
 
----@private
 ---@param entity gameObject
 ---@param isDead Bool
 ---@param killType? gameKillType
 ---@return nil
-function TargetHitIndicatorGameController:Show(entity, isDead, killType) return end
+function TargetHitIndicatorGameController:Show(entity, isDead, killType) end
 
----@private
 ---@return nil
-function TargetHitIndicatorGameController:ShowBonus() return end
+function TargetHitIndicatorGameController:ShowBonus() end
 
----@private
 ---@param type CName|string
 ---@return TargetHitIndicatorLogicController
-function TargetHitIndicatorGameController:SpawnIndicator(type) return end
+function TargetHitIndicatorGameController:SpawnIndicator(type) end
 
----@private
 ---@return nil
-function TargetHitIndicatorGameController:UnregisterWeaponChangedListener() return end
+function TargetHitIndicatorGameController:UnregisterWeaponChangedListener() end
 
----@private
 ---@return nil
-function TargetHitIndicatorGameController:UpdateWidgetPosition() return end
+function TargetHitIndicatorGameController:UpdateWidgetPosition() end

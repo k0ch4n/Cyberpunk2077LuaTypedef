@@ -5,112 +5,112 @@ gamedataAISubActionShootWithWeapon_Record = {}
 
 ---@param fields? gamedataAISubActionShootWithWeapon_Record
 ---@return gamedataAISubActionShootWithWeapon_Record
-function gamedataAISubActionShootWithWeapon_Record.new(fields) return end
+function gamedataAISubActionShootWithWeapon_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionShootWithWeapon_Record:AimingDelay() return end
+function gamedataAISubActionShootWithWeapon_Record:AimingDelay() end
 
 ---@return Float
-function gamedataAISubActionShootWithWeapon_Record:Delay() return end
+function gamedataAISubActionShootWithWeapon_Record:Delay() end
 
 ---@return CName
-function gamedataAISubActionShootWithWeapon_Record:DualWieldShootingStyle() return end
+function gamedataAISubActionShootWithWeapon_Record:DualWieldShootingStyle() end
 
 ---@return Int32
-function gamedataAISubActionShootWithWeapon_Record:GetPauseConditionCount() return end
+function gamedataAISubActionShootWithWeapon_Record:GetPauseConditionCount() end
 
 ---@param index Int32
 ---@return gamedataAIActionCondition_Record
-function gamedataAISubActionShootWithWeapon_Record:GetPauseConditionItem(index) return end
+function gamedataAISubActionShootWithWeapon_Record:GetPauseConditionItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIActionCondition_Record
-function gamedataAISubActionShootWithWeapon_Record:GetPauseConditionItemHandle(index) return end
+function gamedataAISubActionShootWithWeapon_Record:GetPauseConditionItemHandle(index) end
 
 ---@return Int32
-function gamedataAISubActionShootWithWeapon_Record:GetShootingPatternPackagesCount() return end
+function gamedataAISubActionShootWithWeapon_Record:GetShootingPatternPackagesCount() end
 
 ---@param index Int32
 ---@return gamedataAIPatternsPackage_Record
-function gamedataAISubActionShootWithWeapon_Record:GetShootingPatternPackagesItem(index) return end
+function gamedataAISubActionShootWithWeapon_Record:GetShootingPatternPackagesItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIPatternsPackage_Record
-function gamedataAISubActionShootWithWeapon_Record:GetShootingPatternPackagesItemHandle(index) return end
+function gamedataAISubActionShootWithWeapon_Record:GetShootingPatternPackagesItemHandle(index) end
 
 ---@return Int32
-function gamedataAISubActionShootWithWeapon_Record:GetWeaponSlotsCount() return end
+function gamedataAISubActionShootWithWeapon_Record:GetWeaponSlotsCount() end
 
 ---@param index Int32
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionShootWithWeapon_Record:GetWeaponSlotsItem(index) return end
+function gamedataAISubActionShootWithWeapon_Record:GetWeaponSlotsItem(index) end
 
 ---@param index Int32
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionShootWithWeapon_Record:GetWeaponSlotsItemHandle(index) return end
+function gamedataAISubActionShootWithWeapon_Record:GetWeaponSlotsItemHandle(index) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionShootWithWeapon_Record:Instigator() return end
+function gamedataAISubActionShootWithWeapon_Record:Instigator() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionShootWithWeapon_Record:InstigatorHandle() return end
+function gamedataAISubActionShootWithWeapon_Record:InstigatorHandle() end
 
 ---@return Int32
-function gamedataAISubActionShootWithWeapon_Record:MaxNumberOfShots() return end
+function gamedataAISubActionShootWithWeapon_Record:MaxNumberOfShots() end
 
 ---@return Int32
-function gamedataAISubActionShootWithWeapon_Record:NumberOfShots() return end
+function gamedataAISubActionShootWithWeapon_Record:NumberOfShots() end
 
 ---@return nil, gamedataAIActionCondition_Record[] outList
-function gamedataAISubActionShootWithWeapon_Record:PauseCondition() return end
+function gamedataAISubActionShootWithWeapon_Record:PauseCondition() end
 
 ---@return Float
-function gamedataAISubActionShootWithWeapon_Record:PauseConditionCheckInterval() return end
+function gamedataAISubActionShootWithWeapon_Record:PauseConditionCheckInterval() end
 
 ---@param item gamedataAIActionCondition_Record
 ---@return Bool
-function gamedataAISubActionShootWithWeapon_Record:PauseConditionContains(item) return end
+function gamedataAISubActionShootWithWeapon_Record:PauseConditionContains(item) end
 
 ---@return Float
-function gamedataAISubActionShootWithWeapon_Record:PredictionTime() return end
+function gamedataAISubActionShootWithWeapon_Record:PredictionTime() end
 
 ---@return gamedataRangedAttack_Record
-function gamedataAISubActionShootWithWeapon_Record:RangedAttack() return end
+function gamedataAISubActionShootWithWeapon_Record:RangedAttack() end
 
 ---@return gamedataRangedAttack_Record
-function gamedataAISubActionShootWithWeapon_Record:RangedAttackHandle() return end
+function gamedataAISubActionShootWithWeapon_Record:RangedAttackHandle() end
 
 ---@return nil, gamedataAIPatternsPackage_Record[] outList
-function gamedataAISubActionShootWithWeapon_Record:ShootingPatternPackages() return end
+function gamedataAISubActionShootWithWeapon_Record:ShootingPatternPackages() end
 
 ---@param item gamedataAIPatternsPackage_Record
 ---@return Bool
-function gamedataAISubActionShootWithWeapon_Record:ShootingPatternPackagesContains(item) return end
+function gamedataAISubActionShootWithWeapon_Record:ShootingPatternPackagesContains(item) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionShootWithWeapon_Record:Target() return end
+function gamedataAISubActionShootWithWeapon_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionShootWithWeapon_Record:TargetHandle() return end
+function gamedataAISubActionShootWithWeapon_Record:TargetHandle() end
 
 ---@return Vector3
-function gamedataAISubActionShootWithWeapon_Record:TargetOffset() return end
+function gamedataAISubActionShootWithWeapon_Record:TargetOffset() end
 
 ---@return Float
-function gamedataAISubActionShootWithWeapon_Record:TbhCoefficient() return end
+function gamedataAISubActionShootWithWeapon_Record:TbhCoefficient() end
 
 ---@return gamedataTriggerMode_Record
-function gamedataAISubActionShootWithWeapon_Record:TriggerMode() return end
+function gamedataAISubActionShootWithWeapon_Record:TriggerMode() end
 
 ---@return gamedataTriggerMode_Record
-function gamedataAISubActionShootWithWeapon_Record:TriggerModeHandle() return end
+function gamedataAISubActionShootWithWeapon_Record:TriggerModeHandle() end
 
 ---@return CName
-function gamedataAISubActionShootWithWeapon_Record:WeaponCustomEvent() return end
+function gamedataAISubActionShootWithWeapon_Record:WeaponCustomEvent() end
 
 ---@return nil, gamedataAttachmentSlot_Record[] outList
-function gamedataAISubActionShootWithWeapon_Record:WeaponSlots() return end
+function gamedataAISubActionShootWithWeapon_Record:WeaponSlots() end
 
 ---@param item gamedataAttachmentSlot_Record
 ---@return Bool
-function gamedataAISubActionShootWithWeapon_Record:WeaponSlotsContains(item) return end
+function gamedataAISubActionShootWithWeapon_Record:WeaponSlotsContains(item) end

@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class SurveillanceSystemControllerPS: DeviceSystemBaseControllerPS
----@field private isRevealingEnemies Bool
+---@field isRevealingEnemies Bool
 SurveillanceSystemControllerPS = {}
 
 ---@param fields? SurveillanceSystemControllerPS
 ---@return SurveillanceSystemControllerPS
-function SurveillanceSystemControllerPS.new(fields) return end
+function SurveillanceSystemControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SurveillanceSystemControllerPS:OnInstantiated() return end
+function SurveillanceSystemControllerPS:OnInstantiated() end
 
----@private
 ---@return RevealEnemies
-function SurveillanceSystemControllerPS:ActionRevealEnemies() return end
+function SurveillanceSystemControllerPS:ActionRevealEnemies() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function SurveillanceSystemControllerPS:GetActions(context) return end
+function SurveillanceSystemControllerPS:GetActions(context) end
 
----@protected
 ---@return nil
-function SurveillanceSystemControllerPS:Initialize() return end
+function SurveillanceSystemControllerPS:Initialize() end
 
 ---@param evt RevealEnemies
 ---@return EntityNotificationType
-function SurveillanceSystemControllerPS:OnRevealEnemies(evt) return end
+function SurveillanceSystemControllerPS:OnRevealEnemies(evt) end

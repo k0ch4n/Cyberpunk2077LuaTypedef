@@ -5,4 +5,4 @@ vehicleRadioStationInitialized = {}
 
 ---@param fields? vehicleRadioStationInitialized
 ---@return vehicleRadioStationInitialized
-function vehicleRadioStationInitialized.new(fields) return end
+function vehicleRadioStationInitialized.new(fields) end

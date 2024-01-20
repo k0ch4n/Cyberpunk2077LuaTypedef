@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AIbehaviorExitWorkspotNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public skipExitAnimation AIArgumentMapping
----@field public useSlowExitAnimation AIArgumentMapping
----@field public doSlowIfFastExitFails AIArgumentMapping
----@field public stayInWorkspotIfExitFails AIArgumentMapping
----@field public tryBlendFastExitToWalk AIArgumentMapping
----@field public dontRequestExit AIArgumentMapping
----@field public cancelQueuedCommand AIArgumentMapping
----@field public target AIArgumentMapping
+---@field skipExitAnimation AIArgumentMapping
+---@field useSlowExitAnimation AIArgumentMapping
+---@field doSlowIfFastExitFails AIArgumentMapping
+---@field stayInWorkspotIfExitFails AIArgumentMapping
+---@field tryBlendFastExitToWalk AIArgumentMapping
+---@field dontRequestExit AIArgumentMapping
+---@field cancelQueuedCommand AIArgumentMapping
+---@field target AIArgumentMapping
 AIbehaviorExitWorkspotNodeDefinition = {}
 
 ---@param fields? AIbehaviorExitWorkspotNodeDefinition
 ---@return AIbehaviorExitWorkspotNodeDefinition
-function AIbehaviorExitWorkspotNodeDefinition.new(fields) return end
+function AIbehaviorExitWorkspotNodeDefinition.new(fields) end

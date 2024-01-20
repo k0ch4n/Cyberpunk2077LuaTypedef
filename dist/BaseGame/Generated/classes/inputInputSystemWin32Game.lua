@@ -5,4 +5,4 @@ inputInputSystemWin32Game = {}
 
 ---@param fields? inputInputSystemWin32Game
 ---@return inputInputSystemWin32Game
-function inputInputSystemWin32Game.new(fields) return end
+function inputInputSystemWin32Game.new(fields) end

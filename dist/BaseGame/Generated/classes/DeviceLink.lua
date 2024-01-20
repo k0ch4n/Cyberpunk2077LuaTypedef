@@ -1,35 +1,35 @@
 ---@meta
 
 ---@class DeviceLink
----@field private PSID gamePersistentID
----@field private className CName
+---@field PSID gamePersistentID
+---@field className CName
 DeviceLink = {}
 
 ---@param fields? DeviceLink
 ---@return DeviceLink
-function DeviceLink.new(fields) return end
+function DeviceLink.new(fields) end
 
 ---@param persistentStates gamePersistentState[]
 ---@return DeviceLink[]
-function DeviceLink.Construct(persistentStates) return end
+function DeviceLink.Construct(persistentStates) end
 
 ---@param ps gamePersistentState
 ---@return DeviceLink
-function DeviceLink.Construct(ps) return end
+function DeviceLink.Construct(ps) end
 
 ---@param id gamePersistentID
 ---@param _className CName|string
 ---@return DeviceLink
-function DeviceLink.Construct(id, _className) return end
+function DeviceLink.Construct(id, _className) end
 
 ---@param s DeviceLink
 ---@return CName
-function DeviceLink.GetLinkClassName(s) return end
+function DeviceLink.GetLinkClassName(s) end
 
 ---@param s DeviceLink
 ---@return gamePersistentID
-function DeviceLink.GetLinkID(s) return end
+function DeviceLink.GetLinkID(s) end
 
 ---@param s DeviceLink
 ---@return Bool
-function DeviceLink.IsValid(s) return end
+function DeviceLink.IsValid(s) end

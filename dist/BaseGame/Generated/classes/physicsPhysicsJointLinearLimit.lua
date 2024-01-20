@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class physicsPhysicsJointLinearLimit: physicsPhysicsJointLimitBase
----@field public x physicsPhysicsJointMotion
----@field public y physicsPhysicsJointMotion
----@field public z physicsPhysicsJointMotion
----@field public value Float
+---@field x physicsPhysicsJointMotion
+---@field y physicsPhysicsJointMotion
+---@field z physicsPhysicsJointMotion
+---@field value Float
 physicsPhysicsJointLinearLimit = {}
 
 ---@param fields? physicsPhysicsJointLinearLimit
 ---@return physicsPhysicsJointLinearLimit
-function physicsPhysicsJointLinearLimit.new(fields) return end
+function physicsPhysicsJointLinearLimit.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CRenderSimWaterImpulse: IDynamicTextureGenerator
----@field public resolution Int32
----@field public simulationSpeed Float
+---@field resolution Int32
+---@field simulationSpeed Float
 CRenderSimWaterImpulse = {}
 
 ---@param fields? CRenderSimWaterImpulse
 ---@return CRenderSimWaterImpulse
-function CRenderSimWaterImpulse.new(fields) return end
+function CRenderSimWaterImpulse.new(fields) end
 
 ---@return nil
-function CRenderSimWaterImpulse.AddImpulse() return end
+function CRenderSimWaterImpulse.AddImpulse() end

@@ -5,4 +5,4 @@ BaseNetworkSystemControllerPS = {}
 
 ---@param fields? BaseNetworkSystemControllerPS
 ---@return BaseNetworkSystemControllerPS
-function BaseNetworkSystemControllerPS.new(fields) return end
+function BaseNetworkSystemControllerPS.new(fields) end

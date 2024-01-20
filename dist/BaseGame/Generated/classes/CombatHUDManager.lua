@@ -1,50 +1,42 @@
 ---@meta
 
 ---@class CombatHUDManager: gameScriptableComponent
----@field public isRunning Bool
----@field public targets CombatTarget[]
----@field public interval Float
----@field public timeSinceLastUpdate Float
+---@field isRunning Bool
+---@field targets CombatTarget[]
+---@field interval Float
+---@field timeSinceLastUpdate Float
 CombatHUDManager = {}
 
 ---@param fields? CombatHUDManager
 ---@return CombatHUDManager
-function CombatHUDManager.new(fields) return end
+function CombatHUDManager.new(fields) end
 
----@private
 ---@return nil
-function CombatHUDManager:ClearHUD() return end
+function CombatHUDManager:ClearHUD() end
 
----@private
 ---@param activeWeapon gameweaponObject
 ---@return nil
-function CombatHUDManager:DetermineProperHandlingMode(activeWeapon) return end
+function CombatHUDManager:DetermineProperHandlingMode(activeWeapon) end
 
----@private
 ---@return nil
-function CombatHUDManager:HandleChargeMode() return end
+function CombatHUDManager:HandleChargeMode() end
 
----@private
 ---@param evt AddTargetToHighlightEvent
 ---@return nil
-function CombatHUDManager:OnAddTargetToHighlightEvent(evt) return end
+function CombatHUDManager:OnAddTargetToHighlightEvent(evt) end
 
----@private
 ---@param evt RemoveTargetFromHighlightEvent
 ---@return nil
-function CombatHUDManager:OnRemoveTargetFromHighlightEvent(evt) return end
+function CombatHUDManager:OnRemoveTargetFromHighlightEvent(evt) end
 
----@private
 ---@param evt ToggleChargeHighlightEvent
 ---@return nil
-function CombatHUDManager:OnToggleChargeHighlightEvent(evt) return end
+function CombatHUDManager:OnToggleChargeHighlightEvent(evt) end
 
----@private
 ---@param target ScriptedPuppet
 ---@return nil
-function CombatHUDManager:RemoveTarget(target) return end
+function CombatHUDManager:RemoveTarget(target) end
 
----@private
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function CombatHUDManager:TargetExists(puppet) return end
+function CombatHUDManager:TargetExists(puppet) end

@@ -5,7 +5,7 @@ DropAction = {}
 
 ---@param fields? DropAction
 ---@return DropAction
-function DropAction.new(fields) return end
+function DropAction.new(fields) end
 
 ---@return nil
-function DropAction:CompleteAction() return end
+function DropAction:CompleteAction() end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class OpenShardNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher gameuiGameSystemUI
+---@field eventDispatcher gameuiGameSystemUI
 OpenShardNotificationAction = {}
 
 ---@param fields? OpenShardNotificationAction
 ---@return OpenShardNotificationAction
-function OpenShardNotificationAction.new(fields) return end
+function OpenShardNotificationAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function OpenShardNotificationAction:Execute(data) return end
+function OpenShardNotificationAction:Execute(data) end
 
 ---@return String
-function OpenShardNotificationAction:GetLabel() return end
+function OpenShardNotificationAction:GetLabel() end

@@ -5,4 +5,4 @@ ReevaluateOxygenEvent = {}
 
 ---@param fields? ReevaluateOxygenEvent
 ---@return ReevaluateOxygenEvent
-function ReevaluateOxygenEvent.new(fields) return end
+function ReevaluateOxygenEvent.new(fields) end

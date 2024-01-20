@@ -5,16 +5,15 @@ BunkerComputerControllerPS = {}
 
 ---@param fields? BunkerComputerControllerPS
 ---@return BunkerComputerControllerPS
-function BunkerComputerControllerPS.new(fields) return end
+function BunkerComputerControllerPS.new(fields) end
 
 ---@param evt QuestForceCameraZoom
 ---@return EntityNotificationType
-function BunkerComputerControllerPS:OnQuestForceCameraZoom(evt) return end
+function BunkerComputerControllerPS:OnQuestForceCameraZoom(evt) end
 
 ---@param evt ToggleZoomInteraction
 ---@return EntityNotificationType
-function BunkerComputerControllerPS:OnToggleZoomInteraction(evt) return end
+function BunkerComputerControllerPS:OnToggleZoomInteraction(evt) end
 
----@private
 ---@return nil
-function BunkerComputerControllerPS:SetDeviceID() return end
+function BunkerComputerControllerPS:SetDeviceID() end

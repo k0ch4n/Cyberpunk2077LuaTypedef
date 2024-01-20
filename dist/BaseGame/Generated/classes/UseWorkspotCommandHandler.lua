@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class UseWorkspotCommandHandler: AICommandHandlerBase
----@field protected outMoveToWorkspot AIArgumentMapping
----@field protected outForceEntryAnimName AIArgumentMapping
----@field protected outContinueInCombat AIArgumentMapping
+---@field outMoveToWorkspot AIArgumentMapping
+---@field outForceEntryAnimName AIArgumentMapping
+---@field outContinueInCombat AIArgumentMapping
 UseWorkspotCommandHandler = {}
 
 ---@param fields? UseWorkspotCommandHandler
 ---@return UseWorkspotCommandHandler
-function UseWorkspotCommandHandler.new(fields) return end
+function UseWorkspotCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UseWorkspotCommandHandler:Activate(context) return end
+function UseWorkspotCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function UseWorkspotCommandHandler:UpdateCommand(context, command) return end
+function UseWorkspotCommandHandler:UpdateCommand(context, command) end

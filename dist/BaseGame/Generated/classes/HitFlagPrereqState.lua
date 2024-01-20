@@ -5,8 +5,8 @@ HitFlagPrereqState = {}
 
 ---@param fields? HitFlagPrereqState
 ---@return HitFlagPrereqState
-function HitFlagPrereqState.new(fields) return end
+function HitFlagPrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitFlagPrereqState:Evaluate(hitEvent) return end
+function HitFlagPrereqState:Evaluate(hitEvent) end

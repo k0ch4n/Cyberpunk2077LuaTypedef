@@ -1,25 +1,24 @@
 ---@meta
 
 ---@class gameVisionModeComponentPS: gameComponentPS
----@field public hideInDefaultMode Bool
----@field public hideInFocusMode Bool
----@field public inactive Bool
----@field public questInactive Bool
----@field private storedHighlightData FocusForcedHighlightPersistentData
+---@field hideInDefaultMode Bool
+---@field hideInFocusMode Bool
+---@field inactive Bool
+---@field questInactive Bool
+---@field storedHighlightData FocusForcedHighlightPersistentData
 gameVisionModeComponentPS = {}
 
 ---@param fields? gameVisionModeComponentPS
 ---@return gameVisionModeComponentPS
-function gameVisionModeComponentPS.new(fields) return end
+function gameVisionModeComponentPS.new(fields) end
 
 ---@return FocusForcedHighlightData
-function gameVisionModeComponentPS:GetStoredHighlightData() return end
+function gameVisionModeComponentPS:GetStoredHighlightData() end
 
----@private
 ---@param evt SetPersistentForcedHighlightEvent
 ---@return EntityNotificationType
-function gameVisionModeComponentPS:OnSetPersistentForcedHighlightEvent(evt) return end
+function gameVisionModeComponentPS:OnSetPersistentForcedHighlightEvent(evt) end
 
 ---@param data FocusForcedHighlightData
 ---@return nil
-function gameVisionModeComponentPS:StoreHighlightData(data) return end
+function gameVisionModeComponentPS:StoreHighlightData(data) end

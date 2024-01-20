@@ -5,4 +5,4 @@ DeathLandDecisions = {}
 
 ---@param fields? DeathLandDecisions
 ---@return DeathLandDecisions
-function DeathLandDecisions.new(fields) return end
+function DeathLandDecisions.new(fields) end

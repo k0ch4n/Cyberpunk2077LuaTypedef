@@ -1,113 +1,93 @@
 ---@meta
 
 ---@class GenericDevice: InteractiveDevice
----@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
----@field private currentSpiderbotAction CustomDeviceAction
+---@field offMeshConnectionComponent AIOffMeshConnectionComponent
+---@field currentSpiderbotAction CustomDeviceAction
 GenericDevice = {}
 
 ---@param fields? GenericDevice
 ---@return GenericDevice
-function GenericDevice.new(fields) return end
+function GenericDevice.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function GenericDevice:OnActivateDevice(evt) return end
+function GenericDevice:OnActivateDevice(evt) end
 
----@protected
 ---@param evt CustomDeviceAction
 ---@return Bool
-function GenericDevice:OnCustomAction(evt) return end
+function GenericDevice:OnCustomAction(evt) end
 
----@protected
 ---@return Bool
-function GenericDevice:OnDetach() return end
+function GenericDevice:OnDetach() end
 
----@protected
 ---@param evt gameFactChangedEvent
 ---@return Bool
-function GenericDevice:OnFactChanged(evt) return end
+function GenericDevice:OnFactChanged(evt) end
 
----@protected
 ---@param evt QuestCustomAction
 ---@return Bool
-function GenericDevice:OnQuestCustomAction(evt) return end
+function GenericDevice:OnQuestCustomAction(evt) end
 
----@protected
 ---@param evt QuestToggleCustomAction
 ---@return Bool
-function GenericDevice:OnQuestToggleCustomAction(evt) return end
+function GenericDevice:OnQuestToggleCustomAction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function GenericDevice:OnRequestComponents(ri) return end
+function GenericDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SpiderbotOrderCompletedEvent
 ---@return Bool
-function GenericDevice:OnSpiderbotOrderCompletedEvent(evt) return end
+function GenericDevice:OnSpiderbotOrderCompletedEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function GenericDevice:OnTakeControl(ri) return end
+function GenericDevice:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleCustomActionEvent
 ---@return Bool
-function GenericDevice:OnToggleCustomActionEvent(evt) return end
+function GenericDevice:OnToggleCustomActionEvent(evt) end
 
 ---@return EGameplayRole
-function GenericDevice:DeterminGameplayRole() return end
+function GenericDevice:DeterminGameplayRole() end
 
----@protected
 ---@param player Bool
 ---@param npc Bool
 ---@return nil
-function GenericDevice:DisableOffMeshConnections(player, npc) return end
+function GenericDevice:DisableOffMeshConnections(player, npc) end
 
----@protected
 ---@param player Bool
 ---@param npc Bool
 ---@return nil
-function GenericDevice:EnableOffMeshConnections(player, npc) return end
+function GenericDevice:EnableOffMeshConnections(player, npc) end
 
----@private
 ---@return GenericDeviceController
-function GenericDevice:GetController() return end
+function GenericDevice:GetController() end
 
 ---@return GenericDeviceControllerPS
-function GenericDevice:GetDevicePS() return end
+function GenericDevice:GetDevicePS() end
 
----@private
 ---@return nil
-function GenericDevice:InitializeQuestDBCallbacks() return end
+function GenericDevice:InitializeQuestDBCallbacks() end
 
----@private
 ---@param actionID CName|string
 ---@return nil
-function GenericDevice:ResolveCustomAction(actionID) return end
+function GenericDevice:ResolveCustomAction(actionID) end
 
----@protected
 ---@return nil
-function GenericDevice:ResolveGameplayState() return end
+function GenericDevice:ResolveGameplayState() end
 
----@private
 ---@return nil
-function GenericDevice:RestoreCustomActionOperations() return end
+function GenericDevice:RestoreCustomActionOperations() end
 
----@protected
 ---@param evt CustomDeviceAction
 ---@return nil
-function GenericDevice:SaveCurrentSpiderbotAction(evt) return end
+function GenericDevice:SaveCurrentSpiderbotAction(evt) end
 
----@protected
 ---@param player gameObject
 ---@param locationOverride? gameObject
 ---@return nil
-function GenericDevice:SendSpiderbotOrderEvent(player, locationOverride) return end
+function GenericDevice:SendSpiderbotOrderEvent(player, locationOverride) end
 
----@private
 ---@return nil
-function GenericDevice:UnInitializeQuestDBCallbacks() return end
+function GenericDevice:UnInitializeQuestDBCallbacks() end

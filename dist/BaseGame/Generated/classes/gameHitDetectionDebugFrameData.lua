@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameHitDetectionDebugFrameData
----@field public t Bool
----@field public mponent gameHitRepresentationComponent
----@field public tTime netTime
----@field public apes gameHitDetectionDebugFrameDataShapeEntry[]
+---@field t Bool
+---@field mponent gameHitRepresentationComponent
+---@field tTime netTime
+---@field apes gameHitDetectionDebugFrameDataShapeEntry[]
 gameHitDetectionDebugFrameData = {}
 
 ---@param fields? gameHitDetectionDebugFrameData
 ---@return gameHitDetectionDebugFrameData
-function gameHitDetectionDebugFrameData.new(fields) return end
+function gameHitDetectionDebugFrameData.new(fields) end

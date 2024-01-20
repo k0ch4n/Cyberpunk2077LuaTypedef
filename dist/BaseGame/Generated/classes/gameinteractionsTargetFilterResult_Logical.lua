@@ -5,4 +5,4 @@ gameinteractionsTargetFilterResult_Logical = {}
 
 ---@param fields? gameinteractionsTargetFilterResult_Logical
 ---@return gameinteractionsTargetFilterResult_Logical
-function gameinteractionsTargetFilterResult_Logical.new(fields) return end
+function gameinteractionsTargetFilterResult_Logical.new(fields) end

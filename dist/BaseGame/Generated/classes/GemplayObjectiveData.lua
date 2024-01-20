@@ -1,54 +1,53 @@
 ---@meta
 
 ---@class GemplayObjectiveData: IScriptable
----@field protected questUniqueId String
----@field protected questTitle String
----@field protected objectiveDescription String
----@field private uniqueId String
----@field private ownerID entEntityID
----@field private objectiveEntryID String
----@field private uniqueIdPrefix String
----@field private objectiveState gameJournalEntryState
+---@field questUniqueId String
+---@field questTitle String
+---@field objectiveDescription String
+---@field uniqueId String
+---@field ownerID entEntityID
+---@field objectiveEntryID String
+---@field uniqueIdPrefix String
+---@field objectiveState gameJournalEntryState
 GemplayObjectiveData = {}
 
 ---@param fields? GemplayObjectiveData
 ---@return GemplayObjectiveData
-function GemplayObjectiveData.new(fields) return end
+function GemplayObjectiveData.new(fields) end
 
----@protected
 ---@param entityID entEntityID
 ---@return nil
-function GemplayObjectiveData:CreateUniqueID(entityID) return end
+function GemplayObjectiveData:CreateUniqueID(entityID) end
 
 ---@return String
-function GemplayObjectiveData:GetObjectiveDescription() return end
+function GemplayObjectiveData:GetObjectiveDescription() end
 
 ---@return String
-function GemplayObjectiveData:GetObjectiveEntryID() return end
+function GemplayObjectiveData:GetObjectiveEntryID() end
 
 ---@return gameJournalEntryState
-function GemplayObjectiveData:GetObjectiveState() return end
+function GemplayObjectiveData:GetObjectiveState() end
 
 ---@return entEntityID
-function GemplayObjectiveData:GetOwnerID() return end
+function GemplayObjectiveData:GetOwnerID() end
 
 ---@return String
-function GemplayObjectiveData:GetQuestTitle() return end
+function GemplayObjectiveData:GetQuestTitle() end
 
 ---@return String
-function GemplayObjectiveData:GetUniqueID() return end
+function GemplayObjectiveData:GetUniqueID() end
 
 ---@return Bool
-function GemplayObjectiveData:IsCreated() return end
+function GemplayObjectiveData:IsCreated() end
 
 ---@param objectiveEntryID String
 ---@return nil
-function GemplayObjectiveData:SetObjectiveEntryID(objectiveEntryID) return end
+function GemplayObjectiveData:SetObjectiveEntryID(objectiveEntryID) end
 
 ---@param state gameJournalEntryState
 ---@return nil
-function GemplayObjectiveData:SetObjectiveState(state) return end
+function GemplayObjectiveData:SetObjectiveState(state) end
 
 ---@param requesterID entEntityID
 ---@return nil
-function GemplayObjectiveData:SetOwnerID(requesterID) return end
+function GemplayObjectiveData:SetOwnerID(requesterID) end

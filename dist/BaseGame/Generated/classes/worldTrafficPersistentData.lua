@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTrafficPersistentData
----@field public lanes worldTrafficLanePersistent[]
----@field public neighborGroups Uint16[][]
+---@field lanes worldTrafficLanePersistent[]
+---@field neighborGroups Uint16[][]
 worldTrafficPersistentData = {}
 
 ---@param fields? worldTrafficPersistentData
 ---@return worldTrafficPersistentData
-function worldTrafficPersistentData.new(fields) return end
+function worldTrafficPersistentData.new(fields) end

@@ -5,9 +5,8 @@ gamePuppetMountableComponent = {}
 
 ---@param fields? gamePuppetMountableComponent
 ---@return gamePuppetMountableComponent
-function gamePuppetMountableComponent.new(fields) return end
+function gamePuppetMountableComponent.new(fields) end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function gamePuppetMountableComponent:OnInteractionChoice(choiceEvent) return end
+function gamePuppetMountableComponent:OnInteractionChoice(choiceEvent) end

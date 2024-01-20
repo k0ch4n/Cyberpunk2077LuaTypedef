@@ -5,4 +5,4 @@ worldCompiledCrowdParkingSpaceNodeInstance = {}
 
 ---@param fields? worldCompiledCrowdParkingSpaceNodeInstance
 ---@return worldCompiledCrowdParkingSpaceNodeInstance
-function worldCompiledCrowdParkingSpaceNodeInstance.new(fields) return end
+function worldCompiledCrowdParkingSpaceNodeInstance.new(fields) end

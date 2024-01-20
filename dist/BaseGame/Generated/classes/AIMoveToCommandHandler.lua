@@ -1,25 +1,24 @@
 ---@meta
 
 ---@class AIMoveToCommandHandler: AICommandHandlerBase
----@field protected outIsDynamicMove AIArgumentMapping
----@field protected outMovementTarget AIArgumentMapping
----@field protected outMovementTargetPos AIArgumentMapping
----@field protected outRotateEntityTowardsFacingTarget AIArgumentMapping
----@field protected outFacingTarget AIArgumentMapping
----@field protected outMovementType AIArgumentMapping
----@field protected outIgnoreNavigation AIArgumentMapping
----@field protected outUseStart AIArgumentMapping
----@field protected outUseStop AIArgumentMapping
----@field protected outDesiredDistanceFromTarget AIArgumentMapping
----@field protected outFinishWhenDestinationReached AIArgumentMapping
+---@field outIsDynamicMove AIArgumentMapping
+---@field outMovementTarget AIArgumentMapping
+---@field outMovementTargetPos AIArgumentMapping
+---@field outRotateEntityTowardsFacingTarget AIArgumentMapping
+---@field outFacingTarget AIArgumentMapping
+---@field outMovementType AIArgumentMapping
+---@field outIgnoreNavigation AIArgumentMapping
+---@field outUseStart AIArgumentMapping
+---@field outUseStop AIArgumentMapping
+---@field outDesiredDistanceFromTarget AIArgumentMapping
+---@field outFinishWhenDestinationReached AIArgumentMapping
 AIMoveToCommandHandler = {}
 
 ---@param fields? AIMoveToCommandHandler
 ---@return AIMoveToCommandHandler
-function AIMoveToCommandHandler.new(fields) return end
+function AIMoveToCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function AIMoveToCommandHandler:UpdateCommand(context, command) return end
+function AIMoveToCommandHandler:UpdateCommand(context, command) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class NumericDisplayBlackboardDef: DeviceBaseBlackboardDef
----@field public CurrentNumber gamebbScriptID_Int32
----@field public Direction gamebbScriptID_Int32
+---@field CurrentNumber gamebbScriptID_Int32
+---@field Direction gamebbScriptID_Int32
 NumericDisplayBlackboardDef = {}
 
 ---@param fields? NumericDisplayBlackboardDef
 ---@return NumericDisplayBlackboardDef
-function NumericDisplayBlackboardDef.new(fields) return end
+function NumericDisplayBlackboardDef.new(fields) end

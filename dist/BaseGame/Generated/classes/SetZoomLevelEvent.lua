@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SetZoomLevelEvent: redEvent
----@field public value Int32
+---@field value Int32
 SetZoomLevelEvent = {}
 
 ---@param fields? SetZoomLevelEvent
 ---@return SetZoomLevelEvent
-function SetZoomLevelEvent.new(fields) return end
+function SetZoomLevelEvent.new(fields) end
 
 ---@param zoomValue Int32
 ---@return nil
-function SetZoomLevelEvent:SetZoom(zoomValue) return end
+function SetZoomLevelEvent:SetZoom(zoomValue) end

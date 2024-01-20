@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class gameuiPuppetPreviewGameController: gameuiPreviewGameController
----@field public cameraController gameuiPuppetPreviewCameraController
+---@field cameraController gameuiPuppetPreviewCameraController
 gameuiPuppetPreviewGameController = {}
 
 ---@param fields? gameuiPuppetPreviewGameController
 ---@return gameuiPuppetPreviewGameController
-function gameuiPuppetPreviewGameController.new(fields) return end
+function gameuiPuppetPreviewGameController.new(fields) end
 
 ---@return gamePuppet
-function gameuiPuppetPreviewGameController:GetGamePuppet() return end
+function gameuiPuppetPreviewGameController:GetGamePuppet() end
 
----@protected
 ---@return Bool
-function gameuiPuppetPreviewGameController:OnPreviewInitialized() return end
+function gameuiPuppetPreviewGameController:OnPreviewInitialized() end
 
----@private
 ---@return nil, AnimFeature_Paperdoll animFeature
-function gameuiPuppetPreviewGameController:GetAnimFeature() return end
+function gameuiPuppetPreviewGameController:GetAnimFeature() end
 
----@private
 ---@return nil
-function gameuiPuppetPreviewGameController:SendAnimData() return end
+function gameuiPuppetPreviewGameController:SendAnimData() end

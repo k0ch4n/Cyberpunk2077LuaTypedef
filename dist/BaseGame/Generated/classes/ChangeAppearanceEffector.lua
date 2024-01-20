@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class ChangeAppearanceEffector: gameEffector
----@field private appearanceName CName
----@field private resetAppearance Bool
----@field private previousAppearance CName
----@field private owner gameObject
+---@field appearanceName CName
+---@field resetAppearance Bool
+---@field previousAppearance CName
+---@field owner gameObject
 ChangeAppearanceEffector = {}
 
 ---@param fields? ChangeAppearanceEffector
 ---@return ChangeAppearanceEffector
-function ChangeAppearanceEffector.new(fields) return end
+function ChangeAppearanceEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ChangeAppearanceEffector:ActionOn(owner) return end
+function ChangeAppearanceEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ChangeAppearanceEffector:Initialize(record, parentRecord) return end
+function ChangeAppearanceEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function ChangeAppearanceEffector:Uninitialize() return end
+function ChangeAppearanceEffector:Uninitialize() end

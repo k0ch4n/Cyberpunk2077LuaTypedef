@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class LibTreeDefTreeVariable: ISerializable
----@field public id Uint16
----@field public readableName CName
+---@field id Uint16
+---@field readableName CName
 LibTreeDefTreeVariable = {}

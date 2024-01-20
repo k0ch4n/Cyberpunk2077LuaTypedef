@@ -5,4 +5,4 @@ inkVisualStatePopStateMachineEvent = {}
 
 ---@param fields? inkVisualStatePopStateMachineEvent
 ---@return inkVisualStatePopStateMachineEvent
-function inkVisualStatePopStateMachineEvent.new(fields) return end
+function inkVisualStatePopStateMachineEvent.new(fields) end

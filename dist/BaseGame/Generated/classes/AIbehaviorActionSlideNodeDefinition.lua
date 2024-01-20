@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class AIbehaviorActionSlideNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public duration AIArgumentMapping
----@field public ignoreNavigation AIArgumentMapping
----@field public rotateTowardsMovementDirection AIArgumentMapping
+---@field duration AIArgumentMapping
+---@field ignoreNavigation AIArgumentMapping
+---@field rotateTowardsMovementDirection AIArgumentMapping
 AIbehaviorActionSlideNodeDefinition = {}

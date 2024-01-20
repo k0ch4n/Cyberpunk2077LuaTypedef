@@ -1,34 +1,34 @@
 ---@meta
 
 ---@class gameuiCreditsController: gameuiWidgetGameController
----@field public creditsResourcePS4 inkCreditsResource
----@field public creditsResourceXBOXPC inkCreditsResource
----@field public scrollingSpeed Float
----@field public fastforwardScrollingSpeed Float
----@field public sectionsContainer inkCompoundWidgetReference
----@field public singleTextWidget inkTextWidgetReference
----@field public speakerNameTextWidget inkTextWidgetReference
----@field public exitTooltipContainer inkCompoundWidgetReference
----@field public swapBackgroundVideoAnimName CName
----@field public singleAnimName CName
----@field public openVideoScreenAnimName CName
----@field public closeVideoScreenAnimName CName
----@field public headerLibraryID CName
----@field public boldLibraryID CName
----@field public basicLibraryID CName
----@field public basicTranslatableLibraryID CName
----@field public topCreditsMargin Float
----@field public bottomCreditsMargin Float
----@field public startPosition Float
----@field public subtitlesContainer inkCompoundWidgetReference
----@field public subtitlesLibraryPath CResource
----@field public shouldShowRewardPrompt Bool
----@field public isInFinalBoardsMode Bool
----@field public isPreVideoFinished Bool
----@field public isEp1CreditsImplementation Bool
----@field public exitNotificationDisplayTime Float
+---@field creditsResourcePS4 inkCreditsResource
+---@field creditsResourceXBOXPC inkCreditsResource
+---@field scrollingSpeed Float
+---@field fastforwardScrollingSpeed Float
+---@field sectionsContainer inkCompoundWidgetReference
+---@field singleTextWidget inkTextWidgetReference
+---@field speakerNameTextWidget inkTextWidgetReference
+---@field exitTooltipContainer inkCompoundWidgetReference
+---@field swapBackgroundVideoAnimName CName
+---@field singleAnimName CName
+---@field openVideoScreenAnimName CName
+---@field closeVideoScreenAnimName CName
+---@field headerLibraryID CName
+---@field boldLibraryID CName
+---@field basicLibraryID CName
+---@field basicTranslatableLibraryID CName
+---@field topCreditsMargin Float
+---@field bottomCreditsMargin Float
+---@field startPosition Float
+---@field subtitlesContainer inkCompoundWidgetReference
+---@field subtitlesLibraryPath CResource
+---@field shouldShowRewardPrompt Bool
+---@field isInFinalBoardsMode Bool
+---@field isPreVideoFinished Bool
+---@field isEp1CreditsImplementation Bool
+---@field exitNotificationDisplayTime Float
 gameuiCreditsController = {}
 
 ---@param fields? gameuiCreditsController
 ---@return gameuiCreditsController
-function gameuiCreditsController.new(fields) return end
+function gameuiCreditsController.new(fields) end

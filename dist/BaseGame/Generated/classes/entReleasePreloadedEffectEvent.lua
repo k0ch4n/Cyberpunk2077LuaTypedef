@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entReleasePreloadedEffectEvent: redEvent
----@field public effectName CName
+---@field effectName CName
 entReleasePreloadedEffectEvent = {}
 
 ---@param fields? entReleasePreloadedEffectEvent
 ---@return entReleasePreloadedEffectEvent
-function entReleasePreloadedEffectEvent.new(fields) return end
+function entReleasePreloadedEffectEvent.new(fields) end

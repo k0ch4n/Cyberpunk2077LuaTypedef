@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AttributeUpgradePurchased: redEvent
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
+---@field attributeType PerkMenuAttribute
+---@field attributeData AttributeData
 AttributeUpgradePurchased = {}
 
 ---@param fields? AttributeUpgradePurchased
 ---@return AttributeUpgradePurchased
-function AttributeUpgradePurchased.new(fields) return end
+function AttributeUpgradePurchased.new(fields) end

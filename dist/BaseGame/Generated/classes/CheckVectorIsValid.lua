@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class CheckVectorIsValid: AIbehaviorconditionScript
----@field public actionTweakIDMapping AIArgumentMapping
----@field public value Vector4
+---@field actionTweakIDMapping AIArgumentMapping
+---@field value Vector4
 CheckVectorIsValid = {}
 
 ---@param fields? CheckVectorIsValid
 ---@return CheckVectorIsValid
-function CheckVectorIsValid.new(fields) return end
+function CheckVectorIsValid.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckVectorIsValid:Check(context) return end
+function CheckVectorIsValid:Check(context) end

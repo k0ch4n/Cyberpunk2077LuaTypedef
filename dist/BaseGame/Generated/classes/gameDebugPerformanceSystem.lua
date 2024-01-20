@@ -5,4 +5,4 @@ gameDebugPerformanceSystem = {}
 
 ---@param fields? gameDebugPerformanceSystem
 ---@return gameDebugPerformanceSystem
-function gameDebugPerformanceSystem.new(fields) return end
+function gameDebugPerformanceSystem.new(fields) end

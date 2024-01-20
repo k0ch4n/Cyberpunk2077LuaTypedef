@@ -5,4 +5,4 @@ PerkDeviceTickEvent = {}
 
 ---@param fields? PerkDeviceTickEvent
 ---@return PerkDeviceTickEvent
-function PerkDeviceTickEvent.new(fields) return end
+function PerkDeviceTickEvent.new(fields) end

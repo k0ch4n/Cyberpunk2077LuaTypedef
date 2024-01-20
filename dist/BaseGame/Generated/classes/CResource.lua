@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class CResource: ISerializable
----@field public cookingPlatform ECookingPlatform
+---@field cookingPlatform ECookingPlatform
 CResource = {}

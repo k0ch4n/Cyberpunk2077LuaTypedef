@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class UI_QuickSlotsDataDef: gamebbScriptDefinition
----@field public UIRadialContextRequest gamebbScriptID_Bool
----@field public UIRadialContextRightStickAngle gamebbScriptID_Float
----@field public leftStick gamebbScriptID_Vector4
----@field public DPadCommand gamebbScriptID_Variant
----@field public KeyboardCommand gamebbScriptID_Variant
----@field public WheelInteractionStarted gamebbScriptID_Variant
----@field public WheelInteractionEnded gamebbScriptID_Variant
----@field public CyberwareAssignmentComplete gamebbScriptID_Bool
----@field public WheelAssignmentComplete gamebbScriptID_Bool
----@field public quickSlotsStructure gamebbScriptID_Variant
----@field public activeQuickSlotItem gamebbScriptID_Variant
----@field public quickSlotsActiveWeaponIndex gamebbScriptID_Int32
----@field public quickhackPanelOpen gamebbScriptID_Bool
----@field public quickHackDescritpionVisible gamebbScriptID_Bool
----@field public quickHackDataSelected gamebbScriptID_Variant
----@field public quickhackPanelKeepContext gamebbScriptID_Bool
----@field public dpadHintRefresh gamebbScriptID_Bool
----@field public containerConsumable gamebbScriptID_Variant
----@field public consumableBeingUsed gamebbScriptID_Variant
+---@field UIRadialContextRequest gamebbScriptID_Bool
+---@field UIRadialContextRightStickAngle gamebbScriptID_Float
+---@field leftStick gamebbScriptID_Vector4
+---@field DPadCommand gamebbScriptID_Variant
+---@field KeyboardCommand gamebbScriptID_Variant
+---@field WheelInteractionStarted gamebbScriptID_Variant
+---@field WheelInteractionEnded gamebbScriptID_Variant
+---@field CyberwareAssignmentComplete gamebbScriptID_Bool
+---@field WheelAssignmentComplete gamebbScriptID_Bool
+---@field quickSlotsStructure gamebbScriptID_Variant
+---@field activeQuickSlotItem gamebbScriptID_Variant
+---@field quickSlotsActiveWeaponIndex gamebbScriptID_Int32
+---@field quickhackPanelOpen gamebbScriptID_Bool
+---@field quickHackDescritpionVisible gamebbScriptID_Bool
+---@field quickHackDataSelected gamebbScriptID_Variant
+---@field quickhackPanelKeepContext gamebbScriptID_Bool
+---@field dpadHintRefresh gamebbScriptID_Bool
+---@field containerConsumable gamebbScriptID_Variant
+---@field consumableBeingUsed gamebbScriptID_Variant
 UI_QuickSlotsDataDef = {}
 
 ---@param fields? UI_QuickSlotsDataDef
 ---@return UI_QuickSlotsDataDef
-function UI_QuickSlotsDataDef.new(fields) return end
+function UI_QuickSlotsDataDef.new(fields) end
 
 ---@return Bool
-function UI_QuickSlotsDataDef:AutoCreateInSystem() return end
+function UI_QuickSlotsDataDef:AutoCreateInSystem() end

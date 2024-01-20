@@ -5,4 +5,4 @@ ReloadingExpansionPopupCloseEvent = {}
 
 ---@param fields? ReloadingExpansionPopupCloseEvent
 ---@return ReloadingExpansionPopupCloseEvent
-function ReloadingExpansionPopupCloseEvent.new(fields) return end
+function ReloadingExpansionPopupCloseEvent.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gamemappinsMappinData: gamemappinsIMappinData
----@field public mappinType TweakDBID
----@field public variant gamedataMappinVariant
----@field public active Bool
----@field public debugCaption String
----@field public localizedCaption LocalizationString
----@field public visibleThroughWalls Bool
----@field public scriptData gamemappinsMappinScriptData
+---@field mappinType TweakDBID
+---@field variant gamedataMappinVariant
+---@field active Bool
+---@field debugCaption String
+---@field localizedCaption LocalizationString
+---@field visibleThroughWalls Bool
+---@field scriptData gamemappinsMappinScriptData
 gamemappinsMappinData = {}
 
 ---@param fields? gamemappinsMappinData
 ---@return gamemappinsMappinData
-function gamemappinsMappinData.new(fields) return end
+function gamemappinsMappinData.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questCountdownTimer_NodeType: questIUIManagerNodeType
----@field public duration Float
+---@field duration Float
 questCountdownTimer_NodeType = {}
 
 ---@param fields? questCountdownTimer_NodeType
 ---@return questCountdownTimer_NodeType
-function questCountdownTimer_NodeType.new(fields) return end
+function questCountdownTimer_NodeType.new(fields) end

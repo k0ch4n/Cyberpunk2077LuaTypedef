@@ -5,7 +5,7 @@ DropPointController = {}
 
 ---@param fields? DropPointController
 ---@return DropPointController
-function DropPointController.new(fields) return end
+function DropPointController.new(fields) end
 
 ---@return DropPointControllerPS
-function DropPointController:GetPS() return end
+function DropPointController:GetPS() end

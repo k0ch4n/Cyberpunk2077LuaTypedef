@@ -5,27 +5,27 @@ MediaDeviceStatus = {}
 
 ---@param fields? MediaDeviceStatus
 ---@return MediaDeviceStatus
-function MediaDeviceStatus.new(fields) return end
+function MediaDeviceStatus.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function MediaDeviceStatus.IsAvailable(device) return end
+function MediaDeviceStatus.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function MediaDeviceStatus.IsClearanceValid(clearance) return end
+function MediaDeviceStatus.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function MediaDeviceStatus.IsDefaultConditionMet(device, context) return end
+function MediaDeviceStatus.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function MediaDeviceStatus:GetCurrentDisplayString() return end
+function MediaDeviceStatus:GetCurrentDisplayString() end
 
 ---@return String
-function MediaDeviceStatus:GetTweakDBChoiceRecord() return end
+function MediaDeviceStatus:GetTweakDBChoiceRecord() end
 
 ---@param deviceRef ScriptableDeviceComponentPS
 ---@return nil
-function MediaDeviceStatus:SetProperties(deviceRef) return end
+function MediaDeviceStatus:SetProperties(deviceRef) end

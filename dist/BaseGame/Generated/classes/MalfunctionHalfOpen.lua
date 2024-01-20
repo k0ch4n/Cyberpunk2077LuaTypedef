@@ -5,26 +5,26 @@ MalfunctionHalfOpen = {}
 
 ---@param fields? MalfunctionHalfOpen
 ---@return MalfunctionHalfOpen
-function MalfunctionHalfOpen.new(fields) return end
+function MalfunctionHalfOpen.new(fields) end
 
 ---@param device BunkerDoorControllerPS
 ---@return Bool
-function MalfunctionHalfOpen.IsAvailable(device) return end
+function MalfunctionHalfOpen.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function MalfunctionHalfOpen.IsClearanceValid(clearance) return end
+function MalfunctionHalfOpen.IsClearanceValid(clearance) end
 
 ---@param device BunkerDoorControllerPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function MalfunctionHalfOpen.IsDefaultConditionMet(device, context) return end
+function MalfunctionHalfOpen.IsDefaultConditionMet(device, context) end
 
 ---@return TweakDBID
-function MalfunctionHalfOpen:GetInkWidgetTweakDBID() return end
+function MalfunctionHalfOpen:GetInkWidgetTweakDBID() end
 
 ---@return String
-function MalfunctionHalfOpen:GetTweakDBChoiceRecord() return end
+function MalfunctionHalfOpen:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function MalfunctionHalfOpen:SetProperties() return end
+function MalfunctionHalfOpen:SetProperties() end

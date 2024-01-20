@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questShowCustomQuestNotification_NodeType: questIUIManagerNodeType
----@field public customQuestNotificationData questCustomQuestNotificationData
+---@field customQuestNotificationData questCustomQuestNotificationData
 questShowCustomQuestNotification_NodeType = {}
 
 ---@param fields? questShowCustomQuestNotification_NodeType
 ---@return questShowCustomQuestNotification_NodeType
-function questShowCustomQuestNotification_NodeType.new(fields) return end
+function questShowCustomQuestNotification_NodeType.new(fields) end

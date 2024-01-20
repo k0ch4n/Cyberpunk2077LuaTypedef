@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSmartObjectMembership: ISerializable
----@field public members gameSmartObjectMembershipMemberShip[]
+---@field members gameSmartObjectMembershipMemberShip[]
 gameSmartObjectMembership = {}
 
 ---@param fields? gameSmartObjectMembership
 ---@return gameSmartObjectMembership
-function gameSmartObjectMembership.new(fields) return end
+function gameSmartObjectMembership.new(fields) end

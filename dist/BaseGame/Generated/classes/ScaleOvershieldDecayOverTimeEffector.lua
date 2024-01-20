@@ -1,57 +1,50 @@
 ---@meta
 
 ---@class ScaleOvershieldDecayOverTimeEffector: gameContinuousEffector
----@field public effectApplied Bool
----@field public decayModifier gameStatModifierData_Deprecated
----@field public owner gameObject
----@field public overshieldListener OvershieldMinValueListener
----@field public delayTime Float
----@field public elapsedTime Float
----@field public bValue Float
----@field public kInitValue Float
----@field public kValue Float
----@field public maxDecay Float
----@field public maxValueApplied Bool
----@field public markedForReset Bool
+---@field effectApplied Bool
+---@field decayModifier gameStatModifierData_Deprecated
+---@field owner gameObject
+---@field overshieldListener OvershieldMinValueListener
+---@field delayTime Float
+---@field elapsedTime Float
+---@field bValue Float
+---@field kInitValue Float
+---@field kValue Float
+---@field maxDecay Float
+---@field maxValueApplied Bool
+---@field markedForReset Bool
 ScaleOvershieldDecayOverTimeEffector = {}
 
 ---@param fields? ScaleOvershieldDecayOverTimeEffector
 ---@return ScaleOvershieldDecayOverTimeEffector
-function ScaleOvershieldDecayOverTimeEffector.new(fields) return end
+function ScaleOvershieldDecayOverTimeEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:ActionOff(owner) return end
+function ScaleOvershieldDecayOverTimeEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:ActionOn(owner) return end
+function ScaleOvershieldDecayOverTimeEffector:ActionOn(owner) end
 
----@protected
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:AddModifier() return end
+function ScaleOvershieldDecayOverTimeEffector:AddModifier() end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:ContinuousAction(owner, instigator) return end
+function ScaleOvershieldDecayOverTimeEffector:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:Initialize(record, parentRecord) return end
+function ScaleOvershieldDecayOverTimeEffector:Initialize(record, parentRecord) end
 
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:MarkForReset() return end
+function ScaleOvershieldDecayOverTimeEffector:MarkForReset() end
 
----@protected
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:RemoveModifier() return end
+function ScaleOvershieldDecayOverTimeEffector:RemoveModifier() end
 
----@protected
 ---@return nil
-function ScaleOvershieldDecayOverTimeEffector:ResetDecayModifier() return end
+function ScaleOvershieldDecayOverTimeEffector:ResetDecayModifier() end

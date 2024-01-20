@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioPlaylistTrackEventStruct
----@field public playlistName CName
----@field public trackName CName
+---@field playlistName CName
+---@field trackName CName
 audioPlaylistTrackEventStruct = {}
 
 ---@param fields? audioPlaylistTrackEventStruct
 ---@return audioPlaylistTrackEventStruct
-function audioPlaylistTrackEventStruct.new(fields) return end
+function audioPlaylistTrackEventStruct.new(fields) end

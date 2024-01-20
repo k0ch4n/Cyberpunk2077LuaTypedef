@@ -5,4 +5,4 @@ OnAttachedEvent = {}
 
 ---@param fields? OnAttachedEvent
 ---@return OnAttachedEvent
-function OnAttachedEvent.new(fields) return end
+function OnAttachedEvent.new(fields) end

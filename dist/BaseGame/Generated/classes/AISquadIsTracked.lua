@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AISquadIsTracked: AIAIEvent
----@field public isSquadTracked Bool
+---@field isSquadTracked Bool
 AISquadIsTracked = {}
 
 ---@param fields? AISquadIsTracked
 ---@return AISquadIsTracked
-function AISquadIsTracked.new(fields) return end
+function AISquadIsTracked.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorMovementPolicyTaskDefinition: AIbehaviorTaskDefinition
----@field public useCurrentPolicy Bool
----@field public waitForPolicy Bool
----@field public stopWhenDestinationReached AIArgumentMapping
----@field public policies AIbehaviorMovementPolicyTaskItemDefinition[]
+---@field useCurrentPolicy Bool
+---@field waitForPolicy Bool
+---@field stopWhenDestinationReached AIArgumentMapping
+---@field policies AIbehaviorMovementPolicyTaskItemDefinition[]
 AIbehaviorMovementPolicyTaskDefinition = {}
 
 ---@param fields? AIbehaviorMovementPolicyTaskDefinition
 ---@return AIbehaviorMovementPolicyTaskDefinition
-function AIbehaviorMovementPolicyTaskDefinition.new(fields) return end
+function AIbehaviorMovementPolicyTaskDefinition.new(fields) end

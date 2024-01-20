@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameeventsHighLevelStateDataEvent: redEvent
----@field public currentHighLevelState gamedataNPCHighLevelState
----@field public currentNPCEntityID entEntityID
+---@field currentHighLevelState gamedataNPCHighLevelState
+---@field currentNPCEntityID entEntityID
 gameeventsHighLevelStateDataEvent = {}
 
 ---@param fields? gameeventsHighLevelStateDataEvent
 ---@return gameeventsHighLevelStateDataEvent
-function gameeventsHighLevelStateDataEvent.new(fields) return end
+function gameeventsHighLevelStateDataEvent.new(fields) end

@@ -5,34 +5,29 @@ DodgeAirDecisions = {}
 
 ---@param fields? DodgeAirDecisions
 ---@return DodgeAirDecisions
-function DodgeAirDecisions.new(fields) return end
+function DodgeAirDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function DodgeAirDecisions:OnAction(action, consumer) return end
+function DodgeAirDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DodgeAirDecisions:EnterCondition(stateContext, scriptInterface) return end
+function DodgeAirDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DodgeAirDecisions:OnAttach(stateContext, scriptInterface) return end
+function DodgeAirDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DodgeAirDecisions:OnDetach(stateContext, scriptInterface) return end
+function DodgeAirDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DodgeAirDecisions:ToFall(stateContext, scriptInterface) return end
+function DodgeAirDecisions:ToFall(stateContext, scriptInterface) end

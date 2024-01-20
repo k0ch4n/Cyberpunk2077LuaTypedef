@@ -5,13 +5,13 @@ gamedataAILookAtCond_Record = {}
 
 ---@param fields? gamedataAILookAtCond_Record
 ---@return gamedataAILookAtCond_Record
-function gamedataAILookAtCond_Record.new(fields) return end
+function gamedataAILookAtCond_Record.new(fields) end
 
 ---@return Int32
-function gamedataAILookAtCond_Record:RightArmLookAtActive() return end
+function gamedataAILookAtCond_Record:RightArmLookAtActive() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAILookAtCond_Record:Target() return end
+function gamedataAILookAtCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAILookAtCond_Record:TargetHandle() return end
+function gamedataAILookAtCond_Record:TargetHandle() end

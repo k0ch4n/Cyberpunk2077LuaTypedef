@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficCollisionDebug: ISerializable
----@field public overlapBoxes worldDbgOverlapBox[]
+---@field overlapBoxes worldDbgOverlapBox[]
 worldTrafficCollisionDebug = {}
 
 ---@param fields? worldTrafficCollisionDebug
 ---@return worldTrafficCollisionDebug
-function worldTrafficCollisionDebug.new(fields) return end
+function worldTrafficCollisionDebug.new(fields) end

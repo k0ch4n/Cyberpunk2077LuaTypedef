@@ -1,71 +1,62 @@
 ---@meta
 
 ---@class ShardItemVirtualController: inkVirtualCompoundItemController
----@field private icon inkWidgetReference
----@field private label inkTextWidgetReference
----@field private counter inkTextWidgetReference
----@field private collapseIcon inkWidgetReference
----@field private isNewFlag inkWidgetReference
----@field private entryData ShardEntryData
----@field private nestedListData VirutalNestedListData
----@field private activeItemSync CodexListSyncData
----@field private isActive Bool
----@field private isItemHovered Bool
----@field private isItemToggled Bool
----@field private isItemCollapsed Bool
----@field private clicked Bool
+---@field icon inkWidgetReference
+---@field label inkTextWidgetReference
+---@field counter inkTextWidgetReference
+---@field collapseIcon inkWidgetReference
+---@field isNewFlag inkWidgetReference
+---@field entryData ShardEntryData
+---@field nestedListData VirutalNestedListData
+---@field activeItemSync CodexListSyncData
+---@field isActive Bool
+---@field isItemHovered Bool
+---@field isItemToggled Bool
+---@field isItemCollapsed Bool
+---@field clicked Bool
 ShardItemVirtualController = {}
 
 ---@param fields? ShardItemVirtualController
 ---@return ShardItemVirtualController
-function ShardItemVirtualController.new(fields) return end
+function ShardItemVirtualController.new(fields) end
 
----@protected
 ---@param evt ShardSyncBackEvent
 ---@return Bool
-function ShardItemVirtualController:OnContactSyncData(evt) return end
+function ShardItemVirtualController:OnContactSyncData(evt) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function ShardItemVirtualController:OnDeselected(itemController) return end
+function ShardItemVirtualController:OnDeselected(itemController) end
 
----@protected
 ---@param evt ShardEntrySelectedEvent
 ---@return Bool
-function ShardItemVirtualController:OnEntrySelected(evt) return end
+function ShardItemVirtualController:OnEntrySelected(evt) end
 
----@protected
 ---@return Bool
-function ShardItemVirtualController:OnInitialize() return end
+function ShardItemVirtualController:OnInitialize() end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function ShardItemVirtualController:OnSelected(itemController, discreteNav) return end
+function ShardItemVirtualController:OnSelected(itemController, discreteNav) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function ShardItemVirtualController:OnToggledOff(itemController) return end
+function ShardItemVirtualController:OnToggledOff(itemController) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function ShardItemVirtualController:OnToggledOn(itemController) return end
+function ShardItemVirtualController:OnToggledOn(itemController) end
 
----@protected
 ---@return Bool
-function ShardItemVirtualController:OnUnnitialize() return end
+function ShardItemVirtualController:OnUnnitialize() end
 
 ---@return nil
-function ShardItemVirtualController:CheckIsNew() return end
+function ShardItemVirtualController:CheckIsNew() end
 
 ---@param value Variant
 ---@return nil
-function ShardItemVirtualController:OnDataChanged(value) return end
+function ShardItemVirtualController:OnDataChanged(value) end
 
----@private
 ---@return nil
-function ShardItemVirtualController:UpdateState() return end
+function ShardItemVirtualController:UpdateState() end

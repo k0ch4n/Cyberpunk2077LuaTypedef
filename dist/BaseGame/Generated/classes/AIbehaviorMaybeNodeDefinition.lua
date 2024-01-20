@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorMaybeNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public onChildSuccess AIbehaviorMaybeNodeAction
----@field public onChildFailure AIbehaviorMaybeNodeAction
+---@field onChildSuccess AIbehaviorMaybeNodeAction
+---@field onChildFailure AIbehaviorMaybeNodeAction
 AIbehaviorMaybeNodeDefinition = {}
 
 ---@param fields? AIbehaviorMaybeNodeDefinition
 ---@return AIbehaviorMaybeNodeDefinition
-function AIbehaviorMaybeNodeDefinition.new(fields) return end
+function AIbehaviorMaybeNodeDefinition.new(fields) end

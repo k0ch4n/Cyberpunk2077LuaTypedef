@@ -5,4 +5,4 @@ audioAudioSquadHandler = {}
 
 ---@param fields? audioAudioSquadHandler
 ---@return audioAudioSquadHandler
-function audioAudioSquadHandler.new(fields) return end
+function audioAudioSquadHandler.new(fields) end

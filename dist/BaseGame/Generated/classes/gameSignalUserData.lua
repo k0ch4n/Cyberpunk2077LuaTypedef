@@ -5,8 +5,8 @@ gameSignalUserData = {}
 
 ---@param fields? gameSignalUserData
 ---@return gameSignalUserData
-function gameSignalUserData.new(fields) return end
+function gameSignalUserData.new(fields) end
 
 ---@param tag CName|string
 ---@return Bool
-function gameSignalUserData:HasTag(tag) return end
+function gameSignalUserData:HasTag(tag) end

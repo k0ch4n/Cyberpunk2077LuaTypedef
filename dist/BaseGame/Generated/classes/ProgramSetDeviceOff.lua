@@ -5,12 +5,12 @@ ProgramSetDeviceOff = {}
 
 ---@param fields? ProgramSetDeviceOff
 ---@return ProgramSetDeviceOff
-function ProgramSetDeviceOff.new(fields) return end
+function ProgramSetDeviceOff.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ProgramSetDeviceOff.IsDefaultConditionMet(device, context) return end
+function ProgramSetDeviceOff.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function ProgramSetDeviceOff:SetProperties() return end
+function ProgramSetDeviceOff:SetProperties() end

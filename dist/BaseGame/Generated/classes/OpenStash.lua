@@ -5,20 +5,20 @@ OpenStash = {}
 
 ---@param fields? OpenStash
 ---@return OpenStash
-function OpenStash.new(fields) return end
+function OpenStash.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function OpenStash.IsAvailable(device) return end
+function OpenStash.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function OpenStash.IsClearanceValid(clearance) return end
+function OpenStash.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function OpenStash.IsDefaultConditionMet(device, context) return end
+function OpenStash.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function OpenStash:SetProperties() return end
+function OpenStash:SetProperties() end

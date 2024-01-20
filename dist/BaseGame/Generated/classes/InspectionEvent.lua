@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class InspectionEvent: redEvent
----@field public enabled Bool
+---@field enabled Bool
 InspectionEvent = {}
 
 ---@param fields? InspectionEvent
 ---@return InspectionEvent
-function InspectionEvent.new(fields) return end
+function InspectionEvent.new(fields) end

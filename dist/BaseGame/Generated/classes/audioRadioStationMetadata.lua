@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioRadioStationMetadata: audioAudioMetadata
----@field public tracks CName[]
----@field public blips audioRadioBlip[]
----@field public speaker audioRadioSpeakerType
+---@field tracks CName[]
+---@field blips audioRadioBlip[]
+---@field speaker audioRadioSpeakerType
 audioRadioStationMetadata = {}
 
 ---@param fields? audioRadioStationMetadata
 ---@return audioRadioStationMetadata
-function audioRadioStationMetadata.new(fields) return end
+function audioRadioStationMetadata.new(fields) end

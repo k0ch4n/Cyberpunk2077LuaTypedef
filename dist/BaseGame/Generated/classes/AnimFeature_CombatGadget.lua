@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AnimFeature_CombatGadget: animAnimFeature
----@field public isQuickthrow Bool
----@field public isChargedThrow Bool
----@field public isDetonated Bool
+---@field isQuickthrow Bool
+---@field isChargedThrow Bool
+---@field isDetonated Bool
 AnimFeature_CombatGadget = {}
 
 ---@param fields? AnimFeature_CombatGadget
 ---@return AnimFeature_CombatGadget
-function AnimFeature_CombatGadget.new(fields) return end
+function AnimFeature_CombatGadget.new(fields) end

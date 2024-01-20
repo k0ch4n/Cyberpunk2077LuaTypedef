@@ -1,70 +1,69 @@
 ---@meta
 
 ---@class HubMenuLabelContentContainer: inkWidgetLogicController
----@field protected label inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected desiredSizeWrapper inkWidgetReference
----@field protected border inkBorderWidgetReference
----@field protected line inkWidgetReference
----@field protected carouselPosition Int32
----@field public labelName String
----@field public data MenuData
----@field public isRadialVariant Bool
+---@field label inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field desiredSizeWrapper inkWidgetReference
+---@field border inkBorderWidgetReference
+---@field line inkWidgetReference
+---@field carouselPosition Int32
+---@field labelName String
+---@field data MenuData
+---@field isRadialVariant Bool
 HubMenuLabelContentContainer = {}
 
 ---@param fields? HubMenuLabelContentContainer
 ---@return HubMenuLabelContentContainer
-function HubMenuLabelContentContainer.new(fields) return end
+function HubMenuLabelContentContainer.new(fields) end
 
----@protected
 ---@return Bool
-function HubMenuLabelContentContainer:OnInitialize() return end
+function HubMenuLabelContentContainer:OnInitialize() end
 
 ---@return Int32
-function HubMenuLabelContentContainer:GetCarouselPosition() return end
+function HubMenuLabelContentContainer:GetCarouselPosition() end
 
 ---@return MenuData
-function HubMenuLabelContentContainer:GetData() return end
+function HubMenuLabelContentContainer:GetData() end
 
 ---@return Int32
-function HubMenuLabelContentContainer:GetIdentifier() return end
+function HubMenuLabelContentContainer:GetIdentifier() end
 
 ---@return Vector2
-function HubMenuLabelContentContainer:GetRealDesiredSize() return end
+function HubMenuLabelContentContainer:GetRealDesiredSize() end
 
 ---@return Float
-function HubMenuLabelContentContainer:GetRealDesiredWidth() return end
+function HubMenuLabelContentContainer:GetRealDesiredWidth() end
 
 ---@return Float
-function HubMenuLabelContentContainer:GetSize() return end
+function HubMenuLabelContentContainer:GetSize() end
 
 ---@return inkWidget[]
-function HubMenuLabelContentContainer:GetTintedWidgets() return end
+function HubMenuLabelContentContainer:GetTintedWidgets() end
 
 ---@return Float
-function HubMenuLabelContentContainer:GetWidth() return end
+function HubMenuLabelContentContainer:GetWidth() end
 
 ---@param carouselPosition Int32
 ---@return nil
-function HubMenuLabelContentContainer:SetCarouselPosition(carouselPosition) return end
+function HubMenuLabelContentContainer:SetCarouselPosition(carouselPosition) end
 
 ---@param data MenuData
 ---@param isRadialVariant Bool
 ---@return nil
-function HubMenuLabelContentContainer:SetData(data, isRadialVariant) return end
+function HubMenuLabelContentContainer:SetData(data, isRadialVariant) end
 
 ---@param data MenuData
 ---@return nil
-function HubMenuLabelContentContainer:SetData(data) return end
+function HubMenuLabelContentContainer:SetData(data) end
 
 ---@param value Bool
 ---@return nil
-function HubMenuLabelContentContainer:SetInteractive(value) return end
+function HubMenuLabelContentContainer:SetInteractive(value) end
 
 ---@param state CName|string
 ---@return nil
-function HubMenuLabelContentContainer:SetTextState(state) return end
+function HubMenuLabelContentContainer:SetTextState(state) end
 
 ---@param color HDRColor
 ---@return nil
-function HubMenuLabelContentContainer:SetTintColor(color) return end
+function HubMenuLabelContentContainer:SetTintColor(color) end

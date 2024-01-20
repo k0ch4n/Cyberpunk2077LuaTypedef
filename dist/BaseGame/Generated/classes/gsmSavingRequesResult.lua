@@ -5,4 +5,4 @@ gsmSavingRequesResult = {}
 
 ---@param fields? gsmSavingRequesResult
 ---@return gsmSavingRequesResult
-function gsmSavingRequesResult.new(fields) return end
+function gsmSavingRequesResult.new(fields) end

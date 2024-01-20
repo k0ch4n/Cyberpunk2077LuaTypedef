@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animLookAtAdditionalPreset_RightArm: animLookAtAdditionalPreset
----@field public isAiming Bool
----@field public softLimitAngle Float
+---@field isAiming Bool
+---@field softLimitAngle Float
 animLookAtAdditionalPreset_RightArm = {}
 
 ---@param fields? animLookAtAdditionalPreset_RightArm
 ---@return animLookAtAdditionalPreset_RightArm
-function animLookAtAdditionalPreset_RightArm.new(fields) return end
+function animLookAtAdditionalPreset_RightArm.new(fields) end

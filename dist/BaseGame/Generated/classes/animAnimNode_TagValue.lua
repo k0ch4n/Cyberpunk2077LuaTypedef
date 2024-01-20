@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimNode_TagValue: animAnimNode_FloatValue
----@field public tag CName
----@field public defaultValue Float
----@field public oneMinus Bool
+---@field tag CName
+---@field defaultValue Float
+---@field oneMinus Bool
 animAnimNode_TagValue = {}
 
 ---@param fields? animAnimNode_TagValue
 ---@return animAnimNode_TagValue
-function animAnimNode_TagValue.new(fields) return end
+function animAnimNode_TagValue.new(fields) end

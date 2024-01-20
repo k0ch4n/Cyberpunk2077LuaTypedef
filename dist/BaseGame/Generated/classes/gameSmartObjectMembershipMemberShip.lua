@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSmartObjectMembershipMemberShip
----@field public hash Uint64
----@field public index Uint32
+---@field hash Uint64
+---@field index Uint32
 gameSmartObjectMembershipMemberShip = {}
 
 ---@param fields? gameSmartObjectMembershipMemberShip
 ---@return gameSmartObjectMembershipMemberShip
-function gameSmartObjectMembershipMemberShip.new(fields) return end
+function gameSmartObjectMembershipMemberShip.new(fields) end

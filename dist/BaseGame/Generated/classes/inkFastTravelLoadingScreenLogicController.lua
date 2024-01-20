@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class inkFastTravelLoadingScreenLogicController: inkILoadingLogicController
----@field public mainBackgroundImage inkImageWidgetReference
----@field public supportBackgroundImage inkImageWidgetReference
----@field public introAnimationName CName
----@field public loopAnimationName CName
----@field public tooltipAnimName CName
----@field public breathInAnimName CName
----@field public breathOutAnimName CName
----@field public tooltipsWidget inkRichTextBoxWidgetReference
----@field private progressBarRoot inkWidgetReference
----@field private progressBarController LoadingScreenProgressBarController
+---@field mainBackgroundImage inkImageWidgetReference
+---@field supportBackgroundImage inkImageWidgetReference
+---@field introAnimationName CName
+---@field loopAnimationName CName
+---@field tooltipAnimName CName
+---@field breathInAnimName CName
+---@field breathOutAnimName CName
+---@field tooltipsWidget inkRichTextBoxWidgetReference
+---@field progressBarRoot inkWidgetReference
+---@field progressBarController LoadingScreenProgressBarController
 inkFastTravelLoadingScreenLogicController = {}
 
 ---@param fields? inkFastTravelLoadingScreenLogicController
 ---@return inkFastTravelLoadingScreenLogicController
-function inkFastTravelLoadingScreenLogicController.new(fields) return end
+function inkFastTravelLoadingScreenLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function inkFastTravelLoadingScreenLogicController:OnInitialize() return end
+function inkFastTravelLoadingScreenLogicController:OnInitialize() end
 
----@protected
 ---@param progress Float
 ---@return nil
-function inkFastTravelLoadingScreenLogicController:SetLoadProgress(progress) return end
+function inkFastTravelLoadingScreenLogicController:SetLoadProgress(progress) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function inkFastTravelLoadingScreenLogicController:SetProgressIndicatorVisibility(visible) return end
+function inkFastTravelLoadingScreenLogicController:SetProgressIndicatorVisibility(visible) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function inkFastTravelLoadingScreenLogicController:SetSpinnerVisiblility(visible) return end
+function inkFastTravelLoadingScreenLogicController:SetSpinnerVisiblility(visible) end

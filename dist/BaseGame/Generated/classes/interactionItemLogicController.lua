@@ -1,71 +1,67 @@
 ---@meta
 
 ---@class interactionItemLogicController: inkWidgetLogicController
----@field private inputButtonContainer inkCompoundWidgetReference
----@field private inputDisplayControllerRef inkWidgetReference
----@field private QuickHackCostHolder inkWidgetReference
----@field private QuickHackCost inkTextWidgetReference
----@field private QuickHackIcon inkImageWidgetReference
----@field private QuickHackHolder inkCompoundWidgetReference
----@field private label inkTextWidgetReference
----@field private labelFail inkTextWidgetReference
----@field private SkillCheckPassBG inkWidgetReference
----@field private SkillCheckFailBG inkWidgetReference
----@field private QHIllegalIndicator inkWidgetReference
----@field private SCIllegalIndicator inkWidgetReference
----@field private additionalReqsNeeded inkWidgetReference
----@field private skillCheck inkCompoundWidgetReference
----@field private skillCheckNormalReqs inkCompoundWidgetReference
----@field private skillCheckIcon inkImageWidgetReference
----@field private skillCheckText inkTextWidgetReference
----@field private RootWidget inkCompoundWidget
----@field private inActiveTransparency Float
----@field private inputDisplayController inkInputDisplayController
----@field private animProxy inkanimProxy
----@field private isSelected Bool
+---@field inputButtonContainer inkCompoundWidgetReference
+---@field inputDisplayControllerRef inkWidgetReference
+---@field QuickHackCostHolder inkWidgetReference
+---@field QuickHackCost inkTextWidgetReference
+---@field QuickHackIcon inkImageWidgetReference
+---@field QuickHackHolder inkCompoundWidgetReference
+---@field label inkTextWidgetReference
+---@field labelFail inkTextWidgetReference
+---@field SkillCheckPassBG inkWidgetReference
+---@field SkillCheckFailBG inkWidgetReference
+---@field QHIllegalIndicator inkWidgetReference
+---@field SCIllegalIndicator inkWidgetReference
+---@field additionalReqsNeeded inkWidgetReference
+---@field skillCheck inkCompoundWidgetReference
+---@field skillCheckNormalReqs inkCompoundWidgetReference
+---@field skillCheckIcon inkImageWidgetReference
+---@field skillCheckText inkTextWidgetReference
+---@field RootWidget inkCompoundWidget
+---@field inActiveTransparency Float
+---@field inputDisplayController inkInputDisplayController
+---@field animProxy inkanimProxy
+---@field isSelected Bool
 interactionItemLogicController = {}
 
 ---@param fields? interactionItemLogicController
 ---@return interactionItemLogicController
-function interactionItemLogicController.new(fields) return end
+function interactionItemLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function interactionItemLogicController:OnInitialize() return end
+function interactionItemLogicController:OnInitialize() end
 
 ---@return nil
-function interactionItemLogicController:EmptyCaptionParts() return end
+function interactionItemLogicController:EmptyCaptionParts() end
 
----@private
 ---@param animName CName|string
 ---@return nil
-function interactionItemLogicController:PlayAnim(animName) return end
+function interactionItemLogicController:PlayAnim(animName) end
 
 ---@param argBool Bool
 ---@return nil
-function interactionItemLogicController:SetButtonVisibility(argBool) return end
+function interactionItemLogicController:SetButtonVisibility(argBool) end
 
 ---@param argList gameinteractionsChoiceCaptionPart[]
 ---@return nil
-function interactionItemLogicController:SetCaptionParts(argList) return end
+function interactionItemLogicController:SetCaptionParts(argList) end
 
 ---@param data gameinteractionsvisInteractionChoiceData
 ---@param skillCheck? UIInteractionSkillCheck
 ---@param isItemBroken? Bool
 ---@return nil
-function interactionItemLogicController:SetData(data, skillCheck, isItemBroken) return end
+function interactionItemLogicController:SetData(data, skillCheck, isItemBroken) end
 
----@private
 ---@param opacity Float
 ---@return nil
-function interactionItemLogicController:SetIllegalActionOpacity(opacity) return end
+function interactionItemLogicController:SetIllegalActionOpacity(opacity) end
 
----@private
 ---@param data gameinteractionsvisInteractionChoiceData
 ---@param isItemBroken Bool
 ---@return nil
-function interactionItemLogicController:SetLabel(data, isItemBroken) return end
+function interactionItemLogicController:SetLabel(data, isItemBroken) end
 
 ---@param value Int32
 ---@return nil
-function interactionItemLogicController:SetZoneChange(value) return end
+function interactionItemLogicController:SetZoneChange(value) end

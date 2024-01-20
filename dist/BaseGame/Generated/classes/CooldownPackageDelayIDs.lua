@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CooldownPackageDelayIDs
----@field public packageID CooldownStorageID
----@field public delayIDs gameDelayID[]
+---@field packageID CooldownStorageID
+---@field delayIDs gameDelayID[]
 CooldownPackageDelayIDs = {}
 
 ---@param fields? CooldownPackageDelayIDs
 ---@return CooldownPackageDelayIDs
-function CooldownPackageDelayIDs.new(fields) return end
+function CooldownPackageDelayIDs.new(fields) end

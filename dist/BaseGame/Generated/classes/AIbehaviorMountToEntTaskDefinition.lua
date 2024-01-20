@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorMountToEntTaskDefinition: AIbehaviorTaskDefinition
----@field public mountData AIArgumentMapping
+---@field mountData AIArgumentMapping
 AIbehaviorMountToEntTaskDefinition = {}
 
 ---@param fields? AIbehaviorMountToEntTaskDefinition
 ---@return AIbehaviorMountToEntTaskDefinition
-function AIbehaviorMountToEntTaskDefinition.new(fields) return end
+function AIbehaviorMountToEntTaskDefinition.new(fields) end

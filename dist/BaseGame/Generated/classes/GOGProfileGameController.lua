@@ -1,137 +1,111 @@
 ---@meta
 
 ---@class GOGProfileGameController: gameuiBaseGOGProfileController
----@field public retryButton inkWidgetReference
----@field public parentContainerWidget inkWidgetReference
----@field private isFirstLogin Bool
----@field private showingFirstLogin Bool
----@field private canRetry Bool
----@field private currentScreenType GogPopupScreenType
----@field private currentWidget inkWidget
----@field private gogRewardsList GogRewardEntryData[]
----@field private uiSystem gameuiGameSystemUI
+---@field retryButton inkWidgetReference
+---@field parentContainerWidget inkWidgetReference
+---@field isFirstLogin Bool
+---@field showingFirstLogin Bool
+---@field canRetry Bool
+---@field currentScreenType GogPopupScreenType
+---@field currentWidget inkWidget
+---@field gogRewardsList GogRewardEntryData[]
+---@field uiSystem gameuiGameSystemUI
 GOGProfileGameController = {}
 
 ---@param fields? GOGProfileGameController
 ---@return GOGProfileGameController
-function GOGProfileGameController.new(fields) return end
+function GOGProfileGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GOGProfileGameController:OnButtonRelease(evt) return end
+function GOGProfileGameController:OnButtonRelease(evt) end
 
----@protected
 ---@param evt DelayedUpdateLayoutCompletedEvent
 ---@return Bool
-function GOGProfileGameController:OnDelayedUpdateLayoutCompletedEvent(evt) return end
+function GOGProfileGameController:OnDelayedUpdateLayoutCompletedEvent(evt) end
 
----@protected
 ---@param evt DisconnectClickedEvent
 ---@return Bool
-function GOGProfileGameController:OnDisconnectClickedEvent(evt) return end
+function GOGProfileGameController:OnDisconnectClickedEvent(evt) end
 
----@protected
 ---@param evt GogRewardsEntryHoverOut
 ---@return Bool
-function GOGProfileGameController:OnGogRewardsEntryHoverOut(evt) return end
+function GOGProfileGameController:OnGogRewardsEntryHoverOut(evt) end
 
----@protected
 ---@param evt GogRewardsEntryHoverOver
 ---@return Bool
-function GOGProfileGameController:OnGogRewardsEntryHoverOver(evt) return end
+function GOGProfileGameController:OnGogRewardsEntryHoverOver(evt) end
 
----@protected
 ---@return Bool
-function GOGProfileGameController:OnInitialize() return end
+function GOGProfileGameController:OnInitialize() end
 
----@protected
 ---@param evt LinkClickedEvent
 ---@return Bool
-function GOGProfileGameController:OnLinkClicked(evt) return end
+function GOGProfileGameController:OnLinkClicked(evt) end
 
----@protected
 ---@param evt gameuiRefreshGOGState
 ---@return Bool
-function GOGProfileGameController:OnRefreshGOGState(evt) return end
+function GOGProfileGameController:OnRefreshGOGState(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function GOGProfileGameController:OnRetry(e) return end
+function GOGProfileGameController:OnRetry(e) end
 
----@protected
 ---@return Bool
-function GOGProfileGameController:OnUninitialize() return end
+function GOGProfileGameController:OnUninitialize() end
 
----@private
 ---@return EGOGMenuState
-function GOGProfileGameController:GetMenuState() return end
+function GOGProfileGameController:GetMenuState() end
 
----@private
 ---@return GogRewardEntryData[]
-function GOGProfileGameController:GetObtainedAndAmazonRewards() return end
+function GOGProfileGameController:GetObtainedAndAmazonRewards() end
 
----@private
 ---@param evt inkPointerEvent
 ---@return nil
-function GOGProfileGameController:HandleClose(evt) return end
+function GOGProfileGameController:HandleClose(evt) end
 
----@private
 ---@return nil
-function GOGProfileGameController:HandleRetry() return end
+function GOGProfileGameController:HandleRetry() end
 
----@private
 ---@return nil
-function GOGProfileGameController:HidePreviousWidget() return end
+function GOGProfileGameController:HidePreviousWidget() end
 
----@private
 ---@param groupName CName|string
 ---@return Bool
-function GOGProfileGameController:IsBaseRewardGroup(groupName) return end
+function GOGProfileGameController:IsBaseRewardGroup(groupName) end
 
----@private
 ---@param error gameOnlineSystemErrors
 ---@return Bool
-function GOGProfileGameController:IsErrorRetryable(error) return end
+function GOGProfileGameController:IsErrorRetryable(error) end
 
----@private
 ---@param isEp1Enabled Bool
 ---@return nil
-function GOGProfileGameController:PopulateRewardsList(isEp1Enabled) return end
+function GOGProfileGameController:PopulateRewardsList(isEp1Enabled) end
 
----@private
 ---@param error gameOnlineSystemErrors
 ---@return nil
-function GOGProfileGameController:ShowError(error) return end
+function GOGProfileGameController:ShowError(error) end
 
----@private
 ---@return nil
-function GOGProfileGameController:ShowFeatureInfo() return end
+function GOGProfileGameController:ShowFeatureInfo() end
 
----@private
 ---@return nil
-function GOGProfileGameController:ShowLoading() return end
+function GOGProfileGameController:ShowLoading() end
 
----@private
 ---@param registerUrl String
 ---@param qrCodePNGBlob Uint8[]
 ---@return nil
-function GOGProfileGameController:ShowRegister(registerUrl, qrCodePNGBlob) return end
+function GOGProfileGameController:ShowRegister(registerUrl, qrCodePNGBlob) end
 
----@private
 ---@param show Bool
 ---@return nil
-function GOGProfileGameController:ShowRetryButton(show) return end
+function GOGProfileGameController:ShowRetryButton(show) end
 
----@private
 ---@return nil
-function GOGProfileGameController:ShowRewards() return end
+function GOGProfileGameController:ShowRewards() end
 
----@private
 ---@return nil
-function GOGProfileGameController:ShowThanks() return end
+function GOGProfileGameController:ShowThanks() end
 
----@private
 ---@return nil
-function GOGProfileGameController:UpdateUnlockedRewards() return end
+function GOGProfileGameController:UpdateUnlockedRewards() end

@@ -1,44 +1,42 @@
 ---@meta
 
 ---@class BaseSubtitleLineLogicController: inkWidgetLogicController
----@field private root inkWidget
----@field private isKiroshiEnabled Bool
----@field private c_tier1_duration Float
----@field private c_tier2_duration Float
+---@field root inkWidget
+---@field isKiroshiEnabled Bool
+---@field c_tier1_duration Float
+---@field c_tier2_duration Float
 BaseSubtitleLineLogicController = {}
 
 ---@param fields? BaseSubtitleLineLogicController
 ---@return BaseSubtitleLineLogicController
-function BaseSubtitleLineLogicController.new(fields) return end
+function BaseSubtitleLineLogicController.new(fields) end
 
 ---@return Bool
-function BaseSubtitleLineLogicController:IsKiroshiEnabled() return end
+function BaseSubtitleLineLogicController:IsKiroshiEnabled() end
 
 ---@param kiroshiStatus Bool
 ---@return nil
-function BaseSubtitleLineLogicController:SetKiroshiStatus(kiroshiStatus) return end
+function BaseSubtitleLineLogicController:SetKiroshiStatus(kiroshiStatus) end
 
 ---@param lineData scnDialogLineData
 ---@return nil
-function BaseSubtitleLineLogicController:SetLineData(lineData) return end
+function BaseSubtitleLineLogicController:SetLineData(lineData) end
 
----@protected
 ---@param duration Float
 ---@param animCtrl inkTextKiroshiAnimationController
 ---@return nil
-function BaseSubtitleLineLogicController:SetupAnimation(duration, animCtrl) return end
+function BaseSubtitleLineLogicController:SetupAnimation(duration, animCtrl) end
 
----@protected
 ---@param duration Float
 ---@param animCtrl inkTextReplaceAnimationController
 ---@return nil
-function BaseSubtitleLineLogicController:SetupAnimation(duration, animCtrl) return end
+function BaseSubtitleLineLogicController:SetupAnimation(duration, animCtrl) end
 
 ---@param textSize Int32
 ---@param backgroundOpacity Float
 ---@return nil
-function BaseSubtitleLineLogicController:SetupSettings(textSize, backgroundOpacity) return end
+function BaseSubtitleLineLogicController:SetupSettings(textSize, backgroundOpacity) end
 
 ---@param value Bool
 ---@return nil
-function BaseSubtitleLineLogicController:ShowBackground(value) return end
+function BaseSubtitleLineLogicController:ShowBackground(value) end

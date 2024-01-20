@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ScannerTargetChangedRequest: gameScriptableSystemRequest
----@field public scannerTarget entEntityID
+---@field scannerTarget entEntityID
 ScannerTargetChangedRequest = {}
 
 ---@param fields? ScannerTargetChangedRequest
 ---@return ScannerTargetChangedRequest
-function ScannerTargetChangedRequest.new(fields) return end
+function ScannerTargetChangedRequest.new(fields) end

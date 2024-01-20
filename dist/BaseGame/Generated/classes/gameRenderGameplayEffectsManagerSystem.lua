@@ -5,4 +5,4 @@ gameRenderGameplayEffectsManagerSystem = {}
 
 ---@param fields? gameRenderGameplayEffectsManagerSystem
 ---@return gameRenderGameplayEffectsManagerSystem
-function gameRenderGameplayEffectsManagerSystem.new(fields) return end
+function gameRenderGameplayEffectsManagerSystem.new(fields) end

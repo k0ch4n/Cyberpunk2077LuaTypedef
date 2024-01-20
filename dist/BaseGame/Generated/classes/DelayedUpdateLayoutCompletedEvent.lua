@@ -5,4 +5,4 @@ DelayedUpdateLayoutCompletedEvent = {}
 
 ---@param fields? DelayedUpdateLayoutCompletedEvent
 ---@return DelayedUpdateLayoutCompletedEvent
-function DelayedUpdateLayoutCompletedEvent.new(fields) return end
+function DelayedUpdateLayoutCompletedEvent.new(fields) end

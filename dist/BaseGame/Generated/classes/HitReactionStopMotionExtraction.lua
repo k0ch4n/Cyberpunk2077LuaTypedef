@@ -5,4 +5,4 @@ HitReactionStopMotionExtraction = {}
 
 ---@param fields? HitReactionStopMotionExtraction
 ---@return HitReactionStopMotionExtraction
-function HitReactionStopMotionExtraction.new(fields) return end
+function HitReactionStopMotionExtraction.new(fields) end

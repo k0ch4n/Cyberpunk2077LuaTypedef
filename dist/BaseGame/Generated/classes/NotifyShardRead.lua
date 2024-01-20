@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class NotifyShardRead: redEvent
----@field public entry gameJournalOnscreen
----@field public title String
----@field public text String
----@field public isCrypted Bool
----@field public itemID gameItemID
----@field public imageId TweakDBID
+---@field entry gameJournalOnscreen
+---@field title String
+---@field text String
+---@field isCrypted Bool
+---@field itemID gameItemID
+---@field imageId TweakDBID
 NotifyShardRead = {}
 
 ---@param fields? NotifyShardRead
 ---@return NotifyShardRead
-function NotifyShardRead.new(fields) return end
+function NotifyShardRead.new(fields) end

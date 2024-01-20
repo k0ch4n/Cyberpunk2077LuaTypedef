@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class EquippedDecisions: EquipmentBaseDecisions
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public stateMachineInitData EquipmentInitData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInitData EquipmentInitData
 EquippedDecisions = {}
 
 ---@param fields? EquippedDecisions
 ---@return EquippedDecisions
-function EquippedDecisions.new(fields) return end
+function EquippedDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function EquippedDecisions:ToUnequipCycle(stateContext, scriptInterface) return end
+function EquippedDecisions:ToUnequipCycle(stateContext, scriptInterface) end

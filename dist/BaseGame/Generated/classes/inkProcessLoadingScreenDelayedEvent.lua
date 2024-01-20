@@ -5,4 +5,4 @@ inkProcessLoadingScreenDelayedEvent = {}
 
 ---@param fields? inkProcessLoadingScreenDelayedEvent
 ---@return inkProcessLoadingScreenDelayedEvent
-function inkProcessLoadingScreenDelayedEvent.new(fields) return end
+function inkProcessLoadingScreenDelayedEvent.new(fields) end

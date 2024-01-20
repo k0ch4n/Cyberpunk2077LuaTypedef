@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CyberwareDisplayWrapper: IScriptable
----@field public displayData InventoryItemDisplayData
+---@field displayData InventoryItemDisplayData
 CyberwareDisplayWrapper = {}
 
 ---@param fields? CyberwareDisplayWrapper
 ---@return CyberwareDisplayWrapper
-function CyberwareDisplayWrapper.new(fields) return end
+function CyberwareDisplayWrapper.new(fields) end

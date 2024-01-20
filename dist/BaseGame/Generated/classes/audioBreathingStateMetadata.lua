@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class audioBreathingStateMetadata: audioAudioMetadata
----@field public inhaleSound CName
----@field public exhaleSound CName
----@field public paramChangeSpeed Float
----@field public targetBpm Float
----@field public targetTimeDistortion Float
----@field public stateMinimalTime Float
----@field public exhaustionChangeSpeed Float
----@field public targetExhaustion Float
----@field public loopBehavior audiobreathingLoopBehavior
----@field public startStateFromBreath Bool
+---@field inhaleSound CName
+---@field exhaleSound CName
+---@field paramChangeSpeed Float
+---@field targetBpm Float
+---@field targetTimeDistortion Float
+---@field stateMinimalTime Float
+---@field exhaustionChangeSpeed Float
+---@field targetExhaustion Float
+---@field loopBehavior audiobreathingLoopBehavior
+---@field startStateFromBreath Bool
 audioBreathingStateMetadata = {}
 
 ---@param fields? audioBreathingStateMetadata
 ---@return audioBreathingStateMetadata
-function audioBreathingStateMetadata.new(fields) return end
+function audioBreathingStateMetadata.new(fields) end

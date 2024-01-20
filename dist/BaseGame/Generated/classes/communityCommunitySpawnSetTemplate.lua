@@ -5,4 +5,4 @@ communityCommunitySpawnSetTemplate = {}
 
 ---@param fields? communityCommunitySpawnSetTemplate
 ---@return communityCommunitySpawnSetTemplate
-function communityCommunitySpawnSetTemplate.new(fields) return end
+function communityCommunitySpawnSetTemplate.new(fields) end

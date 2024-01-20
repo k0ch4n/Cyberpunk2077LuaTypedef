@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class AIFindPositionAroundSelf: AIbehaviortaskScript
----@field public distanceMin AIArgumentMapping
----@field public distanceMax AIArgumentMapping
----@field public angle Float
----@field public angleOffset Float
----@field public outPositionArgument AIArgumentMapping
----@field protected finalPosition Vector4
+---@field distanceMin AIArgumentMapping
+---@field distanceMax AIArgumentMapping
+---@field angle Float
+---@field angleOffset Float
+---@field outPositionArgument AIArgumentMapping
+---@field finalPosition Vector4
 AIFindPositionAroundSelf = {}
 
 ---@param fields? AIFindPositionAroundSelf
 ---@return AIFindPositionAroundSelf
-function AIFindPositionAroundSelf.new(fields) return end
+function AIFindPositionAroundSelf.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIFindPositionAroundSelf:AdditionalOutcomeVerification(context) return end
+function AIFindPositionAroundSelf:AdditionalOutcomeVerification(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIFindPositionAroundSelf:Update(context) return end
+function AIFindPositionAroundSelf:Update(context) end

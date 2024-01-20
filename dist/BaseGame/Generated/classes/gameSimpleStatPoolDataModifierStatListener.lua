@@ -5,4 +5,4 @@ gameSimpleStatPoolDataModifierStatListener = {}
 
 ---@param fields? gameSimpleStatPoolDataModifierStatListener
 ---@return gameSimpleStatPoolDataModifierStatListener
-function gameSimpleStatPoolDataModifierStatListener.new(fields) return end
+function gameSimpleStatPoolDataModifierStatListener.new(fields) end

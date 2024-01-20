@@ -5,7 +5,7 @@ TerminalController = {}
 
 ---@param fields? TerminalController
 ---@return TerminalController
-function TerminalController.new(fields) return end
+function TerminalController.new(fields) end
 
 ---@return TerminalControllerPS
-function TerminalController:GetPS() return end
+function TerminalController:GetPS() end

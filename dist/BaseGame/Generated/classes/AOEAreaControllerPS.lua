@@ -1,79 +1,70 @@
 ---@meta
 
 ---@class AOEAreaControllerPS: MasterControllerPS
----@field private AOEAreaSetup AOEAreaSetup
+---@field AOEAreaSetup AOEAreaSetup
 AOEAreaControllerPS = {}
 
 ---@param fields? AOEAreaControllerPS
 ---@return AOEAreaControllerPS
-function AOEAreaControllerPS.new(fields) return end
+function AOEAreaControllerPS.new(fields) end
 
----@protected
 ---@return DeactivateDevice
-function AOEAreaControllerPS:ActionDeactivateDevice() return end
+function AOEAreaControllerPS:ActionDeactivateDevice() end
 
 ---@return Bool
-function AOEAreaControllerPS:BlocksVisibility() return end
+function AOEAreaControllerPS:BlocksVisibility() end
 
 ---@return Bool
-function AOEAreaControllerPS:EffectsOnlyActiveInArea() return end
+function AOEAreaControllerPS:EffectsOnlyActiveInArea() end
 
----@protected
 ---@return nil
-function AOEAreaControllerPS:GameAttached() return end
+function AOEAreaControllerPS:GameAttached() end
 
 ---@return CName
-function AOEAreaControllerPS:GetActionName() return end
+function AOEAreaControllerPS:GetActionName() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function AOEAreaControllerPS:GetActions(context) return end
+function AOEAreaControllerPS:GetActions(context) end
 
 ---@return TweakDBID
-function AOEAreaControllerPS:GetAreaEffect() return end
+function AOEAreaControllerPS:GetAreaEffect() end
 
----@protected
 ---@return TweakDBID
-function AOEAreaControllerPS:GetDeviceIconTweakDBID() return end
+function AOEAreaControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return Float
-function AOEAreaControllerPS:GetEffectDuration() return end
+function AOEAreaControllerPS:GetEffectDuration() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function AOEAreaControllerPS:GetInkWidgetTweakDBID(context) return end
+function AOEAreaControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function AOEAreaControllerPS:GetQuestActions(context) return end
+function AOEAreaControllerPS:GetQuestActions(context) end
 
 ---@return Bool
-function AOEAreaControllerPS:IsAreaActive() return end
+function AOEAreaControllerPS:IsAreaActive() end
 
 ---@return Bool
-function AOEAreaControllerPS:IsDangerous() return end
+function AOEAreaControllerPS:IsDangerous() end
 
----@protected
 ---@param evt ActionForceResetDevice
 ---@return EntityNotificationType
-function AOEAreaControllerPS:OnActionForceResetDevice(evt) return end
+function AOEAreaControllerPS:OnActionForceResetDevice(evt) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function AOEAreaControllerPS:OnActivateDevice(evt) return end
+function AOEAreaControllerPS:OnActivateDevice(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return EntityNotificationType
-function AOEAreaControllerPS:OnDeactivateDevice(evt) return end
+function AOEAreaControllerPS:OnDeactivateDevice(evt) end
 
----@private
 ---@param delayTime Float
 ---@return nil
-function AOEAreaControllerPS:QueueDeactivateAction(delayTime) return end
+function AOEAreaControllerPS:QueueDeactivateAction(delayTime) end
 
----@private
 ---@return nil
-function AOEAreaControllerPS:ToggleEffectors() return end
+function AOEAreaControllerPS:ToggleEffectors() end

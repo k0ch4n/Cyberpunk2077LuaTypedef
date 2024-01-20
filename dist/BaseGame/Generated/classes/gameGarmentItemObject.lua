@@ -5,4 +5,4 @@ gameGarmentItemObject = {}
 
 ---@param fields? gameGarmentItemObject
 ---@return gameGarmentItemObject
-function gameGarmentItemObject.new(fields) return end
+function gameGarmentItemObject.new(fields) end

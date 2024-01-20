@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questCharacterAttack_ConditionType: questICharacterConditionType
----@field public attackerRef gameEntityReference
----@field public targetRef gameEntityReference
----@field public isTargetPlayer Bool
+---@field attackerRef gameEntityReference
+---@field targetRef gameEntityReference
+---@field isTargetPlayer Bool
 questCharacterAttack_ConditionType = {}
 
 ---@param fields? questCharacterAttack_ConditionType
 ---@return questCharacterAttack_ConditionType
-function questCharacterAttack_ConditionType.new(fields) return end
+function questCharacterAttack_ConditionType.new(fields) end

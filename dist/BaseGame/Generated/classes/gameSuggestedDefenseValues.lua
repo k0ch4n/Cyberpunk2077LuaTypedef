@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameSuggestedDefenseValues
----@field public minArmor Float
----@field public maxArmor Float
----@field public minProtection Float
----@field public maxProtection Float
+---@field minArmor Float
+---@field maxArmor Float
+---@field minProtection Float
+---@field maxProtection Float
 gameSuggestedDefenseValues = {}
 
 ---@param fields? gameSuggestedDefenseValues
 ---@return gameSuggestedDefenseValues
-function gameSuggestedDefenseValues.new(fields) return end
+function gameSuggestedDefenseValues.new(fields) end

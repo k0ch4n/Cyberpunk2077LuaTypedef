@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class StaminaTransition: DefaultTransition
----@field public staminaChangeToggle Bool
+---@field staminaChangeToggle Bool
 StaminaTransition = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param enable Bool
 ---@return nil
-function StaminaTransition:EnableStaminaPoolRegen(stateContext, scriptInterface, enable) return end
+function StaminaTransition:EnableStaminaPoolRegen(stateContext, scriptInterface, enable) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function StaminaTransition:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function StaminaTransition:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function StaminaTransition:ShouldRegenStamina(stateContext, scriptInterface) return end
+function StaminaTransition:ShouldRegenStamina(stateContext, scriptInterface) end

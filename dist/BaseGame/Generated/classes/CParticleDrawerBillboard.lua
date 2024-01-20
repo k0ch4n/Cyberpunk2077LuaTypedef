@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleDrawerBillboard: IParticleDrawer
----@field public isGPUBased Bool
+---@field isGPUBased Bool
 CParticleDrawerBillboard = {}
 
 ---@param fields? CParticleDrawerBillboard
 ---@return CParticleDrawerBillboard
-function CParticleDrawerBillboard.new(fields) return end
+function CParticleDrawerBillboard.new(fields) end

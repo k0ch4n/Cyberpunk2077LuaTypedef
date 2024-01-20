@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkanimSizeInterpolator: inkanimInterpolator
----@field public startValue Vector2
----@field public endValue Vector2
+---@field startValue Vector2
+---@field endValue Vector2
 inkanimSizeInterpolator = {}
 
 ---@param fields? inkanimSizeInterpolator
 ---@return inkanimSizeInterpolator
-function inkanimSizeInterpolator.new(fields) return end
+function inkanimSizeInterpolator.new(fields) end
 
 ---@return Vector2
-function inkanimSizeInterpolator:GetEndSize() return end
+function inkanimSizeInterpolator:GetEndSize() end
 
 ---@return Vector2
-function inkanimSizeInterpolator:GetStartSize() return end
+function inkanimSizeInterpolator:GetStartSize() end
 
 ---@param endSize Vector2
 ---@return nil
-function inkanimSizeInterpolator:SetEndSize(endSize) return end
+function inkanimSizeInterpolator:SetEndSize(endSize) end
 
 ---@param startSize Vector2
 ---@return nil
-function inkanimSizeInterpolator:SetStartSize(startSize) return end
+function inkanimSizeInterpolator:SetStartSize(startSize) end

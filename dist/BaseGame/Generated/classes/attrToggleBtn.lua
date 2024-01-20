@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class attrToggleBtn: attrAttribute
----@field public nLabel String
+---@field nLabel String
 attrToggleBtn = {}
 
 ---@param fields? attrToggleBtn
 ---@return attrToggleBtn
-function attrToggleBtn.new(fields) return end
+function attrToggleBtn.new(fields) end

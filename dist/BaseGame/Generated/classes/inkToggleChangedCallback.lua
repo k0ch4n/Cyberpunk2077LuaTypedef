@@ -5,4 +5,4 @@ inkToggleChangedCallback = {}
 
 ---@param fields? inkToggleChangedCallback
 ---@return inkToggleChangedCallback
-function inkToggleChangedCallback.new(fields) return end
+function inkToggleChangedCallback.new(fields) end

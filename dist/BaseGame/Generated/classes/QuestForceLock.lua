@@ -5,7 +5,7 @@ QuestForceLock = {}
 
 ---@param fields? QuestForceLock
 ---@return QuestForceLock
-function QuestForceLock.new(fields) return end
+function QuestForceLock.new(fields) end
 
 ---@return nil
-function QuestForceLock:SetProperties() return end
+function QuestForceLock:SetProperties() end

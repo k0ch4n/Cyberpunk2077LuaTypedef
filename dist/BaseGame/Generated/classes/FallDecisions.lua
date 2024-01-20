@@ -5,10 +5,9 @@ FallDecisions = {}
 
 ---@param fields? FallDecisions
 ---@return FallDecisions
-function FallDecisions.new(fields) return end
+function FallDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FallDecisions:EnterCondition(stateContext, scriptInterface) return end
+function FallDecisions:EnterCondition(stateContext, scriptInterface) end

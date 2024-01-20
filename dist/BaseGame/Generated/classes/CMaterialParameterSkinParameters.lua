@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CMaterialParameterSkinParameters: CMaterialParameter
----@field public skinProfile CSkinProfile
+---@field skinProfile CSkinProfile
 CMaterialParameterSkinParameters = {}
 
 ---@param fields? CMaterialParameterSkinParameters
 ---@return CMaterialParameterSkinParameters
-function CMaterialParameterSkinParameters.new(fields) return end
+function CMaterialParameterSkinParameters.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiAddInputGroupEvent: redEvent
----@field public groupId CName
----@field public data gameuiInputHintGroupData
----@field public targetHintContainer CName
+---@field groupId CName
+---@field data gameuiInputHintGroupData
+---@field targetHintContainer CName
 gameuiAddInputGroupEvent = {}
 
 ---@param fields? gameuiAddInputGroupEvent
 ---@return gameuiAddInputGroupEvent
-function gameuiAddInputGroupEvent.new(fields) return end
+function gameuiAddInputGroupEvent.new(fields) end

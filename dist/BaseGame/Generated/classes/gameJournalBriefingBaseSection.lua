@@ -4,4 +4,4 @@
 gameJournalBriefingBaseSection = {}
 
 ---@return gameJournalBriefingContentType
-function gameJournalBriefingBaseSection:GetType() return end
+function gameJournalBriefingBaseSection:GetType() end

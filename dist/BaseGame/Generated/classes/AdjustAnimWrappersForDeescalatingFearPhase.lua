@@ -5,9 +5,8 @@ AdjustAnimWrappersForDeescalatingFearPhase = {}
 
 ---@param fields? AdjustAnimWrappersForDeescalatingFearPhase
 ---@return AdjustAnimWrappersForDeescalatingFearPhase
-function AdjustAnimWrappersForDeescalatingFearPhase.new(fields) return end
+function AdjustAnimWrappersForDeescalatingFearPhase.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AdjustAnimWrappersForDeescalatingFearPhase:Activate(context) return end
+function AdjustAnimWrappersForDeescalatingFearPhase:Activate(context) end

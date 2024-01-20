@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioLocomotionStateVfxDictionary: audioInlinedAudioMetadata
----@field public entries audioLocomotionStateVfxDictionaryItem[]
----@field public entryType audioLocomotionStateVfxDictionaryItem
+---@field entries audioLocomotionStateVfxDictionaryItem[]
+---@field entryType audioLocomotionStateVfxDictionaryItem
 audioLocomotionStateVfxDictionary = {}
 
 ---@param fields? audioLocomotionStateVfxDictionary
 ---@return audioLocomotionStateVfxDictionary
-function audioLocomotionStateVfxDictionary.new(fields) return end
+function audioLocomotionStateVfxDictionary.new(fields) end

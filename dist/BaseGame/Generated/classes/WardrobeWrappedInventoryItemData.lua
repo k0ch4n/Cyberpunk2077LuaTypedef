@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class WardrobeWrappedInventoryItemData: WrappedInventoryItemData
----@field public AppearanceName String
+---@field AppearanceName String
 WardrobeWrappedInventoryItemData = {}
 
 ---@param fields? WardrobeWrappedInventoryItemData
 ---@return WardrobeWrappedInventoryItemData
-function WardrobeWrappedInventoryItemData.new(fields) return end
+function WardrobeWrappedInventoryItemData.new(fields) end

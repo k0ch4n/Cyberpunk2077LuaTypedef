@@ -5,9 +5,8 @@ HasLastKnownPositionChanged = {}
 
 ---@param fields? HasLastKnownPositionChanged
 ---@return HasLastKnownPositionChanged
-function HasLastKnownPositionChanged.new(fields) return end
+function HasLastKnownPositionChanged.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HasLastKnownPositionChanged:Check(context) return end
+function HasLastKnownPositionChanged:Check(context) end

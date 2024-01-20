@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldNavigationScriptFindWallResult: IScriptable
----@field public status worldNavigationRequestStatus
----@field public isHit Bool
----@field public hitPosition Vector4
+---@field status worldNavigationRequestStatus
+---@field isHit Bool
+---@field hitPosition Vector4
 worldNavigationScriptFindWallResult = {}
 
 ---@param fields? worldNavigationScriptFindWallResult
 ---@return worldNavigationScriptFindWallResult
-function worldNavigationScriptFindWallResult.new(fields) return end
+function worldNavigationScriptFindWallResult.new(fields) end

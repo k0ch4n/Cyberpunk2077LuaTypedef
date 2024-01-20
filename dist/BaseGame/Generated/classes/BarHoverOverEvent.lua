@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class BarHoverOverEvent: redEvent
----@field public data RipperdocBarTooltipTooltipData
+---@field data RipperdocBarTooltipTooltipData
 BarHoverOverEvent = {}
 
 ---@param fields? BarHoverOverEvent
 ---@return BarHoverOverEvent
-function BarHoverOverEvent.new(fields) return end
+function BarHoverOverEvent.new(fields) end

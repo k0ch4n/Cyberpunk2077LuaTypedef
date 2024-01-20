@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class StatPoolSpentPrereq: gameIScriptablePrereq
----@field public statPoolType gamedataStatPoolType
----@field public valueToCheck Float
+---@field statPoolType gamedataStatPoolType
+---@field valueToCheck Float
 StatPoolSpentPrereq = {}
 
 ---@param fields? StatPoolSpentPrereq
 ---@return StatPoolSpentPrereq
-function StatPoolSpentPrereq.new(fields) return end
+function StatPoolSpentPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function StatPoolSpentPrereq:Initialize(recordID) return end
+function StatPoolSpentPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function StatPoolSpentPrereq:OnRegister(state, context) return end
+function StatPoolSpentPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatPoolSpentPrereq:OnUnregister(state, context) return end
+function StatPoolSpentPrereq:OnUnregister(state, context) end

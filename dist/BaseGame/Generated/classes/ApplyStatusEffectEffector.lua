@@ -1,58 +1,49 @@
 ---@meta
 
 ---@class ApplyStatusEffectEffector: gameEffector
----@field public targetEntityID entEntityID
----@field public applicationTarget CName
----@field public record TweakDBID
----@field public removeWithEffector Bool
----@field public inverted Bool
----@field public useCountWhenRemoving Bool
----@field public count Float
----@field public instigator String
+---@field targetEntityID entEntityID
+---@field applicationTarget CName
+---@field record TweakDBID
+---@field removeWithEffector Bool
+---@field inverted Bool
+---@field useCountWhenRemoving Bool
+---@field count Float
+---@field instigator String
 ApplyStatusEffectEffector = {}
 
 ---@param fields? ApplyStatusEffectEffector
 ---@return ApplyStatusEffectEffector
-function ApplyStatusEffectEffector.new(fields) return end
+function ApplyStatusEffectEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectEffector:ActionOff(owner) return end
+function ApplyStatusEffectEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectEffector:ActionOn(owner) return end
+function ApplyStatusEffectEffector:ActionOn(owner) end
 
----@private
 ---@return nil
-function ApplyStatusEffectEffector:ApplyStatusEffect() return end
+function ApplyStatusEffectEffector:ApplyStatusEffect() end
 
----@protected
 ---@return gameObject
-function ApplyStatusEffectEffector:GetInstigator() return end
+function ApplyStatusEffectEffector:GetInstigator() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyStatusEffectEffector:Initialize(record, parentRecord) return end
+function ApplyStatusEffectEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectEffector:ProcessAction(owner) return end
+function ApplyStatusEffectEffector:ProcessAction(owner) end
 
----@private
 ---@return nil
-function ApplyStatusEffectEffector:RemoveStatusEffect() return end
+function ApplyStatusEffectEffector:RemoveStatusEffect() end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectEffector:RepeatedAction(owner) return end
+function ApplyStatusEffectEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ApplyStatusEffectEffector:Uninitialize() return end
+function ApplyStatusEffectEffector:Uninitialize() end

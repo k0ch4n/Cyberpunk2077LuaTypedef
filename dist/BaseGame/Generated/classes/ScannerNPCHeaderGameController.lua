@@ -1,50 +1,43 @@
 ---@meta
 
 ---@class ScannerNPCHeaderGameController: BaseChunkGameController
----@field private nameText inkTextWidgetReference
----@field private skullIndicator inkWidgetReference
----@field private archetypeIcon inkImageWidgetReference
----@field private levelCallbackID redCallbackObject
----@field private nameCallbackID redCallbackObject
----@field private attitudeCallbackID redCallbackObject
----@field private archtypeCallbackID redCallbackObject
----@field private isValidName Bool
----@field private isValidRarity Bool
----@field private isValidArchetype Bool
+---@field nameText inkTextWidgetReference
+---@field skullIndicator inkWidgetReference
+---@field archetypeIcon inkImageWidgetReference
+---@field levelCallbackID redCallbackObject
+---@field nameCallbackID redCallbackObject
+---@field attitudeCallbackID redCallbackObject
+---@field archtypeCallbackID redCallbackObject
+---@field isValidName Bool
+---@field isValidRarity Bool
+---@field isValidArchetype Bool
 ScannerNPCHeaderGameController = {}
 
 ---@param fields? ScannerNPCHeaderGameController
 ---@return ScannerNPCHeaderGameController
-function ScannerNPCHeaderGameController.new(fields) return end
+function ScannerNPCHeaderGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerNPCHeaderGameController:OnArchetypeChanged(value) return end
+function ScannerNPCHeaderGameController:OnArchetypeChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerNPCHeaderGameController:OnAttitudeChange(value) return end
+function ScannerNPCHeaderGameController:OnAttitudeChange(value) end
 
----@protected
 ---@return Bool
-function ScannerNPCHeaderGameController:OnInitialize() return end
+function ScannerNPCHeaderGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerNPCHeaderGameController:OnLevelChanged(value) return end
+function ScannerNPCHeaderGameController:OnLevelChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerNPCHeaderGameController:OnNameChanged(value) return end
+function ScannerNPCHeaderGameController:OnNameChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerNPCHeaderGameController:OnUninitialize() return end
+function ScannerNPCHeaderGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ScannerNPCHeaderGameController:UpdateGlobalVisibility() return end
+function ScannerNPCHeaderGameController:UpdateGlobalVisibility() end

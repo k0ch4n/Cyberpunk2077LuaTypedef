@@ -5,4 +5,4 @@ AISquadManager = {}
 
 ---@param fields? AISquadManager
 ---@return AISquadManager
-function AISquadManager.new(fields) return end
+function AISquadManager.new(fields) end

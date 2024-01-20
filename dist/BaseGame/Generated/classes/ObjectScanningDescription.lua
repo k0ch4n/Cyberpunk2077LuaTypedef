@@ -4,10 +4,10 @@
 ObjectScanningDescription = {}
 
 ---@return TweakDBID[]
-function ObjectScanningDescription:GetCustomDesriptions() return end
+function ObjectScanningDescription:GetCustomDesriptions() end
 
 ---@return TweakDBID
-function ObjectScanningDescription:GetGameplayDesription() return end
+function ObjectScanningDescription:GetGameplayDesription() end
 
 ---@return Bool
-function ObjectScanningDescription:IsValid() return end
+function ObjectScanningDescription:IsValid() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetSecuritySystemState: redEvent
----@field public state ESecuritySystemState
+---@field state ESecuritySystemState
 SetSecuritySystemState = {}
 
 ---@param fields? SetSecuritySystemState
 ---@return SetSecuritySystemState
-function SetSecuritySystemState.new(fields) return end
+function SetSecuritySystemState.new(fields) end
 
 ---@return String
-function SetSecuritySystemState:GetFriendlyDescription() return end
+function SetSecuritySystemState:GetFriendlyDescription() end

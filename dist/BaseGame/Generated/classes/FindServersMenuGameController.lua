@@ -1,97 +1,85 @@
 ---@meta
 
 ---@class FindServersMenuGameController: PreGameSubMenuGameController
----@field private serversListCtrl inkListController
----@field private NONE_CHOOSEN Int32
----@field private curentlyChoosenServer Int32
----@field private LANStatusLabel inkTextWidget
----@field private WEBStatusLabel inkTextWidget
----@field private c_onlineColor Color
----@field private c_offlineColor Color
----@field private token inkTextWidget
+---@field serversListCtrl inkListController
+---@field NONE_CHOOSEN Int32
+---@field curentlyChoosenServer Int32
+---@field LANStatusLabel inkTextWidget
+---@field WEBStatusLabel inkTextWidget
+---@field c_onlineColor Color
+---@field c_offlineColor Color
+---@field token inkTextWidget
 FindServersMenuGameController = {}
 
 ---@param fields? FindServersMenuGameController
 ---@return FindServersMenuGameController
-function FindServersMenuGameController.new(fields) return end
+function FindServersMenuGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FindServersMenuGameController:OnBack(e) return end
+function FindServersMenuGameController:OnBack(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FindServersMenuGameController:OnCloudQuickmatch(e) return end
+function FindServersMenuGameController:OnCloudQuickmatch(e) end
 
----@protected
 ---@return Bool
-function FindServersMenuGameController:OnInitialize() return end
+function FindServersMenuGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FindServersMenuGameController:OnInternetServers(e) return end
+function FindServersMenuGameController:OnInternetServers(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FindServersMenuGameController:OnJoin(e) return end
+function FindServersMenuGameController:OnJoin(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FindServersMenuGameController:OnLANServers(e) return end
+function FindServersMenuGameController:OnLANServers(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FindServersMenuGameController:OnServerChoosen(e) return end
+function FindServersMenuGameController:OnServerChoosen(e) end
 
----@protected
 ---@param servers inkServerInfo[]
 ---@return Bool
-function FindServersMenuGameController:OnServersSearchResult(servers) return end
+function FindServersMenuGameController:OnServersSearchResult(servers) end
 
 ---@param buttonsList inkVerticalPanelWidget
 ---@return nil
-function FindServersMenuGameController:AddButtons(buttonsList) return end
+function FindServersMenuGameController:AddButtons(buttonsList) end
 
 ---@return nil
-function FindServersMenuGameController:ClearButtons() return end
+function FindServersMenuGameController:ClearButtons() end
 
----@private
 ---@param widget inkWidget
 ---@return nil
-function FindServersMenuGameController:Deactivate(widget) return end
+function FindServersMenuGameController:Deactivate(widget) end
 
----@private
 ---@param buttonsList inkVerticalPanelWidget
 ---@param name String
 ---@return inkWidget
-function FindServersMenuGameController:GetButton(buttonsList, name) return end
+function FindServersMenuGameController:GetButton(buttonsList, name) end
 
 ---@param omitItem Int32
 ---@return Int32
-function FindServersMenuGameController:GetChoosenServerId(omitItem) return end
+function FindServersMenuGameController:GetChoosenServerId(omitItem) end
 
----@private
 ---@param i Int32
 ---@return ServerInfoController
-function FindServersMenuGameController:GetServerInfoController(i) return end
+function FindServersMenuGameController:GetServerInfoController(i) end
 
 ---@param buttonsList inkVerticalPanelWidget
 ---@return nil
-function FindServersMenuGameController:InitializeButtons(buttonsList) return end
+function FindServersMenuGameController:InitializeButtons(buttonsList) end
 
 ---@param menuName inkTextWidget
 ---@return nil
-function FindServersMenuGameController:InitializeMenuName(menuName) return end
+function FindServersMenuGameController:InitializeMenuName(menuName) end
 
 ---@return nil
-function FindServersMenuGameController:ReInitializeButtons() return end
+function FindServersMenuGameController:ReInitializeButtons() end
 
----@private
 ---@return nil
-function FindServersMenuGameController:UpdateNetworkStatus() return end
+function FindServersMenuGameController:UpdateNetworkStatus() end

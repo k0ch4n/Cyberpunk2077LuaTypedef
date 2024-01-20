@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questMountedObjectInfo: ISerializable
----@field public isFirst Bool
----@field public isPlayer Bool
----@field public ref gameEntityReference
----@field public onMount Bool
----@field public role gameMountingSlotRole
+---@field isFirst Bool
+---@field isPlayer Bool
+---@field ref gameEntityReference
+---@field onMount Bool
+---@field role gameMountingSlotRole
 questMountedObjectInfo = {}
 
 ---@param fields? questMountedObjectInfo
 ---@return questMountedObjectInfo
-function questMountedObjectInfo.new(fields) return end
+function questMountedObjectInfo.new(fields) end

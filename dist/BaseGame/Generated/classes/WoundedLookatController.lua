@@ -5,19 +5,16 @@ WoundedLookatController = {}
 
 ---@param fields? WoundedLookatController
 ---@return WoundedLookatController
-function WoundedLookatController.new(fields) return end
+function WoundedLookatController.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function WoundedLookatController:Activate(context) return end
+function WoundedLookatController:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function WoundedLookatController:Deactivate(context) return end
+function WoundedLookatController:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function WoundedLookatController:Update(context) return end
+function WoundedLookatController:Update(context) end

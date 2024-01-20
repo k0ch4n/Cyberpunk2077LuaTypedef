@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class StatsMenuUserData: inkUserData
----@field public menuVisited Bool
+---@field menuVisited Bool
 StatsMenuUserData = {}
 
 ---@param fields? StatsMenuUserData
 ---@return StatsMenuUserData
-function StatsMenuUserData.new(fields) return end
+function StatsMenuUserData.new(fields) end

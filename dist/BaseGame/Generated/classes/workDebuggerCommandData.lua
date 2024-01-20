@@ -5,4 +5,4 @@ workDebuggerCommandData = {}
 
 ---@param fields? workDebuggerCommandData
 ---@return workDebuggerCommandData
-function workDebuggerCommandData.new(fields) return end
+function workDebuggerCommandData.new(fields) end

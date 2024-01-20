@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class DistractionSetup
----@field public StimuliRange Float
----@field public disableOnActivation Bool
----@field public hasSimpleInteraction Bool
----@field public hasSpiderbotInteraction Bool
----@field public hasQuickHack Bool
----@field public hasComputerInteraction Bool
----@field public alternativeInteractionName TweakDBID
----@field public alternativeSpiderbotInteractionName TweakDBID
----@field public alternativeQuickHackName TweakDBID
----@field public skillChecks EngDemoContainer
----@field public explosionDefinition ExplosiveDeviceResourceDefinition[]
+---@field StimuliRange Float
+---@field disableOnActivation Bool
+---@field hasSimpleInteraction Bool
+---@field hasSpiderbotInteraction Bool
+---@field hasQuickHack Bool
+---@field hasComputerInteraction Bool
+---@field alternativeInteractionName TweakDBID
+---@field alternativeSpiderbotInteractionName TweakDBID
+---@field alternativeQuickHackName TweakDBID
+---@field skillChecks EngDemoContainer
+---@field explosionDefinition ExplosiveDeviceResourceDefinition[]
 DistractionSetup = {}
 
 ---@param fields? DistractionSetup
 ---@return DistractionSetup
-function DistractionSetup.new(fields) return end
+function DistractionSetup.new(fields) end

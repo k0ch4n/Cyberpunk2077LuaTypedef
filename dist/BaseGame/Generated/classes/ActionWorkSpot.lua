@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ActionWorkSpot: ActionBool
----@field private workspotTarget gamePuppet
+---@field workspotTarget gamePuppet
 ActionWorkSpot = {}
 
 ---@return gamePuppet
-function ActionWorkSpot:GetWorkspotTarget() return end
+function ActionWorkSpot:GetWorkspotTarget() end
 
 ---@param owner gameDeviceComponentPS
 ---@param workspotTarget gamePuppet
 ---@return nil
-function ActionWorkSpot:SetUp(owner, workspotTarget) return end
+function ActionWorkSpot:SetUp(owner, workspotTarget) end

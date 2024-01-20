@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RemoveCooldownRequest: gameScriptableSystemRequest
----@field public cid Int32
+---@field cid Int32
 RemoveCooldownRequest = {}
 
 ---@param fields? RemoveCooldownRequest
 ---@return RemoveCooldownRequest
-function RemoveCooldownRequest.new(fields) return end
+function RemoveCooldownRequest.new(fields) end

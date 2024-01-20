@@ -5,4 +5,4 @@ DeathMenuDelayEvent = {}
 
 ---@param fields? DeathMenuDelayEvent
 ---@return DeathMenuDelayEvent
-function DeathMenuDelayEvent.new(fields) return end
+function DeathMenuDelayEvent.new(fields) end

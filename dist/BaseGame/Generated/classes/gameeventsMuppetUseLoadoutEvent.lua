@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsMuppetUseLoadoutEvent: redEvent
----@field public adout gamedataCPOLoadoutBase_Record
+---@field adout gamedataCPOLoadoutBase_Record
 gameeventsMuppetUseLoadoutEvent = {}
 
 ---@param fields? gameeventsMuppetUseLoadoutEvent
 ---@return gameeventsMuppetUseLoadoutEvent
-function gameeventsMuppetUseLoadoutEvent.new(fields) return end
+function gameeventsMuppetUseLoadoutEvent.new(fields) end

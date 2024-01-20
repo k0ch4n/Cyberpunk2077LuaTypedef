@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameTransformAnimation_SpawnEffect: gameTransformAnimation_Effects
----@field public effectName CName
----@field public effectTag CName
----@field public persistOnDetach Bool
+---@field effectName CName
+---@field effectTag CName
+---@field persistOnDetach Bool
 gameTransformAnimation_SpawnEffect = {}
 
 ---@param fields? gameTransformAnimation_SpawnEffect
 ---@return gameTransformAnimation_SpawnEffect
-function gameTransformAnimation_SpawnEffect.new(fields) return end
+function gameTransformAnimation_SpawnEffect.new(fields) end

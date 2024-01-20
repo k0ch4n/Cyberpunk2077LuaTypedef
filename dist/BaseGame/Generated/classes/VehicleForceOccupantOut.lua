@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VehicleForceOccupantOut: ActionBool
----@field public slotID CName
+---@field slotID CName
 VehicleForceOccupantOut = {}
 
 ---@param fields? VehicleForceOccupantOut
 ---@return VehicleForceOccupantOut
-function VehicleForceOccupantOut.new(fields) return end
+function VehicleForceOccupantOut.new(fields) end
 
 ---@param slotString String
 ---@return nil
-function VehicleForceOccupantOut:SetProperties(slotString) return end
+function VehicleForceOccupantOut:SetProperties(slotString) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleEventReceiverSpawn: IParticleEvent
----@field public spawnObject EParticleEventSpawnObject
+---@field spawnObject EParticleEventSpawnObject
 CParticleEventReceiverSpawn = {}
 
 ---@param fields? CParticleEventReceiverSpawn
 ---@return CParticleEventReceiverSpawn
-function CParticleEventReceiverSpawn.new(fields) return end
+function CParticleEventReceiverSpawn.new(fields) end

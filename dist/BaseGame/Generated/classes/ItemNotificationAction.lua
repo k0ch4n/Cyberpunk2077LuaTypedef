@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class ItemNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
+---@field eventDispatcher worlduiIWidgetGameController
 ItemNotificationAction = {}
 
 ---@param fields? ItemNotificationAction
 ---@return ItemNotificationAction
-function ItemNotificationAction.new(fields) return end
+function ItemNotificationAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function ItemNotificationAction:Execute(data) return end
+function ItemNotificationAction:Execute(data) end
 
 ---@return String
-function ItemNotificationAction:GetLabel() return end
+function ItemNotificationAction:GetLabel() end
 
----@private
 ---@return nil
-function ItemNotificationAction:ShowInventory() return end
+function ItemNotificationAction:ShowInventory() end

@@ -1,47 +1,42 @@
 ---@meta
 
 ---@class WeaponEventsTransition: WeaponTransition
----@field protected scriptInterface gamestateMachineGameScriptInterface
----@field private statusEffectListener DefaultTransitionStatusEffectListener
+---@field scriptInterface gamestateMachineGameScriptInterface
+---@field statusEffectListener DefaultTransitionStatusEffectListener
 WeaponEventsTransition = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponEventsTransition:OnAttach(stateContext, scriptInterface) return end
+function WeaponEventsTransition:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponEventsTransition:OnEnterNonChargeState(weapon, stateContext, scriptInterface) return end
+function WeaponEventsTransition:OnEnterNonChargeState(weapon, stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponEventsTransition:OnForcedExit(stateContext, scriptInterface) return end
+function WeaponEventsTransition:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function WeaponEventsTransition:OnStatusEffectApplied(statusEffect) return end
+function WeaponEventsTransition:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function WeaponEventsTransition:OnStatusEffectRemoved(statusEffect) return end
+function WeaponEventsTransition:OnStatusEffectRemoved(statusEffect) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponEventsTransition:RemoveTriggerEffectCycleTrigger(scriptInterface) return end
+function WeaponEventsTransition:RemoveTriggerEffectCycleTrigger(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponEventsTransition:SetTriggerEffectCycleTrigger(scriptInterface) return end
+function WeaponEventsTransition:SetTriggerEffectCycleTrigger(scriptInterface) end
 
----@protected
 ---@param audioSystem gameGameAudioSystem
 ---@return nil
-function WeaponEventsTransition:WeaponTransistionRemoveWeaponTriggerEffects(audioSystem) return end
+function WeaponEventsTransition:WeaponTransistionRemoveWeaponTriggerEffects(audioSystem) end

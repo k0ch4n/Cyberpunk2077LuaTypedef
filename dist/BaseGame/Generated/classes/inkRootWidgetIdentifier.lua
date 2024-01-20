@@ -5,4 +5,4 @@ inkRootWidgetIdentifier = {}
 
 ---@param fields? inkRootWidgetIdentifier
 ---@return inkRootWidgetIdentifier
-function inkRootWidgetIdentifier.new(fields) return end
+function inkRootWidgetIdentifier.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleInitializerAlpha: IParticleInitializer
----@field public alpha IEvaluatorFloat
+---@field alpha IEvaluatorFloat
 CParticleInitializerAlpha = {}
 
 ---@param fields? CParticleInitializerAlpha
 ---@return CParticleInitializerAlpha
-function CParticleInitializerAlpha.new(fields) return end
+function CParticleInitializerAlpha.new(fields) end

@@ -5,4 +5,4 @@ worldInterestingConversationsAreaNotifier = {}
 
 ---@param fields? worldInterestingConversationsAreaNotifier
 ---@return worldInterestingConversationsAreaNotifier
-function worldInterestingConversationsAreaNotifier.new(fields) return end
+function worldInterestingConversationsAreaNotifier.new(fields) end

@@ -5,4 +5,4 @@ DelayedRegisterToGlobalInputCallbackEvent = {}
 
 ---@param fields? DelayedRegisterToGlobalInputCallbackEvent
 ---@return DelayedRegisterToGlobalInputCallbackEvent
-function DelayedRegisterToGlobalInputCallbackEvent.new(fields) return end
+function DelayedRegisterToGlobalInputCallbackEvent.new(fields) end

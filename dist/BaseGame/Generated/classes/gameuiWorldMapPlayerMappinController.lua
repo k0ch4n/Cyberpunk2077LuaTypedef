@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class gameuiWorldMapPlayerMappinController: gameuiBaseWorldMapMappinController
----@field public coneIconWidget inkImageWidgetReference
+---@field coneIconWidget inkImageWidgetReference
 gameuiWorldMapPlayerMappinController = {}
 
 ---@param fields? gameuiWorldMapPlayerMappinController
 ---@return gameuiWorldMapPlayerMappinController
-function gameuiWorldMapPlayerMappinController.new(fields) return end
-
----@protected
----@return Bool
-function gameuiWorldMapPlayerMappinController:OnFiltersChanged() return end
-
----@protected
----@return Bool
-function gameuiWorldMapPlayerMappinController:OnInitialize() return end
+function gameuiWorldMapPlayerMappinController.new(fields) end
 
 ---@return Bool
-function gameuiWorldMapPlayerMappinController:CanSelectMappin() return end
+function gameuiWorldMapPlayerMappinController:OnFiltersChanged() end
 
----@protected
+---@return Bool
+function gameuiWorldMapPlayerMappinController:OnInitialize() end
+
+---@return Bool
+function gameuiWorldMapPlayerMappinController:CanSelectMappin() end
+
 ---@return CName
-function gameuiWorldMapPlayerMappinController:ComputeRootState() return end
+function gameuiWorldMapPlayerMappinController:ComputeRootState() end
 
----@protected
 ---@return nil
-function gameuiWorldMapPlayerMappinController:UpdateIcon() return end
+function gameuiWorldMapPlayerMappinController:UpdateIcon() end

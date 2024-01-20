@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animSetBoneTransformEntry
----@field public transformToChange animTransformIndex
----@field public setMethod animSetBoneTransformEntry_SetMethod
----@field public snapToReference Bool
----@field public sourceBone animTransformIndex
----@field public offsetToReference Bool
----@field public offsetSpaceBone animTransformIndex
----@field public offset QsTransform
+---@field transformToChange animTransformIndex
+---@field setMethod animSetBoneTransformEntry_SetMethod
+---@field snapToReference Bool
+---@field sourceBone animTransformIndex
+---@field offsetToReference Bool
+---@field offsetSpaceBone animTransformIndex
+---@field offset QsTransform
 animSetBoneTransformEntry = {}
 
 ---@param fields? animSetBoneTransformEntry
 ---@return animSetBoneTransformEntry
-function animSetBoneTransformEntry.new(fields) return end
+function animSetBoneTransformEntry.new(fields) end

@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class VehicleDoorOpen: ActionBool
----@field public slotID CName
----@field public shouldAutoClose Bool
----@field public autoCloseTime Float
----@field public forceScene Bool
+---@field slotID CName
+---@field shouldAutoClose Bool
+---@field autoCloseTime Float
+---@field forceScene Bool
 VehicleDoorOpen = {}
 
 ---@param fields? VehicleDoorOpen
 ---@return VehicleDoorOpen
-function VehicleDoorOpen.new(fields) return end
+function VehicleDoorOpen.new(fields) end
 
 ---@param slotString String
 ---@param autoClose? Bool
 ---@param autoCloseDelay? Float
 ---@return nil
-function VehicleDoorOpen:SetProperties(slotString, autoClose, autoCloseDelay) return end
+function VehicleDoorOpen:SetProperties(slotString, autoClose, autoCloseDelay) end

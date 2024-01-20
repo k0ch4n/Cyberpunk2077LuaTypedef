@@ -1,54 +1,45 @@
 ---@meta
 
 ---@class gameuiDeathMenuGameController: gameuiMenuItemListGameController
----@field private buttonHintsManagerRef inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private animIntro inkanimProxy
----@field private axisInputReceived Bool
----@field private dpadInputReceived Bool
+---@field buttonHintsManagerRef inkWidgetReference
+---@field buttonHintsController ButtonHints
+---@field animIntro inkanimProxy
+---@field axisInputReceived Bool
+---@field dpadInputReceived Bool
 gameuiDeathMenuGameController = {}
 
 ---@param fields? gameuiDeathMenuGameController
 ---@return gameuiDeathMenuGameController
-function gameuiDeathMenuGameController.new(fields) return end
+function gameuiDeathMenuGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiDeathMenuGameController:OnGlobalRelease(e) return end
+function gameuiDeathMenuGameController:OnGlobalRelease(e) end
 
----@protected
 ---@return Bool
-function gameuiDeathMenuGameController:OnInitialize() return end
+function gameuiDeathMenuGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiDeathMenuGameController:OnIntroFinished(proxy) return end
+function gameuiDeathMenuGameController:OnIntroFinished(proxy) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiDeathMenuGameController:OnListRelease(e) return end
+function gameuiDeathMenuGameController:OnListRelease(e) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function gameuiDeathMenuGameController:OnSetUserData(userData) return end
+function gameuiDeathMenuGameController:OnSetUserData(userData) end
 
----@protected
 ---@return Bool
-function gameuiDeathMenuGameController:OnUninitialize() return end
+function gameuiDeathMenuGameController:OnUninitialize() end
 
----@protected
 ---@param data PauseMenuListItemData
 ---@return Bool
-function gameuiDeathMenuGameController:HandleMenuItemActivate(data) return end
+function gameuiDeathMenuGameController:HandleMenuItemActivate(data) end
 
----@private
 ---@return nil
-function gameuiDeathMenuGameController:PopulateMenuItemList() return end
+function gameuiDeathMenuGameController:PopulateMenuItemList() end
 
----@private
 ---@return Bool
-function gameuiDeathMenuGameController:ShouldAllowExitGameMenuItem() return end
+function gameuiDeathMenuGameController:ShouldAllowExitGameMenuItem() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class DisableRPGRequirementsForDeviceActions: redEvent
----@field public action TweakDBID
----@field public disable Bool
+---@field action TweakDBID
+---@field disable Bool
 DisableRPGRequirementsForDeviceActions = {}
 
 ---@param fields? DisableRPGRequirementsForDeviceActions
 ---@return DisableRPGRequirementsForDeviceActions
-function DisableRPGRequirementsForDeviceActions.new(fields) return end
+function DisableRPGRequirementsForDeviceActions.new(fields) end
 
 ---@return String
-function DisableRPGRequirementsForDeviceActions:GetFriendlyDescription() return end
+function DisableRPGRequirementsForDeviceActions:GetFriendlyDescription() end

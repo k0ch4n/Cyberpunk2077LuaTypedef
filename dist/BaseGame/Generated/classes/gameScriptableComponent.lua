@@ -1,72 +1,72 @@
 ---@meta
 
 ---@class gameScriptableComponent: gameComponent
----@field public priority Uint32
+---@field priority Uint32
 gameScriptableComponent = {}
 
 ---@param fields? gameScriptableComponent
 ---@return gameScriptableComponent
-function gameScriptableComponent.new(fields) return end
+function gameScriptableComponent.new(fields) end
 
 ---@return gameGameAudioSystem
-function gameScriptableComponent:GetAudioSystem() return end
+function gameScriptableComponent:GetAudioSystem() end
 
 ---@return gameDebugVisualizerSystem
-function gameScriptableComponent:GetDebugVisualizerSystem() return end
+function gameScriptableComponent:GetDebugVisualizerSystem() end
 
 ---@return gameDelaySystem
-function gameScriptableComponent:GetDelaySystem() return end
+function gameScriptableComponent:GetDelaySystem() end
 
 ---@return EngineTime
-function gameScriptableComponent:GetEngineTime() return end
+function gameScriptableComponent:GetEngineTime() end
 
 ---@return nil
-function gameScriptableComponent:GetFriendlyFireSystem() return end
+function gameScriptableComponent:GetFriendlyFireSystem() end
 
 ---@return gameEffectSystem
-function gameScriptableComponent:GetGameEffectSystem() return end
+function gameScriptableComponent:GetGameEffectSystem() end
 
 ---@return nil
-function gameScriptableComponent:GetGameRulesSystem() return end
+function gameScriptableComponent:GetGameRulesSystem() end
 
 ---@return GameTime
-function gameScriptableComponent:GetGameTime() return end
+function gameScriptableComponent:GetGameTime() end
 
 ---@return nil
-function gameScriptableComponent:GetLoSFinderSystem() return end
+function gameScriptableComponent:GetLoSFinderSystem() end
 
 ---@return gameObject
-function gameScriptableComponent:GetOwner() return end
+function gameScriptableComponent:GetOwner() end
 
 ---@return gamePersistencySystem
-function gameScriptableComponent:GetPersistencySystem() return end
+function gameScriptableComponent:GetPersistencySystem() end
 
 ---@return cpPlayerSystem
-function gameScriptableComponent:GetPlayerSystem() return end
+function gameScriptableComponent:GetPlayerSystem() end
 
 ---@return questQuestsSystem
-function gameScriptableComponent:GetQuestsSystem() return end
+function gameScriptableComponent:GetQuestsSystem() end
 
 ---@return nil
-function gameScriptableComponent:GetSceneSystem() return end
+function gameScriptableComponent:GetSceneSystem() end
 
 ---@return EngineTime
-function gameScriptableComponent:GetSimTime() return end
+function gameScriptableComponent:GetSimTime() end
 
 ---@return gameStatPoolsSystem
-function gameScriptableComponent:GetStatPoolsSystem() return end
+function gameScriptableComponent:GetStatPoolsSystem() end
 
 ---@return gameStatsSystem
-function gameScriptableComponent:GetStatsSystem() return end
+function gameScriptableComponent:GetStatsSystem() end
 
 ---@return gametargetingTargetingSystem
-function gameScriptableComponent:GetTargetingSystem() return end
+function gameScriptableComponent:GetTargetingSystem() end
 
 ---@return gameTimeSystem
-function gameScriptableComponent:GetTimeSystem() return end
+function gameScriptableComponent:GetTimeSystem() end
 
 ---@return gameTransactionSystem
-function gameScriptableComponent:GetTransactionSystem() return end
+function gameScriptableComponent:GetTransactionSystem() end
 
 ---@return gameVisionModeSystem
-function gameScriptableComponent:GetVisionModeSystem() return end
+function gameScriptableComponent:GetVisionModeSystem() end

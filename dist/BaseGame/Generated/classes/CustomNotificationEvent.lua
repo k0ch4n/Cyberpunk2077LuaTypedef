@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CustomNotificationEvent: redEvent
----@field public header String
----@field public description String
----@field public icon CName
----@field public fluff_header String
+---@field header String
+---@field description String
+---@field icon CName
+---@field fluff_header String
 CustomNotificationEvent = {}
 
 ---@param fields? CustomNotificationEvent
 ---@return CustomNotificationEvent
-function CustomNotificationEvent.new(fields) return end
+function CustomNotificationEvent.new(fields) end

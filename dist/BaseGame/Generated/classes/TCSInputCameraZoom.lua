@@ -5,4 +5,4 @@ TCSInputCameraZoom = {}
 
 ---@param fields? TCSInputCameraZoom
 ---@return TCSInputCameraZoom
-function TCSInputCameraZoom.new(fields) return end
+function TCSInputCameraZoom.new(fields) end

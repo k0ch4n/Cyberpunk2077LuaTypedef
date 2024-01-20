@@ -5,39 +5,32 @@ CandleDevice = {}
 
 ---@param fields? CandleDevice
 ---@return CandleDevice
-function CandleDevice.new(fields) return end
+function CandleDevice.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function CandleDevice:OnAreaEnter(evt) return end
+function CandleDevice:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function CandleDevice:OnAreaExit(evt) return end
+function CandleDevice:OnAreaExit(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function CandleDevice:OnRequestComponents(ri) return end
+function CandleDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function CandleDevice:OnTakeControl(ri) return end
+function CandleDevice:OnTakeControl(ri) end
 
----@private
 ---@return CandleController
-function CandleDevice:GetController() return end
+function CandleDevice:GetController() end
 
 ---@return CandleControllerPS
-function CandleDevice:GetDevicePS() return end
+function CandleDevice:GetDevicePS() end
 
----@protected
 ---@return nil
-function CandleDevice:TurnOffDevice() return end
+function CandleDevice:TurnOffDevice() end
 
----@protected
 ---@return nil
-function CandleDevice:TurnOnDevice() return end
+function CandleDevice:TurnOnDevice() end

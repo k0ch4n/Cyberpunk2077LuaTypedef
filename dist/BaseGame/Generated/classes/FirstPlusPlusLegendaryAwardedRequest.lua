@@ -5,4 +5,4 @@ FirstPlusPlusLegendaryAwardedRequest = {}
 
 ---@param fields? FirstPlusPlusLegendaryAwardedRequest
 ---@return FirstPlusPlusLegendaryAwardedRequest
-function FirstPlusPlusLegendaryAwardedRequest.new(fields) return end
+function FirstPlusPlusLegendaryAwardedRequest.new(fields) end

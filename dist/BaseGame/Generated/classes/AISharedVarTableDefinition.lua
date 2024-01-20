@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AISharedVarTableDefinition
----@field public table AISharedVarDefinition[]
+---@field table AISharedVarDefinition[]
 AISharedVarTableDefinition = {}
 
 ---@param fields? AISharedVarTableDefinition
 ---@return AISharedVarTableDefinition
-function AISharedVarTableDefinition.new(fields) return end
+function AISharedVarTableDefinition.new(fields) end

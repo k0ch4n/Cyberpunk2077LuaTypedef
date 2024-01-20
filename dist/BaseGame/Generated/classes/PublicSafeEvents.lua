@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class PublicSafeEvents: WeaponEventsTransition
----@field public weaponUnequipRequestSent Bool
+---@field weaponUnequipRequestSent Bool
 PublicSafeEvents = {}
 
 ---@param fields? PublicSafeEvents
 ---@return PublicSafeEvents
-function PublicSafeEvents.new(fields) return end
+function PublicSafeEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeEvents:OnEnter(stateContext, scriptInterface) return end
+function PublicSafeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeEvents:OnExit(stateContext, scriptInterface) return end
+function PublicSafeEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeEvents:OnExitToNotReady(stateContext, scriptInterface) return end
+function PublicSafeEvents:OnExitToNotReady(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function PublicSafeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeEvents:RequestWeaponUnequipNotifyUpperBody(stateContext, scriptInterface) return end
+function PublicSafeEvents:RequestWeaponUnequipNotifyUpperBody(stateContext, scriptInterface) end

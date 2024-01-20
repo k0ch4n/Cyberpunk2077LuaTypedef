@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class HoldPositionCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIHoldPositionCommand
----@field protected activationTimeStamp Float
----@field protected commandDuration Float
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIHoldPositionCommand
+---@field activationTimeStamp Float
+---@field commandDuration Float
 HoldPositionCommandTask = {}
 
 ---@param fields? HoldPositionCommandTask
 ---@return HoldPositionCommandTask
-function HoldPositionCommandTask.new(fields) return end
+function HoldPositionCommandTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function HoldPositionCommandTask:Activate(context) return end
+function HoldPositionCommandTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param typedCommand AIHoldPositionCommand
 ---@return nil
-function HoldPositionCommandTask:CancelCommand(context, typedCommand) return end
+function HoldPositionCommandTask:CancelCommand(context, typedCommand) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function HoldPositionCommandTask:Update(context) return end
+function HoldPositionCommandTask:Update(context) end

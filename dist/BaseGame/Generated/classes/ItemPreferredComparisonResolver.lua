@@ -1,92 +1,87 @@
 ---@meta
 
 ---@class ItemPreferredComparisonResolver: IScriptable
----@field private cacheadAreaItems ItemPreferredAreaItems[]
----@field private cachedComparableTypes ItemComparableTypesCache[]
----@field private typeComparableItemsCache TypeComparableItemsCache[]
----@field private dataManager InventoryDataManagerV2
----@field private forcedCompareItem gameInventoryItemData
----@field private useForceCompare Bool
+---@field cacheadAreaItems ItemPreferredAreaItems[]
+---@field cachedComparableTypes ItemComparableTypesCache[]
+---@field typeComparableItemsCache TypeComparableItemsCache[]
+---@field dataManager InventoryDataManagerV2
+---@field forcedCompareItem gameInventoryItemData
+---@field useForceCompare Bool
 ItemPreferredComparisonResolver = {}
 
 ---@param fields? ItemPreferredComparisonResolver
 ---@return ItemPreferredComparisonResolver
-function ItemPreferredComparisonResolver.new(fields) return end
+function ItemPreferredComparisonResolver.new(fields) end
 
 ---@param inventoryDataManager InventoryDataManagerV2
 ---@return ItemPreferredComparisonResolver
-function ItemPreferredComparisonResolver.Make(inventoryDataManager) return end
+function ItemPreferredComparisonResolver.Make(inventoryDataManager) end
 
----@private
 ---@param item gameInventoryItemData
 ---@return ItemComparableTypesCache
-function ItemPreferredComparisonResolver:CacheComparableType(item) return end
+function ItemPreferredComparisonResolver:CacheComparableType(item) end
 
 ---@param lhs gameInventoryItemData
 ---@param rhs gameInventoryItemData
 ---@return gameItemComparisonState
-function ItemPreferredComparisonResolver:CompareItemsByQuality(lhs, rhs) return end
+function ItemPreferredComparisonResolver:CompareItemsByQuality(lhs, rhs) end
 
 ---@param lhs gameInventoryItemData
 ---@param rhs gameInventoryItemData
 ---@return gameItemComparisonState
-function ItemPreferredComparisonResolver:CompareItemsByStats(lhs, rhs) return end
+function ItemPreferredComparisonResolver:CompareItemsByStats(lhs, rhs) end
 
 ---@return nil
-function ItemPreferredComparisonResolver:DisableForceComparedItem() return end
+function ItemPreferredComparisonResolver:DisableForceComparedItem() end
 
 ---@return nil
-function ItemPreferredComparisonResolver:FlushCache() return end
+function ItemPreferredComparisonResolver:FlushCache() end
 
 ---@param item gameInventoryItemData
 ---@return nil
-function ItemPreferredComparisonResolver:ForceComparedItem(item) return end
+function ItemPreferredComparisonResolver:ForceComparedItem(item) end
 
 ---@return nil
-function ItemPreferredComparisonResolver:ForceDisableComparison() return end
+function ItemPreferredComparisonResolver:ForceDisableComparison() end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return ItemPreferredAreaItems
-function ItemPreferredComparisonResolver:GetAreaItems(equipmentArea) return end
+function ItemPreferredComparisonResolver:GetAreaItems(equipmentArea) end
 
 ---@param item gameInventoryItemData
 ---@return gameInventoryItemData[]
-function ItemPreferredComparisonResolver:GetComparableItems(item) return end
+function ItemPreferredComparisonResolver:GetComparableItems(item) end
 
----@private
 ---@param item gameInventoryItemData
 ---@return ItemComparableTypesCache
-function ItemPreferredComparisonResolver:GetComparableTypes(item) return end
+function ItemPreferredComparisonResolver:GetComparableTypes(item) end
 
 ---@param item gameInventoryItemData
 ---@return gameItemComparisonState
-function ItemPreferredComparisonResolver:GetItemComparisonState(item) return end
+function ItemPreferredComparisonResolver:GetItemComparisonState(item) end
 
 ---@param item gameInventoryItemData
 ---@return gameInventoryItemData
-function ItemPreferredComparisonResolver:GetPreferredComparisonItem(item) return end
+function ItemPreferredComparisonResolver:GetPreferredComparisonItem(item) end
 
----@private
 ---@param item gameInventoryItemData
 ---@return TypeComparableItemsCache
-function ItemPreferredComparisonResolver:GetTypeComparableItems(item) return end
+function ItemPreferredComparisonResolver:GetTypeComparableItems(item) end
 
----@private
 ---@param item gameInventoryItemData
 ---@return Bool
-function ItemPreferredComparisonResolver:IsAreaSelfComparable(item) return end
+function ItemPreferredComparisonResolver:IsAreaSelfComparable(item) end
 
 ---@param uiScriptableSystem UIScriptableSystem
 ---@param item gameInventoryItemData
 ---@return Bool
-function ItemPreferredComparisonResolver:IsBetterComparableNewItem(uiScriptableSystem, item) return end
+function ItemPreferredComparisonResolver:IsBetterComparableNewItem(uiScriptableSystem, item) end
 
 ---@param item gameInventoryItemData
 ---@return Bool
-function ItemPreferredComparisonResolver:IsComparable(item) return end
+function ItemPreferredComparisonResolver:IsComparable(item) end
 
 ---@param baseItem gameInventoryItemData
 ---@param comparedType gamedataItemType
 ---@return Bool
-function ItemPreferredComparisonResolver:IsTypeComparable(baseItem, comparedType) return end
+function ItemPreferredComparisonResolver:IsTypeComparable(baseItem, comparedType) end

@@ -5,24 +5,24 @@ LeftHandCyberwareWaitForUnequipEvents = {}
 
 ---@param fields? LeftHandCyberwareWaitForUnequipEvents
 ---@return LeftHandCyberwareWaitForUnequipEvents
-function LeftHandCyberwareWaitForUnequipEvents.new(fields) return end
+function LeftHandCyberwareWaitForUnequipEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareWaitForUnequipEvents:OnEnter(stateContext, scriptInterface) return end
+function LeftHandCyberwareWaitForUnequipEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareWaitForUnequipEvents:OnEnterFromLeftHandCyberwareCharge(stateContext, scriptInterface) return end
+function LeftHandCyberwareWaitForUnequipEvents:OnEnterFromLeftHandCyberwareCharge(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareWaitForUnequipEvents:OnExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareWaitForUnequipEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareWaitForUnequipEvents:OnForcedExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareWaitForUnequipEvents:OnForcedExit(stateContext, scriptInterface) end

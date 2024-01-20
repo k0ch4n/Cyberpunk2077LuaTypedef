@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class RoyceLaserSight: Attack_Beam
----@field private previousTarget entEntity
+---@field previousTarget entEntity
 RoyceLaserSight = {}
 
 ---@param fields? RoyceLaserSight
 ---@return RoyceLaserSight
-function RoyceLaserSight.new(fields) return end
+function RoyceLaserSight.new(fields) end
 
----@private
 ---@param weapon gameweaponObject
 ---@param target entEntity
 ---@return nil
-function RoyceLaserSight:HandleTargetEvents(weapon, target) return end
+function RoyceLaserSight:HandleTargetEvents(weapon, target) end
 
 ---@param weapon gameweaponObject
 ---@return nil
-function RoyceLaserSight:OnStop(weapon) return end
+function RoyceLaserSight:OnStop(weapon) end
 
 ---@param weapon gameweaponObject
 ---@return nil
-function RoyceLaserSight:OnTick(weapon) return end
+function RoyceLaserSight:OnTick(weapon) end

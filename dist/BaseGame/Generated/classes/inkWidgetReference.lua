@@ -1,367 +1,367 @@
 ---@meta
 
 ---@class inkWidgetReference
----@field public widget inkWidget
+---@field widget inkWidget
 inkWidgetReference = {}
 
 ---@param fields? inkWidgetReference
 ---@return inkWidgetReference
-function inkWidgetReference.new(fields) return end
+function inkWidgetReference.new(fields) end
 
 ---@return nil
-function inkWidgetReference.BindProperty() return end
+function inkWidgetReference.BindProperty() end
 
 ---@param self inkWidgetReference
 ---@param eventName CName|string
 ---@return nil
-function inkWidgetReference.CallCustomCallback(self, eventName) return end
+function inkWidgetReference.CallCustomCallback(self, eventName) end
 
 ---@param self inkWidgetReference
 ---@param translationVector Vector2
 ---@return nil
-function inkWidgetReference.ChangeTranslation(self, translationVector) return end
+function inkWidgetReference.ChangeTranslation(self, translationVector) end
 
 ---@param self inkWidgetReference
 ---@param other inkWidgetReference
 ---@return Bool
-function inkWidgetReference.Equals(self, other) return end
+function inkWidgetReference.Equals(self, other) end
 
 ---@param self inkWidgetReference
 ---@param userDataTypeName CName|string
 ---@param userDataCollection inkUserData[]
 ---@return nil
-function inkWidgetReference.GatherUserData(self, userDataTypeName, userDataCollection) return end
+function inkWidgetReference.GatherUserData(self, userDataTypeName, userDataCollection) end
 
 ---@param self inkWidgetReference
 ---@return inkWidget
-function inkWidgetReference.Get(self) return end
+function inkWidgetReference.Get(self) end
 
 ---@param self inkWidgetReference
 ---@return inkEAnchor
-function inkWidgetReference.GetAnchor(self) return end
+function inkWidgetReference.GetAnchor(self) end
 
 ---@param self inkWidgetReference
 ---@return Vector2
-function inkWidgetReference.GetAnchorPoint(self) return end
+function inkWidgetReference.GetAnchorPoint(self) end
 
 ---@param self inkWidgetReference
 ---@return inkWidgetLogicController
-function inkWidgetReference.GetController(self) return end
+function inkWidgetReference.GetController(self) end
 
 ---@param self inkWidgetReference
 ---@param controllerType CName|string
 ---@return inkWidgetLogicController
-function inkWidgetReference.GetControllerByType(self, controllerType) return end
+function inkWidgetReference.GetControllerByType(self, controllerType) end
 
 ---@param self inkWidgetReference
 ---@return inkWidgetLogicController[]
-function inkWidgetReference.GetControllers(self) return end
+function inkWidgetReference.GetControllers(self) end
 
 ---@param self inkWidgetReference
 ---@param controllerType CName|string
 ---@return inkWidgetLogicController[]
-function inkWidgetReference.GetControllersByType(self, controllerType) return end
+function inkWidgetReference.GetControllersByType(self, controllerType) end
 
 ---@param self inkWidgetReference
 ---@return Vector2
-function inkWidgetReference.GetDesiredSize(self) return end
+function inkWidgetReference.GetDesiredSize(self) end
 
 ---@param self inkWidgetReference
 ---@return Bool
-function inkWidgetReference.GetFitToContent(self) return end
+function inkWidgetReference.GetFitToContent(self) end
 
 ---@param self inkWidgetReference
 ---@return inkEHorizontalAlign
-function inkWidgetReference.GetHAlign(self) return end
+function inkWidgetReference.GetHAlign(self) end
 
 ---@param self inkWidgetReference
 ---@return inkMargin
-function inkWidgetReference.GetMargin(self) return end
+function inkWidgetReference.GetMargin(self) end
 
 ---@param self inkWidgetReference
 ---@return CName
-function inkWidgetReference.GetName(self) return end
+function inkWidgetReference.GetName(self) end
 
 ---@param self inkWidgetReference
 ---@return Int32
-function inkWidgetReference.GetNumControllers(self) return end
+function inkWidgetReference.GetNumControllers(self) end
 
 ---@param self inkWidgetReference
 ---@param controllerType CName|string
 ---@return Int32
-function inkWidgetReference.GetNumControllersOfType(self, controllerType) return end
+function inkWidgetReference.GetNumControllersOfType(self, controllerType) end
 
 ---@param self inkWidgetReference
 ---@return Float
-function inkWidgetReference.GetOpacity(self) return end
+function inkWidgetReference.GetOpacity(self) end
 
 ---@param self inkWidgetReference
 ---@return inkMargin
-function inkWidgetReference.GetPadding(self) return end
+function inkWidgetReference.GetPadding(self) end
 
 ---@param self inkWidgetReference
 ---@return Vector2
-function inkWidgetReference.GetRenderTransformPivot(self) return end
+function inkWidgetReference.GetRenderTransformPivot(self) end
 
 ---@param self inkWidgetReference
 ---@return Float
-function inkWidgetReference.GetRotation(self) return end
+function inkWidgetReference.GetRotation(self) end
 
 ---@param self inkWidgetReference
 ---@return Vector2
-function inkWidgetReference.GetScale(self) return end
+function inkWidgetReference.GetScale(self) end
 
 ---@param self inkWidgetReference
 ---@return Vector2
-function inkWidgetReference.GetShear(self) return end
+function inkWidgetReference.GetShear(self) end
 
 ---@param self inkWidgetReference
 ---@return Vector2
-function inkWidgetReference.GetSize(self) return end
+function inkWidgetReference.GetSize(self) end
 
 ---@param self inkWidgetReference
 ---@return Float
-function inkWidgetReference.GetSizeCoefficient(self) return end
+function inkWidgetReference.GetSizeCoefficient(self) end
 
 ---@param self inkWidgetReference
 ---@return inkESizeRule
-function inkWidgetReference.GetSizeRule(self) return end
+function inkWidgetReference.GetSizeRule(self) end
 
 ---@param self inkWidgetReference
 ---@return CName
-function inkWidgetReference.GetState(self) return end
+function inkWidgetReference.GetState(self) end
 
 ---@param self inkWidgetReference
 ---@return redResourceReferenceScriptToken
-function inkWidgetReference.GetStylePath(self) return end
+function inkWidgetReference.GetStylePath(self) end
 
 ---@param self inkWidgetReference
 ---@return HDRColor
-function inkWidgetReference.GetTintColor(self) return end
+function inkWidgetReference.GetTintColor(self) end
 
 ---@param self inkWidgetReference
 ---@return Vector2
-function inkWidgetReference.GetTranslation(self) return end
+function inkWidgetReference.GetTranslation(self) end
 
 ---@param self inkWidgetReference
 ---@param userDataTypeName CName|string
 ---@return inkUserData
-function inkWidgetReference.GetUserData(self, userDataTypeName) return end
+function inkWidgetReference.GetUserData(self, userDataTypeName) end
 
 ---@param self inkWidgetReference
 ---@param userDataTypeName CName|string
 ---@return inkUserData[]
-function inkWidgetReference.GetUserDataArray(self, userDataTypeName) return end
+function inkWidgetReference.GetUserDataArray(self, userDataTypeName) end
 
 ---@param self inkWidgetReference
 ---@param userDataTypeName CName|string
 ---@return Uint32
-function inkWidgetReference.GetUserDataObjectCount(self, userDataTypeName) return end
+function inkWidgetReference.GetUserDataObjectCount(self, userDataTypeName) end
 
 ---@param self inkWidgetReference
 ---@return inkEVerticalAlign
-function inkWidgetReference.GetVAlign(self) return end
+function inkWidgetReference.GetVAlign(self) end
 
 ---@param self inkWidgetReference
 ---@param userDataTypeName CName|string
 ---@return Bool
-function inkWidgetReference.HasUserDataObject(self, userDataTypeName) return end
+function inkWidgetReference.HasUserDataObject(self, userDataTypeName) end
 
 ---@param self inkWidgetReference
 ---@return Bool
-function inkWidgetReference.IsInteractive(self) return end
+function inkWidgetReference.IsInteractive(self) end
 
 ---@param self inkWidgetReference
 ---@return Bool
-function inkWidgetReference.IsValid(self) return end
+function inkWidgetReference.IsValid(self) end
 
 ---@param self inkWidgetReference
 ---@return Bool
-function inkWidgetReference.IsVisible(self) return end
+function inkWidgetReference.IsVisible(self) end
 
 ---@param self inkWidgetReference
 ---@param animationDefinition inkanimDefinition
 ---@return inkanimProxy
-function inkWidgetReference.PlayAnimation(self, animationDefinition) return end
+function inkWidgetReference.PlayAnimation(self, animationDefinition) end
 
 ---@param self inkWidgetReference
 ---@param animationDefinition inkanimDefinition
 ---@param playbackOptions inkanimPlaybackOptions
 ---@return inkanimProxy
-function inkWidgetReference.PlayAnimationWithOptions(self, animationDefinition, playbackOptions) return end
+function inkWidgetReference.PlayAnimationWithOptions(self, animationDefinition, playbackOptions) end
 
 ---@param self inkWidgetReference
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function inkWidgetReference.RegisterToCallback(self, eventName, object, functionName) return end
+function inkWidgetReference.RegisterToCallback(self, eventName, object, functionName) end
 
 ---@param self inkWidgetReference
 ---@param newParent inkCompoundWidget
 ---@param index? Int32
 ---@return nil
-function inkWidgetReference.Reparent(self, newParent, index) return end
+function inkWidgetReference.Reparent(self, newParent, index) end
 
 ---@param self inkWidgetReference
 ---@param anchor inkEAnchor
 ---@return nil
-function inkWidgetReference.SetAnchor(self, anchor) return end
+function inkWidgetReference.SetAnchor(self, anchor) end
 
 ---@param self inkWidgetReference
 ---@param anchorPoint Vector2
 ---@return nil
-function inkWidgetReference.SetAnchorPoint(self, anchorPoint) return end
+function inkWidgetReference.SetAnchorPoint(self, anchorPoint) end
 
 ---@param self inkWidgetReference
 ---@param fitToContent Bool
 ---@return nil
-function inkWidgetReference.SetFitToContent(self, fitToContent) return end
+function inkWidgetReference.SetFitToContent(self, fitToContent) end
 
 ---@param self inkWidgetReference
 ---@param hAlign inkEHorizontalAlign
 ---@return nil
-function inkWidgetReference.SetHAlign(self, hAlign) return end
+function inkWidgetReference.SetHAlign(self, hAlign) end
 
 ---@param self inkWidgetReference
 ---@param value Bool
 ---@return nil
-function inkWidgetReference.SetInteractive(self, value) return end
+function inkWidgetReference.SetInteractive(self, value) end
 
 ---@param self inkWidgetReference
 ---@param layout inkWidgetLayout
 ---@return nil
-function inkWidgetReference.SetLayout(self, layout) return end
+function inkWidgetReference.SetLayout(self, layout) end
 
 ---@param self inkWidgetReference
 ---@param margin inkMargin
 ---@return nil
-function inkWidgetReference.SetMargin(self, margin) return end
+function inkWidgetReference.SetMargin(self, margin) end
 
 ---@param self inkWidgetReference
 ---@param widgetName CName|string
 ---@return nil
-function inkWidgetReference.SetName(self, widgetName) return end
+function inkWidgetReference.SetName(self, widgetName) end
 
 ---@param self inkWidgetReference
 ---@param opacity Float
 ---@return nil
-function inkWidgetReference.SetOpacity(self, opacity) return end
+function inkWidgetReference.SetOpacity(self, opacity) end
 
 ---@param self inkWidgetReference
 ---@param padding inkMargin
 ---@return nil
-function inkWidgetReference.SetPadding(self, padding) return end
+function inkWidgetReference.SetPadding(self, padding) end
 
 ---@param self inkWidgetReference
 ---@param pivot Vector2
 ---@return nil
-function inkWidgetReference.SetRenderTransformPivot(self, pivot) return end
+function inkWidgetReference.SetRenderTransformPivot(self, pivot) end
 
 ---@param self inkWidgetReference
 ---@param angleInDegrees Float
 ---@return nil
-function inkWidgetReference.SetRotation(self, angleInDegrees) return end
+function inkWidgetReference.SetRotation(self, angleInDegrees) end
 
 ---@param self inkWidgetReference
 ---@param scale Vector2
 ---@return nil
-function inkWidgetReference.SetScale(self, scale) return end
+function inkWidgetReference.SetScale(self, scale) end
 
 ---@param self inkWidgetReference
 ---@param shear Vector2
 ---@return nil
-function inkWidgetReference.SetShear(self, shear) return end
+function inkWidgetReference.SetShear(self, shear) end
 
 ---@param self inkWidgetReference
 ---@param size Vector2
 ---@return nil
-function inkWidgetReference.SetSize(self, size) return end
+function inkWidgetReference.SetSize(self, size) end
 
 ---@param self inkWidgetReference
 ---@param sizeCoefficient Float
 ---@return nil
-function inkWidgetReference.SetSizeCoefficient(self, sizeCoefficient) return end
+function inkWidgetReference.SetSizeCoefficient(self, sizeCoefficient) end
 
 ---@param self inkWidgetReference
 ---@param sizeRule inkESizeRule
 ---@return nil
-function inkWidgetReference.SetSizeRule(self, sizeRule) return end
+function inkWidgetReference.SetSizeRule(self, sizeRule) end
 
 ---@param self inkWidgetReference
 ---@param state CName|string
 ---@return nil
-function inkWidgetReference.SetState(self, state) return end
+function inkWidgetReference.SetState(self, state) end
 
 ---@param self inkWidgetReference
 ---@param styleResPath redResourceReferenceScriptToken
 ---@return nil
-function inkWidgetReference.SetStyle(self, styleResPath) return end
+function inkWidgetReference.SetStyle(self, styleResPath) end
 
 ---@param self inkWidgetReference
 ---@param color HDRColor
 ---@return nil
-function inkWidgetReference.SetTintColor(self, color) return end
+function inkWidgetReference.SetTintColor(self, color) end
 
 ---@param self inkWidgetReference
 ---@param translationVector Vector2
 ---@return nil
-function inkWidgetReference.SetTranslation(self, translationVector) return end
+function inkWidgetReference.SetTranslation(self, translationVector) end
 
 ---@param self inkWidgetReference
 ---@param vAlign inkEVerticalAlign
 ---@return nil
-function inkWidgetReference.SetVAlign(self, vAlign) return end
+function inkWidgetReference.SetVAlign(self, vAlign) end
 
 ---@param self inkWidgetReference
 ---@param visible Bool
 ---@return nil
-function inkWidgetReference.SetVisible(self, visible) return end
+function inkWidgetReference.SetVisible(self, visible) end
 
 ---@param self inkWidgetReference
 ---@return nil
-function inkWidgetReference.StopAllAnimations(self) return end
+function inkWidgetReference.StopAllAnimations(self) end
 
 ---@return nil
-function inkWidgetReference.UnbindProperty() return end
+function inkWidgetReference.UnbindProperty() end
 
 ---@param self inkWidgetReference
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function inkWidgetReference.UnregisterFromCallback(self, eventName, object, functionName) return end
+function inkWidgetReference.UnregisterFromCallback(self, eventName, object, functionName) end
 
 ---@param self inkWidgetReference
 ---@return CName
-function inkWidgetReference.DefaultState(self) return end
+function inkWidgetReference.DefaultState(self) end
 
 ---@param self inkWidgetReference
 ---@return Float
-function inkWidgetReference.GetDesiredHeight(self) return end
+function inkWidgetReference.GetDesiredHeight(self) end
 
 ---@param self inkWidgetReference
 ---@return Float
-function inkWidgetReference.GetDesiredWidth(self) return end
+function inkWidgetReference.GetDesiredWidth(self) end
 
 ---@param self inkWidgetReference
 ---@return Float
-function inkWidgetReference.GetHeight(self) return end
+function inkWidgetReference.GetHeight(self) end
 
 ---@param self inkWidgetReference
 ---@return Float
-function inkWidgetReference.GetWidth(self) return end
+function inkWidgetReference.GetWidth(self) end
 
 ---@param self inkWidgetReference
 ---@param x Float
 ---@param y Float
 ---@return nil
-function inkWidgetReference.SetAnchorPoint(self, x, y) return end
+function inkWidgetReference.SetAnchorPoint(self, x, y) end
 
 ---@param self inkWidgetReference
 ---@param height Float
 ---@return nil
-function inkWidgetReference.SetHeight(self, height) return end
+function inkWidgetReference.SetHeight(self, height) end
 
 ---@param self inkWidgetReference
 ---@param left Float
@@ -369,7 +369,7 @@ function inkWidgetReference.SetHeight(self, height) return end
 ---@param right Float
 ---@param bottom Float
 ---@return nil
-function inkWidgetReference.SetMargin(self, left, top, right, bottom) return end
+function inkWidgetReference.SetMargin(self, left, top, right, bottom) end
 
 ---@param self inkWidgetReference
 ---@param left Float
@@ -377,24 +377,24 @@ function inkWidgetReference.SetMargin(self, left, top, right, bottom) return end
 ---@param right Float
 ---@param bottom Float
 ---@return nil
-function inkWidgetReference.SetPadding(self, left, top, right, bottom) return end
+function inkWidgetReference.SetPadding(self, left, top, right, bottom) end
 
 ---@param self inkWidgetReference
 ---@param x Float
 ---@param y Float
 ---@return nil
-function inkWidgetReference.SetRenderTransformPivot(self, x, y) return end
+function inkWidgetReference.SetRenderTransformPivot(self, x, y) end
 
 ---@param self inkWidgetReference
 ---@param width Float
 ---@param height Float
 ---@return nil
-function inkWidgetReference.SetSize(self, width, height) return end
+function inkWidgetReference.SetSize(self, width, height) end
 
 ---@param self inkWidgetReference
 ---@param color Color
 ---@return nil
-function inkWidgetReference.SetTintColor(self, color) return end
+function inkWidgetReference.SetTintColor(self, color) end
 
 ---@param self inkWidgetReference
 ---@param r Uint8
@@ -402,18 +402,18 @@ function inkWidgetReference.SetTintColor(self, color) return end
 ---@param b Uint8
 ---@param a Uint8
 ---@return nil
-function inkWidgetReference.SetTintColor(self, r, g, b, a) return end
+function inkWidgetReference.SetTintColor(self, r, g, b, a) end
 
 ---@param self inkWidgetReference
 ---@param x Float
 ---@param y Float
 ---@return nil
-function inkWidgetReference.SetTranslation(self, x, y) return end
+function inkWidgetReference.SetTranslation(self, x, y) end
 
 ---@param self inkWidgetReference
 ---@param width Float
 ---@return nil
-function inkWidgetReference.SetWidth(self, width) return end
+function inkWidgetReference.SetWidth(self, width) end
 
 ---@param self inkWidgetReference
 ---@param left Float
@@ -421,4 +421,4 @@ function inkWidgetReference.SetWidth(self, width) return end
 ---@param right Float
 ---@param bottom Float
 ---@return nil
-function inkWidgetReference.UpdateMargin(self, left, top, right, bottom) return end
+function inkWidgetReference.UpdateMargin(self, left, top, right, bottom) end

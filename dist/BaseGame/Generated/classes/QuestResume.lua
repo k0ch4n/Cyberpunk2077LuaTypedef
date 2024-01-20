@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestResume: ActionBool
----@field public pauseTime Float
+---@field pauseTime Float
 QuestResume = {}
 
 ---@param fields? QuestResume
 ---@return QuestResume
-function QuestResume.new(fields) return end
+function QuestResume.new(fields) end
 
 ---@return nil
-function QuestResume:SetProperties() return end
+function QuestResume:SetProperties() end

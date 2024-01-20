@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AnimFeature_SimpleIkSystem: animAnimFeature
----@field public isEnable Bool
----@field public weight Float
----@field public setPosition Bool
----@field public position Vector4
----@field public positionOffset Vector4
----@field public setRotation Bool
----@field public rotation Quaternion
----@field public rotationOffset Quaternion
+---@field isEnable Bool
+---@field weight Float
+---@field setPosition Bool
+---@field position Vector4
+---@field positionOffset Vector4
+---@field setRotation Bool
+---@field rotation Quaternion
+---@field rotationOffset Quaternion
 AnimFeature_SimpleIkSystem = {}
 
 ---@param fields? AnimFeature_SimpleIkSystem
 ---@return AnimFeature_SimpleIkSystem
-function AnimFeature_SimpleIkSystem.new(fields) return end
+function AnimFeature_SimpleIkSystem.new(fields) end

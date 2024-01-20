@@ -5,22 +5,22 @@ gamedataApplyStatusEffectByChanceEffector_Record = {}
 
 ---@param fields? gamedataApplyStatusEffectByChanceEffector_Record
 ---@return gamedataApplyStatusEffectByChanceEffector_Record
-function gamedataApplyStatusEffectByChanceEffector_Record.new(fields) return end
+function gamedataApplyStatusEffectByChanceEffector_Record.new(fields) end
 
 ---@return nil, gamedataStatModifier_Record[] outList
-function gamedataApplyStatusEffectByChanceEffector_Record:EffectorChance() return end
+function gamedataApplyStatusEffectByChanceEffector_Record:EffectorChance() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
-function gamedataApplyStatusEffectByChanceEffector_Record:EffectorChanceContains(item) return end
+function gamedataApplyStatusEffectByChanceEffector_Record:EffectorChanceContains(item) end
 
 ---@return Int32
-function gamedataApplyStatusEffectByChanceEffector_Record:GetEffectorChanceCount() return end
+function gamedataApplyStatusEffectByChanceEffector_Record:GetEffectorChanceCount() end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataApplyStatusEffectByChanceEffector_Record:GetEffectorChanceItem(index) return end
+function gamedataApplyStatusEffectByChanceEffector_Record:GetEffectorChanceItem(index) end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataApplyStatusEffectByChanceEffector_Record:GetEffectorChanceItemHandle(index) return end
+function gamedataApplyStatusEffectByChanceEffector_Record:GetEffectorChanceItemHandle(index) end

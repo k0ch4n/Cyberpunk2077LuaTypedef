@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimSoundEvent: entSoundEvent
----@field public metadataContext CName
+---@field metadataContext CName
 entAnimSoundEvent = {}
 
 ---@param fields? entAnimSoundEvent
 ---@return entAnimSoundEvent
-function entAnimSoundEvent.new(fields) return end
+function entAnimSoundEvent.new(fields) end

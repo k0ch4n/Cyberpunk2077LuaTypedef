@@ -5,28 +5,24 @@ LeftHandCyberwareChargeDecisions = {}
 
 ---@param fields? LeftHandCyberwareChargeDecisions
 ---@return LeftHandCyberwareChargeDecisions
-function LeftHandCyberwareChargeDecisions.new(fields) return end
+function LeftHandCyberwareChargeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareChargeAction(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareChargeAction(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareChargeRepeatAction(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareChargeRepeatAction(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareWaitForUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeDecisions:ToLeftHandCyberwareWaitForUnequip(stateContext, scriptInterface) end

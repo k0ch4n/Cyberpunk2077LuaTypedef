@@ -1,40 +1,39 @@
 ---@meta
 
 ---@class PlayerWeaponHandlingModifiers: IScriptable
----@field private player PlayerPuppet
----@field public opSymbol CName
----@field public recoilGroup gameConstantStatModifierData_Deprecated[]
----@field public timeOutGroup gameConstantStatModifierData_Deprecated[]
----@field public multSwayGroup gameConstantStatModifierData_Deprecated[]
----@field public addSwayGroup gameConstantStatModifierData_Deprecated[]
----@field public spreadGroup gameConstantStatModifierData_Deprecated[]
+---@field player PlayerPuppet
+---@field opSymbol CName
+---@field recoilGroup gameConstantStatModifierData_Deprecated[]
+---@field timeOutGroup gameConstantStatModifierData_Deprecated[]
+---@field multSwayGroup gameConstantStatModifierData_Deprecated[]
+---@field addSwayGroup gameConstantStatModifierData_Deprecated[]
+---@field spreadGroup gameConstantStatModifierData_Deprecated[]
 PlayerWeaponHandlingModifiers = {}
 
 ---@param fields? PlayerWeaponHandlingModifiers
 ---@return PlayerWeaponHandlingModifiers
-function PlayerWeaponHandlingModifiers.new(fields) return end
+function PlayerWeaponHandlingModifiers.new(fields) end
 
 ---@param player PlayerPuppet
 ---@return PlayerWeaponHandlingModifiers
-function PlayerWeaponHandlingModifiers.Create(player) return end
+function PlayerWeaponHandlingModifiers.Create(player) end
 
----@private
 ---@param value Float
 ---@return Float
-function PlayerWeaponHandlingModifiers:ModifyCurveValue(value) return end
+function PlayerWeaponHandlingModifiers:ModifyCurveValue(value) end
 
 ---@param symbol CName|string
 ---@return nil
-function PlayerWeaponHandlingModifiers:ModifyOpSymbol(symbol) return end
+function PlayerWeaponHandlingModifiers:ModifyOpSymbol(symbol) end
 
 ---@return nil
-function PlayerWeaponHandlingModifiers:OnAttach() return end
+function PlayerWeaponHandlingModifiers:OnAttach() end
 
 ---@param equippedRightHandWeapon gameweaponObject
 ---@return nil
-function PlayerWeaponHandlingModifiers:RemoveHandlingModifiersFromWeapon(equippedRightHandWeapon) return end
+function PlayerWeaponHandlingModifiers:RemoveHandlingModifiersFromWeapon(equippedRightHandWeapon) end
 
 ---@param evt UpdateEquippedWeaponsHandlingEvent
 ---@param equippedRightHandWeapon gameweaponObject
 ---@return nil
-function PlayerWeaponHandlingModifiers:UpdateEquippedWeaponsHandling(evt, equippedRightHandWeapon) return end
+function PlayerWeaponHandlingModifiers:UpdateEquippedWeaponsHandling(evt, equippedRightHandWeapon) end

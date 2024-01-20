@@ -1,37 +1,34 @@
 ---@meta
 
 ---@class StatPoolBasedTimeBankEffector: gameContinuousEffector
----@field public TimeBankValue Float
----@field public maxStatPoolValue Float
----@field public statPoolType gamedataStatPoolType
----@field private player gameObject
----@field private statPoolSystem gameStatPoolsSystem
----@field private TimeBankListener TimeBankValueListener
----@field private StatPoolListener StatPoolValueListener
----@field private playerEntityID entEntityID
----@field private gameInstance ScriptGameInstance
----@field private regenMod gameStatPoolModifier
+---@field TimeBankValue Float
+---@field maxStatPoolValue Float
+---@field statPoolType gamedataStatPoolType
+---@field player gameObject
+---@field statPoolSystem gameStatPoolsSystem
+---@field TimeBankListener TimeBankValueListener
+---@field StatPoolListener StatPoolValueListener
+---@field playerEntityID entEntityID
+---@field gameInstance ScriptGameInstance
+---@field regenMod gameStatPoolModifier
 StatPoolBasedTimeBankEffector = {}
 
 ---@param fields? StatPoolBasedTimeBankEffector
 ---@return StatPoolBasedTimeBankEffector
-function StatPoolBasedTimeBankEffector.new(fields) return end
+function StatPoolBasedTimeBankEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function StatPoolBasedTimeBankEffector:ContinuousAction(owner, instigator) return end
+function StatPoolBasedTimeBankEffector:ContinuousAction(owner, instigator) end
 
 ---@return nil
-function StatPoolBasedTimeBankEffector:EvaluateStatPoolCooldown() return end
+function StatPoolBasedTimeBankEffector:EvaluateStatPoolCooldown() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StatPoolBasedTimeBankEffector:Initialize(record, parentRecord) return end
+function StatPoolBasedTimeBankEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function StatPoolBasedTimeBankEffector:Uninitialize() return end
+function StatPoolBasedTimeBankEffector:Uninitialize() end

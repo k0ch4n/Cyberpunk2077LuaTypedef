@@ -5,8 +5,8 @@ gameIMovingPlatformMovementPointToPoint = {}
 
 ---@param endPointLocal Vector4
 ---@return nil
-function gameIMovingPlatformMovementPointToPoint:SetDestinationLocalPosition(endPointLocal) return end
+function gameIMovingPlatformMovementPointToPoint:SetDestinationLocalPosition(endPointLocal) end
 
 ---@param endNode NodeRef
 ---@return nil
-function gameIMovingPlatformMovementPointToPoint:SetDestinationNode(endNode) return end
+function gameIMovingPlatformMovementPointToPoint:SetDestinationNode(endNode) end

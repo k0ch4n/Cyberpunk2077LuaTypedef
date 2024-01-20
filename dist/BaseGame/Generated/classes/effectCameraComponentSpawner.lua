@@ -5,4 +5,4 @@ effectCameraComponentSpawner = {}
 
 ---@param fields? effectCameraComponentSpawner
 ---@return effectCameraComponentSpawner
-function effectCameraComponentSpawner.new(fields) return end
+function effectCameraComponentSpawner.new(fields) end

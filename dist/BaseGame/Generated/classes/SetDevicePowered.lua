@@ -5,20 +5,20 @@ SetDevicePowered = {}
 
 ---@param fields? SetDevicePowered
 ---@return SetDevicePowered
-function SetDevicePowered.new(fields) return end
+function SetDevicePowered.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function SetDevicePowered.IsAvailable(device) return end
+function SetDevicePowered.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SetDevicePowered.IsClearanceValid(clearance) return end
+function SetDevicePowered.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function SetDevicePowered.IsDefaultConditionMet(device, context) return end
+function SetDevicePowered.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function SetDevicePowered:SetProperties() return end
+function SetDevicePowered:SetProperties() end

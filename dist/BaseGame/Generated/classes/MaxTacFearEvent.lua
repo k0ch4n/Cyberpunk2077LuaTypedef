@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class MaxTacFearEvent: gameScriptableSystemRequest
----@field public player gameObject
----@field public av gameObject
+---@field player gameObject
+---@field av gameObject
 MaxTacFearEvent = {}
 
 ---@param fields? MaxTacFearEvent
 ---@return MaxTacFearEvent
-function MaxTacFearEvent.new(fields) return end
+function MaxTacFearEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questConditionNodeDefinition: questDisableableNodeDefinition
----@field public condition questIBaseCondition
+---@field condition questIBaseCondition
 questConditionNodeDefinition = {}
 
 ---@param fields? questConditionNodeDefinition
 ---@return questConditionNodeDefinition
-function questConditionNodeDefinition.new(fields) return end
+function questConditionNodeDefinition.new(fields) end

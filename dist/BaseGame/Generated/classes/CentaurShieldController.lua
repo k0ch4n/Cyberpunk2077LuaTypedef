@@ -1,79 +1,66 @@
 ---@meta
 
 ---@class CentaurShieldController: AICustomComponents
----@field private startWithShieldActive Bool
----@field private animFeatureName CName
----@field private shieldDestroyedModifierName CName
----@field private shieldState ECentaurShieldState
----@field private centaurBlackboard gameIBlackboard
+---@field startWithShieldActive Bool
+---@field animFeatureName CName
+---@field shieldDestroyedModifierName CName
+---@field shieldState ECentaurShieldState
+---@field centaurBlackboard gameIBlackboard
 CentaurShieldController = {}
 
 ---@param fields? CentaurShieldController
 ---@return CentaurShieldController
-function CentaurShieldController.new(fields) return end
+function CentaurShieldController.new(fields) end
 
 ---@param obj gameObject
 ---@param newState ECentaurShieldState
 ---@return nil
-function CentaurShieldController.ChangeShieldState(obj, newState) return end
+function CentaurShieldController.ChangeShieldState(obj, newState) end
 
----@protected
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function CentaurShieldController:OnEventReceived(stimEvent) return end
+function CentaurShieldController:OnEventReceived(stimEvent) end
 
----@protected
 ---@param evt HitShieldEvent
 ---@return Bool
-function CentaurShieldController:OnHitShield(evt) return end
+function CentaurShieldController:OnHitShield(evt) end
 
----@protected
 ---@param stateChangeEvent CentaurShieldStateChangeEvent
 ---@return Bool
-function CentaurShieldController:OnShieldStateChange(stateChangeEvent) return end
+function CentaurShieldController:OnShieldStateChange(stateChangeEvent) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function CentaurShieldController:OnStatusEffectApplied(evt) return end
+function CentaurShieldController:OnStatusEffectApplied(evt) end
 
----@private
 ---@return nil
-function CentaurShieldController:ApplyShieldDestroyedStats() return end
+function CentaurShieldController:ApplyShieldDestroyedStats() end
 
----@private
 ---@param newState ECentaurShieldState
 ---@return nil
-function CentaurShieldController:ChangeShieldState(newState) return end
+function CentaurShieldController:ChangeShieldState(newState) end
 
----@private
 ---@param varName String
 ---@param defaultValue? Float
 ---@return Float
-function CentaurShieldController:GetFloatFromCharacterTweak(varName, defaultValue) return end
+function CentaurShieldController:GetFloatFromCharacterTweak(varName, defaultValue) end
 
----@private
 ---@param varName String
 ---@param defaultValue? String
 ---@return String
-function CentaurShieldController:GetStringFromCharacterTweak(varName, defaultValue) return end
+function CentaurShieldController:GetStringFromCharacterTweak(varName, defaultValue) end
 
----@private
 ---@return nil
-function CentaurShieldController:OnGameAttach() return end
+function CentaurShieldController:OnGameAttach() end
 
----@private
 ---@return nil
-function CentaurShieldController:PlayShieldDestroyedVoiceOver() return end
+function CentaurShieldController:PlayShieldDestroyedVoiceOver() end
 
----@private
 ---@return nil
-function CentaurShieldController:TriggerShieldControllerExplosion() return end
+function CentaurShieldController:TriggerShieldControllerExplosion() end
 
----@private
 ---@return nil
-function CentaurShieldController:UpdateAnimFeature() return end
+function CentaurShieldController:UpdateAnimFeature() end
 
----@private
 ---@return nil
-function CentaurShieldController:UpdateBlackbaord() return end
+function CentaurShieldController:UpdateBlackbaord() end

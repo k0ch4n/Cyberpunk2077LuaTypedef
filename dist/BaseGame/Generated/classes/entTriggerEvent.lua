@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entTriggerEvent: redEvent
----@field public triggerID entEntityID
----@field public activator entEntityGameInterface
----@field public worldPosition Vector4
----@field public numActivatorsInArea Uint32
----@field public activatorID Uint32
----@field public componentName CName
+---@field triggerID entEntityID
+---@field activator entEntityGameInterface
+---@field worldPosition Vector4
+---@field numActivatorsInArea Uint32
+---@field activatorID Uint32
+---@field componentName CName
 entTriggerEvent = {}

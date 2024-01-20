@@ -5,16 +5,16 @@ gamedataAISubActionSetItemAsTarget_Record = {}
 
 ---@param fields? gamedataAISubActionSetItemAsTarget_Record
 ---@return gamedataAISubActionSetItemAsTarget_Record
-function gamedataAISubActionSetItemAsTarget_Record.new(fields) return end
+function gamedataAISubActionSetItemAsTarget_Record.new(fields) end
 
 ---@return gamedataItemCategory_Record
-function gamedataAISubActionSetItemAsTarget_Record:ItemCategory() return end
+function gamedataAISubActionSetItemAsTarget_Record:ItemCategory() end
 
 ---@return gamedataItemCategory_Record
-function gamedataAISubActionSetItemAsTarget_Record:ItemCategoryHandle() return end
+function gamedataAISubActionSetItemAsTarget_Record:ItemCategoryHandle() end
 
 ---@return gamedataItemType_Record
-function gamedataAISubActionSetItemAsTarget_Record:ItemType() return end
+function gamedataAISubActionSetItemAsTarget_Record:ItemType() end
 
 ---@return gamedataItemType_Record
-function gamedataAISubActionSetItemAsTarget_Record:ItemTypeHandle() return end
+function gamedataAISubActionSetItemAsTarget_Record:ItemTypeHandle() end

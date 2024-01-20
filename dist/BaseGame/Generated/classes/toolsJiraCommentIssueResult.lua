@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraCommentIssueResult: ISerializable
----@field public errorMessages String[]
+---@field errorMessages String[]
 toolsJiraCommentIssueResult = {}
 
 ---@param fields? toolsJiraCommentIssueResult
 ---@return toolsJiraCommentIssueResult
-function toolsJiraCommentIssueResult.new(fields) return end
+function toolsJiraCommentIssueResult.new(fields) end

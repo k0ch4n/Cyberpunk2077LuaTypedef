@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class WeaponMachineInkGameController: VendingMachineInkGameController
----@field private buttonRef WeaponVendorActionWidgetController
+---@field buttonRef WeaponVendorActionWidgetController
 WeaponMachineInkGameController = {}
 
 ---@param fields? WeaponMachineInkGameController
 ---@return WeaponMachineInkGameController
-function WeaponMachineInkGameController.new(fields) return end
+function WeaponMachineInkGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function WeaponMachineInkGameController:OnActionWidgetSpawned(widget, userData) return end
+function WeaponMachineInkGameController:OnActionWidgetSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function WeaponMachineInkGameController:OnUpdateStatus(value) return end
+function WeaponMachineInkGameController:OnUpdateStatus(value) end
 
----@protected
 ---@return WeaponVendingMachine
-function WeaponMachineInkGameController:GetOwner() return end
+function WeaponMachineInkGameController:GetOwner() end
 
----@private
 ---@return nil
-function WeaponMachineInkGameController:NoMoney() return end
+function WeaponMachineInkGameController:NoMoney() end
 
----@private
 ---@return nil
-function WeaponMachineInkGameController:Processing() return end
+function WeaponMachineInkGameController:Processing() end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function WeaponMachineInkGameController:Refresh(state) return end
+function WeaponMachineInkGameController:Refresh(state) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function WeaponMachineInkGameController:UpdateActionWidgets(widgetsData) return end
+function WeaponMachineInkGameController:UpdateActionWidgets(widgetsData) end

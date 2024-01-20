@@ -5,4 +5,4 @@ vehicleRemoteControlCameraToggleEvent = {}
 
 ---@param fields? vehicleRemoteControlCameraToggleEvent
 ---@return vehicleRemoteControlCameraToggleEvent
-function vehicleRemoteControlCameraToggleEvent.new(fields) return end
+function vehicleRemoteControlCameraToggleEvent.new(fields) end

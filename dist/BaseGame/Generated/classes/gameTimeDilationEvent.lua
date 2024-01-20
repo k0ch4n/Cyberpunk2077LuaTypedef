@@ -5,4 +5,4 @@ gameTimeDilationEvent = {}
 
 ---@param fields? gameTimeDilationEvent
 ---@return gameTimeDilationEvent
-function gameTimeDilationEvent.new(fields) return end
+function gameTimeDilationEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entFootPhaseChangedEvent: redEvent
----@field public footPhase animEFootPhase
+---@field footPhase animEFootPhase
 entFootPhaseChangedEvent = {}
 
 ---@param fields? entFootPhaseChangedEvent
 ---@return entFootPhaseChangedEvent
-function entFootPhaseChangedEvent.new(fields) return end
+function entFootPhaseChangedEvent.new(fields) end

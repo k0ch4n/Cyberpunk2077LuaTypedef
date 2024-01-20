@@ -5,9 +5,9 @@ IgnoreAlreadyAffectedEntities = {}
 
 ---@param fields? IgnoreAlreadyAffectedEntities
 ---@return IgnoreAlreadyAffectedEntities
-function IgnoreAlreadyAffectedEntities.new(fields) return end
+function IgnoreAlreadyAffectedEntities.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IgnoreAlreadyAffectedEntities:Process(ctx, filterCtx) return end
+function IgnoreAlreadyAffectedEntities:Process(ctx, filterCtx) end

@@ -5,8 +5,7 @@ RoadBlockadeMappinController = {}
 
 ---@param fields? RoadBlockadeMappinController
 ---@return RoadBlockadeMappinController
-function RoadBlockadeMappinController.new(fields) return end
+function RoadBlockadeMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function RoadBlockadeMappinController:KeepIconOnClamping() return end
+function RoadBlockadeMappinController:KeepIconOnClamping() end

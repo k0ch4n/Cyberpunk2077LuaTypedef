@@ -5,4 +5,4 @@ VEHICLE_Actor = {}
 
 ---@param fields? VEHICLE_Actor
 ---@return VEHICLE_Actor
-function VEHICLE_Actor.new(fields) return end
+function VEHICLE_Actor.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetInputActionSelectSlot: gameIMuppetInputAction
----@field public targetSlot Int32
+---@field targetSlot Int32
 gameMuppetInputActionSelectSlot = {}
 
 ---@param fields? gameMuppetInputActionSelectSlot
 ---@return gameMuppetInputActionSelectSlot
-function gameMuppetInputActionSelectSlot.new(fields) return end
+function gameMuppetInputActionSelectSlot.new(fields) end

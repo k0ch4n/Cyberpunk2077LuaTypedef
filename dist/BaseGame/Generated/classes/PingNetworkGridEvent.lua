@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class PingNetworkGridEvent: redEvent
----@field public ownerEntityPosition Vector4
----@field public fxResource gameFxResource
----@field public lifetime Float
----@field public pingType EPingType
----@field public revealSlave Bool
----@field public revealMaster Bool
----@field public ignoreRevealed Bool
+---@field ownerEntityPosition Vector4
+---@field fxResource gameFxResource
+---@field lifetime Float
+---@field pingType EPingType
+---@field revealSlave Bool
+---@field revealMaster Bool
+---@field ignoreRevealed Bool
 PingNetworkGridEvent = {}
 
 ---@param fields? PingNetworkGridEvent
 ---@return PingNetworkGridEvent
-function PingNetworkGridEvent.new(fields) return end
+function PingNetworkGridEvent.new(fields) end

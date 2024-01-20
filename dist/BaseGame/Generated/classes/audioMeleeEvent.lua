@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioMeleeEvent
----@field public event CName
----@field public params audioAudSimpleParameter[]
+---@field event CName
+---@field params audioAudSimpleParameter[]
 audioMeleeEvent = {}
 
 ---@param fields? audioMeleeEvent
 ---@return audioMeleeEvent
-function audioMeleeEvent.new(fields) return end
+function audioMeleeEvent.new(fields) end

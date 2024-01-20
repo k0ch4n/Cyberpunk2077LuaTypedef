@@ -5,22 +5,22 @@ gamedataAIActionChangeNPCState_Record = {}
 
 ---@param fields? gamedataAIActionChangeNPCState_Record
 ---@return gamedataAIActionChangeNPCState_Record
-function gamedataAIActionChangeNPCState_Record.new(fields) return end
+function gamedataAIActionChangeNPCState_Record.new(fields) end
 
 ---@return CName
-function gamedataAIActionChangeNPCState_Record:DefenseMode() return end
+function gamedataAIActionChangeNPCState_Record:DefenseMode() end
 
 ---@return CName
-function gamedataAIActionChangeNPCState_Record:HighLevelState() return end
+function gamedataAIActionChangeNPCState_Record:HighLevelState() end
 
 ---@return CName
-function gamedataAIActionChangeNPCState_Record:HitReactionMode() return end
+function gamedataAIActionChangeNPCState_Record:HitReactionMode() end
 
 ---@return CName
-function gamedataAIActionChangeNPCState_Record:LocomotionMode() return end
+function gamedataAIActionChangeNPCState_Record:LocomotionMode() end
 
 ---@return CName
-function gamedataAIActionChangeNPCState_Record:StanceState() return end
+function gamedataAIActionChangeNPCState_Record:StanceState() end
 
 ---@return CName
-function gamedataAIActionChangeNPCState_Record:UpperBodyState() return end
+function gamedataAIActionChangeNPCState_Record:UpperBodyState() end

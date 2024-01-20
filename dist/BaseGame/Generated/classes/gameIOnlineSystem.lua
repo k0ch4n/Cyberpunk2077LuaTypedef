@@ -5,26 +5,26 @@ gameIOnlineSystem = {}
 
 ---@param token Uint64
 ---@return gamedataGOGReward_Record
-function gameIOnlineSystem:FindRewardRecordByRewardToken(token) return end
+function gameIOnlineSystem:FindRewardRecordByRewardToken(token) end
 
 ---@return gameOnlineSystemErrors
-function gameIOnlineSystem:GetError() return end
+function gameIOnlineSystem:GetError() end
 
 ---@return String
-function gameIOnlineSystem:GetRegistrationUrl() return end
+function gameIOnlineSystem:GetRegistrationUrl() end
 
 ---@return gameOnlineSystemStatus
-function gameIOnlineSystem:GetStatus() return end
+function gameIOnlineSystem:GetStatus() end
 
 ---@return gameRewardPack[]
-function gameIOnlineSystem:GetUnlockedRewardPacks() return end
+function gameIOnlineSystem:GetUnlockedRewardPacks() end
 
 ---@param rewardRecord gamedataGOGReward_Record
 ---@return Bool
-function gameIOnlineSystem:IsRewardUnlocked(rewardRecord) return end
+function gameIOnlineSystem:IsRewardUnlocked(rewardRecord) end
 
 ---@return nil
-function gameIOnlineSystem:RequestInitialStatus() return end
+function gameIOnlineSystem:RequestInitialStatus() end
 
 ---@return nil
-function gameIOnlineSystem:SignOut() return end
+function gameIOnlineSystem:SignOut() end

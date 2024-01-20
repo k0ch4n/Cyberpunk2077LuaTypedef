@@ -6,23 +6,22 @@ AISubActionActivateLightPreset_Record_Implementation = {}
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionActivateLightPreset_Record
 ---@return nil
-function AISubActionActivateLightPreset_Record_Implementation.Activate(context, record) return end
+function AISubActionActivateLightPreset_Record_Implementation.Activate(context, record) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionActivateLightPreset_Record
 ---@return nil
-function AISubActionActivateLightPreset_Record_Implementation.ActivateLightPreset(context, record) return end
+function AISubActionActivateLightPreset_Record_Implementation.ActivateLightPreset(context, record) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionActivateLightPreset_Record
 ---@param duration Float
 ---@param interrupted Bool
 ---@return nil
-function AISubActionActivateLightPreset_Record_Implementation.Deactivate(context, record, duration, interrupted) return end
+function AISubActionActivateLightPreset_Record_Implementation.Deactivate(context, record, duration, interrupted) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionActivateLightPreset_Record
 ---@param duration Float
 ---@return AIbehaviorUpdateOutcome
-function AISubActionActivateLightPreset_Record_Implementation.Update(context, record, duration) return end
+function AISubActionActivateLightPreset_Record_Implementation.Update(context, record, duration) end

@@ -5,4 +5,4 @@ animAnimNodeSourceChannel_SocketVector = {}
 
 ---@param fields? animAnimNodeSourceChannel_SocketVector
 ---@return animAnimNodeSourceChannel_SocketVector
-function animAnimNodeSourceChannel_SocketVector.new(fields) return end
+function animAnimNodeSourceChannel_SocketVector.new(fields) end

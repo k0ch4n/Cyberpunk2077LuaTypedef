@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class interopRTTIClassDumpEntry
----@field public i Int32
----@field public b Int32
----@field public r Int32
----@field public a Int32
+---@field i Int32
+---@field b Int32
+---@field r Int32
+---@field a Int32
 interopRTTIClassDumpEntry = {}
 
 ---@param fields? interopRTTIClassDumpEntry
 ---@return interopRTTIClassDumpEntry
-function interopRTTIClassDumpEntry.new(fields) return end
+function interopRTTIClassDumpEntry.new(fields) end

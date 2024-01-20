@@ -5,7 +5,7 @@ MovableDeviceController = {}
 
 ---@param fields? MovableDeviceController
 ---@return MovableDeviceController
-function MovableDeviceController.new(fields) return end
+function MovableDeviceController.new(fields) end
 
 ---@return MovableDeviceControllerPS
-function MovableDeviceController:GetPS() return end
+function MovableDeviceController:GetPS() end

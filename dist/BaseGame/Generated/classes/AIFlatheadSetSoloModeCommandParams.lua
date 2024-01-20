@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AIFlatheadSetSoloModeCommandParams: questScriptedAICommandParams
----@field public soloMode Bool
+---@field soloMode Bool
 AIFlatheadSetSoloModeCommandParams = {}
 
 ---@param fields? AIFlatheadSetSoloModeCommandParams
 ---@return AIFlatheadSetSoloModeCommandParams
-function AIFlatheadSetSoloModeCommandParams.new(fields) return end
+function AIFlatheadSetSoloModeCommandParams.new(fields) end
 
 ---@return AICommand
-function AIFlatheadSetSoloModeCommandParams:CreateCommand() return end
+function AIFlatheadSetSoloModeCommandParams:CreateCommand() end
 
 ---@return String
-function AIFlatheadSetSoloModeCommandParams:GetCommandName() return end
+function AIFlatheadSetSoloModeCommandParams:GetCommandName() end

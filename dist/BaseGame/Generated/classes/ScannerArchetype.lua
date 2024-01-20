@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerArchetype: ScannerChunk
----@field private archetype gamedataArchetypeType
+---@field archetype gamedataArchetypeType
 ScannerArchetype = {}
 
 ---@param fields? ScannerArchetype
 ---@return ScannerArchetype
-function ScannerArchetype.new(fields) return end
+function ScannerArchetype.new(fields) end
 
 ---@return gamedataArchetypeType
-function ScannerArchetype:GetArchtype() return end
+function ScannerArchetype:GetArchtype() end
 
 ---@return ScannerDataType
-function ScannerArchetype:GetType() return end
+function ScannerArchetype:GetType() end
 
 ---@param a gamedataArchetypeType
 ---@return nil
-function ScannerArchetype:Set(a) return end
+function ScannerArchetype:Set(a) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleInitializerSize: IParticleInitializer
----@field public size IEvaluatorVector
----@field public scale Float
+---@field size IEvaluatorVector
+---@field scale Float
 CParticleInitializerSize = {}
 
 ---@param fields? CParticleInitializerSize
 ---@return CParticleInitializerSize
-function CParticleInitializerSize.new(fields) return end
+function CParticleInitializerSize.new(fields) end

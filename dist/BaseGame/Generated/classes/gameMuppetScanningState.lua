@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetScanningState
----@field public isScanning Bool
+---@field isScanning Bool
 gameMuppetScanningState = {}
 
 ---@param fields? gameMuppetScanningState
 ---@return gameMuppetScanningState
-function gameMuppetScanningState.new(fields) return end
+function gameMuppetScanningState.new(fields) end

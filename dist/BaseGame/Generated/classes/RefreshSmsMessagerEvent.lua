@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RefreshSmsMessagerEvent: redEvent
----@field public data JournalNotificationData
+---@field data JournalNotificationData
 RefreshSmsMessagerEvent = {}
 
 ---@param fields? RefreshSmsMessagerEvent
 ---@return RefreshSmsMessagerEvent
-function RefreshSmsMessagerEvent.new(fields) return end
+function RefreshSmsMessagerEvent.new(fields) end

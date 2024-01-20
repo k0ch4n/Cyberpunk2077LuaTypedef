@@ -1,108 +1,91 @@
 ---@meta
 
 ---@class SoundSystemControllerPS: MasterControllerPS
----@field protected defaultAction Int32
----@field protected soundSystemSettings SoundSystemSettings[]
----@field protected currentEvent ChangeMusicAction
----@field protected cachedEvent ChangeMusicAction
+---@field defaultAction Int32
+---@field soundSystemSettings SoundSystemSettings[]
+---@field currentEvent ChangeMusicAction
+---@field cachedEvent ChangeMusicAction
 SoundSystemControllerPS = {}
 
 ---@param fields? SoundSystemControllerPS
 ---@return SoundSystemControllerPS
-function SoundSystemControllerPS.new(fields) return end
+function SoundSystemControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SoundSystemControllerPS:OnInstantiated() return end
+function SoundSystemControllerPS:OnInstantiated() end
 
----@protected
 ---@param settings SoundSystemSettings
 ---@return ChangeMusicAction
-function SoundSystemControllerPS:ActionChangeMusic(settings) return end
+function SoundSystemControllerPS:ActionChangeMusic(settings) end
 
----@protected
 ---@return Bool
-function SoundSystemControllerPS:CanCreateAnyQuickHackActions() return end
+function SoundSystemControllerPS:CanCreateAnyQuickHackActions() end
 
----@private
 ---@param settings MusicSettings
 ---@return nil
-function SoundSystemControllerPS:EvaluateQuickHacksAvailability(settings) return end
+function SoundSystemControllerPS:EvaluateQuickHacksAvailability(settings) end
 
----@protected
 ---@return nil
-function SoundSystemControllerPS:GameAttached() return end
+function SoundSystemControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function SoundSystemControllerPS:GetActions(context) return end
+function SoundSystemControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function SoundSystemControllerPS:GetBackgroundTextureTweakDBID() return end
+function SoundSystemControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SoundSystemControllerPS:GetDeviceIconTweakDBID() return end
-
----@protected
----@param context gameGetActionsContext
----@return nil, gamedeviceAction[] outActions
-function SoundSystemControllerPS:GetQuickHackActions(context) return end
+function SoundSystemControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function SoundSystemControllerPS:GetQuickHackActionsExternal(context) return end
+function SoundSystemControllerPS:GetQuickHackActions(context) end
 
----@protected
+---@param context gameGetActionsContext
+---@return nil, gamedeviceAction[] outActions
+function SoundSystemControllerPS:GetQuickHackActionsExternal(context) end
+
 ---@return nil
-function SoundSystemControllerPS:Initialize() return end
+function SoundSystemControllerPS:Initialize() end
 
 ---@param evt ChangeMusicAction
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnChangeMusicAction(evt) return end
+function SoundSystemControllerPS:OnChangeMusicAction(evt) end
 
----@protected
 ---@param evt QuestForceOFF
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnQuestForceOFF(evt) return end
+function SoundSystemControllerPS:OnQuestForceOFF(evt) end
 
----@protected
 ---@param evt QuestForceON
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnQuestForceON(evt) return end
+function SoundSystemControllerPS:OnQuestForceON(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnRefreshSlavesEvent(evt) return end
+function SoundSystemControllerPS:OnRefreshSlavesEvent(evt) end
 
----@protected
 ---@param evt RefreshSlavesState
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnRefreshSlavesState(evt) return end
+function SoundSystemControllerPS:OnRefreshSlavesState(evt) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnSetDeviceOFF(evt) return end
+function SoundSystemControllerPS:OnSetDeviceOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnSetDeviceON(evt) return end
+function SoundSystemControllerPS:OnSetDeviceON(evt) end
 
 ---@param evt ToggleON
 ---@return EntityNotificationType
-function SoundSystemControllerPS:OnToggleON(evt) return end
-
----@private
----@return nil
-function SoundSystemControllerPS:RefreshSlaves() return end
-
----@private
----@return nil
-function SoundSystemControllerPS:RefreshSlavesState() return end
+function SoundSystemControllerPS:OnToggleON(evt) end
 
 ---@return nil
-function SoundSystemControllerPS:RefreshSlavesState_Event() return end
+function SoundSystemControllerPS:RefreshSlaves() end
+
+---@return nil
+function SoundSystemControllerPS:RefreshSlavesState() end
+
+---@return nil
+function SoundSystemControllerPS:RefreshSlavesState_Event() end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class UploadProgramProgressEvent: redEvent
----@field public state EUploadProgramState
----@field public progressBarType EProgressBarType
----@field public progressBarContext EProgressBarContext
----@field public duration Float
----@field public iconRecord gamedataChoiceCaptionIconPart_Record
----@field public action ScriptableDeviceAction
----@field public deviceActionQueue DeviceActionQueue
----@field public slotName CName
----@field public statPoolType gamedataStatPoolType
+---@field state EUploadProgramState
+---@field progressBarType EProgressBarType
+---@field progressBarContext EProgressBarContext
+---@field duration Float
+---@field iconRecord gamedataChoiceCaptionIconPart_Record
+---@field action ScriptableDeviceAction
+---@field deviceActionQueue DeviceActionQueue
+---@field slotName CName
+---@field statPoolType gamedataStatPoolType
 UploadProgramProgressEvent = {}
 
 ---@param fields? UploadProgramProgressEvent
 ---@return UploadProgramProgressEvent
-function UploadProgramProgressEvent.new(fields) return end
+function UploadProgramProgressEvent.new(fields) end

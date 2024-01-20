@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class WorldMapTooltipData
----@field public controller gameuiBaseWorldMapMappinController
----@field public mappin gamemappinsIMappin
----@field public journalEntry gameJournalEntry
----@field public fastTravelEnabled Bool
----@field public readJournal Bool
----@field public moreInfo Bool
----@field public isCollection Bool
+---@field controller gameuiBaseWorldMapMappinController
+---@field mappin gamemappinsIMappin
+---@field journalEntry gameJournalEntry
+---@field fastTravelEnabled Bool
+---@field readJournal Bool
+---@field moreInfo Bool
+---@field isCollection Bool
 WorldMapTooltipData = {}
 
 ---@param fields? WorldMapTooltipData
 ---@return WorldMapTooltipData
-function WorldMapTooltipData.new(fields) return end
+function WorldMapTooltipData.new(fields) end

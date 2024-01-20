@@ -1,84 +1,84 @@
 ---@meta
 
 ---@class inkVideoWidget: inkLeafWidget
----@field public videoResource Bink
----@field public loop Bool
----@field public overriddenPlayerName CName
----@field public isParallaxEnabled Bool
----@field public prefetchVideo Bool
+---@field videoResource Bink
+---@field loop Bool
+---@field overriddenPlayerName CName
+---@field isParallaxEnabled Bool
+---@field prefetchVideo Bool
 inkVideoWidget = {}
 
 ---@param fields? inkVideoWidget
 ---@return inkVideoWidget
-function inkVideoWidget.new(fields) return end
+function inkVideoWidget.new(fields) end
 
 ---@param numberOfFrames Uint32
 ---@return nil
-function inkVideoWidget:FastForwardTo(numberOfFrames) return end
+function inkVideoWidget:FastForwardTo(numberOfFrames) end
 
 ---@param forceVideoFrameRate Bool
 ---@return nil
-function inkVideoWidget:ForceVideoFrameRate(forceVideoFrameRate) return end
+function inkVideoWidget:ForceVideoFrameRate(forceVideoFrameRate) end
 
 ---@return inkVideoWidgetSummary
-function inkVideoWidget:GetVideoWidgetSummary() return end
+function inkVideoWidget:GetVideoWidgetSummary() end
 
 ---@return Bool
-function inkVideoWidget:IsParallaxEnabled() return end
+function inkVideoWidget:IsParallaxEnabled() end
 
 ---@return Bool
-function inkVideoWidget:IsPaused() return end
+function inkVideoWidget:IsPaused() end
 
 ---@return Bool
-function inkVideoWidget:IsPlayingVideo() return end
+function inkVideoWidget:IsPlayingVideo() end
 
 ---@param frameNumber Uint32
 ---@return nil
-function inkVideoWidget:JumpToFrame(frameNumber) return end
+function inkVideoWidget:JumpToFrame(frameNumber) end
 
 ---@param timeInSeconds Float
 ---@return nil
-function inkVideoWidget:JumpToTime(timeInSeconds) return end
+function inkVideoWidget:JumpToTime(timeInSeconds) end
 
 ---@return nil
-function inkVideoWidget:Pause() return end
+function inkVideoWidget:Pause() end
 
 ---@return nil
-function inkVideoWidget:Play() return end
+function inkVideoWidget:Play() end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@return nil
-function inkVideoWidget:PreloadNextVideo(videoPath) return end
+function inkVideoWidget:PreloadNextVideo(videoPath) end
 
 ---@return nil
-function inkVideoWidget:Resume() return end
+function inkVideoWidget:Resume() end
 
 ---@param numberOfFrames Uint32
 ---@return nil
-function inkVideoWidget:RewindTo(numberOfFrames) return end
+function inkVideoWidget:RewindTo(numberOfFrames) end
 
 ---@param audioEvent CName|string
 ---@return nil
-function inkVideoWidget:SetAudioEvent(audioEvent) return end
+function inkVideoWidget:SetAudioEvent(audioEvent) end
 
 ---@param isLooped Bool
 ---@return nil
-function inkVideoWidget:SetLoop(isLooped) return end
+function inkVideoWidget:SetLoop(isLooped) end
 
 ---@param syncToAudio Bool
 ---@return nil
-function inkVideoWidget:SetSyncToAudio(syncToAudio) return end
+function inkVideoWidget:SetSyncToAudio(syncToAudio) end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@return nil
-function inkVideoWidget:SetVideoPath(videoPath) return end
+function inkVideoWidget:SetVideoPath(videoPath) end
 
 ---@param numberOfFrames Int32
 ---@return nil
-function inkVideoWidget:SkipFrames(numberOfFrames) return end
+function inkVideoWidget:SkipFrames(numberOfFrames) end
 
 ---@return nil
-function inkVideoWidget:Stop() return end
+function inkVideoWidget:Stop() end
 
 ---@return nil
-function inkVideoWidget:StopInstance() return end
+function inkVideoWidget:StopInstance() end

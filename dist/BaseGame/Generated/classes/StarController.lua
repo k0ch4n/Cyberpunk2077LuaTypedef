@@ -1,64 +1,60 @@
 ---@meta
 
 ---@class StarController: inkWidgetLogicController
----@field private animIntroProxy inkanimProxy
----@field private animIntroOptions inkanimPlaybackOptions
----@field private rootWidget inkWidget
----@field private animBlink inkanimDefinition
----@field private animBlinkProxy inkanimProxy
----@field private animBlinkOptions inkanimPlaybackOptions
----@field private animBlinkLoops Uint32[]
----@field private animBlinkLastStage Int32
----@field private blinkAnimLoopType inkanimLoopType
----@field private blinkDuration Float
----@field private bountyBadgeWidget inkWidgetReference
----@field private blinkSpeed1 Float
----@field private blinkSpeed2 Float
----@field private blinkSpeed3 Float
----@field private blinkAnimInterpolationMode inkanimInterpolationMode
----@field private blinkAnimInterpolationType inkanimInterpolationType
----@field private icon inkImageWidgetReference
----@field private iconBg inkImageWidgetReference
----@field private ncpdIconName CName
----@field private ncpdIconBgName CName
----@field private dogtownIconName CName
----@field private dogtownIconBgName CName
+---@field animIntroProxy inkanimProxy
+---@field animIntroOptions inkanimPlaybackOptions
+---@field rootWidget inkWidget
+---@field animBlink inkanimDefinition
+---@field animBlinkProxy inkanimProxy
+---@field animBlinkOptions inkanimPlaybackOptions
+---@field animBlinkLoops Uint32[]
+---@field animBlinkLastStage Int32
+---@field blinkAnimLoopType inkanimLoopType
+---@field blinkDuration Float
+---@field bountyBadgeWidget inkWidgetReference
+---@field blinkSpeed1 Float
+---@field blinkSpeed2 Float
+---@field blinkSpeed3 Float
+---@field blinkAnimInterpolationMode inkanimInterpolationMode
+---@field blinkAnimInterpolationType inkanimInterpolationType
+---@field icon inkImageWidgetReference
+---@field iconBg inkImageWidgetReference
+---@field ncpdIconName CName
+---@field ncpdIconBgName CName
+---@field dogtownIconName CName
+---@field dogtownIconBgName CName
 StarController = {}
 
 ---@param fields? StarController
 ---@return StarController
-function StarController.new(fields) return end
+function StarController.new(fields) end
 
----@protected
 ---@param animProxy inkanimProxy
 ---@return Bool
-function StarController:OnBlinkLoopFinished(animProxy) return end
+function StarController:OnBlinkLoopFinished(animProxy) end
 
----@protected
 ---@return Bool
-function StarController:OnInitialize() return end
+function StarController:OnInitialize() end
 
----@private
 ---@return nil
-function StarController:CreateBlinkAnimation() return end
+function StarController:CreateBlinkAnimation() end
 
----@private
 ---@param stage Int32
 ---@return nil
-function StarController:PlayBlink(stage) return end
+function StarController:PlayBlink(stage) end
 
 ---@param arg Bool
 ---@return nil
-function StarController:SetBounty(arg) return end
+function StarController:SetBounty(arg) end
 
 ---@param timeTotal Float
 ---@param stages Int32
 ---@return nil
-function StarController:StartBlink(timeTotal, stages) return end
+function StarController:StartBlink(timeTotal, stages) end
 
 ---@return nil
-function StarController:StopBlink() return end
+function StarController:StopBlink() end
 
 ---@param newState CName|string
 ---@return nil
-function StarController:UpdateState(newState) return end
+function StarController:UpdateState(newState) end

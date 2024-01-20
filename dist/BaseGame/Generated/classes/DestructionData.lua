@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DestructionData
----@field public durabilityType EDeviceDurabilityType
----@field public canBeFixed Bool
+---@field durabilityType EDeviceDurabilityType
+---@field canBeFixed Bool
 DestructionData = {}
 
 ---@param fields? DestructionData
 ---@return DestructionData
-function DestructionData.new(fields) return end
+function DestructionData.new(fields) end

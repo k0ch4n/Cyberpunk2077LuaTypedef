@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class sampleUIAnchorButton: inkWidgetLogicController
----@field public anchorLocation inkEAnchor
+---@field anchorLocation inkEAnchor
 sampleUIAnchorButton = {}
 
 ---@param fields? sampleUIAnchorButton
 ---@return sampleUIAnchorButton
-function sampleUIAnchorButton.new(fields) return end
+function sampleUIAnchorButton.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUIAnchorButton:OnInitialize() return end
+function sampleUIAnchorButton:OnInitialize() end

@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class VendorItemVirtualController: inkVirtualCompoundItemController
----@field public data VendorInventoryItemData
----@field public newData VendorUIInventoryItemData
----@field public itemViewController InventoryItemDisplayController
----@field public isSpawnInProgress Bool
+---@field data VendorInventoryItemData
+---@field newData VendorUIInventoryItemData
+---@field itemViewController InventoryItemDisplayController
+---@field isSpawnInProgress Bool
 VendorItemVirtualController = {}
 
 ---@param fields? VendorItemVirtualController
 ---@return VendorItemVirtualController
-function VendorItemVirtualController.new(fields) return end
+function VendorItemVirtualController.new(fields) end
 
----@protected
 ---@return Bool
-function VendorItemVirtualController:OnInitialize() return end
+function VendorItemVirtualController:OnInitialize() end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function VendorItemVirtualController:OnSelected(itemController, discreteNav) return end
+function VendorItemVirtualController:OnSelected(itemController, discreteNav) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function VendorItemVirtualController:OnSpawned(widget, userData) return end
+function VendorItemVirtualController:OnSpawned(widget, userData) end
 
 ---@param value Variant
 ---@return nil
-function VendorItemVirtualController:OnDataChanged(value) return end
+function VendorItemVirtualController:OnDataChanged(value) end
 
----@private
 ---@return nil
-function VendorItemVirtualController:UpdateControllerData() return end
+function VendorItemVirtualController:UpdateControllerData() end

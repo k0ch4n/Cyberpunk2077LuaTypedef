@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class vehicleWheelRuntimePSData
----@field public previousTouchedMaterial CName
----@field public previousVisualDisplacement Float
----@field public previousLogicalSpringCompression Float
----@field public previousSwaybarDisplacement Float
----@field public previousDampedSpringForce Float
+---@field previousTouchedMaterial CName
+---@field previousVisualDisplacement Float
+---@field previousLogicalSpringCompression Float
+---@field previousSwaybarDisplacement Float
+---@field previousDampedSpringForce Float
 vehicleWheelRuntimePSData = {}
 
 ---@param fields? vehicleWheelRuntimePSData
 ---@return vehicleWheelRuntimePSData
-function vehicleWheelRuntimePSData.new(fields) return end
+function vehicleWheelRuntimePSData.new(fields) end

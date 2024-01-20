@@ -1,208 +1,176 @@
 ---@meta
 
 ---@class VendorHubMenuGameController: gameuiMenuGameController
----@field private notificationRoot inkWidgetReference
----@field private tabRootContainer inkWidgetReference
----@field private tabRootRef inkWidgetReference
----@field private playerCredits inkWidgetReference
----@field private playerCreditsValue inkTextWidgetReference
----@field private playerWeight inkWidgetReference
----@field private playerWeightValue inkTextWidgetReference
----@field private vendorShopLabel inkTextWidgetReference
----@field private levelValue inkTextWidgetReference
----@field private streetCredLabel inkTextWidgetReference
----@field private levelBarProgress inkWidgetReference
----@field private levelBarSpacer inkWidgetReference
----@field private streetCredBarProgress inkWidgetReference
----@field private streetCredBarSpacer inkWidgetReference
----@field private VendorDataManager VendorDataManager
----@field private vendorUserData VendorUserData
----@field private vendorPanelData questVendorPanelData
----@field private storageUserData StorageUserData
----@field private PDS PlayerDevelopmentSystem
----@field private root inkWidget
----@field private tabRoot TabRadioGroup
----@field private playerMoneyAnimator MoneyLabelController
----@field private isRipperdoc Bool
----@field private isRipperdocViktorTutorial Bool
----@field private statusEffectSystem gameStatusEffectSystem
----@field private questSystem questQuestsSystem
----@field private ripperdocTimeDilationCallback RipperdocTimeDilationCallback
----@field private timeDilationEnabling Bool
----@field private equipAnimationCategories RipperdocCyberwareEquipAnimationCategory[]
----@field public VendorBlackboard gameIBlackboard
----@field public playerStatsBlackboard gameIBlackboard
----@field public VendorBlackboardDef UI_VendorDef
----@field public VendorUpdatedCallbackID redCallbackObject
----@field public weightListener redCallbackObject
----@field public characterLevelListener redCallbackObject
----@field public characterCurrentXPListener redCallbackObject
----@field public characterCredListener redCallbackObject
----@field public characterCredPointsListener redCallbackObject
----@field public characterCurrentHealthListener redCallbackObject
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private player PlayerPuppet
----@field private menuData MenuData[]
----@field private activeMenu Int32
----@field private isChangedManually Bool
----@field private cameFromRipperdoc Bool
----@field private storageDef StorageBlackboardDef
----@field private storageBlackboard gameIBlackboard
+---@field notificationRoot inkWidgetReference
+---@field tabRootContainer inkWidgetReference
+---@field tabRootRef inkWidgetReference
+---@field playerCredits inkWidgetReference
+---@field playerCreditsValue inkTextWidgetReference
+---@field playerWeight inkWidgetReference
+---@field playerWeightValue inkTextWidgetReference
+---@field vendorShopLabel inkTextWidgetReference
+---@field levelValue inkTextWidgetReference
+---@field streetCredLabel inkTextWidgetReference
+---@field levelBarProgress inkWidgetReference
+---@field levelBarSpacer inkWidgetReference
+---@field streetCredBarProgress inkWidgetReference
+---@field streetCredBarSpacer inkWidgetReference
+---@field VendorDataManager VendorDataManager
+---@field vendorUserData VendorUserData
+---@field vendorPanelData questVendorPanelData
+---@field storageUserData StorageUserData
+---@field PDS PlayerDevelopmentSystem
+---@field root inkWidget
+---@field tabRoot TabRadioGroup
+---@field playerMoneyAnimator MoneyLabelController
+---@field isRipperdoc Bool
+---@field isRipperdocViktorTutorial Bool
+---@field statusEffectSystem gameStatusEffectSystem
+---@field questSystem questQuestsSystem
+---@field ripperdocTimeDilationCallback RipperdocTimeDilationCallback
+---@field timeDilationEnabling Bool
+---@field equipAnimationCategories RipperdocCyberwareEquipAnimationCategory[]
+---@field VendorBlackboard gameIBlackboard
+---@field playerStatsBlackboard gameIBlackboard
+---@field VendorBlackboardDef UI_VendorDef
+---@field VendorUpdatedCallbackID redCallbackObject
+---@field weightListener redCallbackObject
+---@field characterLevelListener redCallbackObject
+---@field characterCurrentXPListener redCallbackObject
+---@field characterCredListener redCallbackObject
+---@field characterCredPointsListener redCallbackObject
+---@field characterCurrentHealthListener redCallbackObject
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field player PlayerPuppet
+---@field menuData MenuData[]
+---@field activeMenu Int32
+---@field isChangedManually Bool
+---@field cameFromRipperdoc Bool
+---@field storageDef StorageBlackboardDef
+---@field storageBlackboard gameIBlackboard
 VendorHubMenuGameController = {}
 
 ---@param fields? VendorHubMenuGameController
 ---@return VendorHubMenuGameController
-function VendorHubMenuGameController.new(fields) return end
+function VendorHubMenuGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function VendorHubMenuGameController:OnButtonRelease(evt) return end
+function VendorHubMenuGameController:OnButtonRelease(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VendorHubMenuGameController:OnCharacterCurrentHealthUpdated(value) return end
+function VendorHubMenuGameController:OnCharacterCurrentHealthUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VendorHubMenuGameController:OnCharacterLevelCurrentXPUpdated(value) return end
+function VendorHubMenuGameController:OnCharacterLevelCurrentXPUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VendorHubMenuGameController:OnCharacterLevelUpdated(value) return end
+function VendorHubMenuGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VendorHubMenuGameController:OnCharacterStreetCredLevelUpdated(value) return end
+function VendorHubMenuGameController:OnCharacterStreetCredLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VendorHubMenuGameController:OnCharacterStreetCredPointsUpdated(value) return end
+function VendorHubMenuGameController:OnCharacterStreetCredPointsUpdated(value) end
 
----@protected
 ---@param evt CyberwareTabModsRequest
 ---@return Bool
-function VendorHubMenuGameController:OnCyberwareModsRequest(evt) return end
+function VendorHubMenuGameController:OnCyberwareModsRequest(evt) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function VendorHubMenuGameController:OnEquipAnimationDataUpdate(userData) return end
+function VendorHubMenuGameController:OnEquipAnimationDataUpdate(userData) end
 
----@protected
 ---@return Bool
-function VendorHubMenuGameController:OnInitialize() return end
+function VendorHubMenuGameController:OnInitialize() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function VendorHubMenuGameController:OnPlayerWeightUpdated(value) return end
+function VendorHubMenuGameController:OnPlayerWeightUpdated(value) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function VendorHubMenuGameController:OnRefreshCurrentTab(userData) return end
+function VendorHubMenuGameController:OnRefreshCurrentTab(userData) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function VendorHubMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function VendorHubMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function VendorHubMenuGameController:OnSetUserData(userData) return end
+function VendorHubMenuGameController:OnSetUserData(userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function VendorHubMenuGameController:OnSwitchToCharacterFromRipperdoc(userData) return end
+function VendorHubMenuGameController:OnSwitchToCharacterFromRipperdoc(userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function VendorHubMenuGameController:OnTutorialComplete(userData) return end
+function VendorHubMenuGameController:OnTutorialComplete(userData) end
 
----@protected
 ---@return Bool
-function VendorHubMenuGameController:OnUninitialize() return end
+function VendorHubMenuGameController:OnUninitialize() end
 
----@protected
 ---@param controller inkRadioGroupController
 ---@param selectedIndex Int32
 ---@return Bool
-function VendorHubMenuGameController:OnValueChanged(controller, selectedIndex) return end
+function VendorHubMenuGameController:OnValueChanged(controller, selectedIndex) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function VendorHubMenuGameController:OnVendorUpdated(value) return end
+function VendorHubMenuGameController:OnVendorUpdated(value) end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:CloseVendor() return end
+function VendorHubMenuGameController:CloseVendor() end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:FinalizeEquipAnimationData() return end
+function VendorHubMenuGameController:FinalizeEquipAnimationData() end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:Init() return end
+function VendorHubMenuGameController:Init() end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:InitializeEquipAnimationData() return end
+function VendorHubMenuGameController:InitializeEquipAnimationData() end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:InitializeExtraRipperdocData() return end
+function VendorHubMenuGameController:InitializeExtraRipperdocData() end
 
----@private
 ---@param item HubVendorMenuItems
 ---@return nil
-function VendorHubMenuGameController:NotifyActivePanel(item) return end
+function VendorHubMenuGameController:NotifyActivePanel(item) end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:RemoveBB() return end
+function VendorHubMenuGameController:RemoveBB() end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:ResetEquipAnimationData() return end
+function VendorHubMenuGameController:ResetEquipAnimationData() end
 
 ---@param enable Bool
 ---@return nil
-function VendorHubMenuGameController:SetTimeDilatation(enable) return end
+function VendorHubMenuGameController:SetTimeDilatation(enable) end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:SetupBB() return end
+function VendorHubMenuGameController:SetupBB() end
 
----@private
 ---@param tutorialFinished Bool
 ---@return nil
-function VendorHubMenuGameController:SetupMenuTabs(tutorialFinished) return end
+function VendorHubMenuGameController:SetupMenuTabs(tutorialFinished) end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:SetupTopBar() return end
+function VendorHubMenuGameController:SetupTopBar() end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:UninitializeExtraRipperdocData() return end
+function VendorHubMenuGameController:UninitializeExtraRipperdocData() end
 
----@private
 ---@param equipArea gamedataEquipmentArea
 ---@param isEquip Bool
 ---@return nil
-function VendorHubMenuGameController:UpdateEquipAnimationData(equipArea, isEquip) return end
+function VendorHubMenuGameController:UpdateEquipAnimationData(equipArea, isEquip) end
 
----@private
 ---@return nil
-function VendorHubMenuGameController:UpdateMoney() return end
+function VendorHubMenuGameController:UpdateMoney() end

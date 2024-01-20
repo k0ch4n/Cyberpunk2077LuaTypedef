@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VehicleQuestEnableUIEvent: redEvent
----@field public mode vehicleQuestUIEnable
+---@field mode vehicleQuestUIEnable
 VehicleQuestEnableUIEvent = {}
 
 ---@param fields? VehicleQuestEnableUIEvent
 ---@return VehicleQuestEnableUIEvent
-function VehicleQuestEnableUIEvent.new(fields) return end
+function VehicleQuestEnableUIEvent.new(fields) end
 
 ---@return String
-function VehicleQuestEnableUIEvent:GetFriendlyDescription() return end
+function VehicleQuestEnableUIEvent:GetFriendlyDescription() end

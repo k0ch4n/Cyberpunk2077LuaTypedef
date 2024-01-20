@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class WardrobeSetEditorUIDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public owner WardrobeSetEditorUIController
+---@field owner WardrobeSetEditorUIController
 WardrobeSetEditorUIDelayCallback = {}
 
 ---@param fields? WardrobeSetEditorUIDelayCallback
 ---@return WardrobeSetEditorUIDelayCallback
-function WardrobeSetEditorUIDelayCallback.new(fields) return end
+function WardrobeSetEditorUIDelayCallback.new(fields) end
 
 ---@return nil
-function WardrobeSetEditorUIDelayCallback:Call() return end
+function WardrobeSetEditorUIDelayCallback:Call() end

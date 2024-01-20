@@ -5,4 +5,4 @@ QuickHackEvent = {}
 
 ---@param fields? QuickHackEvent
 ---@return QuickHackEvent
-function QuickHackEvent.new(fields) return end
+function QuickHackEvent.new(fields) end

@@ -5,7 +5,7 @@ LootContainerAccessPointController = {}
 
 ---@param fields? LootContainerAccessPointController
 ---@return LootContainerAccessPointController
-function LootContainerAccessPointController.new(fields) return end
+function LootContainerAccessPointController.new(fields) end
 
 ---@return LootContainerAccessPointControllerPS
-function LootContainerAccessPointController:GetPS() return end
+function LootContainerAccessPointController:GetPS() end

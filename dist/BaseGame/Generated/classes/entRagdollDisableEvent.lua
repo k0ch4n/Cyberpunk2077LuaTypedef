@@ -5,8 +5,8 @@ entRagdollDisableEvent = {}
 
 ---@param fields? entRagdollDisableEvent
 ---@return entRagdollDisableEvent
-function entRagdollDisableEvent.new(fields) return end
+function entRagdollDisableEvent.new(fields) end
 
 ---@param debugSourceName CName|string
 ---@return nil
-function entRagdollDisableEvent:DebugSetSourceName(debugSourceName) return end
+function entRagdollDisableEvent:DebugSetSourceName(debugSourceName) end

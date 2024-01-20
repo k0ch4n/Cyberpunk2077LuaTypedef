@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class PassiveGlobalDeathCondition: AIbehaviorexpressionScript
----@field protected onDeathCbId Uint32
+---@field onDeathCbId Uint32
 PassiveGlobalDeathCondition = {}
 
 ---@param fields? PassiveGlobalDeathCondition
 ---@return PassiveGlobalDeathCondition
-function PassiveGlobalDeathCondition.new(fields) return end
+function PassiveGlobalDeathCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveGlobalDeathCondition:Activate(context) return end
+function PassiveGlobalDeathCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveGlobalDeathCondition:CalculateValue(context) return end
+function PassiveGlobalDeathCondition:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveGlobalDeathCondition:Deactivate(context) return end
+function PassiveGlobalDeathCondition:Deactivate(context) end

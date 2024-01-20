@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class questSpawnManagerNodeType: questIRetNodeType
----@field public action populationSpawnerObjectCtrlAction
+---@field action populationSpawnerObjectCtrlAction
 questSpawnManagerNodeType = {}

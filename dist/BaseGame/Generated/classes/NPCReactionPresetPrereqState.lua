@@ -5,4 +5,4 @@ NPCReactionPresetPrereqState = {}
 
 ---@param fields? NPCReactionPresetPrereqState
 ---@return NPCReactionPresetPrereqState
-function NPCReactionPresetPrereqState.new(fields) return end
+function NPCReactionPresetPrereqState.new(fields) end

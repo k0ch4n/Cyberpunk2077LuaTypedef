@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class questvehicleRacingParams: questVehicleSpecificCommandParams
----@field public splineRef NodeRef
----@field public preciseLevel Float
----@field public reverseSpline Bool
----@field public backwards Bool
----@field public closest Bool
----@field public rubberBanding Bool
----@field public rubberBandingParam questParamRubberbanding
+---@field splineRef NodeRef
+---@field preciseLevel Float
+---@field reverseSpline Bool
+---@field backwards Bool
+---@field closest Bool
+---@field rubberBanding Bool
+---@field rubberBandingParam questParamRubberbanding
 questvehicleRacingParams = {}
 
 ---@param fields? questvehicleRacingParams
 ---@return questvehicleRacingParams
-function questvehicleRacingParams.new(fields) return end
+function questvehicleRacingParams.new(fields) end

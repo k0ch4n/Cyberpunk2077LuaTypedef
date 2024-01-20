@@ -1,59 +1,51 @@
 ---@meta
 
 ---@class CombatGadgetChargeEvents: CombatGadgetTransitions
----@field public initiated Bool
----@field public itemSwitched Bool
+---@field initiated Bool
+---@field itemSwitched Bool
 CombatGadgetChargeEvents = {}
 
 ---@param fields? CombatGadgetChargeEvents
 ---@return CombatGadgetChargeEvents
-function CombatGadgetChargeEvents.new(fields) return end
+function CombatGadgetChargeEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargeEvents:OnEnter(stateContext, scriptInterface) return end
+function CombatGadgetChargeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargeEvents:OnExitToCombatGadgetChargedThrow(stateContext, scriptInterface) return end
+function CombatGadgetChargeEvents:OnExitToCombatGadgetChargedThrow(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargeEvents:OnExitToCombatGadgetEquip(stateContext, scriptInterface) return end
+function CombatGadgetChargeEvents:OnExitToCombatGadgetEquip(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargeEvents:OnExitToCombatGadgetUnequip(stateContext, scriptInterface) return end
+function CombatGadgetChargeEvents:OnExitToCombatGadgetUnequip(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargeEvents:OnExitToCombatGadgetWaitForUnequip(stateContext, scriptInterface) return end
+function CombatGadgetChargeEvents:OnExitToCombatGadgetWaitForUnequip(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function CombatGadgetChargeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function CombatGadgetChargeEvents:RemoveActiveStimuli(owner) return end
+function CombatGadgetChargeEvents:RemoveActiveStimuli(owner) end
 
----@protected
 ---@param on Bool
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function CombatGadgetChargeEvents:TogglePreview(on, scriptInterface, stateContext) return end
+function CombatGadgetChargeEvents:TogglePreview(on, scriptInterface, stateContext) end

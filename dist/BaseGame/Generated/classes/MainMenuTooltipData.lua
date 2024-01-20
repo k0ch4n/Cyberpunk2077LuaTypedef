@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class MainMenuTooltipData: IScriptable
----@field public identifier CName
----@field public data ATooltipData
----@field public targetWidget inkWidget
----@field public placement gameuiETooltipPlacement
+---@field identifier CName
+---@field data ATooltipData
+---@field targetWidget inkWidget
+---@field placement gameuiETooltipPlacement
 MainMenuTooltipData = {}
 
 ---@param fields? MainMenuTooltipData
 ---@return MainMenuTooltipData
-function MainMenuTooltipData.new(fields) return end
+function MainMenuTooltipData.new(fields) end

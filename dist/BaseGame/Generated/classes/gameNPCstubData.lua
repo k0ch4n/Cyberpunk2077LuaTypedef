@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameNPCstubData
----@field public spawnerID entEntityID
----@field public entryID CName
+---@field spawnerID entEntityID
+---@field entryID CName
 gameNPCstubData = {}
 
 ---@param fields? gameNPCstubData
 ---@return gameNPCstubData
-function gameNPCstubData.new(fields) return end
+function gameNPCstubData.new(fields) end

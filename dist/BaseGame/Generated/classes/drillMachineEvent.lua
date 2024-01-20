@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class drillMachineEvent: redEvent
----@field public newTargetDevice gameObject
----@field public newIsActive Bool
+---@field newTargetDevice gameObject
+---@field newIsActive Bool
 drillMachineEvent = {}
 
 ---@param fields? drillMachineEvent
 ---@return drillMachineEvent
-function drillMachineEvent.new(fields) return end
+function drillMachineEvent.new(fields) end

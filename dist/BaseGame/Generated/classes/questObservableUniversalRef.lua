@@ -5,4 +5,4 @@ questObservableUniversalRef = {}
 
 ---@param fields? questObservableUniversalRef
 ---@return questObservableUniversalRef
-function questObservableUniversalRef.new(fields) return end
+function questObservableUniversalRef.new(fields) end

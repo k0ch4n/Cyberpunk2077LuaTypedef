@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class WeakspotOnDestroyProperties
----@field public isInternal Bool
----@field public disableInteraction Bool
----@field public destroyMesh Bool
----@field public disableCollider Bool
----@field public hideMeshParameterValue CName
----@field public playHitFxFromOwnerEntity Bool
----@field public playDestroyedFxFromOwnerEntity Bool
----@field public playBrokenFxFromOwnerEntity Bool
----@field public addFact CName
----@field public sendAIActionAnimFeatureName CName
----@field public sendAIActionAnimFeatureState Int32
----@field public destroyDelay Float
----@field public useWeakspotDestroyStageVFX Bool
----@field public DamageOwnerOnDestroy Float
----@field public customHitSFx CName
----@field public customDestroySFx CName
----@field public attackRecordID TweakDBID
----@field public StatusEffectOnDestroyID TweakDBID
----@field public physicalDestructionComponents gameWeakspotPhysicalDestructionComponent[]
+---@field isInternal Bool
+---@field disableInteraction Bool
+---@field destroyMesh Bool
+---@field disableCollider Bool
+---@field hideMeshParameterValue CName
+---@field playHitFxFromOwnerEntity Bool
+---@field playDestroyedFxFromOwnerEntity Bool
+---@field playBrokenFxFromOwnerEntity Bool
+---@field addFact CName
+---@field sendAIActionAnimFeatureName CName
+---@field sendAIActionAnimFeatureState Int32
+---@field destroyDelay Float
+---@field useWeakspotDestroyStageVFX Bool
+---@field DamageOwnerOnDestroy Float
+---@field customHitSFx CName
+---@field customDestroySFx CName
+---@field attackRecordID TweakDBID
+---@field StatusEffectOnDestroyID TweakDBID
+---@field physicalDestructionComponents gameWeakspotPhysicalDestructionComponent[]
 WeakspotOnDestroyProperties = {}
 
 ---@param fields? WeakspotOnDestroyProperties
 ---@return WeakspotOnDestroyProperties
-function WeakspotOnDestroyProperties.new(fields) return end
+function WeakspotOnDestroyProperties.new(fields) end

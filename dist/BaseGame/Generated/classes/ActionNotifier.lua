@@ -1,41 +1,41 @@
 ---@meta
 
 ---@class ActionNotifier: IScriptable
----@field public external Bool
----@field public internal Bool
----@field public failed Bool
+---@field external Bool
+---@field internal Bool
+---@field failed Bool
 ActionNotifier = {}
 
 ---@param fields? ActionNotifier
 ---@return ActionNotifier
-function ActionNotifier.new(fields) return end
+function ActionNotifier.new(fields) end
 
 ---@return Bool
-function ActionNotifier:IsAll() return end
+function ActionNotifier:IsAll() end
 
 ---@return Bool
-function ActionNotifier:IsExternalOnly() return end
+function ActionNotifier:IsExternalOnly() end
 
 ---@return Bool
-function ActionNotifier:IsFailed() return end
+function ActionNotifier:IsFailed() end
 
 ---@return Bool
-function ActionNotifier:IsInternalOnly() return end
+function ActionNotifier:IsInternalOnly() end
 
 ---@return Bool
-function ActionNotifier:IsNone() return end
+function ActionNotifier:IsNone() end
 
 ---@return nil
-function ActionNotifier:SetAll() return end
+function ActionNotifier:SetAll() end
 
 ---@return nil
-function ActionNotifier:SetExternalOnly() return end
+function ActionNotifier:SetExternalOnly() end
 
 ---@return nil
-function ActionNotifier:SetFailed() return end
+function ActionNotifier:SetFailed() end
 
 ---@return nil
-function ActionNotifier:SetInternalOnly() return end
+function ActionNotifier:SetInternalOnly() end
 
 ---@return nil
-function ActionNotifier:SetNone() return end
+function ActionNotifier:SetNone() end

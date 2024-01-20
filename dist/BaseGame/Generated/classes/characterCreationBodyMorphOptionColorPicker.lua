@@ -1,34 +1,33 @@
 ---@meta
 
 ---@class characterCreationBodyMorphOptionColorPicker: inkWidgetLogicController
----@field private grid inkUniformGridWidgetReference
----@field private title inkTextWidgetReference
----@field private option gameuiCharacterCustomizationOption
----@field private selectedIndex Int32
+---@field grid inkUniformGridWidgetReference
+---@field title inkTextWidgetReference
+---@field option gameuiCharacterCustomizationOption
+---@field selectedIndex Int32
 characterCreationBodyMorphOptionColorPicker = {}
 
 ---@param fields? characterCreationBodyMorphOptionColorPicker
 ---@return characterCreationBodyMorphOptionColorPicker
-function characterCreationBodyMorphOptionColorPicker.new(fields) return end
+function characterCreationBodyMorphOptionColorPicker.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function characterCreationBodyMorphOptionColorPicker:OnColorSelected(widget) return end
+function characterCreationBodyMorphOptionColorPicker:OnColorSelected(widget) end
 
 ---@param option gameuiCharacterCustomizationOption
 ---@return nil
-function characterCreationBodyMorphOptionColorPicker:FillGrid(option) return end
+function characterCreationBodyMorphOptionColorPicker:FillGrid(option) end
 
 ---@return gameuiCharacterCustomizationOption
-function characterCreationBodyMorphOptionColorPicker:GetOption() return end
+function characterCreationBodyMorphOptionColorPicker:GetOption() end
 
 ---@return Int32
-function characterCreationBodyMorphOptionColorPicker:GetSelectedIndex() return end
+function characterCreationBodyMorphOptionColorPicker:GetSelectedIndex() end
 
 ---@return nil
-function characterCreationBodyMorphOptionColorPicker:MoveCursorToSelected() return end
+function characterCreationBodyMorphOptionColorPicker:MoveCursorToSelected() end
 
 ---@param title String
 ---@return nil
-function characterCreationBodyMorphOptionColorPicker:SetTitle(title) return end
+function characterCreationBodyMorphOptionColorPicker:SetTitle(title) end

@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class questShowPopup_NodeSubType: questITutorial_NodeSubType
----@field public path gameJournalPath
----@field public open Bool
----@field public closeAtInput Bool
----@field public pauseGame Bool
----@field public hideInMenu Bool
----@field public margin inkMargin
----@field public screenMode questTutorialScreenMode
----@field public position gamePopupPosition
----@field public lockPlayerMovement Bool
----@field public closeCurrentPopup Bool
----@field public videoType gameVideoType
----@field public video Bink
----@field public ignoreDisabledTutorials Bool
+---@field path gameJournalPath
+---@field open Bool
+---@field closeAtInput Bool
+---@field pauseGame Bool
+---@field hideInMenu Bool
+---@field margin inkMargin
+---@field screenMode questTutorialScreenMode
+---@field position gamePopupPosition
+---@field lockPlayerMovement Bool
+---@field closeCurrentPopup Bool
+---@field videoType gameVideoType
+---@field video Bink
+---@field ignoreDisabledTutorials Bool
 questShowPopup_NodeSubType = {}
 
 ---@param fields? questShowPopup_NodeSubType
 ---@return questShowPopup_NodeSubType
-function questShowPopup_NodeSubType.new(fields) return end
+function questShowPopup_NodeSubType.new(fields) end

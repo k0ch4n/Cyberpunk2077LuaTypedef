@@ -5,4 +5,4 @@ VehiclePassengerRemoteControlDriverContextEvents = {}
 
 ---@param fields? VehiclePassengerRemoteControlDriverContextEvents
 ---@return VehiclePassengerRemoteControlDriverContextEvents
-function VehiclePassengerRemoteControlDriverContextEvents.new(fields) return end
+function VehiclePassengerRemoteControlDriverContextEvents.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SoldItem: IScriptable
----@field public itemID gameItemID
----@field public quantity Int32
----@field public piecePrice Int32
+---@field itemID gameItemID
+---@field quantity Int32
+---@field piecePrice Int32
 SoldItem = {}
 
 ---@param fields? SoldItem
 ---@return SoldItem
-function SoldItem.new(fields) return end
+function SoldItem.new(fields) end

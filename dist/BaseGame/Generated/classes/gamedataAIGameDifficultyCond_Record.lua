@@ -5,10 +5,10 @@ gamedataAIGameDifficultyCond_Record = {}
 
 ---@param fields? gamedataAIGameDifficultyCond_Record
 ---@return gamedataAIGameDifficultyCond_Record
-function gamedataAIGameDifficultyCond_Record.new(fields) return end
+function gamedataAIGameDifficultyCond_Record.new(fields) end
 
 ---@return Int32
-function gamedataAIGameDifficultyCond_Record:ComparedDifficulty() return end
+function gamedataAIGameDifficultyCond_Record:ComparedDifficulty() end
 
 ---@return CName
-function gamedataAIGameDifficultyCond_Record:ComparisonType() return end
+function gamedataAIGameDifficultyCond_Record:ComparisonType() end

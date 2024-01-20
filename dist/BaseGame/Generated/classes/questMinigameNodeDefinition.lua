@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questMinigameNodeDefinition: questSignalStoppingNodeDefinition
----@field public start Bool
----@field public skipSummaryScreen Bool
----@field public networkRef gameEntityReference
+---@field start Bool
+---@field skipSummaryScreen Bool
+---@field networkRef gameEntityReference
 questMinigameNodeDefinition = {}
 
 ---@param fields? questMinigameNodeDefinition
 ---@return questMinigameNodeDefinition
-function questMinigameNodeDefinition.new(fields) return end
+function questMinigameNodeDefinition.new(fields) end

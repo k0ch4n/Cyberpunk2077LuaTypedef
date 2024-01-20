@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class RipperdocMeterCapacityApplyEvent: redEvent
----@field public CurrentCapacity Int32
----@field public MaxCapacity Int32
----@field public OverchargeCapacity Int32
----@field public MaxCapacityPossible Float
----@field public IsPurchase Bool
+---@field CurrentCapacity Int32
+---@field MaxCapacity Int32
+---@field OverchargeCapacity Int32
+---@field MaxCapacityPossible Float
+---@field IsPurchase Bool
 RipperdocMeterCapacityApplyEvent = {}
 
 ---@param fields? RipperdocMeterCapacityApplyEvent
 ---@return RipperdocMeterCapacityApplyEvent
-function RipperdocMeterCapacityApplyEvent.new(fields) return end
+function RipperdocMeterCapacityApplyEvent.new(fields) end

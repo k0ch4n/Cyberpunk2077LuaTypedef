@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiNewPhoneRelatedGameController: gameuiWidgetGameController
----@field public isNewPhoneEnabled Bool
+---@field isNewPhoneEnabled Bool
 gameuiNewPhoneRelatedGameController = {}
 
 ---@param fields? gameuiNewPhoneRelatedGameController
 ---@return gameuiNewPhoneRelatedGameController
-function gameuiNewPhoneRelatedGameController.new(fields) return end
+function gameuiNewPhoneRelatedGameController.new(fields) end

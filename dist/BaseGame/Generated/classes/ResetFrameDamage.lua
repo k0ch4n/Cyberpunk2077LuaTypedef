@@ -5,4 +5,4 @@ ResetFrameDamage = {}
 
 ---@param fields? ResetFrameDamage
 ---@return ResetFrameDamage
-function ResetFrameDamage.new(fields) return end
+function ResetFrameDamage.new(fields) end

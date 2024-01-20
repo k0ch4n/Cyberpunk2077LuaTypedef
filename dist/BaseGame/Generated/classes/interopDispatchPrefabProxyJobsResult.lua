@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class interopDispatchPrefabProxyJobsResult
----@field public numProxyJobsDispatched Uint32
----@field public numProxyJobsSkipped Uint32
----@field public numProxyJobsFailed Uint32
+---@field numProxyJobsDispatched Uint32
+---@field numProxyJobsSkipped Uint32
+---@field numProxyJobsFailed Uint32
 interopDispatchPrefabProxyJobsResult = {}
 
 ---@param fields? interopDispatchPrefabProxyJobsResult
 ---@return interopDispatchPrefabProxyJobsResult
-function interopDispatchPrefabProxyJobsResult.new(fields) return end
+function interopDispatchPrefabProxyJobsResult.new(fields) end

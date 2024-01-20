@@ -1,67 +1,57 @@
 ---@meta
 
 ---@class AimWalkDecisions: LocomotionGroundDecisions
----@field public callbackIDs redCallbackObject[]
----@field private isBlocking Bool
----@field private isAiming Bool
----@field private inFocusMode Bool
----@field private isLeftHandChanging Bool
+---@field callbackIDs redCallbackObject[]
+---@field isBlocking Bool
+---@field isAiming Bool
+---@field inFocusMode Bool
+---@field isLeftHandChanging Bool
 AimWalkDecisions = {}
 
 ---@param fields? AimWalkDecisions
 ---@return AimWalkDecisions
-function AimWalkDecisions.new(fields) return end
+function AimWalkDecisions.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AimWalkDecisions:OnLeftHandCyberwareChanged(value) return end
+function AimWalkDecisions:OnLeftHandCyberwareChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AimWalkDecisions:OnMeleeChanged(value) return end
+function AimWalkDecisions:OnMeleeChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AimWalkDecisions:OnUpperBodyChanged(value) return end
+function AimWalkDecisions:OnUpperBodyChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AimWalkDecisions:OnVisionChanged(value) return end
+function AimWalkDecisions:OnVisionChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AimWalkDecisions:EnterCondition(stateContext, scriptInterface) return end
+function AimWalkDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimWalkDecisions:OnAttach(stateContext, scriptInterface) return end
+function AimWalkDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimWalkDecisions:OnDetach(stateContext, scriptInterface) return end
+function AimWalkDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AimWalkDecisions:ToDodge(stateContext, scriptInterface) return end
+function AimWalkDecisions:ToDodge(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AimWalkDecisions:ToStand(stateContext, scriptInterface) return end
+function AimWalkDecisions:ToStand(stateContext, scriptInterface) end
 
----@protected
 ---@return nil
-function AimWalkDecisions:UpdateEnterConditionEnabled() return end
+function AimWalkDecisions:UpdateEnterConditionEnabled() end

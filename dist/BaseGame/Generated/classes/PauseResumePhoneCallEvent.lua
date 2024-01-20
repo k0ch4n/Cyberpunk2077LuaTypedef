@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PauseResumePhoneCallEvent: redEvent
----@field public callDuration Float
----@field public pauseCall Bool
----@field public statPoolType gamedataStatPoolType
+---@field callDuration Float
+---@field pauseCall Bool
+---@field statPoolType gamedataStatPoolType
 PauseResumePhoneCallEvent = {}
 
 ---@param fields? PauseResumePhoneCallEvent
 ---@return PauseResumePhoneCallEvent
-function PauseResumePhoneCallEvent.new(fields) return end
+function PauseResumePhoneCallEvent.new(fields) end

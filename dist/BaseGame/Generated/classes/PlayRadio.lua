@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class PlayRadio: MusicSettings
----@field protected radioStation ERadioStationList
+---@field radioStation ERadioStationList
 PlayRadio = {}
 
 ---@param fields? PlayRadio
 ---@return PlayRadio
-function PlayRadio.new(fields) return end
+function PlayRadio.new(fields) end
 
 ---@return CName
-function PlayRadio:GetSoundName() return end
+function PlayRadio:GetSoundName() end
 
 ---@return ERadioStationList
-function PlayRadio:GetStation() return end
+function PlayRadio:GetStation() end
 
 ---@param soundname ERadioStationList
 ---@return nil
-function PlayRadio:SetSoundName(soundname) return end
+function PlayRadio:SetSoundName(soundname) end

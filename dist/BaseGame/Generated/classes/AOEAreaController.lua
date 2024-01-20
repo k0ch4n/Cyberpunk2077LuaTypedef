@@ -5,7 +5,7 @@ AOEAreaController = {}
 
 ---@param fields? AOEAreaController
 ---@return AOEAreaController
-function AOEAreaController.new(fields) return end
+function AOEAreaController.new(fields) end
 
 ---@return AOEAreaControllerPS
-function AOEAreaController:GetPS() return end
+function AOEAreaController:GetPS() end

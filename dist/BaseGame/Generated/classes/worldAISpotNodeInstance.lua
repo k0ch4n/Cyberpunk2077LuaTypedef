@@ -5,4 +5,4 @@ worldAISpotNodeInstance = {}
 
 ---@param fields? worldAISpotNodeInstance
 ---@return worldAISpotNodeInstance
-function worldAISpotNodeInstance.new(fields) return end
+function worldAISpotNodeInstance.new(fields) end

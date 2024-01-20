@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiPuppetPreview_ReadyToBeDisplayed: redEvent
----@field public isMale Bool
+---@field isMale Bool
 gameuiPuppetPreview_ReadyToBeDisplayed = {}
 
 ---@param fields? gameuiPuppetPreview_ReadyToBeDisplayed
 ---@return gameuiPuppetPreview_ReadyToBeDisplayed
-function gameuiPuppetPreview_ReadyToBeDisplayed.new(fields) return end
+function gameuiPuppetPreview_ReadyToBeDisplayed.new(fields) end

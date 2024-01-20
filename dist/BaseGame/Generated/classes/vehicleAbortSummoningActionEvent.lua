@@ -5,4 +5,4 @@ vehicleAbortSummoningActionEvent = {}
 
 ---@param fields? vehicleAbortSummoningActionEvent
 ---@return vehicleAbortSummoningActionEvent
-function vehicleAbortSummoningActionEvent.new(fields) return end
+function vehicleAbortSummoningActionEvent.new(fields) end

@@ -5,4 +5,4 @@ gameIPlayerHandicapSystem = {}
 
 ---@param fields? gameIPlayerHandicapSystem
 ---@return gameIPlayerHandicapSystem
-function gameIPlayerHandicapSystem.new(fields) return end
+function gameIPlayerHandicapSystem.new(fields) end

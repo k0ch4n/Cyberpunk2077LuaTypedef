@@ -5,4 +5,4 @@ AIJoinTrafficEvent = {}
 
 ---@param fields? AIJoinTrafficEvent
 ---@return AIJoinTrafficEvent
-function AIJoinTrafficEvent.new(fields) return end
+function AIJoinTrafficEvent.new(fields) end

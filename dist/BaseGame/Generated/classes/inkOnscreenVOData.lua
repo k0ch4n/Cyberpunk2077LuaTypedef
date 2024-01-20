@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkOnscreenVOData
----@field public text CRUID
+---@field text CRUID
 inkOnscreenVOData = {}
 
 ---@param fields? inkOnscreenVOData
 ---@return inkOnscreenVOData
-function inkOnscreenVOData.new(fields) return end
+function inkOnscreenVOData.new(fields) end

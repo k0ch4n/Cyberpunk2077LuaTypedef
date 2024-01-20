@@ -5,4 +5,4 @@ ArcadeMachineBlackboardDef = {}
 
 ---@param fields? ArcadeMachineBlackboardDef
 ---@return ArcadeMachineBlackboardDef
-function ArcadeMachineBlackboardDef.new(fields) return end
+function ArcadeMachineBlackboardDef.new(fields) end

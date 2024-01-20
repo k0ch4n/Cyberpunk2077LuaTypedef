@@ -5,4 +5,4 @@ AICTreeNodeFloatSharedVarDecoratorDefinition = {}
 
 ---@param fields? AICTreeNodeFloatSharedVarDecoratorDefinition
 ---@return AICTreeNodeFloatSharedVarDecoratorDefinition
-function AICTreeNodeFloatSharedVarDecoratorDefinition.new(fields) return end
+function AICTreeNodeFloatSharedVarDecoratorDefinition.new(fields) end

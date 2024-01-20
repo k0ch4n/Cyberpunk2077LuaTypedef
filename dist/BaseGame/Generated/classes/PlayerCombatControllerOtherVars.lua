@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerCombatControllerOtherVars
----@field public state PlayerCombatState
+---@field state PlayerCombatState
 PlayerCombatControllerOtherVars = {}
 
 ---@param fields? PlayerCombatControllerOtherVars
 ---@return PlayerCombatControllerOtherVars
-function PlayerCombatControllerOtherVars.new(fields) return end
+function PlayerCombatControllerOtherVars.new(fields) end

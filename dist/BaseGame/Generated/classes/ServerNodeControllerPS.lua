@@ -1,126 +1,111 @@
 ---@meta
 
 ---@class ServerNodeControllerPS: ScriptableDeviceComponentPS
----@field private coverState CoverState
----@field private serverState ServerState
----@field private destroyedPin Int32[]
+---@field coverState CoverState
+---@field serverState ServerState
+---@field destroyedPin Int32[]
 ServerNodeControllerPS = {}
 
 ---@param fields? ServerNodeControllerPS
 ---@return ServerNodeControllerPS
-function ServerNodeControllerPS.new(fields) return end
+function ServerNodeControllerPS.new(fields) end
 
 ---@return QuestClose
-function ServerNodeControllerPS:ActionQuestClose() return end
+function ServerNodeControllerPS:ActionQuestClose() end
 
 ---@return QuestExplode
-function ServerNodeControllerPS:ActionQuestExplode() return end
+function ServerNodeControllerPS:ActionQuestExplode() end
 
 ---@return QuestOpen
-function ServerNodeControllerPS:ActionQuestOpen() return end
+function ServerNodeControllerPS:ActionQuestOpen() end
 
 ---@return QuestStartHacking
-function ServerNodeControllerPS:ActionQuestStartHacking() return end
+function ServerNodeControllerPS:ActionQuestStartHacking() end
 
 ---@return QuestStopHacking
-function ServerNodeControllerPS:ActionQuestStopHacking() return end
+function ServerNodeControllerPS:ActionQuestStopHacking() end
 
----@private
 ---@return ServerOverload
-function ServerNodeControllerPS:ActionServerOverload() return end
+function ServerNodeControllerPS:ActionServerOverload() end
 
----@protected
 ---@return Bool
-function ServerNodeControllerPS:CanCreateAnyQuickHackActions() return end
+function ServerNodeControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@return CoverState
-function ServerNodeControllerPS:GetCoverState() return end
+function ServerNodeControllerPS:GetCoverState() end
 
----@private
 ---@param wasStateUpdated Bool
 ---@return EntityNotificationType
-function ServerNodeControllerPS:GetNotificationBasedOnServerUpdateState(wasStateUpdated) return end
+function ServerNodeControllerPS:GetNotificationBasedOnServerUpdateState(wasStateUpdated) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ServerNodeControllerPS:GetQuestActions(context) return end
+function ServerNodeControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ServerNodeControllerPS:GetQuickHackActions(context) return end
+function ServerNodeControllerPS:GetQuickHackActions(context) end
 
 ---@return ServerState
-function ServerNodeControllerPS:GetServerState() return end
+function ServerNodeControllerPS:GetServerState() end
 
 ---@param index Int32
 ---@return Bool
-function ServerNodeControllerPS:IsPinDestroyed(index) return end
+function ServerNodeControllerPS:IsPinDestroyed(index) end
 
----@protected
 ---@param evt OverloadDevice
 ---@return EntityNotificationType
-function ServerNodeControllerPS:OnOverloadDevice(evt) return end
+function ServerNodeControllerPS:OnOverloadDevice(evt) end
 
----@private
 ---@param evt QuestClose
 ---@return EntityNotificationType
-function ServerNodeControllerPS:OnQuestClose(evt) return end
+function ServerNodeControllerPS:OnQuestClose(evt) end
 
----@private
 ---@param evt QuestExplode
 ---@return EntityNotificationType
-function ServerNodeControllerPS:OnQuestExplode(evt) return end
+function ServerNodeControllerPS:OnQuestExplode(evt) end
 
----@private
 ---@param evt QuestOpen
 ---@return EntityNotificationType
-function ServerNodeControllerPS:OnQuestOpen(evt) return end
+function ServerNodeControllerPS:OnQuestOpen(evt) end
 
----@private
 ---@param evt QuestStartHacking
 ---@return EntityNotificationType
-function ServerNodeControllerPS:OnQuestStartHacking(evt) return end
+function ServerNodeControllerPS:OnQuestStartHacking(evt) end
 
----@private
 ---@param evt QuestStopHacking
 ---@return EntityNotificationType
-function ServerNodeControllerPS:OnQuestStopHacking(evt) return end
+function ServerNodeControllerPS:OnQuestStopHacking(evt) end
 
----@private
 ---@param evt ServerOverload
 ---@return EntityNotificationType
-function ServerNodeControllerPS:OnServerOverload(evt) return end
+function ServerNodeControllerPS:OnServerOverload(evt) end
 
 ---@param state CoverState
 ---@return nil
-function ServerNodeControllerPS:SetCoverState(state) return end
+function ServerNodeControllerPS:SetCoverState(state) end
 
 ---@param pinNum Int32
 ---@return nil
-function ServerNodeControllerPS:SetDestroyedPin(pinNum) return end
+function ServerNodeControllerPS:SetDestroyedPin(pinNum) end
 
 ---@param state ServerState
 ---@return nil
-function ServerNodeControllerPS:SetServerState(state) return end
-
----@private
----@return Bool
-function ServerNodeControllerPS:TryCloseServer() return end
+function ServerNodeControllerPS:SetServerState(state) end
 
 ---@return Bool
-function ServerNodeControllerPS:TryExplode() return end
+function ServerNodeControllerPS:TryCloseServer() end
 
----@private
 ---@return Bool
-function ServerNodeControllerPS:TryOpenServer() return end
+function ServerNodeControllerPS:TryExplode() end
 
----@private
+---@return Bool
+function ServerNodeControllerPS:TryOpenServer() end
+
 ---@param coverState CoverState
 ---@return Bool
-function ServerNodeControllerPS:TryUpdateCoverState(coverState) return end
+function ServerNodeControllerPS:TryUpdateCoverState(coverState) end
 
----@private
 ---@param serverState ServerState
 ---@return Bool
-function ServerNodeControllerPS:TryUpdateServerState(serverState) return end
+function ServerNodeControllerPS:TryUpdateServerState(serverState) end

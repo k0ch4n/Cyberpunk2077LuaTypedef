@@ -5,4 +5,4 @@ entAppearanceChangeFinishEvent = {}
 
 ---@param fields? entAppearanceChangeFinishEvent
 ---@return entAppearanceChangeFinishEvent
-function entAppearanceChangeFinishEvent.new(fields) return end
+function entAppearanceChangeFinishEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class cpPlayerDetectorPS: gameObjectPS
----@field public secondsCounter Int32
+---@field secondsCounter Int32
 cpPlayerDetectorPS = {}
 
 ---@param fields? cpPlayerDetectorPS
 ---@return cpPlayerDetectorPS
-function cpPlayerDetectorPS.new(fields) return end
+function cpPlayerDetectorPS.new(fields) end

@@ -5,4 +5,4 @@ HitIsSourceGrenadePrereq = {}
 
 ---@param fields? HitIsSourceGrenadePrereq
 ---@return HitIsSourceGrenadePrereq
-function HitIsSourceGrenadePrereq.new(fields) return end
+function HitIsSourceGrenadePrereq.new(fields) end

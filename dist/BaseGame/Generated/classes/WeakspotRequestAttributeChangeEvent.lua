@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class WeakspotRequestAttributeChangeEvent: redEvent
----@field public blockDamage Bool
----@field public blockHighlight Bool
+---@field blockDamage Bool
+---@field blockHighlight Bool
 WeakspotRequestAttributeChangeEvent = {}
 
 ---@param fields? WeakspotRequestAttributeChangeEvent
 ---@return WeakspotRequestAttributeChangeEvent
-function WeakspotRequestAttributeChangeEvent.new(fields) return end
+function WeakspotRequestAttributeChangeEvent.new(fields) end

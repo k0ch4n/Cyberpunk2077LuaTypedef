@@ -5,7 +5,7 @@ QuestEjectPlayer = {}
 
 ---@param fields? QuestEjectPlayer
 ---@return QuestEjectPlayer
-function QuestEjectPlayer.new(fields) return end
+function QuestEjectPlayer.new(fields) end
 
 ---@return nil
-function QuestEjectPlayer:SetProperties() return end
+function QuestEjectPlayer:SetProperties() end

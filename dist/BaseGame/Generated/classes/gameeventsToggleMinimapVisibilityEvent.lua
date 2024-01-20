@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsToggleMinimapVisibilityEvent: redEvent
----@field public show Bool
+---@field show Bool
 gameeventsToggleMinimapVisibilityEvent = {}
 
 ---@param fields? gameeventsToggleMinimapVisibilityEvent
 ---@return gameeventsToggleMinimapVisibilityEvent
-function gameeventsToggleMinimapVisibilityEvent.new(fields) return end
+function gameeventsToggleMinimapVisibilityEvent.new(fields) end

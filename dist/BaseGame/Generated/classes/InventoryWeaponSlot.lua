@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class InventoryWeaponSlot: InventoryEquipmentSlot
----@field protected DamageIndicatorRef inkWidgetReference
----@field protected DPSRef inkWidgetReference
----@field protected DPSValueLabel inkTextWidgetReference
----@field private DamageTypeIndicator DamageTypeIndicator
----@field private IntroPlayed Bool
+---@field DamageIndicatorRef inkWidgetReference
+---@field DPSRef inkWidgetReference
+---@field DPSValueLabel inkTextWidgetReference
+---@field DamageTypeIndicator DamageTypeIndicator
+---@field IntroPlayed Bool
 InventoryWeaponSlot = {}
 
 ---@param fields? InventoryWeaponSlot
 ---@return InventoryWeaponSlot
-function InventoryWeaponSlot.new(fields) return end
+function InventoryWeaponSlot.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryWeaponSlot:OnInitialize() return end
+function InventoryWeaponSlot:OnInitialize() end
 
----@private
 ---@param framesDelay Int32
 ---@return nil
-function InventoryWeaponSlot:PlayIntroAnimation(framesDelay) return end
+function InventoryWeaponSlot:PlayIntroAnimation(framesDelay) end
 
----@private
 ---@return nil
-function InventoryWeaponSlot:RefreshUI() return end
+function InventoryWeaponSlot:RefreshUI() end
 
 ---@param itemData gameInventoryItemData
 ---@param equipmentArea gamedataEquipmentArea
@@ -31,4 +28,4 @@ function InventoryWeaponSlot:RefreshUI() return end
 ---@param slotIndex? Int32
 ---@param ownerEntity? entEntity
 ---@return nil
-function InventoryWeaponSlot:Setup(itemData, equipmentArea, slotName, slotIndex, ownerEntity) return end
+function InventoryWeaponSlot:Setup(itemData, equipmentArea, slotName, slotIndex, ownerEntity) end

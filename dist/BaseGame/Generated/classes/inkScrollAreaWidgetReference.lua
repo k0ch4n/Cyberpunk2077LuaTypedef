@@ -5,47 +5,47 @@ inkScrollAreaWidgetReference = {}
 
 ---@param fields? inkScrollAreaWidgetReference
 ---@return inkScrollAreaWidgetReference
-function inkScrollAreaWidgetReference.new(fields) return end
+function inkScrollAreaWidgetReference.new(fields) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@return Vector2
-function inkScrollAreaWidgetReference.GetContentSize(self) return end
+function inkScrollAreaWidgetReference.GetContentSize(self) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@return Float
-function inkScrollAreaWidgetReference.GetHorizontalScrollPosition(self) return end
+function inkScrollAreaWidgetReference.GetHorizontalScrollPosition(self) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@return Float
-function inkScrollAreaWidgetReference.GetRealHorizontalScrollPosition(self) return end
+function inkScrollAreaWidgetReference.GetRealHorizontalScrollPosition(self) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@return Float
-function inkScrollAreaWidgetReference.GetRealVerticalScrollPosition(self) return end
+function inkScrollAreaWidgetReference.GetRealVerticalScrollPosition(self) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@return Bool
-function inkScrollAreaWidgetReference.GetUseInternalMask(self) return end
+function inkScrollAreaWidgetReference.GetUseInternalMask(self) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@return Float
-function inkScrollAreaWidgetReference.GetVerticalScrollPosition(self) return end
+function inkScrollAreaWidgetReference.GetVerticalScrollPosition(self) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@return Vector2
-function inkScrollAreaWidgetReference.GetViewportSize(self) return end
+function inkScrollAreaWidgetReference.GetViewportSize(self) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@param value Float
 ---@return nil
-function inkScrollAreaWidgetReference.ScrollHorizontal(self, value) return end
+function inkScrollAreaWidgetReference.ScrollHorizontal(self, value) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@param value Float
 ---@return nil
-function inkScrollAreaWidgetReference.ScrollVertical(self, value) return end
+function inkScrollAreaWidgetReference.ScrollVertical(self, value) end
 
 ---@param self inkScrollAreaWidgetReference
 ---@param value Bool
 ---@return nil
-function inkScrollAreaWidgetReference.SetUseInternalMask(self, value) return end
+function inkScrollAreaWidgetReference.SetUseInternalMask(self, value) end

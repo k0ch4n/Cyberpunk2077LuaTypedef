@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMovingPlatformAttachEntity: redEvent
----@field public entity entEntity
+---@field entity entEntity
 gameMovingPlatformAttachEntity = {}
 
 ---@param fields? gameMovingPlatformAttachEntity
 ---@return gameMovingPlatformAttachEntity
-function gameMovingPlatformAttachEntity.new(fields) return end
+function gameMovingPlatformAttachEntity.new(fields) end

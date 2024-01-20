@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ElementData
----@field public id String
+---@field id String
 ElementData = {}
 
 ---@param fields? ElementData
 ---@return ElementData
-function ElementData.new(fields) return end
+function ElementData.new(fields) end

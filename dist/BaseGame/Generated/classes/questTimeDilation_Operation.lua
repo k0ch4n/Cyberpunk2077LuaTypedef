@@ -5,4 +5,4 @@ questTimeDilation_Operation = {}
 
 ---@param fields? questTimeDilation_Operation
 ---@return questTimeDilation_Operation
-function questTimeDilation_Operation.new(fields) return end
+function questTimeDilation_Operation.new(fields) end

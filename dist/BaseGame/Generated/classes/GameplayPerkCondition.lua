@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class GameplayPerkCondition: GameplayConditionBase
----@field public perkToCheck TweakDBID
----@field public difficulty EGameplayChallengeLevel
+---@field perkToCheck TweakDBID
+---@field difficulty EGameplayChallengeLevel
 GameplayPerkCondition = {}
 
 ---@param fields? GameplayPerkCondition
 ---@return GameplayPerkCondition
-function GameplayPerkCondition.new(fields) return end
+function GameplayPerkCondition.new(fields) end
 
 ---@param requester gameObject
 ---@return Bool
-function GameplayPerkCondition:Evaluate(requester) return end
+function GameplayPerkCondition:Evaluate(requester) end
 
----@private
 ---@return String
-function GameplayPerkCondition:GetConditionDescription() return end
+function GameplayPerkCondition:GetConditionDescription() end
 
 ---@param requester gameObject
 ---@return Condition
-function GameplayPerkCondition:GetDescription(requester) return end
+function GameplayPerkCondition:GetDescription(requester) end
 
----@private
 ---@return gamedataPerkType
-function GameplayPerkCondition:GetPerkType() return end
+function GameplayPerkCondition:GetPerkType() end
 
----@private
 ---@param requester gameObject
 ---@return Int32
-function GameplayPerkCondition:GetPlayerPerk(requester) return end
+function GameplayPerkCondition:GetPlayerPerk(requester) end
 
----@private
 ---@return Int32
-function GameplayPerkCondition:GetRequiredLevel() return end
+function GameplayPerkCondition:GetRequiredLevel() end

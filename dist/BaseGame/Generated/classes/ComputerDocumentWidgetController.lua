@@ -1,41 +1,39 @@
 ---@meta
 
 ---@class ComputerDocumentWidgetController: DeviceInkLogicControllerBase
----@field protected titleWidget inkTextWidgetReference
----@field protected ownerNameWidget inkTextWidgetReference
----@field protected dateWidget inkTextWidgetReference
----@field protected datePanelWidget inkTextWidgetReference
----@field protected ownerPanelWidget inkTextWidgetReference
----@field protected textContentWidget inkTextWidgetReference
----@field protected textContentHolder inkWidgetReference
----@field protected videoContentWidget inkVideoWidgetReference
----@field protected imageContentWidget inkImageWidgetReference
----@field protected closeButtonWidget inkWidgetReference
----@field protected documentType EDocumentType
----@field private lastPlayedVideo redResourceReferenceScriptToken
+---@field titleWidget inkTextWidgetReference
+---@field ownerNameWidget inkTextWidgetReference
+---@field dateWidget inkTextWidgetReference
+---@field datePanelWidget inkTextWidgetReference
+---@field ownerPanelWidget inkTextWidgetReference
+---@field textContentWidget inkTextWidgetReference
+---@field textContentHolder inkWidgetReference
+---@field videoContentWidget inkVideoWidgetReference
+---@field imageContentWidget inkImageWidgetReference
+---@field closeButtonWidget inkWidgetReference
+---@field documentType EDocumentType
+---@field lastPlayedVideo redResourceReferenceScriptToken
 ComputerDocumentWidgetController = {}
 
 ---@param fields? ComputerDocumentWidgetController
 ---@return ComputerDocumentWidgetController
-function ComputerDocumentWidgetController.new(fields) return end
+function ComputerDocumentWidgetController.new(fields) end
 
 ---@return EDocumentType
-function ComputerDocumentWidgetController:GetDocumentType() return end
+function ComputerDocumentWidgetController:GetDocumentType() end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetData SDocumentWidgetPackage
 ---@return nil
-function ComputerDocumentWidgetController:Initialize(gameController, widgetData) return end
+function ComputerDocumentWidgetController:Initialize(gameController, widgetData) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function ComputerDocumentWidgetController:RegisterCloseButtonCallback(gameController) return end
+function ComputerDocumentWidgetController:RegisterCloseButtonCallback(gameController) end
 
----@private
 ---@param widgetData SDocumentWidgetPackage
 ---@return nil
-function ComputerDocumentWidgetController:ResolveContent(widgetData) return end
+function ComputerDocumentWidgetController:ResolveContent(widgetData) end
 
 ---@return nil
-function ComputerDocumentWidgetController:StopVideo() return end
+function ComputerDocumentWidgetController:StopVideo() end

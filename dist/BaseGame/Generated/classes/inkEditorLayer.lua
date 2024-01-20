@@ -5,4 +5,4 @@ inkEditorLayer = {}
 
 ---@param fields? inkEditorLayer
 ---@return inkEditorLayer
-function inkEditorLayer.new(fields) return end
+function inkEditorLayer.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldPatrolSplineNode: worldSplineNode
----@field public patrolPointDefs worldPatrolSplinePointDefinition[]
----@field public patrolPoints NodeRef[]
----@field public spots worldTrafficSpotDefinition[]
+---@field patrolPointDefs worldPatrolSplinePointDefinition[]
+---@field patrolPoints NodeRef[]
+---@field spots worldTrafficSpotDefinition[]
 worldPatrolSplineNode = {}
 
 ---@param fields? worldPatrolSplineNode
 ---@return worldPatrolSplineNode
-function worldPatrolSplineNode.new(fields) return end
+function worldPatrolSplineNode.new(fields) end

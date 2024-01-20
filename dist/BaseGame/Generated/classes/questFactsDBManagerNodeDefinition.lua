@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questFactsDBManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questIFactsDBManagerNodeType
+---@field type questIFactsDBManagerNodeType
 questFactsDBManagerNodeDefinition = {}
 
 ---@param fields? questFactsDBManagerNodeDefinition
 ---@return questFactsDBManagerNodeDefinition
-function questFactsDBManagerNodeDefinition.new(fields) return end
+function questFactsDBManagerNodeDefinition.new(fields) end

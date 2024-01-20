@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class communityRole: ISerializable
----@field public roleName CName
+---@field roleName CName
 communityRole = {}
 
 ---@param fields? communityRole
 ---@return communityRole
-function communityRole.new(fields) return end
+function communityRole.new(fields) end

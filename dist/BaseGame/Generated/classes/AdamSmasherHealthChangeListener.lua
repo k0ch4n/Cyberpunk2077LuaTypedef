@@ -1,76 +1,67 @@
 ---@meta
 
 ---@class AdamSmasherHealthChangeListener: gameCustomValueStatPoolsListener
----@field public owner NPCPuppet
----@field public player PlayerPuppet
----@field private adamSmasherComponent AdamSmasherComponent
----@field private statPoolType gamedataStatPoolType
----@field private statPoolSystem gameStatPoolsSystem
+---@field owner NPCPuppet
+---@field player PlayerPuppet
+---@field adamSmasherComponent AdamSmasherComponent
+---@field statPoolType gamedataStatPoolType
+---@field statPoolSystem gameStatPoolsSystem
 AdamSmasherHealthChangeListener = {}
 
 ---@param fields? AdamSmasherHealthChangeListener
 ---@return AdamSmasherHealthChangeListener
-function AdamSmasherHealthChangeListener.new(fields) return end
+function AdamSmasherHealthChangeListener.new(fields) end
 
 ---@return nil
-function AdamSmasherHealthChangeListener:ApplyEmergency() return end
+function AdamSmasherHealthChangeListener:ApplyEmergency() end
 
 ---@return nil
-function AdamSmasherHealthChangeListener:ApplyPhase2() return end
+function AdamSmasherHealthChangeListener:ApplyPhase2() end
 
 ---@return nil
-function AdamSmasherHealthChangeListener:ApplyPhase3() return end
+function AdamSmasherHealthChangeListener:ApplyPhase3() end
 
 ---@return nil
-function AdamSmasherHealthChangeListener:ApplySmashed() return end
-
----@param oldValue Float
----@param newValue Float
----@param percToPoints Float
----@return nil
-function AdamSmasherHealthChangeListener:CheckPhase(oldValue, newValue, percToPoints) return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:DestroyWeakspotGenerator() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:DisableAllSandyEdgerunnerFxs() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:DisableFrontPlate() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:DisableLauncherWeakspot() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:DisableRightArm() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:DisableTorsoWeakspot() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:EnableHeadWeakspot() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:EnableLauncherWeakspot() return end
-
----@private
----@return nil
-function AdamSmasherHealthChangeListener:EnableTorsoWeakspot() return end
+function AdamSmasherHealthChangeListener:ApplySmashed() end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function AdamSmasherHealthChangeListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function AdamSmasherHealthChangeListener:CheckPhase(oldValue, newValue, percToPoints) end
 
 ---@return nil
-function AdamSmasherHealthChangeListener:RemoveEmergency() return end
+function AdamSmasherHealthChangeListener:DestroyWeakspotGenerator() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:DisableAllSandyEdgerunnerFxs() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:DisableFrontPlate() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:DisableLauncherWeakspot() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:DisableRightArm() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:DisableTorsoWeakspot() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:EnableHeadWeakspot() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:EnableLauncherWeakspot() end
+
+---@return nil
+function AdamSmasherHealthChangeListener:EnableTorsoWeakspot() end
+
+---@param oldValue Float
+---@param newValue Float
+---@param percToPoints Float
+---@return nil
+function AdamSmasherHealthChangeListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end
+
+---@return nil
+function AdamSmasherHealthChangeListener:RemoveEmergency() end

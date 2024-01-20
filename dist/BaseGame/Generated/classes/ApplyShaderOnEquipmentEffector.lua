@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class ApplyShaderOnEquipmentEffector: gameEffector
----@field private overrideMaterialName CName
----@field private overrideMaterialTag CName
----@field private effectInstance gameEffectInstance
----@field private owner gameObject
----@field private ownerEffect gameEffectInstance
+---@field overrideMaterialName CName
+---@field overrideMaterialTag CName
+---@field effectInstance gameEffectInstance
+---@field owner gameObject
+---@field ownerEffect gameEffectInstance
 ApplyShaderOnEquipmentEffector = {}
 
 ---@param fields? ApplyShaderOnEquipmentEffector
 ---@return ApplyShaderOnEquipmentEffector
-function ApplyShaderOnEquipmentEffector.new(fields) return end
+function ApplyShaderOnEquipmentEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyShaderOnEquipmentEffector:ActionOn(owner) return end
+function ApplyShaderOnEquipmentEffector:ActionOn(owner) end
 
----@private
 ---@return TweakDBID[]
-function ApplyShaderOnEquipmentEffector:GetAttachmentSlotsForEquipment() return end
+function ApplyShaderOnEquipmentEffector:GetAttachmentSlotsForEquipment() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyShaderOnEquipmentEffector:Initialize(record, parentRecord) return end
+function ApplyShaderOnEquipmentEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function ApplyShaderOnEquipmentEffector:Uninitialize() return end
+function ApplyShaderOnEquipmentEffector:Uninitialize() end

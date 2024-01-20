@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetScanningBlockedEvent: redEvent
----@field public isBlocked Bool
+---@field isBlocked Bool
 gameSetScanningBlockedEvent = {}
 
 ---@param fields? gameSetScanningBlockedEvent
 ---@return gameSetScanningBlockedEvent
-function gameSetScanningBlockedEvent.new(fields) return end
+function gameSetScanningBlockedEvent.new(fields) end

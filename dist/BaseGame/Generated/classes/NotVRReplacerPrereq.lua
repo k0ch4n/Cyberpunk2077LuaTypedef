@@ -5,8 +5,8 @@ NotVRReplacerPrereq = {}
 
 ---@param fields? NotVRReplacerPrereq
 ---@return NotVRReplacerPrereq
-function NotVRReplacerPrereq.new(fields) return end
+function NotVRReplacerPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function NotVRReplacerPrereq:IsFulfilled(context) return end
+function NotVRReplacerPrereq:IsFulfilled(context) end

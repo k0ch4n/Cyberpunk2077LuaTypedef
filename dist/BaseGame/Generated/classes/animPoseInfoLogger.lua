@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animPoseInfoLogger
----@field public enabled Bool
----@field public showStackTransformsCount Bool
----@field public showStackTracksCount Bool
----@field public entries animPoseInfoLoggerEntry[]
+---@field enabled Bool
+---@field showStackTransformsCount Bool
+---@field showStackTracksCount Bool
+---@field entries animPoseInfoLoggerEntry[]
 animPoseInfoLogger = {}
 
 ---@param fields? animPoseInfoLogger
 ---@return animPoseInfoLogger
-function animPoseInfoLogger.new(fields) return end
+function animPoseInfoLogger.new(fields) end

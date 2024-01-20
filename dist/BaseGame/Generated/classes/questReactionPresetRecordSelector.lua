@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class questReactionPresetRecordSelector: ISerializable
----@field public setDefault Bool
----@field public isGanger Bool
----@field public gangerRecordID TweakDBID
----@field public isCivilian Bool
----@field public civilianRecordID TweakDBID
----@field public isCorpo Bool
----@field public corpoRecordID TweakDBID
----@field public isPolice Bool
----@field public policeRecordID TweakDBID
----@field public isMechanical Bool
----@field public mechanicalRecordID TweakDBID
----@field public isNoReaction Bool
----@field public noReactionRecordID TweakDBID
+---@field setDefault Bool
+---@field isGanger Bool
+---@field gangerRecordID TweakDBID
+---@field isCivilian Bool
+---@field civilianRecordID TweakDBID
+---@field isCorpo Bool
+---@field corpoRecordID TweakDBID
+---@field isPolice Bool
+---@field policeRecordID TweakDBID
+---@field isMechanical Bool
+---@field mechanicalRecordID TweakDBID
+---@field isNoReaction Bool
+---@field noReactionRecordID TweakDBID
 questReactionPresetRecordSelector = {}
 
 ---@param fields? questReactionPresetRecordSelector
 ---@return questReactionPresetRecordSelector
-function questReactionPresetRecordSelector.new(fields) return end
+function questReactionPresetRecordSelector.new(fields) end

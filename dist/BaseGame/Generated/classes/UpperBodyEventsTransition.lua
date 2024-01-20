@@ -1,50 +1,43 @@
 ---@meta
 
 ---@class UpperBodyEventsTransition: UpperBodyTransition
----@field public switchButtonPushed Bool
----@field public cyclePushed Bool
----@field public delay Float
----@field public cycleBlock Float
----@field public switchPending Bool
----@field public counter Int32
+---@field switchButtonPushed Bool
+---@field cyclePushed Bool
+---@field delay Float
+---@field cycleBlock Float
+---@field switchPending Bool
+---@field counter Int32
 UpperBodyEventsTransition = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UpperBodyEventsTransition:CheckSwitchInput(stateContext, scriptInterface) return end
+function UpperBodyEventsTransition:CheckSwitchInput(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UpperBodyEventsTransition:OnEnter(stateContext, scriptInterface) return end
+function UpperBodyEventsTransition:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UpperBodyEventsTransition:OnExit(stateContext, scriptInterface) return end
+function UpperBodyEventsTransition:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UpperBodyEventsTransition:QueueActionBlocked(scriptInterface) return end
+function UpperBodyEventsTransition:QueueActionBlocked(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function UpperBodyEventsTransition:ResetEquipVars(stateContext) return end
+function UpperBodyEventsTransition:ResetEquipVars(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function UpperBodyEventsTransition:SyncEquipVarsToPermanentStorage(stateContext) return end
+function UpperBodyEventsTransition:SyncEquipVarsToPermanentStorage(stateContext) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UpperBodyEventsTransition:UpdateSwitchItem(timeDelta, stateContext, scriptInterface) return end
+function UpperBodyEventsTransition:UpdateSwitchItem(timeDelta, stateContext, scriptInterface) end

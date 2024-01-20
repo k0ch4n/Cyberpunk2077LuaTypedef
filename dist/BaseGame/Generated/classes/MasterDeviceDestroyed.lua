@@ -5,7 +5,7 @@ MasterDeviceDestroyed = {}
 
 ---@param fields? MasterDeviceDestroyed
 ---@return MasterDeviceDestroyed
-function MasterDeviceDestroyed.new(fields) return end
+function MasterDeviceDestroyed.new(fields) end
 
 ---@return nil
-function MasterDeviceDestroyed:SetProperties() return end
+function MasterDeviceDestroyed:SetProperties() end

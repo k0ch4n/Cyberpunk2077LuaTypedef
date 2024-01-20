@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class MountAssigendVehicle: AIVehicleTaskAbstract
----@field private result AIbehaviorUpdateOutcome
+---@field result AIbehaviorUpdateOutcome
 MountAssigendVehicle = {}
 
 ---@param fields? MountAssigendVehicle
 ---@return MountAssigendVehicle
-function MountAssigendVehicle.new(fields) return end
+function MountAssigendVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MountAssigendVehicle:Activate(context) return end
+function MountAssigendVehicle:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function MountAssigendVehicle:Update(context) return end
+function MountAssigendVehicle:Update(context) end

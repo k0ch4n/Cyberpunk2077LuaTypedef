@@ -5,8 +5,7 @@ CasinoTableIdlePageLogicController = {}
 
 ---@param fields? CasinoTableIdlePageLogicController
 ---@return CasinoTableIdlePageLogicController
-function CasinoTableIdlePageLogicController.new(fields) return end
+function CasinoTableIdlePageLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function CasinoTableIdlePageLogicController:OnInitialize() return end
+function CasinoTableIdlePageLogicController:OnInitialize() end

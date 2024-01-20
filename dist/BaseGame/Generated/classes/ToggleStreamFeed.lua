@@ -1,37 +1,36 @@
 ---@meta
 
 ---@class ToggleStreamFeed: ActionBool
----@field public vRoomFake Bool
+---@field vRoomFake Bool
 ToggleStreamFeed = {}
 
 ---@param fields? ToggleStreamFeed
 ---@return ToggleStreamFeed
-function ToggleStreamFeed.new(fields) return end
+function ToggleStreamFeed.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ToggleStreamFeed.IsAvailable(device) return end
+function ToggleStreamFeed.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ToggleStreamFeed.IsClearanceValid(clearance) return end
+function ToggleStreamFeed.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleStreamFeed.IsContextValid(context) return end
+function ToggleStreamFeed.IsContextValid(context) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleStreamFeed.IsDefaultConditionMet(device, context) return end
+function ToggleStreamFeed.IsDefaultConditionMet(device, context) end
 
----@protected
 ---@return Int32
-function ToggleStreamFeed:GetBaseCost() return end
+function ToggleStreamFeed:GetBaseCost() end
 
 ---@return String
-function ToggleStreamFeed:GetTweakDBChoiceRecord() return end
+function ToggleStreamFeed:GetTweakDBChoiceRecord() end
 
 ---@param isStreaming Bool
 ---@return nil
-function ToggleStreamFeed:SetProperties(isStreaming) return end
+function ToggleStreamFeed:SetProperties(isStreaming) end

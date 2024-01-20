@@ -1,73 +1,62 @@
 ---@meta
 
 ---@class SampleUIButtons: inkWidgetLogicController
----@field private Button inkWidgetReference
----@field private Toggle1 inkWidgetReference
----@field private Toggle2 inkWidgetReference
----@field private Toggle3 inkWidgetReference
----@field private RadioGroup inkWidgetReference
----@field private Text inkTextWidgetReference
+---@field Button inkWidgetReference
+---@field Toggle1 inkWidgetReference
+---@field Toggle2 inkWidgetReference
+---@field Toggle3 inkWidgetReference
+---@field RadioGroup inkWidgetReference
+---@field Text inkTextWidgetReference
 SampleUIButtons = {}
 
 ---@param fields? SampleUIButtons
 ---@return SampleUIButtons
-function SampleUIButtons.new(fields) return end
+function SampleUIButtons.new(fields) end
 
----@protected
 ---@return Bool
-function SampleUIButtons:OnInitialize() return end
+function SampleUIButtons:OnInitialize() end
 
----@private
 ---@param controller inkButtonController
 ---@return nil
-function SampleUIButtons:OnButtonClick(controller) return end
+function SampleUIButtons:OnButtonClick(controller) end
 
----@private
 ---@param controller inkButtonController
 ---@param cancelled Bool
 ---@return nil
-function SampleUIButtons:OnButtonHoldComplete(controller, cancelled) return end
+function SampleUIButtons:OnButtonHoldComplete(controller, cancelled) end
 
----@private
 ---@param controller inkRadioGroupController
 ---@param selectedIndex Int32
 ---@return nil
-function SampleUIButtons:OnRadioValueChanged(controller, selectedIndex) return end
+function SampleUIButtons:OnRadioValueChanged(controller, selectedIndex) end
 
----@private
 ---@param controller inkToggleController
 ---@param isToggled Bool
 ---@return nil
-function SampleUIButtons:OnToggle1Changed(controller, isToggled) return end
+function SampleUIButtons:OnToggle1Changed(controller, isToggled) end
 
----@private
 ---@param controller inkButtonController
 ---@return nil
-function SampleUIButtons:OnToggle1Click(controller) return end
+function SampleUIButtons:OnToggle1Click(controller) end
 
----@private
 ---@param controller inkToggleController
 ---@param isToggled Bool
 ---@return nil
-function SampleUIButtons:OnToggle2Changed(controller, isToggled) return end
+function SampleUIButtons:OnToggle2Changed(controller, isToggled) end
 
----@private
 ---@param controller inkButtonController
 ---@return nil
-function SampleUIButtons:OnToggle2Click(controller) return end
+function SampleUIButtons:OnToggle2Click(controller) end
 
----@private
 ---@param controller inkToggleController
 ---@param isToggled Bool
 ---@return nil
-function SampleUIButtons:OnToggle3Changed(controller, isToggled) return end
+function SampleUIButtons:OnToggle3Changed(controller, isToggled) end
 
----@private
 ---@param controller inkButtonController
 ---@return nil
-function SampleUIButtons:OnToggle3Click(controller) return end
+function SampleUIButtons:OnToggle3Click(controller) end
 
----@private
 ---@param text String
 ---@return nil
-function SampleUIButtons:SetText(text) return end
+function SampleUIButtons:SetText(text) end

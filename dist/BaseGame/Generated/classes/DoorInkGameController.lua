@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class DoorInkGameController: DeviceInkGameControllerBase
----@field private doorStaturTextWidget inkTextWidget
+---@field doorStaturTextWidget inkTextWidget
 DoorInkGameController = {}
 
 ---@param fields? DoorInkGameController
 ---@return DoorInkGameController
-function DoorInkGameController.new(fields) return end
+function DoorInkGameController.new(fields) end
 
----@protected
 ---@return Door
-function DoorInkGameController:GetOwner() return end
+function DoorInkGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function DoorInkGameController:Refresh(state) return end
+function DoorInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function DoorInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function DoorInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@return nil
-function DoorInkGameController:SetupWidgets() return end
+function DoorInkGameController:SetupWidgets() end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function DoorInkGameController:UpdateActionWidgets(widgetsData) return end
+function DoorInkGameController:UpdateActionWidgets(widgetsData) end

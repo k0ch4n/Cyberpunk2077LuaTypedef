@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameActionUnequipItemState: gameActionReplicatedState
----@field public slotId TweakDBID
----@field public animFeatureNameRight CName
----@field public animFeatureNameLeft CName
----@field public duration Float
+---@field slotId TweakDBID
+---@field animFeatureNameRight CName
+---@field animFeatureNameLeft CName
+---@field duration Float
 gameActionUnequipItemState = {}
 
 ---@param fields? gameActionUnequipItemState
 ---@return gameActionUnequipItemState
-function gameActionUnequipItemState.new(fields) return end
+function gameActionUnequipItemState.new(fields) end

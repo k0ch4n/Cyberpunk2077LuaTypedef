@@ -5,4 +5,4 @@ RipperdocMeterArmorBarHoverEvent = {}
 
 ---@param fields? RipperdocMeterArmorBarHoverEvent
 ---@return RipperdocMeterArmorBarHoverEvent
-function RipperdocMeterArmorBarHoverEvent.new(fields) return end
+function RipperdocMeterArmorBarHoverEvent.new(fields) end

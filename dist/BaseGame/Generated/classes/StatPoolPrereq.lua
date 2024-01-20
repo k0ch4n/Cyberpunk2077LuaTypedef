@@ -1,63 +1,55 @@
 ---@meta
 
 ---@class StatPoolPrereq: gameIScriptablePrereq
----@field public statPoolType gamedataStatPoolType
----@field public valueToCheck gamedataStatModifier_Record[]
----@field public comparisonType EComparisonType
----@field public skipOnApply Bool
----@field public comparePercentage Bool
----@field public objToCheck ObjectToCheck
+---@field statPoolType gamedataStatPoolType
+---@field valueToCheck gamedataStatModifier_Record[]
+---@field comparisonType EComparisonType
+---@field skipOnApply Bool
+---@field comparePercentage Bool
+---@field objToCheck ObjectToCheck
 StatPoolPrereq = {}
 
 ---@param fields? StatPoolPrereq
 ---@return StatPoolPrereq
-function StatPoolPrereq.new(fields) return end
+function StatPoolPrereq.new(fields) end
 
----@protected
 ---@param object gameObject
 ---@param statsObjID gameStatsObjectID
 ---@param context IScriptable
 ---@return Bool
-function StatPoolPrereq:CompareValues(object, statsObjID, context) return end
+function StatPoolPrereq:CompareValues(object, statsObjID, context) end
 
----@protected
 ---@param owner gameObject
 ---@return gameObject
-function StatPoolPrereq:GetObject(owner) return end
+function StatPoolPrereq:GetObject(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return gameStatsObjectID
-function StatPoolPrereq:GetStatsObjectID(owner) return end
+function StatPoolPrereq:GetStatsObjectID(owner) end
 
----@protected
 ---@param state StatPoolPrereqState
 ---@return Float
-function StatPoolPrereq:GetValueToCheck(state) return end
+function StatPoolPrereq:GetValueToCheck(state) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function StatPoolPrereq:Initialize(recordID) return end
+function StatPoolPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function StatPoolPrereq:IsFulfilled(context) return end
+function StatPoolPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatPoolPrereq:OnApplied(state, context) return end
+function StatPoolPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function StatPoolPrereq:OnRegister(state, context) return end
+function StatPoolPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatPoolPrereq:OnUnregister(state, context) return end
+function StatPoolPrereq:OnUnregister(state, context) end

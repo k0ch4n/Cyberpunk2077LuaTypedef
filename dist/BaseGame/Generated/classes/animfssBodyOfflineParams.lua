@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animfssBodyOfflineParams
----@field public HipsTilt Float
----@field public HipsShift Float
----@field public LegsPullFactorMin Float
----@field public LegsPullFactorMax Float
----@field public LegLengthAdjustment Float
----@field public LegMaxStretchOffset Float
----@field public LegMaxStretchAdjustment Float
+---@field HipsTilt Float
+---@field HipsShift Float
+---@field LegsPullFactorMin Float
+---@field LegsPullFactorMax Float
+---@field LegLengthAdjustment Float
+---@field LegMaxStretchOffset Float
+---@field LegMaxStretchAdjustment Float
 animfssBodyOfflineParams = {}
 
 ---@param fields? animfssBodyOfflineParams
 ---@return animfssBodyOfflineParams
-function animfssBodyOfflineParams.new(fields) return end
+function animfssBodyOfflineParams.new(fields) end

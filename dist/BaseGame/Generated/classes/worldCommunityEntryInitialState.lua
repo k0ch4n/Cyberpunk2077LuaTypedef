@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldCommunityEntryInitialState
----@field public entryName CName
----@field public initialPhaseName CName
----@field public entryActiveOnStart Bool
+---@field entryName CName
+---@field initialPhaseName CName
+---@field entryActiveOnStart Bool
 worldCommunityEntryInitialState = {}
 
 ---@param fields? worldCommunityEntryInitialState
 ---@return worldCommunityEntryInitialState
-function worldCommunityEntryInitialState.new(fields) return end
+function worldCommunityEntryInitialState.new(fields) end

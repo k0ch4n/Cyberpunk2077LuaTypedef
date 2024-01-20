@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CallAction: redEvent
----@field public calledAction QuickSlotActionType
+---@field calledAction QuickSlotActionType
 CallAction = {}
 
 ---@param fields? CallAction
 ---@return CallAction
-function CallAction.new(fields) return end
+function CallAction.new(fields) end

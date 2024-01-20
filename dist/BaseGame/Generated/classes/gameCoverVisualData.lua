@@ -5,4 +5,4 @@ gameCoverVisualData = {}
 
 ---@param fields? gameCoverVisualData
 ---@return gameCoverVisualData
-function gameCoverVisualData.new(fields) return end
+function gameCoverVisualData.new(fields) end

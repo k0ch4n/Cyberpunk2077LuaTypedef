@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkUITransform
----@field public translation Vector2
----@field public scale Vector2
----@field public shear Vector2
----@field public rotation Float
+---@field translation Vector2
+---@field scale Vector2
+---@field shear Vector2
+---@field rotation Float
 inkUITransform = {}
 
 ---@param fields? inkUITransform
 ---@return inkUITransform
-function inkUITransform.new(fields) return end
+function inkUITransform.new(fields) end

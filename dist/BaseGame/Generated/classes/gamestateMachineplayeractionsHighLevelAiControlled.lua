@@ -5,4 +5,4 @@ gamestateMachineplayeractionsHighLevelAiControlled = {}
 
 ---@param fields? gamestateMachineplayeractionsHighLevelAiControlled
 ---@return gamestateMachineplayeractionsHighLevelAiControlled
-function gamestateMachineplayeractionsHighLevelAiControlled.new(fields) return end
+function gamestateMachineplayeractionsHighLevelAiControlled.new(fields) end

@@ -5,10 +5,9 @@ DefaultTest = {}
 
 ---@param fields? DefaultTest
 ---@return DefaultTest
-function DefaultTest.new(fields) return end
+function DefaultTest.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DefaultTest:EnterCondition(stateContext, scriptInterface) return end
+function DefaultTest:EnterCondition(stateContext, scriptInterface) end

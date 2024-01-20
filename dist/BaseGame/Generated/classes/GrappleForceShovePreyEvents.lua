@@ -1,43 +1,39 @@
 ---@meta
 
 ---@class GrappleForceShovePreyEvents: LocomotionTakedownEvents
----@field public unmountCalled Bool
+---@field unmountCalled Bool
 GrappleForceShovePreyEvents = {}
 
 ---@param fields? GrappleForceShovePreyEvents
 ---@return GrappleForceShovePreyEvents
-function GrappleForceShovePreyEvents.new(fields) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function GrappleForceShovePreyEvents:InitiateForceShoveAttack(stateContext, scriptInterface) return end
+function GrappleForceShovePreyEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleForceShovePreyEvents:OnEnter(stateContext, scriptInterface) return end
+function GrappleForceShovePreyEvents:InitiateForceShoveAttack(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleForceShovePreyEvents:OnExit(stateContext, scriptInterface) return end
+function GrappleForceShovePreyEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleForceShovePreyEvents:OnExitToTakedownReleasePrey(stateContext, scriptInterface) return end
+function GrappleForceShovePreyEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function GrappleForceShovePreyEvents:OnExitToTakedownReleasePrey(stateContext, scriptInterface) end
+
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleForceShovePreyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function GrappleForceShovePreyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param startPosition Vector4
@@ -45,9 +41,8 @@ function GrappleForceShovePreyEvents:OnUpdate(timeDelta, stateContext, scriptInt
 ---@param attackTime Float
 ---@param colliderBox Vector4
 ---@return nil
-function GrappleForceShovePreyEvents:SpawnShoveAttackGameEffect(stateContext, scriptInterface, startPosition, endPosition, attackTime, colliderBox) return end
+function GrappleForceShovePreyEvents:SpawnShoveAttackGameEffect(stateContext, scriptInterface, startPosition, endPosition, attackTime, colliderBox) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleForceShovePreyEvents:UnmountPrey(scriptInterface) return end
+function GrappleForceShovePreyEvents:UnmountPrey(scriptInterface) end

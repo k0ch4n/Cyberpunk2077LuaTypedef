@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class RevealInteractionWheel: redEvent
----@field public lookAtObject gameObject
----@field public commands QuickhackData[]
----@field public shouldReveal Bool
+---@field lookAtObject gameObject
+---@field commands QuickhackData[]
+---@field shouldReveal Bool
 RevealInteractionWheel = {}
 
 ---@param fields? RevealInteractionWheel
 ---@return RevealInteractionWheel
-function RevealInteractionWheel.new(fields) return end
+function RevealInteractionWheel.new(fields) end

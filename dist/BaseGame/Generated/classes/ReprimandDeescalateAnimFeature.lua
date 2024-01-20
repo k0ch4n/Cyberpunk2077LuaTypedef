@@ -5,9 +5,8 @@ ReprimandDeescalateAnimFeature = {}
 
 ---@param fields? ReprimandDeescalateAnimFeature
 ---@return ReprimandDeescalateAnimFeature
-function ReprimandDeescalateAnimFeature.new(fields) return end
+function ReprimandDeescalateAnimFeature.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReprimandDeescalateAnimFeature:Activate(context) return end
+function ReprimandDeescalateAnimFeature:Activate(context) end

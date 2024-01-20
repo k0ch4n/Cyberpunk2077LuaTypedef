@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class StorageBlackboardDef: gamebbScriptDefinition
----@field public StorageData gamebbScriptID_Variant
+---@field StorageData gamebbScriptID_Variant
 StorageBlackboardDef = {}
 
 ---@param fields? StorageBlackboardDef
 ---@return StorageBlackboardDef
-function StorageBlackboardDef.new(fields) return end
+function StorageBlackboardDef.new(fields) end
 
 ---@return Bool
-function StorageBlackboardDef:AutoCreateInSystem() return end
+function StorageBlackboardDef:AutoCreateInSystem() end

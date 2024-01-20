@@ -5,7 +5,7 @@ VehicleCloseTrunk = {}
 
 ---@param fields? VehicleCloseTrunk
 ---@return VehicleCloseTrunk
-function VehicleCloseTrunk.new(fields) return end
+function VehicleCloseTrunk.new(fields) end
 
 ---@return nil
-function VehicleCloseTrunk:SetProperties() return end
+function VehicleCloseTrunk:SetProperties() end

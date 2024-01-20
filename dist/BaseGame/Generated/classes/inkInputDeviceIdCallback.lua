@@ -5,4 +5,4 @@ inkInputDeviceIdCallback = {}
 
 ---@param fields? inkInputDeviceIdCallback
 ---@return inkInputDeviceIdCallback
-function inkInputDeviceIdCallback.new(fields) return end
+function inkInputDeviceIdCallback.new(fields) end

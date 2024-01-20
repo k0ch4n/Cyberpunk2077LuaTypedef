@@ -1,650 +1,650 @@
 ---@meta
 
 ---@class gameInventoryItemData
----@field public ID gameItemID
----@field public SlotID TweakDBID
----@field public Name String
----@field public Quality CName
----@field public QualityF Float
----@field public Quantity Int32
----@field public Ammo Int32
----@field public Shape gameInventoryItemShape
----@field public ItemShape gameInventoryItemShape
----@field public IconPath String
----@field public CategoryName String
----@field public ItemType gamedataItemType
----@field public LocalizedItemType String
----@field public Description String
----@field public AdditionalDescription String
----@field public GameplayDescription String
----@field public Price Float
----@field public BuyPrice Float
----@field public UnlockProgress Float
----@field public RequiredLevel Int32
----@field public ItemLevel Int32
----@field public DamageType gamedataDamageType
----@field public EquipmentArea gamedataEquipmentArea
----@field public ComparedQuality gamedataQuality
----@field public Empty Bool
----@field public IsPart Bool
----@field public IsCraftingMaterial Bool
----@field public IsEquipped Bool
----@field public IsNew Bool
----@field public IsAvailable Bool
----@field public IsVendorItem Bool
----@field public IsBroken Bool
----@field public SlotIndex Int32
----@field public PositionInBackpack Uint32
----@field public IconGender gameItemIconGender
----@field public GameItemData gameItemData
----@field public HasPlayerSmartGunLink Bool
----@field public PlayerLevel Int32
----@field public PlayerStrength Int32
----@field public PlayerReflexes Int32
----@field public PlayerStreetCred Int32
----@field public IsRequirementMet Bool
----@field public IsEquippable Bool
----@field public IsVisualsEquipped Bool
----@field public Requirement gameSItemStackRequirementData
----@field public EquipRequirement gameSItemStackRequirementData
----@field public EquipRequirements gameSItemStackRequirementData[]
----@field public LootItemType gameLootItemType
----@field public Attachments gameInventoryItemAttachments[]
----@field public Abilities gameInventoryItemAbility[]
----@field public PlacementSlots TweakDBID[]
----@field public PrimaryStats gameStatViewData[]
----@field public SecondaryStats gameStatViewData[]
----@field public SortData gameInventoryItemSortData
----@field public IsPerkRequired Bool
----@field public PerkRequiredName String
----@field public IsCrafted Bool
----@field public IsIconic Bool
+---@field ID gameItemID
+---@field SlotID TweakDBID
+---@field Name String
+---@field Quality CName
+---@field QualityF Float
+---@field Quantity Int32
+---@field Ammo Int32
+---@field Shape gameInventoryItemShape
+---@field ItemShape gameInventoryItemShape
+---@field IconPath String
+---@field CategoryName String
+---@field ItemType gamedataItemType
+---@field LocalizedItemType String
+---@field Description String
+---@field AdditionalDescription String
+---@field GameplayDescription String
+---@field Price Float
+---@field BuyPrice Float
+---@field UnlockProgress Float
+---@field RequiredLevel Int32
+---@field ItemLevel Int32
+---@field DamageType gamedataDamageType
+---@field EquipmentArea gamedataEquipmentArea
+---@field ComparedQuality gamedataQuality
+---@field Empty Bool
+---@field IsPart Bool
+---@field IsCraftingMaterial Bool
+---@field IsEquipped Bool
+---@field IsNew Bool
+---@field IsAvailable Bool
+---@field IsVendorItem Bool
+---@field IsBroken Bool
+---@field SlotIndex Int32
+---@field PositionInBackpack Uint32
+---@field IconGender gameItemIconGender
+---@field GameItemData gameItemData
+---@field HasPlayerSmartGunLink Bool
+---@field PlayerLevel Int32
+---@field PlayerStrength Int32
+---@field PlayerReflexes Int32
+---@field PlayerStreetCred Int32
+---@field IsRequirementMet Bool
+---@field IsEquippable Bool
+---@field IsVisualsEquipped Bool
+---@field Requirement gameSItemStackRequirementData
+---@field EquipRequirement gameSItemStackRequirementData
+---@field EquipRequirements gameSItemStackRequirementData[]
+---@field LootItemType gameLootItemType
+---@field Attachments gameInventoryItemAttachments[]
+---@field Abilities gameInventoryItemAbility[]
+---@field PlacementSlots TweakDBID[]
+---@field PrimaryStats gameStatViewData[]
+---@field SecondaryStats gameStatViewData[]
+---@field SortData gameInventoryItemSortData
+---@field IsPerkRequired Bool
+---@field PerkRequiredName String
+---@field IsCrafted Bool
+---@field IsIconic Bool
 gameInventoryItemData = {}
 
 ---@param fields? gameInventoryItemData
 ---@return gameInventoryItemData
-function gameInventoryItemData.new(fields) return end
+function gameInventoryItemData.new(fields) end
 
 ---@return nil
-function gameInventoryItemData.GetArmor() return end
+function gameInventoryItemData.GetArmor() end
 
 ---@param self gameInventoryItemData
 ---@return Float
-function gameInventoryItemData.GetArmorF(self) return end
+function gameInventoryItemData.GetArmorF(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetDPS(self) return end
+function gameInventoryItemData.GetDPS(self) end
 
 ---@param self gameInventoryItemData
 ---@return Float
-function gameInventoryItemData.GetDPSF(self) return end
+function gameInventoryItemData.GetDPSF(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsGarment(self) return end
+function gameInventoryItemData.IsGarment(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsWeapon(self) return end
+function gameInventoryItemData.IsWeapon(self) end
 
 ---@param self gameInventoryItemData
 ---@param slot TweakDBID|string
 ---@return nil
-function gameInventoryItemData.AddPlacementSlot(self, slot) return end
+function gameInventoryItemData.AddPlacementSlot(self, slot) end
 
 ---@param self gameInventoryItemData
 ---@return gameInventoryItemAbility[]
-function gameInventoryItemData.GetAbilities(self) return end
+function gameInventoryItemData.GetAbilities(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetAbilitiesSize(self) return end
+function gameInventoryItemData.GetAbilitiesSize(self) end
 
 ---@param self gameInventoryItemData
 ---@param index Int32
 ---@return gameInventoryItemAbility
-function gameInventoryItemData.GetAbility(self, index) return end
+function gameInventoryItemData.GetAbility(self, index) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetAdditionalDescription(self) return end
+function gameInventoryItemData.GetAdditionalDescription(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetAmmo(self) return end
+function gameInventoryItemData.GetAmmo(self) end
 
 ---@param self gameInventoryItemData
 ---@param index Int32
 ---@return gameInventoryItemAttachments
-function gameInventoryItemData.GetAttachment(self, index) return end
+function gameInventoryItemData.GetAttachment(self, index) end
 
 ---@param self gameInventoryItemData
 ---@return gameInventoryItemAttachments[]
-function gameInventoryItemData.GetAttachments(self) return end
+function gameInventoryItemData.GetAttachments(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetAttachmentsSize(self) return end
+function gameInventoryItemData.GetAttachmentsSize(self) end
 
 ---@param self gameInventoryItemData
 ---@return Float
-function gameInventoryItemData.GetBuyPrice(self) return end
+function gameInventoryItemData.GetBuyPrice(self) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetCategoryName(self) return end
+function gameInventoryItemData.GetCategoryName(self) end
 
 ---@param self gameInventoryItemData
 ---@return gamedataQuality
-function gameInventoryItemData.GetComparedQuality(self) return end
+function gameInventoryItemData.GetComparedQuality(self) end
 
 ---@param self gameInventoryItemData
 ---@return gamedataDamageType
-function gameInventoryItemData.GetDamageType(self) return end
+function gameInventoryItemData.GetDamageType(self) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetDescription(self) return end
+function gameInventoryItemData.GetDescription(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameSItemStackRequirementData
-function gameInventoryItemData.GetEquipRequirement(self) return end
+function gameInventoryItemData.GetEquipRequirement(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameSItemStackRequirementData[]
-function gameInventoryItemData.GetEquipRequirements(self) return end
+function gameInventoryItemData.GetEquipRequirements(self) end
 
 ---@param self gameInventoryItemData
 ---@return gamedataEquipmentArea
-function gameInventoryItemData.GetEquipmentArea(self) return end
+function gameInventoryItemData.GetEquipmentArea(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameItemData
-function gameInventoryItemData.GetGameItemData(self) return end
+function gameInventoryItemData.GetGameItemData(self) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetGameplayDescription(self) return end
+function gameInventoryItemData.GetGameplayDescription(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameItemID
-function gameInventoryItemData.GetID(self) return end
+function gameInventoryItemData.GetID(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameItemIconGender
-function gameInventoryItemData.GetIconGender(self) return end
+function gameInventoryItemData.GetIconGender(self) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetIconPath(self) return end
+function gameInventoryItemData.GetIconPath(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.GetIsCrafted(self) return end
+function gameInventoryItemData.GetIsCrafted(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.GetIsPerkRequired(self) return end
+function gameInventoryItemData.GetIsPerkRequired(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetItemLevel(self) return end
+function gameInventoryItemData.GetItemLevel(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameInventoryItemShape
-function gameInventoryItemData.GetItemShape(self) return end
+function gameInventoryItemData.GetItemShape(self) end
 
 ---@param self gameInventoryItemData
 ---@return gamedataItemType
-function gameInventoryItemData.GetItemType(self) return end
+function gameInventoryItemData.GetItemType(self) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetLocalizedItemType(self) return end
+function gameInventoryItemData.GetLocalizedItemType(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameLootItemType
-function gameInventoryItemData.GetLootItemType(self) return end
+function gameInventoryItemData.GetLootItemType(self) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetName(self) return end
+function gameInventoryItemData.GetName(self) end
 
 ---@param self gameInventoryItemData
 ---@return String
-function gameInventoryItemData.GetPerkRequiredName(self) return end
+function gameInventoryItemData.GetPerkRequiredName(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetPlayerLevel(self) return end
+function gameInventoryItemData.GetPlayerLevel(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetPlayerReflexes(self) return end
+function gameInventoryItemData.GetPlayerReflexes(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetPlayerStreetCred(self) return end
+function gameInventoryItemData.GetPlayerStreetCred(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetPlayerStrenght(self) return end
+function gameInventoryItemData.GetPlayerStrenght(self) end
 
 ---@param self gameInventoryItemData
 ---@return Uint32
-function gameInventoryItemData.GetPositionInBackpack(self) return end
+function gameInventoryItemData.GetPositionInBackpack(self) end
 
 ---@param self gameInventoryItemData
 ---@return Float
-function gameInventoryItemData.GetPrice(self) return end
+function gameInventoryItemData.GetPrice(self) end
 
 ---@param self gameInventoryItemData
 ---@param index Int32
 ---@return gameStatViewData
-function gameInventoryItemData.GetPrimaryStat(self, index) return end
+function gameInventoryItemData.GetPrimaryStat(self, index) end
 
 ---@param self gameInventoryItemData
 ---@return gameStatViewData[]
-function gameInventoryItemData.GetPrimaryStats(self) return end
+function gameInventoryItemData.GetPrimaryStats(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetPrimaryStatsSize(self) return end
+function gameInventoryItemData.GetPrimaryStatsSize(self) end
 
 ---@param self gameInventoryItemData
 ---@return CName
-function gameInventoryItemData.GetQuality(self) return end
+function gameInventoryItemData.GetQuality(self) end
 
 ---@param self gameInventoryItemData
 ---@return Float
-function gameInventoryItemData.GetQualityF(self) return end
+function gameInventoryItemData.GetQualityF(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetQuantity(self) return end
+function gameInventoryItemData.GetQuantity(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetRequiredLevel(self) return end
+function gameInventoryItemData.GetRequiredLevel(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameSItemStackRequirementData
-function gameInventoryItemData.GetRequirement(self) return end
+function gameInventoryItemData.GetRequirement(self) end
 
 ---@param self gameInventoryItemData
 ---@param index Int32
 ---@return gameStatViewData
-function gameInventoryItemData.GetSecondaryStat(self, index) return end
+function gameInventoryItemData.GetSecondaryStat(self, index) end
 
 ---@param self gameInventoryItemData
 ---@return gameStatViewData[]
-function gameInventoryItemData.GetSecondaryStats(self) return end
+function gameInventoryItemData.GetSecondaryStats(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetSecondaryStatsSize(self) return end
+function gameInventoryItemData.GetSecondaryStatsSize(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameInventoryItemShape
-function gameInventoryItemData.GetShape(self) return end
+function gameInventoryItemData.GetShape(self) end
 
 ---@param self gameInventoryItemData
 ---@return TweakDBID
-function gameInventoryItemData.GetSlotID(self) return end
+function gameInventoryItemData.GetSlotID(self) end
 
 ---@param self gameInventoryItemData
 ---@return Int32
-function gameInventoryItemData.GetSlotIndex(self) return end
+function gameInventoryItemData.GetSlotIndex(self) end
 
 ---@param self gameInventoryItemData
 ---@return gameInventoryItemSortData
-function gameInventoryItemData.GetSortData(self) return end
+function gameInventoryItemData.GetSortData(self) end
 
 ---@param self gameInventoryItemData
 ---@return Float
-function gameInventoryItemData.GetUnlockProgress(self) return end
+function gameInventoryItemData.GetUnlockProgress(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.HasPlayerSmartGunLink(self) return end
+function gameInventoryItemData.HasPlayerSmartGunLink(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsAvailable(self) return end
+function gameInventoryItemData.IsAvailable(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsBroken(self) return end
+function gameInventoryItemData.IsBroken(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsCraftingMaterial(self) return end
+function gameInventoryItemData.IsCraftingMaterial(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsEmpty(self) return end
+function gameInventoryItemData.IsEmpty(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsEquippable(self) return end
+function gameInventoryItemData.IsEquippable(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsEquipped(self) return end
+function gameInventoryItemData.IsEquipped(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsNew(self) return end
+function gameInventoryItemData.IsNew(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsPart(self) return end
+function gameInventoryItemData.IsPart(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsRequirementMet(self) return end
+function gameInventoryItemData.IsRequirementMet(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsVendorItem(self) return end
+function gameInventoryItemData.IsVendorItem(self) end
 
 ---@param self gameInventoryItemData
 ---@return Bool
-function gameInventoryItemData.IsVisualsEquipped(self) return end
+function gameInventoryItemData.IsVisualsEquipped(self) end
 
 ---@param self gameInventoryItemData
 ---@param slot TweakDBID|string
 ---@return Bool
-function gameInventoryItemData.PlacementSlotsContains(self, slot) return end
+function gameInventoryItemData.PlacementSlotsContains(self, slot) end
 
 ---@param self gameInventoryItemData
 ---@param abilities gameInventoryItemAbility[]
 ---@return nil
-function gameInventoryItemData.SetAbilities(self, abilities) return end
+function gameInventoryItemData.SetAbilities(self, abilities) end
 
 ---@param self gameInventoryItemData
 ---@param description String
 ---@return nil
-function gameInventoryItemData.SetAdditionalDescription(self, description) return end
+function gameInventoryItemData.SetAdditionalDescription(self, description) end
 
 ---@param self gameInventoryItemData
 ---@param ammo Int32
 ---@return nil
-function gameInventoryItemData.SetAmmo(self, ammo) return end
+function gameInventoryItemData.SetAmmo(self, ammo) end
 
 ---@param self gameInventoryItemData
 ---@param attachments gameInventoryItemAttachments[]
 ---@return nil
-function gameInventoryItemData.SetAttachments(self, attachments) return end
+function gameInventoryItemData.SetAttachments(self, attachments) end
 
 ---@param self gameInventoryItemData
 ---@param price Float
 ---@return nil
-function gameInventoryItemData.SetBuyPrice(self, price) return end
+function gameInventoryItemData.SetBuyPrice(self, price) end
 
 ---@param self gameInventoryItemData
 ---@param categoryName String
 ---@return nil
-function gameInventoryItemData.SetCategoryName(self, categoryName) return end
+function gameInventoryItemData.SetCategoryName(self, categoryName) end
 
 ---@param self gameInventoryItemData
 ---@param comparedQuality gamedataQuality
 ---@return nil
-function gameInventoryItemData.SetComparedQuality(self, comparedQuality) return end
+function gameInventoryItemData.SetComparedQuality(self, comparedQuality) end
 
 ---@param self gameInventoryItemData
 ---@param damageType gamedataDamageType
 ---@return nil
-function gameInventoryItemData.SetDamageType(self, damageType) return end
+function gameInventoryItemData.SetDamageType(self, damageType) end
 
 ---@param self gameInventoryItemData
 ---@param description String
 ---@return nil
-function gameInventoryItemData.SetDescription(self, description) return end
+function gameInventoryItemData.SetDescription(self, description) end
 
 ---@param self gameInventoryItemData
 ---@param empty Bool
 ---@return nil
-function gameInventoryItemData.SetEmpty(self, empty) return end
+function gameInventoryItemData.SetEmpty(self, empty) end
 
 ---@param self gameInventoryItemData
 ---@param requirement gameSItemStackRequirementData
 ---@return nil
-function gameInventoryItemData.SetEquipRequirement(self, requirement) return end
+function gameInventoryItemData.SetEquipRequirement(self, requirement) end
 
 ---@param self gameInventoryItemData
 ---@param requirements gameSItemStackRequirementData[]
 ---@return nil
-function gameInventoryItemData.SetEquipRequirements(self, requirements) return end
+function gameInventoryItemData.SetEquipRequirements(self, requirements) end
 
 ---@param self gameInventoryItemData
 ---@param equipmentArea gamedataEquipmentArea
 ---@return nil
-function gameInventoryItemData.SetEquipmentArea(self, equipmentArea) return end
+function gameInventoryItemData.SetEquipmentArea(self, equipmentArea) end
 
 ---@param self gameInventoryItemData
 ---@param gameItemData gameItemData
 ---@return nil
-function gameInventoryItemData.SetGameItemData(self, gameItemData) return end
+function gameInventoryItemData.SetGameItemData(self, gameItemData) end
 
 ---@param self gameInventoryItemData
 ---@param value String
 ---@return nil
-function gameInventoryItemData.SetGameplayDescription(self, value) return end
+function gameInventoryItemData.SetGameplayDescription(self, value) end
 
 ---@param self gameInventoryItemData
 ---@param hasPlayerSmartGunLink Bool
 ---@return nil
-function gameInventoryItemData.SetHasPlayerSmartGunLink(self, hasPlayerSmartGunLink) return end
+function gameInventoryItemData.SetHasPlayerSmartGunLink(self, hasPlayerSmartGunLink) end
 
 ---@param self gameInventoryItemData
 ---@param id gameItemID
 ---@return nil
-function gameInventoryItemData.SetID(self, id) return end
+function gameInventoryItemData.SetID(self, id) end
 
 ---@param self gameInventoryItemData
 ---@param iconGender gameItemIconGender
 ---@return nil
-function gameInventoryItemData.SetIconGender(self, iconGender) return end
+function gameInventoryItemData.SetIconGender(self, iconGender) end
 
 ---@param self gameInventoryItemData
 ---@param iconPath String
 ---@return nil
-function gameInventoryItemData.SetIconPath(self, iconPath) return end
+function gameInventoryItemData.SetIconPath(self, iconPath) end
 
 ---@param self gameInventoryItemData
 ---@param isAvailable Bool
 ---@return nil
-function gameInventoryItemData.SetIsAvailable(self, isAvailable) return end
+function gameInventoryItemData.SetIsAvailable(self, isAvailable) end
 
 ---@param self gameInventoryItemData
 ---@param isBroken Bool
 ---@return nil
-function gameInventoryItemData.SetIsBroken(self, isBroken) return end
+function gameInventoryItemData.SetIsBroken(self, isBroken) end
 
 ---@param self gameInventoryItemData
 ---@param isCrafted Bool
 ---@return nil
-function gameInventoryItemData.SetIsCrafted(self, isCrafted) return end
+function gameInventoryItemData.SetIsCrafted(self, isCrafted) end
 
 ---@param self gameInventoryItemData
 ---@param isCraftingMaterial Bool
 ---@return nil
-function gameInventoryItemData.SetIsCraftingMaterial(self, isCraftingMaterial) return end
+function gameInventoryItemData.SetIsCraftingMaterial(self, isCraftingMaterial) end
 
 ---@param self gameInventoryItemData
 ---@param isEquippable Bool
 ---@return nil
-function gameInventoryItemData.SetIsEquippable(self, isEquippable) return end
+function gameInventoryItemData.SetIsEquippable(self, isEquippable) end
 
 ---@param self gameInventoryItemData
 ---@param isEquipped Bool
 ---@return nil
-function gameInventoryItemData.SetIsEquipped(self, isEquipped) return end
+function gameInventoryItemData.SetIsEquipped(self, isEquipped) end
 
 ---@param self gameInventoryItemData
 ---@param isNew Bool
 ---@return nil
-function gameInventoryItemData.SetIsNew(self, isNew) return end
+function gameInventoryItemData.SetIsNew(self, isNew) end
 
 ---@param self gameInventoryItemData
 ---@param isPart Bool
 ---@return nil
-function gameInventoryItemData.SetIsPart(self, isPart) return end
+function gameInventoryItemData.SetIsPart(self, isPart) end
 
 ---@param self gameInventoryItemData
 ---@param isRequired Bool
 ---@return nil
-function gameInventoryItemData.SetIsPerkRequired(self, isRequired) return end
+function gameInventoryItemData.SetIsPerkRequired(self, isRequired) end
 
 ---@param self gameInventoryItemData
 ---@param isRequirementMet Bool
 ---@return nil
-function gameInventoryItemData.SetIsRequirementMet(self, isRequirementMet) return end
+function gameInventoryItemData.SetIsRequirementMet(self, isRequirementMet) end
 
 ---@param self gameInventoryItemData
 ---@param isVendorItem Bool
 ---@return nil
-function gameInventoryItemData.SetIsVendorItem(self, isVendorItem) return end
+function gameInventoryItemData.SetIsVendorItem(self, isVendorItem) end
 
 ---@param self gameInventoryItemData
 ---@param value Bool
 ---@return nil
-function gameInventoryItemData.SetIsVisualsEquipped(self, value) return end
+function gameInventoryItemData.SetIsVisualsEquipped(self, value) end
 
 ---@param self gameInventoryItemData
 ---@param itemLevel Int32
 ---@return nil
-function gameInventoryItemData.SetItemLevel(self, itemLevel) return end
+function gameInventoryItemData.SetItemLevel(self, itemLevel) end
 
 ---@param self gameInventoryItemData
 ---@param shape gameInventoryItemShape
 ---@return nil
-function gameInventoryItemData.SetItemShape(self, shape) return end
+function gameInventoryItemData.SetItemShape(self, shape) end
 
 ---@param self gameInventoryItemData
 ---@param itemType gamedataItemType
 ---@return nil
-function gameInventoryItemData.SetItemType(self, itemType) return end
+function gameInventoryItemData.SetItemType(self, itemType) end
 
 ---@param self gameInventoryItemData
 ---@param localizedItemType String
 ---@return nil
-function gameInventoryItemData.SetLocalizedItemType(self, localizedItemType) return end
+function gameInventoryItemData.SetLocalizedItemType(self, localizedItemType) end
 
 ---@param self gameInventoryItemData
 ---@param lootItemType gameLootItemType
 ---@return nil
-function gameInventoryItemData.SetLootItemType(self, lootItemType) return end
+function gameInventoryItemData.SetLootItemType(self, lootItemType) end
 
 ---@param self gameInventoryItemData
 ---@param Name String
 ---@return nil
-function gameInventoryItemData.SetName(self, Name) return end
+function gameInventoryItemData.SetName(self, Name) end
 
 ---@param self gameInventoryItemData
 ---@param perkName String
 ---@return nil
-function gameInventoryItemData.SetPerkRequiredName(self, perkName) return end
+function gameInventoryItemData.SetPerkRequiredName(self, perkName) end
 
 ---@param self gameInventoryItemData
 ---@param playerLevel Int32
 ---@return nil
-function gameInventoryItemData.SetPlayerLevel(self, playerLevel) return end
+function gameInventoryItemData.SetPlayerLevel(self, playerLevel) end
 
 ---@param self gameInventoryItemData
 ---@param playerReflexes Int32
 ---@return nil
-function gameInventoryItemData.SetPlayerReflexes(self, playerReflexes) return end
+function gameInventoryItemData.SetPlayerReflexes(self, playerReflexes) end
 
 ---@param self gameInventoryItemData
 ---@param playerStreetCred Int32
 ---@return nil
-function gameInventoryItemData.SetPlayerStreetCred(self, playerStreetCred) return end
+function gameInventoryItemData.SetPlayerStreetCred(self, playerStreetCred) end
 
 ---@param self gameInventoryItemData
 ---@param playerStrength Int32
 ---@return nil
-function gameInventoryItemData.SetPlayerStrength(self, playerStrength) return end
+function gameInventoryItemData.SetPlayerStrength(self, playerStrength) end
 
 ---@param self gameInventoryItemData
 ---@param positionInBackpack Uint32
 ---@return nil
-function gameInventoryItemData.SetPositionInBackpack(self, positionInBackpack) return end
+function gameInventoryItemData.SetPositionInBackpack(self, positionInBackpack) end
 
 ---@param self gameInventoryItemData
 ---@param price Float
 ---@return nil
-function gameInventoryItemData.SetPrice(self, price) return end
+function gameInventoryItemData.SetPrice(self, price) end
 
 ---@param self gameInventoryItemData
 ---@param primaryStats gameStatViewData[]
 ---@return nil
-function gameInventoryItemData.SetPrimaryStats(self, primaryStats) return end
+function gameInventoryItemData.SetPrimaryStats(self, primaryStats) end
 
 ---@param self gameInventoryItemData
 ---@param quality CName|string
 ---@return nil
-function gameInventoryItemData.SetQuality(self, quality) return end
+function gameInventoryItemData.SetQuality(self, quality) end
 
 ---@param self gameInventoryItemData
 ---@param quality Float
 ---@return nil
-function gameInventoryItemData.SetQualityF(self, quality) return end
+function gameInventoryItemData.SetQualityF(self, quality) end
 
 ---@param self gameInventoryItemData
 ---@param quantity Int32
 ---@return nil
-function gameInventoryItemData.SetQuantity(self, quantity) return end
+function gameInventoryItemData.SetQuantity(self, quantity) end
 
 ---@param self gameInventoryItemData
 ---@param requiredLevel Int32
 ---@return nil
-function gameInventoryItemData.SetRequiredLevel(self, requiredLevel) return end
+function gameInventoryItemData.SetRequiredLevel(self, requiredLevel) end
 
 ---@param self gameInventoryItemData
 ---@param requirement gameSItemStackRequirementData
 ---@return nil
-function gameInventoryItemData.SetRequirement(self, requirement) return end
+function gameInventoryItemData.SetRequirement(self, requirement) end
 
 ---@param self gameInventoryItemData
 ---@param secondaryStats gameStatViewData[]
 ---@return nil
-function gameInventoryItemData.SetSecondaryStats(self, secondaryStats) return end
+function gameInventoryItemData.SetSecondaryStats(self, secondaryStats) end
 
 ---@param self gameInventoryItemData
 ---@param shape gameInventoryItemShape
 ---@return nil
-function gameInventoryItemData.SetShape(self, shape) return end
+function gameInventoryItemData.SetShape(self, shape) end
 
 ---@param self gameInventoryItemData
 ---@param id TweakDBID|string
 ---@return nil
-function gameInventoryItemData.SetSlotID(self, id) return end
+function gameInventoryItemData.SetSlotID(self, id) end
 
 ---@param self gameInventoryItemData
 ---@param slotIndex Int32
 ---@return nil
-function gameInventoryItemData.SetSlotIndex(self, slotIndex) return end
+function gameInventoryItemData.SetSlotIndex(self, slotIndex) end
 
 ---@param self gameInventoryItemData
 ---@param sortData gameInventoryItemSortData
 ---@return nil
-function gameInventoryItemData.SetSortData(self, sortData) return end
+function gameInventoryItemData.SetSortData(self, sortData) end
 
 ---@param self gameInventoryItemData
 ---@param unlockProgress Float
 ---@return nil
-function gameInventoryItemData.SetUnlockProgress(self, unlockProgress) return end
+function gameInventoryItemData.SetUnlockProgress(self, unlockProgress) end
 
 ---@param self gameInventoryItemData
 ---@param uiScriptableSystem UIScriptableSystem
 ---@return nil
-function gameInventoryItemData.UpdateSortData(self, uiScriptableSystem) return end
+function gameInventoryItemData.UpdateSortData(self, uiScriptableSystem) end
 
 ---@param self gameInventoryItemData
 ---@param uiScriptableSystem UIScriptableSystem
 ---@param isPlayerFavourite Bool
 ---@return nil
-function gameInventoryItemData.UpdateSortData(self, uiScriptableSystem, isPlayerFavourite) return end
+function gameInventoryItemData.UpdateSortData(self, uiScriptableSystem, isPlayerFavourite) end

@@ -5,4 +5,4 @@ VehicleHackedEvent = {}
 
 ---@param fields? VehicleHackedEvent
 ---@return VehicleHackedEvent
-function VehicleHackedEvent.new(fields) return end
+function VehicleHackedEvent.new(fields) end

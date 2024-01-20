@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioPanicModeVirtualizeList: audioAudioMetadata
----@field public tags CName[]
+---@field tags CName[]
 audioPanicModeVirtualizeList = {}
 
 ---@param fields? audioPanicModeVirtualizeList
 ---@return audioPanicModeVirtualizeList
-function audioPanicModeVirtualizeList.new(fields) return end
+function audioPanicModeVirtualizeList.new(fields) end

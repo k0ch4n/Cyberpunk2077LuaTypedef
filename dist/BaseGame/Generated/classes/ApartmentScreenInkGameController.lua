@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class ApartmentScreenInkGameController: LcdScreenInkGameController
----@field protected backgroundFrameWidget inkImageWidget
+---@field backgroundFrameWidget inkImageWidget
 ApartmentScreenInkGameController = {}
 
 ---@param fields? ApartmentScreenInkGameController
 ---@return ApartmentScreenInkGameController
-function ApartmentScreenInkGameController.new(fields) return end
+function ApartmentScreenInkGameController.new(fields) end
 
----@protected
 ---@return ApartmentScreen
-function ApartmentScreenInkGameController:GetOwner() return end
+function ApartmentScreenInkGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function ApartmentScreenInkGameController:Refresh(state) return end
+function ApartmentScreenInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ApartmentScreenInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function ApartmentScreenInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param record gamedataScreenMessageData_Record
 ---@return nil
-function ApartmentScreenInkGameController:ResolveMessegeRecord(record) return end
+function ApartmentScreenInkGameController:ResolveMessegeRecord(record) end
 
----@protected
 ---@return nil
-function ApartmentScreenInkGameController:SetupWidgets() return end
+function ApartmentScreenInkGameController:SetupWidgets() end

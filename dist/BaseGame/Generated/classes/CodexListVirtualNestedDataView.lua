@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class CodexListVirtualNestedDataView: VirtualNestedListDataView
----@field public currentFilter CodexCategoryType
+---@field currentFilter CodexCategoryType
 CodexListVirtualNestedDataView = {}
 
 ---@param fields? CodexListVirtualNestedDataView
 ---@return CodexListVirtualNestedDataView
-function CodexListVirtualNestedDataView.new(fields) return end
+function CodexListVirtualNestedDataView.new(fields) end
 
----@protected
 ---@param data VirutalNestedListData
 ---@return Bool
-function CodexListVirtualNestedDataView:FilterItems(data) return end
+function CodexListVirtualNestedDataView:FilterItems(data) end
 
 ---@param filterType CodexCategoryType
 ---@return nil
-function CodexListVirtualNestedDataView:SetFilter(filterType) return end
+function CodexListVirtualNestedDataView:SetFilter(filterType) end
 
----@protected
 ---@param compareBuilder CompareBuilder
 ---@param left VirutalNestedListData
 ---@param right VirutalNestedListData
 ---@return nil
-function CodexListVirtualNestedDataView:SortItems(compareBuilder, left, right) return end
+function CodexListVirtualNestedDataView:SortItems(compareBuilder, left, right) end

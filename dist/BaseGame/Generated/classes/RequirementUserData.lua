@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class RequirementUserData: IScriptable
----@field public skillName String
----@field public requiredSkill Int32
----@field public skillCheck EDeviceChallengeSkill
----@field public isPassed Bool
----@field public asyncSpawnRequest inkAsyncSpawnRequest
+---@field skillName String
+---@field requiredSkill Int32
+---@field skillCheck EDeviceChallengeSkill
+---@field isPassed Bool
+---@field asyncSpawnRequest inkAsyncSpawnRequest
 RequirementUserData = {}
 
 ---@param fields? RequirementUserData
 ---@return RequirementUserData
-function RequirementUserData.new(fields) return end
+function RequirementUserData.new(fields) end

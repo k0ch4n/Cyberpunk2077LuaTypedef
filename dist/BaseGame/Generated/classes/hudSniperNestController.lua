@@ -1,38 +1,34 @@
 ---@meta
 
 ---@class hudSniperNestController: gameuiHUDGameController
----@field private psmBlackboard gameIBlackboard
----@field private tcsBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private tcs_BBID redCallbackObject
----@field private deviceChain_BBID redCallbackObject
----@field private root inkCompoundWidget
----@field private controlledObjectRef gameObject
----@field private alpha_fadein inkanimDefinition
----@field private AnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private ownerObject gameObject
----@field private maxZoomLevel Int32
+---@field psmBlackboard gameIBlackboard
+---@field tcsBlackboard gameIBlackboard
+---@field PSM_BBID redCallbackObject
+---@field tcs_BBID redCallbackObject
+---@field deviceChain_BBID redCallbackObject
+---@field root inkCompoundWidget
+---@field controlledObjectRef gameObject
+---@field alpha_fadein inkanimDefinition
+---@field AnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field ownerObject gameObject
+---@field maxZoomLevel Int32
 hudSniperNestController = {}
 
 ---@param fields? hudSniperNestController
 ---@return hudSniperNestController
-function hudSniperNestController.new(fields) return end
+function hudSniperNestController.new(fields) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function hudSniperNestController:OnChangeControlledDevice(value) return end
+function hudSniperNestController:OnChangeControlledDevice(value) end
 
----@protected
 ---@param evt DelayedHUDInitializeEvent
 ---@return Bool
-function hudSniperNestController:OnDelayedHUDInitializeEvent(evt) return end
+function hudSniperNestController:OnDelayedHUDInitializeEvent(evt) end
 
----@protected
 ---@return Bool
-function hudSniperNestController:OnInitialize() return end
+function hudSniperNestController:OnInitialize() end
 
----@protected
 ---@return Bool
-function hudSniperNestController:OnUninitialize() return end
+function hudSniperNestController:OnUninitialize() end

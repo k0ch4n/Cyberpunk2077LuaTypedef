@@ -5,13 +5,13 @@ gamedataRemoveAllModifiersEffector_Record = {}
 
 ---@param fields? gamedataRemoveAllModifiersEffector_Record
 ---@return gamedataRemoveAllModifiersEffector_Record
-function gamedataRemoveAllModifiersEffector_Record.new(fields) return end
+function gamedataRemoveAllModifiersEffector_Record.new(fields) end
 
 ---@return CName
-function gamedataRemoveAllModifiersEffector_Record:ApplicationTarget() return end
+function gamedataRemoveAllModifiersEffector_Record:ApplicationTarget() end
 
 ---@return gamedataStat_Record
-function gamedataRemoveAllModifiersEffector_Record:StatType() return end
+function gamedataRemoveAllModifiersEffector_Record:StatType() end
 
 ---@return gamedataStat_Record
-function gamedataRemoveAllModifiersEffector_Record:StatTypeHandle() return end
+function gamedataRemoveAllModifiersEffector_Record:StatTypeHandle() end

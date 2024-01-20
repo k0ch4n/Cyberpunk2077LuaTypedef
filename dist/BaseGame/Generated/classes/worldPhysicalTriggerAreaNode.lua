@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldPhysicalTriggerAreaNode: worldNode
----@field public simulationType physicsSimulationType
----@field public shape physicsTriggerShape
----@field public filterData physicsFilterData
+---@field simulationType physicsSimulationType
+---@field shape physicsTriggerShape
+---@field filterData physicsFilterData
 worldPhysicalTriggerAreaNode = {}
 
 ---@param fields? worldPhysicalTriggerAreaNode
 ---@return worldPhysicalTriggerAreaNode
-function worldPhysicalTriggerAreaNode.new(fields) return end
+function worldPhysicalTriggerAreaNode.new(fields) end

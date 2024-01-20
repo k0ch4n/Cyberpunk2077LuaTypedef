@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HighlightConnectionComponentEvent: redEvent
----@field public IsHighlightON Bool
+---@field IsHighlightON Bool
 HighlightConnectionComponentEvent = {}
 
 ---@param fields? HighlightConnectionComponentEvent
 ---@return HighlightConnectionComponentEvent
-function HighlightConnectionComponentEvent.new(fields) return end
+function HighlightConnectionComponentEvent.new(fields) end

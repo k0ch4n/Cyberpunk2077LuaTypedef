@@ -5,10 +5,10 @@ GTFParamManager = {}
 
 ---@param fields? GTFParamManager
 ---@return GTFParamManager
-function GTFParamManager.new(fields) return end
+function GTFParamManager.new(fields) end
 
 ---@return nil
-function GTFParamManager:SetFPSClamp() return end
+function GTFParamManager:SetFPSClamp() end
 
 ---@return nil
-function GTFParamManager:SetTurboMode() return end
+function GTFParamManager:SetTurboMode() end

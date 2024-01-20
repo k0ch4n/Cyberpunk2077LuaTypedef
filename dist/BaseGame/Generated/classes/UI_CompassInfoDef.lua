@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class UI_CompassInfoDef: gamebbScriptDefinition
----@field public NorthOffset gamebbScriptID_Float
----@field public SouthOffset gamebbScriptID_Float
----@field public EastOffset gamebbScriptID_Float
----@field public WestOffset gamebbScriptID_Float
----@field public Pins gamebbScriptID_Variant
+---@field NorthOffset gamebbScriptID_Float
+---@field SouthOffset gamebbScriptID_Float
+---@field EastOffset gamebbScriptID_Float
+---@field WestOffset gamebbScriptID_Float
+---@field Pins gamebbScriptID_Variant
 UI_CompassInfoDef = {}
 
 ---@param fields? UI_CompassInfoDef
 ---@return UI_CompassInfoDef
-function UI_CompassInfoDef.new(fields) return end
+function UI_CompassInfoDef.new(fields) end
 
 ---@return Bool
-function UI_CompassInfoDef:AutoCreateInSystem() return end
+function UI_CompassInfoDef:AutoCreateInSystem() end

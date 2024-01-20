@@ -5,4 +5,4 @@ worldTrafficLanesSpotsResource = {}
 
 ---@param fields? worldTrafficLanesSpotsResource
 ---@return worldTrafficLanesSpotsResource
-function worldTrafficLanesSpotsResource.new(fields) return end
+function worldTrafficLanesSpotsResource.new(fields) end

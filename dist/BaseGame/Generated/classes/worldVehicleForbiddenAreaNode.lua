@@ -5,4 +5,4 @@ worldVehicleForbiddenAreaNode = {}
 
 ---@param fields? worldVehicleForbiddenAreaNode
 ---@return worldVehicleForbiddenAreaNode
-function worldVehicleForbiddenAreaNode.new(fields) return end
+function worldVehicleForbiddenAreaNode.new(fields) end

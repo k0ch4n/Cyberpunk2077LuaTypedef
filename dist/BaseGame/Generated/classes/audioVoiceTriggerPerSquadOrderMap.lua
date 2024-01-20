@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioVoiceTriggerPerSquadOrderMap: audioAudioMetadata
----@field public items audioVoiceTriggerPerSquadOrderMapItem[]
+---@field items audioVoiceTriggerPerSquadOrderMapItem[]
 audioVoiceTriggerPerSquadOrderMap = {}
 
 ---@param fields? audioVoiceTriggerPerSquadOrderMap
 ---@return audioVoiceTriggerPerSquadOrderMap
-function audioVoiceTriggerPerSquadOrderMap.new(fields) return end
+function audioVoiceTriggerPerSquadOrderMap.new(fields) end

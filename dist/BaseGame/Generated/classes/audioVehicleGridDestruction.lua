@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioVehicleGridDestruction: audioAudioMetadata
----@field public minGridCellRawChangeThreshold Float
----@field public specificGridCellImpactCooldown Float
----@field public minGridCellValueToPlayDetailedEvent Float
----@field public bottomLayer audioVehicleDestructionGridLayer
----@field public upperLayer audioVehicleDestructionGridLayer
+---@field minGridCellRawChangeThreshold Float
+---@field specificGridCellImpactCooldown Float
+---@field minGridCellValueToPlayDetailedEvent Float
+---@field bottomLayer audioVehicleDestructionGridLayer
+---@field upperLayer audioVehicleDestructionGridLayer
 audioVehicleGridDestruction = {}
 
 ---@param fields? audioVehicleGridDestruction
 ---@return audioVehicleGridDestruction
-function audioVehicleGridDestruction.new(fields) return end
+function audioVehicleGridDestruction.new(fields) end

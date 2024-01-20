@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameStatusEffectReplicatedInfo
----@field public statusEffectRecordID TweakDBID
----@field public stackCount Uint32
----@field public source CName
+---@field statusEffectRecordID TweakDBID
+---@field stackCount Uint32
+---@field source CName
 gameStatusEffectReplicatedInfo = {}
 
 ---@param fields? gameStatusEffectReplicatedInfo
 ---@return gameStatusEffectReplicatedInfo
-function gameStatusEffectReplicatedInfo.new(fields) return end
+function gameStatusEffectReplicatedInfo.new(fields) end

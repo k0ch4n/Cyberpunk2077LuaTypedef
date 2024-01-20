@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gamestateMachineeventBaseEvent: redEvent
----@field public id CName
+---@field id CName
 gamestateMachineeventBaseEvent = {}

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class workWorkspotItemOverridePropOverride
----@field public prevItemId CName
----@field public newItemId CName
+---@field prevItemId CName
+---@field newItemId CName
 workWorkspotItemOverridePropOverride = {}
 
 ---@param fields? workWorkspotItemOverridePropOverride
 ---@return workWorkspotItemOverridePropOverride
-function workWorkspotItemOverridePropOverride.new(fields) return end
+function workWorkspotItemOverridePropOverride.new(fields) end

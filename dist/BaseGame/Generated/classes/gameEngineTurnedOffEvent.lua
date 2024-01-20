@@ -5,4 +5,4 @@ gameEngineTurnedOffEvent = {}
 
 ---@param fields? gameEngineTurnedOffEvent
 ---@return gameEngineTurnedOffEvent
-function gameEngineTurnedOffEvent.new(fields) return end
+function gameEngineTurnedOffEvent.new(fields) end

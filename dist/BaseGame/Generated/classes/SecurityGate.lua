@@ -1,62 +1,53 @@
 ---@meta
 
 ---@class SecurityGate: InteractiveMasterDevice
----@field private sideA gameStaticTriggerAreaComponent
----@field private sideB gameStaticTriggerAreaComponent
----@field private scanningArea gameStaticTriggerAreaComponent
----@field private trespassersDataList TrespasserEntry[]
+---@field sideA gameStaticTriggerAreaComponent
+---@field sideB gameStaticTriggerAreaComponent
+---@field scanningArea gameStaticTriggerAreaComponent
+---@field trespassersDataList TrespasserEntry[]
 SecurityGate = {}
 
 ---@param fields? SecurityGate
 ---@return SecurityGate
-function SecurityGate.new(fields) return end
+function SecurityGate.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function SecurityGate:OnAreaEnter(evt) return end
+function SecurityGate:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function SecurityGate:OnAreaExit(evt) return end
+function SecurityGate:OnAreaExit(evt) end
 
----@protected
 ---@param evt InitiateScanner
 ---@return Bool
-function SecurityGate:OnInitiateScanner(evt) return end
+function SecurityGate:OnInitiateScanner(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SecurityGate:OnRequestComponents(ri) return end
+function SecurityGate:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SecurityGateResponse
 ---@return Bool
-function SecurityGate:OnSecurityGateResponse(evt) return end
+function SecurityGate:OnSecurityGateResponse(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SecurityGate:OnTakeControl(ri) return end
+function SecurityGate:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function SecurityGate:DeterminGameplayRole() return end
+function SecurityGate:DeterminGameplayRole() end
 
----@private
 ---@return SecurityGateController
-function SecurityGate:GetController() return end
+function SecurityGate:GetController() end
 
 ---@return SecurityGateControllerPS
-function SecurityGate:GetDevicePS() return end
+function SecurityGate:GetDevicePS() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function SecurityGate:StartGlitching(glitchState, intensity) return end
+function SecurityGate:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function SecurityGate:StopGlitching() return end
+function SecurityGate:StopGlitching() end

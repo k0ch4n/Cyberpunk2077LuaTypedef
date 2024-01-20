@@ -5,9 +5,8 @@ SetSearchInfluenceTask = {}
 
 ---@param fields? SetSearchInfluenceTask
 ---@return SetSearchInfluenceTask
-function SetSearchInfluenceTask.new(fields) return end
+function SetSearchInfluenceTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetSearchInfluenceTask:Activate(context) return end
+function SetSearchInfluenceTask:Activate(context) end

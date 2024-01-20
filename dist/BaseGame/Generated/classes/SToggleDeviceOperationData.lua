@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SToggleDeviceOperationData
----@field public operationName CName
----@field public enable Bool
+---@field operationName CName
+---@field enable Bool
 SToggleDeviceOperationData = {}
 
 ---@param fields? SToggleDeviceOperationData
 ---@return SToggleDeviceOperationData
-function SToggleDeviceOperationData.new(fields) return end
+function SToggleDeviceOperationData.new(fields) end

@@ -5,7 +5,7 @@ WallScreenController = {}
 
 ---@param fields? WallScreenController
 ---@return WallScreenController
-function WallScreenController.new(fields) return end
+function WallScreenController.new(fields) end
 
 ---@return WallScreenControllerPS
-function WallScreenController:GetPS() return end
+function WallScreenController:GetPS() end

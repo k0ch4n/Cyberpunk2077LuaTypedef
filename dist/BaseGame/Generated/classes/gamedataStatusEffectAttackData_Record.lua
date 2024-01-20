@@ -5,22 +5,22 @@ gamedataStatusEffectAttackData_Record = {}
 
 ---@param fields? gamedataStatusEffectAttackData_Record
 ---@return gamedataStatusEffectAttackData_Record
-function gamedataStatusEffectAttackData_Record.new(fields) return end
+function gamedataStatusEffectAttackData_Record.new(fields) end
 
 ---@return Bool
-function gamedataStatusEffectAttackData_Record:ApplyImmediately() return end
+function gamedataStatusEffectAttackData_Record:ApplyImmediately() end
 
 ---@return gamedataStatPool_Record
-function gamedataStatusEffectAttackData_Record:ResistPool() return end
+function gamedataStatusEffectAttackData_Record:ResistPool() end
 
 ---@return gamedataStatPool_Record
-function gamedataStatusEffectAttackData_Record:ResistPoolHandle() return end
+function gamedataStatusEffectAttackData_Record:ResistPoolHandle() end
 
 ---@return Float
-function gamedataStatusEffectAttackData_Record:StacksToApply() return end
+function gamedataStatusEffectAttackData_Record:StacksToApply() end
 
 ---@return gamedataStatusEffect_Record
-function gamedataStatusEffectAttackData_Record:StatusEffect() return end
+function gamedataStatusEffectAttackData_Record:StatusEffect() end
 
 ---@return gamedataStatusEffect_Record
-function gamedataStatusEffectAttackData_Record:StatusEffectHandle() return end
+function gamedataStatusEffectAttackData_Record:StatusEffectHandle() end

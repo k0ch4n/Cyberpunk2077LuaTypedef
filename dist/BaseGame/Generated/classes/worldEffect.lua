@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class worldEffect: resStreamedResource
----@field public name CName
----@field public length Float
----@field public inputParameterNames CName[]
----@field public trackRoot effectTrackGroup
----@field public events effectTrackItem[]
----@field public effectLoops effectLoopData[]
+---@field name CName
+---@field length Float
+---@field inputParameterNames CName[]
+---@field trackRoot effectTrackGroup
+---@field events effectTrackItem[]
+---@field effectLoops effectLoopData[]
 worldEffect = {}
 
 ---@param fields? worldEffect
 ---@return worldEffect
-function worldEffect.new(fields) return end
+function worldEffect.new(fields) end

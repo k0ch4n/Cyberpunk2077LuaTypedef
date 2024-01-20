@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AICTreeExtendableNodeDefinition: AICTreeNodeDefinition
----@field public optionalChild LibTreeINodeDefinition
+---@field optionalChild LibTreeINodeDefinition
 AICTreeExtendableNodeDefinition = {}

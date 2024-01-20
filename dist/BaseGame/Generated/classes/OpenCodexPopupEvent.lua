@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OpenCodexPopupEvent: redEvent
----@field public entry gameJournalEntry
+---@field entry gameJournalEntry
 OpenCodexPopupEvent = {}
 
 ---@param fields? OpenCodexPopupEvent
 ---@return OpenCodexPopupEvent
-function OpenCodexPopupEvent.new(fields) return end
+function OpenCodexPopupEvent.new(fields) end

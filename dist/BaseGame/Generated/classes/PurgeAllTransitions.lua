@@ -5,4 +5,4 @@ PurgeAllTransitions = {}
 
 ---@param fields? PurgeAllTransitions
 ---@return PurgeAllTransitions
-function PurgeAllTransitions.new(fields) return end
+function PurgeAllTransitions.new(fields) end

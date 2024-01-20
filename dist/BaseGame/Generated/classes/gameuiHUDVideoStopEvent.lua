@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiHUDVideoStopEvent
----@field public videoPathHash Uint64
----@field public isSkip Bool
+---@field videoPathHash Uint64
+---@field isSkip Bool
 gameuiHUDVideoStopEvent = {}
 
 ---@param fields? gameuiHUDVideoStopEvent
 ---@return gameuiHUDVideoStopEvent
-function gameuiHUDVideoStopEvent.new(fields) return end
+function gameuiHUDVideoStopEvent.new(fields) end

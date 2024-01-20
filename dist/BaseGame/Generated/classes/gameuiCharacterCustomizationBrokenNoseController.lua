@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationBrokenNoseController: gameuiICharacterCustomizationComponent
----@field public stage1App gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
----@field public stage2App gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
----@field public finalSceneGroup CName
+---@field stage1App gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
+---@field stage2App gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
+---@field finalSceneGroup CName
 gameuiCharacterCustomizationBrokenNoseController = {}
 
 ---@param fields? gameuiCharacterCustomizationBrokenNoseController
 ---@return gameuiCharacterCustomizationBrokenNoseController
-function gameuiCharacterCustomizationBrokenNoseController.new(fields) return end
+function gameuiCharacterCustomizationBrokenNoseController.new(fields) end

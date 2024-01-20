@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameJournalCodexDescription: gameJournalEntry
----@field public subTitle LocalizationString
----@field public textContent LocalizationString
+---@field subTitle LocalizationString
+---@field textContent LocalizationString
 gameJournalCodexDescription = {}
 
 ---@param fields? gameJournalCodexDescription
 ---@return gameJournalCodexDescription
-function gameJournalCodexDescription.new(fields) return end
+function gameJournalCodexDescription.new(fields) end
 
 ---@return String
-function gameJournalCodexDescription:GetSubTitle() return end
+function gameJournalCodexDescription:GetSubTitle() end
 
 ---@return String
-function gameJournalCodexDescription:GetTextContent() return end
+function gameJournalCodexDescription:GetTextContent() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class vehicleChangeWindowStateEvent: redEvent
----@field public state vehicleEQuestVehicleWindowState
----@field public door vehicleEVehicleDoor
+---@field state vehicleEQuestVehicleWindowState
+---@field door vehicleEVehicleDoor
 vehicleChangeWindowStateEvent = {}
 
 ---@param fields? vehicleChangeWindowStateEvent
 ---@return vehicleChangeWindowStateEvent
-function vehicleChangeWindowStateEvent.new(fields) return end
+function vehicleChangeWindowStateEvent.new(fields) end

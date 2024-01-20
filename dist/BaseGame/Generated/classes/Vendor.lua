@@ -1,287 +1,264 @@
 ---@meta
 
 ---@class Vendor: IScriptable
----@field public gameInstance ScriptGameInstance
----@field public vendorObject gameObject
----@field private tweakID TweakDBID
----@field private lastInteractionTime Float
----@field private stock gameSItemStack[]
----@field private newItems TweakDBID[]
----@field private soldItems SoldItemsCache
----@field private priceMultiplier Float
----@field private vendorPersistentID gamePersistentID
----@field private stockInit Bool
----@field private playerHacksInit Bool
----@field private inventoryInit Bool
----@field private isAttached Bool
----@field private inventoryReinitWithPlayerStats Bool
----@field private vendorRecord gamedataVendor_Record
----@field private playerHacks gameItemID[]
+---@field gameInstance ScriptGameInstance
+---@field vendorObject gameObject
+---@field tweakID TweakDBID
+---@field lastInteractionTime Float
+---@field stock gameSItemStack[]
+---@field newItems TweakDBID[]
+---@field soldItems SoldItemsCache
+---@field priceMultiplier Float
+---@field vendorPersistentID gamePersistentID
+---@field stockInit Bool
+---@field playerHacksInit Bool
+---@field inventoryInit Bool
+---@field isAttached Bool
+---@field inventoryReinitWithPlayerStats Bool
+---@field vendorRecord gamedataVendor_Record
+---@field playerHacks gameItemID[]
 Vendor = {}
 
 ---@param fields? Vendor
 ---@return Vendor
-function Vendor.new(fields) return end
+function Vendor.new(fields) end
 
 ---@param useIncreasedLimit? Bool
 ---@return Int32
-function Vendor.GetMaxItemStacksPerVendor(useIncreasedLimit) return end
+function Vendor.GetMaxItemStacksPerVendor(useIncreasedLimit) end
 
----@private
 ---@return Bool
-function Vendor.ShouldDiscardQualityForNewCWs() return end
+function Vendor.ShouldDiscardQualityForNewCWs() end
 
 ---@param itemStack gameSItemStack
 ---@return nil
-function Vendor:AddItemsToStock(itemStack) return end
+function Vendor:AddItemsToStock(itemStack) end
 
----@private
 ---@param itemTDBID TweakDBID|string
 ---@return Bool
-function Vendor:AlwaysInStock(itemTDBID) return end
+function Vendor:AlwaysInStock(itemTDBID) end
 
 ---@param itemStack gameSItemStack
 ---@param requestId Int32
 ---@return nil
-function Vendor:BuyItemFromVendor(itemStack, requestId) return end
+function Vendor:BuyItemFromVendor(itemStack, requestId) end
 
 ---@param itemsStack gameSItemStack[]
 ---@param requestId Int32
 ---@return nil
-function Vendor:BuyItemsFromVendor(itemsStack, requestId) return end
+function Vendor:BuyItemsFromVendor(itemsStack, requestId) end
 
 ---@param itemStack gameSItemStack
 ---@param requestId Int32
 ---@return nil
-function Vendor:BuybackItemFromVendor(itemStack, requestId) return end
+function Vendor:BuybackItemFromVendor(itemStack, requestId) end
 
 ---@param itemsStack gameSItemStack[]
 ---@param requestId Int32
 ---@return nil
-function Vendor:BuybackItemsFromVendor(itemsStack, requestId) return end
+function Vendor:BuybackItemsFromVendor(itemsStack, requestId) end
 
----@private
 ---@param vendorWare gamedataVendorWare_Record
 ---@param player PlayerPuppet
 ---@return Int32
-function Vendor:CalculateQuantityForStack(vendorWare, player) return end
+function Vendor:CalculateQuantityForStack(vendorWare, player) end
 
----@private
 ---@param itemStack gameSItemStack
 ---@return Bool
-function Vendor:CompareWithPlayerGrenadesQuality(itemStack) return end
+function Vendor:CompareWithPlayerGrenadesQuality(itemStack) end
 
----@private
 ---@param itemStack gameSItemStack
 ---@return Bool
-function Vendor:CompareWithPlayerHealingItemsQuality(itemStack) return end
+function Vendor:CompareWithPlayerHealingItemsQuality(itemStack) end
 
----@private
 ---@param player gameObject
 ---@return nil, gameSItemStack[] outputStacks
-function Vendor:CreateDynamicStockFromPlayerProgression(player) return end
+function Vendor:CreateDynamicStockFromPlayerProgression(player) end
 
----@private
 ---@param vendorItem gamedataVendorItem_Record
 ---@param player PlayerPuppet
 ---@return nil, gameSItemStack[] outputStacks
-function Vendor:CreateStacksFromVendorItem(vendorItem, player) return end
+function Vendor:CreateStacksFromVendorItem(vendorItem, player) end
 
----@private
 ---@param vendorItemQuery gamedataVendorItemQuery_Record
 ---@param player PlayerPuppet
 ---@return nil, gameSItemStack[] outputStack
-function Vendor:CreateStacksFromVendorItemQuery(vendorItemQuery, player) return end
+function Vendor:CreateStacksFromVendorItemQuery(vendorItemQuery, player) end
 
 ---@param position Vector4
 ---@param itemID? gameItemID
 ---@return nil
-function Vendor:DispenseItemFromVendor(position, itemID) return end
+function Vendor:DispenseItemFromVendor(position, itemID) end
 
 ---@param position Vector4
 ---@param itemID gameItemID
 ---@param amount Int32
 ---@param bypassStock? Bool
 ---@return nil
-function Vendor:DispenseItemStackFromVendor(position, itemID, amount, bypassStock) return end
+function Vendor:DispenseItemStackFromVendor(position, itemID, amount, bypassStock) end
 
 ---@param area gamedataEquipmentArea
 ---@param checkPlayerCanBuy Bool
 ---@return Bool
-function Vendor:DoesEquipAreaContainNewItems(area, checkPlayerCanBuy) return end
+function Vendor:DoesEquipAreaContainNewItems(area, checkPlayerCanBuy) end
 
----@private
 ---@param allowRegeneration Bool
 ---@return nil
-function Vendor:FillVendorInventory(allowRegeneration) return end
+function Vendor:FillVendorInventory(allowRegeneration) end
 
 ---@param checkPlayerCanBuy Bool
 ---@return gameSItemStack[]
-function Vendor:GetAllStockForSale(checkPlayerCanBuy) return end
+function Vendor:GetAllStockForSale(checkPlayerCanBuy) end
 
 ---@param checkPlayerCanBuy Bool
 ---@return gameSItemStack[]
-function Vendor:GetCyberwareForSale(checkPlayerCanBuy) return end
+function Vendor:GetCyberwareForSale(checkPlayerCanBuy) end
 
----@private
 ---@param itemID gameItemID
 ---@return Int32
-function Vendor:GetItemIndex(itemID) return end
+function Vendor:GetItemIndex(itemID) end
 
 ---@param checkPlayerCanBuy Bool
 ---@return gameSItemStack[]
-function Vendor:GetItemsForSale(checkPlayerCanBuy) return end
+function Vendor:GetItemsForSale(checkPlayerCanBuy) end
 
 ---@param allowQuestItems Bool
 ---@param excludeEquipped Bool
 ---@return gameSItemStack[]
-function Vendor:GetItemsPlayerCanSell(allowQuestItems, excludeEquipped) return end
+function Vendor:GetItemsPlayerCanSell(allowQuestItems, excludeEquipped) end
 
 ---@return Float
-function Vendor:GetLastInteractionTime() return end
+function Vendor:GetLastInteractionTime() end
 
 ---@return Int32
-function Vendor:GetMoney() return end
+function Vendor:GetMoney() end
 
 ---@return TweakDBID[]
-function Vendor:GetNewItems() return end
+function Vendor:GetNewItems() end
 
 ---@return Float
-function Vendor:GetPriceMultiplier() return end
+function Vendor:GetPriceMultiplier() end
 
----@private
 ---@return gameItemID
-function Vendor:GetRandomStockItem() return end
+function Vendor:GetRandomStockItem() end
 
 ---@return SoldItemsCache
-function Vendor:GetSoldItems() return end
+function Vendor:GetSoldItems() end
 
 ---@return gameSItemStack[]
-function Vendor:GetStock() return end
+function Vendor:GetStock() end
 
 ---@return gameObject
-function Vendor:GetVendorObject() return end
+function Vendor:GetVendorObject() end
 
 ---@return gamePersistentID
-function Vendor:GetVendorPersistentID() return end
+function Vendor:GetVendorPersistentID() end
 
 ---@return gamedataVendor_Record
-function Vendor:GetVendorRecord() return end
+function Vendor:GetVendorRecord() end
 
 ---@return TweakDBID
-function Vendor:GetVendorTweakID() return end
+function Vendor:GetVendorTweakID() end
 
 ---@return gamedataVendorType
-function Vendor:GetVendorType() return end
+function Vendor:GetVendorType() end
 
----@private
 ---@return nil
-function Vendor:InitPlayerHacks() return end
+function Vendor:InitPlayerHacks() end
 
----@private
 ---@param itemRecord gamedataItem_Record
 ---@param itemID gameItemID
 ---@return nil, gameSItemStack itemStack
-function Vendor:InitSingleItemStack(itemRecord, itemID) return end
+function Vendor:InitSingleItemStack(itemRecord, itemID) end
 
 ---@param vendorID TweakDBID|string
 ---@param vendorObject gameObject
 ---@return nil
-function Vendor:Initialize(vendorID, vendorObject) return end
+function Vendor:Initialize(vendorID, vendorObject) end
 
----@private
 ---@return nil
-function Vendor:InitializeStock() return end
+function Vendor:InitializeStock() end
 
 ---@return Bool
-function Vendor:IsAttached() return end
+function Vendor:IsAttached() end
 
 ---@param itemTDBID TweakDBID|string
 ---@return Bool
-function Vendor:IsNewItem(itemTDBID) return end
+function Vendor:IsNewItem(itemTDBID) end
 
 ---@param itemTDBID TweakDBID|string
 ---@return nil
-function Vendor:ItemInspected(itemTDBID) return end
+function Vendor:ItemInspected(itemTDBID) end
 
----@private
 ---@return nil
-function Vendor:LazyInitStock() return end
+function Vendor:LazyInitStock() end
 
----@private
 ---@return nil
-function Vendor:LoadPlayerHacks() return end
+function Vendor:LoadPlayerHacks() end
 
 ---@param owner gameObject
 ---@return nil
-function Vendor:OnAttach(owner) return end
+function Vendor:OnAttach(owner) end
 
 ---@param owner gameObject
 ---@return nil
-function Vendor:OnDeattach(owner) return end
+function Vendor:OnDeattach(owner) end
 
 ---@param forceReinit Bool
 ---@return nil
-function Vendor:OnRestored(forceReinit) return end
+function Vendor:OnRestored(forceReinit) end
 
 ---@return nil
-function Vendor:OnVendorMenuOpen() return end
+function Vendor:OnVendorMenuOpen() end
 
----@private
 ---@param buyer gameObject
 ---@param seller gameObject
 ---@param itemTransaction SItemTransaction
 ---@return Bool
-function Vendor:PerformItemTransfer(buyer, seller, itemTransaction) return end
+function Vendor:PerformItemTransfer(buyer, seller, itemTransaction) end
 
----@private
 ---@param itemStack gameSItemStack
 ---@return Bool
-function Vendor:PlayerCanBuy(itemStack) return end
+function Vendor:PlayerCanBuy(itemStack) end
 
 ---@param itemID gameItemID
 ---@param allowQuestItems Bool
 ---@param excludeEquipped Bool
 ---@return Bool
-function Vendor:PlayerCanSell(itemID, allowQuestItems, excludeEquipped) return end
+function Vendor:PlayerCanSell(itemID, allowQuestItems, excludeEquipped) end
 
----@private
 ---@return nil
-function Vendor:RegenerateStock() return end
+function Vendor:RegenerateStock() end
 
----@private
 ---@param itemStack gameSItemStack
 ---@return Bool
-function Vendor:RemoveItemsFromStock(itemStack) return end
+function Vendor:RemoveItemsFromStock(itemStack) end
 
 ---@param itemStack gameSItemStack
 ---@param requestId Int32
 ---@return nil
-function Vendor:SellItemToVendor(itemStack, requestId) return end
+function Vendor:SellItemToVendor(itemStack, requestId) end
 
 ---@param itemsStack gameSItemStack[]
 ---@param requestId Int32
 ---@return nil
-function Vendor:SellItemsToVendor(itemsStack, requestId) return end
+function Vendor:SellItemsToVendor(itemsStack, requestId) end
 
 ---@param persistentID gamePersistentID
 ---@return nil
-function Vendor:SetPersistentID(persistentID) return end
+function Vendor:SetPersistentID(persistentID) end
 
 ---@param value Float
 ---@return nil
-function Vendor:SetPriceMultiplier(value) return end
+function Vendor:SetPriceMultiplier(value) end
 
----@private
 ---@param itemTDBID TweakDBID|string
 ---@return Bool
-function Vendor:ShouldRegenerateItem(itemTDBID) return end
+function Vendor:ShouldRegenerateItem(itemTDBID) end
 
----@protected
 ---@return Bool
-function Vendor:ShouldRegenerateStock() return end
+function Vendor:ShouldRegenerateStock() end
 
----@private
 ---@param newStock gameSItemStack[]
 ---@return nil
-function Vendor:UpdateNewItems(newStock) return end
+function Vendor:UpdateNewItems(newStock) end

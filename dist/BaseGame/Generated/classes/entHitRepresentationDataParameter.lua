@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entHitRepresentationDataParameter: entEntityParameter
----@field public hitRepresentationOverrides gameHitRepresentationOverride[]
+---@field hitRepresentationOverrides gameHitRepresentationOverride[]
 entHitRepresentationDataParameter = {}
 
 ---@param fields? entHitRepresentationDataParameter
 ---@return entHitRepresentationDataParameter
-function entHitRepresentationDataParameter.new(fields) return end
+function entHitRepresentationDataParameter.new(fields) end

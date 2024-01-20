@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SocialPanelContactInfo
----@field public Hash Int32
----@field public Contact gameJournalContact
+---@field Hash Int32
+---@field Contact gameJournalContact
 SocialPanelContactInfo = {}
 
 ---@param fields? SocialPanelContactInfo
 ---@return SocialPanelContactInfo
-function SocialPanelContactInfo.new(fields) return end
+function SocialPanelContactInfo.new(fields) end

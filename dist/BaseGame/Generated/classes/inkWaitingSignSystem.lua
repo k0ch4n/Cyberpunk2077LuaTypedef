@@ -5,4 +5,4 @@ inkWaitingSignSystem = {}
 
 ---@param fields? inkWaitingSignSystem
 ---@return inkWaitingSignSystem
-function inkWaitingSignSystem.new(fields) return end
+function inkWaitingSignSystem.new(fields) end

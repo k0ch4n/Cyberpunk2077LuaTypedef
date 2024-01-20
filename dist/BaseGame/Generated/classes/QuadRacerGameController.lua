@@ -1,49 +1,43 @@
 ---@meta
 
 ---@class QuadRacerGameController: gameuiSideScrollerMiniGameController
----@field private gameMenu inkWidgetReference
----@field private scoreboardMenu inkWidgetReference
+---@field gameMenu inkWidgetReference
+---@field scoreboardMenu inkWidgetReference
 QuadRacerGameController = {}
 
 ---@param fields? QuadRacerGameController
 ---@return QuadRacerGameController
-function QuadRacerGameController.new(fields) return end
+function QuadRacerGameController.new(fields) end
 
----@protected
 ---@return Bool
-function QuadRacerGameController:OnInitialize() return end
+function QuadRacerGameController:OnInitialize() end
 
 ---@return nil
-function QuadRacerGameController:GameStart() return end
+function QuadRacerGameController:GameStart() end
 
----@protected
 ---@param gameFinishEvent gameuiOnGameFinishEvent
 ---@return nil
-function QuadRacerGameController:OnGameFinishLogic(gameFinishEvent) return end
+function QuadRacerGameController:OnGameFinishLogic(gameFinishEvent) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function QuadRacerGameController:OnOpenMenuClick(e) return end
+function QuadRacerGameController:OnOpenMenuClick(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function QuadRacerGameController:OnStartGameClick(e) return end
+function QuadRacerGameController:OnStartGameClick(e) end
 
----@private
 ---@return nil
-function QuadRacerGameController:OpenGameplay() return end
+function QuadRacerGameController:OpenGameplay() end
 
----@private
 ---@return nil
-function QuadRacerGameController:OpenMenu() return end
+function QuadRacerGameController:OpenMenu() end
 
----@private
 ---@param playerScore Int32
 ---@return nil
-function QuadRacerGameController:OpenScoreboard(playerScore) return end
+function QuadRacerGameController:OpenScoreboard(playerScore) end
 
----@private
 ---@param component inkWidgetReference
 ---@param isEnabled Bool
 ---@return nil
-function QuadRacerGameController:SetEnableComponent(component, isEnabled) return end
+function QuadRacerGameController:SetEnableComponent(component, isEnabled) end

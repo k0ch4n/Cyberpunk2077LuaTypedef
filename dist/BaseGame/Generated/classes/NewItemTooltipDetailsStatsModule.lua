@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class NewItemTooltipDetailsStatsModule: NewItemTooltipModuleController
----@field private statsContainer inkCompoundWidgetReference
----@field private isCrafting Bool
+---@field statsContainer inkCompoundWidgetReference
+---@field isCrafting Bool
 NewItemTooltipDetailsStatsModule = {}
 
 ---@param fields? NewItemTooltipDetailsStatsModule
 ---@return NewItemTooltipDetailsStatsModule
-function NewItemTooltipDetailsStatsModule.new(fields) return end
+function NewItemTooltipDetailsStatsModule.new(fields) end
 
 ---@param isCrafting Bool
 ---@return nil
-function NewItemTooltipDetailsStatsModule:GetContext(isCrafting) return end
+function NewItemTooltipDetailsStatsModule:GetContext(isCrafting) end
 
 ---@param data UIInventoryItem
 ---@return nil
-function NewItemTooltipDetailsStatsModule:NEW_Update(data) return end
+function NewItemTooltipDetailsStatsModule:NEW_Update(data) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipDetailsStatsModule:Update(data) return end
+function NewItemTooltipDetailsStatsModule:Update(data) end

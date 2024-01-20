@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animFloatClamp
----@field public useMin Bool
----@field public min Float
----@field public useMax Bool
----@field public max Float
+---@field useMin Bool
+---@field min Float
+---@field useMax Bool
+---@field max Float
 animFloatClamp = {}
 
 ---@param fields? animFloatClamp
 ---@return animFloatClamp
-function animFloatClamp.new(fields) return end
+function animFloatClamp.new(fields) end

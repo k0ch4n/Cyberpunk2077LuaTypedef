@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamemappinsDynamicQuestMappinRepInfo
----@field public journalPathHash Uint32
----@field public entity entEntity
+---@field journalPathHash Uint32
+---@field entity entEntity
 gamemappinsDynamicQuestMappinRepInfo = {}
 
 ---@param fields? gamemappinsDynamicQuestMappinRepInfo
 ---@return gamemappinsDynamicQuestMappinRepInfo
-function gamemappinsDynamicQuestMappinRepInfo.new(fields) return end
+function gamemappinsDynamicQuestMappinRepInfo.new(fields) end

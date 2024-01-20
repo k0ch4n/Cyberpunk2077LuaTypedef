@@ -5,4 +5,4 @@ gameMuppetLocomotionComponent = {}
 
 ---@param fields? gameMuppetLocomotionComponent
 ---@return gameMuppetLocomotionComponent
-function gameMuppetLocomotionComponent.new(fields) return end
+function gameMuppetLocomotionComponent.new(fields) end

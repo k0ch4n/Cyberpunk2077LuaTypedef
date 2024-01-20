@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkRectangle
----@field public x Float
----@field public y Float
----@field public width Float
----@field public height Float
+---@field x Float
+---@field y Float
+---@field width Float
+---@field height Float
 inkRectangle = {}
 
 ---@param fields? inkRectangle
 ---@return inkRectangle
-function inkRectangle.new(fields) return end
+function inkRectangle.new(fields) end

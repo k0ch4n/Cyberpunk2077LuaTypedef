@@ -1,48 +1,41 @@
 ---@meta
 
 ---@class DriverCombatMountedWeaponsEvents: DriverCombatEvents
----@field private activeWeapons gameweaponObject[]
+---@field activeWeapons gameweaponObject[]
 DriverCombatMountedWeaponsEvents = {}
 
 ---@param fields? DriverCombatMountedWeaponsEvents
 ---@return DriverCombatMountedWeaponsEvents
-function DriverCombatMountedWeaponsEvents.new(fields) return end
+function DriverCombatMountedWeaponsEvents.new(fields) end
 
----@protected
 ---@return nil
-function DriverCombatMountedWeaponsEvents:ApplyWeaponFxScalings() return end
+function DriverCombatMountedWeaponsEvents:ApplyWeaponFxScalings() end
 
----@protected
 ---@param vehicle vehicleBaseObject
 ---@return gamedataItemType
-function DriverCombatMountedWeaponsEvents:GetVehicleWeaponType(vehicle) return end
+function DriverCombatMountedWeaponsEvents:GetVehicleWeaponType(vehicle) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatMountedWeaponsEvents:OnEnter(stateContext, scriptInterface) return end
+function DriverCombatMountedWeaponsEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatMountedWeaponsEvents:OnExit(stateContext, scriptInterface) return end
+function DriverCombatMountedWeaponsEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatMountedWeaponsEvents:OnPerspectiveUpdate(scriptInterface) return end
+function DriverCombatMountedWeaponsEvents:OnPerspectiveUpdate(scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatMountedWeaponsEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function DriverCombatMountedWeaponsEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param active Bool
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatMountedWeaponsEvents:SetWeaponPreviews(active, scriptInterface) return end
+function DriverCombatMountedWeaponsEvents:SetWeaponPreviews(active, scriptInterface) end

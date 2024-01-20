@@ -5,4 +5,4 @@ RefreshPlayerAuthorizationEvent = {}
 
 ---@param fields? RefreshPlayerAuthorizationEvent
 ---@return RefreshPlayerAuthorizationEvent
-function RefreshPlayerAuthorizationEvent.new(fields) return end
+function RefreshPlayerAuthorizationEvent.new(fields) end

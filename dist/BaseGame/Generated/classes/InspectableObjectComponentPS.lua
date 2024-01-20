@@ -1,34 +1,33 @@
 ---@meta
 
 ---@class InspectableObjectComponentPS: gameComponentPS
----@field private isStarted Bool
----@field private isFinished Bool
----@field private listeners questObjectInspectListener[]
+---@field isStarted Bool
+---@field isFinished Bool
+---@field listeners questObjectInspectListener[]
 InspectableObjectComponentPS = {}
 
 ---@param fields? InspectableObjectComponentPS
 ---@return InspectableObjectComponentPS
-function InspectableObjectComponentPS.new(fields) return end
+function InspectableObjectComponentPS.new(fields) end
 
 ---@param state questObjectInspectEventType
 ---@return Bool
-function InspectableObjectComponentPS:IsState(state) return end
+function InspectableObjectComponentPS:IsState(state) end
 
----@private
 ---@param state questObjectInspectEventType
 ---@return nil
-function InspectableObjectComponentPS:NotifyListeners(state) return end
+function InspectableObjectComponentPS:NotifyListeners(state) end
 
 ---@param evt questInspectListenerEvent
 ---@return EntityNotificationType
-function InspectableObjectComponentPS:OnRegisterListener(evt) return end
+function InspectableObjectComponentPS:OnRegisterListener(evt) end
 
 ---@param evt SetInspectStateEvent
 ---@return EntityNotificationType
-function InspectableObjectComponentPS:OnSetState(evt) return end
+function InspectableObjectComponentPS:OnSetState(evt) end
 
 ---@return nil
-function InspectableObjectComponentPS:SetFinished() return end
+function InspectableObjectComponentPS:SetFinished() end
 
 ---@return nil
-function InspectableObjectComponentPS:SetStarted() return end
+function InspectableObjectComponentPS:SetStarted() end

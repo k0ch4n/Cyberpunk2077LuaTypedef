@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class ProficiencyProgressEvent: redEvent
----@field public type gamedataProficiencyType
----@field public expValue Int32
----@field public remainingXP Int32
----@field public delta Int32
----@field public currentLevel Int32
----@field public isLevelMaxed Bool
+---@field type gamedataProficiencyType
+---@field expValue Int32
+---@field remainingXP Int32
+---@field delta Int32
+---@field currentLevel Int32
+---@field isLevelMaxed Bool
 ProficiencyProgressEvent = {}
 
 ---@param fields? ProficiencyProgressEvent
 ---@return ProficiencyProgressEvent
-function ProficiencyProgressEvent.new(fields) return end
+function ProficiencyProgressEvent.new(fields) end

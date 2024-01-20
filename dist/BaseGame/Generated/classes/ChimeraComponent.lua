@@ -1,129 +1,112 @@
 ---@meta
 
 ---@class ChimeraComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private ownerId entEntityID
----@field private player PlayerPuppet
----@field private statPoolSystem gameStatPoolsSystem
----@field private npcDeathCollisionComponent entSimpleColliderComponent
----@field private targetingBody gameTargetingComponent
----@field private healthListener ChimeraHealthChangeListener
----@field private defeatedOnAttach Bool
----@field private weakspotComponent gameWeakspotComponent
----@field private weakspots gameWeakspotObject[]
----@field private weakspotsInvulnerable Bool
----@field private weakspotsDelay gameDelayID
----@field private targetTrackerComponent AITargetTrackerComponent
+---@field owner NPCPuppet
+---@field ownerId entEntityID
+---@field player PlayerPuppet
+---@field statPoolSystem gameStatPoolsSystem
+---@field npcDeathCollisionComponent entSimpleColliderComponent
+---@field targetingBody gameTargetingComponent
+---@field healthListener ChimeraHealthChangeListener
+---@field defeatedOnAttach Bool
+---@field weakspotComponent gameWeakspotComponent
+---@field weakspots gameWeakspotObject[]
+---@field weakspotsInvulnerable Bool
+---@field weakspotsDelay gameDelayID
+---@field targetTrackerComponent AITargetTrackerComponent
 ChimeraComponent = {}
 
 ---@param fields? ChimeraComponent
 ---@return ChimeraComponent
-function ChimeraComponent.new(fields) return end
+function ChimeraComponent.new(fields) end
 
----@protected
 ---@param evt entAudioEvent
 ---@return Bool
-function ChimeraComponent:OnAudioEvent(evt) return end
+function ChimeraComponent:OnAudioEvent(evt) end
 
----@protected
 ---@param evt ChangeToPhase2DelayedEvent
 ---@return Bool
-function ChimeraComponent:OnChangeToPhase2(evt) return end
+function ChimeraComponent:OnChangeToPhase2(evt) end
 
----@protected
 ---@param evt ChangeToPhase3DelayedEvent
 ---@return Bool
-function ChimeraComponent:OnChangeToPhase3(evt) return end
+function ChimeraComponent:OnChangeToPhase3(evt) end
 
----@protected
 ---@param evt ChimeraWeakspotDelayedEvent
 ---@return Bool
-function ChimeraComponent:OnChimeraWeakspotDelayedEvent(evt) return end
+function ChimeraComponent:OnChimeraWeakspotDelayedEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function ChimeraComponent:OnDeath(evt) return end
+function ChimeraComponent:OnDeath(evt) end
 
----@protected
 ---@param evt EnableGasCloudDelayedEvent
 ---@return Bool
-function ChimeraComponent:OnEnableGasCloud(evt) return end
+function ChimeraComponent:OnEnableGasCloud(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ChimeraComponent:OnRequestComponents(ri) return end
+function ChimeraComponent:OnRequestComponents(ri) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function ChimeraComponent:OnStatusEffectApplied(evt) return end
+function ChimeraComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function ChimeraComponent:OnStatusEffectRemoved(evt) return end
+function ChimeraComponent:OnStatusEffectRemoved(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ChimeraComponent:OnTakeControl(ri) return end
+function ChimeraComponent:OnTakeControl(ri) end
 
 ---@return nil
-function ChimeraComponent:ApplyPhase2() return end
+function ChimeraComponent:ApplyPhase2() end
 
 ---@return nil
-function ChimeraComponent:ApplyPhase3() return end
-
----@private
----@return nil
-function ChimeraComponent:DestroyAllWeakspots() return end
-
----@protected
----@return nil
-function ChimeraComponent:DisableAllHitShapes() return end
-
----@protected
----@return nil
-function ChimeraComponent:DisablePhase1HitShapes() return end
+function ChimeraComponent:ApplyPhase3() end
 
 ---@return nil
-function ChimeraComponent:EnableGasCloud() return end
+function ChimeraComponent:DestroyAllWeakspots() end
 
----@protected
 ---@return nil
-function ChimeraComponent:EnablePhase1HitShapes() return end
+function ChimeraComponent:DisableAllHitShapes() end
 
----@protected
 ---@return nil
-function ChimeraComponent:EnablePhase2HeadVulnerable() return end
+function ChimeraComponent:DisablePhase1HitShapes() end
 
----@protected
 ---@return nil
-function ChimeraComponent:EnablePhase2HitShapes() return end
+function ChimeraComponent:EnableGasCloud() end
+
+---@return nil
+function ChimeraComponent:EnablePhase1HitShapes() end
+
+---@return nil
+function ChimeraComponent:EnablePhase2HeadVulnerable() end
+
+---@return nil
+function ChimeraComponent:EnablePhase2HitShapes() end
 
 ---@return Bool
-function ChimeraComponent:EnsureWeakspotsInitialized() return end
+function ChimeraComponent:EnsureWeakspotsInitialized() end
 
 ---@return nil
-function ChimeraComponent:OnGameAttach() return end
+function ChimeraComponent:OnGameAttach() end
 
 ---@return nil
-function ChimeraComponent:OnGameDetach() return end
+function ChimeraComponent:OnGameDetach() end
 
 ---@return nil
-function ChimeraComponent:RemoveWeakspotsInvulnerable() return end
+function ChimeraComponent:RemoveWeakspotsInvulnerable() end
 
 ---@param value Float
 ---@return nil
-function ChimeraComponent:SetPercentLifeForPhase(value) return end
+function ChimeraComponent:SetPercentLifeForPhase(value) end
 
 ---@return nil
-function ChimeraComponent:SetWeakspotsInvulnerable() return end
+function ChimeraComponent:SetWeakspotsInvulnerable() end
 
----@private
 ---@param target NPCPuppet
 ---@param valueToSet Float
 ---@return nil
-function ChimeraComponent:WithdrawHealthPercentage(target, valueToSet) return end
+function ChimeraComponent:WithdrawHealthPercentage(target, valueToSet) end

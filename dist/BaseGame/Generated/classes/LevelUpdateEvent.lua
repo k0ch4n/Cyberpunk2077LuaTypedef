@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class LevelUpdateEvent: redEvent
----@field public lvl Int32
----@field public type gamedataProficiencyType
----@field public devPoints SDevelopmentPoints[]
+---@field lvl Int32
+---@field type gamedataProficiencyType
+---@field devPoints SDevelopmentPoints[]
 LevelUpdateEvent = {}
 
 ---@param fields? LevelUpdateEvent
 ---@return LevelUpdateEvent
-function LevelUpdateEvent.new(fields) return end
+function LevelUpdateEvent.new(fields) end

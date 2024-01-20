@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class UILocalizationMap: IScriptable
----@field private map UILocRecord[]
+---@field map UILocRecord[]
 UILocalizationMap = {}
 
 ---@param fields? UILocalizationMap
 ---@return UILocalizationMap
-function UILocalizationMap.new(fields) return end
+function UILocalizationMap.new(fields) end
 
 ---@param tag CName|string
 ---@param value String
 ---@return nil
-function UILocalizationMap:AddRecord(tag, value) return end
+function UILocalizationMap:AddRecord(tag, value) end
 
 ---@return nil
-function UILocalizationMap:Init() return end
+function UILocalizationMap:Init() end
 
 ---@param tag CName|string
 ---@return String
-function UILocalizationMap:Localize(tag) return end
+function UILocalizationMap:Localize(tag) end

@@ -5,25 +5,23 @@ gameuiSettingsMenuGameController = {}
 
 ---@param fields? gameuiSettingsMenuGameController
 ---@return gameuiSettingsMenuGameController
-function gameuiSettingsMenuGameController.new(fields) return end
+function gameuiSettingsMenuGameController.new(fields) end
 
 ---@return Bool
-function gameuiSettingsMenuGameController:CanEditSafezones() return end
+function gameuiSettingsMenuGameController:CanEditSafezones() end
 
 ---@return Bool
-function gameuiSettingsMenuGameController:IsBenchmarkPossible() return end
+function gameuiSettingsMenuGameController:IsBenchmarkPossible() end
 
 ---@return nil
-function gameuiSettingsMenuGameController:RunGraphicsBenchmark() return end
+function gameuiSettingsMenuGameController:RunGraphicsBenchmark() end
 
----@protected
 ---@param progress Float
 ---@return nil
-function gameuiSettingsMenuGameController:SetLanguagePackageInstallProgress(progress) return end
+function gameuiSettingsMenuGameController:SetLanguagePackageInstallProgress(progress) end
 
----@protected
 ---@param progress Float
 ---@param completed Bool
 ---@param started Bool
 ---@return nil
-function gameuiSettingsMenuGameController:SetLanguagePackageInstallProgressBar(progress, completed, started) return end
+function gameuiSettingsMenuGameController:SetLanguagePackageInstallProgressBar(progress, completed, started) end

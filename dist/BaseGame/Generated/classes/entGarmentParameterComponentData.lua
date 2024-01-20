@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class entGarmentParameterComponentData
----@field public compiledTriangleIndsData DataBuffer
----@field public compiledVertexTbnData DataBuffer
----@field public componentID CRUID
----@field public meshGeometryHash Uint64
----@field public visibleTrangleIndexBufferHash Uint64
----@field public chunks entGarmentParameterChunkData[]
----@field public chunksCount Uint32
----@field public hideComponent Bool
----@field public bendPowerMultiplier Float
----@field public bendPowerOffset Float
----@field public smoothingStrength Float
----@field public smoothingThreshold Float
----@field public smoothingExponent Float
----@field public smoothNormalsEnabled Bool
----@field public smoothingNumNeighbours Uint32
----@field public garmentBorderThreshold Float
----@field public removeHiddenTriangles Bool
----@field public disableGarment Bool
----@field public mergeWithInnerLayer Bool
----@field public numIndices Uint32
----@field public numOffsets Uint32
+---@field compiledTriangleIndsData DataBuffer
+---@field compiledVertexTbnData DataBuffer
+---@field componentID CRUID
+---@field meshGeometryHash Uint64
+---@field visibleTrangleIndexBufferHash Uint64
+---@field chunks entGarmentParameterChunkData[]
+---@field chunksCount Uint32
+---@field hideComponent Bool
+---@field bendPowerMultiplier Float
+---@field bendPowerOffset Float
+---@field smoothingStrength Float
+---@field smoothingThreshold Float
+---@field smoothingExponent Float
+---@field smoothNormalsEnabled Bool
+---@field smoothingNumNeighbours Uint32
+---@field garmentBorderThreshold Float
+---@field removeHiddenTriangles Bool
+---@field disableGarment Bool
+---@field mergeWithInnerLayer Bool
+---@field numIndices Uint32
+---@field numOffsets Uint32
 entGarmentParameterComponentData = {}
 
 ---@param fields? entGarmentParameterComponentData
 ---@return entGarmentParameterComponentData
-function entGarmentParameterComponentData.new(fields) return end
+function entGarmentParameterComponentData.new(fields) end

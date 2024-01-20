@@ -5,4 +5,4 @@ worldDebugColoring_BoostedPrefabProxy = {}
 
 ---@param fields? worldDebugColoring_BoostedPrefabProxy
 ---@return worldDebugColoring_BoostedPrefabProxy
-function worldDebugColoring_BoostedPrefabProxy.new(fields) return end
+function worldDebugColoring_BoostedPrefabProxy.new(fields) end

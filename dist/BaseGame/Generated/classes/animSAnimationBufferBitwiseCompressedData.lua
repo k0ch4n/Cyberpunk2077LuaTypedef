@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animSAnimationBufferBitwiseCompressedData
----@field public dt Float
----@field public compression Int8
----@field public numFrames Uint16
----@field public dataAddr Uint32
----@field public dataAddrFallback Uint32
+---@field dt Float
+---@field compression Int8
+---@field numFrames Uint16
+---@field dataAddr Uint32
+---@field dataAddrFallback Uint32
 animSAnimationBufferBitwiseCompressedData = {}
 
 ---@param fields? animSAnimationBufferBitwiseCompressedData
 ---@return animSAnimationBufferBitwiseCompressedData
-function animSAnimationBufferBitwiseCompressedData.new(fields) return end
+function animSAnimationBufferBitwiseCompressedData.new(fields) end

@@ -5,88 +5,75 @@ InteractiveMasterDevice = {}
 
 ---@param fields? InteractiveMasterDevice
 ---@return InteractiveMasterDevice
-function InteractiveMasterDevice.new(fields) return end
+function InteractiveMasterDevice.new(fields) end
 
----@protected
 ---@param evt CleanPasswordEvent
 ---@return Bool
-function InteractiveMasterDevice:OnCleanPasswordEvent(evt) return end
+function InteractiveMasterDevice:OnCleanPasswordEvent(evt) end
 
----@protected
 ---@param evt RequestDeviceWidgetUpdateEvent
 ---@return Bool
-function InteractiveMasterDevice:OnDeviceWidgetUpdate(evt) return end
+function InteractiveMasterDevice:OnDeviceWidgetUpdate(evt) end
 
----@protected
 ---@param evt PerformedAction
 ---@return Bool
-function InteractiveMasterDevice:OnPerformedAction(evt) return end
+function InteractiveMasterDevice:OnPerformedAction(evt) end
 
----@protected
 ---@param evt RequestDeviceWidgetsUpdateEvent
 ---@return Bool
-function InteractiveMasterDevice:OnRequestSlaveDevicesWidgetsUpdate(evt) return end
+function InteractiveMasterDevice:OnRequestSlaveDevicesWidgetsUpdate(evt) end
 
----@protected
 ---@param evt RequestThumbnailWidgetsUpdateEvent
 ---@return Bool
-function InteractiveMasterDevice:OnRequestSlaveThumbnailWidgetsUpdate(evt) return end
+function InteractiveMasterDevice:OnRequestSlaveThumbnailWidgetsUpdate(evt) end
 
----@protected
 ---@param evt gameSetAsQuestImportantEvent
 ---@return Bool
-function InteractiveMasterDevice:OnSetAsQuestImportantEvent(evt) return end
+function InteractiveMasterDevice:OnSetAsQuestImportantEvent(evt) end
 
----@protected
 ---@param evt gamePSDeviceChangedEvent
 ---@return Bool
-function InteractiveMasterDevice:OnSlaveStateChanged(evt) return end
+function InteractiveMasterDevice:OnSlaveStateChanged(evt) end
 
----@protected
 ---@return nil
-function InteractiveMasterDevice:CreateBlackboard() return end
+function InteractiveMasterDevice:CreateBlackboard() end
 
 ---@return MasterDeviceBaseBlackboardDef
-function InteractiveMasterDevice:GetBlackboardDef() return end
+function InteractiveMasterDevice:GetBlackboardDef() end
 
 ---@return redResourceReferenceScriptToken
-function InteractiveMasterDevice:GetBroadcastGlitchVideoPath() return end
+function InteractiveMasterDevice:GetBroadcastGlitchVideoPath() end
 
----@protected
 ---@return MasterController
-function InteractiveMasterDevice:GetController() return end
+function InteractiveMasterDevice:GetController() end
 
 ---@return redResourceReferenceScriptToken
-function InteractiveMasterDevice:GetDefaultGlitchVideoPath() return end
+function InteractiveMasterDevice:GetDefaultGlitchVideoPath() end
 
 ---@return MasterControllerPS
-function InteractiveMasterDevice:GetDevicePS() return end
+function InteractiveMasterDevice:GetDevicePS() end
 
----@protected
 ---@param IsHighlightON Bool
 ---@param IsHighlightedByMasterDevice Bool
 ---@return Bool
-function InteractiveMasterDevice:NotifyConnectionHighlightSystem(IsHighlightON, IsHighlightedByMasterDevice) return end
+function InteractiveMasterDevice:NotifyConnectionHighlightSystem(IsHighlightON, IsHighlightedByMasterDevice) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@param devices gamePersistentID[]
 ---@return nil
-function InteractiveMasterDevice:RequestDeviceWidgetsUpdate(blackboard, devices) return end
+function InteractiveMasterDevice:RequestDeviceWidgetsUpdate(blackboard, devices) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@param deviceID gamePersistentID
 ---@return nil
-function InteractiveMasterDevice:RequestDeviceWidgetsUpdate(blackboard, deviceID) return end
+function InteractiveMasterDevice:RequestDeviceWidgetsUpdate(blackboard, deviceID) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function InteractiveMasterDevice:RequestThumbnailWidgetsUpdate(blackboard) return end
+function InteractiveMasterDevice:RequestThumbnailWidgetsUpdate(blackboard) end
 
 ---@return Bool
-function InteractiveMasterDevice:ShouldAlwaysUpdateDeviceWidgets() return end
+function InteractiveMasterDevice:ShouldAlwaysUpdateDeviceWidgets() end
 
 ---@return Bool
-function InteractiveMasterDevice:ShouldShowTerminalTitle() return end
+function InteractiveMasterDevice:ShouldShowTerminalTitle() end

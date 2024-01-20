@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class interopEntityEffectSelectionSyncData
----@field public effectName CName
----@field public effectIDPath toolsEditorObjectIDPath
+---@field effectName CName
+---@field effectIDPath toolsEditorObjectIDPath
 interopEntityEffectSelectionSyncData = {}
 
 ---@param fields? interopEntityEffectSelectionSyncData
 ---@return interopEntityEffectSelectionSyncData
-function interopEntityEffectSelectionSyncData.new(fields) return end
+function interopEntityEffectSelectionSyncData.new(fields) end

@@ -5,4 +5,4 @@ AISignalEvent = {}
 
 ---@param fields? AISignalEvent
 ---@return AISignalEvent
-function AISignalEvent.new(fields) return end
+function AISignalEvent.new(fields) end

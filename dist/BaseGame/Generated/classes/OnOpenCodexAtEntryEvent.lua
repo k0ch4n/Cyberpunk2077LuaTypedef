@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OnOpenCodexAtEntryEvent: redEvent
----@field public entry gameJournalCodexEntry
+---@field entry gameJournalCodexEntry
 OnOpenCodexAtEntryEvent = {}
 
 ---@param fields? OnOpenCodexAtEntryEvent
 ---@return OnOpenCodexAtEntryEvent
-function OnOpenCodexAtEntryEvent.new(fields) return end
+function OnOpenCodexAtEntryEvent.new(fields) end

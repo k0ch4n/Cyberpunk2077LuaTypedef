@@ -5,58 +5,49 @@ QuickMeleeDecisions = {}
 
 ---@param fields? QuickMeleeDecisions
 ---@return QuickMeleeDecisions
-function QuickMeleeDecisions.new(fields) return end
+function QuickMeleeDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function QuickMeleeDecisions:OnAction(action, consumer) return end
+function QuickMeleeDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickMeleeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickMeleeDecisions:ExitCondition(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickMeleeDecisions:IsPassedCancelWindow(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:IsPassedCancelWindow(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function QuickMeleeDecisions:OnAttach(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function QuickMeleeDecisions:OnDetach(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickMeleeDecisions:ToFullAuto(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:ToFullAuto(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickMeleeDecisions:ToSemiAuto(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:ToSemiAuto(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickMeleeDecisions:ToStandardExit(stateContext, scriptInterface) return end
+function QuickMeleeDecisions:ToStandardExit(stateContext, scriptInterface) end

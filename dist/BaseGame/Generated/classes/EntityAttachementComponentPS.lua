@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class EntityAttachementComponentPS: gameComponentPS
----@field private pendingChildAttachements EntityAttachementData[]
+---@field pendingChildAttachements EntityAttachementData[]
 EntityAttachementComponentPS = {}
 
 ---@param fields? EntityAttachementComponentPS
 ---@return EntityAttachementComponentPS
-function EntityAttachementComponentPS.new(fields) return end
+function EntityAttachementComponentPS.new(fields) end
 
----@private
 ---@param data EntityAttachementData
 ---@return nil
-function EntityAttachementComponentPS:AddPendingChildAttachementRequest(data) return end
+function EntityAttachementComponentPS:AddPendingChildAttachementRequest(data) end
 
 ---@return nil
-function EntityAttachementComponentPS:ClearPendingChildAttachementRequests() return end
+function EntityAttachementComponentPS:ClearPendingChildAttachementRequests() end
 
----@private
 ---@return entEntityID
-function EntityAttachementComponentPS:GetMyEntityID() return end
+function EntityAttachementComponentPS:GetMyEntityID() end
 
----@private
 ---@return entEntity
-function EntityAttachementComponentPS:GetOwnerEntityWeak() return end
+function EntityAttachementComponentPS:GetOwnerEntityWeak() end
 
 ---@return EntityAttachementData[]
-function EntityAttachementComponentPS:GetPendingChildAttachementsData() return end
+function EntityAttachementComponentPS:GetPendingChildAttachementsData() end
 
----@private
 ---@param data EntityAttachementData
 ---@return Bool
-function EntityAttachementComponentPS:HasPendingChildAttachementRequest(data) return end
+function EntityAttachementComponentPS:HasPendingChildAttachementRequest(data) end
 
----@private
 ---@param evt EntityAttachementRequestEvent
 ---@return EntityNotificationType
-function EntityAttachementComponentPS:OnChildAttachementRequest(evt) return end
+function EntityAttachementComponentPS:OnChildAttachementRequest(evt) end

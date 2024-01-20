@@ -5,20 +5,17 @@ SmartWindow = {}
 
 ---@param fields? SmartWindow
 ---@return SmartWindow
-function SmartWindow.new(fields) return end
+function SmartWindow.new(fields) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SmartWindow:OnTakeControl(ri) return end
+function SmartWindow:OnTakeControl(ri) end
 
----@private
 ---@return SmartWindowController
-function SmartWindow:GetController() return end
+function SmartWindow:GetController() end
 
 ---@return SmartWindowControllerPS
-function SmartWindow:GetDevicePS() return end
+function SmartWindow:GetDevicePS() end
 
----@private
 ---@return nil
-function SmartWindow:InitializeScreenDefinition() return end
+function SmartWindow:InitializeScreenDefinition() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class GOGProfileLogicController: inkWidgetLogicController
----@field public gogMenuState EGOGMenuState
+---@field gogMenuState EGOGMenuState
 GOGProfileLogicController = {}
 
 ---@param fields? GOGProfileLogicController
 ---@return GOGProfileLogicController
-function GOGProfileLogicController.new(fields) return end
+function GOGProfileLogicController.new(fields) end
 
 ---@param menuState EGOGMenuState
 ---@return nil
-function GOGProfileLogicController:SetMenuState(menuState) return end
+function GOGProfileLogicController:SetMenuState(menuState) end

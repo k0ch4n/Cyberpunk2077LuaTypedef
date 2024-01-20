@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ExpressionTreeCGeneralIfNodeDefinition: ExpressionTreeCGeneralNodeDefinition
----@field public expressions LibTreeINodeDefinition[]
----@field public trueBranch LibTreeINodeDefinition
----@field public falseBranch LibTreeINodeDefinition
+---@field expressions LibTreeINodeDefinition[]
+---@field trueBranch LibTreeINodeDefinition
+---@field falseBranch LibTreeINodeDefinition
 ExpressionTreeCGeneralIfNodeDefinition = {}
 
 ---@param fields? ExpressionTreeCGeneralIfNodeDefinition
 ---@return ExpressionTreeCGeneralIfNodeDefinition
-function ExpressionTreeCGeneralIfNodeDefinition.new(fields) return end
+function ExpressionTreeCGeneralIfNodeDefinition.new(fields) end

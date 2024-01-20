@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class locVoLengthEntry
----@field public stringId CRUID
----@field public femaleLength Float
----@field public maleLength Float
+---@field stringId CRUID
+---@field femaleLength Float
+---@field maleLength Float
 locVoLengthEntry = {}
 
 ---@param fields? locVoLengthEntry
 ---@return locVoLengthEntry
-function locVoLengthEntry.new(fields) return end
+function locVoLengthEntry.new(fields) end

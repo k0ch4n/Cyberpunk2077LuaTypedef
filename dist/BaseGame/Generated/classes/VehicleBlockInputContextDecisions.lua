@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class VehicleBlockInputContextDecisions: InputContextTransitionDecisions
----@field private callbackID redCallbackObject
+---@field callbackID redCallbackObject
 VehicleBlockInputContextDecisions = {}
 
 ---@param fields? VehicleBlockInputContextDecisions
 ---@return VehicleBlockInputContextDecisions
-function VehicleBlockInputContextDecisions.new(fields) return end
+function VehicleBlockInputContextDecisions.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VehicleBlockInputContextDecisions:OnVehicleStateChanged(value) return end
+function VehicleBlockInputContextDecisions:OnVehicleStateChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleBlockInputContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VehicleBlockInputContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleBlockInputContextDecisions:OnAttach(stateContext, scriptInterface) return end
+function VehicleBlockInputContextDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleBlockInputContextDecisions:OnDetach(stateContext, scriptInterface) return end
+function VehicleBlockInputContextDecisions:OnDetach(stateContext, scriptInterface) end

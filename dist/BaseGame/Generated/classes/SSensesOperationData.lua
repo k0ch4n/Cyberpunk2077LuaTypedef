@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SSensesOperationData
----@field public isActivatorPlayer Bool
----@field public isActivatorNPC Bool
----@field public attitudeGroup CName
----@field public operationType ETriggerOperationType
----@field public operation SBaseDeviceOperationData
+---@field isActivatorPlayer Bool
+---@field isActivatorNPC Bool
+---@field attitudeGroup CName
+---@field operationType ETriggerOperationType
+---@field operation SBaseDeviceOperationData
 SSensesOperationData = {}
 
 ---@param fields? SSensesOperationData
 ---@return SSensesOperationData
-function SSensesOperationData.new(fields) return end
+function SSensesOperationData.new(fields) end

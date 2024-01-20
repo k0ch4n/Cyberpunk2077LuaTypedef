@@ -5,101 +5,101 @@ gameItemData = {}
 
 ---@param objectAttachedTo gameObject
 ---@return nil
-function gameItemData:AddStatsOnEquip(objectAttachedTo) return end
+function gameItemData:AddStatsOnEquip(objectAttachedTo) end
 
 ---@param type gamedataStatType
 ---@return Float
-function gameItemData:GetBareStatValueByType(type) return end
+function gameItemData:GetBareStatValueByType(type) end
 
 ---@return CName[]
-function gameItemData:GetDynamicTags() return end
+function gameItemData:GetDynamicTags() end
 
 ---@return nil, TweakDBID[] emptySlots
-function gameItemData:GetEmptySlotsOnItem() return end
+function gameItemData:GetEmptySlotsOnItem() end
 
 ---@return gameItemID
-function gameItemData:GetID() return end
+function gameItemData:GetID() end
 
 ---@param slotId TweakDBID|string
 ---@return nil, gameInnerItemData part
-function gameItemData:GetItemPart(slotId) return end
+function gameItemData:GetItemPart(slotId) end
 
 ---@return nil, gameInnerItemData[] parts
-function gameItemData:GetItemParts() return end
+function gameItemData:GetItemParts() end
 
 ---@return gamedataItemType
-function gameItemData:GetItemType() return end
+function gameItemData:GetItemType() end
 
 ---@return CName
-function gameItemData:GetLocalizedItemType() return end
+function gameItemData:GetLocalizedItemType() end
 
 ---@return CName
-function gameItemData:GetName() return end
+function gameItemData:GetName() end
 
 ---@return String
-function gameItemData:GetNameAsString() return end
+function gameItemData:GetNameAsString() end
 
 ---@return Int32
-function gameItemData:GetQuantity() return end
+function gameItemData:GetQuantity() end
 
 ---@param type gamedataStatType
 ---@return Float
-function gameItemData:GetStatValueByType(type) return end
+function gameItemData:GetStatValueByType(type) end
 
 ---@return gameStatsObjectID
-function gameItemData:GetStatsObjectID() return end
+function gameItemData:GetStatsObjectID() end
 
 ---@return gameStatsBundleHandler
-function gameItemData:GetTemporaryStatBundle() return end
+function gameItemData:GetTemporaryStatBundle() end
 
 ---@return GameTime
-function gameItemData:GetTimestamp() return end
+function gameItemData:GetTimestamp() end
 
 ---@return nil, TweakDBID[] usedSlots
-function gameItemData:GetUsedSlotsOnItem() return end
+function gameItemData:GetUsedSlotsOnItem() end
 
 ---@return Int32
-function gameItemData:GetVariant() return end
+function gameItemData:GetVariant() end
 
 ---@param tags CName[]|string[]
 ---@return Bool
-function gameItemData:HasAnyOfTags(tags) return end
+function gameItemData:HasAnyOfTags(tags) end
 
 ---@param slotID TweakDBID|string
 ---@return Bool
-function gameItemData:HasAttachmentSlot(slotID) return end
+function gameItemData:HasAttachmentSlot(slotID) end
 
 ---@param slotID TweakDBID|string
 ---@return Bool
-function gameItemData:HasPartInSlot(slotID) return end
+function gameItemData:HasPartInSlot(slotID) end
 
 ---@param slotID TweakDBID|string
 ---@return Bool
-function gameItemData:HasPlacementSlot(slotID) return end
+function gameItemData:HasPlacementSlot(slotID) end
 
 ---@param type gamedataStatType
 ---@return Bool
-function gameItemData:HasStatData(type) return end
+function gameItemData:HasStatData(type) end
 
 ---@param tag CName|string
 ---@return Bool
-function gameItemData:HasTag(tag) return end
+function gameItemData:HasTag(tag) end
 
 ---@param ownerID entEntityID
 ---@return nil
-function gameItemData:ReinitializePlayerStats(ownerID) return end
+function gameItemData:ReinitializePlayerStats(ownerID) end
 
 ---@param tag CName|string
 ---@return Bool
-function gameItemData:RemoveDynamicTag(tag) return end
+function gameItemData:RemoveDynamicTag(tag) end
 
 ---@param tag CName|string
 ---@return Bool
-function gameItemData:SetDynamicTag(tag) return end
+function gameItemData:SetDynamicTag(tag) end
 
 ---@param objectDetachedFrom gameObject
 ---@return nil
-function gameItemData:SubtractStatsOnUnequip(objectDetachedFrom) return end
+function gameItemData:SubtractStatsOnUnequip(objectDetachedFrom) end
 
 ---@return Bool
-function gameItemData:UsesVariants() return end
+function gameItemData:UsesVariants() end

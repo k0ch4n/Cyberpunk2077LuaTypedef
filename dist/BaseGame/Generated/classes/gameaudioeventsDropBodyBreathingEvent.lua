@@ -5,4 +5,4 @@ gameaudioeventsDropBodyBreathingEvent = {}
 
 ---@param fields? gameaudioeventsDropBodyBreathingEvent
 ---@return gameaudioeventsDropBodyBreathingEvent
-function gameaudioeventsDropBodyBreathingEvent.new(fields) return end
+function gameaudioeventsDropBodyBreathingEvent.new(fields) end

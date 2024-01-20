@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldCollisionAreaNode: worldAreaShapeNode
----@field public material CName
----@field public navigationSetting NavGenNavigationSetting
----@field public filterData physicsFilterData
+---@field material CName
+---@field navigationSetting NavGenNavigationSetting
+---@field filterData physicsFilterData
 worldCollisionAreaNode = {}
 
 ---@param fields? worldCollisionAreaNode
 ---@return worldCollisionAreaNode
-function worldCollisionAreaNode.new(fields) return end
+function worldCollisionAreaNode.new(fields) end

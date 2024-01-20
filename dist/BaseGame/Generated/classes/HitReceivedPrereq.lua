@@ -5,4 +5,4 @@ HitReceivedPrereq = {}
 
 ---@param fields? HitReceivedPrereq
 ---@return HitReceivedPrereq
-function HitReceivedPrereq.new(fields) return end
+function HitReceivedPrereq.new(fields) end

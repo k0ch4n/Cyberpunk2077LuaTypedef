@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class gameuiQuestUpdateNotificationViewData: gameuiGenericNotificationViewData
----@field public questEntryId String
----@field public canBeMerged Bool
----@field public animation CName
----@field public SMSText String
----@field public SMSLocKey String
----@field public dontRemoveOnRequest Bool
----@field public entryHash Int32
----@field public rewardSC Int32
----@field public rewardXP Int32
----@field public priority EGenericNotificationPriority
+---@field questEntryId String
+---@field canBeMerged Bool
+---@field animation CName
+---@field SMSText String
+---@field SMSLocKey String
+---@field dontRemoveOnRequest Bool
+---@field entryHash Int32
+---@field rewardSC Int32
+---@field rewardXP Int32
+---@field priority EGenericNotificationPriority
 gameuiQuestUpdateNotificationViewData = {}
 
 ---@param fields? gameuiQuestUpdateNotificationViewData
 ---@return gameuiQuestUpdateNotificationViewData
-function gameuiQuestUpdateNotificationViewData.new(fields) return end
+function gameuiQuestUpdateNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function gameuiQuestUpdateNotificationViewData:CanMerge(data) return end
+function gameuiQuestUpdateNotificationViewData:CanMerge(data) end
 
 ---@return Int32
-function gameuiQuestUpdateNotificationViewData:GetPriority() return end
+function gameuiQuestUpdateNotificationViewData:GetPriority() end
 
 ---@param data IScriptable
 ---@return Bool
-function gameuiQuestUpdateNotificationViewData:OnRemoveNotification(data) return end
+function gameuiQuestUpdateNotificationViewData:OnRemoveNotification(data) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnRidAnimSetSRRef
----@field public animations scnSRRefId[]
+---@field animations scnSRRefId[]
 scnRidAnimSetSRRef = {}
 
 ---@param fields? scnRidAnimSetSRRef
 ---@return scnRidAnimSetSRRef
-function scnRidAnimSetSRRef.new(fields) return end
+function scnRidAnimSetSRRef.new(fields) end

@@ -5,23 +5,20 @@ MeleeSafeDecisions = {}
 
 ---@param fields? MeleeSafeDecisions
 ---@return MeleeSafeDecisions
-function MeleeSafeDecisions.new(fields) return end
+function MeleeSafeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeSafeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeSafeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeSafeDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeSafeDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackRangeSquared Float
 ---@return Bool
-function MeleeSafeDecisions:IsFriendlyTargetInMeleeRange(stateContext, scriptInterface, attackRangeSquared) return end
+function MeleeSafeDecisions:IsFriendlyTargetInMeleeRange(stateContext, scriptInterface, attackRangeSquared) end

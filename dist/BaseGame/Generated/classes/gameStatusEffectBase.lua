@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameStatusEffectBase: IScriptable
----@field public statusEffectRecordID TweakDBID
+---@field statusEffectRecordID TweakDBID
 gameStatusEffectBase = {}

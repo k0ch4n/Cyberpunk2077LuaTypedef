@@ -5,4 +5,4 @@ inkFocusEventCallback = {}
 
 ---@param fields? inkFocusEventCallback
 ---@return inkFocusEventCallback
-function inkFocusEventCallback.new(fields) return end
+function inkFocusEventCallback.new(fields) end

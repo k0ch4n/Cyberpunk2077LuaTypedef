@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class RenderFeaturesAreaSettings: IAreaSettings
----@field public allowGlobalIllumination Bool
----@field public allowScreenSpaceReflections Bool
----@field public allowVolumetricFog Bool
+---@field allowGlobalIllumination Bool
+---@field allowScreenSpaceReflections Bool
+---@field allowVolumetricFog Bool
 RenderFeaturesAreaSettings = {}
 
 ---@param fields? RenderFeaturesAreaSettings
 ---@return RenderFeaturesAreaSettings
-function RenderFeaturesAreaSettings.new(fields) return end
+function RenderFeaturesAreaSettings.new(fields) end

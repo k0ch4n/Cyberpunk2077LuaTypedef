@@ -5,12 +5,12 @@ gametargetingTargetPartInfo = {}
 
 ---@param fields? gametargetingTargetPartInfo
 ---@return gametargetingTargetPartInfo
-function gametargetingTargetPartInfo.new(fields) return end
+function gametargetingTargetPartInfo.new(fields) end
 
 ---@param self gametargetingTargetPartInfo
 ---@return gameTargetingComponent
-function gametargetingTargetPartInfo.GetComponent(self) return end
+function gametargetingTargetPartInfo.GetComponent(self) end
 
 ---@param self gametargetingTargetPartInfo
 ---@return EulerAngles
-function gametargetingTargetPartInfo.GetPlayerAngleDistance(self) return end
+function gametargetingTargetPartInfo.GetPlayerAngleDistance(self) end

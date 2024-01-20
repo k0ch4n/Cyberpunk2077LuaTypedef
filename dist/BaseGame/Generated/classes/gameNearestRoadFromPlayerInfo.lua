@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameNearestRoadFromPlayerInfo
----@field public pathLength Float
----@field public point Vector4
+---@field pathLength Float
+---@field point Vector4
 gameNearestRoadFromPlayerInfo = {}
 
 ---@param fields? gameNearestRoadFromPlayerInfo
 ---@return gameNearestRoadFromPlayerInfo
-function gameNearestRoadFromPlayerInfo.new(fields) return end
+function gameNearestRoadFromPlayerInfo.new(fields) end

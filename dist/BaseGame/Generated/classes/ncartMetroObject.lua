@@ -1,48 +1,41 @@
 ---@meta
 
 ---@class ncartMetroObject: vehicleAVBaseObject
----@field private pitchAdjustmentDelayID gameDelayID
----@field private Z Float
----@field private checkForLeveling Bool
----@field private pitchingValue Int32
----@field public pitchAngleCheckInterval Float
----@field public pitchAngleReturnInterval Float
----@field public trainReverseDirectionFactName CName
----@field public pitchAngleAdjustmentTreshold Float
----@field public pitchAngleLevelOutTreshold Float
+---@field pitchAdjustmentDelayID gameDelayID
+---@field Z Float
+---@field checkForLeveling Bool
+---@field pitchingValue Int32
+---@field pitchAngleCheckInterval Float
+---@field pitchAngleReturnInterval Float
+---@field trainReverseDirectionFactName CName
+---@field pitchAngleAdjustmentTreshold Float
+---@field pitchAngleLevelOutTreshold Float
 ncartMetroObject = {}
 
 ---@param fields? ncartMetroObject
 ---@return ncartMetroObject
-function ncartMetroObject.new(fields) return end
+function ncartMetroObject.new(fields) end
 
----@protected
 ---@return Bool
-function ncartMetroObject:OnDetach() return end
+function ncartMetroObject:OnDetach() end
 
----@protected
 ---@return Bool
-function ncartMetroObject:OnGameAttached() return end
+function ncartMetroObject:OnGameAttached() end
 
----@protected
 ---@param evt MetroPitchAdjustmentEvent
 ---@return Bool
-function ncartMetroObject:OnMetroPitchAdjustmentEvent(evt) return end
+function ncartMetroObject:OnMetroPitchAdjustmentEvent(evt) end
 
----@private
 ---@return nil
-function ncartMetroObject:LevelOutPitch() return end
+function ncartMetroObject:LevelOutPitch() end
 
----@private
 ---@param z Float
 ---@return nil
-function ncartMetroObject:PerformPitchAdjustment(z) return end
+function ncartMetroObject:PerformPitchAdjustment(z) end
 
----@private
 ---@return nil
-function ncartMetroObject:PerformYawAjustment() return end
+function ncartMetroObject:PerformYawAjustment() end
 
----@private
 ---@param on Bool
 ---@return nil
-function ncartMetroObject:TogglePitchAdjustment(on) return end
+function ncartMetroObject:TogglePitchAdjustment(on) end

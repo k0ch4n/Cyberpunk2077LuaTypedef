@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class rendChunk
----@field public chunkVertices rendVertexBufferChunk
----@field public chunkIndices rendIndexBufferChunk
----@field public numVertices Uint16
----@field public numIndices Uint32
----@field public materialId CName[]
----@field public vertexFactory Uint8
----@field public baseRenderMask Uint16
----@field public mergedRenderMask Uint16
----@field public renderMask EMeshChunkFlags
----@field public lodMask Uint8
+---@field chunkVertices rendVertexBufferChunk
+---@field chunkIndices rendIndexBufferChunk
+---@field numVertices Uint16
+---@field numIndices Uint32
+---@field materialId CName[]
+---@field vertexFactory Uint8
+---@field baseRenderMask Uint16
+---@field mergedRenderMask Uint16
+---@field renderMask EMeshChunkFlags
+---@field lodMask Uint8
 rendChunk = {}
 
 ---@param fields? rendChunk
 ---@return rendChunk
-function rendChunk.new(fields) return end
+function rendChunk.new(fields) end

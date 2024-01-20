@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gamedeviceDataElement
----@field public owner String
----@field public date String
----@field public title String
----@field public content String
----@field public videoPath redResourceReferenceScriptToken
----@field public journalPath gameJournalPath
----@field public documentName CName
----@field public questInfo gamedeviceQuestInfo
----@field public isEncrypted Bool
----@field public wasRead Bool
----@field public isEnabled Bool
+---@field owner String
+---@field date String
+---@field title String
+---@field content String
+---@field videoPath redResourceReferenceScriptToken
+---@field journalPath gameJournalPath
+---@field documentName CName
+---@field questInfo gamedeviceQuestInfo
+---@field isEncrypted Bool
+---@field wasRead Bool
+---@field isEnabled Bool
 gamedeviceDataElement = {}
 
 ---@param fields? gamedeviceDataElement
 ---@return gamedeviceDataElement
-function gamedeviceDataElement.new(fields) return end
+function gamedeviceDataElement.new(fields) end

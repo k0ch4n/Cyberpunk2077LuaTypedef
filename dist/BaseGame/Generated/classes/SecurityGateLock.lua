@@ -1,47 +1,40 @@
 ---@meta
 
 ---@class SecurityGateLock: InteractiveDevice
----@field private enteringArea gameStaticTriggerAreaComponent
----@field private centeredArea gameStaticTriggerAreaComponent
----@field private leavingArea gameStaticTriggerAreaComponent
+---@field enteringArea gameStaticTriggerAreaComponent
+---@field centeredArea gameStaticTriggerAreaComponent
+---@field leavingArea gameStaticTriggerAreaComponent
 SecurityGateLock = {}
 
 ---@param fields? SecurityGateLock
 ---@return SecurityGateLock
-function SecurityGateLock.new(fields) return end
+function SecurityGateLock.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function SecurityGateLock:OnAreaEnter(evt) return end
+function SecurityGateLock:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function SecurityGateLock:OnAreaExit(evt) return end
+function SecurityGateLock:OnAreaExit(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SecurityGateLock:OnRequestComponents(ri) return end
+function SecurityGateLock:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SecurityGateLock:OnTakeControl(ri) return end
+function SecurityGateLock:OnTakeControl(ri) end
 
----@protected
 ---@param evt UpdateGatePosition
 ---@return Bool
-function SecurityGateLock:OnUpdateGatePosition(evt) return end
+function SecurityGateLock:OnUpdateGatePosition(evt) end
 
----@private
 ---@return SecurityGateLockController
-function SecurityGateLock:GetController() return end
+function SecurityGateLock:GetController() end
 
 ---@return SecurityGateLockControllerPS
-function SecurityGateLock:GetDevicePS() return end
+function SecurityGateLock:GetDevicePS() end
 
----@private
 ---@return nil
-function SecurityGateLock:UpdateGatePosition() return end
+function SecurityGateLock:UpdateGatePosition() end

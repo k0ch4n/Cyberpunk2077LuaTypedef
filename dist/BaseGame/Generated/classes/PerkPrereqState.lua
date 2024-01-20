@@ -5,4 +5,4 @@ PerkPrereqState = {}
 
 ---@param fields? PerkPrereqState
 ---@return PerkPrereqState
-function PerkPrereqState.new(fields) return end
+function PerkPrereqState.new(fields) end

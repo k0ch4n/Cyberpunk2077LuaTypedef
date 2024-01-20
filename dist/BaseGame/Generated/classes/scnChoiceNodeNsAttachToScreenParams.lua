@@ -5,4 +5,4 @@ scnChoiceNodeNsAttachToScreenParams = {}
 
 ---@param fields? scnChoiceNodeNsAttachToScreenParams
 ---@return scnChoiceNodeNsAttachToScreenParams
-function scnChoiceNodeNsAttachToScreenParams.new(fields) return end
+function scnChoiceNodeNsAttachToScreenParams.new(fields) end

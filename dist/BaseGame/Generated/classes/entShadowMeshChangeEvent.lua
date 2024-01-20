@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entShadowMeshChangeEvent: redEvent
----@field public requestedState entAppearanceStatus
+---@field requestedState entAppearanceStatus
 entShadowMeshChangeEvent = {}
 
 ---@param fields? entShadowMeshChangeEvent
 ---@return entShadowMeshChangeEvent
-function entShadowMeshChangeEvent.new(fields) return end
+function entShadowMeshChangeEvent.new(fields) end

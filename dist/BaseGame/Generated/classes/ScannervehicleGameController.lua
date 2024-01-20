@@ -1,91 +1,80 @@
 ---@meta
 
 ---@class ScannervehicleGameController: BaseChunkGameController
----@field private vehicleNameCallbackID redCallbackObject
----@field private vehicleManufacturerCallbackID redCallbackObject
----@field private vehicleProdYearsCallbackID redCallbackObject
----@field private vehicleDriveLayoutCallbackID redCallbackObject
----@field private vehicleHorsepowerCallbackID redCallbackObject
----@field private vehicleMassCallbackID redCallbackObject
----@field private vehicleStateCallbackID redCallbackObject
----@field private vehicleInfoCallbackID redCallbackObject
----@field private isValidVehicleManufacturer Bool
----@field private isValidVehicleName Bool
----@field private isValidVehicleProdYears Bool
----@field private isValidVehicleDriveLayout Bool
----@field private isValidVehicleHorsepower Bool
----@field private isValidVehicleMass Bool
----@field private isValidVehicleState Bool
----@field private isValidVehicleInfo Bool
----@field private vehicleNameText inkTextWidgetReference
----@field private vehicleManufacturer inkImageWidgetReference
----@field private vehicleProdYearsText inkTextWidgetReference
----@field private vehicleDriveLayoutText inkTextWidgetReference
----@field private vehicleHorsepowerText inkTextWidgetReference
----@field private vehicleMassText inkTextWidgetReference
----@field private vehicleStateText inkTextWidgetReference
----@field private vehicleInfoText inkTextWidgetReference
----@field private vehicleNameHolder inkWidgetReference
----@field private vehicleProdYearsHolder inkWidgetReference
----@field private vehicleDriveLayoutHolder inkWidgetReference
----@field private vehicleHorsepowerHolder inkWidgetReference
----@field private vehicleMassHolder inkWidgetReference
----@field private vehicleStateHolder inkWidgetReference
----@field private vehicleInfoHolder inkWidgetReference
+---@field vehicleNameCallbackID redCallbackObject
+---@field vehicleManufacturerCallbackID redCallbackObject
+---@field vehicleProdYearsCallbackID redCallbackObject
+---@field vehicleDriveLayoutCallbackID redCallbackObject
+---@field vehicleHorsepowerCallbackID redCallbackObject
+---@field vehicleMassCallbackID redCallbackObject
+---@field vehicleStateCallbackID redCallbackObject
+---@field vehicleInfoCallbackID redCallbackObject
+---@field isValidVehicleManufacturer Bool
+---@field isValidVehicleName Bool
+---@field isValidVehicleProdYears Bool
+---@field isValidVehicleDriveLayout Bool
+---@field isValidVehicleHorsepower Bool
+---@field isValidVehicleMass Bool
+---@field isValidVehicleState Bool
+---@field isValidVehicleInfo Bool
+---@field vehicleNameText inkTextWidgetReference
+---@field vehicleManufacturer inkImageWidgetReference
+---@field vehicleProdYearsText inkTextWidgetReference
+---@field vehicleDriveLayoutText inkTextWidgetReference
+---@field vehicleHorsepowerText inkTextWidgetReference
+---@field vehicleMassText inkTextWidgetReference
+---@field vehicleStateText inkTextWidgetReference
+---@field vehicleInfoText inkTextWidgetReference
+---@field vehicleNameHolder inkWidgetReference
+---@field vehicleProdYearsHolder inkWidgetReference
+---@field vehicleDriveLayoutHolder inkWidgetReference
+---@field vehicleHorsepowerHolder inkWidgetReference
+---@field vehicleMassHolder inkWidgetReference
+---@field vehicleStateHolder inkWidgetReference
+---@field vehicleInfoHolder inkWidgetReference
 ScannervehicleGameController = {}
 
 ---@param fields? ScannervehicleGameController
 ---@return ScannervehicleGameController
-function ScannervehicleGameController.new(fields) return end
+function ScannervehicleGameController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannervehicleGameController:OnInitialize() return end
+function ScannervehicleGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ScannervehicleGameController:OnUninitialize() return end
+function ScannervehicleGameController:OnUninitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleHorsepowerChanged(value) return end
+function ScannervehicleGameController:OnVehicleHorsepowerChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleInfoChanged(value) return end
+function ScannervehicleGameController:OnVehicleInfoChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleManufacturerChanged(value) return end
+function ScannervehicleGameController:OnVehicleManufacturerChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleMassChanged(value) return end
+function ScannervehicleGameController:OnVehicleMassChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleNameChanged(value) return end
+function ScannervehicleGameController:OnVehicleNameChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleProdYearsChanged(value) return end
+function ScannervehicleGameController:OnVehicleProdYearsChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleStateChanged(value) return end
+function ScannervehicleGameController:OnVehicleStateChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannervehicleGameController:OnVehicleeDriveLayoutChanged(value) return end
+function ScannervehicleGameController:OnVehicleeDriveLayoutChanged(value) end
 
----@private
 ---@return nil
-function ScannervehicleGameController:UpdateGlobalVisibility() return end
+function ScannervehicleGameController:UpdateGlobalVisibility() end

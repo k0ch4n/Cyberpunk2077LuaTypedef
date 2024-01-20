@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameTierSaveData: ISerializable
----@field public globalTiers gameGlobalTierSaveData[]
+---@field globalTiers gameGlobalTierSaveData[]
 gameTierSaveData = {}
 
 ---@param fields? gameTierSaveData
 ---@return gameTierSaveData
-function gameTierSaveData.new(fields) return end
+function gameTierSaveData.new(fields) end

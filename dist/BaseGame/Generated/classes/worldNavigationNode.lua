@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldNavigationNode: worldNode
----@field public navigationTileResource worldNavigationTileResource
+---@field navigationTileResource worldNavigationTileResource
 worldNavigationNode = {}
 
 ---@param fields? worldNavigationNode
 ---@return worldNavigationNode
-function worldNavigationNode.new(fields) return end
+function worldNavigationNode.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EvaluateGameplayRoleEvent: redEvent
----@field public force Bool
+---@field force Bool
 EvaluateGameplayRoleEvent = {}
 
 ---@param fields? EvaluateGameplayRoleEvent
 ---@return EvaluateGameplayRoleEvent
-function EvaluateGameplayRoleEvent.new(fields) return end
+function EvaluateGameplayRoleEvent.new(fields) end

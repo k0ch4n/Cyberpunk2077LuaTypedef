@@ -1,22 +1,19 @@
 ---@meta
 
 ---@class gameuiTutorialBracketLogicController: inkWidgetLogicController
----@field private loopAnim inkanimProxy
+---@field loopAnim inkanimProxy
 gameuiTutorialBracketLogicController = {}
 
 ---@param fields? gameuiTutorialBracketLogicController
 ---@return gameuiTutorialBracketLogicController
-function gameuiTutorialBracketLogicController.new(fields) return end
+function gameuiTutorialBracketLogicController.new(fields) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function gameuiTutorialBracketLogicController:OnShowFinished(e) return end
+function gameuiTutorialBracketLogicController:OnShowFinished(e) end
 
----@private
 ---@return inkanimProxy
-function gameuiTutorialBracketLogicController:PlayHideAnimation() return end
+function gameuiTutorialBracketLogicController:PlayHideAnimation() end
 
----@private
 ---@return inkanimProxy
-function gameuiTutorialBracketLogicController:PlayShowAnimation() return end
+function gameuiTutorialBracketLogicController:PlayShowAnimation() end

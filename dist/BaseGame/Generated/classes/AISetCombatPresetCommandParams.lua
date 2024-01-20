@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AISetCombatPresetCommandParams: questScriptedAICommandParams
----@field public combatPreset EAICombatPreset
+---@field combatPreset EAICombatPreset
 AISetCombatPresetCommandParams = {}
 
 ---@param fields? AISetCombatPresetCommandParams
 ---@return AISetCombatPresetCommandParams
-function AISetCombatPresetCommandParams.new(fields) return end
+function AISetCombatPresetCommandParams.new(fields) end
 
 ---@return AICommand
-function AISetCombatPresetCommandParams:CreateCommand() return end
+function AISetCombatPresetCommandParams:CreateCommand() end
 
 ---@return String
-function AISetCombatPresetCommandParams:GetCommandName() return end
+function AISetCombatPresetCommandParams:GetCommandName() end

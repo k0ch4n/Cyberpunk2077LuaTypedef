@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class EnableBraindanceActions: redEvent
----@field public actionMask SBraindanceInputMask
+---@field actionMask SBraindanceInputMask
 EnableBraindanceActions = {}
 
 ---@param fields? EnableBraindanceActions
 ---@return EnableBraindanceActions
-function EnableBraindanceActions.new(fields) return end
+function EnableBraindanceActions.new(fields) end
 
 ---@return String
-function EnableBraindanceActions:GetFriendlyDescription() return end
+function EnableBraindanceActions:GetFriendlyDescription() end

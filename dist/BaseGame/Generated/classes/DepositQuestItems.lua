@@ -5,7 +5,7 @@ DepositQuestItems = {}
 
 ---@param fields? DepositQuestItems
 ---@return DepositQuestItems
-function DepositQuestItems.new(fields) return end
+function DepositQuestItems.new(fields) end
 
 ---@return nil
-function DepositQuestItems:SetProperties() return end
+function DepositQuestItems:SetProperties() end

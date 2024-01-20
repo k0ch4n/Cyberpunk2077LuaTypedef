@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class STriggerVolumeOperationData
----@field public isActivatorPlayer Bool
----@field public isActivatorNPC Bool
----@field public componentName CName
----@field public operationType ETriggerOperationType
----@field public operation SBaseDeviceOperationData
+---@field isActivatorPlayer Bool
+---@field isActivatorNPC Bool
+---@field componentName CName
+---@field operationType ETriggerOperationType
+---@field operation SBaseDeviceOperationData
 STriggerVolumeOperationData = {}
 
 ---@param fields? STriggerVolumeOperationData
 ---@return STriggerVolumeOperationData
-function STriggerVolumeOperationData.new(fields) return end
+function STriggerVolumeOperationData.new(fields) end

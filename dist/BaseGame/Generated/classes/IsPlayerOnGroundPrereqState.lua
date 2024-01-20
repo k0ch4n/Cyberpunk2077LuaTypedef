@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class IsPlayerOnGroundPrereqState: gamePrereqState
----@field public bbValue Bool
----@field public isOnGroundListener redCallbackObject
----@field public owner gameObject
+---@field bbValue Bool
+---@field isOnGroundListener redCallbackObject
+---@field owner gameObject
 IsPlayerOnGroundPrereqState = {}
 
 ---@param fields? IsPlayerOnGroundPrereqState
 ---@return IsPlayerOnGroundPrereqState
-function IsPlayerOnGroundPrereqState.new(fields) return end
+function IsPlayerOnGroundPrereqState.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function IsPlayerOnGroundPrereqState:OnStateUpdateBool(value) return end
+function IsPlayerOnGroundPrereqState:OnStateUpdateBool(value) end

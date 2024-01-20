@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class entInstancedAnimationComponent: entISkinableComponent
----@field public animations animAnimSet
----@field public animToSample CName
----@field public variantAnimToSample CName
----@field public variantTriggerTag CName
+---@field animations animAnimSet
+---@field animToSample CName
+---@field variantAnimToSample CName
+---@field variantTriggerTag CName
 entInstancedAnimationComponent = {}
 
 ---@param fields? entInstancedAnimationComponent
 ---@return entInstancedAnimationComponent
-function entInstancedAnimationComponent.new(fields) return end
+function entInstancedAnimationComponent.new(fields) end

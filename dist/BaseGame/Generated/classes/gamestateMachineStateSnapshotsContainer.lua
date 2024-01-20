@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gamestateMachineStateSnapshotsContainer
----@field public snapshot gamestateMachineStateSnapshot[]
+---@field snapshot gamestateMachineStateSnapshot[]
 gamestateMachineStateSnapshotsContainer = {}
 
 ---@param fields? gamestateMachineStateSnapshotsContainer
 ---@return gamestateMachineStateSnapshotsContainer
-function gamestateMachineStateSnapshotsContainer.new(fields) return end
+function gamestateMachineStateSnapshotsContainer.new(fields) end
 
 ---@param self gamestateMachineStateSnapshotsContainer
 ---@param stateMachineIdentifier gamestateMachineStateMachineIdentifier
 ---@return gamestateMachineSnapshotResult
-function gamestateMachineStateSnapshotsContainer.GetSnapshot(self, stateMachineIdentifier) return end
+function gamestateMachineStateSnapshotsContainer.GetSnapshot(self, stateMachineIdentifier) end

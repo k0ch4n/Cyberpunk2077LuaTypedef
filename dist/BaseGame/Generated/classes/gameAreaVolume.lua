@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameAreaVolume: gameObject
----@field public areaData gameAreaData
+---@field areaData gameAreaData
 gameAreaVolume = {}
 
 ---@param fields? gameAreaVolume
 ---@return gameAreaVolume
-function gameAreaVolume.new(fields) return end
+function gameAreaVolume.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class TooltipLootingCachedData: IScriptable
----@field public externalItemData gameItemData
----@field public itemRecord gamedataItem_Record
----@field public comparisonItemData gameItemData
----@field public comparisonItemId gameItemID
----@field public lootingData MinimalLootingListItemData
----@field public comparisonWeaponBars UIInventoryItemWeaponBars
----@field public comparisonQualityF Float
+---@field externalItemData gameItemData
+---@field itemRecord gamedataItem_Record
+---@field comparisonItemData gameItemData
+---@field comparisonItemId gameItemID
+---@field lootingData MinimalLootingListItemData
+---@field comparisonWeaponBars UIInventoryItemWeaponBars
+---@field comparisonQualityF Float
 TooltipLootingCachedData = {}
 
 ---@param fields? TooltipLootingCachedData
 ---@return TooltipLootingCachedData
-function TooltipLootingCachedData.new(fields) return end
+function TooltipLootingCachedData.new(fields) end

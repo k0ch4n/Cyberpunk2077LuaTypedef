@@ -1,50 +1,41 @@
 ---@meta
 
 ---@class gameuiHoldIndicatorGameController: gameuiWidgetGameController
----@field public HoldProgress gameuiHoldIndicatorProgressCallback
----@field public HoldStart inkEmptyCallback
----@field public HoldFinish inkEmptyCallback
----@field public HoldStop inkEmptyCallback
+---@field HoldProgress gameuiHoldIndicatorProgressCallback
+---@field HoldStart inkEmptyCallback
+---@field HoldFinish inkEmptyCallback
+---@field HoldStop inkEmptyCallback
 gameuiHoldIndicatorGameController = {}
 
 ---@param fields? gameuiHoldIndicatorGameController
 ---@return gameuiHoldIndicatorGameController
-function gameuiHoldIndicatorGameController.new(fields) return end
+function gameuiHoldIndicatorGameController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiHoldIndicatorGameController:OnHoldFinish() return end
+function gameuiHoldIndicatorGameController:OnHoldFinish() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function gameuiHoldIndicatorGameController:OnHoldProgress(value) return end
+function gameuiHoldIndicatorGameController:OnHoldProgress(value) end
 
----@protected
 ---@return Bool
-function gameuiHoldIndicatorGameController:OnHoldStart() return end
+function gameuiHoldIndicatorGameController:OnHoldStart() end
 
----@protected
 ---@return Bool
-function gameuiHoldIndicatorGameController:OnHoldStop() return end
+function gameuiHoldIndicatorGameController:OnHoldStop() end
 
----@protected
 ---@return Bool
-function gameuiHoldIndicatorGameController:OnInitialize() return end
+function gameuiHoldIndicatorGameController:OnInitialize() end
 
----@protected
 ---@return nil
-function gameuiHoldIndicatorGameController:HoldFinish() return end
+function gameuiHoldIndicatorGameController:HoldFinish() end
 
----@protected
 ---@param value Float
 ---@return nil
-function gameuiHoldIndicatorGameController:HoldProgress(value) return end
+function gameuiHoldIndicatorGameController:HoldProgress(value) end
 
----@protected
 ---@return nil
-function gameuiHoldIndicatorGameController:HoldStart() return end
+function gameuiHoldIndicatorGameController:HoldStart() end
 
----@protected
 ---@return nil
-function gameuiHoldIndicatorGameController:HoldStop() return end
+function gameuiHoldIndicatorGameController:HoldStop() end

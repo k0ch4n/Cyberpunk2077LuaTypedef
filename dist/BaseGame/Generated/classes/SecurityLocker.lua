@@ -1,81 +1,67 @@
 ---@meta
 
 ---@class SecurityLocker: InteractiveDevice
----@field private cachedEvent UseSecurityLocker
+---@field cachedEvent UseSecurityLocker
 SecurityLocker = {}
 
 ---@param fields? SecurityLocker
 ---@return SecurityLocker
-function SecurityLocker.new(fields) return end
+function SecurityLocker.new(fields) end
 
----@protected
 ---@param evt Disarm
 ---@return Bool
-function SecurityLocker:OnDisarm(evt) return end
+function SecurityLocker:OnDisarm(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SecurityLocker:OnRequestComponents(ri) return end
+function SecurityLocker:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SecurityLocker:OnTakeControl(ri) return end
+function SecurityLocker:OnTakeControl(ri) end
 
----@protected
 ---@param evt UseSecurityLocker
 ---@return Bool
-function SecurityLocker:OnUseSecurityLocker(evt) return end
+function SecurityLocker:OnUseSecurityLocker(evt) end
 
----@private
 ---@param activate Bool
 ---@return nil
-function SecurityLocker:ActivateCyberwere(activate) return end
+function SecurityLocker:ActivateCyberwere(activate) end
 
----@protected
 ---@return nil
-function SecurityLocker:CutPower() return end
+function SecurityLocker:CutPower() end
 
 ---@return EGameplayRole
-function SecurityLocker:DeterminGameplayRole() return end
+function SecurityLocker:DeterminGameplayRole() end
 
----@private
 ---@param evt UseSecurityLocker
 ---@return nil
-function SecurityLocker:DisarmUser(evt) return end
+function SecurityLocker:DisarmUser(evt) end
 
----@private
 ---@return SecurityLockerController
-function SecurityLocker:GetController() return end
+function SecurityLocker:GetController() end
 
 ---@return SecurityLockerControllerPS
-function SecurityLocker:GetDevicePS() return end
+function SecurityLocker:GetDevicePS() end
 
----@private
 ---@param evt UseSecurityLocker
 ---@return nil
-function SecurityLocker:ReturnArms(evt) return end
+function SecurityLocker:ReturnArms(evt) end
 
----@private
 ---@param items gameItemData[]
 ---@param from gameObject
 ---@param to gameObject
 ---@return nil
-function SecurityLocker:TransferItems(items, from, to) return end
+function SecurityLocker:TransferItems(items, from, to) end
 
----@protected
 ---@return nil
-function SecurityLocker:TurnOffDevice() return end
+function SecurityLocker:TurnOffDevice() end
 
----@private
 ---@return nil
-function SecurityLocker:TurnOffScreen() return end
+function SecurityLocker:TurnOffScreen() end
 
----@protected
 ---@return nil
-function SecurityLocker:TurnOnDevice() return end
+function SecurityLocker:TurnOnDevice() end
 
----@private
 ---@return nil
-function SecurityLocker:TurnOnScreen() return end
+function SecurityLocker:TurnOnScreen() end

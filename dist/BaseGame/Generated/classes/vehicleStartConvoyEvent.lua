@@ -5,4 +5,4 @@ vehicleStartConvoyEvent = {}
 
 ---@param fields? vehicleStartConvoyEvent
 ---@return vehicleStartConvoyEvent
-function vehicleStartConvoyEvent.new(fields) return end
+function vehicleStartConvoyEvent.new(fields) end

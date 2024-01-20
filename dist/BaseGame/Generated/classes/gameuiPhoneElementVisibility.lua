@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiPhoneElementVisibility
----@field public tierVisibility worlduiContextVisibility
----@field public gameContextVisibility gameuiContext
----@field public slot inkCompoundWidgetReference
+---@field tierVisibility worlduiContextVisibility
+---@field gameContextVisibility gameuiContext
+---@field slot inkCompoundWidgetReference
 gameuiPhoneElementVisibility = {}
 
 ---@param fields? gameuiPhoneElementVisibility
 ---@return gameuiPhoneElementVisibility
-function gameuiPhoneElementVisibility.new(fields) return end
+function gameuiPhoneElementVisibility.new(fields) end

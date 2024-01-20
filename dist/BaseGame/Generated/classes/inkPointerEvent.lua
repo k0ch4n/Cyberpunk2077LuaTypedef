@@ -5,13 +5,13 @@ inkPointerEvent = {}
 
 ---@param fields? inkPointerEvent
 ---@return inkPointerEvent
-function inkPointerEvent.new(fields) return end
+function inkPointerEvent.new(fields) end
 
 ---@return Float
-function inkPointerEvent:GetAxisData() return end
+function inkPointerEvent:GetAxisData() end
 
 ---@return Vector2
-function inkPointerEvent:GetScreenSpacePosition() return end
+function inkPointerEvent:GetScreenSpacePosition() end
 
 ---@return Vector2
-function inkPointerEvent:GetWindowSpacePosition() return end
+function inkPointerEvent:GetWindowSpacePosition() end

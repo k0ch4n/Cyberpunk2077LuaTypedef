@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnscreenplayLineUsage
----@field public playerGenderMask scnGenderMask
+---@field playerGenderMask scnGenderMask
 scnscreenplayLineUsage = {}
 
 ---@param fields? scnscreenplayLineUsage
 ---@return scnscreenplayLineUsage
-function scnscreenplayLineUsage.new(fields) return end
+function scnscreenplayLineUsage.new(fields) end

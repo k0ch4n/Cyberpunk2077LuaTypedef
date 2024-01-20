@@ -5,4 +5,4 @@ TurnOnVisibilitySenseComponent = {}
 
 ---@param fields? TurnOnVisibilitySenseComponent
 ---@return TurnOnVisibilitySenseComponent
-function TurnOnVisibilitySenseComponent.new(fields) return end
+function TurnOnVisibilitySenseComponent.new(fields) end

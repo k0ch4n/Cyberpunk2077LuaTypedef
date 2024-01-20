@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioWeaponShellCasingSettings: audioAudioMetadata
----@field public mode audioWeaponShellCasingMode
----@field public direction audioWeaponShellCasingDirection
----@field public firstCollisionEventName CName
----@field public secondCollisionEventName CName
----@field public initialDelay Float
+---@field mode audioWeaponShellCasingMode
+---@field direction audioWeaponShellCasingDirection
+---@field firstCollisionEventName CName
+---@field secondCollisionEventName CName
+---@field initialDelay Float
 audioWeaponShellCasingSettings = {}
 
 ---@param fields? audioWeaponShellCasingSettings
 ---@return audioWeaponShellCasingSettings
-function audioWeaponShellCasingSettings.new(fields) return end
+function audioWeaponShellCasingSettings.new(fields) end

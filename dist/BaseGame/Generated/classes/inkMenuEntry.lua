@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class inkMenuEntry
----@field public name CName
----@field public menuWidget inkWidgetLibraryResource
----@field public depth Uint32
----@field public spawnMode inkSpawnMode
----@field public isAffectedByFadeout Bool
----@field public inputContext CName
+---@field name CName
+---@field menuWidget inkWidgetLibraryResource
+---@field depth Uint32
+---@field spawnMode inkSpawnMode
+---@field isAffectedByFadeout Bool
+---@field inputContext CName
 inkMenuEntry = {}
 
 ---@param fields? inkMenuEntry
 ---@return inkMenuEntry
-function inkMenuEntry.new(fields) return end
+function inkMenuEntry.new(fields) end

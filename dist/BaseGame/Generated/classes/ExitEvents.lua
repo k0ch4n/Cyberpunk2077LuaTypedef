@@ -5,16 +5,14 @@ ExitEvents = {}
 
 ---@param fields? ExitEvents
 ---@return ExitEvents
-function ExitEvents.new(fields) return end
+function ExitEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExitEvents:OnEnter(stateContext, scriptInterface) return end
+function ExitEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExitEvents:OnForcedExit(stateContext, scriptInterface) return end
+function ExitEvents:OnForcedExit(stateContext, scriptInterface) end

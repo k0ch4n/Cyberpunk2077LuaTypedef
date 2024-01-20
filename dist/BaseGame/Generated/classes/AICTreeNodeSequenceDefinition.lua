@@ -5,4 +5,4 @@ AICTreeNodeSequenceDefinition = {}
 
 ---@param fields? AICTreeNodeSequenceDefinition
 ---@return AICTreeNodeSequenceDefinition
-function AICTreeNodeSequenceDefinition.new(fields) return end
+function AICTreeNodeSequenceDefinition.new(fields) end

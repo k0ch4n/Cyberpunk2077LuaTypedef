@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RipperdocMeterArmorApplyEvent: redEvent
----@field public ArmorData RipperdocArmorData
----@field public IsPurchase Bool
+---@field ArmorData RipperdocArmorData
+---@field IsPurchase Bool
 RipperdocMeterArmorApplyEvent = {}
 
 ---@param fields? RipperdocMeterArmorApplyEvent
 ---@return RipperdocMeterArmorApplyEvent
-function RipperdocMeterArmorApplyEvent.new(fields) return end
+function RipperdocMeterArmorApplyEvent.new(fields) end

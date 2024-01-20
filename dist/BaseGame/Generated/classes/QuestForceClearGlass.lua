@@ -5,7 +5,7 @@ QuestForceClearGlass = {}
 
 ---@param fields? QuestForceClearGlass
 ---@return QuestForceClearGlass
-function QuestForceClearGlass.new(fields) return end
+function QuestForceClearGlass.new(fields) end
 
 ---@return nil
-function QuestForceClearGlass:SetProperties() return end
+function QuestForceClearGlass:SetProperties() end

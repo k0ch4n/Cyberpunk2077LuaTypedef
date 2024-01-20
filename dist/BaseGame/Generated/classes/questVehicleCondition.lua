@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questVehicleCondition: questTypedCondition
----@field public type questIVehicleConditionType
+---@field type questIVehicleConditionType
 questVehicleCondition = {}
 
 ---@param fields? questVehicleCondition
 ---@return questVehicleCondition
-function questVehicleCondition.new(fields) return end
+function questVehicleCondition.new(fields) end

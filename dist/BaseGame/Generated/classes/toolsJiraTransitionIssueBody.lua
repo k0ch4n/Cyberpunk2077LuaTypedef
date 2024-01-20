@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraTransitionIssueBody: ISerializable
----@field public transition toolsJiraIssueTransition
+---@field transition toolsJiraIssueTransition
 toolsJiraTransitionIssueBody = {}
 
 ---@param fields? toolsJiraTransitionIssueBody
 ---@return toolsJiraTransitionIssueBody
-function toolsJiraTransitionIssueBody.new(fields) return end
+function toolsJiraTransitionIssueBody.new(fields) end

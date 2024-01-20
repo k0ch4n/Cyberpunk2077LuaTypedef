@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class AIArgumentMapping: IScriptable
----@field public type AIArgumentType
----@field public parameterizationType AIParameterizationType
----@field public defaultValue Variant
----@field public prefixValue AIArgumentMapping
----@field public customTypeName CName
+---@field type AIArgumentType
+---@field parameterizationType AIParameterizationType
+---@field defaultValue Variant
+---@field prefixValue AIArgumentMapping
+---@field customTypeName CName
 AIArgumentMapping = {}
 
 ---@param fields? AIArgumentMapping
 ---@return AIArgumentMapping
-function AIArgumentMapping.new(fields) return end
+function AIArgumentMapping.new(fields) end
 
 ---@return CName
-function AIArgumentMapping:GetArgumentName() return end
+function AIArgumentMapping:GetArgumentName() end
 
 ---@return AIArgumentType
-function AIArgumentMapping:GetArgumentType() return end
+function AIArgumentMapping:GetArgumentType() end
 
 ---@return AIParameterizationType
-function AIArgumentMapping:GetParameterizationType() return end
+function AIArgumentMapping:GetParameterizationType() end

@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class gameHudActor: IScriptable
----@field private entityID entEntityID
----@field private type HUDActorType
----@field private status HUDActorStatus
----@field private visibility ActorVisibilityStatus
----@field private activeModules HUDModule[]
----@field private isRevealed Bool
----@field private isTagged Bool
----@field private clueData HUDClueData
----@field private isRemotelyAccessed Bool
----@field private canOpenScannerInfo Bool
----@field private isInIconForcedVisibilityRange Bool
----@field private isIconForcedVisibleThroughWalls Bool
----@field private shouldRefreshQHack Bool
+---@field entityID entEntityID
+---@field type HUDActorType
+---@field status HUDActorStatus
+---@field visibility ActorVisibilityStatus
+---@field activeModules HUDModule[]
+---@field isRevealed Bool
+---@field isTagged Bool
+---@field clueData HUDClueData
+---@field isRemotelyAccessed Bool
+---@field canOpenScannerInfo Bool
+---@field isInIconForcedVisibilityRange Bool
+---@field isIconForcedVisibleThroughWalls Bool
+---@field shouldRefreshQHack Bool
 gameHudActor = {}
 
 ---@param fields? gameHudActor
 ---@return gameHudActor
-function gameHudActor.new(fields) return end
+function gameHudActor.new(fields) end
 
 ---@param self gameHudActor
 ---@param entityID entEntityID
@@ -26,98 +26,98 @@ function gameHudActor.new(fields) return end
 ---@param status HUDActorStatus
 ---@param visibility ActorVisibilityStatus
 ---@return nil
-function gameHudActor.Construct(self, entityID, type, status, visibility) return end
+function gameHudActor.Construct(self, entityID, type, status, visibility) end
 
 ---@param module HUDModule
 ---@return nil
-function gameHudActor:AddModule(module) return end
+function gameHudActor:AddModule(module) end
 
 ---@return Bool
-function gameHudActor:CanOpenScannerInfo() return end
+function gameHudActor:CanOpenScannerInfo() end
 
 ---@return HUDModule[]
-function gameHudActor:GetActiveModules() return end
+function gameHudActor:GetActiveModules() end
 
 ---@return entEntityID
-function gameHudActor:GetEntityID() return end
+function gameHudActor:GetEntityID() end
 
 ---@return Bool
-function gameHudActor:GetShouldRefreshQHack() return end
+function gameHudActor:GetShouldRefreshQHack() end
 
 ---@return HUDActorStatus
-function gameHudActor:GetStatus() return end
+function gameHudActor:GetStatus() end
 
 ---@return HUDActorType
-function gameHudActor:GetType() return end
+function gameHudActor:GetType() end
 
 ---@return ActorVisibilityStatus
-function gameHudActor:GetVisibility() return end
+function gameHudActor:GetVisibility() end
 
 ---@return Bool
-function gameHudActor:IsClue() return end
+function gameHudActor:IsClue() end
 
 ---@return Bool
-function gameHudActor:IsGrouppedClue() return end
+function gameHudActor:IsGrouppedClue() end
 
 ---@return Bool
-function gameHudActor:IsIconForcedVisibileThroughWalls() return end
+function gameHudActor:IsIconForcedVisibileThroughWalls() end
 
 ---@return Bool
-function gameHudActor:IsInIconForcedVisibilityRange() return end
+function gameHudActor:IsInIconForcedVisibilityRange() end
 
 ---@return Bool
-function gameHudActor:IsRemotelyAccessed() return end
+function gameHudActor:IsRemotelyAccessed() end
 
 ---@return Bool
-function gameHudActor:IsRevealed() return end
+function gameHudActor:IsRevealed() end
 
 ---@return Bool
-function gameHudActor:IsTagged() return end
+function gameHudActor:IsTagged() end
 
 ---@param module HUDModule
 ---@return nil
-function gameHudActor:RemoveModule(module) return end
+function gameHudActor:RemoveModule(module) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetCanOpenScannerInfo(value) return end
+function gameHudActor:SetCanOpenScannerInfo(value) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetClue(value) return end
+function gameHudActor:SetClue(value) end
 
 ---@param value CName|string
 ---@return nil
-function gameHudActor:SetClueGroup(value) return end
+function gameHudActor:SetClueGroup(value) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetIsIconForcedVisibileThroughWalls(value) return end
+function gameHudActor:SetIsIconForcedVisibileThroughWalls(value) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetIsInIconForcedVisibilityRange(value) return end
+function gameHudActor:SetIsInIconForcedVisibilityRange(value) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetRemotelyAccessed(value) return end
+function gameHudActor:SetRemotelyAccessed(value) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetRevealed(value) return end
+function gameHudActor:SetRevealed(value) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetShouldRefreshQHack(value) return end
+function gameHudActor:SetShouldRefreshQHack(value) end
 
 ---@param newStatus HUDActorStatus
 ---@return nil
-function gameHudActor:SetStatus(newStatus) return end
+function gameHudActor:SetStatus(newStatus) end
 
 ---@param value Bool
 ---@return nil
-function gameHudActor:SetTagged(value) return end
+function gameHudActor:SetTagged(value) end
 
 ---@param updateData HUDActorUpdateData
 ---@return nil
-function gameHudActor:UpdateActorData(updateData) return end
+function gameHudActor:UpdateActorData(updateData) end

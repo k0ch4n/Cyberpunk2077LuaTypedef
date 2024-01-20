@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class UIInventoryItemWeaponBars: IScriptable
----@field public Values UIInventoryItemWeaponBar[]
----@field private type UIInventoryItemWeaponBarsType
----@field private itemType gamedataItemType
----@field private comparedBars UIInventoryItemWeaponBars
+---@field Values UIInventoryItemWeaponBar[]
+---@field type UIInventoryItemWeaponBarsType
+---@field itemType gamedataItemType
+---@field comparedBars UIInventoryItemWeaponBars
 UIInventoryItemWeaponBars = {}
 
 ---@param fields? UIInventoryItemWeaponBars
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars.new(fields) return end
+function UIInventoryItemWeaponBars.new(fields) end
 
----@private
 ---@param cycleTime Float
 ---@param spreadDefaultX Float
 ---@param recoilKickMax Float
@@ -20,80 +19,76 @@ function UIInventoryItemWeaponBars.new(fields) return end
 ---@param swaySide Float
 ---@param swayBottom Float
 ---@return Float
-function UIInventoryItemWeaponBars.CalculateHandling(cycleTime, spreadDefaultX, recoilKickMax, recoilDirection, recoilAngle, swaySide, swayBottom) return end
+function UIInventoryItemWeaponBars.CalculateHandling(cycleTime, spreadDefaultX, recoilKickMax, recoilDirection, recoilAngle, swaySide, swayBottom) end
 
----@private
 ---@return Float
-function UIInventoryItemWeaponBars.CalculateMeleeReturnTime() return end
+function UIInventoryItemWeaponBars.CalculateMeleeReturnTime() end
 
----@private
 ---@return Float
-function UIInventoryItemWeaponBars.CalculateMeleeStamina() return end
+function UIInventoryItemWeaponBars.CalculateMeleeStamina() end
 
----@private
 ---@param weaponTypeToStaminaCost Float
 ---@param magazineCapacity Float
 ---@param weaponEvolutionToStaminaCost Float
 ---@param firePower Float
 ---@return Float
-function UIInventoryItemWeaponBars.CalculateStamina(weaponTypeToStaminaCost, magazineCapacity, weaponEvolutionToStaminaCost, firePower) return end
+function UIInventoryItemWeaponBars.CalculateStamina(weaponTypeToStaminaCost, magazineCapacity, weaponEvolutionToStaminaCost, firePower) end
 
 ---@param barsType UIInventoryItemWeaponBarsType
 ---@return WeaponBarType[]
-function UIInventoryItemWeaponBars.GetDisplayedStats(barsType) return end
+function UIInventoryItemWeaponBars.GetDisplayedStats(barsType) end
 
 ---@param itemType gamedataItemType
 ---@return Float
-function UIInventoryItemWeaponBars.GetItemTypeMultiplier(itemType) return end
+function UIInventoryItemWeaponBars.GetItemTypeMultiplier(itemType) end
 
----@private
 ---@param itemData gameItemData
 ---@param player PlayerPuppet
 ---@return Float
-function UIInventoryItemWeaponBars.GetProjectileLauncherDamage(itemData, player) return end
+function UIInventoryItemWeaponBars.GetProjectileLauncherDamage(itemData, player) end
 
 ---@param barType WeaponBarType
 ---@return Bool
-function UIInventoryItemWeaponBars.IsBarReversed(barType) return end
+function UIInventoryItemWeaponBars.IsBarReversed(barType) end
 
 ---@param statsManager UIInventoryItemStatsManager
 ---@param itemType gamedataItemType
 ---@param type UIInventoryItemWeaponBarsType
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars.Make(statsManager, itemType, type) return end
+function UIInventoryItemWeaponBars.Make(statsManager, itemType, type) end
 
 ---@param statsManager UIInventoryItemStatsManager
 ---@param itemType gamedataItemType
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars.MakeCyberwareRangedWeapon(statsManager, itemType) return end
+function UIInventoryItemWeaponBars.MakeCyberwareRangedWeapon(statsManager, itemType) end
 
 ---@param statsManager UIInventoryItemStatsManager
 ---@param itemType gamedataItemType
 ---@param type UIInventoryItemWeaponBarsType
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars.MakeMelee(statsManager, itemType, type) return end
+function UIInventoryItemWeaponBars.MakeMelee(statsManager, itemType, type) end
 
 ---@param statsManager UIInventoryItemStatsManager
 ---@param itemType gamedataItemType
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars.MakeRanged(statsManager, itemType) return end
+function UIInventoryItemWeaponBars.MakeRanged(statsManager, itemType) end
 
 ---@param barType WeaponBarType
 ---@return UIInventoryItemWeaponBar
-function UIInventoryItemWeaponBars:GetComparableBar(barType) return end
+function UIInventoryItemWeaponBars:GetComparableBar(barType) end
 
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars:GetComparedBars() return end
+function UIInventoryItemWeaponBars:GetComparedBars() end
 
 ---@return gamedataItemType
-function UIInventoryItemWeaponBars:GetItemType() return end
+function UIInventoryItemWeaponBars:GetItemType() end
 
 ---@return Float[]
-function UIInventoryItemWeaponBars:GetPercentages() return end
+function UIInventoryItemWeaponBars:GetPercentages() end
 
 ---@return UIInventoryItemWeaponBarsType
-function UIInventoryItemWeaponBars:GetType() return end
+function UIInventoryItemWeaponBars:GetType() end
 
 ---@param comparedBars UIInventoryItemWeaponBars
 ---@return UIInventoryItemWeaponBars
-function UIInventoryItemWeaponBars:SetComparedBars(comparedBars) return end
+function UIInventoryItemWeaponBars:SetComparedBars(comparedBars) end

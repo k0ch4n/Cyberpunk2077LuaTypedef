@@ -5,7 +5,7 @@ ProjectileLaunchHelper = {}
 
 ---@param fields? ProjectileLaunchHelper
 ---@return ProjectileLaunchHelper
-function ProjectileLaunchHelper.new(fields) return end
+function ProjectileLaunchHelper.new(fields) end
 
 ---@param projectileComponent gameprojectileComponent
 ---@param targetObject? gameObject
@@ -20,7 +20,7 @@ function ProjectileLaunchHelper.new(fields) return end
 ---@param endLeanAngle Float
 ---@param angleInterpolationDuration Float
 ---@return Bool
-function ProjectileLaunchHelper.SetCurvedLaunchTrajectory(projectileComponent, targetObject, targetComponent, startVelocity, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, halfLeanAngle, endLeanAngle, angleInterpolationDuration) return end
+function ProjectileLaunchHelper.SetCurvedLaunchTrajectory(projectileComponent, targetObject, targetComponent, startVelocity, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, halfLeanAngle, endLeanAngle, angleInterpolationDuration) end
 
 ---@param projectileComponent gameprojectileComponent
 ---@param localToWorld Matrix
@@ -38,28 +38,27 @@ function ProjectileLaunchHelper.SetCurvedLaunchTrajectory(projectileComponent, t
 ---@param endLeanAngle Float
 ---@param angleInterpolationDuration Float
 ---@return Bool
-function ProjectileLaunchHelper.SetCustomTargetPositionToFollow(projectileComponent, localToWorld, startVelocity, distance, sideOffset, height, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, accuracy, halfLeanAngle, endLeanAngle, angleInterpolationDuration) return end
+function ProjectileLaunchHelper.SetCustomTargetPositionToFollow(projectileComponent, localToWorld, startVelocity, distance, sideOffset, height, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, accuracy, halfLeanAngle, endLeanAngle, angleInterpolationDuration) end
 
 ---@param projectileComponent gameprojectileComponent
 ---@param velocity Float
 ---@return Bool
-function ProjectileLaunchHelper.SetLinearLaunchTrajectory(projectileComponent, velocity) return end
+function ProjectileLaunchHelper.SetLinearLaunchTrajectory(projectileComponent, velocity) end
 
 ---@param projectileComponent gameprojectileComponent
 ---@param gravitySimulation Float
 ---@param velocity Float
 ---@param energyLossFactorAfterCollision Float
 ---@return Bool
-function ProjectileLaunchHelper.SetParabolicLaunchTrajectory(projectileComponent, gravitySimulation, velocity, energyLossFactorAfterCollision) return end
+function ProjectileLaunchHelper.SetParabolicLaunchTrajectory(projectileComponent, gravitySimulation, velocity, energyLossFactorAfterCollision) end
 
 ---@param ownerObject gameObject
 ---@param projectileTemplateName CName|string
 ---@param itemObj gameItemObject
 ---@param rotationRad? Float
 ---@return Bool
-function ProjectileLaunchHelper.SpawnArmsLauncherProjectileWithRotation(ownerObject, projectileTemplateName, itemObj, rotationRad) return end
+function ProjectileLaunchHelper.SpawnArmsLauncherProjectileWithRotation(ownerObject, projectileTemplateName, itemObj, rotationRad) end
 
----@private
 ---@param ownerObject gameObject
 ---@param projectileTemplateName CName|string
 ---@param appearance CName|string
@@ -67,18 +66,18 @@ function ProjectileLaunchHelper.SpawnArmsLauncherProjectileWithRotation(ownerObj
 ---@param logicalPositionProvider entIPositionProvider
 ---@param logicalOrientationProvider entIOrientationProvider
 ---@return Bool
-function ProjectileLaunchHelper.SpawnProjectile(ownerObject, projectileTemplateName, appearance, itemObj, logicalPositionProvider, logicalOrientationProvider) return end
+function ProjectileLaunchHelper.SpawnProjectile(ownerObject, projectileTemplateName, appearance, itemObj, logicalPositionProvider, logicalOrientationProvider) end
 
 ---@param ownerObject gameObject
 ---@param projectileTemplateName CName|string
 ---@param appearance CName|string
 ---@param itemObj gameItemObject
 ---@return Bool
-function ProjectileLaunchHelper.SpawnProjectileFromRightHand(ownerObject, projectileTemplateName, appearance, itemObj) return end
+function ProjectileLaunchHelper.SpawnProjectileFromRightHand(ownerObject, projectileTemplateName, appearance, itemObj) end
 
 ---@param ownerObject gameObject
 ---@param projectileTemplateName CName|string
 ---@param appearance CName|string
 ---@param itemObj gameItemObject
 ---@return Bool
-function ProjectileLaunchHelper.SpawnProjectileFromScreenCenter(ownerObject, projectileTemplateName, appearance, itemObj) return end
+function ProjectileLaunchHelper.SpawnProjectileFromScreenCenter(ownerObject, projectileTemplateName, appearance, itemObj) end

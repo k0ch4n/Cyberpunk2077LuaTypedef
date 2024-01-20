@@ -5,4 +5,4 @@ ResetTickEvent = {}
 
 ---@param fields? ResetTickEvent
 ---@return ResetTickEvent
-function ResetTickEvent.new(fields) return end
+function ResetTickEvent.new(fields) end

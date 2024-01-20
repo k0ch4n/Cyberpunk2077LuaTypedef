@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RevealPlayerSettings
----@field public revealPlayer ERevealPlayerType
----@field public revealPlayerOutsideSecurityPerimeter Bool
+---@field revealPlayer ERevealPlayerType
+---@field revealPlayerOutsideSecurityPerimeter Bool
 RevealPlayerSettings = {}
 
 ---@param fields? RevealPlayerSettings
 ---@return RevealPlayerSettings
-function RevealPlayerSettings.new(fields) return end
+function RevealPlayerSettings.new(fields) end

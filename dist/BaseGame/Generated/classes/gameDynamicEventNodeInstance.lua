@@ -5,4 +5,4 @@ gameDynamicEventNodeInstance = {}
 
 ---@param fields? gameDynamicEventNodeInstance
 ---@return gameDynamicEventNodeInstance
-function gameDynamicEventNodeInstance.new(fields) return end
+function gameDynamicEventNodeInstance.new(fields) end

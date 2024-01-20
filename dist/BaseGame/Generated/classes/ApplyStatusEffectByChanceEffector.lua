@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class ApplyStatusEffectByChanceEffector: gameEffector
----@field public targetEntityID entEntityID
----@field public applicationTarget CName
----@field public record TweakDBID
----@field public removeWithEffector Bool
----@field public effectorChanceMods gamedataStatModifier_Record[]
+---@field targetEntityID entEntityID
+---@field applicationTarget CName
+---@field record TweakDBID
+---@field removeWithEffector Bool
+---@field effectorChanceMods gamedataStatModifier_Record[]
 ApplyStatusEffectByChanceEffector = {}
 
 ---@param fields? ApplyStatusEffectByChanceEffector
 ---@return ApplyStatusEffectByChanceEffector
-function ApplyStatusEffectByChanceEffector.new(fields) return end
+function ApplyStatusEffectByChanceEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectByChanceEffector:ActionOff(owner) return end
+function ApplyStatusEffectByChanceEffector:ActionOff(owner) end
 
----@private
 ---@return nil
-function ApplyStatusEffectByChanceEffector:ApplyStatusEffect() return end
+function ApplyStatusEffectByChanceEffector:ApplyStatusEffect() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyStatusEffectByChanceEffector:Initialize(record, parentRecord) return end
+function ApplyStatusEffectByChanceEffector:Initialize(record, parentRecord) end
 
----@private
 ---@return nil
-function ApplyStatusEffectByChanceEffector:RemoveStatusEffect() return end
+function ApplyStatusEffectByChanceEffector:RemoveStatusEffect() end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectByChanceEffector:RepeatedAction(owner) return end
+function ApplyStatusEffectByChanceEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ApplyStatusEffectByChanceEffector:Uninitialize() return end
+function ApplyStatusEffectByChanceEffector:Uninitialize() end

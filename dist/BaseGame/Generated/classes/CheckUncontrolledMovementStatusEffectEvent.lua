@@ -5,4 +5,4 @@ CheckUncontrolledMovementStatusEffectEvent = {}
 
 ---@param fields? CheckUncontrolledMovementStatusEffectEvent
 ---@return CheckUncontrolledMovementStatusEffectEvent
-function CheckUncontrolledMovementStatusEffectEvent.new(fields) return end
+function CheckUncontrolledMovementStatusEffectEvent.new(fields) end

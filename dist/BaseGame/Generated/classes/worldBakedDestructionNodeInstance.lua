@@ -5,4 +5,4 @@ worldBakedDestructionNodeInstance = {}
 
 ---@param fields? worldBakedDestructionNodeInstance
 ---@return worldBakedDestructionNodeInstance
-function worldBakedDestructionNodeInstance.new(fields) return end
+function worldBakedDestructionNodeInstance.new(fields) end

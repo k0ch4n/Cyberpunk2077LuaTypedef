@@ -5,4 +5,4 @@ SelfRemovalDecisions = {}
 
 ---@param fields? SelfRemovalDecisions
 ---@return SelfRemovalDecisions
-function SelfRemovalDecisions.new(fields) return end
+function SelfRemovalDecisions.new(fields) end

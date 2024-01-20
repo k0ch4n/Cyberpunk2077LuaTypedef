@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class SmartStorageEffector: ModifyAttackEffector
----@field protected baseRevengeChance Float
----@field protected revengeChanceStep Float
----@field protected revealDuration Float
----@field protected statusEffectForTarget TweakDBID
----@field protected statusEffectForSelf TweakDBID
----@field private currentChance Float
+---@field baseRevengeChance Float
+---@field revengeChanceStep Float
+---@field revealDuration Float
+---@field statusEffectForTarget TweakDBID
+---@field statusEffectForSelf TweakDBID
+---@field currentChance Float
 SmartStorageEffector = {}
 
 ---@param fields? SmartStorageEffector
 ---@return SmartStorageEffector
-function SmartStorageEffector.new(fields) return end
+function SmartStorageEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SmartStorageEffector:Initialize(record, parentRecord) return end
+function SmartStorageEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SmartStorageEffector:RepeatedAction(owner) return end
+function SmartStorageEffector:RepeatedAction(owner) end

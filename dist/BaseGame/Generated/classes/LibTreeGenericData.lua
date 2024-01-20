@@ -5,4 +5,4 @@ LibTreeGenericData = {}
 
 ---@param fields? LibTreeGenericData
 ---@return LibTreeGenericData
-function LibTreeGenericData.new(fields) return end
+function LibTreeGenericData.new(fields) end

@@ -5,4 +5,4 @@ gameaudioeventsNotifyFootstepSubSystemStateChangeRequested = {}
 
 ---@param fields? gameaudioeventsNotifyFootstepSubSystemStateChangeRequested
 ---@return gameaudioeventsNotifyFootstepSubSystemStateChangeRequested
-function gameaudioeventsNotifyFootstepSubSystemStateChangeRequested.new(fields) return end
+function gameaudioeventsNotifyFootstepSubSystemStateChangeRequested.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gamemountingMountingFacilitySharedState: ISerializable
----@field public children entEntity[]
----@field public parents entEntity[]
----@field public slotIds gamemountingMountingSlotId[]
----@field public parentTypes gameMountingObjectType[]
----@field public childTypes gameMountingObjectType[]
+---@field children entEntity[]
+---@field parents entEntity[]
+---@field slotIds gamemountingMountingSlotId[]
+---@field parentTypes gameMountingObjectType[]
+---@field childTypes gameMountingObjectType[]
 gamemountingMountingFacilitySharedState = {}
 
 ---@param fields? gamemountingMountingFacilitySharedState
 ---@return gamemountingMountingFacilitySharedState
-function gamemountingMountingFacilitySharedState.new(fields) return end
+function gamemountingMountingFacilitySharedState.new(fields) end

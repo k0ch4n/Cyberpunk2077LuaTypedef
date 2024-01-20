@@ -5,10 +5,9 @@ MinigameEvents = {}
 
 ---@param fields? MinigameEvents
 ---@return MinigameEvents
-function MinigameEvents.new(fields) return end
+function MinigameEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MinigameEvents:OnEnter(stateContext, scriptInterface) return end
+function MinigameEvents:OnEnter(stateContext, scriptInterface) end

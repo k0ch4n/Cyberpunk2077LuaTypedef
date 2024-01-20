@@ -5,7 +5,7 @@ RetractableAdController = {}
 
 ---@param fields? RetractableAdController
 ---@return RetractableAdController
-function RetractableAdController.new(fields) return end
+function RetractableAdController.new(fields) end
 
 ---@return RetractableAdControllerPS
-function RetractableAdController:GetPS() return end
+function RetractableAdController:GetPS() end

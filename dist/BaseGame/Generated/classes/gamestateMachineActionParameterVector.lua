@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineActionParameterVector
----@field public name CName
----@field public value Vector4
+---@field name CName
+---@field value Vector4
 gamestateMachineActionParameterVector = {}
 
 ---@param fields? gamestateMachineActionParameterVector
 ---@return gamestateMachineActionParameterVector
-function gamestateMachineActionParameterVector.new(fields) return end
+function gamestateMachineActionParameterVector.new(fields) end

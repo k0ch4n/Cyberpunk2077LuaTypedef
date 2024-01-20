@@ -1,173 +1,159 @@
 ---@meta
 
 ---@class MarketSystem: gameIMarketSystem
----@field private vendors Vendor[]
----@field private vendingMachinesVendors Vendor[]
+---@field vendors Vendor[]
+---@field vendingMachinesVendors Vendor[]
 MarketSystem = {}
 
 ---@param fields? MarketSystem
 ---@return MarketSystem
-function MarketSystem.new(fields) return end
+function MarketSystem.new(fields) end
 
 ---@param vendorObject gameObject
 ---@param itemID gameItemID
 ---@param allowQuestItems Bool
 ---@param excludeEquipped Bool
 ---@return Bool
-function MarketSystem.CanPlayerSellItem(vendorObject, itemID, allowQuestItems, excludeEquipped) return end
+function MarketSystem.CanPlayerSellItem(vendorObject, itemID, allowQuestItems, excludeEquipped) end
 
 ---@param vendorObject gameObject
 ---@param area gamedataEquipmentArea
 ---@param checkPlayerCanBuy Bool
 ---@return Bool
-function MarketSystem.DoesEquipAreaContainNewItems(vendorObject, area, checkPlayerCanBuy) return end
+function MarketSystem.DoesEquipAreaContainNewItems(vendorObject, area, checkPlayerCanBuy) end
 
 ---@param vendorID entEntityID
 ---@param itemID gameItemID
 ---@return Int32
-function MarketSystem.GetBuyPrice(vendorID, itemID) return end
+function MarketSystem.GetBuyPrice(vendorID, itemID) end
 
 ---@param vendorObject gameObject
 ---@param itemID gameItemID
 ---@return Int32
-function MarketSystem.GetBuyPrice(vendorObject, itemID) return end
+function MarketSystem.GetBuyPrice(vendorObject, itemID) end
 
 ---@return MarketSystem
-function MarketSystem.GetInstance() return end
+function MarketSystem.GetInstance() end
 
 ---@param vendorObject gameObject
 ---@param allowQuestItems Bool
 ---@param excludeEquipped Bool
 ---@return gameSItemStack[]
-function MarketSystem.GetItemsPlayerCanSell(vendorObject, allowQuestItems, excludeEquipped) return end
+function MarketSystem.GetItemsPlayerCanSell(vendorObject, allowQuestItems, excludeEquipped) end
 
 ---@param vendorObject gameObject
 ---@return TweakDBID[]
-function MarketSystem.GetNewItems(vendorObject) return end
+function MarketSystem.GetNewItems(vendorObject) end
 
 ---@param vendorObject gameObject
 ---@param checkPlayerCanBuy Bool
 ---@return gameSItemStack[]
-function MarketSystem.GetVendorCyberwareForSale(vendorObject, checkPlayerCanBuy) return end
+function MarketSystem.GetVendorCyberwareForSale(vendorObject, checkPlayerCanBuy) end
 
 ---@param vendor gameObject
 ---@return TweakDBID
-function MarketSystem.GetVendorID(vendor) return end
+function MarketSystem.GetVendorID(vendor) end
 
 ---@param vendorObject gameObject
 ---@param checkPlayerCanBuy Bool
 ---@return gameSItemStack[]
-function MarketSystem.GetVendorItemsForSale(vendorObject, checkPlayerCanBuy) return end
+function MarketSystem.GetVendorItemsForSale(vendorObject, checkPlayerCanBuy) end
 
 ---@param vendorObject gameObject
 ---@return Int32
-function MarketSystem.GetVendorMoney(vendorObject) return end
+function MarketSystem.GetVendorMoney(vendorObject) end
 
 ---@param vendorObject gameObject
 ---@return SoldItemsCache
-function MarketSystem.GetVendorSoldItems(vendorObject) return end
+function MarketSystem.GetVendorSoldItems(vendorObject) end
 
 ---@param player PlayerPuppet
 ---@param vendorID TweakDBID|string
 ---@return Bool
-function MarketSystem.IsAccessible(player, vendorID) return end
+function MarketSystem.IsAccessible(player, vendorID) end
 
 ---@param vendorObject gameObject
 ---@return Bool
-function MarketSystem.IsAttached(vendorObject) return end
+function MarketSystem.IsAttached(vendorObject) end
 
 ---@param vendorObject gameObject
 ---@param itemTDBID TweakDBID|string
 ---@return Bool
-function MarketSystem.IsNewItem(vendorObject, itemTDBID) return end
+function MarketSystem.IsNewItem(vendorObject, itemTDBID) end
 
 ---@param player PlayerPuppet
 ---@param vendorID TweakDBID|string
 ---@return Bool
-function MarketSystem.IsVisibleOnMap(player, vendorID) return end
+function MarketSystem.IsVisibleOnMap(player, vendorID) end
 
 ---@param vendorObject gameObject
 ---@param itemTDBID TweakDBID|string
 ---@return nil
-function MarketSystem.ItemInspected(vendorObject, itemTDBID) return end
+function MarketSystem.ItemInspected(vendorObject, itemTDBID) end
 
 ---@return gameItemID
-function MarketSystem.Money() return end
+function MarketSystem.Money() end
 
 ---@param vendorObject gameObject
 ---@return nil
-function MarketSystem.OnVendorMenuOpen(vendorObject) return end
-
----@private
----@param vendorObject gameObject
----@return Vendor
-function MarketSystem:AddVendor(vendorObject) return end
-
----@private
----@param vendorObject gameObject
----@return Vendor
-function MarketSystem:GetOrAddVendor(vendorObject) return end
+function MarketSystem.OnVendorMenuOpen(vendorObject) end
 
 ---@param vendorObject gameObject
 ---@return Vendor
-function MarketSystem:GetVendor(vendorObject) return end
+function MarketSystem:AddVendor(vendorObject) end
 
----@private
+---@param vendorObject gameObject
+---@return Vendor
+function MarketSystem:GetOrAddVendor(vendorObject) end
+
+---@param vendorObject gameObject
+---@return Vendor
+function MarketSystem:GetVendor(vendorObject) end
+
 ---@param vendorDataID TweakDBID|string
 ---@return Vendor
-function MarketSystem:GetVendorByTDBID(vendorDataID) return end
+function MarketSystem:GetVendorByTDBID(vendorDataID) end
 
----@private
 ---@param request AddItemToVendorRequest
 ---@return nil
-function MarketSystem:OnAddItemToStockRequest(request) return end
+function MarketSystem:OnAddItemToStockRequest(request) end
 
----@private
 ---@param request AttachVendorRequest
 ---@return nil
-function MarketSystem:OnAttachVendorRequest(request) return end
+function MarketSystem:OnAttachVendorRequest(request) end
 
----@private
 ---@param request BuyRequest
 ---@return nil
-function MarketSystem:OnBuyRequest(request) return end
+function MarketSystem:OnBuyRequest(request) end
 
----@private
 ---@param request BuybackRequest
 ---@return nil
-function MarketSystem:OnBuybackRequest(request) return end
+function MarketSystem:OnBuybackRequest(request) end
 
----@private
 ---@param request DeattachVendorRequest
 ---@return nil
-function MarketSystem:OnDeattachVendorRequest(request) return end
+function MarketSystem:OnDeattachVendorRequest(request) end
 
----@private
 ---@return nil
-function MarketSystem:OnDetach() return end
+function MarketSystem:OnDetach() end
 
----@private
 ---@param request DispenseRequest
 ---@return nil
-function MarketSystem:OnDispenseRequest(request) return end
+function MarketSystem:OnDispenseRequest(request) end
 
----@private
 ---@param request DispenseStackRequest
 ---@return nil
-function MarketSystem:OnDispenseStackRequest(request) return end
+function MarketSystem:OnDispenseStackRequest(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function MarketSystem:OnRestored(saveVersion, gameVersion) return end
+function MarketSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request SellRequest
 ---@return nil
-function MarketSystem:OnSellRequest(request) return end
+function MarketSystem:OnSellRequest(request) end
 
----@private
 ---@param request SetVendorPriceMultiplierRequest
 ---@return nil
-function MarketSystem:OnSetPriceModifierRequest(request) return end
+function MarketSystem:OnSetPriceModifierRequest(request) end

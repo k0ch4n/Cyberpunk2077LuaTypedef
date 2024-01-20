@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animPoseCorrectionParams
----@field public poseCorrectionGroup animPoseCorrectionGroup
----@field public blendDuration Float
+---@field poseCorrectionGroup animPoseCorrectionGroup
+---@field blendDuration Float
 animPoseCorrectionParams = {}
 
 ---@param fields? animPoseCorrectionParams
 ---@return animPoseCorrectionParams
-function animPoseCorrectionParams.new(fields) return end
+function animPoseCorrectionParams.new(fields) end

@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class ModifyDamageWithVelocity: ModifyDamageEffector
----@field public percentMult Float
----@field public unitThreshold Float
+---@field percentMult Float
+---@field unitThreshold Float
 ModifyDamageWithVelocity = {}
 
 ---@param fields? ModifyDamageWithVelocity
 ---@return ModifyDamageWithVelocity
-function ModifyDamageWithVelocity.new(fields) return end
+function ModifyDamageWithVelocity.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyDamageWithVelocity:Initialize(record, parentRecord) return end
+function ModifyDamageWithVelocity:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyDamageWithVelocity:RepeatedAction(owner) return end
+function ModifyDamageWithVelocity:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ModifyDamageWithVelocity:Uninitialize() return end
+function ModifyDamageWithVelocity:Uninitialize() end

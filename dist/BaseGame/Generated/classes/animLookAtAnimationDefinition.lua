@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animLookAtAnimationDefinition
----@field public minTransitionDuration Float
----@field public playAnimProbability Float
----@field public animDelay Float
----@field public animations CName[]
+---@field minTransitionDuration Float
+---@field playAnimProbability Float
+---@field animDelay Float
+---@field animations CName[]
 animLookAtAnimationDefinition = {}
 
 ---@param fields? animLookAtAnimationDefinition
 ---@return animLookAtAnimationDefinition
-function animLookAtAnimationDefinition.new(fields) return end
+function animLookAtAnimationDefinition.new(fields) end

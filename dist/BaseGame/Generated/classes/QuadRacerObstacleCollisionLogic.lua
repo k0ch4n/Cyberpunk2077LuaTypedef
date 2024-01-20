@@ -5,9 +5,8 @@ QuadRacerObstacleCollisionLogic = {}
 
 ---@param fields? QuadRacerObstacleCollisionLogic
 ---@return QuadRacerObstacleCollisionLogic
-function QuadRacerObstacleCollisionLogic.new(fields) return end
+function QuadRacerObstacleCollisionLogic.new(fields) end
 
----@protected
 ---@param hitEvent gameuiOnHitPlayerEvent
 ---@return Bool
-function QuadRacerObstacleCollisionLogic:OnHitPlayer(hitEvent) return end
+function QuadRacerObstacleCollisionLogic:OnHitPlayer(hitEvent) end

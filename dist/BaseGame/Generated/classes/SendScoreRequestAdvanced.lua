@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SendScoreRequestAdvanced: gameScriptableSystemRequest
----@field public gameState gameuiSideScrollerMiniGameStateAdvanced
----@field public gameName String
+---@field gameState gameuiSideScrollerMiniGameStateAdvanced
+---@field gameName String
 SendScoreRequestAdvanced = {}
 
 ---@param fields? SendScoreRequestAdvanced
 ---@return SendScoreRequestAdvanced
-function SendScoreRequestAdvanced.new(fields) return end
+function SendScoreRequestAdvanced.new(fields) end

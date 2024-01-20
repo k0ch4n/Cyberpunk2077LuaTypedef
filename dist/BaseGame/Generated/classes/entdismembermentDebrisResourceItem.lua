@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entdismembermentDebrisResourceItem
----@field public rig animRig
----@field public mesh CMesh
+---@field rig animRig
+---@field mesh CMesh
 entdismembermentDebrisResourceItem = {}
 
 ---@param fields? entdismembermentDebrisResourceItem
 ---@return entdismembermentDebrisResourceItem
-function entdismembermentDebrisResourceItem.new(fields) return end
+function entdismembermentDebrisResourceItem.new(fields) end

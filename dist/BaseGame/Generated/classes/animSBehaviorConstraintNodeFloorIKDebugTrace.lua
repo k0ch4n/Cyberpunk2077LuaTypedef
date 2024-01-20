@@ -5,4 +5,4 @@ animSBehaviorConstraintNodeFloorIKDebugTrace = {}
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKDebugTrace
 ---@return animSBehaviorConstraintNodeFloorIKDebugTrace
-function animSBehaviorConstraintNodeFloorIKDebugTrace.new(fields) return end
+function animSBehaviorConstraintNodeFloorIKDebugTrace.new(fields) end

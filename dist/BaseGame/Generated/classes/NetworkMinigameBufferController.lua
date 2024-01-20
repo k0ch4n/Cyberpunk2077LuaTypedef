@@ -1,31 +1,30 @@
 ---@meta
 
 ---@class NetworkMinigameBufferController: inkWidgetLogicController
----@field protected bufferSlotsContainer inkWidgetReference
----@field protected elementLibraryName CName
----@field public slotList NetworkMinigameElementController[]
----@field public blinker inkWidgetReference
----@field private count Int32
----@field private AnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private alpha_fadein inkanimDefinition
----@field private currentAlpha Float
----@field private nextAlpha Float
+---@field bufferSlotsContainer inkWidgetReference
+---@field elementLibraryName CName
+---@field slotList NetworkMinigameElementController[]
+---@field blinker inkWidgetReference
+---@field count Int32
+---@field AnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field alpha_fadein inkanimDefinition
+---@field currentAlpha Float
+---@field nextAlpha Float
 NetworkMinigameBufferController = {}
 
 ---@param fields? NetworkMinigameBufferController
 ---@return NetworkMinigameBufferController
-function NetworkMinigameBufferController.new(fields) return end
+function NetworkMinigameBufferController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NetworkMinigameBufferController:OnEndLoop(proxy) return end
+function NetworkMinigameBufferController:OnEndLoop(proxy) end
 
 ---@param toSet ElementData[]
 ---@return nil
-function NetworkMinigameBufferController:SetEntries(toSet) return end
+function NetworkMinigameBufferController:SetEntries(toSet) end
 
 ---@param size Int32
 ---@return nil
-function NetworkMinigameBufferController:Spawn(size) return end
+function NetworkMinigameBufferController:Spawn(size) end

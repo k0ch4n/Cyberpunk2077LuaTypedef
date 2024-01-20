@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioFootstepDecalMaterialEntry
----@field public materialTag CName
----@field public eventsByLocomotionState audioLocomotionStateEventDictionary
+---@field materialTag CName
+---@field eventsByLocomotionState audioLocomotionStateEventDictionary
 audioFootstepDecalMaterialEntry = {}
 
 ---@param fields? audioFootstepDecalMaterialEntry
 ---@return audioFootstepDecalMaterialEntry
-function audioFootstepDecalMaterialEntry.new(fields) return end
+function audioFootstepDecalMaterialEntry.new(fields) end

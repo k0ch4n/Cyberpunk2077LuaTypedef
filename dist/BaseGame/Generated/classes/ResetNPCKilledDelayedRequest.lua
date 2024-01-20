@@ -5,4 +5,4 @@ ResetNPCKilledDelayedRequest = {}
 
 ---@param fields? ResetNPCKilledDelayedRequest
 ---@return ResetNPCKilledDelayedRequest
-function ResetNPCKilledDelayedRequest.new(fields) return end
+function ResetNPCKilledDelayedRequest.new(fields) end

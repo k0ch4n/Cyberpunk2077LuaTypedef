@@ -1,62 +1,62 @@
 ---@meta
 
 ---@class inkButtonController: inkDiscreteNavigationController
----@field public ButtonClick inkButtonClickCallback
----@field public ButtonHoldComplete inkButtonHoldCompleteCallback
----@field public ButtonStateChanged inkButtonStateChangeCallback
----@field public ButtonSelectionChanged inkButtonSelectionCallback
----@field public ButtonHoldProgressChanged inkButtonProgressChangedCallback
----@field public canHold Bool
----@field public selectable Bool
----@field public selected Bool
----@field public autoUpdateWidgetState Bool
+---@field ButtonClick inkButtonClickCallback
+---@field ButtonHoldComplete inkButtonHoldCompleteCallback
+---@field ButtonStateChanged inkButtonStateChangeCallback
+---@field ButtonSelectionChanged inkButtonSelectionCallback
+---@field ButtonHoldProgressChanged inkButtonProgressChangedCallback
+---@field canHold Bool
+---@field selectable Bool
+---@field selected Bool
+---@field autoUpdateWidgetState Bool
 inkButtonController = {}
 
 ---@param fields? inkButtonController
 ---@return inkButtonController
-function inkButtonController.new(fields) return end
+function inkButtonController.new(fields) end
 
 ---@return Bool
-function inkButtonController:CanHold() return end
+function inkButtonController:CanHold() end
 
 ---@return Bool
-function inkButtonController:GetAutoUpdateWidgetState() return end
+function inkButtonController:GetAutoUpdateWidgetState() end
 
 ---@return Bool
-function inkButtonController:GetEnabled() return end
+function inkButtonController:GetEnabled() end
 
 ---@return Float
-function inkButtonController:GetHoldProgress() return end
+function inkButtonController:GetHoldProgress() end
 
 ---@return nil
-function inkButtonController:GetSelectable() return end
+function inkButtonController:GetSelectable() end
 
 ---@return Bool
-function inkButtonController:GetSelected() return end
+function inkButtonController:GetSelected() end
 
 ---@return inkEButtonState
-function inkButtonController:GetState() return end
+function inkButtonController:GetState() end
 
 ---@param autoUpdate Bool
 ---@return nil
-function inkButtonController:SetAutoUpdateWidgetState(autoUpdate) return end
+function inkButtonController:SetAutoUpdateWidgetState(autoUpdate) end
 
 ---@param canHold Bool
 ---@return nil
-function inkButtonController:SetCanHold(canHold) return end
+function inkButtonController:SetCanHold(canHold) end
 
 ---@param enabled Bool
 ---@return nil
-function inkButtonController:SetEnabled(enabled) return end
+function inkButtonController:SetEnabled(enabled) end
 
 ---@param selectable Bool
 ---@return nil
-function inkButtonController:SetSelectable(selectable) return end
+function inkButtonController:SetSelectable(selectable) end
 
 ---@param selected Bool
 ---@return nil
-function inkButtonController:SetSelected(selected) return end
+function inkButtonController:SetSelected(selected) end
 
 ---@param force? Bool
 ---@return nil
-function inkButtonController:UpdateButtonState(force) return end
+function inkButtonController:UpdateButtonState(force) end

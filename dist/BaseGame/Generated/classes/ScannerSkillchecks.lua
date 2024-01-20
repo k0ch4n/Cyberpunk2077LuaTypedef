@@ -1,38 +1,38 @@
 ---@meta
 
 ---@class ScannerSkillchecks: ScannerChunk
----@field private skillchecks UIInteractionSkillCheck[]
----@field private authorizationRequired Bool
----@field private isPlayerAuthorized Bool
+---@field skillchecks UIInteractionSkillCheck[]
+---@field authorizationRequired Bool
+---@field isPlayerAuthorized Bool
 ScannerSkillchecks = {}
 
 ---@param fields? ScannerSkillchecks
 ---@return ScannerSkillchecks
-function ScannerSkillchecks.new(fields) return end
+function ScannerSkillchecks.new(fields) end
 
 ---@return Bool
-function ScannerSkillchecks:GetAuthorization() return end
+function ScannerSkillchecks:GetAuthorization() end
 
 ---@return Bool
-function ScannerSkillchecks:GetPlayerAuthorization() return end
+function ScannerSkillchecks:GetPlayerAuthorization() end
 
 ---@return UIInteractionSkillCheck[]
-function ScannerSkillchecks:GetSkillchecks() return end
+function ScannerSkillchecks:GetSkillchecks() end
 
 ---@return ScannerDataType
-function ScannerSkillchecks:GetType() return end
+function ScannerSkillchecks:GetType() end
 
 ---@return Bool
-function ScannerSkillchecks:IsValid() return end
+function ScannerSkillchecks:IsValid() end
 
 ---@param sklchs UIInteractionSkillCheck[]
 ---@return nil
-function ScannerSkillchecks:Set(sklchs) return end
+function ScannerSkillchecks:Set(sklchs) end
 
 ---@param auth Bool
 ---@return nil
-function ScannerSkillchecks:SetAuthorization(auth) return end
+function ScannerSkillchecks:SetAuthorization(auth) end
 
 ---@param auth Bool
 ---@return nil
-function ScannerSkillchecks:SetPlayerAuthorization(auth) return end
+function ScannerSkillchecks:SetPlayerAuthorization(auth) end

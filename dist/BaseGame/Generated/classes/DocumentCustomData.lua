@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DocumentCustomData: IScriptable
----@field public id Int32
----@field public type EDocumentType
+---@field id Int32
+---@field type EDocumentType
 DocumentCustomData = {}
 
 ---@param fields? DocumentCustomData
 ---@return DocumentCustomData
-function DocumentCustomData.new(fields) return end
+function DocumentCustomData.new(fields) end

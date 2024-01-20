@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ShadowCascadeConfig
----@field public range Float
----@field public filterSize Float
----@field public blendRange Float
----@field public biasOffset Float
+---@field range Float
+---@field filterSize Float
+---@field blendRange Float
+---@field biasOffset Float
 ShadowCascadeConfig = {}
 
 ---@param fields? ShadowCascadeConfig
 ---@return ShadowCascadeConfig
-function ShadowCascadeConfig.new(fields) return end
+function ShadowCascadeConfig.new(fields) end

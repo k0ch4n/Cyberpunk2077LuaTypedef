@@ -1,34 +1,34 @@
 ---@meta
 
 ---@class Target: IScriptable
----@field private target gameObject
----@field private isInteresting Bool
----@field private isVisible Bool
+---@field target gameObject
+---@field isInteresting Bool
+---@field isVisible Bool
 Target = {}
 
 ---@param fields? Target
 ---@return Target
-function Target.new(fields) return end
+function Target.new(fields) end
 
 ---@param currentTarget gameObject
 ---@param interesting Bool
 ---@param visible Bool
 ---@return nil
-function Target:CreateTarget(currentTarget, interesting, visible) return end
+function Target:CreateTarget(currentTarget, interesting, visible) end
 
 ---@return gameObject
-function Target:GetTarget() return end
+function Target:GetTarget() end
 
 ---@return Bool
-function Target:IsInteresting() return end
+function Target:IsInteresting() end
 
 ---@return Bool
-function Target:IsVisible() return end
+function Target:IsVisible() end
 
 ---@param interestingChange Bool
 ---@return nil
-function Target:SetIsInteresting(interestingChange) return end
+function Target:SetIsInteresting(interestingChange) end
 
 ---@param _isVisible Bool
 ---@return nil
-function Target:SetIsVisible(_isVisible) return end
+function Target:SetIsVisible(_isVisible) end

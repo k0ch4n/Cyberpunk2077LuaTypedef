@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class ModifyStaminaHandlerEffector: gameEffector
----@field private opSymbol CName
+---@field opSymbol CName
 ModifyStaminaHandlerEffector = {}
 
 ---@param fields? ModifyStaminaHandlerEffector
 ---@return ModifyStaminaHandlerEffector
-function ModifyStaminaHandlerEffector.new(fields) return end
+function ModifyStaminaHandlerEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStaminaHandlerEffector:ActionOff(owner) return end
+function ModifyStaminaHandlerEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStaminaHandlerEffector:ActionOn(owner) return end
+function ModifyStaminaHandlerEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyStaminaHandlerEffector:Initialize(record, parentRecord) return end
+function ModifyStaminaHandlerEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function ModifyStaminaHandlerEffector:Uninitialize() return end
+function ModifyStaminaHandlerEffector:Uninitialize() end

@@ -5,4 +5,4 @@ DelayedDescriptionIntro = {}
 
 ---@param fields? DelayedDescriptionIntro
 ---@return DelayedDescriptionIntro
-function DelayedDescriptionIntro.new(fields) return end
+function DelayedDescriptionIntro.new(fields) end

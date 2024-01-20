@@ -5,4 +5,4 @@ AIBehaviourSpotInstance = {}
 
 ---@param fields? AIBehaviourSpotInstance
 ---@return AIBehaviourSpotInstance
-function AIBehaviourSpotInstance.new(fields) return end
+function AIBehaviourSpotInstance.new(fields) end

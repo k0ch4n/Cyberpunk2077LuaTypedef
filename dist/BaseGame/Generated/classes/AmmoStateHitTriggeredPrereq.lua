@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class AmmoStateHitTriggeredPrereq: HitTriggeredPrereq
----@field public valueToListen EMagazineAmmoState
+---@field valueToListen EMagazineAmmoState
 AmmoStateHitTriggeredPrereq = {}
 
 ---@param fields? AmmoStateHitTriggeredPrereq
 ---@return AmmoStateHitTriggeredPrereq
-function AmmoStateHitTriggeredPrereq.new(fields) return end
+function AmmoStateHitTriggeredPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function AmmoStateHitTriggeredPrereq:Initialize(recordID) return end
+function AmmoStateHitTriggeredPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function AmmoStateHitTriggeredPrereq:OnRegister(state, context) return end
+function AmmoStateHitTriggeredPrereq:OnRegister(state, context) end

@@ -5,4 +5,4 @@ NPCRecordHasVisualTagState = {}
 
 ---@param fields? NPCRecordHasVisualTagState
 ---@return NPCRecordHasVisualTagState
-function NPCRecordHasVisualTagState.new(fields) return end
+function NPCRecordHasVisualTagState.new(fields) end

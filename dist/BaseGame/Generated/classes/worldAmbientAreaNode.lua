@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldAmbientAreaNode: worldTriggerAreaNode
----@field public useCustomColor Bool
+---@field useCustomColor Bool
 worldAmbientAreaNode = {}
 
 ---@param fields? worldAmbientAreaNode
 ---@return worldAmbientAreaNode
-function worldAmbientAreaNode.new(fields) return end
+function worldAmbientAreaNode.new(fields) end

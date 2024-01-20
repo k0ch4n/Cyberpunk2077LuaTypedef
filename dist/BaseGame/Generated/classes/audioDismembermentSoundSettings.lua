@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioDismembermentSoundSettings: audioAudioMetadata
----@field public headEvent CName
----@field public armEvent CName
----@field public legEvent CName
+---@field headEvent CName
+---@field armEvent CName
+---@field legEvent CName
 audioDismembermentSoundSettings = {}
 
 ---@param fields? audioDismembermentSoundSettings
 ---@return audioDismembermentSoundSettings
-function audioDismembermentSoundSettings.new(fields) return end
+function audioDismembermentSoundSettings.new(fields) end

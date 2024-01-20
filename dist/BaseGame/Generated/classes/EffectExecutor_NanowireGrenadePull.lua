@@ -5,15 +5,14 @@ EffectExecutor_NanowireGrenadePull = {}
 
 ---@param fields? EffectExecutor_NanowireGrenadePull
 ---@return EffectExecutor_NanowireGrenadePull
-function EffectExecutor_NanowireGrenadePull.new(fields) return end
+function EffectExecutor_NanowireGrenadePull.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function EffectExecutor_NanowireGrenadePull:Process(ctx, applierCtx) return end
+function EffectExecutor_NanowireGrenadePull:Process(ctx, applierCtx) end
 
----@protected
 ---@param target gameObject
 ---@param impactPosition Vector4
 ---@return nil
-function EffectExecutor_NanowireGrenadePull:PullTarget(target, impactPosition) return end
+function EffectExecutor_NanowireGrenadePull:PullTarget(target, impactPosition) end

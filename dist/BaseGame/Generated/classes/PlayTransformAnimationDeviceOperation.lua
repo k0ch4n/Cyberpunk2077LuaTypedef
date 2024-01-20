@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class PlayTransformAnimationDeviceOperation: DeviceOperationBase
----@field public transformAnimations STransformAnimationData[]
+---@field transformAnimations STransformAnimationData[]
 PlayTransformAnimationDeviceOperation = {}
 
 ---@param fields? PlayTransformAnimationDeviceOperation
 ---@return PlayTransformAnimationDeviceOperation
-function PlayTransformAnimationDeviceOperation.new(fields) return end
+function PlayTransformAnimationDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function PlayTransformAnimationDeviceOperation:Execute(owner) return end
+function PlayTransformAnimationDeviceOperation:Execute(owner) end
 
----@private
 ---@param animations STransformAnimationData[]
 ---@param owner gameObject
 ---@return nil
-function PlayTransformAnimationDeviceOperation:ResolveTransformAnimations(animations, owner) return end
+function PlayTransformAnimationDeviceOperation:ResolveTransformAnimations(animations, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function PlayTransformAnimationDeviceOperation:Restore(owner) return end
+function PlayTransformAnimationDeviceOperation:Restore(owner) end

@@ -5,23 +5,23 @@ ForceOpen = {}
 
 ---@param fields? ForceOpen
 ---@return ForceOpen
-function ForceOpen.new(fields) return end
+function ForceOpen.new(fields) end
 
 ---@param device DoorControllerPS
 ---@return Bool
-function ForceOpen.IsAvailable(device) return end
+function ForceOpen.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ForceOpen.IsClearanceValid(clearance) return end
+function ForceOpen.IsClearanceValid(clearance) end
 
 ---@param device DoorControllerPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ForceOpen.IsDefaultConditionMet(device, context) return end
+function ForceOpen.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function ForceOpen:GetTweakDBChoiceRecord() return end
+function ForceOpen:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function ForceOpen:SetProperties() return end
+function ForceOpen:SetProperties() end

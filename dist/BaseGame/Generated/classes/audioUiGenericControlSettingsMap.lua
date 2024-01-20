@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioUiGenericControlSettingsMap: audioAudioMetadata
----@field public uiControlMatrix audioUiGenericControlSettingsMapItem[]
+---@field uiControlMatrix audioUiGenericControlSettingsMapItem[]
 audioUiGenericControlSettingsMap = {}
 
 ---@param fields? audioUiGenericControlSettingsMap
 ---@return audioUiGenericControlSettingsMap
-function audioUiGenericControlSettingsMap.new(fields) return end
+function audioUiGenericControlSettingsMap.new(fields) end

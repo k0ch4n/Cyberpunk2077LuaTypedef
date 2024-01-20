@@ -1,29 +1,28 @@
 ---@meta
 
 ---@class sampleUISoundsLogicController: inkWidgetLogicController
----@field private textWidget inkTextWidget
+---@field textWidget inkTextWidget
 sampleUISoundsLogicController = {}
 
 ---@param fields? sampleUISoundsLogicController
 ---@return sampleUISoundsLogicController
-function sampleUISoundsLogicController.new(fields) return end
+function sampleUISoundsLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUISoundsLogicController:OnInitialize() return end
+function sampleUISoundsLogicController:OnInitialize() end
 
 ---@param button inkWidget
 ---@return nil
-function sampleUISoundsLogicController:OnHoverOut(button) return end
+function sampleUISoundsLogicController:OnHoverOut(button) end
 
 ---@param button inkWidget
 ---@return nil
-function sampleUISoundsLogicController:OnHoverOver(button) return end
+function sampleUISoundsLogicController:OnHoverOver(button) end
 
 ---@param button inkWidget
 ---@return nil
-function sampleUISoundsLogicController:OnPress(button) return end
+function sampleUISoundsLogicController:OnPress(button) end
 
 ---@param button inkWidget
 ---@return nil
-function sampleUISoundsLogicController:OnRelease(button) return end
+function sampleUISoundsLogicController:OnRelease(button) end

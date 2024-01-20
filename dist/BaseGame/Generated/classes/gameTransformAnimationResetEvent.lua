@@ -5,4 +5,4 @@ gameTransformAnimationResetEvent = {}
 
 ---@param fields? gameTransformAnimationResetEvent
 ---@return gameTransformAnimationResetEvent
-function gameTransformAnimationResetEvent.new(fields) return end
+function gameTransformAnimationResetEvent.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CRenderSimWaterFFT: IDynamicTextureGenerator
----@field public windDir Float
----@field public windSpeed Float
----@field public windScale Float
----@field public amplitude Float
----@field public lambda Float
+---@field windDir Float
+---@field windSpeed Float
+---@field windScale Float
+---@field amplitude Float
+---@field lambda Float
 CRenderSimWaterFFT = {}
 
 ---@param fields? CRenderSimWaterFFT
 ---@return CRenderSimWaterFFT
-function CRenderSimWaterFFT.new(fields) return end
+function CRenderSimWaterFFT.new(fields) end

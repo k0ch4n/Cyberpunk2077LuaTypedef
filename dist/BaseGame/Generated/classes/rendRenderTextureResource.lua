@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class rendRenderTextureResource
----@field public renderResourceBlobPC IRenderResourceBlob
+---@field renderResourceBlobPC IRenderResourceBlob
 rendRenderTextureResource = {}
 
 ---@param fields? rendRenderTextureResource
 ---@return rendRenderTextureResource
-function rendRenderTextureResource.new(fields) return end
+function rendRenderTextureResource.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamePuppetTriggerDestructionComponent: gameITriggerDestructionComponent
----@field public projectionDist Float
+---@field projectionDist Float
 gamePuppetTriggerDestructionComponent = {}
 
 ---@param fields? gamePuppetTriggerDestructionComponent
 ---@return gamePuppetTriggerDestructionComponent
-function gamePuppetTriggerDestructionComponent.new(fields) return end
+function gamePuppetTriggerDestructionComponent.new(fields) end

@@ -5,7 +5,7 @@ QuestForceAuthorizationEnabled = {}
 
 ---@param fields? QuestForceAuthorizationEnabled
 ---@return QuestForceAuthorizationEnabled
-function QuestForceAuthorizationEnabled.new(fields) return end
+function QuestForceAuthorizationEnabled.new(fields) end
 
 ---@return nil
-function QuestForceAuthorizationEnabled:SetProperties() return end
+function QuestForceAuthorizationEnabled:SetProperties() end

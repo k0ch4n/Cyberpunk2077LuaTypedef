@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AnimFeature_NPCVehicleAdditionalFeatures: animAnimFeatureMarkUnstable
----@field public state Bool
+---@field state Bool
 AnimFeature_NPCVehicleAdditionalFeatures = {}
 
 ---@param fields? AnimFeature_NPCVehicleAdditionalFeatures
 ---@return AnimFeature_NPCVehicleAdditionalFeatures
-function AnimFeature_NPCVehicleAdditionalFeatures.new(fields) return end
+function AnimFeature_NPCVehicleAdditionalFeatures.new(fields) end

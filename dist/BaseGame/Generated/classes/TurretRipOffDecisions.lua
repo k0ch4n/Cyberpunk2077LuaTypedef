@@ -5,4 +5,4 @@ TurretRipOffDecisions = {}
 
 ---@param fields? TurretRipOffDecisions
 ---@return TurretRipOffDecisions
-function TurretRipOffDecisions.new(fields) return end
+function TurretRipOffDecisions.new(fields) end

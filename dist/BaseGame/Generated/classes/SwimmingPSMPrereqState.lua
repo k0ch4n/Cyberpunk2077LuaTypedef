@@ -5,4 +5,4 @@ SwimmingPSMPrereqState = {}
 
 ---@param fields? SwimmingPSMPrereqState
 ---@return SwimmingPSMPrereqState
-function SwimmingPSMPrereqState.new(fields) return end
+function SwimmingPSMPrereqState.new(fields) end

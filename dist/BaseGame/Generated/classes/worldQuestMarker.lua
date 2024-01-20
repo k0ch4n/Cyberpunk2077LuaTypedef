@@ -5,4 +5,4 @@ worldQuestMarker = {}
 
 ---@param fields? worldQuestMarker
 ---@return worldQuestMarker
-function worldQuestMarker.new(fields) return end
+function worldQuestMarker.new(fields) end

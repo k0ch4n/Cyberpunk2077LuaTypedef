@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animSBehaviorConstraintNodeFloorIKCommonData
----@field public gravityCentreBone animTransformIndex
----@field public rootRotationBlendTime Float
----@field public verticalVelocityOffsetUpBlendTime Float
----@field public verticalVelocityOffsetDownBlendTime Float
----@field public slidingOnSlopeBlendTime Float
+---@field gravityCentreBone animTransformIndex
+---@field rootRotationBlendTime Float
+---@field verticalVelocityOffsetUpBlendTime Float
+---@field verticalVelocityOffsetDownBlendTime Float
+---@field slidingOnSlopeBlendTime Float
 animSBehaviorConstraintNodeFloorIKCommonData = {}
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKCommonData
 ---@return animSBehaviorConstraintNodeFloorIKCommonData
-function animSBehaviorConstraintNodeFloorIKCommonData.new(fields) return end
+function animSBehaviorConstraintNodeFloorIKCommonData.new(fields) end

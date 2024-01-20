@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class meshChunkIndicesOffset
----@field public start Uint32
----@field public count Uint32
----@field public boneIndex Uint8
+---@field start Uint32
+---@field count Uint32
+---@field boneIndex Uint8
 meshChunkIndicesOffset = {}
 
 ---@param fields? meshChunkIndicesOffset
 ---@return meshChunkIndicesOffset
-function meshChunkIndicesOffset.new(fields) return end
+function meshChunkIndicesOffset.new(fields) end

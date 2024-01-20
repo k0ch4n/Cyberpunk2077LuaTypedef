@@ -5,4 +5,4 @@ HandgunLookAtEvents = {}
 
 ---@param fields? HandgunLookAtEvents
 ---@return HandgunLookAtEvents
-function HandgunLookAtEvents.new(fields) return end
+function HandgunLookAtEvents.new(fields) end

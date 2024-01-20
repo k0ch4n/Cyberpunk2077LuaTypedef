@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class inkDexLimoGameController: gameuiWidgetGameController
----@field private activeVehicleBlackboard gameIBlackboard
----@field private playerVehStateId redCallbackObject
----@field private screenVideoWidget inkVideoWidget
----@field private screenVideoWidgetPath CName
----@field private videoPath redResourceReferenceScriptToken
+---@field activeVehicleBlackboard gameIBlackboard
+---@field playerVehStateId redCallbackObject
+---@field screenVideoWidget inkVideoWidget
+---@field screenVideoWidgetPath CName
+---@field videoPath redResourceReferenceScriptToken
 inkDexLimoGameController = {}
 
 ---@param fields? inkDexLimoGameController
 ---@return inkDexLimoGameController
-function inkDexLimoGameController.new(fields) return end
+function inkDexLimoGameController.new(fields) end
 
----@protected
 ---@return Bool
-function inkDexLimoGameController:OnInitialize() return end
+function inkDexLimoGameController:OnInitialize() end
 
----@protected
 ---@param data Variant
 ---@return Bool
-function inkDexLimoGameController:OnPlayerStateChanged(data) return end
+function inkDexLimoGameController:OnPlayerStateChanged(data) end
 
----@protected
 ---@return Bool
-function inkDexLimoGameController:OnUninitialize() return end
+function inkDexLimoGameController:OnUninitialize() end

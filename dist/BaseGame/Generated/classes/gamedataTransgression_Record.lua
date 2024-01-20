@@ -5,13 +5,13 @@ gamedataTransgression_Record = {}
 
 ---@param fields? gamedataTransgression_Record
 ---@return gamedataTransgression_Record
-function gamedataTransgression_Record.new(fields) return end
+function gamedataTransgression_Record.new(fields) end
 
 ---@return Float
-function gamedataTransgression_Record:DrawWeight() return end
+function gamedataTransgression_Record:DrawWeight() end
 
 ---@return String
-function gamedataTransgression_Record:LocalizedDescription() return end
+function gamedataTransgression_Record:LocalizedDescription() end
 
 ---@return Float
-function gamedataTransgression_Record:Severity() return end
+function gamedataTransgression_Record:Severity() end

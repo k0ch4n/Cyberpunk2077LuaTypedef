@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vgVectorGraphicStyle: ISerializable
----@field public attributes vgAttributeTypeValuePair[]
+---@field attributes vgAttributeTypeValuePair[]
 vgVectorGraphicStyle = {}
 
 ---@param fields? vgVectorGraphicStyle
 ---@return vgVectorGraphicStyle
-function vgVectorGraphicStyle.new(fields) return end
+function vgVectorGraphicStyle.new(fields) end

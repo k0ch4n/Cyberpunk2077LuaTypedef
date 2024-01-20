@@ -1,70 +1,60 @@
 ---@meta
 
 ---@class InventoryWideItemDisplay: InventoryItemDisplay
----@field protected itemNameText inkTextWidgetReference
----@field protected rarityBackground inkWidgetReference
----@field protected iconWrapper inkWidgetReference
----@field protected statsWrapper inkWidgetReference
----@field protected dpsText inkTextWidgetReference
----@field protected damageIndicatorRef inkWidgetReference
----@field protected additionalInfoText inkTextWidgetReference
----@field protected singleIconSize Vector2
----@field private damageTypeIndicator DamageTypeIndicator
----@field protected additionalInfoToShow ItemAdditionalInfoType
+---@field itemNameText inkTextWidgetReference
+---@field rarityBackground inkWidgetReference
+---@field iconWrapper inkWidgetReference
+---@field statsWrapper inkWidgetReference
+---@field dpsText inkTextWidgetReference
+---@field damageIndicatorRef inkWidgetReference
+---@field additionalInfoText inkTextWidgetReference
+---@field singleIconSize Vector2
+---@field damageTypeIndicator DamageTypeIndicator
+---@field additionalInfoToShow ItemAdditionalInfoType
 InventoryWideItemDisplay = {}
 
 ---@param fields? InventoryWideItemDisplay
 ---@return InventoryWideItemDisplay
-function InventoryWideItemDisplay.new(fields) return end
+function InventoryWideItemDisplay.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryWideItemDisplay:OnInitialize() return end
+function InventoryWideItemDisplay:OnInitialize() end
 
----@protected
 ---@param data gameInventoryItemData
 ---@return Int32
-function InventoryWideItemDisplay:GetDPS(data) return end
+function InventoryWideItemDisplay:GetDPS(data) end
 
----@protected
 ---@param shapeType gameInventoryItemShape
 ---@return Vector2
-function InventoryWideItemDisplay:GetIconSize(shapeType) return end
+function InventoryWideItemDisplay:GetIconSize(shapeType) end
 
----@protected
 ---@return String
-function InventoryWideItemDisplay:GetPriceText() return end
+function InventoryWideItemDisplay:GetPriceText() end
 
----@protected
 ---@return nil
-function InventoryWideItemDisplay:RefreshUI() return end
+function InventoryWideItemDisplay:RefreshUI() end
 
 ---@param infoType ItemAdditionalInfoType
 ---@return nil
-function InventoryWideItemDisplay:SetAdditinalInfoType(infoType) return end
+function InventoryWideItemDisplay:SetAdditinalInfoType(infoType) end
 
----@protected
 ---@return nil
-function InventoryWideItemDisplay:SetItemNameText() return end
+function InventoryWideItemDisplay:SetItemNameText() end
 
----@protected
 ---@param shapeType gameInventoryItemShape
 ---@return nil
-function InventoryWideItemDisplay:SetShape(shapeType) return end
+function InventoryWideItemDisplay:SetShape(shapeType) end
 
 ---@param itemData gameInventoryItemData
 ---@param additionalInfo ItemAdditionalInfoType
 ---@return nil
-function InventoryWideItemDisplay:Setup(itemData, additionalInfo) return end
+function InventoryWideItemDisplay:Setup(itemData, additionalInfo) end
 
----@protected
 ---@return nil
-function InventoryWideItemDisplay:UpdateAdditionalInfo() return end
+function InventoryWideItemDisplay:UpdateAdditionalInfo() end
 
----@protected
 ---@return nil
-function InventoryWideItemDisplay:UpdateDamageType() return end
+function InventoryWideItemDisplay:UpdateDamageType() end
 
----@protected
 ---@return nil
-function InventoryWideItemDisplay:UpdateItemStats() return end
+function InventoryWideItemDisplay:UpdateItemStats() end

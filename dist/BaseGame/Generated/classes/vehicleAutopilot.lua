@@ -5,4 +5,4 @@ vehicleAutopilot = {}
 
 ---@param fields? vehicleAutopilot
 ---@return vehicleAutopilot
-function vehicleAutopilot.new(fields) return end
+function vehicleAutopilot.new(fields) end

@@ -1,47 +1,40 @@
 ---@meta
 
 ---@class TweakAIActionSequence: TweakAIActionAbstract
----@field public sequence TweakDBID
----@field private sequenceRecord gamedataAIActionSequence_Record
----@field private sequenceIterator Int32
+---@field sequence TweakDBID
+---@field sequenceRecord gamedataAIActionSequence_Record
+---@field sequenceIterator Int32
 TweakAIActionSequence = {}
 
 ---@param fields? TweakAIActionSequence
 ---@return TweakAIActionSequence
-function TweakAIActionSequence.new(fields) return end
+function TweakAIActionSequence.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionSequence:Deactivate(context) return end
+function TweakAIActionSequence:Deactivate(context) end
 
----@private
 ---@return TweakDBID
-function TweakAIActionSequence:Debug_GetBaseActionId() return end
+function TweakAIActionSequence:Debug_GetBaseActionId() end
 
----@private
 ---@return TweakDBID
-function TweakAIActionSequence:Debug_GetCompositeId() return end
+function TweakAIActionSequence:Debug_GetCompositeId() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionDebugName String
 ---@return Bool, gamedataAIAction_Record actionRecord, Bool shouldCallAgain
-function TweakAIActionSequence:GetActionRecord(context, actionDebugName) return end
+function TweakAIActionSequence:GetActionRecord(context, actionDebugName) end
 
 ---@return String
-function TweakAIActionSequence:GetFriendlyName() return end
+function TweakAIActionSequence:GetFriendlyName() end
 
----@private
 ---@return nil
-function TweakAIActionSequence:ResetSequence() return end
+function TweakAIActionSequence:ResetSequence() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionSequence:RunNextAction(context) return end
+function TweakAIActionSequence:RunNextAction(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionSequence:Update(context) return end
+function TweakAIActionSequence:Update(context) end

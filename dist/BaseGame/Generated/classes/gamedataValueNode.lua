@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamedataValueNode: gamedataDataNode
----@field public data gamedataValueDataNode
----@field public group gamedataGroupNode
+---@field data gamedataValueDataNode
+---@field group gamedataGroupNode
 gamedataValueNode = {}
 
 ---@param fields? gamedataValueNode
 ---@return gamedataValueNode
-function gamedataValueNode.new(fields) return end
+function gamedataValueNode.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SetThreatsPersistenceRequest: AIAIEvent
----@field public et entEntity
----@field public isPersistent Bool
+---@field et entEntity
+---@field isPersistent Bool
 SetThreatsPersistenceRequest = {}
 
 ---@param fields? SetThreatsPersistenceRequest
 ---@return SetThreatsPersistenceRequest
-function SetThreatsPersistenceRequest.new(fields) return end
+function SetThreatsPersistenceRequest.new(fields) end

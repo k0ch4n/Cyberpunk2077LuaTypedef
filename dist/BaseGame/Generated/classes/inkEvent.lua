@@ -5,25 +5,25 @@ inkEvent = {}
 
 ---@param fields? inkEvent
 ---@return inkEvent
-function inkEvent.new(fields) return end
+function inkEvent.new(fields) end
 
 ---@return nil
-function inkEvent:Cancel() return end
+function inkEvent:Cancel() end
 
 ---@return inkWidget
-function inkEvent:GetCurrentTarget() return end
+function inkEvent:GetCurrentTarget() end
 
 ---@return String
-function inkEvent:GetDebugString() return end
+function inkEvent:GetDebugString() end
 
 ---@return inkWidget
-function inkEvent:GetTarget() return end
+function inkEvent:GetTarget() end
 
 ---@return nil
-function inkEvent:Handle() return end
+function inkEvent:Handle() end
 
 ---@return Bool
-function inkEvent:IsCanceled() return end
+function inkEvent:IsCanceled() end
 
 ---@return Bool
-function inkEvent:IsHandled() return end
+function inkEvent:IsHandled() end

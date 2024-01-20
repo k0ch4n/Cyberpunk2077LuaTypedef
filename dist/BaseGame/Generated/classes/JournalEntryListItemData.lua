@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class JournalEntryListItemData: IScriptable
----@field public entry gameJournalEntry
----@field public extraData IScriptable
+---@field entry gameJournalEntry
+---@field extraData IScriptable
 JournalEntryListItemData = {}
 
 ---@param fields? JournalEntryListItemData
 ---@return JournalEntryListItemData
-function JournalEntryListItemData.new(fields) return end
+function JournalEntryListItemData.new(fields) end

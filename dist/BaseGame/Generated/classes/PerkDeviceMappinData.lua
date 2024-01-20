@@ -1,39 +1,39 @@
 ---@meta
 
 ---@class PerkDeviceMappinData: IScriptable
----@field private ownerID entEntityID
----@field private isUsed Bool
----@field private position Vector4
----@field private mappinID gameNewMappinID
+---@field ownerID entEntityID
+---@field isUsed Bool
+---@field position Vector4
+---@field mappinID gameNewMappinID
 PerkDeviceMappinData = {}
 
 ---@param fields? PerkDeviceMappinData
 ---@return PerkDeviceMappinData
-function PerkDeviceMappinData.new(fields) return end
+function PerkDeviceMappinData.new(fields) end
 
 ---@return gameNewMappinID
-function PerkDeviceMappinData:GetMappinID() return end
+function PerkDeviceMappinData:GetMappinID() end
 
 ---@return entEntityID
-function PerkDeviceMappinData:GetOwnerID() return end
+function PerkDeviceMappinData:GetOwnerID() end
 
 ---@return Vector4
-function PerkDeviceMappinData:GetPosition() return end
+function PerkDeviceMappinData:GetPosition() end
 
 ---@return Bool
-function PerkDeviceMappinData:IsUsed() return end
+function PerkDeviceMappinData:IsUsed() end
 
 ---@return nil
-function PerkDeviceMappinData:SetAsUsed() return end
+function PerkDeviceMappinData:SetAsUsed() end
 
 ---@param mappinID gameNewMappinID
 ---@return nil
-function PerkDeviceMappinData:SetMappinID(mappinID) return end
+function PerkDeviceMappinData:SetMappinID(mappinID) end
 
 ---@param ownerID entEntityID
 ---@return nil
-function PerkDeviceMappinData:SetOwnerID(ownerID) return end
+function PerkDeviceMappinData:SetOwnerID(ownerID) end
 
 ---@param position Vector4
 ---@return nil
-function PerkDeviceMappinData:SetPosition(position) return end
+function PerkDeviceMappinData:SetPosition(position) end

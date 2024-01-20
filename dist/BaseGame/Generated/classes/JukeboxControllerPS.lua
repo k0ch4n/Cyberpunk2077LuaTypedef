@@ -1,86 +1,77 @@
 ---@meta
 
 ---@class JukeboxControllerPS: ScriptableDeviceComponentPS
----@field protected jukeboxSetup JukeboxSetup
----@field protected activeStation Int32
----@field protected isPlaying Bool
+---@field jukeboxSetup JukeboxSetup
+---@field activeStation Int32
+---@field isPlaying Bool
 JukeboxControllerPS = {}
 
 ---@param fields? JukeboxControllerPS
 ---@return JukeboxControllerPS
-function JukeboxControllerPS.new(fields) return end
+function JukeboxControllerPS.new(fields) end
 
 ---@return NextStation
-function JukeboxControllerPS:ActionNextStation() return end
+function JukeboxControllerPS:ActionNextStation() end
 
----@protected
 ---@return PreviousStation
-function JukeboxControllerPS:ActionPreviousStation() return end
+function JukeboxControllerPS:ActionPreviousStation() end
 
----@protected
 ---@return QuickHackDistraction
-function JukeboxControllerPS:ActionQuickHackDistraction() return end
+function JukeboxControllerPS:ActionQuickHackDistraction() end
 
----@protected
 ---@return TogglePlay
-function JukeboxControllerPS:ActionTogglePlay() return end
+function JukeboxControllerPS:ActionTogglePlay() end
 
----@protected
 ---@return Bool
-function JukeboxControllerPS:CanCreateAnyQuickHackActions() return end
+function JukeboxControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function JukeboxControllerPS:GameAttached() return end
+function JukeboxControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function JukeboxControllerPS:GetActions(context) return end
+function JukeboxControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function JukeboxControllerPS:GetBackgroundTextureTweakDBID() return end
+function JukeboxControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return JukeboxBlackboardDef
-function JukeboxControllerPS:GetBlackboardDef() return end
+function JukeboxControllerPS:GetBlackboardDef() end
 
----@protected
 ---@return TweakDBID
-function JukeboxControllerPS:GetDeviceIconTweakDBID() return end
+function JukeboxControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return CName
-function JukeboxControllerPS:GetGlitchSFX() return end
+function JukeboxControllerPS:GetGlitchSFX() end
 
 ---@return TweakDBID
-function JukeboxControllerPS:GetPaymentRecordID() return end
+function JukeboxControllerPS:GetPaymentRecordID() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function JukeboxControllerPS:GetQuickHackActions(context) return end
+function JukeboxControllerPS:GetQuickHackActions(context) end
 
 ---@return CName
-function JukeboxControllerPS:GetRadioStationEventName() return end
+function JukeboxControllerPS:GetRadioStationEventName() end
 
----@private
 ---@return ERadioStationList
-function JukeboxControllerPS:GetStartingStation() return end
+function JukeboxControllerPS:GetStartingStation() end
 
 ---@return Bool
-function JukeboxControllerPS:IsPlaying() return end
+function JukeboxControllerPS:IsPlaying() end
 
 ---@param evt NextStation
 ---@return EntityNotificationType
-function JukeboxControllerPS:OnNextStation(evt) return end
+function JukeboxControllerPS:OnNextStation(evt) end
 
 ---@param evt PreviousStation
 ---@return EntityNotificationType
-function JukeboxControllerPS:OnPreviousStation(evt) return end
+function JukeboxControllerPS:OnPreviousStation(evt) end
 
 ---@param evt QuickHackDistraction
 ---@return EntityNotificationType
-function JukeboxControllerPS:OnQuickHackDistraction(evt) return end
+function JukeboxControllerPS:OnQuickHackDistraction(evt) end
 
 ---@param evt TogglePlay
 ---@return EntityNotificationType
-function JukeboxControllerPS:OnTogglePlay(evt) return end
+function JukeboxControllerPS:OnTogglePlay(evt) end

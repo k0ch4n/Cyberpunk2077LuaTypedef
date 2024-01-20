@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ProcessFastTravelPrefetchEvent: redEvent
----@field public destinationRef NodeRef
+---@field destinationRef NodeRef
 ProcessFastTravelPrefetchEvent = {}
 
 ---@param fields? ProcessFastTravelPrefetchEvent
 ---@return ProcessFastTravelPrefetchEvent
-function ProcessFastTravelPrefetchEvent.new(fields) return end
+function ProcessFastTravelPrefetchEvent.new(fields) end
 
 ---@return NodeRef
-function ProcessFastTravelPrefetchEvent:GetDestinationRef() return end
+function ProcessFastTravelPrefetchEvent:GetDestinationRef() end

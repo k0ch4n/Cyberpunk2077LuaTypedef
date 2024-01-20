@@ -5,4 +5,4 @@ audioAdvertPositionStrategy = {}
 
 ---@param fields? audioAdvertPositionStrategy
 ---@return audioAdvertPositionStrategy
-function audioAdvertPositionStrategy.new(fields) return end
+function audioAdvertPositionStrategy.new(fields) end

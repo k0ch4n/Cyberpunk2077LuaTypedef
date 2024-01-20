@@ -5,4 +5,4 @@ workReactionFinishedEvent = {}
 
 ---@param fields? workReactionFinishedEvent
 ---@return workReactionFinishedEvent
-function workReactionFinishedEvent.new(fields) return end
+function workReactionFinishedEvent.new(fields) end

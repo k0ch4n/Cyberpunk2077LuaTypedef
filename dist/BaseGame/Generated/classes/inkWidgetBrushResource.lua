@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkWidgetBrushResource: CResource
----@field public brush inkWidgetBrush
+---@field brush inkWidgetBrush
 inkWidgetBrushResource = {}
 
 ---@param fields? inkWidgetBrushResource
 ---@return inkWidgetBrushResource
-function inkWidgetBrushResource.new(fields) return end
+function inkWidgetBrushResource.new(fields) end

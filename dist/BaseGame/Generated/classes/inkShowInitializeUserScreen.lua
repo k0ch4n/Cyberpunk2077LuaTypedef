@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkShowInitializeUserScreen: IScriptable
----@field public show Bool
+---@field show Bool
 inkShowInitializeUserScreen = {}
 
 ---@param fields? inkShowInitializeUserScreen
 ---@return inkShowInitializeUserScreen
-function inkShowInitializeUserScreen.new(fields) return end
+function inkShowInitializeUserScreen.new(fields) end

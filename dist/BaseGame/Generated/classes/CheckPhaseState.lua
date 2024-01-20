@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckPhaseState: AIbehaviorconditionScript
----@field public phaseStateValue ENPCPhaseState
+---@field phaseStateValue ENPCPhaseState
 CheckPhaseState = {}
 
 ---@param fields? CheckPhaseState
 ---@return CheckPhaseState
-function CheckPhaseState.new(fields) return end
+function CheckPhaseState.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckPhaseState:Check(context) return end
+function CheckPhaseState:Check(context) end

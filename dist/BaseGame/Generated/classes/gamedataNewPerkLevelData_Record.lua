@@ -5,25 +5,25 @@ gamedataNewPerkLevelData_Record = {}
 
 ---@param fields? gamedataNewPerkLevelData_Record
 ---@return gamedataNewPerkLevelData_Record
-function gamedataNewPerkLevelData_Record.new(fields) return end
+function gamedataNewPerkLevelData_Record.new(fields) end
 
 ---@return gamedataGameplayLogicPackage_Record
-function gamedataNewPerkLevelData_Record:DataPackage() return end
+function gamedataNewPerkLevelData_Record:DataPackage() end
 
 ---@return gamedataGameplayLogicPackage_Record
-function gamedataNewPerkLevelData_Record:DataPackageHandle() return end
+function gamedataNewPerkLevelData_Record:DataPackageHandle() end
 
 ---@return String
-function gamedataNewPerkLevelData_Record:Loc_desc_key() return end
+function gamedataNewPerkLevelData_Record:Loc_desc_key() end
 
 ---@return String
-function gamedataNewPerkLevelData_Record:Loc_name_key() return end
+function gamedataNewPerkLevelData_Record:Loc_name_key() end
 
 ---@return Int32
-function gamedataNewPerkLevelData_Record:PointsCost() return end
+function gamedataNewPerkLevelData_Record:PointsCost() end
 
 ---@return gamedataNewPerkLevelUIData_Record
-function gamedataNewPerkLevelData_Record:UiData() return end
+function gamedataNewPerkLevelData_Record:UiData() end
 
 ---@return gamedataNewPerkLevelUIData_Record
-function gamedataNewPerkLevelData_Record:UiDataHandle() return end
+function gamedataNewPerkLevelData_Record:UiDataHandle() end

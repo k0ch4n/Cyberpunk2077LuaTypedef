@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questPhaseNodeDefinition: questEmbeddedGraphNodeDefinition
----@field public saveLock Bool
----@field public phaseResource questQuestPhaseResource
----@field public unfreezingTriggerNodeRef NodeRef
----@field public phaseInstancePrefabs questQuestPrefabEntry[]
----@field public phaseGraph questGraphDefinition
+---@field saveLock Bool
+---@field phaseResource questQuestPhaseResource
+---@field unfreezingTriggerNodeRef NodeRef
+---@field phaseInstancePrefabs questQuestPrefabEntry[]
+---@field phaseGraph questGraphDefinition
 questPhaseNodeDefinition = {}
 
 ---@param fields? questPhaseNodeDefinition
 ---@return questPhaseNodeDefinition
-function questPhaseNodeDefinition.new(fields) return end
+function questPhaseNodeDefinition.new(fields) end

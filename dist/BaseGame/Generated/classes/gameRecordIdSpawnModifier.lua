@@ -5,4 +5,4 @@ gameRecordIdSpawnModifier = {}
 
 ---@param fields? gameRecordIdSpawnModifier
 ---@return gameRecordIdSpawnModifier
-function gameRecordIdSpawnModifier.new(fields) return end
+function gameRecordIdSpawnModifier.new(fields) end

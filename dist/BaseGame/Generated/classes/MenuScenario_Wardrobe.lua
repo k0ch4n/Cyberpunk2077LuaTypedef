@@ -5,18 +5,15 @@ MenuScenario_Wardrobe = {}
 
 ---@param fields? MenuScenario_Wardrobe
 ---@return MenuScenario_Wardrobe
-function MenuScenario_Wardrobe.new(fields) return end
+function MenuScenario_Wardrobe.new(fields) end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Wardrobe:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_Wardrobe:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_Wardrobe:OnWardrobeClose() return end
+function MenuScenario_Wardrobe:OnWardrobeClose() end
 
----@protected
 ---@return nil
-function MenuScenario_Wardrobe:GotoIdleState() return end
+function MenuScenario_Wardrobe:GotoIdleState() end

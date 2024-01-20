@@ -1,53 +1,46 @@
 ---@meta
 
 ---@class ItemLog: gameuiMenuGameController
----@field private listRef inkCompoundWidgetReference
----@field private initialPopupDelay Float
----@field private popupList DisassemblePopupLogicController[]
----@field private listOfAddedInventoryItems gameInventoryItemData[]
----@field private player PlayerPuppet
----@field private InventoryManager InventoryDataManagerV2
----@field private data ItemLogUserData
----@field private onScreenCount Int32
----@field private animProxy inkanimProxy
----@field private alpha_fadein inkanimDefinition
----@field private AnimOptions inkanimPlaybackOptions
+---@field listRef inkCompoundWidgetReference
+---@field initialPopupDelay Float
+---@field popupList DisassemblePopupLogicController[]
+---@field listOfAddedInventoryItems gameInventoryItemData[]
+---@field player PlayerPuppet
+---@field InventoryManager InventoryDataManagerV2
+---@field data ItemLogUserData
+---@field onScreenCount Int32
+---@field animProxy inkanimProxy
+---@field alpha_fadein inkanimDefinition
+---@field AnimOptions inkanimPlaybackOptions
 ItemLog = {}
 
 ---@param fields? ItemLog
 ---@return ItemLog
-function ItemLog.new(fields) return end
+function ItemLog.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function ItemLog:OnDelayComplete(anim) return end
+function ItemLog:OnDelayComplete(anim) end
 
----@protected
 ---@return Bool
-function ItemLog:OnInitialize() return end
+function ItemLog:OnInitialize() end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function ItemLog:OnItemAdded(data) return end
+function ItemLog:OnItemAdded(data) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function ItemLog:OnRemovePopup(widget) return end
+function ItemLog:OnRemovePopup(widget) end
 
----@protected
 ---@return Bool
-function ItemLog:OnUninitialize() return end
-
----@private
----@return nil
-function ItemLog:CreatePopup() return end
-
----@private
----@return nil
-function ItemLog:CreatePopupDelay() return end
+function ItemLog:OnUninitialize() end
 
 ---@return nil
-function ItemLog:ManagePopups() return end
+function ItemLog:CreatePopup() end
+
+---@return nil
+function ItemLog:CreatePopupDelay() end
+
+---@return nil
+function ItemLog:ManagePopups() end

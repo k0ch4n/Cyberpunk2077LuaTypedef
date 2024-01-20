@@ -5,7 +5,7 @@ gameRichPresenceSystem = {}
 
 ---@param fields? gameRichPresenceSystem
 ---@return gameRichPresenceSystem
-function gameRichPresenceSystem.new(fields) return end
+function gameRichPresenceSystem.new(fields) end
 
 ---@return nil
-function gameRichPresenceSystem:SetRichPresence() return end
+function gameRichPresenceSystem:SetRichPresence() end

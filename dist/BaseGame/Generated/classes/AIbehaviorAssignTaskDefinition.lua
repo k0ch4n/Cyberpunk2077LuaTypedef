@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorAssignTaskDefinition: AIbehaviorTaskDefinition
----@field public assignments AIbehaviorAssignTaskItem[]
----@field public endAssignments AIbehaviorAssignTaskItem[]
+---@field assignments AIbehaviorAssignTaskItem[]
+---@field endAssignments AIbehaviorAssignTaskItem[]
 AIbehaviorAssignTaskDefinition = {}
 
 ---@param fields? AIbehaviorAssignTaskDefinition
 ---@return AIbehaviorAssignTaskDefinition
-function AIbehaviorAssignTaskDefinition.new(fields) return end
+function AIbehaviorAssignTaskDefinition.new(fields) end

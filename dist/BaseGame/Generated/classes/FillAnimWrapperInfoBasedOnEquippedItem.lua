@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class FillAnimWrapperInfoBasedOnEquippedItem: redEvent
----@field public itemID gameItemID
----@field public itemType CName
----@field public itemName CName
----@field public clearWrapperInfo Bool
+---@field itemID gameItemID
+---@field itemType CName
+---@field itemName CName
+---@field clearWrapperInfo Bool
 FillAnimWrapperInfoBasedOnEquippedItem = {}
 
 ---@param fields? FillAnimWrapperInfoBasedOnEquippedItem
 ---@return FillAnimWrapperInfoBasedOnEquippedItem
-function FillAnimWrapperInfoBasedOnEquippedItem.new(fields) return end
+function FillAnimWrapperInfoBasedOnEquippedItem.new(fields) end

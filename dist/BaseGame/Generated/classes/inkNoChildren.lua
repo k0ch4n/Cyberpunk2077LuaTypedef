@@ -5,4 +5,4 @@ inkNoChildren = {}
 
 ---@param fields? inkNoChildren
 ---@return inkNoChildren
-function inkNoChildren.new(fields) return end
+function inkNoChildren.new(fields) end

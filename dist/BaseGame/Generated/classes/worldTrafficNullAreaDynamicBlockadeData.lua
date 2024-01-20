@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficNullAreaDynamicBlockadeData: ISerializable
----@field public nullAreasBlockades worldTrafficNullAreaDynamicBlockade[]
+---@field nullAreasBlockades worldTrafficNullAreaDynamicBlockade[]
 worldTrafficNullAreaDynamicBlockadeData = {}
 
 ---@param fields? worldTrafficNullAreaDynamicBlockadeData
 ---@return worldTrafficNullAreaDynamicBlockadeData
-function worldTrafficNullAreaDynamicBlockadeData.new(fields) return end
+function worldTrafficNullAreaDynamicBlockadeData.new(fields) end

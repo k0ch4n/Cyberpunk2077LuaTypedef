@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class ShardCollectedNotification: GenericNotificationController
----@field private shardTitle inkTextWidgetReference
----@field public bbListenerId redCallbackObject
----@field private animProxy inkanimProxy
+---@field shardTitle inkTextWidgetReference
+---@field bbListenerId redCallbackObject
+---@field animProxy inkanimProxy
 ShardCollectedNotification = {}
 
 ---@param fields? ShardCollectedNotification
 ---@return ShardCollectedNotification
-function ShardCollectedNotification.new(fields) return end
+function ShardCollectedNotification.new(fields) end
 
----@protected
 ---@return Bool
-function ShardCollectedNotification:OnInitialize() return end
+function ShardCollectedNotification:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function ShardCollectedNotification:OnInteractionUpdate(value) return end
+function ShardCollectedNotification:OnInteractionUpdate(value) end
 
----@protected
 ---@return Bool
-function ShardCollectedNotification:OnNotificationPaused() return end
+function ShardCollectedNotification:OnNotificationPaused() end
 
----@protected
 ---@return Bool
-function ShardCollectedNotification:OnNotificationResumed() return end
+function ShardCollectedNotification:OnNotificationResumed() end
 
----@protected
 ---@return Bool
-function ShardCollectedNotification:OnUninitialize() return end
+function ShardCollectedNotification:OnUninitialize() end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function ShardCollectedNotification:SetNotificationData(notificationData) return end
+function ShardCollectedNotification:SetNotificationData(notificationData) end
 
----@private
 ---@param title String
 ---@return String
-function ShardCollectedNotification:WrapText(title) return end
+function ShardCollectedNotification:WrapText(title) end

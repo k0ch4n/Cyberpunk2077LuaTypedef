@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioPlayerInVehicleASTCD: audioAudioStateTransitionConditionData
----@field public isInside Bool
+---@field isInside Bool
 audioPlayerInVehicleASTCD = {}
 
 ---@param fields? audioPlayerInVehicleASTCD
 ---@return audioPlayerInVehicleASTCD
-function audioPlayerInVehicleASTCD.new(fields) return end
+function audioPlayerInVehicleASTCD.new(fields) end

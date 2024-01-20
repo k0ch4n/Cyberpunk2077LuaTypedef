@@ -5,9 +5,9 @@ IsDeviceFilter = {}
 
 ---@param fields? IsDeviceFilter
 ---@return IsDeviceFilter
-function IsDeviceFilter.new(fields) return end
+function IsDeviceFilter.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IsDeviceFilter:Process(ctx, filterCtx) return end
+function IsDeviceFilter:Process(ctx, filterCtx) end

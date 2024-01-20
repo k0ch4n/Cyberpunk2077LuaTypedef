@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class gameMountEventData: IScriptable
----@field public slotName CName
----@field public mountParentEntityId entEntityID
----@field public isInstant Bool
----@field public entryAnimName CName
----@field public entrySlotName CName
----@field public initialTransformLS Transform
----@field public setEntityVisibleWhenMountFinish Bool
----@field public removePitchRollRotationOnDismount Bool
----@field public ignoreHLS Bool
----@field public switchRenderPlane Bool
----@field public isJustAttached Bool
----@field public isCarrying Bool
----@field public allowFailsafeTeleport Bool
----@field public mountEventOptions gameMountEventOptions
+---@field slotName CName
+---@field mountParentEntityId entEntityID
+---@field isInstant Bool
+---@field entryAnimName CName
+---@field entrySlotName CName
+---@field initialTransformLS Transform
+---@field setEntityVisibleWhenMountFinish Bool
+---@field removePitchRollRotationOnDismount Bool
+---@field ignoreHLS Bool
+---@field switchRenderPlane Bool
+---@field isJustAttached Bool
+---@field isCarrying Bool
+---@field allowFailsafeTeleport Bool
+---@field mountEventOptions gameMountEventOptions
 gameMountEventData = {}
 
 ---@param fields? gameMountEventData
 ---@return gameMountEventData
-function gameMountEventData.new(fields) return end
+function gameMountEventData.new(fields) end
 
 ---@return Bool
-function gameMountEventData:IsTransitionForced() return end
+function gameMountEventData:IsTransitionForced() end

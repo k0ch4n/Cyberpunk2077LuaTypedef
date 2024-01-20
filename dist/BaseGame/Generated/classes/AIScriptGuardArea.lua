@@ -5,4 +5,4 @@ AIScriptGuardArea = {}
 
 ---@param fields? AIScriptGuardArea
 ---@return AIScriptGuardArea
-function AIScriptGuardArea.new(fields) return end
+function AIScriptGuardArea.new(fields) end

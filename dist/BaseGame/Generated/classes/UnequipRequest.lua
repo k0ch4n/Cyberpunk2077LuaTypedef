@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class UnequipRequest: gamePlayerScriptableSystemRequest
----@field public areaType gamedataEquipmentArea
----@field public slotIndex Int32
----@field public force Bool
+---@field areaType gamedataEquipmentArea
+---@field slotIndex Int32
+---@field force Bool
 UnequipRequest = {}
 
 ---@param fields? UnequipRequest
 ---@return UnequipRequest
-function UnequipRequest.new(fields) return end
+function UnequipRequest.new(fields) end

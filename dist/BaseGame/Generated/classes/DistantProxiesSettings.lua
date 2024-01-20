@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DistantProxiesSettings: IAreaSettings
----@field public distantProxiesEmissive Float
----@field public distantProxiesEmissiveHeight Float
----@field public distantProxiesEmissivePower Float
----@field public distantProxiesBboxzBlend Float
+---@field distantProxiesEmissive Float
+---@field distantProxiesEmissiveHeight Float
+---@field distantProxiesEmissivePower Float
+---@field distantProxiesBboxzBlend Float
 DistantProxiesSettings = {}
 
 ---@param fields? DistantProxiesSettings
 ---@return DistantProxiesSettings
-function DistantProxiesSettings.new(fields) return end
+function DistantProxiesSettings.new(fields) end

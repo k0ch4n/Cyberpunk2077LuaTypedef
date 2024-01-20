@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class FelledEvent: redEvent
----@field public active Bool
+---@field active Bool
 FelledEvent = {}
 
 ---@param fields? FelledEvent
 ---@return FelledEvent
-function FelledEvent.new(fields) return end
+function FelledEvent.new(fields) end
 
 ---@return String
-function FelledEvent:GetFriendlyDescription() return end
+function FelledEvent:GetFriendlyDescription() end

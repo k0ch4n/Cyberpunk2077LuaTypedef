@@ -5,24 +5,21 @@ ThrowEvents = {}
 
 ---@param fields? ThrowEvents
 ---@return ThrowEvents
-function ThrowEvents.new(fields) return end
+function ThrowEvents.new(fields) end
 
----@private
 ---@param player PlayerPuppet
 ---@param thrownNPC NPCPuppet
 ---@param throwDirectionForward Vector4
 ---@param throwDirectionRight Vector4
 ---@return entEntity[]
-function ThrowEvents:ComputeNearbyCrowdNPCs(player, thrownNPC, throwDirectionForward, throwDirectionRight) return end
+function ThrowEvents:ComputeNearbyCrowdNPCs(player, thrownNPC, throwDirectionForward, throwDirectionRight) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ThrowEvents:OnEnter(stateContext, scriptInterface) return end
+function ThrowEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ThrowEvents:OnExit(stateContext, scriptInterface) return end
+function ThrowEvents:OnExit(stateContext, scriptInterface) end

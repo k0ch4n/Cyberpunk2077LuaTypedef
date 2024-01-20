@@ -5,16 +5,14 @@ ChargeReadyDecisions = {}
 
 ---@param fields? ChargeReadyDecisions
 ---@return ChargeReadyDecisions
-function ChargeReadyDecisions.new(fields) return end
+function ChargeReadyDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ChargeReadyDecisions:ToChargeMax(stateContext, scriptInterface) return end
+function ChargeReadyDecisions:ToChargeMax(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ChargeReadyDecisions:ToShoot(stateContext, scriptInterface) return end
+function ChargeReadyDecisions:ToShoot(stateContext, scriptInterface) end

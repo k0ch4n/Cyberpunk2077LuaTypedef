@@ -5,4 +5,4 @@ animAnimNode_FPPCameraSharedVar = {}
 
 ---@param fields? animAnimNode_FPPCameraSharedVar
 ---@return animAnimNode_FPPCameraSharedVar
-function animAnimNode_FPPCameraSharedVar.new(fields) return end
+function animAnimNode_FPPCameraSharedVar.new(fields) end

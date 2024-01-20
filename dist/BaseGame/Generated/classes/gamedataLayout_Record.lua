@@ -5,10 +5,10 @@ gamedataLayout_Record = {}
 
 ---@param fields? gamedataLayout_Record
 ---@return gamedataLayout_Record
-function gamedataLayout_Record.new(fields) return end
+function gamedataLayout_Record.new(fields) end
 
 ---@return CName
-function gamedataLayout_Record:EnumName() return end
+function gamedataLayout_Record:EnumName() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataLayout_Record:LibraryPath() return end
+function gamedataLayout_Record:LibraryPath() end

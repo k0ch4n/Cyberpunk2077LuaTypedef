@@ -5,7 +5,7 @@ QuestForceInvulnerable = {}
 
 ---@param fields? QuestForceInvulnerable
 ---@return QuestForceInvulnerable
-function QuestForceInvulnerable.new(fields) return end
+function QuestForceInvulnerable.new(fields) end
 
 ---@return nil
-function QuestForceInvulnerable:SetProperties() return end
+function QuestForceInvulnerable:SetProperties() end

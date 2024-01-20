@@ -1,191 +1,168 @@
 ---@meta
 
 ---@class SecurityTurretControllerPS: SensorDeviceControllerPS
----@field private pendingSecuritySystemDisableRequest Bool
----@field private turretSkillChecks EngDemoContainer
----@field protected ignoreSkillcheckGeneration Bool
----@field protected laserGameEffectRef gameEffectRef
----@field private weaponItemRecordString String
----@field private vfxNameOnShoot CName
+---@field pendingSecuritySystemDisableRequest Bool
+---@field turretSkillChecks EngDemoContainer
+---@field ignoreSkillcheckGeneration Bool
+---@field laserGameEffectRef gameEffectRef
+---@field weaponItemRecordString String
+---@field vfxNameOnShoot CName
 SecurityTurretControllerPS = {}
 
 ---@param fields? SecurityTurretControllerPS
 ---@return SecurityTurretControllerPS
-function SecurityTurretControllerPS.new(fields) return end
+function SecurityTurretControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SecurityTurretControllerPS:OnInstantiated() return end
+function SecurityTurretControllerPS:OnInstantiated() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionDemolition
-function SecurityTurretControllerPS:ActionDemolition(context) return end
+function SecurityTurretControllerPS:ActionDemolition(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionEngineering
-function SecurityTurretControllerPS:ActionEngineering(context) return end
+function SecurityTurretControllerPS:ActionEngineering(context) end
 
 ---@return ProgramSetDeviceAttitude
-function SecurityTurretControllerPS:ActionProgramSetDeviceAttitude() return end
+function SecurityTurretControllerPS:ActionProgramSetDeviceAttitude() end
 
 ---@return ProgramSetDeviceOff
-function SecurityTurretControllerPS:ActionProgramSetDeviceOff() return end
+function SecurityTurretControllerPS:ActionProgramSetDeviceOff() end
 
----@protected
 ---@return QuestForceOverheat
-function SecurityTurretControllerPS:ActionQuestForceOverheat() return end
+function SecurityTurretControllerPS:ActionQuestForceOverheat() end
 
----@protected
 ---@return QuestForceReload
-function SecurityTurretControllerPS:ActionQuestForceReload() return end
+function SecurityTurretControllerPS:ActionQuestForceReload() end
 
----@protected
 ---@return QuestRemoveWeapon
-function SecurityTurretControllerPS:ActionQuestRemoveWeapon() return end
+function SecurityTurretControllerPS:ActionQuestRemoveWeapon() end
 
----@protected
 ---@return RipOff
-function SecurityTurretControllerPS:ActionRipOff() return end
+function SecurityTurretControllerPS:ActionRipOff() end
 
----@private
 ---@return SecurityTurretStatus
-function SecurityTurretControllerPS:ActionSecurityTurretStatus() return end
+function SecurityTurretControllerPS:ActionSecurityTurretStatus() end
 
----@protected
 ---@return SetDeviceAttitude
-function SecurityTurretControllerPS:ActionSetDeviceAttitude() return end
+function SecurityTurretControllerPS:ActionSetDeviceAttitude() end
 
----@protected
 ---@return Bool
-function SecurityTurretControllerPS:CanCreateAnyQuickHackActions() return end
+function SecurityTurretControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return Bool
-function SecurityTurretControllerPS:CanPerformReprimand() return end
+function SecurityTurretControllerPS:CanPerformReprimand() end
 
----@protected
 ---@return nil
-function SecurityTurretControllerPS:GameAttached() return end
+function SecurityTurretControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function SecurityTurretControllerPS:GetActions(context) return end
+function SecurityTurretControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function SecurityTurretControllerPS:GetBackgroundTextureTweakDBID() return end
+function SecurityTurretControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SecurityTurretControllerPS:GetDeviceIconTweakDBID() return end
+function SecurityTurretControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return SecurityTurretStatus
-function SecurityTurretControllerPS:GetDeviceStatusAction() return end
+function SecurityTurretControllerPS:GetDeviceStatusAction() end
 
 ---@return Bool
-function SecurityTurretControllerPS:GetIsUnderControl() return end
+function SecurityTurretControllerPS:GetIsUnderControl() end
 
 ---@return gameEffectRef
-function SecurityTurretControllerPS:GetLaserGameEffectRef() return end
+function SecurityTurretControllerPS:GetLaserGameEffectRef() end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function SecurityTurretControllerPS:GetMinigameActions(actions, context) return end
+function SecurityTurretControllerPS:GetMinigameActions(actions, context) end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function SecurityTurretControllerPS:GetQuestActionByName(actionName) return end
+function SecurityTurretControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function SecurityTurretControllerPS:GetQuestActions(context) return end
+function SecurityTurretControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function SecurityTurretControllerPS:GetQuickHackActions(context) return end
+function SecurityTurretControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function SecurityTurretControllerPS:GetSkillCheckContainerForSetup() return end
+function SecurityTurretControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@return String
-function SecurityTurretControllerPS:GetVfxNameOnShoot() return end
+function SecurityTurretControllerPS:GetVfxNameOnShoot() end
 
 ---@return String
-function SecurityTurretControllerPS:GetWeaponItemRecordString() return end
+function SecurityTurretControllerPS:GetWeaponItemRecordString() end
 
----@protected
 ---@return nil
-function SecurityTurretControllerPS:Initialize() return end
+function SecurityTurretControllerPS:Initialize() end
 
 ---@return Bool
-function SecurityTurretControllerPS:IsTurretOperationalUnderSecuritySystem() return end
+function SecurityTurretControllerPS:IsTurretOperationalUnderSecuritySystem() end
 
 ---@param evt ActionDemolition
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnActionDemolition(evt) return end
+function SecurityTurretControllerPS:OnActionDemolition(evt) end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnActionEngineering(evt) return end
+function SecurityTurretControllerPS:OnActionEngineering(evt) end
 
 ---@param evt DisassembleDevice
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnDisassembleDevice(evt) return end
+function SecurityTurretControllerPS:OnDisassembleDevice(evt) end
 
----@private
 ---@param evt PendingSecuritySystemDisable
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnPendingSecuritySystemDisable(evt) return end
+function SecurityTurretControllerPS:OnPendingSecuritySystemDisable(evt) end
 
 ---@param evt QuestForceOverheat
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnQuestForceOverheat(evt) return end
+function SecurityTurretControllerPS:OnQuestForceOverheat(evt) end
 
 ---@param evt QuestForceReload
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnQuestForceReload(evt) return end
+function SecurityTurretControllerPS:OnQuestForceReload(evt) end
 
 ---@param evt QuestRemoveWeapon
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnQuestRemoveWeapon(evt) return end
+function SecurityTurretControllerPS:OnQuestRemoveWeapon(evt) end
 
 ---@param evt RipOff
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnRipOff(evt) return end
+function SecurityTurretControllerPS:OnRipOff(evt) end
 
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnSecurityAreaCrossingPerimeter(evt) return end
+function SecurityTurretControllerPS:OnSecurityAreaCrossingPerimeter(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnSecuritySystemOutput(evt) return end
+function SecurityTurretControllerPS:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt SetDeviceAttitude
 ---@return EntityNotificationType
-function SecurityTurretControllerPS:OnSetDeviceAttitude(evt) return end
+function SecurityTurretControllerPS:OnSetDeviceAttitude(evt) end
 
----@private
 ---@param action ScriptableDeviceAction
 ---@return nil
-function SecurityTurretControllerPS:Override(action) return end
+function SecurityTurretControllerPS:Override(action) end
 
----@private
 ---@param action ScriptableDeviceAction
 ---@return nil
-function SecurityTurretControllerPS:RipOff(action) return end
+function SecurityTurretControllerPS:RipOff(action) end
 
 ---@return nil
-function SecurityTurretControllerPS:SendDeviceNotOperationalEvent() return end
+function SecurityTurretControllerPS:SendDeviceNotOperationalEvent() end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function SecurityTurretControllerPS:SetDeviceState(state) return end
+function SecurityTurretControllerPS:SetDeviceState(state) end

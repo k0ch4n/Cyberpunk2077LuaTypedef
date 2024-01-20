@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OpenSkillsMenuData: IScriptable
----@field public openSkills Bool
+---@field openSkills Bool
 OpenSkillsMenuData = {}
 
 ---@param fields? OpenSkillsMenuData
 ---@return OpenSkillsMenuData
-function OpenSkillsMenuData.new(fields) return end
+function OpenSkillsMenuData.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class SDocumentThumbnailWidgetPackage: SWidgetPackage
----@field public folderName String
----@field public documentAdress SDocumentAdress
----@field public documentType EDocumentType
----@field public questInfo gamedeviceQuestInfo
----@field public wasRead Bool
----@field public isOpened Bool
+---@field folderName String
+---@field documentAdress SDocumentAdress
+---@field documentType EDocumentType
+---@field questInfo gamedeviceQuestInfo
+---@field wasRead Bool
+---@field isOpened Bool
 SDocumentThumbnailWidgetPackage = {}
 
 ---@param fields? SDocumentThumbnailWidgetPackage
 ---@return SDocumentThumbnailWidgetPackage
-function SDocumentThumbnailWidgetPackage.new(fields) return end
+function SDocumentThumbnailWidgetPackage.new(fields) end

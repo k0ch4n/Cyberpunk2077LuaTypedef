@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineStateContext
----@field public snapshot gamestateMachineStateSnapshotsContainer
----@field public permanentParameters gamestateMachineStateContextParameters
+---@field snapshot gamestateMachineStateSnapshotsContainer
+---@field permanentParameters gamestateMachineStateContextParameters
 gamestateMachineStateContext = {}
 
 ---@param fields? gamestateMachineStateContext
 ---@return gamestateMachineStateContext
-function gamestateMachineStateContext.new(fields) return end
+function gamestateMachineStateContext.new(fields) end

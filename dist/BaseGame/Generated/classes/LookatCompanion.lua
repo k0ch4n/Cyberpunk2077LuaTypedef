@@ -5,37 +5,29 @@ LookatCompanion = {}
 
 ---@param fields? LookatCompanion
 ---@return LookatCompanion
-function LookatCompanion.new(fields) return end
+function LookatCompanion.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gameObject
-function LookatCompanion:GetAimingLookatTarget(context) return end
+function LookatCompanion:GetAimingLookatTarget(context) end
 
----@private
 ---@return animLookAtLimitDegreesType
-function LookatCompanion:GetBackLimitDegreesType() return end
+function LookatCompanion:GetBackLimitDegreesType() end
 
----@private
 ---@return animLookAtLimitDegreesType
-function LookatCompanion:GetHardLimitDegreesType() return end
+function LookatCompanion:GetHardLimitDegreesType() end
 
----@private
 ---@return animLookAtLimitDistanceType
-function LookatCompanion:GetHardLimitDistanceType() return end
+function LookatCompanion:GetHardLimitDistanceType() end
 
----@private
 ---@return Float
-function LookatCompanion:GetLookActivationDelay() return end
+function LookatCompanion:GetLookActivationDelay() end
 
----@private
 ---@return Float
-function LookatCompanion:GetLookAtDeactivationDelay() return end
+function LookatCompanion:GetLookAtDeactivationDelay() end
 
----@private
 ---@return animLookAtStyle
-function LookatCompanion:GetLookatStyle() return end
+function LookatCompanion:GetLookatStyle() end
 
----@private
 ---@return animLookAtLimitDegreesType
-function LookatCompanion:GetSoftLimitDegreesType() return end
+function LookatCompanion:GetSoftLimitDegreesType() end

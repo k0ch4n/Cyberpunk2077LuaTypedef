@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class PlayerStateMachinePrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInt redCallbackObject
----@field public prevValue Int32
+---@field owner gameObject
+---@field listenerInt redCallbackObject
+---@field prevValue Int32
 PlayerStateMachinePrereqState = {}
 
 ---@param fields? PlayerStateMachinePrereqState
 ---@return PlayerStateMachinePrereqState
-function PlayerStateMachinePrereqState.new(fields) return end
+function PlayerStateMachinePrereqState.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PlayerStateMachinePrereqState:OnStateUpdate(value) return end
+function PlayerStateMachinePrereqState:OnStateUpdate(value) end

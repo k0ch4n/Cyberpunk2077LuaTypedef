@@ -5,4 +5,4 @@ effectFOVPlayData = {}
 
 ---@param fields? effectFOVPlayData
 ---@return effectFOVPlayData
-function effectFOVPlayData.new(fields) return end
+function effectFOVPlayData.new(fields) end

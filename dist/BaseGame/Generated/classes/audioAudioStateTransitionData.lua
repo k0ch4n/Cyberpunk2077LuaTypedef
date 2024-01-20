@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class audioAudioStateTransitionData
----@field public targetStateId Uint8
----@field public allConditionsFulfilled Bool
----@field public transitionTime Float
----@field public exitTime Float
----@field public exitSignal CName
----@field public readVariableActions audioAudioSceneVariableReadActionData[]
----@field public conditions CName[]
+---@field targetStateId Uint8
+---@field allConditionsFulfilled Bool
+---@field transitionTime Float
+---@field exitTime Float
+---@field exitSignal CName
+---@field readVariableActions audioAudioSceneVariableReadActionData[]
+---@field conditions CName[]
 audioAudioStateTransitionData = {}
 
 ---@param fields? audioAudioStateTransitionData
 ---@return audioAudioStateTransitionData
-function audioAudioStateTransitionData.new(fields) return end
+function audioAudioStateTransitionData.new(fields) end

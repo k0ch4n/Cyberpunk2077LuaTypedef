@@ -5,7 +5,7 @@ QuestEnterNoAnimation = {}
 
 ---@param fields? QuestEnterNoAnimation
 ---@return QuestEnterNoAnimation
-function QuestEnterNoAnimation.new(fields) return end
+function QuestEnterNoAnimation.new(fields) end
 
 ---@return nil
-function QuestEnterNoAnimation:SetProperties() return end
+function QuestEnterNoAnimation:SetProperties() end

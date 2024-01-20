@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RadialSelectMenuRequest: redEvent
----@field public eventData RadialMenuItemController
+---@field eventData RadialMenuItemController
 RadialSelectMenuRequest = {}
 
 ---@param fields? RadialSelectMenuRequest
 ---@return RadialSelectMenuRequest
-function RadialSelectMenuRequest.new(fields) return end
+function RadialSelectMenuRequest.new(fields) end

@@ -5,46 +5,46 @@ gameCameraSystem = {}
 
 ---@param fields? gameCameraSystem
 ---@return gameCameraSystem
-function gameCameraSystem.new(fields) return end
+function gameCameraSystem.new(fields) end
 
 ---@return nil
-function gameCameraSystem:AbandonBlendCamera() return end
+function gameCameraSystem:AbandonBlendCamera() end
 
 ---@return entCameraData
-function gameCameraSystem:GetActiveCameraData() return end
+function gameCameraSystem:GetActiveCameraData() end
 
 ---@return Float
-function gameCameraSystem:GetActiveCameraFOV() return end
+function gameCameraSystem:GetActiveCameraFOV() end
 
 ---@return Vector4
-function gameCameraSystem:GetActiveCameraForward() return end
+function gameCameraSystem:GetActiveCameraForward() end
 
 ---@return Vector4
-function gameCameraSystem:GetActiveCameraRight() return end
+function gameCameraSystem:GetActiveCameraRight() end
 
 ---@return Vector4
-function gameCameraSystem:GetActiveCameraUp() return end
+function gameCameraSystem:GetActiveCameraUp() end
 
 ---@param transform Transform
 ---@return Bool
-function gameCameraSystem:GetActiveCameraWorldTransform(transform) return end
+function gameCameraSystem:GetActiveCameraWorldTransform(transform) end
 
 ---@return Float
-function gameCameraSystem:GetAspectRatio() return end
+function gameCameraSystem:GetAspectRatio() end
 
 ---@param targetObject gameObject
 ---@param objectHeight Float
 ---@param objectRadius Float
 ---@return Bool
-function gameCameraSystem:IsInCameraFrustum(targetObject, objectHeight, objectRadius) return end
+function gameCameraSystem:IsInCameraFrustum(targetObject, objectHeight, objectRadius) end
 
 ---@return nil
-function gameCameraSystem:PrepareBlendCamera() return end
+function gameCameraSystem:PrepareBlendCamera() end
 
 ---@param worldSpacePoint Vector4
 ---@return Vector4
-function gameCameraSystem:ProjectPoint(worldSpacePoint) return end
+function gameCameraSystem:ProjectPoint(worldSpacePoint) end
 
 ---@param screenSpacePoint Vector2
 ---@return Vector4
-function gameCameraSystem:UnprojectPoint(screenSpacePoint) return end
+function gameCameraSystem:UnprojectPoint(screenSpacePoint) end

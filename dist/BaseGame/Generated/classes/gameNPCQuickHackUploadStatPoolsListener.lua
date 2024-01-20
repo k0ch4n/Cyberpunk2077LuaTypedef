@@ -5,4 +5,4 @@ gameNPCQuickHackUploadStatPoolsListener = {}
 
 ---@param fields? gameNPCQuickHackUploadStatPoolsListener
 ---@return gameNPCQuickHackUploadStatPoolsListener
-function gameNPCQuickHackUploadStatPoolsListener.new(fields) return end
+function gameNPCQuickHackUploadStatPoolsListener.new(fields) end

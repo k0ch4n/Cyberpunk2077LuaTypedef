@@ -5,12 +5,11 @@ SetTimeStampToArgumentFloat = {}
 
 ---@param fields? SetTimeStampToArgumentFloat
 ---@return SetTimeStampToArgumentFloat
-function SetTimeStampToArgumentFloat.new(fields) return end
+function SetTimeStampToArgumentFloat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetTimeStampToArgumentFloat:Activate(context) return end
+function SetTimeStampToArgumentFloat:Activate(context) end
 
 ---@return String
-function SetTimeStampToArgumentFloat:GetEditorSubCaption() return end
+function SetTimeStampToArgumentFloat:GetEditorSubCaption() end

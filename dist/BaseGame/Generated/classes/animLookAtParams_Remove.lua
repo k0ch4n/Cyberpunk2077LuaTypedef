@@ -5,4 +5,4 @@ animLookAtParams_Remove = {}
 
 ---@param fields? animLookAtParams_Remove
 ---@return animLookAtParams_Remove
-function animLookAtParams_Remove.new(fields) return end
+function animLookAtParams_Remove.new(fields) end

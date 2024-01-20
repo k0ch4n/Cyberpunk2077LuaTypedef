@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class ActivatedDeviceNPCControllerPS: ActivatedDeviceControllerPS
----@field private activatedDeviceNPCSetup ActivatedDeviceNPCSetup
+---@field activatedDeviceNPCSetup ActivatedDeviceNPCSetup
 ActivatedDeviceNPCControllerPS = {}
 
 ---@param fields? ActivatedDeviceNPCControllerPS
 ---@return ActivatedDeviceNPCControllerPS
-function ActivatedDeviceNPCControllerPS.new(fields) return end
+function ActivatedDeviceNPCControllerPS.new(fields) end
 
----@protected
 ---@return nil
-function ActivatedDeviceNPCControllerPS:GameAttached() return end
+function ActivatedDeviceNPCControllerPS:GameAttached() end
 
 ---@return NPCPuppet
-function ActivatedDeviceNPCControllerPS:GetSpawnedNPC() return end
+function ActivatedDeviceNPCControllerPS:GetSpawnedNPC() end
 
 ---@param evt gameEntitySpawnerEvent
 ---@return EntityNotificationType
-function ActivatedDeviceNPCControllerPS:OnGameEntitySpawnerEvent(evt) return end
+function ActivatedDeviceNPCControllerPS:OnGameEntitySpawnerEvent(evt) end

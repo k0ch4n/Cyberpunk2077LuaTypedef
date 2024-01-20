@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animLipsyncMapping: CResource
----@field public languageCodeName CName
----@field public scenePaths Uint64[]
----@field public sceneEntries animLipsyncMappingSceneEntry[]
+---@field languageCodeName CName
+---@field scenePaths Uint64[]
+---@field sceneEntries animLipsyncMappingSceneEntry[]
 animLipsyncMapping = {}
 
 ---@param fields? animLipsyncMapping
 ---@return animLipsyncMapping
-function animLipsyncMapping.new(fields) return end
+function animLipsyncMapping.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendIRenderTextureBlob: IRenderResourceBlob
----@field public header rendRenderTextureBlobHeader
----@field public textureData serializationDeferredDataBuffer
+---@field header rendRenderTextureBlobHeader
+---@field textureData serializationDeferredDataBuffer
 rendIRenderTextureBlob = {}
 
 ---@param fields? rendIRenderTextureBlob
 ---@return rendIRenderTextureBlob
-function rendIRenderTextureBlob.new(fields) return end
+function rendIRenderTextureBlob.new(fields) end

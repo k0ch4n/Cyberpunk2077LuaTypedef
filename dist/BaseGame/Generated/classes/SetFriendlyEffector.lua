@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class SetFriendlyEffector: gameEffector
----@field public target gameObject
----@field public duration Float
+---@field target gameObject
+---@field duration Float
 SetFriendlyEffector = {}
 
 ---@param fields? SetFriendlyEffector
 ---@return SetFriendlyEffector
-function SetFriendlyEffector.new(fields) return end
+function SetFriendlyEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetFriendlyEffector:ActionOff(owner) return end
+function SetFriendlyEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetFriendlyEffector:ActionOn(owner) return end
+function SetFriendlyEffector:ActionOn(owner) end
 
----@protected
 ---@param owner gameObject
 ---@param target gameObject
 ---@return Bool
-function SetFriendlyEffector:ChangeAttitude(owner, target) return end
+function SetFriendlyEffector:ChangeAttitude(owner, target) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SetFriendlyEffector:Initialize(record, parentRecord) return end
+function SetFriendlyEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner ScriptedPuppet
 ---@return nil
-function SetFriendlyEffector:SetAnimFeature(owner) return end
+function SetFriendlyEffector:SetAnimFeature(owner) end
 
----@protected
 ---@return nil
-function SetFriendlyEffector:Uninitialize() return end
+function SetFriendlyEffector:Uninitialize() end

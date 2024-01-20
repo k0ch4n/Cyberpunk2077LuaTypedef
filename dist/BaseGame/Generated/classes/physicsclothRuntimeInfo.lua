@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class physicsclothRuntimeInfo
----@field public translation Vector3
----@field public rotation Quaternion
----@field public gravity Vector3
----@field public damping Float
----@field public drag Float
----@field public inertia Float
----@field public numSolverIterations Uint32
----@field public stiffnessFrequency Float
----@field public friction Float
----@field public tetherStiffness Float
----@field public tetherScale Float
----@field public selfCollisionDistance Float
----@field public selfCollisionStiffness Float
----@field public liftCoefficient Float
----@field public dragCoefficient Float
----@field public gravityScale Float
----@field public motionConstraintStiffness Float
----@field public enableSelfCollision Bool
+---@field translation Vector3
+---@field rotation Quaternion
+---@field gravity Vector3
+---@field damping Float
+---@field drag Float
+---@field inertia Float
+---@field numSolverIterations Uint32
+---@field stiffnessFrequency Float
+---@field friction Float
+---@field tetherStiffness Float
+---@field tetherScale Float
+---@field selfCollisionDistance Float
+---@field selfCollisionStiffness Float
+---@field liftCoefficient Float
+---@field dragCoefficient Float
+---@field gravityScale Float
+---@field motionConstraintStiffness Float
+---@field enableSelfCollision Bool
 physicsclothRuntimeInfo = {}
 
 ---@param fields? physicsclothRuntimeInfo
 ---@return physicsclothRuntimeInfo
-function physicsclothRuntimeInfo.new(fields) return end
+function physicsclothRuntimeInfo.new(fields) end

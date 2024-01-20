@@ -5,10 +5,10 @@ gamedataWebsite_Record = {}
 
 ---@param fields? gamedataWebsite_Record
 ---@return gamedataWebsite_Record
-function gamedataWebsite_Record.new(fields) return end
+function gamedataWebsite_Record.new(fields) end
 
 ---@return String
-function gamedataWebsite_Record:Url() return end
+function gamedataWebsite_Record:Url() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataWebsite_Record:WidgetPath() return end
+function gamedataWebsite_Record:WidgetPath() end

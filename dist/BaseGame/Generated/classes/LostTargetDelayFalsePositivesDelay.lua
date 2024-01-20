@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LostTargetDelayFalsePositivesDelay: redEvent
----@field public target gameObject
+---@field target gameObject
 LostTargetDelayFalsePositivesDelay = {}
 
 ---@param fields? LostTargetDelayFalsePositivesDelay
 ---@return LostTargetDelayFalsePositivesDelay
-function LostTargetDelayFalsePositivesDelay.new(fields) return end
+function LostTargetDelayFalsePositivesDelay.new(fields) end

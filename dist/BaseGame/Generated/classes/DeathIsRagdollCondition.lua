@@ -5,9 +5,8 @@ DeathIsRagdollCondition = {}
 
 ---@param fields? DeathIsRagdollCondition
 ---@return DeathIsRagdollCondition
-function DeathIsRagdollCondition.new(fields) return end
+function DeathIsRagdollCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function DeathIsRagdollCondition:Check(context) return end
+function DeathIsRagdollCondition:Check(context) end

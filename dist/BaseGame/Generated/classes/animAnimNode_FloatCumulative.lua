@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class animAnimNode_FloatCumulative: animAnimNode_FloatValue
----@field public clamp Bool
----@field public resetOnActivation Bool
----@field public normalize180 Bool
----@field public defaultValue Float
----@field public resetExternalEventName CName
----@field public inputNode animFloatLink
----@field public minValue animFloatLink
----@field public maxValue animFloatLink
----@field public resetSpeed animFloatLink
----@field public override animBoolLink
----@field public curValue animFloatLink
----@field public normalize180Input animBoolLink
+---@field clamp Bool
+---@field resetOnActivation Bool
+---@field normalize180 Bool
+---@field defaultValue Float
+---@field resetExternalEventName CName
+---@field inputNode animFloatLink
+---@field minValue animFloatLink
+---@field maxValue animFloatLink
+---@field resetSpeed animFloatLink
+---@field override animBoolLink
+---@field curValue animFloatLink
+---@field normalize180Input animBoolLink
 animAnimNode_FloatCumulative = {}
 
 ---@param fields? animAnimNode_FloatCumulative
 ---@return animAnimNode_FloatCumulative
-function animAnimNode_FloatCumulative.new(fields) return end
+function animAnimNode_FloatCumulative.new(fields) end

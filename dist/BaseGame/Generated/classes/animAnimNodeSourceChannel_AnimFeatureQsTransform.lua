@@ -5,4 +5,4 @@ animAnimNodeSourceChannel_AnimFeatureQsTransform = {}
 
 ---@param fields? animAnimNodeSourceChannel_AnimFeatureQsTransform
 ---@return animAnimNodeSourceChannel_AnimFeatureQsTransform
-function animAnimNodeSourceChannel_AnimFeatureQsTransform.new(fields) return end
+function animAnimNodeSourceChannel_AnimFeatureQsTransform.new(fields) end

@@ -1,421 +1,354 @@
 ---@meta
 
 ---@class VehicleTransition: DefaultTransition
----@field public stateMachineInitData VehicleTransitionInitData
----@field protected exitSlot CName
+---@field stateMachineInitData VehicleTransitionInitData
+---@field exitSlot CName
 VehicleTransition = {}
 
 ---@return Bool
-function VehicleTransition.CanEnterDriverCombat() return end
+function VehicleTransition.CanEnterDriverCombat() end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param desiredTag CName|string
 ---@return Bool
-function VehicleTransition.CheckVehicleDesiredTag(scriptInterface, desiredTag) return end
+function VehicleTransition.CheckVehicleDesiredTag(scriptInterface, desiredTag) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition.DoesVehicleSupportCombat(scriptInterface) return end
+function VehicleTransition.DoesVehicleSupportCombat(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:DeactivateTimeDilationCW(stateContext, scriptInterface) return end
+function VehicleTransition:DeactivateTimeDilationCW(stateContext, scriptInterface) end
 
----@protected
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleTransition:DoesVehicleSupportFireArms(vehicle) return end
+function VehicleTransition:DoesVehicleSupportFireArms(vehicle) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:DriverSwitchSeatsCondition(stateContext, scriptInterface) return end
+function VehicleTransition:DriverSwitchSeatsCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param isInstant Bool
 ---@param upsideDown? Bool
 ---@return nil
-function VehicleTransition:ExitWorkspot(stateContext, scriptInterface, isInstant, upsideDown) return end
+function VehicleTransition:ExitWorkspot(stateContext, scriptInterface, isInstant, upsideDown) end
 
----@protected
 ---@param slotName CName|string
 ---@return Bool, CName nextSlotName
-function VehicleTransition:GetAdjacentSeat(slotName) return end
+function VehicleTransition:GetAdjacentSeat(slotName) end
 
----@protected
 ---@param vehicle vehicleBaseObject
 ---@return EquipmentManipulationAction
-function VehicleTransition:GetDriverCombatWeaponManipulationRequest(vehicle) return end
+function VehicleTransition:GetDriverCombatWeaponManipulationRequest(vehicle) end
 
----@protected
 ---@param vehicle vehicleBaseObject
 ---@return CName
-function VehicleTransition:GetDriverCombatWeaponTag(vehicle) return end
+function VehicleTransition:GetDriverCombatWeaponTag(vehicle) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gamePuppetVehicleState
-function VehicleTransition:GetPuppetVehicleSceneTransition(stateContext) return end
+function VehicleTransition:GetPuppetVehicleSceneTransition(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gameMountEventData
-function VehicleTransition:GetUnmountingEvent(stateContext) return end
+function VehicleTransition:GetUnmountingEvent(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Int32
-function VehicleTransition:GetVehClass(stateContext, scriptInterface) return end
+function VehicleTransition:GetVehClass(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Int32
-function VehicleTransition:GetVehType(stateContext, scriptInterface) return end
+function VehicleTransition:GetVehType(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameIBlackboard
-function VehicleTransition:GetVehicleBlackboard(scriptInterface) return end
+function VehicleTransition:GetVehicleBlackboard(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gamedataVehicleDataPackage_Record
-function VehicleTransition:GetVehicleDataPackage(stateContext) return end
+function VehicleTransition:GetVehicleDataPackage(stateContext) end
 
----@protected
 ---@param vehicle vehicleBaseObject
 ---@return gamedataDriverCombatType
-function VehicleTransition:GetVehicleDriverCombatType(vehicle) return end
+function VehicleTransition:GetVehicleDriverCombatType(vehicle) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:GetVehicleInventory(scriptInterface) return end
+function VehicleTransition:GetVehicleInventory(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return vehicleBaseObject
-function VehicleTransition:GetVehicleObject(scriptInterface) return end
+function VehicleTransition:GetVehicleObject(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return VehicleComponentPS
-function VehicleTransition:GetVehiclePS(scriptInterface) return end
+function VehicleTransition:GetVehiclePS(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param slotName CName|string
 ---@return Bool
-function VehicleTransition:IsAdjacentSeatAvailable(stateContext, scriptInterface, slotName) return end
+function VehicleTransition:IsAdjacentSeatAvailable(stateContext, scriptInterface, slotName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsDriverInVehicle(scriptInterface) return end
+function VehicleTransition:IsDriverInVehicle(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function VehicleTransition:IsExitForced(stateContext) return end
+function VehicleTransition:IsExitForced(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsInScene(stateContext, scriptInterface) return end
+function VehicleTransition:IsInScene(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param slotName CName|string
 ---@return Bool
-function VehicleTransition:IsInVehicleWorkspot(scriptInterface, slotName) return end
+function VehicleTransition:IsInVehicleWorkspot(scriptInterface, slotName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsPassengerInVehicle(scriptInterface) return end
+function VehicleTransition:IsPassengerInVehicle(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsPlayerAllowedToEnterCombat(scriptInterface) return end
+function VehicleTransition:IsPlayerAllowedToEnterCombat(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsPlayerAllowedToEnterDriverCombat(stateContext, scriptInterface) return end
+function VehicleTransition:IsPlayerAllowedToEnterDriverCombat(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsPlayerAllowedToExitCombat(scriptInterface) return end
+function VehicleTransition:IsPlayerAllowedToExitCombat(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param unmountDirection vehicleExitDirection
 ---@return Bool
-function VehicleTransition:IsUnmountDirectionClosest(stateContext, unmountDirection) return end
+function VehicleTransition:IsUnmountDirectionClosest(stateContext, unmountDirection) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param unmountDirection vehicleExitDirection
 ---@return Bool
-function VehicleTransition:IsUnmountDirectionOpposite(stateContext, unmountDirection) return end
+function VehicleTransition:IsUnmountDirectionOpposite(stateContext, unmountDirection) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsVehicleExitBlocked1Frame(stateContext, scriptInterface) return end
+function VehicleTransition:IsVehicleExitBlocked1Frame(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:IsVehicleRemoteControlled(scriptInterface) return end
+function VehicleTransition:IsVehicleRemoteControlled(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTransition:PassangerSwitchSeatsCondition(stateContext, scriptInterface) return end
+function VehicleTransition:PassangerSwitchSeatsCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param executionOwner gameObject
 ---@return nil
-function VehicleTransition:PauseStateMachines(stateContext, executionOwner) return end
+function VehicleTransition:PauseStateMachines(stateContext, executionOwner) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:PlayVehicleExitDoorAnimation(stateContext, scriptInterface) return end
+function VehicleTransition:PlayVehicleExitDoorAnimation(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newstate Int32
 ---@return nil
-function VehicleTransition:PlayerStateChange(scriptInterface, newstate) return end
+function VehicleTransition:PlayerStateChange(scriptInterface, newstate) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function VehicleTransition:RemoveMountingRequest(stateContext) return end
+function VehicleTransition:RemoveMountingRequest(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function VehicleTransition:RemoveUnmountingRequest(stateContext) return end
+function VehicleTransition:RemoveUnmountingRequest(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:RequestToggleVehicleCamera(scriptInterface) return end
+function VehicleTransition:RequestToggleVehicleCamera(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:ResetAnimFeature(stateContext, scriptInterface) return end
+function VehicleTransition:ResetAnimFeature(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:ResetIsCar(stateContext, scriptInterface) return end
+function VehicleTransition:ResetIsCar(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:ResetVehFppCameraParams(stateContext, scriptInterface) return end
+function VehicleTransition:ResetVehFppCameraParams(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:ResetVehParams(stateContext, scriptInterface) return end
+function VehicleTransition:ResetVehParams(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:ResetVehicleCamera(scriptInterface) return end
+function VehicleTransition:ResetVehicleCamera(scriptInterface) end
 
----@protected
 ---@param executionOwner gameObject
 ---@return nil
-function VehicleTransition:ResumeStateMachines(executionOwner) return end
+function VehicleTransition:ResumeStateMachines(executionOwner) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:SendAnimFeature(stateContext, scriptInterface) return end
+function VehicleTransition:SendAnimFeature(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param itemID gameItemID
 ---@return nil
-function VehicleTransition:SendEquipToHandsRequest(scriptInterface, itemID) return end
+function VehicleTransition:SendEquipToHandsRequest(scriptInterface, itemID) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:SendIsCar(stateContext, scriptInterface) return end
+function VehicleTransition:SendIsCar(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param shouleAdd Bool
 ---@return nil
-function VehicleTransition:SetFirearmsGameplayRestriction(scriptInterface, shouleAdd) return end
+function VehicleTransition:SetFirearmsGameplayRestriction(scriptInterface, shouleAdd) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsCar(stateContext, value) return end
+function VehicleTransition:SetIsCar(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsEnteringCombat(stateContext, value) return end
+function VehicleTransition:SetIsEnteringCombat(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsExitingCombat(stateContext, value) return end
+function VehicleTransition:SetIsExitingCombat(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsExitingVehicle(stateContext, value) return end
+function VehicleTransition:SetIsExitingVehicle(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsInVehicle(stateContext, value) return end
+function VehicleTransition:SetIsInVehicle(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsInVehicleCombat(stateContext, value) return end
+function VehicleTransition:SetIsInVehicleCombat(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsInVehicleDriverCombat(stateContext, value) return end
+function VehicleTransition:SetIsInVehicleDriverCombat(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsInVehicleWindowCombat(stateContext, value) return end
+function VehicleTransition:SetIsInVehicleWindowCombat(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsVehicleDriver(stateContext, value) return end
+function VehicleTransition:SetIsVehicleDriver(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetIsWorldRenderPlane(stateContext, value) return end
+function VehicleTransition:SetIsWorldRenderPlane(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetRequestedTPPCamera(stateContext, value) return end
+function VehicleTransition:SetRequestedTPPCamera(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:SetSide(stateContext, scriptInterface) return end
+function VehicleTransition:SetSide(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param isPassenger Bool
 ---@param side? Bool
 ---@param combat? Bool
 ---@return nil
-function VehicleTransition:SetVehFppCameraParams(stateContext, scriptInterface, isPassenger, side, combat) return end
+function VehicleTransition:SetVehFppCameraParams(stateContext, scriptInterface, isPassenger, side, combat) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:SetVehicleCameraParameters(stateContext, scriptInterface) return end
+function VehicleTransition:SetVehicleCameraParameters(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Int32
 ---@return nil
-function VehicleTransition:SetVehicleClass(stateContext, value) return end
+function VehicleTransition:SetVehicleClass(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param shouleAdd Bool
 ---@return nil
-function VehicleTransition:SetVehicleStatusEffects(stateContext, scriptInterface, shouleAdd) return end
+function VehicleTransition:SetVehicleStatusEffects(stateContext, scriptInterface, shouleAdd) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Int32
 ---@return nil
-function VehicleTransition:SetVehicleType(stateContext, value) return end
+function VehicleTransition:SetVehicleType(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetWasCombatForced(stateContext, value) return end
+function VehicleTransition:SetWasCombatForced(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Bool
 ---@return nil
-function VehicleTransition:SetWasStolen(stateContext, value) return end
+function VehicleTransition:SetWasStolen(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gamedataVehicleDataPackage_Record
-function VehicleTransition:SetupVehicleDataPackage(stateContext, scriptInterface) return end
+function VehicleTransition:SetupVehicleDataPackage(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTransition:StartLeavingVehicle(stateContext, scriptInterface) return end
+function VehicleTransition:StartLeavingVehicle(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param slotName CName|string
 ---@param shouldopen Bool
 ---@return nil
-function VehicleTransition:ToggleWindowForOccupiedSeat(scriptInterface, slotName, shouldopen) return end
+function VehicleTransition:ToggleWindowForOccupiedSeat(scriptInterface, slotName, shouldopen) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param force? Bool
 ---@return nil
-function VehicleTransition:TryToStopVehicle(stateContext, scriptInterface, force) return end
+function VehicleTransition:TryToStopVehicle(stateContext, scriptInterface, force) end

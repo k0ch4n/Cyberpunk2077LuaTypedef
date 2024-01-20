@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioDynamicEventsWithInterval
----@field public events CName[]
----@field public interval Float
+---@field events CName[]
+---@field interval Float
 audioDynamicEventsWithInterval = {}
 
 ---@param fields? audioDynamicEventsWithInterval
 ---@return audioDynamicEventsWithInterval
-function audioDynamicEventsWithInterval.new(fields) return end
+function audioDynamicEventsWithInterval.new(fields) end

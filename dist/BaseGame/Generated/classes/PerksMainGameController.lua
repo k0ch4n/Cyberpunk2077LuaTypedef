@@ -1,251 +1,207 @@
 ---@meta
 
 ---@class PerksMainGameController: gameuiMenuGameController
----@field private tooltipsManagerRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private playerLevel inkTextWidgetReference
----@field private centerHiglightParts inkWidgetReference[]
----@field private attributeSelectorsContainer inkWidgetReference
----@field private perksScreen inkWidgetReference
----@field private pointsDisplay inkWidgetReference
----@field private johnnyConnectorRef inkWidgetReference
----@field private attributeTooltipHolderRight inkWidgetReference
----@field private attributeTooltipHolderLeft inkWidgetReference
----@field private respecButtonContainer inkWidgetReference
----@field private cantRespecNotificationContainer inkWidgetReference
----@field private resetPrice inkTextWidgetReference
----@field private spentPerks inkTextWidgetReference
----@field private activeScreen CharacterScreenType
----@field private tooltipsManager gameuiTooltipsManager
----@field private buttonHintsController ButtonHints
----@field private dataManager PlayerDevelopmentDataManager
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private perksMenuItemCreatedQueue PerksMenuAttributeItemCreated[]
----@field private attributesControllersList PerksMenuAttributeItemController[]
----@field private playerStatsBlackboard gameIBlackboard
----@field private characterLevelListener redCallbackObject
----@field private perksScreenController PerkScreenController
----@field private pointsDisplayController PerksPointsDisplayController
----@field private questSystem questQuestsSystem
----@field private equipmentSystem EquipmentSystem
----@field private resetConfirmationToken inkGameNotificationToken
----@field private inCombat Bool
----@field private enoughMoneyForRespec Bool
----@field private cantRespecAnim inkanimProxy
----@field private lastHoveredAttribute PerkMenuAttribute
+---@field tooltipsManagerRef inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field playerLevel inkTextWidgetReference
+---@field centerHiglightParts inkWidgetReference[]
+---@field attributeSelectorsContainer inkWidgetReference
+---@field perksScreen inkWidgetReference
+---@field pointsDisplay inkWidgetReference
+---@field johnnyConnectorRef inkWidgetReference
+---@field attributeTooltipHolderRight inkWidgetReference
+---@field attributeTooltipHolderLeft inkWidgetReference
+---@field respecButtonContainer inkWidgetReference
+---@field cantRespecNotificationContainer inkWidgetReference
+---@field resetPrice inkTextWidgetReference
+---@field spentPerks inkTextWidgetReference
+---@field activeScreen CharacterScreenType
+---@field tooltipsManager gameuiTooltipsManager
+---@field buttonHintsController ButtonHints
+---@field dataManager PlayerDevelopmentDataManager
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field perksMenuItemCreatedQueue PerksMenuAttributeItemCreated[]
+---@field attributesControllersList PerksMenuAttributeItemController[]
+---@field playerStatsBlackboard gameIBlackboard
+---@field characterLevelListener redCallbackObject
+---@field perksScreenController PerkScreenController
+---@field pointsDisplayController PerksPointsDisplayController
+---@field questSystem questQuestsSystem
+---@field equipmentSystem EquipmentSystem
+---@field resetConfirmationToken inkGameNotificationToken
+---@field inCombat Bool
+---@field enoughMoneyForRespec Bool
+---@field cantRespecAnim inkanimProxy
+---@field lastHoveredAttribute PerkMenuAttribute
 PerksMainGameController = {}
 
 ---@param fields? PerksMainGameController
 ---@return PerksMainGameController
-function PerksMainGameController.new(fields) return end
+function PerksMainGameController.new(fields) end
 
----@protected
 ---@param e ActiveSkillScreenChangedEvent
 ---@return Bool
-function PerksMainGameController:OnActiveSkillScreenChanged(e) return end
+function PerksMainGameController:OnActiveSkillScreenChanged(e) end
 
----@protected
 ---@param evt PerksMenuAttributeItemClicked
 ---@return Bool
-function PerksMainGameController:OnAttributeClicked(evt) return end
+function PerksMainGameController:OnAttributeClicked(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemHoldStart
 ---@return Bool
-function PerksMainGameController:OnAttributeHoldStart(evt) return end
+function PerksMainGameController:OnAttributeHoldStart(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemHoverOut
 ---@return Bool
-function PerksMainGameController:OnAttributeHoverOut(evt) return end
+function PerksMainGameController:OnAttributeHoverOut(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemHoverOver
 ---@return Bool
-function PerksMainGameController:OnAttributeHoverOver(evt) return end
+function PerksMainGameController:OnAttributeHoverOver(evt) end
 
----@protected
 ---@param evt AttributeUpgradePurchased
 ---@return Bool
-function PerksMainGameController:OnAttributePurchaseRequest(evt) return end
+function PerksMainGameController:OnAttributePurchaseRequest(evt) end
 
----@protected
 ---@param evt AttributeBoughtEvent
 ---@return Bool
-function PerksMainGameController:OnAttributePurchased(evt) return end
+function PerksMainGameController:OnAttributePurchased(evt) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function PerksMainGameController:OnBack(userData) return end
+function PerksMainGameController:OnBack(userData) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function PerksMainGameController:OnBackClick(controller) return end
+function PerksMainGameController:OnBackClick(controller) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PerksMainGameController:OnCharacterLevelUpdated(value) return end
+function PerksMainGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@return Bool
-function PerksMainGameController:OnInitialize() return end
+function PerksMainGameController:OnInitialize() end
 
----@protected
 ---@param evt PerksItemHoldStart
 ---@return Bool
-function PerksMainGameController:OnPerkHoldStart(evt) return end
+function PerksMainGameController:OnPerkHoldStart(evt) end
 
----@protected
 ---@param evt PerkHoverOutEvent
 ---@return Bool
-function PerksMainGameController:OnPerkHoverOut(evt) return end
+function PerksMainGameController:OnPerkHoverOut(evt) end
 
----@protected
 ---@param evt PerkHoverOverEvent
 ---@return Bool
-function PerksMainGameController:OnPerkHoverOver(evt) return end
+function PerksMainGameController:OnPerkHoverOver(evt) end
 
----@protected
 ---@param evt PerkBoughtEvent
 ---@return Bool
-function PerksMainGameController:OnPerkPurchased(evt) return end
+function PerksMainGameController:OnPerkPurchased(evt) end
 
----@protected
 ---@param evt PerkResetEvent
 ---@return Bool
-function PerksMainGameController:OnPerkResetEvent(evt) return end
+function PerksMainGameController:OnPerkResetEvent(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemCreated
 ---@return Bool
-function PerksMainGameController:OnPerksMenuAttributeItemCreated(evt) return end
+function PerksMainGameController:OnPerksMenuAttributeItemCreated(evt) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function PerksMainGameController:OnPlayerAttach(playerPuppet) return end
+function PerksMainGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param evt PlayerDevUpdateDataEvent
 ---@return Bool
-function PerksMainGameController:OnPlayerDevUpdateData(evt) return end
+function PerksMainGameController:OnPlayerDevUpdateData(evt) end
 
----@protected
 ---@param evt PerksMenuProficiencyItemClicked
 ---@return Bool
-function PerksMainGameController:OnProficiencyClicked(evt) return end
+function PerksMainGameController:OnProficiencyClicked(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function PerksMainGameController:OnResetConfirmed(data) return end
+function PerksMainGameController:OnResetConfirmed(data) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMainGameController:OnResetPerksClick(evt) return end
+function PerksMainGameController:OnResetPerksClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMainGameController:OnResetPerksHoverOut(evt) return end
+function PerksMainGameController:OnResetPerksHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerksMainGameController:OnResetPerksHoverOver(evt) return end
+function PerksMainGameController:OnResetPerksHoverOver(evt) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function PerksMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function PerksMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function PerksMainGameController:OnUninitialize() return end
+function PerksMainGameController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function PerksMainGameController:OnUnitialize() return end
+function PerksMainGameController:OnUnitialize() end
 
----@private
 ---@return nil
-function PerksMainGameController:CheckJohnnyFact() return end
+function PerksMainGameController:CheckJohnnyFact() end
 
----@protected
 ---@return nil
-function PerksMainGameController:HandleEventQueue() return end
+function PerksMainGameController:HandleEventQueue() end
 
----@private
 ---@return nil
-function PerksMainGameController:HideTooltip() return end
+function PerksMainGameController:HideTooltip() end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PerksMainGameController:PlayHoverAnimation(value) return end
+function PerksMainGameController:PlayHoverAnimation(value) end
 
----@private
 ---@return nil
-function PerksMainGameController:PrepareTooltips() return end
+function PerksMainGameController:PrepareTooltips() end
 
----@private
 ---@return nil
-function PerksMainGameController:ResetData() return end
+function PerksMainGameController:ResetData() end
 
----@protected
 ---@return nil
-function PerksMainGameController:ResetHighlightPartsVisibility() return end
+function PerksMainGameController:ResetHighlightPartsVisibility() end
 
----@private
 ---@param screenType CharacterScreenType
 ---@return nil
-function PerksMainGameController:SetActiveScreen(screenType) return end
+function PerksMainGameController:SetActiveScreen(screenType) end
 
----@private
 ---@return nil
-function PerksMainGameController:SetAttributeBuyButtonHintHoverOut() return end
+function PerksMainGameController:SetAttributeBuyButtonHintHoverOut() end
 
----@private
 ---@param data AttributeData
 ---@return nil
-function PerksMainGameController:SetAttributeBuyButtonHintHoverOver(data) return end
+function PerksMainGameController:SetAttributeBuyButtonHintHoverOver(data) end
 
----@private
 ---@return nil
-function PerksMainGameController:SetAttributeHintsHoverOut() return end
+function PerksMainGameController:SetAttributeHintsHoverOut() end
 
----@private
 ---@return nil
-function PerksMainGameController:SetAttributeHintsHoverOver() return end
+function PerksMainGameController:SetAttributeHintsHoverOver() end
 
----@private
 ---@return nil
-function PerksMainGameController:SetPerksButtonHintHoverOut() return end
+function PerksMainGameController:SetPerksButtonHintHoverOut() end
 
----@private
 ---@param data BasePerkDisplayData
 ---@return nil
-function PerksMainGameController:SetPerksButtonHintHoverOver(data) return end
+function PerksMainGameController:SetPerksButtonHintHoverOver(data) end
 
 ---@param visible Bool
 ---@return nil
-function PerksMainGameController:SetRespecButton(visible) return end
+function PerksMainGameController:SetRespecButton(visible) end
 
----@private
 ---@return nil
-function PerksMainGameController:SetupLayout() return end
+function PerksMainGameController:SetupLayout() end
 
----@private
 ---@param widget inkWidget
 ---@param data IDisplayData
 ---@param placement? gameuiETooltipPlacement
 ---@return nil
-function PerksMainGameController:ShowTooltip(widget, data, placement) return end
+function PerksMainGameController:ShowTooltip(widget, data, placement) end
 
----@private
 ---@return nil
-function PerksMainGameController:UpdateAvailablePoints() return end
+function PerksMainGameController:UpdateAvailablePoints() end

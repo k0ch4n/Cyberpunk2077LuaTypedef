@@ -5,4 +5,4 @@ TimeSkipHoverOutEvent = {}
 
 ---@param fields? TimeSkipHoverOutEvent
 ---@return TimeSkipHoverOutEvent
-function TimeSkipHoverOutEvent.new(fields) return end
+function TimeSkipHoverOutEvent.new(fields) end

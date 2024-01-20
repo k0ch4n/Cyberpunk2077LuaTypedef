@@ -5,9 +5,8 @@ BlockReactionTask = {}
 
 ---@param fields? BlockReactionTask
 ---@return BlockReactionTask
-function BlockReactionTask.new(fields) return end
+function BlockReactionTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function BlockReactionTask:Deactivate(context) return end
+function BlockReactionTask:Deactivate(context) end

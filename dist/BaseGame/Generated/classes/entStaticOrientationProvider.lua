@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entStaticOrientationProvider: entIOrientationProvider
----@field public staticOrientation Quaternion
+---@field staticOrientation Quaternion
 entStaticOrientationProvider = {}
 
 ---@param fields? entStaticOrientationProvider
 ---@return entStaticOrientationProvider
-function entStaticOrientationProvider.new(fields) return end
+function entStaticOrientationProvider.new(fields) end

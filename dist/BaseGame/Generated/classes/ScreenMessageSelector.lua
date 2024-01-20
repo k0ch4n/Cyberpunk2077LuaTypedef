@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class ScreenMessageSelector: inkTweakDBIDSelector
----@field protected replaceTextWithCustomNumber Bool
----@field protected customNumber Int32
+---@field replaceTextWithCustomNumber Bool
+---@field customNumber Int32
 ScreenMessageSelector = {}
 
 ---@return Int32
-function ScreenMessageSelector:GetCustomNumber() return end
+function ScreenMessageSelector:GetCustomNumber() end
 
 ---@return Bool
-function ScreenMessageSelector:HasCustomNumber() return end
+function ScreenMessageSelector:HasCustomNumber() end
 
 ---@param value Int32
 ---@return nil
-function ScreenMessageSelector:SetCustomNumber(value) return end
+function ScreenMessageSelector:SetCustomNumber(value) end
 
 ---@param value Bool
 ---@return nil
-function ScreenMessageSelector:SetReplaceTextWithCustomNumber(value) return end
+function ScreenMessageSelector:SetReplaceTextWithCustomNumber(value) end

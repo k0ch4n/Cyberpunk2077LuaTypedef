@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioCombatVoTriggerVariationsMapItem
----@field public name CName
----@field public numberOfVariations Int32
----@field public shuffle Bool
+---@field name CName
+---@field numberOfVariations Int32
+---@field shuffle Bool
 audioCombatVoTriggerVariationsMapItem = {}
 
 ---@param fields? audioCombatVoTriggerVariationsMapItem
 ---@return audioCombatVoTriggerVariationsMapItem
-function audioCombatVoTriggerVariationsMapItem.new(fields) return end
+function audioCombatVoTriggerVariationsMapItem.new(fields) end

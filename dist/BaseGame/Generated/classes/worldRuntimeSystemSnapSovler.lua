@@ -5,4 +5,4 @@ worldRuntimeSystemSnapSovler = {}
 
 ---@param fields? worldRuntimeSystemSnapSovler
 ---@return worldRuntimeSystemSnapSovler
-function worldRuntimeSystemSnapSovler.new(fields) return end
+function worldRuntimeSystemSnapSovler.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class toolsJiraIssue
----@field public id String
----@field public self String
----@field public key String
----@field public fields toolsJiraIssueFields
+---@field id String
+---@field self String
+---@field key String
+---@field fields toolsJiraIssueFields
 toolsJiraIssue = {}
 
 ---@param fields? toolsJiraIssue
 ---@return toolsJiraIssue
-function toolsJiraIssue.new(fields) return end
+function toolsJiraIssue.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questRewindableSectionTimeJump_NodeType: questISceneManagerNodeType
----@field public sceneFile scnSceneResource
----@field public jumpTargetTime Uint32
----@field public jumpSpeed Float
----@field public postJumpPlayDirection scnPlayDirection
----@field public postJumpPlaySpeed scnPlaySpeed
+---@field sceneFile scnSceneResource
+---@field jumpTargetTime Uint32
+---@field jumpSpeed Float
+---@field postJumpPlayDirection scnPlayDirection
+---@field postJumpPlaySpeed scnPlaySpeed
 questRewindableSectionTimeJump_NodeType = {}
 
 ---@param fields? questRewindableSectionTimeJump_NodeType
 ---@return questRewindableSectionTimeJump_NodeType
-function questRewindableSectionTimeJump_NodeType.new(fields) return end
+function questRewindableSectionTimeJump_NodeType.new(fields) end

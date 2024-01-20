@@ -5,64 +5,53 @@ ElectricBox = {}
 
 ---@param fields? ElectricBox
 ---@return ElectricBox
-function ElectricBox.new(fields) return end
+function ElectricBox.new(fields) end
 
----@protected
 ---@param evt ActionOverride
 ---@return Bool
-function ElectricBox:OnActionOverride(evt) return end
+function ElectricBox:OnActionOverride(evt) end
 
----@protected
 ---@param evt DelayEvent
 ---@return Bool
-function ElectricBox:OnDelayEvent(evt) return end
+function ElectricBox:OnDelayEvent(evt) end
 
----@protected
 ---@return Bool
-function ElectricBox:OnGameAttached() return end
+function ElectricBox:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ElectricBox:OnRequestComponents(ri) return end
+function ElectricBox:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ElectricBox:OnTakeControl(ri) return end
+function ElectricBox:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function ElectricBox:DeterminGameplayRole() return end
+function ElectricBox:DeterminGameplayRole() end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@return nil
-function ElectricBox:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
+function ElectricBox:EnterWorkspot(activator, freeCamera, componentName, deviceData) end
 
----@private
 ---@return ElectricBoxController
-function ElectricBox:GetController() return end
+function ElectricBox:GetController() end
 
 ---@return ElectricBoxControllerPS
-function ElectricBox:GetDevicePS() return end
+function ElectricBox:GetDevicePS() end
 
----@private
 ---@param player PlayerPuppet
 ---@return gameIBlackboard
-function ElectricBox:GetPSMBlackboard(player) return end
+function ElectricBox:GetPSMBlackboard(player) end
 
----@protected
 ---@param player PlayerPuppet
 ---@return nil
-function ElectricBox:SendDataToUIBlackboard(player) return end
+function ElectricBox:SendDataToUIBlackboard(player) end
 
----@protected
 ---@return nil
-function ElectricBox:SetQuestFact() return end
+function ElectricBox:SetQuestFact() end
 
----@private
 ---@return nil
-function ElectricBox:UpdateAnimState() return end
+function ElectricBox:UpdateAnimState() end

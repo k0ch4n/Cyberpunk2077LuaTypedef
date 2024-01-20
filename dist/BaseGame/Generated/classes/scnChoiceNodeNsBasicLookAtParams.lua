@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnChoiceNodeNsBasicLookAtParams: scnChoiceNodeNsLookAtParams
----@field public slotName CName
----@field public offset Vector3
+---@field slotName CName
+---@field offset Vector3
 scnChoiceNodeNsBasicLookAtParams = {}
 
 ---@param fields? scnChoiceNodeNsBasicLookAtParams
 ---@return scnChoiceNodeNsBasicLookAtParams
-function scnChoiceNodeNsBasicLookAtParams.new(fields) return end
+function scnChoiceNodeNsBasicLookAtParams.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AVSpawnedRequest: gameScriptableSystemRequest
----@field public spawnedObjects gameObject[]
+---@field spawnedObjects gameObject[]
 AVSpawnedRequest = {}
 
 ---@param fields? AVSpawnedRequest
 ---@return AVSpawnedRequest
-function AVSpawnedRequest.new(fields) return end
+function AVSpawnedRequest.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questUseWorkspotParams
----@field public workspotNode NodeRef
----@field public forceEntryAnimName CName
+---@field workspotNode NodeRef
+---@field forceEntryAnimName CName
 questUseWorkspotParams = {}
 
 ---@param fields? questUseWorkspotParams
 ---@return questUseWorkspotParams
-function questUseWorkspotParams.new(fields) return end
+function questUseWorkspotParams.new(fields) end

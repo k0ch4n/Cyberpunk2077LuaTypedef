@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MotionBlurAreaSettings: IAreaSettings
----@field public strength Float
+---@field strength Float
 MotionBlurAreaSettings = {}
 
 ---@param fields? MotionBlurAreaSettings
 ---@return MotionBlurAreaSettings
-function MotionBlurAreaSettings.new(fields) return end
+function MotionBlurAreaSettings.new(fields) end

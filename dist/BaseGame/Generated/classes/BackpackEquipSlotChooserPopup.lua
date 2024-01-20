@@ -1,88 +1,75 @@
 ---@meta
 
 ---@class BackpackEquipSlotChooserPopup: gameuiWidgetGameController
----@field private titleText inkTextWidgetReference
----@field private buttonHintsRoot inkWidgetReference
----@field private rairtyBar inkWidgetReference
----@field private root inkWidgetReference
----@field private background inkWidgetReference
----@field private weaponSlotsContainer inkCompoundWidgetReference
----@field private tooltipsManagerRef inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private gameData gameItemData
----@field protected buttonOk inkWidgetReference
----@field protected buttonCancel inkWidgetReference
----@field private data BackpackEquipSlotChooserData
----@field private selectedSlotIndex Int32
----@field private tooltipsManager gameuiTooltipsManager
----@field private comparisonResolver InventoryItemPreferredComparisonResolver
----@field private libraryPath inkWidgetLibraryReference
----@field private closeData BackpackEquipSlotChooserCloseData
+---@field titleText inkTextWidgetReference
+---@field buttonHintsRoot inkWidgetReference
+---@field rairtyBar inkWidgetReference
+---@field root inkWidgetReference
+---@field background inkWidgetReference
+---@field weaponSlotsContainer inkCompoundWidgetReference
+---@field tooltipsManagerRef inkWidgetReference
+---@field buttonHintsController ButtonHints
+---@field gameData gameItemData
+---@field buttonOk inkWidgetReference
+---@field buttonCancel inkWidgetReference
+---@field data BackpackEquipSlotChooserData
+---@field selectedSlotIndex Int32
+---@field tooltipsManager gameuiTooltipsManager
+---@field comparisonResolver InventoryItemPreferredComparisonResolver
+---@field libraryPath inkWidgetLibraryReference
+---@field closeData BackpackEquipSlotChooserCloseData
 BackpackEquipSlotChooserPopup = {}
 
 ---@param fields? BackpackEquipSlotChooserPopup
 ---@return BackpackEquipSlotChooserPopup
-function BackpackEquipSlotChooserPopup.new(fields) return end
+function BackpackEquipSlotChooserPopup.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnCancelClick(controller) return end
+function BackpackEquipSlotChooserPopup:OnCancelClick(controller) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnCloseAnimationFinished(proxy) return end
+function BackpackEquipSlotChooserPopup:OnCloseAnimationFinished(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnHandlePressInput(evt) return end
+function BackpackEquipSlotChooserPopup:OnHandlePressInput(evt) end
 
----@protected
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnInitialize() return end
+function BackpackEquipSlotChooserPopup:OnInitialize() end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnOkClick(controller) return end
+function BackpackEquipSlotChooserPopup:OnOkClick(controller) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnSlotClick(e) return end
+function BackpackEquipSlotChooserPopup:OnSlotClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnSlotHoverOut(e) return end
+function BackpackEquipSlotChooserPopup:OnSlotHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnSlotHoverOver(e) return end
+function BackpackEquipSlotChooserPopup:OnSlotHoverOver(e) end
 
----@protected
 ---@return Bool
-function BackpackEquipSlotChooserPopup:OnUninitialize() return end
+function BackpackEquipSlotChooserPopup:OnUninitialize() end
 
----@private
 ---@param actionName CName|string
 ---@param label String
 ---@return nil
-function BackpackEquipSlotChooserPopup:AddButtonHints(actionName, label) return end
+function BackpackEquipSlotChooserPopup:AddButtonHints(actionName, label) end
 
----@private
 ---@param success Bool
 ---@return nil
-function BackpackEquipSlotChooserPopup:Close(success) return end
+function BackpackEquipSlotChooserPopup:Close(success) end
 
----@private
 ---@return nil
-function BackpackEquipSlotChooserPopup:SetButtonHints() return end
+function BackpackEquipSlotChooserPopup:SetButtonHints() end
 
----@private
 ---@param inventoryScriptableSystem UIInventoryScriptableSystem
 ---@return nil
-function BackpackEquipSlotChooserPopup:SpawnWeaponSlots(inventoryScriptableSystem) return end
+function BackpackEquipSlotChooserPopup:SpawnWeaponSlots(inventoryScriptableSystem) end

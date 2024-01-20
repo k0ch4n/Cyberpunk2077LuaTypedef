@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class ProgressBarsController: inkWidgetLogicController
----@field protected mask inkWidgetReference
+---@field mask inkWidgetReference
 ProgressBarsController = {}
 
 ---@param fields? ProgressBarsController
 ---@return ProgressBarsController
-function ProgressBarsController.new(fields) return end
+function ProgressBarsController.new(fields) end
 
----@protected
 ---@return Bool
-function ProgressBarsController:OnInitialize() return end
+function ProgressBarsController:OnInitialize() end
 
 ---@param progress Float
 ---@return nil
-function ProgressBarsController:SetBarProgress(progress) return end
+function ProgressBarsController:SetBarProgress(progress) end

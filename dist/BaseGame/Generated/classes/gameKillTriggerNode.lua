@@ -5,4 +5,4 @@ gameKillTriggerNode = {}
 
 ---@param fields? gameKillTriggerNode
 ---@return gameKillTriggerNode
-function gameKillTriggerNode.new(fields) return end
+function gameKillTriggerNode.new(fields) end

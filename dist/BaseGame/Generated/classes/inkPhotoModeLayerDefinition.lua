@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkPhotoModeLayerDefinition: inkLayerDefinition
----@field public photoModeResource inkWidgetLibraryResource
----@field public stickersResource inkWidgetLibraryResource
----@field public cursorResource inkWidgetLibraryResource
+---@field photoModeResource inkWidgetLibraryResource
+---@field stickersResource inkWidgetLibraryResource
+---@field cursorResource inkWidgetLibraryResource
 inkPhotoModeLayerDefinition = {}
 
 ---@param fields? inkPhotoModeLayerDefinition
 ---@return inkPhotoModeLayerDefinition
-function inkPhotoModeLayerDefinition.new(fields) return end
+function inkPhotoModeLayerDefinition.new(fields) end

@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class DeviceInkLogicControllerBase: inkWidgetLogicController
----@field protected targetWidgetRef inkWidgetReference
----@field protected displayNameWidget inkTextWidgetReference
----@field protected isInitialized Bool
----@field protected targetWidget inkWidget
+---@field targetWidgetRef inkWidgetReference
+---@field displayNameWidget inkTextWidgetReference
+---@field isInitialized Bool
+---@field targetWidget inkWidget
 DeviceInkLogicControllerBase = {}
 
 ---@param fields? DeviceInkLogicControllerBase
 ---@return DeviceInkLogicControllerBase
-function DeviceInkLogicControllerBase.new(fields) return end
-
----@protected
----@return Bool
-function DeviceInkLogicControllerBase:OnInitialize() return end
+function DeviceInkLogicControllerBase.new(fields) end
 
 ---@return Bool
-function DeviceInkLogicControllerBase:IsInitialized() return end
+function DeviceInkLogicControllerBase:OnInitialize() end
+
+---@return Bool
+function DeviceInkLogicControllerBase:IsInitialized() end

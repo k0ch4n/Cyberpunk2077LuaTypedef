@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class visOccluderMeshResource: visIOccluderResource
----@field public resourceVersion Uint32
----@field public vertices DataBuffer
----@field public indices DataBuffer
----@field public boundingBox Box
----@field public twoSided Bool
+---@field resourceVersion Uint32
+---@field vertices DataBuffer
+---@field indices DataBuffer
+---@field boundingBox Box
+---@field twoSided Bool
 visOccluderMeshResource = {}
 
 ---@param fields? visOccluderMeshResource
 ---@return visOccluderMeshResource
-function visOccluderMeshResource.new(fields) return end
+function visOccluderMeshResource.new(fields) end

@@ -5,10 +5,9 @@ LeftHandCyberwareChargeActionDecisions = {}
 
 ---@param fields? LeftHandCyberwareChargeActionDecisions
 ---@return LeftHandCyberwareChargeActionDecisions
-function LeftHandCyberwareChargeActionDecisions.new(fields) return end
+function LeftHandCyberwareChargeActionDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareChargeActionDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeActionDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) end

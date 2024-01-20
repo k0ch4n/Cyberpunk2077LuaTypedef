@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class vehicleSearchFromAnywhereStrategyRequest: vehicleBaseStrategyRequest
----@field public angleRange Vector2
+---@field angleRange Vector2
 vehicleSearchFromAnywhereStrategyRequest = {}
 
 ---@param fields? vehicleSearchFromAnywhereStrategyRequest
 ---@return vehicleSearchFromAnywhereStrategyRequest
-function vehicleSearchFromAnywhereStrategyRequest.new(fields) return end
+function vehicleSearchFromAnywhereStrategyRequest.new(fields) end
 
 ---@param spawnDistanceRange Vector2
 ---@param spawnAngleRange Vector2
 ---@return vehicleSearchFromAnywhereStrategyRequest
-function vehicleSearchFromAnywhereStrategyRequest.Create(spawnDistanceRange, spawnAngleRange) return end
+function vehicleSearchFromAnywhereStrategyRequest.Create(spawnDistanceRange, spawnAngleRange) end

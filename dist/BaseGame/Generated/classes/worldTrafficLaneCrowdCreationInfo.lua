@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficLaneCrowdCreationInfo
----@field public connectedFragments worldTrafficLaneCrowdFragment[]
+---@field connectedFragments worldTrafficLaneCrowdFragment[]
 worldTrafficLaneCrowdCreationInfo = {}
 
 ---@param fields? worldTrafficLaneCrowdCreationInfo
 ---@return worldTrafficLaneCrowdCreationInfo
-function worldTrafficLaneCrowdCreationInfo.new(fields) return end
+function worldTrafficLaneCrowdCreationInfo.new(fields) end

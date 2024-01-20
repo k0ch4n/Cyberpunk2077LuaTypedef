@@ -1,70 +1,59 @@
 ---@meta
 
 ---@class ChestPressControllerPS: ScriptableDeviceComponentPS
----@field protected chestPressSkillChecks EngDemoContainer
----@field private factOnQHack CName
----@field private wasWeighHacked Bool
+---@field chestPressSkillChecks EngDemoContainer
+---@field factOnQHack CName
+---@field wasWeighHacked Bool
 ChestPressControllerPS = {}
 
 ---@param fields? ChestPressControllerPS
 ---@return ChestPressControllerPS
-function ChestPressControllerPS.new(fields) return end
+function ChestPressControllerPS.new(fields) end
 
----@protected
 ---@return ChestPressWeightHack
-function ChestPressControllerPS:ActionChestPressWeightHack() return end
+function ChestPressControllerPS:ActionChestPressWeightHack() end
 
----@protected
 ---@return E3Hack_QuestPlayAnimationKillNPC
-function ChestPressControllerPS:ActionE3Hack_QuestPlayAnimationKillNPC() return end
+function ChestPressControllerPS:ActionE3Hack_QuestPlayAnimationKillNPC() end
 
----@protected
 ---@return E3Hack_QuestPlayAnimationWeightLift
-function ChestPressControllerPS:ActionE3Hack_QuestPlayAnimationWeightLift() return end
+function ChestPressControllerPS:ActionE3Hack_QuestPlayAnimationWeightLift() end
 
----@protected
 ---@return Bool
-function ChestPressControllerPS:CanCreateAnyQuickHackActions() return end
+function ChestPressControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function ChestPressControllerPS:GameAttached() return end
+function ChestPressControllerPS:GameAttached() end
 
 ---@return CName
-function ChestPressControllerPS:GetFactOnQHack() return end
+function ChestPressControllerPS:GetFactOnQHack() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function ChestPressControllerPS:GetQuestActionByName(actionName) return end
+function ChestPressControllerPS:GetQuestActionByName(actionName) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ChestPressControllerPS:GetQuestActions(context) return end
+function ChestPressControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ChestPressControllerPS:GetQuickHackActions(context) return end
+function ChestPressControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function ChestPressControllerPS:GetSkillCheckContainerForSetup() return end
+function ChestPressControllerPS:GetSkillCheckContainerForSetup() end
 
----@private
 ---@param evt ChestPressWeightHack
 ---@return EntityNotificationType
-function ChestPressControllerPS:OnChestPressWeightHack(evt) return end
+function ChestPressControllerPS:OnChestPressWeightHack(evt) end
 
----@private
 ---@param evt E3Hack_QuestPlayAnimationKillNPC
 ---@return EntityNotificationType
-function ChestPressControllerPS:OnE3Hack_QuestPlayAnimationKillNPC(evt) return end
+function ChestPressControllerPS:OnE3Hack_QuestPlayAnimationKillNPC(evt) end
 
----@private
 ---@param evt E3Hack_QuestPlayAnimationWeightLift
 ---@return EntityNotificationType
-function ChestPressControllerPS:OnE3Hack_QuestPlayAnimationWeightLift(evt) return end
+function ChestPressControllerPS:OnE3Hack_QuestPlayAnimationWeightLift(evt) end
 
 ---@return nil
-function ChestPressControllerPS:PushPersistentData() return end
+function ChestPressControllerPS:PushPersistentData() end

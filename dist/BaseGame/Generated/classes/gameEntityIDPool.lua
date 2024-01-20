@@ -5,4 +5,4 @@ gameEntityIDPool = {}
 
 ---@param fields? gameEntityIDPool
 ---@return gameEntityIDPool
-function gameEntityIDPool.new(fields) return end
+function gameEntityIDPool.new(fields) end

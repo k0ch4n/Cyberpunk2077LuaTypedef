@@ -5,37 +5,37 @@ gamedataThreatTrackingPresetBase_Record = {}
 
 ---@param fields? gamedataThreatTrackingPresetBase_Record
 ---@return gamedataThreatTrackingPresetBase_Record
-function gamedataThreatTrackingPresetBase_Record.new(fields) return end
+function gamedataThreatTrackingPresetBase_Record.new(fields) end
 
 ---@return gamedataAccuracy_Record
-function gamedataThreatTrackingPresetBase_Record:BaseAccuracy() return end
+function gamedataThreatTrackingPresetBase_Record:BaseAccuracy() end
 
 ---@return gamedataAccuracy_Record
-function gamedataThreatTrackingPresetBase_Record:BaseAccuracyHandle() return end
+function gamedataThreatTrackingPresetBase_Record:BaseAccuracyHandle() end
 
 ---@return Float
-function gamedataThreatTrackingPresetBase_Record:BaseDroppingThreatCooldown() return end
+function gamedataThreatTrackingPresetBase_Record:BaseDroppingThreatCooldown() end
 
 ---@return gamedataAccuracy_Record
-function gamedataThreatTrackingPresetBase_Record:BeliefAccuracy() return end
+function gamedataThreatTrackingPresetBase_Record:BeliefAccuracy() end
 
 ---@return gamedataAccuracy_Record
-function gamedataThreatTrackingPresetBase_Record:BeliefAccuracyHandle() return end
+function gamedataThreatTrackingPresetBase_Record:BeliefAccuracyHandle() end
 
 ---@return Float
-function gamedataThreatTrackingPresetBase_Record:DroppingCooldownPerHit() return end
+function gamedataThreatTrackingPresetBase_Record:DroppingCooldownPerHit() end
 
 ---@return Float
-function gamedataThreatTrackingPresetBase_Record:DroppingCooldownPerSecondWhileVisible() return end
+function gamedataThreatTrackingPresetBase_Record:DroppingCooldownPerSecondWhileVisible() end
 
 ---@return Float
-function gamedataThreatTrackingPresetBase_Record:MaximumDroppingCooldownValue() return end
+function gamedataThreatTrackingPresetBase_Record:MaximumDroppingCooldownValue() end
 
 ---@return Vector2
-function gamedataThreatTrackingPresetBase_Record:MountedHysteresisThreatDrop() return end
+function gamedataThreatTrackingPresetBase_Record:MountedHysteresisThreatDrop() end
 
 ---@return Bool
-function gamedataThreatTrackingPresetBase_Record:MoveBeliefOnlyIfVisible() return end
+function gamedataThreatTrackingPresetBase_Record:MoveBeliefOnlyIfVisible() end
 
 ---@return Float
-function gamedataThreatTrackingPresetBase_Record:VisibleBeliefSpeedMultiplier() return end
+function gamedataThreatTrackingPresetBase_Record:VisibleBeliefSpeedMultiplier() end

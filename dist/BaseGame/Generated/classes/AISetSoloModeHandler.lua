@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class AISetSoloModeHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AISetSoloModeHandler = {}
 
 ---@param fields? AISetSoloModeHandler
 ---@return AISetSoloModeHandler
-function AISetSoloModeHandler.new(fields) return end
+function AISetSoloModeHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISetSoloModeHandler:Activate(context) return end
+function AISetSoloModeHandler:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISetSoloModeHandler:Deactivate(context) return end
+function AISetSoloModeHandler:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AISetSoloModeHandler:Update(context) return end
+function AISetSoloModeHandler:Update(context) end

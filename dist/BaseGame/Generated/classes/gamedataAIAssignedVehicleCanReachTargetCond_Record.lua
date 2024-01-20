@@ -5,19 +5,19 @@ gamedataAIAssignedVehicleCanReachTargetCond_Record = {}
 
 ---@param fields? gamedataAIAssignedVehicleCanReachTargetCond_Record
 ---@return gamedataAIAssignedVehicleCanReachTargetCond_Record
-function gamedataAIAssignedVehicleCanReachTargetCond_Record.new(fields) return end
+function gamedataAIAssignedVehicleCanReachTargetCond_Record.new(fields) end
 
 ---@return Float
-function gamedataAIAssignedVehicleCanReachTargetCond_Record:Duration() return end
+function gamedataAIAssignedVehicleCanReachTargetCond_Record:Duration() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIAssignedVehicleCanReachTargetCond_Record:Target() return end
+function gamedataAIAssignedVehicleCanReachTargetCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIAssignedVehicleCanReachTargetCond_Record:TargetHandle() return end
+function gamedataAIAssignedVehicleCanReachTargetCond_Record:TargetHandle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIAssignedVehicleCanReachTargetCond_Record:Vehicle() return end
+function gamedataAIAssignedVehicleCanReachTargetCond_Record:Vehicle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIAssignedVehicleCanReachTargetCond_Record:VehicleHandle() return end
+function gamedataAIAssignedVehicleCanReachTargetCond_Record:VehicleHandle() end

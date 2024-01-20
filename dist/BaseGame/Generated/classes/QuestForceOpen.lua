@@ -5,7 +5,7 @@ QuestForceOpen = {}
 
 ---@param fields? QuestForceOpen
 ---@return QuestForceOpen
-function QuestForceOpen.new(fields) return end
+function QuestForceOpen.new(fields) end
 
 ---@return nil
-function QuestForceOpen:SetProperties() return end
+function QuestForceOpen:SetProperties() end

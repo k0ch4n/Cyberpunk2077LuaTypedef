@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class UI_PlayerStatsDef: gamebbScriptDefinition
----@field public MaxHealth gamebbScriptID_Int32
----@field public CurrentHealth gamebbScriptID_Int32
----@field public PhysicalResistance gamebbScriptID_Int32
----@field public ThermalResistance gamebbScriptID_Int32
----@field public EnergyResistance gamebbScriptID_Int32
----@field public ChemicalResistance gamebbScriptID_Int32
----@field public Level gamebbScriptID_Int32
----@field public CurrentXP gamebbScriptID_Int32
----@field public RequiredXP gamebbScriptID_Int32
----@field public StreetCredLevel gamebbScriptID_Int32
----@field public StreetCredPoints gamebbScriptID_Int32
----@field public Attributes gamebbScriptID_Variant
----@field public DevelopmentPoints gamebbScriptID_Variant
----@field public Proficiency gamebbScriptID_Variant
----@field public Perks gamebbScriptID_Variant
----@field public ModifiedPerkArea gamebbScriptID_Variant
----@field public weightMax gamebbScriptID_Int32
----@field public currentInventoryWeight gamebbScriptID_Float
----@field public isReplacer gamebbScriptID_Bool
+---@field MaxHealth gamebbScriptID_Int32
+---@field CurrentHealth gamebbScriptID_Int32
+---@field PhysicalResistance gamebbScriptID_Int32
+---@field ThermalResistance gamebbScriptID_Int32
+---@field EnergyResistance gamebbScriptID_Int32
+---@field ChemicalResistance gamebbScriptID_Int32
+---@field Level gamebbScriptID_Int32
+---@field CurrentXP gamebbScriptID_Int32
+---@field RequiredXP gamebbScriptID_Int32
+---@field StreetCredLevel gamebbScriptID_Int32
+---@field StreetCredPoints gamebbScriptID_Int32
+---@field Attributes gamebbScriptID_Variant
+---@field DevelopmentPoints gamebbScriptID_Variant
+---@field Proficiency gamebbScriptID_Variant
+---@field Perks gamebbScriptID_Variant
+---@field ModifiedPerkArea gamebbScriptID_Variant
+---@field weightMax gamebbScriptID_Int32
+---@field currentInventoryWeight gamebbScriptID_Float
+---@field isReplacer gamebbScriptID_Bool
 UI_PlayerStatsDef = {}
 
 ---@param fields? UI_PlayerStatsDef
 ---@return UI_PlayerStatsDef
-function UI_PlayerStatsDef.new(fields) return end
+function UI_PlayerStatsDef.new(fields) end
 
 ---@return Bool
-function UI_PlayerStatsDef:AutoCreateInSystem() return end
+function UI_PlayerStatsDef:AutoCreateInSystem() end

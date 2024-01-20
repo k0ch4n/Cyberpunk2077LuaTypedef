@@ -5,4 +5,4 @@ DelaySpawning = {}
 
 ---@param fields? DelaySpawning
 ---@return DelaySpawning
-function DelaySpawning.new(fields) return end
+function DelaySpawning.new(fields) end

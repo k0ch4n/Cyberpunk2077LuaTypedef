@@ -5,4 +5,4 @@ worlduiWorldLayerWidget = {}
 
 ---@param fields? worlduiWorldLayerWidget
 ---@return worlduiWorldLayerWidget
-function worlduiWorldLayerWidget.new(fields) return end
+function worlduiWorldLayerWidget.new(fields) end

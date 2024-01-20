@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SniperNestDeviceBlackboardDef: gamebbScriptDefinition
----@field public IsInTheSniperNest gamebbScriptID_Bool
----@field public FastForwardToZoom4 gamebbScriptID_Bool
----@field public SniperNestDefaultSpeedMultiplier gamebbScriptID_Float
----@field public SniperNestZoomedSpeedMultiplier gamebbScriptID_Float
+---@field IsInTheSniperNest gamebbScriptID_Bool
+---@field FastForwardToZoom4 gamebbScriptID_Bool
+---@field SniperNestDefaultSpeedMultiplier gamebbScriptID_Float
+---@field SniperNestZoomedSpeedMultiplier gamebbScriptID_Float
 SniperNestDeviceBlackboardDef = {}
 
 ---@param fields? SniperNestDeviceBlackboardDef
 ---@return SniperNestDeviceBlackboardDef
-function SniperNestDeviceBlackboardDef.new(fields) return end
+function SniperNestDeviceBlackboardDef.new(fields) end
 
 ---@return Bool
-function SniperNestDeviceBlackboardDef:AutoCreateInSystem() return end
+function SniperNestDeviceBlackboardDef:AutoCreateInSystem() end

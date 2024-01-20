@@ -5,7 +5,7 @@ QuestForceGlitch = {}
 
 ---@param fields? QuestForceGlitch
 ---@return QuestForceGlitch
-function QuestForceGlitch.new(fields) return end
+function QuestForceGlitch.new(fields) end
 
 ---@return nil
-function QuestForceGlitch:SetProperties() return end
+function QuestForceGlitch:SetProperties() end

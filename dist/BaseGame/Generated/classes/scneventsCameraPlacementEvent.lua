@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scneventsCameraPlacementEvent: scnSceneEvent
----@field public cameraRef NodeRef
----@field public cameraTransformLS Transform
+---@field cameraRef NodeRef
+---@field cameraTransformLS Transform
 scneventsCameraPlacementEvent = {}
 
 ---@param fields? scneventsCameraPlacementEvent
 ---@return scneventsCameraPlacementEvent
-function scneventsCameraPlacementEvent.new(fields) return end
+function scneventsCameraPlacementEvent.new(fields) end

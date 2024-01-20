@@ -5,23 +5,23 @@ Pay = {}
 
 ---@param fields? Pay
 ---@return Pay
-function Pay.new(fields) return end
+function Pay.new(fields) end
 
 ---@param device DoorControllerPS
 ---@return Bool
-function Pay.IsAvailable(device) return end
+function Pay.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function Pay.IsClearanceValid(clearance) return end
+function Pay.IsClearanceValid(clearance) end
 
 ---@param device DoorControllerPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function Pay.IsDefaultConditionMet(device, context) return end
+function Pay.IsDefaultConditionMet(device, context) end
 
 ---@return TweakDBID
-function Pay:GetInkWidgetTweakDBID() return end
+function Pay:GetInkWidgetTweakDBID() end
 
 ---@return nil
-function Pay:SetProperties() return end
+function Pay:SetProperties() end

@@ -5,10 +5,10 @@ gamedataStatusEffectFX_Record = {}
 
 ---@param fields? gamedataStatusEffectFX_Record
 ---@return gamedataStatusEffectFX_Record
-function gamedataStatusEffectFX_Record.new(fields) return end
+function gamedataStatusEffectFX_Record.new(fields) end
 
 ---@return CName
-function gamedataStatusEffectFX_Record:Name() return end
+function gamedataStatusEffectFX_Record:Name() end
 
 ---@return Bool
-function gamedataStatusEffectFX_Record:ShouldReapply() return end
+function gamedataStatusEffectFX_Record:ShouldReapply() end

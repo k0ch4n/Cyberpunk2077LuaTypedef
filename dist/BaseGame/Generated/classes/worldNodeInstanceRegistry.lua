@@ -5,4 +5,4 @@ worldNodeInstanceRegistry = {}
 
 ---@param fields? worldNodeInstanceRegistry
 ---@return worldNodeInstanceRegistry
-function worldNodeInstanceRegistry.new(fields) return end
+function worldNodeInstanceRegistry.new(fields) end

@@ -1,49 +1,43 @@
 ---@meta
 
 ---@class AnimationChainPlayer: IScriptable
----@field public animationProxy inkanimProxy
----@field public current AnimationChain
----@field public current_stage Int32
----@field public next AnimationChain
----@field public owner inkWidgetLogicController
+---@field animationProxy inkanimProxy
+---@field current AnimationChain
+---@field current_stage Int32
+---@field next AnimationChain
+---@field owner inkWidgetLogicController
 AnimationChainPlayer = {}
 
 ---@param fields? AnimationChainPlayer
 ---@return AnimationChainPlayer
-function AnimationChainPlayer.new(fields) return end
+function AnimationChainPlayer.new(fields) end
 
----@protected
 ---@param anim? inkanimProxy
 ---@return Bool
-function AnimationChainPlayer:OnNextAnimation(anim) return end
+function AnimationChainPlayer:OnNextAnimation(anim) end
 
----@private
 ---@param animationChain AnimationChain
 ---@return nil
-function AnimationChainPlayer:BeginAnimation(animationChain) return end
+function AnimationChainPlayer:BeginAnimation(animationChain) end
 
----@private
 ---@return nil
-function AnimationChainPlayer:Clean() return end
+function AnimationChainPlayer:Clean() end
 
----@private
 ---@param animOptions inkanimPlaybackOptions
 ---@return inkanimEventType
-function AnimationChainPlayer:GetEndEvent(animOptions) return end
+function AnimationChainPlayer:GetEndEvent(animOptions) end
 
----@private
 ---@return nil
-function AnimationChainPlayer:HandleInteruption() return end
+function AnimationChainPlayer:HandleInteruption() end
 
 ---@param animationChain AnimationChain
 ---@return nil
-function AnimationChainPlayer:Play(animationChain) return end
+function AnimationChainPlayer:Play(animationChain) end
 
----@private
 ---@param stage Int32
 ---@return nil
-function AnimationChainPlayer:PlayAnimationStage(stage) return end
+function AnimationChainPlayer:PlayAnimationStage(stage) end
 
 ---@param animationChain AnimationChain
 ---@return nil
-function AnimationChainPlayer:PlayNow(animationChain) return end
+function AnimationChainPlayer:PlayNow(animationChain) end

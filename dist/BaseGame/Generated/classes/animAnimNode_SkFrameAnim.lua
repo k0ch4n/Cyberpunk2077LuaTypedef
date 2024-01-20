@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animAnimNode_SkFrameAnim: animAnimNode_SkAnim
----@field public progressLink animFloatLink
----@field public timeLink animFloatLink
----@field public frameLink animFloatLink
----@field public fireAnimEndOnceOnAnimEnd Bool
+---@field progressLink animFloatLink
+---@field timeLink animFloatLink
+---@field frameLink animFloatLink
+---@field fireAnimEndOnceOnAnimEnd Bool
 animAnimNode_SkFrameAnim = {}
 
 ---@param fields? animAnimNode_SkFrameAnim
 ---@return animAnimNode_SkFrameAnim
-function animAnimNode_SkFrameAnim.new(fields) return end
+function animAnimNode_SkFrameAnim.new(fields) end

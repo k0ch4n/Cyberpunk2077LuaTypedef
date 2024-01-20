@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class UIInGameNotificationQueue: gameuiGenericNotificationGameController
----@field private duration Float
+---@field duration Float
 UIInGameNotificationQueue = {}
 
 ---@param fields? UIInGameNotificationQueue
 ---@return UIInGameNotificationQueue
-function UIInGameNotificationQueue.new(fields) return end
+function UIInGameNotificationQueue.new(fields) end
 
----@protected
 ---@param evt UIInGameNotificationEvent
 ---@return Bool
-function UIInGameNotificationQueue:OnUINotification(evt) return end
+function UIInGameNotificationQueue:OnUINotification(evt) end
 
----@protected
 ---@param evt UIInGameNotificationRemoveEvent
 ---@return Bool
-function UIInGameNotificationQueue:OnUINotificationRemove(evt) return end
+function UIInGameNotificationQueue:OnUINotificationRemove(evt) end
 
----@private
 ---@return nil
-function UIInGameNotificationQueue:AdjustScreenPosition() return end
+function UIInGameNotificationQueue:AdjustScreenPosition() end
 
 ---@return Bool
-function UIInGameNotificationQueue:GetShouldSaveState() return end
+function UIInGameNotificationQueue:GetShouldSaveState() end

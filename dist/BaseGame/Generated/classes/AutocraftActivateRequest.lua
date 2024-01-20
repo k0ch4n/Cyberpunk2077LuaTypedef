@@ -5,4 +5,4 @@ AutocraftActivateRequest = {}
 
 ---@param fields? AutocraftActivateRequest
 ---@return AutocraftActivateRequest
-function AutocraftActivateRequest.new(fields) return end
+function AutocraftActivateRequest.new(fields) end

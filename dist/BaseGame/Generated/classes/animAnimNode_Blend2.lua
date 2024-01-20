@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animAnimNode_Blend2: animAnimNode_Base
----@field public minInputValue Float
----@field public maxInputValue Float
----@field public timeWarpingEnabled Bool
----@field public syncMethod animISyncMethod
----@field public firstInputNode animPoseLink
----@field public secondInputNode animPoseLink
----@field public weightNode animFloatLink
+---@field minInputValue Float
+---@field maxInputValue Float
+---@field timeWarpingEnabled Bool
+---@field syncMethod animISyncMethod
+---@field firstInputNode animPoseLink
+---@field secondInputNode animPoseLink
+---@field weightNode animFloatLink
 animAnimNode_Blend2 = {}
 
 ---@param fields? animAnimNode_Blend2
 ---@return animAnimNode_Blend2
-function animAnimNode_Blend2.new(fields) return end
+function animAnimNode_Blend2.new(fields) end

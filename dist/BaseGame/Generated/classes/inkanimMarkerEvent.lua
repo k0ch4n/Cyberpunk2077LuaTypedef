@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimMarkerEvent: inkanimEvent
----@field public markerName CName
+---@field markerName CName
 inkanimMarkerEvent = {}
 
 ---@param fields? inkanimMarkerEvent
 ---@return inkanimMarkerEvent
-function inkanimMarkerEvent.new(fields) return end
+function inkanimMarkerEvent.new(fields) end

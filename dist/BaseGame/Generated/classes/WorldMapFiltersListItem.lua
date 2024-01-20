@@ -1,59 +1,55 @@
 ---@meta
 
 ---@class WorldMapFiltersListItem: inkWidgetLogicController
----@field private checker inkWidgetReference
----@field private filterName inkTextWidgetReference
----@field private filterGroup gamedataMappinUIFilterGroup_Record
----@field private rootWidget inkWidget
----@field private isHovered Bool
+---@field checker inkWidgetReference
+---@field filterName inkTextWidgetReference
+---@field filterGroup gamedataMappinUIFilterGroup_Record
+---@field rootWidget inkWidget
+---@field isHovered Bool
 WorldMapFiltersListItem = {}
 
 ---@param fields? WorldMapFiltersListItem
 ---@return WorldMapFiltersListItem
-function WorldMapFiltersListItem.new(fields) return end
+function WorldMapFiltersListItem.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function WorldMapFiltersListItem:OnHoverOutFilter(evt) return end
+function WorldMapFiltersListItem:OnHoverOutFilter(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function WorldMapFiltersListItem:OnHoverOverFilter(evt) return end
+function WorldMapFiltersListItem:OnHoverOverFilter(evt) end
 
----@protected
 ---@return Bool
-function WorldMapFiltersListItem:OnInitialize() return end
+function WorldMapFiltersListItem:OnInitialize() end
 
----@protected
 ---@return Bool
-function WorldMapFiltersListItem:OnUninitialize() return end
+function WorldMapFiltersListItem:OnUninitialize() end
 
 ---@param enable Bool
 ---@return nil
-function WorldMapFiltersListItem:EnableFilter(enable) return end
+function WorldMapFiltersListItem:EnableFilter(enable) end
 
 ---@return gamedataWorldMapFilter
-function WorldMapFiltersListItem:GetFilterType() return end
+function WorldMapFiltersListItem:GetFilterType() end
 
 ---@return Bool
-function WorldMapFiltersListItem:IsFilterEnabled() return end
+function WorldMapFiltersListItem:IsFilterEnabled() end
 
 ---@return Bool
-function WorldMapFiltersListItem:IsFilterHovered() return end
+function WorldMapFiltersListItem:IsFilterHovered() end
 
 ---@param delay Float
 ---@return nil
-function WorldMapFiltersListItem:PlayIntroAnimation(delay) return end
+function WorldMapFiltersListItem:PlayIntroAnimation(delay) end
 
 ---@param filterGroup gamedataMappinUIFilterGroup_Record
 ---@return nil
-function WorldMapFiltersListItem:SetFilterGroup(filterGroup) return end
+function WorldMapFiltersListItem:SetFilterGroup(filterGroup) end
 
 ---@param state CName|string
 ---@return nil
-function WorldMapFiltersListItem:SetFilterState(state) return end
+function WorldMapFiltersListItem:SetFilterState(state) end
 
 ---@return Bool
-function WorldMapFiltersListItem:SwitchFilter() return end
+function WorldMapFiltersListItem:SwitchFilter() end

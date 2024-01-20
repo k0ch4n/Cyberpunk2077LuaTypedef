@@ -5,7 +5,7 @@ SecurityTurretController = {}
 
 ---@param fields? SecurityTurretController
 ---@return SecurityTurretController
-function SecurityTurretController.new(fields) return end
+function SecurityTurretController.new(fields) end
 
 ---@return SecurityTurretControllerPS
-function SecurityTurretController:GetPS() return end
+function SecurityTurretController:GetPS() end

@@ -5,4 +5,4 @@ RefreshPlayerItemSlotsEvent = {}
 
 ---@param fields? RefreshPlayerItemSlotsEvent
 ---@return RefreshPlayerItemSlotsEvent
-function RefreshPlayerItemSlotsEvent.new(fields) return end
+function RefreshPlayerItemSlotsEvent.new(fields) end

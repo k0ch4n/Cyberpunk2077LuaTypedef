@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class ScannerAbilityItemLogicController: inkWidgetLogicController
----@field private abilityNameText inkTextWidgetReference
----@field private abilityIcon inkImageWidgetReference
+---@field abilityNameText inkTextWidgetReference
+---@field abilityIcon inkImageWidgetReference
 ScannerAbilityItemLogicController = {}
 
 ---@param fields? ScannerAbilityItemLogicController
 ---@return ScannerAbilityItemLogicController
-function ScannerAbilityItemLogicController.new(fields) return end
+function ScannerAbilityItemLogicController.new(fields) end
 
 ---@param ability IScriptable
 ---@return nil
-function ScannerAbilityItemLogicController:Setup(ability) return end
+function ScannerAbilityItemLogicController:Setup(ability) end

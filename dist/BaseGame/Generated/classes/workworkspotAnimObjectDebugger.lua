@@ -5,4 +5,4 @@ workworkspotAnimObjectDebugger = {}
 
 ---@param fields? workworkspotAnimObjectDebugger
 ---@return workworkspotAnimObjectDebugger
-function workworkspotAnimObjectDebugger.new(fields) return end
+function workworkspotAnimObjectDebugger.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnAnimationRidAudioData: ISerializable
----@field public events animAnimEvent[]
+---@field events animAnimEvent[]
 scnAnimationRidAudioData = {}
 
 ---@param fields? scnAnimationRidAudioData
 ---@return scnAnimationRidAudioData
-function scnAnimationRidAudioData.new(fields) return end
+function scnAnimationRidAudioData.new(fields) end

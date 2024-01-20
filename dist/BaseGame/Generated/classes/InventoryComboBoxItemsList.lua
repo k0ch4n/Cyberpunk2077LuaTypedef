@@ -5,4 +5,4 @@ InventoryComboBoxItemsList = {}
 
 ---@param fields? InventoryComboBoxItemsList
 ---@return InventoryComboBoxItemsList
-function InventoryComboBoxItemsList.new(fields) return end
+function InventoryComboBoxItemsList.new(fields) end

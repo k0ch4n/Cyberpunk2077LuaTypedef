@@ -5,4 +5,4 @@ AICTreeNodeNameSharedVarDecoratorDefinition = {}
 
 ---@param fields? AICTreeNodeNameSharedVarDecoratorDefinition
 ---@return AICTreeNodeNameSharedVarDecoratorDefinition
-function AICTreeNodeNameSharedVarDecoratorDefinition.new(fields) return end
+function AICTreeNodeNameSharedVarDecoratorDefinition.new(fields) end

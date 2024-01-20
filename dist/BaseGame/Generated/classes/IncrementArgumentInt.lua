@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class IncrementArgumentInt: AIbehaviortaskScript
----@field public argumentIntName CName
+---@field argumentIntName CName
 IncrementArgumentInt = {}
 
 ---@param fields? IncrementArgumentInt
 ---@return IncrementArgumentInt
-function IncrementArgumentInt.new(fields) return end
+function IncrementArgumentInt.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IncrementArgumentInt:Activate(context) return end
+function IncrementArgumentInt:Activate(context) end

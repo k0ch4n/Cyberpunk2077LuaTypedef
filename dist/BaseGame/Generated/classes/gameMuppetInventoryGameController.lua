@@ -5,4 +5,4 @@ gameMuppetInventoryGameController = {}
 
 ---@param fields? gameMuppetInventoryGameController
 ---@return gameMuppetInventoryGameController
-function gameMuppetInventoryGameController.new(fields) return end
+function gameMuppetInventoryGameController.new(fields) end

@@ -5,31 +5,26 @@ gameIScriptablePrereq = {}
 
 ---@param fields? gameIScriptablePrereq
 ---@return gameIScriptablePrereq
-function gameIScriptablePrereq.new(fields) return end
+function gameIScriptablePrereq.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return nil
-function gameIScriptablePrereq:Initialize(record) return end
+function gameIScriptablePrereq:Initialize(record) end
 
----@protected
 ---@return Bool
-function gameIScriptablePrereq:IsOnRegisterSupported() return end
+function gameIScriptablePrereq:IsOnRegisterSupported() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function gameIScriptablePrereq:OnApplied(state, context) return end
+function gameIScriptablePrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function gameIScriptablePrereq:OnRegister(state, context) return end
+function gameIScriptablePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function gameIScriptablePrereq:OnUnregister(state, context) return end
+function gameIScriptablePrereq:OnUnregister(state, context) end

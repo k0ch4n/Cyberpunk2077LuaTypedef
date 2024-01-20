@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorMappingConditionDefinition: AIbehaviorConditionDefinition
----@field public value AIArgumentMapping
+---@field value AIArgumentMapping
 AIbehaviorMappingConditionDefinition = {}
 
 ---@param fields? AIbehaviorMappingConditionDefinition
 ---@return AIbehaviorMappingConditionDefinition
-function AIbehaviorMappingConditionDefinition.new(fields) return end
+function AIbehaviorMappingConditionDefinition.new(fields) end

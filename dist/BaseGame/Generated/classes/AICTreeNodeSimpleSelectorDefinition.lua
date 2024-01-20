@@ -5,4 +5,4 @@ AICTreeNodeSimpleSelectorDefinition = {}
 
 ---@param fields? AICTreeNodeSimpleSelectorDefinition
 ---@return AICTreeNodeSimpleSelectorDefinition
-function AICTreeNodeSimpleSelectorDefinition.new(fields) return end
+function AICTreeNodeSimpleSelectorDefinition.new(fields) end

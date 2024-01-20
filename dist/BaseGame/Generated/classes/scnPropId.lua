@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnPropId
----@field public id Uint32
+---@field id Uint32
 scnPropId = {}
 
 ---@param fields? scnPropId
 ---@return scnPropId
-function scnPropId.new(fields) return end
+function scnPropId.new(fields) end

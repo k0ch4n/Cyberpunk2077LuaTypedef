@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class QuestSecuritySystemInput: redEvent
----@field public notificationScope SecurityEventScopeSettings
----@field public notifySpecificNPCs NPCReference[]
----@field public revealPlayerSettings RevealPlayerSettings
+---@field notificationScope SecurityEventScopeSettings
+---@field notifySpecificNPCs NPCReference[]
+---@field revealPlayerSettings RevealPlayerSettings
 QuestSecuritySystemInput = {}

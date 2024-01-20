@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SendScoreRequest: gameScriptableSystemRequest
----@field public score Int32
----@field public gameName String
+---@field score Int32
+---@field gameName String
 SendScoreRequest = {}
 
 ---@param fields? SendScoreRequest
 ---@return SendScoreRequest
-function SendScoreRequest.new(fields) return end
+function SendScoreRequest.new(fields) end

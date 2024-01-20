@@ -5,31 +5,31 @@ gamedataAISubActionSetWorldPosition_Record = {}
 
 ---@param fields? gamedataAISubActionSetWorldPosition_Record
 ---@return gamedataAISubActionSetWorldPosition_Record
-function gamedataAISubActionSetWorldPosition_Record.new(fields) return end
+function gamedataAISubActionSetWorldPosition_Record.new(fields) end
 
 ---@return Bool
-function gamedataAISubActionSetWorldPosition_Record:CheckForNavmesh() return end
+function gamedataAISubActionSetWorldPosition_Record:CheckForNavmesh() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetWorldPosition_Record:CustomPositionTarget() return end
+function gamedataAISubActionSetWorldPosition_Record:CustomPositionTarget() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetWorldPosition_Record:CustomPositionTargetHandle() return end
+function gamedataAISubActionSetWorldPosition_Record:CustomPositionTargetHandle() end
 
 ---@return Vector3
-function gamedataAISubActionSetWorldPosition_Record:MaxOffsetFromTarget() return end
+function gamedataAISubActionSetWorldPosition_Record:MaxOffsetFromTarget() end
 
 ---@return Vector3
-function gamedataAISubActionSetWorldPosition_Record:MinOffsetFromTarget() return end
+function gamedataAISubActionSetWorldPosition_Record:MinOffsetFromTarget() end
 
 ---@return Bool
-function gamedataAISubActionSetWorldPosition_Record:RandomizePoint() return end
+function gamedataAISubActionSetWorldPosition_Record:RandomizePoint() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetWorldPosition_Record:ReferenceTarget() return end
+function gamedataAISubActionSetWorldPosition_Record:ReferenceTarget() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetWorldPosition_Record:ReferenceTargetHandle() return end
+function gamedataAISubActionSetWorldPosition_Record:ReferenceTargetHandle() end
 
 ---@return Bool
-function gamedataAISubActionSetWorldPosition_Record:UseLocalSpace() return end
+function gamedataAISubActionSetWorldPosition_Record:UseLocalSpace() end

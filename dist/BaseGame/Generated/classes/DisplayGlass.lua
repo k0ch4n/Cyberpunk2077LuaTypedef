@@ -1,86 +1,71 @@
 ---@meta
 
 ---@class DisplayGlass: InteractiveDevice
----@field protected collider entIPlacedComponent
----@field protected mesh entIPlacedComponent
----@field protected isDestroyed Bool
+---@field collider entIPlacedComponent
+---@field mesh entIPlacedComponent
+---@field isDestroyed Bool
 DisplayGlass = {}
 
 ---@param fields? DisplayGlass
 ---@return DisplayGlass
-function DisplayGlass.new(fields) return end
+function DisplayGlass.new(fields) end
 
----@protected
 ---@return Bool
-function DisplayGlass:OnDetach() return end
+function DisplayGlass:OnDetach() end
 
----@protected
 ---@param evt GameAttachedEvent
 ---@return Bool
-function DisplayGlass:OnPersitentStateInitialized(evt) return end
+function DisplayGlass:OnPersitentStateInitialized(evt) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function DisplayGlass:OnPhysicalDestructionEvent(evt) return end
+function DisplayGlass:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param evt QuestForceClearGlass
 ---@return Bool
-function DisplayGlass:OnQuestForceClearGlass(evt) return end
+function DisplayGlass:OnQuestForceClearGlass(evt) end
 
----@protected
 ---@param evt QuestForceTintGlass
 ---@return Bool
-function DisplayGlass:OnQuestForceTintGlass(evt) return end
+function DisplayGlass:OnQuestForceTintGlass(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DisplayGlass:OnRequestComponents(ri) return end
+function DisplayGlass:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DisplayGlass:OnTakeControl(ri) return end
+function DisplayGlass:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleGlassTint
 ---@return Bool
-function DisplayGlass:OnToggleGlassTint(evt) return end
+function DisplayGlass:OnToggleGlassTint(evt) end
 
----@protected
 ---@param evt ToggleGlassTintHack
 ---@return Bool
-function DisplayGlass:OnToggleGlassTintHack(evt) return end
+function DisplayGlass:OnToggleGlassTintHack(evt) end
 
----@protected
 ---@return nil
-function DisplayGlass:CutPower() return end
+function DisplayGlass:CutPower() end
 
 ---@return EGameplayRole
-function DisplayGlass:DeterminGameplayRole() return end
+function DisplayGlass:DeterminGameplayRole() end
 
----@protected
 ---@return DisplayGlassController
-function DisplayGlass:GetController() return end
+function DisplayGlass:GetController() end
 
 ---@return DisplayGlassControllerPS
-function DisplayGlass:GetDevicePS() return end
+function DisplayGlass:GetDevicePS() end
 
----@private
 ---@param on Bool
 ---@return nil
-function DisplayGlass:ToggleTintGlass(on) return end
+function DisplayGlass:ToggleTintGlass(on) end
 
----@protected
 ---@return nil
-function DisplayGlass:TurnOffDevice() return end
+function DisplayGlass:TurnOffDevice() end
 
----@protected
 ---@return nil
-function DisplayGlass:TurnOnDevice() return end
+function DisplayGlass:TurnOnDevice() end
 
----@protected
 ---@return nil
-function DisplayGlass:UpdateGlassState() return end
+function DisplayGlass:UpdateGlassState() end

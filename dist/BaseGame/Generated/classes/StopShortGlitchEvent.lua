@@ -5,4 +5,4 @@ StopShortGlitchEvent = {}
 
 ---@param fields? StopShortGlitchEvent
 ---@return StopShortGlitchEvent
-function StopShortGlitchEvent.new(fields) return end
+function StopShortGlitchEvent.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ComputerDeviceBlackboardDef: MasterDeviceBaseBlackboardDef
----@field public MailThumbnailWidgetsData gamebbScriptID_Variant
----@field public FileThumbnailWidgetsData gamebbScriptID_Variant
----@field public MailWidgetsData gamebbScriptID_Variant
----@field public FileWidgetsData gamebbScriptID_Variant
----@field public MenuButtonWidgetsData gamebbScriptID_Variant
----@field public MainMenuButtonWidgetsData gamebbScriptID_Variant
----@field public BannerWidgetsData gamebbScriptID_Variant
+---@field MailThumbnailWidgetsData gamebbScriptID_Variant
+---@field FileThumbnailWidgetsData gamebbScriptID_Variant
+---@field MailWidgetsData gamebbScriptID_Variant
+---@field FileWidgetsData gamebbScriptID_Variant
+---@field MenuButtonWidgetsData gamebbScriptID_Variant
+---@field MainMenuButtonWidgetsData gamebbScriptID_Variant
+---@field BannerWidgetsData gamebbScriptID_Variant
 ComputerDeviceBlackboardDef = {}
 
 ---@param fields? ComputerDeviceBlackboardDef
 ---@return ComputerDeviceBlackboardDef
-function ComputerDeviceBlackboardDef.new(fields) return end
+function ComputerDeviceBlackboardDef.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TurretRipOffEvents: TurretTransition
----@field public stateMachineInitData TurretInitData
+---@field stateMachineInitData TurretInitData
 TurretRipOffEvents = {}
 
 ---@param fields? TurretRipOffEvents
 ---@return TurretRipOffEvents
-function TurretRipOffEvents.new(fields) return end
+function TurretRipOffEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TurretRipOffEvents:OnEnter(stateContext, scriptInterface) return end
+function TurretRipOffEvents:OnEnter(stateContext, scriptInterface) end

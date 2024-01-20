@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkLayerSystemConnection
----@field public layerName CName
----@field public system inkILayerSystemData
+---@field layerName CName
+---@field system inkILayerSystemData
 inkLayerSystemConnection = {}
 
 ---@param fields? inkLayerSystemConnection
 ---@return inkLayerSystemConnection
-function inkLayerSystemConnection.new(fields) return end
+function inkLayerSystemConnection.new(fields) end

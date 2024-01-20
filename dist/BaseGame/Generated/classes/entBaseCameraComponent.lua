@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class entBaseCameraComponent: entIPlacedComponent
----@field public fov Float
----@field public zoom Float
----@field public nearPlaneOverride Float
----@field public farPlaneOverride Float
----@field public motionBlurScale Float
+---@field fov Float
+---@field zoom Float
+---@field nearPlaneOverride Float
+---@field farPlaneOverride Float
+---@field motionBlurScale Float
 entBaseCameraComponent = {}
 
 ---@param fields? entBaseCameraComponent
 ---@return entBaseCameraComponent
-function entBaseCameraComponent.new(fields) return end
+function entBaseCameraComponent.new(fields) end

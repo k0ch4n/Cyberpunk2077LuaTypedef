@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class inkSystem: gameIGameSystem
----@field public clipboard String
+---@field clipboard String
 inkSystem = {}
 
 ---@param fields? inkSystem
 ---@return inkSystem
-function inkSystem.new(fields) return end
+function inkSystem.new(fields) end
 
 ---@param layer CName|string
 ---@return inkLayerWrapper
-function inkSystem:GetLayer(layer) return end
+function inkSystem:GetLayer(layer) end
 
 ---@return inkLayerWrapper[]
-function inkSystem:GetLayers() return end
+function inkSystem:GetLayers() end
 
 ---@return String
-function inkSystem:GetClipboard() return end
+function inkSystem:GetClipboard() end
 
 ---@param data String
 ---@return nil
-function inkSystem:SetClipboard(data) return end
+function inkSystem:SetClipboard(data) end

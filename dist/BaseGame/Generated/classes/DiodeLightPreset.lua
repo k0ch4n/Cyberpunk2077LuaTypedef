@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class DiodeLightPreset
----@field public state Bool
----@field public colorMax Int32[]
----@field public colorMin Int32[]
----@field public overrideColorMin Bool
----@field public strength Float
----@field public curve CName
----@field public time Float
----@field public loop Bool
----@field public duration Float
----@field public force Bool
+---@field state Bool
+---@field colorMax Int32[]
+---@field colorMin Int32[]
+---@field overrideColorMin Bool
+---@field strength Float
+---@field curve CName
+---@field time Float
+---@field loop Bool
+---@field duration Float
+---@field force Bool
 DiodeLightPreset = {}
 
 ---@param fields? DiodeLightPreset
 ---@return DiodeLightPreset
-function DiodeLightPreset.new(fields) return end
+function DiodeLightPreset.new(fields) end

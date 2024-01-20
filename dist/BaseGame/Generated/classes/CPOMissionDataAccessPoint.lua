@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class CPOMissionDataAccessPoint: CPOMissionDevice
----@field protected hasDataToDownload Bool
----@field protected damagesPresetName CName
----@field protected factsOnDownload SFactToChange[]
----@field protected factsOnUpload SFactToChange[]
----@field protected ownerDecidesOnTransfer Bool
+---@field hasDataToDownload Bool
+---@field damagesPresetName CName
+---@field factsOnDownload SFactToChange[]
+---@field factsOnUpload SFactToChange[]
+---@field ownerDecidesOnTransfer Bool
 CPOMissionDataAccessPoint = {}
 
 ---@param fields? CPOMissionDataAccessPoint
 ---@return CPOMissionDataAccessPoint
-function CPOMissionDataAccessPoint.new(fields) return end
+function CPOMissionDataAccessPoint.new(fields) end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function CPOMissionDataAccessPoint:OnInteraction(choiceEvent) return end
+function CPOMissionDataAccessPoint:OnInteraction(choiceEvent) end
 
 ---@return Bool
-function CPOMissionDataAccessPoint:HasDataToDownload() return end
+function CPOMissionDataAccessPoint:HasDataToDownload() end
 
----@protected
 ---@param presetName CName|string
 ---@return Bool
-function CPOMissionDataAccessPoint:IsDamagePresetValid(presetName) return end
+function CPOMissionDataAccessPoint:IsDamagePresetValid(presetName) end

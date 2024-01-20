@@ -1,61 +1,60 @@
 ---@meta
 
 ---@class AreaEffectData: IScriptable
----@field public action ScriptableDeviceAction
----@field public actionRecordID TweakDBID
----@field public areaEffectID CName
----@field public indicatorEffectName CName
----@field public useIndicatorEffect Bool
----@field public indicatorEffectSize Float
----@field public stimRange Float
----@field public stimLifetime Float
----@field public stimType DeviceStimType
----@field public stimSource NodeRef
----@field public additionaStimSources NodeRef[]
----@field public investigateSpot NodeRef
----@field public investigateController Bool
----@field public controllerSource NodeRef
----@field public highlightTargets Bool
----@field public highlightType EFocusForcedHighlightType
----@field public outlineType EFocusOutlineType
----@field public highlightPriority EPriority
----@field public effectInstance gameEffectInstance
----@field public gameEffectOverrideName CName
+---@field action ScriptableDeviceAction
+---@field actionRecordID TweakDBID
+---@field areaEffectID CName
+---@field indicatorEffectName CName
+---@field useIndicatorEffect Bool
+---@field indicatorEffectSize Float
+---@field stimRange Float
+---@field stimLifetime Float
+---@field stimType DeviceStimType
+---@field stimSource NodeRef
+---@field additionaStimSources NodeRef[]
+---@field investigateSpot NodeRef
+---@field investigateController Bool
+---@field controllerSource NodeRef
+---@field highlightTargets Bool
+---@field highlightType EFocusForcedHighlightType
+---@field outlineType EFocusOutlineType
+---@field highlightPriority EPriority
+---@field effectInstance gameEffectInstance
+---@field gameEffectOverrideName CName
 AreaEffectData = {}
 
 ---@param fields? AreaEffectData
 ---@return AreaEffectData
-function AreaEffectData.new(fields) return end
+function AreaEffectData.new(fields) end
 
 ---@param areaEffectDataToCopy AreaEffectData
 ---@return nil
-function AreaEffectData:CopyData(areaEffectDataToCopy) return end
+function AreaEffectData:CopyData(areaEffectDataToCopy) end
 
 ---@param sAreaEffectDataToCopy SAreaEffectData
 ---@return nil
-function AreaEffectData:CopyData(sAreaEffectDataToCopy) return end
+function AreaEffectData:CopyData(sAreaEffectDataToCopy) end
 
 ---@return nil
-function AreaEffectData:EffectInstanceClear() return end
+function AreaEffectData:EffectInstanceClear() end
 
----@private
 ---@param record gamedataObjectAction_Record
 ---@return CName
-function AreaEffectData:GetActionNameFromRecord(record) return end
+function AreaEffectData:GetActionNameFromRecord(record) end
 
 ---@return CName
-function AreaEffectData:GetActionNameFromRecord() return end
+function AreaEffectData:GetActionNameFromRecord() end
 
 ---@return gamedataObjectAction_Record
-function AreaEffectData:GetActionRecord() return end
+function AreaEffectData:GetActionRecord() end
 
 ---@return SAreaEffectData
-function AreaEffectData:GetData() return end
+function AreaEffectData:GetData() end
 
 ---@param _action BaseScriptableAction
 ---@return Bool
-function AreaEffectData:IsMatching(_action) return end
+function AreaEffectData:IsMatching(_action) end
 
 ---@param effect gameEffectInstance
 ---@return nil
-function AreaEffectData:SetEffectInstance(effect) return end
+function AreaEffectData:SetEffectInstance(effect) end

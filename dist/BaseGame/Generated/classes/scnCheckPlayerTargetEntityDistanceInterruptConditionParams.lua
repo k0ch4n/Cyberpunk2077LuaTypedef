@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnCheckPlayerTargetEntityDistanceInterruptConditionParams
----@field public distance Float
----@field public comparisonType EComparisonType
----@field public targetEntity gameEntityReference
+---@field distance Float
+---@field comparisonType EComparisonType
+---@field targetEntity gameEntityReference
 scnCheckPlayerTargetEntityDistanceInterruptConditionParams = {}
 
 ---@param fields? scnCheckPlayerTargetEntityDistanceInterruptConditionParams
 ---@return scnCheckPlayerTargetEntityDistanceInterruptConditionParams
-function scnCheckPlayerTargetEntityDistanceInterruptConditionParams.new(fields) return end
+function scnCheckPlayerTargetEntityDistanceInterruptConditionParams.new(fields) end

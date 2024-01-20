@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questJournalEntry_ConditionType: questIJournalConditionType
----@field public path gameJournalPath
----@field public state gameJournalEntryUserState
+---@field path gameJournalPath
+---@field state gameJournalEntryUserState
 questJournalEntry_ConditionType = {}
 
 ---@param fields? questJournalEntry_ConditionType
 ---@return questJournalEntry_ConditionType
-function questJournalEntry_ConditionType.new(fields) return end
+function questJournalEntry_ConditionType.new(fields) end

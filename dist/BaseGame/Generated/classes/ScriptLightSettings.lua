@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ScriptLightSettings
----@field public strength Float
----@field public color Color
+---@field strength Float
+---@field color Color
 ScriptLightSettings = {}
 
 ---@param fields? ScriptLightSettings
 ---@return ScriptLightSettings
-function ScriptLightSettings.new(fields) return end
+function ScriptLightSettings.new(fields) end

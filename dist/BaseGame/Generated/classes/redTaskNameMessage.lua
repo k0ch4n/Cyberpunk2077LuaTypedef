@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class redTaskNameMessage
----@field public id Uint32
----@field public parent Uint32
----@field public title String
----@field public uniqueName CName
+---@field id Uint32
+---@field parent Uint32
+---@field title String
+---@field uniqueName CName
 redTaskNameMessage = {}
 
 ---@param fields? redTaskNameMessage
 ---@return redTaskNameMessage
-function redTaskNameMessage.new(fields) return end
+function redTaskNameMessage.new(fields) end

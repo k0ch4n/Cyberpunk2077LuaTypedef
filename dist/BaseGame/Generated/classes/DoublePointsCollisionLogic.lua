@@ -5,9 +5,8 @@ DoublePointsCollisionLogic = {}
 
 ---@param fields? DoublePointsCollisionLogic
 ---@return DoublePointsCollisionLogic
-function DoublePointsCollisionLogic.new(fields) return end
+function DoublePointsCollisionLogic.new(fields) end
 
----@protected
 ---@param gameState gameuiRoachRaceGameState
 ---@return nil
-function DoublePointsCollisionLogic:ChangeGameState(gameState) return end
+function DoublePointsCollisionLogic:ChangeGameState(gameState) end

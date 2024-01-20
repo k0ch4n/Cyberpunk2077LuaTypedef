@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class HasNetworkPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 HasNetworkPrereq = {}
 
 ---@param fields? HasNetworkPrereq
 ---@return HasNetworkPrereq
-function HasNetworkPrereq.new(fields) return end
+function HasNetworkPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HasNetworkPrereq:Initialize(recordID) return end
+function HasNetworkPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function HasNetworkPrereq:IsFulfilled(context) return end
+function HasNetworkPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function HasNetworkPrereq:OnRegister(state, context) return end
+function HasNetworkPrereq:OnRegister(state, context) end

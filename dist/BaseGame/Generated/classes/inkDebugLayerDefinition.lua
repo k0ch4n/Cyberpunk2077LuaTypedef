@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkDebugLayerDefinition: inkLayerDefinition
----@field public entries inkDebugLayerEntry[]
+---@field entries inkDebugLayerEntry[]
 inkDebugLayerDefinition = {}
 
 ---@param fields? inkDebugLayerDefinition
 ---@return inkDebugLayerDefinition
-function inkDebugLayerDefinition.new(fields) return end
+function inkDebugLayerDefinition.new(fields) end

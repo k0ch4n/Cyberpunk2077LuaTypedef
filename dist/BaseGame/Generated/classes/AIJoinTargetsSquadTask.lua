@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class AIJoinTargetsSquadTask: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AIJoinTargetsSquadTask = {}
 
 ---@param fields? AIJoinTargetsSquadTask
 ---@return AIJoinTargetsSquadTask
-function AIJoinTargetsSquadTask.new(fields) return end
+function AIJoinTargetsSquadTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param typedCommand AIJoinTargetsSquad
 ---@return nil
-function AIJoinTargetsSquadTask:CancelCommand(context, typedCommand) return end
+function AIJoinTargetsSquadTask:CancelCommand(context, typedCommand) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIJoinTargetsSquadTask:Update(context) return end
+function AIJoinTargetsSquadTask:Update(context) end

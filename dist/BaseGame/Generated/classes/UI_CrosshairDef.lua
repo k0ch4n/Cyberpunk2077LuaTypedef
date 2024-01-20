@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class UI_CrosshairDef: gamebbScriptDefinition
----@field public EnemyNeutralized gamebbScriptID_Variant
+---@field EnemyNeutralized gamebbScriptID_Variant
 UI_CrosshairDef = {}
 
 ---@param fields? UI_CrosshairDef
 ---@return UI_CrosshairDef
-function UI_CrosshairDef.new(fields) return end
+function UI_CrosshairDef.new(fields) end
 
 ---@return Bool
-function UI_CrosshairDef:AutoCreateInSystem() return end
+function UI_CrosshairDef:AutoCreateInSystem() end

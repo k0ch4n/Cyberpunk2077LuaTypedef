@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questParamKeepDistance: ISerializable
----@field public companionTargetRef questUniversalRef
----@field public distance Float
+---@field companionTargetRef questUniversalRef
+---@field distance Float
 questParamKeepDistance = {}
 
 ---@param fields? questParamKeepDistance
 ---@return questParamKeepDistance
-function questParamKeepDistance.new(fields) return end
+function questParamKeepDistance.new(fields) end

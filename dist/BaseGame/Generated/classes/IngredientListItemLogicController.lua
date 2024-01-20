@@ -1,49 +1,46 @@
 ---@meta
 
 ---@class IngredientListItemLogicController: inkButtonController
----@field private itemName inkTextWidgetReference
----@field private inventoryQuantity inkTextWidgetReference
----@field private ingredientQuantity inkTextWidgetReference
----@field private availability inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private emptyIcon inkImageWidgetReference
----@field private availableBgElements inkWidgetReference[]
----@field private unavailableBgElements inkWidgetReference[]
----@field private buyButton inkWidgetReference
----@field private countWrapper inkWidgetReference
----@field private itemRarity inkWidgetReference
----@field private data IngredientData
----@field private root inkWidget
----@field private TooltipsManager gameuiTooltipsManager
----@field private itemAmount Int32
+---@field itemName inkTextWidgetReference
+---@field inventoryQuantity inkTextWidgetReference
+---@field ingredientQuantity inkTextWidgetReference
+---@field availability inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field emptyIcon inkImageWidgetReference
+---@field availableBgElements inkWidgetReference[]
+---@field unavailableBgElements inkWidgetReference[]
+---@field buyButton inkWidgetReference
+---@field countWrapper inkWidgetReference
+---@field itemRarity inkWidgetReference
+---@field data IngredientData
+---@field root inkWidget
+---@field TooltipsManager gameuiTooltipsManager
+---@field itemAmount Int32
 IngredientListItemLogicController = {}
 
 ---@param fields? IngredientListItemLogicController
 ---@return IngredientListItemLogicController
-function IngredientListItemLogicController.new(fields) return end
+function IngredientListItemLogicController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function IngredientListItemLogicController:OnDisplayHoverOut(evt) return end
+function IngredientListItemLogicController:OnDisplayHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function IngredientListItemLogicController:OnDisplayHoverOver(evt) return end
+function IngredientListItemLogicController:OnDisplayHoverOver(evt) end
 
----@protected
 ---@return Bool
-function IngredientListItemLogicController:OnInitialize() return end
+function IngredientListItemLogicController:OnInitialize() end
 
 ---@return IngredientData
-function IngredientListItemLogicController:GetData() return end
+function IngredientListItemLogicController:GetData() end
 
 ---@return nil
-function IngredientListItemLogicController:SetUnusedState() return end
+function IngredientListItemLogicController:SetUnusedState() end
 
 ---@param data IngredientData
 ---@param tooltipsManager gameuiTooltipsManager
 ---@param itemAmount Int32
 ---@return nil
-function IngredientListItemLogicController:SetupData(data, tooltipsManager, itemAmount) return end
+function IngredientListItemLogicController:SetupData(data, tooltipsManager, itemAmount) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class enteventsPhysicalImpulseEvent: redEvent
----@field public bodyIndex Uint32
----@field public worldImpulse Vector3
----@field public worldPosition Vector3
----@field public radius Float
----@field public shapeIndex Uint32
+---@field bodyIndex Uint32
+---@field worldImpulse Vector3
+---@field worldPosition Vector3
+---@field radius Float
+---@field shapeIndex Uint32
 enteventsPhysicalImpulseEvent = {}
 
 ---@param fields? enteventsPhysicalImpulseEvent
 ---@return enteventsPhysicalImpulseEvent
-function enteventsPhysicalImpulseEvent.new(fields) return end
+function enteventsPhysicalImpulseEvent.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameEntityToAppearancesAndColorVariantsMapEntry: ISerializable
----@field public entityPathHash Uint64
----@field public debugEntityPath String
----@field public appearancesAndTheirColorVariants gameEntityAppearanceColorVariantsArray[]
+---@field entityPathHash Uint64
+---@field debugEntityPath String
+---@field appearancesAndTheirColorVariants gameEntityAppearanceColorVariantsArray[]
 gameEntityToAppearancesAndColorVariantsMapEntry = {}
 
 ---@param fields? gameEntityToAppearancesAndColorVariantsMapEntry
 ---@return gameEntityToAppearancesAndColorVariantsMapEntry
-function gameEntityToAppearancesAndColorVariantsMapEntry.new(fields) return end
+function gameEntityToAppearancesAndColorVariantsMapEntry.new(fields) end

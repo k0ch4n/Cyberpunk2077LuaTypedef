@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ItemCraftingData: IScriptable
----@field public inventoryItem gameInventoryItemData
----@field public isUpgradable Bool
----@field public isNew Bool
----@field public isSelected Bool
+---@field inventoryItem gameInventoryItemData
+---@field isUpgradable Bool
+---@field isNew Bool
+---@field isSelected Bool
 ItemCraftingData = {}
 
 ---@param fields? ItemCraftingData
 ---@return ItemCraftingData
-function ItemCraftingData.new(fields) return end
+function ItemCraftingData.new(fields) end

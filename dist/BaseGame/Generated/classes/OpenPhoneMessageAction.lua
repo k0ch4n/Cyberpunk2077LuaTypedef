@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class OpenPhoneMessageAction: GenericNotificationBaseAction
----@field public phoneSystem PhoneSystem
----@field public journalEntry gameJournalEntry
+---@field phoneSystem PhoneSystem
+---@field journalEntry gameJournalEntry
 OpenPhoneMessageAction = {}
 
 ---@param fields? OpenPhoneMessageAction
 ---@return OpenPhoneMessageAction
-function OpenPhoneMessageAction.new(fields) return end
+function OpenPhoneMessageAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function OpenPhoneMessageAction:Execute(data) return end
+function OpenPhoneMessageAction:Execute(data) end
 
 ---@return String
-function OpenPhoneMessageAction:GetLabel() return end
+function OpenPhoneMessageAction:GetLabel() end

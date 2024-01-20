@@ -5,8 +5,7 @@ TankTurret = {}
 
 ---@param fields? TankTurret
 ---@return TankTurret
-function TankTurret.new(fields) return end
+function TankTurret.new(fields) end
 
----@protected
 ---@return Bool
-function TankTurret:OnWeakspotInitialized() return end
+function TankTurret:OnWeakspotInitialized() end

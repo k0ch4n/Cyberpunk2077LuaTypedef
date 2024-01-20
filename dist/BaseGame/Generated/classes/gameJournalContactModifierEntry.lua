@@ -5,4 +5,4 @@ gameJournalContactModifierEntry = {}
 
 ---@param fields? gameJournalContactModifierEntry
 ---@return gameJournalContactModifierEntry
-function gameJournalContactModifierEntry.new(fields) return end
+function gameJournalContactModifierEntry.new(fields) end

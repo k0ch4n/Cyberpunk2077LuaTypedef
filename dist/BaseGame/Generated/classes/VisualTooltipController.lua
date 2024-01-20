@@ -5,18 +5,15 @@ VisualTooltipController = {}
 
 ---@param fields? VisualTooltipController
 ---@return VisualTooltipController
-function VisualTooltipController.new(fields) return end
+function VisualTooltipController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function VisualTooltipController:OnTransmogModuleSpawned(widget, userData) return end
+function VisualTooltipController:OnTransmogModuleSpawned(widget, userData) end
 
----@protected
 ---@return nil
-function VisualTooltipController:UpdateLayout() return end
+function VisualTooltipController:UpdateLayout() end
 
----@protected
 ---@return nil
-function VisualTooltipController:UpdateTransmogModule() return end
+function VisualTooltipController:UpdateTransmogModule() end

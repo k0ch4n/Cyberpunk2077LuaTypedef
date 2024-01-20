@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnSectionNode: scnSceneGraphNode
----@field public events scnSceneEvent[]
----@field public sectionDuration scnSceneTime
----@field public actorBehaviors scnSectionInternalsActorBehavior[]
----@field public isFocusClue Bool
+---@field events scnSceneEvent[]
+---@field sectionDuration scnSceneTime
+---@field actorBehaviors scnSectionInternalsActorBehavior[]
+---@field isFocusClue Bool
 scnSectionNode = {}
 
 ---@param fields? scnSectionNode
 ---@return scnSectionNode
-function scnSectionNode.new(fields) return end
+function scnSectionNode.new(fields) end

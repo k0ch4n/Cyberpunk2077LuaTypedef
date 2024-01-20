@@ -5,11 +5,11 @@ inkCircleWidget = {}
 
 ---@param fields? inkCircleWidget
 ---@return inkCircleWidget
-function inkCircleWidget.new(fields) return end
+function inkCircleWidget.new(fields) end
 
 ---@return Uint32
-function inkCircleWidget:GetSegmentsNumber() return end
+function inkCircleWidget:GetSegmentsNumber() end
 
 ---@param segmentsNumber Uint32
 ---@return nil
-function inkCircleWidget:SetSegmentsNumber(segmentsNumber) return end
+function inkCircleWidget:SetSegmentsNumber(segmentsNumber) end

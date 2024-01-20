@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GrenadePotentialHomingTarget
----@field public entity ScriptedPuppet
----@field public targetSlot CName
+---@field entity ScriptedPuppet
+---@field targetSlot CName
 GrenadePotentialHomingTarget = {}
 
 ---@param fields? GrenadePotentialHomingTarget
 ---@return GrenadePotentialHomingTarget
-function GrenadePotentialHomingTarget.new(fields) return end
+function GrenadePotentialHomingTarget.new(fields) end

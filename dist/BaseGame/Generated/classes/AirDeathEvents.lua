@@ -5,4 +5,4 @@ AirDeathEvents = {}
 
 ---@param fields? AirDeathEvents
 ---@return AirDeathEvents
-function AirDeathEvents.new(fields) return end
+function AirDeathEvents.new(fields) end

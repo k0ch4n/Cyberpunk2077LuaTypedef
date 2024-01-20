@@ -5,28 +5,28 @@ gamedataAimAssistSettings_Record = {}
 
 ---@param fields? gamedataAimAssistSettings_Record
 ---@return gamedataAimAssistSettings_Record
-function gamedataAimAssistSettings_Record.new(fields) return end
+function gamedataAimAssistSettings_Record.new(fields) end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:Heavy() return end
+function gamedataAimAssistSettings_Record:Heavy() end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:HeavyHandle() return end
+function gamedataAimAssistSettings_Record:HeavyHandle() end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:Light() return end
+function gamedataAimAssistSettings_Record:Light() end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:LightHandle() return end
+function gamedataAimAssistSettings_Record:LightHandle() end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:Off() return end
+function gamedataAimAssistSettings_Record:Off() end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:OffHandle() return end
+function gamedataAimAssistSettings_Record:OffHandle() end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:Standard() return end
+function gamedataAimAssistSettings_Record:Standard() end
 
 ---@return gamedataAimAssistConfigPreset_Record
-function gamedataAimAssistSettings_Record:StandardHandle() return end
+function gamedataAimAssistSettings_Record:StandardHandle() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CRenderResourceBlobContainer: ISerializable
----@field public blob IRenderResourceBlob
+---@field blob IRenderResourceBlob
 CRenderResourceBlobContainer = {}
 
 ---@param fields? CRenderResourceBlobContainer
 ---@return CRenderResourceBlobContainer
-function CRenderResourceBlobContainer.new(fields) return end
+function CRenderResourceBlobContainer.new(fields) end

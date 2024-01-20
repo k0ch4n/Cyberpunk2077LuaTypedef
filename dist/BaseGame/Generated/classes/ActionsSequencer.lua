@@ -5,16 +5,14 @@ ActionsSequencer = {}
 
 ---@param fields? ActionsSequencer
 ---@return ActionsSequencer
-function ActionsSequencer.new(fields) return end
+function ActionsSequencer.new(fields) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ActionsSequencer:OnTakeControl(ri) return end
+function ActionsSequencer:OnTakeControl(ri) end
 
----@private
 ---@return ActionsSequencerController
-function ActionsSequencer:GetController() return end
+function ActionsSequencer:GetController() end
 
 ---@return ActionsSequencerControllerPS
-function ActionsSequencer:GetDevicePS() return end
+function ActionsSequencer:GetDevicePS() end

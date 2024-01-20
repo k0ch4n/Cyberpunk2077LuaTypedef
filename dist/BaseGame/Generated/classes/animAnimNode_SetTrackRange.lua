@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class animAnimNode_SetTrackRange: animAnimNode_OnePoseInput
----@field public min Float
----@field public max Float
----@field public oldMin Float
----@field public oldMax Float
----@field public minLink animFloatLink
----@field public maxLink animFloatLink
----@field public oldMinLink animFloatLink
----@field public oldMaxLink animFloatLink
----@field public track animNamedTrackIndex
----@field public debug Bool
+---@field min Float
+---@field max Float
+---@field oldMin Float
+---@field oldMax Float
+---@field minLink animFloatLink
+---@field maxLink animFloatLink
+---@field oldMinLink animFloatLink
+---@field oldMaxLink animFloatLink
+---@field track animNamedTrackIndex
+---@field debug Bool
 animAnimNode_SetTrackRange = {}
 
 ---@param fields? animAnimNode_SetTrackRange
 ---@return animAnimNode_SetTrackRange
-function animAnimNode_SetTrackRange.new(fields) return end
+function animAnimNode_SetTrackRange.new(fields) end

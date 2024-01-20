@@ -5,4 +5,4 @@ gamedataBounce_Record = {}
 
 ---@param fields? gamedataBounce_Record
 ---@return gamedataBounce_Record
-function gamedataBounce_Record.new(fields) return end
+function gamedataBounce_Record.new(fields) end

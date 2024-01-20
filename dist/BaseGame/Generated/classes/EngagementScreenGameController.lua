@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class EngagementScreenGameController: gameuiMenuGameController
----@field private backgroundVideo inkVideoWidgetReference
----@field private proceedConfirmationContainer inkCompoundWidgetReference
----@field private progressBar inkCompoundWidgetReference
----@field private pressKeyWidget inkWidgetReference
----@field private breachingWidget inkWidgetReference
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private requestHandler inkISystemRequestsHandler
----@field private progressBarController LoadingScreenProgressBarController
----@field private breachingEnabled Bool
+---@field backgroundVideo inkVideoWidgetReference
+---@field proceedConfirmationContainer inkCompoundWidgetReference
+---@field progressBar inkCompoundWidgetReference
+---@field pressKeyWidget inkWidgetReference
+---@field breachingWidget inkWidgetReference
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field requestHandler inkISystemRequestsHandler
+---@field progressBarController LoadingScreenProgressBarController
+---@field breachingEnabled Bool
 EngagementScreenGameController = {}
 
 ---@param fields? EngagementScreenGameController
 ---@return EngagementScreenGameController
-function EngagementScreenGameController.new(fields) return end
+function EngagementScreenGameController.new(fields) end
 
----@protected
 ---@param progress Float
 ---@return Bool
-function EngagementScreenGameController:OnAdditionalContentDataReloadProgress(progress) return end
+function EngagementScreenGameController:OnAdditionalContentDataReloadProgress(progress) end
 
----@protected
 ---@return Bool
-function EngagementScreenGameController:OnInitialize() return end
+function EngagementScreenGameController:OnInitialize() end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function EngagementScreenGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function EngagementScreenGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param enabled Bool
 ---@return Bool
-function EngagementScreenGameController:OnToggleBreachingCallback(enabled) return end
+function EngagementScreenGameController:OnToggleBreachingCallback(enabled) end
 
----@protected
 ---@return Bool
-function EngagementScreenGameController:OnUninitialize() return end
+function EngagementScreenGameController:OnUninitialize() end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class WrappedGOGRewardPack: IScriptable
----@field public index Uint64
----@field public data gameRewardPack
+---@field index Uint64
+---@field data gameRewardPack
 WrappedGOGRewardPack = {}
 
 ---@param fields? WrappedGOGRewardPack
 ---@return WrappedGOGRewardPack
-function WrappedGOGRewardPack.new(fields) return end
+function WrappedGOGRewardPack.new(fields) end
 
 ---@param index Uint64
 ---@param data gameRewardPack
 ---@return WrappedGOGRewardPack
-function WrappedGOGRewardPack.Make(index, data) return end
+function WrappedGOGRewardPack.Make(index, data) end

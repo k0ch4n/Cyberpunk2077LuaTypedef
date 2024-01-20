@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class ApplyObjectActionEffector: gameEffector
----@field public actionID TweakDBID
----@field public triggered Bool
----@field public probability Float
+---@field actionID TweakDBID
+---@field triggered Bool
+---@field probability Float
 ApplyObjectActionEffector = {}
 
 ---@param fields? ApplyObjectActionEffector
 ---@return ApplyObjectActionEffector
-function ApplyObjectActionEffector.new(fields) return end
+function ApplyObjectActionEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyObjectActionEffector:ActionOn(owner) return end
+function ApplyObjectActionEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyObjectActionEffector:Initialize(record, parentRecord) return end
+function ApplyObjectActionEffector:Initialize(record, parentRecord) end

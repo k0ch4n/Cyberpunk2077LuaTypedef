@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class inkIWidgetSlotController: inkWidgetLogicController
----@field public slotID CName
----@field public layout inkWidgetLayout
+---@field slotID CName
+---@field layout inkWidgetLayout
 inkIWidgetSlotController = {}

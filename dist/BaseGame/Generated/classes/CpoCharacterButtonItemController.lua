@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class CpoCharacterButtonItemController: inkButtonDpadSupportedController
----@field private characterRecordId TweakDBID
+---@field characterRecordId TweakDBID
 CpoCharacterButtonItemController = {}
 
 ---@param fields? CpoCharacterButtonItemController
 ---@return CpoCharacterButtonItemController
-function CpoCharacterButtonItemController.new(fields) return end
+function CpoCharacterButtonItemController.new(fields) end
 
 ---@return TweakDBID
-function CpoCharacterButtonItemController:GetCharacterRecordId() return end
+function CpoCharacterButtonItemController:GetCharacterRecordId() end
 
 ---@param text String
 ---@param characterRecordId TweakDBID|string
 ---@return nil
-function CpoCharacterButtonItemController:SetButtonDetails(text, characterRecordId) return end
+function CpoCharacterButtonItemController:SetButtonDetails(text, characterRecordId) end

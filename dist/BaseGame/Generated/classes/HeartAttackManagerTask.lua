@@ -5,20 +5,17 @@ HeartAttackManagerTask = {}
 
 ---@param fields? HeartAttackManagerTask
 ---@return HeartAttackManagerTask
-function HeartAttackManagerTask.new(fields) return end
+function HeartAttackManagerTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function HeartAttackManagerTask:Activate(context) return end
+function HeartAttackManagerTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function HeartAttackManagerTask:Deactivate(context) return end
+function HeartAttackManagerTask:Deactivate(context) end
 
----@protected
 ---@param puppet NPCPuppet
 ---@param state Bool
 ---@return nil
-function HeartAttackManagerTask:SetHeartAttackBodyVisibleComponent(puppet, state) return end
+function HeartAttackManagerTask:SetHeartAttackBodyVisibleComponent(puppet, state) end

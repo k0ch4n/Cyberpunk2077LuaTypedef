@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questEquipItemNodeDefinition: questAICommandNodeBase
----@field public entityReference questObservableUniversalRef
----@field public params questEquipItemParams
+---@field entityReference questObservableUniversalRef
+---@field params questEquipItemParams
 questEquipItemNodeDefinition = {}
 
 ---@param fields? questEquipItemNodeDefinition
 ---@return questEquipItemNodeDefinition
-function questEquipItemNodeDefinition.new(fields) return end
+function questEquipItemNodeDefinition.new(fields) end

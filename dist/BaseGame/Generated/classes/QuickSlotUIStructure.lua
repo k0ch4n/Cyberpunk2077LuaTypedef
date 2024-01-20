@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class QuickSlotUIStructure
----@field public ItemIndex Int32
----@field public OperationResult Bool
+---@field ItemIndex Int32
+---@field OperationResult Bool
 QuickSlotUIStructure = {}
 
 ---@param fields? QuickSlotUIStructure
 ---@return QuickSlotUIStructure
-function QuickSlotUIStructure.new(fields) return end
+function QuickSlotUIStructure.new(fields) end

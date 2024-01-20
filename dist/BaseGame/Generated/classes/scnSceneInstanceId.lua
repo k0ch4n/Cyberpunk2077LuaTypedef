@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnSceneInstanceId
----@field public sceneId scnSceneId
----@field public ownerId scnSceneInstanceOwnerId
----@field public internalId Uint8
----@field public hash Uint64
+---@field sceneId scnSceneId
+---@field ownerId scnSceneInstanceOwnerId
+---@field internalId Uint8
+---@field hash Uint64
 scnSceneInstanceId = {}
 
 ---@param fields? scnSceneInstanceId
 ---@return scnSceneInstanceId
-function scnSceneInstanceId.new(fields) return end
+function scnSceneInstanceId.new(fields) end

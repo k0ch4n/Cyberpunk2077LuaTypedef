@@ -5,8 +5,8 @@ QuestCloseAllDoors = {}
 
 ---@param fields? QuestCloseAllDoors
 ---@return QuestCloseAllDoors
-function QuestCloseAllDoors.new(fields) return end
+function QuestCloseAllDoors.new(fields) end
 
 ---@param toggle Bool
 ---@return nil
-function QuestCloseAllDoors:SetProperties(toggle) return end
+function QuestCloseAllDoors:SetProperties(toggle) end

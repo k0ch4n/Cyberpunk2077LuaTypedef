@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIbehaviorTaskDefinition: ISerializable
----@field public ignoreTaskCompletion Bool
+---@field ignoreTaskCompletion Bool
 AIbehaviorTaskDefinition = {}

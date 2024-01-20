@@ -5,4 +5,4 @@ RevealNetworkGridNetworkRequest = {}
 
 ---@param fields? RevealNetworkGridNetworkRequest
 ---@return RevealNetworkGridNetworkRequest
-function RevealNetworkGridNetworkRequest.new(fields) return end
+function RevealNetworkGridNetworkRequest.new(fields) end

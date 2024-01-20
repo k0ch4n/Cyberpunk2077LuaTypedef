@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVehicleMultipliers
----@field public throttleInputMultiplier Float
----@field public rpmMultiplier Float
+---@field throttleInputMultiplier Float
+---@field rpmMultiplier Float
 audioVehicleMultipliers = {}
 
 ---@param fields? audioVehicleMultipliers
 ---@return audioVehicleMultipliers
-function audioVehicleMultipliers.new(fields) return end
+function audioVehicleMultipliers.new(fields) end

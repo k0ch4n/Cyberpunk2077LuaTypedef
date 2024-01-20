@@ -5,4 +5,4 @@ inkToggleBreachingCallback = {}
 
 ---@param fields? inkToggleBreachingCallback
 ---@return inkToggleBreachingCallback
-function inkToggleBreachingCallback.new(fields) return end
+function inkToggleBreachingCallback.new(fields) end

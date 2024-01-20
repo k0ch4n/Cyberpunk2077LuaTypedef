@@ -1,97 +1,85 @@
 ---@meta
 
 ---@class QuestTrackerGameController: gameuiHUDGameController
----@field private questTrackerContainer inkWidgetReference
----@field private QuestTitle inkTextWidgetReference
----@field private ObjectiveContainer inkCompoundWidgetReference
----@field private TrackedMappinTitle inkTextWidgetReference
----@field private TrackedMappinContainer inkWidgetReference
----@field private TrackedMappinObjectiveContainer inkCompoundWidgetReference
----@field private player gameObject
----@field protected mappinSystem gamemappinsMappinSystem
----@field protected journalManager gameJournalManager
----@field protected bufferedEntry gameJournalQuestObjective
----@field protected bufferedPhase gameJournalQuestPhase
----@field protected bufferedQuest gameJournalQuest
----@field private root inkWidget
----@field private blackboard gameIBlackboard
----@field private uiSystemBB UI_SystemDef
----@field private uiSystemId redCallbackObject
----@field private trackedMappinId redCallbackObject
----@field private trackedMappinSpawnRequest inkAsyncSpawnRequest
----@field private currentMappin gamemappinsIMappin
+---@field questTrackerContainer inkWidgetReference
+---@field QuestTitle inkTextWidgetReference
+---@field ObjectiveContainer inkCompoundWidgetReference
+---@field TrackedMappinTitle inkTextWidgetReference
+---@field TrackedMappinContainer inkWidgetReference
+---@field TrackedMappinObjectiveContainer inkCompoundWidgetReference
+---@field player gameObject
+---@field mappinSystem gamemappinsMappinSystem
+---@field journalManager gameJournalManager
+---@field bufferedEntry gameJournalQuestObjective
+---@field bufferedPhase gameJournalQuestPhase
+---@field bufferedQuest gameJournalQuest
+---@field root inkWidget
+---@field blackboard gameIBlackboard
+---@field uiSystemBB UI_SystemDef
+---@field uiSystemId redCallbackObject
+---@field trackedMappinId redCallbackObject
+---@field trackedMappinSpawnRequest inkAsyncSpawnRequest
+---@field currentMappin gamemappinsIMappin
 QuestTrackerGameController = {}
 
 ---@param fields? QuestTrackerGameController
 ---@return QuestTrackerGameController
-function QuestTrackerGameController.new(fields) return end
+function QuestTrackerGameController.new(fields) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestTrackerGameController:OnCounterChanged(hash, className, notifyOption, changeType) return end
+function QuestTrackerGameController:OnCounterChanged(hash, className, notifyOption, changeType) end
 
----@protected
 ---@return Bool
-function QuestTrackerGameController:OnInitialize() return end
+function QuestTrackerGameController:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function QuestTrackerGameController:OnMenuUpdate(value) return end
+function QuestTrackerGameController:OnMenuUpdate(value) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestTrackerGameController:OnObjectiveIsOptionalChanged(hash, className, notifyOption, changeType) return end
+function QuestTrackerGameController:OnObjectiveIsOptionalChanged(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestTrackerGameController:OnStateChanges(hash, className, notifyOption, changeType) return end
+function QuestTrackerGameController:OnStateChanges(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestTrackerGameController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) return end
+function QuestTrackerGameController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param newItem inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function QuestTrackerGameController:OnTrackedMappinSpawned(newItem, userData) return end
+function QuestTrackerGameController:OnTrackedMappinSpawned(newItem, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function QuestTrackerGameController:OnTrackedMappinUpdated(value) return end
+function QuestTrackerGameController:OnTrackedMappinUpdated(value) end
 
----@protected
 ---@param evt TrackedQuestPhaseUpdateRequest
 ---@return Bool
-function QuestTrackerGameController:OnTrackedQuestPhaseUpdateRequest(evt) return end
+function QuestTrackerGameController:OnTrackedQuestPhaseUpdateRequest(evt) end
 
----@protected
 ---@return Bool
-function QuestTrackerGameController:OnUninitialize() return end
+function QuestTrackerGameController:OnUninitialize() end
 
----@private
 ---@param sortedObjectives gameJournalEntry[]
 ---@return nil
-function QuestTrackerGameController:SortObjectiveListByTimestamp(sortedObjectives) return end
+function QuestTrackerGameController:SortObjectiveListByTimestamp(sortedObjectives) end
 
----@private
 ---@return nil
-function QuestTrackerGameController:UpdateTrackerData() return end
+function QuestTrackerGameController:UpdateTrackerData() end

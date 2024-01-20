@@ -5,4 +5,4 @@ PhotoModeQuestPrefabStateListener = {}
 
 ---@param fields? PhotoModeQuestPrefabStateListener
 ---@return PhotoModeQuestPrefabStateListener
-function PhotoModeQuestPrefabStateListener.new(fields) return end
+function PhotoModeQuestPrefabStateListener.new(fields) end

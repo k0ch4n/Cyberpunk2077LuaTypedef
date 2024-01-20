@@ -1,19 +1,16 @@
 ---@meta
 
 ---@class AINPCHighLevelStateCheck: AINPCStateCheck
----@field public blackboard gameIBlackboard
+---@field blackboard gameIBlackboard
 AINPCHighLevelStateCheck = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AINPCHighLevelStateCheck:Activate(context) return end
+function AINPCHighLevelStateCheck:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AINPCHighLevelStateCheck:Check(context) return end
+function AINPCHighLevelStateCheck:Check(context) end
 
----@private
 ---@return gamedataNPCHighLevelState
-function AINPCHighLevelStateCheck:GetStateToCheck() return end
+function AINPCHighLevelStateCheck:GetStateToCheck() end

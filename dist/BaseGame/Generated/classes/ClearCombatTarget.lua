@@ -5,9 +5,8 @@ ClearCombatTarget = {}
 
 ---@param fields? ClearCombatTarget
 ---@return ClearCombatTarget
-function ClearCombatTarget.new(fields) return end
+function ClearCombatTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ClearCombatTarget:Activate(context) return end
+function ClearCombatTarget:Activate(context) end

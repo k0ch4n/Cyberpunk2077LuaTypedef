@@ -5,10 +5,10 @@ gamedataItemQueryElement_Record = {}
 
 ---@param fields? gamedataItemQueryElement_Record
 ---@return gamedataItemQueryElement_Record
-function gamedataItemQueryElement_Record.new(fields) return end
+function gamedataItemQueryElement_Record.new(fields) end
 
 ---@return gamedataItemQuery_Record
-function gamedataItemQueryElement_Record:Query() return end
+function gamedataItemQueryElement_Record:Query() end
 
 ---@return gamedataItemQuery_Record
-function gamedataItemQueryElement_Record:QueryHandle() return end
+function gamedataItemQueryElement_Record:QueryHandle() end

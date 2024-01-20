@@ -5,12 +5,10 @@ PlayerPhone = {}
 
 ---@param fields? PlayerPhone
 ---@return PlayerPhone
-function PlayerPhone.new(fields) return end
+function PlayerPhone.new(fields) end
 
----@private
 ---@return nil
-function PlayerPhone:OnGameAttach() return end
+function PlayerPhone:OnGameAttach() end
 
----@private
 ---@return nil
-function PlayerPhone:OnGameDetach() return end
+function PlayerPhone:OnGameDetach() end

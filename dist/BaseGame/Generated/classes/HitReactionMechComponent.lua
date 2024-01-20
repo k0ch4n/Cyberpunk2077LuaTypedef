@@ -5,26 +5,23 @@ HitReactionMechComponent = {}
 
 ---@param fields? HitReactionMechComponent
 ---@return HitReactionMechComponent
-function HitReactionMechComponent.new(fields) return end
+function HitReactionMechComponent.new(fields) end
 
----@protected
 ---@param forcedDeath ForcedDeathEvent
 ---@return Bool
-function HitReactionMechComponent:OnForcedDeathEvent(forcedDeath) return end
+function HitReactionMechComponent:OnForcedDeathEvent(forcedDeath) end
 
 ---@param newHitEvent gameeventsHitEvent
 ---@return nil
-function HitReactionMechComponent:EvaluateHit(newHitEvent) return end
+function HitReactionMechComponent:EvaluateHit(newHitEvent) end
 
----@private
 ---@return Bool
-function HitReactionMechComponent:MechIsDeadOnInit() return end
+function HitReactionMechComponent:MechIsDeadOnInit() end
 
 ---@return nil
-function HitReactionMechComponent:OnGameAttached() return end
+function HitReactionMechComponent:OnGameAttached() end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@param npc NPCPuppet
 ---@return Bool
-function HitReactionMechComponent:ProcessMechDeath(hitEvent, npc) return end
+function HitReactionMechComponent:ProcessMechDeath(hitEvent, npc) end

@@ -5,4 +5,4 @@ questGlitchLoadingScreen_NodeType = {}
 
 ---@param fields? questGlitchLoadingScreen_NodeType
 ---@return questGlitchLoadingScreen_NodeType
-function questGlitchLoadingScreen_NodeType.new(fields) return end
+function questGlitchLoadingScreen_NodeType.new(fields) end

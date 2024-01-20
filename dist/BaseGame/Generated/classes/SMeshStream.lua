@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SMeshStream
----@field public data serializationDeferredDataBuffer
----@field public type EMeshStreamType
+---@field data serializationDeferredDataBuffer
+---@field type EMeshStreamType
 SMeshStream = {}
 
 ---@param fields? SMeshStream
 ---@return SMeshStream
-function SMeshStream.new(fields) return end
+function SMeshStream.new(fields) end

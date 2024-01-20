@@ -1,39 +1,34 @@
 ---@meta
 
 ---@class FelledDecisions: LocomotionGroundDecisions
----@field private felled Bool
----@field private callbackIDs redCallbackObject[]
+---@field felled Bool
+---@field callbackIDs redCallbackObject[]
 FelledDecisions = {}
 
 ---@param fields? FelledDecisions
 ---@return FelledDecisions
-function FelledDecisions.new(fields) return end
+function FelledDecisions.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function FelledDecisions:OnFelledChanged(value) return end
+function FelledDecisions:OnFelledChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FelledDecisions:EnterCondition(stateContext, scriptInterface) return end
+function FelledDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FelledDecisions:OnAttach(stateContext, scriptInterface) return end
+function FelledDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FelledDecisions:OnDetach(stateContext, scriptInterface) return end
+function FelledDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FelledDecisions:ToStand(stateContext, scriptInterface) return end
+function FelledDecisions:ToStand(stateContext, scriptInterface) end

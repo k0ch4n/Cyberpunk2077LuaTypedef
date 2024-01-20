@@ -5,4 +5,4 @@ gameVehicleCurveSet = {}
 
 ---@param fields? gameVehicleCurveSet
 ---@return gameVehicleCurveSet
-function gameVehicleCurveSet.new(fields) return end
+function gameVehicleCurveSet.new(fields) end

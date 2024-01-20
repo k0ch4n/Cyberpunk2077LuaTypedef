@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiTutorialAreaSpawnEvent: redEvent
----@field public bracketID CName
----@field public areaID Uint32
----@field public widget inkWidget
+---@field bracketID CName
+---@field areaID Uint32
+---@field widget inkWidget
 gameuiTutorialAreaSpawnEvent = {}
 
 ---@param fields? gameuiTutorialAreaSpawnEvent
 ---@return gameuiTutorialAreaSpawnEvent
-function gameuiTutorialAreaSpawnEvent.new(fields) return end
+function gameuiTutorialAreaSpawnEvent.new(fields) end

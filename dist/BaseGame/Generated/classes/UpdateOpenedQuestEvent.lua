@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UpdateOpenedQuestEvent: redEvent
----@field public openedQuest gameJournalQuest
+---@field openedQuest gameJournalQuest
 UpdateOpenedQuestEvent = {}
 
 ---@param fields? UpdateOpenedQuestEvent
 ---@return UpdateOpenedQuestEvent
-function UpdateOpenedQuestEvent.new(fields) return end
+function UpdateOpenedQuestEvent.new(fields) end

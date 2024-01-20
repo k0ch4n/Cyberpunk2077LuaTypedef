@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class StimEventData
----@field public source gameObject
----@field public stimType gamedataStimType
+---@field source gameObject
+---@field stimType gamedataStimType
 StimEventData = {}
 
 ---@param fields? StimEventData
 ---@return StimEventData
-function StimEventData.new(fields) return end
+function StimEventData.new(fields) end

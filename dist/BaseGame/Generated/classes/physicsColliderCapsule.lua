@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsColliderCapsule: physicsICollider
----@field public radius Float
----@field public height Float
+---@field radius Float
+---@field height Float
 physicsColliderCapsule = {}
 
 ---@param fields? physicsColliderCapsule
 ---@return physicsColliderCapsule
-function physicsColliderCapsule.new(fields) return end
+function physicsColliderCapsule.new(fields) end

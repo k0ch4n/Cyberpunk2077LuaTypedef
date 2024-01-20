@@ -5,4 +5,4 @@ worldRuntimeSystemEffectAttachments = {}
 
 ---@param fields? worldRuntimeSystemEffectAttachments
 ---@return worldRuntimeSystemEffectAttachments
-function worldRuntimeSystemEffectAttachments.new(fields) return end
+function worldRuntimeSystemEffectAttachments.new(fields) end

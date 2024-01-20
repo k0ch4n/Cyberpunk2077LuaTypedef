@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GenericDeviceActionsData
----@field public stateActionsOverrides SGenericDeviceActionsData
----@field public customActions SCustomDeviceActionsData
+---@field stateActionsOverrides SGenericDeviceActionsData
+---@field customActions SCustomDeviceActionsData
 GenericDeviceActionsData = {}
 
 ---@param fields? GenericDeviceActionsData
 ---@return GenericDeviceActionsData
-function GenericDeviceActionsData.new(fields) return end
+function GenericDeviceActionsData.new(fields) end

@@ -5,4 +5,4 @@ AddSpyTreePerkPoints = {}
 
 ---@param fields? AddSpyTreePerkPoints
 ---@return AddSpyTreePerkPoints
-function AddSpyTreePerkPoints.new(fields) return end
+function AddSpyTreePerkPoints.new(fields) end

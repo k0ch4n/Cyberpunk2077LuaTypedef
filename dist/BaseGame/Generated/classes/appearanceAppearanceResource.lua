@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class appearanceAppearanceResource: resStreamedResource
----@field public alternateAppearanceSettingName CName
----@field public alternateAppearanceSuffixes CName[]
----@field public alternateAppearanceMapping appearanceAlternateAppearanceEntry[]
----@field public censorshipMapping appearanceCensorshipEntry[]
----@field public Wounds entdismembermentWoundResource[]
----@field public DismEffects entdismembermentEffectResource[]
----@field public DismWoundConfig entdismembermentWoundsConfigSet
----@field public baseType CName
----@field public baseEntityType CName
----@field public baseEntity entEntityTemplate
----@field public partType CName
----@field public preset CName
----@field public appearances appearanceAppearanceDefinition[]
----@field public commonCookData appearanceCookedAppearanceData
----@field public proxyPolyCount Int32
----@field public forceCompileProxy Bool
----@field public generatePlayerBlockingCollisionForProxy Bool
+---@field alternateAppearanceSettingName CName
+---@field alternateAppearanceSuffixes CName[]
+---@field alternateAppearanceMapping appearanceAlternateAppearanceEntry[]
+---@field censorshipMapping appearanceCensorshipEntry[]
+---@field Wounds entdismembermentWoundResource[]
+---@field DismEffects entdismembermentEffectResource[]
+---@field DismWoundConfig entdismembermentWoundsConfigSet
+---@field baseType CName
+---@field baseEntityType CName
+---@field baseEntity entEntityTemplate
+---@field partType CName
+---@field preset CName
+---@field appearances appearanceAppearanceDefinition[]
+---@field commonCookData appearanceCookedAppearanceData
+---@field proxyPolyCount Int32
+---@field forceCompileProxy Bool
+---@field generatePlayerBlockingCollisionForProxy Bool
 appearanceAppearanceResource = {}
 
 ---@param fields? appearanceAppearanceResource
 ---@return appearanceAppearanceResource
-function appearanceAppearanceResource.new(fields) return end
+function appearanceAppearanceResource.new(fields) end

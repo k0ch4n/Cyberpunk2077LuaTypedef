@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class QuestLookAtTarget: ActionEntityReference
----@field public ForcedTarget entEntityID
+---@field ForcedTarget entEntityID
 QuestLookAtTarget = {}
 
 ---@param fields? QuestLookAtTarget
 ---@return QuestLookAtTarget
-function QuestLookAtTarget.new(fields) return end
+function QuestLookAtTarget.new(fields) end
 
 ---@return nil
-function QuestLookAtTarget:SetProperties() return end
+function QuestLookAtTarget:SetProperties() end
 
 ---@param id entEntityID
 ---@return nil
-function QuestLookAtTarget:SetPropertiesFromScripts(id) return end
+function QuestLookAtTarget:SetPropertiesFromScripts(id) end

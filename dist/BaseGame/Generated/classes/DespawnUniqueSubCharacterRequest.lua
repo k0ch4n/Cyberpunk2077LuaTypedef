@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DespawnUniqueSubCharacterRequest: gameScriptableSystemRequest
----@field public subCharacterID TweakDBID
+---@field subCharacterID TweakDBID
 DespawnUniqueSubCharacterRequest = {}
 
 ---@param fields? DespawnUniqueSubCharacterRequest
 ---@return DespawnUniqueSubCharacterRequest
-function DespawnUniqueSubCharacterRequest.new(fields) return end
+function DespawnUniqueSubCharacterRequest.new(fields) end

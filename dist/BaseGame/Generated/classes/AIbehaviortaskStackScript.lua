@@ -5,7 +5,7 @@ AIbehaviortaskStackScript = {}
 
 ---@param fields? AIbehaviortaskStackScript
 ---@return AIbehaviortaskStackScript
-function AIbehaviortaskStackScript.new(fields) return end
+function AIbehaviortaskStackScript.new(fields) end
 
 ---@return CName
-function AIbehaviortaskStackScript:GetInstanceTypeName() return end
+function AIbehaviortaskStackScript:GetInstanceTypeName() end

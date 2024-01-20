@@ -5,19 +5,19 @@ gamedataHandbrakeFrictionModifier_Record = {}
 
 ---@param fields? gamedataHandbrakeFrictionModifier_Record
 ---@return gamedataHandbrakeFrictionModifier_Record
-function gamedataHandbrakeFrictionModifier_Record.new(fields) return end
+function gamedataHandbrakeFrictionModifier_Record.new(fields) end
 
 ---@return Float
-function gamedataHandbrakeFrictionModifier_Record:AdditionalBrakeForLongUse() return end
+function gamedataHandbrakeFrictionModifier_Record:AdditionalBrakeForLongUse() end
 
 ---@return Float
-function gamedataHandbrakeFrictionModifier_Record:BlendOutTime() return end
+function gamedataHandbrakeFrictionModifier_Record:BlendOutTime() end
 
 ---@return Float
-function gamedataHandbrakeFrictionModifier_Record:PostHandbrakeTractionBoost() return end
+function gamedataHandbrakeFrictionModifier_Record:PostHandbrakeTractionBoost() end
 
 ---@return Float
-function gamedataHandbrakeFrictionModifier_Record:RearWheelsLatFrictionCoef() return end
+function gamedataHandbrakeFrictionModifier_Record:RearWheelsLatFrictionCoef() end
 
 ---@return Float
-function gamedataHandbrakeFrictionModifier_Record:RearWheelsLongFrictionCoef() return end
+function gamedataHandbrakeFrictionModifier_Record:RearWheelsLongFrictionCoef() end

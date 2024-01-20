@@ -1,47 +1,47 @@
 ---@meta
 
 ---@class SensesOperations: DeviceOperations
----@field protected sensesOperations SSensesOperationData[]
+---@field sensesOperations SSensesOperationData[]
 SensesOperations = {}
 
 ---@param fields? SensesOperations
 ---@return SensesOperations
-function SensesOperations.new(fields) return end
+function SensesOperations.new(fields) end
 
 ---@param operationID Int32
 ---@return nil
-function SensesOperations:ClearDelayIdOnOperation(operationID) return end
+function SensesOperations:ClearDelayIdOnOperation(operationID) end
 
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param operationType ETriggerOperationType
 ---@return nil
-function SensesOperations:ExecuteOperation(owner, activator, operationType) return end
+function SensesOperations:ExecuteOperation(owner, activator, operationType) end
 
 ---@param index Int32
 ---@return Bool
-function SensesOperations:IsOperationEnabled(index) return end
+function SensesOperations:IsOperationEnabled(index) end
 
 ---@param ri entEntityRequestComponentsInterface
 ---@return nil
-function SensesOperations:RequestComponents(ri) return end
+function SensesOperations:RequestComponents(ri) end
 
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param operationType ETriggerOperationType
 ---@return nil
-function SensesOperations:RestoreOperation(owner, activator, operationType) return end
+function SensesOperations:RestoreOperation(owner, activator, operationType) end
 
 ---@param delayId gameDelayID
 ---@param operationID Int32
 ---@return nil
-function SensesOperations:SetDelayIdOnOperation(delayId, operationID) return end
+function SensesOperations:SetDelayIdOnOperation(delayId, operationID) end
 
 ---@param ri entEntityResolveComponentsInterface
 ---@return nil
-function SensesOperations:TakeControl(ri) return end
+function SensesOperations:TakeControl(ri) end
 
 ---@param enable Bool
 ---@param index Int32
 ---@return nil
-function SensesOperations:ToggleOperation(enable, index) return end
+function SensesOperations:ToggleOperation(enable, index) end

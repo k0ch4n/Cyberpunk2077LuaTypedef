@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class ConvertDamageToStatPoolEffector: HitEventEffector
----@field private statPoolType gamedataStatPoolType
----@field private operationType EMathOperator
----@field private value Float
+---@field statPoolType gamedataStatPoolType
+---@field operationType EMathOperator
+---@field value Float
 ConvertDamageToStatPoolEffector = {}
 
 ---@param fields? ConvertDamageToStatPoolEffector
 ---@return ConvertDamageToStatPoolEffector
-function ConvertDamageToStatPoolEffector.new(fields) return end
+function ConvertDamageToStatPoolEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ConvertDamageToStatPoolEffector:ActionOn(owner) return end
+function ConvertDamageToStatPoolEffector:ActionOn(owner) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ConvertDamageToStatPoolEffector:Initialize(recordID, parentRecord) return end
+function ConvertDamageToStatPoolEffector:Initialize(recordID, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function ConvertDamageToStatPoolEffector:ProcessAction(owner) return end
+function ConvertDamageToStatPoolEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ConvertDamageToStatPoolEffector:RepeatedAction(owner) return end
+function ConvertDamageToStatPoolEffector:RepeatedAction(owner) end

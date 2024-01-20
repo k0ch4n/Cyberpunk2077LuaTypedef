@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsMessageLocation_Resource: toolsIMessageLocation
----@field public path MessageResourcePath
+---@field path MessageResourcePath
 toolsMessageLocation_Resource = {}
 
 ---@param fields? toolsMessageLocation_Resource
 ---@return toolsMessageLocation_Resource
-function toolsMessageLocation_Resource.new(fields) return end
+function toolsMessageLocation_Resource.new(fields) end

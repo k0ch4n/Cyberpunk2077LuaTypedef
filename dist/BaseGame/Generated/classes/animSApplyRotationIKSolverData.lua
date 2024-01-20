@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animSApplyRotationIKSolverData
----@field public bone animTransformIndex
+---@field bone animTransformIndex
 animSApplyRotationIKSolverData = {}
 
 ---@param fields? animSApplyRotationIKSolverData
 ---@return animSApplyRotationIKSolverData
-function animSApplyRotationIKSolverData.new(fields) return end
+function animSApplyRotationIKSolverData.new(fields) end

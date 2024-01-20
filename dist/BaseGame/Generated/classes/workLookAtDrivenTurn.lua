@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class workLookAtDrivenTurn: workIEntry
----@field public turnAngle Int32
----@field public turnAnimName CName
----@field public blendTime Float
+---@field turnAngle Int32
+---@field turnAnimName CName
+---@field blendTime Float
 workLookAtDrivenTurn = {}
 
 ---@param fields? workLookAtDrivenTurn
 ---@return workLookAtDrivenTurn
-function workLookAtDrivenTurn.new(fields) return end
+function workLookAtDrivenTurn.new(fields) end

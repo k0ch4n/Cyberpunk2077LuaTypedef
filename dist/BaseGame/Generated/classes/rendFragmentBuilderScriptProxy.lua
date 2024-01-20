@@ -5,13 +5,13 @@ rendFragmentBuilderScriptProxy = {}
 
 ---@param fields? rendFragmentBuilderScriptProxy
 ---@return rendFragmentBuilderScriptProxy
-function rendFragmentBuilderScriptProxy.new(fields) return end
+function rendFragmentBuilderScriptProxy.new(fields) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@param start Vector4
 ---@param end_ Vector4
 ---@return nil
-function rendFragmentBuilderScriptProxy.AddArrow(self, start, end_) return end
+function rendFragmentBuilderScriptProxy.AddArrow(self, start, end_) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@param matrix Matrix
@@ -20,31 +20,31 @@ function rendFragmentBuilderScriptProxy.AddArrow(self, start, end_) return end
 ---@param rangeAngle Float
 ---@param drawSides Bool
 ---@return nil
-function rendFragmentBuilderScriptProxy.AddWireAngledRange(self, matrix, height, range, rangeAngle, drawSides) return end
+function rendFragmentBuilderScriptProxy.AddWireAngledRange(self, matrix, height, range, rangeAngle, drawSides) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@param localToWorld Matrix
 ---@return nil
-function rendFragmentBuilderScriptProxy.BindTransform(self, localToWorld) return end
+function rendFragmentBuilderScriptProxy.BindTransform(self, localToWorld) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@param debugDrawer rendDebugDrawerScriptProxy
 ---@return nil
-function rendFragmentBuilderScriptProxy.Construct(self, debugDrawer) return end
+function rendFragmentBuilderScriptProxy.Construct(self, debugDrawer) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@return nil
-function rendFragmentBuilderScriptProxy.Done(self) return end
+function rendFragmentBuilderScriptProxy.Done(self) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@return nil
-function rendFragmentBuilderScriptProxy.PopLocalTransform(self) return end
+function rendFragmentBuilderScriptProxy.PopLocalTransform(self) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@return nil
-function rendFragmentBuilderScriptProxy.PushLocalTransform(self) return end
+function rendFragmentBuilderScriptProxy.PushLocalTransform(self) end
 
 ---@param self rendFragmentBuilderScriptProxy
 ---@param color Color
 ---@return nil
-function rendFragmentBuilderScriptProxy.SetColor(self, color) return end
+function rendFragmentBuilderScriptProxy.SetColor(self, color) end

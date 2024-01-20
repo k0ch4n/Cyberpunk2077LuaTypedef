@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameGrenadeThrowQueryParams
----@field public requester gameObject
----@field public target gameObject
----@field public targetPositionProvider entIPositionProvider
----@field public minRadius Float
----@field public maxRadius Float
----@field public friendlyAvoidanceRadius Float
----@field public throwAngleDegrees Float
----@field public gravitySimulation Float
----@field public minTargetAngleDegrees Float
----@field public maxTargetAngleDegrees Float
+---@field requester gameObject
+---@field target gameObject
+---@field targetPositionProvider entIPositionProvider
+---@field minRadius Float
+---@field maxRadius Float
+---@field friendlyAvoidanceRadius Float
+---@field throwAngleDegrees Float
+---@field gravitySimulation Float
+---@field minTargetAngleDegrees Float
+---@field maxTargetAngleDegrees Float
 gameGrenadeThrowQueryParams = {}
 
 ---@param fields? gameGrenadeThrowQueryParams
 ---@return gameGrenadeThrowQueryParams
-function gameGrenadeThrowQueryParams.new(fields) return end
+function gameGrenadeThrowQueryParams.new(fields) end

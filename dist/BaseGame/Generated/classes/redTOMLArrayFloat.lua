@@ -5,4 +5,4 @@ redTOMLArrayFloat = {}
 
 ---@param fields? redTOMLArrayFloat
 ---@return redTOMLArrayFloat
-function redTOMLArrayFloat.new(fields) return end
+function redTOMLArrayFloat.new(fields) end

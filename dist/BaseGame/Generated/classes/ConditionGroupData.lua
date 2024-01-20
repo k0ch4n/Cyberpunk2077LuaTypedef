@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ConditionGroupData
----@field public conditions GameplayConditionBase[]
----@field public logicOperator ELogicOperator
+---@field conditions GameplayConditionBase[]
+---@field logicOperator ELogicOperator
 ConditionGroupData = {}
 
 ---@param fields? ConditionGroupData
 ---@return ConditionGroupData
-function ConditionGroupData.new(fields) return end
+function ConditionGroupData.new(fields) end

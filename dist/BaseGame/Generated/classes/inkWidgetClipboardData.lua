@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkWidgetClipboardData: ISerializable
----@field public widget inkWidget
----@field public widgetPath inkWidgetPath
+---@field widget inkWidget
+---@field widgetPath inkWidgetPath
 inkWidgetClipboardData = {}
 
 ---@param fields? inkWidgetClipboardData
 ---@return inkWidgetClipboardData
-function inkWidgetClipboardData.new(fields) return end
+function inkWidgetClipboardData.new(fields) end

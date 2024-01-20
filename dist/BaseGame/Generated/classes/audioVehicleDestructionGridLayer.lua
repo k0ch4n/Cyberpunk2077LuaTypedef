@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class audioVehicleDestructionGridLayer
----@field public backLeft audioVehicleDestructionGridCell
----@field public backRight audioVehicleDestructionGridCell
----@field public centerBackLeft audioVehicleDestructionGridCell
----@field public centerBackRight audioVehicleDestructionGridCell
----@field public centerForwardLeft audioVehicleDestructionGridCell
----@field public centerForwardRight audioVehicleDestructionGridCell
----@field public frontLeft audioVehicleDestructionGridCell
----@field public frontRight audioVehicleDestructionGridCell
+---@field backLeft audioVehicleDestructionGridCell
+---@field backRight audioVehicleDestructionGridCell
+---@field centerBackLeft audioVehicleDestructionGridCell
+---@field centerBackRight audioVehicleDestructionGridCell
+---@field centerForwardLeft audioVehicleDestructionGridCell
+---@field centerForwardRight audioVehicleDestructionGridCell
+---@field frontLeft audioVehicleDestructionGridCell
+---@field frontRight audioVehicleDestructionGridCell
 audioVehicleDestructionGridLayer = {}
 
 ---@param fields? audioVehicleDestructionGridLayer
 ---@return audioVehicleDestructionGridLayer
-function audioVehicleDestructionGridLayer.new(fields) return end
+function audioVehicleDestructionGridLayer.new(fields) end

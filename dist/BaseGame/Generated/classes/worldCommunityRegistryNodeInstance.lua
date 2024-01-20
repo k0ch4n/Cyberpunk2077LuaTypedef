@@ -5,4 +5,4 @@ worldCommunityRegistryNodeInstance = {}
 
 ---@param fields? worldCommunityRegistryNodeInstance
 ---@return worldCommunityRegistryNodeInstance
-function worldCommunityRegistryNodeInstance.new(fields) return end
+function worldCommunityRegistryNodeInstance.new(fields) end

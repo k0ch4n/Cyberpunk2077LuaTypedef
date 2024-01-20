@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class SetManouverPosition: AIbehaviortaskScript
----@field public distance Float
----@field public angle Float
+---@field distance Float
+---@field angle Float
 SetManouverPosition = {}
 
 ---@param fields? SetManouverPosition
 ---@return SetManouverPosition
-function SetManouverPosition.new(fields) return end
+function SetManouverPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetManouverPosition:Activate(context) return end
+function SetManouverPosition:Activate(context) end

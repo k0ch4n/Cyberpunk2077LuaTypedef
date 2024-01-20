@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questSceneNodeDefinition: questSignalStoppingNodeDefinition
----@field public sceneFile scnSceneResource
----@field public sceneLocation scnWorldMarker
----@field public interruptionOperations scnIInterruptionOperation[]
----@field public syncToMusic Bool
----@field public notAllowedToBeFrozen Bool
----@field public reapplyInterruptionOperationsAfterGameLoad Bool
+---@field sceneFile scnSceneResource
+---@field sceneLocation scnWorldMarker
+---@field interruptionOperations scnIInterruptionOperation[]
+---@field syncToMusic Bool
+---@field notAllowedToBeFrozen Bool
+---@field reapplyInterruptionOperationsAfterGameLoad Bool
 questSceneNodeDefinition = {}
 
 ---@param fields? questSceneNodeDefinition
 ---@return questSceneNodeDefinition
-function questSceneNodeDefinition.new(fields) return end
+function questSceneNodeDefinition.new(fields) end

@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIbehaviorPassiveConditionDefinition: ISerializable
----@field public invert Bool
+---@field invert Bool
 AIbehaviorPassiveConditionDefinition = {}

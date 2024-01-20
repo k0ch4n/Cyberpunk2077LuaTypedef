@@ -5,4 +5,4 @@ gameuiDriverCombatMappinController = {}
 
 ---@param fields? gameuiDriverCombatMappinController
 ---@return gameuiDriverCombatMappinController
-function gameuiDriverCombatMappinController.new(fields) return end
+function gameuiDriverCombatMappinController.new(fields) end

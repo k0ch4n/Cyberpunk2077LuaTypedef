@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class TimeBetweenHitsParameters
----@field public baseCoefficient Float
----@field public baseSourceCoefficient Float
----@field public difficultyLevelCoefficient Float
----@field public groupCoefficient Float
----@field public distanceCoefficient Float
----@field public visibilityCoefficient Float
----@field public playersCountCoefficient Float
----@field public coefficientMultiplier Float
----@field public accuracyCoefficient Float
----@field public coverCoefficient Float
----@field public visionBlockerCoefficient Float
+---@field baseCoefficient Float
+---@field baseSourceCoefficient Float
+---@field difficultyLevelCoefficient Float
+---@field groupCoefficient Float
+---@field distanceCoefficient Float
+---@field visibilityCoefficient Float
+---@field playersCountCoefficient Float
+---@field coefficientMultiplier Float
+---@field accuracyCoefficient Float
+---@field coverCoefficient Float
+---@field visionBlockerCoefficient Float
 TimeBetweenHitsParameters = {}
 
 ---@param fields? TimeBetweenHitsParameters
 ---@return TimeBetweenHitsParameters
-function TimeBetweenHitsParameters.new(fields) return end
+function TimeBetweenHitsParameters.new(fields) end

@@ -5,4 +5,4 @@ EntityHasVisualTagPrereqState = {}
 
 ---@param fields? EntityHasVisualTagPrereqState
 ---@return EntityHasVisualTagPrereqState
-function EntityHasVisualTagPrereqState.new(fields) return end
+function EntityHasVisualTagPrereqState.new(fields) end

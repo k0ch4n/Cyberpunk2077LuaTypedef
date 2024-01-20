@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AttributeUpdatedEvent: redEvent
----@field public attributeId TweakDBID
+---@field attributeId TweakDBID
 AttributeUpdatedEvent = {}
 
 ---@param fields? AttributeUpdatedEvent
 ---@return AttributeUpdatedEvent
-function AttributeUpdatedEvent.new(fields) return end
+function AttributeUpdatedEvent.new(fields) end

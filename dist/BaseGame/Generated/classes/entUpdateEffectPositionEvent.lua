@@ -5,4 +5,4 @@ entUpdateEffectPositionEvent = {}
 
 ---@param fields? entUpdateEffectPositionEvent
 ---@return entUpdateEffectPositionEvent
-function entUpdateEffectPositionEvent.new(fields) return end
+function entUpdateEffectPositionEvent.new(fields) end

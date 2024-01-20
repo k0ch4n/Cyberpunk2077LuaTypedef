@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameEffectSet: CResource
----@field public effects gameEffectDefinition[]
+---@field effects gameEffectDefinition[]
 gameEffectSet = {}
 
 ---@param fields? gameEffectSet
 ---@return gameEffectSet
-function gameEffectSet.new(fields) return end
+function gameEffectSet.new(fields) end

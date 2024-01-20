@@ -5,4 +5,4 @@ ForceRadialWheelShutdown = {}
 
 ---@param fields? ForceRadialWheelShutdown
 ---@return ForceRadialWheelShutdown
-function ForceRadialWheelShutdown.new(fields) return end
+function ForceRadialWheelShutdown.new(fields) end

@@ -1,32 +1,32 @@
 ---@meta
 
 ---@class AICoverDataDef: AIBlackboardDef
----@field public exposureMethod gamebbScriptID_CName
----@field public fallbackExposureMethod gamebbScriptID_CName
----@field public lastAvailableMethods gamebbScriptID_Uint32
----@field public currentlyExposed gamebbScriptID_Bool
----@field public commandExposureMethods gamebbScriptID_Variant
----@field public commandCoverOverride gamebbScriptID_Bool
----@field public currentCoverStance gamebbScriptID_CName
----@field public desiredCoverStance gamebbScriptID_CName
----@field public lastCoverPreset gamebbScriptID_CName
----@field public lastInitialCoverPreset gamebbScriptID_CName
----@field public lastCoverChangeThreshold gamebbScriptID_Float
----@field public lastVisibilityCheckTimestamp gamebbScriptID_Float
----@field public currentRing gamebbScriptID_Variant
----@field public lastCoverRing gamebbScriptID_Variant
----@field public lastDebugCoverPreset gamebbScriptID_Int32
----@field public firstCoverEvaluationDone gamebbScriptID_Bool
----@field public startCoverEvaluationTimeStamp gamebbScriptID_Float
+---@field exposureMethod gamebbScriptID_CName
+---@field fallbackExposureMethod gamebbScriptID_CName
+---@field lastAvailableMethods gamebbScriptID_Uint32
+---@field currentlyExposed gamebbScriptID_Bool
+---@field commandExposureMethods gamebbScriptID_Variant
+---@field commandCoverOverride gamebbScriptID_Bool
+---@field currentCoverStance gamebbScriptID_CName
+---@field desiredCoverStance gamebbScriptID_CName
+---@field lastCoverPreset gamebbScriptID_CName
+---@field lastInitialCoverPreset gamebbScriptID_CName
+---@field lastCoverChangeThreshold gamebbScriptID_Float
+---@field lastVisibilityCheckTimestamp gamebbScriptID_Float
+---@field currentRing gamebbScriptID_Variant
+---@field lastCoverRing gamebbScriptID_Variant
+---@field lastDebugCoverPreset gamebbScriptID_Int32
+---@field firstCoverEvaluationDone gamebbScriptID_Bool
+---@field startCoverEvaluationTimeStamp gamebbScriptID_Float
 AICoverDataDef = {}
 
 ---@param fields? AICoverDataDef
 ---@return AICoverDataDef
-function AICoverDataDef.new(fields) return end
+function AICoverDataDef.new(fields) end
 
 ---@return Bool
-function AICoverDataDef:AutoCreateInSystem() return end
+function AICoverDataDef:AutoCreateInSystem() end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function AICoverDataDef:Initialize(blackboard) return end
+function AICoverDataDef:Initialize(blackboard) end

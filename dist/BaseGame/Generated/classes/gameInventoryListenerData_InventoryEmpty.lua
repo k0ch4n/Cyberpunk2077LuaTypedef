@@ -5,4 +5,4 @@ gameInventoryListenerData_InventoryEmpty = {}
 
 ---@param fields? gameInventoryListenerData_InventoryEmpty
 ---@return gameInventoryListenerData_InventoryEmpty
-function gameInventoryListenerData_InventoryEmpty.new(fields) return end
+function gameInventoryListenerData_InventoryEmpty.new(fields) end

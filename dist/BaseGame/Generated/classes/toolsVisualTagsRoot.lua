@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsVisualTagsRoot: ISerializable
----@field public schemas toolsVisualTagsSchema[]
+---@field schemas toolsVisualTagsSchema[]
 toolsVisualTagsRoot = {}
 
 ---@param fields? toolsVisualTagsRoot
 ---@return toolsVisualTagsRoot
-function toolsVisualTagsRoot.new(fields) return end
+function toolsVisualTagsRoot.new(fields) end

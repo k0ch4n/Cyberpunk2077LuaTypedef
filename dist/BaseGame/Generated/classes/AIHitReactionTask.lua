@@ -1,102 +1,84 @@
 ---@meta
 
 ---@class AIHitReactionTask: AIbehaviortaskScript
----@field protected activationTimeStamp Float
----@field private reactionDuration Float
----@field private hitReactionAction ActionHitReactionScriptProxy
----@field private hitReactionType animHitReactionType
+---@field activationTimeStamp Float
+---@field reactionDuration Float
+---@field hitReactionAction ActionHitReactionScriptProxy
+---@field hitReactionType animHitReactionType
 AIHitReactionTask = {}
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIHitReactionTask:Activate(context) return end
+function AIHitReactionTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param hitData animAnimFeature_HitReactionsData
 ---@return Float
-function AIHitReactionTask:AngleToAttackSource(context, hitData) return end
+function AIHitReactionTask:AngleToAttackSource(context, hitData) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIHitReactionTask:CheckForReevaluation(context) return end
+function AIHitReactionTask:CheckForReevaluation(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIHitReactionTask:Deactivate(context) return end
+function AIHitReactionTask:Deactivate(context) end
 
 ---@return nil
-function AIHitReactionTask:Dispose() return end
+function AIHitReactionTask:Dispose() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return CName
-function AIHitReactionTask:GetBCVOName(context) return end
+function AIHitReactionTask:GetBCVOName(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function AIHitReactionTask:GetDesiredHitReactionDuration(context) return end
+function AIHitReactionTask:GetDesiredHitReactionDuration(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function AIHitReactionTask:GetHitReactionDurationWithInterrupt(context) return end
+function AIHitReactionTask:GetHitReactionDurationWithInterrupt(context) end
 
----@private
 ---@return animHitReactionType
-function AIHitReactionTask:GetHitReactionType() return end
+function AIHitReactionTask:GetHitReactionType() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIHitReactionTask:HasDismemberedLeg(context) return end
+function AIHitReactionTask:HasDismemberedLeg(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIHitReactionTask:InitialiseReaction(context) return end
+function AIHitReactionTask:InitialiseReaction(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIHitReactionTask:IsThisFrameActivationFrame(context) return end
+function AIHitReactionTask:IsThisFrameActivationFrame(context) end
 
----@protected
 ---@param hitReaction animAnimFeature_HitReactionsData
 ---@return Bool
-function AIHitReactionTask:IsTumbleStagger(hitReaction) return end
+function AIHitReactionTask:IsTumbleStagger(hitReaction) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIHitReactionTask:OnActivate(context) return end
+function AIHitReactionTask:OnActivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIHitReactionTask:OnDeactivate(context) return end
+function AIHitReactionTask:OnDeactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param aiTime Float
 ---@return nil
-function AIHitReactionTask:OnUpdate(context, aiTime) return end
+function AIHitReactionTask:OnUpdate(context, aiTime) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIHitReactionTask:SendDataToAnimationGraph(context) return end
+function AIHitReactionTask:SendDataToAnimationGraph(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIHitReactionTask:SendDataToHitReactionComponent(context) return end
+function AIHitReactionTask:SendDataToHitReactionComponent(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param gameEffect gameEffectRef
 ---@param startPosition Vector4
@@ -105,9 +87,8 @@ function AIHitReactionTask:SendDataToHitReactionComponent(context) return end
 ---@param colliderBoxSize Vector4
 ---@param statusEffect String
 ---@return nil
-function AIHitReactionTask:SpawnAttackGameEffect(context, gameEffect, startPosition, endPosition, duration, colliderBoxSize, statusEffect) return end
+function AIHitReactionTask:SpawnAttackGameEffect(context, gameEffect, startPosition, endPosition, duration, colliderBoxSize, statusEffect) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIHitReactionTask:Update(context) return end
+function AIHitReactionTask:Update(context) end

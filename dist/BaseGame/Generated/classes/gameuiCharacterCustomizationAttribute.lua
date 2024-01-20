@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationAttribute
----@field public type gamedataStatType
----@field public value Uint32
+---@field type gamedataStatType
+---@field value Uint32
 gameuiCharacterCustomizationAttribute = {}
 
 ---@param fields? gameuiCharacterCustomizationAttribute
 ---@return gameuiCharacterCustomizationAttribute
-function gameuiCharacterCustomizationAttribute.new(fields) return end
+function gameuiCharacterCustomizationAttribute.new(fields) end

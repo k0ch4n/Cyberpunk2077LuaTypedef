@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldMinimapModeOverrideAreaNode: worldTriggerAreaNode
----@field public streamingOcclusion worldPrefabStreamingOcclusion
+---@field streamingOcclusion worldPrefabStreamingOcclusion
 worldMinimapModeOverrideAreaNode = {}
 
 ---@param fields? worldMinimapModeOverrideAreaNode
 ---@return worldMinimapModeOverrideAreaNode
-function worldMinimapModeOverrideAreaNode.new(fields) return end
+function worldMinimapModeOverrideAreaNode.new(fields) end

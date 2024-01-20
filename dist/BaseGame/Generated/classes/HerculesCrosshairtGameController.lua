@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class HerculesCrosshairtGameController: IronsightGameController
----@field protected appearanceFill Int32
----@field protected appearanceOutline Int32
----@field protected appearanceShowThroughWalls Bool
----@field protected appearanceTransitionTime Float
----@field private weaponParamsListenerId redCallbackObject
----@field private game ScriptGameInstance
----@field private visionModeSystem gameVisionModeSystem
----@field private targetedApperance gameVisionAppearance
----@field private targets entEntityID[]
+---@field appearanceFill Int32
+---@field appearanceOutline Int32
+---@field appearanceShowThroughWalls Bool
+---@field appearanceTransitionTime Float
+---@field weaponParamsListenerId redCallbackObject
+---@field game ScriptGameInstance
+---@field visionModeSystem gameVisionModeSystem
+---@field targetedApperance gameVisionAppearance
+---@field targets entEntityID[]
 HerculesCrosshairtGameController = {}
 
 ---@param fields? HerculesCrosshairtGameController
 ---@return HerculesCrosshairtGameController
-function HerculesCrosshairtGameController.new(fields) return end
+function HerculesCrosshairtGameController.new(fields) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function HerculesCrosshairtGameController:OnPlayerAttach(playerPuppet) return end
+function HerculesCrosshairtGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function HerculesCrosshairtGameController:OnPlayerDetach(playerPuppet) return end
+function HerculesCrosshairtGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param argParams Variant
 ---@return Bool
-function HerculesCrosshairtGameController:OnSmartGunParams(argParams) return end
+function HerculesCrosshairtGameController:OnSmartGunParams(argParams) end
 
----@protected
 ---@param state Int32
 ---@return Bool
-function HerculesCrosshairtGameController:OnUpperBodyChanged(state) return end
+function HerculesCrosshairtGameController:OnUpperBodyChanged(state) end

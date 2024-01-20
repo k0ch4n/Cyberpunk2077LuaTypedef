@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class IsNpcMountedInSlotPrereqState: gamePrereqState
----@field public psListener gameScriptedPrereqPSChangeListenerWrapper
+---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsNpcMountedInSlotPrereqState = {}
 
 ---@param fields? IsNpcMountedInSlotPrereqState
 ---@return IsNpcMountedInSlotPrereqState
-function IsNpcMountedInSlotPrereqState.new(fields) return end
+function IsNpcMountedInSlotPrereqState.new(fields) end
 
----@protected
 ---@return nil
-function IsNpcMountedInSlotPrereqState:OnMountingStateChanged() return end
+function IsNpcMountedInSlotPrereqState:OnMountingStateChanged() end

@@ -5,4 +5,4 @@ InternalFunctionalTestsGameEngine = {}
 
 ---@param fields? InternalFunctionalTestsGameEngine
 ---@return InternalFunctionalTestsGameEngine
-function InternalFunctionalTestsGameEngine.new(fields) return end
+function InternalFunctionalTestsGameEngine.new(fields) end

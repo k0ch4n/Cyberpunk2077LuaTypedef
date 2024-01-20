@@ -5,4 +5,4 @@ gameInventoryScriptListener = {}
 
 ---@param fields? gameInventoryScriptListener
 ---@return gameInventoryScriptListener
-function gameInventoryScriptListener.new(fields) return end
+function gameInventoryScriptListener.new(fields) end

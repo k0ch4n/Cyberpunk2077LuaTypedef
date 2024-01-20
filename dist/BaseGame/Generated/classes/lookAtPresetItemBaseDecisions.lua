@@ -5,4 +5,4 @@ lookAtPresetItemBaseDecisions = {}
 
 ---@param fields? lookAtPresetItemBaseDecisions
 ---@return lookAtPresetItemBaseDecisions
-function lookAtPresetItemBaseDecisions.new(fields) return end
+function lookAtPresetItemBaseDecisions.new(fields) end

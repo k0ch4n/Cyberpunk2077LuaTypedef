@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameLootResource: CResource
----@field public data gameLootResourceData
+---@field data gameLootResourceData
 gameLootResource = {}
 
 ---@param fields? gameLootResource
 ---@return gameLootResource
-function gameLootResource.new(fields) return end
+function gameLootResource.new(fields) end

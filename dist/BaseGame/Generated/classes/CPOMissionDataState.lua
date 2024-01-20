@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class CPOMissionDataState: IScriptable
----@field public CPOMissionDataDamagesPreset CName
----@field public compatibleDeviceName CName
----@field public ownerDecidesOnTransfer Bool
----@field public isChoiceToken Bool
----@field public choiceTokenTimeout Uint32
----@field public delayedGiveChoiceTokenEventId gameDelayID
----@field private dataDamageTextLayerId Uint32
+---@field CPOMissionDataDamagesPreset CName
+---@field compatibleDeviceName CName
+---@field ownerDecidesOnTransfer Bool
+---@field isChoiceToken Bool
+---@field choiceTokenTimeout Uint32
+---@field delayedGiveChoiceTokenEventId gameDelayID
+---@field dataDamageTextLayerId Uint32
 CPOMissionDataState = {}
 
 ---@param fields? CPOMissionDataState
 ---@return CPOMissionDataState
-function CPOMissionDataState.new(fields) return end
+function CPOMissionDataState.new(fields) end
 
 ---@param puppet PlayerPuppet
 ---@param healthDamage Bool
 ---@return nil
-function CPOMissionDataState:OnDamage(puppet, healthDamage) return end
+function CPOMissionDataState:OnDamage(puppet, healthDamage) end
 
 ---@param puppet PlayerPuppet
 ---@return nil
-function CPOMissionDataState:UpdateSounds(puppet) return end
+function CPOMissionDataState:UpdateSounds(puppet) end

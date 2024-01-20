@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class StatusEffectPresentHitPrereqCondition: BaseHitPrereqCondition
----@field public checkType gamedataCheckType
----@field public statusEffectParam CName
----@field public tag CName
----@field public objectToCheck CName
+---@field checkType gamedataCheckType
+---@field statusEffectParam CName
+---@field tag CName
+---@field objectToCheck CName
 StatusEffectPresentHitPrereqCondition = {}
 
 ---@param fields? StatusEffectPresentHitPrereqCondition
 ---@return StatusEffectPresentHitPrereqCondition
-function StatusEffectPresentHitPrereqCondition.new(fields) return end
+function StatusEffectPresentHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function StatusEffectPresentHitPrereqCondition:Evaluate(hitEvent) return end
+function StatusEffectPresentHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function StatusEffectPresentHitPrereqCondition:SetData(recordID) return end
+function StatusEffectPresentHitPrereqCondition:SetData(recordID) end

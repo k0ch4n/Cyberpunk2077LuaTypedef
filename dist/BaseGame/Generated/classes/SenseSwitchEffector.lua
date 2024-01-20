@@ -5,19 +5,17 @@ SenseSwitchEffector = {}
 
 ---@param fields? SenseSwitchEffector
 ---@return SenseSwitchEffector
-function SenseSwitchEffector.new(fields) return end
+function SenseSwitchEffector.new(fields) end
 
 ---@param senseComponent senseComponent
 ---@param condition Bool
 ---@return nil
-function SenseSwitchEffector.SenseSwitch(senseComponent, condition) return end
+function SenseSwitchEffector.SenseSwitch(senseComponent, condition) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SenseSwitchEffector:ActionOff(owner) return end
+function SenseSwitchEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SenseSwitchEffector:ActionOn(owner) return end
+function SenseSwitchEffector:ActionOn(owner) end

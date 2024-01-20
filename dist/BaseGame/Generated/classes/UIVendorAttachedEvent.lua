@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UIVendorAttachedEvent: redEvent
----@field public vendorID TweakDBID
----@field public vendorObject gameObject
+---@field vendorID TweakDBID
+---@field vendorObject gameObject
 UIVendorAttachedEvent = {}
 
 ---@param fields? UIVendorAttachedEvent
 ---@return UIVendorAttachedEvent
-function UIVendorAttachedEvent.new(fields) return end
+function UIVendorAttachedEvent.new(fields) end

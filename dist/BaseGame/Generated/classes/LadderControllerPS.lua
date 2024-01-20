@@ -5,16 +5,15 @@ LadderControllerPS = {}
 
 ---@param fields? LadderControllerPS
 ---@return LadderControllerPS
-function LadderControllerPS.new(fields) return end
+function LadderControllerPS.new(fields) end
 
----@protected
 ---@return EnterLadder
-function LadderControllerPS:ActionEnterLadder() return end
+function LadderControllerPS:ActionEnterLadder() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function LadderControllerPS:GetActions(context) return end
+function LadderControllerPS:GetActions(context) end
 
 ---@param evt EnterLadder
 ---@return EntityNotificationType
-function LadderControllerPS:OnEnterLadder(evt) return end
+function LadderControllerPS:OnEnterLadder(evt) end

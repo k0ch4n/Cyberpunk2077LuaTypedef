@@ -1,207 +1,183 @@
 ---@meta
 
 ---@class UIInventoryScriptableSystem: gameScriptableSystem
----@field private attachedPlayer PlayerPuppet
----@field private inventoryListenerCallback UIInventoryScriptableInventoryListenerCallback
----@field private inventoryListener gameInventoryScriptListener
----@field private equipmentListener UIInventoryScriptableEquipmentListener
----@field private playerStatsListener UIInventoryScriptableStatsListener
----@field private uiSystem gameuiGameSystemUI
----@field private playerItems inkScriptHashMap
----@field private transactionSystem gameTransactionSystem
----@field private uiScriptableSystem UIScriptableSystem
----@field private inventoryItemsManager UIInventoryItemsManager
----@field private blacklistedTags CName[]
----@field private cachedNonInventoryItems inkScriptHashMap
----@field private statsDependantItems inkScriptWeakHashMap
----@field private InventoryBlackboard gameIBlackboard
----@field private CraftingBlackboardDefinition UI_CraftingDef
----@field private Blackboard gameIBlackboard
----@field private UpgradeBlackboardCallback redCallbackObject
----@field private TEMP_questSystem questQuestsSystem
----@field private TEMP_cuverBarsListener Uint32
----@field private TEMP_separatorBarsListener Uint32
----@field private itemsRestored Bool
+---@field attachedPlayer PlayerPuppet
+---@field inventoryListenerCallback UIInventoryScriptableInventoryListenerCallback
+---@field inventoryListener gameInventoryScriptListener
+---@field equipmentListener UIInventoryScriptableEquipmentListener
+---@field playerStatsListener UIInventoryScriptableStatsListener
+---@field uiSystem gameuiGameSystemUI
+---@field playerItems inkScriptHashMap
+---@field transactionSystem gameTransactionSystem
+---@field uiScriptableSystem UIScriptableSystem
+---@field inventoryItemsManager UIInventoryItemsManager
+---@field blacklistedTags CName[]
+---@field cachedNonInventoryItems inkScriptHashMap
+---@field statsDependantItems inkScriptWeakHashMap
+---@field InventoryBlackboard gameIBlackboard
+---@field CraftingBlackboardDefinition UI_CraftingDef
+---@field Blackboard gameIBlackboard
+---@field UpgradeBlackboardCallback redCallbackObject
+---@field TEMP_questSystem questQuestsSystem
+---@field TEMP_cuverBarsListener Uint32
+---@field TEMP_separatorBarsListener Uint32
+---@field itemsRestored Bool
 UIInventoryScriptableSystem = {}
 
 ---@param fields? UIInventoryScriptableSystem
 ---@return UIInventoryScriptableSystem
-function UIInventoryScriptableSystem.new(fields) return end
+function UIInventoryScriptableSystem.new(fields) end
 
 ---@return UIInventoryScriptableSystem
-function UIInventoryScriptableSystem.GetInstance() return end
+function UIInventoryScriptableSystem.GetInstance() end
 
 ---@return Int32
-function UIInventoryScriptableSystem.NumberOfWeaponSlots() return end
+function UIInventoryScriptableSystem.NumberOfWeaponSlots() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function UIInventoryScriptableSystem:OnUpgradeItem(value) return end
+function UIInventoryScriptableSystem:OnUpgradeItem(value) end
 
----@private
 ---@param value Int32
 ---@return nil
-function UIInventoryScriptableSystem:DisableCurveBarsChanged(value) return end
+function UIInventoryScriptableSystem:DisableCurveBarsChanged(value) end
 
----@private
 ---@param value Int32
 ---@return nil
-function UIInventoryScriptableSystem:DisableSeparatorBarsChanged(value) return end
+function UIInventoryScriptableSystem:DisableSeparatorBarsChanged(value) end
 
 ---@return nil
-function UIInventoryScriptableSystem:FlushCraftingResults() return end
-
----@private
----@return nil
-function UIInventoryScriptableSystem:FlushCyberwareStats() return end
+function UIInventoryScriptableSystem:FlushCraftingResults() end
 
 ---@return nil
-function UIInventoryScriptableSystem:FlushFullscreenCache() return end
-
----@private
----@return nil
-function UIInventoryScriptableSystem:FlushNanoWiresMods() return end
+function UIInventoryScriptableSystem:FlushCyberwareStats() end
 
 ---@return nil
-function UIInventoryScriptableSystem:FlushStatsDependantItems() return end
+function UIInventoryScriptableSystem:FlushFullscreenCache() end
 
 ---@return nil
-function UIInventoryScriptableSystem:FlushTempData() return end
+function UIInventoryScriptableSystem:FlushNanoWiresMods() end
+
+---@return nil
+function UIInventoryScriptableSystem:FlushStatsDependantItems() end
+
+---@return nil
+function UIInventoryScriptableSystem:FlushTempData() end
 
 ---@return UIInventoryItemsManager
-function UIInventoryScriptableSystem:GetInventoryItemsManager() return end
+function UIInventoryScriptableSystem:GetInventoryItemsManager() end
 
 ---@param itemID gameItemID
 ---@return UIInventoryItem
-function UIInventoryScriptableSystem:GetNonInventoryItem(itemID) return end
+function UIInventoryScriptableSystem:GetNonInventoryItem(itemID) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@param slotIndex? Int32
 ---@return UIInventoryItem
-function UIInventoryScriptableSystem:GetPlayerAreaItem(equipmentArea, slotIndex) return end
+function UIInventoryScriptableSystem:GetPlayerAreaItem(equipmentArea, slotIndex) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return UIInventoryItem[]
-function UIInventoryScriptableSystem:GetPlayerAreaItems(equipmentArea) return end
+function UIInventoryScriptableSystem:GetPlayerAreaItems(equipmentArea) end
 
 ---@param itemID gameItemID
 ---@return UIInventoryItem
-function UIInventoryScriptableSystem:GetPlayerItem(itemID) return end
+function UIInventoryScriptableSystem:GetPlayerItem(itemID) end
 
 ---@param hash Uint64
 ---@return UIInventoryItem
-function UIInventoryScriptableSystem:GetPlayerItem(hash) return end
+function UIInventoryScriptableSystem:GetPlayerItem(hash) end
 
 ---@param itemData gameItemData
 ---@return UIInventoryItem
-function UIInventoryScriptableSystem:GetPlayerItemFromAnySource(itemData) return end
+function UIInventoryScriptableSystem:GetPlayerItemFromAnySource(itemData) end
 
 ---@return inkScriptHashMap
-function UIInventoryScriptableSystem:GetPlayerItemsMap() return end
+function UIInventoryScriptableSystem:GetPlayerItemsMap() end
 
----@private
 ---@param hash Uint64
 ---@param itemData UIInventoryItem
 ---@return nil
-function UIInventoryScriptableSystem:InsertPlayerItem(hash, itemData) return end
+function UIInventoryScriptableSystem:InsertPlayerItem(hash, itemData) end
 
----@private
 ---@param hash Uint64
 ---@param itemData gameItemData
 ---@return Bool
-function UIInventoryScriptableSystem:Internal_FetchNonInventoryItem(hash, itemData) return end
+function UIInventoryScriptableSystem:Internal_FetchNonInventoryItem(hash, itemData) end
 
----@private
 ---@param itemID gameItemID
 ---@return Bool
-function UIInventoryScriptableSystem:IsPreview(itemID) return end
+function UIInventoryScriptableSystem:IsPreview(itemID) end
 
----@private
 ---@param tweakDBID TweakDBID|string
 ---@return Bool
-function UIInventoryScriptableSystem:IsStatDependantItem(tweakDBID) return end
+function UIInventoryScriptableSystem:IsStatDependantItem(tweakDBID) end
 
----@private
 ---@param itemID gameItemID
 ---@param hash Uint64
 ---@return nil
-function UIInventoryScriptableSystem:NotifyItemAdded(itemID, hash) return end
+function UIInventoryScriptableSystem:NotifyItemAdded(itemID, hash) end
 
----@private
 ---@param itemID gameItemID
 ---@param hash Uint64
 ---@return nil
-function UIInventoryScriptableSystem:NotifyItemRemoved(itemID, hash) return end
+function UIInventoryScriptableSystem:NotifyItemRemoved(itemID, hash) end
 
----@private
 ---@param request BuyNewPerk
 ---@return nil
-function UIInventoryScriptableSystem:OnBuyNewPerk(request) return end
+function UIInventoryScriptableSystem:OnBuyNewPerk(request) end
 
----@private
 ---@return nil
-function UIInventoryScriptableSystem:OnDetach() return end
+function UIInventoryScriptableSystem:OnDetach() end
 
----@private
 ---@param request UIInventoryScriptableSystemInventoryAddItem
 ---@return nil
-function UIInventoryScriptableSystem:OnInventoryItemAdded(request) return end
+function UIInventoryScriptableSystem:OnInventoryItemAdded(request) end
 
----@private
 ---@param request UIInventoryScriptableSystemInventoryQuantityChanged
 ---@return nil
-function UIInventoryScriptableSystem:OnInventoryItemQuantityChanged(request) return end
+function UIInventoryScriptableSystem:OnInventoryItemQuantityChanged(request) end
 
----@private
 ---@param request UIInventoryScriptableSystemInventoryRemoveItem
 ---@return nil
-function UIInventoryScriptableSystem:OnInventoryItemRemoved(request) return end
+function UIInventoryScriptableSystem:OnInventoryItemRemoved(request) end
 
----@private
 ---@param request PartInstallRequest
 ---@return nil
-function UIInventoryScriptableSystem:OnPartInstallRequest(request) return end
+function UIInventoryScriptableSystem:OnPartInstallRequest(request) end
 
----@private
 ---@param request PartUninstallRequest
 ---@return nil
-function UIInventoryScriptableSystem:OnPartUninstallRequest(request) return end
+function UIInventoryScriptableSystem:OnPartUninstallRequest(request) end
 
----@private
 ---@param request gamePlayerAttachRequest
 ---@return nil
-function UIInventoryScriptableSystem:OnPlayerAttach(request) return end
+function UIInventoryScriptableSystem:OnPlayerAttach(request) end
 
----@private
 ---@param request SellNewPerk
 ---@return nil
-function UIInventoryScriptableSystem:OnSellNewPerk(request) return end
+function UIInventoryScriptableSystem:OnSellNewPerk(request) end
 
 ---@param tweakID TweakDBID|string
 ---@return UIInventoryItem
-function UIInventoryScriptableSystem:QueryNonInventoryItem(tweakID) return end
+function UIInventoryScriptableSystem:QueryNonInventoryItem(tweakID) end
 
 ---@param tweakID TweakDBID|string
 ---@return UIInventoryItem
-function UIInventoryScriptableSystem:QueryPlayerItem(tweakID) return end
+function UIInventoryScriptableSystem:QueryPlayerItem(tweakID) end
 
----@private
 ---@param itemID gameItemID
 ---@return nil
-function UIInventoryScriptableSystem:RefreshItem(itemID) return end
+function UIInventoryScriptableSystem:RefreshItem(itemID) end
 
----@private
 ---@param hash Uint64
 ---@param itemID gameItemID
 ---@return nil
-function UIInventoryScriptableSystem:RemovePlayerItem(hash, itemID) return end
+function UIInventoryScriptableSystem:RemovePlayerItem(hash, itemID) end
 
----@private
 ---@return nil
-function UIInventoryScriptableSystem:SetupInstance() return end
+function UIInventoryScriptableSystem:SetupInstance() end
 
----@private
 ---@param perkType gamedataNewPerkType
 ---@return nil
-function UIInventoryScriptableSystem:UpdateNewPerk(perkType) return end
+function UIInventoryScriptableSystem:UpdateNewPerk(perkType) end

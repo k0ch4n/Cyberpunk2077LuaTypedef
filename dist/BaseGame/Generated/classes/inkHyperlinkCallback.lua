@@ -5,4 +5,4 @@ inkHyperlinkCallback = {}
 
 ---@param fields? inkHyperlinkCallback
 ---@return inkHyperlinkCallback
-function inkHyperlinkCallback.new(fields) return end
+function inkHyperlinkCallback.new(fields) end

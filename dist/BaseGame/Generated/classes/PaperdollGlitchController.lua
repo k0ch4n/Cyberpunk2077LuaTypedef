@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class PaperdollGlitchController: inkWidgetLogicController
----@field protected PaperdollGlichRoot inkWidgetReference
----@field private GlitchAnimationName CName
+---@field PaperdollGlichRoot inkWidgetReference
+---@field GlitchAnimationName CName
 PaperdollGlitchController = {}
 
 ---@param fields? PaperdollGlitchController
 ---@return PaperdollGlitchController
-function PaperdollGlitchController.new(fields) return end
+function PaperdollGlitchController.new(fields) end
 
----@protected
 ---@return Bool
-function PaperdollGlitchController:OnInitialize() return end
+function PaperdollGlitchController:OnInitialize() end

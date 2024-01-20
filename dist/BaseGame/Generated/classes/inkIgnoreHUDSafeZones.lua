@@ -5,4 +5,4 @@ inkIgnoreHUDSafeZones = {}
 
 ---@param fields? inkIgnoreHUDSafeZones
 ---@return inkIgnoreHUDSafeZones
-function inkIgnoreHUDSafeZones.new(fields) return end
+function inkIgnoreHUDSafeZones.new(fields) end

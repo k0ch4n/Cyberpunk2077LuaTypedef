@@ -5,4 +5,4 @@ gameConstantStatModifier = {}
 
 ---@param fields? gameConstantStatModifier
 ---@return gameConstantStatModifier
-function gameConstantStatModifier.new(fields) return end
+function gameConstantStatModifier.new(fields) end

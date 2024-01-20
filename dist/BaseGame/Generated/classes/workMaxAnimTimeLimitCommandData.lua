@@ -5,4 +5,4 @@ workMaxAnimTimeLimitCommandData = {}
 
 ---@param fields? workMaxAnimTimeLimitCommandData
 ---@return workMaxAnimTimeLimitCommandData
-function workMaxAnimTimeLimitCommandData.new(fields) return end
+function workMaxAnimTimeLimitCommandData.new(fields) end

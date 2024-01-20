@@ -5,7 +5,7 @@ RevealEnemiesProgram = {}
 
 ---@param fields? RevealEnemiesProgram
 ---@return RevealEnemiesProgram
-function RevealEnemiesProgram.new(fields) return end
+function RevealEnemiesProgram.new(fields) end
 
 ---@return nil
-function RevealEnemiesProgram:SetProperties() return end
+function RevealEnemiesProgram:SetProperties() end

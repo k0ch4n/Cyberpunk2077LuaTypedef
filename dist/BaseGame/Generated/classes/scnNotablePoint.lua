@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnNotablePoint
----@field public name CName
----@field public nodeId scnNodeId
+---@field name CName
+---@field nodeId scnNodeId
 scnNotablePoint = {}
 
 ---@param fields? scnNotablePoint
 ---@return scnNotablePoint
-function scnNotablePoint.new(fields) return end
+function scnNotablePoint.new(fields) end

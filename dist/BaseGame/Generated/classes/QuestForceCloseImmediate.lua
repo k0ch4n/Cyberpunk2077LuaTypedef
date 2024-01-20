@@ -5,7 +5,7 @@ QuestForceCloseImmediate = {}
 
 ---@param fields? QuestForceCloseImmediate
 ---@return QuestForceCloseImmediate
-function QuestForceCloseImmediate.new(fields) return end
+function QuestForceCloseImmediate.new(fields) end
 
 ---@return nil
-function QuestForceCloseImmediate:SetProperties() return end
+function QuestForceCloseImmediate:SetProperties() end

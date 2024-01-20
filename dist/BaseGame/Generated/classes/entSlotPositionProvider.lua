@@ -5,4 +5,4 @@ entSlotPositionProvider = {}
 
 ---@param fields? entSlotPositionProvider
 ---@return entSlotPositionProvider
-function entSlotPositionProvider.new(fields) return end
+function entSlotPositionProvider.new(fields) end

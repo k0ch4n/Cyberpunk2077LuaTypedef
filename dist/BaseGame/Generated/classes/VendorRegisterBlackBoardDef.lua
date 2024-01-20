@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VendorRegisterBlackBoardDef: gamebbScriptDefinition
----@field public vendors gamebbScriptID_Variant
+---@field vendors gamebbScriptID_Variant
 VendorRegisterBlackBoardDef = {}
 
 ---@param fields? VendorRegisterBlackBoardDef
 ---@return VendorRegisterBlackBoardDef
-function VendorRegisterBlackBoardDef.new(fields) return end
+function VendorRegisterBlackBoardDef.new(fields) end
 
 ---@return Bool
-function VendorRegisterBlackBoardDef:AutoCreateInSystem() return end
+function VendorRegisterBlackBoardDef:AutoCreateInSystem() end

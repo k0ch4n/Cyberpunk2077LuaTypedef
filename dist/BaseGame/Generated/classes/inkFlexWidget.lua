@@ -5,4 +5,4 @@ inkFlexWidget = {}
 
 ---@param fields? inkFlexWidget
 ---@return inkFlexWidget
-function inkFlexWidget.new(fields) return end
+function inkFlexWidget.new(fields) end

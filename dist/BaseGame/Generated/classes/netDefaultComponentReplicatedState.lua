@@ -5,4 +5,4 @@ netDefaultComponentReplicatedState = {}
 
 ---@param fields? netDefaultComponentReplicatedState
 ---@return netDefaultComponentReplicatedState
-function netDefaultComponentReplicatedState.new(fields) return end
+function netDefaultComponentReplicatedState.new(fields) end

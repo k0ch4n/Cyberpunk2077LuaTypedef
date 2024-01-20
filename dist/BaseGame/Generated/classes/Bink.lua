@@ -5,4 +5,4 @@ Bink = {}
 
 ---@param fields? Bink
 ---@return Bink
-function Bink.new(fields) return end
+function Bink.new(fields) end

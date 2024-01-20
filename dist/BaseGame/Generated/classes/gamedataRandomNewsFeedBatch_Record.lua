@@ -5,18 +5,18 @@ gamedataRandomNewsFeedBatch_Record = {}
 
 ---@param fields? gamedataRandomNewsFeedBatch_Record
 ---@return gamedataRandomNewsFeedBatch_Record
-function gamedataRandomNewsFeedBatch_Record.new(fields) return end
+function gamedataRandomNewsFeedBatch_Record.new(fields) end
 
 ---@return CName[]
-function gamedataRandomNewsFeedBatch_Record:FeedList() return end
+function gamedataRandomNewsFeedBatch_Record:FeedList() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataRandomNewsFeedBatch_Record:FeedListContains(item) return end
+function gamedataRandomNewsFeedBatch_Record:FeedListContains(item) end
 
 ---@return Int32
-function gamedataRandomNewsFeedBatch_Record:GetFeedListCount() return end
+function gamedataRandomNewsFeedBatch_Record:GetFeedListCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataRandomNewsFeedBatch_Record:GetFeedListItem(index) return end
+function gamedataRandomNewsFeedBatch_Record:GetFeedListItem(index) end

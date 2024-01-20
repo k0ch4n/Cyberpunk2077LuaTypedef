@@ -5,4 +5,4 @@ AIbehaviorWaitJoinTrafficConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitJoinTrafficConditionDefinition
 ---@return AIbehaviorWaitJoinTrafficConditionDefinition
-function AIbehaviorWaitJoinTrafficConditionDefinition.new(fields) return end
+function AIbehaviorWaitJoinTrafficConditionDefinition.new(fields) end

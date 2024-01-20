@@ -1,33 +1,29 @@
 ---@meta
 
 ---@class LimfaticNanoChargeSystemEffector: gameContinuousEffector
----@field public maxDistance Float
----@field public statusEffectID TweakDBID
----@field public ownerID entEntityID
----@field public statusEffectIsApplied Bool
+---@field maxDistance Float
+---@field statusEffectID TweakDBID
+---@field ownerID entEntityID
+---@field statusEffectIsApplied Bool
 LimfaticNanoChargeSystemEffector = {}
 
 ---@param fields? LimfaticNanoChargeSystemEffector
 ---@return LimfaticNanoChargeSystemEffector
-function LimfaticNanoChargeSystemEffector.new(fields) return end
+function LimfaticNanoChargeSystemEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function LimfaticNanoChargeSystemEffector:ContinuousAction(owner, instigator) return end
+function LimfaticNanoChargeSystemEffector:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function LimfaticNanoChargeSystemEffector:Initialize(record, parentRecord) return end
+function LimfaticNanoChargeSystemEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function LimfaticNanoChargeSystemEffector:ProcessEffector(owner) return end
+function LimfaticNanoChargeSystemEffector:ProcessEffector(owner) end
 
----@protected
 ---@return nil
-function LimfaticNanoChargeSystemEffector:Uninitialize() return end
+function LimfaticNanoChargeSystemEffector:Uninitialize() end

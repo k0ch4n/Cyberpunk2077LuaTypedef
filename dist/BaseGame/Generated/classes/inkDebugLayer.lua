@@ -5,4 +5,4 @@ inkDebugLayer = {}
 
 ---@param fields? inkDebugLayer
 ---@return inkDebugLayer
-function inkDebugLayer.new(fields) return end
+function inkDebugLayer.new(fields) end

@@ -5,4 +5,4 @@ entTargetPointComponent = {}
 
 ---@param fields? entTargetPointComponent
 ---@return entTargetPointComponent
-function entTargetPointComponent.new(fields) return end
+function entTargetPointComponent.new(fields) end

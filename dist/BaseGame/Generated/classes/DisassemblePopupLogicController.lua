@@ -1,33 +1,30 @@
 ---@meta
 
 ---@class DisassemblePopupLogicController: inkWidgetLogicController
----@field private quantity inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field private duration Float
----@field private animProxy inkanimProxy
----@field private alpha_fadein inkanimDefinition
----@field private AnimOptions inkanimPlaybackOptions
+---@field quantity inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field label inkTextWidgetReference
+---@field duration Float
+---@field animProxy inkanimProxy
+---@field alpha_fadein inkanimDefinition
+---@field AnimOptions inkanimPlaybackOptions
 DisassemblePopupLogicController = {}
 
 ---@param fields? DisassemblePopupLogicController
 ---@return DisassemblePopupLogicController
-function DisassemblePopupLogicController.new(fields) return end
+function DisassemblePopupLogicController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function DisassemblePopupLogicController:OnAddPopupComplete(anim) return end
+function DisassemblePopupLogicController:OnAddPopupComplete(anim) end
 
----@protected
 ---@return Bool
-function DisassemblePopupLogicController:OnInitialize() return end
+function DisassemblePopupLogicController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function DisassemblePopupLogicController:OnPopupDurationComplete(anim) return end
+function DisassemblePopupLogicController:OnPopupDurationComplete(anim) end
 
 ---@param itemData gameInventoryItemData
 ---@return nil
-function DisassemblePopupLogicController:SetupData(itemData) return end
+function DisassemblePopupLogicController:SetupData(itemData) end

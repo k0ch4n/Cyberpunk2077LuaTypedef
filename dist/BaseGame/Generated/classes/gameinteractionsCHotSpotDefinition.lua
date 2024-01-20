@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameinteractionsCHotSpotDefinition
----@field public suppressor Bool
----@field public layersDefinition gameinteractionsCLinkedLayersDefinition[]
+---@field suppressor Bool
+---@field layersDefinition gameinteractionsCLinkedLayersDefinition[]
 gameinteractionsCHotSpotDefinition = {}
 
 ---@param fields? gameinteractionsCHotSpotDefinition
 ---@return gameinteractionsCHotSpotDefinition
-function gameinteractionsCHotSpotDefinition.new(fields) return end
+function gameinteractionsCHotSpotDefinition.new(fields) end

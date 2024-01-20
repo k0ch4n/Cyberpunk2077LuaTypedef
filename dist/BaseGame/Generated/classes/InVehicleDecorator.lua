@@ -5,19 +5,16 @@ InVehicleDecorator = {}
 
 ---@param fields? InVehicleDecorator
 ---@return InVehicleDecorator
-function InVehicleDecorator.new(fields) return end
+function InVehicleDecorator.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleDecorator:Activate(context) return end
+function InVehicleDecorator:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleDecorator:Deactivate(context) return end
+function InVehicleDecorator:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function InVehicleDecorator:Update(context) return end
+function InVehicleDecorator:Update(context) end

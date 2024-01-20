@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scneventsSpawnEntityEventFallbackData
----@field public owner scnPerformerId
----@field public fallbackCachedBones scneventsSpawnEntityEventCachedFallbackBone
----@field public fallbackAnimset animAnimSet
----@field public fallbackAnimationName CName
----@field public fallbackAnimTime Float
+---@field owner scnPerformerId
+---@field fallbackCachedBones scneventsSpawnEntityEventCachedFallbackBone
+---@field fallbackAnimset animAnimSet
+---@field fallbackAnimationName CName
+---@field fallbackAnimTime Float
 scneventsSpawnEntityEventFallbackData = {}
 
 ---@param fields? scneventsSpawnEntityEventFallbackData
 ---@return scneventsSpawnEntityEventFallbackData
-function scneventsSpawnEntityEventFallbackData.new(fields) return end
+function scneventsSpawnEntityEventFallbackData.new(fields) end

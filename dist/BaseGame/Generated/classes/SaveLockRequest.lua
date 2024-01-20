@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SaveLockRequest: gameScriptableSystemRequest
----@field public operation EItemOperationType
----@field public reason CName
+---@field operation EItemOperationType
+---@field reason CName
 SaveLockRequest = {}
 
 ---@param fields? SaveLockRequest
 ---@return SaveLockRequest
-function SaveLockRequest.new(fields) return end
+function SaveLockRequest.new(fields) end

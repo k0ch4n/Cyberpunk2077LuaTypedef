@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkCreditsResource: CResource
----@field public sections inkCreditsSectionEntry[]
+---@field sections inkCreditsSectionEntry[]
 inkCreditsResource = {}
 
 ---@param fields? inkCreditsResource
 ---@return inkCreditsResource
-function inkCreditsResource.new(fields) return end
+function inkCreditsResource.new(fields) end

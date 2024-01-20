@@ -5,4 +5,4 @@ gameCommunityProxyPSPresentEvent = {}
 
 ---@param fields? gameCommunityProxyPSPresentEvent
 ---@return gameCommunityProxyPSPresentEvent
-function gameCommunityProxyPSPresentEvent.new(fields) return end
+function gameCommunityProxyPSPresentEvent.new(fields) end

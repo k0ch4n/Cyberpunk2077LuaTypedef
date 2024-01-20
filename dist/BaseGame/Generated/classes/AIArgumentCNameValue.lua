@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentCNameValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue CName
+---@field type AIArgumentType
+---@field defaultValue CName
 AIArgumentCNameValue = {}
 
 ---@param fields? AIArgumentCNameValue
 ---@return AIArgumentCNameValue
-function AIArgumentCNameValue.new(fields) return end
+function AIArgumentCNameValue.new(fields) end

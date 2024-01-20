@@ -5,4 +5,4 @@ workWorkspotSystem = {}
 
 ---@param fields? workWorkspotSystem
 ---@return workWorkspotSystem
-function workWorkspotSystem.new(fields) return end
+function workWorkspotSystem.new(fields) end

@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class effectTrackItemDecal: effectTrackItem
----@field public material IMaterial
----@field public scale IEvaluatorVector
----@field public emissiveScale IEvaluatorVector
----@field public normalThreshold Float
----@field public horizontalFlip Bool
----@field public verticalFlip Bool
----@field public fadeOutTime Float
----@field public fadeInTime Float
----@field public additionalRotation Float
----@field public randomRotation Bool
----@field public randomAtlasing Bool
----@field public isStretchEnabled Bool
----@field public isAttached Bool
----@field public normalsBlendingMode RenderDecalNormalsBlendingMode
----@field public atlasFrameStart Int32
----@field public atlasFrameEnd Int32
----@field public orderPriority RenderDecalOrderPriority
----@field public surfaceType ERenderObjectType
----@field public decalRenderMode EDecalRenderMode
+---@field material IMaterial
+---@field scale IEvaluatorVector
+---@field emissiveScale IEvaluatorVector
+---@field normalThreshold Float
+---@field horizontalFlip Bool
+---@field verticalFlip Bool
+---@field fadeOutTime Float
+---@field fadeInTime Float
+---@field additionalRotation Float
+---@field randomRotation Bool
+---@field randomAtlasing Bool
+---@field isStretchEnabled Bool
+---@field isAttached Bool
+---@field normalsBlendingMode RenderDecalNormalsBlendingMode
+---@field atlasFrameStart Int32
+---@field atlasFrameEnd Int32
+---@field orderPriority RenderDecalOrderPriority
+---@field surfaceType ERenderObjectType
+---@field decalRenderMode EDecalRenderMode
 effectTrackItemDecal = {}
 
 ---@param fields? effectTrackItemDecal
 ---@return effectTrackItemDecal
-function effectTrackItemDecal.new(fields) return end
+function effectTrackItemDecal.new(fields) end

@@ -5,4 +5,4 @@ FallPSMPrereqState = {}
 
 ---@param fields? FallPSMPrereqState
 ---@return FallPSMPrereqState
-function FallPSMPrereqState.new(fields) return end
+function FallPSMPrereqState.new(fields) end

@@ -1,274 +1,222 @@
 ---@meta
 
 ---@class InteractiveDevice: Device
----@field protected interaction gameinteractionsComponent
----@field protected interactionIndicator gameLightComponent
----@field protected disableAreaIndicatorID gameDelayID
----@field protected delayedUIRefreshID gameDelayID
----@field private isPlayerAround Bool
----@field protected disableAreaIndicatorDelayActive Bool
----@field private objectActionsCallbackCtrl gameObjectActionsCallbackController
----@field private investigationData InvestigationData[]
----@field private actionRestrictionPlayerBB gameIBlackboard
----@field private actionRestrictionCallbackID redCallbackObject
+---@field interaction gameinteractionsComponent
+---@field interactionIndicator gameLightComponent
+---@field disableAreaIndicatorID gameDelayID
+---@field delayedUIRefreshID gameDelayID
+---@field isPlayerAround Bool
+---@field disableAreaIndicatorDelayActive Bool
+---@field objectActionsCallbackCtrl gameObjectActionsCallbackController
+---@field investigationData InvestigationData[]
+---@field actionRestrictionPlayerBB gameIBlackboard
+---@field actionRestrictionCallbackID redCallbackObject
 InteractiveDevice = {}
 
 ---@param fields? InteractiveDevice
 ---@return InteractiveDevice
-function InteractiveDevice.new(fields) return end
+function InteractiveDevice.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function InteractiveDevice:OnAction(action, consumer) return end
+function InteractiveDevice:OnAction(action, consumer) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InteractiveDevice:OnActionRestrictionChanged(value) return end
+function InteractiveDevice:OnActionRestrictionChanged(value) end
 
----@protected
 ---@param evt DelayedUIRefreshEvent
 ---@return Bool
-function InteractiveDevice:OnDelayedUIRefreshEvent(evt) return end
+function InteractiveDevice:OnDelayedUIRefreshEvent(evt) end
 
----@protected
 ---@return Bool
-function InteractiveDevice:OnDetach() return end
+function InteractiveDevice:OnDetach() end
 
----@protected
 ---@param evt EMPEnded
 ---@return Bool
-function InteractiveDevice:OnEMPEnded(evt) return end
+function InteractiveDevice:OnEMPEnded(evt) end
 
----@protected
 ---@param evt EMPHitEvent
 ---@return Bool
-function InteractiveDevice:OnEMPHitEvent(evt) return end
+function InteractiveDevice:OnEMPHitEvent(evt) end
 
----@protected
 ---@param evt ForceUIRefreshEvent
 ---@return Bool
-function InteractiveDevice:OnForceUIRefreshEvent(evt) return end
+function InteractiveDevice:OnForceUIRefreshEvent(evt) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function InteractiveDevice:OnInteractionActivated(evt) return end
+function InteractiveDevice:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt gameinteractionsChoiceEvent
 ---@return Bool
-function InteractiveDevice:OnInteractionUsed(evt) return end
+function InteractiveDevice:OnInteractionUsed(evt) end
 
----@protected
 ---@param evt SetLogicReadyEvent
 ---@return Bool
-function InteractiveDevice:OnLogicReady(evt) return end
+function InteractiveDevice:OnLogicReady(evt) end
 
----@protected
 ---@param evt gameObjectActionRefreshEvent
 ---@return Bool
-function InteractiveDevice:OnObjectActionRefreshEvent(evt) return end
+function InteractiveDevice:OnObjectActionRefreshEvent(evt) end
 
----@protected
 ---@param evt PerformedAction
 ---@return Bool
-function InteractiveDevice:OnPerformedAction(evt) return end
+function InteractiveDevice:OnPerformedAction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function InteractiveDevice:OnRequestComponents(ri) return end
+function InteractiveDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SetUICameraZoomEvent
 ---@return Bool
-function InteractiveDevice:OnSetUICameraZoomEvent(evt) return end
+function InteractiveDevice:OnSetUICameraZoomEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function InteractiveDevice:OnTakeControl(ri) return end
+function InteractiveDevice:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleUIInteractivity
 ---@return Bool
-function InteractiveDevice:OnToggleUIInteractivity(evt) return end
+function InteractiveDevice:OnToggleUIInteractivity(evt) end
 
----@protected
 ---@param evt UIRefreshedEvent
 ---@return Bool
-function InteractiveDevice:OnUIRefreshedEvent(evt) return end
+function InteractiveDevice:OnUIRefreshedEvent(evt) end
 
----@protected
 ---@param evt UIUnstreamedEvent
 ---@return Bool
-function InteractiveDevice:OnUIUnstreamedEvent(evt) return end
+function InteractiveDevice:OnUIUnstreamedEvent(evt) end
 
----@protected
 ---@return nil
-function InteractiveDevice:ActivateDevice() return end
+function InteractiveDevice:ActivateDevice() end
 
----@private
 ---@param instigator entEntity
 ---@return nil
-function InteractiveDevice:CreateObjectActionsCallbackController(instigator) return end
+function InteractiveDevice:CreateObjectActionsCallbackController(instigator) end
 
----@protected
 ---@return nil
-function InteractiveDevice:CutPower() return end
+function InteractiveDevice:CutPower() end
 
----@protected
 ---@return nil
-function InteractiveDevice:DeactivateDevice() return end
+function InteractiveDevice:DeactivateDevice() end
 
----@private
 ---@return nil
-function InteractiveDevice:DestroyObjectActionsCallbackController() return end
+function InteractiveDevice:DestroyObjectActionsCallbackController() end
 
----@protected
 ---@param context? gameGetActionsContext
 ---@return nil
-function InteractiveDevice:DetermineInteractionState(context) return end
+function InteractiveDevice:DetermineInteractionState(context) end
 
----@private
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return nil
-function InteractiveDevice:EstimateIfPlayerEntersOrLeaves(evt) return end
+function InteractiveDevice:EstimateIfPlayerEntersOrLeaves(evt) end
 
----@protected
 ---@param globalNodeRef worldGlobalNodeRef
 ---@return Vector4[]
-function InteractiveDevice:GetCachedInvestigationPositionsArray(globalNodeRef) return end
+function InteractiveDevice:GetCachedInvestigationPositionsArray(globalNodeRef) end
 
----@private
 ---@param globalNodeRef worldGlobalNodeRef
 ---@return Int32
-function InteractiveDevice:GetInvestigationDataIndexFor(globalNodeRef) return end
+function InteractiveDevice:GetInvestigationDataIndexFor(globalNodeRef) end
 
 ---@return Vector4
-function InteractiveDevice:GetNetworkBeamEndpoint() return end
+function InteractiveDevice:GetNetworkBeamEndpoint() end
 
----@private
 ---@param requester gameObject
 ---@return gameIBlackboard
-function InteractiveDevice:GetPlayerStateMachineBB(requester) return end
+function InteractiveDevice:GetPlayerStateMachineBB(requester) end
 
----@protected
 ---@return Bool
-function InteractiveDevice:HasAnyDirectInteractionActive() return end
+function InteractiveDevice:HasAnyDirectInteractionActive() end
 
----@protected
 ---@param globalNodeRef worldGlobalNodeRef
 ---@return Bool
-function InteractiveDevice:HasInvestigationPositionsArrayCached(globalNodeRef) return end
+function InteractiveDevice:HasInvestigationPositionsArrayCached(globalNodeRef) end
 
 ---@return Bool
-function InteractiveDevice:IsPlayerAround() return end
+function InteractiveDevice:IsPlayerAround() end
 
 ---@return Bool
-function InteractiveDevice:IsReadyForUI() return end
+function InteractiveDevice:IsReadyForUI() end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@param isInteractionActive Bool
 ---@return nil
-function InteractiveDevice:OnDirectInteractionActive(evt, isInteractionActive) return end
+function InteractiveDevice:OnDirectInteractionActive(evt, isInteractionActive) end
 
----@protected
 ---@return nil
-function InteractiveDevice:OnVisibilityChanged() return end
+function InteractiveDevice:OnVisibilityChanged() end
 
----@private
 ---@return nil
-function InteractiveDevice:PrintWorldSpaceDebug() return end
+function InteractiveDevice:PrintWorldSpaceDebug() end
 
----@protected
 ---@param requestType gamedeviceRequestType
 ---@param executor gameObject
 ---@return nil
-function InteractiveDevice:RefreshInteraction(requestType, executor) return end
+function InteractiveDevice:RefreshInteraction(requestType, executor) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function InteractiveDevice:RefreshInteractionTask(data) return end
+function InteractiveDevice:RefreshInteractionTask(data) end
 
----@protected
 ---@param isDelayed? Bool
 ---@return nil
-function InteractiveDevice:RefreshUI(isDelayed) return end
+function InteractiveDevice:RefreshUI(isDelayed) end
 
----@private
 ---@return nil
-function InteractiveDevice:RegisterActionRestrictionCallback() return end
+function InteractiveDevice:RegisterActionRestrictionCallback() end
 
----@private
 ---@param activator ScriptedPuppet
 ---@return nil
-function InteractiveDevice:RequestDebuggerRegistration(activator) return end
+function InteractiveDevice:RequestDebuggerRegistration(activator) end
 
----@protected
 ---@return nil
-function InteractiveDevice:ResetChoicesByEvent() return end
+function InteractiveDevice:ResetChoicesByEvent() end
 
----@protected
 ---@param globalNodeRef worldGlobalNodeRef
 ---@param arr Vector4[]
 ---@return nil
-function InteractiveDevice:SetInvestigationPositionsArray(globalNodeRef, arr) return end
+function InteractiveDevice:SetInvestigationPositionsArray(globalNodeRef, arr) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@param isActive Bool
 ---@return nil
-function InteractiveDevice:SetIsDoorInteractionActiveBB(evt, isActive) return end
+function InteractiveDevice:SetIsDoorInteractionActiveBB(evt, isActive) end
 
----@protected
 ---@return nil
-function InteractiveDevice:StartUsing() return end
+function InteractiveDevice:StartUsing() end
 
----@protected
 ---@return nil
-function InteractiveDevice:StopUsing() return end
+function InteractiveDevice:StopUsing() end
 
----@protected
 ---@param input Bool
 ---@return nil
-function InteractiveDevice:ToggleDirectLayer(input) return end
+function InteractiveDevice:ToggleDirectLayer(input) end
 
----@protected
 ---@param input Bool
 ---@return nil
-function InteractiveDevice:ToggleLogicLayer(input) return end
+function InteractiveDevice:ToggleLogicLayer(input) end
 
----@protected
 ---@return nil
-function InteractiveDevice:TurnOffDevice() return end
+function InteractiveDevice:TurnOffDevice() end
 
----@protected
 ---@return nil
-function InteractiveDevice:TurnOffIndicator() return end
+function InteractiveDevice:TurnOffIndicator() end
 
----@protected
 ---@return nil
-function InteractiveDevice:TurnOnDevice() return end
+function InteractiveDevice:TurnOnDevice() end
 
----@protected
 ---@return nil
-function InteractiveDevice:TurnOnIndicator() return end
+function InteractiveDevice:TurnOnIndicator() end
 
----@private
 ---@return nil
-function InteractiveDevice:UnregisterActionRestrictionCallback() return end
+function InteractiveDevice:UnregisterActionRestrictionCallback() end
 
----@private
 ---@return nil
-function InteractiveDevice:UpdateDebugInfo() return end
+function InteractiveDevice:UpdateDebugInfo() end
 
----@protected
 ---@param isDelayed? Bool
 ---@return Bool
-function InteractiveDevice:UpdateDeviceState(isDelayed) return end
+function InteractiveDevice:UpdateDeviceState(isDelayed) end

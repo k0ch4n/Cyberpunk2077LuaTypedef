@@ -5,4 +5,4 @@ AIbehaviorWaitTargetToReachConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitTargetToReachConditionDefinition
 ---@return AIbehaviorWaitTargetToReachConditionDefinition
-function AIbehaviorWaitTargetToReachConditionDefinition.new(fields) return end
+function AIbehaviorWaitTargetToReachConditionDefinition.new(fields) end

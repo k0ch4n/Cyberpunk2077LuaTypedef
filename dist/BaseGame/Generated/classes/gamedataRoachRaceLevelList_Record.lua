@@ -5,22 +5,22 @@ gamedataRoachRaceLevelList_Record = {}
 
 ---@param fields? gamedataRoachRaceLevelList_Record
 ---@return gamedataRoachRaceLevelList_Record
-function gamedataRoachRaceLevelList_Record.new(fields) return end
+function gamedataRoachRaceLevelList_Record.new(fields) end
 
 ---@return nil, gamedataRoachRaceLevel_Record[] outList
-function gamedataRoachRaceLevelList_Record:Data() return end
+function gamedataRoachRaceLevelList_Record:Data() end
 
 ---@param item gamedataRoachRaceLevel_Record
 ---@return Bool
-function gamedataRoachRaceLevelList_Record:DataContains(item) return end
+function gamedataRoachRaceLevelList_Record:DataContains(item) end
 
 ---@return Int32
-function gamedataRoachRaceLevelList_Record:GetDataCount() return end
+function gamedataRoachRaceLevelList_Record:GetDataCount() end
 
 ---@param index Int32
 ---@return gamedataRoachRaceLevel_Record
-function gamedataRoachRaceLevelList_Record:GetDataItem(index) return end
+function gamedataRoachRaceLevelList_Record:GetDataItem(index) end
 
 ---@param index Int32
 ---@return gamedataRoachRaceLevel_Record
-function gamedataRoachRaceLevelList_Record:GetDataItemHandle(index) return end
+function gamedataRoachRaceLevelList_Record:GetDataItemHandle(index) end

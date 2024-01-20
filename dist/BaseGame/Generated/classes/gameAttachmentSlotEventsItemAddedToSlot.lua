@@ -5,7 +5,7 @@ gameAttachmentSlotEventsItemAddedToSlot = {}
 
 ---@param fields? gameAttachmentSlotEventsItemAddedToSlot
 ---@return gameAttachmentSlotEventsItemAddedToSlot
-function gameAttachmentSlotEventsItemAddedToSlot.new(fields) return end
+function gameAttachmentSlotEventsItemAddedToSlot.new(fields) end
 
 ---@return Bool
-function gameAttachmentSlotEventsItemAddedToSlot:ShouldCache() return end
+function gameAttachmentSlotEventsItemAddedToSlot:ShouldCache() end

@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class AIbehaviorDriveFollowTargetTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
----@field public useKinematic AIArgumentMapping
----@field public needDriver AIArgumentMapping
----@field public target AIArgumentMapping
----@field public secureTimeOut AIArgumentMapping
----@field public distanceMin AIArgumentMapping
----@field public distanceMax AIArgumentMapping
----@field public isPlayer AIArgumentMapping
----@field public stopHasReachedTarget AIArgumentMapping
----@field public useTraffic AIArgumentMapping
----@field public allowStubMovement AIArgumentMapping
+---@field useKinematic AIArgumentMapping
+---@field needDriver AIArgumentMapping
+---@field target AIArgumentMapping
+---@field secureTimeOut AIArgumentMapping
+---@field distanceMin AIArgumentMapping
+---@field distanceMax AIArgumentMapping
+---@field isPlayer AIArgumentMapping
+---@field stopHasReachedTarget AIArgumentMapping
+---@field useTraffic AIArgumentMapping
+---@field allowStubMovement AIArgumentMapping
 AIbehaviorDriveFollowTargetTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDriveFollowTargetTreeNodeDefinition
 ---@return AIbehaviorDriveFollowTargetTreeNodeDefinition
-function AIbehaviorDriveFollowTargetTreeNodeDefinition.new(fields) return end
+function AIbehaviorDriveFollowTargetTreeNodeDefinition.new(fields) end

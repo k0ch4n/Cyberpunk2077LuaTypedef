@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class AIActionLookatParams
----@field public useLookat Bool
----@field public useLeftHand Bool
----@field public useRightHand Bool
----@field public attachRightHandtoLeftHand Bool
----@field public attachLeftHandtoRightHand Bool
----@field public slotName CName
----@field public lookatStyle animLookAtStyle
----@field public hasOutTransition Bool
----@field public outTransitionStyle animLookAtStyle
----@field public softLimitDegrees animLookAtLimitDegreesType
----@field public hardLimitDegrees animLookAtLimitDegreesType
----@field public hardLimitDistance animLookAtLimitDistanceType
----@field public backLimitDegrees animLookAtLimitDegreesType
----@field public additionalParts animLookAtPartRequest[]
+---@field useLookat Bool
+---@field useLeftHand Bool
+---@field useRightHand Bool
+---@field attachRightHandtoLeftHand Bool
+---@field attachLeftHandtoRightHand Bool
+---@field slotName CName
+---@field lookatStyle animLookAtStyle
+---@field hasOutTransition Bool
+---@field outTransitionStyle animLookAtStyle
+---@field softLimitDegrees animLookAtLimitDegreesType
+---@field hardLimitDegrees animLookAtLimitDegreesType
+---@field hardLimitDistance animLookAtLimitDistanceType
+---@field backLimitDegrees animLookAtLimitDegreesType
+---@field additionalParts animLookAtPartRequest[]
 AIActionLookatParams = {}
 
 ---@param fields? AIActionLookatParams
 ---@return AIActionLookatParams
-function AIActionLookatParams.new(fields) return end
+function AIActionLookatParams.new(fields) end

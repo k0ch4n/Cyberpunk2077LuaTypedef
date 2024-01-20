@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class OpenExpansionPopupEvent: redEvent
----@field public type ExpansionPopupType
----@field public state ExpansionStatus
----@field public forcibly Bool
+---@field type ExpansionPopupType
+---@field state ExpansionStatus
+---@field forcibly Bool
 OpenExpansionPopupEvent = {}
 
 ---@param fields? OpenExpansionPopupEvent
 ---@return OpenExpansionPopupEvent
-function OpenExpansionPopupEvent.new(fields) return end
+function OpenExpansionPopupEvent.new(fields) end

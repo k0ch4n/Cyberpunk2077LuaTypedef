@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class DropEvents: CarriedObjectEvents
----@field public ragdollReenabled Bool
+---@field ragdollReenabled Bool
 DropEvents = {}
 
 ---@param fields? DropEvents
 ---@return DropEvents
-function DropEvents.new(fields) return end
+function DropEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DropEvents:OnEnter(stateContext, scriptInterface) return end
+function DropEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DropEvents:OnExit(stateContext, scriptInterface) return end
+function DropEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DropEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function DropEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

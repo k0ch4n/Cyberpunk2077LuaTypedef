@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class GameObjectScanStats
----@field public scannerData scannerDataStructure
+---@field scannerData scannerDataStructure
 GameObjectScanStats = {}
 
 ---@param fields? GameObjectScanStats
 ---@return GameObjectScanStats
-function GameObjectScanStats.new(fields) return end
+function GameObjectScanStats.new(fields) end

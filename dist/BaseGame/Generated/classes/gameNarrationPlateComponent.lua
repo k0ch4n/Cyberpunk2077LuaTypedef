@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameNarrationPlateComponent: entIComponent
----@field public narrationCaption CName
----@field public narrationText CName
----@field public isEnabled Bool
+---@field narrationCaption CName
+---@field narrationText CName
+---@field isEnabled Bool
 gameNarrationPlateComponent = {}
 
 ---@param fields? gameNarrationPlateComponent
 ---@return gameNarrationPlateComponent
-function gameNarrationPlateComponent.new(fields) return end
+function gameNarrationPlateComponent.new(fields) end

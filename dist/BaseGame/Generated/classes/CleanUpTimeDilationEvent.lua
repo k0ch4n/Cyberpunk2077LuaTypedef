@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CleanUpTimeDilationEvent: redEvent
----@field public reason CName
+---@field reason CName
 CleanUpTimeDilationEvent = {}
 
 ---@param fields? CleanUpTimeDilationEvent
 ---@return CleanUpTimeDilationEvent
-function CleanUpTimeDilationEvent.new(fields) return end
+function CleanUpTimeDilationEvent.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameStatPoolModifier
----@field public enabled Bool
----@field public rangeBegin Float
----@field public rangeEnd Float
----@field public startDelay Float
----@field public valuePerSec Float
----@field public delayOnChange Bool
----@field public usingPointValues Bool
+---@field enabled Bool
+---@field rangeBegin Float
+---@field rangeEnd Float
+---@field startDelay Float
+---@field valuePerSec Float
+---@field delayOnChange Bool
+---@field usingPointValues Bool
 gameStatPoolModifier = {}
 
 ---@param fields? gameStatPoolModifier
 ---@return gameStatPoolModifier
-function gameStatPoolModifier.new(fields) return end
+function gameStatPoolModifier.new(fields) end

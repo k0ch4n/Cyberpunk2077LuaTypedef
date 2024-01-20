@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questForceTokenActivation_NodeSubType: questIContentTokenManager_NodeSubType
----@field public forceCreatingToken Bool
+---@field forceCreatingToken Bool
 questForceTokenActivation_NodeSubType = {}
 
 ---@param fields? questForceTokenActivation_NodeSubType
 ---@return questForceTokenActivation_NodeSubType
-function questForceTokenActivation_NodeSubType.new(fields) return end
+function questForceTokenActivation_NodeSubType.new(fields) end

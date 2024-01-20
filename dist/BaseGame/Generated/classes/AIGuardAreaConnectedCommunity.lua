@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIGuardAreaConnectedCommunity
----@field public communityArea gameEntityReference
----@field public isPrimary Bool
+---@field communityArea gameEntityReference
+---@field isPrimary Bool
 AIGuardAreaConnectedCommunity = {}
 
 ---@param fields? AIGuardAreaConnectedCommunity
 ---@return AIGuardAreaConnectedCommunity
-function AIGuardAreaConnectedCommunity.new(fields) return end
+function AIGuardAreaConnectedCommunity.new(fields) end

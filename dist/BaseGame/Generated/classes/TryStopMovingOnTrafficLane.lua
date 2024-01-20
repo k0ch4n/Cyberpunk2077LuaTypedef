@@ -5,9 +5,8 @@ TryStopMovingOnTrafficLane = {}
 
 ---@param fields? TryStopMovingOnTrafficLane
 ---@return TryStopMovingOnTrafficLane
-function TryStopMovingOnTrafficLane.new(fields) return end
+function TryStopMovingOnTrafficLane.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TryStopMovingOnTrafficLane:Activate(context) return end
+function TryStopMovingOnTrafficLane:Activate(context) end

@@ -5,22 +5,22 @@ SpiderbotExplodeExplosiveDevice = {}
 
 ---@param fields? SpiderbotExplodeExplosiveDevice
 ---@return SpiderbotExplodeExplosiveDevice
-function SpiderbotExplodeExplosiveDevice.new(fields) return end
+function SpiderbotExplodeExplosiveDevice.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function SpiderbotExplodeExplosiveDevice.IsAvailable(device) return end
+function SpiderbotExplodeExplosiveDevice.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SpiderbotExplodeExplosiveDevice.IsClearanceValid(clearance) return end
+function SpiderbotExplodeExplosiveDevice.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function SpiderbotExplodeExplosiveDevice.IsContextValid(context) return end
+function SpiderbotExplodeExplosiveDevice.IsContextValid(context) end
 
 ---@return String
-function SpiderbotExplodeExplosiveDevice:GetTweakDBChoiceRecord() return end
+function SpiderbotExplodeExplosiveDevice:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function SpiderbotExplodeExplosiveDevice:SetProperties() return end
+function SpiderbotExplodeExplosiveDevice:SetProperties() end

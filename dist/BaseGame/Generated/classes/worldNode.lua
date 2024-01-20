@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldNode: ISerializable
----@field public isVisibleInGame Bool
----@field public isHostOnly Bool
+---@field isVisibleInGame Bool
+---@field isHostOnly Bool
 worldNode = {}
 
 ---@param fields? worldNode
 ---@return worldNode
-function worldNode.new(fields) return end
+function worldNode.new(fields) end

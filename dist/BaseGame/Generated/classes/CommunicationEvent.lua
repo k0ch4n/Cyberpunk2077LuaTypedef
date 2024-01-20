@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CommunicationEvent: redEvent
----@field public name CName
----@field public sender entEntityID
+---@field name CName
+---@field sender entEntityID
 CommunicationEvent = {}
 
 ---@param fields? CommunicationEvent
 ---@return CommunicationEvent
-function CommunicationEvent.new(fields) return end
+function CommunicationEvent.new(fields) end

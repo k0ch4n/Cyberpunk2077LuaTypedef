@@ -5,9 +5,8 @@ SetPoliceVehicleAsLastKnownPosition = {}
 
 ---@param fields? SetPoliceVehicleAsLastKnownPosition
 ---@return SetPoliceVehicleAsLastKnownPosition
-function SetPoliceVehicleAsLastKnownPosition.new(fields) return end
+function SetPoliceVehicleAsLastKnownPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetPoliceVehicleAsLastKnownPosition:Activate(context) return end
+function SetPoliceVehicleAsLastKnownPosition:Activate(context) end

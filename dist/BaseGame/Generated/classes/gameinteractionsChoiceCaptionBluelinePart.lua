@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsChoiceCaptionBluelinePart: gameinteractionsChoiceCaptionPart
----@field public blueline gameinteractionsvisBluelineDescription
+---@field blueline gameinteractionsvisBluelineDescription
 gameinteractionsChoiceCaptionBluelinePart = {}
 
 ---@param fields? gameinteractionsChoiceCaptionBluelinePart
 ---@return gameinteractionsChoiceCaptionBluelinePart
-function gameinteractionsChoiceCaptionBluelinePart.new(fields) return end
+function gameinteractionsChoiceCaptionBluelinePart.new(fields) end

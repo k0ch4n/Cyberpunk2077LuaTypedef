@@ -5,4 +5,4 @@ ConeAOCustomData = {}
 
 ---@param fields? ConeAOCustomData
 ---@return ConeAOCustomData
-function ConeAOCustomData.new(fields) return end
+function ConeAOCustomData.new(fields) end

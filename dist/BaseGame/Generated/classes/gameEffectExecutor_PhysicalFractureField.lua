@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameEffectExecutor_PhysicalFractureField: gameEffectExecutor
----@field public fromHitPosition Bool
----@field public fieldParams physicsFractureFieldParams
----@field public fieldShape physicsShapeType
----@field public fieldDimensions Vector3
+---@field fromHitPosition Bool
+---@field fieldParams physicsFractureFieldParams
+---@field fieldShape physicsShapeType
+---@field fieldDimensions Vector3
 gameEffectExecutor_PhysicalFractureField = {}
 
 ---@param fields? gameEffectExecutor_PhysicalFractureField
 ---@return gameEffectExecutor_PhysicalFractureField
-function gameEffectExecutor_PhysicalFractureField.new(fields) return end
+function gameEffectExecutor_PhysicalFractureField.new(fields) end

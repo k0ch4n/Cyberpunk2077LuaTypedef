@@ -5,4 +5,4 @@ inkSaveTransferRequestUpdate = {}
 
 ---@param fields? inkSaveTransferRequestUpdate
 ---@return inkSaveTransferRequestUpdate
-function inkSaveTransferRequestUpdate.new(fields) return end
+function inkSaveTransferRequestUpdate.new(fields) end

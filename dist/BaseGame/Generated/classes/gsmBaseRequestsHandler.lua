@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gsmBaseRequestsHandler: inkISystemRequestsHandler
----@field public SavingComplete gsmSavingRequesResult
+---@field SavingComplete gsmSavingRequesResult
 gsmBaseRequestsHandler = {}

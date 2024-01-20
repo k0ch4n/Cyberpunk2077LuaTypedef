@@ -1,40 +1,36 @@
 ---@meta
 
 ---@class PlayerHandicapSystem: gameIPlayerHandicapSystem
----@field private canDropHealingConsumable Bool
----@field private canDropAmmo Bool
+---@field canDropHealingConsumable Bool
+---@field canDropAmmo Bool
 PlayerHandicapSystem = {}
 
 ---@param fields? PlayerHandicapSystem
 ---@return PlayerHandicapSystem
-function PlayerHandicapSystem.new(fields) return end
+function PlayerHandicapSystem.new(fields) end
 
 ---@param owner gameObject
 ---@return PlayerHandicapSystem
-function PlayerHandicapSystem.GetInstance(owner) return end
+function PlayerHandicapSystem.GetInstance(owner) end
 
 ---@return Bool
-function PlayerHandicapSystem:CanDropAmmo() return end
+function PlayerHandicapSystem:CanDropAmmo() end
 
 ---@return Bool
-function PlayerHandicapSystem:CanDropHealingConsumable() return end
+function PlayerHandicapSystem:CanDropHealingConsumable() end
 
----@private
 ---@param request gameBlockAmmoDrop
 ---@return nil
-function PlayerHandicapSystem:OnBlockAmmoDrop(request) return end
+function PlayerHandicapSystem:OnBlockAmmoDrop(request) end
 
----@private
 ---@param request BlockHealingConsumableDrop
 ---@return nil
-function PlayerHandicapSystem:OnBlockHealingConsumableDrop(request) return end
+function PlayerHandicapSystem:OnBlockHealingConsumableDrop(request) end
 
----@private
 ---@param request UnblockAmmoDrop
 ---@return nil
-function PlayerHandicapSystem:OnUnblockAmmoDrop(request) return end
+function PlayerHandicapSystem:OnUnblockAmmoDrop(request) end
 
----@private
 ---@param request UnblockHealingConsumableDrop
 ---@return nil
-function PlayerHandicapSystem:OnUnblockHealingConsumableDrop(request) return end
+function PlayerHandicapSystem:OnUnblockHealingConsumableDrop(request) end

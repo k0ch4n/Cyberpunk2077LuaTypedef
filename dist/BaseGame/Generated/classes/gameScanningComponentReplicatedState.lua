@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameScanningComponentReplicatedState: netIComponentState
----@field public scanningState gameScanningState
----@field public pctScanned Float
----@field public controllingPeerIDs netPeerID
+---@field scanningState gameScanningState
+---@field pctScanned Float
+---@field controllingPeerIDs netPeerID
 gameScanningComponentReplicatedState = {}
 
 ---@param fields? gameScanningComponentReplicatedState
 ---@return gameScanningComponentReplicatedState
-function gameScanningComponentReplicatedState.new(fields) return end
+function gameScanningComponentReplicatedState.new(fields) end

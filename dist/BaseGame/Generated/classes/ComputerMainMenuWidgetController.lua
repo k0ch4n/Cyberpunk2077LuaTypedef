@@ -1,46 +1,42 @@
 ---@meta
 
 ---@class ComputerMainMenuWidgetController: inkWidgetLogicController
----@field protected menuButtonsListWidget inkWidgetReference
----@field protected isInitialized Bool
----@field private computerMenuButtonWidgetsData SComputerMenuButtonWidgetPackage[]
+---@field menuButtonsListWidget inkWidgetReference
+---@field isInitialized Bool
+---@field computerMenuButtonWidgetsData SComputerMenuButtonWidgetPackage[]
 ComputerMainMenuWidgetController = {}
 
 ---@param fields? ComputerMainMenuWidgetController
 ---@return ComputerMainMenuWidgetController
-function ComputerMainMenuWidgetController.new(fields) return end
+function ComputerMainMenuWidgetController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param gameController ComputerInkGameController
 ---@return inkWidget
-function ComputerMainMenuWidgetController:AddMenuButtonWidget(widget, widgetData, gameController) return end
+function ComputerMainMenuWidgetController:AddMenuButtonWidget(widget, widgetData, gameController) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@return inkWidget
-function ComputerMainMenuWidgetController:CreateMenuButtonWidget(gameController, parentWidget, widgetData) return end
+function ComputerMainMenuWidgetController:CreateMenuButtonWidget(gameController, parentWidget, widgetData) end
 
----@protected
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param gameController ComputerInkGameController
 ---@return inkWidget
-function ComputerMainMenuWidgetController:GetMenuButtonWidget(widgetData, gameController) return end
+function ComputerMainMenuWidgetController:GetMenuButtonWidget(widgetData, gameController) end
 
----@protected
 ---@return nil
-function ComputerMainMenuWidgetController:HideMenuButtonWidgets() return end
+function ComputerMainMenuWidgetController:HideMenuButtonWidgets() end
 
----@protected
 ---@param gameController ComputerInkGameController
 ---@param widget inkWidget
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@return nil
-function ComputerMainMenuWidgetController:InitializeMenuButtonWidget(gameController, widget, widgetData) return end
+function ComputerMainMenuWidgetController:InitializeMenuButtonWidget(gameController, widget, widgetData) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SComputerMenuButtonWidgetPackage[]
 ---@return nil
-function ComputerMainMenuWidgetController:InitializeMenuButtons(gameController, widgetsData) return end
+function ComputerMainMenuWidgetController:InitializeMenuButtons(gameController, widgetsData) end

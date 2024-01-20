@@ -5,4 +5,4 @@ scnDeletionMarkerNode = {}
 
 ---@param fields? scnDeletionMarkerNode
 ---@return scnDeletionMarkerNode
-function scnDeletionMarkerNode.new(fields) return end
+function scnDeletionMarkerNode.new(fields) end

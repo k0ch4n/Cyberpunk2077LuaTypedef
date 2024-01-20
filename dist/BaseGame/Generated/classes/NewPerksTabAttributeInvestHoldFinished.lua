@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NewPerksTabAttributeInvestHoldFinished: redEvent
----@field public attribute PerkMenuAttribute
+---@field attribute PerkMenuAttribute
 NewPerksTabAttributeInvestHoldFinished = {}
 
 ---@param fields? NewPerksTabAttributeInvestHoldFinished
 ---@return NewPerksTabAttributeInvestHoldFinished
-function NewPerksTabAttributeInvestHoldFinished.new(fields) return end
+function NewPerksTabAttributeInvestHoldFinished.new(fields) end

@@ -3,12 +3,10 @@
 ---@class AIBehaviorScript: IScriptable
 AIBehaviorScript = {}
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return ScriptGameInstance
-function AIBehaviorScript:GetGame(context) return end
+function AIBehaviorScript:GetGame(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return ScriptedPuppet
-function AIBehaviorScript:GetPuppet(context) return end
+function AIBehaviorScript:GetPuppet(context) end

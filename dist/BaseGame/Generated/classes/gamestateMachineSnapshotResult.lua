@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineSnapshotResult
----@field public snapshot gamestateMachineStateSnapshot
----@field public valid Bool
+---@field snapshot gamestateMachineStateSnapshot
+---@field valid Bool
 gamestateMachineSnapshotResult = {}
 
 ---@param fields? gamestateMachineSnapshotResult
 ---@return gamestateMachineSnapshotResult
-function gamestateMachineSnapshotResult.new(fields) return end
+function gamestateMachineSnapshotResult.new(fields) end

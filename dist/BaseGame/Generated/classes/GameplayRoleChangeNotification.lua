@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GameplayRoleChangeNotification: redEvent
----@field public newRole EGameplayRole
----@field public oldRole EGameplayRole
+---@field newRole EGameplayRole
+---@field oldRole EGameplayRole
 GameplayRoleChangeNotification = {}
 
 ---@param fields? GameplayRoleChangeNotification
 ---@return GameplayRoleChangeNotification
-function GameplayRoleChangeNotification.new(fields) return end
+function GameplayRoleChangeNotification.new(fields) end

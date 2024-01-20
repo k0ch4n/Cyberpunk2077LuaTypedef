@@ -5,4 +5,4 @@ worldSceneRecordingContentObserverNodeInstance = {}
 
 ---@param fields? worldSceneRecordingContentObserverNodeInstance
 ---@return worldSceneRecordingContentObserverNodeInstance
-function worldSceneRecordingContentObserverNodeInstance.new(fields) return end
+function worldSceneRecordingContentObserverNodeInstance.new(fields) end

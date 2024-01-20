@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameContainerObjectAnimated: gameContainerObjectBase
----@field public animFeatureName CName
+---@field animFeatureName CName
 gameContainerObjectAnimated = {}
 
 ---@param fields? gameContainerObjectAnimated
 ---@return gameContainerObjectAnimated
-function gameContainerObjectAnimated.new(fields) return end
+function gameContainerObjectAnimated.new(fields) end

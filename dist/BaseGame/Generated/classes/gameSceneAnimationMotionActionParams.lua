@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class gameSceneAnimationMotionActionParams: IScriptable
----@field public motionType gameSceneAnimationMotionActionParamsMotionType
----@field public placementTransform WorldTransform
----@field public motionBlendInTime Float
----@field public poseBlendInTime Float
----@field public blendInCurve gameSceneAnimationMotionActionParamsEasingType
----@field public animationName CName
----@field public placementMode gameSceneAnimationMotionActionParamsPlacementMode
----@field public startTime Float
----@field public endTime Float
----@field public initialDt Float
----@field public globalTimeToAnimTime Float
----@field public mountDescriptor gameMountDescriptor
----@field public playerParams gameScenePlayerAnimationParams
----@field public trajectoryLOD scnAnimationMotionSample[]
----@field public dynamicAnimSetupHash Uint64
+---@field motionType gameSceneAnimationMotionActionParamsMotionType
+---@field placementTransform WorldTransform
+---@field motionBlendInTime Float
+---@field poseBlendInTime Float
+---@field blendInCurve gameSceneAnimationMotionActionParamsEasingType
+---@field animationName CName
+---@field placementMode gameSceneAnimationMotionActionParamsPlacementMode
+---@field startTime Float
+---@field endTime Float
+---@field initialDt Float
+---@field globalTimeToAnimTime Float
+---@field mountDescriptor gameMountDescriptor
+---@field playerParams gameScenePlayerAnimationParams
+---@field trajectoryLOD scnAnimationMotionSample[]
+---@field dynamicAnimSetupHash Uint64
 gameSceneAnimationMotionActionParams = {}
 
 ---@param fields? gameSceneAnimationMotionActionParams
 ---@return gameSceneAnimationMotionActionParams
-function gameSceneAnimationMotionActionParams.new(fields) return end
+function gameSceneAnimationMotionActionParams.new(fields) end

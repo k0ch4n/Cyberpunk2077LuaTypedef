@@ -5,4 +5,4 @@ worldWeatherAreaNotifierInstance = {}
 
 ---@param fields? worldWeatherAreaNotifierInstance
 ---@return worldWeatherAreaNotifierInstance
-function worldWeatherAreaNotifierInstance.new(fields) return end
+function worldWeatherAreaNotifierInstance.new(fields) end

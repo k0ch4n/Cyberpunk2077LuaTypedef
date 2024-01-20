@@ -5,7 +5,7 @@ CloseLastVisitedFastTravelSubwayGate = {}
 
 ---@param fields? CloseLastVisitedFastTravelSubwayGate
 ---@return CloseLastVisitedFastTravelSubwayGate
-function CloseLastVisitedFastTravelSubwayGate.new(fields) return end
+function CloseLastVisitedFastTravelSubwayGate.new(fields) end
 
 ---@return String
-function CloseLastVisitedFastTravelSubwayGate:GetFriendlyDescription() return end
+function CloseLastVisitedFastTravelSubwayGate:GetFriendlyDescription() end

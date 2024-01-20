@@ -5,7 +5,7 @@ SmartHouseController = {}
 
 ---@param fields? SmartHouseController
 ---@return SmartHouseController
-function SmartHouseController.new(fields) return end
+function SmartHouseController.new(fields) end
 
 ---@return SmartHouseControllerPS
-function SmartHouseController:GetPS() return end
+function SmartHouseController:GetPS() end

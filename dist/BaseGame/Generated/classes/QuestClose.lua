@@ -5,7 +5,7 @@ QuestClose = {}
 
 ---@param fields? QuestClose
 ---@return QuestClose
-function QuestClose.new(fields) return end
+function QuestClose.new(fields) end
 
 ---@return nil
-function QuestClose:SetProperties() return end
+function QuestClose:SetProperties() end

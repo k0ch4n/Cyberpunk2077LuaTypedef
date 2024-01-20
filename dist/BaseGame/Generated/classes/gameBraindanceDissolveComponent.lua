@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameBraindanceDissolveComponent: entIComponent
----@field public dissolveRadius Float
+---@field dissolveRadius Float
 gameBraindanceDissolveComponent = {}
 
 ---@param fields? gameBraindanceDissolveComponent
 ---@return gameBraindanceDissolveComponent
-function gameBraindanceDissolveComponent.new(fields) return end
+function gameBraindanceDissolveComponent.new(fields) end

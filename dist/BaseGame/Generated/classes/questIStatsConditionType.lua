@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class questIStatsConditionType: questIConditionType
----@field public entityRef questUniversalRef
+---@field entityRef questUniversalRef
 questIStatsConditionType = {}

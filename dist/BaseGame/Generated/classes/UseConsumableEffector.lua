@@ -5,19 +5,16 @@ UseConsumableEffector = {}
 
 ---@param fields? UseConsumableEffector
 ---@return UseConsumableEffector
-function UseConsumableEffector.new(fields) return end
+function UseConsumableEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function UseConsumableEffector:ActionOn(owner) return end
+function UseConsumableEffector:ActionOn(owner) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function UseConsumableEffector:ExecuteAction(owner) return end
+function UseConsumableEffector:ExecuteAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function UseConsumableEffector:RepeatedAction(owner) return end
+function UseConsumableEffector:RepeatedAction(owner) end

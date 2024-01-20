@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class moveSecureFootingResult
----@field public slidingDirection Vector4
----@field public normalDirection Vector4
----@field public lowestLocalPosition Vector4
----@field public staticGroundFactor Float
----@field public reason moveSecureFootingFailureReason
----@field public type moveSecureFootingFailureType
+---@field slidingDirection Vector4
+---@field normalDirection Vector4
+---@field lowestLocalPosition Vector4
+---@field staticGroundFactor Float
+---@field reason moveSecureFootingFailureReason
+---@field type moveSecureFootingFailureType
 moveSecureFootingResult = {}
 
 ---@param fields? moveSecureFootingResult
 ---@return moveSecureFootingResult
-function moveSecureFootingResult.new(fields) return end
+function moveSecureFootingResult.new(fields) end

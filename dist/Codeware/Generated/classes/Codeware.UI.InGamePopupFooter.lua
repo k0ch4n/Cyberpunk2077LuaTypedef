@@ -1,37 +1,37 @@
 ---@meta
 
 ---@class Codeware_UI_InGamePopupFooter: Codeware_UI_inkCustomController
----@field public fluffIcon inkImageWidget
----@field public fluffText inkTextWidget
----@field public inputHolder inkCompoundWidget
----@field public buttonHints Codeware_UI_ButtonHintsEx
+---@field fluffIcon inkImageWidget
+---@field fluffText inkTextWidget
+---@field inputHolder inkCompoundWidget
+---@field buttonHints Codeware_UI_ButtonHintsEx
 Codeware_UI_InGamePopupFooter = {}
 
 ---@param fields? Codeware_UI_InGamePopupFooter
 ---@return Codeware_UI_InGamePopupFooter
-function Codeware_UI_InGamePopupFooter.new(fields) return end
+function Codeware_UI_InGamePopupFooter.new(fields) end
 
 ---@return Codeware_UI_InGamePopupFooter
-function Codeware_UI_InGamePopupFooter.Create() return end
+function Codeware_UI_InGamePopupFooter.Create() end
 
 ---@return nil
-function Codeware_UI_InGamePopupFooter:OnCreate() return end
+function Codeware_UI_InGamePopupFooter:OnCreate() end
 
 ---@return nil
-function Codeware_UI_InGamePopupFooter:OnInitialize() return end
+function Codeware_UI_InGamePopupFooter:OnInitialize() end
 
 ---@return Codeware_UI_ButtonHintsEx
-function Codeware_UI_InGamePopupFooter:GetHints() return end
+function Codeware_UI_InGamePopupFooter:GetHints() end
 
 ---@param icon CName|string
 ---@return nil
-function Codeware_UI_InGamePopupFooter:SetFluffIcon(icon) return end
+function Codeware_UI_InGamePopupFooter:SetFluffIcon(icon) end
 
 ---@param icon CName|string
 ---@param atlas redResourceReferenceScriptToken
 ---@return nil
-function Codeware_UI_InGamePopupFooter:SetFluffIcon(icon, atlas) return end
+function Codeware_UI_InGamePopupFooter:SetFluffIcon(icon, atlas) end
 
 ---@param text String
 ---@return nil
-function Codeware_UI_InGamePopupFooter:SetFluffText(text) return end
+function Codeware_UI_InGamePopupFooter:SetFluffText(text) end

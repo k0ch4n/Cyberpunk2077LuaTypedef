@@ -5,9 +5,9 @@ RadioViabilityInterpreter = {}
 
 ---@param fields? RadioViabilityInterpreter
 ---@return RadioViabilityInterpreter
-function RadioViabilityInterpreter.new(fields) return end
+function RadioViabilityInterpreter.new(fields) end
 
 ---@param device RadioControllerPS
 ---@param hasActiveActions Bool
 ---@return Bool
-function RadioViabilityInterpreter.Evaluate(device, hasActiveActions) return end
+function RadioViabilityInterpreter.Evaluate(device, hasActiveActions) end

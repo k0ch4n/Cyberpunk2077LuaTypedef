@@ -5,4 +5,4 @@ AITargetTrackerManager = {}
 
 ---@param fields? AITargetTrackerManager
 ---@return AITargetTrackerManager
-function AITargetTrackerManager.new(fields) return end
+function AITargetTrackerManager.new(fields) end

@@ -5,4 +5,4 @@ gameAIDirectorSpawner = {}
 
 ---@param fields? gameAIDirectorSpawner
 ---@return gameAIDirectorSpawner
-function gameAIDirectorSpawner.new(fields) return end
+function gameAIDirectorSpawner.new(fields) end

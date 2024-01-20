@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SPreventionAgentData: IScriptable
----@field public ps gamePersistentState
+---@field ps gamePersistentState
 SPreventionAgentData = {}
 
 ---@param fields? SPreventionAgentData
 ---@return SPreventionAgentData
-function SPreventionAgentData.new(fields) return end
+function SPreventionAgentData.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class navgendebugCompactCell
----@field public cellData Uint64
+---@field cellData Uint64
 navgendebugCompactCell = {}
 
 ---@param fields? navgendebugCompactCell
 ---@return navgendebugCompactCell
-function navgendebugCompactCell.new(fields) return end
+function navgendebugCompactCell.new(fields) end

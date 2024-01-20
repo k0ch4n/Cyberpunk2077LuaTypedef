@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class HitStatusEffectPresentPrereq: GenericHitPrereq
----@field public checkType gamedataCheckType
----@field public statusEffectParam String
----@field public tag CName
+---@field checkType gamedataCheckType
+---@field statusEffectParam String
+---@field tag CName
 HitStatusEffectPresentPrereq = {}
 
 ---@param fields? HitStatusEffectPresentPrereq
 ---@return HitStatusEffectPresentPrereq
-function HitStatusEffectPresentPrereq.new(fields) return end
+function HitStatusEffectPresentPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitStatusEffectPresentPrereq:Initialize(recordID) return end
+function HitStatusEffectPresentPrereq:Initialize(recordID) end

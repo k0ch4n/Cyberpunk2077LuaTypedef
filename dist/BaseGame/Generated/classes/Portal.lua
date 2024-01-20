@@ -1,105 +1,86 @@
 ---@meta
 
 ---@class Portal: InteractiveDevice
----@field private exitNode NodeRef
----@field private LinkedPortal NodeRef
----@field protected renderToTextureComponent entIPlacedComponent
----@field protected virtualCameraComponent entIPlacedComponent
----@field protected isInStreamRange Bool
----@field protected isInTeleportRange Bool
----@field protected isOnOtherSide Bool
----@field protected playerBlocker entIPlacedComponent
----@field protected screen entMeshComponent
+---@field exitNode NodeRef
+---@field LinkedPortal NodeRef
+---@field renderToTextureComponent entIPlacedComponent
+---@field virtualCameraComponent entIPlacedComponent
+---@field isInStreamRange Bool
+---@field isInTeleportRange Bool
+---@field isOnOtherSide Bool
+---@field playerBlocker entIPlacedComponent
+---@field screen entMeshComponent
 Portal = {}
 
 ---@param fields? Portal
 ---@return Portal
-function Portal.new(fields) return end
+function Portal.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function Portal:OnAreaEnter(evt) return end
+function Portal:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function Portal:OnAreaExit(evt) return end
+function Portal:OnAreaExit(evt) end
 
----@protected
 ---@param evt SetLogicReadyEvent
 ---@return Bool
-function Portal:OnLogicReady(evt) return end
+function Portal:OnLogicReady(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Portal:OnRequestComponents(ri) return end
+function Portal:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Portal:OnTakeControl(ri) return end
+function Portal:OnTakeControl(ri) end
 
----@protected
 ---@param evt TeleportToLinkedPortalEvent
 ---@return Bool
-function Portal:OnTeleportToLinkedPortalEvent(evt) return end
+function Portal:OnTeleportToLinkedPortalEvent(evt) end
 
----@protected
 ---@param evt ToggleStreamOnLinkedPortalEvent
 ---@return Bool
-function Portal:OnToggleStreamOnLinkedPortal(evt) return end
+function Portal:OnToggleStreamOnLinkedPortal(evt) end
 
----@protected
 ---@return nil
-function Portal:ActivateDevice() return end
+function Portal:ActivateDevice() end
 
----@protected
 ---@return nil
-function Portal:CutPower() return end
+function Portal:CutPower() end
 
----@protected
 ---@return nil
-function Portal:DeactivateDevice() return end
+function Portal:DeactivateDevice() end
 
----@protected
 ---@return ScriptableDeviceComponent
-function Portal:GetController() return end
+function Portal:GetController() end
 
 ---@return ScriptableDeviceComponentPS
-function Portal:GetDevicePS() return end
+function Portal:GetDevicePS() end
 
----@private
 ---@return nil
-function Portal:TeleportPlayerToLinkedPortal() return end
+function Portal:TeleportPlayerToLinkedPortal() end
 
----@private
 ---@return nil
-function Portal:TeleportToExitNode() return end
+function Portal:TeleportToExitNode() end
 
----@private
 ---@param activate Bool
 ---@return nil
-function Portal:ToggleStream(activate) return end
+function Portal:ToggleStream(activate) end
 
----@private
 ---@param activate Bool
 ---@return nil
-function Portal:ToggleStreamOnLinkedPortal(activate) return end
+function Portal:ToggleStreamOnLinkedPortal(activate) end
 
----@protected
 ---@return nil
-function Portal:TurnOffDevice() return end
+function Portal:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Portal:TurnOffScreen() return end
+function Portal:TurnOffScreen() end
 
----@protected
 ---@return nil
-function Portal:TurnOnDevice() return end
+function Portal:TurnOnDevice() end
 
----@protected
 ---@return nil
-function Portal:TurnOnScreen() return end
+function Portal:TurnOnScreen() end

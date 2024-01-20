@@ -5,4 +5,4 @@ cpConveyorComponent = {}
 
 ---@param fields? cpConveyorComponent
 ---@return cpConveyorComponent
-function cpConveyorComponent.new(fields) return end
+function cpConveyorComponent.new(fields) end

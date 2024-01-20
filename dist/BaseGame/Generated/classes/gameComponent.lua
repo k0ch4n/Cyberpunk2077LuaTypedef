@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameComponent: entIComponent
----@field public persistentState gamePersistentState
+---@field persistentState gamePersistentState
 gameComponent = {}
 
 ---@param fields? gameComponent
 ---@return gameComponent
-function gameComponent.new(fields) return end
+function gameComponent.new(fields) end
 
 ---@return gameComponentPS
-function gameComponent:GetBasePS() return end
+function gameComponent:GetBasePS() end
 
 ---@return gameComponentPS
-function gameComponent:GetPS() return end
+function gameComponent:GetPS() end
 
 ---@return gamePersistentID
-function gameComponent:GetPersistentID() return end
+function gameComponent:GetPersistentID() end

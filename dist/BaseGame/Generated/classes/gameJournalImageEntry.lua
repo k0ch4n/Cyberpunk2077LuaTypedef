@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameJournalImageEntry: gameJournalEntry
----@field public imageId TweakDBID
----@field public thumbnailImageId TweakDBID
+---@field imageId TweakDBID
+---@field thumbnailImageId TweakDBID
 gameJournalImageEntry = {}
 
 ---@param fields? gameJournalImageEntry
 ---@return gameJournalImageEntry
-function gameJournalImageEntry.new(fields) return end
+function gameJournalImageEntry.new(fields) end
 
 ---@return TweakDBID
-function gameJournalImageEntry:GetImageID() return end
+function gameJournalImageEntry:GetImageID() end
 
 ---@return TweakDBID
-function gameJournalImageEntry:GetThumbnailImageID() return end
+function gameJournalImageEntry:GetThumbnailImageID() end

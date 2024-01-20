@@ -5,40 +5,34 @@ SlideDecisions = {}
 
 ---@param fields? SlideDecisions
 ---@return SlideDecisions
-function SlideDecisions.new(fields) return end
+function SlideDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SlideDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideDecisions:HasValidDodgeAngle(stateContext, scriptInterface) return end
+function SlideDecisions:HasValidDodgeAngle(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideDecisions:ShouldExit(stateContext, scriptInterface) return end
+function SlideDecisions:ShouldExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideDecisions:ToCrouch(stateContext, scriptInterface) return end
+function SlideDecisions:ToCrouch(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideDecisions:ToDodge(stateContext, scriptInterface) return end
+function SlideDecisions:ToDodge(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideDecisions:ToStand(stateContext, scriptInterface) return end
+function SlideDecisions:ToStand(stateContext, scriptInterface) end

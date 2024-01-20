@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiTweakDBIconReference: inkIconReference
----@field public iconID TweakDBID
+---@field iconID TweakDBID
 gameuiTweakDBIconReference = {}
 
 ---@param fields? gameuiTweakDBIconReference
 ---@return gameuiTweakDBIconReference
-function gameuiTweakDBIconReference.new(fields) return end
+function gameuiTweakDBIconReference.new(fields) end

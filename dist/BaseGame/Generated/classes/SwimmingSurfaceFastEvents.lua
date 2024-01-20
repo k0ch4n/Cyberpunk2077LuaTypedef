@@ -1,56 +1,52 @@
 ---@meta
 
 ---@class SwimmingSurfaceFastEvents: LocomotionSwimmingEvents
----@field public lapsedTime Float
----@field public timeSinceLastImpulse Float
----@field public timeBetweenMovementImpulses Float
----@field public movementImpulseRadius Float
----@field public movementImpulseStrength Float
----@field public movementImpulseOffset Float
+---@field lapsedTime Float
+---@field timeSinceLastImpulse Float
+---@field timeBetweenMovementImpulses Float
+---@field movementImpulseRadius Float
+---@field movementImpulseStrength Float
+---@field movementImpulseOffset Float
 SwimmingSurfaceFastEvents = {}
 
 ---@param fields? SwimmingSurfaceFastEvents
 ---@return SwimmingSurfaceFastEvents
-function SwimmingSurfaceFastEvents.new(fields) return end
+function SwimmingSurfaceFastEvents.new(fields) end
 
----@private
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceFastEvents:CreateWaterImpulse(timeDelta, stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function SwimmingSurfaceFastEvents:OnAttach(stateContext, scriptInterface) return end
+function SwimmingSurfaceFastEvents:CreateWaterImpulse(timeDelta, stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceFastEvents:OnEnter(stateContext, scriptInterface) return end
+function SwimmingSurfaceFastEvents:OnAttach(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceFastEvents:OnEnterFromFastDiving(stateContext, scriptInterface) return end
+function SwimmingSurfaceFastEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceFastEvents:OnExit(stateContext, scriptInterface) return end
+function SwimmingSurfaceFastEvents:OnEnterFromFastDiving(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SwimmingSurfaceFastEvents:OnExit(stateContext, scriptInterface) end
+
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceFastEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SwimmingSurfaceFastEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceFastEvents:UpdateSwimmingStroke(timeDelta, stateContext, scriptInterface) return end
+function SwimmingSurfaceFastEvents:UpdateSwimmingStroke(timeDelta, stateContext, scriptInterface) end

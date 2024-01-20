@@ -5,4 +5,4 @@ PulseFinishedRequest = {}
 
 ---@param fields? PulseFinishedRequest
 ---@return PulseFinishedRequest
-function PulseFinishedRequest.new(fields) return end
+function PulseFinishedRequest.new(fields) end

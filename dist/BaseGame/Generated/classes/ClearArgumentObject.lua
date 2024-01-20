@@ -5,12 +5,11 @@ ClearArgumentObject = {}
 
 ---@param fields? ClearArgumentObject
 ---@return ClearArgumentObject
-function ClearArgumentObject.new(fields) return end
+function ClearArgumentObject.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ClearArgumentObject:Activate(context) return end
+function ClearArgumentObject:Activate(context) end
 
 ---@return String
-function ClearArgumentObject:GetEditorSubCaption() return end
+function ClearArgumentObject:GetEditorSubCaption() end

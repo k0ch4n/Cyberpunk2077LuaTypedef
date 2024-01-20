@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MenuItemDimRequest: redEvent
----@field public dim Bool
+---@field dim Bool
 MenuItemDimRequest = {}
 
 ---@param fields? MenuItemDimRequest
 ---@return MenuItemDimRequest
-function MenuItemDimRequest.new(fields) return end
+function MenuItemDimRequest.new(fields) end

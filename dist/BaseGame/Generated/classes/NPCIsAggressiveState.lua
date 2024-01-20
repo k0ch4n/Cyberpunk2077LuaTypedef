@@ -5,4 +5,4 @@ NPCIsAggressiveState = {}
 
 ---@param fields? NPCIsAggressiveState
 ---@return NPCIsAggressiveState
-function NPCIsAggressiveState.new(fields) return end
+function NPCIsAggressiveState.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorGenerateSearchInfluenceTaskDefinition: AIbehaviorTaskDefinition
----@field public position AIArgumentMapping
----@field public path AIArgumentMapping
----@field public radius AIArgumentMapping
+---@field position AIArgumentMapping
+---@field path AIArgumentMapping
+---@field radius AIArgumentMapping
 AIbehaviorGenerateSearchInfluenceTaskDefinition = {}
 
 ---@param fields? AIbehaviorGenerateSearchInfluenceTaskDefinition
 ---@return AIbehaviorGenerateSearchInfluenceTaskDefinition
-function AIbehaviorGenerateSearchInfluenceTaskDefinition.new(fields) return end
+function AIbehaviorGenerateSearchInfluenceTaskDefinition.new(fields) end

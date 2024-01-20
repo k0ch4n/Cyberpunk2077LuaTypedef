@@ -5,8 +5,7 @@ InCrouchStanceState = {}
 
 ---@param fields? InCrouchStanceState
 ---@return InCrouchStanceState
-function InCrouchStanceState.new(fields) return end
+function InCrouchStanceState.new(fields) end
 
----@private
 ---@return gamedataNPCStanceState
-function InCrouchStanceState:GetStateToCheck() return end
+function InCrouchStanceState:GetStateToCheck() end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class PlayerVisionModeControllerRefreshPolicy
----@field public kerenzikov PlayerVisionModeControllerRefreshPolicyEnum
----@field public restrictedScene PlayerVisionModeControllerRefreshPolicyEnum
----@field public dead PlayerVisionModeControllerRefreshPolicyEnum
----@field public takedown PlayerVisionModeControllerRefreshPolicyEnum
----@field public deviceTakeover PlayerVisionModeControllerRefreshPolicyEnum
----@field public braindanceFPP PlayerVisionModeControllerRefreshPolicyEnum
----@field public braindanceActive PlayerVisionModeControllerRefreshPolicyEnum
----@field public veryHardLanding PlayerVisionModeControllerRefreshPolicyEnum
----@field public noScanningRestriction PlayerVisionModeControllerRefreshPolicyEnum
----@field public hasNotCybereye PlayerVisionModeControllerRefreshPolicyEnum
----@field public isPhotoMode PlayerVisionModeControllerRefreshPolicyEnum
----@field public isBriefingActive PlayerVisionModeControllerRefreshPolicyEnum
+---@field kerenzikov PlayerVisionModeControllerRefreshPolicyEnum
+---@field restrictedScene PlayerVisionModeControllerRefreshPolicyEnum
+---@field dead PlayerVisionModeControllerRefreshPolicyEnum
+---@field takedown PlayerVisionModeControllerRefreshPolicyEnum
+---@field deviceTakeover PlayerVisionModeControllerRefreshPolicyEnum
+---@field braindanceFPP PlayerVisionModeControllerRefreshPolicyEnum
+---@field braindanceActive PlayerVisionModeControllerRefreshPolicyEnum
+---@field veryHardLanding PlayerVisionModeControllerRefreshPolicyEnum
+---@field noScanningRestriction PlayerVisionModeControllerRefreshPolicyEnum
+---@field hasNotCybereye PlayerVisionModeControllerRefreshPolicyEnum
+---@field isPhotoMode PlayerVisionModeControllerRefreshPolicyEnum
+---@field isBriefingActive PlayerVisionModeControllerRefreshPolicyEnum
 PlayerVisionModeControllerRefreshPolicy = {}
 
 ---@param fields? PlayerVisionModeControllerRefreshPolicy
 ---@return PlayerVisionModeControllerRefreshPolicy
-function PlayerVisionModeControllerRefreshPolicy.new(fields) return end
+function PlayerVisionModeControllerRefreshPolicy.new(fields) end

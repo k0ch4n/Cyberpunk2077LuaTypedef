@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class gameinteractionsLootChoiceActionWrapper
----@field public removeItem Bool
----@field public itemId gameItemID
----@field public action CName
+---@field removeItem Bool
+---@field itemId gameItemID
+---@field action CName
 gameinteractionsLootChoiceActionWrapper = {}
 
 ---@param fields? gameinteractionsLootChoiceActionWrapper
 ---@return gameinteractionsLootChoiceActionWrapper
-function gameinteractionsLootChoiceActionWrapper.new(fields) return end
+function gameinteractionsLootChoiceActionWrapper.new(fields) end
 
 ---@param wrapper gameinteractionsLootChoiceActionWrapper
 ---@return Bool
-function gameinteractionsLootChoiceActionWrapper.IsHandledByCode(wrapper) return end
+function gameinteractionsLootChoiceActionWrapper.IsHandledByCode(wrapper) end
 
 ---@param wrapper gameinteractionsLootChoiceActionWrapper
 ---@return Bool
-function gameinteractionsLootChoiceActionWrapper.IsIllegal(wrapper) return end
+function gameinteractionsLootChoiceActionWrapper.IsIllegal(wrapper) end
 
 ---@param wrapper gameinteractionsLootChoiceActionWrapper
 ---@return Bool
-function gameinteractionsLootChoiceActionWrapper.IsValid(wrapper) return end
+function gameinteractionsLootChoiceActionWrapper.IsValid(wrapper) end
 
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return gameinteractionsLootChoiceActionWrapper
-function gameinteractionsLootChoiceActionWrapper.Unwrap(choiceEvent) return end
+function gameinteractionsLootChoiceActionWrapper.Unwrap(choiceEvent) end

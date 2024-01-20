@@ -5,4 +5,4 @@ ResloveFocusClueDescriptionEvent = {}
 
 ---@param fields? ResloveFocusClueDescriptionEvent
 ---@return ResloveFocusClueDescriptionEvent
-function ResloveFocusClueDescriptionEvent.new(fields) return end
+function ResloveFocusClueDescriptionEvent.new(fields) end

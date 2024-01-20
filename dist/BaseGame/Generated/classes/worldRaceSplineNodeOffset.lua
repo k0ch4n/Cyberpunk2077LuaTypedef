@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldRaceSplineNodeOffset
----@field public from Float
----@field public to Float
----@field public left Float
----@field public right Float
+---@field from Float
+---@field to Float
+---@field left Float
+---@field right Float
 worldRaceSplineNodeOffset = {}
 
 ---@param fields? worldRaceSplineNodeOffset
 ---@return worldRaceSplineNodeOffset
-function worldRaceSplineNodeOffset.new(fields) return end
+function worldRaceSplineNodeOffset.new(fields) end

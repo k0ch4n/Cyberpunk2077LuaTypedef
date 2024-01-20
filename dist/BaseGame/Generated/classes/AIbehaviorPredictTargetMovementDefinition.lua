@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorPredictTargetMovementDefinition: AIbehaviorTaskDefinition
----@field public target AIArgumentMapping
----@field public timeInterval AIArgumentMapping
----@field public result AIArgumentMapping
+---@field target AIArgumentMapping
+---@field timeInterval AIArgumentMapping
+---@field result AIArgumentMapping
 AIbehaviorPredictTargetMovementDefinition = {}
 
 ---@param fields? AIbehaviorPredictTargetMovementDefinition
 ---@return AIbehaviorPredictTargetMovementDefinition
-function AIbehaviorPredictTargetMovementDefinition.new(fields) return end
+function AIbehaviorPredictTargetMovementDefinition.new(fields) end

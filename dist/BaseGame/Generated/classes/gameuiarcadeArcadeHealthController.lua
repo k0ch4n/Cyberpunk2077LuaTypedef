@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeHealthController: inkWidgetLogicController
----@field public widget inkWidget
+---@field widget inkWidget
 gameuiarcadeArcadeHealthController = {}

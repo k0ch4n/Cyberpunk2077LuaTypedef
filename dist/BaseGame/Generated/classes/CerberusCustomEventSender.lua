@@ -5,10 +5,10 @@ CerberusCustomEventSender = {}
 
 ---@param fields? CerberusCustomEventSender
 ---@return CerberusCustomEventSender
-function CerberusCustomEventSender.new(fields) return end
+function CerberusCustomEventSender.new(fields) end
 
 ---@return String
-function CerberusCustomEventSender:GetEditorSubCaption() return end
+function CerberusCustomEventSender:GetEditorSubCaption() end
 
 ---@return Float
-function CerberusCustomEventSender:GetSignalLifeTime() return end
+function CerberusCustomEventSender:GetSignalLifeTime() end

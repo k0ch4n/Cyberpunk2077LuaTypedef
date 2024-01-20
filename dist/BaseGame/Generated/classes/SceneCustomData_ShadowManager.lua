@@ -5,4 +5,4 @@ SceneCustomData_ShadowManager = {}
 
 ---@param fields? SceneCustomData_ShadowManager
 ---@return SceneCustomData_ShadowManager
-function SceneCustomData_ShadowManager.new(fields) return end
+function SceneCustomData_ShadowManager.new(fields) end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class navgendebugContourSet
----@field public contours navgendebugCompactContour[]
----@field public boundingBox Box
----@field public cellSize Float
----@field public cellHeight Float
----@field public width Int32
----@field public height Int32
----@field public borderSize Int32
----@field public maxError Float
+---@field contours navgendebugCompactContour[]
+---@field boundingBox Box
+---@field cellSize Float
+---@field cellHeight Float
+---@field width Int32
+---@field height Int32
+---@field borderSize Int32
+---@field maxError Float
 navgendebugContourSet = {}
 
 ---@param fields? navgendebugContourSet
 ---@return navgendebugContourSet
-function navgendebugContourSet.new(fields) return end
+function navgendebugContourSet.new(fields) end

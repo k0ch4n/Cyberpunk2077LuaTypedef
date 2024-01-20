@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class HitFlagPrereq: GenericHitPrereq
----@field public flag hitFlag
+---@field flag hitFlag
 HitFlagPrereq = {}
 
 ---@param fields? HitFlagPrereq
 ---@return HitFlagPrereq
-function HitFlagPrereq.new(fields) return end
+function HitFlagPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitFlagPrereq:Initialize(recordID) return end
+function HitFlagPrereq:Initialize(recordID) end

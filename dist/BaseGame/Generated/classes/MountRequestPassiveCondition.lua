@@ -1,35 +1,33 @@
 ---@meta
 
 ---@class MountRequestPassiveCondition: AIbehaviorexpressionScript
----@field private unmountRequest Bool
----@field private acceptInstant Bool
----@field private acceptNotInstant Bool
----@field private acceptForcedTransition Bool
----@field private succeedOnMissingMountedEntity Bool
----@field private callbackId Uint32
----@field private highLevelStateCallbackId Uint32
+---@field unmountRequest Bool
+---@field acceptInstant Bool
+---@field acceptNotInstant Bool
+---@field acceptForcedTransition Bool
+---@field succeedOnMissingMountedEntity Bool
+---@field callbackId Uint32
+---@field highLevelStateCallbackId Uint32
 MountRequestPassiveCondition = {}
 
 ---@param fields? MountRequestPassiveCondition
 ---@return MountRequestPassiveCondition
-function MountRequestPassiveCondition.new(fields) return end
+function MountRequestPassiveCondition.new(fields) end
 
 ---@param ctx AIbehaviorScriptExecutionContext
 ---@return nil
-function MountRequestPassiveCondition:Activate(ctx) return end
+function MountRequestPassiveCondition:Activate(ctx) end
 
 ---@param ctx AIbehaviorScriptExecutionContext
 ---@return Variant
-function MountRequestPassiveCondition:CalculateValue(ctx) return end
+function MountRequestPassiveCondition:CalculateValue(ctx) end
 
 ---@param ctx AIbehaviorScriptExecutionContext
 ---@return nil
-function MountRequestPassiveCondition:Deactivate(ctx) return end
+function MountRequestPassiveCondition:Deactivate(ctx) end
 
----@private
 ---@return CName
-function MountRequestPassiveCondition:GetCallbackName() return end
+function MountRequestPassiveCondition:GetCallbackName() end
 
----@private
 ---@return CName
-function MountRequestPassiveCondition:GetRequestArgumentName() return end
+function MountRequestPassiveCondition:GetRequestArgumentName() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OverclockHudEvent: redEvent
----@field public activated Bool
+---@field activated Bool
 OverclockHudEvent = {}
 
 ---@param fields? OverclockHudEvent
 ---@return OverclockHudEvent
-function OverclockHudEvent.new(fields) return end
+function OverclockHudEvent.new(fields) end

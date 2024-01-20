@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnBraindanceJumpInProgress_ConditionType: scnIBraindanceConditionType
----@field public inProgress Bool
----@field public sceneFile scnSceneResource
----@field public SceneVersion scnSceneVersionCheck
+---@field inProgress Bool
+---@field sceneFile scnSceneResource
+---@field SceneVersion scnSceneVersionCheck
 scnBraindanceJumpInProgress_ConditionType = {}
 
 ---@param fields? scnBraindanceJumpInProgress_ConditionType
 ---@return scnBraindanceJumpInProgress_ConditionType
-function scnBraindanceJumpInProgress_ConditionType.new(fields) return end
+function scnBraindanceJumpInProgress_ConditionType.new(fields) end

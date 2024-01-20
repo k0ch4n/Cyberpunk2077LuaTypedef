@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AddOrRemoveListenerEvent: redEvent
----@field public listener PuppetListener
----@field public add Bool
+---@field listener PuppetListener
+---@field add Bool
 AddOrRemoveListenerEvent = {}
 
 ---@param fields? AddOrRemoveListenerEvent
 ---@return AddOrRemoveListenerEvent
-function AddOrRemoveListenerEvent.new(fields) return end
+function AddOrRemoveListenerEvent.new(fields) end

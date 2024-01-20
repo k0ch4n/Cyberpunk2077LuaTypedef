@@ -1,88 +1,77 @@
 ---@meta
 
 ---@class CodexSystem: gameScriptableSystem
----@field private codex SCodexRecord[]
----@field private blackboard gameIBlackboard
+---@field codex SCodexRecord[]
+---@field blackboard gameIBlackboard
 CodexSystem = {}
 
 ---@param fields? CodexSystem
 ---@return CodexSystem
-function CodexSystem.new(fields) return end
+function CodexSystem.new(fields) end
 
----@private
 ---@param record gamedataCodexRecord_Record
 ---@return nil
-function CodexSystem:AddCodexRecord(record) return end
+function CodexSystem:AddCodexRecord(record) end
 
 ---@return SCodexRecord[]
-function CodexSystem:GetCodex() return end
+function CodexSystem:GetCodex() end
 
 ---@param recordTweak TweakDBID|string
 ---@return Int32
-function CodexSystem:GetCodexRecordIndex(recordTweak) return end
+function CodexSystem:GetCodexRecordIndex(recordTweak) end
 
 ---@param recordID TweakDBID|string
 ---@param partName CName|string
 ---@return String
-function CodexSystem:GetCodexRecordPartContent(recordID, partName) return end
+function CodexSystem:GetCodexRecordPartContent(recordID, partName) end
 
 ---@param recordTweak TweakDBID|string
 ---@return SCodexRecordPart[]
-function CodexSystem:GetCodexRecordParts(recordTweak) return end
+function CodexSystem:GetCodexRecordParts(recordTweak) end
 
 ---@param recordID TweakDBID|string
 ---@return Bool
-function CodexSystem:IsRecordLocked(recordID) return end
+function CodexSystem:IsRecordLocked(recordID) end
 
 ---@param recordID TweakDBID|string
 ---@param partName CName|string
 ---@return Bool
-function CodexSystem:IsRecordPartLocked(recordID, partName) return end
+function CodexSystem:IsRecordPartLocked(recordID, partName) end
 
----@private
 ---@param recordTweak TweakDBID|string
 ---@return nil
-function CodexSystem:LockRecord(recordTweak) return end
+function CodexSystem:LockRecord(recordTweak) end
 
----@private
 ---@param request CodexAddRecordRequest
 ---@return nil
-function CodexSystem:OnAddCodexRecordRequest(request) return end
+function CodexSystem:OnAddCodexRecordRequest(request) end
 
----@private
 ---@return nil
-function CodexSystem:OnAttach() return end
+function CodexSystem:OnAttach() end
 
----@private
 ---@param request CodexLockRecordRequest
 ---@return nil
-function CodexSystem:OnCodexLockRecordRequest(request) return end
+function CodexSystem:OnCodexLockRecordRequest(request) end
 
----@private
 ---@param request CodexUnlockRecordRequest
 ---@return nil
-function CodexSystem:OnCodexUnlockRecordRequest(request) return end
+function CodexSystem:OnCodexUnlockRecordRequest(request) end
 
----@private
 ---@param request UnlockCodexPartRequest
 ---@return nil
-function CodexSystem:OnUnlockCodexPartRequest(request) return end
+function CodexSystem:OnUnlockCodexPartRequest(request) end
 
----@private
 ---@return nil
-function CodexSystem:SendCallback() return end
+function CodexSystem:SendCallback() end
 
----@private
 ---@param recordTweak TweakDBID|string
 ---@param partName CName|string
 ---@return nil
-function CodexSystem:UnlockCodexPart(recordTweak, partName) return end
+function CodexSystem:UnlockCodexPart(recordTweak, partName) end
 
----@private
 ---@param recordTweak TweakDBID|string
 ---@return nil
-function CodexSystem:UnlockRecord(recordTweak) return end
+function CodexSystem:UnlockRecord(recordTweak) end
 
----@private
 ---@return nil
-function CodexSystem:codexInit() return end
+function CodexSystem:codexInit() end

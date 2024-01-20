@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameeventsStartTakedownEvent: redEvent
----@field public target gameObject
----@field public slideTime Float
----@field public actionName CName
+---@field target gameObject
+---@field slideTime Float
+---@field actionName CName
 gameeventsStartTakedownEvent = {}
 
 ---@param fields? gameeventsStartTakedownEvent
 ---@return gameeventsStartTakedownEvent
-function gameeventsStartTakedownEvent.new(fields) return end
+function gameeventsStartTakedownEvent.new(fields) end

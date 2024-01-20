@@ -5,4 +5,4 @@ gameObjectPS = {}
 
 ---@param fields? gameObjectPS
 ---@return gameObjectPS
-function gameObjectPS.new(fields) return end
+function gameObjectPS.new(fields) end

@@ -5,4 +5,4 @@ TimeSkipOpenedEvent = {}
 
 ---@param fields? TimeSkipOpenedEvent
 ---@return TimeSkipOpenedEvent
-function TimeSkipOpenedEvent.new(fields) return end
+function TimeSkipOpenedEvent.new(fields) end

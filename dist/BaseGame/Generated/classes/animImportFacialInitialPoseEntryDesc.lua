@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class animImportFacialInitialPoseEntryDesc
----@field public poseName CName
----@field public id Int16
----@field public weight Float
----@field public type Uint8
----@field public side Uint8
----@field public isCachable Bool
----@field public initAnimationPoseMid Float
----@field public initAnimationPoseMin Float
----@field public initAnimationPoseMax Float
+---@field poseName CName
+---@field id Int16
+---@field weight Float
+---@field type Uint8
+---@field side Uint8
+---@field isCachable Bool
+---@field initAnimationPoseMid Float
+---@field initAnimationPoseMin Float
+---@field initAnimationPoseMax Float
 animImportFacialInitialPoseEntryDesc = {}
 
 ---@param fields? animImportFacialInitialPoseEntryDesc
 ---@return animImportFacialInitialPoseEntryDesc
-function animImportFacialInitialPoseEntryDesc.new(fields) return end
+function animImportFacialInitialPoseEntryDesc.new(fields) end

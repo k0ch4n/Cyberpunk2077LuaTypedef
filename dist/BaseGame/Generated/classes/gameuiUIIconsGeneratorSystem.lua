@@ -5,4 +5,4 @@ gameuiUIIconsGeneratorSystem = {}
 
 ---@param fields? gameuiUIIconsGeneratorSystem
 ---@return gameuiUIIconsGeneratorSystem
-function gameuiUIIconsGeneratorSystem.new(fields) return end
+function gameuiUIIconsGeneratorSystem.new(fields) end

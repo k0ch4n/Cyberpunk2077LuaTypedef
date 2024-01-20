@@ -5,4 +5,4 @@ VehicleReadyInteractionDelayEvent = {}
 
 ---@param fields? VehicleReadyInteractionDelayEvent
 ---@return VehicleReadyInteractionDelayEvent
-function VehicleReadyInteractionDelayEvent.new(fields) return end
+function VehicleReadyInteractionDelayEvent.new(fields) end

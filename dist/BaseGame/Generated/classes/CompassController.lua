@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class CompassController: inkWidgetLogicController
----@field private faceLeft inkWidgetReference
----@field private faceRight inkWidgetReference
----@field private textWidget inkTextWidgetReference
----@field private decimalPrecision Uint32
----@field private faceRightStartPosition Vector2
----@field private faceLeftStartPosition Vector2
----@field private isVertical Bool
----@field private valueFloat Float
----@field private playerPuppet gameObject
----@field private precisionEpsilon Float
+---@field faceLeft inkWidgetReference
+---@field faceRight inkWidgetReference
+---@field textWidget inkTextWidgetReference
+---@field decimalPrecision Uint32
+---@field faceRightStartPosition Vector2
+---@field faceLeftStartPosition Vector2
+---@field isVertical Bool
+---@field valueFloat Float
+---@field playerPuppet gameObject
+---@field precisionEpsilon Float
 CompassController = {}
 
 ---@param fields? CompassController
 ---@return CompassController
-function CompassController.new(fields) return end
+function CompassController.new(fields) end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function CompassController:OnPlayerAttach(playerPuppet) return end
+function CompassController:OnPlayerAttach(playerPuppet) end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function CompassController:OnPlayerDetach(playerPuppet) return end
+function CompassController:OnPlayerDetach(playerPuppet) end
 
 ---@return nil
-function CompassController:Update() return end
+function CompassController:Update() end

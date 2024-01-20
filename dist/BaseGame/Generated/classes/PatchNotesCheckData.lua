@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PatchNotesCheckData: IScriptable
----@field public ownExpansion Bool
+---@field ownExpansion Bool
 PatchNotesCheckData = {}
 
 ---@param fields? PatchNotesCheckData
 ---@return PatchNotesCheckData
-function PatchNotesCheckData.new(fields) return end
+function PatchNotesCheckData.new(fields) end

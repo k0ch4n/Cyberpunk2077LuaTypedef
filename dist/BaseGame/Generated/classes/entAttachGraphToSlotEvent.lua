@@ -5,4 +5,4 @@ entAttachGraphToSlotEvent = {}
 
 ---@param fields? entAttachGraphToSlotEvent
 ---@return entAttachGraphToSlotEvent
-function entAttachGraphToSlotEvent.new(fields) return end
+function entAttachGraphToSlotEvent.new(fields) end

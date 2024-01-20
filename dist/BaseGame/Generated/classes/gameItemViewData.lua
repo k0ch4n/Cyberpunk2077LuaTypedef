@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameItemViewData
----@field public id gameItemID
----@field public itemName String
----@field public categoryName String
----@field public description String
----@field public quality String
----@field public price Float
----@field public isBroken Bool
----@field public primaryStats gameStatViewData[]
----@field public secondaryStats gameStatViewData[]
----@field public comparedQuality gamedataQuality
+---@field id gameItemID
+---@field itemName String
+---@field categoryName String
+---@field description String
+---@field quality String
+---@field price Float
+---@field isBroken Bool
+---@field primaryStats gameStatViewData[]
+---@field secondaryStats gameStatViewData[]
+---@field comparedQuality gamedataQuality
 gameItemViewData = {}
 
 ---@param fields? gameItemViewData
 ---@return gameItemViewData
-function gameItemViewData.new(fields) return end
+function gameItemViewData.new(fields) end

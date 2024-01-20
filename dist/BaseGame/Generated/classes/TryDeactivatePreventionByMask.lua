@@ -5,14 +5,12 @@ TryDeactivatePreventionByMask = {}
 
 ---@param fields? TryDeactivatePreventionByMask
 ---@return TryDeactivatePreventionByMask
-function TryDeactivatePreventionByMask.new(fields) return end
+function TryDeactivatePreventionByMask.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TryDeactivatePreventionByMask:ActionOn(owner) return end
+function TryDeactivatePreventionByMask:ActionOn(owner) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function TryDeactivatePreventionByMask:ProcessAction(owner) return end
+function TryDeactivatePreventionByMask:ProcessAction(owner) end

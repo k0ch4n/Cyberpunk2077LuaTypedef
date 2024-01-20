@@ -5,4 +5,4 @@ DetectionRiseEvent = {}
 
 ---@param fields? DetectionRiseEvent
 ---@return DetectionRiseEvent
-function DetectionRiseEvent.new(fields) return end
+function DetectionRiseEvent.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class GogRewardEntryData: IScriptable
----@field public title String
----@field public description String
----@field public icon CName
----@field public group CName
----@field public slotType CName
----@field public isUnlocked Bool
----@field public record gamedataGOGReward_Record
+---@field title String
+---@field description String
+---@field icon CName
+---@field group CName
+---@field slotType CName
+---@field isUnlocked Bool
+---@field record gamedataGOGReward_Record
 GogRewardEntryData = {}
 
 ---@param fields? GogRewardEntryData
 ---@return GogRewardEntryData
-function GogRewardEntryData.new(fields) return end
+function GogRewardEntryData.new(fields) end

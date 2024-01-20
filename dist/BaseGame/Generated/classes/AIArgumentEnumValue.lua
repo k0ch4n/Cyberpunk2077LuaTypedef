@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIArgumentEnumValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public enumClass CName
----@field public defaultValue Int64
+---@field type AIArgumentType
+---@field enumClass CName
+---@field defaultValue Int64
 AIArgumentEnumValue = {}
 
 ---@param fields? AIArgumentEnumValue
 ---@return AIArgumentEnumValue
-function AIArgumentEnumValue.new(fields) return end
+function AIArgumentEnumValue.new(fields) end

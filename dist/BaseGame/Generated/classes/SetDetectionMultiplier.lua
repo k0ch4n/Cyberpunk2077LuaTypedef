@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetDetectionMultiplier: redEvent
----@field public multiplier Float
+---@field multiplier Float
 SetDetectionMultiplier = {}
 
 ---@param fields? SetDetectionMultiplier
 ---@return SetDetectionMultiplier
-function SetDetectionMultiplier.new(fields) return end
+function SetDetectionMultiplier.new(fields) end

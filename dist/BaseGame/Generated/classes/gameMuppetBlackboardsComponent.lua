@@ -5,4 +5,4 @@ gameMuppetBlackboardsComponent = {}
 
 ---@param fields? gameMuppetBlackboardsComponent
 ---@return gameMuppetBlackboardsComponent
-function gameMuppetBlackboardsComponent.new(fields) return end
+function gameMuppetBlackboardsComponent.new(fields) end

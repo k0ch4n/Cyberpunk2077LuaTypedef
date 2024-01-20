@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameinteractionsvisInteractionChoiceHubData
----@field public id Int32
----@field public flags gameinteractionsvisEVisualizerDefinitionFlags
----@field public active Bool
----@field public title String
----@field public choices gameinteractionsvisInteractionChoiceData[]
----@field public timeProvider gameinteractionsvisIVisualizerTimeProvider
+---@field id Int32
+---@field flags gameinteractionsvisEVisualizerDefinitionFlags
+---@field active Bool
+---@field title String
+---@field choices gameinteractionsvisInteractionChoiceData[]
+---@field timeProvider gameinteractionsvisIVisualizerTimeProvider
 gameinteractionsvisInteractionChoiceHubData = {}
 
 ---@param fields? gameinteractionsvisInteractionChoiceHubData
 ---@return gameinteractionsvisInteractionChoiceHubData
-function gameinteractionsvisInteractionChoiceHubData.new(fields) return end
+function gameinteractionsvisInteractionChoiceHubData.new(fields) end

@@ -5,4 +5,4 @@ RemoveLinkEvent = {}
 
 ---@param fields? RemoveLinkEvent
 ---@return RemoveLinkEvent
-function RemoveLinkEvent.new(fields) return end
+function RemoveLinkEvent.new(fields) end

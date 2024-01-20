@@ -5,4 +5,4 @@ InputActivatedToUploadBlackwallEvent = {}
 
 ---@param fields? InputActivatedToUploadBlackwallEvent
 ---@return InputActivatedToUploadBlackwallEvent
-function InputActivatedToUploadBlackwallEvent.new(fields) return end
+function InputActivatedToUploadBlackwallEvent.new(fields) end

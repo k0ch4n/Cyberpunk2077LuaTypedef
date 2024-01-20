@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class HotkeyCustomRadioWidgetController: gameuiNewPhoneRelatedHUDGameController
----@field private radioSlot inkCompoundWidgetReference
----@field private DpadHintLibraryPath inkWidgetLibraryReference
+---@field radioSlot inkCompoundWidgetReference
+---@field DpadHintLibraryPath inkWidgetLibraryReference
 HotkeyCustomRadioWidgetController = {}
 
 ---@param fields? HotkeyCustomRadioWidgetController
 ---@return HotkeyCustomRadioWidgetController
-function HotkeyCustomRadioWidgetController.new(fields) return end
+function HotkeyCustomRadioWidgetController.new(fields) end
 
----@protected
 ---@return Bool
-function HotkeyCustomRadioWidgetController:OnInitialize() return end
+function HotkeyCustomRadioWidgetController:OnInitialize() end

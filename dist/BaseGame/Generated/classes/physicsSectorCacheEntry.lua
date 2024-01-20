@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsSectorCacheEntry
----@field public entryOffset Uint32
----@field public entrySize Uint32
+---@field entryOffset Uint32
+---@field entrySize Uint32
 physicsSectorCacheEntry = {}
 
 ---@param fields? physicsSectorCacheEntry
 ---@return physicsSectorCacheEntry
-function physicsSectorCacheEntry.new(fields) return end
+function physicsSectorCacheEntry.new(fields) end

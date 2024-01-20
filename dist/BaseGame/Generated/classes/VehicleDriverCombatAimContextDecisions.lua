@@ -5,12 +5,10 @@ VehicleDriverCombatAimContextDecisions = {}
 
 ---@param fields? VehicleDriverCombatAimContextDecisions
 ---@return VehicleDriverCombatAimContextDecisions
-function VehicleDriverCombatAimContextDecisions.new(fields) return end
+function VehicleDriverCombatAimContextDecisions.new(fields) end
 
----@protected
 ---@return Bool
-function VehicleDriverCombatAimContextDecisions:CameraPerspectiveEnterCondition() return end
+function VehicleDriverCombatAimContextDecisions:CameraPerspectiveEnterCondition() end
 
----@protected
 ---@return Bool
-function VehicleDriverCombatAimContextDecisions:IsAimingEnterCondition() return end
+function VehicleDriverCombatAimContextDecisions:IsAimingEnterCondition() end

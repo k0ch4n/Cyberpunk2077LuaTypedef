@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class FactInvokerDataEntry: IScriptable
----@field private fact CName
----@field private password CName
+---@field fact CName
+---@field password CName
 FactInvokerDataEntry = {}
 
 ---@param fields? FactInvokerDataEntry
 ---@return FactInvokerDataEntry
-function FactInvokerDataEntry.new(fields) return end
+function FactInvokerDataEntry.new(fields) end
 
 ---@return CName
-function FactInvokerDataEntry:GetFact() return end
+function FactInvokerDataEntry:GetFact() end
 
 ---@return CName
-function FactInvokerDataEntry:GetPassword() return end
+function FactInvokerDataEntry:GetPassword() end

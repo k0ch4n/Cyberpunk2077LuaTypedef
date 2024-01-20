@@ -1,46 +1,46 @@
 ---@meta
 
 ---@class inkScrollAreaWidget: inkCompoundWidget
----@field public horizontalScrolling Float
----@field public verticalScrolling Float
----@field public constrainContentPosition Bool
----@field public fitToContentDirection inkFitToContentDirection
----@field public useInternalMask Bool
+---@field horizontalScrolling Float
+---@field verticalScrolling Float
+---@field constrainContentPosition Bool
+---@field fitToContentDirection inkFitToContentDirection
+---@field useInternalMask Bool
 inkScrollAreaWidget = {}
 
 ---@param fields? inkScrollAreaWidget
 ---@return inkScrollAreaWidget
-function inkScrollAreaWidget.new(fields) return end
+function inkScrollAreaWidget.new(fields) end
 
 ---@return Vector2
-function inkScrollAreaWidget:GetContentSize() return end
+function inkScrollAreaWidget:GetContentSize() end
 
 ---@return Float
-function inkScrollAreaWidget:GetHorizontalScrollPosition() return end
+function inkScrollAreaWidget:GetHorizontalScrollPosition() end
 
 ---@return Float
-function inkScrollAreaWidget:GetRealHorizontalScrollPosition() return end
+function inkScrollAreaWidget:GetRealHorizontalScrollPosition() end
 
 ---@return Float
-function inkScrollAreaWidget:GetRealVerticalScrollPosition() return end
+function inkScrollAreaWidget:GetRealVerticalScrollPosition() end
 
 ---@return Bool
-function inkScrollAreaWidget:GetUseInternalMask() return end
+function inkScrollAreaWidget:GetUseInternalMask() end
 
 ---@return Float
-function inkScrollAreaWidget:GetVerticalScrollPosition() return end
+function inkScrollAreaWidget:GetVerticalScrollPosition() end
 
 ---@return Vector2
-function inkScrollAreaWidget:GetViewportSize() return end
+function inkScrollAreaWidget:GetViewportSize() end
 
 ---@param value Float
 ---@return nil
-function inkScrollAreaWidget:ScrollHorizontal(value) return end
+function inkScrollAreaWidget:ScrollHorizontal(value) end
 
 ---@param value Float
 ---@return nil
-function inkScrollAreaWidget:ScrollVertical(value) return end
+function inkScrollAreaWidget:ScrollVertical(value) end
 
 ---@param value Bool
 ---@return nil
-function inkScrollAreaWidget:SetUseInternalMask(value) return end
+function inkScrollAreaWidget:SetUseInternalMask(value) end

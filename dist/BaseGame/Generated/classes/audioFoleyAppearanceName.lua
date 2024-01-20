@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioFoleyAppearanceName: audioAudioMetadata
----@field public void Bool
+---@field void Bool
 audioFoleyAppearanceName = {}
 
 ---@param fields? audioFoleyAppearanceName
 ---@return audioFoleyAppearanceName
-function audioFoleyAppearanceName.new(fields) return end
+function audioFoleyAppearanceName.new(fields) end

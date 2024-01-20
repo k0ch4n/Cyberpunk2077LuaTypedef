@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class BountyCollectedNotificationQueue: gameuiGenericNotificationGameController
----@field protected duration Float
----@field private bountyNotification CName
+---@field duration Float
+---@field bountyNotification CName
 BountyCollectedNotificationQueue = {}
 
 ---@param fields? BountyCollectedNotificationQueue
 ---@return BountyCollectedNotificationQueue
-function BountyCollectedNotificationQueue.new(fields) return end
+function BountyCollectedNotificationQueue.new(fields) end
 
----@protected
 ---@param evt BountyCompletionEvent
 ---@return Bool
-function BountyCollectedNotificationQueue:OnBountyCompletionEvent(evt) return end
+function BountyCollectedNotificationQueue:OnBountyCompletionEvent(evt) end
 
 ---@return nil
-function BountyCollectedNotificationQueue:PushNotification() return end
+function BountyCollectedNotificationQueue:PushNotification() end

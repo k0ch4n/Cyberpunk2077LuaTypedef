@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsCollisionPresetOverride
----@field public from CName
----@field public to CName
+---@field from CName
+---@field to CName
 physicsCollisionPresetOverride = {}
 
 ---@param fields? physicsCollisionPresetOverride
 ---@return physicsCollisionPresetOverride
-function physicsCollisionPresetOverride.new(fields) return end
+function physicsCollisionPresetOverride.new(fields) end

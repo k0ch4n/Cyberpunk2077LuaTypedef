@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class ExhaustedEvents: StaminaEventsTransition
----@field public staminaVfxBlackboard worldEffectBlackboard
----@field public disableStaminaRegenModifier gameConstantStatModifierData_Deprecated
----@field public player PlayerPuppet
+---@field staminaVfxBlackboard worldEffectBlackboard
+---@field disableStaminaRegenModifier gameConstantStatModifierData_Deprecated
+---@field player PlayerPuppet
 ExhaustedEvents = {}
 
 ---@param fields? ExhaustedEvents
 ---@return ExhaustedEvents
-function ExhaustedEvents.new(fields) return end
+function ExhaustedEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExhaustedEvents:HandleExit(stateContext, scriptInterface) return end
+function ExhaustedEvents:HandleExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExhaustedEvents:OnEnter(stateContext, scriptInterface) return end
+function ExhaustedEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExhaustedEvents:OnExit(stateContext, scriptInterface) return end
+function ExhaustedEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExhaustedEvents:OnForcedExit(stateContext, scriptInterface) return end
+function ExhaustedEvents:OnForcedExit(stateContext, scriptInterface) end

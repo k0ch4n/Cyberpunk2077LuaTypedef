@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiarcadeTankPlayerHealthController: inkWidgetLogicController
----@field public health inkWidgetReference
+---@field health inkWidgetReference
 gameuiarcadeTankPlayerHealthController = {}
 
 ---@param fields? gameuiarcadeTankPlayerHealthController
 ---@return gameuiarcadeTankPlayerHealthController
-function gameuiarcadeTankPlayerHealthController.new(fields) return end
+function gameuiarcadeTankPlayerHealthController.new(fields) end

@@ -5,4 +5,4 @@ SpawnPoliceVehicleWithDelayRequest = {}
 
 ---@param fields? SpawnPoliceVehicleWithDelayRequest
 ---@return SpawnPoliceVehicleWithDelayRequest
-function SpawnPoliceVehicleWithDelayRequest.new(fields) return end
+function SpawnPoliceVehicleWithDelayRequest.new(fields) end

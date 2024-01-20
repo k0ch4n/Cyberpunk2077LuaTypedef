@@ -5,4 +5,4 @@ worldTerrainMeshNodeInstance = {}
 
 ---@param fields? worldTerrainMeshNodeInstance
 ---@return worldTerrainMeshNodeInstance
-function worldTerrainMeshNodeInstance.new(fields) return end
+function worldTerrainMeshNodeInstance.new(fields) end

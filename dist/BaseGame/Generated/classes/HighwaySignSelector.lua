@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class HighwaySignSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field recordID TweakDBID
 HighwaySignSelector = {}
 
 ---@param fields? HighwaySignSelector
 ---@return HighwaySignSelector
-function HighwaySignSelector.new(fields) return end
+function HighwaySignSelector.new(fields) end
 
 ---@return TweakDBID
-function HighwaySignSelector:GetRecordID() return end
+function HighwaySignSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function HighwaySignSelector:SetRecordID(recordID) return end
+function HighwaySignSelector:SetRecordID(recordID) end

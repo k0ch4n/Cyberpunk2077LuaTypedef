@@ -5,4 +5,4 @@ gameScanningActivatorComponent = {}
 
 ---@param fields? gameScanningActivatorComponent
 ---@return gameScanningActivatorComponent
-function gameScanningActivatorComponent.new(fields) return end
+function gameScanningActivatorComponent.new(fields) end

@@ -1,148 +1,123 @@
 ---@meta
 
 ---@class ActionsSequencerControllerPS: MasterControllerPS
----@field private sequenceDuration Float
----@field private sequencerMode EActionsSequencerMode
----@field private actionTypeToForward SActionTypeForward
----@field private ongoingSequence ActionsSequence
+---@field sequenceDuration Float
+---@field sequencerMode EActionsSequencerMode
+---@field actionTypeToForward SActionTypeForward
+---@field ongoingSequence ActionsSequence
 ActionsSequencerControllerPS = {}
 
 ---@param fields? ActionsSequencerControllerPS
 ---@return ActionsSequencerControllerPS
-function ActionsSequencerControllerPS.new(fields) return end
+function ActionsSequencerControllerPS.new(fields) end
 
----@private
 ---@return nil
-function ActionsSequencerControllerPS:CleanupSequence() return end
+function ActionsSequencerControllerPS:CleanupSequence() end
 
----@private
 ---@param actionToForward ScriptableDeviceAction
 ---@param eligibleSlaves gameDeviceComponentPS[]
 ---@param delays Float[]
 ---@return nil
-function ActionsSequencerControllerPS:CommenceSequence(actionToForward, eligibleSlaves, delays) return end
+function ActionsSequencerControllerPS:CommenceSequence(actionToForward, eligibleSlaves, delays) end
 
----@private
 ---@return nil
-function ActionsSequencerControllerPS:ForceLockOnAllSlaves() return end
+function ActionsSequencerControllerPS:ForceLockOnAllSlaves() end
 
----@private
 ---@param persistentID gamePersistentID
 ---@param className CName|string
 ---@return nil
-function ActionsSequencerControllerPS:ForceUnlockSlave(persistentID, className) return end
+function ActionsSequencerControllerPS:ForceUnlockSlave(persistentID, className) end
 
----@private
 ---@param amountOfIntervals Int32
 ---@param delays Float[]
 ---@return nil
-function ActionsSequencerControllerPS:GetAcceleratingDelays(amountOfIntervals, delays) return end
+function ActionsSequencerControllerPS:GetAcceleratingDelays(amountOfIntervals, delays) end
 
----@private
 ---@param amountOfIntervals Int32
 ---@param delays Float[]
 ---@return nil
-function ActionsSequencerControllerPS:GetDecceleratingDelays(amountOfIntervals, delays) return end
+function ActionsSequencerControllerPS:GetDecceleratingDelays(amountOfIntervals, delays) end
 
----@private
 ---@param intervals Int32
 ---@return Float[]
-function ActionsSequencerControllerPS:GetDelayTimeStamps(intervals) return end
+function ActionsSequencerControllerPS:GetDelayTimeStamps(intervals) end
 
----@private
 ---@param sequenceInitiator gamePersistentID
 ---@return gameDeviceComponentPS[]
-function ActionsSequencerControllerPS:GetEligibleSlaves(sequenceInitiator) return end
+function ActionsSequencerControllerPS:GetEligibleSlaves(sequenceInitiator) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ActionsSequencerControllerPS:GetQuestActions(context) return end
+function ActionsSequencerControllerPS:GetQuestActions(context) end
 
----@private
 ---@param amountOfIntervals Int32
 ---@param delays Float[]
 ---@return nil
-function ActionsSequencerControllerPS:GetRandomDelays(amountOfIntervals, delays) return end
+function ActionsSequencerControllerPS:GetRandomDelays(amountOfIntervals, delays) end
 
----@private
 ---@param amountOfIntervals Int32
 ---@param delays Float[]
 ---@return nil
-function ActionsSequencerControllerPS:GetRegularDelays(amountOfIntervals, delays) return end
+function ActionsSequencerControllerPS:GetRegularDelays(amountOfIntervals, delays) end
 
----@protected
 ---@return nil
-function ActionsSequencerControllerPS:Initialize() return end
+function ActionsSequencerControllerPS:Initialize() end
 
----@private
 ---@param forwardEvent ForwardAction
 ---@return Bool
-function ActionsSequencerControllerPS:IsActionTypeMachingPreferences(forwardEvent) return end
+function ActionsSequencerControllerPS:IsActionTypeMachingPreferences(forwardEvent) end
 
----@private
 ---@return Bool
-function ActionsSequencerControllerPS:IsSequenceOngoing() return end
+function ActionsSequencerControllerPS:IsSequenceOngoing() end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnActivateDevice(evt) return end
+function ActionsSequencerControllerPS:OnActivateDevice(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnDeactivateDevice(evt) return end
+function ActionsSequencerControllerPS:OnDeactivateDevice(evt) end
 
----@private
 ---@param evt ForwardAction
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnForwardAction(evt) return end
+function ActionsSequencerControllerPS:OnForwardAction(evt) end
 
----@protected
 ---@param evt QuestForceOFF
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnQuestForceOFF(evt) return end
+function ActionsSequencerControllerPS:OnQuestForceOFF(evt) end
 
----@protected
 ---@param evt QuestForceON
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnQuestForceON(evt) return end
+function ActionsSequencerControllerPS:OnQuestForceON(evt) end
 
----@protected
 ---@param evt QuestForcePower
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnQuestForcePower(evt) return end
+function ActionsSequencerControllerPS:OnQuestForcePower(evt) end
 
----@protected
 ---@param evt QuestForceUnpower
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnQuestForceUnpower(evt) return end
+function ActionsSequencerControllerPS:OnQuestForceUnpower(evt) end
 
 ---@param evt SequenceCallback
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnSequenceCallback(evt) return end
+function ActionsSequencerControllerPS:OnSequenceCallback(evt) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnSetDeviceOFF(evt) return end
+function ActionsSequencerControllerPS:OnSetDeviceOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnSetDeviceON(evt) return end
+function ActionsSequencerControllerPS:OnSetDeviceON(evt) end
 
----@protected
 ---@param evt SetDevicePowered
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnSetDevicePowered(evt) return end
+function ActionsSequencerControllerPS:OnSetDevicePowered(evt) end
 
----@protected
 ---@param evt SetDeviceUnpowered
 ---@return EntityNotificationType
-function ActionsSequencerControllerPS:OnSetDeviceUnpowered(evt) return end
+function ActionsSequencerControllerPS:OnSetDeviceUnpowered(evt) end
 
----@private
 ---@param forwardEvent ForwardAction
 ---@return Bool
-function ActionsSequencerControllerPS:WasExecutedByMaster(forwardEvent) return end
+function ActionsSequencerControllerPS:WasExecutedByMaster(forwardEvent) end

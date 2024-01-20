@@ -5,4 +5,4 @@ MineArmEvent = {}
 
 ---@param fields? MineArmEvent
 ---@return MineArmEvent
-function MineArmEvent.new(fields) return end
+function MineArmEvent.new(fields) end

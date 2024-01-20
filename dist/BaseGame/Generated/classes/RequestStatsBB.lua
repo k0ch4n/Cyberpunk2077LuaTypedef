@@ -5,8 +5,8 @@ RequestStatsBB = {}
 
 ---@param fields? RequestStatsBB
 ---@return RequestStatsBB
-function RequestStatsBB.new(fields) return end
+function RequestStatsBB.new(fields) end
 
 ---@param _owner gameObject
 ---@return nil
-function RequestStatsBB:Set(_owner) return end
+function RequestStatsBB:Set(_owner) end

@@ -5,4 +5,4 @@ animAnimNode_Timer = {}
 
 ---@param fields? animAnimNode_Timer
 ---@return animAnimNode_Timer
-function animAnimNode_Timer.new(fields) return end
+function animAnimNode_Timer.new(fields) end

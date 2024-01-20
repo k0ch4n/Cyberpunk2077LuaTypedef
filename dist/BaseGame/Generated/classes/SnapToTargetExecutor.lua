@@ -5,9 +5,9 @@ SnapToTargetExecutor = {}
 
 ---@param fields? SnapToTargetExecutor
 ---@return SnapToTargetExecutor
-function SnapToTargetExecutor.new(fields) return end
+function SnapToTargetExecutor.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function SnapToTargetExecutor:Process(ctx, applierCtx) return end
+function SnapToTargetExecutor:Process(ctx, applierCtx) end

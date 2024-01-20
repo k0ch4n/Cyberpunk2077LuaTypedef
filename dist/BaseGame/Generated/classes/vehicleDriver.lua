@@ -5,4 +5,4 @@ vehicleDriver = {}
 
 ---@param fields? vehicleDriver
 ---@return vehicleDriver
-function vehicleDriver.new(fields) return end
+function vehicleDriver.new(fields) end

@@ -5,4 +5,4 @@ WidgetCustomData = {}
 
 ---@param fields? WidgetCustomData
 ---@return WidgetCustomData
-function WidgetCustomData.new(fields) return end
+function WidgetCustomData.new(fields) end

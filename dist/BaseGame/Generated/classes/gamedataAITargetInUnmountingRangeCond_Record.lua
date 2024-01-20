@@ -5,10 +5,10 @@ gamedataAITargetInUnmountingRangeCond_Record = {}
 
 ---@param fields? gamedataAITargetInUnmountingRangeCond_Record
 ---@return gamedataAITargetInUnmountingRangeCond_Record
-function gamedataAITargetInUnmountingRangeCond_Record.new(fields) return end
+function gamedataAITargetInUnmountingRangeCond_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAITargetInUnmountingRangeCond_Record:Target() return end
+function gamedataAITargetInUnmountingRangeCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAITargetInUnmountingRangeCond_Record:TargetHandle() return end
+function gamedataAITargetInUnmountingRangeCond_Record:TargetHandle() end

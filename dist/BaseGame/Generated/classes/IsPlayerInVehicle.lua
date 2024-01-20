@@ -5,9 +5,8 @@ IsPlayerInVehicle = {}
 
 ---@param fields? IsPlayerInVehicle
 ---@return IsPlayerInVehicle
-function IsPlayerInVehicle.new(fields) return end
+function IsPlayerInVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPlayerInVehicle:Check(context) return end
+function IsPlayerInVehicle:Check(context) end

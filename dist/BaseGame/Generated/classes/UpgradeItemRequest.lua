@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UpgradeItemRequest: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
+---@field itemID gameItemID
 UpgradeItemRequest = {}
 
 ---@param fields? UpgradeItemRequest
 ---@return UpgradeItemRequest
-function UpgradeItemRequest.new(fields) return end
+function UpgradeItemRequest.new(fields) end

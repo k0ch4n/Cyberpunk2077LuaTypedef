@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class IsRagdolling: AIbehaviorconditionScript
----@field public npc NPCPuppet
+---@field npc NPCPuppet
 IsRagdolling = {}
 
 ---@param fields? IsRagdolling
 ---@return IsRagdolling
-function IsRagdolling.new(fields) return end
+function IsRagdolling.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsRagdolling:Activate(context) return end
+function IsRagdolling:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsRagdolling:Check(context) return end
+function IsRagdolling:Check(context) end

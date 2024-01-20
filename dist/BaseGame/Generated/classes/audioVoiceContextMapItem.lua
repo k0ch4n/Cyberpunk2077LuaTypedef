@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class audioVoiceContextMapItem: audioAudioMetadata
----@field public voTrigger CName
----@field public bark audioVoBarkType
----@field public grunt audioVoGruntType
----@field public answer audioVoiceContextAnswer
----@field public overridingVoContext locVoiceoverContext
----@field public gruntInterruptMode audioVoGruntInterruptMode
+---@field voTrigger CName
+---@field bark audioVoBarkType
+---@field grunt audioVoGruntType
+---@field answer audioVoiceContextAnswer
+---@field overridingVoContext locVoiceoverContext
+---@field gruntInterruptMode audioVoGruntInterruptMode
 audioVoiceContextMapItem = {}
 
 ---@param fields? audioVoiceContextMapItem
 ---@return audioVoiceContextMapItem
-function audioVoiceContextMapItem.new(fields) return end
+function audioVoiceContextMapItem.new(fields) end

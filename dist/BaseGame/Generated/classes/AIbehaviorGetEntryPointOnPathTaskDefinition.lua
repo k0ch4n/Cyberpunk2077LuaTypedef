@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorGetEntryPointOnPathTaskDefinition: AIbehaviorTaskDefinition
----@field public patrolProgress AIArgumentMapping
----@field public positionOnPath AIArgumentMapping
----@field public entryTangent AIArgumentMapping
+---@field patrolProgress AIArgumentMapping
+---@field positionOnPath AIArgumentMapping
+---@field entryTangent AIArgumentMapping
 AIbehaviorGetEntryPointOnPathTaskDefinition = {}
 
 ---@param fields? AIbehaviorGetEntryPointOnPathTaskDefinition
 ---@return AIbehaviorGetEntryPointOnPathTaskDefinition
-function AIbehaviorGetEntryPointOnPathTaskDefinition.new(fields) return end
+function AIbehaviorGetEntryPointOnPathTaskDefinition.new(fields) end

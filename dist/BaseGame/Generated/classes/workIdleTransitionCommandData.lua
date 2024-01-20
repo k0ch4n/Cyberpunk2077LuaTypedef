@@ -5,4 +5,4 @@ workIdleTransitionCommandData = {}
 
 ---@param fields? workIdleTransitionCommandData
 ---@return workIdleTransitionCommandData
-function workIdleTransitionCommandData.new(fields) return end
+function workIdleTransitionCommandData.new(fields) end

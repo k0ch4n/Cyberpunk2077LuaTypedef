@@ -5,7 +5,7 @@ ExplosiveDeviceController = {}
 
 ---@param fields? ExplosiveDeviceController
 ---@return ExplosiveDeviceController
-function ExplosiveDeviceController.new(fields) return end
+function ExplosiveDeviceController.new(fields) end
 
 ---@return ExplosiveDeviceControllerPS
-function ExplosiveDeviceController:GetPS() return end
+function ExplosiveDeviceController:GetPS() end

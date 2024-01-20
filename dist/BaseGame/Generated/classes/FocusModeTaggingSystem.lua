@@ -1,195 +1,158 @@
 ---@meta
 
 ---@class FocusModeTaggingSystem: gameScriptableSystem
----@field private playerAttachedCallbackID Uint32
----@field private playerDetachedCallbackID Uint32
+---@field playerAttachedCallbackID Uint32
+---@field playerDetachedCallbackID Uint32
 FocusModeTaggingSystem = {}
 
 ---@param fields? FocusModeTaggingSystem
 ---@return FocusModeTaggingSystem
-function FocusModeTaggingSystem.new(fields) return end
+function FocusModeTaggingSystem.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@param owner gameObject
 ---@return Bool
-function FocusModeTaggingSystem:OnActionWithOwner(action, consumer, owner) return end
+function FocusModeTaggingSystem:OnActionWithOwner(action, consumer, owner) end
 
 ---@return Bool
-function FocusModeTaggingSystem:CanTag() return end
+function FocusModeTaggingSystem:CanTag() end
 
----@private
 ---@param listToClean gameObject[]
 ---@return nil
-function FocusModeTaggingSystem:CleanupTaggedObjects(listToClean) return end
+function FocusModeTaggingSystem:CleanupTaggedObjects(listToClean) end
 
----@private
 ---@return HUDManager
-function FocusModeTaggingSystem:GetHudManager() return end
+function FocusModeTaggingSystem:GetHudManager() end
 
----@private
 ---@return NetworkSystem
-function FocusModeTaggingSystem:GetNetworkSystem() return end
+function FocusModeTaggingSystem:GetNetworkSystem() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return gameIBlackboard
-function FocusModeTaggingSystem:GetPlayerStateMachineBlackboard(playerPuppet) return end
+function FocusModeTaggingSystem:GetPlayerStateMachineBlackboard(playerPuppet) end
 
----@private
 ---@return entEntityID
-function FocusModeTaggingSystem:GetScannerTargetID() return end
+function FocusModeTaggingSystem:GetScannerTargetID() end
 
----@private
 ---@return gameObject[]
-function FocusModeTaggingSystem:GetTaggedObjectsList() return end
+function FocusModeTaggingSystem:GetTaggedObjectsList() end
 
----@private
 ---@param playerPuppet gameObject
 ---@return Bool
-function FocusModeTaggingSystem:IsPlayerAiming(playerPuppet) return end
+function FocusModeTaggingSystem:IsPlayerAiming(playerPuppet) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return Bool
-function FocusModeTaggingSystem:IsPlayerInFocusMode(playerPuppet) return end
+function FocusModeTaggingSystem:IsPlayerInFocusMode(playerPuppet) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function FocusModeTaggingSystem:IsTagged(target) return end
+function FocusModeTaggingSystem:IsTagged(target) end
 
----@private
 ---@param isTagged Bool
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:NotifyHudManager(isTagged, target) return end
+function FocusModeTaggingSystem:NotifyHudManager(isTagged, target) end
 
----@private
 ---@return nil
-function FocusModeTaggingSystem:NotifyNetworkSystem() return end
+function FocusModeTaggingSystem:NotifyNetworkSystem() end
 
----@private
 ---@return nil
-function FocusModeTaggingSystem:OnAttach() return end
+function FocusModeTaggingSystem:OnAttach() end
 
----@private
 ---@return nil
-function FocusModeTaggingSystem:OnDetach() return end
+function FocusModeTaggingSystem:OnDetach() end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function FocusModeTaggingSystem:OnPlayerAttachedCallback(playerPuppet) return end
+function FocusModeTaggingSystem:OnPlayerAttachedCallback(playerPuppet) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function FocusModeTaggingSystem:OnPlayerDetachedCallback(playerPuppet) return end
+function FocusModeTaggingSystem:OnPlayerDetachedCallback(playerPuppet) end
 
----@private
 ---@param request RegisterInputListenerRequest
 ---@return nil
-function FocusModeTaggingSystem:OnRegisterInputListenerRequest(request) return end
+function FocusModeTaggingSystem:OnRegisterInputListenerRequest(request) end
 
----@private
 ---@param request gameTagObjectRequest
 ---@return nil
-function FocusModeTaggingSystem:OnTagObjectRequest(request) return end
+function FocusModeTaggingSystem:OnTagObjectRequest(request) end
 
----@private
 ---@param request UnRegisterInputListenerRequest
 ---@return nil
-function FocusModeTaggingSystem:OnUnRegisterInputListenerRequest(request) return end
+function FocusModeTaggingSystem:OnUnRegisterInputListenerRequest(request) end
 
----@private
 ---@param request UnTagAllObjectRequest
 ---@return nil
-function FocusModeTaggingSystem:OnUnTagAllObjectRequest(request) return end
+function FocusModeTaggingSystem:OnUnTagAllObjectRequest(request) end
 
----@private
 ---@param request gameUnTagObjectRequest
 ---@return nil
-function FocusModeTaggingSystem:OnUnTagObjectRequest(request) return end
+function FocusModeTaggingSystem:OnUnTagObjectRequest(request) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:RefreshUI(target) return end
+function FocusModeTaggingSystem:RefreshUI(target) end
 
----@private
 ---@param source gameObject
 ---@return nil
-function FocusModeTaggingSystem:Register(source) return end
+function FocusModeTaggingSystem:Register(source) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:RegisterObjectToBlackboard(target) return end
-
----@protected
----@return nil
-function FocusModeTaggingSystem:RegisterPlayerAttachedCallback() return end
-
----@protected
----@return nil
-function FocusModeTaggingSystem:RegisterPlayerDetachedCallback() return end
+function FocusModeTaggingSystem:RegisterObjectToBlackboard(target) end
 
 ---@return nil
-function FocusModeTaggingSystem:RequestUntagAll() return end
+function FocusModeTaggingSystem:RegisterPlayerAttachedCallback() end
 
----@private
+---@return nil
+function FocusModeTaggingSystem:RegisterPlayerDetachedCallback() end
+
+---@return nil
+function FocusModeTaggingSystem:RequestUntagAll() end
+
 ---@param tag Bool
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:ResolveFocusClues(tag, target) return end
+function FocusModeTaggingSystem:ResolveFocusClues(tag, target) end
 
----@private
 ---@param reveal Bool
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:SendForceRevealObjectEvent(reveal, target) return end
+function FocusModeTaggingSystem:SendForceRevealObjectEvent(reveal, target) end
 
----@private
 ---@param enable Bool
 ---@param target gameObject
 ---@param highlightType EFocusForcedHighlightType
 ---@return nil
-function FocusModeTaggingSystem:SendForceVisionApperaceEvent(enable, target, highlightType) return end
+function FocusModeTaggingSystem:SendForceVisionApperaceEvent(enable, target, highlightType) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:TagObject(target) return end
+function FocusModeTaggingSystem:TagObject(target) end
 
----@private
 ---@return nil
-function FocusModeTaggingSystem:UnRegisterAllObjectToBlackboard() return end
+function FocusModeTaggingSystem:UnRegisterAllObjectToBlackboard() end
 
----@private
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:UnRegisterObjectToBlackboard(target) return end
+function FocusModeTaggingSystem:UnRegisterObjectToBlackboard(target) end
 
----@private
 ---@param source gameObject
 ---@return nil
-function FocusModeTaggingSystem:Unregister(source) return end
+function FocusModeTaggingSystem:Unregister(source) end
 
----@protected
 ---@return nil
-function FocusModeTaggingSystem:UnregisterPlayerAttachedCallback() return end
+function FocusModeTaggingSystem:UnregisterPlayerAttachedCallback() end
 
----@protected
 ---@return nil
-function FocusModeTaggingSystem:UnregisterPlayerDetachedCallback() return end
+function FocusModeTaggingSystem:UnregisterPlayerDetachedCallback() end
 
----@private
 ---@return nil
-function FocusModeTaggingSystem:UntagAll() return end
+function FocusModeTaggingSystem:UntagAll() end
 
----@private
 ---@param target gameObject
 ---@return nil
-function FocusModeTaggingSystem:UntagObject(target) return end
+function FocusModeTaggingSystem:UntagObject(target) end

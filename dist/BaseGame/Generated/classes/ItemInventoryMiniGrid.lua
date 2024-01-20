@@ -1,36 +1,34 @@
 ---@meta
 
 ---@class ItemInventoryMiniGrid: inkWidgetLogicController
----@field private gridList inkCompoundWidgetReference
----@field private label inkTextWidgetReference
----@field private gridWidth Int32
----@field private gridData InventoryItemDisplay[]
+---@field gridList inkCompoundWidgetReference
+---@field label inkTextWidgetReference
+---@field gridWidth Int32
+---@field gridData InventoryItemDisplay[]
 ItemInventoryMiniGrid = {}
 
 ---@param fields? ItemInventoryMiniGrid
 ---@return ItemInventoryMiniGrid
-function ItemInventoryMiniGrid.new(fields) return end
+function ItemInventoryMiniGrid.new(fields) end
 
----@protected
 ---@return Bool
-function ItemInventoryMiniGrid:OnInitialize() return end
+function ItemInventoryMiniGrid:OnInitialize() end
 
----@protected
 ---@return Bool
-function ItemInventoryMiniGrid:OnUninitialize() return end
+function ItemInventoryMiniGrid:OnUninitialize() end
 
 ---@return InventoryItemDisplay[]
-function ItemInventoryMiniGrid:GetInventoryItemDisplays() return end
+function ItemInventoryMiniGrid:GetInventoryItemDisplays() end
 
 ---@return nil
-function ItemInventoryMiniGrid:RemoveElement() return end
+function ItemInventoryMiniGrid:RemoveElement() end
 
 ---@param gridWidth Int32
 ---@return nil
-function ItemInventoryMiniGrid:SetGridWith(gridWidth) return end
+function ItemInventoryMiniGrid:SetGridWith(gridWidth) end
 
 ---@param label String
 ---@param playerEquipAreaInventory gameInventoryItemData[]
 ---@param equipArea? gamedataEquipmentArea
 ---@return nil
-function ItemInventoryMiniGrid:SetupData(label, playerEquipAreaInventory, equipArea) return end
+function ItemInventoryMiniGrid:SetupData(label, playerEquipAreaInventory, equipArea) end

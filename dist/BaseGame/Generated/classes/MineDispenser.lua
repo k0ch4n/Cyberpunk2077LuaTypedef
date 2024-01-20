@@ -5,4 +5,4 @@ MineDispenser = {}
 
 ---@param fields? MineDispenser
 ---@return MineDispenser
-function MineDispenser.new(fields) return end
+function MineDispenser.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questRandomizerNodeDefinition: questDisableableNodeDefinition
----@field public mode questRandomizerMode
----@field public outputWeights Uint8[]
+---@field mode questRandomizerMode
+---@field outputWeights Uint8[]
 questRandomizerNodeDefinition = {}
 
 ---@param fields? questRandomizerNodeDefinition
 ---@return questRandomizerNodeDefinition
-function questRandomizerNodeDefinition.new(fields) return end
+function questRandomizerNodeDefinition.new(fields) end

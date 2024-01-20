@@ -5,4 +5,4 @@ KeepPhoneOpenWhenInHubMenuEvent = {}
 
 ---@param fields? KeepPhoneOpenWhenInHubMenuEvent
 ---@return KeepPhoneOpenWhenInHubMenuEvent
-function KeepPhoneOpenWhenInHubMenuEvent.new(fields) return end
+function KeepPhoneOpenWhenInHubMenuEvent.new(fields) end

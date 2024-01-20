@@ -5,4 +5,4 @@ gameDeviceDynamicConnectionChange = {}
 
 ---@param fields? gameDeviceDynamicConnectionChange
 ---@return gameDeviceDynamicConnectionChange
-function gameDeviceDynamicConnectionChange.new(fields) return end
+function gameDeviceDynamicConnectionChange.new(fields) end

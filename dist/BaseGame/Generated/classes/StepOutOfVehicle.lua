@@ -5,9 +5,8 @@ StepOutOfVehicle = {}
 
 ---@param fields? StepOutOfVehicle
 ---@return StepOutOfVehicle
-function StepOutOfVehicle.new(fields) return end
+function StepOutOfVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function StepOutOfVehicle:Activate(context) return end
+function StepOutOfVehicle:Activate(context) end

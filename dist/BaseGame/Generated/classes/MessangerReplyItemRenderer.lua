@@ -1,54 +1,48 @@
 ---@meta
 
 ---@class MessangerReplyItemRenderer: JournalEntryListItemController
----@field private selectedState Bool
----@field private isQuestImportant Bool
----@field private isActive Bool
----@field private stateDefault CName
----@field private stateSelected CName
----@field private stateQuestDefault CName
----@field private stateQuestSelected CName
----@field private stateDisabled CName
+---@field selectedState Bool
+---@field isQuestImportant Bool
+---@field isActive Bool
+---@field stateDefault CName
+---@field stateSelected CName
+---@field stateQuestDefault CName
+---@field stateQuestSelected CName
+---@field stateDisabled CName
 MessangerReplyItemRenderer = {}
 
 ---@param fields? MessangerReplyItemRenderer
 ---@return MessangerReplyItemRenderer
-function MessangerReplyItemRenderer.new(fields) return end
+function MessangerReplyItemRenderer.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function MessangerReplyItemRenderer:OnButtonStateChanged(controller, oldState, newState) return end
+function MessangerReplyItemRenderer:OnButtonStateChanged(controller, oldState, newState) end
 
----@protected
 ---@param parent inkListItemController
 ---@return Bool
-function MessangerReplyItemRenderer:OnDeselected(parent) return end
+function MessangerReplyItemRenderer:OnDeselected(parent) end
 
----@protected
 ---@return Bool
-function MessangerReplyItemRenderer:OnInitialize() return end
+function MessangerReplyItemRenderer:OnInitialize() end
 
----@protected
 ---@param parent inkListItemController
 ---@return Bool
-function MessangerReplyItemRenderer:OnSelected(parent) return end
+function MessangerReplyItemRenderer:OnSelected(parent) end
 
----@protected
 ---@return Bool
-function MessangerReplyItemRenderer:OnUninitialize() return end
+function MessangerReplyItemRenderer:OnUninitialize() end
 
 ---@return nil
-function MessangerReplyItemRenderer:AnimateSelection() return end
+function MessangerReplyItemRenderer:AnimateSelection() end
 
----@protected
 ---@param entry gameJournalEntry
 ---@param extraData IScriptable
 ---@return nil
-function MessangerReplyItemRenderer:OnJournalEntryUpdated(entry, extraData) return end
+function MessangerReplyItemRenderer:OnJournalEntryUpdated(entry, extraData) end
 
 ---@param active Bool
 ---@return nil
-function MessangerReplyItemRenderer:SetActive(active) return end
+function MessangerReplyItemRenderer:SetActive(active) end

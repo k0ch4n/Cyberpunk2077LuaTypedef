@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UsePhoneRequest: gameScriptableSystemRequest
----@field public MessageToOpen gameJournalEntry
+---@field MessageToOpen gameJournalEntry
 UsePhoneRequest = {}
 
 ---@param fields? UsePhoneRequest
 ---@return UsePhoneRequest
-function UsePhoneRequest.new(fields) return end
+function UsePhoneRequest.new(fields) end

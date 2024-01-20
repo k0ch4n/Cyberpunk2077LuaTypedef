@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class ProcessRelevantDevicesForNetworkGridEvent: ProcessDevicesEvent
----@field public ignoreRevealed Bool
----@field public finalizeRegistrationAsMaster Bool
----@field public breachedResource gameFxResource
----@field public defaultResource gameFxResource
----@field public isPing Bool
----@field public lifetime Float
----@field public revealSlave Bool
----@field public revealMaster Bool
+---@field ignoreRevealed Bool
+---@field finalizeRegistrationAsMaster Bool
+---@field breachedResource gameFxResource
+---@field defaultResource gameFxResource
+---@field isPing Bool
+---@field lifetime Float
+---@field revealSlave Bool
+---@field revealMaster Bool
 ProcessRelevantDevicesForNetworkGridEvent = {}
 
 ---@param fields? ProcessRelevantDevicesForNetworkGridEvent
 ---@return ProcessRelevantDevicesForNetworkGridEvent
-function ProcessRelevantDevicesForNetworkGridEvent.new(fields) return end
+function ProcessRelevantDevicesForNetworkGridEvent.new(fields) end

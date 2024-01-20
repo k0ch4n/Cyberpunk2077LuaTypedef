@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleDrawerSphereAligned: IParticleDrawer
----@field public verticalFixed Bool
----@field public isGPUBased Bool
+---@field verticalFixed Bool
+---@field isGPUBased Bool
 CParticleDrawerSphereAligned = {}
 
 ---@param fields? CParticleDrawerSphereAligned
 ---@return CParticleDrawerSphereAligned
-function CParticleDrawerSphereAligned.new(fields) return end
+function CParticleDrawerSphereAligned.new(fields) end

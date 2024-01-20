@@ -5,7 +5,7 @@ LcdScreenController = {}
 
 ---@param fields? LcdScreenController
 ---@return LcdScreenController
-function LcdScreenController.new(fields) return end
+function LcdScreenController.new(fields) end
 
 ---@return LcdScreenControllerPS
-function LcdScreenController:GetPS() return end
+function LcdScreenController:GetPS() end

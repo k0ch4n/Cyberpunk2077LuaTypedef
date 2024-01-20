@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameprojectileSetUpAndLaunchEvent: gameprojectileLaunchEvent
----@field public trajectoryParams gameprojectileTrajectoryParams
----@field public lerpMultiplier Float
+---@field trajectoryParams gameprojectileTrajectoryParams
+---@field lerpMultiplier Float
 gameprojectileSetUpAndLaunchEvent = {}
 
 ---@param fields? gameprojectileSetUpAndLaunchEvent
 ---@return gameprojectileSetUpAndLaunchEvent
-function gameprojectileSetUpAndLaunchEvent.new(fields) return end
+function gameprojectileSetUpAndLaunchEvent.new(fields) end

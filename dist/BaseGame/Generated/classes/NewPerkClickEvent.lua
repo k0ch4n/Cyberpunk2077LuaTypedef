@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class NewPerkClickEvent: redEvent
----@field public controller NewPerksPerkItemLogicController
----@field public action CName
+---@field controller NewPerksPerkItemLogicController
+---@field action CName
 NewPerkClickEvent = {}
 
 ---@param fields? NewPerkClickEvent
 ---@return NewPerkClickEvent
-function NewPerkClickEvent.new(fields) return end
+function NewPerkClickEvent.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameTransformAnimationTrackItem: ISerializable
----@field public impl gameTransformAnimationTrackItemImpl
----@field public startTime Float
----@field public duration Float
+---@field impl gameTransformAnimationTrackItemImpl
+---@field startTime Float
+---@field duration Float
 gameTransformAnimationTrackItem = {}
 
 ---@param fields? gameTransformAnimationTrackItem
 ---@return gameTransformAnimationTrackItem
-function gameTransformAnimationTrackItem.new(fields) return end
+function gameTransformAnimationTrackItem.new(fields) end

@@ -1,90 +1,75 @@
 ---@meta
 
 ---@class CharacterCreationGenderSelectionMenu: gameuiBaseCharacterCreationController
----@field public streetRat_male inkWidgetReference
----@field public streetRat_female inkWidgetReference
----@field private clickTarget inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private maleAnimProxy inkanimProxy
----@field private femaleAnimProxy inkanimProxy
+---@field streetRat_male inkWidgetReference
+---@field streetRat_female inkWidgetReference
+---@field clickTarget inkWidgetReference
+---@field animationProxy inkanimProxy
+---@field maleAnimProxy inkanimProxy
+---@field femaleAnimProxy inkanimProxy
 CharacterCreationGenderSelectionMenu = {}
 
 ---@param fields? CharacterCreationGenderSelectionMenu
 ---@return CharacterCreationGenderSelectionMenu
-function CharacterCreationGenderSelectionMenu.new(fields) return end
+function CharacterCreationGenderSelectionMenu.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnHoverOutFemale(e) return end
+function CharacterCreationGenderSelectionMenu:OnHoverOutFemale(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnHoverOutMale(e) return end
+function CharacterCreationGenderSelectionMenu:OnHoverOutMale(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnHoverOverFemale(e) return end
+function CharacterCreationGenderSelectionMenu:OnHoverOverFemale(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnHoverOverMale(e) return end
+function CharacterCreationGenderSelectionMenu:OnHoverOverMale(e) end
 
----@protected
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnInitialize() return end
+function CharacterCreationGenderSelectionMenu:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnPressFemale(e) return end
+function CharacterCreationGenderSelectionMenu:OnPressFemale(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnPressMale(e) return end
+function CharacterCreationGenderSelectionMenu:OnPressMale(e) end
 
----@protected
 ---@param evt gameuiPuppetPreview_ReadyToBeDisplayed
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnPuppetReadyToBeDisplayed(evt) return end
+function CharacterCreationGenderSelectionMenu:OnPuppetReadyToBeDisplayed(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnReleaseFemale(e) return end
+function CharacterCreationGenderSelectionMenu:OnReleaseFemale(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnReleaseMale(e) return end
+function CharacterCreationGenderSelectionMenu:OnReleaseMale(e) end
 
----@protected
 ---@return Bool
-function CharacterCreationGenderSelectionMenu:OnUninitialize() return end
+function CharacterCreationGenderSelectionMenu:OnUninitialize() end
 
----@private
 ---@return nil
-function CharacterCreationGenderSelectionMenu:OnIntro() return end
+function CharacterCreationGenderSelectionMenu:OnIntro() end
 
----@private
 ---@return nil
-function CharacterCreationGenderSelectionMenu:OnOutro() return end
+function CharacterCreationGenderSelectionMenu:OnOutro() end
 
 ---@param animName CName|string
 ---@param animProxy? inkanimProxy
 ---@param callBack? CName|string
 ---@return nil
-function CharacterCreationGenderSelectionMenu:PlayAnim(animName, animProxy, callBack) return end
+function CharacterCreationGenderSelectionMenu:PlayAnim(animName, animProxy, callBack) end
 
----@private
 ---@param lifePath TweakDBID|string
 ---@return nil
-function CharacterCreationGenderSelectionMenu:SetAttributePreset(lifePath) return end
+function CharacterCreationGenderSelectionMenu:SetAttributePreset(lifePath) end
 
----@private
 ---@return nil
-function CharacterCreationGenderSelectionMenu:SetEP1AttributePreset() return end
+function CharacterCreationGenderSelectionMenu:SetEP1AttributePreset() end

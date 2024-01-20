@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HitReactionRequest: redEvent
----@field public hitEvent gameeventsHitEvent
+---@field hitEvent gameeventsHitEvent
 HitReactionRequest = {}
 
 ---@param fields? HitReactionRequest
 ---@return HitReactionRequest
-function HitReactionRequest.new(fields) return end
+function HitReactionRequest.new(fields) end

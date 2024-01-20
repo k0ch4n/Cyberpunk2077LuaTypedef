@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class OdaCementBagControllerPS: ScriptableDeviceComponentPS
----@field protected cementEffectCooldown Float
+---@field cementEffectCooldown Float
 OdaCementBagControllerPS = {}
 
 ---@param fields? OdaCementBagControllerPS
 ---@return OdaCementBagControllerPS
-function OdaCementBagControllerPS.new(fields) return end
+function OdaCementBagControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function OdaCementBagControllerPS:OnInstantiated() return end
+function OdaCementBagControllerPS:OnInstantiated() end
 
 ---@return Float
-function OdaCementBagControllerPS:GetCementCooldown() return end
+function OdaCementBagControllerPS:GetCementCooldown() end
 
----@protected
 ---@return nil
-function OdaCementBagControllerPS:Initialize() return end
+function OdaCementBagControllerPS:Initialize() end

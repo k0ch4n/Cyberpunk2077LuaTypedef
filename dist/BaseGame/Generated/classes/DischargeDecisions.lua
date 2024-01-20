@@ -5,16 +5,14 @@ DischargeDecisions = {}
 
 ---@param fields? DischargeDecisions
 ---@return DischargeDecisions
-function DischargeDecisions.new(fields) return end
+function DischargeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DischargeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function DischargeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DischargeDecisions:ToReady(stateContext, scriptInterface) return end
+function DischargeDecisions:ToReady(stateContext, scriptInterface) end

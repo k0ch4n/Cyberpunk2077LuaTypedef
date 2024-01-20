@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldPrefabInstanceData: ISerializable
----@field public buffer DataBuffer
+---@field buffer DataBuffer
 worldPrefabInstanceData = {}
 
 ---@param fields? worldPrefabInstanceData
 ---@return worldPrefabInstanceData
-function worldPrefabInstanceData.new(fields) return end
+function worldPrefabInstanceData.new(fields) end

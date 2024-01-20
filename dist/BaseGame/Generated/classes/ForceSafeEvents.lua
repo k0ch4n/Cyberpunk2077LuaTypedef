@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class ForceSafeEvents: UpperBodyEventsTransition
----@field public safeAnimFeature AnimFeature_SafeAction
----@field public weaponObjectID TweakDBID
+---@field safeAnimFeature AnimFeature_SafeAction
+---@field weaponObjectID TweakDBID
 ForceSafeEvents = {}
 
 ---@param fields? ForceSafeEvents
 ---@return ForceSafeEvents
-function ForceSafeEvents.new(fields) return end
+function ForceSafeEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForceSafeEvents:OnEnter(stateContext, scriptInterface) return end
+function ForceSafeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForceSafeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ForceSafeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

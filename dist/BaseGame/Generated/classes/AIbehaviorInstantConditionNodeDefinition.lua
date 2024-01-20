@@ -5,4 +5,4 @@ AIbehaviorInstantConditionNodeDefinition = {}
 
 ---@param fields? AIbehaviorInstantConditionNodeDefinition
 ---@return AIbehaviorInstantConditionNodeDefinition
-function AIbehaviorInstantConditionNodeDefinition.new(fields) return end
+function AIbehaviorInstantConditionNodeDefinition.new(fields) end

@@ -5,9 +5,8 @@ TurnOnPsychoSquadAvCammo = {}
 
 ---@param fields? TurnOnPsychoSquadAvCammo
 ---@return TurnOnPsychoSquadAvCammo
-function TurnOnPsychoSquadAvCammo.new(fields) return end
+function TurnOnPsychoSquadAvCammo.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TurnOnPsychoSquadAvCammo:Activate(context) return end
+function TurnOnPsychoSquadAvCammo:Activate(context) end

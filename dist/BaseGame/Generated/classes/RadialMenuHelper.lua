@@ -5,12 +5,12 @@ RadialMenuHelper = {}
 
 ---@param fields? RadialMenuHelper
 ---@return RadialMenuHelper
-function RadialMenuHelper.new(fields) return end
+function RadialMenuHelper.new(fields) end
 
 ---@param target gameObject
 ---@return Bool
-function RadialMenuHelper.IsCombatGadgetsBlocked(target) return end
+function RadialMenuHelper.IsCombatGadgetsBlocked(target) end
 
 ---@param target gameObject
 ---@return Bool
-function RadialMenuHelper.IsWeaponsBlocked(target) return end
+function RadialMenuHelper.IsWeaponsBlocked(target) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animRigTagCondition: animIStaticCondition
----@field public tag CName
+---@field tag CName
 animRigTagCondition = {}
 
 ---@param fields? animRigTagCondition
 ---@return animRigTagCondition
-function animRigTagCondition.new(fields) return end
+function animRigTagCondition.new(fields) end

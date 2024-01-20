@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ResetItemAppearanceTaskData: gameScriptTaskData
----@field public ts gameTransactionSystem
----@field public area gamedataEquipmentArea
----@field public force Bool
+---@field ts gameTransactionSystem
+---@field area gamedataEquipmentArea
+---@field force Bool
 ResetItemAppearanceTaskData = {}
 
 ---@param fields? ResetItemAppearanceTaskData
 ---@return ResetItemAppearanceTaskData
-function ResetItemAppearanceTaskData.new(fields) return end
+function ResetItemAppearanceTaskData.new(fields) end

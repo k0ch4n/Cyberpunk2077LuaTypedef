@@ -5,4 +5,4 @@ worldWaterNullAreaNodeInstance = {}
 
 ---@param fields? worldWaterNullAreaNodeInstance
 ---@return worldWaterNullAreaNodeInstance
-function worldWaterNullAreaNodeInstance.new(fields) return end
+function worldWaterNullAreaNodeInstance.new(fields) end

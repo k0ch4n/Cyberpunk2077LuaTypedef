@@ -5,4 +5,4 @@ scnCutControlNode = {}
 
 ---@param fields? scnCutControlNode
 ---@return scnCutControlNode
-function scnCutControlNode.new(fields) return end
+function scnCutControlNode.new(fields) end

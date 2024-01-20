@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiNewsFeedDisplayController: inkWidgetLogicController
----@field public newsTitleWidget inkTextWidgetReference
----@field public randomNewsLibraryWidget CName
----@field public randomNewsContainer inkCompoundWidgetReference
+---@field newsTitleWidget inkTextWidgetReference
+---@field randomNewsLibraryWidget CName
+---@field randomNewsContainer inkCompoundWidgetReference
 gameuiNewsFeedDisplayController = {}
 
 ---@param fields? gameuiNewsFeedDisplayController
 ---@return gameuiNewsFeedDisplayController
-function gameuiNewsFeedDisplayController.new(fields) return end
+function gameuiNewsFeedDisplayController.new(fields) end

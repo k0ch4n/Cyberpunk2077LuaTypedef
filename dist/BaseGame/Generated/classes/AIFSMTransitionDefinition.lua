@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIFSMTransitionDefinition
----@field public destination Uint16
----@field public condition Uint16
+---@field destination Uint16
+---@field condition Uint16
 AIFSMTransitionDefinition = {}
 
 ---@param fields? AIFSMTransitionDefinition
 ---@return AIFSMTransitionDefinition
-function AIFSMTransitionDefinition.new(fields) return end
+function AIFSMTransitionDefinition.new(fields) end

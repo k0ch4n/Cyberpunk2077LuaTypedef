@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class questCharacterState_PlayerSubType: questICharacterConditionSubType
----@field public locomotionComparisonType questEComparisonTypeEquality
----@field public locomotionState gamePSMLocomotionStates
----@field public upperBodyComparisonType questEComparisonTypeEquality
----@field public upperBodyState gamePSMUpperBodyStates
----@field public weaponComparisonType questEComparisonTypeEquality
----@field public weaponState gamePSMRangedWeaponStates
----@field public timeDilationComparisonType questEComparisonTypeEquality
----@field public timeDilationState gamePSMTimeDilation
----@field public vehicleComparisonType questEComparisonTypeEquality
----@field public vehicleState gamePSMVehicle
----@field public takedownStateComparisonType questEComparisonTypeEquality
----@field public takedownState gamePSMTakedown
----@field public swimmingStateComparisonType questEComparisonTypeEquality
----@field public swimmingState gamePSMSwimming
+---@field locomotionComparisonType questEComparisonTypeEquality
+---@field locomotionState gamePSMLocomotionStates
+---@field upperBodyComparisonType questEComparisonTypeEquality
+---@field upperBodyState gamePSMUpperBodyStates
+---@field weaponComparisonType questEComparisonTypeEquality
+---@field weaponState gamePSMRangedWeaponStates
+---@field timeDilationComparisonType questEComparisonTypeEquality
+---@field timeDilationState gamePSMTimeDilation
+---@field vehicleComparisonType questEComparisonTypeEquality
+---@field vehicleState gamePSMVehicle
+---@field takedownStateComparisonType questEComparisonTypeEquality
+---@field takedownState gamePSMTakedown
+---@field swimmingStateComparisonType questEComparisonTypeEquality
+---@field swimmingState gamePSMSwimming
 questCharacterState_PlayerSubType = {}
 
 ---@param fields? questCharacterState_PlayerSubType
 ---@return questCharacterState_PlayerSubType
-function questCharacterState_PlayerSubType.new(fields) return end
+function questCharacterState_PlayerSubType.new(fields) end

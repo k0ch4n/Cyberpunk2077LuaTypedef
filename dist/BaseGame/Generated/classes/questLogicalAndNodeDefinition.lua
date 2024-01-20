@@ -5,4 +5,4 @@ questLogicalAndNodeDefinition = {}
 
 ---@param fields? questLogicalAndNodeDefinition
 ---@return questLogicalAndNodeDefinition
-function questLogicalAndNodeDefinition.new(fields) return end
+function questLogicalAndNodeDefinition.new(fields) end

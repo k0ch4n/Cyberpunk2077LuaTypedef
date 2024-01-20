@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UILocRecord
----@field public tag CName
----@field public value String
+---@field tag CName
+---@field value String
 UILocRecord = {}
 
 ---@param fields? UILocRecord
 ---@return UILocRecord
-function UILocRecord.new(fields) return end
+function UILocRecord.new(fields) end

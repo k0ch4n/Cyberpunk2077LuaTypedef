@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class AIReactionData: IScriptable
----@field public reactionPriority Int32
----@field public reactionBehaviorName gamedataOutput
----@field public reactionBehaviorAIPriority Float
----@field public reactionCooldown Float
----@field public stimTarget gameObject
----@field public stimSource Vector4
----@field public stimType gamedataStimType
----@field public stimPriority gamedataStimPriority
----@field public stimRecord gamedataStim_Record
----@field public stimInvestigateData senseStimInvestigateData
----@field public stimEventData StimEventData
----@field public stimPropagation gamedataStimPropagation
----@field public initAnimInWorkspot Bool
----@field public skipInitialAnimation Bool
----@field public validTillTimeStamp Float
----@field public recentReactionTimeStamp Float
----@field public escalateProvoke Bool
+---@field reactionPriority Int32
+---@field reactionBehaviorName gamedataOutput
+---@field reactionBehaviorAIPriority Float
+---@field reactionCooldown Float
+---@field stimTarget gameObject
+---@field stimSource Vector4
+---@field stimType gamedataStimType
+---@field stimPriority gamedataStimPriority
+---@field stimRecord gamedataStim_Record
+---@field stimInvestigateData senseStimInvestigateData
+---@field stimEventData StimEventData
+---@field stimPropagation gamedataStimPropagation
+---@field initAnimInWorkspot Bool
+---@field skipInitialAnimation Bool
+---@field validTillTimeStamp Float
+---@field recentReactionTimeStamp Float
+---@field escalateProvoke Bool
 AIReactionData = {}
 
 ---@param fields? AIReactionData
 ---@return AIReactionData
-function AIReactionData.new(fields) return end
+function AIReactionData.new(fields) end

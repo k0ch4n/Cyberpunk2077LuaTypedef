@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameActionDieState: gameActionReplicatedState
----@field public owner gameObject
----@field public movingAgent moveComponent
----@field public ragdollComponent entRagdollComponent
----@field public slotComponent entSlotComponent
+---@field owner gameObject
+---@field movingAgent moveComponent
+---@field ragdollComponent entRagdollComponent
+---@field slotComponent entSlotComponent
 gameActionDieState = {}
 
 ---@param fields? gameActionDieState
 ---@return gameActionDieState
-function gameActionDieState.new(fields) return end
+function gameActionDieState.new(fields) end

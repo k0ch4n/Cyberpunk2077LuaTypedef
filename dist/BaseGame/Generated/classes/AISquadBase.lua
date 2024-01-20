@@ -5,4 +5,4 @@ AISquadBase = {}
 
 ---@param fields? AISquadBase
 ---@return AISquadBase
-function AISquadBase.new(fields) return end
+function AISquadBase.new(fields) end

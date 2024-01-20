@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class questEquipItemParams: questAICommandParams
----@field public slotId TweakDBID
----@field public type questNodeType
----@field public itemId TweakDBID
----@field public equipDurationOverride Float
----@field public unequipDurationOverride Float
----@field public failIfItemNotFound Bool
----@field public instant Bool
----@field public equipLastWeapon Bool
----@field public forceFirstEquip Bool
----@field public ignoreStateMachine Bool
----@field public isPlayer Bool
----@field public equipTypes gameItemEquipContexts
----@field public unequipTypes gameItemUnequipContexts
----@field public byItem Bool
+---@field slotId TweakDBID
+---@field type questNodeType
+---@field itemId TweakDBID
+---@field equipDurationOverride Float
+---@field unequipDurationOverride Float
+---@field failIfItemNotFound Bool
+---@field instant Bool
+---@field equipLastWeapon Bool
+---@field forceFirstEquip Bool
+---@field ignoreStateMachine Bool
+---@field isPlayer Bool
+---@field equipTypes gameItemEquipContexts
+---@field unequipTypes gameItemUnequipContexts
+---@field byItem Bool
 questEquipItemParams = {}
 
 ---@param fields? questEquipItemParams
 ---@return questEquipItemParams
-function questEquipItemParams.new(fields) return end
+function questEquipItemParams.new(fields) end

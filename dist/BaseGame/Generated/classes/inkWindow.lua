@@ -5,4 +5,4 @@ inkWindow = {}
 
 ---@param fields? inkWindow
 ---@return inkWindow
-function inkWindow.new(fields) return end
+function inkWindow.new(fields) end

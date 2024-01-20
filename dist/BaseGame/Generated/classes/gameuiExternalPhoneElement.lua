@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiExternalPhoneElement: gameuiLocalPhoneElement
----@field public libraryResource inkWidgetLibraryResource
+---@field libraryResource inkWidgetLibraryResource
 gameuiExternalPhoneElement = {}
 
 ---@param fields? gameuiExternalPhoneElement
 ---@return gameuiExternalPhoneElement
-function gameuiExternalPhoneElement.new(fields) return end
+function gameuiExternalPhoneElement.new(fields) end

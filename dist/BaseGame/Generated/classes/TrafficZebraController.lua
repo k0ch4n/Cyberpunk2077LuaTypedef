@@ -5,7 +5,7 @@ TrafficZebraController = {}
 
 ---@param fields? TrafficZebraController
 ---@return TrafficZebraController
-function TrafficZebraController.new(fields) return end
+function TrafficZebraController.new(fields) end
 
 ---@return TrafficZebraControllerPS
-function TrafficZebraController:GetPS() return end
+function TrafficZebraController:GetPS() end

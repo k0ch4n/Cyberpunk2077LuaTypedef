@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class AHintItemController: inkWidgetLogicController
----@field protected Icon inkImageWidgetReference
----@field protected UnavaliableText inkTextWidgetReference
----@field protected Root inkWidget
+---@field Icon inkImageWidgetReference
+---@field UnavaliableText inkTextWidgetReference
+---@field Root inkWidget
 AHintItemController = {}
 
----@protected
 ---@return Bool
-function AHintItemController:OnInitialize() return end
+function AHintItemController:OnInitialize() end
 
 ---@param isEnabled Bool
 ---@return nil
-function AHintItemController:Animate(isEnabled) return end
+function AHintItemController:Animate(isEnabled) end
 
----@protected
 ---@return nil
-function AHintItemController:CacheAnimations() return end
+function AHintItemController:CacheAnimations() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return nil
-function AHintItemController:OnAnimFinished(anim) return end
+function AHintItemController:OnAnimFinished(anim) end
 
 ---@param atlasPath CName|string
 ---@param iconName CName|string
 ---@return nil
-function AHintItemController:SetIcon(atlasPath, iconName) return end
+function AHintItemController:SetIcon(atlasPath, iconName) end

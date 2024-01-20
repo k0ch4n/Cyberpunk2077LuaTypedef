@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class linkedClueUpdateEvent: redEvent
----@field public linkedCluekData LinkedFocusClueData
----@field public requesterID entEntityID
----@field public updatePS Bool
+---@field linkedCluekData LinkedFocusClueData
+---@field requesterID entEntityID
+---@field updatePS Bool
 linkedClueUpdateEvent = {}
 
 ---@param fields? linkedClueUpdateEvent
 ---@return linkedClueUpdateEvent
-function linkedClueUpdateEvent.new(fields) return end
+function linkedClueUpdateEvent.new(fields) end

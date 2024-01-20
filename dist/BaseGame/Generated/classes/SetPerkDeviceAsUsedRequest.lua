@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetPerkDeviceAsUsedRequest: gameScriptableSystemRequest
----@field public ownerID entEntityID
+---@field ownerID entEntityID
 SetPerkDeviceAsUsedRequest = {}
 
 ---@param fields? SetPerkDeviceAsUsedRequest
 ---@return SetPerkDeviceAsUsedRequest
-function SetPerkDeviceAsUsedRequest.new(fields) return end
+function SetPerkDeviceAsUsedRequest.new(fields) end

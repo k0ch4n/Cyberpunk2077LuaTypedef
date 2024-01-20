@@ -5,4 +5,4 @@ gamehitRepresentationEventsResetAllScaleMultipliers = {}
 
 ---@param fields? gamehitRepresentationEventsResetAllScaleMultipliers
 ---@return gamehitRepresentationEventsResetAllScaleMultipliers
-function gamehitRepresentationEventsResetAllScaleMultipliers.new(fields) return end
+function gamehitRepresentationEventsResetAllScaleMultipliers.new(fields) end

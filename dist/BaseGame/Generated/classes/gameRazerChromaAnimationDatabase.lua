@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameRazerChromaAnimationDatabase: CResource
----@field public setsSerialized gameRazerChromaAnimationSet[]
+---@field setsSerialized gameRazerChromaAnimationSet[]
 gameRazerChromaAnimationDatabase = {}
 
 ---@param fields? gameRazerChromaAnimationDatabase
 ---@return gameRazerChromaAnimationDatabase
-function gameRazerChromaAnimationDatabase.new(fields) return end
+function gameRazerChromaAnimationDatabase.new(fields) end

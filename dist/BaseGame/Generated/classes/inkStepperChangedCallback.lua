@@ -5,4 +5,4 @@ inkStepperChangedCallback = {}
 
 ---@param fields? inkStepperChangedCallback
 ---@return inkStepperChangedCallback
-function inkStepperChangedCallback.new(fields) return end
+function inkStepperChangedCallback.new(fields) end

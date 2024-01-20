@@ -5,4 +5,4 @@ worldAudioSignpostTriggerNodeInstance = {}
 
 ---@param fields? worldAudioSignpostTriggerNodeInstance
 ---@return worldAudioSignpostTriggerNodeInstance
-function worldAudioSignpostTriggerNodeInstance.new(fields) return end
+function worldAudioSignpostTriggerNodeInstance.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ForcedStateData
----@field public state ECLSForcedState
----@field public sourceName CName
----@field public priority EPriority
----@field public savable Bool
+---@field state ECLSForcedState
+---@field sourceName CName
+---@field priority EPriority
+---@field savable Bool
 ForcedStateData = {}
 
 ---@param fields? ForcedStateData
 ---@return ForcedStateData
-function ForcedStateData.new(fields) return end
+function ForcedStateData.new(fields) end

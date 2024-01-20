@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questWorldStateSystemReplicatedState
----@field public nodeVisibilityMapArray questNodeVisibilityMapArrayElement[]
----@field public isInMirrorsAreaMapArray questIsInMirrorsAreaMapArrayElement[]
----@field public nodeCollisionMapArray questNodeCollisionMapArrayElement[]
----@field public prefabVariants questPrefabVariantMapArrayElement[]
+---@field nodeVisibilityMapArray questNodeVisibilityMapArrayElement[]
+---@field isInMirrorsAreaMapArray questIsInMirrorsAreaMapArrayElement[]
+---@field nodeCollisionMapArray questNodeCollisionMapArrayElement[]
+---@field prefabVariants questPrefabVariantMapArrayElement[]
 questWorldStateSystemReplicatedState = {}
 
 ---@param fields? questWorldStateSystemReplicatedState
 ---@return questWorldStateSystemReplicatedState
-function questWorldStateSystemReplicatedState.new(fields) return end
+function questWorldStateSystemReplicatedState.new(fields) end

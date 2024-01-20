@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questSceneTalking_ConditionType: questISceneConditionType
----@field public GlobalEntityRef gameEntityReference
----@field public sceneFile scnSceneResource
----@field public SceneVersion scnSceneVersionCheck
----@field public SectionName CName
----@field public ActorName String
----@field public isInverted Bool
+---@field GlobalEntityRef gameEntityReference
+---@field sceneFile scnSceneResource
+---@field SceneVersion scnSceneVersionCheck
+---@field SectionName CName
+---@field ActorName String
+---@field isInverted Bool
 questSceneTalking_ConditionType = {}
 
 ---@param fields? questSceneTalking_ConditionType
 ---@return questSceneTalking_ConditionType
-function questSceneTalking_ConditionType.new(fields) return end
+function questSceneTalking_ConditionType.new(fields) end

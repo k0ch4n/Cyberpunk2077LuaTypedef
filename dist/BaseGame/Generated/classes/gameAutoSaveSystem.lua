@@ -5,13 +5,13 @@ gameAutoSaveSystem = {}
 
 ---@param fields? gameAutoSaveSystem
 ---@return gameAutoSaveSystem
-function gameAutoSaveSystem.new(fields) return end
+function gameAutoSaveSystem.new(fields) end
 
 ---@return nil
-function gameAutoSaveSystem:InvalidateAutoSaveRequests() return end
+function gameAutoSaveSystem:InvalidateAutoSaveRequests() end
 
 ---@return Bool
-function gameAutoSaveSystem:RequestCheckpoint() return end
+function gameAutoSaveSystem:RequestCheckpoint() end
 
 ---@return Bool
-function gameAutoSaveSystem:RequestForcedCheckpoint() return end
+function gameAutoSaveSystem:RequestForcedCheckpoint() end

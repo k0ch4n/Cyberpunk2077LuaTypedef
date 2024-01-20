@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameWeakSpotReplicatedInfo
----@field public weakSpotRecordID Uint64
----@field public wsHealthValue Float
----@field public LastDamageInstigator gamePuppet
+---@field weakSpotRecordID Uint64
+---@field wsHealthValue Float
+---@field LastDamageInstigator gamePuppet
 gameWeakSpotReplicatedInfo = {}
 
 ---@param fields? gameWeakSpotReplicatedInfo
 ---@return gameWeakSpotReplicatedInfo
-function gameWeakSpotReplicatedInfo.new(fields) return end
+function gameWeakSpotReplicatedInfo.new(fields) end

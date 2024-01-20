@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ParticleDamage: ISerializable
----@field public boundingBoxes Box[]
+---@field boundingBoxes Box[]
 ParticleDamage = {}
 
 ---@param fields? ParticleDamage
 ---@return ParticleDamage
-function ParticleDamage.new(fields) return end
+function ParticleDamage.new(fields) end

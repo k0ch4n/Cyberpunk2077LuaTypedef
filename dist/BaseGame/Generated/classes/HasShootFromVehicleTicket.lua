@@ -5,9 +5,8 @@ HasShootFromVehicleTicket = {}
 
 ---@param fields? HasShootFromVehicleTicket
 ---@return HasShootFromVehicleTicket
-function HasShootFromVehicleTicket.new(fields) return end
+function HasShootFromVehicleTicket.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HasShootFromVehicleTicket:Check(context) return end
+function HasShootFromVehicleTicket:Check(context) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorGetFollowTrailPointTaskDefinition: AIbehaviorTaskDefinition
----@field public inTrailDelay AIArgumentMapping
----@field public outFollowTrailPoint AIArgumentMapping
+---@field inTrailDelay AIArgumentMapping
+---@field outFollowTrailPoint AIArgumentMapping
 AIbehaviorGetFollowTrailPointTaskDefinition = {}
 
 ---@param fields? AIbehaviorGetFollowTrailPointTaskDefinition
 ---@return AIbehaviorGetFollowTrailPointTaskDefinition
-function AIbehaviorGetFollowTrailPointTaskDefinition.new(fields) return end
+function AIbehaviorGetFollowTrailPointTaskDefinition.new(fields) end

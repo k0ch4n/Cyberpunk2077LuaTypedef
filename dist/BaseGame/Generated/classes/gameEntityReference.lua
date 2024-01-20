@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameEntityReference
----@field public type gameEntityReferenceType
----@field public reference NodeRef
----@field public names CName[]
----@field public slotName CName
----@field public sceneActorContextName CName
----@field public dynamicEntityUniqueName CName
+---@field type gameEntityReferenceType
+---@field reference NodeRef
+---@field names CName[]
+---@field slotName CName
+---@field sceneActorContextName CName
+---@field dynamicEntityUniqueName CName
 gameEntityReference = {}
 
 ---@param fields? gameEntityReference
 ---@return gameEntityReference
-function gameEntityReference.new(fields) return end
+function gameEntityReference.new(fields) end

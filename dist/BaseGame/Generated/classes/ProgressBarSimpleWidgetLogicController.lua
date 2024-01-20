@@ -1,47 +1,46 @@
 ---@meta
 
 ---@class ProgressBarSimpleWidgetLogicController: inkWidgetLogicController
----@field private width Float
----@field private height Float
----@field public currentValue Float
----@field public previousValue Float
----@field public MaxCNBarFlashSize Float
----@field public fullBar inkWidgetReference
----@field public changePBar inkWidgetReference
----@field public changeNBar inkWidgetReference
----@field public emptyBar inkWidgetReference
----@field public barCap inkWidgetReference
----@field public damagePreviewBar inkWidgetReference
----@field public showBarCap Bool
----@field public animDuration Float
----@field private full_anim_proxy inkanimProxy
----@field private full_anim inkanimDefinition
----@field private empty_anim_proxy inkanimProxy
----@field private empty_anim inkanimDefinition
----@field private changeP_anim_proxy inkanimProxy
----@field private changeP_anim inkanimDefinition
----@field private changeN_anim_proxy inkanimProxy
----@field private changeN_anim inkanimDefinition
----@field private barCap_anim_proxy inkanimProxy
----@field private barCap_anim inkanimDefinition
----@field protected rootWidget inkCompoundWidget
+---@field width Float
+---@field height Float
+---@field currentValue Float
+---@field previousValue Float
+---@field MaxCNBarFlashSize Float
+---@field fullBar inkWidgetReference
+---@field changePBar inkWidgetReference
+---@field changeNBar inkWidgetReference
+---@field emptyBar inkWidgetReference
+---@field barCap inkWidgetReference
+---@field damagePreviewBar inkWidgetReference
+---@field showBarCap Bool
+---@field animDuration Float
+---@field full_anim_proxy inkanimProxy
+---@field full_anim inkanimDefinition
+---@field empty_anim_proxy inkanimProxy
+---@field empty_anim inkanimDefinition
+---@field changeP_anim_proxy inkanimProxy
+---@field changeP_anim inkanimDefinition
+---@field changeN_anim_proxy inkanimProxy
+---@field changeN_anim inkanimDefinition
+---@field barCap_anim_proxy inkanimProxy
+---@field barCap_anim inkanimDefinition
+---@field rootWidget inkCompoundWidget
 ProgressBarSimpleWidgetLogicController = {}
 
 ---@param fields? ProgressBarSimpleWidgetLogicController
 ---@return ProgressBarSimpleWidgetLogicController
-function ProgressBarSimpleWidgetLogicController.new(fields) return end
+function ProgressBarSimpleWidgetLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function ProgressBarSimpleWidgetLogicController:OnInitialize() return end
+function ProgressBarSimpleWidgetLogicController:OnInitialize() end
 
 ---@return Vector2
-function ProgressBarSimpleWidgetLogicController:GetFullSize() return end
+function ProgressBarSimpleWidgetLogicController:GetFullSize() end
 
 ---@return nil
-function ProgressBarSimpleWidgetLogicController:SetDefaultValues() return end
+function ProgressBarSimpleWidgetLogicController:SetDefaultValues() end
 
 ---@param newValue Float
 ---@param silent Bool
 ---@return Bool
-function ProgressBarSimpleWidgetLogicController:SetProgress(newValue, silent) return end
+function ProgressBarSimpleWidgetLogicController:SetProgress(newValue, silent) end

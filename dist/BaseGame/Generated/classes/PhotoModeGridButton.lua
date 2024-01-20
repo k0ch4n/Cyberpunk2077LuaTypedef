@@ -1,76 +1,71 @@
 ---@meta
 
 ---@class PhotoModeGridButton: inkToggleController
----@field private FrameImg inkImageWidgetReference
----@field private DynamicImg inkImageWidgetReference
----@field private BgWidget inkWidgetReference
----@field private HoverWidget inkWidgetReference
----@field private PlusImg inkImageWidgetReference
----@field private currentImagePart CName
----@field private atlasRef redResourceReferenceScriptToken
----@field private buttonData Int32
----@field private parentGrid PhotoModeGridList
----@field private index Int32
----@field private visibleOnGrid Bool
----@field private imageScalingSpeed Float
----@field private opacityScalingSpeed Float
+---@field FrameImg inkImageWidgetReference
+---@field DynamicImg inkImageWidgetReference
+---@field BgWidget inkWidgetReference
+---@field HoverWidget inkWidgetReference
+---@field PlusImg inkImageWidgetReference
+---@field currentImagePart CName
+---@field atlasRef redResourceReferenceScriptToken
+---@field buttonData Int32
+---@field parentGrid PhotoModeGridList
+---@field index Int32
+---@field visibleOnGrid Bool
+---@field imageScalingSpeed Float
+---@field opacityScalingSpeed Float
 PhotoModeGridButton = {}
 
 ---@param fields? PhotoModeGridButton
 ---@return PhotoModeGridButton
-function PhotoModeGridButton.new(fields) return end
+function PhotoModeGridButton.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PhotoModeGridButton:OnHoverOut(e) return end
+function PhotoModeGridButton:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PhotoModeGridButton:OnHovered(e) return end
+function PhotoModeGridButton:OnHovered(e) end
 
----@protected
 ---@return Bool
-function PhotoModeGridButton:OnInitialize() return end
+function PhotoModeGridButton:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PhotoModeGridButton:OnToggleClick(e) return end
+function PhotoModeGridButton:OnToggleClick(e) end
 
----@protected
 ---@return Bool
-function PhotoModeGridButton:OnUninitialize() return end
+function PhotoModeGridButton:OnUninitialize() end
 
 ---@param selected Bool
 ---@return nil
-function PhotoModeGridButton:ButtonStateChanged(selected) return end
+function PhotoModeGridButton:ButtonStateChanged(selected) end
 
 ---@return Int32
-function PhotoModeGridButton:GetData() return end
+function PhotoModeGridButton:GetData() end
 
 ---@return Bool
-function PhotoModeGridButton:IsToggledVisually() return end
+function PhotoModeGridButton:IsToggledVisually() end
 
 ---@param visible Bool
 ---@return nil
-function PhotoModeGridButton:OnVisibilityOnGridChanged(visible) return end
+function PhotoModeGridButton:OnVisibilityOnGridChanged(visible) end
 
 ---@param buttonData Int32
 ---@return nil
-function PhotoModeGridButton:SetData(buttonData) return end
+function PhotoModeGridButton:SetData(buttonData) end
 
 ---@param atlasPath redResourceReferenceScriptToken
 ---@param imagePart CName|string
 ---@return nil
-function PhotoModeGridButton:SetImage(atlasPath, imagePart) return end
+function PhotoModeGridButton:SetImage(atlasPath, imagePart) end
 
 ---@param grid PhotoModeGridList
 ---@param index Int32
 ---@return nil
-function PhotoModeGridButton:Setup(grid, index) return end
+function PhotoModeGridButton:Setup(grid, index) end
 
 ---@param timeDelta Float
 ---@return nil
-function PhotoModeGridButton:UpdateSize(timeDelta) return end
+function PhotoModeGridButton:UpdateSize(timeDelta) end

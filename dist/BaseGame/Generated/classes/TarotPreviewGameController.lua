@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class TarotPreviewGameController: gameuiWidgetGameController
----@field private background inkWidgetReference
----@field private ep1Icon inkWidgetReference
----@field private previewImage inkImageWidgetReference
----@field private previewTitle inkTextWidgetReference
----@field private previewDescription inkTextWidgetReference
----@field private data TarotCardPreviewData
----@field private isClosing Bool
+---@field background inkWidgetReference
+---@field ep1Icon inkWidgetReference
+---@field previewImage inkImageWidgetReference
+---@field previewTitle inkTextWidgetReference
+---@field previewDescription inkTextWidgetReference
+---@field data TarotCardPreviewData
+---@field isClosing Bool
 TarotPreviewGameController = {}
 
 ---@param fields? TarotPreviewGameController
 ---@return TarotPreviewGameController
-function TarotPreviewGameController.new(fields) return end
+function TarotPreviewGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TarotPreviewGameController:OnGlobalRelease(evt) return end
+function TarotPreviewGameController:OnGlobalRelease(evt) end
 
----@protected
 ---@return Bool
-function TarotPreviewGameController:OnInitialize() return end
+function TarotPreviewGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function TarotPreviewGameController:OnOutroCompleted(anim) return end
+function TarotPreviewGameController:OnOutroCompleted(anim) end
 
----@protected
 ---@param data TarotCardData
 ---@return nil
-function TarotPreviewGameController:Show(data) return end
+function TarotPreviewGameController:Show(data) end

@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class ItemTooltipTransmogModule: ItemTooltipModuleController
----@field private buttonHintWidgetRef inkWidgetReference
----@field private labelRef inkTextWidgetReference
----@field private buttonHint LabelInputDisplayController
+---@field buttonHintWidgetRef inkWidgetReference
+---@field labelRef inkTextWidgetReference
+---@field buttonHint LabelInputDisplayController
 ItemTooltipTransmogModule = {}
 
 ---@param fields? ItemTooltipTransmogModule
 ---@return ItemTooltipTransmogModule
-function ItemTooltipTransmogModule.new(fields) return end
+function ItemTooltipTransmogModule.new(fields) end
 
----@protected
 ---@return Bool
-function ItemTooltipTransmogModule:OnInitialize() return end
+function ItemTooltipTransmogModule:OnInitialize() end
 
 ---@param data UIInventoryItem
 ---@return nil
-function ItemTooltipTransmogModule:NEW_Update(data) return end
+function ItemTooltipTransmogModule:NEW_Update(data) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipTransmogModule:Update(data) return end
+function ItemTooltipTransmogModule:Update(data) end

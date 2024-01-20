@@ -5,4 +5,4 @@ gameuiarcadeArcadePermanentResourceManager = {}
 
 ---@param fields? gameuiarcadeArcadePermanentResourceManager
 ---@return gameuiarcadeArcadePermanentResourceManager
-function gameuiarcadeArcadePermanentResourceManager.new(fields) return end
+function gameuiarcadeArcadePermanentResourceManager.new(fields) end

@@ -5,4 +5,4 @@ SmsMessangerInitalizedEvent = {}
 
 ---@param fields? SmsMessangerInitalizedEvent
 ---@return SmsMessangerInitalizedEvent
-function SmsMessangerInitalizedEvent.new(fields) return end
+function SmsMessangerInitalizedEvent.new(fields) end

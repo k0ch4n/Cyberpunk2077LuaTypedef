@@ -5,4 +5,4 @@ worldRaceSplineNodeInstance = {}
 
 ---@param fields? worldRaceSplineNodeInstance
 ---@return worldRaceSplineNodeInstance
-function worldRaceSplineNodeInstance.new(fields) return end
+function worldRaceSplineNodeInstance.new(fields) end

@@ -1,103 +1,87 @@
 ---@meta
 
 ---@class PublicSafeDecisions: WeaponReadyListenerTransition
----@field private isSprinting Bool
----@field private inKereznikov Bool
----@field private inCombat Bool
----@field private inDangerousZone Bool
----@field private inFocusMode Bool
----@field private isInVehicleCombat Bool
----@field private isInVehTurret Bool
----@field private isAiming Bool
----@field private rangedAttackPressed Bool
+---@field isSprinting Bool
+---@field inKereznikov Bool
+---@field inCombat Bool
+---@field inDangerousZone Bool
+---@field inFocusMode Bool
+---@field isInVehicleCombat Bool
+---@field isInVehTurret Bool
+---@field isAiming Bool
+---@field rangedAttackPressed Bool
 PublicSafeDecisions = {}
 
 ---@param fields? PublicSafeDecisions
 ---@return PublicSafeDecisions
-function PublicSafeDecisions.new(fields) return end
+function PublicSafeDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function PublicSafeDecisions:OnAction(action, consumer) return end
+function PublicSafeDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PublicSafeDecisions:OnCombatChanged(value) return end
+function PublicSafeDecisions:OnCombatChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PublicSafeDecisions:OnLocomotionChanged(value) return end
+function PublicSafeDecisions:OnLocomotionChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PublicSafeDecisions:OnUpperBodyChanged(value) return end
+function PublicSafeDecisions:OnUpperBodyChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PublicSafeDecisions:OnVehicleChanged(value) return end
+function PublicSafeDecisions:OnVehicleChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PublicSafeDecisions:OnVisionChanged(value) return end
+function PublicSafeDecisions:OnVisionChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PublicSafeDecisions:OnZonesChanged(value) return end
+function PublicSafeDecisions:OnZonesChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PublicSafeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function PublicSafeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeDecisions:OnAttach(stateContext, scriptInterface) return end
+function PublicSafeDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeDecisions:OnDetach(stateContext, scriptInterface) return end
+function PublicSafeDecisions:OnDetach(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PublicSafeDecisions:ShouldLeaveSafe(stateContext, scriptInterface) return end
+function PublicSafeDecisions:ShouldLeaveSafe(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PublicSafeDecisions:ToNoAmmo(stateContext, scriptInterface) return end
+function PublicSafeDecisions:ToNoAmmo(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PublicSafeDecisions:ToNotReady(stateContext, scriptInterface) return end
+function PublicSafeDecisions:ToNotReady(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PublicSafeDecisions:ToPublicSafeToReady(stateContext, scriptInterface) return end
+function PublicSafeDecisions:ToPublicSafeToReady(stateContext, scriptInterface) end
 
----@protected
 ---@return nil
-function PublicSafeDecisions:UpdateShouldOnEnterBeEnabled() return end
+function PublicSafeDecisions:UpdateShouldOnEnterBeEnabled() end
 
----@protected
 ---@return nil
-function PublicSafeDecisions:UpdateWeaponReadyListenerReturnValue() return end
+function PublicSafeDecisions:UpdateWeaponReadyListenerReturnValue() end

@@ -5,27 +5,22 @@ MenuScenario_Storage = {}
 
 ---@param fields? MenuScenario_Storage
 ---@return MenuScenario_Storage
-function MenuScenario_Storage.new(fields) return end
+function MenuScenario_Storage.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_Storage:OnCloseHubMenuRequest() return end
+function MenuScenario_Storage:OnCloseHubMenuRequest() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Storage:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_Storage:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_Storage:OnLeaveScenario(nextScenario) return end
+function MenuScenario_Storage:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_Storage:OnVendorClose() return end
+function MenuScenario_Storage:OnVendorClose() end
 
----@protected
 ---@return nil
-function MenuScenario_Storage:GotoIdleState() return end
+function MenuScenario_Storage:GotoIdleState() end

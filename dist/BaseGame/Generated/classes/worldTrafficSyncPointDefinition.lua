@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldTrafficSyncPointDefinition
----@field public laneRefs NodeRef[]
----@field public lanePositions Float[]
----@field public length Float
+---@field laneRefs NodeRef[]
+---@field lanePositions Float[]
+---@field length Float
 worldTrafficSyncPointDefinition = {}
 
 ---@param fields? worldTrafficSyncPointDefinition
 ---@return worldTrafficSyncPointDefinition
-function worldTrafficSyncPointDefinition.new(fields) return end
+function worldTrafficSyncPointDefinition.new(fields) end

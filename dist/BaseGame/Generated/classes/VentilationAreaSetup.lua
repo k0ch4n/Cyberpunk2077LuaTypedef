@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class VentilationAreaSetup
----@field public areaEffect ETrapEffects
----@field public actionName CName
+---@field areaEffect ETrapEffects
+---@field actionName CName
 VentilationAreaSetup = {}
 
 ---@param fields? VentilationAreaSetup
 ---@return VentilationAreaSetup
-function VentilationAreaSetup.new(fields) return end
+function VentilationAreaSetup.new(fields) end

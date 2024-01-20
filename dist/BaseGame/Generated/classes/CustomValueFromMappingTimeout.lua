@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CustomValueFromMappingTimeout: AITimeoutCondition
----@field public actionTweakIDMapping AIArgumentMapping
+---@field actionTweakIDMapping AIArgumentMapping
 CustomValueFromMappingTimeout = {}
 
 ---@param fields? CustomValueFromMappingTimeout
 ---@return CustomValueFromMappingTimeout
-function CustomValueFromMappingTimeout.new(fields) return end
+function CustomValueFromMappingTimeout.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function CustomValueFromMappingTimeout:GetTimeoutValue(context) return end
+function CustomValueFromMappingTimeout:GetTimeoutValue(context) end

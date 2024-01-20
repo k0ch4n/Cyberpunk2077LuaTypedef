@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class SetArgumentFloat: SetArguments
----@field public customVar Float
+---@field customVar Float
 SetArgumentFloat = {}
 
 ---@param fields? SetArgumentFloat
 ---@return SetArgumentFloat
-function SetArgumentFloat.new(fields) return end
+function SetArgumentFloat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetArgumentFloat:Activate(context) return end
+function SetArgumentFloat:Activate(context) end
 
 ---@return String
-function SetArgumentFloat:GetEditorSubCaption() return end
+function SetArgumentFloat:GetEditorSubCaption() end

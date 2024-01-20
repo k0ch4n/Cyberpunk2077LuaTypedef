@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scnDialogDisplayString
----@field public text String
----@field public translation String
----@field public preTranslatedText String
----@field public postTranslatedText String
----@field public language scnDialogLineLanguage
+---@field text String
+---@field translation String
+---@field preTranslatedText String
+---@field postTranslatedText String
+---@field language scnDialogLineLanguage
 scnDialogDisplayString = {}
 
 ---@param fields? scnDialogDisplayString
 ---@return scnDialogDisplayString
-function scnDialogDisplayString.new(fields) return end
+function scnDialogDisplayString.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SuppressSecuritySystemReaction: redEvent
----@field public enableProtection Bool
----@field public protectedEntityID entEntityID
----@field public entered Bool
----@field public hasEntityWithdrawn Bool
+---@field enableProtection Bool
+---@field protectedEntityID entEntityID
+---@field entered Bool
+---@field hasEntityWithdrawn Bool
 SuppressSecuritySystemReaction = {}
 
 ---@param fields? SuppressSecuritySystemReaction
 ---@return SuppressSecuritySystemReaction
-function SuppressSecuritySystemReaction.new(fields) return end
+function SuppressSecuritySystemReaction.new(fields) end

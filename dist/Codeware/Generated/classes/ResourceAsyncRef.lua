@@ -5,21 +5,21 @@ ResourceAsyncRef = {}
 
 ---@param fields? ResourceAsyncRef
 ---@return ResourceAsyncRef
-function ResourceAsyncRef.new(fields) return end
+function ResourceAsyncRef.new(fields) end
 
 ---@param self ResourceAsyncRef
 ---@return Uint64
-function ResourceAsyncRef.GetHash(self) return end
+function ResourceAsyncRef.GetHash(self) end
 
 ---@param self ResourceAsyncRef
 ---@return redResourceReferenceScriptToken
-function ResourceAsyncRef.GetPath(self) return end
+function ResourceAsyncRef.GetPath(self) end
 
 ---@param self ResourceAsyncRef
 ---@return Bool
-function ResourceAsyncRef.IsEmpty(self) return end
+function ResourceAsyncRef.IsEmpty(self) end
 
 ---@param self ResourceAsyncRef
 ---@param path redResourceReferenceScriptToken
 ---@return nil
-function ResourceAsyncRef.SetPath(self, path) return end
+function ResourceAsyncRef.SetPath(self, path) end

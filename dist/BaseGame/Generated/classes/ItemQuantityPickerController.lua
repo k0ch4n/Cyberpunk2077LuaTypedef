@@ -1,144 +1,123 @@
 ---@meta
 
 ---@class ItemQuantityPickerController: gameuiWidgetGameController
----@field protected quantityTextMin inkTextWidgetReference
----@field protected quantityTextMax inkTextWidgetReference
----@field protected quantityTextChoosen inkTextWidgetReference
----@field protected priceText inkTextWidgetReference
----@field protected priceWrapper inkWidgetReference
----@field protected weightText inkTextWidgetReference
----@field protected itemNameText inkTextWidgetReference
----@field protected itemQuantityText inkTextWidgetReference
----@field protected rairtyBar inkWidgetReference
----@field protected root inkWidgetReference
----@field protected background inkWidgetReference
----@field private buttonHintsRoot inkWidgetReference
----@field protected slider inkWidgetReference
----@field protected buttonOk inkWidgetReference
----@field protected buttonCancel inkWidgetReference
----@field protected buttonOkText inkTextWidgetReference
----@field protected buttonLess inkWidgetReference
----@field protected buttonMore inkWidgetReference
----@field private libraryPath inkWidgetLibraryReference
----@field protected maxValue Int32
----@field protected gameData gameInventoryItemData
----@field protected inventoryItem UIInventoryItem
----@field protected actionType QuantityPickerActionType
----@field protected sliderController inkSliderController
----@field protected choosenQuantity Int32
----@field protected itemPrice Int32
----@field protected itemWeight Float
----@field protected isBuyback Bool
----@field protected sendQuantityChangedEvent Bool
----@field private data QuantityPickerPopupData
----@field private isNegativeHovered Bool
----@field private quantityChangedEvent PickerChoosenQuantityChangedEvent
----@field private player gameObject
----@field private closeData QuantityPickerPopupCloseData
+---@field quantityTextMin inkTextWidgetReference
+---@field quantityTextMax inkTextWidgetReference
+---@field quantityTextChoosen inkTextWidgetReference
+---@field priceText inkTextWidgetReference
+---@field priceWrapper inkWidgetReference
+---@field weightText inkTextWidgetReference
+---@field itemNameText inkTextWidgetReference
+---@field itemQuantityText inkTextWidgetReference
+---@field rairtyBar inkWidgetReference
+---@field root inkWidgetReference
+---@field background inkWidgetReference
+---@field buttonHintsRoot inkWidgetReference
+---@field slider inkWidgetReference
+---@field buttonOk inkWidgetReference
+---@field buttonCancel inkWidgetReference
+---@field buttonOkText inkTextWidgetReference
+---@field buttonLess inkWidgetReference
+---@field buttonMore inkWidgetReference
+---@field libraryPath inkWidgetLibraryReference
+---@field maxValue Int32
+---@field gameData gameInventoryItemData
+---@field inventoryItem UIInventoryItem
+---@field actionType QuantityPickerActionType
+---@field sliderController inkSliderController
+---@field choosenQuantity Int32
+---@field itemPrice Int32
+---@field itemWeight Float
+---@field isBuyback Bool
+---@field sendQuantityChangedEvent Bool
+---@field data QuantityPickerPopupData
+---@field isNegativeHovered Bool
+---@field quantityChangedEvent PickerChoosenQuantityChangedEvent
+---@field player gameObject
+---@field closeData QuantityPickerPopupCloseData
 ItemQuantityPickerController = {}
 
 ---@param fields? ItemQuantityPickerController
 ---@return ItemQuantityPickerController
-function ItemQuantityPickerController.new(fields) return end
+function ItemQuantityPickerController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function ItemQuantityPickerController:OnAction(action, consumer) return end
+function ItemQuantityPickerController:OnAction(action, consumer) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ItemQuantityPickerController:OnAxisInput(evt) return end
+function ItemQuantityPickerController:OnAxisInput(evt) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function ItemQuantityPickerController:OnCancelClick(controller) return end
+function ItemQuantityPickerController:OnCancelClick(controller) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function ItemQuantityPickerController:OnCloseAnimationFinished(proxy) return end
+function ItemQuantityPickerController:OnCloseAnimationFinished(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ItemQuantityPickerController:OnHandlePressInput(evt) return end
+function ItemQuantityPickerController:OnHandlePressInput(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ItemQuantityPickerController:OnHandleRepeatInput(evt) return end
+function ItemQuantityPickerController:OnHandleRepeatInput(evt) end
 
----@protected
 ---@return Bool
-function ItemQuantityPickerController:OnInitialize() return end
+function ItemQuantityPickerController:OnInitialize() end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function ItemQuantityPickerController:OnLessClick(controller) return end
+function ItemQuantityPickerController:OnLessClick(controller) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function ItemQuantityPickerController:OnMoreClick(controller) return end
+function ItemQuantityPickerController:OnMoreClick(controller) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ItemQuantityPickerController:OnNegativeHoverOut(evt) return end
+function ItemQuantityPickerController:OnNegativeHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ItemQuantityPickerController:OnNegativeHoverOver(evt) return end
+function ItemQuantityPickerController:OnNegativeHoverOver(evt) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function ItemQuantityPickerController:OnOkClick(controller) return end
+function ItemQuantityPickerController:OnOkClick(controller) end
 
----@protected
 ---@param controller inkSliderController
 ---@param progress Float
 ---@param value Float
 ---@return Bool
-function ItemQuantityPickerController:OnSliderValueChanged(controller, progress, value) return end
+function ItemQuantityPickerController:OnSliderValueChanged(controller, progress, value) end
 
----@protected
 ---@return Bool
-function ItemQuantityPickerController:OnUninitialize() return end
+function ItemQuantityPickerController:OnUninitialize() end
 
----@private
 ---@param actionName CName|string
 ---@param label String
 ---@return nil
-function ItemQuantityPickerController:AddButtonHints(actionName, label) return end
+function ItemQuantityPickerController:AddButtonHints(actionName, label) end
 
----@private
 ---@param success Bool
 ---@return nil
-function ItemQuantityPickerController:Close(success) return end
+function ItemQuantityPickerController:Close(success) end
 
----@private
 ---@return nil
-function ItemQuantityPickerController:SetButtonHints() return end
+function ItemQuantityPickerController:SetButtonHints() end
 
----@private
 ---@return nil
-function ItemQuantityPickerController:SetData() return end
+function ItemQuantityPickerController:SetData() end
 
----@protected
 ---@return nil
-function ItemQuantityPickerController:UpdatePriceText() return end
+function ItemQuantityPickerController:UpdatePriceText() end
 
----@protected
 ---@return nil
-function ItemQuantityPickerController:UpdateProgress() return end
+function ItemQuantityPickerController:UpdateProgress() end
 
----@protected
 ---@return nil
-function ItemQuantityPickerController:UpdateWeight() return end
+function ItemQuantityPickerController:UpdateWeight() end

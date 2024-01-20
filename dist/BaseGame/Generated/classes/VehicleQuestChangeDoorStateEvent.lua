@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class VehicleQuestChangeDoorStateEvent: redEvent
----@field public door vehicleEVehicleDoor
----@field public newState vehicleEQuestVehicleDoorState
----@field public forceScene Bool
+---@field door vehicleEVehicleDoor
+---@field newState vehicleEQuestVehicleDoorState
+---@field forceScene Bool
 VehicleQuestChangeDoorStateEvent = {}
 
 ---@param fields? VehicleQuestChangeDoorStateEvent
 ---@return VehicleQuestChangeDoorStateEvent
-function VehicleQuestChangeDoorStateEvent.new(fields) return end
+function VehicleQuestChangeDoorStateEvent.new(fields) end
 
 ---@return String
-function VehicleQuestChangeDoorStateEvent:GetFriendlyDescription() return end
+function VehicleQuestChangeDoorStateEvent:GetFriendlyDescription() end

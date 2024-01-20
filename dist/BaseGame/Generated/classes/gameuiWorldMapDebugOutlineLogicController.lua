@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiWorldMapDebugOutlineLogicController: inkWidgetLogicController
----@field public outlineWidget inkShapeWidgetReference
+---@field outlineWidget inkShapeWidgetReference
 gameuiWorldMapDebugOutlineLogicController = {}
 
 ---@param fields? gameuiWorldMapDebugOutlineLogicController
 ---@return gameuiWorldMapDebugOutlineLogicController
-function gameuiWorldMapDebugOutlineLogicController.new(fields) return end
+function gameuiWorldMapDebugOutlineLogicController.new(fields) end

@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class LibTreeCTreeResource: CResource
----@field public variables LibTreeDefTreeVariablesList
+---@field variables LibTreeDefTreeVariablesList
 LibTreeCTreeResource = {}

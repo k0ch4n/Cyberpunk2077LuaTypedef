@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class STrait
----@field public type gamedataTraitType
----@field public unlocked Bool
----@field public currLevel Int32
+---@field type gamedataTraitType
+---@field unlocked Bool
+---@field currLevel Int32
 STrait = {}
 
 ---@param fields? STrait
 ---@return STrait
-function STrait.new(fields) return end
+function STrait.new(fields) end

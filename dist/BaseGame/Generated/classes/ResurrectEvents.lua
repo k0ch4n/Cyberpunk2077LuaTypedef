@@ -5,21 +5,18 @@ ResurrectEvents = {}
 
 ---@param fields? ResurrectEvents
 ---@return ResurrectEvents
-function ResurrectEvents.new(fields) return end
+function ResurrectEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ResurrectEvents:OnEnter(stateContext, scriptInterface) return end
+function ResurrectEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ResurrectEvents:OnExit(stateContext, scriptInterface) return end
+function ResurrectEvents:OnExit(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ResurrectEvents:SendResurrectEvent(scriptInterface) return end
+function ResurrectEvents:SendResurrectEvent(scriptInterface) end

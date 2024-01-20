@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class vehicleGarageComponentVehicleData
----@field public spawnRecordID TweakDBID
----@field public entityID entEntityID
----@field public vehicleNameNodeRef NodeRef
----@field public despawnOnDistanceEnabled Bool
+---@field spawnRecordID TweakDBID
+---@field entityID entEntityID
+---@field vehicleNameNodeRef NodeRef
+---@field despawnOnDistanceEnabled Bool
 vehicleGarageComponentVehicleData = {}
 
 ---@param fields? vehicleGarageComponentVehicleData
 ---@return vehicleGarageComponentVehicleData
-function vehicleGarageComponentVehicleData.new(fields) return end
+function vehicleGarageComponentVehicleData.new(fields) end

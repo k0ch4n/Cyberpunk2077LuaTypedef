@@ -1,125 +1,108 @@
 ---@meta
 
 ---@class LcdScreenInkGameController: DeviceInkGameControllerBase
----@field protected defaultUI inkCanvasWidget
----@field protected mainDisplayWidget inkVideoWidget
----@field protected messegeWidget inkTextWidget
----@field protected backgroundWidget inkLeafWidget
----@field protected messegeRecord gamedataScreenMessageData_Record
----@field protected replaceTextWithCustomNumber Bool
----@field protected customNumber Int32
----@field private onGlitchingStateChangedListener redCallbackObject
----@field private onMessegeChangedListener redCallbackObject
+---@field defaultUI inkCanvasWidget
+---@field mainDisplayWidget inkVideoWidget
+---@field messegeWidget inkTextWidget
+---@field backgroundWidget inkLeafWidget
+---@field messegeRecord gamedataScreenMessageData_Record
+---@field replaceTextWithCustomNumber Bool
+---@field customNumber Int32
+---@field onGlitchingStateChangedListener redCallbackObject
+---@field onMessegeChangedListener redCallbackObject
 LcdScreenInkGameController = {}
 
 ---@param fields? LcdScreenInkGameController
 ---@return LcdScreenInkGameController
-function LcdScreenInkGameController.new(fields) return end
+function LcdScreenInkGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function LcdScreenInkGameController:OnActionWidgetsUpdate(value) return end
+function LcdScreenInkGameController:OnActionWidgetsUpdate(value) end
 
----@protected
 ---@param selector inkTweakDBIDSelector
 ---@return Bool
-function LcdScreenInkGameController:OnFillStreetSignData(selector) return end
+function LcdScreenInkGameController:OnFillStreetSignData(selector) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function LcdScreenInkGameController:OnMessegeChanged(value) return end
+function LcdScreenInkGameController:OnMessegeChanged(value) end
 
----@protected
 ---@return Bool
-function LcdScreenInkGameController:OnUninitialize() return end
+function LcdScreenInkGameController:OnUninitialize() end
 
----@protected
 ---@param calorArray Int32[]
 ---@return Color
-function LcdScreenInkGameController:GetColorFromArray(calorArray) return end
+function LcdScreenInkGameController:GetColorFromArray(calorArray) end
 
----@protected
 ---@return LcdScreen
-function LcdScreenInkGameController:GetOwner() return end
+function LcdScreenInkGameController:GetOwner() end
 
----@private
 ---@param replaceTextWithCustomNumber Bool
 ---@param customNumber Int32
 ---@return nil
-function LcdScreenInkGameController:InitializeCustomNumber(replaceTextWithCustomNumber, customNumber) return end
+function LcdScreenInkGameController:InitializeCustomNumber(replaceTextWithCustomNumber, customNumber) end
 
----@private
 ---@param messageRecord gamedataScreenMessageData_Record
 ---@return nil
-function LcdScreenInkGameController:InitializeMessageRecord(messageRecord) return end
+function LcdScreenInkGameController:InitializeMessageRecord(messageRecord) end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@param audioEvent CName|string
 ---@return nil
-function LcdScreenInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
+function LcdScreenInkGameController:PlayVideo(videoPath, looped, audioEvent) end
 
 ---@param state EDeviceStatus
 ---@return nil
-function LcdScreenInkGameController:Refresh(state) return end
+function LcdScreenInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function LcdScreenInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function LcdScreenInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param record gamedataScreenMessageData_Record
 ---@return nil
-function LcdScreenInkGameController:ResolveMessegeRecord(record) return end
+function LcdScreenInkGameController:ResolveMessegeRecord(record) end
 
----@private
 ---@param imageWidget inkImageWidget
 ---@param textureID TweakDBID|string
 ---@return nil
-function LcdScreenInkGameController:SetBackgroundTexture(imageWidget, textureID) return end
+function LcdScreenInkGameController:SetBackgroundTexture(imageWidget, textureID) end
 
----@private
 ---@param imageWidget inkImageWidget
 ---@param textureRecord gamedataUIIcon_Record
 ---@return nil
-function LcdScreenInkGameController:SetBackgroundTexture(imageWidget, textureRecord) return end
+function LcdScreenInkGameController:SetBackgroundTexture(imageWidget, textureRecord) end
 
----@private
 ---@param imageWidgetRef inkImageWidgetReference
 ---@param textureRecord gamedataUIIcon_Record
 ---@return nil
-function LcdScreenInkGameController:SetBackgroundTexture(imageWidgetRef, textureRecord) return end
+function LcdScreenInkGameController:SetBackgroundTexture(imageWidgetRef, textureRecord) end
 
----@protected
 ---@return nil
-function LcdScreenInkGameController:SetupWidgets() return end
+function LcdScreenInkGameController:SetupWidgets() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function LcdScreenInkGameController:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function LcdScreenInkGameController:StopGlitchingScreen() return end
+function LcdScreenInkGameController:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function LcdScreenInkGameController:StopVideo() return end
+function LcdScreenInkGameController:StopGlitchingScreen() end
 
 ---@return nil
-function LcdScreenInkGameController:TurnOff() return end
+function LcdScreenInkGameController:StopVideo() end
 
 ---@return nil
-function LcdScreenInkGameController:TurnOn() return end
+function LcdScreenInkGameController:TurnOff() end
 
----@protected
+---@return nil
+function LcdScreenInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function LcdScreenInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function LcdScreenInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function LcdScreenInkGameController:UpdateActionWidgets(widgetsData) return end
+function LcdScreenInkGameController:UpdateActionWidgets(widgetsData) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameStatusEffectComponentReplicatedState: netIComponentState
----@field public replicatedInfo gameStatusEffectReplicatedInfo[]
+---@field replicatedInfo gameStatusEffectReplicatedInfo[]
 gameStatusEffectComponentReplicatedState = {}
 
 ---@param fields? gameStatusEffectComponentReplicatedState
 ---@return gameStatusEffectComponentReplicatedState
-function gameStatusEffectComponentReplicatedState.new(fields) return end
+function gameStatusEffectComponentReplicatedState.new(fields) end

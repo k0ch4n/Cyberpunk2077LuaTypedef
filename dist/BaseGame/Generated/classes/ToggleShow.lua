@@ -5,8 +5,8 @@ ToggleShow = {}
 
 ---@param fields? ToggleShow
 ---@return ToggleShow
-function ToggleShow.new(fields) return end
+function ToggleShow.new(fields) end
 
 ---@param isShown Bool
 ---@return nil
-function ToggleShow:SetProperties(isShown) return end
+function ToggleShow:SetProperties(isShown) end

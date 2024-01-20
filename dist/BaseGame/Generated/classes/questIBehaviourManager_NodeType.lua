@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class questIBehaviourManager_NodeType: questIRetNodeType
----@field public puppetRef gameEntityReference
+---@field puppetRef gameEntityReference
 questIBehaviourManager_NodeType = {}

@@ -5,4 +5,4 @@ ClearBraindanceStateRequest = {}
 
 ---@param fields? ClearBraindanceStateRequest
 ---@return ClearBraindanceStateRequest
-function ClearBraindanceStateRequest.new(fields) return end
+function ClearBraindanceStateRequest.new(fields) end

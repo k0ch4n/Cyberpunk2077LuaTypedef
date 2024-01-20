@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnCheckTriggerReturnConditionParams
----@field public inside Bool
----@field public triggerArea NodeRef
+---@field inside Bool
+---@field triggerArea NodeRef
 scnCheckTriggerReturnConditionParams = {}
 
 ---@param fields? scnCheckTriggerReturnConditionParams
 ---@return scnCheckTriggerReturnConditionParams
-function scnCheckTriggerReturnConditionParams.new(fields) return end
+function scnCheckTriggerReturnConditionParams.new(fields) end

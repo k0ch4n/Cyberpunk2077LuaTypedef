@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiDriverCombatCrosshairReticleData
----@field public state gameuiDriverCombatCrosshairReticleDataState
----@field public opacity Float
+---@field state gameuiDriverCombatCrosshairReticleDataState
+---@field opacity Float
 gameuiDriverCombatCrosshairReticleData = {}
 
 ---@param fields? gameuiDriverCombatCrosshairReticleData
 ---@return gameuiDriverCombatCrosshairReticleData
-function gameuiDriverCombatCrosshairReticleData.new(fields) return end
+function gameuiDriverCombatCrosshairReticleData.new(fields) end

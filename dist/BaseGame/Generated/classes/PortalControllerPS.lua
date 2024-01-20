@@ -5,4 +5,4 @@ PortalControllerPS = {}
 
 ---@param fields? PortalControllerPS
 ---@return PortalControllerPS
-function PortalControllerPS.new(fields) return end
+function PortalControllerPS.new(fields) end

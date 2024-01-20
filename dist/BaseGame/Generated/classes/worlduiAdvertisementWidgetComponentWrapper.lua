@@ -5,4 +5,4 @@ worlduiAdvertisementWidgetComponentWrapper = {}
 
 ---@param fields? worlduiAdvertisementWidgetComponentWrapper
 ---@return worlduiAdvertisementWidgetComponentWrapper
-function worlduiAdvertisementWidgetComponentWrapper.new(fields) return end
+function worlduiAdvertisementWidgetComponentWrapper.new(fields) end

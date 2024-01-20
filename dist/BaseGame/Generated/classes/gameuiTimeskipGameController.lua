@@ -1,198 +1,170 @@
 ---@meta
 
 ---@class gameuiTimeskipGameController: gameuiWidgetGameController
----@field private currentTimeLabel inkTextWidgetReference
----@field private tragetTimeLabel inkTextWidgetReference
----@field private diffTimeLabel inkTextWidgetReference
----@field private rootContainerRef inkWidgetReference
----@field private currentTimePointerRef inkWidgetReference
----@field private targetTimePointerRef inkWidgetReference
----@field private timeBarRef inkWidgetReference
----@field private circleGradientRef inkWidgetReference
----@field private startCircleGradientRef inkWidgetReference
----@field private mouseHitTestRef inkWidgetReference
----@field private dayIconRef inkWidgetReference
----@field private nightIconRef inkWidgetReference
----@field private morningIconRef inkWidgetReference
----@field private eveningIconRef inkWidgetReference
----@field private weatherIcon inkImageWidgetReference
----@field private intoAnimation CName
----@field private outroCancelAnimation CName
----@field private outroFinishedAnimation CName
----@field private progressAnimation CName
----@field private finishingAnimation CName
----@field private loopAnimationMarkerFrom CName
----@field private loopAnimationMarkerTo CName
----@field private mouseHoverOverAnimation CName
----@field private mouseHoverOutAnimation CName
----@field private outroAnimDuration Float
----@field private player gameObject
----@field private data TimeSkipPopupData
----@field private gameInstance ScriptGameInstance
----@field private timeSystem gameTimeSystem
----@field private currentTimeTextParams textTextParameterSet
----@field private targetTimeTextParams textTextParameterSet
----@field private diffTimeTextParams textTextParameterSet
----@field private animProxy inkanimProxy
----@field private progressAnimProxy inkanimProxy
----@field private hoverAnimProxy inkanimProxy
----@field private currentTime GameTime
----@field private hoursToSkip Int32
----@field private currentTimeAngle Float
----@field private targetTimeAngle Float
----@field private axisInputCache Vector2
----@field private inputEnabled Bool
----@field private radius Float
----@field private axisInputThreshold Float
----@field private animationDurationMin Float
----@field private animationDurationMax Float
----@field private diff Float
----@field private timeSkipped Bool
----@field private mouseInputEnabled Bool
----@field private scenarioEvt TimeSkipFinishEvent
----@field private hoveredOver Bool
+---@field currentTimeLabel inkTextWidgetReference
+---@field tragetTimeLabel inkTextWidgetReference
+---@field diffTimeLabel inkTextWidgetReference
+---@field rootContainerRef inkWidgetReference
+---@field currentTimePointerRef inkWidgetReference
+---@field targetTimePointerRef inkWidgetReference
+---@field timeBarRef inkWidgetReference
+---@field circleGradientRef inkWidgetReference
+---@field startCircleGradientRef inkWidgetReference
+---@field mouseHitTestRef inkWidgetReference
+---@field dayIconRef inkWidgetReference
+---@field nightIconRef inkWidgetReference
+---@field morningIconRef inkWidgetReference
+---@field eveningIconRef inkWidgetReference
+---@field weatherIcon inkImageWidgetReference
+---@field intoAnimation CName
+---@field outroCancelAnimation CName
+---@field outroFinishedAnimation CName
+---@field progressAnimation CName
+---@field finishingAnimation CName
+---@field loopAnimationMarkerFrom CName
+---@field loopAnimationMarkerTo CName
+---@field mouseHoverOverAnimation CName
+---@field mouseHoverOutAnimation CName
+---@field outroAnimDuration Float
+---@field player gameObject
+---@field data TimeSkipPopupData
+---@field gameInstance ScriptGameInstance
+---@field timeSystem gameTimeSystem
+---@field currentTimeTextParams textTextParameterSet
+---@field targetTimeTextParams textTextParameterSet
+---@field diffTimeTextParams textTextParameterSet
+---@field animProxy inkanimProxy
+---@field progressAnimProxy inkanimProxy
+---@field hoverAnimProxy inkanimProxy
+---@field currentTime GameTime
+---@field hoursToSkip Int32
+---@field currentTimeAngle Float
+---@field targetTimeAngle Float
+---@field axisInputCache Vector2
+---@field inputEnabled Bool
+---@field radius Float
+---@field axisInputThreshold Float
+---@field animationDurationMin Float
+---@field animationDurationMax Float
+---@field diff Float
+---@field timeSkipped Bool
+---@field mouseInputEnabled Bool
+---@field scenarioEvt TimeSkipFinishEvent
+---@field hoveredOver Bool
 gameuiTimeskipGameController = {}
 
 ---@param fields? gameuiTimeskipGameController
 ---@return gameuiTimeskipGameController
-function gameuiTimeskipGameController.new(fields) return end
+function gameuiTimeskipGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function gameuiTimeskipGameController:OnAction(action, consumer) return end
+function gameuiTimeskipGameController:OnAction(action, consumer) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiTimeskipGameController:OnCloseAfterCanceling(proxy) return end
+function gameuiTimeskipGameController:OnCloseAfterCanceling(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiTimeskipGameController:OnCloseAfterFinishing(proxy) return end
+function gameuiTimeskipGameController:OnCloseAfterFinishing(proxy) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiTimeskipGameController:OnGlobalAxisInput(e) return end
+function gameuiTimeskipGameController:OnGlobalAxisInput(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiTimeskipGameController:OnGlobalInput(e) return end
+function gameuiTimeskipGameController:OnGlobalInput(e) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiTimeskipGameController:OnHoverOut(evt) return end
+function gameuiTimeskipGameController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiTimeskipGameController:OnHoverOver(evt) return end
+function gameuiTimeskipGameController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function gameuiTimeskipGameController:OnInitialize() return end
+function gameuiTimeskipGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiTimeskipGameController:OnIntroFinished(proxy) return end
+function gameuiTimeskipGameController:OnIntroFinished(proxy) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiTimeskipGameController:OnMouseInput(e) return end
+function gameuiTimeskipGameController:OnMouseInput(e) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiTimeskipGameController:OnProgressAnimationFinished(proxy) return end
+function gameuiTimeskipGameController:OnProgressAnimationFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiTimeskipGameController:OnStartFinishingLoop(proxy) return end
+function gameuiTimeskipGameController:OnStartFinishingLoop(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiTimeskipGameController:OnStartProgressionLoop(proxy) return end
+function gameuiTimeskipGameController:OnStartProgressionLoop(proxy) end
 
----@protected
 ---@param e TimeSkipCursorInitFinishedEvent
 ---@return Bool
-function gameuiTimeskipGameController:OnTimeSkipCursorInitFinishedEvent(e) return end
+function gameuiTimeskipGameController:OnTimeSkipCursorInitFinishedEvent(e) end
 
----@protected
 ---@param e gameTimeSkipFinishedEvent
 ---@return Bool
-function gameuiTimeskipGameController:OnTimeSkipFinishedEvent(e) return end
+function gameuiTimeskipGameController:OnTimeSkipFinishedEvent(e) end
 
----@protected
 ---@return Bool
-function gameuiTimeskipGameController:OnUninitialize() return end
+function gameuiTimeskipGameController:OnUninitialize() end
 
----@protected
 ---@param timeDelta Float
 ---@return Bool
-function gameuiTimeskipGameController:OnUpdate(timeDelta) return end
+function gameuiTimeskipGameController:OnUpdate(timeDelta) end
 
----@private
 ---@return nil
-function gameuiTimeskipGameController:Apply() return end
+function gameuiTimeskipGameController:Apply() end
 
----@private
 ---@return nil
-function gameuiTimeskipGameController:Cancel() return end
+function gameuiTimeskipGameController:Cancel() end
 
----@private
 ---@return nil
-function gameuiTimeskipGameController:DisplayTimeCurrent() return end
+function gameuiTimeskipGameController:DisplayTimeCurrent() end
 
----@private
 ---@return CName
-function gameuiTimeskipGameController:GetWeatherIcon() return end
+function gameuiTimeskipGameController:GetWeatherIcon() end
 
----@private
 ---@param start Float
 ---@param end_ Float
 ---@param mid Float
 ---@return Bool
-function gameuiTimeskipGameController:IsBetween(start, end_, mid) return end
+function gameuiTimeskipGameController:IsBetween(start, end_, mid) end
 
----@private
 ---@param animationName CName|string
 ---@param playbackOptions? inkanimPlaybackOptions
 ---@return nil
-function gameuiTimeskipGameController:PlayAnimation(animationName, playbackOptions) return end
+function gameuiTimeskipGameController:PlayAnimation(animationName, playbackOptions) end
 
----@private
 ---@return nil
-function gameuiTimeskipGameController:PlayTictocAnimation() return end
+function gameuiTimeskipGameController:PlayTictocAnimation() end
 
----@private
 ---@param mousePos Vector2
 ---@return nil
-function gameuiTimeskipGameController:ProcessMouseInput(mousePos) return end
+function gameuiTimeskipGameController:ProcessMouseInput(mousePos) end
 
----@private
 ---@param textWidgetRef inkTextWidgetReference
 ---@param textParamsRef textTextParameterSet
 ---@param hours Int32
 ---@return nil
-function gameuiTimeskipGameController:SetTimeSkipText(textWidgetRef, textParamsRef, hours) return end
+function gameuiTimeskipGameController:SetTimeSkipText(textWidgetRef, textParamsRef, hours) end
 
----@private
 ---@param startAngle Float
 ---@param finishAngle Float
 ---@return nil
-function gameuiTimeskipGameController:UpdateIconStates(startAngle, finishAngle) return end
+function gameuiTimeskipGameController:UpdateIconStates(startAngle, finishAngle) end
 
----@private
 ---@param angle Float
 ---@return nil
-function gameuiTimeskipGameController:UpdateTargetTime(angle) return end
+function gameuiTimeskipGameController:UpdateTargetTime(angle) end

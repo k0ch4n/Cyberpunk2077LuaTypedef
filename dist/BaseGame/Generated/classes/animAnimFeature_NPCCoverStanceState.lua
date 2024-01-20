@@ -5,4 +5,4 @@ animAnimFeature_NPCCoverStanceState = {}
 
 ---@param fields? animAnimFeature_NPCCoverStanceState
 ---@return animAnimFeature_NPCCoverStanceState
-function animAnimFeature_NPCCoverStanceState.new(fields) return end
+function animAnimFeature_NPCCoverStanceState.new(fields) end

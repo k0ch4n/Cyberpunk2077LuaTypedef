@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimExecuteCodeEventEvent: inkanimEvent
----@field public eventToExecute redEvent
+---@field eventToExecute redEvent
 inkanimExecuteCodeEventEvent = {}
 
 ---@param fields? inkanimExecuteCodeEventEvent
 ---@return inkanimExecuteCodeEventEvent
-function inkanimExecuteCodeEventEvent.new(fields) return end
+function inkanimExecuteCodeEventEvent.new(fields) end

@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class OpenWorldMapNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
+---@field eventDispatcher worlduiIWidgetGameController
 OpenWorldMapNotificationAction = {}
 
 ---@param fields? OpenWorldMapNotificationAction
 ---@return OpenWorldMapNotificationAction
-function OpenWorldMapNotificationAction.new(fields) return end
+function OpenWorldMapNotificationAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function OpenWorldMapNotificationAction:Execute(data) return end
+function OpenWorldMapNotificationAction:Execute(data) end
 
 ---@return String
-function OpenWorldMapNotificationAction:GetLabel() return end
+function OpenWorldMapNotificationAction:GetLabel() end
 
----@private
 ---@return nil
-function OpenWorldMapNotificationAction:ShowWorldMap() return end
+function OpenWorldMapNotificationAction:ShowWorldMap() end

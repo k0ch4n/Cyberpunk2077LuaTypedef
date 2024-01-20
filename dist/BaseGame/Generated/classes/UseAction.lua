@@ -5,13 +5,13 @@ UseAction = {}
 
 ---@param fields? UseAction
 ---@return UseAction
-function UseAction.new(fields) return end
+function UseAction.new(fields) end
 
 ---@param target gameObject
 ---@param actionRecord? gamedataObjectAction_Record
 ---@param objectActionsCallbackController? gameObjectActionsCallbackController
 ---@return Bool
-function UseAction:IsPossible(target, actionRecord, objectActionsCallbackController) return end
+function UseAction:IsPossible(target, actionRecord, objectActionsCallbackController) end
 
 ---@return nil
-function UseAction:StartAction() return end
+function UseAction:StartAction() end

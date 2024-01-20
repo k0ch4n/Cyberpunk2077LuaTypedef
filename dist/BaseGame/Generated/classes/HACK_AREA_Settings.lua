@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class HACK_AREA_Settings: IAreaSettings
----@field public surfelScale Float
----@field public missingEnergyScale Float
----@field public overrideOnPureView Bool
----@field public surfAlbedoOverrideRatio Float
----@field public surfAlbedoOverride HDRColor
----@field public skyScale Float
----@field public bottomHemisphereTint curveData
----@field public bottomHemisphereStrength Float
----@field public emissiveScale Float
----@field public albedoMetalness Float
+---@field surfelScale Float
+---@field missingEnergyScale Float
+---@field overrideOnPureView Bool
+---@field surfAlbedoOverrideRatio Float
+---@field surfAlbedoOverride HDRColor
+---@field skyScale Float
+---@field bottomHemisphereTint curveData
+---@field bottomHemisphereStrength Float
+---@field emissiveScale Float
+---@field albedoMetalness Float
 HACK_AREA_Settings = {}
 
 ---@param fields? HACK_AREA_Settings
 ---@return HACK_AREA_Settings
-function HACK_AREA_Settings.new(fields) return end
+function HACK_AREA_Settings.new(fields) end

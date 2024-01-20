@@ -5,32 +5,32 @@ worldgeometryaverageNormalDetectionHelperQuery = {}
 
 ---@param fields? worldgeometryaverageNormalDetectionHelperQuery
 ---@return worldgeometryaverageNormalDetectionHelperQuery
-function worldgeometryaverageNormalDetectionHelperQuery.new(fields) return end
+function worldgeometryaverageNormalDetectionHelperQuery.new(fields) end
 
 ---@param filter physicsQueryFilter
 ---@return nil
-function worldgeometryaverageNormalDetectionHelperQuery:SetFilter(filter) return end
+function worldgeometryaverageNormalDetectionHelperQuery:SetFilter(filter) end
 
 ---@param ownerDirection Vector4
 ---@return nil
-function worldgeometryaverageNormalDetectionHelperQuery:SetOwnerDirection(ownerDirection) return end
+function worldgeometryaverageNormalDetectionHelperQuery:SetOwnerDirection(ownerDirection) end
 
 ---@param ownerPosition Vector4
 ---@return nil
-function worldgeometryaverageNormalDetectionHelperQuery:SetOwnerPosition(ownerPosition) return end
+function worldgeometryaverageNormalDetectionHelperQuery:SetOwnerPosition(ownerPosition) end
 
 ---@param queryDirection Vector4
 ---@return nil
-function worldgeometryaverageNormalDetectionHelperQuery:SetQueryDirection(queryDirection) return end
+function worldgeometryaverageNormalDetectionHelperQuery:SetQueryDirection(queryDirection) end
 
 ---@param distanceOffset Float
 ---@return nil
-function worldgeometryaverageNormalDetectionHelperQuery:SetQueryDistanceOffset(distanceOffset) return end
+function worldgeometryaverageNormalDetectionHelperQuery:SetQueryDistanceOffset(distanceOffset) end
 
 ---@param queryLength Float
 ---@return nil
-function worldgeometryaverageNormalDetectionHelperQuery:SetQueryLength(queryLength) return end
+function worldgeometryaverageNormalDetectionHelperQuery:SetQueryLength(queryLength) end
 
 ---@param radius Float
 ---@return nil
-function worldgeometryaverageNormalDetectionHelperQuery:SetRadius(radius) return end
+function worldgeometryaverageNormalDetectionHelperQuery:SetRadius(radius) end

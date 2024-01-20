@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameDestructibleObject: gameObject
----@field public recordID TweakDBID
+---@field recordID TweakDBID
 gameDestructibleObject = {}
 
 ---@param fields? gameDestructibleObject
 ---@return gameDestructibleObject
-function gameDestructibleObject.new(fields) return end
+function gameDestructibleObject.new(fields) end

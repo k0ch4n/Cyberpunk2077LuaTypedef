@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ElevatorFloorSetup
----@field public isHidden Bool
----@field public isInactive Bool
----@field public floorMarker NodeRef
----@field public floorName String
----@field public floorDisplayName CName
----@field public authorizationTextOverride String
----@field public doorShouldOpenFrontLeftRight Bool[]
+---@field isHidden Bool
+---@field isInactive Bool
+---@field floorMarker NodeRef
+---@field floorName String
+---@field floorDisplayName CName
+---@field authorizationTextOverride String
+---@field doorShouldOpenFrontLeftRight Bool[]
 ElevatorFloorSetup = {}
 
 ---@param fields? ElevatorFloorSetup
 ---@return ElevatorFloorSetup
-function ElevatorFloorSetup.new(fields) return end
+function ElevatorFloorSetup.new(fields) end
 
 ---@param self ElevatorFloorSetup
 ---@return String
-function ElevatorFloorSetup.GetFloorName(self) return end
+function ElevatorFloorSetup.GetFloorName(self) end

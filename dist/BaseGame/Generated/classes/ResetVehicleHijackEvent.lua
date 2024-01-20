@@ -5,4 +5,4 @@ ResetVehicleHijackEvent = {}
 
 ---@param fields? ResetVehicleHijackEvent
 ---@return ResetVehicleHijackEvent
-function ResetVehicleHijackEvent.new(fields) return end
+function ResetVehicleHijackEvent.new(fields) end

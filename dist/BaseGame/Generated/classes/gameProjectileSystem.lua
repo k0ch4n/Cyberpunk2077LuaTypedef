@@ -5,7 +5,7 @@ gameProjectileSystem = {}
 
 ---@param fields? gameProjectileSystem
 ---@return gameProjectileSystem
-function gameProjectileSystem.new(fields) return end
+function gameProjectileSystem.new(fields) end
 
 ---@return gameprojectileComponent[]
-function gameProjectileSystem:GetRegisteredComponents() return end
+function gameProjectileSystem:GetRegisteredComponents() end

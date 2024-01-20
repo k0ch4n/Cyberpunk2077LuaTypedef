@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class BackpackCraftingMaterialItemCallbackData: IScriptable
----@field public craftingMaterial CachedCraftingMaterial
+---@field craftingMaterial CachedCraftingMaterial
 BackpackCraftingMaterialItemCallbackData = {}
 
 ---@param fields? BackpackCraftingMaterialItemCallbackData
 ---@return BackpackCraftingMaterialItemCallbackData
-function BackpackCraftingMaterialItemCallbackData.new(fields) return end
+function BackpackCraftingMaterialItemCallbackData.new(fields) end

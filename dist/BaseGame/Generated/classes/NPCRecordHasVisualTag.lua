@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class NPCRecordHasVisualTag: gameIScriptablePrereq
----@field public visualTag CName
----@field public hasTag Bool
+---@field visualTag CName
+---@field hasTag Bool
 NPCRecordHasVisualTag = {}
 
 ---@param fields? NPCRecordHasVisualTag
 ---@return NPCRecordHasVisualTag
-function NPCRecordHasVisualTag.new(fields) return end
+function NPCRecordHasVisualTag.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCRecordHasVisualTag:Initialize(recordID) return end
+function NPCRecordHasVisualTag:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCRecordHasVisualTag:IsFulfilled(context) return end
+function NPCRecordHasVisualTag:IsFulfilled(context) end
 
----@protected
 ---@return Bool
-function NPCRecordHasVisualTag:IsOnRegisterSupported() return end
+function NPCRecordHasVisualTag:IsOnRegisterSupported() end

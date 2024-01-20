@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioFoleyPlayerAppearanceMappingMetadata: audioAudioMetadata
----@field public fallbackMetadata CName
----@field public jacketSettings audioAppearanceToPlayerMetadata[]
----@field public topSettings audioAppearanceToPlayerMetadata[]
----@field public bottomSettings audioAppearanceToPlayerMetadata[]
----@field public jewelrySettings audioAppearanceToPlayerMetadata[]
+---@field fallbackMetadata CName
+---@field jacketSettings audioAppearanceToPlayerMetadata[]
+---@field topSettings audioAppearanceToPlayerMetadata[]
+---@field bottomSettings audioAppearanceToPlayerMetadata[]
+---@field jewelrySettings audioAppearanceToPlayerMetadata[]
 audioFoleyPlayerAppearanceMappingMetadata = {}
 
 ---@param fields? audioFoleyPlayerAppearanceMappingMetadata
 ---@return audioFoleyPlayerAppearanceMappingMetadata
-function audioFoleyPlayerAppearanceMappingMetadata.new(fields) return end
+function audioFoleyPlayerAppearanceMappingMetadata.new(fields) end

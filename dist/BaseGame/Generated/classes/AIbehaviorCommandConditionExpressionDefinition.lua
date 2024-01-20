@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorCommandConditionExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public commandName CName
----@field public useInheritance Bool
----@field public isEnqueued Bool
----@field public isExecuting Bool
+---@field commandName CName
+---@field useInheritance Bool
+---@field isEnqueued Bool
+---@field isExecuting Bool
 AIbehaviorCommandConditionExpressionDefinition = {}
 
 ---@param fields? AIbehaviorCommandConditionExpressionDefinition
 ---@return AIbehaviorCommandConditionExpressionDefinition
-function AIbehaviorCommandConditionExpressionDefinition.new(fields) return end
+function AIbehaviorCommandConditionExpressionDefinition.new(fields) end

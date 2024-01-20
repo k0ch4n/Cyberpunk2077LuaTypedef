@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DelayedStatusEffectApplicationEvent: redEvent
----@field public statusEffectEvent gameeventsApplyStatusEffectEvent
+---@field statusEffectEvent gameeventsApplyStatusEffectEvent
 DelayedStatusEffectApplicationEvent = {}
 
 ---@param fields? DelayedStatusEffectApplicationEvent
 ---@return DelayedStatusEffectApplicationEvent
-function DelayedStatusEffectApplicationEvent.new(fields) return end
+function DelayedStatusEffectApplicationEvent.new(fields) end

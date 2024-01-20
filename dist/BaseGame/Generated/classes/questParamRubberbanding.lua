@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questParamRubberbanding: ISerializable
----@field public targetRef questUniversalRef
----@field public minDistance Float
----@field public maxDistance Float
----@field public stopAndWait Bool
----@field public teleportToCatchUp Bool
----@field public stayInFront Bool
+---@field targetRef questUniversalRef
+---@field minDistance Float
+---@field maxDistance Float
+---@field stopAndWait Bool
+---@field teleportToCatchUp Bool
+---@field stayInFront Bool
 questParamRubberbanding = {}
 
 ---@param fields? questParamRubberbanding
 ---@return questParamRubberbanding
-function questParamRubberbanding.new(fields) return end
+function questParamRubberbanding.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameeventsRevealObjectEvent: redEvent
----@field public reveal Bool
----@field public reason gameVisionModeSystemRevealIdentifier
----@field public lifetime Float
+---@field reveal Bool
+---@field reason gameVisionModeSystemRevealIdentifier
+---@field lifetime Float
 gameeventsRevealObjectEvent = {}
 
 ---@param fields? gameeventsRevealObjectEvent
 ---@return gameeventsRevealObjectEvent
-function gameeventsRevealObjectEvent.new(fields) return end
+function gameeventsRevealObjectEvent.new(fields) end

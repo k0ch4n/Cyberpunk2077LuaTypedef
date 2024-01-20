@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamedataVariableNodeVariableValue
----@field public node gamedataValueNode
----@field public deriveInfo gamedataVariableNodeVariableValueDeriveInfo
+---@field node gamedataValueNode
+---@field deriveInfo gamedataVariableNodeVariableValueDeriveInfo
 gamedataVariableNodeVariableValue = {}
 
 ---@param fields? gamedataVariableNodeVariableValue
 ---@return gamedataVariableNodeVariableValue
-function gamedataVariableNodeVariableValue.new(fields) return end
+function gamedataVariableNodeVariableValue.new(fields) end

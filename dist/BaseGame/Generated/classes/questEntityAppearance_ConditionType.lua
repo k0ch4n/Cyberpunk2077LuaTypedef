@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questEntityAppearance_ConditionType: questIEntityConditionType
----@field public entityRef gameEntityReference
----@field public appearance CName
+---@field entityRef gameEntityReference
+---@field appearance CName
 questEntityAppearance_ConditionType = {}
 
 ---@param fields? questEntityAppearance_ConditionType
 ---@return questEntityAppearance_ConditionType
-function questEntityAppearance_ConditionType.new(fields) return end
+function questEntityAppearance_ConditionType.new(fields) end

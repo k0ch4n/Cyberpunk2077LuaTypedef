@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workAnimClipWithItem: workAnimClip
----@field public itemActions workIWorkspotItemAction[]
+---@field itemActions workIWorkspotItemAction[]
 workAnimClipWithItem = {}
 
 ---@param fields? workAnimClipWithItem
 ---@return workAnimClipWithItem
-function workAnimClipWithItem.new(fields) return end
+function workAnimClipWithItem.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiCreditsPositionController: inkWidgetLogicController
----@field public titleText inkTextWidgetReference
----@field public namesText inkTextWidgetReference
+---@field titleText inkTextWidgetReference
+---@field namesText inkTextWidgetReference
 gameuiCreditsPositionController = {}
 
 ---@param fields? gameuiCreditsPositionController
 ---@return gameuiCreditsPositionController
-function gameuiCreditsPositionController.new(fields) return end
+function gameuiCreditsPositionController.new(fields) end

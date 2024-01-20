@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class physicsclothExportedCapsule
----@field public p0 Vector3
----@field public p1 Vector3
----@field public r0 Float
----@field public r1 Float
----@field public boneName CName
+---@field p0 Vector3
+---@field p1 Vector3
+---@field r0 Float
+---@field r1 Float
+---@field boneName CName
 physicsclothExportedCapsule = {}
 
 ---@param fields? physicsclothExportedCapsule
 ---@return physicsclothExportedCapsule
-function physicsclothExportedCapsule.new(fields) return end
+function physicsclothExportedCapsule.new(fields) end

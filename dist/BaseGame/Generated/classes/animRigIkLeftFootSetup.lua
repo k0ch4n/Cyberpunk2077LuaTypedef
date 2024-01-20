@@ -5,4 +5,4 @@ animRigIkLeftFootSetup = {}
 
 ---@param fields? animRigIkLeftFootSetup
 ---@return animRigIkLeftFootSetup
-function animRigIkLeftFootSetup.new(fields) return end
+function animRigIkLeftFootSetup.new(fields) end

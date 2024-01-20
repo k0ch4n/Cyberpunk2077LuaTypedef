@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AnimFeature_Carry: animAnimFeature
----@field public state Int32
----@field public pickupAnimation Int32
----@field public useBothHands Bool
----@field public instant Bool
----@field public fastMode Bool
----@field public isCarryActive Bool
----@field public isFriendlyCarry Bool
----@field public wasThrown Bool
+---@field state Int32
+---@field pickupAnimation Int32
+---@field useBothHands Bool
+---@field instant Bool
+---@field fastMode Bool
+---@field isCarryActive Bool
+---@field isFriendlyCarry Bool
+---@field wasThrown Bool
 AnimFeature_Carry = {}
 
 ---@param fields? AnimFeature_Carry
 ---@return AnimFeature_Carry
-function AnimFeature_Carry.new(fields) return end
+function AnimFeature_Carry.new(fields) end

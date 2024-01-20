@@ -5,4 +5,4 @@ worldAudioTagNodeInstance = {}
 
 ---@param fields? worldAudioTagNodeInstance
 ---@return worldAudioTagNodeInstance
-function worldAudioTagNodeInstance.new(fields) return end
+function worldAudioTagNodeInstance.new(fields) end

@@ -1,38 +1,38 @@
 ---@meta
 
 ---@class animAnimFeature_Cover: animAnimFeature
----@field public coverPosition Vector4
----@field public coverDirection Vector4
----@field public coverState Int32
----@field public coverAngleToAction Float
----@field public stance Int32
----@field public behavior Int32
----@field public coverAction Int32
----@field public behaviorTime_PreAction Float
----@field public behaviorTime_Action Float
----@field public behaviorTime_PostAction Float
+---@field coverPosition Vector4
+---@field coverDirection Vector4
+---@field coverState Int32
+---@field coverAngleToAction Float
+---@field stance Int32
+---@field behavior Int32
+---@field coverAction Int32
+---@field behaviorTime_PreAction Float
+---@field behaviorTime_Action Float
+---@field behaviorTime_PostAction Float
 animAnimFeature_Cover = {}
 
 ---@param fields? animAnimFeature_Cover
 ---@return animAnimFeature_Cover
-function animAnimFeature_Cover.new(fields) return end
+function animAnimFeature_Cover.new(fields) end
 
 ---@param coverAction animCoverAction
 ---@return nil
-function animAnimFeature_Cover:SetCoverAction(coverAction) return end
+function animAnimFeature_Cover:SetCoverAction(coverAction) end
 
 ---@param angleToAction Float
 ---@return nil
-function animAnimFeature_Cover:SetCoverAngleToAction(angleToAction) return end
+function animAnimFeature_Cover:SetCoverAngleToAction(angleToAction) end
 
 ---@param direction Vector4
 ---@return nil
-function animAnimFeature_Cover:SetCoverDirection(direction) return end
+function animAnimFeature_Cover:SetCoverDirection(direction) end
 
 ---@param position Vector4
 ---@return nil
-function animAnimFeature_Cover:SetCoverPosition(position) return end
+function animAnimFeature_Cover:SetCoverPosition(position) end
 
 ---@param coverState animCoverState
 ---@return nil
-function animAnimFeature_Cover:SetCoverState(coverState) return end
+function animAnimFeature_Cover:SetCoverState(coverState) end

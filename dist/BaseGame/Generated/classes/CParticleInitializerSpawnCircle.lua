@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CParticleInitializerSpawnCircle: IParticleInitializer
----@field public innerRadius IEvaluatorFloat
----@field public outerRadius IEvaluatorFloat
----@field public surfaceOnly Bool
----@field public worldSpace Bool
----@field public spawnToLocal Matrix
+---@field innerRadius IEvaluatorFloat
+---@field outerRadius IEvaluatorFloat
+---@field surfaceOnly Bool
+---@field worldSpace Bool
+---@field spawnToLocal Matrix
 CParticleInitializerSpawnCircle = {}
 
 ---@param fields? CParticleInitializerSpawnCircle
 ---@return CParticleInitializerSpawnCircle
-function CParticleInitializerSpawnCircle.new(fields) return end
+function CParticleInitializerSpawnCircle.new(fields) end

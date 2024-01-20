@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class IterateModulesRequest: gameScriptableSystemRequest
----@field public remainingJobs HUDJob[]
+---@field remainingJobs HUDJob[]
 IterateModulesRequest = {}
 
 ---@param fields? IterateModulesRequest
 ---@return IterateModulesRequest
-function IterateModulesRequest.new(fields) return end
+function IterateModulesRequest.new(fields) end

@@ -5,4 +5,4 @@ questNewPlayerPuppetAttached_ConditionType = {}
 
 ---@param fields? questNewPlayerPuppetAttached_ConditionType
 ---@return questNewPlayerPuppetAttached_ConditionType
-function questNewPlayerPuppetAttached_ConditionType.new(fields) return end
+function questNewPlayerPuppetAttached_ConditionType.new(fields) end

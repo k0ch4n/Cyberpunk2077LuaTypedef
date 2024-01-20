@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class senseVisibleObjectTypeEvent: redEvent
----@field public type gamedataSenseObjectType
+---@field type gamedataSenseObjectType
 senseVisibleObjectTypeEvent = {}
 
 ---@param fields? senseVisibleObjectTypeEvent
 ---@return senseVisibleObjectTypeEvent
-function senseVisibleObjectTypeEvent.new(fields) return end
+function senseVisibleObjectTypeEvent.new(fields) end

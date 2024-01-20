@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class physicsCollisionPresetDefinition: ISerializable
----@field public Name CName
----@field public Description String
----@field public ForceEnableCollisionCallbacks Bool
----@field public CollisionType CName[]
----@field public CollisionMask CName[]
----@field public QueryDetect CName[]
+---@field Name CName
+---@field Description String
+---@field ForceEnableCollisionCallbacks Bool
+---@field CollisionType CName[]
+---@field CollisionMask CName[]
+---@field QueryDetect CName[]
 physicsCollisionPresetDefinition = {}
 
 ---@param fields? physicsCollisionPresetDefinition
 ---@return physicsCollisionPresetDefinition
-function physicsCollisionPresetDefinition.new(fields) return end
+function physicsCollisionPresetDefinition.new(fields) end

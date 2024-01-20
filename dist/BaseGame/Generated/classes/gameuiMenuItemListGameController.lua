@@ -1,72 +1,61 @@
 ---@meta
 
 ---@class gameuiMenuItemListGameController: gameuiSaveHandlingController
----@field protected menuList inkCompoundWidgetReference
----@field protected menuEventDispatcher inkMenuEventDispatcher
----@field protected menuListController inkListController
+---@field menuList inkCompoundWidgetReference
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field menuListController inkListController
 gameuiMenuItemListGameController = {}
 
 ---@param fields? gameuiMenuItemListGameController
 ---@return gameuiMenuItemListGameController
-function gameuiMenuItemListGameController.new(fields) return end
+function gameuiMenuItemListGameController.new(fields) end
 
 ---@return Bool
-function gameuiMenuItemListGameController:CanExitGame() return end
+function gameuiMenuItemListGameController:CanExitGame() end
 
 ---@return nil
-function gameuiMenuItemListGameController:ExitGame() return end
+function gameuiMenuItemListGameController:ExitGame() end
 
 ---@return nil
-function gameuiMenuItemListGameController:GotoMainMenu() return end
+function gameuiMenuItemListGameController:GotoMainMenu() end
 
----@protected
 ---@return Bool
-function gameuiMenuItemListGameController:OnInitialize() return end
+function gameuiMenuItemListGameController:OnInitialize() end
 
----@protected
 ---@param index Int32
 ---@param target inkListItemController
 ---@return Bool
-function gameuiMenuItemListGameController:OnMenuItemActivated(index, target) return end
+function gameuiMenuItemListGameController:OnMenuItemActivated(index, target) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function gameuiMenuItemListGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function gameuiMenuItemListGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function gameuiMenuItemListGameController:OnUninitialize() return end
+function gameuiMenuItemListGameController:OnUninitialize() end
 
----@protected
 ---@param label String
 ---@param spawnEvent CName|string
 ---@return nil
-function gameuiMenuItemListGameController:AddMenuItem(label, spawnEvent) return end
+function gameuiMenuItemListGameController:AddMenuItem(label, spawnEvent) end
 
----@protected
 ---@param label String
 ---@param action PauseMenuAction
 ---@return nil
-function gameuiMenuItemListGameController:AddMenuItem(label, action) return end
+function gameuiMenuItemListGameController:AddMenuItem(label, action) end
 
----@protected
 ---@return nil
-function gameuiMenuItemListGameController:Clear() return end
+function gameuiMenuItemListGameController:Clear() end
 
----@protected
 ---@param data PauseMenuListItemData
 ---@return Bool
-function gameuiMenuItemListGameController:HandleMenuItemActivate(data) return end
+function gameuiMenuItemListGameController:HandleMenuItemActivate(data) end
 
----@private
 ---@return nil
-function gameuiMenuItemListGameController:PopulateMenuItemList() return end
+function gameuiMenuItemListGameController:PopulateMenuItemList() end
 
----@private
 ---@return Bool
-function gameuiMenuItemListGameController:ShouldAllowExitGameMenuItem() return end
+function gameuiMenuItemListGameController:ShouldAllowExitGameMenuItem() end
 
----@protected
 ---@return nil
-function gameuiMenuItemListGameController:ShowActionsList() return end
+function gameuiMenuItemListGameController:ShowActionsList() end

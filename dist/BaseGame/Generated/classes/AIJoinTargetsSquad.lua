@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIJoinTargetsSquad: AICommand
----@field public targetPuppetRef gameEntityReference
+---@field targetPuppetRef gameEntityReference
 AIJoinTargetsSquad = {}
 
 ---@param fields? AIJoinTargetsSquad
 ---@return AIJoinTargetsSquad
-function AIJoinTargetsSquad.new(fields) return end
+function AIJoinTargetsSquad.new(fields) end

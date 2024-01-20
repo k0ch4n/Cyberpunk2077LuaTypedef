@@ -5,4 +5,4 @@ SpawnSubCharacterRequest = {}
 
 ---@param fields? SpawnSubCharacterRequest
 ---@return SpawnSubCharacterRequest
-function SpawnSubCharacterRequest.new(fields) return end
+function SpawnSubCharacterRequest.new(fields) end

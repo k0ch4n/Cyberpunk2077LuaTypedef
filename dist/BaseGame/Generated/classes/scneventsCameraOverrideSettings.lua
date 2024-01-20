@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scneventsCameraOverrideSettings
----@field public overrideFov Bool
----@field public overrideDof Bool
----@field public resetFov Bool
----@field public resetDof Bool
+---@field overrideFov Bool
+---@field overrideDof Bool
+---@field resetFov Bool
+---@field resetDof Bool
 scneventsCameraOverrideSettings = {}
 
 ---@param fields? scneventsCameraOverrideSettings
 ---@return scneventsCameraOverrideSettings
-function scneventsCameraOverrideSettings.new(fields) return end
+function scneventsCameraOverrideSettings.new(fields) end

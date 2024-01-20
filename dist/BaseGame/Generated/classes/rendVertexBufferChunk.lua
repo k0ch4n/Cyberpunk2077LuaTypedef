@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendVertexBufferChunk
----@field public vertexLayout GpuWrapApiVertexLayoutDesc
----@field public byteOffsets Uint32
+---@field vertexLayout GpuWrapApiVertexLayoutDesc
+---@field byteOffsets Uint32
 rendVertexBufferChunk = {}
 
 ---@param fields? rendVertexBufferChunk
 ---@return rendVertexBufferChunk
-function rendVertexBufferChunk.new(fields) return end
+function rendVertexBufferChunk.new(fields) end

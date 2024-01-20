@@ -5,4 +5,4 @@ AIRunAwayEvent = {}
 
 ---@param fields? AIRunAwayEvent
 ---@return AIRunAwayEvent
-function AIRunAwayEvent.new(fields) return end
+function AIRunAwayEvent.new(fields) end

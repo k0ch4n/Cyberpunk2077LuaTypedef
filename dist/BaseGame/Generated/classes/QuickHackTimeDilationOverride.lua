@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuickHackTimeDilationOverride: redEvent
----@field public overrideDilationToTutorialPreset Bool
+---@field overrideDilationToTutorialPreset Bool
 QuickHackTimeDilationOverride = {}
 
 ---@param fields? QuickHackTimeDilationOverride
 ---@return QuickHackTimeDilationOverride
-function QuickHackTimeDilationOverride.new(fields) return end
+function QuickHackTimeDilationOverride.new(fields) end
 
 ---@return String
-function QuickHackTimeDilationOverride:GetFriendlyDescription() return end
+function QuickHackTimeDilationOverride:GetFriendlyDescription() end

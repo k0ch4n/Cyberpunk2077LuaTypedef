@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioAmbientAreaContextActivatedASTCD: audioAudioStateTransitionConditionData
----@field public areaMixingContext CName
+---@field areaMixingContext CName
 audioAmbientAreaContextActivatedASTCD = {}
 
 ---@param fields? audioAmbientAreaContextActivatedASTCD
 ---@return audioAmbientAreaContextActivatedASTCD
-function audioAmbientAreaContextActivatedASTCD.new(fields) return end
+function audioAmbientAreaContextActivatedASTCD.new(fields) end

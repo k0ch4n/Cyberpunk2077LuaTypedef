@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorSlotOccupiedConditionDefinition: AIbehaviorConditionDefinition
----@field public slot AIArgumentMapping
+---@field slot AIArgumentMapping
 AIbehaviorSlotOccupiedConditionDefinition = {}
 
 ---@param fields? AIbehaviorSlotOccupiedConditionDefinition
 ---@return AIbehaviorSlotOccupiedConditionDefinition
-function AIbehaviorSlotOccupiedConditionDefinition.new(fields) return end
+function AIbehaviorSlotOccupiedConditionDefinition.new(fields) end

@@ -1,89 +1,74 @@
 ---@meta
 
 ---@class HotkeyConsumableWidgetController: gameuiNewPhoneRelatedHUDGameController
----@field private radioSlot inkCompoundWidgetReference
----@field private container inkCompoundWidgetReference
----@field private DpadHintLibraryPath inkWidgetLibraryReference
----@field private IsInDriverCombat Bool
----@field private IsPoliceVehicle Bool
----@field private isRadioBlocked Bool
----@field private isInVehicleScene Bool
----@field private isQuestBlocked Bool
----@field private carHudListenerId Uint32
----@field private statusListener HotkeyRadioStatusListener
----@field private PlayerEnteredVehicleListener redCallbackObject
+---@field radioSlot inkCompoundWidgetReference
+---@field container inkCompoundWidgetReference
+---@field DpadHintLibraryPath inkWidgetLibraryReference
+---@field IsInDriverCombat Bool
+---@field IsPoliceVehicle Bool
+---@field isRadioBlocked Bool
+---@field isInVehicleScene Bool
+---@field isQuestBlocked Bool
+---@field carHudListenerId Uint32
+---@field statusListener HotkeyRadioStatusListener
+---@field PlayerEnteredVehicleListener redCallbackObject
 HotkeyConsumableWidgetController = {}
 
 ---@param fields? HotkeyConsumableWidgetController
 ---@return HotkeyConsumableWidgetController
-function HotkeyConsumableWidgetController.new(fields) return end
+function HotkeyConsumableWidgetController.new(fields) end
 
----@protected
 ---@return Bool
-function HotkeyConsumableWidgetController:OnInitialize() return end
+function HotkeyConsumableWidgetController:OnInitialize() end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function HotkeyConsumableWidgetController:OnPlayerAttach(player) return end
+function HotkeyConsumableWidgetController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function HotkeyConsumableWidgetController:OnPlayerDetach(player) return end
+function HotkeyConsumableWidgetController:OnPlayerDetach(player) end
 
----@protected
 ---@param val Int32
 ---@return Bool
-function HotkeyConsumableWidgetController:OnPlayerEnteredVehicle(val) return end
+function HotkeyConsumableWidgetController:OnPlayerEnteredVehicle(val) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function HotkeyConsumableWidgetController:OnUnlockCarHud(value) return end
+function HotkeyConsumableWidgetController:OnUnlockCarHud(value) end
 
----@private
 ---@return Bool
-function HotkeyConsumableWidgetController:IsRadioEnabled() return end
-
----@private
----@return nil
-function HotkeyConsumableWidgetController:RefreshInPoliceVehicle() return end
+function HotkeyConsumableWidgetController:IsRadioEnabled() end
 
 ---@return nil
-function HotkeyConsumableWidgetController:RefreshStatusEffect() return end
+function HotkeyConsumableWidgetController:RefreshInPoliceVehicle() end
 
 ---@return nil
-function HotkeyConsumableWidgetController:RefreshUnlockCarHud() return end
+function HotkeyConsumableWidgetController:RefreshStatusEffect() end
 
----@private
 ---@return nil
-function HotkeyConsumableWidgetController:RegisterBlackboardListeners() return end
+function HotkeyConsumableWidgetController:RefreshUnlockCarHud() end
 
----@private
 ---@return nil
-function HotkeyConsumableWidgetController:RegisterCarHudListener() return end
+function HotkeyConsumableWidgetController:RegisterBlackboardListeners() end
 
----@private
 ---@return nil
-function HotkeyConsumableWidgetController:RegisterStatusEffectListeners() return end
+function HotkeyConsumableWidgetController:RegisterCarHudListener() end
 
----@protected
 ---@return nil
-function HotkeyConsumableWidgetController:ResolveRadioState() return end
+function HotkeyConsumableWidgetController:RegisterStatusEffectListeners() end
 
----@private
 ---@return nil
-function HotkeyConsumableWidgetController:UnregisterBlackboardListeners() return end
+function HotkeyConsumableWidgetController:ResolveRadioState() end
 
----@private
 ---@return nil
-function HotkeyConsumableWidgetController:UnregisterCarHudListener() return end
+function HotkeyConsumableWidgetController:UnregisterBlackboardListeners() end
 
----@private
 ---@return nil
-function HotkeyConsumableWidgetController:UpdateBlackboard() return end
+function HotkeyConsumableWidgetController:UnregisterCarHudListener() end
 
----@private
 ---@return nil
-function HotkeyConsumableWidgetController:UpdateRadioVisibility() return end
+function HotkeyConsumableWidgetController:UpdateBlackboard() end
+
+---@return nil
+function HotkeyConsumableWidgetController:UpdateRadioVisibility() end

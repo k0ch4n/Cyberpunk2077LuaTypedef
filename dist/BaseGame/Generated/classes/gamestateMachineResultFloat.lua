@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineResultFloat
----@field public value Float
----@field public valid Bool
+---@field value Float
+---@field valid Bool
 gamestateMachineResultFloat = {}
 
 ---@param fields? gamestateMachineResultFloat
 ---@return gamestateMachineResultFloat
-function gamestateMachineResultFloat.new(fields) return end
+function gamestateMachineResultFloat.new(fields) end

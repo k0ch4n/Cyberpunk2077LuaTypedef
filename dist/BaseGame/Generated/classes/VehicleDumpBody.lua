@@ -5,7 +5,7 @@ VehicleDumpBody = {}
 
 ---@param fields? VehicleDumpBody
 ---@return VehicleDumpBody
-function VehicleDumpBody.new(fields) return end
+function VehicleDumpBody.new(fields) end
 
 ---@return nil
-function VehicleDumpBody:SetProperties() return end
+function VehicleDumpBody:SetProperties() end

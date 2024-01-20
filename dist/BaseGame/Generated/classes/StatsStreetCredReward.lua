@@ -1,45 +1,41 @@
 ---@meta
 
 ---@class StatsStreetCredReward: inkWidgetLogicController
----@field private prevRewardsList inkCompoundWidgetReference
----@field private currentRewardsList inkCompoundWidgetReference
----@field private nextRewardsList inkCompoundWidgetReference
----@field private scrollSlider inkCompoundWidgetReference
----@field private scrollButtonHint inkCompoundWidgetReference
----@field private rewardSize Int32
----@field private tooltipIndex Int32
----@field private tooltipsManager gameuiTooltipsManager
+---@field prevRewardsList inkCompoundWidgetReference
+---@field currentRewardsList inkCompoundWidgetReference
+---@field nextRewardsList inkCompoundWidgetReference
+---@field scrollSlider inkCompoundWidgetReference
+---@field scrollButtonHint inkCompoundWidgetReference
+---@field rewardSize Int32
+---@field tooltipIndex Int32
+---@field tooltipsManager gameuiTooltipsManager
 StatsStreetCredReward = {}
 
 ---@param fields? StatsStreetCredReward
 ---@return StatsStreetCredReward
-function StatsStreetCredReward.new(fields) return end
+function StatsStreetCredReward.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function StatsStreetCredReward:OnHoverOut(evt) return end
+function StatsStreetCredReward:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function StatsStreetCredReward:OnHoverOver(evt) return end
+function StatsStreetCredReward:OnHoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function StatsStreetCredReward:OnRewardsHoverOut(evt) return end
+function StatsStreetCredReward:OnRewardsHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function StatsStreetCredReward:OnRewardsHoverOver(evt) return end
+function StatsStreetCredReward:OnRewardsHoverOver(evt) end
 
 ---@param proficiencyData ProficiencyDisplayData
 ---@param tooltipsManager gameuiTooltipsManager
 ---@param tooltipIndex Int32
 ---@return nil
-function StatsStreetCredReward:SetData(proficiencyData, tooltipsManager, tooltipIndex) return end
+function StatsStreetCredReward:SetData(proficiencyData, tooltipsManager, tooltipIndex) end
 
 ---@param rewardData LevelRewardDisplayData[]
 ---@param tooltipsManager gameuiTooltipsManager
@@ -47,4 +43,4 @@ function StatsStreetCredReward:SetData(proficiencyData, tooltipsManager, tooltip
 ---@param tooltipIndex Int32
 ---@param attributeName String
 ---@return nil
-function StatsStreetCredReward:SetData(rewardData, tooltipsManager, currentLevel, tooltipIndex, attributeName) return end
+function StatsStreetCredReward:SetData(rewardData, tooltipsManager, currentLevel, tooltipIndex, attributeName) end

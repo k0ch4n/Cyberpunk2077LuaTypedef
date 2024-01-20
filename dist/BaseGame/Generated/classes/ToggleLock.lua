@@ -1,40 +1,40 @@
 ---@meta
 
 ---@class ToggleLock: ActionBool
----@field protected shouldOpen Bool
+---@field shouldOpen Bool
 ToggleLock = {}
 
 ---@param fields? ToggleLock
 ---@return ToggleLock
-function ToggleLock.new(fields) return end
+function ToggleLock.new(fields) end
 
 ---@param device DoorControllerPS
 ---@param requestType gamedeviceRequestType
 ---@return Bool
-function ToggleLock.IsAvailable(device, requestType) return end
+function ToggleLock.IsAvailable(device, requestType) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ToggleLock.IsClearanceValid(clearance) return end
+function ToggleLock.IsClearanceValid(clearance) end
 
 ---@param device DoorControllerPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleLock.IsDefaultConditionMet(device, context) return end
+function ToggleLock.IsDefaultConditionMet(device, context) end
 
 ---@return TweakDBID
-function ToggleLock:GetInkWidgetTweakDBID() return end
+function ToggleLock:GetInkWidgetTweakDBID() end
 
 ---@return String
-function ToggleLock:GetTweakDBChoiceRecord() return end
+function ToggleLock:GetTweakDBChoiceRecord() end
 
 ---@param isLocked Bool
 ---@return nil
-function ToggleLock:SetProperties(isLocked) return end
+function ToggleLock:SetProperties(isLocked) end
 
 ---@param shouldOpen Bool
 ---@return nil
-function ToggleLock:SetShouldOpen(shouldOpen) return end
+function ToggleLock:SetShouldOpen(shouldOpen) end
 
 ---@return Bool
-function ToggleLock:ShouldOpen() return end
+function ToggleLock:ShouldOpen() end

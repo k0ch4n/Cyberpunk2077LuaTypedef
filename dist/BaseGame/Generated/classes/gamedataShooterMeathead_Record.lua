@@ -5,49 +5,49 @@ gamedataShooterMeathead_Record = {}
 
 ---@param fields? gamedataShooterMeathead_Record
 ---@return gamedataShooterMeathead_Record
-function gamedataShooterMeathead_Record.new(fields) return end
+function gamedataShooterMeathead_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterMeathead_Record:BarrelCoolDown() return end
+function gamedataShooterMeathead_Record:BarrelCoolDown() end
 
 ---@return Int32
-function gamedataShooterMeathead_Record:BarrelCount() return end
+function gamedataShooterMeathead_Record:BarrelCount() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:BarrelExplosionRange() return end
+function gamedataShooterMeathead_Record:BarrelExplosionRange() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:BarrelThrowRate() return end
+function gamedataShooterMeathead_Record:BarrelThrowRate() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:DebrisCoolDown() return end
+function gamedataShooterMeathead_Record:DebrisCoolDown() end
 
 ---@return Int32
-function gamedataShooterMeathead_Record:DebrisCount() return end
+function gamedataShooterMeathead_Record:DebrisCount() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:DebrisOffset() return end
+function gamedataShooterMeathead_Record:DebrisOffset() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:DebrisSpawnRate() return end
+function gamedataShooterMeathead_Record:DebrisSpawnRate() end
 
 ---@return Int32
-function gamedataShooterMeathead_Record:EnragedBarrelCount() return end
+function gamedataShooterMeathead_Record:EnragedBarrelCount() end
 
 ---@return Int32
-function gamedataShooterMeathead_Record:EnragedDebrisCount() return end
+function gamedataShooterMeathead_Record:EnragedDebrisCount() end
 
 ---@return Int32
-function gamedataShooterMeathead_Record:EnragedLeapCount() return end
+function gamedataShooterMeathead_Record:EnragedLeapCount() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:LeapCoolDown() return end
+function gamedataShooterMeathead_Record:LeapCoolDown() end
 
 ---@return Int32
-function gamedataShooterMeathead_Record:LeapCount() return end
+function gamedataShooterMeathead_Record:LeapCount() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:LeapInterval() return end
+function gamedataShooterMeathead_Record:LeapInterval() end
 
 ---@return Float
-function gamedataShooterMeathead_Record:LeapSpeed() return end
+function gamedataShooterMeathead_Record:LeapSpeed() end

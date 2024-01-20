@@ -1,39 +1,35 @@
 ---@meta
 
 ---@class TimeDilationFocusModeEvents: TimeDilationEventsTransitions
----@field public timeDilation Float
----@field public playerDilation Float
----@field public easeInCurve CName
----@field public easeOutCurve CName
----@field public applyTimeDilationToPlayer Bool
----@field public timeDilationReason CName
+---@field timeDilation Float
+---@field playerDilation Float
+---@field easeInCurve CName
+---@field easeOutCurve CName
+---@field applyTimeDilationToPlayer Bool
+---@field timeDilationReason CName
 TimeDilationFocusModeEvents = {}
 
 ---@param fields? TimeDilationFocusModeEvents
 ---@return TimeDilationFocusModeEvents
-function TimeDilationFocusModeEvents.new(fields) return end
+function TimeDilationFocusModeEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TimeDilationFocusModeEvents:OnEnter(stateContext, scriptInterface) return end
+function TimeDilationFocusModeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TimeDilationFocusModeEvents:OnExit(stateContext, scriptInterface) return end
+function TimeDilationFocusModeEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TimeDilationFocusModeEvents:OnForcedExit(stateContext, scriptInterface) return end
+function TimeDilationFocusModeEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TimeDilationFocusModeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function TimeDilationFocusModeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

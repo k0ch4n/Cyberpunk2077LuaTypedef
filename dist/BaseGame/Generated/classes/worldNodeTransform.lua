@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldNodeTransform
----@field public translation Vector3
----@field public rotation Quaternion
----@field public scale Vector3
+---@field translation Vector3
+---@field rotation Quaternion
+---@field scale Vector3
 worldNodeTransform = {}
 
 ---@param fields? worldNodeTransform
 ---@return worldNodeTransform
-function worldNodeTransform.new(fields) return end
+function worldNodeTransform.new(fields) end

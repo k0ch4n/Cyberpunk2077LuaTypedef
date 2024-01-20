@@ -5,4 +5,4 @@ PhotoModePlayerEntityComponent = {}
 
 ---@param fields? PhotoModePlayerEntityComponent
 ---@return PhotoModePlayerEntityComponent
-function PhotoModePlayerEntityComponent.new(fields) return end
+function PhotoModePlayerEntityComponent.new(fields) end

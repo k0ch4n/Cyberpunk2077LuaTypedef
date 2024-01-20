@@ -5,7 +5,7 @@ MainframeController = {}
 
 ---@param fields? MainframeController
 ---@return MainframeController
-function MainframeController.new(fields) return end
+function MainframeController.new(fields) end
 
 ---@return MainframeControllerPS
-function MainframeController:GetPS() return end
+function MainframeController:GetPS() end

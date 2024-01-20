@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class meshMeshMaterialBuffer
----@field public rawData DataBuffer
----@field public rawDataHeaders meshLocalMaterialHeader[]
+---@field rawData DataBuffer
+---@field rawDataHeaders meshLocalMaterialHeader[]
 meshMeshMaterialBuffer = {}
 
 ---@param fields? meshMeshMaterialBuffer
 ---@return meshMeshMaterialBuffer
-function meshMeshMaterialBuffer.new(fields) return end
+function meshMeshMaterialBuffer.new(fields) end

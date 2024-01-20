@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class RadialStatusEffectController: inkWidgetLogicController
----@field private effectsContainerRef inkCompoundWidgetReference
----@field private poolHolderRef inkCompoundWidgetReference
----@field private effectTemplateRef inkWidgetLibraryReference
----@field private maxSize Int32
----@field private effects SingleCooldownManager[]
+---@field effectsContainerRef inkCompoundWidgetReference
+---@field poolHolderRef inkCompoundWidgetReference
+---@field effectTemplateRef inkWidgetLibraryReference
+---@field maxSize Int32
+---@field effects SingleCooldownManager[]
 RadialStatusEffectController = {}
 
 ---@param fields? RadialStatusEffectController
 ---@return RadialStatusEffectController
-function RadialStatusEffectController.new(fields) return end
+function RadialStatusEffectController.new(fields) end
 
----@protected
 ---@return Bool
-function RadialStatusEffectController:OnInitialize() return end
+function RadialStatusEffectController:OnInitialize() end

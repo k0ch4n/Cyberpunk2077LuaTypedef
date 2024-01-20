@@ -5,88 +5,74 @@ TimeDilationTransitions = {}
 
 ---@param fields? TimeDilationTransitions
 ---@return TimeDilationTransitions
-function TimeDilationTransitions.new(fields) return end
+function TimeDilationTransitions.new(fields) end
 
----@protected
 ---@param tweakDBPath String
 ---@param paramName String
 ---@return Bool
-function TimeDilationTransitions:GetBoolFromTimeSystemTweak(tweakDBPath, paramName) return end
+function TimeDilationTransitions:GetBoolFromTimeSystemTweak(tweakDBPath, paramName) end
 
----@protected
 ---@param tweakDBPath String
 ---@param paramName String
 ---@return CName
-function TimeDilationTransitions:GetCNameFromTimeSystemTweak(tweakDBPath, paramName) return end
+function TimeDilationTransitions:GetCNameFromTimeSystemTweak(tweakDBPath, paramName) end
 
----@protected
 ---@param tweakDBPath String
 ---@param paramName String
 ---@return Float
-function TimeDilationTransitions:GetFloatFromTimeSystemTweak(tweakDBPath, paramName) return end
+function TimeDilationTransitions:GetFloatFromTimeSystemTweak(tweakDBPath, paramName) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsCameraRotated(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsCameraRotated(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsChangingTarget(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsChangingTarget(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsForceDeactivationRequested(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsForceDeactivationRequested(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsInVisionMode(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsInVisionMode(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsKerenzikovActivationRequested(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsKerenzikovActivationRequested(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsKerenzikovDeactivationRequested(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsKerenzikovDeactivationRequested(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsPlayerMovementDetected(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsPlayerMovementDetected(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsSandevistanActivationRequested(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsSandevistanActivationRequested(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsSandevistanDeactivationRequested(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsSandevistanDeactivationRequested(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsTargetChanged(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsTargetChanged(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationTransitions:IsWorkspotValid(stateContext, scriptInterface) return end
+function TimeDilationTransitions:IsWorkspotValid(stateContext, scriptInterface) end

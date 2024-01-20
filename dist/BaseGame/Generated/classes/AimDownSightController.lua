@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class AimDownSightController: BasicAnimationController
----@field private isAiming Bool
+---@field isAiming Bool
 AimDownSightController = {}
 
 ---@param fields? AimDownSightController
 ---@return AimDownSightController
-function AimDownSightController.new(fields) return end
+function AimDownSightController.new(fields) end
 
 ---@param isAiming Bool
 ---@return nil
-function AimDownSightController:OnAim(isAiming) return end
+function AimDownSightController:OnAim(isAiming) end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function AimDownSightController:OnPlayerAttach(playerPuppet) return end
+function AimDownSightController:OnPlayerAttach(playerPuppet) end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function AimDownSightController:OnPlayerDetach(playerPuppet) return end
+function AimDownSightController:OnPlayerDetach(playerPuppet) end

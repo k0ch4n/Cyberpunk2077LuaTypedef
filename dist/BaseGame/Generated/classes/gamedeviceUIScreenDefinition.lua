@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamedeviceUIScreenDefinition
----@field public screenType TweakDBID
+---@field screenType TweakDBID
 gamedeviceUIScreenDefinition = {}
 
 ---@param fields? gamedeviceUIScreenDefinition
 ---@return gamedeviceUIScreenDefinition
-function gamedeviceUIScreenDefinition.new(fields) return end
+function gamedeviceUIScreenDefinition.new(fields) end

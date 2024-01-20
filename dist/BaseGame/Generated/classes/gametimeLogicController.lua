@@ -1,30 +1,29 @@
 ---@meta
 
 ---@class gametimeLogicController: IVehicleModuleController
----@field private gametimeTextWidget inkTextWidgetReference
----@field private gametimeBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private vehicle vehicleBaseObject
----@field private parent vehicleUIGameController
+---@field gametimeTextWidget inkTextWidgetReference
+---@field gametimeBBConnectionId redCallbackObject
+---@field vehBB gameIBlackboard
+---@field vehicle vehicleBaseObject
+---@field parent vehicleUIGameController
 gametimeLogicController = {}
 
 ---@param fields? gametimeLogicController
 ---@return gametimeLogicController
-function gametimeLogicController.new(fields) return end
+function gametimeLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function gametimeLogicController:OnUninitialize() return end
+function gametimeLogicController:OnUninitialize() end
 
 ---@param time String
 ---@return nil
-function gametimeLogicController:OnGameTimeChanged(time) return end
+function gametimeLogicController:OnGameTimeChanged(time) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function gametimeLogicController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function gametimeLogicController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function gametimeLogicController:UnregisterCallbacks() return end
+function gametimeLogicController:UnregisterCallbacks() end

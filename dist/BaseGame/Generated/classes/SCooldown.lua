@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class SCooldown
----@field public delayId gameDelayID
----@field public removeId gameDelayID
----@field public cid Int32
----@field public cdName CName
----@field public owner entEntity
----@field public ownerItemID gameItemID
----@field public ownerRecord TweakDBID
----@field public duration Float
----@field public type gamedataStatType
----@field public durationMultiplier Float
----@field public modifiable Bool
----@field public affectedByTimeDilation Bool
----@field public abilityType gamedataStatType
----@field public statMod gameStatModifierData_Deprecated
+---@field delayId gameDelayID
+---@field removeId gameDelayID
+---@field cid Int32
+---@field cdName CName
+---@field owner entEntity
+---@field ownerItemID gameItemID
+---@field ownerRecord TweakDBID
+---@field duration Float
+---@field type gamedataStatType
+---@field durationMultiplier Float
+---@field modifiable Bool
+---@field affectedByTimeDilation Bool
+---@field abilityType gamedataStatType
+---@field statMod gameStatModifierData_Deprecated
 SCooldown = {}
 
 ---@param fields? SCooldown
 ---@return SCooldown
-function SCooldown.new(fields) return end
+function SCooldown.new(fields) end

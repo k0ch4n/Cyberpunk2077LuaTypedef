@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class CyberwareTooltipSlotListItem: AGenericTooltipController
----@field private icon inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field private desc inkTextWidgetReference
----@field private data CyberwareSlotTooltipData
+---@field icon inkImageWidgetReference
+---@field label inkTextWidgetReference
+---@field desc inkTextWidgetReference
+---@field data CyberwareSlotTooltipData
 CyberwareTooltipSlotListItem = {}
 
 ---@param fields? CyberwareTooltipSlotListItem
 ---@return CyberwareTooltipSlotListItem
-function CyberwareTooltipSlotListItem.new(fields) return end
+function CyberwareTooltipSlotListItem.new(fields) end
 
----@protected
 ---@return Bool
-function CyberwareTooltipSlotListItem:OnInitialize() return end
+function CyberwareTooltipSlotListItem:OnInitialize() end
 
 ---@param data CyberwareSlotTooltipData
 ---@return nil
-function CyberwareTooltipSlotListItem:SetupData(data) return end
+function CyberwareTooltipSlotListItem:SetupData(data) end

@@ -1,103 +1,87 @@
 ---@meta
 
 ---@class SampleUITextSystemController: gameuiWidgetGameController
----@field private locKeyTextWidget inkTextWidgetReference
----@field private localizedTextWidget inkTextWidgetReference
----@field private textParams textTextParameterSet
----@field private numberTextWidget inkTextWidgetReference
----@field private numberIncreaseButton inkWidgetReference
----@field private numberDecreaseButton inkWidgetReference
----@field private numberToInject Int32
----@field private stringTextInputWidget inkTextInputWidgetReference
----@field private stringToInject String
----@field private timeRefreshButton inkWidgetReference
----@field private measurementWidgets inkWidgetReference[]
----@field private metricSystemButton inkWidgetReference
----@field private imperialSystemButton inkWidgetReference
----@field private animateTextOffsetButton inkWidgetReference
----@field private textOffsetWidget inkTextWidgetReference
----@field private animateTextReplaceButton inkWidgetReference
----@field private textReplaceWidget inkTextWidgetReference
----@field private animateValueButton inkWidgetReference
----@field private animateValueWidget inkTextWidgetReference
+---@field locKeyTextWidget inkTextWidgetReference
+---@field localizedTextWidget inkTextWidgetReference
+---@field textParams textTextParameterSet
+---@field numberTextWidget inkTextWidgetReference
+---@field numberIncreaseButton inkWidgetReference
+---@field numberDecreaseButton inkWidgetReference
+---@field numberToInject Int32
+---@field stringTextInputWidget inkTextInputWidgetReference
+---@field stringToInject String
+---@field timeRefreshButton inkWidgetReference
+---@field measurementWidgets inkWidgetReference[]
+---@field metricSystemButton inkWidgetReference
+---@field imperialSystemButton inkWidgetReference
+---@field animateTextOffsetButton inkWidgetReference
+---@field textOffsetWidget inkTextWidgetReference
+---@field animateTextReplaceButton inkWidgetReference
+---@field textReplaceWidget inkTextWidgetReference
+---@field animateValueButton inkWidgetReference
+---@field animateValueWidget inkTextWidgetReference
 SampleUITextSystemController = {}
 
 ---@param fields? SampleUITextSystemController
 ---@return SampleUITextSystemController
-function SampleUITextSystemController.new(fields) return end
+function SampleUITextSystemController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnAnimateTextOffset(e) return end
+function SampleUITextSystemController:OnAnimateTextOffset(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnAnimateTextReplace(e) return end
+function SampleUITextSystemController:OnAnimateTextReplace(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnAnimateValue(e) return end
+function SampleUITextSystemController:OnAnimateValue(e) end
 
----@protected
 ---@param str String
 ---@return Bool
-function SampleUITextSystemController:OnChangeTextToInject(str) return end
+function SampleUITextSystemController:OnChangeTextToInject(str) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnDecreaseNumberToInject(e) return end
+function SampleUITextSystemController:OnDecreaseNumberToInject(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnIncreaseNumberToInject(e) return end
+function SampleUITextSystemController:OnIncreaseNumberToInject(e) end
 
----@protected
 ---@return Bool
-function SampleUITextSystemController:OnInitialize() return end
+function SampleUITextSystemController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnRefreshTime(e) return end
+function SampleUITextSystemController:OnRefreshTime(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnSwitchToImperialSystem(e) return end
+function SampleUITextSystemController:OnSwitchToImperialSystem(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function SampleUITextSystemController:OnSwitchToMetricSystem(e) return end
+function SampleUITextSystemController:OnSwitchToMetricSystem(e) end
 
----@private
 ---@return nil
-function SampleUITextSystemController:InitControls() return end
+function SampleUITextSystemController:InitControls() end
 
----@private
 ---@return nil
-function SampleUITextSystemController:InitTextParams() return end
+function SampleUITextSystemController:InitTextParams() end
 
----@private
 ---@param system EMeasurementSystem
 ---@return nil
-function SampleUITextSystemController:UpdateMeasurementSystem(system) return end
+function SampleUITextSystemController:UpdateMeasurementSystem(system) end
 
----@private
 ---@param value Int32
 ---@return nil
-function SampleUITextSystemController:UpdateNumberParam(value) return end
+function SampleUITextSystemController:UpdateNumberParam(value) end
 
----@private
 ---@param value String
 ---@return nil
-function SampleUITextSystemController:UpdateStringParam(value) return end
+function SampleUITextSystemController:UpdateStringParam(value) end
 
----@private
 ---@return nil
-function SampleUITextSystemController:UpdateTimeParam() return end
+function SampleUITextSystemController:UpdateTimeParam() end

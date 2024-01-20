@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questFollowObject_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
----@field public followObjectRef gameEntityReference
----@field public offset Vector3
----@field public positionLerpSpeed Float
----@field public rotationLerpSpeed Float
+---@field vehicleRef gameEntityReference
+---@field followObjectRef gameEntityReference
+---@field offset Vector3
+---@field positionLerpSpeed Float
+---@field rotationLerpSpeed Float
 questFollowObject_NodeType = {}
 
 ---@param fields? questFollowObject_NodeType
 ---@return questFollowObject_NodeType
-function questFollowObject_NodeType.new(fields) return end
+function questFollowObject_NodeType.new(fields) end

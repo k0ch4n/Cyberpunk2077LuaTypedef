@@ -5,10 +5,10 @@ gameJournalOnscreensStructuredGroup = {}
 
 ---@param fields? gameJournalOnscreensStructuredGroup
 ---@return gameJournalOnscreensStructuredGroup
-function gameJournalOnscreensStructuredGroup.new(fields) return end
+function gameJournalOnscreensStructuredGroup.new(fields) end
 
 ---@return gameJournalOnscreen[]
-function gameJournalOnscreensStructuredGroup:GetEntries() return end
+function gameJournalOnscreensStructuredGroup:GetEntries() end
 
 ---@return CName
-function gameJournalOnscreensStructuredGroup:GetTag() return end
+function gameJournalOnscreensStructuredGroup:GetTag() end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class entEffectDesc: ISerializable
----@field public id CRUID
----@field public effectName CName
----@field public effect worldEffect
----@field public compiledEffectInfo worldCompiledEffectInfo
----@field public autoSpawnTag CName
----@field public isAutoSpawn Bool
----@field public randomWeight Uint8
+---@field id CRUID
+---@field effectName CName
+---@field effect worldEffect
+---@field compiledEffectInfo worldCompiledEffectInfo
+---@field autoSpawnTag CName
+---@field isAutoSpawn Bool
+---@field randomWeight Uint8
 entEffectDesc = {}
 
 ---@param fields? entEffectDesc
 ---@return entEffectDesc
-function entEffectDesc.new(fields) return end
+function entEffectDesc.new(fields) end

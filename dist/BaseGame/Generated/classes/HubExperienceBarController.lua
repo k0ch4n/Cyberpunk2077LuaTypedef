@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class HubExperienceBarController: inkWidgetLogicController
----@field protected foregroundContainer inkWidgetReference
+---@field foregroundContainer inkWidgetReference
 HubExperienceBarController = {}
 
 ---@param fields? HubExperienceBarController
 ---@return HubExperienceBarController
-function HubExperienceBarController.new(fields) return end
+function HubExperienceBarController.new(fields) end
 
 ---@param value Int32
 ---@param maxValue Int32
 ---@return nil
-function HubExperienceBarController:SetValue(value, maxValue) return end
+function HubExperienceBarController:SetValue(value, maxValue) end
 
 ---@param value Float
 ---@param maxValue Float
 ---@return nil
-function HubExperienceBarController:SetValueF(value, maxValue) return end
+function HubExperienceBarController:SetValueF(value, maxValue) end

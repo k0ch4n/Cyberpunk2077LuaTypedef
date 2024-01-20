@@ -1,47 +1,40 @@
 ---@meta
 
 ---@class ModifyStatPoolCustomLimitEffector: gameEffector
----@field public statPoolType gamedataStatPoolType
----@field public value Float
----@field public usePercent Bool
----@field public previousLimit Float
----@field public owner gameObject
+---@field statPoolType gamedataStatPoolType
+---@field value Float
+---@field usePercent Bool
+---@field previousLimit Float
+---@field owner gameObject
 ModifyStatPoolCustomLimitEffector = {}
 
 ---@param fields? ModifyStatPoolCustomLimitEffector
 ---@return ModifyStatPoolCustomLimitEffector
-function ModifyStatPoolCustomLimitEffector.new(fields) return end
+function ModifyStatPoolCustomLimitEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolCustomLimitEffector:ActionOff(owner) return end
+function ModifyStatPoolCustomLimitEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolCustomLimitEffector:ActionOn(owner) return end
+function ModifyStatPoolCustomLimitEffector:ActionOn(owner) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyStatPoolCustomLimitEffector:Initialize(recordID, parentRecord) return end
+function ModifyStatPoolCustomLimitEffector:Initialize(recordID, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolCustomLimitEffector:ProcessEffector(owner) return end
+function ModifyStatPoolCustomLimitEffector:ProcessEffector(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolCustomLimitEffector:RepeatedAction(owner) return end
+function ModifyStatPoolCustomLimitEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ModifyStatPoolCustomLimitEffector:Uninitialize() return end
+function ModifyStatPoolCustomLimitEffector:Uninitialize() end
 
----@private
 ---@return nil
-function ModifyStatPoolCustomLimitEffector:UninitializeEffector() return end
+function ModifyStatPoolCustomLimitEffector:UninitializeEffector() end

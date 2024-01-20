@@ -5,4 +5,4 @@ questCharacterManagerVisuals_ChangeEntityAppearance = {}
 
 ---@param fields? questCharacterManagerVisuals_ChangeEntityAppearance
 ---@return questCharacterManagerVisuals_ChangeEntityAppearance
-function questCharacterManagerVisuals_ChangeEntityAppearance.new(fields) return end
+function questCharacterManagerVisuals_ChangeEntityAppearance.new(fields) end

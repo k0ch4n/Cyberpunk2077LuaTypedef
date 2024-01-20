@@ -5,49 +5,40 @@ C4 = {}
 
 ---@param fields? C4
 ---@return C4
-function C4.new(fields) return end
+function C4.new(fields) end
 
----@protected
 ---@param evt ActivateC4
 ---@return Bool
-function C4:OnActivateC4(evt) return end
+function C4:OnActivateC4(evt) end
 
----@protected
 ---@param evt DeactivateC4
 ---@return Bool
-function C4:OnDeactivateC4(evt) return end
+function C4:OnDeactivateC4(evt) end
 
----@protected
 ---@return Bool
-function C4:OnDetach() return end
+function C4:OnDetach() end
 
----@protected
 ---@param evt DetonateC4
 ---@return Bool
-function C4:OnDetonateC4(evt) return end
+function C4:OnDetonateC4(evt) end
 
----@protected
 ---@return Bool
-function C4:OnGameAttached() return end
+function C4:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function C4:OnRequestComponents(ri) return end
+function C4:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function C4:OnTakeControl(ri) return end
+function C4:OnTakeControl(ri) end
 
----@private
 ---@return C4Controller
-function C4:GetController() return end
+function C4:GetController() end
 
 ---@return C4ControllerPS
-function C4:GetDevicePS() return end
+function C4:GetDevicePS() end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function C4:ToggleVisibility(visible) return end
+function C4:ToggleVisibility(visible) end

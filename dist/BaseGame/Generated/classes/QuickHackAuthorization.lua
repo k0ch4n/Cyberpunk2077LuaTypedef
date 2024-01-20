@@ -5,7 +5,7 @@ QuickHackAuthorization = {}
 
 ---@param fields? QuickHackAuthorization
 ---@return QuickHackAuthorization
-function QuickHackAuthorization.new(fields) return end
+function QuickHackAuthorization.new(fields) end
 
 ---@return String
-function QuickHackAuthorization:GetTweakDBChoiceRecord() return end
+function QuickHackAuthorization:GetTweakDBChoiceRecord() end

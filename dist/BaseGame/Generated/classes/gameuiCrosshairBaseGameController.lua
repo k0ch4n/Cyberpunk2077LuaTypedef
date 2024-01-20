@@ -1,230 +1,194 @@
 ---@meta
 
 ---@class gameuiCrosshairBaseGameController: gameuiWidgetGameController
----@field public details inkWidgetReference
----@field public isActive Bool
----@field protected rootWidget inkWidget
----@field protected psmBlackboard gameIBlackboard
----@field protected targetBB gameIBlackboard
----@field protected weaponBB gameIBlackboard
----@field protected targetEntity entEntity
----@field protected raycastTargetEntity entEntity
----@field protected playerPuppet gameObject
----@field private crosshairState gamePSMCrosshairStates
----@field private visionState gamePSMVision
----@field private crosshairStateBlackboardId redCallbackObject
----@field private bulletSpreedBlackboardId redCallbackObject
----@field private isTargetDead Bool
----@field private lastGUIStateUpdateFrame Uint64
----@field private currentAimTargetBBID redCallbackObject
----@field private currentRaycastTargetBBID redCallbackObject
----@field private targetDistanceBBID redCallbackObject
----@field private targetAttitudeBBID redCallbackObject
----@field private healthListener CrosshairHealthChangeListener
----@field protected deadEyeWidget inkWidgetReference
----@field protected deadEyeAnimProxy inkanimProxy
----@field protected hasDeadEye Bool
----@field protected isCamoActiveOnPlayer Bool
----@field private staminaChangedCallback redCallbackObject
----@field private staminaListener CrosshairStaminaListener
----@field private opticalCamoListener OpticalCamoListener
+---@field details inkWidgetReference
+---@field isActive Bool
+---@field rootWidget inkWidget
+---@field psmBlackboard gameIBlackboard
+---@field targetBB gameIBlackboard
+---@field weaponBB gameIBlackboard
+---@field targetEntity entEntity
+---@field raycastTargetEntity entEntity
+---@field playerPuppet gameObject
+---@field crosshairState gamePSMCrosshairStates
+---@field visionState gamePSMVision
+---@field crosshairStateBlackboardId redCallbackObject
+---@field bulletSpreedBlackboardId redCallbackObject
+---@field isTargetDead Bool
+---@field lastGUIStateUpdateFrame Uint64
+---@field currentAimTargetBBID redCallbackObject
+---@field currentRaycastTargetBBID redCallbackObject
+---@field targetDistanceBBID redCallbackObject
+---@field targetAttitudeBBID redCallbackObject
+---@field healthListener CrosshairHealthChangeListener
+---@field deadEyeWidget inkWidgetReference
+---@field deadEyeAnimProxy inkanimProxy
+---@field hasDeadEye Bool
+---@field isCamoActiveOnPlayer Bool
+---@field staminaChangedCallback redCallbackObject
+---@field staminaListener CrosshairStaminaListener
+---@field opticalCamoListener OpticalCamoListener
 gameuiCrosshairBaseGameController = {}
 
 ---@param fields? gameuiCrosshairBaseGameController
 ---@return gameuiCrosshairBaseGameController
-function gameuiCrosshairBaseGameController.new(fields) return end
+function gameuiCrosshairBaseGameController.new(fields) end
 
 ---@return gameItemObject
-function gameuiCrosshairBaseGameController:GetWeaponItemObject() return end
+function gameuiCrosshairBaseGameController:GetWeaponItemObject() end
 
 ---@return gameIBlackboard
-function gameuiCrosshairBaseGameController:GetWeaponLocalBlackboard() return end
+function gameuiCrosshairBaseGameController:GetWeaponLocalBlackboard() end
 
 ---@return gameItemID
-function gameuiCrosshairBaseGameController:GetWeaponRecordID() return end
+function gameuiCrosshairBaseGameController:GetWeaponRecordID() end
 
 ---@param distanceToTarget Float
 ---@return Bool
-function gameuiCrosshairBaseGameController:IsTargetWithinWeaponEffectiveRange(distanceToTarget) return end
+function gameuiCrosshairBaseGameController:IsTargetWithinWeaponEffectiveRange(distanceToTarget) end
 
----@protected
 ---@param spread Vector2
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnBulletSpreadChanged(spread) return end
+function gameuiCrosshairBaseGameController:OnBulletSpreadChanged(spread) end
 
----@protected
 ---@param entId entEntityID
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnCurrentAimTarget(entId) return end
+function gameuiCrosshairBaseGameController:OnCurrentAimTarget(entId) end
 
----@protected
 ---@param id entEntityID
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnCurrentRaycastTarget(id) return end
+function gameuiCrosshairBaseGameController:OnCurrentRaycastTarget(id) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnDeadEyeAnimFinished(anim) return end
+function gameuiCrosshairBaseGameController:OnDeadEyeAnimFinished(anim) end
 
----@protected
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnInitialize() return end
+function gameuiCrosshairBaseGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnNPCStatsChanged(value) return end
+function gameuiCrosshairBaseGameController:OnNPCStatsChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnPSMCrosshairStateChanged(value) return end
+function gameuiCrosshairBaseGameController:OnPSMCrosshairStateChanged(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnPlayerAttach(playerPuppet) return end
+function gameuiCrosshairBaseGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnPlayerDetach(playerPuppet) return end
+function gameuiCrosshairBaseGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnPreIntro() return end
+function gameuiCrosshairBaseGameController:OnPreIntro() end
 
----@protected
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnPreOutro() return end
+function gameuiCrosshairBaseGameController:OnPreOutro() end
 
----@protected
 ---@param evt RefreshCrosshairEvent
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnRefreshCrosshairEvent(evt) return end
+function gameuiCrosshairBaseGameController:OnRefreshCrosshairEvent(evt) end
 
----@protected
 ---@param attitude Int32
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnTargetAttitudeChanged(attitude) return end
+function gameuiCrosshairBaseGameController:OnTargetAttitudeChanged(attitude) end
 
----@protected
 ---@param distance Float
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnTargetDistanceChanged(distance) return end
+function gameuiCrosshairBaseGameController:OnTargetDistanceChanged(distance) end
 
----@protected
 ---@return Bool
-function gameuiCrosshairBaseGameController:OnUninitialize() return end
+function gameuiCrosshairBaseGameController:OnUninitialize() end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function gameuiCrosshairBaseGameController:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function gameuiCrosshairBaseGameController:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
----@protected
 ---@return gamePSMCrosshairStates
-function gameuiCrosshairBaseGameController:GetCrosshairState() return end
+function gameuiCrosshairBaseGameController:GetCrosshairState() end
 
----@protected
 ---@return CName
-function gameuiCrosshairBaseGameController:GetCurrentCrosshairGUIState() return end
+function gameuiCrosshairBaseGameController:GetCurrentCrosshairGUIState() end
 
----@protected
 ---@return Float
-function gameuiCrosshairBaseGameController:GetDistanceToTarget() return end
+function gameuiCrosshairBaseGameController:GetDistanceToTarget() end
 
----@protected
 ---@return ScriptGameInstance
-function gameuiCrosshairBaseGameController:GetGame() return end
+function gameuiCrosshairBaseGameController:GetGame() end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function gameuiCrosshairBaseGameController:GetIntroAnimation(firstEquip) return end
+function gameuiCrosshairBaseGameController:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function gameuiCrosshairBaseGameController:GetOutroAnimation() return end
+function gameuiCrosshairBaseGameController:GetOutroAnimation() end
 
----@protected
 ---@return gameIBlackboard
-function gameuiCrosshairBaseGameController:GetUIActiveWeaponBlackboard() return end
+function gameuiCrosshairBaseGameController:GetUIActiveWeaponBlackboard() end
 
----@protected
 ---@return gamePSMVision
-function gameuiCrosshairBaseGameController:GetVisionState() return end
+function gameuiCrosshairBaseGameController:GetVisionState() end
 
 ---@return nil
-function gameuiCrosshairBaseGameController:HandleDeadEye() return end
+function gameuiCrosshairBaseGameController:HandleDeadEye() end
 
----@protected
 ---@return Bool
-function gameuiCrosshairBaseGameController:IsActive() return end
+function gameuiCrosshairBaseGameController:IsActive() end
 
----@protected
 ---@param oldState gamePSMCrosshairStates
 ---@param newState gamePSMCrosshairStates
 ---@return nil
-function gameuiCrosshairBaseGameController:OnCrosshairStateChange(oldState, newState) return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_Aim() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_GrenadeCharging() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_HipFire() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_LeftHandCyberware() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_Reload() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_ReloadDriverCombatMountedWeapons() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_Safe() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_Scanning() return end
-
----@protected
----@return nil
-function gameuiCrosshairBaseGameController:OnState_Sprint() return end
+function gameuiCrosshairBaseGameController:OnCrosshairStateChange(oldState, newState) end
 
 ---@return nil
-function gameuiCrosshairBaseGameController:QueueCrosshairRefresh() return end
+function gameuiCrosshairBaseGameController:OnState_Aim() end
 
----@protected
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_GrenadeCharging() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_HipFire() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_LeftHandCyberware() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_Reload() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_ReloadDriverCombatMountedWeapons() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_Safe() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_Scanning() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:OnState_Sprint() end
+
+---@return nil
+function gameuiCrosshairBaseGameController:QueueCrosshairRefresh() end
+
 ---@param register Bool
 ---@return nil
-function gameuiCrosshairBaseGameController:RegisterTargetCallbacks(register) return end
+function gameuiCrosshairBaseGameController:RegisterTargetCallbacks(register) end
 
 ---@param value Bool
 ---@return nil
-function gameuiCrosshairBaseGameController:SetCamoActiveOnPlayer(value) return end
+function gameuiCrosshairBaseGameController:SetCamoActiveOnPlayer(value) end
 
----@protected
 ---@param force Bool
 ---@return nil
-function gameuiCrosshairBaseGameController:UpdateCrosshairGUIState(force) return end
+function gameuiCrosshairBaseGameController:UpdateCrosshairGUIState(force) end
 
----@protected
 ---@return nil
-function gameuiCrosshairBaseGameController:UpdateCrosshairState() return end
+function gameuiCrosshairBaseGameController:UpdateCrosshairState() end
 
 ---@param value Bool
 ---@return nil
-function gameuiCrosshairBaseGameController:UpdateTPPDriverCombatCrosshair(value) return end
+function gameuiCrosshairBaseGameController:UpdateTPPDriverCombatCrosshair(value) end

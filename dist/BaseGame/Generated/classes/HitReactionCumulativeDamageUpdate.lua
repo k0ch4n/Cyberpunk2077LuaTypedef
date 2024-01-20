@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HitReactionCumulativeDamageUpdate: redEvent
----@field public prevUpdateTime Float
+---@field prevUpdateTime Float
 HitReactionCumulativeDamageUpdate = {}
 
 ---@param fields? HitReactionCumulativeDamageUpdate
 ---@return HitReactionCumulativeDamageUpdate
-function HitReactionCumulativeDamageUpdate.new(fields) return end
+function HitReactionCumulativeDamageUpdate.new(fields) end

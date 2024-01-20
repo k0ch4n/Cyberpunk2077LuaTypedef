@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class vehicleNetrunnerQuickhackVehicleEndedEvent: redEvent
----@field public vehicleNetrunnerQuickhackType vehicleVehicleNetrunnerQuickhackType
----@field public shouldTriggerPanicDriving Bool
----@field public shouldRejoinTraffic Bool
+---@field vehicleNetrunnerQuickhackType vehicleVehicleNetrunnerQuickhackType
+---@field shouldTriggerPanicDriving Bool
+---@field shouldRejoinTraffic Bool
 vehicleNetrunnerQuickhackVehicleEndedEvent = {}
 
 ---@param fields? vehicleNetrunnerQuickhackVehicleEndedEvent
 ---@return vehicleNetrunnerQuickhackVehicleEndedEvent
-function vehicleNetrunnerQuickhackVehicleEndedEvent.new(fields) return end
+function vehicleNetrunnerQuickhackVehicleEndedEvent.new(fields) end

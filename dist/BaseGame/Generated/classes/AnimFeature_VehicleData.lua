@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class AnimFeature_VehicleData: animAnimFeature
----@field public isInVehicle Bool
----@field public isDriver Bool
----@field public vehType Int32
----@field public vehSlot Int32
----@field public isInCombat Bool
----@field public isInWindowCombat Bool
----@field public isInDriverCombat Bool
----@field public vehClass Int32
----@field public isEnteringCombat Bool
----@field public enteringCombatDuration Float
----@field public isExitingCombat Bool
----@field public exitingCombatDuration Float
----@field public isEnteringVehicle Bool
----@field public isExitingVehicle Bool
----@field public isWorldRenderPlane Bool
+---@field isInVehicle Bool
+---@field isDriver Bool
+---@field vehType Int32
+---@field vehSlot Int32
+---@field isInCombat Bool
+---@field isInWindowCombat Bool
+---@field isInDriverCombat Bool
+---@field vehClass Int32
+---@field isEnteringCombat Bool
+---@field enteringCombatDuration Float
+---@field isExitingCombat Bool
+---@field exitingCombatDuration Float
+---@field isEnteringVehicle Bool
+---@field isExitingVehicle Bool
+---@field isWorldRenderPlane Bool
 AnimFeature_VehicleData = {}
 
 ---@param fields? AnimFeature_VehicleData
 ---@return AnimFeature_VehicleData
-function AnimFeature_VehicleData.new(fields) return end
+function AnimFeature_VehicleData.new(fields) end

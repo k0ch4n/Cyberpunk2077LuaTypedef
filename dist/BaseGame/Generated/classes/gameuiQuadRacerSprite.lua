@@ -5,4 +5,4 @@ gameuiQuadRacerSprite = {}
 
 ---@param fields? gameuiQuadRacerSprite
 ---@return gameuiQuadRacerSprite
-function gameuiQuadRacerSprite.new(fields) return end
+function gameuiQuadRacerSprite.new(fields) end

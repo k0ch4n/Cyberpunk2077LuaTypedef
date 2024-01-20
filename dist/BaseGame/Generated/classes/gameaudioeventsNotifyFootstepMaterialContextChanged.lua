@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameaudioeventsNotifyFootstepMaterialContextChanged: redEvent
----@field public footwareType CName
----@field public surfaceFlavourName CName
+---@field footwareType CName
+---@field surfaceFlavourName CName
 gameaudioeventsNotifyFootstepMaterialContextChanged = {}
 
 ---@param fields? gameaudioeventsNotifyFootstepMaterialContextChanged
 ---@return gameaudioeventsNotifyFootstepMaterialContextChanged
-function gameaudioeventsNotifyFootstepMaterialContextChanged.new(fields) return end
+function gameaudioeventsNotifyFootstepMaterialContextChanged.new(fields) end

@@ -5,10 +5,10 @@ gamedataBuildCyberware_Record = {}
 
 ---@param fields? gamedataBuildCyberware_Record
 ---@return gamedataBuildCyberware_Record
-function gamedataBuildCyberware_Record.new(fields) return end
+function gamedataBuildCyberware_Record.new(fields) end
 
 ---@return gamedataItem_Record
-function gamedataBuildCyberware_Record:Cyberware() return end
+function gamedataBuildCyberware_Record:Cyberware() end
 
 ---@return gamedataItem_Record
-function gamedataBuildCyberware_Record:CyberwareHandle() return end
+function gamedataBuildCyberware_Record:CyberwareHandle() end

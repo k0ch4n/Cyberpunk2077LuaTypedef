@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CEvaluatorVectorCurve: IEvaluatorVector
----@field public curves curveData
----@field public numberOfCurveSamples Uint32
+---@field curves curveData
+---@field numberOfCurveSamples Uint32
 CEvaluatorVectorCurve = {}
 
 ---@param fields? CEvaluatorVectorCurve
 ---@return CEvaluatorVectorCurve
-function CEvaluatorVectorCurve.new(fields) return end
+function CEvaluatorVectorCurve.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraCustomFieldName
----@field public name String
+---@field name String
 toolsJiraCustomFieldName = {}
 
 ---@param fields? toolsJiraCustomFieldName
 ---@return toolsJiraCustomFieldName
-function toolsJiraCustomFieldName.new(fields) return end
+function toolsJiraCustomFieldName.new(fields) end

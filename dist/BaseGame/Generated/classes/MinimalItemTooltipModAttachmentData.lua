@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class MinimalItemTooltipModAttachmentData: MinimalItemTooltipModData
----@field public isEmpty Bool
----@field public slotName String
----@field public qualityName CName
----@field public abilitiesSize Int32
----@field public abilities gameInventoryItemAbility[]
+---@field isEmpty Bool
+---@field slotName String
+---@field qualityName CName
+---@field abilitiesSize Int32
+---@field abilities gameInventoryItemAbility[]
 MinimalItemTooltipModAttachmentData = {}
 
 ---@param fields? MinimalItemTooltipModAttachmentData
 ---@return MinimalItemTooltipModAttachmentData
-function MinimalItemTooltipModAttachmentData.new(fields) return end
+function MinimalItemTooltipModAttachmentData.new(fields) end

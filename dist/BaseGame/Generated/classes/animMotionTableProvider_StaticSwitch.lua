@@ -5,4 +5,4 @@ animMotionTableProvider_StaticSwitch = {}
 
 ---@param fields? animMotionTableProvider_StaticSwitch
 ---@return animMotionTableProvider_StaticSwitch
-function animMotionTableProvider_StaticSwitch.new(fields) return end
+function animMotionTableProvider_StaticSwitch.new(fields) end

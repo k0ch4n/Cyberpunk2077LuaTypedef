@@ -1,59 +1,50 @@
 ---@meta
 
 ---@class VehicleDriverCombatContextDecisions: InputContextTransitionDecisions
----@field private callbackID redCallbackObject
----@field private tppCallbackID redCallbackObject
----@field private upperBodyCallbackID redCallbackObject
----@field protected inTpp Bool
----@field protected isAiming Bool
+---@field callbackID redCallbackObject
+---@field tppCallbackID redCallbackObject
+---@field upperBodyCallbackID redCallbackObject
+---@field inTpp Bool
+---@field isAiming Bool
 VehicleDriverCombatContextDecisions = {}
 
 ---@param fields? VehicleDriverCombatContextDecisions
 ---@return VehicleDriverCombatContextDecisions
-function VehicleDriverCombatContextDecisions.new(fields) return end
+function VehicleDriverCombatContextDecisions.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VehicleDriverCombatContextDecisions:OnUpperBodyStateChanged(value) return end
+function VehicleDriverCombatContextDecisions:OnUpperBodyStateChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function VehicleDriverCombatContextDecisions:OnVehiclePerspectiveChanged(value) return end
+function VehicleDriverCombatContextDecisions:OnVehiclePerspectiveChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VehicleDriverCombatContextDecisions:OnVehicleStateChanged(value) return end
+function VehicleDriverCombatContextDecisions:OnVehicleStateChanged(value) end
 
----@protected
 ---@return Bool
-function VehicleDriverCombatContextDecisions:CameraPerspectiveEnterCondition() return end
+function VehicleDriverCombatContextDecisions:CameraPerspectiveEnterCondition() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function VehicleDriverCombatContextDecisions:DriverCombatTypeEnterCondition(stateContext) return end
+function VehicleDriverCombatContextDecisions:DriverCombatTypeEnterCondition(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleDriverCombatContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VehicleDriverCombatContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@return Bool
-function VehicleDriverCombatContextDecisions:IsAimingEnterCondition() return end
+function VehicleDriverCombatContextDecisions:IsAimingEnterCondition() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleDriverCombatContextDecisions:OnAttach(stateContext, scriptInterface) return end
+function VehicleDriverCombatContextDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleDriverCombatContextDecisions:OnDetach(stateContext, scriptInterface) return end
+function VehicleDriverCombatContextDecisions:OnDetach(stateContext, scriptInterface) end

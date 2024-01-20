@@ -5,4 +5,4 @@ AIOwnerDistanceCoverSelection = {}
 
 ---@param fields? AIOwnerDistanceCoverSelection
 ---@return AIOwnerDistanceCoverSelection
-function AIOwnerDistanceCoverSelection.new(fields) return end
+function AIOwnerDistanceCoverSelection.new(fields) end

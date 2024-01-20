@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIThreatValid: AIAIEvent
----@field public owner entEntity
----@field public threat entEntity
----@field public isEnemy Bool
----@field public isHostile Bool
+---@field owner entEntity
+---@field threat entEntity
+---@field isEnemy Bool
+---@field isHostile Bool
 AIThreatValid = {}
 
 ---@param fields? AIThreatValid
 ---@return AIThreatValid
-function AIThreatValid.new(fields) return end
+function AIThreatValid.new(fields) end

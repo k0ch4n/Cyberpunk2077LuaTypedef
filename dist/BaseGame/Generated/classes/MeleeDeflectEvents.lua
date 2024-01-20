@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class MeleeDeflectEvents: MeleeEventsTransition
----@field public deflectStatFlag gameStatModifierData_Deprecated
+---@field deflectStatFlag gameStatModifierData_Deprecated
 MeleeDeflectEvents = {}
 
 ---@param fields? MeleeDeflectEvents
 ---@return MeleeDeflectEvents
-function MeleeDeflectEvents.new(fields) return end
+function MeleeDeflectEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeDeflectEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeDeflectEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeDeflectEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeDeflectEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeDeflectEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeDeflectEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

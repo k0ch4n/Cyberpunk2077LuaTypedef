@@ -5,14 +5,12 @@ LowFPSSelectCoverMode = {}
 
 ---@param fields? LowFPSSelectCoverMode
 ---@return LowFPSSelectCoverMode
-function LowFPSSelectCoverMode.new(fields) return end
+function LowFPSSelectCoverMode.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function LowFPSSelectCoverMode:Activate(context) return end
+function LowFPSSelectCoverMode:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function LowFPSSelectCoverMode:Deactivate(context) return end
+function LowFPSSelectCoverMode:Deactivate(context) end

@@ -5,19 +5,19 @@ gameItemCreationPrereqDataWrapper = {}
 
 ---@param fields? gameItemCreationPrereqDataWrapper
 ---@return gameItemCreationPrereqDataWrapper
-function gameItemCreationPrereqDataWrapper.new(fields) return end
+function gameItemCreationPrereqDataWrapper.new(fields) end
 
 ---@return gameItemData
-function gameItemCreationPrereqDataWrapper:GetItemData() return end
+function gameItemCreationPrereqDataWrapper:GetItemData() end
 
 ---@return IScriptable
-function gameItemCreationPrereqDataWrapper:GetOwner() return end
+function gameItemCreationPrereqDataWrapper:GetOwner() end
 
 ---@return Bool
-function gameItemCreationPrereqDataWrapper:IsCreatedOnLevel() return end
+function gameItemCreationPrereqDataWrapper:IsCreatedOnLevel() end
 
 ---@return Bool
-function gameItemCreationPrereqDataWrapper:IsCreatedOnNPC() return end
+function gameItemCreationPrereqDataWrapper:IsCreatedOnNPC() end
 
 ---@return Bool
-function gameItemCreationPrereqDataWrapper:IsCreatedOnPlayer() return end
+function gameItemCreationPrereqDataWrapper:IsCreatedOnPlayer() end

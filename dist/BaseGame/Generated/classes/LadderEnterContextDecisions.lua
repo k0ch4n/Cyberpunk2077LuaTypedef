@@ -5,10 +5,9 @@ LadderEnterContextDecisions = {}
 
 ---@param fields? LadderEnterContextDecisions
 ---@return LadderEnterContextDecisions
-function LadderEnterContextDecisions.new(fields) return end
+function LadderEnterContextDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LadderEnterContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function LadderEnterContextDecisions:EnterCondition(stateContext, scriptInterface) end

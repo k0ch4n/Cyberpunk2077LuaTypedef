@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIActionTargetStates
----@field public npcStates AIActionNPCStates
----@field public playerStates AIActionPlayerStates
+---@field npcStates AIActionNPCStates
+---@field playerStates AIActionPlayerStates
 AIActionTargetStates = {}
 
 ---@param fields? AIActionTargetStates
 ---@return AIActionTargetStates
-function AIActionTargetStates.new(fields) return end
+function AIActionTargetStates.new(fields) end

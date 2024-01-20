@@ -5,35 +5,35 @@ userSettingsVarListString = {}
 
 ---@param fields? userSettingsVarListString
 ---@return userSettingsVarListString
-function userSettingsVarListString.new(fields) return end
+function userSettingsVarListString.new(fields) end
 
 ---@return Int32
-function userSettingsVarListString:GetDefaultIndex() return end
+function userSettingsVarListString:GetDefaultIndex() end
 
 ---@return String
-function userSettingsVarListString:GetDefaultValue() return end
+function userSettingsVarListString:GetDefaultValue() end
 
 ---@param index Int32
 ---@return CName
-function userSettingsVarListString:GetDisplayValue(index) return end
+function userSettingsVarListString:GetDisplayValue(index) end
 
 ---@return Int32
-function userSettingsVarListString:GetIndex() return end
+function userSettingsVarListString:GetIndex() end
 
 ---@param value String
 ---@return Int32
-function userSettingsVarListString:GetIndexFor(value) return end
+function userSettingsVarListString:GetIndexFor(value) end
 
 ---@return String
-function userSettingsVarListString:GetValue() return end
+function userSettingsVarListString:GetValue() end
 
 ---@param index Int32
 ---@return String
-function userSettingsVarListString:GetValueFor(index) return end
+function userSettingsVarListString:GetValueFor(index) end
 
 ---@return String[]
-function userSettingsVarListString:GetValues() return end
+function userSettingsVarListString:GetValues() end
 
 ---@param index Int32
 ---@return nil
-function userSettingsVarListString:SetIndex(index) return end
+function userSettingsVarListString:SetIndex(index) end

@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class StimDeviceOperation: DeviceOperationBase
----@field public stims SStimOperationData[]
+---@field stims SStimOperationData[]
 StimDeviceOperation = {}
 
 ---@param fields? StimDeviceOperation
 ---@return StimDeviceOperation
-function StimDeviceOperation.new(fields) return end
+function StimDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function StimDeviceOperation:Execute(owner) return end
+function StimDeviceOperation:Execute(owner) end
 
----@private
 ---@param stimsArg SStimOperationData[]
 ---@param owner gameObject
 ---@return nil
-function StimDeviceOperation:ResolveStims(stimsArg, owner) return end
+function StimDeviceOperation:ResolveStims(stimsArg, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function StimDeviceOperation:Restore(owner) return end
+function StimDeviceOperation:Restore(owner) end

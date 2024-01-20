@@ -1,141 +1,118 @@
 ---@meta
 
 ---@class AreaEffectVisualizationComponent: gameScriptableComponent
----@field protected fxResourceMapper FxResourceMapperComponent
----@field private forceHighlightTargetBuckets GameEffectTargetVisualizationData[]
----@field private availableQuickHacks CName[]
----@field private availablespiderbotActions CName[]
----@field private activeAction BaseScriptableAction
----@field private activeEffectIndex Int32
+---@field fxResourceMapper FxResourceMapperComponent
+---@field forceHighlightTargetBuckets GameEffectTargetVisualizationData[]
+---@field availableQuickHacks CName[]
+---@field availablespiderbotActions CName[]
+---@field activeAction BaseScriptableAction
+---@field activeEffectIndex Int32
 AreaEffectVisualizationComponent = {}
 
 ---@param fields? AreaEffectVisualizationComponent
 ---@return AreaEffectVisualizationComponent
-function AreaEffectVisualizationComponent.new(fields) return end
+function AreaEffectVisualizationComponent.new(fields) end
 
----@protected
 ---@param evt AddForceHighlightTargetEvent
 ---@return Bool
-function AreaEffectVisualizationComponent:OnAddForceHighlightTarget(evt) return end
+function AreaEffectVisualizationComponent:OnAddForceHighlightTarget(evt) end
 
----@protected
 ---@param evt AreaEffectVisualisationRequest
 ---@return Bool
-function AreaEffectVisualizationComponent:OnAreaEffectVisualisationRequest(evt) return end
+function AreaEffectVisualizationComponent:OnAreaEffectVisualisationRequest(evt) end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function AreaEffectVisualizationComponent:OnHUDInstruction(evt) return end
+function AreaEffectVisualizationComponent:OnHUDInstruction(evt) end
 
----@protected
 ---@param evt QHackWheelItemChangedEvent
 ---@return Bool
-function AreaEffectVisualizationComponent:OnQHackWheelItemChanged(evt) return end
+function AreaEffectVisualizationComponent:OnQHackWheelItemChanged(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AreaEffectVisualizationComponent:OnRequestComponents(ri) return end
+function AreaEffectVisualizationComponent:OnRequestComponents(ri) end
 
----@protected
 ---@param evt ResponseEvent
 ---@return Bool
-function AreaEffectVisualizationComponent:OnResponse(evt) return end
+function AreaEffectVisualizationComponent:OnResponse(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AreaEffectVisualizationComponent:OnTakeControl(ri) return end
+function AreaEffectVisualizationComponent:OnTakeControl(ri) end
 
----@protected
 ---@param bucketName CName|string
 ---@param entityID entEntityID
 ---@return nil
-function AreaEffectVisualizationComponent:AddTargetToBucket(bucketName, entityID) return end
+function AreaEffectVisualizationComponent:AddTargetToBucket(bucketName, entityID) end
 
----@protected
 ---@param data FocusForcedHighlightData
 ---@return nil
-function AreaEffectVisualizationComponent:CancelForcedVisionAppearance(data) return end
+function AreaEffectVisualizationComponent:CancelForcedVisionAppearance(data) end
 
----@protected
 ---@param data FocusForcedHighlightData
 ---@return nil
-function AreaEffectVisualizationComponent:ForceVisionAppearance(data) return end
+function AreaEffectVisualizationComponent:ForceVisionAppearance(data) end
 
----@protected
 ---@return FxResourceMapperComponent
-function AreaEffectVisualizationComponent:GetFxMapper() return end
+function AreaEffectVisualizationComponent:GetFxMapper() end
 
----@protected
 ---@param bucketName CName|string
 ---@return nil
-function AreaEffectVisualizationComponent:RemoveBucket(bucketName) return end
+function AreaEffectVisualizationComponent:RemoveBucket(bucketName) end
 
 ---@param activated Bool
 ---@param instanceState InstanceState
 ---@return nil
-function AreaEffectVisualizationComponent:ResolveAreaEffectVisualisations(activated, instanceState) return end
+function AreaEffectVisualizationComponent:ResolveAreaEffectVisualisations(activated, instanceState) end
 
----@protected
 ---@param show Bool
 ---@return nil
-function AreaEffectVisualizationComponent:ResolveAreaEffectsInFocusModeVisibility(show) return end
+function AreaEffectVisualizationComponent:ResolveAreaEffectsInFocusModeVisibility(show) end
 
----@protected
 ---@param show Bool
 ---@param instanceState InstanceState
 ---@return nil
-function AreaEffectVisualizationComponent:ResolveAreaEffectsVisibility(show, instanceState) return end
+function AreaEffectVisualizationComponent:ResolveAreaEffectsVisibility(show, instanceState) end
 
----@protected
 ---@param show Bool
 ---@return nil
-function AreaEffectVisualizationComponent:ResolveAreaQuickHacksVisibility(show) return end
+function AreaEffectVisualizationComponent:ResolveAreaQuickHacksVisibility(show) end
 
----@protected
 ---@param show Bool
 ---@param action BaseScriptableAction
 ---@return nil
-function AreaEffectVisualizationComponent:ResolveAreaQuickHacksVisibility(show, action) return end
+function AreaEffectVisualizationComponent:ResolveAreaQuickHacksVisibility(show, action) end
 
----@protected
 ---@param show Bool
 ---@return nil
-function AreaEffectVisualizationComponent:ResolveAreaSpiderbotVisibility(show) return end
+function AreaEffectVisualizationComponent:ResolveAreaSpiderbotVisibility(show) end
 
----@protected
 ---@param bucketName CName|string
 ---@param evt redEvent
 ---@return nil
-function AreaEffectVisualizationComponent:SendEventToBucket(bucketName, evt) return end
+function AreaEffectVisualizationComponent:SendEventToBucket(bucketName, evt) end
 
----@protected
 ---@param effectData AreaEffectData
 ---@return nil
-function AreaEffectVisualizationComponent:StartDrawingAreaEffectRange(effectData) return end
+function AreaEffectVisualizationComponent:StartDrawingAreaEffectRange(effectData) end
 
----@protected
 ---@param effectDataIDX Int32
 ---@param responseData? IScriptable
 ---@return nil
-function AreaEffectVisualizationComponent:StartHighlightingTargets(effectDataIDX, responseData) return end
+function AreaEffectVisualizationComponent:StartHighlightingTargets(effectDataIDX, responseData) end
 
----@protected
 ---@param effectData AreaEffectData
 ---@return nil
-function AreaEffectVisualizationComponent:StopDrawingAreaEffectRange(effectData) return end
+function AreaEffectVisualizationComponent:StopDrawingAreaEffectRange(effectData) end
 
----@protected
 ---@param effectDataIDX Int32
 ---@param responseData? IScriptable
 ---@return nil
-function AreaEffectVisualizationComponent:StopHighlightingTargets(effectDataIDX, responseData) return end
+function AreaEffectVisualizationComponent:StopHighlightingTargets(effectDataIDX, responseData) end
 
----@protected
 ---@param effectDataIDX Int32
 ---@param show Bool
 ---@param responseData? IScriptable
 ---@return nil
-function AreaEffectVisualizationComponent:ToggleAreaEffectVisibility(effectDataIDX, show, responseData) return end
+function AreaEffectVisualizationComponent:ToggleAreaEffectVisibility(effectDataIDX, show, responseData) end

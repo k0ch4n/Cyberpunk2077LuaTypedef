@@ -1,79 +1,67 @@
 ---@meta
 
 ---@class SecurityGateLockControllerPS: ScriptableDeviceComponentPS
----@field public tresspasserList TrespasserEntry[]
----@field public entranceToken entEntityID
----@field public isLeaving Bool
----@field public isLocked Bool
+---@field tresspasserList TrespasserEntry[]
+---@field entranceToken entEntityID
+---@field isLeaving Bool
+---@field isLocked Bool
 SecurityGateLockControllerPS = {}
 
 ---@param fields? SecurityGateLockControllerPS
 ---@return SecurityGateLockControllerPS
-function SecurityGateLockControllerPS.new(fields) return end
+function SecurityGateLockControllerPS.new(fields) end
 
----@private
 ---@param trespasser ScriptedPuppet
 ---@param areaName CName|string
 ---@return nil
-function SecurityGateLockControllerPS:AddTrespasserEntry(trespasser, areaName) return end
+function SecurityGateLockControllerPS:AddTrespasserEntry(trespasser, areaName) end
 
----@protected
 ---@return TweakDBID
-function SecurityGateLockControllerPS:GetBackgroundTextureTweakDBID() return end
+function SecurityGateLockControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SecurityGateLockControllerPS:GetDeviceIconTweakDBID() return end
+function SecurityGateLockControllerPS:GetDeviceIconTweakDBID() end
 
----@private
 ---@param t TrespasserEntry
 ---@return Bool
-function SecurityGateLockControllerPS:IsLegallyLeaving(t) return end
+function SecurityGateLockControllerPS:IsLegallyLeaving(t) end
 
 ---@return Bool
-function SecurityGateLockControllerPS:IsLocked() return end
+function SecurityGateLockControllerPS:IsLocked() end
 
----@private
 ---@param trespasser ScriptedPuppet
 ---@return Bool, Int32 index
-function SecurityGateLockControllerPS:IsTrespasserOnTheList(trespasser) return end
+function SecurityGateLockControllerPS:IsTrespasserOnTheList(trespasser) end
 
----@private
 ---@param index Int32
 ---@return Bool
-function SecurityGateLockControllerPS:IsTrespasserOutside(index) return end
+function SecurityGateLockControllerPS:IsTrespasserOutside(index) end
 
----@private
 ---@param expireToken Bool
 ---@return nil
-function SecurityGateLockControllerPS:LockGate(expireToken) return end
+function SecurityGateLockControllerPS:LockGate(expireToken) end
 
----@private
 ---@param evt SecurityGateForceUnlock
 ---@return EntityNotificationType
-function SecurityGateLockControllerPS:OnForceUnlock(evt) return end
+function SecurityGateLockControllerPS:OnForceUnlock(evt) end
 
----@private
 ---@param index Int32
 ---@return nil
-function SecurityGateLockControllerPS:RemoveTrespasserEntry(index) return end
+function SecurityGateLockControllerPS:RemoveTrespasserEntry(index) end
 
----@private
 ---@return nil
-function SecurityGateLockControllerPS:UnlockGate() return end
+function SecurityGateLockControllerPS:UnlockGate() end
 
----@private
 ---@return nil
-function SecurityGateLockControllerPS:UpdateGatePosition() return end
+function SecurityGateLockControllerPS:UpdateGatePosition() end
 
----@private
 ---@param index Int32
 ---@param isEntering Bool
 ---@param areaName CName|string
 ---@return nil
-function SecurityGateLockControllerPS:UpdateTrespasserEntry(index, isEntering, areaName) return end
+function SecurityGateLockControllerPS:UpdateTrespasserEntry(index, isEntering, areaName) end
 
 ---@param evt entTriggerEvent
 ---@param isEntering Bool
 ---@return nil
-function SecurityGateLockControllerPS:UpdateTrespassersList(evt, isEntering) return end
+function SecurityGateLockControllerPS:UpdateTrespassersList(evt, isEntering) end

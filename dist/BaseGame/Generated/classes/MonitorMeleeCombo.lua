@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class MonitorMeleeCombo: AIActionHelperTask
----@field public ExitComboBoolArgumentRef CName
----@field public PreviousReactionIntArgumentRef CName
----@field public CurrentAttackIntArgumentRef CName
----@field public ComboCountIntArgumentRef CName
----@field public ComboToIdleBoolArgumentRef CName
+---@field ExitComboBoolArgumentRef CName
+---@field PreviousReactionIntArgumentRef CName
+---@field CurrentAttackIntArgumentRef CName
+---@field ComboCountIntArgumentRef CName
+---@field ComboToIdleBoolArgumentRef CName
 MonitorMeleeCombo = {}
 
 ---@param fields? MonitorMeleeCombo
 ---@return MonitorMeleeCombo
-function MonitorMeleeCombo.new(fields) return end
+function MonitorMeleeCombo.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MonitorMeleeCombo:Deactivate(context) return end
+function MonitorMeleeCombo:Deactivate(context) end

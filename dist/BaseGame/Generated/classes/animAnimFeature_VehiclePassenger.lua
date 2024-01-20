@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class animAnimFeature_VehiclePassenger: animAnimFeature
----@field public overallForceMS Vector4
----@field public turnSpeed Float
----@field public bankSpeed Float
----@field public longitudinalForce Float
----@field public transversalForce Float
----@field public collisionForceLR Float
----@field public collisionForceFB Float
----@field public speed Float
----@field public inputLR Float
----@field public inputFB Float
----@field public inputGas Float
----@field public inputBreak Float
----@field public inputHandBreak Float
----@field public vehicleRoll Float
----@field public vehiclePitch Float
----@field public isCar Bool
----@field public inAir Bool
----@field public clutchInUse Bool
----@field public headCollision Bool
+---@field overallForceMS Vector4
+---@field turnSpeed Float
+---@field bankSpeed Float
+---@field longitudinalForce Float
+---@field transversalForce Float
+---@field collisionForceLR Float
+---@field collisionForceFB Float
+---@field speed Float
+---@field inputLR Float
+---@field inputFB Float
+---@field inputGas Float
+---@field inputBreak Float
+---@field inputHandBreak Float
+---@field vehicleRoll Float
+---@field vehiclePitch Float
+---@field isCar Bool
+---@field inAir Bool
+---@field clutchInUse Bool
+---@field headCollision Bool
 animAnimFeature_VehiclePassenger = {}
 
 ---@param fields? animAnimFeature_VehiclePassenger
 ---@return animAnimFeature_VehiclePassenger
-function animAnimFeature_VehiclePassenger.new(fields) return end
+function animAnimFeature_VehiclePassenger.new(fields) end

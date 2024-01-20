@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class animAnimNode_TransformRotator: animAnimNode_OnePoseInput
----@field public transform animTransformIndex
----@field public axis Vector3
----@field public valueScale Float
----@field public clamp Bool
----@field public angleMin Float
----@field public angleMax Float
----@field public angleValueNode animFloatLink
----@field public angleSpeedNode animFloatLink
+---@field transform animTransformIndex
+---@field axis Vector3
+---@field valueScale Float
+---@field clamp Bool
+---@field angleMin Float
+---@field angleMax Float
+---@field angleValueNode animFloatLink
+---@field angleSpeedNode animFloatLink
 animAnimNode_TransformRotator = {}
 
 ---@param fields? animAnimNode_TransformRotator
 ---@return animAnimNode_TransformRotator
-function animAnimNode_TransformRotator.new(fields) return end
+function animAnimNode_TransformRotator.new(fields) end

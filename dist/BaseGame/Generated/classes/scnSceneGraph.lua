@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnSceneGraph: ISerializable
----@field public graph scnSceneGraphNode[]
----@field public startNodes scnNodeId[]
----@field public endNodes scnNodeId[]
+---@field graph scnSceneGraphNode[]
+---@field startNodes scnNodeId[]
+---@field endNodes scnNodeId[]
 scnSceneGraph = {}
 
 ---@param fields? scnSceneGraph
 ---@return scnSceneGraph
-function scnSceneGraph.new(fields) return end
+function scnSceneGraph.new(fields) end

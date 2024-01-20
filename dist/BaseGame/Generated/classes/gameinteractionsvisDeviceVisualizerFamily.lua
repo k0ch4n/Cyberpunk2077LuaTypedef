@@ -5,4 +5,4 @@ gameinteractionsvisDeviceVisualizerFamily = {}
 
 ---@param fields? gameinteractionsvisDeviceVisualizerFamily
 ---@return gameinteractionsvisDeviceVisualizerFamily
-function gameinteractionsvisDeviceVisualizerFamily.new(fields) return end
+function gameinteractionsvisDeviceVisualizerFamily.new(fields) end

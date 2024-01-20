@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class ClothingSetIconButton: BaseButtonView
----@field private setIcon inkImageWidgetReference
----@field private currentIconFrame inkWidgetReference
----@field private iconID TweakDBID
+---@field setIcon inkImageWidgetReference
+---@field currentIconFrame inkWidgetReference
+---@field iconID TweakDBID
 ClothingSetIconButton = {}
 
 ---@param fields? ClothingSetIconButton
 ---@return ClothingSetIconButton
-function ClothingSetIconButton.new(fields) return end
+function ClothingSetIconButton.new(fields) end
 
----@protected
 ---@return Bool
-function ClothingSetIconButton:OnInitialize() return end
+function ClothingSetIconButton:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ClothingSetIconButton:OnSetIconClick(e) return end
+function ClothingSetIconButton:OnSetIconClick(e) end
 
----@protected
 ---@return Bool
-function ClothingSetIconButton:OnUninitialize() return end
+function ClothingSetIconButton:OnUninitialize() end
 
 ---@param iconID TweakDBID|string
 ---@param choosen Bool
 ---@return nil
-function ClothingSetIconButton:SetIcon(iconID, choosen) return end
+function ClothingSetIconButton:SetIcon(iconID, choosen) end

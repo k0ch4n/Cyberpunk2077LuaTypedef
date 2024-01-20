@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class FocusPerkTriggerd: redEvent
----@field public isActive Bool
+---@field isActive Bool
 FocusPerkTriggerd = {}
 
 ---@param fields? FocusPerkTriggerd
 ---@return FocusPerkTriggerd
-function FocusPerkTriggerd.new(fields) return end
+function FocusPerkTriggerd.new(fields) end

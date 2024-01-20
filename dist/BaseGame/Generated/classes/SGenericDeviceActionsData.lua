@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SGenericDeviceActionsData
----@field public toggleON SDeviceActionBoolData
----@field public togglePower SDeviceActionBoolData
+---@field toggleON SDeviceActionBoolData
+---@field togglePower SDeviceActionBoolData
 SGenericDeviceActionsData = {}
 
 ---@param fields? SGenericDeviceActionsData
 ---@return SGenericDeviceActionsData
-function SGenericDeviceActionsData.new(fields) return end
+function SGenericDeviceActionsData.new(fields) end

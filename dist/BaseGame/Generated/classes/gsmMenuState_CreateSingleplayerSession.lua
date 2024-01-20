@@ -5,4 +5,4 @@ gsmMenuState_CreateSingleplayerSession = {}
 
 ---@param fields? gsmMenuState_CreateSingleplayerSession
 ---@return gsmMenuState_CreateSingleplayerSession
-function gsmMenuState_CreateSingleplayerSession.new(fields) return end
+function gsmMenuState_CreateSingleplayerSession.new(fields) end

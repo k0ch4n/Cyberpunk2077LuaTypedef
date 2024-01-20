@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiRequestPopContextEvent: redEvent
----@field public context UIGameContext
----@field public invalidate Bool
+---@field context UIGameContext
+---@field invalidate Bool
 gameuiRequestPopContextEvent = {}
 
 ---@param fields? gameuiRequestPopContextEvent
 ---@return gameuiRequestPopContextEvent
-function gameuiRequestPopContextEvent.new(fields) return end
+function gameuiRequestPopContextEvent.new(fields) end

@@ -5,12 +5,12 @@ SkillCheckPrereqState = {}
 
 ---@param fields? SkillCheckPrereqState
 ---@return SkillCheckPrereqState
-function SkillCheckPrereqState.new(fields) return end
+function SkillCheckPrereqState.new(fields) end
 
 ---@return gamedataProficiencyType
-function SkillCheckPrereqState:GetSkillToCheck() return end
+function SkillCheckPrereqState:GetSkillToCheck() end
 
 ---@param obj gameObject
 ---@param newLevel Int32
 ---@return nil
-function SkillCheckPrereqState:UpdateSkillCheckPrereqData(obj, newLevel) return end
+function SkillCheckPrereqState:UpdateSkillCheckPrereqData(obj, newLevel) end

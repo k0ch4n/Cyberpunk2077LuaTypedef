@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class BlockStimProcessingCooldownEvent: redEvent
----@field public stimData StimIdentificationData
+---@field stimData StimIdentificationData
 BlockStimProcessingCooldownEvent = {}
 
 ---@param fields? BlockStimProcessingCooldownEvent
 ---@return BlockStimProcessingCooldownEvent
-function BlockStimProcessingCooldownEvent.new(fields) return end
+function BlockStimProcessingCooldownEvent.new(fields) end

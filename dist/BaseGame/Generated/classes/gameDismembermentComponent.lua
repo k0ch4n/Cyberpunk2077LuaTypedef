@@ -5,7 +5,7 @@ gameDismembermentComponent = {}
 
 ---@param fields? gameDismembermentComponent
 ---@return gameDismembermentComponent
-function gameDismembermentComponent.new(fields) return end
+function gameDismembermentComponent.new(fields) end
 
 ---@param obj gameObject
 ---@param bodyPart gameDismBodyPart
@@ -15,13 +15,13 @@ function gameDismembermentComponent.new(fields) return end
 ---@param debrisPath? String
 ---@param debrisStrength? Float
 ---@return nil
-function gameDismembermentComponent.RequestDismemberment(obj, bodyPart, woundType, hitPosition, isCritical, debrisPath, debrisStrength) return end
+function gameDismembermentComponent.RequestDismemberment(obj, bodyPart, woundType, hitPosition, isCritical, debrisPath, debrisStrength) end
 
 ---@param obj gameObject
 ---@param resourcePath String
 ---@param strength Float
 ---@return nil
-function gameDismembermentComponent.RequestGutsFromLastHit(obj, resourcePath, strength) return end
+function gameDismembermentComponent.RequestGutsFromLastHit(obj, resourcePath, strength) end
 
 ---@param bodyPart gameDismBodyPart
 ---@param woundType gameDismWoundType
@@ -30,32 +30,29 @@ function gameDismembermentComponent.RequestGutsFromLastHit(obj, resourcePath, st
 ---@param debrisPath? String
 ---@param debrisStrength? Float
 ---@return nil
-function gameDismembermentComponent:DoDismemberment(bodyPart, woundType, strength, isCritical, debrisPath, debrisStrength) return end
+function gameDismembermentComponent:DoDismemberment(bodyPart, woundType, strength, isCritical, debrisPath, debrisStrength) end
 
 ---@return gameDismemberedLimbCount
-function gameDismembermentComponent:GetDismemberedLimbCount() return end
+function gameDismembermentComponent:GetDismemberedLimbCount() end
 
 ---@param hitPosition Vector4
 ---@param strength Float
 ---@return nil
-function gameDismembermentComponent:ReportExplosion(hitPosition, strength) return end
+function gameDismembermentComponent:ReportExplosion(hitPosition, strength) end
 
 ---@param resourcePath String
 ---@param strength Float
 ---@return nil
-function gameDismembermentComponent:SpawnGutsFromLastHit(resourcePath, strength) return end
+function gameDismembermentComponent:SpawnGutsFromLastHit(resourcePath, strength) end
 
----@protected
 ---@param evt DismembermentEvent
 ---@return Bool
-function gameDismembermentComponent:OnDismemberment(evt) return end
+function gameDismembermentComponent:OnDismemberment(evt) end
 
----@protected
 ---@param evt DismembermentDebrisEvent
 ---@return Bool
-function gameDismembermentComponent:OnDismembermentDebris(evt) return end
+function gameDismembermentComponent:OnDismembermentDebris(evt) end
 
----@protected
 ---@param evt DismembermentExplosionEvent
 ---@return Bool
-function gameDismembermentComponent:OnDismembermentExplosion(evt) return end
+function gameDismembermentComponent:OnDismembermentExplosion(evt) end

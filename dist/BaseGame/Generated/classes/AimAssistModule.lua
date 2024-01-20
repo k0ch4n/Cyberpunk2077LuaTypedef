@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AimAssistModule: HUDModule
----@field private activeAssists AimAssist[]
+---@field activeAssists AimAssist[]
 AimAssistModule = {}
 
 ---@param fields? AimAssistModule
 ---@return AimAssistModule
-function AimAssistModule.new(fields) return end
+function AimAssistModule.new(fields) end

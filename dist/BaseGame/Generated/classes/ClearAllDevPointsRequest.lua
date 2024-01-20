@@ -5,8 +5,8 @@ ClearAllDevPointsRequest = {}
 
 ---@param fields? ClearAllDevPointsRequest
 ---@return ClearAllDevPointsRequest
-function ClearAllDevPointsRequest.new(fields) return end
+function ClearAllDevPointsRequest.new(fields) end
 
 ---@param _owner gameObject
 ---@return nil
-function ClearAllDevPointsRequest:Set(_owner) return end
+function ClearAllDevPointsRequest:Set(_owner) end

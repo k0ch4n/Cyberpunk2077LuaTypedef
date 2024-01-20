@@ -5,4 +5,4 @@ questPhonePrefabsListener = {}
 
 ---@param fields? questPhonePrefabsListener
 ---@return questPhonePrefabsListener
-function questPhonePrefabsListener.new(fields) return end
+function questPhonePrefabsListener.new(fields) end

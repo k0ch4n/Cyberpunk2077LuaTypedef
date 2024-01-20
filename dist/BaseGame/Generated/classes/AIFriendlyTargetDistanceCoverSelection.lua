@@ -5,4 +5,4 @@ AIFriendlyTargetDistanceCoverSelection = {}
 
 ---@param fields? AIFriendlyTargetDistanceCoverSelection
 ---@return AIFriendlyTargetDistanceCoverSelection
-function AIFriendlyTargetDistanceCoverSelection.new(fields) return end
+function AIFriendlyTargetDistanceCoverSelection.new(fields) end

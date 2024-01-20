@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SBaseActionOperationData
----@field public action ScriptableDeviceAction
----@field public operation SBaseDeviceOperationData
+---@field action ScriptableDeviceAction
+---@field operation SBaseDeviceOperationData
 SBaseActionOperationData = {}
 
 ---@param fields? SBaseActionOperationData
 ---@return SBaseActionOperationData
-function SBaseActionOperationData.new(fields) return end
+function SBaseActionOperationData.new(fields) end

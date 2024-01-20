@@ -5,4 +5,4 @@ TimeSkipHoverOverEvent = {}
 
 ---@param fields? TimeSkipHoverOverEvent
 ---@return TimeSkipHoverOverEvent
-function TimeSkipHoverOverEvent.new(fields) return end
+function TimeSkipHoverOverEvent.new(fields) end

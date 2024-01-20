@@ -5,4 +5,4 @@ AIbehaviorWaitSplineToFollowConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitSplineToFollowConditionDefinition
 ---@return AIbehaviorWaitSplineToFollowConditionDefinition
-function AIbehaviorWaitSplineToFollowConditionDefinition.new(fields) return end
+function AIbehaviorWaitSplineToFollowConditionDefinition.new(fields) end

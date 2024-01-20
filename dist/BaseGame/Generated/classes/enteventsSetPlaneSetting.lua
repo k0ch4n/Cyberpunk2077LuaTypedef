@@ -5,4 +5,4 @@ enteventsSetPlaneSetting = {}
 
 ---@param fields? enteventsSetPlaneSetting
 ---@return enteventsSetPlaneSetting
-function enteventsSetPlaneSetting.new(fields) return end
+function enteventsSetPlaneSetting.new(fields) end

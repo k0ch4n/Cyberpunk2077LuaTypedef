@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class worldMeshNode: worldNode
----@field public mesh CMesh
----@field public meshAppearance CName
----@field public forceAutoHideDistance Float
----@field public occluderType visWorldOccluderType
----@field public occluderAutohideDistanceScale Uint8
----@field public castShadows shadowsShadowCastingMode
----@field public castLocalShadows shadowsShadowCastingMode
----@field public castRayTracedGlobalShadows shadowsShadowCastingMode
----@field public castRayTracedLocalShadows shadowsShadowCastingMode
----@field public windImpulseEnabled Bool
----@field public removeFromRainMap Bool
----@field public renderSceneLayerMask RenderSceneLayerMask
----@field public lodLevelScales Uint32
----@field public version Uint8
+---@field mesh CMesh
+---@field meshAppearance CName
+---@field forceAutoHideDistance Float
+---@field occluderType visWorldOccluderType
+---@field occluderAutohideDistanceScale Uint8
+---@field castShadows shadowsShadowCastingMode
+---@field castLocalShadows shadowsShadowCastingMode
+---@field castRayTracedGlobalShadows shadowsShadowCastingMode
+---@field castRayTracedLocalShadows shadowsShadowCastingMode
+---@field windImpulseEnabled Bool
+---@field removeFromRainMap Bool
+---@field renderSceneLayerMask RenderSceneLayerMask
+---@field lodLevelScales Uint32
+---@field version Uint8
 worldMeshNode = {}
 
 ---@param fields? worldMeshNode
 ---@return worldMeshNode
-function worldMeshNode.new(fields) return end
+function worldMeshNode.new(fields) end

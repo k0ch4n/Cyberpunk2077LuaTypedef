@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class StimTargetsEvent: redEvent
----@field public targets StimTargetData[]
----@field public restore Bool
+---@field targets StimTargetData[]
+---@field restore Bool
 StimTargetsEvent = {}
 
 ---@param fields? StimTargetsEvent
 ---@return StimTargetsEvent
-function StimTargetsEvent.new(fields) return end
+function StimTargetsEvent.new(fields) end
 
 ---@return String
-function StimTargetsEvent:GetFriendlyDescription() return end
+function StimTargetsEvent:GetFriendlyDescription() end

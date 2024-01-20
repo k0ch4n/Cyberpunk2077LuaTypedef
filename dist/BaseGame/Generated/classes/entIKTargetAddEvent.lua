@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class entIKTargetAddEvent: entAnimTargetAddEvent
----@field public outIKTargetRef animIKTargetRef
----@field public orientationProvider entIOrientationProvider
----@field public request animIKTargetRequest
+---@field outIKTargetRef animIKTargetRef
+---@field orientationProvider entIOrientationProvider
+---@field request animIKTargetRequest
 entIKTargetAddEvent = {}
 
 ---@param fields? entIKTargetAddEvent
 ---@return entIKTargetAddEvent
-function entIKTargetAddEvent.new(fields) return end
+function entIKTargetAddEvent.new(fields) end
 
 ---@param targetEntity entEntity
 ---@param slotTargetName CName|string
 ---@param orientationOffsetEntitySpace Quaternion
 ---@return nil
-function entIKTargetAddEvent:SetEntityOrientationTarget(targetEntity, slotTargetName, orientationOffsetEntitySpace) return end
+function entIKTargetAddEvent:SetEntityOrientationTarget(targetEntity, slotTargetName, orientationOffsetEntitySpace) end
 
 ---@param staticOrientationWs Quaternion
 ---@return nil
-function entIKTargetAddEvent:SetStaticOrientationTarget(staticOrientationWs) return end
+function entIKTargetAddEvent:SetStaticOrientationTarget(staticOrientationWs) end

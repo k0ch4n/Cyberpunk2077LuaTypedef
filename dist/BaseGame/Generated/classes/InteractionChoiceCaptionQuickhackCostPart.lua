@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class InteractionChoiceCaptionQuickhackCostPart: gameinteractionsChoiceCaptionScriptPart
----@field public cost Int32
+---@field cost Int32
 InteractionChoiceCaptionQuickhackCostPart = {}
 
 ---@param fields? InteractionChoiceCaptionQuickhackCostPart
 ---@return InteractionChoiceCaptionQuickhackCostPart
-function InteractionChoiceCaptionQuickhackCostPart.new(fields) return end
+function InteractionChoiceCaptionQuickhackCostPart.new(fields) end
 
----@protected
 ---@return gamedataChoiceCaptionPartType
-function InteractionChoiceCaptionQuickhackCostPart:GetPartType() return end
+function InteractionChoiceCaptionQuickhackCostPart:GetPartType() end

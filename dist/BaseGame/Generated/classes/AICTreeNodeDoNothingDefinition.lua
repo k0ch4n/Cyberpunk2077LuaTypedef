@@ -5,4 +5,4 @@ AICTreeNodeDoNothingDefinition = {}
 
 ---@param fields? AICTreeNodeDoNothingDefinition
 ---@return AICTreeNodeDoNothingDefinition
-function AICTreeNodeDoNothingDefinition.new(fields) return end
+function AICTreeNodeDoNothingDefinition.new(fields) end

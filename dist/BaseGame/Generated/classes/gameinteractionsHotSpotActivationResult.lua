@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsHotSpotActivationResult
----@field public priority Float
+---@field priority Float
 gameinteractionsHotSpotActivationResult = {}
 
 ---@param fields? gameinteractionsHotSpotActivationResult
 ---@return gameinteractionsHotSpotActivationResult
-function gameinteractionsHotSpotActivationResult.new(fields) return end
+function gameinteractionsHotSpotActivationResult.new(fields) end

@@ -5,9 +5,8 @@ WasNPCForcedToJoinCrowd = {}
 
 ---@param fields? WasNPCForcedToJoinCrowd
 ---@return WasNPCForcedToJoinCrowd
-function WasNPCForcedToJoinCrowd.new(fields) return end
+function WasNPCForcedToJoinCrowd.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function WasNPCForcedToJoinCrowd:Check(context) return end
+function WasNPCForcedToJoinCrowd:Check(context) end

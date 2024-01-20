@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class physicsTriggerShape
----@field public shapeType physicsShapeType
----@field public shapeSize Vector3
----@field public shapeLocalPose Transform
+---@field shapeType physicsShapeType
+---@field shapeSize Vector3
+---@field shapeLocalPose Transform
 physicsTriggerShape = {}
 
 ---@param fields? physicsTriggerShape
 ---@return physicsTriggerShape
-function physicsTriggerShape.new(fields) return end
+function physicsTriggerShape.new(fields) end

@@ -5,4 +5,4 @@ gameEffectComponentBinding = {}
 
 ---@param fields? gameEffectComponentBinding
 ---@return gameEffectComponentBinding
-function gameEffectComponentBinding.new(fields) return end
+function gameEffectComponentBinding.new(fields) end

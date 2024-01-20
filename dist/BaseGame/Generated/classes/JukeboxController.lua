@@ -5,7 +5,7 @@ JukeboxController = {}
 
 ---@param fields? JukeboxController
 ---@return JukeboxController
-function JukeboxController.new(fields) return end
+function JukeboxController.new(fields) end
 
 ---@return JukeboxControllerPS
-function JukeboxController:GetPS() return end
+function JukeboxController:GetPS() end

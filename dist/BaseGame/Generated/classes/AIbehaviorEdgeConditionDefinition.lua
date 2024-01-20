@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorEdgeConditionDefinition: AIbehaviorUnaryConditionDefinition
----@field public risingEdgeAction AIbehaviorEdgeConditionAction
----@field public fallingEdgeAction AIbehaviorEdgeConditionAction
----@field public initialValue Bool
+---@field risingEdgeAction AIbehaviorEdgeConditionAction
+---@field fallingEdgeAction AIbehaviorEdgeConditionAction
+---@field initialValue Bool
 AIbehaviorEdgeConditionDefinition = {}
 
 ---@param fields? AIbehaviorEdgeConditionDefinition
 ---@return AIbehaviorEdgeConditionDefinition
-function AIbehaviorEdgeConditionDefinition.new(fields) return end
+function AIbehaviorEdgeConditionDefinition.new(fields) end

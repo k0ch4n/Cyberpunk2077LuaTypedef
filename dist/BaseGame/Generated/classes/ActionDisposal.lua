@@ -5,7 +5,7 @@ ActionDisposal = {}
 
 ---@param fields? ActionDisposal
 ---@return ActionDisposal
-function ActionDisposal.new(fields) return end
+function ActionDisposal.new(fields) end
 
 ---@return nil
-function ActionDisposal:CompleteAction() return end
+function ActionDisposal:CompleteAction() end

@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class CodexImageButton: CodexListItemController
----@field protected image inkImageWidgetReference
----@field protected border inkImageWidgetReference
----@field protected translateOnSelect inkWidgetReference
----@field protected selectTranslationX Float
+---@field image inkImageWidgetReference
+---@field border inkImageWidgetReference
+---@field translateOnSelect inkWidgetReference
+---@field selectTranslationX Float
 CodexImageButton = {}
 
 ---@param fields? CodexImageButton
 ---@return CodexImageButton
-function CodexImageButton.new(fields) return end
+function CodexImageButton.new(fields) end
 
----@protected
 ---@param value IScriptable
 ---@return Bool
-function CodexImageButton:OnDataChanged(value) return end
+function CodexImageButton:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function CodexImageButton:OnInitialize() return end
+function CodexImageButton:OnInitialize() end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function CodexImageButton:OnToggledOff(target) return end
+function CodexImageButton:OnToggledOff(target) end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function CodexImageButton:OnToggledOn(target) return end
+function CodexImageButton:OnToggledOn(target) end
 
----@protected
 ---@param data JournalRepresentationData
 ---@return CName
-function CodexImageButton:ExtractImage(data) return end
+function CodexImageButton:ExtractImage(data) end

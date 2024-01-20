@@ -1,76 +1,69 @@
 ---@meta
 
 ---@class RipperdocSelectorController: inkWidgetLogicController
----@field private label inkTextWidgetReference
----@field private leftArrowAnchor inkWidgetReference
----@field private rightArrowAnchor inkWidgetReference
----@field private indicatorAnchors inkWidgetReference[]
----@field private leftArrow inkButtonController
----@field private rightArrow inkButtonController
----@field private indicatorIndex Int32
----@field private indicatorShowAnim inkanimProxy
----@field private indicatorHideAnim inkanimProxy
----@field private isInTutorial Bool
----@field private names String[]
+---@field label inkTextWidgetReference
+---@field leftArrowAnchor inkWidgetReference
+---@field rightArrowAnchor inkWidgetReference
+---@field indicatorAnchors inkWidgetReference[]
+---@field leftArrow inkButtonController
+---@field rightArrow inkButtonController
+---@field indicatorIndex Int32
+---@field indicatorShowAnim inkanimProxy
+---@field indicatorHideAnim inkanimProxy
+---@field isInTutorial Bool
+---@field names String[]
 RipperdocSelectorController = {}
 
 ---@param fields? RipperdocSelectorController
 ---@return RipperdocSelectorController
-function RipperdocSelectorController.new(fields) return end
+function RipperdocSelectorController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function RipperdocSelectorController:OnReleaseInput(e) return end
+function RipperdocSelectorController:OnReleaseInput(e) end
 
----@protected
 ---@return Bool
-function RipperdocSelectorController:OnUninitialize() return end
+function RipperdocSelectorController:OnUninitialize() end
 
 ---@param names String[]
 ---@return nil
-function RipperdocSelectorController:Configure(names) return end
+function RipperdocSelectorController:Configure(names) end
 
 ---@return Int32
-function RipperdocSelectorController:GetIndicatorIndex() return end
+function RipperdocSelectorController:GetIndicatorIndex() end
 
 ---@return nil
-function RipperdocSelectorController:Hide() return end
+function RipperdocSelectorController:Hide() end
 
----@private
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function RipperdocSelectorController:OnLeftArrow(controller, oldState, newState) return end
+function RipperdocSelectorController:OnLeftArrow(controller, oldState, newState) end
 
----@private
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function RipperdocSelectorController:OnRightArrow(controller, oldState, newState) return end
+function RipperdocSelectorController:OnRightArrow(controller, oldState, newState) end
 
----@private
 ---@param index Int32
 ---@param toActive Bool
 ---@return nil
-function RipperdocSelectorController:SetIndicator(index, toActive) return end
+function RipperdocSelectorController:SetIndicator(index, toActive) end
 
 ---@param isInTutorial Bool
 ---@return nil
-function RipperdocSelectorController:SetIsInTutorial(isInTutorial) return end
+function RipperdocSelectorController:SetIsInTutorial(isInTutorial) end
 
 ---@param index Int32
 ---@return nil
-function RipperdocSelectorController:Show(index) return end
+function RipperdocSelectorController:Show(index) end
 
----@private
 ---@param toNext Bool
 ---@return nil
-function RipperdocSelectorController:SwitchIndicator(toNext) return end
+function RipperdocSelectorController:SwitchIndicator(toNext) end
 
----@private
 ---@param index Int32
 ---@return Int32
-function RipperdocSelectorController:WrapIndex(index) return end
+function RipperdocSelectorController:WrapIndex(index) end

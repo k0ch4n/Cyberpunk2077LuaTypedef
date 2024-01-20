@@ -1,61 +1,58 @@
 ---@meta
 
 ---@class VehicleBrandFilterLogicController: BaseButtonView
----@field private brandLogo inkImageWidgetReference
----@field private brandText inkTextWidgetReference
----@field private brand CName
----@field private brandAsString String
----@field private state EVehicleBrandState
----@field private isHovered Bool
----@field private styleWidget inkWidget
----@field private newOffers CName[]
+---@field brandLogo inkImageWidgetReference
+---@field brandText inkTextWidgetReference
+---@field brand CName
+---@field brandAsString String
+---@field state EVehicleBrandState
+---@field isHovered Bool
+---@field styleWidget inkWidget
+---@field newOffers CName[]
 VehicleBrandFilterLogicController = {}
 
 ---@param fields? VehicleBrandFilterLogicController
 ---@return VehicleBrandFilterLogicController
-function VehicleBrandFilterLogicController.new(fields) return end
+function VehicleBrandFilterLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function VehicleBrandFilterLogicController:OnInitialize() return end
+function VehicleBrandFilterLogicController:OnInitialize() end
 
 ---@param offerFact CName|string
 ---@return nil
-function VehicleBrandFilterLogicController:AddNewOffer(offerFact) return end
+function VehicleBrandFilterLogicController:AddNewOffer(offerFact) end
 
----@protected
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function VehicleBrandFilterLogicController:ButtonStateChanged(oldState, newState) return end
+function VehicleBrandFilterLogicController:ButtonStateChanged(oldState, newState) end
 
 ---@return CName
-function VehicleBrandFilterLogicController:GetBrand() return end
+function VehicleBrandFilterLogicController:GetBrand() end
 
 ---@return Bool
-function VehicleBrandFilterLogicController:HasNewOffers() return end
+function VehicleBrandFilterLogicController:HasNewOffers() end
 
 ---@return nil
-function VehicleBrandFilterLogicController:RefreshState() return end
+function VehicleBrandFilterLogicController:RefreshState() end
 
 ---@param offerFact CName|string
 ---@return nil
-function VehicleBrandFilterLogicController:RemoveNewOffer(offerFact) return end
+function VehicleBrandFilterLogicController:RemoveNewOffer(offerFact) end
 
 ---@param isHovered Bool
 ---@return nil
-function VehicleBrandFilterLogicController:SetHoverState(isHovered) return end
+function VehicleBrandFilterLogicController:SetHoverState(isHovered) end
 
 ---@param brand CName|string
 ---@param state EVehicleBrandState
 ---@return nil
-function VehicleBrandFilterLogicController:SetUp(brand, state) return end
+function VehicleBrandFilterLogicController:SetUp(brand, state) end
 
----@private
 ---@param state EVehicleBrandState
 ---@return CName
-function VehicleBrandFilterLogicController:StateValueToName(state) return end
+function VehicleBrandFilterLogicController:StateValueToName(state) end
 
 ---@param state EVehicleBrandState
 ---@return nil
-function VehicleBrandFilterLogicController:UpdateState(state) return end
+function VehicleBrandFilterLogicController:UpdateState(state) end

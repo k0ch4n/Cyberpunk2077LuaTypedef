@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class worldWeatherState: ISerializable
----@field public minDuration curveData
----@field public maxDuration curveData
----@field public environmentAreaParameters worldEnvironmentAreaParameters
----@field public effect worldEffect
----@field public name CName
----@field public probability curveData
----@field public transitionDuration curveData
+---@field minDuration curveData
+---@field maxDuration curveData
+---@field environmentAreaParameters worldEnvironmentAreaParameters
+---@field effect worldEffect
+---@field name CName
+---@field probability curveData
+---@field transitionDuration curveData
 worldWeatherState = {}
 
 ---@param fields? worldWeatherState
 ---@return worldWeatherState
-function worldWeatherState.new(fields) return end
+function worldWeatherState.new(fields) end

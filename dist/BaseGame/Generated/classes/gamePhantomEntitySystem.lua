@@ -5,4 +5,4 @@ gamePhantomEntitySystem = {}
 
 ---@param fields? gamePhantomEntitySystem
 ---@return gamePhantomEntitySystem
-function gamePhantomEntitySystem.new(fields) return end
+function gamePhantomEntitySystem.new(fields) end

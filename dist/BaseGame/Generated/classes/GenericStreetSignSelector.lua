@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class GenericStreetSignSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field recordID TweakDBID
 GenericStreetSignSelector = {}
 
 ---@param fields? GenericStreetSignSelector
 ---@return GenericStreetSignSelector
-function GenericStreetSignSelector.new(fields) return end
+function GenericStreetSignSelector.new(fields) end
 
 ---@return TweakDBID
-function GenericStreetSignSelector:GetRecordID() return end
+function GenericStreetSignSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function GenericStreetSignSelector:SetRecordID(recordID) return end
+function GenericStreetSignSelector:SetRecordID(recordID) end

@@ -1,378 +1,332 @@
 ---@meta
 
 ---@class PlayerDevelopmentSystem: gameScriptableSystem
----@field private playerData PlayerDevelopmentData[]
----@field private playerDevelopmentUpdated Bool
----@field private progressionBuildUpdated Bool
+---@field playerData PlayerDevelopmentData[]
+---@field playerDevelopmentUpdated Bool
+---@field progressionBuildUpdated Bool
 PlayerDevelopmentSystem = {}
 
 ---@param fields? PlayerDevelopmentSystem
 ---@return PlayerDevelopmentSystem
-function PlayerDevelopmentSystem.new(fields) return end
+function PlayerDevelopmentSystem.new(fields) end
 
 ---@param player PlayerPuppet
 ---@param perkType gamedataNewPerkType
 ---@return CanSellNewPerkResult
-function PlayerDevelopmentSystem.CanSellNewPerk(player, perkType) return end
+function PlayerDevelopmentSystem.CanSellNewPerk(player, perkType) end
 
 ---@param player PlayerPuppet
 ---@return CanSellNewPerkResult
-function PlayerDevelopmentSystem.CanSellNewPerks(player) return end
+function PlayerDevelopmentSystem.CanSellNewPerks(player) end
 
 ---@param owner gameObject
 ---@return PlayerDevelopmentData
-function PlayerDevelopmentSystem.GetData(owner) return end
+function PlayerDevelopmentSystem.GetData(owner) end
 
 ---@param owner gameObject
 ---@return PlayerDevelopmentSystem
-function PlayerDevelopmentSystem.GetInstance(owner) return end
+function PlayerDevelopmentSystem.GetInstance(owner) end
 
 ---@param owner gameObject
 ---@param obj gameObject
 ---@param type gamedataStatType
 ---@return Bool
-function PlayerDevelopmentSystem:BuyAttribute(owner, obj, type) return end
+function PlayerDevelopmentSystem:BuyAttribute(owner, obj, type) end
 
----@private
 ---@param owner gameObject
 ---@param perkType gamedataNewPerkType
 ---@return Bool
-function PlayerDevelopmentSystem:BuyNewPerk(owner, perkType) return end
+function PlayerDevelopmentSystem:BuyNewPerk(owner, perkType) end
 
 ---@param owner gameObject
 ---@return SAttribute[]
-function PlayerDevelopmentSystem:GetAttributes(owner) return end
+function PlayerDevelopmentSystem:GetAttributes(owner) end
 
 ---@param owner gameObject
 ---@param type gamedataProficiencyType
 ---@return Int32
-function PlayerDevelopmentSystem:GetCurrentLevelProficiencyExp(owner, type) return end
+function PlayerDevelopmentSystem:GetCurrentLevelProficiencyExp(owner, type) end
 
 ---@param owner gameObject
 ---@param type gamedataDevelopmentPointType
 ---@return Int32
-function PlayerDevelopmentSystem:GetDevPoints(owner, type) return end
+function PlayerDevelopmentSystem:GetDevPoints(owner, type) end
 
----@private
 ---@param owner gameObject
 ---@return PlayerDevelopmentData
-function PlayerDevelopmentSystem:GetDevelopmentData(owner) return end
+function PlayerDevelopmentSystem:GetDevelopmentData(owner) end
 
 ---@param owner gameObject
 ---@return gamedataProficiencyType
-function PlayerDevelopmentSystem:GetDominatingCombatProficiency(owner) return end
+function PlayerDevelopmentSystem:GetDominatingCombatProficiency(owner) end
 
 ---@param owner gameObject
 ---@return Int32
-function PlayerDevelopmentSystem:GetHighestCompletedMinigameLevel(owner) return end
+function PlayerDevelopmentSystem:GetHighestCompletedMinigameLevel(owner) end
 
 ---@param owner gameObject
 ---@return Bool
-function PlayerDevelopmentSystem:GetIsProgressionBuildSetCompleted(owner) return end
+function PlayerDevelopmentSystem:GetIsProgressionBuildSetCompleted(owner) end
 
 ---@param owner gameObject
 ---@return gamedataLifePath
-function PlayerDevelopmentSystem:GetLifePath(owner) return end
+function PlayerDevelopmentSystem:GetLifePath(owner) end
 
 ---@param owner gameObject
 ---@param type gamedataPerkType
 ---@return Int32
-function PlayerDevelopmentSystem:GetPerkLevel(owner, type) return end
+function PlayerDevelopmentSystem:GetPerkLevel(owner, type) end
 
 ---@param owner gameObject
 ---@param type gamedataNewPerkType
 ---@return Int32
-function PlayerDevelopmentSystem:GetPerkLevel(owner, type) return end
+function PlayerDevelopmentSystem:GetPerkLevel(owner, type) end
 
 ---@param owner gameObject
 ---@param type gamedataNewPerkType
 ---@return Int32
-function PlayerDevelopmentSystem:GetPerkMaxLevel(owner, type) return end
+function PlayerDevelopmentSystem:GetPerkMaxLevel(owner, type) end
 
 ---@param owner gameObject
 ---@param type gamedataPerkType
 ---@return Int32
-function PlayerDevelopmentSystem:GetPerkMaxLevel(owner, type) return end
+function PlayerDevelopmentSystem:GetPerkMaxLevel(owner, type) end
 
 ---@param owner gameObject
 ---@return SPerk[]
-function PlayerDevelopmentSystem:GetPerks(owner) return end
+function PlayerDevelopmentSystem:GetPerks(owner) end
 
 ---@param owner gameObject
 ---@param type gamedataProficiencyType
 ---@return Int32
-function PlayerDevelopmentSystem:GetProficiencyAbsoluteMaxLevel(owner, type) return end
+function PlayerDevelopmentSystem:GetProficiencyAbsoluteMaxLevel(owner, type) end
 
 ---@param owner gameObject
 ---@param type gamedataProficiencyType
 ---@return Int32
-function PlayerDevelopmentSystem:GetProficiencyLevel(owner, type) return end
+function PlayerDevelopmentSystem:GetProficiencyLevel(owner, type) end
 
----@private
 ---@param type gamedataProficiencyType
 ---@return gamedataProficiency_Record
-function PlayerDevelopmentSystem:GetProficiencyRecord(type) return end
+function PlayerDevelopmentSystem:GetProficiencyRecord(type) end
 
 ---@param owner gameObject
 ---@param type gamedataProficiencyType
 ---@return Int32
-function PlayerDevelopmentSystem:GetRemainingExpForLevelUp(owner, type) return end
+function PlayerDevelopmentSystem:GetRemainingExpForLevelUp(owner, type) end
 
 ---@param owner gameObject
 ---@param type gamedataProficiencyType
 ---@return Int32
-function PlayerDevelopmentSystem:GetTotalProfExperience(owner, type) return end
+function PlayerDevelopmentSystem:GetTotalProfExperience(owner, type) end
 
----@private
 ---@return nil
-function PlayerDevelopmentSystem:GrantFreeRespec() return end
+function PlayerDevelopmentSystem:GrantFreeRespec() end
 
 ---@param owner gameObject
 ---@param type gamedataPerkType
 ---@return Bool
-function PlayerDevelopmentSystem:HasPerk(owner, type) return end
+function PlayerDevelopmentSystem:HasPerk(owner, type) end
 
 ---@param owner gameObject
 ---@param perkType gamedataNewPerkType
 ---@return Int32
-function PlayerDevelopmentSystem:IsNewPerkBought(owner, perkType) return end
+function PlayerDevelopmentSystem:IsNewPerkBought(owner, perkType) end
 
 ---@param owner gameObject
 ---@param perkType gamedataNewPerkType
 ---@return Bool
-function PlayerDevelopmentSystem:IsNewPerkUnlocked(owner, perkType) return end
+function PlayerDevelopmentSystem:IsNewPerkUnlocked(owner, perkType) end
 
 ---@param owner gameObject
 ---@param perk gamedataPerkType
 ---@return Bool
-function PlayerDevelopmentSystem:IsPerkImplemented(owner, perk) return end
+function PlayerDevelopmentSystem:IsPerkImplemented(owner, perk) end
 
 ---@param owner gameObject
 ---@param type gamedataProficiencyType
 ---@return Bool
-function PlayerDevelopmentSystem:IsProficiencyMaxLvl(owner, type) return end
+function PlayerDevelopmentSystem:IsProficiencyMaxLvl(owner, type) end
 
----@private
 ---@param owner gameObject
 ---@param perkType gamedataNewPerkType
 ---@return Bool
-function PlayerDevelopmentSystem:LockNewPerk(owner, perkType) return end
+function PlayerDevelopmentSystem:LockNewPerk(owner, perkType) end
 
----@private
 ---@param request RemoveAllPerks
 ---@return nil
-function PlayerDevelopmentSystem:OnAllPerksRemoved(request) return end
+function PlayerDevelopmentSystem:OnAllPerksRemoved(request) end
 
----@private
 ---@param request BuyAttribute
 ---@return nil
-function PlayerDevelopmentSystem:OnAttributeBuy(request) return end
+function PlayerDevelopmentSystem:OnAttributeBuy(request) end
 
----@private
 ---@param request SetAttribute
 ---@return nil
-function PlayerDevelopmentSystem:OnAttributeSet(request) return end
+function PlayerDevelopmentSystem:OnAttributeSet(request) end
 
----@private
 ---@param request BumpNetrunnerMinigameLevel
 ---@return nil
-function PlayerDevelopmentSystem:OnBumpNetrunnerMinigameLevel(request) return end
+function PlayerDevelopmentSystem:OnBumpNetrunnerMinigameLevel(request) end
 
----@private
 ---@param request BuyNewPerk
 ---@return nil
-function PlayerDevelopmentSystem:OnBuyNewPerk(request) return end
+function PlayerDevelopmentSystem:OnBuyNewPerk(request) end
 
----@private
 ---@param evt ClearAllDevPointsRequest
 ---@return nil
-function PlayerDevelopmentSystem:OnClearAllDevPoints(evt) return end
+function PlayerDevelopmentSystem:OnClearAllDevPoints(evt) end
 
----@private
 ---@param request questAddDevelopmentPointsRequest
 ---@return nil
-function PlayerDevelopmentSystem:OnDevelopmentPointsAdded(request) return end
+function PlayerDevelopmentSystem:OnDevelopmentPointsAdded(request) end
 
----@private
 ---@param request AddExperience
 ---@return nil
-function PlayerDevelopmentSystem:OnExperienceAdded(request) return end
+function PlayerDevelopmentSystem:OnExperienceAdded(request) end
 
----@private
 ---@param request QueueCombatExperience
 ---@return nil
-function PlayerDevelopmentSystem:OnExperienceQueued(request) return end
+function PlayerDevelopmentSystem:OnExperienceQueued(request) end
 
----@private
 ---@param request questLevelUpProficiency
 ---@return nil
-function PlayerDevelopmentSystem:OnLevelUpProficiency(request) return end
+function PlayerDevelopmentSystem:OnLevelUpProficiency(request) end
 
----@private
 ---@param request LockNewPerk
 ---@return nil
-function PlayerDevelopmentSystem:OnLockNewPerk(request) return end
+function PlayerDevelopmentSystem:OnLockNewPerk(request) end
 
----@private
 ---@param request LockPerkArea
 ---@return nil
-function PlayerDevelopmentSystem:OnLockPerkArea(request) return end
+function PlayerDevelopmentSystem:OnLockPerkArea(request) end
 
----@private
 ---@param request BuyPerk
 ---@return nil
-function PlayerDevelopmentSystem:OnPerkBought(request) return end
+function PlayerDevelopmentSystem:OnPerkBought(request) end
 
----@private
 ---@param request RemovePerk
 ---@return nil
-function PlayerDevelopmentSystem:OnPerkRemoved(request) return end
+function PlayerDevelopmentSystem:OnPerkRemoved(request) end
 
----@private
 ---@param request gamePlayerAttachRequest
 ---@return nil
-function PlayerDevelopmentSystem:OnPlayerAttach(request) return end
+function PlayerDevelopmentSystem:OnPlayerAttach(request) end
 
----@private
 ---@param request gamePlayerDetachRequest
 ---@return nil
-function PlayerDevelopmentSystem:OnPlayerDetach(request) return end
+function PlayerDevelopmentSystem:OnPlayerDetach(request) end
 
----@private
 ---@param request ProcessQueuedCombatExperience
 ---@return nil
-function PlayerDevelopmentSystem:OnProcessQueuedExperience(request) return end
+function PlayerDevelopmentSystem:OnProcessQueuedExperience(request) end
 
----@private
 ---@param request RefreshPerkAreas
 ---@return nil
-function PlayerDevelopmentSystem:OnRefreshPerkAreas(request) return end
+function PlayerDevelopmentSystem:OnRefreshPerkAreas(request) end
 
----@private
 ---@param request ReinitializeProficiencies
 ---@return nil
-function PlayerDevelopmentSystem:OnReinitializeProficiencies(request) return end
+function PlayerDevelopmentSystem:OnReinitializeProficiencies(request) end
 
----@private
 ---@param request RequestStatsBB
 ---@return nil
-function PlayerDevelopmentSystem:OnRequestStatsBB(request) return end
+function PlayerDevelopmentSystem:OnRequestStatsBB(request) end
 
----@private
 ---@param request ResetProgressionForNewPerks
 ---@return nil
-function PlayerDevelopmentSystem:OnResetProgressionForNewPerks(request) return end
+function PlayerDevelopmentSystem:OnResetProgressionForNewPerks(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function PlayerDevelopmentSystem:OnRestored(saveVersion, gameVersion) return end
+function PlayerDevelopmentSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request SellNewPerk
 ---@return nil
-function PlayerDevelopmentSystem:OnSellNewPerk(request) return end
+function PlayerDevelopmentSystem:OnSellNewPerk(request) end
 
----@private
 ---@param request questSetLifePathRequest
 ---@return nil
-function PlayerDevelopmentSystem:OnSetLifePath(request) return end
+function PlayerDevelopmentSystem:OnSetLifePath(request) end
 
----@private
 ---@param request SetProficiencyLevel
 ---@return nil
-function PlayerDevelopmentSystem:OnSetProficiencyLevel(request) return end
+function PlayerDevelopmentSystem:OnSetProficiencyLevel(request) end
 
----@private
 ---@param request SetProgressionBuild
 ---@return nil
-function PlayerDevelopmentSystem:OnSetProgressionBuild(request) return end
+function PlayerDevelopmentSystem:OnSetProgressionBuild(request) end
 
----@private
 ---@param request questSetProgressionBuildRequest
 ---@return nil
-function PlayerDevelopmentSystem:OnSetProgressionBuild(request) return end
+function PlayerDevelopmentSystem:OnSetProgressionBuild(request) end
 
----@private
 ---@param request gameSetProgressionBuildRequest
 ---@return nil
-function PlayerDevelopmentSystem:OnSetProgressionBuild(request) return end
+function PlayerDevelopmentSystem:OnSetProgressionBuild(request) end
 
----@private
 ---@param request ModifySkillCheckPrereq
 ---@return nil
-function PlayerDevelopmentSystem:OnSkillCheckPrereqModified(request) return end
+function PlayerDevelopmentSystem:OnSkillCheckPrereqModified(request) end
 
----@private
 ---@param request ModifyStatCheckPrereq
 ---@return nil
-function PlayerDevelopmentSystem:OnStatCheckPrereqModified(request) return end
+function PlayerDevelopmentSystem:OnStatCheckPrereqModified(request) end
 
----@private
 ---@param request IncreaseTraitLevel
 ---@return nil
-function PlayerDevelopmentSystem:OnTraitLevelIncreased(request) return end
+function PlayerDevelopmentSystem:OnTraitLevelIncreased(request) end
 
----@private
 ---@param request UnlockNewPerk
 ---@return nil
-function PlayerDevelopmentSystem:OnUnlockNewPerk(request) return end
+function PlayerDevelopmentSystem:OnUnlockNewPerk(request) end
 
----@private
 ---@param request UnlockPerkArea
 ---@return nil
-function PlayerDevelopmentSystem:OnUnlockPerkArea(request) return end
+function PlayerDevelopmentSystem:OnUnlockPerkArea(request) end
 
----@private
 ---@param request UpdatePlayerDevelopment
 ---@return nil
-function PlayerDevelopmentSystem:OnUpdatePlayerDevelopment(request) return end
+function PlayerDevelopmentSystem:OnUpdatePlayerDevelopment(request) end
 
----@private
 ---@return nil
-function PlayerDevelopmentSystem:ReinitializeProficiencies() return end
+function PlayerDevelopmentSystem:ReinitializeProficiencies() end
 
----@private
 ---@return nil
-function PlayerDevelopmentSystem:ResetProgressionForNewPerks() return end
+function PlayerDevelopmentSystem:ResetProgressionForNewPerks() end
 
----@private
 ---@param player PlayerPuppet
 ---@param transactionSystem gameTransactionSystem
 ---@param requirementID TweakDBID|string
 ---@param itemIDs TweakDBID[]|string[]
 ---@return Bool
-function PlayerDevelopmentSystem:RetrofixCraftingComponent(player, transactionSystem, requirementID, itemIDs) return end
+function PlayerDevelopmentSystem:RetrofixCraftingComponent(player, transactionSystem, requirementID, itemIDs) end
 
----@private
 ---@return nil
-function PlayerDevelopmentSystem:RetrofixCraftingComponents() return end
+function PlayerDevelopmentSystem:RetrofixCraftingComponents() end
 
----@private
 ---@param owner gameObject
 ---@param perkType gamedataNewPerkType
 ---@return Bool
-function PlayerDevelopmentSystem:SellNewPerk(owner, perkType) return end
+function PlayerDevelopmentSystem:SellNewPerk(owner, perkType) end
 
 ---@param owner gameObject
 ---@param obj gameObject
 ---@param type gamedataStatType
 ---@param amount Float
 ---@return nil
-function PlayerDevelopmentSystem:SetAttribute(owner, obj, type, amount) return end
+function PlayerDevelopmentSystem:SetAttribute(owner, obj, type, amount) end
 
 ---@param owner gameObject
 ---@param value Bool
 ---@return nil
-function PlayerDevelopmentSystem:SetIsProgressionBuildSetCompleted(owner, value) return end
+function PlayerDevelopmentSystem:SetIsProgressionBuildSetCompleted(owner, value) end
 
----@private
 ---@param owner gameObject
 ---@param perkType gamedataNewPerkType
 ---@return Bool
-function PlayerDevelopmentSystem:UnlockNewPerk(owner, perkType) return end
+function PlayerDevelopmentSystem:UnlockNewPerk(owner, perkType) end
 
----@private
 ---@return nil
-function PlayerDevelopmentSystem:UpgradeExperienceToSkills2() return end
+function PlayerDevelopmentSystem:UpgradeExperienceToSkills2() end

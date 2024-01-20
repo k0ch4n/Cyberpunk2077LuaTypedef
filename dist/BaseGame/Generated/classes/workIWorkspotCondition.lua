@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class workIWorkspotCondition: ISerializable
----@field public expectedResult workWorkspotLogic
----@field public equals Bool
+---@field expectedResult workWorkspotLogic
+---@field equals Bool
 workIWorkspotCondition = {}

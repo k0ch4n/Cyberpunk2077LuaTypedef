@@ -5,4 +5,4 @@ HitIsInstigatorPlayerPrereq = {}
 
 ---@param fields? HitIsInstigatorPlayerPrereq
 ---@return HitIsInstigatorPlayerPrereq
-function HitIsInstigatorPlayerPrereq.new(fields) return end
+function HitIsInstigatorPlayerPrereq.new(fields) end

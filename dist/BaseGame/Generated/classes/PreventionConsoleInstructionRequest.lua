@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PreventionConsoleInstructionRequest: gameScriptableSystemRequest
----@field public instruction EPreventionSystemInstruction
----@field public heatStage EPreventionHeatStage
+---@field instruction EPreventionSystemInstruction
+---@field heatStage EPreventionHeatStage
 PreventionConsoleInstructionRequest = {}
 
 ---@param fields? PreventionConsoleInstructionRequest
 ---@return PreventionConsoleInstructionRequest
-function PreventionConsoleInstructionRequest.new(fields) return end
+function PreventionConsoleInstructionRequest.new(fields) end

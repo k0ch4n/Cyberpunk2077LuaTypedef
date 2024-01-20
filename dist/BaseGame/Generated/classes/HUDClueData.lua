@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class HUDClueData
----@field public isClue Bool
----@field public clueGroupID CName
+---@field isClue Bool
+---@field clueGroupID CName
 HUDClueData = {}
 
 ---@param fields? HUDClueData
 ---@return HUDClueData
-function HUDClueData.new(fields) return end
+function HUDClueData.new(fields) end

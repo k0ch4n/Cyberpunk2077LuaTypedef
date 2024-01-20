@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class SkillTooltipData: BasePerksMenuTooltipData
----@field public proficiencyType gamedataProficiencyType
----@field public attributeRecord gamedataAttribute_Record
----@field public skillData ProficiencyDisplayData
+---@field proficiencyType gamedataProficiencyType
+---@field attributeRecord gamedataAttribute_Record
+---@field skillData ProficiencyDisplayData
 SkillTooltipData = {}
 
 ---@param fields? SkillTooltipData
 ---@return SkillTooltipData
-function SkillTooltipData.new(fields) return end
+function SkillTooltipData.new(fields) end
 
 ---@return nil
-function SkillTooltipData:RefreshRuntimeData() return end
+function SkillTooltipData:RefreshRuntimeData() end

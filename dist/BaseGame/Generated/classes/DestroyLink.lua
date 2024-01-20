@@ -5,4 +5,4 @@ DestroyLink = {}
 
 ---@param fields? DestroyLink
 ---@return DestroyLink
-function DestroyLink.new(fields) return end
+function DestroyLink.new(fields) end

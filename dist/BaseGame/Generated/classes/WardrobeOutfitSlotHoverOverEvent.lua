@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class WardrobeOutfitSlotHoverOverEvent: redEvent
----@field public evt inkPointerEvent
----@field public controller WardrobeOutfitSlotController
+---@field evt inkPointerEvent
+---@field controller WardrobeOutfitSlotController
 WardrobeOutfitSlotHoverOverEvent = {}
 
 ---@param fields? WardrobeOutfitSlotHoverOverEvent
 ---@return WardrobeOutfitSlotHoverOverEvent
-function WardrobeOutfitSlotHoverOverEvent.new(fields) return end
+function WardrobeOutfitSlotHoverOverEvent.new(fields) end

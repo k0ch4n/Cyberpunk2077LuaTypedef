@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class ThrowingMeleeReloadListener: gameScriptStatPoolsListener
----@field private melee MeleeProjectile
+---@field melee MeleeProjectile
 ThrowingMeleeReloadListener = {}
 
 ---@param fields? ThrowingMeleeReloadListener
 ---@return ThrowingMeleeReloadListener
-function ThrowingMeleeReloadListener.new(fields) return end
+function ThrowingMeleeReloadListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function ThrowingMeleeReloadListener:OnStatPoolMaxValueReached(value) return end
+function ThrowingMeleeReloadListener:OnStatPoolMaxValueReached(value) end
 
 ---@param melee MeleeProjectile
 ---@return nil
-function ThrowingMeleeReloadListener:Bind(melee) return end
+function ThrowingMeleeReloadListener:Bind(melee) end

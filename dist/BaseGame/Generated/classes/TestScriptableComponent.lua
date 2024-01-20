@@ -5,35 +5,28 @@ TestScriptableComponent = {}
 
 ---@param fields? TestScriptableComponent
 ---@return TestScriptableComponent
-function TestScriptableComponent.new(fields) return end
+function TestScriptableComponent.new(fields) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function TestScriptableComponent:OnHit(evt) return end
+function TestScriptableComponent:OnHit(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function TestScriptableComponent:OnTakeControl(ri) return end
+function TestScriptableComponent:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function TestScriptableComponent:OnEditorAttach() return end
+function TestScriptableComponent:OnEditorAttach() end
 
----@private
 ---@return nil
-function TestScriptableComponent:OnEditorDetach() return end
+function TestScriptableComponent:OnEditorDetach() end
 
----@private
 ---@return nil
-function TestScriptableComponent:OnGameAttach() return end
+function TestScriptableComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function TestScriptableComponent:OnGameDetach() return end
+function TestScriptableComponent:OnGameDetach() end
 
----@private
 ---@param deltaTime Float
 ---@return nil
-function TestScriptableComponent:OnUpdate(deltaTime) return end
+function TestScriptableComponent:OnUpdate(deltaTime) end

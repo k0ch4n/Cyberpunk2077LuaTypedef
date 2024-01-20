@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class NewPerksScreenInitData: IScriptable
----@field public stat gamedataStatType
----@field public attribute TweakDBID
----@field public attributeData gamedataAttributeData_Record
----@field public perkMenuAttribute PerkMenuAttribute
----@field public isPlayerInCombat Bool
+---@field stat gamedataStatType
+---@field attribute TweakDBID
+---@field attributeData gamedataAttributeData_Record
+---@field perkMenuAttribute PerkMenuAttribute
+---@field isPlayerInCombat Bool
 NewPerksScreenInitData = {}
 
 ---@param fields? NewPerksScreenInitData
 ---@return NewPerksScreenInitData
-function NewPerksScreenInitData.new(fields) return end
+function NewPerksScreenInitData.new(fields) end

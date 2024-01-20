@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class NetworkBreachedPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 NetworkBreachedPrereq = {}
 
 ---@param fields? NetworkBreachedPrereq
 ---@return NetworkBreachedPrereq
-function NetworkBreachedPrereq.new(fields) return end
+function NetworkBreachedPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NetworkBreachedPrereq:Initialize(recordID) return end
+function NetworkBreachedPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NetworkBreachedPrereq:IsFulfilled(context) return end
+function NetworkBreachedPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function NetworkBreachedPrereq:OnRegister(state, context) return end
+function NetworkBreachedPrereq:OnRegister(state, context) end

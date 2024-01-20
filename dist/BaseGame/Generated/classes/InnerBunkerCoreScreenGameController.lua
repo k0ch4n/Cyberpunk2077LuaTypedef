@@ -1,81 +1,77 @@
 ---@meta
 
 ---@class InnerBunkerCoreScreenGameController: BaseInnerBunkerComputerGameController
----@field public systems inkWidgetReference[]
----@field public statuses InnerBunkerCoreStatus[]
----@field public shutdownButton inkWidgetReference
----@field public processingPanel inkWidgetReference
----@field public failurePopup inkWidgetReference
----@field public successPopup inkWidgetReference
----@field public systemCheckTimeOffline Float
----@field public systemCheckTimeUnresponsive Float
----@field public showResultTime Float
----@field public systemsCheckAnimName CName
----@field public coreStatusNormalAnimName CName
----@field public coreStatusMalfunctionAnimName CName
----@field public coreStatusShutdownAnimName CName
----@field public coreStatusShutingDownAnimName CName
----@field public failurePopupAnimName CName
----@field public successPopupAnimName CName
----@field public stage InnerBunkerCoreStage
----@field public sysIndex Int32
----@field public systemsCheckAnimProxy inkanimProxy
----@field public resultPopupAnimProxy inkanimProxy
----@field public coreStatusAnimProxy inkanimProxy
+---@field systems inkWidgetReference[]
+---@field statuses InnerBunkerCoreStatus[]
+---@field shutdownButton inkWidgetReference
+---@field processingPanel inkWidgetReference
+---@field failurePopup inkWidgetReference
+---@field successPopup inkWidgetReference
+---@field systemCheckTimeOffline Float
+---@field systemCheckTimeUnresponsive Float
+---@field showResultTime Float
+---@field systemsCheckAnimName CName
+---@field coreStatusNormalAnimName CName
+---@field coreStatusMalfunctionAnimName CName
+---@field coreStatusShutdownAnimName CName
+---@field coreStatusShutingDownAnimName CName
+---@field failurePopupAnimName CName
+---@field successPopupAnimName CName
+---@field stage InnerBunkerCoreStage
+---@field sysIndex Int32
+---@field systemsCheckAnimProxy inkanimProxy
+---@field resultPopupAnimProxy inkanimProxy
+---@field coreStatusAnimProxy inkanimProxy
 InnerBunkerCoreScreenGameController = {}
 
 ---@param fields? InnerBunkerCoreScreenGameController
 ---@return InnerBunkerCoreScreenGameController
-function InnerBunkerCoreScreenGameController.new(fields) return end
+function InnerBunkerCoreScreenGameController.new(fields) end
 
----@protected
 ---@param fact CName|string
 ---@param value Int32
 ---@return Bool
-function InnerBunkerCoreScreenGameController:OnFactChanged(fact, value) return end
+function InnerBunkerCoreScreenGameController:OnFactChanged(fact, value) end
 
----@protected
 ---@return Bool
-function InnerBunkerCoreScreenGameController:OnInitialize() return end
+function InnerBunkerCoreScreenGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function InnerBunkerCoreScreenGameController:OnShutdownButtonClicked(e) return end
+function InnerBunkerCoreScreenGameController:OnShutdownButtonClicked(e) end
 
----@protected
 ---@param timerName CName|string
 ---@return Bool
-function InnerBunkerCoreScreenGameController:OnTimer(timerName) return end
+function InnerBunkerCoreScreenGameController:OnTimer(timerName) end
 
 ---@return nil
-function InnerBunkerCoreScreenGameController:InitFromFacts() return end
+function InnerBunkerCoreScreenGameController:InitFromFacts() end
 
 ---@param coreStatusAnimName CName|string
 ---@return nil
-function InnerBunkerCoreScreenGameController:SetCoreStatus(coreStatusAnimName) return end
+function InnerBunkerCoreScreenGameController:SetCoreStatus(coreStatusAnimName) end
 
 ---@param controller inkWidgetLogicController
 ---@param status InnerBunkerCoreStatus
 ---@return nil
-function InnerBunkerCoreScreenGameController:SetStatus(controller, status) return end
+function InnerBunkerCoreScreenGameController:SetStatus(controller, status) end
 
 ---@return nil
-function InnerBunkerCoreScreenGameController:SetSystemsStatus() return end
+function InnerBunkerCoreScreenGameController:SetSystemsStatus() end
 
 ---@param status InnerBunkerCoreStatus
 ---@return nil
-function InnerBunkerCoreScreenGameController:SetSystemsStatus(status) return end
+function InnerBunkerCoreScreenGameController:SetSystemsStatus(status) end
 
 ---@return nil
-function InnerBunkerCoreScreenGameController:ShowResult() return end
+function InnerBunkerCoreScreenGameController:ShowResult() end
 
 ---@return nil
-function InnerBunkerCoreScreenGameController:Shutdown() return end
+function InnerBunkerCoreScreenGameController:Shutdown() end
 
 ---@return nil
-function InnerBunkerCoreScreenGameController:UpdateFacts() return end
+function InnerBunkerCoreScreenGameController:UpdateFacts() end
 
 ---@param isButtonVisible Bool
 ---@return nil
-function InnerBunkerCoreScreenGameController:UpdateVisibility(isButtonVisible) return end
+function InnerBunkerCoreScreenGameController:UpdateVisibility(isButtonVisible) end

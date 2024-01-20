@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnCheckSpeakersDistanceInterruptConditionParams
----@field public distance Float
----@field public comparisonType EComparisonType
+---@field distance Float
+---@field comparisonType EComparisonType
 scnCheckSpeakersDistanceInterruptConditionParams = {}
 
 ---@param fields? scnCheckSpeakersDistanceInterruptConditionParams
 ---@return scnCheckSpeakersDistanceInterruptConditionParams
-function scnCheckSpeakersDistanceInterruptConditionParams.new(fields) return end
+function scnCheckSpeakersDistanceInterruptConditionParams.new(fields) end

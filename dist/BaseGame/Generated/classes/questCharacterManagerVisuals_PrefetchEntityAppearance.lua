@@ -5,4 +5,4 @@ questCharacterManagerVisuals_PrefetchEntityAppearance = {}
 
 ---@param fields? questCharacterManagerVisuals_PrefetchEntityAppearance
 ---@return questCharacterManagerVisuals_PrefetchEntityAppearance
-function questCharacterManagerVisuals_PrefetchEntityAppearance.new(fields) return end
+function questCharacterManagerVisuals_PrefetchEntityAppearance.new(fields) end

@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class IsMountedByPreventionNPCPrereqState: gamePrereqState
----@field public mountingListener gameScriptedPrereqMountingListenerWrapper
+---@field mountingListener gameScriptedPrereqMountingListenerWrapper
 IsMountedByPreventionNPCPrereqState = {}
 
 ---@param fields? IsMountedByPreventionNPCPrereqState
 ---@return IsMountedByPreventionNPCPrereqState
-function IsMountedByPreventionNPCPrereqState.new(fields) return end
+function IsMountedByPreventionNPCPrereqState.new(fields) end
 
----@protected
 ---@return nil
-function IsMountedByPreventionNPCPrereqState:OnMountingStateChanged() return end
+function IsMountedByPreventionNPCPrereqState:OnMountingStateChanged() end

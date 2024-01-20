@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SetQuickHackEvent: redEvent
----@field public wasQuickHacked Bool
----@field public quickHackName CName
+---@field wasQuickHacked Bool
+---@field quickHackName CName
 SetQuickHackEvent = {}
 
 ---@param fields? SetQuickHackEvent
 ---@return SetQuickHackEvent
-function SetQuickHackEvent.new(fields) return end
+function SetQuickHackEvent.new(fields) end

@@ -5,8 +5,8 @@ QuestForceReplaceStreamWithVideo = {}
 
 ---@param fields? QuestForceReplaceStreamWithVideo
 ---@return QuestForceReplaceStreamWithVideo
-function QuestForceReplaceStreamWithVideo.new(fields) return end
+function QuestForceReplaceStreamWithVideo.new(fields) end
 
 ---@param binkPath CName|string
 ---@return nil
-function QuestForceReplaceStreamWithVideo:SetProperties(binkPath) return end
+function QuestForceReplaceStreamWithVideo:SetProperties(binkPath) end

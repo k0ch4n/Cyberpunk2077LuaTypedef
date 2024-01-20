@@ -5,24 +5,23 @@ PickUpDecisions = {}
 
 ---@param fields? PickUpDecisions
 ---@return PickUpDecisions
-function PickUpDecisions.new(fields) return end
+function PickUpDecisions.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PickUpDecisions:ShouldThrow(scriptInterface) return end
-
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function PickUpDecisions:ToAim(stateContext, scriptInterface) return end
+function PickUpDecisions:ShouldThrow(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PickUpDecisions:ToCarry(stateContext, scriptInterface) return end
+function PickUpDecisions:ToAim(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PickUpDecisions:ToThrow(stateContext, scriptInterface) return end
+function PickUpDecisions:ToCarry(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function PickUpDecisions:ToThrow(stateContext, scriptInterface) end

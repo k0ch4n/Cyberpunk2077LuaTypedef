@@ -1,46 +1,46 @@
 ---@meta
 
 ---@class HitOperations: DeviceOperations
----@field protected hitOperations SHitOperationData[]
+---@field hitOperations SHitOperationData[]
 HitOperations = {}
 
 ---@param fields? HitOperations
 ---@return HitOperations
-function HitOperations.new(fields) return end
+function HitOperations.new(fields) end
 
 ---@param operationID Int32
 ---@return nil
-function HitOperations:ClearDelayIdOnOperation(operationID) return end
+function HitOperations:ClearDelayIdOnOperation(operationID) end
 
 ---@param owner gameObject
 ---@param activator gameObject
 ---@param attackData gamedamageAttackData
 ---@return nil
-function HitOperations:ExecuteOperation(owner, activator, attackData) return end
+function HitOperations:ExecuteOperation(owner, activator, attackData) end
 
 ---@param index Int32
 ---@return Bool
-function HitOperations:IsOperationEnabled(index) return end
+function HitOperations:IsOperationEnabled(index) end
 
 ---@param ri entEntityRequestComponentsInterface
 ---@return nil
-function HitOperations:RequestComponents(ri) return end
+function HitOperations:RequestComponents(ri) end
 
 ---@param owner gameObject
 ---@param activator gameObject
 ---@return nil
-function HitOperations:RestoreOperation(owner, activator) return end
+function HitOperations:RestoreOperation(owner, activator) end
 
 ---@param delayId gameDelayID
 ---@param operationID Int32
 ---@return nil
-function HitOperations:SetDelayIdOnOperation(delayId, operationID) return end
+function HitOperations:SetDelayIdOnOperation(delayId, operationID) end
 
 ---@param ri entEntityResolveComponentsInterface
 ---@return nil
-function HitOperations:TakeControl(ri) return end
+function HitOperations:TakeControl(ri) end
 
 ---@param enable Bool
 ---@param index Int32
 ---@return nil
-function HitOperations:ToggleOperation(enable, index) return end
+function HitOperations:ToggleOperation(enable, index) end

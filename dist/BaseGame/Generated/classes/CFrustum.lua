@@ -5,4 +5,4 @@ CFrustum = {}
 
 ---@param fields? CFrustum
 ---@return CFrustum
-function CFrustum.new(fields) return end
+function CFrustum.new(fields) end

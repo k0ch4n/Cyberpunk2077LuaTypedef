@@ -5,10 +5,9 @@ GroundDeathDecisions = {}
 
 ---@param fields? GroundDeathDecisions
 ---@return GroundDeathDecisions
-function GroundDeathDecisions.new(fields) return end
+function GroundDeathDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GroundDeathDecisions:EnterCondition(stateContext, scriptInterface) return end
+function GroundDeathDecisions:EnterCondition(stateContext, scriptInterface) end

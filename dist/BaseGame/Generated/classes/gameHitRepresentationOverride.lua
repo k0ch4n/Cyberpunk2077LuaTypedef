@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameHitRepresentationOverride: ISerializable
----@field public represenationOverride gameHitShapeContainer
+---@field represenationOverride gameHitShapeContainer
 gameHitRepresentationOverride = {}
 
 ---@param fields? gameHitRepresentationOverride
 ---@return gameHitRepresentationOverride
-function gameHitRepresentationOverride.new(fields) return end
+function gameHitRepresentationOverride.new(fields) end

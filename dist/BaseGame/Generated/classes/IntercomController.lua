@@ -5,7 +5,7 @@ IntercomController = {}
 
 ---@param fields? IntercomController
 ---@return IntercomController
-function IntercomController.new(fields) return end
+function IntercomController.new(fields) end
 
 ---@return IntercomControllerPS
-function IntercomController:GetPS() return end
+function IntercomController:GetPS() end

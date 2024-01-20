@@ -1,220 +1,207 @@
 ---@meta
 
 ---@class PhoneDialerLogicController: inkWidgetLogicController
----@field public tabsContainer inkWidgetReference
----@field public titleContainer inkWidgetReference
----@field public titleTextWidget inkTextWidgetReference
----@field public acceptButtonLabel inkTextWidgetReference
----@field public action2ButtonLabel inkTextWidgetReference
----@field public inputHintsPanel inkWidgetReference
----@field public threadPanel inkWidgetReference
----@field public threadList inkWidgetReference
----@field public callsQuestFlag inkWidgetReference
----@field public arrow inkWidgetReference
----@field public threadTab inkWidgetReference
----@field public unreadTab inkWidgetReference
----@field public threadTabLabel inkTextWidgetReference
----@field public contactsList inkWidgetReference
----@field public avatarImage inkImageWidgetReference
----@field public contactAvatarsFluff inkWidgetReference
----@field public scrollArea inkScrollAreaWidgetReference
----@field public scrollControllerWidget inkWidgetReference
----@field public acceptButtonWidget inkWidgetReference
----@field public action2ButtonWidget inkWidgetReference
----@field public showAllButtonWidget inkWidgetReference
----@field public showAllLabel inkTextWidgetReference
----@field public nothingToReadMessageWidget inkWidgetReference
----@field public scrollBarWidget inkWidgetReference
----@field public listController inkVirtualListController
----@field public dataSource inkScriptableDataSourceWrapper
----@field public dataView DialerContactDataView
----@field public templateClassifier DialerContactTemplateClassifier
----@field public scrollController inkScrollController
----@field public switchAnimProxy inkanimProxy
----@field public transitionAnimProxy inkanimProxy
----@field public horizontalMoveAnimProxy inkanimProxy
----@field public threadsController inkVirtualListController
----@field public dataSourceCache inkScriptableDataSourceWrapper
----@field public dataViewCache DialerContactDataView
----@field public moveBehindAnimProxy inkanimProxy
----@field public hideContactAnimProxy inkanimProxy
----@field public contactIndexCache Uint32
----@field public menuSelectorCtrl PhoneDialerSelectionController
----@field public firstInit Bool
----@field public indexToSelect Uint32
----@field public hidingIndex Uint32
----@field public pulseAnim PulseAnimation
----@field public leftMargin inkMargin
----@field public rightMargin inkMargin
----@field public currentTab PhoneDialerTabs
----@field public callingEnabled Bool
+---@field tabsContainer inkWidgetReference
+---@field titleContainer inkWidgetReference
+---@field titleTextWidget inkTextWidgetReference
+---@field acceptButtonLabel inkTextWidgetReference
+---@field action2ButtonLabel inkTextWidgetReference
+---@field inputHintsPanel inkWidgetReference
+---@field threadPanel inkWidgetReference
+---@field threadList inkWidgetReference
+---@field callsQuestFlag inkWidgetReference
+---@field arrow inkWidgetReference
+---@field threadTab inkWidgetReference
+---@field unreadTab inkWidgetReference
+---@field threadTabLabel inkTextWidgetReference
+---@field contactsList inkWidgetReference
+---@field avatarImage inkImageWidgetReference
+---@field contactAvatarsFluff inkWidgetReference
+---@field scrollArea inkScrollAreaWidgetReference
+---@field scrollControllerWidget inkWidgetReference
+---@field acceptButtonWidget inkWidgetReference
+---@field action2ButtonWidget inkWidgetReference
+---@field showAllButtonWidget inkWidgetReference
+---@field showAllLabel inkTextWidgetReference
+---@field nothingToReadMessageWidget inkWidgetReference
+---@field scrollBarWidget inkWidgetReference
+---@field listController inkVirtualListController
+---@field dataSource inkScriptableDataSourceWrapper
+---@field dataView DialerContactDataView
+---@field templateClassifier DialerContactTemplateClassifier
+---@field scrollController inkScrollController
+---@field switchAnimProxy inkanimProxy
+---@field transitionAnimProxy inkanimProxy
+---@field horizontalMoveAnimProxy inkanimProxy
+---@field threadsController inkVirtualListController
+---@field dataSourceCache inkScriptableDataSourceWrapper
+---@field dataViewCache DialerContactDataView
+---@field moveBehindAnimProxy inkanimProxy
+---@field hideContactAnimProxy inkanimProxy
+---@field contactIndexCache Uint32
+---@field menuSelectorCtrl PhoneDialerSelectionController
+---@field firstInit Bool
+---@field indexToSelect Uint32
+---@field hidingIndex Uint32
+---@field pulseAnim PulseAnimation
+---@field leftMargin inkMargin
+---@field rightMargin inkMargin
+---@field currentTab PhoneDialerTabs
+---@field callingEnabled Bool
 PhoneDialerLogicController = {}
 
 ---@param fields? PhoneDialerLogicController
 ---@return PhoneDialerLogicController
-function PhoneDialerLogicController.new(fields) return end
+function PhoneDialerLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function PhoneDialerLogicController:OnAllElementsSpawned() return end
+function PhoneDialerLogicController:OnAllElementsSpawned() end
 
----@protected
 ---@param evt FocusSmsMessagerEvent
 ---@return Bool
-function PhoneDialerLogicController:OnGotFocus(evt) return end
+function PhoneDialerLogicController:OnGotFocus(evt) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PhoneDialerLogicController:OnHideAnimFinished(proxy) return end
+function PhoneDialerLogicController:OnHideAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function PhoneDialerLogicController:OnInitialize() return end
+function PhoneDialerLogicController:OnInitialize() end
 
----@protected
 ---@param evt PhoneContactHiddenEvent
 ---@return Bool
-function PhoneDialerLogicController:OnItemHidden(evt) return end
+function PhoneDialerLogicController:OnItemHidden(evt) end
 
----@protected
 ---@param previous inkVirtualCompoundItemController
 ---@param next inkVirtualCompoundItemController
 ---@return Bool
-function PhoneDialerLogicController:OnItemSelected(previous, next) return end
+function PhoneDialerLogicController:OnItemSelected(previous, next) end
 
----@protected
 ---@param evt UnfocusSmsMessagerEvent
 ---@return Bool
-function PhoneDialerLogicController:OnLostFocus(evt) return end
+function PhoneDialerLogicController:OnLostFocus(evt) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PhoneDialerLogicController:OnMoveBehindAnimFinished(proxy) return end
+function PhoneDialerLogicController:OnMoveBehindAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PhoneDialerLogicController:OnMoveBehindReversedAnimFinished(proxy) return end
+function PhoneDialerLogicController:OnMoveBehindReversedAnimFinished(proxy) end
 
----@protected
 ---@param value Vector2
 ---@return Bool
-function PhoneDialerLogicController:OnScrollChanged(value) return end
+function PhoneDialerLogicController:OnScrollChanged(value) end
 
----@protected
 ---@return Bool
-function PhoneDialerLogicController:OnUninitialize() return end
+function PhoneDialerLogicController:OnUninitialize() end
 
 ---@return nil
-function PhoneDialerLogicController:CleanVirtualList() return end
+function PhoneDialerLogicController:CleanVirtualList() end
 
 ---@return nil
-function PhoneDialerLogicController:CloseContactList() return end
+function PhoneDialerLogicController:CloseContactList() end
 
 ---@return Int32
-function PhoneDialerLogicController:GetContactWithUnreadHash() return end
+function PhoneDialerLogicController:GetContactWithUnreadHash() end
 
 ---@return ContactData
-function PhoneDialerLogicController:GetSelectedContactData() return end
+function PhoneDialerLogicController:GetSelectedContactData() end
 
 ---@return Int32
-function PhoneDialerLogicController:GetSelectedContactHash() return end
+function PhoneDialerLogicController:GetSelectedContactHash() end
 
 ---@return Uint32
-function PhoneDialerLogicController:GetSelectedContactIndex() return end
+function PhoneDialerLogicController:GetSelectedContactIndex() end
 
 ---@return nil
-function PhoneDialerLogicController:GotoMessengerMenu() return end
+function PhoneDialerLogicController:GotoMessengerMenu() end
 
 ---@return nil
-function PhoneDialerLogicController:Hide() return end
+function PhoneDialerLogicController:Hide() end
 
 ---@return nil
-function PhoneDialerLogicController:HideSelectedItem() return end
+function PhoneDialerLogicController:HideSelectedItem() end
 
 ---@param tab PhoneDialerTabs
 ---@return nil
-function PhoneDialerLogicController:HideTab(tab) return end
+function PhoneDialerLogicController:HideTab(tab) end
 
 ---@return nil
-function PhoneDialerLogicController:InitVirtualList() return end
+function PhoneDialerLogicController:InitVirtualList() end
 
 ---@return Bool
-function PhoneDialerLogicController:IsEmpty() return end
+function PhoneDialerLogicController:IsEmpty() end
 
 ---@param moveToRight Bool
 ---@return nil
-function PhoneDialerLogicController:MoveContactPictures(moveToRight) return end
+function PhoneDialerLogicController:MoveContactPictures(moveToRight) end
 
 ---@return nil
-function PhoneDialerLogicController:NavigateDown() return end
+function PhoneDialerLogicController:NavigateDown() end
 
 ---@return nil
-function PhoneDialerLogicController:NavigateUp() return end
+function PhoneDialerLogicController:NavigateUp() end
 
 ---@return nil
-function PhoneDialerLogicController:OpenSelectedItem() return end
+function PhoneDialerLogicController:OpenSelectedItem() end
 
 ---@return nil
-function PhoneDialerLogicController:PopList() return end
+function PhoneDialerLogicController:PopList() end
 
 ---@param contactDataArray IScriptable[]
 ---@param selectIndex? Uint32
 ---@param itemHash? Int32
 ---@return nil
-function PhoneDialerLogicController:PopulateListData(contactDataArray, selectIndex, itemHash) return end
+function PhoneDialerLogicController:PopulateListData(contactDataArray, selectIndex, itemHash) end
 
 ---@param contactDataArray IScriptable[]
 ---@param sortMethod ContactsSortMethod
 ---@return nil
-function PhoneDialerLogicController:PushList(contactDataArray, sortMethod) return end
+function PhoneDialerLogicController:PushList(contactDataArray, sortMethod) end
 
----@private
 ---@param item inkVirtualCompoundItemController
 ---@return nil
-function PhoneDialerLogicController:RefreshCallingEnabled(item) return end
+function PhoneDialerLogicController:RefreshCallingEnabled(item) end
 
----@private
 ---@param contactData ContactData
 ---@return nil
-function PhoneDialerLogicController:RefreshInputHints(contactData) return end
+function PhoneDialerLogicController:RefreshInputHints(contactData) end
 
 ---@return nil
-function PhoneDialerLogicController:RefreshSelectedContact() return end
+function PhoneDialerLogicController:RefreshSelectedContact() end
 
 ---@param enabled Bool
 ---@return nil
-function PhoneDialerLogicController:SetCallingEnabled(enabled) return end
+function PhoneDialerLogicController:SetCallingEnabled(enabled) end
 
 ---@param sortMethod ContactsSortMethod
 ---@return nil
-function PhoneDialerLogicController:SetSortMethod(sortMethod) return end
+function PhoneDialerLogicController:SetSortMethod(sortMethod) end
 
 ---@param title String
 ---@return nil
-function PhoneDialerLogicController:SetTitle(title) return end
+function PhoneDialerLogicController:SetTitle(title) end
 
 ---@return nil
-function PhoneDialerLogicController:Show() return end
+function PhoneDialerLogicController:Show() end
 
 ---@param visible Bool
 ---@return nil
-function PhoneDialerLogicController:ShowCallsQuestIndicator(visible) return end
+function PhoneDialerLogicController:ShowCallsQuestIndicator(visible) end
 
 ---@param show Bool
 ---@return nil
-function PhoneDialerLogicController:ShowInputHints(show) return end
+function PhoneDialerLogicController:ShowInputHints(show) end
 
 ---@param visible Bool
 ---@return nil
-function PhoneDialerLogicController:ShowTitle(visible) return end
+function PhoneDialerLogicController:ShowTitle(visible) end
 
 ---@param tab PhoneDialerTabs
 ---@return nil
-function PhoneDialerLogicController:SwtichTabs(tab) return end
+function PhoneDialerLogicController:SwtichTabs(tab) end
 
 ---@param showAll Bool
 ---@return nil
-function PhoneDialerLogicController:UpdateShowAllButton(showAll) return end
+function PhoneDialerLogicController:UpdateShowAllButton(showAll) end

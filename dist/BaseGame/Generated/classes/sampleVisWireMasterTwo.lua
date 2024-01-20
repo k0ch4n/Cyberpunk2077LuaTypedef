@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class sampleVisWireMasterTwo: gameObject
----@field private dependableEntities NodeRef[]
+---@field dependableEntities NodeRef[]
 sampleVisWireMasterTwo = {}
 
 ---@param fields? sampleVisWireMasterTwo
 ---@return sampleVisWireMasterTwo
-function sampleVisWireMasterTwo.new(fields) return end
+function sampleVisWireMasterTwo.new(fields) end
 
----@protected
 ---@return Bool
-function sampleVisWireMasterTwo:OnGameAttached() return end
+function sampleVisWireMasterTwo:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function sampleVisWireMasterTwo:OnRequestComponents(ri) return end
+function sampleVisWireMasterTwo:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function sampleVisWireMasterTwo:OnTakeControl(ri) return end
+function sampleVisWireMasterTwo:OnTakeControl(ri) end
 
----@private
 ---@return Bool
-function sampleVisWireMasterTwo:IsModeOn() return end
+function sampleVisWireMasterTwo:IsModeOn() end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TutorialStep
----@field public description String
----@field public showPointer Bool
----@field public pointerRotation Float
----@field public pointerXPos Float
----@field public pointerYPos Float
----@field public allowedActions CName[]
+---@field description String
+---@field showPointer Bool
+---@field pointerRotation Float
+---@field pointerXPos Float
+---@field pointerYPos Float
+---@field allowedActions CName[]
 TutorialStep = {}
 
 ---@param fields? TutorialStep
 ---@return TutorialStep
-function TutorialStep.new(fields) return end
+function TutorialStep.new(fields) end

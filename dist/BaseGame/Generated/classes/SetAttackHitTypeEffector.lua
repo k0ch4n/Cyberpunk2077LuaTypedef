@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SetAttackHitTypeEffector: ModifyAttackEffector
----@field public hitType gameuiHitType
+---@field hitType gameuiHitType
 SetAttackHitTypeEffector = {}
 
 ---@param fields? SetAttackHitTypeEffector
 ---@return SetAttackHitTypeEffector
-function SetAttackHitTypeEffector.new(fields) return end
+function SetAttackHitTypeEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SetAttackHitTypeEffector:Initialize(record, parentRecord) return end
+function SetAttackHitTypeEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetAttackHitTypeEffector:RepeatedAction(owner) return end
+function SetAttackHitTypeEffector:RepeatedAction(owner) end

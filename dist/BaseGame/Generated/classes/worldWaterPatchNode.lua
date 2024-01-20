@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldWaterPatchNode: worldMeshNode
----@field public type worldWaterPatchNodeType
----@field public depth Float
----@field public generateNavmesh Bool
+---@field type worldWaterPatchNodeType
+---@field depth Float
+---@field generateNavmesh Bool
 worldWaterPatchNode = {}
 
 ---@param fields? worldWaterPatchNode
 ---@return worldWaterPatchNode
-function worldWaterPatchNode.new(fields) return end
+function worldWaterPatchNode.new(fields) end

@@ -5,84 +5,84 @@ gameDeviceSystem = {}
 
 ---@param fields? gameDeviceSystem
 ---@return gameDeviceSystem
-function gameDeviceSystem.new(fields) return end
+function gameDeviceSystem.new(fields) end
 
 ---@param deviceEntityID gamePersistentID
 ---@param deviceClassName CName|string
 ---@param parentEntityID gamePersistentID
 ---@param parentClassName CName|string
 ---@return nil
-function gameDeviceSystem:AddDynamicConnection(deviceEntityID, deviceClassName, parentEntityID, parentClassName) return end
+function gameDeviceSystem:AddDynamicConnection(deviceEntityID, deviceClassName, parentEntityID, parentClassName) end
 
 ---@param entityID entEntityID
 ---@return nil, worldDeviceRef[] outDevicesData
-function gameDeviceSystem:DEBUG_GetAncestorsData(entityID) return end
+function gameDeviceSystem:DEBUG_GetAncestorsData(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, worldDeviceRef[] outDevicesData
-function gameDeviceSystem:DEBUG_GetChildrenData(entityID) return end
+function gameDeviceSystem:DEBUG_GetChildrenData(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, worldDeviceRef[] outDevicesData
-function gameDeviceSystem:DEBUG_GetDescendantsData(entityID) return end
+function gameDeviceSystem:DEBUG_GetDescendantsData(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, worldDeviceRef[] outDevicesData
-function gameDeviceSystem:DEBUG_GetParentsData(entityID) return end
+function gameDeviceSystem:DEBUG_GetParentsData(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameDeviceSystem:GetAllAncestors(entityID) return end
+function gameDeviceSystem:GetAllAncestors(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameDeviceSystem:GetAllDescendants(entityID) return end
+function gameDeviceSystem:GetAllDescendants(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameDeviceSystem:GetChildren(entityID) return end
+function gameDeviceSystem:GetChildren(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameLazyDevice[] outDevices
-function gameDeviceSystem:GetLazyAllAncestors(entityID) return end
+function gameDeviceSystem:GetLazyAllAncestors(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameLazyDevice[] outDevices
-function gameDeviceSystem:GetLazyAllDescendants(entityID) return end
+function gameDeviceSystem:GetLazyAllDescendants(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameLazyDevice[] outDevices
-function gameDeviceSystem:GetLazyChildren(entityID) return end
+function gameDeviceSystem:GetLazyChildren(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameLazyDevice[] outDevices
-function gameDeviceSystem:GetLazyParents(entityID) return end
+function gameDeviceSystem:GetLazyParents(entityID) end
 
 ---@param entityID entEntityID
 ---@return Bool, Vector4 position
-function gameDeviceSystem:GetNodePosition(entityID) return end
+function gameDeviceSystem:GetNodePosition(entityID) end
 
 ---@param entityID entEntityID
 ---@return nil, gameDeviceComponentPS[] outDevices
-function gameDeviceSystem:GetParents(entityID) return end
+function gameDeviceSystem:GetParents(entityID) end
 
 ---@param entityID entEntityID
 ---@return Bool
-function gameDeviceSystem:HasAnyAncestor(entityID) return end
+function gameDeviceSystem:HasAnyAncestor(entityID) end
 
 ---@param entityID entEntityID
 ---@return Bool
-function gameDeviceSystem:HasAnyChild(entityID) return end
+function gameDeviceSystem:HasAnyChild(entityID) end
 
 ---@param entityID entEntityID
 ---@return Bool
-function gameDeviceSystem:HasAnyDescendant(entityID) return end
+function gameDeviceSystem:HasAnyDescendant(entityID) end
 
 ---@param entityID entEntityID
 ---@return Bool
-function gameDeviceSystem:HasAnyParent(entityID) return end
+function gameDeviceSystem:HasAnyParent(entityID) end
 
 ---@param deviceEntityID gamePersistentID
 ---@param parentEntityID gamePersistentID
 ---@return nil
-function gameDeviceSystem:RemoveDynamicConnection(deviceEntityID, parentEntityID) return end
+function gameDeviceSystem:RemoveDynamicConnection(deviceEntityID, parentEntityID) end

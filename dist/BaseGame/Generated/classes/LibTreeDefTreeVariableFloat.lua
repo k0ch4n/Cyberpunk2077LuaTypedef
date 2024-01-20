@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class LibTreeDefTreeVariableFloat: LibTreeDefTreeVariable
----@field public exportAsProperty Bool
----@field public defaultValue Float
+---@field exportAsProperty Bool
+---@field defaultValue Float
 LibTreeDefTreeVariableFloat = {}
 
 ---@param fields? LibTreeDefTreeVariableFloat
 ---@return LibTreeDefTreeVariableFloat
-function LibTreeDefTreeVariableFloat.new(fields) return end
+function LibTreeDefTreeVariableFloat.new(fields) end

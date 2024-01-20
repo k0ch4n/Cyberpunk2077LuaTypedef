@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TicketData
----@field public requestID Uint32
----@field public policeStrategy vehiclePoliceStrategy
----@field public vehicleType gameDynamicVehicleType
----@field public isFallback Bool
+---@field requestID Uint32
+---@field policeStrategy vehiclePoliceStrategy
+---@field vehicleType gameDynamicVehicleType
+---@field isFallback Bool
 TicketData = {}
 
 ---@param fields? TicketData
 ---@return TicketData
-function TicketData.new(fields) return end
+function TicketData.new(fields) end

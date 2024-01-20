@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnInterruptionScenarioId
----@field public id Uint32
+---@field id Uint32
 scnInterruptionScenarioId = {}
 
 ---@param fields? scnInterruptionScenarioId
 ---@return scnInterruptionScenarioId
-function scnInterruptionScenarioId.new(fields) return end
+function scnInterruptionScenarioId.new(fields) end

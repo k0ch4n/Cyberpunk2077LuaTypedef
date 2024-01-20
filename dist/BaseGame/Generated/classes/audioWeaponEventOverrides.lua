@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioWeaponEventOverrides: audioInlinedAudioMetadata
----@field public entries audioWeaponEventOverride[]
----@field public entryType audioWeaponEventOverride
+---@field entries audioWeaponEventOverride[]
+---@field entryType audioWeaponEventOverride
 audioWeaponEventOverrides = {}
 
 ---@param fields? audioWeaponEventOverrides
 ---@return audioWeaponEventOverrides
-function audioWeaponEventOverrides.new(fields) return end
+function audioWeaponEventOverrides.new(fields) end

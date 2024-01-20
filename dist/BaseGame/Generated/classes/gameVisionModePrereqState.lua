@@ -5,4 +5,4 @@ gameVisionModePrereqState = {}
 
 ---@param fields? gameVisionModePrereqState
 ---@return gameVisionModePrereqState
-function gameVisionModePrereqState.new(fields) return end
+function gameVisionModePrereqState.new(fields) end

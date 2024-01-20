@@ -1,34 +1,33 @@
 ---@meta
 
 ---@class AIDriveOnSplineCommandHandler: AICommandHandlerBase
----@field protected outUseKinematic AIArgumentMapping
----@field protected outNeedDriver AIArgumentMapping
----@field protected outSpline AIArgumentMapping
----@field protected outSecureTimeOut AIArgumentMapping
----@field protected outDriveBackwards AIArgumentMapping
----@field protected outReverseSpline AIArgumentMapping
----@field protected outStartFromClosest AIArgumentMapping
----@field protected outForcedStartSpeed AIArgumentMapping
----@field protected outStopAtPathEnd AIArgumentMapping
----@field protected outKeepDistanceBool AIArgumentMapping
----@field protected outKeepDistanceCompanion AIArgumentMapping
----@field protected outKeepDistanceDistance AIArgumentMapping
----@field protected outRubberBandingBool AIArgumentMapping
----@field protected outRubberBandingTargetRef AIArgumentMapping
----@field protected outRubberBandingMinDistance AIArgumentMapping
----@field protected outRubberBandingMaxDistance AIArgumentMapping
----@field protected outRubberBandingStopAndWait AIArgumentMapping
----@field protected outRubberBandingTeleportToCatchUp AIArgumentMapping
----@field protected outRubberBandingStayInFront AIArgumentMapping
----@field protected outAudioCurvesParam AIArgumentMapping
+---@field outUseKinematic AIArgumentMapping
+---@field outNeedDriver AIArgumentMapping
+---@field outSpline AIArgumentMapping
+---@field outSecureTimeOut AIArgumentMapping
+---@field outDriveBackwards AIArgumentMapping
+---@field outReverseSpline AIArgumentMapping
+---@field outStartFromClosest AIArgumentMapping
+---@field outForcedStartSpeed AIArgumentMapping
+---@field outStopAtPathEnd AIArgumentMapping
+---@field outKeepDistanceBool AIArgumentMapping
+---@field outKeepDistanceCompanion AIArgumentMapping
+---@field outKeepDistanceDistance AIArgumentMapping
+---@field outRubberBandingBool AIArgumentMapping
+---@field outRubberBandingTargetRef AIArgumentMapping
+---@field outRubberBandingMinDistance AIArgumentMapping
+---@field outRubberBandingMaxDistance AIArgumentMapping
+---@field outRubberBandingStopAndWait AIArgumentMapping
+---@field outRubberBandingTeleportToCatchUp AIArgumentMapping
+---@field outRubberBandingStayInFront AIArgumentMapping
+---@field outAudioCurvesParam AIArgumentMapping
 AIDriveOnSplineCommandHandler = {}
 
 ---@param fields? AIDriveOnSplineCommandHandler
 ---@return AIDriveOnSplineCommandHandler
-function AIDriveOnSplineCommandHandler.new(fields) return end
+function AIDriveOnSplineCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function AIDriveOnSplineCommandHandler:UpdateCommand(context, command) return end
+function AIDriveOnSplineCommandHandler:UpdateCommand(context, command) end

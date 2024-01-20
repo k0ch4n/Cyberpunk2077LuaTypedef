@@ -5,20 +5,20 @@ ScriptReentrantRWLock = {}
 
 ---@param fields? ScriptReentrantRWLock
 ---@return ScriptReentrantRWLock
-function ScriptReentrantRWLock.new(fields) return end
+function ScriptReentrantRWLock.new(fields) end
 
 ---@param self ScriptReentrantRWLock
 ---@return nil
-function ScriptReentrantRWLock.Acquire(self) return end
+function ScriptReentrantRWLock.Acquire(self) end
 
 ---@param self ScriptReentrantRWLock
 ---@return nil
-function ScriptReentrantRWLock.AcquireShared(self) return end
+function ScriptReentrantRWLock.AcquireShared(self) end
 
 ---@param self ScriptReentrantRWLock
 ---@return nil
-function ScriptReentrantRWLock.Release(self) return end
+function ScriptReentrantRWLock.Release(self) end
 
 ---@param self ScriptReentrantRWLock
 ---@return nil
-function ScriptReentrantRWLock.ReleaseShared(self) return end
+function ScriptReentrantRWLock.ReleaseShared(self) end

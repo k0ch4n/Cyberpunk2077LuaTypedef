@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ItemDisplayHoldEvent: redEvent
----@field public itemData gameInventoryItemData
----@field public display InventoryItemDisplayController
----@field public uiInventoryItem UIInventoryItem
----@field public displayContextData ItemDisplayContextData
----@field public actionName inkActionName
+---@field itemData gameInventoryItemData
+---@field display InventoryItemDisplayController
+---@field uiInventoryItem UIInventoryItem
+---@field displayContextData ItemDisplayContextData
+---@field actionName inkActionName
 ItemDisplayHoldEvent = {}
 
 ---@param fields? ItemDisplayHoldEvent
 ---@return ItemDisplayHoldEvent
-function ItemDisplayHoldEvent.new(fields) return end
+function ItemDisplayHoldEvent.new(fields) end

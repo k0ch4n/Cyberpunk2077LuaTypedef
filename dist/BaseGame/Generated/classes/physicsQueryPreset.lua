@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class physicsQueryPreset
----@field public presetName CName
+---@field presetName CName
 physicsQueryPreset = {}
 
 ---@param fields? physicsQueryPreset
 ---@return physicsQueryPreset
-function physicsQueryPreset.new(fields) return end
+function physicsQueryPreset.new(fields) end

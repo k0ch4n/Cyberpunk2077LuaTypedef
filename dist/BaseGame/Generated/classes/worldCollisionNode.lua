@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class worldCollisionNode: worldNode
----@field public compiledData DataBuffer
----@field public numActors Uint16
----@field public numShapeInfos Uint16
----@field public numShapePositions Uint16
----@field public numShapeRotations Uint16
----@field public numScales Uint16
----@field public numMaterials Uint16
----@field public numPresets Uint16
----@field public numMaterialIndices Uint16
----@field public numShapeIndices Uint16
----@field public sectorHash Uint64
----@field public extents Vector4
----@field public lod Uint8
----@field public resourceVersion Uint8
+---@field compiledData DataBuffer
+---@field numActors Uint16
+---@field numShapeInfos Uint16
+---@field numShapePositions Uint16
+---@field numShapeRotations Uint16
+---@field numScales Uint16
+---@field numMaterials Uint16
+---@field numPresets Uint16
+---@field numMaterialIndices Uint16
+---@field numShapeIndices Uint16
+---@field sectorHash Uint64
+---@field extents Vector4
+---@field lod Uint8
+---@field resourceVersion Uint8
 worldCollisionNode = {}
 
 ---@param fields? worldCollisionNode
 ---@return worldCollisionNode
-function worldCollisionNode.new(fields) return end
+function worldCollisionNode.new(fields) end

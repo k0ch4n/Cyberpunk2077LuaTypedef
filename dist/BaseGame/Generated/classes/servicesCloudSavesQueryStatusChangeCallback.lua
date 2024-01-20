@@ -5,4 +5,4 @@ servicesCloudSavesQueryStatusChangeCallback = {}
 
 ---@param fields? servicesCloudSavesQueryStatusChangeCallback
 ---@return servicesCloudSavesQueryStatusChangeCallback
-function servicesCloudSavesQueryStatusChangeCallback.new(fields) return end
+function servicesCloudSavesQueryStatusChangeCallback.new(fields) end

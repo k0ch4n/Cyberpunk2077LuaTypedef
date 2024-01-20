@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class TakedownExecuteTakedownAndDisposeEvents: LocomotionTakedownEvents
----@field public targetID entEntityID
+---@field targetID entEntityID
 TakedownExecuteTakedownAndDisposeEvents = {}
 
 ---@param fields? TakedownExecuteTakedownAndDisposeEvents
 ---@return TakedownExecuteTakedownAndDisposeEvents
-function TakedownExecuteTakedownAndDisposeEvents.new(fields) return end
+function TakedownExecuteTakedownAndDisposeEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownExecuteTakedownAndDisposeEvents:OnEnter(stateContext, scriptInterface) return end
+function TakedownExecuteTakedownAndDisposeEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownExecuteTakedownAndDisposeEvents:OnExit(stateContext, scriptInterface) return end
+function TakedownExecuteTakedownAndDisposeEvents:OnExit(stateContext, scriptInterface) end

@@ -5,4 +5,4 @@ worldPhysicalImpulseAreaNodeInstance = {}
 
 ---@param fields? worldPhysicalImpulseAreaNodeInstance
 ---@return worldPhysicalImpulseAreaNodeInstance
-function worldPhysicalImpulseAreaNodeInstance.new(fields) return end
+function worldPhysicalImpulseAreaNodeInstance.new(fields) end

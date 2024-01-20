@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class OpenWorldActivityRequest
----@field public kind CName
----@field public districts gamedataDistrict[]
----@field public cooldown Float
----@field public force Bool
+---@field kind CName
+---@field districts gamedataDistrict[]
+---@field cooldown Float
+---@field force Bool
 OpenWorldActivityRequest = {}
 
 ---@param fields? OpenWorldActivityRequest
 ---@return OpenWorldActivityRequest
-function OpenWorldActivityRequest.new(fields) return end
+function OpenWorldActivityRequest.new(fields) end

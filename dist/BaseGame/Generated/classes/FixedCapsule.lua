@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class FixedCapsule
----@field public PointRadius Vector4
----@field public Height Float
+---@field PointRadius Vector4
+---@field Height Float
 FixedCapsule = {}
 
 ---@param fields? FixedCapsule
 ---@return FixedCapsule
-function FixedCapsule.new(fields) return end
+function FixedCapsule.new(fields) end

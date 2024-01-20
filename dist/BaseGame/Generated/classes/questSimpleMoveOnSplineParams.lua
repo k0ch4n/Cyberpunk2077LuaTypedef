@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questSimpleMoveOnSplineParams
----@field public movementType moveMovementType
----@field public facingTargetRef questUniversalRef
----@field public rotateEntityTowardsFacingTarget Bool
----@field public snapToTerrain Bool
----@field public useOffMeshLinkReservation Bool
----@field public allowCrowdOnPath Bool
+---@field movementType moveMovementType
+---@field facingTargetRef questUniversalRef
+---@field rotateEntityTowardsFacingTarget Bool
+---@field snapToTerrain Bool
+---@field useOffMeshLinkReservation Bool
+---@field allowCrowdOnPath Bool
 questSimpleMoveOnSplineParams = {}
 
 ---@param fields? questSimpleMoveOnSplineParams
 ---@return questSimpleMoveOnSplineParams
-function questSimpleMoveOnSplineParams.new(fields) return end
+function questSimpleMoveOnSplineParams.new(fields) end

@@ -5,4 +5,4 @@ worldRuntimeSystemDestruction = {}
 
 ---@param fields? worldRuntimeSystemDestruction
 ---@return worldRuntimeSystemDestruction
-function worldRuntimeSystemDestruction.new(fields) return end
+function worldRuntimeSystemDestruction.new(fields) end

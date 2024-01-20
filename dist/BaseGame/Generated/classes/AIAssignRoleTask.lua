@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class AIAssignRoleTask: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AIAssignRoleTask = {}
 
 ---@param fields? AIAssignRoleTask
 ---@return AIAssignRoleTask
-function AIAssignRoleTask.new(fields) return end
+function AIAssignRoleTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIAssignRoleTask:Update(context) return end
+function AIAssignRoleTask:Update(context) end

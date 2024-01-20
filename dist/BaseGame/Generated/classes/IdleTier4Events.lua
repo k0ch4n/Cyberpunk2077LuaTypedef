@@ -5,9 +5,9 @@ IdleTier4Events = {}
 
 ---@param fields? IdleTier4Events
 ---@return IdleTier4Events
-function IdleTier4Events.new(fields) return end
+function IdleTier4Events.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function IdleTier4Events:OnEnter(stateContext, scriptInterface) return end
+function IdleTier4Events:OnEnter(stateContext, scriptInterface) end

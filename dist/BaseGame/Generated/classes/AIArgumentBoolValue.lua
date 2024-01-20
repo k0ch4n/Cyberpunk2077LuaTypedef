@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentBoolValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue Bool
+---@field type AIArgumentType
+---@field defaultValue Bool
 AIArgumentBoolValue = {}
 
 ---@param fields? AIArgumentBoolValue
 ---@return AIArgumentBoolValue
-function AIArgumentBoolValue.new(fields) return end
+function AIArgumentBoolValue.new(fields) end

@@ -5,9 +5,8 @@ ParryReactionTask = {}
 
 ---@param fields? ParryReactionTask
 ---@return ParryReactionTask
-function ParryReactionTask.new(fields) return end
+function ParryReactionTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ParryReactionTask:Deactivate(context) return end
+function ParryReactionTask:Deactivate(context) end

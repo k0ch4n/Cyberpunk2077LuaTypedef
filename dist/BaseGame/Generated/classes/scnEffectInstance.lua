@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnEffectInstance
----@field public effectInstanceId scnEffectInstanceId
----@field public compiledEffect worldCompiledEffectInfo
+---@field effectInstanceId scnEffectInstanceId
+---@field compiledEffect worldCompiledEffectInfo
 scnEffectInstance = {}
 
 ---@param fields? scnEffectInstance
 ---@return scnEffectInstance
-function scnEffectInstance.new(fields) return end
+function scnEffectInstance.new(fields) end

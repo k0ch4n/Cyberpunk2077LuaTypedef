@@ -5,7 +5,7 @@ DisassembleMasterController = {}
 
 ---@param fields? DisassembleMasterController
 ---@return DisassembleMasterController
-function DisassembleMasterController.new(fields) return end
+function DisassembleMasterController.new(fields) end
 
 ---@return DisassembleMasterControllerPS
-function DisassembleMasterController:GetPS() return end
+function DisassembleMasterController:GetPS() end

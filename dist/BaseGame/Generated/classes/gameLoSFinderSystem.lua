@@ -5,4 +5,4 @@ gameLoSFinderSystem = {}
 
 ---@param fields? gameLoSFinderSystem
 ---@return gameLoSFinderSystem
-function gameLoSFinderSystem.new(fields) return end
+function gameLoSFinderSystem.new(fields) end

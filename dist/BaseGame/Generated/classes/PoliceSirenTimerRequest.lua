@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PoliceSirenTimerRequest: gameScriptableSystemRequest
----@field public red Bool
----@field public fast Bool
----@field public abort Bool
+---@field red Bool
+---@field fast Bool
+---@field abort Bool
 PoliceSirenTimerRequest = {}
 
 ---@param fields? PoliceSirenTimerRequest
 ---@return PoliceSirenTimerRequest
-function PoliceSirenTimerRequest.new(fields) return end
+function PoliceSirenTimerRequest.new(fields) end

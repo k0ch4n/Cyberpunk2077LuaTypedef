@@ -5,9 +5,9 @@ IdleDecisions = {}
 
 ---@param fields? IdleDecisions
 ---@return IdleDecisions
-function IdleDecisions.new(fields) return end
+function IdleDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function IdleDecisions:ToExit(stateContext, scriptInterface) return end
+function IdleDecisions:ToExit(stateContext, scriptInterface) end

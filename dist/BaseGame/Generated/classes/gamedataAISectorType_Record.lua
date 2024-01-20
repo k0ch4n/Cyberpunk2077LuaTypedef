@@ -5,10 +5,10 @@ gamedataAISectorType_Record = {}
 
 ---@param fields? gamedataAISectorType_Record
 ---@return gamedataAISectorType_Record
-function gamedataAISectorType_Record.new(fields) return end
+function gamedataAISectorType_Record.new(fields) end
 
 ---@return String
-function gamedataAISectorType_Record:EnumComment() return end
+function gamedataAISectorType_Record:EnumComment() end
 
 ---@return CName
-function gamedataAISectorType_Record:EnumName() return end
+function gamedataAISectorType_Record:EnumName() end

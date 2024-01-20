@@ -5,40 +5,40 @@ gamedataStatPool_Record = {}
 
 ---@param fields? gamedataStatPool_Record
 ---@return gamedataStatPool_Record
-function gamedataStatPool_Record.new(fields) return end
+function gamedataStatPool_Record.new(fields) end
 
 ---@return gamedataPoolValueModifier_Record
-function gamedataStatPool_Record:Decay() return end
+function gamedataStatPool_Record:Decay() end
 
 ---@return gamedataPoolValueModifier_Record
-function gamedataStatPool_Record:DecayHandle() return end
+function gamedataStatPool_Record:DecayHandle() end
 
 ---@return Bool
-function gamedataStatPool_Record:EnableDefeated() return end
+function gamedataStatPool_Record:EnableDefeated() end
 
 ---@return String
-function gamedataStatPool_Record:EnumComment() return end
+function gamedataStatPool_Record:EnumComment() end
 
 ---@return CName
-function gamedataStatPool_Record:EnumName() return end
+function gamedataStatPool_Record:EnumName() end
 
 ---@return Float
-function gamedataStatPool_Record:InitialValue() return end
+function gamedataStatPool_Record:InitialValue() end
 
 ---@return gamedataPoolValueModifier_Record
-function gamedataStatPool_Record:Regen() return end
+function gamedataStatPool_Record:Regen() end
 
 ---@return gamedataPoolValueModifier_Record
-function gamedataStatPool_Record:RegenHandle() return end
+function gamedataStatPool_Record:RegenHandle() end
 
 ---@return Bool
-function gamedataStatPool_Record:Savable() return end
+function gamedataStatPool_Record:Savable() end
 
 ---@return gamedataStat_Record
-function gamedataStatPool_Record:Stat() return end
+function gamedataStatPool_Record:Stat() end
 
 ---@return gamedataStat_Record
-function gamedataStatPool_Record:StatHandle() return end
+function gamedataStatPool_Record:StatHandle() end
 
 ---@return gamedataStatPoolType
-function gamedataStatPool_Record:StatPoolType() return end
+function gamedataStatPool_Record:StatPoolType() end

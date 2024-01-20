@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class CParticleModificatorSizeByDistance: IParticleModificator
----@field public nearDistanceRangeStart IEvaluatorFloat
----@field public nearDistanceRangeEnd IEvaluatorFloat
----@field public nearDistanceSizeMultiplier IEvaluatorFloat
----@field public farDistanceRangeStart IEvaluatorFloat
----@field public farDistanceRangeEnd IEvaluatorFloat
----@field public farDistanceSizeMultiplier IEvaluatorFloat
+---@field nearDistanceRangeStart IEvaluatorFloat
+---@field nearDistanceRangeEnd IEvaluatorFloat
+---@field nearDistanceSizeMultiplier IEvaluatorFloat
+---@field farDistanceRangeStart IEvaluatorFloat
+---@field farDistanceRangeEnd IEvaluatorFloat
+---@field farDistanceSizeMultiplier IEvaluatorFloat
 CParticleModificatorSizeByDistance = {}
 
 ---@param fields? CParticleModificatorSizeByDistance
 ---@return CParticleModificatorSizeByDistance
-function CParticleModificatorSizeByDistance.new(fields) return end
+function CParticleModificatorSizeByDistance.new(fields) end

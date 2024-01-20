@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class BuyAttributeEffector: gameEffector
----@field public type gamedataStatType
+---@field type gamedataStatType
 BuyAttributeEffector = {}
 
 ---@param fields? BuyAttributeEffector
 ---@return BuyAttributeEffector
-function BuyAttributeEffector.new(fields) return end
+function BuyAttributeEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function BuyAttributeEffector:ActionOn(owner) return end
+function BuyAttributeEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function BuyAttributeEffector:Initialize(record, parentRecord) return end
+function BuyAttributeEffector:Initialize(record, parentRecord) end

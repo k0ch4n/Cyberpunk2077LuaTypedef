@@ -5,16 +5,14 @@ InspectionDecisions = {}
 
 ---@param fields? InspectionDecisions
 ---@return InspectionDecisions
-function InspectionDecisions.new(fields) return end
+function InspectionDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function InspectionDecisions:EnterCondition(stateContext, scriptInterface) return end
+function InspectionDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function InspectionDecisions:ToExploration(stateContext, scriptInterface) return end
+function InspectionDecisions:ToExploration(stateContext, scriptInterface) end

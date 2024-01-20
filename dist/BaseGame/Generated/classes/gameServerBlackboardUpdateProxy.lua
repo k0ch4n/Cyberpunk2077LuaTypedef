@@ -5,4 +5,4 @@ gameServerBlackboardUpdateProxy = {}
 
 ---@param fields? gameServerBlackboardUpdateProxy
 ---@return gameServerBlackboardUpdateProxy
-function gameServerBlackboardUpdateProxy.new(fields) return end
+function gameServerBlackboardUpdateProxy.new(fields) end

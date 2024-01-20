@@ -5,26 +5,22 @@ Mainframe = {}
 
 ---@param fields? Mainframe
 ---@return Mainframe
-function Mainframe.new(fields) return end
+function Mainframe.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Mainframe:OnRequestComponents(ri) return end
+function Mainframe:OnRequestComponents(ri) end
 
----@protected
 ---@param evt FactQuickHack
 ---@return Bool
-function Mainframe:OnSetQuestFact(evt) return end
+function Mainframe:OnSetQuestFact(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Mainframe:OnTakeControl(ri) return end
+function Mainframe:OnTakeControl(ri) end
 
----@private
 ---@return MainframeController
-function Mainframe:GetController() return end
+function Mainframe:GetController() end
 
 ---@return MainframeControllerPS
-function Mainframe:GetDevicePS() return end
+function Mainframe:GetDevicePS() end

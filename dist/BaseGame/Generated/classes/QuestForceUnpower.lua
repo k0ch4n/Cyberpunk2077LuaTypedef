@@ -5,7 +5,7 @@ QuestForceUnpower = {}
 
 ---@param fields? QuestForceUnpower
 ---@return QuestForceUnpower
-function QuestForceUnpower.new(fields) return end
+function QuestForceUnpower.new(fields) end
 
 ---@return nil
-function QuestForceUnpower:SetProperties() return end
+function QuestForceUnpower:SetProperties() end

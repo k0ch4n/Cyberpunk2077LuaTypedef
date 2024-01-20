@@ -1,51 +1,45 @@
 ---@meta
 
 ---@class ExplodingBullet: BaseBullet
----@field public explosionTime Float
----@field public effectReference gameEffectRef
----@field public hasExploded Bool
----@field public initialPosition Vector4
----@field public trailStarted Bool
----@field public weapon gameweaponObject
----@field public attack_record gamedataAttack_Record
----@field public attackID TweakDBID
----@field public colliderBox Vector4
----@field public rotation Quaternion
----@field public range Float
----@field public explodeAfterRangeTravelled Bool
----@field private attack gameIAttack
----@field private BulletCollisionEvaluator BulletCollisionEvaluator
+---@field explosionTime Float
+---@field effectReference gameEffectRef
+---@field hasExploded Bool
+---@field initialPosition Vector4
+---@field trailStarted Bool
+---@field weapon gameweaponObject
+---@field attack_record gamedataAttack_Record
+---@field attackID TweakDBID
+---@field colliderBox Vector4
+---@field rotation Quaternion
+---@field range Float
+---@field explodeAfterRangeTravelled Bool
+---@field attack gameIAttack
+---@field BulletCollisionEvaluator BulletCollisionEvaluator
 ExplodingBullet = {}
 
 ---@param fields? ExplodingBullet
 ---@return ExplodingBullet
-function ExplodingBullet.new(fields) return end
+function ExplodingBullet.new(fields) end
 
----@protected
 ---@param projectileHitEvent gameprojectileHitEvent
 ---@return Bool
-function ExplodingBullet:OnCollision(projectileHitEvent) return end
+function ExplodingBullet:OnCollision(projectileHitEvent) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function ExplodingBullet:OnProjectileInitialize(eventData) return end
+function ExplodingBullet:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function ExplodingBullet:OnTick(eventData) return end
+function ExplodingBullet:OnTick(eventData) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return nil
-function ExplodingBullet:DealDamage(eventData) return end
+function ExplodingBullet:DealDamage(eventData) end
 
----@protected
 ---@param position? Vector4
 ---@return nil
-function ExplodingBullet:Explode(position) return end
+function ExplodingBullet:Explode(position) end
 
----@protected
 ---@return nil
-function ExplodingBullet:RunGameEffect() return end
+function ExplodingBullet:RunGameEffect() end

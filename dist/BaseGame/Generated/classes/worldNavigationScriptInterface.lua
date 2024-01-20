@@ -5,14 +5,14 @@ worldNavigationScriptInterface = {}
 
 ---@param fields? worldNavigationScriptInterface
 ---@return worldNavigationScriptInterface
-function worldNavigationScriptInterface.new(fields) return end
+function worldNavigationScriptInterface.new(fields) end
 
 ---@param position Vector4
 ---@param radius Float
 ---@param height Float
 ---@param agentSize NavGenAgentSize
 ---@return worldNavigationScriptObstacle
-function worldNavigationScriptInterface:AddObstacle(position, radius, height, agentSize) return end
+function worldNavigationScriptInterface:AddObstacle(position, radius, height, agentSize) end
 
 ---@param startPoint Vector4
 ---@param endPoint Vector4
@@ -20,7 +20,7 @@ function worldNavigationScriptInterface:AddObstacle(position, radius, height, ag
 ---@param findPointTolerance Float
 ---@param costModCircle? worldNavigationScriptCostModCircle
 ---@return worldNavigationScriptPath
-function worldNavigationScriptInterface:CalculatePathOnlyHumanNavmesh(startPoint, endPoint, agentSize, findPointTolerance, costModCircle) return end
+function worldNavigationScriptInterface:CalculatePathOnlyHumanNavmesh(startPoint, endPoint, agentSize, findPointTolerance, costModCircle) end
 
 ---@param pos Vector4
 ---@param refPos Vector4
@@ -29,17 +29,17 @@ function worldNavigationScriptInterface:CalculatePathOnlyHumanNavmesh(startPoint
 ---@param distanceTolerance? Float
 ---@param angleTolerance? Float
 ---@return Bool, Vector4 destination
-function worldNavigationScriptInterface:FindNavmeshPointAwayFromReferencePoint(pos, refPos, distance, agentSize, distanceTolerance, angleTolerance) return end
+function worldNavigationScriptInterface:FindNavmeshPointAwayFromReferencePoint(pos, refPos, distance, agentSize, distanceTolerance, angleTolerance) end
 
 ---@return nil
-function worldNavigationScriptInterface:FindPointInBox() return end
+function worldNavigationScriptInterface:FindPointInBox() end
 
 ---@param center Vector4
 ---@param radius Float
 ---@param agentSize NavGenAgentSize
 ---@param heightDetail Bool
 ---@return worldNavigationScriptFindPointResult
-function worldNavigationScriptInterface:FindPointInSphereOnlyHumanNavmesh(center, radius, agentSize, heightDetail) return end
+function worldNavigationScriptInterface:FindPointInSphereOnlyHumanNavmesh(center, radius, agentSize, heightDetail) end
 
 ---@param playerPos Vector4
 ---@param pos Vector4
@@ -48,7 +48,7 @@ function worldNavigationScriptInterface:FindPointInSphereOnlyHumanNavmesh(center
 ---@param navVisCheck Bool
 ---@param agentSize NavGenAgentSize
 ---@return Bool, Vector4 destination, Bool isDestinationFallback
-function worldNavigationScriptInterface:FindPursuitPoint(playerPos, pos, dir, radius, navVisCheck, agentSize) return end
+function worldNavigationScriptInterface:FindPursuitPoint(playerPos, pos, dir, radius, navVisCheck, agentSize) end
 
 ---@param playerPos Vector4
 ---@param pos Vector4
@@ -58,7 +58,7 @@ function worldNavigationScriptInterface:FindPursuitPoint(playerPos, pos, dir, ra
 ---@param navVisCheck Bool
 ---@param agentSize NavGenAgentSize
 ---@return Bool, Vector4 destination, Bool isDestinationFallback
-function worldNavigationScriptInterface:FindPursuitPointRange(playerPos, pos, dir, radiusMin, radiusMax, navVisCheck, agentSize) return end
+function worldNavigationScriptInterface:FindPursuitPointRange(playerPos, pos, dir, radiusMin, radiusMax, navVisCheck, agentSize) end
 
 ---@param playerPos Vector4
 ---@param pos Vector4
@@ -69,33 +69,33 @@ function worldNavigationScriptInterface:FindPursuitPointRange(playerPos, pos, di
 ---@param navVisCheck Bool
 ---@param agentSize NavGenAgentSize
 ---@return Bool, Vector4[] results, Vector4[] fallbackResults
-function worldNavigationScriptInterface:FindPursuitPointsRange(playerPos, pos, dir, radiusMin, radiusMax, count, navVisCheck, agentSize) return end
+function worldNavigationScriptInterface:FindPursuitPointsRange(playerPos, pos, dir, radiusMin, radiusMax, count, navVisCheck, agentSize) end
 
 ---@param startPoint Vector4
 ---@param endPoint Vector4
 ---@param agentSize NavGenAgentSize
 ---@param findPointTolerance Float
 ---@return worldNavigationScriptFindWallResult
-function worldNavigationScriptInterface:FindWallInLineOnlyHumanNavmesh(startPoint, endPoint, agentSize, findPointTolerance) return end
+function worldNavigationScriptInterface:FindWallInLineOnlyHumanNavmesh(startPoint, endPoint, agentSize, findPointTolerance) end
 
 ---@param origin Vector4
 ---@param findPointTolerance Float
 ---@param allowedMask? Uint16
 ---@param blockedMask? Uint16
 ---@return Bool
-function worldNavigationScriptInterface:IsNavmeshStreamedInLocation(origin, findPointTolerance, allowedMask, blockedMask) return end
+function worldNavigationScriptInterface:IsNavmeshStreamedInLocation(origin, findPointTolerance, allowedMask, blockedMask) end
 
 ---@param obstacle worldNavigationScriptObstacle
 ---@return nil
-function worldNavigationScriptInterface:RemoveObstacle(obstacle) return end
+function worldNavigationScriptInterface:RemoveObstacle(obstacle) end
 
 ---@param origin Vector4
 ---@param querySphereRadius Float
 ---@param numberOfSpheres Int32
 ---@return Vector4
-function worldNavigationScriptInterface:GetNearestNavmeshPointBelowOnlyHumanNavmesh(origin, querySphereRadius, numberOfSpheres) return end
+function worldNavigationScriptInterface:GetNearestNavmeshPointBelowOnlyHumanNavmesh(origin, querySphereRadius, numberOfSpheres) end
 
 ---@param target gameObject
 ---@param queryLength? Float
 ---@return Bool
-function worldNavigationScriptInterface:IsOnGround(target, queryLength) return end
+function worldNavigationScriptInterface:IsOnGround(target, queryLength) end

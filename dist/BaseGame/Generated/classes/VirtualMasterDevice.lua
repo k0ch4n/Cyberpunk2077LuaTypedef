@@ -5,4 +5,4 @@ VirtualMasterDevice = {}
 
 ---@param fields? VirtualMasterDevice
 ---@return VirtualMasterDevice
-function VirtualMasterDevice.new(fields) return end
+function VirtualMasterDevice.new(fields) end

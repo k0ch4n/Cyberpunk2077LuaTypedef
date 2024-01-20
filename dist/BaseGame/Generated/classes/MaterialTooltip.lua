@@ -1,39 +1,36 @@
 ---@meta
 
 ---@class MaterialTooltip: AGenericTooltipController
----@field protected titleWrapper inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionLine inkWidgetReference
----@field protected Title inkTextWidgetReference
----@field protected BasePrice inkTextWidgetReference
----@field protected Price inkTextWidgetReference
----@field private animProxy inkanimProxy
+---@field titleWrapper inkWidgetReference
+---@field descriptionWrapper inkWidgetReference
+---@field descriptionLine inkWidgetReference
+---@field Title inkTextWidgetReference
+---@field BasePrice inkTextWidgetReference
+---@field Price inkTextWidgetReference
+---@field animProxy inkanimProxy
 MaterialTooltip = {}
 
 ---@param fields? MaterialTooltip
 ---@return MaterialTooltip
-function MaterialTooltip.new(fields) return end
+function MaterialTooltip.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function MaterialTooltip:OnIntroComplete(proxy) return end
+function MaterialTooltip:OnIntroComplete(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function MaterialTooltip:OnOutroComplete(proxy) return end
+function MaterialTooltip:OnOutroComplete(proxy) end
 
----@private
 ---@param animName CName|string
 ---@param callback CName|string
 ---@param forceVisible? Bool
 ---@return nil
-function MaterialTooltip:PlayAnim(animName, callback, forceVisible) return end
+function MaterialTooltip:PlayAnim(animName, callback, forceVisible) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function MaterialTooltip:SetData(tooltipData) return end
+function MaterialTooltip:SetData(tooltipData) end
 
 ---@return nil
-function MaterialTooltip:Show() return end
+function MaterialTooltip:Show() end

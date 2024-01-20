@@ -5,4 +5,4 @@ gamestateMachineplayeractionsVehicleDrive = {}
 
 ---@param fields? gamestateMachineplayeractionsVehicleDrive
 ---@return gamestateMachineplayeractionsVehicleDrive
-function gamestateMachineplayeractionsVehicleDrive.new(fields) return end
+function gamestateMachineplayeractionsVehicleDrive.new(fields) end

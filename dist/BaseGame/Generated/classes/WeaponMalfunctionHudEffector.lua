@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class WeaponMalfunctionHudEffector: gameEffector
----@field public bb gameIBlackboard
+---@field bb gameIBlackboard
 WeaponMalfunctionHudEffector = {}
 
 ---@param fields? WeaponMalfunctionHudEffector
 ---@return WeaponMalfunctionHudEffector
-function WeaponMalfunctionHudEffector.new(fields) return end
+function WeaponMalfunctionHudEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function WeaponMalfunctionHudEffector:ActionOff(owner) return end
+function WeaponMalfunctionHudEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function WeaponMalfunctionHudEffector:ActionOn(owner) return end
+function WeaponMalfunctionHudEffector:ActionOn(owner) end
 
----@protected
 ---@return nil
-function WeaponMalfunctionHudEffector:Uninitialize() return end
+function WeaponMalfunctionHudEffector:Uninitialize() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EventEquipSlotSelectDelayedInventoryEvent: redEvent
----@field public controller InventoryItemDisplayController
+---@field controller InventoryItemDisplayController
 EventEquipSlotSelectDelayedInventoryEvent = {}
 
 ---@param fields? EventEquipSlotSelectDelayedInventoryEvent
 ---@return EventEquipSlotSelectDelayedInventoryEvent
-function EventEquipSlotSelectDelayedInventoryEvent.new(fields) return end
+function EventEquipSlotSelectDelayedInventoryEvent.new(fields) end

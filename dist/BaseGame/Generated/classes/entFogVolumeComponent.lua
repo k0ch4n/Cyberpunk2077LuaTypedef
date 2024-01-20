@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class entFogVolumeComponent: entIVisualComponent
----@field public densityFalloff Float
----@field public blendFalloff Float
----@field public densityFactor Float
----@field public color Color
----@field public absorption Float
----@field public size Vector3
----@field public isEnabled Bool
+---@field densityFalloff Float
+---@field blendFalloff Float
+---@field densityFactor Float
+---@field color Color
+---@field absorption Float
+---@field size Vector3
+---@field isEnabled Bool
 entFogVolumeComponent = {}
 
 ---@param fields? entFogVolumeComponent
 ---@return entFogVolumeComponent
-function entFogVolumeComponent.new(fields) return end
+function entFogVolumeComponent.new(fields) end

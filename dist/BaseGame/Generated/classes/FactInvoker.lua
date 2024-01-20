@@ -5,24 +5,21 @@ FactInvoker = {}
 
 ---@param fields? FactInvoker
 ---@return FactInvoker
-function FactInvoker.new(fields) return end
+function FactInvoker.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function FactInvoker:OnRequestComponents(ri) return end
+function FactInvoker:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function FactInvoker:OnTakeControl(ri) return end
+function FactInvoker:OnTakeControl(ri) end
 
----@protected
 ---@return FactInvokerController
-function FactInvoker:GetController() return end
+function FactInvoker:GetController() end
 
 ---@return FactInvokerControllerPS
-function FactInvoker:GetDevicePS() return end
+function FactInvoker:GetDevicePS() end
 
 ---@return Bool
-function FactInvoker:ShouldAlwaysUpdateDeviceWidgets() return end
+function FactInvoker:ShouldAlwaysUpdateDeviceWidgets() end

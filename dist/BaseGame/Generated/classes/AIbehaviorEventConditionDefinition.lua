@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorEventConditionDefinition: ISerializable
----@field public condition AIbehaviorConditionDefinition
----@field public eventName CName
+---@field condition AIbehaviorConditionDefinition
+---@field eventName CName
 AIbehaviorEventConditionDefinition = {}
 
 ---@param fields? AIbehaviorEventConditionDefinition
 ---@return AIbehaviorEventConditionDefinition
-function AIbehaviorEventConditionDefinition.new(fields) return end
+function AIbehaviorEventConditionDefinition.new(fields) end

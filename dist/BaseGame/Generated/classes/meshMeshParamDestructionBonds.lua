@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class meshMeshParamDestructionBonds: meshMeshParameter
----@field public bonds meshDestructionBond[]
+---@field bonds meshDestructionBond[]
 meshMeshParamDestructionBonds = {}
 
 ---@param fields? meshMeshParamDestructionBonds
 ---@return meshMeshParamDestructionBonds
-function meshMeshParamDestructionBonds.new(fields) return end
+function meshMeshParamDestructionBonds.new(fields) end

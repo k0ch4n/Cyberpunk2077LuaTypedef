@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ApplyStatGroupEffectorCallback: gameAttachmentSlotsScriptCallback
----@field public effector ApplyStatGroupEffector
+---@field effector ApplyStatGroupEffector
 ApplyStatGroupEffectorCallback = {}
 
 ---@param fields? ApplyStatGroupEffectorCallback
 ---@return ApplyStatGroupEffectorCallback
-function ApplyStatGroupEffectorCallback.new(fields) return end
+function ApplyStatGroupEffectorCallback.new(fields) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ApplyStatGroupEffectorCallback:OnItemEquipped(slot, item) return end
+function ApplyStatGroupEffectorCallback:OnItemEquipped(slot, item) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ApplyStatGroupEffectorCallback:OnItemUnequipped(slot, item) return end
+function ApplyStatGroupEffectorCallback:OnItemUnequipped(slot, item) end

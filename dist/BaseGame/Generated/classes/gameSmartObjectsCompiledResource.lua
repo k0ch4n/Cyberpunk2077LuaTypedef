@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameSmartObjectsCompiledResource: resStreamedResource
----@field public animationDatabase gameSmartObjectAnimationDatabase
----@field public compiledNodesData gameCompiledNodes
----@field public transformDictionary gameSmartObjectTransformDictionary
----@field public propertyDictionary gameSmartObjectPropertyDictionary
----@field public transformSequenceDictionary gameSmartObjectTransformSequenceDictionary
----@field public soMembership gameSmartObjectMembership
----@field public localBoundingBox Box
+---@field animationDatabase gameSmartObjectAnimationDatabase
+---@field compiledNodesData gameCompiledNodes
+---@field transformDictionary gameSmartObjectTransformDictionary
+---@field propertyDictionary gameSmartObjectPropertyDictionary
+---@field transformSequenceDictionary gameSmartObjectTransformSequenceDictionary
+---@field soMembership gameSmartObjectMembership
+---@field localBoundingBox Box
 gameSmartObjectsCompiledResource = {}
 
 ---@param fields? gameSmartObjectsCompiledResource
 ---@return gameSmartObjectsCompiledResource
-function gameSmartObjectsCompiledResource.new(fields) return end
+function gameSmartObjectsCompiledResource.new(fields) end

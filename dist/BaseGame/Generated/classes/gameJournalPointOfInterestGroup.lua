@@ -5,4 +5,4 @@ gameJournalPointOfInterestGroup = {}
 
 ---@param fields? gameJournalPointOfInterestGroup
 ---@return gameJournalPointOfInterestGroup
-function gameJournalPointOfInterestGroup.new(fields) return end
+function gameJournalPointOfInterestGroup.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorIsInDesiredRangeConditionDefinition: AIbehaviorCompanionConditionDefinition
----@field public desiredDistance AIArgumentMapping
----@field public deadZoneRadius AIArgumentMapping
+---@field desiredDistance AIArgumentMapping
+---@field deadZoneRadius AIArgumentMapping
 AIbehaviorIsInDesiredRangeConditionDefinition = {}
 
 ---@param fields? AIbehaviorIsInDesiredRangeConditionDefinition
 ---@return AIbehaviorIsInDesiredRangeConditionDefinition
-function AIbehaviorIsInDesiredRangeConditionDefinition.new(fields) return end
+function AIbehaviorIsInDesiredRangeConditionDefinition.new(fields) end

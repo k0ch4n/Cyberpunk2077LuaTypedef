@@ -1,59 +1,50 @@
 ---@meta
 
 ---@class VehicleDeathTask: AIDeathReactionsTask
----@field public vehNPCDeathData AnimFeature_VehicleNPCDeathData
----@field public previousState gamedataNPCHighLevelState
----@field public timeToRagdoll Float
----@field public hasRagdolled Bool
----@field public activationTimeStamp Float
----@field private readyToUnmount Bool
+---@field vehNPCDeathData AnimFeature_VehicleNPCDeathData
+---@field previousState gamedataNPCHighLevelState
+---@field timeToRagdoll Float
+---@field hasRagdolled Bool
+---@field activationTimeStamp Float
+---@field readyToUnmount Bool
 VehicleDeathTask = {}
 
 ---@param fields? VehicleDeathTask
 ---@return VehicleDeathTask
-function VehicleDeathTask.new(fields) return end
+function VehicleDeathTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function VehicleDeathTask:Activate(context) return end
+function VehicleDeathTask:Activate(context) end
 
----@protected
 ---@return Bool
-function VehicleDeathTask:CanSkipDeathAnimation() return end
+function VehicleDeathTask:CanSkipDeathAnimation() end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function VehicleDeathTask:Deactivate(context) return end
+function VehicleDeathTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Int32
-function VehicleDeathTask:GetDeathReactionType(context) return end
+function VehicleDeathTask:GetDeathReactionType(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Int32
-function VehicleDeathTask:GetVehicleDeathType(context) return end
+function VehicleDeathTask:GetVehicleDeathType(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function VehicleDeathTask:PlayHitReactionAction(context) return end
+function VehicleDeathTask:PlayHitReactionAction(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param eventName CName|string
 ---@return Bool
-function VehicleDeathTask:SendAIEventToMountedVehicle(context, eventName) return end
+function VehicleDeathTask:SendAIEventToMountedVehicle(context, eventName) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function VehicleDeathTask:SendVehNPCDeathData(context) return end
+function VehicleDeathTask:SendVehNPCDeathData(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function VehicleDeathTask:Update(context) return end
+function VehicleDeathTask:Update(context) end

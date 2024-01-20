@@ -5,4 +5,4 @@ gameinteractionsInteractionScriptedCondition = {}
 
 ---@param fields? gameinteractionsInteractionScriptedCondition
 ---@return gameinteractionsInteractionScriptedCondition
-function gameinteractionsInteractionScriptedCondition.new(fields) return end
+function gameinteractionsInteractionScriptedCondition.new(fields) end

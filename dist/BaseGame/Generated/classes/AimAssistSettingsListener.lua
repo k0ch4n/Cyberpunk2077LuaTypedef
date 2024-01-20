@@ -1,41 +1,41 @@
 ---@meta
 
 ---@class AimAssistSettingsListener: userSettingsVarListener
----@field private ctrl PlayerPuppet
----@field private settings userSettingsUserSettings
----@field private settingsGroup userSettingsGroup
----@field private aimAssistLevel EAimAssistLevel
----@field private aimAssistMeleeLevel EAimAssistLevel
----@field private aimAssistDriverCombatEnabled Bool
----@field private aimAssistSnapEnabled Bool
----@field private difficultySettingsPath CName
----@field public currentConfig AimAssistSettingConfig
----@field public settingsRecords gamedataAimAssistSettings_Record[]
+---@field ctrl PlayerPuppet
+---@field settings userSettingsUserSettings
+---@field settingsGroup userSettingsGroup
+---@field aimAssistLevel EAimAssistLevel
+---@field aimAssistMeleeLevel EAimAssistLevel
+---@field aimAssistDriverCombatEnabled Bool
+---@field aimAssistSnapEnabled Bool
+---@field difficultySettingsPath CName
+---@field currentConfig AimAssistSettingConfig
+---@field settingsRecords gamedataAimAssistSettings_Record[]
 AimAssistSettingsListener = {}
 
 ---@param fields? AimAssistSettingsListener
 ---@return AimAssistSettingsListener
-function AimAssistSettingsListener.new(fields) return end
+function AimAssistSettingsListener.new(fields) end
 
 ---@return Bool
-function AimAssistSettingsListener:GetAimAssistDriverCombatEnabled() return end
+function AimAssistSettingsListener:GetAimAssistDriverCombatEnabled() end
 
 ---@return EAimAssistLevel
-function AimAssistSettingsListener:GetAimAssistLevel() return end
+function AimAssistSettingsListener:GetAimAssistLevel() end
 
 ---@return EAimAssistLevel
-function AimAssistSettingsListener:GetAimAssistMeleeLevel() return end
+function AimAssistSettingsListener:GetAimAssistMeleeLevel() end
 
 ---@return Bool
-function AimAssistSettingsListener:GetAimSnapEnabled() return end
+function AimAssistSettingsListener:GetAimSnapEnabled() end
 
 ---@param ctrl PlayerPuppet
 ---@return nil
-function AimAssistSettingsListener:Initialize(ctrl) return end
+function AimAssistSettingsListener:Initialize(ctrl) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function AimAssistSettingsListener:OnVarModified(groupPath, varName, varType, reason) return end
+function AimAssistSettingsListener:OnVarModified(groupPath, varName, varType, reason) end

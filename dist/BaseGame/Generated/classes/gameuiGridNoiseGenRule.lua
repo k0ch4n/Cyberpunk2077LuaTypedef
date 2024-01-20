@@ -5,4 +5,4 @@ gameuiGridNoiseGenRule = {}
 
 ---@param fields? gameuiGridNoiseGenRule
 ---@return gameuiGridNoiseGenRule
-function gameuiGridNoiseGenRule.new(fields) return end
+function gameuiGridNoiseGenRule.new(fields) end

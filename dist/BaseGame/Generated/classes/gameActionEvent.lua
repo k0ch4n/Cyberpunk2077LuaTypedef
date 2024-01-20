@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameActionEvent: AIAIEvent
----@field public eventAction CName
----@field public internalEvent gameActionInternalEvent
+---@field eventAction CName
+---@field internalEvent gameActionInternalEvent
 gameActionEvent = {}
 
 ---@param fields? gameActionEvent
 ---@return gameActionEvent
-function gameActionEvent.new(fields) return end
+function gameActionEvent.new(fields) end

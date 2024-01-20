@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class LinkedFocusClueData
----@field public clueGroupID CName
----@field public ownerID entEntityID
----@field public clueIndex Int32
----@field public clueRecord TweakDBID
----@field public extendedClueRecords ClueRecordData[]
----@field public isScanned Bool
----@field public wasInspected Bool
----@field public isEnabled Bool
----@field public psData PSOwnerData
+---@field clueGroupID CName
+---@field ownerID entEntityID
+---@field clueIndex Int32
+---@field clueRecord TweakDBID
+---@field extendedClueRecords ClueRecordData[]
+---@field isScanned Bool
+---@field wasInspected Bool
+---@field isEnabled Bool
+---@field psData PSOwnerData
 LinkedFocusClueData = {}
 
 ---@param fields? LinkedFocusClueData
 ---@return LinkedFocusClueData
-function LinkedFocusClueData.new(fields) return end
+function LinkedFocusClueData.new(fields) end

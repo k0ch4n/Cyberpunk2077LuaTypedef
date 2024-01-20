@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class rendEmitterLOD
----@field public lodSwitchDistance Float
----@field public burstList rendParticleBurst[]
----@field public birthRate Float[]
----@field public emitterDurationSettings rendEmitterDurationSettings
----@field public emitterDelaySettings rendEmitterDelaySettings
----@field public sortingMode rendEParticleSortingMode
----@field public isEnabled Bool
+---@field lodSwitchDistance Float
+---@field burstList rendParticleBurst[]
+---@field birthRate Float[]
+---@field emitterDurationSettings rendEmitterDurationSettings
+---@field emitterDelaySettings rendEmitterDelaySettings
+---@field sortingMode rendEParticleSortingMode
+---@field isEnabled Bool
 rendEmitterLOD = {}
 
 ---@param fields? rendEmitterLOD
 ---@return rendEmitterLOD
-function rendEmitterLOD.new(fields) return end
+function rendEmitterLOD.new(fields) end

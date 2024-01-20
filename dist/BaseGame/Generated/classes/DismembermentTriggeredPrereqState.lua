@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class DismembermentTriggeredPrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInfo redCallbackObject
----@field protected dismembermentInfo DismembermentInstigatedInfo
+---@field owner gameObject
+---@field listenerInfo redCallbackObject
+---@field dismembermentInfo DismembermentInstigatedInfo
 DismembermentTriggeredPrereqState = {}
 
 ---@param fields? DismembermentTriggeredPrereqState
 ---@return DismembermentTriggeredPrereqState
-function DismembermentTriggeredPrereqState.new(fields) return end
+function DismembermentTriggeredPrereqState.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DismembermentTriggeredPrereqState:OnStateUpdate(value) return end
+function DismembermentTriggeredPrereqState:OnStateUpdate(value) end
 
 ---@return DismembermentInstigatedInfo
-function DismembermentTriggeredPrereqState:GetDismembermentInfo() return end
+function DismembermentTriggeredPrereqState:GetDismembermentInfo() end

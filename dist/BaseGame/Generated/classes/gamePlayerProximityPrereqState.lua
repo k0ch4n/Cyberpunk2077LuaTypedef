@@ -5,4 +5,4 @@ gamePlayerProximityPrereqState = {}
 
 ---@param fields? gamePlayerProximityPrereqState
 ---@return gamePlayerProximityPrereqState
-function gamePlayerProximityPrereqState.new(fields) return end
+function gamePlayerProximityPrereqState.new(fields) end

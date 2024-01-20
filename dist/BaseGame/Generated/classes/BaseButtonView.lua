@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class BaseButtonView: inkDiscreteNavigationController
----@field protected ButtonController inkButtonController
+---@field ButtonController inkButtonController
 BaseButtonView = {}
 
----@protected
 ---@param controller inkButtonController
 ---@param progress Float
 ---@return Bool
-function BaseButtonView:OnButtonHoldProgressChanged(controller, progress) return end
+function BaseButtonView:OnButtonHoldProgressChanged(controller, progress) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function BaseButtonView:OnButtonStateChanged(controller, oldState, newState) return end
+function BaseButtonView:OnButtonStateChanged(controller, oldState, newState) end
 
----@protected
 ---@return Bool
-function BaseButtonView:OnInitialize() return end
+function BaseButtonView:OnInitialize() end
 
----@protected
 ---@param progress Float
 ---@return nil
-function BaseButtonView:ButtonHoldProgressChanged(progress) return end
+function BaseButtonView:ButtonHoldProgressChanged(progress) end
 
----@protected
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function BaseButtonView:ButtonStateChanged(oldState, newState) return end
+function BaseButtonView:ButtonStateChanged(oldState, newState) end
 
 ---@return inkButtonController
-function BaseButtonView:GetParentButton() return end
+function BaseButtonView:GetParentButton() end

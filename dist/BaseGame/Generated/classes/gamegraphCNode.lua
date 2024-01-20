@@ -5,4 +5,4 @@ gamegraphCNode = {}
 
 ---@param fields? gamegraphCNode
 ---@return gamegraphCNode
-function gamegraphCNode.new(fields) return end
+function gamegraphCNode.new(fields) end

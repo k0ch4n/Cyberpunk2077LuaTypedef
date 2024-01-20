@@ -5,4 +5,4 @@ vehicleMoveSystemStopEvent = {}
 
 ---@param fields? vehicleMoveSystemStopEvent
 ---@return vehicleMoveSystemStopEvent
-function vehicleMoveSystemStopEvent.new(fields) return end
+function vehicleMoveSystemStopEvent.new(fields) end

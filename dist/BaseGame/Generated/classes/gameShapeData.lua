@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameShapeData
----@field public result gameHitResult
----@field public userData gameHitShapeUserData
----@field public physicsMaterial CName
----@field public hitShapeName CName
+---@field result gameHitResult
+---@field userData gameHitShapeUserData
+---@field physicsMaterial CName
+---@field hitShapeName CName
 gameShapeData = {}
 
 ---@param fields? gameShapeData
 ---@return gameShapeData
-function gameShapeData.new(fields) return end
+function gameShapeData.new(fields) end

@@ -5,20 +5,20 @@ ResourceDepot = {}
 
 ---@param fields? ResourceDepot
 ---@return ResourceDepot
-function ResourceDepot.new(fields) return end
+function ResourceDepot.new(fields) end
 
 ---@param name String
 ---@return Bool
-function ResourceDepot:ArchiveExists(name) return end
+function ResourceDepot:ArchiveExists(name) end
 
 ---@param arg CResource
 ---@return ResourceToken
-function ResourceDepot:LoadReference(arg) return end
+function ResourceDepot:LoadReference(arg) end
 
 ---@param arg CResource
 ---@return ResourceToken
-function ResourceDepot:LoadResource(arg) return end
+function ResourceDepot:LoadResource(arg) end
 
 ---@param path redResourceReferenceScriptToken
 ---@return Bool
-function ResourceDepot:ResourceExists(path) return end
+function ResourceDepot:ResourceExists(path) end

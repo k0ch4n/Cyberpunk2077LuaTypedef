@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameEffectObjectProvider_QuerySphere: gameEffectObjectProvider
----@field public gatherOnlyPuppets Bool
----@field public filterData physicsFilterData
----@field public queryPreset physicsQueryPreset
+---@field gatherOnlyPuppets Bool
+---@field filterData physicsFilterData
+---@field queryPreset physicsQueryPreset
 gameEffectObjectProvider_QuerySphere = {}
 
 ---@param fields? gameEffectObjectProvider_QuerySphere
 ---@return gameEffectObjectProvider_QuerySphere
-function gameEffectObjectProvider_QuerySphere.new(fields) return end
+function gameEffectObjectProvider_QuerySphere.new(fields) end

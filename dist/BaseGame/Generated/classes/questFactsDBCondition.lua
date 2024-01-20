@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questFactsDBCondition: questTypedCondition
----@field public type questIFactsDBConditionType
+---@field type questIFactsDBConditionType
 questFactsDBCondition = {}
 
 ---@param fields? questFactsDBCondition
 ---@return questFactsDBCondition
-function questFactsDBCondition.new(fields) return end
+function questFactsDBCondition.new(fields) end

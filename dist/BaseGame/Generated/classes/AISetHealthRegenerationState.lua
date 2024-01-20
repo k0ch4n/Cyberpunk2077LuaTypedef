@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class AISetHealthRegenerationState: AIbehaviortaskScript
----@field public healthRegeneration Bool
+---@field healthRegeneration Bool
 AISetHealthRegenerationState = {}
 
 ---@param fields? AISetHealthRegenerationState
 ---@return AISetHealthRegenerationState
-function AISetHealthRegenerationState.new(fields) return end
+function AISetHealthRegenerationState.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISetHealthRegenerationState:Activate(context) return end
+function AISetHealthRegenerationState:Activate(context) end

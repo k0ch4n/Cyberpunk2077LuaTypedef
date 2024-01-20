@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnCheckPlayerTargetNodeDistanceInterruptCondition: scnIInterruptCondition
----@field public params scnCheckPlayerTargetNodeDistanceInterruptConditionParams
+---@field params scnCheckPlayerTargetNodeDistanceInterruptConditionParams
 scnCheckPlayerTargetNodeDistanceInterruptCondition = {}
 
 ---@param fields? scnCheckPlayerTargetNodeDistanceInterruptCondition
 ---@return scnCheckPlayerTargetNodeDistanceInterruptCondition
-function scnCheckPlayerTargetNodeDistanceInterruptCondition.new(fields) return end
+function scnCheckPlayerTargetNodeDistanceInterruptCondition.new(fields) end

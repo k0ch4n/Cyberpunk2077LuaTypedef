@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class GrappleFallEvents: FallEvents
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field stateMachineInitData LocomotionTakedownInitData
 GrappleFallEvents = {}
 
 ---@param fields? GrappleFallEvents
 ---@return GrappleFallEvents
-function GrappleFallEvents.new(fields) return end
+function GrappleFallEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleFallEvents:OnForcedExit(stateContext, scriptInterface) return end
+function GrappleFallEvents:OnForcedExit(stateContext, scriptInterface) end

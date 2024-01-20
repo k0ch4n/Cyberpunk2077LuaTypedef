@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class questVehicleTrunk_ConditionType: questIVehicleConditionType
----@field public anyVehicle Bool
----@field public playerVehicle Bool
----@field public vehicleRef gameEntityReference
----@field public anyObject Bool
----@field public objectRef gameEntityReference
----@field public inverted Bool
----@field public isInside Bool
+---@field anyVehicle Bool
+---@field playerVehicle Bool
+---@field vehicleRef gameEntityReference
+---@field anyObject Bool
+---@field objectRef gameEntityReference
+---@field inverted Bool
+---@field isInside Bool
 questVehicleTrunk_ConditionType = {}
 
 ---@param fields? questVehicleTrunk_ConditionType
 ---@return questVehicleTrunk_ConditionType
-function questVehicleTrunk_ConditionType.new(fields) return end
+function questVehicleTrunk_ConditionType.new(fields) end

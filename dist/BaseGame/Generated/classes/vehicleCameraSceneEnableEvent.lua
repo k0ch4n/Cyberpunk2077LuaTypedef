@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleCameraSceneEnableEvent: redEvent
----@field public scene Bool
+---@field scene Bool
 vehicleCameraSceneEnableEvent = {}
 
 ---@param fields? vehicleCameraSceneEnableEvent
 ---@return vehicleCameraSceneEnableEvent
-function vehicleCameraSceneEnableEvent.new(fields) return end
+function vehicleCameraSceneEnableEvent.new(fields) end

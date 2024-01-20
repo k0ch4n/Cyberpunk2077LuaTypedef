@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class TextAnimOnTextChange: inkWidgetLogicController
----@field private textField inkTextWidgetReference
----@field private animationName CName
----@field private BlinkAnim inkanimDefinition
----@field private ScaleAnim inkanimDefinition
----@field private bufferedValue String
+---@field textField inkTextWidgetReference
+---@field animationName CName
+---@field BlinkAnim inkanimDefinition
+---@field ScaleAnim inkanimDefinition
+---@field bufferedValue String
 TextAnimOnTextChange = {}
 
 ---@param fields? TextAnimOnTextChange
 ---@return TextAnimOnTextChange
-function TextAnimOnTextChange.new(fields) return end
+function TextAnimOnTextChange.new(fields) end
 
----@protected
 ---@param str String
 ---@return Bool
-function TextAnimOnTextChange:OnChangeTextToInject(str) return end
+function TextAnimOnTextChange:OnChangeTextToInject(str) end
 
----@protected
 ---@return Bool
-function TextAnimOnTextChange:OnInitialize() return end
+function TextAnimOnTextChange:OnInitialize() end
 
----@protected
 ---@return Bool
-function TextAnimOnTextChange:OnUninitialize() return end
+function TextAnimOnTextChange:OnUninitialize() end

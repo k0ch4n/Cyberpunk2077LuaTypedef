@@ -4,4 +4,4 @@
 entIVelocityProvider = {}
 
 ---@return nil
-function entIVelocityProvider:CalculateVelocity() return end
+function entIVelocityProvider:CalculateVelocity() end

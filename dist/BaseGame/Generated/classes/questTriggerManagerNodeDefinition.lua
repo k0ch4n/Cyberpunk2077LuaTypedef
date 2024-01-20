@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questTriggerManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questITriggerManagerNodeType
+---@field type questITriggerManagerNodeType
 questTriggerManagerNodeDefinition = {}
 
 ---@param fields? questTriggerManagerNodeDefinition
 ---@return questTriggerManagerNodeDefinition
-function questTriggerManagerNodeDefinition.new(fields) return end
+function questTriggerManagerNodeDefinition.new(fields) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameJournalEntryStateChangeData
----@field public entryPath gameJournalPath
----@field public entryName String
----@field public entryType CName
----@field public isEntryTracked Bool
----@field public isQuestEntryTracked Bool
----@field public oldState gameJournalEntryState
----@field public newState gameJournalEntryState
----@field public notifyOption gameJournalNotifyOption
----@field public changeType gameJournalChangeType
+---@field entryPath gameJournalPath
+---@field entryName String
+---@field entryType CName
+---@field isEntryTracked Bool
+---@field isQuestEntryTracked Bool
+---@field oldState gameJournalEntryState
+---@field newState gameJournalEntryState
+---@field notifyOption gameJournalNotifyOption
+---@field changeType gameJournalChangeType
 gameJournalEntryStateChangeData = {}
 
 ---@param fields? gameJournalEntryStateChangeData
 ---@return gameJournalEntryStateChangeData
-function gameJournalEntryStateChangeData.new(fields) return end
+function gameJournalEntryStateChangeData.new(fields) end

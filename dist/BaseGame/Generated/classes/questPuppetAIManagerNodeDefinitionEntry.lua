@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questPuppetAIManagerNodeDefinitionEntry
----@field public entityReference gameEntityReference
----@field public aiTier gameStoryTier
+---@field entityReference gameEntityReference
+---@field aiTier gameStoryTier
 questPuppetAIManagerNodeDefinitionEntry = {}
 
 ---@param fields? questPuppetAIManagerNodeDefinitionEntry
 ---@return questPuppetAIManagerNodeDefinitionEntry
-function questPuppetAIManagerNodeDefinitionEntry.new(fields) return end
+function questPuppetAIManagerNodeDefinitionEntry.new(fields) end

@@ -5,8 +5,7 @@ InStealthHighLevelState = {}
 
 ---@param fields? InStealthHighLevelState
 ---@return InStealthHighLevelState
-function InStealthHighLevelState.new(fields) return end
+function InStealthHighLevelState.new(fields) end
 
----@private
 ---@return gamedataNPCHighLevelState
-function InStealthHighLevelState:GetStateToCheck() return end
+function InStealthHighLevelState:GetStateToCheck() end

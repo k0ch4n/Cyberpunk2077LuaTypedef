@@ -5,4 +5,4 @@ AIbehaviorShouldFollowSlotDefinition = {}
 
 ---@param fields? AIbehaviorShouldFollowSlotDefinition
 ---@return AIbehaviorShouldFollowSlotDefinition
-function AIbehaviorShouldFollowSlotDefinition.new(fields) return end
+function AIbehaviorShouldFollowSlotDefinition.new(fields) end

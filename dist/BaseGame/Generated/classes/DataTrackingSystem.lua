@@ -1,275 +1,233 @@
 ---@meta
 
 ---@class DataTrackingSystem: gameScriptableSystem
----@field protected trackedAchievements gamedataAchievement[]
----@field protected rangedAttacksMade Int32
----@field protected meleeAttacksMade Int32
----@field protected meleeKills Int32
----@field protected rangedKills Int32
----@field protected quickhacksMade Int32
----@field protected distractionsMade Int32
----@field protected legendaryItemsCrafted Int32
----@field protected npcMeleeLightAttackReceived Int32
----@field protected npcMeleeStrongAttackReceived Int32
----@field protected npcMeleeBlockAttackReceived Int32
----@field protected npcMeleeBlockedAttacks Int32
----@field protected npcMeleeDeflectedAttacks Int32
----@field protected downedEnemies Int32
----@field protected killedEnemies Int32
----@field protected defeatedEnemies Int32
----@field protected incapacitatedEnemies Int32
----@field protected finishedEnemies Int32
----@field protected downedWithRanged Int32
----@field protected downedWithMelee Int32
----@field protected downedInTimeDilatation Int32
----@field protected rangedProgress Int32
----@field protected meleeProgress Int32
----@field protected dilationProgress Int32
----@field protected failedShardDrops Float
----@field protected LegPlusPlusHackDropped Bool
----@field protected bluelinesUseCount Int32
----@field private twoHeadssourceID entEntityID
----@field private twoHeadsValidTimestamp Float
----@field private lastKillTimestamp Float
----@field private enemiesKilledInTimeInterval gameObject[]
----@field private timeInterval Float
----@field private numerOfKillsRequired Int32
----@field private gunKataKilledEnemies Int32
----@field private gunKataValidTimestamp Float
----@field private hardKneesInProgress Bool
----@field private hardKneesKilledEnemies Int32
----@field private harKneesValidTimestamp Float
----@field private resetKilledReqDelayID gameDelayID
----@field private resetFinishedReqDelayID gameDelayID
----@field private resetDefeatedReqDelayID gameDelayID
----@field private resetIncapacitatedReqDelayID gameDelayID
----@field private resetDownedReqDelayID gameDelayID
----@field private resetMeleeAttackReqDelayID gameDelayID
----@field private resetRangedAttackReqDelayID gameDelayID
----@field private resetAttackReqDelayID gameDelayID
----@field private resetNpcMeleeLightAttackReqDelayID gameDelayID
----@field private resetNpcMeleeStrongAttackReqDelayID gameDelayID
----@field private resetNpcMeleeFinalAttackReqDelayID gameDelayID
----@field private resetNpcMeleeBlockAttackReqDelayID gameDelayID
----@field private resetNpcBlockedReqDelayID gameDelayID
----@field private resetNpcDeflectedReqDelayID gameDelayID
----@field private resetNpcGuardbreakReqDelayID gameDelayID
+---@field trackedAchievements gamedataAchievement[]
+---@field rangedAttacksMade Int32
+---@field meleeAttacksMade Int32
+---@field meleeKills Int32
+---@field rangedKills Int32
+---@field quickhacksMade Int32
+---@field distractionsMade Int32
+---@field legendaryItemsCrafted Int32
+---@field npcMeleeLightAttackReceived Int32
+---@field npcMeleeStrongAttackReceived Int32
+---@field npcMeleeBlockAttackReceived Int32
+---@field npcMeleeBlockedAttacks Int32
+---@field npcMeleeDeflectedAttacks Int32
+---@field downedEnemies Int32
+---@field killedEnemies Int32
+---@field defeatedEnemies Int32
+---@field incapacitatedEnemies Int32
+---@field finishedEnemies Int32
+---@field downedWithRanged Int32
+---@field downedWithMelee Int32
+---@field downedInTimeDilatation Int32
+---@field rangedProgress Int32
+---@field meleeProgress Int32
+---@field dilationProgress Int32
+---@field failedShardDrops Float
+---@field LegPlusPlusHackDropped Bool
+---@field bluelinesUseCount Int32
+---@field twoHeadssourceID entEntityID
+---@field twoHeadsValidTimestamp Float
+---@field lastKillTimestamp Float
+---@field enemiesKilledInTimeInterval gameObject[]
+---@field timeInterval Float
+---@field numerOfKillsRequired Int32
+---@field gunKataKilledEnemies Int32
+---@field gunKataValidTimestamp Float
+---@field hardKneesInProgress Bool
+---@field hardKneesKilledEnemies Int32
+---@field harKneesValidTimestamp Float
+---@field resetKilledReqDelayID gameDelayID
+---@field resetFinishedReqDelayID gameDelayID
+---@field resetDefeatedReqDelayID gameDelayID
+---@field resetIncapacitatedReqDelayID gameDelayID
+---@field resetDownedReqDelayID gameDelayID
+---@field resetMeleeAttackReqDelayID gameDelayID
+---@field resetRangedAttackReqDelayID gameDelayID
+---@field resetAttackReqDelayID gameDelayID
+---@field resetNpcMeleeLightAttackReqDelayID gameDelayID
+---@field resetNpcMeleeStrongAttackReqDelayID gameDelayID
+---@field resetNpcMeleeFinalAttackReqDelayID gameDelayID
+---@field resetNpcMeleeBlockAttackReqDelayID gameDelayID
+---@field resetNpcBlockedReqDelayID gameDelayID
+---@field resetNpcDeflectedReqDelayID gameDelayID
+---@field resetNpcGuardbreakReqDelayID gameDelayID
 DataTrackingSystem = {}
 
 ---@param fields? DataTrackingSystem
 ---@return DataTrackingSystem
-function DataTrackingSystem.new(fields) return end
+function DataTrackingSystem.new(fields) end
 
----@private
 ---@return Bool
-function DataTrackingSystem:CheckTimeDilationSources() return end
+function DataTrackingSystem:CheckTimeDilationSources() end
 
----@private
 ---@param achievement gamedataAchievement
 ---@return gamedataAchievement_Record
-function DataTrackingSystem:GetAchievementRecordFromGameDataAchievement(achievement) return end
+function DataTrackingSystem:GetAchievementRecordFromGameDataAchievement(achievement) end
 
----@private
 ---@param dataTrackingFact ETelemetryData
 ---@return Int32
-function DataTrackingSystem:GetCountFromDataTrackingFactEnum(dataTrackingFact) return end
+function DataTrackingSystem:GetCountFromDataTrackingFactEnum(dataTrackingFact) end
 
 ---@return Float
-function DataTrackingSystem:GetFailedShardDrops() return end
+function DataTrackingSystem:GetFailedShardDrops() end
 
----@private
 ---@param dataTrackingFact ETelemetryData
 ---@return CName
-function DataTrackingSystem:GetNameFromDataTrackingFactEnum(dataTrackingFact) return end
+function DataTrackingSystem:GetNameFromDataTrackingFactEnum(dataTrackingFact) end
 
 ---@return Bool
-function DataTrackingSystem:IsFirstPlusPlusLegendaryAwarded() return end
+function DataTrackingSystem:IsFirstPlusPlusLegendaryAwarded() end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function DataTrackingSystem:IsSourcePlayer(attackData) return end
+function DataTrackingSystem:IsSourcePlayer(attackData) end
 
----@private
 ---@param request AddAchievementRequest
 ---@return nil
-function DataTrackingSystem:OnAddAchievementRequest(request) return end
+function DataTrackingSystem:OnAddAchievementRequest(request) end
 
----@private
 ---@return nil
-function DataTrackingSystem:OnAttach() return end
+function DataTrackingSystem:OnAttach() end
 
----@private
 ---@param request scnBluelineSelectedRequest
 ---@return nil
-function DataTrackingSystem:OnBluelineSelectedRequest(request) return end
+function DataTrackingSystem:OnBluelineSelectedRequest(request) end
 
----@private
 ---@return nil
-function DataTrackingSystem:OnDetach() return end
+function DataTrackingSystem:OnDetach() end
 
----@private
 ---@param request FirstPlusPlusLegendaryAwardedRequest
 ---@return nil
-function DataTrackingSystem:OnFirstPlusPlusLegendaryAwarded(request) return end
+function DataTrackingSystem:OnFirstPlusPlusLegendaryAwarded(request) end
 
----@private
 ---@param request ModifyNPCTelemetryVariable
 ---@return nil
-function DataTrackingSystem:OnModifyNPCTelemetryVariable(request) return end
+function DataTrackingSystem:OnModifyNPCTelemetryVariable(request) end
 
----@private
 ---@param request ModifyTelemetryVariable
 ---@return nil
-function DataTrackingSystem:OnModifyTelemetryVariable(request) return end
+function DataTrackingSystem:OnModifyTelemetryVariable(request) end
 
----@private
 ---@param request NPCKillDataTrackingRequest
 ---@return nil
-function DataTrackingSystem:OnNPCKillDataTrackingRequest(request) return end
+function DataTrackingSystem:OnNPCKillDataTrackingRequest(request) end
 
----@private
 ---@param request ResetBlockAttackHitsReceivedRequest
 ---@return nil
-function DataTrackingSystem:OnResetBlockAttackHitsReceivedRequest(request) return end
+function DataTrackingSystem:OnResetBlockAttackHitsReceivedRequest(request) end
 
----@private
 ---@param request ResetBlockedHitsRequest
 ---@return nil
-function DataTrackingSystem:OnResetBlockedHitsRequest(request) return end
+function DataTrackingSystem:OnResetBlockedHitsRequest(request) end
 
----@private
 ---@param request ResetNPCDefeatedDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetDefeatedRequest(request) return end
+function DataTrackingSystem:OnResetDefeatedRequest(request) end
 
----@private
 ---@param request ResetNPCDownedDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetDownedRequest(request) return end
+function DataTrackingSystem:OnResetDownedRequest(request) end
 
----@private
 ---@param request ResetFinalComboHitsReceivedRequest
 ---@return nil
-function DataTrackingSystem:OnResetFinalComboHitsReceivedRequest(request) return end
+function DataTrackingSystem:OnResetFinalComboHitsReceivedRequest(request) end
 
----@private
 ---@param request ResetNPCFinishedDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetFinishedRequest(request) return end
+function DataTrackingSystem:OnResetFinishedRequest(request) end
 
----@private
 ---@param request ResetNPCIncapacitatedDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetIncapacitatedRequest(request) return end
+function DataTrackingSystem:OnResetIncapacitatedRequest(request) end
 
----@private
 ---@param request ResetNPCKilledDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetKilledRequest(request) return end
+function DataTrackingSystem:OnResetKilledRequest(request) end
 
----@private
 ---@param request ResetLightHitsReceivedRequest
 ---@return nil
-function DataTrackingSystem:OnResetLightHitsReceivedRequest(request) return end
+function DataTrackingSystem:OnResetLightHitsReceivedRequest(request) end
 
----@private
 ---@param request ResetMeleeAttackDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetMeleeAttackRequest(request) return end
+function DataTrackingSystem:OnResetMeleeAttackRequest(request) end
 
----@private
 ---@param request ResetAttackDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetQuickhackRequest(request) return end
+function DataTrackingSystem:OnResetQuickhackRequest(request) end
 
----@private
 ---@param request ResetRangedAttackDelayedRequest
 ---@return nil
-function DataTrackingSystem:OnResetRangedAttackRequest(request) return end
+function DataTrackingSystem:OnResetRangedAttackRequest(request) end
 
----@private
 ---@param request ResetStrongHitsReceivedRequest
 ---@return nil
-function DataTrackingSystem:OnResetStrongHitsReceivedRequest(request) return end
+function DataTrackingSystem:OnResetStrongHitsReceivedRequest(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function DataTrackingSystem:OnRestored(saveVersion, gameVersion) return end
+function DataTrackingSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request ItemCraftedDataTrackingRequest
 ---@return nil
-function DataTrackingSystem:OnSendItemCraftedDataTrackingRequest(request) return end
+function DataTrackingSystem:OnSendItemCraftedDataTrackingRequest(request) end
 
----@private
 ---@param request questSetAchievementProgressRequest
 ---@return nil
-function DataTrackingSystem:OnSetAchievementProgressRequest(request) return end
+function DataTrackingSystem:OnSetAchievementProgressRequest(request) end
 
----@private
 ---@param request TakedownActionDataTrackingRequest
 ---@return nil
-function DataTrackingSystem:OnTakedownActionDataTrackingRequest(request) return end
+function DataTrackingSystem:OnTakedownActionDataTrackingRequest(request) end
 
----@private
 ---@param request UnlockAllAchievementsRequest
 ---@return nil
-function DataTrackingSystem:OnUnlockAllAchievementsRequest(request) return end
+function DataTrackingSystem:OnUnlockAllAchievementsRequest(request) end
 
----@private
 ---@param request UpdateShardFailedDropsRequest
 ---@return nil
-function DataTrackingSystem:OnUpdateShardFailedDrops(request) return end
+function DataTrackingSystem:OnUpdateShardFailedDrops(request) end
 
----@private
 ---@return nil
-function DataTrackingSystem:ProcessDataTrackingFacts() return end
+function DataTrackingSystem:ProcessDataTrackingFacts() end
 
----@private
 ---@param request NPCKillDataTrackingRequest
 ---@return nil
-function DataTrackingSystem:ProcessGunKataAchievement(request) return end
+function DataTrackingSystem:ProcessGunKataAchievement(request) end
 
----@private
 ---@param targetItem gameItemID
 ---@param amount Int32
 ---@return nil
-function DataTrackingSystem:ProcessHandyManAchievement(targetItem, amount) return end
+function DataTrackingSystem:ProcessHandyManAchievement(targetItem, amount) end
 
----@private
 ---@return nil
-function DataTrackingSystem:ProcessHardForKneesAchievement() return end
+function DataTrackingSystem:ProcessHardForKneesAchievement() end
 
----@private
 ---@param damageEntry DamageHistoryEntry
 ---@return nil
-function DataTrackingSystem:ProcessNotTheMobileAchievement(damageEntry) return end
+function DataTrackingSystem:ProcessNotTheMobileAchievement(damageEntry) end
 
----@private
 ---@param telemetryData ETelemetryData
 ---@return nil
-function DataTrackingSystem:ProcessTutorialFact(telemetryData) return end
+function DataTrackingSystem:ProcessTutorialFact(telemetryData) end
 
----@private
 ---@param request NPCKillDataTrackingRequest
 ---@return nil
-function DataTrackingSystem:ProcessTwoHeadsOneBulletAchievement(request) return end
+function DataTrackingSystem:ProcessTwoHeadsOneBulletAchievement(request) end
 
----@private
 ---@return nil
-function DataTrackingSystem:RestoreTrackedAchievemenets() return end
+function DataTrackingSystem:RestoreTrackedAchievemenets() end
 
----@private
 ---@param achievement gamedataAchievement
 ---@param trackedData Int32
 ---@param customTarget? Int32
 ---@return nil
-function DataTrackingSystem:SetAchievementProgress(achievement, trackedData, customTarget) return end
+function DataTrackingSystem:SetAchievementProgress(achievement, trackedData, customTarget) end
 
----@private
 ---@param achievement gamedataAchievement
 ---@return nil
-function DataTrackingSystem:UnlockAchievement(achievement) return end
+function DataTrackingSystem:UnlockAchievement(achievement) end

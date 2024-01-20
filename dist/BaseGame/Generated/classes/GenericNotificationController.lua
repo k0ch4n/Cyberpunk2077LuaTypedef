@@ -1,53 +1,46 @@
 ---@meta
 
 ---@class GenericNotificationController: gameuiGenericNotificationReceiverGameController
----@field protected titleRef inkTextWidgetReference
----@field protected textRef inkTextWidgetReference
----@field protected actionLabelRef inkTextWidgetReference
----@field protected actionRef inkWidgetReference
----@field protected paused Bool
----@field protected blockAction Bool
----@field private translationAnimationCtrl inkTextReplaceAnimationController
----@field private data gameuiGenericNotificationViewData
----@field private player gameObject
----@field private isInteractive Bool
----@field protected customInputActionName CName
+---@field titleRef inkTextWidgetReference
+---@field textRef inkTextWidgetReference
+---@field actionLabelRef inkTextWidgetReference
+---@field actionRef inkWidgetReference
+---@field paused Bool
+---@field blockAction Bool
+---@field translationAnimationCtrl inkTextReplaceAnimationController
+---@field data gameuiGenericNotificationViewData
+---@field player gameObject
+---@field isInteractive Bool
+---@field customInputActionName CName
 GenericNotificationController = {}
 
 ---@param fields? GenericNotificationController
 ---@return GenericNotificationController
-function GenericNotificationController.new(fields) return end
+function GenericNotificationController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function GenericNotificationController:OnAction(action, consumer) return end
+function GenericNotificationController:OnAction(action, consumer) end
 
----@protected
 ---@return Bool
-function GenericNotificationController:OnInitialize() return end
+function GenericNotificationController:OnInitialize() end
 
----@protected
 ---@return Bool
-function GenericNotificationController:OnNotificationPaused() return end
+function GenericNotificationController:OnNotificationPaused() end
 
----@protected
 ---@return Bool
-function GenericNotificationController:OnNotificationResumed() return end
+function GenericNotificationController:OnNotificationResumed() end
 
----@protected
 ---@return Bool
-function GenericNotificationController:OnUninitialize() return end
+function GenericNotificationController:OnUninitialize() end
 
----@private
 ---@return CName
-function GenericNotificationController:GetInputActionName() return end
+function GenericNotificationController:GetInputActionName() end
 
----@private
 ---@return nil
-function GenericNotificationController:OnActionTriggered() return end
+function GenericNotificationController:OnActionTriggered() end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function GenericNotificationController:SetNotificationData(notificationData) return end
+function GenericNotificationController:SetNotificationData(notificationData) end

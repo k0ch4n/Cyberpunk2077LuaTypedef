@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entdismembermentPhysicsInfo
----@field public DensityScale Float
+---@field DensityScale Float
 entdismembermentPhysicsInfo = {}
 
 ---@param fields? entdismembermentPhysicsInfo
 ---@return entdismembermentPhysicsInfo
-function entdismembermentPhysicsInfo.new(fields) return end
+function entdismembermentPhysicsInfo.new(fields) end

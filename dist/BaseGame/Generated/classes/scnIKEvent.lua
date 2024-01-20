@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnIKEvent: scnSceneEvent
----@field public ikData scnIKEventData
+---@field ikData scnIKEventData
 scnIKEvent = {}
 
 ---@param fields? scnIKEvent
 ---@return scnIKEvent
-function scnIKEvent.new(fields) return end
+function scnIKEvent.new(fields) end

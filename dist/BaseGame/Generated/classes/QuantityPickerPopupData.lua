@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class QuantityPickerPopupData: inkGameNotificationData
----@field public maxValue Int32
----@field public gameItemData gameInventoryItemData
----@field public inventoryItem UIInventoryItem
----@field public actionType QuantityPickerActionType
----@field public vendor gameObject
----@field public isBuyback Bool
----@field public sendQuantityChangedEvent Bool
+---@field maxValue Int32
+---@field gameItemData gameInventoryItemData
+---@field inventoryItem UIInventoryItem
+---@field actionType QuantityPickerActionType
+---@field vendor gameObject
+---@field isBuyback Bool
+---@field sendQuantityChangedEvent Bool
 QuantityPickerPopupData = {}
 
 ---@param fields? QuantityPickerPopupData
 ---@return QuantityPickerPopupData
-function QuantityPickerPopupData.new(fields) return end
+function QuantityPickerPopupData.new(fields) end

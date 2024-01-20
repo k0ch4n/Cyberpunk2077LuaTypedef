@@ -5,4 +5,4 @@ SpawnRoadblockadeWithDelayRequest = {}
 
 ---@param fields? SpawnRoadblockadeWithDelayRequest
 ---@return SpawnRoadblockadeWithDelayRequest
-function SpawnRoadblockadeWithDelayRequest.new(fields) return end
+function SpawnRoadblockadeWithDelayRequest.new(fields) end

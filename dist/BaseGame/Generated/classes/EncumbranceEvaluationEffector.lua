@@ -5,9 +5,8 @@ EncumbranceEvaluationEffector = {}
 
 ---@param fields? EncumbranceEvaluationEffector
 ---@return EncumbranceEvaluationEffector
-function EncumbranceEvaluationEffector.new(fields) return end
+function EncumbranceEvaluationEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function EncumbranceEvaluationEffector:RepeatedAction(owner) return end
+function EncumbranceEvaluationEffector:RepeatedAction(owner) end

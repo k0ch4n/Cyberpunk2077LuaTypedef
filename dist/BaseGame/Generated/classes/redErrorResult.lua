@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class redErrorResult
----@field public message String
----@field public userData Variant
+---@field message String
+---@field userData Variant
 redErrorResult = {}
 
 ---@param fields? redErrorResult
 ---@return redErrorResult
-function redErrorResult.new(fields) return end
+function redErrorResult.new(fields) end

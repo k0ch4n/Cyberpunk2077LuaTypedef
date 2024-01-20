@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameAudioSyncs
----@field public switchEvents audioAudSwitch[]
----@field public playEvents audioAudEventStruct[]
----@field public stopEvents audioAudEventStruct[]
----@field public parameterEvents audioAudParameter[]
+---@field switchEvents audioAudSwitch[]
+---@field playEvents audioAudEventStruct[]
+---@field stopEvents audioAudEventStruct[]
+---@field parameterEvents audioAudParameter[]
 gameAudioSyncs = {}
 
 ---@param fields? gameAudioSyncs
 ---@return gameAudioSyncs
-function gameAudioSyncs.new(fields) return end
+function gameAudioSyncs.new(fields) end

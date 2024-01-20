@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnSpawnerParams
----@field public reference NodeRef
----@field public forceMaxVisibility Bool
+---@field reference NodeRef
+---@field forceMaxVisibility Bool
 scnSpawnerParams = {}
 
 ---@param fields? scnSpawnerParams
 ---@return scnSpawnerParams
-function scnSpawnerParams.new(fields) return end
+function scnSpawnerParams.new(fields) end

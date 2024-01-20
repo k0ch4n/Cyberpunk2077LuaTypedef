@@ -5,4 +5,4 @@ worldSaveSanitizationForbiddenAreaNotifier = {}
 
 ---@param fields? worldSaveSanitizationForbiddenAreaNotifier
 ---@return worldSaveSanitizationForbiddenAreaNotifier
-function worldSaveSanitizationForbiddenAreaNotifier.new(fields) return end
+function worldSaveSanitizationForbiddenAreaNotifier.new(fields) end

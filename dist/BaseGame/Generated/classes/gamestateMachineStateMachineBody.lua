@@ -5,4 +5,4 @@ gamestateMachineStateMachineBody = {}
 
 ---@param fields? gamestateMachineStateMachineBody
 ---@return gamestateMachineStateMachineBody
-function gamestateMachineStateMachineBody.new(fields) return end
+function gamestateMachineStateMachineBody.new(fields) end

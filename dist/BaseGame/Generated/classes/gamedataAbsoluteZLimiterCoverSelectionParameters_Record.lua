@@ -5,7 +5,7 @@ gamedataAbsoluteZLimiterCoverSelectionParameters_Record = {}
 
 ---@param fields? gamedataAbsoluteZLimiterCoverSelectionParameters_Record
 ---@return gamedataAbsoluteZLimiterCoverSelectionParameters_Record
-function gamedataAbsoluteZLimiterCoverSelectionParameters_Record.new(fields) return end
+function gamedataAbsoluteZLimiterCoverSelectionParameters_Record.new(fields) end
 
 ---@return Float
-function gamedataAbsoluteZLimiterCoverSelectionParameters_Record:ZLimit() return end
+function gamedataAbsoluteZLimiterCoverSelectionParameters_Record:ZLimit() end

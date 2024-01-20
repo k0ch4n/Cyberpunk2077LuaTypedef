@@ -5,19 +5,16 @@ MenuScenario_LoadGame = {}
 
 ---@param fields? MenuScenario_LoadGame
 ---@return MenuScenario_LoadGame
-function MenuScenario_LoadGame.new(fields) return end
+function MenuScenario_LoadGame.new(fields) end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_LoadGame:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_LoadGame:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_LoadGame:OnLeaveScenario(nextScenario) return end
+function MenuScenario_LoadGame:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_LoadGame:OnMainMenuBack() return end
+function MenuScenario_LoadGame:OnMainMenuBack() end

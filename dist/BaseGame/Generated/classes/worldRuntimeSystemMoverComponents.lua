@@ -5,4 +5,4 @@ worldRuntimeSystemMoverComponents = {}
 
 ---@param fields? worldRuntimeSystemMoverComponents
 ---@return worldRuntimeSystemMoverComponents
-function worldRuntimeSystemMoverComponents.new(fields) return end
+function worldRuntimeSystemMoverComponents.new(fields) end

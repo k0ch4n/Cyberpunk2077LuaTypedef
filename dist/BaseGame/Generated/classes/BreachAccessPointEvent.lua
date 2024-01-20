@@ -5,4 +5,4 @@ BreachAccessPointEvent = {}
 
 ---@param fields? BreachAccessPointEvent
 ---@return BreachAccessPointEvent
-function BreachAccessPointEvent.new(fields) return end
+function BreachAccessPointEvent.new(fields) end

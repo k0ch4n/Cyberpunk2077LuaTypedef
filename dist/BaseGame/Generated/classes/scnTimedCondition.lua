@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnTimedCondition: ISerializable
----@field public duration scnSceneTime
----@field public action scnChoiceNodeNsTimedAction
----@field public timeLimitedFinish Bool
+---@field duration scnSceneTime
+---@field action scnChoiceNodeNsTimedAction
+---@field timeLimitedFinish Bool
 scnTimedCondition = {}
 
 ---@param fields? scnTimedCondition
 ---@return scnTimedCondition
-function scnTimedCondition.new(fields) return end
+function scnTimedCondition.new(fields) end

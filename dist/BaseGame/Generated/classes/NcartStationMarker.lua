@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class NcartStationMarker: gameObject
----@field protected station ENcartStations
----@field protected callBackOnlyIfMatchesDestination Bool
----@field protected setAsNewActive Bool
----@field protected onTrainApproachingFact CName
----@field protected TrainGlobalRef CName
+---@field station ENcartStations
+---@field callBackOnlyIfMatchesDestination Bool
+---@field setAsNewActive Bool
+---@field onTrainApproachingFact CName
+---@field TrainGlobalRef CName
 NcartStationMarker = {}
 
 ---@param fields? NcartStationMarker
 ---@return NcartStationMarker
-function NcartStationMarker.new(fields) return end
+function NcartStationMarker.new(fields) end
 
----@protected
 ---@param trigger entAreaEnteredEvent
 ---@return Bool
-function NcartStationMarker:OnAreaEnter(trigger) return end
+function NcartStationMarker:OnAreaEnter(trigger) end
 
----@protected
 ---@param trigger entAreaExitedEvent
 ---@return Bool
-function NcartStationMarker:OnAreaExit(trigger) return end
+function NcartStationMarker:OnAreaExit(trigger) end
 
----@private
 ---@param stationName ENcartStations
 ---@return Int32
-function NcartStationMarker:GetMetroStationNumber(stationName) return end
+function NcartStationMarker:GetMetroStationNumber(stationName) end

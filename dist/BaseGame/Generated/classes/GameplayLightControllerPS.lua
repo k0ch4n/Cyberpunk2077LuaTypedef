@@ -5,25 +5,20 @@ GameplayLightControllerPS = {}
 
 ---@param fields? GameplayLightControllerPS
 ---@return GameplayLightControllerPS
-function GameplayLightControllerPS.new(fields) return end
+function GameplayLightControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function GameplayLightControllerPS:OnInstantiated() return end
+function GameplayLightControllerPS:OnInstantiated() end
 
----@protected
 ---@return Bool
-function GameplayLightControllerPS:CanCreateAnyQuickHackActions() return end
+function GameplayLightControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function GameplayLightControllerPS:GameAttached() return end
+function GameplayLightControllerPS:GameAttached() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function GameplayLightControllerPS:GetQuickHackActions(context) return end
+function GameplayLightControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return nil
-function GameplayLightControllerPS:Initialize() return end
+function GameplayLightControllerPS:Initialize() end

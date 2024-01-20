@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class NewAreaGameController: gameuiHUDGameController
----@field private label inkTextWidgetReference
----@field private animationProxy inkanimProxy
----@field private data NewAreaDiscoveredUserData
+---@field label inkTextWidgetReference
+---@field animationProxy inkanimProxy
+---@field data NewAreaDiscoveredUserData
 NewAreaGameController = {}
 
 ---@param fields? NewAreaGameController
 ---@return NewAreaGameController
-function NewAreaGameController.new(fields) return end
+function NewAreaGameController.new(fields) end
 
----@protected
 ---@return Bool
-function NewAreaGameController:OnInitialize() return end
+function NewAreaGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function NewAreaGameController:OnOutroAnimFinished(anim) return end
+function NewAreaGameController:OnOutroAnimFinished(anim) end
 
----@private
 ---@return nil
-function NewAreaGameController:PlayIntroAnimation() return end
+function NewAreaGameController:PlayIntroAnimation() end
 
----@private
 ---@return nil
-function NewAreaGameController:Setup() return end
+function NewAreaGameController:Setup() end

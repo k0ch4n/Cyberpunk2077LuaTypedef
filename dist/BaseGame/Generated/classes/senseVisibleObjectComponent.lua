@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class senseVisibleObjectComponent: entIPlacedComponent
----@field public visibleObject senseVisibleObject
+---@field visibleObject senseVisibleObject
 senseVisibleObjectComponent = {}
 
 ---@param fields? senseVisibleObjectComponent
 ---@return senseVisibleObjectComponent
-function senseVisibleObjectComponent.new(fields) return end
+function senseVisibleObjectComponent.new(fields) end
 
 ---@return Float
-function senseVisibleObjectComponent:GetDetectionMultiplier() return end
+function senseVisibleObjectComponent:GetDetectionMultiplier() end
 
 ---@return nil
-function senseVisibleObjectComponent:SetVisibleObjectTypeInvalid() return end
+function senseVisibleObjectComponent:SetVisibleObjectTypeInvalid() end

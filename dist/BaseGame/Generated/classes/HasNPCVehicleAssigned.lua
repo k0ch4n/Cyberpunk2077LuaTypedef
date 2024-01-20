@@ -5,9 +5,8 @@ HasNPCVehicleAssigned = {}
 
 ---@param fields? HasNPCVehicleAssigned
 ---@return HasNPCVehicleAssigned
-function HasNPCVehicleAssigned.new(fields) return end
+function HasNPCVehicleAssigned.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HasNPCVehicleAssigned:Check(context) return end
+function HasNPCVehicleAssigned:Check(context) end

@@ -1,32 +1,32 @@
 ---@meta
 
 ---@class gameweaponGrenade: gameItemObject
----@field public lastHitNormal Vector4
----@field public deliveryMethod gamedataGrenadeDeliveryMethodType
+---@field lastHitNormal Vector4
+---@field deliveryMethod gamedataGrenadeDeliveryMethodType
 gameweaponGrenade = {}
 
 ---@param fields? gameweaponGrenade
 ---@return gameweaponGrenade
-function gameweaponGrenade.new(fields) return end
+function gameweaponGrenade.new(fields) end
 
 ---@param aimRequest gameaimAssistAimRequest
 ---@return nil
-function gameweaponGrenade:ActivateFocusedShootingAim(aimRequest) return end
+function gameweaponGrenade:ActivateFocusedShootingAim(aimRequest) end
 
 ---@return nil
-function gameweaponGrenade:DeactivateFocusedShootingAim() return end
+function gameweaponGrenade:DeactivateFocusedShootingAim() end
 
 ---@return Bool
-function gameweaponGrenade:IsGrenadeTargetedWithFocusedShootingPerk() return end
+function gameweaponGrenade:IsGrenadeTargetedWithFocusedShootingPerk() end
 
 ---@return nil
-function gameweaponGrenade:OnExplosion() return end
+function gameweaponGrenade:OnExplosion() end
 
 ---@return nil
-function gameweaponGrenade:DisableFocusedShootingHighlight() return end
+function gameweaponGrenade:DisableFocusedShootingHighlight() end
 
 ---@return nil
-function gameweaponGrenade:EnableFocusedShootingHighlight() return end
+function gameweaponGrenade:EnableFocusedShootingHighlight() end
 
 ---@return nil
-function gameweaponGrenade:TriggerLookAtThisGrenade() return end
+function gameweaponGrenade:TriggerLookAtThisGrenade() end

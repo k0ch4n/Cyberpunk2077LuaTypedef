@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameLocationPrefabMetadata: worldPrefabMetadata
----@field public tags CName[]
----@field public ignoreParentPrefabs Bool
+---@field tags CName[]
+---@field ignoreParentPrefabs Bool
 gameLocationPrefabMetadata = {}
 
 ---@param fields? gameLocationPrefabMetadata
 ---@return gameLocationPrefabMetadata
-function gameLocationPrefabMetadata.new(fields) return end
+function gameLocationPrefabMetadata.new(fields) end

@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class entAnimatedComponent: entISkinableComponent
----@field public controlBinding entAnimationControlBinding
----@field public rig animRig
----@field public graph animAnimGraph
----@field public animations animAnimSetup
----@field public animTags redTagList
----@field public audioAltName CName
----@field public useLongRangeVisibility Bool
----@field public facialSetup animFacialSetup
----@field public calculateAccelerationWs Bool
----@field public animParameters entAnimTrackParameter[]
----@field public serverForcedLod Int32
----@field public clientForcedLod Int32
----@field public serverForcedVisibility Bool
----@field public clientForcedVisibility Bool
+---@field controlBinding entAnimationControlBinding
+---@field rig animRig
+---@field graph animAnimGraph
+---@field animations animAnimSetup
+---@field animTags redTagList
+---@field audioAltName CName
+---@field useLongRangeVisibility Bool
+---@field facialSetup animFacialSetup
+---@field calculateAccelerationWs Bool
+---@field animParameters entAnimTrackParameter[]
+---@field serverForcedLod Int32
+---@field clientForcedLod Int32
+---@field serverForcedVisibility Bool
+---@field clientForcedVisibility Bool
 entAnimatedComponent = {}
 
 ---@param fields? entAnimatedComponent
 ---@return entAnimatedComponent
-function entAnimatedComponent.new(fields) return end
+function entAnimatedComponent.new(fields) end

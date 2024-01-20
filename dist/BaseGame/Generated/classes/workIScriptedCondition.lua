@@ -5,8 +5,8 @@ workIScriptedCondition = {}
 
 ---@param fields? workIScriptedCondition
 ---@return workIScriptedCondition
-function workIScriptedCondition.new(fields) return end
+function workIScriptedCondition.new(fields) end
 
 ---@param ent entEntity
 ---@return Bool
-function workIScriptedCondition:CheckCondition(ent) return end
+function workIScriptedCondition:CheckCondition(ent) end

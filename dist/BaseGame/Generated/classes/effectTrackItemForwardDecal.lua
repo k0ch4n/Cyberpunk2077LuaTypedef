@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class effectTrackItemForwardDecal: effectTrackItem
----@field public mesh CMesh
----@field public appearance CName
----@field public scale IEvaluatorVector
----@field public additionalRotation Float
----@field public sizeThreshold Float
----@field public randomRotation Bool
----@field public randomAppearance Bool
----@field public isAttached Bool
----@field public subUVx Uint32
----@field public subUVy Uint32
----@field public frame Uint32
----@field public fadeOutTime Float
----@field public fadeInTime Float
+---@field mesh CMesh
+---@field appearance CName
+---@field scale IEvaluatorVector
+---@field additionalRotation Float
+---@field sizeThreshold Float
+---@field randomRotation Bool
+---@field randomAppearance Bool
+---@field isAttached Bool
+---@field subUVx Uint32
+---@field subUVy Uint32
+---@field frame Uint32
+---@field fadeOutTime Float
+---@field fadeInTime Float
 effectTrackItemForwardDecal = {}
 
 ---@param fields? effectTrackItemForwardDecal
 ---@return effectTrackItemForwardDecal
-function effectTrackItemForwardDecal.new(fields) return end
+function effectTrackItemForwardDecal.new(fields) end

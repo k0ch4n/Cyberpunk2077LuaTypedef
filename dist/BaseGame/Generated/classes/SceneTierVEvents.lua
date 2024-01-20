@@ -5,14 +5,12 @@ SceneTierVEvents = {}
 
 ---@param fields? SceneTierVEvents
 ---@return SceneTierVEvents
-function SceneTierVEvents.new(fields) return end
+function SceneTierVEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SceneTierVEvents:OnEnter(stateContext, scriptInterface) return end
+function SceneTierVEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@return GameplayTier
-function SceneTierVEvents:SceneTierToEnter() return end
+function SceneTierVEvents:SceneTierToEnter() end

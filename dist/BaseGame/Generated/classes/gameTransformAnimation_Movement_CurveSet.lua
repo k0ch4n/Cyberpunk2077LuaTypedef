@@ -5,4 +5,4 @@ gameTransformAnimation_Movement_CurveSet = {}
 
 ---@param fields? gameTransformAnimation_Movement_CurveSet
 ---@return gameTransformAnimation_Movement_CurveSet
-function gameTransformAnimation_Movement_CurveSet.new(fields) return end
+function gameTransformAnimation_Movement_CurveSet.new(fields) end

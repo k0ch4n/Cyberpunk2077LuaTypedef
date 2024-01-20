@@ -5,4 +5,4 @@ gameuiStickersRegisterCallbacksEvent = {}
 
 ---@param fields? gameuiStickersRegisterCallbacksEvent
 ---@return gameuiStickersRegisterCallbacksEvent
-function gameuiStickersRegisterCallbacksEvent.new(fields) return end
+function gameuiStickersRegisterCallbacksEvent.new(fields) end

@@ -5,4 +5,4 @@ vehicleChangeMovableEvent = {}
 
 ---@param fields? vehicleChangeMovableEvent
 ---@return vehicleChangeMovableEvent
-function vehicleChangeMovableEvent.new(fields) return end
+function vehicleChangeMovableEvent.new(fields) end

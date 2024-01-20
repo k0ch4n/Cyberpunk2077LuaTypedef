@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsSystemResource: CResource
----@field public bodies physicsSystemBody[]
----@field public joints physicsSystemJoint[]
+---@field bodies physicsSystemBody[]
+---@field joints physicsSystemJoint[]
 physicsSystemResource = {}
 
 ---@param fields? physicsSystemResource
 ---@return physicsSystemResource
-function physicsSystemResource.new(fields) return end
+function physicsSystemResource.new(fields) end

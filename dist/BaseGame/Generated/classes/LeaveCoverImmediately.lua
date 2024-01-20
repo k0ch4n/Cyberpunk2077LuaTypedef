@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class LeaveCoverImmediately: AIbehaviortaskScript
----@field public delay Float
----@field public completeOnLeave Bool
----@field public timeStamp Float
----@field public triggered Bool
+---@field delay Float
+---@field completeOnLeave Bool
+---@field timeStamp Float
+---@field triggered Bool
 LeaveCoverImmediately = {}
 
 ---@param fields? LeaveCoverImmediately
 ---@return LeaveCoverImmediately
-function LeaveCoverImmediately.new(fields) return end
+function LeaveCoverImmediately.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function LeaveCoverImmediately:Activate(context) return end
+function LeaveCoverImmediately:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function LeaveCoverImmediately:Deactivate(context) return end
+function LeaveCoverImmediately:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function LeaveCoverImmediately:Update(context) return end
+function LeaveCoverImmediately:Update(context) end

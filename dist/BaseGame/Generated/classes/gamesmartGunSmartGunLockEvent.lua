@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamesmartGunSmartGunLockEvent: redEvent
----@field public locked Bool
----@field public lockedOnByPlayer Bool
+---@field locked Bool
+---@field lockedOnByPlayer Bool
 gamesmartGunSmartGunLockEvent = {}
 
 ---@param fields? gamesmartGunSmartGunLockEvent
 ---@return gamesmartGunSmartGunLockEvent
-function gamesmartGunSmartGunLockEvent.new(fields) return end
+function gamesmartGunSmartGunLockEvent.new(fields) end

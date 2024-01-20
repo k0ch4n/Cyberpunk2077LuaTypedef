@@ -5,7 +5,7 @@ SpeakerController = {}
 
 ---@param fields? SpeakerController
 ---@return SpeakerController
-function SpeakerController.new(fields) return end
+function SpeakerController.new(fields) end
 
 ---@return SpeakerControllerPS
-function SpeakerController:GetPS() return end
+function SpeakerController:GetPS() end

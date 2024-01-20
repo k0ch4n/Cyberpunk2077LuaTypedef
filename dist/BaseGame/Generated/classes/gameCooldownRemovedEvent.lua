@@ -5,4 +5,4 @@ gameCooldownRemovedEvent = {}
 
 ---@param fields? gameCooldownRemovedEvent
 ---@return gameCooldownRemovedEvent
-function gameCooldownRemovedEvent.new(fields) return end
+function gameCooldownRemovedEvent.new(fields) end

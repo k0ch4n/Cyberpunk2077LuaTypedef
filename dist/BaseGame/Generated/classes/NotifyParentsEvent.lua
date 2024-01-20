@@ -5,4 +5,4 @@ NotifyParentsEvent = {}
 
 ---@param fields? NotifyParentsEvent
 ---@return NotifyParentsEvent
-function NotifyParentsEvent.new(fields) return end
+function NotifyParentsEvent.new(fields) end

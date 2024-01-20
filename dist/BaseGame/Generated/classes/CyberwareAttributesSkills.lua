@@ -1,80 +1,68 @@
 ---@meta
 
 ---@class CyberwareAttributesSkills: gameuiWidgetGameController
----@field protected attributes CyberwareAttributes_ContainersStruct
----@field protected resistances CyberwareAttributes_ResistancesStruct
----@field protected levelUpPoints inkTextWidgetReference
----@field private uiBlackboard gameIBlackboard
----@field private playerPuppet PlayerPuppet
----@field private devPoints Int32
----@field private OnAttributesChangeCallback redCallbackObject
----@field private OnDevelopmentPointsChangeCallback redCallbackObject
----@field private OnProficiencyChangeCallback redCallbackObject
----@field private OnMaxHealthChangedCallback redCallbackObject
----@field private OnPhysicalResistanceChangedCallback redCallbackObject
----@field private OnThermalResistanceChangedCallback redCallbackObject
----@field private OnEnergyResistanceChangedCallback redCallbackObject
----@field private OnChemicalResistanceChangedCallback redCallbackObject
+---@field attributes CyberwareAttributes_ContainersStruct
+---@field resistances CyberwareAttributes_ResistancesStruct
+---@field levelUpPoints inkTextWidgetReference
+---@field uiBlackboard gameIBlackboard
+---@field playerPuppet PlayerPuppet
+---@field devPoints Int32
+---@field OnAttributesChangeCallback redCallbackObject
+---@field OnDevelopmentPointsChangeCallback redCallbackObject
+---@field OnProficiencyChangeCallback redCallbackObject
+---@field OnMaxHealthChangedCallback redCallbackObject
+---@field OnPhysicalResistanceChangedCallback redCallbackObject
+---@field OnThermalResistanceChangedCallback redCallbackObject
+---@field OnEnergyResistanceChangedCallback redCallbackObject
+---@field OnChemicalResistanceChangedCallback redCallbackObject
 CyberwareAttributesSkills = {}
 
 ---@param fields? CyberwareAttributesSkills
 ---@return CyberwareAttributesSkills
-function CyberwareAttributesSkills.new(fields) return end
+function CyberwareAttributesSkills.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function CyberwareAttributesSkills:OnAttributesChange(value) return end
+function CyberwareAttributesSkills:OnAttributesChange(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function CyberwareAttributesSkills:OnDevelopmentPointsChange(value) return end
+function CyberwareAttributesSkills:OnDevelopmentPointsChange(value) end
 
----@protected
 ---@return Bool
-function CyberwareAttributesSkills:OnInitialize() return end
+function CyberwareAttributesSkills:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function CyberwareAttributesSkills:OnProficiencyChange(value) return end
+function CyberwareAttributesSkills:OnProficiencyChange(value) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function CyberwareAttributesSkills:OnResistancesHover(controller, oldState, newState) return end
+function CyberwareAttributesSkills:OnResistancesHover(controller, oldState, newState) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function CyberwareAttributesSkills:OnSomeResistanceChanged(value) return end
+function CyberwareAttributesSkills:OnSomeResistanceChanged(value) end
 
----@private
 ---@param currStatType gamedataStatType
 ---@param statsSystem gameStatsSystem
 ---@return String
-function CyberwareAttributesSkills:HelperGetStatText(currStatType, statsSystem) return end
+function CyberwareAttributesSkills:HelperGetStatText(currStatType, statsSystem) end
 
----@private
 ---@param e inkPointerEvent
 ---@return nil
-function CyberwareAttributesSkills:OnSpendPoints(e) return end
+function CyberwareAttributesSkills:OnSpendPoints(e) end
 
----@private
 ---@return nil
-function CyberwareAttributesSkills:SyncDevPoints() return end
+function CyberwareAttributesSkills:SyncDevPoints() end
 
----@private
 ---@return nil
-function CyberwareAttributesSkills:SyncProficiencies() return end
+function CyberwareAttributesSkills:SyncProficiencies() end
 
----@private
 ---@return nil
-function CyberwareAttributesSkills:SyncStats() return end
+function CyberwareAttributesSkills:SyncStats() end
 
----@private
 ---@return nil
-function CyberwareAttributesSkills:SyncWithPlayerDevSystem() return end
+function CyberwareAttributesSkills:SyncWithPlayerDevSystem() end

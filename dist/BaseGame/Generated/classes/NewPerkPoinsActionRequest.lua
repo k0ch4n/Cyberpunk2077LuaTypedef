@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class NewPerkPoinsActionRequest: gamePlayerScriptableSystemRequest
----@field public pointDiff Int32
+---@field pointDiff Int32
 NewPerkPoinsActionRequest = {}
 
 ---@param fields? NewPerkPoinsActionRequest
 ---@return NewPerkPoinsActionRequest
-function NewPerkPoinsActionRequest.new(fields) return end
+function NewPerkPoinsActionRequest.new(fields) end
 
 ---@param _owner gameObject
 ---@param pointDiff Int32
 ---@return nil
-function NewPerkPoinsActionRequest:Set(_owner, pointDiff) return end
+function NewPerkPoinsActionRequest:Set(_owner, pointDiff) end

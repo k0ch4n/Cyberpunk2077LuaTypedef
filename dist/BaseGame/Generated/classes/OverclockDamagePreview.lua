@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class OverclockDamagePreview: redEvent
----@field public IsHovering Bool
----@field public JustHacked Bool
----@field public MemoryCost Int32
+---@field IsHovering Bool
+---@field JustHacked Bool
+---@field MemoryCost Int32
 OverclockDamagePreview = {}
 
 ---@param fields? OverclockDamagePreview
 ---@return OverclockDamagePreview
-function OverclockDamagePreview.new(fields) return end
+function OverclockDamagePreview.new(fields) end

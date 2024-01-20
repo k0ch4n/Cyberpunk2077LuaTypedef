@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class QuestListDistanceData: IScriptable
----@field public objective gameJournalQuestObjective
----@field public distance Float
+---@field objective gameJournalQuestObjective
+---@field distance Float
 QuestListDistanceData = {}
 
 ---@param fields? QuestListDistanceData
 ---@return QuestListDistanceData
-function QuestListDistanceData.new(fields) return end
+function QuestListDistanceData.new(fields) end

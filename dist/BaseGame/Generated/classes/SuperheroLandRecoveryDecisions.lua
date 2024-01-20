@@ -5,9 +5,9 @@ SuperheroLandRecoveryDecisions = {}
 
 ---@param fields? SuperheroLandRecoveryDecisions
 ---@return SuperheroLandRecoveryDecisions
-function SuperheroLandRecoveryDecisions.new(fields) return end
+function SuperheroLandRecoveryDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SuperheroLandRecoveryDecisions:ToStand(stateContext, scriptInterface) return end
+function SuperheroLandRecoveryDecisions:ToStand(stateContext, scriptInterface) end

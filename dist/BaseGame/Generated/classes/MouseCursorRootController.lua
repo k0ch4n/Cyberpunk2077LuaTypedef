@@ -5,9 +5,8 @@ MouseCursorRootController = {}
 
 ---@param fields? MouseCursorRootController
 ---@return MouseCursorRootController
-function MouseCursorRootController.new(fields) return end
+function MouseCursorRootController.new(fields) end
 
----@protected
 ---@param context CName|string
 ---@return CName
-function MouseCursorRootController:GetAnimNameFromContext(context) return end
+function MouseCursorRootController:GetAnimNameFromContext(context) end

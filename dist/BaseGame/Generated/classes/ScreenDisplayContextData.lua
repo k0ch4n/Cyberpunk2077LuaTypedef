@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ScreenDisplayContextData: IScriptable
----@field public Context ScreenDisplayContext
+---@field Context ScreenDisplayContext
 ScreenDisplayContextData = {}
 
 ---@param fields? ScreenDisplayContextData
 ---@return ScreenDisplayContextData
-function ScreenDisplayContextData.new(fields) return end
+function ScreenDisplayContextData.new(fields) end
 
 ---@param context ScreenDisplayContext
 ---@return ScreenDisplayContextData
-function ScreenDisplayContextData.Make(context) return end
+function ScreenDisplayContextData.Make(context) end

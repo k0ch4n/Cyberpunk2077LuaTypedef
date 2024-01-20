@@ -5,4 +5,4 @@ FunctionalTestsState_FunctionalTests = {}
 
 ---@param fields? FunctionalTestsState_FunctionalTests
 ---@return FunctionalTestsState_FunctionalTests
-function FunctionalTestsState_FunctionalTests.new(fields) return end
+function FunctionalTestsState_FunctionalTests.new(fields) end

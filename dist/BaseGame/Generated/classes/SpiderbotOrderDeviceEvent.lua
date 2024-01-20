@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SpiderbotOrderDeviceEvent: redEvent
----@field public target gameObject
----@field public overrideMovementTarget gameObject
+---@field target gameObject
+---@field overrideMovementTarget gameObject
 SpiderbotOrderDeviceEvent = {}
 
 ---@param fields? SpiderbotOrderDeviceEvent
 ---@return SpiderbotOrderDeviceEvent
-function SpiderbotOrderDeviceEvent.new(fields) return end
+function SpiderbotOrderDeviceEvent.new(fields) end

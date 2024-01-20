@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class worldEnvironmentDefinition: CResource
----@field public worldRenderSettings WorldRenderAreaSettings
----@field public worldShadowConfig WorldShadowConfig
----@field public worldLightingConfig WorldLightingConfig
----@field public renderSettingFactors RenderSettingFactors
----@field public weatherStates worldWeatherState[]
----@field public weatherStateTransitions worldWeatherStateTransition[]
----@field public areaEnvironmentParameterLayers worldEnvironmentAreaParameters[]
----@field public resourceVersion Uint8
+---@field worldRenderSettings WorldRenderAreaSettings
+---@field worldShadowConfig WorldShadowConfig
+---@field worldLightingConfig WorldLightingConfig
+---@field renderSettingFactors RenderSettingFactors
+---@field weatherStates worldWeatherState[]
+---@field weatherStateTransitions worldWeatherStateTransition[]
+---@field areaEnvironmentParameterLayers worldEnvironmentAreaParameters[]
+---@field resourceVersion Uint8
 worldEnvironmentDefinition = {}
 
 ---@param fields? worldEnvironmentDefinition
 ---@return worldEnvironmentDefinition
-function worldEnvironmentDefinition.new(fields) return end
+function worldEnvironmentDefinition.new(fields) end

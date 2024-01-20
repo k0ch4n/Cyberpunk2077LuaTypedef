@@ -1,43 +1,36 @@
 ---@meta
 
 ---@class HoloDevice: InteractiveDevice
----@field private questFactName CName
+---@field questFactName CName
 HoloDevice = {}
 
 ---@param fields? HoloDevice
 ---@return HoloDevice
-function HoloDevice.new(fields) return end
+function HoloDevice.new(fields) end
 
----@protected
 ---@param evt TogglePlay
 ---@return Bool
-function HoloDevice:OnPlay(evt) return end
+function HoloDevice:OnPlay(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function HoloDevice:OnRequestComponents(ri) return end
+function HoloDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function HoloDevice:OnTakeControl(ri) return end
+function HoloDevice:OnTakeControl(ri) end
 
----@private
 ---@return HoloDeviceController
-function HoloDevice:GetController() return end
+function HoloDevice:GetController() end
 
 ---@return HoloDeviceControllerPS
-function HoloDevice:GetDevicePS() return end
+function HoloDevice:GetDevicePS() end
 
----@protected
 ---@return nil
-function HoloDevice:ResolveGameplayState() return end
+function HoloDevice:ResolveGameplayState() end
 
----@private
 ---@return nil
-function HoloDevice:UpdateFactDB() return end
+function HoloDevice:UpdateFactDB() end
 
----@private
 ---@return nil
-function HoloDevice:UpdateUI() return end
+function HoloDevice:UpdateUI() end

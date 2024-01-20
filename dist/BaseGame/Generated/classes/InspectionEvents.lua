@@ -5,16 +5,14 @@ InspectionEvents = {}
 
 ---@param fields? InspectionEvents
 ---@return InspectionEvents
-function InspectionEvents.new(fields) return end
+function InspectionEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function InspectionEvents:OnEnter(stateContext, scriptInterface) return end
+function InspectionEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function InspectionEvents:OnExit(stateContext, scriptInterface) return end
+function InspectionEvents:OnExit(stateContext, scriptInterface) end

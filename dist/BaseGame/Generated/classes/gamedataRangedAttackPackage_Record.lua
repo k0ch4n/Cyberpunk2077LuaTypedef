@@ -5,16 +5,16 @@ gamedataRangedAttackPackage_Record = {}
 
 ---@param fields? gamedataRangedAttackPackage_Record
 ---@return gamedataRangedAttackPackage_Record
-function gamedataRangedAttackPackage_Record.new(fields) return end
+function gamedataRangedAttackPackage_Record.new(fields) end
 
 ---@return gamedataRangedAttack_Record
-function gamedataRangedAttackPackage_Record:ChargeFire() return end
+function gamedataRangedAttackPackage_Record:ChargeFire() end
 
 ---@return gamedataRangedAttack_Record
-function gamedataRangedAttackPackage_Record:ChargeFireHandle() return end
+function gamedataRangedAttackPackage_Record:ChargeFireHandle() end
 
 ---@return gamedataRangedAttack_Record
-function gamedataRangedAttackPackage_Record:DefaultFire() return end
+function gamedataRangedAttackPackage_Record:DefaultFire() end
 
 ---@return gamedataRangedAttack_Record
-function gamedataRangedAttackPackage_Record:DefaultFireHandle() return end
+function gamedataRangedAttackPackage_Record:DefaultFireHandle() end

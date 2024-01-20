@@ -5,21 +5,21 @@ IScriptable = {}
 
 ---@param fields? IScriptable
 ---@return IScriptable
-function IScriptable.new(fields) return end
+function IScriptable.new(fields) end
 
 ---@return nil
-function IScriptable.DetectScriptableCycles() return end
+function IScriptable.DetectScriptableCycles() end
 
 ---@return CName
-function IScriptable:GetClassName() return end
+function IScriptable:GetClassName() end
 
 ---@param className CName|string
 ---@return Bool
-function IScriptable:IsA(className) return end
+function IScriptable:IsA(className) end
 
 ---@param className CName|string
 ---@return Bool
-function IScriptable:IsExactlyA(className) return end
+function IScriptable:IsExactlyA(className) end
 
 ---@return String
-function IScriptable:ToString() return end
+function IScriptable:ToString() end

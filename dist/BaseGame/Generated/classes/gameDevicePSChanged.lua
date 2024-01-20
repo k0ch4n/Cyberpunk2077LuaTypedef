@@ -5,4 +5,4 @@ gameDevicePSChanged = {}
 
 ---@param fields? gameDevicePSChanged
 ---@return gameDevicePSChanged
-function gameDevicePSChanged.new(fields) return end
+function gameDevicePSChanged.new(fields) end

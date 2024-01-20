@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class workSyncAnimClip: workAnimClip
----@field public slotName CName
----@field public syncOffset Transform
+---@field slotName CName
+---@field syncOffset Transform
 workSyncAnimClip = {}
 
 ---@param fields? workSyncAnimClip
 ---@return workSyncAnimClip
-function workSyncAnimClip.new(fields) return end
+function workSyncAnimClip.new(fields) end

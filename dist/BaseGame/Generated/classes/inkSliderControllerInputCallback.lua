@@ -5,4 +5,4 @@ inkSliderControllerInputCallback = {}
 
 ---@param fields? inkSliderControllerInputCallback
 ---@return inkSliderControllerInputCallback
-function inkSliderControllerInputCallback.new(fields) return end
+function inkSliderControllerInputCallback.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class BloodPuddleEvent: redEvent
----@field public slotName CName
----@field public cyberBlood Bool
+---@field slotName CName
+---@field cyberBlood Bool
 BloodPuddleEvent = {}
 
 ---@param fields? BloodPuddleEvent
 ---@return BloodPuddleEvent
-function BloodPuddleEvent.new(fields) return end
+function BloodPuddleEvent.new(fields) end

@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class OverloadDevice: ActionBool
----@field protected killDelay Float
+---@field killDelay Float
 OverloadDevice = {}
 
 ---@param fields? OverloadDevice
 ---@return OverloadDevice
-function OverloadDevice.new(fields) return end
+function OverloadDevice.new(fields) end
 
 ---@return Float
-function OverloadDevice:GetKillDelay() return end
+function OverloadDevice:GetKillDelay() end
 
 ---@return String
-function OverloadDevice:GetTweakDBChoiceRecord() return end
+function OverloadDevice:GetTweakDBChoiceRecord() end
 
 ---@param delay Float
 ---@return nil
-function OverloadDevice:SetKillDelay(delay) return end
+function OverloadDevice:SetKillDelay(delay) end
 
 ---@return nil
-function OverloadDevice:SetProperties() return end
+function OverloadDevice:SetProperties() end

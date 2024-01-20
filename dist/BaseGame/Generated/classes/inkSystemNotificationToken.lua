@@ -5,4 +5,4 @@ inkSystemNotificationToken = {}
 
 ---@param fields? inkSystemNotificationToken
 ---@return inkSystemNotificationToken
-function inkSystemNotificationToken.new(fields) return end
+function inkSystemNotificationToken.new(fields) end

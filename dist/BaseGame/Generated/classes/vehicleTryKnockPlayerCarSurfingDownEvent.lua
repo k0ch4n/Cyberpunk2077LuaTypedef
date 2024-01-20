@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleTryKnockPlayerCarSurfingDownEvent: redEvent
----@field public impactPoint Vector3
+---@field impactPoint Vector3
 vehicleTryKnockPlayerCarSurfingDownEvent = {}
 
 ---@param fields? vehicleTryKnockPlayerCarSurfingDownEvent
 ---@return vehicleTryKnockPlayerCarSurfingDownEvent
-function vehicleTryKnockPlayerCarSurfingDownEvent.new(fields) return end
+function vehicleTryKnockPlayerCarSurfingDownEvent.new(fields) end

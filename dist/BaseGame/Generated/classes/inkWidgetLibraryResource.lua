@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class inkWidgetLibraryResource: CResource
----@field public libraryItems inkWidgetLibraryItem[]
----@field public externalLibraries inkWidgetLibraryResource[]
----@field public animationLibraryResRef inkanimAnimationLibraryResource
----@field public sequences inkanimSequence[]
----@field public rootDefinitionIndex Uint32
----@field public externalDependenciesForInternalItems CResource[]
----@field public rootResolution inkETextureResolution
----@field public version inkWidgetResourceVersion
+---@field libraryItems inkWidgetLibraryItem[]
+---@field externalLibraries inkWidgetLibraryResource[]
+---@field animationLibraryResRef inkanimAnimationLibraryResource
+---@field sequences inkanimSequence[]
+---@field rootDefinitionIndex Uint32
+---@field externalDependenciesForInternalItems CResource[]
+---@field rootResolution inkETextureResolution
+---@field version inkWidgetResourceVersion
 inkWidgetLibraryResource = {}
 
 ---@param fields? inkWidgetLibraryResource
 ---@return inkWidgetLibraryResource
-function inkWidgetLibraryResource.new(fields) return end
+function inkWidgetLibraryResource.new(fields) end

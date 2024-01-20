@@ -5,15 +5,14 @@ IsDeviceTargetValidFilter = {}
 
 ---@param fields? IsDeviceTargetValidFilter
 ---@return IsDeviceTargetValidFilter
-function IsDeviceTargetValidFilter.new(fields) return end
+function IsDeviceTargetValidFilter.new(fields) end
 
----@private
 ---@param puppet ScriptedPuppet
 ---@param stimRecord gamedataStim_Record
 ---@return Bool
-function IsDeviceTargetValidFilter:CanReactOnStimType(puppet, stimRecord) return end
+function IsDeviceTargetValidFilter:CanReactOnStimType(puppet, stimRecord) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IsDeviceTargetValidFilter:Process(ctx, filterCtx) return end
+function IsDeviceTargetValidFilter:Process(ctx, filterCtx) end

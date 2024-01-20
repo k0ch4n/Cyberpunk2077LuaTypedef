@@ -5,14 +5,12 @@ KurtMeleeTakedownCooldownActive = {}
 
 ---@param fields? KurtMeleeTakedownCooldownActive
 ---@return KurtMeleeTakedownCooldownActive
-function KurtMeleeTakedownCooldownActive.new(fields) return end
+function KurtMeleeTakedownCooldownActive.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function KurtMeleeTakedownCooldownActive:Activate(context) return end
+function KurtMeleeTakedownCooldownActive:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function KurtMeleeTakedownCooldownActive:Check(context) return end
+function KurtMeleeTakedownCooldownActive:Check(context) end

@@ -1,124 +1,117 @@
 ---@meta
 
 ---@class PocketRadio: IScriptable
----@field private player PlayerPuppet
----@field private station Int32
----@field private selectedStation Int32
----@field private toggledStation Int32
----@field private restrictions Bool[]
----@field private isConditionRestricted Bool
----@field private isUnlockDelayRestricted Bool
----@field private isRestrictionOverwritten Bool
----@field private isOn Bool
----@field private questContentLockListener PocketRadioQuestContentLockListener
----@field private radioPressTime Float
----@field private isInMetro Bool
+---@field player PlayerPuppet
+---@field station Int32
+---@field selectedStation Int32
+---@field toggledStation Int32
+---@field restrictions Bool[]
+---@field isConditionRestricted Bool
+---@field isUnlockDelayRestricted Bool
+---@field isRestrictionOverwritten Bool
+---@field isOn Bool
+---@field questContentLockListener PocketRadioQuestContentLockListener
+---@field radioPressTime Float
+---@field isInMetro Bool
 PocketRadio = {}
 
 ---@param fields? PocketRadio
 ---@return PocketRadio
-function PocketRadio.new(fields) return end
+function PocketRadio.new(fields) end
 
 ---@return Bool
-function PocketRadio.ConfigEnablePocketRadio() return end
+function PocketRadio.ConfigEnablePocketRadio() end
 
 ---@return CName
-function PocketRadio:GetStationName() return end
+function PocketRadio:GetStationName() end
 
 ---@return CName
-function PocketRadio:GetTrackName() return end
+function PocketRadio:GetTrackName() end
 
 ---@param action gameinputScriptListenerAction
 ---@return nil
-function PocketRadio:HandleInputAction(action) return end
+function PocketRadio:HandleInputAction(action) end
 
 ---@param evt RadioToggleEvent
 ---@return nil
-function PocketRadio:HandleRadioToggleEvent(evt) return end
+function PocketRadio:HandleRadioToggleEvent(evt) end
 
 ---@param restriction PocketRadioRestrictions
 ---@param restricted Bool
 ---@return nil
-function PocketRadio:HandleRestriction(restriction, restricted) return end
+function PocketRadio:HandleRestriction(restriction, restricted) end
 
 ---@return nil
-function PocketRadio:HandleRestrictionStateChanged() return end
+function PocketRadio:HandleRestrictionStateChanged() end
 
----@private
 ---@param gameplayTags CName[]|string[]
 ---@param tag CName|string
 ---@param type PocketRadioRestrictions
 ---@return nil
-function PocketRadio:HandleStatusEffectApplied(gameplayTags, tag, type) return end
+function PocketRadio:HandleStatusEffectApplied(gameplayTags, tag, type) end
 
----@private
 ---@param gameplayTags CName[]|string[]
 ---@param tag CName|string
 ---@param type PocketRadioRestrictions
 ---@return nil
-function PocketRadio:HandleStatusEffectRemoved(gameplayTags, tag, type) return end
+function PocketRadio:HandleStatusEffectRemoved(gameplayTags, tag, type) end
 
----@private
 ---@return nil
-function PocketRadio:HandleUIUpdate() return end
+function PocketRadio:HandleUIUpdate() end
 
 ---@param vehicle vehicleBaseObject
 ---@return nil
-function PocketRadio:HandleVehicleMounted(vehicle) return end
+function PocketRadio:HandleVehicleMounted(vehicle) end
 
 ---@param evt VehicleRadioEvent
 ---@return nil
-function PocketRadio:HandleVehicleRadioEvent(evt) return end
+function PocketRadio:HandleVehicleRadioEvent(evt) end
 
 ---@param evt vehicleRadioStationChanged
 ---@return nil
-function PocketRadio:HandleVehicleRadioStationChanged(evt) return end
+function PocketRadio:HandleVehicleRadioStationChanged(evt) end
 
 ---@param vehicle vehicleBaseObject
 ---@return nil
-function PocketRadio:HandleVehicleUnmounted(vehicle) return end
+function PocketRadio:HandleVehicleUnmounted(vehicle) end
 
----@private
 ---@return nil
-function PocketRadio:InitializeRestrictions() return end
+function PocketRadio:InitializeRestrictions() end
 
 ---@return Bool
-function PocketRadio:IsActive() return end
+function PocketRadio:IsActive() end
 
 ---@return Bool
-function PocketRadio:IsRestricted() return end
+function PocketRadio:IsRestricted() end
 
 ---@return Bool
-function PocketRadio:IsRestrictionOverwritten() return end
+function PocketRadio:IsRestrictionOverwritten() end
 
 ---@param player PlayerPuppet
 ---@return nil
-function PocketRadio:OnPlayerAttach(player) return end
+function PocketRadio:OnPlayerAttach(player) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function PocketRadio:OnPlayerDetach(player) return end
+function PocketRadio:OnPlayerDetach(player) end
 
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@param gameplayTags CName[]|string[]
 ---@return nil
-function PocketRadio:OnStatusEffectApplied(evt, gameplayTags) return end
+function PocketRadio:OnStatusEffectApplied(evt, gameplayTags) end
 
 ---@param evt gameeventsRemoveStatusEffect
 ---@param gameplayTags CName[]|string[]
 ---@return nil
-function PocketRadio:OnStatusEffectRemoved(evt, gameplayTags) return end
+function PocketRadio:OnStatusEffectRemoved(evt, gameplayTags) end
 
----@private
 ---@param playSFX Bool
 ---@return nil
-function PocketRadio:TurnOff(playSFX) return end
+function PocketRadio:TurnOff(playSFX) end
 
----@private
 ---@param playSFX Bool
 ---@return nil
-function PocketRadio:TurnOn(playSFX) return end
+function PocketRadio:TurnOn(playSFX) end
 
----@private
 ---@return nil
-function PocketRadio:UpdateConditionRestricted() return end
+function PocketRadio:UpdateConditionRestricted() end

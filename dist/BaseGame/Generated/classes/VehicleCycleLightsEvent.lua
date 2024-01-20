@@ -5,4 +5,4 @@ VehicleCycleLightsEvent = {}
 
 ---@param fields? VehicleCycleLightsEvent
 ---@return VehicleCycleLightsEvent
-function VehicleCycleLightsEvent.new(fields) return end
+function VehicleCycleLightsEvent.new(fields) end

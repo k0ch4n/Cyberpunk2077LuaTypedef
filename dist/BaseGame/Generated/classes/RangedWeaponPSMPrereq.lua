@@ -5,25 +5,21 @@ RangedWeaponPSMPrereq = {}
 
 ---@param fields? RangedWeaponPSMPrereq
 ---@return RangedWeaponPSMPrereq
-function RangedWeaponPSMPrereq.new(fields) return end
+function RangedWeaponPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function RangedWeaponPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function RangedWeaponPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function RangedWeaponPSMPrereq:GetStateMachineEnum() return end
+function RangedWeaponPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function RangedWeaponPSMPrereq:OnRegister(state, context) return end
+function RangedWeaponPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function RangedWeaponPSMPrereq:OnUnregister(state, context) return end
+function RangedWeaponPSMPrereq:OnUnregister(state, context) end

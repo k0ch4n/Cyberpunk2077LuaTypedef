@@ -5,4 +5,4 @@ gameEffectData_MeleeTireHit = {}
 
 ---@param fields? gameEffectData_MeleeTireHit
 ---@return gameEffectData_MeleeTireHit
-function gameEffectData_MeleeTireHit.new(fields) return end
+function gameEffectData_MeleeTireHit.new(fields) end

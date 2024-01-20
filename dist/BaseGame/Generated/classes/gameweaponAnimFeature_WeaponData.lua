@@ -1,43 +1,43 @@
 ---@meta
 
 ---@class gameweaponAnimFeature_WeaponData: animAnimFeature
----@field public cycleTime Float
----@field public chargePercentage Float
----@field public timeInMaxCharge Float
----@field public ammoRemaining Int32
----@field public triggerMode Int32
----@field public isMagazineFull Bool
----@field public isTriggerDown Bool
+---@field cycleTime Float
+---@field chargePercentage Float
+---@field timeInMaxCharge Float
+---@field ammoRemaining Int32
+---@field triggerMode Int32
+---@field isMagazineFull Bool
+---@field isTriggerDown Bool
 gameweaponAnimFeature_WeaponData = {}
 
 ---@param fields? gameweaponAnimFeature_WeaponData
 ---@return gameweaponAnimFeature_WeaponData
-function gameweaponAnimFeature_WeaponData.new(fields) return end
+function gameweaponAnimFeature_WeaponData.new(fields) end
 
 ---@param ammoRemaining Int32
 ---@return nil
-function gameweaponAnimFeature_WeaponData:SetAmmoRemaining(ammoRemaining) return end
+function gameweaponAnimFeature_WeaponData:SetAmmoRemaining(ammoRemaining) end
 
 ---@param chargePercentage Float
 ---@return nil
-function gameweaponAnimFeature_WeaponData:SetChargePercentage(chargePercentage) return end
+function gameweaponAnimFeature_WeaponData:SetChargePercentage(chargePercentage) end
 
 ---@param cycleTime Float
 ---@return nil
-function gameweaponAnimFeature_WeaponData:SetCycleTime(cycleTime) return end
+function gameweaponAnimFeature_WeaponData:SetCycleTime(cycleTime) end
 
 ---@param magazineFull Bool
 ---@return nil
-function gameweaponAnimFeature_WeaponData:SetMagazineFull(magazineFull) return end
+function gameweaponAnimFeature_WeaponData:SetMagazineFull(magazineFull) end
 
 ---@param timeInMaxCharge Float
 ---@return nil
-function gameweaponAnimFeature_WeaponData:SetTimeInMaxCharge(timeInMaxCharge) return end
+function gameweaponAnimFeature_WeaponData:SetTimeInMaxCharge(timeInMaxCharge) end
 
 ---@param triggerDown Bool
 ---@return nil
-function gameweaponAnimFeature_WeaponData:SetTriggerDown(triggerDown) return end
+function gameweaponAnimFeature_WeaponData:SetTriggerDown(triggerDown) end
 
 ---@param triggerMode gamedataTriggerMode
 ---@return nil
-function gameweaponAnimFeature_WeaponData:SetTriggerMode(triggerMode) return end
+function gameweaponAnimFeature_WeaponData:SetTriggerMode(triggerMode) end

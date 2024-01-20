@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameSSlotInfo
----@field public areaType gamedataEquipmentArea
----@field public equipSlot TweakDBID
----@field public visualTag CName
+---@field areaType gamedataEquipmentArea
+---@field equipSlot TweakDBID
+---@field visualTag CName
 gameSSlotInfo = {}
 
 ---@param fields? gameSSlotInfo
 ---@return gameSSlotInfo
-function gameSSlotInfo.new(fields) return end
+function gameSSlotInfo.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldRotatingMeshNode: worldMeshNode
----@field public rotationAxis worldRotatingMeshNodeAxis
----@field public fullRotationTime Float
----@field public reverseDirection Bool
+---@field rotationAxis worldRotatingMeshNodeAxis
+---@field fullRotationTime Float
+---@field reverseDirection Bool
 worldRotatingMeshNode = {}
 
 ---@param fields? worldRotatingMeshNode
 ---@return worldRotatingMeshNode
-function worldRotatingMeshNode.new(fields) return end
+function worldRotatingMeshNode.new(fields) end

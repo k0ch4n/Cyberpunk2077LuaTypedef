@@ -1,61 +1,53 @@
 ---@meta
 
 ---@class weaponIndicatorController: gameuiHUDGameController
----@field public triggerModeControllers CName[]
----@field public ammoLogicControllers CName[]
----@field public chargeLogicControllers CName[]
----@field private triggerModeInstances TriggerModeLogicController[]
----@field private ammoLogicInstances AmmoLogicController[]
----@field private chargeLogicInstances ChargeLogicController[]
----@field private bb gameIBlackboard
----@field private blackboard gameIBlackboard
----@field private onCharge redCallbackObject
----@field private onTriggerMode redCallbackObject
----@field private onMagazineAmmoCount redCallbackObject
----@field private onMagazineAmmoCapacity redCallbackObject
----@field private BufferedRosterData gameSlotDataHolder
----@field private ActiveWeapon gameSlotWeaponData
----@field private InventoryManager InventoryDataManagerV2
+---@field triggerModeControllers CName[]
+---@field ammoLogicControllers CName[]
+---@field chargeLogicControllers CName[]
+---@field triggerModeInstances TriggerModeLogicController[]
+---@field ammoLogicInstances AmmoLogicController[]
+---@field chargeLogicInstances ChargeLogicController[]
+---@field bb gameIBlackboard
+---@field blackboard gameIBlackboard
+---@field onCharge redCallbackObject
+---@field onTriggerMode redCallbackObject
+---@field onMagazineAmmoCount redCallbackObject
+---@field onMagazineAmmoCapacity redCallbackObject
+---@field BufferedRosterData gameSlotDataHolder
+---@field ActiveWeapon gameSlotWeaponData
+---@field InventoryManager InventoryDataManagerV2
 weaponIndicatorController = {}
 
 ---@param fields? weaponIndicatorController
 ---@return weaponIndicatorController
-function weaponIndicatorController.new(fields) return end
+function weaponIndicatorController.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function weaponIndicatorController:OnCharge(value) return end
+function weaponIndicatorController:OnCharge(value) end
 
----@protected
 ---@return Bool
-function weaponIndicatorController:OnInitialize() return end
+function weaponIndicatorController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function weaponIndicatorController:OnMagazineAmmoCapacity(value) return end
+function weaponIndicatorController:OnMagazineAmmoCapacity(value) end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function weaponIndicatorController:OnMagazineAmmoCount(value) return end
+function weaponIndicatorController:OnMagazineAmmoCount(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function weaponIndicatorController:OnPlayerAttach(playerPuppet) return end
+function weaponIndicatorController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function weaponIndicatorController:OnPlayerDetach(playerPuppet) return end
+function weaponIndicatorController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function weaponIndicatorController:OnTriggerMode(value) return end
+function weaponIndicatorController:OnTriggerMode(value) end
 
----@protected
 ---@return Bool
-function weaponIndicatorController:OnUninitialize() return end
+function weaponIndicatorController:OnUninitialize() end

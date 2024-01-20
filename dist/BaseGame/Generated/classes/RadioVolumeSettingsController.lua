@@ -1,25 +1,24 @@
 ---@meta
 
 ---@class RadioVolumeSettingsController: inkSettingsSelectorController
----@field private value inkTextWidgetReference
+---@field value inkTextWidgetReference
 RadioVolumeSettingsController = {}
 
 ---@param fields? RadioVolumeSettingsController
 ---@return RadioVolumeSettingsController
-function RadioVolumeSettingsController.new(fields) return end
+function RadioVolumeSettingsController.new(fields) end
 
----@private
 ---@param forward Bool
 ---@return nil
-function RadioVolumeSettingsController:ChangeValue(forward) return end
+function RadioVolumeSettingsController:ChangeValue(forward) end
 
 ---@param entry userSettingsVar
 ---@param isPreGame Bool
 ---@return nil
-function RadioVolumeSettingsController:Setup(entry, isPreGame) return end
+function RadioVolumeSettingsController:Setup(entry, isPreGame) end
 
 ---@return nil
-function RadioVolumeSettingsController:VolumeDown() return end
+function RadioVolumeSettingsController:VolumeDown() end
 
 ---@return nil
-function RadioVolumeSettingsController:VolumeUp() return end
+function RadioVolumeSettingsController:VolumeUp() end

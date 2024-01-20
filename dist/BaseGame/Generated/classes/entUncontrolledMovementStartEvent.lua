@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class entUncontrolledMovementStartEvent: redEvent
----@field public ragdollNoGroundThreshold Float
----@field public ragdollOnCollision Bool
----@field public calculateEarlyPositionGroundHeight Bool
+---@field ragdollNoGroundThreshold Float
+---@field ragdollOnCollision Bool
+---@field calculateEarlyPositionGroundHeight Bool
 entUncontrolledMovementStartEvent = {}
 
 ---@param fields? entUncontrolledMovementStartEvent
 ---@return entUncontrolledMovementStartEvent
-function entUncontrolledMovementStartEvent.new(fields) return end
+function entUncontrolledMovementStartEvent.new(fields) end
 
 ---@param debugSourceName CName|string
 ---@return nil
-function entUncontrolledMovementStartEvent:DebugSetSourceName(debugSourceName) return end
+function entUncontrolledMovementStartEvent:DebugSetSourceName(debugSourceName) end

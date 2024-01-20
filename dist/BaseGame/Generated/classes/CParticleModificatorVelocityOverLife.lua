@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CParticleModificatorVelocityOverLife: IParticleModificator
----@field public velocity IEvaluatorVector
----@field public scale Float
----@field public modulate Bool
----@field public absolute Bool
+---@field velocity IEvaluatorVector
+---@field scale Float
+---@field modulate Bool
+---@field absolute Bool
 CParticleModificatorVelocityOverLife = {}
 
 ---@param fields? CParticleModificatorVelocityOverLife
 ---@return CParticleModificatorVelocityOverLife
-function CParticleModificatorVelocityOverLife.new(fields) return end
+function CParticleModificatorVelocityOverLife.new(fields) end

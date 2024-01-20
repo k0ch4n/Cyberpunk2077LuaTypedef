@@ -5,4 +5,4 @@ gametargetingSystemTargetFilter_Closest = {}
 
 ---@param fields? gametargetingSystemTargetFilter_Closest
 ---@return gametargetingSystemTargetFilter_Closest
-function gametargetingSystemTargetFilter_Closest.new(fields) return end
+function gametargetingSystemTargetFilter_Closest.new(fields) end

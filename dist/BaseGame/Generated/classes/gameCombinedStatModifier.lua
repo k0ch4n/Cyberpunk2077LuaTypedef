@@ -5,4 +5,4 @@ gameCombinedStatModifier = {}
 
 ---@param fields? gameCombinedStatModifier
 ---@return gameCombinedStatModifier
-function gameCombinedStatModifier.new(fields) return end
+function gameCombinedStatModifier.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class communityTimePeriod
----@field public hour communityECommunitySpawnTime
+---@field hour communityECommunitySpawnTime
 communityTimePeriod = {}
 
 ---@param fields? communityTimePeriod
 ---@return communityTimePeriod
-function communityTimePeriod.new(fields) return end
+function communityTimePeriod.new(fields) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class entdismembermentEffectResource: ISerializable
----@field public Name CName
----@field public AppearanceNames CName[]
----@field public BodyPartMask physicsRagdollBodyPartE
----@field public Offset Transform
----@field public Placement entdismembermentPlacementE
----@field public ResourceSets entdismembermentResourceSetMask
----@field public WoundType entdismembermentWoundTypeE
----@field public Effect worldEffect
----@field public MatchToWoundByName Bool
+---@field Name CName
+---@field AppearanceNames CName[]
+---@field BodyPartMask physicsRagdollBodyPartE
+---@field Offset Transform
+---@field Placement entdismembermentPlacementE
+---@field ResourceSets entdismembermentResourceSetMask
+---@field WoundType entdismembermentWoundTypeE
+---@field Effect worldEffect
+---@field MatchToWoundByName Bool
 entdismembermentEffectResource = {}
 
 ---@param fields? entdismembermentEffectResource
 ---@return entdismembermentEffectResource
-function entdismembermentEffectResource.new(fields) return end
+function entdismembermentEffectResource.new(fields) end

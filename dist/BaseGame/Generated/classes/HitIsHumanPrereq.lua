@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class HitIsHumanPrereq: GenericHitPrereq
----@field public invert Bool
+---@field invert Bool
 HitIsHumanPrereq = {}
 
 ---@param fields? HitIsHumanPrereq
 ---@return HitIsHumanPrereq
-function HitIsHumanPrereq.new(fields) return end
+function HitIsHumanPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitIsHumanPrereq:Initialize(recordID) return end
+function HitIsHumanPrereq:Initialize(recordID) end

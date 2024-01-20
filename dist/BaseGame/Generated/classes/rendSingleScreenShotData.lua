@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class rendSingleScreenShotData: ISerializable
----@field public mode rendScreenshotMode
----@field public outputPath AbsolutePathSerializable
----@field public resolution renddimEPreset
----@field public resolutionMultiplier rendResolutionMultiplier
----@field public emmModes EEnvManagerModifier[]
----@field public forceLOD0 Bool
----@field public saveFormat ESaveFormat
+---@field mode rendScreenshotMode
+---@field outputPath AbsolutePathSerializable
+---@field resolution renddimEPreset
+---@field resolutionMultiplier rendResolutionMultiplier
+---@field emmModes EEnvManagerModifier[]
+---@field forceLOD0 Bool
+---@field saveFormat ESaveFormat
 rendSingleScreenShotData = {}
 
 ---@param fields? rendSingleScreenShotData
 ---@return rendSingleScreenShotData
-function rendSingleScreenShotData.new(fields) return end
+function rendSingleScreenShotData.new(fields) end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class animAnimNode_StackTransformsExtender: animAnimNode_OnePoseInput
----@field public tag CName
----@field public transformInfos animTransformInfo[]
----@field public snapMethods animStackTransformsExtender_SnapToBoneMethod[]
----@field public snapToReferenceValues Bool[]
----@field public snapTargetBones animTransformIndex[]
----@field public offsetToReferenceValues Bool[]
----@field public offsetSpaceBones animTransformIndex[]
----@field public offsets QsTransform[]
+---@field tag CName
+---@field transformInfos animTransformInfo[]
+---@field snapMethods animStackTransformsExtender_SnapToBoneMethod[]
+---@field snapToReferenceValues Bool[]
+---@field snapTargetBones animTransformIndex[]
+---@field offsetToReferenceValues Bool[]
+---@field offsetSpaceBones animTransformIndex[]
+---@field offsets QsTransform[]
 animAnimNode_StackTransformsExtender = {}
 
 ---@param fields? animAnimNode_StackTransformsExtender
 ---@return animAnimNode_StackTransformsExtender
-function animAnimNode_StackTransformsExtender.new(fields) return end
+function animAnimNode_StackTransformsExtender.new(fields) end

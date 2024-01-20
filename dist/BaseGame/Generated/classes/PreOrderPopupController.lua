@@ -1,24 +1,23 @@
 ---@meta
 
 ---@class PreOrderPopupController: inkWidgetLogicController
----@field private preOrderButtonRef inkWidgetReference
----@field private preOrderButtonText inkTextWidgetReference
----@field private preOrderButtonInputIcon inkWidgetReference
----@field private releaseDateContainer inkWidgetReference
----@field private buttonController inkButtonController
+---@field preOrderButtonRef inkWidgetReference
+---@field preOrderButtonText inkTextWidgetReference
+---@field preOrderButtonInputIcon inkWidgetReference
+---@field releaseDateContainer inkWidgetReference
+---@field buttonController inkButtonController
 PreOrderPopupController = {}
 
 ---@param fields? PreOrderPopupController
 ---@return PreOrderPopupController
-function PreOrderPopupController.new(fields) return end
+function PreOrderPopupController.new(fields) end
 
----@protected
 ---@return Bool
-function PreOrderPopupController:OnInitialize() return end
+function PreOrderPopupController:OnInitialize() end
 
 ---@return inkWidgetReference
-function PreOrderPopupController:GetButtonRef() return end
+function PreOrderPopupController:GetButtonRef() end
 
 ---@param isPreOredOwned Bool
 ---@return nil
-function PreOrderPopupController:SetPreOrderSate(isPreOredOwned) return end
+function PreOrderPopupController:SetPreOrderSate(isPreOredOwned) end

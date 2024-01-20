@@ -1,40 +1,34 @@
 ---@meta
 
 ---@class AnimateAnchorOnHoverView: inkWidgetLogicController
----@field private Raycaster inkWidgetReference
----@field private AnimProxy inkanimProxy
----@field private HoverAnchor Vector2
----@field private NormalAnchor Vector2
----@field private AnimTime Float
+---@field Raycaster inkWidgetReference
+---@field AnimProxy inkanimProxy
+---@field HoverAnchor Vector2
+---@field NormalAnchor Vector2
+---@field AnimTime Float
 AnimateAnchorOnHoverView = {}
 
 ---@param fields? AnimateAnchorOnHoverView
 ---@return AnimateAnchorOnHoverView
-function AnimateAnchorOnHoverView.new(fields) return end
+function AnimateAnchorOnHoverView.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function AnimateAnchorOnHoverView:OnHoverOut(e) return end
+function AnimateAnchorOnHoverView:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function AnimateAnchorOnHoverView:OnHoverOver(e) return end
+function AnimateAnchorOnHoverView:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function AnimateAnchorOnHoverView:OnInitialize() return end
+function AnimateAnchorOnHoverView:OnInitialize() end
 
----@protected
 ---@return Bool
-function AnimateAnchorOnHoverView:OnUninitialize() return end
+function AnimateAnchorOnHoverView:OnUninitialize() end
 
----@protected
 ---@param isHovered Bool
 ---@return nil
-function AnimateAnchorOnHoverView:OnHoverChanged(isHovered) return end
+function AnimateAnchorOnHoverView:OnHoverChanged(isHovered) end
 
----@protected
 ---@return nil
-function AnimateAnchorOnHoverView:StopAnimation() return end
+function AnimateAnchorOnHoverView:StopAnimation() end

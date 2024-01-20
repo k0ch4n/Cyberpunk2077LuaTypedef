@@ -1,107 +1,98 @@
 ---@meta
 
 ---@class PlayerPuppetPS: ScriptedPuppetPS
----@field private keybindigs KeyBindings
----@field private availablePrograms gameuiMinigameProgramData[]
----@field private hasAutoReveal Bool
----@field private combatExitTimestamp Float
----@field private isInDriverCombat Bool
----@field private permanentHealthBonus Float
----@field private permanentStaminaBonus Float
----@field private permanentMemoryBonus Float
----@field private minigameBB gameIBlackboard
+---@field keybindigs KeyBindings
+---@field availablePrograms gameuiMinigameProgramData[]
+---@field hasAutoReveal Bool
+---@field combatExitTimestamp Float
+---@field isInDriverCombat Bool
+---@field permanentHealthBonus Float
+---@field permanentStaminaBonus Float
+---@field permanentMemoryBonus Float
+---@field minigameBB gameIBlackboard
 PlayerPuppetPS = {}
 
 ---@param fields? PlayerPuppetPS
 ---@return PlayerPuppetPS
-function PlayerPuppetPS.new(fields) return end
+function PlayerPuppetPS.new(fields) end
 
----@protected
 ---@param program gameuiMinigameProgramData
 ---@return nil
-function PlayerPuppetPS:AddMinigameProgram(program) return end
+function PlayerPuppetPS:AddMinigameProgram(program) end
 
----@protected
 ---@param id TweakDBID|string
 ---@return gameuiMinigameProgramData
-function PlayerPuppetPS:DecideProgramToAdd(id) return end
+function PlayerPuppetPS:DecideProgramToAdd(id) end
 
 ---@return Float
-function PlayerPuppetPS:GetCombatExitTimestamp() return end
+function PlayerPuppetPS:GetCombatExitTimestamp() end
 
----@private
 ---@return gameIBlackboard
-function PlayerPuppetPS:GetMinigameBlackboard() return end
+function PlayerPuppetPS:GetMinigameBlackboard() end
 
 ---@return gameuiMinigameProgramData[]
-function PlayerPuppetPS:GetMinigamePrograms() return end
+function PlayerPuppetPS:GetMinigamePrograms() end
 
 ---@return Float
-function PlayerPuppetPS:GetPermanentHealthBonus() return end
+function PlayerPuppetPS:GetPermanentHealthBonus() end
 
 ---@return Float
-function PlayerPuppetPS:GetPermanentMemoryBonus() return end
+function PlayerPuppetPS:GetPermanentMemoryBonus() end
 
 ---@return Float
-function PlayerPuppetPS:GetPermanentStaminaBonus() return end
+function PlayerPuppetPS:GetPermanentStaminaBonus() end
 
 ---@return Bool
-function PlayerPuppetPS:HasAutoReveal() return end
+function PlayerPuppetPS:HasAutoReveal() end
 
----@protected
 ---@param id TweakDBID|string
 ---@return Bool
-function PlayerPuppetPS:HasProgram(id) return end
+function PlayerPuppetPS:HasProgram(id) end
 
----@protected
 ---@param id TweakDBID|string
 ---@param programs gameuiMinigameProgramData[]
 ---@return Bool
-function PlayerPuppetPS:HasProgram(id, programs) return end
+function PlayerPuppetPS:HasProgram(id, programs) end
 
 ---@return Bool
-function PlayerPuppetPS:IsInDriverCombat() return end
+function PlayerPuppetPS:IsInDriverCombat() end
 
----@protected
 ---@param evt StoreMiniGameProgramEvent
 ---@return EntityNotificationType
-function PlayerPuppetPS:OnStoreMinigameProgram(evt) return end
+function PlayerPuppetPS:OnStoreMinigameProgram(evt) end
 
----@protected
 ---@param program gameuiMinigameProgramData
 ---@return nil
-function PlayerPuppetPS:RemoveMinigameProgram(program) return end
+function PlayerPuppetPS:RemoveMinigameProgram(program) end
 
----@protected
 ---@param id TweakDBID|string
 ---@return nil
-function PlayerPuppetPS:RemoveProgram(id) return end
+function PlayerPuppetPS:RemoveProgram(id) end
 
 ---@param value Bool
 ---@return nil
-function PlayerPuppetPS:SetAutoReveal(value) return end
+function PlayerPuppetPS:SetAutoReveal(value) end
 
 ---@param timestamp Float
 ---@return nil
-function PlayerPuppetPS:SetCombatExitTimestamp(timestamp) return end
+function PlayerPuppetPS:SetCombatExitTimestamp(timestamp) end
 
 ---@param value Bool
 ---@return nil
-function PlayerPuppetPS:SetIsInDriverCombat(value) return end
+function PlayerPuppetPS:SetIsInDriverCombat(value) end
 
 ---@param value Float
 ---@return nil
-function PlayerPuppetPS:SetPermanentHealthBonus(value) return end
+function PlayerPuppetPS:SetPermanentHealthBonus(value) end
 
 ---@param value Float
 ---@return nil
-function PlayerPuppetPS:SetPermanentMemoryBonus(value) return end
+function PlayerPuppetPS:SetPermanentMemoryBonus(value) end
 
 ---@param value Float
 ---@return nil
-function PlayerPuppetPS:SetPermanentStaminaBonus(value) return end
+function PlayerPuppetPS:SetPermanentStaminaBonus(value) end
 
----@protected
 ---@param id TweakDBID|string
 ---@return nil
-function PlayerPuppetPS:UpgradePrograms(id) return end
+function PlayerPuppetPS:UpgradePrograms(id) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class VendorUserData: IScriptable
----@field public vendorData questVendorPanelData
----@field public menu String
+---@field vendorData questVendorPanelData
+---@field menu String
 VendorUserData = {}
 
 ---@param fields? VendorUserData
 ---@return VendorUserData
-function VendorUserData.new(fields) return end
+function VendorUserData.new(fields) end

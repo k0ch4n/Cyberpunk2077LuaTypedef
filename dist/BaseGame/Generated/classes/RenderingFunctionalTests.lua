@@ -5,16 +5,16 @@ RenderingFunctionalTests = {}
 
 ---@param fields? RenderingFunctionalTests
 ---@return RenderingFunctionalTests
-function RenderingFunctionalTests.new(fields) return end
+function RenderingFunctionalTests.new(fields) end
 
 ---@return nil
-function RenderingFunctionalTests:GetEMMFilter() return end
+function RenderingFunctionalTests:GetEMMFilter() end
 
 ---@return nil
-function RenderingFunctionalTests:GetViewportResolution() return end
+function RenderingFunctionalTests:GetViewportResolution() end
 
 ---@return nil
-function RenderingFunctionalTests:SetEMMFilter() return end
+function RenderingFunctionalTests:SetEMMFilter() end
 
 ---@return nil
-function RenderingFunctionalTests:SetFpsClamp() return end
+function RenderingFunctionalTests:SetFpsClamp() end

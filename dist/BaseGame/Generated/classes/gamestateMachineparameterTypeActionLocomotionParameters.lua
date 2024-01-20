@@ -1,104 +1,104 @@
 ---@meta
 
 ---@class gamestateMachineparameterTypeActionLocomotionParameters: IScriptable
----@field public imperfectTurn Bool
----@field public speedBoostInputRequired Bool
----@field public speedBoostMultiplyByDot Bool
----@field public useCameraHeadingForMovement Bool
----@field public validImperfectTurn Bool
----@field public validSpeedBoostInputRequired Bool
----@field public validSpeedBoostMultiplyByDot Bool
----@field public validUseCameraHeadingForMovement Bool
----@field public doJump Bool
----@field public doSpeedBoost Bool
+---@field imperfectTurn Bool
+---@field speedBoostInputRequired Bool
+---@field speedBoostMultiplyByDot Bool
+---@field useCameraHeadingForMovement Bool
+---@field validImperfectTurn Bool
+---@field validSpeedBoostInputRequired Bool
+---@field validSpeedBoostMultiplyByDot Bool
+---@field validUseCameraHeadingForMovement Bool
+---@field doJump Bool
+---@field doSpeedBoost Bool
 gamestateMachineparameterTypeActionLocomotionParameters = {}
 
 ---@param fields? gamestateMachineparameterTypeActionLocomotionParameters
 ---@return gamestateMachineparameterTypeActionLocomotionParameters
-function gamestateMachineparameterTypeActionLocomotionParameters.new(fields) return end
+function gamestateMachineparameterTypeActionLocomotionParameters.new(fields) end
 
 ---@param defaultValue Float
 ---@return Float
-function gamestateMachineparameterTypeActionLocomotionParameters:GetCapsuleHeight(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetCapsuleHeight(defaultValue) end
 
 ---@param defaultValue Float
 ---@return Float
-function gamestateMachineparameterTypeActionLocomotionParameters:GetCapsuleRadius(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetCapsuleRadius(defaultValue) end
 
 ---@param defaultValue Bool
 ---@return Bool
-function gamestateMachineparameterTypeActionLocomotionParameters:GetDoJump(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetDoJump(defaultValue) end
 
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:GetDoSpeedBoost() return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetDoSpeedBoost() end
 
 ---@param defaultValue Float
 ---@return Float
-function gamestateMachineparameterTypeActionLocomotionParameters:GetDownwardsGravity(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetDownwardsGravity(defaultValue) end
 
 ---@param defaultValue Bool
 ---@return Bool
-function gamestateMachineparameterTypeActionLocomotionParameters:GetIgnoreSlope(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetIgnoreSlope(defaultValue) end
 
 ---@param defaultValue Bool
 ---@return Bool
-function gamestateMachineparameterTypeActionLocomotionParameters:GetImperfectTurn(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetImperfectTurn(defaultValue) end
 
 ---@param defaultValue Bool
 ---@return Bool
-function gamestateMachineparameterTypeActionLocomotionParameters:GetSpeedBoostInputRequired(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetSpeedBoostInputRequired(defaultValue) end
 
 ---@param defaultValue Bool
 ---@return Bool
-function gamestateMachineparameterTypeActionLocomotionParameters:GetSpeedBoostMultiplyByDot(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetSpeedBoostMultiplyByDot(defaultValue) end
 
 ---@param defaultValue Float
 ---@return Float
-function gamestateMachineparameterTypeActionLocomotionParameters:GetUpwardsGravity(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetUpwardsGravity(defaultValue) end
 
 ---@param defaultValue Bool
 ---@return Bool
-function gamestateMachineparameterTypeActionLocomotionParameters:GetUseCameraHeadingForMovement(defaultValue) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:GetUseCameraHeadingForMovement(defaultValue) end
 
 ---@param value Float
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetCapsuleHeight(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetCapsuleHeight(value) end
 
 ---@param value Float
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetCapsuleRadius(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetCapsuleRadius(value) end
 
 ---@param value Bool
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetDoJump(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetDoJump(value) end
 
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetDoSpeedBoost() return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetDoSpeedBoost() end
 
 ---@param value Float
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetDownwardsGravity(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetDownwardsGravity(value) end
 
 ---@param value Bool
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetIgnoreSlope(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetIgnoreSlope(value) end
 
 ---@param value Bool
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetImperfectTurn(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetImperfectTurn(value) end
 
 ---@param value Bool
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetSpeedBoostInputRequired(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetSpeedBoostInputRequired(value) end
 
 ---@param value Bool
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetSpeedBoostMultiplyByDot(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetSpeedBoostMultiplyByDot(value) end
 
 ---@param value Float
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetUpwardsGravity(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetUpwardsGravity(value) end
 
 ---@param value Bool
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionParameters:SetUseCameraHeadingForMovement(value) return end
+function gamestateMachineparameterTypeActionLocomotionParameters:SetUseCameraHeadingForMovement(value) end

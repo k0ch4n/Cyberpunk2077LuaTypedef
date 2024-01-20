@@ -5,4 +5,4 @@ ResetStrongHitsReceivedRequest = {}
 
 ---@param fields? ResetStrongHitsReceivedRequest
 ---@return ResetStrongHitsReceivedRequest
-function ResetStrongHitsReceivedRequest.new(fields) return end
+function ResetStrongHitsReceivedRequest.new(fields) end

@@ -5,4 +5,4 @@ AttachVendorRequest = {}
 
 ---@param fields? AttachVendorRequest
 ---@return AttachVendorRequest
-function AttachVendorRequest.new(fields) return end
+function AttachVendorRequest.new(fields) end

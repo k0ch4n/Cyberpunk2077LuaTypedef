@@ -5,4 +5,4 @@ inkPauseMenuState = {}
 
 ---@param fields? inkPauseMenuState
 ---@return inkPauseMenuState
-function inkPauseMenuState.new(fields) return end
+function inkPauseMenuState.new(fields) end

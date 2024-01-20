@@ -5,10 +5,10 @@ gamedataAITargetInPreventionFreeArea_Record = {}
 
 ---@param fields? gamedataAITargetInPreventionFreeArea_Record
 ---@return gamedataAITargetInPreventionFreeArea_Record
-function gamedataAITargetInPreventionFreeArea_Record.new(fields) return end
+function gamedataAITargetInPreventionFreeArea_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAITargetInPreventionFreeArea_Record:Target() return end
+function gamedataAITargetInPreventionFreeArea_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAITargetInPreventionFreeArea_Record:TargetHandle() return end
+function gamedataAITargetInPreventionFreeArea_Record:TargetHandle() end

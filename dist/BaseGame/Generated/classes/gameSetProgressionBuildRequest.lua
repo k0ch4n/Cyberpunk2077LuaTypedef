@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetProgressionBuildRequest: gamePlayerScriptableSystemRequest
----@field public buildID TweakDBID
+---@field buildID TweakDBID
 gameSetProgressionBuildRequest = {}
 
 ---@param fields? gameSetProgressionBuildRequest
 ---@return gameSetProgressionBuildRequest
-function gameSetProgressionBuildRequest.new(fields) return end
+function gameSetProgressionBuildRequest.new(fields) end

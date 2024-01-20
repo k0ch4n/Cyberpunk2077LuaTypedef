@@ -5,12 +5,12 @@ inkBaseScriptableDataSource = {}
 
 ---@param fields? inkBaseScriptableDataSource
 ---@return inkBaseScriptableDataSource
-function inkBaseScriptableDataSource.new(fields) return end
+function inkBaseScriptableDataSource.new(fields) end
 
 ---@param index Uint32
 ---@return IScriptable
-function inkBaseScriptableDataSource:GetItem(index) return end
+function inkBaseScriptableDataSource:GetItem(index) end
 
 ---@param data IScriptable
 ---@return Bool
-function inkBaseScriptableDataSource:HasItem(data) return end
+function inkBaseScriptableDataSource:HasItem(data) end

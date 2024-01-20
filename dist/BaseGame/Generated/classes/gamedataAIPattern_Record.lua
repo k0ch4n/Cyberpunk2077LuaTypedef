@@ -5,43 +5,43 @@ gamedataAIPattern_Record = {}
 
 ---@param fields? gamedataAIPattern_Record
 ---@return gamedataAIPattern_Record
-function gamedataAIPattern_Record.new(fields) return end
+function gamedataAIPattern_Record.new(fields) end
 
 ---@return nil, gamedataAIActionCondition_Record[] outList
-function gamedataAIPattern_Record:ActivationConditions() return end
+function gamedataAIPattern_Record:ActivationConditions() end
 
 ---@param item gamedataAIActionCondition_Record
 ---@return Bool
-function gamedataAIPattern_Record:ActivationConditionsContains(item) return end
+function gamedataAIPattern_Record:ActivationConditionsContains(item) end
 
 ---@return nil, gamedataAIPatternDelay_Record[] outList
-function gamedataAIPattern_Record:Delays() return end
+function gamedataAIPattern_Record:Delays() end
 
 ---@param item gamedataAIPatternDelay_Record
 ---@return Bool
-function gamedataAIPattern_Record:DelaysContains(item) return end
+function gamedataAIPattern_Record:DelaysContains(item) end
 
 ---@return Int32
-function gamedataAIPattern_Record:GetActivationConditionsCount() return end
+function gamedataAIPattern_Record:GetActivationConditionsCount() end
 
 ---@param index Int32
 ---@return gamedataAIActionCondition_Record
-function gamedataAIPattern_Record:GetActivationConditionsItem(index) return end
+function gamedataAIPattern_Record:GetActivationConditionsItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIActionCondition_Record
-function gamedataAIPattern_Record:GetActivationConditionsItemHandle(index) return end
+function gamedataAIPattern_Record:GetActivationConditionsItemHandle(index) end
 
 ---@return Int32
-function gamedataAIPattern_Record:GetDelaysCount() return end
+function gamedataAIPattern_Record:GetDelaysCount() end
 
 ---@param index Int32
 ---@return gamedataAIPatternDelay_Record
-function gamedataAIPattern_Record:GetDelaysItem(index) return end
+function gamedataAIPattern_Record:GetDelaysItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIPatternDelay_Record
-function gamedataAIPattern_Record:GetDelaysItemHandle(index) return end
+function gamedataAIPattern_Record:GetDelaysItemHandle(index) end
 
 ---@return Int32
-function gamedataAIPattern_Record:PatternSize() return end
+function gamedataAIPattern_Record:PatternSize() end

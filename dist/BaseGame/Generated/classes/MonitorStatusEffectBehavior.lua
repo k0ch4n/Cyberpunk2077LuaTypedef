@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class MonitorStatusEffectBehavior: StatusEffectTasks
----@field public statusEffectID TweakDBID
+---@field statusEffectID TweakDBID
 MonitorStatusEffectBehavior = {}
 
 ---@param fields? MonitorStatusEffectBehavior
 ---@return MonitorStatusEffectBehavior
-function MonitorStatusEffectBehavior.new(fields) return end
+function MonitorStatusEffectBehavior.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MonitorStatusEffectBehavior:Activate(context) return end
+function MonitorStatusEffectBehavior:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MonitorStatusEffectBehavior:Deactivate(context) return end
+function MonitorStatusEffectBehavior:Deactivate(context) end

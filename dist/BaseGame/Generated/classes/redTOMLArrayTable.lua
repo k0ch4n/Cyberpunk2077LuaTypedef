@@ -5,4 +5,4 @@ redTOMLArrayTable = {}
 
 ---@param fields? redTOMLArrayTable
 ---@return redTOMLArrayTable
-function redTOMLArrayTable.new(fields) return end
+function redTOMLArrayTable.new(fields) end

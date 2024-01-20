@@ -5,9 +5,9 @@ QuickMeleeHitExecutor = {}
 
 ---@param fields? QuickMeleeHitExecutor
 ---@return QuickMeleeHitExecutor
-function QuickMeleeHitExecutor.new(fields) return end
+function QuickMeleeHitExecutor.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function QuickMeleeHitExecutor:Process(ctx, applierCtx) return end
+function QuickMeleeHitExecutor:Process(ctx, applierCtx) end

@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class CheckArgumentInt: CheckArguments
----@field public customVar Int32
----@field public comparator ECompareOp
+---@field customVar Int32
+---@field comparator ECompareOp
 CheckArgumentInt = {}
 
 ---@param fields? CheckArgumentInt
 ---@return CheckArgumentInt
-function CheckArgumentInt.new(fields) return end
+function CheckArgumentInt.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckArgumentInt:Check(context) return end
+function CheckArgumentInt:Check(context) end

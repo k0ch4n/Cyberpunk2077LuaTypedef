@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameVehicleCurvesLibrary: entEntity
----@field public curves gameVehicleCurveSet[]
----@field public commonCurves gameVehicleCommonCurveSet[]
----@field public bikeCurves vehicleBikeCurveSet[]
+---@field curves gameVehicleCurveSet[]
+---@field commonCurves gameVehicleCommonCurveSet[]
+---@field bikeCurves vehicleBikeCurveSet[]
 gameVehicleCurvesLibrary = {}
 
 ---@param fields? gameVehicleCurvesLibrary
 ---@return gameVehicleCurvesLibrary
-function gameVehicleCurvesLibrary.new(fields) return end
+function gameVehicleCurvesLibrary.new(fields) end

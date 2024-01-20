@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerVehicleName: ScannerChunk
----@field private vehicleName String
+---@field vehicleName String
 ScannerVehicleName = {}
 
 ---@param fields? ScannerVehicleName
 ---@return ScannerVehicleName
-function ScannerVehicleName.new(fields) return end
+function ScannerVehicleName.new(fields) end
 
 ---@return String
-function ScannerVehicleName:GetDisplayName() return end
+function ScannerVehicleName:GetDisplayName() end
 
 ---@return ScannerDataType
-function ScannerVehicleName:GetType() return end
+function ScannerVehicleName:GetType() end
 
 ---@param vehName String
 ---@return nil
-function ScannerVehicleName:Set(vehName) return end
+function ScannerVehicleName:Set(vehName) end

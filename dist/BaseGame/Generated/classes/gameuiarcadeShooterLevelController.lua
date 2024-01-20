@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameuiarcadeShooterLevelController: inkWidgetLogicController
----@field public playerSpawnPoint inkWidgetReference
----@field public background inkWidgetReference
----@field public collision inkWidgetReference
----@field public levelType gameuiarcadeShooterLevelType
----@field public spawner inkWidgetReference
----@field public enemyBulletSpawner inkWidgetReference
----@field public playerBulletSpawner inkWidgetReference
----@field public vfxSpawner inkWidgetReference
----@field public mapEndBorder Vector2
+---@field playerSpawnPoint inkWidgetReference
+---@field background inkWidgetReference
+---@field collision inkWidgetReference
+---@field levelType gameuiarcadeShooterLevelType
+---@field spawner inkWidgetReference
+---@field enemyBulletSpawner inkWidgetReference
+---@field playerBulletSpawner inkWidgetReference
+---@field vfxSpawner inkWidgetReference
+---@field mapEndBorder Vector2
 gameuiarcadeShooterLevelController = {}
 
 ---@param fields? gameuiarcadeShooterLevelController
 ---@return gameuiarcadeShooterLevelController
-function gameuiarcadeShooterLevelController.new(fields) return end
+function gameuiarcadeShooterLevelController.new(fields) end

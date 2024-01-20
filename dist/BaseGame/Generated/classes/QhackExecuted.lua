@@ -5,4 +5,4 @@ QhackExecuted = {}
 
 ---@param fields? QhackExecuted
 ---@return QhackExecuted
-function QhackExecuted.new(fields) return end
+function QhackExecuted.new(fields) end

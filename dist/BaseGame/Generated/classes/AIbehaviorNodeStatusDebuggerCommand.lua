@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorNodeStatusDebuggerCommand: AIbehaviorIDebuggerCommand
----@field public behaviorResourceHash Uint32
----@field public generation Uint32
----@field public entries AIbehaviorNodeStatusDebuggerCommandEntry[]
+---@field behaviorResourceHash Uint32
+---@field generation Uint32
+---@field entries AIbehaviorNodeStatusDebuggerCommandEntry[]
 AIbehaviorNodeStatusDebuggerCommand = {}
 
 ---@param fields? AIbehaviorNodeStatusDebuggerCommand
 ---@return AIbehaviorNodeStatusDebuggerCommand
-function AIbehaviorNodeStatusDebuggerCommand.new(fields) return end
+function AIbehaviorNodeStatusDebuggerCommand.new(fields) end

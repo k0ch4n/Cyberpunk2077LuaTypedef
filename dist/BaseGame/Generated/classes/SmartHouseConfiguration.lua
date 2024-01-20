@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SmartHouseConfiguration
----@field public enableInteraction Bool
----@field public factName CName
+---@field enableInteraction Bool
+---@field factName CName
 SmartHouseConfiguration = {}
 
 ---@param fields? SmartHouseConfiguration
 ---@return SmartHouseConfiguration
-function SmartHouseConfiguration.new(fields) return end
+function SmartHouseConfiguration.new(fields) end

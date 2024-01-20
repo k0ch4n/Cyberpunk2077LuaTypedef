@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scneventsSetAnimsetWeight: scnSceneEvent
----@field public actorId scnActorId
----@field public animsetName CName
----@field public weight Float
+---@field actorId scnActorId
+---@field animsetName CName
+---@field weight Float
 scneventsSetAnimsetWeight = {}
 
 ---@param fields? scneventsSetAnimsetWeight
 ---@return scneventsSetAnimsetWeight
-function scneventsSetAnimsetWeight.new(fields) return end
+function scneventsSetAnimsetWeight.new(fields) end

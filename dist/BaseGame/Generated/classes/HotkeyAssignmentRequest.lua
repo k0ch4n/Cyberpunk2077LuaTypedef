@@ -1,33 +1,33 @@
 ---@meta
 
 ---@class HotkeyAssignmentRequest: gamePlayerScriptableSystemRequest
----@field protected itemID gameItemID
----@field private hotkey gameEHotkey
----@field protected requestType EHotkeyRequestType
+---@field itemID gameItemID
+---@field hotkey gameEHotkey
+---@field requestType EHotkeyRequestType
 HotkeyAssignmentRequest = {}
 
 ---@param fields? HotkeyAssignmentRequest
 ---@return HotkeyAssignmentRequest
-function HotkeyAssignmentRequest.new(fields) return end
+function HotkeyAssignmentRequest.new(fields) end
 
 ---@param itemID gameItemID
 ---@param hotkey gameEHotkey
 ---@param owner gameObject
 ---@param requestType EHotkeyRequestType
 ---@return HotkeyAssignmentRequest
-function HotkeyAssignmentRequest.Construct(itemID, hotkey, owner, requestType) return end
+function HotkeyAssignmentRequest.Construct(itemID, hotkey, owner, requestType) end
 
 ---@return gameEHotkey
-function HotkeyAssignmentRequest:GetHotkey() return end
+function HotkeyAssignmentRequest:GetHotkey() end
 
 ---@return EHotkeyRequestType
-function HotkeyAssignmentRequest:GetRequestType() return end
+function HotkeyAssignmentRequest:GetRequestType() end
 
 ---@return Bool
-function HotkeyAssignmentRequest:IsValid() return end
+function HotkeyAssignmentRequest:IsValid() end
 
 ---@return gameItemID
-function HotkeyAssignmentRequest:ItemID() return end
+function HotkeyAssignmentRequest:ItemID() end
 
 ---@return gameObject
-function HotkeyAssignmentRequest:Owner() return end
+function HotkeyAssignmentRequest:Owner() end

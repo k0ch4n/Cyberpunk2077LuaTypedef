@@ -5,4 +5,4 @@ gameHitRepresentationSystem = {}
 
 ---@param fields? gameHitRepresentationSystem
 ---@return gameHitRepresentationSystem
-function gameHitRepresentationSystem.new(fields) return end
+function gameHitRepresentationSystem.new(fields) end

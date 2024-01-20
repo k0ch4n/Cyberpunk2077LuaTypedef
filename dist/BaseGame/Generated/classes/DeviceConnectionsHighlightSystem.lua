@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class DeviceConnectionsHighlightSystem: gameScriptableSystem
----@field private highlightedDeviceID entEntityID
----@field private highlightedConnectionsIDs entEntityID[]
+---@field highlightedDeviceID entEntityID
+---@field highlightedConnectionsIDs entEntityID[]
 DeviceConnectionsHighlightSystem = {}
 
 ---@param fields? DeviceConnectionsHighlightSystem
 ---@return DeviceConnectionsHighlightSystem
-function DeviceConnectionsHighlightSystem.new(fields) return end
+function DeviceConnectionsHighlightSystem.new(fields) end
 
----@private
 ---@param request HighlightConnectionsRequest
 ---@return nil
-function DeviceConnectionsHighlightSystem:OnHighlightConnectionsRequest(request) return end
+function DeviceConnectionsHighlightSystem:OnHighlightConnectionsRequest(request) end
 
----@private
 ---@return nil
-function DeviceConnectionsHighlightSystem:TurnOffAllHighlights() return end
+function DeviceConnectionsHighlightSystem:TurnOffAllHighlights() end

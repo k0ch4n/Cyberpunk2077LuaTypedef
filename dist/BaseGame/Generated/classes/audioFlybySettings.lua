@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioFlybySettings
----@field public movementSpeed Float
----@field public flybyEvent CName
+---@field movementSpeed Float
+---@field flybyEvent CName
 audioFlybySettings = {}
 
 ---@param fields? audioFlybySettings
 ---@return audioFlybySettings
-function audioFlybySettings.new(fields) return end
+function audioFlybySettings.new(fields) end

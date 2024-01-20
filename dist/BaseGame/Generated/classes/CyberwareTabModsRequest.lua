@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CyberwareTabModsRequest: redEvent
----@field public open Bool
----@field public wrapper CyberwareDisplayWrapper
+---@field open Bool
+---@field wrapper CyberwareDisplayWrapper
 CyberwareTabModsRequest = {}
 
 ---@param fields? CyberwareTabModsRequest
 ---@return CyberwareTabModsRequest
-function CyberwareTabModsRequest.new(fields) return end
+function CyberwareTabModsRequest.new(fields) end

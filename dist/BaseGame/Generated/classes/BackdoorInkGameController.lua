@@ -1,111 +1,91 @@
 ---@meta
 
 ---@class BackdoorInkGameController: MasterDeviceInkGameControllerBase
----@field private IdleGroup inkWidgetReference
----@field private ConnectedGroup inkWidgetReference
----@field private IntroAnimationName CName
----@field private IdleAnimationName CName
----@field private GlitchAnimationName CName
----@field private RunningAnimation inkanimProxy
----@field private onGlitchingListener redCallbackObject
----@field private onIsInDefaultStateListener redCallbackObject
----@field private onShutdownModuleListener redCallbackObject
----@field private onBootModuleListener redCallbackObject
+---@field IdleGroup inkWidgetReference
+---@field ConnectedGroup inkWidgetReference
+---@field IntroAnimationName CName
+---@field IdleAnimationName CName
+---@field GlitchAnimationName CName
+---@field RunningAnimation inkanimProxy
+---@field onGlitchingListener redCallbackObject
+---@field onIsInDefaultStateListener redCallbackObject
+---@field onShutdownModuleListener redCallbackObject
+---@field onBootModuleListener redCallbackObject
 BackdoorInkGameController = {}
 
 ---@param fields? BackdoorInkGameController
 ---@return BackdoorInkGameController
-function BackdoorInkGameController.new(fields) return end
+function BackdoorInkGameController.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function BackdoorInkGameController:OnBootModule(value) return end
+function BackdoorInkGameController:OnBootModule(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function BackdoorInkGameController:OnGlitching(value) return end
+function BackdoorInkGameController:OnGlitching(value) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function BackdoorInkGameController:OnIntroFinished(e) return end
+function BackdoorInkGameController:OnIntroFinished(e) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function BackdoorInkGameController:OnIsInDefaultState(value) return end
+function BackdoorInkGameController:OnIsInDefaultState(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function BackdoorInkGameController:OnShutdownModule(value) return end
+function BackdoorInkGameController:OnShutdownModule(value) end
 
----@protected
 ---@param module Int32
 ---@return nil
-function BackdoorInkGameController:BootModule(module) return end
+function BackdoorInkGameController:BootModule(module) end
 
----@protected
 ---@return nil
-function BackdoorInkGameController:EnableHackedGroup() return end
+function BackdoorInkGameController:EnableHackedGroup() end
 
----@protected
 ---@return AccessPoint
-function BackdoorInkGameController:GetOwner() return end
+function BackdoorInkGameController:GetOwner() end
 
----@protected
 ---@param animName CName|string
 ---@return nil
-function BackdoorInkGameController:PlayAnimation(animName) return end
+function BackdoorInkGameController:PlayAnimation(animName) end
 
----@private
 ---@return nil
-function BackdoorInkGameController:PlayIntroAnimation() return end
+function BackdoorInkGameController:PlayIntroAnimation() end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function BackdoorInkGameController:Refresh(state) return end
+function BackdoorInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function BackdoorInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function BackdoorInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param module Int32
 ---@return nil
-function BackdoorInkGameController:ShutdownModule(module) return end
+function BackdoorInkGameController:ShutdownModule(module) end
 
----@protected
 ---@return nil
-function BackdoorInkGameController:StartGlitching() return end
+function BackdoorInkGameController:StartGlitching() end
 
----@private
 ---@return nil
-function BackdoorInkGameController:StopGlitching() return end
+function BackdoorInkGameController:StopGlitching() end
 
----@protected
 ---@return nil
-function BackdoorInkGameController:TurnOff() return end
+function BackdoorInkGameController:TurnOff() end
 
----@protected
 ---@return nil
-function BackdoorInkGameController:TurnOn() return end
+function BackdoorInkGameController:TurnOn() end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function BackdoorInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function BackdoorInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
-function BackdoorInkGameController:UpdateDeviceWidgets(widgetsData) return end
+function BackdoorInkGameController:UpdateDeviceWidgets(widgetsData) end
 
----@protected
 ---@param widgetsData SThumbnailWidgetPackage[]
 ---@return nil
-function BackdoorInkGameController:UpdateThumbnailWidgets(widgetsData) return end
+function BackdoorInkGameController:UpdateThumbnailWidgets(widgetsData) end

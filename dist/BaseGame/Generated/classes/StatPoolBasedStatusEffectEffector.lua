@@ -1,62 +1,56 @@
 ---@meta
 
 ---@class StatPoolBasedStatusEffectEffector: gameEffector
----@field private statPool gamedataStatPoolType
----@field private statusEffectID TweakDBID
----@field private statPoolStep Float
----@field private stepUsesPercent Bool
----@field private startingThreshold Float
----@field private thresholdUsesPercent Bool
----@field private minStacks Int32
----@field private maxStacks Int32
----@field private inverted Bool
----@field private roundUpwards Bool
----@field private dontRemoveStacks Bool
----@field private targetOfStatPoolCheck String
----@field private listener StatPoolBasedStatusEffectEffectorListener
----@field private currentStacks Int32
----@field private realMaxStacks Int32
----@field private statPoolRecordID TweakDBID
----@field private gameInstance ScriptGameInstance
----@field private ownerID entEntityID
----@field private checkStatPoolOnWeapon Bool
----@field private ownerWeaponID entEntityID
+---@field statPool gamedataStatPoolType
+---@field statusEffectID TweakDBID
+---@field statPoolStep Float
+---@field stepUsesPercent Bool
+---@field startingThreshold Float
+---@field thresholdUsesPercent Bool
+---@field minStacks Int32
+---@field maxStacks Int32
+---@field inverted Bool
+---@field roundUpwards Bool
+---@field dontRemoveStacks Bool
+---@field targetOfStatPoolCheck String
+---@field listener StatPoolBasedStatusEffectEffectorListener
+---@field currentStacks Int32
+---@field realMaxStacks Int32
+---@field statPoolRecordID TweakDBID
+---@field gameInstance ScriptGameInstance
+---@field ownerID entEntityID
+---@field checkStatPoolOnWeapon Bool
+---@field ownerWeaponID entEntityID
 StatPoolBasedStatusEffectEffector = {}
 
 ---@param fields? StatPoolBasedStatusEffectEffector
 ---@return StatPoolBasedStatusEffectEffector
-function StatPoolBasedStatusEffectEffector.new(fields) return end
+function StatPoolBasedStatusEffectEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StatPoolBasedStatusEffectEffector:ActionOff(owner) return end
+function StatPoolBasedStatusEffectEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StatPoolBasedStatusEffectEffector:ActionOn(owner) return end
+function StatPoolBasedStatusEffectEffector:ActionOn(owner) end
 
----@private
 ---@return nil
-function StatPoolBasedStatusEffectEffector:Clear() return end
+function StatPoolBasedStatusEffectEffector:Clear() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StatPoolBasedStatusEffectEffector:Initialize(record, parentRecord) return end
+function StatPoolBasedStatusEffectEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param stacksChange Int32
 ---@return nil
-function StatPoolBasedStatusEffectEffector:ProcessStacksChange(stacksChange) return end
+function StatPoolBasedStatusEffectEffector:ProcessStacksChange(stacksChange) end
 
----@protected
 ---@return nil
-function StatPoolBasedStatusEffectEffector:Uninitialize() return end
+function StatPoolBasedStatusEffectEffector:Uninitialize() end
 
 ---@param newPercValue Float
 ---@param percToPoints Float
 ---@return nil
-function StatPoolBasedStatusEffectEffector:UpdateWithStatPoolValue(newPercValue, percToPoints) return end
+function StatPoolBasedStatusEffectEffector:UpdateWithStatPoolValue(newPercValue, percToPoints) end

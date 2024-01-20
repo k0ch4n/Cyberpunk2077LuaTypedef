@@ -5,4 +5,4 @@ gamePlayerTierComponent = {}
 
 ---@param fields? gamePlayerTierComponent
 ---@return gamePlayerTierComponent
-function gamePlayerTierComponent.new(fields) return end
+function gamePlayerTierComponent.new(fields) end

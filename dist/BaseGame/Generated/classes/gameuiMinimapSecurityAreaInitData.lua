@@ -5,4 +5,4 @@ gameuiMinimapSecurityAreaInitData = {}
 
 ---@param fields? gameuiMinimapSecurityAreaInitData
 ---@return gameuiMinimapSecurityAreaInitData
-function gameuiMinimapSecurityAreaInitData.new(fields) return end
+function gameuiMinimapSecurityAreaInitData.new(fields) end

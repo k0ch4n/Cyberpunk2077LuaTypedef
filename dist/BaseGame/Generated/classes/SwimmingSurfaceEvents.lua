@@ -1,61 +1,57 @@
 ---@meta
 
 ---@class SwimmingSurfaceEvents: LocomotionSwimmingEvents
----@field public lapsedTime Float
----@field public isDead Bool
----@field public timeSinceLastImpulse Float
----@field public minSpeedForMovementImpulses Float
----@field public timeBetweenIdleImpulses Float
----@field public timeBetweenMovementImpulses Float
----@field public idleImpulseRadius Float
----@field public idleImpulseStrength Float
----@field public movementImpulseRadius Float
----@field public movementImpulseStrength Float
----@field public movementImpulseOffset Float
+---@field lapsedTime Float
+---@field isDead Bool
+---@field timeSinceLastImpulse Float
+---@field minSpeedForMovementImpulses Float
+---@field timeBetweenIdleImpulses Float
+---@field timeBetweenMovementImpulses Float
+---@field idleImpulseRadius Float
+---@field idleImpulseStrength Float
+---@field movementImpulseRadius Float
+---@field movementImpulseStrength Float
+---@field movementImpulseOffset Float
 SwimmingSurfaceEvents = {}
 
 ---@param fields? SwimmingSurfaceEvents
 ---@return SwimmingSurfaceEvents
-function SwimmingSurfaceEvents.new(fields) return end
+function SwimmingSurfaceEvents.new(fields) end
 
----@private
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceEvents:CreateWaterImpulse(timeDelta, stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function SwimmingSurfaceEvents:OnAttach(stateContext, scriptInterface) return end
+function SwimmingSurfaceEvents:CreateWaterImpulse(timeDelta, stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceEvents:OnEnter(stateContext, scriptInterface) return end
+function SwimmingSurfaceEvents:OnAttach(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceEvents:OnEnterFromDiving(stateContext, scriptInterface) return end
+function SwimmingSurfaceEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceEvents:OnExit(stateContext, scriptInterface) return end
+function SwimmingSurfaceEvents:OnEnterFromDiving(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SwimmingSurfaceEvents:OnExit(stateContext, scriptInterface) end
+
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SwimmingSurfaceEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingSurfaceEvents:UpdateSwimmingStroke(timeDelta, stateContext, scriptInterface) return end
+function SwimmingSurfaceEvents:UpdateSwimmingStroke(timeDelta, stateContext, scriptInterface) end

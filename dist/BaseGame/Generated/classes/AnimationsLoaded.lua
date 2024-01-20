@@ -5,4 +5,4 @@ AnimationsLoaded = {}
 
 ---@param fields? AnimationsLoaded
 ---@return AnimationsLoaded
-function AnimationsLoaded.new(fields) return end
+function AnimationsLoaded.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TrafficGenTrafficSetting
----@field public meshImpact TrafficGenMeshImpact
+---@field meshImpact TrafficGenMeshImpact
 TrafficGenTrafficSetting = {}
 
 ---@param fields? TrafficGenTrafficSetting
 ---@return TrafficGenTrafficSetting
-function TrafficGenTrafficSetting.new(fields) return end
+function TrafficGenTrafficSetting.new(fields) end

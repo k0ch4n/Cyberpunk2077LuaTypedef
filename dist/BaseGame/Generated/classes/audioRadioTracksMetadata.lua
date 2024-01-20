@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioRadioTracksMetadata: audioAudioMetadata
----@field public radioTracks audioRadioTrack[]
+---@field radioTracks audioRadioTrack[]
 audioRadioTracksMetadata = {}
 
 ---@param fields? audioRadioTracksMetadata
 ---@return audioRadioTracksMetadata
-function audioRadioTracksMetadata.new(fields) return end
+function audioRadioTracksMetadata.new(fields) end

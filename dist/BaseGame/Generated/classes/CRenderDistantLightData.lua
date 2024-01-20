@@ -5,4 +5,4 @@ CRenderDistantLightData = {}
 
 ---@param fields? CRenderDistantLightData
 ---@return CRenderDistantLightData
-function CRenderDistantLightData.new(fields) return end
+function CRenderDistantLightData.new(fields) end

@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class AIFollowerTakedownCommandHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AIFollowerTakedownCommandHandler = {}
 
 ---@param fields? AIFollowerTakedownCommandHandler
 ---@return AIFollowerTakedownCommandHandler
-function AIFollowerTakedownCommandHandler.new(fields) return end
+function AIFollowerTakedownCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIFollowerTakedownCommandHandler:Activate(context) return end
+function AIFollowerTakedownCommandHandler:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIFollowerTakedownCommandHandler:Deactivate(context) return end
+function AIFollowerTakedownCommandHandler:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param targetEntityIds entEntityID[]
 ---@return Bool, gameObject target
-function AIFollowerTakedownCommandHandler:SelectBestTarget(context, targetEntityIds) return end
+function AIFollowerTakedownCommandHandler:SelectBestTarget(context, targetEntityIds) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIFollowerTakedownCommandHandler:Update(context) return end
+function AIFollowerTakedownCommandHandler:Update(context) end

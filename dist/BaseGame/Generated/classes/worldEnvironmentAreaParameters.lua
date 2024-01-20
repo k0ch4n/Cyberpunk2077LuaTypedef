@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldEnvironmentAreaParameters: CResource
----@field public renderAreaSettings WorldRenderAreaSettings
----@field public resourceVersion Uint8
+---@field renderAreaSettings WorldRenderAreaSettings
+---@field resourceVersion Uint8
 worldEnvironmentAreaParameters = {}
 
 ---@param fields? worldEnvironmentAreaParameters
 ---@return worldEnvironmentAreaParameters
-function worldEnvironmentAreaParameters.new(fields) return end
+function worldEnvironmentAreaParameters.new(fields) end

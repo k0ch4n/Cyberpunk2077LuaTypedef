@@ -5,4 +5,4 @@ AISmartObjectManager = {}
 
 ---@param fields? AISmartObjectManager
 ---@return AISmartObjectManager
-function AISmartObjectManager.new(fields) return end
+function AISmartObjectManager.new(fields) end

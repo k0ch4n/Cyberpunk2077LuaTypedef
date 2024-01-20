@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimWrapperWeightSetter: entAnimInputSetter
----@field public value Float
+---@field value Float
 entAnimWrapperWeightSetter = {}
 
 ---@param fields? entAnimWrapperWeightSetter
 ---@return entAnimWrapperWeightSetter
-function entAnimWrapperWeightSetter.new(fields) return end
+function entAnimWrapperWeightSetter.new(fields) end

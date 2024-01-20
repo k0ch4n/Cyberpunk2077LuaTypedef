@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class MoveToScavengeTarget: AIbehaviortaskScript
----@field private lastTime Float
----@field private timeout Float
----@field private timeoutDuration Float
+---@field lastTime Float
+---@field timeout Float
+---@field timeoutDuration Float
 MoveToScavengeTarget = {}
 
 ---@param fields? MoveToScavengeTarget
 ---@return MoveToScavengeTarget
-function MoveToScavengeTarget.new(fields) return end
+function MoveToScavengeTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MoveToScavengeTarget:Activate(context) return end
+function MoveToScavengeTarget:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MoveToScavengeTarget:Deactivate(context) return end
+function MoveToScavengeTarget:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function MoveToScavengeTarget:Update(context) return end
+function MoveToScavengeTarget:Update(context) end

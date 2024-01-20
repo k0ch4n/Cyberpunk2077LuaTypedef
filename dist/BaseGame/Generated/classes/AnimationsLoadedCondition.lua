@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class AnimationsLoadedCondition: AIbehaviorconditionScript
----@field public coreAnims Bool
----@field public melee Bool
+---@field coreAnims Bool
+---@field melee Bool
 AnimationsLoadedCondition = {}
 
 ---@param fields? AnimationsLoadedCondition
 ---@return AnimationsLoadedCondition
-function AnimationsLoadedCondition.new(fields) return end
+function AnimationsLoadedCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AnimationsLoadedCondition:Activate(context) return end
+function AnimationsLoadedCondition:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AnimationsLoadedCondition:Check(context) return end
+function AnimationsLoadedCondition:Check(context) end

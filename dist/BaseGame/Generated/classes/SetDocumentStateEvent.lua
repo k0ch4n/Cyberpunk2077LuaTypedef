@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SetDocumentStateEvent: redEvent
----@field public documentType EDocumentType
----@field public documentAdress SDocumentAdress
----@field public isOpened Bool
+---@field documentType EDocumentType
+---@field documentAdress SDocumentAdress
+---@field isOpened Bool
 SetDocumentStateEvent = {}
 
 ---@param fields? SetDocumentStateEvent
 ---@return SetDocumentStateEvent
-function SetDocumentStateEvent.new(fields) return end
+function SetDocumentStateEvent.new(fields) end

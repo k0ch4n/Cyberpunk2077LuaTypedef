@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class QuickMeleeAttackData
----@field public attackGameEffectDelay Float
----@field public attackGameEffectDuration Float
----@field public attackRange Float
----@field public forcePlayerToStand Bool
----@field public shouldAdjust Bool
----@field public adjustmentRange Float
----@field public adjustmentDuration Float
----@field public adjustmentRadius Float
----@field public adjustmentCurve CName
----@field public cooldown Float
----@field public duration Float
+---@field attackGameEffectDelay Float
+---@field attackGameEffectDuration Float
+---@field attackRange Float
+---@field forcePlayerToStand Bool
+---@field shouldAdjust Bool
+---@field adjustmentRange Float
+---@field adjustmentDuration Float
+---@field adjustmentRadius Float
+---@field adjustmentCurve CName
+---@field cooldown Float
+---@field duration Float
 QuickMeleeAttackData = {}
 
 ---@param fields? QuickMeleeAttackData
 ---@return QuickMeleeAttackData
-function QuickMeleeAttackData.new(fields) return end
+function QuickMeleeAttackData.new(fields) end

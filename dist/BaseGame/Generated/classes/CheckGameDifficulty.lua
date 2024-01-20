@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class CheckGameDifficulty: AIbehaviorconditionScript
----@field public comparedDifficulty gameDifficulty
----@field public comparisonOperator EComparisonOperator
----@field public currentDifficulty gameDifficulty
----@field public currentDifficultyValue Int32
----@field public comparedDifficultyValue Int32
+---@field comparedDifficulty gameDifficulty
+---@field comparisonOperator EComparisonOperator
+---@field currentDifficulty gameDifficulty
+---@field currentDifficultyValue Int32
+---@field comparedDifficultyValue Int32
 CheckGameDifficulty = {}
 
 ---@param fields? CheckGameDifficulty
 ---@return CheckGameDifficulty
-function CheckGameDifficulty.new(fields) return end
+function CheckGameDifficulty.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckGameDifficulty:Check(context) return end
+function CheckGameDifficulty:Check(context) end
 
----@private
 ---@param difficulty gameDifficulty
 ---@return Int32
-function CheckGameDifficulty:GetDifficultyValue(difficulty) return end
+function CheckGameDifficulty:GetDifficultyValue(difficulty) end

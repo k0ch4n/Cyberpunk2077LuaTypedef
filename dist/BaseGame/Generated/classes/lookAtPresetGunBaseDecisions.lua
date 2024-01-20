@@ -5,4 +5,4 @@ lookAtPresetGunBaseDecisions = {}
 
 ---@param fields? lookAtPresetGunBaseDecisions
 ---@return lookAtPresetGunBaseDecisions
-function lookAtPresetGunBaseDecisions.new(fields) return end
+function lookAtPresetGunBaseDecisions.new(fields) end

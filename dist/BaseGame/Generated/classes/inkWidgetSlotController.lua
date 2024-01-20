@@ -5,4 +5,4 @@ inkWidgetSlotController = {}
 
 ---@param fields? inkWidgetSlotController
 ---@return inkWidgetSlotController
-function inkWidgetSlotController.new(fields) return end
+function inkWidgetSlotController.new(fields) end

@@ -1,16 +1,14 @@
 ---@meta
 
 ---@class AICooldown: AITimeCondition
----@field public cooldown Float
----@field protected timestamp Float
+---@field cooldown Float
+---@field timestamp Float
 AICooldown = {}
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AICooldown:Check(context) return end
+function AICooldown:Check(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AICooldown:UpdateTimeStamp(context) return end
+function AICooldown:UpdateTimeStamp(context) end

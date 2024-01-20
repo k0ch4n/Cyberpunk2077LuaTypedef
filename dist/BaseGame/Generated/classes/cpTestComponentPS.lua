@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class cpTestComponentPS: gameComponentPS
----@field public something Int32
----@field public somethingNotInstanceEdiable Bool
----@field public nameEditable CName
----@field public nameInstanceEditable CName
----@field public namePersistent CName
----@field public namePersistentEdiable CName
----@field public namePersistentInstanceEditable CName
+---@field something Int32
+---@field somethingNotInstanceEdiable Bool
+---@field nameEditable CName
+---@field nameInstanceEditable CName
+---@field namePersistent CName
+---@field namePersistentEdiable CName
+---@field namePersistentInstanceEditable CName
 cpTestComponentPS = {}
 
 ---@param fields? cpTestComponentPS
 ---@return cpTestComponentPS
-function cpTestComponentPS.new(fields) return end
+function cpTestComponentPS.new(fields) end

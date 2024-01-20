@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class audioVehicleMechanicalData
----@field public engineStartEvent CName
----@field public engineStopEvent CName
----@field public gearUpBeginEvent CName
----@field public gearUpEndEvent CName
----@field public gearDownBeginEvent CName
----@field public gearDownEndEvent CName
----@field public throttleOnEvent CName
----@field public throttleOffEvent CName
----@field public suspensionSqueekEvent CName
----@field public fullThrottleAppliedEvent CName
----@field public acelleration CName
----@field public speed CName
----@field public gear CName
----@field public brake CName
----@field public rpm CName
----@field public throttle CName
----@field public sidewaysThrottle CName
----@field public thrust CName
----@field public temperature CName
+---@field engineStartEvent CName
+---@field engineStopEvent CName
+---@field gearUpBeginEvent CName
+---@field gearUpEndEvent CName
+---@field gearDownBeginEvent CName
+---@field gearDownEndEvent CName
+---@field throttleOnEvent CName
+---@field throttleOffEvent CName
+---@field suspensionSqueekEvent CName
+---@field fullThrottleAppliedEvent CName
+---@field acelleration CName
+---@field speed CName
+---@field gear CName
+---@field brake CName
+---@field rpm CName
+---@field throttle CName
+---@field sidewaysThrottle CName
+---@field thrust CName
+---@field temperature CName
 audioVehicleMechanicalData = {}
 
 ---@param fields? audioVehicleMechanicalData
 ---@return audioVehicleMechanicalData
-function audioVehicleMechanicalData.new(fields) return end
+function audioVehicleMechanicalData.new(fields) end

@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class CpoHudRootGameController: gameuiWidgetGameController
----@field public hitIndicator inkWidget
----@field public chatBox inkWidget
----@field public playerList inkWidget
----@field public narration_journal inkWidget
----@field public narrative_plate inkWidget
----@field public inventory inkWidget
----@field public loadouts inkWidget
+---@field hitIndicator inkWidget
+---@field chatBox inkWidget
+---@field playerList inkWidget
+---@field narration_journal inkWidget
+---@field narrative_plate inkWidget
+---@field inventory inkWidget
+---@field loadouts inkWidget
 CpoHudRootGameController = {}
 
 ---@param fields? CpoHudRootGameController
 ---@return CpoHudRootGameController
-function CpoHudRootGameController.new(fields) return end
+function CpoHudRootGameController.new(fields) end
 
----@protected
 ---@return Bool
-function CpoHudRootGameController:OnInitialize() return end
+function CpoHudRootGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function CpoHudRootGameController:OnUninitialize() return end
+function CpoHudRootGameController:OnUninitialize() end

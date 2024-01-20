@@ -5,4 +5,4 @@ worldAnimationSystem = {}
 
 ---@param fields? worldAnimationSystem
 ---@return worldAnimationSystem
-function worldAnimationSystem.new(fields) return end
+function worldAnimationSystem.new(fields) end

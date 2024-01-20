@@ -5,4 +5,4 @@ STonemappingACESParamsHDR = {}
 
 ---@param fields? STonemappingACESParamsHDR
 ---@return STonemappingACESParamsHDR
-function STonemappingACESParamsHDR.new(fields) return end
+function STonemappingACESParamsHDR.new(fields) end

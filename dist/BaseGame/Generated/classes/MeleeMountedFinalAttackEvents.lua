@@ -5,13 +5,12 @@ MeleeMountedFinalAttackEvents = {}
 
 ---@param fields? MeleeMountedFinalAttackEvents
 ---@return MeleeMountedFinalAttackEvents
-function MeleeMountedFinalAttackEvents.new(fields) return end
+function MeleeMountedFinalAttackEvents.new(fields) end
 
----@protected
 ---@return Bool
-function MeleeMountedFinalAttackEvents:IsMountedTPPAttack() return end
+function MeleeMountedFinalAttackEvents:IsMountedTPPAttack() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeMountedFinalAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeMountedFinalAttackEvents:OnEnter(stateContext, scriptInterface) end

@@ -5,57 +5,57 @@ gamedataAISubActionSetTargetByTag_Record = {}
 
 ---@param fields? gamedataAISubActionSetTargetByTag_Record
 ---@return gamedataAISubActionSetTargetByTag_Record
-function gamedataAISubActionSetTargetByTag_Record.new(fields) return end
+function gamedataAISubActionSetTargetByTag_Record.new(fields) end
 
 ---@return CName[]
-function gamedataAISubActionSetTargetByTag_Record:AllowedOffMeshTags() return end
+function gamedataAISubActionSetTargetByTag_Record:AllowedOffMeshTags() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataAISubActionSetTargetByTag_Record:AllowedOffMeshTagsContains(item) return end
+function gamedataAISubActionSetTargetByTag_Record:AllowedOffMeshTagsContains(item) end
 
 ---@return Int32
-function gamedataAISubActionSetTargetByTag_Record:AvoidSelectingSameTargetMethod() return end
+function gamedataAISubActionSetTargetByTag_Record:AvoidSelectingSameTargetMethod() end
 
 ---@return Bool
-function gamedataAISubActionSetTargetByTag_Record:BlockLoSByNonPenetrableObj() return end
+function gamedataAISubActionSetTargetByTag_Record:BlockLoSByNonPenetrableObj() end
 
 ---@return Float
-function gamedataAISubActionSetTargetByTag_Record:Delay() return end
+function gamedataAISubActionSetTargetByTag_Record:Delay() end
 
 ---@return Int32
-function gamedataAISubActionSetTargetByTag_Record:GetAllowedOffMeshTagsCount() return end
+function gamedataAISubActionSetTargetByTag_Record:GetAllowedOffMeshTagsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataAISubActionSetTargetByTag_Record:GetAllowedOffMeshTagsItem(index) return end
+function gamedataAISubActionSetTargetByTag_Record:GetAllowedOffMeshTagsItem(index) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetTargetByTag_Record:LineOfSightTarget() return end
+function gamedataAISubActionSetTargetByTag_Record:LineOfSightTarget() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetTargetByTag_Record:LineOfSightTargetHandle() return end
+function gamedataAISubActionSetTargetByTag_Record:LineOfSightTargetHandle() end
 
 ---@return Vector2
-function gamedataAISubActionSetTargetByTag_Record:RangeFromObj() return end
+function gamedataAISubActionSetTargetByTag_Record:RangeFromObj() end
 
 ---@return Vector2
-function gamedataAISubActionSetTargetByTag_Record:RangeFromOwner() return end
+function gamedataAISubActionSetTargetByTag_Record:RangeFromOwner() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetTargetByTag_Record:RangeObj() return end
+function gamedataAISubActionSetTargetByTag_Record:RangeObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetTargetByTag_Record:RangeObjHandle() return end
+function gamedataAISubActionSetTargetByTag_Record:RangeObjHandle() end
 
 ---@return CName
-function gamedataAISubActionSetTargetByTag_Record:SelectionMethod() return end
+function gamedataAISubActionSetTargetByTag_Record:SelectionMethod() end
 
 ---@return CName
-function gamedataAISubActionSetTargetByTag_Record:Tag() return end
+function gamedataAISubActionSetTargetByTag_Record:Tag() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetTargetByTag_Record:Target() return end
+function gamedataAISubActionSetTargetByTag_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetTargetByTag_Record:TargetHandle() return end
+function gamedataAISubActionSetTargetByTag_Record:TargetHandle() end

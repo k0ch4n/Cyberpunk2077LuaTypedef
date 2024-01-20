@@ -5,29 +5,25 @@ ChargeReadyEvents = {}
 
 ---@param fields? ChargeReadyEvents
 ---@return ChargeReadyEvents
-function ChargeReadyEvents.new(fields) return end
+function ChargeReadyEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeReadyEvents:OnEnter(stateContext, scriptInterface) return end
+function ChargeReadyEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeReadyEvents:OnExitToChargeMax(stateContext, scriptInterface) return end
+function ChargeReadyEvents:OnExitToChargeMax(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeReadyEvents:OnExitToShoot(stateContext, scriptInterface) return end
+function ChargeReadyEvents:OnExitToShoot(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeReadyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ChargeReadyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

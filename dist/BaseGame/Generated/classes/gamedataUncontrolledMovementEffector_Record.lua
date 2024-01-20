@@ -5,13 +5,13 @@ gamedataUncontrolledMovementEffector_Record = {}
 
 ---@param fields? gamedataUncontrolledMovementEffector_Record
 ---@return gamedataUncontrolledMovementEffector_Record
-function gamedataUncontrolledMovementEffector_Record.new(fields) return end
+function gamedataUncontrolledMovementEffector_Record.new(fields) end
 
 ---@return CName
-function gamedataUncontrolledMovementEffector_Record:DebugSourceName() return end
+function gamedataUncontrolledMovementEffector_Record:DebugSourceName() end
 
 ---@return Float
-function gamedataUncontrolledMovementEffector_Record:RagdollNoGroundThreshold() return end
+function gamedataUncontrolledMovementEffector_Record:RagdollNoGroundThreshold() end
 
 ---@return Bool
-function gamedataUncontrolledMovementEffector_Record:RagdollOnCollision() return end
+function gamedataUncontrolledMovementEffector_Record:RagdollOnCollision() end

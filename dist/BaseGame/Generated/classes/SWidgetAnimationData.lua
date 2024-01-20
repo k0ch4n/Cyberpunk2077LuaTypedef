@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class SWidgetAnimationData
----@field public animationName CName
----@field public playbackOptions inkanimPlaybackOptions
----@field public lockWhenActive Bool
----@field public animProxy inkanimProxy
----@field public onFinish CName
----@field public onStart CName
----@field public onPasue CName
----@field public onResume CName
----@field public onStartLoop CName
----@field public onEndLoop CName
+---@field animationName CName
+---@field playbackOptions inkanimPlaybackOptions
+---@field lockWhenActive Bool
+---@field animProxy inkanimProxy
+---@field onFinish CName
+---@field onStart CName
+---@field onPasue CName
+---@field onResume CName
+---@field onStartLoop CName
+---@field onEndLoop CName
 SWidgetAnimationData = {}
 
 ---@param fields? SWidgetAnimationData
 ---@return SWidgetAnimationData
-function SWidgetAnimationData.new(fields) return end
+function SWidgetAnimationData.new(fields) end

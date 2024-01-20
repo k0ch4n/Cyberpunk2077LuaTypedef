@@ -5,4 +5,4 @@ questContentBlockTriggerAreaNotifierInstance = {}
 
 ---@param fields? questContentBlockTriggerAreaNotifierInstance
 ---@return questContentBlockTriggerAreaNotifierInstance
-function questContentBlockTriggerAreaNotifierInstance.new(fields) return end
+function questContentBlockTriggerAreaNotifierInstance.new(fields) end

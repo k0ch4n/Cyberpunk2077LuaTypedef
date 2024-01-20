@@ -5,13 +5,13 @@ gamedataAITresspassingCond_Record = {}
 
 ---@param fields? gamedataAITresspassingCond_Record
 ---@return gamedataAITresspassingCond_Record
-function gamedataAITresspassingCond_Record.new(fields) return end
+function gamedataAITresspassingCond_Record.new(fields) end
 
 ---@return Bool
-function gamedataAITresspassingCond_Record:CheckSafeArea() return end
+function gamedataAITresspassingCond_Record:CheckSafeArea() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAITresspassingCond_Record:Target() return end
+function gamedataAITresspassingCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAITresspassingCond_Record:TargetHandle() return end
+function gamedataAITresspassingCond_Record:TargetHandle() end

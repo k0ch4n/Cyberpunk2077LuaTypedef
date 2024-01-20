@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIArgumentReference: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue Variant
----@field public rttiClassName CName
+---@field type AIArgumentType
+---@field defaultValue Variant
+---@field rttiClassName CName
 AIArgumentReference = {}
 
 ---@param fields? AIArgumentReference
 ---@return AIArgumentReference
-function AIArgumentReference.new(fields) return end
+function AIArgumentReference.new(fields) end

@@ -5,4 +5,4 @@ gameinteractionsEnableClientSideInteractionEvent = {}
 
 ---@param fields? gameinteractionsEnableClientSideInteractionEvent
 ---@return gameinteractionsEnableClientSideInteractionEvent
-function gameinteractionsEnableClientSideInteractionEvent.new(fields) return end
+function gameinteractionsEnableClientSideInteractionEvent.new(fields) end

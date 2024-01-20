@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class ToggleForcedHighlightEvent: redEvent
----@field public sourceName CName
----@field public highlightData HighlightEditableData
----@field public operation EToggleOperationType
+---@field sourceName CName
+---@field highlightData HighlightEditableData
+---@field operation EToggleOperationType
 ToggleForcedHighlightEvent = {}
 
 ---@param fields? ToggleForcedHighlightEvent
 ---@return ToggleForcedHighlightEvent
-function ToggleForcedHighlightEvent.new(fields) return end
+function ToggleForcedHighlightEvent.new(fields) end
 
 ---@return String
-function ToggleForcedHighlightEvent:GetFriendlyDescription() return end
+function ToggleForcedHighlightEvent:GetFriendlyDescription() end

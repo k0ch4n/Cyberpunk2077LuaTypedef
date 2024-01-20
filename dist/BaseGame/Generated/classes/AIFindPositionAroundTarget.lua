@@ -5,9 +5,8 @@ AIFindPositionAroundTarget = {}
 
 ---@param fields? AIFindPositionAroundTarget
 ---@return AIFindPositionAroundTarget
-function AIFindPositionAroundTarget.new(fields) return end
+function AIFindPositionAroundTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIFindPositionAroundTarget:Update(context) return end
+function AIFindPositionAroundTarget:Update(context) end

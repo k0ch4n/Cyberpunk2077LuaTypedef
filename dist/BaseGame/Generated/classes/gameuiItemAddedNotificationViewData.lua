@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameuiItemAddedNotificationViewData: gameuiGenericNotificationViewData
----@field public itemID gameItemID
----@field public animation CName
----@field public itemRarity CName
+---@field itemID gameItemID
+---@field animation CName
+---@field itemRarity CName
 gameuiItemAddedNotificationViewData = {}
 
 ---@param fields? gameuiItemAddedNotificationViewData
 ---@return gameuiItemAddedNotificationViewData
-function gameuiItemAddedNotificationViewData.new(fields) return end
+function gameuiItemAddedNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function gameuiItemAddedNotificationViewData:CanMerge(data) return end
+function gameuiItemAddedNotificationViewData:CanMerge(data) end

@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class StatusEffectTriggerListener: gameCustomValueStatPoolsListener
----@field public owner gameObject
----@field public statusEffect TweakDBID
----@field public statPoolType gamedataStatPoolType
----@field public instigator gameObject
+---@field owner gameObject
+---@field statusEffect TweakDBID
+---@field statPoolType gamedataStatPoolType
+---@field instigator gameObject
 StatusEffectTriggerListener = {}
 
 ---@param fields? StatusEffectTriggerListener
 ---@return StatusEffectTriggerListener
-function StatusEffectTriggerListener.new(fields) return end
+function StatusEffectTriggerListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function StatusEffectTriggerListener:OnStatPoolMinValueReached(value) return end
+function StatusEffectTriggerListener:OnStatPoolMinValueReached(value) end

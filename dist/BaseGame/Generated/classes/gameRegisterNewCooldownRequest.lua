@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameRegisterNewCooldownRequest
----@field public owner entEntity
----@field public ownerItemId gameItemID
----@field public ownerRecord TweakDBID
----@field public cooldownName CName
----@field public duration Float
----@field public type gamedataStatType
----@field public modifiable Bool
----@field public affectedByTimeDilation Bool
+---@field owner entEntity
+---@field ownerItemId gameItemID
+---@field ownerRecord TweakDBID
+---@field cooldownName CName
+---@field duration Float
+---@field type gamedataStatType
+---@field modifiable Bool
+---@field affectedByTimeDilation Bool
 gameRegisterNewCooldownRequest = {}
 
 ---@param fields? gameRegisterNewCooldownRequest
 ---@return gameRegisterNewCooldownRequest
-function gameRegisterNewCooldownRequest.new(fields) return end
+function gameRegisterNewCooldownRequest.new(fields) end

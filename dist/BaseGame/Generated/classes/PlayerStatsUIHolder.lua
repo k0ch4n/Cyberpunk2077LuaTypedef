@@ -5,8 +5,8 @@ PlayerStatsUIHolder = {}
 
 ---@param fields? PlayerStatsUIHolder
 ---@return PlayerStatsUIHolder
-function PlayerStatsUIHolder.new(fields) return end
+function PlayerStatsUIHolder.new(fields) end
 
 ---@param value Int32
 ---@return nil
-function PlayerStatsUIHolder:HandleCharacterCurrencyUpdated(value) return end
+function PlayerStatsUIHolder:HandleCharacterCurrencyUpdated(value) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RegisterNetworkLinkRequest: gameScriptableSystemRequest
----@field public linksData SNetworkLinkData[]
+---@field linksData SNetworkLinkData[]
 RegisterNetworkLinkRequest = {}
 
 ---@param fields? RegisterNetworkLinkRequest
 ---@return RegisterNetworkLinkRequest
-function RegisterNetworkLinkRequest.new(fields) return end
+function RegisterNetworkLinkRequest.new(fields) end

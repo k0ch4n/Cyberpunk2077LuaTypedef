@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class OverclockListener: gameScriptStatusEffectListener
----@field private healthBar gameuiHudHealthbarGameController
+---@field healthBar gameuiHudHealthbarGameController
 OverclockListener = {}
 
 ---@param fields? OverclockListener
 ---@return OverclockListener
-function OverclockListener.new(fields) return end
+function OverclockListener.new(fields) end
 
 ---@param bar gameuiHudHealthbarGameController
 ---@return nil
-function OverclockListener:BindHelathBar(bar) return end
+function OverclockListener:BindHelathBar(bar) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function OverclockListener:OnStatusEffectApplied(statusEffect) return end
+function OverclockListener:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function OverclockListener:OnStatusEffectRemoved(statusEffect) return end
+function OverclockListener:OnStatusEffectRemoved(statusEffect) end

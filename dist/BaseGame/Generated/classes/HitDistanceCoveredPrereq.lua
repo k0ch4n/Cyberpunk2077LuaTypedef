@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class HitDistanceCoveredPrereq: GenericHitPrereq
----@field public distanceRequired Float
----@field public comparisonType EComparisonType
+---@field distanceRequired Float
+---@field comparisonType EComparisonType
 HitDistanceCoveredPrereq = {}
 
 ---@param fields? HitDistanceCoveredPrereq
 ---@return HitDistanceCoveredPrereq
-function HitDistanceCoveredPrereq.new(fields) return end
+function HitDistanceCoveredPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitDistanceCoveredPrereq:Initialize(recordID) return end
+function HitDistanceCoveredPrereq:Initialize(recordID) end

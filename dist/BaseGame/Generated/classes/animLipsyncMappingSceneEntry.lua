@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animLipsyncMappingSceneEntry
----@field public actorVoiceTags CRUID[]
----@field public animSets animAnimSet[]
+---@field actorVoiceTags CRUID[]
+---@field animSets animAnimSet[]
 animLipsyncMappingSceneEntry = {}
 
 ---@param fields? animLipsyncMappingSceneEntry
 ---@return animLipsyncMappingSceneEntry
-function animLipsyncMappingSceneEntry.new(fields) return end
+function animLipsyncMappingSceneEntry.new(fields) end

@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class QuestAnimationMappinController: gameuiQuestMappinController
----@field private mappin gamemappinsQuestMappin
----@field private animationRecord gamedataUIAnimation_Record
----@field private animProxy inkanimProxy
----@field private playing Bool
+---@field mappin gamemappinsQuestMappin
+---@field animationRecord gamedataUIAnimation_Record
+---@field animProxy inkanimProxy
+---@field playing Bool
 QuestAnimationMappinController = {}
 
 ---@param fields? QuestAnimationMappinController
 ---@return QuestAnimationMappinController
-function QuestAnimationMappinController.new(fields) return end
+function QuestAnimationMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function QuestAnimationMappinController:OnInitialize() return end
+function QuestAnimationMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function QuestAnimationMappinController:OnIntro() return end
+function QuestAnimationMappinController:OnIntro() end
 
----@protected
 ---@return Bool
-function QuestAnimationMappinController:OnUpdate() return end
+function QuestAnimationMappinController:OnUpdate() end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SampleCounterDisplayComponent: gameScriptableComponent
----@field public targetPersistentID gamePersistentID
+---@field targetPersistentID gamePersistentID
 SampleCounterDisplayComponent = {}
 
 ---@param fields? SampleCounterDisplayComponent
 ---@return SampleCounterDisplayComponent
-function SampleCounterDisplayComponent.new(fields) return end
+function SampleCounterDisplayComponent.new(fields) end
 
 ---@return nil
-function SampleCounterDisplayComponent:DisplayCounter() return end
+function SampleCounterDisplayComponent:DisplayCounter() end
 
 ---@param deltaTime Float
 ---@return nil
-function SampleCounterDisplayComponent:OnUpdate(deltaTime) return end
+function SampleCounterDisplayComponent:OnUpdate(deltaTime) end

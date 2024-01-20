@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PerksMenuAttributeItemHoverOver: redEvent
----@field public widget inkWidget
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
+---@field widget inkWidget
+---@field attributeType PerkMenuAttribute
+---@field attributeData AttributeData
 PerksMenuAttributeItemHoverOver = {}
 
 ---@param fields? PerksMenuAttributeItemHoverOver
 ---@return PerksMenuAttributeItemHoverOver
-function PerksMenuAttributeItemHoverOver.new(fields) return end
+function PerksMenuAttributeItemHoverOver.new(fields) end

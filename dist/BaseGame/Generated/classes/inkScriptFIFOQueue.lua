@@ -5,14 +5,14 @@ inkScriptFIFOQueue = {}
 
 ---@param fields? inkScriptFIFOQueue
 ---@return inkScriptFIFOQueue
-function inkScriptFIFOQueue.new(fields) return end
+function inkScriptFIFOQueue.new(fields) end
 
 ---@return IScriptable
-function inkScriptFIFOQueue:Dequeue() return end
+function inkScriptFIFOQueue:Dequeue() end
 
 ---@return nil
-function inkScriptFIFOQueue:Enqueue() return end
+function inkScriptFIFOQueue:Enqueue() end
 
 ---@param objects IScriptable[]
 ---@return nil
-function inkScriptFIFOQueue:Init(objects) return end
+function inkScriptFIFOQueue:Init(objects) end

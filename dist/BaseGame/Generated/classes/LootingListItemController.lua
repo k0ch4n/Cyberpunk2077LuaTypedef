@@ -1,74 +1,67 @@
 ---@meta
 
 ---@class LootingListItemController: inkWidgetLogicController
----@field protected widgetWrapper inkWidgetReference
----@field protected itemName inkTextWidgetReference
----@field protected itemRarity inkWidgetReference
----@field protected iconicLines inkWidgetReference
----@field protected itemQuantity inkTextWidgetReference
----@field protected defaultIcon inkWidgetReference
----@field protected specialIcon inkImageWidgetReference
----@field protected comparisionArrow inkImageWidgetReference
----@field protected itemTypeIconWrapper inkWidgetReference
----@field protected itemTypeIcon inkImageWidgetReference
----@field protected highlightFrames inkWidgetReference[]
----@field protected tooltipData InventoryTooltipData
----@field protected lootingData MinimalLootingListItemData
+---@field widgetWrapper inkWidgetReference
+---@field itemName inkTextWidgetReference
+---@field itemRarity inkWidgetReference
+---@field iconicLines inkWidgetReference
+---@field itemQuantity inkTextWidgetReference
+---@field defaultIcon inkWidgetReference
+---@field specialIcon inkImageWidgetReference
+---@field comparisionArrow inkImageWidgetReference
+---@field itemTypeIconWrapper inkWidgetReference
+---@field itemTypeIcon inkImageWidgetReference
+---@field highlightFrames inkWidgetReference[]
+---@field tooltipData InventoryTooltipData
+---@field lootingData MinimalLootingListItemData
 LootingListItemController = {}
 
 ---@param fields? LootingListItemController
 ---@return LootingListItemController
-function LootingListItemController.new(fields) return end
+function LootingListItemController.new(fields) end
 
----@protected
 ---@return Bool
-function LootingListItemController:OnInitialize() return end
+function LootingListItemController:OnInitialize() end
 
 ---@return gameItemID
-function LootingListItemController:GetItemID() return end
+function LootingListItemController:GetItemID() end
 
----@protected
 ---@return nil
-function LootingListItemController:RefreshUI() return end
+function LootingListItemController:RefreshUI() end
 
 ---@param valueF Float
 ---@return nil
-function LootingListItemController:SetComparedQualityF(valueF) return end
+function LootingListItemController:SetComparedQualityF(valueF) end
 
 ---@param data MinimalLootingListItemData
 ---@return nil
-function LootingListItemController:SetData(data) return end
+function LootingListItemController:SetData(data) end
 
 ---@param data MinimalLootingListItemData
 ---@param isSelected Bool
 ---@return nil
-function LootingListItemController:SetData(data, isSelected) return end
+function LootingListItemController:SetData(data, isSelected) end
 
 ---@param value Bool
 ---@return nil
-function LootingListItemController:SetHighlighted(value) return end
+function LootingListItemController:SetHighlighted(value) end
 
 ---@param lootingData MinimalLootingListItemData
 ---@param force? Bool
 ---@return nil
-function LootingListItemController:Setup(lootingData, force) return end
+function LootingListItemController:Setup(lootingData, force) end
 
----@protected
 ---@return nil
-function LootingListItemController:UpdateIcon() return end
+function LootingListItemController:UpdateIcon() end
 
----@protected
 ---@return nil
-function LootingListItemController:UpdateItemName() return end
+function LootingListItemController:UpdateItemName() end
 
----@protected
 ---@return nil
-function LootingListItemController:UpdateLootIcon() return end
+function LootingListItemController:UpdateLootIcon() end
 
----@protected
 ---@return nil
-function LootingListItemController:UpdateQuantity() return end
+function LootingListItemController:UpdateQuantity() end
 
----@protected
 ---@return nil
-function LootingListItemController:UpdateRarity() return end
+function LootingListItemController:UpdateRarity() end

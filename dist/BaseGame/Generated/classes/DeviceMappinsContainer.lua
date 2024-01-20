@@ -1,62 +1,57 @@
 ---@meta
 
 ---@class DeviceMappinsContainer: IScriptable
----@field public mappins SDeviceMappinData[]
----@field public newNewFocusMappin SDeviceMappinData
----@field public useNewFocusMappin Bool
----@field private offsetValue Float
+---@field mappins SDeviceMappinData[]
+---@field newNewFocusMappin SDeviceMappinData
+---@field useNewFocusMappin Bool
+---@field offsetValue Float
 DeviceMappinsContainer = {}
 
 ---@param fields? DeviceMappinsContainer
 ---@return DeviceMappinsContainer
-function DeviceMappinsContainer.new(fields) return end
+function DeviceMappinsContainer.new(fields) end
 
 ---@param data SDeviceMappinData
 ---@return nil
-function DeviceMappinsContainer:AddMappin(data) return end
+function DeviceMappinsContainer:AddMappin(data) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function DeviceMappinsContainer:EvaluatePositions(owner) return end
+function DeviceMappinsContainer:EvaluatePositions(owner) end
 
----@private
 ---@param currentAxis EAxisType
 ---@return EAxisType
-function DeviceMappinsContainer:GetNextAxis(currentAxis) return end
+function DeviceMappinsContainer:GetNextAxis(currentAxis) end
 
----@private
 ---@param mappinVariant gamedataMappinVariant
 ---@return Bool
-function DeviceMappinsContainer:HasMappin(mappinVariant) return end
+function DeviceMappinsContainer:HasMappin(mappinVariant) end
 
----@private
 ---@param data SDeviceMappinData
 ---@return Bool
-function DeviceMappinsContainer:HasMappin(data) return end
+function DeviceMappinsContainer:HasMappin(data) end
 
 ---@return Bool
-function DeviceMappinsContainer:HasNewFocusMappin() return end
+function DeviceMappinsContainer:HasNewFocusMappin() end
 
 ---@param owner gameObject
 ---@return nil
-function DeviceMappinsContainer:HideMappins(owner) return end
+function DeviceMappinsContainer:HideMappins(owner) end
 
----@private
 ---@param index Int32
 ---@param owner gameObject
 ---@return nil
-function DeviceMappinsContainer:HideSingleMappin(index, owner) return end
+function DeviceMappinsContainer:HideSingleMappin(index, owner) end
 
 ---@return nil
-function DeviceMappinsContainer:Initialize() return end
+function DeviceMappinsContainer:Initialize() end
 
 ---@param owner gameObject
 ---@return nil
-function DeviceMappinsContainer:ShowMappins(owner) return end
+function DeviceMappinsContainer:ShowMappins(owner) end
 
 ---@param owner gameObject
 ---@param mappinVariant gamedataMappinVariant
 ---@param enable Bool
 ---@return nil
-function DeviceMappinsContainer:ToggleMappin(owner, mappinVariant, enable) return end
+function DeviceMappinsContainer:ToggleMappin(owner, mappinVariant, enable) end

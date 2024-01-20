@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class MenuDataBuilder: IScriptable
----@field public data MenuData[]
+---@field data MenuData[]
 MenuDataBuilder = {}
 
 ---@param fields? MenuDataBuilder
 ---@return MenuDataBuilder
-function MenuDataBuilder.new(fields) return end
+function MenuDataBuilder.new(fields) end
 
 ---@return MenuDataBuilder
-function MenuDataBuilder.Make() return end
+function MenuDataBuilder.Make() end
 
 ---@param identifier Int32
 ---@param fullscreenName CName|string
@@ -17,9 +17,8 @@ function MenuDataBuilder.Make() return end
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return MenuDataBuilder
-function MenuDataBuilder:Add(identifier, fullscreenName, icon, labelKey, userData) return end
+function MenuDataBuilder:Add(identifier, fullscreenName, icon, labelKey, userData) end
 
----@private
 ---@param data MenuData
 ---@param identifier HubMenuItems
 ---@param parentIdentifier HubMenuItems
@@ -28,7 +27,7 @@ function MenuDataBuilder:Add(identifier, fullscreenName, icon, labelKey, userDat
 ---@param userData? IScriptable
 ---@param disabled? Bool
 ---@return MenuDataBuilder
-function MenuDataBuilder:Add(data, identifier, parentIdentifier, fullscreenName, icon, userData, disabled) return end
+function MenuDataBuilder:Add(data, identifier, parentIdentifier, fullscreenName, icon, userData, disabled) end
 
 ---@param identifier HubMenuItems
 ---@param parentIdentifier HubMenuItems
@@ -38,7 +37,7 @@ function MenuDataBuilder:Add(data, identifier, parentIdentifier, fullscreenName,
 ---@param userData? IScriptable
 ---@param disabled? Bool
 ---@return MenuDataBuilder
-function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon, labelKey, userData, disabled) return end
+function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon, labelKey, userData, disabled) end
 
 ---@param identifier HubMenuItems
 ---@param parentIdentifier HubMenuItems
@@ -48,7 +47,7 @@ function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon,
 ---@param userData? IScriptable
 ---@param disabled? Bool
 ---@return MenuDataBuilder
-function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon, labelName, userData, disabled) return end
+function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon, labelName, userData, disabled) end
 
 ---@param condition Bool
 ---@param identifier Int32
@@ -57,7 +56,7 @@ function MenuDataBuilder:Add(identifier, parentIdentifier, fullscreenName, icon,
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return MenuDataBuilder
-function MenuDataBuilder:AddIf(condition, identifier, fullscreenName, icon, labelKey, userData) return end
+function MenuDataBuilder:AddIf(condition, identifier, fullscreenName, icon, labelKey, userData) end
 
 ---@param identifier Int32
 ---@param fullscreenName CName|string
@@ -66,18 +65,18 @@ function MenuDataBuilder:AddIf(condition, identifier, fullscreenName, icon, labe
 ---@param userData? IScriptable
 ---@param disabled? Bool
 ---@return SubmenuDataBuilder
-function MenuDataBuilder:AddWithSubmenu(identifier, fullscreenName, icon, labelKey, userData, disabled) return end
+function MenuDataBuilder:AddWithSubmenu(identifier, fullscreenName, icon, labelKey, userData, disabled) end
 
 ---@return MenuData[]
-function MenuDataBuilder:Get() return end
+function MenuDataBuilder:Get() end
 
 ---@param identifier Int32
 ---@return MenuData
-function MenuDataBuilder:GetData(identifier) return end
+function MenuDataBuilder:GetData(identifier) end
 
 ---@param fullscreenName CName|string
 ---@return MenuData
-function MenuDataBuilder:GetData(fullscreenName) return end
+function MenuDataBuilder:GetData(fullscreenName) end
 
 ---@return MenuData[]
-function MenuDataBuilder:GetMainMenus() return end
+function MenuDataBuilder:GetMainMenus() end

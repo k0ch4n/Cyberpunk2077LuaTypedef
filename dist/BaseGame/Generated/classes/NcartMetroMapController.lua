@@ -1,73 +1,62 @@
 ---@meta
 
 ---@class NcartMetroMapController: CustomAnimationsHudGameController
----@field private playerMarkerPane inkWidgetReference
----@field private playerCurrentPositionReferences metroMapPlayerPositionReferences[]
----@field private questsSystem questQuestsSystem
----@field private selectedDestinationButtonListner Uint32
----@field private selectionMenuShouldBeActiveListener Uint32
----@field private previousAnimatioNumber Int32
----@field private directionAnimProxy inkanimProxy
----@field private startupAnimProxy inkanimProxy
----@field private playerPostionMarkerAnimProxy inkanimProxy
----@field private mapOpen Bool
----@field private LineOffOpacity Float
----@field private LineOnOpacity Float
+---@field playerMarkerPane inkWidgetReference
+---@field playerCurrentPositionReferences metroMapPlayerPositionReferences[]
+---@field questsSystem questQuestsSystem
+---@field selectedDestinationButtonListner Uint32
+---@field selectionMenuShouldBeActiveListener Uint32
+---@field previousAnimatioNumber Int32
+---@field directionAnimProxy inkanimProxy
+---@field startupAnimProxy inkanimProxy
+---@field playerPostionMarkerAnimProxy inkanimProxy
+---@field mapOpen Bool
+---@field LineOffOpacity Float
+---@field LineOnOpacity Float
 NcartMetroMapController = {}
 
 ---@param fields? NcartMetroMapController
 ---@return NcartMetroMapController
-function NcartMetroMapController.new(fields) return end
+function NcartMetroMapController.new(fields) end
 
----@protected
 ---@return Bool
-function NcartMetroMapController:OnInitialize() return end
+function NcartMetroMapController:OnInitialize() end
 
----@protected
 ---@param factValue Int32
 ---@return Bool
-function NcartMetroMapController:OnMetroMapControlFactChangeEvent(factValue) return end
+function NcartMetroMapController:OnMetroMapControlFactChangeEvent(factValue) end
 
----@protected
 ---@param factValue Int32
 ---@return Bool
-function NcartMetroMapController:OnMetroMapSelectionChangedEvent(factValue) return end
+function NcartMetroMapController:OnMetroMapSelectionChangedEvent(factValue) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NcartMetroMapController:OnStartupAnimationDone(proxy) return end
+function NcartMetroMapController:OnStartupAnimationDone(proxy) end
 
----@private
 ---@return nil
-function NcartMetroMapController:HideDirectionPanes() return end
+function NcartMetroMapController:HideDirectionPanes() end
 
----@private
 ---@param buttonNumber Int32
 ---@param animSetup inkanimPlaybackOptions
 ---@return nil
-function NcartMetroMapController:ProcessButtonAnimation(buttonNumber, animSetup) return end
+function NcartMetroMapController:ProcessButtonAnimation(buttonNumber, animSetup) end
 
----@private
 ---@param buttonNumber Int32
 ---@return nil
-function NcartMetroMapController:SetupDirectionWidget(buttonNumber) return end
+function NcartMetroMapController:SetupDirectionWidget(buttonNumber) end
 
----@private
 ---@param currentButtonFact Int32
 ---@return nil
-function NcartMetroMapController:SwitchActiveButton(currentButtonFact) return end
+function NcartMetroMapController:SwitchActiveButton(currentButtonFact) end
 
----@private
 ---@return nil
-function NcartMetroMapController:UpdateAvialableLines() return end
+function NcartMetroMapController:UpdateAvialableLines() end
 
----@private
 ---@param buttonNumber Int32
 ---@return nil
-function NcartMetroMapController:UpdateDirectionDisplay(buttonNumber) return end
+function NcartMetroMapController:UpdateDirectionDisplay(buttonNumber) end
 
----@private
 ---@param show Bool
 ---@return nil
-function NcartMetroMapController:UpdatePlayerLocationMarker(show) return end
+function NcartMetroMapController:UpdatePlayerLocationMarker(show) end

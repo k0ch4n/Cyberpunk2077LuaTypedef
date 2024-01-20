@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questMultiplayerTeleportPuppetNodeDefinition: questSignalStoppingNodeDefinition
----@field public params questMultiplayerTeleportPuppetParams
+---@field params questMultiplayerTeleportPuppetParams
 questMultiplayerTeleportPuppetNodeDefinition = {}
 
 ---@param fields? questMultiplayerTeleportPuppetNodeDefinition
 ---@return questMultiplayerTeleportPuppetNodeDefinition
-function questMultiplayerTeleportPuppetNodeDefinition.new(fields) return end
+function questMultiplayerTeleportPuppetNodeDefinition.new(fields) end

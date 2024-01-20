@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckAnimSetTags: AIbehaviorconditionScript
----@field public animsetTagToCompare CName[]
+---@field animsetTagToCompare CName[]
 CheckAnimSetTags = {}
 
 ---@param fields? CheckAnimSetTags
 ---@return CheckAnimSetTags
-function CheckAnimSetTags.new(fields) return end
+function CheckAnimSetTags.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckAnimSetTags:Check(context) return end
+function CheckAnimSetTags:Check(context) end

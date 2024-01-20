@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class gameJournalTarot: gameJournalEntry
----@field public index Int32
----@field public name LocalizationString
----@field public description LocalizationString
----@field public imagePart CName
+---@field index Int32
+---@field name LocalizationString
+---@field description LocalizationString
+---@field imagePart CName
 gameJournalTarot = {}
 
 ---@param fields? gameJournalTarot
 ---@return gameJournalTarot
-function gameJournalTarot.new(fields) return end
+function gameJournalTarot.new(fields) end
 
 ---@return String
-function gameJournalTarot:GetDescription() return end
+function gameJournalTarot:GetDescription() end
 
 ---@return CName
-function gameJournalTarot:GetImagePart() return end
+function gameJournalTarot:GetImagePart() end
 
 ---@return Int32
-function gameJournalTarot:GetIndex() return end
+function gameJournalTarot:GetIndex() end
 
 ---@return String
-function gameJournalTarot:GetName() return end
+function gameJournalTarot:GetName() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIRoadBlockadeMemberCommand: AICombatRelatedCommand
----@field public duration Float
+---@field duration Float
 AIRoadBlockadeMemberCommand = {}
 
 ---@param fields? AIRoadBlockadeMemberCommand
 ---@return AIRoadBlockadeMemberCommand
-function AIRoadBlockadeMemberCommand.new(fields) return end
+function AIRoadBlockadeMemberCommand.new(fields) end

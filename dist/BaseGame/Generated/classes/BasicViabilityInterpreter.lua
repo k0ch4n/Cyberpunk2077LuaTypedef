@@ -5,9 +5,9 @@ BasicViabilityInterpreter = {}
 
 ---@param fields? BasicViabilityInterpreter
 ---@return BasicViabilityInterpreter
-function BasicViabilityInterpreter.new(fields) return end
+function BasicViabilityInterpreter.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param hasActiveActions Bool
 ---@return EViabilityDecision
-function BasicViabilityInterpreter.Evaluate(device, hasActiveActions) return end
+function BasicViabilityInterpreter.Evaluate(device, hasActiveActions) end

@@ -5,30 +5,25 @@ DestructibleMasterDevice = {}
 
 ---@param fields? DestructibleMasterDevice
 ---@return DestructibleMasterDevice
-function DestructibleMasterDevice.new(fields) return end
+function DestructibleMasterDevice.new(fields) end
 
----@protected
 ---@return Bool
-function DestructibleMasterDevice:OnDetach() return end
+function DestructibleMasterDevice:OnDetach() end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function DestructibleMasterDevice:OnPhysicalDestructionEvent(evt) return end
+function DestructibleMasterDevice:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DestructibleMasterDevice:OnRequestComponents(ri) return end
+function DestructibleMasterDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DestructibleMasterDevice:OnTakeControl(ri) return end
+function DestructibleMasterDevice:OnTakeControl(ri) end
 
----@protected
 ---@return DestructibleMasterDeviceController
-function DestructibleMasterDevice:GetController() return end
+function DestructibleMasterDevice:GetController() end
 
 ---@return DestructibleMasterDeviceControllerPS
-function DestructibleMasterDevice:GetDevicePS() return end
+function DestructibleMasterDevice:GetDevicePS() end

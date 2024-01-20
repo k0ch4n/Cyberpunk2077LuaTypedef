@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnSceneMarkerInternalsWorkspotEntrySocket
----@field public name CName
----@field public transform Transform
+---@field name CName
+---@field transform Transform
 scnSceneMarkerInternalsWorkspotEntrySocket = {}
 
 ---@param fields? scnSceneMarkerInternalsWorkspotEntrySocket
 ---@return scnSceneMarkerInternalsWorkspotEntrySocket
-function scnSceneMarkerInternalsWorkspotEntrySocket.new(fields) return end
+function scnSceneMarkerInternalsWorkspotEntrySocket.new(fields) end

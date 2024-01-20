@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkFinalConfigurationController: inkWidgetLogicController
----@field public visibilityFlag inkFinalConfigurationVisibility
+---@field visibilityFlag inkFinalConfigurationVisibility
 inkFinalConfigurationController = {}
 
 ---@param fields? inkFinalConfigurationController
 ---@return inkFinalConfigurationController
-function inkFinalConfigurationController.new(fields) return end
+function inkFinalConfigurationController.new(fields) end

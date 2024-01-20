@@ -5,4 +5,4 @@ IconicsReworkCompensateEvent = {}
 
 ---@param fields? IconicsReworkCompensateEvent
 ---@return IconicsReworkCompensateEvent
-function IconicsReworkCompensateEvent.new(fields) return end
+function IconicsReworkCompensateEvent.new(fields) end

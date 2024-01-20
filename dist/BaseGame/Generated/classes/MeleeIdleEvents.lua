@@ -5,14 +5,13 @@ MeleeIdleEvents = {}
 
 ---@param fields? MeleeIdleEvents
 ---@return MeleeIdleEvents
-function MeleeIdleEvents.new(fields) return end
+function MeleeIdleEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeIdleEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeIdleEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function MeleeIdleEvents:SetFlags(stateContext) return end
+function MeleeIdleEvents:SetFlags(stateContext) end

@@ -5,4 +5,4 @@ worldRuntimeSystemDebugRendering = {}
 
 ---@param fields? worldRuntimeSystemDebugRendering
 ---@return worldRuntimeSystemDebugRendering
-function worldRuntimeSystemDebugRendering.new(fields) return end
+function worldRuntimeSystemDebugRendering.new(fields) end

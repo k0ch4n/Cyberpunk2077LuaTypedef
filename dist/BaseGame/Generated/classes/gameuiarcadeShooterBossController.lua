@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeShooterBossController: gameuiarcadeShooterAIBase
----@field public customBoundSize Bool
----@field public bossSize Vector2
+---@field customBoundSize Bool
+---@field bossSize Vector2
 gameuiarcadeShooterBossController = {}
 
 ---@param fields? gameuiarcadeShooterBossController
 ---@return gameuiarcadeShooterBossController
-function gameuiarcadeShooterBossController.new(fields) return end
+function gameuiarcadeShooterBossController.new(fields) end

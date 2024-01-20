@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkDynamicTextureSlot
----@field public texture DynamicTexture
----@field public parts inkTextureAtlasMapper[]
+---@field texture DynamicTexture
+---@field parts inkTextureAtlasMapper[]
 inkDynamicTextureSlot = {}
 
 ---@param fields? inkDynamicTextureSlot
 ---@return inkDynamicTextureSlot
-function inkDynamicTextureSlot.new(fields) return end
+function inkDynamicTextureSlot.new(fields) end

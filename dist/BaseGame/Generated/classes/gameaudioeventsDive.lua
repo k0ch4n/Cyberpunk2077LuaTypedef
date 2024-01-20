@@ -5,4 +5,4 @@ gameaudioeventsDive = {}
 
 ---@param fields? gameaudioeventsDive
 ---@return gameaudioeventsDive
-function gameaudioeventsDive.new(fields) return end
+function gameaudioeventsDive.new(fields) end

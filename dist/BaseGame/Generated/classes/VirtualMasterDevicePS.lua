@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class VirtualMasterDevicePS: ScriptableDeviceComponentPS
----@field public owner IScriptable
----@field public globalActions gamedeviceAction[]
----@field protected context gameGetActionsContext
----@field public connectedDevices gameDeviceComponentPS[]
+---@field owner IScriptable
+---@field globalActions gamedeviceAction[]
+---@field context gameGetActionsContext
+---@field connectedDevices gameDeviceComponentPS[]
 VirtualMasterDevicePS = {}
 
 ---@param fields? VirtualMasterDevicePS
 ---@return VirtualMasterDevicePS
-function VirtualMasterDevicePS.new(fields) return end
+function VirtualMasterDevicePS.new(fields) end
 
----@protected
 ---@param devices gameDeviceComponentPS[]
 ---@param on Bool
 ---@return nil
-function VirtualMasterDevicePS:DoCustomShit(devices, on) return end
+function VirtualMasterDevicePS:DoCustomShit(devices, on) end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@return nil
-function VirtualMasterDevicePS:GetGlobalActions(actions) return end
+function VirtualMasterDevicePS:GetGlobalActions(actions) end
 
 ---@return nil
-function VirtualMasterDevicePS:InitializeVirtualDevice() return end
+function VirtualMasterDevicePS:InitializeVirtualDevice() end

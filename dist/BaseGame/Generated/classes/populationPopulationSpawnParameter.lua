@@ -5,4 +5,4 @@ populationPopulationSpawnParameter = {}
 
 ---@param fields? populationPopulationSpawnParameter
 ---@return populationPopulationSpawnParameter
-function populationPopulationSpawnParameter.new(fields) return end
+function populationPopulationSpawnParameter.new(fields) end

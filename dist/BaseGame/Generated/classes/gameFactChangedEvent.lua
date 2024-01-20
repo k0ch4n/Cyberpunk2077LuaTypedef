@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameFactChangedEvent: redEvent
----@field public factName CName
+---@field factName CName
 gameFactChangedEvent = {}
 
 ---@param fields? gameFactChangedEvent
 ---@return gameFactChangedEvent
-function gameFactChangedEvent.new(fields) return end
+function gameFactChangedEvent.new(fields) end
 
 ---@return CName
-function gameFactChangedEvent:GetFactName() return end
+function gameFactChangedEvent:GetFactName() end

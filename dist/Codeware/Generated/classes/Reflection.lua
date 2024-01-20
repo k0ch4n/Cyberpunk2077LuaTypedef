@@ -5,45 +5,45 @@ Reflection = {}
 
 ---@param fields? Reflection
 ---@return Reflection
-function Reflection.new(fields) return end
+function Reflection.new(fields) end
 
 ---@param name CName|string
 ---@return ReflectionClass
-function Reflection.GetClass(name) return end
+function Reflection.GetClass(name) end
 
 ---@param object Variant
 ---@param actual? Bool
 ---@return ReflectionClass
-function Reflection.GetClassOf(object, actual) return end
+function Reflection.GetClassOf(object, actual) end
 
 ---@return ReflectionClass[]
-function Reflection.GetClasses() return end
+function Reflection.GetClasses() end
 
 ---@param base CName|string
 ---@return ReflectionClass[]
-function Reflection.GetDerivedClasses(base) return end
+function Reflection.GetDerivedClasses(base) end
 
 ---@param name CName|string
 ---@return ReflectionEnum
-function Reflection.GetEnum(name) return end
+function Reflection.GetEnum(name) end
 
 ---@return ReflectionEnum[]
-function Reflection.GetEnums() return end
+function Reflection.GetEnums() end
 
 ---@param name CName|string
 ---@return ReflectionStaticFunc
-function Reflection.GetGlobalFunction(name) return end
+function Reflection.GetGlobalFunction(name) end
 
 ---@return ReflectionStaticFunc[]
-function Reflection.GetGlobalFunctions() return end
+function Reflection.GetGlobalFunctions() end
 
 ---@param name CName|string
 ---@return ReflectionType
-function Reflection.GetType(name) return end
+function Reflection.GetType(name) end
 
 ---@param value Variant
 ---@return ReflectionType
-function Reflection.GetTypeOf(value) return end
+function Reflection.GetTypeOf(value) end
 
 ---@return ReflectionType[]
-function Reflection.GetTypes() return end
+function Reflection.GetTypes() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleDrawerMesh: IParticleDrawer
----@field public meshes CMesh[]
----@field public orientationMode EMeshParticleOrientationMode
+---@field meshes CMesh[]
+---@field orientationMode EMeshParticleOrientationMode
 CParticleDrawerMesh = {}
 
 ---@param fields? CParticleDrawerMesh
 ---@return CParticleDrawerMesh
-function CParticleDrawerMesh.new(fields) return end
+function CParticleDrawerMesh.new(fields) end

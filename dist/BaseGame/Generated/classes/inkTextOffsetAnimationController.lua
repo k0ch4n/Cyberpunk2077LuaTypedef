@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class inkTextOffsetAnimationController: inkTextAnimationController
----@field public timeToSkip Float
+---@field timeToSkip Float
 inkTextOffsetAnimationController = {}
 
 ---@param fields? inkTextOffsetAnimationController
 ---@return inkTextOffsetAnimationController
-function inkTextOffsetAnimationController.new(fields) return end
+function inkTextOffsetAnimationController.new(fields) end
 
 ---@return String
-function inkTextOffsetAnimationController:GetBaseText() return end
+function inkTextOffsetAnimationController:GetBaseText() end
 
 ---@return Float
-function inkTextOffsetAnimationController:GetGlitchComplexity() return end
+function inkTextOffsetAnimationController:GetGlitchComplexity() end
 
 ---@return Float
-function inkTextOffsetAnimationController:GetTimeSkip() return end
+function inkTextOffsetAnimationController:GetTimeSkip() end
 
 ---@param text String
 ---@return nil
-function inkTextOffsetAnimationController:SetBaseText(text) return end
+function inkTextOffsetAnimationController:SetBaseText(text) end
 
 ---@param timeSkipValue Float
 ---@return nil
-function inkTextOffsetAnimationController:SetTimeSkip(timeSkipValue) return end
+function inkTextOffsetAnimationController:SetTimeSkip(timeSkipValue) end

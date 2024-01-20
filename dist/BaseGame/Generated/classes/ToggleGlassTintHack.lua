@@ -5,4 +5,4 @@ ToggleGlassTintHack = {}
 
 ---@param fields? ToggleGlassTintHack
 ---@return ToggleGlassTintHack
-function ToggleGlassTintHack.new(fields) return end
+function ToggleGlassTintHack.new(fields) end

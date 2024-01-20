@@ -1,24 +1,23 @@
 ---@meta
 
 ---@class MessengerTypingIndicator: inkWidgetLogicController
----@field private container inkWidgetReference
----@field private nameText inkTextWidgetReference
----@field private textParams textTextParameterSet
+---@field container inkWidgetReference
+---@field nameText inkTextWidgetReference
+---@field textParams textTextParameterSet
 MessengerTypingIndicator = {}
 
 ---@param fields? MessengerTypingIndicator
 ---@return MessengerTypingIndicator
-function MessengerTypingIndicator.new(fields) return end
+function MessengerTypingIndicator.new(fields) end
 
----@protected
 ---@return Bool
-function MessengerTypingIndicator:OnInitialize() return end
+function MessengerTypingIndicator:OnInitialize() end
 
 ---@param contactName String
 ---@return nil
-function MessengerTypingIndicator:SetName(contactName) return end
+function MessengerTypingIndicator:SetName(contactName) end
 
 ---@param isPlayer Bool
 ---@param isTyping? Bool
 ---@return nil
-function MessengerTypingIndicator:SetPlayerTypingStyle(isPlayer, isTyping) return end
+function MessengerTypingIndicator:SetPlayerTypingStyle(isPlayer, isTyping) end

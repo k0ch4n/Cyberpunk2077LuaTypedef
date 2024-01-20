@@ -5,4 +5,4 @@ SetSlowMoForOnePunchAttackEvent = {}
 
 ---@param fields? SetSlowMoForOnePunchAttackEvent
 ---@return SetSlowMoForOnePunchAttackEvent
-function SetSlowMoForOnePunchAttackEvent.new(fields) return end
+function SetSlowMoForOnePunchAttackEvent.new(fields) end

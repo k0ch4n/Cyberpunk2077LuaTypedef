@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameStatusEffectTDBPicker
----@field public statusEffect TweakDBID
+---@field statusEffect TweakDBID
 gameStatusEffectTDBPicker = {}
 
 ---@param fields? gameStatusEffectTDBPicker
 ---@return gameStatusEffectTDBPicker
-function gameStatusEffectTDBPicker.new(fields) return end
+function gameStatusEffectTDBPicker.new(fields) end

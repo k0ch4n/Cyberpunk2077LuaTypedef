@@ -5,4 +5,4 @@ senseBaseStimuliEvent = {}
 
 ---@param fields? senseBaseStimuliEvent
 ---@return senseBaseStimuliEvent
-function senseBaseStimuliEvent.new(fields) return end
+function senseBaseStimuliEvent.new(fields) end

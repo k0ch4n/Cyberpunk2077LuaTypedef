@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class meshMeshParamWorkspotOffsets: meshMeshParameter
----@field public names CName[]
----@field public offsets Matrix[]
+---@field names CName[]
+---@field offsets Matrix[]
 meshMeshParamWorkspotOffsets = {}
 
 ---@param fields? meshMeshParamWorkspotOffsets
 ---@return meshMeshParamWorkspotOffsets
-function meshMeshParamWorkspotOffsets.new(fields) return end
+function meshMeshParamWorkspotOffsets.new(fields) end

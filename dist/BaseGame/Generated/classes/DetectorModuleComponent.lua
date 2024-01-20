@@ -5,9 +5,8 @@ DetectorModuleComponent = {}
 
 ---@param fields? DetectorModuleComponent
 ---@return DetectorModuleComponent
-function DetectorModuleComponent.new(fields) return end
+function DetectorModuleComponent.new(fields) end
 
----@protected
 ---@param evt senseVisibilityEvent
 ---@return Bool
-function DetectorModuleComponent:OnSenseVisibilityEvent(evt) return end
+function DetectorModuleComponent:OnSenseVisibilityEvent(evt) end

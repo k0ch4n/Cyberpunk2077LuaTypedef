@@ -5,4 +5,4 @@ HitIsBodyPartHeadPrereq = {}
 
 ---@param fields? HitIsBodyPartHeadPrereq
 ---@return HitIsBodyPartHeadPrereq
-function HitIsBodyPartHeadPrereq.new(fields) return end
+function HitIsBodyPartHeadPrereq.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class VehEntityPlayerStateData
----@field public entID entEntityID
----@field public state Int32
+---@field entID entEntityID
+---@field state Int32
 VehEntityPlayerStateData = {}
 
 ---@param fields? VehEntityPlayerStateData
 ---@return VehEntityPlayerStateData
-function VehEntityPlayerStateData.new(fields) return end
+function VehEntityPlayerStateData.new(fields) end

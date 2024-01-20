@@ -5,4 +5,4 @@ workMotionAnimClip = {}
 
 ---@param fields? workMotionAnimClip
 ---@return workMotionAnimClip
-function workMotionAnimClip.new(fields) return end
+function workMotionAnimClip.new(fields) end

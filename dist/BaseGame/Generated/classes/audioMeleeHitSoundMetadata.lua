@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioMeleeHitSoundMetadata: audioAudioMetadata
----@field public meleeSoundsByMaterial audioMaterialMeleeSoundDictionary
+---@field meleeSoundsByMaterial audioMaterialMeleeSoundDictionary
 audioMeleeHitSoundMetadata = {}
 
 ---@param fields? audioMeleeHitSoundMetadata
 ---@return audioMeleeHitSoundMetadata
-function audioMeleeHitSoundMetadata.new(fields) return end
+function audioMeleeHitSoundMetadata.new(fields) end

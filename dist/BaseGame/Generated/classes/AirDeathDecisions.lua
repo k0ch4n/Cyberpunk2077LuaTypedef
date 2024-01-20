@@ -5,16 +5,14 @@ AirDeathDecisions = {}
 
 ---@param fields? AirDeathDecisions
 ---@return AirDeathDecisions
-function AirDeathDecisions.new(fields) return end
+function AirDeathDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AirDeathDecisions:EnterCondition(stateContext, scriptInterface) return end
+function AirDeathDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AirDeathDecisions:ToSwimmingDeath(stateContext, scriptInterface) return end
+function AirDeathDecisions:ToSwimmingDeath(stateContext, scriptInterface) end

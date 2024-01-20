@@ -5,7 +5,7 @@ InteractiveAdController = {}
 
 ---@param fields? InteractiveAdController
 ---@return InteractiveAdController
-function InteractiveAdController.new(fields) return end
+function InteractiveAdController.new(fields) end
 
 ---@return InteractiveAdControllerPS
-function InteractiveAdController:GetPS() return end
+function InteractiveAdController:GetPS() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PreventionSystemConfig
----@field public record TweakDBID
+---@field record TweakDBID
 PreventionSystemConfig = {}
 
 ---@param fields? PreventionSystemConfig
 ---@return PreventionSystemConfig
-function PreventionSystemConfig.new(fields) return end
+function PreventionSystemConfig.new(fields) end

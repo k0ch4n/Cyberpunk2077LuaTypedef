@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorSignalConditionDefinition: AIbehaviorConditionDefinition
----@field public signalName CName
----@field public mode AIbehaviorSignalConditionModes
----@field public tagSignal Bool
+---@field signalName CName
+---@field mode AIbehaviorSignalConditionModes
+---@field tagSignal Bool
 AIbehaviorSignalConditionDefinition = {}
 
 ---@param fields? AIbehaviorSignalConditionDefinition
 ---@return AIbehaviorSignalConditionDefinition
-function AIbehaviorSignalConditionDefinition.new(fields) return end
+function AIbehaviorSignalConditionDefinition.new(fields) end

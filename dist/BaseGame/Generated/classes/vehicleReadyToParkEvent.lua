@@ -5,4 +5,4 @@ vehicleReadyToParkEvent = {}
 
 ---@param fields? vehicleReadyToParkEvent
 ---@return vehicleReadyToParkEvent
-function vehicleReadyToParkEvent.new(fields) return end
+function vehicleReadyToParkEvent.new(fields) end

@@ -5,4 +5,4 @@ gameFreeCameraComponent = {}
 
 ---@param fields? gameFreeCameraComponent
 ---@return gameFreeCameraComponent
-function gameFreeCameraComponent.new(fields) return end
+function gameFreeCameraComponent.new(fields) end

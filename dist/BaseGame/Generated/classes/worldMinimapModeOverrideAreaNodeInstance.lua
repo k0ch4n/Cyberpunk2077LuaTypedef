@@ -5,4 +5,4 @@ worldMinimapModeOverrideAreaNodeInstance = {}
 
 ---@param fields? worldMinimapModeOverrideAreaNodeInstance
 ---@return worldMinimapModeOverrideAreaNodeInstance
-function worldMinimapModeOverrideAreaNodeInstance.new(fields) return end
+function worldMinimapModeOverrideAreaNodeInstance.new(fields) end

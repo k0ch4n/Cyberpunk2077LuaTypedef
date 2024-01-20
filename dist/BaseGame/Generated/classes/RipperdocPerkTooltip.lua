@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class RipperdocPerkTooltip: AGenericTooltipController
----@field private perkName inkTextWidgetReference
----@field private perkIcon inkImageWidgetReference
----@field private skeletonPerkLocKey CName
----@field private handsPerkLocKey CName
----@field private skeletonPerkIconName CName
----@field private handsPerkIconName CName
+---@field perkName inkTextWidgetReference
+---@field perkIcon inkImageWidgetReference
+---@field skeletonPerkLocKey CName
+---@field handsPerkLocKey CName
+---@field skeletonPerkIconName CName
+---@field handsPerkIconName CName
 RipperdocPerkTooltip = {}
 
 ---@param fields? RipperdocPerkTooltip
 ---@return RipperdocPerkTooltip
-function RipperdocPerkTooltip.new(fields) return end
+function RipperdocPerkTooltip.new(fields) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function RipperdocPerkTooltip:SetData(tooltipData) return end
+function RipperdocPerkTooltip:SetData(tooltipData) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class scneventsMountEvent: scnSceneEvent
----@field public parent scnPerformerId
----@field public child scnPerformerId
----@field public slotName CName
----@field public carryStyle gamePSMBodyCarryingStyle
----@field public isInstant Bool
----@field public removePitchRollRotationOnDismount Bool
----@field public keepTransform Bool
----@field public isCarrying Bool
----@field public switchRenderPlane Bool
+---@field parent scnPerformerId
+---@field child scnPerformerId
+---@field slotName CName
+---@field carryStyle gamePSMBodyCarryingStyle
+---@field isInstant Bool
+---@field removePitchRollRotationOnDismount Bool
+---@field keepTransform Bool
+---@field isCarrying Bool
+---@field switchRenderPlane Bool
 scneventsMountEvent = {}
 
 ---@param fields? scneventsMountEvent
 ---@return scneventsMountEvent
-function scneventsMountEvent.new(fields) return end
+function scneventsMountEvent.new(fields) end

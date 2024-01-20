@@ -5,10 +5,10 @@ vehicleAVBaseObject = {}
 
 ---@param fields? vehicleAVBaseObject
 ---@return vehicleAVBaseObject
-function vehicleAVBaseObject.new(fields) return end
+function vehicleAVBaseObject.new(fields) end
 
 ---@return nil
-function vehicleAVBaseObject:TurnOffThrusters() return end
+function vehicleAVBaseObject:TurnOffThrusters() end
 
 ---@return nil
-function vehicleAVBaseObject:TurnOnThrusters() return end
+function vehicleAVBaseObject:TurnOnThrusters() end

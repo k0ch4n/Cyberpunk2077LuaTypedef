@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SpawnerData
----@field public spawnerID entEntityID
----@field public entryNames CName[]
+---@field spawnerID entEntityID
+---@field entryNames CName[]
 SpawnerData = {}
 
 ---@param fields? SpawnerData
 ---@return SpawnerData
-function SpawnerData.new(fields) return end
+function SpawnerData.new(fields) end
 
 ---@param id entEntityID
 ---@param entry CName|string
 ---@return SpawnerData
-function SpawnerData.Construct(id, entry) return end
+function SpawnerData.Construct(id, entry) end

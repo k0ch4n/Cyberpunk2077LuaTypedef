@@ -1,40 +1,34 @@
 ---@meta
 
 ---@class CarHotkeyController: GenericHotkeyController
----@field private carIconSlot inkImageWidgetReference
----@field private psmBB gameIBlackboard
----@field private qsdBB gameIBlackboard
----@field private bbListener redCallbackObject
----@field private radialListener redCallbackObject
+---@field carIconSlot inkImageWidgetReference
+---@field psmBB gameIBlackboard
+---@field qsdBB gameIBlackboard
+---@field bbListener redCallbackObject
+---@field radialListener redCallbackObject
 CarHotkeyController = {}
 
 ---@param fields? CarHotkeyController
 ---@return CarHotkeyController
-function CarHotkeyController.new(fields) return end
+function CarHotkeyController.new(fields) end
 
----@protected
 ---@param evt DPADActionPerformed
 ---@return Bool
-function CarHotkeyController:OnDpadActionPerformed(evt) return end
+function CarHotkeyController:OnDpadActionPerformed(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function CarHotkeyController:OnPlayerEnteredVehicle(value) return end
+function CarHotkeyController:OnPlayerEnteredVehicle(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function CarHotkeyController:OnRadialMenuShown(value) return end
+function CarHotkeyController:OnRadialMenuShown(value) end
 
----@protected
 ---@return Bool
-function CarHotkeyController:Initialize() return end
+function CarHotkeyController:Initialize() end
 
----@protected
 ---@return Bool
-function CarHotkeyController:IsAllowedByGameplay() return end
+function CarHotkeyController:IsAllowedByGameplay() end
 
----@protected
 ---@return nil
-function CarHotkeyController:Uninitialize() return end
+function CarHotkeyController:Uninitialize() end

@@ -1,57 +1,54 @@
 ---@meta
 
 ---@class DeviceActionWidgetControllerBase: DeviceButtonLogicControllerBase
----@field protected actions gamedeviceAction[]
----@field protected actionData ResolveActionData
----@field protected isInactive Bool
+---@field actions gamedeviceAction[]
+---@field actionData ResolveActionData
+---@field isInactive Bool
 DeviceActionWidgetControllerBase = {}
 
 ---@param fields? DeviceActionWidgetControllerBase
 ---@return DeviceActionWidgetControllerBase
-function DeviceActionWidgetControllerBase.new(fields) return end
+function DeviceActionWidgetControllerBase.new(fields) end
 
 ---@param action gamedeviceAction
 ---@return nil
-function DeviceActionWidgetControllerBase:AddAction(action) return end
+function DeviceActionWidgetControllerBase:AddAction(action) end
 
 ---@return Bool
-function DeviceActionWidgetControllerBase:CanExecuteAction() return end
+function DeviceActionWidgetControllerBase:CanExecuteAction() end
 
 ---@return nil
-function DeviceActionWidgetControllerBase:ClearButtonActions() return end
+function DeviceActionWidgetControllerBase:ClearButtonActions() end
 
 ---@param executor gameObject
 ---@param action gamedeviceAction
 ---@return nil
-function DeviceActionWidgetControllerBase:FinalizeActionExecution(executor, action) return end
+function DeviceActionWidgetControllerBase:FinalizeActionExecution(executor, action) end
 
 ---@return gamedeviceAction[]
-function DeviceActionWidgetControllerBase:GetActions() return end
+function DeviceActionWidgetControllerBase:GetActions() end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceActionWidgetControllerBase:Initialize(gameController, widgetData) return end
+function DeviceActionWidgetControllerBase:Initialize(gameController, widgetData) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function DeviceActionWidgetControllerBase:RegisterDeviceActionCallback(gameController) return end
+function DeviceActionWidgetControllerBase:RegisterDeviceActionCallback(gameController) end
 
 ---@param action gamedeviceAction
 ---@return nil
-function DeviceActionWidgetControllerBase:RemoveAction(action) return end
+function DeviceActionWidgetControllerBase:RemoveAction(action) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceActionWidgetControllerBase:ResolveAction(widgetData) return end
+function DeviceActionWidgetControllerBase:ResolveAction(widgetData) end
 
----@protected
 ---@param state EWidgetState
 ---@return nil
-function DeviceActionWidgetControllerBase:ResolveWidgetState(state) return end
+function DeviceActionWidgetControllerBase:ResolveWidgetState(state) end
 
 ---@param actions gamedeviceAction[]
 ---@return nil
-function DeviceActionWidgetControllerBase:SetActions(actions) return end
+function DeviceActionWidgetControllerBase:SetActions(actions) end

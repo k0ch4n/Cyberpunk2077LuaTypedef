@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsRemoveStatusEffect: gameeventsStatusEffectEvent
----@field public isFinalRemoval Bool
+---@field isFinalRemoval Bool
 gameeventsRemoveStatusEffect = {}
 
 ---@param fields? gameeventsRemoveStatusEffect
 ---@return gameeventsRemoveStatusEffect
-function gameeventsRemoveStatusEffect.new(fields) return end
+function gameeventsRemoveStatusEffect.new(fields) end

@@ -5,7 +5,7 @@ gamedataCrosshair_Record = {}
 
 ---@param fields? gamedataCrosshair_Record
 ---@return gamedataCrosshair_Record
-function gamedataCrosshair_Record.new(fields) return end
+function gamedataCrosshair_Record.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataCrosshair_Record:WidgetResourcePath() return end
+function gamedataCrosshair_Record:WidgetResourcePath() end

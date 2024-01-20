@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class ItemTooltipWeaponInfoModule: ItemTooltipModuleController
----@field private wrapper inkWidgetReference
----@field private arrow inkImageWidgetReference
----@field private dpsText inkTextWidgetReference
----@field private perHitText inkTextWidgetReference
----@field private attacksPerSecondText inkTextWidgetReference
----@field private nonLethal inkTextWidgetReference
----@field private scopeIndicator inkWidgetReference
----@field private silencerIndicator inkWidgetReference
----@field private ammoText inkTextWidgetReference
----@field private ammoWrapper inkWidgetReference
+---@field wrapper inkWidgetReference
+---@field arrow inkImageWidgetReference
+---@field dpsText inkTextWidgetReference
+---@field perHitText inkTextWidgetReference
+---@field attacksPerSecondText inkTextWidgetReference
+---@field nonLethal inkTextWidgetReference
+---@field scopeIndicator inkWidgetReference
+---@field silencerIndicator inkWidgetReference
+---@field ammoText inkTextWidgetReference
+---@field ammoWrapper inkWidgetReference
 ItemTooltipWeaponInfoModule = {}
 
 ---@param fields? ItemTooltipWeaponInfoModule
 ---@return ItemTooltipWeaponInfoModule
-function ItemTooltipWeaponInfoModule.new(fields) return end
+function ItemTooltipWeaponInfoModule.new(fields) end
 
 ---@param data UIInventoryItem
 ---@param comparisonData UIInventoryItemComparisonManager
 ---@return nil
-function ItemTooltipWeaponInfoModule:NEW_Update(data, comparisonData) return end
+function ItemTooltipWeaponInfoModule:NEW_Update(data, comparisonData) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipWeaponInfoModule:Update(data) return end
+function ItemTooltipWeaponInfoModule:Update(data) end

@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class RefreshPingEffector: gameEffector
----@field public squadMembers entEntityID[]
----@field public owner gameObject
+---@field squadMembers entEntityID[]
+---@field owner gameObject
 RefreshPingEffector = {}
 
 ---@param fields? RefreshPingEffector
 ---@return RefreshPingEffector
-function RefreshPingEffector.new(fields) return end
+function RefreshPingEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RefreshPingEffector:ActionOn(owner) return end
+function RefreshPingEffector:ActionOn(owner) end
 
 ---@param root gameObject
 ---@return nil
-function RefreshPingEffector:RefreshSquad(root) return end
+function RefreshPingEffector:RefreshSquad(root) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldLightChannelShapeNode: worldGeometryShapeNode
----@field public channels rendLightChannel
----@field public streamingDistanceFactor Float
+---@field channels rendLightChannel
+---@field streamingDistanceFactor Float
 worldLightChannelShapeNode = {}
 
 ---@param fields? worldLightChannelShapeNode
 ---@return worldLightChannelShapeNode
-function worldLightChannelShapeNode.new(fields) return end
+function worldLightChannelShapeNode.new(fields) end

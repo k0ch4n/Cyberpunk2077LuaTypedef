@@ -5,16 +5,14 @@ VehicleQuestRestrictedContextEvents = {}
 
 ---@param fields? VehicleQuestRestrictedContextEvents
 ---@return VehicleQuestRestrictedContextEvents
-function VehicleQuestRestrictedContextEvents.new(fields) return end
+function VehicleQuestRestrictedContextEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleQuestRestrictedContextEvents:OnEnter(stateContext, scriptInterface) return end
+function VehicleQuestRestrictedContextEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleQuestRestrictedContextEvents:OnExit(stateContext, scriptInterface) return end
+function VehicleQuestRestrictedContextEvents:OnExit(stateContext, scriptInterface) end

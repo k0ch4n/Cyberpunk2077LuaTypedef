@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class PhotoModeCameraLocation: inkWidgetLogicController
----@field public textWidget inkWidgetReference
+---@field textWidget inkWidgetReference
 PhotoModeCameraLocation = {}
 
 ---@param fields? PhotoModeCameraLocation
 ---@return PhotoModeCameraLocation
-function PhotoModeCameraLocation.new(fields) return end
+function PhotoModeCameraLocation.new(fields) end
 
 ---@return nil
-function PhotoModeCameraLocation:OnHide() return end
+function PhotoModeCameraLocation:OnHide() end
 
 ---@param photoModeSystem gamePhotoModeSystem
 ---@return nil
-function PhotoModeCameraLocation:RefreshValue(photoModeSystem) return end
+function PhotoModeCameraLocation:RefreshValue(photoModeSystem) end

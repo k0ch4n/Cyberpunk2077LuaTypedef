@@ -5,10 +5,9 @@ ConsumableStartupEvents = {}
 
 ---@param fields? ConsumableStartupEvents
 ---@return ConsumableStartupEvents
-function ConsumableStartupEvents.new(fields) return end
+function ConsumableStartupEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ConsumableStartupEvents:OnEnter(stateContext, scriptInterface) return end
+function ConsumableStartupEvents:OnEnter(stateContext, scriptInterface) end

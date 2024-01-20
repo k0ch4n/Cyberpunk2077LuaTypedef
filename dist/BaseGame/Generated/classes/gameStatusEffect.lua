@@ -1,55 +1,55 @@
 ---@meta
 
 ---@class gameStatusEffect: gameStatusEffectBase
----@field public durationID Uint32
----@field public duration Float
----@field public remainingDuration Float
----@field public maxStacks Uint32
----@field public sourcesData gameSourceData[]
----@field public initialApplicationTimestamp Float
----@field public lastApplicationTimestamp Float
----@field public ownerEntityID entEntityID
----@field public instigatorRecordID TweakDBID
----@field public instigatorEntityID entEntityID
----@field public proxyEntityID entEntityID
----@field public direction Vector4
----@field public removeAllStacksWhenDurationEnds Bool
----@field public applicationSource CName
+---@field durationID Uint32
+---@field duration Float
+---@field remainingDuration Float
+---@field maxStacks Uint32
+---@field sourcesData gameSourceData[]
+---@field initialApplicationTimestamp Float
+---@field lastApplicationTimestamp Float
+---@field ownerEntityID entEntityID
+---@field instigatorRecordID TweakDBID
+---@field instigatorEntityID entEntityID
+---@field proxyEntityID entEntityID
+---@field direction Vector4
+---@field removeAllStacksWhenDurationEnds Bool
+---@field applicationSource CName
 gameStatusEffect = {}
 
 ---@param fields? gameStatusEffect
 ---@return gameStatusEffect
-function gameStatusEffect.new(fields) return end
+function gameStatusEffect.new(fields) end
 
 ---@return Vector4
-function gameStatusEffect:GetDirection() return end
+function gameStatusEffect:GetDirection() end
 
 ---@return EngineTime
-function gameStatusEffect:GetInitialApplicationSimTimestamp() return end
+function gameStatusEffect:GetInitialApplicationSimTimestamp() end
 
 ---@return entEntityID
-function gameStatusEffect:GetInstigatorEntityID() return end
+function gameStatusEffect:GetInstigatorEntityID() end
 
 ---@return TweakDBID
-function gameStatusEffect:GetInstigatorStaticDataID() return end
+function gameStatusEffect:GetInstigatorStaticDataID() end
 
 ---@return EngineTime
-function gameStatusEffect:GetLastApplicationSimTimestamp() return end
+function gameStatusEffect:GetLastApplicationSimTimestamp() end
 
 ---@return Uint32
-function gameStatusEffect:GetMaxStacks() return end
+function gameStatusEffect:GetMaxStacks() end
 
 ---@return entEntityID
-function gameStatusEffect:GetProxyEntityID() return end
+function gameStatusEffect:GetProxyEntityID() end
 
 ---@return gamedataStatusEffect_Record
-function gameStatusEffect:GetRecord() return end
+function gameStatusEffect:GetRecord() end
 
 ---@return Float
-function gameStatusEffect:GetRemainingDuration() return end
+function gameStatusEffect:GetRemainingDuration() end
 
 ---@return Uint32
-function gameStatusEffect:GetStackCount() return end
+function gameStatusEffect:GetStackCount() end
 
 ---@return nil
-function gameStatusEffect:GetTotalDuration() return end
+function gameStatusEffect:GetTotalDuration() end

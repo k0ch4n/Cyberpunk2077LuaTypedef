@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioFoleyLoopMappingMetadata: audioAudioMetadata
----@field public loopsPerAppearance audioAppearanceToFoleyLoopMetadata[]
----@field public loopsPerVisualTag audioVisualTagToFoleyLoopMetadata[]
+---@field loopsPerAppearance audioAppearanceToFoleyLoopMetadata[]
+---@field loopsPerVisualTag audioVisualTagToFoleyLoopMetadata[]
 audioFoleyLoopMappingMetadata = {}
 
 ---@param fields? audioFoleyLoopMappingMetadata
 ---@return audioFoleyLoopMappingMetadata
-function audioFoleyLoopMappingMetadata.new(fields) return end
+function audioFoleyLoopMappingMetadata.new(fields) end

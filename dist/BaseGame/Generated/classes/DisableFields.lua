@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DisableFields: gameScriptableSystemRequest
----@field public actionMask SBraindanceInputMask
+---@field actionMask SBraindanceInputMask
 DisableFields = {}
 
 ---@param fields? DisableFields
 ---@return DisableFields
-function DisableFields.new(fields) return end
+function DisableFields.new(fields) end

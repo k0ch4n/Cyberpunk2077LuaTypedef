@@ -5,9 +5,8 @@ RemoveStatusEffectsOnStoryTier = {}
 
 ---@param fields? RemoveStatusEffectsOnStoryTier
 ---@return RemoveStatusEffectsOnStoryTier
-function RemoveStatusEffectsOnStoryTier.new(fields) return end
+function RemoveStatusEffectsOnStoryTier.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function RemoveStatusEffectsOnStoryTier:Activate(context) return end
+function RemoveStatusEffectsOnStoryTier:Activate(context) end

@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class CompareArguments: AIbehaviorconditionScript
----@field public var1 CName
----@field public var2 CName
+---@field var1 CName
+---@field var2 CName
 CompareArguments = {}

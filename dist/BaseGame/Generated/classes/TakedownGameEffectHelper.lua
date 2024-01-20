@@ -5,7 +5,7 @@ TakedownGameEffectHelper = {}
 
 ---@param fields? TakedownGameEffectHelper
 ---@return TakedownGameEffectHelper
-function TakedownGameEffectHelper.new(fields) return end
+function TakedownGameEffectHelper.new(fields) end
 
 ---@param executionOwner gameObject
 ---@param activator gameObject
@@ -14,4 +14,4 @@ function TakedownGameEffectHelper.new(fields) return end
 ---@param effectTag CName|string
 ---@param statusEffect? String
 ---@return Bool
-function TakedownGameEffectHelper.FillTakedownData(executionOwner, activator, target, effectName, effectTag, statusEffect) return end
+function TakedownGameEffectHelper.FillTakedownData(executionOwner, activator, target, effectName, effectTag, statusEffect) end

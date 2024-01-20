@@ -5,4 +5,4 @@ entTriggerComponent = {}
 
 ---@param fields? entTriggerComponent
 ---@return entTriggerComponent
-function entTriggerComponent.new(fields) return end
+function entTriggerComponent.new(fields) end

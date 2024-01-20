@@ -5,34 +5,34 @@ gamedataHomingGDM_Record = {}
 
 ---@param fields? gamedataHomingGDM_Record
 ---@return gamedataHomingGDM_Record
-function gamedataHomingGDM_Record.new(fields) return end
+function gamedataHomingGDM_Record.new(fields) end
 
 ---@return gamedataAccelerateTowardsParameters_Record
-function gamedataHomingGDM_Record:FlyToTargetParameters() return end
+function gamedataHomingGDM_Record:FlyToTargetParameters() end
 
 ---@return gamedataAccelerateTowardsParameters_Record
-function gamedataHomingGDM_Record:FlyToTargetParametersHandle() return end
+function gamedataHomingGDM_Record:FlyToTargetParametersHandle() end
 
 ---@return gamedataAccelerateTowardsParameters_Record
-function gamedataHomingGDM_Record:FlyUpParameters() return end
+function gamedataHomingGDM_Record:FlyUpParameters() end
 
 ---@return gamedataAccelerateTowardsParameters_Record
-function gamedataHomingGDM_Record:FlyUpParametersHandle() return end
+function gamedataHomingGDM_Record:FlyUpParametersHandle() end
 
 ---@return Float
-function gamedataHomingGDM_Record:FreezeDelay() return end
+function gamedataHomingGDM_Record:FreezeDelay() end
 
 ---@return Float
-function gamedataHomingGDM_Record:FreezeDelayAfterBounce() return end
+function gamedataHomingGDM_Record:FreezeDelayAfterBounce() end
 
 ---@return Float
-function gamedataHomingGDM_Record:FreezeDuration() return end
+function gamedataHomingGDM_Record:FreezeDuration() end
 
 ---@return Float
-function gamedataHomingGDM_Record:LockOnAltitude() return end
+function gamedataHomingGDM_Record:LockOnAltitude() end
 
 ---@return Float
-function gamedataHomingGDM_Record:LockOnDelay() return end
+function gamedataHomingGDM_Record:LockOnDelay() end
 
 ---@return Float
-function gamedataHomingGDM_Record:LockOnFailDetonationDelay() return end
+function gamedataHomingGDM_Record:LockOnFailDetonationDelay() end

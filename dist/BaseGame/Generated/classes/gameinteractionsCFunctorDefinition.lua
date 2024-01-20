@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameinteractionsCFunctorDefinition: gameinteractionsIFunctorDefinition
----@field public predicate gameinteractionsCPredicateDefinition
----@field public unaryOperator gameinteractionsEUnaryOperator
+---@field predicate gameinteractionsCPredicateDefinition
+---@field unaryOperator gameinteractionsEUnaryOperator
 gameinteractionsCFunctorDefinition = {}
 
 ---@param fields? gameinteractionsCFunctorDefinition
 ---@return gameinteractionsCFunctorDefinition
-function gameinteractionsCFunctorDefinition.new(fields) return end
+function gameinteractionsCFunctorDefinition.new(fields) end

@@ -5,7 +5,7 @@ gamedataVehicleFxWheelsDecalsMaterialSmear_Record = {}
 
 ---@param fields? gamedataVehicleFxWheelsDecalsMaterialSmear_Record
 ---@return gamedataVehicleFxWheelsDecalsMaterialSmear_Record
-function gamedataVehicleFxWheelsDecalsMaterialSmear_Record.new(fields) return end
+function gamedataVehicleFxWheelsDecalsMaterialSmear_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleFxWheelsDecalsMaterialSmear_Record:Distance() return end
+function gamedataVehicleFxWheelsDecalsMaterialSmear_Record:Distance() end

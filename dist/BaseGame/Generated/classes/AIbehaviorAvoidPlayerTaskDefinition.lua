@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorAvoidPlayerTaskDefinition: AIbehaviorTaskDefinition
----@field public threatRadius AIArgumentMapping
+---@field threatRadius AIArgumentMapping
 AIbehaviorAvoidPlayerTaskDefinition = {}
 
 ---@param fields? AIbehaviorAvoidPlayerTaskDefinition
 ---@return AIbehaviorAvoidPlayerTaskDefinition
-function AIbehaviorAvoidPlayerTaskDefinition.new(fields) return end
+function AIbehaviorAvoidPlayerTaskDefinition.new(fields) end

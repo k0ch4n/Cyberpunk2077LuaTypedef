@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiarcadeShooterLayerInfo
----@field public referenceWidget inkWidgetReference
----@field public planeRelativeValue Vector2
----@field public layerName CName
+---@field referenceWidget inkWidgetReference
+---@field planeRelativeValue Vector2
+---@field layerName CName
 gameuiarcadeShooterLayerInfo = {}
 
 ---@param fields? gameuiarcadeShooterLayerInfo
 ---@return gameuiarcadeShooterLayerInfo
-function gameuiarcadeShooterLayerInfo.new(fields) return end
+function gameuiarcadeShooterLayerInfo.new(fields) end

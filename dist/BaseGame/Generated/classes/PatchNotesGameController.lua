@@ -1,75 +1,64 @@
 ---@meta
 
 ---@class PatchNotesGameController: gameuiWidgetGameController
----@field private ["21NotesContainerRef"] inkWidgetReference
----@field private ["20NotesContainerRef"] inkWidgetReference
----@field private itemLibraryName CName
----@field private introAnimationName CName
----@field private outroAnimationName CName
----@field private closeButtonRef inkWidgetReference
----@field private uiSystem gameuiGameSystemUI
----@field private introAnimProxy inkanimProxy
----@field private isInputBlocked Bool
----@field private data PatchNotesPopupData
----@field private requestHandler inkISystemRequestsHandler
+---@field ["21NotesContainerRef"] inkWidgetReference
+---@field ["20NotesContainerRef"] inkWidgetReference
+---@field itemLibraryName CName
+---@field introAnimationName CName
+---@field outroAnimationName CName
+---@field closeButtonRef inkWidgetReference
+---@field uiSystem gameuiGameSystemUI
+---@field introAnimProxy inkanimProxy
+---@field isInputBlocked Bool
+---@field data PatchNotesPopupData
+---@field requestHandler inkISystemRequestsHandler
 PatchNotesGameController = {}
 
 ---@param fields? PatchNotesGameController
 ---@return PatchNotesGameController
-function PatchNotesGameController.new(fields) return end
+function PatchNotesGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PatchNotesGameController:OnGlobalRelease(evt) return end
+function PatchNotesGameController:OnGlobalRelease(evt) end
 
----@protected
 ---@return Bool
-function PatchNotesGameController:OnInitialize() return end
+function PatchNotesGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PatchNotesGameController:OnIntroAnimationFinished(proxy) return end
+function PatchNotesGameController:OnIntroAnimationFinished(proxy) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function PatchNotesGameController:OnNoteSpawned(widget, userData) return end
+function PatchNotesGameController:OnNoteSpawned(widget, userData) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PatchNotesGameController:OnOutroAnimationFinished(proxy) return end
+function PatchNotesGameController:OnOutroAnimationFinished(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PatchNotesGameController:OnPressClose(evt) return end
+function PatchNotesGameController:OnPressClose(evt) end
 
----@protected
 ---@return Bool
-function PatchNotesGameController:OnUninitialize() return end
+function PatchNotesGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function PatchNotesGameController:Close() return end
+function PatchNotesGameController:Close() end
 
----@private
 ---@param animationName CName|string
 ---@param playbackOptions? inkanimPlaybackOptions
 ---@return nil
-function PatchNotesGameController:PlayAnimation(animationName, playbackOptions) return end
+function PatchNotesGameController:PlayAnimation(animationName, playbackOptions) end
 
----@private
 ---@return nil
-function PatchNotesGameController:PopulateNotesList() return end
+function PatchNotesGameController:PopulateNotesList() end
 
----@private
 ---@param title CName|string
 ---@param description CName|string
 ---@param patch CName|string
 ---@param imagePart CName|string
 ---@return nil
-function PatchNotesGameController:SpawnNote(title, description, patch, imagePart) return end
+function PatchNotesGameController:SpawnNote(title, description, patch, imagePart) end

@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class scnSceneSystemGlobalSettings
----@field public syncLipsyncToSceneTime Bool
+---@field syncLipsyncToSceneTime Bool
 scnSceneSystemGlobalSettings = {}

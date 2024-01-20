@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameEffectPreAction_VisualEffectAtPosition: gameEffectPreAction
----@field public effect worldEffect
----@field public attached Bool
----@field public breakLoopOnDetach Bool
----@field public vertical Bool
----@field public effectTag CName
+---@field effect worldEffect
+---@field attached Bool
+---@field breakLoopOnDetach Bool
+---@field vertical Bool
+---@field effectTag CName
 gameEffectPreAction_VisualEffectAtPosition = {}
 
 ---@param fields? gameEffectPreAction_VisualEffectAtPosition
 ---@return gameEffectPreAction_VisualEffectAtPosition
-function gameEffectPreAction_VisualEffectAtPosition.new(fields) return end
+function gameEffectPreAction_VisualEffectAtPosition.new(fields) end

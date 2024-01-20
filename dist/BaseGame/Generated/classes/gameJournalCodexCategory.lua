@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalCodexCategory: gameJournalFileEntry
----@field public categoryName LocalizationString
+---@field categoryName LocalizationString
 gameJournalCodexCategory = {}
 
 ---@param fields? gameJournalCodexCategory
 ---@return gameJournalCodexCategory
-function gameJournalCodexCategory.new(fields) return end
+function gameJournalCodexCategory.new(fields) end
 
 ---@return String
-function gameJournalCodexCategory:GetCategoryName() return end
+function gameJournalCodexCategory:GetCategoryName() end

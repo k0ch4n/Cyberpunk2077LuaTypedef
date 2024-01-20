@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkFullscreenCompositionResource: CResource
----@field public compositionPresets inkCompositionPreset[]
----@field public backgroundMenuTextureUHDRes CBitmapTexture
----@field public backgroundMenuTextureFHDRes CBitmapTexture
----@field public previewSettings inkCompositionPreviewSettings
+---@field compositionPresets inkCompositionPreset[]
+---@field backgroundMenuTextureUHDRes CBitmapTexture
+---@field backgroundMenuTextureFHDRes CBitmapTexture
+---@field previewSettings inkCompositionPreviewSettings
 inkFullscreenCompositionResource = {}
 
 ---@param fields? inkFullscreenCompositionResource
 ---@return inkFullscreenCompositionResource
-function inkFullscreenCompositionResource.new(fields) return end
+function inkFullscreenCompositionResource.new(fields) end

@@ -5,4 +5,4 @@ gameItemEventsPropagateRenderingPlane = {}
 
 ---@param fields? gameItemEventsPropagateRenderingPlane
 ---@return gameItemEventsPropagateRenderingPlane
-function gameItemEventsPropagateRenderingPlane.new(fields) return end
+function gameItemEventsPropagateRenderingPlane.new(fields) end

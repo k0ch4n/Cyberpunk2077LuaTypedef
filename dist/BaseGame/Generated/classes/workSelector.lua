@@ -5,4 +5,4 @@ workSelector = {}
 
 ---@param fields? workSelector
 ---@return workSelector
-function workSelector.new(fields) return end
+function workSelector.new(fields) end

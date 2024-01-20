@@ -5,4 +5,4 @@ gameObjectDeathListener = {}
 
 ---@param fields? gameObjectDeathListener
 ---@return gameObjectDeathListener
-function gameObjectDeathListener.new(fields) return end
+function gameObjectDeathListener.new(fields) end

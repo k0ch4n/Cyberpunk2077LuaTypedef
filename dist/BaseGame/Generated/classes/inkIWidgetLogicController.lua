@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class inkIWidgetLogicController: IScriptable
----@field public audioMetadataName CName
+---@field audioMetadataName CName
 inkIWidgetLogicController = {}

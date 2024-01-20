@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameFuncCallEntry: ISerializable
----@field public callTime EngineTime
----@field public callId Uint32
+---@field callTime EngineTime
+---@field callId Uint32
 gameFuncCallEntry = {}
 
 ---@param fields? gameFuncCallEntry
 ---@return gameFuncCallEntry
-function gameFuncCallEntry.new(fields) return end
+function gameFuncCallEntry.new(fields) end

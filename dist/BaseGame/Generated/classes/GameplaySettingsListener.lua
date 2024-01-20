@@ -1,65 +1,59 @@
 ---@meta
 
 ---@class GameplaySettingsListener: userSettingsVarListener
----@field private player PlayerPuppet
----@field private userSettings userSettingsUserSettings
----@field private diffSettingsGroup userSettingsGroup
----@field private miscSettingsGroup userSettingsGroup
----@field private controlsGroup userSettingsGroup
----@field private vehicleControlsGroup userSettingsGroup
----@field private hudGroup userSettingsGroup
----@field public additiveCameraMovements Float
----@field public isFastForwardByLine Bool
----@field public InputHintsEnabled Bool
----@field public movementDodgeEnabled Bool
----@field public vehicleCombatHoldToShootEnabled Bool
----@field private difficultyPath CName
----@field private miscPath CName
----@field private controlsPath CName
----@field private vehicleControlsPath CName
----@field private hudPath CName
----@field private additiveCameraOptionName CName
----@field private fastForwardOptionName CName
----@field private inputHintsOptionName CName
----@field private movementDodgeOptionName CName
----@field private vehicleCombatHoldToShootOptionName CName
+---@field player PlayerPuppet
+---@field userSettings userSettingsUserSettings
+---@field diffSettingsGroup userSettingsGroup
+---@field miscSettingsGroup userSettingsGroup
+---@field controlsGroup userSettingsGroup
+---@field vehicleControlsGroup userSettingsGroup
+---@field hudGroup userSettingsGroup
+---@field additiveCameraMovements Float
+---@field isFastForwardByLine Bool
+---@field InputHintsEnabled Bool
+---@field movementDodgeEnabled Bool
+---@field vehicleCombatHoldToShootEnabled Bool
+---@field difficultyPath CName
+---@field miscPath CName
+---@field controlsPath CName
+---@field vehicleControlsPath CName
+---@field hudPath CName
+---@field additiveCameraOptionName CName
+---@field fastForwardOptionName CName
+---@field inputHintsOptionName CName
+---@field movementDodgeOptionName CName
+---@field vehicleCombatHoldToShootOptionName CName
 GameplaySettingsListener = {}
 
 ---@param fields? GameplaySettingsListener
 ---@return GameplaySettingsListener
-function GameplaySettingsListener.new(fields) return end
+function GameplaySettingsListener.new(fields) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function GameplaySettingsListener:Initialize(player) return end
+function GameplaySettingsListener:Initialize(player) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function GameplaySettingsListener:OnVarModified(groupPath, varName, varType, reason) return end
+function GameplaySettingsListener:OnVarModified(groupPath, varName, varType, reason) end
 
----@private
 ---@return nil
-function GameplaySettingsListener:RefreshAdditiveCameraMovementsSetting() return end
+function GameplaySettingsListener:RefreshAdditiveCameraMovementsSetting() end
 
----@private
 ---@return nil
-function GameplaySettingsListener:RestoreJohnnyRelatedState() return end
+function GameplaySettingsListener:RestoreJohnnyRelatedState() end
 
----@private
 ---@return nil
-function GameplaySettingsListener:UpdateFFSetting() return end
+function GameplaySettingsListener:UpdateFFSetting() end
 
----@private
 ---@return nil
-function GameplaySettingsListener:UpdateInputHintsEnabled() return end
+function GameplaySettingsListener:UpdateInputHintsEnabled() end
 
----@private
 ---@return nil
-function GameplaySettingsListener:UpdateMovementDodgeSettings() return end
+function GameplaySettingsListener:UpdateMovementDodgeSettings() end
 
----@private
 ---@return nil
-function GameplaySettingsListener:UpdateVehicleCombatHoldToShootSettings() return end
+function GameplaySettingsListener:UpdateVehicleCombatHoldToShootSettings() end

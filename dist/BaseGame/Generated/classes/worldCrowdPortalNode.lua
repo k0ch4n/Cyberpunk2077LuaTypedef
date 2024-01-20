@@ -5,4 +5,4 @@ worldCrowdPortalNode = {}
 
 ---@param fields? worldCrowdPortalNode
 ---@return worldCrowdPortalNode
-function worldCrowdPortalNode.new(fields) return end
+function worldCrowdPortalNode.new(fields) end

@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class sampleScreenProjectionGameController: gameuiProjectedHUDGameController
----@field private OnTargetHitCallback redCallbackObject
+---@field OnTargetHitCallback redCallbackObject
 sampleScreenProjectionGameController = {}
 
 ---@param fields? sampleScreenProjectionGameController
 ---@return sampleScreenProjectionGameController
-function sampleScreenProjectionGameController.new(fields) return end
+function sampleScreenProjectionGameController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleScreenProjectionGameController:OnInitialize() return end
+function sampleScreenProjectionGameController:OnInitialize() end
 
----@protected
 ---@param targetWidget inkWidget
 ---@return Bool
-function sampleScreenProjectionGameController:OnRemoveTarget(targetWidget) return end
+function sampleScreenProjectionGameController:OnRemoveTarget(targetWidget) end
 
----@protected
 ---@param projections gameuiScreenProjectionsData
 ---@return Bool
-function sampleScreenProjectionGameController:OnScreenProjectionUpdate(projections) return end
+function sampleScreenProjectionGameController:OnScreenProjectionUpdate(projections) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function sampleScreenProjectionGameController:OnTargetHit(value) return end
+function sampleScreenProjectionGameController:OnTargetHit(value) end

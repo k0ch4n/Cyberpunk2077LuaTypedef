@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnAdditionalSpeaker
----@field public actorId scnActorId
----@field public type scnAdditionalSpeakerType
+---@field actorId scnActorId
+---@field type scnAdditionalSpeakerType
 scnAdditionalSpeaker = {}
 
 ---@param fields? scnAdditionalSpeaker
 ---@return scnAdditionalSpeaker
-function scnAdditionalSpeaker.new(fields) return end
+function scnAdditionalSpeaker.new(fields) end

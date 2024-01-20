@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SProficiency
----@field public type gamedataProficiencyType
----@field public currentLevel Int32
----@field public maxLevel Int32
----@field public isAtMaxLevel Bool
----@field public currentExp Int32
----@field public expToLevel Int32
----@field public spentPerkPoints Int32
+---@field type gamedataProficiencyType
+---@field currentLevel Int32
+---@field maxLevel Int32
+---@field isAtMaxLevel Bool
+---@field currentExp Int32
+---@field expToLevel Int32
+---@field spentPerkPoints Int32
 SProficiency = {}
 
 ---@param fields? SProficiency
 ---@return SProficiency
-function SProficiency.new(fields) return end
+function SProficiency.new(fields) end

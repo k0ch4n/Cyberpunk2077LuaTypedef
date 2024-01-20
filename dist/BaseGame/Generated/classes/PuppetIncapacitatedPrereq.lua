@@ -5,8 +5,8 @@ PuppetIncapacitatedPrereq = {}
 
 ---@param fields? PuppetIncapacitatedPrereq
 ---@return PuppetIncapacitatedPrereq
-function PuppetIncapacitatedPrereq.new(fields) return end
+function PuppetIncapacitatedPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function PuppetIncapacitatedPrereq:IsFulfilled(context) return end
+function PuppetIncapacitatedPrereq:IsFulfilled(context) end

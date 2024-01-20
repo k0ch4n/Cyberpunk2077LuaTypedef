@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetIconSelectEvent: redEvent
----@field public IconID TweakDBID
+---@field IconID TweakDBID
 SetIconSelectEvent = {}
 
 ---@param fields? SetIconSelectEvent
 ---@return SetIconSelectEvent
-function SetIconSelectEvent.new(fields) return end
+function SetIconSelectEvent.new(fields) end

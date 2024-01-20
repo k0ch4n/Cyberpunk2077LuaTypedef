@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class vehicleBaseStrategyRequest: IScriptable
----@field public strategy vehiclePoliceStrategy
----@field public distanceRange Vector2
----@field public minDirectDistance Float
----@field public forceArriveFromBehind Bool
+---@field strategy vehiclePoliceStrategy
+---@field distanceRange Vector2
+---@field minDirectDistance Float
+---@field forceArriveFromBehind Bool
 vehicleBaseStrategyRequest = {}
 
 ---@param fields? vehicleBaseStrategyRequest
 ---@return vehicleBaseStrategyRequest
-function vehicleBaseStrategyRequest.new(fields) return end
+function vehicleBaseStrategyRequest.new(fields) end
 
 ---@return vehiclePoliceStrategy
-function vehicleBaseStrategyRequest:GetStrategy() return end
+function vehicleBaseStrategyRequest:GetStrategy() end

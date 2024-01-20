@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entFoleyActionEvent: redEvent
----@field public actionName CName
+---@field actionName CName
 entFoleyActionEvent = {}
 
 ---@param fields? entFoleyActionEvent
 ---@return entFoleyActionEvent
-function entFoleyActionEvent.new(fields) return end
+function entFoleyActionEvent.new(fields) end

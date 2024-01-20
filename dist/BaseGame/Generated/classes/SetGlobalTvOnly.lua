@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetGlobalTvOnly: redEvent
----@field public isGlobalTvOnly Bool
+---@field isGlobalTvOnly Bool
 SetGlobalTvOnly = {}
 
 ---@param fields? SetGlobalTvOnly
 ---@return SetGlobalTvOnly
-function SetGlobalTvOnly.new(fields) return end
+function SetGlobalTvOnly.new(fields) end
 
 ---@return String
-function SetGlobalTvOnly:GetFriendlyDescription() return end
+function SetGlobalTvOnly:GetFriendlyDescription() end

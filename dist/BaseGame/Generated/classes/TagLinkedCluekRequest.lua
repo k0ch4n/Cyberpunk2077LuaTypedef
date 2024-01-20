@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TagLinkedCluekRequest: gameScriptableSystemRequest
----@field public tag Bool
----@field public linkedCluekData LinkedFocusClueData
+---@field tag Bool
+---@field linkedCluekData LinkedFocusClueData
 TagLinkedCluekRequest = {}
 
 ---@param fields? TagLinkedCluekRequest
 ---@return TagLinkedCluekRequest
-function TagLinkedCluekRequest.new(fields) return end
+function TagLinkedCluekRequest.new(fields) end

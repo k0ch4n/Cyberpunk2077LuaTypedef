@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldMinimapConfigAreaNode: worldAreaShapeNode
----@field public streamingRadius Float
+---@field streamingRadius Float
 worldMinimapConfigAreaNode = {}
 
 ---@param fields? worldMinimapConfigAreaNode
 ---@return worldMinimapConfigAreaNode
-function worldMinimapConfigAreaNode.new(fields) return end
+function worldMinimapConfigAreaNode.new(fields) end

@@ -5,4 +5,4 @@ worldRuntimeSystemWeather = {}
 
 ---@param fields? worldRuntimeSystemWeather
 ---@return worldRuntimeSystemWeather
-function worldRuntimeSystemWeather.new(fields) return end
+function worldRuntimeSystemWeather.new(fields) end

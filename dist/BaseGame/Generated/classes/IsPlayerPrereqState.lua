@@ -5,4 +5,4 @@ IsPlayerPrereqState = {}
 
 ---@param fields? IsPlayerPrereqState
 ---@return IsPlayerPrereqState
-function IsPlayerPrereqState.new(fields) return end
+function IsPlayerPrereqState.new(fields) end

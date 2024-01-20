@@ -5,4 +5,4 @@ worldInterestingConversationsAreaNodeInstance = {}
 
 ---@param fields? worldInterestingConversationsAreaNodeInstance
 ---@return worldInterestingConversationsAreaNodeInstance
-function worldInterestingConversationsAreaNodeInstance.new(fields) return end
+function worldInterestingConversationsAreaNodeInstance.new(fields) end

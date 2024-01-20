@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class IsPuppetActivePrereqState: gamePrereqState
----@field public psListener gameScriptedPrereqPSChangeListenerWrapper
+---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsPuppetActivePrereqState = {}
 
 ---@param fields? IsPuppetActivePrereqState
 ---@return IsPuppetActivePrereqState
-function IsPuppetActivePrereqState.new(fields) return end
+function IsPuppetActivePrereqState.new(fields) end
 
----@protected
 ---@return nil
-function IsPuppetActivePrereqState:OnPSStateChanged() return end
+function IsPuppetActivePrereqState:OnPSStateChanged() end

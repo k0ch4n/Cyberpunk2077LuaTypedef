@@ -5,4 +5,4 @@ gameHitShapeUserData = {}
 
 ---@param fields? gameHitShapeUserData
 ---@return gameHitShapeUserData
-function gameHitShapeUserData.new(fields) return end
+function gameHitShapeUserData.new(fields) end

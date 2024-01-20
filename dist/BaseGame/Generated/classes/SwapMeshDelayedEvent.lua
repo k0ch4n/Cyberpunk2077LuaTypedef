@@ -5,4 +5,4 @@ SwapMeshDelayedEvent = {}
 
 ---@param fields? SwapMeshDelayedEvent
 ---@return SwapMeshDelayedEvent
-function SwapMeshDelayedEvent.new(fields) return end
+function SwapMeshDelayedEvent.new(fields) end

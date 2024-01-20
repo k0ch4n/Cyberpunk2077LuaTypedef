@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameuiarcadeShooterEventSpawnerData
----@field public dataName CName
----@field public targetSpawner inkWidgetReference
----@field public tiedSpawner inkWidgetReference
----@field public triggerCondition gameuiarcadeShooterTriggerType
----@field public delayDuration Float
+---@field dataName CName
+---@field targetSpawner inkWidgetReference
+---@field tiedSpawner inkWidgetReference
+---@field triggerCondition gameuiarcadeShooterTriggerType
+---@field delayDuration Float
 gameuiarcadeShooterEventSpawnerData = {}
 
 ---@param fields? gameuiarcadeShooterEventSpawnerData
 ---@return gameuiarcadeShooterEventSpawnerData
-function gameuiarcadeShooterEventSpawnerData.new(fields) return end
+function gameuiarcadeShooterEventSpawnerData.new(fields) end

@@ -5,16 +5,16 @@ gamedataAISubActionChangeAttitude_Record = {}
 
 ---@param fields? gamedataAISubActionChangeAttitude_Record
 ---@return gamedataAISubActionChangeAttitude_Record
-function gamedataAISubActionChangeAttitude_Record.new(fields) return end
+function gamedataAISubActionChangeAttitude_Record.new(fields) end
 
 ---@return CName
-function gamedataAISubActionChangeAttitude_Record:Attitude() return end
+function gamedataAISubActionChangeAttitude_Record:Attitude() end
 
 ---@return Float
-function gamedataAISubActionChangeAttitude_Record:Delay() return end
+function gamedataAISubActionChangeAttitude_Record:Delay() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionChangeAttitude_Record:Target() return end
+function gamedataAISubActionChangeAttitude_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionChangeAttitude_Record:TargetHandle() return end
+function gamedataAISubActionChangeAttitude_Record:TargetHandle() end

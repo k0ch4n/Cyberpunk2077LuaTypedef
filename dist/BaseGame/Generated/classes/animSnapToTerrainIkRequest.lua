@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animSnapToTerrainIkRequest
----@field public ikChain CName
----@field public footTransformIndex animTransformIndex
----@field public poleVectorRefTransformIndex animTransformIndex
----@field public enableFootLockFloatTrack animNamedTrackIndex
+---@field ikChain CName
+---@field footTransformIndex animTransformIndex
+---@field poleVectorRefTransformIndex animTransformIndex
+---@field enableFootLockFloatTrack animNamedTrackIndex
 animSnapToTerrainIkRequest = {}
 
 ---@param fields? animSnapToTerrainIkRequest
 ---@return animSnapToTerrainIkRequest
-function animSnapToTerrainIkRequest.new(fields) return end
+function animSnapToTerrainIkRequest.new(fields) end

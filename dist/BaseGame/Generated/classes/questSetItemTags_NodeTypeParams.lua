@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questSetItemTags_NodeTypeParams
----@field public objectRef questUniversalRef
----@field public itemId TweakDBID
----@field public addTags Bool
----@field public tags gameEItemDynamicTags
+---@field objectRef questUniversalRef
+---@field itemId TweakDBID
+---@field addTags Bool
+---@field tags gameEItemDynamicTags
 questSetItemTags_NodeTypeParams = {}
 
 ---@param fields? questSetItemTags_NodeTypeParams
 ---@return questSetItemTags_NodeTypeParams
-function questSetItemTags_NodeTypeParams.new(fields) return end
+function questSetItemTags_NodeTypeParams.new(fields) end

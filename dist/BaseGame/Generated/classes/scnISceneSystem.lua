@@ -4,7 +4,7 @@
 scnISceneSystem = {}
 
 ---@return String
-function scnISceneSystem:GetPeerIdDialogChoiceFactName() return end
+function scnISceneSystem:GetPeerIdDialogChoiceFactName() end
 
 ---@return scnScriptInterface
-function scnISceneSystem:GetScriptInterface() return end
+function scnISceneSystem:GetScriptInterface() end

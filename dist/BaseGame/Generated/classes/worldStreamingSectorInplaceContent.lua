@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldStreamingSectorInplaceContent: CResource
----@field public inplaceResources CResource[]
+---@field inplaceResources CResource[]
 worldStreamingSectorInplaceContent = {}
 
 ---@param fields? worldStreamingSectorInplaceContent
 ---@return worldStreamingSectorInplaceContent
-function worldStreamingSectorInplaceContent.new(fields) return end
+function worldStreamingSectorInplaceContent.new(fields) end

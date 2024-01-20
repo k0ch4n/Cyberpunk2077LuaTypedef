@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questComparisonParam: ISerializable
----@field public entireCommunity Bool
----@field public count Uint32
----@field public comparisonType EComparisonType
+---@field entireCommunity Bool
+---@field count Uint32
+---@field comparisonType EComparisonType
 questComparisonParam = {}
 
 ---@param fields? questComparisonParam
 ---@return questComparisonParam
-function questComparisonParam.new(fields) return end
+function questComparisonParam.new(fields) end

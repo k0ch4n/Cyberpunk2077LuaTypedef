@@ -1,53 +1,46 @@
 ---@meta
 
 ---@class CraftableItemLogicController: inkVirtualCompoundItemController
----@field protected normalAppearence inkCompoundWidgetReference
----@field private controller InventoryItemDisplayController
----@field public itemData ItemCraftingData
----@field public recipeData RecipeData
----@field private isSpawnInProgress Bool
----@field private displayToCreate CName
+---@field normalAppearence inkCompoundWidgetReference
+---@field controller InventoryItemDisplayController
+---@field itemData ItemCraftingData
+---@field recipeData RecipeData
+---@field isSpawnInProgress Bool
+---@field displayToCreate CName
 CraftableItemLogicController = {}
 
 ---@param fields? CraftableItemLogicController
 ---@return CraftableItemLogicController
-function CraftableItemLogicController.new(fields) return end
+function CraftableItemLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function CraftableItemLogicController:OnInitialize() return end
+function CraftableItemLogicController:OnInitialize() end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function CraftableItemLogicController:OnSelected(itemController, discreteNav) return end
+function CraftableItemLogicController:OnSelected(itemController, discreteNav) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CraftableItemLogicController:OnSlotSpawned(widget, userData) return end
+function CraftableItemLogicController:OnSlotSpawned(widget, userData) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function CraftableItemLogicController:OnToggledOff(itemController) return end
+function CraftableItemLogicController:OnToggledOff(itemController) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function CraftableItemLogicController:OnToggledOn(itemController) return end
+function CraftableItemLogicController:OnToggledOn(itemController) end
 
 ---@param value Variant
 ---@return nil
-function CraftableItemLogicController:OnDataChanged(value) return end
+function CraftableItemLogicController:OnDataChanged(value) end
 
----@private
 ---@param select Bool
 ---@return nil
-function CraftableItemLogicController:SelectSlot(select) return end
+function CraftableItemLogicController:SelectSlot(select) end
 
----@private
 ---@return nil
-function CraftableItemLogicController:UpdateControllerData() return end
+function CraftableItemLogicController:UpdateControllerData() end

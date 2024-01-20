@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class TrafficLightResaveData
----@field public transitionDuration Float
----@field public playNotificationSounds Bool
----@field public invertTrafficEvents Bool
+---@field transitionDuration Float
+---@field playNotificationSounds Bool
+---@field invertTrafficEvents Bool
 TrafficLightResaveData = {}
 
 ---@param fields? TrafficLightResaveData
 ---@return TrafficLightResaveData
-function TrafficLightResaveData.new(fields) return end
+function TrafficLightResaveData.new(fields) end

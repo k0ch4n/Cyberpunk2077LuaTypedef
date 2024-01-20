@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameFinisherSyncData
----@field public syncAnimSlotName CName
----@field public effector TweakDBID
+---@field syncAnimSlotName CName
+---@field effector TweakDBID
 gameFinisherSyncData = {}
 
 ---@param fields? gameFinisherSyncData
 ---@return gameFinisherSyncData
-function gameFinisherSyncData.new(fields) return end
+function gameFinisherSyncData.new(fields) end

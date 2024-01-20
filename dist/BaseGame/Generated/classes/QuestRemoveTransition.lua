@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestRemoveTransition: redEvent
----@field public removeTransitionFrom Int32
+---@field removeTransitionFrom Int32
 QuestRemoveTransition = {}
 
 ---@param fields? QuestRemoveTransition
 ---@return QuestRemoveTransition
-function QuestRemoveTransition.new(fields) return end
+function QuestRemoveTransition.new(fields) end
 
 ---@return String
-function QuestRemoveTransition:GetFriendlyDescription() return end
+function QuestRemoveTransition:GetFriendlyDescription() end

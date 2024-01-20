@@ -5,4 +5,4 @@ OnReleaseWorkspotEvent = {}
 
 ---@param fields? OnReleaseWorkspotEvent
 ---@return OnReleaseWorkspotEvent
-function OnReleaseWorkspotEvent.new(fields) return end
+function OnReleaseWorkspotEvent.new(fields) end

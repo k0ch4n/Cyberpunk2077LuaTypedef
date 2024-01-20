@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class NPCStatePrereq: gameIScriptablePrereq
----@field private previousState Bool
----@field private isInState Bool
----@field private skipWhenApplied Bool
+---@field previousState Bool
+---@field isInState Bool
+---@field skipWhenApplied Bool
 NPCStatePrereq = {}
 
 ---@param fields? NPCStatePrereq
 ---@return NPCStatePrereq
-function NPCStatePrereq.new(fields) return end
+function NPCStatePrereq.new(fields) end
 
 ---@param owner gameObject
 ---@param newValue Int32
 ---@param prevValue Int32
 ---@return Bool
-function NPCStatePrereq:Evaluate(owner, newValue, prevValue) return end
+function NPCStatePrereq:Evaluate(owner, newValue, prevValue) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return String
-function NPCStatePrereq:GetStateName(recordID) return end
+function NPCStatePrereq:GetStateName(recordID) end
 
----@protected
 ---@return Int32
-function NPCStatePrereq:GetStateToCheck() return end
+function NPCStatePrereq:GetStateToCheck() end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatePrereq:Initialize(recordID) return end
+function NPCStatePrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCStatePrereq:OnApplied(state, context) return end
+function NPCStatePrereq:OnApplied(state, context) end

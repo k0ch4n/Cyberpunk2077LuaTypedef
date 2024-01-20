@@ -5,4 +5,4 @@ ScriptableEnv = {}
 
 ---@param name CName|string
 ---@return ScriptableEnv
-function ScriptableEnv.Get(name) return end
+function ScriptableEnv.Get(name) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkWidgetSlotAttachmentParams
----@field public slotID CName
----@field public useSlotLayout Bool
----@field public layoutOverride inkWidgetLayout
+---@field slotID CName
+---@field useSlotLayout Bool
+---@field layoutOverride inkWidgetLayout
 inkWidgetSlotAttachmentParams = {}
 
 ---@param fields? inkWidgetSlotAttachmentParams
 ---@return inkWidgetSlotAttachmentParams
-function inkWidgetSlotAttachmentParams.new(fields) return end
+function inkWidgetSlotAttachmentParams.new(fields) end

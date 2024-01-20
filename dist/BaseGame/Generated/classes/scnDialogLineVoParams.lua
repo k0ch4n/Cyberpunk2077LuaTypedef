@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scnDialogLineVoParams
----@field public voContext locVoiceoverContext
----@field public voExpression locVoiceoverExpression
----@field public customVoEvent CName
----@field public disableHeadMovement Bool
----@field public isHolocallSpeaker Bool
----@field public ignoreSpeakerIncapacitation Bool
----@field public alwaysUseBrainGender Bool
+---@field voContext locVoiceoverContext
+---@field voExpression locVoiceoverExpression
+---@field customVoEvent CName
+---@field disableHeadMovement Bool
+---@field isHolocallSpeaker Bool
+---@field ignoreSpeakerIncapacitation Bool
+---@field alwaysUseBrainGender Bool
 scnDialogLineVoParams = {}
 
 ---@param fields? scnDialogLineVoParams
 ---@return scnDialogLineVoParams
-function scnDialogLineVoParams.new(fields) return end
+function scnDialogLineVoParams.new(fields) end

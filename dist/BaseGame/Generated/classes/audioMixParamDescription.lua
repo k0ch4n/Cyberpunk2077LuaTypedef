@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioMixParamDescription
----@field public parameter CName
----@field public defaultValue Float
+---@field parameter CName
+---@field defaultValue Float
 audioMixParamDescription = {}
 
 ---@param fields? audioMixParamDescription
 ---@return audioMixParamDescription
-function audioMixParamDescription.new(fields) return end
+function audioMixParamDescription.new(fields) end

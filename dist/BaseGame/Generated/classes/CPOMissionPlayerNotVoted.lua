@@ -5,10 +5,10 @@ CPOMissionPlayerNotVoted = {}
 
 ---@param fields? CPOMissionPlayerNotVoted
 ---@return CPOMissionPlayerNotVoted
-function CPOMissionPlayerNotVoted.new(fields) return end
+function CPOMissionPlayerNotVoted.new(fields) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@param hotSpotLayer gameinteractionsCHotSpotLayerDefinition
 ---@return Bool
-function CPOMissionPlayerNotVoted:Test(activatorObject, hotSpotObject, hotSpotLayer) return end
+function CPOMissionPlayerNotVoted:Test(activatorObject, hotSpotObject, hotSpotLayer) end

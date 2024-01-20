@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetGameplayRoleEvent: redEvent
----@field public gameplayRole EGameplayRole
+---@field gameplayRole EGameplayRole
 SetGameplayRoleEvent = {}
 
 ---@param fields? SetGameplayRoleEvent
 ---@return SetGameplayRoleEvent
-function SetGameplayRoleEvent.new(fields) return end
+function SetGameplayRoleEvent.new(fields) end
 
 ---@return String
-function SetGameplayRoleEvent:GetFriendlyDescription() return end
+function SetGameplayRoleEvent:GetFriendlyDescription() end

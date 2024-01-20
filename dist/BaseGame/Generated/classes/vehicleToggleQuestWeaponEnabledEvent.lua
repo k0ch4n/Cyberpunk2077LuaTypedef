@@ -5,4 +5,4 @@ vehicleToggleQuestWeaponEnabledEvent = {}
 
 ---@param fields? vehicleToggleQuestWeaponEnabledEvent
 ---@return vehicleToggleQuestWeaponEnabledEvent
-function vehicleToggleQuestWeaponEnabledEvent.new(fields) return end
+function vehicleToggleQuestWeaponEnabledEvent.new(fields) end

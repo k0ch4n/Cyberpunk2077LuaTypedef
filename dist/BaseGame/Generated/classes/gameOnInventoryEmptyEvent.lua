@@ -5,4 +5,4 @@ gameOnInventoryEmptyEvent = {}
 
 ---@param fields? gameOnInventoryEmptyEvent
 ---@return gameOnInventoryEmptyEvent
-function gameOnInventoryEmptyEvent.new(fields) return end
+function gameOnInventoryEmptyEvent.new(fields) end

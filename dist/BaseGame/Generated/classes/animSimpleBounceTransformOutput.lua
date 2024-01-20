@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animSimpleBounceTransformOutput
----@field public targetTransform animTransformIndex
----@field public parentTransform animTransformIndex
----@field public targetTransformChannel animTransformChannel
----@field public multiplier Float
----@field public channelEntries animSimpleBounceTransformOutput_ChannelEntry[]
+---@field targetTransform animTransformIndex
+---@field parentTransform animTransformIndex
+---@field targetTransformChannel animTransformChannel
+---@field multiplier Float
+---@field channelEntries animSimpleBounceTransformOutput_ChannelEntry[]
 animSimpleBounceTransformOutput = {}
 
 ---@param fields? animSimpleBounceTransformOutput
 ---@return animSimpleBounceTransformOutput
-function animSimpleBounceTransformOutput.new(fields) return end
+function animSimpleBounceTransformOutput.new(fields) end

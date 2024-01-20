@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class moveStrafingTarget
----@field public position Vector3
----@field public object gameObject
+---@field position Vector3
+---@field object gameObject
 moveStrafingTarget = {}
 
 ---@param fields? moveStrafingTarget
 ---@return moveStrafingTarget
-function moveStrafingTarget.new(fields) return end
+function moveStrafingTarget.new(fields) end

@@ -5,4 +5,4 @@ gameuiWorldMapPlayerInitData = {}
 
 ---@param fields? gameuiWorldMapPlayerInitData
 ---@return gameuiWorldMapPlayerInitData
-function gameuiWorldMapPlayerInitData.new(fields) return end
+function gameuiWorldMapPlayerInitData.new(fields) end

@@ -5,7 +5,7 @@ LaserDetectorController = {}
 
 ---@param fields? LaserDetectorController
 ---@return LaserDetectorController
-function LaserDetectorController.new(fields) return end
+function LaserDetectorController.new(fields) end
 
 ---@return LaserDetectorControllerPS
-function LaserDetectorController:GetPS() return end
+function LaserDetectorController:GetPS() end

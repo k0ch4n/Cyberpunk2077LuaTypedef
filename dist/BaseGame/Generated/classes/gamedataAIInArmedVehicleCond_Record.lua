@@ -5,4 +5,4 @@ gamedataAIInArmedVehicleCond_Record = {}
 
 ---@param fields? gamedataAIInArmedVehicleCond_Record
 ---@return gamedataAIInArmedVehicleCond_Record
-function gamedataAIInArmedVehicleCond_Record.new(fields) return end
+function gamedataAIInArmedVehicleCond_Record.new(fields) end

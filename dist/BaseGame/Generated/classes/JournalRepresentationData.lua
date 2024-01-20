@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class JournalRepresentationData: ListItemData
----@field public Data gameJournalEntry
----@field public OnscreenData gameJournalOnscreensStructuredGroup
----@field public Reference inkWidget
----@field public IsNew Bool
+---@field Data gameJournalEntry
+---@field OnscreenData gameJournalOnscreensStructuredGroup
+---@field Reference inkWidget
+---@field IsNew Bool
 JournalRepresentationData = {}
 
 ---@param fields? JournalRepresentationData
 ---@return JournalRepresentationData
-function JournalRepresentationData.new(fields) return end
+function JournalRepresentationData.new(fields) end

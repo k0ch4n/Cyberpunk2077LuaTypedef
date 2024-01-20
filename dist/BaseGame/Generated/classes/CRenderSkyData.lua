@@ -5,4 +5,4 @@ CRenderSkyData = {}
 
 ---@param fields? CRenderSkyData
 ---@return CRenderSkyData
-function CRenderSkyData.new(fields) return end
+function CRenderSkyData.new(fields) end

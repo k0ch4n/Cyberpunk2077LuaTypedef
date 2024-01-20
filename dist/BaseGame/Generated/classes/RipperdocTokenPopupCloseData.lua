@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class RipperdocTokenPopupCloseData: inkGameNotificationData
----@field public confirm Bool
----@field public chosenOptionIndex Int32
----@field public chosenOptionData gameItemData
----@field public costData CyberwareUpgradeCostData
+---@field confirm Bool
+---@field chosenOptionIndex Int32
+---@field chosenOptionData gameItemData
+---@field costData CyberwareUpgradeCostData
 RipperdocTokenPopupCloseData = {}
 
 ---@param fields? RipperdocTokenPopupCloseData
 ---@return RipperdocTokenPopupCloseData
-function RipperdocTokenPopupCloseData.new(fields) return end
+function RipperdocTokenPopupCloseData.new(fields) end

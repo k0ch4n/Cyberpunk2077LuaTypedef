@@ -5,7 +5,7 @@ vehicleCameraManagerComponent = {}
 
 ---@param fields? vehicleCameraManagerComponent
 ---@return vehicleCameraManagerComponent
-function vehicleCameraManagerComponent.new(fields) return end
+function vehicleCameraManagerComponent.new(fields) end
 
 ---@return vehicleCameraManager
-function vehicleCameraManagerComponent:GetManagerHandle() return end
+function vehicleCameraManagerComponent:GetManagerHandle() end

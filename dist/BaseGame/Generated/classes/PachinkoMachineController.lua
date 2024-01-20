@@ -5,7 +5,7 @@ PachinkoMachineController = {}
 
 ---@param fields? PachinkoMachineController
 ---@return PachinkoMachineController
-function PachinkoMachineController.new(fields) return end
+function PachinkoMachineController.new(fields) end
 
 ---@return PachinkoMachineControllerPS
-function PachinkoMachineController:GetPS() return end
+function PachinkoMachineController:GetPS() end

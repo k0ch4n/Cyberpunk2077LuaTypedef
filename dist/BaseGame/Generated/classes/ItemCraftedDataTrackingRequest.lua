@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ItemCraftedDataTrackingRequest: gamePlayerScriptableSystemRequest
----@field public targetItem gameItemID
----@field public amount Int32
+---@field targetItem gameItemID
+---@field amount Int32
 ItemCraftedDataTrackingRequest = {}
 
 ---@param fields? ItemCraftedDataTrackingRequest
 ---@return ItemCraftedDataTrackingRequest
-function ItemCraftedDataTrackingRequest.new(fields) return end
+function ItemCraftedDataTrackingRequest.new(fields) end

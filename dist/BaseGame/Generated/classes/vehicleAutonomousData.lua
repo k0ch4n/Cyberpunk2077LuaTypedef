@@ -1,52 +1,52 @@
 ---@meta
 
 ---@class vehicleAutonomousData: ISerializable
----@field public owner vehicleBaseObject
----@field public useKinematic Bool
----@field public needDriver Bool
----@field public aggressiveRammingEnabled Bool
----@field public ignoreChaseVehiclesLimit Bool
----@field public boostDrivingStats Bool
----@field public targetObjToReach gameObject
----@field public targetObjToFollow gameObject
----@field public targetRef NodeRef
----@field public splineRef NodeRef
----@field public splineRefBackwards NodeRef
----@field public vehicleRef gameEntityReference
----@field public targetPosition Vector3
----@field public drivingID TweakDBID
----@field public distanceMin Float
----@field public distanceMax Float
----@field public wantToStop Bool
----@field public stopHasReachedTarget Bool
----@field public driveBackwards Bool
----@field public reverseSpline Bool
----@field public startFromClosest Bool
----@field public canClearActions Bool
----@field public keepDistanceParamBool Bool
----@field public keepDistanceParamCompanion gameObject
----@field public keepDistanceParamDistance Float
----@field public rubberBandingBool Bool
----@field public rubberBandingTargetRef gameObject
----@field public rubberBandingMinDistance Float
----@field public rubberBandingMaxDistance Float
----@field public rubberBandingStopAndWait Bool
----@field public rubberBandingTeleportToCatchUp Bool
----@field public rubberBandingStayInFront Bool
----@field public secureTimeOut Float
----@field public portalsList vehiclePortalsList
----@field public trafficTryNeighborsForStart Bool
----@field public trafficTryNeighborsForEnd Bool
----@field public allowSimplifiedMovement Bool
----@field public ignoreTickets Bool
----@field public disableStuckDetection Bool
----@field public tryDriveAwayFromPlayer Bool
----@field public useSpeedBasedLookupRange Bool
----@field public clearTrafficOnPath Bool
----@field public emergencyPatrol Bool
----@field public numPatrolLoops Uint32
+---@field owner vehicleBaseObject
+---@field useKinematic Bool
+---@field needDriver Bool
+---@field aggressiveRammingEnabled Bool
+---@field ignoreChaseVehiclesLimit Bool
+---@field boostDrivingStats Bool
+---@field targetObjToReach gameObject
+---@field targetObjToFollow gameObject
+---@field targetRef NodeRef
+---@field splineRef NodeRef
+---@field splineRefBackwards NodeRef
+---@field vehicleRef gameEntityReference
+---@field targetPosition Vector3
+---@field drivingID TweakDBID
+---@field distanceMin Float
+---@field distanceMax Float
+---@field wantToStop Bool
+---@field stopHasReachedTarget Bool
+---@field driveBackwards Bool
+---@field reverseSpline Bool
+---@field startFromClosest Bool
+---@field canClearActions Bool
+---@field keepDistanceParamBool Bool
+---@field keepDistanceParamCompanion gameObject
+---@field keepDistanceParamDistance Float
+---@field rubberBandingBool Bool
+---@field rubberBandingTargetRef gameObject
+---@field rubberBandingMinDistance Float
+---@field rubberBandingMaxDistance Float
+---@field rubberBandingStopAndWait Bool
+---@field rubberBandingTeleportToCatchUp Bool
+---@field rubberBandingStayInFront Bool
+---@field secureTimeOut Float
+---@field portalsList vehiclePortalsList
+---@field trafficTryNeighborsForStart Bool
+---@field trafficTryNeighborsForEnd Bool
+---@field allowSimplifiedMovement Bool
+---@field ignoreTickets Bool
+---@field disableStuckDetection Bool
+---@field tryDriveAwayFromPlayer Bool
+---@field useSpeedBasedLookupRange Bool
+---@field clearTrafficOnPath Bool
+---@field emergencyPatrol Bool
+---@field numPatrolLoops Uint32
 vehicleAutonomousData = {}
 
 ---@param fields? vehicleAutonomousData
 ---@return vehicleAutonomousData
-function vehicleAutonomousData.new(fields) return end
+function vehicleAutonomousData.new(fields) end

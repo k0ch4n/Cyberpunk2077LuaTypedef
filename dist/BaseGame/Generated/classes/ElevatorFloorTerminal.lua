@@ -5,38 +5,32 @@ ElevatorFloorTerminal = {}
 
 ---@param fields? ElevatorFloorTerminal
 ---@return ElevatorFloorTerminal
-function ElevatorFloorTerminal.new(fields) return end
+function ElevatorFloorTerminal.new(fields) end
 
----@protected
 ---@param evt PerformedAction
 ---@return Bool
-function ElevatorFloorTerminal:OnPerformedAction(evt) return end
+function ElevatorFloorTerminal:OnPerformedAction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ElevatorFloorTerminal:OnRequestComponents(ri) return end
+function ElevatorFloorTerminal:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ElevatorFloorTerminal:OnTakeControl(ri) return end
+function ElevatorFloorTerminal:OnTakeControl(ri) end
 
----@private
 ---@return ElevatorFloorTerminalController
-function ElevatorFloorTerminal:GetController() return end
+function ElevatorFloorTerminal:GetController() end
 
 ---@return ElevatorFloorTerminalControllerPS
-function ElevatorFloorTerminal:GetDevicePS() return end
+function ElevatorFloorTerminal:GetDevicePS() end
 
----@private
 ---@return nil
-function ElevatorFloorTerminal:InitializeScreenDefinition() return end
+function ElevatorFloorTerminal:InitializeScreenDefinition() end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function ElevatorFloorTerminal:OnMaraudersMapDeviceDebug(sink) return end
+function ElevatorFloorTerminal:OnMaraudersMapDeviceDebug(sink) end
 
----@protected
 ---@return Bool
-function ElevatorFloorTerminal:ShouldAlwasyRefreshUIInLogicAra() return end
+function ElevatorFloorTerminal:ShouldAlwasyRefreshUIInLogicAra() end

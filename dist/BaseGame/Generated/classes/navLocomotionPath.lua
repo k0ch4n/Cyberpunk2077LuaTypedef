@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class navLocomotionPath: ISerializable
----@field public splineNodeRef NodeRef
----@field public segments navLocomotionPathSegmentInfo[]
----@field public backwardSegments navLocomotionPathSegmentInfo[]
----@field public points navLocomotionPathPointInfo[]
----@field public userData navLocomotionPathPointUserDataEntry[]
+---@field splineNodeRef NodeRef
+---@field segments navLocomotionPathSegmentInfo[]
+---@field backwardSegments navLocomotionPathSegmentInfo[]
+---@field points navLocomotionPathPointInfo[]
+---@field userData navLocomotionPathPointUserDataEntry[]
 navLocomotionPath = {}
 
 ---@param fields? navLocomotionPath
 ---@return navLocomotionPath
-function navLocomotionPath.new(fields) return end
+function navLocomotionPath.new(fields) end

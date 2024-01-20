@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class effectTrackItemBloom: effectTrackItem
----@field public override Bool
----@field public sceneColorScale effectEffectParameterEvaluatorFloat
----@field public bloomColorScale effectEffectParameterEvaluatorFloat
+---@field override Bool
+---@field sceneColorScale effectEffectParameterEvaluatorFloat
+---@field bloomColorScale effectEffectParameterEvaluatorFloat
 effectTrackItemBloom = {}
 
 ---@param fields? effectTrackItemBloom
 ---@return effectTrackItemBloom
-function effectTrackItemBloom.new(fields) return end
+function effectTrackItemBloom.new(fields) end

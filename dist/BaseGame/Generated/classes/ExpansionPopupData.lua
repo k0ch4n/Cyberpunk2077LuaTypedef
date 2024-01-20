@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ExpansionPopupData: inkGameNotificationData
----@field public type ExpansionPopupType
----@field public state ExpansionStatus
+---@field type ExpansionPopupType
+---@field state ExpansionStatus
 ExpansionPopupData = {}
 
 ---@param fields? ExpansionPopupData
 ---@return ExpansionPopupData
-function ExpansionPopupData.new(fields) return end
+function ExpansionPopupData.new(fields) end

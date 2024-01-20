@@ -5,4 +5,4 @@ DebugGameEngine = {}
 
 ---@param fields? DebugGameEngine
 ---@return DebugGameEngine
-function DebugGameEngine.new(fields) return end
+function DebugGameEngine.new(fields) end

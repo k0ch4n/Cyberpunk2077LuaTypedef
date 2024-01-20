@@ -5,4 +5,4 @@ AIbehaviorHostilesDetectedConditionDefinition = {}
 
 ---@param fields? AIbehaviorHostilesDetectedConditionDefinition
 ---@return AIbehaviorHostilesDetectedConditionDefinition
-function AIbehaviorHostilesDetectedConditionDefinition.new(fields) return end
+function AIbehaviorHostilesDetectedConditionDefinition.new(fields) end

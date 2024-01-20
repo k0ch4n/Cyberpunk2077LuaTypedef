@@ -5,4 +5,4 @@ AIbehaviorAdvancedParameterizedBehavior = {}
 
 ---@param fields? AIbehaviorAdvancedParameterizedBehavior
 ---@return AIbehaviorAdvancedParameterizedBehavior
-function AIbehaviorAdvancedParameterizedBehavior.new(fields) return end
+function AIbehaviorAdvancedParameterizedBehavior.new(fields) end

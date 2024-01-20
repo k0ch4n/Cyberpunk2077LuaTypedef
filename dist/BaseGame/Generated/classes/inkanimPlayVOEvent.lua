@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkanimPlayVOEvent: inkanimEvent
----@field public VOLine String
----@field public speakerName String
+---@field VOLine String
+---@field speakerName String
 inkanimPlayVOEvent = {}
 
 ---@param fields? inkanimPlayVOEvent
 ---@return inkanimPlayVOEvent
-function inkanimPlayVOEvent.new(fields) return end
+function inkanimPlayVOEvent.new(fields) end

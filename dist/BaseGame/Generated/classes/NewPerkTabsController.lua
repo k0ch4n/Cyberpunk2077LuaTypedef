@@ -1,39 +1,38 @@
 ---@meta
 
 ---@class NewPerkTabsController: inkWidgetLogicController
----@field private tabText inkTextWidgetReference
----@field private currentAttributePoints inkTextWidgetReference
----@field private currentAttributeIcon inkImageWidgetReference
----@field private leftArrow inkWidgetReference
----@field private rightArrow inkWidgetReference
----@field private attributePointsWrapper inkWidgetReference
----@field private attributePointsText inkTextWidgetReference
----@field private perkPointsWrapper inkWidgetReference
----@field private perkPointsText inkTextWidgetReference
----@field private espionagePointsWrapper inkWidgetReference
----@field private espionagePointsText inkTextWidgetReference
----@field private bars inkWidgetReference[]
----@field private dataManager PlayerDevelopmentDataManager
----@field private initData NewPerksScreenInitData
----@field private isEspionageUnlocked Bool
+---@field tabText inkTextWidgetReference
+---@field currentAttributePoints inkTextWidgetReference
+---@field currentAttributeIcon inkImageWidgetReference
+---@field leftArrow inkWidgetReference
+---@field rightArrow inkWidgetReference
+---@field attributePointsWrapper inkWidgetReference
+---@field attributePointsText inkTextWidgetReference
+---@field perkPointsWrapper inkWidgetReference
+---@field perkPointsText inkTextWidgetReference
+---@field espionagePointsWrapper inkWidgetReference
+---@field espionagePointsText inkTextWidgetReference
+---@field bars inkWidgetReference[]
+---@field dataManager PlayerDevelopmentDataManager
+---@field initData NewPerksScreenInitData
+---@field isEspionageUnlocked Bool
 NewPerkTabsController = {}
 
 ---@param fields? NewPerkTabsController
 ---@return NewPerkTabsController
-function NewPerkTabsController.new(fields) return end
+function NewPerkTabsController.new(fields) end
 
 ---@param dataManager PlayerDevelopmentDataManager
 ---@param initData NewPerksScreenInitData
 ---@param isEspionageUnlocked? Bool
 ---@return nil
-function NewPerkTabsController:SetData(dataManager, initData, isEspionageUnlocked) return end
+function NewPerkTabsController:SetData(dataManager, initData, isEspionageUnlocked) end
 
 ---@param attributePointsVal Int32
 ---@param perkPointsVal Int32
 ---@param espionagePointsVal Int32
 ---@return nil
-function NewPerkTabsController:SetValues(attributePointsVal, perkPointsVal, espionagePointsVal) return end
+function NewPerkTabsController:SetValues(attributePointsVal, perkPointsVal, espionagePointsVal) end
 
----@private
 ---@return nil
-function NewPerkTabsController:UpdateBars() return end
+function NewPerkTabsController:UpdateBars() end

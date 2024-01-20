@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questCharacterManagerParameters_SetAttitudeGroupForPuppet: questICharacterManagerParameters_NodeSubType
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public groupName CName
+---@field puppetRef gameEntityReference
+---@field isPlayer Bool
+---@field groupName CName
 questCharacterManagerParameters_SetAttitudeGroupForPuppet = {}
 
 ---@param fields? questCharacterManagerParameters_SetAttitudeGroupForPuppet
 ---@return questCharacterManagerParameters_SetAttitudeGroupForPuppet
-function questCharacterManagerParameters_SetAttitudeGroupForPuppet.new(fields) return end
+function questCharacterManagerParameters_SetAttitudeGroupForPuppet.new(fields) end

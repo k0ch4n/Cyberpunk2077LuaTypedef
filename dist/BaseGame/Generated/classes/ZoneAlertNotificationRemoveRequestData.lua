@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ZoneAlertNotificationRemoveRequestData: IScriptable
----@field public areaType ESecurityAreaType
+---@field areaType ESecurityAreaType
 ZoneAlertNotificationRemoveRequestData = {}
 
 ---@param fields? ZoneAlertNotificationRemoveRequestData
 ---@return ZoneAlertNotificationRemoveRequestData
-function ZoneAlertNotificationRemoveRequestData.new(fields) return end
+function ZoneAlertNotificationRemoveRequestData.new(fields) end

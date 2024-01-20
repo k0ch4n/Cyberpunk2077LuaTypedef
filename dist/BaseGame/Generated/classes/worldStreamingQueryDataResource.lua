@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldStreamingQueryDataResource: CResource
----@field public roadDatas worldStreamingQueryRoadData[]
----@field public connectedRoadDataIndices Uint16[]
+---@field roadDatas worldStreamingQueryRoadData[]
+---@field connectedRoadDataIndices Uint16[]
 worldStreamingQueryDataResource = {}
 
 ---@param fields? worldStreamingQueryDataResource
 ---@return worldStreamingQueryDataResource
-function worldStreamingQueryDataResource.new(fields) return end
+function worldStreamingQueryDataResource.new(fields) end

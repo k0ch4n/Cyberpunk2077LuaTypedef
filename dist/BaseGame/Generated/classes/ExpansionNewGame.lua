@@ -1,122 +1,103 @@
 ---@meta
 
 ---@class ExpansionNewGame: gameuiBaseCharacterCreationController
----@field public newGameDescription inkTextWidgetReference
----@field public textureTop inkImageWidgetReference
----@field public textureBottom inkImageWidgetReference
----@field public creditsBaseTexture inkImageWidgetReference
----@field public creditsExpansionTexture inkImageWidgetReference
----@field public creditsBase inkWidgetReference
----@field public creditsExpansion inkWidgetReference
----@field public creditsHoverFrameLeft inkWidgetReference
----@field public creditsHoverFrameRight inkWidgetReference
----@field private introAnimation CName
----@field private outroAnimation CName
----@field private hoverAnimation CName
----@field private animationProxy inkanimProxy
----@field private translationAnimationCtrl inkTextReplaceAnimationController
----@field private localizedText String
----@field private lastShownPart CName
----@field private baseGameButton inkWidgetReference
----@field private standaloneButton inkWidgetReference
----@field private isInputLocked Bool
+---@field newGameDescription inkTextWidgetReference
+---@field textureTop inkImageWidgetReference
+---@field textureBottom inkImageWidgetReference
+---@field creditsBaseTexture inkImageWidgetReference
+---@field creditsExpansionTexture inkImageWidgetReference
+---@field creditsBase inkWidgetReference
+---@field creditsExpansion inkWidgetReference
+---@field creditsHoverFrameLeft inkWidgetReference
+---@field creditsHoverFrameRight inkWidgetReference
+---@field introAnimation CName
+---@field outroAnimation CName
+---@field hoverAnimation CName
+---@field animationProxy inkanimProxy
+---@field translationAnimationCtrl inkTextReplaceAnimationController
+---@field localizedText String
+---@field lastShownPart CName
+---@field baseGameButton inkWidgetReference
+---@field standaloneButton inkWidgetReference
+---@field isInputLocked Bool
 ExpansionNewGame = {}
 
 ---@param fields? ExpansionNewGame
 ---@return ExpansionNewGame
-function ExpansionNewGame.new(fields) return end
+function ExpansionNewGame.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnCredits(evt) return end
+function ExpansionNewGame:OnCredits(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnCreditsEp1(evt) return end
+function ExpansionNewGame:OnCreditsEp1(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnHoverOutBaseCredits(e) return end
+function ExpansionNewGame:OnHoverOutBaseCredits(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnHoverOutExpansionCredits(e) return end
+function ExpansionNewGame:OnHoverOutExpansionCredits(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnHoverOverBaseCredits(e) return end
+function ExpansionNewGame:OnHoverOverBaseCredits(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnHoverOverBaseGame(e) return end
+function ExpansionNewGame:OnHoverOverBaseGame(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnHoverOverExpansion(e) return end
+function ExpansionNewGame:OnHoverOverExpansion(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnHoverOverExpansionCredits(e) return end
+function ExpansionNewGame:OnHoverOverExpansionCredits(e) end
 
----@protected
 ---@return Bool
-function ExpansionNewGame:OnInitialize() return end
+function ExpansionNewGame:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function ExpansionNewGame:OnIntroComplete(anim) return end
+function ExpansionNewGame:OnIntroComplete(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function ExpansionNewGame:OnOutroComplete(anim) return end
+function ExpansionNewGame:OnOutroComplete(anim) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnPressBaseGame(evt) return end
+function ExpansionNewGame:OnPressBaseGame(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionNewGame:OnPressExpansion(evt) return end
+function ExpansionNewGame:OnPressExpansion(evt) end
 
----@protected
 ---@return Bool
-function ExpansionNewGame:OnUninitialize() return end
+function ExpansionNewGame:OnUninitialize() end
 
----@protected
 ---@return nil
-function ExpansionNewGame:NextMenu() return end
+function ExpansionNewGame:NextMenu() end
 
----@private
 ---@return nil
-function ExpansionNewGame:OnIntro() return end
+function ExpansionNewGame:OnIntro() end
 
----@private
 ---@return nil
-function ExpansionNewGame:OnOutro() return end
+function ExpansionNewGame:OnOutro() end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@param options? inkanimPlaybackOptions
 ---@return nil
-function ExpansionNewGame:PlayAnim(animName, callBack, options) return end
+function ExpansionNewGame:PlayAnim(animName, callBack, options) end
 
----@protected
 ---@return nil
-function ExpansionNewGame:PriorMenu() return end
+function ExpansionNewGame:PriorMenu() end
 
----@private
 ---@param part CName|string
 ---@return nil
-function ExpansionNewGame:TextureTransition(part) return end
+function ExpansionNewGame:TextureTransition(part) end

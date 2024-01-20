@@ -5,10 +5,10 @@ gamedataContinuousAttackEffector_Record = {}
 
 ---@param fields? gamedataContinuousAttackEffector_Record
 ---@return gamedataContinuousAttackEffector_Record
-function gamedataContinuousAttackEffector_Record.new(fields) return end
+function gamedataContinuousAttackEffector_Record.new(fields) end
 
 ---@return gamedataAttack_Record
-function gamedataContinuousAttackEffector_Record:AttackRecord() return end
+function gamedataContinuousAttackEffector_Record:AttackRecord() end
 
 ---@return gamedataAttack_Record
-function gamedataContinuousAttackEffector_Record:AttackRecordHandle() return end
+function gamedataContinuousAttackEffector_Record:AttackRecordHandle() end

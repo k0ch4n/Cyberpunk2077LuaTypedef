@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class EnableFastTravelRequest: gameScriptableSystemRequest
----@field public isEnabled Bool
----@field public forceRefreshUI Bool
----@field public reason CName
----@field public linkedStatusEffectID TweakDBID
+---@field isEnabled Bool
+---@field forceRefreshUI Bool
+---@field reason CName
+---@field linkedStatusEffectID TweakDBID
 EnableFastTravelRequest = {}
 
 ---@param fields? EnableFastTravelRequest
 ---@return EnableFastTravelRequest
-function EnableFastTravelRequest.new(fields) return end
+function EnableFastTravelRequest.new(fields) end
 
 ---@return String
-function EnableFastTravelRequest:GetFriendlyDescription() return end
+function EnableFastTravelRequest:GetFriendlyDescription() end

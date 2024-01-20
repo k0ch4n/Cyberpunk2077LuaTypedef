@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameAvailableExposureMethodResult
----@field public distanceToTarget Float
----@field public method AICoverExposureMethod
+---@field distanceToTarget Float
+---@field method AICoverExposureMethod
 gameAvailableExposureMethodResult = {}
 
 ---@param fields? gameAvailableExposureMethodResult
 ---@return gameAvailableExposureMethodResult
-function gameAvailableExposureMethodResult.new(fields) return end
+function gameAvailableExposureMethodResult.new(fields) end

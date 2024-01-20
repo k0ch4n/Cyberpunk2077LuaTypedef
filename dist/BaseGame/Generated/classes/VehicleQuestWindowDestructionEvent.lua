@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VehicleQuestWindowDestructionEvent: redEvent
----@field public windowName CName
----@field public window vehicleQuestWindowDestruction
+---@field windowName CName
+---@field window vehicleQuestWindowDestruction
 VehicleQuestWindowDestructionEvent = {}
 
 ---@param fields? VehicleQuestWindowDestructionEvent
 ---@return VehicleQuestWindowDestructionEvent
-function VehicleQuestWindowDestructionEvent.new(fields) return end
+function VehicleQuestWindowDestructionEvent.new(fields) end
 
 ---@return String
-function VehicleQuestWindowDestructionEvent:GetFriendlyDescription() return end
+function VehicleQuestWindowDestructionEvent:GetFriendlyDescription() end

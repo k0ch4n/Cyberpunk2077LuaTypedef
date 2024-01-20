@@ -5,4 +5,4 @@ inkInitialLoadingState = {}
 
 ---@param fields? inkInitialLoadingState
 ---@return inkInitialLoadingState
-function inkInitialLoadingState.new(fields) return end
+function inkInitialLoadingState.new(fields) end

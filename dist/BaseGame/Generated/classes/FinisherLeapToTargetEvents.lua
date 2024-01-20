@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class FinisherLeapToTargetEvents: FinisherTransition
----@field public stateMachineInitData FinisherInitData
+---@field stateMachineInitData FinisherInitData
 FinisherLeapToTargetEvents = {}
 
 ---@param fields? FinisherLeapToTargetEvents
 ---@return FinisherLeapToTargetEvents
-function FinisherLeapToTargetEvents.new(fields) return end
+function FinisherLeapToTargetEvents.new(fields) end
 
----@private
 ---@param distance Float
 ---@return Float
-function FinisherLeapToTargetEvents:CalculateAdjustmentDuration(distance) return end
+function FinisherLeapToTargetEvents:CalculateAdjustmentDuration(distance) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FinisherLeapToTargetEvents:LeapToTarget(stateContext, scriptInterface) return end
+function FinisherLeapToTargetEvents:LeapToTarget(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FinisherLeapToTargetEvents:OnEnter(stateContext, scriptInterface) return end
+function FinisherLeapToTargetEvents:OnEnter(stateContext, scriptInterface) end

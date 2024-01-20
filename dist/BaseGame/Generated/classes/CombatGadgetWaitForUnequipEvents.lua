@@ -5,16 +5,14 @@ CombatGadgetWaitForUnequipEvents = {}
 
 ---@param fields? CombatGadgetWaitForUnequipEvents
 ---@return CombatGadgetWaitForUnequipEvents
-function CombatGadgetWaitForUnequipEvents.new(fields) return end
+function CombatGadgetWaitForUnequipEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetWaitForUnequipEvents:OnEnter(stateContext, scriptInterface) return end
+function CombatGadgetWaitForUnequipEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetWaitForUnequipEvents:OnForcedExit(stateContext, scriptInterface) return end
+function CombatGadgetWaitForUnequipEvents:OnForcedExit(stateContext, scriptInterface) end

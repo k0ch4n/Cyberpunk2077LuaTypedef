@@ -5,23 +5,23 @@ vehicleBikeBaseObject = {}
 
 ---@param fields? vehicleBikeBaseObject
 ---@return vehicleBikeBaseObject
-function vehicleBikeBaseObject.new(fields) return end
+function vehicleBikeBaseObject.new(fields) end
 
 ---@param enable Bool
 ---@return nil
-function vehicleBikeBaseObject:EnableTiltControl(enable) return end
+function vehicleBikeBaseObject:EnableTiltControl(enable) end
 
 ---@return Float
-function vehicleBikeBaseObject:GetCustomTargetTilt() return end
+function vehicleBikeBaseObject:GetCustomTargetTilt() end
 
 ---@param minCOMOffset Float
 ---@param minPitchAngle Float
 ---@return Bool
-function vehicleBikeBaseObject:IsPerformingAWheelieOrEndo(minCOMOffset, minPitchAngle) return end
+function vehicleBikeBaseObject:IsPerformingAWheelieOrEndo(minCOMOffset, minPitchAngle) end
 
 ---@return Bool
-function vehicleBikeBaseObject:IsTiltControlEnabled() return end
+function vehicleBikeBaseObject:IsTiltControlEnabled() end
 
 ---@param targetTilt Float
 ---@return nil
-function vehicleBikeBaseObject:SetCustomTargetTilt(targetTilt) return end
+function vehicleBikeBaseObject:SetCustomTargetTilt(targetTilt) end

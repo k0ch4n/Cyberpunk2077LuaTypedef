@@ -1,46 +1,41 @@
 ---@meta
 
 ---@class characterCreationBodyMorphOptionColorPickerButton: inkWidgetLogicController
----@field private background inkWidgetReference
----@field private icon inkImageWidgetReference
----@field private isTriggered Bool
+---@field background inkWidgetReference
+---@field icon inkImageWidgetReference
+---@field isTriggered Bool
 characterCreationBodyMorphOptionColorPickerButton = {}
 
 ---@param fields? characterCreationBodyMorphOptionColorPickerButton
 ---@return characterCreationBodyMorphOptionColorPickerButton
-function characterCreationBodyMorphOptionColorPickerButton.new(fields) return end
+function characterCreationBodyMorphOptionColorPickerButton.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerButton:OnHoverOut(e) return end
+function characterCreationBodyMorphOptionColorPickerButton:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerButton:OnHoverOver(e) return end
+function characterCreationBodyMorphOptionColorPickerButton:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerButton:OnInitialize() return end
+function characterCreationBodyMorphOptionColorPickerButton:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerButton:OnTrigger(e) return end
-
----@protected
----@return Bool
-function characterCreationBodyMorphOptionColorPickerButton:OnUninitialize() return end
+function characterCreationBodyMorphOptionColorPickerButton:OnTrigger(e) end
 
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerButton:IsTriggered() return end
+function characterCreationBodyMorphOptionColorPickerButton:OnUninitialize() end
+
+---@return Bool
+function characterCreationBodyMorphOptionColorPickerButton:IsTriggered() end
 
 ---@param color Color
 ---@param icon TweakDBID|string
 ---@return nil
-function characterCreationBodyMorphOptionColorPickerButton:SetTintColor(color, icon) return end
+function characterCreationBodyMorphOptionColorPickerButton:SetTintColor(color, icon) end
 
 ---@param enable Bool
 ---@return nil
-function characterCreationBodyMorphOptionColorPickerButton:Trigger(enable) return end
+function characterCreationBodyMorphOptionColorPickerButton:Trigger(enable) end

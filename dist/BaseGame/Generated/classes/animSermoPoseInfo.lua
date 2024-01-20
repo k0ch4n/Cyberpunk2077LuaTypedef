@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animSermoPoseInfo
----@field public lod Uint8
----@field public type Uint8
----@field public trackIndex Uint16
+---@field lod Uint8
+---@field type Uint8
+---@field trackIndex Uint16
 animSermoPoseInfo = {}
 
 ---@param fields? animSermoPoseInfo
 ---@return animSermoPoseInfo
-function animSermoPoseInfo.new(fields) return end
+function animSermoPoseInfo.new(fields) end

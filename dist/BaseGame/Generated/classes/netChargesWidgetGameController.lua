@@ -1,60 +1,52 @@
 ---@meta
 
 ---@class netChargesWidgetGameController: gameuiHUDGameController
----@field private bbPlayerStats gameIBlackboard
----@field private bbPlayerEventId1 redCallbackObject
----@field private bbPlayerEventId2 redCallbackObject
----@field private bbPlayerEventId3 redCallbackObject
----@field private networkName inkTextWidget
----@field private networkStatus inkTextWidget
----@field private chargesList inkCompoundWidget[]
----@field private chargesCurrent Int32
----@field private chargesMax Int32
----@field private networkNameText String
----@field private networkStatusText String
----@field private rootWidget inkWidget
----@field private chargeList inkHorizontalPanelWidget
+---@field bbPlayerStats gameIBlackboard
+---@field bbPlayerEventId1 redCallbackObject
+---@field bbPlayerEventId2 redCallbackObject
+---@field bbPlayerEventId3 redCallbackObject
+---@field networkName inkTextWidget
+---@field networkStatus inkTextWidget
+---@field chargesList inkCompoundWidget[]
+---@field chargesCurrent Int32
+---@field chargesMax Int32
+---@field networkNameText String
+---@field networkStatusText String
+---@field rootWidget inkWidget
+---@field chargeList inkHorizontalPanelWidget
 netChargesWidgetGameController = {}
 
 ---@param fields? netChargesWidgetGameController
 ---@return netChargesWidgetGameController
-function netChargesWidgetGameController.new(fields) return end
+function netChargesWidgetGameController.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function netChargesWidgetGameController:OnCurrentChargesChanged(value) return end
+function netChargesWidgetGameController:OnCurrentChargesChanged(value) end
 
----@protected
 ---@return Bool
-function netChargesWidgetGameController:OnInitialize() return end
+function netChargesWidgetGameController:OnInitialize() end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function netChargesWidgetGameController:OnMaxChargesChanged(value) return end
+function netChargesWidgetGameController:OnMaxChargesChanged(value) end
 
----@protected
 ---@param value CName|string
 ---@return Bool
-function netChargesWidgetGameController:OnNameChanged(value) return end
+function netChargesWidgetGameController:OnNameChanged(value) end
 
----@protected
 ---@return Bool
-function netChargesWidgetGameController:OnUninitialize() return end
+function netChargesWidgetGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function netChargesWidgetGameController:RefreshCharges() return end
+function netChargesWidgetGameController:RefreshCharges() end
 
----@private
 ---@param chargeWidget inkCompoundWidget
 ---@param number Int32
 ---@return nil
-function netChargesWidgetGameController:SetChargeNumber(chargeWidget, number) return end
+function netChargesWidgetGameController:SetChargeNumber(chargeWidget, number) end
 
----@private
 ---@param chargeWidget inkCompoundWidget
 ---@param state Bool
 ---@return nil
-function netChargesWidgetGameController:SetChargeState(chargeWidget, state) return end
+function netChargesWidgetGameController:SetChargeState(chargeWidget, state) end

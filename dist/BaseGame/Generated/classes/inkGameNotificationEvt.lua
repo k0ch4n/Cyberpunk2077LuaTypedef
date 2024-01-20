@@ -5,4 +5,4 @@ inkGameNotificationEvt = {}
 
 ---@param fields? inkGameNotificationEvt
 ---@return inkGameNotificationEvt
-function inkGameNotificationEvt.new(fields) return end
+function inkGameNotificationEvt.new(fields) end

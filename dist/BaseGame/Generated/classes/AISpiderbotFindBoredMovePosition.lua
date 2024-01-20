@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class AISpiderbotFindBoredMovePosition: AIFindPositionAroundSelf
----@field public maxWanderDistance AIArgumentMapping
+---@field maxWanderDistance AIArgumentMapping
 AISpiderbotFindBoredMovePosition = {}
 
 ---@param fields? AISpiderbotFindBoredMovePosition
 ---@return AISpiderbotFindBoredMovePosition
-function AISpiderbotFindBoredMovePosition.new(fields) return end
+function AISpiderbotFindBoredMovePosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISpiderbotFindBoredMovePosition:Activate(context) return end
+function AISpiderbotFindBoredMovePosition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AISpiderbotFindBoredMovePosition:AdditionalOutcomeVerification(context) return end
+function AISpiderbotFindBoredMovePosition:AdditionalOutcomeVerification(context) end

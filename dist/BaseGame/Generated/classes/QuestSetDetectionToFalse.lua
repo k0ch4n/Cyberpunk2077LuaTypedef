@@ -5,7 +5,7 @@ QuestSetDetectionToFalse = {}
 
 ---@param fields? QuestSetDetectionToFalse
 ---@return QuestSetDetectionToFalse
-function QuestSetDetectionToFalse.new(fields) return end
+function QuestSetDetectionToFalse.new(fields) end
 
 ---@return nil
-function QuestSetDetectionToFalse:SetProperties() return end
+function QuestSetDetectionToFalse:SetProperties() end

@@ -5,4 +5,4 @@ vehicleToggleRadioReceiverEvent = {}
 
 ---@param fields? vehicleToggleRadioReceiverEvent
 ---@return vehicleToggleRadioReceiverEvent
-function vehicleToggleRadioReceiverEvent.new(fields) return end
+function vehicleToggleRadioReceiverEvent.new(fields) end

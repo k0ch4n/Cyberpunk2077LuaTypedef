@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questHUDEntryVisibilityEvent: redEvent
----@field public dataEntries questHUDEntryVisibilityData[]
+---@field dataEntries questHUDEntryVisibilityData[]
 questHUDEntryVisibilityEvent = {}
 
 ---@param fields? questHUDEntryVisibilityEvent
 ---@return questHUDEntryVisibilityEvent
-function questHUDEntryVisibilityEvent.new(fields) return end
+function questHUDEntryVisibilityEvent.new(fields) end

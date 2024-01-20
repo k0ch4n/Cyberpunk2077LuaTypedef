@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamePlayerCoverStatusChangedEvent: redEvent
----@field public direction gamePlayerCoverDirection
----@field public fullyBehindCover Bool
+---@field direction gamePlayerCoverDirection
+---@field fullyBehindCover Bool
 gamePlayerCoverStatusChangedEvent = {}
 
 ---@param fields? gamePlayerCoverStatusChangedEvent
 ---@return gamePlayerCoverStatusChangedEvent
-function gamePlayerCoverStatusChangedEvent.new(fields) return end
+function gamePlayerCoverStatusChangedEvent.new(fields) end

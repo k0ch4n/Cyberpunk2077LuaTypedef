@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class CParticleModificatorNoise: IParticleModificator
----@field public amplitude IEvaluatorVector
----@field public offset IEvaluatorVector
----@field public frequency IEvaluatorVector
----@field public changeRate Vector3
----@field public applyToPosition Bool
----@field public worldSpaceOffset Bool
----@field public noiseType ENoiseType
+---@field amplitude IEvaluatorVector
+---@field offset IEvaluatorVector
+---@field frequency IEvaluatorVector
+---@field changeRate Vector3
+---@field applyToPosition Bool
+---@field worldSpaceOffset Bool
+---@field noiseType ENoiseType
 CParticleModificatorNoise = {}
 
 ---@param fields? CParticleModificatorNoise
 ---@return CParticleModificatorNoise
-function CParticleModificatorNoise.new(fields) return end
+function CParticleModificatorNoise.new(fields) end

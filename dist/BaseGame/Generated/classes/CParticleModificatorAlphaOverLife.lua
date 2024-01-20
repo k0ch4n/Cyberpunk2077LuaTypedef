@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleModificatorAlphaOverLife: IParticleModificator
----@field public alpha IEvaluatorFloat
----@field public modulate Bool
+---@field alpha IEvaluatorFloat
+---@field modulate Bool
 CParticleModificatorAlphaOverLife = {}
 
 ---@param fields? CParticleModificatorAlphaOverLife
 ---@return CParticleModificatorAlphaOverLife
-function CParticleModificatorAlphaOverLife.new(fields) return end
+function CParticleModificatorAlphaOverLife.new(fields) end

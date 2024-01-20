@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class FriendlyTargetWeaponChangeCallback: gameAttachmentSlotsScriptCallback
----@field public followerRole AIFollowerRole
+---@field followerRole AIFollowerRole
 FriendlyTargetWeaponChangeCallback = {}
 
 ---@param fields? FriendlyTargetWeaponChangeCallback
 ---@return FriendlyTargetWeaponChangeCallback
-function FriendlyTargetWeaponChangeCallback.new(fields) return end
+function FriendlyTargetWeaponChangeCallback.new(fields) end
 
 ---@param slotIDArg TweakDBID|string
 ---@param itemIDArg gameItemID
 ---@return nil
-function FriendlyTargetWeaponChangeCallback:OnItemEquipped(slotIDArg, itemIDArg) return end
+function FriendlyTargetWeaponChangeCallback:OnItemEquipped(slotIDArg, itemIDArg) end

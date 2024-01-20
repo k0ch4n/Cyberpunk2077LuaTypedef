@@ -5,4 +5,4 @@ gameNPCStatsListener = {}
 
 ---@param fields? gameNPCStatsListener
 ---@return gameNPCStatsListener
-function gameNPCStatsListener.new(fields) return end
+function gameNPCStatsListener.new(fields) end

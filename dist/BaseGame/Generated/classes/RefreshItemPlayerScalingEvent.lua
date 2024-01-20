@@ -5,4 +5,4 @@ RefreshItemPlayerScalingEvent = {}
 
 ---@param fields? RefreshItemPlayerScalingEvent
 ---@return RefreshItemPlayerScalingEvent
-function RefreshItemPlayerScalingEvent.new(fields) return end
+function RefreshItemPlayerScalingEvent.new(fields) end

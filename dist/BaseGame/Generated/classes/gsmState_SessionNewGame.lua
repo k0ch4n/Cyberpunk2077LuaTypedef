@@ -5,4 +5,4 @@ gsmState_SessionNewGame = {}
 
 ---@param fields? gsmState_SessionNewGame
 ---@return gsmState_SessionNewGame
-function gsmState_SessionNewGame.new(fields) return end
+function gsmState_SessionNewGame.new(fields) end

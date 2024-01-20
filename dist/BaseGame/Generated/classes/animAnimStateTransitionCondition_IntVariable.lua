@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimStateTransitionCondition_IntVariable: animIAnimStateTransitionCondition
----@field public variableName CName
----@field public compareValue Int32
----@field public compareFunc animCompareFunc
+---@field variableName CName
+---@field compareValue Int32
+---@field compareFunc animCompareFunc
 animAnimStateTransitionCondition_IntVariable = {}
 
 ---@param fields? animAnimStateTransitionCondition_IntVariable
 ---@return animAnimStateTransitionCondition_IntVariable
-function animAnimStateTransitionCondition_IntVariable.new(fields) return end
+function animAnimStateTransitionCondition_IntVariable.new(fields) end

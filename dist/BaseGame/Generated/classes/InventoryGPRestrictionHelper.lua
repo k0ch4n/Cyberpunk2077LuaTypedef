@@ -5,41 +5,39 @@ InventoryGPRestrictionHelper = {}
 
 ---@param playerPuppet PlayerPuppet
 ---@return Bool
-function InventoryGPRestrictionHelper.BlockedBySceneTier(playerPuppet) return end
+function InventoryGPRestrictionHelper.BlockedBySceneTier(playerPuppet) end
 
 ---@param itemData UIInventoryItem
 ---@param playerPuppet PlayerPuppet
 ---@return Bool
-function InventoryGPRestrictionHelper.CanDrop(itemData, playerPuppet) return end
+function InventoryGPRestrictionHelper.CanDrop(itemData, playerPuppet) end
 
 ---@param itemData gameInventoryItemData
 ---@param playerPuppet PlayerPuppet
 ---@return Bool
-function InventoryGPRestrictionHelper.CanDrop(itemData, playerPuppet) return end
+function InventoryGPRestrictionHelper.CanDrop(itemData, playerPuppet) end
 
 ---@param itemData gameInventoryItemData
 ---@param playerPuppet PlayerPuppet
 ---@return Bool
-function InventoryGPRestrictionHelper.CanEquip(itemData, playerPuppet) return end
-
----@private
----@param itemData UIInventoryItem
----@param playerPuppet PlayerPuppet
----@return Bool
-function InventoryGPRestrictionHelper.CanInteractByEquipmentArea(itemData, playerPuppet) return end
-
----@private
----@param itemData gameInventoryItemData
----@param playerPuppet PlayerPuppet
----@return Bool
-function InventoryGPRestrictionHelper.CanInteractByEquipmentArea(itemData, playerPuppet) return end
-
----@param itemData gameInventoryItemData
----@param playerPuppet PlayerPuppet
----@return Bool
-function InventoryGPRestrictionHelper.CanUse(itemData, playerPuppet) return end
+function InventoryGPRestrictionHelper.CanEquip(itemData, playerPuppet) end
 
 ---@param itemData UIInventoryItem
 ---@param playerPuppet PlayerPuppet
 ---@return Bool
-function InventoryGPRestrictionHelper.CanUse(itemData, playerPuppet) return end
+function InventoryGPRestrictionHelper.CanInteractByEquipmentArea(itemData, playerPuppet) end
+
+---@param itemData gameInventoryItemData
+---@param playerPuppet PlayerPuppet
+---@return Bool
+function InventoryGPRestrictionHelper.CanInteractByEquipmentArea(itemData, playerPuppet) end
+
+---@param itemData gameInventoryItemData
+---@param playerPuppet PlayerPuppet
+---@return Bool
+function InventoryGPRestrictionHelper.CanUse(itemData, playerPuppet) end
+
+---@param itemData UIInventoryItem
+---@param playerPuppet PlayerPuppet
+---@return Bool
+function InventoryGPRestrictionHelper.CanUse(itemData, playerPuppet) end

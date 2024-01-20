@@ -1,37 +1,32 @@
 ---@meta
 
 ---@class RipperdocInventoryItem: inkVirtualCompoundItemController
----@field protected root inkWidgetReference
----@field protected data RipperdocWrappedUIInventoryItem
----@field protected widget InventoryItemDisplayController
+---@field root inkWidgetReference
+---@field data RipperdocWrappedUIInventoryItem
+---@field widget InventoryItemDisplayController
 RipperdocInventoryItem = {}
 
 ---@param fields? RipperdocInventoryItem
 ---@return RipperdocInventoryItem
-function RipperdocInventoryItem.new(fields) return end
+function RipperdocInventoryItem.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function RipperdocInventoryItem:OnDataChanged(value) return end
+function RipperdocInventoryItem:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function RipperdocInventoryItem:OnInitialize() return end
+function RipperdocInventoryItem:OnInitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function RipperdocInventoryItem:OnWidgetSpawned(widget, userData) return end
-
----@private
----@return nil
-function RipperdocInventoryItem:AnimateOpacity() return end
-
----@private
----@return nil
-function RipperdocInventoryItem:SetupData() return end
+function RipperdocInventoryItem:OnWidgetSpawned(widget, userData) end
 
 ---@return nil
-function RipperdocInventoryItem:Update() return end
+function RipperdocInventoryItem:AnimateOpacity() end
+
+---@return nil
+function RipperdocInventoryItem:SetupData() end
+
+---@return nil
+function RipperdocInventoryItem:Update() end

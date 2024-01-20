@@ -5,34 +5,34 @@ gamedataTankSpawnableArrangement_Record = {}
 
 ---@param fields? gamedataTankSpawnableArrangement_Record
 ---@return gamedataTankSpawnableArrangement_Record
-function gamedataTankSpawnableArrangement_Record.new(fields) return end
+function gamedataTankSpawnableArrangement_Record.new(fields) end
 
 ---@return Int32
-function gamedataTankSpawnableArrangement_Record:ColumnCount() return end
+function gamedataTankSpawnableArrangement_Record:ColumnCount() end
 
 ---@return CName
-function gamedataTankSpawnableArrangement_Record:Displacement() return end
+function gamedataTankSpawnableArrangement_Record:Displacement() end
 
 ---@return Int32
-function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListCount() return end
+function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListCount() end
 
 ---@param index Int32
 ---@return gamedataTankArrangement_Record
-function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListItem(index) return end
+function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListItem(index) end
 
 ---@param index Int32
 ---@return gamedataTankArrangement_Record
-function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListItemHandle(index) return end
+function gamedataTankSpawnableArrangement_Record:GetObjectArrangementListItemHandle(index) end
 
 ---@return nil, gamedataTankArrangement_Record[] outList
-function gamedataTankSpawnableArrangement_Record:ObjectArrangementList() return end
+function gamedataTankSpawnableArrangement_Record:ObjectArrangementList() end
 
 ---@param item gamedataTankArrangement_Record
 ---@return Bool
-function gamedataTankSpawnableArrangement_Record:ObjectArrangementListContains(item) return end
+function gamedataTankSpawnableArrangement_Record:ObjectArrangementListContains(item) end
 
 ---@return Float
-function gamedataTankSpawnableArrangement_Record:Probability() return end
+function gamedataTankSpawnableArrangement_Record:Probability() end
 
 ---@return Vector2
-function gamedataTankSpawnableArrangement_Record:Slot() return end
+function gamedataTankSpawnableArrangement_Record:Slot() end

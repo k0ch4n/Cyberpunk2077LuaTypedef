@@ -5,4 +5,4 @@ BarHoverOutEvent = {}
 
 ---@param fields? BarHoverOutEvent
 ---@return BarHoverOutEvent
-function BarHoverOutEvent.new(fields) return end
+function BarHoverOutEvent.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnWorkspotSymbol
----@field public wsInstance scnSceneWorkspotInstanceId
----@field public wsNodeId scnNodeId
----@field public wsEditorEventId Uint64
+---@field wsInstance scnSceneWorkspotInstanceId
+---@field wsNodeId scnNodeId
+---@field wsEditorEventId Uint64
 scnWorkspotSymbol = {}
 
 ---@param fields? scnWorkspotSymbol
 ---@return scnWorkspotSymbol
-function scnWorkspotSymbol.new(fields) return end
+function scnWorkspotSymbol.new(fields) end

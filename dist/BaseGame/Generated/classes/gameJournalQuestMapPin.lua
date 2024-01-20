@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameJournalQuestMapPin: gameJournalQuestMapPinBase
----@field public reference gameEntityReference
----@field public slotName CName
----@field public mappinData gamemappinsMappinData
----@field public offset Vector3
----@field public uiAnimation TweakDBID
+---@field reference gameEntityReference
+---@field slotName CName
+---@field mappinData gamemappinsMappinData
+---@field offset Vector3
+---@field uiAnimation TweakDBID
 gameJournalQuestMapPin = {}
 
 ---@param fields? gameJournalQuestMapPin
 ---@return gameJournalQuestMapPin
-function gameJournalQuestMapPin.new(fields) return end
+function gameJournalQuestMapPin.new(fields) end

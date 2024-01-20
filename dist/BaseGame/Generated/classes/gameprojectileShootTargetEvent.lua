@@ -5,4 +5,4 @@ gameprojectileShootTargetEvent = {}
 
 ---@param fields? gameprojectileShootTargetEvent
 ---@return gameprojectileShootTargetEvent
-function gameprojectileShootTargetEvent.new(fields) return end
+function gameprojectileShootTargetEvent.new(fields) end

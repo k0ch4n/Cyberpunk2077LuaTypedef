@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GenericMessageNotificationData: inkGameNotificationData
----@field public params textTextParameterSet
----@field public isInput Bool
+---@field params textTextParameterSet
+---@field isInput Bool
 GenericMessageNotificationData = {}
 
 ---@param fields? GenericMessageNotificationData
 ---@return GenericMessageNotificationData
-function GenericMessageNotificationData.new(fields) return end
+function GenericMessageNotificationData.new(fields) end

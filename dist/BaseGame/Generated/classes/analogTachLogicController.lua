@@ -1,32 +1,31 @@
 ---@meta
 
 ---@class analogTachLogicController: IVehicleModuleController
----@field private analogTachNeedleWidget inkWidgetReference
----@field private analogTachNeedleMinRotation Float
----@field private analogTachNeedleMaxRotation Float
----@field private rpmValueBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private rpmMaxValue Float
----@field private rpmMinValue Float
+---@field analogTachNeedleWidget inkWidgetReference
+---@field analogTachNeedleMinRotation Float
+---@field analogTachNeedleMaxRotation Float
+---@field rpmValueBBConnectionId redCallbackObject
+---@field vehBB gameIBlackboard
+---@field rpmMaxValue Float
+---@field rpmMinValue Float
 analogTachLogicController = {}
 
 ---@param fields? analogTachLogicController
 ---@return analogTachLogicController
-function analogTachLogicController.new(fields) return end
+function analogTachLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function analogTachLogicController:OnUninitialize() return end
+function analogTachLogicController:OnUninitialize() end
 
 ---@param rpmValue Float
 ---@return nil
-function analogTachLogicController:OnRpmValueChanged(rpmValue) return end
+function analogTachLogicController:OnRpmValueChanged(rpmValue) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function analogTachLogicController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function analogTachLogicController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function analogTachLogicController:UnregisterCallbacks() return end
+function analogTachLogicController:UnregisterCallbacks() end

@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class IsNpcPlayingMountingAnimationPrereq: gameIScriptablePrereq
----@field protected slotName CName
----@field protected isCheckInverted Bool
+---@field slotName CName
+---@field isCheckInverted Bool
 IsNpcPlayingMountingAnimationPrereq = {}
 
 ---@param fields? IsNpcPlayingMountingAnimationPrereq
 ---@return IsNpcPlayingMountingAnimationPrereq
-function IsNpcPlayingMountingAnimationPrereq.new(fields) return end
+function IsNpcPlayingMountingAnimationPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IsNpcPlayingMountingAnimationPrereq:Initialize(recordID) return end
+function IsNpcPlayingMountingAnimationPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function IsNpcPlayingMountingAnimationPrereq:IsFulfilled(context) return end
+function IsNpcPlayingMountingAnimationPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function IsNpcPlayingMountingAnimationPrereq:OnRegister(state, context) return end
+function IsNpcPlayingMountingAnimationPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IsNpcPlayingMountingAnimationPrereq:OnUnregister(state, context) return end
+function IsNpcPlayingMountingAnimationPrereq:OnUnregister(state, context) end

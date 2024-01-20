@@ -5,9 +5,8 @@ ForcedRagdollDeathTask = {}
 
 ---@param fields? ForcedRagdollDeathTask
 ---@return ForcedRagdollDeathTask
-function ForcedRagdollDeathTask.new(fields) return end
+function ForcedRagdollDeathTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForcedRagdollDeathTask:Activate(context) return end
+function ForcedRagdollDeathTask:Activate(context) end

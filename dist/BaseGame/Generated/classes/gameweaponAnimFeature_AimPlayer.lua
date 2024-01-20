@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class gameweaponAnimFeature_AimPlayer: animAnimFeature_BasicAim
----@field public zoomLevel Float
----@field public aimInTime Float
----@field public aimOutTime Float
+---@field zoomLevel Float
+---@field aimInTime Float
+---@field aimOutTime Float
 gameweaponAnimFeature_AimPlayer = {}
 
 ---@param fields? gameweaponAnimFeature_AimPlayer
 ---@return gameweaponAnimFeature_AimPlayer
-function gameweaponAnimFeature_AimPlayer.new(fields) return end
+function gameweaponAnimFeature_AimPlayer.new(fields) end
 
 ---@param aimInTime Float
 ---@return nil
-function gameweaponAnimFeature_AimPlayer:SetAimInTime(aimInTime) return end
+function gameweaponAnimFeature_AimPlayer:SetAimInTime(aimInTime) end
 
 ---@param aimOutTime Float
 ---@return nil
-function gameweaponAnimFeature_AimPlayer:SetAimOutTime(aimOutTime) return end
+function gameweaponAnimFeature_AimPlayer:SetAimOutTime(aimOutTime) end
 
 ---@param zoomLevel Float
 ---@return nil
-function gameweaponAnimFeature_AimPlayer:SetZoomLevel(zoomLevel) return end
+function gameweaponAnimFeature_AimPlayer:SetZoomLevel(zoomLevel) end

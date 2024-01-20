@@ -5,4 +5,4 @@ gameJournalPhoneChoiceGroup = {}
 
 ---@param fields? gameJournalPhoneChoiceGroup
 ---@return gameJournalPhoneChoiceGroup
-function gameJournalPhoneChoiceGroup.new(fields) return end
+function gameJournalPhoneChoiceGroup.new(fields) end

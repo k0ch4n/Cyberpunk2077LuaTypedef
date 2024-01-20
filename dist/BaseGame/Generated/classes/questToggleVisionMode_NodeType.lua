@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questToggleVisionMode_NodeType: questIVisionModeNodeType
----@field public objectRef gameEntityReference
----@field public enable Bool
+---@field objectRef gameEntityReference
+---@field enable Bool
 questToggleVisionMode_NodeType = {}
 
 ---@param fields? questToggleVisionMode_NodeType
 ---@return questToggleVisionMode_NodeType
-function questToggleVisionMode_NodeType.new(fields) return end
+function questToggleVisionMode_NodeType.new(fields) end

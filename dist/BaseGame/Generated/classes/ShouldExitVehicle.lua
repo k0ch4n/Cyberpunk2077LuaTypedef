@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class ShouldExitVehicle: AIVehicleConditionAbstract
----@field protected bb gameIBlackboard
----@field protected mf gamemountingIMountingFacility
----@field protected initialized Bool
+---@field bb gameIBlackboard
+---@field mf gamemountingIMountingFacility
+---@field initialized Bool
 ShouldExitVehicle = {}
 
 ---@param fields? ShouldExitVehicle
 ---@return ShouldExitVehicle
-function ShouldExitVehicle.new(fields) return end
+function ShouldExitVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ShouldExitVehicle:Activate(context) return end
+function ShouldExitVehicle:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldExitVehicle:Check(context) return end
+function ShouldExitVehicle:Check(context) end

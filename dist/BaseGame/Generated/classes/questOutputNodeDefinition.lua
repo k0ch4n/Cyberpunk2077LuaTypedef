@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questOutputNodeDefinition: questIONodeDefinition
----@field public type questExitType
+---@field type questExitType
 questOutputNodeDefinition = {}
 
 ---@param fields? questOutputNodeDefinition
 ---@return questOutputNodeDefinition
-function questOutputNodeDefinition.new(fields) return end
+function questOutputNodeDefinition.new(fields) end

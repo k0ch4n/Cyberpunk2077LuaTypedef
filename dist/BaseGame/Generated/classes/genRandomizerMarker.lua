@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class genRandomizerMarker: worldIMarker
----@field public id String
----@field public templateName CName
----@field public probability Float
+---@field id String
+---@field templateName CName
+---@field probability Float
 genRandomizerMarker = {}
 
 ---@param fields? genRandomizerMarker
 ---@return genRandomizerMarker
-function genRandomizerMarker.new(fields) return end
+function genRandomizerMarker.new(fields) end

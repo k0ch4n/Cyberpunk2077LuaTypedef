@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class PerksSkillsLevelsContainerController: inkWidgetLogicController
----@field protected topRowItemsContainer inkCompoundWidgetReference
----@field protected bottomRowItemsContainer inkCompoundWidgetReference
----@field protected levelBar inkWidgetReference
----@field protected levelBarSpacer inkWidgetReference
----@field protected label inkTextWidgetReference
----@field protected proficiencyDisplayData ProficiencyDisplayData
+---@field topRowItemsContainer inkCompoundWidgetReference
+---@field bottomRowItemsContainer inkCompoundWidgetReference
+---@field levelBar inkWidgetReference
+---@field levelBarSpacer inkWidgetReference
+---@field label inkTextWidgetReference
+---@field proficiencyDisplayData ProficiencyDisplayData
 PerksSkillsLevelsContainerController = {}
 
 ---@param fields? PerksSkillsLevelsContainerController
 ---@return PerksSkillsLevelsContainerController
-function PerksSkillsLevelsContainerController.new(fields) return end
+function PerksSkillsLevelsContainerController.new(fields) end
 
 ---@param proficiencyDisplayData ProficiencyDisplayData
 ---@return nil
-function PerksSkillsLevelsContainerController:Setup(proficiencyDisplayData) return end
+function PerksSkillsLevelsContainerController:Setup(proficiencyDisplayData) end
 
 ---@return nil
-function PerksSkillsLevelsContainerController:UpdateLevelBar() return end
+function PerksSkillsLevelsContainerController:UpdateLevelBar() end
 
 ---@return nil
-function PerksSkillsLevelsContainerController:UpdateLevelsIndicators() return end
+function PerksSkillsLevelsContainerController:UpdateLevelsIndicators() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questTutorial_NodeType: questIUIManagerNodeType
----@field public subtype questITutorial_NodeSubType
+---@field subtype questITutorial_NodeSubType
 questTutorial_NodeType = {}
 
 ---@param fields? questTutorial_NodeType
 ---@return questTutorial_NodeType
-function questTutorial_NodeType.new(fields) return end
+function questTutorial_NodeType.new(fields) end

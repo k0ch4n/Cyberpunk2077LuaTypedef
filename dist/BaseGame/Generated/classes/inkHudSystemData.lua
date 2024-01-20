@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkHudSystemData: inkILayerSystemData
----@field public rootLibrary inkWidgetLibraryResource
----@field public entriesResource inkHudEntriesResource
+---@field rootLibrary inkWidgetLibraryResource
+---@field entriesResource inkHudEntriesResource
 inkHudSystemData = {}
 
 ---@param fields? inkHudSystemData
 ---@return inkHudSystemData
-function inkHudSystemData.new(fields) return end
+function inkHudSystemData.new(fields) end

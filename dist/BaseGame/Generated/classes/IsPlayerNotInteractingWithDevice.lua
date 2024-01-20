@@ -5,9 +5,9 @@ IsPlayerNotInteractingWithDevice = {}
 
 ---@param fields? IsPlayerNotInteractingWithDevice
 ---@return IsPlayerNotInteractingWithDevice
-function IsPlayerNotInteractingWithDevice.new(fields) return end
+function IsPlayerNotInteractingWithDevice.new(fields) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@return Bool
-function IsPlayerNotInteractingWithDevice:Test(activatorObject, hotSpotObject) return end
+function IsPlayerNotInteractingWithDevice:Test(activatorObject, hotSpotObject) end

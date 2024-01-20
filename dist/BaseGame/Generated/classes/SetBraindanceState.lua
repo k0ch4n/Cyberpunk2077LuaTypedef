@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetBraindanceState: gameScriptableSystemRequest
----@field public newState Bool
+---@field newState Bool
 SetBraindanceState = {}
 
 ---@param fields? SetBraindanceState
 ---@return SetBraindanceState
-function SetBraindanceState.new(fields) return end
+function SetBraindanceState.new(fields) end

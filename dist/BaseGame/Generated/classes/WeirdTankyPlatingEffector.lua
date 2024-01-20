@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class WeirdTankyPlatingEffector: ModifyAttackEffector
----@field private armorMultiplier Float
+---@field armorMultiplier Float
 WeirdTankyPlatingEffector = {}
 
 ---@param fields? WeirdTankyPlatingEffector
 ---@return WeirdTankyPlatingEffector
-function WeirdTankyPlatingEffector.new(fields) return end
+function WeirdTankyPlatingEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function WeirdTankyPlatingEffector:ActionOn(owner) return end
+function WeirdTankyPlatingEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function WeirdTankyPlatingEffector:Initialize(record, parentRecord) return end
+function WeirdTankyPlatingEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function WeirdTankyPlatingEffector:ProcessAction(owner) return end
+function WeirdTankyPlatingEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function WeirdTankyPlatingEffector:RepeatedAction(owner) return end
+function WeirdTankyPlatingEffector:RepeatedAction(owner) end

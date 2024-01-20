@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animImportFacialInitialPoseWeightDesc
----@field public poseNames CName[]
----@field public weights Float[]
+---@field poseNames CName[]
+---@field weights Float[]
 animImportFacialInitialPoseWeightDesc = {}
 
 ---@param fields? animImportFacialInitialPoseWeightDesc
 ---@return animImportFacialInitialPoseWeightDesc
-function animImportFacialInitialPoseWeightDesc.new(fields) return end
+function animImportFacialInitialPoseWeightDesc.new(fields) end

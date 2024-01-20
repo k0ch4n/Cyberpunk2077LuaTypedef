@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameaudioeventsMusicEvent: redEvent
----@field public eventName CName
+---@field eventName CName
 gameaudioeventsMusicEvent = {}
 
 ---@param fields? gameaudioeventsMusicEvent
 ---@return gameaudioeventsMusicEvent
-function gameaudioeventsMusicEvent.new(fields) return end
+function gameaudioeventsMusicEvent.new(fields) end

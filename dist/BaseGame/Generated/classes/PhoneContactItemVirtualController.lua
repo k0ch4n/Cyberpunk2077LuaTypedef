@@ -1,76 +1,70 @@
 ---@meta
 
 ---@class PhoneContactItemVirtualController: inkVirtualCompoundItemController
----@field protected label inkTextWidgetReference
----@field private preview inkTextWidgetReference
----@field private msgCount inkTextWidgetReference
----@field private msgIndicator inkWidgetReference
----@field private questFlag inkWidgetReference
----@field private regFlag inkWidgetReference
----@field private replyAlertIcon inkWidgetReference
----@field private callInputHint inkWidgetReference
----@field private chatInputHint inkWidgetReference
----@field private separtor inkWidgetReference
----@field protected animProxySelection inkanimProxy
----@field private animProxyHide inkanimProxy
----@field protected contactData ContactData
----@field protected pulse PulseAnimation
----@field private isQuestImportant Bool
----@field private isUnread Bool
----@field private isCallingEnabled Bool
----@field protected root inkWidget
+---@field label inkTextWidgetReference
+---@field preview inkTextWidgetReference
+---@field msgCount inkTextWidgetReference
+---@field msgIndicator inkWidgetReference
+---@field questFlag inkWidgetReference
+---@field regFlag inkWidgetReference
+---@field replyAlertIcon inkWidgetReference
+---@field callInputHint inkWidgetReference
+---@field chatInputHint inkWidgetReference
+---@field separtor inkWidgetReference
+---@field animProxySelection inkanimProxy
+---@field animProxyHide inkanimProxy
+---@field contactData ContactData
+---@field pulse PulseAnimation
+---@field isQuestImportant Bool
+---@field isUnread Bool
+---@field isCallingEnabled Bool
+---@field root inkWidget
 PhoneContactItemVirtualController = {}
 
 ---@param fields? PhoneContactItemVirtualController
 ---@return PhoneContactItemVirtualController
-function PhoneContactItemVirtualController.new(fields) return end
+function PhoneContactItemVirtualController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function PhoneContactItemVirtualController:OnDataChanged(value) return end
+function PhoneContactItemVirtualController:OnDataChanged(value) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function PhoneContactItemVirtualController:OnDeselected(itemController) return end
+function PhoneContactItemVirtualController:OnDeselected(itemController) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PhoneContactItemVirtualController:OnHideAnimFinished(proxy) return end
+function PhoneContactItemVirtualController:OnHideAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function PhoneContactItemVirtualController:OnInitialize() return end
+function PhoneContactItemVirtualController:OnInitialize() end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function PhoneContactItemVirtualController:OnSelected(itemController, discreteNav) return end
+function PhoneContactItemVirtualController:OnSelected(itemController, discreteNav) end
 
 ---@return ContactData
-function PhoneContactItemVirtualController:GetContactData() return end
+function PhoneContactItemVirtualController:GetContactData() end
 
 ---@return nil
-function PhoneContactItemVirtualController:Hide() return end
+function PhoneContactItemVirtualController:Hide() end
 
 ---@return nil
-function PhoneContactItemVirtualController:OpenInChat() return end
+function PhoneContactItemVirtualController:OpenInChat() end
 
 ---@return nil
-function PhoneContactItemVirtualController:PlayScaleToRemoveAnimation() return end
+function PhoneContactItemVirtualController:PlayScaleToRemoveAnimation() end
 
 ---@param select Bool
 ---@return nil
-function PhoneContactItemVirtualController:Refresh(select) return end
+function PhoneContactItemVirtualController:Refresh(select) end
 
 ---@param enabled Bool
 ---@return nil
-function PhoneContactItemVirtualController:SetCallingEnabled(enabled) return end
+function PhoneContactItemVirtualController:SetCallingEnabled(enabled) end
 
----@private
 ---@param time GameTime
 ---@return nil
-function PhoneContactItemVirtualController:SetTimeText(time) return end
+function PhoneContactItemVirtualController:SetTimeText(time) end

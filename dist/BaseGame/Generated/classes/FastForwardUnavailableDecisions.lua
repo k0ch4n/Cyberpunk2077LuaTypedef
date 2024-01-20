@@ -5,10 +5,9 @@ FastForwardUnavailableDecisions = {}
 
 ---@param fields? FastForwardUnavailableDecisions
 ---@return FastForwardUnavailableDecisions
-function FastForwardUnavailableDecisions.new(fields) return end
+function FastForwardUnavailableDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FastForwardUnavailableDecisions:ToFastForwardAvailable(stateContext, scriptInterface) return end
+function FastForwardUnavailableDecisions:ToFastForwardAvailable(stateContext, scriptInterface) end

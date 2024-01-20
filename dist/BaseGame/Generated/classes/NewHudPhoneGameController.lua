@@ -1,401 +1,348 @@
 ---@meta
 
 ---@class NewHudPhoneGameController: gameuiNewHudPhoneGameController
----@field public player PlayerPuppet
----@field public journalMgr gameJournalManager
----@field public questsSystem questQuestsSystem
----@field public uiSystem gameuiGameSystemUI
----@field public fact1ListenerId Uint32
----@field public fact2ListenerId Uint32
----@field public fact3ListenerId Uint32
----@field public onNotificationsQueueChanged redCallbackObject
----@field public currActiveQueueId Int32
----@field public CurrentFunction EHudPhoneFunction
----@field public gameplayRestrictions CName[]
----@field public buttonPressed Bool
----@field public repeatingScrollActionEnabled Bool
----@field public TimeoutPeroid Float
----@field public activePhoneElements Uint32
----@field public bbSystem gameBlackboardSystem
----@field public bbUiSystemDef UI_SystemDef
----@field public bbUiSystem gameIBlackboard
----@field public isInMenuCallback redCallbackObject
----@field public bbUiComDeviceDef UI_ComDeviceDef
----@field public bbUiComDevice gameIBlackboard
----@field public phoneCallInformationCallback redCallbackObject
----@field public phoneStatusChangedCallback redCallbackObject
----@field public phoneMinimizedCallback redCallbackObject
----@field public contactsActiveCallback redCallbackObject
----@field public messageToOpenCallback redCallbackObject
----@field public phoneEnabledBBId redCallbackObject
----@field public bbUiQuickSlotsDataDef UI_QuickSlotsDataDef
----@field public bbUiQuickSlotsData gameIBlackboard
----@field public bbUiPlayerStatsDef UI_PlayerStatsDef
----@field public bbUiPlayerStats gameIBlackboard
----@field public DelaySystem gameDelaySystem
----@field public DelayedTimeoutCallbackId gameDelayID
----@field public PhoneSystem PhoneSystem
----@field public CurrentCallInformation questPhoneCallInformation
----@field public CurrentPhoneCallContact gameJournalContact
----@field public holoAudioCallLogicController HoloAudioCallLogicController
----@field public contactListLogicController PhoneDialerLogicController
----@field public phoneIconAnimProxy inkanimProxy
----@field public backgroundAnimProxy inkanimProxy
----@field public screenType PhoneScreenType
----@field public messagesPanelVisible Bool
----@field public messagesPanelSpawned Bool
----@field public threadsVisible Bool
----@field public messageToOpenHash Int32
----@field public indexToSelect Uint32
----@field public isSingleThread Bool
----@field public isShowingAllMessages Bool
----@field public keepOpenWhenInHubMenu Bool
----@field public audioSystem gameGameAudioSystem
----@field private isRemoteControllingDevice Bool
----@field private psmIsControllingDeviceCallback redCallbackObject
----@field private vehicleEnterCallback redCallbackObject
+---@field player PlayerPuppet
+---@field journalMgr gameJournalManager
+---@field questsSystem questQuestsSystem
+---@field uiSystem gameuiGameSystemUI
+---@field fact1ListenerId Uint32
+---@field fact2ListenerId Uint32
+---@field fact3ListenerId Uint32
+---@field onNotificationsQueueChanged redCallbackObject
+---@field currActiveQueueId Int32
+---@field CurrentFunction EHudPhoneFunction
+---@field gameplayRestrictions CName[]
+---@field buttonPressed Bool
+---@field repeatingScrollActionEnabled Bool
+---@field TimeoutPeroid Float
+---@field activePhoneElements Uint32
+---@field bbSystem gameBlackboardSystem
+---@field bbUiSystemDef UI_SystemDef
+---@field bbUiSystem gameIBlackboard
+---@field isInMenuCallback redCallbackObject
+---@field bbUiComDeviceDef UI_ComDeviceDef
+---@field bbUiComDevice gameIBlackboard
+---@field phoneCallInformationCallback redCallbackObject
+---@field phoneStatusChangedCallback redCallbackObject
+---@field phoneMinimizedCallback redCallbackObject
+---@field contactsActiveCallback redCallbackObject
+---@field messageToOpenCallback redCallbackObject
+---@field phoneEnabledBBId redCallbackObject
+---@field bbUiQuickSlotsDataDef UI_QuickSlotsDataDef
+---@field bbUiQuickSlotsData gameIBlackboard
+---@field bbUiPlayerStatsDef UI_PlayerStatsDef
+---@field bbUiPlayerStats gameIBlackboard
+---@field DelaySystem gameDelaySystem
+---@field DelayedTimeoutCallbackId gameDelayID
+---@field PhoneSystem PhoneSystem
+---@field CurrentCallInformation questPhoneCallInformation
+---@field CurrentPhoneCallContact gameJournalContact
+---@field holoAudioCallLogicController HoloAudioCallLogicController
+---@field contactListLogicController PhoneDialerLogicController
+---@field phoneIconAnimProxy inkanimProxy
+---@field backgroundAnimProxy inkanimProxy
+---@field screenType PhoneScreenType
+---@field messagesPanelVisible Bool
+---@field messagesPanelSpawned Bool
+---@field threadsVisible Bool
+---@field messageToOpenHash Int32
+---@field indexToSelect Uint32
+---@field isSingleThread Bool
+---@field isShowingAllMessages Bool
+---@field keepOpenWhenInHubMenu Bool
+---@field audioSystem gameGameAudioSystem
+---@field isRemoteControllingDevice Bool
+---@field psmIsControllingDeviceCallback redCallbackObject
+---@field vehicleEnterCallback redCallbackObject
 NewHudPhoneGameController = {}
 
 ---@param fields? NewHudPhoneGameController
 ---@return NewHudPhoneGameController
-function NewHudPhoneGameController.new(fields) return end
+function NewHudPhoneGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function NewHudPhoneGameController:OnAction(action, consumer) return end
+function NewHudPhoneGameController:OnAction(action, consumer) end
 
----@protected
 ---@param target inkWidget
 ---@return Bool
-function NewHudPhoneGameController:OnCloseContactList(target) return end
+function NewHudPhoneGameController:OnCloseContactList(target) end
 
----@protected
 ---@param evt CloseSmsMessengerEvent
 ---@return Bool
-function NewHudPhoneGameController:OnCloseSmsMessenger(evt) return end
+function NewHudPhoneGameController:OnCloseSmsMessenger(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NewHudPhoneGameController:OnConsumableTutorial(value) return end
+function NewHudPhoneGameController:OnConsumableTutorial(value) end
 
----@protected
 ---@param target inkWidget
 ---@return Bool
-function NewHudPhoneGameController:OnContactHidden(target) return end
+function NewHudPhoneGameController:OnContactHidden(target) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function NewHudPhoneGameController:OnContactListAction(action, consumer) return end
+function NewHudPhoneGameController:OnContactListAction(action, consumer) end
 
----@protected
 ---@return Bool
-function NewHudPhoneGameController:OnContactListClosed() return end
+function NewHudPhoneGameController:OnContactListClosed() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewHudPhoneGameController:OnContactListSpawned(widget, userData) return end
+function NewHudPhoneGameController:OnContactListSpawned(widget, userData) end
 
----@protected
 ---@param evt ContactSelectionChangedEvent
 ---@return Bool
-function NewHudPhoneGameController:OnContactSelectionChanged(evt) return end
+function NewHudPhoneGameController:OnContactSelectionChanged(evt) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function NewHudPhoneGameController:OnContactsActive(value) return end
+function NewHudPhoneGameController:OnContactsActive(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NewHudPhoneGameController:OnDpadVisibilityChanged(value) return end
+function NewHudPhoneGameController:OnDpadVisibilityChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NewHudPhoneGameController:OnGameStarted(value) return end
+function NewHudPhoneGameController:OnGameStarted(value) end
 
----@protected
 ---@param evt inkMenuLayer_SetMenuModeEvent
 ---@return Bool
-function NewHudPhoneGameController:OnHUBMenuChanged(evt) return end
+function NewHudPhoneGameController:OnHUBMenuChanged(evt) end
 
----@protected
 ---@param target inkWidget
 ---@return Bool
-function NewHudPhoneGameController:OnHoloAudioCallFinished(target) return end
+function NewHudPhoneGameController:OnHoloAudioCallFinished(target) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewHudPhoneGameController:OnHoloAudioCallSpawned(widget, userData) return end
+function NewHudPhoneGameController:OnHoloAudioCallSpawned(widget, userData) end
 
----@protected
 ---@param target inkWidget
 ---@return Bool
-function NewHudPhoneGameController:OnIncomingCallFinished(target) return end
+function NewHudPhoneGameController:OnIncomingCallFinished(target) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewHudPhoneGameController:OnIncommingCallSpawned(widget, userData) return end
+function NewHudPhoneGameController:OnIncommingCallSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function NewHudPhoneGameController:OnInitialize() return end
+function NewHudPhoneGameController:OnInitialize() end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function NewHudPhoneGameController:OnJournalEntryVisited(hash, className, notifyOption, changeType) return end
+function NewHudPhoneGameController:OnJournalEntryVisited(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function NewHudPhoneGameController:OnJournalUpdate(hash, className, notifyOption, changeType) return end
+function NewHudPhoneGameController:OnJournalUpdate(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param evt KeepPhoneOpenWhenInHubMenuEvent
 ---@return Bool
-function NewHudPhoneGameController:OnKeepPhoneOpenWhenInHubMenu(evt) return end
+function NewHudPhoneGameController:OnKeepPhoneOpenWhenInHubMenu(evt) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function NewHudPhoneGameController:OnMenuUpdate(value) return end
+function NewHudPhoneGameController:OnMenuUpdate(value) end
 
----@protected
 ---@param hash Int32
 ---@return Bool
-function NewHudPhoneGameController:OnMessageToOpenHashChanged(hash) return end
+function NewHudPhoneGameController:OnMessageToOpenHashChanged(hash) end
 
----@protected
 ---@param id Int32
 ---@return Bool
-function NewHudPhoneGameController:OnNotificationsQueueChanged(id) return end
+function NewHudPhoneGameController:OnNotificationsQueueChanged(id) end
 
----@protected
 ---@param evt OpenSmsMessengerEvent
 ---@return Bool
-function NewHudPhoneGameController:OnOpenSmsMessenger(evt) return end
+function NewHudPhoneGameController:OnOpenSmsMessenger(evt) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function NewHudPhoneGameController:OnPSMIsControllingDeviceChanged(value) return end
+function NewHudPhoneGameController:OnPSMIsControllingDeviceChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function NewHudPhoneGameController:OnPhoneCall(value) return end
+function NewHudPhoneGameController:OnPhoneCall(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewHudPhoneGameController:OnPhoneIconSpawned(widget, userData) return end
+function NewHudPhoneGameController:OnPhoneIconSpawned(widget, userData) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function NewHudPhoneGameController:OnPhoneMinimized(value) return end
+function NewHudPhoneGameController:OnPhoneMinimized(value) end
 
----@protected
 ---@param phoneStatus CName|string
 ---@return Bool
-function NewHudPhoneGameController:OnPhoneStatusChanged(phoneStatus) return end
+function NewHudPhoneGameController:OnPhoneStatusChanged(phoneStatus) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function NewHudPhoneGameController:OnPlayerAttach(playerPuppet) return end
+function NewHudPhoneGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function NewHudPhoneGameController:OnPlayerDetach(playerPuppet) return end
+function NewHudPhoneGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NewHudPhoneGameController:OnPlayerEnteredVehicle(value) return end
+function NewHudPhoneGameController:OnPlayerEnteredVehicle(value) end
 
----@protected
 ---@return Bool
-function NewHudPhoneGameController:OnResolutionChanged() return end
+function NewHudPhoneGameController:OnResolutionChanged() end
 
----@protected
 ---@param evt FocusSmsMessagerEvent
 ---@return Bool
-function NewHudPhoneGameController:OnSmsMessageGotFocus(evt) return end
+function NewHudPhoneGameController:OnSmsMessageGotFocus(evt) end
 
----@protected
 ---@param evt UnfocusSmsMessagerEvent
 ---@return Bool
-function NewHudPhoneGameController:OnSmsMessageLostFocus(evt) return end
+function NewHudPhoneGameController:OnSmsMessageLostFocus(evt) end
 
----@protected
 ---@param e SmsMessangerInitalizedEvent
 ---@return Bool
-function NewHudPhoneGameController:OnSmsMessangerInitalized(e) return end
+function NewHudPhoneGameController:OnSmsMessangerInitalized(e) end
 
----@protected
 ---@param evt TimeSkipFinishEvent
 ---@return Bool
-function NewHudPhoneGameController:OnTimeSkip(evt) return end
+function NewHudPhoneGameController:OnTimeSkip(evt) end
 
----@protected
 ---@return Bool
-function NewHudPhoneGameController:OnUninitialize() return end
+function NewHudPhoneGameController:OnUninitialize() end
 
 ---@return nil
-function NewHudPhoneGameController:AcceptAction() return end
+function NewHudPhoneGameController:AcceptAction() end
 
----@private
 ---@param element gameuiActivePhoneElement
 ---@return nil
-function NewHudPhoneGameController:ActivatePhoneElement(element) return end
+function NewHudPhoneGameController:ActivatePhoneElement(element) end
 
 ---@return nil
-function NewHudPhoneGameController:AlternativeAcceptAction() return end
+function NewHudPhoneGameController:AlternativeAcceptAction() end
 
----@private
 ---@return Bool
-function NewHudPhoneGameController:AnyElementExceptInVehicle() return end
+function NewHudPhoneGameController:AnyElementExceptInVehicle() end
 
 ---@return nil
-function NewHudPhoneGameController:Back() return end
+function NewHudPhoneGameController:Back() end
 
 ---@return nil
-function NewHudPhoneGameController:CachePredefinedRestrictions() return end
+function NewHudPhoneGameController:CachePredefinedRestrictions() end
 
 ---@return nil
-function NewHudPhoneGameController:CallContact() return end
+function NewHudPhoneGameController:CallContact() end
 
 ---@param contactData ContactData
 ---@return nil
-function NewHudPhoneGameController:CallSelectedContact(contactData) return end
-
----@private
----@return nil
-function NewHudPhoneGameController:CancelPendingSpawnRequests() return end
+function NewHudPhoneGameController:CallSelectedContact(contactData) end
 
 ---@return nil
-function NewHudPhoneGameController:CancelTimeoutFailsafe() return end
+function NewHudPhoneGameController:CancelPendingSpawnRequests() end
 
 ---@return nil
-function NewHudPhoneGameController:CloseContactList() return end
+function NewHudPhoneGameController:CancelTimeoutFailsafe() end
 
----@private
+---@return nil
+function NewHudPhoneGameController:CloseContactList() end
+
 ---@param messagesCount Int32
 ---@return ContactData
-function NewHudPhoneGameController:CreateFakeContactData(messagesCount) return end
+function NewHudPhoneGameController:CreateFakeContactData(messagesCount) end
 
 ---@param phoneCallInformation questPhoneCallInformation
 ---@return questTriggerCallRequest
-function NewHudPhoneGameController:CreateTriggerCallRequestFromPhoneCallInformation(phoneCallInformation) return end
+function NewHudPhoneGameController:CreateTriggerCallRequestFromPhoneCallInformation(phoneCallInformation) end
 
----@private
 ---@param element gameuiActivePhoneElement
 ---@return nil
-function NewHudPhoneGameController:DeactivatePhoneElement(element) return end
+function NewHudPhoneGameController:DeactivatePhoneElement(element) end
 
 ---@return nil
-function NewHudPhoneGameController:DisableContactsInput() return end
+function NewHudPhoneGameController:DisableContactsInput() end
 
 ---@return nil
-function NewHudPhoneGameController:EnableContactsInput() return end
+function NewHudPhoneGameController:EnableContactsInput() end
 
 ---@return nil
-function NewHudPhoneGameController:ExecuteAction() return end
-
----@private
----@return nil
-function NewHudPhoneGameController:FindMessageToSelect() return end
+function NewHudPhoneGameController:ExecuteAction() end
 
 ---@return nil
-function NewHudPhoneGameController:FocusSmsMessenger() return end
+function NewHudPhoneGameController:FindMessageToSelect() end
 
----@private
+---@return nil
+function NewHudPhoneGameController:FocusSmsMessenger() end
+
 ---@return Bool
-function NewHudPhoneGameController:GameStarted() return end
+function NewHudPhoneGameController:GameStarted() end
 
 ---@return Int32
-function NewHudPhoneGameController:GetID() return end
+function NewHudPhoneGameController:GetID() end
 
 ---@return gameJournalContact
-function NewHudPhoneGameController:GetIncomingContact() return end
+function NewHudPhoneGameController:GetIncomingContact() end
 
 ---@param current PhoneScreenType
 ---@return PhoneScreenType
-function NewHudPhoneGameController:GetOtherScreenType(current) return end
+function NewHudPhoneGameController:GetOtherScreenType(current) end
 
 ---@return Bool
-function NewHudPhoneGameController:GetShouldSaveState() return end
+function NewHudPhoneGameController:GetShouldSaveState() end
 
 ---@return gameuiActivePhoneElement
-function NewHudPhoneGameController:GetTopmostActivePhoneElement() return end
+function NewHudPhoneGameController:GetTopmostActivePhoneElement() end
 
 ---@param contactData ContactData
 ---@return nil
-function NewHudPhoneGameController:GotoSmsMessenger(contactData) return end
-
----@private
----@return nil
-function NewHudPhoneGameController:HandleCall() return end
+function NewHudPhoneGameController:GotoSmsMessenger(contactData) end
 
 ---@return nil
-function NewHudPhoneGameController:HideThreads() return end
+function NewHudPhoneGameController:HandleCall() end
 
----@private
+---@return nil
+function NewHudPhoneGameController:HideThreads() end
+
 ---@return Bool
-function NewHudPhoneGameController:IsPhoneActive() return end
+function NewHudPhoneGameController:IsPhoneActive() end
 
----@private
 ---@return Bool
-function NewHudPhoneGameController:IsVisibilityForced() return end
+function NewHudPhoneGameController:IsVisibilityForced() end
 
----@private
 ---@param moveBackToRight Bool
 ---@return nil
-function NewHudPhoneGameController:MoveMessengerLeft(moveBackToRight) return end
+function NewHudPhoneGameController:MoveMessengerLeft(moveBackToRight) end
 
----@private
 ---@param entry gameJournalEntry
 ---@param state gameJournalEntryState
 ---@return nil
-function NewHudPhoneGameController:NotifyOrRefreshData(entry, state) return end
+function NewHudPhoneGameController:NotifyOrRefreshData(entry, state) end
 
 ---@param enabled Bool
 ---@return nil
-function NewHudPhoneGameController:OnPhoneEnabledChanged(enabled) return end
+function NewHudPhoneGameController:OnPhoneEnabledChanged(enabled) end
 
----@private
 ---@param element gameuiActivePhoneElement
 ---@param deactivation? Bool
 ---@return nil
-function NewHudPhoneGameController:PlayBackgroundAnim(element, deactivation) return end
+function NewHudPhoneGameController:PlayBackgroundAnim(element, deactivation) end
 
----@private
 ---@param element gameuiActivePhoneElement
 ---@param deactivation? Bool
 ---@return nil
-function NewHudPhoneGameController:PlayPhoneIconAnim(element, deactivation) return end
+function NewHudPhoneGameController:PlayPhoneIconAnim(element, deactivation) end
 
 ---@param title String
 ---@param text String
@@ -403,92 +350,84 @@ function NewHudPhoneGameController:PlayPhoneIconAnim(element, deactivation) retu
 ---@param animation CName|string
 ---@param action? GenericNotificationBaseAction
 ---@return nil
-function NewHudPhoneGameController:PushNewContactNotification(title, text, widget, animation, action) return end
+function NewHudPhoneGameController:PushNewContactNotification(title, text, widget, animation, action) end
 
 ---@param msgEntry gameJournalPhoneMessage
 ---@param action? GenericNotificationBaseAction
 ---@return nil
-function NewHudPhoneGameController:PushSMSNotification(msgEntry, action) return end
+function NewHudPhoneGameController:PushSMSNotification(msgEntry, action) end
 
 ---@param contactData ContactData
 ---@return Bool
-function NewHudPhoneGameController:RefreshReplies(contactData) return end
+function NewHudPhoneGameController:RefreshReplies(contactData) end
 
 ---@param contactData ContactData
 ---@return nil
-function NewHudPhoneGameController:RefreshSmsMessager(contactData) return end
-
----@private
----@return nil
-function NewHudPhoneGameController:ResolveVisibility() return end
+function NewHudPhoneGameController:RefreshSmsMessager(contactData) end
 
 ---@return nil
-function NewHudPhoneGameController:SelectOtherTab() return end
+function NewHudPhoneGameController:ResolveVisibility() end
 
----@private
+---@return nil
+function NewHudPhoneGameController:SelectOtherTab() end
+
 ---@param value Bool
 ---@return nil
-function NewHudPhoneGameController:SetCallingPaused(value) return end
+function NewHudPhoneGameController:SetCallingPaused(value) end
 
 ---@param newFunction EHudPhoneFunction
 ---@return nil
-function NewHudPhoneGameController:SetPhoneFunction(newFunction) return end
+function NewHudPhoneGameController:SetPhoneFunction(newFunction) end
 
 ---@param type PhoneScreenType
 ---@return nil
-function NewHudPhoneGameController:SetScreenType(type) return end
+function NewHudPhoneGameController:SetScreenType(type) end
 
 ---@param isPlayerCalling Bool
 ---@param state questPhoneTalkingState
 ---@return nil
-function NewHudPhoneGameController:SetTalkingTrigger(isPlayerCalling, state) return end
+function NewHudPhoneGameController:SetTalkingTrigger(isPlayerCalling, state) end
 
----@private
 ---@return nil
-function NewHudPhoneGameController:ShowActionBlockedNotification() return end
-
----@param entry gameJournalEntry
----@param state gameJournalEntryState
----@return nil
-function NewHudPhoneGameController:ShowContactUpdate(entry, state) return end
+function NewHudPhoneGameController:ShowActionBlockedNotification() end
 
 ---@param entry gameJournalEntry
 ---@param state gameJournalEntryState
 ---@return nil
-function NewHudPhoneGameController:ShowNewMessage(entry, state) return end
+function NewHudPhoneGameController:ShowContactUpdate(entry, state) end
+
+---@param entry gameJournalEntry
+---@param state gameJournalEntryState
+---@return nil
+function NewHudPhoneGameController:ShowNewMessage(entry, state) end
 
 ---@param contactData ContactData
 ---@return nil
-function NewHudPhoneGameController:ShowSelectedContactMessages(contactData) return end
+function NewHudPhoneGameController:ShowSelectedContactMessages(contactData) end
 
----@private
 ---@param visible Bool
 ---@return nil
-function NewHudPhoneGameController:ShowSmsMessager(visible) return end
+function NewHudPhoneGameController:ShowSmsMessager(visible) end
 
 ---@return nil
-function NewHudPhoneGameController:StartTimeoutFailsafe() return end
+function NewHudPhoneGameController:StartTimeoutFailsafe() end
 
 ---@return nil
-function NewHudPhoneGameController:StopPhoneIconAnim() return end
+function NewHudPhoneGameController:StopPhoneIconAnim() end
 
----@private
 ---@param element gameuiActivePhoneElement
 ---@return Bool
-function NewHudPhoneGameController:TestPhoneElement(element) return end
+function NewHudPhoneGameController:TestPhoneElement(element) end
 
 ---@return nil
-function NewHudPhoneGameController:ToggleShowAllMessages() return end
+function NewHudPhoneGameController:ToggleShowAllMessages() end
 
----@private
 ---@return Bool
-function NewHudPhoneGameController:TutorialActivated() return end
+function NewHudPhoneGameController:TutorialActivated() end
 
----@private
 ---@return nil
-function NewHudPhoneGameController:UpdateHoloAudioCall() return end
+function NewHudPhoneGameController:UpdateHoloAudioCall() end
 
----@private
 ---@param contactDataArray IScriptable[]
 ---@return nil, Int32 messageToOpenHash
-function NewHudPhoneGameController:VerifyMessageToOpenHash(contactDataArray) return end
+function NewHudPhoneGameController:VerifyMessageToOpenHash(contactDataArray) end

@@ -5,4 +5,4 @@ IncapacitatedEvent = {}
 
 ---@param fields? IncapacitatedEvent
 ---@return IncapacitatedEvent
-function IncapacitatedEvent.new(fields) return end
+function IncapacitatedEvent.new(fields) end

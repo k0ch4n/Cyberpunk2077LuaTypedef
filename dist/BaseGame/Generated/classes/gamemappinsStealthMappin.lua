@@ -5,212 +5,212 @@ gamemappinsStealthMappin = {}
 
 ---@param fields? gamemappinsStealthMappin
 ---@return gamemappinsStealthMappin
-function gamemappinsStealthMappin.new(fields) return end
+function gamemappinsStealthMappin.new(fields) end
 
 ---@return Bool
-function gamemappinsStealthMappin:CanSeePlayer() return end
+function gamemappinsStealthMappin:CanSeePlayer() end
 
 ---@return Bool
-function gamemappinsStealthMappin:DetectionProgressDecreases() return end
+function gamemappinsStealthMappin:DetectionProgressDecreases() end
 
 ---@return Bool
-function gamemappinsStealthMappin:DetectionProgressIncreases() return end
+function gamemappinsStealthMappin:DetectionProgressIncreases() end
 
 ---@return gamedataArchetypeType
-function gamemappinsStealthMappin:GetArchetype() return end
+function gamemappinsStealthMappin:GetArchetype() end
 
 ---@return EAIAttitude
-function gamemappinsStealthMappin:GetAttitudeTowardsPlayer() return end
+function gamemappinsStealthMappin:GetAttitudeTowardsPlayer() end
 
 ---@return Float
-function gamemappinsStealthMappin:GetDetectionProgress() return end
+function gamemappinsStealthMappin:GetDetectionProgress() end
 
 ---@return gameObject
-function gamemappinsStealthMappin:GetGameObject() return end
+function gamemappinsStealthMappin:GetGameObject() end
 
 ---@return gamedataNPCHighLevelState
-function gamemappinsStealthMappin:GetHighLevelState() return end
+function gamemappinsStealthMappin:GetHighLevelState() end
 
 ---@return Uint32
-function gamemappinsStealthMappin:GetHighestLootQuality() return end
+function gamemappinsStealthMappin:GetHighestLootQuality() end
 
 ---@return Bool
-function gamemappinsStealthMappin:GetIsDetectionGrowing() return end
+function gamemappinsStealthMappin:GetIsDetectionGrowing() end
 
 ---@return Uint32
-function gamemappinsStealthMappin:GetNPCLevel() return end
+function gamemappinsStealthMappin:GetNPCLevel() end
 
 ---@return Bool
-function gamemappinsStealthMappin:GetNameplateEnabled() return end
+function gamemappinsStealthMappin:GetNameplateEnabled() end
 
 ---@return Uint32
-function gamemappinsStealthMappin:GetNumberOfCombatants() return end
+function gamemappinsStealthMappin:GetNumberOfCombatants() end
 
 ---@return Uint32
-function gamemappinsStealthMappin:GetNumberOfShotAttempts() return end
+function gamemappinsStealthMappin:GetNumberOfShotAttempts() end
 
 ---@return Bool
-function gamemappinsStealthMappin:GetObjectMarkersEnabled() return end
+function gamemappinsStealthMappin:GetObjectMarkersEnabled() end
 
 ---@return nil
-function gamemappinsStealthMappin:GetPrevDetectionProgress() return end
+function gamemappinsStealthMappin:GetPrevDetectionProgress() end
 
 ---@return nil
-function gamemappinsStealthMappin:GetPrevThreatAccuracy() return end
+function gamemappinsStealthMappin:GetPrevThreatAccuracy() end
 
 ---@return gamedataNPCRarity
-function gamemappinsStealthMappin:GetRarity() return end
+function gamemappinsStealthMappin:GetRarity() end
 
 ---@return gameReprimandMappinAnimationState
-function gamemappinsStealthMappin:GetReprimandAnimationState() return end
+function gamemappinsStealthMappin:GetReprimandAnimationState() end
 
 ---@return gamemappinsSenseCone
-function gamemappinsStealthMappin:GetSenseCone() return end
+function gamemappinsStealthMappin:GetSenseCone() end
 
 ---@return Bool
-function gamemappinsStealthMappin:GetSkipIntroAnim() return end
+function gamemappinsStealthMappin:GetSkipIntroAnim() end
 
 ---@return Float
-function gamemappinsStealthMappin:GetStatusEffectCurrentPriority() return end
+function gamemappinsStealthMappin:GetStatusEffectCurrentPriority() end
 
 ---@return String
-function gamemappinsStealthMappin:GetStatusEffectIconPath() return end
+function gamemappinsStealthMappin:GetStatusEffectIconPath() end
 
 ---@return Float
-function gamemappinsStealthMappin:GetStatusEffectTimeRemaining() return end
+function gamemappinsStealthMappin:GetStatusEffectTimeRemaining() end
 
 ---@return gameEnemyStealthAwarenessState
-function gamemappinsStealthMappin:GetStealthAwarenessState() return end
+function gamemappinsStealthMappin:GetStealthAwarenessState() end
 
 ---@return Float
-function gamemappinsStealthMappin:GetThreatAccuracy() return end
+function gamemappinsStealthMappin:GetThreatAccuracy() end
 
 ---@return Bool
-function gamemappinsStealthMappin:HasBeenSeen() return end
+function gamemappinsStealthMappin:HasBeenSeen() end
 
 ---@return Bool
-function gamemappinsStealthMappin:HasHackingStatusEffect() return end
+function gamemappinsStealthMappin:HasHackingStatusEffect() end
 
 ---@return Bool
-function gamemappinsStealthMappin:HasItems() return end
+function gamemappinsStealthMappin:HasItems() end
 
 ---@return Bool
-function gamemappinsStealthMappin:HasLootProcessed() return end
+function gamemappinsStealthMappin:HasLootProcessed() end
 
 ---@return Bool
-function gamemappinsStealthMappin:HideUIDetection() return end
+function gamemappinsStealthMappin:HideUIDetection() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsAggressive() return end
+function gamemappinsStealthMappin:IsAggressive() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsAlive() return end
+function gamemappinsStealthMappin:IsAlive() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsCombatNPC() return end
+function gamemappinsStealthMappin:IsCombatNPC() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsCrowdNPC() return end
+function gamemappinsStealthMappin:IsCrowdNPC() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsDevice() return end
+function gamemappinsStealthMappin:IsDevice() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsFriendlyFromHack() return end
+function gamemappinsStealthMappin:IsFriendlyFromHack() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsHiddenByQuestIn3D() return end
+function gamemappinsStealthMappin:IsHiddenByQuestIn3D() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsHiddenByQuestOnMinimap() return end
+function gamemappinsStealthMappin:IsHiddenByQuestOnMinimap() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsHighlighted() return end
+function gamemappinsStealthMappin:IsHighlighted() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsInCombat() return end
+function gamemappinsStealthMappin:IsInCombat() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsNetrunner() return end
+function gamemappinsStealthMappin:IsNetrunner() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsPlayerInHostileZone() return end
+function gamemappinsStealthMappin:IsPlayerInHostileZone() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsPlayerInterestingFromSecuritySystemPOV() return end
+function gamemappinsStealthMappin:IsPlayerInterestingFromSecuritySystemPOV() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsPlayerWanted() return end
+function gamemappinsStealthMappin:IsPlayerWanted() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsPrevention() return end
+function gamemappinsStealthMappin:IsPrevention() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsScanned() return end
+function gamemappinsStealthMappin:IsScanned() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsSquadInCombat() return end
+function gamemappinsStealthMappin:IsSquadInCombat() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsTagged() return end
+function gamemappinsStealthMappin:IsTagged() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsTarget() return end
+function gamemappinsStealthMappin:IsTarget() end
 
 ---@return Bool
-function gamemappinsStealthMappin:IsUsingSenseCone() return end
+function gamemappinsStealthMappin:IsUsingSenseCone() end
 
 ---@param isPulsing Bool
 ---@return nil
-function gamemappinsStealthMappin:SetIsPulsing(isPulsing) return end
+function gamemappinsStealthMappin:SetIsPulsing(isPulsing) end
 
 ---@param state gameEnemyStealthAwarenessState
 ---@return nil
-function gamemappinsStealthMappin:SetStealthAwarenessState(state) return end
+function gamemappinsStealthMappin:SetStealthAwarenessState(state) end
 
 ---@param isVisible Bool
 ---@return nil
-function gamemappinsStealthMappin:SetVisibleIn3D(isVisible) return end
+function gamemappinsStealthMappin:SetVisibleIn3D(isVisible) end
 
 ---@param isVisible Bool
 ---@return nil
-function gamemappinsStealthMappin:SetVisibleOnMinimap(isVisible) return end
+function gamemappinsStealthMappin:SetVisibleOnMinimap(isVisible) end
 
 ---@return Bool
-function gamemappinsStealthMappin:ThreatAccuracyDecreases() return end
+function gamemappinsStealthMappin:ThreatAccuracyDecreases() end
 
 ---@return Bool
-function gamemappinsStealthMappin:ThreatAccuracyIncreases() return end
+function gamemappinsStealthMappin:ThreatAccuracyIncreases() end
 
 ---@return nil
-function gamemappinsStealthMappin:UnregisterMappin() return end
+function gamemappinsStealthMappin:UnregisterMappin() end
 
 ---@param threshold Float
 ---@return nil
-function gamemappinsStealthMappin:UpdateCombatToAwareThreshold(threshold) return end
+function gamemappinsStealthMappin:UpdateCombatToAwareThreshold(threshold) end
 
 ---@param isCombatant Bool
 ---@return nil
-function gamemappinsStealthMappin:UpdateCombatantState(isCombatant) return end
+function gamemappinsStealthMappin:UpdateCombatantState(isCombatant) end
 
 ---@param threshold Float
 ---@return nil
-function gamemappinsStealthMappin:UpdateObjectMarkerThreshold(threshold) return end
+function gamemappinsStealthMappin:UpdateObjectMarkerThreshold(threshold) end
 
 ---@param canHaveObjectMarker Bool
 ---@param isVisible Bool
 ---@return nil
-function gamemappinsStealthMappin:UpdateObjectMarkerVisibility(canHaveObjectMarker, isVisible) return end
+function gamemappinsStealthMappin:UpdateObjectMarkerVisibility(canHaveObjectMarker, isVisible) end
 
 ---@return nil
-function gamemappinsStealthMappin:UpdateSenseCone() return end
+function gamemappinsStealthMappin:UpdateSenseCone() end
 
 ---@param available Bool
 ---@return nil
-function gamemappinsStealthMappin:UpdateSenseConeAvailable(available) return end
+function gamemappinsStealthMappin:UpdateSenseConeAvailable(available) end
 
 ---@return Bool
-function gamemappinsStealthMappin:WasDetectionAboveZero() return end
+function gamemappinsStealthMappin:WasDetectionAboveZero() end
 
 ---@return Bool
-function gamemappinsStealthMappin:WillReprimand() return end
+function gamemappinsStealthMappin:WillReprimand() end

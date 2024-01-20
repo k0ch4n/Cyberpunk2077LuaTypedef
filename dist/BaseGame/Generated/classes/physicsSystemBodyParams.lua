@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class physicsSystemBodyParams
----@field public simulationType physicsSimulationType
----@field public linearDamping Float
----@field public angularDamping Float
----@field public solverIterationsCountPosition Uint32
----@field public solverIterationsCountVelocity Uint32
----@field public maxDepenetrationVelocity Float
----@field public maxAngularVelocity Float
----@field public maxContactImpulse Float
----@field public mass Float
----@field public inertia Vector3
----@field public comOffset Transform
+---@field simulationType physicsSimulationType
+---@field linearDamping Float
+---@field angularDamping Float
+---@field solverIterationsCountPosition Uint32
+---@field solverIterationsCountVelocity Uint32
+---@field maxDepenetrationVelocity Float
+---@field maxAngularVelocity Float
+---@field maxContactImpulse Float
+---@field mass Float
+---@field inertia Vector3
+---@field comOffset Transform
 physicsSystemBodyParams = {}
 
 ---@param fields? physicsSystemBodyParams
 ---@return physicsSystemBodyParams
-function physicsSystemBodyParams.new(fields) return end
+function physicsSystemBodyParams.new(fields) end

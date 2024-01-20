@@ -5,4 +5,4 @@ gameTransformsHistorySystem = {}
 
 ---@param fields? gameTransformsHistorySystem
 ---@return gameTransformsHistorySystem
-function gameTransformsHistorySystem.new(fields) return end
+function gameTransformsHistorySystem.new(fields) end

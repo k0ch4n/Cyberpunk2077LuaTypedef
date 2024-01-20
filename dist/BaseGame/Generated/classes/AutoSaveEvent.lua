@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AutoSaveEvent: redEvent
----@field public maxAttempts Int32
----@field public isForced Bool
+---@field maxAttempts Int32
+---@field isForced Bool
 AutoSaveEvent = {}
 
 ---@param fields? AutoSaveEvent
 ---@return AutoSaveEvent
-function AutoSaveEvent.new(fields) return end
+function AutoSaveEvent.new(fields) end

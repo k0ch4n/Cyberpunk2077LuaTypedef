@@ -5,61 +5,61 @@ inkImageWidgetReference = {}
 
 ---@param fields? inkImageWidgetReference
 ---@return inkImageWidgetReference
-function inkImageWidgetReference.new(fields) return end
+function inkImageWidgetReference.new(fields) end
 
 ---@param self inkImageWidgetReference
 ---@return inkTextureType
-function inkImageWidgetReference.GetActiveTextureType(self) return end
+function inkImageWidgetReference.GetActiveTextureType(self) end
 
 ---@return nil
-function inkImageWidgetReference.GetContentHAlign() return end
+function inkImageWidgetReference.GetContentHAlign() end
 
 ---@return nil
-function inkImageWidgetReference.GetContentVAlign() return end
+function inkImageWidgetReference.GetContentVAlign() end
 
 ---@param self inkImageWidgetReference
 ---@return CName
-function inkImageWidgetReference.GetTexturePart(self) return end
+function inkImageWidgetReference.GetTexturePart(self) end
 
 ---@param self inkImageWidgetReference
 ---@param texturePart CName|string
 ---@return Bool
-function inkImageWidgetReference.IsTexturePartExist(self, texturePart) return end
+function inkImageWidgetReference.IsTexturePartExist(self, texturePart) end
 
 ---@param self inkImageWidgetReference
 ---@param iconRefernce inkIconReference
 ---@param callbackTarget? IScriptable
 ---@param callbackName? CName|string
 ---@return nil
-function inkImageWidgetReference.RequestSetImage(self, iconRefernce, callbackTarget, callbackName) return end
+function inkImageWidgetReference.RequestSetImage(self, iconRefernce, callbackTarget, callbackName) end
 
 ---@param self inkImageWidgetReference
 ---@param activeTextureType inkTextureType
 ---@return nil
-function inkImageWidgetReference.SetActiveTextureType(self, activeTextureType) return end
+function inkImageWidgetReference.SetActiveTextureType(self, activeTextureType) end
 
 ---@param self inkImageWidgetReference
 ---@param atlasResourcePath redResourceReferenceScriptToken
 ---@return nil
-function inkImageWidgetReference.SetAtlasResource(self, atlasResourcePath) return end
+function inkImageWidgetReference.SetAtlasResource(self, atlasResourcePath) end
 
 ---@param self inkImageWidgetReference
 ---@param mirrorType inkBrushMirrorType
 ---@return nil
-function inkImageWidgetReference.SetBrushMirrorType(self, mirrorType) return end
+function inkImageWidgetReference.SetBrushMirrorType(self, mirrorType) end
 
 ---@param self inkImageWidgetReference
 ---@param tileType inkBrushTileType
 ---@return nil
-function inkImageWidgetReference.SetBrushTileType(self, tileType) return end
+function inkImageWidgetReference.SetBrushTileType(self, tileType) end
 
 ---@return nil
-function inkImageWidgetReference.SetContentHAlign() return end
+function inkImageWidgetReference.SetContentHAlign() end
 
 ---@return nil
-function inkImageWidgetReference.SetContentVAlign() return end
+function inkImageWidgetReference.SetContentVAlign() end
 
 ---@param self inkImageWidgetReference
 ---@param texturePart CName|string
 ---@return Bool
-function inkImageWidgetReference.SetTexturePart(self, texturePart) return end
+function inkImageWidgetReference.SetTexturePart(self, texturePart) end

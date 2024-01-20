@@ -5,10 +5,9 @@ RandomChancePrereq = {}
 
 ---@param fields? RandomChancePrereq
 ---@return RandomChancePrereq
-function RandomChancePrereq.new(fields) return end
+function RandomChancePrereq.new(fields) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function RandomChancePrereq:OnApplied(state, context) return end
+function RandomChancePrereq:OnApplied(state, context) end

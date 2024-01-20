@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class SetArgumentInt: SetArguments
----@field public customVar Int32
+---@field customVar Int32
 SetArgumentInt = {}
 
 ---@param fields? SetArgumentInt
 ---@return SetArgumentInt
-function SetArgumentInt.new(fields) return end
+function SetArgumentInt.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetArgumentInt:Activate(context) return end
+function SetArgumentInt:Activate(context) end
 
 ---@return String
-function SetArgumentInt:GetEditorSubCaption() return end
+function SetArgumentInt:GetEditorSubCaption() end

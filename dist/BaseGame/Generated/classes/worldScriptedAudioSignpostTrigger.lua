@@ -5,14 +5,12 @@ worldScriptedAudioSignpostTrigger = {}
 
 ---@param fields? worldScriptedAudioSignpostTrigger
 ---@return worldScriptedAudioSignpostTrigger
-function worldScriptedAudioSignpostTrigger.new(fields) return end
+function worldScriptedAudioSignpostTrigger.new(fields) end
 
----@protected
 ---@param localPlayer gameObject
 ---@return Bool
-function worldScriptedAudioSignpostTrigger:OnPlayerEnter(localPlayer) return end
+function worldScriptedAudioSignpostTrigger:OnPlayerEnter(localPlayer) end
 
----@protected
 ---@param localPlayer gameObject
 ---@return Bool
-function worldScriptedAudioSignpostTrigger:OnPlayerExit(localPlayer) return end
+function worldScriptedAudioSignpostTrigger:OnPlayerExit(localPlayer) end

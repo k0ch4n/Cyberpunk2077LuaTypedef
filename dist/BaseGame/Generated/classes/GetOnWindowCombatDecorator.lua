@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class GetOnWindowCombatDecorator: AIVehicleTaskAbstract
----@field public windowOpenEvent VehicleExternalWindowRequestEvent
----@field public mountInfo gamemountingMountingInfo
----@field public vehicle gameObject
----@field public slotName CName
+---@field windowOpenEvent VehicleExternalWindowRequestEvent
+---@field mountInfo gamemountingMountingInfo
+---@field vehicle gameObject
+---@field slotName CName
 GetOnWindowCombatDecorator = {}
 
 ---@param fields? GetOnWindowCombatDecorator
 ---@return GetOnWindowCombatDecorator
-function GetOnWindowCombatDecorator.new(fields) return end
+function GetOnWindowCombatDecorator.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetOnWindowCombatDecorator:Activate(context) return end
+function GetOnWindowCombatDecorator:Activate(context) end

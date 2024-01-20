@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class DischargeEvents: WeaponEventsTransition
----@field public layerId Uint32
----@field private statPoolsSystem gameStatPoolsSystem
----@field private statsSystem gameStatsSystem
----@field private weaponID entEntityID
+---@field layerId Uint32
+---@field statPoolsSystem gameStatPoolsSystem
+---@field statsSystem gameStatsSystem
+---@field weaponID entEntityID
 DischargeEvents = {}
 
 ---@param fields? DischargeEvents
 ---@return DischargeEvents
-function DischargeEvents.new(fields) return end
+function DischargeEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DischargeEvents:OnEnter(stateContext, scriptInterface) return end
+function DischargeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DischargeEvents:OnExit(stateContext, scriptInterface) return end
+function DischargeEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DischargeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function DischargeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

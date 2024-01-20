@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioEntityEmitterSettings
----@field public emitterName CName
----@field public positionName CName
----@field public emitterDecorators CName[]
----@field public keepAlive Bool
----@field public isObjectPerPositionEmitter Bool
+---@field emitterName CName
+---@field positionName CName
+---@field emitterDecorators CName[]
+---@field keepAlive Bool
+---@field isObjectPerPositionEmitter Bool
 audioEntityEmitterSettings = {}
 
 ---@param fields? audioEntityEmitterSettings
 ---@return audioEntityEmitterSettings
-function audioEntityEmitterSettings.new(fields) return end
+function audioEntityEmitterSettings.new(fields) end

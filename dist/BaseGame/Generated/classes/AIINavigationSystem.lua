@@ -4,10 +4,10 @@
 AIINavigationSystem = {}
 
 ---@return nil
-function AIINavigationSystem:GetResult() return end
+function AIINavigationSystem:GetResult() end
 
 ---@return nil
-function AIINavigationSystem:StartPathfinding() return end
+function AIINavigationSystem:StartPathfinding() end
 
 ---@return nil
-function AIINavigationSystem:StopPathfinding() return end
+function AIINavigationSystem:StopPathfinding() end

@@ -1,42 +1,36 @@
 ---@meta
 
 ---@class AntiRadar: gameweaponObject
----@field private colliderComponent entIComponent
----@field private gameEffectRef gameEffectRef
----@field private gameEffectInstance gameEffectInstance
----@field private jammedSensorsArray SensorDevice[]
+---@field colliderComponent entIComponent
+---@field gameEffectRef gameEffectRef
+---@field gameEffectInstance gameEffectInstance
+---@field jammedSensorsArray SensorDevice[]
 AntiRadar = {}
 
 ---@param fields? AntiRadar
 ---@return AntiRadar
-function AntiRadar.new(fields) return end
+function AntiRadar.new(fields) end
 
----@protected
 ---@param evt ChargeEndedEvent
 ---@return Bool
-function AntiRadar:OnChargeEndedEvent(evt) return end
+function AntiRadar:OnChargeEndedEvent(evt) end
 
----@protected
 ---@param evt ChargeStartedEvent
 ---@return Bool
-function AntiRadar:OnChargeStartedEvent(evt) return end
+function AntiRadar:OnChargeStartedEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AntiRadar:OnRequestComponents(ri) return end
+function AntiRadar:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SensorJammed
 ---@return Bool
-function AntiRadar:OnSensorJammed(evt) return end
+function AntiRadar:OnSensorJammed(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AntiRadar:OnTakeControl(ri) return end
+function AntiRadar:OnTakeControl(ri) end
 
----@protected
 ---@param newAppearance CName|string
 ---@return nil
-function AntiRadar:ChangeAppearance(newAppearance) return end
+function AntiRadar:ChangeAppearance(newAppearance) end

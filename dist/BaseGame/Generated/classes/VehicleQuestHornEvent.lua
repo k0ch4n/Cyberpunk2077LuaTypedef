@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VehicleQuestHornEvent: redEvent
----@field public honkTime Float
+---@field honkTime Float
 VehicleQuestHornEvent = {}
 
 ---@param fields? VehicleQuestHornEvent
 ---@return VehicleQuestHornEvent
-function VehicleQuestHornEvent.new(fields) return end
+function VehicleQuestHornEvent.new(fields) end
 
 ---@return String
-function VehicleQuestHornEvent:GetFriendlyDescription() return end
+function VehicleQuestHornEvent:GetFriendlyDescription() end

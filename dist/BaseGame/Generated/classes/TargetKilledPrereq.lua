@@ -5,9 +5,8 @@ TargetKilledPrereq = {}
 
 ---@param fields? TargetKilledPrereq
 ---@return TargetKilledPrereq
-function TargetKilledPrereq.new(fields) return end
+function TargetKilledPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function TargetKilledPrereq:Initialize(recordID) return end
+function TargetKilledPrereq:Initialize(recordID) end

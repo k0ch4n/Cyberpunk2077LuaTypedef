@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class TraitTooltipData: BasePerksMenuTooltipData
----@field public traitType gamedataTraitType
----@field public attributeId TweakDBID
----@field public proficiency gamedataProficiencyType
----@field public traitData TraitDisplayData
----@field public attributeData AttributeData
+---@field traitType gamedataTraitType
+---@field attributeId TweakDBID
+---@field proficiency gamedataProficiencyType
+---@field traitData TraitDisplayData
+---@field attributeData AttributeData
 TraitTooltipData = {}
 
 ---@param fields? TraitTooltipData
 ---@return TraitTooltipData
-function TraitTooltipData.new(fields) return end
+function TraitTooltipData.new(fields) end
 
 ---@return nil
-function TraitTooltipData:RefreshRuntimeData() return end
+function TraitTooltipData:RefreshRuntimeData() end

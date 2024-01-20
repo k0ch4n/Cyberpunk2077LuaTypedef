@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class MeleeHitEvent: redEvent
----@field public instigator gameObject
----@field public target gameObject
----@field public isStrongAttack Bool
----@field public hitBlocked Bool
+---@field instigator gameObject
+---@field target gameObject
+---@field isStrongAttack Bool
+---@field hitBlocked Bool
 MeleeHitEvent = {}
 
 ---@param fields? MeleeHitEvent
 ---@return MeleeHitEvent
-function MeleeHitEvent.new(fields) return end
+function MeleeHitEvent.new(fields) end

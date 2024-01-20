@@ -5,4 +5,4 @@ questvehicleJoinTrafficParams = {}
 
 ---@param fields? questvehicleJoinTrafficParams
 ---@return questvehicleJoinTrafficParams
-function questvehicleJoinTrafficParams.new(fields) return end
+function questvehicleJoinTrafficParams.new(fields) end

@@ -5,9 +5,8 @@ CooldownOnDeactivation = {}
 
 ---@param fields? CooldownOnDeactivation
 ---@return CooldownOnDeactivation
-function CooldownOnDeactivation.new(fields) return end
+function CooldownOnDeactivation.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CooldownOnDeactivation:Deactivate(context) return end
+function CooldownOnDeactivation:Deactivate(context) end

@@ -5,4 +5,4 @@ ToggleNewPlayerFlashlightEvent = {}
 
 ---@param fields? ToggleNewPlayerFlashlightEvent
 ---@return ToggleNewPlayerFlashlightEvent
-function ToggleNewPlayerFlashlightEvent.new(fields) return end
+function ToggleNewPlayerFlashlightEvent.new(fields) end

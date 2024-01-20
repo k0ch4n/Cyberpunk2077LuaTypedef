@@ -1,59 +1,59 @@
 ---@meta
 
 ---@class SmartWindowMainLayoutWidgetController: ComputerMainLayoutWidgetController
----@field private menuMailsSlot inkWidgetReference
----@field private menuFilesSlot inkWidgetReference
----@field private menuNewsFeedSlot inkWidgetReference
----@field private menuDevicesSlot inkWidgetReference
+---@field menuMailsSlot inkWidgetReference
+---@field menuFilesSlot inkWidgetReference
+---@field menuNewsFeedSlot inkWidgetReference
+---@field menuDevicesSlot inkWidgetReference
 SmartWindowMainLayoutWidgetController = {}
 
 ---@param fields? SmartWindowMainLayoutWidgetController
 ---@return SmartWindowMainLayoutWidgetController
-function SmartWindowMainLayoutWidgetController.new(fields) return end
+function SmartWindowMainLayoutWidgetController.new(fields) end
 
 ---@return inkWidget
-function SmartWindowMainLayoutWidgetController:GetDevicesMenuContainer() return end
+function SmartWindowMainLayoutWidgetController:GetDevicesMenuContainer() end
 
 ---@return inkWidget
-function SmartWindowMainLayoutWidgetController:GetFilesMenuContainer() return end
+function SmartWindowMainLayoutWidgetController:GetFilesMenuContainer() end
 
 ---@return inkWidget
-function SmartWindowMainLayoutWidgetController:GetMailsMenuContainer() return end
+function SmartWindowMainLayoutWidgetController:GetMailsMenuContainer() end
 
 ---@return inkWidget
-function SmartWindowMainLayoutWidgetController:GetNewsfeedMenuContainer() return end
+function SmartWindowMainLayoutWidgetController:GetNewsfeedMenuContainer() end
 
 ---@param gameController ComputerInkGameController
 ---@return nil
-function SmartWindowMainLayoutWidgetController:Initialize(gameController) return end
+function SmartWindowMainLayoutWidgetController:Initialize(gameController) end
 
 ---@param widget inkWidget
 ---@return nil
-function SmartWindowMainLayoutWidgetController:SetDevicesMenu(widget) return end
+function SmartWindowMainLayoutWidgetController:SetDevicesMenu(widget) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function SmartWindowMainLayoutWidgetController:SetFilesMenu(gameController, parentWidget) return end
+function SmartWindowMainLayoutWidgetController:SetFilesMenu(gameController, parentWidget) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function SmartWindowMainLayoutWidgetController:SetMailsMenu(gameController, parentWidget) return end
+function SmartWindowMainLayoutWidgetController:SetMailsMenu(gameController, parentWidget) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function SmartWindowMainLayoutWidgetController:SetNewsFeedMenu(gameController, parentWidget) return end
+function SmartWindowMainLayoutWidgetController:SetNewsFeedMenu(gameController, parentWidget) end
 
 ---@return nil
-function SmartWindowMainLayoutWidgetController:ShowDevices() return end
+function SmartWindowMainLayoutWidgetController:ShowDevices() end
 
 ---@return nil
-function SmartWindowMainLayoutWidgetController:ShowFiles() return end
+function SmartWindowMainLayoutWidgetController:ShowFiles() end
 
 ---@return nil
-function SmartWindowMainLayoutWidgetController:ShowMails() return end
+function SmartWindowMainLayoutWidgetController:ShowMails() end
 
 ---@return nil
-function SmartWindowMainLayoutWidgetController:ShowNewsfeed() return end
+function SmartWindowMainLayoutWidgetController:ShowNewsfeed() end

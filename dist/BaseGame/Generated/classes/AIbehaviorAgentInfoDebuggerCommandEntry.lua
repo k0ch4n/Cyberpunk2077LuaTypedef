@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorAgentInfoDebuggerCommandEntry
----@field public callStack AIbehaviorBehaviorInstanceCallStack
----@field public behaviorResourcePath String
+---@field callStack AIbehaviorBehaviorInstanceCallStack
+---@field behaviorResourcePath String
 AIbehaviorAgentInfoDebuggerCommandEntry = {}
 
 ---@param fields? AIbehaviorAgentInfoDebuggerCommandEntry
 ---@return AIbehaviorAgentInfoDebuggerCommandEntry
-function AIbehaviorAgentInfoDebuggerCommandEntry.new(fields) return end
+function AIbehaviorAgentInfoDebuggerCommandEntry.new(fields) end

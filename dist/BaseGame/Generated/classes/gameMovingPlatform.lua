@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class gameMovingPlatform: entIPlacedComponent
----@field public loopType gameMovingPlatformLoopType
----@field public supportLegacyUnalignedMarkers Bool
----@field public enableWaterInteractions Bool
----@field public soundPositionName CName
+---@field loopType gameMovingPlatformLoopType
+---@field supportLegacyUnalignedMarkers Bool
+---@field enableWaterInteractions Bool
+---@field soundPositionName CName
 gameMovingPlatform = {}
 
 ---@param fields? gameMovingPlatform
 ---@return gameMovingPlatform
-function gameMovingPlatform.new(fields) return end
+function gameMovingPlatform.new(fields) end
 
 ---@return Bool
-function gameMovingPlatform:IsMoving() return end
+function gameMovingPlatform:IsMoving() end
 
 ---@return Float
-function gameMovingPlatform:Pause() return end
+function gameMovingPlatform:Pause() end
 
 ---@param time Float
 ---@return gamePlatformMovementState
-function gameMovingPlatform:Unpause(time) return end
+function gameMovingPlatform:Unpause(time) end

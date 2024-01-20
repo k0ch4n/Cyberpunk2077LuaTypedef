@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class STransformAnimationSkipEventData
----@field public time Float
----@field public skipToEnd Bool
+---@field time Float
+---@field skipToEnd Bool
 STransformAnimationSkipEventData = {}
 
 ---@param fields? STransformAnimationSkipEventData
 ---@return STransformAnimationSkipEventData
-function STransformAnimationSkipEventData.new(fields) return end
+function STransformAnimationSkipEventData.new(fields) end

@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class MovableQuestTrigger: gameObject
----@field protected factName CName
----@field protected onlyDetectsPlayer Bool
+---@field factName CName
+---@field onlyDetectsPlayer Bool
 MovableQuestTrigger = {}
 
 ---@param fields? MovableQuestTrigger
 ---@return MovableQuestTrigger
-function MovableQuestTrigger.new(fields) return end
+function MovableQuestTrigger.new(fields) end
 
----@protected
 ---@param trigger entAreaEnteredEvent
 ---@return Bool
-function MovableQuestTrigger:OnAreaEnter(trigger) return end
+function MovableQuestTrigger:OnAreaEnter(trigger) end
 
----@protected
 ---@param trigger entAreaExitedEvent
 ---@return Bool
-function MovableQuestTrigger:OnAreaExit(trigger) return end
+function MovableQuestTrigger:OnAreaExit(trigger) end

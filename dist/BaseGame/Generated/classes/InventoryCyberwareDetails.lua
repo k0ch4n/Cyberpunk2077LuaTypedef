@@ -5,4 +5,4 @@ InventoryCyberwareDetails = {}
 
 ---@param fields? InventoryCyberwareDetails
 ---@return InventoryCyberwareDetails
-function InventoryCyberwareDetails.new(fields) return end
+function InventoryCyberwareDetails.new(fields) end

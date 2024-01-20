@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioGrenadeEntitySettings: audioEntitySettings
----@field public explosionSound CName
+---@field explosionSound CName
 audioGrenadeEntitySettings = {}
 
 ---@param fields? audioGrenadeEntitySettings
 ---@return audioGrenadeEntitySettings
-function audioGrenadeEntitySettings.new(fields) return end
+function audioGrenadeEntitySettings.new(fields) end

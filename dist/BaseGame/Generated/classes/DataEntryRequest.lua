@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DataEntryRequest: gameScriptableSystemRequest
----@field public dataType EGameSessionDataType
----@field public data Variant
+---@field dataType EGameSessionDataType
+---@field data Variant
 DataEntryRequest = {}
 
 ---@param fields? DataEntryRequest
 ---@return DataEntryRequest
-function DataEntryRequest.new(fields) return end
+function DataEntryRequest.new(fields) end

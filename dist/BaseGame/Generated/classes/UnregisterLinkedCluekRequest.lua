@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UnregisterLinkedCluekRequest: gameScriptableSystemRequest
----@field public linkedCluekData LinkedFocusClueData
+---@field linkedCluekData LinkedFocusClueData
 UnregisterLinkedCluekRequest = {}
 
 ---@param fields? UnregisterLinkedCluekRequest
 ---@return UnregisterLinkedCluekRequest
-function UnregisterLinkedCluekRequest.new(fields) return end
+function UnregisterLinkedCluekRequest.new(fields) end

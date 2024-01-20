@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimNode_StackTransformsShrinker: animAnimNode_OnePoseInput
----@field public tag CName
+---@field tag CName
 animAnimNode_StackTransformsShrinker = {}
 
 ---@param fields? animAnimNode_StackTransformsShrinker
 ---@return animAnimNode_StackTransformsShrinker
-function animAnimNode_StackTransformsShrinker.new(fields) return end
+function animAnimNode_StackTransformsShrinker.new(fields) end

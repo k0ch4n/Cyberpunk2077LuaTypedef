@@ -5,19 +5,19 @@ gamedataAttitude_Record = {}
 
 ---@param fields? gamedataAttitude_Record
 ---@return gamedataAttitude_Record
-function gamedataAttitude_Record.new(fields) return end
+function gamedataAttitude_Record.new(fields) end
 
 ---@return gamedataAttitudeGroup_Record
-function gamedataAttitude_Record:Group1() return end
+function gamedataAttitude_Record:Group1() end
 
 ---@return gamedataAttitudeGroup_Record
-function gamedataAttitude_Record:Group1Handle() return end
+function gamedataAttitude_Record:Group1Handle() end
 
 ---@return gamedataAttitudeGroup_Record
-function gamedataAttitude_Record:Group2() return end
+function gamedataAttitude_Record:Group2() end
 
 ---@return gamedataAttitudeGroup_Record
-function gamedataAttitude_Record:Group2Handle() return end
+function gamedataAttitude_Record:Group2Handle() end
 
 ---@return String
-function gamedataAttitude_Record:Value() return end
+function gamedataAttitude_Record:Value() end

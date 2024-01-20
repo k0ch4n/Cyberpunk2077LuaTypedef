@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scneventsRagdollEvent: scnSceneEvent
----@field public performer scnPerformerId
----@field public enableRagdoll Bool
+---@field performer scnPerformerId
+---@field enableRagdoll Bool
 scneventsRagdollEvent = {}
 
 ---@param fields? scneventsRagdollEvent
 ---@return scneventsRagdollEvent
-function scneventsRagdollEvent.new(fields) return end
+function scneventsRagdollEvent.new(fields) end

@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class ScannerHintInkGameController: gameuiWidgetGameController
----@field private messegeWidget inkTextWidget
----@field private root inkWidget
----@field private iconWidget inkImageWidgetReference
----@field private OnShowMessegeCallback redCallbackObject
----@field private OnMessegeUpdateCallback redCallbackObject
----@field private OnVisionModeChangedCallback redCallbackObject
+---@field messegeWidget inkTextWidget
+---@field root inkWidget
+---@field iconWidget inkImageWidgetReference
+---@field OnShowMessegeCallback redCallbackObject
+---@field OnMessegeUpdateCallback redCallbackObject
+---@field OnVisionModeChangedCallback redCallbackObject
 ScannerHintInkGameController = {}
 
 ---@param fields? ScannerHintInkGameController
 ---@return ScannerHintInkGameController
-function ScannerHintInkGameController.new(fields) return end
+function ScannerHintInkGameController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerHintInkGameController:OnInitialize() return end
+function ScannerHintInkGameController:OnInitialize() end
 
----@protected
 ---@param value String
 ---@return Bool
-function ScannerHintInkGameController:OnMessegeUpdate(value) return end
+function ScannerHintInkGameController:OnMessegeUpdate(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function ScannerHintInkGameController:OnShowMessege(value) return end
+function ScannerHintInkGameController:OnShowMessege(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ScannerHintInkGameController:OnVisionModeChanged(value) return end
+function ScannerHintInkGameController:OnVisionModeChanged(value) end
 
----@private
 ---@return gameObject
-function ScannerHintInkGameController:GetOwner() return end
+function ScannerHintInkGameController:GetOwner() end
 
----@private
 ---@return nil
-function ScannerHintInkGameController:RegisterBlackboardCallbacks() return end
+function ScannerHintInkGameController:RegisterBlackboardCallbacks() end

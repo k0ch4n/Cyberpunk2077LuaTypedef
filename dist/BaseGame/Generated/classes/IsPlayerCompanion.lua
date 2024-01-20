@@ -5,14 +5,12 @@ IsPlayerCompanion = {}
 
 ---@param fields? IsPlayerCompanion
 ---@return IsPlayerCompanion
-function IsPlayerCompanion.new(fields) return end
+function IsPlayerCompanion.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsPlayerCompanion:Activate(context) return end
+function IsPlayerCompanion:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPlayerCompanion:Check(context) return end
+function IsPlayerCompanion:Check(context) end

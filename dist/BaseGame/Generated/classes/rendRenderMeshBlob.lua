@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendRenderMeshBlob: IRenderResourceBlob
----@field public header rendRenderMeshBlobHeader
----@field public renderBuffer DataBuffer
+---@field header rendRenderMeshBlobHeader
+---@field renderBuffer DataBuffer
 rendRenderMeshBlob = {}
 
 ---@param fields? rendRenderMeshBlob
 ---@return rendRenderMeshBlob
-function rendRenderMeshBlob.new(fields) return end
+function rendRenderMeshBlob.new(fields) end

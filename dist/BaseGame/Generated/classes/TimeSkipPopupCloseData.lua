@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TimeSkipPopupCloseData: inkGameNotificationData
----@field public timeChanged Bool
+---@field timeChanged Bool
 TimeSkipPopupCloseData = {}
 
 ---@param fields? TimeSkipPopupCloseData
 ---@return TimeSkipPopupCloseData
-function TimeSkipPopupCloseData.new(fields) return end
+function TimeSkipPopupCloseData.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentTreeRefValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue AIbehaviorParameterizedBehavior
+---@field type AIArgumentType
+---@field defaultValue AIbehaviorParameterizedBehavior
 AIArgumentTreeRefValue = {}
 
 ---@param fields? AIArgumentTreeRefValue
 ---@return AIArgumentTreeRefValue
-function AIArgumentTreeRefValue.new(fields) return end
+function AIArgumentTreeRefValue.new(fields) end

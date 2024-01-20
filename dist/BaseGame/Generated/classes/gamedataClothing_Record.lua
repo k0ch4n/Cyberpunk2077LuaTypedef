@@ -5,4 +5,4 @@ gamedataClothing_Record = {}
 
 ---@param fields? gamedataClothing_Record
 ---@return gamedataClothing_Record
-function gamedataClothing_Record.new(fields) return end
+function gamedataClothing_Record.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCrowdCreationData
----@field public timePeriods gameCrowdPhaseTimePeriod
+---@field timePeriods gameCrowdPhaseTimePeriod
 gameCrowdCreationData = {}
 
 ---@param fields? gameCrowdCreationData
 ---@return gameCrowdCreationData
-function gameCrowdCreationData.new(fields) return end
+function gameCrowdCreationData.new(fields) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetAnimWrappersFromMountData: AIVehicleTaskAbstract
----@field protected mountData AIArgumentMapping
+---@field mountData AIArgumentMapping
 SetAnimWrappersFromMountData = {}
 
 ---@param fields? SetAnimWrappersFromMountData
 ---@return SetAnimWrappersFromMountData
-function SetAnimWrappersFromMountData.new(fields) return end
+function SetAnimWrappersFromMountData.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetAnimWrappersFromMountData:Activate(context) return end
+function SetAnimWrappersFromMountData:Activate(context) end

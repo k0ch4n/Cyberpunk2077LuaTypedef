@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class RipperdocPerkController: inkWidgetLogicController
----@field private icon inkImageWidgetReference
----@field private perkData RipperdocPerkData
----@field private hoverEvent RipperdocPerkHoverEvent
+---@field icon inkImageWidgetReference
+---@field perkData RipperdocPerkData
+---@field hoverEvent RipperdocPerkHoverEvent
 RipperdocPerkController = {}
 
 ---@param fields? RipperdocPerkController
 ---@return RipperdocPerkController
-function RipperdocPerkController.new(fields) return end
+function RipperdocPerkController.new(fields) end
 
----@protected
 ---@return Bool
-function RipperdocPerkController:OnInitialize() return end
+function RipperdocPerkController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocPerkController:OnPerkHover(evt) return end
+function RipperdocPerkController:OnPerkHover(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocPerkController:OnPerkUnhover(evt) return end
+function RipperdocPerkController:OnPerkUnhover(evt) end
 
 ---@param data RipperdocPerkData
 ---@return nil
-function RipperdocPerkController:Configure(data) return end
+function RipperdocPerkController:Configure(data) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class BetData
----@field public chipsAmount Uint32
----@field public betAmount Uint32
----@field public betOn CasinoTableBet
+---@field chipsAmount Uint32
+---@field betAmount Uint32
+---@field betOn CasinoTableBet
 BetData = {}
 
 ---@param fields? BetData
 ---@return BetData
-function BetData.new(fields) return end
+function BetData.new(fields) end

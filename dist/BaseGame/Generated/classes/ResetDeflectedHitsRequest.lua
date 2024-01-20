@@ -5,4 +5,4 @@ ResetDeflectedHitsRequest = {}
 
 ---@param fields? ResetDeflectedHitsRequest
 ---@return ResetDeflectedHitsRequest
-function ResetDeflectedHitsRequest.new(fields) return end
+function ResetDeflectedHitsRequest.new(fields) end

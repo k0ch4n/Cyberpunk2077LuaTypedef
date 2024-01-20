@@ -5,4 +5,4 @@ inkMenuInstanceImpl = {}
 
 ---@param fields? inkMenuInstanceImpl
 ---@return inkMenuInstanceImpl
-function inkMenuInstanceImpl.new(fields) return end
+function inkMenuInstanceImpl.new(fields) end

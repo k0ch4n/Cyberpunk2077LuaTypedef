@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animAnimVariableQuaternion: animAnimVariable
----@field public roll Float
----@field public pitch Float
----@field public yaw Float
----@field public default Quaternion
+---@field roll Float
+---@field pitch Float
+---@field yaw Float
+---@field default Quaternion
 animAnimVariableQuaternion = {}
 
 ---@param fields? animAnimVariableQuaternion
 ---@return animAnimVariableQuaternion
-function animAnimVariableQuaternion.new(fields) return end
+function animAnimVariableQuaternion.new(fields) end

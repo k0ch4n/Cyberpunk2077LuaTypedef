@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RemoveLinkedStatusEffectsEvent: redEvent
----@field public ssAction Bool
+---@field ssAction Bool
 RemoveLinkedStatusEffectsEvent = {}
 
 ---@param fields? RemoveLinkedStatusEffectsEvent
 ---@return RemoveLinkedStatusEffectsEvent
-function RemoveLinkedStatusEffectsEvent.new(fields) return end
+function RemoveLinkedStatusEffectsEvent.new(fields) end

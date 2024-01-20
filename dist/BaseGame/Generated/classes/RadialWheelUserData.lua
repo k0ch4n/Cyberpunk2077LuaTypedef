@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RadialWheelUserData: IScriptable
----@field public Slot RadialSlot
+---@field Slot RadialSlot
 RadialWheelUserData = {}
 
 ---@param fields? RadialWheelUserData
 ---@return RadialWheelUserData
-function RadialWheelUserData.new(fields) return end
+function RadialWheelUserData.new(fields) end

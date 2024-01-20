@@ -5,4 +5,4 @@ WeaponStateMachinePrereqState = {}
 
 ---@param fields? WeaponStateMachinePrereqState
 ---@return WeaponStateMachinePrereqState
-function WeaponStateMachinePrereqState.new(fields) return end
+function WeaponStateMachinePrereqState.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entChangeVoicesetStateEvent: redEvent
----@field public enableVoicesetLines Bool
----@field public enableVoicesetGrunts Bool
----@field public inputsToBlock entVoicesetInputToBlock[]
+---@field enableVoicesetLines Bool
+---@field enableVoicesetGrunts Bool
+---@field inputsToBlock entVoicesetInputToBlock[]
 entChangeVoicesetStateEvent = {}
 
 ---@param fields? entChangeVoicesetStateEvent
 ---@return entChangeVoicesetStateEvent
-function entChangeVoicesetStateEvent.new(fields) return end
+function entChangeVoicesetStateEvent.new(fields) end

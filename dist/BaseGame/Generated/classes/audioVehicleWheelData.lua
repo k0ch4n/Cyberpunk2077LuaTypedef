@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class audioVehicleWheelData
----@field public wheelStartEvents CName[]
----@field public wheelStopEvents CName[]
----@field public wheelRegularSuspensionImpacts CName[]
----@field public wheelLandingSuspensionImpacts CName[]
----@field public suspensionPressureMultiplier Float
----@field public landingSuspensionPressureMultiplier Float
----@field public suspensionPressureLimit Float
----@field public minSuspensionPressureThreshold Float
----@field public suspensionImpactCooldown Float
----@field public minWheelTimeInAirBeforeLanding Float
+---@field wheelStartEvents CName[]
+---@field wheelStopEvents CName[]
+---@field wheelRegularSuspensionImpacts CName[]
+---@field wheelLandingSuspensionImpacts CName[]
+---@field suspensionPressureMultiplier Float
+---@field landingSuspensionPressureMultiplier Float
+---@field suspensionPressureLimit Float
+---@field minSuspensionPressureThreshold Float
+---@field suspensionImpactCooldown Float
+---@field minWheelTimeInAirBeforeLanding Float
 audioVehicleWheelData = {}
 
 ---@param fields? audioVehicleWheelData
 ---@return audioVehicleWheelData
-function audioVehicleWheelData.new(fields) return end
+function audioVehicleWheelData.new(fields) end

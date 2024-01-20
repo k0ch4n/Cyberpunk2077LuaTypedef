@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class gameuiBaseDirectionalIndicatorPartLogicController: inkWidgetLogicController
----@field public defaultForwardFovRange Float
----@field public adjustedForwardFovRange Float
+---@field defaultForwardFovRange Float
+---@field adjustedForwardFovRange Float
 gameuiBaseDirectionalIndicatorPartLogicController = {}
 
 ---@param fields? gameuiBaseDirectionalIndicatorPartLogicController
 ---@return gameuiBaseDirectionalIndicatorPartLogicController
-function gameuiBaseDirectionalIndicatorPartLogicController.new(fields) return end
+function gameuiBaseDirectionalIndicatorPartLogicController.new(fields) end
 
 ---@return Float
-function gameuiBaseDirectionalIndicatorPartLogicController:GetAngleDegrees() return end
+function gameuiBaseDirectionalIndicatorPartLogicController:GetAngleDegrees() end
 
 ---@return Vector4
-function gameuiBaseDirectionalIndicatorPartLogicController:GetPlayerPosition() return end
+function gameuiBaseDirectionalIndicatorPartLogicController:GetPlayerPosition() end
 
 ---@return entEntity
-function gameuiBaseDirectionalIndicatorPartLogicController:GetSourceEntity() return end
+function gameuiBaseDirectionalIndicatorPartLogicController:GetSourceEntity() end
 
 ---@return entEntityID
-function gameuiBaseDirectionalIndicatorPartLogicController:GetSourceEntityID() return end
+function gameuiBaseDirectionalIndicatorPartLogicController:GetSourceEntityID() end
 
 ---@return Vector4
-function gameuiBaseDirectionalIndicatorPartLogicController:GetSourcePosition() return end
+function gameuiBaseDirectionalIndicatorPartLogicController:GetSourcePosition() end

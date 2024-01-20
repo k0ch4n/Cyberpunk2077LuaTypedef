@@ -1,30 +1,29 @@
 ---@meta
 
 ---@class ToiletControllerPS: ScriptableDeviceComponentPS
----@field protected flushDuration Float
----@field protected flushSFX CName
----@field protected flushVFXname CName
----@field protected isFlushing Bool
+---@field flushDuration Float
+---@field flushSFX CName
+---@field flushVFXname CName
+---@field isFlushing Bool
 ToiletControllerPS = {}
 
 ---@param fields? ToiletControllerPS
 ---@return ToiletControllerPS
-function ToiletControllerPS.new(fields) return end
+function ToiletControllerPS.new(fields) end
 
----@protected
 ---@return Flush
-function ToiletControllerPS:ActionFlush() return end
+function ToiletControllerPS:ActionFlush() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ToiletControllerPS:GetActions(context) return end
+function ToiletControllerPS:GetActions(context) end
 
 ---@return CName
-function ToiletControllerPS:GetFlushSFX() return end
+function ToiletControllerPS:GetFlushSFX() end
 
 ---@return CName
-function ToiletControllerPS:GetFlushVFX() return end
+function ToiletControllerPS:GetFlushVFX() end
 
 ---@param evt Flush
 ---@return EntityNotificationType
-function ToiletControllerPS:OnFlush(evt) return end
+function ToiletControllerPS:OnFlush(evt) end

@@ -1,37 +1,32 @@
 ---@meta
 
 ---@class ConvertDamageToDoTEffector: ModifyAttackEffector
----@field public DamageToDoTConversion Float
----@field public DotDistributionTime Float
----@field public statMod gameConstantStatModifierData_Deprecated
----@field public ownerID entEntityID
+---@field DamageToDoTConversion Float
+---@field DotDistributionTime Float
+---@field statMod gameConstantStatModifierData_Deprecated
+---@field ownerID entEntityID
 ConvertDamageToDoTEffector = {}
 
 ---@param fields? ConvertDamageToDoTEffector
 ---@return ConvertDamageToDoTEffector
-function ConvertDamageToDoTEffector.new(fields) return end
+function ConvertDamageToDoTEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ConvertDamageToDoTEffector:ActionOn(owner) return end
+function ConvertDamageToDoTEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ConvertDamageToDoTEffector:Initialize(record, parentRecord) return end
+function ConvertDamageToDoTEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function ConvertDamageToDoTEffector:ProcessAction(owner) return end
+function ConvertDamageToDoTEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ConvertDamageToDoTEffector:RepeatedAction(owner) return end
+function ConvertDamageToDoTEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ConvertDamageToDoTEffector:Uninitialize() return end
+function ConvertDamageToDoTEffector:Uninitialize() end

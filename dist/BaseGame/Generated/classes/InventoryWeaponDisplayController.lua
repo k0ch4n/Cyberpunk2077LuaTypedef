@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class InventoryWeaponDisplayController: InventoryItemDisplayController
----@field protected weaponSpecyficModsRoot inkCompoundWidgetReference
----@field protected silencerIcon inkWidgetReference
----@field protected scopeIcon inkWidgetReference
----@field protected ammoIcon inkImageWidgetReference
----@field protected weaponAttachmentsDisplay InventoryItemPartDisplay[]
+---@field weaponSpecyficModsRoot inkCompoundWidgetReference
+---@field silencerIcon inkWidgetReference
+---@field scopeIcon inkWidgetReference
+---@field ammoIcon inkImageWidgetReference
+---@field weaponAttachmentsDisplay InventoryItemPartDisplay[]
 InventoryWeaponDisplayController = {}
 
 ---@param fields? InventoryWeaponDisplayController
 ---@return InventoryWeaponDisplayController
-function InventoryWeaponDisplayController.new(fields) return end
+function InventoryWeaponDisplayController.new(fields) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryWeaponDisplayController:NewRefreshUI(itemData) return end
+function InventoryWeaponDisplayController:NewRefreshUI(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryWeaponDisplayController:NewUpdateWeaponParts(itemData) return end
+function InventoryWeaponDisplayController:NewUpdateWeaponParts(itemData) end
 
----@protected
 ---@return nil
-function InventoryWeaponDisplayController:RefreshUI() return end
+function InventoryWeaponDisplayController:RefreshUI() end
 
----@protected
 ---@param itemData gameItemData
 ---@return nil
-function InventoryWeaponDisplayController:UpdateAmmoIcon(itemData) return end
+function InventoryWeaponDisplayController:UpdateAmmoIcon(itemData) end
 
----@protected
 ---@return nil
-function InventoryWeaponDisplayController:UpdateWeaponParts() return end
+function InventoryWeaponDisplayController:UpdateWeaponParts() end

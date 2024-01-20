@@ -5,13 +5,13 @@ gamedataMetaQuest_Record = {}
 
 ---@param fields? gamedataMetaQuest_Record
 ---@return gamedataMetaQuest_Record
-function gamedataMetaQuest_Record.new(fields) return end
+function gamedataMetaQuest_Record.new(fields) end
 
 ---@return String
-function gamedataMetaQuest_Record:EnumComment() return end
+function gamedataMetaQuest_Record:EnumComment() end
 
 ---@return String
-function gamedataMetaQuest_Record:EnumName() return end
+function gamedataMetaQuest_Record:EnumName() end
 
 ---@return gamedataMetaQuest
-function gamedataMetaQuest_Record:Type() return end
+function gamedataMetaQuest_Record:Type() end

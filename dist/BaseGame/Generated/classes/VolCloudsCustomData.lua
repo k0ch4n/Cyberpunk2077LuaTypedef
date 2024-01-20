@@ -5,4 +5,4 @@ VolCloudsCustomData = {}
 
 ---@param fields? VolCloudsCustomData
 ---@return VolCloudsCustomData
-function VolCloudsCustomData.new(fields) return end
+function VolCloudsCustomData.new(fields) end

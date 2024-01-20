@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnSceneEventSymbol
----@field public editorEventId Uint64
----@field public originNodeId scnNodeId
----@field public sceneEventIds scnSceneEventId[]
+---@field editorEventId Uint64
+---@field originNodeId scnNodeId
+---@field sceneEventIds scnSceneEventId[]
 scnSceneEventSymbol = {}
 
 ---@param fields? scnSceneEventSymbol
 ---@return scnSceneEventSymbol
-function scnSceneEventSymbol.new(fields) return end
+function scnSceneEventSymbol.new(fields) end

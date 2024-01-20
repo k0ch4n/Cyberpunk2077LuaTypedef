@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuestDisableWardrobeSetRequest: gamePlayerScriptableSystemRequest
----@field public blockReequipping Bool
+---@field blockReequipping Bool
 QuestDisableWardrobeSetRequest = {}
 
 ---@param fields? QuestDisableWardrobeSetRequest
 ---@return QuestDisableWardrobeSetRequest
-function QuestDisableWardrobeSetRequest.new(fields) return end
+function QuestDisableWardrobeSetRequest.new(fields) end

@@ -5,11 +5,11 @@ gameAttachmentSlotEventsEquipEnd = {}
 
 ---@param fields? gameAttachmentSlotEventsEquipEnd
 ---@return gameAttachmentSlotEventsEquipEnd
-function gameAttachmentSlotEventsEquipEnd.new(fields) return end
+function gameAttachmentSlotEventsEquipEnd.new(fields) end
 
 ---@return gameItemID
-function gameAttachmentSlotEventsEquipEnd:GetItemID() return end
+function gameAttachmentSlotEventsEquipEnd:GetItemID() end
 
 ---@param itemId gameItemID
 ---@return nil
-function gameAttachmentSlotEventsEquipEnd:SetItemID(itemId) return end
+function gameAttachmentSlotEventsEquipEnd:SetItemID(itemId) end

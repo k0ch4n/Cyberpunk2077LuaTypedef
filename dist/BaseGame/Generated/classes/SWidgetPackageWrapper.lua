@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SWidgetPackageWrapper: IScriptable
----@field public WidgetPackage SWidgetPackage
+---@field WidgetPackage SWidgetPackage
 SWidgetPackageWrapper = {}
 
 ---@param fields? SWidgetPackageWrapper
 ---@return SWidgetPackageWrapper
-function SWidgetPackageWrapper.new(fields) return end
+function SWidgetPackageWrapper.new(fields) end

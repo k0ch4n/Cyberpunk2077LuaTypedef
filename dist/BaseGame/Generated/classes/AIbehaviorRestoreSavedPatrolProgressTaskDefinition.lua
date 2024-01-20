@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIbehaviorRestoreSavedPatrolProgressTaskDefinition: AIbehaviorTaskDefinition
----@field public path AIArgumentMapping
----@field public savedState AIArgumentMapping
----@field public patrolProgress AIArgumentMapping
----@field public destinationPosition AIArgumentMapping
----@field public destinationTangent AIArgumentMapping
+---@field path AIArgumentMapping
+---@field savedState AIArgumentMapping
+---@field patrolProgress AIArgumentMapping
+---@field destinationPosition AIArgumentMapping
+---@field destinationTangent AIArgumentMapping
 AIbehaviorRestoreSavedPatrolProgressTaskDefinition = {}
 
 ---@param fields? AIbehaviorRestoreSavedPatrolProgressTaskDefinition
 ---@return AIbehaviorRestoreSavedPatrolProgressTaskDefinition
-function AIbehaviorRestoreSavedPatrolProgressTaskDefinition.new(fields) return end
+function AIbehaviorRestoreSavedPatrolProgressTaskDefinition.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameGodModeData
----@field public type gameGodModeType
----@field public source CName
+---@field type gameGodModeType
+---@field source CName
 gameGodModeData = {}
 
 ---@param fields? gameGodModeData
 ---@return gameGodModeData
-function gameGodModeData.new(fields) return end
+function gameGodModeData.new(fields) end

@@ -1,51 +1,48 @@
 ---@meta
 
 ---@class WeaponVendorActionWidgetController: DeviceActionWidgetControllerBase
----@field protected buttonText inkTextWidgetReference
----@field protected standardButtonContainer inkWidgetReference
----@field protected hoveredButtonContainer inkWidgetReference
----@field private buttonState ButtonStatus
----@field private hoverState HoverStatus
----@field private isBusy Bool
+---@field buttonText inkTextWidgetReference
+---@field standardButtonContainer inkWidgetReference
+---@field hoveredButtonContainer inkWidgetReference
+---@field buttonState ButtonStatus
+---@field hoverState HoverStatus
+---@field isBusy Bool
 WeaponVendorActionWidgetController = {}
 
 ---@param fields? WeaponVendorActionWidgetController
 ---@return WeaponVendorActionWidgetController
-function WeaponVendorActionWidgetController.new(fields) return end
+function WeaponVendorActionWidgetController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WeaponVendorActionWidgetController:OnHoverOut(e) return end
+function WeaponVendorActionWidgetController:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WeaponVendorActionWidgetController:OnHoverOver(e) return end
+function WeaponVendorActionWidgetController:OnHoverOver(e) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function WeaponVendorActionWidgetController:OnProcessed(e) return end
+function WeaponVendorActionWidgetController:OnProcessed(e) end
 
 ---@param executor gameObject
 ---@param action gamedeviceAction
 ---@return nil
-function WeaponVendorActionWidgetController:FinalizeActionExecution(executor, action) return end
+function WeaponVendorActionWidgetController:FinalizeActionExecution(executor, action) end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function WeaponVendorActionWidgetController:Initialize(gameController, widgetData) return end
+function WeaponVendorActionWidgetController:Initialize(gameController, widgetData) end
 
 ---@return Bool
-function WeaponVendorActionWidgetController:IsProcessing() return end
+function WeaponVendorActionWidgetController:IsProcessing() end
 
 ---@return nil
-function WeaponVendorActionWidgetController:NoMoney() return end
+function WeaponVendorActionWidgetController:NoMoney() end
 
 ---@return nil
-function WeaponVendorActionWidgetController:Processing() return end
+function WeaponVendorActionWidgetController:Processing() end
 
 ---@return nil
-function WeaponVendorActionWidgetController:ResetToDefault() return end
+function WeaponVendorActionWidgetController:ResetToDefault() end

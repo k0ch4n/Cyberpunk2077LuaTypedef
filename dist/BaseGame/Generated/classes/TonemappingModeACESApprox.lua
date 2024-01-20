@@ -5,4 +5,4 @@ TonemappingModeACESApprox = {}
 
 ---@param fields? TonemappingModeACESApprox
 ---@return TonemappingModeACESApprox
-function TonemappingModeACESApprox.new(fields) return end
+function TonemappingModeACESApprox.new(fields) end

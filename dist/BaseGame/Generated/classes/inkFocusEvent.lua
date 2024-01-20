@@ -5,7 +5,7 @@ inkFocusEvent = {}
 
 ---@param fields? inkFocusEvent
 ---@return inkFocusEvent
-function inkFocusEvent.new(fields) return end
+function inkFocusEvent.new(fields) end
 
 ---@return nil
-function inkFocusEvent:GetCause() return end
+function inkFocusEvent:GetCause() end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class navgendebugCompactContour
----@field public rawVertices Int32[]
----@field public simplifiedVertices Int32[]
----@field public innerPoints Int32[]
----@field public region Uint16
----@field public area Uint8
----@field public box Box
+---@field rawVertices Int32[]
+---@field simplifiedVertices Int32[]
+---@field innerPoints Int32[]
+---@field region Uint16
+---@field area Uint8
+---@field box Box
 navgendebugCompactContour = {}
 
 ---@param fields? navgendebugCompactContour
 ---@return navgendebugCompactContour
-function navgendebugCompactContour.new(fields) return end
+function navgendebugCompactContour.new(fields) end

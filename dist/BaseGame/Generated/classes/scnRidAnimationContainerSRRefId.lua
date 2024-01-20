@@ -5,4 +5,4 @@ scnRidAnimationContainerSRRefId = {}
 
 ---@param fields? scnRidAnimationContainerSRRefId
 ---@return scnRidAnimationContainerSRRefId
-function scnRidAnimationContainerSRRefId.new(fields) return end
+function scnRidAnimationContainerSRRefId.new(fields) end

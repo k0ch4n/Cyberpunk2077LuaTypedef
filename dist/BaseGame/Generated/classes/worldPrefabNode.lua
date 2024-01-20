@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class worldPrefabNode: worldNode
----@field public prefab worldPrefab
----@field public instanceData worldPrefabInstanceData
----@field public enabledVariants worldPrefabVariantsList
----@field public canBeToggledInGame Bool
----@field public noCollisions Bool
----@field public enableRenderSceneLayerOverride Bool
----@field public renderSceneLayerMask RenderSceneLayerMask
----@field public streamingImportance worldPrefabStreamingImportance
----@field public streamingOcclusionOverride worldPrefabStreamingOcclusion
----@field public interiorMapContribution worldPrefabInteriorMapContribution
----@field public ignoreMeshEmbeddedOccluders Bool
----@field public ignoreAllOccluders Bool
----@field public occluderAutoHideDistanceScale Uint8
----@field public proxyMeshOnly worldPrefabProxyMeshOnly
----@field public proxyScaleOverride Bool
----@field public proxyScale Vector3
----@field public applyMaxStreamingDistance Bool
+---@field prefab worldPrefab
+---@field instanceData worldPrefabInstanceData
+---@field enabledVariants worldPrefabVariantsList
+---@field canBeToggledInGame Bool
+---@field noCollisions Bool
+---@field enableRenderSceneLayerOverride Bool
+---@field renderSceneLayerMask RenderSceneLayerMask
+---@field streamingImportance worldPrefabStreamingImportance
+---@field streamingOcclusionOverride worldPrefabStreamingOcclusion
+---@field interiorMapContribution worldPrefabInteriorMapContribution
+---@field ignoreMeshEmbeddedOccluders Bool
+---@field ignoreAllOccluders Bool
+---@field occluderAutoHideDistanceScale Uint8
+---@field proxyMeshOnly worldPrefabProxyMeshOnly
+---@field proxyScaleOverride Bool
+---@field proxyScale Vector3
+---@field applyMaxStreamingDistance Bool
 worldPrefabNode = {}
 
 ---@param fields? worldPrefabNode
 ---@return worldPrefabNode
-function worldPrefabNode.new(fields) return end
+function worldPrefabNode.new(fields) end

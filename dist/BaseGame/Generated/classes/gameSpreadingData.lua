@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameSpreadingData
----@field public count Uint32
----@field public targets Uint32
----@field public damageMultiplier Float
----@field public range Float
----@field public coneAngle Float
+---@field count Uint32
+---@field targets Uint32
+---@field damageMultiplier Float
+---@field range Float
+---@field coneAngle Float
 gameSpreadingData = {}
 
 ---@param fields? gameSpreadingData
 ---@return gameSpreadingData
-function gameSpreadingData.new(fields) return end
+function gameSpreadingData.new(fields) end

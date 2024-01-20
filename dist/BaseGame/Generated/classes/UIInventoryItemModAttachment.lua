@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class UIInventoryItemModAttachment: UIInventoryItemMod
----@field public IsEmpty Bool
----@field public SlotName String
----@field public Quality gamedataQuality
----@field public AbilitiesSize Int32
----@field public Abilities gameInventoryItemAbility[]
+---@field IsEmpty Bool
+---@field SlotName String
+---@field Quality gamedataQuality
+---@field AbilitiesSize Int32
+---@field Abilities gameInventoryItemAbility[]
 UIInventoryItemModAttachment = {}
 
 ---@param fields? UIInventoryItemModAttachment
 ---@return UIInventoryItemModAttachment
-function UIInventoryItemModAttachment.new(fields) return end
+function UIInventoryItemModAttachment.new(fields) end

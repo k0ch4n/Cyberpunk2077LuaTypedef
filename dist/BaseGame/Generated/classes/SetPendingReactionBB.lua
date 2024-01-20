@@ -5,14 +5,12 @@ SetPendingReactionBB = {}
 
 ---@param fields? SetPendingReactionBB
 ---@return SetPendingReactionBB
-function SetPendingReactionBB.new(fields) return end
+function SetPendingReactionBB.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetPendingReactionBB:Activate(context) return end
+function SetPendingReactionBB:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetPendingReactionBB:Deactivate(context) return end
+function SetPendingReactionBB:Deactivate(context) end

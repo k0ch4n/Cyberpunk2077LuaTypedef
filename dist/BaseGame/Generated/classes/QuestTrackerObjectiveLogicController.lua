@@ -1,49 +1,45 @@
 ---@meta
 
 ---@class QuestTrackerObjectiveLogicController: inkWidgetLogicController
----@field private objectiveTitle inkTextWidgetReference
----@field private trackingIcon inkWidgetReference
----@field private trackingFrame inkWidgetReference
----@field private objectiveEntry gameJournalQuestObjective
----@field private AnimProxy inkanimProxy
----@field private IntroAnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private readyToRemove Bool
+---@field objectiveTitle inkTextWidgetReference
+---@field trackingIcon inkWidgetReference
+---@field trackingFrame inkWidgetReference
+---@field objectiveEntry gameJournalQuestObjective
+---@field AnimProxy inkanimProxy
+---@field IntroAnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field readyToRemove Bool
 QuestTrackerObjectiveLogicController = {}
 
 ---@param fields? QuestTrackerObjectiveLogicController
 ---@return QuestTrackerObjectiveLogicController
-function QuestTrackerObjectiveLogicController.new(fields) return end
+function QuestTrackerObjectiveLogicController.new(fields) end
 
 ---@return Bool
-function QuestTrackerObjectiveLogicController.IsObjectiveEntry() return end
+function QuestTrackerObjectiveLogicController.IsObjectiveEntry() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function QuestTrackerObjectiveLogicController:OnAnimEnd(proxy) return end
+function QuestTrackerObjectiveLogicController:OnAnimEnd(proxy) end
 
----@protected
 ---@return Bool
-function QuestTrackerObjectiveLogicController:OnInitialize() return end
+function QuestTrackerObjectiveLogicController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function QuestTrackerObjectiveLogicController:OnIntroAnimEnd(proxy) return end
+function QuestTrackerObjectiveLogicController:OnIntroAnimEnd(proxy) end
 
----@protected
 ---@return Bool
-function QuestTrackerObjectiveLogicController:OnUninitialize() return end
+function QuestTrackerObjectiveLogicController:OnUninitialize() end
 
 ---@return gameJournalQuestObjective
-function QuestTrackerObjectiveLogicController:GetObjectiveEntry() return end
+function QuestTrackerObjectiveLogicController:GetObjectiveEntry() end
 
 ---@return Bool
-function QuestTrackerObjectiveLogicController:IsReadyToRemove() return end
+function QuestTrackerObjectiveLogicController:IsReadyToRemove() end
 
 ---@return nil
-function QuestTrackerObjectiveLogicController:PlayIntroAnim() return end
+function QuestTrackerObjectiveLogicController:PlayIntroAnim() end
 
 ---@param objectiveTitle String
 ---@param isTracked Bool
@@ -53,19 +49,18 @@ function QuestTrackerObjectiveLogicController:PlayIntroAnim() return end
 ---@param objectiveEntry gameJournalQuestObjective
 ---@param isQuestType Bool
 ---@return nil
-function QuestTrackerObjectiveLogicController:SetData(objectiveTitle, isTracked, isOptional, currentCounter, totalCounter, objectiveEntry, isQuestType) return end
+function QuestTrackerObjectiveLogicController:SetData(objectiveTitle, isTracked, isOptional, currentCounter, totalCounter, objectiveEntry, isQuestType) end
 
 ---@return nil
-function QuestTrackerObjectiveLogicController:SetFailed() return end
+function QuestTrackerObjectiveLogicController:SetFailed() end
 
 ---@return nil
-function QuestTrackerObjectiveLogicController:SetFinished() return end
-
----@private
----@param state CName|string
----@return nil
-function QuestTrackerObjectiveLogicController:SetObjectiveState(state) return end
+function QuestTrackerObjectiveLogicController:SetFinished() end
 
 ---@param state CName|string
 ---@return nil
-function QuestTrackerObjectiveLogicController:SetState(state) return end
+function QuestTrackerObjectiveLogicController:SetObjectiveState(state) end
+
+---@param state CName|string
+---@return nil
+function QuestTrackerObjectiveLogicController:SetState(state) end

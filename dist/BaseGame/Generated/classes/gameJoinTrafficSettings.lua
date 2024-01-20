@@ -5,4 +5,4 @@ gameJoinTrafficSettings = {}
 
 ---@param fields? gameJoinTrafficSettings
 ---@return gameJoinTrafficSettings
-function gameJoinTrafficSettings.new(fields) return end
+function gameJoinTrafficSettings.new(fields) end

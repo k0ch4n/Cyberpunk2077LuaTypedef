@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EquipVisualsRequest: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
+---@field itemID gameItemID
 EquipVisualsRequest = {}
 
 ---@param fields? EquipVisualsRequest
 ---@return EquipVisualsRequest
-function EquipVisualsRequest.new(fields) return end
+function EquipVisualsRequest.new(fields) end

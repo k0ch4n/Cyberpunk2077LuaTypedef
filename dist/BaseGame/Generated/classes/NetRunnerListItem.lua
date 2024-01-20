@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class NetRunnerListItem: inkWidgetLogicController
----@field public highlight inkWidgetReference
+---@field highlight inkWidgetReference
 NetRunnerListItem = {}
 
 ---@param fields? NetRunnerListItem
 ---@return NetRunnerListItem
-function NetRunnerListItem.new(fields) return end
+function NetRunnerListItem.new(fields) end
 
----@protected
 ---@return Bool
-function NetRunnerListItem:OnInitialize() return end
+function NetRunnerListItem:OnInitialize() end
 
 ---@return nil
-function NetRunnerListItem:HideHighlight() return end
+function NetRunnerListItem:HideHighlight() end
 
 ---@return nil
-function NetRunnerListItem:ShowHighlight() return end
+function NetRunnerListItem:ShowHighlight() end

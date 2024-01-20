@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class vehicleToggleBrokenTireEvent: redEvent
----@field public tireIndex Uint32
----@field public toggle Bool
+---@field tireIndex Uint32
+---@field toggle Bool
 vehicleToggleBrokenTireEvent = {}
 
 ---@param fields? vehicleToggleBrokenTireEvent
 ---@return vehicleToggleBrokenTireEvent
-function vehicleToggleBrokenTireEvent.new(fields) return end
+function vehicleToggleBrokenTireEvent.new(fields) end

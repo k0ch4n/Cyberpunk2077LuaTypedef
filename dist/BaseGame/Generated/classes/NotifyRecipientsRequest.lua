@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class NotifyRecipientsRequest: gameScriptableSystemRequest
----@field public recipients RecipientData[]
----@field public time GameTime
+---@field recipients RecipientData[]
+---@field time GameTime
 NotifyRecipientsRequest = {}
 
 ---@param fields? NotifyRecipientsRequest
 ---@return NotifyRecipientsRequest
-function NotifyRecipientsRequest.new(fields) return end
+function NotifyRecipientsRequest.new(fields) end

@@ -1,53 +1,46 @@
 ---@meta
 
 ---@class CerberusComponent: gameScriptableComponent
----@field protected laserGameEffectUp gameEffectInstance
----@field protected laserGameEffectRefUp gameEffectRef
----@field protected laserGameEffectUp2 gameEffectInstance
----@field protected laserGameEffectRefUp2 gameEffectRef
----@field protected laserGameEffectBeam gameEffectInstance
----@field protected laserGameEffectRefBeam gameEffectRef
----@field protected laserGameEffectBottom gameEffectInstance
----@field protected laserGameEffectRefBottom gameEffectRef
----@field protected laserGameEffectBottom2 gameEffectInstance
----@field protected laserGameEffectRefBottom2 gameEffectRef
----@field private gameObject gameObject
+---@field laserGameEffectUp gameEffectInstance
+---@field laserGameEffectRefUp gameEffectRef
+---@field laserGameEffectUp2 gameEffectInstance
+---@field laserGameEffectRefUp2 gameEffectRef
+---@field laserGameEffectBeam gameEffectInstance
+---@field laserGameEffectRefBeam gameEffectRef
+---@field laserGameEffectBottom gameEffectInstance
+---@field laserGameEffectRefBottom gameEffectRef
+---@field laserGameEffectBottom2 gameEffectInstance
+---@field laserGameEffectRefBottom2 gameEffectRef
+---@field gameObject gameObject
 CerberusComponent = {}
 
 ---@param fields? CerberusComponent
 ---@return CerberusComponent
-function CerberusComponent.new(fields) return end
+function CerberusComponent.new(fields) end
 
----@protected
 ---@param aiEvent AIAIEvent
 ---@return Bool
-function CerberusComponent:OnAIEvent(aiEvent) return end
+function CerberusComponent:OnAIEvent(aiEvent) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function CerberusComponent:OnHit(evt) return end
+function CerberusComponent:OnHit(evt) end
 
----@protected
 ---@param evt entPreUninitializeEvent
 ---@return Bool
-function CerberusComponent:OnPreUninitialize(evt) return end
+function CerberusComponent:OnPreUninitialize(evt) end
 
----@private
 ---@return nil
-function CerberusComponent:OnGameAttach() return end
+function CerberusComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function CerberusComponent:OnGameDetach() return end
+function CerberusComponent:OnGameDetach() end
 
----@protected
 ---@param effectRef gameEffectRef
 ---@param slotName CName|string
 ---@param range Float
 ---@return nil, gameEffectInstance effectInstance
-function CerberusComponent:RunGameEffect(effectRef, slotName, range) return end
+function CerberusComponent:RunGameEffect(effectRef, slotName, range) end
 
----@protected
 ---@return nil, gameEffectInstance effectInstance
-function CerberusComponent:TerminateGameEffect() return end
+function CerberusComponent:TerminateGameEffect() end

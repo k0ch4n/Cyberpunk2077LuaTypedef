@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnBraindancePerspective_ConditionType: scnIBraindanceConditionType
----@field public perspective scnBraindancePerspective
----@field public sceneFile scnSceneResource
----@field public SceneVersion scnSceneVersionCheck
+---@field perspective scnBraindancePerspective
+---@field sceneFile scnSceneResource
+---@field SceneVersion scnSceneVersionCheck
 scnBraindancePerspective_ConditionType = {}
 
 ---@param fields? scnBraindancePerspective_ConditionType
 ---@return scnBraindancePerspective_ConditionType
-function scnBraindancePerspective_ConditionType.new(fields) return end
+function scnBraindancePerspective_ConditionType.new(fields) end

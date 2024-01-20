@@ -5,4 +5,4 @@ workIsPlayerCondition = {}
 
 ---@param fields? workIsPlayerCondition
 ---@return workIsPlayerCondition
-function workIsPlayerCondition.new(fields) return end
+function workIsPlayerCondition.new(fields) end

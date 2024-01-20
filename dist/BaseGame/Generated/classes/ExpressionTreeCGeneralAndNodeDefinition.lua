@@ -5,4 +5,4 @@ ExpressionTreeCGeneralAndNodeDefinition = {}
 
 ---@param fields? ExpressionTreeCGeneralAndNodeDefinition
 ---@return ExpressionTreeCGeneralAndNodeDefinition
-function ExpressionTreeCGeneralAndNodeDefinition.new(fields) return end
+function ExpressionTreeCGeneralAndNodeDefinition.new(fields) end

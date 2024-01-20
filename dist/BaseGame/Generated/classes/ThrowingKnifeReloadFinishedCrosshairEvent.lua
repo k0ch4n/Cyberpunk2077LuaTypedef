@@ -5,4 +5,4 @@ ThrowingKnifeReloadFinishedCrosshairEvent = {}
 
 ---@param fields? ThrowingKnifeReloadFinishedCrosshairEvent
 ---@return ThrowingKnifeReloadFinishedCrosshairEvent
-function ThrowingKnifeReloadFinishedCrosshairEvent.new(fields) return end
+function ThrowingKnifeReloadFinishedCrosshairEvent.new(fields) end

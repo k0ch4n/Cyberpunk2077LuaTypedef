@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entInjectVoiceTagEvent: redEvent
----@field public voiceTagName CName
----@field public forceInjection Bool
+---@field voiceTagName CName
+---@field forceInjection Bool
 entInjectVoiceTagEvent = {}
 
 ---@param fields? entInjectVoiceTagEvent
 ---@return entInjectVoiceTagEvent
-function entInjectVoiceTagEvent.new(fields) return end
+function entInjectVoiceTagEvent.new(fields) end

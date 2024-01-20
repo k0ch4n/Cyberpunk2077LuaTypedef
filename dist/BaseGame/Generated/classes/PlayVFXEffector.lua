@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class PlayVFXEffector: gameEffector
----@field public vfxName CName
----@field public startOnUninitialize Bool
----@field public fireAndForget Bool
----@field public owner gameObject
+---@field vfxName CName
+---@field startOnUninitialize Bool
+---@field fireAndForget Bool
+---@field owner gameObject
 PlayVFXEffector = {}
 
 ---@param fields? PlayVFXEffector
 ---@return PlayVFXEffector
-function PlayVFXEffector.new(fields) return end
+function PlayVFXEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlayVFXEffector:ActionOff(owner) return end
+function PlayVFXEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlayVFXEffector:ActionOn(owner) return end
+function PlayVFXEffector:ActionOn(owner) end
 
----@protected
 ---@return nil
-function PlayVFXEffector:Deactivate() return end
+function PlayVFXEffector:Deactivate() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function PlayVFXEffector:Initialize(record, parentRecord) return end
+function PlayVFXEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlayVFXEffector:RepeatedAction(owner) return end
+function PlayVFXEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function PlayVFXEffector:Uninitialize() return end
+function PlayVFXEffector:Uninitialize() end

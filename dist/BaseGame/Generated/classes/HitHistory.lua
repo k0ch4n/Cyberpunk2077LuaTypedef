@@ -1,29 +1,28 @@
 ---@meta
 
 ---@class HitHistory: IScriptable
----@field private hitHistory HitHistoryItem[]
----@field private maxEntries Int32
+---@field hitHistory HitHistoryItem[]
+---@field maxEntries Int32
 HitHistory = {}
 
 ---@param fields? HitHistory
 ---@return HitHistory
-function HitHistory.new(fields) return end
+function HitHistory.new(fields) end
 
----@private
 ---@param instigator gameObject
 ---@param hitTime Float
 ---@param attackType gamedataAttackType
 ---@return nil
-function HitHistory:Add(instigator, hitTime, attackType) return end
+function HitHistory:Add(instigator, hitTime, attackType) end
 
 ---@param evt gameeventsHitEvent
 ---@return nil
-function HitHistory:AddHit(evt) return end
+function HitHistory:AddHit(evt) end
 
 ---@param object gameObject
 ---@return Float, Bool isMelee
-function HitHistory:GetLastDamageTime(object) return end
+function HitHistory:GetLastDamageTime(object) end
 
 ---@param instigator gameObject
 ---@return gamedataAttackType
-function HitHistory:GetLastDamageType(instigator) return end
+function HitHistory:GetLastDamageType(instigator) end

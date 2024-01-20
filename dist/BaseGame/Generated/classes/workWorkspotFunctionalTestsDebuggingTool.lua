@@ -5,4 +5,4 @@ workWorkspotFunctionalTestsDebuggingTool = {}
 
 ---@param fields? workWorkspotFunctionalTestsDebuggingTool
 ---@return workWorkspotFunctionalTestsDebuggingTool
-function workWorkspotFunctionalTestsDebuggingTool.new(fields) return end
+function workWorkspotFunctionalTestsDebuggingTool.new(fields) end

@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class SettingsSelectorControllerList: SettingsSelectorControllerRange
----@field protected dotsContainer inkHorizontalPanelWidgetReference
+---@field dotsContainer inkHorizontalPanelWidgetReference
 SettingsSelectorControllerList = {}
 
 ---@param fields? SettingsSelectorControllerList
 ---@return SettingsSelectorControllerList
-function SettingsSelectorControllerList.new(fields) return end
+function SettingsSelectorControllerList.new(fields) end
 
----@protected
 ---@param size Int32
 ---@return nil
-function SettingsSelectorControllerList:PopulateDots(size) return end
+function SettingsSelectorControllerList:PopulateDots(size) end
 
----@protected
 ---@param index Int32
 ---@return nil
-function SettingsSelectorControllerList:SelectDot(index) return end
+function SettingsSelectorControllerList:SelectDot(index) end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class AIFollowerTakedownCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public inCommand AIArgumentMapping
----@field public approachBeforeTakedown Bool
----@field public doNotTeleportIfTargetIsVisible Bool
+---@field inCommand AIArgumentMapping
+---@field approachBeforeTakedown Bool
+---@field doNotTeleportIfTargetIsVisible Bool
 AIFollowerTakedownCommandDelegate = {}
 
 ---@param fields? AIFollowerTakedownCommandDelegate
 ---@return AIFollowerTakedownCommandDelegate
-function AIFollowerTakedownCommandDelegate.new(fields) return end
+function AIFollowerTakedownCommandDelegate.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIFollowerTakedownCommandDelegate:OnActivate(context) return end
+function AIFollowerTakedownCommandDelegate:OnActivate(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIFollowerTakedownCommandDelegate:OnDeactivate(context) return end
+function AIFollowerTakedownCommandDelegate:OnDeactivate(context) end

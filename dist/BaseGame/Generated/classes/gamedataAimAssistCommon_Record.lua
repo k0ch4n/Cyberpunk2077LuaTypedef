@@ -5,88 +5,88 @@ gamedataAimAssistCommon_Record = {}
 
 ---@param fields? gamedataAimAssistCommon_Record
 ---@return gamedataAimAssistCommon_Record
-function gamedataAimAssistCommon_Record.new(fields) return end
+function gamedataAimAssistCommon_Record.new(fields) end
 
 ---@return gamedataAimAssistType_Record
-function gamedataAimAssistCommon_Record:AimAssistType() return end
+function gamedataAimAssistCommon_Record:AimAssistType() end
 
 ---@return gamedataAimAssistType_Record
-function gamedataAimAssistCommon_Record:AimAssistTypeHandle() return end
+function gamedataAimAssistCommon_Record:AimAssistTypeHandle() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:AngleDistUnit() return end
+function gamedataAimAssistCommon_Record:AngleDistUnit() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:AngleDistUnitWeight() return end
+function gamedataAimAssistCommon_Record:AngleDistUnitWeight() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:AngleProximityBonus() return end
+function gamedataAimAssistCommon_Record:AngleProximityBonus() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:AngleProximityThreshold() return end
+function gamedataAimAssistCommon_Record:AngleProximityThreshold() end
 
 ---@return EulerAngles
-function gamedataAimAssistCommon_Record:FirstPassAngleRange() return end
+function gamedataAimAssistCommon_Record:FirstPassAngleRange() end
 
 ---@return Bool
-function gamedataAimAssistCommon_Record:ForceSoftLockMinimumWeight() return end
+function gamedataAimAssistCommon_Record:ForceSoftLockMinimumWeight() end
 
 ---@return Bool
-function gamedataAimAssistCommon_Record:IsEnabled() return end
+function gamedataAimAssistCommon_Record:IsEnabled() end
 
 ---@return Bool
-function gamedataAimAssistCommon_Record:IsEnabledForMouse() return end
+function gamedataAimAssistCommon_Record:IsEnabledForMouse() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:PastTargetWeight() return end
+function gamedataAimAssistCommon_Record:PastTargetWeight() end
 
 ---@return Bool
-function gamedataAimAssistCommon_Record:PrimaryComponentsOnly() return end
+function gamedataAimAssistCommon_Record:PrimaryComponentsOnly() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:RecentInputTime() return end
+function gamedataAimAssistCommon_Record:RecentInputTime() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:RotatingAwayFromPastTargetPenalty() return end
+function gamedataAimAssistCommon_Record:RotatingAwayFromPastTargetPenalty() end
 
 ---@return EulerAngles
-function gamedataAimAssistCommon_Record:SoftLockBrakeAngle() return end
+function gamedataAimAssistCommon_Record:SoftLockBrakeAngle() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:SoftLockTargetLostTimeOut() return end
+function gamedataAimAssistCommon_Record:SoftLockTargetLostTimeOut() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:SoftLockTargetWeight() return end
+function gamedataAimAssistCommon_Record:SoftLockTargetWeight() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:TargetAcquisitionDelayTime() return end
+function gamedataAimAssistCommon_Record:TargetAcquisitionDelayTime() end
 
 ---@return gamedataSearchFilterMaskTypeCondition_Record
-function gamedataAimAssistCommon_Record:TargetFilter() return end
+function gamedataAimAssistCommon_Record:TargetFilter() end
 
 ---@return gamedataSearchFilterMaskTypeCondition_Record
-function gamedataAimAssistCommon_Record:TargetFilterHandle() return end
+function gamedataAimAssistCommon_Record:TargetFilterHandle() end
 
 ---@return gamedataSearchFilterMaskTypeCondition_Record
-function gamedataAimAssistCommon_Record:TargetFilterPriority() return end
+function gamedataAimAssistCommon_Record:TargetFilterPriority() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:TargetFilterPriorityBonus() return end
+function gamedataAimAssistCommon_Record:TargetFilterPriorityBonus() end
 
 ---@return gamedataSearchFilterMaskTypeCondition_Record
-function gamedataAimAssistCommon_Record:TargetFilterPriorityHandle() return end
+function gamedataAimAssistCommon_Record:TargetFilterPriorityHandle() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:TargetLostTimeOut() return end
+function gamedataAimAssistCommon_Record:TargetLostTimeOut() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:WorldDistUnit() return end
+function gamedataAimAssistCommon_Record:WorldDistUnit() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:WorldDistUnitWeight() return end
+function gamedataAimAssistCommon_Record:WorldDistUnitWeight() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:WorldProximityBonus() return end
+function gamedataAimAssistCommon_Record:WorldProximityBonus() end
 
 ---@return Float
-function gamedataAimAssistCommon_Record:WorldProximityThreshold() return end
+function gamedataAimAssistCommon_Record:WorldProximityThreshold() end

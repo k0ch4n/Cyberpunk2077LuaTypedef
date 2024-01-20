@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SetBodyPositionEvent: redEvent
----@field public bodyPosition Vector4
----@field public bodyPositionID entEntityID
----@field public pickedUp Bool
+---@field bodyPosition Vector4
+---@field bodyPositionID entEntityID
+---@field pickedUp Bool
 SetBodyPositionEvent = {}
 
 ---@param fields? SetBodyPositionEvent
 ---@return SetBodyPositionEvent
-function SetBodyPositionEvent.new(fields) return end
+function SetBodyPositionEvent.new(fields) end

@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIbehaviorActionTreeNodeDefinition: AIbehaviorLeafTreeNodeDefinition
----@field public command AIArgumentMapping
+---@field command AIArgumentMapping
 AIbehaviorActionTreeNodeDefinition = {}

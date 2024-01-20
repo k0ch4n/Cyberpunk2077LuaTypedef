@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GetOffAVDelayedEvent: gameScriptableSystemRequest
----@field public go gameObject
----@field public checkForHazards Bool
+---@field go gameObject
+---@field checkForHazards Bool
 GetOffAVDelayedEvent = {}
 
 ---@param fields? GetOffAVDelayedEvent
 ---@return GetOffAVDelayedEvent
-function GetOffAVDelayedEvent.new(fields) return end
+function GetOffAVDelayedEvent.new(fields) end

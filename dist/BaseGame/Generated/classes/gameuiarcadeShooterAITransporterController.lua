@@ -5,4 +5,4 @@ gameuiarcadeShooterAITransporterController = {}
 
 ---@param fields? gameuiarcadeShooterAITransporterController
 ---@return gameuiarcadeShooterAITransporterController
-function gameuiarcadeShooterAITransporterController.new(fields) return end
+function gameuiarcadeShooterAITransporterController.new(fields) end

@@ -5,33 +5,28 @@ TimeDilationFocusModeDecisions = {}
 
 ---@param fields? TimeDilationFocusModeDecisions
 ---@return TimeDilationFocusModeDecisions
-function TimeDilationFocusModeDecisions.new(fields) return end
+function TimeDilationFocusModeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationFocusModeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function TimeDilationFocusModeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationFocusModeDecisions:IsPlayerInCombatState(scriptInterface) return end
+function TimeDilationFocusModeDecisions:IsPlayerInCombatState(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationFocusModeDecisions:IsPlayerLookingAtQuickHackTarget(stateContext, scriptInterface) return end
+function TimeDilationFocusModeDecisions:IsPlayerLookingAtQuickHackTarget(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationFocusModeDecisions:ShouldActivate(stateContext, scriptInterface) return end
+function TimeDilationFocusModeDecisions:ShouldActivate(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TimeDilationFocusModeDecisions:ToTimeDilationReady(stateContext, scriptInterface) return end
+function TimeDilationFocusModeDecisions:ToTimeDilationReady(stateContext, scriptInterface) end

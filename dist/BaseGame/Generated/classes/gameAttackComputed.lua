@@ -5,40 +5,40 @@ gameAttackComputed = {}
 
 ---@param fields? gameAttackComputed
 ---@return gameAttackComputed
-function gameAttackComputed.new(fields) return end
+function gameAttackComputed.new(fields) end
 
 ---@param value Float
 ---@param damageType? gamedataDamageType
 ---@return nil
-function gameAttackComputed:AddAttackValue(value, damageType) return end
+function gameAttackComputed:AddAttackValue(value, damageType) end
 
 ---@param damageType gamedataDamageType
 ---@return Float
-function gameAttackComputed:GetAttackValue(damageType) return end
+function gameAttackComputed:GetAttackValue(damageType) end
 
 ---@return Float[]
-function gameAttackComputed:GetAttackValues() return end
+function gameAttackComputed:GetAttackValues() end
 
 ---@return Float[]
-function gameAttackComputed:GetOriginalAttackValues() return end
+function gameAttackComputed:GetOriginalAttackValues() end
 
 ---@param statPoolType gamedataStatPoolType
 ---@return Float
-function gameAttackComputed:GetTotalAttackValue(statPoolType) return end
+function gameAttackComputed:GetTotalAttackValue(statPoolType) end
 
 ---@param value Float
 ---@param damageType? gamedataDamageType
 ---@return nil
-function gameAttackComputed:MultAttackValue(value, damageType) return end
+function gameAttackComputed:MultAttackValue(value, damageType) end
 
 ---@param value Float
 ---@param damageType? gamedataDamageType
 ---@return nil
-function gameAttackComputed:SetAttackValue(value, damageType) return end
+function gameAttackComputed:SetAttackValue(value, damageType) end
 
 ---@param attackValues Float[]
 ---@return nil
-function gameAttackComputed:SetAttackValues(attackValues) return end
+function gameAttackComputed:SetAttackValues(attackValues) end
 
 ---@return gamedataDamageType
-function gameAttackComputed:GetDominatingDamageType() return end
+function gameAttackComputed:GetDominatingDamageType() end

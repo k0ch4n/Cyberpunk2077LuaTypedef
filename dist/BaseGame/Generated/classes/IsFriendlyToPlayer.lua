@@ -5,14 +5,12 @@ IsFriendlyToPlayer = {}
 
 ---@param fields? IsFriendlyToPlayer
 ---@return IsFriendlyToPlayer
-function IsFriendlyToPlayer.new(fields) return end
+function IsFriendlyToPlayer.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsFriendlyToPlayer:Activate(context) return end
+function IsFriendlyToPlayer:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsFriendlyToPlayer:Check(context) return end
+function IsFriendlyToPlayer:Check(context) end

@@ -5,4 +5,4 @@ LiftMovementLoadEvent = {}
 
 ---@param fields? LiftMovementLoadEvent
 ---@return LiftMovementLoadEvent
-function LiftMovementLoadEvent.new(fields) return end
+function LiftMovementLoadEvent.new(fields) end

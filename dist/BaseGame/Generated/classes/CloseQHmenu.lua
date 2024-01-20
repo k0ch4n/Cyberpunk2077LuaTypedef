@@ -5,4 +5,4 @@ CloseQHmenu = {}
 
 ---@param fields? CloseQHmenu
 ---@return CloseQHmenu
-function CloseQHmenu.new(fields) return end
+function CloseQHmenu.new(fields) end

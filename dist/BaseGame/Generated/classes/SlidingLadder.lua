@@ -1,62 +1,52 @@
 ---@meta
 
 ---@class SlidingLadder: BaseAnimatedDevice
----@field protected offMeshConnectionDown AIOffMeshConnectionComponent
----@field protected offMeshConnectionUp AIOffMeshConnectionComponent
----@field protected ladderInteraction gameinteractionsComponent
----@field private wasShot Bool
+---@field offMeshConnectionDown AIOffMeshConnectionComponent
+---@field offMeshConnectionUp AIOffMeshConnectionComponent
+---@field ladderInteraction gameinteractionsComponent
+---@field wasShot Bool
 SlidingLadder = {}
 
 ---@param fields? SlidingLadder
 ---@return SlidingLadder
-function SlidingLadder.new(fields) return end
+function SlidingLadder.new(fields) end
 
----@protected
 ---@param evt DelayEvent
 ---@return Bool
-function SlidingLadder:OnDelayEvent(evt) return end
+function SlidingLadder:OnDelayEvent(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function SlidingLadder:OnHitEvent(hit) return end
+function SlidingLadder:OnHitEvent(hit) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SlidingLadder:OnRequestComponents(ri) return end
+function SlidingLadder:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SlidingLadder:OnTakeControl(ri) return end
+function SlidingLadder:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function SlidingLadder:Animate() return end
+function SlidingLadder:Animate() end
 
 ---@return EGameplayRole
-function SlidingLadder:DeterminGameplayRole() return end
+function SlidingLadder:DeterminGameplayRole() end
 
----@private
 ---@return SlidingLadderController
-function SlidingLadder:GetController() return end
+function SlidingLadder:GetController() end
 
 ---@return SlidingLadderControllerPS
-function SlidingLadder:GetDevicePS() return end
+function SlidingLadder:GetDevicePS() end
 
----@protected
 ---@return Float
-function SlidingLadder:GetTimeScale() return end
+function SlidingLadder:GetTimeScale() end
 
----@protected
 ---@return nil
-function SlidingLadder:OnPlayAnimation() return end
+function SlidingLadder:OnPlayAnimation() end
 
----@protected
 ---@return nil
-function SlidingLadder:ResolveGameplayState() return end
+function SlidingLadder:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function SlidingLadder:ToggleLadder() return end
+function SlidingLadder:ToggleLadder() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeTankEnemyController: gameuiarcadeTankDestroyableObjectController
----@field public headParent inkWidgetReference
----@field public head inkWidgetReference
+---@field headParent inkWidgetReference
+---@field head inkWidgetReference
 gameuiarcadeTankEnemyController = {}
 
 ---@param fields? gameuiarcadeTankEnemyController
 ---@return gameuiarcadeTankEnemyController
-function gameuiarcadeTankEnemyController.new(fields) return end
+function gameuiarcadeTankEnemyController.new(fields) end

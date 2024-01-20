@@ -5,4 +5,4 @@ VehicleHornOffDelayEvent = {}
 
 ---@param fields? VehicleHornOffDelayEvent
 ---@return VehicleHornOffDelayEvent
-function VehicleHornOffDelayEvent.new(fields) return end
+function VehicleHornOffDelayEvent.new(fields) end

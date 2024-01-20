@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiPhotoModeUIHideForScreenshotEvent: redEvent
----@field public hide Bool
+---@field hide Bool
 gameuiPhotoModeUIHideForScreenshotEvent = {}
 
 ---@param fields? gameuiPhotoModeUIHideForScreenshotEvent
 ---@return gameuiPhotoModeUIHideForScreenshotEvent
-function gameuiPhotoModeUIHideForScreenshotEvent.new(fields) return end
+function gameuiPhotoModeUIHideForScreenshotEvent.new(fields) end

@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class MinimalItemTooltipStatData: IScriptable
----@field public value Float
----@field public diff Float
----@field public statName String
----@field public type gamedataStatType
----@field public decimalPlaces Int32
----@field public displayPercent Bool
----@field public displayPlus Bool
----@field public inMeters Bool
----@field public inSeconds Bool
----@field public inSpeed Bool
----@field public multiplyBy100InText Bool
----@field public roundValue Bool
----@field public flipNegative Bool
+---@field value Float
+---@field diff Float
+---@field statName String
+---@field type gamedataStatType
+---@field decimalPlaces Int32
+---@field displayPercent Bool
+---@field displayPlus Bool
+---@field inMeters Bool
+---@field inSeconds Bool
+---@field inSpeed Bool
+---@field multiplyBy100InText Bool
+---@field roundValue Bool
+---@field flipNegative Bool
 MinimalItemTooltipStatData = {}
 
 ---@param fields? MinimalItemTooltipStatData
 ---@return MinimalItemTooltipStatData
-function MinimalItemTooltipStatData.new(fields) return end
+function MinimalItemTooltipStatData.new(fields) end

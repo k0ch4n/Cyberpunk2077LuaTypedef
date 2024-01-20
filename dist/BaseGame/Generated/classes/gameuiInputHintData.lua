@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameuiInputHintData
----@field public action CName
----@field public source CName
----@field public groupId CName
----@field public tutorialAction CName
----@field public localizedLabel String
----@field public queuePriority Int32
----@field public sortingPriority Int32
----@field public tutorialActionCount Int32
----@field public holdIndicationType inkInputHintHoldIndicationType
----@field public inputHintKeyCombinationType inkInputHintKeyCombinationType
----@field public enableHoldAnimation Bool
+---@field action CName
+---@field source CName
+---@field groupId CName
+---@field tutorialAction CName
+---@field localizedLabel String
+---@field queuePriority Int32
+---@field sortingPriority Int32
+---@field tutorialActionCount Int32
+---@field holdIndicationType inkInputHintHoldIndicationType
+---@field inputHintKeyCombinationType inkInputHintKeyCombinationType
+---@field enableHoldAnimation Bool
 gameuiInputHintData = {}
 
 ---@param fields? gameuiInputHintData
 ---@return gameuiInputHintData
-function gameuiInputHintData.new(fields) return end
+function gameuiInputHintData.new(fields) end

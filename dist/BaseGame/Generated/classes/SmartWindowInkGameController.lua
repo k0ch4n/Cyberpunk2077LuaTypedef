@@ -5,39 +5,34 @@ SmartWindowInkGameController = {}
 
 ---@param fields? SmartWindowInkGameController
 ---@return SmartWindowInkGameController
-function SmartWindowInkGameController.new(fields) return end
+function SmartWindowInkGameController.new(fields) end
 
----@protected
 ---@return Bool
-function SmartWindowInkGameController:OnInitialize() return end
+function SmartWindowInkGameController:OnInitialize() end
 
 ---@return SmartWindowMainLayoutWidgetController
-function SmartWindowInkGameController:GetMainLayoutController() return end
+function SmartWindowInkGameController:GetMainLayoutController() end
 
----@protected
 ---@return SmartWindow
-function SmartWindowInkGameController:GetOwner() return end
+function SmartWindowInkGameController:GetOwner() end
 
----@protected
 ---@return nil
-function SmartWindowInkGameController:InitializeMainLayout() return end
+function SmartWindowInkGameController:InitializeMainLayout() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function SmartWindowInkGameController:Refresh(state) return end
+function SmartWindowInkGameController:Refresh(state) end
 
----@protected
 ---@return nil
-function SmartWindowInkGameController:TurnOff() return end
+function SmartWindowInkGameController:TurnOff() end
 
----@protected
 ---@return nil
-function SmartWindowInkGameController:TurnOn() return end
+function SmartWindowInkGameController:TurnOn() end
 
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function SmartWindowInkGameController:UpdateFilesWidgets(widgetsData) return end
+function SmartWindowInkGameController:UpdateFilesWidgets(widgetsData) end
 
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function SmartWindowInkGameController:UpdateMailsWidgets(widgetsData) return end
+function SmartWindowInkGameController:UpdateMailsWidgets(widgetsData) end

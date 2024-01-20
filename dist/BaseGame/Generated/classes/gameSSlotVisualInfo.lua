@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameSSlotVisualInfo
----@field public areaType gamedataEquipmentArea
----@field public isHidden Bool
----@field public visualItem gameItemID
+---@field areaType gamedataEquipmentArea
+---@field isHidden Bool
+---@field visualItem gameItemID
 gameSSlotVisualInfo = {}
 
 ---@param fields? gameSSlotVisualInfo
 ---@return gameSSlotVisualInfo
-function gameSSlotVisualInfo.new(fields) return end
+function gameSSlotVisualInfo.new(fields) end

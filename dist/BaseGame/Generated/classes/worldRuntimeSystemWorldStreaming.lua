@@ -5,4 +5,4 @@ worldRuntimeSystemWorldStreaming = {}
 
 ---@param fields? worldRuntimeSystemWorldStreaming
 ---@return worldRuntimeSystemWorldStreaming
-function worldRuntimeSystemWorldStreaming.new(fields) return end
+function worldRuntimeSystemWorldStreaming.new(fields) end

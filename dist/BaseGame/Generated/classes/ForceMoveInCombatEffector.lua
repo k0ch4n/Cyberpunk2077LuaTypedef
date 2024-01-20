@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class ForceMoveInCombatEffector: gameEffector
----@field public aiComponent AIHumanComponent
----@field public commandStarted Bool
+---@field aiComponent AIHumanComponent
+---@field commandStarted Bool
 ForceMoveInCombatEffector = {}
 
 ---@param fields? ForceMoveInCombatEffector
 ---@return ForceMoveInCombatEffector
-function ForceMoveInCombatEffector.new(fields) return end
+function ForceMoveInCombatEffector.new(fields) end
 
----@private
 ---@return CName
-function ForceMoveInCombatEffector.GetCommandName() return end
+function ForceMoveInCombatEffector.GetCommandName() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ForceMoveInCombatEffector:Initialize(record, parentRecord) return end
+function ForceMoveInCombatEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@param end_ AIPositionSpec
 ---@param desiredDistance Float
 ---@param movementType moveMovementType
 ---@return nil
-function ForceMoveInCombatEffector:StartMovement(owner, end_, desiredDistance, movementType) return end
+function ForceMoveInCombatEffector:StartMovement(owner, end_, desiredDistance, movementType) end
 
----@protected
 ---@return nil
-function ForceMoveInCombatEffector:Uninitialize() return end
+function ForceMoveInCombatEffector:Uninitialize() end

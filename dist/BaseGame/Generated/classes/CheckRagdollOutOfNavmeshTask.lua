@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class CheckRagdollOutOfNavmeshTask: StatusEffectTasks
----@field public outStatusArgument AIArgumentMapping
----@field public outPositionStatusArgument AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
+---@field outStatusArgument AIArgumentMapping
+---@field outPositionStatusArgument AIArgumentMapping
+---@field outPositionArgument AIArgumentMapping
 CheckRagdollOutOfNavmeshTask = {}
 
 ---@param fields? CheckRagdollOutOfNavmeshTask
 ---@return CheckRagdollOutOfNavmeshTask
-function CheckRagdollOutOfNavmeshTask.new(fields) return end
+function CheckRagdollOutOfNavmeshTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckRagdollOutOfNavmeshTask:Activate(context) return end
+function CheckRagdollOutOfNavmeshTask:Activate(context) end

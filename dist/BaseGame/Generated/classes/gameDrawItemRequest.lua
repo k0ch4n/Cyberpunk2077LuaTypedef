@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameDrawItemRequest: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
----@field public equipAnimationType gameEquipAnimationType
----@field public assignOnly Bool
+---@field itemID gameItemID
+---@field equipAnimationType gameEquipAnimationType
+---@field assignOnly Bool
 gameDrawItemRequest = {}
 
 ---@param fields? gameDrawItemRequest
 ---@return gameDrawItemRequest
-function gameDrawItemRequest.new(fields) return end
+function gameDrawItemRequest.new(fields) end

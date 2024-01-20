@@ -5,4 +5,4 @@ AIUtilityLossCoverSelection = {}
 
 ---@param fields? AIUtilityLossCoverSelection
 ---@return AIUtilityLossCoverSelection
-function AIUtilityLossCoverSelection.new(fields) return end
+function AIUtilityLossCoverSelection.new(fields) end

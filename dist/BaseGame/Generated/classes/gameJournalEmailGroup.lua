@@ -5,4 +5,4 @@ gameJournalEmailGroup = {}
 
 ---@param fields? gameJournalEmailGroup
 ---@return gameJournalEmailGroup
-function gameJournalEmailGroup.new(fields) return end
+function gameJournalEmailGroup.new(fields) end

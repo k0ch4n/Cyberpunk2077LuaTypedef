@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questCharacterManagerParameters_SetMortality: questICharacterManagerParameters_NodeSubType
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public state gameGodModeType
----@field public resetToDefault Bool
----@field public source CName
+---@field puppetRef gameEntityReference
+---@field isPlayer Bool
+---@field state gameGodModeType
+---@field resetToDefault Bool
+---@field source CName
 questCharacterManagerParameters_SetMortality = {}
 
 ---@param fields? questCharacterManagerParameters_SetMortality
 ---@return questCharacterManagerParameters_SetMortality
-function questCharacterManagerParameters_SetMortality.new(fields) return end
+function questCharacterManagerParameters_SetMortality.new(fields) end

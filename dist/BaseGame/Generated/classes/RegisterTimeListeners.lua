@@ -5,4 +5,4 @@ RegisterTimeListeners = {}
 
 ---@param fields? RegisterTimeListeners
 ---@return RegisterTimeListeners
-function RegisterTimeListeners.new(fields) return end
+function RegisterTimeListeners.new(fields) end

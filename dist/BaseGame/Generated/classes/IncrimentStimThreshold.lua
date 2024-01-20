@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class IncrimentStimThreshold: AIbehaviortaskScript
----@field public thresholdTimeout Float
+---@field thresholdTimeout Float
 IncrimentStimThreshold = {}
 
 ---@param fields? IncrimentStimThreshold
 ---@return IncrimentStimThreshold
-function IncrimentStimThreshold.new(fields) return end
+function IncrimentStimThreshold.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IncrimentStimThreshold:Activate(context) return end
+function IncrimentStimThreshold:Activate(context) end

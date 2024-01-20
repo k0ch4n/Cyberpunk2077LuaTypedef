@@ -5,11 +5,10 @@ ActionEngineering = {}
 
 ---@param fields? ActionEngineering
 ---@return ActionEngineering
-function ActionEngineering.new(fields) return end
+function ActionEngineering.new(fields) end
 
----@protected
 ---@return CName
-function ActionEngineering:GetDefaultActionName() return end
+function ActionEngineering:GetDefaultActionName() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function ActionEngineering:GetInteractionIcon() return end
+function ActionEngineering:GetInteractionIcon() end

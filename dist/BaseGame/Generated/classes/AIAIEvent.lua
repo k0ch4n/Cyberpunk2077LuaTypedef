@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIAIEvent: redEvent
----@field public name CName
----@field public timeToLive Float
+---@field name CName
+---@field timeToLive Float
 AIAIEvent = {}
 
 ---@param fields? AIAIEvent
 ---@return AIAIEvent
-function AIAIEvent.new(fields) return end
+function AIAIEvent.new(fields) end
 
 ---@return Float
-function AIAIEvent:GetTimeToLive() return end
+function AIAIEvent:GetTimeToLive() end
 
 ---@param tag CName|string
 ---@return Bool
-function AIAIEvent:HasTag(tag) return end
+function AIAIEvent:HasTag(tag) end

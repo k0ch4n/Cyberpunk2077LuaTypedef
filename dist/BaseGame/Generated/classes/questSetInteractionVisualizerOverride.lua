@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questSetInteractionVisualizerOverride: questIInteractiveObjectManagerNodeType
----@field public objectRef NodeRef
----@field public applyOverride Bool
----@field public removeAfterSingleUse Bool
+---@field objectRef NodeRef
+---@field applyOverride Bool
+---@field removeAfterSingleUse Bool
 questSetInteractionVisualizerOverride = {}
 
 ---@param fields? questSetInteractionVisualizerOverride
 ---@return questSetInteractionVisualizerOverride
-function questSetInteractionVisualizerOverride.new(fields) return end
+function questSetInteractionVisualizerOverride.new(fields) end

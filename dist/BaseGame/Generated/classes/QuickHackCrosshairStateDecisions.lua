@@ -5,16 +5,14 @@ QuickHackCrosshairStateDecisions = {}
 
 ---@param fields? QuickHackCrosshairStateDecisions
 ---@return QuickHackCrosshairStateDecisions
-function QuickHackCrosshairStateDecisions.new(fields) return end
+function QuickHackCrosshairStateDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickHackCrosshairStateDecisions:EnterCondition(stateContext, scriptInterface) return end
+function QuickHackCrosshairStateDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickHackCrosshairStateDecisions:ExitCondition(stateContext, scriptInterface) return end
+function QuickHackCrosshairStateDecisions:ExitCondition(stateContext, scriptInterface) end

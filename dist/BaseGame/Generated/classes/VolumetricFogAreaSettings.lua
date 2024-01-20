@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class VolumetricFogAreaSettings: IAreaSettings
----@field public albedo curveData
----@field public range curveData
----@field public fogHeight curveData
----@field public fogHeightFalloff curveData
----@field public fogHeightMaxCut curveData
----@field public density curveData
----@field public absorption curveData
----@field public ambientScale curveData
----@field public localAmbientScale curveData
----@field public globalLightScale curveData
----@field public globalLightAnisotropy curveData
----@field public globalLightAnisotropyBase curveData
----@field public globalLightAnisotropyScale curveData
----@field public localLightRange curveData
----@field public localLightScale curveData
----@field public distantAlbedo curveData
----@field public distantGlobalLightScale curveData
----@field public distantGroundIrradiance curveData
----@field public distantGroundSaturation curveData
----@field public distantSkyIrradiance curveData
----@field public distantShadowAmbientDarkening curveData
+---@field albedo curveData
+---@field range curveData
+---@field fogHeight curveData
+---@field fogHeightFalloff curveData
+---@field fogHeightMaxCut curveData
+---@field density curveData
+---@field absorption curveData
+---@field ambientScale curveData
+---@field localAmbientScale curveData
+---@field globalLightScale curveData
+---@field globalLightAnisotropy curveData
+---@field globalLightAnisotropyBase curveData
+---@field globalLightAnisotropyScale curveData
+---@field localLightRange curveData
+---@field localLightScale curveData
+---@field distantAlbedo curveData
+---@field distantGlobalLightScale curveData
+---@field distantGroundIrradiance curveData
+---@field distantGroundSaturation curveData
+---@field distantSkyIrradiance curveData
+---@field distantShadowAmbientDarkening curveData
 VolumetricFogAreaSettings = {}
 
 ---@param fields? VolumetricFogAreaSettings
 ---@return VolumetricFogAreaSettings
-function VolumetricFogAreaSettings.new(fields) return end
+function VolumetricFogAreaSettings.new(fields) end

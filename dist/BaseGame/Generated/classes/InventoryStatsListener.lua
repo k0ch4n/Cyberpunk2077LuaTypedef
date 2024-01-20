@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class InventoryStatsListener: gameScriptStatsListener
----@field public owner gameObject
----@field public controller InventoryStatsController
+---@field owner gameObject
+---@field controller InventoryStatsController
 InventoryStatsListener = {}
 
 ---@param fields? InventoryStatsListener
 ---@return InventoryStatsListener
-function InventoryStatsListener.new(fields) return end
+function InventoryStatsListener.new(fields) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function InventoryStatsListener:OnStatChanged(ownerID, statType, diff, total) return end
+function InventoryStatsListener:OnStatChanged(ownerID, statType, diff, total) end

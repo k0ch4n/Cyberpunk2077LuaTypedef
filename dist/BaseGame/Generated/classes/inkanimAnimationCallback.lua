@@ -5,4 +5,4 @@ inkanimAnimationCallback = {}
 
 ---@param fields? inkanimAnimationCallback
 ---@return inkanimAnimationCallback
-function inkanimAnimationCallback.new(fields) return end
+function inkanimAnimationCallback.new(fields) end

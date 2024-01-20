@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameaudioeventsEmitterEvent: redEvent
----@field public emitterName CName
+---@field emitterName CName
 gameaudioeventsEmitterEvent = {}

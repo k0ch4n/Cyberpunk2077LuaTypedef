@@ -5,21 +5,18 @@ questBluelineObject = {}
 
 ---@param fields? questBluelineObject
 ---@return questBluelineObject
-function questBluelineObject.new(fields) return end
+function questBluelineObject.new(fields) end
 
----@private
 ---@param description gameinteractionsvisBluelineDescription
 ---@return nil
-function questBluelineObject:AsConjunction(description) return end
+function questBluelineObject:AsConjunction(description) end
 
----@private
 ---@param description gameinteractionsvisBluelineDescription
 ---@return nil
-function questBluelineObject:AsDisjunction(description) return end
+function questBluelineObject:AsDisjunction(description) end
 
----@private
 ---@param description gameinteractionsvisBluelineDescription
 ---@param scriptCondition IScriptable
 ---@param playerObject gameObject
 ---@return nil
-function questBluelineObject:ProcessScriptCondition(description, scriptCondition, playerObject) return end
+function questBluelineObject:ProcessScriptCondition(description, scriptCondition, playerObject) end

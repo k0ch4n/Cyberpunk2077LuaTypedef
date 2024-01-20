@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameActionRotateToObjectState: gameActionRotateBaseState
----@field public targetObject gameObject
----@field public completeWhenRotated Bool
+---@field targetObject gameObject
+---@field completeWhenRotated Bool
 gameActionRotateToObjectState = {}
 
 ---@param fields? gameActionRotateToObjectState
 ---@return gameActionRotateToObjectState
-function gameActionRotateToObjectState.new(fields) return end
+function gameActionRotateToObjectState.new(fields) end

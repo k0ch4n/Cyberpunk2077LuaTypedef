@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entEntityParametersStorage: ISerializable
----@field public parameters entEntityParameter[]
+---@field parameters entEntityParameter[]
 entEntityParametersStorage = {}
 
 ---@param fields? entEntityParametersStorage
 ---@return entEntityParametersStorage
-function entEntityParametersStorage.new(fields) return end
+function entEntityParametersStorage.new(fields) end

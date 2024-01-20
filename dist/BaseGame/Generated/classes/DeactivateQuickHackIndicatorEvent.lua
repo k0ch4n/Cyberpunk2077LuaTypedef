@@ -5,4 +5,4 @@ DeactivateQuickHackIndicatorEvent = {}
 
 ---@param fields? DeactivateQuickHackIndicatorEvent
 ---@return DeactivateQuickHackIndicatorEvent
-function DeactivateQuickHackIndicatorEvent.new(fields) return end
+function DeactivateQuickHackIndicatorEvent.new(fields) end

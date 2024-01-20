@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class PassiveCoverSelectionConditions: PassiveAutonomousCondition
----@field private statsChangedCbId Uint32
----@field private ability gamedataGameplayAbility_Record
----@field private statListener AIStatListener
+---@field statsChangedCbId Uint32
+---@field ability gamedataGameplayAbility_Record
+---@field statListener AIStatListener
 PassiveCoverSelectionConditions = {}
 
 ---@param fields? PassiveCoverSelectionConditions
 ---@return PassiveCoverSelectionConditions
-function PassiveCoverSelectionConditions.new(fields) return end
+function PassiveCoverSelectionConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveCoverSelectionConditions:Activate(context) return end
+function PassiveCoverSelectionConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveCoverSelectionConditions:CalculateValue(context) return end
+function PassiveCoverSelectionConditions:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveCoverSelectionConditions:Deactivate(context) return end
+function PassiveCoverSelectionConditions:Deactivate(context) end

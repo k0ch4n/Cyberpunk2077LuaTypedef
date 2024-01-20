@@ -5,8 +5,7 @@ VehicleDriverCombatTPPContextDecisions = {}
 
 ---@param fields? VehicleDriverCombatTPPContextDecisions
 ---@return VehicleDriverCombatTPPContextDecisions
-function VehicleDriverCombatTPPContextDecisions.new(fields) return end
+function VehicleDriverCombatTPPContextDecisions.new(fields) end
 
----@private
 ---@return Bool
-function VehicleDriverCombatTPPContextDecisions:CameraPerspectiveEnterCondition() return end
+function VehicleDriverCombatTPPContextDecisions:CameraPerspectiveEnterCondition() end

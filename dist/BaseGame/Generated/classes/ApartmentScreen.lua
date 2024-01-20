@@ -1,60 +1,52 @@
 ---@meta
 
 ---@class ApartmentScreen: LcdScreen
----@field public timeSystemCallbackID Uint32
+---@field timeSystemCallbackID Uint32
 ApartmentScreen = {}
 
 ---@param fields? ApartmentScreen
 ---@return ApartmentScreen
-function ApartmentScreen.new(fields) return end
+function ApartmentScreen.new(fields) end
 
----@protected
 ---@param evt DayPassedEvent
 ---@return Bool
-function ApartmentScreen:OnDayPassed(evt) return end
+function ApartmentScreen:OnDayPassed(evt) end
 
----@protected
 ---@return Bool
-function ApartmentScreen:OnDetach() return end
+function ApartmentScreen:OnDetach() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ApartmentScreen:OnRequestComponents(ri) return end
+function ApartmentScreen:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ApartmentScreen:OnTakeControl(ri) return end
+function ApartmentScreen:OnTakeControl(ri) end
 
----@protected
 ---@return ApartmentScreenController
-function ApartmentScreen:GetController() return end
+function ApartmentScreen:GetController() end
 
 ---@return Int32
-function ApartmentScreen:GetCurrentOverdueValue() return end
+function ApartmentScreen:GetCurrentOverdueValue() end
 
 ---@return ERentStatus
-function ApartmentScreen:GetCurrentRentStatus() return end
+function ApartmentScreen:GetCurrentRentStatus() end
 
 ---@return ApartmentScreenControllerPS
-function ApartmentScreen:GetDevicePS() return end
+function ApartmentScreen:GetDevicePS() end
 
----@private
 ---@return nil
-function ApartmentScreen:RegisterDayUpdateCallback() return end
+function ApartmentScreen:RegisterDayUpdateCallback() end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function ApartmentScreen:ResavePersistentData(ps) return end
+function ApartmentScreen:ResavePersistentData(ps) end
 
----@protected
 ---@return nil
-function ApartmentScreen:ResolveGameplayState() return end
+function ApartmentScreen:ResolveGameplayState() end
 
 ---@return Bool
-function ApartmentScreen:ShouldShowOverdueValue() return end
+function ApartmentScreen:ShouldShowOverdueValue() end
 
----@private
 ---@return nil
-function ApartmentScreen:UnregisterDayUpdateCallback() return end
+function ApartmentScreen:UnregisterDayUpdateCallback() end

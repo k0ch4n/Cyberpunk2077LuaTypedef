@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entReplicatedAnimFeaturesState
----@field public items entReplicatedAnimFeature[]
----@field public lastAppliedActionsTime netTime
+---@field items entReplicatedAnimFeature[]
+---@field lastAppliedActionsTime netTime
 entReplicatedAnimFeaturesState = {}
 
 ---@param fields? entReplicatedAnimFeaturesState
 ---@return entReplicatedAnimFeaturesState
-function entReplicatedAnimFeaturesState.new(fields) return end
+function entReplicatedAnimFeaturesState.new(fields) end

@@ -5,8 +5,7 @@ gameinteractionsChoiceCaptionScriptPart = {}
 
 ---@param fields? gameinteractionsChoiceCaptionScriptPart
 ---@return gameinteractionsChoiceCaptionScriptPart
-function gameinteractionsChoiceCaptionScriptPart.new(fields) return end
+function gameinteractionsChoiceCaptionScriptPart.new(fields) end
 
----@protected
 ---@return gamedataChoiceCaptionPartType
-function gameinteractionsChoiceCaptionScriptPart:GetPartType() return end
+function gameinteractionsChoiceCaptionScriptPart:GetPartType() end

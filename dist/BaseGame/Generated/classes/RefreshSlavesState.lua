@@ -5,4 +5,4 @@ RefreshSlavesState = {}
 
 ---@param fields? RefreshSlavesState
 ---@return RefreshSlavesState
-function RefreshSlavesState.new(fields) return end
+function RefreshSlavesState.new(fields) end

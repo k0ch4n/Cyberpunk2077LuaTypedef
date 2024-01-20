@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIInjectCombatThreatCommand: AICombatRelatedCommand
----@field public targetNodeRef NodeRef
----@field public targetPuppetRef gameEntityReference
----@field public dontForceHostileAttitude Bool
----@field public duration Float
----@field public isPersistent Bool
+---@field targetNodeRef NodeRef
+---@field targetPuppetRef gameEntityReference
+---@field dontForceHostileAttitude Bool
+---@field duration Float
+---@field isPersistent Bool
 AIInjectCombatThreatCommand = {}
 
 ---@param fields? AIInjectCombatThreatCommand
 ---@return AIInjectCombatThreatCommand
-function AIInjectCombatThreatCommand.new(fields) return end
+function AIInjectCombatThreatCommand.new(fields) end

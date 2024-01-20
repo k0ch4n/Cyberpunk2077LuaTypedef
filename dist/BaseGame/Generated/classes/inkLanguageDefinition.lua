@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkLanguageDefinition
----@field public languageCode CName
----@field public isoScriptCode CName
----@field public textDirection inkETextDirection
----@field public fonts inkLanguageFont[]
+---@field languageCode CName
+---@field isoScriptCode CName
+---@field textDirection inkETextDirection
+---@field fonts inkLanguageFont[]
 inkLanguageDefinition = {}
 
 ---@param fields? inkLanguageDefinition
 ---@return inkLanguageDefinition
-function inkLanguageDefinition.new(fields) return end
+function inkLanguageDefinition.new(fields) end

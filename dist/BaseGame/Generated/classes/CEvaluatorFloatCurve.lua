@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CEvaluatorFloatCurve: IEvaluatorFloat
----@field public curves curveData
----@field public numberOfCurveSamples Uint32
+---@field curves curveData
+---@field numberOfCurveSamples Uint32
 CEvaluatorFloatCurve = {}
 
 ---@param fields? CEvaluatorFloatCurve
 ---@return CEvaluatorFloatCurve
-function CEvaluatorFloatCurve.new(fields) return end
+function CEvaluatorFloatCurve.new(fields) end

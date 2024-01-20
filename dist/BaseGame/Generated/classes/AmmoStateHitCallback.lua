@@ -5,13 +5,12 @@ AmmoStateHitCallback = {}
 
 ---@param fields? AmmoStateHitCallback
 ---@return AmmoStateHitCallback
-function AmmoStateHitCallback.new(fields) return end
+function AmmoStateHitCallback.new(fields) end
 
 ---@param state gamePrereqState
 ---@return nil
-function AmmoStateHitCallback:RegisterState(state) return end
+function AmmoStateHitCallback:RegisterState(state) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function AmmoStateHitCallback:UpdateState(hitEvent) return end
+function AmmoStateHitCallback:UpdateState(hitEvent) end

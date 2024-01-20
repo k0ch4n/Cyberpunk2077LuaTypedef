@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsUserEnteredCoverEvent: redEvent
----@field public actionsPoints WorldTransform[]
+---@field actionsPoints WorldTransform[]
 gameeventsUserEnteredCoverEvent = {}
 
 ---@param fields? gameeventsUserEnteredCoverEvent
 ---@return gameeventsUserEnteredCoverEvent
-function gameeventsUserEnteredCoverEvent.new(fields) return end
+function gameeventsUserEnteredCoverEvent.new(fields) end

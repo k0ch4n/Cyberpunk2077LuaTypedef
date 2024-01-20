@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIsquadsOrder
----@field public squadAction CName
----@field public state Uint32
----@field public id Uint32
+---@field squadAction CName
+---@field state Uint32
+---@field id Uint32
 AIsquadsOrder = {}
 
 ---@param fields? AIsquadsOrder
 ---@return AIsquadsOrder
-function AIsquadsOrder.new(fields) return end
+function AIsquadsOrder.new(fields) end

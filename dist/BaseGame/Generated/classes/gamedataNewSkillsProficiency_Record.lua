@@ -5,4 +5,4 @@ gamedataNewSkillsProficiency_Record = {}
 
 ---@param fields? gamedataNewSkillsProficiency_Record
 ---@return gamedataNewSkillsProficiency_Record
-function gamedataNewSkillsProficiency_Record.new(fields) return end
+function gamedataNewSkillsProficiency_Record.new(fields) end

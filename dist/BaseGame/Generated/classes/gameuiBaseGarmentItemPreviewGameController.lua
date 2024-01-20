@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class gameuiBaseGarmentItemPreviewGameController: gameuiInventoryPuppetPreviewGameController
----@field protected placementSlot TweakDBID
----@field protected givenItem gameItemID
----@field protected initialItem gameItemID
+---@field placementSlot TweakDBID
+---@field givenItem gameItemID
+---@field initialItem gameItemID
 gameuiBaseGarmentItemPreviewGameController = {}
 
 ---@param fields? gameuiBaseGarmentItemPreviewGameController
 ---@return gameuiBaseGarmentItemPreviewGameController
-function gameuiBaseGarmentItemPreviewGameController.new(fields) return end
+function gameuiBaseGarmentItemPreviewGameController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiBaseGarmentItemPreviewGameController:OnUninitialize() return end
+function gameuiBaseGarmentItemPreviewGameController:OnUninitialize() end
 
----@protected
 ---@return nil
-function gameuiBaseGarmentItemPreviewGameController:ClearViewData() return end
+function gameuiBaseGarmentItemPreviewGameController:ClearViewData() end
 
----@protected
 ---@return Bool
-function gameuiBaseGarmentItemPreviewGameController:IsBuildCensored() return end
+function gameuiBaseGarmentItemPreviewGameController:IsBuildCensored() end
 
----@protected
 ---@param itemID gameItemID
 ---@return nil
-function gameuiBaseGarmentItemPreviewGameController:SetViewData(itemID) return end
+function gameuiBaseGarmentItemPreviewGameController:SetViewData(itemID) end

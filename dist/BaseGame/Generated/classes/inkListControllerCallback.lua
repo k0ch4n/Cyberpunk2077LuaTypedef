@@ -5,4 +5,4 @@ inkListControllerCallback = {}
 
 ---@param fields? inkListControllerCallback
 ---@return inkListControllerCallback
-function inkListControllerCallback.new(fields) return end
+function inkListControllerCallback.new(fields) end

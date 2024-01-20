@@ -5,4 +5,4 @@ gameStatModifierHandle = {}
 
 ---@param fields? gameStatModifierHandle
 ---@return gameStatModifierHandle
-function gameStatModifierHandle.new(fields) return end
+function gameStatModifierHandle.new(fields) end

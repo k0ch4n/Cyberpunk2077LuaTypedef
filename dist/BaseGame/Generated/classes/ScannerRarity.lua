@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class ScannerRarity: ScannerChunk
----@field private rarity gamedataNPCRarity
----@field private isCivilian Bool
+---@field rarity gamedataNPCRarity
+---@field isCivilian Bool
 ScannerRarity = {}
 
 ---@param fields? ScannerRarity
 ---@return ScannerRarity
-function ScannerRarity.new(fields) return end
+function ScannerRarity.new(fields) end
 
 ---@return gamedataNPCRarity
-function ScannerRarity:GetRarity() return end
+function ScannerRarity:GetRarity() end
 
 ---@return ScannerDataType
-function ScannerRarity:GetType() return end
+function ScannerRarity:GetType() end
 
 ---@return Bool
-function ScannerRarity:IsCivilian() return end
+function ScannerRarity:IsCivilian() end
 
 ---@param r gamedataNPCRarity
 ---@param civilian Bool
 ---@return nil
-function ScannerRarity:Set(r, civilian) return end
+function ScannerRarity:Set(r, civilian) end

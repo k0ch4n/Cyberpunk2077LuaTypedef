@@ -1,29 +1,27 @@
 ---@meta
 
 ---@class IsPlayerReachablePrereq: gameIScriptablePrereq
----@field public invert Bool
----@field public checkRMA Bool
----@field public checkOnlyRMA Bool
----@field public minRMADistance Float
----@field public canCheckProxy Bool
----@field public horTolerance Float
----@field public verTolerance Float
+---@field invert Bool
+---@field checkRMA Bool
+---@field checkOnlyRMA Bool
+---@field minRMADistance Float
+---@field canCheckProxy Bool
+---@field horTolerance Float
+---@field verTolerance Float
 IsPlayerReachablePrereq = {}
 
 ---@param fields? IsPlayerReachablePrereq
 ---@return IsPlayerReachablePrereq
-function IsPlayerReachablePrereq.new(fields) return end
+function IsPlayerReachablePrereq.new(fields) end
 
----@private
 ---@param result Bool
 ---@return Bool
-function IsPlayerReachablePrereq:GetFinalResult(result) return end
+function IsPlayerReachablePrereq:GetFinalResult(result) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IsPlayerReachablePrereq:Initialize(recordID) return end
+function IsPlayerReachablePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function IsPlayerReachablePrereq:IsFulfilled(context) return end
+function IsPlayerReachablePrereq:IsFulfilled(context) end

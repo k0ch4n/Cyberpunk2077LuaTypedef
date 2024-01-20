@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIDrivePatrolUpdate: AIDriveCommandUpdate
----@field public numPatrolLoops Uint32
----@field public emergencyPatrol Bool
+---@field numPatrolLoops Uint32
+---@field emergencyPatrol Bool
 AIDrivePatrolUpdate = {}
 
 ---@param fields? AIDrivePatrolUpdate
 ---@return AIDrivePatrolUpdate
-function AIDrivePatrolUpdate.new(fields) return end
+function AIDrivePatrolUpdate.new(fields) end
 
 ---@return AIVehicleDrivePatrolCommand
-function AIDrivePatrolUpdate:CreateCmd() return end
+function AIDrivePatrolUpdate:CreateCmd() end

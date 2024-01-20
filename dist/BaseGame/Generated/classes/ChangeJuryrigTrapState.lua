@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ChangeJuryrigTrapState: redEvent
----@field public newState EJuryrigTrapState
+---@field newState EJuryrigTrapState
 ChangeJuryrigTrapState = {}
 
 ---@param fields? ChangeJuryrigTrapState
 ---@return ChangeJuryrigTrapState
-function ChangeJuryrigTrapState.new(fields) return end
+function ChangeJuryrigTrapState.new(fields) end

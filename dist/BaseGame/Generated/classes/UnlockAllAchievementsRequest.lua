@@ -5,4 +5,4 @@ UnlockAllAchievementsRequest = {}
 
 ---@param fields? UnlockAllAchievementsRequest
 ---@return UnlockAllAchievementsRequest
-function UnlockAllAchievementsRequest.new(fields) return end
+function UnlockAllAchievementsRequest.new(fields) end

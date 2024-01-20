@@ -1,42 +1,41 @@
 ---@meta
 
 ---@class TerminalMainLayoutWidgetController: inkWidgetLogicController
----@field private thumbnailsListSlot inkWidgetReference
----@field private deviceSlot inkWidgetReference
----@field private returnButton inkWidgetReference
----@field private titleWidget inkTextWidgetReference
----@field private backgroundImage inkImageWidgetReference
----@field private backgroundImageTrace inkImageWidgetReference
----@field protected isInitialized Bool
----@field private main_canvas inkWidget
+---@field thumbnailsListSlot inkWidgetReference
+---@field deviceSlot inkWidgetReference
+---@field returnButton inkWidgetReference
+---@field titleWidget inkTextWidgetReference
+---@field backgroundImage inkImageWidgetReference
+---@field backgroundImageTrace inkImageWidgetReference
+---@field isInitialized Bool
+---@field main_canvas inkWidget
 TerminalMainLayoutWidgetController = {}
 
 ---@param fields? TerminalMainLayoutWidgetController
 ---@return TerminalMainLayoutWidgetController
-function TerminalMainLayoutWidgetController.new(fields) return end
+function TerminalMainLayoutWidgetController.new(fields) end
 
----@protected
 ---@return Bool
-function TerminalMainLayoutWidgetController:OnInitialize() return end
+function TerminalMainLayoutWidgetController:OnInitialize() end
 
 ---@return inkWidget
-function TerminalMainLayoutWidgetController:GetDevicesSlot() return end
+function TerminalMainLayoutWidgetController:GetDevicesSlot() end
 
 ---@return inkWidget
-function TerminalMainLayoutWidgetController:GetMainCanvas() return end
+function TerminalMainLayoutWidgetController:GetMainCanvas() end
 
 ---@return inkWidget
-function TerminalMainLayoutWidgetController:GetReturnButton() return end
+function TerminalMainLayoutWidgetController:GetReturnButton() end
 
 ---@return inkWidget
-function TerminalMainLayoutWidgetController:GetThumbnailListSlot() return end
+function TerminalMainLayoutWidgetController:GetThumbnailListSlot() end
 
 ---@return nil
-function TerminalMainLayoutWidgetController:HideBackgroundIcon() return end
+function TerminalMainLayoutWidgetController:HideBackgroundIcon() end
 
 ---@param gameController TerminalInkGameControllerBase
 ---@return nil
-function TerminalMainLayoutWidgetController:Initialize(gameController) return end
+function TerminalMainLayoutWidgetController:Initialize(gameController) end
 
 ---@return nil
-function TerminalMainLayoutWidgetController:ShowBackgroundIcon() return end
+function TerminalMainLayoutWidgetController:ShowBackgroundIcon() end

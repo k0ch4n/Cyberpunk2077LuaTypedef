@@ -5,4 +5,4 @@ CGlobalIlluminationSceneData = {}
 
 ---@param fields? CGlobalIlluminationSceneData
 ---@return CGlobalIlluminationSceneData
-function CGlobalIlluminationSceneData.new(fields) return end
+function CGlobalIlluminationSceneData.new(fields) end

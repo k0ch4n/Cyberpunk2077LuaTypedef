@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class TakedownGrappleFailedDecisions: LocomotionTakedownDecisions
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field stateMachineInitData LocomotionTakedownInitData
 TakedownGrappleFailedDecisions = {}
 
 ---@param fields? TakedownGrappleFailedDecisions
 ---@return TakedownGrappleFailedDecisions
-function TakedownGrappleFailedDecisions.new(fields) return end
+function TakedownGrappleFailedDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownGrappleFailedDecisions:EnterCondition(stateContext, scriptInterface) return end
+function TakedownGrappleFailedDecisions:EnterCondition(stateContext, scriptInterface) end

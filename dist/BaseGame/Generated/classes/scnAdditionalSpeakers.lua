@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnAdditionalSpeakers
----@field public executionTag Uint8
----@field public role scnAdditionalSpeakerRole
----@field public speakers scnAdditionalSpeaker[]
+---@field executionTag Uint8
+---@field role scnAdditionalSpeakerRole
+---@field speakers scnAdditionalSpeaker[]
 scnAdditionalSpeakers = {}
 
 ---@param fields? scnAdditionalSpeakers
 ---@return scnAdditionalSpeakers
-function scnAdditionalSpeakers.new(fields) return end
+function scnAdditionalSpeakers.new(fields) end

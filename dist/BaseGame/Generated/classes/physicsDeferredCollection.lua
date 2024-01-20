@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class physicsDeferredCollection: ISerializable
----@field public buffer serializationDeferredDataBuffer
+---@field buffer serializationDeferredDataBuffer
 physicsDeferredCollection = {}
 
 ---@param fields? physicsDeferredCollection
 ---@return physicsDeferredCollection
-function physicsDeferredCollection.new(fields) return end
+function physicsDeferredCollection.new(fields) end

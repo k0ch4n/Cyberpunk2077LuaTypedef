@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class UI_EquipmentDef: gamebbScriptDefinition
----@field public itemEquipped gamebbScriptID_Variant
----@field public lastModifiedArea gamebbScriptID_Variant
----@field public areaChanged gamebbScriptID_Int32
----@field public areaChangedSlotIndex gamebbScriptID_Int32
----@field public EquipmentInProgress gamebbScriptID_Bool
+---@field itemEquipped gamebbScriptID_Variant
+---@field lastModifiedArea gamebbScriptID_Variant
+---@field areaChanged gamebbScriptID_Int32
+---@field areaChangedSlotIndex gamebbScriptID_Int32
+---@field EquipmentInProgress gamebbScriptID_Bool
 UI_EquipmentDef = {}
 
 ---@param fields? UI_EquipmentDef
 ---@return UI_EquipmentDef
-function UI_EquipmentDef.new(fields) return end
+function UI_EquipmentDef.new(fields) end
 
 ---@return Bool
-function UI_EquipmentDef:AutoCreateInSystem() return end
+function UI_EquipmentDef:AutoCreateInSystem() end

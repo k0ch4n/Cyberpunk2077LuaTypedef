@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuickSlotCommandUsed: redEvent
----@field public action gamedeviceAction
+---@field action gamedeviceAction
 QuickSlotCommandUsed = {}
 
 ---@param fields? QuickSlotCommandUsed
 ---@return QuickSlotCommandUsed
-function QuickSlotCommandUsed.new(fields) return end
+function QuickSlotCommandUsed.new(fields) end

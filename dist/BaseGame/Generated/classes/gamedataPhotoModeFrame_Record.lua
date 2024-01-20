@@ -5,44 +5,44 @@ gamedataPhotoModeFrame_Record = {}
 
 ---@param fields? gamedataPhotoModeFrame_Record
 ---@return gamedataPhotoModeFrame_Record
-function gamedataPhotoModeFrame_Record.new(fields) return end
+function gamedataPhotoModeFrame_Record.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataPhotoModeFrame_Record:AtlasName() return end
+function gamedataPhotoModeFrame_Record:AtlasName() end
 
 ---@return Int32[]
-function gamedataPhotoModeFrame_Record:Color() return end
+function gamedataPhotoModeFrame_Record:Color() end
 
 ---@param item Int32
 ---@return Bool
-function gamedataPhotoModeFrame_Record:ColorContains(item) return end
+function gamedataPhotoModeFrame_Record:ColorContains(item) end
 
 ---@return Bool
-function gamedataPhotoModeFrame_Record:FlipHorizontal() return end
+function gamedataPhotoModeFrame_Record:FlipHorizontal() end
 
 ---@return Bool
-function gamedataPhotoModeFrame_Record:FlipVertical() return end
+function gamedataPhotoModeFrame_Record:FlipVertical() end
 
 ---@return Int32
-function gamedataPhotoModeFrame_Record:GetColorCount() return end
+function gamedataPhotoModeFrame_Record:GetColorCount() end
 
 ---@param index Int32
 ---@return Int32
-function gamedataPhotoModeFrame_Record:GetColorItem(index) return end
+function gamedataPhotoModeFrame_Record:GetColorItem(index) end
 
 ---@return Int32
-function gamedataPhotoModeFrame_Record:GetImagePartsNamesCount() return end
+function gamedataPhotoModeFrame_Record:GetImagePartsNamesCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataPhotoModeFrame_Record:GetImagePartsNamesItem(index) return end
+function gamedataPhotoModeFrame_Record:GetImagePartsNamesItem(index) end
 
 ---@return CName[]
-function gamedataPhotoModeFrame_Record:ImagePartsNames() return end
+function gamedataPhotoModeFrame_Record:ImagePartsNames() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataPhotoModeFrame_Record:ImagePartsNamesContains(item) return end
+function gamedataPhotoModeFrame_Record:ImagePartsNamesContains(item) end
 
 ---@return CName
-function gamedataPhotoModeFrame_Record:LibraryItemName() return end
+function gamedataPhotoModeFrame_Record:LibraryItemName() end

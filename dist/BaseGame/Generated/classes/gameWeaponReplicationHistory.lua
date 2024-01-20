@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameWeaponReplicationHistory
----@field public weaponSlot TweakDBID
----@field public shots gameReplicatedShotData
----@field public latestShotId Uint32
----@field public continuousAttack gameReplicatedContinuousAttack
+---@field weaponSlot TweakDBID
+---@field shots gameReplicatedShotData
+---@field latestShotId Uint32
+---@field continuousAttack gameReplicatedContinuousAttack
 gameWeaponReplicationHistory = {}
 
 ---@param fields? gameWeaponReplicationHistory
 ---@return gameWeaponReplicationHistory
-function gameWeaponReplicationHistory.new(fields) return end
+function gameWeaponReplicationHistory.new(fields) end

@@ -5,10 +5,9 @@ SwimmingDivingDecisions = {}
 
 ---@param fields? SwimmingDivingDecisions
 ---@return SwimmingDivingDecisions
-function SwimmingDivingDecisions.new(fields) return end
+function SwimmingDivingDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingDivingDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SwimmingDivingDecisions:EnterCondition(stateContext, scriptInterface) end

@@ -5,4 +5,4 @@ AITacticLimiter = {}
 
 ---@param fields? AITacticLimiter
 ---@return AITacticLimiter
-function AITacticLimiter.new(fields) return end
+function AITacticLimiter.new(fields) end

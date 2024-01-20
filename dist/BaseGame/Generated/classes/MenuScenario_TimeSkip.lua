@@ -5,19 +5,16 @@ MenuScenario_TimeSkip = {}
 
 ---@param fields? MenuScenario_TimeSkip
 ---@return MenuScenario_TimeSkip
-function MenuScenario_TimeSkip.new(fields) return end
+function MenuScenario_TimeSkip.new(fields) end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_TimeSkip:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_TimeSkip:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_TimeSkip:OnTimeSkipPopupClosed() return end
+function MenuScenario_TimeSkip:OnTimeSkipPopupClosed() end
 
----@private
 ---@param visible Bool
 ---@return nil
-function MenuScenario_TimeSkip:SetCursorVisibility(visible) return end
+function MenuScenario_TimeSkip:SetCursorVisibility(visible) end

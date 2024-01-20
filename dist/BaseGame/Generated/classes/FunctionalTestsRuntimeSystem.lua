@@ -5,4 +5,4 @@ FunctionalTestsRuntimeSystem = {}
 
 ---@param fields? FunctionalTestsRuntimeSystem
 ---@return FunctionalTestsRuntimeSystem
-function FunctionalTestsRuntimeSystem.new(fields) return end
+function FunctionalTestsRuntimeSystem.new(fields) end

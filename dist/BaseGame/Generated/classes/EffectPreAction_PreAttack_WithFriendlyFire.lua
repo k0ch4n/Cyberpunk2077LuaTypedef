@@ -5,4 +5,4 @@ EffectPreAction_PreAttack_WithFriendlyFire = {}
 
 ---@param fields? EffectPreAction_PreAttack_WithFriendlyFire
 ---@return EffectPreAction_PreAttack_WithFriendlyFire
-function EffectPreAction_PreAttack_WithFriendlyFire.new(fields) return end
+function EffectPreAction_PreAttack_WithFriendlyFire.new(fields) end

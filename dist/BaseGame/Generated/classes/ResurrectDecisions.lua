@@ -5,16 +5,14 @@ ResurrectDecisions = {}
 
 ---@param fields? ResurrectDecisions
 ---@return ResurrectDecisions
-function ResurrectDecisions.new(fields) return end
+function ResurrectDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ResurrectDecisions:ToDeath(stateContext, scriptInterface) return end
+function ResurrectDecisions:ToDeath(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ResurrectDecisions:ToExploration(stateContext, scriptInterface) return end
+function ResurrectDecisions:ToExploration(stateContext, scriptInterface) end

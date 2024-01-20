@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class SetTargetHealthEffector: gameEffector
----@field public healthValueToSet Float
+---@field healthValueToSet Float
 SetTargetHealthEffector = {}
 
 ---@param fields? SetTargetHealthEffector
 ---@return SetTargetHealthEffector
-function SetTargetHealthEffector.new(fields) return end
+function SetTargetHealthEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetTargetHealthEffector:ActionOn(owner) return end
+function SetTargetHealthEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SetTargetHealthEffector:Initialize(record, parentRecord) return end
+function SetTargetHealthEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param target NPCPuppet
 ---@return nil
-function SetTargetHealthEffector:Set(target) return end
+function SetTargetHealthEffector:Set(target) end

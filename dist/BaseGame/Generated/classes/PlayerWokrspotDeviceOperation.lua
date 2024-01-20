@@ -1,36 +1,33 @@
 ---@meta
 
 ---@class PlayerWokrspotDeviceOperation: DeviceOperationBase
----@field public playerWorkspot SWorkspotData
+---@field playerWorkspot SWorkspotData
 PlayerWokrspotDeviceOperation = {}
 
 ---@param fields? PlayerWokrspotDeviceOperation
 ---@return PlayerWokrspotDeviceOperation
-function PlayerWokrspotDeviceOperation.new(fields) return end
+function PlayerWokrspotDeviceOperation.new(fields) end
 
----@protected
 ---@param target Device
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@return nil
-function PlayerWokrspotDeviceOperation:EnterWorkspot(target, activator, freeCamera, componentName) return end
+function PlayerWokrspotDeviceOperation:EnterWorkspot(target, activator, freeCamera, componentName) end
 
 ---@param owner gameObject
 ---@return nil
-function PlayerWokrspotDeviceOperation:Execute(owner) return end
+function PlayerWokrspotDeviceOperation:Execute(owner) end
 
----@protected
 ---@param activator gameObject
 ---@return nil
-function PlayerWokrspotDeviceOperation:LeaveWorkspot(activator) return end
+function PlayerWokrspotDeviceOperation:LeaveWorkspot(activator) end
 
----@private
 ---@param workspot SWorkspotData
 ---@param owner gameObject
 ---@return nil
-function PlayerWokrspotDeviceOperation:ResolveWorkspots(workspot, owner) return end
+function PlayerWokrspotDeviceOperation:ResolveWorkspots(workspot, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function PlayerWokrspotDeviceOperation:Restore(owner) return end
+function PlayerWokrspotDeviceOperation:Restore(owner) end

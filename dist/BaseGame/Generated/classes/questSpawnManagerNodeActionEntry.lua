@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questSpawnManagerNodeActionEntry
----@field public type questSpawnManagerNodeType
+---@field type questSpawnManagerNodeType
 questSpawnManagerNodeActionEntry = {}
 
 ---@param fields? questSpawnManagerNodeActionEntry
 ---@return questSpawnManagerNodeActionEntry
-function questSpawnManagerNodeActionEntry.new(fields) return end
+function questSpawnManagerNodeActionEntry.new(fields) end

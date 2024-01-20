@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SFactToChange
----@field public factName CName
----@field public factValue Int32
----@field public operationType EMathOperationType
+---@field factName CName
+---@field factValue Int32
+---@field operationType EMathOperationType
 SFactToChange = {}
 
 ---@param fields? SFactToChange
 ---@return SFactToChange
-function SFactToChange.new(fields) return end
+function SFactToChange.new(fields) end

@@ -1,90 +1,78 @@
 ---@meta
 
 ---@class interactionWidgetGameController: gameuiHUDGameController
----@field private root inkWidget
----@field private titleLabel inkTextWidget
----@field private titleBorder inkWidget
----@field private optionsList inkHorizontalPanelWidget
----@field private widgetsPool inkWidget[]
----@field private widgetsCallbacks redCallbackObject[]
----@field private bbInteraction gameIBlackboard
----@field private bbPlayerStateMachine gameIBlackboard
----@field private bbInteractionDefinition UIInteractionsDef
----@field private updateInteractionId redCallbackObject
----@field private activeHubListenerId redCallbackObject
----@field private contactsActiveListenerId redCallbackObject
----@field private id Int32
----@field private isActive Bool
----@field private areContactsOpen Bool
----@field private progressBarHolder inkWidgetReference
----@field private progressBar DialogChoiceTimerController
----@field private hasProgressBar Bool
----@field private bb gameIBlackboard
----@field private bbUIInteractionsDef UIInteractionsDef
----@field private bbLastAttemptedChoiceCallbackId redCallbackObject
----@field private OnZoneChangeCallback redCallbackObject
----@field private pendingRequests Int32
----@field private spawnTokens inkAsyncSpawnRequest[]
----@field private currentOptions gameinteractionsvisInteractionChoiceData[]
+---@field root inkWidget
+---@field titleLabel inkTextWidget
+---@field titleBorder inkWidget
+---@field optionsList inkHorizontalPanelWidget
+---@field widgetsPool inkWidget[]
+---@field widgetsCallbacks redCallbackObject[]
+---@field bbInteraction gameIBlackboard
+---@field bbPlayerStateMachine gameIBlackboard
+---@field bbInteractionDefinition UIInteractionsDef
+---@field updateInteractionId redCallbackObject
+---@field activeHubListenerId redCallbackObject
+---@field contactsActiveListenerId redCallbackObject
+---@field id Int32
+---@field isActive Bool
+---@field areContactsOpen Bool
+---@field progressBarHolder inkWidgetReference
+---@field progressBar DialogChoiceTimerController
+---@field hasProgressBar Bool
+---@field bb gameIBlackboard
+---@field bbUIInteractionsDef UIInteractionsDef
+---@field bbLastAttemptedChoiceCallbackId redCallbackObject
+---@field OnZoneChangeCallback redCallbackObject
+---@field pendingRequests Int32
+---@field spawnTokens inkAsyncSpawnRequest[]
+---@field currentOptions gameinteractionsvisInteractionChoiceData[]
 interactionWidgetGameController = {}
 
 ---@param fields? interactionWidgetGameController
 ---@return interactionWidgetGameController
-function interactionWidgetGameController.new(fields) return end
+function interactionWidgetGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function interactionWidgetGameController:OnChangeActiveVisualizer(value) return end
+function interactionWidgetGameController:OnChangeActiveVisualizer(value) end
 
----@protected
 ---@return Bool
-function interactionWidgetGameController:OnInitialize() return end
+function interactionWidgetGameController:OnInitialize() end
 
----@protected
 ---@param newItem inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function interactionWidgetGameController:OnItemSpawned(newItem, userData) return end
+function interactionWidgetGameController:OnItemSpawned(newItem, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function interactionWidgetGameController:OnLastAttemptedChoice(value) return end
+function interactionWidgetGameController:OnLastAttemptedChoice(value) end
 
----@protected
 ---@return Bool
-function interactionWidgetGameController:OnUninitialize() return end
+function interactionWidgetGameController:OnUninitialize() end
 
----@protected
 ---@param argValue Variant
 ---@return Bool
-function interactionWidgetGameController:OnUpdateInteraction(argValue) return end
+function interactionWidgetGameController:OnUpdateInteraction(argValue) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function interactionWidgetGameController:OnZoneChange(value) return end
+function interactionWidgetGameController:OnZoneChange(value) end
 
----@private
 ---@return gameObject
-function interactionWidgetGameController:GetOwner() return end
+function interactionWidgetGameController:GetOwner() end
 
----@private
 ---@param choice gameinteractionsvisInteractionChoiceData
 ---@param skillcheck UIInteractionSkillCheck
 ---@return Bool
-function interactionWidgetGameController:GetSkillcheck(choice, skillcheck) return end
+function interactionWidgetGameController:GetSkillcheck(choice, skillcheck) end
 
----@private
 ---@param choiceHubData gameinteractionsvisInteractionChoiceHubData
 ---@return UIInteractionSkillCheck[]
-function interactionWidgetGameController:GetSkillchecks(choiceHubData) return end
+function interactionWidgetGameController:GetSkillchecks(choiceHubData) end
 
----@private
 ---@return nil
-function interactionWidgetGameController:UpadateChoiceData() return end
+function interactionWidgetGameController:UpadateChoiceData() end
 
----@private
 ---@return nil
-function interactionWidgetGameController:UpdateVisibility() return end
+function interactionWidgetGameController:UpdateVisibility() end

@@ -5,4 +5,4 @@ gamedataAISubActionFail_Record = {}
 
 ---@param fields? gamedataAISubActionFail_Record
 ---@return gamedataAISubActionFail_Record
-function gamedataAISubActionFail_Record.new(fields) return end
+function gamedataAISubActionFail_Record.new(fields) end

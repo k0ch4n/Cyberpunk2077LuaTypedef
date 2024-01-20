@@ -5,4 +5,4 @@ inkIconReference = {}
 
 ---@param fields? inkIconReference
 ---@return inkIconReference
-function inkIconReference.new(fields) return end
+function inkIconReference.new(fields) end

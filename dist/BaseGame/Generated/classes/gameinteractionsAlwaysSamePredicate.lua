@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsAlwaysSamePredicate: gameinteractionsIPredicateType
----@field public priority Float
+---@field priority Float
 gameinteractionsAlwaysSamePredicate = {}
 
 ---@param fields? gameinteractionsAlwaysSamePredicate
 ---@return gameinteractionsAlwaysSamePredicate
-function gameinteractionsAlwaysSamePredicate.new(fields) return end
+function gameinteractionsAlwaysSamePredicate.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CombatGadgetDataDef: gamebbScriptDefinition
----@field public throwUnequip gamebbScriptID_Bool
----@field public lastThrowAngle gamebbScriptID_Float
----@field public lastThrowPosition gamebbScriptID_Vector4
----@field public lastThrowStartType gamebbScriptID_Variant
+---@field throwUnequip gamebbScriptID_Bool
+---@field lastThrowAngle gamebbScriptID_Float
+---@field lastThrowPosition gamebbScriptID_Vector4
+---@field lastThrowStartType gamebbScriptID_Variant
 CombatGadgetDataDef = {}
 
 ---@param fields? CombatGadgetDataDef
 ---@return CombatGadgetDataDef
-function CombatGadgetDataDef.new(fields) return end
+function CombatGadgetDataDef.new(fields) end

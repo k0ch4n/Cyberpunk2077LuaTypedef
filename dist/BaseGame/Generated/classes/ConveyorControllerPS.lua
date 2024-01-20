@@ -5,22 +5,20 @@ ConveyorControllerPS = {}
 
 ---@param fields? ConveyorControllerPS
 ---@return ConveyorControllerPS
-function ConveyorControllerPS.new(fields) return end
+function ConveyorControllerPS.new(fields) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ConveyorControllerPS:GetActions(context) return end
+function ConveyorControllerPS:GetActions(context) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return EntityNotificationType
-function ConveyorControllerPS:OnSetDeviceOFF(evt) return end
+function ConveyorControllerPS:OnSetDeviceOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return EntityNotificationType
-function ConveyorControllerPS:OnSetDeviceON(evt) return end
+function ConveyorControllerPS:OnSetDeviceON(evt) end
 
 ---@param evt ToggleON
 ---@return EntityNotificationType
-function ConveyorControllerPS:OnToggleON(evt) return end
+function ConveyorControllerPS:OnToggleON(evt) end

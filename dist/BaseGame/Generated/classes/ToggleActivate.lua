@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class ToggleActivate: ActionBool
----@field protected TrueRecordName String
----@field protected FalseRecordName String
+---@field TrueRecordName String
+---@field FalseRecordName String
 ToggleActivate = {}
 
 ---@param fields? ToggleActivate
 ---@return ToggleActivate
-function ToggleActivate.new(fields) return end
+function ToggleActivate.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleActivate.IsDefaultConditionMet(device, context) return end
+function ToggleActivate.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function ToggleActivate:GetTweakDBChoiceRecord() return end
+function ToggleActivate:GetTweakDBChoiceRecord() end
 
 ---@param activationStatus EActivationState
 ---@return nil
-function ToggleActivate:SetProperties(activationStatus) return end
+function ToggleActivate:SetProperties(activationStatus) end
 
 ---@param isActive Bool
 ---@param nameOnTrue TweakDBID|string
 ---@param nameOnFalse TweakDBID|string
 ---@return nil
-function ToggleActivate:SetProperties(isActive, nameOnTrue, nameOnFalse) return end
+function ToggleActivate:SetProperties(isActive, nameOnTrue, nameOnFalse) end

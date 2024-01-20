@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameaudioeventsToggleAimDownSightsEvent: redEvent
----@field public toggleOn Bool
+---@field toggleOn Bool
 gameaudioeventsToggleAimDownSightsEvent = {}
 
 ---@param fields? gameaudioeventsToggleAimDownSightsEvent
 ---@return gameaudioeventsToggleAimDownSightsEvent
-function gameaudioeventsToggleAimDownSightsEvent.new(fields) return end
+function gameaudioeventsToggleAimDownSightsEvent.new(fields) end

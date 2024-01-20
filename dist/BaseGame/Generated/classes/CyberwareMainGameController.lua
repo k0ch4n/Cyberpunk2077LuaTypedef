@@ -1,95 +1,80 @@
 ---@meta
 
 ---@class CyberwareMainGameController: gameuiWidgetGameController
----@field private MainViewRoot inkWidgetReference
----@field private CyberwareColumnLeft inkCompoundWidgetReference
----@field private CyberwareColumnRight inkCompoundWidgetReference
----@field private personalStatsList inkCompoundWidgetReference
----@field private attributesList inkCompoundWidgetReference
----@field private resistancesList inkCompoundWidgetReference
----@field private TooltipsManagerRef inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field private InventoryManager InventoryDataManagerV2
----@field private player PlayerPuppet
----@field private resistanceView CName
----@field private statView CName
----@field private toolTipOffset inkMargin
----@field private rawStatsData gameStatViewData[]
+---@field MainViewRoot inkWidgetReference
+---@field CyberwareColumnLeft inkCompoundWidgetReference
+---@field CyberwareColumnRight inkCompoundWidgetReference
+---@field personalStatsList inkCompoundWidgetReference
+---@field attributesList inkCompoundWidgetReference
+---@field resistancesList inkCompoundWidgetReference
+---@field TooltipsManagerRef inkWidgetReference
+---@field TooltipsManager gameuiTooltipsManager
+---@field InventoryManager InventoryDataManagerV2
+---@field player PlayerPuppet
+---@field resistanceView CName
+---@field statView CName
+---@field toolTipOffset inkMargin
+---@field rawStatsData gameStatViewData[]
 CyberwareMainGameController = {}
 
 ---@param fields? CyberwareMainGameController
 ---@return CyberwareMainGameController
-function CyberwareMainGameController.new(fields) return end
+function CyberwareMainGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CyberwareMainGameController:OnCyberwareSlotHoverOut(evt) return end
+function CyberwareMainGameController:OnCyberwareSlotHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CyberwareMainGameController:OnCyberwareSlotHoverOver(evt) return end
+function CyberwareMainGameController:OnCyberwareSlotHoverOver(evt) end
 
----@protected
 ---@return Bool
-function CyberwareMainGameController:OnInitialize() return end
+function CyberwareMainGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function CyberwareMainGameController:OnUninitialize() return end
+function CyberwareMainGameController:OnUninitialize() end
 
----@private
 ---@param equipArea gamedataEquipmentArea
 ---@param parentRef inkCompoundWidgetReference
 ---@return nil
-function CyberwareMainGameController:AddCyberwareSlot(equipArea, parentRef) return end
+function CyberwareMainGameController:AddCyberwareSlot(equipArea, parentRef) end
 
----@private
 ---@param statType gamedataStatType
 ---@param list inkCompoundWidgetReference
 ---@param viewElement? CName|string
 ---@return nil
-function CyberwareMainGameController:AddStat(statType, list, viewElement) return end
+function CyberwareMainGameController:AddStat(statType, list, viewElement) end
 
----@private
 ---@param evt inkPointerEvent
 ---@return CyberwareSlot
-function CyberwareMainGameController:GetCyberwareSlotControllerFromTarget(evt) return end
+function CyberwareMainGameController:GetCyberwareSlotControllerFromTarget(evt) end
 
----@private
 ---@return nil
-function CyberwareMainGameController:HideTooltips() return end
+function CyberwareMainGameController:HideTooltips() end
 
----@private
 ---@param slot CyberwareSlot
 ---@return nil
-function CyberwareMainGameController:OnCyberwareRequestTooltip(slot) return end
-
----@private
----@return nil
-function CyberwareMainGameController:OnIntro() return end
+function CyberwareMainGameController:OnCyberwareRequestTooltip(slot) end
 
 ---@return nil
-function CyberwareMainGameController:PopulateStats() return end
+function CyberwareMainGameController:OnIntro() end
 
----@private
 ---@return nil
-function CyberwareMainGameController:PrepareCyberwareSlots() return end
+function CyberwareMainGameController:PopulateStats() end
 
----@private
 ---@return nil
-function CyberwareMainGameController:PrepareTooltips() return end
+function CyberwareMainGameController:PrepareCyberwareSlots() end
 
----@private
 ---@return nil
-function CyberwareMainGameController:RemoveBB() return end
+function CyberwareMainGameController:PrepareTooltips() end
 
----@private
+---@return nil
+function CyberwareMainGameController:RemoveBB() end
+
 ---@param stat gamedataStatType
 ---@return gameStatViewData
-function CyberwareMainGameController:RequestStat(stat) return end
+function CyberwareMainGameController:RequestStat(stat) end
 
----@private
 ---@return nil
-function CyberwareMainGameController:SetupBB() return end
+function CyberwareMainGameController:SetupBB() end

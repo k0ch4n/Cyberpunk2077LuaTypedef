@@ -1,46 +1,40 @@
 ---@meta
 
 ---@class RadioStationListItemController: inkVirtualCompoundItemController
----@field private label inkTextWidgetReference
----@field private typeIcon inkImageWidgetReference
----@field private equilizerIcon inkHorizontalPanelWidgetReference
----@field private codeTLicon inkImageWidgetReference
----@field private stationData RadioListItemData
----@field private currentRadioStationId Int32
+---@field label inkTextWidgetReference
+---@field typeIcon inkImageWidgetReference
+---@field equilizerIcon inkHorizontalPanelWidgetReference
+---@field codeTLicon inkImageWidgetReference
+---@field stationData RadioListItemData
+---@field currentRadioStationId Int32
 RadioStationListItemController = {}
 
 ---@param fields? RadioStationListItemController
 ---@return RadioStationListItemController
-function RadioStationListItemController.new(fields) return end
+function RadioStationListItemController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function RadioStationListItemController:OnDataChanged(value) return end
+function RadioStationListItemController:OnDataChanged(value) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function RadioStationListItemController:OnDeselected(itemController) return end
+function RadioStationListItemController:OnDeselected(itemController) end
 
----@protected
 ---@return Bool
-function RadioStationListItemController:OnInitialize() return end
+function RadioStationListItemController:OnInitialize() end
 
----@protected
 ---@param evt RadioStationChangedEvent
 ---@return Bool
-function RadioStationListItemController:OnRadioStationChangedEvent(evt) return end
+function RadioStationListItemController:OnRadioStationChangedEvent(evt) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function RadioStationListItemController:OnSelected(itemController, discreteNav) return end
+function RadioStationListItemController:OnSelected(itemController, discreteNav) end
 
 ---@return RadioListItemData
-function RadioStationListItemController:GetStationData() return end
+function RadioStationListItemController:GetStationData() end
 
----@private
 ---@return nil
-function RadioStationListItemController:UpdateEquializer() return end
+function RadioStationListItemController:UpdateEquializer() end

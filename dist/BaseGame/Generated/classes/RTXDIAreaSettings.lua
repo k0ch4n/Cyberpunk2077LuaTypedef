@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RTXDIAreaSettings: IAreaSettings
----@field public diffuseSkyScale Float
----@field public specularSkyScale Float
+---@field diffuseSkyScale Float
+---@field specularSkyScale Float
 RTXDIAreaSettings = {}
 
 ---@param fields? RTXDIAreaSettings
 ---@return RTXDIAreaSettings
-function RTXDIAreaSettings.new(fields) return end
+function RTXDIAreaSettings.new(fields) end

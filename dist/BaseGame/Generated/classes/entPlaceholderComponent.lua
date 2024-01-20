@@ -5,4 +5,4 @@ entPlaceholderComponent = {}
 
 ---@param fields? entPlaceholderComponent
 ---@return entPlaceholderComponent
-function entPlaceholderComponent.new(fields) return end
+function entPlaceholderComponent.new(fields) end

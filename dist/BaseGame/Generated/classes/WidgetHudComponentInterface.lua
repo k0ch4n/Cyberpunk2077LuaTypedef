@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class WidgetHudComponentInterface: WidgetBaseComponent
----@field public hudEntriesResource inkHudEntriesResource
----@field public externalMaterial CMaterialTemplate
----@field public meshTargetBinding worlduiMeshTargetBinding
+---@field hudEntriesResource inkHudEntriesResource
+---@field externalMaterial CMaterialTemplate
+---@field meshTargetBinding worlduiMeshTargetBinding
 WidgetHudComponentInterface = {}
 
 ---@param fields? WidgetHudComponentInterface
 ---@return WidgetHudComponentInterface
-function WidgetHudComponentInterface.new(fields) return end
+function WidgetHudComponentInterface.new(fields) end
 
 ---@param entryName CName|string
 ---@return inkWidget
-function WidgetHudComponentInterface:GetWidget(entryName) return end
+function WidgetHudComponentInterface:GetWidget(entryName) end

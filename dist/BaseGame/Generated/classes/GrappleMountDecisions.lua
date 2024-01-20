@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class GrappleMountDecisions: LocomotionTakedownDecisions
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field stateMachineInitData LocomotionTakedownInitData
 GrappleMountDecisions = {}
 
 ---@param fields? GrappleMountDecisions
 ---@return GrappleMountDecisions
-function GrappleMountDecisions.new(fields) return end
+function GrappleMountDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleMountDecisions:EnterCondition(stateContext, scriptInterface) return end
+function GrappleMountDecisions:EnterCondition(stateContext, scriptInterface) end

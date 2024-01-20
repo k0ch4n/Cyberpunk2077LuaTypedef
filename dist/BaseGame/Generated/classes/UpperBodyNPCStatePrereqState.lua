@@ -5,4 +5,4 @@ UpperBodyNPCStatePrereqState = {}
 
 ---@param fields? UpperBodyNPCStatePrereqState
 ---@return UpperBodyNPCStatePrereqState
-function UpperBodyNPCStatePrereqState.new(fields) return end
+function UpperBodyNPCStatePrereqState.new(fields) end

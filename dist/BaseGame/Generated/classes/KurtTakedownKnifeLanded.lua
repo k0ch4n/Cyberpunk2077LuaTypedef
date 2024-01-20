@@ -5,14 +5,12 @@ KurtTakedownKnifeLanded = {}
 
 ---@param fields? KurtTakedownKnifeLanded
 ---@return KurtTakedownKnifeLanded
-function KurtTakedownKnifeLanded.new(fields) return end
+function KurtTakedownKnifeLanded.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function KurtTakedownKnifeLanded:Activate(context) return end
+function KurtTakedownKnifeLanded:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function KurtTakedownKnifeLanded:Check(context) return end
+function KurtTakedownKnifeLanded:Check(context) end

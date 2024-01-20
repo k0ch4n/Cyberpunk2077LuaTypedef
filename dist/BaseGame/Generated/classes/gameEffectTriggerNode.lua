@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameEffectTriggerNode: worldAreaShapeNode
----@field public effectDescs gameEffectTriggerEffectDesc[]
+---@field effectDescs gameEffectTriggerEffectDesc[]
 gameEffectTriggerNode = {}
 
 ---@param fields? gameEffectTriggerNode
 ---@return gameEffectTriggerNode
-function gameEffectTriggerNode.new(fields) return end
+function gameEffectTriggerNode.new(fields) end

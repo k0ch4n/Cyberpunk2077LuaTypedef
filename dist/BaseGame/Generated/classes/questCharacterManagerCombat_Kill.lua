@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class questCharacterManagerCombat_Kill: questICharacterManagerCombat_NodeSubType
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public noAnimation Bool
----@field public noRagdoll Bool
----@field public skipDefeatedState Bool
----@field public doDismemberment Bool
----@field public bodyPart physicsRagdollBodyPartE
----@field public woundType entdismembermentWoundTypeE
----@field public dismembermentStrenght Float
+---@field puppetRef gameEntityReference
+---@field isPlayer Bool
+---@field noAnimation Bool
+---@field noRagdoll Bool
+---@field skipDefeatedState Bool
+---@field doDismemberment Bool
+---@field bodyPart physicsRagdollBodyPartE
+---@field woundType entdismembermentWoundTypeE
+---@field dismembermentStrenght Float
 questCharacterManagerCombat_Kill = {}
 
 ---@param fields? questCharacterManagerCombat_Kill
 ---@return questCharacterManagerCombat_Kill
-function questCharacterManagerCombat_Kill.new(fields) return end
+function questCharacterManagerCombat_Kill.new(fields) end

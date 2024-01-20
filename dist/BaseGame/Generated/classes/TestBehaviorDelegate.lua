@@ -1,37 +1,37 @@
 ---@meta
 
 ---@class TestBehaviorDelegate: AIbehaviorScriptBehaviorDelegate
----@field public integer Int32
----@field public floatValue Float
----@field public names CName[]
----@field public command AICommand
----@field public newProperty2 Bool
----@field public newProperty Bool
----@field public newProperty3 Bool
----@field public newProperty4 Bool
----@field public nodeRef NodeRef
+---@field integer Int32
+---@field floatValue Float
+---@field names CName[]
+---@field command AICommand
+---@field newProperty2 Bool
+---@field newProperty Bool
+---@field newProperty3 Bool
+---@field newProperty4 Bool
+---@field nodeRef NodeRef
 TestBehaviorDelegate = {}
 
 ---@param fields? TestBehaviorDelegate
 ---@return TestBehaviorDelegate
-function TestBehaviorDelegate.new(fields) return end
+function TestBehaviorDelegate.new(fields) end
 
 ---@return CName
-function TestBehaviorDelegate:GetGetterValue() return end
+function TestBehaviorDelegate:GetGetterValue() end
 
 ---@return NodeRef
-function TestBehaviorDelegate:GetSomethingElse() return end
+function TestBehaviorDelegate:GetSomethingElse() end
 
 ---@return Bool
-function TestBehaviorDelegate:IsSomething() return end
+function TestBehaviorDelegate:IsSomething() end
 
 ---@return Bool
-function TestBehaviorDelegate:TaskBar() return end
+function TestBehaviorDelegate:TaskBar() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TestBehaviorDelegate:TaskFoo(context) return end
+function TestBehaviorDelegate:TaskFoo(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TestBehaviorDelegate:TestTask(context) return end
+function TestBehaviorDelegate:TestTask(context) end

@@ -5,4 +5,4 @@ gameSimpleSpecificStatListener = {}
 
 ---@param fields? gameSimpleSpecificStatListener
 ---@return gameSimpleSpecificStatListener
-function gameSimpleSpecificStatListener.new(fields) return end
+function gameSimpleSpecificStatListener.new(fields) end

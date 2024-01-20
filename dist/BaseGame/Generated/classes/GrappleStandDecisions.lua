@@ -1,45 +1,39 @@
 ---@meta
 
 ---@class GrappleStandDecisions: LocomotionTakedownDecisions
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field stateMachineInitData LocomotionTakedownInitData
 GrappleStandDecisions = {}
 
 ---@param fields? GrappleStandDecisions
 ---@return GrappleStandDecisions
-function GrappleStandDecisions.new(fields) return end
+function GrappleStandDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleStandDecisions:IsBreakingFreeAllowed(stateContext, scriptInterface) return end
+function GrappleStandDecisions:IsBreakingFreeAllowed(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleStandDecisions:ToGrappleBreakFree(stateContext, scriptInterface) return end
+function GrappleStandDecisions:ToGrappleBreakFree(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleStandDecisions:ToGrappleStruggle(stateContext, scriptInterface) return end
+function GrappleStandDecisions:ToGrappleStruggle(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleStandDecisions:ToTakedownExecuteTakedown(stateContext, scriptInterface) return end
+function GrappleStandDecisions:ToTakedownExecuteTakedown(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleStandDecisions:ToTakedownExecuteTakedownAndDispose(stateContext, scriptInterface) return end
+function GrappleStandDecisions:ToTakedownExecuteTakedownAndDispose(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleStandDecisions:ToTakedownUnmountPrey(stateContext, scriptInterface) return end
+function GrappleStandDecisions:ToTakedownUnmountPrey(stateContext, scriptInterface) end

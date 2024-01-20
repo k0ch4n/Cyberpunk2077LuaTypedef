@@ -1,123 +1,101 @@
 ---@meta
 
 ---@class BasicDistractionDevice: InteractiveDevice
----@field protected animFeatureDataDistractor AnimFeature_DistractionState
----@field protected animFeatureDataNameDistractor CName
----@field protected distractionComponentSwapNamesToON CName[]
----@field protected distractionComponentSwapNamesToOFF CName[]
----@field private distractionComponentON entIPlacedComponent[]
----@field private distractionComponentOFF entIPlacedComponent[]
----@field protected meshAppearanceNameON CName
----@field protected meshAppearanceNameOFF CName
+---@field animFeatureDataDistractor AnimFeature_DistractionState
+---@field animFeatureDataNameDistractor CName
+---@field distractionComponentSwapNamesToON CName[]
+---@field distractionComponentSwapNamesToOFF CName[]
+---@field distractionComponentON entIPlacedComponent[]
+---@field distractionComponentOFF entIPlacedComponent[]
+---@field meshAppearanceNameON CName
+---@field meshAppearanceNameOFF CName
 BasicDistractionDevice = {}
 
 ---@param fields? BasicDistractionDevice
 ---@return BasicDistractionDevice
-function BasicDistractionDevice.new(fields) return end
+function BasicDistractionDevice.new(fields) end
 
----@protected
 ---@return Bool
-function BasicDistractionDevice:OnDetach() return end
+function BasicDistractionDevice:OnDetach() end
 
----@protected
 ---@return Bool
-function BasicDistractionDevice:OnGameAttached() return end
+function BasicDistractionDevice:OnGameAttached() end
 
----@protected
 ---@param evt QuestStartGlitch
 ---@return Bool
-function BasicDistractionDevice:OnQuestStartGlitch(evt) return end
+function BasicDistractionDevice:OnQuestStartGlitch(evt) end
 
----@protected
 ---@param evt QuestStopGlitch
 ---@return Bool
-function BasicDistractionDevice:OnQuestStopGlitch(evt) return end
+function BasicDistractionDevice:OnQuestStopGlitch(evt) end
 
----@protected
 ---@param evt QuickHackDistraction
 ---@return Bool
-function BasicDistractionDevice:OnQuickHackDistraction(evt) return end
+function BasicDistractionDevice:OnQuickHackDistraction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function BasicDistractionDevice:OnRequestComponents(ri) return end
+function BasicDistractionDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SpiderbotDistractDevicePerformed
 ---@return Bool
-function BasicDistractionDevice:OnSpiderbotDistractDevicePerformed(evt) return end
+function BasicDistractionDevice:OnSpiderbotDistractDevicePerformed(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BasicDistractionDevice:OnTakeControl(ri) return end
+function BasicDistractionDevice:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function BasicDistractionDevice:DeterminGameplayRole() return end
+function BasicDistractionDevice:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function BasicDistractionDevice:EffectsOnStartPlay() return end
+function BasicDistractionDevice:EffectsOnStartPlay() end
 
----@protected
 ---@param shouldStop? Bool
 ---@return nil
-function BasicDistractionDevice:EffectsOnStartStop(shouldStop) return end
+function BasicDistractionDevice:EffectsOnStartStop(shouldStop) end
 
----@private
 ---@return BasicDistractionDeviceController
-function BasicDistractionDevice:GetController() return end
+function BasicDistractionDevice:GetController() end
 
 ---@return BasicDistractionDeviceControllerPS
-function BasicDistractionDevice:GetDevicePS() return end
+function BasicDistractionDevice:GetDevicePS() end
 
----@protected
 ---@param start Bool
 ---@return nil
-function BasicDistractionDevice:MeshSwapOnDistraction(start) return end
+function BasicDistractionDevice:MeshSwapOnDistraction(start) end
 
----@protected
 ---@return nil
-function BasicDistractionDevice:PlayAnimgraphTransformAnimation() return end
+function BasicDistractionDevice:PlayAnimgraphTransformAnimation() end
 
----@protected
 ---@param loop? Bool
 ---@return nil
-function BasicDistractionDevice:PlayDistractAnimation(loop) return end
+function BasicDistractionDevice:PlayDistractAnimation(loop) end
 
----@protected
 ---@param animationName CName|string
 ---@param loop? Bool
 ---@return nil
-function BasicDistractionDevice:PlayTransformAnimation(animationName, loop) return end
+function BasicDistractionDevice:PlayTransformAnimation(animationName, loop) end
 
----@protected
 ---@param loopAnimation? Bool
 ---@return nil
-function BasicDistractionDevice:StartDistraction(loopAnimation) return end
+function BasicDistractionDevice:StartDistraction(loopAnimation) end
 
----@protected
 ---@return nil
-function BasicDistractionDevice:StopAnimgraphTransformAnimation() return end
+function BasicDistractionDevice:StopAnimgraphTransformAnimation() end
 
----@protected
 ---@return nil
-function BasicDistractionDevice:StopDistractAnimation() return end
+function BasicDistractionDevice:StopDistractAnimation() end
 
----@protected
 ---@return nil
-function BasicDistractionDevice:StopDistraction() return end
+function BasicDistractionDevice:StopDistraction() end
 
----@protected
 ---@param animationName CName|string
 ---@return nil
-function BasicDistractionDevice:StopTransformDistractAnimation(animationName) return end
+function BasicDistractionDevice:StopTransformDistractAnimation(animationName) end
 
----@protected
 ---@return nil
-function BasicDistractionDevice:TurnOffDevice() return end
+function BasicDistractionDevice:TurnOffDevice() end
 
----@protected
 ---@return nil
-function BasicDistractionDevice:TurnOnDevice() return end
+function BasicDistractionDevice:TurnOnDevice() end

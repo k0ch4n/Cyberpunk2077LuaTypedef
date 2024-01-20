@@ -1,8 +1,8 @@
 ---@meta
 
 ---@class senseIShape: IScriptable
----@field public id TweakDBID
+---@field id TweakDBID
 senseIShape = {}
 
 ---@return senseEShapeType
-function senseIShape:GetType() return end
+function senseIShape:GetType() end

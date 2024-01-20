@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class DistanceCoveredHitPrereqCondition: BaseHitPrereqCondition
----@field public distanceRequired Float
----@field public comparisonType EComparisonType
+---@field distanceRequired Float
+---@field comparisonType EComparisonType
 DistanceCoveredHitPrereqCondition = {}
 
 ---@param fields? DistanceCoveredHitPrereqCondition
 ---@return DistanceCoveredHitPrereqCondition
-function DistanceCoveredHitPrereqCondition.new(fields) return end
+function DistanceCoveredHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function DistanceCoveredHitPrereqCondition:Evaluate(hitEvent) return end
+function DistanceCoveredHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function DistanceCoveredHitPrereqCondition:SetData(recordID) return end
+function DistanceCoveredHitPrereqCondition:SetData(recordID) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class EquipmentAreaCategory: IScriptable
----@field public parentCategory InventoryItemDisplayCategoryArea
----@field public areaDisplays EquipmentAreaDisplays[]
+---@field parentCategory InventoryItemDisplayCategoryArea
+---@field areaDisplays EquipmentAreaDisplays[]
 EquipmentAreaCategory = {}
 
 ---@param fields? EquipmentAreaCategory
 ---@return EquipmentAreaCategory
-function EquipmentAreaCategory.new(fields) return end
+function EquipmentAreaCategory.new(fields) end
 
 ---@return InventoryItemDisplayController[]
-function EquipmentAreaCategory:GetDisplays() return end
+function EquipmentAreaCategory:GetDisplays() end

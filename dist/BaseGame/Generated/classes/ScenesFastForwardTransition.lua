@@ -5,104 +5,87 @@ ScenesFastForwardTransition = {}
 
 ---@param owner gameObject
 ---@return nil
-function ScenesFastForwardTransition.DisplayFFButtonPrompt(owner) return end
+function ScenesFastForwardTransition.DisplayFFButtonPrompt(owner) end
 
 ---@param owner gameObject
 ---@return inkInputHintHoldIndicationType
-function ScenesFastForwardTransition.GetFFButtonType(owner) return end
+function ScenesFastForwardTransition.GetFFButtonType(owner) end
 
 ---@param owner gameObject
 ---@return nil
-function ScenesFastForwardTransition.HideFFButtonPrompt(owner) return end
+function ScenesFastForwardTransition.HideFFButtonPrompt(owner) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param mode scnFastForwardMode
 ---@return nil
-function ScenesFastForwardTransition:ActivateFastForward(scriptInterface, mode) return end
+function ScenesFastForwardTransition:ActivateFastForward(scriptInterface, mode) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ScenesFastForwardTransition:CleanupFastForward(stateContext, scriptInterface) return end
+function ScenesFastForwardTransition:CleanupFastForward(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ScenesFastForwardTransition:DeActivateFastForward(scriptInterface) return end
+function ScenesFastForwardTransition:DeActivateFastForward(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ScenesFastForwardTransition:DebugFastForwardInputValid(scriptInterface) return end
+function ScenesFastForwardTransition:DebugFastForwardInputValid(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ScenesFastForwardTransition:FastForwardInputValid(scriptInterface) return end
+function ScenesFastForwardTransition:FastForwardInputValid(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function ScenesFastForwardTransition:GetDebugFFConditionParam(stateContext) return end
+function ScenesFastForwardTransition:GetDebugFFConditionParam(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Int32
-function ScenesFastForwardTransition:GetFFSceneThrehsoldFromBraindanceSystem(scriptInterface) return end
+function ScenesFastForwardTransition:GetFFSceneThrehsoldFromBraindanceSystem(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ScenesFastForwardTransition:IsBlockedByPhoneCallRestriction(scriptInterface) return end
+function ScenesFastForwardTransition:IsBlockedByPhoneCallRestriction(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param mode scnFastForwardMode
 ---@return Bool
-function ScenesFastForwardTransition:IsFastForwardAvailable(scriptInterface, mode) return end
+function ScenesFastForwardTransition:IsFastForwardAvailable(scriptInterface, mode) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param mode scnFastForwardMode
 ---@return Bool
-function ScenesFastForwardTransition:IsFastForwardModeActive(scriptInterface, mode) return end
+function ScenesFastForwardTransition:IsFastForwardModeActive(scriptInterface, mode) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ScenesFastForwardTransition:IsLookingAtDialogueEntity(scriptInterface) return end
+function ScenesFastForwardTransition:IsLookingAtDialogueEntity(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ScenesFastForwardTransition:PhoneBBStateBlockingFF(scriptInterface) return end
+function ScenesFastForwardTransition:PhoneBBStateBlockingFF(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ScenesFastForwardTransition:ProcessHoldInputFastForwardLock(stateContext, scriptInterface) return end
+function ScenesFastForwardTransition:ProcessHoldInputFastForwardLock(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newVal Bool
 ---@return nil
-function ScenesFastForwardTransition:SetFastForwardActiveBB(scriptInterface, newVal) return end
+function ScenesFastForwardTransition:SetFastForwardActiveBB(scriptInterface, newVal) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newVal Bool
 ---@return nil
-function ScenesFastForwardTransition:SetFastForwardAvailableBB(scriptInterface, newVal) return end
+function ScenesFastForwardTransition:SetFastForwardAvailableBB(scriptInterface, newVal) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ScenesFastForwardTransition:StartGlitchFx(scriptInterface) return end
+function ScenesFastForwardTransition:StartGlitchFx(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ScenesFastForwardTransition:StopGlitchFx(scriptInterface) return end
+function ScenesFastForwardTransition:StopGlitchFx(scriptInterface) end

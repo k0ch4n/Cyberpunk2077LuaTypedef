@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class ScannerVulnerabilities: ScannerChunk
----@field private vulnerabilities Vulnerability[]
+---@field vulnerabilities Vulnerability[]
 ScannerVulnerabilities = {}
 
 ---@param fields? ScannerVulnerabilities
 ---@return ScannerVulnerabilities
-function ScannerVulnerabilities.new(fields) return end
+function ScannerVulnerabilities.new(fields) end
 
 ---@return ScannerDataType
-function ScannerVulnerabilities:GetType() return end
+function ScannerVulnerabilities:GetType() end
 
 ---@return Vulnerability[]
-function ScannerVulnerabilities:GetVulnerabilities() return end
+function ScannerVulnerabilities:GetVulnerabilities() end
 
 ---@return Bool
-function ScannerVulnerabilities:IsValid() return end
+function ScannerVulnerabilities:IsValid() end
 
 ---@param vuln Vulnerability
 ---@return nil
-function ScannerVulnerabilities:PushBack(vuln) return end
+function ScannerVulnerabilities:PushBack(vuln) end
 
 ---@param vuln Vulnerability[]
 ---@return nil
-function ScannerVulnerabilities:Set(vuln) return end
+function ScannerVulnerabilities:Set(vuln) end

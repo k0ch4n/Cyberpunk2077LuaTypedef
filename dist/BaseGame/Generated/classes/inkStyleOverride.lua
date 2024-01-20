@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkStyleOverride
----@field public overrideType inkStyleOverrideType
----@field public styleResource inkStyleResource
+---@field overrideType inkStyleOverrideType
+---@field styleResource inkStyleResource
 inkStyleOverride = {}
 
 ---@param fields? inkStyleOverride
 ---@return inkStyleOverride
-function inkStyleOverride.new(fields) return end
+function inkStyleOverride.new(fields) end

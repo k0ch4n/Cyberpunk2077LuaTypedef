@@ -4,13 +4,13 @@
 gamePersistentState = {}
 
 ---@return nil
-function gamePersistentState:ForcePersistentStateChanged() return end
+function gamePersistentState:ForcePersistentStateChanged() end
 
 ---@return ScriptGameInstance
-function gamePersistentState:GetGameInstance() return end
+function gamePersistentState:GetGameInstance() end
 
 ---@return gamePersistentID
-function gamePersistentState:GetID() return end
+function gamePersistentState:GetID() end
 
 ---@return gamePersistencySystem
-function gamePersistentState:GetPersistencySystem() return end
+function gamePersistentState:GetPersistencySystem() end

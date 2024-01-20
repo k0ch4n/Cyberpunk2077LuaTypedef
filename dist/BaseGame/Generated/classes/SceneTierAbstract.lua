@@ -3,11 +3,9 @@
 ---@class SceneTierAbstract: HighLevelTransition
 SceneTierAbstract = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return GameplayTier
-function SceneTierAbstract:GetCurrentSceneTier(stateContext) return end
+function SceneTierAbstract:GetCurrentSceneTier(stateContext) end
 
----@protected
 ---@return GameplayTier
-function SceneTierAbstract:SceneTierToEnter() return end
+function SceneTierAbstract:SceneTierToEnter() end

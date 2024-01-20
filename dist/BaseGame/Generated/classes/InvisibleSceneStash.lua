@@ -5,47 +5,39 @@ InvisibleSceneStash = {}
 
 ---@param fields? InvisibleSceneStash
 ---@return InvisibleSceneStash
-function InvisibleSceneStash.new(fields) return end
+function InvisibleSceneStash.new(fields) end
 
----@protected
 ---@param evt DressPlayer
 ---@return Bool
-function InvisibleSceneStash:OnQuestDressPlayer(evt) return end
+function InvisibleSceneStash:OnQuestDressPlayer(evt) end
 
----@protected
 ---@param evt UndressPlayer
 ---@return Bool
-function InvisibleSceneStash:OnQuestUndressPlayer(evt) return end
+function InvisibleSceneStash:OnQuestUndressPlayer(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function InvisibleSceneStash:OnTakeControl(ri) return end
+function InvisibleSceneStash:OnTakeControl(ri) end
 
----@private
 ---@param player PlayerPuppet
 ---@param item gameItemID
 ---@return gameEquipRequest
-function InvisibleSceneStash:CreateEquipRequest(player, item) return end
+function InvisibleSceneStash:CreateEquipRequest(player, item) end
 
----@private
 ---@param player PlayerPuppet
 ---@param area gamedataEquipmentArea
 ---@return UnequipRequest
-function InvisibleSceneStash:CreateUnequipRequest(player, area) return end
+function InvisibleSceneStash:CreateUnequipRequest(player, area) end
 
----@private
 ---@return InvisibleSceneStashController
-function InvisibleSceneStash:GetController() return end
+function InvisibleSceneStash:GetController() end
 
 ---@return InvisibleSceneStashControllerPS
-function InvisibleSceneStash:GetDevicePS() return end
+function InvisibleSceneStash:GetDevicePS() end
 
----@private
 ---@return EquipmentSystem
-function InvisibleSceneStash:GetEquipmentSystem() return end
+function InvisibleSceneStash:GetEquipmentSystem() end
 
----@private
 ---@param censored Bool
 ---@return gamedataEquipmentArea[]
-function InvisibleSceneStash:GetSlots(censored) return end
+function InvisibleSceneStash:GetSlots(censored) end

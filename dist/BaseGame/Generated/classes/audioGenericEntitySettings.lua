@@ -5,4 +5,4 @@ audioGenericEntitySettings = {}
 
 ---@param fields? audioGenericEntitySettings
 ---@return audioGenericEntitySettings
-function audioGenericEntitySettings.new(fields) return end
+function audioGenericEntitySettings.new(fields) end

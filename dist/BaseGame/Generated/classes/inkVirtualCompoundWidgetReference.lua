@@ -5,4 +5,4 @@ inkVirtualCompoundWidgetReference = {}
 
 ---@param fields? inkVirtualCompoundWidgetReference
 ---@return inkVirtualCompoundWidgetReference
-function inkVirtualCompoundWidgetReference.new(fields) return end
+function inkVirtualCompoundWidgetReference.new(fields) end

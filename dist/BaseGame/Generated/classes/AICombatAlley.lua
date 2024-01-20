@@ -5,27 +5,27 @@ AICombatAlley = {}
 
 ---@param fields? AICombatAlley
 ---@return AICombatAlley
-function AICombatAlley.new(fields) return end
+function AICombatAlley.new(fields) end
 
 ---@param sector AICombatSectorType
 ---@return entEntity
-function AICombatAlley:GetClosestMemberFromSector(sector) return end
+function AICombatAlley:GetClosestMemberFromSector(sector) end
 
 ---@param sector AICombatSectorType
 ---@param pos Vector4
 ---@return Float
-function AICombatAlley:GetDistanceFromSector(sector, pos) return end
+function AICombatAlley:GetDistanceFromSector(sector, pos) end
 
 ---@param sector AICombatSectorType
 ---@return entEntity
-function AICombatAlley:GetFurtherstMemberFromSector(sector) return end
+function AICombatAlley:GetFurtherstMemberFromSector(sector) end
 
 ---@return Vector4
-function AICombatAlley:GetReferencePoint() return end
+function AICombatAlley:GetReferencePoint() end
 
 ---@param pos Vector4
 ---@return AICombatSectorType
-function AICombatAlley:GetSector(pos) return end
+function AICombatAlley:GetSector(pos) end
 
 ---@return Vector4
-function AICombatAlley:GetTargetPoint() return end
+function AICombatAlley:GetTargetPoint() end

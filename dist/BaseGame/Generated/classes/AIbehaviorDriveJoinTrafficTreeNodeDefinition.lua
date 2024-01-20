@@ -5,4 +5,4 @@ AIbehaviorDriveJoinTrafficTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDriveJoinTrafficTreeNodeDefinition
 ---@return AIbehaviorDriveJoinTrafficTreeNodeDefinition
-function AIbehaviorDriveJoinTrafficTreeNodeDefinition.new(fields) return end
+function AIbehaviorDriveJoinTrafficTreeNodeDefinition.new(fields) end

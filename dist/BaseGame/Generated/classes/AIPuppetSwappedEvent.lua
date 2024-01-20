@@ -5,4 +5,4 @@ AIPuppetSwappedEvent = {}
 
 ---@param fields? AIPuppetSwappedEvent
 ---@return AIPuppetSwappedEvent
-function AIPuppetSwappedEvent.new(fields) return end
+function AIPuppetSwappedEvent.new(fields) end

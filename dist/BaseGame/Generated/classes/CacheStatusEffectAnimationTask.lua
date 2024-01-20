@@ -5,20 +5,17 @@ CacheStatusEffectAnimationTask = {}
 
 ---@param fields? CacheStatusEffectAnimationTask
 ---@return CacheStatusEffectAnimationTask
-function CacheStatusEffectAnimationTask.new(fields) return end
+function CacheStatusEffectAnimationTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CacheStatusEffectAnimationTask:Activate(context) return end
+function CacheStatusEffectAnimationTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CacheStatusEffectAnimationTask:Deactivate(context) return end
+function CacheStatusEffectAnimationTask:Deactivate(context) end
 
----@protected
 ---@param puppet NPCPuppet
 ---@param removeCachedStatusEffect Bool
 ---@return nil
-function CacheStatusEffectAnimationTask:QueueStatusEffectAnimEvent(puppet, removeCachedStatusEffect) return end
+function CacheStatusEffectAnimationTask:QueueStatusEffectAnimEvent(puppet, removeCachedStatusEffect) end

@@ -5,4 +5,4 @@ gameuiAttachmentSlotsListener = {}
 
 ---@param fields? gameuiAttachmentSlotsListener
 ---@return gameuiAttachmentSlotsListener
-function gameuiAttachmentSlotsListener.new(fields) return end
+function gameuiAttachmentSlotsListener.new(fields) end

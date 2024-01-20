@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldSharedDataBuffer: ISerializable
----@field public buffer DataBuffer
+---@field buffer DataBuffer
 worldSharedDataBuffer = {}
 
 ---@param fields? worldSharedDataBuffer
 ---@return worldSharedDataBuffer
-function worldSharedDataBuffer.new(fields) return end
+function worldSharedDataBuffer.new(fields) end

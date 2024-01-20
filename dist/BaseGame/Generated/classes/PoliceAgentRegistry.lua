@@ -1,128 +1,128 @@
 ---@meta
 
 ---@class PoliceAgentRegistry: IScriptable
----@field private game ScriptGameInstance
----@field private vehicleAgents VehicleAgent[]
----@field private npcAgents NPCAgent[]
----@field private requestTickets TicketData[]
+---@field game ScriptGameInstance
+---@field vehicleAgents VehicleAgent[]
+---@field npcAgents NPCAgent[]
+---@field requestTickets TicketData[]
 PoliceAgentRegistry = {}
 
 ---@param fields? PoliceAgentRegistry
 ---@return PoliceAgentRegistry
-function PoliceAgentRegistry.new(fields) return end
+function PoliceAgentRegistry.new(fields) end
 
 ---@return PoliceAgentRegistry
-function PoliceAgentRegistry.Construct() return end
+function PoliceAgentRegistry.Construct() end
 
 ---@param id entEntityID
 ---@return Bool
-function PoliceAgentRegistry:Contains(id) return end
+function PoliceAgentRegistry:Contains(id) end
 
 ---@param request Uint32
 ---@param strategy vehiclePoliceStrategy
 ---@param isFallback? Bool
 ---@return nil
-function PoliceAgentRegistry:CreateTicket(request, strategy, isFallback) return end
+function PoliceAgentRegistry:CreateTicket(request, strategy, isFallback) end
 
 ---@param positionToCheck Vector4
 ---@return Float
-function PoliceAgentRegistry:DistanceSquaredToTClosestMaxTacAgent(positionToCheck) return end
+function PoliceAgentRegistry:DistanceSquaredToTClosestMaxTacAgent(positionToCheck) end
 
 ---@return Int32
-function PoliceAgentRegistry:GetAvCount() return end
+function PoliceAgentRegistry:GetAvCount() end
 
 ---@return Bool, VehicleAgent[] vehicleArray
-function PoliceAgentRegistry:GetEngagedNotDisengagingVehicleList() return end
+function PoliceAgentRegistry:GetEngagedNotDisengagingVehicleList() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetEngagedVehicleCount() return end
+function PoliceAgentRegistry:GetEngagedVehicleCount() end
 
 ---@return VehicleAgent[]
-function PoliceAgentRegistry:GetEngagedVehicleList() return end
+function PoliceAgentRegistry:GetEngagedVehicleList() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetExternalNPCCount() return end
+function PoliceAgentRegistry:GetExternalNPCCount() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetFallbackNPCCount() return end
+function PoliceAgentRegistry:GetFallbackNPCCount() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetMaxTacNPCCount() return end
+function PoliceAgentRegistry:GetMaxTacNPCCount() end
 
 ---@return NPCAgent[]
-function PoliceAgentRegistry:GetMaxTacNPCList() return end
+function PoliceAgentRegistry:GetMaxTacNPCList() end
 
 ---@return NPCAgent[]
-function PoliceAgentRegistry:GetNPCList() return end
+function PoliceAgentRegistry:GetNPCList() end
 
 ---@param id entEntityID
 ---@return gameDynamicVehicleType
-function PoliceAgentRegistry:GetNPCSpawnedType(id) return end
+function PoliceAgentRegistry:GetNPCSpawnedType(id) end
 
 ---@param vehicleEntityId entEntityID
 ---@param toFill NPCAgent[]
 ---@return nil
-function PoliceAgentRegistry:GetNPCsAssignedToVehicle(vehicleEntityId, toFill) return end
+function PoliceAgentRegistry:GetNPCsAssignedToVehicle(vehicleEntityId, toFill) end
 
 ---@return Int32
-function PoliceAgentRegistry:GetPendingFallbackOnFootTicketCount() return end
+function PoliceAgentRegistry:GetPendingFallbackOnFootTicketCount() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetPendingVehicleTicketsCount() return end
+function PoliceAgentRegistry:GetPendingVehicleTicketsCount() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetRoadblockCount() return end
+function PoliceAgentRegistry:GetRoadblockCount() end
 
 ---@return NPCAgent[]
-function PoliceAgentRegistry:GetRoadblockNPCList() return end
+function PoliceAgentRegistry:GetRoadblockNPCList() end
 
 ---@return VehicleAgent[]
-function PoliceAgentRegistry:GetRoadblockVehicleList() return end
+function PoliceAgentRegistry:GetRoadblockVehicleList() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetSupportVehicleCount() return end
+function PoliceAgentRegistry:GetSupportVehicleCount() end
 
 ---@return VehicleAgent[]
-function PoliceAgentRegistry:GetSupportVehicleList() return end
+function PoliceAgentRegistry:GetSupportVehicleList() end
 
 ---@param strategy vehiclePoliceStrategy
 ---@return Int32
-function PoliceAgentRegistry:GetSupportVehiclesWithStrategyCount(strategy) return end
+function PoliceAgentRegistry:GetSupportVehiclesWithStrategyCount(strategy) end
 
 ---@return Int32
-function PoliceAgentRegistry:GetTotalNPCCount() return end
+function PoliceAgentRegistry:GetTotalNPCCount() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetTotalPendingTicketsCount() return end
+function PoliceAgentRegistry:GetTotalPendingTicketsCount() end
 
 ---@return Int32
-function PoliceAgentRegistry:GetTotalVehicleCount() return end
+function PoliceAgentRegistry:GetTotalVehicleCount() end
 
 ---@return VehicleAgent[]
-function PoliceAgentRegistry:GetVehicleList() return end
+function PoliceAgentRegistry:GetVehicleList() end
 
 ---@param toFill VehicleAgent[]
 ---@return nil
-function PoliceAgentRegistry:GetVehiclesWithoutRegisteredPassengers(toFill) return end
+function PoliceAgentRegistry:GetVehiclesWithoutRegisteredPassengers(toFill) end
 
 ---@param id entEntityID
 ---@return Bool
-function PoliceAgentRegistry:HasNPCBeenAttackedByPlayer(id) return end
+function PoliceAgentRegistry:HasNPCBeenAttackedByPlayer(id) end
 
 ---@return Bool
-function PoliceAgentRegistry:HasPoliceRecentlyDeescalated() return end
+function PoliceAgentRegistry:HasPoliceRecentlyDeescalated() end
 
 ---@return Bool
-function PoliceAgentRegistry:IsPoliceInCombatWithPalyer() return end
+function PoliceAgentRegistry:IsPoliceInCombatWithPalyer() end
 
 ---@param puppet gamePuppet
 ---@return Bool
-function PoliceAgentRegistry:IsPreventionMaxTac(puppet) return end
+function PoliceAgentRegistry:IsPreventionMaxTac(puppet) end
 
 ---@param request Uint32
 ---@param ticketData? TicketData
 ---@return Bool
-function PoliceAgentRegistry:PopRequestTicket(request, ticketData) return end
+function PoliceAgentRegistry:PopRequestTicket(request, ticketData) end
 
 ---@param unit gameObject
 ---@param type gameDynamicVehicleType
@@ -130,44 +130,41 @@ function PoliceAgentRegistry:PopRequestTicket(request, ticketData) return end
 ---@param isFallback? Bool
 ---@param overrideExisting Bool
 ---@return Bool
-function PoliceAgentRegistry:RegisterAgent(unit, type, strategy, isFallback, overrideExisting) return end
+function PoliceAgentRegistry:RegisterAgent(unit, type, strategy, isFallback, overrideExisting) end
 
----@private
 ---@param id entEntityID
 ---@param index? Int32
 ---@return Bool
-function PoliceAgentRegistry:TryGetIndexOf_NPC(id, index) return end
+function PoliceAgentRegistry:TryGetIndexOf_NPC(id, index) end
 
----@private
 ---@param id Uint32
 ---@param index? Int32
 ---@return Bool
-function PoliceAgentRegistry:TryGetIndexOf_Ticket(id, index) return end
+function PoliceAgentRegistry:TryGetIndexOf_Ticket(id, index) end
 
----@private
 ---@param id entEntityID
 ---@param index? Int32
 ---@return Bool
-function PoliceAgentRegistry:TryGetIndexOf_Vehicle(id, index) return end
+function PoliceAgentRegistry:TryGetIndexOf_Vehicle(id, index) end
 
 ---@param id entEntityID
 ---@param agent NPCAgent
 ---@return Bool
-function PoliceAgentRegistry:TryGetNPCAgentByID(id, agent) return end
+function PoliceAgentRegistry:TryGetNPCAgentByID(id, agent) end
 
 ---@param id entEntityID
 ---@param agent VehicleAgent
 ---@return Bool
-function PoliceAgentRegistry:TryGetVehicleAgentByID(id, agent) return end
+function PoliceAgentRegistry:TryGetVehicleAgentByID(id, agent) end
 
 ---@param id entEntityID
 ---@return UnregisterResult
-function PoliceAgentRegistry:UnregisterAgent(id) return end
+function PoliceAgentRegistry:UnregisterAgent(id) end
 
 ---@return nil
-function PoliceAgentRegistry:UnregisterAll() return end
+function PoliceAgentRegistry:UnregisterAll() end
 
 ---@param vehicleID entEntityID
 ---@param passengers Int32
 ---@return nil
-function PoliceAgentRegistry:UpdateVehiclePassengerCount(vehicleID, passengers) return end
+function PoliceAgentRegistry:UpdateVehiclePassengerCount(vehicleID, passengers) end

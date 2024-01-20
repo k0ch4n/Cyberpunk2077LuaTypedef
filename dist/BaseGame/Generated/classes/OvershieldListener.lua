@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class OvershieldListener: gameScriptStatPoolsListener
----@field private healthBar gameuiHudHealthbarGameController
+---@field healthBar gameuiHudHealthbarGameController
 OvershieldListener = {}
 
 ---@param fields? OvershieldListener
 ---@return OvershieldListener
-function OvershieldListener.new(fields) return end
+function OvershieldListener.new(fields) end
 
 ---@param bar gameuiHudHealthbarGameController
 ---@return nil
-function OvershieldListener:BindHelathBar(bar) return end
+function OvershieldListener:BindHelathBar(bar) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function OvershieldListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function OvershieldListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end

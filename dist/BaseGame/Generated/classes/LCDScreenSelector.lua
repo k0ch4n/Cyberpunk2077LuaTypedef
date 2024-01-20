@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class LCDScreenSelector: inkTweakDBIDSelector
----@field protected customMessageID TweakDBID
----@field protected replaceTextWithCustomNumber Bool
----@field protected customNumber Int32
+---@field customMessageID TweakDBID
+---@field replaceTextWithCustomNumber Bool
+---@field customNumber Int32
 LCDScreenSelector = {}
 
 ---@return TweakDBID
-function LCDScreenSelector:GetCustomMessageID() return end
+function LCDScreenSelector:GetCustomMessageID() end
 
 ---@return Int32
-function LCDScreenSelector:GetCustomNumber() return end
+function LCDScreenSelector:GetCustomNumber() end
 
 ---@return Bool
-function LCDScreenSelector:HasCustomNumber() return end
+function LCDScreenSelector:HasCustomNumber() end

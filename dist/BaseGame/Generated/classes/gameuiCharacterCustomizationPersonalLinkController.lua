@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationPersonalLinkController: gameuiICharacterCustomizationComponent
----@field public simpleLinkGroup CName
+---@field simpleLinkGroup CName
 gameuiCharacterCustomizationPersonalLinkController = {}
 
 ---@param fields? gameuiCharacterCustomizationPersonalLinkController
 ---@return gameuiCharacterCustomizationPersonalLinkController
-function gameuiCharacterCustomizationPersonalLinkController.new(fields) return end
+function gameuiCharacterCustomizationPersonalLinkController.new(fields) end

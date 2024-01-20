@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameAttachmentSlotData
----@field public slotID TweakDBID
----@field public itemObject gameItemObject
----@field public activeItemID gameItemID
----@field public prevItemID gameItemID
----@field public appearanceItemID gameItemID
+---@field slotID TweakDBID
+---@field itemObject gameItemObject
+---@field activeItemID gameItemID
+---@field prevItemID gameItemID
+---@field appearanceItemID gameItemID
 gameAttachmentSlotData = {}
 
 ---@param fields? gameAttachmentSlotData
 ---@return gameAttachmentSlotData
-function gameAttachmentSlotData.new(fields) return end
+function gameAttachmentSlotData.new(fields) end

@@ -5,7 +5,7 @@ ConfessionBoothController = {}
 
 ---@param fields? ConfessionBoothController
 ---@return ConfessionBoothController
-function ConfessionBoothController.new(fields) return end
+function ConfessionBoothController.new(fields) end
 
 ---@return ConfessionBoothControllerPS
-function ConfessionBoothController:GetPS() return end
+function ConfessionBoothController:GetPS() end

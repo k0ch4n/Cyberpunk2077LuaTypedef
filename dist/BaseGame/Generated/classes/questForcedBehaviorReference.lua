@@ -5,4 +5,4 @@ questForcedBehaviorReference = {}
 
 ---@param fields? questForcedBehaviorReference
 ---@return questForcedBehaviorReference
-function questForcedBehaviorReference.new(fields) return end
+function questForcedBehaviorReference.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldAIDirectorSpawnNode: worldNode
----@field public tags redTagList
+---@field tags redTagList
 worldAIDirectorSpawnNode = {}
 
 ---@param fields? worldAIDirectorSpawnNode
 ---@return worldAIDirectorSpawnNode
-function worldAIDirectorSpawnNode.new(fields) return end
+function worldAIDirectorSpawnNode.new(fields) end

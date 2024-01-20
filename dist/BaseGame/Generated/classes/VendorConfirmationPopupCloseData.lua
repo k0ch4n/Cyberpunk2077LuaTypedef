@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VendorConfirmationPopupCloseData: inkGameNotificationData
----@field public confirm Bool
----@field public itemData gameInventoryItemData
----@field public inventoryItem UIInventoryItem
----@field public quantity Int32
----@field public type VendorConfirmationPopupType
+---@field confirm Bool
+---@field itemData gameInventoryItemData
+---@field inventoryItem UIInventoryItem
+---@field quantity Int32
+---@field type VendorConfirmationPopupType
 VendorConfirmationPopupCloseData = {}
 
 ---@param fields? VendorConfirmationPopupCloseData
 ---@return VendorConfirmationPopupCloseData
-function VendorConfirmationPopupCloseData.new(fields) return end
+function VendorConfirmationPopupCloseData.new(fields) end

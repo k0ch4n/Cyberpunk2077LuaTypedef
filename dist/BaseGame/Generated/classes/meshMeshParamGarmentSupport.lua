@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class meshMeshParamGarmentSupport: meshMeshParameter
----@field public chunkCapVertices Uint32[][]
----@field public customMorph Bool
+---@field chunkCapVertices Uint32[][]
+---@field customMorph Bool
 meshMeshParamGarmentSupport = {}
 
 ---@param fields? meshMeshParamGarmentSupport
 ---@return meshMeshParamGarmentSupport
-function meshMeshParamGarmentSupport.new(fields) return end
+function meshMeshParamGarmentSupport.new(fields) end

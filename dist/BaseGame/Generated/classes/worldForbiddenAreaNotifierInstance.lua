@@ -5,4 +5,4 @@ worldForbiddenAreaNotifierInstance = {}
 
 ---@param fields? worldForbiddenAreaNotifierInstance
 ---@return worldForbiddenAreaNotifierInstance
-function worldForbiddenAreaNotifierInstance.new(fields) return end
+function worldForbiddenAreaNotifierInstance.new(fields) end

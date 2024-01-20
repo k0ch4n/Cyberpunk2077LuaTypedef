@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PerksMenuAttributeItemHoverOut: redEvent
----@field public widget inkWidget
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
+---@field widget inkWidget
+---@field attributeType PerkMenuAttribute
+---@field attributeData AttributeData
 PerksMenuAttributeItemHoverOut = {}
 
 ---@param fields? PerksMenuAttributeItemHoverOut
 ---@return PerksMenuAttributeItemHoverOut
-function PerksMenuAttributeItemHoverOut.new(fields) return end
+function PerksMenuAttributeItemHoverOut.new(fields) end

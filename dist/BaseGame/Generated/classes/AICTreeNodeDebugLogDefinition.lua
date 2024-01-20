@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AICTreeNodeDebugLogDefinition: AICTreeExtendableNodeDefinition
----@field public text String
----@field public timeOnScreen Float
----@field public useVisualDebug Bool
+---@field text String
+---@field timeOnScreen Float
+---@field useVisualDebug Bool
 AICTreeNodeDebugLogDefinition = {}
 
 ---@param fields? AICTreeNodeDebugLogDefinition
 ---@return AICTreeNodeDebugLogDefinition
-function AICTreeNodeDebugLogDefinition.new(fields) return end
+function AICTreeNodeDebugLogDefinition.new(fields) end

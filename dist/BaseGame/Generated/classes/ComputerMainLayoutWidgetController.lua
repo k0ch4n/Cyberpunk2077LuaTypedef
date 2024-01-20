@@ -1,389 +1,362 @@
 ---@meta
 
 ---@class ComputerMainLayoutWidgetController: inkWidgetLogicController
----@field protected screenSaverSlot inkWidgetReference
----@field protected wallpaperSlot inkWidgetReference
----@field protected menuButtonList inkWidgetReference
----@field protected menuContainer inkWidgetReference
----@field protected internetContainer inkWidgetReference
----@field protected offButton inkWidgetReference
----@field protected windowCloseButton inkWidgetReference
----@field protected windowContainer inkWidgetReference
----@field protected windowHeader inkTextWidgetReference
----@field protected menuMailsID TweakDBID
----@field protected menuFilesID TweakDBID
----@field protected menuNewsFeedID TweakDBID
----@field protected menuMainID TweakDBID
----@field protected internetBrowserID TweakDBID
----@field protected screenSaverID TweakDBID
----@field protected wallpaperID TweakDBID
----@field protected windowCloseAanimation CName
----@field protected windowOpenAanimation CName
----@field protected currentScreenSaverLibraryID CName
----@field protected currentWallpaperLibraryID CName
----@field private computerMenuButtonWidgetsData SComputerMenuButtonWidgetPackage[]
----@field protected mailsMenu inkWidget
----@field protected filesMenu inkWidget
----@field protected devicesMenu inkWidget
----@field protected newsFeedMenu inkWidget
----@field protected internetData inkWidget
----@field protected mainMenu inkWidget
----@field protected screenSaver inkWidget
----@field protected wallpaper inkWidget
----@field protected isInitialized Bool
----@field private devicesMenuInitialized Bool
----@field private isWindowOpened Bool
----@field private activeWindowID String
----@field private menuToOpen EComputerMenuType
+---@field screenSaverSlot inkWidgetReference
+---@field wallpaperSlot inkWidgetReference
+---@field menuButtonList inkWidgetReference
+---@field menuContainer inkWidgetReference
+---@field internetContainer inkWidgetReference
+---@field offButton inkWidgetReference
+---@field windowCloseButton inkWidgetReference
+---@field windowContainer inkWidgetReference
+---@field windowHeader inkTextWidgetReference
+---@field menuMailsID TweakDBID
+---@field menuFilesID TweakDBID
+---@field menuNewsFeedID TweakDBID
+---@field menuMainID TweakDBID
+---@field internetBrowserID TweakDBID
+---@field screenSaverID TweakDBID
+---@field wallpaperID TweakDBID
+---@field windowCloseAanimation CName
+---@field windowOpenAanimation CName
+---@field currentScreenSaverLibraryID CName
+---@field currentWallpaperLibraryID CName
+---@field computerMenuButtonWidgetsData SComputerMenuButtonWidgetPackage[]
+---@field mailsMenu inkWidget
+---@field filesMenu inkWidget
+---@field devicesMenu inkWidget
+---@field newsFeedMenu inkWidget
+---@field internetData inkWidget
+---@field mainMenu inkWidget
+---@field screenSaver inkWidget
+---@field wallpaper inkWidget
+---@field isInitialized Bool
+---@field devicesMenuInitialized Bool
+---@field isWindowOpened Bool
+---@field activeWindowID String
+---@field menuToOpen EComputerMenuType
 ComputerMainLayoutWidgetController = {}
 
 ---@param fields? ComputerMainLayoutWidgetController
 ---@return ComputerMainLayoutWidgetController
-function ComputerMainLayoutWidgetController.new(fields) return end
+function ComputerMainLayoutWidgetController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnFilesMenuSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnFilesMenuSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnInternetMenuSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnInternetMenuSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnMailsMenuSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnMailsMenuSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnMainMenuSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnMainMenuSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnMenuButtonWidgetSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnMenuButtonWidgetSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnNewsFeedMenuSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnNewsFeedMenuSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnScreenSaverSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnScreenSaverSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnWallpaperSpawned(widget, userData) return end
+function ComputerMainLayoutWidgetController:OnWallpaperSpawned(widget, userData) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnWindowClosed(e) return end
+function ComputerMainLayoutWidgetController:OnWindowClosed(e) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function ComputerMainLayoutWidgetController:OnWindowOpened(e) return end
+function ComputerMainLayoutWidgetController:OnWindowOpened(e) end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param gameController ComputerInkGameController
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:AddMenuButtonWidget(widget, widgetData, gameController) return end
+function ComputerMainLayoutWidgetController:AddMenuButtonWidget(widget, widgetData, gameController) end
 
----@protected
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param gameController ComputerInkGameController
 ---@return nil
-function ComputerMainLayoutWidgetController:AddMenuButtonWidgetData(widgetData, gameController) return end
+function ComputerMainLayoutWidgetController:AddMenuButtonWidgetData(widgetData, gameController) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:CreateMenuButtonWidget(gameController, parentWidget, widgetData) return end
+function ComputerMainLayoutWidgetController:CreateMenuButtonWidget(gameController, parentWidget, widgetData) end
 
----@protected
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@return nil
-function ComputerMainLayoutWidgetController:CreateMenuButtonWidgetAsync(gameController, parentWidget, widgetData) return end
+function ComputerMainLayoutWidgetController:CreateMenuButtonWidgetAsync(gameController, parentWidget, widgetData) end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:DeselectAllManuButtons() return end
+function ComputerMainLayoutWidgetController:DeselectAllManuButtons() end
 
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetDevicesMenuContainer() return end
+function ComputerMainLayoutWidgetController:GetDevicesMenuContainer() end
 
----@protected
 ---@return ComputerMenuWidgetController
-function ComputerMainLayoutWidgetController:GetFileMenuController() return end
+function ComputerMainLayoutWidgetController:GetFileMenuController() end
 
 ---@param adress SDocumentAdress
 ---@return ComputerDocumentThumbnailWidgetController
-function ComputerMainLayoutWidgetController:GetFileThumbnailController(adress) return end
+function ComputerMainLayoutWidgetController:GetFileThumbnailController(adress) end
 
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetFilesMenuContainer() return end
+function ComputerMainLayoutWidgetController:GetFilesMenuContainer() end
 
----@protected
 ---@return BrowserController
-function ComputerMainLayoutWidgetController:GetInternetController() return end
+function ComputerMainLayoutWidgetController:GetInternetController() end
 
----@protected
 ---@return ComputerMenuWidgetController
-function ComputerMainLayoutWidgetController:GetMailMenuController() return end
+function ComputerMainLayoutWidgetController:GetMailMenuController() end
 
 ---@param adress SDocumentAdress
 ---@return ComputerDocumentThumbnailWidgetController
-function ComputerMainLayoutWidgetController:GetMailThumbnailController(adress) return end
+function ComputerMainLayoutWidgetController:GetMailThumbnailController(adress) end
 
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetMailsMenuContainer() return end
+function ComputerMainLayoutWidgetController:GetMailsMenuContainer() end
 
----@protected
 ---@return ComputerMainMenuWidgetController
-function ComputerMainLayoutWidgetController:GetMainMenuController() return end
+function ComputerMainLayoutWidgetController:GetMainMenuController() end
 
----@protected
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param gameController ComputerInkGameController
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetMenuButtonWidget(widgetData, gameController) return end
+function ComputerMainLayoutWidgetController:GetMenuButtonWidget(widgetData, gameController) end
 
----@protected
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param gameController ComputerInkGameController
 ---@return Int32
-function ComputerMainLayoutWidgetController:GetMenuButtonWidgetDataIndex(widgetData, gameController) return end
+function ComputerMainLayoutWidgetController:GetMenuButtonWidgetDataIndex(widgetData, gameController) end
 
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetMenuContainer() return end
+function ComputerMainLayoutWidgetController:GetMenuContainer() end
 
----@protected
 ---@return NewsFeedMenuWidgetController
-function ComputerMainLayoutWidgetController:GetNewsFeedController() return end
+function ComputerMainLayoutWidgetController:GetNewsFeedController() end
 
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetNewsfeedMenuContainer() return end
+function ComputerMainLayoutWidgetController:GetNewsfeedMenuContainer() end
 
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetOffButton() return end
+function ComputerMainLayoutWidgetController:GetOffButton() end
 
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetWindowCloseButton() return end
+function ComputerMainLayoutWidgetController:GetWindowCloseButton() end
 
----@protected
 ---@return inkWidget
-function ComputerMainLayoutWidgetController:GetWindowContainer() return end
+function ComputerMainLayoutWidgetController:GetWindowContainer() end
 
----@protected
 ---@return inkTextWidget
-function ComputerMainLayoutWidgetController:GetWindowHeader() return end
+function ComputerMainLayoutWidgetController:GetWindowHeader() end
 
----@protected
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param gameController ComputerInkGameController
 ---@return Bool
-function ComputerMainLayoutWidgetController:HasMenuButtonWidgetData(widgetData, gameController) return end
+function ComputerMainLayoutWidgetController:HasMenuButtonWidgetData(widgetData, gameController) end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideBanners() return end
+function ComputerMainLayoutWidgetController:HideBanners() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideDevices() return end
+function ComputerMainLayoutWidgetController:HideDevices() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideFiles() return end
+function ComputerMainLayoutWidgetController:HideFiles() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideFullBanner() return end
+function ComputerMainLayoutWidgetController:HideFullBanner() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideInternet() return end
+function ComputerMainLayoutWidgetController:HideInternet() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideMails() return end
+function ComputerMainLayoutWidgetController:HideMails() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideMainMenu() return end
-
----@protected
----@return nil
-function ComputerMainLayoutWidgetController:HideMenuButtonWidgets() return end
+function ComputerMainLayoutWidgetController:HideMainMenu() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideNewsFeed() return end
+function ComputerMainLayoutWidgetController:HideMenuButtonWidgets() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideScreenSaver() return end
+function ComputerMainLayoutWidgetController:HideNewsFeed() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideWallpaper() return end
+function ComputerMainLayoutWidgetController:HideScreenSaver() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:HideWindow() return end
+function ComputerMainLayoutWidgetController:HideWallpaper() end
+
+---@return nil
+function ComputerMainLayoutWidgetController:HideWindow() end
 
 ---@param gameController ComputerInkGameController
 ---@return nil
-function ComputerMainLayoutWidgetController:Initialize(gameController) return end
+function ComputerMainLayoutWidgetController:Initialize(gameController) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SBannerWidgetPackage[]
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeBanners(gameController, widgetsData) return end
+function ComputerMainLayoutWidgetController:InitializeBanners(gameController, widgetsData) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeFiles(gameController, widgetsData) return end
+function ComputerMainLayoutWidgetController:InitializeFiles(gameController, widgetsData) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SDocumentThumbnailWidgetPackage[]
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeFilesThumbnails(gameController, widgetsData) return end
+function ComputerMainLayoutWidgetController:InitializeFilesThumbnails(gameController, widgetsData) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeMails(gameController, widgetsData) return end
+function ComputerMainLayoutWidgetController:InitializeMails(gameController, widgetsData) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SDocumentThumbnailWidgetPackage[]
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeMailsThumbnails(gameController, widgetsData) return end
+function ComputerMainLayoutWidgetController:InitializeMailsThumbnails(gameController, widgetsData) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SComputerMenuButtonWidgetPackage[]
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeMainMenuButtons(gameController, widgetsData) return end
+function ComputerMainLayoutWidgetController:InitializeMainMenuButtons(gameController, widgetsData) end
 
----@protected
 ---@param gameController ComputerInkGameController
 ---@param widget inkWidget
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeMenuButtonWidget(gameController, widget, widgetData) return end
+function ComputerMainLayoutWidgetController:InitializeMenuButtonWidget(gameController, widget, widgetData) end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetsData SComputerMenuButtonWidgetPackage[]
 ---@return nil
-function ComputerMainLayoutWidgetController:InitializeMenuButtons(gameController, widgetsData) return end
+function ComputerMainLayoutWidgetController:InitializeMenuButtons(gameController, widgetsData) end
 
 ---@param controller ComputerDocumentThumbnailWidgetController
 ---@return nil
-function ComputerMainLayoutWidgetController:MarkFileThumbnailAsSelected(controller) return end
+function ComputerMainLayoutWidgetController:MarkFileThumbnailAsSelected(controller) end
 
 ---@param adress SDocumentAdress
 ---@return nil
-function ComputerMainLayoutWidgetController:MarkMailThumbnailAsSelected(adress) return end
+function ComputerMainLayoutWidgetController:MarkMailThumbnailAsSelected(adress) end
 
 ---@param controller ComputerDocumentThumbnailWidgetController
 ---@return nil
-function ComputerMainLayoutWidgetController:MarkMailThumbnailAsSelected(controller) return end
+function ComputerMainLayoutWidgetController:MarkMailThumbnailAsSelected(controller) end
 
 ---@param menuID String
 ---@return nil
-function ComputerMainLayoutWidgetController:MarkManuButtonAsSelected(menuID) return end
+function ComputerMainLayoutWidgetController:MarkManuButtonAsSelected(menuID) end
 
 ---@param controller ComputerMenuButtonController
 ---@return nil
-function ComputerMainLayoutWidgetController:MarkManuButtonAsSelected(controller) return end
+function ComputerMainLayoutWidgetController:MarkManuButtonAsSelected(controller) end
 
----@private
 ---@return nil
-function ComputerMainLayoutWidgetController:ResolveWindowClose() return end
+function ComputerMainLayoutWidgetController:ResolveWindowClose() end
 
 ---@param widget inkWidget
 ---@return nil
-function ComputerMainLayoutWidgetController:SetDevicesMenu(widget) return end
+function ComputerMainLayoutWidgetController:SetDevicesMenu(widget) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function ComputerMainLayoutWidgetController:SetFilesMenu(gameController, parentWidget) return end
+function ComputerMainLayoutWidgetController:SetFilesMenu(gameController, parentWidget) end
 
 ---@param gameController ComputerInkGameController
 ---@return nil
-function ComputerMainLayoutWidgetController:SetInternetMenu(gameController) return end
-
----@param gameController ComputerInkGameController
----@param parentWidget inkWidget
----@return nil
-function ComputerMainLayoutWidgetController:SetMailsMenu(gameController, parentWidget) return end
-
----@param gameController ComputerInkGameController
----@return nil
-function ComputerMainLayoutWidgetController:SetMainMenu(gameController) return end
+function ComputerMainLayoutWidgetController:SetInternetMenu(gameController) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function ComputerMainLayoutWidgetController:SetNewsFeedMenu(gameController, parentWidget) return end
+function ComputerMainLayoutWidgetController:SetMailsMenu(gameController, parentWidget) end
+
+---@param gameController ComputerInkGameController
+---@return nil
+function ComputerMainLayoutWidgetController:SetMainMenu(gameController) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function ComputerMainLayoutWidgetController:SetScreenSaver(gameController, parentWidget) return end
+function ComputerMainLayoutWidgetController:SetNewsFeedMenu(gameController, parentWidget) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function ComputerMainLayoutWidgetController:SetWallpaper(gameController, parentWidget) return end
+function ComputerMainLayoutWidgetController:SetScreenSaver(gameController, parentWidget) end
+
+---@param gameController ComputerInkGameController
+---@param parentWidget inkWidget
+---@return nil
+function ComputerMainLayoutWidgetController:SetWallpaper(gameController, parentWidget) end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowDevices() return end
+function ComputerMainLayoutWidgetController:ShowDevices() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowFiles() return end
+function ComputerMainLayoutWidgetController:ShowFiles() end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetData SBannerWidgetPackage
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowFullBanner(gameController, widgetData) return end
+function ComputerMainLayoutWidgetController:ShowFullBanner(gameController, widgetData) end
 
 ---@param startingPage String
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowInternet(startingPage) return end
+function ComputerMainLayoutWidgetController:ShowInternet(startingPage) end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowMails() return end
+function ComputerMainLayoutWidgetController:ShowMails() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowMainMenu() return end
+function ComputerMainLayoutWidgetController:ShowMainMenu() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowNewsfeed() return end
+function ComputerMainLayoutWidgetController:ShowNewsfeed() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowScreenSaver() return end
+function ComputerMainLayoutWidgetController:ShowScreenSaver() end
 
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowWallpaper() return end
+function ComputerMainLayoutWidgetController:ShowWallpaper() end
 
 ---@param header String
 ---@param menuType EComputerMenuType
 ---@return nil
-function ComputerMainLayoutWidgetController:ShowWindow(header, menuType) return end
+function ComputerMainLayoutWidgetController:ShowWindow(header, menuType) end
 
----@protected
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@param index Int32
 ---@return nil
-function ComputerMainLayoutWidgetController:UpdateMenuButtonWidgetData(widgetData, index) return end
+function ComputerMainLayoutWidgetController:UpdateMenuButtonWidgetData(widgetData, index) end

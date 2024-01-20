@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TriggerDelayedReactionEvent: DelayedCrowdReactionEvent
----@field public initAnim Bool
----@field public behavior gamedataOutput
+---@field initAnim Bool
+---@field behavior gamedataOutput
 TriggerDelayedReactionEvent = {}
 
 ---@param fields? TriggerDelayedReactionEvent
 ---@return TriggerDelayedReactionEvent
-function TriggerDelayedReactionEvent.new(fields) return end
+function TriggerDelayedReactionEvent.new(fields) end

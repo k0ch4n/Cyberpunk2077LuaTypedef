@@ -5,16 +5,14 @@ ClimbLowGravityDecisions = {}
 
 ---@param fields? ClimbLowGravityDecisions
 ---@return ClimbLowGravityDecisions
-function ClimbLowGravityDecisions.new(fields) return end
+function ClimbLowGravityDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ClimbLowGravityDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ClimbLowGravityDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param climbInfo gamePlayerClimbInfo
 ---@return Bool
-function ClimbLowGravityDecisions:OverlapFitTest(scriptInterface, climbInfo) return end
+function ClimbLowGravityDecisions:OverlapFitTest(scriptInterface, climbInfo) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UpdateShardFailedDropsRequest: gameScriptableSystemRequest
----@field public resetCounter Bool
----@field public newFailedAttempts Float
+---@field resetCounter Bool
+---@field newFailedAttempts Float
 UpdateShardFailedDropsRequest = {}
 
 ---@param fields? UpdateShardFailedDropsRequest
 ---@return UpdateShardFailedDropsRequest
-function UpdateShardFailedDropsRequest.new(fields) return end
+function UpdateShardFailedDropsRequest.new(fields) end

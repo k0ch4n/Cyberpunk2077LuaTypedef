@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class scnWorkspotData: ISerializable
----@field public dataId scnSceneWorkspotDataId
+---@field dataId scnSceneWorkspotDataId
 scnWorkspotData = {}

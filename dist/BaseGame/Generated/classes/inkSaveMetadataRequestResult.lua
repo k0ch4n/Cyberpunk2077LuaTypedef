@@ -5,4 +5,4 @@ inkSaveMetadataRequestResult = {}
 
 ---@param fields? inkSaveMetadataRequestResult
 ---@return inkSaveMetadataRequestResult
-function inkSaveMetadataRequestResult.new(fields) return end
+function inkSaveMetadataRequestResult.new(fields) end

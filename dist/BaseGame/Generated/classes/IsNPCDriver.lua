@@ -5,9 +5,8 @@ IsNPCDriver = {}
 
 ---@param fields? IsNPCDriver
 ---@return IsNPCDriver
-function IsNPCDriver.new(fields) return end
+function IsNPCDriver.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsNPCDriver:Check(context) return end
+function IsNPCDriver:Check(context) end

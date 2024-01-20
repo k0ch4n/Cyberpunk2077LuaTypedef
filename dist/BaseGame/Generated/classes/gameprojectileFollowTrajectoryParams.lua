@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameprojectileFollowTrajectoryParams: gameprojectileTrajectoryParams
----@field public startVel Float
----@field public target gameObject
----@field public targetComponent entIPlacedComponent
----@field public accuracy Float
----@field public targetOffset Vector4
+---@field startVel Float
+---@field target gameObject
+---@field targetComponent entIPlacedComponent
+---@field accuracy Float
+---@field targetOffset Vector4
 gameprojectileFollowTrajectoryParams = {}
 
 ---@param fields? gameprojectileFollowTrajectoryParams
 ---@return gameprojectileFollowTrajectoryParams
-function gameprojectileFollowTrajectoryParams.new(fields) return end
+function gameprojectileFollowTrajectoryParams.new(fields) end

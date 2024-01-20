@@ -1,53 +1,48 @@
 ---@meta
 
 ---@class ForkliftControllerPS: ScriptableDeviceComponentPS
----@field private forkliftSetup ForkliftSetup
----@field private isUp Bool
+---@field forkliftSetup ForkliftSetup
+---@field isUp Bool
 ForkliftControllerPS = {}
 
 ---@param fields? ForkliftControllerPS
 ---@return ForkliftControllerPS
-function ForkliftControllerPS.new(fields) return end
+function ForkliftControllerPS.new(fields) end
 
----@protected
 ---@param interactionName String
 ---@return ActivateDevice
-function ForkliftControllerPS:ActionActivateDevice(interactionName) return end
+function ForkliftControllerPS:ActionActivateDevice(interactionName) end
 
----@protected
 ---@return Bool
-function ForkliftControllerPS:CanCreateAnyQuickHackActions() return end
+function ForkliftControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param newState EDeviceStatus
 ---@return nil
-function ForkliftControllerPS:ChangeState(newState) return end
+function ForkliftControllerPS:ChangeState(newState) end
 
----@protected
 ---@return nil
-function ForkliftControllerPS:GameAttached() return end
+function ForkliftControllerPS:GameAttached() end
 
 ---@return CName
-function ForkliftControllerPS:GetActionName() return end
+function ForkliftControllerPS:GetActionName() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ForkliftControllerPS:GetActions(context) return end
+function ForkliftControllerPS:GetActions(context) end
 
 ---@return Float
-function ForkliftControllerPS:GetLiftingAnimationTime() return end
+function ForkliftControllerPS:GetLiftingAnimationTime() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ForkliftControllerPS:GetQuickHackActions(context) return end
+function ForkliftControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool
-function ForkliftControllerPS:IsForkliftUp() return end
+function ForkliftControllerPS:IsForkliftUp() end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function ForkliftControllerPS:OnActivateDevice(evt) return end
+function ForkliftControllerPS:OnActivateDevice(evt) end
 
 ---@return nil
-function ForkliftControllerPS:ToggleForkliftPosition() return end
+function ForkliftControllerPS:ToggleForkliftPosition() end

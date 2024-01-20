@@ -5,4 +5,4 @@ gameFootstepEvent = {}
 
 ---@param fields? gameFootstepEvent
 ---@return gameFootstepEvent
-function gameFootstepEvent.new(fields) return end
+function gameFootstepEvent.new(fields) end

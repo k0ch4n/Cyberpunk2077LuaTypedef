@@ -5,4 +5,4 @@ gameMultiEcsManagerComponent = {}
 
 ---@param fields? gameMultiEcsManagerComponent
 ---@return gameMultiEcsManagerComponent
-function gameMultiEcsManagerComponent.new(fields) return end
+function gameMultiEcsManagerComponent.new(fields) end

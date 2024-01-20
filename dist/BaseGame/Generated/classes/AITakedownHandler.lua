@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class AITakedownHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AITakedownHandler = {}
 
 ---@param fields? AITakedownHandler
 ---@return AITakedownHandler
-function AITakedownHandler.new(fields) return end
+function AITakedownHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AITakedownHandler:Activate(context) return end
+function AITakedownHandler:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AITakedownHandler:Deactivate(context) return end
+function AITakedownHandler:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AITakedownHandler:Update(context) return end
+function AITakedownHandler:Update(context) end

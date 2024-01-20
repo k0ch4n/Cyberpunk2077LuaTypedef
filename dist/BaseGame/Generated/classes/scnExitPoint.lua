@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnExitPoint
----@field public name CName
----@field public nodeId scnNodeId
+---@field name CName
+---@field nodeId scnNodeId
 scnExitPoint = {}
 
 ---@param fields? scnExitPoint
 ---@return scnExitPoint
-function scnExitPoint.new(fields) return end
+function scnExitPoint.new(fields) end

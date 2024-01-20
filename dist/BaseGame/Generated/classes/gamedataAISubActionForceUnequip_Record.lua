@@ -5,25 +5,25 @@ gamedataAISubActionForceUnequip_Record = {}
 
 ---@param fields? gamedataAISubActionForceUnequip_Record
 ---@return gamedataAISubActionForceUnequip_Record
-function gamedataAISubActionForceUnequip_Record.new(fields) return end
+function gamedataAISubActionForceUnequip_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionForceUnequip_Record:AnimationTime() return end
+function gamedataAISubActionForceUnequip_Record:AnimationTime() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionForceUnequip_Record:AttachmentSlot() return end
+function gamedataAISubActionForceUnequip_Record:AttachmentSlot() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionForceUnequip_Record:AttachmentSlotHandle() return end
+function gamedataAISubActionForceUnequip_Record:AttachmentSlotHandle() end
 
 ---@return Float
-function gamedataAISubActionForceUnequip_Record:Delay() return end
+function gamedataAISubActionForceUnequip_Record:Delay() end
 
 ---@return Bool
-function gamedataAISubActionForceUnequip_Record:DropItem() return end
+function gamedataAISubActionForceUnequip_Record:DropItem() end
 
 ---@return Bool
-function gamedataAISubActionForceUnequip_Record:GenerateLootAfterDrop() return end
+function gamedataAISubActionForceUnequip_Record:GenerateLootAfterDrop() end
 
 ---@return Bool
-function gamedataAISubActionForceUnequip_Record:UnequipDespiteInterruption() return end
+function gamedataAISubActionForceUnequip_Record:UnequipDespiteInterruption() end

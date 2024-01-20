@@ -1,87 +1,71 @@
 ---@meta
 
 ---@class DestructibleMasterLight: DestructibleMasterDevice
----@field private lightComponents gameLightComponent[]
----@field private lightDefinitions gamedataLightPreset[]
+---@field lightComponents gameLightComponent[]
+---@field lightDefinitions gamedataLightPreset[]
 DestructibleMasterLight = {}
 
 ---@param fields? DestructibleMasterLight
 ---@return DestructibleMasterLight
-function DestructibleMasterLight.new(fields) return end
+function DestructibleMasterLight.new(fields) end
 
----@protected
 ---@param evt EMPEnded
 ---@return Bool
-function DestructibleMasterLight:OnEMPEnded(evt) return end
+function DestructibleMasterLight:OnEMPEnded(evt) end
 
----@protected
 ---@param evt EMPHitEvent
 ---@return Bool
-function DestructibleMasterLight:OnEMPHitEvent(evt) return end
+function DestructibleMasterLight:OnEMPHitEvent(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function DestructibleMasterLight:OnHitEvent(hit) return end
+function DestructibleMasterLight:OnHitEvent(hit) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function DestructibleMasterLight:OnPhysicalDestructionEvent(evt) return end
+function DestructibleMasterLight:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DestructibleMasterLight:OnRequestComponents(ri) return end
+function DestructibleMasterLight:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DestructibleMasterLight:OnTakeControl(ri) return end
+function DestructibleMasterLight:OnTakeControl(ri) end
 
----@private
 ---@param light gameLightComponent
 ---@param preset TweakDBID|string
 ---@return nil
-function DestructibleMasterLight:ApplyPreset(light, preset) return end
+function DestructibleMasterLight:ApplyPreset(light, preset) end
 
----@private
 ---@param ints Int32[]
 ---@return Bool, Color color
-function DestructibleMasterLight:CreateColorFromIntArray(ints) return end
+function DestructibleMasterLight:CreateColorFromIntArray(ints) end
 
----@protected
 ---@return nil
-function DestructibleMasterLight:CutPower() return end
+function DestructibleMasterLight:CutPower() end
 
----@private
 ---@return DestructibleMasterLightController
-function DestructibleMasterLight:GetController() return end
+function DestructibleMasterLight:GetController() end
 
 ---@return DestructibleMasterLightControllerPS
-function DestructibleMasterLight:GetDevicePS() return end
+function DestructibleMasterLight:GetDevicePS() end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return nil
-function DestructibleMasterLight:ReactToHit(hit) return end
+function DestructibleMasterLight:ReactToHit(hit) end
 
----@protected
 ---@return Bool
-function DestructibleMasterLight:ShouldRegisterToHUD() return end
+function DestructibleMasterLight:ShouldRegisterToHUD() end
 
----@protected
 ---@return nil
-function DestructibleMasterLight:TurnOffDevice() return end
+function DestructibleMasterLight:TurnOffDevice() end
 
----@private
 ---@return nil
-function DestructibleMasterLight:TurnOffLights() return end
+function DestructibleMasterLight:TurnOffLights() end
 
----@protected
 ---@return nil
-function DestructibleMasterLight:TurnOnDevice() return end
+function DestructibleMasterLight:TurnOnDevice() end
 
----@private
 ---@return nil
-function DestructibleMasterLight:TurnOnLights() return end
+function DestructibleMasterLight:TurnOnLights() end

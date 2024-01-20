@@ -5,4 +5,4 @@ scnTalkInteractionListener = {}
 
 ---@param fields? scnTalkInteractionListener
 ---@return scnTalkInteractionListener
-function scnTalkInteractionListener.new(fields) return end
+function scnTalkInteractionListener.new(fields) end

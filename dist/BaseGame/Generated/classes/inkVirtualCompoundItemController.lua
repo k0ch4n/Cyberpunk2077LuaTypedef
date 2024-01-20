@@ -1,29 +1,28 @@
 ---@meta
 
 ---@class inkVirtualCompoundItemController: inkButtonController
----@field public ToggledOff inkVirtualCompoundItemControllerCallback
----@field public ToggledOn inkVirtualCompoundItemControllerCallback
----@field public Selected inkVirtualCompoundItemSelectControllerCallback
----@field public Deselected inkVirtualCompoundItemControllerCallback
----@field public Added inkVirtualCompoundItemControllerCallback
+---@field ToggledOff inkVirtualCompoundItemControllerCallback
+---@field ToggledOn inkVirtualCompoundItemControllerCallback
+---@field Selected inkVirtualCompoundItemSelectControllerCallback
+---@field Deselected inkVirtualCompoundItemControllerCallback
+---@field Added inkVirtualCompoundItemControllerCallback
 inkVirtualCompoundItemController = {}
 
 ---@param fields? inkVirtualCompoundItemController
 ---@return inkVirtualCompoundItemController
-function inkVirtualCompoundItemController.new(fields) return end
+function inkVirtualCompoundItemController.new(fields) end
 
 ---@return Variant
-function inkVirtualCompoundItemController:GetData() return end
+function inkVirtualCompoundItemController:GetData() end
 
 ---@return Uint32
-function inkVirtualCompoundItemController:GetIndex() return end
+function inkVirtualCompoundItemController:GetIndex() end
 
 ---@return Bool
-function inkVirtualCompoundItemController:IsSelected() return end
+function inkVirtualCompoundItemController:IsSelected() end
 
 ---@return Bool
-function inkVirtualCompoundItemController:IsToggled() return end
+function inkVirtualCompoundItemController:IsToggled() end
 
----@protected
 ---@return Bool
-function inkVirtualCompoundItemController:OnSetCursorOver() return end
+function inkVirtualCompoundItemController:OnSetCursorOver() end

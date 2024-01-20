@@ -5,10 +5,10 @@ gamedataAISquadFilterByAICondition_Record = {}
 
 ---@param fields? gamedataAISquadFilterByAICondition_Record
 ---@return gamedataAISquadFilterByAICondition_Record
-function gamedataAISquadFilterByAICondition_Record.new(fields) return end
+function gamedataAISquadFilterByAICondition_Record.new(fields) end
 
 ---@return gamedataAIActionCondition_Record
-function gamedataAISquadFilterByAICondition_Record:Condition() return end
+function gamedataAISquadFilterByAICondition_Record:Condition() end
 
 ---@return gamedataAIActionCondition_Record
-function gamedataAISquadFilterByAICondition_Record:ConditionHandle() return end
+function gamedataAISquadFilterByAICondition_Record:ConditionHandle() end

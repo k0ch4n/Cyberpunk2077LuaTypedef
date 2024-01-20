@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DeleteEquipmentSetRequest: gamePlayerScriptableSystemRequest
----@field public setName String
+---@field setName String
 DeleteEquipmentSetRequest = {}
 
 ---@param fields? DeleteEquipmentSetRequest
 ---@return DeleteEquipmentSetRequest
-function DeleteEquipmentSetRequest.new(fields) return end
+function DeleteEquipmentSetRequest.new(fields) end

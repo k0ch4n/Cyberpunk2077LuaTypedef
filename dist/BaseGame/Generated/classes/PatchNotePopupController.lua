@@ -5,17 +5,14 @@ PatchNotePopupController = {}
 
 ---@param fields? PatchNotePopupController
 ---@return PatchNotePopupController
-function PatchNotePopupController.new(fields) return end
+function PatchNotePopupController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PatchNotePopupController:OnHandlePressInput(evt) return end
+function PatchNotePopupController:OnHandlePressInput(evt) end
 
----@protected
 ---@return Bool
-function PatchNotePopupController:OnInitialize() return end
+function PatchNotePopupController:OnInitialize() end
 
----@protected
 ---@return Bool
-function PatchNotePopupController:OnUninitialize() return end
+function PatchNotePopupController:OnUninitialize() end

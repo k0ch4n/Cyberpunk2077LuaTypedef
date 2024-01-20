@@ -5,4 +5,4 @@ AIbehaviorWaitWorldPositionConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitWorldPositionConditionDefinition
 ---@return AIbehaviorWaitWorldPositionConditionDefinition
-function AIbehaviorWaitWorldPositionConditionDefinition.new(fields) return end
+function AIbehaviorWaitWorldPositionConditionDefinition.new(fields) end

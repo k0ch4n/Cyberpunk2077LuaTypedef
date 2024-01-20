@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class AICommandDeviceHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AICommandDeviceHandler = {}
 
 ---@param fields? AICommandDeviceHandler
 ---@return AICommandDeviceHandler
-function AICommandDeviceHandler.new(fields) return end
+function AICommandDeviceHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AICommandDeviceHandler:Activate(context) return end
+function AICommandDeviceHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AICommandDeviceHandler:Update(context) return end
+function AICommandDeviceHandler:Update(context) end

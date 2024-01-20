@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class CanPlayerHijackMountedNpcPrereq: gameIScriptablePrereq
----@field protected slotName CName
----@field protected isCheckInverted Bool
+---@field slotName CName
+---@field isCheckInverted Bool
 CanPlayerHijackMountedNpcPrereq = {}
 
 ---@param fields? CanPlayerHijackMountedNpcPrereq
 ---@return CanPlayerHijackMountedNpcPrereq
-function CanPlayerHijackMountedNpcPrereq.new(fields) return end
+function CanPlayerHijackMountedNpcPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function CanPlayerHijackMountedNpcPrereq:Initialize(recordID) return end
+function CanPlayerHijackMountedNpcPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function CanPlayerHijackMountedNpcPrereq:IsFulfilled(context) return end
+function CanPlayerHijackMountedNpcPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function CanPlayerHijackMountedNpcPrereq:OnRegister(state, context) return end
+function CanPlayerHijackMountedNpcPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function CanPlayerHijackMountedNpcPrereq:OnUnregister(state, context) return end
+function CanPlayerHijackMountedNpcPrereq:OnUnregister(state, context) end

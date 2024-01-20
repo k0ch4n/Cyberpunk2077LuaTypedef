@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AddPingedSquadRequest: gameScriptableSystemRequest
----@field public squadName CName
+---@field squadName CName
 AddPingedSquadRequest = {}
 
 ---@param fields? AddPingedSquadRequest
 ---@return AddPingedSquadRequest
-function AddPingedSquadRequest.new(fields) return end
+function AddPingedSquadRequest.new(fields) end

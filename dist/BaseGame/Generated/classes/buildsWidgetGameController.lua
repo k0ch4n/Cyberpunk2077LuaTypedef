@@ -1,63 +1,57 @@
 ---@meta
 
 ---@class buildsWidgetGameController: gameuiWidgetGameController
----@field private horizontalPanelsList inkHorizontalPanelWidget[]
+---@field horizontalPanelsList inkHorizontalPanelWidget[]
 buildsWidgetGameController = {}
 
 ---@param fields? buildsWidgetGameController
 ---@return buildsWidgetGameController
-function buildsWidgetGameController.new(fields) return end
+function buildsWidgetGameController.new(fields) end
 
----@protected
 ---@return Bool
-function buildsWidgetGameController:OnInitialize() return end
+function buildsWidgetGameController:OnInitialize() end
 
----@private
 ---@param rowIdx Int32
 ---@param type gamedataBuildType
 ---@return nil
-function buildsWidgetGameController:CreateBuildButton(rowIdx, type) return end
+function buildsWidgetGameController:CreateBuildButton(rowIdx, type) end
 
----@private
 ---@param rowIdx Int32
 ---@param type CustomButtonType
 ---@return nil
-function buildsWidgetGameController:CreateCustomButton(rowIdx, type) return end
+function buildsWidgetGameController:CreateCustomButton(rowIdx, type) end
 
----@private
 ---@return gamedataBuildType[][]
-function buildsWidgetGameController:GetProperDevBuildList() return end
+function buildsWidgetGameController:GetProperDevBuildList() end
 
 ---@param e inkPointerEvent
 ---@return nil
-function buildsWidgetGameController:OnBuildMenuEnter(e) return end
+function buildsWidgetGameController:OnBuildMenuEnter(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function buildsWidgetGameController:OnBuildMenuExit(e) return end
+function buildsWidgetGameController:OnBuildMenuExit(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function buildsWidgetGameController:OnBuildsMenuSelectBuild(e) return end
+function buildsWidgetGameController:OnBuildsMenuSelectBuild(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function buildsWidgetGameController:OnClickedCutonButton_DiscoverAllPoiMappins(e) return end
+function buildsWidgetGameController:OnClickedCutonButton_DiscoverAllPoiMappins(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function buildsWidgetGameController:OnClickedCutonButton_ShowAllPoiMappins(e) return end
+function buildsWidgetGameController:OnClickedCutonButton_ShowAllPoiMappins(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function buildsWidgetGameController:OnClickedCutonButton_UnlockAllVehicles(e) return end
+function buildsWidgetGameController:OnClickedCutonButton_UnlockAllVehicles(e) end
 
----@private
 ---@param type gamedataBuildType
 ---@return nil
-function buildsWidgetGameController:SetTooltip(type) return end
+function buildsWidgetGameController:SetTooltip(type) end
 
----@private
 ---@param val Bool
 ---@return nil
-function buildsWidgetGameController:ShowTooltip(val) return end
+function buildsWidgetGameController:ShowTooltip(val) end

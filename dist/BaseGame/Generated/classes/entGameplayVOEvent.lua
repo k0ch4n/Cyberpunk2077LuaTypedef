@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class entGameplayVOEvent: redEvent
----@field public voContext CName
----@field public isQuest Bool
----@field public ignoreFrustumCheck Bool
----@field public ignoreDistanceCheck Bool
----@field public debugInitialContext CName
----@field public ignoreGlobalVoLimitCheck Bool
----@field public answeringEntityId entEntityID
----@field public overridingVoiceoverContext locVoiceoverContext
----@field public overridingVoiceoverExpression locVoiceoverExpression
----@field public overrideVoiceoverExpression Bool
----@field public overridingVisualStyleValue Uint8
----@field public overrideVisualStyle Bool
+---@field voContext CName
+---@field isQuest Bool
+---@field ignoreFrustumCheck Bool
+---@field ignoreDistanceCheck Bool
+---@field debugInitialContext CName
+---@field ignoreGlobalVoLimitCheck Bool
+---@field answeringEntityId entEntityID
+---@field overridingVoiceoverContext locVoiceoverContext
+---@field overridingVoiceoverExpression locVoiceoverExpression
+---@field overrideVoiceoverExpression Bool
+---@field overridingVisualStyleValue Uint8
+---@field overrideVisualStyle Bool
 entGameplayVOEvent = {}
 
 ---@param fields? entGameplayVOEvent
 ---@return entGameplayVOEvent
-function entGameplayVOEvent.new(fields) return end
+function entGameplayVOEvent.new(fields) end

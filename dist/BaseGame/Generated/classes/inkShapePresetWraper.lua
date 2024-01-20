@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkShapePresetWraper: ISerializable
----@field public shapePreset inkShapePreset
+---@field shapePreset inkShapePreset
 inkShapePresetWraper = {}
 
 ---@param fields? inkShapePresetWraper
 ---@return inkShapePresetWraper
-function inkShapePresetWraper.new(fields) return end
+function inkShapePresetWraper.new(fields) end

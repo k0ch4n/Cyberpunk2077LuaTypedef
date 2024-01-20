@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animOverrideAnimSetRef
----@field public animSet animAnimSet
----@field public variableName CName
+---@field animSet animAnimSet
+---@field variableName CName
 animOverrideAnimSetRef = {}
 
 ---@param fields? animOverrideAnimSetRef
 ---@return animOverrideAnimSetRef
-function animOverrideAnimSetRef.new(fields) return end
+function animOverrideAnimSetRef.new(fields) end

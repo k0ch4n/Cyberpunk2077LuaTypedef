@@ -1,31 +1,29 @@
 ---@meta
 
 ---@class CLSWeatherListener: worldWeatherScriptListener
----@field private owner CityLightSystem
+---@field owner CityLightSystem
 CLSWeatherListener = {}
 
 ---@param fields? CLSWeatherListener
 ---@return CLSWeatherListener
-function CLSWeatherListener.new(fields) return end
+function CLSWeatherListener.new(fields) end
 
 ---@param owner CityLightSystem
 ---@return nil
-function CLSWeatherListener:Initialize(owner) return end
+function CLSWeatherListener:Initialize(owner) end
 
 ---@param rainIntensity Float
 ---@return nil
-function CLSWeatherListener:OnRainIntensityChanged(rainIntensity) return end
+function CLSWeatherListener:OnRainIntensityChanged(rainIntensity) end
 
 ---@param rainIntensityType worldRainIntensity
 ---@return nil
-function CLSWeatherListener:OnRainIntensityTypeChanged(rainIntensityType) return end
+function CLSWeatherListener:OnRainIntensityTypeChanged(rainIntensityType) end
 
----@private
 ---@param reason CName|string
 ---@return nil
-function CLSWeatherListener:TurnOffLights(reason) return end
+function CLSWeatherListener:TurnOffLights(reason) end
 
----@private
 ---@param reason CName|string
 ---@return nil
-function CLSWeatherListener:TurnOnLights(reason) return end
+function CLSWeatherListener:TurnOnLights(reason) end

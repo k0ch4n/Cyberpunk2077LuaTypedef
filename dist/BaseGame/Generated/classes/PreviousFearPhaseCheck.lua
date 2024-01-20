@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class PreviousFearPhaseCheck: AIbehaviorconditionScript
----@field public fearPhase Int32
+---@field fearPhase Int32
 PreviousFearPhaseCheck = {}
 
 ---@param fields? PreviousFearPhaseCheck
 ---@return PreviousFearPhaseCheck
-function PreviousFearPhaseCheck.new(fields) return end
+function PreviousFearPhaseCheck.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function PreviousFearPhaseCheck:Check(context) return end
+function PreviousFearPhaseCheck:Check(context) end

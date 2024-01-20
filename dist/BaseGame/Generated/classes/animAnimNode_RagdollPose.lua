@@ -5,4 +5,4 @@ animAnimNode_RagdollPose = {}
 
 ---@param fields? animAnimNode_RagdollPose
 ---@return animAnimNode_RagdollPose
-function animAnimNode_RagdollPose.new(fields) return end
+function animAnimNode_RagdollPose.new(fields) end

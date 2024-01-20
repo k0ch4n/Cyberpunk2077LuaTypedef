@@ -1,399 +1,397 @@
 ---@meta
 
 ---@class VehicleComponent: ScriptableDeviceComponent
----@field public interaction gameinteractionsComponent
----@field public scanningComponent gameScanningComponent
----@field public damageLevel Int32
----@field public coolerDestro Bool
----@field public bumperFrontState Int32
----@field public bumperBackState Int32
----@field public visualDestructionSet Bool
----@field public immuneInDecay Bool
----@field public healthDecayThreshold Float
----@field public isBroadcastingHazardStims Bool
----@field public healthStatPoolListener VehicleHealthStatPoolListener
----@field public vehicleBlackboard gameIBlackboard
----@field public radioState Bool
----@field public mounted Bool
----@field public enterTime Float
----@field public mappinID gameNewMappinID
----@field public quickhackMappinID gameNewMappinID
----@field public ignoreAutoDoorClose Bool
----@field public timeSystemCallbackID Uint32
----@field public vehicleTPPCallbackID redCallbackObject
----@field public vehicleSpeedCallbackID redCallbackObject
----@field public carAlarmCallbackID redCallbackObject
----@field public vehicleRPMCallbackID redCallbackObject
----@field public vehicleDisableAlarmDelayID gameDelayID
----@field public vehicleExitDelayId gameDelayID
----@field public broadcasting Bool
----@field public hasSpoiler Bool
----@field public spoilerUp Float
----@field public spoilerDown Float
----@field public spoilerDeployed Bool
----@field public hasTurboCharger Bool
----@field public overheatEffectBlackboard worldEffectBlackboard
----@field public overheatActive Bool
----@field public hornOn Bool
----@field public useAuxiliary Bool
----@field public sirenPressTime Float
----@field public radioPressTime Float
----@field public raceClockTickID gameDelayID
----@field public objectActionsCallbackCtrl gameObjectActionsCallbackController
----@field public trunkNpcBody gameObject
----@field public mountedPlayer PlayerPuppet
----@field public isIgnoredInTargetingSystem Bool
----@field public arePlayerHitShapesEnabled Bool
----@field public uiWantedBarBB gameIBlackboard
----@field public currentWantedLevelCallback redCallbackObject
----@field public preventionPassengers Int32
----@field public timeSinceLastHit Float
----@field public dragTime Float
----@field private vehicleController vehicleController
+---@field interaction gameinteractionsComponent
+---@field scanningComponent gameScanningComponent
+---@field damageLevel Int32
+---@field coolerDestro Bool
+---@field bumperFrontState Int32
+---@field bumperBackState Int32
+---@field visualDestructionSet Bool
+---@field immuneInDecay Bool
+---@field healthDecayThreshold Float
+---@field isBroadcastingHazardStims Bool
+---@field healthStatPoolListener VehicleHealthStatPoolListener
+---@field vehicleBlackboard gameIBlackboard
+---@field radioState Bool
+---@field mounted Bool
+---@field enterTime Float
+---@field mappinID gameNewMappinID
+---@field quickhackMappinID gameNewMappinID
+---@field ignoreAutoDoorClose Bool
+---@field timeSystemCallbackID Uint32
+---@field vehicleTPPCallbackID redCallbackObject
+---@field vehicleSpeedCallbackID redCallbackObject
+---@field carAlarmCallbackID redCallbackObject
+---@field vehicleRPMCallbackID redCallbackObject
+---@field vehicleDisableAlarmDelayID gameDelayID
+---@field vehicleExitDelayId gameDelayID
+---@field broadcasting Bool
+---@field hasSpoiler Bool
+---@field spoilerUp Float
+---@field spoilerDown Float
+---@field spoilerDeployed Bool
+---@field hasTurboCharger Bool
+---@field overheatEffectBlackboard worldEffectBlackboard
+---@field overheatActive Bool
+---@field hornOn Bool
+---@field useAuxiliary Bool
+---@field sirenPressTime Float
+---@field radioPressTime Float
+---@field raceClockTickID gameDelayID
+---@field objectActionsCallbackCtrl gameObjectActionsCallbackController
+---@field trunkNpcBody gameObject
+---@field mountedPlayer PlayerPuppet
+---@field isIgnoredInTargetingSystem Bool
+---@field arePlayerHitShapesEnabled Bool
+---@field uiWantedBarBB gameIBlackboard
+---@field currentWantedLevelCallback redCallbackObject
+---@field preventionPassengers Int32
+---@field timeSinceLastHit Float
+---@field dragTime Float
+---@field vehicleController vehicleController
 VehicleComponent = {}
 
 ---@param fields? VehicleComponent
 ---@return VehicleComponent
-function VehicleComponent.new(fields) return end
+function VehicleComponent.new(fields) end
 
 ---@param ownerID entEntityID
 ---@return Bool
-function VehicleComponent.CanBeDriven(ownerID) return end
+function VehicleComponent.CanBeDriven(ownerID) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.CanBeDriven(vehicle) return end
+function VehicleComponent.CanBeDriven(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@param passengersCanLeaveCar gameObject[]
 ---@param passengersCantLeaveCar gameObject[]
 ---@return nil
-function VehicleComponent.CheckIfPassengersCanLeaveCar(vehicleID, passengersCanLeaveCar, passengersCantLeaveCar) return end
+function VehicleComponent.CheckIfPassengersCanLeaveCar(vehicleID, passengersCanLeaveCar, passengersCantLeaveCar) end
 
 ---@param vehicle vehicleBaseObject
 ---@param desiredTag CName|string
 ---@return Bool
-function VehicleComponent.CheckVehicleDesiredTag(vehicle, desiredTag) return end
+function VehicleComponent.CheckVehicleDesiredTag(vehicle, desiredTag) end
 
 ---@param owner gameObject
 ---@param desiredTag CName|string
 ---@return Bool
-function VehicleComponent.CheckVehicleDesiredTag(owner, desiredTag) return end
+function VehicleComponent.CheckVehicleDesiredTag(owner, desiredTag) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehicleSlotID gamemountingMountingSlotId
 ---@return Bool
-function VehicleComponent.CloseDoor(vehicle, vehicleSlotID) return end
+function VehicleComponent.CloseDoor(vehicle, vehicleSlotID) end
 
 ---@param vehicleID entEntityID
 ---@param includeTrunkBody Bool
 ---@param passengers gameObject[]
 ---@return nil
-function VehicleComponent.GetAllPassengers(vehicleID, includeTrunkBody, passengers) return end
+function VehicleComponent.GetAllPassengers(vehicleID, includeTrunkBody, passengers) end
 
 ---@param ownerID entEntityID
 ---@param slotID gamemountingMountingSlotId
 ---@return Bool, EAIAttitude attitude
-function VehicleComponent.GetAttitudeOfPassenger(ownerID, slotID) return end
+function VehicleComponent.GetAttitudeOfPassenger(ownerID, slotID) end
 
 ---@return CName
-function VehicleComponent.GetBackLeftPassengerSlotName() return end
+function VehicleComponent.GetBackLeftPassengerSlotName() end
 
 ---@return CName
-function VehicleComponent.GetBackRightPassengerSlotName() return end
+function VehicleComponent.GetBackRightPassengerSlotName() end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehicleID entEntityID
 ---@return gameObject
-function VehicleComponent.GetDriver(vehicle, vehicleID) return end
+function VehicleComponent.GetDriver(vehicle, vehicleID) end
 
 ---@param vehicleID entEntityID
 ---@return gameObject
-function VehicleComponent.GetDriverMounted(vehicleID) return end
+function VehicleComponent.GetDriverMounted(vehicleID) end
 
 ---@return gamemountingMountingSlotId
-function VehicleComponent.GetDriverSlotID() return end
+function VehicleComponent.GetDriverSlotID() end
 
 ---@return CName
-function VehicleComponent.GetDriverSlotName() return end
+function VehicleComponent.GetDriverSlotName() end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool, CName slotName
-function VehicleComponent.GetFirstAvailableSlot(vehicle) return end
+function VehicleComponent.GetFirstAvailableSlot(vehicle) end
 
 ---@return gamemountingMountingSlotId
-function VehicleComponent.GetFrontPassengerSlotID() return end
+function VehicleComponent.GetFrontPassengerSlotID() end
 
 ---@return CName
-function VehicleComponent.GetFrontPassengerSlotName() return end
+function VehicleComponent.GetFrontPassengerSlotName() end
 
 ---@return CName
-function VehicleComponent.GetImmobilizedName() return end
+function VehicleComponent.GetImmobilizedName() end
 
 ---@param owner gameObject
 ---@return Bool, CName slotName
-function VehicleComponent.GetMountedSlotName(owner) return end
+function VehicleComponent.GetMountedSlotName(owner) end
 
 ---@param vehicleID entEntityID
 ---@return Bool, Int32 activePassangers
-function VehicleComponent.GetNumberOfActivePassengers(vehicleID) return end
+function VehicleComponent.GetNumberOfActivePassengers(vehicleID) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Int32
-function VehicleComponent.GetNumberOfOccupiedSlots(vehicle) return end
+function VehicleComponent.GetNumberOfOccupiedSlots(vehicle) end
 
 ---@param owner gameObject
 ---@return Float
-function VehicleComponent.GetOwnerVehicleSpeed(owner) return end
+function VehicleComponent.GetOwnerVehicleSpeed(owner) end
 
 ---@param slotNames CName[]|string[]
 ---@return nil
-function VehicleComponent.GetPassengersSlotNames(slotNames) return end
+function VehicleComponent.GetPassengersSlotNames(slotNames) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool, gamedataVehicleSeat_Record[] seats
-function VehicleComponent.GetSeats(vehicle) return end
+function VehicleComponent.GetSeats(vehicle) end
 
 ---@param vehicle vehicleBaseObject
 ---@return nil, Int32 totalSeatSlots, Int32 occupiedSeatSlots, Int32 reservedSlots
-function VehicleComponent.GetSeatsStatus(vehicle) return end
+function VehicleComponent.GetSeatsStatus(vehicle) end
 
 ---@param owner gameObject
 ---@return Bool, vehicleBaseObject vehicle
-function VehicleComponent.GetVehicle(owner) return end
+function VehicleComponent.GetVehicle(owner) end
 
 ---@param owner gameObject
 ---@return Bool, gameObject vehicle
-function VehicleComponent.GetVehicle(owner) return end
+function VehicleComponent.GetVehicle(owner) end
 
 ---@param ownerID entEntityID
 ---@return Bool, vehicleBaseObject vehicle
-function VehicleComponent.GetVehicle(ownerID) return end
+function VehicleComponent.GetVehicle(ownerID) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.GetVehicleAllowsCombat(vehicle) return end
+function VehicleComponent.GetVehicleAllowsCombat(vehicle) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool, gamedataVehicleDataPackage_Record vehDataPackage
-function VehicleComponent.GetVehicleDataPackage(vehicle) return end
+function VehicleComponent.GetVehicleDataPackage(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@return Bool, vehicleBaseObject vehicle
-function VehicleComponent.GetVehicleFromID(vehicleID) return end
+function VehicleComponent.GetVehicleFromID(vehicleID) end
 
 ---@param owner gameObject
 ---@return Bool, entEntityID vehicleID
-function VehicleComponent.GetVehicleID(owner) return end
+function VehicleComponent.GetVehicleID(owner) end
 
 ---@param ownerID entEntityID
 ---@return Bool, entEntityID vehicleID
-function VehicleComponent.GetVehicleID(ownerID) return end
+function VehicleComponent.GetVehicleID(ownerID) end
 
----@private
 ---@param owner gameObject
 ---@return Bool, AnimFeature_VehicleNPCData vehicleNPCData
-function VehicleComponent.GetVehicleNPCData(owner) return end
+function VehicleComponent.GetVehicleNPCData(owner) end
 
 ---@param owner gameObject
 ---@return Bool, gamedataVehicle_Record vehicleRecord
-function VehicleComponent.GetVehicleRecord(owner) return end
+function VehicleComponent.GetVehicleRecord(owner) end
 
 ---@param ownerID entEntityID
 ---@return Bool, gamedataVehicle_Record vehicleRecord
-function VehicleComponent.GetVehicleRecord(ownerID) return end
+function VehicleComponent.GetVehicleRecord(ownerID) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool, gamedataVehicle_Record vehicleRecord
-function VehicleComponent.GetVehicleRecord(vehicle) return end
+function VehicleComponent.GetVehicleRecord(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@return Bool, gamedataVehicle_Record vehicleRecord
-function VehicleComponent.GetVehicleRecordFromID(vehicleID) return end
+function VehicleComponent.GetVehicleRecordFromID(vehicleID) end
 
 ---@param owner gameObject
 ---@param type String
 ---@return Bool
-function VehicleComponent.GetVehicleType(owner, type) return end
+function VehicleComponent.GetVehicleType(owner, type) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.HasActiveAutopilot(vehicle) return end
+function VehicleComponent.HasActiveAutopilot(vehicle) end
 
 ---@param ownerID entEntityID
 ---@return Bool
-function VehicleComponent.HasActiveAutopilot(ownerID) return end
+function VehicleComponent.HasActiveAutopilot(ownerID) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.HasActiveDriver(vehicle, vehicleID) return end
+function VehicleComponent.HasActiveDriver(vehicle, vehicleID) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.HasActiveDriverMounted(vehicleID) return end
+function VehicleComponent.HasActiveDriverMounted(vehicleID) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.HasAnyActivePassengers(vehicleID) return end
+function VehicleComponent.HasAnyActivePassengers(vehicleID) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.HasAnyPreventionPassengers(vehicle) return end
+function VehicleComponent.HasAnyPreventionPassengers(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.HasFlatTire(vehicleID) return end
+function VehicleComponent.HasFlatTire(vehicleID) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.HasOnlyOneActivePassenger(vehicleID) return end
+function VehicleComponent.HasOnlyOneActivePassenger(vehicleID) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.HasPassengersWithThreatOnPlayer(vehicleID) return end
+function VehicleComponent.HasPassengersWithThreatOnPlayer(vehicleID) end
 
 ---@param vehicle vehicleBaseObject
 ---@param slotName CName|string
 ---@return Bool
-function VehicleComponent.HasSlot(vehicle, slotName) return end
+function VehicleComponent.HasSlot(vehicle, slotName) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.IsAnyPassengerCrowd(vehicle) return end
+function VehicleComponent.IsAnyPassengerCrowd(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.IsDestroyed(vehicleID) return end
+function VehicleComponent.IsDestroyed(vehicleID) end
 
 ---@param owner gameObject
 ---@return Bool
-function VehicleComponent.IsDriver(owner) return end
+function VehicleComponent.IsDriver(owner) end
 
 ---@param ownerID entEntityID
 ---@return Bool
-function VehicleComponent.IsDriver(ownerID) return end
+function VehicleComponent.IsDriver(ownerID) end
 
 ---@param vehicleID entEntityID
 ---@return Bool
-function VehicleComponent.IsDriverSeatOccupiedByDeadNPC(vehicleID) return end
+function VehicleComponent.IsDriverSeatOccupiedByDeadNPC(vehicleID) end
 
 ---@param slotId CName|string
 ---@return Bool
-function VehicleComponent.IsDriverSlot(slotId) return end
+function VehicleComponent.IsDriverSlot(slotId) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.IsExecutingAnyCommand(vehicle) return end
+function VehicleComponent.IsExecutingAnyCommand(vehicle) end
 
 ---@param ownerID entEntityID
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.IsMountedToProvidedVehicle(ownerID, vehicle) return end
+function VehicleComponent.IsMountedToProvidedVehicle(ownerID, vehicle) end
 
 ---@param ownerID entEntityID
 ---@return Bool
-function VehicleComponent.IsMountedToVehicle(ownerID) return end
+function VehicleComponent.IsMountedToVehicle(ownerID) end
 
 ---@param owner gameObject
 ---@return Bool
-function VehicleComponent.IsMountedToVehicle(owner) return end
+function VehicleComponent.IsMountedToVehicle(owner) end
 
 ---@param passengerID entEntityID
 ---@return Bool
-function VehicleComponent.IsMountedToVehicleWithDriverSeatOccupiedByDeadNPC(passengerID) return end
+function VehicleComponent.IsMountedToVehicleWithDriverSeatOccupiedByDeadNPC(passengerID) end
 
 ---@param slotId1 CName|string
 ---@param slotId2 CName|string
 ---@return Bool
-function VehicleComponent.IsSameSlot(slotId1, slotId2) return end
+function VehicleComponent.IsSameSlot(slotId1, slotId2) end
 
 ---@param vehicle vehicleBaseObject
 ---@param slotName CName|string
 ---@return Bool
-function VehicleComponent.IsSlotAvailable(vehicle, slotName) return end
+function VehicleComponent.IsSlotAvailable(vehicle, slotName) end
 
 ---@param vehicleID entEntityID
 ---@param slotName CName|string
 ---@return Bool
-function VehicleComponent.IsSlotOccupied(vehicleID, slotName) return end
+function VehicleComponent.IsSlotOccupied(vehicleID, slotName) end
 
 ---@param vehicleID entEntityID
 ---@param vehicleSlotID gamemountingMountingSlotId
 ---@return Bool
-function VehicleComponent.IsSlotOccupied(vehicleID, vehicleSlotID) return end
+function VehicleComponent.IsSlotOccupied(vehicleID, vehicleSlotID) end
 
 ---@param vehicleID entEntityID
 ---@param slotName CName|string
 ---@return Bool
-function VehicleComponent.IsSlotOccupiedByActivePassenger(vehicleID, slotName) return end
+function VehicleComponent.IsSlotOccupiedByActivePassenger(vehicleID, slotName) end
 
 ---@param vehicleID entEntityID
 ---@param vehicleSlotID gamemountingMountingSlotId
 ---@return Bool
-function VehicleComponent.IsSlotOccupiedByActivePassenger(vehicleID, vehicleSlotID) return end
+function VehicleComponent.IsSlotOccupiedByActivePassenger(vehicleID, vehicleSlotID) end
 
 ---@param vehicleID entEntityID
 ---@param vehicleSlotID gamemountingMountingSlotId
 ---@param expectedEntity entEntityID
 ---@return Bool
-function VehicleComponent.IsSlotOccupiedByOtherEntity(vehicleID, vehicleSlotID, expectedEntity) return end
+function VehicleComponent.IsSlotOccupiedByOtherEntity(vehicleID, vehicleSlotID, expectedEntity) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.IsVehicleOccupied(vehicle) return end
+function VehicleComponent.IsVehicleOccupied(vehicle) end
 
 ---@param vehicleID entEntityID
 ---@param passenger gameObject
 ---@return Bool
-function VehicleComponent.IsVehicleOccupiedByHostile(vehicleID, passenger) return end
+function VehicleComponent.IsVehicleOccupiedByHostile(vehicleID, passenger) end
 
 ---@param passenger gameObject
 ---@return nil
-function VehicleComponent.OnThreatInstantDrop(passenger) return end
+function VehicleComponent.OnThreatInstantDrop(passenger) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehicleSlotID gamemountingMountingSlotId
 ---@param delay? Float
 ---@return Bool
-function VehicleComponent.OpenDoor(vehicle, vehicleSlotID, delay) return end
+function VehicleComponent.OpenDoor(vehicle, vehicleSlotID, delay) end
 
 ---@param vehicleID entEntityID
 ---@param gmType gameGodModeType
 ---@return Bool
-function VehicleComponent.PlayerPassengerHasGodModeFromCheatSystem(vehicleID, gmType) return end
+function VehicleComponent.PlayerPassengerHasGodModeFromCheatSystem(vehicleID, gmType) end
 
----@private
 ---@param passenger gameObject
 ---@return nil
-function VehicleComponent.PushVehicleNPCData(passenger) return end
+function VehicleComponent.PushVehicleNPCData(passenger) end
 
 ---@param vehicleID entEntityID
 ---@param evt redEvent
 ---@param delay? Float
 ---@return Bool
-function VehicleComponent.QueueEventToAllNonFriendlyAggressivePassengers(vehicleID, evt, delay) return end
+function VehicleComponent.QueueEventToAllNonFriendlyAggressivePassengers(vehicleID, evt, delay) end
 
 ---@param vehicle vehicleBaseObject
 ---@param evt redEvent
 ---@param delay? Float
 ---@param randomDelay? Bool
 ---@return Bool
-function VehicleComponent.QueueEventToAllPassengers(vehicle, evt, delay, randomDelay) return end
+function VehicleComponent.QueueEventToAllPassengers(vehicle, evt, delay, randomDelay) end
 
 ---@param vehicleID entEntityID
 ---@param evt redEvent
 ---@param delay? Float
 ---@param randomDelay? Bool
 ---@return Bool
-function VehicleComponent.QueueEventToAllPassengers(vehicleID, evt, delay, randomDelay) return end
+function VehicleComponent.QueueEventToAllPassengers(vehicleID, evt, delay, randomDelay) end
 
 ---@param id entEntityID
 ---@param evt redEvent
 ---@param min Float
 ---@param max Float
 ---@return Bool
-function VehicleComponent.QueueEventToAllPassengersRandomly(id, evt, min, max) return end
+function VehicleComponent.QueueEventToAllPassengersRandomly(id, evt, min, max) end
 
 ---@param vehicle vehicleBaseObject
 ---@param slotID gamemountingMountingSlotId
@@ -401,7 +399,7 @@ function VehicleComponent.QueueEventToAllPassengersRandomly(id, evt, min, max) r
 ---@param delay? Float
 ---@param randomDelay? Bool
 ---@return Bool
-function VehicleComponent.QueueEventToPassenger(vehicle, slotID, evt, delay, randomDelay) return end
+function VehicleComponent.QueueEventToPassenger(vehicle, slotID, evt, delay, randomDelay) end
 
 ---@param vehicleID entEntityID
 ---@param slotID gamemountingMountingSlotId
@@ -409,7 +407,7 @@ function VehicleComponent.QueueEventToPassenger(vehicle, slotID, evt, delay, ran
 ---@param delay? Float
 ---@param randomDelay? Bool
 ---@return Bool
-function VehicleComponent.QueueEventToPassenger(vehicleID, slotID, evt, delay, randomDelay) return end
+function VehicleComponent.QueueEventToPassenger(vehicleID, slotID, evt, delay, randomDelay) end
 
 ---@param vehicleID entEntityID
 ---@param evt redEvent
@@ -417,1198 +415,974 @@ function VehicleComponent.QueueEventToPassenger(vehicleID, slotID, evt, delay, r
 ---@param delay? Bool
 ---@param maxDelayAmount? Float
 ---@return Bool
-function VehicleComponent.QueueEventToPassengers(vehicleID, evt, passengers, delay, maxDelayAmount) return end
+function VehicleComponent.QueueEventToPassengers(vehicleID, evt, passengers, delay, maxDelayAmount) end
 
 ---@param vehicleID entEntityID
 ---@param executionOwner gameObject
 ---@param broadcastHijack? Bool
 ---@param delay? Bool
 ---@return Bool
-function VehicleComponent.QueueExitEventToAllNonFriendlyActivePassengers(vehicleID, executionOwner, broadcastHijack, delay) return end
+function VehicleComponent.QueueExitEventToAllNonFriendlyActivePassengers(vehicleID, executionOwner, broadcastHijack, delay) end
 
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function VehicleComponent.QueueHijackExitEventToInactiveDriver(vehicle) return end
+function VehicleComponent.QueueHijackExitEventToInactiveDriver(vehicle) end
 
----@private
 ---@param vehicle vehicleWheeledBaseObject
 ---@return nil
-function VehicleComponent.SendPoliceJustLostPlayerSearchCommand(vehicle) return end
+function VehicleComponent.SendPoliceJustLostPlayerSearchCommand(vehicle) end
 
 ---@param passenger gameObject
 ---@param vehicleID entEntityID
 ---@param slotName CName|string
 ---@param value Float
 ---@return CName[]
-function VehicleComponent.SetAnimsetOverrideForPassenger(passenger, vehicleID, slotName, value) return end
+function VehicleComponent.SetAnimsetOverrideForPassenger(passenger, vehicleID, slotName, value) end
 
 ---@param passenger gameObject
 ---@param value Float
 ---@return CName[]
-function VehicleComponent.SetAnimsetOverrideForPassenger(passenger, value) return end
+function VehicleComponent.SetAnimsetOverrideForPassenger(passenger, value) end
 
 ---@param vehicle vehicleBaseObject
 ---@param slotID gamemountingMountingSlotId
 ---@param toggle Bool
 ---@param speed? CName|string
 ---@return Bool
-function VehicleComponent.ToggleVehicleWindow(vehicle, slotID, toggle, speed) return end
+function VehicleComponent.ToggleVehicleWindow(vehicle, slotID, toggle, speed) end
 
----@protected
 ---@param evt vehicleAIVehicleDisabledEvent
 ---@return Bool
-function VehicleComponent:OnAIVehicleDisabledEvent(evt) return end
+function VehicleComponent:OnAIVehicleDisabledEvent(evt) end
 
----@protected
 ---@param evt vehicleAccelerateQuickhackEvent
 ---@return Bool
-function VehicleComponent:OnAccelerateQuickhackEvent(evt) return end
+function VehicleComponent:OnAccelerateQuickhackEvent(evt) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function VehicleComponent:OnAction(action, consumer) return end
+function VehicleComponent:OnAction(action, consumer) end
 
----@protected
 ---@param evt ActionDemolition
 ---@return Bool
-function VehicleComponent:OnActionDemolition(evt) return end
+function VehicleComponent:OnActionDemolition(evt) end
 
----@protected
 ---@param evt ActionEngineering
 ---@return Bool
-function VehicleComponent:OnActionEngineering(evt) return end
+function VehicleComponent:OnActionEngineering(evt) end
 
----@protected
 ---@param UseCarAlarmStim Bool
 ---@return Bool
-function VehicleComponent:OnCarAlarmHonk(UseCarAlarmStim) return end
+function VehicleComponent:OnCarAlarmHonk(UseCarAlarmStim) end
 
----@protected
 ---@param evt vehicleChangeStateEvent
 ---@return Bool
-function VehicleComponent:OnChangeState(evt) return end
+function VehicleComponent:OnChangeState(evt) end
 
----@protected
 ---@param evt VehicleCloseHood
 ---@return Bool
-function VehicleComponent:OnCloseHood(evt) return end
+function VehicleComponent:OnCloseHood(evt) end
 
----@protected
 ---@param evt VehicleCloseTrunk
 ---@return Bool
-function VehicleComponent:OnCloseTrunk(evt) return end
+function VehicleComponent:OnCloseTrunk(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VehicleComponent:OnCurrentWantedLevelChanged(value) return end
+function VehicleComponent:OnCurrentWantedLevelChanged(value) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function VehicleComponent:OnDeath(evt) return end
+function VehicleComponent:OnDeath(evt) end
 
----@protected
 ---@param evt DelayedBikeKnockOffEvent
 ---@return Bool
-function VehicleComponent:OnDelayedBikeKnockOffEvent(evt) return end
+function VehicleComponent:OnDelayedBikeKnockOffEvent(evt) end
 
----@protected
 ---@param evt DisableAlarmEvent
 ---@return Bool
-function VehicleComponent:OnDisableAlarm(evt) return end
+function VehicleComponent:OnDisableAlarm(evt) end
 
----@protected
 ---@param evt DumpBodyWorkspotDelayEvent
 ---@return Bool
-function VehicleComponent:OnDumpBodyWorkspotDelayEvent(evt) return end
+function VehicleComponent:OnDumpBodyWorkspotDelayEvent(evt) end
 
----@protected
 ---@param evt vehicleExplodeEvent
 ---@return Bool
-function VehicleComponent:OnExplodeEvent(evt) return end
+function VehicleComponent:OnExplodeEvent(evt) end
 
----@protected
 ---@param evt gameFactChangedEvent
 ---@return Bool
-function VehicleComponent:OnFactChangedEvent(evt) return end
+function VehicleComponent:OnFactChangedEvent(evt) end
 
----@protected
 ---@param evt vehicleForceBrakesQuickhackEvent
 ---@return Bool
-function VehicleComponent:OnForceBrakesQuickhackEvent(evt) return end
+function VehicleComponent:OnForceBrakesQuickhackEvent(evt) end
 
----@protected
 ---@param evt ForceCarAlarm
 ---@return Bool
-function VehicleComponent:OnForceCarAlarm(evt) return end
+function VehicleComponent:OnForceCarAlarm(evt) end
 
----@protected
 ---@param evt vehicleGridDestructionEvent
 ---@return Bool
-function VehicleComponent:OnGridDestruction(evt) return end
+function VehicleComponent:OnGridDestruction(evt) end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function VehicleComponent:OnHUDInstruction(evt) return end
+function VehicleComponent:OnHUDInstruction(evt) end
 
----@protected
 ---@param evt vehicleHasVehicleBeenFlippedOverForSomeTimeEvent
 ---@return Bool
-function VehicleComponent:OnHasVehicleBeenFlippedOverForSomeTimeEvent(evt) return end
+function VehicleComponent:OnHasVehicleBeenFlippedOverForSomeTimeEvent(evt) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function VehicleComponent:OnInteractionActivated(evt) return end
+function VehicleComponent:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt gameinteractionsChoiceEvent
 ---@return Bool
-function VehicleComponent:OnInteractionUsed(evt) return end
+function VehicleComponent:OnInteractionUsed(evt) end
 
----@protected
 ---@param evt MinutePassedEvent
 ---@return Bool
-function VehicleComponent:OnMinutePassedEvent(evt) return end
+function VehicleComponent:OnMinutePassedEvent(evt) end
 
----@protected
 ---@param evt gamemountingMountingEvent
 ---@return Bool
-function VehicleComponent:OnMountingEvent(evt) return end
+function VehicleComponent:OnMountingEvent(evt) end
 
----@protected
 ---@param evt gameObjectActionRefreshEvent
 ---@return Bool
-function VehicleComponent:OnObjectActionRefreshEvent(evt) return end
+function VehicleComponent:OnObjectActionRefreshEvent(evt) end
 
----@protected
 ---@param evt VehicleOpenHood
 ---@return Bool
-function VehicleComponent:OnOpenHood(evt) return end
+function VehicleComponent:OnOpenHood(evt) end
 
----@protected
 ---@param evt VehicleOpenTrunk
 ---@return Bool
-function VehicleComponent:OnOpenTrunk(evt) return end
+function VehicleComponent:OnOpenTrunk(evt) end
 
----@protected
 ---@param evt PickupBodyWorkspotDelayEvent
 ---@return Bool
-function VehicleComponent:OnPickupBodyWorkspotDelayEvent(evt) return end
+function VehicleComponent:OnPickupBodyWorkspotDelayEvent(evt) end
 
----@protected
 ---@param evt QuickSlotCommandUsed
 ---@return Bool
-function VehicleComponent:OnQuickSlotCommandUsed(evt) return end
+function VehicleComponent:OnQuickSlotCommandUsed(evt) end
 
----@protected
 ---@param evt RadioToggleEvent
 ---@return Bool
-function VehicleComponent:OnRadioToggleEvent(evt) return end
+function VehicleComponent:OnRadioToggleEvent(evt) end
 
----@protected
 ---@param evt vehicleRemoteControlCameraToggleEvent
 ---@return Bool
-function VehicleComponent:OnRemoteControlCameraToggleEvent(evt) return end
+function VehicleComponent:OnRemoteControlCameraToggleEvent(evt) end
 
----@protected
 ---@param evt vehicleRemoteControlEvent
 ---@return Bool
-function VehicleComponent:OnRemoteControlEvent(evt) return end
+function VehicleComponent:OnRemoteControlEvent(evt) end
 
----@protected
 ---@param evt RepeatDirectEnvironmentalHazardStimEvent
 ---@return Bool
-function VehicleComponent:OnRepeatDirectEnvironmentalHazardStimuli(evt) return end
+function VehicleComponent:OnRepeatDirectEnvironmentalHazardStimuli(evt) end
 
----@protected
 ---@param evt SetIgnoreAutoDoorCloseEvent
 ---@return Bool
-function VehicleComponent:OnSetIgnoreAutoDoorCloseEvent(evt) return end
+function VehicleComponent:OnSetIgnoreAutoDoorCloseEvent(evt) end
 
----@protected
 ---@param evt vehicleSummonFinishedEvent
 ---@return Bool
-function VehicleComponent:OnSummonFinishedEvent(evt) return end
+function VehicleComponent:OnSummonFinishedEvent(evt) end
 
----@protected
 ---@param evt vehicleSummonStartedEvent
 ---@return Bool
-function VehicleComponent:OnSummonStartedEvent(evt) return end
+function VehicleComponent:OnSummonStartedEvent(evt) end
 
----@protected
 ---@param evt vehicleToggleBrokenTireEvent
 ---@return Bool
-function VehicleComponent:OnToggleBrokenTireEvent(evt) return end
+function VehicleComponent:OnToggleBrokenTireEvent(evt) end
 
----@protected
 ---@param evt ToggleDoorInteractionEvent
 ---@return Bool
-function VehicleComponent:OnToggleDoorInteractionEvent(evt) return end
+function VehicleComponent:OnToggleDoorInteractionEvent(evt) end
 
----@protected
 ---@param evt TriggerVehicleRemoteControlEvent
 ---@return Bool
-function VehicleComponent:OnTriggerVehicleRemoteControlEvent(evt) return end
+function VehicleComponent:OnTriggerVehicleRemoteControlEvent(evt) end
 
----@protected
 ---@param evt gamemountingUnmountingEvent
 ---@return Bool
-function VehicleComponent:OnUnmountingEvent(evt) return end
+function VehicleComponent:OnUnmountingEvent(evt) end
 
----@protected
 ---@param evt UploadProgramProgressEvent
 ---@return Bool
-function VehicleComponent:OnUploadProgramProgress(evt) return end
+function VehicleComponent:OnUploadProgramProgress(evt) end
 
----@protected
 ---@param evt VehicleBodyDisposalPerformedEvent
 ---@return Bool
-function VehicleComponent:OnVehicleBodyDisposalPerformedEvent(evt) return end
+function VehicleComponent:OnVehicleBodyDisposalPerformedEvent(evt) end
 
----@protected
 ---@param evt vehicleChaseTargetEvent
 ---@return Bool
-function VehicleComponent:OnVehicleChaseTargetEvent(evt) return end
+function VehicleComponent:OnVehicleChaseTargetEvent(evt) end
 
----@protected
 ---@param evt VehicleCrystalDomeMeshVisibilityDelayEvent
 ---@return Bool
-function VehicleComponent:OnVehicleCrystalDomeMeshVisibilityDelayEvent(evt) return end
+function VehicleComponent:OnVehicleCrystalDomeMeshVisibilityDelayEvent(evt) end
 
----@protected
 ---@param evt VehicleCrystalDomeOffDelayEvent
 ---@return Bool
-function VehicleComponent:OnVehicleCrystalDomeOffDelayEvent(evt) return end
+function VehicleComponent:OnVehicleCrystalDomeOffDelayEvent(evt) end
 
----@protected
 ---@param evt VehicleCrystalDomeOnDelayEvent
 ---@return Bool
-function VehicleComponent:OnVehicleCrystalDomeOnDelayEvent(evt) return end
+function VehicleComponent:OnVehicleCrystalDomeOnDelayEvent(evt) end
 
----@protected
 ---@param evt VehicleCycleLightsEvent
 ---@return Bool
-function VehicleComponent:OnVehicleCycleHeadLightsEvent(evt) return end
+function VehicleComponent:OnVehicleCycleHeadLightsEvent(evt) end
 
----@protected
 ---@param evt VehicleDamageStageTurnOffEvent
 ---@return Bool
-function VehicleComponent:OnVehicleDamageStageTurnOffEvent(evt) return end
+function VehicleComponent:OnVehicleDamageStageTurnOffEvent(evt) end
 
----@protected
 ---@param evt VehicleQuestDelayedHornEvent
 ---@return Bool
-function VehicleComponent:OnVehicleDelayedQuestHornEvent(evt) return end
+function VehicleComponent:OnVehicleDelayedQuestHornEvent(evt) end
 
----@protected
 ---@param evt VehicleDoorClose
 ---@return Bool
-function VehicleComponent:OnVehicleDoorClose(evt) return end
+function VehicleComponent:OnVehicleDoorClose(evt) end
 
----@protected
 ---@param evt VehicleDoorInteraction
 ---@return Bool
-function VehicleComponent:OnVehicleDoorInteraction(evt) return end
+function VehicleComponent:OnVehicleDoorInteraction(evt) end
 
----@protected
 ---@param evt VehicleDoorInteractionStateChange
 ---@return Bool
-function VehicleComponent:OnVehicleDoorInteractionStateChange(evt) return end
+function VehicleComponent:OnVehicleDoorInteractionStateChange(evt) end
 
----@protected
 ---@param evt VehicleDoorOpen
 ---@return Bool
-function VehicleComponent:OnVehicleDoorOpen(evt) return end
+function VehicleComponent:OnVehicleDoorOpen(evt) end
 
----@protected
 ---@param evt VehicleDumpBody
 ---@return Bool
-function VehicleComponent:OnVehicleDumpBody(evt) return end
+function VehicleComponent:OnVehicleDumpBody(evt) end
 
----@protected
 ---@param evt VehicleDumpBodyCloseTrunkEvent
 ---@return Bool
-function VehicleComponent:OnVehicleDumpBodyCloseTrunkEvent(evt) return end
+function VehicleComponent:OnVehicleDumpBodyCloseTrunkEvent(evt) end
 
----@protected
 ---@param evt VehicleExitDelayed
 ---@return Bool
-function VehicleComponent:OnVehicleExitDelayedEvent(evt) return end
+function VehicleComponent:OnVehicleExitDelayedEvent(evt) end
 
----@protected
 ---@param evt VehicleExternalDoorRequestEvent
 ---@return Bool
-function VehicleComponent:OnVehicleExternalDoorRequestEvent(evt) return end
+function VehicleComponent:OnVehicleExternalDoorRequestEvent(evt) end
 
----@protected
 ---@param evt VehicleExternalWindowRequestEvent
 ---@return Bool
-function VehicleComponent:OnVehicleExternalWindowRequestEvent(evt) return end
+function VehicleComponent:OnVehicleExternalWindowRequestEvent(evt) end
 
----@protected
 ---@param evt vehicleFinishedMountingEvent
 ---@return Bool
-function VehicleComponent:OnVehicleFinishedMountingEvent(evt) return end
+function VehicleComponent:OnVehicleFinishedMountingEvent(evt) end
 
----@protected
 ---@param evt vehicleFlippedOverEvent
 ---@return Bool
-function VehicleComponent:OnVehicleFlippedOverEvent(evt) return end
+function VehicleComponent:OnVehicleFlippedOverEvent(evt) end
 
----@protected
 ---@param evt VehicleForceOccupantOut
 ---@return Bool
-function VehicleComponent:OnVehicleForceOccupantOut(evt) return end
+function VehicleComponent:OnVehicleForceOccupantOut(evt) end
 
----@protected
 ---@param evt VehicleHornOffDelayEvent
 ---@return Bool
-function VehicleComponent:OnVehicleHornOffDelayEvent(evt) return end
+function VehicleComponent:OnVehicleHornOffDelayEvent(evt) end
 
----@protected
 ---@param evt VehicleHornProbsEvent
 ---@return Bool
-function VehicleComponent:OnVehicleHornProbEvent(evt) return end
+function VehicleComponent:OnVehicleHornProbEvent(evt) end
 
----@protected
 ---@param evt VehicleLightQuestChangeColorEvent
 ---@return Bool
-function VehicleComponent:OnVehicleLightQuestChangeColorEvent(evt) return end
+function VehicleComponent:OnVehicleLightQuestChangeColorEvent(evt) end
 
----@protected
 ---@param evt VehicleLightQuestToggleEvent
 ---@return Bool
-function VehicleComponent:OnVehicleLightQuestToggleEvent(evt) return end
+function VehicleComponent:OnVehicleLightQuestToggleEvent(evt) end
 
----@protected
 ---@param evt VehicleLightSetupEvent
 ---@return Bool
-function VehicleComponent:OnVehicleLightSetupEvent(evt) return end
+function VehicleComponent:OnVehicleLightSetupEvent(evt) end
 
----@protected
 ---@param evt vehicleNotifyPassengersOfCollision
 ---@return Bool
-function VehicleComponent:OnVehicleNotifyPassengersOfCollision(evt) return end
+function VehicleComponent:OnVehicleNotifyPassengersOfCollision(evt) end
 
----@protected
 ---@param evt vehicleOnPartDetachedEvent
 ---@return Bool
-function VehicleComponent:OnVehicleOnPartDetached(evt) return end
+function VehicleComponent:OnVehicleOnPartDetached(evt) end
 
----@protected
 ---@param evt VehiclePlayerTrunk
 ---@return Bool
-function VehicleComponent:OnVehiclePlayerTrunk(evt) return end
+function VehicleComponent:OnVehiclePlayerTrunk(evt) end
 
----@protected
 ---@param evt VehicleQuestAVThrusterEvent
 ---@return Bool
-function VehicleComponent:OnVehicleQuestAVThrusterEvent(evt) return end
+function VehicleComponent:OnVehicleQuestAVThrusterEvent(evt) end
 
----@protected
 ---@param evt VehicleQuestCrystalDomeEvent
 ---@return Bool
-function VehicleComponent:OnVehicleQuestCrystalDomeEvent(evt) return end
+function VehicleComponent:OnVehicleQuestCrystalDomeEvent(evt) end
 
----@protected
 ---@param evt VehicleQuestDoorLocked
 ---@return Bool
-function VehicleComponent:OnVehicleQuestDoorLocked(evt) return end
+function VehicleComponent:OnVehicleQuestDoorLocked(evt) end
 
----@protected
 ---@param evt VehicleQuestHornEvent
 ---@return Bool
-function VehicleComponent:OnVehicleQuestHornEvent(evt) return end
+function VehicleComponent:OnVehicleQuestHornEvent(evt) end
 
----@protected
 ---@param evt vehicleQuestNodeSetVehicleRemoteControlled
 ---@return Bool
-function VehicleComponent:OnVehicleQuestNodeActivateRemoteVehicleControl(evt) return end
+function VehicleComponent:OnVehicleQuestNodeActivateRemoteVehicleControl(evt) end
 
----@protected
 ---@param evt VehicleQuestSirenEvent
 ---@return Bool
-function VehicleComponent:OnVehicleQuestSirenEvent(evt) return end
+function VehicleComponent:OnVehicleQuestSirenEvent(evt) end
 
----@protected
 ---@param evt VehicleQuestToggleEngineEvent
 ---@return Bool
-function VehicleComponent:OnVehicleQuestToggleEngineEvent(evt) return end
+function VehicleComponent:OnVehicleQuestToggleEngineEvent(evt) end
 
----@protected
 ---@param evt VehicleQuestVisualDestructionEvent
 ---@return Bool
-function VehicleComponent:OnVehicleQuestVisualDestructionEvent(evt) return end
+function VehicleComponent:OnVehicleQuestVisualDestructionEvent(evt) end
 
----@protected
 ---@param evt VehicleQuestWindowDestructionEvent
 ---@return Bool
-function VehicleComponent:OnVehicleQuestWindowDestructionEvent(evt) return end
+function VehicleComponent:OnVehicleQuestWindowDestructionEvent(evt) end
 
----@protected
 ---@param evt VehicleRaceClockUpdateEvent
 ---@return Bool
-function VehicleComponent:OnVehicleRaceClockUpdateEvent(evt) return end
+function VehicleComponent:OnVehicleRaceClockUpdateEvent(evt) end
 
----@protected
 ---@param evt VehicleRaceQuestEvent
 ---@return Bool
-function VehicleComponent:OnVehicleRaceQuestEvent(evt) return end
+function VehicleComponent:OnVehicleRaceQuestEvent(evt) end
 
----@protected
 ---@param evt VehicleRadioEvent
 ---@return Bool
-function VehicleComponent:OnVehicleRadioEvent(evt) return end
+function VehicleComponent:OnVehicleRadioEvent(evt) end
 
----@protected
 ---@param evt vehicleRadioStationInitialized
 ---@return Bool
-function VehicleComponent:OnVehicleRadioStationInitialized(evt) return end
+function VehicleComponent:OnVehicleRadioStationInitialized(evt) end
 
----@protected
 ---@param evt VehicleRadioTierEvent
 ---@return Bool
-function VehicleComponent:OnVehicleRadioTierEvent(evt) return end
+function VehicleComponent:OnVehicleRadioTierEvent(evt) end
 
----@protected
 ---@param re vehicleRepairEvent
 ---@return Bool
-function VehicleComponent:OnVehicleRepairEvent(re) return end
+function VehicleComponent:OnVehicleRepairEvent(re) end
 
----@protected
 ---@param evt VehicleSeatReservationEvent
 ---@return Bool
-function VehicleComponent:OnVehicleSeatReservationEvent(evt) return end
+function VehicleComponent:OnVehicleSeatReservationEvent(evt) end
 
----@protected
 ---@param evt VehicleSirenDelayEvent
 ---@return Bool
-function VehicleComponent:OnVehicleSirenDelayEvent(evt) return end
+function VehicleComponent:OnVehicleSirenDelayEvent(evt) end
 
----@protected
 ---@param evt vehicleStartedMountingEvent
 ---@return Bool
-function VehicleComponent:OnVehicleStartedMountingEvent(evt) return end
+function VehicleComponent:OnVehicleStartedMountingEvent(evt) end
 
----@protected
 ---@param evt VehicleStartedUnmountingEvent
 ---@return Bool
-function VehicleComponent:OnVehicleStartedUnmountingEvent(evt) return end
+function VehicleComponent:OnVehicleStartedUnmountingEvent(evt) end
 
----@protected
 ---@param evt VehicleTakeBody
 ---@return Bool
-function VehicleComponent:OnVehicleTakeBody(evt) return end
+function VehicleComponent:OnVehicleTakeBody(evt) end
 
----@protected
 ---@param evt vehicleWaterEvent
 ---@return Bool
-function VehicleComponent:OnVehicleWaterEvent(evt) return end
+function VehicleComponent:OnVehicleWaterEvent(evt) end
 
----@protected
 ---@param evt VehicleWindowClose
 ---@return Bool
-function VehicleComponent:OnVehicleWindowClose(evt) return end
+function VehicleComponent:OnVehicleWindowClose(evt) end
 
----@protected
 ---@param evt VehicleWindowOpen
 ---@return Bool
-function VehicleComponent:OnVehicleWindowOpen(evt) return end
+function VehicleComponent:OnVehicleWindowOpen(evt) end
 
----@protected
 ---@param evt vehicleMountedWeaponShootEvent
 ---@return Bool
-function VehicleComponent:OnWeaponShootEvent(evt) return end
+function VehicleComponent:OnWeaponShootEvent(evt) end
 
----@protected
 ---@param type? CName|string
 ---@return nil
-function VehicleComponent:ApplyVehicleDOT(type) return end
+function VehicleComponent:ApplyVehicleDOT(type) end
 
----@private
 ---@param auxillaryFX? Bool
 ---@return nil
-function VehicleComponent:BreakAllDamageStageFX(auxillaryFX) return end
+function VehicleComponent:BreakAllDamageStageFX(auxillaryFX) end
 
----@private
 ---@return nil
-function VehicleComponent:BroadcastEnvironmentalHazardStimuli() return end
+function VehicleComponent:BroadcastEnvironmentalHazardStimuli() end
 
----@private
 ---@return Bool
-function VehicleComponent:CanShowMappin() return end
+function VehicleComponent:CanShowMappin() end
 
----@private
 ---@return nil
-function VehicleComponent:CancelVehicleExitDelayedEvent() return end
+function VehicleComponent:CancelVehicleExitDelayedEvent() end
 
----@private
 ---@return nil
-function VehicleComponent:CheckAboutToExplodeStateOnFlip() return end
+function VehicleComponent:CheckAboutToExplodeStateOnFlip() end
 
 ---@param impactImpulse Float
 ---@return nil
-function VehicleComponent:CheckForDrag(impactImpulse) return end
+function VehicleComponent:CheckForDrag(impactImpulse) end
 
----@protected
 ---@return nil
-function VehicleComponent:CleanUpRace() return end
+function VehicleComponent:CleanUpRace() end
 
----@private
 ---@return nil
-function VehicleComponent:ClearImmortalityMode() return end
+function VehicleComponent:ClearImmortalityMode() end
 
----@private
 ---@param doors CName[]|string[]
 ---@return nil
-function VehicleComponent:CloseSelectedDoors(doors) return end
+function VehicleComponent:CloseSelectedDoors(doors) end
 
----@private
 ---@param door vehicleEVehicleDoor
 ---@param state vehicleEQuestVehicleDoorState
 ---@return nil
-function VehicleComponent:CreateAndSendDefaultStateEvent(door, state) return end
+function VehicleComponent:CreateAndSendDefaultStateEvent(door, state) end
 
----@private
 ---@param damageMultiplier Float
 ---@param impactPoint Vector3
 ---@param otherVehicle gameObject
 ---@param rammedOtherVehicle Bool
 ---@param otherVehicleRammed Bool
 ---@return nil
-function VehicleComponent:CreateHitEventOnSelf(damageMultiplier, impactPoint, otherVehicle, rammedOtherVehicle, otherVehicleRammed) return end
+function VehicleComponent:CreateHitEventOnSelf(damageMultiplier, impactPoint, otherVehicle, rammedOtherVehicle, otherVehicleRammed) end
 
----@private
 ---@return nil
-function VehicleComponent:CreateMappin() return end
+function VehicleComponent:CreateMappin() end
 
----@private
 ---@param instigator entEntity
 ---@return nil
-function VehicleComponent:CreateObjectActionsCallbackController(instigator) return end
+function VehicleComponent:CreateObjectActionsCallbackController(instigator) end
 
----@private
 ---@param quickhackMappinScriptData GameplayRoleMappinData
 ---@return nil
-function VehicleComponent:CreateQuickHackMappin(quickhackMappinScriptData) return end
+function VehicleComponent:CreateQuickHackMappin(quickhackMappinScriptData) end
 
----@private
 ---@param passenger gameObject
 ---@param instigator gameObject
 ---@param hitDirection Vector4
 ---@return nil
-function VehicleComponent:DamagePassengerInCollision(passenger, instigator, hitDirection) return end
+function VehicleComponent:DamagePassengerInCollision(passenger, instigator, hitDirection) end
 
 ---@return nil
-function VehicleComponent:DestroyMappin() return end
+function VehicleComponent:DestroyMappin() end
 
----@private
 ---@return nil
-function VehicleComponent:DestroyObjectActionsCallbackController() return end
+function VehicleComponent:DestroyObjectActionsCallbackController() end
 
----@private
 ---@return nil
-function VehicleComponent:DestroyQuickHackMappin() return end
+function VehicleComponent:DestroyQuickHackMappin() end
 
----@private
 ---@return nil
-function VehicleComponent:DestroyRandomWindow() return end
+function VehicleComponent:DestroyRandomWindow() end
 
----@private
 ---@param gridID Int32
 ---@param gridState Float
 ---@return nil
-function VehicleComponent:DetermineAdditionalEngineFX(gridID, gridState) return end
+function VehicleComponent:DetermineAdditionalEngineFX(gridID, gridState) end
 
----@protected
 ---@return nil
-function VehicleComponent:DetermineInteractionState() return end
+function VehicleComponent:DetermineInteractionState() end
 
----@protected
 ---@param layerName CName|string
 ---@return nil
-function VehicleComponent:DetermineInteractionState(layerName) return end
+function VehicleComponent:DetermineInteractionState(layerName) end
 
----@private
 ---@return nil
-function VehicleComponent:DisableRadio() return end
+function VehicleComponent:DisableRadio() end
 
----@private
 ---@return nil
-function VehicleComponent:DisableTargetingComponents() return end
+function VehicleComponent:DisableTargetingComponents() end
 
----@private
 ---@return nil
-function VehicleComponent:DisableVehicle() return end
+function VehicleComponent:DisableVehicle() end
 
----@private
 ---@return nil
-function VehicleComponent:DoPanzerCleanup() return end
+function VehicleComponent:DoPanzerCleanup() end
 
----@private
 ---@return nil
-function VehicleComponent:DoPreventionVehicleCleanup() return end
+function VehicleComponent:DoPreventionVehicleCleanup() end
 
----@private
 ---@param broadcast Bool
 ---@return nil
-function VehicleComponent:DrivingStimuli(broadcast) return end
+function VehicleComponent:DrivingStimuli(broadcast) end
 
----@private
 ---@return nil
-function VehicleComponent:EnableRadio() return end
+function VehicleComponent:EnableRadio() end
 
----@private
 ---@return nil
-function VehicleComponent:EnableTargetingComponents() return end
+function VehicleComponent:EnableTargetingComponents() end
 
----@private
 ---@param destruction Float
 ---@return Int32
-function VehicleComponent:EvaluateDamageLevel(destruction) return end
+function VehicleComponent:EvaluateDamageLevel(destruction) end
 
----@protected
 ---@param doorID CName|string
 ---@param immediate Bool
 ---@param doorState vehicleVehicleDoorState
 ---@return nil
-function VehicleComponent:EvaluateDoorReaction(doorID, immediate, doorState) return end
+function VehicleComponent:EvaluateDoorReaction(doorID, immediate, doorState) end
 
----@private
 ---@return nil
-function VehicleComponent:EvaluateDoorState() return end
+function VehicleComponent:EvaluateDoorState() end
 
----@private
 ---@return nil
-function VehicleComponent:EvaluateHoodInteractions() return end
+function VehicleComponent:EvaluateHoodInteractions() end
 
----@private
 ---@return nil
-function VehicleComponent:EvaluateInteractions() return end
+function VehicleComponent:EvaluateInteractions() end
 
----@protected
 ---@return nil
-function VehicleComponent:EvaluatePanzerInteractions() return end
+function VehicleComponent:EvaluatePanzerInteractions() end
 
----@private
 ---@return nil
-function VehicleComponent:EvaluateTrunkAndHoodInteractions() return end
+function VehicleComponent:EvaluateTrunkAndHoodInteractions() end
 
----@private
 ---@return nil
-function VehicleComponent:EvaluateTrunkInteractions() return end
+function VehicleComponent:EvaluateTrunkInteractions() end
 
----@protected
 ---@param doorID CName|string
 ---@param speed CName|string
 ---@return nil
-function VehicleComponent:EvaluateWindowReaction(doorID, speed) return end
+function VehicleComponent:EvaluateWindowReaction(doorID, speed) end
 
----@private
 ---@return nil
-function VehicleComponent:EvaluateWindowState() return end
+function VehicleComponent:EvaluateWindowState() end
 
----@private
 ---@param choice gameinteractionsChoice
 ---@param executor gameObject
 ---@return nil
-function VehicleComponent:ExecuteAction(choice, executor) return end
+function VehicleComponent:ExecuteAction(choice, executor) end
 
----@private
 ---@param action gamedeviceAction
 ---@param executor? gameObject
 ---@return nil
-function VehicleComponent:ExecuteAction(action, executor) return end
+function VehicleComponent:ExecuteAction(action, executor) end
 
----@private
 ---@param instigator gameObject
 ---@return nil
-function VehicleComponent:ExplodeVehicle(instigator) return end
+function VehicleComponent:ExplodeVehicle(instigator) end
 
 ---@return nil
-function VehicleComponent:FinishTrunkBodyPickup() return end
+function VehicleComponent:FinishTrunkBodyPickup() end
 
 ---@return nil
-function VehicleComponent:ForceAboutToExplodeState() return end
+function VehicleComponent:ForceAboutToExplodeState() end
 
----@private
 ---@param doorState vehicleVehicleDoorState
 ---@param door vehicleEVehicleDoor
 ---@return CName
-function VehicleComponent:GetAnimEventName(doorState, door) return end
+function VehicleComponent:GetAnimEventName(doorState, door) end
 
----@private
 ---@param checkOccupied? Bool
 ---@return Bool
-function VehicleComponent:GetAnyDoorAvailable(checkOccupied) return end
+function VehicleComponent:GetAnyDoorAvailable(checkOccupied) end
 
----@private
 ---@param checkOccupied? Bool
 ---@return Bool
-function VehicleComponent:GetAnySlotAvailable(checkOccupied) return end
+function VehicleComponent:GetAnySlotAvailable(checkOccupied) end
 
----@protected
 ---@return Bool
-function VehicleComponent:GetIsMounted() return end
+function VehicleComponent:GetIsMounted() end
 
 ---@return VehicleComponentPS
-function VehicleComponent:GetPS() return end
+function VehicleComponent:GetPS() end
 
----@protected
 ---@return vehicleBaseObject
-function VehicleComponent:GetVehicle() return end
+function VehicleComponent:GetVehicle() end
 
----@private
 ---@return vehicleController
-function VehicleComponent:GetVehicleController() return end
+function VehicleComponent:GetVehicleController() end
 
----@private
 ---@return vehicleControllerPS
-function VehicleComponent:GetVehicleControllerPS() return end
+function VehicleComponent:GetVehicleControllerPS() end
 
 ---@return Float
-function VehicleComponent:GetVehicleDecayThreshold() return end
+function VehicleComponent:GetVehicleDecayThreshold() end
 
----@protected
 ---@param doorName CName|string
 ---@return Bool, vehicleEVehicleDoor door
-function VehicleComponent:GetVehicleDoorEnum(doorName) return end
+function VehicleComponent:GetVehicleDoorEnum(doorName) end
 
 ---@return String
-function VehicleComponent:GetVehicleStateForScanner() return end
+function VehicleComponent:GetVehicleStateForScanner() end
 
 ---@param impactVelocityChange Float
 ---@param impactHitNormal Vector4
 ---@return nil
-function VehicleComponent:HandleBikeCollisionReaction(impactVelocityChange, impactHitNormal) return end
+function VehicleComponent:HandleBikeCollisionReaction(impactVelocityChange, impactHitNormal) end
 
 ---@return Bool
-function VehicleComponent:HasPreventionPassenger() return end
+function VehicleComponent:HasPreventionPassenger() end
 
----@private
 ---@return nil
-function VehicleComponent:HonkAndFlash() return end
+function VehicleComponent:HonkAndFlash() end
 
----@private
 ---@return nil
-function VehicleComponent:InitialVehcileSetup() return end
+function VehicleComponent:InitialVehcileSetup() end
 
 ---@param instigator gameObject
 ---@return nil
-function VehicleComponent:InjectThreat(instigator) return end
+function VehicleComponent:InjectThreat(instigator) end
 
 ---@return Bool
-function VehicleComponent:IsBeingDragged() return end
+function VehicleComponent:IsBeingDragged() end
 
----@private
 ---@return nil
-function VehicleComponent:IsPlayerVehicle() return end
-
----@protected
----@return Bool
-function VehicleComponent:IsRadioEnabled() return end
+function VehicleComponent:IsPlayerVehicle() end
 
 ---@return Bool
-function VehicleComponent:IsVehicleImmuneInDecay() return end
+function VehicleComponent:IsRadioEnabled() end
 
 ---@return Bool
-function VehicleComponent:IsVehicleInDecay() return end
+function VehicleComponent:IsVehicleImmuneInDecay() end
 
 ---@return Bool
-function VehicleComponent:IsVehicleParked() return end
+function VehicleComponent:IsVehicleInDecay() end
 
----@protected
+---@return Bool
+function VehicleComponent:IsVehicleParked() end
+
 ---@param instigator gameObject
 ---@return nil
-function VehicleComponent:KillPassengers(instigator) return end
+function VehicleComponent:KillPassengers(instigator) end
 
----@private
 ---@return nil
-function VehicleComponent:LoadExplodedState() return end
+function VehicleComponent:LoadExplodedState() end
 
----@protected
 ---@param object gameObject
 ---@param value Bool
 ---@return nil
-function VehicleComponent:ManageAdditionalAnimFeatures(object, value) return end
+function VehicleComponent:ManageAdditionalAnimFeatures(object, value) end
 
----@private
 ---@param npcBody gameObject
 ---@return nil
-function VehicleComponent:MountBodyToPlayer(npcBody) return end
+function VehicleComponent:MountBodyToPlayer(npcBody) end
 
----@protected
 ---@param parentID entEntityID
 ---@param childId entEntityID
 ---@param slot CName|string
 ---@return nil
-function VehicleComponent:MountEntityToSlot(parentID, childId, slot) return end
+function VehicleComponent:MountEntityToSlot(parentID, childId, slot) end
 
 ---@return nil
-function VehicleComponent:MountNpcBodyToTrunk() return end
+function VehicleComponent:MountNpcBodyToTrunk() end
 
----@private
 ---@return nil
-function VehicleComponent:OnGameAttach() return end
+function VehicleComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function VehicleComponent:OnGameDetach() return end
+function VehicleComponent:OnGameDetach() end
 
 ---@param deadEntityID entEntityID
 ---@return nil
-function VehicleComponent:OnPreventionPassengerDeath(deadEntityID) return end
+function VehicleComponent:OnPreventionPassengerDeath(deadEntityID) end
 
----@protected
 ---@param state Bool
 ---@return nil
-function VehicleComponent:OnVehicleCameraChange(state) return end
+function VehicleComponent:OnVehicleCameraChange(state) end
 
----@protected
 ---@param rpm Float
 ---@return nil
-function VehicleComponent:OnVehicleRPMChange(rpm) return end
+function VehicleComponent:OnVehicleRPMChange(rpm) end
 
----@protected
 ---@param speed Float
 ---@return nil
-function VehicleComponent:OnVehicleSpeedChange(speed) return end
+function VehicleComponent:OnVehicleSpeedChange(speed) end
 
----@protected
 ---@return nil
-function VehicleComponent:PassGameTimeToVehBB() return end
+function VehicleComponent:PassGameTimeToVehBB() end
 
----@private
 ---@return nil
-function VehicleComponent:PlayCrystalDomeGlitchEffect() return end
+function VehicleComponent:PlayCrystalDomeGlitchEffect() end
 
 ---@param honkTime Float
 ---@param delayTime Float
 ---@return nil
-function VehicleComponent:PlayDelayedHonk(honkTime, delayTime) return end
+function VehicleComponent:PlayDelayedHonk(honkTime, delayTime) end
 
 ---@param honkTime Float
 ---@return nil
-function VehicleComponent:PlayHonkForDuration(honkTime) return end
+function VehicleComponent:PlayHonkForDuration(honkTime) end
 
----@private
 ---@return nil
-function VehicleComponent:PlaySummonArrivalSFX() return end
+function VehicleComponent:PlaySummonArrivalSFX() end
 
----@private
 ---@return nil
-function VehicleComponent:ProcessExplosionEffects() return end
+function VehicleComponent:ProcessExplosionEffects() end
 
----@private
 ---@param id entEntityID
 ---@return nil
-function VehicleComponent:PushVehicleNPCDataToAllPassengers(id) return end
+function VehicleComponent:PushVehicleNPCDataToAllPassengers(id) end
 
----@private
 ---@param sourceName CName|string
 ---@return Bool
-function VehicleComponent:QueueLethalVehicleImpactToAllNonFriendlyAggressivePassengers(sourceName) return end
+function VehicleComponent:QueueLethalVehicleImpactToAllNonFriendlyAggressivePassengers(sourceName) end
 
----@private
 ---@param target gameObject
 ---@param instigator gameObject
 ---@param sourceName CName|string
 ---@return nil
-function VehicleComponent:QueueVehicleImpactLethalHitEvent(target, instigator, sourceName) return end
+function VehicleComponent:QueueVehicleImpactLethalHitEvent(target, instigator, sourceName) end
 
 ---@param destruction Float
 ---@return nil
-function VehicleComponent:ReactToHPChange(destruction) return end
+function VehicleComponent:ReactToHPChange(destruction) end
 
----@private
 ---@return nil
-function VehicleComponent:RegisterInputListener() return end
+function VehicleComponent:RegisterInputListener() end
 
----@private
 ---@param shouldRegister Bool
 ---@return nil
-function VehicleComponent:RegisterToHUDManager(shouldRegister) return end
+function VehicleComponent:RegisterToHUDManager(shouldRegister) end
 
----@private
 ---@return nil
-function VehicleComponent:RegisterWantedLevelListener() return end
+function VehicleComponent:RegisterWantedLevelListener() end
 
----@private
 ---@return nil
-function VehicleComponent:RemoveEnvironmentalHazardStimuli() return end
+function VehicleComponent:RemoveEnvironmentalHazardStimuli() end
 
----@private
 ---@return nil
-function VehicleComponent:RemoveQuickhackQueue() return end
+function VehicleComponent:RemoveQuickhackQueue() end
 
----@protected
 ---@return nil
-function VehicleComponent:RemoveVehicleDOT() return end
+function VehicleComponent:RemoveVehicleDOT() end
 
----@private
 ---@return nil
-function VehicleComponent:RepairVehicle() return end
+function VehicleComponent:RepairVehicle() end
 
----@protected
 ---@return nil
-function VehicleComponent:RequestHUDRefresh() return end
+function VehicleComponent:RequestHUDRefresh() end
 
----@private
 ---@param gridID Int32
 ---@param gridState Float
 ---@return nil
-function VehicleComponent:SendDestructionDataToGraph(gridID, gridState) return end
+function VehicleComponent:SendDestructionDataToGraph(gridID, gridState) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function VehicleComponent:SendDirectEnvironmentalHazardStimuli(target) return end
+function VehicleComponent:SendDirectEnvironmentalHazardStimuli(target) end
 
----@private
 ---@return nil
-function VehicleComponent:SendExplodedAIEvent() return end
+function VehicleComponent:SendExplodedAIEvent() end
 
----@private
 ---@param park Bool
 ---@return nil
-function VehicleComponent:SendParkEvent(park) return end
+function VehicleComponent:SendParkEvent(park) end
 
----@protected
 ---@param isMounting Bool
 ---@param slotID CName|string
 ---@param character gameObject
 ---@return nil
-function VehicleComponent:SendVehicleStartedUnmountingEventToPS(isMounting, slotID, character) return end
+function VehicleComponent:SendVehicleStartedUnmountingEventToPS(isMounting, slotID, character) end
 
 ---@param evtActivationTime Float
 ---@return nil
-function VehicleComponent:SetDelayDisableCarAlarm(evtActivationTime) return end
+function VehicleComponent:SetDelayDisableCarAlarm(evtActivationTime) end
 
----@protected
 ---@param door vehicleEVehicleDoor
 ---@param state vehicleVehicleDoorState
 ---@return nil
-function VehicleComponent:SetDoorAnimFeatureData(door, state) return end
+function VehicleComponent:SetDoorAnimFeatureData(door, state) end
 
----@private
 ---@return nil
-function VehicleComponent:SetImmortalityMode() return end
+function VehicleComponent:SetImmortalityMode() end
 
----@protected
 ---@param limit Int32
 ---@return nil
-function VehicleComponent:SetSteeringLimitAnimFeature(limit) return end
+function VehicleComponent:SetSteeringLimitAnimFeature(limit) end
 
 ---@return nil
-function VehicleComponent:SetVehicleScannerDirty() return end
+function VehicleComponent:SetVehicleScannerDirty() end
 
----@protected
 ---@param door vehicleEVehicleDoor
 ---@param state vehicleEVehicleWindowState
 ---@return nil
-function VehicleComponent:SetWindowAnimFeatureData(door, state) return end
+function VehicleComponent:SetWindowAnimFeatureData(door, state) end
 
----@private
 ---@return nil
-function VehicleComponent:SetupAuxillary() return end
+function VehicleComponent:SetupAuxillary() end
 
----@protected
 ---@return nil
-function VehicleComponent:SetupCarAlarmHonkListener() return end
+function VehicleComponent:SetupCarAlarmHonkListener() end
 
----@private
 ---@return nil
-function VehicleComponent:SetupCrystalDome() return end
+function VehicleComponent:SetupCrystalDome() end
 
----@protected
 ---@return nil
-function VehicleComponent:SetupGameTimeToBBListener() return end
+function VehicleComponent:SetupGameTimeToBBListener() end
 
----@protected
 ---@return nil
-function VehicleComponent:SetupListeners() return end
+function VehicleComponent:SetupListeners() end
 
----@private
 ---@return nil
-function VehicleComponent:SetupThrusterFX() return end
+function VehicleComponent:SetupThrusterFX() end
 
----@protected
 ---@return nil
-function VehicleComponent:SetupVehicleRPMBBListener() return end
+function VehicleComponent:SetupVehicleRPMBBListener() end
 
----@protected
 ---@return nil
-function VehicleComponent:SetupVehicleSpeedBBListener() return end
+function VehicleComponent:SetupVehicleSpeedBBListener() end
 
----@protected
 ---@return nil
-function VehicleComponent:SetupVehicleTPPBBListener() return end
+function VehicleComponent:SetupVehicleTPPBBListener() end
 
----@private
 ---@return nil
-function VehicleComponent:SetupWheels() return end
+function VehicleComponent:SetupWheels() end
 
----@private
 ---@return nil
-function VehicleComponent:ShouldVisualDestructionBeSet() return end
+function VehicleComponent:ShouldVisualDestructionBeSet() end
 
----@protected
 ---@param self gameObject
 ---@param effectName CName|string
 ---@param shouldPersist? Bool
 ---@param blackboard? worldEffectBlackboard
 ---@return nil
-function VehicleComponent:StartEffectEvent(self, effectName, shouldPersist, blackboard) return end
+function VehicleComponent:StartEffectEvent(self, effectName, shouldPersist, blackboard) end
 
----@private
 ---@param slotID? gamemountingMountingSlotId
 ---@return nil
-function VehicleComponent:StealVehicle(slotID) return end
+function VehicleComponent:StealVehicle(slotID) end
 
----@private
 ---@param toggle Bool
 ---@param force? Bool
 ---@param instant? Bool
 ---@param instantDelay? Float
 ---@param meshVisibilityDelay? Float
 ---@return nil
-function VehicleComponent:ToggleCrystalDome(toggle, force, instant, instantDelay, meshVisibilityDelay) return end
+function VehicleComponent:ToggleCrystalDome(toggle, force, instant, instantDelay, meshVisibilityDelay) end
 
----@private
 ---@return nil
-function VehicleComponent:ToggleInitialVehDoorInteractions() return end
+function VehicleComponent:ToggleInitialVehDoorInteractions() end
 
----@private
 ---@param layer CName|string
 ---@param toggle Bool
 ---@return nil
-function VehicleComponent:ToggleInteraction(layer, toggle) return end
+function VehicleComponent:ToggleInteraction(layer, toggle) end
 
 ---@param lights Bool
 ---@param sirens Bool
 ---@return nil
-function VehicleComponent:ToggleLightsAndSirens(lights, sirens) return end
+function VehicleComponent:ToggleLightsAndSirens(lights, sirens) end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function VehicleComponent:TogglePanzerShadowMeshes(toggle) return end
+function VehicleComponent:TogglePanzerShadowMeshes(toggle) end
 
----@private
 ---@param mountedPlayer PlayerPuppet
 ---@param enable Bool
 ---@return nil
-function VehicleComponent:TogglePlayerHitShapesForPanzer(mountedPlayer, enable) return end
+function VehicleComponent:TogglePlayerHitShapesForPanzer(mountedPlayer, enable) end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function VehicleComponent:ToggleRaceClock(toggle) return end
+function VehicleComponent:ToggleRaceClock(toggle) end
 
----@protected
 ---@param toggle Bool
 ---@return nil
-function VehicleComponent:ToggleScanningComponent(toggle) return end
+function VehicleComponent:ToggleScanningComponent(toggle) end
 
----@protected
 ---@param lights Bool
 ---@param sounds Bool
 ---@return nil
-function VehicleComponent:ToggleSiren(lights, sounds) return end
+function VehicleComponent:ToggleSiren(lights, sounds) end
 
----@private
 ---@param on Bool
 ---@return nil
-function VehicleComponent:ToggleTargetingComponents(on) return end
+function VehicleComponent:ToggleTargetingComponents(on) end
 
----@private
 ---@param mountedPlayer PlayerPuppet
 ---@param enable Bool
 ---@return nil
-function VehicleComponent:ToggleTargetingSystemForPanzer(mountedPlayer, enable) return end
+function VehicleComponent:ToggleTargetingSystemForPanzer(mountedPlayer, enable) end
 
----@protected
 ---@param toggle Bool
 ---@param layer? CName|string
 ---@return nil
-function VehicleComponent:ToggleVehReadyInteractions(toggle, layer) return end
+function VehicleComponent:ToggleVehReadyInteractions(toggle, layer) end
 
----@private
 ---@param state Bool
 ---@param isPolice? Bool
 ---@return nil
-function VehicleComponent:ToggleVehicleHorn(state, isPolice) return end
+function VehicleComponent:ToggleVehicleHorn(state, isPolice) end
 
----@protected
 ---@param toggle Bool
 ---@param vehicle Bool
 ---@param engine Bool
 ---@param lockState? VehicleQuestEngineLockState
 ---@return nil
-function VehicleComponent:ToggleVehicleSystems(toggle, vehicle, engine, lockState) return end
+function VehicleComponent:ToggleVehicleSystems(toggle, vehicle, engine, lockState) end
 
----@private
 ---@return nil
-function VehicleComponent:TryToKnockDownBike() return end
+function VehicleComponent:TryToKnockDownBike() end
 
----@private
 ---@return nil
-function VehicleComponent:TutorialCarDamageFact() return end
+function VehicleComponent:TutorialCarDamageFact() end
 
----@private
 ---@return nil
-function VehicleComponent:UnmountTrunkBody() return end
+function VehicleComponent:UnmountTrunkBody() end
 
----@protected
 ---@return nil
-function VehicleComponent:UnregisterCarAlarmHonkListener() return end
+function VehicleComponent:UnregisterCarAlarmHonkListener() end
 
----@protected
 ---@return nil
-function VehicleComponent:UnregisterGameTimeToBBListener() return end
+function VehicleComponent:UnregisterGameTimeToBBListener() end
 
----@private
 ---@return nil
-function VehicleComponent:UnregisterInputListener() return end
+function VehicleComponent:UnregisterInputListener() end
 
----@protected
 ---@return nil
-function VehicleComponent:UnregisterListeners() return end
+function VehicleComponent:UnregisterListeners() end
 
----@private
 ---@param vehicleID entEntityID
 ---@return nil
-function VehicleComponent:UnregisterPreventionPassengerCallbacks(vehicleID) return end
+function VehicleComponent:UnregisterPreventionPassengerCallbacks(vehicleID) end
 
----@protected
 ---@return nil
-function VehicleComponent:UnregisterVehicleRPMBBListener() return end
+function VehicleComponent:UnregisterVehicleRPMBBListener() end
 
----@protected
 ---@return nil
-function VehicleComponent:UnregisterVehicleSpeedBBListener() return end
+function VehicleComponent:UnregisterVehicleSpeedBBListener() end
 
----@protected
 ---@return nil
-function VehicleComponent:UnregisterVehicleTPPBBListener() return end
+function VehicleComponent:UnregisterVehicleTPPBBListener() end
 
----@private
 ---@return nil
-function VehicleComponent:UnregisterWantedLevelListener() return end
+function VehicleComponent:UnregisterWantedLevelListener() end
 
----@private
 ---@return nil
-function VehicleComponent:UpdateDamageEngineEffects() return end
+function VehicleComponent:UpdateDamageEngineEffects() end
 
----@private
 ---@return nil
-function VehicleComponent:VehicleDefaultStateSetup() return end
+function VehicleComponent:VehicleDefaultStateSetup() end
 
----@private
 ---@return nil
-function VehicleComponent:VehicleVisualDestructionSetup() return end
+function VehicleComponent:VehicleVisualDestructionSetup() end

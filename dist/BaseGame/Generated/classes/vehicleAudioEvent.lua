@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleAudioEvent: redEvent
----@field public action vehicleAudioEventAction
+---@field action vehicleAudioEventAction
 vehicleAudioEvent = {}
 
 ---@param fields? vehicleAudioEvent
 ---@return vehicleAudioEvent
-function vehicleAudioEvent.new(fields) return end
+function vehicleAudioEvent.new(fields) end

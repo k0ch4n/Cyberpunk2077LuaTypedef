@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class MessengerContactSyncData: IScriptable
----@field public type MessengerContactType
----@field public entryHash Int32
----@field public level Int32
+---@field type MessengerContactType
+---@field entryHash Int32
+---@field level Int32
 MessengerContactSyncData = {}
 
 ---@param fields? MessengerContactSyncData
 ---@return MessengerContactSyncData
-function MessengerContactSyncData.new(fields) return end
+function MessengerContactSyncData.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class VendingMachineDeviceBlackboardDef: DeviceBaseBlackboardDef
----@field public ActionStatus gamebbScriptID_Variant
----@field public SoldOut gamebbScriptID_Bool
+---@field ActionStatus gamebbScriptID_Variant
+---@field SoldOut gamebbScriptID_Bool
 VendingMachineDeviceBlackboardDef = {}
 
 ---@param fields? VendingMachineDeviceBlackboardDef
 ---@return VendingMachineDeviceBlackboardDef
-function VendingMachineDeviceBlackboardDef.new(fields) return end
+function VendingMachineDeviceBlackboardDef.new(fields) end

@@ -5,4 +5,4 @@ navRuntimeSystemPathfinding = {}
 
 ---@param fields? navRuntimeSystemPathfinding
 ---@return navRuntimeSystemPathfinding
-function navRuntimeSystemPathfinding.new(fields) return end
+function navRuntimeSystemPathfinding.new(fields) end

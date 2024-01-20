@@ -1,43 +1,39 @@
 ---@meta
 
 ---@class FactValuePrereq: gameIScriptablePrereq
----@field public fact CName
----@field public value Int32
----@field public comparisonType EComparisonType
----@field public repeated Bool
+---@field fact CName
+---@field value Int32
+---@field comparisonType EComparisonType
+---@field repeated Bool
 FactValuePrereq = {}
 
 ---@param fields? FactValuePrereq
 ---@return FactValuePrereq
-function FactValuePrereq.new(fields) return end
+function FactValuePrereq.new(fields) end
 
 ---@param value Int32
 ---@return Bool
-function FactValuePrereq:Evaluate(value) return end
+function FactValuePrereq:Evaluate(value) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function FactValuePrereq:Initialize(recordID) return end
+function FactValuePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function FactValuePrereq:IsFulfilled(context) return end
+function FactValuePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function FactValuePrereq:OnApplied(state, context) return end
+function FactValuePrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function FactValuePrereq:OnRegister(state, context) return end
+function FactValuePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function FactValuePrereq:OnUnregister(state, context) return end
+function FactValuePrereq:OnUnregister(state, context) end

@@ -5,24 +5,24 @@ ForceCarAlarm = {}
 
 ---@param fields? ForceCarAlarm
 ---@return ForceCarAlarm
-function ForceCarAlarm.new(fields) return end
+function ForceCarAlarm.new(fields) end
 
 ---@param device VehicleComponentPS
 ---@return Bool
-function ForceCarAlarm.IsAvailable(device) return end
+function ForceCarAlarm.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ForceCarAlarm.IsClearanceValid(clearance) return end
+function ForceCarAlarm.IsClearanceValid(clearance) end
 
 ---@param device VehicleComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ForceCarAlarm.IsDefaultConditionMet(device, context) return end
+function ForceCarAlarm.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function ForceCarAlarm:GetTweakDBChoiceRecord() return end
+function ForceCarAlarm:GetTweakDBChoiceRecord() end
 
 ---@param isAlarmTriggered Bool
 ---@return nil
-function ForceCarAlarm:SetProperties(isAlarmTriggered) return end
+function ForceCarAlarm:SetProperties(isAlarmTriggered) end

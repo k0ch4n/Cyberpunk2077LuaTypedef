@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorBehaviorIncludedDebuggerCommandEntry
----@field public nodeId CGUID
----@field public includedBehaviorResourcePath String
+---@field nodeId CGUID
+---@field includedBehaviorResourcePath String
 AIbehaviorBehaviorIncludedDebuggerCommandEntry = {}
 
 ---@param fields? AIbehaviorBehaviorIncludedDebuggerCommandEntry
 ---@return AIbehaviorBehaviorIncludedDebuggerCommandEntry
-function AIbehaviorBehaviorIncludedDebuggerCommandEntry.new(fields) return end
+function AIbehaviorBehaviorIncludedDebuggerCommandEntry.new(fields) end

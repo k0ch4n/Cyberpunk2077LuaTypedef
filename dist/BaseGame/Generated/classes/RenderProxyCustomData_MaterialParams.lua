@@ -5,4 +5,4 @@ RenderProxyCustomData_MaterialParams = {}
 
 ---@param fields? RenderProxyCustomData_MaterialParams
 ---@return RenderProxyCustomData_MaterialParams
-function RenderProxyCustomData_MaterialParams.new(fields) return end
+function RenderProxyCustomData_MaterialParams.new(fields) end

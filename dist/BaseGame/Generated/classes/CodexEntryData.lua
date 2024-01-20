@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CodexEntryData: GenericCodexEntryData
----@field public category Int32
----@field public imageType CodexImageType
+---@field category Int32
+---@field imageType CodexImageType
 CodexEntryData = {}
 
 ---@param fields? CodexEntryData
 ---@return CodexEntryData
-function CodexEntryData.new(fields) return end
+function CodexEntryData.new(fields) end

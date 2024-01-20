@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class NewItemTooltipBrokenModule: NewItemTooltipModuleController
----@field private descriptionText inkTextWidgetReference
+---@field descriptionText inkTextWidgetReference
 NewItemTooltipBrokenModule = {}
 
 ---@param fields? NewItemTooltipBrokenModule
 ---@return NewItemTooltipBrokenModule
-function NewItemTooltipBrokenModule.new(fields) return end
+function NewItemTooltipBrokenModule.new(fields) end
 
----@protected
 ---@return Bool
-function NewItemTooltipBrokenModule:OnInitialize() return end
+function NewItemTooltipBrokenModule:OnInitialize() end
 
 ---@param bigFontEnabled Bool
 ---@return nil
-function NewItemTooltipBrokenModule:NEW_UpdateWrapping(bigFontEnabled) return end
+function NewItemTooltipBrokenModule:NEW_UpdateWrapping(bigFontEnabled) end

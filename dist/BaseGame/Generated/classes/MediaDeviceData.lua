@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class MediaDeviceData
----@field public initialStation Int32
----@field public amountOfStations Int32
----@field public activeChannelName String
----@field public isInteractive Bool
+---@field initialStation Int32
+---@field amountOfStations Int32
+---@field activeChannelName String
+---@field isInteractive Bool
 MediaDeviceData = {}
 
 ---@param fields? MediaDeviceData
 ---@return MediaDeviceData
-function MediaDeviceData.new(fields) return end
+function MediaDeviceData.new(fields) end

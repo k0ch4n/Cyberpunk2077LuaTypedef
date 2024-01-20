@@ -5,4 +5,4 @@ gamePlayerAttachRequest = {}
 
 ---@param fields? gamePlayerAttachRequest
 ---@return gamePlayerAttachRequest
-function gamePlayerAttachRequest.new(fields) return end
+function gamePlayerAttachRequest.new(fields) end

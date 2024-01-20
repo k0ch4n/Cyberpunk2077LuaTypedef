@@ -1,38 +1,34 @@
 ---@meta
 
 ---@class AccessBreach: PuppetAction
----@field public attempt Int32
----@field public networkName String
----@field public npcCount Int32
----@field public isRemote Bool
----@field public isSuicide Bool
+---@field attempt Int32
+---@field networkName String
+---@field npcCount Int32
+---@field isRemote Bool
+---@field isSuicide Bool
 AccessBreach = {}
 
 ---@param fields? AccessBreach
 ---@return AccessBreach
-function AccessBreach.new(fields) return end
+function AccessBreach.new(fields) end
 
----@private
 ---@return nil
-function AccessBreach:CompleteAction() return end
+function AccessBreach:CompleteAction() end
 
----@private
 ---@return gameIBlackboard
-function AccessBreach:GetNetworkBlackboard() return end
+function AccessBreach:GetNetworkBlackboard() end
 
----@private
 ---@return NetworkBlackboardDef
-function AccessBreach:GetNetworkBlackboardDef() return end
+function AccessBreach:GetNetworkBlackboardDef() end
 
----@private
 ---@param id CName|string
 ---@param isActive Bool
 ---@return nil
-function AccessBreach:SendNanoWireBreachEventToPSM(id, isActive) return end
+function AccessBreach:SendNanoWireBreachEventToPSM(id, isActive) end
 
 ---@param amount Int32
 ---@return nil
-function AccessBreach:SetAttemptCount(amount) return end
+function AccessBreach:SetAttemptCount(amount) end
 
 ---@param networkName String
 ---@param npcCount Int32
@@ -40,8 +36,7 @@ function AccessBreach:SetAttemptCount(amount) return end
 ---@param isRemote Bool
 ---@param isSuicide Bool
 ---@return nil
-function AccessBreach:SetProperties(networkName, npcCount, attemptsCount, isRemote, isSuicide) return end
+function AccessBreach:SetProperties(networkName, npcCount, attemptsCount, isRemote, isSuicide) end
 
----@private
 ---@return nil
-function AccessBreach:StartUpload() return end
+function AccessBreach:StartUpload() end

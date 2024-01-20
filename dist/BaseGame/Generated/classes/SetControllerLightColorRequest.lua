@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetControllerLightColorRequest: gameScriptableSystemRequest
----@field public red Uint8
----@field public green Uint8
----@field public blue Uint8
----@field public notQuest Bool
+---@field red Uint8
+---@field green Uint8
+---@field blue Uint8
+---@field notQuest Bool
 SetControllerLightColorRequest = {}
 
 ---@param fields? SetControllerLightColorRequest
 ---@return SetControllerLightColorRequest
-function SetControllerLightColorRequest.new(fields) return end
+function SetControllerLightColorRequest.new(fields) end

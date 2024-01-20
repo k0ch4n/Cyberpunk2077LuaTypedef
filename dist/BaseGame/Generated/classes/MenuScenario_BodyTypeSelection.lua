@@ -5,19 +5,16 @@ MenuScenario_BodyTypeSelection = {}
 
 ---@param fields? MenuScenario_BodyTypeSelection
 ---@return MenuScenario_BodyTypeSelection
-function MenuScenario_BodyTypeSelection.new(fields) return end
+function MenuScenario_BodyTypeSelection.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_BodyTypeSelection:OnAccept() return end
+function MenuScenario_BodyTypeSelection:OnAccept() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_BodyTypeSelection:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_BodyTypeSelection:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_BodyTypeSelection:OnLeaveScenario(nextScenario) return end
+function MenuScenario_BodyTypeSelection:OnLeaveScenario(nextScenario) end

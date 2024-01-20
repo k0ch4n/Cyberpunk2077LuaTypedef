@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animFloatLink
----@field public node animAnimNode_FloatValue
+---@field node animAnimNode_FloatValue
 animFloatLink = {}
 
 ---@param fields? animFloatLink
 ---@return animFloatLink
-function animFloatLink.new(fields) return end
+function animFloatLink.new(fields) end

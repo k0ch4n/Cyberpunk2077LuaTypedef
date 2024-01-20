@@ -5,14 +5,14 @@ QuestForceClose = {}
 
 ---@param fields? QuestForceClose
 ---@return QuestForceClose
-function QuestForceClose.new(fields) return end
+function QuestForceClose.new(fields) end
 
 ---@return gamedeviceActionProperty[]
-function QuestForceClose:GetProperties() return end
+function QuestForceClose:GetProperties() end
 
 ---@return Float
-function QuestForceClose:GetValue() return end
+function QuestForceClose:GetValue() end
 
 ---@param speedMultiplier Float
 ---@return nil
-function QuestForceClose:SetProperties(speedMultiplier) return end
+function QuestForceClose:SetProperties(speedMultiplier) end

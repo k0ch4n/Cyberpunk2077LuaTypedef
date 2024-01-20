@@ -5,4 +5,4 @@ BuyRequest = {}
 
 ---@param fields? BuyRequest
 ---@return BuyRequest
-function BuyRequest.new(fields) return end
+function BuyRequest.new(fields) end

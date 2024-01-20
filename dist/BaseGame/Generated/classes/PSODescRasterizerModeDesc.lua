@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class PSODescRasterizerModeDesc
----@field public wireframe Bool
----@field public frontWinding PSODescRasterizerModeFrontFaceWinding
----@field public cullMode PSODescRasterizerModeCullMode
----@field public allowMSAA Bool
----@field public conservativeRasterization Bool
----@field public offsetMode PSODescRasterizerModeOffsetMode
----@field public scissors Bool
----@field public valid Bool
+---@field wireframe Bool
+---@field frontWinding PSODescRasterizerModeFrontFaceWinding
+---@field cullMode PSODescRasterizerModeCullMode
+---@field allowMSAA Bool
+---@field conservativeRasterization Bool
+---@field offsetMode PSODescRasterizerModeOffsetMode
+---@field scissors Bool
+---@field valid Bool
 PSODescRasterizerModeDesc = {}
 
 ---@param fields? PSODescRasterizerModeDesc
 ---@return PSODescRasterizerModeDesc
-function PSODescRasterizerModeDesc.new(fields) return end
+function PSODescRasterizerModeDesc.new(fields) end

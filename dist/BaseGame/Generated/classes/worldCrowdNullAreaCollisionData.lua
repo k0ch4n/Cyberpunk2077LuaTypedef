@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldCrowdNullAreaCollisionData
----@field public areaID Uint64
----@field public collisions worldTrafficStaticCollisionSphere[]
+---@field areaID Uint64
+---@field collisions worldTrafficStaticCollisionSphere[]
 worldCrowdNullAreaCollisionData = {}
 
 ---@param fields? worldCrowdNullAreaCollisionData
 ---@return worldCrowdNullAreaCollisionData
-function worldCrowdNullAreaCollisionData.new(fields) return end
+function worldCrowdNullAreaCollisionData.new(fields) end

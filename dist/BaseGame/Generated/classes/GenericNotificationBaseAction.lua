@@ -5,11 +5,11 @@ GenericNotificationBaseAction = {}
 
 ---@param fields? GenericNotificationBaseAction
 ---@return GenericNotificationBaseAction
-function GenericNotificationBaseAction.new(fields) return end
+function GenericNotificationBaseAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function GenericNotificationBaseAction:Execute(data) return end
+function GenericNotificationBaseAction:Execute(data) end
 
 ---@return String
-function GenericNotificationBaseAction:GetLabel() return end
+function GenericNotificationBaseAction:GetLabel() end

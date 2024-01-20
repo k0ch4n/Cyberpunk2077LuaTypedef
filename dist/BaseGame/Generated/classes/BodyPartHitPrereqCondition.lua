@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class BodyPartHitPrereqCondition: BaseHitPrereqCondition
----@field public bodyPart CName
----@field public attackSubtype gamedataAttackSubtype
+---@field bodyPart CName
+---@field attackSubtype gamedataAttackSubtype
 BodyPartHitPrereqCondition = {}
 
 ---@param fields? BodyPartHitPrereqCondition
 ---@return BodyPartHitPrereqCondition
-function BodyPartHitPrereqCondition.new(fields) return end
+function BodyPartHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function BodyPartHitPrereqCondition:Evaluate(hitEvent) return end
+function BodyPartHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function BodyPartHitPrereqCondition:SetData(recordID) return end
+function BodyPartHitPrereqCondition:SetData(recordID) end

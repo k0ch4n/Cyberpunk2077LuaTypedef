@@ -1,85 +1,72 @@
 ---@meta
 
 ---@class LcdScreenSignInkGameController: DeviceInkGameControllerBase
----@field protected messegeRecord gamedataScreenMessageData_Record
----@field protected replaceTextWithCustomNumber Bool
----@field protected customNumber Int32
----@field private onGlitchingStateChangedListener redCallbackObject
----@field private onMessegeChangedListener redCallbackObject
+---@field messegeRecord gamedataScreenMessageData_Record
+---@field replaceTextWithCustomNumber Bool
+---@field customNumber Int32
+---@field onGlitchingStateChangedListener redCallbackObject
+---@field onMessegeChangedListener redCallbackObject
 LcdScreenSignInkGameController = {}
 
 ---@param fields? LcdScreenSignInkGameController
 ---@return LcdScreenSignInkGameController
-function LcdScreenSignInkGameController.new(fields) return end
+function LcdScreenSignInkGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function LcdScreenSignInkGameController:OnActionWidgetsUpdate(value) return end
+function LcdScreenSignInkGameController:OnActionWidgetsUpdate(value) end
 
----@protected
 ---@param selector inkTweakDBIDSelector
 ---@return Bool
-function LcdScreenSignInkGameController:OnFillStreetSignData(selector) return end
+function LcdScreenSignInkGameController:OnFillStreetSignData(selector) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function LcdScreenSignInkGameController:OnMessegeChanged(value) return end
+function LcdScreenSignInkGameController:OnMessegeChanged(value) end
 
----@protected
 ---@return LcdScreenILogicController
-function LcdScreenSignInkGameController:GetMainLogicController() return end
+function LcdScreenSignInkGameController:GetMainLogicController() end
 
----@protected
 ---@return LcdScreen
-function LcdScreenSignInkGameController:GetOwner() return end
+function LcdScreenSignInkGameController:GetOwner() end
 
----@private
 ---@param replaceTextWithCustomNumber Bool
 ---@param customNumber Int32
 ---@return nil
-function LcdScreenSignInkGameController:InitializeCustomNumber(replaceTextWithCustomNumber, customNumber) return end
+function LcdScreenSignInkGameController:InitializeCustomNumber(replaceTextWithCustomNumber, customNumber) end
 
----@private
 ---@param messageRecord gamedataScreenMessageData_Record
 ---@return nil
-function LcdScreenSignInkGameController:InitializeMessageRecord(messageRecord) return end
+function LcdScreenSignInkGameController:InitializeMessageRecord(messageRecord) end
 
 ---@param state EDeviceStatus
 ---@return nil
-function LcdScreenSignInkGameController:Refresh(state) return end
+function LcdScreenSignInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function LcdScreenSignInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function LcdScreenSignInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param record gamedataScreenMessageData_Record
 ---@return nil
-function LcdScreenSignInkGameController:ResolveMessegeRecord(record) return end
+function LcdScreenSignInkGameController:ResolveMessegeRecord(record) end
 
----@protected
 ---@return nil
-function LcdScreenSignInkGameController:SetupWidgets() return end
+function LcdScreenSignInkGameController:SetupWidgets() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function LcdScreenSignInkGameController:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function LcdScreenSignInkGameController:StopGlitchingScreen() return end
+function LcdScreenSignInkGameController:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function LcdScreenSignInkGameController:TurnOff() return end
+function LcdScreenSignInkGameController:StopGlitchingScreen() end
 
 ---@return nil
-function LcdScreenSignInkGameController:TurnOn() return end
+function LcdScreenSignInkGameController:TurnOff() end
 
----@protected
+---@return nil
+function LcdScreenSignInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function LcdScreenSignInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function LcdScreenSignInkGameController:UnRegisterBlackboardCallbacks(blackboard) end

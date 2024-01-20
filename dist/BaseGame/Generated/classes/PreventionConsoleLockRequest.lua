@@ -5,4 +5,4 @@ PreventionConsoleLockRequest = {}
 
 ---@param fields? PreventionConsoleLockRequest
 ---@return PreventionConsoleLockRequest
-function PreventionConsoleLockRequest.new(fields) return end
+function PreventionConsoleLockRequest.new(fields) end

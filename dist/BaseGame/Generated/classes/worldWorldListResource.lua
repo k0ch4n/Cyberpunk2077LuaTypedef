@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldWorldListResource: CResource
----@field public worlds worldWorldListResourceEntry[]
+---@field worlds worldWorldListResourceEntry[]
 worldWorldListResource = {}
 
 ---@param fields? worldWorldListResource
 ---@return worldWorldListResource
-function worldWorldListResource.new(fields) return end
+function worldWorldListResource.new(fields) end

@@ -5,10 +5,10 @@ gamedataItemAction_Record = {}
 
 ---@param fields? gamedataItemAction_Record
 ---@return gamedataItemAction_Record
-function gamedataItemAction_Record.new(fields) return end
+function gamedataItemAction_Record.new(fields) end
 
 ---@return Bool
-function gamedataItemAction_Record:IsDefaultLootChoice() return end
+function gamedataItemAction_Record:IsDefaultLootChoice() end
 
 ---@return Bool
-function gamedataItemAction_Record:RemoveAfterUse() return end
+function gamedataItemAction_Record:RemoveAfterUse() end

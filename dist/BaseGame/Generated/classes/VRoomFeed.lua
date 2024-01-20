@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class VRoomFeed: redEvent
----@field public On Bool
+---@field On Bool
 VRoomFeed = {}
 
 ---@param fields? VRoomFeed
 ---@return VRoomFeed
-function VRoomFeed.new(fields) return end
+function VRoomFeed.new(fields) end

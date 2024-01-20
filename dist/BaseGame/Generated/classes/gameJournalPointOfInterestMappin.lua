@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameJournalPointOfInterestMappin: gameJournalEntry
----@field public staticNodeRef NodeRef
----@field public dynamicEntityRef gameEntityReference
----@field public securityAreaRef NodeRef
----@field public mappinData gamemappinsPointOfInterestMappinData
----@field public offset Vector3
----@field public questPath gameJournalPath
----@field public recommendedLevelID TweakDBID
----@field public notificationTriggerAreaRef NodeRef
+---@field staticNodeRef NodeRef
+---@field dynamicEntityRef gameEntityReference
+---@field securityAreaRef NodeRef
+---@field mappinData gamemappinsPointOfInterestMappinData
+---@field offset Vector3
+---@field questPath gameJournalPath
+---@field recommendedLevelID TweakDBID
+---@field notificationTriggerAreaRef NodeRef
 gameJournalPointOfInterestMappin = {}
 
 ---@param fields? gameJournalPointOfInterestMappin
 ---@return gameJournalPointOfInterestMappin
-function gameJournalPointOfInterestMappin.new(fields) return end
+function gameJournalPointOfInterestMappin.new(fields) end

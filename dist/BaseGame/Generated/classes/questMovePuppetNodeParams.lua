@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questMovePuppetNodeParams: questAICommandParams
----@field public moveType questMoveType
----@field public moveOnSplineParams questMoveOnSplineParams
----@field public moveToParams questMoveToParams
----@field public otherParams questAICommandParams
----@field public repeatCommandOnInterrupt Bool
+---@field moveType questMoveType
+---@field moveOnSplineParams questMoveOnSplineParams
+---@field moveToParams questMoveToParams
+---@field otherParams questAICommandParams
+---@field repeatCommandOnInterrupt Bool
 questMovePuppetNodeParams = {}
 
 ---@param fields? questMovePuppetNodeParams
 ---@return questMovePuppetNodeParams
-function questMovePuppetNodeParams.new(fields) return end
+function questMovePuppetNodeParams.new(fields) end

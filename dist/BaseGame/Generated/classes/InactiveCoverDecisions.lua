@@ -5,10 +5,9 @@ InactiveCoverDecisions = {}
 
 ---@param fields? InactiveCoverDecisions
 ---@return InactiveCoverDecisions
-function InactiveCoverDecisions.new(fields) return end
+function InactiveCoverDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function InactiveCoverDecisions:EnterCondition(stateContext, scriptInterface) return end
+function InactiveCoverDecisions:EnterCondition(stateContext, scriptInterface) end

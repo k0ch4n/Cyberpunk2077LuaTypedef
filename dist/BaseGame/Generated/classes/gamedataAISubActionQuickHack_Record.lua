@@ -5,19 +5,19 @@ gamedataAISubActionQuickHack_Record = {}
 
 ---@param fields? gamedataAISubActionQuickHack_Record
 ---@return gamedataAISubActionQuickHack_Record
-function gamedataAISubActionQuickHack_Record.new(fields) return end
+function gamedataAISubActionQuickHack_Record.new(fields) end
 
 ---@return gamedataObjectAction_Record
-function gamedataAISubActionQuickHack_Record:ActionResult() return end
+function gamedataAISubActionQuickHack_Record:ActionResult() end
 
 ---@return gamedataObjectAction_Record
-function gamedataAISubActionQuickHack_Record:ActionResultHandle() return end
+function gamedataAISubActionQuickHack_Record:ActionResultHandle() end
 
 ---@return Bool
-function gamedataAISubActionQuickHack_Record:EstablishContactOnly() return end
+function gamedataAISubActionQuickHack_Record:EstablishContactOnly() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionQuickHack_Record:Target() return end
+function gamedataAISubActionQuickHack_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionQuickHack_Record:TargetHandle() return end
+function gamedataAISubActionQuickHack_Record:TargetHandle() end

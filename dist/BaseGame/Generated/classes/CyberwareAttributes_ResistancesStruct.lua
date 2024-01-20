@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class CyberwareAttributes_ResistancesStruct
----@field public widgetHealth inkFlexWidgetReference
----@field public widgetPhysical inkFlexWidgetReference
----@field public widgetThermal inkFlexWidgetReference
----@field public widgetEMP inkFlexWidgetReference
----@field public widgetChemical inkFlexWidgetReference
----@field public resistanceTooltip inkFlexWidgetReference
+---@field widgetHealth inkFlexWidgetReference
+---@field widgetPhysical inkFlexWidgetReference
+---@field widgetThermal inkFlexWidgetReference
+---@field widgetEMP inkFlexWidgetReference
+---@field widgetChemical inkFlexWidgetReference
+---@field resistanceTooltip inkFlexWidgetReference
 CyberwareAttributes_ResistancesStruct = {}
 
 ---@param fields? CyberwareAttributes_ResistancesStruct
 ---@return CyberwareAttributes_ResistancesStruct
-function CyberwareAttributes_ResistancesStruct.new(fields) return end
+function CyberwareAttributes_ResistancesStruct.new(fields) end

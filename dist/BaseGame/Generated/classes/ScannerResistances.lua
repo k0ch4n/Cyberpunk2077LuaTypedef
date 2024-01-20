@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerResistances: ScannerChunk
----@field public resists ScannerStatDetails[]
+---@field resists ScannerStatDetails[]
 ScannerResistances = {}
 
 ---@param fields? ScannerResistances
 ---@return ScannerResistances
-function ScannerResistances.new(fields) return end
+function ScannerResistances.new(fields) end
 
 ---@return ScannerStatDetails[]
-function ScannerResistances:GetResistances() return end
+function ScannerResistances:GetResistances() end
 
 ---@return ScannerDataType
-function ScannerResistances:GetType() return end
+function ScannerResistances:GetType() end
 
 ---@param r ScannerStatDetails[]
 ---@return nil
-function ScannerResistances:Set(r) return end
+function ScannerResistances:Set(r) end

@@ -1,78 +1,66 @@
 ---@meta
 
 ---@class drillMachine: gameweaponObject
----@field private rewireComponent RewireComponent
----@field private player gameObject
----@field private scanManager DrillMachineScanManager
----@field private screen_postprocess entIVisualComponent
----@field private screen_backside entIVisualComponent
----@field private isScanning Bool
----@field private isActive Bool
----@field private targetDevice gameObject
+---@field rewireComponent RewireComponent
+---@field player gameObject
+---@field scanManager DrillMachineScanManager
+---@field screen_postprocess entIVisualComponent
+---@field screen_backside entIVisualComponent
+---@field isScanning Bool
+---@field isActive Bool
+---@field targetDevice gameObject
 drillMachine = {}
 
 ---@param fields? drillMachine
 ---@return drillMachine
-function drillMachine.new(fields) return end
+function drillMachine.new(fields) end
 
----@protected
 ---@param evt drillMachineEvent
 ---@return Bool
-function drillMachine:OnDrillMachineEvent(evt) return end
+function drillMachine:OnDrillMachineEvent(evt) end
 
----@protected
 ---@param actionChosen gameinteractionsChoice
 ---@return Bool
-function drillMachine:OnDrillerInputAction(actionChosen) return end
+function drillMachine:OnDrillerInputAction(actionChosen) end
 
----@protected
 ---@return Bool
-function drillMachine:OnGameAttached() return end
+function drillMachine:OnGameAttached() end
 
----@protected
 ---@param evt DrillScanPostProcessEvent
 ---@return Bool
-function drillMachine:OnPostProcessEvent(evt) return end
+function drillMachine:OnPostProcessEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function drillMachine:OnRequestComponents(ri) return end
+function drillMachine:OnRequestComponents(ri) end
 
----@protected
 ---@param evt RewireEvent
 ---@return Bool
-function drillMachine:OnRewireEvent(evt) return end
+function drillMachine:OnRewireEvent(evt) end
 
----@protected
 ---@param evt DrillScanEvent
 ---@return Bool
-function drillMachine:OnScanEvent(evt) return end
+function drillMachine:OnScanEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function drillMachine:OnTakeControl(ri) return end
+function drillMachine:OnTakeControl(ri) end
 
 ---@return Bool
-function drillMachine:IsActive() return end
+function drillMachine:IsActive() end
 
----@private
 ---@param isEnable Bool
 ---@return nil
-function drillMachine:ToggleFingerAnimation(isEnable) return end
+function drillMachine:ToggleFingerAnimation(isEnable) end
 
----@private
 ---@param isEnable Bool
 ---@return nil
-function drillMachine:ToggleMinigameAnimation(isEnable) return end
+function drillMachine:ToggleMinigameAnimation(isEnable) end
 
----@private
 ---@param isEnable Bool
 ---@return nil
-function drillMachine:TogglePostprocess(isEnable) return end
+function drillMachine:TogglePostprocess(isEnable) end
 
----@private
 ---@param isEnable Bool
 ---@return nil
-function drillMachine:ToggleScreenBack(isEnable) return end
+function drillMachine:ToggleScreenBack(isEnable) end

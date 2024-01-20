@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class grsHeistState
----@field public time netTime
----@field public status grsHeistStatus
----@field public playersInfo grsHeistPlayerGameInfo
+---@field time netTime
+---@field status grsHeistStatus
+---@field playersInfo grsHeistPlayerGameInfo
 grsHeistState = {}
 
 ---@param fields? grsHeistState
 ---@return grsHeistState
-function grsHeistState.new(fields) return end
+function grsHeistState.new(fields) end

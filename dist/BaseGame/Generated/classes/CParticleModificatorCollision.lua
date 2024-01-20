@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class CParticleModificatorCollision: IParticleModificator
----@field public restitution Float
----@field public dynamicFriction Float
----@field public staticFriction Float
----@field public velocityDamp Float
----@field public angularVelocityDamp Float
----@field public particleMass Float
----@field public particleRadius Float
----@field public useGPUAcceleration Bool
----@field public disableGravity Bool
----@field public killOnCollision Bool
+---@field restitution Float
+---@field dynamicFriction Float
+---@field staticFriction Float
+---@field velocityDamp Float
+---@field angularVelocityDamp Float
+---@field particleMass Float
+---@field particleRadius Float
+---@field useGPUAcceleration Bool
+---@field disableGravity Bool
+---@field killOnCollision Bool
 CParticleModificatorCollision = {}
 
 ---@param fields? CParticleModificatorCollision
 ---@return CParticleModificatorCollision
-function CParticleModificatorCollision.new(fields) return end
+function CParticleModificatorCollision.new(fields) end

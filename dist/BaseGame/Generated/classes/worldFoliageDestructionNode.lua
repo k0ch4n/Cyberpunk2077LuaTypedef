@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldFoliageDestructionNode: worldCollisionNode
----@field public populationIndex Uint32[]
----@field public foliageResourceHash Uint64
----@field public dataVersion Uint32
+---@field populationIndex Uint32[]
+---@field foliageResourceHash Uint64
+---@field dataVersion Uint32
 worldFoliageDestructionNode = {}
 
 ---@param fields? worldFoliageDestructionNode
 ---@return worldFoliageDestructionNode
-function worldFoliageDestructionNode.new(fields) return end
+function worldFoliageDestructionNode.new(fields) end

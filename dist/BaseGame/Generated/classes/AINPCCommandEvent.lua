@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AINPCCommandEvent: AIAIEvent
----@field public command AICommand
+---@field command AICommand
 AINPCCommandEvent = {}
 
 ---@param fields? AINPCCommandEvent
 ---@return AINPCCommandEvent
-function AINPCCommandEvent.new(fields) return end
+function AINPCCommandEvent.new(fields) end

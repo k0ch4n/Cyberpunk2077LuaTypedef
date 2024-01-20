@@ -5,11 +5,11 @@ ToggleTiltBlinders = {}
 
 ---@param fields? ToggleTiltBlinders
 ---@return ToggleTiltBlinders
-function ToggleTiltBlinders.new(fields) return end
+function ToggleTiltBlinders.new(fields) end
 
 ---@return String
-function ToggleTiltBlinders:GetTweakDBChoiceRecord() return end
+function ToggleTiltBlinders:GetTweakDBChoiceRecord() end
 
 ---@param isTilted Bool
 ---@return nil
-function ToggleTiltBlinders:SetProperties(isTilted) return end
+function ToggleTiltBlinders:SetProperties(isTilted) end

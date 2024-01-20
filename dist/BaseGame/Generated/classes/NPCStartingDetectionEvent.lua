@@ -5,4 +5,4 @@ NPCStartingDetectionEvent = {}
 
 ---@param fields? NPCStartingDetectionEvent
 ---@return NPCStartingDetectionEvent
-function NPCStartingDetectionEvent.new(fields) return end
+function NPCStartingDetectionEvent.new(fields) end

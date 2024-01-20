@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class RevealDevicesGridEvent: redEvent
----@field public shouldDraw Bool
----@field public ownerEntityPosition Vector4
----@field public fxDefault gameFxResource
----@field public revealSlave Bool
----@field public revealMaster Bool
+---@field shouldDraw Bool
+---@field ownerEntityPosition Vector4
+---@field fxDefault gameFxResource
+---@field revealSlave Bool
+---@field revealMaster Bool
 RevealDevicesGridEvent = {}
 
 ---@param fields? RevealDevicesGridEvent
 ---@return RevealDevicesGridEvent
-function RevealDevicesGridEvent.new(fields) return end
+function RevealDevicesGridEvent.new(fields) end

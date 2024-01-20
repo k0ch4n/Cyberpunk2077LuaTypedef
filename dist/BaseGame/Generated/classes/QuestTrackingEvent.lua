@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class QuestTrackingEvent: redEvent
----@field public journalEntry gameJournalQuestObjectiveBase
----@field public objective QuestItemController
+---@field journalEntry gameJournalQuestObjectiveBase
+---@field objective QuestItemController
 QuestTrackingEvent = {}
 
 ---@param fields? QuestTrackingEvent
 ---@return QuestTrackingEvent
-function QuestTrackingEvent.new(fields) return end
+function QuestTrackingEvent.new(fields) end

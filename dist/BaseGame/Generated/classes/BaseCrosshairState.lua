@@ -5,8 +5,7 @@ BaseCrosshairState = {}
 
 ---@param fields? BaseCrosshairState
 ---@return BaseCrosshairState
-function BaseCrosshairState.new(fields) return end
+function BaseCrosshairState.new(fields) end
 
----@protected
 ---@return gamePSMCrosshairStates
-function BaseCrosshairState:GetCrosshairStateEnumValue() return end
+function BaseCrosshairState:GetCrosshairStateEnumValue() end

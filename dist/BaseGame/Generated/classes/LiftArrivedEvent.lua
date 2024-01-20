@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LiftArrivedEvent: redEvent
----@field public floor String
+---@field floor String
 LiftArrivedEvent = {}
 
 ---@param fields? LiftArrivedEvent
 ---@return LiftArrivedEvent
-function LiftArrivedEvent.new(fields) return end
+function LiftArrivedEvent.new(fields) end

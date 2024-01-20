@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class entDecalComponent: entIVisualComponent
----@field public material IMaterial
----@field public verticalFlip Bool
----@field public horizontalFlip Bool
----@field public aspectRatio Float
----@field public scale Float
----@field public visualScale Vector3
----@field public alpha Float
----@field public normalThreshold Float
----@field public roughnessScale Float
----@field public orderNo Uint16
----@field public surfaceType ERenderObjectType
----@field public decalRenderMode EDecalRenderMode
----@field public isStretchingEnabled Bool
----@field public normalsBlendingMode RenderDecalNormalsBlendingMode
----@field public shouldCollectWithRayTracing Bool
----@field public isEnabled Bool
+---@field material IMaterial
+---@field verticalFlip Bool
+---@field horizontalFlip Bool
+---@field aspectRatio Float
+---@field scale Float
+---@field visualScale Vector3
+---@field alpha Float
+---@field normalThreshold Float
+---@field roughnessScale Float
+---@field orderNo Uint16
+---@field surfaceType ERenderObjectType
+---@field decalRenderMode EDecalRenderMode
+---@field isStretchingEnabled Bool
+---@field normalsBlendingMode RenderDecalNormalsBlendingMode
+---@field shouldCollectWithRayTracing Bool
+---@field isEnabled Bool
 entDecalComponent = {}
 
 ---@param fields? entDecalComponent
 ---@return entDecalComponent
-function entDecalComponent.new(fields) return end
+function entDecalComponent.new(fields) end

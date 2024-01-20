@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioSoundBankStruct
----@field public soundBank CName
+---@field soundBank CName
 audioSoundBankStruct = {}
 
 ---@param fields? audioSoundBankStruct
 ---@return audioSoundBankStruct
-function audioSoundBankStruct.new(fields) return end
+function audioSoundBankStruct.new(fields) end

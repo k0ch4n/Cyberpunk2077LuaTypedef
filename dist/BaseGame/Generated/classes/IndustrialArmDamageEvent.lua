@@ -5,4 +5,4 @@ IndustrialArmDamageEvent = {}
 
 ---@param fields? IndustrialArmDamageEvent
 ---@return IndustrialArmDamageEvent
-function IndustrialArmDamageEvent.new(fields) return end
+function IndustrialArmDamageEvent.new(fields) end

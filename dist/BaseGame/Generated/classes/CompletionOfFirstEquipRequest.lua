@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CompletionOfFirstEquipRequest: gameScriptableSystemRequest
----@field public weaponID TweakDBID
+---@field weaponID TweakDBID
 CompletionOfFirstEquipRequest = {}
 
 ---@param fields? CompletionOfFirstEquipRequest
 ---@return CompletionOfFirstEquipRequest
-function CompletionOfFirstEquipRequest.new(fields) return end
+function CompletionOfFirstEquipRequest.new(fields) end

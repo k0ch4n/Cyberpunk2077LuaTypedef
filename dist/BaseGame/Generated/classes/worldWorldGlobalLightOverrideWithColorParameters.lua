@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldWorldGlobalLightOverrideWithColorParameters
----@field public lightDirOverride GlobalLightingTrajectoryOverride
----@field public lightColorOverride HDRColor
+---@field lightDirOverride GlobalLightingTrajectoryOverride
+---@field lightColorOverride HDRColor
 worldWorldGlobalLightOverrideWithColorParameters = {}
 
 ---@param fields? worldWorldGlobalLightOverrideWithColorParameters
 ---@return worldWorldGlobalLightOverrideWithColorParameters
-function worldWorldGlobalLightOverrideWithColorParameters.new(fields) return end
+function worldWorldGlobalLightOverrideWithColorParameters.new(fields) end

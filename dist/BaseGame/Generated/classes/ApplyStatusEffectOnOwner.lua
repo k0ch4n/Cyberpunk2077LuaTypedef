@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class ApplyStatusEffectOnOwner: StatusEffectTasks
----@field public statusEffectID TweakDBID
+---@field statusEffectID TweakDBID
 ApplyStatusEffectOnOwner = {}
 
 ---@param fields? ApplyStatusEffectOnOwner
 ---@return ApplyStatusEffectOnOwner
-function ApplyStatusEffectOnOwner.new(fields) return end
+function ApplyStatusEffectOnOwner.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ApplyStatusEffectOnOwner:Activate(context) return end
+function ApplyStatusEffectOnOwner:Activate(context) end

@@ -5,10 +5,10 @@ gamedataAISubActionInitialReaction_Record = {}
 
 ---@param fields? gamedataAISubActionInitialReaction_Record
 ---@return gamedataAISubActionInitialReaction_Record
-function gamedataAISubActionInitialReaction_Record.new(fields) return end
+function gamedataAISubActionInitialReaction_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionInitialReaction_Record:DirectionObj() return end
+function gamedataAISubActionInitialReaction_Record:DirectionObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionInitialReaction_Record:DirectionObjHandle() return end
+function gamedataAISubActionInitialReaction_Record:DirectionObjHandle() end

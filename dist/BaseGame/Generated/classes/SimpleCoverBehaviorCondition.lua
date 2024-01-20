@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class SimpleCoverBehaviorCondition: AIbehaviorconditionScript
----@field private initialized Bool
----@field private isShotgunner Bool
----@field private isHeavyRanged Bool
+---@field initialized Bool
+---@field isShotgunner Bool
+---@field isHeavyRanged Bool
 SimpleCoverBehaviorCondition = {}
 
 ---@param fields? SimpleCoverBehaviorCondition
 ---@return SimpleCoverBehaviorCondition
-function SimpleCoverBehaviorCondition.new(fields) return end
+function SimpleCoverBehaviorCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleCoverBehaviorCondition:Activate(context) return end
+function SimpleCoverBehaviorCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function SimpleCoverBehaviorCondition:Check(context) return end
+function SimpleCoverBehaviorCondition:Check(context) end

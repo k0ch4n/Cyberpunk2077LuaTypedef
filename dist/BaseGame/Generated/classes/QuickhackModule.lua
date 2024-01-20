@@ -1,76 +1,70 @@
 ---@meta
 
 ---@class QuickhackModule: HUDModule
----@field private calculateClose Bool
+---@field calculateClose Bool
 QuickhackModule = {}
 
 ---@param fields? QuickhackModule
 ---@return QuickhackModule
-function QuickhackModule.new(fields) return end
+function QuickhackModule.new(fields) end
 
 ---@param commands QuickhackData[]
 ---@param characterRecord? gamedataCharacter_Record
 ---@return nil
-function QuickhackModule.CheckCommandDuplicates(commands, characterRecord) return end
+function QuickhackModule.CheckCommandDuplicates(commands, characterRecord) end
 
 ---@param player gameObject
 ---@return Bool
-function QuickhackModule.IsQuickhackBlockedByScene(player) return end
+function QuickhackModule.IsQuickhackBlockedByScene(player) end
 
 ---@param requester entEntityID
 ---@return nil
-function QuickhackModule.RequestCloseQuickhackMenu(requester) return end
+function QuickhackModule.RequestCloseQuickhackMenu(requester) end
 
 ---@param requester entEntityID
 ---@return nil
-function QuickhackModule.RequestRefreshQuickhackMenu(requester) return end
+function QuickhackModule.RequestRefreshQuickhackMenu(requester) end
 
----@private
 ---@param hudManager HUDManager
 ---@param requester entEntityID
 ---@param shouldOpen Bool
 ---@return nil
-function QuickhackModule.SendRevealQuickhackMenu(hudManager, requester, shouldOpen) return end
+function QuickhackModule.SendRevealQuickhackMenu(hudManager, requester, shouldOpen) end
 
 ---@param commands QuickhackData[]
 ---@return nil
-function QuickhackModule.SortCommandPriority(commands) return end
+function QuickhackModule.SortCommandPriority(commands) end
 
 ---@return QuickhackData[]
-function QuickhackModule.TranslateEmptyQuickSlotCommands() return end
+function QuickhackModule.TranslateEmptyQuickSlotCommands() end
 
----@protected
 ---@return Bool
-function QuickhackModule:BaseOpenCheck() return end
+function QuickhackModule:BaseOpenCheck() end
 
----@protected
 ---@param actor gameHudActor
 ---@return QuickhackInstance
-function QuickhackModule:DuplicateLastInstance(actor) return end
+function QuickhackModule:DuplicateLastInstance(actor) end
 
 ---@return Bool
-function QuickhackModule:IsModuleOperational() return end
+function QuickhackModule:IsModuleOperational() end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob task
-function QuickhackModule:Process(mode) return end
+function QuickhackModule:Process(mode) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob[] jobs
-function QuickhackModule:Process(mode) return end
+function QuickhackModule:Process(mode) end
 
----@private
 ---@param commands QuickhackData[]
 ---@param shouldReveal Bool
 ---@return nil
-function QuickhackModule:SendFakeCommands(commands, shouldReveal) return end
+function QuickhackModule:SendFakeCommands(commands, shouldReveal) end
 
 ---@param value Bool
 ---@return nil
-function QuickhackModule:SetCalculateClose(value) return end
+function QuickhackModule:SetCalculateClose(value) end
 
 ---@param jobs HUDJob[]
 ---@return nil
-function QuickhackModule:Suppress(jobs) return end
+function QuickhackModule:Suppress(jobs) end

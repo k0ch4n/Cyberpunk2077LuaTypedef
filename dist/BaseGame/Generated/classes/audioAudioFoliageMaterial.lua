@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAudioFoliageMaterial
----@field public loopStart CName
----@field public loopEnd CName
+---@field loopStart CName
+---@field loopEnd CName
 audioAudioFoliageMaterial = {}
 
 ---@param fields? audioAudioFoliageMaterial
 ---@return audioAudioFoliageMaterial
-function audioAudioFoliageMaterial.new(fields) return end
+function audioAudioFoliageMaterial.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendIndexBufferChunk
----@field public pe GpuWrapApieIndexBufferChunkType
----@field public teOffset Uint32
+---@field pe GpuWrapApieIndexBufferChunkType
+---@field teOffset Uint32
 rendIndexBufferChunk = {}
 
 ---@param fields? rendIndexBufferChunk
 ---@return rendIndexBufferChunk
-function rendIndexBufferChunk.new(fields) return end
+function rendIndexBufferChunk.new(fields) end

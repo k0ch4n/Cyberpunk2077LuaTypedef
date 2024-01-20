@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameinteractionsvisListChoiceData
----@field public localizedName String
----@field public type gameinteractionsChoiceTypeWrapper
----@field public inputActionName CName
----@field public captionParts gameinteractionsChoiceCaption
----@field public timeProvider gameinteractionsvisIVisualizerTimeProvider
+---@field localizedName String
+---@field type gameinteractionsChoiceTypeWrapper
+---@field inputActionName CName
+---@field captionParts gameinteractionsChoiceCaption
+---@field timeProvider gameinteractionsvisIVisualizerTimeProvider
 gameinteractionsvisListChoiceData = {}
 
 ---@param fields? gameinteractionsvisListChoiceData
 ---@return gameinteractionsvisListChoiceData
-function gameinteractionsvisListChoiceData.new(fields) return end
+function gameinteractionsvisListChoiceData.new(fields) end

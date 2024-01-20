@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioKeyUiControlDictionary: audioInlinedAudioMetadata
----@field public entries audioKeyUiControlPairDictionaryItem[]
----@field public entryType audioKeyUiControlPairDictionaryItem
+---@field entries audioKeyUiControlPairDictionaryItem[]
+---@field entryType audioKeyUiControlPairDictionaryItem
 audioKeyUiControlDictionary = {}
 
 ---@param fields? audioKeyUiControlDictionary
 ---@return audioKeyUiControlDictionary
-function audioKeyUiControlDictionary.new(fields) return end
+function audioKeyUiControlDictionary.new(fields) end

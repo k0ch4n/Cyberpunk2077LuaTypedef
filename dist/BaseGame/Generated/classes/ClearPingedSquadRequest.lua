@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ClearPingedSquadRequest: gameScriptableSystemRequest
----@field public squadName CName
+---@field squadName CName
 ClearPingedSquadRequest = {}
 
 ---@param fields? ClearPingedSquadRequest
 ---@return ClearPingedSquadRequest
-function ClearPingedSquadRequest.new(fields) return end
+function ClearPingedSquadRequest.new(fields) end

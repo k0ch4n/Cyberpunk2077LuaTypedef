@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class Multilayer_Setup: CResource
----@field public layers Multilayer_Layer[]
----@field public ratio Float
----@field public useNormal Bool
+---@field layers Multilayer_Layer[]
+---@field ratio Float
+---@field useNormal Bool
 Multilayer_Setup = {}
 
 ---@param fields? Multilayer_Setup
 ---@return Multilayer_Setup
-function Multilayer_Setup.new(fields) return end
+function Multilayer_Setup.new(fields) end

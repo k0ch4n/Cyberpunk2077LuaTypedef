@@ -5,4 +5,4 @@ VelocityEvaluator = {}
 
 ---@param fields? VelocityEvaluator
 ---@return VelocityEvaluator
-function VelocityEvaluator.new(fields) return end
+function VelocityEvaluator.new(fields) end

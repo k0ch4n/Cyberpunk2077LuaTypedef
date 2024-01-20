@@ -1,79 +1,70 @@
 ---@meta
 
 ---@class PhoneDialerSelectionController: inkSelectorController
----@field protected leftArrowWidget inkWidgetReference
----@field protected rightArrowWidget inkWidgetReference
----@field protected container inkCompoundWidgetReference
----@field protected line inkWidgetReference
----@field protected leftArrowController inkInputDisplayController
----@field protected rightArrowController inkInputDisplayController
----@field protected widgetsControllers HubMenuLabelContentContainer[]
----@field private lineTranslationAnimProxy inkanimProxy
----@field private lineSizeAnimProxy inkanimProxy
----@field private animationsRetryDiv Float
----@field private highlightInitialized Bool
----@field private currentIndex Int32
+---@field leftArrowWidget inkWidgetReference
+---@field rightArrowWidget inkWidgetReference
+---@field container inkCompoundWidgetReference
+---@field line inkWidgetReference
+---@field leftArrowController inkInputDisplayController
+---@field rightArrowController inkInputDisplayController
+---@field widgetsControllers HubMenuLabelContentContainer[]
+---@field lineTranslationAnimProxy inkanimProxy
+---@field lineSizeAnimProxy inkanimProxy
+---@field animationsRetryDiv Float
+---@field highlightInitialized Bool
+---@field currentIndex Int32
 PhoneDialerSelectionController = {}
 
 ---@param fields? PhoneDialerSelectionController
 ---@return PhoneDialerSelectionController
-function PhoneDialerSelectionController.new(fields) return end
+function PhoneDialerSelectionController.new(fields) end
 
----@protected
 ---@return Bool
-function PhoneDialerSelectionController:OnArrangeChildrenComplete() return end
+function PhoneDialerSelectionController:OnArrangeChildrenComplete() end
 
----@protected
 ---@param evt DelayedHighlightUpdateEvent
 ---@return Bool
-function PhoneDialerSelectionController:OnDelayedHighlightUpdate(evt) return end
+function PhoneDialerSelectionController:OnDelayedHighlightUpdate(evt) end
 
----@protected
 ---@return Bool
-function PhoneDialerSelectionController:OnInitialize() return end
+function PhoneDialerSelectionController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function PhoneDialerSelectionController:OnLineAnimationFinished(anim) return end
+function PhoneDialerSelectionController:OnLineAnimationFinished(anim) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param targetWidth Float
 ---@param time Float
 ---@return nil
-function PhoneDialerSelectionController:AnimateLineSize(targetWidget, targetWidth, time) return end
+function PhoneDialerSelectionController:AnimateLineSize(targetWidget, targetWidth, time) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param targetX Float
 ---@param time Float
 ---@return nil
-function PhoneDialerSelectionController:AnimateLineTranslation(targetWidget, targetX, time) return end
+function PhoneDialerSelectionController:AnimateLineTranslation(targetWidget, targetX, time) end
 
 ---@param index Int32
 ---@return nil
-function PhoneDialerSelectionController:HideTab(index) return end
+function PhoneDialerSelectionController:HideTab(index) end
+
+---@param index Int32
+---@param instant? Bool
+---@return nil
+function PhoneDialerSelectionController:ScrollTo(index, instant) end
+
+---@return nil
+function PhoneDialerSelectionController:SetupWidgets() end
+
+---@return nil
+function PhoneDialerSelectionController:UpdateArrowsVisibility() end
 
 ---@param index Int32
 ---@param instant? Bool
 ---@return nil
-function PhoneDialerSelectionController:ScrollTo(index, instant) return end
+function PhoneDialerSelectionController:UpdateHightlight(index, instant) end
 
----@return nil
-function PhoneDialerSelectionController:SetupWidgets() return end
-
----@private
----@return nil
-function PhoneDialerSelectionController:UpdateArrowsVisibility() return end
-
----@protected
----@param index Int32
----@param instant? Bool
----@return nil
-function PhoneDialerSelectionController:UpdateHightlight(index, instant) return end
-
----@protected
 ---@param currentIndex Int32
 ---@return nil
-function PhoneDialerSelectionController:UpdateLabelsStates(currentIndex) return end
+function PhoneDialerSelectionController:UpdateLabelsStates(currentIndex) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class animDyngParticle
----@field public mass Float
----@field public damping Float
----@field public pullForceFactor Float
----@field public isFree Bool
----@field public bone animTransformIndex
----@field public collisionCapsuleRadius Float
----@field public collisionCapsuleHeightExtent Float
----@field public collisionCapsuleAxisLS Vector3
----@field public projectionType animDyngParticleProjectionType
+---@field mass Float
+---@field damping Float
+---@field pullForceFactor Float
+---@field isFree Bool
+---@field bone animTransformIndex
+---@field collisionCapsuleRadius Float
+---@field collisionCapsuleHeightExtent Float
+---@field collisionCapsuleAxisLS Vector3
+---@field projectionType animDyngParticleProjectionType
 animDyngParticle = {}
 
 ---@param fields? animDyngParticle
 ---@return animDyngParticle
-function animDyngParticle.new(fields) return end
+function animDyngParticle.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraPriority
----@field public name String
+---@field name String
 toolsJiraPriority = {}
 
 ---@param fields? toolsJiraPriority
 ---@return toolsJiraPriority
-function toolsJiraPriority.new(fields) return end
+function toolsJiraPriority.new(fields) end

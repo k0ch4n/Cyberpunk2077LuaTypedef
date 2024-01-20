@@ -5,8 +5,7 @@ InDeadHighLevelState = {}
 
 ---@param fields? InDeadHighLevelState
 ---@return InDeadHighLevelState
-function InDeadHighLevelState.new(fields) return end
+function InDeadHighLevelState.new(fields) end
 
----@private
 ---@return gamedataNPCHighLevelState
-function InDeadHighLevelState:GetStateToCheck() return end
+function InDeadHighLevelState:GetStateToCheck() end

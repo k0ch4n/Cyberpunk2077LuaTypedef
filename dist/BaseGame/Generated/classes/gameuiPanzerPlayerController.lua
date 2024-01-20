@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameuiPanzerPlayerController: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
----@field public bulletSpeed Float
----@field public bulletSpawnOffset Vector2
----@field public bulletLibraryname CName
----@field public shootInterval Float
----@field public gameLayerName CName
----@field public invulnerableAnimationName CName
----@field public explosionLibraryName CName
+---@field bulletSpeed Float
+---@field bulletSpawnOffset Vector2
+---@field bulletLibraryname CName
+---@field shootInterval Float
+---@field gameLayerName CName
+---@field invulnerableAnimationName CName
+---@field explosionLibraryName CName
 gameuiPanzerPlayerController = {}
 
 ---@param fields? gameuiPanzerPlayerController
 ---@return gameuiPanzerPlayerController
-function gameuiPanzerPlayerController.new(fields) return end
+function gameuiPanzerPlayerController.new(fields) end

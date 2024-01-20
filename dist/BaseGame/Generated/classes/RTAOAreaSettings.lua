@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class RTAOAreaSettings: IAreaSettings
----@field public RangeNear curveData
----@field public RangeFar curveData
----@field public RadiusNear curveData
----@field public RadiusFar curveData
----@field public coneAoDiffuseStrength curveData
----@field public coneAoSpecularStrength curveData
----@field public coneAoSpecularTreshold curveData
----@field public lightAoDiffuseStrength curveData
----@field public lightAoSpecularStrength curveData
+---@field RangeNear curveData
+---@field RangeFar curveData
+---@field RadiusNear curveData
+---@field RadiusFar curveData
+---@field coneAoDiffuseStrength curveData
+---@field coneAoSpecularStrength curveData
+---@field coneAoSpecularTreshold curveData
+---@field lightAoDiffuseStrength curveData
+---@field lightAoSpecularStrength curveData
 RTAOAreaSettings = {}
 
 ---@param fields? RTAOAreaSettings
 ---@return RTAOAreaSettings
-function RTAOAreaSettings.new(fields) return end
+function RTAOAreaSettings.new(fields) end

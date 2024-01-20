@@ -5,52 +5,52 @@ CVisualDebug = {}
 
 ---@param fields? CVisualDebug
 ---@return CVisualDebug
-function CVisualDebug.new(fields) return end
+function CVisualDebug.new(fields) end
 
 ---@return nil
-function CVisualDebug:AddArrow() return end
+function CVisualDebug:AddArrow() end
 
 ---@return nil
-function CVisualDebug:AddAxis() return end
+function CVisualDebug:AddAxis() end
 
 ---@return nil
-function CVisualDebug:AddBar() return end
+function CVisualDebug:AddBar() end
 
 ---@return nil
-function CVisualDebug:AddBarColorAreas() return end
+function CVisualDebug:AddBarColorAreas() end
 
 ---@return nil
-function CVisualDebug:AddBarColorSmooth() return end
+function CVisualDebug:AddBarColorSmooth() end
 
 ---@return nil
-function CVisualDebug:AddBox() return end
+function CVisualDebug:AddBox() end
 
 ---@return nil
-function CVisualDebug:AddLine() return end
+function CVisualDebug:AddLine() end
 
 ---@return nil
-function CVisualDebug:AddSphere() return end
+function CVisualDebug:AddSphere() end
 
 ---@return nil
-function CVisualDebug:AddText() return end
+function CVisualDebug:AddText() end
 
 ---@return nil
-function CVisualDebug:RemoveArrow() return end
+function CVisualDebug:RemoveArrow() end
 
 ---@return nil
-function CVisualDebug:RemoveAxis() return end
+function CVisualDebug:RemoveAxis() end
 
 ---@return nil
-function CVisualDebug:RemoveBar() return end
+function CVisualDebug:RemoveBar() end
 
 ---@return nil
-function CVisualDebug:RemoveBox() return end
+function CVisualDebug:RemoveBox() end
 
 ---@return nil
-function CVisualDebug:RemoveLine() return end
+function CVisualDebug:RemoveLine() end
 
 ---@return nil
-function CVisualDebug:RemoveSphere() return end
+function CVisualDebug:RemoveSphere() end
 
 ---@return nil
-function CVisualDebug:RemoveText() return end
+function CVisualDebug:RemoveText() end

@@ -1,31 +1,30 @@
 ---@meta
 
 ---@class ScannerCrosshairLogicController: inkWidgetLogicController
----@field private rootWidget inkWidget
----@field private projection inkScreenProjection
+---@field rootWidget inkWidget
+---@field projection inkScreenProjection
 ScannerCrosshairLogicController = {}
 
 ---@param fields? ScannerCrosshairLogicController
 ---@return ScannerCrosshairLogicController
-function ScannerCrosshairLogicController.new(fields) return end
+function ScannerCrosshairLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerCrosshairLogicController:OnInitialize() return end
+function ScannerCrosshairLogicController:OnInitialize() end
 
 ---@return inkScreenProjectionData
-function ScannerCrosshairLogicController:CreateProjectionData() return end
+function ScannerCrosshairLogicController:CreateProjectionData() end
 
 ---@return inkScreenProjection
-function ScannerCrosshairLogicController:GetProjection() return end
+function ScannerCrosshairLogicController:GetProjection() end
 
 ---@param entityObject entEntity
 ---@return nil
-function ScannerCrosshairLogicController:SetEntity(entityObject) return end
+function ScannerCrosshairLogicController:SetEntity(entityObject) end
 
 ---@param projection inkScreenProjection
 ---@return nil
-function ScannerCrosshairLogicController:SetProjection(projection) return end
+function ScannerCrosshairLogicController:SetProjection(projection) end
 
 ---@return nil
-function ScannerCrosshairLogicController:UpdateProjection() return end
+function ScannerCrosshairLogicController:UpdateProjection() end

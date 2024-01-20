@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AIBackgroundCombatCommandParams: questScriptedAICommandParams
----@field public steps AIBackgroundCombatStep[]
+---@field steps AIBackgroundCombatStep[]
 AIBackgroundCombatCommandParams = {}
 
 ---@param fields? AIBackgroundCombatCommandParams
 ---@return AIBackgroundCombatCommandParams
-function AIBackgroundCombatCommandParams.new(fields) return end
+function AIBackgroundCombatCommandParams.new(fields) end
 
 ---@return AICommand
-function AIBackgroundCombatCommandParams:CreateCommand() return end
+function AIBackgroundCombatCommandParams:CreateCommand() end
 
 ---@return String
-function AIBackgroundCombatCommandParams:GetCommandName() return end
+function AIBackgroundCombatCommandParams:GetCommandName() end

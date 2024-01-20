@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DataTermDeviceBlackboardDef: DeviceBaseBlackboardDef
----@field public fastTravelPoint gamebbScriptID_Variant
----@field public triggerWorldMap gamebbScriptID_Bool
----@field public passengerCount gamebbScriptID_Int32
----@field public subwayGateOpen gamebbScriptID_Bool
+---@field fastTravelPoint gamebbScriptID_Variant
+---@field triggerWorldMap gamebbScriptID_Bool
+---@field passengerCount gamebbScriptID_Int32
+---@field subwayGateOpen gamebbScriptID_Bool
 DataTermDeviceBlackboardDef = {}
 
 ---@param fields? DataTermDeviceBlackboardDef
 ---@return DataTermDeviceBlackboardDef
-function DataTermDeviceBlackboardDef.new(fields) return end
+function DataTermDeviceBlackboardDef.new(fields) end

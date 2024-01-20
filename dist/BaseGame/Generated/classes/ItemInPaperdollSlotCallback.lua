@@ -1,29 +1,28 @@
 ---@meta
 
 ---@class ItemInPaperdollSlotCallback: gameAttachmentSlotsScriptCallback
----@field protected paperdollPuppet gamePuppet
+---@field paperdollPuppet gamePuppet
 ItemInPaperdollSlotCallback = {}
 
 ---@param fields? ItemInPaperdollSlotCallback
 ---@return ItemInPaperdollSlotCallback
-function ItemInPaperdollSlotCallback.new(fields) return end
+function ItemInPaperdollSlotCallback.new(fields) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ItemInPaperdollSlotCallback:OnItemEquipped(slot, item) return end
+function ItemInPaperdollSlotCallback:OnItemEquipped(slot, item) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ItemInPaperdollSlotCallback:OnItemUnequipped(slot, item) return end
+function ItemInPaperdollSlotCallback:OnItemUnequipped(slot, item) end
 
----@private
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ItemInPaperdollSlotCallback:ResetInnerChest(slot, item) return end
+function ItemInPaperdollSlotCallback:ResetInnerChest(slot, item) end
 
 ---@param puppet gamePuppet
 ---@return nil
-function ItemInPaperdollSlotCallback:SetPuppetRef(puppet) return end
+function ItemInPaperdollSlotCallback:SetPuppetRef(puppet) end

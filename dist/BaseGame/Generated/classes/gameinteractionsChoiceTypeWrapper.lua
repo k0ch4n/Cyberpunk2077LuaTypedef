@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class gameinteractionsChoiceTypeWrapper
----@field public properties Uint32
+---@field properties Uint32
 gameinteractionsChoiceTypeWrapper = {}
 
 ---@param fields? gameinteractionsChoiceTypeWrapper
 ---@return gameinteractionsChoiceTypeWrapper
-function gameinteractionsChoiceTypeWrapper.new(fields) return end
+function gameinteractionsChoiceTypeWrapper.new(fields) end
 
 ---@param context gameinteractionsChoiceTypeWrapper
 ---@param type gameinteractionsChoiceType
 ---@return nil
-function gameinteractionsChoiceTypeWrapper.ClearType(context, type) return end
+function gameinteractionsChoiceTypeWrapper.ClearType(context, type) end
 
 ---@param context gameinteractionsChoiceTypeWrapper
 ---@param type gameinteractionsChoiceType
 ---@return Bool
-function gameinteractionsChoiceTypeWrapper.IsType(context, type) return end
+function gameinteractionsChoiceTypeWrapper.IsType(context, type) end
 
 ---@param context gameinteractionsChoiceTypeWrapper
 ---@param type gameinteractionsChoiceType
 ---@return nil
-function gameinteractionsChoiceTypeWrapper.SetType(context, type) return end
+function gameinteractionsChoiceTypeWrapper.SetType(context, type) end

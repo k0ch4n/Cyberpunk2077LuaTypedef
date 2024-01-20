@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class HackingContainer: BaseSkillCheckContainer
----@field public hackingCheck HackingSkillCheck
+---@field hackingCheck HackingSkillCheck
 HackingContainer = {}
 
 ---@param fields? HackingContainer
 ---@return HackingContainer
-function HackingContainer.new(fields) return end
+function HackingContainer.new(fields) end
 
 ---@param container BaseSkillCheckContainer
 ---@return nil
-function HackingContainer:Initialize(container) return end
+function HackingContainer:Initialize(container) end

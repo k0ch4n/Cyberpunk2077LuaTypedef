@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questEntityManagerToggleComponent_NodeTypeParams
----@field public objectRef gameEntityReference
----@field public isPlayer Bool
----@field public componentName CName
----@field public enable Bool
+---@field objectRef gameEntityReference
+---@field isPlayer Bool
+---@field componentName CName
+---@field enable Bool
 questEntityManagerToggleComponent_NodeTypeParams = {}
 
 ---@param fields? questEntityManagerToggleComponent_NodeTypeParams
 ---@return questEntityManagerToggleComponent_NodeTypeParams
-function questEntityManagerToggleComponent_NodeTypeParams.new(fields) return end
+function questEntityManagerToggleComponent_NodeTypeParams.new(fields) end

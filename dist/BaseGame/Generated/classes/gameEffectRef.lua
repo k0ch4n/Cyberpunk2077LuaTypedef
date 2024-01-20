@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameEffectRef
----@field public set gameEffectSet
----@field public tag CName
+---@field set gameEffectSet
+---@field tag CName
 gameEffectRef = {}
 
 ---@param fields? gameEffectRef
 ---@return gameEffectRef
-function gameEffectRef.new(fields) return end
+function gameEffectRef.new(fields) end

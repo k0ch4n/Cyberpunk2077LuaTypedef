@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questSetDebugView_NodeType: questIRenderFxManagerNodeType
----@field public mode questEDebugViewMode
+---@field mode questEDebugViewMode
 questSetDebugView_NodeType = {}
 
 ---@param fields? questSetDebugView_NodeType
 ---@return questSetDebugView_NodeType
-function questSetDebugView_NodeType.new(fields) return end
+function questSetDebugView_NodeType.new(fields) end

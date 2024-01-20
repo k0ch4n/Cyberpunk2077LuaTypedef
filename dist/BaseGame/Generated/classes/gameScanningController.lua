@@ -5,54 +5,54 @@ gameScanningController = {}
 
 ---@param fields? gameScanningController
 ---@return gameScanningController
-function gameScanningController.new(fields) return end
+function gameScanningController.new(fields) end
 
 ---@param object gameObject
 ---@param mode gameScanningMode
 ---@return nil
-function gameScanningController:EnterMode(object, mode) return end
+function gameScanningController:EnterMode(object, mode) end
 
 ---@return entEntityID
-function gameScanningController:GetExclusiveFocusClueEntity() return end
+function gameScanningController:GetExclusiveFocusClueEntity() end
 
 ---@param object gameObject
 ---@return Float
-function gameScanningController:GetScanProgress(object) return end
+function gameScanningController:GetScanProgress(object) end
 
 ---@param object gameObject
 ---@param range3D Float
 ---@param range2D? Vector4
 ---@param startPosition? Vector4
 ---@return nil
-function gameScanningController:ImmediateScan(object, range3D, range2D, startPosition) return end
+function gameScanningController:ImmediateScan(object, range3D, range2D, startPosition) end
 
 ---@param object gameObject
 ---@return Bool
-function gameScanningController:IsScanned(object) return end
+function gameScanningController:IsScanned(object) end
 
 ---@param object gameObject
 ---@return Bool
-function gameScanningController:IsTagged(object) return end
+function gameScanningController:IsTagged(object) end
 
 ---@param object gameObject
 ---@param range3D Float
 ---@param range2D? Vector4
 ---@param startPosition? Vector4
 ---@return nil
-function gameScanningController:PulseScan(object, range3D, range2D, startPosition) return end
+function gameScanningController:PulseScan(object, range3D, range2D, startPosition) end
 
 ---@param object gameObject
 ---@param val Bool
 ---@return Bool
-function gameScanningController:SetIsScanned_Event(object, val) return end
+function gameScanningController:SetIsScanned_Event(object, val) end
 
 ---@param object gameObject
 ---@return nil
-function gameScanningController:TagObject(object) return end
+function gameScanningController:TagObject(object) end
 
 ---@return nil
-function gameScanningController:UntagAll() return end
+function gameScanningController:UntagAll() end
 
 ---@param object gameObject
 ---@return Float
-function gameScanningController:UntagObject(object) return end
+function gameScanningController:UntagObject(object) end

@@ -5,39 +5,33 @@ VehicleInsideWheelDecisions = {}
 
 ---@param fields? VehicleInsideWheelDecisions
 ---@return VehicleInsideWheelDecisions
-function VehicleInsideWheelDecisions.new(fields) return end
+function VehicleInsideWheelDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function VehicleInsideWheelDecisions:OnAction(action, consumer) return end
+function VehicleInsideWheelDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleInsideWheelDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VehicleInsideWheelDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleInsideWheelDecisions:IsRadioDisabled(scriptInterface) return end
+function VehicleInsideWheelDecisions:IsRadioDisabled(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleInsideWheelDecisions:OnAttach(stateContext, scriptInterface) return end
+function VehicleInsideWheelDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleInsideWheelDecisions:OnDetach(stateContext, scriptInterface) return end
+function VehicleInsideWheelDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleInsideWheelDecisions:ToQuickSlotsReady(stateContext, scriptInterface) return end
+function VehicleInsideWheelDecisions:ToQuickSlotsReady(stateContext, scriptInterface) end

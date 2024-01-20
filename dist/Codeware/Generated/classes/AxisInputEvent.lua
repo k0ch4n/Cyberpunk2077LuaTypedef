@@ -5,13 +5,13 @@ AxisInputEvent = {}
 
 ---@param fields? AxisInputEvent
 ---@return AxisInputEvent
-function AxisInputEvent.new(fields) return end
+function AxisInputEvent.new(fields) end
 
 ---@return Uint32
-function AxisInputEvent:GetMouseX() return end
+function AxisInputEvent:GetMouseX() end
 
 ---@return Uint32
-function AxisInputEvent:GetMouseY() return end
+function AxisInputEvent:GetMouseY() end
 
 ---@return Float
-function AxisInputEvent:GetValue() return end
+function AxisInputEvent:GetValue() end

@@ -5,4 +5,4 @@ gameJournalFolderEntry = {}
 
 ---@param fields? gameJournalFolderEntry
 ---@return gameJournalFolderEntry
-function gameJournalFolderEntry.new(fields) return end
+function gameJournalFolderEntry.new(fields) end

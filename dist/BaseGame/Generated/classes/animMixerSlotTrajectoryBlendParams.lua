@@ -5,4 +5,4 @@ animMixerSlotTrajectoryBlendParams = {}
 
 ---@param fields? animMixerSlotTrajectoryBlendParams
 ---@return animMixerSlotTrajectoryBlendParams
-function animMixerSlotTrajectoryBlendParams.new(fields) return end
+function animMixerSlotTrajectoryBlendParams.new(fields) end

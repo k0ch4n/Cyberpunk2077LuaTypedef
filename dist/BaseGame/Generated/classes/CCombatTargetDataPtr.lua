@@ -5,4 +5,4 @@ CCombatTargetDataPtr = {}
 
 ---@param fields? CCombatTargetDataPtr
 ---@return CCombatTargetDataPtr
-function CCombatTargetDataPtr.new(fields) return end
+function CCombatTargetDataPtr.new(fields) end

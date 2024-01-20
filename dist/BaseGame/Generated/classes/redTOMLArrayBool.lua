@@ -5,4 +5,4 @@ redTOMLArrayBool = {}
 
 ---@param fields? redTOMLArrayBool
 ---@return redTOMLArrayBool
-function redTOMLArrayBool.new(fields) return end
+function redTOMLArrayBool.new(fields) end

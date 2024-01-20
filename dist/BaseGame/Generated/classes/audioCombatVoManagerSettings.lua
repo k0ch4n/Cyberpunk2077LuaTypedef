@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class audioCombatVoManagerSettings: audioAudioMetadata
----@field public thresholdDbForCombatDialog Float
----@field public maxVoHearableHorizontalDistance Float
----@field public maxVoHearableVerticalDistance Float
----@field public maxVoVisibleDistance Float
----@field public triggerVoEventBufferTime Float
----@field public triggerIdleChattersTime Float
----@field public minNoVOTimeNeededToTryPlayingGenericVO Float
----@field public specificVoicesetVoVariationMinRepeatTime Float
----@field public forceApucVoiceTagSelectionProbability Float
----@field public voiceTagSelectionRandomTimeOffset Float
----@field public genericRelaxedVOContexts CName[]
----@field public genericFearVOContexts CName[]
----@field public genericAlertedVOContexts CName[]
----@field public genericCombatVOContexts CName[]
----@field public genericCombatLosingVOContexts CName[]
----@field public genericCombatSingleEnemyVOContexts CName[]
+---@field thresholdDbForCombatDialog Float
+---@field maxVoHearableHorizontalDistance Float
+---@field maxVoHearableVerticalDistance Float
+---@field maxVoVisibleDistance Float
+---@field triggerVoEventBufferTime Float
+---@field triggerIdleChattersTime Float
+---@field minNoVOTimeNeededToTryPlayingGenericVO Float
+---@field specificVoicesetVoVariationMinRepeatTime Float
+---@field forceApucVoiceTagSelectionProbability Float
+---@field voiceTagSelectionRandomTimeOffset Float
+---@field genericRelaxedVOContexts CName[]
+---@field genericFearVOContexts CName[]
+---@field genericAlertedVOContexts CName[]
+---@field genericCombatVOContexts CName[]
+---@field genericCombatLosingVOContexts CName[]
+---@field genericCombatSingleEnemyVOContexts CName[]
 audioCombatVoManagerSettings = {}
 
 ---@param fields? audioCombatVoManagerSettings
 ---@return audioCombatVoManagerSettings
-function audioCombatVoManagerSettings.new(fields) return end
+function audioCombatVoManagerSettings.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class STvChannel
----@field public channelName String
----@field public videoPath redResourceReferenceScriptToken
----@field public messageRecordID TweakDBID
----@field public audioEvent CName
----@field public looped Bool
----@field public sequence SequenceVideo[]
----@field public channelTweakID TweakDBID
+---@field channelName String
+---@field videoPath redResourceReferenceScriptToken
+---@field messageRecordID TweakDBID
+---@field audioEvent CName
+---@field looped Bool
+---@field sequence SequenceVideo[]
+---@field channelTweakID TweakDBID
 STvChannel = {}
 
 ---@param fields? STvChannel
 ---@return STvChannel
-function STvChannel.new(fields) return end
+function STvChannel.new(fields) end

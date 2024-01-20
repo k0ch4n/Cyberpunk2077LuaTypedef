@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnscreenplayStore
----@field public lines scnscreenplayDialogLine[]
----@field public options scnscreenplayChoiceOption[]
+---@field lines scnscreenplayDialogLine[]
+---@field options scnscreenplayChoiceOption[]
 scnscreenplayStore = {}
 
 ---@param fields? scnscreenplayStore
 ---@return scnscreenplayStore
-function scnscreenplayStore.new(fields) return end
+function scnscreenplayStore.new(fields) end

@@ -5,9 +5,9 @@ DriverCombatMountedWeaponsDecisions = {}
 
 ---@param fields? DriverCombatMountedWeaponsDecisions
 ---@return DriverCombatMountedWeaponsDecisions
-function DriverCombatMountedWeaponsDecisions.new(fields) return end
+function DriverCombatMountedWeaponsDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DriverCombatMountedWeaponsDecisions:ToDrive(stateContext, scriptInterface) return end
+function DriverCombatMountedWeaponsDecisions:ToDrive(stateContext, scriptInterface) end

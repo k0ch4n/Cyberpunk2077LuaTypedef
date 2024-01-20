@@ -5,4 +5,4 @@ gamestateMachineplayeractionsEquipItem = {}
 
 ---@param fields? gamestateMachineplayeractionsEquipItem
 ---@return gamestateMachineplayeractionsEquipItem
-function gamestateMachineplayeractionsEquipItem.new(fields) return end
+function gamestateMachineplayeractionsEquipItem.new(fields) end

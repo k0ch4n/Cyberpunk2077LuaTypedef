@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameJournalEntry: IScriptable
----@field public id String
----@field public journalEntryOverrideDataList gameJournalEntryOverrideData[]
+---@field id String
+---@field journalEntryOverrideDataList gameJournalEntryOverrideData[]
 gameJournalEntry = {}
 
 ---@return String
-function gameJournalEntry:GetEditorName() return end
+function gameJournalEntry:GetEditorName() end
 
 ---@return String
-function gameJournalEntry:GetId() return end
+function gameJournalEntry:GetId() end
 
 ---@return nil, gameJournalEntryOverrideData[] journalEntryOverrideDataList
-function gameJournalEntry:GetJournalEntryOverrideDataList() return end
+function gameJournalEntry:GetJournalEntryOverrideDataList() end
 
 ---@return Int32
-function gameJournalEntry:GetJournalEntryOverrideDataListCount() return end
+function gameJournalEntry:GetJournalEntryOverrideDataListCount() end

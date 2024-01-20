@@ -5,4 +5,4 @@ scnCheckSpeakerOrAddressDistractedInterruptCondition = {}
 
 ---@param fields? scnCheckSpeakerOrAddressDistractedInterruptCondition
 ---@return scnCheckSpeakerOrAddressDistractedInterruptCondition
-function scnCheckSpeakerOrAddressDistractedInterruptCondition.new(fields) return end
+function scnCheckSpeakerOrAddressDistractedInterruptCondition.new(fields) end

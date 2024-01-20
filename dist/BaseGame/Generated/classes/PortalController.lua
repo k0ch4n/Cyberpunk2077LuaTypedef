@@ -5,7 +5,7 @@ PortalController = {}
 
 ---@param fields? PortalController
 ---@return PortalController
-function PortalController.new(fields) return end
+function PortalController.new(fields) end
 
 ---@return gameComponentPS
-function PortalController:GetPS() return end
+function PortalController:GetPS() end

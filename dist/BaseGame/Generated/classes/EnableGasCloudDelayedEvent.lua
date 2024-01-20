@@ -5,4 +5,4 @@ EnableGasCloudDelayedEvent = {}
 
 ---@param fields? EnableGasCloudDelayedEvent
 ---@return EnableGasCloudDelayedEvent
-function EnableGasCloudDelayedEvent.new(fields) return end
+function EnableGasCloudDelayedEvent.new(fields) end

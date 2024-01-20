@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class CrossingLightControllerPS: TrafficLightControllerPS
----@field protected crossingLightSFXSetup CrossingLightSetup
+---@field crossingLightSFXSetup CrossingLightSetup
 CrossingLightControllerPS = {}
 
 ---@param fields? CrossingLightControllerPS
 ---@return CrossingLightControllerPS
-function CrossingLightControllerPS.new(fields) return end
+function CrossingLightControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function CrossingLightControllerPS:OnInstantiated() return end
+function CrossingLightControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function CrossingLightControllerPS:GameAttached() return end
+function CrossingLightControllerPS:GameAttached() end
 
 ---@return CName
-function CrossingLightControllerPS:GetGreenSFX() return end
+function CrossingLightControllerPS:GetGreenSFX() end
 
 ---@return CName
-function CrossingLightControllerPS:GetRedSFX() return end
+function CrossingLightControllerPS:GetRedSFX() end
 
----@protected
 ---@return nil
-function CrossingLightControllerPS:Initialize() return end
+function CrossingLightControllerPS:Initialize() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AICTreeNodeFSMDefinition: AICTreeNodeCompositeDefinition
----@field public defaultState Uint16
----@field public transitions AIFSMTransitionDefinition[]
----@field public onEventTransitions AIFSMEventTransitionsListDefinition[]
----@field public states AIFSMStateDefinition[]
----@field public sharedVars AISharedVarTableDefinition
+---@field defaultState Uint16
+---@field transitions AIFSMTransitionDefinition[]
+---@field onEventTransitions AIFSMEventTransitionsListDefinition[]
+---@field states AIFSMStateDefinition[]
+---@field sharedVars AISharedVarTableDefinition
 AICTreeNodeFSMDefinition = {}
 
 ---@param fields? AICTreeNodeFSMDefinition
 ---@return AICTreeNodeFSMDefinition
-function AICTreeNodeFSMDefinition.new(fields) return end
+function AICTreeNodeFSMDefinition.new(fields) end

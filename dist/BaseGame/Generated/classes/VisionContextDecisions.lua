@@ -1,66 +1,56 @@
 ---@meta
 
 ---@class VisionContextDecisions: InputContextTransitionDecisions
----@field private vehicleCallbackID redCallbackObject
----@field private focusCallbackID redCallbackObject
----@field private vehicleTransition Bool
----@field private isFocusing Bool
----@field private visionHoldPressed Bool
+---@field vehicleCallbackID redCallbackObject
+---@field focusCallbackID redCallbackObject
+---@field vehicleTransition Bool
+---@field isFocusing Bool
+---@field visionHoldPressed Bool
 VisionContextDecisions = {}
 
 ---@param fields? VisionContextDecisions
 ---@return VisionContextDecisions
-function VisionContextDecisions.new(fields) return end
+function VisionContextDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function VisionContextDecisions:OnAction(action, consumer) return end
+function VisionContextDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VisionContextDecisions:OnVehicleStateChanged(value) return end
+function VisionContextDecisions:OnVehicleStateChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VisionContextDecisions:OnVisionChanged(value) return end
+function VisionContextDecisions:OnVisionChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VisionContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VisionContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VisionContextDecisions:OnAttach(stateContext, scriptInterface) return end
+function VisionContextDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VisionContextDecisions:OnDetach(stateContext, scriptInterface) return end
+function VisionContextDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@return nil
-function VisionContextDecisions:UpdateNeedsToBeChecked() return end
+function VisionContextDecisions:UpdateNeedsToBeChecked() end
 
----@protected
 ---@param value Int32
 ---@return nil
-function VisionContextDecisions:UpdateVehicleStateValue(value) return end
+function VisionContextDecisions:UpdateVehicleStateValue(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function VisionContextDecisions:UpdateVisionAction(value) return end
+function VisionContextDecisions:UpdateVisionAction(value) end
 
----@protected
 ---@param value Int32
 ---@return nil
-function VisionContextDecisions:UpdateVisionValue(value) return end
+function VisionContextDecisions:UpdateVisionValue(value) end

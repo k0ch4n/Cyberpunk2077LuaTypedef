@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIFollowerDeviceCommand: AIFollowerCommand
----@field public target gameObject
----@field public overrideMovementTarget gameObject
+---@field target gameObject
+---@field overrideMovementTarget gameObject
 AIFollowerDeviceCommand = {}
 
 ---@param fields? AIFollowerDeviceCommand
 ---@return AIFollowerDeviceCommand
-function AIFollowerDeviceCommand.new(fields) return end
+function AIFollowerDeviceCommand.new(fields) end

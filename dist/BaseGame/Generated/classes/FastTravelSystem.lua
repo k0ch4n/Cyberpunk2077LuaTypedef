@@ -1,262 +1,219 @@
 ---@meta
 
 ---@class FastTravelSystem: gameScriptableSystem
----@field private fastTravelNodes gameFastTravelPointData[]
----@field private isFastTravelEnabledOnMap Bool
----@field private fastTravelPointsTotal Int32
----@field private lastUpdatedAchievementCount Int32
----@field private fastTravelLocks FastTravelSystemLock[]
----@field private loadingScreenCallbackID redCallbackObject
----@field private requestAutoSafeAfterLoadingScreen Bool
----@field private fastTravelSystemRecord gamedataFastTravelSystem_Record
----@field private lockLisenerID CName
----@field private unlockLisenerID CName
----@field private removeAllLocksLisenerID CName
+---@field fastTravelNodes gameFastTravelPointData[]
+---@field isFastTravelEnabledOnMap Bool
+---@field fastTravelPointsTotal Int32
+---@field lastUpdatedAchievementCount Int32
+---@field fastTravelLocks FastTravelSystemLock[]
+---@field loadingScreenCallbackID redCallbackObject
+---@field requestAutoSafeAfterLoadingScreen Bool
+---@field fastTravelSystemRecord gamedataFastTravelSystem_Record
+---@field lockLisenerID CName
+---@field unlockLisenerID CName
+---@field removeAllLocksLisenerID CName
 FastTravelSystem = {}
 
 ---@param fields? FastTravelSystem
 ---@return FastTravelSystem
-function FastTravelSystem.new(fields) return end
+function FastTravelSystem.new(fields) end
 
 ---@param reason CName|string
 ---@param statusEffectID? TweakDBID|string
 ---@return nil
-function FastTravelSystem.AddFastTravelLock(reason, statusEffectID) return end
+function FastTravelSystem.AddFastTravelLock(reason, statusEffectID) end
 
 ---@param enable Bool
 ---@param reason CName|string
 ---@param statusEffectID? TweakDBID|string
 ---@return nil
-function FastTravelSystem.ManageFastTravelLock(enable, reason, statusEffectID) return end
+function FastTravelSystem.ManageFastTravelLock(enable, reason, statusEffectID) end
 
 ---@return nil
-function FastTravelSystem.RemoveAllFastTravelLocks() return end
+function FastTravelSystem.RemoveAllFastTravelLocks() end
 
 ---@param reason CName|string
 ---@param statusEffectID? TweakDBID|string
 ---@return nil
-function FastTravelSystem.RemoveFastTravelLock(reason, statusEffectID) return end
+function FastTravelSystem.RemoveFastTravelLock(reason, statusEffectID) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function FastTravelSystem:OnLoadingScreenFinished(value) return end
+function FastTravelSystem:OnLoadingScreenFinished(value) end
 
----@private
 ---@param reason CName|string
 ---@param statusEffectID? TweakDBID|string
 ---@return nil
-function FastTravelSystem:AddFastTravelLock(reason, statusEffectID) return end
+function FastTravelSystem:AddFastTravelLock(reason, statusEffectID) end
 
----@private
 ---@param nodeData gameFastTravelPointData
 ---@return nil
-function FastTravelSystem:AddFastTravelPoint(nodeData) return end
+function FastTravelSystem:AddFastTravelPoint(nodeData) end
 
----@private
 ---@return nil
-function FastTravelSystem:CheckForScottieAchievement() return end
+function FastTravelSystem:CheckForScottieAchievement() end
 
----@private
 ---@return nil
-function FastTravelSystem:EvaluateFastTravelLocksOnRestore() return end
+function FastTravelSystem:EvaluateFastTravelLocksOnRestore() end
 
 ---@return Int32
-function FastTravelSystem:GetAmmountOfFastTravelPointsOnMap() return end
+function FastTravelSystem:GetAmmountOfFastTravelPointsOnMap() end
 
 ---@param nodeData gameFastTravelPointData
 ---@return gameFastTravelPointData
-function FastTravelSystem:GetFastTravelPoint(nodeData) return end
+function FastTravelSystem:GetFastTravelPoint(nodeData) end
 
 ---@return gameFastTravelPointData[]
-function FastTravelSystem:GetFastTravelPoints() return end
+function FastTravelSystem:GetFastTravelPoints() end
 
 ---@param nodeData gameFastTravelPointData
 ---@return Bool
-function FastTravelSystem:HasFastTravelPoint(nodeData) return end
+function FastTravelSystem:HasFastTravelPoint(nodeData) end
 
----@private
 ---@return nil
-function FastTravelSystem:InitializeDebugButtons() return end
+function FastTravelSystem:InitializeDebugButtons() end
 
 ---@return Bool
-function FastTravelSystem:IsFastTravelEnabled() return end
+function FastTravelSystem:IsFastTravelEnabled() end
 
 ---@return Bool
-function FastTravelSystem:IsFastTravelEnabledOnMap() return end
+function FastTravelSystem:IsFastTravelEnabledOnMap() end
 
----@private
 ---@return nil
-function FastTravelSystem:OnAttach() return end
+function FastTravelSystem:OnAttach() end
 
----@private
 ---@param request CloseLastVisitedFastTravelSubwayGate
 ---@return nil
-function FastTravelSystem:OnCloseLastVisitedFastTravelSubwayGate(request) return end
+function FastTravelSystem:OnCloseLastVisitedFastTravelSubwayGate(request) end
 
----@private
 ---@param request gameSDOClickedRequest
 ---@return nil
-function FastTravelSystem:OnDebugButtonClicked(request) return end
+function FastTravelSystem:OnDebugButtonClicked(request) end
 
----@private
 ---@return nil
-function FastTravelSystem:OnDetach() return end
+function FastTravelSystem:OnDetach() end
 
----@private
 ---@param request EnableFastTravelRequest
 ---@return nil
-function FastTravelSystem:OnEnableFastTravelRequest(request) return end
+function FastTravelSystem:OnEnableFastTravelRequest(request) end
 
----@protected
 ---@param request FastTravelConsoleInstructionRequest
 ---@return nil
-function FastTravelSystem:OnFastTravelConsoleInstructionRequest(request) return end
+function FastTravelSystem:OnFastTravelConsoleInstructionRequest(request) end
 
----@private
 ---@param request FastTravelPrefetchRequest
 ---@return nil
-function FastTravelSystem:OnFastTravelPrefetchRequest(request) return end
+function FastTravelSystem:OnFastTravelPrefetchRequest(request) end
 
----@private
 ---@param request OpenFastTravelMenuForLastVisitedSubwayGate
 ---@return nil
-function FastTravelSystem:OnOpenFastTravelMenuForLastVisitedSubwayGate(request) return end
+function FastTravelSystem:OnOpenFastTravelMenuForLastVisitedSubwayGate(request) end
 
----@private
 ---@param request OpenLastVisitedFastTravelSubwayGate
 ---@return nil
-function FastTravelSystem:OnOpenLastVisitedFastTravelSubwayGate(request) return end
+function FastTravelSystem:OnOpenLastVisitedFastTravelSubwayGate(request) end
 
----@private
 ---@param request PerformFastTravelRequest
 ---@return nil
-function FastTravelSystem:OnPerformFastTravelRequest(request) return end
+function FastTravelSystem:OnPerformFastTravelRequest(request) end
 
----@private
 ---@param request RegisterFastTravelPointRequest
 ---@return nil
-function FastTravelSystem:OnRegisterFastTravelPointRequest(request) return end
+function FastTravelSystem:OnRegisterFastTravelPointRequest(request) end
 
----@private
 ---@param request RegisterFastTravelPointsRequest
 ---@return nil
-function FastTravelSystem:OnRegisterFastTravelPointsRequest(request) return end
+function FastTravelSystem:OnRegisterFastTravelPointsRequest(request) end
 
----@private
 ---@param request RemoveAllFastTravelLocksRequest
 ---@return nil
-function FastTravelSystem:OnRemoveAllFastTravelLocksRequest(request) return end
+function FastTravelSystem:OnRemoveAllFastTravelLocksRequest(request) end
 
----@private
 ---@param request AutoSaveRequest
 ---@return nil
-function FastTravelSystem:OnRequestAutoSave(request) return end
+function FastTravelSystem:OnRequestAutoSave(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function FastTravelSystem:OnRestored(saveVersion, gameVersion) return end
+function FastTravelSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param evt FastTravelMenuToggledEvent
 ---@return nil
-function FastTravelSystem:OnToggleFastTravelAvailabilityOnMapRequest(evt) return end
+function FastTravelSystem:OnToggleFastTravelAvailabilityOnMapRequest(evt) end
 
----@private
 ---@param request UnregisterFastTravelPointRequest
 ---@return nil
-function FastTravelSystem:OnUnregisterFastTravelPointRequest(request) return end
+function FastTravelSystem:OnUnregisterFastTravelPointRequest(request) end
 
----@private
 ---@param evt UpdateFastTravelPointRecordRequest
 ---@return nil
-function FastTravelSystem:OnUpdateFastTravelPointRecordRequest(evt) return end
+function FastTravelSystem:OnUpdateFastTravelPointRecordRequest(evt) end
 
----@private
 ---@param player gameObject
 ---@param nodeData gameFastTravelPointData
 ---@return nil
-function FastTravelSystem:PerformFastTravel(player, nodeData) return end
+function FastTravelSystem:PerformFastTravel(player, nodeData) end
 
----@private
 ---@return nil
-function FastTravelSystem:RefreshFastTravelNodes() return end
+function FastTravelSystem:RefreshFastTravelNodes() end
 
----@private
 ---@param pointData gameFastTravelPointData
 ---@param requesterID entEntityID
 ---@return nil
-function FastTravelSystem:RegisterFastTravelPoint(pointData, requesterID) return end
+function FastTravelSystem:RegisterFastTravelPoint(pointData, requesterID) end
 
----@protected
 ---@return nil
-function FastTravelSystem:RegisterLoadingScreenCallback() return end
+function FastTravelSystem:RegisterLoadingScreenCallback() end
 
----@private
 ---@param nodeData gameFastTravelPointData
 ---@return nil
-function FastTravelSystem:RegisterMappin(nodeData) return end
+function FastTravelSystem:RegisterMappin(nodeData) end
 
----@private
 ---@param reason CName|string
 ---@return nil
-function FastTravelSystem:RemoveFastTravelLock(reason) return end
+function FastTravelSystem:RemoveFastTravelLock(reason) end
 
----@private
 ---@param nodeData gameFastTravelPointData
 ---@return nil
-function FastTravelSystem:RemoveFastTravelPoint(nodeData) return end
+function FastTravelSystem:RemoveFastTravelPoint(nodeData) end
 
----@private
 ---@return nil
-function FastTravelSystem:RequestAutoSave() return end
+function FastTravelSystem:RequestAutoSave() end
 
----@private
 ---@return nil
-function FastTravelSystem:RequestAutoSaveWithDelay() return end
+function FastTravelSystem:RequestAutoSaveWithDelay() end
 
----@private
 ---@return nil
-function FastTravelSystem:RestoreFastTravelMappins() return end
+function FastTravelSystem:RestoreFastTravelMappins() end
 
----@private
 ---@return nil
-function FastTravelSystem:SetFastTravelStarted() return end
+function FastTravelSystem:SetFastTravelStarted() end
 
----@private
 ---@return nil
-function FastTravelSystem:ShowDebug() return end
+function FastTravelSystem:ShowDebug() end
 
----@private
 ---@return nil
-function FastTravelSystem:TutorialAddFastTravelFact() return end
+function FastTravelSystem:TutorialAddFastTravelFact() end
 
----@private
 ---@return nil
-function FastTravelSystem:UninitializeDebugButtons() return end
+function FastTravelSystem:UninitializeDebugButtons() end
 
----@private
 ---@param pointData gameFastTravelPointData
 ---@param requesterID entEntityID
 ---@return nil
-function FastTravelSystem:UnregisterFastTravelPoint(pointData, requesterID) return end
+function FastTravelSystem:UnregisterFastTravelPoint(pointData, requesterID) end
 
----@protected
 ---@return nil
-function FastTravelSystem:UnregisterLoadingCallback() return end
+function FastTravelSystem:UnregisterLoadingCallback() end
 
----@private
 ---@param nodeData gameFastTravelPointData
 ---@return nil
-function FastTravelSystem:UnregisterMappin(nodeData) return end
+function FastTravelSystem:UnregisterMappin(nodeData) end
 
----@private
 ---@param magicFloat Float
 ---@return nil
-function FastTravelSystem:execInstructionForward(magicFloat) return end
+function FastTravelSystem:execInstructionForward(magicFloat) end
 
----@private
 ---@return nil
-function FastTravelSystem:execInstructionPrevious() return end
+function FastTravelSystem:execInstructionPrevious() end

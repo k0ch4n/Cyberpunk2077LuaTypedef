@@ -5,14 +5,12 @@ SetBackOffAnimFeature = {}
 
 ---@param fields? SetBackOffAnimFeature
 ---@return SetBackOffAnimFeature
-function SetBackOffAnimFeature.new(fields) return end
+function SetBackOffAnimFeature.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetBackOffAnimFeature:Activate(context) return end
+function SetBackOffAnimFeature:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetBackOffAnimFeature:Deactivate(context) return end
+function SetBackOffAnimFeature:Deactivate(context) end

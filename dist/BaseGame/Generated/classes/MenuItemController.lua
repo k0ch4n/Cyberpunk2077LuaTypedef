@@ -1,114 +1,102 @@
 ---@meta
 
 ---@class MenuItemController: inkWidgetLogicController
----@field public menuData MenuData
----@field private label inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private frameHovered inkWidgetReference
----@field private hoverPanel inkWidgetReference
----@field private background inkWidgetReference
----@field private levelFlag inkWidgetReference
----@field private attrFlag inkWidgetReference
----@field private attrText inkTextWidgetReference
----@field private perkFlag inkWidgetReference
----@field private perkText inkTextWidgetReference
----@field private fluffText inkTextWidgetReference
----@field private itemHovered Bool
----@field private panelHovered Bool
----@field private panelTransitionProxy inkanimProxy
----@field private buttonTransitionProxy inkanimProxy
----@field private isPanelShown Bool
----@field private isDimmed Bool
----@field private isHyperlink Bool
+---@field menuData MenuData
+---@field label inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field frameHovered inkWidgetReference
+---@field hoverPanel inkWidgetReference
+---@field background inkWidgetReference
+---@field levelFlag inkWidgetReference
+---@field attrFlag inkWidgetReference
+---@field attrText inkTextWidgetReference
+---@field perkFlag inkWidgetReference
+---@field perkText inkTextWidgetReference
+---@field fluffText inkTextWidgetReference
+---@field itemHovered Bool
+---@field panelHovered Bool
+---@field panelTransitionProxy inkanimProxy
+---@field buttonTransitionProxy inkanimProxy
+---@field isPanelShown Bool
+---@field isDimmed Bool
+---@field isHyperlink Bool
 MenuItemController = {}
 
 ---@param fields? MenuItemController
 ---@return MenuItemController
-function MenuItemController.new(fields) return end
+function MenuItemController.new(fields) end
 
 ---@param label inkTextWidgetReference
 ---@param root inkWidget
 ---@return nil
-function MenuItemController.ApplyDisabledLayout(label, root) return end
+function MenuItemController.ApplyDisabledLayout(label, root) end
 
 ---@param label inkTextWidgetReference
 ---@param root inkWidget
 ---@return nil
-function MenuItemController.ApplyEnabledLayout(label, root) return end
+function MenuItemController.ApplyEnabledLayout(label, root) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function MenuItemController:OnHoverPanelOut(evt) return end
+function MenuItemController:OnHoverPanelOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function MenuItemController:OnHoverPanelOver(evt) return end
+function MenuItemController:OnHoverPanelOver(evt) end
 
----@protected
 ---@return Bool
-function MenuItemController:OnInitialize() return end
+function MenuItemController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function MenuItemController:OnItemHoverOut(evt) return end
+function MenuItemController:OnItemHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function MenuItemController:OnItemHoverOver(evt) return end
+function MenuItemController:OnItemHoverOver(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function MenuItemController:OnMenuChangeRelease(e) return end
+function MenuItemController:OnMenuChangeRelease(e) end
 
----@protected
 ---@param evt MenuItemDelayedUpdate
 ---@return Bool
-function MenuItemController:OnMenuItemDelayedUpdate(evt) return end
+function MenuItemController:OnMenuItemDelayedUpdate(evt) end
 
----@protected
 ---@param evt MenuItemDimRequest
 ---@return Bool
-function MenuItemController:OnMenuItemDimRequest(evt) return end
+function MenuItemController:OnMenuItemDimRequest(evt) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function MenuItemController:OnOutroFinished(anim) return end
+function MenuItemController:OnOutroFinished(anim) end
 
----@protected
 ---@return Bool
-function MenuItemController:OnUninitialize() return end
+function MenuItemController:OnUninitialize() end
 
 ---@param menuData MenuData
 ---@return nil
-function MenuItemController:Init(menuData) return end
+function MenuItemController:Init(menuData) end
 
 ---@return Bool
-function MenuItemController:IsHyperlink() return end
+function MenuItemController:IsHyperlink() end
 
 ---@param hoverPanel inkWidgetReference
 ---@return nil
-function MenuItemController:SetHoverPanel(hoverPanel) return end
+function MenuItemController:SetHoverPanel(hoverPanel) end
 
 ---@param value Bool
 ---@return nil
-function MenuItemController:SetHyperlink(value) return end
+function MenuItemController:SetHyperlink(value) end
 
 ---@param label String
 ---@param iconTweak TweakDBID|string
 ---@return nil
-function MenuItemController:UpdateButton(label, iconTweak) return end
+function MenuItemController:UpdateButton(label, iconTweak) end
 
----@private
 ---@param value Bool
 ---@return nil
-function MenuItemController:UpdateDim(value) return end
+function MenuItemController:UpdateDim(value) end
 
----@private
 ---@return nil
-function MenuItemController:UpdateState() return end
+function MenuItemController:UpdateState() end

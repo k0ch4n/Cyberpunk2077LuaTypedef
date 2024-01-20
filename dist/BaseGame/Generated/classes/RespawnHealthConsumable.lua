@@ -5,4 +5,4 @@ RespawnHealthConsumable = {}
 
 ---@param fields? RespawnHealthConsumable
 ---@return RespawnHealthConsumable
-function RespawnHealthConsumable.new(fields) return end
+function RespawnHealthConsumable.new(fields) end

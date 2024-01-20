@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SetChancePrereq: gameIScriptablePrereq
----@field public setChance Float
+---@field setChance Float
 SetChancePrereq = {}
 
 ---@param fields? SetChancePrereq
 ---@return SetChancePrereq
-function SetChancePrereq.new(fields) return end
+function SetChancePrereq.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return nil
-function SetChancePrereq:Initialize(record) return end
+function SetChancePrereq:Initialize(record) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function SetChancePrereq:OnApplied(state, context) return end
+function SetChancePrereq:OnApplied(state, context) end

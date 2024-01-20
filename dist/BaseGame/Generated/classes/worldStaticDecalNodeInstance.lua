@@ -5,4 +5,4 @@ worldStaticDecalNodeInstance = {}
 
 ---@param fields? worldStaticDecalNodeInstance
 ---@return worldStaticDecalNodeInstance
-function worldStaticDecalNodeInstance.new(fields) return end
+function worldStaticDecalNodeInstance.new(fields) end

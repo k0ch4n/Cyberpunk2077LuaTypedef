@@ -1,39 +1,33 @@
 ---@meta
 
 ---@class KurtzBossComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
+---@field owner NPCPuppet
+---@field owner_id entEntityID
 KurtzBossComponent = {}
 
 ---@param fields? KurtzBossComponent
 ---@return KurtzBossComponent
-function KurtzBossComponent.new(fields) return end
+function KurtzBossComponent.new(fields) end
 
----@protected
 ---@param aiEvent AIAIEvent
 ---@return Bool
-function KurtzBossComponent:OnAIEvent(aiEvent) return end
+function KurtzBossComponent:OnAIEvent(aiEvent) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function KurtzBossComponent:OnDeath(evt) return end
+function KurtzBossComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function KurtzBossComponent:OnDefeated(evt) return end
+function KurtzBossComponent:OnDefeated(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function KurtzBossComponent:OnStatusEffectApplied(evt) return end
+function KurtzBossComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function KurtzBossComponent:OnStatusEffectRemoved(evt) return end
+function KurtzBossComponent:OnStatusEffectRemoved(evt) end
 
----@private
 ---@return nil
-function KurtzBossComponent:OnGameAttach() return end
+function KurtzBossComponent:OnGameAttach() end

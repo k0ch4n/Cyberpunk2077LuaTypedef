@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ForceUIRefreshEvent: redEvent
----@field public ownerID entEntityID
+---@field ownerID entEntityID
 ForceUIRefreshEvent = {}
 
 ---@param fields? ForceUIRefreshEvent
 ---@return ForceUIRefreshEvent
-function ForceUIRefreshEvent.new(fields) return end
+function ForceUIRefreshEvent.new(fields) end
 
 ---@return String
-function ForceUIRefreshEvent:GetFriendlyDescription() return end
+function ForceUIRefreshEvent:GetFriendlyDescription() end

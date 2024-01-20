@@ -5,4 +5,4 @@ gamePlayerReleaseControlAsChild = {}
 
 ---@param fields? gamePlayerReleaseControlAsChild
 ---@return gamePlayerReleaseControlAsChild
-function gamePlayerReleaseControlAsChild.new(fields) return end
+function gamePlayerReleaseControlAsChild.new(fields) end

@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class NewPerkSkillsLogicController: inkWidgetLogicController
----@field private virtualGridContainer inkVirtualCompoundWidgetReference
----@field private scrollBarContainer inkWidgetReference
----@field private virtualGrid inkVirtualGridController
----@field private dataSource inkScriptableDataSourceWrapper
----@field private itemsClassifier inkVirtualItemTemplateClassifierWrapper
----@field private scrollBar inkScrollController
----@field private dataManager PlayerDevelopmentDataManager
----@field private isActiveScreen Bool
----@field private initialized Bool
----@field private virtualItems IScriptable[]
+---@field virtualGridContainer inkVirtualCompoundWidgetReference
+---@field scrollBarContainer inkWidgetReference
+---@field virtualGrid inkVirtualGridController
+---@field dataSource inkScriptableDataSourceWrapper
+---@field itemsClassifier inkVirtualItemTemplateClassifierWrapper
+---@field scrollBar inkScrollController
+---@field dataManager PlayerDevelopmentDataManager
+---@field isActiveScreen Bool
+---@field initialized Bool
+---@field virtualItems IScriptable[]
 NewPerkSkillsLogicController = {}
 
 ---@param fields? NewPerkSkillsLogicController
 ---@return NewPerkSkillsLogicController
-function NewPerkSkillsLogicController.new(fields) return end
+function NewPerkSkillsLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function NewPerkSkillsLogicController:OnUninitialize() return end
+function NewPerkSkillsLogicController:OnUninitialize() end
 
 ---@param dataManager PlayerDevelopmentDataManager
 ---@return nil
-function NewPerkSkillsLogicController:Initialize(dataManager) return end
+function NewPerkSkillsLogicController:Initialize(dataManager) end
 
 ---@param value Bool
 ---@return nil
-function NewPerkSkillsLogicController:SetActive(value) return end
+function NewPerkSkillsLogicController:SetActive(value) end
 
 ---@return nil
-function NewPerkSkillsLogicController:UnregisterData() return end
+function NewPerkSkillsLogicController:UnregisterData() end

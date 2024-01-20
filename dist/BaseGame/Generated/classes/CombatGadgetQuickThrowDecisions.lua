@@ -5,10 +5,9 @@ CombatGadgetQuickThrowDecisions = {}
 
 ---@param fields? CombatGadgetQuickThrowDecisions
 ---@return CombatGadgetQuickThrowDecisions
-function CombatGadgetQuickThrowDecisions.new(fields) return end
+function CombatGadgetQuickThrowDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatGadgetQuickThrowDecisions:ToCombatGadgetUnequip(stateContext, scriptInterface) return end
+function CombatGadgetQuickThrowDecisions:ToCombatGadgetUnequip(stateContext, scriptInterface) end

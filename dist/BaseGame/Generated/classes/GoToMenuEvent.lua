@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class GoToMenuEvent: redEvent
----@field public menuType EComputerMenuType
----@field public wakeUp Bool
----@field public ownerID entEntityID
+---@field menuType EComputerMenuType
+---@field wakeUp Bool
+---@field ownerID entEntityID
 GoToMenuEvent = {}
 
 ---@param fields? GoToMenuEvent
 ---@return GoToMenuEvent
-function GoToMenuEvent.new(fields) return end
+function GoToMenuEvent.new(fields) end
 
 ---@return String
-function GoToMenuEvent:GetFriendlyDescription() return end
+function GoToMenuEvent:GetFriendlyDescription() end

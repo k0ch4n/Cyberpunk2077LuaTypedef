@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldRenderProxyTransformBuffer
----@field public sharedDataBuffer worldSharedDataBuffer
----@field public startIndex Uint32
----@field public numElements Uint32
+---@field sharedDataBuffer worldSharedDataBuffer
+---@field startIndex Uint32
+---@field numElements Uint32
 worldRenderProxyTransformBuffer = {}
 
 ---@param fields? worldRenderProxyTransformBuffer
 ---@return worldRenderProxyTransformBuffer
-function worldRenderProxyTransformBuffer.new(fields) return end
+function worldRenderProxyTransformBuffer.new(fields) end

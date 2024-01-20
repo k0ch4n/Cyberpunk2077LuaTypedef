@@ -5,4 +5,4 @@ ResetMagFieldHitsEvent = {}
 
 ---@param fields? ResetMagFieldHitsEvent
 ---@return ResetMagFieldHitsEvent
-function ResetMagFieldHitsEvent.new(fields) return end
+function ResetMagFieldHitsEvent.new(fields) end

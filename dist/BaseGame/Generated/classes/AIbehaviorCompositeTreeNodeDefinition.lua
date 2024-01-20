@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIbehaviorCompositeTreeNodeDefinition: AIbehaviorTreeNodeDefinition
----@field public children AIbehaviorTreeNodeDefinition[]
+---@field children AIbehaviorTreeNodeDefinition[]
 AIbehaviorCompositeTreeNodeDefinition = {}

@@ -6,23 +6,22 @@ AISubActionFastExitWorkspot_Record_Implementation = {}
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionFastExitWorkspot_Record
 ---@return nil
-function AISubActionFastExitWorkspot_Record_Implementation.Activate(context, record) return end
+function AISubActionFastExitWorkspot_Record_Implementation.Activate(context, record) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionFastExitWorkspot_Record
 ---@param duration Float
 ---@param interrupted Bool
 ---@return nil
-function AISubActionFastExitWorkspot_Record_Implementation.Deactivate(context, record, duration, interrupted) return end
+function AISubActionFastExitWorkspot_Record_Implementation.Deactivate(context, record, duration, interrupted) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionFastExitWorkspot_Record
 ---@return nil
-function AISubActionFastExitWorkspot_Record_Implementation.ExitWorkspot(context, record) return end
+function AISubActionFastExitWorkspot_Record_Implementation.ExitWorkspot(context, record) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionFastExitWorkspot_Record
 ---@param duration Float
 ---@return AIbehaviorUpdateOutcome
-function AISubActionFastExitWorkspot_Record_Implementation.Update(context, record, duration) return end
+function AISubActionFastExitWorkspot_Record_Implementation.Update(context, record, duration) end

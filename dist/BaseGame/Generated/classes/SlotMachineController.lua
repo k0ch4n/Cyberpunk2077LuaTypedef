@@ -1,45 +1,39 @@
 ---@meta
 
 ---@class SlotMachineController: inkWidgetLogicController
----@field private barrelAnimationID CName
----@field private winAnimationsID CName[]
----@field private looseAnimationID CName
----@field private slotWidgets inkWidgetReference[]
----@field private imagePresets CName[]
----@field private winChance Int32
----@field private maxWinChance Int32
----@field private slots SlotMachineSlot[]
----@field private barellAnimation inkanimProxy
----@field private outcomeAnimation inkanimProxy
----@field private shouldWinNextTime Bool
+---@field barrelAnimationID CName
+---@field winAnimationsID CName[]
+---@field looseAnimationID CName
+---@field slotWidgets inkWidgetReference[]
+---@field imagePresets CName[]
+---@field winChance Int32
+---@field maxWinChance Int32
+---@field slots SlotMachineSlot[]
+---@field barellAnimation inkanimProxy
+---@field outcomeAnimation inkanimProxy
+---@field shouldWinNextTime Bool
 SlotMachineController = {}
 
 ---@param fields? SlotMachineController
 ---@return SlotMachineController
-function SlotMachineController.new(fields) return end
+function SlotMachineController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function SlotMachineController:OnBarellAnimationFinished(anim) return end
+function SlotMachineController:OnBarellAnimationFinished(anim) end
 
----@protected
 ---@return Bool
-function SlotMachineController:OnInitialize() return end
+function SlotMachineController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function SlotMachineController:OnOutcomeAnimationFinished(anim) return end
+function SlotMachineController:OnOutcomeAnimationFinished(anim) end
 
----@private
 ---@return nil
-function SlotMachineController:PerformBarellCycle() return end
+function SlotMachineController:PerformBarellCycle() end
 
----@private
 ---@return nil
-function SlotMachineController:RandomizeBarell() return end
+function SlotMachineController:RandomizeBarell() end
 
----@private
 ---@return nil
-function SlotMachineController:SetupBarellSlots() return end
+function SlotMachineController:SetupBarellSlots() end

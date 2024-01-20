@@ -1,44 +1,37 @@
 ---@meta
 
 ---@class ScannerVulnerabilitiesGameController: BaseChunkGameController
----@field private ScannerVulnerabilitiesRightPanel inkCompoundWidgetReference
----@field private vulnerabilitiesCallbackID redCallbackObject
----@field private isValidVulnerabilities Bool
----@field private asyncSpawnRequests inkAsyncSpawnRequest[]
+---@field ScannerVulnerabilitiesRightPanel inkCompoundWidgetReference
+---@field vulnerabilitiesCallbackID redCallbackObject
+---@field isValidVulnerabilities Bool
+---@field asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerVulnerabilitiesGameController = {}
 
 ---@param fields? ScannerVulnerabilitiesGameController
 ---@return ScannerVulnerabilitiesGameController
-function ScannerVulnerabilitiesGameController.new(fields) return end
+function ScannerVulnerabilitiesGameController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerVulnerabilitiesGameController:OnInitialize() return end
+function ScannerVulnerabilitiesGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ScannerVulnerabilitiesGameController:OnUninitialize() return end
+function ScannerVulnerabilitiesGameController:OnUninitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerVulnerabilitiesGameController:OnVulnerabilitiesChanged(value) return end
+function ScannerVulnerabilitiesGameController:OnVulnerabilitiesChanged(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ScannerVulnerabilitiesGameController:OnVulnerabilitySpawned(widget, userData) return end
+function ScannerVulnerabilitiesGameController:OnVulnerabilitySpawned(widget, userData) end
 
----@private
 ---@return nil
-function ScannerVulnerabilitiesGameController:ClearAllAsyncSpawnRequests() return end
+function ScannerVulnerabilitiesGameController:ClearAllAsyncSpawnRequests() end
 
----@private
 ---@param request inkAsyncSpawnRequest
 ---@return nil
-function ScannerVulnerabilitiesGameController:ClearAsyncSpawnRequest(request) return end
+function ScannerVulnerabilitiesGameController:ClearAsyncSpawnRequest(request) end
 
----@private
 ---@return nil
-function ScannerVulnerabilitiesGameController:UpdateGlobalVisibility() return end
+function ScannerVulnerabilitiesGameController:UpdateGlobalVisibility() end

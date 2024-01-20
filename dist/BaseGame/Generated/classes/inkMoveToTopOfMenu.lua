@@ -5,4 +5,4 @@ inkMoveToTopOfMenu = {}
 
 ---@param fields? inkMoveToTopOfMenu
 ---@return inkMoveToTopOfMenu
-function inkMoveToTopOfMenu.new(fields) return end
+function inkMoveToTopOfMenu.new(fields) end

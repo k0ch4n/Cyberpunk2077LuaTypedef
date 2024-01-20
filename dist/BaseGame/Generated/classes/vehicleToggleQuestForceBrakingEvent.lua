@@ -5,4 +5,4 @@ vehicleToggleQuestForceBrakingEvent = {}
 
 ---@param fields? vehicleToggleQuestForceBrakingEvent
 ---@return vehicleToggleQuestForceBrakingEvent
-function vehicleToggleQuestForceBrakingEvent.new(fields) return end
+function vehicleToggleQuestForceBrakingEvent.new(fields) end

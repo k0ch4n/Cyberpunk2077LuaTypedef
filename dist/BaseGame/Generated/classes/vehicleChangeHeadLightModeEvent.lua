@@ -5,4 +5,4 @@ vehicleChangeHeadLightModeEvent = {}
 
 ---@param fields? vehicleChangeHeadLightModeEvent
 ---@return vehicleChangeHeadLightModeEvent
-function vehicleChangeHeadLightModeEvent.new(fields) return end
+function vehicleChangeHeadLightModeEvent.new(fields) end

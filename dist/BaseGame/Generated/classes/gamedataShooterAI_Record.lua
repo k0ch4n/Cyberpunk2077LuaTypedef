@@ -5,22 +5,22 @@ gamedataShooterAI_Record = {}
 
 ---@param fields? gamedataShooterAI_Record
 ---@return gamedataShooterAI_Record
-function gamedataShooterAI_Record.new(fields) return end
+function gamedataShooterAI_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterAI_Record:CollisionDelay() return end
+function gamedataShooterAI_Record:CollisionDelay() end
 
 ---@return Float
-function gamedataShooterAI_Record:Health() return end
+function gamedataShooterAI_Record:Health() end
 
 ---@return String
-function gamedataShooterAI_Record:LibraryWidget() return end
+function gamedataShooterAI_Record:LibraryWidget() end
 
 ---@return Float
-function gamedataShooterAI_Record:MoveSpeed() return end
+function gamedataShooterAI_Record:MoveSpeed() end
 
 ---@return CName
-function gamedataShooterAI_Record:SfxDamage() return end
+function gamedataShooterAI_Record:SfxDamage() end
 
 ---@return CName
-function gamedataShooterAI_Record:SfxDead() return end
+function gamedataShooterAI_Record:SfxDead() end

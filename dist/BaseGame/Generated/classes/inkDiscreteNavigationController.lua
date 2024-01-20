@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkDiscreteNavigationController: inkWidgetLogicController
----@field public shouldUpdateScrollController Bool
----@field public isNavigalbe Bool
----@field public supportsHoldInput Bool
+---@field shouldUpdateScrollController Bool
+---@field isNavigalbe Bool
+---@field supportsHoldInput Bool
 inkDiscreteNavigationController = {}
 
 ---@param fields? inkDiscreteNavigationController
 ---@return inkDiscreteNavigationController
-function inkDiscreteNavigationController.new(fields) return end
+function inkDiscreteNavigationController.new(fields) end
 
 ---@param direction inkDiscreteNavigationDirection
 ---@return nil
-function inkDiscreteNavigationController:Navigate(direction) return end
+function inkDiscreteNavigationController:Navigate(direction) end
 
 ---@param direction inkDiscreteNavigationDirection
 ---@param target inkWidget
 ---@return nil
-function inkDiscreteNavigationController:OverrideNavigation(direction, target) return end
+function inkDiscreteNavigationController:OverrideNavigation(direction, target) end
 
 ---@param disabled Bool
 ---@return nil
-function inkDiscreteNavigationController:SetInputDisabled(disabled) return end
+function inkDiscreteNavigationController:SetInputDisabled(disabled) end

@@ -5,4 +5,4 @@ InteractiveAdFinishedEvent = {}
 
 ---@param fields? InteractiveAdFinishedEvent
 ---@return InteractiveAdFinishedEvent
-function InteractiveAdFinishedEvent.new(fields) return end
+function InteractiveAdFinishedEvent.new(fields) end

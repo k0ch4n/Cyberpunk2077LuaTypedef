@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class BunkerMapGameController: StatusScreenGameController
----@field public mapPosition01 inkWidgetReference
----@field public mapPosition02 inkWidgetReference
----@field public mapPosition03 inkWidgetReference
+---@field mapPosition01 inkWidgetReference
+---@field mapPosition02 inkWidgetReference
+---@field mapPosition03 inkWidgetReference
 BunkerMapGameController = {}
 
 ---@param fields? BunkerMapGameController
 ---@return BunkerMapGameController
-function BunkerMapGameController.new(fields) return end
+function BunkerMapGameController.new(fields) end
 
----@protected
 ---@param fact CName|string
 ---@param value Int32
 ---@return Bool
-function BunkerMapGameController:OnFactChanged(fact, value) return end
+function BunkerMapGameController:OnFactChanged(fact, value) end
 
----@protected
 ---@return Bool
-function BunkerMapGameController:OnInitialize() return end
+function BunkerMapGameController:OnInitialize() end
 
 ---@return nil
-function BunkerMapGameController:InitMapPosition() return end
+function BunkerMapGameController:InitMapPosition() end

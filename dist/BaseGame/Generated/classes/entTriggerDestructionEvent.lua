@@ -5,4 +5,4 @@ entTriggerDestructionEvent = {}
 
 ---@param fields? entTriggerDestructionEvent
 ---@return entTriggerDestructionEvent
-function entTriggerDestructionEvent.new(fields) return end
+function entTriggerDestructionEvent.new(fields) end

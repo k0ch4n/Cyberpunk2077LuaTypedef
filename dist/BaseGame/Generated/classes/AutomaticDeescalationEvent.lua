@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AutomaticDeescalationEvent: redEvent
----@field public originalNotification SecuritySystemInput
+---@field originalNotification SecuritySystemInput
 AutomaticDeescalationEvent = {}
 
 ---@param fields? AutomaticDeescalationEvent
 ---@return AutomaticDeescalationEvent
-function AutomaticDeescalationEvent.new(fields) return end
+function AutomaticDeescalationEvent.new(fields) end

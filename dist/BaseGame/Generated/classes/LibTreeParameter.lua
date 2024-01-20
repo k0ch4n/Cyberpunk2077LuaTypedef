@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class LibTreeParameter
----@field public parameterName CName
----@field public parameterId Uint16
----@field public parameterType LibTreeEParameterType
----@field public value Variant
+---@field parameterName CName
+---@field parameterId Uint16
+---@field parameterType LibTreeEParameterType
+---@field value Variant
 LibTreeParameter = {}
 
 ---@param fields? LibTreeParameter
 ---@return LibTreeParameter
-function LibTreeParameter.new(fields) return end
+function LibTreeParameter.new(fields) end

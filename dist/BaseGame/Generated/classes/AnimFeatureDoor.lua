@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AnimFeatureDoor: animAnimFeature
----@field public progress Float
----@field public openingSpeed Float
----@field public openingType Int32
----@field public doorSide Int32
----@field public malfunctioning Int32
+---@field progress Float
+---@field openingSpeed Float
+---@field openingType Int32
+---@field doorSide Int32
+---@field malfunctioning Int32
 AnimFeatureDoor = {}
 
 ---@param fields? AnimFeatureDoor
 ---@return AnimFeatureDoor
-function AnimFeatureDoor.new(fields) return end
+function AnimFeatureDoor.new(fields) end

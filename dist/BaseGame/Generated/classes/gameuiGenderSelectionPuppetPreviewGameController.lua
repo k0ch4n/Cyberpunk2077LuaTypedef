@@ -1,18 +1,16 @@
 ---@meta
 
 ---@class gameuiGenderSelectionPuppetPreviewGameController: gameuiPuppetPreviewGameController
----@field public sceneName CName
----@field public cameraRef NodeRef
+---@field sceneName CName
+---@field cameraRef NodeRef
 gameuiGenderSelectionPuppetPreviewGameController = {}
 
 ---@param fields? gameuiGenderSelectionPuppetPreviewGameController
 ---@return gameuiGenderSelectionPuppetPreviewGameController
-function gameuiGenderSelectionPuppetPreviewGameController.new(fields) return end
+function gameuiGenderSelectionPuppetPreviewGameController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiGenderSelectionPuppetPreviewGameController:OnInitialize() return end
+function gameuiGenderSelectionPuppetPreviewGameController:OnInitialize() end
 
----@private
 ---@return nil, AnimFeature_Paperdoll animFeature
-function gameuiGenderSelectionPuppetPreviewGameController:GetAnimFeature() return end
+function gameuiGenderSelectionPuppetPreviewGameController:GetAnimFeature() end

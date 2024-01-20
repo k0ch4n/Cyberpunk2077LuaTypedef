@@ -5,4 +5,4 @@ gameinteractionsPublisherChoiceEvent = {}
 
 ---@param fields? gameinteractionsPublisherChoiceEvent
 ---@return gameinteractionsPublisherChoiceEvent
-function gameinteractionsPublisherChoiceEvent.new(fields) return end
+function gameinteractionsPublisherChoiceEvent.new(fields) end

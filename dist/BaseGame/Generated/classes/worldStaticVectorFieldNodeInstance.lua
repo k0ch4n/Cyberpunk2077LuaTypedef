@@ -5,4 +5,4 @@ worldStaticVectorFieldNodeInstance = {}
 
 ---@param fields? worldStaticVectorFieldNodeInstance
 ---@return worldStaticVectorFieldNodeInstance
-function worldStaticVectorFieldNodeInstance.new(fields) return end
+function worldStaticVectorFieldNodeInstance.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class linkedClueTagEvent: redEvent
----@field public tag Bool
----@field public requesterID entEntityID
+---@field tag Bool
+---@field requesterID entEntityID
 linkedClueTagEvent = {}
 
 ---@param fields? linkedClueTagEvent
 ---@return linkedClueTagEvent
-function linkedClueTagEvent.new(fields) return end
+function linkedClueTagEvent.new(fields) end

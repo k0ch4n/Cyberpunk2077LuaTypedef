@@ -5,18 +5,18 @@ inkScrollAreaWidget = {}
 
 ---@param fields? inkScrollAreaWidget
 ---@return inkScrollAreaWidget
-function inkScrollAreaWidget.new(fields) return end
+function inkScrollAreaWidget.new(fields) end
 
 ---@return Bool
-function inkScrollAreaWidget:GetConstrainContentPosition() return end
+function inkScrollAreaWidget:GetConstrainContentPosition() end
 
 ---@return inkFitToContentDirection
-function inkScrollAreaWidget:GetFitToContentDirection() return end
+function inkScrollAreaWidget:GetFitToContentDirection() end
 
 ---@param enabled Bool
 ---@return nil
-function inkScrollAreaWidget:SetConstrainContentPosition(enabled) return end
+function inkScrollAreaWidget:SetConstrainContentPosition(enabled) end
 
 ---@param value inkFitToContentDirection
 ---@return nil
-function inkScrollAreaWidget:SetFitToContentDirection(value) return end
+function inkScrollAreaWidget:SetFitToContentDirection(value) end

@@ -5,4 +5,4 @@ DriverCombatMountedWeaponsReloadCrosshairStateEvents = {}
 
 ---@param fields? DriverCombatMountedWeaponsReloadCrosshairStateEvents
 ---@return DriverCombatMountedWeaponsReloadCrosshairStateEvents
-function DriverCombatMountedWeaponsReloadCrosshairStateEvents.new(fields) return end
+function DriverCombatMountedWeaponsReloadCrosshairStateEvents.new(fields) end

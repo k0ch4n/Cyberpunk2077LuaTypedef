@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SecuritySystemClearanceEntry
----@field public user entEntityID
----@field public level ESecurityAccessLevel
+---@field user entEntityID
+---@field level ESecurityAccessLevel
 SecuritySystemClearanceEntry = {}
 
 ---@param fields? SecuritySystemClearanceEntry
 ---@return SecuritySystemClearanceEntry
-function SecuritySystemClearanceEntry.new(fields) return end
+function SecuritySystemClearanceEntry.new(fields) end

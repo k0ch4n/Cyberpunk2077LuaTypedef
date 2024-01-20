@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameActionMoveToPositionState: gameActionReplicatedState
----@field public target Vector3
----@field public useSpotReservation Bool
----@field public usePathfinding Bool
----@field public useStart Bool
----@field public useStop Bool
----@field public movementType moveMovementType
----@field public strafingTarget gameObject
+---@field target Vector3
+---@field useSpotReservation Bool
+---@field usePathfinding Bool
+---@field useStart Bool
+---@field useStop Bool
+---@field movementType moveMovementType
+---@field strafingTarget gameObject
 gameActionMoveToPositionState = {}
 
 ---@param fields? gameActionMoveToPositionState
 ---@return gameActionMoveToPositionState
-function gameActionMoveToPositionState.new(fields) return end
+function gameActionMoveToPositionState.new(fields) end

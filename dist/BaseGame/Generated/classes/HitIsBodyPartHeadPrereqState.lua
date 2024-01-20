@@ -5,8 +5,8 @@ HitIsBodyPartHeadPrereqState = {}
 
 ---@param fields? HitIsBodyPartHeadPrereqState
 ---@return HitIsBodyPartHeadPrereqState
-function HitIsBodyPartHeadPrereqState.new(fields) return end
+function HitIsBodyPartHeadPrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitIsBodyPartHeadPrereqState:Evaluate(hitEvent) return end
+function HitIsBodyPartHeadPrereqState:Evaluate(hitEvent) end

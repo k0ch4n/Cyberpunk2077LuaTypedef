@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CharacterCreationSummaryListItemData: IScriptable
----@field public label String
----@field public desc String
+---@field label String
+---@field desc String
 CharacterCreationSummaryListItemData = {}
 
 ---@param fields? CharacterCreationSummaryListItemData
 ---@return CharacterCreationSummaryListItemData
-function CharacterCreationSummaryListItemData.new(fields) return end
+function CharacterCreationSummaryListItemData.new(fields) end

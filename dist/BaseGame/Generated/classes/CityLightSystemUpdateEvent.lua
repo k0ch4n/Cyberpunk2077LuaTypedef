@@ -5,4 +5,4 @@ CityLightSystemUpdateEvent = {}
 
 ---@param fields? CityLightSystemUpdateEvent
 ---@return CityLightSystemUpdateEvent
-function CityLightSystemUpdateEvent.new(fields) return end
+function CityLightSystemUpdateEvent.new(fields) end

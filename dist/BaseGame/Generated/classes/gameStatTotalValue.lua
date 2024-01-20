@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameStatTotalValue
----@field public statType gamedataStatType
----@field public value Float
+---@field statType gamedataStatType
+---@field value Float
 gameStatTotalValue = {}
 
 ---@param fields? gameStatTotalValue
 ---@return gameStatTotalValue
-function gameStatTotalValue.new(fields) return end
+function gameStatTotalValue.new(fields) end

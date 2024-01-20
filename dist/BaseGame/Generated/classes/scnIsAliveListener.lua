@@ -5,4 +5,4 @@ scnIsAliveListener = {}
 
 ---@param fields? scnIsAliveListener
 ---@return scnIsAliveListener
-function scnIsAliveListener.new(fields) return end
+function scnIsAliveListener.new(fields) end

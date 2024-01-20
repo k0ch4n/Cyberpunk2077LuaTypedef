@@ -5,8 +5,8 @@ inkMenuLayer_SetCursorVisibilityOnActivate = {}
 
 ---@param fields? inkMenuLayer_SetCursorVisibilityOnActivate
 ---@return inkMenuLayer_SetCursorVisibilityOnActivate
-function inkMenuLayer_SetCursorVisibilityOnActivate.new(fields) return end
+function inkMenuLayer_SetCursorVisibilityOnActivate.new(fields) end
 
 ---@param isVisible Bool
 ---@return nil
-function inkMenuLayer_SetCursorVisibilityOnActivate:Init(isVisible) return end
+function inkMenuLayer_SetCursorVisibilityOnActivate:Init(isVisible) end

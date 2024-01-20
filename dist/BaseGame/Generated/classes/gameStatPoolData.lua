@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class gameStatPoolData
----@field public ownerID gameStatsObjectID
----@field public recordID TweakDBID
----@field public type gamedataStatPoolType
----@field public modifiers gameStatPoolModifier[]
----@field public alternativeModifierRecords TweakDBID[]
----@field public stat gamedataStatType
----@field public maxValue Float
----@field public customLimitValue Float
----@field public changeMode gameStatPoolDataValueChangeMode
----@field public bonus Float
----@field public bonusType gameStatPoolDataBonusType
----@field public currentValue Float
----@field public modificationDelay Float
----@field public modificationStatus gameStatPoolDataStatPoolModificationStatus
+---@field ownerID gameStatsObjectID
+---@field recordID TweakDBID
+---@field type gamedataStatPoolType
+---@field modifiers gameStatPoolModifier[]
+---@field alternativeModifierRecords TweakDBID[]
+---@field stat gamedataStatType
+---@field maxValue Float
+---@field customLimitValue Float
+---@field changeMode gameStatPoolDataValueChangeMode
+---@field bonus Float
+---@field bonusType gameStatPoolDataBonusType
+---@field currentValue Float
+---@field modificationDelay Float
+---@field modificationStatus gameStatPoolDataStatPoolModificationStatus
 gameStatPoolData = {}
 
 ---@param fields? gameStatPoolData
 ---@return gameStatPoolData
-function gameStatPoolData.new(fields) return end
+function gameStatPoolData.new(fields) end

@@ -5,16 +5,14 @@ CrouchLowGravityDecisions = {}
 
 ---@param fields? CrouchLowGravityDecisions
 ---@return CrouchLowGravityDecisions
-function CrouchLowGravityDecisions.new(fields) return end
+function CrouchLowGravityDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchLowGravityDecisions:ToCrouchLowGravity(stateContext, scriptInterface) return end
+function CrouchLowGravityDecisions:ToCrouchLowGravity(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CrouchLowGravityDecisions:ToPreCrouchLowGravity(stateContext, scriptInterface) return end
+function CrouchLowGravityDecisions:ToPreCrouchLowGravity(stateContext, scriptInterface) end

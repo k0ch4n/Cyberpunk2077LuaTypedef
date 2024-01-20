@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class OutlineData
----@field public outlineType EOutlineType
----@field public outlineOpacity Float
+---@field outlineType EOutlineType
+---@field outlineOpacity Float
 OutlineData = {}
 
 ---@param fields? OutlineData
 ---@return OutlineData
-function OutlineData.new(fields) return end
+function OutlineData.new(fields) end

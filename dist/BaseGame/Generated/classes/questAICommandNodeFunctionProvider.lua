@@ -5,9 +5,8 @@ questAICommandNodeFunctionProvider = {}
 
 ---@param fields? questAICommandNodeFunctionProvider
 ---@return questAICommandNodeFunctionProvider
-function questAICommandNodeFunctionProvider.new(fields) return end
+function questAICommandNodeFunctionProvider.new(fields) end
 
----@private
 ---@param functions questAICommandNodeFunction[]
 ---@param nodeType CName|string
 ---@param category CName|string
@@ -15,7 +14,7 @@ function questAICommandNodeFunctionProvider.new(fields) return end
 ---@param paramsType CName|string
 ---@param color Color
 ---@return nil
-function questAICommandNodeFunctionProvider.Add(functions, nodeType, category, friendlyName, paramsType, color) return end
+function questAICommandNodeFunctionProvider.Add(functions, nodeType, category, friendlyName, paramsType, color) end
 
 ---@return questAICommandNodeFunction[]
-function questAICommandNodeFunctionProvider.CollectFunctions() return end
+function questAICommandNodeFunctionProvider.CollectFunctions() end

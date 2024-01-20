@@ -5,10 +5,9 @@ VehicleRemoteControlDriverContextDecisions = {}
 
 ---@param fields? VehicleRemoteControlDriverContextDecisions
 ---@return VehicleRemoteControlDriverContextDecisions
-function VehicleRemoteControlDriverContextDecisions.new(fields) return end
+function VehicleRemoteControlDriverContextDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleRemoteControlDriverContextDecisions:ToBaseContext(stateContext, scriptInterface) return end
+function VehicleRemoteControlDriverContextDecisions:ToBaseContext(stateContext, scriptInterface) end

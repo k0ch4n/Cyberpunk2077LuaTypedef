@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameuiGenericNotificationReceiverGameController: gameuiWidgetGameController
----@field public ItemChanged inkEmptyCallback
----@field public NotificationPaused inkEmptyCallback
----@field public NotificationResumed inkEmptyCallback
+---@field ItemChanged inkEmptyCallback
+---@field NotificationPaused inkEmptyCallback
+---@field NotificationResumed inkEmptyCallback
 gameuiGenericNotificationReceiverGameController = {}
 
 ---@param fields? gameuiGenericNotificationReceiverGameController
 ---@return gameuiGenericNotificationReceiverGameController
-function gameuiGenericNotificationReceiverGameController.new(fields) return end
+function gameuiGenericNotificationReceiverGameController.new(fields) end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function gameuiGenericNotificationReceiverGameController:SetNotificationData(notificationData) return end
+function gameuiGenericNotificationReceiverGameController:SetNotificationData(notificationData) end

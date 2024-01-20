@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinfluenceReservationAgent: gameinfluenceIAgent
----@field public radius Float
+---@field radius Float
 gameinfluenceReservationAgent = {}
 
 ---@param fields? gameinfluenceReservationAgent
 ---@return gameinfluenceReservationAgent
-function gameinfluenceReservationAgent.new(fields) return end
+function gameinfluenceReservationAgent.new(fields) end

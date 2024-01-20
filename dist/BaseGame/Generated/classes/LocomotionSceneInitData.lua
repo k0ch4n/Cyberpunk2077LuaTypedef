@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LocomotionSceneInitData: IScriptable
----@field public previousLocomotionState Int32
+---@field previousLocomotionState Int32
 LocomotionSceneInitData = {}
 
 ---@param fields? LocomotionSceneInitData
 ---@return LocomotionSceneInitData
-function LocomotionSceneInitData.new(fields) return end
+function LocomotionSceneInitData.new(fields) end

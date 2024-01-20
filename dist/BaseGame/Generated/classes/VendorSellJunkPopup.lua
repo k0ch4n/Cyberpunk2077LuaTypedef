@@ -1,71 +1,62 @@
 ---@meta
 
 ---@class VendorSellJunkPopup: gameuiWidgetGameController
----@field private itemNameText inkTextWidgetReference
----@field private buttonHintsRoot inkWidgetReference
----@field private itemDisplayRef inkWidgetReference
----@field private rairtyBar inkWidgetReference
----@field private eqippedItemContainer inkWidgetReference
----@field private itemPriceContainer inkWidgetReference
----@field private itemPriceText inkTextWidgetReference
----@field private root inkWidgetReference
----@field private background inkWidgetReference
----@field private headerText inkTextWidgetReference
----@field private sellItemsFullQuantity inkTextWidgetReference
----@field private sellItemsLimitedQuantity inkTextWidgetReference
----@field private buttonHintsController ButtonHints
----@field private gameData gameItemData
----@field protected buttonOk inkWidgetReference
----@field protected buttonCancel inkWidgetReference
----@field private closeAnimProxy inkanimProxy
----@field private data VendorSellJunkPopupData
----@field private libraryPath inkWidgetLibraryReference
----@field private closeData VendorSellJunkPopupCloseData
+---@field itemNameText inkTextWidgetReference
+---@field buttonHintsRoot inkWidgetReference
+---@field itemDisplayRef inkWidgetReference
+---@field rairtyBar inkWidgetReference
+---@field eqippedItemContainer inkWidgetReference
+---@field itemPriceContainer inkWidgetReference
+---@field itemPriceText inkTextWidgetReference
+---@field root inkWidgetReference
+---@field background inkWidgetReference
+---@field headerText inkTextWidgetReference
+---@field sellItemsFullQuantity inkTextWidgetReference
+---@field sellItemsLimitedQuantity inkTextWidgetReference
+---@field buttonHintsController ButtonHints
+---@field gameData gameItemData
+---@field buttonOk inkWidgetReference
+---@field buttonCancel inkWidgetReference
+---@field closeAnimProxy inkanimProxy
+---@field data VendorSellJunkPopupData
+---@field libraryPath inkWidgetLibraryReference
+---@field closeData VendorSellJunkPopupCloseData
 VendorSellJunkPopup = {}
 
 ---@param fields? VendorSellJunkPopup
 ---@return VendorSellJunkPopup
-function VendorSellJunkPopup.new(fields) return end
+function VendorSellJunkPopup.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function VendorSellJunkPopup:OnCancelClick(controller) return end
+function VendorSellJunkPopup:OnCancelClick(controller) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function VendorSellJunkPopup:OnCloseAnimationFinished(proxy) return end
+function VendorSellJunkPopup:OnCloseAnimationFinished(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function VendorSellJunkPopup:OnHandlePressInput(evt) return end
+function VendorSellJunkPopup:OnHandlePressInput(evt) end
 
----@protected
 ---@return Bool
-function VendorSellJunkPopup:OnInitialize() return end
+function VendorSellJunkPopup:OnInitialize() end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function VendorSellJunkPopup:OnOkClick(controller) return end
+function VendorSellJunkPopup:OnOkClick(controller) end
 
----@protected
 ---@return Bool
-function VendorSellJunkPopup:OnUninitialize() return end
+function VendorSellJunkPopup:OnUninitialize() end
 
----@private
 ---@param actionName CName|string
 ---@param label String
 ---@return nil
-function VendorSellJunkPopup:AddButtonHints(actionName, label) return end
+function VendorSellJunkPopup:AddButtonHints(actionName, label) end
 
----@private
 ---@param success Bool
 ---@return nil
-function VendorSellJunkPopup:Close(success) return end
+function VendorSellJunkPopup:Close(success) end
 
----@private
 ---@return nil
-function VendorSellJunkPopup:SetButtonHints() return end
+function VendorSellJunkPopup:SetButtonHints() end

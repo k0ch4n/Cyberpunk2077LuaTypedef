@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class EasingFunction
----@field public transitionType ETransitionType
----@field public easingType EEasingType
+---@field transitionType ETransitionType
+---@field easingType EEasingType
 EasingFunction = {}
 
 ---@param fields? EasingFunction
 ---@return EasingFunction
-function EasingFunction.new(fields) return end
+function EasingFunction.new(fields) end

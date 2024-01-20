@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnCameraAnimationLOD
----@field public trajectory scnAnimationMotionSample
----@field public tracks Float
+---@field trajectory scnAnimationMotionSample
+---@field tracks Float
 scnCameraAnimationLOD = {}
 
 ---@param fields? scnCameraAnimationLOD
 ---@return scnCameraAnimationLOD
-function scnCameraAnimationLOD.new(fields) return end
+function scnCameraAnimationLOD.new(fields) end

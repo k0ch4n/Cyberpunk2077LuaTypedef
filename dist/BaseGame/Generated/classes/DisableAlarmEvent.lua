@@ -5,4 +5,4 @@ DisableAlarmEvent = {}
 
 ---@param fields? DisableAlarmEvent
 ---@return DisableAlarmEvent
-function DisableAlarmEvent.new(fields) return end
+function DisableAlarmEvent.new(fields) end

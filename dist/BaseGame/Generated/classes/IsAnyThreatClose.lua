@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class IsAnyThreatClose: AIAutonomousConditions
----@field public distance Float
+---@field distance Float
 IsAnyThreatClose = {}
 
 ---@param fields? IsAnyThreatClose
 ---@return IsAnyThreatClose
-function IsAnyThreatClose.new(fields) return end
+function IsAnyThreatClose.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsAnyThreatClose:Activate(context) return end
+function IsAnyThreatClose:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsAnyThreatClose:Check(context) return end
+function IsAnyThreatClose:Check(context) end

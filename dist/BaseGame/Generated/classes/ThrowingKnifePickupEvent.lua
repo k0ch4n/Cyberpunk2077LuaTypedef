@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ThrowingKnifePickupEvent: redEvent
----@field public throwCooldownSE TweakDBID
+---@field throwCooldownSE TweakDBID
 ThrowingKnifePickupEvent = {}
 
 ---@param fields? ThrowingKnifePickupEvent
 ---@return ThrowingKnifePickupEvent
-function ThrowingKnifePickupEvent.new(fields) return end
+function ThrowingKnifePickupEvent.new(fields) end

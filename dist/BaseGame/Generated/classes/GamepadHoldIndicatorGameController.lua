@@ -1,38 +1,32 @@
 ---@meta
 
 ---@class GamepadHoldIndicatorGameController: gameuiHoldIndicatorGameController
----@field private image inkImageWidgetReference
----@field private partName String
----@field private progress Int32
----@field private animProxy inkanimProxy
+---@field image inkImageWidgetReference
+---@field partName String
+---@field progress Int32
+---@field animProxy inkanimProxy
 GamepadHoldIndicatorGameController = {}
 
 ---@param fields? GamepadHoldIndicatorGameController
 ---@return GamepadHoldIndicatorGameController
-function GamepadHoldIndicatorGameController.new(fields) return end
+function GamepadHoldIndicatorGameController.new(fields) end
 
----@protected
 ---@return nil
-function GamepadHoldIndicatorGameController:HoldFinish() return end
+function GamepadHoldIndicatorGameController:HoldFinish() end
 
----@protected
 ---@param value Float
 ---@return nil
-function GamepadHoldIndicatorGameController:HoldProgress(value) return end
+function GamepadHoldIndicatorGameController:HoldProgress(value) end
 
----@protected
 ---@return nil
-function GamepadHoldIndicatorGameController:HoldStart() return end
+function GamepadHoldIndicatorGameController:HoldStart() end
 
----@protected
 ---@return nil
-function GamepadHoldIndicatorGameController:HoldStop() return end
+function GamepadHoldIndicatorGameController:HoldStop() end
 
----@private
 ---@param value Int32
 ---@return nil
-function GamepadHoldIndicatorGameController:SetProgress(value) return end
+function GamepadHoldIndicatorGameController:SetProgress(value) end
 
----@private
 ---@return nil
-function GamepadHoldIndicatorGameController:StopAnimation() return end
+function GamepadHoldIndicatorGameController:StopAnimation() end

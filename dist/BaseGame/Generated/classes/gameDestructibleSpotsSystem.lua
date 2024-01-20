@@ -5,10 +5,9 @@ gameDestructibleSpotsSystem = {}
 
 ---@param fields? gameDestructibleSpotsSystem
 ---@return gameDestructibleSpotsSystem
-function gameDestructibleSpotsSystem.new(fields) return end
+function gameDestructibleSpotsSystem.new(fields) end
 
----@protected
 ---@param localPlayerObj gameObject
 ---@param fracturePos Vector4
 ---@return Bool
-function gameDestructibleSpotsSystem:OnNotifyAboutFracture(localPlayerObj, fracturePos) return end
+function gameDestructibleSpotsSystem:OnNotifyAboutFracture(localPlayerObj, fracturePos) end

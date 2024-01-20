@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class PlayerDoesntHaveRecipePrereq: gameIScriptablePrereq
----@field public recipeID TweakDBID
----@field public invert Bool
+---@field recipeID TweakDBID
+---@field invert Bool
 PlayerDoesntHaveRecipePrereq = {}
 
 ---@param fields? PlayerDoesntHaveRecipePrereq
 ---@return PlayerDoesntHaveRecipePrereq
-function PlayerDoesntHaveRecipePrereq.new(fields) return end
+function PlayerDoesntHaveRecipePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function PlayerDoesntHaveRecipePrereq:Initialize(recordID) return end
+function PlayerDoesntHaveRecipePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function PlayerDoesntHaveRecipePrereq:IsFulfilled(context) return end
+function PlayerDoesntHaveRecipePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function PlayerDoesntHaveRecipePrereq:OnApplied(state, context) return end
+function PlayerDoesntHaveRecipePrereq:OnApplied(state, context) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkEnableHUDScaleOverride: inkInitializedWidgetUserData
----@field public scalingInterpolationValue Float
+---@field scalingInterpolationValue Float
 inkEnableHUDScaleOverride = {}
 
 ---@param fields? inkEnableHUDScaleOverride
 ---@return inkEnableHUDScaleOverride
-function inkEnableHUDScaleOverride.new(fields) return end
+function inkEnableHUDScaleOverride.new(fields) end

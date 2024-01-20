@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkanimEvent: IScriptable
----@field public startTime Float
+---@field startTime Float
 inkanimEvent = {}
 
 ---@return Float
-function inkanimEvent:GetStartTime() return end
+function inkanimEvent:GetStartTime() end
 
 ---@param startTime Float
 ---@return nil
-function inkanimEvent:SetStartTime(startTime) return end
+function inkanimEvent:SetStartTime(startTime) end

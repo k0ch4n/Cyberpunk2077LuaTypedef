@@ -5,9 +5,8 @@ CompareArgumentsNodeRefs = {}
 
 ---@param fields? CompareArgumentsNodeRefs
 ---@return CompareArgumentsNodeRefs
-function CompareArgumentsNodeRefs.new(fields) return end
+function CompareArgumentsNodeRefs.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CompareArgumentsNodeRefs:Check(context) return end
+function CompareArgumentsNodeRefs:Check(context) end

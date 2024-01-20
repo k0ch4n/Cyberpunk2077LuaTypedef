@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetDefaultHighlightEvent: redEvent
----@field public highlightData HighlightEditableData
+---@field highlightData HighlightEditableData
 SetDefaultHighlightEvent = {}
 
 ---@param fields? SetDefaultHighlightEvent
 ---@return SetDefaultHighlightEvent
-function SetDefaultHighlightEvent.new(fields) return end
+function SetDefaultHighlightEvent.new(fields) end
 
 ---@return String
-function SetDefaultHighlightEvent:GetFriendlyDescription() return end
+function SetDefaultHighlightEvent:GetFriendlyDescription() end

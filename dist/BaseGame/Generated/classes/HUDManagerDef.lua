@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class HUDManagerDef: gamebbScriptDefinition
----@field public ShowHudHintMessege gamebbScriptID_Bool
----@field public HudHintMessegeContent gamebbScriptID_String
+---@field ShowHudHintMessege gamebbScriptID_Bool
+---@field HudHintMessegeContent gamebbScriptID_String
 HUDManagerDef = {}
 
 ---@param fields? HUDManagerDef
 ---@return HUDManagerDef
-function HUDManagerDef.new(fields) return end
+function HUDManagerDef.new(fields) end
 
 ---@return Bool
-function HUDManagerDef:AutoCreateInSystem() return end
+function HUDManagerDef:AutoCreateInSystem() end

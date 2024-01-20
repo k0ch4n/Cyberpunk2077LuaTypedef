@@ -5,4 +5,4 @@ animAnimNode_PostProcess_Footlock = {}
 
 ---@param fields? animAnimNode_PostProcess_Footlock
 ---@return animAnimNode_PostProcess_Footlock
-function animAnimNode_PostProcess_Footlock.new(fields) return end
+function animAnimNode_PostProcess_Footlock.new(fields) end

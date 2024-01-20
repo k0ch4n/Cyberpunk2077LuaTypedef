@@ -5,4 +5,4 @@ vehiclePreventionAVObject = {}
 
 ---@param fields? vehiclePreventionAVObject
 ---@return vehiclePreventionAVObject
-function vehiclePreventionAVObject.new(fields) return end
+function vehiclePreventionAVObject.new(fields) end

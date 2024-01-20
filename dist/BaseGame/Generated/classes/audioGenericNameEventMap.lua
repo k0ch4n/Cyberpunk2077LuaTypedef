@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioGenericNameEventMap: audioAudioMetadata
----@field public eventOverrides audioGenericNameEventDictionary
+---@field eventOverrides audioGenericNameEventDictionary
 audioGenericNameEventMap = {}
 
 ---@param fields? audioGenericNameEventMap
 ---@return audioGenericNameEventMap
-function audioGenericNameEventMap.new(fields) return end
+function audioGenericNameEventMap.new(fields) end

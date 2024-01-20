@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class scnSRRefCollection
----@field public ridAnimations scnRidAnimationSRRef[]
----@field public ridAnimSets scnRidAnimSetSRRef[]
----@field public ridFacialAnimSets scnRidAnimSetSRRef[]
----@field public ridCyberwareAnimSets scnRidAnimSetSRRef[]
----@field public ridDeformationAnimSets scnRidAnimSetSRRef[]
----@field public lipsyncAnimSets scnLipsyncAnimSetSRRef[]
----@field public ridCameraAnimations scnRidCameraAnimationSRRef[]
----@field public cinematicAnimSets scnCinematicAnimSetSRRef[]
----@field public gameplayAnimSets scnGameplayAnimSetSRRef[]
----@field public dynamicAnimSets scnDynamicAnimSetSRRef[]
----@field public cinematicAnimNames scnAnimSetAnimNames[]
----@field public gameplayAnimNames scnAnimSetAnimNames[]
----@field public dynamicAnimNames scnAnimSetDynAnimNames[]
----@field public ridAnimationContainers scnRidAnimationContainerSRRef[]
+---@field ridAnimations scnRidAnimationSRRef[]
+---@field ridAnimSets scnRidAnimSetSRRef[]
+---@field ridFacialAnimSets scnRidAnimSetSRRef[]
+---@field ridCyberwareAnimSets scnRidAnimSetSRRef[]
+---@field ridDeformationAnimSets scnRidAnimSetSRRef[]
+---@field lipsyncAnimSets scnLipsyncAnimSetSRRef[]
+---@field ridCameraAnimations scnRidCameraAnimationSRRef[]
+---@field cinematicAnimSets scnCinematicAnimSetSRRef[]
+---@field gameplayAnimSets scnGameplayAnimSetSRRef[]
+---@field dynamicAnimSets scnDynamicAnimSetSRRef[]
+---@field cinematicAnimNames scnAnimSetAnimNames[]
+---@field gameplayAnimNames scnAnimSetAnimNames[]
+---@field dynamicAnimNames scnAnimSetDynAnimNames[]
+---@field ridAnimationContainers scnRidAnimationContainerSRRef[]
 scnSRRefCollection = {}
 
 ---@param fields? scnSRRefCollection
 ---@return scnSRRefCollection
-function scnSRRefCollection.new(fields) return end
+function scnSRRefCollection.new(fields) end

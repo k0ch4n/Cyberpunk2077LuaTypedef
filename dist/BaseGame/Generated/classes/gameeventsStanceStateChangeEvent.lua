@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsStanceStateChangeEvent: redEvent
----@field public state gamedataNPCStanceState
+---@field state gamedataNPCStanceState
 gameeventsStanceStateChangeEvent = {}
 
 ---@param fields? gameeventsStanceStateChangeEvent
 ---@return gameeventsStanceStateChangeEvent
-function gameeventsStanceStateChangeEvent.new(fields) return end
+function gameeventsStanceStateChangeEvent.new(fields) end

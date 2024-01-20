@@ -5,4 +5,4 @@ gameItemEventsUnequippedFromObject = {}
 
 ---@param fields? gameItemEventsUnequippedFromObject
 ---@return gameItemEventsUnequippedFromObject
-function gameItemEventsUnequippedFromObject.new(fields) return end
+function gameItemEventsUnequippedFromObject.new(fields) end

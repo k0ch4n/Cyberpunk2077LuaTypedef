@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scnChoiceNodeNsReminderParams
----@field public reminderEnabled Bool
----@field public useCustomReminder Bool
----@field public reminderActor scnActorId
----@field public waitTimeForReminderA scnSceneTime
----@field public waitTimeForReminderB scnSceneTime
----@field public waitTimeForReminderC scnSceneTime
----@field public waitTimeForLooping scnSceneTime
+---@field reminderEnabled Bool
+---@field useCustomReminder Bool
+---@field reminderActor scnActorId
+---@field waitTimeForReminderA scnSceneTime
+---@field waitTimeForReminderB scnSceneTime
+---@field waitTimeForReminderC scnSceneTime
+---@field waitTimeForLooping scnSceneTime
 scnChoiceNodeNsReminderParams = {}
 
 ---@param fields? scnChoiceNodeNsReminderParams
 ---@return scnChoiceNodeNsReminderParams
-function scnChoiceNodeNsReminderParams.new(fields) return end
+function scnChoiceNodeNsReminderParams.new(fields) end

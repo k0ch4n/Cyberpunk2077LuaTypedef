@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAdditionalTransformContainer
----@field public entries animAdditionalTransformEntry[]
+---@field entries animAdditionalTransformEntry[]
 animAdditionalTransformContainer = {}
 
 ---@param fields? animAdditionalTransformContainer
 ---@return animAdditionalTransformContainer
-function animAdditionalTransformContainer.new(fields) return end
+function animAdditionalTransformContainer.new(fields) end

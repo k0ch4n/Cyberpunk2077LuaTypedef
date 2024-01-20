@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class SetMessageDeviceOperation: DeviceOperationBase
----@field private targetRef NodeRef
----@field private messageRecordID TweakDBID
----@field private replaceTextWithCustomNumber Bool
----@field private customNumber Int32
+---@field targetRef NodeRef
+---@field messageRecordID TweakDBID
+---@field replaceTextWithCustomNumber Bool
+---@field customNumber Int32
 SetMessageDeviceOperation = {}
 
 ---@param fields? SetMessageDeviceOperation
 ---@return SetMessageDeviceOperation
-function SetMessageDeviceOperation.new(fields) return end
+function SetMessageDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function SetMessageDeviceOperation:Execute(owner) return end
+function SetMessageDeviceOperation:Execute(owner) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function SetMessageDeviceOperation:SendEvent(owner) return end
+function SetMessageDeviceOperation:SendEvent(owner) end

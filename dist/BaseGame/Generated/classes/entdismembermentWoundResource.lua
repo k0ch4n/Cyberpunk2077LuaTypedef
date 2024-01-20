@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class entdismembermentWoundResource: ISerializable
----@field public Name CName
----@field public WoundType entdismembermentWoundTypeE
----@field public BodyPart physicsRagdollBodyPartE
----@field public CullObject entdismembermentCullObject
----@field public GarmentMorphStrength Float
----@field public UseProceduralCut Bool
----@field public UseSingleMeshForRagdoll Bool
----@field public IsCritical Bool
----@field public Resources entdismembermentWoundMeshes[]
----@field public Decals entdismembermentWoundDecal[]
----@field public CensoredPaths Uint64[]
----@field public CensoredCookedPaths CResource[]
----@field public CensorshipValid Bool
+---@field Name CName
+---@field WoundType entdismembermentWoundTypeE
+---@field BodyPart physicsRagdollBodyPartE
+---@field CullObject entdismembermentCullObject
+---@field GarmentMorphStrength Float
+---@field UseProceduralCut Bool
+---@field UseSingleMeshForRagdoll Bool
+---@field IsCritical Bool
+---@field Resources entdismembermentWoundMeshes[]
+---@field Decals entdismembermentWoundDecal[]
+---@field CensoredPaths Uint64[]
+---@field CensoredCookedPaths CResource[]
+---@field CensorshipValid Bool
 entdismembermentWoundResource = {}
 
 ---@param fields? entdismembermentWoundResource
 ---@return entdismembermentWoundResource
-function entdismembermentWoundResource.new(fields) return end
+function entdismembermentWoundResource.new(fields) end

@@ -5,4 +5,4 @@ redTOMLArrayTransform = {}
 
 ---@param fields? redTOMLArrayTransform
 ---@return redTOMLArrayTransform
-function redTOMLArrayTransform.new(fields) return end
+function redTOMLArrayTransform.new(fields) end

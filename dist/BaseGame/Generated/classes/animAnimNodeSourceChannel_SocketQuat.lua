@@ -5,4 +5,4 @@ animAnimNodeSourceChannel_SocketQuat = {}
 
 ---@param fields? animAnimNodeSourceChannel_SocketQuat
 ---@return animAnimNodeSourceChannel_SocketQuat
-function animAnimNodeSourceChannel_SocketQuat.new(fields) return end
+function animAnimNodeSourceChannel_SocketQuat.new(fields) end

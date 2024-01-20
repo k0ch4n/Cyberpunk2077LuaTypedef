@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class GameTimePrereq: gameIScriptablePrereq
----@field public delay Float
----@field public repeated Bool
----@field private delayFromStat gamedataStatType
+---@field delay Float
+---@field repeated Bool
+---@field delayFromStat gamedataStatType
 GameTimePrereq = {}
 
 ---@param fields? GameTimePrereq
 ---@return GameTimePrereq
-function GameTimePrereq.new(fields) return end
+function GameTimePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function GameTimePrereq:Initialize(recordID) return end
+function GameTimePrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function GameTimePrereq:OnRegister(state, context) return end
+function GameTimePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function GameTimePrereq:OnUnregister(state, context) return end
+function GameTimePrereq:OnUnregister(state, context) end

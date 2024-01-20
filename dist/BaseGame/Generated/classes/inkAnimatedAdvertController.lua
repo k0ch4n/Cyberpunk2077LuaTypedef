@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkAnimatedAdvertController: inkWidgetLogicController
----@field public animName CName
----@field public loopType inkanimLoopType
+---@field animName CName
+---@field loopType inkanimLoopType
 inkAnimatedAdvertController = {}
 
 ---@param fields? inkAnimatedAdvertController
 ---@return inkAnimatedAdvertController
-function inkAnimatedAdvertController.new(fields) return end
+function inkAnimatedAdvertController.new(fields) end

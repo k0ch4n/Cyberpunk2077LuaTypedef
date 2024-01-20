@@ -5,4 +5,4 @@ inkHudEntrySpawnedEvent = {}
 
 ---@param fields? inkHudEntrySpawnedEvent
 ---@return inkHudEntrySpawnedEvent
-function inkHudEntrySpawnedEvent.new(fields) return end
+function inkHudEntrySpawnedEvent.new(fields) end

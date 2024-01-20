@@ -5,4 +5,4 @@ gameIShootingAccuracySystem = {}
 
 ---@param fields? gameIShootingAccuracySystem
 ---@return gameIShootingAccuracySystem
-function gameIShootingAccuracySystem.new(fields) return end
+function gameIShootingAccuracySystem.new(fields) end

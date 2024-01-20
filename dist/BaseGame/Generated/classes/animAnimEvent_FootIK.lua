@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimEvent_FootIK: animAnimEvent
----@field public leg animLeg
+---@field leg animLeg
 animAnimEvent_FootIK = {}
 
 ---@param fields? animAnimEvent_FootIK
 ---@return animAnimEvent_FootIK
-function animAnimEvent_FootIK.new(fields) return end
+function animAnimEvent_FootIK.new(fields) end

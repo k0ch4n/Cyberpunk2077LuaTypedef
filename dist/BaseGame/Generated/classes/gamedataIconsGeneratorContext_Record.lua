@@ -5,10 +5,10 @@ gamedataIconsGeneratorContext_Record = {}
 
 ---@param fields? gamedataIconsGeneratorContext_Record
 ---@return gamedataIconsGeneratorContext_Record
-function gamedataIconsGeneratorContext_Record.new(fields) return end
+function gamedataIconsGeneratorContext_Record.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataIconsGeneratorContext_Record:FemalePlayerAnimSet() return end
+function gamedataIconsGeneratorContext_Record:FemalePlayerAnimSet() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataIconsGeneratorContext_Record:MalePlayerAnimSet() return end
+function gamedataIconsGeneratorContext_Record:MalePlayerAnimSet() end

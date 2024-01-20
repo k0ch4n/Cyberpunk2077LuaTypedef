@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class WeaponEquipEvent: redEvent
----@field public animFeature AnimFeature_EquipType
----@field public item gameItemObject
+---@field animFeature AnimFeature_EquipType
+---@field item gameItemObject
 WeaponEquipEvent = {}
 
 ---@param fields? WeaponEquipEvent
 ---@return WeaponEquipEvent
-function WeaponEquipEvent.new(fields) return end
+function WeaponEquipEvent.new(fields) end

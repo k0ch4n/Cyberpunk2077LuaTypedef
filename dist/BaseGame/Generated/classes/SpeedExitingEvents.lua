@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class SpeedExitingEvents: ExitingEvents
----@field public exitForce Vector4
+---@field exitForce Vector4
 SpeedExitingEvents = {}
 
 ---@param fields? SpeedExitingEvents
 ---@return SpeedExitingEvents
-function SpeedExitingEvents.new(fields) return end
+function SpeedExitingEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SpeedExitingEvents:OnEnter(stateContext, scriptInterface) return end
+function SpeedExitingEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SpeedExitingEvents:OnExit(stateContext, scriptInterface) return end
+function SpeedExitingEvents:OnExit(stateContext, scriptInterface) end

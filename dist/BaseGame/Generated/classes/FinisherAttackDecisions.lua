@@ -5,4 +5,4 @@ FinisherAttackDecisions = {}
 
 ---@param fields? FinisherAttackDecisions
 ---@return FinisherAttackDecisions
-function FinisherAttackDecisions.new(fields) return end
+function FinisherAttackDecisions.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameMuppetSubStepData
----@field public frameId Uint32
----@field public parentFrameId Uint32
----@field public parentFramePrimaryColor Bool
----@field public inputState gameMuppetInputState
----@field public state gameMuppetState
----@field public resimulationSubsteps gameMuppetSubStepData[]
+---@field frameId Uint32
+---@field parentFrameId Uint32
+---@field parentFramePrimaryColor Bool
+---@field inputState gameMuppetInputState
+---@field state gameMuppetState
+---@field resimulationSubsteps gameMuppetSubStepData[]
 gameMuppetSubStepData = {}
 
 ---@param fields? gameMuppetSubStepData
 ---@return gameMuppetSubStepData
-function gameMuppetSubStepData.new(fields) return end
+function gameMuppetSubStepData.new(fields) end

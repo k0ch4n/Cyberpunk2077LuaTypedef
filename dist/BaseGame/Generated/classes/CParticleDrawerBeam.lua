@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleDrawerBeam: CParticleDrawerFacingBeam
----@field public rotation Float
+---@field rotation Float
 CParticleDrawerBeam = {}
 
 ---@param fields? CParticleDrawerBeam
 ---@return CParticleDrawerBeam
-function CParticleDrawerBeam.new(fields) return end
+function CParticleDrawerBeam.new(fields) end

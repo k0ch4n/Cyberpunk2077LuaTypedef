@@ -5,23 +5,19 @@ MenuScenario_Credits = {}
 
 ---@param fields? MenuScenario_Credits
 ---@return MenuScenario_Credits
-function MenuScenario_Credits.new(fields) return end
+function MenuScenario_Credits.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_Credits:OnBack() return end
+function MenuScenario_Credits:OnBack() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Credits:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_Credits:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_Credits:OnLeaveScenario(nextScenario) return end
+function MenuScenario_Credits:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_Credits:OnSettingsBack() return end
+function MenuScenario_Credits:OnSettingsBack() end

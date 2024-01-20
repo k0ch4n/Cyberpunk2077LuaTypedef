@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class ApplyShaderEffector: gameEffector
----@field private overrideMaterialName CName
----@field private overrideMaterialTag CName
----@field private applyToOwner Bool
----@field private applyToWeapon Bool
----@field private owner gameObject
----@field private ownerWeapons gameItemObject[]
----@field private isEnabled Bool
+---@field overrideMaterialName CName
+---@field overrideMaterialTag CName
+---@field applyToOwner Bool
+---@field applyToWeapon Bool
+---@field owner gameObject
+---@field ownerWeapons gameItemObject[]
+---@field isEnabled Bool
 ApplyShaderEffector = {}
 
 ---@param fields? ApplyShaderEffector
 ---@return ApplyShaderEffector
-function ApplyShaderEffector.new(fields) return end
+function ApplyShaderEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyShaderEffector:ActionOn(owner) return end
+function ApplyShaderEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyShaderEffector:Initialize(record, parentRecord) return end
+function ApplyShaderEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function ApplyShaderEffector:Uninitialize() return end
+function ApplyShaderEffector:Uninitialize() end

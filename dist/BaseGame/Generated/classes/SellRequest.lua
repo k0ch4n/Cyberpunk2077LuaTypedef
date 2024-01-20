@@ -5,4 +5,4 @@ SellRequest = {}
 
 ---@param fields? SellRequest
 ---@return SellRequest
-function SellRequest.new(fields) return end
+function SellRequest.new(fields) end

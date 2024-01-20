@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entdismembermentWoundMeshes
----@field public ResourceSet entdismembermentResourceSetE
----@field public Meshes entdismembermentMeshInfo[]
----@field public FillMeshes entdismembermentFillMeshInfo[]
+---@field ResourceSet entdismembermentResourceSetE
+---@field Meshes entdismembermentMeshInfo[]
+---@field FillMeshes entdismembermentFillMeshInfo[]
 entdismembermentWoundMeshes = {}
 
 ---@param fields? entdismembermentWoundMeshes
 ---@return entdismembermentWoundMeshes
-function entdismembermentWoundMeshes.new(fields) return end
+function entdismembermentWoundMeshes.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class meshMeshParamDestructionStepData: meshMeshParameter
----@field public offsets physicsDestructionHierarchyOffset[]
----@field public isInstantRemovable String
+---@field offsets physicsDestructionHierarchyOffset[]
+---@field isInstantRemovable String
 meshMeshParamDestructionStepData = {}
 
 ---@param fields? meshMeshParamDestructionStepData
 ---@return meshMeshParamDestructionStepData
-function meshMeshParamDestructionStepData.new(fields) return end
+function meshMeshParamDestructionStepData.new(fields) end

@@ -5,8 +5,7 @@ InRelaxedHighLevelState = {}
 
 ---@param fields? InRelaxedHighLevelState
 ---@return InRelaxedHighLevelState
-function InRelaxedHighLevelState.new(fields) return end
+function InRelaxedHighLevelState.new(fields) end
 
----@private
 ---@return gamedataNPCHighLevelState
-function InRelaxedHighLevelState:GetStateToCheck() return end
+function InRelaxedHighLevelState:GetStateToCheck() end

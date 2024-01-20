@@ -5,22 +5,19 @@ CycleRoundDecisions = {}
 
 ---@param fields? CycleRoundDecisions
 ---@return CycleRoundDecisions
-function CycleRoundDecisions.new(fields) return end
+function CycleRoundDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CycleRoundDecisions:EnterCondition(stateContext, scriptInterface) return end
+function CycleRoundDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CycleRoundDecisions:ExitCondition(stateContext, scriptInterface) return end
+function CycleRoundDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CycleRoundDecisions:ToFullAuto(stateContext, scriptInterface) return end
+function CycleRoundDecisions:ToFullAuto(stateContext, scriptInterface) end

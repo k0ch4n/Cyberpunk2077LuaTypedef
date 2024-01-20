@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class EquipItemCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public equipCommand AIEquipCommand
----@field public unequipCommand AIUnequipCommand
----@field public slotIdName TweakDBID
----@field public itemIdName TweakDBID
+---@field equipCommand AIEquipCommand
+---@field unequipCommand AIUnequipCommand
+---@field slotIdName TweakDBID
+---@field itemIdName TweakDBID
 EquipItemCommandDelegate = {}
 
 ---@param fields? EquipItemCommandDelegate
 ---@return EquipItemCommandDelegate
-function EquipItemCommandDelegate.new(fields) return end
+function EquipItemCommandDelegate.new(fields) end
 
 ---@return Bool
-function EquipItemCommandDelegate:DoEndCommand() return end
+function EquipItemCommandDelegate:DoEndCommand() end
 
 ---@return Bool
-function EquipItemCommandDelegate:DoSetupEquipCommand() return end
+function EquipItemCommandDelegate:DoSetupEquipCommand() end
 
 ---@return Bool
-function EquipItemCommandDelegate:DoSetupUnequipCommand() return end
+function EquipItemCommandDelegate:DoSetupUnequipCommand() end
 
 ---@return Float
-function EquipItemCommandDelegate:GetDurationOverride() return end
+function EquipItemCommandDelegate:GetDurationOverride() end
 
 ---@return Bool
-function EquipItemCommandDelegate:GetFailIfItemNotFound() return end
+function EquipItemCommandDelegate:GetFailIfItemNotFound() end
 
 ---@return Float
-function EquipItemCommandDelegate:GetUnequipDurationOverride() return end
+function EquipItemCommandDelegate:GetUnequipDurationOverride() end

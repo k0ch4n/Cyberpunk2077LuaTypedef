@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiGlobaltvWidgetGameController: gameuiWidgetGameController
----@field public overlayContainer inkCompoundWidgetReference
+---@field overlayContainer inkCompoundWidgetReference
 gameuiGlobaltvWidgetGameController = {}
 
 ---@param fields? gameuiGlobaltvWidgetGameController
 ---@return gameuiGlobaltvWidgetGameController
-function gameuiGlobaltvWidgetGameController.new(fields) return end
+function gameuiGlobaltvWidgetGameController.new(fields) end

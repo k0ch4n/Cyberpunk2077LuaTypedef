@@ -1,34 +1,29 @@
 ---@meta
 
 ---@class NanoWireProjectile: BaseProjectile
----@field public maxAttackRange Float
----@field protected launchMode ELaunchMode
+---@field maxAttackRange Float
+---@field launchMode ELaunchMode
 NanoWireProjectile = {}
 
 ---@param fields? NanoWireProjectile
 ---@return NanoWireProjectile
-function NanoWireProjectile.new(fields) return end
+function NanoWireProjectile.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function NanoWireProjectile:OnCollision(eventData) return end
+function NanoWireProjectile:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function NanoWireProjectile:OnProjectileInitialize(eventData) return end
+function NanoWireProjectile:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function NanoWireProjectile:OnShoot(eventData) return end
+function NanoWireProjectile:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function NanoWireProjectile:OnShootTarget(eventData) return end
+function NanoWireProjectile:OnShootTarget(eventData) end
 
----@protected
 ---@return nil
-function NanoWireProjectile:SetNanoWireProjectileLaunchMode() return end
+function NanoWireProjectile:SetNanoWireProjectileLaunchMode() end

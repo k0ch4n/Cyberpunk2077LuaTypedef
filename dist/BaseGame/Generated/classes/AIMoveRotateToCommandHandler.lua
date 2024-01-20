@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class AIMoveRotateToCommandHandler: AICommandHandlerBase
----@field protected target AIArgumentMapping
----@field protected angleTolerance AIArgumentMapping
----@field protected angleOffset AIArgumentMapping
----@field protected speed AIArgumentMapping
+---@field target AIArgumentMapping
+---@field angleTolerance AIArgumentMapping
+---@field angleOffset AIArgumentMapping
+---@field speed AIArgumentMapping
 AIMoveRotateToCommandHandler = {}
 
 ---@param fields? AIMoveRotateToCommandHandler
 ---@return AIMoveRotateToCommandHandler
-function AIMoveRotateToCommandHandler.new(fields) return end
+function AIMoveRotateToCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function AIMoveRotateToCommandHandler:UpdateCommand(context, command) return end
+function AIMoveRotateToCommandHandler:UpdateCommand(context, command) end

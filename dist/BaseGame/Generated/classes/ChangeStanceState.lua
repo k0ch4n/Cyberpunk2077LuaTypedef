@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class ChangeStanceState: ChangeStanceStateAbstract
----@field public newState gamedataNPCStanceState
+---@field newState gamedataNPCStanceState
 ChangeStanceState = {}
 
 ---@param fields? ChangeStanceState
 ---@return ChangeStanceState
-function ChangeStanceState.new(fields) return end
+function ChangeStanceState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCStanceState
-function ChangeStanceState:GetDesiredStanceState(context) return end
+function ChangeStanceState:GetDesiredStanceState(context) end

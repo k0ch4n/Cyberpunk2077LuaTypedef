@@ -5,18 +5,18 @@ gameRazerChromaEffectsSystem = {}
 
 ---@param fields? gameRazerChromaEffectsSystem
 ---@return gameRazerChromaEffectsSystem
-function gameRazerChromaEffectsSystem.new(fields) return end
+function gameRazerChromaEffectsSystem.new(fields) end
 
 ---@param animationName CName|string
 ---@param loop Bool
 ---@return Bool
-function gameRazerChromaEffectsSystem:PlayAnimation(animationName, loop) return end
+function gameRazerChromaEffectsSystem:PlayAnimation(animationName, loop) end
 
 ---@param animationName CName|string
 ---@param use Bool
 ---@return Bool
-function gameRazerChromaEffectsSystem:SetIdleAnimation(animationName, use) return end
+function gameRazerChromaEffectsSystem:SetIdleAnimation(animationName, use) end
 
 ---@param animationName CName|string
 ---@return Bool
-function gameRazerChromaEffectsSystem:StopAnimation(animationName) return end
+function gameRazerChromaEffectsSystem:StopAnimation(animationName) end

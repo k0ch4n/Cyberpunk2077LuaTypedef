@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questCharacterState_ConditionType: questICharacterConditionType
----@field public subType questICharacterConditionSubType
+---@field subType questICharacterConditionSubType
 questCharacterState_ConditionType = {}
 
 ---@param fields? questCharacterState_ConditionType
 ---@return questCharacterState_ConditionType
-function questCharacterState_ConditionType.new(fields) return end
+function questCharacterState_ConditionType.new(fields) end

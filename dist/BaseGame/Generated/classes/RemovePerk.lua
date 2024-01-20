@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class RemovePerk: gamePlayerScriptableSystemRequest
----@field public perkType gamedataPerkType
+---@field perkType gamedataPerkType
 RemovePerk = {}
 
 ---@param fields? RemovePerk
 ---@return RemovePerk
-function RemovePerk.new(fields) return end
+function RemovePerk.new(fields) end
 
 ---@param _owner gameObject
 ---@param type gamedataPerkType
 ---@return nil
-function RemovePerk:Set(_owner, type) return end
+function RemovePerk:Set(_owner, type) end

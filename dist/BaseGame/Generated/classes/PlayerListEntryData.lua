@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PlayerListEntryData
----@field public playerObject gameObject
----@field public playerListEntry inkWidget
+---@field playerObject gameObject
+---@field playerListEntry inkWidget
 PlayerListEntryData = {}
 
 ---@param fields? PlayerListEntryData
 ---@return PlayerListEntryData
-function PlayerListEntryData.new(fields) return end
+function PlayerListEntryData.new(fields) end

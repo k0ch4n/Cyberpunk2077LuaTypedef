@@ -1,33 +1,33 @@
 ---@meta
 
 ---@class scnSceneResource: CResource
----@field public entryPoints scnEntryPoint[]
----@field public exitPoints scnExitPoint[]
----@field public notablePoints scnNotablePoint[]
----@field public executionTagEntries scnExecutionTagEntry[]
----@field public actors scnActorDef[]
----@field public playerActors scnPlayerActorDef[]
----@field public sceneGraph scnSceneGraph
----@field public localMarkers scnLocalMarker[]
----@field public props scnPropDef[]
----@field public ridResources scnRidResourceHandler[]
----@field public workspots scnWorkspotData[]
----@field public workspotInstances scnWorkspotInstance[]
----@field public resouresReferences scnSRRefCollection
----@field public screenplayStore scnscreenplayStore
----@field public locStore scnlocLocStoreEmbedded
----@field public version Uint32
----@field public voInfo scnSceneVOInfo[]
----@field public effectDefinitions scnEffectDef[]
----@field public effectInstances scnEffectInstance[]
----@field public executionTags scnExecutionTag[]
----@field public referencePoints scnReferencePointDef[]
----@field public interruptionScenarios scnInterruptionScenario[]
----@field public sceneSolutionHash scnSceneSolutionHash
----@field public sceneCategoryTag scnSceneCategoryTag
----@field public debugSymbols scnDebugSymbols
+---@field entryPoints scnEntryPoint[]
+---@field exitPoints scnExitPoint[]
+---@field notablePoints scnNotablePoint[]
+---@field executionTagEntries scnExecutionTagEntry[]
+---@field actors scnActorDef[]
+---@field playerActors scnPlayerActorDef[]
+---@field sceneGraph scnSceneGraph
+---@field localMarkers scnLocalMarker[]
+---@field props scnPropDef[]
+---@field ridResources scnRidResourceHandler[]
+---@field workspots scnWorkspotData[]
+---@field workspotInstances scnWorkspotInstance[]
+---@field resouresReferences scnSRRefCollection
+---@field screenplayStore scnscreenplayStore
+---@field locStore scnlocLocStoreEmbedded
+---@field version Uint32
+---@field voInfo scnSceneVOInfo[]
+---@field effectDefinitions scnEffectDef[]
+---@field effectInstances scnEffectInstance[]
+---@field executionTags scnExecutionTag[]
+---@field referencePoints scnReferencePointDef[]
+---@field interruptionScenarios scnInterruptionScenario[]
+---@field sceneSolutionHash scnSceneSolutionHash
+---@field sceneCategoryTag scnSceneCategoryTag
+---@field debugSymbols scnDebugSymbols
 scnSceneResource = {}
 
 ---@param fields? scnSceneResource
 ---@return scnSceneResource
-function scnSceneResource.new(fields) return end
+function scnSceneResource.new(fields) end

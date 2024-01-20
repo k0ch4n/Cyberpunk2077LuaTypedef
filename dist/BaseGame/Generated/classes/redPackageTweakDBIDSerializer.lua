@@ -5,4 +5,4 @@ redPackageTweakDBIDSerializer = {}
 
 ---@param fields? redPackageTweakDBIDSerializer
 ---@return redPackageTweakDBIDSerializer
-function redPackageTweakDBIDSerializer.new(fields) return end
+function redPackageTweakDBIDSerializer.new(fields) end

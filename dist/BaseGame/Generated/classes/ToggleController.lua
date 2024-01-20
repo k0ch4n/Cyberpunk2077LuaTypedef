@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class ToggleController: inkToggleController
----@field protected label inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected data Int32
+---@field label inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field data Int32
 ToggleController = {}
 
 ---@param fields? ToggleController
 ---@return ToggleController
-function ToggleController.new(fields) return end
+function ToggleController.new(fields) end
 
 ---@return Int32
-function ToggleController:GetData() return end
+function ToggleController:GetData() end
 
 ---@return String
-function ToggleController:GetIcon() return end
+function ToggleController:GetIcon() end
 
 ---@return String
-function ToggleController:GetLabelKey() return end
+function ToggleController:GetLabelKey() end
 
 ---@param data Int32
 ---@return nil
-function ToggleController:SetToggleData(data) return end
+function ToggleController:SetToggleData(data) end

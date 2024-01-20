@@ -5,89 +5,89 @@ entPhysicalBodyInterface = {}
 
 ---@param fields? entPhysicalBodyInterface
 ---@return entPhysicalBodyInterface
-function entPhysicalBodyInterface.new(fields) return end
+function entPhysicalBodyInterface.new(fields) end
 
 ---@param impulse Vector4
 ---@param originInCOM Bool
 ---@param offset? Vector4
 ---@return nil
-function entPhysicalBodyInterface:AddLinearImpulse(impulse, originInCOM, offset) return end
+function entPhysicalBodyInterface:AddLinearImpulse(impulse, originInCOM, offset) end
 
 ---@return nil
-function entPhysicalBodyInterface:GetAngularVelocity() return end
+function entPhysicalBodyInterface:GetAngularVelocity() end
 
 ---@return Int32
-function entPhysicalBodyInterface:GetBodyIndex() return end
+function entPhysicalBodyInterface:GetBodyIndex() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetBounds() return end
+function entPhysicalBodyInterface:GetBounds() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetBoundsCenter() return end
+function entPhysicalBodyInterface:GetBoundsCenter() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetDimensions() return end
+function entPhysicalBodyInterface:GetDimensions() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetDisplacement() return end
+function entPhysicalBodyInterface:GetDisplacement() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetLinearSpeed() return end
+function entPhysicalBodyInterface:GetLinearSpeed() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetLinearVelocity() return end
+function entPhysicalBodyInterface:GetLinearVelocity() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetLocalCenterOfMass() return end
+function entPhysicalBodyInterface:GetLocalCenterOfMass() end
 
 ---@return nil
-function entPhysicalBodyInterface:GetMass() return end
+function entPhysicalBodyInterface:GetMass() end
 
 ---@return Transform
-function entPhysicalBodyInterface:GetTransform() return end
+function entPhysicalBodyInterface:GetTransform() end
 
 ---@return Bool
-function entPhysicalBodyInterface:IsKinematic() return end
+function entPhysicalBodyInterface:IsKinematic() end
 
 ---@return Bool
-function entPhysicalBodyInterface:IsQueryable() return end
+function entPhysicalBodyInterface:IsQueryable() end
 
 ---@return Bool
-function entPhysicalBodyInterface:IsSimulated() return end
+function entPhysicalBodyInterface:IsSimulated() end
 
 ---@return nil
-function entPhysicalBodyInterface:SetAngularVelocity() return end
+function entPhysicalBodyInterface:SetAngularVelocity() end
 
 ---@return nil
-function entPhysicalBodyInterface:SetDisplacement() return end
+function entPhysicalBodyInterface:SetDisplacement() end
 
 ---@param enable Bool
 ---@return nil
-function entPhysicalBodyInterface:SetIsKinematic(enable) return end
+function entPhysicalBodyInterface:SetIsKinematic(enable) end
 
 ---@param enable Bool
 ---@return nil
-function entPhysicalBodyInterface:SetIsQueryable(enable) return end
+function entPhysicalBodyInterface:SetIsQueryable(enable) end
 
 ---@return nil
-function entPhysicalBodyInterface:SetIsSleeping() return end
+function entPhysicalBodyInterface:SetIsSleeping() end
 
 ---@return nil
-function entPhysicalBodyInterface:SetLinearVelocity() return end
+function entPhysicalBodyInterface:SetLinearVelocity() end
 
 ---@return nil
-function entPhysicalBodyInterface:SetMass() return end
+function entPhysicalBodyInterface:SetMass() end
 
 ---@return nil
-function entPhysicalBodyInterface:SetQueryFilter() return end
+function entPhysicalBodyInterface:SetQueryFilter() end
 
 ---@return nil
-function entPhysicalBodyInterface:SetSimulationFilter() return end
+function entPhysicalBodyInterface:SetSimulationFilter() end
 
 ---@param pos Transform
 ---@return nil
-function entPhysicalBodyInterface:SetTransform(pos) return end
+function entPhysicalBodyInterface:SetTransform(pos) end
 
 ---@param flag Bool
 ---@return nil
-function entPhysicalBodyInterface:ToggleKinematic(flag) return end
+function entPhysicalBodyInterface:ToggleKinematic(flag) end

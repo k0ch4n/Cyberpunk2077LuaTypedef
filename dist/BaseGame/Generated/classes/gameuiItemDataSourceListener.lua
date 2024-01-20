@@ -5,4 +5,4 @@ gameuiItemDataSourceListener = {}
 
 ---@param fields? gameuiItemDataSourceListener
 ---@return gameuiItemDataSourceListener
-function gameuiItemDataSourceListener.new(fields) return end
+function gameuiItemDataSourceListener.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class vehicleRemoteControlEvent: gameActionEvent
----@field public remoteControl Bool
----@field public shouldUnseatPassengers Bool
----@field public shouldModifyInteractionState Bool
----@field public isDistanceDisconnect Bool
+---@field remoteControl Bool
+---@field shouldUnseatPassengers Bool
+---@field shouldModifyInteractionState Bool
+---@field isDistanceDisconnect Bool
 vehicleRemoteControlEvent = {}
 
 ---@param fields? vehicleRemoteControlEvent
 ---@return vehicleRemoteControlEvent
-function vehicleRemoteControlEvent.new(fields) return end
+function vehicleRemoteControlEvent.new(fields) end

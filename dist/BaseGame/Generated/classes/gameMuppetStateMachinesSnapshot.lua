@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetStateMachinesSnapshot
----@field public stateMachines gameMuppetStateMachineSnapshot[]
+---@field stateMachines gameMuppetStateMachineSnapshot[]
 gameMuppetStateMachinesSnapshot = {}
 
 ---@param fields? gameMuppetStateMachinesSnapshot
 ---@return gameMuppetStateMachinesSnapshot
-function gameMuppetStateMachinesSnapshot.new(fields) return end
+function gameMuppetStateMachinesSnapshot.new(fields) end

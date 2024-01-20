@@ -5,4 +5,4 @@ vehicleRepairEvent = {}
 
 ---@param fields? vehicleRepairEvent
 ---@return vehicleRepairEvent
-function vehicleRepairEvent.new(fields) return end
+function vehicleRepairEvent.new(fields) end

@@ -1,26 +1,25 @@
 ---@meta
 
 ---@class PreventionDamage: gameScriptableSystemRequest
----@field public target gameObject
----@field public attackTime Float
----@field public attackType gamedataAttackType
----@field public damageDealtPercent Float
----@field public isTargetKilled Bool
+---@field target gameObject
+---@field attackTime Float
+---@field attackType gamedataAttackType
+---@field damageDealtPercent Float
+---@field isTargetKilled Bool
 PreventionDamage = {}
 
 ---@param fields? PreventionDamage
 ---@return PreventionDamage
-function PreventionDamage.new(fields) return end
+function PreventionDamage.new(fields) end
 
----@private
 ---@param target gameObject
 ---@return String
-function PreventionDamage.GetTargetTelemetryDescription(target) return end
+function PreventionDamage.GetTargetTelemetryDescription(target) end
 
 ---@param target gameObject
 ---@param isTargetKilled Bool
 ---@return String
-function PreventionDamage.GetTelemetryDescription(target, isTargetKilled) return end
+function PreventionDamage.GetTelemetryDescription(target, isTargetKilled) end
 
 ---@return String
-function PreventionDamage:GetTelemetryDescription() return end
+function PreventionDamage:GetTelemetryDescription() end

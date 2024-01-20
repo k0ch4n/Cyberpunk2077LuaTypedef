@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AIJoinTargetsSquadCommandParams: questScriptedAICommandParams
----@field public targetPuppetRef gameEntityReference
+---@field targetPuppetRef gameEntityReference
 AIJoinTargetsSquadCommandParams = {}
 
 ---@param fields? AIJoinTargetsSquadCommandParams
 ---@return AIJoinTargetsSquadCommandParams
-function AIJoinTargetsSquadCommandParams.new(fields) return end
+function AIJoinTargetsSquadCommandParams.new(fields) end
 
 ---@return AICommand
-function AIJoinTargetsSquadCommandParams:CreateCommand() return end
+function AIJoinTargetsSquadCommandParams:CreateCommand() end
 
 ---@return String
-function AIJoinTargetsSquadCommandParams:GetCommandName() return end
+function AIJoinTargetsSquadCommandParams:GetCommandName() end

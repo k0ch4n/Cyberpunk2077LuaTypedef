@@ -1,231 +1,220 @@
 ---@meta
 
 ---@class BaseScriptableAction: gamedeviceAction
----@field protected requesterID entEntityID
----@field protected executor gameObject
----@field protected proxyExecutor gameObject
----@field protected costComponents gamedataObjectActionCost_Record[]
----@field protected objectActionID TweakDBID
----@field protected objectActionRecord gamedataObjectAction_Record
----@field protected inkWidgetID TweakDBID
----@field protected interactionChoice gameinteractionsChoice
----@field protected interactionLayer CName
----@field protected isActionRPGCheckDissabled Bool
----@field protected canSkipPayCost Bool
----@field protected calculatedBaseCost Int32
----@field public deviceActionQueue DeviceActionQueue
----@field public isActionQueueingUsed Bool
----@field public isQueuedAction Bool
----@field public isInactive Bool
----@field public isTargetDead Bool
----@field public activationTimeReduction Float
----@field public IsAppliedByMonowire Bool
+---@field requesterID entEntityID
+---@field executor gameObject
+---@field proxyExecutor gameObject
+---@field costComponents gamedataObjectActionCost_Record[]
+---@field objectActionID TweakDBID
+---@field objectActionRecord gamedataObjectAction_Record
+---@field inkWidgetID TweakDBID
+---@field interactionChoice gameinteractionsChoice
+---@field interactionLayer CName
+---@field isActionRPGCheckDissabled Bool
+---@field canSkipPayCost Bool
+---@field calculatedBaseCost Int32
+---@field deviceActionQueue DeviceActionQueue
+---@field isActionQueueingUsed Bool
+---@field isQueuedAction Bool
+---@field isInactive Bool
+---@field isTargetDead Bool
+---@field activationTimeReduction Float
+---@field IsAppliedByMonowire Bool
 BaseScriptableAction = {}
 
 ---@param executor gameObject
 ---@param actionRecord gamedataObjectAction_Record
 ---@return Int32
-function BaseScriptableAction.GetBaseCostStatic(executor, actionRecord) return end
+function BaseScriptableAction.GetBaseCostStatic(executor, actionRecord) end
 
 ---@param costComponents gamedataObjectActionCost_Record[]
 ---@return nil, gamedataStatModifier_Record[] costMods
-function BaseScriptableAction.GetCostMods(costComponents) return end
+function BaseScriptableAction.GetCostMods(costComponents) end
 
 ---@param target gameObject
 ---@param actionRecord? gamedataObjectAction_Record
 ---@return Bool
-function BaseScriptableAction:CanInterrupt(target, actionRecord) return end
+function BaseScriptableAction:CanInterrupt(target, actionRecord) end
 
 ---@param user? gameObject
 ---@param checkForOverclockedState? Bool
 ---@return Bool
-function BaseScriptableAction:CanPayCost(user, checkForOverclockedState) return end
+function BaseScriptableAction:CanPayCost(user, checkForOverclockedState) end
 
 ---@param isJustConsulting Bool
 ---@return Bool
-function BaseScriptableAction:CanSkipPayCost(isJustConsulting) return end
+function BaseScriptableAction:CanSkipPayCost(isJustConsulting) end
 
 ---@return nil
-function BaseScriptableAction:CompleteAction() return end
+function BaseScriptableAction:CompleteAction() end
 
 ---@return CName
-function BaseScriptableAction:GetActionID() return end
+function BaseScriptableAction:GetActionID() end
 
 ---@return Float
-function BaseScriptableAction:GetActivationTime() return end
+function BaseScriptableAction:GetActivationTime() end
 
 ---@return Int32
-function BaseScriptableAction:GetBaseCost() return end
+function BaseScriptableAction:GetBaseCost() end
 
 ---@return Float
-function BaseScriptableAction:GetCooldownDuration() return end
+function BaseScriptableAction:GetCooldownDuration() end
 
 ---@return Int32
-function BaseScriptableAction:GetCost() return end
+function BaseScriptableAction:GetCost() end
 
----@private
 ---@param legendaryPlusPlus Bool
 ---@return Float
-function BaseScriptableAction:GetDetonateGranadeCostReduction(legendaryPlusPlus) return end
+function BaseScriptableAction:GetDetonateGranadeCostReduction(legendaryPlusPlus) end
 
 ---@return Int32
-function BaseScriptableAction:GetDeviceActionMaxQueueSize() return end
+function BaseScriptableAction:GetDeviceActionMaxQueueSize() end
 
 ---@return DeviceActionQueue
-function BaseScriptableAction:GetDeviceActionQueue() return end
+function BaseScriptableAction:GetDeviceActionQueue() end
 
 ---@return CName[]
-function BaseScriptableAction:GetDeviceActionQueueNames() return end
+function BaseScriptableAction:GetDeviceActionQueueNames() end
 
 ---@return Int32
-function BaseScriptableAction:GetDeviceActionQueueSize() return end
+function BaseScriptableAction:GetDeviceActionQueueSize() end
 
 ---@return Float
-function BaseScriptableAction:GetDurationTime() return end
+function BaseScriptableAction:GetDurationTime() end
 
 ---@return gameObject
-function BaseScriptableAction:GetExecutor() return end
+function BaseScriptableAction:GetExecutor() end
 
----@private
 ---@return Float
-function BaseScriptableAction:GetExecutorLevel() return end
+function BaseScriptableAction:GetExecutorLevel() end
 
 ---@return TweakDBID
-function BaseScriptableAction:GetGameplayCategoryID() return end
+function BaseScriptableAction:GetGameplayCategoryID() end
 
 ---@return gamedataObjectActionGameplayCategory_Record
-function BaseScriptableAction:GetGameplayCategoryRecord() return end
+function BaseScriptableAction:GetGameplayCategoryRecord() end
 
 ---@return Bool
-function BaseScriptableAction:GetIsActionRPGCheckDissabled() return end
+function BaseScriptableAction:GetIsActionRPGCheckDissabled() end
 
----@private
 ---@param targetID entEntityID
 ---@return Float
-function BaseScriptableAction:GetMadnessLvl3ProgramCostReduction(targetID) return end
+function BaseScriptableAction:GetMadnessLvl3ProgramCostReduction(targetID) end
 
 ---@param baseValue Float
 ---@return Float
-function BaseScriptableAction:GetModifiedDurationTime(baseValue) return end
+function BaseScriptableAction:GetModifiedDurationTime(baseValue) end
 
 ---@return TweakDBID
-function BaseScriptableAction:GetObjectActionID() return end
+function BaseScriptableAction:GetObjectActionID() end
 
 ---@return gamedataObjectAction_Record
-function BaseScriptableAction:GetObjectActionRecord() return end
+function BaseScriptableAction:GetObjectActionRecord() end
 
----@protected
 ---@return gamePersistentState
-function BaseScriptableAction:GetOwnerPS() return end
+function BaseScriptableAction:GetOwnerPS() end
 
----@private
 ---@return Float
-function BaseScriptableAction:GetPowerLevelDiff() return end
+function BaseScriptableAction:GetPowerLevelDiff() end
 
 ---@return gameObject
-function BaseScriptableAction:GetProxyExecutor() return end
+function BaseScriptableAction:GetProxyExecutor() end
 
 ---@return entEntityID
-function BaseScriptableAction:GetRequesterID() return end
+function BaseScriptableAction:GetRequesterID() end
 
 ---@return TweakDBID
-function BaseScriptableAction:GetTweakDBChoiceID() return end
+function BaseScriptableAction:GetTweakDBChoiceID() end
 
 ---@return String
-function BaseScriptableAction:GetTweakDBChoiceRecord() return end
+function BaseScriptableAction:GetTweakDBChoiceRecord() end
 
 ---@return Bool
-function BaseScriptableAction:IsEyesInTheSkyPerk() return end
+function BaseScriptableAction:IsEyesInTheSkyPerk() end
 
 ---@param targetID entEntityID
 ---@param category gamedataHackCategory
 ---@return Bool
-function BaseScriptableAction:IsFirstUniqueCategoryInQueue(targetID, category) return end
+function BaseScriptableAction:IsFirstUniqueCategoryInQueue(targetID, category) end
 
 ---@return Bool
-function BaseScriptableAction:IsInactive() return end
+function BaseScriptableAction:IsInactive() end
 
 ---@return Bool
-function BaseScriptableAction:IsInteractionChoiceValid() return end
+function BaseScriptableAction:IsInteractionChoiceValid() end
 
 ---@param target gameObject
 ---@param actionRecord? gamedataObjectAction_Record
 ---@param objectActionsCallbackController? gameObjectActionsCallbackController
 ---@return Bool
-function BaseScriptableAction:IsPossible(target, actionRecord, objectActionsCallbackController) return end
+function BaseScriptableAction:IsPossible(target, actionRecord, objectActionsCallbackController) end
 
 ---@param context gameGetActionsContext
 ---@param objectActionsCallbackController? gameObjectActionsCallbackController
 ---@return Bool
-function BaseScriptableAction:IsVisible(context, objectActionsCallbackController) return end
+function BaseScriptableAction:IsVisible(context, objectActionsCallbackController) end
 
 ---@param player gameObject
 ---@param objectActionsCallbackController? gameObjectActionsCallbackController
 ---@return Bool
-function BaseScriptableAction:IsVisible(player, objectActionsCallbackController) return end
+function BaseScriptableAction:IsVisible(player, objectActionsCallbackController) end
 
 ---@param checkForOverclockedState? Bool
 ---@return Bool
-function BaseScriptableAction:PayCost(checkForOverclockedState) return end
+function BaseScriptableAction:PayCost(checkForOverclockedState) end
 
----@protected
 ---@param actionEffects gamedataObjectActionEffect_Record[]
 ---@return nil
-function BaseScriptableAction:ProcessEffectors(actionEffects) return end
+function BaseScriptableAction:ProcessEffectors(actionEffects) end
 
 ---@param gameplayRoleComponent? GameplayRoleComponent
 ---@return nil
-function BaseScriptableAction:ProcessRPGAction(gameplayRoleComponent) return end
+function BaseScriptableAction:ProcessRPGAction(gameplayRoleComponent) end
 
----@protected
 ---@param actionEffects gamedataObjectActionEffect_Record[]
 ---@return nil
-function BaseScriptableAction:ProcessStatusEffects(actionEffects) return end
+function BaseScriptableAction:ProcessStatusEffects(actionEffects) end
 
----@protected
 ---@return nil
-function BaseScriptableAction:ProduceInteractionPart() return end
+function BaseScriptableAction:ProduceInteractionPart() end
 
----@private
 ---@param gameplayRoleComponent GameplayRoleComponent
 ---@return Bool
-function BaseScriptableAction:PutActionInQuickhackQueue(gameplayRoleComponent) return end
+function BaseScriptableAction:PutActionInQuickhackQueue(gameplayRoleComponent) end
 
 ---@param id entEntityID
 ---@return nil
-function BaseScriptableAction:RegisterAsRequester(id) return end
+function BaseScriptableAction:RegisterAsRequester(id) end
 
----@protected
 ---@param entityID entEntityID
 ---@param statusEffectRecord gamedataStatusEffect_Record
 ---@return nil
-function BaseScriptableAction:ResetStatusEffectIfActionIsQueued(entityID, statusEffectRecord) return end
+function BaseScriptableAction:ResetStatusEffectIfActionIsQueued(entityID, statusEffectRecord) end
 
 ---@return nil
-function BaseScriptableAction:SetActive() return end
+function BaseScriptableAction:SetActive() end
 
 ---@param executor gameObject
 ---@return nil
-function BaseScriptableAction:SetExecutor(executor) return end
+function BaseScriptableAction:SetExecutor(executor) end
 
 ---@return nil
-function BaseScriptableAction:SetInactive() return end
+function BaseScriptableAction:SetInactive() end
 
 ---@param value Bool
 ---@return nil
-function BaseScriptableAction:SetIsActionRPGCheckDissabled(value) return end
+function BaseScriptableAction:SetIsActionRPGCheckDissabled(value) end
 
 ---@param id TweakDBID|string
 ---@return nil
-function BaseScriptableAction:SetObjectActionID(id) return end
+function BaseScriptableAction:SetObjectActionID(id) end
 
 ---@param proxy gameObject
 ---@return nil
-function BaseScriptableAction:SetProxyExecutor(proxy) return end
+function BaseScriptableAction:SetProxyExecutor(proxy) end
 
 ---@return nil
-function BaseScriptableAction:StartAction() return end
+function BaseScriptableAction:StartAction() end
 
----@private
 ---@return nil
-function BaseScriptableAction:StartUpload() return end
+function BaseScriptableAction:StartUpload() end

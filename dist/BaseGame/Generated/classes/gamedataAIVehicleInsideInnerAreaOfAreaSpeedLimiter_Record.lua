@@ -5,10 +5,10 @@ gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record = {}
 
 ---@param fields? gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record
 ---@return gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record
-function gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record.new(fields) return end
+function gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record:Vehicle() return end
+function gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record:Vehicle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record:VehicleHandle() return end
+function gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record:VehicleHandle() end

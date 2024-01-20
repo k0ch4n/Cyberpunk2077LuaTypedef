@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class FunctionalTestsResult
----@field public code FunctionalTestsResultCode
----@field public msg String
+---@field code FunctionalTestsResultCode
+---@field msg String
 FunctionalTestsResult = {}
 
 ---@param fields? FunctionalTestsResult
 ---@return FunctionalTestsResult
-function FunctionalTestsResult.new(fields) return end
+function FunctionalTestsResult.new(fields) end
 
 ---@return nil
-function FunctionalTestsResult.IsValid() return end
+function FunctionalTestsResult.IsValid() end
 
 ---@return nil
-function FunctionalTestsResult.Make() return end
+function FunctionalTestsResult.Make() end
 
 ---@return nil
-function FunctionalTestsResult.MakeValid() return end
+function FunctionalTestsResult.MakeValid() end
 
 ---@return nil
-function FunctionalTestsResult.SetResult() return end
+function FunctionalTestsResult.SetResult() end

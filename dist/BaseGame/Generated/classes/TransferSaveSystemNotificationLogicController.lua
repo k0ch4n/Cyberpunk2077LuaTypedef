@@ -1,103 +1,87 @@
 ---@meta
 
 ---@class TransferSaveSystemNotificationLogicController: inkGenericSystemNotificationLogicController
----@field protected contentBlock inkWidgetReference
----@field protected spinnerBlock inkWidgetReference
----@field protected errorBlock inkWidgetReference
----@field protected saveImageContainer inkWidgetReference
----@field protected saveImage inkImageWidgetReference
----@field protected saveImageEmpty inkWidgetReference
----@field protected saveImageSpinner inkWidgetReference
----@field protected messageText inkTextWidgetReference
----@field protected spinnerText inkTextWidgetReference
----@field protected errorText inkTextWidgetReference
----@field protected proceedButtonWidget inkWidgetReference
----@field protected cancelButtonWidget inkWidgetReference
----@field private systemRequestHandler inkISystemRequestsHandler
----@field private transferSaveData TransferSaveData
----@field private transferSaveDataSet Bool
----@field private systemRequestsHandlerSet Bool
----@field private cancelButtonHovered Bool
----@field private currentState TransferSaveState
+---@field contentBlock inkWidgetReference
+---@field spinnerBlock inkWidgetReference
+---@field errorBlock inkWidgetReference
+---@field saveImageContainer inkWidgetReference
+---@field saveImage inkImageWidgetReference
+---@field saveImageEmpty inkWidgetReference
+---@field saveImageSpinner inkWidgetReference
+---@field messageText inkTextWidgetReference
+---@field spinnerText inkTextWidgetReference
+---@field errorText inkTextWidgetReference
+---@field proceedButtonWidget inkWidgetReference
+---@field cancelButtonWidget inkWidgetReference
+---@field systemRequestHandler inkISystemRequestsHandler
+---@field transferSaveData TransferSaveData
+---@field transferSaveDataSet Bool
+---@field systemRequestsHandlerSet Bool
+---@field cancelButtonHovered Bool
+---@field currentState TransferSaveState
 TransferSaveSystemNotificationLogicController = {}
 
 ---@param fields? TransferSaveSystemNotificationLogicController
 ---@return TransferSaveSystemNotificationLogicController
-function TransferSaveSystemNotificationLogicController.new(fields) return end
+function TransferSaveSystemNotificationLogicController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnCancelClick(e) return end
+function TransferSaveSystemNotificationLogicController:OnCancelClick(e) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnCancelHoverOut(evt) return end
+function TransferSaveSystemNotificationLogicController:OnCancelHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnCancelHoverOver(evt) return end
+function TransferSaveSystemNotificationLogicController:OnCancelHoverOver(evt) end
 
----@protected
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnDataSetByToken() return end
+function TransferSaveSystemNotificationLogicController:OnDataSetByToken() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnGlobalPreRelease(evt) return end
+function TransferSaveSystemNotificationLogicController:OnGlobalPreRelease(evt) end
 
----@protected
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnInitialize() return end
+function TransferSaveSystemNotificationLogicController:OnInitialize() end
 
----@protected
 ---@param status inkSaveTransferStatus
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnSaveTransferUpdate(status) return end
+function TransferSaveSystemNotificationLogicController:OnSaveTransferUpdate(status) end
 
----@protected
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:OnUninitialize() return end
+function TransferSaveSystemNotificationLogicController:OnUninitialize() end
 
----@private
 ---@return Bool
-function TransferSaveSystemNotificationLogicController:CanCancelOrProceed() return end
+function TransferSaveSystemNotificationLogicController:CanCancelOrProceed() end
 
----@private
 ---@return nil
-function TransferSaveSystemNotificationLogicController:HandleProceedClick() return end
+function TransferSaveSystemNotificationLogicController:HandleProceedClick() end
 
----@private
 ---@return nil
-function TransferSaveSystemNotificationLogicController:SetSaveImage() return end
+function TransferSaveSystemNotificationLogicController:SetSaveImage() end
 
 ---@param handler inkISystemRequestsHandler
 ---@return nil
-function TransferSaveSystemNotificationLogicController:SetSystemRequestHandler(handler) return end
+function TransferSaveSystemNotificationLogicController:SetSystemRequestHandler(handler) end
 
----@private
 ---@return nil
-function TransferSaveSystemNotificationLogicController:SetupData() return end
+function TransferSaveSystemNotificationLogicController:SetupData() end
 
----@private
 ---@param state TransferSaveState
 ---@return nil
-function TransferSaveSystemNotificationLogicController:UpdateButtonsVisibility(state) return end
+function TransferSaveSystemNotificationLogicController:UpdateButtonsVisibility(state) end
 
----@private
 ---@param state TransferSaveState
 ---@return nil
-function TransferSaveSystemNotificationLogicController:UpdateState(state) return end
+function TransferSaveSystemNotificationLogicController:UpdateState(state) end
 
----@private
 ---@param state TransferSaveState
 ---@return nil
-function TransferSaveSystemNotificationLogicController:UpdateStateVisibility(state) return end
+function TransferSaveSystemNotificationLogicController:UpdateStateVisibility(state) end
 
----@private
 ---@param state TransferSaveState
 ---@return nil
-function TransferSaveSystemNotificationLogicController:UpdateText(state) return end
+function TransferSaveSystemNotificationLogicController:UpdateText(state) end

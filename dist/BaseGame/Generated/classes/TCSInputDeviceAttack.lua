@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TCSInputDeviceAttack: redEvent
----@field public value Bool
+---@field value Bool
 TCSInputDeviceAttack = {}
 
 ---@param fields? TCSInputDeviceAttack
 ---@return TCSInputDeviceAttack
-function TCSInputDeviceAttack.new(fields) return end
+function TCSInputDeviceAttack.new(fields) end

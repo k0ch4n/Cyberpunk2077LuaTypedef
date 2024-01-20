@@ -5,8 +5,7 @@ PriorityCheckEventCondition = {}
 
 ---@param fields? PriorityCheckEventCondition
 ---@return PriorityCheckEventCondition
-function PriorityCheckEventCondition.new(fields) return end
+function PriorityCheckEventCondition.new(fields) end
 
----@protected
 ---@return Bool
-function PriorityCheckEventCondition:GetSignalEvaluationOutcome() return end
+function PriorityCheckEventCondition:GetSignalEvaluationOutcome() end

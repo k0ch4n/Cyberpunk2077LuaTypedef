@@ -1,64 +1,64 @@
 ---@meta
 
 ---@class QuestDataWrapper: AJournalEntryWrapper
----@field private isNew Bool
----@field private quest gameJournalQuest
----@field private title String
----@field private description String
----@field private questObjectives QuestObjectiveWrapper[]
----@field private links gameJournalEntry[]
----@field private questStatus gameJournalEntryState
----@field private isTracked Bool
----@field private isChildTracked Bool
----@field private recommendedLevel Int32
----@field private district gamedataDistrict_Record
----@field private journalManager gameJournalManager
+---@field isNew Bool
+---@field quest gameJournalQuest
+---@field title String
+---@field description String
+---@field questObjectives QuestObjectiveWrapper[]
+---@field links gameJournalEntry[]
+---@field questStatus gameJournalEntryState
+---@field isTracked Bool
+---@field isChildTracked Bool
+---@field recommendedLevel Int32
+---@field district gamedataDistrict_Record
+---@field journalManager gameJournalManager
 QuestDataWrapper = {}
 
 ---@param fields? QuestDataWrapper
 ---@return QuestDataWrapper
-function QuestDataWrapper.new(fields) return end
+function QuestDataWrapper.new(fields) end
 
 ---@param questData QuestDataWrapper
 ---@return Bool
-function QuestDataWrapper:Equals(questData) return end
+function QuestDataWrapper:Equals(questData) end
 
 ---@param questUniqueId Int32
 ---@return Bool
-function QuestDataWrapper:Equals(questUniqueId) return end
+function QuestDataWrapper:Equals(questUniqueId) end
 
 ---@return String
-function QuestDataWrapper:GetDescription() return end
+function QuestDataWrapper:GetDescription() end
 
 ---@return gamedataDistrict
-function QuestDataWrapper:GetDistrict() return end
+function QuestDataWrapper:GetDistrict() end
 
 ---@return String
-function QuestDataWrapper:GetId() return end
+function QuestDataWrapper:GetId() end
 
 ---@return Int32
-function QuestDataWrapper:GetLevel() return end
+function QuestDataWrapper:GetLevel() end
 
 ---@return gameJournalEntry[]
-function QuestDataWrapper:GetLinks() return end
+function QuestDataWrapper:GetLinks() end
 
 ---@return QuestObjectiveWrapper[]
-function QuestDataWrapper:GetObjectives() return end
+function QuestDataWrapper:GetObjectives() end
 
 ---@return gameJournalQuest
-function QuestDataWrapper:GetQuest() return end
+function QuestDataWrapper:GetQuest() end
 
 ---@return gameJournalEntryState
-function QuestDataWrapper:GetStatus() return end
+function QuestDataWrapper:GetStatus() end
 
 ---@return String
-function QuestDataWrapper:GetTitle() return end
+function QuestDataWrapper:GetTitle() end
 
 ---@return gameJournalQuestType
-function QuestDataWrapper:GetType() return end
+function QuestDataWrapper:GetType() end
 
 ---@return Bool
-function QuestDataWrapper:HasBriefing() return end
+function QuestDataWrapper:HasBriefing() end
 
 ---@param journalManager gameJournalManager
 ---@param currQuest gameJournalQuest
@@ -73,23 +73,23 @@ function QuestDataWrapper:HasBriefing() return end
 ---@param isNew Bool
 ---@param district gamedataDistrict_Record
 ---@return nil
-function QuestDataWrapper:Init(journalManager, currQuest, title, description, links, questObjectives, questStatus, isTracked, uniqueId, recommendedLevel, isNew, district) return end
+function QuestDataWrapper:Init(journalManager, currQuest, title, description, links, questObjectives, questStatus, isTracked, uniqueId, recommendedLevel, isNew, district) end
 
 ---@return Bool
-function QuestDataWrapper:IsNew() return end
+function QuestDataWrapper:IsNew() end
 
 ---@return Bool
-function QuestDataWrapper:IsOptional() return end
+function QuestDataWrapper:IsOptional() end
 
 ---@return Bool
-function QuestDataWrapper:IsTracked() return end
+function QuestDataWrapper:IsTracked() end
 
 ---@return Bool
-function QuestDataWrapper:IsTrackedInHierarchy() return end
+function QuestDataWrapper:IsTrackedInHierarchy() end
 
 ---@return String
-function QuestDataWrapper:ToString() return end
+function QuestDataWrapper:ToString() end
 
 ---@param value Bool
 ---@return nil
-function QuestDataWrapper:UpdateIsNew(value) return end
+function QuestDataWrapper:UpdateIsNew(value) end

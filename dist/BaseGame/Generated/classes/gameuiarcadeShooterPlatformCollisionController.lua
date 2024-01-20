@@ -5,4 +5,4 @@ gameuiarcadeShooterPlatformCollisionController = {}
 
 ---@param fields? gameuiarcadeShooterPlatformCollisionController
 ---@return gameuiarcadeShooterPlatformCollisionController
-function gameuiarcadeShooterPlatformCollisionController.new(fields) return end
+function gameuiarcadeShooterPlatformCollisionController.new(fields) end

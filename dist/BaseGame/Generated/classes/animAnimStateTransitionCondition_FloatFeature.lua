@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animAnimStateTransitionCondition_FloatFeature: animIAnimStateTransitionCondition
----@field public compareValue Float
----@field public featureName CName
----@field public featurePropertyName CName
----@field public compareFunc animCompareFunc
+---@field compareValue Float
+---@field featureName CName
+---@field featurePropertyName CName
+---@field compareFunc animCompareFunc
 animAnimStateTransitionCondition_FloatFeature = {}
 
 ---@param fields? animAnimStateTransitionCondition_FloatFeature
 ---@return animAnimStateTransitionCondition_FloatFeature
-function animAnimStateTransitionCondition_FloatFeature.new(fields) return end
+function animAnimStateTransitionCondition_FloatFeature.new(fields) end

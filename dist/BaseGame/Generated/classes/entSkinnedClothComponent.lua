@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class entSkinnedClothComponent: entISkinTargetComponent
----@field public graphicsMesh CMesh
----@field public physicalMesh CMesh
----@field public isEnabled Bool
----@field public LODMode entMeshComponentLODMode
----@field public meshAppearance CName
----@field public chunkMask Uint64
----@field public compiledTopologyData meshCookedClothMeshTopologyData
+---@field graphicsMesh CMesh
+---@field physicalMesh CMesh
+---@field isEnabled Bool
+---@field LODMode entMeshComponentLODMode
+---@field meshAppearance CName
+---@field chunkMask Uint64
+---@field compiledTopologyData meshCookedClothMeshTopologyData
 entSkinnedClothComponent = {}
 
 ---@param fields? entSkinnedClothComponent
 ---@return entSkinnedClothComponent
-function entSkinnedClothComponent.new(fields) return end
+function entSkinnedClothComponent.new(fields) end

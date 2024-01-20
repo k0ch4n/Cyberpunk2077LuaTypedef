@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiarcadeShooterTraumaMemberController: gameuiarcadeShooterObjectController
----@field public baseFollowDelay Float
+---@field baseFollowDelay Float
 gameuiarcadeShooterTraumaMemberController = {}
 
 ---@param fields? gameuiarcadeShooterTraumaMemberController
 ---@return gameuiarcadeShooterTraumaMemberController
-function gameuiarcadeShooterTraumaMemberController.new(fields) return end
+function gameuiarcadeShooterTraumaMemberController.new(fields) end

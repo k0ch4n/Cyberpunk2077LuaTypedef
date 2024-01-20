@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMountAIEvent: AIAIEvent
----@field public data gameMountEventData
+---@field data gameMountEventData
 gameMountAIEvent = {}
 
 ---@param fields? gameMountAIEvent
 ---@return gameMountAIEvent
-function gameMountAIEvent.new(fields) return end
+function gameMountAIEvent.new(fields) end

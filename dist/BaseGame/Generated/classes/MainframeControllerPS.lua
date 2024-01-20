@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class MainframeControllerPS: BaseAnimatedDeviceControllerPS
----@field protected factName ComputerQuickHackData
+---@field factName ComputerQuickHackData
 MainframeControllerPS = {}
 
 ---@param fields? MainframeControllerPS
 ---@return MainframeControllerPS
-function MainframeControllerPS.new(fields) return end
+function MainframeControllerPS.new(fields) end
 
----@protected
 ---@return FactQuickHack
-function MainframeControllerPS:ActionSetQuestFact() return end
+function MainframeControllerPS:ActionSetQuestFact() end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function MainframeControllerPS:OnActivateDevice(evt) return end
+function MainframeControllerPS:OnActivateDevice(evt) end
 
 ---@param evt FactQuickHack
 ---@return EntityNotificationType
-function MainframeControllerPS:OnSetQuestFact(evt) return end
+function MainframeControllerPS:OnSetQuestFact(evt) end

@@ -5,8 +5,8 @@ LeftHandCyberwareHelper = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareHelper.IsProjectileLauncherEquipped(scriptInterface) return end
+function LeftHandCyberwareHelper.IsProjectileLauncherEquipped(scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareHelper.ProjectileLauncherHasCharge(scriptInterface) return end
+function LeftHandCyberwareHelper.ProjectileLauncherHasCharge(scriptInterface) end

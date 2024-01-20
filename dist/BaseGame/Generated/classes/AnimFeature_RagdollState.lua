@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AnimFeature_RagdollState: animAnimFeature
----@field public isActive Bool
----@field public hipsPolePitch Float
----@field public speed Float
+---@field isActive Bool
+---@field hipsPolePitch Float
+---@field speed Float
 AnimFeature_RagdollState = {}
 
 ---@param fields? AnimFeature_RagdollState
 ---@return AnimFeature_RagdollState
-function AnimFeature_RagdollState.new(fields) return end
+function AnimFeature_RagdollState.new(fields) end

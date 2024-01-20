@@ -5,4 +5,4 @@ IsInFocusModePSMPrereqState = {}
 
 ---@param fields? IsInFocusModePSMPrereqState
 ---@return IsInFocusModePSMPrereqState
-function IsInFocusModePSMPrereqState.new(fields) return end
+function IsInFocusModePSMPrereqState.new(fields) end

@@ -5,4 +5,4 @@ worldRuntimeSystemFoliage = {}
 
 ---@param fields? worldRuntimeSystemFoliage
 ---@return worldRuntimeSystemFoliage
-function worldRuntimeSystemFoliage.new(fields) return end
+function worldRuntimeSystemFoliage.new(fields) end

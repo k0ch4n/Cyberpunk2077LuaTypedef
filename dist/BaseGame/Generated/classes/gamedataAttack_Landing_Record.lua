@@ -5,10 +5,10 @@ gamedataAttack_Landing_Record = {}
 
 ---@param fields? gamedataAttack_Landing_Record
 ---@return gamedataAttack_Landing_Record
-function gamedataAttack_Landing_Record.new(fields) return end
+function gamedataAttack_Landing_Record.new(fields) end
 
 ---@return gamedataLandingFxPackage_Record
-function gamedataAttack_Landing_Record:FxPackage() return end
+function gamedataAttack_Landing_Record:FxPackage() end
 
 ---@return gamedataLandingFxPackage_Record
-function gamedataAttack_Landing_Record:FxPackageHandle() return end
+function gamedataAttack_Landing_Record:FxPackageHandle() end

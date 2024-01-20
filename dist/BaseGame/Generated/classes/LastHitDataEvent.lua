@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LastHitDataEvent: redEvent
----@field public hitReactionBehaviorData HitReactionBehaviorData
+---@field hitReactionBehaviorData HitReactionBehaviorData
 LastHitDataEvent = {}
 
 ---@param fields? LastHitDataEvent
 ---@return LastHitDataEvent
-function LastHitDataEvent.new(fields) return end
+function LastHitDataEvent.new(fields) end

@@ -5,29 +5,25 @@ JumpEvents = {}
 
 ---@param fields? JumpEvents
 ---@return JumpEvents
-function JumpEvents.new(fields) return end
+function JumpEvents.new(fields) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpEvents:ModifyJumpSpeed(stateContext, scriptInterface) return end
+function JumpEvents:ModifyJumpSpeed(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpEvents:OnEnter(stateContext, scriptInterface) return end
+function JumpEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpEvents:OnExit(stateContext, scriptInterface) return end
+function JumpEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function JumpEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

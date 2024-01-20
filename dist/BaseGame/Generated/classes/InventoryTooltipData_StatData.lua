@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class InventoryTooltipData_StatData
----@field public statType gamedataStatType
----@field public statName String
----@field public minStatValue Int32
----@field public maxStatValue Int32
----@field public currentValue Int32
----@field public diffValue Int32
----@field public minStatValueF Float
----@field public maxStatValueF Float
----@field public currentValueF Float
----@field public diffValueF Float
----@field public state EInventoryDataStatDisplayType
+---@field statType gamedataStatType
+---@field statName String
+---@field minStatValue Int32
+---@field maxStatValue Int32
+---@field currentValue Int32
+---@field diffValue Int32
+---@field minStatValueF Float
+---@field maxStatValueF Float
+---@field currentValueF Float
+---@field diffValueF Float
+---@field state EInventoryDataStatDisplayType
 InventoryTooltipData_StatData = {}
 
 ---@param fields? InventoryTooltipData_StatData
 ---@return InventoryTooltipData_StatData
-function InventoryTooltipData_StatData.new(fields) return end
+function InventoryTooltipData_StatData.new(fields) end

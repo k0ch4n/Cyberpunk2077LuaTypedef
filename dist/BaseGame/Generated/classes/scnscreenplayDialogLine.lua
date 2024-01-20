@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scnscreenplayDialogLine
----@field public itemId scnscreenplayItemId
----@field public speaker scnActorId
----@field public addressee scnActorId
----@field public usage scnscreenplayLineUsage
----@field public locstringId scnlocLocstringId
----@field public maleLipsyncAnimationName CName
----@field public femaleLipsyncAnimationName CName
+---@field itemId scnscreenplayItemId
+---@field speaker scnActorId
+---@field addressee scnActorId
+---@field usage scnscreenplayLineUsage
+---@field locstringId scnlocLocstringId
+---@field maleLipsyncAnimationName CName
+---@field femaleLipsyncAnimationName CName
 scnscreenplayDialogLine = {}
 
 ---@param fields? scnscreenplayDialogLine
 ---@return scnscreenplayDialogLine
-function scnscreenplayDialogLine.new(fields) return end
+function scnscreenplayDialogLine.new(fields) end

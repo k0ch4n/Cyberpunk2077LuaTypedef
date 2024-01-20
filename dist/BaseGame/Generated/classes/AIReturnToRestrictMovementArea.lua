@@ -5,14 +5,12 @@ AIReturnToRestrictMovementArea = {}
 
 ---@param fields? AIReturnToRestrictMovementArea
 ---@return AIReturnToRestrictMovementArea
-function AIReturnToRestrictMovementArea.new(fields) return end
+function AIReturnToRestrictMovementArea.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIReturnToRestrictMovementArea:Activate(context) return end
+function AIReturnToRestrictMovementArea:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIReturnToRestrictMovementArea:Update(context) return end
+function AIReturnToRestrictMovementArea:Update(context) end

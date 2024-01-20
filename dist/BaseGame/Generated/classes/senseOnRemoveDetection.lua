@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class senseOnRemoveDetection: redEvent
----@field public target gameObject
+---@field target gameObject
 senseOnRemoveDetection = {}
 
 ---@param fields? senseOnRemoveDetection
 ---@return senseOnRemoveDetection
-function senseOnRemoveDetection.new(fields) return end
+function senseOnRemoveDetection.new(fields) end

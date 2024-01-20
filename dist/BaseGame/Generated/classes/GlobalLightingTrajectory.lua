@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class GlobalLightingTrajectory
----@field public latitude Float
----@field public sunRotationOffset Float
----@field public moonRotationOffset Float
----@field public timeOfYearSeason ETimeOfYearSeason
+---@field latitude Float
+---@field sunRotationOffset Float
+---@field moonRotationOffset Float
+---@field timeOfYearSeason ETimeOfYearSeason
 GlobalLightingTrajectory = {}
 
 ---@param fields? GlobalLightingTrajectory
 ---@return GlobalLightingTrajectory
-function GlobalLightingTrajectory.new(fields) return end
+function GlobalLightingTrajectory.new(fields) end

@@ -1,35 +1,32 @@
 ---@meta
 
 ---@class WallScreenControllerPS: TVControllerPS
----@field private isShown Bool
+---@field isShown Bool
 WallScreenControllerPS = {}
 
 ---@param fields? WallScreenControllerPS
 ---@return WallScreenControllerPS
-function WallScreenControllerPS.new(fields) return end
+function WallScreenControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function WallScreenControllerPS:OnInstantiated() return end
+function WallScreenControllerPS:OnInstantiated() end
 
----@private
 ---@return ToggleShow
-function WallScreenControllerPS:ActionToggleShow() return end
+function WallScreenControllerPS:ActionToggleShow() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function WallScreenControllerPS:GetActions(context) return end
+function WallScreenControllerPS:GetActions(context) end
 
 ---@return String
-function WallScreenControllerPS:GetDeviceIconPath() return end
+function WallScreenControllerPS:GetDeviceIconPath() end
 
----@protected
 ---@return nil
-function WallScreenControllerPS:Initialize() return end
+function WallScreenControllerPS:Initialize() end
 
 ---@return Bool
-function WallScreenControllerPS:IsShown() return end
+function WallScreenControllerPS:IsShown() end
 
 ---@param evt ToggleShow
 ---@return EntityNotificationType
-function WallScreenControllerPS:OnToggleShow(evt) return end
+function WallScreenControllerPS:OnToggleShow(evt) end

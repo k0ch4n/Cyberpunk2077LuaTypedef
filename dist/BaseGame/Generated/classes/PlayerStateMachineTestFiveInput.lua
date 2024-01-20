@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerStateMachineTestFiveInput: IScriptable
----@field public counter Int32
+---@field counter Int32
 PlayerStateMachineTestFiveInput = {}
 
 ---@param fields? PlayerStateMachineTestFiveInput
 ---@return PlayerStateMachineTestFiveInput
-function PlayerStateMachineTestFiveInput.new(fields) return end
+function PlayerStateMachineTestFiveInput.new(fields) end

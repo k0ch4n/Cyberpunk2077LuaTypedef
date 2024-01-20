@@ -5,7 +5,7 @@ ElectricBoxController = {}
 
 ---@param fields? ElectricBoxController
 ---@return ElectricBoxController
-function ElectricBoxController.new(fields) return end
+function ElectricBoxController.new(fields) end
 
 ---@return ElectricBoxControllerPS
-function ElectricBoxController:GetPS() return end
+function ElectricBoxController:GetPS() end

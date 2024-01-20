@@ -1,143 +1,114 @@
 ---@meta
 
 ---@class SecurityAlarm: InteractiveMasterDevice
----@field protected workingAlarm entMeshComponent
----@field protected destroyedAlarm entMeshComponent
----@field protected isGlitching Bool
+---@field workingAlarm entMeshComponent
+---@field destroyedAlarm entMeshComponent
+---@field isGlitching Bool
 SecurityAlarm = {}
 
 ---@param fields? SecurityAlarm
 ---@return SecurityAlarm
-function SecurityAlarm.new(fields) return end
+function SecurityAlarm.new(fields) end
 
----@protected
 ---@param evt QuestForceSecuritySystemArmed
 ---@return Bool
-function SecurityAlarm:OnQuestForceSecuritySystemArmed(evt) return end
+function SecurityAlarm:OnQuestForceSecuritySystemArmed(evt) end
 
----@protected
 ---@param evt QuestForceSecuritySystemSafe
 ---@return Bool
-function SecurityAlarm:OnQuestForceSecuritySystemSafe(evt) return end
+function SecurityAlarm:OnQuestForceSecuritySystemSafe(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SecurityAlarm:OnRequestComponents(ri) return end
+function SecurityAlarm:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SecurityAlarmBreachResponse
 ---@return Bool
-function SecurityAlarm:OnSecurityAlarmBreachResponse(evt) return end
+function SecurityAlarm:OnSecurityAlarmBreachResponse(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return Bool
-function SecurityAlarm:OnSecuritySystemOutput(evt) return end
+function SecurityAlarm:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SecurityAlarm:OnTakeControl(ri) return end
+function SecurityAlarm:OnTakeControl(ri) end
 
----@protected
 ---@param evt TargetAssessmentRequest
 ---@return Bool
-function SecurityAlarm:OnTargetAssessmentRequest(evt) return end
+function SecurityAlarm:OnTargetAssessmentRequest(evt) end
 
----@protected
 ---@param evt ToggleAlarm
 ---@return Bool
-function SecurityAlarm:OnToggleAlarm(evt) return end
+function SecurityAlarm:OnToggleAlarm(evt) end
 
----@protected
 ---@return nil
-function SecurityAlarm:ActivateDevice() return end
+function SecurityAlarm:ActivateDevice() end
 
----@protected
 ---@return nil
-function SecurityAlarm:BreakDevice() return end
+function SecurityAlarm:BreakDevice() end
 
----@protected
 ---@return nil
-function SecurityAlarm:CutPower() return end
+function SecurityAlarm:CutPower() end
 
----@protected
 ---@return nil
-function SecurityAlarm:DeactivateDevice() return end
+function SecurityAlarm:DeactivateDevice() end
 
----@protected
 ---@return nil
-function SecurityAlarm:DeactivateState() return end
+function SecurityAlarm:DeactivateState() end
 
 ---@return EGameplayRole
-function SecurityAlarm:DeterminGameplayRole() return end
+function SecurityAlarm:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function SecurityAlarm:DetermineState() return end
+function SecurityAlarm:DetermineState() end
 
----@private
 ---@return SecurityAlarmController
-function SecurityAlarm:GetController() return end
+function SecurityAlarm:GetController() end
 
 ---@return SecurityAlarmControllerPS
-function SecurityAlarm:GetDevicePS() return end
+function SecurityAlarm:GetDevicePS() end
 
----@protected
 ---@return nil
-function SecurityAlarm:PlaySound() return end
+function SecurityAlarm:PlaySound() end
 
----@protected
 ---@return nil
-function SecurityAlarm:ResolveGameplayState() return end
+function SecurityAlarm:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function SecurityAlarm:SendStim() return end
+function SecurityAlarm:SendStim() end
 
----@protected
 ---@return nil
-function SecurityAlarm:SetCombatState() return end
+function SecurityAlarm:SetCombatState() end
 
----@protected
 ---@return nil
-function SecurityAlarm:StartBlinking() return end
+function SecurityAlarm:StartBlinking() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function SecurityAlarm:StartGlitching(glitchState, intensity) return end
+function SecurityAlarm:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function SecurityAlarm:StopBlinking() return end
+function SecurityAlarm:StopBlinking() end
 
----@protected
 ---@return nil
-function SecurityAlarm:StopGlitching() return end
+function SecurityAlarm:StopGlitching() end
 
----@protected
 ---@return nil
-function SecurityAlarm:StopSound() return end
+function SecurityAlarm:StopSound() end
 
----@protected
 ---@return nil
-function SecurityAlarm:StopStim() return end
+function SecurityAlarm:StopStim() end
 
----@protected
 ---@return nil
-function SecurityAlarm:TurnOffDevice() return end
+function SecurityAlarm:TurnOffDevice() end
 
----@protected
 ---@return nil
-function SecurityAlarm:TurnOffLights() return end
+function SecurityAlarm:TurnOffLights() end
 
----@protected
 ---@return nil
-function SecurityAlarm:TurnOnDevice() return end
+function SecurityAlarm:TurnOnDevice() end
 
----@protected
 ---@return nil
-function SecurityAlarm:TurnOnLights() return end
+function SecurityAlarm:TurnOnLights() end

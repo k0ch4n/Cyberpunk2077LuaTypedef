@@ -5,7 +5,7 @@ gamedataAddHitFlagToAttackEffector_Record = {}
 
 ---@param fields? gamedataAddHitFlagToAttackEffector_Record
 ---@return gamedataAddHitFlagToAttackEffector_Record
-function gamedataAddHitFlagToAttackEffector_Record.new(fields) return end
+function gamedataAddHitFlagToAttackEffector_Record.new(fields) end
 
 ---@return String
-function gamedataAddHitFlagToAttackEffector_Record:HitFlag() return end
+function gamedataAddHitFlagToAttackEffector_Record:HitFlag() end

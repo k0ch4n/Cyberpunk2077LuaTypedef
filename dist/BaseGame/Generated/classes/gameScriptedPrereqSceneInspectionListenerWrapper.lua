@@ -5,9 +5,9 @@ gameScriptedPrereqSceneInspectionListenerWrapper = {}
 
 ---@param fields? gameScriptedPrereqSceneInspectionListenerWrapper
 ---@return gameScriptedPrereqSceneInspectionListenerWrapper
-function gameScriptedPrereqSceneInspectionListenerWrapper.new(fields) return end
+function gameScriptedPrereqSceneInspectionListenerWrapper.new(fields) end
 
 ---@param entityId entEntityID
 ---@param prereqState gamePrereqState
 ---@return gameScriptedPrereqSceneInspectionListenerWrapper
-function gameScriptedPrereqSceneInspectionListenerWrapper.CreateEntityListener(entityId, prereqState) return end
+function gameScriptedPrereqSceneInspectionListenerWrapper.CreateEntityListener(entityId, prereqState) end

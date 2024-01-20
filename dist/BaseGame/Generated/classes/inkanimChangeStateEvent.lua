@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimChangeStateEvent: inkanimEvent
----@field public state CName
+---@field state CName
 inkanimChangeStateEvent = {}
 
 ---@param fields? inkanimChangeStateEvent
 ---@return inkanimChangeStateEvent
-function inkanimChangeStateEvent.new(fields) return end
+function inkanimChangeStateEvent.new(fields) end

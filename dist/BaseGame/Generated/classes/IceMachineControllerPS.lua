@@ -1,50 +1,47 @@
 ---@meta
 
 ---@class IceMachineControllerPS: VendingMachineControllerPS
----@field private vendorTweakID TweakDBID
----@field private iceMachineSFX IceMachineSFX
+---@field vendorTweakID TweakDBID
+---@field iceMachineSFX IceMachineSFX
 IceMachineControllerPS = {}
 
 ---@param fields? IceMachineControllerPS
 ---@return IceMachineControllerPS
-function IceMachineControllerPS.new(fields) return end
+function IceMachineControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function IceMachineControllerPS:OnInstantiated() return end
+function IceMachineControllerPS:OnInstantiated() end
 
----@protected
 ---@param item gameItemID
 ---@return DispenceItemFromVendor
-function IceMachineControllerPS:ActionDispenceIceCube(item) return end
+function IceMachineControllerPS:ActionDispenceIceCube(item) end
 
 ---@return CName
-function IceMachineControllerPS:GetGlitchStartSFX() return end
+function IceMachineControllerPS:GetGlitchStartSFX() end
 
 ---@return CName
-function IceMachineControllerPS:GetGlitchStopSFX() return end
+function IceMachineControllerPS:GetGlitchStopSFX() end
 
 ---@return Int32
-function IceMachineControllerPS:GetHackedItemCount() return end
+function IceMachineControllerPS:GetHackedItemCount() end
 
 ---@return CName
-function IceMachineControllerPS:GetIceFallSFX() return end
+function IceMachineControllerPS:GetIceFallSFX() end
 
 ---@return CName
-function IceMachineControllerPS:GetProcessingSFX() return end
+function IceMachineControllerPS:GetProcessingSFX() end
 
 ---@return Float
-function IceMachineControllerPS:GetTimeToCompletePurchase() return end
+function IceMachineControllerPS:GetTimeToCompletePurchase() end
 
 ---@return TweakDBID
-function IceMachineControllerPS:GetVendorTweakID() return end
+function IceMachineControllerPS:GetVendorTweakID() end
 
 ---@param evt DispenceItemFromVendor
 ---@return EntityNotificationType
-function IceMachineControllerPS:OnDispenceItemFromVendor(evt) return end
+function IceMachineControllerPS:OnDispenceItemFromVendor(evt) end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function IceMachineControllerPS:PushShopStockActions(actions, context) return end
+function IceMachineControllerPS:PushShopStockActions(actions, context) end

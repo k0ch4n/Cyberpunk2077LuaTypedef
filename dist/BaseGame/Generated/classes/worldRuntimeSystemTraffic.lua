@@ -5,4 +5,4 @@ worldRuntimeSystemTraffic = {}
 
 ---@param fields? worldRuntimeSystemTraffic
 ---@return worldRuntimeSystemTraffic
-function worldRuntimeSystemTraffic.new(fields) return end
+function worldRuntimeSystemTraffic.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuickHackScreenOpen: redEvent
----@field public setToOpen Bool
+---@field setToOpen Bool
 QuickHackScreenOpen = {}
 
 ---@param fields? QuickHackScreenOpen
 ---@return QuickHackScreenOpen
-function QuickHackScreenOpen.new(fields) return end
+function QuickHackScreenOpen.new(fields) end
 
 ---@return String
-function QuickHackScreenOpen:GetFriendlyDescription() return end
+function QuickHackScreenOpen:GetFriendlyDescription() end

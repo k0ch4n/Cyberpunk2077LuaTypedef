@@ -5,4 +5,4 @@ gamedataNumberPlate_Record = {}
 
 ---@param fields? gamedataNumberPlate_Record
 ---@return gamedataNumberPlate_Record
-function gamedataNumberPlate_Record.new(fields) return end
+function gamedataNumberPlate_Record.new(fields) end

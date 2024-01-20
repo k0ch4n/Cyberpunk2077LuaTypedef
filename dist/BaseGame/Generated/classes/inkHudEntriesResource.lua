@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkHudEntriesResource: CResource
----@field public rootWidget inkWidgetLibraryResource
----@field public themeOverride CName
----@field public entries inkHudWidgetSpawnEntry[]
+---@field rootWidget inkWidgetLibraryResource
+---@field themeOverride CName
+---@field entries inkHudWidgetSpawnEntry[]
 inkHudEntriesResource = {}
 
 ---@param fields? inkHudEntriesResource
 ---@return inkHudEntriesResource
-function inkHudEntriesResource.new(fields) return end
+function inkHudEntriesResource.new(fields) end

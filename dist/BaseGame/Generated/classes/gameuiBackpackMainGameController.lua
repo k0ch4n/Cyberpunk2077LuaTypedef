@@ -1,392 +1,331 @@
 ---@meta
 
 ---@class gameuiBackpackMainGameController: gameuiMenuGameController
----@field private commonCraftingMaterialsGrid inkCompoundWidgetReference
----@field private hackingCraftingMaterialsGrid inkCompoundWidgetReference
----@field private filterButtonsGrid inkCompoundWidgetReference
----@field private virtualItemsGrid inkVirtualCompoundWidgetReference
----@field private TooltipsManagerRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private sortingButton inkWidgetReference
----@field private sortingDropdown inkWidgetReference
----@field private itemsListScrollAreaContainer inkWidgetReference
----@field private itemNotificationRoot inkWidgetReference
----@field private disassembleJunkButton inkWidgetReference
----@field private virtualBackpackItemsListController inkGridController
----@field private TooltipsManager gameuiTooltipsManager
----@field private buttonHintsController ButtonHints
----@field private itemTypeSorting gamedataItemType[]
----@field private InventoryManager InventoryDataManagerV2
----@field private player PlayerPuppet
----@field private itemDropQueueItems gameItemID[]
----@field private itemDropQueue gameItemModParams[]
----@field private junkItems UIInventoryItem[]
----@field private craftingMaterialsListItems CrafringMaterialItemController[]
----@field private DisassembleCallback UI_CraftingDef
----@field private DisassembleBlackboard gameIBlackboard
----@field private DisassembleBBID redCallbackObject
----@field private EquippedCallback UI_EquipmentDef
----@field private EquippedBlackboard gameIBlackboard
----@field private EquippedBBID redCallbackObject
----@field private InventoryCallback UI_InventoryDef
----@field private InventoryBlackboard gameIBlackboard
----@field private InventoryBBID redCallbackObject
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private activeFilter BackpackFilterButtonController
----@field private filterSpawnRequests inkAsyncSpawnRequest[]
----@field private backpackItemsDataSource inkScriptableDataSourceWrapper
----@field private backpackItemsDataView BackpackDataView
----@field private comparisonResolver InventoryItemPreferredComparisonResolver
----@field private backpackInventoryListenerCallback BackpackInventoryListenerCallback
----@field private backpackInventoryListener gameInventoryScriptListener
----@field private backpackItemsClassifier ItemDisplayTemplateClassifier
----@field private backpackItemsPositionProvider ItemPositionProvider
----@field private equipSlotChooserPopupToken inkGameNotificationToken
----@field private quantityPickerPopupToken inkGameNotificationToken
----@field private disassembleJunkPopupToken inkGameNotificationToken
----@field private equipRequested Bool
----@field private psmBlackboard gameIBlackboard
----@field private playerState gamePSMVehicle
----@field private uiScriptableSystem UIScriptableSystem
----@field private uiInventorySystem UIInventoryScriptableSystem
----@field private itemDisplayContext ItemDisplayContextData
----@field private comparedItemDisplayContext ItemDisplayContextData
----@field private confirmationPopupToken inkGameNotificationToken
----@field private lastItemHoverOverEvent ItemDisplayHoverOverEvent
----@field private isComparisonDisabled Bool
----@field private immediateNotificationListener BakcpackImmediateNotificationListener
----@field private lastDisassembledWidget InventoryItemDisplayController
----@field private virtualWidgets inkScriptWeakHashMap
----@field private allWidgets inkScriptWeakHashMap
----@field protected itemPreviewPopupToken inkGameNotificationToken
----@field protected afterCloseRequest Bool
+---@field commonCraftingMaterialsGrid inkCompoundWidgetReference
+---@field hackingCraftingMaterialsGrid inkCompoundWidgetReference
+---@field filterButtonsGrid inkCompoundWidgetReference
+---@field virtualItemsGrid inkVirtualCompoundWidgetReference
+---@field TooltipsManagerRef inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field sortingButton inkWidgetReference
+---@field sortingDropdown inkWidgetReference
+---@field itemsListScrollAreaContainer inkWidgetReference
+---@field itemNotificationRoot inkWidgetReference
+---@field disassembleJunkButton inkWidgetReference
+---@field virtualBackpackItemsListController inkGridController
+---@field TooltipsManager gameuiTooltipsManager
+---@field buttonHintsController ButtonHints
+---@field itemTypeSorting gamedataItemType[]
+---@field InventoryManager InventoryDataManagerV2
+---@field player PlayerPuppet
+---@field itemDropQueueItems gameItemID[]
+---@field itemDropQueue gameItemModParams[]
+---@field junkItems UIInventoryItem[]
+---@field craftingMaterialsListItems CrafringMaterialItemController[]
+---@field DisassembleCallback UI_CraftingDef
+---@field DisassembleBlackboard gameIBlackboard
+---@field DisassembleBBID redCallbackObject
+---@field EquippedCallback UI_EquipmentDef
+---@field EquippedBlackboard gameIBlackboard
+---@field EquippedBBID redCallbackObject
+---@field InventoryCallback UI_InventoryDef
+---@field InventoryBlackboard gameIBlackboard
+---@field InventoryBBID redCallbackObject
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field activeFilter BackpackFilterButtonController
+---@field filterSpawnRequests inkAsyncSpawnRequest[]
+---@field backpackItemsDataSource inkScriptableDataSourceWrapper
+---@field backpackItemsDataView BackpackDataView
+---@field comparisonResolver InventoryItemPreferredComparisonResolver
+---@field backpackInventoryListenerCallback BackpackInventoryListenerCallback
+---@field backpackInventoryListener gameInventoryScriptListener
+---@field backpackItemsClassifier ItemDisplayTemplateClassifier
+---@field backpackItemsPositionProvider ItemPositionProvider
+---@field equipSlotChooserPopupToken inkGameNotificationToken
+---@field quantityPickerPopupToken inkGameNotificationToken
+---@field disassembleJunkPopupToken inkGameNotificationToken
+---@field equipRequested Bool
+---@field psmBlackboard gameIBlackboard
+---@field playerState gamePSMVehicle
+---@field uiScriptableSystem UIScriptableSystem
+---@field uiInventorySystem UIInventoryScriptableSystem
+---@field itemDisplayContext ItemDisplayContextData
+---@field comparedItemDisplayContext ItemDisplayContextData
+---@field confirmationPopupToken inkGameNotificationToken
+---@field lastItemHoverOverEvent ItemDisplayHoverOverEvent
+---@field isComparisonDisabled Bool
+---@field immediateNotificationListener BakcpackImmediateNotificationListener
+---@field lastDisassembledWidget InventoryItemDisplayController
+---@field virtualWidgets inkScriptWeakHashMap
+---@field allWidgets inkScriptWeakHashMap
+---@field itemPreviewPopupToken inkGameNotificationToken
+---@field afterCloseRequest Bool
 gameuiBackpackMainGameController = {}
 
 ---@param fields? gameuiBackpackMainGameController
 ---@return gameuiBackpackMainGameController
-function gameuiBackpackMainGameController.new(fields) return end
+function gameuiBackpackMainGameController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function gameuiBackpackMainGameController:OnBack(userData) return end
+function gameuiBackpackMainGameController:OnBack(userData) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiBackpackMainGameController:OnBackpacEquipSlotChooserClosed(data) return end
+function gameuiBackpackMainGameController:OnBackpacEquipSlotChooserClosed(data) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function gameuiBackpackMainGameController:OnCloseMenu(userData) return end
+function gameuiBackpackMainGameController:OnCloseMenu(userData) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiBackpackMainGameController:OnConfirmationPopupClosed(data) return end
+function gameuiBackpackMainGameController:OnConfirmationPopupClosed(data) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnCraftingMaterialHoverOut(evt) return end
+function gameuiBackpackMainGameController:OnCraftingMaterialHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnCraftingMaterialHoverOver(evt) return end
+function gameuiBackpackMainGameController:OnCraftingMaterialHoverOver(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param callbackData BackpackCraftingMaterialItemCallbackData
 ---@return Bool
-function gameuiBackpackMainGameController:OnCraftingMaterialItemSpawned(widget, callbackData) return end
+function gameuiBackpackMainGameController:OnCraftingMaterialItemSpawned(widget, callbackData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiBackpackMainGameController:OnDisassembleComplete(value) return end
+function gameuiBackpackMainGameController:OnDisassembleComplete(value) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnDisassembleJunkButtonClick(e) return end
+function gameuiBackpackMainGameController:OnDisassembleJunkButtonClick(e) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiBackpackMainGameController:OnDisassembleJunkPopupClosed(data) return end
+function gameuiBackpackMainGameController:OnDisassembleJunkPopupClosed(data) end
 
----@protected
 ---@param evt DropdownItemClickedEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnDropdownItemClickedEvent(evt) return end
+function gameuiBackpackMainGameController:OnDropdownItemClickedEvent(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param callbackData BackpackFilterButtonSpawnedCallbackData
 ---@return Bool
-function gameuiBackpackMainGameController:OnFilterButtonSpawned(widget, callbackData) return end
+function gameuiBackpackMainGameController:OnFilterButtonSpawned(widget, callbackData) end
 
----@protected
 ---@return Bool
-function gameuiBackpackMainGameController:OnInitialize() return end
+function gameuiBackpackMainGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiBackpackMainGameController:OnInventoryItemRemoved(value) return end
+function gameuiBackpackMainGameController:OnInventoryItemRemoved(value) end
 
----@protected
 ---@param evt ItemDisplayClickEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemDisplayClick(evt) return end
+function gameuiBackpackMainGameController:OnItemDisplayClick(evt) end
 
----@protected
 ---@param evt ItemDisplayHoldEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemDisplayHold(evt) return end
+function gameuiBackpackMainGameController:OnItemDisplayHold(evt) end
 
----@protected
 ---@param evt ItemDisplayHoverOutEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemDisplayHoverOut(evt) return end
+function gameuiBackpackMainGameController:OnItemDisplayHoverOut(evt) end
 
----@protected
 ---@param evt ItemDisplayHoverOverEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemDisplayHoverOver(evt) return end
+function gameuiBackpackMainGameController:OnItemDisplayHoverOver(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemEquipped(value) return end
+function gameuiBackpackMainGameController:OnItemEquipped(value) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemFilterClick(evt) return end
+function gameuiBackpackMainGameController:OnItemFilterClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemFilterHoverOut(evt) return end
+function gameuiBackpackMainGameController:OnItemFilterHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemFilterHoverOver(evt) return end
+function gameuiBackpackMainGameController:OnItemFilterHoverOver(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiBackpackMainGameController:OnItemPreviewPopup(data) return end
+function gameuiBackpackMainGameController:OnItemPreviewPopup(data) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiBackpackMainGameController:OnPlayerAttach(playerPuppet) return end
+function gameuiBackpackMainGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiBackpackMainGameController:OnPlayerDetach(playerPuppet) return end
+function gameuiBackpackMainGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnPostOnRelease(evt) return end
+function gameuiBackpackMainGameController:OnPostOnRelease(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameuiBackpackMainGameController:OnQuantityPickerPopupClosed(data) return end
+function gameuiBackpackMainGameController:OnQuantityPickerPopupClosed(data) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function gameuiBackpackMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function gameuiBackpackMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBackpackMainGameController:OnSortingButtonClicked(evt) return end
+function gameuiBackpackMainGameController:OnSortingButtonClicked(evt) end
 
----@protected
 ---@return Bool
-function gameuiBackpackMainGameController:OnUninitialize() return end
+function gameuiBackpackMainGameController:OnUninitialize() end
 
----@protected
 ---@param item gameItemModParams
 ---@return nil
-function gameuiBackpackMainGameController:AddToDropQueue(item) return end
+function gameuiBackpackMainGameController:AddToDropQueue(item) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:ClearCraftingMaterials() return end
+function gameuiBackpackMainGameController:ClearCraftingMaterials() end
 
----@private
 ---@param craftingMaterial CachedCraftingMaterial
 ---@param gridList inkCompoundWidgetReference
 ---@return nil
-function gameuiBackpackMainGameController:CreateCraftingMaterialItem(craftingMaterial, gridList) return end
+function gameuiBackpackMainGameController:CreateCraftingMaterialItem(craftingMaterial, gridList) end
 
----@private
 ---@return UIMenuNotificationType
-function gameuiBackpackMainGameController:DetermineUIMenuNotificationType() return end
+function gameuiBackpackMainGameController:DetermineUIMenuNotificationType() end
 
 ---@param itemData UIInventoryItem
 ---@return nil
-function gameuiBackpackMainGameController:EquipItem(itemData) return end
+function gameuiBackpackMainGameController:EquipItem(itemData) end
 
----@private
 ---@param inventoryItem UIInventoryItem
 ---@return Int32
-function gameuiBackpackMainGameController:GetBackpackItemQuantity(inventoryItem) return end
+function gameuiBackpackMainGameController:GetBackpackItemQuantity(inventoryItem) end
 
----@private
 ---@param inventoryItem UIInventoryItem
 ---@return IngredientData[]
-function gameuiBackpackMainGameController:GetDisassemblyResult(inventoryItem) return end
+function gameuiBackpackMainGameController:GetDisassemblyResult(inventoryItem) end
 
----@private
 ---@param itemID gameItemID
 ---@return gameItemModParams
-function gameuiBackpackMainGameController:GetDropQueueItem(itemID) return end
+function gameuiBackpackMainGameController:GetDropQueueItem(itemID) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:HideDisassemblyHighlight() return end
+function gameuiBackpackMainGameController:HideDisassemblyHighlight() end
 
----@private
 ---@param inventoryItem UIInventoryItem
 ---@return nil
-function gameuiBackpackMainGameController:HighlightDisassemblyResults(inventoryItem) return end
+function gameuiBackpackMainGameController:HighlightDisassemblyResults(inventoryItem) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:InvalidateItemTooltipEvent() return end
+function gameuiBackpackMainGameController:InvalidateItemTooltipEvent() end
 
 ---@param itemData gameItemData
 ---@return Bool
-function gameuiBackpackMainGameController:IsEquippable(itemData) return end
+function gameuiBackpackMainGameController:IsEquippable(itemData) end
 
----@private
 ---@param itemData UIInventoryItem
 ---@return nil
-function gameuiBackpackMainGameController:NewShowItemHints(itemData) return end
+function gameuiBackpackMainGameController:NewShowItemHints(itemData) end
 
 ---@param message ItemDisplayNotificationMessage
 ---@param id Uint64
 ---@param data? IScriptable
 ---@return nil
-function gameuiBackpackMainGameController:OnBakcpackItemDisplayNotification(message, id, data) return end
+function gameuiBackpackMainGameController:OnBakcpackItemDisplayNotification(message, id, data) end
 
----@private
 ---@param itemData UIInventoryItem
 ---@param widget inkWidget
 ---@param iconErrorInfo DEBUG_IconErrorInfo
 ---@return nil
-function gameuiBackpackMainGameController:OnInventoryRequestTooltip(itemData, widget, iconErrorInfo) return end
+function gameuiBackpackMainGameController:OnInventoryRequestTooltip(itemData, widget, iconErrorInfo) end
 
 ---@param data QuantityPickerPopupCloseData
 ---@return nil
-function gameuiBackpackMainGameController:OnQuantityPickerDisassembly(data) return end
+function gameuiBackpackMainGameController:OnQuantityPickerDisassembly(data) end
 
 ---@param data QuantityPickerPopupCloseData
 ---@return nil
-function gameuiBackpackMainGameController:OnQuantityPickerDrop(data) return end
+function gameuiBackpackMainGameController:OnQuantityPickerDrop(data) end
 
 ---@param itemData UIInventoryItem
 ---@return nil
-function gameuiBackpackMainGameController:OpenBackpackEquipSlotChooser(itemData) return end
+function gameuiBackpackMainGameController:OpenBackpackEquipSlotChooser(itemData) end
 
----@private
 ---@param inventoryItem UIInventoryItem
 ---@return nil
-function gameuiBackpackMainGameController:OpenConfirmationPopup(inventoryItem) return end
+function gameuiBackpackMainGameController:OpenConfirmationPopup(inventoryItem) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:OpenDisassembleJunkConfirmation() return end
+function gameuiBackpackMainGameController:OpenDisassembleJunkConfirmation() end
 
----@private
 ---@param itemData UIInventoryItem
 ---@param actionType QuantityPickerActionType
 ---@return nil
-function gameuiBackpackMainGameController:OpenQuantityPicker(itemData, actionType) return end
+function gameuiBackpackMainGameController:OpenQuantityPicker(itemData, actionType) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:PopulateCraftingMaterials() return end
+function gameuiBackpackMainGameController:PopulateCraftingMaterials() end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:PopulateInventory() return end
+function gameuiBackpackMainGameController:PopulateInventory() end
 
----@private
 ---@param filters ItemFilterCategory[]
 ---@return nil
-function gameuiBackpackMainGameController:RefreshFilterButtons(filters) return end
+function gameuiBackpackMainGameController:RefreshFilterButtons(filters) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:RefreshUI() return end
+function gameuiBackpackMainGameController:RefreshUI() end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:RegisterToBB() return end
+function gameuiBackpackMainGameController:RegisterToBB() end
 
----@private
 ---@param itemID gameItemID
 ---@return nil
-function gameuiBackpackMainGameController:RequestItemInspected(itemID) return end
+function gameuiBackpackMainGameController:RequestItemInspected(itemID) end
 
----@protected
 ---@return nil
-function gameuiBackpackMainGameController:ResetVirtualGrid() return end
+function gameuiBackpackMainGameController:ResetVirtualGrid() end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:SetInventoryItemButtonHintsHoverOut() return end
+function gameuiBackpackMainGameController:SetInventoryItemButtonHintsHoverOut() end
 
----@private
 ---@param displayingData gameInventoryItemData
 ---@return nil
-function gameuiBackpackMainGameController:SetInventoryItemButtonHintsHoverOver(displayingData) return end
+function gameuiBackpackMainGameController:SetInventoryItemButtonHintsHoverOver(displayingData) end
 
----@private
 ---@param message String
 ---@return nil
-function gameuiBackpackMainGameController:SetWarningMessage(message) return end
+function gameuiBackpackMainGameController:SetWarningMessage(message) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:SetupDropdown() return end
+function gameuiBackpackMainGameController:SetupDropdown() end
 
----@protected
 ---@return nil
-function gameuiBackpackMainGameController:SetupVirtualGrid() return end
+function gameuiBackpackMainGameController:SetupVirtualGrid() end
 
----@private
 ---@param type UIMenuNotificationType
 ---@return nil
-function gameuiBackpackMainGameController:ShowNotification(type) return end
+function gameuiBackpackMainGameController:ShowNotification(type) end
 
----@private
 ---@return nil
-function gameuiBackpackMainGameController:UnregisterFromBB() return end
+function gameuiBackpackMainGameController:UnregisterFromBB() end
 
----@private
 ---@param materialID gameItemID
 ---@param skipAnim? Bool
 ---@return nil
-function gameuiBackpackMainGameController:UpdateCraftingMaterial(materialID, skipAnim) return end
+function gameuiBackpackMainGameController:UpdateCraftingMaterial(materialID, skipAnim) end
 
----@private
 ---@param state Bool
 ---@return nil
-function gameuiBackpackMainGameController:UpdateFavouriteHint(state) return end
+function gameuiBackpackMainGameController:UpdateFavouriteHint(state) end
 
 ---@return nil
-function gameuiBackpackMainGameController:UpdateQuantites() return end
+function gameuiBackpackMainGameController:UpdateQuantites() end

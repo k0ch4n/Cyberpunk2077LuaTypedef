@@ -5,4 +5,4 @@ questRadioAnnouncementPlayer = {}
 
 ---@param fields? questRadioAnnouncementPlayer
 ---@return questRadioAnnouncementPlayer
-function questRadioAnnouncementPlayer.new(fields) return end
+function questRadioAnnouncementPlayer.new(fields) end

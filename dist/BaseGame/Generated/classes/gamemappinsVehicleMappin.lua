@@ -5,17 +5,17 @@ gamemappinsVehicleMappin = {}
 
 ---@param fields? gamemappinsVehicleMappin
 ---@return gamemappinsVehicleMappin
-function gamemappinsVehicleMappin.new(fields) return end
+function gamemappinsVehicleMappin.new(fields) end
 
 ---@return Bool
-function gamemappinsVehicleMappin:CanSeePlayer() return end
+function gamemappinsVehicleMappin:CanSeePlayer() end
 
 ---@return Float
-function gamemappinsVehicleMappin:GetPlayerDetectionValue() return end
+function gamemappinsVehicleMappin:GetPlayerDetectionValue() end
 
 ---@return vehicleBaseObject
-function gamemappinsVehicleMappin:GetVehicle() return end
+function gamemappinsVehicleMappin:GetVehicle() end
 
 ---@param active Bool
 ---@return nil
-function gamemappinsVehicleMappin:SetActive(active) return end
+function gamemappinsVehicleMappin:SetActive(active) end

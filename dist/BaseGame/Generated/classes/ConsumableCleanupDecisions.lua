@@ -5,4 +5,4 @@ ConsumableCleanupDecisions = {}
 
 ---@param fields? ConsumableCleanupDecisions
 ---@return ConsumableCleanupDecisions
-function ConsumableCleanupDecisions.new(fields) return end
+function ConsumableCleanupDecisions.new(fields) end

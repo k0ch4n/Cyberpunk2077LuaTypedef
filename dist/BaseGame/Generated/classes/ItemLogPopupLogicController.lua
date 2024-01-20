@@ -1,33 +1,30 @@
 ---@meta
 
 ---@class ItemLogPopupLogicController: inkWidgetLogicController
----@field private quantity inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field private duration Float
----@field private animProxy inkanimProxy
----@field private alpha_fadein inkanimDefinition
----@field private AnimOptions inkanimPlaybackOptions
+---@field quantity inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field label inkTextWidgetReference
+---@field duration Float
+---@field animProxy inkanimProxy
+---@field alpha_fadein inkanimDefinition
+---@field AnimOptions inkanimPlaybackOptions
 ItemLogPopupLogicController = {}
 
 ---@param fields? ItemLogPopupLogicController
 ---@return ItemLogPopupLogicController
-function ItemLogPopupLogicController.new(fields) return end
+function ItemLogPopupLogicController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function ItemLogPopupLogicController:OnAddPopupComplete(anim) return end
+function ItemLogPopupLogicController:OnAddPopupComplete(anim) end
 
----@protected
 ---@return Bool
-function ItemLogPopupLogicController:OnInitialize() return end
+function ItemLogPopupLogicController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function ItemLogPopupLogicController:OnPopupDurationComplete(anim) return end
+function ItemLogPopupLogicController:OnPopupDurationComplete(anim) end
 
 ---@param itemData gameInventoryItemData
 ---@return nil
-function ItemLogPopupLogicController:SetupData(itemData) return end
+function ItemLogPopupLogicController:SetupData(itemData) end

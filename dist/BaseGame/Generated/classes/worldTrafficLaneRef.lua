@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldTrafficLaneRef
----@field public nodeRef NodeRef
----@field public laneNumber Uint16
----@field public isReversed Bool
+---@field nodeRef NodeRef
+---@field laneNumber Uint16
+---@field isReversed Bool
 worldTrafficLaneRef = {}
 
 ---@param fields? worldTrafficLaneRef
 ---@return worldTrafficLaneRef
-function worldTrafficLaneRef.new(fields) return end
+function worldTrafficLaneRef.new(fields) end

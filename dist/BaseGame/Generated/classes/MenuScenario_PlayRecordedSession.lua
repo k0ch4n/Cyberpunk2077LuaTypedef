@@ -5,15 +5,13 @@ MenuScenario_PlayRecordedSession = {}
 
 ---@param fields? MenuScenario_PlayRecordedSession
 ---@return MenuScenario_PlayRecordedSession
-function MenuScenario_PlayRecordedSession.new(fields) return end
+function MenuScenario_PlayRecordedSession.new(fields) end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_PlayRecordedSession:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_PlayRecordedSession:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_PlayRecordedSession:OnLeaveScenario(nextScenario) return end
+function MenuScenario_PlayRecordedSession:OnLeaveScenario(nextScenario) end

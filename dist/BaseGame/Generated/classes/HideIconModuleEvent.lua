@@ -5,4 +5,4 @@ HideIconModuleEvent = {}
 
 ---@param fields? HideIconModuleEvent
 ---@return HideIconModuleEvent
-function HideIconModuleEvent.new(fields) return end
+function HideIconModuleEvent.new(fields) end

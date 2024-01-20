@@ -5,4 +5,4 @@ gamestateMachineplayeractionsActionProjectileShowPreview = {}
 
 ---@param fields? gamestateMachineplayeractionsActionProjectileShowPreview
 ---@return gamestateMachineplayeractionsActionProjectileShowPreview
-function gamestateMachineplayeractionsActionProjectileShowPreview.new(fields) return end
+function gamestateMachineplayeractionsActionProjectileShowPreview.new(fields) end

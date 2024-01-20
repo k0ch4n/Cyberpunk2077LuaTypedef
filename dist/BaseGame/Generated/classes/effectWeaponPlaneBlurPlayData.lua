@@ -5,4 +5,4 @@ effectWeaponPlaneBlurPlayData = {}
 
 ---@param fields? effectWeaponPlaneBlurPlayData
 ---@return effectWeaponPlaneBlurPlayData
-function effectWeaponPlaneBlurPlayData.new(fields) return end
+function effectWeaponPlaneBlurPlayData.new(fields) end

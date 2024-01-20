@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class attrChoice: attrAttribute
----@field public tions String[]
+---@field tions String[]
 attrChoice = {}
 
 ---@param fields? attrChoice
 ---@return attrChoice
-function attrChoice.new(fields) return end
+function attrChoice.new(fields) end

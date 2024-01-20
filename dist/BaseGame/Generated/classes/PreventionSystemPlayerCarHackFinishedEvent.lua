@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PreventionSystemPlayerCarHackFinishedEvent: gameScriptableSystemRequest
----@field public state VehiclePreventionHackState
+---@field state VehiclePreventionHackState
 PreventionSystemPlayerCarHackFinishedEvent = {}
 
 ---@param fields? PreventionSystemPlayerCarHackFinishedEvent
 ---@return PreventionSystemPlayerCarHackFinishedEvent
-function PreventionSystemPlayerCarHackFinishedEvent.new(fields) return end
+function PreventionSystemPlayerCarHackFinishedEvent.new(fields) end

@@ -5,4 +5,4 @@ gameModdingSystem = {}
 
 ---@param fields? gameModdingSystem
 ---@return gameModdingSystem
-function gameModdingSystem.new(fields) return end
+function gameModdingSystem.new(fields) end

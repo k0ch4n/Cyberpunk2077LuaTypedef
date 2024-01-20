@@ -1,142 +1,121 @@
 ---@meta
 
 ---@class AOEArea: InteractiveMasterDevice
----@field protected areaComponent gameStaticTriggerAreaComponent
----@field private gameEffect gameEffectInstance
----@field private highLightActive Bool
----@field private visionBlockerComponent entIComponent
----@field private obstacleComponent gameinfluenceObstacleComponent
----@field private activeStatusEffects gamedataStatusEffect_Record[]
----@field private extendPercentAABB Float
----@field private isAABBExtended Bool
+---@field areaComponent gameStaticTriggerAreaComponent
+---@field gameEffect gameEffectInstance
+---@field highLightActive Bool
+---@field visionBlockerComponent entIComponent
+---@field obstacleComponent gameinfluenceObstacleComponent
+---@field activeStatusEffects gamedataStatusEffect_Record[]
+---@field extendPercentAABB Float
+---@field isAABBExtended Bool
 AOEArea = {}
 
 ---@param fields? AOEArea
 ---@return AOEArea
-function AOEArea.new(fields) return end
+function AOEArea.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function AOEArea:OnActivateDevice(evt) return end
+function AOEArea:OnActivateDevice(evt) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function AOEArea:OnAreaEnter(evt) return end
+function AOEArea:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function AOEArea:OnAreaExit(evt) return end
+function AOEArea:OnAreaExit(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return Bool
-function AOEArea:OnDeactivateDevice(evt) return end
+function AOEArea:OnDeactivateDevice(evt) end
 
----@protected
 ---@return Bool
-function AOEArea:OnDetach() return end
+function AOEArea:OnDetach() end
 
----@protected
 ---@return Bool
-function AOEArea:OnGameAttached() return end
+function AOEArea:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AOEArea:OnRequestComponents(ri) return end
+function AOEArea:OnRequestComponents(ri) end
 
----@protected
 ---@param evt RevealDeviceRequest
 ---@return Bool
-function AOEArea:OnRevealDeviceRequest(evt) return end
+function AOEArea:OnRevealDeviceRequest(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AOEArea:OnTakeControl(ri) return end
+function AOEArea:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function AOEArea:ActivateArea() return end
+function AOEArea:ActivateArea() end
 
----@private
 ---@return nil
-function AOEArea:ActivateEffect() return end
+function AOEArea:ActivateEffect() end
 
----@protected
 ---@param entityID entEntityID
 ---@return nil
-function AOEArea:ApplyActiveStatusEffectsToEntity(entityID) return end
+function AOEArea:ApplyActiveStatusEffectsToEntity(entityID) end
 
----@private
 ---@param highlightType EFocusForcedHighlightType
 ---@return FocusForcedHighlightData
-function AOEArea:CreateHighlight(highlightType) return end
+function AOEArea:CreateHighlight(highlightType) end
 
----@private
 ---@return nil
-function AOEArea:DeactivateArea() return end
+function AOEArea:DeactivateArea() end
 
----@private
 ---@return nil
-function AOEArea:ExtendBoundingBox() return end
+function AOEArea:ExtendBoundingBox() end
 
----@private
 ---@return AOEAreaController
-function AOEArea:GetController() return end
+function AOEArea:GetController() end
 
 ---@return FocusForcedHighlightData
-function AOEArea:GetDefaultHighlight() return end
+function AOEArea:GetDefaultHighlight() end
 
 ---@return AOEAreaControllerPS
-function AOEArea:GetDevicePS() return end
+function AOEArea:GetDevicePS() end
 
 ---@param effectData? AreaEffectData
 ---@return entEntity
-function AOEArea:GetDistractionControllerSource(effectData) return end
+function AOEArea:GetDistractionControllerSource(effectData) end
 
 ---@param defaultValue Float
 ---@return Float
-function AOEArea:GetDistractionStimLifetime(defaultValue) return end
+function AOEArea:GetDistractionStimLifetime(defaultValue) end
 
 ---@return entEntity[]
-function AOEArea:GetEntitiesInArea() return end
+function AOEArea:GetEntitiesInArea() end
 
 ---@return entIComponent
-function AOEArea:GetObstacleComponent() return end
+function AOEArea:GetObstacleComponent() end
 
 ---@return gameObject
-function AOEArea:GetStimTarget() return end
+function AOEArea:GetStimTarget() end
 
 ---@return entIComponent
-function AOEArea:GetVisionBlockerComponent() return end
+function AOEArea:GetVisionBlockerComponent() end
 
 ---@return Bool
-function AOEArea:IsGameplayRelevant() return end
+function AOEArea:IsGameplayRelevant() end
 
----@protected
 ---@param entityID entEntityID
 ---@return nil
-function AOEArea:RemoveActiveStatusEffectsFromEntity(entityID) return end
+function AOEArea:RemoveActiveStatusEffectsFromEntity(entityID) end
 
----@private
 ---@return nil
-function AOEArea:StopGameEffect() return end
+function AOEArea:StopGameEffect() end
 
----@private
 ---@param toggle Bool
 ---@param id entEntityID
 ---@return nil
-function AOEArea:ToggleHighlightOnSingleTarget(toggle, id) return end
+function AOEArea:ToggleHighlightOnSingleTarget(toggle, id) end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function AOEArea:ToggleHighlightOnTargets(toggle) return end
+function AOEArea:ToggleHighlightOnTargets(toggle) end
 
----@protected
 ---@return nil
-function AOEArea:UpdateWillingInvestigator() return end
+function AOEArea:UpdateWillingInvestigator() end

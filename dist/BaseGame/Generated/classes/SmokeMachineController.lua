@@ -5,7 +5,7 @@ SmokeMachineController = {}
 
 ---@param fields? SmokeMachineController
 ---@return SmokeMachineController
-function SmokeMachineController.new(fields) return end
+function SmokeMachineController.new(fields) end
 
 ---@return SmokeMachineControllerPS
-function SmokeMachineController:GetPS() return end
+function SmokeMachineController:GetPS() end

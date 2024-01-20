@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestCombatActionAreaNotification: redEvent
----@field public revealPlayerSettings RevealPlayerSettings
+---@field revealPlayerSettings RevealPlayerSettings
 QuestCombatActionAreaNotification = {}
 
 ---@param fields? QuestCombatActionAreaNotification
 ---@return QuestCombatActionAreaNotification
-function QuestCombatActionAreaNotification.new(fields) return end
+function QuestCombatActionAreaNotification.new(fields) end
 
 ---@return String
-function QuestCombatActionAreaNotification:GetFriendlyDescription() return end
+function QuestCombatActionAreaNotification:GetFriendlyDescription() end

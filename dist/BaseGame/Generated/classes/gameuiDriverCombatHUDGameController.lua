@@ -1,87 +1,77 @@
 ---@meta
 
 ---@class gameuiDriverCombatHUDGameController: gameuiHUDGameController
----@field public inWeaponizedVehicle Bool
----@field public inDriverCombat Bool
----@field public inReloadState Bool
----@field public inSafeState Bool
----@field public crosshairBrackets inkWidgetReference
----@field public crosshairBracketsFlairLeft inkWidgetReference
----@field public crosshairBracketsFlairRight inkWidgetReference
----@field public bracketsTransitionDetailsWidgetList inkWidgetReference[]
----@field public crosshairBracketsMinSize Vector2
----@field public crosshairBracketsInstantSnapValue Float
----@field public crosshairBracketsInOutTransitionTime Float
----@field public crosshairBracketsIntroSizeMultiplier Float
----@field public crosshairBracketsTrail inkWidgetReference
----@field public crosshairBracketsTrailTransitionTime Float
----@field public crosshairReducedOpacity Float
----@field public unifomSafeZone Float
----@field private player gameObject
----@field private psmBlackboard gameIBlackboard
----@field private psmWeaponCallback redCallbackObject
----@field private uiActiveVehicleFPPRearviewCameraActivatedCallback redCallbackObject
----@field private reloadingAnimProxy inkanimProxy
----@field private vehicleFPPRearviewCamera inkWidgetReference
----@field private vehicleManufacturer inkImageWidgetReference
----@field private debugTuningStatusText inkTextWidgetReference
+---@field inWeaponizedVehicle Bool
+---@field inDriverCombat Bool
+---@field inReloadState Bool
+---@field inSafeState Bool
+---@field crosshairBrackets inkWidgetReference
+---@field crosshairBracketsFlairLeft inkWidgetReference
+---@field crosshairBracketsFlairRight inkWidgetReference
+---@field bracketsTransitionDetailsWidgetList inkWidgetReference[]
+---@field crosshairBracketsMinSize Vector2
+---@field crosshairBracketsInstantSnapValue Float
+---@field crosshairBracketsInOutTransitionTime Float
+---@field crosshairBracketsIntroSizeMultiplier Float
+---@field crosshairBracketsTrail inkWidgetReference
+---@field crosshairBracketsTrailTransitionTime Float
+---@field crosshairReducedOpacity Float
+---@field unifomSafeZone Float
+---@field player gameObject
+---@field psmBlackboard gameIBlackboard
+---@field psmWeaponCallback redCallbackObject
+---@field uiActiveVehicleFPPRearviewCameraActivatedCallback redCallbackObject
+---@field reloadingAnimProxy inkanimProxy
+---@field vehicleFPPRearviewCamera inkWidgetReference
+---@field vehicleManufacturer inkImageWidgetReference
+---@field debugTuningStatusText inkTextWidgetReference
 gameuiDriverCombatHUDGameController = {}
 
 ---@param fields? gameuiDriverCombatHUDGameController
 ---@return gameuiDriverCombatHUDGameController
-function gameuiDriverCombatHUDGameController.new(fields) return end
+function gameuiDriverCombatHUDGameController.new(fields) end
 
 ---@return nil
-function gameuiDriverCombatHUDGameController:Reset() return end
+function gameuiDriverCombatHUDGameController:Reset() end
 
 ---@return nil
-function gameuiDriverCombatHUDGameController:UpdateCrosshairVisibility() return end
+function gameuiDriverCombatHUDGameController:UpdateCrosshairVisibility() end
 
----@protected
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnInitialize() return end
+function gameuiDriverCombatHUDGameController:OnInitialize() end
 
----@protected
 ---@param evt gamemountingMountingEvent
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnMountingEvent(evt) return end
+function gameuiDriverCombatHUDGameController:OnMountingEvent(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnPSMWeaponStateChanged(value) return end
+function gameuiDriverCombatHUDGameController:OnPSMWeaponStateChanged(value) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnPlayerAttach(player) return end
+function gameuiDriverCombatHUDGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnPlayerDetach(player) return end
+function gameuiDriverCombatHUDGameController:OnPlayerDetach(player) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnReloadingIntroFinished(anim) return end
+function gameuiDriverCombatHUDGameController:OnReloadingIntroFinished(anim) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnUIActiveVehicleFPPRearviewCameraActivated(value) return end
+function gameuiDriverCombatHUDGameController:OnUIActiveVehicleFPPRearviewCameraActivated(value) end
 
----@protected
 ---@param evt gamemountingUnmountingEvent
 ---@return Bool
-function gameuiDriverCombatHUDGameController:OnUnmountingEvent(evt) return end
+function gameuiDriverCombatHUDGameController:OnUnmountingEvent(evt) end
 
----@private
 ---@return nil
-function gameuiDriverCombatHUDGameController:LocalReset() return end
+function gameuiDriverCombatHUDGameController:LocalReset() end
 
----@private
 ---@param mountingInfo gamemountingMountingInfo
 ---@param isMounting? Bool
 ---@return nil
-function gameuiDriverCombatHUDGameController:UpdateVehicleData(mountingInfo, isMounting) return end
+function gameuiDriverCombatHUDGameController:UpdateVehicleData(mountingInfo, isMounting) end

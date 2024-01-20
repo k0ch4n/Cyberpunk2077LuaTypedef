@@ -1,65 +1,64 @@
 ---@meta
 
 ---@class DeviceActionQueue: IScriptable
----@field private actionsInQueue gamedeviceAction[]
----@field private maxQueueSize Int32
----@field private locked Bool
+---@field actionsInQueue gamedeviceAction[]
+---@field maxQueueSize Int32
+---@field locked Bool
 DeviceActionQueue = {}
 
 ---@param fields? DeviceActionQueue
 ---@return DeviceActionQueue
-function DeviceActionQueue.new(fields) return end
+function DeviceActionQueue.new(fields) end
 
 ---@return nil, CName[] actionNames
-function DeviceActionQueue.GetAllDisallowedActionNames() return end
+function DeviceActionQueue.GetAllDisallowedActionNames() end
 
 ---@return Bool
-function DeviceActionQueue:CanNewActionBeQueued() return end
+function DeviceActionQueue:CanNewActionBeQueued() end
 
----@private
 ---@param deviceAction ScriptableDeviceAction
 ---@param decreaseQhUploadTimeVal Float
 ---@return nil
-function DeviceActionQueue:DecreaseUploadTime(deviceAction, decreaseQhUploadTimeVal) return end
+function DeviceActionQueue:DecreaseUploadTime(deviceAction, decreaseQhUploadTimeVal) end
 
 ---@return Bool, CName[] actionNames
-function DeviceActionQueue:GetAllQueuedActionNames() return end
+function DeviceActionQueue:GetAllQueuedActionNames() end
 
 ---@return Bool, gamedataObjectAction_Record[] objectActionRecords
-function DeviceActionQueue:GetAllQueuedActionObjectRecords() return end
+function DeviceActionQueue:GetAllQueuedActionObjectRecords() end
 
 ---@return Int32
-function DeviceActionQueue:GetMaxQueueSize() return end
+function DeviceActionQueue:GetMaxQueueSize() end
 
 ---@return Int32
-function DeviceActionQueue:GetQueueSize() return end
+function DeviceActionQueue:GetQueueSize() end
 
 ---@return Int32
-function DeviceActionQueue:GetQueuedActionsTotalCost() return end
+function DeviceActionQueue:GetQueuedActionsTotalCost() end
 
 ---@return Bool
-function DeviceActionQueue:HasActionInQueue() return end
+function DeviceActionQueue:HasActionInQueue() end
 
 ---@return Bool
-function DeviceActionQueue:IsActionQueueFull() return end
+function DeviceActionQueue:IsActionQueueFull() end
 
 ---@return Bool
-function DeviceActionQueue:IsQhQueueUploadInProgress() return end
+function DeviceActionQueue:IsQhQueueUploadInProgress() end
 
 ---@return nil
-function DeviceActionQueue:LockQueue() return end
+function DeviceActionQueue:LockQueue() end
 
 ---@return gamedeviceAction
-function DeviceActionQueue:PopActionInQueue() return end
+function DeviceActionQueue:PopActionInQueue() end
 
 ---@param deviceAction ScriptableDeviceAction
 ---@param decreaseQhUploadTimeVal Float
 ---@return Bool
-function DeviceActionQueue:PutActionInQueue(deviceAction, decreaseQhUploadTimeVal) return end
+function DeviceActionQueue:PutActionInQueue(deviceAction, decreaseQhUploadTimeVal) end
 
 ---@param maxQueueSize Int32
 ---@return nil
-function DeviceActionQueue:SetMaxQueueSize(maxQueueSize) return end
+function DeviceActionQueue:SetMaxQueueSize(maxQueueSize) end
 
 ---@return nil
-function DeviceActionQueue:UnlockQueue() return end
+function DeviceActionQueue:UnlockQueue() end

@@ -1,228 +1,190 @@
 ---@meta
 
 ---@class CityLightSystem: gameScriptableSystem
----@field private timeSystemCallbacks TimetableCallbackData[]
----@field private fuses FuseData[]
----@field private state ECLSForcedState
----@field private forcedStateSource CName
----@field private forcedStatesStack ForcedStateData[]
----@field private weatherListener CLSWeatherListener
----@field private turnOffLisenerID CName
----@field private turnOnLisenerID CName
----@field private resetLisenerID CName
----@field private weatherCallbackId Uint32
+---@field timeSystemCallbacks TimetableCallbackData[]
+---@field fuses FuseData[]
+---@field state ECLSForcedState
+---@field forcedStateSource CName
+---@field forcedStatesStack ForcedStateData[]
+---@field weatherListener CLSWeatherListener
+---@field turnOffLisenerID CName
+---@field turnOnLisenerID CName
+---@field resetLisenerID CName
+---@field weatherCallbackId Uint32
 CityLightSystem = {}
 
 ---@param fields? CityLightSystem
 ---@return CityLightSystem
-function CityLightSystem.new(fields) return end
+function CityLightSystem.new(fields) end
 
----@private
 ---@return Int32
-function CityLightSystem.GetMaxNotificationsPerFrame() return end
+function CityLightSystem.GetMaxNotificationsPerFrame() end
 
----@private
 ---@param state ECLSForcedState
 ---@param sourceName CName|string
 ---@param priority EPriority
 ---@param savable Bool
 ---@return Bool
-function CityLightSystem:AddForcedStateRequest(state, sourceName, priority, savable) return end
+function CityLightSystem:AddForcedStateRequest(state, sourceName, priority, savable) end
 
----@private
 ---@param requesterData PSOwnerData
 ---@param timeTable SDeviceTimetableEntry[]
 ---@param lights? Int32
 ---@return Int32
-function CityLightSystem:AddFuse(requesterData, timeTable, lights) return end
+function CityLightSystem:AddFuse(requesterData, timeTable, lights) end
 
----@private
 ---@param requesterData PSOwnerData
 ---@param timeTable SDeviceTimetableEntry[]
 ---@param lights? Int32
 ---@return nil
-function CityLightSystem:AddTimeTableCallbacks(requesterData, timeTable, lights) return end
+function CityLightSystem:AddTimeTableCallbacks(requesterData, timeTable, lights) end
 
----@private
 ---@return nil
-function CityLightSystem:EvaluateForcedStatesStack() return end
+function CityLightSystem:EvaluateForcedStatesStack() end
 
----@private
 ---@param fuse FuseData
 ---@return Bool, SDeviceTimetableEntry entry
-function CityLightSystem:GetActiveTimeTableEntry(fuse) return end
+function CityLightSystem:GetActiveTimeTableEntry(fuse) end
 
----@private
 ---@param fuse FuseData
 ---@return Int32
-function CityLightSystem:GetActiveTimeTableEntryID(fuse) return end
+function CityLightSystem:GetActiveTimeTableEntryID(fuse) end
 
 ---@return TimetableCallbackData[]
-function CityLightSystem:GetCallbacks() return end
+function CityLightSystem:GetCallbacks() end
 
----@private
 ---@return GameTime
-function CityLightSystem:GetCurrentTime() return end
+function CityLightSystem:GetCurrentTime() end
 
----@private
 ---@param fuseID Int32
 ---@param fuseData FuseData
 ---@return Bool
-function CityLightSystem:GetFuse(fuseID, fuseData) return end
+function CityLightSystem:GetFuse(fuseID, fuseData) end
 
----@private
 ---@param id gamePersistentID
 ---@return Int32
-function CityLightSystem:GetFuseID(id) return end
+function CityLightSystem:GetFuseID(id) end
 
----@private
 ---@param requesterData PSOwnerData
 ---@return Int32
-function CityLightSystem:GetFuseID(requesterData) return end
+function CityLightSystem:GetFuseID(requesterData) end
 
 ---@param id gamePersistentID
 ---@return EDeviceStatus
-function CityLightSystem:GetFuseStateByID(id) return end
+function CityLightSystem:GetFuseStateByID(id) end
 
 ---@return Int32
-function CityLightSystem:GetFusesCount() return end
+function CityLightSystem:GetFusesCount() end
 
 ---@return Int32
-function CityLightSystem:GetLightsCount() return end
+function CityLightSystem:GetLightsCount() end
 
 ---@return ECLSForcedState
-function CityLightSystem:GetState() return end
+function CityLightSystem:GetState() end
 
----@private
 ---@param time SSimpleGameTime
 ---@return TimetableCallbackData
-function CityLightSystem:GetTimeTableCallback(time) return end
+function CityLightSystem:GetTimeTableCallback(time) end
 
----@private
 ---@param requesterData PSOwnerData
 ---@return Bool, Int32 id
-function CityLightSystem:HasFuse(requesterData) return end
+function CityLightSystem:HasFuse(requesterData) end
 
----@private
 ---@return nil
-function CityLightSystem:InitializeDebugButtons() return end
+function CityLightSystem:InitializeDebugButtons() end
 
----@private
 ---@param data ForcedStateData
 ---@return Bool
-function CityLightSystem:IsForcedRequestSavable(data) return end
+function CityLightSystem:IsForcedRequestSavable(data) end
 
----@private
 ---@param time1 SSimpleGameTime
 ---@param time2 SSimpleGameTime
 ---@return Bool
-function CityLightSystem:IsTimeTheSame(time1, time2) return end
+function CityLightSystem:IsTimeTheSame(time1, time2) end
 
----@private
 ---@param callbackData TimetableCallbackData
 ---@return nil
-function CityLightSystem:NotifyRecipients(callbackData) return end
+function CityLightSystem:NotifyRecipients(callbackData) end
 
----@private
 ---@param callbackData TimetableCallbackData
 ---@return nil
-function CityLightSystem:NotifyRecipientsOnRegistration(callbackData) return end
+function CityLightSystem:NotifyRecipientsOnRegistration(callbackData) end
 
----@private
 ---@return nil
-function CityLightSystem:OnAttach() return end
+function CityLightSystem:OnAttach() end
 
----@private
 ---@param request gameSDOClickedRequest
 ---@return nil
-function CityLightSystem:OnDebugButtonClicked(request) return end
+function CityLightSystem:OnDebugButtonClicked(request) end
 
----@private
 ---@return nil
-function CityLightSystem:OnDetach() return end
+function CityLightSystem:OnDetach() end
 
----@private
 ---@param request ForceCLSStateRequest
 ---@return nil
-function CityLightSystem:OnForceCLSStateRequest(request) return end
+function CityLightSystem:OnForceCLSStateRequest(request) end
 
----@private
 ---@param request NotifyRecipientsRequest
 ---@return nil
-function CityLightSystem:OnNotifyRecipientsrequest(request) return end
+function CityLightSystem:OnNotifyRecipientsrequest(request) end
 
----@private
 ---@param request RegisterTimetableRequest
 ---@return nil
-function CityLightSystem:OnRegisterTimetableRequest(request) return end
+function CityLightSystem:OnRegisterTimetableRequest(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function CityLightSystem:OnRestored(saveVersion, gameVersion) return end
+function CityLightSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request TimeTableCallbackRequest
 ---@return nil
-function CityLightSystem:OnTimeTableCallbackRequest(request) return end
+function CityLightSystem:OnTimeTableCallbackRequest(request) end
 
----@private
 ---@param callbackData TimetableCallbackData
 ---@return nil
-function CityLightSystem:RegisterTimetableCallback(callbackData) return end
+function CityLightSystem:RegisterTimetableCallback(callbackData) end
 
----@private
 ---@param sourceName CName|string
 ---@return Bool
-function CityLightSystem:RemoveForcedStateRequestForSource(sourceName) return end
+function CityLightSystem:RemoveForcedStateRequestForSource(sourceName) end
 
----@private
 ---@return nil
-function CityLightSystem:ResolveForcedStatesStackOnLoad() return end
+function CityLightSystem:ResolveForcedStatesStackOnLoad() end
 
----@private
 ---@param data RecipientData
 ---@return nil
-function CityLightSystem:SendDeviceTimetableEvent(data) return end
+function CityLightSystem:SendDeviceTimetableEvent(data) end
 
----@private
 ---@param fuse FuseData
 ---@param state ECLSForcedState
 ---@return nil
-function CityLightSystem:SendForceStateDeviceTimetableEvent(fuse, state) return end
+function CityLightSystem:SendForceStateDeviceTimetableEvent(fuse, state) end
 
----@private
 ---@param recipients RecipientData[]
 ---@param time GameTime
 ---@return nil
-function CityLightSystem:SendNotificationByRequest(recipients, time) return end
+function CityLightSystem:SendNotificationByRequest(recipients, time) end
 
----@private
 ---@param recipients RecipientData[]
 ---@param time GameTime
 ---@return nil
-function CityLightSystem:SendNotificationToRecipients(recipients, time) return end
+function CityLightSystem:SendNotificationToRecipients(recipients, time) end
 
----@private
 ---@param recipient RecipientData
 ---@param callbackTime GameTime
 ---@return Bool
-function CityLightSystem:ShouldNotifyRecipient(recipient, callbackTime) return end
+function CityLightSystem:ShouldNotifyRecipient(recipient, callbackTime) end
 
----@private
 ---@param fuses FuseData[]
 ---@return nil
-function CityLightSystem:ShowDebug_fuses(fuses) return end
+function CityLightSystem:ShowDebug_fuses(fuses) end
 
----@private
 ---@return nil
-function CityLightSystem:ShowDebug_state() return end
+function CityLightSystem:ShowDebug_state() end
 
----@private
 ---@return nil
-function CityLightSystem:UninitializeDebugButtons() return end
+function CityLightSystem:UninitializeDebugButtons() end
 
----@private
 ---@return nil
-function CityLightSystem:UpdateCLSForcedState() return end
+function CityLightSystem:UpdateCLSForcedState() end

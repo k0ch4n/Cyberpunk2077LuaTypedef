@@ -1,49 +1,42 @@
 ---@meta
 
 ---@class ChestPress: InteractiveDevice
----@field private animFeatureData AnimFeature_ChestPress
----@field private animFeatureDataName CName
+---@field animFeatureData AnimFeature_ChestPress
+---@field animFeatureDataName CName
 ChestPress = {}
 
 ---@param fields? ChestPress
 ---@return ChestPress
-function ChestPress.new(fields) return end
+function ChestPress.new(fields) end
 
----@protected
 ---@param evt ChestPressWeightHack
 ---@return Bool
-function ChestPress:OnChestPressWeightHack(evt) return end
+function ChestPress:OnChestPressWeightHack(evt) end
 
----@protected
 ---@param evt E3Hack_QuestPlayAnimationKillNPC
 ---@return Bool
-function ChestPress:OnE3Hack_QuestPlayAnimationKillNPC(evt) return end
+function ChestPress:OnE3Hack_QuestPlayAnimationKillNPC(evt) end
 
----@protected
 ---@param evt E3Hack_QuestPlayAnimationWeightLift
 ---@return Bool
-function ChestPress:OnE3Hack_QuestPlayAnimationWeightLift(evt) return end
+function ChestPress:OnE3Hack_QuestPlayAnimationWeightLift(evt) end
 
----@protected
 ---@return Bool
-function ChestPress:OnGameAttached() return end
+function ChestPress:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ChestPress:OnRequestComponents(ri) return end
+function ChestPress:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ChestPress:OnTakeControl(ri) return end
+function ChestPress:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function ChestPress:DeterminGameplayRole() return end
+function ChestPress:DeterminGameplayRole() end
 
----@private
 ---@return ChestPressController
-function ChestPress:GetController() return end
+function ChestPress:GetController() end
 
 ---@return ChestPressControllerPS
-function ChestPress:GetDevicePS() return end
+function ChestPress:GetDevicePS() end

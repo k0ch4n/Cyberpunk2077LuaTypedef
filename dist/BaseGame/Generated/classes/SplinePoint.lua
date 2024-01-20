@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class SplinePoint
----@field public position Vector3
----@field public rotation Quaternion
----@field public tangents Vector3[]
----@field public continuousTangents Bool
----@field public automaticTangents Bool
----@field public id Uint32
+---@field position Vector3
+---@field rotation Quaternion
+---@field tangents Vector3[]
+---@field continuousTangents Bool
+---@field automaticTangents Bool
+---@field id Uint32
 SplinePoint = {}
 
 ---@param fields? SplinePoint
 ---@return SplinePoint
-function SplinePoint.new(fields) return end
+function SplinePoint.new(fields) end

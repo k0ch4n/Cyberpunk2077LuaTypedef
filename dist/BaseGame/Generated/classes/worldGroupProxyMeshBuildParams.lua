@@ -5,4 +5,4 @@ worldGroupProxyMeshBuildParams = {}
 
 ---@param fields? worldGroupProxyMeshBuildParams
 ---@return worldGroupProxyMeshBuildParams
-function worldGroupProxyMeshBuildParams.new(fields) return end
+function worldGroupProxyMeshBuildParams.new(fields) end

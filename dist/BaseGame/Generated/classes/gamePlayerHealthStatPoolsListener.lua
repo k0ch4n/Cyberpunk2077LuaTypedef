@@ -5,4 +5,4 @@ gamePlayerHealthStatPoolsListener = {}
 
 ---@param fields? gamePlayerHealthStatPoolsListener
 ---@return gamePlayerHealthStatPoolsListener
-function gamePlayerHealthStatPoolsListener.new(fields) return end
+function gamePlayerHealthStatPoolsListener.new(fields) end

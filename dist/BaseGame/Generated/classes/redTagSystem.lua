@@ -5,4 +5,4 @@ redTagSystem = {}
 
 ---@param fields? redTagSystem
 ---@return redTagSystem
-function redTagSystem.new(fields) return end
+function redTagSystem.new(fields) end

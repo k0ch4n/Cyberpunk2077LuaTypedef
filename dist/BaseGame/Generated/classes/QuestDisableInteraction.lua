@@ -5,7 +5,7 @@ QuestDisableInteraction = {}
 
 ---@param fields? QuestDisableInteraction
 ---@return QuestDisableInteraction
-function QuestDisableInteraction.new(fields) return end
+function QuestDisableInteraction.new(fields) end
 
 ---@return nil
-function QuestDisableInteraction:SetProperties() return end
+function QuestDisableInteraction:SetProperties() end

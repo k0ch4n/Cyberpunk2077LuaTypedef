@@ -1,67 +1,60 @@
 ---@meta
 
 ---@class UIInventoryItemGrenadeData: IScriptable
----@field public Type GrenadeDamageType
----@field public Range Float
----@field public DeliveryMethod gamedataGrenadeDeliveryMethodType
----@field public Duration Float
----@field public Delay Float
----@field public DetonationTimer Float
----@field public DamagePerTick Float
----@field public DamageType gamedataStatType
----@field public GrenadeType EGrenadeType
----@field public TotalDamage Float
----@field public Player PlayerPuppet
+---@field Type GrenadeDamageType
+---@field Range Float
+---@field DeliveryMethod gamedataGrenadeDeliveryMethodType
+---@field Duration Float
+---@field Delay Float
+---@field DetonationTimer Float
+---@field DamagePerTick Float
+---@field DamageType gamedataStatType
+---@field GrenadeType EGrenadeType
+---@field TotalDamage Float
+---@field Player PlayerPuppet
 UIInventoryItemGrenadeData = {}
 
 ---@param fields? UIInventoryItemGrenadeData
 ---@return UIInventoryItemGrenadeData
-function UIInventoryItemGrenadeData.new(fields) return end
+function UIInventoryItemGrenadeData.new(fields) end
 
----@private
 ---@param attackRecord gamedataAttack_Record
 ---@return gamedataContinuousAttackEffector_Record
-function UIInventoryItemGrenadeData.GetGrenadeContinousEffector(attackRecord) return end
+function UIInventoryItemGrenadeData.GetGrenadeContinousEffector(attackRecord) end
 
----@private
 ---@param itemData gameItemData
 ---@param outputArray InventoryTooltiData_GrenadeDamageData[]
 ---@return nil
-function UIInventoryItemGrenadeData.GetGrenadeDamageStats(itemData, outputArray) return end
+function UIInventoryItemGrenadeData.GetGrenadeDamageStats(itemData, outputArray) end
 
----@private
 ---@param continuousAttackEffector gamedataContinuousAttackEffector_Record
 ---@return Float
-function UIInventoryItemGrenadeData.GetGrenadeDelay(continuousAttackEffector) return end
+function UIInventoryItemGrenadeData.GetGrenadeDelay(continuousAttackEffector) end
 
----@private
 ---@param player PlayerPuppet
 ---@param continuousAttackEffector gamedataContinuousAttackEffector_Record
 ---@return Float
-function UIInventoryItemGrenadeData.GetGrenadeDoTTickDamage(player, continuousAttackEffector) return end
+function UIInventoryItemGrenadeData.GetGrenadeDoTTickDamage(player, continuousAttackEffector) end
 
----@private
 ---@param player PlayerPuppet
 ---@param attackRecord gamedataAttack_Record
 ---@return Float
-function UIInventoryItemGrenadeData.GetGrenadeDuration(player, attackRecord) return end
+function UIInventoryItemGrenadeData.GetGrenadeDuration(player, attackRecord) end
 
----@private
 ---@param grenadeRecord gamedataGrenade_Record
 ---@param player PlayerPuppet
 ---@return Float
-function UIInventoryItemGrenadeData.GetGrenadeRange(grenadeRecord, player) return end
+function UIInventoryItemGrenadeData.GetGrenadeRange(grenadeRecord, player) end
 
----@private
 ---@param itemData gameItemData
 ---@return Float
-function UIInventoryItemGrenadeData.GetGrenadeTotalDamageFromStats(itemData) return end
+function UIInventoryItemGrenadeData.GetGrenadeTotalDamageFromStats(itemData) end
 
 ---@param grenadeRecord gamedataGrenade_Record
 ---@return EGrenadeType
-function UIInventoryItemGrenadeData.GetGrenadeType(grenadeRecord) return end
+function UIInventoryItemGrenadeData.GetGrenadeType(grenadeRecord) end
 
 ---@param item UIInventoryItem
 ---@param player PlayerPuppet
 ---@return UIInventoryItemGrenadeData
-function UIInventoryItemGrenadeData.Make(item, player) return end
+function UIInventoryItemGrenadeData.Make(item, player) end

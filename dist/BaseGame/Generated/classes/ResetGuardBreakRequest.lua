@@ -5,4 +5,4 @@ ResetGuardBreakRequest = {}
 
 ---@param fields? ResetGuardBreakRequest
 ---@return ResetGuardBreakRequest
-function ResetGuardBreakRequest.new(fields) return end
+function ResetGuardBreakRequest.new(fields) end

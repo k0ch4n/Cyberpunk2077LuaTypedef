@@ -5,4 +5,4 @@ gsmState_SessionRestoreFromSave = {}
 
 ---@param fields? gsmState_SessionRestoreFromSave
 ---@return gsmState_SessionRestoreFromSave
-function gsmState_SessionRestoreFromSave.new(fields) return end
+function gsmState_SessionRestoreFromSave.new(fields) end

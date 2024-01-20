@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questUICondition: questTypedCondition
----@field public type questIUIConditionType
+---@field type questIUIConditionType
 questUICondition = {}
 
 ---@param fields? questUICondition
 ---@return questUICondition
-function questUICondition.new(fields) return end
+function questUICondition.new(fields) end

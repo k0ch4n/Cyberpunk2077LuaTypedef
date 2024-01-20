@@ -5,4 +5,4 @@ ResetFinalComboHitsReceivedRequest = {}
 
 ---@param fields? ResetFinalComboHitsReceivedRequest
 ---@return ResetFinalComboHitsReceivedRequest
-function ResetFinalComboHitsReceivedRequest.new(fields) return end
+function ResetFinalComboHitsReceivedRequest.new(fields) end

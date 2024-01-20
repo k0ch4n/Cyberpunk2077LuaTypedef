@@ -5,4 +5,4 @@ PreventionSystemUpdateHackLoopStateEvent = {}
 
 ---@param fields? PreventionSystemUpdateHackLoopStateEvent
 ---@return PreventionSystemUpdateHackLoopStateEvent
-function PreventionSystemUpdateHackLoopStateEvent.new(fields) return end
+function PreventionSystemUpdateHackLoopStateEvent.new(fields) end

@@ -5,9 +5,8 @@ VehicleHasWindowsRollDown = {}
 
 ---@param fields? VehicleHasWindowsRollDown
 ---@return VehicleHasWindowsRollDown
-function VehicleHasWindowsRollDown.new(fields) return end
+function VehicleHasWindowsRollDown.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function VehicleHasWindowsRollDown:Check(context) return end
+function VehicleHasWindowsRollDown:Check(context) end

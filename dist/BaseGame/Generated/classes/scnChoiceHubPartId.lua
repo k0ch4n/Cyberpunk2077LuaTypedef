@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnChoiceHubPartId
----@field public id Uint32
+---@field id Uint32
 scnChoiceHubPartId = {}
 
 ---@param fields? scnChoiceHubPartId
 ---@return scnChoiceHubPartId
-function scnChoiceHubPartId.new(fields) return end
+function scnChoiceHubPartId.new(fields) end

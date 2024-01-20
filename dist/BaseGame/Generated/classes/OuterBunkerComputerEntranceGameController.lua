@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class OuterBunkerComputerEntranceGameController: gameuiBaseBunkerComputerGameController
----@field public harvestIntroAnimName CName
----@field public harvestLoop1AnimName CName
----@field public harvestLoop2AnimName CName
----@field public harvestLoop3AnimName CName
----@field public harvestOutroAnimName CName
+---@field harvestIntroAnimName CName
+---@field harvestLoop1AnimName CName
+---@field harvestLoop2AnimName CName
+---@field harvestLoop3AnimName CName
+---@field harvestOutroAnimName CName
 OuterBunkerComputerEntranceGameController = {}
 
 ---@param fields? OuterBunkerComputerEntranceGameController
 ---@return OuterBunkerComputerEntranceGameController
-function OuterBunkerComputerEntranceGameController.new(fields) return end
+function OuterBunkerComputerEntranceGameController.new(fields) end
 
----@protected
 ---@return Bool
-function OuterBunkerComputerEntranceGameController:OnInitialize() return end
+function OuterBunkerComputerEntranceGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function OuterBunkerComputerEntranceGameController:OnIntroAnimFinished(proxy) return end
+function OuterBunkerComputerEntranceGameController:OnIntroAnimFinished(proxy) end
 
----@protected
 ---@return ScriptGameInstance
-function OuterBunkerComputerEntranceGameController:GetGame() return end
+function OuterBunkerComputerEntranceGameController:GetGame() end

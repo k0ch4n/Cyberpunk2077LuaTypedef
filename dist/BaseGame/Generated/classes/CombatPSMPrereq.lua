@@ -5,25 +5,21 @@ CombatPSMPrereq = {}
 
 ---@param fields? CombatPSMPrereq
 ---@return CombatPSMPrereq
-function CombatPSMPrereq.new(fields) return end
+function CombatPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function CombatPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function CombatPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function CombatPSMPrereq:GetStateMachineEnum() return end
+function CombatPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function CombatPSMPrereq:OnRegister(state, context) return end
+function CombatPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function CombatPSMPrereq:OnUnregister(state, context) return end
+function CombatPSMPrereq:OnUnregister(state, context) end

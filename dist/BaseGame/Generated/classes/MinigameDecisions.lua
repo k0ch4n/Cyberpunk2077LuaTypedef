@@ -5,16 +5,14 @@ MinigameDecisions = {}
 
 ---@param fields? MinigameDecisions
 ---@return MinigameDecisions
-function MinigameDecisions.new(fields) return end
+function MinigameDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MinigameDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MinigameDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MinigameDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MinigameDecisions:ExitCondition(stateContext, scriptInterface) end

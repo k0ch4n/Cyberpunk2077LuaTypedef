@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ForkliftSetup
----@field public actionActivateName CName
----@field public liftingAnimationTime Float
----@field public hasDistractionQuickhack Bool
+---@field actionActivateName CName
+---@field liftingAnimationTime Float
+---@field hasDistractionQuickhack Bool
 ForkliftSetup = {}
 
 ---@param fields? ForkliftSetup
 ---@return ForkliftSetup
-function ForkliftSetup.new(fields) return end
+function ForkliftSetup.new(fields) end

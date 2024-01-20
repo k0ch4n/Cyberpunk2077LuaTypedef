@@ -5,10 +5,10 @@ gamedataTriggerAttackEffector_Record = {}
 
 ---@param fields? gamedataTriggerAttackEffector_Record
 ---@return gamedataTriggerAttackEffector_Record
-function gamedataTriggerAttackEffector_Record.new(fields) return end
+function gamedataTriggerAttackEffector_Record.new(fields) end
 
 ---@return gamedataAttack_Record
-function gamedataTriggerAttackEffector_Record:AttackRecord() return end
+function gamedataTriggerAttackEffector_Record:AttackRecord() end
 
 ---@return gamedataAttack_Record
-function gamedataTriggerAttackEffector_Record:AttackRecordHandle() return end
+function gamedataTriggerAttackEffector_Record:AttackRecordHandle() end

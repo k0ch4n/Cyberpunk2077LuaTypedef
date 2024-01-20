@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class senseVisibleObjectetSecondaryDistanceEvent: redEvent
----@field public distance Float
----@field public extraEvaluationDistance Float
+---@field distance Float
+---@field extraEvaluationDistance Float
 senseVisibleObjectetSecondaryDistanceEvent = {}
 
 ---@param fields? senseVisibleObjectetSecondaryDistanceEvent
 ---@return senseVisibleObjectetSecondaryDistanceEvent
-function senseVisibleObjectetSecondaryDistanceEvent.new(fields) return end
+function senseVisibleObjectetSecondaryDistanceEvent.new(fields) end

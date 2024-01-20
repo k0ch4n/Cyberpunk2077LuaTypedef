@@ -5,4 +5,4 @@ gameBinkMeshTargetAttachment = {}
 
 ---@param fields? gameBinkMeshTargetAttachment
 ---@return gameBinkMeshTargetAttachment
-function gameBinkMeshTargetAttachment.new(fields) return end
+function gameBinkMeshTargetAttachment.new(fields) end

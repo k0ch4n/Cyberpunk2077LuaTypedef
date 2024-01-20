@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class animAnimNode_OrientConstraint: animAnimNode_OnePoseInput
----@field public areSourceChannelsResaved Bool
----@field public inputTransforms animAnimNodeSourceChannel_WeightedQuat[]
----@field public preprocessedWeights Float[]
----@field public inputWeightedTransforms animAnimNode_OrientConstraint_WeightedTransform[]
----@field public transformIndex animTransformIndex
----@field public weightMode animConstraintWeightMode
----@field public weight Float
----@field public weightFloatTrack animNamedTrackIndex
+---@field areSourceChannelsResaved Bool
+---@field inputTransforms animAnimNodeSourceChannel_WeightedQuat[]
+---@field preprocessedWeights Float[]
+---@field inputWeightedTransforms animAnimNode_OrientConstraint_WeightedTransform[]
+---@field transformIndex animTransformIndex
+---@field weightMode animConstraintWeightMode
+---@field weight Float
+---@field weightFloatTrack animNamedTrackIndex
 animAnimNode_OrientConstraint = {}
 
 ---@param fields? animAnimNode_OrientConstraint
 ---@return animAnimNode_OrientConstraint
-function animAnimNode_OrientConstraint.new(fields) return end
+function animAnimNode_OrientConstraint.new(fields) end

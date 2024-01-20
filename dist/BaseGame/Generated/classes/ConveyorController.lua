@@ -5,38 +5,31 @@ ConveyorController = {}
 
 ---@param fields? ConveyorController
 ---@return ConveyorController
-function ConveyorController.new(fields) return end
+function ConveyorController.new(fields) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return Bool
-function ConveyorController:OnSetDeviceOFF(evt) return end
+function ConveyorController:OnSetDeviceOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return Bool
-function ConveyorController:OnSetDeviceON(evt) return end
+function ConveyorController:OnSetDeviceON(evt) end
 
----@protected
 ---@param evt ToggleON
 ---@return Bool
-function ConveyorController:OnToggleON(evt) return end
+function ConveyorController:OnToggleON(evt) end
 
 ---@return ConveyorControllerPS
-function ConveyorController:GetPS() return end
+function ConveyorController:GetPS() end
 
----@private
 ---@return nil
-function ConveyorController:OnGameAttach() return end
+function ConveyorController:OnGameAttach() end
 
----@private
 ---@return nil
-function ConveyorController:RestoreDeviceState() return end
+function ConveyorController:RestoreDeviceState() end
 
----@private
 ---@return nil
-function ConveyorController:StartConveyor() return end
+function ConveyorController:StartConveyor() end
 
----@private
 ---@return nil
-function ConveyorController:StopConveyor() return end
+function ConveyorController:StopConveyor() end

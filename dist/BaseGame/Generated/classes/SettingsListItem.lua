@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class SettingsListItem: inkListItemController
----@field private Selector inkWidgetReference
----@field protected settingsSelector inkSettingsSelectorController
+---@field Selector inkWidgetReference
+---@field settingsSelector inkSettingsSelectorController
 SettingsListItem = {}
 
 ---@param fields? SettingsListItem
 ---@return SettingsListItem
-function SettingsListItem.new(fields) return end
+function SettingsListItem.new(fields) end
 
----@protected
 ---@param value IScriptable
 ---@return Bool
-function SettingsListItem:OnDataChanged(value) return end
+function SettingsListItem:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function SettingsListItem:OnInitialize() return end
+function SettingsListItem:OnInitialize() end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function SettingsListItem:OnSelected(target) return end
+function SettingsListItem:OnSelected(target) end

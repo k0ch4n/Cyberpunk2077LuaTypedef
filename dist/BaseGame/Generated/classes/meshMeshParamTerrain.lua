@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class meshMeshParamTerrain: meshMeshParameter
----@field public chunkBoundingBoxes Box[]
+---@field chunkBoundingBoxes Box[]
 meshMeshParamTerrain = {}
 
 ---@param fields? meshMeshParamTerrain
 ---@return meshMeshParamTerrain
-function meshMeshParamTerrain.new(fields) return end
+function meshMeshParamTerrain.new(fields) end

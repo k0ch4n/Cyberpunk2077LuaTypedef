@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SendInstructionRequest: gameScriptableSystemRequest
----@field public jobs HUDJob[]
+---@field jobs HUDJob[]
 SendInstructionRequest = {}
 
 ---@param fields? SendInstructionRequest
 ---@return SendInstructionRequest
-function SendInstructionRequest.new(fields) return end
+function SendInstructionRequest.new(fields) end

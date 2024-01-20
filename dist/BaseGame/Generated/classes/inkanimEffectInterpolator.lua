@@ -1,39 +1,39 @@
 ---@meta
 
 ---@class inkanimEffectInterpolator: inkanimInterpolator
----@field public startValue Float
----@field public endValue Float
----@field public effectType inkEffectType
----@field public effectName CName
----@field public paramName CName
+---@field startValue Float
+---@field endValue Float
+---@field effectType inkEffectType
+---@field effectName CName
+---@field paramName CName
 inkanimEffectInterpolator = {}
 
 ---@param fields? inkanimEffectInterpolator
 ---@return inkanimEffectInterpolator
-function inkanimEffectInterpolator.new(fields) return end
+function inkanimEffectInterpolator.new(fields) end
 
 ---@return Float
-function inkanimEffectInterpolator:GetEndValue() return end
+function inkanimEffectInterpolator:GetEndValue() end
 
 ---@return Float
-function inkanimEffectInterpolator:GetStartValue() return end
+function inkanimEffectInterpolator:GetStartValue() end
 
 ---@param effectName CName|string
 ---@return nil
-function inkanimEffectInterpolator:SetEffectName(effectName) return end
+function inkanimEffectInterpolator:SetEffectName(effectName) end
 
 ---@param effectType inkEffectType
 ---@return nil
-function inkanimEffectInterpolator:SetEffectType(effectType) return end
+function inkanimEffectInterpolator:SetEffectType(effectType) end
 
 ---@param endValue Float
 ---@return nil
-function inkanimEffectInterpolator:SetEndValue(endValue) return end
+function inkanimEffectInterpolator:SetEndValue(endValue) end
 
 ---@param paramName CName|string
 ---@return nil
-function inkanimEffectInterpolator:SetParamName(paramName) return end
+function inkanimEffectInterpolator:SetParamName(paramName) end
 
 ---@param startValue Float
 ---@return nil
-function inkanimEffectInterpolator:SetStartValue(startValue) return end
+function inkanimEffectInterpolator:SetStartValue(startValue) end

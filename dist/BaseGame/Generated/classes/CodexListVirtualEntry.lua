@@ -1,65 +1,56 @@
 ---@meta
 
 ---@class CodexListVirtualEntry: inkVirtualCompoundItemController
----@field protected title inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected newWrapper inkWidgetReference
----@field protected ep1Icon inkWidgetReference
----@field private entryData CodexEntryData
----@field private nestedListData VirutalNestedListData
----@field private activeItemSync CodexListSyncData
----@field private isActive Bool
----@field private isItemHovered Bool
----@field private isItemToggled Bool
+---@field title inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field newWrapper inkWidgetReference
+---@field ep1Icon inkWidgetReference
+---@field entryData CodexEntryData
+---@field nestedListData VirutalNestedListData
+---@field activeItemSync CodexListSyncData
+---@field isActive Bool
+---@field isItemHovered Bool
+---@field isItemToggled Bool
 CodexListVirtualEntry = {}
 
 ---@param fields? CodexListVirtualEntry
 ---@return CodexListVirtualEntry
-function CodexListVirtualEntry.new(fields) return end
+function CodexListVirtualEntry.new(fields) end
 
----@protected
 ---@param evt CodexSyncBackEvent
 ---@return Bool
-function CodexListVirtualEntry:OnContactSyncData(evt) return end
+function CodexListVirtualEntry:OnContactSyncData(evt) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function CodexListVirtualEntry:OnDeselected(itemController) return end
+function CodexListVirtualEntry:OnDeselected(itemController) end
 
----@protected
 ---@param evt CodexEntrySelectedEvent
 ---@return Bool
-function CodexListVirtualEntry:OnEntrySelected(evt) return end
+function CodexListVirtualEntry:OnEntrySelected(evt) end
 
----@protected
 ---@return Bool
-function CodexListVirtualEntry:OnInitialize() return end
+function CodexListVirtualEntry:OnInitialize() end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function CodexListVirtualEntry:OnSelected(itemController, discreteNav) return end
+function CodexListVirtualEntry:OnSelected(itemController, discreteNav) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function CodexListVirtualEntry:OnToggledOff(itemController) return end
+function CodexListVirtualEntry:OnToggledOff(itemController) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function CodexListVirtualEntry:OnToggledOn(itemController) return end
+function CodexListVirtualEntry:OnToggledOn(itemController) end
 
----@private
 ---@return nil
-function CodexListVirtualEntry:CheckIsNew() return end
+function CodexListVirtualEntry:CheckIsNew() end
 
 ---@param value Variant
 ---@return nil
-function CodexListVirtualEntry:OnDataChanged(value) return end
+function CodexListVirtualEntry:OnDataChanged(value) end
 
----@private
 ---@return nil
-function CodexListVirtualEntry:UpdateState() return end
+function CodexListVirtualEntry:UpdateState() end

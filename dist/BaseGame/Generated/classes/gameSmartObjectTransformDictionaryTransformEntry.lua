@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameSmartObjectTransformDictionaryTransformEntry
----@field public transform Transform
----@field public usage Uint32
----@field public id Uint16
+---@field transform Transform
+---@field usage Uint32
+---@field id Uint16
 gameSmartObjectTransformDictionaryTransformEntry = {}
 
 ---@param fields? gameSmartObjectTransformDictionaryTransformEntry
 ---@return gameSmartObjectTransformDictionaryTransformEntry
-function gameSmartObjectTransformDictionaryTransformEntry.new(fields) return end
+function gameSmartObjectTransformDictionaryTransformEntry.new(fields) end

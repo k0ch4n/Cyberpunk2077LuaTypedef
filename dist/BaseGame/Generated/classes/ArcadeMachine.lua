@@ -1,147 +1,124 @@
 ---@meta
 
 ---@class ArcadeMachine: InteractiveDevice
----@field protected arcadeMachineType ArcadeMachineType
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field private currentGameVideo redResourceReferenceScriptToken
----@field protected currentGameAudio CName
----@field protected currentGameAudioStop CName
----@field private meshAppearanceOn CName
----@field private meshAppearanceOff CName
----@field private arcadeMinigameComponent workWorkspotResourceComponent
----@field protected minigame ArcadeMinigame
----@field private combatStateListener redCallbackObject
+---@field arcadeMachineType ArcadeMachineType
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
+---@field currentGameVideo redResourceReferenceScriptToken
+---@field currentGameAudio CName
+---@field currentGameAudioStop CName
+---@field meshAppearanceOn CName
+---@field meshAppearanceOff CName
+---@field arcadeMinigameComponent workWorkspotResourceComponent
+---@field minigame ArcadeMinigame
+---@field combatStateListener redCallbackObject
 ArcadeMachine = {}
 
 ---@param fields? ArcadeMachine
 ---@return ArcadeMachine
-function ArcadeMachine.new(fields) return end
+function ArcadeMachine.new(fields) end
 
----@protected
 ---@param evt BeginArcadeMinigameUI
 ---@return Bool
-function ArcadeMachine:OnBeginArcadeMinigameUI(evt) return end
+function ArcadeMachine:OnBeginArcadeMinigameUI(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ArcadeMachine:OnCombatStateChanged(value) return end
+function ArcadeMachine:OnCombatStateChanged(value) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function ArcadeMachine:OnHitEvent(hit) return end
+function ArcadeMachine:OnHitEvent(hit) end
 
----@protected
 ---@param evt GameAttachedEvent
 ---@return Bool
-function ArcadeMachine:OnPersitentStateInitialized(evt) return end
+function ArcadeMachine:OnPersitentStateInitialized(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ArcadeMachine:OnRequestComponents(ri) return end
+function ArcadeMachine:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function ArcadeMachine:OnStopShortGlitch(evt) return end
+function ArcadeMachine:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ArcadeMachine:OnTakeControl(ri) return end
+function ArcadeMachine:OnTakeControl(ri) end
 
----@protected
 ---@param target entEntityID
 ---@param statusEffect TweakDBID|string
 ---@return nil
-function ArcadeMachine:ApplyActiveStatusEffect(target, statusEffect) return end
+function ArcadeMachine:ApplyActiveStatusEffect(target, statusEffect) end
 
----@protected
 ---@return nil
-function ArcadeMachine:CreateBlackboard() return end
+function ArcadeMachine:CreateBlackboard() end
 
----@protected
 ---@return nil
-function ArcadeMachine:CutPower() return end
+function ArcadeMachine:CutPower() end
 
 ---@return EGameplayRole
-function ArcadeMachine:DeterminGameplayRole() return end
+function ArcadeMachine:DeterminGameplayRole() end
 
 ---@return CName
-function ArcadeMachine:GetArcadeGameAudio() return end
+function ArcadeMachine:GetArcadeGameAudio() end
 
 ---@return CName
-function ArcadeMachine:GetArcadeGameAudioStop() return end
+function ArcadeMachine:GetArcadeGameAudioStop() end
 
 ---@return redResourceReferenceScriptToken
-function ArcadeMachine:GetArcadeGameVideo() return end
+function ArcadeMachine:GetArcadeGameVideo() end
 
 ---@return ArcadeMachineBlackboardDef
-function ArcadeMachine:GetBlackboardDef() return end
+function ArcadeMachine:GetBlackboardDef() end
 
----@protected
 ---@return ArcadeMachineController
-function ArcadeMachine:GetController() return end
+function ArcadeMachine:GetController() end
 
 ---@return ArcadeMachineControllerPS
-function ArcadeMachine:GetDevicePS() return end
+function ArcadeMachine:GetDevicePS() end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@param isInteractionActive Bool
 ---@return nil
-function ArcadeMachine:OnDirectInteractionActive(evt, isInteractionActive) return end
+function ArcadeMachine:OnDirectInteractionActive(evt, isInteractionActive) end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function ArcadeMachine:ResavePersistentData(ps) return end
+function ArcadeMachine:ResavePersistentData(ps) end
 
----@protected
 ---@return nil
-function ArcadeMachine:ResolveGameplayState() return end
+function ArcadeMachine:ResolveGameplayState() end
 
----@private
 ---@return nil
-function ArcadeMachine:Setup() return end
+function ArcadeMachine:Setup() end
 
----@private
 ---@return nil
-function ArcadeMachine:SetupMinigame() return end
+function ArcadeMachine:SetupMinigame() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function ArcadeMachine:StartGlitching(glitchState, intensity) return end
+function ArcadeMachine:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function ArcadeMachine:StartShortGlitch() return end
+function ArcadeMachine:StartShortGlitch() end
 
----@protected
 ---@return nil
-function ArcadeMachine:StopGlitching() return end
+function ArcadeMachine:StopGlitching() end
 
----@protected
 ---@return nil
-function ArcadeMachine:TurnOffDevice() return end
+function ArcadeMachine:TurnOffDevice() end
 
----@protected
 ---@return nil
-function ArcadeMachine:TurnOffScreen() return end
+function ArcadeMachine:TurnOffScreen() end
 
----@protected
 ---@return nil
-function ArcadeMachine:TurnOnDevice() return end
+function ArcadeMachine:TurnOnDevice() end
 
----@protected
 ---@return nil
-function ArcadeMachine:TurnOnScreen() return end
+function ArcadeMachine:TurnOnScreen() end
 
----@protected
 ---@param targetID entEntityID
 ---@return nil
-function ArcadeMachine:UploadActiveProgramOnNPC(targetID) return end
+function ArcadeMachine:UploadActiveProgramOnNPC(targetID) end

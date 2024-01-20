@@ -1,47 +1,47 @@
 ---@meta
 
 ---@class Codeware_UI_VirtualResolutionData: IScriptable
----@field public resolution String
----@field public size Vector2
----@field public scale Vector2
+---@field resolution String
+---@field size Vector2
+---@field scale Vector2
 Codeware_UI_VirtualResolutionData = {}
 
 ---@param fields? Codeware_UI_VirtualResolutionData
 ---@return Codeware_UI_VirtualResolutionData
-function Codeware_UI_VirtualResolutionData.new(fields) return end
+function Codeware_UI_VirtualResolutionData.new(fields) end
 
 ---@param resolution String
 ---@param size Vector2
 ---@param scale Vector2
 ---@return Codeware_UI_VirtualResolutionData
-function Codeware_UI_VirtualResolutionData.Create(resolution, size, scale) return end
+function Codeware_UI_VirtualResolutionData.Create(resolution, size, scale) end
 
 ---@return Float
-function Codeware_UI_VirtualResolutionData:GetAspectRatio() return end
+function Codeware_UI_VirtualResolutionData:GetAspectRatio() end
 
 ---@return Float
-function Codeware_UI_VirtualResolutionData:GetHeight() return end
+function Codeware_UI_VirtualResolutionData:GetHeight() end
 
 ---@return String
-function Codeware_UI_VirtualResolutionData:GetResolution() return end
+function Codeware_UI_VirtualResolutionData:GetResolution() end
 
 ---@return Vector2
-function Codeware_UI_VirtualResolutionData:GetScale() return end
+function Codeware_UI_VirtualResolutionData:GetScale() end
 
 ---@return Float
-function Codeware_UI_VirtualResolutionData:GetScaleX() return end
+function Codeware_UI_VirtualResolutionData:GetScaleX() end
 
 ---@return Float
-function Codeware_UI_VirtualResolutionData:GetScaleY() return end
+function Codeware_UI_VirtualResolutionData:GetScaleY() end
 
 ---@return Vector2
-function Codeware_UI_VirtualResolutionData:GetSize() return end
+function Codeware_UI_VirtualResolutionData:GetSize() end
 
 ---@return Vector2
-function Codeware_UI_VirtualResolutionData:GetSmartScale() return end
+function Codeware_UI_VirtualResolutionData:GetSmartScale() end
 
 ---@return Float
-function Codeware_UI_VirtualResolutionData:GetSmartScaleFactor() return end
+function Codeware_UI_VirtualResolutionData:GetSmartScaleFactor() end
 
 ---@return Float
-function Codeware_UI_VirtualResolutionData:GetWidth() return end
+function Codeware_UI_VirtualResolutionData:GetWidth() end

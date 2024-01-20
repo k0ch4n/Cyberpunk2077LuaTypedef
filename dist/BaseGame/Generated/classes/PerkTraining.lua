@@ -1,132 +1,107 @@
 ---@meta
 
 ---@class PerkTraining: InteractiveDevice
----@field private progressBarHeaderText String
----@field private progressBarBottomText String
----@field private pulsingEndSoundName CName
----@field private animFeature AnimFeature_PerkDeviceData
----@field private uiSlots entSlotComponent
+---@field progressBarHeaderText String
+---@field progressBarBottomText String
+---@field pulsingEndSoundName CName
+---@field animFeature AnimFeature_PerkDeviceData
+---@field uiSlots entSlotComponent
 PerkTraining = {}
 
 ---@param fields? PerkTraining
 ---@return PerkTraining
-function PerkTraining.new(fields) return end
+function PerkTraining.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function PerkTraining:OnAreaEnter(evt) return end
+function PerkTraining:OnAreaEnter(evt) end
 
----@protected
 ---@param evt ConnectionEndedEvent
 ---@return Bool
-function PerkTraining:OnConnectionEnded(evt) return end
+function PerkTraining:OnConnectionEnded(evt) end
 
----@protected
 ---@return Bool
-function PerkTraining:OnDetach() return end
+function PerkTraining:OnDetach() end
 
----@protected
 ---@return Bool
-function PerkTraining:OnGameAttached() return end
+function PerkTraining:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function PerkTraining:OnRequestComponents(ri) return end
+function PerkTraining:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function PerkTraining:OnTakeControl(ri) return end
+function PerkTraining:OnTakeControl(ri) end
 
----@protected
 ---@param evt PerkDeviceTickEvent
 ---@return Bool
-function PerkTraining:OnTick(evt) return end
+function PerkTraining:OnTick(evt) end
 
----@protected
 ---@param evt TogglePersonalLink
 ---@return Bool
-function PerkTraining:OnTogglePersonalLink(evt) return end
+function PerkTraining:OnTogglePersonalLink(evt) end
 
 ---@return EGameplayRole
-function PerkTraining:DeterminGameplayRole() return end
+function PerkTraining:DeterminGameplayRole() end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@return nil
-function PerkTraining:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
+function PerkTraining:EnterWorkspot(activator, freeCamera, componentName, deviceData) end
 
----@private
 ---@return PerkTrainingController
-function PerkTraining:GetController() return end
+function PerkTraining:GetController() end
 
 ---@return PerkTrainingControllerPS
-function PerkTraining:GetDevicePS() return end
+function PerkTraining:GetDevicePS() end
 
----@private
 ---@return CName
-function PerkTraining:GetLightsEffectName() return end
+function PerkTraining:GetLightsEffectName() end
 
----@private
 ---@return RelicPerkSystem
-function PerkTraining:GetPerkSystem() return end
+function PerkTraining:GetPerkSystem() end
 
----@private
 ---@return gameIBlackboard
-function PerkTraining:GetProgressBarBlackboard() return end
+function PerkTraining:GetProgressBarBlackboard() end
 
----@private
 ---@return Vector4
-function PerkTraining:GetSlotPosition() return end
+function PerkTraining:GetSlotPosition() end
 
----@private
 ---@return nil
-function PerkTraining:HideMappin() return end
+function PerkTraining:HideMappin() end
 
----@protected
 ---@param puppet gameObject
 ---@return nil
-function PerkTraining:InitiatePersonalLinkWorkspot(puppet) return end
+function PerkTraining:InitiatePersonalLinkWorkspot(puppet) end
 
----@private
 ---@param evt entTriggerEvent
 ---@return Bool
-function PerkTraining:IsTriggeredByPlayer(evt) return end
+function PerkTraining:IsTriggeredByPlayer(evt) end
 
----@private
 ---@return nil
-function PerkTraining:SetInitialAnimationState() return end
+function PerkTraining:SetInitialAnimationState() end
 
----@private
 ---@param isActive Bool
 ---@return nil
-function PerkTraining:SetProgressBarActiveState(isActive) return end
+function PerkTraining:SetProgressBarActiveState(isActive) end
 
----@private
 ---@return nil
-function PerkTraining:SetProgressBarTexts() return end
+function PerkTraining:SetProgressBarTexts() end
 
----@private
 ---@return nil
-function PerkTraining:ShowMappin() return end
+function PerkTraining:ShowMappin() end
 
----@private
 ---@return nil
-function PerkTraining:StartProgressBar() return end
+function PerkTraining:StartProgressBar() end
 
----@private
 ---@return nil
-function PerkTraining:StartTickEvent() return end
+function PerkTraining:StartTickEvent() end
 
----@private
 ---@return nil
-function PerkTraining:TryShowMappin() return end
+function PerkTraining:TryShowMappin() end
 
----@private
 ---@return nil
-function PerkTraining:UpdatePulsingEffects() return end
+function PerkTraining:UpdatePulsingEffects() end

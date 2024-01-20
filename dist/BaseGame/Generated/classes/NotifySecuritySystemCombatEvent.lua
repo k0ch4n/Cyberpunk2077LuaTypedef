@@ -5,4 +5,4 @@ NotifySecuritySystemCombatEvent = {}
 
 ---@param fields? NotifySecuritySystemCombatEvent
 ---@return NotifySecuritySystemCombatEvent
-function NotifySecuritySystemCombatEvent.new(fields) return end
+function NotifySecuritySystemCombatEvent.new(fields) end

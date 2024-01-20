@@ -1,42 +1,40 @@
 ---@meta
 
 ---@class OxygenStatListener: gameCustomValueStatPoolsListener
----@field public ownerPuppet PlayerPuppet
----@field public oxygenVfxBlackboard worldEffectBlackboard
+---@field ownerPuppet PlayerPuppet
+---@field oxygenVfxBlackboard worldEffectBlackboard
 OxygenStatListener = {}
 
 ---@param fields? OxygenStatListener
 ---@return OxygenStatListener
-function OxygenStatListener.new(fields) return end
+function OxygenStatListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function OxygenStatListener:OnStatPoolMinValueReached(value) return end
+function OxygenStatListener:OnStatPoolMinValueReached(value) end
 
----@protected
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return Bool
-function OxygenStatListener:OnStatPoolValueReached(oldValue, newValue, percToPoints) return end
+function OxygenStatListener:OnStatPoolValueReached(oldValue, newValue, percToPoints) end
 
 ---@param b Bool
 ---@return nil
-function OxygenStatListener:CriticalOxygenLevel(b) return end
+function OxygenStatListener:CriticalOxygenLevel(b) end
 
 ---@param b Bool
 ---@return nil
-function OxygenStatListener:IsOutOfOxygen(b) return end
+function OxygenStatListener:IsOutOfOxygen(b) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function OxygenStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function OxygenStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function OxygenStatListener:TestOxygenLevel(oldValue, newValue, percToPoints) return end
+function OxygenStatListener:TestOxygenLevel(oldValue, newValue, percToPoints) end

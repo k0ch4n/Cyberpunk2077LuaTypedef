@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class AIbehaviorNodeRefConverterTaskDefinition: AIbehaviorTaskDefinition
----@field public nodeRef AIArgumentMapping
----@field public result AIArgumentMapping
+---@field nodeRef AIArgumentMapping
+---@field result AIArgumentMapping
 AIbehaviorNodeRefConverterTaskDefinition = {}

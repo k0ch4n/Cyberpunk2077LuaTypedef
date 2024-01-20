@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class SelfRemovalEvents: gamestateMachineFunctor
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 SelfRemovalEvents = {}
 
 ---@param fields? SelfRemovalEvents
 ---@return SelfRemovalEvents
-function SelfRemovalEvents.new(fields) return end
+function SelfRemovalEvents.new(fields) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SelfRemovalEvents:OnEnter(stateContext, scriptInterface) return end
+function SelfRemovalEvents:OnEnter(stateContext, scriptInterface) end

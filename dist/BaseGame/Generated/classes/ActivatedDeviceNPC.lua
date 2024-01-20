@@ -1,58 +1,50 @@
 ---@meta
 
 ---@class ActivatedDeviceNPC: ActivatedDeviceTransfromAnim
----@field public hasProperAnimations Bool
+---@field hasProperAnimations Bool
 ActivatedDeviceNPC = {}
 
 ---@param fields? ActivatedDeviceNPC
 ---@return ActivatedDeviceNPC
-function ActivatedDeviceNPC.new(fields) return end
+function ActivatedDeviceNPC.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function ActivatedDeviceNPC:OnActivateDevice(evt) return end
+function ActivatedDeviceNPC:OnActivateDevice(evt) end
 
----@protected
 ---@param evt gameEntitySpawnerEvent
 ---@return Bool
-function ActivatedDeviceNPC:OnGameEntitySpawnerEvent(evt) return end
+function ActivatedDeviceNPC:OnGameEntitySpawnerEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ActivatedDeviceNPC:OnRequestComponents(ri) return end
+function ActivatedDeviceNPC:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SpiderbotOrderCompletedEvent
 ---@return Bool
-function ActivatedDeviceNPC:OnSpiderbotOrderCompletedEvent(evt) return end
+function ActivatedDeviceNPC:OnSpiderbotOrderCompletedEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ActivatedDeviceNPC:OnTakeControl(ri) return end
+function ActivatedDeviceNPC:OnTakeControl(ri) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function ActivatedDeviceNPC:OnWorkspotFinished(componentName) return end
+function ActivatedDeviceNPC:OnWorkspotFinished(componentName) end
 
 ---@return EGameplayRole
-function ActivatedDeviceNPC:DeterminGameplayRole() return end
+function ActivatedDeviceNPC:DeterminGameplayRole() end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@param typeOfEvent? CName|string
 ---@return nil
-function ActivatedDeviceNPC:EnterWorkspot(activator, freeCamera, componentName, deviceData, typeOfEvent) return end
+function ActivatedDeviceNPC:EnterWorkspot(activator, freeCamera, componentName, deviceData, typeOfEvent) end
 
----@protected
 ---@return ActivatedDeviceNPCController
-function ActivatedDeviceNPC:GetController() return end
+function ActivatedDeviceNPC:GetController() end
 
 ---@return ActivatedDeviceNPCControllerPS
-function ActivatedDeviceNPC:GetDevicePS() return end
+function ActivatedDeviceNPC:GetDevicePS() end

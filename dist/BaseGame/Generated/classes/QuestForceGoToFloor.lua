@@ -5,8 +5,8 @@ QuestForceGoToFloor = {}
 
 ---@param fields? QuestForceGoToFloor
 ---@return QuestForceGoToFloor
-function QuestForceGoToFloor.new(fields) return end
+function QuestForceGoToFloor.new(fields) end
 
 ---@param floor Int32
 ---@return nil
-function QuestForceGoToFloor:SetProperties(floor) return end
+function QuestForceGoToFloor:SetProperties(floor) end

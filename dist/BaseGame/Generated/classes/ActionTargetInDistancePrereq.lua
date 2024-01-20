@@ -1,27 +1,25 @@
 ---@meta
 
 ---@class ActionTargetInDistancePrereq: gameIScriptablePrereq
----@field public targetRecord gamedataAIActionTarget_Record
----@field public distance Float
----@field public distanceStat gamedataStatType
----@field public invert Bool
+---@field targetRecord gamedataAIActionTarget_Record
+---@field distance Float
+---@field distanceStat gamedataStatType
+---@field invert Bool
 ActionTargetInDistancePrereq = {}
 
 ---@param fields? ActionTargetInDistancePrereq
 ---@return ActionTargetInDistancePrereq
-function ActionTargetInDistancePrereq.new(fields) return end
+function ActionTargetInDistancePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ActionTargetInDistancePrereq:Initialize(recordID) return end
+function ActionTargetInDistancePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function ActionTargetInDistancePrereq:IsFulfilled(context) return end
+function ActionTargetInDistancePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ActionTargetInDistancePrereq:OnApplied(state, context) return end
+function ActionTargetInDistancePrereq:OnApplied(state, context) end

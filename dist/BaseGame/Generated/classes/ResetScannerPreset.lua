@@ -5,7 +5,7 @@ ResetScannerPreset = {}
 
 ---@param fields? ResetScannerPreset
 ---@return ResetScannerPreset
-function ResetScannerPreset.new(fields) return end
+function ResetScannerPreset.new(fields) end
 
 ---@return String
-function ResetScannerPreset:GetFriendlyDescription() return end
+function ResetScannerPreset:GetFriendlyDescription() end

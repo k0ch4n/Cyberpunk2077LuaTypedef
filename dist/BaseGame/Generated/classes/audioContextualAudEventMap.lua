@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioContextualAudEventMap: audioAudioMetadata
----@field public contextualAudEventMapItems audioContextualAudEventMapItem[]
+---@field contextualAudEventMapItems audioContextualAudEventMapItem[]
 audioContextualAudEventMap = {}
 
 ---@param fields? audioContextualAudEventMap
 ---@return audioContextualAudEventMap
-function audioContextualAudEventMap.new(fields) return end
+function audioContextualAudEventMap.new(fields) end

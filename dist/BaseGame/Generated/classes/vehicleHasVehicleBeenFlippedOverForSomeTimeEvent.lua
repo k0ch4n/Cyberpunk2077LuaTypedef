@@ -5,4 +5,4 @@ vehicleHasVehicleBeenFlippedOverForSomeTimeEvent = {}
 
 ---@param fields? vehicleHasVehicleBeenFlippedOverForSomeTimeEvent
 ---@return vehicleHasVehicleBeenFlippedOverForSomeTimeEvent
-function vehicleHasVehicleBeenFlippedOverForSomeTimeEvent.new(fields) return end
+function vehicleHasVehicleBeenFlippedOverForSomeTimeEvent.new(fields) end

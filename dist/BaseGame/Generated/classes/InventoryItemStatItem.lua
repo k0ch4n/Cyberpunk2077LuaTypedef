@@ -1,24 +1,23 @@
 ---@meta
 
 ---@class InventoryItemStatItem: inkWidgetLogicController
----@field private labelText inkTextWidgetReference
----@field private valueText inkTextWidgetReference
----@field private differenceBarRef inkWidgetReference
----@field private diffrenceArrowIndicatorRef inkWidgetReference
----@field public root inkWidget
----@field public differenceBar StatisticDifferenceBarController
----@field private negativeState CName
----@field private positiveState CName
+---@field labelText inkTextWidgetReference
+---@field valueText inkTextWidgetReference
+---@field differenceBarRef inkWidgetReference
+---@field diffrenceArrowIndicatorRef inkWidgetReference
+---@field root inkWidget
+---@field differenceBar StatisticDifferenceBarController
+---@field negativeState CName
+---@field positiveState CName
 InventoryItemStatItem = {}
 
 ---@param fields? InventoryItemStatItem
 ---@return InventoryItemStatItem
-function InventoryItemStatItem.new(fields) return end
+function InventoryItemStatItem.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryItemStatItem:OnInitialize() return end
+function InventoryItemStatItem:OnInitialize() end
 
 ---@param data InventoryTooltipData_StatData
 ---@return nil
-function InventoryItemStatItem:SetData(data) return end
+function InventoryItemStatItem:SetData(data) end

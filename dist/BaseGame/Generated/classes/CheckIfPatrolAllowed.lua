@@ -5,9 +5,8 @@ CheckIfPatrolAllowed = {}
 
 ---@param fields? CheckIfPatrolAllowed
 ---@return CheckIfPatrolAllowed
-function CheckIfPatrolAllowed.new(fields) return end
+function CheckIfPatrolAllowed.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckIfPatrolAllowed:Check(context) return end
+function CheckIfPatrolAllowed:Check(context) end

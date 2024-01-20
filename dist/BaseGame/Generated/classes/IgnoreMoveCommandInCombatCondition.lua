@@ -5,9 +5,8 @@ IgnoreMoveCommandInCombatCondition = {}
 
 ---@param fields? IgnoreMoveCommandInCombatCondition
 ---@return IgnoreMoveCommandInCombatCondition
-function IgnoreMoveCommandInCombatCondition.new(fields) return end
+function IgnoreMoveCommandInCombatCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IgnoreMoveCommandInCombatCondition:Check(context) return end
+function IgnoreMoveCommandInCombatCondition:Check(context) end

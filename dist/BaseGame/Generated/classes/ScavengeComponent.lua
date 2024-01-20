@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class ScavengeComponent: gameScriptableComponent
----@field public scavengeTargets gameObject[]
+---@field scavengeTargets gameObject[]
 ScavengeComponent = {}
 
 ---@param fields? ScavengeComponent
 ---@return ScavengeComponent
-function ScavengeComponent.new(fields) return end
+function ScavengeComponent.new(fields) end
 
----@protected
 ---@param evt ScavengeTargetConfirmEvent
 ---@return Bool
-function ScavengeComponent:OnScavengeTargetReceived(evt) return end
+function ScavengeComponent:OnScavengeTargetReceived(evt) end
 
----@protected
 ---@param evt senseVisibilityEvent
 ---@return Bool
-function ScavengeComponent:OnSenseVisibilityEvent(evt) return end
+function ScavengeComponent:OnSenseVisibilityEvent(evt) end
 
----@protected
 ---@param evt TargetScavengedEvent
 ---@return Bool
-function ScavengeComponent:OnTargetScavenged(evt) return end
+function ScavengeComponent:OnTargetScavenged(evt) end
 
 ---@return gameObject[]
-function ScavengeComponent:GetScavengeTargets() return end
+function ScavengeComponent:GetScavengeTargets() end
 
 ---@return nil
-function ScavengeComponent:OnGameAttach() return end
+function ScavengeComponent:OnGameAttach() end

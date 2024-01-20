@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeScoreController: inkWidgetLogicController
----@field public scoreText inkWidgetReference
+---@field scoreText inkWidgetReference
 gameuiarcadeArcadeScoreController = {}
 
 ---@param fields? gameuiarcadeArcadeScoreController
 ---@return gameuiarcadeArcadeScoreController
-function gameuiarcadeArcadeScoreController.new(fields) return end
+function gameuiarcadeArcadeScoreController.new(fields) end

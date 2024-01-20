@@ -5,4 +5,4 @@ TriggerPanicDrivingEvent = {}
 
 ---@param fields? TriggerPanicDrivingEvent
 ---@return TriggerPanicDrivingEvent
-function TriggerPanicDrivingEvent.new(fields) return end
+function TriggerPanicDrivingEvent.new(fields) end

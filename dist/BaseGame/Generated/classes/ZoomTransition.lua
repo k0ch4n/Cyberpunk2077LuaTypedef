@@ -6,146 +6,126 @@ ZoomTransition = {}
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function ZoomTransition:GetActualZoomValue(stateContext, scriptInterface) return end
+function ZoomTransition:GetActualZoomValue(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Float
-function ZoomTransition:GetBlendTime(stateContext) return end
+function ZoomTransition:GetBlendTime(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Float
-function ZoomTransition:GetCurrentZoomLevel(stateContext) return end
+function ZoomTransition:GetCurrentZoomLevel(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Float
-function ZoomTransition:GetNextZoomLevel(stateContext) return end
+function ZoomTransition:GetNextZoomLevel(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Float
-function ZoomTransition:GetPreviousZoomLevel(stateContext) return end
+function ZoomTransition:GetPreviousZoomLevel(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function ZoomTransition:GetShouldUseWeaponZoomData(stateContext) return end
+function ZoomTransition:GetShouldUseWeaponZoomData(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Int32
-function ZoomTransition:GetZoomLevelNumber(stateContext) return end
+function ZoomTransition:GetZoomLevelNumber(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Float[]
-function ZoomTransition:GetZoomLevelsArray(stateContext) return end
+function ZoomTransition:GetZoomLevelsArray(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param index Int32
 ---@return Float
-function ZoomTransition:GetZoomValueFromLevel(stateContext, index) return end
+function ZoomTransition:GetZoomValueFromLevel(stateContext, index) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ZoomTransition:IsConsideredAiming(stateContext, scriptInterface) return end
+function ZoomTransition:IsConsideredAiming(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param excludeSniperNest? Bool
 ---@return Bool
-function ZoomTransition:IsControllingDevice(stateContext, scriptInterface, excludeSniperNest) return end
+function ZoomTransition:IsControllingDevice(stateContext, scriptInterface, excludeSniperNest) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ZoomTransition:IsControllingSniperNestDevice(scriptInterface) return end
-
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function ZoomTransition:IsGenericDeviceAndFocusInactive(stateContext, scriptInterface) return end
+function ZoomTransition:IsControllingSniperNestDevice(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ZoomTransition:IsGenericDeviceOrFocusActive(stateContext, scriptInterface) return end
+function ZoomTransition:IsGenericDeviceAndFocusInactive(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function ZoomTransition:IsGenericDeviceOrFocusActive(stateContext, scriptInterface) end
+
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomTransition:PlayFocusModeZoomEnterSound(stateContext, scriptInterface) return end
+function ZoomTransition:PlayFocusModeZoomEnterSound(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomTransition:PlayZoomEndVisualEffect(stateContext, scriptInterface) return end
+function ZoomTransition:PlayZoomEndVisualEffect(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function ZoomTransition:ResetAimType(stateContext) return end
+function ZoomTransition:ResetAimType(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function ZoomTransition:ResetShouldUseWeaponZoomData(stateContext) return end
+function ZoomTransition:ResetShouldUseWeaponZoomData(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomTransition:SendZoomAnimFeatureData(stateContext, scriptInterface) return end
+function ZoomTransition:SendZoomAnimFeatureData(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Float
 ---@return nil
-function ZoomTransition:SetBlendTime(stateContext, value) return end
+function ZoomTransition:SetBlendTime(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param zoomLevel Int32
 ---@return nil
-function ZoomTransition:SetCurrentZoomLevel(stateContext, zoomLevel) return end
+function ZoomTransition:SetCurrentZoomLevel(stateContext, zoomLevel) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Float
 ---@return nil
-function ZoomTransition:SetPreviousZoomLevel(stateContext, value) return end
+function ZoomTransition:SetPreviousZoomLevel(stateContext, value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomTransition:SetShouldUseWeaponZoomData(stateContext, scriptInterface) return end
+function ZoomTransition:SetShouldUseWeaponZoomData(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param value Int32
 ---@return nil
-function ZoomTransition:SetZoomLevelNumber(stateContext, value) return end
+function ZoomTransition:SetZoomLevelNumber(stateContext, value) end
 
 ---@return Bool
-function ZoomTransition:ShouldPlayZoomExitSound() return end
+function ZoomTransition:ShouldPlayZoomExitSound() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ZoomTransition:ShouldPlayZoomFX(stateContext, scriptInterface) return end
+function ZoomTransition:ShouldPlayZoomFX(stateContext, scriptInterface) end
 
 ---@return Bool
-function ZoomTransition:ShouldPlayZoomStepSound() return end
+function ZoomTransition:ShouldPlayZoomStepSound() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomTransition:StartZoomEffect(stateContext, scriptInterface) return end
+function ZoomTransition:StartZoomEffect(stateContext, scriptInterface) end

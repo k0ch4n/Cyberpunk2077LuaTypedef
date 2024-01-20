@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameuiInputHintManagerGameController: gameuiWidgetGameController
----@field public hintContainerId CName
----@field public baseGroupContainer inkCompoundWidgetReference
----@field public groupsContainer inkCompoundWidgetReference
----@field public hintLibRef inkWidgetLibraryReference
----@field public groupLibRef inkWidgetLibraryReference
+---@field hintContainerId CName
+---@field baseGroupContainer inkCompoundWidgetReference
+---@field groupsContainer inkCompoundWidgetReference
+---@field hintLibRef inkWidgetLibraryReference
+---@field groupLibRef inkWidgetLibraryReference
 gameuiInputHintManagerGameController = {}
 
 ---@param fields? gameuiInputHintManagerGameController
 ---@return gameuiInputHintManagerGameController
-function gameuiInputHintManagerGameController.new(fields) return end
+function gameuiInputHintManagerGameController.new(fields) end

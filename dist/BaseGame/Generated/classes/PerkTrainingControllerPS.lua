@@ -1,57 +1,52 @@
 ---@meta
 
 ---@class PerkTrainingControllerPS: ScriptableDeviceComponentPS
----@field private interactionTweakDBID TweakDBID
----@field private loopTime Float
----@field private jackinStartTime Float
----@field protected isCorePerk Bool
----@field private perkGranted Bool
----@field private wasDetected Bool
+---@field interactionTweakDBID TweakDBID
+---@field loopTime Float
+---@field jackinStartTime Float
+---@field isCorePerk Bool
+---@field perkGranted Bool
+---@field wasDetected Bool
 PerkTrainingControllerPS = {}
 
 ---@param fields? PerkTrainingControllerPS
 ---@return PerkTrainingControllerPS
-function PerkTrainingControllerPS.new(fields) return end
+function PerkTrainingControllerPS.new(fields) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function PerkTrainingControllerPS:GetActions(context) return end
+function PerkTrainingControllerPS:GetActions(context) end
 
 ---@return Float
-function PerkTrainingControllerPS:GetLoopTime() return end
+function PerkTrainingControllerPS:GetLoopTime() end
 
 ---@return Bool
-function PerkTrainingControllerPS:IsPerkGranted() return end
+function PerkTrainingControllerPS:IsPerkGranted() end
 
----@protected
 ---@return Bool
-function PerkTrainingControllerPS:IsPersonalLinkActionIllegal() return end
+function PerkTrainingControllerPS:IsPersonalLinkActionIllegal() end
 
----@private
 ---@param evt ConnectionEndedEvent
 ---@return EntityNotificationType
-function PerkTrainingControllerPS:OnConnectionEnded(evt) return end
+function PerkTrainingControllerPS:OnConnectionEnded(evt) end
 
----@protected
 ---@param evt TogglePersonalLink
 ---@param abortOperations Bool
 ---@return nil
-function PerkTrainingControllerPS:ResolvePersonalLinkConnection(evt, abortOperations) return end
+function PerkTrainingControllerPS:ResolvePersonalLinkConnection(evt, abortOperations) end
 
 ---@return nil
-function PerkTrainingControllerPS:SetDeviceAsDetected() return end
+function PerkTrainingControllerPS:SetDeviceAsDetected() end
 
----@protected
 ---@return Bool
-function PerkTrainingControllerPS:ShouldExposePersonalLinkAction() return end
+function PerkTrainingControllerPS:ShouldExposePersonalLinkAction() end
 
----@private
 ---@param evt TogglePersonalLink
 ---@return nil
-function PerkTrainingControllerPS:StartConnectionLoopCountdown(evt) return end
+function PerkTrainingControllerPS:StartConnectionLoopCountdown(evt) end
 
 ---@return nil
-function PerkTrainingControllerPS:TryGrantPerk() return end
+function PerkTrainingControllerPS:TryGrantPerk() end
 
 ---@return Bool
-function PerkTrainingControllerPS:WasDetected() return end
+function PerkTrainingControllerPS:WasDetected() end

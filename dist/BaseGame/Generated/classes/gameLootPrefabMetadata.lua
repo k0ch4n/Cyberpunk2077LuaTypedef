@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameLootPrefabMetadata: worldPrefabMetadata
----@field public lootTableTDBIDs TweakDBID[]
----@field public ignoreParentPrefabs Bool
----@field public contentAssignment TweakDBID
+---@field lootTableTDBIDs TweakDBID[]
+---@field ignoreParentPrefabs Bool
+---@field contentAssignment TweakDBID
 gameLootPrefabMetadata = {}
 
 ---@param fields? gameLootPrefabMetadata
 ---@return gameLootPrefabMetadata
-function gameLootPrefabMetadata.new(fields) return end
+function gameLootPrefabMetadata.new(fields) end

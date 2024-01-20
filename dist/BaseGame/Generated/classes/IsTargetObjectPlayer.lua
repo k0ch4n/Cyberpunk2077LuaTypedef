@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class IsTargetObjectPlayer: AIbehaviorconditionScript
----@field protected targetObject AIArgumentMapping
+---@field targetObject AIArgumentMapping
 IsTargetObjectPlayer = {}
 
 ---@param fields? IsTargetObjectPlayer
 ---@return IsTargetObjectPlayer
-function IsTargetObjectPlayer.new(fields) return end
+function IsTargetObjectPlayer.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsTargetObjectPlayer:Activate(context) return end
+function IsTargetObjectPlayer:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsTargetObjectPlayer:Check(context) return end
+function IsTargetObjectPlayer:Check(context) end

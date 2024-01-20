@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class DeviceSystemBaseControllerPS: MasterControllerPS
----@field protected quickHacksEnabled Bool
+---@field quickHacksEnabled Bool
 DeviceSystemBaseControllerPS = {}
 
----@protected
 ---@return GetAccess
-function DeviceSystemBaseControllerPS:ActionGetAccess() return end
+function DeviceSystemBaseControllerPS:ActionGetAccess() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function DeviceSystemBaseControllerPS:GetActions(context) return end
+function DeviceSystemBaseControllerPS:GetActions(context) end
 
 ---@param evt GetAccess
 ---@return EntityNotificationType
-function DeviceSystemBaseControllerPS:OnGetAccess(evt) return end
+function DeviceSystemBaseControllerPS:OnGetAccess(evt) end
 
----@private
 ---@param device gameDeviceComponentPS
 ---@return nil
-function DeviceSystemBaseControllerPS:RevokeQuickHacks(device) return end
+function DeviceSystemBaseControllerPS:RevokeQuickHacks(device) end

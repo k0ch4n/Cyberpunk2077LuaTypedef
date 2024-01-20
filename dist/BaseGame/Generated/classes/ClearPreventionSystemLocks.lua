@@ -5,4 +5,4 @@ ClearPreventionSystemLocks = {}
 
 ---@param fields? ClearPreventionSystemLocks
 ---@return ClearPreventionSystemLocks
-function ClearPreventionSystemLocks.new(fields) return end
+function ClearPreventionSystemLocks.new(fields) end

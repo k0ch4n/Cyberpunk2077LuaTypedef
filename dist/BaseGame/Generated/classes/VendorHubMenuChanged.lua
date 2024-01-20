@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class VendorHubMenuChanged: redEvent
----@field public item HubVendorMenuItems
+---@field item HubVendorMenuItems
 VendorHubMenuChanged = {}
 
 ---@param fields? VendorHubMenuChanged
 ---@return VendorHubMenuChanged
-function VendorHubMenuChanged.new(fields) return end
+function VendorHubMenuChanged.new(fields) end

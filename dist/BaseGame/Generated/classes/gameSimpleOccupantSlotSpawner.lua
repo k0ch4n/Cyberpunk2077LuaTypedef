@@ -5,4 +5,4 @@ gameSimpleOccupantSlotSpawner = {}
 
 ---@param fields? gameSimpleOccupantSlotSpawner
 ---@return gameSimpleOccupantSlotSpawner
-function gameSimpleOccupantSlotSpawner.new(fields) return end
+function gameSimpleOccupantSlotSpawner.new(fields) end

@@ -1,58 +1,56 @@
 ---@meta
 
 ---@class gameuiGenericNotificationGameController: gameuiWidgetGameController
----@field public notificationsRoot inkCompoundWidgetReference
----@field public exclusiveProcessing Bool
+---@field notificationsRoot inkCompoundWidgetReference
+---@field exclusiveProcessing Bool
 gameuiGenericNotificationGameController = {}
 
 ---@param fields? gameuiGenericNotificationGameController
 ---@return gameuiGenericNotificationGameController
-function gameuiGenericNotificationGameController.new(fields) return end
+function gameuiGenericNotificationGameController.new(fields) end
 
 ---@param notification gameuiGenericNotificationData
 ---@return nil
-function gameuiGenericNotificationGameController:AddNewNotificationData(notification) return end
+function gameuiGenericNotificationGameController:AddNewNotificationData(notification) end
 
 ---@return Vector2
-function gameuiGenericNotificationGameController:GetBlackBarFullscreenWidgetOffsets() return end
+function gameuiGenericNotificationGameController:GetBlackBarFullscreenWidgetOffsets() end
 
 ---@return Vector2
-function gameuiGenericNotificationGameController:GetHudSafezoneWidgetOffsets() return end
+function gameuiGenericNotificationGameController:GetHudSafezoneWidgetOffsets() end
 
 ---@param value Bool
 ---@return nil
-function gameuiGenericNotificationGameController:MakeSilent(value) return end
+function gameuiGenericNotificationGameController:MakeSilent(value) end
 
 ---@return nil
-function gameuiGenericNotificationGameController:RemoveAllQueuedNotifications() return end
+function gameuiGenericNotificationGameController:RemoveAllQueuedNotifications() end
 
 ---@param notification IScriptable
 ---@return nil
-function gameuiGenericNotificationGameController:RemoveNotification(notification) return end
+function gameuiGenericNotificationGameController:RemoveNotification(notification) end
 
 ---@param value Bool
 ---@return nil
-function gameuiGenericNotificationGameController:SetNotificationPauseWhenHidden(value) return end
+function gameuiGenericNotificationGameController:SetNotificationPauseWhenHidden(value) end
 
 ---@param value Bool
 ---@return nil
-function gameuiGenericNotificationGameController:SetNotificationPaused(value) return end
+function gameuiGenericNotificationGameController:SetNotificationPaused(value) end
 
 ---@return nil
-function gameuiGenericNotificationGameController:SetNotificationVisibility() return end
+function gameuiGenericNotificationGameController:SetNotificationVisibility() end
 
----@protected
 ---@param evt questCleanupUiNotificationsEvent
 ---@return Bool
-function gameuiGenericNotificationGameController:OnCleanupUiNotificationsEvent(evt) return end
+function gameuiGenericNotificationGameController:OnCleanupUiNotificationsEvent(evt) end
 
----@protected
 ---@param evt MakeNotificationQueueSilentEvent
 ---@return Bool
-function gameuiGenericNotificationGameController:OnMakeNotificationQueueSilent(evt) return end
+function gameuiGenericNotificationGameController:OnMakeNotificationQueueSilent(evt) end
 
 ---@return Int32
-function gameuiGenericNotificationGameController:GetID() return end
+function gameuiGenericNotificationGameController:GetID() end
 
 ---@return Bool
-function gameuiGenericNotificationGameController:GetShouldSaveState() return end
+function gameuiGenericNotificationGameController:GetShouldSaveState() end

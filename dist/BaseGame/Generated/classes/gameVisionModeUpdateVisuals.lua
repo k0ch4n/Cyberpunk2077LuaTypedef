@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameVisionModeUpdateVisuals: redEvent
----@field public pulse Bool
+---@field pulse Bool
 gameVisionModeUpdateVisuals = {}
 
 ---@param fields? gameVisionModeUpdateVisuals
 ---@return gameVisionModeUpdateVisuals
-function gameVisionModeUpdateVisuals.new(fields) return end
+function gameVisionModeUpdateVisuals.new(fields) end

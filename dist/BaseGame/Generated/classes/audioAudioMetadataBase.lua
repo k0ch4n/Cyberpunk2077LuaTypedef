@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class audioAudioMetadataBase: ISerializable
----@field public name CName
+---@field name CName
 audioAudioMetadataBase = {}

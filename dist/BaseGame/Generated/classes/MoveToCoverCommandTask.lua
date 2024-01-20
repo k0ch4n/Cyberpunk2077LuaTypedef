@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class MoveToCoverCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIMoveToCoverCommand
----@field private coverID Uint64
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIMoveToCoverCommand
+---@field coverID Uint64
 MoveToCoverCommandTask = {}
 
 ---@param fields? MoveToCoverCommandTask
 ---@return MoveToCoverCommandTask
-function MoveToCoverCommandTask.new(fields) return end
+function MoveToCoverCommandTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MoveToCoverCommandTask:Activate(context) return end
+function MoveToCoverCommandTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MoveToCoverCommandTask:Deactivate(context) return end
+function MoveToCoverCommandTask:Deactivate(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function MoveToCoverCommandTask:ShouldInterrupt(context) return end
+function MoveToCoverCommandTask:ShouldInterrupt(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function MoveToCoverCommandTask:Update(context) return end
+function MoveToCoverCommandTask:Update(context) end

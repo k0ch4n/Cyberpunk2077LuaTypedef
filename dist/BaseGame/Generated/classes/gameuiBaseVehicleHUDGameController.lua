@@ -1,17 +1,15 @@
 ---@meta
 
 ---@class gameuiBaseVehicleHUDGameController: gameuiHUDGameController
----@field public mounted Bool
+---@field mounted Bool
 gameuiBaseVehicleHUDGameController = {}
 
 ---@param fields? gameuiBaseVehicleHUDGameController
 ---@return gameuiBaseVehicleHUDGameController
-function gameuiBaseVehicleHUDGameController.new(fields) return end
+function gameuiBaseVehicleHUDGameController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiBaseVehicleHUDGameController:OnVehicleMounted() return end
+function gameuiBaseVehicleHUDGameController:OnVehicleMounted() end
 
----@protected
 ---@return Bool
-function gameuiBaseVehicleHUDGameController:OnVehicleUnmounted() return end
+function gameuiBaseVehicleHUDGameController:OnVehicleUnmounted() end

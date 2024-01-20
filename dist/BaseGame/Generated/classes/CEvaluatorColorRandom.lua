@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CEvaluatorColorRandom: IEvaluatorColor
----@field public min Color
----@field public max Color
----@field public randomPerChannel Bool
+---@field min Color
+---@field max Color
+---@field randomPerChannel Bool
 CEvaluatorColorRandom = {}
 
 ---@param fields? CEvaluatorColorRandom
 ---@return CEvaluatorColorRandom
-function CEvaluatorColorRandom.new(fields) return end
+function CEvaluatorColorRandom.new(fields) end

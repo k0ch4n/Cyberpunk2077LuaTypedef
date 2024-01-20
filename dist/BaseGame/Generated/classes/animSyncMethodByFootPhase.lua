@@ -5,4 +5,4 @@ animSyncMethodByFootPhase = {}
 
 ---@param fields? animSyncMethodByFootPhase
 ---@return animSyncMethodByFootPhase
-function animSyncMethodByFootPhase.new(fields) return end
+function animSyncMethodByFootPhase.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorMonitorTaskNodeDefinition: AIbehaviorTaskNodeDefinition
----@field public timeout Float
+---@field timeout Float
 AIbehaviorMonitorTaskNodeDefinition = {}
 
 ---@param fields? AIbehaviorMonitorTaskNodeDefinition
 ---@return AIbehaviorMonitorTaskNodeDefinition
-function AIbehaviorMonitorTaskNodeDefinition.new(fields) return end
+function AIbehaviorMonitorTaskNodeDefinition.new(fields) end

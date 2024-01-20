@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animHasAnimationCondition: animIStaticCondition
----@field public animationName CName
+---@field animationName CName
 animHasAnimationCondition = {}
 
 ---@param fields? animHasAnimationCondition
 ---@return animHasAnimationCondition
-function animHasAnimationCondition.new(fields) return end
+function animHasAnimationCondition.new(fields) end

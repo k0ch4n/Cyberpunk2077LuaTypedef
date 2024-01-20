@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class SVFXOperationData
----@field public vfxName CName
----@field public vfxResource gameFxResource
----@field public shouldPersist Bool
----@field public size Float
----@field public nodeRef NodeRef
----@field public operationType EEffectOperationType
+---@field vfxName CName
+---@field vfxResource gameFxResource
+---@field shouldPersist Bool
+---@field size Float
+---@field nodeRef NodeRef
+---@field operationType EEffectOperationType
 SVFXOperationData = {}
 
 ---@param fields? SVFXOperationData
 ---@return SVFXOperationData
-function SVFXOperationData.new(fields) return end
+function SVFXOperationData.new(fields) end

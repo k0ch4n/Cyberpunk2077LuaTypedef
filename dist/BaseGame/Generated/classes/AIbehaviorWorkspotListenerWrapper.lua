@@ -5,4 +5,4 @@ AIbehaviorWorkspotListenerWrapper = {}
 
 ---@param fields? AIbehaviorWorkspotListenerWrapper
 ---@return AIbehaviorWorkspotListenerWrapper
-function AIbehaviorWorkspotListenerWrapper.new(fields) return end
+function AIbehaviorWorkspotListenerWrapper.new(fields) end

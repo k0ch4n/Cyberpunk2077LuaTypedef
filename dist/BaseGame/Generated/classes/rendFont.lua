@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class rendFont: CResource
----@field public fontBuffer DataBuffer
+---@field fontBuffer DataBuffer
 rendFont = {}
 
 ---@param fields? rendFont
 ---@return rendFont
-function rendFont.new(fields) return end
+function rendFont.new(fields) end

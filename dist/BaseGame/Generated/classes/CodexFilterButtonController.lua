@@ -1,44 +1,39 @@
 ---@meta
 
 ---@class CodexFilterButtonController: inkWidgetLogicController
----@field protected root inkWidgetReference
----@field protected image inkImageWidgetReference
----@field protected category CodexCategoryType
----@field protected toggled Bool
----@field protected hovered Bool
+---@field root inkWidgetReference
+---@field image inkImageWidgetReference
+---@field category CodexCategoryType
+---@field toggled Bool
+---@field hovered Bool
 CodexFilterButtonController = {}
 
 ---@param fields? CodexFilterButtonController
 ---@return CodexFilterButtonController
-function CodexFilterButtonController.new(fields) return end
+function CodexFilterButtonController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CodexFilterButtonController:OnClicked(e) return end
+function CodexFilterButtonController:OnClicked(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CodexFilterButtonController:OnHoverOut(e) return end
+function CodexFilterButtonController:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CodexFilterButtonController:OnHoverOver(e) return end
+function CodexFilterButtonController:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function CodexFilterButtonController:OnInitialize() return end
+function CodexFilterButtonController:OnInitialize() end
 
 ---@param category CodexCategoryType
 ---@return nil
-function CodexFilterButtonController:Setup(category) return end
+function CodexFilterButtonController:Setup(category) end
 
 ---@param selectedCategory CodexCategoryType
 ---@return nil
-function CodexFilterButtonController:UpdateSelectedCategory(selectedCategory) return end
+function CodexFilterButtonController:UpdateSelectedCategory(selectedCategory) end
 
----@protected
 ---@return nil
-function CodexFilterButtonController:UpdateState() return end
+function CodexFilterButtonController:UpdateState() end

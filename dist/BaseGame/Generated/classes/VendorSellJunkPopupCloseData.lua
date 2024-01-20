@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class VendorSellJunkPopupCloseData: inkGameNotificationData
----@field public confirm Bool
----@field public items gameItemData[]
----@field public limitedItems VendorJunkSellItem[]
+---@field confirm Bool
+---@field items gameItemData[]
+---@field limitedItems VendorJunkSellItem[]
 VendorSellJunkPopupCloseData = {}
 
 ---@param fields? VendorSellJunkPopupCloseData
 ---@return VendorSellJunkPopupCloseData
-function VendorSellJunkPopupCloseData.new(fields) return end
+function VendorSellJunkPopupCloseData.new(fields) end

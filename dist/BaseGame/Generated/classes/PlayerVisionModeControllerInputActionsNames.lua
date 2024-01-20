@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class PlayerVisionModeControllerInputActionsNames
----@field public buttonHold CName
----@field public buttonToggle CName
----@field public driverCombatButtonHold CName
----@field public driverCombatButtonActivate CName
+---@field buttonHold CName
+---@field buttonToggle CName
+---@field driverCombatButtonHold CName
+---@field driverCombatButtonActivate CName
 PlayerVisionModeControllerInputActionsNames = {}
 
 ---@param fields? PlayerVisionModeControllerInputActionsNames
 ---@return PlayerVisionModeControllerInputActionsNames
-function PlayerVisionModeControllerInputActionsNames.new(fields) return end
+function PlayerVisionModeControllerInputActionsNames.new(fields) end

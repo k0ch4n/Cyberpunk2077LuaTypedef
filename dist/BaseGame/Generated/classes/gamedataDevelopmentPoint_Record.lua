@@ -5,13 +5,13 @@ gamedataDevelopmentPoint_Record = {}
 
 ---@param fields? gamedataDevelopmentPoint_Record
 ---@return gamedataDevelopmentPoint_Record
-function gamedataDevelopmentPoint_Record.new(fields) return end
+function gamedataDevelopmentPoint_Record.new(fields) end
 
 ---@return String
-function gamedataDevelopmentPoint_Record:EnumComment() return end
+function gamedataDevelopmentPoint_Record:EnumComment() end
 
 ---@return CName
-function gamedataDevelopmentPoint_Record:EnumName() return end
+function gamedataDevelopmentPoint_Record:EnumName() end
 
 ---@return gamedataDevelopmentPointType
-function gamedataDevelopmentPoint_Record:Type() return end
+function gamedataDevelopmentPoint_Record:Type() end

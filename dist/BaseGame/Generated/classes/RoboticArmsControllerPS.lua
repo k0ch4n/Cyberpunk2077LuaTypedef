@@ -5,17 +5,14 @@ RoboticArmsControllerPS = {}
 
 ---@param fields? RoboticArmsControllerPS
 ---@return RoboticArmsControllerPS
-function RoboticArmsControllerPS.new(fields) return end
+function RoboticArmsControllerPS.new(fields) end
 
----@protected
 ---@return QuickHackDistraction
-function RoboticArmsControllerPS:ActionQuickHackDistraction() return end
+function RoboticArmsControllerPS:ActionQuickHackDistraction() end
 
----@protected
 ---@return Bool
-function RoboticArmsControllerPS:CanCreateAnyQuickHackActions() return end
+function RoboticArmsControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function RoboticArmsControllerPS:GetQuickHackActions(context) return end
+function RoboticArmsControllerPS:GetQuickHackActions(context) end

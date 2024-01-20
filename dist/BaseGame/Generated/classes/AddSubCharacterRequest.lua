@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AddSubCharacterRequest: gameScriptableSystemRequest
----@field public subCharObject ScriptedPuppet
+---@field subCharObject ScriptedPuppet
 AddSubCharacterRequest = {}
 
 ---@param fields? AddSubCharacterRequest
 ---@return AddSubCharacterRequest
-function AddSubCharacterRequest.new(fields) return end
+function AddSubCharacterRequest.new(fields) end

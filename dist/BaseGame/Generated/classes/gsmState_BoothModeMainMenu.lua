@@ -5,4 +5,4 @@ gsmState_BoothModeMainMenu = {}
 
 ---@param fields? gsmState_BoothModeMainMenu
 ---@return gsmState_BoothModeMainMenu
-function gsmState_BoothModeMainMenu.new(fields) return end
+function gsmState_BoothModeMainMenu.new(fields) end

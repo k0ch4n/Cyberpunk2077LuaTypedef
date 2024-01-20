@@ -5,4 +5,4 @@ CombatGadgetStartEvents = {}
 
 ---@param fields? CombatGadgetStartEvents
 ---@return CombatGadgetStartEvents
-function CombatGadgetStartEvents.new(fields) return end
+function CombatGadgetStartEvents.new(fields) end

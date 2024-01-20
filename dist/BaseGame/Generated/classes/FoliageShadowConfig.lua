@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class FoliageShadowConfig
----@field public foliageShadowCascadeGradient Float
----@field public foliageShadowCascadeFilterScale Float
----@field public foliageShadowCascadeGradientDistanceRange Float
+---@field foliageShadowCascadeGradient Float
+---@field foliageShadowCascadeFilterScale Float
+---@field foliageShadowCascadeGradientDistanceRange Float
 FoliageShadowConfig = {}
 
 ---@param fields? FoliageShadowConfig
 ---@return FoliageShadowConfig
-function FoliageShadowConfig.new(fields) return end
+function FoliageShadowConfig.new(fields) end

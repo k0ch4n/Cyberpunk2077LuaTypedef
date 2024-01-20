@@ -5,7 +5,7 @@ QuestExplode = {}
 
 ---@param fields? QuestExplode
 ---@return QuestExplode
-function QuestExplode.new(fields) return end
+function QuestExplode.new(fields) end
 
 ---@return nil
-function QuestExplode:SetProperties() return end
+function QuestExplode:SetProperties() end

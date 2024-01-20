@@ -5,4 +5,4 @@ questDebugShowMessageNodeDefinition = {}
 
 ---@param fields? questDebugShowMessageNodeDefinition
 ---@return questDebugShowMessageNodeDefinition
-function questDebugShowMessageNodeDefinition.new(fields) return end
+function questDebugShowMessageNodeDefinition.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioAudBulletTimeModeMap: audioAudioMetadata
----@field public bulletTimeMapItems audioAudBulletTimeModeMapItem[]
+---@field bulletTimeMapItems audioAudBulletTimeModeMapItem[]
 audioAudBulletTimeModeMap = {}
 
 ---@param fields? audioAudBulletTimeModeMap
 ---@return audioAudBulletTimeModeMap
-function audioAudBulletTimeModeMap.new(fields) return end
+function audioAudBulletTimeModeMap.new(fields) end

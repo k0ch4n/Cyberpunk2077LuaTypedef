@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CGradient: CResource
----@field public gradientEntries rendGradientEntry[]
+---@field gradientEntries rendGradientEntry[]
 CGradient = {}
 
 ---@param fields? CGradient
 ---@return CGradient
-function CGradient.new(fields) return end
+function CGradient.new(fields) end

@@ -1,35 +1,35 @@
 ---@meta
 
 ---@class ItemModeGridContainer: inkWidgetLogicController
----@field protected scrollControllerWidget inkCompoundWidgetReference
----@field protected sliderWidget inkWidgetReference
----@field protected itemsGridWidget inkWidgetReference
----@field protected filterGridWidget inkCompoundWidgetReference
----@field private F_eyesTexture inkWidgetReference
----@field private F_systemReplacementTexture inkWidgetReference
----@field private F_handsTexture inkWidgetReference
----@field private M_eyesTexture inkWidgetReference
----@field private M_systemReplacementTexture inkWidgetReference
----@field private M_handsTexture inkWidgetReference
----@field private inventoryWrapper inkWidgetReference
----@field private gridWrapper inkWidgetReference
----@field private scrollArea inkWidgetReference
----@field private outroAnimation inkanimProxy
+---@field scrollControllerWidget inkCompoundWidgetReference
+---@field sliderWidget inkWidgetReference
+---@field itemsGridWidget inkWidgetReference
+---@field filterGridWidget inkCompoundWidgetReference
+---@field F_eyesTexture inkWidgetReference
+---@field F_systemReplacementTexture inkWidgetReference
+---@field F_handsTexture inkWidgetReference
+---@field M_eyesTexture inkWidgetReference
+---@field M_systemReplacementTexture inkWidgetReference
+---@field M_handsTexture inkWidgetReference
+---@field inventoryWrapper inkWidgetReference
+---@field gridWrapper inkWidgetReference
+---@field scrollArea inkWidgetReference
+---@field outroAnimation inkanimProxy
 ItemModeGridContainer = {}
 
 ---@param fields? ItemModeGridContainer
 ---@return ItemModeGridContainer
-function ItemModeGridContainer.new(fields) return end
+function ItemModeGridContainer.new(fields) end
 
 ---@return inkCompoundWidgetReference
-function ItemModeGridContainer:GetFiltersGrid() return end
+function ItemModeGridContainer:GetFiltersGrid() end
 
 ---@return inkWidgetReference
-function ItemModeGridContainer:GetItemsGrid() return end
+function ItemModeGridContainer:GetItemsGrid() end
 
 ---@return inkWidget
-function ItemModeGridContainer:GetItemsWidget() return end
+function ItemModeGridContainer:GetItemsWidget() end
 
 ---@param size ItemModeGridSize
 ---@return nil
-function ItemModeGridContainer:SetSize(size) return end
+function ItemModeGridContainer:SetSize(size) end

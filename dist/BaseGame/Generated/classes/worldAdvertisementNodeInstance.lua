@@ -5,4 +5,4 @@ worldAdvertisementNodeInstance = {}
 
 ---@param fields? worldAdvertisementNodeInstance
 ---@return worldAdvertisementNodeInstance
-function worldAdvertisementNodeInstance.new(fields) return end
+function worldAdvertisementNodeInstance.new(fields) end

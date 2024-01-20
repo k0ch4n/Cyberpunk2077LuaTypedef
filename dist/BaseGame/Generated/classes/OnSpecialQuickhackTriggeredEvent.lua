@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OnSpecialQuickhackTriggeredEvent: DelayEvent
----@field public quickhackData QuickhackData
+---@field quickhackData QuickhackData
 OnSpecialQuickhackTriggeredEvent = {}
 
 ---@param fields? OnSpecialQuickhackTriggeredEvent
 ---@return OnSpecialQuickhackTriggeredEvent
-function OnSpecialQuickhackTriggeredEvent.new(fields) return end
+function OnSpecialQuickhackTriggeredEvent.new(fields) end

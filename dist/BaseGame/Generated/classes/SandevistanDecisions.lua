@@ -1,40 +1,36 @@
 ---@meta
 
 ---@class SandevistanDecisions: TimeDilationTransitions
----@field private statListener DefaultTransitionStatListener
+---@field statListener DefaultTransitionStatListener
 SandevistanDecisions = {}
 
 ---@param fields? SandevistanDecisions
 ---@return SandevistanDecisions
-function SandevistanDecisions.new(fields) return end
+function SandevistanDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SandevistanDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SandevistanDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SandevistanDecisions:OnAttach(stateContext, scriptInterface) return end
+function SandevistanDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SandevistanDecisions:OnDetach(stateContext, scriptInterface) return end
+function SandevistanDecisions:OnDetach(stateContext, scriptInterface) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function SandevistanDecisions:OnStatChanged(ownerID, statType, diff, total) return end
+function SandevistanDecisions:OnStatChanged(ownerID, statType, diff, total) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SandevistanDecisions:ToTimeDilationReady(stateContext, scriptInterface) return end
+function SandevistanDecisions:ToTimeDilationReady(stateContext, scriptInterface) end

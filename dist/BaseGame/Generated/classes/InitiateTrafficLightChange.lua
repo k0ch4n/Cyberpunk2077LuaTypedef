@@ -5,7 +5,7 @@ InitiateTrafficLightChange = {}
 
 ---@param fields? InitiateTrafficLightChange
 ---@return InitiateTrafficLightChange
-function InitiateTrafficLightChange.new(fields) return end
+function InitiateTrafficLightChange.new(fields) end
 
 ---@return nil
-function InitiateTrafficLightChange:SetProperties() return end
+function InitiateTrafficLightChange:SetProperties() end

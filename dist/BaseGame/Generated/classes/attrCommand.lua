@@ -5,4 +5,4 @@ attrCommand = {}
 
 ---@param fields? attrCommand
 ---@return attrCommand
-function attrCommand.new(fields) return end
+function attrCommand.new(fields) end

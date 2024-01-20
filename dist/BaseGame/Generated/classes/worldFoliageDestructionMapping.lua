@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldFoliageDestructionMapping: ISerializable
----@field public baseMesh CMesh
----@field public destructibleMesh CMesh
+---@field baseMesh CMesh
+---@field destructibleMesh CMesh
 worldFoliageDestructionMapping = {}
 
 ---@param fields? worldFoliageDestructionMapping
 ---@return worldFoliageDestructionMapping
-function worldFoliageDestructionMapping.new(fields) return end
+function worldFoliageDestructionMapping.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DeathTaskData: gameScriptTaskData
----@field public instigator gameObject
+---@field instigator gameObject
 DeathTaskData = {}
 
 ---@param fields? DeathTaskData
 ---@return DeathTaskData
-function DeathTaskData.new(fields) return end
+function DeathTaskData.new(fields) end

@@ -1,79 +1,68 @@
 ---@meta
 
 ---@class MinimapPOIMappinController: gameuiBaseMinimapMappinController
----@field protected pulseWidget inkWidgetReference
----@field protected pingAnimationOnStateChange Bool
----@field private poiMappin gamemappinsPointOfInterestMappin
----@field private questMappin gamemappinsQuestMappin
----@field private isCompletedPhase Bool
----@field private mappinPhase gamedataMappinPhase
----@field private pingAnim inkanimProxy
----@field private mappinVariant gamedataMappinVariant
----@field private c_pingAnimCount Uint32
----@field private isNcpdScanner Bool
----@field private vehicleMinimapMappinComponent VehicleMinimapMappinComponent
----@field private keepIconOnClamping Bool
+---@field pulseWidget inkWidgetReference
+---@field pingAnimationOnStateChange Bool
+---@field poiMappin gamemappinsPointOfInterestMappin
+---@field questMappin gamemappinsQuestMappin
+---@field isCompletedPhase Bool
+---@field mappinPhase gamedataMappinPhase
+---@field pingAnim inkanimProxy
+---@field mappinVariant gamedataMappinVariant
+---@field c_pingAnimCount Uint32
+---@field isNcpdScanner Bool
+---@field vehicleMinimapMappinComponent VehicleMinimapMappinComponent
+---@field keepIconOnClamping Bool
 MinimapPOIMappinController = {}
 
 ---@param fields? MinimapPOIMappinController
 ---@return MinimapPOIMappinController
-function MinimapPOIMappinController.new(fields) return end
+function MinimapPOIMappinController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function MinimapPOIMappinController:OnPulseAnimLoop(anim) return end
+function MinimapPOIMappinController:OnPulseAnimLoop(anim) end
 
----@protected
 ---@param evt QuestMappinHighlightEvent
 ---@return Bool
-function MinimapPOIMappinController:OnQuestMappinHighlight(evt) return end
+function MinimapPOIMappinController:OnQuestMappinHighlight(evt) end
 
----@protected
 ---@return Bool
-function MinimapPOIMappinController:OnUninitialize() return end
+function MinimapPOIMappinController:OnUninitialize() end
 
----@protected
 ---@return CName
-function MinimapPOIMappinController:ComputeRootState() return end
+function MinimapPOIMappinController:ComputeRootState() end
 
----@protected
 ---@return nil
-function MinimapPOIMappinController:Initialize() return end
+function MinimapPOIMappinController:Initialize() end
 
----@protected
 ---@return nil
-function MinimapPOIMappinController:Intro() return end
+function MinimapPOIMappinController:Intro() end
 
----@private
 ---@param variant gamedataMappinVariant
 ---@return Bool
-function MinimapPOIMappinController:IsNcpdScanner(variant) return end
+function MinimapPOIMappinController:IsNcpdScanner(variant) end
 
----@protected
 ---@return Bool
-function MinimapPOIMappinController:KeepIconOnClamping() return end
+function MinimapPOIMappinController:KeepIconOnClamping() end
 
 ---@param loopInfinite? Bool
 ---@param overrideAnimName? CName|string
 ---@return Bool
-function MinimapPOIMappinController:PlayPingAnimation(loopInfinite, overrideAnimName) return end
+function MinimapPOIMappinController:PlayPingAnimation(loopInfinite, overrideAnimName) end
 
 ---@return nil
-function MinimapPOIMappinController:RequestUpdateRootState() return end
+function MinimapPOIMappinController:RequestUpdateRootState() end
 
 ---@param goToEnd? Bool
 ---@return nil
-function MinimapPOIMappinController:StopPingAnimation(goToEnd) return end
+function MinimapPOIMappinController:StopPingAnimation(goToEnd) end
 
----@protected
 ---@return nil
-function MinimapPOIMappinController:Update() return end
+function MinimapPOIMappinController:Update() end
 
----@protected
 ---@return nil
-function MinimapPOIMappinController:UpdateIcon() return end
+function MinimapPOIMappinController:UpdateIcon() end
 
----@protected
 ---@return nil
-function MinimapPOIMappinController:UpdateVisibility() return end
+function MinimapPOIMappinController:UpdateVisibility() end

@@ -5,4 +5,4 @@ RegularLandLowGravityDecisions = {}
 
 ---@param fields? RegularLandLowGravityDecisions
 ---@return RegularLandLowGravityDecisions
-function RegularLandLowGravityDecisions.new(fields) return end
+function RegularLandLowGravityDecisions.new(fields) end

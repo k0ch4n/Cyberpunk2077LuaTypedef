@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ItemTooltipAttributeRequirement: inkWidgetLogicController
----@field private labelRef inkTextWidgetReference
+---@field labelRef inkTextWidgetReference
 ItemTooltipAttributeRequirement = {}
 
 ---@param fields? ItemTooltipAttributeRequirement
 ---@return ItemTooltipAttributeRequirement
-function ItemTooltipAttributeRequirement.new(fields) return end
+function ItemTooltipAttributeRequirement.new(fields) end
 
 ---@param data MinimalItemTooltipDataStatRequirement
 ---@return nil
-function ItemTooltipAttributeRequirement:SetData(data) return end
+function ItemTooltipAttributeRequirement:SetData(data) end

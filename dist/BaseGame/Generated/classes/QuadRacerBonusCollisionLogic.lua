@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class QuadRacerBonusCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
----@field private hasTriggered Bool
+---@field hasTriggered Bool
 QuadRacerBonusCollisionLogic = {}
 
 ---@param fields? QuadRacerBonusCollisionLogic
 ---@return QuadRacerBonusCollisionLogic
-function QuadRacerBonusCollisionLogic.new(fields) return end
+function QuadRacerBonusCollisionLogic.new(fields) end
 
----@protected
 ---@param hitEvent gameuiOnHitPlayerEvent
 ---@return Bool
-function QuadRacerBonusCollisionLogic:OnHitPlayer(hitEvent) return end
+function QuadRacerBonusCollisionLogic:OnHitPlayer(hitEvent) end
 
----@protected
 ---@return Bool
-function QuadRacerBonusCollisionLogic:OnInitialize() return end
+function QuadRacerBonusCollisionLogic:OnInitialize() end
 
----@protected
 ---@return Bool
-function QuadRacerBonusCollisionLogic:OnRecycle() return end
+function QuadRacerBonusCollisionLogic:OnRecycle() end
 
----@protected
 ---@param gameState gameuiQuadRacerGameState
 ---@return nil
-function QuadRacerBonusCollisionLogic:ChangeGameState(gameState) return end
+function QuadRacerBonusCollisionLogic:ChangeGameState(gameState) end

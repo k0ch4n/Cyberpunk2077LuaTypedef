@@ -1,34 +1,32 @@
 ---@meta
 
 ---@class BaseHitPrereqCondition: IScriptable
----@field public invert Bool
----@field public onlyOncePerShot Bool
----@field public lastAttackTime Float
+---@field invert Bool
+---@field onlyOncePerShot Bool
+---@field lastAttackTime Float
 BaseHitPrereqCondition = {}
 
 ---@param fields? BaseHitPrereqCondition
 ---@return BaseHitPrereqCondition
-function BaseHitPrereqCondition.new(fields) return end
-
----@protected
----@param hitEvent gameeventsHitEvent
----@return Bool
-function BaseHitPrereqCondition:CheckOnlyOncePerShot(hitEvent) return end
+function BaseHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function BaseHitPrereqCondition:Evaluate(hitEvent) return end
+function BaseHitPrereqCondition:CheckOnlyOncePerShot(hitEvent) end
 
----@protected
+---@param hitEvent gameeventsHitEvent
+---@return Bool
+function BaseHitPrereqCondition:Evaluate(hitEvent) end
+
 ---@param obj CName|string
 ---@param hitEvent gameeventsHitEvent
 ---@return gameObject
-function BaseHitPrereqCondition:GetObjectToCheck(obj, hitEvent) return end
+function BaseHitPrereqCondition:GetObjectToCheck(obj, hitEvent) end
 
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function BaseHitPrereqCondition:OnMissTriggered(missEvent) return end
+function BaseHitPrereqCondition:OnMissTriggered(missEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function BaseHitPrereqCondition:SetData(recordID) return end
+function BaseHitPrereqCondition:SetData(recordID) end

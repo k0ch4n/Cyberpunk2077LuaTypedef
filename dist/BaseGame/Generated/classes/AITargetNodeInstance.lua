@@ -5,4 +5,4 @@ AITargetNodeInstance = {}
 
 ---@param fields? AITargetNodeInstance
 ---@return AITargetNodeInstance
-function AITargetNodeInstance.new(fields) return end
+function AITargetNodeInstance.new(fields) end

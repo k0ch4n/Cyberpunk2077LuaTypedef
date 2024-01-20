@@ -1,84 +1,75 @@
 ---@meta
 
 ---@class SniperNestControllerPS: SensorDeviceControllerPS
----@field private vfxNameOnShoot CName
----@field private isRippedOff Bool
+---@field vfxNameOnShoot CName
+---@field isRippedOff Bool
 SniperNestControllerPS = {}
 
 ---@param fields? SniperNestControllerPS
 ---@return SniperNestControllerPS
-function SniperNestControllerPS.new(fields) return end
+function SniperNestControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SniperNestControllerPS:OnInstantiated() return end
+function SniperNestControllerPS:OnInstantiated() end
 
----@protected
 ---@return QuestEjectPlayer
-function SniperNestControllerPS:ActionQuestEjectPlayer() return end
+function SniperNestControllerPS:ActionQuestEjectPlayer() end
 
----@protected
 ---@return QuestEnterNoAnimation
-function SniperNestControllerPS:ActionQuestEnterNoAnimation() return end
+function SniperNestControllerPS:ActionQuestEnterNoAnimation() end
 
----@protected
 ---@return QuestEnterPlayer
-function SniperNestControllerPS:ActionQuestEnterPlayer() return end
+function SniperNestControllerPS:ActionQuestEnterPlayer() end
 
----@protected
 ---@return QuestExitNoAnimation
-function SniperNestControllerPS:ActionQuestExitNoAnimation() return end
+function SniperNestControllerPS:ActionQuestExitNoAnimation() end
 
----@protected
 ---@return nil
-function SniperNestControllerPS:GameAttached() return end
+function SniperNestControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function SniperNestControllerPS:GetActions(context) return end
+function SniperNestControllerPS:GetActions(context) end
 
 ---@return Bool
-function SniperNestControllerPS:GetIsUnderControl() return end
+function SniperNestControllerPS:GetIsUnderControl() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function SniperNestControllerPS:GetQuestActions(context) return end
+function SniperNestControllerPS:GetQuestActions(context) end
 
 ---@return Bool
-function SniperNestControllerPS:GetRippedOff() return end
+function SniperNestControllerPS:GetRippedOff() end
 
 ---@return String
-function SniperNestControllerPS:GetVfxNameOnShoot() return end
+function SniperNestControllerPS:GetVfxNameOnShoot() end
 
----@protected
 ---@return nil
-function SniperNestControllerPS:Initialize() return end
+function SniperNestControllerPS:Initialize() end
 
----@protected
 ---@return nil
-function SniperNestControllerPS:LogicReady() return end
+function SniperNestControllerPS:LogicReady() end
 
 ---@param evt QuestEjectPlayer
 ---@return EntityNotificationType
-function SniperNestControllerPS:OnQuestEjectPlayer(evt) return end
+function SniperNestControllerPS:OnQuestEjectPlayer(evt) end
 
 ---@param evt QuestEnterNoAnimation
 ---@return EntityNotificationType
-function SniperNestControllerPS:OnQuestEnterNoAnimation(evt) return end
+function SniperNestControllerPS:OnQuestEnterNoAnimation(evt) end
 
 ---@param evt QuestEnterPlayer
 ---@return EntityNotificationType
-function SniperNestControllerPS:OnQuestEnterPlayer(evt) return end
+function SniperNestControllerPS:OnQuestEnterPlayer(evt) end
 
 ---@param evt QuestExitNoAnimation
 ---@return EntityNotificationType
-function SniperNestControllerPS:OnQuestExitNoAnimation(evt) return end
+function SniperNestControllerPS:OnQuestExitNoAnimation(evt) end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function SniperNestControllerPS:SetDeviceState(state) return end
+function SniperNestControllerPS:SetDeviceState(state) end
 
 ---@param value Bool
 ---@return nil
-function SniperNestControllerPS:SetRippedOff(value) return end
+function SniperNestControllerPS:SetRippedOff(value) end

@@ -5,12 +5,11 @@ SampleComponentWithCounter = {}
 
 ---@param fields? SampleComponentWithCounter
 ---@return SampleComponentWithCounter
-function SampleComponentWithCounter.new(fields) return end
+function SampleComponentWithCounter.new(fields) end
 
----@protected
 ---@return SampleComponentWithCounterPS
-function SampleComponentWithCounter:GetPS() return end
+function SampleComponentWithCounter:GetPS() end
 
 ---@param deltaTime Float
 ---@return nil
-function SampleComponentWithCounter:OnUpdate(deltaTime) return end
+function SampleComponentWithCounter:OnUpdate(deltaTime) end

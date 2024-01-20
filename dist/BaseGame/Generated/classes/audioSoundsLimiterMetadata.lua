@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioSoundsLimiterMetadata: audioAudioMetadata
----@field public tooManyPlayingGruntsAndVOsLimitation audioLimitedSound[]
----@field public gunsAreLoudAndMusicIsActiveLimitation audioLimitedSound[]
----@field public gunsAreLoudLimitation audioLimitedSound[]
----@field public tooManyPlayingSoundsLimitation audioLimitedSound[]
+---@field tooManyPlayingGruntsAndVOsLimitation audioLimitedSound[]
+---@field gunsAreLoudAndMusicIsActiveLimitation audioLimitedSound[]
+---@field gunsAreLoudLimitation audioLimitedSound[]
+---@field tooManyPlayingSoundsLimitation audioLimitedSound[]
 audioSoundsLimiterMetadata = {}
 
 ---@param fields? audioSoundsLimiterMetadata
 ---@return audioSoundsLimiterMetadata
-function audioSoundsLimiterMetadata.new(fields) return end
+function audioSoundsLimiterMetadata.new(fields) end

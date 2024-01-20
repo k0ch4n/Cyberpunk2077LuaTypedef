@@ -1,123 +1,105 @@
 ---@meta
 
 ---@class AccessPoint: InteractiveMasterDevice
----@field private networkName String
----@field private isPlayerInBreachView Bool
----@field private isRevealed Bool
----@field private breachViewTimeListener BreachViewTimeListener
----@field private upload_program_listener_id Uint32
+---@field networkName String
+---@field isPlayerInBreachView Bool
+---@field isRevealed Bool
+---@field breachViewTimeListener BreachViewTimeListener
+---@field upload_program_listener_id Uint32
 AccessPoint = {}
 
 ---@param fields? AccessPoint
 ---@return AccessPoint
-function AccessPoint.new(fields) return end
+function AccessPoint.new(fields) end
 
----@protected
 ---@param evt gameuiAccessPointMiniGameStatus
 ---@return Bool
-function AccessPoint:OnAccessPointMiniGameStatus(evt) return end
+function AccessPoint:OnAccessPointMiniGameStatus(evt) end
 
----@protected
 ---@param evt DebugRemoteConnectionEvent
 ---@return Bool
-function AccessPoint:OnDebugRemoteConnectionEvent(evt) return end
+function AccessPoint:OnDebugRemoteConnectionEvent(evt) end
 
----@protected
 ---@param evt gameFactChangedEvent
 ---@return Bool
-function AccessPoint:OnFactChangedEvent(evt) return end
+function AccessPoint:OnFactChangedEvent(evt) end
 
----@protected
 ---@return Bool
-function AccessPoint:OnGameDetached() return end
+function AccessPoint:OnGameDetached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AccessPoint:OnRequestComponents(ri) return end
+function AccessPoint:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AccessPoint:OnTakeControl(ri) return end
+function AccessPoint:OnTakeControl(ri) end
 
----@protected
 ---@param evt Validate
 ---@return Bool
-function AccessPoint:OnValidate(evt) return end
+function AccessPoint:OnValidate(evt) end
 
----@protected
 ---@param module Int32
 ---@return nil
-function AccessPoint:BootModule(module) return end
+function AccessPoint:BootModule(module) end
 
 ---@return Bool
-function AccessPoint:CanRevealRemoteActionsWheel() return end
+function AccessPoint:CanRevealRemoteActionsWheel() end
 
 ---@return EGameplayRole
-function AccessPoint:DeterminGameplayRole() return end
+function AccessPoint:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function AccessPoint:EvaluateProximityRevealInteractionLayerState() return end
+function AccessPoint:EvaluateProximityRevealInteractionLayerState() end
 
 ---@return BackDoorDeviceBlackboardDef
-function AccessPoint:GetBlackboardDef() return end
+function AccessPoint:GetBlackboardDef() end
 
----@protected
 ---@return AccessPointController
-function AccessPoint:GetController() return end
+function AccessPoint:GetController() end
 
 ---@return AccessPointControllerPS
-function AccessPoint:GetDevicePS() return end
+function AccessPoint:GetDevicePS() end
 
----@protected
 ---@param puppet gameObject
 ---@return nil
-function AccessPoint:InitiatePersonalLinkWorkspot(puppet) return end
+function AccessPoint:InitiatePersonalLinkWorkspot(puppet) end
 
 ---@return Bool
-function AccessPoint:IsAccessPoint() return end
+function AccessPoint:IsAccessPoint() end
 
 ---@return Bool
-function AccessPoint:IsControllingDevices() return end
+function AccessPoint:IsControllingDevices() end
 
 ---@return Bool
-function AccessPoint:IsRevealed() return end
+function AccessPoint:IsRevealed() end
 
 ---@param reason CName|string
 ---@return nil
-function AccessPoint:OnDiveFinished(reason) return end
+function AccessPoint:OnDiveFinished(reason) end
 
----@protected
 ---@param attempt Int32
 ---@param isRemote Bool
 ---@return nil
-function AccessPoint:PerformDive(attempt, isRemote) return end
+function AccessPoint:PerformDive(attempt, isRemote) end
 
----@protected
 ---@return nil
-function AccessPoint:ResolveGameplayState() return end
+function AccessPoint:ResolveGameplayState() end
 
----@protected
 ---@return Bool
-function AccessPoint:ShouldRegisterToHUD() return end
+function AccessPoint:ShouldRegisterToHUD() end
 
----@protected
 ---@return nil
-function AccessPoint:TerminateConnection() return end
+function AccessPoint:TerminateConnection() end
 
----@protected
 ---@param on Bool
 ---@return nil
-function AccessPoint:ToggleLights(on) return end
+function AccessPoint:ToggleLights(on) end
 
----@protected
 ---@param toggle Bool
 ---@param puppet gameObject
 ---@return nil
-function AccessPoint:TogglePersonalLink(toggle, puppet) return end
+function AccessPoint:TogglePersonalLink(toggle, puppet) end
 
----@private
 ---@return nil
-function AccessPoint:UploadProgram() return end
+function AccessPoint:UploadProgram() end

@@ -5,24 +5,20 @@ gameScriptedDamageSystemListener = {}
 
 ---@param fields? gameScriptedDamageSystemListener
 ---@return gameScriptedDamageSystemListener
-function gameScriptedDamageSystemListener.new(fields) return end
+function gameScriptedDamageSystemListener.new(fields) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameScriptedDamageSystemListener:OnHitReceived(hitEvent) return end
+function gameScriptedDamageSystemListener:OnHitReceived(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameScriptedDamageSystemListener:OnHitTriggered(hitEvent) return end
+function gameScriptedDamageSystemListener:OnHitTriggered(hitEvent) end
 
----@protected
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function gameScriptedDamageSystemListener:OnMissTriggered(missEvent) return end
+function gameScriptedDamageSystemListener:OnMissTriggered(missEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameScriptedDamageSystemListener:OnPipelineProcessed(hitEvent) return end
+function gameScriptedDamageSystemListener:OnPipelineProcessed(hitEvent) end

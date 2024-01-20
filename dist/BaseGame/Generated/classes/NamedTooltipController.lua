@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class NamedTooltipController: IScriptable
----@field public identifier CName
----@field public controller AGenericTooltipController
+---@field identifier CName
+---@field controller AGenericTooltipController
 NamedTooltipController = {}
 
 ---@param fields? NamedTooltipController
 ---@return NamedTooltipController
-function NamedTooltipController.new(fields) return end
+function NamedTooltipController.new(fields) end

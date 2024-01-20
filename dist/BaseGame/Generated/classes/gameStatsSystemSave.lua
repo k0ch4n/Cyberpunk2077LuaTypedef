@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameStatsSystemSave: ISerializable
----@field public statsObjectsData gameStatsSeedKey[]
----@field public statModifiersData gameStatModifierSave[]
+---@field statsObjectsData gameStatsSeedKey[]
+---@field statModifiersData gameStatModifierSave[]
 gameStatsSystemSave = {}
 
 ---@param fields? gameStatsSystemSave
 ---@return gameStatsSystemSave
-function gameStatsSystemSave.new(fields) return end
+function gameStatsSystemSave.new(fields) end

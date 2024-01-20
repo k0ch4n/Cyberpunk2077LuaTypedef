@@ -1,123 +1,104 @@
 ---@meta
 
 ---@class CodexGameController: gameuiMenuGameController
----@field private buttonHintsManagerRef inkWidgetReference
----@field private entryViewRef inkCompoundWidgetReference
----@field private characterEntryViewRef inkCompoundWidgetReference
----@field private noEntrySelectedWidget inkWidgetReference
----@field private virtualList inkWidgetReference
----@field private emptyPlaceholderRef inkWidgetReference
----@field private leftBlockControllerRef inkWidgetReference
----@field private filtersContainer inkCompoundWidgetReference
----@field private journalManager gameJournalManager
----@field private buttonHintsController ButtonHints
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private listController CodexListVirtualNestedListController
----@field private entryViewController CodexEntryViewController
----@field private characterEntryViewController CodexEntryViewController
----@field private player PlayerPuppet
----@field private activeData CodexListSyncData
----@field private selectedData CodexEntryData
----@field private userDataEntry Int32
----@field private doubleInputPreventionFlag Bool
----@field private filtersControllers CodexFilterButtonController[]
----@field private onInputDeviceChangedCallbackID redCallbackObject
+---@field buttonHintsManagerRef inkWidgetReference
+---@field entryViewRef inkCompoundWidgetReference
+---@field characterEntryViewRef inkCompoundWidgetReference
+---@field noEntrySelectedWidget inkWidgetReference
+---@field virtualList inkWidgetReference
+---@field emptyPlaceholderRef inkWidgetReference
+---@field leftBlockControllerRef inkWidgetReference
+---@field filtersContainer inkCompoundWidgetReference
+---@field journalManager gameJournalManager
+---@field buttonHintsController ButtonHints
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field listController CodexListVirtualNestedListController
+---@field entryViewController CodexEntryViewController
+---@field characterEntryViewController CodexEntryViewController
+---@field player PlayerPuppet
+---@field activeData CodexListSyncData
+---@field selectedData CodexEntryData
+---@field userDataEntry Int32
+---@field doubleInputPreventionFlag Bool
+---@field filtersControllers CodexFilterButtonController[]
+---@field onInputDeviceChangedCallbackID redCallbackObject
 CodexGameController = {}
 
 ---@param fields? CodexGameController
 ---@return CodexGameController
-function CodexGameController.new(fields) return end
+function CodexGameController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function CodexGameController:OnBack(userData) return end
+function CodexGameController:OnBack(userData) end
 
----@protected
 ---@param e CodexFilterButtonClicked
 ---@return Bool
-function CodexGameController:OnCodexFilterButtonClicked(e) return end
+function CodexGameController:OnCodexFilterButtonClicked(e) end
 
----@protected
 ---@param evt CodexForceSelectionEvent
 ---@return Bool
-function CodexGameController:OnCodexForceSelectionEvent(evt) return end
+function CodexGameController:OnCodexForceSelectionEvent(evt) end
 
----@protected
 ---@param evt CodexSelectedEvent
 ---@return Bool
-function CodexGameController:OnEntryActivated(evt) return end
+function CodexGameController:OnEntryActivated(evt) end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function CodexGameController:OnEntryVisitedUpdate(entryHash, className, notifyOption, changeType) return end
+function CodexGameController:OnEntryVisitedUpdate(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@return Bool
-function CodexGameController:OnInitialize() return end
+function CodexGameController:OnInitialize() end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function CodexGameController:OnInputDeviceChanged(value) return end
+function CodexGameController:OnInputDeviceChanged(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CodexGameController:OnPlayerAttach(playerPuppet) return end
+function CodexGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CodexGameController:OnPlayerDetach(playerPuppet) return end
+function CodexGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function CodexGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function CodexGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function CodexGameController:OnSetUserData(userData) return end
+function CodexGameController:OnSetUserData(userData) end
 
----@protected
 ---@return Bool
-function CodexGameController:OnUninitialize() return end
+function CodexGameController:OnUninitialize() end
 
 ---@param hash Int32
 ---@return Int32
-function CodexGameController:FindItem(hash) return end
+function CodexGameController:FindItem(hash) end
 
----@private
 ---@param idx Uint32
 ---@return nil
-function CodexGameController:ForceSelectIndex(idx) return end
+function CodexGameController:ForceSelectIndex(idx) end
 
----@private
 ---@return nil
-function CodexGameController:HideNodataWarning() return end
+function CodexGameController:HideNodataWarning() end
 
----@private
 ---@return nil
-function CodexGameController:PopulateData() return end
+function CodexGameController:PopulateData() end
 
----@private
 ---@return nil
-function CodexGameController:RefreshButtonHints() return end
+function CodexGameController:RefreshButtonHints() end
 
----@private
 ---@return nil
-function CodexGameController:SelectEntry() return end
+function CodexGameController:SelectEntry() end
 
----@private
 ---@return nil
-function CodexGameController:SetupFilterButtons() return end
+function CodexGameController:SetupFilterButtons() end
 
----@private
 ---@return nil
-function CodexGameController:ShowNodataWarning() return end
+function CodexGameController:ShowNodataWarning() end

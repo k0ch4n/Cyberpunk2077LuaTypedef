@@ -5,4 +5,4 @@ gameOnScannableBraindanceClueDisabledEvent = {}
 
 ---@param fields? gameOnScannableBraindanceClueDisabledEvent
 ---@return gameOnScannableBraindanceClueDisabledEvent
-function gameOnScannableBraindanceClueDisabledEvent.new(fields) return end
+function gameOnScannableBraindanceClueDisabledEvent.new(fields) end

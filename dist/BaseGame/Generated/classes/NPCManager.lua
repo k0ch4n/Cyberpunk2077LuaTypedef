@@ -1,84 +1,77 @@
 ---@meta
 
 ---@class NPCManager: IScriptable
----@field private owner NPCPuppet
+---@field owner NPCPuppet
 NPCManager = {}
 
 ---@param fields? NPCManager
 ---@return NPCManager
-function NPCManager.new(fields) return end
+function NPCManager.new(fields) end
 
 ---@param recordID TweakDBID|string
 ---@param tags CName[]|string[]
 ---@return Bool
-function NPCManager.HasAllTags(recordID, tags) return end
+function NPCManager.HasAllTags(recordID, tags) end
 
 ---@param puppet ScriptedPuppet
 ---@param visualTags CName[]|string[]
 ---@return Bool
-function NPCManager.HasAllVisualTags(puppet, visualTags) return end
+function NPCManager.HasAllVisualTags(puppet, visualTags) end
 
 ---@param recordID TweakDBID|string
 ---@param tags CName[]|string[]
 ---@return Bool
-function NPCManager.HasAnyTags(recordID, tags) return end
+function NPCManager.HasAnyTags(recordID, tags) end
 
 ---@param puppet ScriptedPuppet
 ---@param visualTags CName[]|string[]
 ---@return Bool
-function NPCManager.HasAnyVisualTags(puppet, visualTags) return end
+function NPCManager.HasAnyVisualTags(puppet, visualTags) end
 
 ---@param recordID TweakDBID|string
 ---@param tag CName|string
 ---@return Bool
-function NPCManager.HasTag(recordID, tag) return end
+function NPCManager.HasTag(recordID, tag) end
 
 ---@param puppet ScriptedPuppet
 ---@param visualTag CName|string
 ---@return Bool
-function NPCManager.HasVisualTag(puppet, visualTag) return end
+function NPCManager.HasVisualTag(puppet, visualTag) end
 
 ---@return nil
-function NPCManager:ApplySpawnAnimWrappers() return end
+function NPCManager:ApplySpawnAnimWrappers() end
 
----@private
 ---@param record gamedataCharacter_Record
 ---@param applyAnimWrappers Bool
 ---@return nil
-function NPCManager:ApplySpawnGLPs(record, applyAnimWrappers) return end
+function NPCManager:ApplySpawnGLPs(record, applyAnimWrappers) end
 
----@private
 ---@return nil
-function NPCManager:ClearNPCImmortalityMode() return end
-
----@param owner gameObject
----@return nil
-function NPCManager:Init(owner) return end
-
----@private
----@return nil
-function NPCManager:ScaleToPlayer() return end
-
----@private
----@param record gamedataCharacter_Record
----@return nil
-function NPCManager:SetNPCAbilities(record) return end
-
----@private
----@param record gamedataCharacter_Record
----@return nil
-function NPCManager:SetNPCArchetypeData(record) return end
-
----@private
----@param record gamedataCharacter_Record
----@return nil
-function NPCManager:SetNPCImmortalityMode(record) return end
-
----@private
----@param record gamedataCharacter_Record
----@return nil
-function NPCManager:SetNPCVisualTagsStats(record) return end
+function NPCManager:ClearNPCImmortalityMode() end
 
 ---@param owner gameObject
 ---@return nil
-function NPCManager:UnInit(owner) return end
+function NPCManager:Init(owner) end
+
+---@return nil
+function NPCManager:ScaleToPlayer() end
+
+---@param record gamedataCharacter_Record
+---@return nil
+function NPCManager:SetNPCAbilities(record) end
+
+---@param record gamedataCharacter_Record
+---@return nil
+function NPCManager:SetNPCArchetypeData(record) end
+
+---@param record gamedataCharacter_Record
+---@return nil
+function NPCManager:SetNPCImmortalityMode(record) end
+
+---@param record gamedataCharacter_Record
+---@return nil
+function NPCManager:SetNPCVisualTagsStats(record) end
+
+---@param owner gameObject
+---@return nil
+function NPCManager:UnInit(owner) end

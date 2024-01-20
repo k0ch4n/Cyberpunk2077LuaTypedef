@@ -5,4 +5,4 @@ gameStackedItemData = {}
 
 ---@param fields? gameStackedItemData
 ---@return gameStackedItemData
-function gameStackedItemData.new(fields) return end
+function gameStackedItemData.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiMountedWeaponTarget
----@field public weaponIndex Int32
----@field public targetLocation Vector4
+---@field weaponIndex Int32
+---@field targetLocation Vector4
 gameuiMountedWeaponTarget = {}
 
 ---@param fields? gameuiMountedWeaponTarget
 ---@return gameuiMountedWeaponTarget
-function gameuiMountedWeaponTarget.new(fields) return end
+function gameuiMountedWeaponTarget.new(fields) end

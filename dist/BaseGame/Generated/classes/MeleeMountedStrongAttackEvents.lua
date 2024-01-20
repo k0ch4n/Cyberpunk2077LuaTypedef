@@ -5,17 +5,15 @@ MeleeMountedStrongAttackEvents = {}
 
 ---@param fields? MeleeMountedStrongAttackEvents
 ---@return MeleeMountedStrongAttackEvents
-function MeleeMountedStrongAttackEvents.new(fields) return end
+function MeleeMountedStrongAttackEvents.new(fields) end
 
----@protected
 ---@return EMeleeAttackType
-function MeleeMountedStrongAttackEvents:GetAttackType() return end
+function MeleeMountedStrongAttackEvents:GetAttackType() end
 
----@protected
 ---@return Bool
-function MeleeMountedStrongAttackEvents:IsMountedTPPAttack() return end
+function MeleeMountedStrongAttackEvents:IsMountedTPPAttack() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeMountedStrongAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeMountedStrongAttackEvents:OnEnter(stateContext, scriptInterface) end

@@ -1,31 +1,30 @@
 ---@meta
 
 ---@class PlayPauseActionWidgetController: NextPreviousActionWidgetController
----@field protected playContainer inkWidgetReference
----@field private isPlaying Bool
+---@field playContainer inkWidgetReference
+---@field isPlaying Bool
 PlayPauseActionWidgetController = {}
 
 ---@param fields? PlayPauseActionWidgetController
 ---@return PlayPauseActionWidgetController
-function PlayPauseActionWidgetController.new(fields) return end
+function PlayPauseActionWidgetController.new(fields) end
 
----@protected
 ---@return nil
-function PlayPauseActionWidgetController:DetermineState() return end
+function PlayPauseActionWidgetController:DetermineState() end
 
 ---@param executor gameObject
 ---@param action gamedeviceAction
 ---@return nil
-function PlayPauseActionWidgetController:FinalizeActionExecution(executor, action) return end
+function PlayPauseActionWidgetController:FinalizeActionExecution(executor, action) end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function PlayPauseActionWidgetController:Initialize(gameController, widgetData) return end
+function PlayPauseActionWidgetController:Initialize(gameController, widgetData) end
 
 ---@return nil
-function PlayPauseActionWidgetController:Reset() return end
+function PlayPauseActionWidgetController:Reset() end
 
 ---@param value Bool
 ---@return nil
-function PlayPauseActionWidgetController:TogglePlay(value) return end
+function PlayPauseActionWidgetController:TogglePlay(value) end

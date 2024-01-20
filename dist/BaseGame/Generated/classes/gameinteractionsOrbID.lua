@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsOrbID
----@field public id Uint32
+---@field id Uint32
 gameinteractionsOrbID = {}
 
 ---@param fields? gameinteractionsOrbID
 ---@return gameinteractionsOrbID
-function gameinteractionsOrbID.new(fields) return end
+function gameinteractionsOrbID.new(fields) end

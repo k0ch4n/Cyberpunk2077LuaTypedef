@@ -1,42 +1,37 @@
 ---@meta
 
 ---@class NewGameMenuGameController: PreGameSubMenuGameController
----@field private categories inkSelectorController
----@field private gameDefinitions inkSelectorController
----@field private genders inkSelectorController
+---@field categories inkSelectorController
+---@field gameDefinitions inkSelectorController
+---@field genders inkSelectorController
 NewGameMenuGameController = {}
 
 ---@param fields? NewGameMenuGameController
 ---@return NewGameMenuGameController
-function NewGameMenuGameController.new(fields) return end
+function NewGameMenuGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function NewGameMenuGameController:OnBack(e) return end
+function NewGameMenuGameController:OnBack(e) end
 
----@protected
 ---@param index Int32
 ---@param value String
 ---@return Bool
-function NewGameMenuGameController:OnCategoryChanged(index, value) return end
+function NewGameMenuGameController:OnCategoryChanged(index, value) end
 
----@protected
 ---@return Bool
-function NewGameMenuGameController:OnInitialize() return end
+function NewGameMenuGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function NewGameMenuGameController:OnRunFunctionalTestMap(e) return end
+function NewGameMenuGameController:OnRunFunctionalTestMap(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function NewGameMenuGameController:OnStartDefinition(e) return end
+function NewGameMenuGameController:OnStartDefinition(e) end
 
 ---@return nil
-function NewGameMenuGameController:InitDynamicButtons() return end
+function NewGameMenuGameController:InitDynamicButtons() end
 
 ---@return nil
-function NewGameMenuGameController:InitSelectors() return end
+function NewGameMenuGameController:InitSelectors() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class navgendebugInputGeometryTriangle
----@field public vertices Vector3[]
----@field public area Uint8
+---@field vertices Vector3[]
+---@field area Uint8
 navgendebugInputGeometryTriangle = {}
 
 ---@param fields? navgendebugInputGeometryTriangle
 ---@return navgendebugInputGeometryTriangle
-function navgendebugInputGeometryTriangle.new(fields) return end
+function navgendebugInputGeometryTriangle.new(fields) end

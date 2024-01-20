@@ -5,4 +5,4 @@ ShortBladeLookAtDecisions = {}
 
 ---@param fields? ShortBladeLookAtDecisions
 ---@return ShortBladeLookAtDecisions
-function ShortBladeLookAtDecisions.new(fields) return end
+function ShortBladeLookAtDecisions.new(fields) end

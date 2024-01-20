@@ -5,4 +5,4 @@ effectLightParameterPlayData = {}
 
 ---@param fields? effectLightParameterPlayData
 ---@return effectLightParameterPlayData
-function effectLightParameterPlayData.new(fields) return end
+function effectLightParameterPlayData.new(fields) end

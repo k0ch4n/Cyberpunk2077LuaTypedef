@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scneventsSetAnimFeatureEvent: scnSceneEvent
----@field public actorId scnActorId
----@field public animFeatureName CName
----@field public animFeature animAnimFeature
+---@field actorId scnActorId
+---@field animFeatureName CName
+---@field animFeature animAnimFeature
 scneventsSetAnimFeatureEvent = {}
 
 ---@param fields? scneventsSetAnimFeatureEvent
 ---@return scneventsSetAnimFeatureEvent
-function scneventsSetAnimFeatureEvent.new(fields) return end
+function scneventsSetAnimFeatureEvent.new(fields) end

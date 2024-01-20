@@ -5,9 +5,8 @@ SetExplosionInstigatorPositionAsStimSource = {}
 
 ---@param fields? SetExplosionInstigatorPositionAsStimSource
 ---@return SetExplosionInstigatorPositionAsStimSource
-function SetExplosionInstigatorPositionAsStimSource.new(fields) return end
+function SetExplosionInstigatorPositionAsStimSource.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetExplosionInstigatorPositionAsStimSource:Activate(context) return end
+function SetExplosionInstigatorPositionAsStimSource:Activate(context) end

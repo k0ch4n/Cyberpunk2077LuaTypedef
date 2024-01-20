@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class audioQuadEmitterSettings
----@field public Enabled Bool
----@field public Interleaved Bool
----@field public Radius Float
----@field public Offset Vector3
----@field public Angle Float
----@field public Events audioAudEventStruct[]
+---@field Enabled Bool
+---@field Interleaved Bool
+---@field Radius Float
+---@field Offset Vector3
+---@field Angle Float
+---@field Events audioAudEventStruct[]
 audioQuadEmitterSettings = {}
 
 ---@param fields? audioQuadEmitterSettings
 ---@return audioQuadEmitterSettings
-function audioQuadEmitterSettings.new(fields) return end
+function audioQuadEmitterSettings.new(fields) end

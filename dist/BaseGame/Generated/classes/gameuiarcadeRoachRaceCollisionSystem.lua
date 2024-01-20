@@ -5,4 +5,4 @@ gameuiarcadeRoachRaceCollisionSystem = {}
 
 ---@param fields? gameuiarcadeRoachRaceCollisionSystem
 ---@return gameuiarcadeRoachRaceCollisionSystem
-function gameuiarcadeRoachRaceCollisionSystem.new(fields) return end
+function gameuiarcadeRoachRaceCollisionSystem.new(fields) end

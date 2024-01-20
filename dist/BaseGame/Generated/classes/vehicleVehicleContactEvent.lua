@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleVehicleContactEvent: redEvent
----@field public otherVehicle gameObject
+---@field otherVehicle gameObject
 vehicleVehicleContactEvent = {}
 
 ---@param fields? vehicleVehicleContactEvent
 ---@return vehicleVehicleContactEvent
-function vehicleVehicleContactEvent.new(fields) return end
+function vehicleVehicleContactEvent.new(fields) end

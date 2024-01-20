@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioMeleeHitTypeMeleeSoundDictionary: audioInlinedAudioMetadata
----@field public entries audioMeleeHitTypeMeleeSoundDictionaryItem[]
----@field public entryType audioMeleeHitTypeMeleeSoundDictionaryItem
+---@field entries audioMeleeHitTypeMeleeSoundDictionaryItem[]
+---@field entryType audioMeleeHitTypeMeleeSoundDictionaryItem
 audioMeleeHitTypeMeleeSoundDictionary = {}
 
 ---@param fields? audioMeleeHitTypeMeleeSoundDictionary
 ---@return audioMeleeHitTypeMeleeSoundDictionary
-function audioMeleeHitTypeMeleeSoundDictionary.new(fields) return end
+function audioMeleeHitTypeMeleeSoundDictionary.new(fields) end

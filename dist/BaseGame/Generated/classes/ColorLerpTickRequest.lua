@@ -5,4 +5,4 @@ ColorLerpTickRequest = {}
 
 ---@param fields? ColorLerpTickRequest
 ---@return ColorLerpTickRequest
-function ColorLerpTickRequest.new(fields) return end
+function ColorLerpTickRequest.new(fields) end

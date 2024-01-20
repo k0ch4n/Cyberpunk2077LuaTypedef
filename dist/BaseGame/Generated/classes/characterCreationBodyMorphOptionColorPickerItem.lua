@@ -1,48 +1,43 @@
 ---@meta
 
 ---@class characterCreationBodyMorphOptionColorPickerItem: inkWidgetLogicController
----@field private background inkWidgetReference
----@field private icon inkImageWidgetReference
----@field private foreground inkWidgetReference
----@field private selectionMark inkWidgetReference
+---@field background inkWidgetReference
+---@field icon inkImageWidgetReference
+---@field foreground inkWidgetReference
+---@field selectionMark inkWidgetReference
 characterCreationBodyMorphOptionColorPickerItem = {}
 
 ---@param fields? characterCreationBodyMorphOptionColorPickerItem
 ---@return characterCreationBodyMorphOptionColorPickerItem
-function characterCreationBodyMorphOptionColorPickerItem.new(fields) return end
+function characterCreationBodyMorphOptionColorPickerItem.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerItem:OnHoverOut(e) return end
+function characterCreationBodyMorphOptionColorPickerItem:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerItem:OnHoverOver(e) return end
+function characterCreationBodyMorphOptionColorPickerItem:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerItem:OnInitialize() return end
+function characterCreationBodyMorphOptionColorPickerItem:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerItem:OnSelect(e) return end
+function characterCreationBodyMorphOptionColorPickerItem:OnSelect(e) end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphOptionColorPickerItem:OnUninitialize() return end
+function characterCreationBodyMorphOptionColorPickerItem:OnUninitialize() end
 
 ---@return nil
-function characterCreationBodyMorphOptionColorPickerItem:MoveCursorToItem() return end
+function characterCreationBodyMorphOptionColorPickerItem:MoveCursorToItem() end
 
 ---@param selected Bool
 ---@param moveCursor Bool
 ---@return nil
-function characterCreationBodyMorphOptionColorPickerItem:SetSelected(selected, moveCursor) return end
+function characterCreationBodyMorphOptionColorPickerItem:SetSelected(selected, moveCursor) end
 
 ---@param color Color
 ---@param icon TweakDBID|string
 ---@return nil
-function characterCreationBodyMorphOptionColorPickerItem:SetTintColor(color, icon) return end
+function characterCreationBodyMorphOptionColorPickerItem:SetTintColor(color, icon) end

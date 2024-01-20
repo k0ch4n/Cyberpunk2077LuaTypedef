@@ -5,4 +5,4 @@ gameuiarcadeShooterAIProp = {}
 
 ---@param fields? gameuiarcadeShooterAIProp
 ---@return gameuiarcadeShooterAIProp
-function gameuiarcadeShooterAIProp.new(fields) return end
+function gameuiarcadeShooterAIProp.new(fields) end

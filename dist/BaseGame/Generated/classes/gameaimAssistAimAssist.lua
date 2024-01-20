@@ -5,4 +5,4 @@ gameaimAssistAimAssist = {}
 
 ---@param fields? gameaimAssistAimAssist
 ---@return gameaimAssistAimAssist
-function gameaimAssistAimAssist.new(fields) return end
+function gameaimAssistAimAssist.new(fields) end

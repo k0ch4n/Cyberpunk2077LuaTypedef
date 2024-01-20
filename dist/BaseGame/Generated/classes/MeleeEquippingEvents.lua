@@ -5,27 +5,24 @@ MeleeEquippingEvents = {}
 
 ---@param fields? MeleeEquippingEvents
 ---@return MeleeEquippingEvents
-function MeleeEquippingEvents.new(fields) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeEquippingEvents:CleanupFirstEquipFX(stateContext, scriptInterface) return end
+function MeleeEquippingEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeEquippingEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeEquippingEvents:CleanupFirstEquipFX(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeEquippingEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeEquippingEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeEquippingEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeEquippingEvents:OnExit(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeEquippingEvents:OnForcedExit(stateContext, scriptInterface) end

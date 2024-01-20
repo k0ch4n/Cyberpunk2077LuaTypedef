@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questMappinGPSComparison_ConditionType: questIDistanceConditionType
----@field public distanceDefinition1 questMappinGPSDistance
----@field public distanceDefinition2 questValueDistance
----@field public comparisonType EComparisonType
+---@field distanceDefinition1 questMappinGPSDistance
+---@field distanceDefinition2 questValueDistance
+---@field comparisonType EComparisonType
 questMappinGPSComparison_ConditionType = {}
 
 ---@param fields? questMappinGPSComparison_ConditionType
 ---@return questMappinGPSComparison_ConditionType
-function questMappinGPSComparison_ConditionType.new(fields) return end
+function questMappinGPSComparison_ConditionType.new(fields) end

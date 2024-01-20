@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class communitySpawnEntry: ISerializable
----@field public entryName CName
----@field public characterRecordId TweakDBID
----@field public phases communitySpawnPhase[]
----@field public spawnInView gameSpawnInViewState
----@field public initializers communitySpawnInitializer[]
+---@field entryName CName
+---@field characterRecordId TweakDBID
+---@field phases communitySpawnPhase[]
+---@field spawnInView gameSpawnInViewState
+---@field initializers communitySpawnInitializer[]
 communitySpawnEntry = {}
 
 ---@param fields? communitySpawnEntry
 ---@return communitySpawnEntry
-function communitySpawnEntry.new(fields) return end
+function communitySpawnEntry.new(fields) end

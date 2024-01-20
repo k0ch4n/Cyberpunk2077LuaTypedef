@@ -1,78 +1,66 @@
 ---@meta
 
 ---@class VendingMachineInkGameController: DeviceInkGameControllerBase
----@field protected ActionsPanel inkHorizontalPanelWidgetReference
----@field protected ActionsPanel2 inkHorizontalPanelWidgetReference
----@field protected priceText inkTextWidgetReference
----@field protected noMoneyPanel inkCompoundWidgetReference
----@field protected soldOutPanel inkCompoundWidgetReference
----@field protected state PaymentStatus
----@field protected soldOut Bool
----@field private onUpdateStatusListener redCallbackObject
----@field private onGlitchingStateChangedListener redCallbackObject
----@field private onSoldOutListener redCallbackObject
+---@field ActionsPanel inkHorizontalPanelWidgetReference
+---@field ActionsPanel2 inkHorizontalPanelWidgetReference
+---@field priceText inkTextWidgetReference
+---@field noMoneyPanel inkCompoundWidgetReference
+---@field soldOutPanel inkCompoundWidgetReference
+---@field state PaymentStatus
+---@field soldOut Bool
+---@field onUpdateStatusListener redCallbackObject
+---@field onGlitchingStateChangedListener redCallbackObject
+---@field onSoldOutListener redCallbackObject
 VendingMachineInkGameController = {}
 
 ---@param fields? VendingMachineInkGameController
 ---@return VendingMachineInkGameController
-function VendingMachineInkGameController.new(fields) return end
+function VendingMachineInkGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function VendingMachineInkGameController:OnButtonHoverOver(e) return end
+function VendingMachineInkGameController:OnButtonHoverOver(e) end
 
----@protected
 ---@return Bool
-function VendingMachineInkGameController:OnInitialize() return end
+function VendingMachineInkGameController:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function VendingMachineInkGameController:OnSoldOut(value) return end
+function VendingMachineInkGameController:OnSoldOut(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function VendingMachineInkGameController:OnUpdateStatus(value) return end
+function VendingMachineInkGameController:OnUpdateStatus(value) end
 
----@protected
 ---@param controller DeviceActionWidgetControllerBase
 ---@return nil
-function VendingMachineInkGameController:ExecuteDeviceActions(controller) return end
+function VendingMachineInkGameController:ExecuteDeviceActions(controller) end
 
----@protected
 ---@return VendingMachine
-function VendingMachineInkGameController:GetOwner() return end
+function VendingMachineInkGameController:GetOwner() end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function VendingMachineInkGameController:Refresh(state) return end
+function VendingMachineInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function VendingMachineInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function VendingMachineInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@return nil
-function VendingMachineInkGameController:TurnOff() return end
+function VendingMachineInkGameController:TurnOff() end
 
----@protected
 ---@return nil
-function VendingMachineInkGameController:TurnOn() return end
+function VendingMachineInkGameController:TurnOn() end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function VendingMachineInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function VendingMachineInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function VendingMachineInkGameController:UpdateActionWidgets(widgetsData) return end
+function VendingMachineInkGameController:UpdateActionWidgets(widgetsData) end
 
----@private
 ---@param price Int32
 ---@return nil
-function VendingMachineInkGameController:UpdatePrice(price) return end
+function VendingMachineInkGameController:UpdatePrice(price) end

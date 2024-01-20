@@ -5,4 +5,4 @@ inkHudSystemAccessor = {}
 
 ---@param fields? inkHudSystemAccessor
 ---@return inkHudSystemAccessor
-function inkHudSystemAccessor.new(fields) return end
+function inkHudSystemAccessor.new(fields) end

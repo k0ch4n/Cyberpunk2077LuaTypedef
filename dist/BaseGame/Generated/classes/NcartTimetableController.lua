@@ -5,7 +5,7 @@ NcartTimetableController = {}
 
 ---@param fields? NcartTimetableController
 ---@return NcartTimetableController
-function NcartTimetableController.new(fields) return end
+function NcartTimetableController.new(fields) end
 
 ---@return NcartTimetableControllerPS
-function NcartTimetableController:GetPS() return end
+function NcartTimetableController:GetPS() end

@@ -4,16 +4,16 @@
 inkComponent = {}
 
 ---@return nil
-function inkComponent:OnConstruct() return end
+function inkComponent:OnConstruct() end
 
 ---@return Bool
-function inkComponent:IsAttached() return end
+function inkComponent:IsAttached() end
 
 ---@param newParent inkCompoundWidget
 ---@return nil
-function inkComponent:Reparent(newParent) return end
+function inkComponent:Reparent(newParent) end
 
 ---@param newParent inkCompoundWidget
 ---@param index Int32
 ---@return nil
-function inkComponent:Reparent(newParent, index) return end
+function inkComponent:Reparent(newParent, index) end

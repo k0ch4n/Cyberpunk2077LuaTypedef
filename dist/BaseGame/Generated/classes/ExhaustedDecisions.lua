@@ -1,33 +1,29 @@
 ---@meta
 
 ---@class ExhaustedDecisions: StaminaTransition
----@field private staminaRatioEnterCondition Float
+---@field staminaRatioEnterCondition Float
 ExhaustedDecisions = {}
 
 ---@param fields? ExhaustedDecisions
 ---@return ExhaustedDecisions
-function ExhaustedDecisions.new(fields) return end
+function ExhaustedDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ExhaustedDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ExhaustedDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ExhaustedDecisions:ExitCondition(stateContext, scriptInterface) return end
+function ExhaustedDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@private
 ---@param player PlayerPuppet
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ExhaustedDecisions:IsJuggernautPerkContitionSatisfied(player, scriptInterface) return end
+function ExhaustedDecisions:IsJuggernautPerkContitionSatisfied(player, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExhaustedDecisions:OnAttach(stateContext, scriptInterface) return end
+function ExhaustedDecisions:OnAttach(stateContext, scriptInterface) end

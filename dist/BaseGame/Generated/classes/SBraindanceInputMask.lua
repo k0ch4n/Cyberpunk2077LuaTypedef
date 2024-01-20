@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class SBraindanceInputMask
----@field public pauseAction Bool
----@field public playForwardAction Bool
----@field public playBackwardAction Bool
----@field public restartAction Bool
----@field public switchLayerAction Bool
----@field public cameraToggleAction Bool
+---@field pauseAction Bool
+---@field playForwardAction Bool
+---@field playBackwardAction Bool
+---@field restartAction Bool
+---@field switchLayerAction Bool
+---@field cameraToggleAction Bool
 SBraindanceInputMask = {}
 
 ---@param fields? SBraindanceInputMask
 ---@return SBraindanceInputMask
-function SBraindanceInputMask.new(fields) return end
+function SBraindanceInputMask.new(fields) end

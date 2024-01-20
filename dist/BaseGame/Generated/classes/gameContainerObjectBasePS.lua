@@ -5,4 +5,4 @@ gameContainerObjectBasePS = {}
 
 ---@param fields? gameContainerObjectBasePS
 ---@return gameContainerObjectBasePS
-function gameContainerObjectBasePS.new(fields) return end
+function gameContainerObjectBasePS.new(fields) end

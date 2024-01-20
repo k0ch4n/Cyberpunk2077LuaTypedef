@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SNewsFeedElementData
----@field public banners SsimpleBanerData[]
----@field public currentBanner Int32
+---@field banners SsimpleBanerData[]
+---@field currentBanner Int32
 SNewsFeedElementData = {}
 
 ---@param fields? SNewsFeedElementData
 ---@return SNewsFeedElementData
-function SNewsFeedElementData.new(fields) return end
+function SNewsFeedElementData.new(fields) end

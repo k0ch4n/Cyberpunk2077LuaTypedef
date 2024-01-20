@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameBlackboardPropertyBindingDefinition
----@field public serializableID gameBlackboardSerializableID
----@field public propertyPath CName[]
----@field public propertyType CName
+---@field serializableID gameBlackboardSerializableID
+---@field propertyPath CName[]
+---@field propertyType CName
 gameBlackboardPropertyBindingDefinition = {}
 
 ---@param fields? gameBlackboardPropertyBindingDefinition
 ---@return gameBlackboardPropertyBindingDefinition
-function gameBlackboardPropertyBindingDefinition.new(fields) return end
+function gameBlackboardPropertyBindingDefinition.new(fields) end

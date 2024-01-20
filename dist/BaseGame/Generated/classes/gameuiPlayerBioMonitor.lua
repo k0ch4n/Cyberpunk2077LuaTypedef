@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameuiPlayerBioMonitor
----@field public currentHealth Int32
----@field public maximumHealth Int32
----@field public currentCyberwarePct Int32
----@field public currentArmor Int32
----@field public maximumArmor Int32
+---@field currentHealth Int32
+---@field maximumHealth Int32
+---@field currentCyberwarePct Int32
+---@field currentArmor Int32
+---@field maximumArmor Int32
 gameuiPlayerBioMonitor = {}
 
 ---@param fields? gameuiPlayerBioMonitor
 ---@return gameuiPlayerBioMonitor
-function gameuiPlayerBioMonitor.new(fields) return end
+function gameuiPlayerBioMonitor.new(fields) end

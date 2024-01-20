@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HUDManagerRegistrationTaskData: gameScriptTaskData
----@field public shouldRegister Bool
+---@field shouldRegister Bool
 HUDManagerRegistrationTaskData = {}
 
 ---@param fields? HUDManagerRegistrationTaskData
 ---@return HUDManagerRegistrationTaskData
-function HUDManagerRegistrationTaskData.new(fields) return end
+function HUDManagerRegistrationTaskData.new(fields) end

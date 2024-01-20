@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SHitOperationData
----@field public isAttackerPlayer Bool
----@field public isAttackerNPC Bool
----@field public bullets Bool
----@field public explosions Bool
----@field public melee Bool
----@field public healthPercentage Float
----@field public operation SBaseDeviceOperationData
+---@field isAttackerPlayer Bool
+---@field isAttackerNPC Bool
+---@field bullets Bool
+---@field explosions Bool
+---@field melee Bool
+---@field healthPercentage Float
+---@field operation SBaseDeviceOperationData
 SHitOperationData = {}
 
 ---@param fields? SHitOperationData
 ---@return SHitOperationData
-function SHitOperationData.new(fields) return end
+function SHitOperationData.new(fields) end

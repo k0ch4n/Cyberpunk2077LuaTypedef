@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class TogglePreventionGlobalQuestObjective: gameScriptableSystemRequest
----@field public preventionGlobalQuestDisabled Bool
----@field public eventSource CName
+---@field preventionGlobalQuestDisabled Bool
+---@field eventSource CName
 TogglePreventionGlobalQuestObjective = {}
 
 ---@param fields? TogglePreventionGlobalQuestObjective
 ---@return TogglePreventionGlobalQuestObjective
-function TogglePreventionGlobalQuestObjective.new(fields) return end
+function TogglePreventionGlobalQuestObjective.new(fields) end
 
 ---@return String
-function TogglePreventionGlobalQuestObjective:GetFriendlyDesctiption() return end
+function TogglePreventionGlobalQuestObjective:GetFriendlyDesctiption() end

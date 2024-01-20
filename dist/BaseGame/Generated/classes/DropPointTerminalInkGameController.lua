@@ -1,53 +1,47 @@
 ---@meta
 
 ---@class DropPointTerminalInkGameController: DeviceInkGameControllerBase
----@field private sellAction inkWidgetReference
----@field private statusText inkTextWidgetReference
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field sellAction inkWidgetReference
+---@field statusText inkTextWidgetReference
+---@field onGlitchingStateChangedListener redCallbackObject
 DropPointTerminalInkGameController = {}
 
 ---@param fields? DropPointTerminalInkGameController
 ---@return DropPointTerminalInkGameController
-function DropPointTerminalInkGameController.new(fields) return end
+function DropPointTerminalInkGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DropPointTerminalInkGameController:OnActionWidgetSpawned(widget, userData) return end
+function DropPointTerminalInkGameController:OnActionWidgetSpawned(widget, userData) end
 
----@protected
 ---@return DropPoint
-function DropPointTerminalInkGameController:GetOwner() return end
+function DropPointTerminalInkGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function DropPointTerminalInkGameController:Refresh(state) return end
+function DropPointTerminalInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function DropPointTerminalInkGameController:RegisterBlackboardCallbacks(blackboard) return end
-
----@protected
----@return nil
-function DropPointTerminalInkGameController:SetupWidgets() return end
-
----@private
----@return nil
-function DropPointTerminalInkGameController:StopGlitchingScreen() return end
+function DropPointTerminalInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
 ---@return nil
-function DropPointTerminalInkGameController:TurnOff() return end
+function DropPointTerminalInkGameController:SetupWidgets() end
 
 ---@return nil
-function DropPointTerminalInkGameController:TurnOn() return end
+function DropPointTerminalInkGameController:StopGlitchingScreen() end
 
----@protected
+---@return nil
+function DropPointTerminalInkGameController:TurnOff() end
+
+---@return nil
+function DropPointTerminalInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function DropPointTerminalInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function DropPointTerminalInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function DropPointTerminalInkGameController:UpdateActionWidgets(widgetsData) return end
+function DropPointTerminalInkGameController:UpdateActionWidgets(widgetsData) end

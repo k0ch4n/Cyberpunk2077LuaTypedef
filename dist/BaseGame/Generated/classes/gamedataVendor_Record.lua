@@ -5,189 +5,189 @@ gamedataVendor_Record = {}
 
 ---@param fields? gamedataVendor_Record
 ---@return gamedataVendor_Record
-function gamedataVendor_Record.new(fields) return end
+function gamedataVendor_Record.new(fields) end
 
 ---@return nil, gamedataIPrereq_Record[] outList
-function gamedataVendor_Record:AccessPrereqs() return end
+function gamedataVendor_Record:AccessPrereqs() end
 
 ---@param item gamedataIPrereq_Record
 ---@return Bool
-function gamedataVendor_Record:AccessPrereqsContains(item) return end
+function gamedataVendor_Record:AccessPrereqsContains(item) end
 
 ---@return nil, gamedataVendorCraftable_Record[] outList
-function gamedataVendor_Record:Craftbooks() return end
+function gamedataVendor_Record:Craftbooks() end
 
 ---@param item gamedataVendorCraftable_Record
 ---@return Bool
-function gamedataVendor_Record:CraftbooksContains(item) return end
+function gamedataVendor_Record:CraftbooksContains(item) end
 
 ---@return CName[]
-function gamedataVendor_Record:CustomerFilterTags() return end
+function gamedataVendor_Record:CustomerFilterTags() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataVendor_Record:CustomerFilterTagsContains(item) return end
+function gamedataVendor_Record:CustomerFilterTagsContains(item) end
 
 ---@return CName[]
-function gamedataVendor_Record:CustomerInverseFilterTags() return end
+function gamedataVendor_Record:CustomerInverseFilterTags() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataVendor_Record:CustomerInverseFilterTagsContains(item) return end
+function gamedataVendor_Record:CustomerInverseFilterTagsContains(item) end
 
 ---@return nil, gamedataVendorExperience_Record[] outList
-function gamedataVendor_Record:ExperienceStock() return end
+function gamedataVendor_Record:ExperienceStock() end
 
 ---@param item gamedataVendorExperience_Record
 ---@return Bool
-function gamedataVendor_Record:ExperienceStockContains(item) return end
+function gamedataVendor_Record:ExperienceStockContains(item) end
 
 ---@return gamedataAffiliation_Record
-function gamedataVendor_Record:Faction() return end
+function gamedataVendor_Record:Faction() end
 
 ---@return gamedataAffiliation_Record
-function gamedataVendor_Record:FactionHandle() return end
+function gamedataVendor_Record:FactionHandle() end
 
 ---@return Int32
-function gamedataVendor_Record:GetAccessPrereqsCount() return end
+function gamedataVendor_Record:GetAccessPrereqsCount() end
 
 ---@param index Int32
 ---@return gamedataIPrereq_Record
-function gamedataVendor_Record:GetAccessPrereqsItem(index) return end
+function gamedataVendor_Record:GetAccessPrereqsItem(index) end
 
 ---@param index Int32
 ---@return gamedataIPrereq_Record
-function gamedataVendor_Record:GetAccessPrereqsItemHandle(index) return end
+function gamedataVendor_Record:GetAccessPrereqsItemHandle(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetCraftbooksCount() return end
+function gamedataVendor_Record:GetCraftbooksCount() end
 
 ---@param index Int32
 ---@return gamedataVendorCraftable_Record
-function gamedataVendor_Record:GetCraftbooksItem(index) return end
+function gamedataVendor_Record:GetCraftbooksItem(index) end
 
 ---@param index Int32
 ---@return gamedataVendorCraftable_Record
-function gamedataVendor_Record:GetCraftbooksItemHandle(index) return end
+function gamedataVendor_Record:GetCraftbooksItemHandle(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetCustomerFilterTagsCount() return end
+function gamedataVendor_Record:GetCustomerFilterTagsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataVendor_Record:GetCustomerFilterTagsItem(index) return end
+function gamedataVendor_Record:GetCustomerFilterTagsItem(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetCustomerInverseFilterTagsCount() return end
+function gamedataVendor_Record:GetCustomerInverseFilterTagsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataVendor_Record:GetCustomerInverseFilterTagsItem(index) return end
+function gamedataVendor_Record:GetCustomerInverseFilterTagsItem(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetExperienceStockCount() return end
+function gamedataVendor_Record:GetExperienceStockCount() end
 
 ---@param index Int32
 ---@return gamedataVendorExperience_Record
-function gamedataVendor_Record:GetExperienceStockItem(index) return end
+function gamedataVendor_Record:GetExperienceStockItem(index) end
 
 ---@param index Int32
 ---@return gamedataVendorExperience_Record
-function gamedataVendor_Record:GetExperienceStockItemHandle(index) return end
+function gamedataVendor_Record:GetExperienceStockItemHandle(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetItemQueriesCount() return end
+function gamedataVendor_Record:GetItemQueriesCount() end
 
 ---@param index Int32
 ---@return gamedataVendorItemQuery_Record
-function gamedataVendor_Record:GetItemQueriesItem(index) return end
+function gamedataVendor_Record:GetItemQueriesItem(index) end
 
 ---@param index Int32
 ---@return gamedataVendorItemQuery_Record
-function gamedataVendor_Record:GetItemQueriesItemHandle(index) return end
+function gamedataVendor_Record:GetItemQueriesItemHandle(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetItemStockCount() return end
+function gamedataVendor_Record:GetItemStockCount() end
 
 ---@param index Int32
 ---@return gamedataVendorItem_Record
-function gamedataVendor_Record:GetItemStockItem(index) return end
+function gamedataVendor_Record:GetItemStockItem(index) end
 
 ---@param index Int32
 ---@return gamedataVendorItem_Record
-function gamedataVendor_Record:GetItemStockItemHandle(index) return end
+function gamedataVendor_Record:GetItemStockItemHandle(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetMapVisibilityPrereqsCount() return end
+function gamedataVendor_Record:GetMapVisibilityPrereqsCount() end
 
 ---@param index Int32
 ---@return gamedataIPrereq_Record
-function gamedataVendor_Record:GetMapVisibilityPrereqsItem(index) return end
+function gamedataVendor_Record:GetMapVisibilityPrereqsItem(index) end
 
 ---@param index Int32
 ---@return gamedataIPrereq_Record
-function gamedataVendor_Record:GetMapVisibilityPrereqsItemHandle(index) return end
+function gamedataVendor_Record:GetMapVisibilityPrereqsItemHandle(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetVendorFilterTagsCount() return end
+function gamedataVendor_Record:GetVendorFilterTagsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataVendor_Record:GetVendorFilterTagsItem(index) return end
+function gamedataVendor_Record:GetVendorFilterTagsItem(index) end
 
 ---@return Int32
-function gamedataVendor_Record:GetVendorInverseFilterTagsCount() return end
+function gamedataVendor_Record:GetVendorInverseFilterTagsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataVendor_Record:GetVendorInverseFilterTagsItem(index) return end
+function gamedataVendor_Record:GetVendorInverseFilterTagsItem(index) end
 
 ---@return Float
-function gamedataVendor_Record:InGameTimeToRestock() return end
+function gamedataVendor_Record:InGameTimeToRestock() end
 
 ---@return nil, gamedataVendorItemQuery_Record[] outList
-function gamedataVendor_Record:ItemQueries() return end
+function gamedataVendor_Record:ItemQueries() end
 
 ---@param item gamedataVendorItemQuery_Record
 ---@return Bool
-function gamedataVendor_Record:ItemQueriesContains(item) return end
+function gamedataVendor_Record:ItemQueriesContains(item) end
 
 ---@return nil, gamedataVendorItem_Record[] outList
-function gamedataVendor_Record:ItemStock() return end
+function gamedataVendor_Record:ItemStock() end
 
 ---@param item gamedataVendorItem_Record
 ---@return Bool
-function gamedataVendor_Record:ItemStockContains(item) return end
+function gamedataVendor_Record:ItemStockContains(item) end
 
 ---@return String
-function gamedataVendor_Record:LocalizedDescription() return end
+function gamedataVendor_Record:LocalizedDescription() end
 
 ---@return String
-function gamedataVendor_Record:LocalizedName() return end
+function gamedataVendor_Record:LocalizedName() end
 
 ---@return nil, gamedataIPrereq_Record[] outList
-function gamedataVendor_Record:MapVisibilityPrereqs() return end
+function gamedataVendor_Record:MapVisibilityPrereqs() end
 
 ---@param item gamedataIPrereq_Record
 ---@return Bool
-function gamedataVendor_Record:MapVisibilityPrereqsContains(item) return end
+function gamedataVendor_Record:MapVisibilityPrereqsContains(item) end
 
 ---@return CName[]
-function gamedataVendor_Record:VendorFilterTags() return end
+function gamedataVendor_Record:VendorFilterTags() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataVendor_Record:VendorFilterTagsContains(item) return end
+function gamedataVendor_Record:VendorFilterTagsContains(item) end
 
 ---@return CName[]
-function gamedataVendor_Record:VendorInverseFilterTags() return end
+function gamedataVendor_Record:VendorInverseFilterTags() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataVendor_Record:VendorInverseFilterTagsContains(item) return end
+function gamedataVendor_Record:VendorInverseFilterTagsContains(item) end
 
 ---@return gamedataVendorType_Record
-function gamedataVendor_Record:VendorType() return end
+function gamedataVendor_Record:VendorType() end
 
 ---@return gamedataVendorType_Record
-function gamedataVendor_Record:VendorTypeHandle() return end
+function gamedataVendor_Record:VendorTypeHandle() end

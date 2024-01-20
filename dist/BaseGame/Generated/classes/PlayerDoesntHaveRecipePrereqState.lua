@@ -5,4 +5,4 @@ PlayerDoesntHaveRecipePrereqState = {}
 
 ---@param fields? PlayerDoesntHaveRecipePrereqState
 ---@return PlayerDoesntHaveRecipePrereqState
-function PlayerDoesntHaveRecipePrereqState.new(fields) return end
+function PlayerDoesntHaveRecipePrereqState.new(fields) end

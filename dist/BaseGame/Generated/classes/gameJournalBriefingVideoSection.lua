@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalBriefingVideoSection: gameJournalBriefingBaseSection
----@field public videoResource Bink
+---@field videoResource Bink
 gameJournalBriefingVideoSection = {}
 
 ---@param fields? gameJournalBriefingVideoSection
 ---@return gameJournalBriefingVideoSection
-function gameJournalBriefingVideoSection.new(fields) return end
+function gameJournalBriefingVideoSection.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gameJournalBriefingVideoSection:GetVideoPath() return end
+function gameJournalBriefingVideoSection:GetVideoPath() end

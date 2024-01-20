@@ -5,4 +5,4 @@ RefreshPowerOnSlavesEvent = {}
 
 ---@param fields? RefreshPowerOnSlavesEvent
 ---@return RefreshPowerOnSlavesEvent
-function RefreshPowerOnSlavesEvent.new(fields) return end
+function RefreshPowerOnSlavesEvent.new(fields) end

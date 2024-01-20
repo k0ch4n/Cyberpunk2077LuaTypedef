@@ -1,26 +1,22 @@
 ---@meta
 
 ---@class CPOVotingDevice: CPOMissionDevice
----@field protected deviceName CName
+---@field deviceName CName
 CPOVotingDevice = {}
 
 ---@param fields? CPOVotingDevice
 ---@return CPOVotingDevice
-function CPOVotingDevice.new(fields) return end
+function CPOVotingDevice.new(fields) end
 
----@protected
 ---@return Bool
-function CPOVotingDevice:OnGameAttached() return end
+function CPOVotingDevice:OnGameAttached() end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function CPOVotingDevice:OnInteraction(choiceEvent) return end
+function CPOVotingDevice:OnInteraction(choiceEvent) end
 
----@private
 ---@return CName
-function CPOVotingDevice:GetVoteFactName() return end
+function CPOVotingDevice:GetVoteFactName() end
 
----@private
 ---@return CName
-function CPOVotingDevice:GetVoteTimerFactName() return end
+function CPOVotingDevice:GetVoteTimerFactName() end

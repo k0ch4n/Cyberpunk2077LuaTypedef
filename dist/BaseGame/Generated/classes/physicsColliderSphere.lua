@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class physicsColliderSphere: physicsICollider
----@field public radius Float
+---@field radius Float
 physicsColliderSphere = {}
 
 ---@param fields? physicsColliderSphere
 ---@return physicsColliderSphere
-function physicsColliderSphere.new(fields) return end
+function physicsColliderSphere.new(fields) end

@@ -5,22 +5,19 @@ SampleEntityWithCounter = {}
 
 ---@param fields? SampleEntityWithCounter
 ---@return SampleEntityWithCounter
-function SampleEntityWithCounter.new(fields) return end
+function SampleEntityWithCounter.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SampleEntityWithCounter:OnRequestComponents(ri) return end
+function SampleEntityWithCounter:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SampleEntityWithCounter:OnTakeControl(ri) return end
+function SampleEntityWithCounter:OnTakeControl(ri) end
 
----@protected
 ---@return SampleEntityWithCounterPS
-function SampleEntityWithCounter:GetPS() return end
+function SampleEntityWithCounter:GetPS() end
 
 ---@param evt SampleBumpEvent
 ---@return nil
-function SampleEntityWithCounter:OnBumpTheCounter(evt) return end
+function SampleEntityWithCounter:OnBumpTheCounter(evt) end

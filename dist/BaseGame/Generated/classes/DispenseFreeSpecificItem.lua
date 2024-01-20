@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DispenseFreeSpecificItem: redEvent
----@field public item TweakDBID
+---@field item TweakDBID
 DispenseFreeSpecificItem = {}
 
 ---@param fields? DispenseFreeSpecificItem
 ---@return DispenseFreeSpecificItem
-function DispenseFreeSpecificItem.new(fields) return end
+function DispenseFreeSpecificItem.new(fields) end
 
 ---@return String
-function DispenseFreeSpecificItem:GetFriendlyDescription() return end
+function DispenseFreeSpecificItem:GetFriendlyDescription() end

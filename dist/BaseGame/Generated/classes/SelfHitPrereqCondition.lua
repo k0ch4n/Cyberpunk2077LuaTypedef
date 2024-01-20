@@ -5,12 +5,12 @@ SelfHitPrereqCondition = {}
 
 ---@param fields? SelfHitPrereqCondition
 ---@return SelfHitPrereqCondition
-function SelfHitPrereqCondition.new(fields) return end
+function SelfHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function SelfHitPrereqCondition:Evaluate(hitEvent) return end
+function SelfHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function SelfHitPrereqCondition:SetData(recordID) return end
+function SelfHitPrereqCondition:SetData(recordID) end

@@ -5,4 +5,4 @@ gamegraphCGraphResource = {}
 
 ---@param fields? gamegraphCGraphResource
 ---@return gamegraphCGraphResource
-function gamegraphCGraphResource.new(fields) return end
+function gamegraphCGraphResource.new(fields) end

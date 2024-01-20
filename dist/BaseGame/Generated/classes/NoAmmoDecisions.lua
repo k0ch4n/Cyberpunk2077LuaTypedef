@@ -1,56 +1,48 @@
 ---@meta
 
 ---@class NoAmmoDecisions: WeaponTransition
----@field private callbackID redCallbackObject
+---@field callbackID redCallbackObject
 NoAmmoDecisions = {}
 
 ---@param fields? NoAmmoDecisions
 ---@return NoAmmoDecisions
-function NoAmmoDecisions.new(fields) return end
+function NoAmmoDecisions.new(fields) end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function NoAmmoDecisions:OnAmmoCountChanged(value) return end
+function NoAmmoDecisions:OnAmmoCountChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function NoAmmoDecisions:EnterCondition(stateContext, scriptInterface) return end
+function NoAmmoDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function NoAmmoDecisions:ExitCondition(stateContext, scriptInterface) return end
+function NoAmmoDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function NoAmmoDecisions:OnAttach(stateContext, scriptInterface) return end
+function NoAmmoDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function NoAmmoDecisions:OnDetach(stateContext, scriptInterface) return end
+function NoAmmoDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function NoAmmoDecisions:ToPublicSafe(stateContext, scriptInterface) return end
+function NoAmmoDecisions:ToPublicSafe(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function NoAmmoDecisions:ToReady(stateContext, scriptInterface) return end
+function NoAmmoDecisions:ToReady(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function NoAmmoDecisions:ToReload(stateContext, scriptInterface) return end
+function NoAmmoDecisions:ToReload(stateContext, scriptInterface) end

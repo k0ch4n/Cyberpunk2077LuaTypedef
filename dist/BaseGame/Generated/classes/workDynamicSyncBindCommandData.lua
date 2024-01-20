@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workDynamicSyncBindCommandData: workSyncBindBaseCommandData
----@field public masterID entEntityID
+---@field masterID entEntityID
 workDynamicSyncBindCommandData = {}
 
 ---@param fields? workDynamicSyncBindCommandData
 ---@return workDynamicSyncBindCommandData
-function workDynamicSyncBindCommandData.new(fields) return end
+function workDynamicSyncBindCommandData.new(fields) end

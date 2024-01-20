@@ -5,4 +5,4 @@ gameAttachmentSlotEventsUnequipEnd = {}
 
 ---@param fields? gameAttachmentSlotEventsUnequipEnd
 ---@return gameAttachmentSlotEventsUnequipEnd
-function gameAttachmentSlotEventsUnequipEnd.new(fields) return end
+function gameAttachmentSlotEventsUnequipEnd.new(fields) end

@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class StopAndPlayVFXEffector: gameEffector
----@field public vfxToStop CName
----@field public vfxToStart CName
----@field public owner gameObject
+---@field vfxToStop CName
+---@field vfxToStart CName
+---@field owner gameObject
 StopAndPlayVFXEffector = {}
 
 ---@param fields? StopAndPlayVFXEffector
 ---@return StopAndPlayVFXEffector
-function StopAndPlayVFXEffector.new(fields) return end
+function StopAndPlayVFXEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StopAndPlayVFXEffector:ActionOn(owner) return end
+function StopAndPlayVFXEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StopAndPlayVFXEffector:Initialize(record, parentRecord) return end
+function StopAndPlayVFXEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StopAndPlayVFXEffector:RepeatedAction(owner) return end
+function StopAndPlayVFXEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function StopAndPlayVFXEffector:Uninitialize() return end
+function StopAndPlayVFXEffector:Uninitialize() end

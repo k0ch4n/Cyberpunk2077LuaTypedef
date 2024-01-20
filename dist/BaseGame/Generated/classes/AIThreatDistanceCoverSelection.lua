@@ -5,4 +5,4 @@ AIThreatDistanceCoverSelection = {}
 
 ---@param fields? AIThreatDistanceCoverSelection
 ---@return AIThreatDistanceCoverSelection
-function AIThreatDistanceCoverSelection.new(fields) return end
+function AIThreatDistanceCoverSelection.new(fields) end

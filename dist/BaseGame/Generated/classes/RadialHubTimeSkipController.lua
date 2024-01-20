@@ -1,52 +1,46 @@
 ---@meta
 
 ---@class RadialHubTimeSkipController: inkWidgetLogicController
----@field private gameTimeText inkTextWidgetReference
----@field private cantSkipTimeContainer inkWidgetReference
----@field private timeSkipButton inkWidgetReference
----@field private gameCtrlRef gameuiMenuGameController
----@field private timeSystem gameTimeSystem
----@field private timeSkipPopupToken inkGameNotificationToken
----@field private cantSkipTimeAnim inkanimProxy
----@field private gameTimeTextParams textTextParameterSet
----@field private canSkipTime Bool
+---@field gameTimeText inkTextWidgetReference
+---@field cantSkipTimeContainer inkWidgetReference
+---@field timeSkipButton inkWidgetReference
+---@field gameCtrlRef gameuiMenuGameController
+---@field timeSystem gameTimeSystem
+---@field timeSkipPopupToken inkGameNotificationToken
+---@field cantSkipTimeAnim inkanimProxy
+---@field gameTimeTextParams textTextParameterSet
+---@field canSkipTime Bool
 RadialHubTimeSkipController = {}
 
 ---@param fields? RadialHubTimeSkipController
 ---@return RadialHubTimeSkipController
-function RadialHubTimeSkipController.new(fields) return end
+function RadialHubTimeSkipController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RadialHubTimeSkipController:OnTimeSkipButtonHoverOut(evt) return end
+function RadialHubTimeSkipController:OnTimeSkipButtonHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RadialHubTimeSkipController:OnTimeSkipButtonHoverOver(evt) return end
+function RadialHubTimeSkipController:OnTimeSkipButtonHoverOver(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function RadialHubTimeSkipController:OnTimeSkipButtonPressed(e) return end
+function RadialHubTimeSkipController:OnTimeSkipButtonPressed(e) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function RadialHubTimeSkipController:OnTimeSkipPopupClosed(data) return end
+function RadialHubTimeSkipController:OnTimeSkipPopupClosed(data) end
 
 ---@param isEnabled Bool
 ---@param timeSystem gameTimeSystem
 ---@param gameController gameuiMenuGameController
 ---@return nil
-function RadialHubTimeSkipController:Init(isEnabled, timeSystem, gameController) return end
+function RadialHubTimeSkipController:Init(isEnabled, timeSystem, gameController) end
 
----@private
 ---@param visible Bool
 ---@return nil
-function RadialHubTimeSkipController:SetCursorVisibility(visible) return end
+function RadialHubTimeSkipController:SetCursorVisibility(visible) end
 
----@private
 ---@return nil
-function RadialHubTimeSkipController:UpdateGameTime() return end
+function RadialHubTimeSkipController:UpdateGameTime() end

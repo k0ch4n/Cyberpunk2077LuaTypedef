@@ -5,4 +5,4 @@ inkMenuCallback = {}
 
 ---@param fields? inkMenuCallback
 ---@return inkMenuCallback
-function inkMenuCallback.new(fields) return end
+function inkMenuCallback.new(fields) end

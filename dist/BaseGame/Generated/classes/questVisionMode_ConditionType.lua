@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questVisionMode_ConditionType: questISystemConditionType
----@field public timeInterval Float
----@field public visionModeType questVisionModeType
+---@field timeInterval Float
+---@field visionModeType questVisionModeType
 questVisionMode_ConditionType = {}
 
 ---@param fields? questVisionMode_ConditionType
 ---@return questVisionMode_ConditionType
-function questVisionMode_ConditionType.new(fields) return end
+function questVisionMode_ConditionType.new(fields) end

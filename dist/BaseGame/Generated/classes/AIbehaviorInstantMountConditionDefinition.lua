@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorInstantMountConditionDefinition: AIbehaviorConditionDefinition
----@field public mountData AIArgumentMapping
+---@field mountData AIArgumentMapping
 AIbehaviorInstantMountConditionDefinition = {}
 
 ---@param fields? AIbehaviorInstantMountConditionDefinition
 ---@return AIbehaviorInstantMountConditionDefinition
-function AIbehaviorInstantMountConditionDefinition.new(fields) return end
+function AIbehaviorInstantMountConditionDefinition.new(fields) end

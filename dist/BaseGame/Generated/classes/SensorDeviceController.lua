@@ -5,28 +5,25 @@ SensorDeviceController = {}
 
 ---@param fields? SensorDeviceController
 ---@return SensorDeviceController
-function SensorDeviceController.new(fields) return end
+function SensorDeviceController.new(fields) end
 
 ---@return SensorDeviceControllerPS
-function SensorDeviceController:GetPS() return end
+function SensorDeviceController:GetPS() end
 
 ---@return nil
-function SensorDeviceController:OnEditorAttach() return end
+function SensorDeviceController:OnEditorAttach() end
 
 ---@return nil
-function SensorDeviceController:OnGameAttach() return end
+function SensorDeviceController:OnGameAttach() end
 
----@protected
 ---@param debugDrawer rendDebugDrawerScriptProxy
 ---@return nil
-function SensorDeviceController:OnRenderSelection(debugDrawer) return end
+function SensorDeviceController:OnRenderSelection(debugDrawer) end
 
----@protected
 ---@param debugDrawer rendDebugDrawerScriptProxy
 ---@return nil
-function SensorDeviceController:OnSensorDeviceRenderDebug(debugDrawer) return end
+function SensorDeviceController:OnSensorDeviceRenderDebug(debugDrawer) end
 
----@private
 ---@param debugDrawer rendDebugDrawerScriptProxy
 ---@return nil
-function SensorDeviceController:SensorDeviceRenderDebug(debugDrawer) return end
+function SensorDeviceController:SensorDeviceRenderDebug(debugDrawer) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMovingPlatformTeleportTo: redEvent
----@field public destinationNode NodeRef
+---@field destinationNode NodeRef
 gameMovingPlatformTeleportTo = {}
 
 ---@param fields? gameMovingPlatformTeleportTo
 ---@return gameMovingPlatformTeleportTo
-function gameMovingPlatformTeleportTo.new(fields) return end
+function gameMovingPlatformTeleportTo.new(fields) end

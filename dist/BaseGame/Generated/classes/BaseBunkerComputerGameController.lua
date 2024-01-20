@@ -1,35 +1,30 @@
 ---@meta
 
 ---@class BaseBunkerComputerGameController: gameuiBaseBunkerComputerGameController
----@field public factsSet BunkerSystemsFactsSet
----@field public gateClosedFact CName
+---@field factsSet BunkerSystemsFactsSet
+---@field gateClosedFact CName
 BaseBunkerComputerGameController = {}
 
 ---@param fields? BaseBunkerComputerGameController
 ---@return BaseBunkerComputerGameController
-function BaseBunkerComputerGameController.new(fields) return end
+function BaseBunkerComputerGameController.new(fields) end
 
----@protected
 ---@return BunkerSystems
-function BaseBunkerComputerGameController:GetCurrentSystem() return end
+function BaseBunkerComputerGameController:GetCurrentSystem() end
 
----@protected
 ---@param factsSet BunkerSystemsFactsSet
 ---@return CName
-function BaseBunkerComputerGameController:GetCurrentSystemFact(factsSet) return end
+function BaseBunkerComputerGameController:GetCurrentSystemFact(factsSet) end
 
----@protected
 ---@return ScriptGameInstance
-function BaseBunkerComputerGameController:GetGame() return end
+function BaseBunkerComputerGameController:GetGame() end
 
----@protected
 ---@param controller inkWidgetLogicController
 ---@param fact CName|string
 ---@return nil
-function BaseBunkerComputerGameController:SetStatusOffline(controller, fact) return end
+function BaseBunkerComputerGameController:SetStatusOffline(controller, fact) end
 
----@protected
 ---@param controller inkWidgetLogicController
 ---@param isOffline Bool
 ---@return nil
-function BaseBunkerComputerGameController:SetStatusOffline(controller, isOffline) return end
+function BaseBunkerComputerGameController:SetStatusOffline(controller, isOffline) end

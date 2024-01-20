@@ -5,4 +5,4 @@ gameuiStickerCallback = {}
 
 ---@param fields? gameuiStickerCallback
 ---@return gameuiStickerCallback
-function gameuiStickerCallback.new(fields) return end
+function gameuiStickerCallback.new(fields) end

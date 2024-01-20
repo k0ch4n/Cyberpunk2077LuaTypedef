@@ -5,4 +5,4 @@ worldPopulationSpawnerNodeInstance = {}
 
 ---@param fields? worldPopulationSpawnerNodeInstance
 ---@return worldPopulationSpawnerNodeInstance
-function worldPopulationSpawnerNodeInstance.new(fields) return end
+function worldPopulationSpawnerNodeInstance.new(fields) end

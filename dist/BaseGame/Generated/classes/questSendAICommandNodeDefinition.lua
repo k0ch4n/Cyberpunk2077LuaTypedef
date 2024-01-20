@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questSendAICommandNodeDefinition: questAICommandNodeBase
----@field public puppet gameEntityReference
----@field public commandParams questAICommandParams
+---@field puppet gameEntityReference
+---@field commandParams questAICommandParams
 questSendAICommandNodeDefinition = {}
 
 ---@param fields? questSendAICommandNodeDefinition
 ---@return questSendAICommandNodeDefinition
-function questSendAICommandNodeDefinition.new(fields) return end
+function questSendAICommandNodeDefinition.new(fields) end

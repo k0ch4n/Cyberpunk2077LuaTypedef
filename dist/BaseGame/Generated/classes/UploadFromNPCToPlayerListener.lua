@@ -1,61 +1,55 @@
 ---@meta
 
 ---@class UploadFromNPCToPlayerListener: QuickHackUploadListener
----@field public playerPuppet ScriptedPuppet
----@field public npcPuppet ScriptedPuppet
----@field public npcSquad entEntityID[]
----@field public HUDData HUDProgressBarData
----@field public hudBlackboard gameIBlackboard
----@field private startUploadTimeStamp Float
----@field private ssAction Bool
----@field private preventionHackLoopAction Bool
----@field private shouldStopRevealOnPreventionDeescalation Bool
----@field private squadScriptInterface AISquadScriptInterface
----@field private useInterruptionPrereqs Bool
+---@field playerPuppet ScriptedPuppet
+---@field npcPuppet ScriptedPuppet
+---@field npcSquad entEntityID[]
+---@field HUDData HUDProgressBarData
+---@field hudBlackboard gameIBlackboard
+---@field startUploadTimeStamp Float
+---@field ssAction Bool
+---@field preventionHackLoopAction Bool
+---@field shouldStopRevealOnPreventionDeescalation Bool
+---@field squadScriptInterface AISquadScriptInterface
+---@field useInterruptionPrereqs Bool
 UploadFromNPCToPlayerListener = {}
 
 ---@param fields? UploadFromNPCToPlayerListener
 ---@return UploadFromNPCToPlayerListener
-function UploadFromNPCToPlayerListener.new(fields) return end
+function UploadFromNPCToPlayerListener.new(fields) end
 
----@protected
 ---@return Bool
-function UploadFromNPCToPlayerListener:OnStatPoolAdded() return end
+function UploadFromNPCToPlayerListener:OnStatPoolAdded() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function UploadFromNPCToPlayerListener:OnStatPoolMaxValueReached(value) return end
+function UploadFromNPCToPlayerListener:OnStatPoolMaxValueReached(value) end
 
 ---@return nil
-function UploadFromNPCToPlayerListener:ForceClose() return end
+function UploadFromNPCToPlayerListener:ForceClose() end
 
 ---@return nil
-function UploadFromNPCToPlayerListener:Initialize() return end
+function UploadFromNPCToPlayerListener:Initialize() end
 
----@private
 ---@return Bool
-function UploadFromNPCToPlayerListener:IsSquadAlive() return end
+function UploadFromNPCToPlayerListener:IsSquadAlive() end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function UploadFromNPCToPlayerListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function UploadFromNPCToPlayerListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function UploadFromNPCToPlayerListener:SendUploadStartedEvent(action) return end
+function UploadFromNPCToPlayerListener:SendUploadStartedEvent(action) end
 
----@private
 ---@param currentTier Int32
 ---@return Bool
-function UploadFromNPCToPlayerListener:StopHackBasedOnTier(currentTier) return end
+function UploadFromNPCToPlayerListener:StopHackBasedOnTier(currentTier) end
 
----@private
 ---@param player ScriptedPuppet
 ---@param npc ScriptedPuppet
 ---@param targetTracker TargetTrackingExtension
 ---@return nil
-function UploadFromNPCToPlayerListener:TryStartCombat(player, npc, targetTracker) return end
+function UploadFromNPCToPlayerListener:TryStartCombat(player, npc, targetTracker) end

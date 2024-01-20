@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkTutorialOverlayInputRequest: redEvent
----@field public isInputRequested Bool
+---@field isInputRequested Bool
 inkTutorialOverlayInputRequest = {}
 
 ---@param fields? inkTutorialOverlayInputRequest
 ---@return inkTutorialOverlayInputRequest
-function inkTutorialOverlayInputRequest.new(fields) return end
+function inkTutorialOverlayInputRequest.new(fields) end

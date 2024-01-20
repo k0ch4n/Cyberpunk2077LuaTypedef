@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class entIComponent: IScriptable
----@field public name CName
----@field public isReplicable Bool
----@field public id CRUID
+---@field name CName
+---@field isReplicable Bool
+---@field id CRUID
 entIComponent = {}
 
 ---@param componentName CName|string
 ---@return entIComponent
-function entIComponent:FindComponentByName(componentName) return end
+function entIComponent:FindComponentByName(componentName) end
 
 ---@return CName
-function entIComponent:GetAppearanceName() return end
+function entIComponent:GetAppearanceName() end
 
 ---@return entEntity
-function entIComponent:GetEntity() return end
+function entIComponent:GetEntity() end
 
 ---@return CName
-function entIComponent:GetName() return end
+function entIComponent:GetName() end
 
 ---@return Bool
-function entIComponent:IsEnabled() return end
+function entIComponent:IsEnabled() end
 
 ---@param ev redEvent
 ---@return nil
-function entIComponent:QueueEntityEvent(ev) return end
+function entIComponent:QueueEntityEvent(ev) end
 
 ---@param filterName String
 ---@param functionName CName|string
 ---@return nil
-function entIComponent:RegisterRenderDebug(filterName, functionName) return end
+function entIComponent:RegisterRenderDebug(filterName, functionName) end
 
 ---@param on Bool
 ---@return nil
-function entIComponent:Toggle(on) return end
+function entIComponent:Toggle(on) end

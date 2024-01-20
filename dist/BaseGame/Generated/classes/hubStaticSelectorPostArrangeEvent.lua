@@ -5,4 +5,4 @@ hubStaticSelectorPostArrangeEvent = {}
 
 ---@param fields? hubStaticSelectorPostArrangeEvent
 ---@return hubStaticSelectorPostArrangeEvent
-function hubStaticSelectorPostArrangeEvent.new(fields) return end
+function hubStaticSelectorPostArrangeEvent.new(fields) end

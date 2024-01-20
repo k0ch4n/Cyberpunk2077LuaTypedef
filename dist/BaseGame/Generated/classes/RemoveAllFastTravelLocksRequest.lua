@@ -5,4 +5,4 @@ RemoveAllFastTravelLocksRequest = {}
 
 ---@param fields? RemoveAllFastTravelLocksRequest
 ---@return RemoveAllFastTravelLocksRequest
-function RemoveAllFastTravelLocksRequest.new(fields) return end
+function RemoveAllFastTravelLocksRequest.new(fields) end

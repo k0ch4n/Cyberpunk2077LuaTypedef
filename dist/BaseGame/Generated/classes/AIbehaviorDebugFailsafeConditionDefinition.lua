@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorDebugFailsafeConditionDefinition: AIbehaviorConditionDefinition
----@field public logMessage AIArgumentMapping
+---@field logMessage AIArgumentMapping
 AIbehaviorDebugFailsafeConditionDefinition = {}
 
 ---@param fields? AIbehaviorDebugFailsafeConditionDefinition
 ---@return AIbehaviorDebugFailsafeConditionDefinition
-function AIbehaviorDebugFailsafeConditionDefinition.new(fields) return end
+function AIbehaviorDebugFailsafeConditionDefinition.new(fields) end

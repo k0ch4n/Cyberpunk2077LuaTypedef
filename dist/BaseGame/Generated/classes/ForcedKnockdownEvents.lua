@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class ForcedKnockdownEvents: KnockdownEvents
----@field public firstUpdate Bool
+---@field firstUpdate Bool
 ForcedKnockdownEvents = {}
 
 ---@param fields? ForcedKnockdownEvents
 ---@return ForcedKnockdownEvents
-function ForcedKnockdownEvents.new(fields) return end
+function ForcedKnockdownEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForcedKnockdownEvents:OnEnter(stateContext, scriptInterface) return end
+function ForcedKnockdownEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForcedKnockdownEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ForcedKnockdownEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

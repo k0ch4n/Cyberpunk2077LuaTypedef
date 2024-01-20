@@ -5,4 +5,4 @@ SceneTierInitialEvents = {}
 
 ---@param fields? SceneTierInitialEvents
 ---@return SceneTierInitialEvents
-function SceneTierInitialEvents.new(fields) return end
+function SceneTierInitialEvents.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorCrowdSettingsNameVehicleExpressionDefinition: AIbehaviorVehicleExpressionDefinition
----@field public settingsName CName
+---@field settingsName CName
 AIbehaviorCrowdSettingsNameVehicleExpressionDefinition = {}
 
 ---@param fields? AIbehaviorCrowdSettingsNameVehicleExpressionDefinition
 ---@return AIbehaviorCrowdSettingsNameVehicleExpressionDefinition
-function AIbehaviorCrowdSettingsNameVehicleExpressionDefinition.new(fields) return end
+function AIbehaviorCrowdSettingsNameVehicleExpressionDefinition.new(fields) end

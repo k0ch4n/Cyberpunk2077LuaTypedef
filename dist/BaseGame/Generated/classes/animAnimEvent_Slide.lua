@@ -5,4 +5,4 @@ animAnimEvent_Slide = {}
 
 ---@param fields? animAnimEvent_Slide
 ---@return animAnimEvent_Slide
-function animAnimEvent_Slide.new(fields) return end
+function animAnimEvent_Slide.new(fields) end

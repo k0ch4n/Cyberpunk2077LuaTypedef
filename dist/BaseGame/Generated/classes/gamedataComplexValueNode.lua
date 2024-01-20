@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamedataComplexValueNode: gamedataValueDataNode
----@field public data String[]
+---@field data String[]
 gamedataComplexValueNode = {}
 
 ---@param fields? gamedataComplexValueNode
 ---@return gamedataComplexValueNode
-function gamedataComplexValueNode.new(fields) return end
+function gamedataComplexValueNode.new(fields) end

@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class worldgeometryDescriptionResult: IScriptable
----@field public leftHandData worldgeometryHandIKDescriptionResult
----@field public rightHandData worldgeometryHandIKDescriptionResult
----@field public collisionNormal Vector4
----@field public distanceVector Vector4
----@field public topPoint Vector4
----@field public topNormal Vector4
----@field public behindPoint Vector4
----@field public behindNormal Vector4
----@field public obstacleDepth Float
----@field public upExtent Float
----@field public downExtent Float
----@field public topExtent Float
----@field public obstacleDepthStatus worldgeometryProbingStatus
----@field public leftExtentStatus worldgeometryProbingStatus
----@field public rightExtentStatus worldgeometryProbingStatus
----@field public upExtentStatus worldgeometryProbingStatus
----@field public downExtentStatus worldgeometryProbingStatus
----@field public topTestStatus worldgeometryProbingStatus
----@field public behindTestStatus worldgeometryProbingStatus
----@field public queryStatus worldgeometryDescriptionQueryStatus
----@field public climbedEntity entEntity
+---@field leftHandData worldgeometryHandIKDescriptionResult
+---@field rightHandData worldgeometryHandIKDescriptionResult
+---@field collisionNormal Vector4
+---@field distanceVector Vector4
+---@field topPoint Vector4
+---@field topNormal Vector4
+---@field behindPoint Vector4
+---@field behindNormal Vector4
+---@field obstacleDepth Float
+---@field upExtent Float
+---@field downExtent Float
+---@field topExtent Float
+---@field obstacleDepthStatus worldgeometryProbingStatus
+---@field leftExtentStatus worldgeometryProbingStatus
+---@field rightExtentStatus worldgeometryProbingStatus
+---@field upExtentStatus worldgeometryProbingStatus
+---@field downExtentStatus worldgeometryProbingStatus
+---@field topTestStatus worldgeometryProbingStatus
+---@field behindTestStatus worldgeometryProbingStatus
+---@field queryStatus worldgeometryDescriptionQueryStatus
+---@field climbedEntity entEntity
 worldgeometryDescriptionResult = {}
 
 ---@param fields? worldgeometryDescriptionResult
 ---@return worldgeometryDescriptionResult
-function worldgeometryDescriptionResult.new(fields) return end
+function worldgeometryDescriptionResult.new(fields) end

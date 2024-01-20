@@ -5,10 +5,10 @@ gamedataAIEverPerformedChase_Record = {}
 
 ---@param fields? gamedataAIEverPerformedChase_Record
 ---@return gamedataAIEverPerformedChase_Record
-function gamedataAIEverPerformedChase_Record.new(fields) return end
+function gamedataAIEverPerformedChase_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIEverPerformedChase_Record:Vehicle() return end
+function gamedataAIEverPerformedChase_Record:Vehicle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIEverPerformedChase_Record:VehicleHandle() return end
+function gamedataAIEverPerformedChase_Record:VehicleHandle() end

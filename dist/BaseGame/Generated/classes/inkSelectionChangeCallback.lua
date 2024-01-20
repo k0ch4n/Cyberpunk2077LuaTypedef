@@ -5,4 +5,4 @@ inkSelectionChangeCallback = {}
 
 ---@param fields? inkSelectionChangeCallback
 ---@return inkSelectionChangeCallback
-function inkSelectionChangeCallback.new(fields) return end
+function inkSelectionChangeCallback.new(fields) end

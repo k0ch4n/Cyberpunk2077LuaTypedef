@@ -5,12 +5,12 @@ QuestTypeIconUtils = {}
 
 ---@param filterType QuestListItemType
 ---@return CName
-function QuestTypeIconUtils.GetFilterIcon(filterType) return end
+function QuestTypeIconUtils.GetFilterIcon(filterType) end
 
 ---@param filterType QuestListItemType
 ---@return CName
-function QuestTypeIconUtils.GetIcon(filterType) return end
+function QuestTypeIconUtils.GetIcon(filterType) end
 
 ---@param filterType QuestListItemType
 ---@return CName
-function QuestTypeIconUtils.GetIconState(filterType) return end
+function QuestTypeIconUtils.GetIconState(filterType) end

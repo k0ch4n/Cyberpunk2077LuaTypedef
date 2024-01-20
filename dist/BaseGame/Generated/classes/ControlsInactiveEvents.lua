@@ -5,22 +5,19 @@ ControlsInactiveEvents = {}
 
 ---@param fields? ControlsInactiveEvents
 ---@return ControlsInactiveEvents
-function ControlsInactiveEvents.new(fields) return end
+function ControlsInactiveEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ControlsInactiveEvents:OnEnter(stateContext, scriptInterface) return end
+function ControlsInactiveEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ControlsInactiveEvents:OnExit(stateContext, scriptInterface) return end
+function ControlsInactiveEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ControlsInactiveEvents:OnForcedExit(stateContext, scriptInterface) return end
+function ControlsInactiveEvents:OnForcedExit(stateContext, scriptInterface) end

@@ -5,4 +5,4 @@ worldTrafficCompiledNodeInstance = {}
 
 ---@param fields? worldTrafficCompiledNodeInstance
 ---@return worldTrafficCompiledNodeInstance
-function worldTrafficCompiledNodeInstance.new(fields) return end
+function worldTrafficCompiledNodeInstance.new(fields) end

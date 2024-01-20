@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldTrafficCollisionSphere
----@field public worldPos Vector3
----@field public direction Vector3
----@field public radius Float
----@field public userData Uint64
----@field public flags Uint8
+---@field worldPos Vector3
+---@field direction Vector3
+---@field radius Float
+---@field userData Uint64
+---@field flags Uint8
 worldTrafficCollisionSphere = {}
 
 ---@param fields? worldTrafficCollisionSphere
 ---@return worldTrafficCollisionSphere
-function worldTrafficCollisionSphere.new(fields) return end
+function worldTrafficCollisionSphere.new(fields) end

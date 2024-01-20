@@ -5,23 +5,23 @@ PreviousStation = {}
 
 ---@param fields? PreviousStation
 ---@return PreviousStation
-function PreviousStation.new(fields) return end
+function PreviousStation.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function PreviousStation.IsAvailable(device) return end
+function PreviousStation.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function PreviousStation.IsClearanceValid(clearance) return end
+function PreviousStation.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function PreviousStation.IsDefaultConditionMet(device, context) return end
+function PreviousStation.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function PreviousStation:GetTweakDBChoiceRecord() return end
+function PreviousStation:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function PreviousStation:SetProperties() return end
+function PreviousStation:SetProperties() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAnimStateTransitionCondition_IntEdgeFeature: animIAnimStateTransitionCondition
----@field public featureName CName
----@field public featurePropertyName CName
+---@field featureName CName
+---@field featurePropertyName CName
 animAnimStateTransitionCondition_IntEdgeFeature = {}
 
 ---@param fields? animAnimStateTransitionCondition_IntEdgeFeature
 ---@return animAnimStateTransitionCondition_IntEdgeFeature
-function animAnimStateTransitionCondition_IntEdgeFeature.new(fields) return end
+function animAnimStateTransitionCondition_IntEdgeFeature.new(fields) end

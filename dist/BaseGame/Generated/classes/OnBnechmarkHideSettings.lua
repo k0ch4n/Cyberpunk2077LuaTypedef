@@ -5,4 +5,4 @@ OnBnechmarkHideSettings = {}
 
 ---@param fields? OnBnechmarkHideSettings
 ---@return OnBnechmarkHideSettings
-function OnBnechmarkHideSettings.new(fields) return end
+function OnBnechmarkHideSettings.new(fields) end

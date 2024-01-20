@@ -5,4 +5,4 @@ worldPreventionFreeAreaNodeInstance = {}
 
 ---@param fields? worldPreventionFreeAreaNodeInstance
 ---@return worldPreventionFreeAreaNodeInstance
-function worldPreventionFreeAreaNodeInstance.new(fields) return end
+function worldPreventionFreeAreaNodeInstance.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIbehaviorSendSignalTaskDefinition: AIbehaviorTaskDefinition
----@field public signalName CName
----@field public startAction gameBoolSignalAction
----@field public startActionUserData gameSignalUserDataDefinition
----@field public endAction gameBoolSignalAction
----@field public endActionUserData gameSignalUserDataDefinition
+---@field signalName CName
+---@field startAction gameBoolSignalAction
+---@field startActionUserData gameSignalUserDataDefinition
+---@field endAction gameBoolSignalAction
+---@field endActionUserData gameSignalUserDataDefinition
 AIbehaviorSendSignalTaskDefinition = {}
 
 ---@param fields? AIbehaviorSendSignalTaskDefinition
 ---@return AIbehaviorSendSignalTaskDefinition
-function AIbehaviorSendSignalTaskDefinition.new(fields) return end
+function AIbehaviorSendSignalTaskDefinition.new(fields) end

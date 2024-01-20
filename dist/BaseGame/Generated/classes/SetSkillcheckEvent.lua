@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetSkillcheckEvent: redEvent
----@field public skillcheckContainer BaseSkillCheckContainer
+---@field skillcheckContainer BaseSkillCheckContainer
 SetSkillcheckEvent = {}
 
 ---@param fields? SetSkillcheckEvent
 ---@return SetSkillcheckEvent
-function SetSkillcheckEvent.new(fields) return end
+function SetSkillcheckEvent.new(fields) end
 
 ---@return String
-function SetSkillcheckEvent:GetFriendlyDescription() return end
+function SetSkillcheckEvent:GetFriendlyDescription() end

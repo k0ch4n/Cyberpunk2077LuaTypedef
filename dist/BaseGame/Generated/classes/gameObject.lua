@@ -1,184 +1,183 @@
 ---@meta
 
 ---@class gameObject: entGameEntity
----@field public persistentState gamePersistentState
----@field public playerSocket gamePlayerSocket
----@field public uiSlotComponent entSlotComponent
----@field public tags redTagList
----@field public displayName LocalizationString
----@field public displayDescription LocalizationString
----@field public audioResourceName CName
----@field public visibilityCheckDistance Float
----@field protected forceRegisterInHudManager Bool
----@field protected prereqListeners GameObjectListener[]
----@field protected statusEffectListeners StatusEffectTriggerListener[]
----@field private lastEngineTime Float
----@field private accumulatedTimePasssed Float
----@field protected scanningComponent gameScanningComponent
----@field protected visionComponent gameVisionModeComponent
----@field protected isHighlightedInFocusMode Bool
----@field protected statusEffectComponent gameStatusEffectComponent
----@field protected markAsQuest Bool
----@field private e3ObjectRevealed Bool
----@field protected workspotMapper WorkspotMapperComponent
----@field protected stimBroadcaster StimBroadcasterComponent
----@field protected squadMemberComponent SquadMemberBaseComponent
----@field private sourceShootComponent gameSourceShootComponent
----@field private targetShootComponent gameTargetShootComponent
----@field protected receivedDamageHistory DamageHistoryEntry[]
----@field protected forceDefeatReward Bool
----@field protected killRewardDisabled Bool
----@field protected willDieSoon Bool
----@field private isScannerDataDirty Bool
----@field private hasVisibilityForcedInAnimSystem Bool
----@field protected isDead Bool
----@field private lastHitInstigatorID entEntityID
----@field private hitInstigatorCooldownID gameDelayID
----@field protected isTargetedWithSmartWeapon Bool
+---@field persistentState gamePersistentState
+---@field playerSocket gamePlayerSocket
+---@field uiSlotComponent entSlotComponent
+---@field tags redTagList
+---@field displayName LocalizationString
+---@field displayDescription LocalizationString
+---@field audioResourceName CName
+---@field visibilityCheckDistance Float
+---@field forceRegisterInHudManager Bool
+---@field prereqListeners GameObjectListener[]
+---@field statusEffectListeners StatusEffectTriggerListener[]
+---@field lastEngineTime Float
+---@field accumulatedTimePasssed Float
+---@field scanningComponent gameScanningComponent
+---@field visionComponent gameVisionModeComponent
+---@field isHighlightedInFocusMode Bool
+---@field statusEffectComponent gameStatusEffectComponent
+---@field markAsQuest Bool
+---@field e3ObjectRevealed Bool
+---@field workspotMapper WorkspotMapperComponent
+---@field stimBroadcaster StimBroadcasterComponent
+---@field squadMemberComponent SquadMemberBaseComponent
+---@field sourceShootComponent gameSourceShootComponent
+---@field targetShootComponent gameTargetShootComponent
+---@field receivedDamageHistory DamageHistoryEntry[]
+---@field forceDefeatReward Bool
+---@field killRewardDisabled Bool
+---@field willDieSoon Bool
+---@field isScannerDataDirty Bool
+---@field hasVisibilityForcedInAnimSystem Bool
+---@field isDead Bool
+---@field lastHitInstigatorID entEntityID
+---@field hitInstigatorCooldownID gameDelayID
+---@field isTargetedWithSmartWeapon Bool
 gameObject = {}
 
 ---@param fields? gameObject
 ---@return gameObject
-function gameObject.new(fields) return end
+function gameObject.new(fields) end
 
 ---@param obj gameObject
 ---@param listener GameObjectListener
 ---@return nil
-function gameObject.AddListener(obj, listener) return end
+function gameObject.AddListener(obj, listener) end
 
 ---@param target gameObject
 ---@param listener StatusEffectTriggerListener
 ---@return nil
-function gameObject.AddStatusEffectTriggerListener(target, listener) return end
+function gameObject.AddStatusEffectTriggerListener(target, listener) end
 
 ---@param self gameObject
 ---@param modifierGroupID Uint64
 ---@return nil
-function gameObject.ApplyModifierGroup(self, modifierGroupID) return end
+function gameObject.ApplyModifierGroup(self, modifierGroupID) end
 
 ---@param self gameObject
 ---@param parameterName CName|string
 ---@param parameterValue Float
 ---@param emitterName? CName|string
 ---@return nil
-function gameObject.AudioParameter(self, parameterName, parameterValue, emitterName) return end
+function gameObject.AudioParameter(self, parameterName, parameterValue, emitterName) end
 
 ---@param self gameObject
 ---@param switchName CName|string
 ---@param switchValue CName|string
 ---@param emitterName? CName|string
 ---@return nil
-function gameObject.AudioSwitch(self, switchName, switchValue, emitterName) return end
+function gameObject.AudioSwitch(self, switchName, switchValue, emitterName) end
 
 ---@param self gameObject
 ---@param effectName CName|string
 ---@return nil
-function gameObject.BreakReplicatedEffectLoopEvent(self, effectName) return end
+function gameObject.BreakReplicatedEffectLoopEvent(self, effectName) end
 
 ---@param owner gameObject
 ---@param target gameObject
 ---@return nil
-function gameObject.ChangeAttitudeToHostile(owner, target) return end
+function gameObject.ChangeAttitudeToHostile(owner, target) end
 
 ---@param owner gameObject
 ---@param target gameObject
 ---@return nil
-function gameObject.ChangeAttitudeToNeutral(owner, target) return end
+function gameObject.ChangeAttitudeToNeutral(owner, target) end
 
 ---@param self gameObject
 ---@param data FocusForcedHighlightData
 ---@return nil
-function gameObject.ForceVisionAppearance(self, data) return end
+function gameObject.ForceVisionAppearance(self, data) end
 
 ---@param object gameObject
 ---@return gameweaponObject
-function gameObject.GetActiveWeapon(object) return end
+function gameObject.GetActiveWeapon(object) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Float
-function gameObject.GetAttackAngleInFloat(hitEvent) return end
+function gameObject.GetAttackAngleInFloat(hitEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@param hitSource? Int32
 ---@return Int32
-function gameObject.GetAttackAngleInInt(hitEvent, hitSource) return end
+function gameObject.GetAttackAngleInInt(hitEvent, hitSource) end
 
 ---@param first gameObject
 ---@param second gameObject
 ---@return EAIAttitude
-function gameObject.GetAttitudeBetween(first, second) return end
+function gameObject.GetAttitudeBetween(first, second) end
 
 ---@param first gameObject
 ---@param second gameObject
 ---@return EAIAttitude
-function gameObject.GetAttitudeTowards(first, second) return end
+function gameObject.GetAttitudeTowards(first, second) end
 
----@private
 ---@param target gameObject
 ---@param playerPuppet gameObject
 ---@return Float
-function gameObject.GetFinisherHealthThresholdIncrease(target, playerPuppet) return end
+function gameObject.GetFinisherHealthThresholdIncrease(target, playerPuppet) end
 
 ---@param direction Vector4
 ---@param owner gameObject
 ---@return Int32
-function gameObject.GetLocalAngleForDirectionInInt(direction, owner) return end
+function gameObject.GetLocalAngleForDirectionInInt(direction, owner) end
 
 ---@param object gameObject
 ---@return TweakDBID
-function gameObject.GetTDBID(object) return end
+function gameObject.GetTDBID(object) end
 
 ---@param target gameObject
 ---@param owner gameObject
 ---@return Float
-function gameObject.GetTargetAngleInFloat(target, owner) return end
+function gameObject.GetTargetAngleInFloat(target, owner) end
 
 ---@param target gameObject
 ---@param owner gameObject
 ---@return Int32, Int32 backDirection
-function gameObject.GetTargetAngleInInt(target, owner) return end
+function gameObject.GetTargetAngleInInt(target, owner) end
 
 ---@param target gameObject
 ---@param owner gameObject
 ---@return Int32
-function gameObject.GetTargetAngleInInt(target, owner) return end
+function gameObject.GetTargetAngleInInt(target, owner) end
 
 ---@param self gameObject
 ---@param cooldownName CName|string
 ---@param id? Int32
 ---@return Bool
-function gameObject.IsCooldownActive(self, cooldownName, id) return end
+function gameObject.IsCooldownActive(self, cooldownName, id) end
 
 ---@param obj gameObject
 ---@return Bool
-function gameObject.IsFriendlyTowardsPlayer(obj) return end
+function gameObject.IsFriendlyTowardsPlayer(obj) end
 
 ---@param object gameObject
 ---@return Bool
-function gameObject.IsVehicle(object) return end
+function gameObject.IsVehicle(object) end
 
 ---@param self gameObject
 ---@param eventName CName|string
 ---@return nil
-function gameObject.PlayMetadataEvent(self, eventName) return end
+function gameObject.PlayMetadataEvent(self, eventName) end
 
 ---@param self gameObject
 ---@param eventName CName|string
 ---@param emitterName? CName|string
 ---@return nil
-function gameObject.PlaySound(self, eventName, emitterName) return end
+function gameObject.PlaySound(self, eventName, emitterName) end
 
 ---@param self gameObject
 ---@param eventName CName|string
 ---@return nil
-function gameObject.PlaySoundEvent(self, eventName) return end
+function gameObject.PlaySoundEvent(self, eventName) end
 
 ---@param self gameObject
 ---@param eventName CName|string
 ---@param flag? audioAudioEventFlags
 ---@param type? audioEventActionType
 ---@return nil
-function gameObject.PlaySoundEventWithParams(self, eventName, flag, type) return end
+function gameObject.PlaySoundEventWithParams(self, eventName, flag, type) end
 
 ---@param self gameObject
 ---@param eventName CName|string
@@ -186,7 +185,7 @@ function gameObject.PlaySoundEventWithParams(self, eventName, flag, type) return
 ---@param flag? audioAudioEventFlags
 ---@param type? audioEventActionType
 ---@return nil
-function gameObject.PlaySoundWithParams(self, eventName, emitterName, flag, type) return end
+function gameObject.PlaySoundWithParams(self, eventName, emitterName, flag, type) end
 
 ---@param self gameObject
 ---@param voName CName|string
@@ -195,27 +194,27 @@ function gameObject.PlaySoundWithParams(self, eventName, emitterName, flag, type
 ---@param answeringEntityID? entEntityID
 ---@param canPlayInVehicle? Bool
 ---@return gameDelayID
-function gameObject.PlayVoiceOver(self, voName, debugInitialContext, delay, answeringEntityID, canPlayInVehicle) return end
+function gameObject.PlayVoiceOver(self, voName, debugInitialContext, delay, answeringEntityID, canPlayInVehicle) end
 
 ---@param self gameObject
 ---@param cooldownName CName|string
 ---@return nil
-function gameObject.RemoveCooldown(self, cooldownName) return end
+function gameObject.RemoveCooldown(self, cooldownName) end
 
 ---@param obj gameObject
 ---@param listener GameObjectListener
 ---@return nil
-function gameObject.RemoveListener(obj, listener) return end
+function gameObject.RemoveListener(obj, listener) end
 
 ---@param self gameObject
 ---@param modifierGroupID Uint64
 ---@return nil
-function gameObject.RemoveModifierGroup(self, modifierGroupID) return end
+function gameObject.RemoveModifierGroup(self, modifierGroupID) end
 
 ---@param target gameObject
 ---@param listener StatusEffectTriggerListener
 ---@return nil
-function gameObject.RemoveStatusEffectTriggerListener(target, listener) return end
+function gameObject.RemoveStatusEffectTriggerListener(target, listener) end
 
 ---@param self gameObject
 ---@param reveal Bool
@@ -224,19 +223,19 @@ function gameObject.RemoveStatusEffectTriggerListener(target, listener) return e
 ---@param lifetime? Float
 ---@param delay? Float
 ---@return nil
-function gameObject.SendForceRevealObjectEvent(self, reveal, reason, instigatorID, lifetime, delay) return end
+function gameObject.SendForceRevealObjectEvent(self, reveal, reason, instigatorID, lifetime, delay) end
 
 ---@param self gameObject
 ---@param paramName CName|string
 ---@param paramValue Float
 ---@return nil
-function gameObject.SetAudioParameter(self, paramName, paramValue) return end
+function gameObject.SetAudioParameter(self, paramName, paramValue) end
 
 ---@param self gameObject
 ---@param switchName CName|string
 ---@param switchValue CName|string
 ---@return nil
-function gameObject.SetAudioSwitch(self, switchName, switchValue) return end
+function gameObject.SetAudioSwitch(self, switchName, switchValue) end
 
 ---@param outType EFocusOutlineType
 ---@param highType EFocusForcedHighlightType
@@ -244,1291 +243,1185 @@ function gameObject.SetAudioSwitch(self, switchName, switchValue) return end
 ---@param id entEntityID
 ---@param className CName|string
 ---@return FocusForcedHighlightData
-function gameObject.SetFocusForcedHightlightData(outType, highType, prio, id, className) return end
+function gameObject.SetFocusForcedHightlightData(outType, highType, prio, id, className) end
 
 ---@param self gameObject
 ---@param appearance CName|string
 ---@return nil
-function gameObject.SetMeshAppearanceEvent(self, appearance) return end
+function gameObject.SetMeshAppearanceEvent(self, appearance) end
 
 ---@param self gameObject
 ---@param cooldownName CName|string
 ---@param cooldownDuration Float
 ---@param ignoreTimeDilation? Bool
 ---@return Int32
-function gameObject.StartCooldown(self, cooldownName, cooldownDuration, ignoreTimeDilation) return end
+function gameObject.StartCooldown(self, cooldownName, cooldownDuration, ignoreTimeDilation) end
 
 ---@param self gameObject
 ---@param effectName CName|string
 ---@param shouldPersist? Bool
 ---@param breakAllOnDestroy? Bool
 ---@return nil
-function gameObject.StartReplicatedEffectEvent(self, effectName, shouldPersist, breakAllOnDestroy) return end
+function gameObject.StartReplicatedEffectEvent(self, effectName, shouldPersist, breakAllOnDestroy) end
 
 ---@param self gameObject
 ---@param id entEntityID
 ---@param effectName CName|string
 ---@return nil
-function gameObject.StopEffectEvent(self, id, effectName) return end
+function gameObject.StopEffectEvent(self, id, effectName) end
 
 ---@param self gameObject
 ---@param effectName CName|string
 ---@return nil
-function gameObject.StopReplicatedEffectEvent(self, effectName) return end
+function gameObject.StopReplicatedEffectEvent(self, effectName) end
 
 ---@param self gameObject
 ---@param eventName CName|string
 ---@param emitterName? CName|string
 ---@return nil
-function gameObject.StopSound(self, eventName, emitterName) return end
+function gameObject.StopSound(self, eventName, emitterName) end
 
 ---@param self gameObject
 ---@param eventName CName|string
 ---@return nil
-function gameObject.StopSoundEvent(self, eventName) return end
+function gameObject.StopSoundEvent(self, eventName) end
 
 ---@param obj gameObject
 ---@return nil
-function gameObject.TagObject(obj) return end
+function gameObject.TagObject(obj) end
 
 ---@param target gameObject
 ---@return Bool
-function gameObject.TargetHasDebuff(target) return end
+function gameObject.TargetHasDebuff(target) end
 
----@protected
 ---@param target gameObject
 ---@return Bool
-function gameObject.TargetHasLocomotionMalfunction(target) return end
+function gameObject.TargetHasLocomotionMalfunction(target) end
 
----@protected
 ---@param target gameObject
 ---@return Bool
-function gameObject.TargetIsStunned(target) return end
+function gameObject.TargetIsStunned(target) end
 
 ---@param owner gameObject
 ---@param sourceName CName|string
 ---@param isVisibe Bool
 ---@param transitionTime? Float
 ---@return nil
-function gameObject.ToggleForcedVisibilityInAnimSystemEvent(owner, sourceName, isVisibe, transitionTime) return end
+function gameObject.ToggleForcedVisibilityInAnimSystemEvent(owner, sourceName, isVisibe, transitionTime) end
 
 ---@param obj gameObject
 ---@return nil
-function gameObject.UntagObject(obj) return end
+function gameObject.UntagObject(obj) end
 
 ---@param enable Bool
 ---@return nil
-function gameObject:EnableTransformUpdates(enable) return end
+function gameObject:EnableTransformUpdates(enable) end
 
 ---@return nil
-function gameObject:GetAudioName() return end
+function gameObject:GetAudioName() end
 
 ---@return gameObjectPS
-function gameObject:GetBasePS() return end
+function gameObject:GetBasePS() end
 
 ---@return CName
-function gameObject:GetCurrentContext() return end
+function gameObject:GetCurrentContext() end
 
 ---@param curveName CName|string
 ---@param isDebug Bool
 ---@return nil, Float x, Float y
-function gameObject:GetCurveValue(curveName, isDebug) return end
+function gameObject:GetCurveValue(curveName, isDebug) end
 
 ---@return nil
-function gameObject:GetDisplayDescription() return end
+function gameObject:GetDisplayDescription() end
 
 ---@return String
-function gameObject:GetDisplayName() return end
+function gameObject:GetDisplayName() end
 
 ---@return ScriptGameInstance
-function gameObject:GetGame() return end
+function gameObject:GetGame() end
 
 ---@return CName
-function gameObject:GetName() return end
+function gameObject:GetName() end
 
 ---@return gameObject
-function gameObject:GetOwner() return end
+function gameObject:GetOwner() end
 
 ---@return gameObjectPS
-function gameObject:GetPS() return end
+function gameObject:GetPS() end
 
 ---@return String
-function gameObject:GetTracedActionName() return end
+function gameObject:GetTracedActionName() end
 
 ---@return entSlotComponent
-function gameObject:GetUISlotComponent() return end
+function gameObject:GetUISlotComponent() end
 
 ---@param tag CName|string
 ---@return Bool
-function gameObject:HasTag(tag) return end
+function gameObject:HasTag(tag) end
 
 ---@return Bool
-function gameObject:IsPlayerControlled() return end
+function gameObject:IsPlayerControlled() end
 
 ---@return Bool
-function gameObject:IsSelectedForDebugging() return end
+function gameObject:IsSelectedForDebugging() end
 
 ---@return Bool
-function gameObject:PlayerLastUsedKBM() return end
+function gameObject:PlayerLastUsedKBM() end
 
 ---@return Bool
-function gameObject:PlayerLastUsedPS5Pad() return end
+function gameObject:PlayerLastUsedPS5Pad() end
 
 ---@return Bool
-function gameObject:PlayerLastUsedPad() return end
+function gameObject:PlayerLastUsedPad() end
 
 ---@param evt redEvent
 ---@return nil
-function gameObject:QueueReplicatedEvent(evt) return end
+function gameObject:QueueReplicatedEvent(evt) end
 
 ---@param listener IScriptable
 ---@param name? CName|string
 ---@return nil
-function gameObject:RegisterInputListener(listener, name) return end
+function gameObject:RegisterInputListener(listener, name) end
 
 ---@param listener IScriptable
 ---@param name CName|string
 ---@return nil
-function gameObject:RegisterInputListenerWithOwner(listener, name) return end
+function gameObject:RegisterInputListenerWithOwner(listener, name) end
 
 ---@param obj gameObject
 ---@param eventName CName|string
 ---@return nil
-function gameObject:ReplicateAnimEvent(obj, eventName) return end
+function gameObject:ReplicateAnimEvent(obj, eventName) end
 
 ---@param obj gameObject
 ---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
-function gameObject:ReplicateAnimFeature(obj, inputName, value) return end
+function gameObject:ReplicateAnimFeature(obj, inputName, value) end
 
 ---@param obj gameObject
 ---@param inputName CName|string
 ---@param value Bool
 ---@return nil
-function gameObject:ReplicateInputBool(obj, inputName, value) return end
+function gameObject:ReplicateInputBool(obj, inputName, value) end
 
 ---@param obj gameObject
 ---@param inputName CName|string
 ---@param value Float
 ---@return nil
-function gameObject:ReplicateInputFloat(obj, inputName, value) return end
+function gameObject:ReplicateInputFloat(obj, inputName, value) end
 
 ---@param obj gameObject
 ---@param inputName CName|string
 ---@param value Int32
 ---@return nil
-function gameObject:ReplicateInputInt(obj, inputName, value) return end
+function gameObject:ReplicateInputInt(obj, inputName, value) end
 
 ---@param obj gameObject
 ---@param inputName CName|string
 ---@param value Vector4
 ---@return nil
-function gameObject:ReplicateInputVector(obj, inputName, value) return end
+function gameObject:ReplicateInputVector(obj, inputName, value) end
 
 ---@param eventName CName|string
 ---@param data? IScriptable
 ---@param flags? Int32
 ---@return Bool
-function gameObject:TriggerEvent(eventName, data, flags) return end
+function gameObject:TriggerEvent(eventName, data, flags) end
 
 ---@param listener IScriptable
 ---@param name? CName|string
 ---@return nil
-function gameObject:UnregisterInputListener(listener, name) return end
+function gameObject:UnregisterInputListener(listener, name) end
 
----@protected
 ---@param evt AddOrRemoveListenerForGOEvent
 ---@return Bool
-function gameObject:OnAddOrRemoveListenerForGameObject(evt) return end
+function gameObject:OnAddOrRemoveListenerForGameObject(evt) end
 
----@protected
 ---@param evt AddStatusEffectListenerEvent
 ---@return Bool
-function gameObject:OnAddStatusEffectTriggerListener(evt) return end
+function gameObject:OnAddStatusEffectTriggerListener(evt) end
 
----@protected
 ---@param evt gameeventsAttitudeChangedEvent
 ---@return Bool
-function gameObject:OnAttitudeChanged(evt) return end
+function gameObject:OnAttitudeChanged(evt) end
 
----@protected
 ---@param evt AutoSaveEvent
 ---@return Bool
-function gameObject:OnAutoSaveEvent(evt) return end
+function gameObject:OnAutoSaveEvent(evt) end
 
----@protected
 ---@param evt ChangeRewardSettingsEvent
 ---@return Bool
-function gameObject:OnChangeRewardSettingsEvent(evt) return end
+function gameObject:OnChangeRewardSettingsEvent(evt) end
 
----@protected
 ---@param evt CustomUIAnimationEvent
 ---@return Bool
-function gameObject:OnCustomUIAnimationEvent(evt) return end
+function gameObject:OnCustomUIAnimationEvent(evt) end
 
----@protected
 ---@param evt gameeventsDamageReceivedEvent
 ---@return Bool
-function gameObject:OnDamageReceived(evt) return end
+function gameObject:OnDamageReceived(evt) end
 
----@protected
 ---@param evt DebugOutlineEvent
 ---@return Bool
-function gameObject:OnDebugOutlineEvent(evt) return end
+function gameObject:OnDebugOutlineEvent(evt) end
 
----@protected
 ---@param evt DelayPrereqEvent
 ---@return Bool
-function gameObject:OnDelayPrereqEvent(evt) return end
+function gameObject:OnDelayPrereqEvent(evt) end
 
----@protected
 ---@return Bool
-function gameObject:OnDetach() return end
+function gameObject:OnDetach() end
 
----@protected
 ---@param evt DeviceLinkRequest
 ---@return Bool
-function gameObject:OnDeviceLinkRequest(evt) return end
+function gameObject:OnDeviceLinkRequest(evt) end
 
----@protected
 ---@return Bool
-function gameObject:OnGameAttached() return end
+function gameObject:OnGameAttached() end
 
----@protected
 ---@param evt GameplayRoleChangeNotification
 ---@return Bool
-function gameObject:OnGameplayRoleChangeNotification(evt) return end
+function gameObject:OnGameplayRoleChangeNotification(evt) end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function gameObject:OnHUDInstruction(evt) return end
+function gameObject:OnHUDInstruction(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function gameObject:OnHit(evt) return end
+function gameObject:OnHit(evt) end
 
----@protected
 ---@param evt HitInstigatorCooldownEvent
 ---@return Bool
-function gameObject:OnHitInstigatorCooldown(evt) return end
+function gameObject:OnHitInstigatorCooldown(evt) end
 
----@protected
 ---@param evt gameeventsProjectedHitEvent
 ---@return Bool
-function gameObject:OnHitProjection(evt) return end
+function gameObject:OnHitProjection(evt) end
 
----@protected
 ---@param evt LookedAtEvent
 ---@return Bool
-function gameObject:OnLookedAtEvent(evt) return end
+function gameObject:OnLookedAtEvent(evt) end
 
----@protected
 ---@param evt gameeventsMissEvent
 ---@return Bool
-function gameObject:OnMiss(evt) return end
+function gameObject:OnMiss(evt) end
 
----@protected
 ---@param evt OutlineRequestEvent
 ---@return Bool
-function gameObject:OnOutlineRequestEvent(evt) return end
+function gameObject:OnOutlineRequestEvent(evt) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function gameObject:OnPhysicalDestructionEvent(evt) return end
+function gameObject:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param evt entPostInitializeEvent
 ---@return Bool
-function gameObject:OnPostInitialize(evt) return end
+function gameObject:OnPostInitialize(evt) end
 
----@protected
 ---@param evt entPreUninitializeEvent
 ---@return Bool
-function gameObject:OnPreUninitialize(evt) return end
+function gameObject:OnPreUninitialize(evt) end
 
----@protected
 ---@param evt gameVisionModeUpdateVisuals
 ---@return Bool
-function gameObject:OnPulseEvent(evt) return end
+function gameObject:OnPulseEvent(evt) end
 
----@protected
 ---@param evt Record1DamageInHistoryEvent
 ---@return Bool
-function gameObject:OnRecord1DamageInHistoryEvent(evt) return end
+function gameObject:OnRecord1DamageInHistoryEvent(evt) end
 
----@protected
 ---@param evt RemoveStatusEffectListenerEvent
 ---@return Bool
-function gameObject:OnRemoveStatusEffectTriggerListener(evt) return end
+function gameObject:OnRemoveStatusEffectTriggerListener(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function gameObject:OnRequestComponents(ri) return end
+function gameObject:OnRequestComponents(ri) end
 
----@protected
 ---@param evt ScaleAndLockLeftHandWeaponsCompensateInStashEvent
 ---@return Bool
-function gameObject:OnScaleAndLockLeftHandWeaponsCompensateInStashEvent(evt) return end
+function gameObject:OnScaleAndLockLeftHandWeaponsCompensateInStashEvent(evt) end
 
----@protected
 ---@param evt gameScanningLookAtEvent
 ---@return Bool
-function gameObject:OnScanningLookedAt(evt) return end
+function gameObject:OnScanningLookedAt(evt) end
 
----@protected
 ---@param evt gameScanningModeEvent
 ---@return Bool
-function gameObject:OnScanningModeChanged(evt) return end
+function gameObject:OnScanningModeChanged(evt) end
 
----@protected
 ---@param evt gameSetAsQuestImportantEvent
 ---@return Bool
-function gameObject:OnSetAsQuestImportantEvent(evt) return end
+function gameObject:OnSetAsQuestImportantEvent(evt) end
 
----@protected
 ---@param evt gamesmartGunSmartGunLockEvent
 ---@return Bool
-function gameObject:OnSmartGunLockEvent(evt) return end
+function gameObject:OnSmartGunLockEvent(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function gameObject:OnStatusEffectApplied(evt) return end
+function gameObject:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function gameObject:OnStatusEffectRemoved(evt) return end
+function gameObject:OnStatusEffectRemoved(evt) end
 
----@protected
 ---@param evt TagObjectEvent
 ---@return Bool
-function gameObject:OnTagObjectEvent(evt) return end
+function gameObject:OnTagObjectEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function gameObject:OnTakeControl(ri) return end
+function gameObject:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleOffMeshConnections
 ---@return Bool
-function gameObject:OnToggleOffMeshConnections(evt) return end
+function gameObject:OnToggleOffMeshConnections(evt) end
 
----@protected
 ---@param evt ToggleVisibilityInAnimSystemEvent
 ---@return Bool
-function gameObject:OnToggleVisibilityInAnimSystemEvent(evt) return end
+function gameObject:OnToggleVisibilityInAnimSystemEvent(evt) end
 
----@protected
 ---@param evt TriggerAttackEffectorWithDelay
 ---@return Bool
-function gameObject:OnTriggerAttackEffectorWithDelay(evt) return end
+function gameObject:OnTriggerAttackEffectorWithDelay(evt) end
 
----@protected
 ---@param evt UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent
 ---@return Bool
-function gameObject:OnUnifyIconicsUpgradeCountWithEffectiveTierInStashEvent(evt) return end
+function gameObject:OnUnifyIconicsUpgradeCountWithEffectiveTierInStashEvent(evt) end
 
----@protected
 ---@param evt gameeventsVehicleHitEvent
 ---@return Bool
-function gameObject:OnVehicleHit(evt) return end
+function gameObject:OnVehicleHit(evt) end
 
----@protected
 ---@param evt WillDieSoonEvent
 ---@return Bool
-function gameObject:OnWillDieSoonEventEvent(evt) return end
+function gameObject:OnWillDieSoonEventEvent(evt) end
 
----@protected
 ---@param evt linkedClueTagEvent
 ---@return Bool
-function gameObject:OnlinkedClueTagEvent(evt) return end
+function gameObject:OnlinkedClueTagEvent(evt) end
 
 ---@return Bool
-function gameObject:BlockFinisherThreshold() return end
+function gameObject:BlockFinisherThreshold() end
 
 ---@return Bool
-function gameObject:BlockWorkspotFinishers() return end
+function gameObject:BlockWorkspotFinishers() end
 
 ---@return Bool
-function gameObject:CanBeInvestigated() return end
+function gameObject:CanBeInvestigated() end
 
 ---@return Bool
-function gameObject:CanBeTagged() return end
+function gameObject:CanBeTagged() end
 
 ---@return Bool
-function gameObject:CanOverrideNetworkContext() return end
+function gameObject:CanOverrideNetworkContext() end
 
 ---@return Bool
-function gameObject:CanPassDemolitionSkillCheck() return end
+function gameObject:CanPassDemolitionSkillCheck() end
 
 ---@return Bool
-function gameObject:CanPassEngineeringSkillCheck() return end
+function gameObject:CanPassEngineeringSkillCheck() end
 
 ---@return Bool
-function gameObject:CanPassHackingSkillCheck() return end
+function gameObject:CanPassHackingSkillCheck() end
 
 ---@return Bool
-function gameObject:CanPlayerScanThroughWalls() return end
+function gameObject:CanPlayerScanThroughWalls() end
 
 ---@param data TweakDBID|string
 ---@return Bool
-function gameObject:CanPlayerUseQuickHackVulnerability(data) return end
+function gameObject:CanPlayerUseQuickHackVulnerability(data) end
 
 ---@return Bool
-function gameObject:CanReceivePoiseDamage() return end
+function gameObject:CanReceivePoiseDamage() end
 
 ---@return Bool
-function gameObject:CanRevealRemoteActionsWheel() return end
+function gameObject:CanRevealRemoteActionsWheel() end
 
----@protected
 ---@param data FocusForcedHighlightData
 ---@return nil
-function gameObject:CancelForcedVisionAppearance(data) return end
+function gameObject:CancelForcedVisionAppearance(data) end
 
----@private
 ---@param damageDealers gameObject[]
 ---@return nil
-function gameObject:CheckIfPreventionShouldReact(damageDealers) return end
+function gameObject:CheckIfPreventionShouldReact(damageDealers) end
 
----@protected
 ---@return nil
-function gameObject:ClearForcedVisibilityInAnimSystem() return end
+function gameObject:ClearForcedVisibilityInAnimSystem() end
 
 ---@return Bool
-function gameObject:CompileScannerChunks() return end
+function gameObject:CompileScannerChunks() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function gameObject:DamagePipelineFinalized(evt) return end
+function gameObject:DamagePipelineFinalized(evt) end
 
 ---@return EGameplayRole
-function gameObject:DeterminGameplayRole() return end
+function gameObject:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return Float
-function gameObject:DeterminGameplayRoleMappinRange(data) return end
+function gameObject:DeterminGameplayRoleMappinRange(data) end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function gameObject:DeterminGameplayRoleMappinVisuaState(data) return end
+function gameObject:DeterminGameplayRoleMappinVisuaState(data) end
 
 ---@param value Bool
 ---@return nil
-function gameObject:DisableKillReward(value) return end
+function gameObject:DisableKillReward(value) end
 
----@protected
 ---@param player Bool
 ---@param npc Bool
 ---@return nil
-function gameObject:DisableOffMeshConnections(player, npc) return end
+function gameObject:DisableOffMeshConnections(player, npc) end
 
 ---@param dmgInfos gameuiDamageInfo[]
 ---@return nil
-function gameObject:DisplayHitUI(dmgInfos) return end
+function gameObject:DisplayHitUI(dmgInfos) end
 
 ---@param killInfo gameuiKillInfo
 ---@return nil
-function gameObject:DisplayKillUI(killInfo) return end
+function gameObject:DisplayKillUI(killInfo) end
 
----@protected
 ---@param player Bool
 ---@param npc Bool
 ---@return nil
-function gameObject:EnableOffMeshConnections(player, npc) return end
+function gameObject:EnableOffMeshConnections(player, npc) end
 
 ---@return nil
-function gameObject:EvaluateMappinsVisualState() return end
+function gameObject:EvaluateMappinsVisualState() end
 
----@protected
 ---@return nil, gameScanningTooltipElementDef[] arr
-function gameObject:FillObjectDescription() return end
+function gameObject:FillObjectDescription() end
 
 ---@param killType gameKillType
 ---@param instigator? gameObject
 ---@return nil
-function gameObject:FindAndRewardKiller(killType, instigator) return end
+function gameObject:FindAndRewardKiller(killType, instigator) end
 
 ---@param value Bool
 ---@return nil
-function gameObject:ForceDefeatReward(value) return end
+function gameObject:ForceDefeatReward(value) end
 
----@protected
 ---@param data FocusForcedHighlightData
 ---@return nil
-function gameObject:ForceVisionAppearance(data) return end
+function gameObject:ForceVisionAppearance(data) end
 
 ---@return Vector4
-function gameObject:GetAcousticQuerryStartPoint() return end
+function gameObject:GetAcousticQuerryStartPoint() end
 
 ---@return AnimationSystemForcedVisibilityManager
-function gameObject:GetAnimationSystemForcedVisibilityManager() return end
+function gameObject:GetAnimationSystemForcedVisibilityManager() end
 
 ---@return gameAttitudeAgent
-function gameObject:GetAttitudeAgent() return end
+function gameObject:GetAttitudeAgent() end
 
 ---@param target gameObject
 ---@return EAIAttitude
-function gameObject:GetAttitudeTowards(target) return end
+function gameObject:GetAttitudeTowards(target) end
 
 ---@return Int32
-function gameObject:GetAvailableClueIndex() return end
+function gameObject:GetAvailableClueIndex() end
 
 ---@return braindanceVisionMode
-function gameObject:GetBraindanceLayer() return end
+function gameObject:GetBraindanceLayer() end
 
 ---@return TweakDBID
-function gameObject:GetContentScale() return end
+function gameObject:GetContentScale() end
 
 ---@return EFocusOutlineType
-function gameObject:GetCurrentOutline() return end
+function gameObject:GetCurrentOutline() end
 
 ---@return ScriptableDeviceAction
-function gameObject:GetCurrentlyUploadingAction() return end
+function gameObject:GetCurrentlyUploadingAction() end
 
 ---@return FocusForcedHighlightData
-function gameObject:GetDefaultHighlight() return end
+function gameObject:GetDefaultHighlight() end
 
 ---@return EFocusForcedHighlightType
-function gameObject:GetDefaultHighlightType() return end
+function gameObject:GetDefaultHighlightType() end
 
 ---@return DeviceLinkComponentPS
-function gameObject:GetDeviceLink() return end
+function gameObject:GetDeviceLink() end
 
----@protected
 ---@return FastTravelSystem
-function gameObject:GetFastTravelSystem() return end
+function gameObject:GetFastTravelSystem() end
 
 ---@return FocusCluesSystem
-function gameObject:GetFocusClueSystem() return end
+function gameObject:GetFocusClueSystem() end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return WorkspotEntryData
-function gameObject:GetFreeWorkspotDataForAIAction(aiAction) return end
+function gameObject:GetFreeWorkspotDataForAIAction(aiAction) end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return NodeRef
-function gameObject:GetFreeWorkspotRefForAIAction(aiAction) return end
+function gameObject:GetFreeWorkspotRefForAIAction(aiAction) end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return Int32
-function gameObject:GetFreeWorkspotsCountForAIAction(aiAction) return end
+function gameObject:GetFreeWorkspotsCountForAIAction(aiAction) end
 
 ---@param key CName|string
 ---@return gameFxResource
-function gameObject:GetFxResourceByKey(key) return end
+function gameObject:GetFxResourceByKey(key) end
 
 ---@return HUDManager
-function gameObject:GetHudManager() return end
+function gameObject:GetHudManager() end
 
 ---@return Bool
-function gameObject:GetIsBroken() return end
+function gameObject:GetIsBroken() end
 
 ---@return Bool
-function gameObject:GetIsIconic() return end
+function gameObject:GetIsIconic() end
 
 ---@return Bool
-function gameObject:GetIsInFastFinisher() return end
+function gameObject:GetIsInFastFinisher() end
 
 ---@param clueIndex Int32
 ---@return LinkedFocusClueData
-function gameObject:GetLinkedClueData(clueIndex) return end
+function gameObject:GetLinkedClueData(clueIndex) end
 
 ---@return gamedataQuality
-function gameObject:GetLootQuality() return end
+function gameObject:GetLootQuality() end
 
 ---@param range? Float
 ---@return NPCPuppet[]
-function gameObject:GetNPCsAroundObject(range) return end
+function gameObject:GetNPCsAroundObject(range) end
 
 ---@return Vector4
-function gameObject:GetNetworkBeamEndpoint() return end
+function gameObject:GetNetworkBeamEndpoint() end
 
 ---@return CName, WorldTransform transform
-function gameObject:GetNetworkLinkSlotName() return end
+function gameObject:GetNetworkLinkSlotName() end
 
 ---@return CName
-function gameObject:GetNetworkLinkSlotName() return end
+function gameObject:GetNetworkLinkSlotName() end
 
----@protected
 ---@return NetworkSystem
-function gameObject:GetNetworkSystem() return end
+function gameObject:GetNetworkSystem() end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return Int32
-function gameObject:GetNumberOfWorkpotsForAIAction(aiAction) return end
+function gameObject:GetNumberOfWorkpotsForAIAction(aiAction) end
 
 ---@return gameObject[]
-function gameObject:GetObjectToForwardHighlight() return end
+function gameObject:GetObjectToForwardHighlight() end
 
 ---@return CName
-function gameObject:GetPSClassName() return end
+function gameObject:GetPSClassName() end
 
 ---@return PSOwnerData
-function gameObject:GetPSOwnerData() return end
+function gameObject:GetPSOwnerData() end
 
 ---@return gamePersistentID
-function gameObject:GetPersistentID() return end
+function gameObject:GetPersistentID() end
 
 ---@return CName
-function gameObject:GetPhoneCallIndicatorSlotName() return end
+function gameObject:GetPhoneCallIndicatorSlotName() end
 
 ---@return Vector4
-function gameObject:GetPlaystyleMappinLocalPos() return end
+function gameObject:GetPlaystyleMappinLocalPos() end
 
 ---@return Vector4
-function gameObject:GetPlaystyleMappinSlotWorldPos() return end
+function gameObject:GetPlaystyleMappinSlotWorldPos() end
 
 ---@return WorldTransform
-function gameObject:GetPlaystyleMappinSlotWorldTransform() return end
+function gameObject:GetPlaystyleMappinSlotWorldTransform() end
 
 ---@return PreventionSystem
-function gameObject:GetPreventionSystem() return end
+function gameObject:GetPreventionSystem() end
 
 ---@return CName
-function gameObject:GetQuickHackIndicatorSlotName() return end
+function gameObject:GetQuickHackIndicatorSlotName() end
 
 ---@return Float
-function gameObject:GetReceivedDamageByPlayerLastTimeStamp() return end
+function gameObject:GetReceivedDamageByPlayerLastTimeStamp() end
 
 ---@return CName
-function gameObject:GetRoleMappinSlotName() return end
+function gameObject:GetRoleMappinSlotName() end
 
 ---@return gameScanningTooltipElementDef[]
-function gameObject:GetScannableObjects() return end
+function gameObject:GetScannableObjects() end
 
 ---@return TweakDBID
-function gameObject:GetScannerAttitudeTweak() return end
+function gameObject:GetScannerAttitudeTweak() end
 
 ---@return SecuritySystemControllerPS
-function gameObject:GetSecuritySystem() return end
+function gameObject:GetSecuritySystem() end
 
 ---@return senseComponent
-function gameObject:GetSensesComponent() return end
+function gameObject:GetSensesComponent() end
 
 ---@return gameSourceShootComponent
-function gameObject:GetSourceShootComponent() return end
+function gameObject:GetSourceShootComponent() end
 
 ---@return SquadMemberBaseComponent
-function gameObject:GetSquadMemberComponent() return end
+function gameObject:GetSquadMemberComponent() end
 
 ---@return gameStatusEffectComponent
-function gameObject:GetStatusEffectComponent() return end
+function gameObject:GetStatusEffectComponent() end
 
 ---@return StimBroadcasterComponent
-function gameObject:GetStimBroadcasterComponent() return end
+function gameObject:GetStimBroadcasterComponent() end
 
 ---@return FocusModeTaggingSystem
-function gameObject:GetTaggingSystem() return end
+function gameObject:GetTaggingSystem() end
 
 ---@return TakeOverControlSystem
-function gameObject:GetTakeOverControlSystem() return end
+function gameObject:GetTakeOverControlSystem() end
 
 ---@return gameTargetShootComponent
-function gameObject:GetTargetShootComponent() return end
+function gameObject:GetTargetShootComponent() end
 
 ---@return AITargetTrackerComponent
-function gameObject:GetTargetTrackerComponent() return end
+function gameObject:GetTargetTrackerComponent() end
 
 ---@return Int32
-function gameObject:GetTotalCountOfInvestigationSlots() return end
+function gameObject:GetTotalCountOfInvestigationSlots() end
 
----@protected
 ---@param instigator gameObject
 ---@return nil
-function gameObject:HandleDeath(instigator) return end
+function gameObject:HandleDeath(instigator) end
 
----@protected
 ---@param instigator gameObject
 ---@return nil
-function gameObject:HandleDeathByTask(instigator) return end
+function gameObject:HandleDeathByTask(instigator) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function gameObject:HandleDeathTask(data) return end
+function gameObject:HandleDeathTask(data) end
 
----@private
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return nil
-function gameObject:HandleICEBreakerUpdate(evt) return end
+function gameObject:HandleICEBreakerUpdate(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function gameObject:HandleStimsOnHit(evt) return end
+function gameObject:HandleStimsOnHit(evt) end
 
 ---@return Bool
-function gameObject:HasActiveDistraction() return end
+function gameObject:HasActiveDistraction() end
 
 ---@return Bool
-function gameObject:HasActiveQuickHackUpload() return end
+function gameObject:HasActiveQuickHackUpload() end
 
 ---@return Bool
-function gameObject:HasAnyClue() return end
+function gameObject:HasAnyClue() end
 
 ---@return Bool
-function gameObject:HasAnyDirectInteractionActive() return end
+function gameObject:HasAnyDirectInteractionActive() end
 
 ---@return Bool
-function gameObject:HasAnySlaveDevices() return end
+function gameObject:HasAnySlaveDevices() end
 
 ---@return Bool
-function gameObject:HasAnyStoredClues() return end
+function gameObject:HasAnyStoredClues() end
 
 ---@param attitude EAIAttitude
 ---@return Bool
-function gameObject:HasAttitude(attitude) return end
+function gameObject:HasAttitude(attitude) end
 
 ---@return Bool
-function gameObject:HasDirectActionsActive() return end
+function gameObject:HasDirectActionsActive() end
 
 ---@return Bool
-function gameObject:HasFinisherAvailable() return end
+function gameObject:HasFinisherAvailable() end
 
 ---@return Bool
-function gameObject:HasFreeWorkspotForInvestigation() return end
+function gameObject:HasFreeWorkspotForInvestigation() end
 
 ---@param highlightType EFocusForcedHighlightType
 ---@param outlineType EFocusOutlineType
 ---@return Bool
-function gameObject:HasHighlight(highlightType, outlineType) return end
+function gameObject:HasHighlight(highlightType, outlineType) end
 
 ---@param highlightType EFocusForcedHighlightType
 ---@param outlineType EFocusOutlineType
 ---@param sourceID entEntityID
 ---@return Bool
-function gameObject:HasHighlight(highlightType, outlineType, sourceID) return end
+function gameObject:HasHighlight(highlightType, outlineType, sourceID) end
 
 ---@param highlightType EFocusForcedHighlightType
 ---@param outlineType EFocusOutlineType
 ---@param sourceID entEntityID
 ---@param sourceName CName|string
 ---@return Bool
-function gameObject:HasHighlight(highlightType, outlineType, sourceID, sourceName) return end
+function gameObject:HasHighlight(highlightType, outlineType, sourceID, sourceName) end
 
 ---@return Bool
-function gameObject:HasImportantInteraction() return end
+function gameObject:HasImportantInteraction() end
 
 ---@param highlightType EFocusForcedHighlightType
 ---@param outlineType EFocusOutlineType
 ---@return Bool
-function gameObject:HasOutlineOrFill(highlightType, outlineType) return end
+function gameObject:HasOutlineOrFill(highlightType, outlineType) end
 
 ---@param data gameVisionModeSystemRevealIdentifier
 ---@return Bool
-function gameObject:HasRevealRequest(data) return end
-
----@protected
----@return Bool
-function gameObject:HasVisibilityForcedInAnimSystem() return end
+function gameObject:HasRevealRequest(data) end
 
 ---@return Bool
-function gameObject:IsAccessPoint() return end
+function gameObject:HasVisibilityForcedInAnimSystem() end
 
 ---@return Bool
-function gameObject:IsActive() return end
+function gameObject:IsAccessPoint() end
 
 ---@return Bool
-function gameObject:IsActiveBackdoor() return end
+function gameObject:IsActive() end
 
 ---@return Bool
-function gameObject:IsAmmoLoot() return end
+function gameObject:IsActiveBackdoor() end
 
 ---@return Bool
-function gameObject:IsAnyClueEnabled() return end
+function gameObject:IsAmmoLoot() end
 
 ---@return Bool
-function gameObject:IsAnyPlaystyleValid() return end
+function gameObject:IsAnyClueEnabled() end
 
 ---@return Bool
-function gameObject:IsBackdoor() return end
+function gameObject:IsAnyPlaystyleValid() end
 
 ---@return Bool
-function gameObject:IsBodyDisposalPossible() return end
+function gameObject:IsBackdoor() end
 
 ---@return Bool
-function gameObject:IsBraindanceBlocked() return end
+function gameObject:IsBodyDisposalPossible() end
 
 ---@return Bool
-function gameObject:IsBreached() return end
+function gameObject:IsBraindanceBlocked() end
 
 ---@return Bool
-function gameObject:IsClueInspected() return end
+function gameObject:IsBreached() end
 
 ---@return Bool
-function gameObject:IsConnectedToBackdoorDevice() return end
+function gameObject:IsClueInspected() end
 
 ---@return Bool
-function gameObject:IsConnectedToSecuritySystem() return end
+function gameObject:IsConnectedToBackdoorDevice() end
 
 ---@return Bool
-function gameObject:IsContainer() return end
+function gameObject:IsConnectedToSecuritySystem() end
 
 ---@return Bool
-function gameObject:IsControllingDevices() return end
-
----@protected
----@return Bool
-function gameObject:IsCurrentTarget() return end
-
----@protected
----@return Bool
-function gameObject:IsCurrentlyScanned() return end
+function gameObject:IsContainer() end
 
 ---@return Bool
-function gameObject:IsDead() return end
+function gameObject:IsControllingDevices() end
 
 ---@return Bool
-function gameObject:IsDeadNoStatPool() return end
+function gameObject:IsCurrentTarget() end
 
 ---@return Bool
-function gameObject:IsDemolitionSkillCheckActive() return end
+function gameObject:IsCurrentlyScanned() end
 
 ---@return Bool
-function gameObject:IsDevice() return end
+function gameObject:IsDead() end
 
 ---@return Bool
-function gameObject:IsDrone() return end
+function gameObject:IsDeadNoStatPool() end
 
 ---@return Bool
-function gameObject:IsDropPoint() return end
+function gameObject:IsDemolitionSkillCheckActive() end
 
 ---@return Bool
-function gameObject:IsEngineeringSkillCheckActive() return end
+function gameObject:IsDevice() end
 
 ---@return Bool
-function gameObject:IsExplosive() return end
+function gameObject:IsDrone() end
 
 ---@return Bool
-function gameObject:IsFastTravelPoint() return end
+function gameObject:IsDropPoint() end
 
 ---@return Bool
-function gameObject:IsGameplayRelevant() return end
+function gameObject:IsEngineeringSkillCheckActive() end
+
+---@return Bool
+function gameObject:IsExplosive() end
+
+---@return Bool
+function gameObject:IsFastTravelPoint() end
+
+---@return Bool
+function gameObject:IsGameplayRelevant() end
 
 ---@param role EGameplayRole
 ---@return Bool
-function gameObject:IsGameplayRoleValid(role) return end
+function gameObject:IsGameplayRoleValid(role) end
 
 ---@return Bool
-function gameObject:IsGrouppedClue() return end
+function gameObject:IsGrouppedClue() end
 
 ---@return Bool
-function gameObject:IsHackingPlayer() return end
+function gameObject:IsHackingPlayer() end
 
 ---@return Bool
-function gameObject:IsHackingSkillCheckActive() return end
+function gameObject:IsHackingSkillCheckActive() end
 
 ---@return Bool
-function gameObject:IsHandgunAmmoLoot() return end
+function gameObject:IsHandgunAmmoLoot() end
 
 ---@return Bool
-function gameObject:IsHighlightedInFocusMode() return end
+function gameObject:IsHighlightedInFocusMode() end
 
 ---@return Bool
-function gameObject:IsHostile() return end
+function gameObject:IsHostile() end
 
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameObject:IsInFinisherHealthThreshold(playerPuppet) return end
+function gameObject:IsInFinisherHealthThreshold(playerPuppet) end
 
 ---@return Bool
-function gameObject:IsInIconForcedVisibilityRange() return end
+function gameObject:IsInIconForcedVisibilityRange() end
 
 ---@return Bool
-function gameObject:IsInitialized() return end
+function gameObject:IsInitialized() end
 
 ---@return Bool
-function gameObject:IsInvestigating() return end
+function gameObject:IsInvestigating() end
 
 ---@param targetID gameObject
 ---@return Bool
-function gameObject:IsInvestigatingObject(targetID) return end
-
----@protected
----@return Bool
-function gameObject:IsItem() return end
+function gameObject:IsInvestigatingObject(targetID) end
 
 ---@return Bool
-function gameObject:IsJohnnyReplacer() return end
+function gameObject:IsItem() end
 
 ---@return Bool
-function gameObject:IsNPC() return end
+function gameObject:IsJohnnyReplacer() end
 
 ---@return Bool
-function gameObject:IsNetrunner() return end
+function gameObject:IsNPC() end
 
 ---@return Bool
-function gameObject:IsNetworkKnownToPlayer() return end
+function gameObject:IsNetrunner() end
 
 ---@return Bool
-function gameObject:IsNetworkLinkDynamic() return end
+function gameObject:IsNetworkKnownToPlayer() end
 
 ---@return Bool
-function gameObject:IsNeutral() return end
+function gameObject:IsNetworkLinkDynamic() end
 
 ---@return Bool
-function gameObject:IsObjectRevealed() return end
+function gameObject:IsNeutral() end
 
 ---@return Bool
-function gameObject:IsPaperdoll() return end
+function gameObject:IsObjectRevealed() end
 
 ---@return Bool
-function gameObject:IsPhotoModeBlocked() return end
+function gameObject:IsPaperdoll() end
 
 ---@return Bool
-function gameObject:IsPlayer() return end
+function gameObject:IsPhotoModeBlocked() end
 
 ---@return Bool
-function gameObject:IsPlayerStash() return end
+function gameObject:IsPlayer() end
 
 ---@return Bool
-function gameObject:IsPrevention() return end
+function gameObject:IsPlayerStash() end
 
 ---@return Bool
-function gameObject:IsPuppet() return end
+function gameObject:IsPrevention() end
 
 ---@return Bool
-function gameObject:IsQuest() return end
+function gameObject:IsPuppet() end
 
 ---@return Bool
-function gameObject:IsQuickHackAble() return end
+function gameObject:IsQuest() end
 
 ---@return Bool
-function gameObject:IsQuickHacksExposed() return end
+function gameObject:IsQuickHackAble() end
 
 ---@return Bool
-function gameObject:IsReplacer() return end
+function gameObject:IsQuickHacksExposed() end
 
 ---@return Bool
-function gameObject:IsRifleAmmoLoot() return end
+function gameObject:IsReplacer() end
 
 ---@return Bool
-function gameObject:IsScaningCluesBlocked() return end
+function gameObject:IsRifleAmmoLoot() end
 
 ---@return Bool
-function gameObject:IsScanned() return end
+function gameObject:IsScaningCluesBlocked() end
 
 ---@return Bool
-function gameObject:IsScannerDataDirty() return end
+function gameObject:IsScanned() end
 
 ---@return Bool
-function gameObject:IsSensor() return end
+function gameObject:IsScannerDataDirty() end
 
 ---@return Bool
-function gameObject:IsShardContainer() return end
+function gameObject:IsSensor() end
 
 ---@return Bool
-function gameObject:IsShotgunAmmoLoot() return end
+function gameObject:IsShardContainer() end
 
 ---@return Bool
-function gameObject:IsSniperAmmoLoot() return end
+function gameObject:IsShotgunAmmoLoot() end
 
 ---@return Bool
-function gameObject:IsSolo() return end
+function gameObject:IsSniperAmmoLoot() end
 
 ---@return Bool
-function gameObject:IsTaggedinFocusMode() return end
+function gameObject:IsSolo() end
+
+---@return Bool
+function gameObject:IsTaggedinFocusMode() end
 
 ---@param target gameObject
 ---@return Bool
-function gameObject:IsTargetTresspassingMyZone(target) return end
-
----@protected
----@return Bool
-function gameObject:IsTargetedWithSmartWeapon() return end
+function gameObject:IsTargetTresspassingMyZone(target) end
 
 ---@return Bool
-function gameObject:IsTechie() return end
+function gameObject:IsTargetedWithSmartWeapon() end
 
 ---@return Bool
-function gameObject:IsTurret() return end
+function gameObject:IsTechie() end
 
 ---@return Bool
-function gameObject:IsVRReplacer() return end
+function gameObject:IsTurret() end
 
 ---@return Bool
-function gameObject:IsValidHostileTarget() return end
+function gameObject:IsVRReplacer() end
 
 ---@return Bool
-function gameObject:IsVehicle() return end
+function gameObject:IsValidHostileTarget() end
 
 ---@return Bool
-function gameObject:IsWardrobe() return end
+function gameObject:IsVehicle() end
 
----@protected
+---@return Bool
+function gameObject:IsWardrobe() end
+
 ---@param isQuest Bool
 ---@return nil
-function gameObject:MarkAsQuest(isQuest) return end
+function gameObject:MarkAsQuest(isQuest) end
 
 ---@param eventName CName|string
 ---@return nil
-function gameObject:OnAnimEventReplicated(eventName) return end
+function gameObject:OnAnimEventReplicated(eventName) end
 
 ---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
-function gameObject:OnAnimFeatureReplicated(inputName, value) return end
+function gameObject:OnAnimFeatureReplicated(inputName, value) end
 
 ---@param evt redEvent
 ---@return nil
-function gameObject:OnEventReplicated(evt) return end
+function gameObject:OnEventReplicated(evt) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameObject:OnHitAnimation(hitEvent) return end
+function gameObject:OnHitAnimation(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameObject:OnHitBlockedOrDeflected(hitEvent) return end
+function gameObject:OnHitBlockedOrDeflected(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameObject:OnHitSounds(hitEvent) return end
+function gameObject:OnHitSounds(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameObject:OnHitUI(hitEvent) return end
+function gameObject:OnHitUI(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameObject:OnHitVFX(hitEvent) return end
+function gameObject:OnHitVFX(hitEvent) end
 
----@protected
 ---@return nil
-function gameObject:OnTransformUpdated() return end
+function gameObject:OnTransformUpdated() end
 
 ---@param dt Float
 ---@return nil
-function gameObject:PassUpdate(dt) return end
+function gameObject:PassUpdate(dt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function gameObject:ProcessDamagePipeline(evt) return end
+function gameObject:ProcessDamagePipeline(evt) end
 
----@protected
 ---@param evt gameeventsDamageReceivedEvent
 ---@return nil
-function gameObject:ProcessDamageReceived(evt) return end
+function gameObject:ProcessDamageReceived(evt) end
 
----@protected
 ---@param player PlayerPuppet
 ---@return nil
-function gameObject:ProlongWeaponGlitchNPCDebuff(player) return end
+function gameObject:ProlongWeaponGlitchNPCDebuff(player) end
 
----@protected
 ---@param revealNetworkAtEnd Bool
 ---@return nil
-function gameObject:PulseNetwork(revealNetworkAtEnd) return end
+function gameObject:PulseNetwork(revealNetworkAtEnd) end
 
----@protected
 ---@return nil
-function gameObject:PurgeScannerBlackboard() return end
+function gameObject:PurgeScannerBlackboard() end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameObject:ReactToHitProcess(hitEvent) return end
+function gameObject:ReactToHitProcess(hitEvent) end
 
 ---@param source gameObject
 ---@return nil
-function gameObject:Record1DamageInHistory(source) return end
+function gameObject:Record1DamageInHistory(source) end
 
----@protected
 ---@param shouldRegister Bool
 ---@return nil
-function gameObject:RegisterToHUDManager(shouldRegister) return end
+function gameObject:RegisterToHUDManager(shouldRegister) end
 
----@protected
 ---@param shouldRegister Bool
 ---@return nil
-function gameObject:RegisterToHUDManagerByTask(shouldRegister) return end
+function gameObject:RegisterToHUDManagerByTask(shouldRegister) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function gameObject:RegisterToHUDManagerTask(data) return end
+function gameObject:RegisterToHUDManagerTask(data) end
 
----@private
 ---@param isForced Bool
 ---@return Bool
-function gameObject:RequestAutoSave(isForced) return end
+function gameObject:RequestAutoSave(isForced) end
 
----@private
 ---@param value Float
 ---@param maxAttempts Int32
 ---@param isForced Bool
 ---@return nil
-function gameObject:RequestAutoSaveWithDelay(value, maxAttempts, isForced) return end
+function gameObject:RequestAutoSaveWithDelay(value, maxAttempts, isForced) end
 
----@protected
 ---@param updateData? HUDActorUpdateData
 ---@return nil
-function gameObject:RequestHUDRefresh(updateData) return end
+function gameObject:RequestHUDRefresh(updateData) end
 
----@protected
 ---@param targetID entEntityID
 ---@param updateData? HUDActorUpdateData
 ---@return nil
-function gameObject:RequestHUDRefresh(targetID, updateData) return end
+function gameObject:RequestHUDRefresh(targetID, updateData) end
 
----@protected
 ---@param facts SFactOperationData[]
 ---@return nil
-function gameObject:ResolveFacts(facts) return end
+function gameObject:ResolveFacts(facts) end
 
----@private
 ---@param clueIndex Int32
 ---@param conclusionData gameScanningTooltipElementDef
 ---@return nil
-function gameObject:ResolveFocusClueConclusion(clueIndex, conclusionData) return end
+function gameObject:ResolveFocusClueConclusion(clueIndex, conclusionData) end
 
----@private
 ---@param clueIndex Int32
 ---@return nil
-function gameObject:ResolveFocusClueExtendedDescription(clueIndex) return end
+function gameObject:ResolveFocusClueExtendedDescription(clueIndex) end
 
----@protected
 ---@param instigatorID entEntityID
 ---@return Bool
-function gameObject:ResolveHitIstigatorCooldown(instigatorID) return end
+function gameObject:ResolveHitIstigatorCooldown(instigatorID) end
 
----@private
 ---@return nil
-function gameObject:RestoreRevealState() return end
+function gameObject:RestoreRevealState() end
 
----@protected
 ---@param killer gameObject
 ---@param killType gameKillType
 ---@param isAnyDamageNonlethal Bool
 ---@return nil
-function gameObject:RewardKiller(killer, killType, isAnyDamageNonlethal) return end
+function gameObject:RewardKiller(killer, killType, isAnyDamageNonlethal) end
 
----@protected
 ---@param evt redEvent
 ---@return nil
-function gameObject:SendEventToDefaultPS(evt) return end
+function gameObject:SendEventToDefaultPS(evt) end
 
----@protected
 ---@param reveal Bool
 ---@param reason CName|string
 ---@param instigatorID? entEntityID
 ---@param lifetime? Float
 ---@param delay? Float
 ---@return nil
-function gameObject:SendForceRevealObjectEvent(reveal, reason, instigatorID, lifetime, delay) return end
+function gameObject:SendForceRevealObjectEvent(reveal, reason, instigatorID, lifetime, delay) end
 
----@protected
 ---@param shouldOpen Bool
 ---@return nil
-function gameObject:SendQuickhackCommands(shouldOpen) return end
+function gameObject:SendQuickhackCommands(shouldOpen) end
 
----@protected
 ---@return nil
-function gameObject:SendReactivateHighlightEvent() return end
+function gameObject:SendReactivateHighlightEvent() end
 
 ---@param action ScriptableDeviceAction
 ---@return nil
-function gameObject:SetCurrentlyUploadingAction(action) return end
+function gameObject:SetCurrentlyUploadingAction(action) end
 
 ---@param dirty Bool
 ---@return nil
-function gameObject:SetScannerDirty(dirty) return end
+function gameObject:SetScannerDirty(dirty) end
 
 ---@return Bool
-function gameObject:ShouldEnableRemoteLayer() return end
+function gameObject:ShouldEnableRemoteLayer() end
 
 ---@return Bool
-function gameObject:ShouldForceRegisterInHUDManager() return end
+function gameObject:ShouldForceRegisterInHUDManager() end
 
 ---@param targetID entEntityID
 ---@return Bool
-function gameObject:ShouldReactToTarget(targetID) return end
+function gameObject:ShouldReactToTarget(targetID) end
 
 ---@return Bool
-function gameObject:ShouldRegisterToHUD() return end
+function gameObject:ShouldRegisterToHUD() end
 
 ---@return Bool
-function gameObject:ShouldSendGameAttachedEventToPS() return end
+function gameObject:ShouldSendGameAttachedEventToPS() end
 
 ---@return Bool
-function gameObject:ShouldShowScanner() return end
+function gameObject:ShouldShowScanner() end
 
----@protected
 ---@return nil
-function gameObject:StartPingingNetwork() return end
+function gameObject:StartPingingNetwork() end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return nil
-function gameObject:StartStatusEffectSFX(evt) return end
+function gameObject:StartStatusEffectSFX(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return nil
-function gameObject:StartStatusEffectVFX(evt) return end
+function gameObject:StartStatusEffectVFX(evt) end
 
----@protected
 ---@return nil
-function gameObject:StopPingingNetwork() return end
+function gameObject:StopPingingNetwork() end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return nil
-function gameObject:StopStatusEffectSFX(evt) return end
+function gameObject:StopStatusEffectSFX(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return nil
-function gameObject:StopStatusEffectVFX(evt) return end
+function gameObject:StopStatusEffectVFX(evt) end
 
----@protected
 ---@param sourceName CName|string
 ---@param isVisibe Bool
 ---@param transitionTime? Float
 ---@param entityID? entEntityID
 ---@param forcedVisibleOnlyInFrustum? Bool
 ---@return nil
-function gameObject:ToggleForcedVisibilityInAnimSystem(sourceName, isVisibe, transitionTime, entityID, forcedVisibleOnlyInFrustum) return end
+function gameObject:ToggleForcedVisibilityInAnimSystem(sourceName, isVisibe, transitionTime, entityID, forcedVisibleOnlyInFrustum) end
 
----@protected
 ---@param isImportant Bool
 ---@return nil
-function gameObject:ToggleQuestImportance(isImportant) return end
+function gameObject:ToggleQuestImportance(isImportant) end
 
----@protected
 ---@param eventName CName|string
 ---@return nil
-function gameObject:TriggerMenuEvent(eventName) return end
+function gameObject:TriggerMenuEvent(eventName) end
 
 ---@return gameObject
-function gameObject:TryGetControlledProxy() return end
+function gameObject:TryGetControlledProxy() end
 
----@protected
 ---@param shouldOpen Bool
 ---@return nil
-function gameObject:TryOpenQuickhackMenu(shouldOpen) return end
+function gameObject:TryOpenQuickhackMenu(shouldOpen) end
 
----@protected
 ---@param dt Float
 ---@return nil
-function gameObject:Update(dt) return end
+function gameObject:Update(dt) end
 
 ---@return nil
-function gameObject:UpdateAdditionalScanningData() return end
+function gameObject:UpdateAdditionalScanningData() end
 
----@protected
 ---@return nil
-function gameObject:UpdateDefaultHighlight() return end
+function gameObject:UpdateDefaultHighlight() end

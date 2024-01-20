@@ -1,46 +1,40 @@
 ---@meta
 
 ---@class ElectricLightControllerPS: ScriptableDeviceComponentPS
----@field private isConnectedToCLS Bool
----@field private wasCLSInitTriggered Bool
+---@field isConnectedToCLS Bool
+---@field wasCLSInitTriggered Bool
 ElectricLightControllerPS = {}
 
 ---@param fields? ElectricLightControllerPS
 ---@return ElectricLightControllerPS
-function ElectricLightControllerPS.new(fields) return end
+function ElectricLightControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function ElectricLightControllerPS:OnInstantiated() return end
+function ElectricLightControllerPS:OnInstantiated() end
 
 ---@return nil
-function ElectricLightControllerPS:EvaluateDeviceState() return end
+function ElectricLightControllerPS:EvaluateDeviceState() end
 
----@protected
 ---@return nil
-function ElectricLightControllerPS:GameAttached() return end
+function ElectricLightControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ElectricLightControllerPS:GetActions(context) return end
+function ElectricLightControllerPS:GetActions(context) end
 
----@private
 ---@return FuseControllerPS
-function ElectricLightControllerPS:GetCLSFuse() return end
+function ElectricLightControllerPS:GetCLSFuse() end
 
----@private
 ---@param setStateInstant? Bool
 ---@return Bool
-function ElectricLightControllerPS:InitializeCLS(setStateInstant) return end
+function ElectricLightControllerPS:InitializeCLS(setStateInstant) end
 
 ---@return Bool
-function ElectricLightControllerPS:IsConnectedToCLS() return end
+function ElectricLightControllerPS:IsConnectedToCLS() end
 
----@protected
 ---@return nil
-function ElectricLightControllerPS:LogicReady() return end
+function ElectricLightControllerPS:LogicReady() end
 
----@private
 ---@param state EDeviceStatus
 ---@return nil
-function ElectricLightControllerPS:UpdateStateOnCLS(state) return end
+function ElectricLightControllerPS:UpdateStateOnCLS(state) end

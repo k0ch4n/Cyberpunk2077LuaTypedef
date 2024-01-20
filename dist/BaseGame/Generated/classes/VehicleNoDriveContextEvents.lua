@@ -5,16 +5,14 @@ VehicleNoDriveContextEvents = {}
 
 ---@param fields? VehicleNoDriveContextEvents
 ---@return VehicleNoDriveContextEvents
-function VehicleNoDriveContextEvents.new(fields) return end
+function VehicleNoDriveContextEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleNoDriveContextEvents:OnEnter(stateContext, scriptInterface) return end
+function VehicleNoDriveContextEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleNoDriveContextEvents:OnExit(stateContext, scriptInterface) return end
+function VehicleNoDriveContextEvents:OnExit(stateContext, scriptInterface) end

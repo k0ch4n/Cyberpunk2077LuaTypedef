@@ -5,58 +5,58 @@ gamedataStatModifierGroup_Record = {}
 
 ---@param fields? gamedataStatModifierGroup_Record
 ---@return gamedataStatModifierGroup_Record
-function gamedataStatModifierGroup_Record.new(fields) return end
+function gamedataStatModifierGroup_Record.new(fields) end
 
 ---@return Bool
-function gamedataStatModifierGroup_Record:DrawBasedOnStatType() return end
+function gamedataStatModifierGroup_Record:DrawBasedOnStatType() end
 
 ---@return Int32
-function gamedataStatModifierGroup_Record:GetRelatedModifierGroupsCount() return end
+function gamedataStatModifierGroup_Record:GetRelatedModifierGroupsCount() end
 
 ---@param index Int32
 ---@return gamedataStatModifierGroup_Record
-function gamedataStatModifierGroup_Record:GetRelatedModifierGroupsItem(index) return end
+function gamedataStatModifierGroup_Record:GetRelatedModifierGroupsItem(index) end
 
 ---@param index Int32
 ---@return gamedataStatModifierGroup_Record
-function gamedataStatModifierGroup_Record:GetRelatedModifierGroupsItemHandle(index) return end
+function gamedataStatModifierGroup_Record:GetRelatedModifierGroupsItemHandle(index) end
 
 ---@return Int32
-function gamedataStatModifierGroup_Record:GetStatModifiersCount() return end
+function gamedataStatModifierGroup_Record:GetStatModifiersCount() end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataStatModifierGroup_Record:GetStatModifiersItem(index) return end
+function gamedataStatModifierGroup_Record:GetStatModifiersItem(index) end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataStatModifierGroup_Record:GetStatModifiersItemHandle(index) return end
+function gamedataStatModifierGroup_Record:GetStatModifiersItemHandle(index) end
 
 ---@return Bool
-function gamedataStatModifierGroup_Record:OptimiseCombinedModifiers() return end
+function gamedataStatModifierGroup_Record:OptimiseCombinedModifiers() end
 
 ---@return nil, gamedataStatModifierGroup_Record[] outList
-function gamedataStatModifierGroup_Record:RelatedModifierGroups() return end
+function gamedataStatModifierGroup_Record:RelatedModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record
 ---@return Bool
-function gamedataStatModifierGroup_Record:RelatedModifierGroupsContains(item) return end
+function gamedataStatModifierGroup_Record:RelatedModifierGroupsContains(item) end
 
 ---@return Bool
-function gamedataStatModifierGroup_Record:SaveBasedOnStatType() return end
+function gamedataStatModifierGroup_Record:SaveBasedOnStatType() end
 
 ---@return nil, gamedataStatModifier_Record[] outList
-function gamedataStatModifierGroup_Record:StatModifiers() return end
+function gamedataStatModifierGroup_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
-function gamedataStatModifierGroup_Record:StatModifiersContains(item) return end
+function gamedataStatModifierGroup_Record:StatModifiersContains(item) end
 
 ---@return Int32
-function gamedataStatModifierGroup_Record:StatModsLimit() return end
+function gamedataStatModifierGroup_Record:StatModsLimit() end
 
 ---@return gamedataStatModifier_Record
-function gamedataStatModifierGroup_Record:StatModsLimitModifier() return end
+function gamedataStatModifierGroup_Record:StatModsLimitModifier() end
 
 ---@return gamedataStatModifier_Record
-function gamedataStatModifierGroup_Record:StatModsLimitModifierHandle() return end
+function gamedataStatModifierGroup_Record:StatModsLimitModifierHandle() end

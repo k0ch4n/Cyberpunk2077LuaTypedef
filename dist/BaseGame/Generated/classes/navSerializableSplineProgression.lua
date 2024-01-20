@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class navSerializableSplineProgression
----@field public sectionIdx Uint32
----@field public alpha Float
+---@field sectionIdx Uint32
+---@field alpha Float
 navSerializableSplineProgression = {}
 
 ---@param fields? navSerializableSplineProgression
 ---@return navSerializableSplineProgression
-function navSerializableSplineProgression.new(fields) return end
+function navSerializableSplineProgression.new(fields) end

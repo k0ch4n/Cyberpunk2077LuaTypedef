@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questSwitchNameplate_NodeType: questIUIManagerNodeType
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public enable Bool
----@field public alternativeName Bool
+---@field puppetRef gameEntityReference
+---@field isPlayer Bool
+---@field enable Bool
+---@field alternativeName Bool
 questSwitchNameplate_NodeType = {}
 
 ---@param fields? questSwitchNameplate_NodeType
 ---@return questSwitchNameplate_NodeType
-function questSwitchNameplate_NodeType.new(fields) return end
+function questSwitchNameplate_NodeType.new(fields) end

@@ -5,16 +5,14 @@ NotReadyEvents = {}
 
 ---@param fields? NotReadyEvents
 ---@return NotReadyEvents
-function NotReadyEvents.new(fields) return end
+function NotReadyEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function NotReadyEvents:ForceUnhideRegularHands(stateContext, scriptInterface) return end
+function NotReadyEvents:ForceUnhideRegularHands(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function NotReadyEvents:OnEnter(stateContext, scriptInterface) return end
+function NotReadyEvents:OnEnter(stateContext, scriptInterface) end

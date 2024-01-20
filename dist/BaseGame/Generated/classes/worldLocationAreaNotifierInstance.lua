@@ -5,4 +5,4 @@ worldLocationAreaNotifierInstance = {}
 
 ---@param fields? worldLocationAreaNotifierInstance
 ---@return worldLocationAreaNotifierInstance
-function worldLocationAreaNotifierInstance.new(fields) return end
+function worldLocationAreaNotifierInstance.new(fields) end

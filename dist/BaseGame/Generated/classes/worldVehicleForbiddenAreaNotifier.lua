@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class worldVehicleForbiddenAreaNotifier: worldITriggerAreaNotifer
----@field public innerAreaBoundToOuterArea Bool
----@field public innerAreaOutline AreaShapeOutline
----@field public parkingSpots NodeRef[]
----@field public innerAreaSpeedLimit Float
----@field public areaSpeedLimit Float
----@field public enableNullArea Bool
----@field public dismount Bool
----@field public enableSummoning Bool
+---@field innerAreaBoundToOuterArea Bool
+---@field innerAreaOutline AreaShapeOutline
+---@field parkingSpots NodeRef[]
+---@field innerAreaSpeedLimit Float
+---@field areaSpeedLimit Float
+---@field enableNullArea Bool
+---@field dismount Bool
+---@field enableSummoning Bool
 worldVehicleForbiddenAreaNotifier = {}
 
 ---@param fields? worldVehicleForbiddenAreaNotifier
 ---@return worldVehicleForbiddenAreaNotifier
-function worldVehicleForbiddenAreaNotifier.new(fields) return end
+function worldVehicleForbiddenAreaNotifier.new(fields) end

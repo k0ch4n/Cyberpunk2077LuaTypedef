@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameCompiledSmartObjectNode
----@field public compiledData gameCompiledSmartObjectData
----@field public worldTransform WorldTransform
+---@field compiledData gameCompiledSmartObjectData
+---@field worldTransform WorldTransform
 gameCompiledSmartObjectNode = {}
 
 ---@param fields? gameCompiledSmartObjectNode
 ---@return gameCompiledSmartObjectNode
-function gameCompiledSmartObjectNode.new(fields) return end
+function gameCompiledSmartObjectNode.new(fields) end

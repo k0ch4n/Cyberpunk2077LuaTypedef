@@ -5,4 +5,4 @@ inkInitEngineState = {}
 
 ---@param fields? inkInitEngineState
 ---@return inkInitEngineState
-function inkInitEngineState.new(fields) return end
+function inkInitEngineState.new(fields) end

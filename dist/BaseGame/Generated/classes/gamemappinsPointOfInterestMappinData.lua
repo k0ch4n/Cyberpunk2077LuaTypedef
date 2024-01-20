@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gamemappinsPointOfInterestMappinData: gamemappinsIMappinData
----@field public typedVariant gamemappinsIPointOfInterestVariant
----@field public active Bool
----@field public slotName CName
----@field public slotOffset Vector3
----@field public dynamicMappinRadius Float
----@field public staticMappinDef TweakDBID
----@field public dynamicMappinDef TweakDBID
+---@field typedVariant gamemappinsIPointOfInterestVariant
+---@field active Bool
+---@field slotName CName
+---@field slotOffset Vector3
+---@field dynamicMappinRadius Float
+---@field staticMappinDef TweakDBID
+---@field dynamicMappinDef TweakDBID
 gamemappinsPointOfInterestMappinData = {}
 
 ---@param fields? gamemappinsPointOfInterestMappinData
 ---@return gamemappinsPointOfInterestMappinData
-function gamemappinsPointOfInterestMappinData.new(fields) return end
+function gamemappinsPointOfInterestMappinData.new(fields) end

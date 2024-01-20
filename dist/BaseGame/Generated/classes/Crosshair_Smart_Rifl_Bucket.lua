@@ -1,58 +1,54 @@
 ---@meta
 
 ---@class Crosshair_Smart_Rifl_Bucket: inkWidgetLogicController
----@field public lockingAnimationLength Float
----@field public unlockingAnimationLength Float
----@field public deadEyeWidget inkWidgetReference
----@field public data gamesmartGunUITargetParameters
----@field public lockingAnimationProxy inkanimProxy
----@field public unlockingAnimationProxy inkanimProxy
----@field public activeCallbacks gameDelayID[]
----@field public hasDeadEye Bool
----@field public deadEyeAnimProxy inkanimProxy
+---@field lockingAnimationLength Float
+---@field unlockingAnimationLength Float
+---@field deadEyeWidget inkWidgetReference
+---@field data gamesmartGunUITargetParameters
+---@field lockingAnimationProxy inkanimProxy
+---@field unlockingAnimationProxy inkanimProxy
+---@field activeCallbacks gameDelayID[]
+---@field hasDeadEye Bool
+---@field deadEyeAnimProxy inkanimProxy
 Crosshair_Smart_Rifl_Bucket = {}
 
 ---@param fields? Crosshair_Smart_Rifl_Bucket
 ---@return Crosshair_Smart_Rifl_Bucket
-function Crosshair_Smart_Rifl_Bucket.new(fields) return end
+function Crosshair_Smart_Rifl_Bucket.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function Crosshair_Smart_Rifl_Bucket:OnDeadEyeAnimFinished(anim) return end
+function Crosshair_Smart_Rifl_Bucket:OnDeadEyeAnimFinished(anim) end
 
----@protected
 ---@return Bool
-function Crosshair_Smart_Rifl_Bucket:OnInitialize() return end
+function Crosshair_Smart_Rifl_Bucket:OnInitialize() end
 
----@private
 ---@param delaySystem gameDelaySystem
 ---@return nil
-function Crosshair_Smart_Rifl_Bucket:ClearCallbacks(delaySystem) return end
+function Crosshair_Smart_Rifl_Bucket:ClearCallbacks(delaySystem) end
 
 ---@param newHasDeadEye Bool
 ---@return nil
-function Crosshair_Smart_Rifl_Bucket:HandleDeadEyeInTargetBrackets(newHasDeadEye) return end
+function Crosshair_Smart_Rifl_Bucket:HandleDeadEyeInTargetBrackets(newHasDeadEye) end
 
 ---@param data gamesmartGunUITargetParameters
 ---@return Bool
-function Crosshair_Smart_Rifl_Bucket:MatchData(data) return end
+function Crosshair_Smart_Rifl_Bucket:MatchData(data) end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function Crosshair_Smart_Rifl_Bucket:ResetData(playerPuppet) return end
+function Crosshair_Smart_Rifl_Bucket:ResetData(playerPuppet) end
 
 ---@param data gamesmartGunUITargetParameters
 ---@param params gamesmartGunUIParameters
 ---@param playerPuppet gameObject
 ---@param newHasDeadEye Bool
 ---@return nil
-function Crosshair_Smart_Rifl_Bucket:SetData(data, params, playerPuppet, newHasDeadEye) return end
+function Crosshair_Smart_Rifl_Bucket:SetData(data, params, playerPuppet, newHasDeadEye) end
 
----@private
 ---@param data gamesmartGunUITargetParameters
 ---@param params gamesmartGunUIParameters
 ---@param playerPuppet gameObject
 ---@param scheduleSFX Bool
 ---@return nil
-function Crosshair_Smart_Rifl_Bucket:StartLocking(data, params, playerPuppet, scheduleSFX) return end
+function Crosshair_Smart_Rifl_Bucket:StartLocking(data, params, playerPuppet, scheduleSFX) end

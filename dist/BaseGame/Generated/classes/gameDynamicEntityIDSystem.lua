@@ -5,4 +5,4 @@ gameDynamicEntityIDSystem = {}
 
 ---@param fields? gameDynamicEntityIDSystem
 ---@return gameDynamicEntityIDSystem
-function gameDynamicEntityIDSystem.new(fields) return end
+function gameDynamicEntityIDSystem.new(fields) end

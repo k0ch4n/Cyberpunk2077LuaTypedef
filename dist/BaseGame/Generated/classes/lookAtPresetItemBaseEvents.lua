@@ -5,4 +5,4 @@ lookAtPresetItemBaseEvents = {}
 
 ---@param fields? lookAtPresetItemBaseEvents
 ---@return lookAtPresetItemBaseEvents
-function lookAtPresetItemBaseEvents.new(fields) return end
+function lookAtPresetItemBaseEvents.new(fields) end

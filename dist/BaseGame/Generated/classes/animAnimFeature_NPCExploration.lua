@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animAnimFeature_NPCExploration: animAnimFeature
----@field public explorationType Int32
----@field public state Int32
----@field public movementType Int32
----@field public isEvenLoop Bool
----@field public playbackTime Float
+---@field explorationType Int32
+---@field state Int32
+---@field movementType Int32
+---@field isEvenLoop Bool
+---@field playbackTime Float
 animAnimFeature_NPCExploration = {}
 
 ---@param fields? animAnimFeature_NPCExploration
 ---@return animAnimFeature_NPCExploration
-function animAnimFeature_NPCExploration.new(fields) return end
+function animAnimFeature_NPCExploration.new(fields) end

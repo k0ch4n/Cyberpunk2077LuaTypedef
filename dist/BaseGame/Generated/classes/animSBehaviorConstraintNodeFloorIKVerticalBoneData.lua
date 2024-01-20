@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animSBehaviorConstraintNodeFloorIKVerticalBoneData
----@field public bone animTransformIndex
----@field public ["Min offset"] Float
----@field public ["Max offset"] Float
----@field public offsetToDesiredBlendTime Float
----@field public verticalOffsetBlendTime Float
----@field public stiffness Float
+---@field bone animTransformIndex
+---@field ["Min offset"] Float
+---@field ["Max offset"] Float
+---@field offsetToDesiredBlendTime Float
+---@field verticalOffsetBlendTime Float
+---@field stiffness Float
 animSBehaviorConstraintNodeFloorIKVerticalBoneData = {}
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKVerticalBoneData
 ---@return animSBehaviorConstraintNodeFloorIKVerticalBoneData
-function animSBehaviorConstraintNodeFloorIKVerticalBoneData.new(fields) return end
+function animSBehaviorConstraintNodeFloorIKVerticalBoneData.new(fields) end

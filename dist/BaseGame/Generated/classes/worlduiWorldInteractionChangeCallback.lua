@@ -5,4 +5,4 @@ worlduiWorldInteractionChangeCallback = {}
 
 ---@param fields? worlduiWorldInteractionChangeCallback
 ---@return worlduiWorldInteractionChangeCallback
-function worlduiWorldInteractionChangeCallback.new(fields) return end
+function worlduiWorldInteractionChangeCallback.new(fields) end

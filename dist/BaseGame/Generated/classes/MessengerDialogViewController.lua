@@ -1,178 +1,163 @@
 ---@meta
 
 ---@class MessengerDialogViewController: inkWidgetLogicController
----@field private messagesList inkCompoundWidgetReference
----@field private choicesList inkCompoundWidgetReference
----@field private replayFluff inkCompoundWidgetReference
----@field private typingFluff inkWidgetReference
----@field private typingIndicator inkWidgetReference
----@field private messagesListController JournalEntriesListController
----@field private choicesListController JournalEntriesListController
----@field private scrollController inkScrollController
----@field private typingIndicatorController MessengerTypingIndicator
----@field private journalManager gameJournalManager
----@field private playerObject gameObject
----@field private delaySystem gameDelaySystem
----@field private delayedTypingCallbackId gameDelayID
----@field private replyOptions gameJournalEntry[]
----@field private messages gameJournalEntry[]
----@field private parentEntry gameJournalEntry
----@field private parentHash Int32
----@field private conversationHash Int32
----@field private contactHash Int32
----@field private typingAnimProxy inkanimProxy
----@field private delayTypingAnimProxy inkanimProxy
----@field private singleThreadMode Bool
----@field private hasFocus Bool
----@field public audioSystem gameGameAudioSystem
----@field private minimumTypingDelay Float
----@field private breakingTypingAnimProxy inkanimProxy
+---@field messagesList inkCompoundWidgetReference
+---@field choicesList inkCompoundWidgetReference
+---@field replayFluff inkCompoundWidgetReference
+---@field typingFluff inkWidgetReference
+---@field typingIndicator inkWidgetReference
+---@field messagesListController JournalEntriesListController
+---@field choicesListController JournalEntriesListController
+---@field scrollController inkScrollController
+---@field typingIndicatorController MessengerTypingIndicator
+---@field journalManager gameJournalManager
+---@field playerObject gameObject
+---@field delaySystem gameDelaySystem
+---@field delayedTypingCallbackId gameDelayID
+---@field replyOptions gameJournalEntry[]
+---@field messages gameJournalEntry[]
+---@field parentEntry gameJournalEntry
+---@field parentHash Int32
+---@field conversationHash Int32
+---@field contactHash Int32
+---@field typingAnimProxy inkanimProxy
+---@field delayTypingAnimProxy inkanimProxy
+---@field singleThreadMode Bool
+---@field hasFocus Bool
+---@field audioSystem gameGameAudioSystem
+---@field minimumTypingDelay Float
+---@field breakingTypingAnimProxy inkanimProxy
 MessengerDialogViewController = {}
 
 ---@param fields? MessengerDialogViewController
 ---@return MessengerDialogViewController
-function MessengerDialogViewController.new(fields) return end
+function MessengerDialogViewController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function MessengerDialogViewController:OnBreakingTypingFinal(proxy) return end
+function MessengerDialogViewController:OnBreakingTypingFinal(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function MessengerDialogViewController:OnBreakingTypingHiden(proxy) return end
+function MessengerDialogViewController:OnBreakingTypingHiden(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function MessengerDialogViewController:OnBreakingTypingShown(proxy) return end
+function MessengerDialogViewController:OnBreakingTypingShown(proxy) end
 
----@protected
 ---@param evt DelayedJournalUpdate
 ---@return Bool
-function MessengerDialogViewController:OnDelayedJournalUpdate(evt) return end
+function MessengerDialogViewController:OnDelayedJournalUpdate(evt) end
 
----@protected
 ---@return Bool
-function MessengerDialogViewController:OnInitialize() return end
+function MessengerDialogViewController:OnInitialize() end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function MessengerDialogViewController:OnJournalUpdate(entryHash, className, notifyOption, changeType) return end
+function MessengerDialogViewController:OnJournalUpdate(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@param delay Float
 ---@return Bool
-function MessengerDialogViewController:OnJournalUpdateDelayed(entryHash, className, notifyOption, changeType, delay) return end
+function MessengerDialogViewController:OnJournalUpdateDelayed(entryHash, className, notifyOption, changeType, delay) end
 
----@protected
 ---@param index Int32
 ---@param target inkListItemController
 ---@return Bool
-function MessengerDialogViewController:OnPlayerReplyActivated(index, target) return end
+function MessengerDialogViewController:OnPlayerReplyActivated(index, target) end
 
----@protected
 ---@return Bool
-function MessengerDialogViewController:OnUninitialize() return end
+function MessengerDialogViewController:OnUninitialize() end
 
----@private
 ---@param target inkListItemController
 ---@return nil
-function MessengerDialogViewController:ActivateReply(target) return end
+function MessengerDialogViewController:ActivateReply(target) end
 
 ---@return nil
-function MessengerDialogViewController:ActivateSelectedReplyOption() return end
+function MessengerDialogViewController:ActivateSelectedReplyOption() end
 
 ---@param journalManager gameJournalManager
 ---@return nil
-function MessengerDialogViewController:AttachJournalManager(journalManager) return end
+function MessengerDialogViewController:AttachJournalManager(journalManager) end
 
 ---@return nil
-function MessengerDialogViewController:DetachJournalManager() return end
+function MessengerDialogViewController:DetachJournalManager() end
 
----@private
 ---@param entryHash Uint32
 ---@return Int32
-function MessengerDialogViewController:GetParentEntryHash(entryHash) return end
+function MessengerDialogViewController:GetParentEntryHash(entryHash) end
 
 ---@return Bool
-function MessengerDialogViewController:HasReplyOptions() return end
+function MessengerDialogViewController:HasReplyOptions() end
 
 ---@param playerObject gameObject
 ---@return nil
-function MessengerDialogViewController:InitDelaySystem(playerObject) return end
+function MessengerDialogViewController:InitDelaySystem(playerObject) end
 
 ---@param isUp Bool
 ---@return nil
-function MessengerDialogViewController:NavigateReplyOptions(isUp) return end
+function MessengerDialogViewController:NavigateReplyOptions(isUp) end
 
 ---@return nil
-function MessengerDialogViewController:PlayDotsAnimation() return end
+function MessengerDialogViewController:PlayDotsAnimation() end
 
----@private
 ---@return nil
-function MessengerDialogViewController:RefreshChoicesFocus() return end
+function MessengerDialogViewController:RefreshChoicesFocus() end
 
 ---@param value Float
 ---@param isMouseWheel Bool
 ---@return nil
-function MessengerDialogViewController:ScrollMessages(value, isMouseWheel) return end
+function MessengerDialogViewController:ScrollMessages(value, isMouseWheel) end
 
 ---@return nil
-function MessengerDialogViewController:SetCurrentMessagesAsVisited() return end
+function MessengerDialogViewController:SetCurrentMessagesAsVisited() end
 
 ---@param focused Bool
 ---@return nil
-function MessengerDialogViewController:SetFocus(focused) return end
+function MessengerDialogViewController:SetFocus(focused) end
 
----@private
 ---@param records gameJournalEntry[]
 ---@return nil
-function MessengerDialogViewController:SetVisited(records) return end
+function MessengerDialogViewController:SetVisited(records) end
 
 ---@param contact gameJournalEntry
 ---@return nil
-function MessengerDialogViewController:ShowDialog(contact) return end
+function MessengerDialogViewController:ShowDialog(contact) end
 
 ---@param contact gameJournalEntry
 ---@param setVisited Bool
 ---@return nil
-function MessengerDialogViewController:ShowDialog(contact, setVisited) return end
+function MessengerDialogViewController:ShowDialog(contact, setVisited) end
 
 ---@param thread gameJournalEntry
 ---@return nil
-function MessengerDialogViewController:ShowThread(thread) return end
+function MessengerDialogViewController:ShowThread(thread) end
 
 ---@param thread gameJournalEntry
 ---@param setVisited Bool
 ---@return nil
-function MessengerDialogViewController:ShowThread(thread, setVisited) return end
+function MessengerDialogViewController:ShowThread(thread, setVisited) end
 
----@private
 ---@return nil
-function MessengerDialogViewController:StopDotsAnimation() return end
+function MessengerDialogViewController:StopDotsAnimation() end
 
----@private
 ---@param delay Float
 ---@param isTyping Bool
 ---@param hash Uint32
 ---@return nil
-function MessengerDialogViewController:TriggerDotsAnimation(delay, isTyping, hash) return end
+function MessengerDialogViewController:TriggerDotsAnimation(delay, isTyping, hash) end
 
 ---@param animateLastMessage? Bool
 ---@return nil
-function MessengerDialogViewController:UpdateData(animateLastMessage) return end
+function MessengerDialogViewController:UpdateData(animateLastMessage) end
 
 ---@param animateLastMessage Bool
 ---@param setVisited Bool
 ---@return nil
-function MessengerDialogViewController:UpdateData(animateLastMessage, setVisited) return end
+function MessengerDialogViewController:UpdateData(animateLastMessage, setVisited) end

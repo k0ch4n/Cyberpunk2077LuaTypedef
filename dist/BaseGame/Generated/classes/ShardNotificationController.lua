@@ -1,88 +1,76 @@
 ---@meta
 
 ---@class ShardNotificationController: gameuiWidgetGameController
----@field private titleRef inkTextWidgetReference
----@field private shortTextRef inkTextWidgetReference
----@field private longTextRef inkTextWidgetReference
----@field private shortTextHolderRef inkWidgetReference
----@field private longTextHolderRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private buttonHintsManagerParentRef inkWidgetReference
----@field private buttonHintsSecondaryManagerRef inkWidgetReference
----@field private buttonHintsSecondaryManagerParentRef inkWidgetReference
----@field private imageWidget inkImageWidgetReference
----@field private scrollWidget inkWidgetReference
----@field private data ShardReadPopupData
----@field private longTextTrashold Int32
----@field private animationProxy inkanimProxy
----@field private player PlayerPuppet
----@field private mingameBB gameIBlackboard
----@field private scroll inkScrollController
+---@field titleRef inkTextWidgetReference
+---@field shortTextRef inkTextWidgetReference
+---@field longTextRef inkTextWidgetReference
+---@field shortTextHolderRef inkWidgetReference
+---@field longTextHolderRef inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field buttonHintsManagerParentRef inkWidgetReference
+---@field buttonHintsSecondaryManagerRef inkWidgetReference
+---@field buttonHintsSecondaryManagerParentRef inkWidgetReference
+---@field imageWidget inkImageWidgetReference
+---@field scrollWidget inkWidgetReference
+---@field data ShardReadPopupData
+---@field longTextTrashold Int32
+---@field animationProxy inkanimProxy
+---@field player PlayerPuppet
+---@field mingameBB gameIBlackboard
+---@field scroll inkScrollController
 ShardNotificationController = {}
 
 ---@param fields? ShardNotificationController
 ---@return ShardNotificationController
-function ShardNotificationController.new(fields) return end
+function ShardNotificationController.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function ShardNotificationController:OnCloseClick(controller) return end
+function ShardNotificationController:OnCloseClick(controller) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function ShardNotificationController:OnCrackClick(controller) return end
+function ShardNotificationController:OnCrackClick(controller) end
 
----@protected
 ---@return Bool
-function ShardNotificationController:OnInitialize() return end
+function ShardNotificationController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function ShardNotificationController:OnIntroComplete(anim) return end
+function ShardNotificationController:OnIntroComplete(anim) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ShardNotificationController:OnPlayerAttach(playerPuppet) return end
+function ShardNotificationController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ShardNotificationController:OnRelease(evt) return end
+function ShardNotificationController:OnRelease(evt) end
 
----@protected
 ---@return Bool
-function ShardNotificationController:OnUninitialize() return end
+function ShardNotificationController:OnUninitialize() end
 
----@private
 ---@param actionName CName|string
 ---@param label CName|string
 ---@param buttonHintRef inkWidgetReference
 ---@param clickCallback CName|string
 ---@return nil
-function ShardNotificationController:AddButtonHints(actionName, label, buttonHintRef, clickCallback) return end
+function ShardNotificationController:AddButtonHints(actionName, label, buttonHintRef, clickCallback) end
 
----@private
 ---@return nil
-function ShardNotificationController:Close() return end
+function ShardNotificationController:Close() end
 
----@private
 ---@return nil
-function ShardNotificationController:LaunchMinigame() return end
+function ShardNotificationController:LaunchMinigame() end
 
----@private
 ---@param enable Bool
 ---@return nil
-function ShardNotificationController:PauseGameState(enable) return end
+function ShardNotificationController:PauseGameState(enable) end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@return nil
-function ShardNotificationController:PlayAnim(animName, callBack) return end
+function ShardNotificationController:PlayAnim(animName, callBack) end
 
----@private
 ---@return nil
-function ShardNotificationController:SetButtonHints() return end
+function ShardNotificationController:SetButtonHints() end

@@ -5,4 +5,4 @@ inkFlexWidgetReference = {}
 
 ---@param fields? inkFlexWidgetReference
 ---@return inkFlexWidgetReference
-function inkFlexWidgetReference.new(fields) return end
+function inkFlexWidgetReference.new(fields) end

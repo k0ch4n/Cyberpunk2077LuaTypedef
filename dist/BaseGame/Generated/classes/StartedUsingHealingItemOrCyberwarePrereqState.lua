@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class StartedUsingHealingItemOrCyberwarePrereqState: gamePrereqState
----@field public listenerInfo redCallbackObject
+---@field listenerInfo redCallbackObject
 StartedUsingHealingItemOrCyberwarePrereqState = {}
 
 ---@param fields? StartedUsingHealingItemOrCyberwarePrereqState
 ---@return StartedUsingHealingItemOrCyberwarePrereqState
-function StartedUsingHealingItemOrCyberwarePrereqState.new(fields) return end
+function StartedUsingHealingItemOrCyberwarePrereqState.new(fields) end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function StartedUsingHealingItemOrCyberwarePrereqState:OnStateUpdate(value) return end
+function StartedUsingHealingItemOrCyberwarePrereqState:OnStateUpdate(value) end

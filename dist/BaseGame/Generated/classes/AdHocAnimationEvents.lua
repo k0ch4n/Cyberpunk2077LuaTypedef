@@ -5,16 +5,14 @@ AdHocAnimationEvents = {}
 
 ---@param fields? AdHocAnimationEvents
 ---@return AdHocAnimationEvents
-function AdHocAnimationEvents.new(fields) return end
+function AdHocAnimationEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AdHocAnimationEvents:OnEnter(stateContext, scriptInterface) return end
+function AdHocAnimationEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AdHocAnimationEvents:OnExit(stateContext, scriptInterface) return end
+function AdHocAnimationEvents:OnExit(stateContext, scriptInterface) end

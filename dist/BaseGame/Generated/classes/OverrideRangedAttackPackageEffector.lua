@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class OverrideRangedAttackPackageEffector: gameEffector
----@field public attackPackage gamedataRangedAttackPackage_Record
+---@field attackPackage gamedataRangedAttackPackage_Record
 OverrideRangedAttackPackageEffector = {}
 
 ---@param fields? OverrideRangedAttackPackageEffector
 ---@return OverrideRangedAttackPackageEffector
-function OverrideRangedAttackPackageEffector.new(fields) return end
+function OverrideRangedAttackPackageEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function OverrideRangedAttackPackageEffector:ActionOff(owner) return end
+function OverrideRangedAttackPackageEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function OverrideRangedAttackPackageEffector:ActionOn(owner) return end
+function OverrideRangedAttackPackageEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function OverrideRangedAttackPackageEffector:Initialize(record, parentRecord) return end
+function OverrideRangedAttackPackageEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function OverrideRangedAttackPackageEffector:RepeatedAction(owner) return end
+function OverrideRangedAttackPackageEffector:RepeatedAction(owner) end

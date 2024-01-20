@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class gameuiMinimapPingSystemMappinController: gameuiBaseMinimapMappinController
----@field public rootWidget inkWidgetReference
+---@field rootWidget inkWidgetReference
 gameuiMinimapPingSystemMappinController = {}
 
 ---@param fields? gameuiMinimapPingSystemMappinController
 ---@return gameuiMinimapPingSystemMappinController
-function gameuiMinimapPingSystemMappinController.new(fields) return end
+function gameuiMinimapPingSystemMappinController.new(fields) end
 
----@protected
 ---@return nil
-function gameuiMinimapPingSystemMappinController:Intro() return end
+function gameuiMinimapPingSystemMappinController:Intro() end

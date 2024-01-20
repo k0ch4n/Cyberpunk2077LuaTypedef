@@ -1,38 +1,36 @@
 ---@meta
 
 ---@class instrumentPanelLogicController: IVehicleModuleController
----@field private lightStateImageWidget inkImageWidgetReference
----@field private cautionStateImageWidget inkImageWidgetReference
----@field private lightStateBBConnectionId redCallbackObject
----@field private cautionStateBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
+---@field lightStateImageWidget inkImageWidgetReference
+---@field cautionStateImageWidget inkImageWidgetReference
+---@field lightStateBBConnectionId redCallbackObject
+---@field cautionStateBBConnectionId redCallbackObject
+---@field vehBB gameIBlackboard
 instrumentPanelLogicController = {}
 
 ---@param fields? instrumentPanelLogicController
 ---@return instrumentPanelLogicController
-function instrumentPanelLogicController.new(fields) return end
+function instrumentPanelLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function instrumentPanelLogicController:OnUninitialize() return end
+function instrumentPanelLogicController:OnUninitialize() end
 
----@protected
 ---@return nil
-function instrumentPanelLogicController:ForceUpdate() return end
-
----@param state Int32
----@return nil
-function instrumentPanelLogicController:OnCautionStateChanged(state) return end
+function instrumentPanelLogicController:ForceUpdate() end
 
 ---@param state Int32
 ---@return nil
-function instrumentPanelLogicController:OnHeadLightModeChanged(state) return end
+function instrumentPanelLogicController:OnCautionStateChanged(state) end
+
+---@param state Int32
+---@return nil
+function instrumentPanelLogicController:OnHeadLightModeChanged(state) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function instrumentPanelLogicController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function instrumentPanelLogicController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function instrumentPanelLogicController:UnregisterCallbacks() return end
+function instrumentPanelLogicController:UnregisterCallbacks() end

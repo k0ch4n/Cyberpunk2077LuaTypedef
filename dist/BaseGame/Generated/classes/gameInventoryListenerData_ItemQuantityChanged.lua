@@ -5,4 +5,4 @@ gameInventoryListenerData_ItemQuantityChanged = {}
 
 ---@param fields? gameInventoryListenerData_ItemQuantityChanged
 ---@return gameInventoryListenerData_ItemQuantityChanged
-function gameInventoryListenerData_ItemQuantityChanged.new(fields) return end
+function gameInventoryListenerData_ItemQuantityChanged.new(fields) end

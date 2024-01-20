@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiPhotoModeUIVisibilityEvent: redEvent
----@field public visible Bool
+---@field visible Bool
 gameuiPhotoModeUIVisibilityEvent = {}
 
 ---@param fields? gameuiPhotoModeUIVisibilityEvent
 ---@return gameuiPhotoModeUIVisibilityEvent
-function gameuiPhotoModeUIVisibilityEvent.new(fields) return end
+function gameuiPhotoModeUIVisibilityEvent.new(fields) end

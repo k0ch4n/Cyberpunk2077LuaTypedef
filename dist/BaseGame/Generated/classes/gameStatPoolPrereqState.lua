@@ -5,4 +5,4 @@ gameStatPoolPrereqState = {}
 
 ---@param fields? gameStatPoolPrereqState
 ---@return gameStatPoolPrereqState
-function gameStatPoolPrereqState.new(fields) return end
+function gameStatPoolPrereqState.new(fields) end

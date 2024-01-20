@@ -1,48 +1,48 @@
 ---@meta
 
 ---@class inkStepperController: inkWidgetLogicController
----@field public cycledNavigation Bool
----@field public indicatorUnitLibraryID CName
----@field public currentValueDisplay inkTextWidgetReference
----@field public indicatorContainer inkCompoundWidgetReference
----@field public leftButton inkWidgetReference
----@field public rightButton inkWidgetReference
----@field public Change inkStepperChangedCallback
+---@field cycledNavigation Bool
+---@field indicatorUnitLibraryID CName
+---@field currentValueDisplay inkTextWidgetReference
+---@field indicatorContainer inkCompoundWidgetReference
+---@field leftButton inkWidgetReference
+---@field rightButton inkWidgetReference
+---@field Change inkStepperChangedCallback
 inkStepperController = {}
 
 ---@param fields? inkStepperController
 ---@return inkStepperController
-function inkStepperController.new(fields) return end
+function inkStepperController.new(fields) end
 
 ---@param refreshImmediately Bool
 ---@return nil
-function inkStepperController:Clear(refreshImmediately) return end
+function inkStepperController:Clear(refreshImmediately) end
 
 ---@return Uint32
-function inkStepperController:GetSelectedIndex() return end
+function inkStepperController:GetSelectedIndex() end
 
 ---@return nil
-function inkStepperController:Next() return end
+function inkStepperController:Next() end
 
 ---@return nil
-function inkStepperController:Prior() return end
+function inkStepperController:Prior() end
 
 ---@param dataItem inkStepperData
 ---@param refreshImmediately Bool
 ---@return nil
-function inkStepperController:PushData(dataItem, refreshImmediately) return end
+function inkStepperController:PushData(dataItem, refreshImmediately) end
 
 ---@param dataList inkStepperData[]
 ---@param refreshImmediately Bool
 ---@return nil
-function inkStepperController:PushDataList(dataList, refreshImmediately) return end
+function inkStepperController:PushDataList(dataList, refreshImmediately) end
 
 ---@return nil
-function inkStepperController:Refresh() return end
+function inkStepperController:Refresh() end
 
 ---@param index Uint32
 ---@return nil
-function inkStepperController:SetSelectedIndex(index) return end
+function inkStepperController:SetSelectedIndex(index) end
 
 ---@return Uint32
-function inkStepperController:Size() return end
+function inkStepperController:Size() end

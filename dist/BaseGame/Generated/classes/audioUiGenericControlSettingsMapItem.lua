@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioUiGenericControlSettingsMapItem: audioAudioMetadata
----@field public uiEventToAudioEventDictionary audioKeySoundEventDictionary
+---@field uiEventToAudioEventDictionary audioKeySoundEventDictionary
 audioUiGenericControlSettingsMapItem = {}
 
 ---@param fields? audioUiGenericControlSettingsMapItem
 ---@return audioUiGenericControlSettingsMapItem
-function audioUiGenericControlSettingsMapItem.new(fields) return end
+function audioUiGenericControlSettingsMapItem.new(fields) end

@@ -5,22 +5,22 @@ gamedataBuildEquipmentSet_Record = {}
 
 ---@param fields? gamedataBuildEquipmentSet_Record
 ---@return gamedataBuildEquipmentSet_Record
-function gamedataBuildEquipmentSet_Record.new(fields) return end
+function gamedataBuildEquipmentSet_Record.new(fields) end
 
 ---@return nil, gamedataBuildEquipment_Record[] outList
-function gamedataBuildEquipmentSet_Record:Equipment() return end
+function gamedataBuildEquipmentSet_Record:Equipment() end
 
 ---@param item gamedataBuildEquipment_Record
 ---@return Bool
-function gamedataBuildEquipmentSet_Record:EquipmentContains(item) return end
+function gamedataBuildEquipmentSet_Record:EquipmentContains(item) end
 
 ---@return Int32
-function gamedataBuildEquipmentSet_Record:GetEquipmentCount() return end
+function gamedataBuildEquipmentSet_Record:GetEquipmentCount() end
 
 ---@param index Int32
 ---@return gamedataBuildEquipment_Record
-function gamedataBuildEquipmentSet_Record:GetEquipmentItem(index) return end
+function gamedataBuildEquipmentSet_Record:GetEquipmentItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildEquipment_Record
-function gamedataBuildEquipmentSet_Record:GetEquipmentItemHandle(index) return end
+function gamedataBuildEquipmentSet_Record:GetEquipmentItemHandle(index) end

@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class ExpansionStatePopupGameController: gameuiWidgetGameController
----@field private statusRef inkTextWidgetReference
----@field private animationName CName
+---@field statusRef inkTextWidgetReference
+---@field animationName CName
 ExpansionStatePopupGameController = {}
 
 ---@param fields? ExpansionStatePopupGameController
 ---@return ExpansionStatePopupGameController
-function ExpansionStatePopupGameController.new(fields) return end
+function ExpansionStatePopupGameController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function ExpansionStatePopupGameController:OnAnimFinished(proxy) return end
+function ExpansionStatePopupGameController:OnAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function ExpansionStatePopupGameController:OnInitialize() return end
+function ExpansionStatePopupGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ExpansionStatePopupGameController:OnUninitialize() return end
+function ExpansionStatePopupGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ExpansionStatePopupGameController:SetupData() return end
+function ExpansionStatePopupGameController:SetupData() end

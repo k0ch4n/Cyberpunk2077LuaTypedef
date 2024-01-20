@@ -5,4 +5,4 @@ SecurityAreaResetRequest = {}
 
 ---@param fields? SecurityAreaResetRequest
 ---@return SecurityAreaResetRequest
-function SecurityAreaResetRequest.new(fields) return end
+function SecurityAreaResetRequest.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsLootedItemEvent: redEvent
----@field public itemID gameItemID
+---@field itemID gameItemID
 gameeventsLootedItemEvent = {}
 
 ---@param fields? gameeventsLootedItemEvent
 ---@return gameeventsLootedItemEvent
-function gameeventsLootedItemEvent.new(fields) return end
+function gameeventsLootedItemEvent.new(fields) end

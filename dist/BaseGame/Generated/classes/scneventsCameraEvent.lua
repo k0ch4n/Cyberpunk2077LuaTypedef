@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scneventsCameraEvent: scnSceneEvent
----@field public cameraRef NodeRef
----@field public isBlendIn Bool
----@field public blendTime Float
+---@field cameraRef NodeRef
+---@field isBlendIn Bool
+---@field blendTime Float
 scneventsCameraEvent = {}
 
 ---@param fields? scneventsCameraEvent
 ---@return scneventsCameraEvent
-function scneventsCameraEvent.new(fields) return end
+function scneventsCameraEvent.new(fields) end

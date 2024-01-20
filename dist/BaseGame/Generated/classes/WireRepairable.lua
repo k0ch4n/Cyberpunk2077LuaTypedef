@@ -1,52 +1,44 @@
 ---@meta
 
 ---@class WireRepairable: gameObject
----@field public isBroken Bool
----@field private dependableEntities NodeRef[]
----@field private interaction gameinteractionsComponent
----@field private brokenmesh entIVisualComponent
----@field private fixedmesh entIVisualComponent
+---@field isBroken Bool
+---@field dependableEntities NodeRef[]
+---@field interaction gameinteractionsComponent
+---@field brokenmesh entIVisualComponent
+---@field fixedmesh entIVisualComponent
 WireRepairable = {}
 
 ---@param fields? WireRepairable
 ---@return WireRepairable
-function WireRepairable.new(fields) return end
+function WireRepairable.new(fields) end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function WireRepairable:OnBasicInteraction(choiceEvent) return end
+function WireRepairable:OnBasicInteraction(choiceEvent) end
 
----@protected
 ---@return Bool
-function WireRepairable:OnGameAttached() return end
+function WireRepairable:OnGameAttached() end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function WireRepairable:OnInteractionActivated(evt) return end
+function WireRepairable:OnInteractionActivated(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function WireRepairable:OnRequestComponents(ri) return end
+function WireRepairable:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function WireRepairable:OnTakeControl(ri) return end
+function WireRepairable:OnTakeControl(ri) end
 
----@protected
 ---@param evt gameVisionModeVisualEvent
 ---@return Bool
-function WireRepairable:OnVisionModeVisual(evt) return end
+function WireRepairable:OnVisionModeVisual(evt) end
 
----@private
 ---@param newstate Bool
 ---@return Bool
-function WireRepairable:ChangeState(newstate) return end
+function WireRepairable:ChangeState(newstate) end
 
----@private
 ---@param newWiringBroken Bool
 ---@return nil
-function WireRepairable:ChangeWiringBrokenOnConnectedPanels(newWiringBroken) return end
+function WireRepairable:ChangeWiringBrokenOnConnectedPanels(newWiringBroken) end

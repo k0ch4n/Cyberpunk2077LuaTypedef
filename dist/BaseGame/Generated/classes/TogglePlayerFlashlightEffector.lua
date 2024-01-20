@@ -5,23 +5,19 @@ TogglePlayerFlashlightEffector = {}
 
 ---@param fields? TogglePlayerFlashlightEffector
 ---@return TogglePlayerFlashlightEffector
-function TogglePlayerFlashlightEffector.new(fields) return end
+function TogglePlayerFlashlightEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TogglePlayerFlashlightEffector:ActionOff(owner) return end
+function TogglePlayerFlashlightEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TogglePlayerFlashlightEffector:ActionOn(owner) return end
+function TogglePlayerFlashlightEffector:ActionOn(owner) end
 
----@private
 ---@param enable Bool
 ---@return nil
-function TogglePlayerFlashlightEffector:ProcessEffector(enable) return end
+function TogglePlayerFlashlightEffector:ProcessEffector(enable) end
 
----@protected
 ---@return nil
-function TogglePlayerFlashlightEffector:Uninitialize() return end
+function TogglePlayerFlashlightEffector:Uninitialize() end

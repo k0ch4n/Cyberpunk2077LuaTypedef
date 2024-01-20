@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldDebugColoring_InteriorExterior: worldEditorDebugColoringSettings
----@field public interiorColor Color
----@field public openInteriorColor Color
----@field public exteriorColor Color
+---@field interiorColor Color
+---@field openInteriorColor Color
+---@field exteriorColor Color
 worldDebugColoring_InteriorExterior = {}
 
 ---@param fields? worldDebugColoring_InteriorExterior
 ---@return worldDebugColoring_InteriorExterior
-function worldDebugColoring_InteriorExterior.new(fields) return end
+function worldDebugColoring_InteriorExterior.new(fields) end

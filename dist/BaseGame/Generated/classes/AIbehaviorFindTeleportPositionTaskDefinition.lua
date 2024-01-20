@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorFindTeleportPositionTaskDefinition: AIbehaviorTaskDefinition
----@field public patrolPath AIArgumentMapping
----@field public teleportPosition AIArgumentMapping
----@field public teleportRotation AIArgumentMapping
+---@field patrolPath AIArgumentMapping
+---@field teleportPosition AIArgumentMapping
+---@field teleportRotation AIArgumentMapping
 AIbehaviorFindTeleportPositionTaskDefinition = {}
 
 ---@param fields? AIbehaviorFindTeleportPositionTaskDefinition
 ---@return AIbehaviorFindTeleportPositionTaskDefinition
-function AIbehaviorFindTeleportPositionTaskDefinition.new(fields) return end
+function AIbehaviorFindTeleportPositionTaskDefinition.new(fields) end

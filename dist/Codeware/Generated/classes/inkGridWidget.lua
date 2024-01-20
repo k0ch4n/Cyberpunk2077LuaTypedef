@@ -5,25 +5,25 @@ inkGridWidget = {}
 
 ---@param fields? inkGridWidget
 ---@return inkGridWidget
-function inkGridWidget.new(fields) return end
+function inkGridWidget.new(fields) end
 
 ---@return inkMargin
-function inkGridWidget:GetChildPadding() return end
+function inkGridWidget:GetChildPadding() end
 
 ---@return Vector2
-function inkGridWidget:GetChildSizeStep() return end
+function inkGridWidget:GetChildSizeStep() end
 
 ---@return inkEOrientation
-function inkGridWidget:GetOrientation() return end
+function inkGridWidget:GetOrientation() end
 
 ---@param value inkMargin
 ---@return nil
-function inkGridWidget:SetChildPadding(value) return end
+function inkGridWidget:SetChildPadding(value) end
 
 ---@param value Vector2
 ---@return nil
-function inkGridWidget:SetChildSizeStep(value) return end
+function inkGridWidget:SetChildSizeStep(value) end
 
 ---@param value inkEOrientation
 ---@return nil
-function inkGridWidget:SetOrientation(value) return end
+function inkGridWidget:SetOrientation(value) end

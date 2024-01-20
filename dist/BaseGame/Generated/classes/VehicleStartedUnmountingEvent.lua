@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class VehicleStartedUnmountingEvent: redEvent
----@field public slotID CName
----@field public isMounting Bool
----@field public character gameObject
+---@field slotID CName
+---@field isMounting Bool
+---@field character gameObject
 VehicleStartedUnmountingEvent = {}
 
 ---@param fields? VehicleStartedUnmountingEvent
 ---@return VehicleStartedUnmountingEvent
-function VehicleStartedUnmountingEvent.new(fields) return end
+function VehicleStartedUnmountingEvent.new(fields) end

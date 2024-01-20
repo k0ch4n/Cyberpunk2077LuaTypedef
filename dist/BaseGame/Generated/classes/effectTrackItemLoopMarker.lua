@@ -5,4 +5,4 @@ effectTrackItemLoopMarker = {}
 
 ---@param fields? effectTrackItemLoopMarker
 ---@return effectTrackItemLoopMarker
-function effectTrackItemLoopMarker.new(fields) return end
+function effectTrackItemLoopMarker.new(fields) end

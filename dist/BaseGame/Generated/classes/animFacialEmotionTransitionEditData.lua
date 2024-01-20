@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class animFacialEmotionTransitionEditData
----@field public toIdleMale CName
----@field public facialKeyMale CName
----@field public toIdleFemale CName
----@field public facialKeyFemale CName
----@field public transitionType animFacialEmotionTransitionType
----@field public toIdleWeight Float
----@field public toIdleNeckWeight Float
----@field public facialKeyWeight Float
----@field public customTransitionAnim CName
+---@field toIdleMale CName
+---@field facialKeyMale CName
+---@field toIdleFemale CName
+---@field facialKeyFemale CName
+---@field transitionType animFacialEmotionTransitionType
+---@field toIdleWeight Float
+---@field toIdleNeckWeight Float
+---@field facialKeyWeight Float
+---@field customTransitionAnim CName
 animFacialEmotionTransitionEditData = {}
 
 ---@param fields? animFacialEmotionTransitionEditData
 ---@return animFacialEmotionTransitionEditData
-function animFacialEmotionTransitionEditData.new(fields) return end
+function animFacialEmotionTransitionEditData.new(fields) end

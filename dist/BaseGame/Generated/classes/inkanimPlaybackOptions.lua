@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class inkanimPlaybackOptions
----@field public playReversed Bool
----@field public loopType inkanimLoopType
----@field public loopCounter Uint32
----@field public executionDelay Float
----@field public loopInfinite Bool
----@field public fromMarker CName
----@field public toMarker CName
----@field public oneSegment Bool
----@field public dependsOnTimeDilation Bool
----@field public applyCustomTimeDilation Bool
----@field public customTimeDilation Float
+---@field playReversed Bool
+---@field loopType inkanimLoopType
+---@field loopCounter Uint32
+---@field executionDelay Float
+---@field loopInfinite Bool
+---@field fromMarker CName
+---@field toMarker CName
+---@field oneSegment Bool
+---@field dependsOnTimeDilation Bool
+---@field applyCustomTimeDilation Bool
+---@field customTimeDilation Float
 inkanimPlaybackOptions = {}
 
 ---@param fields? inkanimPlaybackOptions
 ---@return inkanimPlaybackOptions
-function inkanimPlaybackOptions.new(fields) return end
+function inkanimPlaybackOptions.new(fields) end

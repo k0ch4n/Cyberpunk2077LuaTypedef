@@ -5,16 +5,14 @@ ForceWalkDecisions = {}
 
 ---@param fields? ForceWalkDecisions
 ---@return ForceWalkDecisions
-function ForceWalkDecisions.new(fields) return end
+function ForceWalkDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceWalkDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ForceWalkDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceWalkDecisions:ToStand(stateContext, scriptInterface) return end
+function ForceWalkDecisions:ToStand(stateContext, scriptInterface) end

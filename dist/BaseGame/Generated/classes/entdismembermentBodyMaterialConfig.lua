@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entdismembermentBodyMaterialConfig
----@field public FleshBodyMask physicsRagdollBodyPartE
----@field public CyberBodyMask physicsRagdollBodyPartE
+---@field FleshBodyMask physicsRagdollBodyPartE
+---@field CyberBodyMask physicsRagdollBodyPartE
 entdismembermentBodyMaterialConfig = {}
 
 ---@param fields? entdismembermentBodyMaterialConfig
 ---@return entdismembermentBodyMaterialConfig
-function entdismembermentBodyMaterialConfig.new(fields) return end
+function entdismembermentBodyMaterialConfig.new(fields) end

@@ -5,43 +5,43 @@ gamedataTankObstacleSpawnerData_Record = {}
 
 ---@param fields? gamedataTankObstacleSpawnerData_Record
 ---@return gamedataTankObstacleSpawnerData_Record
-function gamedataTankObstacleSpawnerData_Record.new(fields) return end
+function gamedataTankObstacleSpawnerData_Record.new(fields) end
 
 ---@return Int32
-function gamedataTankObstacleSpawnerData_Record:GetLevelListCount() return end
+function gamedataTankObstacleSpawnerData_Record:GetLevelListCount() end
 
 ---@param index Int32
 ---@return gamedataTankLevelObjectID_Record
-function gamedataTankObstacleSpawnerData_Record:GetLevelListItem(index) return end
+function gamedataTankObstacleSpawnerData_Record:GetLevelListItem(index) end
 
 ---@param index Int32
 ---@return gamedataTankLevelObjectID_Record
-function gamedataTankObstacleSpawnerData_Record:GetLevelListItemHandle(index) return end
+function gamedataTankObstacleSpawnerData_Record:GetLevelListItemHandle(index) end
 
 ---@return Int32
-function gamedataTankObstacleSpawnerData_Record:GetObstacleListCount() return end
+function gamedataTankObstacleSpawnerData_Record:GetObstacleListCount() end
 
 ---@param index Int32
 ---@return gamedataTankDestroyableObject_Record
-function gamedataTankObstacleSpawnerData_Record:GetObstacleListItem(index) return end
+function gamedataTankObstacleSpawnerData_Record:GetObstacleListItem(index) end
 
 ---@param index Int32
 ---@return gamedataTankDestroyableObject_Record
-function gamedataTankObstacleSpawnerData_Record:GetObstacleListItemHandle(index) return end
+function gamedataTankObstacleSpawnerData_Record:GetObstacleListItemHandle(index) end
 
 ---@return nil, gamedataTankLevelObjectID_Record[] outList
-function gamedataTankObstacleSpawnerData_Record:LevelList() return end
+function gamedataTankObstacleSpawnerData_Record:LevelList() end
 
 ---@param item gamedataTankLevelObjectID_Record
 ---@return Bool
-function gamedataTankObstacleSpawnerData_Record:LevelListContains(item) return end
+function gamedataTankObstacleSpawnerData_Record:LevelListContains(item) end
 
 ---@return nil, gamedataTankDestroyableObject_Record[] outList
-function gamedataTankObstacleSpawnerData_Record:ObstacleList() return end
+function gamedataTankObstacleSpawnerData_Record:ObstacleList() end
 
 ---@param item gamedataTankDestroyableObject_Record
 ---@return Bool
-function gamedataTankObstacleSpawnerData_Record:ObstacleListContains(item) return end
+function gamedataTankObstacleSpawnerData_Record:ObstacleListContains(item) end
 
 ---@return Float
-function gamedataTankObstacleSpawnerData_Record:SpawnTime() return end
+function gamedataTankObstacleSpawnerData_Record:SpawnTime() end

@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class PathTracingSettings: IAreaSettings
----@field public albedoModulation Float
----@field public diffuseGlobalScale Float
----@field public diffuseSunScale Float
----@field public diffuseSkyScale Float
----@field public diffuseLocalLightsScale Float
----@field public diffuseEmissiveScale Float
----@field public specularGlobalScale Float
----@field public specularSunScale Float
----@field public specularSkyScale Float
----@field public specularLocalLightsScale Float
----@field public specularEmissiveScale Float
----@field public maxIntensity Float
----@field public GIOnlyLightScale Float
----@field public rayNumber Uint32
----@field public bounceNumber Uint32
----@field public rayNumberScreenshot Uint32
----@field public bounceNumberScreenshot Uint32
+---@field albedoModulation Float
+---@field diffuseGlobalScale Float
+---@field diffuseSunScale Float
+---@field diffuseSkyScale Float
+---@field diffuseLocalLightsScale Float
+---@field diffuseEmissiveScale Float
+---@field specularGlobalScale Float
+---@field specularSunScale Float
+---@field specularSkyScale Float
+---@field specularLocalLightsScale Float
+---@field specularEmissiveScale Float
+---@field maxIntensity Float
+---@field GIOnlyLightScale Float
+---@field rayNumber Uint32
+---@field bounceNumber Uint32
+---@field rayNumberScreenshot Uint32
+---@field bounceNumberScreenshot Uint32
 PathTracingSettings = {}
 
 ---@param fields? PathTracingSettings
 ---@return PathTracingSettings
-function PathTracingSettings.new(fields) return end
+function PathTracingSettings.new(fields) end

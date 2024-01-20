@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldDebugColoring_GIDebug: worldEditorDebugColoringSettings
----@field public GIVisibleColor Color
----@field public GITransparentColor Color
+---@field GIVisibleColor Color
+---@field GITransparentColor Color
 worldDebugColoring_GIDebug = {}
 
 ---@param fields? worldDebugColoring_GIDebug
 ---@return worldDebugColoring_GIDebug
-function worldDebugColoring_GIDebug.new(fields) return end
+function worldDebugColoring_GIDebug.new(fields) end

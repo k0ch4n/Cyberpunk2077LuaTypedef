@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemSetBackpackSorting: gameScriptableSystemRequest
----@field public sortMode Int32
+---@field sortMode Int32
 UIScriptableSystemSetBackpackSorting = {}
 
 ---@param fields? UIScriptableSystemSetBackpackSorting
 ---@return UIScriptableSystemSetBackpackSorting
-function UIScriptableSystemSetBackpackSorting.new(fields) return end
+function UIScriptableSystemSetBackpackSorting.new(fields) end

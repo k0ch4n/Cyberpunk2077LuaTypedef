@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class PhoneStatusEffectListener: gameScriptStatusEffectListener
----@field private phoneSystem PhoneSystem
+---@field phoneSystem PhoneSystem
 PhoneStatusEffectListener = {}
 
 ---@param fields? PhoneStatusEffectListener
 ---@return PhoneStatusEffectListener
-function PhoneStatusEffectListener.new(fields) return end
+function PhoneStatusEffectListener.new(fields) end
 
 ---@param system PhoneSystem
 ---@return nil
-function PhoneStatusEffectListener:Init(system) return end
+function PhoneStatusEffectListener:Init(system) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function PhoneStatusEffectListener:OnStatusEffectApplied(statusEffect) return end
+function PhoneStatusEffectListener:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function PhoneStatusEffectListener:OnStatusEffectRemoved(statusEffect) return end
+function PhoneStatusEffectListener:OnStatusEffectRemoved(statusEffect) end

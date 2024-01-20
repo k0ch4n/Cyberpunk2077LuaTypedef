@@ -5,4 +5,4 @@ inkVirtualCompoundWidget = {}
 
 ---@param fields? inkVirtualCompoundWidget
 ---@return inkVirtualCompoundWidget
-function inkVirtualCompoundWidget.new(fields) return end
+function inkVirtualCompoundWidget.new(fields) end

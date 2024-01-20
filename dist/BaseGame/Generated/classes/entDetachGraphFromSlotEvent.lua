@@ -5,4 +5,4 @@ entDetachGraphFromSlotEvent = {}
 
 ---@param fields? entDetachGraphFromSlotEvent
 ---@return entDetachGraphFromSlotEvent
-function entDetachGraphFromSlotEvent.new(fields) return end
+function entDetachGraphFromSlotEvent.new(fields) end

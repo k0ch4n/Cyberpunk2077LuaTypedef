@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questMultiplayerHeistNodeDefinition: questDisableableNodeDefinition
----@field public type questIMultiplayerHeistNodeType
+---@field type questIMultiplayerHeistNodeType
 questMultiplayerHeistNodeDefinition = {}
 
 ---@param fields? questMultiplayerHeistNodeDefinition
 ---@return questMultiplayerHeistNodeDefinition
-function questMultiplayerHeistNodeDefinition.new(fields) return end
+function questMultiplayerHeistNodeDefinition.new(fields) end

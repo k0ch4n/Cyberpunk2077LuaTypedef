@@ -5,10 +5,10 @@ ScannerChunk = {}
 
 ---@param fields? ScannerChunk
 ---@return ScannerChunk
-function ScannerChunk.new(fields) return end
+function ScannerChunk.new(fields) end
 
 ---@return ScannerDataType
-function ScannerChunk:GetType() return end
+function ScannerChunk:GetType() end
 
 ---@return Bool
-function ScannerChunk:IsValid() return end
+function ScannerChunk:IsValid() end

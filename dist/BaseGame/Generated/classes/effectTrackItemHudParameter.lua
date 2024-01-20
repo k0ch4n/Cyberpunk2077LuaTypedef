@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class effectTrackItemHudParameter: effectTrackItem
----@field public scale Float
----@field public glitchParameter effectEffectParameterEvaluator
----@field public scale1 Float
----@field public glitchParameter1 effectEffectParameterEvaluator
----@field public blackwallScale Float
----@field public blackwallParameter effectEffectParameterEvaluator
+---@field scale Float
+---@field glitchParameter effectEffectParameterEvaluator
+---@field scale1 Float
+---@field glitchParameter1 effectEffectParameterEvaluator
+---@field blackwallScale Float
+---@field blackwallParameter effectEffectParameterEvaluator
 effectTrackItemHudParameter = {}
 
 ---@param fields? effectTrackItemHudParameter
 ---@return effectTrackItemHudParameter
-function effectTrackItemHudParameter.new(fields) return end
+function effectTrackItemHudParameter.new(fields) end

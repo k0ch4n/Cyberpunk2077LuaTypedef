@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CameraTagLockEvent: redEvent
----@field public isLocked Bool
+---@field isLocked Bool
 CameraTagLockEvent = {}
 
 ---@param fields? CameraTagLockEvent
 ---@return CameraTagLockEvent
-function CameraTagLockEvent.new(fields) return end
+function CameraTagLockEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class QuestModifyFilters: redEvent
----@field public incomingFilters EQuestFilterType
----@field public outgoingFilters EQuestFilterType
+---@field incomingFilters EQuestFilterType
+---@field outgoingFilters EQuestFilterType
 QuestModifyFilters = {}
 
 ---@param fields? QuestModifyFilters
 ---@return QuestModifyFilters
-function QuestModifyFilters.new(fields) return end
+function QuestModifyFilters.new(fields) end

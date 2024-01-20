@@ -1,42 +1,36 @@
 ---@meta
 
 ---@class Window: Door
----@field protected soloCollider entIComponent
----@field protected strongSoloHandle entMeshComponent
----@field private duplicateDestruction Bool
+---@field soloCollider entIComponent
+---@field strongSoloHandle entMeshComponent
+---@field duplicateDestruction Bool
 Window = {}
 
 ---@param fields? Window
 ---@return Window
-function Window.new(fields) return end
+function Window.new(fields) end
 
----@protected
 ---@param evt ActionDemolition
 ---@return Bool
-function Window:OnActionDemolition(evt) return end
+function Window:OnActionDemolition(evt) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function Window:OnPhysicalDestructionEvent(evt) return end
+function Window:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Window:OnRequestComponents(ri) return end
+function Window:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Window:OnTakeControl(ri) return end
+function Window:OnTakeControl(ri) end
 
----@private
 ---@return WindowController
-function Window:GetController() return end
+function Window:GetController() end
 
 ---@return WindowControllerPS
-function Window:GetDevicePS() return end
+function Window:GetDevicePS() end
 
----@protected
 ---@return nil
-function Window:SetSoloAppearance() return end
+function Window:SetSoloAppearance() end

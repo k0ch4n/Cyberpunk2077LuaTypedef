@@ -5,9 +5,8 @@ ReprimandEscalation = {}
 
 ---@param fields? ReprimandEscalation
 ---@return ReprimandEscalation
-function ReprimandEscalation.new(fields) return end
+function ReprimandEscalation.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReprimandEscalation:Activate(context) return end
+function ReprimandEscalation:Activate(context) end

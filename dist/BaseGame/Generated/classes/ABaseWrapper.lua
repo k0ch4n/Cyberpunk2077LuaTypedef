@@ -4,4 +4,4 @@
 ABaseWrapper = {}
 
 ---@return String
-function ABaseWrapper:ToString() return end
+function ABaseWrapper:ToString() end

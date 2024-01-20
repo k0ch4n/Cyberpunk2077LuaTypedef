@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldSpeedSplineNodeOrientationChangeSection
----@field public pos Float
----@field public type worldSpeedSplineOrientationMarkerType
----@field public targetOrientation EulerAngles
+---@field pos Float
+---@field type worldSpeedSplineOrientationMarkerType
+---@field targetOrientation EulerAngles
 worldSpeedSplineNodeOrientationChangeSection = {}
 
 ---@param fields? worldSpeedSplineNodeOrientationChangeSection
 ---@return worldSpeedSplineNodeOrientationChangeSection
-function worldSpeedSplineNodeOrientationChangeSection.new(fields) return end
+function worldSpeedSplineNodeOrientationChangeSection.new(fields) end

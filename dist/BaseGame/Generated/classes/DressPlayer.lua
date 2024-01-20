@@ -5,7 +5,7 @@ DressPlayer = {}
 
 ---@param fields? DressPlayer
 ---@return DressPlayer
-function DressPlayer.new(fields) return end
+function DressPlayer.new(fields) end
 
 ---@return String
-function DressPlayer:GetFriendlyDescription() return end
+function DressPlayer:GetFriendlyDescription() end

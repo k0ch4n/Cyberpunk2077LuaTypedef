@@ -1,36 +1,33 @@
 ---@meta
 
 ---@class characterCreationBodyMorphImageThumbnail: inkButtonAnimatedController
----@field public selector inkWidgetReference
----@field public equipped inkWidgetReference
----@field public bg inkWidgetReference
----@field public index Int32
+---@field selector inkWidgetReference
+---@field equipped inkWidgetReference
+---@field bg inkWidgetReference
+---@field index Int32
 characterCreationBodyMorphImageThumbnail = {}
 
 ---@param fields? characterCreationBodyMorphImageThumbnail
 ---@return characterCreationBodyMorphImageThumbnail
-function characterCreationBodyMorphImageThumbnail.new(fields) return end
+function characterCreationBodyMorphImageThumbnail.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphImageThumbnail:OnHoverOut(e) return end
+function characterCreationBodyMorphImageThumbnail:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphImageThumbnail:OnHoverOver(e) return end
+function characterCreationBodyMorphImageThumbnail:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphImageThumbnail:OnInitialize() return end
+function characterCreationBodyMorphImageThumbnail:OnInitialize() end
 
 ---@param selected Bool
 ---@param color Color
 ---@param index Int32
 ---@return nil
-function characterCreationBodyMorphImageThumbnail:Refresh(selected, color, index) return end
+function characterCreationBodyMorphImageThumbnail:Refresh(selected, color, index) end
 
 ---@param selected Bool
 ---@return nil
-function characterCreationBodyMorphImageThumbnail:RefreshSelectionState(selected) return end
+function characterCreationBodyMorphImageThumbnail:RefreshSelectionState(selected) end

@@ -5,13 +5,13 @@ ItemModeGridView = {}
 
 ---@param fields? ItemModeGridView
 ---@return ItemModeGridView
-function ItemModeGridView.new(fields) return end
+function ItemModeGridView.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function ItemModeGridView:FilterItem(data) return end
+function ItemModeGridView:FilterItem(data) end
 
 ---@param left IScriptable
 ---@param right IScriptable
 ---@return Bool
-function ItemModeGridView:SortItem(left, right) return end
+function ItemModeGridView:SortItem(left, right) end

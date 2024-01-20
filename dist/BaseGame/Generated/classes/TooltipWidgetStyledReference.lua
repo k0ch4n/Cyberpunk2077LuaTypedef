@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TooltipWidgetStyledReference
----@field public identifier CName
----@field public widgetLibraryReference inkWidgetLibraryReference
----@field public menuTooltipStylePath redResourceReferenceScriptToken
----@field public hudTooltipStylePath redResourceReferenceScriptToken
+---@field identifier CName
+---@field widgetLibraryReference inkWidgetLibraryReference
+---@field menuTooltipStylePath redResourceReferenceScriptToken
+---@field hudTooltipStylePath redResourceReferenceScriptToken
 TooltipWidgetStyledReference = {}
 
 ---@param fields? TooltipWidgetStyledReference
 ---@return TooltipWidgetStyledReference
-function TooltipWidgetStyledReference.new(fields) return end
+function TooltipWidgetStyledReference.new(fields) end

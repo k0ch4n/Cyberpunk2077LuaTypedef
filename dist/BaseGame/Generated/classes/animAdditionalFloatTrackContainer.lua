@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAdditionalFloatTrackContainer
----@field public entries animAdditionalFloatTrackEntry[]
----@field public overwriteExistingValues Bool
+---@field entries animAdditionalFloatTrackEntry[]
+---@field overwriteExistingValues Bool
 animAdditionalFloatTrackContainer = {}
 
 ---@param fields? animAdditionalFloatTrackContainer
 ---@return animAdditionalFloatTrackContainer
-function animAdditionalFloatTrackContainer.new(fields) return end
+function animAdditionalFloatTrackContainer.new(fields) end

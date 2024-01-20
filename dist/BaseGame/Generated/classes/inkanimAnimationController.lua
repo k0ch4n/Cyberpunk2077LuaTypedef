@@ -5,4 +5,4 @@ inkanimAnimationController = {}
 
 ---@param fields? inkanimAnimationController
 ---@return inkanimAnimationController
-function inkanimAnimationController.new(fields) return end
+function inkanimAnimationController.new(fields) end

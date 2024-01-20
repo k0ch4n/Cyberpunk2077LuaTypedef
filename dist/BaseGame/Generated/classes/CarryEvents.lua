@@ -1,69 +1,59 @@
 ---@meta
 
 ---@class CarryEvents: CarriedObjectEvents
----@field public knockdownImmunityModifier gameStatModifierData_Deprecated
+---@field knockdownImmunityModifier gameStatModifierData_Deprecated
 CarryEvents = {}
 
 ---@param fields? CarryEvents
 ---@return CarryEvents
-function CarryEvents.new(fields) return end
+function CarryEvents.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:AddKnockdownModifier(scriptInterface) return end
+function CarryEvents:AddKnockdownModifier(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:OnEnter(stateContext, scriptInterface) return end
+function CarryEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:OnExit(stateContext, scriptInterface) return end
+function CarryEvents:OnExit(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:OnExitCommon(stateContext, scriptInterface) return end
+function CarryEvents:OnExitCommon(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:OnForcedExit(stateContext, scriptInterface) return end
+function CarryEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function CarryEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:RefreshCarryState(stateContext, scriptInterface) return end
+function CarryEvents:RefreshCarryState(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:RemoveKnockdownModifier(scriptInterface) return end
+function CarryEvents:RemoveKnockdownModifier(scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:SyncJump(stateContext, scriptInterface) return end
+function CarryEvents:SyncJump(stateContext, scriptInterface) end
 
----@private
 ---@param state ECarryState
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CarryEvents:UpdatePuppetCarryState(state, stateContext, scriptInterface) return end
+function CarryEvents:UpdatePuppetCarryState(state, stateContext, scriptInterface) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LightGroupsAreaSettings: IAreaSettings
----@field public groupFade curveData[]
+---@field groupFade curveData[]
 LightGroupsAreaSettings = {}
 
 ---@param fields? LightGroupsAreaSettings
 ---@return LightGroupsAreaSettings
-function LightGroupsAreaSettings.new(fields) return end
+function LightGroupsAreaSettings.new(fields) end

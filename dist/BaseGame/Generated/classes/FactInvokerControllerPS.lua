@@ -1,48 +1,43 @@
 ---@meta
 
 ---@class FactInvokerControllerPS: MasterControllerPS
----@field private factDataEntries FactInvokerDataEntry[]
----@field private passwords CName[]
----@field private arePasswordsInitialized Bool
+---@field factDataEntries FactInvokerDataEntry[]
+---@field passwords CName[]
+---@field arePasswordsInitialized Bool
 FactInvokerControllerPS = {}
 
 ---@param fields? FactInvokerControllerPS
 ---@return FactInvokerControllerPS
-function FactInvokerControllerPS.new(fields) return end
+function FactInvokerControllerPS.new(fields) end
 
----@private
 ---@return nil
-function FactInvokerControllerPS:EnsurePasswordsPresence() return end
+function FactInvokerControllerPS:EnsurePasswordsPresence() end
 
----@protected
 ---@return nil
-function FactInvokerControllerPS:GameAttached() return end
+function FactInvokerControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function FactInvokerControllerPS:GetActions(context) return end
+function FactInvokerControllerPS:GetActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function FactInvokerControllerPS:GetInkWidgetTweakDBID(context) return end
+function FactInvokerControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@return CName[]
-function FactInvokerControllerPS:GetPasswords() return end
+function FactInvokerControllerPS:GetPasswords() end
 
 ---@return Bool
-function FactInvokerControllerPS:IsDeviceSecured() return end
+function FactInvokerControllerPS:IsDeviceSecured() end
 
 ---@param evt AuthorizeUser
 ---@return EntityNotificationType
-function FactInvokerControllerPS:OnAuthorizeUser(evt) return end
+function FactInvokerControllerPS:OnAuthorizeUser(evt) end
 
----@private
 ---@param password CName|string
 ---@return Bool, CName fact
-function FactInvokerControllerPS:TryGetFact(password) return end
+function FactInvokerControllerPS:TryGetFact(password) end
 
----@private
 ---@param evt AuthorizeUser
 ---@return nil
-function FactInvokerControllerPS:TryInvokeFact(evt) return end
+function FactInvokerControllerPS:TryInvokeFact(evt) end

@@ -5,4 +5,4 @@ gameNetrunnerPrototypeDespawnEvent = {}
 
 ---@param fields? gameNetrunnerPrototypeDespawnEvent
 ---@return gameNetrunnerPrototypeDespawnEvent
-function gameNetrunnerPrototypeDespawnEvent.new(fields) return end
+function gameNetrunnerPrototypeDespawnEvent.new(fields) end

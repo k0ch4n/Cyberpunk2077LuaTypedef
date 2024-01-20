@@ -5,4 +5,4 @@ TimeSkipPopupData = {}
 
 ---@param fields? TimeSkipPopupData
 ---@return TimeSkipPopupData
-function TimeSkipPopupData.new(fields) return end
+function TimeSkipPopupData.new(fields) end

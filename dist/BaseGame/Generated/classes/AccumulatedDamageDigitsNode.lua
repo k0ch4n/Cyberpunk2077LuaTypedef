@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AccumulatedDamageDigitsNode
----@field public used Bool
----@field public entityID entEntityID
----@field public controller AccumulatedDamageDigitLogicController
----@field public isDamageOverTime Bool
+---@field used Bool
+---@field entityID entEntityID
+---@field controller AccumulatedDamageDigitLogicController
+---@field isDamageOverTime Bool
 AccumulatedDamageDigitsNode = {}
 
 ---@param fields? AccumulatedDamageDigitsNode
 ---@return AccumulatedDamageDigitsNode
-function AccumulatedDamageDigitsNode.new(fields) return end
+function AccumulatedDamageDigitsNode.new(fields) end

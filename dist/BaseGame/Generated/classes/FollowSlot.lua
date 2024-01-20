@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class FollowSlot: IScriptable
----@field public id Int32
----@field public slotTransform Transform
----@field public isEnabled Bool
----@field public isAvailable Bool
+---@field id Int32
+---@field slotTransform Transform
+---@field isEnabled Bool
+---@field isAvailable Bool
 FollowSlot = {}
 
 ---@param fields? FollowSlot
 ---@return FollowSlot
-function FollowSlot.new(fields) return end
+function FollowSlot.new(fields) end

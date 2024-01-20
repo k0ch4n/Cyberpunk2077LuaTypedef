@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameinteractionsDistanceFromScreenCenterPredicate: gameinteractionsIPredicateType
----@field public height Float
----@field public width Float
----@field public curvature Float
----@field public maxPriorityBoundsFactor Float
+---@field height Float
+---@field width Float
+---@field curvature Float
+---@field maxPriorityBoundsFactor Float
 gameinteractionsDistanceFromScreenCenterPredicate = {}
 
 ---@param fields? gameinteractionsDistanceFromScreenCenterPredicate
 ---@return gameinteractionsDistanceFromScreenCenterPredicate
-function gameinteractionsDistanceFromScreenCenterPredicate.new(fields) return end
+function gameinteractionsDistanceFromScreenCenterPredicate.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnChoiceNodeNsAttachToWorldParams
----@field public entityPosition Vector3
----@field public entityOrientation Quaternion
----@field public customEntityRadius Float
----@field public visualizerStyle scnChoiceNodeNsVisualizerStyle
+---@field entityPosition Vector3
+---@field entityOrientation Quaternion
+---@field customEntityRadius Float
+---@field visualizerStyle scnChoiceNodeNsVisualizerStyle
 scnChoiceNodeNsAttachToWorldParams = {}
 
 ---@param fields? scnChoiceNodeNsAttachToWorldParams
 ---@return scnChoiceNodeNsAttachToWorldParams
-function scnChoiceNodeNsAttachToWorldParams.new(fields) return end
+function scnChoiceNodeNsAttachToWorldParams.new(fields) end

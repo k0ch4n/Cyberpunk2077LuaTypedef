@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioAudioSceneVariableWriteActionData
----@field public name CName
----@field public operation audioNumberOperation
----@field public value Int32
+---@field name CName
+---@field operation audioNumberOperation
+---@field value Int32
 audioAudioSceneVariableWriteActionData = {}
 
 ---@param fields? audioAudioSceneVariableWriteActionData
 ---@return audioAudioSceneVariableWriteActionData
-function audioAudioSceneVariableWriteActionData.new(fields) return end
+function audioAudioSceneVariableWriteActionData.new(fields) end

@@ -5,14 +5,12 @@ IsReprimandOngoing = {}
 
 ---@param fields? IsReprimandOngoing
 ---@return IsReprimandOngoing
-function IsReprimandOngoing.new(fields) return end
+function IsReprimandOngoing.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsReprimandOngoing:Activate(context) return end
+function IsReprimandOngoing:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsReprimandOngoing:Check(context) return end
+function IsReprimandOngoing:Check(context) end

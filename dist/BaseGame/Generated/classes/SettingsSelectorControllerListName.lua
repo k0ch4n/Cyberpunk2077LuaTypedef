@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class SettingsSelectorControllerListName: SettingsSelectorControllerList
----@field protected realValue userSettingsVarListName
----@field protected currentIndex Int32
+---@field realValue userSettingsVarListName
+---@field currentIndex Int32
 SettingsSelectorControllerListName = {}
 
 ---@param fields? SettingsSelectorControllerListName
 ---@return SettingsSelectorControllerListName
-function SettingsSelectorControllerListName.new(fields) return end
+function SettingsSelectorControllerListName.new(fields) end
 
----@private
 ---@param forward Bool
 ---@return nil
-function SettingsSelectorControllerListName:ChangeValue(forward) return end
+function SettingsSelectorControllerListName:ChangeValue(forward) end
 
 ---@return nil
-function SettingsSelectorControllerListName:Refresh() return end
+function SettingsSelectorControllerListName:Refresh() end
 
 ---@param entry userSettingsVar
 ---@param isPreGame Bool
 ---@return nil
-function SettingsSelectorControllerListName:Setup(entry, isPreGame) return end
+function SettingsSelectorControllerListName:Setup(entry, isPreGame) end

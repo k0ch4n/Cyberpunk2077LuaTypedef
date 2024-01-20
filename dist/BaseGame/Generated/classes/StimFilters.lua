@@ -5,92 +5,92 @@ StimFilters = {}
 
 ---@param fields? StimFilters
 ---@return StimFilters
-function StimFilters.new(fields) return end
+function StimFilters.new(fields) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.AllowFriendlyInCombat(stimType) return end
+function StimFilters.AllowFriendlyInCombat(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanBeIgnoredInCombat(stimType) return end
+function StimFilters.CanBeIgnoredInCombat(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanProcessPastAllyHelp(stimType) return end
+function StimFilters.CanProcessPastAllyHelp(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanTriggerAlertedDirectly(stimType) return end
+function StimFilters.CanTriggerAlertedDirectly(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanTriggerAllyHelp(stimType) return end
+function StimFilters.CanTriggerAllyHelp(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanTriggerCombatDirectly(stimType) return end
+function StimFilters.CanTriggerCombatDirectly(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanTriggerEnemyHostility(stimType) return end
+function StimFilters.CanTriggerEnemyHostility(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanTriggerNeutralHelp(stimType) return end
+function StimFilters.CanTriggerNeutralHelp(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanTriggerPreventionCombatDirectly(stimType) return end
+function StimFilters.CanTriggerPreventionCombatDirectly(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.CanTriggerPreventionCombatDirectlyEvenInvisible(stimType) return end
+function StimFilters.CanTriggerPreventionCombatDirectlyEvenInvisible(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.Debug_IsAllowed(stimType) return end
+function StimFilters.Debug_IsAllowed(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsForTheDead(stimType) return end
+function StimFilters.IsForTheDead(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsGunshot(stimType) return end
+function StimFilters.IsGunshot(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsIgnoredFromSameSource(stimType) return end
+function StimFilters.IsIgnoredFromSameSource(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsIgnoredInVehicle(stimType) return end
+function StimFilters.IsIgnoredInVehicle(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsIgnoredWhileGrappled(stimType) return end
+function StimFilters.IsIgnoredWhileGrappled(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsIllegal(stimType) return end
+function StimFilters.IsIllegal(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsIllegalAction(stimType) return end
+function StimFilters.IsIllegalAction(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.IsProjectile(stimType) return end
+function StimFilters.IsProjectile(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.ShouldBeDetected(stimType) return end
+function StimFilters.ShouldBeDetected(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.ShouldBeFriendly(stimType) return end
+function StimFilters.ShouldBeFriendly(stimType) end
 
 ---@param stimType gamedataStimType
 ---@return Bool
-function StimFilters.ShouldBeInPublicZone(stimType) return end
+function StimFilters.ShouldBeInPublicZone(stimType) end

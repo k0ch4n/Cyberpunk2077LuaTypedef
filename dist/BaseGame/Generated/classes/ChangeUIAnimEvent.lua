@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ChangeUIAnimEvent: redEvent
----@field public animName CName
+---@field animName CName
 ChangeUIAnimEvent = {}
 
 ---@param fields? ChangeUIAnimEvent
 ---@return ChangeUIAnimEvent
-function ChangeUIAnimEvent.new(fields) return end
+function ChangeUIAnimEvent.new(fields) end
 
 ---@return String
-function ChangeUIAnimEvent:GetFriendlyDescription() return end
+function ChangeUIAnimEvent:GetFriendlyDescription() end

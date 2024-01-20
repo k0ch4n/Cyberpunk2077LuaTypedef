@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestStopFollowingTarget: ActionBool
----@field public targetEntityID entEntityID
+---@field targetEntityID entEntityID
 QuestStopFollowingTarget = {}
 
 ---@param fields? QuestStopFollowingTarget
 ---@return QuestStopFollowingTarget
-function QuestStopFollowingTarget.new(fields) return end
+function QuestStopFollowingTarget.new(fields) end
 
 ---@return nil
-function QuestStopFollowingTarget:SetProperties() return end
+function QuestStopFollowingTarget:SetProperties() end

@@ -1,39 +1,39 @@
 ---@meta
 
 ---@class gameuiPanzerGameLogicController: gameuiSideScrollerMiniGameLogicControllerAdvanced
----@field public gameOverDelay Float
----@field public mainMenuLibraryName CName
----@field public scoreboardLibraryName CName
----@field public panelsLayer CName
----@field public gameLayer CName
----@field public cloudsLayer CName
----@field public backgroundLibraryName CName
----@field public cloudsLibraryNames CName[]
----@field public minCloudSpawnInterval Float
----@field public maxCloudSpawnInterval Float
----@field public minCloudSpeed Float
----@field public maxCloudSpeed Float
----@field public scoreCounter inkTextWidgetReference
----@field public livesCounter inkTextWidgetReference
----@field public moveUpKey CName
----@field public moveDownKey CName
----@field public moveLeftKey CName
----@field public moveRightKey CName
----@field public shootKey CName
----@field public backKey CName
----@field public submitKey CName
----@field public axisDeadZone Float
----@field public moveXAxis CName
----@field public moveYAxis CName
----@field public shootAxis CName
----@field public droneLibraryName CName
----@field public minDroneSpawnInterval Float
----@field public maxDroneSpawnInterval Float
----@field public avLibraryName CName
----@field public minAvSpawnInterval Float
----@field public maxAvSpawnInterval Float
+---@field gameOverDelay Float
+---@field mainMenuLibraryName CName
+---@field scoreboardLibraryName CName
+---@field panelsLayer CName
+---@field gameLayer CName
+---@field cloudsLayer CName
+---@field backgroundLibraryName CName
+---@field cloudsLibraryNames CName[]
+---@field minCloudSpawnInterval Float
+---@field maxCloudSpawnInterval Float
+---@field minCloudSpeed Float
+---@field maxCloudSpeed Float
+---@field scoreCounter inkTextWidgetReference
+---@field livesCounter inkTextWidgetReference
+---@field moveUpKey CName
+---@field moveDownKey CName
+---@field moveLeftKey CName
+---@field moveRightKey CName
+---@field shootKey CName
+---@field backKey CName
+---@field submitKey CName
+---@field axisDeadZone Float
+---@field moveXAxis CName
+---@field moveYAxis CName
+---@field shootAxis CName
+---@field droneLibraryName CName
+---@field minDroneSpawnInterval Float
+---@field maxDroneSpawnInterval Float
+---@field avLibraryName CName
+---@field minAvSpawnInterval Float
+---@field maxAvSpawnInterval Float
 gameuiPanzerGameLogicController = {}
 
 ---@param fields? gameuiPanzerGameLogicController
 ---@return gameuiPanzerGameLogicController
-function gameuiPanzerGameLogicController.new(fields) return end
+function gameuiPanzerGameLogicController.new(fields) end

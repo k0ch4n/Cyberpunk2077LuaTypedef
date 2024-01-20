@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class audioPhysicalMaterialSettings: audioAudioMetadata
----@field public softImpact CName
----@field public solidImpact CName
----@field public hardImpact CName
----@field public useFoliageSystem Bool
----@field public enableRollingOrScraping Bool
----@field public scrape CName
----@field public roll CName
----@field public materialHardnessOverride audioMaterialHardnessOverride
----@field public collideOnlyOnce Bool
----@field public bulletImpact CName
----@field public bulletImpactSniper CName
----@field public bulletImpactShotgun CName
----@field public bulletImpactRail CName
----@field public bulletImpactNpc CName
----@field public bulletImpactNpcSniper CName
----@field public bulletImpactNpcAuto CName
----@field public bulletImpactNpcShotgun CName
----@field public bulletImpactNpcRail CName
+---@field softImpact CName
+---@field solidImpact CName
+---@field hardImpact CName
+---@field useFoliageSystem Bool
+---@field enableRollingOrScraping Bool
+---@field scrape CName
+---@field roll CName
+---@field materialHardnessOverride audioMaterialHardnessOverride
+---@field collideOnlyOnce Bool
+---@field bulletImpact CName
+---@field bulletImpactSniper CName
+---@field bulletImpactShotgun CName
+---@field bulletImpactRail CName
+---@field bulletImpactNpc CName
+---@field bulletImpactNpcSniper CName
+---@field bulletImpactNpcAuto CName
+---@field bulletImpactNpcShotgun CName
+---@field bulletImpactNpcRail CName
 audioPhysicalMaterialSettings = {}
 
 ---@param fields? audioPhysicalMaterialSettings
 ---@return audioPhysicalMaterialSettings
-function audioPhysicalMaterialSettings.new(fields) return end
+function audioPhysicalMaterialSettings.new(fields) end

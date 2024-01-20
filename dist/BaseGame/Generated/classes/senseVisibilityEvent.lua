@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class senseVisibilityEvent: redEvent
----@field public target gameObject
----@field public isVisible Bool
----@field public description CName
----@field public shapeId TweakDBID
+---@field target gameObject
+---@field isVisible Bool
+---@field description CName
+---@field shapeId TweakDBID
 senseVisibilityEvent = {}
 
 ---@param fields? senseVisibilityEvent
 ---@return senseVisibilityEvent
-function senseVisibilityEvent.new(fields) return end
+function senseVisibilityEvent.new(fields) end

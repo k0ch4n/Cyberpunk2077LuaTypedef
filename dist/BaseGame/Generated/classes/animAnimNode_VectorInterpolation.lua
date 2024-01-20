@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimNode_VectorInterpolation: animAnimNode_VectorValue
----@field public firstInput animVectorLink
----@field public secondInput animVectorLink
----@field public weight animFloatLink
+---@field firstInput animVectorLink
+---@field secondInput animVectorLink
+---@field weight animFloatLink
 animAnimNode_VectorInterpolation = {}
 
 ---@param fields? animAnimNode_VectorInterpolation
 ---@return animAnimNode_VectorInterpolation
-function animAnimNode_VectorInterpolation.new(fields) return end
+function animAnimNode_VectorInterpolation.new(fields) end

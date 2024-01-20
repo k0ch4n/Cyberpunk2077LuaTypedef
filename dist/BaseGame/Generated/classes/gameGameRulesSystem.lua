@@ -5,4 +5,4 @@ gameGameRulesSystem = {}
 
 ---@param fields? gameGameRulesSystem
 ---@return gameGameRulesSystem
-function gameGameRulesSystem.new(fields) return end
+function gameGameRulesSystem.new(fields) end

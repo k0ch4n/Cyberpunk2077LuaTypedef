@@ -5,4 +5,4 @@ worldRuntimeSystemStreamingQuery = {}
 
 ---@param fields? worldRuntimeSystemStreamingQuery
 ---@return worldRuntimeSystemStreamingQuery
-function worldRuntimeSystemStreamingQuery.new(fields) return end
+function worldRuntimeSystemStreamingQuery.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficLightChangeEvent: redEvent
----@field public lightColor worldTrafficLightColor
+---@field lightColor worldTrafficLightColor
 worldTrafficLightChangeEvent = {}
 
 ---@param fields? worldTrafficLightChangeEvent
 ---@return worldTrafficLightChangeEvent
-function worldTrafficLightChangeEvent.new(fields) return end
+function worldTrafficLightChangeEvent.new(fields) end

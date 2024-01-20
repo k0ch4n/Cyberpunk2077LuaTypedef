@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RealTimeUpdateRequest: gameScriptableSystemRequest
----@field public evt gameTickableEvent
----@field public time Float
+---@field evt gameTickableEvent
+---@field time Float
 RealTimeUpdateRequest = {}
 
 ---@param fields? RealTimeUpdateRequest
 ---@return RealTimeUpdateRequest
-function RealTimeUpdateRequest.new(fields) return end
+function RealTimeUpdateRequest.new(fields) end

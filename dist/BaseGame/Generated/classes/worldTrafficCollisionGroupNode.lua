@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficCollisionGroupNode: worldNode
----@field public collisionEntries worldCollisionGroupEntry[]
+---@field collisionEntries worldCollisionGroupEntry[]
 worldTrafficCollisionGroupNode = {}
 
 ---@param fields? worldTrafficCollisionGroupNode
 ---@return worldTrafficCollisionGroupNode
-function worldTrafficCollisionGroupNode.new(fields) return end
+function worldTrafficCollisionGroupNode.new(fields) end

@@ -5,8 +5,8 @@ VirutalNestedListClassifier = {}
 
 ---@param fields? VirutalNestedListClassifier
 ---@return VirutalNestedListClassifier
-function VirutalNestedListClassifier.new(fields) return end
+function VirutalNestedListClassifier.new(fields) end
 
 ---@param data Variant
 ---@return Uint32
-function VirutalNestedListClassifier:ClassifyItem(data) return end
+function VirutalNestedListClassifier:ClassifyItem(data) end

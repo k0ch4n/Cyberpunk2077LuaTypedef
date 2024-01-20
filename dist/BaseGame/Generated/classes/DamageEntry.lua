@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class DamageEntry
----@field public damageInfo gameuiDamageInfo
----@field public damageOverTimeInfo gameuiDamageInfo
----@field public hasDamageInfo Bool
----@field public hasDamageOverTimeInfo Bool
----@field public oneInstance Bool
----@field public oneDotInstance Bool
----@field public hasDotAccumulator Bool
+---@field damageInfo gameuiDamageInfo
+---@field damageOverTimeInfo gameuiDamageInfo
+---@field hasDamageInfo Bool
+---@field hasDamageOverTimeInfo Bool
+---@field oneInstance Bool
+---@field oneDotInstance Bool
+---@field hasDotAccumulator Bool
 DamageEntry = {}
 
 ---@param fields? DamageEntry
 ---@return DamageEntry
-function DamageEntry.new(fields) return end
+function DamageEntry.new(fields) end

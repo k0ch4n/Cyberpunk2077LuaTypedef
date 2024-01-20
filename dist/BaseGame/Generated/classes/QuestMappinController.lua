@@ -1,108 +1,90 @@
 ---@meta
 
 ---@class QuestMappinController: gameuiQuestMappinController
----@field protected arrowCanvas inkWidgetReference
----@field protected arrowPart inkWidgetReference
----@field protected selector inkWidgetReference
----@field protected scanningDiamond inkWidgetReference
----@field protected portalIcon inkWidgetReference
----@field private aboveWidget inkWidget
----@field private belowWidget inkWidget
----@field protected mappin gamemappinsIMappin
----@field protected questMappin gamemappinsQuestMappin
----@field protected runtimeMappin gamemappinsRuntimeMappin
----@field protected root inkCompoundWidget
----@field protected isMainQuest Bool
----@field protected shouldHideWhenClamped Bool
----@field protected isCompletedPhase Bool
----@field protected animProxy inkanimProxy
----@field protected animOptions inkanimPlaybackOptions
----@field private vehicleAlreadySummonedTime EngineTime
----@field private vehiclePulseTimeSecs Float
----@field private vehicleMappinComponent VehicleMappinComponent
+---@field arrowCanvas inkWidgetReference
+---@field arrowPart inkWidgetReference
+---@field selector inkWidgetReference
+---@field scanningDiamond inkWidgetReference
+---@field portalIcon inkWidgetReference
+---@field aboveWidget inkWidget
+---@field belowWidget inkWidget
+---@field mappin gamemappinsIMappin
+---@field questMappin gamemappinsQuestMappin
+---@field runtimeMappin gamemappinsRuntimeMappin
+---@field root inkCompoundWidget
+---@field isMainQuest Bool
+---@field shouldHideWhenClamped Bool
+---@field isCompletedPhase Bool
+---@field animProxy inkanimProxy
+---@field animOptions inkanimPlaybackOptions
+---@field vehicleAlreadySummonedTime EngineTime
+---@field vehiclePulseTimeSecs Float
+---@field vehicleMappinComponent VehicleMappinComponent
 QuestMappinController = {}
 
 ---@param fields? QuestMappinController
 ---@return QuestMappinController
-function QuestMappinController.new(fields) return end
+function QuestMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function QuestMappinController:OnInitialize() return end
+function QuestMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function QuestMappinController:OnIntro() return end
+function QuestMappinController:OnIntro() end
 
----@protected
 ---@param isNameplateVisible Bool
 ---@param nameplateController gameuiNpcNameplateGameController
 ---@return Bool
-function QuestMappinController:OnNameplate(isNameplateVisible, nameplateController) return end
+function QuestMappinController:OnNameplate(isNameplateVisible, nameplateController) end
 
----@protected
 ---@return Bool
-function QuestMappinController:OnUninitialize() return end
+function QuestMappinController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function QuestMappinController:OnUpdate() return end
+function QuestMappinController:OnUpdate() end
 
----@private
 ---@return CName
-function QuestMappinController:ComputeRootState() return end
+function QuestMappinController:ComputeRootState() end
 
----@protected
 ---@return gamedataMappinVariant
-function QuestMappinController:GetMappinVarient() return end
+function QuestMappinController:GetMappinVarient() end
 
----@protected
 ---@return EMappinVisualState
-function QuestMappinController:GetMappinVisualState() return end
+function QuestMappinController:GetMappinVisualState() end
 
----@protected
 ---@return gamedataQuality
-function QuestMappinController:GetQuality() return end
+function QuestMappinController:GetQuality() end
 
 ---@return GameplayRoleMappinData
-function QuestMappinController:GetVisualData() return end
+function QuestMappinController:GetVisualData() end
 
----@protected
 ---@return Bool
-function QuestMappinController:IsBroken() return end
+function QuestMappinController:IsBroken() end
 
----@protected
 ---@return Bool
-function QuestMappinController:IsIconic() return end
+function QuestMappinController:IsIconic() end
 
----@protected
 ---@return Bool
-function QuestMappinController:IsQuest() return end
+function QuestMappinController:IsQuest() end
 
----@protected
 ---@return Bool
-function QuestMappinController:IsTagged() return end
+function QuestMappinController:IsTagged() end
 
----@protected
 ---@return Bool
-function QuestMappinController:IsVisibleThruWalls() return end
+function QuestMappinController:IsVisibleThruWalls() end
 
 ---@return nil
-function QuestMappinController:OnVehicleAreadySummoned() return end
+function QuestMappinController:OnVehicleAreadySummoned() end
 
----@private
 ---@param flag Bool
 ---@return nil
-function QuestMappinController:SetShouldHideWhenClamped(flag) return end
+function QuestMappinController:SetShouldHideWhenClamped(flag) end
 
----@protected
 ---@return nil
-function QuestMappinController:UpdateAboveBelowVerticalRelation() return end
+function QuestMappinController:UpdateAboveBelowVerticalRelation() end
 
----@protected
 ---@return nil
-function QuestMappinController:UpdateIcon() return end
+function QuestMappinController:UpdateIcon() end
 
----@private
 ---@return nil
-function QuestMappinController:UpdateVisibility() return end
+function QuestMappinController:UpdateVisibility() end

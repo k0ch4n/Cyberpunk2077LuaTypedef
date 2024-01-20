@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class meshMeshParamTopologyMetadata: meshMeshParameter
----@field public data DataBuffer
----@field public offsets Uint32[]
----@field public sizes Uint32[]
+---@field data DataBuffer
+---@field offsets Uint32[]
+---@field sizes Uint32[]
 meshMeshParamTopologyMetadata = {}
 
 ---@param fields? meshMeshParamTopologyMetadata
 ---@return meshMeshParamTopologyMetadata
-function meshMeshParamTopologyMetadata.new(fields) return end
+function meshMeshParamTopologyMetadata.new(fields) end

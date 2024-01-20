@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gamestateMachineparameterTypeLadderDescription: IScriptable
----@field public position Vector4
----@field public normal Vector4
----@field public up Vector4
----@field public topHeightFromPosition Float
----@field public exitStepTop Float
----@field public verticalStepTop Float
----@field public exitStepBottom Float
----@field public verticalStepBottom Float
----@field public exitStepJump Float
----@field public verticalStepJump Float
----@field public enterOffset Float
+---@field position Vector4
+---@field normal Vector4
+---@field up Vector4
+---@field topHeightFromPosition Float
+---@field exitStepTop Float
+---@field verticalStepTop Float
+---@field exitStepBottom Float
+---@field verticalStepBottom Float
+---@field exitStepJump Float
+---@field verticalStepJump Float
+---@field enterOffset Float
 gamestateMachineparameterTypeLadderDescription = {}
 
 ---@param fields? gamestateMachineparameterTypeLadderDescription
 ---@return gamestateMachineparameterTypeLadderDescription
-function gamestateMachineparameterTypeLadderDescription.new(fields) return end
+function gamestateMachineparameterTypeLadderDescription.new(fields) end

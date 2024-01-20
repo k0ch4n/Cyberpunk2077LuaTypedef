@@ -5,4 +5,4 @@ gameWasScannedPrereqState = {}
 
 ---@param fields? gameWasScannedPrereqState
 ---@return gameWasScannedPrereqState
-function gameWasScannedPrereqState.new(fields) return end
+function gameWasScannedPrereqState.new(fields) end

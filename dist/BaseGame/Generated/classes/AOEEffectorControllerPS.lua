@@ -1,24 +1,23 @@
 ---@meta
 
 ---@class AOEEffectorControllerPS: ActivatedDeviceControllerPS
----@field protected effectsToPlay CName[]
+---@field effectsToPlay CName[]
 AOEEffectorControllerPS = {}
 
 ---@param fields? AOEEffectorControllerPS
 ---@return AOEEffectorControllerPS
-function AOEEffectorControllerPS.new(fields) return end
+function AOEEffectorControllerPS.new(fields) end
 
----@private
 ---@return ToggleAOEEffect
-function AOEEffectorControllerPS:ActionToggleAOEEffect() return end
+function AOEEffectorControllerPS:ActionToggleAOEEffect() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function AOEEffectorControllerPS:GetActions(context) return end
+function AOEEffectorControllerPS:GetActions(context) end
 
 ---@return CName[]
-function AOEEffectorControllerPS:GetEffectsToPlay() return end
+function AOEEffectorControllerPS:GetEffectsToPlay() end
 
 ---@param evt ToggleAOEEffect
 ---@return EntityNotificationType
-function AOEEffectorControllerPS:OnToggleAOEEffect(evt) return end
+function AOEEffectorControllerPS:OnToggleAOEEffect(evt) end

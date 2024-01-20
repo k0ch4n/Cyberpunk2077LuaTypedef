@@ -5,4 +5,4 @@ gameEffectObjectFilter_NoInstigator = {}
 
 ---@param fields? gameEffectObjectFilter_NoInstigator
 ---@return gameEffectObjectFilter_NoInstigator
-function gameEffectObjectFilter_NoInstigator.new(fields) return end
+function gameEffectObjectFilter_NoInstigator.new(fields) end

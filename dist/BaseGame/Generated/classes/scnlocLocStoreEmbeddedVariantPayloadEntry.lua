@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnlocLocStoreEmbeddedVariantPayloadEntry
----@field public variantId scnlocVariantId
----@field public content String
+---@field variantId scnlocVariantId
+---@field content String
 scnlocLocStoreEmbeddedVariantPayloadEntry = {}
 
 ---@param fields? scnlocLocStoreEmbeddedVariantPayloadEntry
 ---@return scnlocLocStoreEmbeddedVariantPayloadEntry
-function scnlocLocStoreEmbeddedVariantPayloadEntry.new(fields) return end
+function scnlocLocStoreEmbeddedVariantPayloadEntry.new(fields) end

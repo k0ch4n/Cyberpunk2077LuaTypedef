@@ -5,4 +5,4 @@ MapNavigationDelay = {}
 
 ---@param fields? MapNavigationDelay
 ---@return MapNavigationDelay
-function MapNavigationDelay.new(fields) return end
+function MapNavigationDelay.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiAccessPointMiniGameStatus: redEvent
----@field public minigameState gameuiHackingMinigameState
+---@field minigameState gameuiHackingMinigameState
 gameuiAccessPointMiniGameStatus = {}
 
 ---@param fields? gameuiAccessPointMiniGameStatus
 ---@return gameuiAccessPointMiniGameStatus
-function gameuiAccessPointMiniGameStatus.new(fields) return end
+function gameuiAccessPointMiniGameStatus.new(fields) end

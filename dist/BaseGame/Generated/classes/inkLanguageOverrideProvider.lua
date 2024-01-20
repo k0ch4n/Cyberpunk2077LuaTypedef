@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class inkLanguageOverrideProvider: inkUserData
----@field public languageId inkLanguageId
+---@field languageId inkLanguageId
 inkLanguageOverrideProvider = {}
 
 ---@param fields? inkLanguageOverrideProvider
 ---@return inkLanguageOverrideProvider
-function inkLanguageOverrideProvider.new(fields) return end
+function inkLanguageOverrideProvider.new(fields) end
 
 ---@param lang scnDialogLineLanguage
 ---@return nil
-function inkLanguageOverrideProvider:SetLanguage(lang) return end
+function inkLanguageOverrideProvider:SetLanguage(lang) end

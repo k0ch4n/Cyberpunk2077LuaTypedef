@@ -1,47 +1,40 @@
 ---@meta
 
 ---@class TooltipAnimationController: inkWidgetLogicController
----@field private tooltipContainer inkWidgetReference
----@field private tooltipAnimHideDef inkanimDefinition
----@field private tooltipDelayedShowDef inkanimDefinition
----@field private tooltipAnimHide inkanimProxy
----@field private tooltipDelayedShow inkanimProxy
----@field private axisDataThreshold Float
----@field private mouseDataThreshold Float
----@field private isHidden Bool
+---@field tooltipContainer inkWidgetReference
+---@field tooltipAnimHideDef inkanimDefinition
+---@field tooltipDelayedShowDef inkanimDefinition
+---@field tooltipAnimHide inkanimProxy
+---@field tooltipDelayedShow inkanimProxy
+---@field axisDataThreshold Float
+---@field mouseDataThreshold Float
+---@field isHidden Bool
 TooltipAnimationController = {}
 
 ---@param fields? TooltipAnimationController
 ---@return TooltipAnimationController
-function TooltipAnimationController.new(fields) return end
+function TooltipAnimationController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TooltipAnimationController:OnAxisInput(evt) return end
+function TooltipAnimationController:OnAxisInput(evt) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function TooltipAnimationController:OnHidden(proxy) return end
+function TooltipAnimationController:OnHidden(proxy) end
 
----@protected
 ---@return Bool
-function TooltipAnimationController:OnInitialize() return end
+function TooltipAnimationController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function TooltipAnimationController:OnShown(proxy) return end
+function TooltipAnimationController:OnShown(proxy) end
 
----@protected
 ---@return Bool
-function TooltipAnimationController:OnUninitialize() return end
+function TooltipAnimationController:OnUninitialize() end
 
----@private
 ---@return inkanimDefinition
-function TooltipAnimationController:GetHidingAnimation() return end
+function TooltipAnimationController:GetHidingAnimation() end
 
----@private
 ---@return inkanimDefinition
-function TooltipAnimationController:GetShowingAnimation() return end
+function TooltipAnimationController:GetShowingAnimation() end

@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class gameEntityStubComponentPS: gameComponentPS
----@field public entityLocalPosition Vector3
----@field public entityLocalRotation Quaternion
----@field public spawnerId gameCommunityID
----@field public ownerCommunityEntryName CName
----@field public selectedAppearanceName CName
----@field public selectedColorVariantName CName
+---@field entityLocalPosition Vector3
+---@field entityLocalRotation Quaternion
+---@field spawnerId gameCommunityID
+---@field ownerCommunityEntryName CName
+---@field selectedAppearanceName CName
+---@field selectedColorVariantName CName
 gameEntityStubComponentPS = {}
 
 ---@param fields? gameEntityStubComponentPS
 ---@return gameEntityStubComponentPS
-function gameEntityStubComponentPS.new(fields) return end
+function gameEntityStubComponentPS.new(fields) end
 
 ---@return CName
-function gameEntityStubComponentPS.GetPSComponentName() return end
+function gameEntityStubComponentPS.GetPSComponentName() end
 
 ---@return CName
-function gameEntityStubComponentPS:GetOwnerCommunityEntryName() return end
+function gameEntityStubComponentPS:GetOwnerCommunityEntryName() end
 
 ---@return entEntityID
-function gameEntityStubComponentPS:GetSpawnerID() return end
+function gameEntityStubComponentPS:GetSpawnerID() end

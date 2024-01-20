@@ -5,26 +5,22 @@ Reflector = {}
 
 ---@param fields? Reflector
 ---@return Reflector
-function Reflector.new(fields) return end
+function Reflector.new(fields) end
 
----@protected
 ---@param evt Distraction
 ---@return Bool
-function Reflector:OnDistraction(evt) return end
+function Reflector:OnDistraction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Reflector:OnRequestComponents(ri) return end
+function Reflector:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Reflector:OnTakeControl(ri) return end
+function Reflector:OnTakeControl(ri) end
 
----@private
 ---@return ReflectorController
-function Reflector:GetController() return end
+function Reflector:GetController() end
 
 ---@return ReflectorControllerPS
-function Reflector:GetDevicePS() return end
+function Reflector:GetDevicePS() end

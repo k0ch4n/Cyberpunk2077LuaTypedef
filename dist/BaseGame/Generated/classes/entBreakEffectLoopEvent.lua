@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entBreakEffectLoopEvent: redEvent
----@field public effectName CName
+---@field effectName CName
 entBreakEffectLoopEvent = {}
 
 ---@param fields? entBreakEffectLoopEvent
 ---@return entBreakEffectLoopEvent
-function entBreakEffectLoopEvent.new(fields) return end
+function entBreakEffectLoopEvent.new(fields) end

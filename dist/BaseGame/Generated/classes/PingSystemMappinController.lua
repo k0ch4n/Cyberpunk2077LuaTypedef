@@ -5,8 +5,7 @@ PingSystemMappinController = {}
 
 ---@param fields? PingSystemMappinController
 ---@return PingSystemMappinController
-function PingSystemMappinController.new(fields) return end
+function PingSystemMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function PingSystemMappinController:OnIntro() return end
+function PingSystemMappinController:OnIntro() end

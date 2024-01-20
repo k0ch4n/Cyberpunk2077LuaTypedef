@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class MeshAppearanceDeviceOperation: DeviceOperationBase
----@field public meshesAppearence CName
+---@field meshesAppearence CName
 MeshAppearanceDeviceOperation = {}
 
 ---@param fields? MeshAppearanceDeviceOperation
 ---@return MeshAppearanceDeviceOperation
-function MeshAppearanceDeviceOperation.new(fields) return end
+function MeshAppearanceDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function MeshAppearanceDeviceOperation:Execute(owner) return end
+function MeshAppearanceDeviceOperation:Execute(owner) end
 
----@private
 ---@param appearanceName CName|string
 ---@param owner gameObject
 ---@return nil
-function MeshAppearanceDeviceOperation:ResolveMeshesAppearence(appearanceName, owner) return end
+function MeshAppearanceDeviceOperation:ResolveMeshesAppearence(appearanceName, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function MeshAppearanceDeviceOperation:Restore(owner) return end
+function MeshAppearanceDeviceOperation:Restore(owner) end

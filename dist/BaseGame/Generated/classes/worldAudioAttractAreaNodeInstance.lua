@@ -5,4 +5,4 @@ worldAudioAttractAreaNodeInstance = {}
 
 ---@param fields? worldAudioAttractAreaNodeInstance
 ---@return worldAudioAttractAreaNodeInstance
-function worldAudioAttractAreaNodeInstance.new(fields) return end
+function worldAudioAttractAreaNodeInstance.new(fields) end

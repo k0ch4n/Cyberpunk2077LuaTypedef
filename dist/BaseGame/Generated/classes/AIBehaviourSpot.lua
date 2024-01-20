@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIBehaviourSpot: AISmartSpot
----@field public behaviour AIResourceReference
+---@field behaviour AIResourceReference
 AIBehaviourSpot = {}
 
 ---@param fields? AIBehaviourSpot
 ---@return AIBehaviourSpot
-function AIBehaviourSpot.new(fields) return end
+function AIBehaviourSpot.new(fields) end

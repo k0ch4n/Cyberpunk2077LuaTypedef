@@ -5,4 +5,4 @@ MeleeLookAtEvents = {}
 
 ---@param fields? MeleeLookAtEvents
 ---@return MeleeLookAtEvents
-function MeleeLookAtEvents.new(fields) return end
+function MeleeLookAtEvents.new(fields) end

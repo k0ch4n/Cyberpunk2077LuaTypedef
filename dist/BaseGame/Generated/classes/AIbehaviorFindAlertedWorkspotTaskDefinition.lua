@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorFindAlertedWorkspotTaskDefinition: AIbehaviorTaskDefinition
----@field public usedTokens AIArgumentMapping
----@field public spots AIArgumentMapping
----@field public radius AIArgumentMapping
----@field public outWorkspotData AIArgumentMapping
+---@field usedTokens AIArgumentMapping
+---@field spots AIArgumentMapping
+---@field radius AIArgumentMapping
+---@field outWorkspotData AIArgumentMapping
 AIbehaviorFindAlertedWorkspotTaskDefinition = {}
 
 ---@param fields? AIbehaviorFindAlertedWorkspotTaskDefinition
 ---@return AIbehaviorFindAlertedWorkspotTaskDefinition
-function AIbehaviorFindAlertedWorkspotTaskDefinition.new(fields) return end
+function AIbehaviorFindAlertedWorkspotTaskDefinition.new(fields) end

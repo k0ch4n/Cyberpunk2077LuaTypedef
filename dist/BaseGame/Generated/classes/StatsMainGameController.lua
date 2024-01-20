@@ -1,99 +1,88 @@
 ---@meta
 
 ---@class StatsMainGameController: gameuiMenuGameController
----@field private MainViewRoot inkWidgetReference
----@field private statsList inkCompoundWidgetReference
----@field private TooltipsManagerRef inkWidgetReference
----@field private levelControllerRef inkWidgetReference
----@field private streetCredControllerRef inkWidgetReference
----@field private detailListControllerRef inkWidgetReference
----@field private statsStreetCredRewardRef inkWidgetReference
----@field private statsPlayTimeControllerdRef inkWidgetReference
----@field private btnInventory inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private rightPanelFluff1 inkWidgetReference
----@field private rightPanelFluff2 inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field private InventoryManager InventoryDataManagerV2
----@field private player PlayerPuppet
----@field private healthStatsData gameStatViewData[]
----@field private DPSStatsData gameStatViewData[]
----@field private armorStatsData gameStatViewData[]
----@field private otherStatsData gameStatViewData[]
----@field private playerStatsBlackboard gameIBlackboard
----@field private currencyListener redCallbackObject
----@field private characterCredListener redCallbackObject
----@field private characterLevelListener redCallbackObject
----@field private characterCurrentXPListener redCallbackObject
----@field private characterCredPointsListener redCallbackObject
----@field private PDS PlayerDevelopmentSystem
----@field private levelController StatsProgressController
----@field private streetCredController StatsProgressController
----@field private detailListController StatsDetailListController
----@field private statsStreetCredReward StatsStreetCredReward
----@field private statsPlayTimeController StatsPlayTimeController
----@field private previousMenuData PreviousMenuData
----@field private buttonHintsController ButtonHints
----@field private animProxy inkanimProxy
+---@field MainViewRoot inkWidgetReference
+---@field statsList inkCompoundWidgetReference
+---@field TooltipsManagerRef inkWidgetReference
+---@field levelControllerRef inkWidgetReference
+---@field streetCredControllerRef inkWidgetReference
+---@field detailListControllerRef inkWidgetReference
+---@field statsStreetCredRewardRef inkWidgetReference
+---@field statsPlayTimeControllerdRef inkWidgetReference
+---@field btnInventory inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field rightPanelFluff1 inkWidgetReference
+---@field rightPanelFluff2 inkWidgetReference
+---@field TooltipsManager gameuiTooltipsManager
+---@field InventoryManager InventoryDataManagerV2
+---@field player PlayerPuppet
+---@field healthStatsData gameStatViewData[]
+---@field DPSStatsData gameStatViewData[]
+---@field armorStatsData gameStatViewData[]
+---@field otherStatsData gameStatViewData[]
+---@field playerStatsBlackboard gameIBlackboard
+---@field currencyListener redCallbackObject
+---@field characterCredListener redCallbackObject
+---@field characterLevelListener redCallbackObject
+---@field characterCurrentXPListener redCallbackObject
+---@field characterCredPointsListener redCallbackObject
+---@field PDS PlayerDevelopmentSystem
+---@field levelController StatsProgressController
+---@field streetCredController StatsProgressController
+---@field detailListController StatsDetailListController
+---@field statsStreetCredReward StatsStreetCredReward
+---@field statsPlayTimeController StatsPlayTimeController
+---@field previousMenuData PreviousMenuData
+---@field buttonHintsController ButtonHints
+---@field animProxy inkanimProxy
 StatsMainGameController = {}
 
 ---@param fields? StatsMainGameController
 ---@return StatsMainGameController
-function StatsMainGameController.new(fields) return end
+function StatsMainGameController.new(fields) end
 
----@protected
 ---@param evt CategoryClickedEvent
 ---@return Bool
-function StatsMainGameController:OnCategoryClicked(evt) return end
+function StatsMainGameController:OnCategoryClicked(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function StatsMainGameController:OnCharacterLevelCurrentXPUpdated(value) return end
+function StatsMainGameController:OnCharacterLevelCurrentXPUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function StatsMainGameController:OnCharacterLevelUpdated(value) return end
+function StatsMainGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function StatsMainGameController:OnCharacterStreetCredLevelUpdated(value) return end
+function StatsMainGameController:OnCharacterStreetCredLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function StatsMainGameController:OnCharacterStreetCredPointsUpdated(value) return end
+function StatsMainGameController:OnCharacterStreetCredPointsUpdated(value) end
 
----@protected
 ---@return Bool
-function StatsMainGameController:OnInitialize() return end
+function StatsMainGameController:OnInitialize() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function StatsMainGameController:OnSetUserData(userData) return end
+function StatsMainGameController:OnSetUserData(userData) end
 
----@protected
 ---@return Bool
-function StatsMainGameController:OnUninitialize() return end
+function StatsMainGameController:OnUninitialize() end
 
----@private
 ---@param statType gamedataStatType
 ---@param datalist gameStatViewData[]
 ---@return nil
-function StatsMainGameController:AddStat(statType, datalist) return end
-
----@private
----@return nil
-function StatsMainGameController:OnIntro() return end
+function StatsMainGameController:AddStat(statType, datalist) end
 
 ---@return nil
-function StatsMainGameController:PopulateStats() return end
+function StatsMainGameController:OnIntro() end
 
----@private
+---@return nil
+function StatsMainGameController:PopulateStats() end
+
 ---@param stat gamedataStatType
 ---@param datalist gameStatViewData[]
 ---@return gameStatViewData
-function StatsMainGameController:RequestStat(stat, datalist) return end
+function StatsMainGameController:RequestStat(stat, datalist) end

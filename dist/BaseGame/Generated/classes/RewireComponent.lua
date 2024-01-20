@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class RewireComponent: gameScriptableComponent
----@field public miniGameVideoPath redResourceReferenceScriptToken
----@field public miniGameAudioEvent CName
----@field public miniGameVideoLenght Float
----@field private rewireEvent RewireEvent
----@field private rewireCurrentLenght Float
----@field private isActive Bool
+---@field miniGameVideoPath redResourceReferenceScriptToken
+---@field miniGameAudioEvent CName
+---@field miniGameVideoLenght Float
+---@field rewireEvent RewireEvent
+---@field rewireCurrentLenght Float
+---@field isActive Bool
 RewireComponent = {}
 
 ---@param fields? RewireComponent
 ---@return RewireComponent
-function RewireComponent.new(fields) return end
+function RewireComponent.new(fields) end
 
----@protected
 ---@param rewireEvent RewireEvent
 ---@return Bool
-function RewireComponent:OnRewireStart(rewireEvent) return end
+function RewireComponent:OnRewireStart(rewireEvent) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function RewireComponent:OnTakeControl(ri) return end
+function RewireComponent:OnTakeControl(ri) end
 
----@private
 ---@param dt Float
 ---@return nil
-function RewireComponent:OnUpdate(dt) return end
+function RewireComponent:OnUpdate(dt) end
 
----@private
 ---@return nil
-function RewireComponent:RewireFinished() return end
+function RewireComponent:RewireFinished() end
 
----@private
 ---@param play Bool
 ---@return nil
-function RewireComponent:ToggleMovie(play) return end
+function RewireComponent:ToggleMovie(play) end

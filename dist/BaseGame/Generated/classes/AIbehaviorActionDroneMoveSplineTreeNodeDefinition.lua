@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorActionDroneMoveSplineTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public spline AIArgumentMapping
+---@field spline AIArgumentMapping
 AIbehaviorActionDroneMoveSplineTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionDroneMoveSplineTreeNodeDefinition
 ---@return AIbehaviorActionDroneMoveSplineTreeNodeDefinition
-function AIbehaviorActionDroneMoveSplineTreeNodeDefinition.new(fields) return end
+function AIbehaviorActionDroneMoveSplineTreeNodeDefinition.new(fields) end

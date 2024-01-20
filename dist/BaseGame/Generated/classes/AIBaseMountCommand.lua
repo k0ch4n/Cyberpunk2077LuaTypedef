@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIBaseMountCommand: AICommand
----@field public mountData gameMountEventData
+---@field mountData gameMountEventData
 AIBaseMountCommand = {}

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldCollisionGroupEntry
----@field public neRef NodeRef
----@field public Reversed Bool
+---@field neRef NodeRef
+---@field Reversed Bool
 worldCollisionGroupEntry = {}
 
 ---@param fields? worldCollisionGroupEntry
 ---@return worldCollisionGroupEntry
-function worldCollisionGroupEntry.new(fields) return end
+function worldCollisionGroupEntry.new(fields) end

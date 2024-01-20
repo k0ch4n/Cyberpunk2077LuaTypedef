@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CParticleModificatorOrbit: IParticleModificator
----@field public offset IEvaluatorVector
----@field public frequency IEvaluatorVector
----@field public phase IEvaluatorVector
----@field public overridePosition Bool
+---@field offset IEvaluatorVector
+---@field frequency IEvaluatorVector
+---@field phase IEvaluatorVector
+---@field overridePosition Bool
 CParticleModificatorOrbit = {}
 
 ---@param fields? CParticleModificatorOrbit
 ---@return CParticleModificatorOrbit
-function CParticleModificatorOrbit.new(fields) return end
+function CParticleModificatorOrbit.new(fields) end

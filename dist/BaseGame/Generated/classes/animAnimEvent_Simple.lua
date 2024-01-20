@@ -5,4 +5,4 @@ animAnimEvent_Simple = {}
 
 ---@param fields? animAnimEvent_Simple
 ---@return animAnimEvent_Simple
-function animAnimEvent_Simple.new(fields) return end
+function animAnimEvent_Simple.new(fields) end

@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class SetTimeDilationEffector: gameEffector
----@field public owner gameObject
----@field public reason CName
----@field public easeInCurve CName
----@field public easeOutCurve CName
----@field public dilation Float
----@field public duration Float
----@field public affectsPlayer Bool
+---@field owner gameObject
+---@field reason CName
+---@field easeInCurve CName
+---@field easeOutCurve CName
+---@field dilation Float
+---@field duration Float
+---@field affectsPlayer Bool
 SetTimeDilationEffector = {}
 
 ---@param fields? SetTimeDilationEffector
 ---@return SetTimeDilationEffector
-function SetTimeDilationEffector.new(fields) return end
+function SetTimeDilationEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetTimeDilationEffector:ActionOff(owner) return end
+function SetTimeDilationEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetTimeDilationEffector:ActionOn(owner) return end
+function SetTimeDilationEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SetTimeDilationEffector:Initialize(record, parentRecord) return end
+function SetTimeDilationEffector:Initialize(record, parentRecord) end

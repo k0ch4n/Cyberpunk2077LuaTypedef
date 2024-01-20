@@ -1,135 +1,116 @@
 ---@meta
 
 ---@class Crosshair_Melee_Knife: gameuiCrosshairBaseGameController
----@field private targetColorChange inkWidgetReference
----@field private leftPart inkWidgetReference
----@field private rightPart inkWidgetReference
----@field private topPart inkWidgetReference
----@field private botPart inkWidgetReference
----@field private chargeBar inkCanvasWidget
----@field private chargeBarFG inkRectangleWidget
----@field private throwingKnifeResourcePoolListener ThrowingKnifeResourcePoolListener
----@field private weaponID entEntityID
----@field private weaponBBID redCallbackObject
----@field private meleeWeaponState gamePSMMeleeWeapon
----@field protected animProxy inkanimProxy
----@field protected animOptions inkanimPlaybackOptions
----@field protected isCrosshairAnimationOpen Bool
----@field private preloaderThinL inkImageWidget
----@field private preloaderThinR inkImageWidget
----@field private preloaderThickL inkImageWidget
----@field private preloaderThickR inkImageWidget
----@field private preloader inkCanvasWidget
+---@field targetColorChange inkWidgetReference
+---@field leftPart inkWidgetReference
+---@field rightPart inkWidgetReference
+---@field topPart inkWidgetReference
+---@field botPart inkWidgetReference
+---@field chargeBar inkCanvasWidget
+---@field chargeBarFG inkRectangleWidget
+---@field throwingKnifeResourcePoolListener ThrowingKnifeResourcePoolListener
+---@field weaponID entEntityID
+---@field weaponBBID redCallbackObject
+---@field meleeWeaponState gamePSMMeleeWeapon
+---@field animProxy inkanimProxy
+---@field animOptions inkanimPlaybackOptions
+---@field isCrosshairAnimationOpen Bool
+---@field preloaderThinL inkImageWidget
+---@field preloaderThinR inkImageWidget
+---@field preloaderThickL inkImageWidget
+---@field preloaderThickR inkImageWidget
+---@field preloader inkCanvasWidget
 Crosshair_Melee_Knife = {}
 
 ---@param fields? Crosshair_Melee_Knife
 ---@return Crosshair_Melee_Knife
-function Crosshair_Melee_Knife.new(fields) return end
+function Crosshair_Melee_Knife.new(fields) end
 
----@protected
 ---@param spread Vector2
 ---@return Bool
-function Crosshair_Melee_Knife:OnBulletSpreadChanged(spread) return end
+function Crosshair_Melee_Knife:OnBulletSpreadChanged(spread) end
 
----@protected
 ---@return Bool
-function Crosshair_Melee_Knife:OnInitialize() return end
+function Crosshair_Melee_Knife:OnInitialize() end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function Crosshair_Melee_Knife:OnPSMMeleeWeaponStateChanged(value) return end
+function Crosshair_Melee_Knife:OnPSMMeleeWeaponStateChanged(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function Crosshair_Melee_Knife:OnPlayerAttach(playerPuppet) return end
+function Crosshair_Melee_Knife:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function Crosshair_Melee_Knife:OnPlayerDetach(playerPuppet) return end
+function Crosshair_Melee_Knife:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@return Bool
-function Crosshair_Melee_Knife:OnPreIntro() return end
+function Crosshair_Melee_Knife:OnPreIntro() end
 
----@protected
 ---@return Bool
-function Crosshair_Melee_Knife:OnPreOutro() return end
+function Crosshair_Melee_Knife:OnPreOutro() end
 
----@protected
 ---@return Bool
-function Crosshair_Melee_Knife:OnUninitialize() return end
+function Crosshair_Melee_Knife:OnUninitialize() end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function Crosshair_Melee_Knife:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function Crosshair_Melee_Knife:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
 ---@return inkanimDefinition
-function Crosshair_Melee_Knife:GetFadeInAnimation() return end
+function Crosshair_Melee_Knife:GetFadeInAnimation() end
 
 ---@return inkanimDefinition
-function Crosshair_Melee_Knife:GetFadeOutAnimation() return end
+function Crosshair_Melee_Knife:GetFadeOutAnimation() end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function Crosshair_Melee_Knife:GetIntroAnimation(firstEquip) return end
+function Crosshair_Melee_Knife:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function Crosshair_Melee_Knife:GetOutroAnimation() return end
+function Crosshair_Melee_Knife:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_Aim() return end
+function Crosshair_Melee_Knife:OnState_Aim() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_GrenadeCharging() return end
+function Crosshair_Melee_Knife:OnState_GrenadeCharging() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_HipFire() return end
+function Crosshair_Melee_Knife:OnState_HipFire() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_LeftHandCyberware() return end
+function Crosshair_Melee_Knife:OnState_LeftHandCyberware() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_Reload() return end
+function Crosshair_Melee_Knife:OnState_Reload() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_Safe() return end
+function Crosshair_Melee_Knife:OnState_Safe() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_Scanning() return end
+function Crosshair_Melee_Knife:OnState_Scanning() end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:OnState_Sprint() return end
+function Crosshair_Melee_Knife:OnState_Sprint() end
 
 ---@param isFadeIn Bool
 ---@return nil
-function Crosshair_Melee_Knife:PlayReloadBarFadeAnimation(isFadeIn) return end
+function Crosshair_Melee_Knife:PlayReloadBarFadeAnimation(isFadeIn) end
 
 ---@param percentage Float
 ---@return nil
-function Crosshair_Melee_Knife:SetReloadBar(percentage) return end
+function Crosshair_Melee_Knife:SetReloadBar(percentage) end
 
 ---@param set Bool
 ---@return nil
-function Crosshair_Melee_Knife:SetReloadBarVisible(set) return end
+function Crosshair_Melee_Knife:SetReloadBarVisible(set) end
 
----@protected
 ---@param show Bool
 ---@return nil
-function Crosshair_Melee_Knife:ShowCrosshairFromState(show) return end
+function Crosshair_Melee_Knife:ShowCrosshairFromState(show) end
 
----@protected
 ---@return nil
-function Crosshair_Melee_Knife:UpdateThrowCrosshair() return end
+function Crosshair_Melee_Knife:UpdateThrowCrosshair() end

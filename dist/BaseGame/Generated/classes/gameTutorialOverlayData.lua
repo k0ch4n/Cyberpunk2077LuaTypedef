@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameTutorialOverlayData
----@field public widgetLibraryResource redResourceReferenceScriptToken
----@field public itemName CName
+---@field widgetLibraryResource redResourceReferenceScriptToken
+---@field itemName CName
 gameTutorialOverlayData = {}
 
 ---@param fields? gameTutorialOverlayData
 ---@return gameTutorialOverlayData
-function gameTutorialOverlayData.new(fields) return end
+function gameTutorialOverlayData.new(fields) end

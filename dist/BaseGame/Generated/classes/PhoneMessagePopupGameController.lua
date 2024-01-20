@@ -1,200 +1,168 @@
 ---@meta
 
 ---@class PhoneMessagePopupGameController: gameuiNewPhoneRelatedGameController
----@field private content inkWidgetReference
----@field private title inkTextWidgetReference
----@field private avatarImage inkImageWidgetReference
----@field private menuBackgrouns inkWidgetReference
----@field private hintsContainer inkWidgetReference
----@field private hintTrack inkWidgetReference
----@field private hintClose inkWidgetReference
----@field private hintReply inkWidgetReference
----@field private scrollReply inkWidgetReference
----@field private hintMessenger inkWidgetReference
----@field private hintCall inkWidgetReference
----@field private scrollSlider inkWidgetReference
----@field private contactsPath inkWidgetReference
----@field private messagesPath inkWidgetReference
----@field private blackboard gameIBlackboard
----@field private blackboardDef UI_ComDeviceDef
----@field private uiSystem gameuiGameSystemUI
----@field private player gameObject
----@field private journalMgr gameJournalManager
----@field private phoneSystem PhoneSystem
----@field private data JournalNotificationData
----@field private entry gameJournalPhoneMessage
----@field private contactEntry gameJournalContact
----@field private attachment gameJournalEntry
----@field private attachmentState gameJournalEntryState
----@field private attachmentHash Uint32
----@field private activeEntry gameJournalEntry
----@field private dialogViewController MessengerDialogViewController
----@field private journalEntryHash Int32
----@field private proxy inkanimProxy
----@field private isFocused Bool
----@field private isHubVisiale Bool
+---@field content inkWidgetReference
+---@field title inkTextWidgetReference
+---@field avatarImage inkImageWidgetReference
+---@field menuBackgrouns inkWidgetReference
+---@field hintsContainer inkWidgetReference
+---@field hintTrack inkWidgetReference
+---@field hintClose inkWidgetReference
+---@field hintReply inkWidgetReference
+---@field scrollReply inkWidgetReference
+---@field hintMessenger inkWidgetReference
+---@field hintCall inkWidgetReference
+---@field scrollSlider inkWidgetReference
+---@field contactsPath inkWidgetReference
+---@field messagesPath inkWidgetReference
+---@field blackboard gameIBlackboard
+---@field blackboardDef UI_ComDeviceDef
+---@field uiSystem gameuiGameSystemUI
+---@field player gameObject
+---@field journalMgr gameJournalManager
+---@field phoneSystem PhoneSystem
+---@field data JournalNotificationData
+---@field entry gameJournalPhoneMessage
+---@field contactEntry gameJournalContact
+---@field attachment gameJournalEntry
+---@field attachmentState gameJournalEntryState
+---@field attachmentHash Uint32
+---@field activeEntry gameJournalEntry
+---@field dialogViewController MessengerDialogViewController
+---@field journalEntryHash Int32
+---@field proxy inkanimProxy
+---@field isFocused Bool
+---@field isHubVisiale Bool
 PhoneMessagePopupGameController = {}
 
 ---@param fields? PhoneMessagePopupGameController
 ---@return PhoneMessagePopupGameController
-function PhoneMessagePopupGameController.new(fields) return end
+function PhoneMessagePopupGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function PhoneMessagePopupGameController:OnAction(action, consumer) return end
+function PhoneMessagePopupGameController:OnAction(action, consumer) end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function PhoneMessagePopupGameController:OnChoiceEntryStateChanged(entryHash, className, notifyOption, changeType) return end
+function PhoneMessagePopupGameController:OnChoiceEntryStateChanged(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@param evt RequestSmsMessagerCloseEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnCloseRequest(evt) return end
+function PhoneMessagePopupGameController:OnCloseRequest(evt) end
 
----@protected
 ---@param evt TypingDelayEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnDelayedDotsAnimation(evt) return end
+function PhoneMessagePopupGameController:OnDelayedDotsAnimation(evt) end
 
----@protected
 ---@param evt FocusSmsMessagerEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnGotFocus(evt) return end
+function PhoneMessagePopupGameController:OnGotFocus(evt) end
 
----@protected
 ---@param evt inkMenuLayer_SetMenuModeEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnHUBMenuChanged(evt) return end
+function PhoneMessagePopupGameController:OnHUBMenuChanged(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnHandleMenuInput(evt) return end
+function PhoneMessagePopupGameController:OnHandleMenuInput(evt) end
 
----@protected
 ---@param evt HideSmsMessagerEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnHide(evt) return end
+function PhoneMessagePopupGameController:OnHide(evt) end
 
----@protected
 ---@return Bool
-function PhoneMessagePopupGameController:OnInitialize() return end
+function PhoneMessagePopupGameController:OnInitialize() end
 
----@protected
 ---@param evt UnfocusSmsMessagerEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnLostFocus(evt) return end
+function PhoneMessagePopupGameController:OnLostFocus(evt) end
 
----@protected
 ---@param evt inkanimProxy
 ---@return Bool
-function PhoneMessagePopupGameController:OnPopupHidden(evt) return end
+function PhoneMessagePopupGameController:OnPopupHidden(evt) end
 
----@protected
 ---@param evt RefreshSmsMessagerEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnRefresh(evt) return end
+function PhoneMessagePopupGameController:OnRefresh(evt) end
 
----@protected
 ---@param evt ShowSmsMessagerEvent
 ---@return Bool
-function PhoneMessagePopupGameController:OnShow(evt) return end
+function PhoneMessagePopupGameController:OnShow(evt) end
 
----@protected
 ---@return Bool
-function PhoneMessagePopupGameController:OnUninitialize() return end
-
----@private
----@return nil
-function PhoneMessagePopupGameController:CallContact() return end
-
----@private
----@return nil
-function PhoneMessagePopupGameController:ClosePopup() return end
+function PhoneMessagePopupGameController:OnUninitialize() end
 
 ---@return nil
-function PhoneMessagePopupGameController:DisableInput() return end
+function PhoneMessagePopupGameController:CallContact() end
 
 ---@return nil
-function PhoneMessagePopupGameController:EnableInput() return end
+function PhoneMessagePopupGameController:ClosePopup() end
 
----@private
+---@return nil
+function PhoneMessagePopupGameController:DisableInput() end
+
+---@return nil
+function PhoneMessagePopupGameController:EnableInput() end
+
 ---@param entry gameJournalContainerEntry
 ---@return gameJournalPhoneMessage
-function PhoneMessagePopupGameController:FindFirstMessageWithAttachment(entry) return end
+function PhoneMessagePopupGameController:FindFirstMessageWithAttachment(entry) end
 
----@private
 ---@param journalQuest gameJournalQuest
 ---@return gameJournalQuestObjective
-function PhoneMessagePopupGameController:GetFirstObjectiveFromQuest(journalQuest) return end
+function PhoneMessagePopupGameController:GetFirstObjectiveFromQuest(journalQuest) end
 
----@private
 ---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return nil
-function PhoneMessagePopupGameController:GotoHubMenu(menuName, userData) return end
+function PhoneMessagePopupGameController:GotoHubMenu(menuName, userData) end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:GotoJournalMenu() return end
+function PhoneMessagePopupGameController:GotoJournalMenu() end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:GotoMessengerMenu() return end
+function PhoneMessagePopupGameController:GotoMessengerMenu() end
 
----@private
 ---@param actionName CName|string
 ---@return Bool
-function PhoneMessagePopupGameController:HandleCommonInputActions(actionName) return end
+function PhoneMessagePopupGameController:HandleCommonInputActions(actionName) end
 
----@private
 ---@param isUp Bool
 ---@return nil
-function PhoneMessagePopupGameController:NavigateChoices(isUp) return end
+function PhoneMessagePopupGameController:NavigateChoices(isUp) end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:RequestUnfocus() return end
+function PhoneMessagePopupGameController:RequestUnfocus() end
 
----@private
 ---@param value Float
 ---@param isMouseWheel Bool
 ---@return nil
-function PhoneMessagePopupGameController:ScrollMessages(value, isMouseWheel) return end
+function PhoneMessagePopupGameController:ScrollMessages(value, isMouseWheel) end
 
----@private
 ---@param isFocused Bool
 ---@return nil
-function PhoneMessagePopupGameController:SetFocus(isFocused) return end
+function PhoneMessagePopupGameController:SetFocus(isFocused) end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function PhoneMessagePopupGameController:SetTimeDilatation(enable) return end
+function PhoneMessagePopupGameController:SetTimeDilatation(enable) end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:SetupData() return end
+function PhoneMessagePopupGameController:SetupData() end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:ShowActionBlockedNotification() return end
+function PhoneMessagePopupGameController:ShowActionBlockedNotification() end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:TrackQuest() return end
+function PhoneMessagePopupGameController:TrackQuest() end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:TryActivateChoice() return end
+function PhoneMessagePopupGameController:TryActivateChoice() end
 
----@private
 ---@return nil
-function PhoneMessagePopupGameController:TryCallContact() return end
+function PhoneMessagePopupGameController:TryCallContact() end

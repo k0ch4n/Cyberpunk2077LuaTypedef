@@ -5,4 +5,4 @@ IEvaluator = {}
 
 ---@param fields? IEvaluator
 ---@return IEvaluator
-function IEvaluator.new(fields) return end
+function IEvaluator.new(fields) end

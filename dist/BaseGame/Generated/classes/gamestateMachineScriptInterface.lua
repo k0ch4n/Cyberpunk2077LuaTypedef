@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gamestateMachineScriptInterface: IScriptable
----@field public owner gameObject
----@field public executionOwner gameObject
----@field public localBlackboard gameIBlackboard
----@field public ownerEntityID entEntityID
----@field public executionOwnerEntityID entEntityID
----@field public stateMachineBBDef gamebbScriptDefinition
+---@field owner gameObject
+---@field executionOwner gameObject
+---@field localBlackboard gameIBlackboard
+---@field ownerEntityID entEntityID
+---@field executionOwnerEntityID entEntityID
+---@field stateMachineBBDef gamebbScriptDefinition
 gamestateMachineScriptInterface = {}
 
 ---@param fields? gamestateMachineScriptInterface
 ---@return gamestateMachineScriptInterface
-function gamestateMachineScriptInterface.new(fields) return end
+function gamestateMachineScriptInterface.new(fields) end
 
 ---@return Float
-function gamestateMachineScriptInterface:GetNow() return end
+function gamestateMachineScriptInterface:GetNow() end

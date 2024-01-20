@@ -1,39 +1,37 @@
 ---@meta
 
 ---@class PingCachedData: IScriptable
----@field public sourceID entEntityID
----@field public pingType EPingType
----@field public pingNetworkEffect gameEffectInstance
----@field public timeout Float
----@field public ammountOfIntervals Int32
----@field public linksCount Int32
----@field public currentInterval Int32
----@field public delayID gameDelayID
----@field public linkType ELinkType
----@field public revealNetwork Bool
----@field public linkFXresource gameFxResource
----@field public sourcePosition Vector4
----@field public hasActiveVirtualNetwork Bool
----@field public virtualNetworkShape gamedataVirtualNetwork_Record
+---@field sourceID entEntityID
+---@field pingType EPingType
+---@field pingNetworkEffect gameEffectInstance
+---@field timeout Float
+---@field ammountOfIntervals Int32
+---@field linksCount Int32
+---@field currentInterval Int32
+---@field delayID gameDelayID
+---@field linkType ELinkType
+---@field revealNetwork Bool
+---@field linkFXresource gameFxResource
+---@field sourcePosition Vector4
+---@field hasActiveVirtualNetwork Bool
+---@field virtualNetworkShape gamedataVirtualNetwork_Record
 PingCachedData = {}
 
 ---@param fields? PingCachedData
 ---@return PingCachedData
-function PingCachedData.new(fields) return end
-
----@private
----@return Float
-function PingCachedData:GetCurrentMaxValue() return end
-
----@private
----@return Float
-function PingCachedData:GetCurrentMinValue() return end
+function PingCachedData.new(fields) end
 
 ---@return Float
-function PingCachedData:GetLifetimeValue() return end
+function PingCachedData:GetCurrentMaxValue() end
+
+---@return Float
+function PingCachedData:GetCurrentMinValue() end
+
+---@return Float
+function PingCachedData:GetLifetimeValue() end
 
 ---@return nil
-function PingCachedData:IncrementLinkCounter() return end
+function PingCachedData:IncrementLinkCounter() end
 
 ---@param sourceID entEntityID
 ---@param timeout Float
@@ -45,13 +43,12 @@ function PingCachedData:IncrementLinkCounter() return end
 ---@param position Vector4
 ---@param virtualNetworkShapeID TweakDBID|string
 ---@return nil
-function PingCachedData:Initialize(sourceID, timeout, ammountOfIntervals, pingType, gameEffect, revealNetworkAtEnd, fxResource, position, virtualNetworkShapeID) return end
+function PingCachedData:Initialize(sourceID, timeout, ammountOfIntervals, pingType, gameEffect, revealNetworkAtEnd, fxResource, position, virtualNetworkShapeID) end
 
 ---@param timeout Float
 ---@param ammountOfIntervals Int32
 ---@return nil
-function PingCachedData:Initialize(timeout, ammountOfIntervals) return end
+function PingCachedData:Initialize(timeout, ammountOfIntervals) end
 
----@private
 ---@return nil
-function PingCachedData:UpdateCurrentInterval() return end
+function PingCachedData:UpdateCurrentInterval() end

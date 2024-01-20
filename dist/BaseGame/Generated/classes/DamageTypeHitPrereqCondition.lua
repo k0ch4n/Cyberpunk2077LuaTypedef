@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class DamageTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public damageType gamedataDamageType
+---@field damageType gamedataDamageType
 DamageTypeHitPrereqCondition = {}
 
 ---@param fields? DamageTypeHitPrereqCondition
 ---@return DamageTypeHitPrereqCondition
-function DamageTypeHitPrereqCondition.new(fields) return end
+function DamageTypeHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function DamageTypeHitPrereqCondition:Evaluate(hitEvent) return end
+function DamageTypeHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function DamageTypeHitPrereqCondition:SetData(recordID) return end
+function DamageTypeHitPrereqCondition:SetData(recordID) end

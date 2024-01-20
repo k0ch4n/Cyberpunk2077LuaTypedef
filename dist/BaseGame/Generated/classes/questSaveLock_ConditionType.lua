@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questSaveLock_ConditionType: questISystemConditionType
----@field public inverted Bool
+---@field inverted Bool
 questSaveLock_ConditionType = {}
 
 ---@param fields? questSaveLock_ConditionType
 ---@return questSaveLock_ConditionType
-function questSaveLock_ConditionType.new(fields) return end
+function questSaveLock_ConditionType.new(fields) end

@@ -5,4 +5,4 @@ gameRuntimeSystemLights = {}
 
 ---@param fields? gameRuntimeSystemLights
 ---@return gameRuntimeSystemLights
-function gameRuntimeSystemLights.new(fields) return end
+function gameRuntimeSystemLights.new(fields) end

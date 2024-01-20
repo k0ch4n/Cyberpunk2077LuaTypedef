@@ -1,33 +1,29 @@
 ---@meta
 
 ---@class MeleeEquippingDecisions: MeleeIdleDecisions
----@field public hasEquipAttack Bool
+---@field hasEquipAttack Bool
 MeleeEquippingDecisions = {}
 
 ---@param fields? MeleeEquippingDecisions
 ---@return MeleeEquippingDecisions
-function MeleeEquippingDecisions.new(fields) return end
+function MeleeEquippingDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeEquippingDecisions:OnAttach(stateContext, scriptInterface) return end
+function MeleeEquippingDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeEquippingDecisions:ToMeleeEquipAttack(stateContext, scriptInterface) return end
+function MeleeEquippingDecisions:ToMeleeEquipAttack(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeEquippingDecisions:ToMeleeHold(stateContext, scriptInterface) return end
+function MeleeEquippingDecisions:ToMeleeHold(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeEquippingDecisions:ToMeleeIdle(stateContext, scriptInterface) return end
+function MeleeEquippingDecisions:ToMeleeIdle(stateContext, scriptInterface) end

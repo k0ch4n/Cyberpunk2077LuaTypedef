@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public target AIArgumentMapping
----@field public angleOffset AIArgumentMapping
----@field public angleTolerance AIArgumentMapping
----@field public time AIArgumentMapping
----@field public keepUpdatingTarget AIArgumentMapping
+---@field target AIArgumentMapping
+---@field angleOffset AIArgumentMapping
+---@field angleTolerance AIArgumentMapping
+---@field time AIArgumentMapping
+---@field keepUpdatingTarget AIArgumentMapping
 AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition
 ---@return AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition
-function AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition.new(fields) return end
+function AIbehaviorActionRotateToObjectConstTimeTreeNodeDefinition.new(fields) end

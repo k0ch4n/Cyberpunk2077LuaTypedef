@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioAuxiliaryMetadata
----@field public physicalPropSettings CName
+---@field physicalPropSettings CName
 audioAuxiliaryMetadata = {}
 
 ---@param fields? audioAuxiliaryMetadata
 ---@return audioAuxiliaryMetadata
-function audioAuxiliaryMetadata.new(fields) return end
+function audioAuxiliaryMetadata.new(fields) end

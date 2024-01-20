@@ -5,4 +5,4 @@ inkVirtualCompoundBackgroundController = {}
 
 ---@param fields? inkVirtualCompoundBackgroundController
 ---@return inkVirtualCompoundBackgroundController
-function inkVirtualCompoundBackgroundController.new(fields) return end
+function inkVirtualCompoundBackgroundController.new(fields) end

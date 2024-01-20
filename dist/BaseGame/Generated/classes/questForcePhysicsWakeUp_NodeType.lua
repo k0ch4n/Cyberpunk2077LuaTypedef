@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questForcePhysicsWakeUp_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
+---@field vehicleRef gameEntityReference
 questForcePhysicsWakeUp_NodeType = {}
 
 ---@param fields? questForcePhysicsWakeUp_NodeType
 ---@return questForcePhysicsWakeUp_NodeType
-function questForcePhysicsWakeUp_NodeType.new(fields) return end
+function questForcePhysicsWakeUp_NodeType.new(fields) end

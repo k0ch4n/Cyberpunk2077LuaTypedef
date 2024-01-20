@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioAudioSceneDefaults: audioAudioMetadata
----@field public parameters audioAudSimpleParameter[]
+---@field parameters audioAudSimpleParameter[]
 audioAudioSceneDefaults = {}
 
 ---@param fields? audioAudioSceneDefaults
 ---@return audioAudioSceneDefaults
-function audioAudioSceneDefaults.new(fields) return end
+function audioAudioSceneDefaults.new(fields) end

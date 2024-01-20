@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIEnemyThreatDetected: AIAIEvent
----@field public owner entEntity
----@field public threat entEntity
----@field public status Bool
+---@field owner entEntity
+---@field threat entEntity
+---@field status Bool
 AIEnemyThreatDetected = {}
 
 ---@param fields? AIEnemyThreatDetected
 ---@return AIEnemyThreatDetected
-function AIEnemyThreatDetected.new(fields) return end
+function AIEnemyThreatDetected.new(fields) end

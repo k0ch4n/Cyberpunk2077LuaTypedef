@@ -5,9 +5,9 @@ rendDebugDrawerScriptProxy = {}
 
 ---@param fields? rendDebugDrawerScriptProxy
 ---@return rendDebugDrawerScriptProxy
-function rendDebugDrawerScriptProxy.new(fields) return end
+function rendDebugDrawerScriptProxy.new(fields) end
 
 ---@param debugDrawer rendDebugDrawerScriptProxy
 ---@param debugFilterName String
 ---@return Bool
-function rendDebugDrawerScriptProxy.TestDebugFilterMask(debugDrawer, debugFilterName) return end
+function rendDebugDrawerScriptProxy.TestDebugFilterMask(debugDrawer, debugFilterName) end

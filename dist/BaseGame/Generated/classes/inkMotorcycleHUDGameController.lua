@@ -1,141 +1,122 @@
 ---@meta
 
 ---@class inkMotorcycleHUDGameController: gameuiBaseVehicleHUDGameController
----@field private vehicleBlackboard gameIBlackboard
----@field private activeVehicleUIBlackboard gameIBlackboard
----@field private vehicleBBStateConectionId redCallbackObject
----@field private speedBBConnectionId redCallbackObject
----@field private gearBBConnectionId redCallbackObject
----@field private tppBBConnectionId redCallbackObject
----@field private rpmValueBBConnectionId redCallbackObject
----@field private leanAngleBBConnectionId redCallbackObject
----@field private playerStateBBConnectionId redCallbackObject
----@field private playOptionReverse inkanimPlaybackOptions
----@field private rootWidget inkCanvasWidget
----@field private mainCanvas inkCanvasWidget
----@field private activeChunks Int32
----@field private chunksNumber Int32
----@field private dynamicRpmPath CName
----@field private rpmPerChunk Int32
----@field private hasRevMax Bool
----@field private HiResMode Bool
----@field private revMaxPath CName
----@field private revMaxChunk Int32
----@field private revMax Int32
----@field private revRedLine Int32
----@field private maxSpeed Int32
----@field private speedTextWidget inkTextWidgetReference
----@field private gearTextWidget inkTextWidgetReference
----@field private RPMTextWidget inkTextWidgetReference
----@field private lower inkCanvasWidget
----@field private lowerSpeedBigR inkCanvasWidget
----@field private lowerSpeedBigL inkCanvasWidget
----@field private lowerSpeedSmallR inkCanvasWidget
----@field private lowerSpeedSmallL inkCanvasWidget
----@field private lowerSpeedFluffR inkImageWidget
----@field private lowerSpeedFluffL inkImageWidget
----@field private hudLowerPart inkCanvasWidget
----@field private lowerfluff_R inkCanvasWidget
----@field private lowerfluff_L inkCanvasWidget
----@field private HudHideAnimation inkanimProxy
----@field private HudShowAnimation inkanimProxy
----@field private HudRedLineAnimation inkanimProxy
----@field private fluffBlinking inkanimController
+---@field vehicleBlackboard gameIBlackboard
+---@field activeVehicleUIBlackboard gameIBlackboard
+---@field vehicleBBStateConectionId redCallbackObject
+---@field speedBBConnectionId redCallbackObject
+---@field gearBBConnectionId redCallbackObject
+---@field tppBBConnectionId redCallbackObject
+---@field rpmValueBBConnectionId redCallbackObject
+---@field leanAngleBBConnectionId redCallbackObject
+---@field playerStateBBConnectionId redCallbackObject
+---@field playOptionReverse inkanimPlaybackOptions
+---@field rootWidget inkCanvasWidget
+---@field mainCanvas inkCanvasWidget
+---@field activeChunks Int32
+---@field chunksNumber Int32
+---@field dynamicRpmPath CName
+---@field rpmPerChunk Int32
+---@field hasRevMax Bool
+---@field HiResMode Bool
+---@field revMaxPath CName
+---@field revMaxChunk Int32
+---@field revMax Int32
+---@field revRedLine Int32
+---@field maxSpeed Int32
+---@field speedTextWidget inkTextWidgetReference
+---@field gearTextWidget inkTextWidgetReference
+---@field RPMTextWidget inkTextWidgetReference
+---@field lower inkCanvasWidget
+---@field lowerSpeedBigR inkCanvasWidget
+---@field lowerSpeedBigL inkCanvasWidget
+---@field lowerSpeedSmallR inkCanvasWidget
+---@field lowerSpeedSmallL inkCanvasWidget
+---@field lowerSpeedFluffR inkImageWidget
+---@field lowerSpeedFluffL inkImageWidget
+---@field hudLowerPart inkCanvasWidget
+---@field lowerfluff_R inkCanvasWidget
+---@field lowerfluff_L inkCanvasWidget
+---@field HudHideAnimation inkanimProxy
+---@field HudShowAnimation inkanimProxy
+---@field HudRedLineAnimation inkanimProxy
+---@field fluffBlinking inkanimController
 inkMotorcycleHUDGameController = {}
 
 ---@param fields? inkMotorcycleHUDGameController
 ---@return inkMotorcycleHUDGameController
-function inkMotorcycleHUDGameController.new(fields) return end
+function inkMotorcycleHUDGameController.new(fields) end
 
----@protected
 ---@param mode Bool
 ---@return Bool
-function inkMotorcycleHUDGameController:OnCameraModeChanged(mode) return end
+function inkMotorcycleHUDGameController:OnCameraModeChanged(mode) end
 
----@protected
 ---@param gearValue Int32
 ---@return Bool
-function inkMotorcycleHUDGameController:OnGearValueChanged(gearValue) return end
+function inkMotorcycleHUDGameController:OnGearValueChanged(gearValue) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function inkMotorcycleHUDGameController:OnHudHideAnimFinished(proxy) return end
+function inkMotorcycleHUDGameController:OnHudHideAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function inkMotorcycleHUDGameController:OnHudShowAnimFinished(proxy) return end
+function inkMotorcycleHUDGameController:OnHudShowAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function inkMotorcycleHUDGameController:OnInitialize() return end
+function inkMotorcycleHUDGameController:OnInitialize() end
 
----@protected
 ---@param leanAngle Float
 ---@return Bool
-function inkMotorcycleHUDGameController:OnLeanAngleChanged(leanAngle) return end
+function inkMotorcycleHUDGameController:OnLeanAngleChanged(leanAngle) end
 
----@protected
 ---@param data Variant
 ---@return Bool
-function inkMotorcycleHUDGameController:OnPlayerStateChanged(data) return end
+function inkMotorcycleHUDGameController:OnPlayerStateChanged(data) end
 
----@protected
 ---@param rpmMax Float
 ---@return Bool
-function inkMotorcycleHUDGameController:OnRpmMaxChanged(rpmMax) return end
+function inkMotorcycleHUDGameController:OnRpmMaxChanged(rpmMax) end
 
----@protected
 ---@param rpmValue Float
 ---@return Bool
-function inkMotorcycleHUDGameController:OnRpmValueChanged(rpmValue) return end
+function inkMotorcycleHUDGameController:OnRpmValueChanged(rpmValue) end
 
----@protected
 ---@param speedValue Float
 ---@return Bool
-function inkMotorcycleHUDGameController:OnSpeedValueChanged(speedValue) return end
+function inkMotorcycleHUDGameController:OnSpeedValueChanged(speedValue) end
 
----@protected
 ---@return Bool
-function inkMotorcycleHUDGameController:OnUninitialize() return end
+function inkMotorcycleHUDGameController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function inkMotorcycleHUDGameController:OnVehicleMounted() return end
+function inkMotorcycleHUDGameController:OnVehicleMounted() end
 
----@protected
 ---@param state Int32
 ---@return Bool
-function inkMotorcycleHUDGameController:OnVehicleStateChanged(state) return end
+function inkMotorcycleHUDGameController:OnVehicleStateChanged(state) end
 
----@protected
 ---@return Bool
-function inkMotorcycleHUDGameController:OnVehicleUnmounted() return end
+function inkMotorcycleHUDGameController:OnVehicleUnmounted() end
 
----@private
 ---@return nil
-function inkMotorcycleHUDGameController:AddChunk() return end
+function inkMotorcycleHUDGameController:AddChunk() end
 
----@protected
 ---@param desiredType String
 ---@return Bool
-function inkMotorcycleHUDGameController:CheckVehicleType(desiredType) return end
+function inkMotorcycleHUDGameController:CheckVehicleType(desiredType) end
 
----@private
 ---@param currentAmountOfChunks Int32
 ---@return nil
-function inkMotorcycleHUDGameController:EvaluateRPMMeterWidget(currentAmountOfChunks) return end
+function inkMotorcycleHUDGameController:EvaluateRPMMeterWidget(currentAmountOfChunks) end
 
----@private
 ---@param currentAmountOfChunks Int32
 ---@return nil
-function inkMotorcycleHUDGameController:RedrawRPM(currentAmountOfChunks) return end
+function inkMotorcycleHUDGameController:RedrawRPM(currentAmountOfChunks) end
 
----@private
 ---@return nil
-function inkMotorcycleHUDGameController:RemoveChunk() return end
+function inkMotorcycleHUDGameController:RemoveChunk() end
 
 ---@param rpmValue Float
 ---@return nil
-function inkMotorcycleHUDGameController:drawRPMGaugeFull(rpmValue) return end
+function inkMotorcycleHUDGameController:drawRPMGaugeFull(rpmValue) end

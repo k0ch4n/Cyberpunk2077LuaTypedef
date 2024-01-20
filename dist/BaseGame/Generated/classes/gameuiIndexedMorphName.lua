@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiIndexedMorphName
----@field public index Int32
----@field public morphName CName
----@field public localizedName String
----@field public tags redTagList
+---@field index Int32
+---@field morphName CName
+---@field localizedName String
+---@field tags redTagList
 gameuiIndexedMorphName = {}
 
 ---@param fields? gameuiIndexedMorphName
 ---@return gameuiIndexedMorphName
-function gameuiIndexedMorphName.new(fields) return end
+function gameuiIndexedMorphName.new(fields) end

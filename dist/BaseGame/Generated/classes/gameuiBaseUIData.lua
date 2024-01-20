@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameuiBaseUIData
----@field public id Int64
+---@field id Int64
 gameuiBaseUIData = {}

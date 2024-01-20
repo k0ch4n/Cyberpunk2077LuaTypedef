@@ -5,4 +5,4 @@ questFinalBoardsVideosFinished_NodeType = {}
 
 ---@param fields? questFinalBoardsVideosFinished_NodeType
 ---@return questFinalBoardsVideosFinished_NodeType
-function questFinalBoardsVideosFinished_NodeType.new(fields) return end
+function questFinalBoardsVideosFinished_NodeType.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameVisionModeMappinEvent: redEvent
----@field public show Bool
+---@field show Bool
 gameVisionModeMappinEvent = {}
 
 ---@param fields? gameVisionModeMappinEvent
 ---@return gameVisionModeMappinEvent
-function gameVisionModeMappinEvent.new(fields) return end
+function gameVisionModeMappinEvent.new(fields) end

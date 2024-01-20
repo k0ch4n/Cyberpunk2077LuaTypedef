@@ -5,4 +5,4 @@ gameNarrationPlateBlackboardUpdater = {}
 
 ---@param fields? gameNarrationPlateBlackboardUpdater
 ---@return gameNarrationPlateBlackboardUpdater
-function gameNarrationPlateBlackboardUpdater.new(fields) return end
+function gameNarrationPlateBlackboardUpdater.new(fields) end

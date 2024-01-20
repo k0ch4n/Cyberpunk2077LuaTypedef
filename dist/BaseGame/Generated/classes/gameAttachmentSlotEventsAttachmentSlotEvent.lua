@@ -4,8 +4,8 @@
 gameAttachmentSlotEventsAttachmentSlotEvent = {}
 
 ---@return TweakDBID
-function gameAttachmentSlotEventsAttachmentSlotEvent:GetSlotID() return end
+function gameAttachmentSlotEventsAttachmentSlotEvent:GetSlotID() end
 
 ---@param slotId TweakDBID|string
 ---@return nil
-function gameAttachmentSlotEventsAttachmentSlotEvent:SetSlotID(slotId) return end
+function gameAttachmentSlotEventsAttachmentSlotEvent:SetSlotID(slotId) end

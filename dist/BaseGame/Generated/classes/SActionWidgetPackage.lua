@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SActionWidgetPackage: SWidgetPackage
----@field public action gamedeviceAction
----@field public wasInitalized Bool
----@field public dependendActions gamedeviceAction[]
+---@field action gamedeviceAction
+---@field wasInitalized Bool
+---@field dependendActions gamedeviceAction[]
 SActionWidgetPackage = {}
 
 ---@param fields? SActionWidgetPackage
 ---@return SActionWidgetPackage
-function SActionWidgetPackage.new(fields) return end
+function SActionWidgetPackage.new(fields) end

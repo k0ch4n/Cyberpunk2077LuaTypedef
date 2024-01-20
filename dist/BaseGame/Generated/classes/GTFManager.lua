@@ -5,7 +5,7 @@ GTFManager = {}
 
 ---@param fields? GTFManager
 ---@return GTFManager
-function GTFManager.new(fields) return end
+function GTFManager.new(fields) end
 
 ---@return nil
-function GTFManager:ParamManager() return end
+function GTFManager:ParamManager() end

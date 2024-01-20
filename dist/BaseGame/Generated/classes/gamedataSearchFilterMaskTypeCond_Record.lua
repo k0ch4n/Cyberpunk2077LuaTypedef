@@ -5,25 +5,25 @@ gamedataSearchFilterMaskTypeCond_Record = {}
 
 ---@param fields? gamedataSearchFilterMaskTypeCond_Record
 ---@return gamedataSearchFilterMaskTypeCond_Record
-function gamedataSearchFilterMaskTypeCond_Record.new(fields) return end
+function gamedataSearchFilterMaskTypeCond_Record.new(fields) end
 
 ---@return Int32
-function gamedataSearchFilterMaskTypeCond_Record:GetValuesCount() return end
+function gamedataSearchFilterMaskTypeCond_Record:GetValuesCount() end
 
 ---@param index Int32
 ---@return gamedataSearchFilterMaskType_Record
-function gamedataSearchFilterMaskTypeCond_Record:GetValuesItem(index) return end
+function gamedataSearchFilterMaskTypeCond_Record:GetValuesItem(index) end
 
 ---@param index Int32
 ---@return gamedataSearchFilterMaskType_Record
-function gamedataSearchFilterMaskTypeCond_Record:GetValuesItemHandle(index) return end
+function gamedataSearchFilterMaskTypeCond_Record:GetValuesItemHandle(index) end
 
 ---@return CName
-function gamedataSearchFilterMaskTypeCond_Record:OpType() return end
+function gamedataSearchFilterMaskTypeCond_Record:OpType() end
 
 ---@return nil, gamedataSearchFilterMaskType_Record[] outList
-function gamedataSearchFilterMaskTypeCond_Record:Values() return end
+function gamedataSearchFilterMaskTypeCond_Record:Values() end
 
 ---@param item gamedataSearchFilterMaskType_Record
 ---@return Bool
-function gamedataSearchFilterMaskTypeCond_Record:ValuesContains(item) return end
+function gamedataSearchFilterMaskTypeCond_Record:ValuesContains(item) end

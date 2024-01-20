@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetControllerStimSource: AIbehaviortaskScript
----@field protected investigateData senseStimInvestigateData
+---@field investigateData senseStimInvestigateData
 SetControllerStimSource = {}
 
 ---@param fields? SetControllerStimSource
 ---@return SetControllerStimSource
-function SetControllerStimSource.new(fields) return end
+function SetControllerStimSource.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetControllerStimSource:Activate(context) return end
+function SetControllerStimSource:Activate(context) end

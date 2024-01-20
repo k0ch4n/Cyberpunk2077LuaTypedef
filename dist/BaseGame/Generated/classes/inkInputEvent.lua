@@ -5,59 +5,59 @@ inkInputEvent = {}
 
 ---@param fields? inkInputEvent
 ---@return inkInputEvent
-function inkInputEvent.new(fields) return end
+function inkInputEvent.new(fields) end
 
 ---@return nil
-function inkInputEvent:Consume() return end
+function inkInputEvent:Consume() end
 
 ---@return inkActionName
-function inkInputEvent:GetActionName() return end
+function inkInputEvent:GetActionName() end
 
 ---@return Float
-function inkInputEvent:GetHoldProgress() return end
+function inkInputEvent:GetHoldProgress() end
 
 ---@param actionName CName|string
 ---@return Bool
-function inkInputEvent:IsAction(actionName) return end
+function inkInputEvent:IsAction(actionName) end
 
 ---@return Bool
-function inkInputEvent:IsAltDown() return end
+function inkInputEvent:IsAltDown() end
 
 ---@return Bool
-function inkInputEvent:IsCapsLocked() return end
+function inkInputEvent:IsCapsLocked() end
 
 ---@return Bool
-function inkInputEvent:IsCommandDown() return end
+function inkInputEvent:IsCommandDown() end
 
 ---@return Bool
-function inkInputEvent:IsConsumed() return end
+function inkInputEvent:IsConsumed() end
 
 ---@return Bool
-function inkInputEvent:IsControlDown() return end
+function inkInputEvent:IsControlDown() end
 
 ---@return Bool
-function inkInputEvent:IsLeftAltDown() return end
+function inkInputEvent:IsLeftAltDown() end
 
 ---@return Bool
-function inkInputEvent:IsLeftCommandDown() return end
+function inkInputEvent:IsLeftCommandDown() end
 
 ---@return Bool
-function inkInputEvent:IsLeftControlDown() return end
+function inkInputEvent:IsLeftControlDown() end
 
 ---@return Bool
-function inkInputEvent:IsLeftShiftDown() return end
+function inkInputEvent:IsLeftShiftDown() end
 
 ---@return Bool
-function inkInputEvent:IsRightAltDown() return end
+function inkInputEvent:IsRightAltDown() end
 
 ---@return Bool
-function inkInputEvent:IsRightCommandDown() return end
+function inkInputEvent:IsRightCommandDown() end
 
 ---@return Bool
-function inkInputEvent:IsRightControlDown() return end
+function inkInputEvent:IsRightControlDown() end
 
 ---@return Bool
-function inkInputEvent:IsRightShiftDown() return end
+function inkInputEvent:IsRightShiftDown() end
 
 ---@return Bool
-function inkInputEvent:IsShiftDown() return end
+function inkInputEvent:IsShiftDown() end

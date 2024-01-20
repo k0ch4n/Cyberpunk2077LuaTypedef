@@ -1,65 +1,55 @@
 ---@meta
 
 ---@class hudCarRaceController: gameuiHUDGameController
----@field private Countdown inkCanvasWidgetReference
----@field private PositionCounter inkCanvasWidgetReference
----@field private RacePosition inkTextWidgetReference
----@field private RaceTime inkTextWidgetReference
----@field private RaceCheckpoint inkTextWidgetReference
----@field private maxPosition Int32
----@field private maxCheckpoint Int32
----@field private playerPosition Int32
----@field private minute Int32
----@field private activeVehicleUIBlackboard gameIBlackboard
----@field private activeVehicle vehicleBaseObject
----@field private raceStartEngineTime EngineTime
----@field private factCallbackID Uint32
+---@field Countdown inkCanvasWidgetReference
+---@field PositionCounter inkCanvasWidgetReference
+---@field RacePosition inkTextWidgetReference
+---@field RaceTime inkTextWidgetReference
+---@field RaceCheckpoint inkTextWidgetReference
+---@field maxPosition Int32
+---@field maxCheckpoint Int32
+---@field playerPosition Int32
+---@field minute Int32
+---@field activeVehicleUIBlackboard gameIBlackboard
+---@field activeVehicle vehicleBaseObject
+---@field raceStartEngineTime EngineTime
+---@field factCallbackID Uint32
 hudCarRaceController = {}
 
 ---@param fields? hudCarRaceController
 ---@return hudCarRaceController
-function hudCarRaceController.new(fields) return end
+function hudCarRaceController.new(fields) end
 
----@protected
 ---@param evt ForwardVehicleRaceUIEvent
 ---@return Bool
-function hudCarRaceController:OnForwardVehicleRaceUIEvent(evt) return end
+function hudCarRaceController:OnForwardVehicleRaceUIEvent(evt) end
 
----@protected
 ---@return Bool
-function hudCarRaceController:OnInitialize() return end
+function hudCarRaceController:OnInitialize() end
 
----@protected
 ---@return Bool
-function hudCarRaceController:OnUninitialize() return end
+function hudCarRaceController:OnUninitialize() end
 
----@protected
 ---@param evt VehicleForwardRaceCheckpointFactEvent
 ---@return Bool
-function hudCarRaceController:OnVehicleForwardRaceCheckpointFactEvent(evt) return end
+function hudCarRaceController:OnVehicleForwardRaceCheckpointFactEvent(evt) end
 
----@protected
 ---@param evt VehicleForwardRaceClockUpdateEvent
 ---@return Bool
-function hudCarRaceController:OnVehicleForwardRaceClockUpdateEvent(evt) return end
+function hudCarRaceController:OnVehicleForwardRaceClockUpdateEvent(evt) end
 
----@private
 ---@return nil
-function hudCarRaceController:EndRace() return end
+function hudCarRaceController:EndRace() end
 
----@private
 ---@param on Bool
 ---@return nil
-function hudCarRaceController:Setup(on) return end
+function hudCarRaceController:Setup(on) end
 
----@private
 ---@return nil
-function hudCarRaceController:SetupCounters() return end
+function hudCarRaceController:SetupCounters() end
 
----@private
 ---@return nil
-function hudCarRaceController:StartCountdown() return end
+function hudCarRaceController:StartCountdown() end
 
----@private
 ---@return nil
-function hudCarRaceController:StartRace() return end
+function hudCarRaceController:StartRace() end

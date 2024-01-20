@@ -1,145 +1,125 @@
 ---@meta
 
 ---@class QuestListGameController: gameuiHUDGameController
----@field private entryList inkVerticalPanelWidgetReference
----@field private scanPulse inkCompoundWidgetReference
----@field private optionalHeader inkWidgetReference
----@field private toDoHeader inkWidgetReference
----@field private optionalList inkVerticalPanelWidgetReference
----@field private nonOptionalList inkVerticalPanelWidgetReference
----@field private entryControllers inkScriptDynArray
----@field private scanPulseAnimProxy inkanimProxy
----@field private stateChangesBlackboardId Uint32
----@field private trackedChangesBlackboardId Uint32
----@field private JournalWrapper JournalWrapper
----@field private player gameObject
----@field private optionalHeaderController QuestListHeaderLogicController
----@field private toDoHeaderController QuestListHeaderLogicController
----@field private lastNonOptionalObjective QuestObjectiveWrapper
+---@field entryList inkVerticalPanelWidgetReference
+---@field scanPulse inkCompoundWidgetReference
+---@field optionalHeader inkWidgetReference
+---@field toDoHeader inkWidgetReference
+---@field optionalList inkVerticalPanelWidgetReference
+---@field nonOptionalList inkVerticalPanelWidgetReference
+---@field entryControllers inkScriptDynArray
+---@field scanPulseAnimProxy inkanimProxy
+---@field stateChangesBlackboardId Uint32
+---@field trackedChangesBlackboardId Uint32
+---@field JournalWrapper JournalWrapper
+---@field player gameObject
+---@field optionalHeaderController QuestListHeaderLogicController
+---@field toDoHeaderController QuestListHeaderLogicController
+---@field lastNonOptionalObjective QuestObjectiveWrapper
 QuestListGameController = {}
 
 ---@param fields? QuestListGameController
 ---@return QuestListGameController
-function QuestListGameController.new(fields) return end
+function QuestListGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function QuestListGameController:OnAction(action, consumer) return end
+function QuestListGameController:OnAction(action, consumer) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestListGameController:OnCounterChanged(hash, className, notifyOption, changeType) return end
+function QuestListGameController:OnCounterChanged(hash, className, notifyOption, changeType) end
 
----@protected
 ---@return Bool
-function QuestListGameController:OnInitialize() return end
+function QuestListGameController:OnInitialize() end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestListGameController:OnObjectiveIsOptionalChanged(hash, className, notifyOption, changeType) return end
+function QuestListGameController:OnObjectiveIsOptionalChanged(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param entryWidget inkWidget
 ---@return Bool
-function QuestListGameController:OnRemoveEntry(entryWidget) return end
+function QuestListGameController:OnRemoveEntry(entryWidget) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestListGameController:OnStateChanges(hash, className, notifyOption, changeType) return end
+function QuestListGameController:OnStateChanges(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function QuestListGameController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) return end
+function QuestListGameController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) end
 
----@protected
 ---@return Bool
-function QuestListGameController:OnUninitialize() return end
+function QuestListGameController:OnUninitialize() end
 
----@private
 ---@param inData ABaseWrapper
 ---@return UIObjectiveEntryData
-function QuestListGameController:BuildEntryData(inData) return end
+function QuestListGameController:BuildEntryData(inData) end
 
----@private
 ---@param entryId Int32
 ---@return ObjectiveEntryLogicController
-function QuestListGameController:FindEntry(entryId) return end
+function QuestListGameController:FindEntry(entryId) end
 
----@private
 ---@param entryType UIObjectiveEntryType
 ---@param parent ObjectiveEntryLogicController
 ---@return Int32
-function QuestListGameController:FindNewEntryIndex(entryType, parent) return end
+function QuestListGameController:FindNewEntryIndex(entryType, parent) end
 
----@private
 ---@param id Int32
 ---@param entryType UIObjectiveEntryType
 ---@param parent ObjectiveEntryLogicController
 ---@param isOptional? Bool
 ---@return ObjectiveEntryLogicController
-function QuestListGameController:GetOrCreateEntry(id, entryType, parent, isOptional) return end
+function QuestListGameController:GetOrCreateEntry(id, entryType, parent, isOptional) end
 
----@private
 ---@param entryWidget inkWidget
 ---@return nil
-function QuestListGameController:RemoveEntry(entryWidget) return end
+function QuestListGameController:RemoveEntry(entryWidget) end
 
----@private
 ---@param entryType UIObjectiveEntryType
 ---@return Bool
-function QuestListGameController:ShouldDisplayEntry(entryType) return end
+function QuestListGameController:ShouldDisplayEntry(entryType) end
 
----@private
 ---@return nil
-function QuestListGameController:UpdateEntries() return end
+function QuestListGameController:UpdateEntries() end
 
----@private
 ---@param objectiveData QuestObjectiveWrapper
 ---@param parent ObjectiveEntryLogicController
 ---@param isParentTracked Bool
 ---@return nil
-function QuestListGameController:UpdateObjective(objectiveData, parent, isParentTracked) return end
+function QuestListGameController:UpdateObjective(objectiveData, parent, isParentTracked) end
 
----@private
 ---@param questData QuestDataWrapper
 ---@param parent ObjectiveEntryLogicController
 ---@param isParentTracked Bool
 ---@return Bool
-function QuestListGameController:UpdateObjectives(questData, parent, isParentTracked) return end
+function QuestListGameController:UpdateObjectives(questData, parent, isParentTracked) end
 
----@private
 ---@param questData QuestDataWrapper
 ---@return Bool
-function QuestListGameController:UpdateQuest(questData) return end
+function QuestListGameController:UpdateQuest(questData) end
 
----@private
 ---@param subObjectiveData QuestSubObjectiveWrapper
 ---@param parent ObjectiveEntryLogicController
 ---@param isParentTracked Bool
 ---@return nil
-function QuestListGameController:UpdateSubObjective(subObjectiveData, parent, isParentTracked) return end
+function QuestListGameController:UpdateSubObjective(subObjectiveData, parent, isParentTracked) end
 
----@private
 ---@param questData QuestObjectiveWrapper
 ---@param parent ObjectiveEntryLogicController
 ---@param isParentTracked Bool
 ---@return nil
-function QuestListGameController:UpdateSubObjectives(questData, parent, isParentTracked) return end
+function QuestListGameController:UpdateSubObjectives(questData, parent, isParentTracked) end

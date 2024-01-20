@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentVectorValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue Vector3
+---@field type AIArgumentType
+---@field defaultValue Vector3
 AIArgumentVectorValue = {}
 
 ---@param fields? AIArgumentVectorValue
 ---@return AIArgumentVectorValue
-function AIArgumentVectorValue.new(fields) return end
+function AIArgumentVectorValue.new(fields) end

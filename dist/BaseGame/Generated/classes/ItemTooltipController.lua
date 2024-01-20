@@ -1,317 +1,269 @@
 ---@meta
 
 ---@class ItemTooltipController: AGenericTooltipControllerWithDebug
----@field protected itemNameText inkTextWidgetReference
----@field protected itemRarityText inkTextWidgetReference
----@field protected progressBar inkWidgetReference
----@field protected recipeStatsTitle inkTextWidgetReference
----@field protected categoriesWrapper inkCompoundWidgetReference
----@field protected backgroundContainer inkCompoundWidgetReference
----@field protected topContainer inkCompoundWidgetReference
----@field protected headerContainer inkCompoundWidgetReference
----@field protected headerWeaponContainer inkCompoundWidgetReference
----@field protected headerItemContainer inkCompoundWidgetReference
----@field protected headerGrenadeContainer inkCompoundWidgetReference
----@field protected headerArmorContainer inkCompoundWidgetReference
----@field protected primmaryStatsContainer inkCompoundWidgetReference
----@field protected secondaryStatsContainer inkCompoundWidgetReference
----@field protected recipeStatsContainer inkCompoundWidgetReference
----@field protected recipeDamageTypesContainer inkCompoundWidgetReference
----@field protected modsContainer inkCompoundWidgetReference
----@field protected dedicatedModsContainer inkCompoundWidgetReference
----@field protected descriptionContainer inkCompoundWidgetReference
----@field protected craftedItemContainer inkCompoundWidgetReference
----@field protected bottomContainer inkCompoundWidgetReference
----@field protected primmaryStatsList inkCompoundWidgetReference
----@field protected secondaryStatsList inkCompoundWidgetReference
----@field protected recipeStatsTypesList inkCompoundWidgetReference
----@field protected recipeDamageTypesList inkCompoundWidgetReference
----@field protected modsList inkCompoundWidgetReference
----@field protected dedicatedModsList inkCompoundWidgetReference
----@field protected requiredLevelContainer inkCompoundWidgetReference
----@field protected priceContainer inkCompoundWidgetReference
----@field protected descriptionText inkTextWidgetReference
----@field protected requireLevelText inkTextWidgetReference
----@field protected priceText inkTextWidgetReference
----@field protected dpsWrapper inkWidgetReference
----@field protected dpsArrow inkImageWidgetReference
----@field protected dpsText inkTextWidgetReference
----@field protected nonLethalText inkTextWidgetReference
----@field protected damagePerHitValue inkTextWidgetReference
----@field protected attacksPerSecondValue inkTextWidgetReference
----@field protected silencerPartWrapper inkWidgetReference
----@field protected scopePartWrapper inkWidgetReference
----@field protected craftedItemIcon inkWidgetReference
----@field protected grenadeDamageTypeWrapper inkWidgetReference
----@field protected grenadeDamageTypeIcon inkImageWidgetReference
----@field protected grenadeRangeValue inkTextWidgetReference
----@field protected grenadeRangeText inkTextWidgetReference
----@field protected grenadeDeliveryLabel inkTextWidgetReference
----@field protected grenadeDeliveryIcon inkImageWidgetReference
----@field protected grenadeDamageStatWrapper inkWidgetReference
----@field protected grenadeDamageStatLabel inkTextWidgetReference
----@field protected grenadeDamageStatValue inkTextWidgetReference
----@field protected armorStatArrow inkImageWidgetReference
----@field protected armorStatLabel inkTextWidgetReference
----@field protected quickhackStatWrapper inkWidgetReference
----@field protected quickhackCostValue inkTextWidgetReference
----@field protected quickhackDuration inkTextWidgetReference
----@field protected quickhackCooldown inkTextWidgetReference
----@field protected quickhackUpload inkTextWidgetReference
----@field protected damageTypeWrapper inkWidgetReference
----@field protected damageTypeIcon inkImageWidgetReference
----@field protected equipedWrapper inkWidgetReference
----@field protected itemTypeText inkTextWidgetReference
----@field protected itemPreviewWrapper inkWidgetReference
----@field protected itemPreviewIcon inkImageWidgetReference
----@field protected itemPreviewIconicLines inkWidgetReference
----@field protected itemWeightWrapper inkWidgetReference
----@field protected itemWeightText inkTextWidgetReference
----@field protected itemAmmoWrapper inkWidgetReference
----@field protected itemAmmoText inkTextWidgetReference
----@field protected itemRequirements inkWidgetReference
----@field protected itemLevelRequirements inkWidgetReference
----@field protected itemStrenghtRequirements inkWidgetReference
----@field protected itemAttributeRequirements inkWidgetReference
----@field protected itemSmartGunLinkRequirements inkWidgetReference
----@field protected itemLevelRequirementsValue inkTextWidgetReference
----@field protected itemStrenghtRequirementsValue inkTextWidgetReference
----@field protected itemAttributeRequirementsText inkTextWidgetReference
----@field protected weaponEvolutionWrapper inkWidgetReference
----@field protected weaponEvolutionIcon inkImageWidgetReference
----@field protected weaponEvolutionName inkTextWidgetReference
----@field protected weaponEvolutionDescription inkTextWidgetReference
----@field protected DEBUG_iconErrorWrapper inkWidgetReference
----@field protected DEBUG_iconErrorText inkTextWidgetReference
----@field protected data InventoryTooltipData
----@field private animProxy inkanimProxy
----@field private playAnimation Bool
+---@field itemNameText inkTextWidgetReference
+---@field itemRarityText inkTextWidgetReference
+---@field progressBar inkWidgetReference
+---@field recipeStatsTitle inkTextWidgetReference
+---@field categoriesWrapper inkCompoundWidgetReference
+---@field backgroundContainer inkCompoundWidgetReference
+---@field topContainer inkCompoundWidgetReference
+---@field headerContainer inkCompoundWidgetReference
+---@field headerWeaponContainer inkCompoundWidgetReference
+---@field headerItemContainer inkCompoundWidgetReference
+---@field headerGrenadeContainer inkCompoundWidgetReference
+---@field headerArmorContainer inkCompoundWidgetReference
+---@field primmaryStatsContainer inkCompoundWidgetReference
+---@field secondaryStatsContainer inkCompoundWidgetReference
+---@field recipeStatsContainer inkCompoundWidgetReference
+---@field recipeDamageTypesContainer inkCompoundWidgetReference
+---@field modsContainer inkCompoundWidgetReference
+---@field dedicatedModsContainer inkCompoundWidgetReference
+---@field descriptionContainer inkCompoundWidgetReference
+---@field craftedItemContainer inkCompoundWidgetReference
+---@field bottomContainer inkCompoundWidgetReference
+---@field primmaryStatsList inkCompoundWidgetReference
+---@field secondaryStatsList inkCompoundWidgetReference
+---@field recipeStatsTypesList inkCompoundWidgetReference
+---@field recipeDamageTypesList inkCompoundWidgetReference
+---@field modsList inkCompoundWidgetReference
+---@field dedicatedModsList inkCompoundWidgetReference
+---@field requiredLevelContainer inkCompoundWidgetReference
+---@field priceContainer inkCompoundWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field requireLevelText inkTextWidgetReference
+---@field priceText inkTextWidgetReference
+---@field dpsWrapper inkWidgetReference
+---@field dpsArrow inkImageWidgetReference
+---@field dpsText inkTextWidgetReference
+---@field nonLethalText inkTextWidgetReference
+---@field damagePerHitValue inkTextWidgetReference
+---@field attacksPerSecondValue inkTextWidgetReference
+---@field silencerPartWrapper inkWidgetReference
+---@field scopePartWrapper inkWidgetReference
+---@field craftedItemIcon inkWidgetReference
+---@field grenadeDamageTypeWrapper inkWidgetReference
+---@field grenadeDamageTypeIcon inkImageWidgetReference
+---@field grenadeRangeValue inkTextWidgetReference
+---@field grenadeRangeText inkTextWidgetReference
+---@field grenadeDeliveryLabel inkTextWidgetReference
+---@field grenadeDeliveryIcon inkImageWidgetReference
+---@field grenadeDamageStatWrapper inkWidgetReference
+---@field grenadeDamageStatLabel inkTextWidgetReference
+---@field grenadeDamageStatValue inkTextWidgetReference
+---@field armorStatArrow inkImageWidgetReference
+---@field armorStatLabel inkTextWidgetReference
+---@field quickhackStatWrapper inkWidgetReference
+---@field quickhackCostValue inkTextWidgetReference
+---@field quickhackDuration inkTextWidgetReference
+---@field quickhackCooldown inkTextWidgetReference
+---@field quickhackUpload inkTextWidgetReference
+---@field damageTypeWrapper inkWidgetReference
+---@field damageTypeIcon inkImageWidgetReference
+---@field equipedWrapper inkWidgetReference
+---@field itemTypeText inkTextWidgetReference
+---@field itemPreviewWrapper inkWidgetReference
+---@field itemPreviewIcon inkImageWidgetReference
+---@field itemPreviewIconicLines inkWidgetReference
+---@field itemWeightWrapper inkWidgetReference
+---@field itemWeightText inkTextWidgetReference
+---@field itemAmmoWrapper inkWidgetReference
+---@field itemAmmoText inkTextWidgetReference
+---@field itemRequirements inkWidgetReference
+---@field itemLevelRequirements inkWidgetReference
+---@field itemStrenghtRequirements inkWidgetReference
+---@field itemAttributeRequirements inkWidgetReference
+---@field itemSmartGunLinkRequirements inkWidgetReference
+---@field itemLevelRequirementsValue inkTextWidgetReference
+---@field itemStrenghtRequirementsValue inkTextWidgetReference
+---@field itemAttributeRequirementsText inkTextWidgetReference
+---@field weaponEvolutionWrapper inkWidgetReference
+---@field weaponEvolutionIcon inkImageWidgetReference
+---@field weaponEvolutionName inkTextWidgetReference
+---@field weaponEvolutionDescription inkTextWidgetReference
+---@field DEBUG_iconErrorWrapper inkWidgetReference
+---@field DEBUG_iconErrorText inkTextWidgetReference
+---@field data InventoryTooltipData
+---@field animProxy inkanimProxy
+---@field playAnimation Bool
 ItemTooltipController = {}
 
 ---@param fields? ItemTooltipController
 ---@return ItemTooltipController
-function ItemTooltipController.new(fields) return end
+function ItemTooltipController.new(fields) end
 
----@protected
 ---@param e inkCallbackData
 ---@return Bool
-function ItemTooltipController:OnIconCallback(e) return end
-
----@protected
----@return nil
-function ItemTooltipController:DEBUG_UpdateDebugInfo() return end
-
----@private
----@param stats InventoryTooltipData_StatData[]
----@return InventoryTooltipData_StatData[]
-function ItemTooltipController:FilterArmorStat(stats) return end
-
----@private
----@param stats InventoryTooltipData_StatData[]
----@return InventoryTooltipData_StatData[]
-function ItemTooltipController:FilterGrenadeStats(stats) return end
-
----@private
----@param stats InventoryTooltipData_StatData[]
----@return InventoryTooltipData_StatData[]
-function ItemTooltipController:FilterStatsWithValue(stats) return end
-
----@protected
----@return nil
-function ItemTooltipController:FixLines() return end
+function ItemTooltipController:OnIconCallback(e) end
 
 ---@return nil
-function ItemTooltipController:ForceNoEquipped() return end
+function ItemTooltipController:DEBUG_UpdateDebugInfo() end
 
----@protected
+---@param stats InventoryTooltipData_StatData[]
+---@return InventoryTooltipData_StatData[]
+function ItemTooltipController:FilterArmorStat(stats) end
+
+---@param stats InventoryTooltipData_StatData[]
+---@return InventoryTooltipData_StatData[]
+function ItemTooltipController:FilterGrenadeStats(stats) end
+
+---@param stats InventoryTooltipData_StatData[]
+---@return InventoryTooltipData_StatData[]
+function ItemTooltipController:FilterStatsWithValue(stats) end
+
+---@return nil
+function ItemTooltipController:FixLines() end
+
+---@return nil
+function ItemTooltipController:ForceNoEquipped() end
+
 ---@return InventoryTooltipData_StatData
-function ItemTooltipController:GetArmorStatFromSecondaryStats() return end
+function ItemTooltipController:GetArmorStatFromSecondaryStats() end
 
----@protected
 ---@param diffValue Float
 ---@return CName
-function ItemTooltipController:GetArrowWrapperState(diffValue) return end
+function ItemTooltipController:GetArrowWrapperState(diffValue) end
 
----@protected
 ---@return InventoryTooltipData_StatData[]
-function ItemTooltipController:GetDamageStatsFromSecondayStats() return end
+function ItemTooltipController:GetDamageStatsFromSecondayStats() end
 
----@protected
 ---@param attackRecord gamedataAttack_Record
 ---@return DamageEffectUIEntry[]
-function ItemTooltipController:GetDoTEffects(attackRecord) return end
+function ItemTooltipController:GetDoTEffects(attackRecord) end
 
----@protected
 ---@return InventoryTooltipData_StatData
-function ItemTooltipController:GetGranadeDamageFromStats() return end
+function ItemTooltipController:GetGranadeDamageFromStats() end
 
----@protected
 ---@return gamedataItemType
-function ItemTooltipController:GetItemType() return end
+function ItemTooltipController:GetItemType() end
 
----@protected
 ---@param data InventoryTooltipData
 ---@return InventoryTooltipData_StatData[]
-function ItemTooltipController:GetSecondaryStatsData(data) return end
+function ItemTooltipController:GetSecondaryStatsData(data) end
 
----@private
 ---@param stat gamedataStatType
 ---@return Bool
-function ItemTooltipController:IsDamageStat(stat) return end
+function ItemTooltipController:IsDamageStat(stat) end
 
 ---@param effects gamedataStatusEffect_Record
 ---@return DamageEffectUIEntry[]
-function ItemTooltipController:ProcessDoTEffects(effects) return end
+function ItemTooltipController:ProcessDoTEffects(effects) end
 
 ---@param data gameItemViewData
 ---@return nil
-function ItemTooltipController:SetData(data) return end
+function ItemTooltipController:SetData(data) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function ItemTooltipController:SetData(tooltipData) return end
+function ItemTooltipController:SetData(tooltipData) end
 
----@private
 ---@param stat InventoryTooltipData_StatData
 ---@return Bool
-function ItemTooltipController:ShouldDisplayGrenadeStat(stat) return end
+function ItemTooltipController:ShouldDisplayGrenadeStat(stat) end
 
 ---@return nil
-function ItemTooltipController:Show() return end
+function ItemTooltipController:Show() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateAmmo() return end
+function ItemTooltipController:UpdateAmmo() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateArmor() return end
+function ItemTooltipController:UpdateArmor() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateAttachments() return end
+function ItemTooltipController:UpdateAttachments() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateCraftedIcon() return end
+function ItemTooltipController:UpdateCraftedIcon() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateDPS() return end
+function ItemTooltipController:UpdateDPS() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateDamageType() return end
+function ItemTooltipController:UpdateDamageType() end
 
----@protected
 ---@param mods gameInventoryItemAttachments[]
 ---@return nil
-function ItemTooltipController:UpdateDedicatedMods(mods) return end
+function ItemTooltipController:UpdateDedicatedMods(mods) end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateDescription() return end
+function ItemTooltipController:UpdateDescription() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateEquipped() return end
+function ItemTooltipController:UpdateEquipped() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateEvolutionDescription() return end
+function ItemTooltipController:UpdateEvolutionDescription() end
 
----@protected
 ---@param tweakRecord gamedataGrenade_Record
 ---@return nil
-function ItemTooltipController:UpdateGrenadeDamage(tweakRecord) return end
+function ItemTooltipController:UpdateGrenadeDamage(tweakRecord) end
 
----@protected
 ---@param tweakRecord gamedataGrenade_Record
 ---@return nil
-function ItemTooltipController:UpdateGrenadeDelivery(tweakRecord) return end
+function ItemTooltipController:UpdateGrenadeDelivery(tweakRecord) end
 
----@protected
 ---@param tweakRecord gamedataGrenade_Record
 ---@return nil
-function ItemTooltipController:UpdateGrenadeRange(tweakRecord) return end
+function ItemTooltipController:UpdateGrenadeRange(tweakRecord) end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateGrenadeStats() return end
+function ItemTooltipController:UpdateGrenadeStats() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateHeader() return end
+function ItemTooltipController:UpdateHeader() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateIcon() return end
+function ItemTooltipController:UpdateIcon() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateItemType() return end
+function ItemTooltipController:UpdateItemType() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateLayout() return end
+function ItemTooltipController:UpdateLayout() end
 
----@protected
 ---@param mods gameInventoryItemAttachments[]
 ---@return nil
-function ItemTooltipController:UpdateMods(mods) return end
+function ItemTooltipController:UpdateMods(mods) end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateName() return end
+function ItemTooltipController:UpdateName() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateParts() return end
+function ItemTooltipController:UpdateParts() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdatePrice() return end
+function ItemTooltipController:UpdatePrice() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdatePrimmaryStats() return end
+function ItemTooltipController:UpdatePrimmaryStats() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateProgressBar() return end
+function ItemTooltipController:UpdateProgressBar() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateQuickhackState() return end
+function ItemTooltipController:UpdateQuickhackState() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateRarity() return end
+function ItemTooltipController:UpdateRarity() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateRecipeIcon() return end
+function ItemTooltipController:UpdateRecipeIcon() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateRequiredLevel() return end
+function ItemTooltipController:UpdateRequiredLevel() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateRequirements() return end
+function ItemTooltipController:UpdateRequirements() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateSecondaryStats() return end
+function ItemTooltipController:UpdateSecondaryStats() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdateWeight() return end
+function ItemTooltipController:UpdateWeight() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdatemRecipeDamageTypes() return end
+function ItemTooltipController:UpdatemRecipeDamageTypes() end
 
----@protected
 ---@return nil
-function ItemTooltipController:UpdatemRecipeProperties() return end
+function ItemTooltipController:UpdatemRecipeProperties() end

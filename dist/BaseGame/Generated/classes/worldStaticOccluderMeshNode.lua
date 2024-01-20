@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldStaticOccluderMeshNode: worldNode
----@field public occluderType visWorldOccluderType
----@field public color Color
----@field public autohideDistanceScale Uint8
----@field public mesh CMesh
+---@field occluderType visWorldOccluderType
+---@field color Color
+---@field autohideDistanceScale Uint8
+---@field mesh CMesh
 worldStaticOccluderMeshNode = {}
 
 ---@param fields? worldStaticOccluderMeshNode
 ---@return worldStaticOccluderMeshNode
-function worldStaticOccluderMeshNode.new(fields) return end
+function worldStaticOccluderMeshNode.new(fields) end

@@ -1,40 +1,34 @@
 ---@meta
 
 ---@class sampleStyleManagerGameController: gameuiWidgetGameController
----@field public stylePath1 redResourceReferenceScriptToken
----@field public stylePath2 redResourceReferenceScriptToken
----@field public content inkWidgetReference
+---@field stylePath1 redResourceReferenceScriptToken
+---@field stylePath2 redResourceReferenceScriptToken
+---@field content inkWidgetReference
 sampleStyleManagerGameController = {}
 
 ---@param fields? sampleStyleManagerGameController
 ---@return sampleStyleManagerGameController
-function sampleStyleManagerGameController.new(fields) return end
+function sampleStyleManagerGameController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleStyleManagerGameController:OnInitialize() return end
+function sampleStyleManagerGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function sampleStyleManagerGameController:OnState1(e) return end
+function sampleStyleManagerGameController:OnState1(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function sampleStyleManagerGameController:OnState2(e) return end
+function sampleStyleManagerGameController:OnState2(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function sampleStyleManagerGameController:OnState3(e) return end
+function sampleStyleManagerGameController:OnState3(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function sampleStyleManagerGameController:OnStyle1(e) return end
+function sampleStyleManagerGameController:OnStyle1(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function sampleStyleManagerGameController:OnStyle2(e) return end
+function sampleStyleManagerGameController:OnStyle2(e) end

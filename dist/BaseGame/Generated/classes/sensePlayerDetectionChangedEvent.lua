@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class sensePlayerDetectionChangedEvent: redEvent
----@field public oldDetectionValue Float
----@field public newDetectionValue Float
+---@field oldDetectionValue Float
+---@field newDetectionValue Float
 sensePlayerDetectionChangedEvent = {}
 
 ---@param fields? sensePlayerDetectionChangedEvent
 ---@return sensePlayerDetectionChangedEvent
-function sensePlayerDetectionChangedEvent.new(fields) return end
+function sensePlayerDetectionChangedEvent.new(fields) end

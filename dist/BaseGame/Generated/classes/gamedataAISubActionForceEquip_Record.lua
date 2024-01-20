@@ -5,46 +5,46 @@ gamedataAISubActionForceEquip_Record = {}
 
 ---@param fields? gamedataAISubActionForceEquip_Record
 ---@return gamedataAISubActionForceEquip_Record
-function gamedataAISubActionForceEquip_Record.new(fields) return end
+function gamedataAISubActionForceEquip_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionForceEquip_Record:AnimationTime() return end
+function gamedataAISubActionForceEquip_Record:AnimationTime() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionForceEquip_Record:AttachmentSlot() return end
+function gamedataAISubActionForceEquip_Record:AttachmentSlot() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionForceEquip_Record:AttachmentSlotHandle() return end
+function gamedataAISubActionForceEquip_Record:AttachmentSlotHandle() end
 
 ---@return Float
-function gamedataAISubActionForceEquip_Record:Delay() return end
+function gamedataAISubActionForceEquip_Record:Delay() end
 
 ---@return Bool
-function gamedataAISubActionForceEquip_Record:EquipDespiteInterruption() return end
+function gamedataAISubActionForceEquip_Record:EquipDespiteInterruption() end
 
 ---@return gamedataItemCategory_Record
-function gamedataAISubActionForceEquip_Record:ItemCategory() return end
+function gamedataAISubActionForceEquip_Record:ItemCategory() end
 
 ---@return gamedataItemCategory_Record
-function gamedataAISubActionForceEquip_Record:ItemCategoryHandle() return end
+function gamedataAISubActionForceEquip_Record:ItemCategoryHandle() end
 
 ---@return gamedataItem_Record
-function gamedataAISubActionForceEquip_Record:ItemID() return end
+function gamedataAISubActionForceEquip_Record:ItemID() end
 
 ---@return gamedataItem_Record
-function gamedataAISubActionForceEquip_Record:ItemIDHandle() return end
+function gamedataAISubActionForceEquip_Record:ItemIDHandle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionForceEquip_Record:ItemObject() return end
+function gamedataAISubActionForceEquip_Record:ItemObject() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionForceEquip_Record:ItemObjectHandle() return end
+function gamedataAISubActionForceEquip_Record:ItemObjectHandle() end
 
 ---@return CName
-function gamedataAISubActionForceEquip_Record:ItemTag() return end
+function gamedataAISubActionForceEquip_Record:ItemTag() end
 
 ---@return gamedataItemType_Record
-function gamedataAISubActionForceEquip_Record:ItemType() return end
+function gamedataAISubActionForceEquip_Record:ItemType() end
 
 ---@return gamedataItemType_Record
-function gamedataAISubActionForceEquip_Record:ItemTypeHandle() return end
+function gamedataAISubActionForceEquip_Record:ItemTypeHandle() end

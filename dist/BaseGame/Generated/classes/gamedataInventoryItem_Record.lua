@@ -5,28 +5,28 @@ gamedataInventoryItem_Record = {}
 
 ---@param fields? gamedataInventoryItem_Record
 ---@return gamedataInventoryItem_Record
-function gamedataInventoryItem_Record.new(fields) return end
+function gamedataInventoryItem_Record.new(fields) end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataInventoryItem_Record:ActiveForSlot() return end
+function gamedataInventoryItem_Record:ActiveForSlot() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataInventoryItem_Record:ActiveForSlotHandle() return end
+function gamedataInventoryItem_Record:ActiveForSlotHandle() end
 
 ---@return Float
-function gamedataInventoryItem_Record:ChanceInCrowd() return end
+function gamedataInventoryItem_Record:ChanceInCrowd() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataInventoryItem_Record:EquipSlot_DEPRECATED() return end
+function gamedataInventoryItem_Record:EquipSlot_DEPRECATED() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataInventoryItem_Record:EquipSlot_DEPRECATEDHandle() return end
+function gamedataInventoryItem_Record:EquipSlot_DEPRECATEDHandle() end
 
 ---@return gamedataItem_Record
-function gamedataInventoryItem_Record:Item() return end
+function gamedataInventoryItem_Record:Item() end
 
 ---@return gamedataItem_Record
-function gamedataInventoryItem_Record:ItemHandle() return end
+function gamedataInventoryItem_Record:ItemHandle() end
 
 ---@return Int32
-function gamedataInventoryItem_Record:Quantity() return end
+function gamedataInventoryItem_Record:Quantity() end

@@ -1,49 +1,45 @@
 ---@meta
 
 ---@class VehicleMinimapMappinComponent: IScriptable
----@field private minimapPOIMappinController MinimapPOIMappinController
----@field private vehicle vehicleBaseObject
----@field private uiVehicleBB gameIBlackboard
----@field private vehicleBBDef VehicleDef
----@field private deleteAnimCallback redCallbackObject
----@field private destroyMappinOnAnimEnd Bool
----@field private vehicleIsLatestSummoned Bool
----@field private vehicleEntityID entEntityID
----@field private vehicleSummonDataDef VehicleSummonDataDef
----@field private vehicleSummonDataBB gameIBlackboard
----@field private vehicleSummonStateCallback redCallbackObject
+---@field minimapPOIMappinController MinimapPOIMappinController
+---@field vehicle vehicleBaseObject
+---@field uiVehicleBB gameIBlackboard
+---@field vehicleBBDef VehicleDef
+---@field deleteAnimCallback redCallbackObject
+---@field destroyMappinOnAnimEnd Bool
+---@field vehicleIsLatestSummoned Bool
+---@field vehicleEntityID entEntityID
+---@field vehicleSummonDataDef VehicleSummonDataDef
+---@field vehicleSummonDataBB gameIBlackboard
+---@field vehicleSummonStateCallback redCallbackObject
 VehicleMinimapMappinComponent = {}
 
 ---@param fields? VehicleMinimapMappinComponent
 ---@return VehicleMinimapMappinComponent
-function VehicleMinimapMappinComponent.new(fields) return end
+function VehicleMinimapMappinComponent.new(fields) end
 
----@protected
 ---@param deleteAnimName CName|string
 ---@return Bool
-function VehicleMinimapMappinComponent:OnDeleteAnimSet(deleteAnimName) return end
+function VehicleMinimapMappinComponent:OnDeleteAnimSet(deleteAnimName) end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function VehicleMinimapMappinComponent:OnVehicleSummonStateChanged(value) return end
+function VehicleMinimapMappinComponent:OnVehicleSummonStateChanged(value) end
 
----@private
 ---@param activate Bool
 ---@return nil
-function VehicleMinimapMappinComponent:ActivatePingAnimation(activate) return end
+function VehicleMinimapMappinComponent:ActivatePingAnimation(activate) end
 
 ---@return nil
-function VehicleMinimapMappinComponent:OnAnimEnd() return end
+function VehicleMinimapMappinComponent:OnAnimEnd() end
 
 ---@param minimapPOIMappinController MinimapPOIMappinController
 ---@param vehicleMappin gamemappinsVehicleMappin
 ---@return nil
-function VehicleMinimapMappinComponent:OnInitialize(minimapPOIMappinController, vehicleMappin) return end
+function VehicleMinimapMappinComponent:OnInitialize(minimapPOIMappinController, vehicleMappin) end
 
 ---@return nil
-function VehicleMinimapMappinComponent:OnUninitialize() return end
+function VehicleMinimapMappinComponent:OnUninitialize() end
 
----@private
 ---@return Bool
-function VehicleMinimapMappinComponent:VehicleIsLatestSummoned() return end
+function VehicleMinimapMappinComponent:VehicleIsLatestSummoned() end

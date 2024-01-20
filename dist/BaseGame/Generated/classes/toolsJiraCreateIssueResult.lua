@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class toolsJiraCreateIssueResult: ISerializable
----@field public id String
----@field public key String
----@field public errorMessages String[]
----@field public errors toolsJiraIssueFieldsResult
+---@field id String
+---@field key String
+---@field errorMessages String[]
+---@field errors toolsJiraIssueFieldsResult
 toolsJiraCreateIssueResult = {}
 
 ---@param fields? toolsJiraCreateIssueResult
 ---@return toolsJiraCreateIssueResult
-function toolsJiraCreateIssueResult.new(fields) return end
+function toolsJiraCreateIssueResult.new(fields) end

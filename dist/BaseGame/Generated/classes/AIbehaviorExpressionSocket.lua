@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorExpressionSocket: ISerializable
----@field public typeHint AIbehaviorTypeRef
----@field public expression AIbehaviorPassiveExpressionDefinition
+---@field typeHint AIbehaviorTypeRef
+---@field expression AIbehaviorPassiveExpressionDefinition
 AIbehaviorExpressionSocket = {}
 
 ---@param fields? AIbehaviorExpressionSocket
 ---@return AIbehaviorExpressionSocket
-function AIbehaviorExpressionSocket.new(fields) return end
+function AIbehaviorExpressionSocket.new(fields) end

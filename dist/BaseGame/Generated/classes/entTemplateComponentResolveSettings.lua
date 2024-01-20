@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entTemplateComponentResolveSettings
----@field public componentName CName
----@field public nameParam CName
----@field public mode entTemplateComponentResolveMode
+---@field componentName CName
+---@field nameParam CName
+---@field mode entTemplateComponentResolveMode
 entTemplateComponentResolveSettings = {}
 
 ---@param fields? entTemplateComponentResolveSettings
 ---@return entTemplateComponentResolveSettings
-function entTemplateComponentResolveSettings.new(fields) return end
+function entTemplateComponentResolveSettings.new(fields) end

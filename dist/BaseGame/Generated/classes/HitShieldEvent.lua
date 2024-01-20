@@ -5,4 +5,4 @@ HitShieldEvent = {}
 
 ---@param fields? HitShieldEvent
 ---@return HitShieldEvent
-function HitShieldEvent.new(fields) return end
+function HitShieldEvent.new(fields) end

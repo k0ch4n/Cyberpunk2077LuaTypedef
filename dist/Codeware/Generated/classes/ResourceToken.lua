@@ -5,27 +5,27 @@ ResourceToken = {}
 
 ---@param fields? ResourceToken
 ---@return ResourceToken
-function ResourceToken.new(fields) return end
+function ResourceToken.new(fields) end
 
 ---@return Uint64
-function ResourceToken:GetHash() return end
+function ResourceToken:GetHash() end
 
 ---@return CResource
-function ResourceToken:GetPath() return end
+function ResourceToken:GetPath() end
 
 ---@return CResource
-function ResourceToken:GetResource() return end
+function ResourceToken:GetResource() end
 
 ---@return Bool
-function ResourceToken:IsFailed() return end
+function ResourceToken:IsFailed() end
 
 ---@return Bool
-function ResourceToken:IsFinished() return end
+function ResourceToken:IsFinished() end
 
 ---@return Bool
-function ResourceToken:IsLoaded() return end
+function ResourceToken:IsLoaded() end
 
 ---@param arg IScriptable
 ---@param arg CName|string
 ---@return nil
-function ResourceToken:RegisterCallback(arg, arg) return end
+function ResourceToken:RegisterCallback(arg, arg) end

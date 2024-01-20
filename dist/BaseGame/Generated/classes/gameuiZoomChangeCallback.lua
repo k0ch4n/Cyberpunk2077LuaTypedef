@@ -5,4 +5,4 @@ gameuiZoomChangeCallback = {}
 
 ---@param fields? gameuiZoomChangeCallback
 ---@return gameuiZoomChangeCallback
-function gameuiZoomChangeCallback.new(fields) return end
+function gameuiZoomChangeCallback.new(fields) end

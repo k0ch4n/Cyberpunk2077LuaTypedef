@@ -5,10 +5,10 @@ AIStopCoverCommandParams = {}
 
 ---@param fields? AIStopCoverCommandParams
 ---@return AIStopCoverCommandParams
-function AIStopCoverCommandParams.new(fields) return end
+function AIStopCoverCommandParams.new(fields) end
 
 ---@return AICommand
-function AIStopCoverCommandParams:CreateCommand() return end
+function AIStopCoverCommandParams:CreateCommand() end
 
 ---@return String
-function AIStopCoverCommandParams:GetCommandName() return end
+function AIStopCoverCommandParams:GetCommandName() end

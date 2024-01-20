@@ -1,149 +1,139 @@
 ---@meta
 
 ---@class PhotoModeGridList: inkRadioGroupController
----@field private ScrollArea inkScrollAreaWidgetReference
----@field private ContentRoot inkWidgetReference
----@field private SliderWidget inkWidgetReference
----@field private rowOffset Int32
----@field private firstOffset Int32
----@field private rowLibraryId CName
----@field private buttonLibraryId CName
----@field private parentListItem PhotoModeMenuListItem
----@field private buttons PhotoModeGridButton[]
----@field private rows inkWidget[]
----@field private sliderController inkSliderController
----@field private ItemsInRow Int32
----@field private RowsCount Int32
----@field private SelectedIndex Int32
----@field private PreviousSelectedIndex Int32
----@field private visibleSize Float
----@field private visibleRows Int32
----@field private scrollRow Int32
----@field private isVisibleOnscreen Bool
+---@field ScrollArea inkScrollAreaWidgetReference
+---@field ContentRoot inkWidgetReference
+---@field SliderWidget inkWidgetReference
+---@field rowOffset Int32
+---@field firstOffset Int32
+---@field rowLibraryId CName
+---@field buttonLibraryId CName
+---@field parentListItem PhotoModeMenuListItem
+---@field buttons PhotoModeGridButton[]
+---@field rows inkWidget[]
+---@field sliderController inkSliderController
+---@field ItemsInRow Int32
+---@field RowsCount Int32
+---@field SelectedIndex Int32
+---@field PreviousSelectedIndex Int32
+---@field visibleSize Float
+---@field visibleRows Int32
+---@field scrollRow Int32
+---@field isVisibleOnscreen Bool
 PhotoModeGridList = {}
 
 ---@param fields? PhotoModeGridList
 ---@return PhotoModeGridList
-function PhotoModeGridList.new(fields) return end
+function PhotoModeGridList.new(fields) end
 
----@protected
 ---@return Bool
-function PhotoModeGridList:OnInitialize() return end
+function PhotoModeGridList:OnInitialize() end
 
----@protected
 ---@param sliderController inkSliderController
 ---@param progress Float
 ---@param value Float
 ---@return Bool
-function PhotoModeGridList:OnSliderValueChanged(sliderController, progress, value) return end
+function PhotoModeGridList:OnSliderValueChanged(sliderController, progress, value) end
 
----@protected
 ---@return Bool
-function PhotoModeGridList:OnUninitialize() return end
+function PhotoModeGridList:OnUninitialize() end
 
----@protected
 ---@param controller inkRadioGroupController
 ---@param selectedIndex Int32
 ---@return Bool
-function PhotoModeGridList:OnValueChanged(controller, selectedIndex) return end
+function PhotoModeGridList:OnValueChanged(controller, selectedIndex) end
 
----@protected
 ---@param parentWidget inkWidget
 ---@return nil
-function PhotoModeGridList:AddButton(parentWidget) return end
+function PhotoModeGridList:AddButton(parentWidget) end
 
----@protected
 ---@return inkWidget
-function PhotoModeGridList:AddRow() return end
+function PhotoModeGridList:AddRow() end
 
----@private
 ---@param buttonIndex Int32
 ---@return Int32
-function PhotoModeGridList:GetRow(buttonIndex) return end
+function PhotoModeGridList:GetRow(buttonIndex) end
 
----@private
 ---@param row Int32
 ---@return Int32
-function PhotoModeGridList:GetRowClamped(row) return end
+function PhotoModeGridList:GetRowClamped(row) end
 
----@private
 ---@return Int32
-function PhotoModeGridList:GetSelectedRow() return end
+function PhotoModeGridList:GetSelectedRow() end
 
 ---@param e inkPointerEvent
 ---@param gameCtrl? gameuiWidgetGameController
 ---@return nil
-function PhotoModeGridList:HandleReleasedInput(e, gameCtrl) return end
+function PhotoModeGridList:HandleReleasedInput(e, gameCtrl) end
 
 ---@return nil
-function PhotoModeGridList:OnDeSelected() return end
-
----@param buttonindex Int32
----@return nil
-function PhotoModeGridList:OnGridButtonAction(buttonindex) return end
+function PhotoModeGridList:OnDeSelected() end
 
 ---@param buttonindex Int32
 ---@return nil
-function PhotoModeGridList:OnGridButtonSelected(buttonindex) return end
+function PhotoModeGridList:OnGridButtonAction(buttonindex) end
+
+---@param buttonindex Int32
+---@return nil
+function PhotoModeGridList:OnGridButtonSelected(buttonindex) end
 
 ---@return nil
-function PhotoModeGridList:OnSelected() return end
+function PhotoModeGridList:OnSelected() end
 
 ---@param visible Bool
 ---@return nil
-function PhotoModeGridList:OnVisbilityChanged(visible) return end
+function PhotoModeGridList:OnVisbilityChanged(visible) end
 
----@private
 ---@param row Int32
 ---@return nil
-function PhotoModeGridList:ScrollToRow(row) return end
+function PhotoModeGridList:ScrollToRow(row) end
 
 ---@param index Int32
 ---@return nil
-function PhotoModeGridList:SelectButton(index) return end
+function PhotoModeGridList:SelectButton(index) end
 
 ---@param buttonIndex Uint32
 ---@param atlasPath redResourceReferenceScriptToken
 ---@param imagePart CName|string
 ---@param buttonData Int32
 ---@return nil
-function PhotoModeGridList:SetGridButtonImage(buttonIndex, atlasPath, imagePart, buttonData) return end
+function PhotoModeGridList:SetGridButtonImage(buttonIndex, atlasPath, imagePart, buttonData) end
 
 ---@param gridData gameuiPhotoModeOptionGridButtonData[]
 ---@return nil
-function PhotoModeGridList:SetGridData(gridData) return end
+function PhotoModeGridList:SetGridData(gridData) end
 
 ---@param listItem PhotoModeMenuListItem
 ---@param rows Int32
 ---@param itemsInRow Int32
 ---@return Float
-function PhotoModeGridList:Setup(listItem, rows, itemsInRow) return end
+function PhotoModeGridList:Setup(listItem, rows, itemsInRow) end
 
 ---@return Bool
-function PhotoModeGridList:TrySelectDown() return end
+function PhotoModeGridList:TrySelectDown() end
 
 ---@return Bool
-function PhotoModeGridList:TrySelectLeft() return end
+function PhotoModeGridList:TrySelectLeft() end
 
 ---@return Bool
-function PhotoModeGridList:TrySelectRight() return end
+function PhotoModeGridList:TrySelectRight() end
 
 ---@return Bool
-function PhotoModeGridList:TrySelectUp() return end
+function PhotoModeGridList:TrySelectUp() end
 
 ---@param timeDelta Float
 ---@return nil
-function PhotoModeGridList:Update(timeDelta) return end
+function PhotoModeGridList:Update(timeDelta) end
 
 ---@return nil
-function PhotoModeGridList:UpdateButtonsVisibility() return end
+function PhotoModeGridList:UpdateButtonsVisibility() end
 
 ---@return nil
-function PhotoModeGridList:UpdateScroll() return end
+function PhotoModeGridList:UpdateScroll() end
 
 ---@return nil
-function PhotoModeGridList:UpdateSelectedState() return end
+function PhotoModeGridList:UpdateSelectedState() end
 
 ---@param timeDelta Float
 ---@return nil
-function PhotoModeGridList:UpdateSize(timeDelta) return end
+function PhotoModeGridList:UpdateSize(timeDelta) end

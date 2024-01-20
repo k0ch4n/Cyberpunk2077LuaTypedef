@@ -5,9 +5,8 @@ PatrolRoleHandler = {}
 
 ---@param fields? PatrolRoleHandler
 ---@return PatrolRoleHandler
-function PatrolRoleHandler.new(fields) return end
+function PatrolRoleHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function PatrolRoleHandler:Update(context) return end
+function PatrolRoleHandler:Update(context) end

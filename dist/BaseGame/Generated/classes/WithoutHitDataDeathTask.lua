@@ -5,24 +5,20 @@ WithoutHitDataDeathTask = {}
 
 ---@param fields? WithoutHitDataDeathTask
 ---@return WithoutHitDataDeathTask
-function WithoutHitDataDeathTask.new(fields) return end
+function WithoutHitDataDeathTask.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return animAnimFeature_HitReactionsData
-function WithoutHitDataDeathTask:BleedingDeathData(context) return end
+function WithoutHitDataDeathTask:BleedingDeathData(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return animAnimFeature_HitReactionsData
-function WithoutHitDataDeathTask:DebugDeathData(context) return end
+function WithoutHitDataDeathTask:DebugDeathData(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Int32
-function WithoutHitDataDeathTask:GetDeathReactionType(context) return end
+function WithoutHitDataDeathTask:GetDeathReactionType(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return animAnimFeature_HitReactionsData
-function WithoutHitDataDeathTask:GetHitData(context) return end
+function WithoutHitDataDeathTask:GetHitData(context) end

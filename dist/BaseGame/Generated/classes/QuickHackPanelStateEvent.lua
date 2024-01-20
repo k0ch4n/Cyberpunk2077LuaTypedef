@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuickHackPanelStateEvent: redEvent
----@field public isOpened Bool
+---@field isOpened Bool
 QuickHackPanelStateEvent = {}
 
 ---@param fields? QuickHackPanelStateEvent
 ---@return QuickHackPanelStateEvent
-function QuickHackPanelStateEvent.new(fields) return end
+function QuickHackPanelStateEvent.new(fields) end

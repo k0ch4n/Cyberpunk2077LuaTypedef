@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class senseAngleRange: senseIShape
----@field public position Vector4
----@field public angle Float
----@field public range Float
----@field public halfHeight Float
+---@field position Vector4
+---@field angle Float
+---@field range Float
+---@field halfHeight Float
 senseAngleRange = {}
 
 ---@param fields? senseAngleRange
 ---@return senseAngleRange
-function senseAngleRange.new(fields) return end
+function senseAngleRange.new(fields) end

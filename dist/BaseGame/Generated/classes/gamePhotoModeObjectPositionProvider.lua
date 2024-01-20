@@ -5,4 +5,4 @@ gamePhotoModeObjectPositionProvider = {}
 
 ---@param fields? gamePhotoModeObjectPositionProvider
 ---@return gamePhotoModeObjectPositionProvider
-function gamePhotoModeObjectPositionProvider.new(fields) return end
+function gamePhotoModeObjectPositionProvider.new(fields) end

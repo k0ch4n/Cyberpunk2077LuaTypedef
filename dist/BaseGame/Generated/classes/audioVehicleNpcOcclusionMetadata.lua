@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioVehicleNpcOcclusionMetadata: audioEmitterMetadata
----@field public void Bool
+---@field void Bool
 audioVehicleNpcOcclusionMetadata = {}
 
 ---@param fields? audioVehicleNpcOcclusionMetadata
 ---@return audioVehicleNpcOcclusionMetadata
-function audioVehicleNpcOcclusionMetadata.new(fields) return end
+function audioVehicleNpcOcclusionMetadata.new(fields) end

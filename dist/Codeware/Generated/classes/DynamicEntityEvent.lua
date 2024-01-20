@@ -5,13 +5,13 @@ DynamicEntityEvent = {}
 
 ---@param fields? DynamicEntityEvent
 ---@return DynamicEntityEvent
-function DynamicEntityEvent.new(fields) return end
+function DynamicEntityEvent.new(fields) end
 
 ---@return entEntityID
-function DynamicEntityEvent:GetEntityID() return end
+function DynamicEntityEvent:GetEntityID() end
 
 ---@return CName
-function DynamicEntityEvent:GetEntityTag() return end
+function DynamicEntityEvent:GetEntityTag() end
 
 ---@return DynamicEntityEventType
-function DynamicEntityEvent:GetEventType() return end
+function DynamicEntityEvent:GetEventType() end

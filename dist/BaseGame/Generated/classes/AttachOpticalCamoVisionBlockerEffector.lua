@@ -5,4 +5,4 @@ AttachOpticalCamoVisionBlockerEffector = {}
 
 ---@param fields? AttachOpticalCamoVisionBlockerEffector
 ---@return AttachOpticalCamoVisionBlockerEffector
-function AttachOpticalCamoVisionBlockerEffector.new(fields) return end
+function AttachOpticalCamoVisionBlockerEffector.new(fields) end

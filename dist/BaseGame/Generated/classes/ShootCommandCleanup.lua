@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class ShootCommandCleanup: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 ShootCommandCleanup = {}
 
 ---@param fields? ShootCommandCleanup
 ---@return ShootCommandCleanup
-function ShootCommandCleanup.new(fields) return end
+function ShootCommandCleanup.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ShootCommandCleanup:Deactivate(context) return end
+function ShootCommandCleanup:Deactivate(context) end

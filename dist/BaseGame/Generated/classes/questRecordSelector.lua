@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questRecordSelector: ISerializable
----@field public isCharacter Bool
----@field public characterRecordID TweakDBID
----@field public isDevice Bool
----@field public deviceRecordID TweakDBID
----@field public isItem Bool
----@field public itemRecordID TweakDBID
+---@field isCharacter Bool
+---@field characterRecordID TweakDBID
+---@field isDevice Bool
+---@field deviceRecordID TweakDBID
+---@field isItem Bool
+---@field itemRecordID TweakDBID
 questRecordSelector = {}
 
 ---@param fields? questRecordSelector
 ---@return questRecordSelector
-function questRecordSelector.new(fields) return end
+function questRecordSelector.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentNodeRefValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue NodeRef
+---@field type AIArgumentType
+---@field defaultValue NodeRef
 AIArgumentNodeRefValue = {}
 
 ---@param fields? AIArgumentNodeRefValue
 ---@return AIArgumentNodeRefValue
-function AIArgumentNodeRefValue.new(fields) return end
+function AIArgumentNodeRefValue.new(fields) end

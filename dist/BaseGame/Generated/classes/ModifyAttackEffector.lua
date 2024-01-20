@@ -5,4 +5,4 @@ ModifyAttackEffector = {}
 
 ---@param fields? ModifyAttackEffector
 ---@return ModifyAttackEffector
-function ModifyAttackEffector.new(fields) return end
+function ModifyAttackEffector.new(fields) end

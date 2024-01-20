@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class hudMilitechWarningGameController: gameuiHUDGameController
----@field private root inkCompoundWidget
----@field private anim inkanimProxy
----@field private factListenerId Uint32
+---@field root inkCompoundWidget
+---@field anim inkanimProxy
+---@field factListenerId Uint32
 hudMilitechWarningGameController = {}
 
 ---@param fields? hudMilitechWarningGameController
 ---@return hudMilitechWarningGameController
-function hudMilitechWarningGameController.new(fields) return end
+function hudMilitechWarningGameController.new(fields) end
 
----@protected
 ---@return Bool
-function hudMilitechWarningGameController:OnInitialize() return end
+function hudMilitechWarningGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function hudMilitechWarningGameController:OnUninitialize() return end
+function hudMilitechWarningGameController:OnUninitialize() end
 
 ---@param val Int32
 ---@return nil
-function hudMilitechWarningGameController:OnFact(val) return end
+function hudMilitechWarningGameController:OnFact(val) end

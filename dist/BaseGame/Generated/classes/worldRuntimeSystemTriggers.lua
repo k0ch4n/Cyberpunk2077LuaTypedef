@@ -5,4 +5,4 @@ worldRuntimeSystemTriggers = {}
 
 ---@param fields? worldRuntimeSystemTriggers
 ---@return worldRuntimeSystemTriggers
-function worldRuntimeSystemTriggers.new(fields) return end
+function worldRuntimeSystemTriggers.new(fields) end

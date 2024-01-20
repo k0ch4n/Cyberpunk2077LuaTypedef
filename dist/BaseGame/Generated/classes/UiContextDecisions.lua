@@ -5,16 +5,14 @@ UiContextDecisions = {}
 
 ---@param fields? UiContextDecisions
 ---@return UiContextDecisions
-function UiContextDecisions.new(fields) return end
+function UiContextDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function UiContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiContextDecisions:ExitCondition(stateContext, scriptInterface) return end
+function UiContextDecisions:ExitCondition(stateContext, scriptInterface) end

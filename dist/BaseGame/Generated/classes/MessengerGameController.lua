@@ -1,89 +1,75 @@
 ---@meta
 
 ---@class MessengerGameController: gameuiMenuGameController
----@field private buttonHintsManagerRef inkWidgetReference
----@field private contactsRef inkWidgetReference
----@field private dialogRef inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private dialogController MessengerDialogViewController
----@field private listController SimpleMessengerContactsVirtualListController
----@field private journalManager gameJournalManager
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private activeData MessengerContactSyncData
+---@field buttonHintsManagerRef inkWidgetReference
+---@field contactsRef inkWidgetReference
+---@field dialogRef inkWidgetReference
+---@field buttonHintsController ButtonHints
+---@field dialogController MessengerDialogViewController
+---@field listController SimpleMessengerContactsVirtualListController
+---@field journalManager gameJournalManager
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field activeData MessengerContactSyncData
 MessengerGameController = {}
 
 ---@param fields? MessengerGameController
 ---@return MessengerGameController
-function MessengerGameController.new(fields) return end
+function MessengerGameController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MessengerGameController:OnBack(userData) return end
+function MessengerGameController:OnBack(userData) end
 
----@protected
 ---@param evt MessengerContactSelectedEvent
 ---@return Bool
-function MessengerGameController:OnContactActivated(evt) return end
+function MessengerGameController:OnContactActivated(evt) end
 
----@protected
 ---@return Bool
-function MessengerGameController:OnInitialize() return end
+function MessengerGameController:OnInitialize() end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function MessengerGameController:OnJournalUpdate(entryHash, className, notifyOption, changeType) return end
+function MessengerGameController:OnJournalUpdate(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@param evt MessengerForceSelectionEvent
 ---@return Bool
-function MessengerGameController:OnMessengerGameControllerDelayInit(evt) return end
+function MessengerGameController:OnMessengerGameControllerDelayInit(evt) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function MessengerGameController:OnPlayerAttach(playerPuppet) return end
+function MessengerGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function MessengerGameController:OnPlayerDetach(playerPuppet) return end
+function MessengerGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function MessengerGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function MessengerGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MessengerGameController:OnSetUserData(userData) return end
+function MessengerGameController:OnSetUserData(userData) end
 
----@protected
 ---@return Bool
-function MessengerGameController:OnUninitialize() return end
+function MessengerGameController:OnUninitialize() end
 
----@private
 ---@param hash Int32
 ---@param dontToggle? Bool
 ---@return nil
-function MessengerGameController:ForceSelectEntry(hash, dontToggle) return end
+function MessengerGameController:ForceSelectEntry(hash, dontToggle) end
 
----@private
 ---@param idx Uint32
 ---@param dontToggle? Bool
 ---@return nil
-function MessengerGameController:ForceSelectIndex(idx, dontToggle) return end
+function MessengerGameController:ForceSelectIndex(idx, dontToggle) end
 
----@private
 ---@return nil
-function MessengerGameController:PopulateData() return end
+function MessengerGameController:PopulateData() end
 
----@private
 ---@param evt MessengerContactSelectedEvent
 ---@return nil
-function MessengerGameController:SyncActiveData(evt) return end
+function MessengerGameController:SyncActiveData(evt) end

@@ -5,4 +5,4 @@ FunctionalTestsGameEngine = {}
 
 ---@param fields? FunctionalTestsGameEngine
 ---@return FunctionalTestsGameEngine
-function FunctionalTestsGameEngine.new(fields) return end
+function FunctionalTestsGameEngine.new(fields) end

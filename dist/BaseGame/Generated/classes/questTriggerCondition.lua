@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questTriggerCondition: questCondition
----@field public type questTriggerConditionType
----@field public triggerAreaRef NodeRef
----@field public activatorRef gameEntityReference
----@field public isPlayerActivator Bool
+---@field type questTriggerConditionType
+---@field triggerAreaRef NodeRef
+---@field activatorRef gameEntityReference
+---@field isPlayerActivator Bool
 questTriggerCondition = {}
 
 ---@param fields? questTriggerCondition
 ---@return questTriggerCondition
-function questTriggerCondition.new(fields) return end
+function questTriggerCondition.new(fields) end

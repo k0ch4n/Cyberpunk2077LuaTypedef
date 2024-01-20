@@ -1,130 +1,119 @@
 ---@meta
 
 ---@class characterCreationBodyMorphOption: CharacterCreationBodyMorphBaseOption
----@field private optionLabel inkTextWidgetReference
----@field private selectedLabel inkTextWidgetReference
----@field private selectorNextBtn inkWidgetReference
----@field private selectorPrevBtn inkWidgetReference
----@field private selectorTexture inkImageWidgetReference
----@field private arrowsTexture inkImageWidgetReference
----@field private optionSwitchHint inkWidgetReference
----@field private selectorOption gameuiCharacterCustomizationOption
----@field private morphInfo gameuiMorphInfo
----@field private appearanceInfo gameuiAppearanceInfo
----@field private switcherInfo gameuiSwitcherInfo
----@field private currSelectorIndex Int32
----@field private selector inkWidget
----@field private inputDisabled Bool
----@field public animationProxy inkanimProxy
+---@field optionLabel inkTextWidgetReference
+---@field selectedLabel inkTextWidgetReference
+---@field selectorNextBtn inkWidgetReference
+---@field selectorPrevBtn inkWidgetReference
+---@field selectorTexture inkImageWidgetReference
+---@field arrowsTexture inkImageWidgetReference
+---@field optionSwitchHint inkWidgetReference
+---@field selectorOption gameuiCharacterCustomizationOption
+---@field morphInfo gameuiMorphInfo
+---@field appearanceInfo gameuiAppearanceInfo
+---@field switcherInfo gameuiSwitcherInfo
+---@field currSelectorIndex Int32
+---@field selector inkWidget
+---@field inputDisabled Bool
+---@field animationProxy inkanimProxy
 characterCreationBodyMorphOption = {}
 
 ---@param fields? characterCreationBodyMorphOption
 ---@return characterCreationBodyMorphOption
-function characterCreationBodyMorphOption.new(fields) return end
+function characterCreationBodyMorphOption.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnHoverOutNext(e) return end
+function characterCreationBodyMorphOption:OnHoverOutNext(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnHoverOutPrev(e) return end
+function characterCreationBodyMorphOption:OnHoverOutPrev(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnHoverOutWidget(e) return end
+function characterCreationBodyMorphOption:OnHoverOutWidget(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnHoverOverNext(e) return end
+function characterCreationBodyMorphOption:OnHoverOverNext(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnHoverOverPrev(e) return end
+function characterCreationBodyMorphOption:OnHoverOverPrev(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnHoverOverWidget(e) return end
+function characterCreationBodyMorphOption:OnHoverOverWidget(e) end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphOption:OnInitialize() return end
+function characterCreationBodyMorphOption:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnNext(e) return end
+function characterCreationBodyMorphOption:OnNext(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnPrev(e) return end
+function characterCreationBodyMorphOption:OnPrev(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOption:OnShortcutPress(e) return end
+function characterCreationBodyMorphOption:OnShortcutPress(e) end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphOption:OnUninitialize() return end
+function characterCreationBodyMorphOption:OnUninitialize() end
 
 ---@param v Int32
 ---@param min Int32
 ---@param max Int32
 ---@return Int32
-function characterCreationBodyMorphOption:Circle(v, min, max) return end
+function characterCreationBodyMorphOption:Circle(v, min, max) end
 
 ---@return Uint32
-function characterCreationBodyMorphOption:GetSelectorIndex() return end
+function characterCreationBodyMorphOption:GetSelectorIndex() end
 
 ---@return gameuiCharacterCustomizationOption
-function characterCreationBodyMorphOption:GetSelectorOption() return end
+function characterCreationBodyMorphOption:GetSelectorOption() end
 
 ---@return nil
-function characterCreationBodyMorphOption:Next() return end
+function characterCreationBodyMorphOption:Next() end
 
 ---@return nil
-function characterCreationBodyMorphOption:Previous() return end
+function characterCreationBodyMorphOption:Previous() end
 
 ---@return nil
-function characterCreationBodyMorphOption:RefreshView() return end
+function characterCreationBodyMorphOption:RefreshView() end
 
 ---@return nil
-function characterCreationBodyMorphOption:ResetOption() return end
+function characterCreationBodyMorphOption:ResetOption() end
 
 ---@param disabled Bool
 ---@return nil
-function characterCreationBodyMorphOption:SetInputDisabled(disabled) return end
+function characterCreationBodyMorphOption:SetInputDisabled(disabled) end
 
 ---@param option gameuiCharacterCustomizationOption
 ---@return nil
-function characterCreationBodyMorphOption:SetOption(option) return end
+function characterCreationBodyMorphOption:SetOption(option) end
 
 ---@param appearanceInfo gameuiAppearanceInfo
 ---@param currIndex Int32
 ---@param force? Bool
 ---@return nil
-function characterCreationBodyMorphOption:SetSelectedAppearanceDefinition(appearanceInfo, currIndex, force) return end
+function characterCreationBodyMorphOption:SetSelectedAppearanceDefinition(appearanceInfo, currIndex, force) end
 
 ---@param morphInfo gameuiMorphInfo
 ---@param currIndex Int32
 ---@param force? Bool
 ---@return nil
-function characterCreationBodyMorphOption:SetSelectedMorphName(morphInfo, currIndex, force) return end
+function characterCreationBodyMorphOption:SetSelectedMorphName(morphInfo, currIndex, force) end
 
 ---@param switcherInfo gameuiSwitcherInfo
 ---@param currIndex Int32
 ---@param force? Bool
 ---@return nil
-function characterCreationBodyMorphOption:SetSelectedSwitcherOption(switcherInfo, currIndex, force) return end
+function characterCreationBodyMorphOption:SetSelectedSwitcherOption(switcherInfo, currIndex, force) end
 
 ---@param option gameuiCharacterCustomizationOption
 ---@return nil
-function characterCreationBodyMorphOption:SetSelectorOption(option) return end
+function characterCreationBodyMorphOption:SetSelectorOption(option) end

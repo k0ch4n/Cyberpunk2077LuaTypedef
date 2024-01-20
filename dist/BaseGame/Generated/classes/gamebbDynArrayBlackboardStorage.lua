@@ -5,4 +5,4 @@ gamebbDynArrayBlackboardStorage = {}
 
 ---@param fields? gamebbDynArrayBlackboardStorage
 ---@return gamebbDynArrayBlackboardStorage
-function gamebbDynArrayBlackboardStorage.new(fields) return end
+function gamebbDynArrayBlackboardStorage.new(fields) end

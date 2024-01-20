@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnSceneEventId
----@field public id Uint64
+---@field id Uint64
 scnSceneEventId = {}
 
 ---@param fields? scnSceneEventId
 ---@return scnSceneEventId
-function scnSceneEventId.new(fields) return end
+function scnSceneEventId.new(fields) end

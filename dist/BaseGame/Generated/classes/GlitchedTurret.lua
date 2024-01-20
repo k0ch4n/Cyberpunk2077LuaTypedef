@@ -1,46 +1,39 @@
 ---@meta
 
 ---@class GlitchedTurret: Device
----@field public animFeature AnimFeature_SensorDevice
+---@field animFeature AnimFeature_SensorDevice
 GlitchedTurret = {}
 
 ---@param fields? GlitchedTurret
 ---@return GlitchedTurret
-function GlitchedTurret.new(fields) return end
+function GlitchedTurret.new(fields) end
 
----@protected
 ---@return Bool
-function GlitchedTurret:OnGameAttached() return end
+function GlitchedTurret:OnGameAttached() end
 
----@protected
 ---@param evt QuestForceGlitch
 ---@return Bool
-function GlitchedTurret:OnQuestForceGlitch(evt) return end
+function GlitchedTurret:OnQuestForceGlitch(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function GlitchedTurret:OnRequestComponents(ri) return end
+function GlitchedTurret:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function GlitchedTurret:OnTakeControl(ri) return end
+function GlitchedTurret:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function GlitchedTurret:DeterminGameplayRole() return end
+function GlitchedTurret:DeterminGameplayRole() end
 
----@private
 ---@return GlitchedTurretController
-function GlitchedTurret:GetController() return end
+function GlitchedTurret:GetController() end
 
 ---@return GlitchedTurretControllerPS
-function GlitchedTurret:GetDevicePS() return end
+function GlitchedTurret:GetDevicePS() end
 
----@protected
 ---@return Bool
-function GlitchedTurret:HasAnyDirectInteractionActive() return end
+function GlitchedTurret:HasAnyDirectInteractionActive() end
 
----@protected
 ---@return nil
-function GlitchedTurret:TurnOnDevice() return end
+function GlitchedTurret:TurnOnDevice() end

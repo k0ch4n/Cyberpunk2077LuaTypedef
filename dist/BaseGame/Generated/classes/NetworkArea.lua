@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class NetworkArea: InteractiveMasterDevice
----@field private area gameStaticTriggerAreaComponent
+---@field area gameStaticTriggerAreaComponent
 NetworkArea = {}
 
 ---@param fields? NetworkArea
 ---@return NetworkArea
-function NetworkArea.new(fields) return end
+function NetworkArea.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function NetworkArea:OnAreaEnter(evt) return end
+function NetworkArea:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function NetworkArea:OnAreaExit(evt) return end
+function NetworkArea:OnAreaExit(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function NetworkArea:OnRequestComponents(ri) return end
+function NetworkArea:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function NetworkArea:OnTakeControl(ri) return end
+function NetworkArea:OnTakeControl(ri) end
 
----@private
 ---@return NetworkAreaController
-function NetworkArea:GetController() return end
+function NetworkArea:GetController() end
 
 ---@return NetworkAreaControllerPS
-function NetworkArea:GetDevicePS() return end
+function NetworkArea:GetDevicePS() end

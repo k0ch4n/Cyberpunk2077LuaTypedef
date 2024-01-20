@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class locVoLanguageDataMap: ISerializable
----@field public entries locVoLanguageDataEntry[]
+---@field entries locVoLanguageDataEntry[]
 locVoLanguageDataMap = {}
 
 ---@param fields? locVoLanguageDataMap
 ---@return locVoLanguageDataMap
-function locVoLanguageDataMap.new(fields) return end
+function locVoLanguageDataMap.new(fields) end

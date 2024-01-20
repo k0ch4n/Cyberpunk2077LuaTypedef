@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class StimParams
----@field public reactionOutput ReactionOutput
----@field public stimData StimEventData
+---@field reactionOutput ReactionOutput
+---@field stimData StimEventData
 StimParams = {}
 
 ---@param fields? StimParams
 ---@return StimParams
-function StimParams.new(fields) return end
+function StimParams.new(fields) end

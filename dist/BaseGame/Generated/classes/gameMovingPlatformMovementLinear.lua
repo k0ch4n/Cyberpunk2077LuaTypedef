@@ -5,4 +5,4 @@ gameMovingPlatformMovementLinear = {}
 
 ---@param fields? gameMovingPlatformMovementLinear
 ---@return gameMovingPlatformMovementLinear
-function gameMovingPlatformMovementLinear.new(fields) return end
+function gameMovingPlatformMovementLinear.new(fields) end

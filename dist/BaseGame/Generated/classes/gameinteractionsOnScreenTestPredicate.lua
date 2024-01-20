@@ -5,4 +5,4 @@ gameinteractionsOnScreenTestPredicate = {}
 
 ---@param fields? gameinteractionsOnScreenTestPredicate
 ---@return gameinteractionsOnScreenTestPredicate
-function gameinteractionsOnScreenTestPredicate.new(fields) return end
+function gameinteractionsOnScreenTestPredicate.new(fields) end

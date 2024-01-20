@@ -5,7 +5,7 @@ BillboardDeviceController = {}
 
 ---@param fields? BillboardDeviceController
 ---@return BillboardDeviceController
-function BillboardDeviceController.new(fields) return end
+function BillboardDeviceController.new(fields) end
 
 ---@return BillboardDeviceControllerPS
-function BillboardDeviceController:GetPS() return end
+function BillboardDeviceController:GetPS() end

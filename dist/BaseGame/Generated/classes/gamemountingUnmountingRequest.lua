@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamemountingUnmountingRequest: IScriptable
----@field public lowLevelMountingInfo gamemountingMountingInfo
----@field public mountData gameMountEventData
----@field public delay Float
+---@field lowLevelMountingInfo gamemountingMountingInfo
+---@field mountData gameMountEventData
+---@field delay Float
 gamemountingUnmountingRequest = {}
 
 ---@param fields? gamemountingUnmountingRequest
 ---@return gamemountingUnmountingRequest
-function gamemountingUnmountingRequest.new(fields) return end
+function gamemountingUnmountingRequest.new(fields) end

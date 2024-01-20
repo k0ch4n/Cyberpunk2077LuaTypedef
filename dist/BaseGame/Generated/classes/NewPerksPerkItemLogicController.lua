@@ -1,127 +1,117 @@
 ---@meta
 
 ---@class NewPerksPerkItemLogicController: inkWidgetLogicController
----@field private icon inkImageWidgetReference
----@field private iconGhost inkImageWidgetReference
----@field private lockIcon inkWidgetReference
----@field private requiredPointsText inkTextWidgetReference
----@field private levelText inkTextWidgetReference
----@field private DEV_notYetImplemented inkWidgetReference
----@field private container NewPerksPerkContainerLogicController
----@field private initData NewPerksPerkItemInitData
----@field private isUnlocked Bool
----@field private currentLevel Int32
----@field private hovered Bool
----@field private maxedAnimProxy inkanimProxy
----@field private animProxies inkanimProxy[]
----@field private isRelic Bool
+---@field icon inkImageWidgetReference
+---@field iconGhost inkImageWidgetReference
+---@field lockIcon inkWidgetReference
+---@field requiredPointsText inkTextWidgetReference
+---@field levelText inkTextWidgetReference
+---@field DEV_notYetImplemented inkWidgetReference
+---@field container NewPerksPerkContainerLogicController
+---@field initData NewPerksPerkItemInitData
+---@field isUnlocked Bool
+---@field currentLevel Int32
+---@field hovered Bool
+---@field maxedAnimProxy inkanimProxy
+---@field animProxies inkanimProxy[]
+---@field isRelic Bool
 NewPerksPerkItemLogicController = {}
 
 ---@param fields? NewPerksPerkItemLogicController
 ---@return NewPerksPerkItemLogicController
-function NewPerksPerkItemLogicController.new(fields) return end
+function NewPerksPerkItemLogicController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksPerkItemLogicController:OnHoverOut(evt) return end
+function NewPerksPerkItemLogicController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksPerkItemLogicController:OnHoverOver(evt) return end
+function NewPerksPerkItemLogicController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function NewPerksPerkItemLogicController:OnInitialize() return end
+function NewPerksPerkItemLogicController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksPerkItemLogicController:OnRelease(evt) return end
+function NewPerksPerkItemLogicController:OnRelease(evt) end
 
----@private
 ---@return String
-function NewPerksPerkItemLogicController:GetAnimationPrefix() return end
+function NewPerksPerkItemLogicController:GetAnimationPrefix() end
 
----@private
 ---@param type NewPerkCellAnimationType
 ---@return CName
-function NewPerksPerkItemLogicController:GetAnimationSound(type) return end
+function NewPerksPerkItemLogicController:GetAnimationSound(type) end
 
----@private
 ---@param type NewPerkCellAnimationType
 ---@return String
-function NewPerksPerkItemLogicController:GetAnimationSuffix(type) return end
+function NewPerksPerkItemLogicController:GetAnimationSuffix(type) end
 
 ---@return NewPerksPerkContainerLogicController
-function NewPerksPerkItemLogicController:GetContainer() return end
+function NewPerksPerkItemLogicController:GetContainer() end
 
 ---@return Int32
-function NewPerksPerkItemLogicController:GetLevel() return end
+function NewPerksPerkItemLogicController:GetLevel() end
 
 ---@return Int32
-function NewPerksPerkItemLogicController:GetMaxLevel() return end
+function NewPerksPerkItemLogicController:GetMaxLevel() end
 
 ---@return NewPerkDisplayData
-function NewPerksPerkItemLogicController:GetNewPerkDisplayData() return end
+function NewPerksPerkItemLogicController:GetNewPerkDisplayData() end
 
 ---@return gamedataNewPerk_Record
-function NewPerksPerkItemLogicController:GetPerkRecord() return end
+function NewPerksPerkItemLogicController:GetPerkRecord() end
 
 ---@return gamedataNewPerkType
-function NewPerksPerkItemLogicController:GetPerkType() return end
+function NewPerksPerkItemLogicController:GetPerkType() end
 
----@private
 ---@param type NewPerkCellAnimationType
 ---@return inkRumbleStrength
-function NewPerksPerkItemLogicController:GetRumbleStrength(type) return end
+function NewPerksPerkItemLogicController:GetRumbleStrength(type) end
 
 ---@return gamedataNewPerkSlotType
-function NewPerksPerkItemLogicController:GetSlotIdentifier() return end
+function NewPerksPerkItemLogicController:GetSlotIdentifier() end
 
----@private
 ---@param type NewPerkCellAnimationType
 ---@return CName
-function NewPerksPerkItemLogicController:GetTargetAnimation(type) return end
+function NewPerksPerkItemLogicController:GetTargetAnimation(type) end
 
 ---@param container NewPerksPerkContainerLogicController
 ---@param initData NewPerksPerkItemInitData
 ---@return nil
-function NewPerksPerkItemLogicController:Initialize(container, initData) return end
+function NewPerksPerkItemLogicController:Initialize(container, initData) end
 
 ---@return Bool
-function NewPerksPerkItemLogicController:IsAttributeRequirementMet() return end
+function NewPerksPerkItemLogicController:IsAttributeRequirementMet() end
 
 ---@return Bool
-function NewPerksPerkItemLogicController:IsMaxed() return end
+function NewPerksPerkItemLogicController:IsMaxed() end
 
 ---@return Bool
-function NewPerksPerkItemLogicController:IsUnlocked() return end
+function NewPerksPerkItemLogicController:IsUnlocked() end
 
 ---@param type NewPerkCellAnimationType
 ---@return nil
-function NewPerksPerkItemLogicController:PlayAnimation(type) return end
+function NewPerksPerkItemLogicController:PlayAnimation(type) end
 
----@private
 ---@param type NewPerkCellAnimationType
 ---@return nil
-function NewPerksPerkItemLogicController:PlaySoundForAnim(type) return end
+function NewPerksPerkItemLogicController:PlaySoundForAnim(type) end
 
 ---@param value Bool
 ---@return nil
-function NewPerksPerkItemLogicController:SetAttributeRequirementMet(value) return end
+function NewPerksPerkItemLogicController:SetAttributeRequirementMet(value) end
 
 ---@param level Int32
 ---@return nil
-function NewPerksPerkItemLogicController:SetLevel(level) return end
+function NewPerksPerkItemLogicController:SetLevel(level) end
 
 ---@param value Bool
 ---@return nil
-function NewPerksPerkItemLogicController:SetUnlocked(value) return end
+function NewPerksPerkItemLogicController:SetUnlocked(value) end
 
 ---@return nil
-function NewPerksPerkItemLogicController:StopAllAnimations() return end
+function NewPerksPerkItemLogicController:StopAllAnimations() end
 
 ---@return nil
-function NewPerksPerkItemLogicController:UpdateState() return end
+function NewPerksPerkItemLogicController:UpdateState() end

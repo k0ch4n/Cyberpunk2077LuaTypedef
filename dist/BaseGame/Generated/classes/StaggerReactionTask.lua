@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class StaggerReactionTask: AIHitReactionTask
----@field public tweakDBPackage TweakDBID
----@field public tumble Bool
----@field public onUpdateCompleted Bool
+---@field tweakDBPackage TweakDBID
+---@field tumble Bool
+---@field onUpdateCompleted Bool
 StaggerReactionTask = {}
 
 ---@param fields? StaggerReactionTask
 ---@return StaggerReactionTask
-function StaggerReactionTask.new(fields) return end
+function StaggerReactionTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function StaggerReactionTask:Activate(context) return end
+function StaggerReactionTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function StaggerReactionTask:GetDesiredHitReactionDuration(context) return end
+function StaggerReactionTask:GetDesiredHitReactionDuration(context) end
 
----@private
 ---@return animHitReactionType
-function StaggerReactionTask:GetHitReactionType() return end
+function StaggerReactionTask:GetHitReactionType() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function StaggerReactionTask:OnDeactivate(context) return end
+function StaggerReactionTask:OnDeactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param aiTime Float
 ---@return nil
-function StaggerReactionTask:OnUpdate(context, aiTime) return end
+function StaggerReactionTask:OnUpdate(context, aiTime) end

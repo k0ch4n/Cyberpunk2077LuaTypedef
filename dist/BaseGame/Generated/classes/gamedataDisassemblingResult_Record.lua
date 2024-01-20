@@ -5,22 +5,22 @@ gamedataDisassemblingResult_Record = {}
 
 ---@param fields? gamedataDisassemblingResult_Record
 ---@return gamedataDisassemblingResult_Record
-function gamedataDisassemblingResult_Record.new(fields) return end
+function gamedataDisassemblingResult_Record.new(fields) end
 
 ---@return Int32
-function gamedataDisassemblingResult_Record:GetIngredientsCount() return end
+function gamedataDisassemblingResult_Record:GetIngredientsCount() end
 
 ---@param index Int32
 ---@return gamedataRecipeElement_Record
-function gamedataDisassemblingResult_Record:GetIngredientsItem(index) return end
+function gamedataDisassemblingResult_Record:GetIngredientsItem(index) end
 
 ---@param index Int32
 ---@return gamedataRecipeElement_Record
-function gamedataDisassemblingResult_Record:GetIngredientsItemHandle(index) return end
+function gamedataDisassemblingResult_Record:GetIngredientsItemHandle(index) end
 
 ---@return nil, gamedataRecipeElement_Record[] outList
-function gamedataDisassemblingResult_Record:Ingredients() return end
+function gamedataDisassemblingResult_Record:Ingredients() end
 
 ---@param item gamedataRecipeElement_Record
 ---@return Bool
-function gamedataDisassemblingResult_Record:IngredientsContains(item) return end
+function gamedataDisassemblingResult_Record:IngredientsContains(item) end

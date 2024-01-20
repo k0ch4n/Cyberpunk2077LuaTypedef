@@ -1,38 +1,38 @@
 ---@meta
 
 ---@class gameinteractionsChoiceCaption
----@field public parts gameinteractionsChoiceCaptionPart[]
+---@field parts gameinteractionsChoiceCaptionPart[]
 gameinteractionsChoiceCaption = {}
 
 ---@param fields? gameinteractionsChoiceCaption
 ---@return gameinteractionsChoiceCaption
-function gameinteractionsChoiceCaption.new(fields) return end
+function gameinteractionsChoiceCaption.new(fields) end
 
 ---@param self gameinteractionsChoiceCaption
 ---@param record gamedataChoiceCaptionPart_Record
 ---@return nil
-function gameinteractionsChoiceCaption.AddPartFromRecord(self, record) return end
+function gameinteractionsChoiceCaption.AddPartFromRecord(self, record) end
 
 ---@param self gameinteractionsChoiceCaption
 ---@param recordId gamedataTDBIDHelper
 ---@return nil
-function gameinteractionsChoiceCaption.AddPartFromRecordID(self, recordId) return end
+function gameinteractionsChoiceCaption.AddPartFromRecordID(self, recordId) end
 
 ---@param self gameinteractionsChoiceCaption
 ---@param part gameinteractionsChoiceCaptionScriptPart
 ---@return nil
-function gameinteractionsChoiceCaption.AddScriptPart(self, part) return end
+function gameinteractionsChoiceCaption.AddScriptPart(self, part) end
 
 ---@param self gameinteractionsChoiceCaption
 ---@param tag String
 ---@return nil
-function gameinteractionsChoiceCaption.AddTagPart(self, tag) return end
+function gameinteractionsChoiceCaption.AddTagPart(self, tag) end
 
 ---@param self gameinteractionsChoiceCaption
 ---@param text String
 ---@return nil
-function gameinteractionsChoiceCaption.AddTextPart(self, text) return end
+function gameinteractionsChoiceCaption.AddTextPart(self, text) end
 
 ---@param self gameinteractionsChoiceCaption
 ---@return nil
-function gameinteractionsChoiceCaption.Clear(self) return end
+function gameinteractionsChoiceCaption.Clear(self) end

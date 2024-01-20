@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scneventsDespawnEntityEvent: scnSceneEvent
----@field public params scneventsDespawnEntityEventParams
+---@field params scneventsDespawnEntityEventParams
 scneventsDespawnEntityEvent = {}
 
 ---@param fields? scneventsDespawnEntityEvent
 ---@return scneventsDespawnEntityEvent
-function scneventsDespawnEntityEvent.new(fields) return end
+function scneventsDespawnEntityEvent.new(fields) end

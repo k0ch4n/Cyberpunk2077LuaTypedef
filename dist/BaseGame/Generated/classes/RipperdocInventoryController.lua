@@ -1,66 +1,61 @@
 ---@meta
 
 ---@class RipperdocInventoryController: inkWidgetLogicController
----@field private virtualGridContainer inkVirtualCompoundWidgetReference
----@field private scrollBarContainer inkWidgetReference
----@field private labelPrefix inkTextWidgetReference
----@field private labelSuffix inkTextWidgetReference
----@field private virtualGrid inkVirtualGridController
----@field private backpackItemsClassifier RipperdocInventoryTemplateClassifier
----@field private backpackItemsDataSource inkScriptableDataSourceWrapper
----@field private backpackItemsDataView inkScriptableDataViewWrapper
----@field private scrollBar inkScrollController
----@field private root inkWidget
----@field private opacityAnimation inkanimProxy
----@field private labelPulse PulseAnimation
----@field private cachedPlayerItems RipperdocWrappedUIInventoryItem[]
----@field private cachedVendorItems RipperdocWrappedUIInventoryItem[]
----@field private cachedArea gamedataEquipmentArea
----@field private openArea gamedataEquipmentArea
----@field private cachedAttribute gamedataStatType
----@field private openAttribute gamedataStatType
----@field private hasCache Bool
----@field private isAreaCache Bool
+---@field virtualGridContainer inkVirtualCompoundWidgetReference
+---@field scrollBarContainer inkWidgetReference
+---@field labelPrefix inkTextWidgetReference
+---@field labelSuffix inkTextWidgetReference
+---@field virtualGrid inkVirtualGridController
+---@field backpackItemsClassifier RipperdocInventoryTemplateClassifier
+---@field backpackItemsDataSource inkScriptableDataSourceWrapper
+---@field backpackItemsDataView inkScriptableDataViewWrapper
+---@field scrollBar inkScrollController
+---@field root inkWidget
+---@field opacityAnimation inkanimProxy
+---@field labelPulse PulseAnimation
+---@field cachedPlayerItems RipperdocWrappedUIInventoryItem[]
+---@field cachedVendorItems RipperdocWrappedUIInventoryItem[]
+---@field cachedArea gamedataEquipmentArea
+---@field openArea gamedataEquipmentArea
+---@field cachedAttribute gamedataStatType
+---@field openAttribute gamedataStatType
+---@field hasCache Bool
+---@field isAreaCache Bool
 RipperdocInventoryController = {}
 
 ---@param fields? RipperdocInventoryController
 ---@return RipperdocInventoryController
-function RipperdocInventoryController.new(fields) return end
+function RipperdocInventoryController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function RipperdocInventoryController:OnShow(anim) return end
+function RipperdocInventoryController:OnShow(anim) end
 
----@protected
 ---@return Bool
-function RipperdocInventoryController:OnUninitialize() return end
+function RipperdocInventoryController:OnUninitialize() end
 
----@private
 ---@param toHidden Bool
 ---@return nil
-function RipperdocInventoryController:AnimateOpacity(toHidden) return end
+function RipperdocInventoryController:AnimateOpacity(toHidden) end
 
 ---@param scripting UIScriptableSystem
 ---@return nil
-function RipperdocInventoryController:Configure(scripting) return end
+function RipperdocInventoryController:Configure(scripting) end
 
 ---@return nil
-function RipperdocInventoryController:Hide() return end
-
----@private
----@return nil
-function RipperdocInventoryController:PopulateInventory() return end
+function RipperdocInventoryController:Hide() end
 
 ---@return nil
-function RipperdocInventoryController:ReleaseVirtualGrid() return end
+function RipperdocInventoryController:PopulateInventory() end
 
----@protected
 ---@return nil
-function RipperdocInventoryController:SetupVirtualGrid() return end
+function RipperdocInventoryController:ReleaseVirtualGrid() end
+
+---@return nil
+function RipperdocInventoryController:SetupVirtualGrid() end
 
 ---@param playerItems RipperdocWrappedUIInventoryItem[]
 ---@param vendorItems RipperdocWrappedUIInventoryItem[]
 ---@param area gamedataEquipmentArea
 ---@return nil
-function RipperdocInventoryController:ShowArea(playerItems, vendorItems, area) return end
+function RipperdocInventoryController:ShowArea(playerItems, vendorItems, area) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeMenuController: gameuiarcadeIArcadeScreenController
----@field public startArrow inkWidgetReference
----@field public scoreboardArrow inkWidgetReference
+---@field startArrow inkWidgetReference
+---@field scoreboardArrow inkWidgetReference
 gameuiarcadeArcadeMenuController = {}
 
 ---@param fields? gameuiarcadeArcadeMenuController
 ---@return gameuiarcadeArcadeMenuController
-function gameuiarcadeArcadeMenuController.new(fields) return end
+function gameuiarcadeArcadeMenuController.new(fields) end

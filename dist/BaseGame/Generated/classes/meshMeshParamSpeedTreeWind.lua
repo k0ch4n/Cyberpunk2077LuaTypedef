@@ -5,4 +5,4 @@ meshMeshParamSpeedTreeWind = {}
 
 ---@param fields? meshMeshParamSpeedTreeWind
 ---@return meshMeshParamSpeedTreeWind
-function meshMeshParamSpeedTreeWind.new(fields) return end
+function meshMeshParamSpeedTreeWind.new(fields) end

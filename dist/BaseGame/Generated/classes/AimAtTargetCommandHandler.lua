@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class AimAtTargetCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIAimAtTargetCommand
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIAimAtTargetCommand
 AimAtTargetCommandHandler = {}
 
 ---@param fields? AimAtTargetCommandHandler
 ---@return AimAtTargetCommandHandler
-function AimAtTargetCommandHandler.new(fields) return end
+function AimAtTargetCommandHandler.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AimAtTargetCommandHandler:Activate(context) return end
+function AimAtTargetCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AimAtTargetCommandHandler:Update(context) return end
+function AimAtTargetCommandHandler:Update(context) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TooltipCycleDotController: inkWidgetLogicController
----@field private slotBorder inkWidgetReference
----@field private slotBackground inkWidgetReference
+---@field slotBorder inkWidgetReference
+---@field slotBackground inkWidgetReference
 TooltipCycleDotController = {}
 
 ---@param fields? TooltipCycleDotController
 ---@return TooltipCycleDotController
-function TooltipCycleDotController.new(fields) return end
+function TooltipCycleDotController.new(fields) end
 
 ---@param active Bool
 ---@return nil
-function TooltipCycleDotController:Toggle(active) return end
+function TooltipCycleDotController:Toggle(active) end

@@ -5,7 +5,7 @@ gamedataCooldownType_Record = {}
 
 ---@param fields? gamedataCooldownType_Record
 ---@return gamedataCooldownType_Record
-function gamedataCooldownType_Record.new(fields) return end
+function gamedataCooldownType_Record.new(fields) end
 
 ---@return CName
-function gamedataCooldownType_Record:Type() return end
+function gamedataCooldownType_Record:Type() end

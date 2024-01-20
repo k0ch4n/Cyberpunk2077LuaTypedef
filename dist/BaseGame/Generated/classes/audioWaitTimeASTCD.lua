@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioWaitTimeASTCD: audioAudioStateTransitionConditionData
----@field public timeToWait Float
+---@field timeToWait Float
 audioWaitTimeASTCD = {}
 
 ---@param fields? audioWaitTimeASTCD
 ---@return audioWaitTimeASTCD
-function audioWaitTimeASTCD.new(fields) return end
+function audioWaitTimeASTCD.new(fields) end

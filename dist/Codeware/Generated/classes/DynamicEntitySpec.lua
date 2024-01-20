@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class DynamicEntitySpec: IScriptable
----@field public recordID TweakDBID
----@field public templatePath CResource
----@field public templateHash Uint64
----@field public appearanceName CName
----@field public position Vector4
----@field public orientation Quaternion
----@field public persistState Bool
----@field public persistSpawn Bool
----@field public alwaysSpawned Bool
----@field public spawnInView Bool
----@field public tags CName[]
----@field public active Bool
+---@field recordID TweakDBID
+---@field templatePath CResource
+---@field templateHash Uint64
+---@field appearanceName CName
+---@field position Vector4
+---@field orientation Quaternion
+---@field persistState Bool
+---@field persistSpawn Bool
+---@field alwaysSpawned Bool
+---@field spawnInView Bool
+---@field tags CName[]
+---@field active Bool
 DynamicEntitySpec = {}
 
 ---@param fields? DynamicEntitySpec
 ---@return DynamicEntitySpec
-function DynamicEntitySpec.new(fields) return end
+function DynamicEntitySpec.new(fields) end
 
 ---@return Bool
-function DynamicEntitySpec:IsValid() return end
+function DynamicEntitySpec:IsValid() end

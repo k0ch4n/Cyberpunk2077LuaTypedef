@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class physicsTraceResult
----@field public position Vector3
----@field public normal Vector3
----@field public material CName
+---@field position Vector3
+---@field normal Vector3
+---@field material CName
 physicsTraceResult = {}
 
 ---@param fields? physicsTraceResult
 ---@return physicsTraceResult
-function physicsTraceResult.new(fields) return end
+function physicsTraceResult.new(fields) end
 
 ---@param self physicsTraceResult
 ---@return Bool
-function physicsTraceResult.IsValid(self) return end
+function physicsTraceResult.IsValid(self) end

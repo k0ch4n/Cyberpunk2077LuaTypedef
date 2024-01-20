@@ -1,32 +1,27 @@
 ---@meta
 
 ---@class sampleVisClueMaster: gameObject
----@field private dependableEntities NodeRef[]
+---@field dependableEntities NodeRef[]
 sampleVisClueMaster = {}
 
 ---@param fields? sampleVisClueMaster
 ---@return sampleVisClueMaster
-function sampleVisClueMaster.new(fields) return end
+function sampleVisClueMaster.new(fields) end
 
----@protected
 ---@return Bool
-function sampleVisClueMaster:OnGameAttached() return end
+function sampleVisClueMaster:OnGameAttached() end
 
----@protected
 ---@param choice gameinteractionsChoiceEvent
 ---@return Bool
-function sampleVisClueMaster:OnInteractionChoice(choice) return end
+function sampleVisClueMaster:OnInteractionChoice(choice) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function sampleVisClueMaster:OnRequestComponents(ri) return end
+function sampleVisClueMaster:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function sampleVisClueMaster:OnTakeControl(ri) return end
+function sampleVisClueMaster:OnTakeControl(ri) end
 
----@private
 ---@return Bool
-function sampleVisClueMaster:IsModeOn() return end
+function sampleVisClueMaster:IsModeOn() end

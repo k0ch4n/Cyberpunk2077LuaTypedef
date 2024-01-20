@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldDbgOverlapBox
----@field public box Box
----@field public transform Transform
----@field public level Uint32
----@field public isHit Bool
+---@field box Box
+---@field transform Transform
+---@field level Uint32
+---@field isHit Bool
 worldDbgOverlapBox = {}
 
 ---@param fields? worldDbgOverlapBox
 ---@return worldDbgOverlapBox
-function worldDbgOverlapBox.new(fields) return end
+function worldDbgOverlapBox.new(fields) end

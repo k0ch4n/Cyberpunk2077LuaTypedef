@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class ModifyAttackCritChanceEffector: ModifyAttackEffector
----@field public applicationChanceMods gamedataStatModifier_Record[]
+---@field applicationChanceMods gamedataStatModifier_Record[]
 ModifyAttackCritChanceEffector = {}
 
 ---@param fields? ModifyAttackCritChanceEffector
 ---@return ModifyAttackCritChanceEffector
-function ModifyAttackCritChanceEffector.new(fields) return end
+function ModifyAttackCritChanceEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyAttackCritChanceEffector:Initialize(record, parentRecord) return end
+function ModifyAttackCritChanceEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyAttackCritChanceEffector:RepeatedAction(owner) return end
+function ModifyAttackCritChanceEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ModifyAttackCritChanceEffector:Uninitialize() return end
+function ModifyAttackCritChanceEffector:Uninitialize() end

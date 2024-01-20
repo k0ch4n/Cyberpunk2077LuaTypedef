@@ -5,8 +5,8 @@ BluelineConditionTypeBase = {}
 
 ---@param playerObject gameObject
 ---@return nil
-function BluelineConditionTypeBase:ExecuteBluelineAction(playerObject) return end
+function BluelineConditionTypeBase:ExecuteBluelineAction(playerObject) end
 
 ---@param playerObject gameObject
 ---@return gameinteractionsvisBluelinePart
-function BluelineConditionTypeBase:GetBluelinePart(playerObject) return end
+function BluelineConditionTypeBase:GetBluelinePart(playerObject) end

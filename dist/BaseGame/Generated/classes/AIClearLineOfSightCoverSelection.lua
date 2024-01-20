@@ -5,4 +5,4 @@ AIClearLineOfSightCoverSelection = {}
 
 ---@param fields? AIClearLineOfSightCoverSelection
 ---@return AIClearLineOfSightCoverSelection
-function AIClearLineOfSightCoverSelection.new(fields) return end
+function AIClearLineOfSightCoverSelection.new(fields) end

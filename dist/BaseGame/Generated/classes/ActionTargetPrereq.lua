@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class ActionTargetPrereq: gameIScriptablePrereq
----@field public targetRecord gamedataAIActionTarget_Record
----@field public invert Bool
+---@field targetRecord gamedataAIActionTarget_Record
+---@field invert Bool
 ActionTargetPrereq = {}
 
 ---@param fields? ActionTargetPrereq
 ---@return ActionTargetPrereq
-function ActionTargetPrereq.new(fields) return end
+function ActionTargetPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ActionTargetPrereq:Initialize(recordID) return end
+function ActionTargetPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function ActionTargetPrereq:IsFulfilled(context) return end
+function ActionTargetPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ActionTargetPrereq:OnApplied(state, context) return end
+function ActionTargetPrereq:OnApplied(state, context) end

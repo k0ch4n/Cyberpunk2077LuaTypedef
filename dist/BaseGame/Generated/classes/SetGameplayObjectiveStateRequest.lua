@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SetGameplayObjectiveStateRequest: gameScriptableSystemRequest
----@field public objectiveData GemplayObjectiveData
----@field public objectiveState gameJournalEntryState
+---@field objectiveData GemplayObjectiveData
+---@field objectiveState gameJournalEntryState
 SetGameplayObjectiveStateRequest = {}
 
 ---@param fields? SetGameplayObjectiveStateRequest
 ---@return SetGameplayObjectiveStateRequest
-function SetGameplayObjectiveStateRequest.new(fields) return end
+function SetGameplayObjectiveStateRequest.new(fields) end

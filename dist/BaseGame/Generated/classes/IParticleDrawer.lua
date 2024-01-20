@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class IParticleDrawer: ISerializable
----@field public pivotOffset Float
+---@field pivotOffset Float
 IParticleDrawer = {}

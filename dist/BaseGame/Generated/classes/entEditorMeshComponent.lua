@@ -5,4 +5,4 @@ entEditorMeshComponent = {}
 
 ---@param fields? entEditorMeshComponent
 ---@return entEditorMeshComponent
-function entEditorMeshComponent.new(fields) return end
+function entEditorMeshComponent.new(fields) end

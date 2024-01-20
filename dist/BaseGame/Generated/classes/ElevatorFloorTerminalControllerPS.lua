@@ -1,153 +1,136 @@
 ---@meta
 
 ---@class ElevatorFloorTerminalControllerPS: TerminalControllerPS
----@field private elevatorFloorSetup ElevatorFloorSetup
----@field private hasDirectInteration Bool
----@field protected isElevatorAtThisFloor Bool
+---@field elevatorFloorSetup ElevatorFloorSetup
+---@field hasDirectInteration Bool
+---@field isElevatorAtThisFloor Bool
 ElevatorFloorTerminalControllerPS = {}
 
 ---@param fields? ElevatorFloorTerminalControllerPS
 ---@return ElevatorFloorTerminalControllerPS
-function ElevatorFloorTerminalControllerPS.new(fields) return end
+function ElevatorFloorTerminalControllerPS.new(fields) end
 
----@protected
 ---@param isForced? Bool
 ---@return AuthorizeUser
-function ElevatorFloorTerminalControllerPS:ActionAuthorizeUser(isForced) return end
+function ElevatorFloorTerminalControllerPS:ActionAuthorizeUser(isForced) end
 
----@private
 ---@return CallElevator
-function ElevatorFloorTerminalControllerPS:ActionCallElevator() return end
+function ElevatorFloorTerminalControllerPS:ActionCallElevator() end
 
----@protected
 ---@param targetDevicePS gamePersistentState
 ---@return ForceLockElevator
-function ElevatorFloorTerminalControllerPS:ActionForceLockElevator(targetDevicePS) return end
+function ElevatorFloorTerminalControllerPS:ActionForceLockElevator(targetDevicePS) end
 
----@protected
 ---@param targetDevicePS gamePersistentState
 ---@return ForceUnlockAndOpenElevator
-function ElevatorFloorTerminalControllerPS:ActionForceUnlockAndOpenElevator(targetDevicePS) return end
+function ElevatorFloorTerminalControllerPS:ActionForceUnlockAndOpenElevator(targetDevicePS) end
 
 ---@return QuickHackAuthorization
-function ElevatorFloorTerminalControllerPS:ActionQuickHackAuthorization() return end
+function ElevatorFloorTerminalControllerPS:ActionQuickHackAuthorization() end
 
----@protected
 ---@return QuickHackCallElevator
-function ElevatorFloorTerminalControllerPS:ActionQuickHackCallElevator() return end
+function ElevatorFloorTerminalControllerPS:ActionQuickHackCallElevator() end
 
----@private
 ---@return nil
-function ElevatorFloorTerminalControllerPS:CallElevator() return end
+function ElevatorFloorTerminalControllerPS:CallElevator() end
 
----@protected
 ---@return Bool
-function ElevatorFloorTerminalControllerPS:CanCreateAnyQuickHackActions() return end
-
----@private
----@return nil
-function ElevatorFloorTerminalControllerPS:EvaluateFloor() return end
+function ElevatorFloorTerminalControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@return nil
-function ElevatorFloorTerminalControllerPS:EvaluateThisFloor() return end
+function ElevatorFloorTerminalControllerPS:EvaluateFloor() end
 
----@protected
 ---@return nil
-function ElevatorFloorTerminalControllerPS:GameAttached() return end
+function ElevatorFloorTerminalControllerPS:EvaluateThisFloor() end
+
+---@return nil
+function ElevatorFloorTerminalControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function ElevatorFloorTerminalControllerPS:GetActions(context) return end
+function ElevatorFloorTerminalControllerPS:GetActions(context) end
 
 ---@return String
-function ElevatorFloorTerminalControllerPS:GetAuthorizationTextOverride() return end
+function ElevatorFloorTerminalControllerPS:GetAuthorizationTextOverride() end
 
 ---@param context gameGetActionsContext
 ---@return SDeviceWidgetPackage
-function ElevatorFloorTerminalControllerPS:GetDeviceWidget(context) return end
+function ElevatorFloorTerminalControllerPS:GetDeviceWidget(context) end
 
 ---@return SDeviceWidgetPackage[]
-function ElevatorFloorTerminalControllerPS:GetDeviceWidgets() return end
+function ElevatorFloorTerminalControllerPS:GetDeviceWidgets() end
 
 ---@return ElevatorFloorSetup
-function ElevatorFloorTerminalControllerPS:GetElevatorFloorSetup() return end
+function ElevatorFloorTerminalControllerPS:GetElevatorFloorSetup() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function ElevatorFloorTerminalControllerPS:GetInkWidgetTweakDBID(context) return end
+function ElevatorFloorTerminalControllerPS:GetInkWidgetTweakDBID(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ElevatorFloorTerminalControllerPS:GetQuickHackActions(context) return end
+function ElevatorFloorTerminalControllerPS:GetQuickHackActions(context) end
 
 ---@param deviceID gamePersistentID
 ---@return SDeviceWidgetPackage
-function ElevatorFloorTerminalControllerPS:GetSlaveDeviceWidget(deviceID) return end
+function ElevatorFloorTerminalControllerPS:GetSlaveDeviceWidget(deviceID) end
 
 ---@return SThumbnailWidgetPackage[]
-function ElevatorFloorTerminalControllerPS:GetThumbnailWidgets() return end
+function ElevatorFloorTerminalControllerPS:GetThumbnailWidgets() end
 
----@private
 ---@return nil
-function ElevatorFloorTerminalControllerPS:HackCallElevator() return end
+function ElevatorFloorTerminalControllerPS:HackCallElevator() end
 
----@protected
 ---@return nil
-function ElevatorFloorTerminalControllerPS:Initialize() return end
+function ElevatorFloorTerminalControllerPS:Initialize() end
 
 ---@return Bool
-function ElevatorFloorTerminalControllerPS:IsElevatorAtThisFloor() return end
+function ElevatorFloorTerminalControllerPS:IsElevatorAtThisFloor() end
 
 ---@return Bool
-function ElevatorFloorTerminalControllerPS:IsLiftMoving() return end
+function ElevatorFloorTerminalControllerPS:IsLiftMoving() end
 
----@private
 ---@return nil
-function ElevatorFloorTerminalControllerPS:LockConnectedDoors() return end
+function ElevatorFloorTerminalControllerPS:LockConnectedDoors() end
 
 ---@param evt AuthorizeUser
 ---@return EntityNotificationType
-function ElevatorFloorTerminalControllerPS:OnAuthorizeUser(evt) return end
+function ElevatorFloorTerminalControllerPS:OnAuthorizeUser(evt) end
 
 ---@param evt CallElevator
 ---@return EntityNotificationType
-function ElevatorFloorTerminalControllerPS:OnCallElevator(evt) return end
+function ElevatorFloorTerminalControllerPS:OnCallElevator(evt) end
 
 ---@param evt LiftArrivedEvent
 ---@return EntityNotificationType
-function ElevatorFloorTerminalControllerPS:OnLiftArrived(evt) return end
+function ElevatorFloorTerminalControllerPS:OnLiftArrived(evt) end
 
 ---@param evt LiftDepartedEvent
 ---@return EntityNotificationType
-function ElevatorFloorTerminalControllerPS:OnLiftDeparted(evt) return end
+function ElevatorFloorTerminalControllerPS:OnLiftDeparted(evt) end
 
 ---@param evt LiftFloorSyncDataEvent
 ---@return EntityNotificationType
-function ElevatorFloorTerminalControllerPS:OnLiftFloorSyncDataEvent(evt) return end
+function ElevatorFloorTerminalControllerPS:OnLiftFloorSyncDataEvent(evt) end
 
 ---@param evt QuickHackAuthorization
 ---@return EntityNotificationType
-function ElevatorFloorTerminalControllerPS:OnQuickHackAuthorization(evt) return end
+function ElevatorFloorTerminalControllerPS:OnQuickHackAuthorization(evt) end
 
 ---@param evt QuickHackCallElevator
 ---@return EntityNotificationType
-function ElevatorFloorTerminalControllerPS:OnQuickHackCallElevator(evt) return end
+function ElevatorFloorTerminalControllerPS:OnQuickHackCallElevator(evt) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function ElevatorFloorTerminalControllerPS:PushInactiveInteractionChoice(context, choices) return end
-
----@protected
----@return nil
-function ElevatorFloorTerminalControllerPS:SendQuickHackAuthorizationToParents() return end
+function ElevatorFloorTerminalControllerPS:PushInactiveInteractionChoice(context, choices) end
 
 ---@return nil
-function ElevatorFloorTerminalControllerPS:TurnAuthorizationModuleOFF() return end
+function ElevatorFloorTerminalControllerPS:SendQuickHackAuthorizationToParents() end
 
----@private
 ---@return nil
-function ElevatorFloorTerminalControllerPS:UnlockConnectedDoors() return end
+function ElevatorFloorTerminalControllerPS:TurnAuthorizationModuleOFF() end
+
+---@return nil
+function ElevatorFloorTerminalControllerPS:UnlockConnectedDoors() end

@@ -5,4 +5,4 @@ inkCacheWidgetReference = {}
 
 ---@param fields? inkCacheWidgetReference
 ---@return inkCacheWidgetReference
-function inkCacheWidgetReference.new(fields) return end
+function inkCacheWidgetReference.new(fields) end

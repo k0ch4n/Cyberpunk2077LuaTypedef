@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entRagdollImpactEvent: redEvent
----@field public otherEntity entEntity
----@field public triggeredSimulation Bool
----@field public impactPoints entRagdollImpactPointData[]
+---@field otherEntity entEntity
+---@field triggeredSimulation Bool
+---@field impactPoints entRagdollImpactPointData[]
 entRagdollImpactEvent = {}
 
 ---@param fields? entRagdollImpactEvent
 ---@return entRagdollImpactEvent
-function entRagdollImpactEvent.new(fields) return end
+function entRagdollImpactEvent.new(fields) end

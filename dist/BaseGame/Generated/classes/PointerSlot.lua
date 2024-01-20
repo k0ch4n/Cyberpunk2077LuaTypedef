@@ -5,7 +5,7 @@ PointerSlot = {}
 
 ---@param fields? PointerSlot
 ---@return PointerSlot
-function PointerSlot.new(fields) return end
+function PointerSlot.new(fields) end
 
 ---@return PointerController
-function PointerSlot:GetController() return end
+function PointerSlot:GetController() end

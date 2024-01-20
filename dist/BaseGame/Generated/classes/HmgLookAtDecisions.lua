@@ -5,4 +5,4 @@ HmgLookAtDecisions = {}
 
 ---@param fields? HmgLookAtDecisions
 ---@return HmgLookAtDecisions
-function HmgLookAtDecisions.new(fields) return end
+function HmgLookAtDecisions.new(fields) end

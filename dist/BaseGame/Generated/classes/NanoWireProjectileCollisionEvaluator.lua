@@ -5,10 +5,9 @@ NanoWireProjectileCollisionEvaluator = {}
 
 ---@param fields? NanoWireProjectileCollisionEvaluator
 ---@return NanoWireProjectileCollisionEvaluator
-function NanoWireProjectileCollisionEvaluator.new(fields) return end
+function NanoWireProjectileCollisionEvaluator.new(fields) end
 
----@protected
 ---@param defaultOnCollisionAction gameprojectileOnCollisionAction
 ---@param params gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileOnCollisionAction
-function NanoWireProjectileCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) return end
+function NanoWireProjectileCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) end

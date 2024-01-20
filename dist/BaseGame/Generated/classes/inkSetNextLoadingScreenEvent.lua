@@ -5,11 +5,11 @@ inkSetNextLoadingScreenEvent = {}
 
 ---@param fields? inkSetNextLoadingScreenEvent
 ---@return inkSetNextLoadingScreenEvent
-function inkSetNextLoadingScreenEvent.new(fields) return end
+function inkSetNextLoadingScreenEvent.new(fields) end
 
 ---@return inkLoadingScreenType
-function inkSetNextLoadingScreenEvent:GetNextLoadingScreenType() return end
+function inkSetNextLoadingScreenEvent:GetNextLoadingScreenType() end
 
 ---@param newType inkLoadingScreenType
 ---@return nil
-function inkSetNextLoadingScreenEvent:SetNextLoadingScreenType(newType) return end
+function inkSetNextLoadingScreenEvent:SetNextLoadingScreenType(newType) end

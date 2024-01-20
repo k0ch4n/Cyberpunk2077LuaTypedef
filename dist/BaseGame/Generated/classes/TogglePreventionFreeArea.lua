@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class TogglePreventionFreeArea: gameScriptableSystemRequest
----@field public areaReference NodeRef
----@field public enable Bool
+---@field areaReference NodeRef
+---@field enable Bool
 TogglePreventionFreeArea = {}
 
 ---@param fields? TogglePreventionFreeArea
 ---@return TogglePreventionFreeArea
-function TogglePreventionFreeArea.new(fields) return end
+function TogglePreventionFreeArea.new(fields) end
 
 ---@return String
-function TogglePreventionFreeArea:GetFriendlyDesctiption() return end
+function TogglePreventionFreeArea:GetFriendlyDesctiption() end

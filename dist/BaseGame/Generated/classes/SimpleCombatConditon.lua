@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class SimpleCombatConditon: AIbehaviorconditionScript
----@field public firstCoverEvaluationDone Bool
----@field public takeCoverAbility gamedataGameplayAbility_Record
----@field public quickhackAbility gamedataGameplayAbility_Record
+---@field firstCoverEvaluationDone Bool
+---@field takeCoverAbility gamedataGameplayAbility_Record
+---@field quickhackAbility gamedataGameplayAbility_Record
 SimpleCombatConditon = {}
 
 ---@param fields? SimpleCombatConditon
 ---@return SimpleCombatConditon
-function SimpleCombatConditon.new(fields) return end
+function SimpleCombatConditon.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function SimpleCombatConditon.HasAvailableCover(context) return end
+function SimpleCombatConditon.HasAvailableCover(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleCombatConditon:Activate(context) return end
+function SimpleCombatConditon:Activate(context) end
 
----@private
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function SimpleCombatConditon:AnimationInProgress(puppet) return end
+function SimpleCombatConditon:AnimationInProgress(puppet) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function SimpleCombatConditon:Check(context) return end
+function SimpleCombatConditon:Check(context) end

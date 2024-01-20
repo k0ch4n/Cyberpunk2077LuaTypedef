@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioLanguageGameConfiguration: audioAudioMetadata
----@field public langsInProject audioLanguageMapItem[]
+---@field langsInProject audioLanguageMapItem[]
 audioLanguageGameConfiguration = {}
 
 ---@param fields? audioLanguageGameConfiguration
 ---@return audioLanguageGameConfiguration
-function audioLanguageGameConfiguration.new(fields) return end
+function audioLanguageGameConfiguration.new(fields) end

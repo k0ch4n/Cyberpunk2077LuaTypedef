@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PreventionMinMaxHeatLevels: gameScriptableSystemRequest
----@field public minLvl Int32
----@field public maxLvl Int32
----@field public isDefault Bool
+---@field minLvl Int32
+---@field maxLvl Int32
+---@field isDefault Bool
 PreventionMinMaxHeatLevels = {}
 
 ---@param fields? PreventionMinMaxHeatLevels
 ---@return PreventionMinMaxHeatLevels
-function PreventionMinMaxHeatLevels.new(fields) return end
+function PreventionMinMaxHeatLevels.new(fields) end

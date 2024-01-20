@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gamestateMachineStateContextParameters
----@field public boolParameters gamestateMachineActionParameterBool
----@field public intParameters gamestateMachineActionParameterInt
----@field public floatParameters gamestateMachineActionParameterFloat
----@field public doubleParameters gamestateMachineActionParameterDouble
----@field public vectorParameters gamestateMachineActionParameterVector
----@field public CNameParameters gamestateMachineActionParameterCName
----@field public IScriptableParameters gamestateMachineActionParameterIScriptable
----@field public tweakDBIDParameters gamestateMachineActionParameterTweakDBID
+---@field boolParameters gamestateMachineActionParameterBool
+---@field intParameters gamestateMachineActionParameterInt
+---@field floatParameters gamestateMachineActionParameterFloat
+---@field doubleParameters gamestateMachineActionParameterDouble
+---@field vectorParameters gamestateMachineActionParameterVector
+---@field CNameParameters gamestateMachineActionParameterCName
+---@field IScriptableParameters gamestateMachineActionParameterIScriptable
+---@field tweakDBIDParameters gamestateMachineActionParameterTweakDBID
 gamestateMachineStateContextParameters = {}
 
 ---@param fields? gamestateMachineStateContextParameters
 ---@return gamestateMachineStateContextParameters
-function gamestateMachineStateContextParameters.new(fields) return end
+function gamestateMachineStateContextParameters.new(fields) end

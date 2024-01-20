@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class HardToKillDamageModificationEffector: ModifyAttackEffector
----@field public criticalHealthThreshold Float
+---@field criticalHealthThreshold Float
 HardToKillDamageModificationEffector = {}
 
 ---@param fields? HardToKillDamageModificationEffector
 ---@return HardToKillDamageModificationEffector
-function HardToKillDamageModificationEffector.new(fields) return end
+function HardToKillDamageModificationEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function HardToKillDamageModificationEffector:ActionOn(owner) return end
+function HardToKillDamageModificationEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function HardToKillDamageModificationEffector:Initialize(record, parentRecord) return end
+function HardToKillDamageModificationEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function HardToKillDamageModificationEffector:ProcessAction(owner) return end
+function HardToKillDamageModificationEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function HardToKillDamageModificationEffector:RepeatedAction(owner) return end
+function HardToKillDamageModificationEffector:RepeatedAction(owner) end

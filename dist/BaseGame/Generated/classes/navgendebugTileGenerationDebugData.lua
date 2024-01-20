@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class navgendebugTileGenerationDebugData: ISerializable
----@field public tileIndex Uint32
----@field public heightfield navgendebugHeightfield
----@field public contours navgendebugContourSet
----@field public polyMesh navgendebugPolyMesh
+---@field tileIndex Uint32
+---@field heightfield navgendebugHeightfield
+---@field contours navgendebugContourSet
+---@field polyMesh navgendebugPolyMesh
 navgendebugTileGenerationDebugData = {}
 
 ---@param fields? navgendebugTileGenerationDebugData
 ---@return navgendebugTileGenerationDebugData
-function navgendebugTileGenerationDebugData.new(fields) return end
+function navgendebugTileGenerationDebugData.new(fields) end

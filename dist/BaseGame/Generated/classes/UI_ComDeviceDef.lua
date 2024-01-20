@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class UI_ComDeviceDef: gamebbScriptDefinition
----@field public comDeviceSetStatusText gamebbScriptID_CName
----@field public openMessageRequest gamebbScriptID_Uint32
----@field public closeMessageRequest gamebbScriptID_Int32
----@field public showingMessage gamebbScriptID_Int32
----@field public PhoneCallInformation gamebbScriptID_Variant
----@field public PhoneStyle_PlacidePhone gamebbScriptID_Bool
----@field public PhoneStyle_VideoCallInterupt gamebbScriptID_Bool
----@field public PhoneStyle_Minimized gamebbScriptID_Bool
----@field public isDisplayingMessage gamebbScriptID_Bool
----@field public ContactsActive gamebbScriptID_Bool
----@field public SmsMessengerActive gamebbScriptID_Bool
----@field public MessageToOpenId gamebbScriptID_CName
----@field public PhoneEnabled gamebbScriptID_Bool
----@field public PhoneVisibility gamebbScriptID_Variant
----@field public ActivatePhoneElements gamebbScriptID_Uint32
----@field public MessageToOpenHash gamebbScriptID_Int32
+---@field comDeviceSetStatusText gamebbScriptID_CName
+---@field openMessageRequest gamebbScriptID_Uint32
+---@field closeMessageRequest gamebbScriptID_Int32
+---@field showingMessage gamebbScriptID_Int32
+---@field PhoneCallInformation gamebbScriptID_Variant
+---@field PhoneStyle_PlacidePhone gamebbScriptID_Bool
+---@field PhoneStyle_VideoCallInterupt gamebbScriptID_Bool
+---@field PhoneStyle_Minimized gamebbScriptID_Bool
+---@field isDisplayingMessage gamebbScriptID_Bool
+---@field ContactsActive gamebbScriptID_Bool
+---@field SmsMessengerActive gamebbScriptID_Bool
+---@field MessageToOpenId gamebbScriptID_CName
+---@field PhoneEnabled gamebbScriptID_Bool
+---@field PhoneVisibility gamebbScriptID_Variant
+---@field ActivatePhoneElements gamebbScriptID_Uint32
+---@field MessageToOpenHash gamebbScriptID_Int32
 UI_ComDeviceDef = {}
 
 ---@param fields? UI_ComDeviceDef
 ---@return UI_ComDeviceDef
-function UI_ComDeviceDef.new(fields) return end
+function UI_ComDeviceDef.new(fields) end
 
 ---@return Bool
-function UI_ComDeviceDef:AutoCreateInSystem() return end
+function UI_ComDeviceDef:AutoCreateInSystem() end

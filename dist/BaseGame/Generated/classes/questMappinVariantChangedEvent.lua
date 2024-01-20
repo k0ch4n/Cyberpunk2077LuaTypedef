@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class questMappinVariantChangedEvent: redEvent
----@field public entry gameJournalEntry
----@field public phase gamedataMappinPhase
----@field public variant gamedataMappinVariant
+---@field entry gameJournalEntry
+---@field phase gamedataMappinPhase
+---@field variant gamedataMappinVariant
 questMappinVariantChangedEvent = {}
 
 ---@param fields? questMappinVariantChangedEvent
 ---@return questMappinVariantChangedEvent
-function questMappinVariantChangedEvent.new(fields) return end
+function questMappinVariantChangedEvent.new(fields) end
 
 ---@return gameJournalEntry
-function questMappinVariantChangedEvent:GetEntry() return end
+function questMappinVariantChangedEvent:GetEntry() end
 
 ---@return gamedataMappinPhase
-function questMappinVariantChangedEvent:GetPhase() return end
+function questMappinVariantChangedEvent:GetPhase() end
 
 ---@return gamedataMappinVariant
-function questMappinVariantChangedEvent:GetVariant() return end
+function questMappinVariantChangedEvent:GetVariant() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ForceBraindanceCameraToggle: redEvent
----@field public editorState Bool
+---@field editorState Bool
 ForceBraindanceCameraToggle = {}
 
 ---@param fields? ForceBraindanceCameraToggle
 ---@return ForceBraindanceCameraToggle
-function ForceBraindanceCameraToggle.new(fields) return end
+function ForceBraindanceCameraToggle.new(fields) end
 
 ---@return String
-function ForceBraindanceCameraToggle:GetFriendlyDescription() return end
+function ForceBraindanceCameraToggle:GetFriendlyDescription() end

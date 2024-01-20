@@ -5,32 +5,32 @@ inkScriptDynArray = {}
 
 ---@param fields? inkScriptDynArray
 ---@return inkScriptDynArray
-function inkScriptDynArray.new(fields) return end
+function inkScriptDynArray.new(fields) end
 
 ---@return nil
-function inkScriptDynArray:Clear() return end
+function inkScriptDynArray:Clear() end
 
 ---@return Bool
-function inkScriptDynArray:Empty() return end
+function inkScriptDynArray:Empty() end
 
 ---@return IScriptable[]
-function inkScriptDynArray:Get() return end
+function inkScriptDynArray:Get() end
 
 ---@param index Uint32
 ---@param object IScriptable
 ---@return Bool
-function inkScriptDynArray:InsertAt(index, object) return end
+function inkScriptDynArray:InsertAt(index, object) end
 
 ---@return IScriptable
-function inkScriptDynArray:PopBack() return end
+function inkScriptDynArray:PopBack() end
 
 ---@param object IScriptable
 ---@return nil
-function inkScriptDynArray:PushBack(object) return end
+function inkScriptDynArray:PushBack(object) end
 
 ---@param object IScriptable
 ---@return Bool
-function inkScriptDynArray:Remove(object) return end
+function inkScriptDynArray:Remove(object) end
 
 ---@return Int32
-function inkScriptDynArray:Size() return end
+function inkScriptDynArray:Size() end

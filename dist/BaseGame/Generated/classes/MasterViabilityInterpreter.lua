@@ -5,9 +5,9 @@ MasterViabilityInterpreter = {}
 
 ---@param fields? MasterViabilityInterpreter
 ---@return MasterViabilityInterpreter
-function MasterViabilityInterpreter.new(fields) return end
+function MasterViabilityInterpreter.new(fields) end
 
 ---@param device MasterControllerPS
 ---@param hasActiveActions Bool
 ---@return Bool
-function MasterViabilityInterpreter.Evaluate(device, hasActiveActions) return end
+function MasterViabilityInterpreter.Evaluate(device, hasActiveActions) end

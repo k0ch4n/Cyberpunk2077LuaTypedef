@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnReferencePointId
----@field public id Uint32
+---@field id Uint32
 scnReferencePointId = {}
 
 ---@param fields? scnReferencePointId
 ---@return scnReferencePointId
-function scnReferencePointId.new(fields) return end
+function scnReferencePointId.new(fields) end

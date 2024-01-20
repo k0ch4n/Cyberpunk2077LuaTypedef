@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class RadioInkGameController: DeviceInkGameControllerBase
----@field protected stationNameWidget inkTextWidgetReference
----@field protected stationLogoWidget inkImageWidgetReference
+---@field stationNameWidget inkTextWidgetReference
+---@field stationLogoWidget inkImageWidgetReference
 RadioInkGameController = {}
 
 ---@param fields? RadioInkGameController
 ---@return RadioInkGameController
-function RadioInkGameController.new(fields) return end
+function RadioInkGameController.new(fields) end
 
----@protected
 ---@return Radio
-function RadioInkGameController:GetOwner() return end
+function RadioInkGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function RadioInkGameController:Refresh(state) return end
+function RadioInkGameController:Refresh(state) end
 
----@private
 ---@return nil
-function RadioInkGameController:SetupStationLogo() return end
+function RadioInkGameController:SetupStationLogo() end
 
----@private
 ---@return nil
-function RadioInkGameController:TurnOff() return end
+function RadioInkGameController:TurnOff() end
 
----@private
 ---@return nil
-function RadioInkGameController:TurnOn() return end
+function RadioInkGameController:TurnOn() end

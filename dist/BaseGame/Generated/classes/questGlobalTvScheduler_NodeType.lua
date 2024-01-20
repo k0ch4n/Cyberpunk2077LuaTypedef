@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class questGlobalTvScheduler_NodeType: questIUIManagerNodeType
----@field public channelId TweakDBID
----@field public overlayResource inkWidgetLibraryResource
----@field public videoResource Bink
----@field public VOScene scnSceneResource
----@field public audioEvent CName
----@field public newsTitleTweak TweakDBID
----@field public randomNewsFeedPack TweakDBID
+---@field channelId TweakDBID
+---@field overlayResource inkWidgetLibraryResource
+---@field videoResource Bink
+---@field VOScene scnSceneResource
+---@field audioEvent CName
+---@field newsTitleTweak TweakDBID
+---@field randomNewsFeedPack TweakDBID
 questGlobalTvScheduler_NodeType = {}
 
 ---@param fields? questGlobalTvScheduler_NodeType
 ---@return questGlobalTvScheduler_NodeType
-function questGlobalTvScheduler_NodeType.new(fields) return end
+function questGlobalTvScheduler_NodeType.new(fields) end

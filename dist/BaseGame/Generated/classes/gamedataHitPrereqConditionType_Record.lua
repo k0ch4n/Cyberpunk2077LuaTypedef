@@ -5,13 +5,13 @@ gamedataHitPrereqConditionType_Record = {}
 
 ---@param fields? gamedataHitPrereqConditionType_Record
 ---@return gamedataHitPrereqConditionType_Record
-function gamedataHitPrereqConditionType_Record.new(fields) return end
+function gamedataHitPrereqConditionType_Record.new(fields) end
 
 ---@return CName
-function gamedataHitPrereqConditionType_Record:EnumComment() return end
+function gamedataHitPrereqConditionType_Record:EnumComment() end
 
 ---@return CName
-function gamedataHitPrereqConditionType_Record:EnumName() return end
+function gamedataHitPrereqConditionType_Record:EnumName() end
 
 ---@return gamedataHitPrereqConditionType
-function gamedataHitPrereqConditionType_Record:Type() return end
+function gamedataHitPrereqConditionType_Record:Type() end

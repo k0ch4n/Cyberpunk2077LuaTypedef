@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class LedColors
----@field public off ScriptLightSettings
----@field public red ScriptLightSettings
----@field public green ScriptLightSettings
+---@field off ScriptLightSettings
+---@field red ScriptLightSettings
+---@field green ScriptLightSettings
 LedColors = {}
 
 ---@param fields? LedColors
 ---@return LedColors
-function LedColors.new(fields) return end
+function LedColors.new(fields) end

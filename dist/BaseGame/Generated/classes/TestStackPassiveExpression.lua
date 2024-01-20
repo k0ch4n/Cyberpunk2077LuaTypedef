@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TestStackPassiveExpression: AIbehaviorStackScriptPassiveExpressionDefinition
----@field public SomeNameProperty CName
+---@field SomeNameProperty CName
 TestStackPassiveExpression = {}
 
 ---@param fields? TestStackPassiveExpression
 ---@return TestStackPassiveExpression
-function TestStackPassiveExpression.new(fields) return end
+function TestStackPassiveExpression.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param data TestStackScriptData
 ---@return Variant
-function TestStackPassiveExpression:CalculateValue(context, data) return end
+function TestStackPassiveExpression:CalculateValue(context, data) end

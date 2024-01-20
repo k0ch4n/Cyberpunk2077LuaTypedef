@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSquadMemberDataEntry
----@field public squadName CName
----@field public squadType AISquadType
+---@field squadName CName
+---@field squadType AISquadType
 gameSquadMemberDataEntry = {}
 
 ---@param fields? gameSquadMemberDataEntry
 ---@return gameSquadMemberDataEntry
-function gameSquadMemberDataEntry.new(fields) return end
+function gameSquadMemberDataEntry.new(fields) end

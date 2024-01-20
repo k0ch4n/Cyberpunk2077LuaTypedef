@@ -5,7 +5,7 @@ TryResetPreventionFreeArea = {}
 
 ---@param fields? TryResetPreventionFreeArea
 ---@return TryResetPreventionFreeArea
-function TryResetPreventionFreeArea.new(fields) return end
+function TryResetPreventionFreeArea.new(fields) end
 
 ---@return String
-function TryResetPreventionFreeArea:GetFriendlyDesctiption() return end
+function TryResetPreventionFreeArea:GetFriendlyDesctiption() end

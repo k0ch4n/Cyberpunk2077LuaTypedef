@@ -5,20 +5,17 @@ RevealPlayerPositionEffector = {}
 
 ---@param fields? RevealPlayerPositionEffector
 ---@return RevealPlayerPositionEffector
-function RevealPlayerPositionEffector.new(fields) return end
+function RevealPlayerPositionEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RevealPlayerPositionEffector:ActionOff(owner) return end
+function RevealPlayerPositionEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RevealPlayerPositionEffector:ActionOn(owner) return end
+function RevealPlayerPositionEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function RevealPlayerPositionEffector:Initialize(record, parentRecord) return end
+function RevealPlayerPositionEffector:Initialize(record, parentRecord) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameDynamicCookedDeviceData: gameCookedDeviceData
----@field public componentName CName
+---@field componentName CName
 gameDynamicCookedDeviceData = {}
 
 ---@param fields? gameDynamicCookedDeviceData
 ---@return gameDynamicCookedDeviceData
-function gameDynamicCookedDeviceData.new(fields) return end
+function gameDynamicCookedDeviceData.new(fields) end

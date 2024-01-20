@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class localizationPersistenceSubtitleEntry
----@field public stringId CRUID
----@field public femaleVariant String
----@field public maleVariant String
+---@field stringId CRUID
+---@field femaleVariant String
+---@field maleVariant String
 localizationPersistenceSubtitleEntry = {}
 
 ---@param fields? localizationPersistenceSubtitleEntry
 ---@return localizationPersistenceSubtitleEntry
-function localizationPersistenceSubtitleEntry.new(fields) return end
+function localizationPersistenceSubtitleEntry.new(fields) end

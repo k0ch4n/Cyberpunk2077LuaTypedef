@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SkillRewardHoverOver: redEvent
----@field public data LevelRewardDisplayData
----@field public widget inkWidget
+---@field data LevelRewardDisplayData
+---@field widget inkWidget
 SkillRewardHoverOver = {}
 
 ---@param fields? SkillRewardHoverOver
 ---@return SkillRewardHoverOver
-function SkillRewardHoverOver.new(fields) return end
+function SkillRewardHoverOver.new(fields) end

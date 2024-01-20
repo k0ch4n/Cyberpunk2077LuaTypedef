@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questQuestsSystemReplicatedState: gameIGameSystemReplicatedState
----@field public replicatedQuestPrefabs questQuestPrefabsEntry[]
+---@field replicatedQuestPrefabs questQuestPrefabsEntry[]
 questQuestsSystemReplicatedState = {}
 
 ---@param fields? questQuestsSystemReplicatedState
 ---@return questQuestsSystemReplicatedState
-function questQuestsSystemReplicatedState.new(fields) return end
+function questQuestsSystemReplicatedState.new(fields) end

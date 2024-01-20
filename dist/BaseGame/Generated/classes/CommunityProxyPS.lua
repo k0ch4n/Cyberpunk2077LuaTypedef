@@ -5,11 +5,10 @@ CommunityProxyPS = {}
 
 ---@param fields? CommunityProxyPS
 ---@return CommunityProxyPS
-function CommunityProxyPS.new(fields) return end
+function CommunityProxyPS.new(fields) end
 
----@protected
 ---@return Bool
-function CommunityProxyPS:OnInstantiated() return end
+function CommunityProxyPS:OnInstantiated() end
 
 ---@param shouldDraw Bool
 ---@param fxResource gameFxResource
@@ -20,80 +19,73 @@ function CommunityProxyPS:OnInstantiated() return end
 ---@param memberOnly Bool
 ---@param duration? Float
 ---@return nil
-function CommunityProxyPS:DrawNetworkSquad(shouldDraw, fxResource, memberID, isPing, revealMaster, revealSlave, memberOnly, duration) return end
+function CommunityProxyPS:DrawNetworkSquad(shouldDraw, fxResource, memberID, isPing, revealMaster, revealSlave, memberOnly, duration) end
 
----@private
 ---@param targetID entEntityID
 ---@return nil
-function CommunityProxyPS:EstablishLink(targetID) return end
+function CommunityProxyPS:EstablishLink(targetID) end
 
 ---@return entEntityID[]
-function CommunityProxyPS:ExtractEntityIDs() return end
+function CommunityProxyPS:ExtractEntityIDs() end
 
----@private
 ---@param action gamedeviceAction
 ---@return nil
-function CommunityProxyPS:ForwardActionToNPCs(action) return end
+function CommunityProxyPS:ForwardActionToNPCs(action) end
 
----@private
 ---@param action gamedeviceAction
 ---@return nil
-function CommunityProxyPS:ForwardActionToVehicles(action) return end
+function CommunityProxyPS:ForwardActionToVehicles(action) end
 
 ---@return Int32
-function CommunityProxyPS:GetNPCsConnectedToThisAPCount() return end
+function CommunityProxyPS:GetNPCsConnectedToThisAPCount() end
 
----@protected
 ---@param id entEntityID
 ---@return ScriptedPuppet
-function CommunityProxyPS:GetPuppetEntity(id) return end
+function CommunityProxyPS:GetPuppetEntity(id) end
 
----@protected
 ---@return nil
-function CommunityProxyPS:Initialize() return end
+function CommunityProxyPS:Initialize() end
 
----@protected
 ---@return nil
-function CommunityProxyPS:InitializeConnectionWithCommunity() return end
+function CommunityProxyPS:InitializeConnectionWithCommunity() end
 
 ---@param id entEntityID
 ---@return Bool
-function CommunityProxyPS:IsOfficer(id) return end
+function CommunityProxyPS:IsOfficer(id) end
 
 ---@param evt gameCommunityProxyPSPresentEvent
 ---@return EntityNotificationType
-function CommunityProxyPS:OnCommunityProxyPSPresent(evt) return end
+function CommunityProxyPS:OnCommunityProxyPSPresent(evt) end
 
 ---@param evt DrawNetworkSquadEvent
 ---@return EntityNotificationType
-function CommunityProxyPS:OnDrawNetworkSquadEvent(evt) return end
+function CommunityProxyPS:OnDrawNetworkSquadEvent(evt) end
 
 ---@param evt gameEntitySpawnerEvent
 ---@return EntityNotificationType
-function CommunityProxyPS:OnGameEntitySpawnerEvent(evt) return end
+function CommunityProxyPS:OnGameEntitySpawnerEvent(evt) end
 
 ---@param evt NPCBreachEvent
 ---@return EntityNotificationType
-function CommunityProxyPS:OnNPCBreachEvent(evt) return end
+function CommunityProxyPS:OnNPCBreachEvent(evt) end
 
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return EntityNotificationType
-function CommunityProxyPS:OnSecurityAreaCrossingPerimeter(evt) return end
+function CommunityProxyPS:OnSecurityAreaCrossingPerimeter(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function CommunityProxyPS:OnSecuritySystemOutput(evt) return end
+function CommunityProxyPS:OnSecuritySystemOutput(evt) end
 
 ---@param evt SetExposeQuickHacks
 ---@return EntityNotificationType
-function CommunityProxyPS:OnSetExposeQuickHacks(evt) return end
+function CommunityProxyPS:OnSetExposeQuickHacks(evt) end
 
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function CommunityProxyPS:OnTargetAssessmentRequest(evt) return end
+function CommunityProxyPS:OnTargetAssessmentRequest(evt) end
 
----@private
 ---@param deviceLink DeviceLink
 ---@param evt redEvent
 ---@return nil
-function CommunityProxyPS:QueuePSEvent(deviceLink, evt) return end
+function CommunityProxyPS:QueuePSEvent(deviceLink, evt) end

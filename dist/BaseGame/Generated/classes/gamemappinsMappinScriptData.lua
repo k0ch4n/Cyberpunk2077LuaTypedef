@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamemappinsMappinScriptData: IScriptable
----@field public statPoolType gamedataStatPoolType
+---@field statPoolType gamedataStatPoolType
 gamemappinsMappinScriptData = {}
 
 ---@param fields? gamemappinsMappinScriptData
 ---@return gamemappinsMappinScriptData
-function gamemappinsMappinScriptData.new(fields) return end
+function gamemappinsMappinScriptData.new(fields) end

@@ -5,4 +5,4 @@ inkButtonSelectionCallback = {}
 
 ---@param fields? inkButtonSelectionCallback
 ---@return inkButtonSelectionCallback
-function inkButtonSelectionCallback.new(fields) return end
+function inkButtonSelectionCallback.new(fields) end

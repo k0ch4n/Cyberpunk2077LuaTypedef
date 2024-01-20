@@ -1,49 +1,46 @@
 ---@meta
 
 ---@class NetworkMinigameGridCellController: inkButtonController
----@field public cellData CellData
----@field private grid NetworkMinigameGridController
----@field protected slotsContainer inkWidgetReference
----@field protected slotsContent NetworkMinigameElementController
----@field protected elementLibraryName CName
----@field private defaultColor HDRColor
+---@field cellData CellData
+---@field grid NetworkMinigameGridController
+---@field slotsContainer inkWidgetReference
+---@field slotsContent NetworkMinigameElementController
+---@field elementLibraryName CName
+---@field defaultColor HDRColor
 NetworkMinigameGridCellController = {}
 
 ---@param fields? NetworkMinigameGridCellController
 ---@return NetworkMinigameGridCellController
-function NetworkMinigameGridCellController.new(fields) return end
+function NetworkMinigameGridCellController.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function NetworkMinigameGridCellController:OnButtonStateChanged(controller, oldState, newState) return end
+function NetworkMinigameGridCellController:OnButtonStateChanged(controller, oldState, newState) end
 
----@protected
 ---@return Bool
-function NetworkMinigameGridCellController:OnInitialize() return end
+function NetworkMinigameGridCellController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function NetworkMinigameGridCellController:OnReleaseContainer(e) return end
+function NetworkMinigameGridCellController:OnReleaseContainer(e) end
 
 ---@return nil
-function NetworkMinigameGridCellController:Consume() return end
+function NetworkMinigameGridCellController:Consume() end
 
 ---@return Bool
-function NetworkMinigameGridCellController:IsConsumed() return end
+function NetworkMinigameGridCellController:IsConsumed() end
 
 ---@param isDimmed Bool
 ---@return nil
-function NetworkMinigameGridCellController:SetElementActive(isDimmed) return end
+function NetworkMinigameGridCellController:SetElementActive(isDimmed) end
 
 ---@param isHighlighted Bool
 ---@return nil
-function NetworkMinigameGridCellController:SetHighlightStatus(isHighlighted) return end
+function NetworkMinigameGridCellController:SetHighlightStatus(isHighlighted) end
 
 ---@param setUp CellData
 ---@param grid NetworkMinigameGridController
 ---@return nil
-function NetworkMinigameGridCellController:Spawn(setUp, grid) return end
+function NetworkMinigameGridCellController:Spawn(setUp, grid) end

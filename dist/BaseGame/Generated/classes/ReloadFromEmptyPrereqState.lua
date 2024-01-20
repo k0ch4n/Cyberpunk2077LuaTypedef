@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class ReloadFromEmptyPrereqState: gamePrereqState
----@field public owner gameObject
----@field public minAmountOfAmmoReloaded Int32
----@field public listenerWeaponInt redCallbackObject
----@field public listenerActiveWeaponVariant redCallbackObject
----@field private reloadingInProgress Bool
+---@field owner gameObject
+---@field minAmountOfAmmoReloaded Int32
+---@field listenerWeaponInt redCallbackObject
+---@field listenerActiveWeaponVariant redCallbackObject
+---@field reloadingInProgress Bool
 ReloadFromEmptyPrereqState = {}
 
 ---@param fields? ReloadFromEmptyPrereqState
 ---@return ReloadFromEmptyPrereqState
-function ReloadFromEmptyPrereqState.new(fields) return end
+function ReloadFromEmptyPrereqState.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ReloadFromEmptyPrereqState:OnInventoryChangeStateUpdate(value) return end
+function ReloadFromEmptyPrereqState:OnInventoryChangeStateUpdate(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ReloadFromEmptyPrereqState:OnWeaponStateUpdate(value) return end
+function ReloadFromEmptyPrereqState:OnWeaponStateUpdate(value) end

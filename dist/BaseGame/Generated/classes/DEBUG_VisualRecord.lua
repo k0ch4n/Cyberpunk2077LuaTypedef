@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DEBUG_VisualRecord
----@field public layerIDs Uint32[]
----@field public puppet ScriptedPuppet
----@field public infiniteDuration Bool
----@field public showDuration Float
+---@field layerIDs Uint32[]
+---@field puppet ScriptedPuppet
+---@field infiniteDuration Bool
+---@field showDuration Float
 DEBUG_VisualRecord = {}
 
 ---@param fields? DEBUG_VisualRecord
 ---@return DEBUG_VisualRecord
-function DEBUG_VisualRecord.new(fields) return end
+function DEBUG_VisualRecord.new(fields) end

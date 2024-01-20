@@ -5,4 +5,4 @@ AIPathLengthCoverSelection = {}
 
 ---@param fields? AIPathLengthCoverSelection
 ---@return AIPathLengthCoverSelection
-function AIPathLengthCoverSelection.new(fields) return end
+function AIPathLengthCoverSelection.new(fields) end

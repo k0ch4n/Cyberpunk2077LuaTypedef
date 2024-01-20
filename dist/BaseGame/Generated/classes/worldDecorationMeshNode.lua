@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldDecorationMeshNode: worldMeshNode
----@field public startAsleep Bool
----@field public filterDataSource physicsFilterDataSource
----@field public filterData physicsFilterData
+---@field startAsleep Bool
+---@field filterDataSource physicsFilterDataSource
+---@field filterData physicsFilterData
 worldDecorationMeshNode = {}
 
 ---@param fields? worldDecorationMeshNode
 ---@return worldDecorationMeshNode
-function worldDecorationMeshNode.new(fields) return end
+function worldDecorationMeshNode.new(fields) end

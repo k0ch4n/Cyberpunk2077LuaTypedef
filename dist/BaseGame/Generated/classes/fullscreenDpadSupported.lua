@@ -1,32 +1,30 @@
 ---@meta
 
 ---@class fullscreenDpadSupported: inkWidgetLogicController
----@field public targetPath_DpadUp inkWidget
----@field public targetPath_DpadDown inkWidget
----@field public targetPath_DpadLeft inkWidget
----@field public targetPath_DpadRight inkWidget
+---@field targetPath_DpadUp inkWidget
+---@field targetPath_DpadDown inkWidget
+---@field targetPath_DpadLeft inkWidget
+---@field targetPath_DpadRight inkWidget
 fullscreenDpadSupported = {}
 
 ---@param fields? fullscreenDpadSupported
 ---@return fullscreenDpadSupported
-function fullscreenDpadSupported.new(fields) return end
+function fullscreenDpadSupported.new(fields) end
 
----@protected
 ---@return Bool
-function fullscreenDpadSupported:OnInitialize() return end
+function fullscreenDpadSupported:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function fullscreenDpadSupported:OnRelease(e) return end
+function fullscreenDpadSupported:OnRelease(e) end
 
 ---@param argLeft inkWidget
 ---@param argUp inkWidget
 ---@param argRight inkWidget
 ---@param argDown inkWidget
 ---@return nil
-function fullscreenDpadSupported:SetDpadTargets(argLeft, argUp, argRight, argDown) return end
+function fullscreenDpadSupported:SetDpadTargets(argLeft, argUp, argRight, argDown) end
 
 ---@param mainList inkVerticalPanelWidget
 ---@return nil
-function fullscreenDpadSupported:SetDpadTargetsInList(mainList) return end
+function fullscreenDpadSupported:SetDpadTargetsInList(mainList) end

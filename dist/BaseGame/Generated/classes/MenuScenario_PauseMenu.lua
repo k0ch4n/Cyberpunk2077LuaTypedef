@@ -5,79 +5,61 @@ MenuScenario_PauseMenu = {}
 
 ---@param fields? MenuScenario_PauseMenu
 ---@return MenuScenario_PauseMenu
-function MenuScenario_PauseMenu.new(fields) return end
+function MenuScenario_PauseMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnBack() return end
+function MenuScenario_PauseMenu:OnBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnBuyGame() return end
+function MenuScenario_PauseMenu:OnBuyGame() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnCloseHubMenuRequest() return end
+function MenuScenario_PauseMenu:OnCloseHubMenuRequest() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnClosePauseMenu() return end
+function MenuScenario_PauseMenu:OnClosePauseMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnCloseSettingsScreen() return end
+function MenuScenario_PauseMenu:OnCloseSettingsScreen() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnCreditsPicker() return end
+function MenuScenario_PauseMenu:OnCreditsPicker() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_PauseMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_PauseMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnOpenDebugHubMenu() return end
+function MenuScenario_PauseMenu:OnOpenDebugHubMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnRequestPauseMenu() return end
+function MenuScenario_PauseMenu:OnRequestPauseMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToBrightnessSettings() return end
+function MenuScenario_PauseMenu:OnSwitchToBrightnessSettings() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToControllerPanel() return end
+function MenuScenario_PauseMenu:OnSwitchToControllerPanel() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToDlc() return end
+function MenuScenario_PauseMenu:OnSwitchToDlc() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToHDRSettings() return end
+function MenuScenario_PauseMenu:OnSwitchToHDRSettings() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToLoadGame() return end
+function MenuScenario_PauseMenu:OnSwitchToLoadGame() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToPauseMenu() return end
+function MenuScenario_PauseMenu:OnSwitchToPauseMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToSaveGame() return end
+function MenuScenario_PauseMenu:OnSwitchToSaveGame() end
 
----@protected
 ---@return Bool
-function MenuScenario_PauseMenu:OnSwitchToSettings() return end
+function MenuScenario_PauseMenu:OnSwitchToSettings() end
 
----@private
 ---@param forceCloseSettings Bool
 ---@return nil
-function MenuScenario_PauseMenu:GoBack(forceCloseSettings) return end
+function MenuScenario_PauseMenu:GoBack(forceCloseSettings) end

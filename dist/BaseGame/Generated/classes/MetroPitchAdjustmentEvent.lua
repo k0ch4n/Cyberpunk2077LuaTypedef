@@ -5,4 +5,4 @@ MetroPitchAdjustmentEvent = {}
 
 ---@param fields? MetroPitchAdjustmentEvent
 ---@return MetroPitchAdjustmentEvent
-function MetroPitchAdjustmentEvent.new(fields) return end
+function MetroPitchAdjustmentEvent.new(fields) end

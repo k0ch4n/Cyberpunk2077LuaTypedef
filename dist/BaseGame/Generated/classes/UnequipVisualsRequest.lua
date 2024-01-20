@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UnequipVisualsRequest: gamePlayerScriptableSystemRequest
----@field public area gamedataEquipmentArea
----@field public removeItem Bool
+---@field area gamedataEquipmentArea
+---@field removeItem Bool
 UnequipVisualsRequest = {}
 
 ---@param fields? UnequipVisualsRequest
 ---@return UnequipVisualsRequest
-function UnequipVisualsRequest.new(fields) return end
+function UnequipVisualsRequest.new(fields) end

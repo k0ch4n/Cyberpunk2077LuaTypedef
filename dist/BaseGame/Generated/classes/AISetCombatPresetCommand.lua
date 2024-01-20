@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AISetCombatPresetCommand: AICombatRelatedCommand
----@field public combatPreset EAICombatPreset
+---@field combatPreset EAICombatPreset
 AISetCombatPresetCommand = {}
 
 ---@param fields? AISetCombatPresetCommand
 ---@return AISetCombatPresetCommand
-function AISetCombatPresetCommand.new(fields) return end
+function AISetCombatPresetCommand.new(fields) end

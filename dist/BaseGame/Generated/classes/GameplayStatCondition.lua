@@ -1,39 +1,37 @@
 ---@meta
 
 ---@class GameplayStatCondition: GameplayConditionBase
----@field private statToCheck TweakDBID
----@field private stat EDeviceChallengeAttribute
----@field private difficulty EGameplayChallengeLevel
+---@field statToCheck TweakDBID
+---@field stat EDeviceChallengeAttribute
+---@field difficulty EGameplayChallengeLevel
 GameplayStatCondition = {}
 
 ---@param fields? GameplayStatCondition
 ---@return GameplayStatCondition
-function GameplayStatCondition.new(fields) return end
+function GameplayStatCondition.new(fields) end
 
 ---@param requester gameObject
 ---@return Bool
-function GameplayStatCondition:Evaluate(requester) return end
+function GameplayStatCondition:Evaluate(requester) end
 
----@private
 ---@return String
-function GameplayStatCondition:GetConditionDescription() return end
+function GameplayStatCondition:GetConditionDescription() end
 
 ---@param requester gameObject
 ---@return Condition
-function GameplayStatCondition:GetDescription(requester) return end
+function GameplayStatCondition:GetDescription(requester) end
 
 ---@param requester gameObject
 ---@return Int32
-function GameplayStatCondition:GetPlayerStat(requester) return end
+function GameplayStatCondition:GetPlayerStat(requester) end
 
 ---@return Int32
-function GameplayStatCondition:GetRequiredLevel() return end
+function GameplayStatCondition:GetRequiredLevel() end
 
----@private
 ---@return gamedataStatType
-function GameplayStatCondition:GetStatType() return end
+function GameplayStatCondition:GetStatType() end
 
 ---@param sel_stat EDeviceChallengeAttribute
 ---@param sel_difficulty EGameplayChallengeLevel
 ---@return nil
-function GameplayStatCondition:SetProperties(sel_stat, sel_difficulty) return end
+function GameplayStatCondition:SetProperties(sel_stat, sel_difficulty) end

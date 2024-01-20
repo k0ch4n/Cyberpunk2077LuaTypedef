@@ -5,10 +5,10 @@ gamedataOverrideRangedAttackPackageEffector_Record = {}
 
 ---@param fields? gamedataOverrideRangedAttackPackageEffector_Record
 ---@return gamedataOverrideRangedAttackPackageEffector_Record
-function gamedataOverrideRangedAttackPackageEffector_Record.new(fields) return end
+function gamedataOverrideRangedAttackPackageEffector_Record.new(fields) end
 
 ---@return gamedataRangedAttackPackage_Record
-function gamedataOverrideRangedAttackPackageEffector_Record:AttackPackage() return end
+function gamedataOverrideRangedAttackPackageEffector_Record:AttackPackage() end
 
 ---@return gamedataRangedAttackPackage_Record
-function gamedataOverrideRangedAttackPackageEffector_Record:AttackPackageHandle() return end
+function gamedataOverrideRangedAttackPackageEffector_Record:AttackPackageHandle() end

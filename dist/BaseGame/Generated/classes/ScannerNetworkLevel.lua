@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerNetworkLevel: ScannerChunk
----@field private networkLevel Int32
+---@field networkLevel Int32
 ScannerNetworkLevel = {}
 
 ---@param fields? ScannerNetworkLevel
 ---@return ScannerNetworkLevel
-function ScannerNetworkLevel.new(fields) return end
+function ScannerNetworkLevel.new(fields) end
 
 ---@return Int32
-function ScannerNetworkLevel:GetNetworkLevel() return end
+function ScannerNetworkLevel:GetNetworkLevel() end
 
 ---@return ScannerDataType
-function ScannerNetworkLevel:GetType() return end
+function ScannerNetworkLevel:GetType() end
 
 ---@param level Int32
 ---@return nil
-function ScannerNetworkLevel:Set(level) return end
+function ScannerNetworkLevel:Set(level) end

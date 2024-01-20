@@ -5,73 +5,69 @@ cpPlayerSystem = {}
 
 ---@param fields? cpPlayerSystem
 ---@return cpPlayerSystem
-function cpPlayerSystem.new(fields) return end
+function cpPlayerSystem.new(fields) end
 
 ---@param position Vector4
 ---@param radius Float
 ---@param includeLocalPlayers Bool
 ---@param includeRemotePlayers Bool
 ---@return Uint32, gameObject[] outPlayerGameObjects
-function cpPlayerSystem:FindPlayerControlledObjects(position, radius, includeLocalPlayers, includeRemotePlayers) return end
+function cpPlayerSystem:FindPlayerControlledObjects(position, radius, includeLocalPlayers, includeRemotePlayers) end
 
 ---@return ScriptGameInstance
-function cpPlayerSystem:GetGameInstance() return end
+function cpPlayerSystem:GetGameInstance() end
 
 ---@return gameObject
-function cpPlayerSystem:GetLocalPlayerControlledGameObject() return end
+function cpPlayerSystem:GetLocalPlayerControlledGameObject() end
 
 ---@return gameObject
-function cpPlayerSystem:GetLocalPlayerMainGameObject() return end
+function cpPlayerSystem:GetLocalPlayerMainGameObject() end
 
 ---@return Bool
-function cpPlayerSystem:IsCPOControlSchemeForced() return end
+function cpPlayerSystem:IsCPOControlSchemeForced() end
 
 ---@return Bool
-function cpPlayerSystem:IsInFreeCamera() return end
+function cpPlayerSystem:IsInFreeCamera() end
 
 ---@param entityID entEntityID
 ---@return nil
-function cpPlayerSystem:LocalPlayerControlExistingObject(entityID) return end
+function cpPlayerSystem:LocalPlayerControlExistingObject(entityID) end
 
 ---@param object IScriptable
 ---@param func CName|string
 ---@return Uint32
-function cpPlayerSystem:RegisterPlayerPuppetAttachedCallback(object, func) return end
+function cpPlayerSystem:RegisterPlayerPuppetAttachedCallback(object, func) end
 
 ---@param object IScriptable
 ---@param func CName|string
 ---@return Uint32
-function cpPlayerSystem:RegisterPlayerPuppetDetachedCallback(object, func) return end
+function cpPlayerSystem:RegisterPlayerPuppetDetachedCallback(object, func) end
 
 ---@param newTransform Transform
 ---@return nil
-function cpPlayerSystem:SetFreeCameraTransform(newTransform) return end
+function cpPlayerSystem:SetFreeCameraTransform(newTransform) end
 
 ---@param callbackID Uint32
 ---@return nil
-function cpPlayerSystem:UnregisterPlayerPuppetAttachedCallback(callbackID) return end
+function cpPlayerSystem:UnregisterPlayerPuppetAttachedCallback(callbackID) end
 
 ---@param callbackID Uint32
 ---@return nil
-function cpPlayerSystem:UnregisterPlayerPuppetDetachedCallback(callbackID) return end
+function cpPlayerSystem:UnregisterPlayerPuppetDetachedCallback(callbackID) end
 
----@protected
 ---@return Bool
-function cpPlayerSystem:OnGameRestored() return end
+function cpPlayerSystem:OnGameRestored() end
 
----@protected
 ---@param controlledObject gameObject
 ---@return Bool
-function cpPlayerSystem:OnLocalPlayerChanged(controlledObject) return end
+function cpPlayerSystem:OnLocalPlayerChanged(controlledObject) end
 
----@protected
 ---@param playerPossesion gamedataPlayerPossesion
 ---@return Bool
-function cpPlayerSystem:OnLocalPlayerPossesionChanged(playerPossesion) return end
+function cpPlayerSystem:OnLocalPlayerPossesionChanged(playerPossesion) end
 
----@protected
 ---@return Bool
-function cpPlayerSystem:OnShutdown() return end
+function cpPlayerSystem:OnShutdown() end
 
 ---@return String
-function cpPlayerSystem:GetPossessedByJohnnyFactName() return end
+function cpPlayerSystem:GetPossessedByJohnnyFactName() end

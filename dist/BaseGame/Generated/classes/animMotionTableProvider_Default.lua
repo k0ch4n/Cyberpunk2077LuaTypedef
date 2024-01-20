@@ -5,4 +5,4 @@ animMotionTableProvider_Default = {}
 
 ---@param fields? animMotionTableProvider_Default
 ---@return animMotionTableProvider_Default
-function animMotionTableProvider_Default.new(fields) return end
+function animMotionTableProvider_Default.new(fields) end

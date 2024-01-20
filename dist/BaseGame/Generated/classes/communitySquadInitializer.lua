@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class communitySquadInitializer: communitySpawnInitializer
----@field public entries communitySquadInitializerEntry[]
+---@field entries communitySquadInitializerEntry[]
 communitySquadInitializer = {}
 
 ---@param fields? communitySquadInitializer
 ---@return communitySquadInitializer
-function communitySquadInitializer.new(fields) return end
+function communitySquadInitializer.new(fields) end

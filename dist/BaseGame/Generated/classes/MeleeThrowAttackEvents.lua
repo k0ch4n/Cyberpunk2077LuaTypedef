@@ -1,60 +1,55 @@
 ---@meta
 
 ---@class MeleeThrowAttackEvents: MeleeAttackGenericEvents
----@field public projectileThrown Bool
----@field public targetObject gameObject
+---@field projectileThrown Bool
+---@field targetObject gameObject
 MeleeThrowAttackEvents = {}
 
 ---@param fields? MeleeThrowAttackEvents
 ---@return MeleeThrowAttackEvents
-function MeleeThrowAttackEvents.new(fields) return end
+function MeleeThrowAttackEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeThrowAttackEvents:ApplyThrowableCooldown(stateContext, scriptInterface) return end
+function MeleeThrowAttackEvents:ApplyThrowableCooldown(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeThrowAttackEvents:EnableLockOnTarget(stateContext, scriptInterface) return end
+function MeleeThrowAttackEvents:EnableLockOnTarget(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param enable Bool
 ---@param setPosition? Bool
 ---@return nil
-function MeleeThrowAttackEvents:EnableNanoWireIK(scriptInterface, enable, setPosition) return end
+function MeleeThrowAttackEvents:EnableNanoWireIK(scriptInterface, enable, setPosition) end
 
----@protected
 ---@return EMeleeAttackType
-function MeleeThrowAttackEvents:GetAttackType() return end
+function MeleeThrowAttackEvents:GetAttackType() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeThrowAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeThrowAttackEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeThrowAttackEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeThrowAttackEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeThrowAttackEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeThrowAttackEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeThrowAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeThrowAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeThrowAttackEvents:UpdateNanoWireIKState(stateContext, scriptInterface) return end
+function MeleeThrowAttackEvents:UpdateNanoWireIKState(stateContext, scriptInterface) end

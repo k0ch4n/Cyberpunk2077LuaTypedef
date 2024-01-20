@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamePrereqParams
----@field public objectID gameStatsObjectID
----@field public otherObjectID gameStatsObjectID
----@field public otherData Variant
+---@field objectID gameStatsObjectID
+---@field otherObjectID gameStatsObjectID
+---@field otherData Variant
 gamePrereqParams = {}
 
 ---@param fields? gamePrereqParams
 ---@return gamePrereqParams
-function gamePrereqParams.new(fields) return end
+function gamePrereqParams.new(fields) end

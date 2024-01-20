@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuickHackLockHacks: redEvent
----@field public IsLocked Bool
+---@field IsLocked Bool
 QuickHackLockHacks = {}
 
 ---@param fields? QuickHackLockHacks
 ---@return QuickHackLockHacks
-function QuickHackLockHacks.new(fields) return end
+function QuickHackLockHacks.new(fields) end
 
 ---@return String
-function QuickHackLockHacks:GetFriendlyDescription() return end
+function QuickHackLockHacks:GetFriendlyDescription() end

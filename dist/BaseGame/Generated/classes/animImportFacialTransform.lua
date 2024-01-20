@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animImportFacialTransform
----@field public rotation Quaternion
----@field public translation Vector3
----@field public scale Vector3
+---@field rotation Quaternion
+---@field translation Vector3
+---@field scale Vector3
 animImportFacialTransform = {}
 
 ---@param fields? animImportFacialTransform
 ---@return animImportFacialTransform
-function animImportFacialTransform.new(fields) return end
+function animImportFacialTransform.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class grenadeSpawner: gameweaponObject
----@field public isCombatGadgetActive Bool
+---@field isCombatGadgetActive Bool
 grenadeSpawner = {}
 
 ---@param fields? grenadeSpawner
 ---@return grenadeSpawner
-function grenadeSpawner.new(fields) return end
+function grenadeSpawner.new(fields) end

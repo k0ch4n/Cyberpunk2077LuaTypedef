@@ -5,27 +5,24 @@ ExplorationEvents = {}
 
 ---@param fields? ExplorationEvents
 ---@return ExplorationEvents
-function ExplorationEvents.new(fields) return end
+function ExplorationEvents.new(fields) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExplorationEvents:ClearSceneGameplayOverrides(scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function ExplorationEvents:OnEnter(stateContext, scriptInterface) return end
+function ExplorationEvents:ClearSceneGameplayOverrides(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExplorationEvents:OnEnterFromSwimming(stateContext, scriptInterface) return end
+function ExplorationEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function ExplorationEvents:OnEnterFromSwimming(stateContext, scriptInterface) end
+
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ExplorationEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ExplorationEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

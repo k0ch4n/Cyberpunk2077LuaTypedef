@@ -5,4 +5,4 @@ worldRuntimeSystemEntity = {}
 
 ---@param fields? worldRuntimeSystemEntity
 ---@return worldRuntimeSystemEntity
-function worldRuntimeSystemEntity.new(fields) return end
+function worldRuntimeSystemEntity.new(fields) end

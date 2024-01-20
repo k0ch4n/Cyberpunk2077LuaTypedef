@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiStaticIconLogicController: gameuiDynamicIconLogicController
----@field public iconReference TweakDBID
+---@field iconReference TweakDBID
 gameuiStaticIconLogicController = {}
 
 ---@param fields? gameuiStaticIconLogicController
 ---@return gameuiStaticIconLogicController
-function gameuiStaticIconLogicController.new(fields) return end
+function gameuiStaticIconLogicController.new(fields) end

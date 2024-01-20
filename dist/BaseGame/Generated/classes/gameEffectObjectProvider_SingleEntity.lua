@@ -5,4 +5,4 @@ gameEffectObjectProvider_SingleEntity = {}
 
 ---@param fields? gameEffectObjectProvider_SingleEntity
 ---@return gameEffectObjectProvider_SingleEntity
-function gameEffectObjectProvider_SingleEntity.new(fields) return end
+function gameEffectObjectProvider_SingleEntity.new(fields) end

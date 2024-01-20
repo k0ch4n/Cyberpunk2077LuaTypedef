@@ -1,43 +1,41 @@
 ---@meta
 
 ---@class animationPlayer: inkWidgetLogicController
----@field public animName CName
----@field public loopType inkanimLoopType
----@field public delay Float
----@field public playInfinite Bool
----@field public loopsAmount Uint32
----@field public playReversed Bool
----@field public animTarget inkWidgetReference
----@field public autoPlay Bool
----@field public dependsOnTimeDilation Bool
----@field private anim inkanimProxy
+---@field animName CName
+---@field loopType inkanimLoopType
+---@field delay Float
+---@field playInfinite Bool
+---@field loopsAmount Uint32
+---@field playReversed Bool
+---@field animTarget inkWidgetReference
+---@field autoPlay Bool
+---@field dependsOnTimeDilation Bool
+---@field anim inkanimProxy
 animationPlayer = {}
 
 ---@param fields? animationPlayer
 ---@return animationPlayer
-function animationPlayer.new(fields) return end
+function animationPlayer.new(fields) end
 
----@protected
 ---@return Bool
-function animationPlayer:OnInitialize() return end
+function animationPlayer:OnInitialize() end
 
----@private
 ---@return inkanimProxy
-function animationPlayer:CreateAndPlayAnimation() return end
+function animationPlayer:CreateAndPlayAnimation() end
 
 ---@return nil
-function animationPlayer:Pause() return end
+function animationPlayer:Pause() end
 
 ---@return nil
-function animationPlayer:Play() return end
-
----@param flag Bool
----@return nil
-function animationPlayer:PlayOrPause(flag) return end
+function animationPlayer:Play() end
 
 ---@param flag Bool
 ---@return nil
-function animationPlayer:PlayOrStop(flag) return end
+function animationPlayer:PlayOrPause(flag) end
+
+---@param flag Bool
+---@return nil
+function animationPlayer:PlayOrStop(flag) end
 
 ---@return nil
-function animationPlayer:Stop() return end
+function animationPlayer:Stop() end

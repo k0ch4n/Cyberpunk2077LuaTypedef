@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ActivateLinksRequest: gameScriptableSystemRequest
----@field public linksIDs Int32[]
+---@field linksIDs Int32[]
 ActivateLinksRequest = {}
 
 ---@param fields? ActivateLinksRequest
 ---@return ActivateLinksRequest
-function ActivateLinksRequest.new(fields) return end
+function ActivateLinksRequest.new(fields) end

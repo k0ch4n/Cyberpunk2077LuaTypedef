@@ -1,92 +1,80 @@
 ---@meta
 
 ---@class OxygenbarWidgetGameController: gameuiHUDGameController
----@field private oxygenControllerRef inkWidgetReference
----@field private oxygenPercTextPath inkTextWidgetReference
----@field private oxygenStatusTextPath inkTextWidgetReference
----@field private bbPSceneTierEventId redCallbackObject
----@field private swimmingStateBlackboardId redCallbackObject
----@field private oxygenController NameplateBarLogicController
----@field private RootWidget inkWidget
----@field private animHideTemp inkanimDefinition
----@field private animShortFade inkanimDefinition
----@field private animLongFade inkanimDefinition
----@field private animHideOxygenProxy inkanimProxy
----@field private currentOxygen Float
----@field private sceneTier GameplayTier
----@field private currentSwimmingState gamePSMSwimming
----@field private oxygenListener OxygenListener
+---@field oxygenControllerRef inkWidgetReference
+---@field oxygenPercTextPath inkTextWidgetReference
+---@field oxygenStatusTextPath inkTextWidgetReference
+---@field bbPSceneTierEventId redCallbackObject
+---@field swimmingStateBlackboardId redCallbackObject
+---@field oxygenController NameplateBarLogicController
+---@field RootWidget inkWidget
+---@field animHideTemp inkanimDefinition
+---@field animShortFade inkanimDefinition
+---@field animLongFade inkanimDefinition
+---@field animHideOxygenProxy inkanimProxy
+---@field currentOxygen Float
+---@field sceneTier GameplayTier
+---@field currentSwimmingState gamePSMSwimming
+---@field oxygenListener OxygenListener
 OxygenbarWidgetGameController = {}
 
 ---@param fields? OxygenbarWidgetGameController
 ---@return OxygenbarWidgetGameController
-function OxygenbarWidgetGameController.new(fields) return end
+function OxygenbarWidgetGameController.new(fields) end
 
----@protected
 ---@return Bool
-function OxygenbarWidgetGameController:OnForceHide() return end
+function OxygenbarWidgetGameController:OnForceHide() end
 
----@protected
 ---@param tierVisibility Bool
 ---@return Bool
-function OxygenbarWidgetGameController:OnForceTierVisibility(tierVisibility) return end
+function OxygenbarWidgetGameController:OnForceTierVisibility(tierVisibility) end
 
----@protected
 ---@return Bool
-function OxygenbarWidgetGameController:OnInitialize() return end
+function OxygenbarWidgetGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function OxygenbarWidgetGameController:OnOxygenHideAnimationFinished(anim) return end
+function OxygenbarWidgetGameController:OnOxygenHideAnimationFinished(anim) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function OxygenbarWidgetGameController:OnPSMSwimmingStateChanged(value) return end
+function OxygenbarWidgetGameController:OnPSMSwimmingStateChanged(value) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function OxygenbarWidgetGameController:OnPlayerAttach(playerGameObject) return end
+function OxygenbarWidgetGameController:OnPlayerAttach(playerGameObject) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function OxygenbarWidgetGameController:OnPlayerDetach(playerGameObject) return end
+function OxygenbarWidgetGameController:OnPlayerDetach(playerGameObject) end
 
----@protected
 ---@param argTier Int32
 ---@return Bool
-function OxygenbarWidgetGameController:OnSceneTierChange(argTier) return end
+function OxygenbarWidgetGameController:OnSceneTierChange(argTier) end
 
----@protected
 ---@return Bool
-function OxygenbarWidgetGameController:OnUninitialize() return end
-
----@private
----@return nil
-function OxygenbarWidgetGameController:CreateAnimations() return end
+function OxygenbarWidgetGameController:OnUninitialize() end
 
 ---@return nil
-function OxygenbarWidgetGameController:EvaluateOxygenBarVisibility() return end
+function OxygenbarWidgetGameController:CreateAnimations() end
 
----@protected
+---@return nil
+function OxygenbarWidgetGameController:EvaluateOxygenBarVisibility() end
+
 ---@param playerPuppet gameObject
 ---@return nil
-function OxygenbarWidgetGameController:RegisterPSMListeners(playerPuppet) return end
+function OxygenbarWidgetGameController:RegisterPSMListeners(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function OxygenbarWidgetGameController:UnregisterPSMListeners(playerPuppet) return end
+function OxygenbarWidgetGameController:UnregisterPSMListeners(playerPuppet) end
 
 ---@param oxygenPerc Int32
 ---@return nil
-function OxygenbarWidgetGameController:UpdateOxygenLevelWarningFluffTexts(oxygenPerc) return end
+function OxygenbarWidgetGameController:UpdateOxygenLevelWarningFluffTexts(oxygenPerc) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function OxygenbarWidgetGameController:UpdateOxygenValue(oldValue, newValue, percToPoints) return end
+function OxygenbarWidgetGameController:UpdateOxygenValue(oldValue, newValue, percToPoints) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ItemIdWrapper: IScriptable
----@field public itemID gameItemID
+---@field itemID gameItemID
 ItemIdWrapper = {}
 
 ---@param fields? ItemIdWrapper
 ---@return ItemIdWrapper
-function ItemIdWrapper.new(fields) return end
+function ItemIdWrapper.new(fields) end

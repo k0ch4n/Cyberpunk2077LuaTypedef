@@ -5,4 +5,4 @@ AIbehaviorSelectorTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorSelectorTreeNodeDefinition
 ---@return AIbehaviorSelectorTreeNodeDefinition
-function AIbehaviorSelectorTreeNodeDefinition.new(fields) return end
+function AIbehaviorSelectorTreeNodeDefinition.new(fields) end

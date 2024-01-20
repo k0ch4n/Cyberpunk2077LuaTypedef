@@ -1,18 +1,16 @@
 ---@meta
 
 ---@class GuardbreakReactionTask: AIHitReactionTask
----@field public tweakDBPackage TweakDBID
+---@field tweakDBPackage TweakDBID
 GuardbreakReactionTask = {}
 
 ---@param fields? GuardbreakReactionTask
 ---@return GuardbreakReactionTask
-function GuardbreakReactionTask.new(fields) return end
+function GuardbreakReactionTask.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function GuardbreakReactionTask:GetDesiredHitReactionDuration(context) return end
+function GuardbreakReactionTask:GetDesiredHitReactionDuration(context) end
 
----@private
 ---@return animHitReactionType
-function GuardbreakReactionTask:GetHitReactionType() return end
+function GuardbreakReactionTask:GetHitReactionType() end

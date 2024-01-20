@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questForcedBehaviourNodeDefinition: questSignalStoppingNodeDefinition
----@field public puppet gameEntityReference
----@field public tree questForcedBehaviorReference
----@field public behavior AIbehaviorParameterizedBehavior
+---@field puppet gameEntityReference
+---@field tree questForcedBehaviorReference
+---@field behavior AIbehaviorParameterizedBehavior
 questForcedBehaviourNodeDefinition = {}
 
 ---@param fields? questForcedBehaviourNodeDefinition
 ---@return questForcedBehaviourNodeDefinition
-function questForcedBehaviourNodeDefinition.new(fields) return end
+function questForcedBehaviourNodeDefinition.new(fields) end

@@ -5,9 +5,8 @@ CheckIfCombatAllowed = {}
 
 ---@param fields? CheckIfCombatAllowed
 ---@return CheckIfCombatAllowed
-function CheckIfCombatAllowed.new(fields) return end
+function CheckIfCombatAllowed.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckIfCombatAllowed:Check(context) return end
+function CheckIfCombatAllowed:Check(context) end

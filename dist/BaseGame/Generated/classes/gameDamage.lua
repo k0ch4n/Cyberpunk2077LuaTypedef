@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class gameDamage: IScriptable
----@field public damageType gamedataDamageType
----@field public value Float
+---@field damageType gamedataDamageType
+---@field value Float
 gameDamage = {}
 
 ---@param fields? gameDamage
 ---@return gameDamage
-function gameDamage.new(fields) return end
+function gameDamage.new(fields) end
 
 ---@return gamedataDamageType
-function gameDamage:GetType() return end
+function gameDamage:GetType() end
 
 ---@return Float
-function gameDamage:GetValue() return end
+function gameDamage:GetValue() end
 
 ---@return Bool
-function gameDamage:IsValid() return end
+function gameDamage:IsValid() end
 
 ---@param dmgType gamedataDamageType
 ---@return nil
-function gameDamage:SetType(dmgType) return end
+function gameDamage:SetType(dmgType) end
 
 ---@param value Float
 ---@return nil
-function gameDamage:SetValue(value) return end
+function gameDamage:SetValue(value) end

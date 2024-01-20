@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class Cylinder
----@field public positionAndRadius Vector4
----@field public normalAndHeight Vector4
+---@field positionAndRadius Vector4
+---@field normalAndHeight Vector4
 Cylinder = {}
 
 ---@param fields? Cylinder
 ---@return Cylinder
-function Cylinder.new(fields) return end
+function Cylinder.new(fields) end

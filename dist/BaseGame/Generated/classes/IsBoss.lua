@@ -5,14 +5,12 @@ IsBoss = {}
 
 ---@param fields? IsBoss
 ---@return IsBoss
-function IsBoss.new(fields) return end
+function IsBoss.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsBoss:Activate(context) return end
+function IsBoss:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsBoss:Check(context) return end
+function IsBoss:Check(context) end

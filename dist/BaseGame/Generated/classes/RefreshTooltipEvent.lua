@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RefreshTooltipEvent: redEvent
----@field public widget inkWidget
+---@field widget inkWidget
 RefreshTooltipEvent = {}
 
 ---@param fields? RefreshTooltipEvent
 ---@return RefreshTooltipEvent
-function RefreshTooltipEvent.new(fields) return end
+function RefreshTooltipEvent.new(fields) end

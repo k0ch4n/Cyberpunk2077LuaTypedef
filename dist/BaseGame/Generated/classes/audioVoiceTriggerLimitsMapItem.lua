@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVoiceTriggerLimitsMapItem
----@field public name CName
----@field public limits audioVoiceTriggerLimits
+---@field name CName
+---@field limits audioVoiceTriggerLimits
 audioVoiceTriggerLimitsMapItem = {}
 
 ---@param fields? audioVoiceTriggerLimitsMapItem
 ---@return audioVoiceTriggerLimitsMapItem
-function audioVoiceTriggerLimitsMapItem.new(fields) return end
+function audioVoiceTriggerLimitsMapItem.new(fields) end

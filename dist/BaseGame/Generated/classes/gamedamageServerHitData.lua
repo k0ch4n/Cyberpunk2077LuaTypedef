@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamedamageServerHitData: IScriptable
----@field public id Uint32
----@field public damageInfos gameuiDamageInfo[]
----@field public instigator gameObject
+---@field id Uint32
+---@field damageInfos gameuiDamageInfo[]
+---@field instigator gameObject
 gamedamageServerHitData = {}
 
 ---@param fields? gamedamageServerHitData
 ---@return gamedamageServerHitData
-function gamedamageServerHitData.new(fields) return end
+function gamedamageServerHitData.new(fields) end

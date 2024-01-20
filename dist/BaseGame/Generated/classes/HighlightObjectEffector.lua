@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class HighlightObjectEffector: gameEffector
----@field public reason CName
+---@field reason CName
 HighlightObjectEffector = {}
 
 ---@param fields? HighlightObjectEffector
 ---@return HighlightObjectEffector
-function HighlightObjectEffector.new(fields) return end
+function HighlightObjectEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function HighlightObjectEffector:ActionOff(owner) return end
+function HighlightObjectEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function HighlightObjectEffector:ActionOn(owner) return end
+function HighlightObjectEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function HighlightObjectEffector:Initialize(record, parentRecord) return end
+function HighlightObjectEffector:Initialize(record, parentRecord) end

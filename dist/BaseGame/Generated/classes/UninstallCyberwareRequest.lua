@@ -5,4 +5,4 @@ UninstallCyberwareRequest = {}
 
 ---@param fields? UninstallCyberwareRequest
 ---@return UninstallCyberwareRequest
-function UninstallCyberwareRequest.new(fields) return end
+function UninstallCyberwareRequest.new(fields) end

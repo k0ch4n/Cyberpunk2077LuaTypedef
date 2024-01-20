@@ -5,4 +5,4 @@ gameuiWorldMapUpdateGroupsEvent = {}
 
 ---@param fields? gameuiWorldMapUpdateGroupsEvent
 ---@return gameuiWorldMapUpdateGroupsEvent
-function gameuiWorldMapUpdateGroupsEvent.new(fields) return end
+function gameuiWorldMapUpdateGroupsEvent.new(fields) end

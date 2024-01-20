@@ -5,25 +5,21 @@ ProximityDetectorControllerPS = {}
 
 ---@param fields? ProximityDetectorControllerPS
 ---@return ProximityDetectorControllerPS
-function ProximityDetectorControllerPS.new(fields) return end
+function ProximityDetectorControllerPS.new(fields) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function ProximityDetectorControllerPS:GetActions(context) return end
+function ProximityDetectorControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function ProximityDetectorControllerPS:GetBackgroundTextureTweakDBID() return end
+function ProximityDetectorControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function ProximityDetectorControllerPS:GetDeviceIconTweakDBID() return end
+function ProximityDetectorControllerPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function ProximityDetectorControllerPS:OnTargetAssessmentRequest(evt) return end
+function ProximityDetectorControllerPS:OnTargetAssessmentRequest(evt) end
 
----@protected
 ---@return nil
-function ProximityDetectorControllerPS:PerformRestart() return end
+function ProximityDetectorControllerPS:PerformRestart() end

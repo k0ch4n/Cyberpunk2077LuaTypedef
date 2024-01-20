@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class DeadContextDecisions: InputContextTransitionDecisions
----@field private callbackID redCallbackObject
+---@field callbackID redCallbackObject
 DeadContextDecisions = {}
 
 ---@param fields? DeadContextDecisions
 ---@return DeadContextDecisions
-function DeadContextDecisions.new(fields) return end
+function DeadContextDecisions.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function DeadContextDecisions:OnVitalsChanged(value) return end
+function DeadContextDecisions:OnVitalsChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DeadContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function DeadContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DeadContextDecisions:OnAttach(stateContext, scriptInterface) return end
+function DeadContextDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DeadContextDecisions:OnDetach(stateContext, scriptInterface) return end
+function DeadContextDecisions:OnDetach(stateContext, scriptInterface) end

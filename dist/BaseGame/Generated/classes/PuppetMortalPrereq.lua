@@ -1,35 +1,32 @@
 ---@meta
 
 ---@class PuppetMortalPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 PuppetMortalPrereq = {}
 
 ---@param fields? PuppetMortalPrereq
 ---@return PuppetMortalPrereq
-function PuppetMortalPrereq.new(fields) return end
+function PuppetMortalPrereq.new(fields) end
 
 ---@param owner gameObject
 ---@param godModeType gameGodModeType
 ---@return Bool
-function PuppetMortalPrereq:Evaluate(owner, godModeType) return end
+function PuppetMortalPrereq:Evaluate(owner, godModeType) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return nil
-function PuppetMortalPrereq:Initialize(record) return end
+function PuppetMortalPrereq:Initialize(record) end
 
 ---@param context IScriptable
 ---@return Bool
-function PuppetMortalPrereq:IsFulfilled(context) return end
+function PuppetMortalPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function PuppetMortalPrereq:OnRegister(state, context) return end
+function PuppetMortalPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function PuppetMortalPrereq:OnUnregister(state, context) return end
+function PuppetMortalPrereq:OnUnregister(state, context) end

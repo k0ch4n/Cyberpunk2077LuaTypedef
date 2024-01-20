@@ -5,7 +5,7 @@ SniperNestController = {}
 
 ---@param fields? SniperNestController
 ---@return SniperNestController
-function SniperNestController.new(fields) return end
+function SniperNestController.new(fields) end
 
 ---@return SniperNestControllerPS
-function SniperNestController:GetPS() return end
+function SniperNestController:GetPS() end

@@ -5,7 +5,7 @@ CoderController = {}
 
 ---@param fields? CoderController
 ---@return CoderController
-function CoderController.new(fields) return end
+function CoderController.new(fields) end
 
 ---@return CoderControllerPS
-function CoderController:GetPS() return end
+function CoderController:GetPS() end

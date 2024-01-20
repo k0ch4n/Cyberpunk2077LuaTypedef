@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animPoseCorrection
----@field public rbfCoefficient Float
----@field public rbfPowValue Float
----@field public compareBones animCompareBone
----@field public boneCorrections animBoneCorrection
+---@field rbfCoefficient Float
+---@field rbfPowValue Float
+---@field compareBones animCompareBone
+---@field boneCorrections animBoneCorrection
 animPoseCorrection = {}
 
 ---@param fields? animPoseCorrection
 ---@return animPoseCorrection
-function animPoseCorrection.new(fields) return end
+function animPoseCorrection.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldTrafficLightDefinition
----@field public positionOnLane Float
----@field public groupIdx Uint32
----@field public extent Float
----@field public timeline worldTrafficLightStage[]
+---@field positionOnLane Float
+---@field groupIdx Uint32
+---@field extent Float
+---@field timeline worldTrafficLightStage[]
 worldTrafficLightDefinition = {}
 
 ---@param fields? worldTrafficLightDefinition
 ---@return worldTrafficLightDefinition
-function worldTrafficLightDefinition.new(fields) return end
+function worldTrafficLightDefinition.new(fields) end

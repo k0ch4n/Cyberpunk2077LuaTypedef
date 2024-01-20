@@ -1,359 +1,302 @@
 ---@meta
 
 ---@class DeviceInkGameControllerBase: gameuiWidgetGameController
----@field protected animationManager WidgetAnimationManager
----@field protected rootWidget inkCanvasWidget
----@field protected actionWidgetsData SActionWidgetPackage[]
----@field protected deviceWidgetsData SDeviceWidgetPackage[]
----@field protected breadcrumbStack SBreadcrumbElementData[]
----@field protected cashedState EDeviceStatus
----@field protected isInitialized Bool
----@field protected hasUICameraZoom Bool
----@field protected activeBreadcrumb SBreadcrumbElementData
----@field private onRefreshListener redCallbackObject
----@field private onActionWidgetsUpdateListener redCallbackObject
----@field private onDeviceWidgetsUpdateListener redCallbackObject
----@field private onBreadcrumbBarUpdateListener redCallbackObject
----@field protected bbCallbacksRegistered Bool
+---@field animationManager WidgetAnimationManager
+---@field rootWidget inkCanvasWidget
+---@field actionWidgetsData SActionWidgetPackage[]
+---@field deviceWidgetsData SDeviceWidgetPackage[]
+---@field breadcrumbStack SBreadcrumbElementData[]
+---@field cashedState EDeviceStatus
+---@field isInitialized Bool
+---@field hasUICameraZoom Bool
+---@field activeBreadcrumb SBreadcrumbElementData
+---@field onRefreshListener redCallbackObject
+---@field onActionWidgetsUpdateListener redCallbackObject
+---@field onDeviceWidgetsUpdateListener redCallbackObject
+---@field onBreadcrumbBarUpdateListener redCallbackObject
+---@field bbCallbacksRegistered Bool
 DeviceInkGameControllerBase = {}
 
 ---@param fields? DeviceInkGameControllerBase
 ---@return DeviceInkGameControllerBase
-function DeviceInkGameControllerBase.new(fields) return end
+function DeviceInkGameControllerBase.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DeviceInkGameControllerBase:OnActionWidgetSpawned(widget, userData) return end
+function DeviceInkGameControllerBase:OnActionWidgetSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DeviceInkGameControllerBase:OnActionWidgetsUpdate(value) return end
+function DeviceInkGameControllerBase:OnActionWidgetsUpdate(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DeviceInkGameControllerBase:OnBreadcrumbBarUpdate(value) return end
+function DeviceInkGameControllerBase:OnBreadcrumbBarUpdate(value) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DeviceInkGameControllerBase:OnButtonHoverOut(e) return end
+function DeviceInkGameControllerBase:OnButtonHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DeviceInkGameControllerBase:OnButtonHoverOver(e) return end
+function DeviceInkGameControllerBase:OnButtonHoverOver(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DeviceInkGameControllerBase:OnButtonPress(e) return end
+function DeviceInkGameControllerBase:OnButtonPress(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DeviceInkGameControllerBase:OnButtonRelease(e) return end
+function DeviceInkGameControllerBase:OnButtonRelease(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DeviceInkGameControllerBase:OnDeviceActionCallback(e) return end
+function DeviceInkGameControllerBase:OnDeviceActionCallback(e) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DeviceInkGameControllerBase:OnDeviceWidgetSpawned(widget, userData) return end
+function DeviceInkGameControllerBase:OnDeviceWidgetSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DeviceInkGameControllerBase:OnDeviceWidgetsUpdate(value) return end
+function DeviceInkGameControllerBase:OnDeviceWidgetsUpdate(value) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function DeviceInkGameControllerBase:OnExecuteButtonAction(widget) return end
+function DeviceInkGameControllerBase:OnExecuteButtonAction(widget) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DeviceInkGameControllerBase:OnGlitchingStateChanged(value) return end
+function DeviceInkGameControllerBase:OnGlitchingStateChanged(value) end
 
----@protected
 ---@return Bool
-function DeviceInkGameControllerBase:OnInitialize() return end
+function DeviceInkGameControllerBase:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function DeviceInkGameControllerBase:OnRefresh(value) return end
+function DeviceInkGameControllerBase:OnRefresh(value) end
 
----@protected
 ---@return Bool
-function DeviceInkGameControllerBase:OnUninitialize() return end
+function DeviceInkGameControllerBase:OnUninitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@return inkWidget
-function DeviceInkGameControllerBase:AddActionWidget(widget, widgetData) return end
+function DeviceInkGameControllerBase:AddActionWidget(widget, widgetData) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceInkGameControllerBase:AddActionWidgetData(widgetData) return end
+function DeviceInkGameControllerBase:AddActionWidgetData(widgetData) end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SDeviceWidgetPackage
 ---@return inkWidget
-function DeviceInkGameControllerBase:AddDeviceWidget(widget, widgetData) return end
+function DeviceInkGameControllerBase:AddDeviceWidget(widget, widgetData) end
 
----@protected
 ---@param widgetData SDeviceWidgetPackage
 ---@return nil
-function DeviceInkGameControllerBase:AddDeviceWidgetData(widgetData) return end
+function DeviceInkGameControllerBase:AddDeviceWidgetData(widgetData) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:ClearBreadcrumbStack() return end
+function DeviceInkGameControllerBase:ClearBreadcrumbStack() end
 
----@protected
 ---@param parentWidget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@return inkWidget
-function DeviceInkGameControllerBase:CreateActionWidget(parentWidget, widgetData) return end
+function DeviceInkGameControllerBase:CreateActionWidget(parentWidget, widgetData) end
 
----@protected
 ---@param parentWidget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceInkGameControllerBase:CreateActionWidgetAsync(parentWidget, widgetData) return end
+function DeviceInkGameControllerBase:CreateActionWidgetAsync(parentWidget, widgetData) end
 
----@protected
 ---@param parentWidget inkWidget
 ---@param widgetData SDeviceWidgetPackage
 ---@return inkWidget
-function DeviceInkGameControllerBase:CreateDeviceWidget(parentWidget, widgetData) return end
+function DeviceInkGameControllerBase:CreateDeviceWidget(parentWidget, widgetData) end
 
----@protected
 ---@param parentWidget inkWidget
 ---@param widgetData SDeviceWidgetPackage
 ---@return nil
-function DeviceInkGameControllerBase:CreateDeviceWidgetAsync(parentWidget, widgetData) return end
+function DeviceInkGameControllerBase:CreateDeviceWidgetAsync(parentWidget, widgetData) end
 
----@protected
 ---@param action gamedeviceAction
 ---@param executor gameObject
 ---@return nil
-function DeviceInkGameControllerBase:ExecuteAction(action, executor) return end
+function DeviceInkGameControllerBase:ExecuteAction(action, executor) end
 
----@protected
 ---@param controller DeviceActionWidgetControllerBase
 ---@return nil
-function DeviceInkGameControllerBase:ExecuteDeviceActions(controller) return end
+function DeviceInkGameControllerBase:ExecuteDeviceActions(controller) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return inkWidget
-function DeviceInkGameControllerBase:GetActionWidget(widgetData) return end
+function DeviceInkGameControllerBase:GetActionWidget(widgetData) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return Int32
-function DeviceInkGameControllerBase:GetActionWidgetDataIndex(widgetData) return end
+function DeviceInkGameControllerBase:GetActionWidgetDataIndex(widgetData) end
 
 ---@return SBreadcrumbElementData
-function DeviceInkGameControllerBase:GetActiveBreadcrumbElement() return end
+function DeviceInkGameControllerBase:GetActiveBreadcrumbElement() end
 
 ---@return String
-function DeviceInkGameControllerBase:GetActiveBreadcrumbElementName() return end
+function DeviceInkGameControllerBase:GetActiveBreadcrumbElementName() end
 
----@protected
 ---@return gameIBlackboard
-function DeviceInkGameControllerBase:GetBlackboard() return end
+function DeviceInkGameControllerBase:GetBlackboard() end
 
 ---@return SBreadcrumbElementData
-function DeviceInkGameControllerBase:GetCurrentBreadcrumbElement() return end
+function DeviceInkGameControllerBase:GetCurrentBreadcrumbElement() end
 
 ---@return String
-function DeviceInkGameControllerBase:GetCurrentBreadcrumbElementName() return end
+function DeviceInkGameControllerBase:GetCurrentBreadcrumbElementName() end
 
 ---@param widgetRecord gamedataWidgetDefinition_Record
 ---@param screenTypeRecord? gamedataDeviceScreenType_Record
 ---@param styleRecord? gamedataWidgetStyle_Record
 ---@return CName
-function DeviceInkGameControllerBase:GetCurrentFullLibraryID(widgetRecord, screenTypeRecord, styleRecord) return end
+function DeviceInkGameControllerBase:GetCurrentFullLibraryID(widgetRecord, screenTypeRecord, styleRecord) end
 
 ---@return EDeviceStatus
-function DeviceInkGameControllerBase:GetDeviceState() return end
+function DeviceInkGameControllerBase:GetDeviceState() end
 
----@protected
 ---@param widgetData SDeviceWidgetPackage
 ---@return inkWidget
-function DeviceInkGameControllerBase:GetDeviceWidget(widgetData) return end
+function DeviceInkGameControllerBase:GetDeviceWidget(widgetData) end
 
----@protected
 ---@param widgetData SDeviceWidgetPackage
 ---@return Int32
-function DeviceInkGameControllerBase:GetDeviceWidgetDataIndex(widgetData) return end
+function DeviceInkGameControllerBase:GetDeviceWidgetDataIndex(widgetData) end
 
----@protected
 ---@return Device
-function DeviceInkGameControllerBase:GetOwner() return end
+function DeviceInkGameControllerBase:GetOwner() end
 
 ---@return ScreenDefinitionPackage
-function DeviceInkGameControllerBase:GetScreenDefinition() return end
+function DeviceInkGameControllerBase:GetScreenDefinition() end
 
----@protected
 ---@param element SBreadcrumbElementData
 ---@return nil
-function DeviceInkGameControllerBase:GoDown(element) return end
+function DeviceInkGameControllerBase:GoDown(element) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:GoUp() return end
+function DeviceInkGameControllerBase:GoUp() end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return Bool
-function DeviceInkGameControllerBase:HasActionWidget(widgetData) return end
+function DeviceInkGameControllerBase:HasActionWidget(widgetData) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return Bool
-function DeviceInkGameControllerBase:HasActionWidgetData(widgetData) return end
+function DeviceInkGameControllerBase:HasActionWidgetData(widgetData) end
 
----@protected
 ---@param widgetData SDeviceWidgetPackage
 ---@return Bool
-function DeviceInkGameControllerBase:HasDeviceWidget(widgetData) return end
+function DeviceInkGameControllerBase:HasDeviceWidget(widgetData) end
 
----@protected
 ---@param widgetData SDeviceWidgetPackage
 ---@return Bool
-function DeviceInkGameControllerBase:HasDeviceWidgetData(widgetData) return end
+function DeviceInkGameControllerBase:HasDeviceWidgetData(widgetData) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:HideActionWidgets() return end
+function DeviceInkGameControllerBase:HideActionWidgets() end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:HideDeviceWidgets() return end
+function DeviceInkGameControllerBase:HideDeviceWidgets() end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceInkGameControllerBase:InitializeActionWidget(widget, widgetData) return end
+function DeviceInkGameControllerBase:InitializeActionWidget(widget, widgetData) end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SDeviceWidgetPackage
 ---@return nil
-function DeviceInkGameControllerBase:InitializeDeviceWidget(widget, widgetData) return end
-
----@protected
----@return Bool
-function DeviceInkGameControllerBase:IsInteractivityBlocked() return end
+function DeviceInkGameControllerBase:InitializeDeviceWidget(widget, widgetData) end
 
 ---@return Bool
-function DeviceInkGameControllerBase:IsOwnerFactInvoker() return end
+function DeviceInkGameControllerBase:IsInteractivityBlocked() end
+
+---@return Bool
+function DeviceInkGameControllerBase:IsOwnerFactInvoker() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function DeviceInkGameControllerBase:Refresh(state) return end
+function DeviceInkGameControllerBase:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function DeviceInkGameControllerBase:RegisterBlackboardCallbacks(blackboard) return end
+function DeviceInkGameControllerBase:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:RequestActionWidgetsUpdate() return end
+function DeviceInkGameControllerBase:RequestActionWidgetsUpdate() end
 
----@protected
 ---@param data SBreadCrumbUpdateData
 ---@return nil
-function DeviceInkGameControllerBase:RequestBeadcrumbBarUpdate(data) return end
+function DeviceInkGameControllerBase:RequestBeadcrumbBarUpdate(data) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:RequestDeviceWidgetsUpdate() return end
+function DeviceInkGameControllerBase:RequestDeviceWidgetsUpdate() end
 
----@protected
 ---@param context? CName|string
 ---@return nil
-function DeviceInkGameControllerBase:RequestUIRefresh(context) return end
+function DeviceInkGameControllerBase:RequestUIRefresh(context) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:ResolveBreadcrumbLevel() return end
+function DeviceInkGameControllerBase:ResolveBreadcrumbLevel() end
 
----@protected
 ---@param element SBreadcrumbElementData
 ---@return nil
-function DeviceInkGameControllerBase:SetActiveBreadcrumbElement(element) return end
+function DeviceInkGameControllerBase:SetActiveBreadcrumbElement(element) end
 
 ---@param hasUICameraZoom Bool
 ---@return nil
-function DeviceInkGameControllerBase:SetUICameraZoomState(hasUICameraZoom) return end
+function DeviceInkGameControllerBase:SetUICameraZoomState(hasUICameraZoom) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:SetupWidgets() return end
+function DeviceInkGameControllerBase:SetupWidgets() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function DeviceInkGameControllerBase:StartGlitchingScreen(glitchData) return end
+function DeviceInkGameControllerBase:StartGlitchingScreen(glitchData) end
 
----@private
 ---@return nil
-function DeviceInkGameControllerBase:StopGlitchingScreen() return end
+function DeviceInkGameControllerBase:StopGlitchingScreen() end
 
 ---@param animName CName|string
 ---@param playbackOption EInkAnimationPlaybackOption
 ---@param targetWidget? inkWidget
 ---@param playbackOptionsOverrideData? PlaybackOptionsUpdateData
 ---@return nil
-function DeviceInkGameControllerBase:TriggerAnimationByName(animName, playbackOption, targetWidget, playbackOptionsOverrideData) return end
+function DeviceInkGameControllerBase:TriggerAnimationByName(animName, playbackOption, targetWidget, playbackOptionsOverrideData) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function DeviceInkGameControllerBase:UnRegisterBlackboardCallbacks(blackboard) return end
+function DeviceInkGameControllerBase:UnRegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@param index Int32
 ---@return nil
-function DeviceInkGameControllerBase:UpdateActionWidgetData(widgetData, index) return end
+function DeviceInkGameControllerBase:UpdateActionWidgetData(widgetData, index) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function DeviceInkGameControllerBase:UpdateActionWidgets(widgetsData) return end
+function DeviceInkGameControllerBase:UpdateActionWidgets(widgetsData) end
 
 ---@param data SBreadCrumbUpdateData
 ---@return nil
-function DeviceInkGameControllerBase:UpdateBreadCrumbBar(data) return end
+function DeviceInkGameControllerBase:UpdateBreadCrumbBar(data) end
 
----@protected
 ---@param widgetData SDeviceWidgetPackage
 ---@param index Int32
 ---@return nil
-function DeviceInkGameControllerBase:UpdateDeviceWidgetData(widgetData, index) return end
+function DeviceInkGameControllerBase:UpdateDeviceWidgetData(widgetData, index) end
 
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
-function DeviceInkGameControllerBase:UpdateDeviceWidgets(widgetsData) return end
+function DeviceInkGameControllerBase:UpdateDeviceWidgets(widgetsData) end
 
----@protected
 ---@return nil
-function DeviceInkGameControllerBase:UpdateUnstreamedUI() return end
+function DeviceInkGameControllerBase:UpdateUnstreamedUI() end

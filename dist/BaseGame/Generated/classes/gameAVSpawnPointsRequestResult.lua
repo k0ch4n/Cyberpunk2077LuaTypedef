@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameAVSpawnPointsRequestResult
----@field public requestID Uint32
----@field public success Bool
----@field public spawnPoints Vector3[]
+---@field requestID Uint32
+---@field success Bool
+---@field spawnPoints Vector3[]
 gameAVSpawnPointsRequestResult = {}
 
 ---@param fields? gameAVSpawnPointsRequestResult
 ---@return gameAVSpawnPointsRequestResult
-function gameAVSpawnPointsRequestResult.new(fields) return end
+function gameAVSpawnPointsRequestResult.new(fields) end

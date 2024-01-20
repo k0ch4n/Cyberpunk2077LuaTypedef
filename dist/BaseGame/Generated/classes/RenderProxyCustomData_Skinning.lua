@@ -5,4 +5,4 @@ RenderProxyCustomData_Skinning = {}
 
 ---@param fields? RenderProxyCustomData_Skinning
 ---@return RenderProxyCustomData_Skinning
-function RenderProxyCustomData_Skinning.new(fields) return end
+function RenderProxyCustomData_Skinning.new(fields) end

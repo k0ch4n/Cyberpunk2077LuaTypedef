@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class STransformAnimationData
----@field public animationName CName
----@field public operationType ETransformAnimationOperationType
----@field public playData STransformAnimationPlayEventData
----@field public skipData STransformAnimationSkipEventData
+---@field animationName CName
+---@field operationType ETransformAnimationOperationType
+---@field playData STransformAnimationPlayEventData
+---@field skipData STransformAnimationSkipEventData
 STransformAnimationData = {}
 
 ---@param fields? STransformAnimationData
 ---@return STransformAnimationData
-function STransformAnimationData.new(fields) return end
+function STransformAnimationData.new(fields) end

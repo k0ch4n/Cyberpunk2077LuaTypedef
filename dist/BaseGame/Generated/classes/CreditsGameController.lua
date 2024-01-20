@@ -1,61 +1,52 @@
 ---@meta
 
 ---@class CreditsGameController: gameuiCreditsController
----@field private videoContainer inkCompoundWidgetReference
----@field private sceneTexture inkImageWidgetReference
----@field private backgroundVideo inkVideoWidgetReference
----@field private binkVideo inkVideoWidgetReference
----@field private binkVideos gameuiBinkResource[]
----@field private fastForward inkTextWidgetReference
----@field private timerUntilFadeEp1 Float
----@field private musicVideoEp1 inkVideoWidgetReference
----@field private creditsAnimEp1 inkCompoundWidgetReference
----@field private currentBinkVideo Int32
----@field private videoSummary inkVideoWidgetSummary
----@field private isDataSet Bool
----@field private accumulatedTime Float
----@field private isCounting Bool
+---@field videoContainer inkCompoundWidgetReference
+---@field sceneTexture inkImageWidgetReference
+---@field backgroundVideo inkVideoWidgetReference
+---@field binkVideo inkVideoWidgetReference
+---@field binkVideos gameuiBinkResource[]
+---@field fastForward inkTextWidgetReference
+---@field timerUntilFadeEp1 Float
+---@field musicVideoEp1 inkVideoWidgetReference
+---@field creditsAnimEp1 inkCompoundWidgetReference
+---@field currentBinkVideo Int32
+---@field videoSummary inkVideoWidgetSummary
+---@field isDataSet Bool
+---@field accumulatedTime Float
+---@field isCounting Bool
 CreditsGameController = {}
 
 ---@param fields? CreditsGameController
 ---@return CreditsGameController
-function CreditsGameController.new(fields) return end
+function CreditsGameController.new(fields) end
 
----@protected
 ---@return Bool
-function CreditsGameController:OnInitialize() return end
+function CreditsGameController:OnInitialize() end
 
----@protected
 ---@param data IScriptable
 ---@return Bool
-function CreditsGameController:OnSetUserData(data) return end
+function CreditsGameController:OnSetUserData(data) end
 
----@protected
 ---@return Bool
-function CreditsGameController:OnUninitialize() return end
+function CreditsGameController:OnUninitialize() end
 
----@protected
 ---@param timeDelta Float
 ---@return Bool
-function CreditsGameController:OnUpdate(timeDelta) return end
+function CreditsGameController:OnUpdate(timeDelta) end
 
----@protected
 ---@param target inkVideoWidget
 ---@return Bool
-function CreditsGameController:OnVideoFinished(target) return end
+function CreditsGameController:OnVideoFinished(target) end
 
----@private
 ---@return nil
-function CreditsGameController:FinishVideo() return end
+function CreditsGameController:FinishVideo() end
 
----@private
 ---@return nil
-function CreditsGameController:InitializeCredits() return end
+function CreditsGameController:InitializeCredits() end
 
----@private
 ---@return nil
-function CreditsGameController:PlayCredits() return end
+function CreditsGameController:PlayCredits() end
 
----@private
 ---@return nil
-function CreditsGameController:PlayNextVideo() return end
+function CreditsGameController:PlayNextVideo() end

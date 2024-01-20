@@ -5,8 +5,8 @@ DisableAllVehicleInteractionsNotEnabledPrereq = {}
 
 ---@param fields? DisableAllVehicleInteractionsNotEnabledPrereq
 ---@return DisableAllVehicleInteractionsNotEnabledPrereq
-function DisableAllVehicleInteractionsNotEnabledPrereq.new(fields) return end
+function DisableAllVehicleInteractionsNotEnabledPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function DisableAllVehicleInteractionsNotEnabledPrereq:IsFulfilled(context) return end
+function DisableAllVehicleInteractionsNotEnabledPrereq:IsFulfilled(context) end

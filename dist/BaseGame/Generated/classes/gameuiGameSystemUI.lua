@@ -5,147 +5,143 @@ gameuiGameSystemUI = {}
 
 ---@param fields? gameuiGameSystemUI
 ---@return gameuiGameSystemUI
-function gameuiGameSystemUI.new(fields) return end
+function gameuiGameSystemUI.new(fields) end
 
 ---@return nil
-function gameuiGameSystemUI:ClearGlobalThemeOverride() return end
+function gameuiGameSystemUI:ClearGlobalThemeOverride() end
 
 ---@return Vector2
-function gameuiGameSystemUI:GetBlackBarsSizes() return end
+function gameuiGameSystemUI:GetBlackBarsSizes() end
 
 ---@return Vector2
-function gameuiGameSystemUI:GetCurrentWindowSize() return end
+function gameuiGameSystemUI:GetCurrentWindowSize() end
 
 ---@return ScriptGameInstance
-function gameuiGameSystemUI:GetGameInstance() return end
+function gameuiGameSystemUI:GetGameInstance() end
 
 ---@param entryName CName|string
 ---@return worlduiEntryVisibility
-function gameuiGameSystemUI:GetHudEntryForcedVisibility(entryName) return end
+function gameuiGameSystemUI:GetHudEntryForcedVisibility(entryName) end
 
 ---@return Float
-function gameuiGameSystemUI:GetHudScalingOverride() return end
+function gameuiGameSystemUI:GetHudScalingOverride() end
 
 ---@return inkWidget
-function gameuiGameSystemUI:GetInteractableWidgetUnderCursor() return end
+function gameuiGameSystemUI:GetInteractableWidgetUnderCursor() end
 
 ---@return Float
-function gameuiGameSystemUI:GetInverseUIScale() return end
+function gameuiGameSystemUI:GetInverseUIScale() end
 
 ---@return gameuiPatchIntroPackage
-function gameuiGameSystemUI:GetNeededPatchIntroPackage() return end
+function gameuiGameSystemUI:GetNeededPatchIntroPackage() end
 
 ---@param message gameuiOneTimeMessage
 ---@return Bool
-function gameuiGameSystemUI:GetOneTimeMessageSeen(message) return end
+function gameuiGameSystemUI:GetOneTimeMessageSeen(message) end
 
 ---@param bracketID CName|string
 ---@return nil
-function gameuiGameSystemUI:HideTutorialBracket(bracketID) return end
+function gameuiGameSystemUI:HideTutorialBracket(bracketID) end
 
 ---@param data gameTutorialOverlayData
 ---@return nil
-function gameuiGameSystemUI:HideTutorialOverlay(data) return end
+function gameuiGameSystemUI:HideTutorialOverlay(data) end
 
 ---@param patchIntro gameuiPatchIntro
 ---@return Bool
-function gameuiGameSystemUI:IsPatchIntroNeeded(patchIntro) return end
+function gameuiGameSystemUI:IsPatchIntroNeeded(patchIntro) end
 
 ---@param patchIntro gameuiPatchIntro
 ---@return nil
-function gameuiGameSystemUI:MarkPatchIntroAsSeen(patchIntro) return end
+function gameuiGameSystemUI:MarkPatchIntroAsSeen(patchIntro) end
 
 ---@return nil
-function gameuiGameSystemUI:NotifyFastTravelStart() return end
+function gameuiGameSystemUI:NotifyFastTravelStart() end
 
 ---@param evt redEvent
 ---@return nil
-function gameuiGameSystemUI:QueueEvent(evt) return end
+function gameuiGameSystemUI:QueueEvent(evt) end
 
 ---@param eventName CName|string
 ---@param userData? IScriptable
 ---@return nil
-function gameuiGameSystemUI:QueueMenuEvent(eventName, userData) return end
+function gameuiGameSystemUI:QueueMenuEvent(eventName, userData) end
 
 ---@return nil
-function gameuiGameSystemUI:RequestFastTravelMenu() return end
+function gameuiGameSystemUI:RequestFastTravelMenu() end
 
 ---@param data questVendorPanelData
 ---@param scenarioName? CName|string
 ---@return nil
-function gameuiGameSystemUI:RequestVendorMenu(data, scenarioName) return end
+function gameuiGameSystemUI:RequestVendorMenu(data, scenarioName) end
 
 ---@return nil
-function gameuiGameSystemUI:ResetNavigationOppositeAxisDistanceCost() return end
+function gameuiGameSystemUI:ResetNavigationOppositeAxisDistanceCost() end
 
 ---@param patchIntro gameuiPatchIntro
 ---@return nil
-function gameuiGameSystemUI:ResetPatchIntro(patchIntro) return end
+function gameuiGameSystemUI:ResetPatchIntro(patchIntro) end
 
 ---@param themeID CName|string
 ---@return nil
-function gameuiGameSystemUI:SetGlobalThemeOverride(themeID) return end
+function gameuiGameSystemUI:SetGlobalThemeOverride(themeID) end
 
 ---@param entryName CName|string
 ---@param visibility worlduiEntryVisibility
 ---@return nil
-function gameuiGameSystemUI:SetHudEntryForcedVisibility(entryName, visibility) return end
+function gameuiGameSystemUI:SetHudEntryForcedVisibility(entryName, visibility) end
 
 ---@param cost Float
 ---@return nil
-function gameuiGameSystemUI:SetNavigationOppositeAxisDistanceCost(cost) return end
+function gameuiGameSystemUI:SetNavigationOppositeAxisDistanceCost(cost) end
 
 ---@param message gameuiOneTimeMessage
 ---@param seen Bool
 ---@return nil
-function gameuiGameSystemUI:SetOneTimeMessageSeen(message, seen) return end
+function gameuiGameSystemUI:SetOneTimeMessageSeen(message, seen) end
 
 ---@param data gameTutorialBracketData
 ---@return nil
-function gameuiGameSystemUI:ShowTutorialBracket(data) return end
+function gameuiGameSystemUI:ShowTutorialBracket(data) end
 
 ---@param data gameTutorialOverlayData
 ---@return nil
-function gameuiGameSystemUI:ShowTutorialOverlay(data) return end
+function gameuiGameSystemUI:ShowTutorialOverlay(data) end
 
----@protected
 ---@return Bool
-function gameuiGameSystemUI:OnEnterFastTravelMenu() return end
+function gameuiGameSystemUI:OnEnterFastTravelMenu() end
 
----@protected
 ---@return Bool
-function gameuiGameSystemUI:OnExitFastTravelMenu() return end
+function gameuiGameSystemUI:OnExitFastTravelMenu() end
 
----@private
 ---@return FastTravelSystem
-function gameuiGameSystemUI:GetFastTravelSystem() return end
+function gameuiGameSystemUI:GetFastTravelSystem() end
 
----@private
 ---@param menuEnabled Bool
 ---@return nil
-function gameuiGameSystemUI:NotifyFastTravelSystem(menuEnabled) return end
+function gameuiGameSystemUI:NotifyFastTravelSystem(menuEnabled) end
 
 ---@param context UIGameContext
 ---@param invalidate? Bool
 ---@return nil
-function gameuiGameSystemUI:PopGameContext(context, invalidate) return end
+function gameuiGameSystemUI:PopGameContext(context, invalidate) end
 
 ---@param context UIGameContext
 ---@return nil
-function gameuiGameSystemUI:PushGameContext(context) return end
+function gameuiGameSystemUI:PushGameContext(context) end
 
 ---@param newVisualState CName|string
 ---@return nil
-function gameuiGameSystemUI:RequestNewVisualState(newVisualState) return end
+function gameuiGameSystemUI:RequestNewVisualState(newVisualState) end
 
 ---@return nil
-function gameuiGameSystemUI:ResetGameContext() return end
+function gameuiGameSystemUI:ResetGameContext() end
 
 ---@param popVisualState CName|string
 ---@return nil
-function gameuiGameSystemUI:RestorePreviousVisualState(popVisualState) return end
+function gameuiGameSystemUI:RestorePreviousVisualState(popVisualState) end
 
 ---@param oldContext UIGameContext
 ---@param newContext UIGameContext
 ---@return nil
-function gameuiGameSystemUI:SwapGameContext(oldContext, newContext) return end
+function gameuiGameSystemUI:SwapGameContext(oldContext, newContext) end

@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class StuckInEffector: gameContinuousEffector
----@field public maxEnemyDistance Float
----@field public enemyCount Int32
----@field public statusEffectID TweakDBID
+---@field maxEnemyDistance Float
+---@field enemyCount Int32
+---@field statusEffectID TweakDBID
 StuckInEffector = {}
 
 ---@param fields? StuckInEffector
 ---@return StuckInEffector
-function StuckInEffector.new(fields) return end
+function StuckInEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StuckInEffector:ActionOff(owner) return end
+function StuckInEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StuckInEffector:ActionOn(owner) return end
+function StuckInEffector:ActionOn(owner) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function StuckInEffector:ContinuousAction(owner, instigator) return end
+function StuckInEffector:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StuckInEffector:Initialize(record, parentRecord) return end
+function StuckInEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function StuckInEffector:ProcessAction(owner) return end
+function StuckInEffector:ProcessAction(owner) end

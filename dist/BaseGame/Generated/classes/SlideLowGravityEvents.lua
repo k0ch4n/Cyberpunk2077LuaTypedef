@@ -5,33 +5,30 @@ SlideLowGravityEvents = {}
 
 ---@param fields? SlideLowGravityEvents
 ---@return SlideLowGravityEvents
-function SlideLowGravityEvents.new(fields) return end
+function SlideLowGravityEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideLowGravityEvents:OnEnter(stateContext, scriptInterface) return end
+function SlideLowGravityEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideLowGravityEvents:OnExitToCrouch(stateContext, scriptInterface) return end
+function SlideLowGravityEvents:OnExitToCrouch(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideLowGravityEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SlideLowGravityEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideLowGravityEvents:UpdateCrouch(stateContext, scriptInterface) return end
+function SlideLowGravityEvents:UpdateCrouch(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideLowGravityEvents:UpdateSprint(stateContext, scriptInterface) return end
+function SlideLowGravityEvents:UpdateSprint(stateContext, scriptInterface) end

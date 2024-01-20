@@ -5,7 +5,7 @@ SteetCredDataHelper = {}
 
 ---@param fields? SteetCredDataHelper
 ---@return SteetCredDataHelper
-function SteetCredDataHelper.new(fields) return end
+function SteetCredDataHelper.new(fields) end
 
 ---@return LevelRewardDisplayData[]
-function SteetCredDataHelper.GetData() return end
+function SteetCredDataHelper.GetData() end

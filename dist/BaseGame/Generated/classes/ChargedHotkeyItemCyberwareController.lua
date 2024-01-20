@@ -1,110 +1,88 @@
 ---@meta
 
 ---@class ChargedHotkeyItemCyberwareController: ChargedHotkeyItemBaseController
----@field private currentStatPoolType gamedataStatPoolType
----@field private psmBlackboardListener redCallbackObject
----@field private c_cyberdeckOverclockPerkType gamedataNewPerkType
----@field private c_vehicleManeuversPerkType gamedataNewPerkType
----@field private c_berserkKey CName
----@field private c_cyberdeckKey CName
----@field private c_sandevistanKey CName
----@field private c_capacityBoosterKey CName
+---@field currentStatPoolType gamedataStatPoolType
+---@field psmBlackboardListener redCallbackObject
+---@field c_cyberdeckOverclockPerkType gamedataNewPerkType
+---@field c_vehicleManeuversPerkType gamedataNewPerkType
+---@field c_berserkKey CName
+---@field c_cyberdeckKey CName
+---@field c_sandevistanKey CName
+---@field c_capacityBoosterKey CName
 ChargedHotkeyItemCyberwareController = {}
 
 ---@param fields? ChargedHotkeyItemCyberwareController
 ---@return ChargedHotkeyItemCyberwareController
-function ChargedHotkeyItemCyberwareController.new(fields) return end
+function ChargedHotkeyItemCyberwareController.new(fields) end
 
----@protected
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:OnInitialize() return end
+function ChargedHotkeyItemCyberwareController:OnInitialize() end
 
----@protected
 ---@param evt NewPerkBoughtEvent
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:OnNewPerkBought(evt) return end
+function ChargedHotkeyItemCyberwareController:OnNewPerkBought(evt) end
 
----@protected
 ---@param evt NewPerkSoldEvent
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:OnNewPerkSold(evt) return end
+function ChargedHotkeyItemCyberwareController:OnNewPerkSold(evt) end
 
----@protected
 ---@param newStateValue Int32
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:OnPlayerVehicleStateChanged(newStateValue) return end
+function ChargedHotkeyItemCyberwareController:OnPlayerVehicleStateChanged(newStateValue) end
 
----@private
 ---@return gamedataStatPoolType
-function ChargedHotkeyItemCyberwareController:GetCurrentItemStatPoolType() return end
+function ChargedHotkeyItemCyberwareController:GetCurrentItemStatPoolType() end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemCyberwareController:GetMaxCharges() return end
+function ChargedHotkeyItemCyberwareController:GetMaxCharges() end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemCyberwareController:GetRechargeDuration() return end
+function ChargedHotkeyItemCyberwareController:GetRechargeDuration() end
 
----@private
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:HandleSpecialSandevistanCooldown() return end
+function ChargedHotkeyItemCyberwareController:HandleSpecialSandevistanCooldown() end
 
----@private
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:IsCyberdeckOverloadPerkPresent() return end
+function ChargedHotkeyItemCyberwareController:IsCyberdeckOverloadPerkPresent() end
 
----@private
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:IsCyberwareActive() return end
+function ChargedHotkeyItemCyberwareController:IsCyberwareActive() end
 
----@private
 ---@param itemID gameItemID
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:IsCyberwareSupported(itemID) return end
+function ChargedHotkeyItemCyberwareController:IsCyberwareSupported(itemID) end
 
----@protected
 ---@return Bool
-function ChargedHotkeyItemCyberwareController:IsInDefaultState() return end
+function ChargedHotkeyItemCyberwareController:IsInDefaultState() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemCyberwareController:PlayRechagedSoundEvent() return end
+function ChargedHotkeyItemCyberwareController:PlayRechagedSoundEvent() end
 
----@private
 ---@return nil
-function ChargedHotkeyItemCyberwareController:ReevaluateCyberdeckPerkVisibility() return end
+function ChargedHotkeyItemCyberwareController:ReevaluateCyberdeckPerkVisibility() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemCyberwareController:RegisterStatListener() return end
+function ChargedHotkeyItemCyberwareController:RegisterStatListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemCyberwareController:ResolveState() return end
+function ChargedHotkeyItemCyberwareController:ResolveState() end
 
----@protected
 ---@param progress Float
 ---@param valueChanged Bool
 ---@return nil
-function ChargedHotkeyItemCyberwareController:SetRechargeProgress(progress, valueChanged) return end
+function ChargedHotkeyItemCyberwareController:SetRechargeProgress(progress, valueChanged) end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemCyberwareController:Uninitialize() return end
+function ChargedHotkeyItemCyberwareController:Uninitialize() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemCyberwareController:UnregisterStatListener() return end
+function ChargedHotkeyItemCyberwareController:UnregisterStatListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemCyberwareController:UpdateCurrentItem() return end
+function ChargedHotkeyItemCyberwareController:UpdateCurrentItem() end
 
----@private
 ---@return nil
-function ChargedHotkeyItemCyberwareController:UpdateSandevistanVisibility() return end
+function ChargedHotkeyItemCyberwareController:UpdateSandevistanVisibility() end
 
----@private
 ---@return nil
-function ChargedHotkeyItemCyberwareController:UpdateStatListener() return end
+function ChargedHotkeyItemCyberwareController:UpdateStatListener() end

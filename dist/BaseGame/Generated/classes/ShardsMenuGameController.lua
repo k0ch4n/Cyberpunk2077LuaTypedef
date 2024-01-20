@@ -1,140 +1,120 @@
 ---@meta
 
 ---@class ShardsMenuGameController: gameuiMenuGameController
----@field private buttonHintsManagerRef inkWidgetReference
----@field private entryViewRef inkCompoundWidgetReference
----@field private virtualList inkWidgetReference
----@field private emptyPlaceholderRef inkWidgetReference
----@field private rightViewPlaceholderRef inkWidgetReference
----@field private leftBlockControllerRef inkWidgetReference
----@field private crackHint inkWidgetReference
----@field private journalManager gameJournalManager
----@field private buttonHintsController ButtonHints
----@field private entryViewController CodexEntryViewController
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private listController ShardsVirtualNestedListController
----@field private InventoryManager InventoryDataManagerV2
----@field private player PlayerPuppet
----@field private activeData CodexListSyncData
----@field private hasNewCryptedEntries Bool
----@field private isEncryptedEntrySelected Bool
----@field private selectedData ShardEntryData
----@field private mingameBB gameIBlackboard
----@field private userDataEntry Int32
----@field private doubleInputPreventionFlag Bool
----@field private animationProxy inkanimProxy
+---@field buttonHintsManagerRef inkWidgetReference
+---@field entryViewRef inkCompoundWidgetReference
+---@field virtualList inkWidgetReference
+---@field emptyPlaceholderRef inkWidgetReference
+---@field rightViewPlaceholderRef inkWidgetReference
+---@field leftBlockControllerRef inkWidgetReference
+---@field crackHint inkWidgetReference
+---@field journalManager gameJournalManager
+---@field buttonHintsController ButtonHints
+---@field entryViewController CodexEntryViewController
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field listController ShardsVirtualNestedListController
+---@field InventoryManager InventoryDataManagerV2
+---@field player PlayerPuppet
+---@field activeData CodexListSyncData
+---@field hasNewCryptedEntries Bool
+---@field isEncryptedEntrySelected Bool
+---@field selectedData ShardEntryData
+---@field mingameBB gameIBlackboard
+---@field userDataEntry Int32
+---@field doubleInputPreventionFlag Bool
+---@field animationProxy inkanimProxy
 ShardsMenuGameController = {}
 
 ---@param fields? ShardsMenuGameController
 ---@return ShardsMenuGameController
-function ShardsMenuGameController.new(fields) return end
+function ShardsMenuGameController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function ShardsMenuGameController:OnBack(userData) return end
+function ShardsMenuGameController:OnBack(userData) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ShardsMenuGameController:OnButtonRelease(e) return end
+function ShardsMenuGameController:OnButtonRelease(e) end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function ShardsMenuGameController:OnEntryVisitedUpdate(entryHash, className, notifyOption, changeType) return end
+function ShardsMenuGameController:OnEntryVisitedUpdate(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@return Bool
-function ShardsMenuGameController:OnInitialize() return end
+function ShardsMenuGameController:OnInitialize() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ShardsMenuGameController:OnPlayerAttach(playerPuppet) return end
+function ShardsMenuGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ShardsMenuGameController:OnPlayerDetach(playerPuppet) return end
+function ShardsMenuGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function ShardsMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function ShardsMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function ShardsMenuGameController:OnSetUserData(userData) return end
+function ShardsMenuGameController:OnSetUserData(userData) end
 
----@protected
 ---@param evt ShardForceSelectionEvent
 ---@return Bool
-function ShardsMenuGameController:OnShardForceSelectionEvent(evt) return end
+function ShardsMenuGameController:OnShardForceSelectionEvent(evt) end
 
----@protected
 ---@param evt ShardSelectedEvent
 ---@return Bool
-function ShardsMenuGameController:OnShardSelectedEvent(evt) return end
+function ShardsMenuGameController:OnShardSelectedEvent(evt) end
 
----@protected
 ---@param evt ShardForceSelectionEvent
 ---@return Bool
-function ShardsMenuGameController:OnShardsMenuGameControllerDelayInit(evt) return end
+function ShardsMenuGameController:OnShardsMenuGameControllerDelayInit(evt) end
 
----@protected
 ---@return Bool
-function ShardsMenuGameController:OnUninitialize() return end
+function ShardsMenuGameController:OnUninitialize() end
 
 ---@param hash Int32
 ---@return Int32
-function ShardsMenuGameController:FindItem(hash) return end
+function ShardsMenuGameController:FindItem(hash) end
 
----@private
 ---@param i Uint32
 ---@return nil
-function ShardsMenuGameController:ForceSelectIndex(i) return end
+function ShardsMenuGameController:ForceSelectIndex(i) end
 
----@private
 ---@param item gameInventoryItemData
 ---@param curShard gameJournalOnscreen
 ---@param level Int32
 ---@param newEntries? Int32[]
 ---@return VirutalNestedListData
-function ShardsMenuGameController:GetVirtualDataForCrypted(item, curShard, level, newEntries) return end
+function ShardsMenuGameController:GetVirtualDataForCrypted(item, curShard, level, newEntries) end
 
----@private
 ---@return nil
-function ShardsMenuGameController:HideNodataWarning() return end
+function ShardsMenuGameController:HideNodataWarning() end
 
 ---@param animName CName|string
 ---@return nil
-function ShardsMenuGameController:PlayAnim(animName) return end
+function ShardsMenuGameController:PlayAnim(animName) end
 
----@private
 ---@return nil
-function ShardsMenuGameController:PopulateData() return end
+function ShardsMenuGameController:PopulateData() end
 
----@private
 ---@param item gameInventoryItemData
 ---@param data VirutalNestedListData[]
 ---@param level Int32
 ---@param newEntries? Int32[]
 ---@return Bool
-function ShardsMenuGameController:ProcessItem(item, data, level, newEntries) return end
+function ShardsMenuGameController:ProcessItem(item, data, level, newEntries) end
 
----@private
 ---@return nil
-function ShardsMenuGameController:RefreshButtonHints() return end
+function ShardsMenuGameController:RefreshButtonHints() end
 
----@private
 ---@return nil
-function ShardsMenuGameController:SelectEntry() return end
+function ShardsMenuGameController:SelectEntry() end
 
----@private
 ---@return nil
-function ShardsMenuGameController:ShowNodataWarning() return end
+function ShardsMenuGameController:ShowNodataWarning() end

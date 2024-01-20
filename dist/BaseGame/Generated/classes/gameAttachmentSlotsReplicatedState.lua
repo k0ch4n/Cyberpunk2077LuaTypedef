@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameAttachmentSlotsReplicatedState: netIComponentState
----@field public stateVersion Uint32
----@field public slots gameAttachmentSlotReplicatedState[]
+---@field stateVersion Uint32
+---@field slots gameAttachmentSlotReplicatedState[]
 gameAttachmentSlotsReplicatedState = {}
 
 ---@param fields? gameAttachmentSlotsReplicatedState
 ---@return gameAttachmentSlotsReplicatedState
-function gameAttachmentSlotsReplicatedState.new(fields) return end
+function gameAttachmentSlotsReplicatedState.new(fields) end

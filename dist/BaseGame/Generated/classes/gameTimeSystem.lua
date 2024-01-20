@@ -5,32 +5,32 @@ gameTimeSystem = {}
 
 ---@param fields? gameTimeSystem
 ---@return gameTimeSystem
-function gameTimeSystem.new(fields) return end
+function gameTimeSystem.new(fields) end
 
 ---@param reason? CName|string
 ---@param ignoreCurves? Bool
 ---@return Float
-function gameTimeSystem:GetActiveTimeDilation(reason, ignoreCurves) return end
+function gameTimeSystem:GetActiveTimeDilation(reason, ignoreCurves) end
 
 ---@return GameTime
-function gameTimeSystem:GetGameTime() return end
+function gameTimeSystem:GetGameTime() end
 
 ---@return Float
-function gameTimeSystem:GetGameTimeStamp() return end
+function gameTimeSystem:GetGameTimeStamp() end
 
 ---@return EngineTime
-function gameTimeSystem:GetSimTime() return end
+function gameTimeSystem:GetSimTime() end
 
 ---@return Bool
-function gameTimeSystem:IsPausedState() return end
+function gameTimeSystem:IsPausedState() end
 
 ---@param reason? CName|string
 ---@return Bool
-function gameTimeSystem:IsTimeDilationActive(reason) return end
+function gameTimeSystem:IsTimeDilationActive(reason) end
 
 ---@param seconds Float
 ---@return GameTime
-function gameTimeSystem:RealTimeSecondsToGameTime(seconds) return end
+function gameTimeSystem:RealTimeSecondsToGameTime(seconds) end
 
 ---@param entity entEntity
 ---@param eventToDelay redEvent
@@ -38,7 +38,7 @@ function gameTimeSystem:RealTimeSecondsToGameTime(seconds) return end
 ---@param repeat_ Int32
 ---@param sendOldNoifications? Bool
 ---@return Uint32
-function gameTimeSystem:RegisterDelayedListener(entity, eventToDelay, delay, repeat_, sendOldNoifications) return end
+function gameTimeSystem:RegisterDelayedListener(entity, eventToDelay, delay, repeat_, sendOldNoifications) end
 
 ---@param entity entEntity
 ---@param eventToDelay redEvent
@@ -46,7 +46,7 @@ function gameTimeSystem:RegisterDelayedListener(entity, eventToDelay, delay, rep
 ---@param timeout GameTime
 ---@param repeat_? Int32
 ---@return Uint32
-function gameTimeSystem:RegisterIntervalListener(entity, eventToDelay, expectedHour, timeout, repeat_) return end
+function gameTimeSystem:RegisterIntervalListener(entity, eventToDelay, expectedHour, timeout, repeat_) end
 
 ---@param entity entEntity
 ---@param eventToDelay redEvent
@@ -54,7 +54,7 @@ function gameTimeSystem:RegisterIntervalListener(entity, eventToDelay, expectedH
 ---@param repeat_ Int32
 ---@param sendOldNoifications? Bool
 ---@return Uint32
-function gameTimeSystem:RegisterListener(entity, eventToDelay, expectedTime, repeat_, sendOldNoifications) return end
+function gameTimeSystem:RegisterListener(entity, eventToDelay, expectedTime, repeat_, sendOldNoifications) end
 
 ---@param systemName CName|string
 ---@param requestToDelay gameScriptableSystemRequest
@@ -62,33 +62,33 @@ function gameTimeSystem:RegisterListener(entity, eventToDelay, expectedTime, rep
 ---@param timeout GameTime
 ---@param repeat_? Int32
 ---@return Uint32
-function gameTimeSystem:RegisterScriptableSystemIntervalListener(systemName, requestToDelay, expectedHour, timeout, repeat_) return end
+function gameTimeSystem:RegisterScriptableSystemIntervalListener(systemName, requestToDelay, expectedHour, timeout, repeat_) end
 
 ---@return nil
-function gameTimeSystem:RestorePreviousIgnoreTimeDilationOnLocalPlayerZero() return end
+function gameTimeSystem:RestorePreviousIgnoreTimeDilationOnLocalPlayerZero() end
 
 ---@return nil
-function gameTimeSystem:SetGameTime() return end
+function gameTimeSystem:SetGameTime() end
 
 ---@param hours Int32
 ---@param minutes Int32
 ---@param seconds Int32
 ---@param reason? CName|string
 ---@return nil
-function gameTimeSystem:SetGameTimeByHMS(hours, minutes, seconds, reason) return end
+function gameTimeSystem:SetGameTimeByHMS(hours, minutes, seconds, reason) end
 
 ---@param seconds Int32
 ---@return nil
-function gameTimeSystem:SetGameTimeBySeconds(seconds) return end
+function gameTimeSystem:SetGameTimeBySeconds(seconds) end
 
 ---@param ignore Bool
 ---@return nil
-function gameTimeSystem:SetIgnoreTimeDilationOnLocalPlayerZero(ignore) return end
+function gameTimeSystem:SetIgnoreTimeDilationOnLocalPlayerZero(ignore) end
 
 ---@param paused Bool
 ---@param source CName|string
 ---@return nil
-function gameTimeSystem:SetPausedState(paused, source) return end
+function gameTimeSystem:SetPausedState(paused, source) end
 
 ---@param reason CName|string
 ---@param dilation Float
@@ -97,7 +97,7 @@ function gameTimeSystem:SetPausedState(paused, source) return end
 ---@param easeOutCurve? CName|string
 ---@param listener? tickScriptTimeDilationListener
 ---@return nil
-function gameTimeSystem:SetTimeDilation(reason, dilation, duration, easeInCurve, easeOutCurve, listener) return end
+function gameTimeSystem:SetTimeDilation(reason, dilation, duration, easeInCurve, easeOutCurve, listener) end
 
 ---@param reason CName|string
 ---@param dilation Float
@@ -105,18 +105,18 @@ function gameTimeSystem:SetTimeDilation(reason, dilation, duration, easeInCurve,
 ---@param easeInCurve? CName|string
 ---@param easeOutCurve? CName|string
 ---@return nil
-function gameTimeSystem:SetTimeDilationOnLocalPlayerZero(reason, dilation, duration, easeInCurve, easeOutCurve) return end
+function gameTimeSystem:SetTimeDilationOnLocalPlayerZero(reason, dilation, duration, easeInCurve, easeOutCurve) end
 
 ---@param listenerID Uint32
 ---@return nil
-function gameTimeSystem:UnregisterListener(listenerID) return end
+function gameTimeSystem:UnregisterListener(listenerID) end
 
 ---@param reason CName|string
 ---@param easeOutCurve? CName|string
 ---@return nil
-function gameTimeSystem:UnsetTimeDilation(reason, easeOutCurve) return end
+function gameTimeSystem:UnsetTimeDilation(reason, easeOutCurve) end
 
 ---@param reason CName|string
 ---@param easeOutCurve? CName|string
 ---@return nil
-function gameTimeSystem:UnsetTimeDilationOnLocalPlayerZero(reason, easeOutCurve) return end
+function gameTimeSystem:UnsetTimeDilationOnLocalPlayerZero(reason, easeOutCurve) end

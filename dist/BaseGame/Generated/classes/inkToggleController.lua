@@ -1,31 +1,31 @@
 ---@meta
 
 ---@class inkToggleController: inkButtonController
----@field public ToggleChanged inkToggleChangedCallback
----@field public isToggled Bool
----@field public autoToggleOnInput Bool
+---@field ToggleChanged inkToggleChangedCallback
+---@field isToggled Bool
+---@field autoToggleOnInput Bool
 inkToggleController = {}
 
 ---@param fields? inkToggleController
 ---@return inkToggleController
-function inkToggleController.new(fields) return end
+function inkToggleController.new(fields) end
 
 ---@return inkEToggleState
-function inkToggleController:GetToggleState() return end
+function inkToggleController:GetToggleState() end
 
 ---@return Bool
-function inkToggleController:IsAutoToggle() return end
+function inkToggleController:IsAutoToggle() end
 
 ---@return Bool
-function inkToggleController:IsToggled() return end
+function inkToggleController:IsToggled() end
 
 ---@param auto Bool
 ---@return nil
-function inkToggleController:SetAutoToggle(auto) return end
+function inkToggleController:SetAutoToggle(auto) end
 
 ---@param toggled Bool
 ---@return nil
-function inkToggleController:SetToggled(toggled) return end
+function inkToggleController:SetToggled(toggled) end
 
 ---@return nil
-function inkToggleController:Toggle() return end
+function inkToggleController:Toggle() end

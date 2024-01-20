@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VehiclePanzerBootupUIQuestEvent: redEvent
----@field public mode panzerBootupUI
+---@field mode panzerBootupUI
 VehiclePanzerBootupUIQuestEvent = {}
 
 ---@param fields? VehiclePanzerBootupUIQuestEvent
 ---@return VehiclePanzerBootupUIQuestEvent
-function VehiclePanzerBootupUIQuestEvent.new(fields) return end
+function VehiclePanzerBootupUIQuestEvent.new(fields) end
 
 ---@return String
-function VehiclePanzerBootupUIQuestEvent:GetFriendlyDescription() return end
+function VehiclePanzerBootupUIQuestEvent:GetFriendlyDescription() end

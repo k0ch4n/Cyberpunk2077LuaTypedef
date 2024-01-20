@@ -5,4 +5,4 @@ worldFoliageDestructionNodeInstance = {}
 
 ---@param fields? worldFoliageDestructionNodeInstance
 ---@return worldFoliageDestructionNodeInstance
-function worldFoliageDestructionNodeInstance.new(fields) return end
+function worldFoliageDestructionNodeInstance.new(fields) end

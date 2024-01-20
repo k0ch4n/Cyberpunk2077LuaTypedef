@@ -5,4 +5,4 @@ TriggerPlayerAreaCheck = {}
 
 ---@param fields? TriggerPlayerAreaCheck
 ---@return TriggerPlayerAreaCheck
-function TriggerPlayerAreaCheck.new(fields) return end
+function TriggerPlayerAreaCheck.new(fields) end

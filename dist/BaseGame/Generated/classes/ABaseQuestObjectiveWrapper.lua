@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class ABaseQuestObjectiveWrapper: AJournalEntryWrapper
----@field protected questObjective gameJournalQuestObjectiveBase
----@field protected objectiveStatus gameJournalEntryState
----@field protected isTracked Bool
----@field protected currentCounter Int32
----@field protected totalCounter Int32
+---@field questObjective gameJournalQuestObjectiveBase
+---@field objectiveStatus gameJournalEntryState
+---@field isTracked Bool
+---@field currentCounter Int32
+---@field totalCounter Int32
 ABaseQuestObjectiveWrapper = {}
 
 ---@return String
-function ABaseQuestObjectiveWrapper:GetCounterText() return end
+function ABaseQuestObjectiveWrapper:GetCounterText() end
 
 ---@return String
-function ABaseQuestObjectiveWrapper:GetDescription() return end
+function ABaseQuestObjectiveWrapper:GetDescription() end
 
 ---@return gameJournalQuestObjectiveBase
-function ABaseQuestObjectiveWrapper:GetQuestObjective() return end
+function ABaseQuestObjectiveWrapper:GetQuestObjective() end
 
 ---@return gameJournalEntryState
-function ABaseQuestObjectiveWrapper:GetStatus() return end
+function ABaseQuestObjectiveWrapper:GetStatus() end
 
 ---@param questObjective gameJournalQuestObjectiveBase
 ---@param objectiveStatus gameJournalEntryState
@@ -27,13 +27,13 @@ function ABaseQuestObjectiveWrapper:GetStatus() return end
 ---@param currentCounter Int32
 ---@param totalCounter Int32
 ---@return nil
-function ABaseQuestObjectiveWrapper:Init(questObjective, objectiveStatus, isTracked, uniqueId, currentCounter, totalCounter) return end
+function ABaseQuestObjectiveWrapper:Init(questObjective, objectiveStatus, isTracked, uniqueId, currentCounter, totalCounter) end
 
 ---@return Bool
-function ABaseQuestObjectiveWrapper:IsActive() return end
+function ABaseQuestObjectiveWrapper:IsActive() end
 
 ---@return Bool
-function ABaseQuestObjectiveWrapper:IsTracked() return end
+function ABaseQuestObjectiveWrapper:IsTracked() end
 
 ---@return Bool
-function ABaseQuestObjectiveWrapper:IsTrackedInHierarchy() return end
+function ABaseQuestObjectiveWrapper:IsTrackedInHierarchy() end

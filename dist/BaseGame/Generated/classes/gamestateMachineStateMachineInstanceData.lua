@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamestateMachineStateMachineInstanceData
----@field public referenceName CName
----@field public priority Uint32
----@field public initData IScriptable
+---@field referenceName CName
+---@field priority Uint32
+---@field initData IScriptable
 gamestateMachineStateMachineInstanceData = {}
 
 ---@param fields? gamestateMachineStateMachineInstanceData
 ---@return gamestateMachineStateMachineInstanceData
-function gamestateMachineStateMachineInstanceData.new(fields) return end
+function gamestateMachineStateMachineInstanceData.new(fields) end

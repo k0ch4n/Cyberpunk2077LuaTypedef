@@ -1,149 +1,124 @@
 ---@meta
 
 ---@class KeypadDeviceController: DeviceWidgetControllerBase
----@field private hasButtonAuthorization Bool
----@field private enteredPasswordWidget inkTextWidget
----@field private passwordStatusWidget inkTextWidget
----@field private actionButton inkWidget
----@field private ActionText inkTextWidget
----@field private passwordsList CName[]
----@field private cardName String
----@field private isPasswordKnown Bool
----@field private maxDigitsCount Int32
----@field private row1 inkHorizontalPanelWidget
----@field private row2 inkHorizontalPanelWidget
----@field private row3 inkHorizontalPanelWidget
----@field private row4 inkHorizontalPanelWidget
----@field private arePasswordsInitialized Bool
----@field private blackboard gameIBlackboard
+---@field hasButtonAuthorization Bool
+---@field enteredPasswordWidget inkTextWidget
+---@field passwordStatusWidget inkTextWidget
+---@field actionButton inkWidget
+---@field ActionText inkTextWidget
+---@field passwordsList CName[]
+---@field cardName String
+---@field isPasswordKnown Bool
+---@field maxDigitsCount Int32
+---@field row1 inkHorizontalPanelWidget
+---@field row2 inkHorizontalPanelWidget
+---@field row3 inkHorizontalPanelWidget
+---@field row4 inkHorizontalPanelWidget
+---@field arePasswordsInitialized Bool
+---@field blackboard gameIBlackboard
 KeypadDeviceController = {}
 
 ---@param fields? KeypadDeviceController
 ---@return KeypadDeviceController
-function KeypadDeviceController.new(fields) return end
+function KeypadDeviceController.new(fields) end
 
----@protected
 ---@return Bool
-function KeypadDeviceController:OnInitialize() return end
+function KeypadDeviceController:OnInitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function KeypadDeviceController:OnKeypadButtonWidgetSpawned(widget, userData) return end
+function KeypadDeviceController:OnKeypadButtonWidgetSpawned(widget, userData) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function KeypadDeviceController:OnMouseButtonReleased(e) return end
+function KeypadDeviceController:OnMouseButtonReleased(e) end
 
----@private
 ---@param parentWidget inkWidget
 ---@param rowNumber Int32
 ---@param widgetData SDeviceWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function KeypadDeviceController:AddKeypadButtons(parentWidget, rowNumber, widgetData, gameController) return end
+function KeypadDeviceController:AddKeypadButtons(parentWidget, rowNumber, widgetData, gameController) end
 
----@private
 ---@return Bool
-function KeypadDeviceController:CanAddDigit() return end
+function KeypadDeviceController:CanAddDigit() end
 
----@private
 ---@return Bool
-function KeypadDeviceController:CanHandleClickAction() return end
+function KeypadDeviceController:CanHandleClickAction() end
 
----@private
 ---@return Bool
-function KeypadDeviceController:CheckPassword() return end
+function KeypadDeviceController:CheckPassword() end
 
 ---@return nil
-function KeypadDeviceController:ClearPassword() return end
+function KeypadDeviceController:ClearPassword() end
 
----@private
 ---@return nil
-function KeypadDeviceController:DenyAccess() return end
+function KeypadDeviceController:DenyAccess() end
 
----@private
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function KeypadDeviceController:DetermineMaxDigitsCount(gameController) return end
+function KeypadDeviceController:DetermineMaxDigitsCount(gameController) end
 
----@private
 ---@return CName
-function KeypadDeviceController:GetAccessDeniedSoundEventName() return end
+function KeypadDeviceController:GetAccessDeniedSoundEventName() end
 
----@private
 ---@return CName
-function KeypadDeviceController:GetAccessGrantedSoundEventName() return end
+function KeypadDeviceController:GetAccessGrantedSoundEventName() end
 
----@private
 ---@return CName
-function KeypadDeviceController:GetDeleteInputSoundEventName() return end
+function KeypadDeviceController:GetDeleteInputSoundEventName() end
 
----@private
 ---@return CName
-function KeypadDeviceController:GetTerminalAudioName() return end
+function KeypadDeviceController:GetTerminalAudioName() end
 
----@private
 ---@return nil
-function KeypadDeviceController:GrantAccess() return end
+function KeypadDeviceController:GrantAccess() end
 
----@private
 ---@param button inkWidget
 ---@return nil
-function KeypadDeviceController:HandleButtonClicked(button) return end
+function KeypadDeviceController:HandleButtonClicked(button) end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SDeviceWidgetPackage
 ---@return nil
-function KeypadDeviceController:Initialize(gameController, widgetData) return end
+function KeypadDeviceController:Initialize(gameController, widgetData) end
 
----@private
 ---@param buttonName CName|string
 ---@return Bool
-function KeypadDeviceController:IsDigit(buttonName) return end
+function KeypadDeviceController:IsDigit(buttonName) end
 
----@private
 ---@param soundEventName CName|string
 ---@return nil
-function KeypadDeviceController:PlayTerminalSound(soundEventName) return end
+function KeypadDeviceController:PlayTerminalSound(soundEventName) end
 
----@private
 ---@return nil
-function KeypadDeviceController:RefreshActionButtons() return end
+function KeypadDeviceController:RefreshActionButtons() end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function KeypadDeviceController:ResolveAction(widgetData) return end
+function KeypadDeviceController:ResolveAction(widgetData) end
 
----@private
 ---@return nil
-function KeypadDeviceController:SetWidgetsAllowed() return end
+function KeypadDeviceController:SetWidgetsAllowed() end
 
----@private
 ---@return nil
-function KeypadDeviceController:SetWidgetsLocked() return end
+function KeypadDeviceController:SetWidgetsLocked() end
 
----@private
 ---@param stateName CName|string
 ---@return nil
-function KeypadDeviceController:SetWidgetsState(stateName) return end
+function KeypadDeviceController:SetWidgetsState(stateName) end
 
----@private
 ---@param index Int32
 ---@param widgetData SDeviceWidgetPackage
 ---@return Bool, KeypadButtonSpawnData keypadButtonSpawnData
-function KeypadDeviceController:TryGetButtonSpawnedDataForIndex(index, widgetData) return end
+function KeypadDeviceController:TryGetButtonSpawnedDataForIndex(index, widgetData) end
 
----@private
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SDeviceWidgetPackage
 ---@return nil
-function KeypadDeviceController:TryInitializePasswords(gameController, widgetData) return end
+function KeypadDeviceController:TryInitializePasswords(gameController, widgetData) end
 
----@private
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function KeypadDeviceController:TrySaveBlackboard(gameController) return end
+function KeypadDeviceController:TrySaveBlackboard(gameController) end

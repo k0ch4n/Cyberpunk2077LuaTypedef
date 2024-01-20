@@ -5,8 +5,8 @@ RevealEnemies = {}
 
 ---@param fields? RevealEnemies
 ---@return RevealEnemies
-function RevealEnemies.new(fields) return end
+function RevealEnemies.new(fields) end
 
 ---@param reveal Bool
 ---@return nil
-function RevealEnemies:SetProperties(reveal) return end
+function RevealEnemies:SetProperties(reveal) end

@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class ScannerDescriptionGameController: BaseChunkGameController
----@field private descriptionText inkTextWidgetReference
----@field private customDescriptionText inkTextWidgetReference
----@field private descriptionCallbackID redCallbackObject
----@field private isValidDescription Bool
----@field private isValidCustomDescription Bool
+---@field descriptionText inkTextWidgetReference
+---@field customDescriptionText inkTextWidgetReference
+---@field descriptionCallbackID redCallbackObject
+---@field isValidDescription Bool
+---@field isValidCustomDescription Bool
 ScannerDescriptionGameController = {}
 
 ---@param fields? ScannerDescriptionGameController
 ---@return ScannerDescriptionGameController
-function ScannerDescriptionGameController.new(fields) return end
+function ScannerDescriptionGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDescriptionGameController:OnDescriptionChanged(value) return end
+function ScannerDescriptionGameController:OnDescriptionChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerDescriptionGameController:OnInitialize() return end
+function ScannerDescriptionGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ScannerDescriptionGameController:OnUninitialize() return end
+function ScannerDescriptionGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ScannerDescriptionGameController:UpdateGlobalVisibility() return end
+function ScannerDescriptionGameController:UpdateGlobalVisibility() end

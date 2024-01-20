@@ -1,101 +1,94 @@
 ---@meta
 
 ---@class AIFollowerRole: AIRole
----@field protected followerRef gameEntityReference
----@field private followTarget gameObject
----@field private owner gameObject
----@field private attitudeGroupName CName
----@field private followTargetSquads CName[]
----@field private playerCombatListener redCallbackObject
----@field private lastStealthLeaveTimeStamp EngineTime
----@field private friendlyTargetSlotListener gameAttachmentSlotsScriptListener
----@field private ownerTargetSlotListener gameAttachmentSlotsScriptListener
----@field private isFriendMelee Bool
----@field private isOwnerSniper Bool
+---@field followerRef gameEntityReference
+---@field followTarget gameObject
+---@field owner gameObject
+---@field attitudeGroupName CName
+---@field followTargetSquads CName[]
+---@field playerCombatListener redCallbackObject
+---@field lastStealthLeaveTimeStamp EngineTime
+---@field friendlyTargetSlotListener gameAttachmentSlotsScriptListener
+---@field ownerTargetSlotListener gameAttachmentSlotsScriptListener
+---@field isFriendMelee Bool
+---@field isOwnerSniper Bool
 AIFollowerRole = {}
 
 ---@param fields? AIFollowerRole
 ---@return AIFollowerRole
-function AIFollowerRole.new(fields) return end
+function AIFollowerRole.new(fields) end
 
----@private
 ---@param owner gameObject
 ---@param ownAttitudeAgent gameAttitudeAgent
 ---@param followTarget gameObject
 ---@return Bool
-function AIFollowerRole:ChangeAttitude(owner, ownAttitudeAgent, followTarget) return end
+function AIFollowerRole:ChangeAttitude(owner, ownAttitudeAgent, followTarget) end
 
----@private
 ---@param owner gameObject
 ---@return Bool, gameObject followTarget
-function AIFollowerRole:FindFollowTarget(owner) return end
+function AIFollowerRole:FindFollowTarget(owner) end
 
 ---@return gameObject
-function AIFollowerRole:GetFollowTarget() return end
+function AIFollowerRole:GetFollowTarget() end
 
 ---@return gameEntityReference
-function AIFollowerRole:GetFollowerRef() return end
+function AIFollowerRole:GetFollowerRef() end
 
 ---@return EAIRole
-function AIFollowerRole:GetRoleEnum() return end
+function AIFollowerRole:GetRoleEnum() end
 
 ---@return TweakDBID
-function AIFollowerRole:GetTweakRecordId() return end
+function AIFollowerRole:GetTweakRecordId() end
 
----@private
 ---@param owner ScriptedPuppet
 ---@return nil
-function AIFollowerRole:JoinFollowTargetSquads(owner) return end
+function AIFollowerRole:JoinFollowTargetSquads(owner) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@return nil
-function AIFollowerRole:LeaveFollowTargetSquads(owner) return end
+function AIFollowerRole:LeaveFollowTargetSquads(owner) end
 
 ---@param itemID gameItemID
 ---@return nil
-function AIFollowerRole:OnFriendlyTargetWeaponChange(itemID) return end
+function AIFollowerRole:OnFriendlyTargetWeaponChange(itemID) end
 
 ---@param owner gameObject
 ---@param newState gamedataNPCHighLevelState
 ---@param previousState gamedataNPCHighLevelState
 ---@return nil
-function AIFollowerRole:OnHighLevelStateEnter(owner, newState, previousState) return end
+function AIFollowerRole:OnHighLevelStateEnter(owner, newState, previousState) end
 
 ---@param owner gameObject
 ---@param leftState gamedataNPCHighLevelState
 ---@param nextState gamedataNPCHighLevelState
 ---@return nil
-function AIFollowerRole:OnHighLevelStateExit(owner, leftState, nextState) return end
+function AIFollowerRole:OnHighLevelStateExit(owner, leftState, nextState) end
 
 ---@param itemID gameItemID
 ---@return nil
-function AIFollowerRole:OnOwnerWeaponChange(itemID) return end
+function AIFollowerRole:OnOwnerWeaponChange(itemID) end
 
 ---@param owner gameObject
 ---@return nil
-function AIFollowerRole:OnRoleCleared(owner) return end
+function AIFollowerRole:OnRoleCleared(owner) end
 
 ---@param owner gameObject
 ---@return nil
-function AIFollowerRole:OnRoleSet(owner) return end
+function AIFollowerRole:OnRoleSet(owner) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@param player PlayerPuppet
 ---@return nil
-function AIFollowerRole:RegisterToPlayerCombat(owner, player) return end
+function AIFollowerRole:RegisterToPlayerCombat(owner, player) end
 
 ---@param followTarget gameObject
 ---@return nil
-function AIFollowerRole:SetFollowTarget(followTarget) return end
+function AIFollowerRole:SetFollowTarget(followTarget) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@param player PlayerPuppet
 ---@return nil
-function AIFollowerRole:UnregisterToPlayerCombat(owner, player) return end
+function AIFollowerRole:UnregisterToPlayerCombat(owner, player) end
 
----@private
 ---@return nil
-function AIFollowerRole:UpdateSpatialsMultiplier() return end
+function AIFollowerRole:UpdateSpatialsMultiplier() end

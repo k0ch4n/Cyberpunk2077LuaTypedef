@@ -5,25 +5,21 @@ TriggerNotifier_BarbedWireInstance = {}
 
 ---@param fields? TriggerNotifier_BarbedWireInstance
 ---@return TriggerNotifier_BarbedWireInstance
-function TriggerNotifier_BarbedWireInstance.new(fields) return end
+function TriggerNotifier_BarbedWireInstance.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function TriggerNotifier_BarbedWireInstance:OnAreaEnter(evt) return end
+function TriggerNotifier_BarbedWireInstance:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function TriggerNotifier_BarbedWireInstance:OnAreaExit(evt) return end
+function TriggerNotifier_BarbedWireInstance:OnAreaExit(evt) end
 
----@protected
 ---@param activator gameObject
 ---@return Bool
-function TriggerNotifier_BarbedWireInstance:CanAttackActivator(activator) return end
+function TriggerNotifier_BarbedWireInstance:CanAttackActivator(activator) end
 
----@protected
 ---@param attackRecord TweakDBID|string
 ---@param target gameObject
 ---@return nil
-function TriggerNotifier_BarbedWireInstance:DoAttack(attackRecord, target) return end
+function TriggerNotifier_BarbedWireInstance:DoAttack(attackRecord, target) end

@@ -5,4 +5,4 @@ gameActivateTriggerDestructionComponentEvent = {}
 
 ---@param fields? gameActivateTriggerDestructionComponentEvent
 ---@return gameActivateTriggerDestructionComponentEvent
-function gameActivateTriggerDestructionComponentEvent.new(fields) return end
+function gameActivateTriggerDestructionComponentEvent.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class BraindanceClueData
----@field public id CName
----@field public startTime Float
----@field public duration Float
----@field public state ClueState
----@field public layer gameuiEBraindanceLayer
+---@field id CName
+---@field startTime Float
+---@field duration Float
+---@field state ClueState
+---@field layer gameuiEBraindanceLayer
 BraindanceClueData = {}
 
 ---@param fields? BraindanceClueData
 ---@return BraindanceClueData
-function BraindanceClueData.new(fields) return end
+function BraindanceClueData.new(fields) end

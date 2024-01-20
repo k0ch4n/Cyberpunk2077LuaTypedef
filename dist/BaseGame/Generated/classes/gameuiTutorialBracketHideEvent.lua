@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiTutorialBracketHideEvent: redEvent
----@field public bracketID CName
+---@field bracketID CName
 gameuiTutorialBracketHideEvent = {}
 
 ---@param fields? gameuiTutorialBracketHideEvent
 ---@return gameuiTutorialBracketHideEvent
-function gameuiTutorialBracketHideEvent.new(fields) return end
+function gameuiTutorialBracketHideEvent.new(fields) end

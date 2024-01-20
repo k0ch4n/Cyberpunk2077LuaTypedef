@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TrafficPersistentData
----@field public invertTrafficEvents Bool
+---@field invertTrafficEvents Bool
 TrafficPersistentData = {}
 
 ---@param fields? TrafficPersistentData
 ---@return TrafficPersistentData
-function TrafficPersistentData.new(fields) return end
+function TrafficPersistentData.new(fields) end

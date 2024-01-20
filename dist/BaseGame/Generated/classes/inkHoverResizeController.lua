@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class inkHoverResizeController: inkWidgetLogicController
----@field private root inkWidget
----@field private animToNew inkanimDefinition
----@field private animToOld inkanimDefinition
----@field public vectorNewSize Vector2
----@field public vectorOldSize Vector2
----@field public animationDuration Float
+---@field root inkWidget
+---@field animToNew inkanimDefinition
+---@field animToOld inkanimDefinition
+---@field vectorNewSize Vector2
+---@field vectorOldSize Vector2
+---@field animationDuration Float
 inkHoverResizeController = {}
 
 ---@param fields? inkHoverResizeController
 ---@return inkHoverResizeController
-function inkHoverResizeController.new(fields) return end
+function inkHoverResizeController.new(fields) end
 
----@protected
 ---@return Bool
-function inkHoverResizeController:OnInitialize() return end
+function inkHoverResizeController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkHoverResizeController:OnRootHoverOut(e) return end
+function inkHoverResizeController:OnRootHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkHoverResizeController:OnRootHoverOver(e) return end
+function inkHoverResizeController:OnRootHoverOver(e) end
 
----@private
 ---@return nil
-function inkHoverResizeController:InitializeAnimations() return end
+function inkHoverResizeController:InitializeAnimations() end

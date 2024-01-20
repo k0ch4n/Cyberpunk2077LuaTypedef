@@ -1,49 +1,49 @@
 ---@meta
 
 ---@class DispenceItemFromVendor: ActionBool
----@field private itemID gameItemID
----@field private price Int32
----@field private atlasTexture CName
+---@field itemID gameItemID
+---@field price Int32
+---@field atlasTexture CName
 DispenceItemFromVendor = {}
 
 ---@param fields? DispenceItemFromVendor
 ---@return DispenceItemFromVendor
-function DispenceItemFromVendor.new(fields) return end
+function DispenceItemFromVendor.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function DispenceItemFromVendor.IsAvailable(device) return end
+function DispenceItemFromVendor.IsAvailable(device) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function DispenceItemFromVendor.IsDefaultConditionMet(device, context) return end
+function DispenceItemFromVendor.IsDefaultConditionMet(device, context) end
 
 ---@param user? gameObject
 ---@return Bool
-function DispenceItemFromVendor:CanPay(user) return end
+function DispenceItemFromVendor:CanPay(user) end
 
 ---@param actions? gamedeviceAction[]
 ---@return nil
-function DispenceItemFromVendor:CreateActionWidgetPackage(actions) return end
+function DispenceItemFromVendor:CreateActionWidgetPackage(actions) end
 
 ---@return CName
-function DispenceItemFromVendor:GetAtlasTexture() return end
+function DispenceItemFromVendor:GetAtlasTexture() end
 
 ---@return CName
-function DispenceItemFromVendor:GetInkWidgetLibraryID() return end
+function DispenceItemFromVendor:GetInkWidgetLibraryID() end
 
 ---@return TweakDBID
-function DispenceItemFromVendor:GetInkWidgetTweakDBID() return end
+function DispenceItemFromVendor:GetInkWidgetTweakDBID() end
 
 ---@return gameItemID
-function DispenceItemFromVendor:GetItemID() return end
+function DispenceItemFromVendor:GetItemID() end
 
 ---@return Int32
-function DispenceItemFromVendor:GetPrice() return end
+function DispenceItemFromVendor:GetPrice() end
 
 ---@param iteID gameItemID
 ---@param price? Int32
 ---@param texture? CName|string
 ---@return nil
-function DispenceItemFromVendor:SetProperties(iteID, price, texture) return end
+function DispenceItemFromVendor:SetProperties(iteID, price, texture) end

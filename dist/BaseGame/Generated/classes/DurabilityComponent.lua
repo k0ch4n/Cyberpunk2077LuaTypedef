@@ -5,4 +5,4 @@ DurabilityComponent = {}
 
 ---@param fields? DurabilityComponent
 ---@return DurabilityComponent
-function DurabilityComponent.new(fields) return end
+function DurabilityComponent.new(fields) end

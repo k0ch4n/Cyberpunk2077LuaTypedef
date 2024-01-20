@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameuiEntityPreviewCameraSettings
----@field public autoEnable Bool
----@field public renderingMode ERenderingMode
----@field public panSpeed Float
----@field public rotationSpeed EulerAngles
----@field public rotationMin EulerAngles
----@field public rotationMax EulerAngles
----@field public rotationDefault EulerAngles
----@field public zoomSpeed Float
----@field public zoomMin Float
----@field public zoomMax Float
----@field public zoomDefault Float
+---@field autoEnable Bool
+---@field renderingMode ERenderingMode
+---@field panSpeed Float
+---@field rotationSpeed EulerAngles
+---@field rotationMin EulerAngles
+---@field rotationMax EulerAngles
+---@field rotationDefault EulerAngles
+---@field zoomSpeed Float
+---@field zoomMin Float
+---@field zoomMax Float
+---@field zoomDefault Float
 gameuiEntityPreviewCameraSettings = {}
 
 ---@param fields? gameuiEntityPreviewCameraSettings
 ---@return gameuiEntityPreviewCameraSettings
-function gameuiEntityPreviewCameraSettings.new(fields) return end
+function gameuiEntityPreviewCameraSettings.new(fields) end

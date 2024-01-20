@@ -1,119 +1,100 @@
 ---@meta
 
 ---@class LcdScreen: InteractiveDevice
----@field protected isShortGlitchActive Bool
----@field protected shortGlitchDelayID gameDelayID
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
 LcdScreen = {}
 
 ---@param fields? LcdScreen
 ---@return LcdScreen
-function LcdScreen.new(fields) return end
+function LcdScreen.new(fields) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function LcdScreen:OnHitEvent(hit) return end
+function LcdScreen:OnHitEvent(hit) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function LcdScreen:OnRequestComponents(ri) return end
+function LcdScreen:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SetMessageRecordEvent
 ---@return Bool
-function LcdScreen:OnSetMessageRecord(evt) return end
+function LcdScreen:OnSetMessageRecord(evt) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function LcdScreen:OnStopShortGlitch(evt) return end
+function LcdScreen:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function LcdScreen:OnTakeControl(ri) return end
+function LcdScreen:OnTakeControl(ri) end
 
----@protected
 ---@param target entEntityID
 ---@param statusEffect TweakDBID|string
 ---@return nil
-function LcdScreen:ApplyActiveStatusEffect(target, statusEffect) return end
+function LcdScreen:ApplyActiveStatusEffect(target, statusEffect) end
 
----@protected
 ---@return nil
-function LcdScreen:CreateBlackboard() return end
+function LcdScreen:CreateBlackboard() end
 
----@protected
 ---@return nil
-function LcdScreen:CutPower() return end
+function LcdScreen:CutPower() end
 
 ---@return EGameplayRole
-function LcdScreen:DeterminGameplayRole() return end
+function LcdScreen:DeterminGameplayRole() end
 
 ---@return LcdScreenBlackBoardDef
-function LcdScreen:GetBlackboardDef() return end
+function LcdScreen:GetBlackboardDef() end
 
----@protected
 ---@return LcdScreenController
-function LcdScreen:GetController() return end
+function LcdScreen:GetController() end
 
 ---@return Int32
-function LcdScreen:GetCustomNumber() return end
+function LcdScreen:GetCustomNumber() end
 
 ---@return LcdScreenControllerPS
-function LcdScreen:GetDevicePS() return end
+function LcdScreen:GetDevicePS() end
 
 ---@return gamedataScreenMessageData_Record
-function LcdScreen:GetMessageRecord() return end
+function LcdScreen:GetMessageRecord() end
 
 ---@return Bool
-function LcdScreen:HasCustomNumber() return end
+function LcdScreen:HasCustomNumber() end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function LcdScreen:ResavePersistentData(ps) return end
+function LcdScreen:ResavePersistentData(ps) end
 
----@protected
 ---@return nil
-function LcdScreen:ResolveGameplayState() return end
+function LcdScreen:ResolveGameplayState() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function LcdScreen:StartGlitching(glitchState, intensity) return end
+function LcdScreen:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function LcdScreen:StartShortGlitch() return end
+function LcdScreen:StartShortGlitch() end
 
----@protected
 ---@return nil
-function LcdScreen:StopGlitching() return end
+function LcdScreen:StopGlitching() end
 
----@protected
 ---@return nil
-function LcdScreen:TurnOffDevice() return end
+function LcdScreen:TurnOffDevice() end
 
----@private
 ---@return nil
-function LcdScreen:TurnOffScreen() return end
+function LcdScreen:TurnOffScreen() end
 
----@protected
 ---@return nil
-function LcdScreen:TurnOnDevice() return end
+function LcdScreen:TurnOnDevice() end
 
----@private
 ---@return nil
-function LcdScreen:TurnOnScreen() return end
+function LcdScreen:TurnOnScreen() end
 
----@private
 ---@param messageData ScreenMessageData
 ---@return nil
-function LcdScreen:UpdateMessageRecordUI(messageData) return end
+function LcdScreen:UpdateMessageRecordUI(messageData) end
 
----@protected
 ---@param targetID entEntityID
 ---@return nil
-function LcdScreen:UploadActiveProgramOnNPC(targetID) return end
+function LcdScreen:UploadActiveProgramOnNPC(targetID) end

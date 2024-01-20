@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class Multilayer_LayerTemplateOverridesColor
----@field public n CName
----@field public v Float[]
+---@field n CName
+---@field v Float[]
 Multilayer_LayerTemplateOverridesColor = {}
 
 ---@param fields? Multilayer_LayerTemplateOverridesColor
 ---@return Multilayer_LayerTemplateOverridesColor
-function Multilayer_LayerTemplateOverridesColor.new(fields) return end
+function Multilayer_LayerTemplateOverridesColor.new(fields) end

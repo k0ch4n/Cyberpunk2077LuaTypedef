@@ -1,74 +1,62 @@
 ---@meta
 
 ---@class WeakFence: InteractiveDevice
----@field protected impulseForce Float
----@field protected impulseVector Vector4
----@field protected sideTriggerNames CName[]
----@field protected triggerComponents gameStaticTriggerAreaComponent[]
----@field protected currentWorkspotSuffix CName
----@field protected offMeshConnectionComponent AIOffMeshConnectionComponent
----@field protected physicalMesh entIPlacedComponent
+---@field impulseForce Float
+---@field impulseVector Vector4
+---@field sideTriggerNames CName[]
+---@field triggerComponents gameStaticTriggerAreaComponent[]
+---@field currentWorkspotSuffix CName
+---@field offMeshConnectionComponent AIOffMeshConnectionComponent
+---@field physicalMesh entIPlacedComponent
 WeakFence = {}
 
 ---@param fields? WeakFence
 ---@return WeakFence
-function WeakFence.new(fields) return end
+function WeakFence.new(fields) end
 
----@protected
 ---@param evt ActionEngineering
 ---@return Bool
-function WeakFence:OnActionEngineering(evt) return end
+function WeakFence:OnActionEngineering(evt) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function WeakFence:OnActivateDevice(evt) return end
+function WeakFence:OnActivateDevice(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function WeakFence:OnRequestComponents(ri) return end
+function WeakFence:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function WeakFence:OnTakeControl(ri) return end
+function WeakFence:OnTakeControl(ri) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function WeakFence:OnWorkspotFinished(componentName) return end
+function WeakFence:OnWorkspotFinished(componentName) end
 
----@protected
 ---@return nil
-function WeakFence:CheckCurrentSide() return end
+function WeakFence:CheckCurrentSide() end
 
 ---@return EGameplayRole
-function WeakFence:DeterminGameplayRole() return end
+function WeakFence:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function WeakFence:DisableOffMeshConnections() return end
+function WeakFence:DisableOffMeshConnections() end
 
----@protected
 ---@return nil
-function WeakFence:EnableOffMeshConnections() return end
+function WeakFence:EnableOffMeshConnections() end
 
----@protected
 ---@return WeakFenceController
-function WeakFence:GetController() return end
+function WeakFence:GetController() end
 
 ---@return WeakFenceControllerPS
-function WeakFence:GetDevicePS() return end
+function WeakFence:GetDevicePS() end
 
----@protected
 ---@return nil
-function WeakFence:PlayWorkspotAnimations() return end
+function WeakFence:PlayWorkspotAnimations() end
 
----@protected
 ---@return nil
-function WeakFence:ResolveGameplayState() return end
+function WeakFence:ResolveGameplayState() end
 
----@private
 ---@return nil
-function WeakFence:UpdateAnimState() return end
+function WeakFence:UpdateAnimState() end

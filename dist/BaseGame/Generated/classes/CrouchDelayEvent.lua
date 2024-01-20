@@ -5,4 +5,4 @@ CrouchDelayEvent = {}
 
 ---@param fields? CrouchDelayEvent
 ---@return CrouchDelayEvent
-function CrouchDelayEvent.new(fields) return end
+function CrouchDelayEvent.new(fields) end

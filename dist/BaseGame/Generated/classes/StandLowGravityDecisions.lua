@@ -5,4 +5,4 @@ StandLowGravityDecisions = {}
 
 ---@param fields? StandLowGravityDecisions
 ---@return StandLowGravityDecisions
-function StandLowGravityDecisions.new(fields) return end
+function StandLowGravityDecisions.new(fields) end

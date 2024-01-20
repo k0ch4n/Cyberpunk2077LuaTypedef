@@ -5,4 +5,4 @@ ResolveSkillchecksEvent = {}
 
 ---@param fields? ResolveSkillchecksEvent
 ---@return ResolveSkillchecksEvent
-function ResolveSkillchecksEvent.new(fields) return end
+function ResolveSkillchecksEvent.new(fields) end

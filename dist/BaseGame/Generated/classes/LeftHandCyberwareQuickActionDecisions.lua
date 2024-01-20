@@ -5,16 +5,14 @@ LeftHandCyberwareQuickActionDecisions = {}
 
 ---@param fields? LeftHandCyberwareQuickActionDecisions
 ---@return LeftHandCyberwareQuickActionDecisions
-function LeftHandCyberwareQuickActionDecisions.new(fields) return end
+function LeftHandCyberwareQuickActionDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareQuickActionDecisions:EnterCondition(stateContext, scriptInterface) return end
+function LeftHandCyberwareQuickActionDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareQuickActionDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareQuickActionDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorTweakConditionDefinition: AIbehaviorConditionDefinition
----@field public recordId TweakDBID
+---@field recordId TweakDBID
 AIbehaviorTweakConditionDefinition = {}
 
 ---@param fields? AIbehaviorTweakConditionDefinition
 ---@return AIbehaviorTweakConditionDefinition
-function AIbehaviorTweakConditionDefinition.new(fields) return end
+function AIbehaviorTweakConditionDefinition.new(fields) end

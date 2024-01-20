@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animSimpleBounceTransformOutput_ChannelEntry
----@field public transformChannel animTransformChannel
----@field public multiplier Float
+---@field transformChannel animTransformChannel
+---@field multiplier Float
 animSimpleBounceTransformOutput_ChannelEntry = {}
 
 ---@param fields? animSimpleBounceTransformOutput_ChannelEntry
 ---@return animSimpleBounceTransformOutput_ChannelEntry
-function animSimpleBounceTransformOutput_ChannelEntry.new(fields) return end
+function animSimpleBounceTransformOutput_ChannelEntry.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficCompiledNode: worldNode
----@field public aabb Box
+---@field aabb Box
 worldTrafficCompiledNode = {}
 
 ---@param fields? worldTrafficCompiledNode
 ---@return worldTrafficCompiledNode
-function worldTrafficCompiledNode.new(fields) return end
+function worldTrafficCompiledNode.new(fields) end

@@ -5,17 +5,15 @@ WorldMapPoliceTooltipController = {}
 
 ---@param fields? WorldMapPoliceTooltipController
 ---@return WorldMapPoliceTooltipController
-function WorldMapPoliceTooltipController.new(fields) return end
+function WorldMapPoliceTooltipController.new(fields) end
 
----@protected
 ---@return CName
-function WorldMapPoliceTooltipController:GetHideAnimation() return end
+function WorldMapPoliceTooltipController:GetHideAnimation() end
 
----@protected
 ---@return CName
-function WorldMapPoliceTooltipController:GetShowAnimation() return end
+function WorldMapPoliceTooltipController:GetShowAnimation() end
 
 ---@param data WorldMapTooltipData
 ---@param menu gameuiWorldMapMenuGameController
 ---@return nil
-function WorldMapPoliceTooltipController:SetData(data, menu) return end
+function WorldMapPoliceTooltipController:SetData(data, menu) end

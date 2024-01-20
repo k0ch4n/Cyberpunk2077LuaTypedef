@@ -5,4 +5,4 @@ ResupplyVehicleTicketsRequest = {}
 
 ---@param fields? ResupplyVehicleTicketsRequest
 ---@return ResupplyVehicleTicketsRequest
-function ResupplyVehicleTicketsRequest.new(fields) return end
+function ResupplyVehicleTicketsRequest.new(fields) end

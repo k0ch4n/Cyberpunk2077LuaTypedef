@@ -4,4 +4,4 @@
 AIbehaviorBehaviorDelegate = {}
 
 ---@return AIbehaviorBehaviorDelegate
-function AIbehaviorBehaviorDelegate:GetParent() return end
+function AIbehaviorBehaviorDelegate:GetParent() end

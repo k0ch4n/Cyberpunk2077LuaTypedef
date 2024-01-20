@@ -5,14 +5,13 @@ AlwaysTruePrereq = {}
 
 ---@param fields? AlwaysTruePrereq
 ---@return AlwaysTruePrereq
-function AlwaysTruePrereq.new(fields) return end
+function AlwaysTruePrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function AlwaysTruePrereq:IsFulfilled(context) return end
+function AlwaysTruePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function AlwaysTruePrereq:OnApplied(state, context) return end
+function AlwaysTruePrereq:OnApplied(state, context) end

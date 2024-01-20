@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CEvaluatorColorStartEnd: IEvaluatorColor
----@field public start Color
----@field public end Color
+---@field start Color
+---@field end Color
 CEvaluatorColorStartEnd = {}
 
 ---@param fields? CEvaluatorColorStartEnd
 ---@return CEvaluatorColorStartEnd
-function CEvaluatorColorStartEnd.new(fields) return end
+function CEvaluatorColorStartEnd.new(fields) end

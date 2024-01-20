@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AreaEntry
----@field public user entEntityID
+---@field user entEntityID
 AreaEntry = {}
 
 ---@param fields? AreaEntry
 ---@return AreaEntry
-function AreaEntry.new(fields) return end
+function AreaEntry.new(fields) end

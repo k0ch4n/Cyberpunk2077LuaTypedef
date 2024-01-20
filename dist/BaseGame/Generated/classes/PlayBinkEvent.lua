@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayBinkEvent: redEvent
----@field public data SBinkperationData
+---@field data SBinkperationData
 PlayBinkEvent = {}
 
 ---@param fields? PlayBinkEvent
 ---@return PlayBinkEvent
-function PlayBinkEvent.new(fields) return end
+function PlayBinkEvent.new(fields) end

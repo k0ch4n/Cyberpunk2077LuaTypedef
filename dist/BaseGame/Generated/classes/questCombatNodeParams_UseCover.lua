@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questCombatNodeParams_UseCover: questCombatNodeParams
----@field public cover NodeRef
----@field public oneTimeSelection Bool
----@field public forceStance AICoverExposureMethod[]
----@field public forcedEntryAnimation CName
----@field public immediately Bool
+---@field cover NodeRef
+---@field oneTimeSelection Bool
+---@field forceStance AICoverExposureMethod[]
+---@field forcedEntryAnimation CName
+---@field immediately Bool
 questCombatNodeParams_UseCover = {}
 
 ---@param fields? questCombatNodeParams_UseCover
 ---@return questCombatNodeParams_UseCover
-function questCombatNodeParams_UseCover.new(fields) return end
+function questCombatNodeParams_UseCover.new(fields) end

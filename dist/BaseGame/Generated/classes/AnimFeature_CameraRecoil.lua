@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AnimFeature_CameraRecoil: animAnimFeature
----@field public backward_offset Float
----@field public side_offset Float
----@field public tilt_angle Float
----@field public yaw_angle Float
----@field public pitch_angle Float
----@field public translate_transform_speed Float
----@field public rotate_transform_speed Float
----@field public is_offset Bool
+---@field backward_offset Float
+---@field side_offset Float
+---@field tilt_angle Float
+---@field yaw_angle Float
+---@field pitch_angle Float
+---@field translate_transform_speed Float
+---@field rotate_transform_speed Float
+---@field is_offset Bool
 AnimFeature_CameraRecoil = {}
 
 ---@param fields? AnimFeature_CameraRecoil
 ---@return AnimFeature_CameraRecoil
-function AnimFeature_CameraRecoil.new(fields) return end
+function AnimFeature_CameraRecoil.new(fields) end

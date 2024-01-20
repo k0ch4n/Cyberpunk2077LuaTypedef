@@ -5,9 +5,8 @@ TriggerFearRunningVO = {}
 
 ---@param fields? TriggerFearRunningVO
 ---@return TriggerFearRunningVO
-function TriggerFearRunningVO.new(fields) return end
+function TriggerFearRunningVO.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TriggerFearRunningVO:Activate(context) return end
+function TriggerFearRunningVO:Activate(context) end

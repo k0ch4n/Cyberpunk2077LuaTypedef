@@ -5,4 +5,4 @@ UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent = {}
 
 ---@param fields? UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent
 ---@return UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent
-function UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent.new(fields) return end
+function UnifyIconicsUpgradeCountWithEffectiveTierInStashEvent.new(fields) end

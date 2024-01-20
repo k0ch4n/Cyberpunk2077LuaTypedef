@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ResolveSensorDeviceBehaviour: redEvent
----@field public iteration Int32
+---@field iteration Int32
 ResolveSensorDeviceBehaviour = {}
 
 ---@param fields? ResolveSensorDeviceBehaviour
 ---@return ResolveSensorDeviceBehaviour
-function ResolveSensorDeviceBehaviour.new(fields) return end
+function ResolveSensorDeviceBehaviour.new(fields) end

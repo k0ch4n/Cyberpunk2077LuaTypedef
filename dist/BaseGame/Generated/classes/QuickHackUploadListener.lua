@@ -5,45 +5,37 @@ QuickHackUploadListener = {}
 
 ---@param fields? QuickHackUploadListener
 ---@return QuickHackUploadListener
-function QuickHackUploadListener.new(fields) return end
+function QuickHackUploadListener.new(fields) end
 
----@protected
 ---@return Bool
-function QuickHackUploadListener:OnStatPoolAdded() return end
+function QuickHackUploadListener:OnStatPoolAdded() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function QuickHackUploadListener:OnStatPoolMaxValueReached(value) return end
+function QuickHackUploadListener:OnStatPoolMaxValueReached(value) end
 
 ---@return nil
-function QuickHackUploadListener:Initialize() return end
+function QuickHackUploadListener:Initialize() end
 
----@protected
 ---@param eventName CName|string
 ---@return nil
-function QuickHackUploadListener:PlayQuickHackSound(eventName) return end
+function QuickHackUploadListener:PlayQuickHackSound(eventName) end
 
----@protected
 ---@param owner ScriptedPuppet
 ---@return nil
-function QuickHackUploadListener:RemoveLink(owner) return end
+function QuickHackUploadListener:RemoveLink(owner) end
 
----@protected
 ---@param owner ScriptedPuppet
 ---@param ssAction? Bool
 ---@return nil
-function QuickHackUploadListener:RemoveLinkedStatusEffects(owner, ssAction) return end
+function QuickHackUploadListener:RemoveLinkedStatusEffects(owner, ssAction) end
 
----@protected
 ---@return nil
-function QuickHackUploadListener:SendUploadFinishedEvent() return end
+function QuickHackUploadListener:SendUploadFinishedEvent() end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function QuickHackUploadListener:SendUploadStartedEvent(action) return end
+function QuickHackUploadListener:SendUploadStartedEvent(action) end
 
----@protected
 ---@return nil
-function QuickHackUploadListener:SetRegenBehavior() return end
+function QuickHackUploadListener:SetRegenBehavior() end

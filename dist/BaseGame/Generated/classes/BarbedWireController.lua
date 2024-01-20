@@ -5,7 +5,7 @@ BarbedWireController = {}
 
 ---@param fields? BarbedWireController
 ---@return BarbedWireController
-function BarbedWireController.new(fields) return end
+function BarbedWireController.new(fields) end
 
 ---@return BarbedWireControllerPS
-function BarbedWireController:GetPS() return end
+function BarbedWireController:GetPS() end

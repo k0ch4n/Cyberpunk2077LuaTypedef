@@ -5,19 +5,19 @@ gamemappinsQuestMappin = {}
 
 ---@param fields? gamemappinsQuestMappin
 ---@return gamemappinsQuestMappin
-function gamemappinsQuestMappin.new(fields) return end
+function gamemappinsQuestMappin.new(fields) end
 
 ---@return Uint32
-function gamemappinsQuestMappin:GetJournalPathHash() return end
+function gamemappinsQuestMappin:GetJournalPathHash() end
 
 ---@return Bool
-function gamemappinsQuestMappin:GetOwnerObjectMarkerVisibility() return end
+function gamemappinsQuestMappin:GetOwnerObjectMarkerVisibility() end
 
 ---@return TweakDBID
-function gamemappinsQuestMappin:GetUIAnimationRecordID() return end
+function gamemappinsQuestMappin:GetUIAnimationRecordID() end
 
 ---@return Bool
-function gamemappinsQuestMappin:IsInsideTrigger() return end
+function gamemappinsQuestMappin:IsInsideTrigger() end
 
 ---@return Bool
-function gamemappinsQuestMappin:IsUIAnimation() return end
+function gamemappinsQuestMappin:IsUIAnimation() end

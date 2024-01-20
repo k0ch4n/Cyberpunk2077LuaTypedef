@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerWeaponBasic: ScannerChunk
----@field protected weapon CName
+---@field weapon CName
 ScannerWeaponBasic = {}
 
 ---@param fields? ScannerWeaponBasic
 ---@return ScannerWeaponBasic
-function ScannerWeaponBasic.new(fields) return end
+function ScannerWeaponBasic.new(fields) end
 
 ---@return ScannerDataType
-function ScannerWeaponBasic:GetType() return end
+function ScannerWeaponBasic:GetType() end
 
 ---@return CName
-function ScannerWeaponBasic:GetWeapon() return end
+function ScannerWeaponBasic:GetWeapon() end
 
 ---@param displayName CName|string
 ---@return nil
-function ScannerWeaponBasic:Set(displayName) return end
+function ScannerWeaponBasic:Set(displayName) end

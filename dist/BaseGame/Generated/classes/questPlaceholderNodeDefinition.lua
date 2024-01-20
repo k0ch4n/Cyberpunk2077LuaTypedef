@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questPlaceholderNodeDefinition: questDisableableNodeDefinition
----@field public replacedNodeClassName CName
----@field public copiedSockets questPlaceholderNodeSocketInfo[]
----@field public clipboardHolder ISerializable
+---@field replacedNodeClassName CName
+---@field copiedSockets questPlaceholderNodeSocketInfo[]
+---@field clipboardHolder ISerializable
 questPlaceholderNodeDefinition = {}
 
 ---@param fields? questPlaceholderNodeDefinition
 ---@return questPlaceholderNodeDefinition
-function questPlaceholderNodeDefinition.new(fields) return end
+function questPlaceholderNodeDefinition.new(fields) end

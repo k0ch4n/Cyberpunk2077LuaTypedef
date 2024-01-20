@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class characterCreationGenderBackstoryBtn: inkButtonController
----@field public selector inkWidgetReference
----@field public fluffText inkWidgetReference
+---@field selector inkWidgetReference
+---@field fluffText inkWidgetReference
 characterCreationGenderBackstoryBtn = {}
 
 ---@param fields? characterCreationGenderBackstoryBtn
 ---@return characterCreationGenderBackstoryBtn
-function characterCreationGenderBackstoryBtn.new(fields) return end
+function characterCreationGenderBackstoryBtn.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationGenderBackstoryBtn:OnHoverOut(e) return end
+function characterCreationGenderBackstoryBtn:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationGenderBackstoryBtn:OnHoverOver(e) return end
+function characterCreationGenderBackstoryBtn:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationGenderBackstoryBtn:OnInitialize() return end
+function characterCreationGenderBackstoryBtn:OnInitialize() end
 
 ---@param newName String
 ---@param gender Bool
 ---@return nil
-function characterCreationGenderBackstoryBtn:Refresh(newName, gender) return end
+function characterCreationGenderBackstoryBtn:Refresh(newName, gender) end

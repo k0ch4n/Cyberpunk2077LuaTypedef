@@ -5,34 +5,29 @@ WorkspotDecisions = {}
 
 ---@param fields? WorkspotDecisions
 ---@return WorkspotDecisions
-function WorkspotDecisions.new(fields) return end
+function WorkspotDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WorkspotDecisions:EnterCondition(stateContext, scriptInterface) return end
+function WorkspotDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WorkspotDecisions:ExitCondition(stateContext, scriptInterface) return end
+function WorkspotDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WorkspotDecisions:ToCrouch(stateContext, scriptInterface) return end
+function WorkspotDecisions:ToCrouch(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WorkspotDecisions:ToSlide(stateContext, scriptInterface) return end
+function WorkspotDecisions:ToSlide(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WorkspotDecisions:ToStand(stateContext, scriptInterface) return end
+function WorkspotDecisions:ToStand(stateContext, scriptInterface) end

@@ -5,7 +5,7 @@ ReflectorController = {}
 
 ---@param fields? ReflectorController
 ---@return ReflectorController
-function ReflectorController.new(fields) return end
+function ReflectorController.new(fields) end
 
 ---@return ReflectorControllerPS
-function ReflectorController:GetPS() return end
+function ReflectorController:GetPS() end

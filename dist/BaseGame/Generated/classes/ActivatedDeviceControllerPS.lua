@@ -1,168 +1,150 @@
 ---@meta
 
 ---@class ActivatedDeviceControllerPS: ScriptableDeviceComponentPS
----@field protected animationSetup ActivatedDeviceAnimSetup
----@field protected activatedDeviceSetup ActivatedDeviceSetup
----@field protected spiderbotInteractionLocationOverride NodeRef
----@field private industrialArmAnimationOverride Int32
+---@field animationSetup ActivatedDeviceAnimSetup
+---@field activatedDeviceSetup ActivatedDeviceSetup
+---@field spiderbotInteractionLocationOverride NodeRef
+---@field industrialArmAnimationOverride Int32
 ActivatedDeviceControllerPS = {}
 
 ---@param fields? ActivatedDeviceControllerPS
 ---@return ActivatedDeviceControllerPS
-function ActivatedDeviceControllerPS.new(fields) return end
+function ActivatedDeviceControllerPS.new(fields) end
 
----@protected
 ---@param interactionTDBID TweakDBID|string
 ---@return ActivateDevice
-function ActivatedDeviceControllerPS:ActionActivateDevice(interactionTDBID) return end
+function ActivatedDeviceControllerPS:ActionActivateDevice(interactionTDBID) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionEngineering
-function ActivatedDeviceControllerPS:ActionEngineering(context) return end
+function ActivatedDeviceControllerPS:ActionEngineering(context) end
 
----@protected
 ---@return QuestSetIndustrialArmAnimationOverride
-function ActivatedDeviceControllerPS:ActionQuestSetIndustrialArmAnimationOverride() return end
+function ActivatedDeviceControllerPS:ActionQuestSetIndustrialArmAnimationOverride() end
 
----@protected
 ---@param toggle Bool
 ---@return QuestToggleAutomaticAttack
-function ActivatedDeviceControllerPS:ActionQuestToggleAutomaticAttack(toggle) return end
+function ActivatedDeviceControllerPS:ActionQuestToggleAutomaticAttack(toggle) end
 
----@protected
 ---@param interactionTDBID TweakDBID|string
 ---@return ActivateDevice
-function ActivatedDeviceControllerPS:ActionQuickHackActivateDevice(interactionTDBID) return end
+function ActivatedDeviceControllerPS:ActionQuickHackActivateDevice(interactionTDBID) end
 
----@protected
 ---@param interactionTDBID TweakDBID|string
 ---@return QuickHackDistraction
-function ActivatedDeviceControllerPS:ActionQuickHackDistraction(interactionTDBID) return end
+function ActivatedDeviceControllerPS:ActionQuickHackDistraction(interactionTDBID) end
 
----@protected
 ---@param interactionTDBID TweakDBID|string
 ---@return SpiderbotActivateActivator
-function ActivatedDeviceControllerPS:ActionSpiderbotActivateActivator(interactionTDBID) return end
+function ActivatedDeviceControllerPS:ActionSpiderbotActivateActivator(interactionTDBID) end
 
 ---@return nil
-function ActivatedDeviceControllerPS:ActivateThisDevice() return end
+function ActivatedDeviceControllerPS:ActivateThisDevice() end
 
----@protected
 ---@return Bool
-function ActivatedDeviceControllerPS:CanCreateAnyQuickHackActions() return end
+function ActivatedDeviceControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return Bool
-function ActivatedDeviceControllerPS:CanCreateAnySpiderbotActions() return end
+function ActivatedDeviceControllerPS:CanCreateAnySpiderbotActions() end
 
 ---@return CName
-function ActivatedDeviceControllerPS:GetActionName() return end
+function ActivatedDeviceControllerPS:GetActionName() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ActivatedDeviceControllerPS:GetActions(context) return end
+function ActivatedDeviceControllerPS:GetActions(context) end
 
 ---@return CName
-function ActivatedDeviceControllerPS:GetActivationVFXname() return end
+function ActivatedDeviceControllerPS:GetActivationVFXname() end
 
 ---@return Float
-function ActivatedDeviceControllerPS:GetAnimationTime() return end
+function ActivatedDeviceControllerPS:GetAnimationTime() end
 
 ---@return TweakDBID
-function ActivatedDeviceControllerPS:GetAttackType() return end
+function ActivatedDeviceControllerPS:GetAttackType() end
 
----@protected
 ---@return TweakDBID
-function ActivatedDeviceControllerPS:GetDeviceIconTweakDBID() return end
+function ActivatedDeviceControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return Int32
-function ActivatedDeviceControllerPS:GetIndustrialArmAnimationOverride() return end
+function ActivatedDeviceControllerPS:GetIndustrialArmAnimationOverride() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function ActivatedDeviceControllerPS:GetInkWidgetTweakDBID(context) return end
+function ActivatedDeviceControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@return TweakDBID
-function ActivatedDeviceControllerPS:GetInteractionName() return end
+function ActivatedDeviceControllerPS:GetInteractionName() end
 
----@private
 ---@return gameObject
-function ActivatedDeviceControllerPS:GetNearestViableParent() return end
+function ActivatedDeviceControllerPS:GetNearestViableParent() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function ActivatedDeviceControllerPS:GetQuestActionByName(actionName) return end
+function ActivatedDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ActivatedDeviceControllerPS:GetQuestActions(context) return end
+function ActivatedDeviceControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ActivatedDeviceControllerPS:GetQuickHackActions(context) return end
+function ActivatedDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return TweakDBID
-function ActivatedDeviceControllerPS:GetQuickHackName() return end
+function ActivatedDeviceControllerPS:GetQuickHackName() end
 
----@protected
 ---@return BaseSkillCheckContainer
-function ActivatedDeviceControllerPS:GetSkillCheckContainerForSetup() return end
+function ActivatedDeviceControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@return TweakDBID
-function ActivatedDeviceControllerPS:GetSpidebotInteractionName() return end
+function ActivatedDeviceControllerPS:GetSpidebotInteractionName() end
 
----@protected
 ---@param outActions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function ActivatedDeviceControllerPS:GetSpiderbotActions(outActions, context) return end
+function ActivatedDeviceControllerPS:GetSpiderbotActions(outActions, context) end
 
 ---@return NodeRef
-function ActivatedDeviceControllerPS:GetSpiderbotInteractionLocationOverride() return end
+function ActivatedDeviceControllerPS:GetSpiderbotInteractionLocationOverride() end
 
 ---@return gameFxResource
-function ActivatedDeviceControllerPS:GetVFX() return end
+function ActivatedDeviceControllerPS:GetVFX() end
 
 ---@return Bool
-function ActivatedDeviceControllerPS:HasQuickHack() return end
+function ActivatedDeviceControllerPS:HasQuickHack() end
 
 ---@return Bool
-function ActivatedDeviceControllerPS:HasQuickHackDistraction() return end
+function ActivatedDeviceControllerPS:HasQuickHackDistraction() end
 
 ---@return Bool
-function ActivatedDeviceControllerPS:HasSpiderbotInteraction() return end
+function ActivatedDeviceControllerPS:HasSpiderbotInteraction() end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function ActivatedDeviceControllerPS:OnActionEngineering(evt) return end
+function ActivatedDeviceControllerPS:OnActionEngineering(evt) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function ActivatedDeviceControllerPS:OnActivateDevice(evt) return end
+function ActivatedDeviceControllerPS:OnActivateDevice(evt) end
 
----@protected
 ---@param evt QuestSetIndustrialArmAnimationOverride
 ---@return EntityNotificationType
-function ActivatedDeviceControllerPS:OnQuestSetIndustrialArmAnimationOverride(evt) return end
+function ActivatedDeviceControllerPS:OnQuestSetIndustrialArmAnimationOverride(evt) end
 
----@protected
 ---@param evt QuestToggleAutomaticAttack
 ---@return EntityNotificationType
-function ActivatedDeviceControllerPS:OnQuestToggleAutomaticAttack(evt) return end
+function ActivatedDeviceControllerPS:OnQuestToggleAutomaticAttack(evt) end
 
 ---@param evt SpiderbotActivateActivator
 ---@return EntityNotificationType
-function ActivatedDeviceControllerPS:OnSpiderbotActivateActivator(evt) return end
+function ActivatedDeviceControllerPS:OnSpiderbotActivateActivator(evt) end
 
 ---@return Bool
-function ActivatedDeviceControllerPS:ShouldActivateTrapOnAreaEnter() return end
+function ActivatedDeviceControllerPS:ShouldActivateTrapOnAreaEnter() end
 
 ---@return Bool
-function ActivatedDeviceControllerPS:ShouldGlitchOnActivation() return end
+function ActivatedDeviceControllerPS:ShouldGlitchOnActivation() end
 
 ---@return Bool
-function ActivatedDeviceControllerPS:ShouldRadgollOnAttack() return end
+function ActivatedDeviceControllerPS:ShouldRadgollOnAttack() end

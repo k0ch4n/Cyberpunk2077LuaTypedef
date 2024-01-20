@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class ReleaseWorkSpotTask: WorkSpotTask
----@field public workspotRef NodeRef
----@field public workspotObject gameObject
+---@field workspotRef NodeRef
+---@field workspotObject gameObject
 ReleaseWorkSpotTask = {}
 
 ---@param fields? ReleaseWorkSpotTask
 ---@return ReleaseWorkSpotTask
-function ReleaseWorkSpotTask.new(fields) return end
+function ReleaseWorkSpotTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReleaseWorkSpotTask:Activate(context) return end
+function ReleaseWorkSpotTask:Activate(context) end

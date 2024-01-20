@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamecarryReplicatedEntitySetAttachmentToWorld: netEntityAttachmentInterface
----@field public localTransform Transform
+---@field localTransform Transform
 gamecarryReplicatedEntitySetAttachmentToWorld = {}
 
 ---@param fields? gamecarryReplicatedEntitySetAttachmentToWorld
 ---@return gamecarryReplicatedEntitySetAttachmentToWorld
-function gamecarryReplicatedEntitySetAttachmentToWorld.new(fields) return end
+function gamecarryReplicatedEntitySetAttachmentToWorld.new(fields) end

@@ -5,29 +5,25 @@ SwimmingLadderEvents = {}
 
 ---@param fields? SwimmingLadderEvents
 ---@return SwimmingLadderEvents
-function SwimmingLadderEvents.new(fields) return end
+function SwimmingLadderEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingLadderEvents:OnEnter(stateContext, scriptInterface) return end
+function SwimmingLadderEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingLadderEvents:OnExit(stateContext, scriptInterface) return end
+function SwimmingLadderEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingLadderEvents:OnForcedExit(stateContext, scriptInterface) return end
+function SwimmingLadderEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingLadderEvents:OnTick(timeDelta, stateContext, scriptInterface) return end
+function SwimmingLadderEvents:OnTick(timeDelta, stateContext, scriptInterface) end

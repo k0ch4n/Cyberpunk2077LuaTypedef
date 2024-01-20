@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorLimiterNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public activationLimitPerFrame Uint32
----@field public delayChildActivation Bool
----@field public delayChildActivationIfAttaching Bool
+---@field activationLimitPerFrame Uint32
+---@field delayChildActivation Bool
+---@field delayChildActivationIfAttaching Bool
 AIbehaviorLimiterNodeDefinition = {}
 
 ---@param fields? AIbehaviorLimiterNodeDefinition
 ---@return AIbehaviorLimiterNodeDefinition
-function AIbehaviorLimiterNodeDefinition.new(fields) return end
+function AIbehaviorLimiterNodeDefinition.new(fields) end

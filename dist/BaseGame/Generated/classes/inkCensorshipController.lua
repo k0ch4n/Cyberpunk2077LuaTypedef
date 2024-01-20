@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkCensorshipController: inkWidgetLogicController
----@field public censorshipFlags CensorshipFlags
+---@field censorshipFlags CensorshipFlags
 inkCensorshipController = {}
 
 ---@param fields? inkCensorshipController
 ---@return inkCensorshipController
-function inkCensorshipController.new(fields) return end
+function inkCensorshipController.new(fields) end

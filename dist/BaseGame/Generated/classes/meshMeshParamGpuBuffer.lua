@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class meshMeshParamGpuBuffer: meshMeshParameter
----@field public stride Uint32
----@field public data DataBuffer
+---@field stride Uint32
+---@field data DataBuffer
 meshMeshParamGpuBuffer = {}
 
 ---@param fields? meshMeshParamGpuBuffer
 ---@return meshMeshParamGpuBuffer
-function meshMeshParamGpuBuffer.new(fields) return end
+function meshMeshParamGpuBuffer.new(fields) end

@@ -1,56 +1,52 @@
 ---@meta
 
 ---@class SceneDecisions: VehicleTransition
----@field public sceneTierCallback redCallbackObject
+---@field sceneTierCallback redCallbackObject
 SceneDecisions = {}
 
 ---@param fields? SceneDecisions
 ---@return SceneDecisions
-function SceneDecisions.new(fields) return end
+function SceneDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function SceneDecisions:CanTransitionToCombat(stateContext) return end
+function SceneDecisions:CanTransitionToCombat(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneDecisions:ExitCondition(stateContext, scriptInterface) return end
+function SceneDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SceneDecisions:OnAttach(stateContext, scriptInterface) return end
+function SceneDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SceneDecisions:OnDetach(stateContext, scriptInterface) return end
+function SceneDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param sceneTier Int32
 ---@return nil
-function SceneDecisions:OnSceneTierChanged(sceneTier) return end
+function SceneDecisions:OnSceneTierChanged(sceneTier) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneDecisions:ToCombat(stateContext, scriptInterface) return end
+function SceneDecisions:ToCombat(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneDecisions:ToDriverCombatFirearms(stateContext, scriptInterface) return end
+function SceneDecisions:ToDriverCombatFirearms(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneDecisions:ToDriverCombatMountedWeapons(stateContext, scriptInterface) return end
+function SceneDecisions:ToDriverCombatMountedWeapons(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneDecisions:ToVehicleTurret(stateContext, scriptInterface) return end
+function SceneDecisions:ToVehicleTurret(stateContext, scriptInterface) end

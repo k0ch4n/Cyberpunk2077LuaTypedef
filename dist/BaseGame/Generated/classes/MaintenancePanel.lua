@@ -1,66 +1,56 @@
 ---@meta
 
 ---@class MaintenancePanel: InteractiveMasterDevice
----@field private animFeature AnimFeature_SimpleDevice
+---@field animFeature AnimFeature_SimpleDevice
 MaintenancePanel = {}
 
 ---@param fields? MaintenancePanel
 ---@return MaintenancePanel
-function MaintenancePanel.new(fields) return end
+function MaintenancePanel.new(fields) end
 
----@protected
 ---@param evt panelApperanceSwitchEvent
 ---@return Bool
-function MaintenancePanel:OnDelayApperanceSwitchEvent(evt) return end
+function MaintenancePanel:OnDelayApperanceSwitchEvent(evt) end
 
----@protected
 ---@param evt DisassembleDevice
 ---@return Bool
-function MaintenancePanel:OnDisassembleDevice(evt) return end
+function MaintenancePanel:OnDisassembleDevice(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function MaintenancePanel:OnRequestComponents(ri) return end
+function MaintenancePanel:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function MaintenancePanel:OnTakeControl(ri) return end
+function MaintenancePanel:OnTakeControl(ri) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function MaintenancePanel:OnWorkspotFinished(componentName) return end
+function MaintenancePanel:OnWorkspotFinished(componentName) end
 
----@private
 ---@param newApperance CName|string
 ---@param time Float
 ---@return nil
-function MaintenancePanel:DelayApperanceSwitchEvent(newApperance, time) return end
+function MaintenancePanel:DelayApperanceSwitchEvent(newApperance, time) end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@return nil
-function MaintenancePanel:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
+function MaintenancePanel:EnterWorkspot(activator, freeCamera, componentName, deviceData) end
 
----@private
 ---@return MaintenancePanelController
-function MaintenancePanel:GetController() return end
+function MaintenancePanel:GetController() end
 
 ---@return MaintenancePanelControllerPS
-function MaintenancePanel:GetDevicePS() return end
+function MaintenancePanel:GetDevicePS() end
 
 ---@return Bool
-function MaintenancePanel:IsAuthorizationModuleOn() return end
+function MaintenancePanel:IsAuthorizationModuleOn() end
 
----@protected
 ---@return nil
-function MaintenancePanel:RestoreDeviceState() return end
+function MaintenancePanel:RestoreDeviceState() end
 
----@private
 ---@return nil
-function MaintenancePanel:UpdateAnimState() return end
+function MaintenancePanel:UpdateAnimState() end

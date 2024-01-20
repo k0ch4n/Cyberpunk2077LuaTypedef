@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class TransferSaveGameController: gameuiWidgetGameController
----@field private notificationController inkWidgetReference
+---@field notificationController inkWidgetReference
 TransferSaveGameController = {}
 
 ---@param fields? TransferSaveGameController
 ---@return TransferSaveGameController
-function TransferSaveGameController.new(fields) return end
+function TransferSaveGameController.new(fields) end
 
----@protected
 ---@return Bool
-function TransferSaveGameController:OnInitialize() return end
+function TransferSaveGameController:OnInitialize() end

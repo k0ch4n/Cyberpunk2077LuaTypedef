@@ -5,4 +5,4 @@ SetBusyEvent = {}
 
 ---@param fields? SetBusyEvent
 ---@return SetBusyEvent
-function SetBusyEvent.new(fields) return end
+function SetBusyEvent.new(fields) end

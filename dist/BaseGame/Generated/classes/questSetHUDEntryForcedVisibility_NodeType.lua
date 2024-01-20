@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questSetHUDEntryForcedVisibility_NodeType: questIUIManagerNodeType
----@field public hudEntryName CName[]
----@field public usePreset Bool
----@field public hudVisibilityPreset TweakDBID
----@field public visibility worlduiEntryVisibility
----@field public skipAnimation Bool
+---@field hudEntryName CName[]
+---@field usePreset Bool
+---@field hudVisibilityPreset TweakDBID
+---@field visibility worlduiEntryVisibility
+---@field skipAnimation Bool
 questSetHUDEntryForcedVisibility_NodeType = {}
 
 ---@param fields? questSetHUDEntryForcedVisibility_NodeType
 ---@return questSetHUDEntryForcedVisibility_NodeType
-function questSetHUDEntryForcedVisibility_NodeType.new(fields) return end
+function questSetHUDEntryForcedVisibility_NodeType.new(fields) end

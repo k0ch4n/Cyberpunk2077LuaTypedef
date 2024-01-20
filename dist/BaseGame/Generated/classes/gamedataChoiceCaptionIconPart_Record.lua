@@ -5,22 +5,22 @@ gamedataChoiceCaptionIconPart_Record = {}
 
 ---@param fields? gamedataChoiceCaptionIconPart_Record
 ---@return gamedataChoiceCaptionIconPart_Record
-function gamedataChoiceCaptionIconPart_Record.new(fields) return end
+function gamedataChoiceCaptionIconPart_Record.new(fields) end
 
 ---@return String
-function gamedataChoiceCaptionIconPart_Record:Comment() return end
+function gamedataChoiceCaptionIconPart_Record:Comment() end
 
 ---@return CName
-function gamedataChoiceCaptionIconPart_Record:EnumName() return end
+function gamedataChoiceCaptionIconPart_Record:EnumName() end
 
 ---@return gamedataMappinVariant_Record
-function gamedataChoiceCaptionIconPart_Record:MappinVariant() return end
+function gamedataChoiceCaptionIconPart_Record:MappinVariant() end
 
 ---@return gamedataMappinVariant_Record
-function gamedataChoiceCaptionIconPart_Record:MappinVariantHandle() return end
+function gamedataChoiceCaptionIconPart_Record:MappinVariantHandle() end
 
 ---@return gamedataUIIcon_Record
-function gamedataChoiceCaptionIconPart_Record:TexturePartID() return end
+function gamedataChoiceCaptionIconPart_Record:TexturePartID() end
 
 ---@return gamedataUIIcon_Record
-function gamedataChoiceCaptionIconPart_Record:TexturePartIDHandle() return end
+function gamedataChoiceCaptionIconPart_Record:TexturePartIDHandle() end

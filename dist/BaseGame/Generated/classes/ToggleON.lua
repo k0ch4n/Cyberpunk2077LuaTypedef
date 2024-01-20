@@ -1,45 +1,45 @@
 ---@meta
 
 ---@class ToggleON: ActionBool
----@field protected TrueRecordName String
----@field protected FalseRecordName String
+---@field TrueRecordName String
+---@field FalseRecordName String
 ToggleON = {}
 
 ---@param fields? ToggleON
 ---@return ToggleON
-function ToggleON.new(fields) return end
+function ToggleON.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ToggleON.IsAvailable(device) return end
+function ToggleON.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ToggleON.IsClearanceValid(clearance) return end
+function ToggleON.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleON.IsDefaultConditionMet(device, context) return end
+function ToggleON.IsDefaultConditionMet(device, context) end
 
 ---@return Float
-function ToggleON:GetActivationTime() return end
+function ToggleON:GetActivationTime() end
 
 ---@return Int32
-function ToggleON:GetBaseCost() return end
+function ToggleON:GetBaseCost() end
 
 ---@return TweakDBID
-function ToggleON:GetInkWidgetTweakDBID() return end
+function ToggleON:GetInkWidgetTweakDBID() end
 
 ---@return String
-function ToggleON:GetTweakDBChoiceRecord() return end
+function ToggleON:GetTweakDBChoiceRecord() end
 
 ---@param status EDeviceStatus
 ---@return nil
-function ToggleON:SetProperties(status) return end
+function ToggleON:SetProperties(status) end
 
 ---@param status EDeviceStatus
 ---@param nameOnTrue TweakDBID|string
 ---@param nameOnFalse TweakDBID|string
 ---@return nil
-function ToggleON:SetProperties(status, nameOnTrue, nameOnFalse) return end
+function ToggleON:SetProperties(status, nameOnTrue, nameOnFalse) end

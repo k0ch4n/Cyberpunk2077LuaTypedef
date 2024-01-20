@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameJournalInternetImage: gameJournalInternetBase
----@field public textureAtlas inkTextureAtlas
----@field public texturePart CName
+---@field textureAtlas inkTextureAtlas
+---@field texturePart CName
 gameJournalInternetImage = {}
 
 ---@param fields? gameJournalInternetImage
 ---@return gameJournalInternetImage
-function gameJournalInternetImage.new(fields) return end
+function gameJournalInternetImage.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gameJournalInternetImage:GetAtlasPath() return end
+function gameJournalInternetImage:GetAtlasPath() end
 
 ---@return CName
-function gameJournalInternetImage:GetTexturePart() return end
+function gameJournalInternetImage:GetTexturePart() end

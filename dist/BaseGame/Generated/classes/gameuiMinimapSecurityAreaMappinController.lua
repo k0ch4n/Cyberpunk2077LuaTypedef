@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class gameuiMinimapSecurityAreaMappinController: gameuiBaseMinimapMappinController
----@field public playerInArea Bool
----@field public area gamemappinsIArea
----@field public areaShapeWidget inkShapeWidgetReference
+---@field playerInArea Bool
+---@field area gamemappinsIArea
+---@field areaShapeWidget inkShapeWidgetReference
 gameuiMinimapSecurityAreaMappinController = {}
 
 ---@param fields? gameuiMinimapSecurityAreaMappinController
 ---@return gameuiMinimapSecurityAreaMappinController
-function gameuiMinimapSecurityAreaMappinController.new(fields) return end
+function gameuiMinimapSecurityAreaMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiMinimapSecurityAreaMappinController:OnPlayerEnterArea() return end
+function gameuiMinimapSecurityAreaMappinController:OnPlayerEnterArea() end
 
----@protected
 ---@return Bool
-function gameuiMinimapSecurityAreaMappinController:OnPlayerExitArea() return end
+function gameuiMinimapSecurityAreaMappinController:OnPlayerExitArea() end
 
----@private
 ---@param type CName|string
 ---@return CName
-function gameuiMinimapSecurityAreaMappinController:AreaTypeToState(type) return end
+function gameuiMinimapSecurityAreaMappinController:AreaTypeToState(type) end
 
----@protected
 ---@return nil
-function gameuiMinimapSecurityAreaMappinController:Update() return end
+function gameuiMinimapSecurityAreaMappinController:Update() end

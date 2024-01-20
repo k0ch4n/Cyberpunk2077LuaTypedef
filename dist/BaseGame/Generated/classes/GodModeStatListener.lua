@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class GodModeStatListener: gameScriptStatsListener
----@field public healthbar gameuiHudHealthbarGameController
+---@field healthbar gameuiHudHealthbarGameController
 GodModeStatListener = {}
 
 ---@param fields? GodModeStatListener
 ---@return GodModeStatListener
-function GodModeStatListener.new(fields) return end
+function GodModeStatListener.new(fields) end
 
 ---@param ownerID entEntityID
 ---@param newType gameGodModeType
 ---@return nil
-function GodModeStatListener:OnGodModeChanged(ownerID, newType) return end
+function GodModeStatListener:OnGodModeChanged(ownerID, newType) end

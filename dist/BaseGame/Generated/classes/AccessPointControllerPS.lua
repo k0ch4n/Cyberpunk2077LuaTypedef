@@ -1,277 +1,242 @@
 ---@meta
 
 ---@class AccessPointControllerPS: MasterControllerPS
----@field private rewardNotificationIcons String[]
----@field private rewardNotificationString String
----@field private accessPointSkillChecks HackingContainer
----@field private isBreached Bool
----@field private moneyAwarded Bool
----@field private isVirtual Bool
----@field private pingedSquads CName[]
+---@field rewardNotificationIcons String[]
+---@field rewardNotificationString String
+---@field accessPointSkillChecks HackingContainer
+---@field isBreached Bool
+---@field moneyAwarded Bool
+---@field isVirtual Bool
+---@field pingedSquads CName[]
 AccessPointControllerPS = {}
 
 ---@param fields? AccessPointControllerPS
 ---@return AccessPointControllerPS
-function AccessPointControllerPS.new(fields) return end
+function AccessPointControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function AccessPointControllerPS:OnInstantiated() return end
+function AccessPointControllerPS:OnInstantiated() end
 
----@protected
 ---@return ResetNetworkBreachState
-function AccessPointControllerPS:ActionResetNetworkBreachState() return end
+function AccessPointControllerPS:ActionResetNetworkBreachState() end
 
----@protected
 ---@return RevealEnemiesProgram
-function AccessPointControllerPS:ActionRevealEnemiesProgram() return end
+function AccessPointControllerPS:ActionRevealEnemiesProgram() end
 
----@protected
 ---@return SpiderbotEnableAccessPoint
-function AccessPointControllerPS:ActionSpiderbotEnableAccessPoint() return end
+function AccessPointControllerPS:ActionSpiderbotEnableAccessPoint() end
 
----@private
 ---@param TS gameTransactionSystem
 ---@param itemTweakID TweakDBID|string
 ---@param amount? Uint32
 ---@return nil
-function AccessPointControllerPS:AddHackReward(TS, itemTweakID, amount) return end
+function AccessPointControllerPS:AddHackReward(TS, itemTweakID, amount) end
 
----@private
 ---@param squadName CName|string
 ---@return nil
-function AccessPointControllerPS:AddPingedSquad(squadName) return end
+function AccessPointControllerPS:AddPingedSquad(squadName) end
 
----@private
 ---@param TS gameTransactionSystem
 ---@param itemQueryTDBID TweakDBID|string
 ---@param amount? Uint32
 ---@return nil
-function AccessPointControllerPS:AddReward(TS, itemQueryTDBID, amount) return end
+function AccessPointControllerPS:AddReward(TS, itemQueryTDBID, amount) end
 
 ---@return nil
-function AccessPointControllerPS:BreachConnectedDevices() return end
+function AccessPointControllerPS:BreachConnectedDevices() end
 
----@protected
 ---@return Bool
-function AccessPointControllerPS:CanCreateAnyQuickHackActions() return end
+function AccessPointControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return Bool
-function AccessPointControllerPS:CanCreateAnySpiderbotActions() return end
+function AccessPointControllerPS:CanCreateAnySpiderbotActions() end
 
 ---@return ConnectedClassTypes
-function AccessPointControllerPS:CheckConnectedClassTypes() return end
+function AccessPointControllerPS:CheckConnectedClassTypes() end
 
----@protected
 ---@param minigameProgramsCompleted Int32
 ---@return nil
-function AccessPointControllerPS:CheckMasterRunnerAchievement(minigameProgramsCompleted) return end
-
----@private
----@return nil
-function AccessPointControllerPS:CleanRewardNotification() return end
-
----@private
----@return nil
-function AccessPointControllerPS:ClearPingedSquads() return end
+function AccessPointControllerPS:CheckMasterRunnerAchievement(minigameProgramsCompleted) end
 
 ---@return nil
-function AccessPointControllerPS:DebugBreachConnectedDevices() return end
+function AccessPointControllerPS:CleanRewardNotification() end
 
----@private
+---@return nil
+function AccessPointControllerPS:ClearPingedSquads() end
+
+---@return nil
+function AccessPointControllerPS:DebugBreachConnectedDevices() end
+
 ---@return gamedeviceAction[]
-function AccessPointControllerPS:ExtractActions() return end
+function AccessPointControllerPS:ExtractActions() end
 
----@private
 ---@param programs TweakDBID[]|string[]
 ---@return nil
-function AccessPointControllerPS:FilterRedundantPrograms(programs) return end
+function AccessPointControllerPS:FilterRedundantPrograms(programs) end
 
 ---@param state gameuiHackingMinigameState
 ---@return nil
-function AccessPointControllerPS:FinalizeNetrunnerDive(state) return end
+function AccessPointControllerPS:FinalizeNetrunnerDive(state) end
 
----@protected
 ---@return nil
-function AccessPointControllerPS:GameAttached() return end
+function AccessPointControllerPS:GameAttached() end
 
----@private
 ---@param playerLevel Float
 ---@param TS gameTransactionSystem
 ---@return nil
-function AccessPointControllerPS:GenerateMaterialDrops(playerLevel, TS) return end
+function AccessPointControllerPS:GenerateMaterialDrops(playerLevel, TS) end
 
 ---@return AccessPointControllerPS
-function AccessPointControllerPS:GetBackdoorAccessPoint() return end
+function AccessPointControllerPS:GetBackdoorAccessPoint() end
 
 ---@return BackDoorDeviceBlackboardDef
-function AccessPointControllerPS:GetBlackboardDef() return end
+function AccessPointControllerPS:GetBlackboardDef() end
 
----@protected
 ---@return gamedeviceClearance
-function AccessPointControllerPS:GetClearance() return end
+function AccessPointControllerPS:GetClearance() end
 
----@private
 ---@return CommunityProxyPS[]
-function AccessPointControllerPS:GetCommunityProxies() return end
+function AccessPointControllerPS:GetCommunityProxies() end
 
 ---@return ScriptableDeviceComponentPS[]
-function AccessPointControllerPS:GetDevicesThatPlayerCanBreach() return end
+function AccessPointControllerPS:GetDevicesThatPlayerCanBreach() end
 
 ---@return TweakDBID
-function AccessPointControllerPS:GetMinigameDefinition() return end
+function AccessPointControllerPS:GetMinigameDefinition() end
 
----@protected
 ---@return NetworkAreaControllerPS
-function AccessPointControllerPS:GetNetworkArea() return end
+function AccessPointControllerPS:GetNetworkArea() end
 
 ---@return String
-function AccessPointControllerPS:GetNetworkName() return end
+function AccessPointControllerPS:GetNetworkName() end
 
 ---@return Int32
-function AccessPointControllerPS:GetNetworkSizeCount() return end
+function AccessPointControllerPS:GetNetworkSizeCount() end
 
----@private
 ---@param TS gameTransactionSystem
 ---@param hacksPool TweakDBID[]|string[]
 ---@param quality gamedataQuality
 ---@return TweakDBID[], TweakDBID[] playerHacksTweak
-function AccessPointControllerPS:GetPlayersUniqueHacks(TS, hacksPool, quality) return end
+function AccessPointControllerPS:GetPlayersUniqueHacks(TS, hacksPool, quality) end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function AccessPointControllerPS:GetQuestActionByName(actionName) return end
+function AccessPointControllerPS:GetQuestActionByName(actionName) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function AccessPointControllerPS:GetQuestActions(context) return end
+function AccessPointControllerPS:GetQuestActions(context) end
 
----@private
 ---@param playerLevel Float
 ---@param TS gameTransactionSystem
 ---@return nil
-function AccessPointControllerPS:GetQuickhackReward(playerLevel, TS) return end
+function AccessPointControllerPS:GetQuickhackReward(playerLevel, TS) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function AccessPointControllerPS:GetSkillCheckContainerForSetup() return end
+function AccessPointControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@return Bool
-function AccessPointControllerPS:HasNetworkBackdoor() return end
+function AccessPointControllerPS:HasNetworkBackdoor() end
 
 ---@param slaveToCheck gamePersistentID
 ---@return Bool
-function AccessPointControllerPS:IsAccessPointOf(slaveToCheck) return end
+function AccessPointControllerPS:IsAccessPointOf(slaveToCheck) end
 
 ---@return Bool
-function AccessPointControllerPS:IsBreached() return end
+function AccessPointControllerPS:IsBreached() end
 
 ---@return Bool
-function AccessPointControllerPS:IsConnectedToBackdoorDevice() return end
+function AccessPointControllerPS:IsConnectedToBackdoorDevice() end
 
 ---@return Bool
-function AccessPointControllerPS:IsMainframe() return end
+function AccessPointControllerPS:IsMainframe() end
 
 ---@return Bool
-function AccessPointControllerPS:IsNetworkBreached() return end
+function AccessPointControllerPS:IsNetworkBreached() end
 
----@protected
 ---@return Bool
-function AccessPointControllerPS:IsSpiderbotHackingConditionFullfilled() return end
+function AccessPointControllerPS:IsSpiderbotHackingConditionFullfilled() end
 
----@private
 ---@param squadName CName|string
 ---@return Bool
-function AccessPointControllerPS:IsSquadMarkedWithPing(squadName) return end
+function AccessPointControllerPS:IsSquadMarkedWithPing(squadName) end
 
 ---@return Bool
-function AccessPointControllerPS:IsVirtual() return end
+function AccessPointControllerPS:IsVirtual() end
 
 ---@param evt BreachAccessPointEvent
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnBreachAccessPointEvent(evt) return end
+function AccessPointControllerPS:OnBreachAccessPointEvent(evt) end
 
----@protected
 ---@param evt FillTakeOverChainBBoardEvent
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnFillTakeOverChainBBoardEvent(evt) return end
+function AccessPointControllerPS:OnFillTakeOverChainBBoardEvent(evt) end
 
 ---@param evt NPCBreachEvent
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnNPCBreachEvent(evt) return end
+function AccessPointControllerPS:OnNPCBreachEvent(evt) end
 
----@private
 ---@param evt NetworkMoneySiphoned
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnNetworkMoneySiphoned(evt) return end
+function AccessPointControllerPS:OnNetworkMoneySiphoned(evt) end
 
 ---@param evt QuestBreachAccessPoint
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnQuestBreachAccessPoint(evt) return end
+function AccessPointControllerPS:OnQuestBreachAccessPoint(evt) end
 
 ---@param evt QuestRemoveQuickHacks
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnQuestRemoveQuickHacks(evt) return end
+function AccessPointControllerPS:OnQuestRemoveQuickHacks(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnRefreshSlavesEvent(evt) return end
+function AccessPointControllerPS:OnRefreshSlavesEvent(evt) end
 
 ---@param evt ResetNetworkBreachState
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnResetNetworkBreachState(evt) return end
+function AccessPointControllerPS:OnResetNetworkBreachState(evt) end
 
 ---@param evt RevealEnemiesProgram
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnRevealEnemiesProgram(evt) return end
+function AccessPointControllerPS:OnRevealEnemiesProgram(evt) end
 
 ---@param evt SetExposeQuickHacks
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnSetExposeQuickHacks(evt) return end
+function AccessPointControllerPS:OnSetExposeQuickHacks(evt) end
 
 ---@param evt SpiderbotEnableAccessPoint
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnSpiderbotEnableAccessPoint(evt) return end
+function AccessPointControllerPS:OnSpiderbotEnableAccessPoint(evt) end
 
----@protected
 ---@param evt Validate
 ---@return EntityNotificationType
-function AccessPointControllerPS:OnValidate(evt) return end
+function AccessPointControllerPS:OnValidate(evt) end
 
----@private
 ---@return nil
-function AccessPointControllerPS:PingSquad() return end
+function AccessPointControllerPS:PingSquad() end
 
----@private
 ---@param baseMoney Float
 ---@param craftingMaterial Bool
 ---@param baseShardDropChance Float
 ---@param TS gameTransactionSystem
 ---@return nil
-function AccessPointControllerPS:ProcessLoot(baseMoney, craftingMaterial, baseShardDropChance, TS) return end
+function AccessPointControllerPS:ProcessLoot(baseMoney, craftingMaterial, baseShardDropChance, TS) end
 
----@private
 ---@param device gameDeviceComponentPS
 ---@return nil
-function AccessPointControllerPS:ProcessMinigameNetworkActions(device) return end
+function AccessPointControllerPS:ProcessMinigameNetworkActions(device) end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@return nil
-function AccessPointControllerPS:RefreshSlaves(devices) return end
+function AccessPointControllerPS:RefreshSlaves(devices) end
 
----@private
 ---@param squadName CName|string
 ---@return nil
-function AccessPointControllerPS:RemovePingedSquad(squadName) return end
+function AccessPointControllerPS:RemovePingedSquad(squadName) end
 
----@protected
 ---@param isRemote Bool
 ---@return nil
-function AccessPointControllerPS:ResolveDive(isRemote) return end
+function AccessPointControllerPS:ResolveDive(isRemote) end
 
 ---@param shouldDraw Bool
 ---@param ownerEntityPosition? Vector4
@@ -282,37 +247,31 @@ function AccessPointControllerPS:ResolveDive(isRemote) return end
 ---@param revealMaster? Bool
 ---@param ignoreRevealed? Bool
 ---@return nil
-function AccessPointControllerPS:RevealDevicesGrid(shouldDraw, ownerEntityPosition, fxDefault, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) return end
+function AccessPointControllerPS:RevealDevicesGrid(shouldDraw, ownerEntityPosition, fxDefault, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) end
 
----@private
 ---@param baseMoney Float
 ---@return nil
-function AccessPointControllerPS:RewardMoney(baseMoney) return end
+function AccessPointControllerPS:RewardMoney(baseMoney) end
 
----@private
 ---@return nil
-function AccessPointControllerPS:SendMinigameFailedToAllNPCs() return end
+function AccessPointControllerPS:SendMinigameFailedToAllNPCs() end
 
----@private
 ---@param isBreached Bool
 ---@return nil
-function AccessPointControllerPS:SetIsBreached(isBreached) return end
+function AccessPointControllerPS:SetIsBreached(isBreached) end
 
 ---@return Bool
-function AccessPointControllerPS:ShouldRevealNetworkGrid() return end
+function AccessPointControllerPS:ShouldRevealNetworkGrid() end
 
----@private
 ---@return Bool
-function AccessPointControllerPS:ShouldRewardMoney() return end
+function AccessPointControllerPS:ShouldRewardMoney() end
 
----@private
 ---@return nil
-function AccessPointControllerPS:ShowRewardNotification() return end
+function AccessPointControllerPS:ShowRewardNotification() end
 
 ---@param programID Int32
 ---@return nil
-function AccessPointControllerPS:UploadProgram(programID) return end
+function AccessPointControllerPS:UploadProgram(programID) end
 
----@private
 ---@return Bool
-function AccessPointControllerPS:WasMoneyAwarded() return end
+function AccessPointControllerPS:WasMoneyAwarded() end

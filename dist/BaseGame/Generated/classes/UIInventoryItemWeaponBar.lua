@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class UIInventoryItemWeaponBar: IScriptable
----@field public Value Float
----@field public MaxValue Float
----@field public Percentage Float
----@field public Type WeaponBarType
----@field private isValueSet Bool
+---@field Value Float
+---@field MaxValue Float
+---@field Percentage Float
+---@field Type WeaponBarType
+---@field isValueSet Bool
 UIInventoryItemWeaponBar = {}
 
 ---@param fields? UIInventoryItemWeaponBar
 ---@return UIInventoryItemWeaponBar
-function UIInventoryItemWeaponBar.new(fields) return end
+function UIInventoryItemWeaponBar.new(fields) end
 
 ---@param barType WeaponBarType
 ---@return WeaponBarTypeGroup
-function UIInventoryItemWeaponBar.GetBarTypeGroup(barType) return end
+function UIInventoryItemWeaponBar.GetBarTypeGroup(barType) end
 
 ---@param itemType gamedataItemType
 ---@param type WeaponBarType
@@ -22,7 +22,7 @@ function UIInventoryItemWeaponBar.GetBarTypeGroup(barType) return end
 ---@param maxValue Float
 ---@param withoutValue? Bool
 ---@return UIInventoryItemWeaponBar
-function UIInventoryItemWeaponBar.Make(itemType, type, value, maxValue, withoutValue) return end
+function UIInventoryItemWeaponBar.Make(itemType, type, value, maxValue, withoutValue) end
 
 ---@param itemType gamedataItemType
 ---@param type WeaponBarType
@@ -30,10 +30,10 @@ function UIInventoryItemWeaponBar.Make(itemType, type, value, maxValue, withoutV
 ---@param statsManager UIInventoryItemStatsManager
 ---@param withoutValue? Bool
 ---@return UIInventoryItemWeaponBar
-function UIInventoryItemWeaponBar.MakeCurve(itemType, type, value, statsManager, withoutValue) return end
+function UIInventoryItemWeaponBar.MakeCurve(itemType, type, value, statsManager, withoutValue) end
 
 ---@return WeaponBarTypeGroup
-function UIInventoryItemWeaponBar:GetBarTypeGroup() return end
+function UIInventoryItemWeaponBar:GetBarTypeGroup() end
 
 ---@return Bool
-function UIInventoryItemWeaponBar:IsValueSet() return end
+function UIInventoryItemWeaponBar:IsValueSet() end

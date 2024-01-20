@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class OpenMenuRequest: redEvent
----@field public menuName CName
----@field public userData IScriptable
----@field public jumpBack Bool
----@field public eventData MenuData
----@field public submenuName CName
----@field public isMainMenu Bool
----@field public internal Bool
----@field public hubMenuInstanceID Uint32
+---@field menuName CName
+---@field userData IScriptable
+---@field jumpBack Bool
+---@field eventData MenuData
+---@field submenuName CName
+---@field isMainMenu Bool
+---@field internal Bool
+---@field hubMenuInstanceID Uint32
 OpenMenuRequest = {}
 
 ---@param fields? OpenMenuRequest
 ---@return OpenMenuRequest
-function OpenMenuRequest.new(fields) return end
+function OpenMenuRequest.new(fields) end

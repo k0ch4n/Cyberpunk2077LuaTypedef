@@ -1,61 +1,52 @@
 ---@meta
 
 ---@class HotkeysWidgetController: gameuiNewPhoneRelatedHUDGameController
----@field private phoneSlot inkCompoundWidgetReference
----@field private carSlot inkCompoundWidgetReference
----@field private radioSlot inkCompoundWidgetReference
----@field private dpadHintsPanel inkCompoundWidgetReference
----@field private phone inkWidget
----@field private car inkWidget
----@field private radio inkWidget
----@field private consumables inkWidget
----@field private gadgets inkWidget
----@field private cyberware inkWidget
----@field private leeroy inkWidget
----@field private timeBank inkWidget
----@field private berserkEnabledBBId redCallbackObject
+---@field phoneSlot inkCompoundWidgetReference
+---@field carSlot inkCompoundWidgetReference
+---@field radioSlot inkCompoundWidgetReference
+---@field dpadHintsPanel inkCompoundWidgetReference
+---@field phone inkWidget
+---@field car inkWidget
+---@field radio inkWidget
+---@field consumables inkWidget
+---@field gadgets inkWidget
+---@field cyberware inkWidget
+---@field leeroy inkWidget
+---@field timeBank inkWidget
+---@field berserkEnabledBBId redCallbackObject
 HotkeysWidgetController = {}
 
 ---@param fields? HotkeysWidgetController
 ---@return HotkeysWidgetController
-function HotkeysWidgetController.new(fields) return end
+function HotkeysWidgetController.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function HotkeysWidgetController:OnBerserkActive(value) return end
+function HotkeysWidgetController:OnBerserkActive(value) end
 
----@protected
 ---@return Bool
-function HotkeysWidgetController:OnInitialize() return end
+function HotkeysWidgetController:OnInitialize() end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function HotkeysWidgetController:OnPlayerAttach(player) return end
+function HotkeysWidgetController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function HotkeysWidgetController:OnPlayerDetach(player) return end
+function HotkeysWidgetController:OnPlayerDetach(player) end
 
----@private
 ---@param isBerserkActive Bool
 ---@return nil
-function HotkeysWidgetController:HandleBerserkActive(isBerserkActive) return end
+function HotkeysWidgetController:HandleBerserkActive(isBerserkActive) end
 
----@protected
 ---@return Bool
-function HotkeysWidgetController:IsDerivedHUDVisible() return end
+function HotkeysWidgetController:IsDerivedHUDVisible() end
 
----@private
 ---@return nil
-function HotkeysWidgetController:RegisterBlackboardListeners() return end
+function HotkeysWidgetController:RegisterBlackboardListeners() end
 
----@private
 ---@return nil
-function HotkeysWidgetController:SendBlackboardHotkeyUpdates() return end
+function HotkeysWidgetController:SendBlackboardHotkeyUpdates() end
 
----@private
 ---@return nil
-function HotkeysWidgetController:UnregisterBlackboardListeners() return end
+function HotkeysWidgetController:UnregisterBlackboardListeners() end

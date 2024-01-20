@@ -1,474 +1,402 @@
 ---@meta
 
 ---@class ReactionManagerComponent: gameScriptableComponent
----@field private activeReaction AIReactionData
----@field private desiredReaction AIReactionData
----@field private stimuliCache StimEventTaskData[]
----@field private reactionCache AIReactionData[]
----@field private reactionPreset gamedataReactionPreset_Record
----@field private puppetReactionBlackboard gameIBlackboard
----@field private receivedStimType gamedataStimType
----@field private receivedStimPropagation gamedataStimPropagation
----@field private inCrowd Bool
----@field private inTrafficLane Bool
----@field private desiredFearPhase Int32
----@field private previousFearPhase Int32
----@field private NPCRadius Float
----@field private bumpTriggerDistanceBufferMounted Float
----@field private bumpTriggerDistanceBufferCrouched Float
----@field private delayReactionEventID gameDelayID
----@field private delay Vector2
----@field private delayDetectionEventID gameDelayID
----@field private delayStimEventID gameDelayID
----@field private resetReactionDataID gameDelayID
----@field private callingPoliceID gameDelayID
----@field private lookatEvent entLookAtAddEvent
----@field private ignoreList entEntityID[]
----@field private investigationList StimEventData[]
----@field private pendingReaction AIReactionData
----@field private ovefloodCooldown Float
----@field private stanceState gamedataNPCStanceState
----@field private highLevelState gamedataNPCHighLevelState
----@field private aiRole EAIRole
----@field private pendingBehaviorCb redCallbackObject
----@field private inPendingBehavior Bool
----@field private cacheSecuritySysOutput SecuritySystemOutput
----@field private environmentalHazards senseStimuliEvent[]
----@field private environmentalHazardsDelayIDs gameDelayID[]
----@field private stolenVehicle vehicleBaseObject
----@field private isAlertedByDeadBody Bool
----@field private isInCrosswalk Bool
----@field private beignHijacked Bool
----@field private owner_id entEntityID
----@field private presetName CName
----@field private updateByActive Bool
----@field private personalities gamedataStatType[]
----@field private workspotReactionPlayed Bool
----@field private inReactionSequence Bool
----@field private playerProximity Bool
----@field private fearToIdleDistance Vector2
----@field private exitWorkspotAim Vector2
----@field private bumpedRecently Int32
----@field private bumpTimestamp Float
----@field private crowdAimingReactionDistance Float
----@field private fearInPlaceAroundDistance Float
----@field private lookatRepeat Bool
----@field private disturbingComfortZoneInProgress Bool
----@field private entereProximityRecently Int32
----@field private comfortZoneTimestamp Float
----@field private disturbComfortZoneEventId gameDelayID
----@field private checkComfortZoneEventId gameDelayID
----@field private spreadingFearEventId gameDelayID
----@field private proximityLookatEventId gameDelayID
----@field private resetFacialEventId gameDelayID
----@field private exitWorkspotSequenceEventId gameDelayID
----@field private exitFearInVehicleEventId gameDelayID
----@field private fastWalk Bool
----@field private createThreshold Bool
----@field private initialized Bool
----@field private initCrowd Bool
----@field private facialCooldown Float
----@field private disturbComfortZoneAggressiveEventId gameDelayID
----@field private backOffInProgress Bool
----@field private backOffTimestamp Float
----@field private crowdFearStage gameFearStage
----@field private fearLocomotionWrapper Bool
----@field private successfulFearDeescalation Float
----@field private willingToCallPolice Bool
----@field private deadBodyInvestigators entEntityID[]
----@field private deadBodyStartingPosition Vector4
----@field private currentStimThresholdValue Int32
----@field private timeStampThreshold Float
----@field private currentStealthStimThresholdValue Int32
----@field private stealthTimeStampThreshold Float
----@field private driverAllowedToGetAggressive Bool
----@field private driverIsAggressive Bool
----@field private logSource EReactLogSource
----@field private gracePeriodDuration Float
----@field private recentAlertObject gameObject
----@field private recentAlertTimeStamp Float
+---@field activeReaction AIReactionData
+---@field desiredReaction AIReactionData
+---@field stimuliCache StimEventTaskData[]
+---@field reactionCache AIReactionData[]
+---@field reactionPreset gamedataReactionPreset_Record
+---@field puppetReactionBlackboard gameIBlackboard
+---@field receivedStimType gamedataStimType
+---@field receivedStimPropagation gamedataStimPropagation
+---@field inCrowd Bool
+---@field inTrafficLane Bool
+---@field desiredFearPhase Int32
+---@field previousFearPhase Int32
+---@field NPCRadius Float
+---@field bumpTriggerDistanceBufferMounted Float
+---@field bumpTriggerDistanceBufferCrouched Float
+---@field delayReactionEventID gameDelayID
+---@field delay Vector2
+---@field delayDetectionEventID gameDelayID
+---@field delayStimEventID gameDelayID
+---@field resetReactionDataID gameDelayID
+---@field callingPoliceID gameDelayID
+---@field lookatEvent entLookAtAddEvent
+---@field ignoreList entEntityID[]
+---@field investigationList StimEventData[]
+---@field pendingReaction AIReactionData
+---@field ovefloodCooldown Float
+---@field stanceState gamedataNPCStanceState
+---@field highLevelState gamedataNPCHighLevelState
+---@field aiRole EAIRole
+---@field pendingBehaviorCb redCallbackObject
+---@field inPendingBehavior Bool
+---@field cacheSecuritySysOutput SecuritySystemOutput
+---@field environmentalHazards senseStimuliEvent[]
+---@field environmentalHazardsDelayIDs gameDelayID[]
+---@field stolenVehicle vehicleBaseObject
+---@field isAlertedByDeadBody Bool
+---@field isInCrosswalk Bool
+---@field beignHijacked Bool
+---@field owner_id entEntityID
+---@field presetName CName
+---@field updateByActive Bool
+---@field personalities gamedataStatType[]
+---@field workspotReactionPlayed Bool
+---@field inReactionSequence Bool
+---@field playerProximity Bool
+---@field fearToIdleDistance Vector2
+---@field exitWorkspotAim Vector2
+---@field bumpedRecently Int32
+---@field bumpTimestamp Float
+---@field crowdAimingReactionDistance Float
+---@field fearInPlaceAroundDistance Float
+---@field lookatRepeat Bool
+---@field disturbingComfortZoneInProgress Bool
+---@field entereProximityRecently Int32
+---@field comfortZoneTimestamp Float
+---@field disturbComfortZoneEventId gameDelayID
+---@field checkComfortZoneEventId gameDelayID
+---@field spreadingFearEventId gameDelayID
+---@field proximityLookatEventId gameDelayID
+---@field resetFacialEventId gameDelayID
+---@field exitWorkspotSequenceEventId gameDelayID
+---@field exitFearInVehicleEventId gameDelayID
+---@field fastWalk Bool
+---@field createThreshold Bool
+---@field initialized Bool
+---@field initCrowd Bool
+---@field facialCooldown Float
+---@field disturbComfortZoneAggressiveEventId gameDelayID
+---@field backOffInProgress Bool
+---@field backOffTimestamp Float
+---@field crowdFearStage gameFearStage
+---@field fearLocomotionWrapper Bool
+---@field successfulFearDeescalation Float
+---@field willingToCallPolice Bool
+---@field deadBodyInvestigators entEntityID[]
+---@field deadBodyStartingPosition Vector4
+---@field currentStimThresholdValue Int32
+---@field timeStampThreshold Float
+---@field currentStealthStimThresholdValue Int32
+---@field stealthTimeStampThreshold Float
+---@field driverAllowedToGetAggressive Bool
+---@field driverIsAggressive Bool
+---@field logSource EReactLogSource
+---@field gracePeriodDuration Float
+---@field recentAlertObject gameObject
+---@field recentAlertTimeStamp Float
 ReactionManagerComponent = {}
 
 ---@param fields? ReactionManagerComponent
 ---@return ReactionManagerComponent
-function ReactionManagerComponent.new(fields) return end
+function ReactionManagerComponent.new(fields) end
 
 ---@param owner ScriptedPuppet
 ---@return nil
-function ReactionManagerComponent.BodyInvestigated(owner) return end
+function ReactionManagerComponent.BodyInvestigated(owner) end
 
----@private
 ---@param shooter gameObject
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent.InGunshotCone(shooter, target) return end
+function ReactionManagerComponent.InGunshotCone(shooter, target) end
 
----@private
 ---@param source gameObject
 ---@param target gameObject
 ---@param frontAngle? Float
 ---@param checkFullAngle? Bool
 ---@return Bool
-function ReactionManagerComponent.IsTargetInFrontOfSource(source, target, frontAngle, checkFullAngle) return end
+function ReactionManagerComponent.IsTargetInFrontOfSource(source, target, frontAngle, checkFullAngle) end
 
 ---@param owner gameObject
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent.ReactOnPlayerStealthStim(owner, target) return end
+function ReactionManagerComponent.ReactOnPlayerStealthStim(owner, target) end
 
 ---@param owner gameObject
 ---@param voEvent CName|string
 ---@param setOwnerAsAnsweringEntity? Bool
 ---@param onlyForMembersInCombat? Bool
 ---@return nil
-function ReactionManagerComponent.SendVOEventToSquad(owner, voEvent, setOwnerAsAnsweringEntity, onlyForMembersInCombat) return end
+function ReactionManagerComponent.SendVOEventToSquad(owner, voEvent, setOwnerAsAnsweringEntity, onlyForMembersInCombat) end
 
----@protected
 ---@param aiEvent AIAIEvent
 ---@return Bool
-function ReactionManagerComponent:OnAIEvent(aiEvent) return end
+function ReactionManagerComponent:OnAIEvent(aiEvent) end
 
----@protected
 ---@param evt AddInvestigatorEvent
 ---@return Bool
-function ReactionManagerComponent:OnAddInvestigatedBodyEvent(evt) return end
+function ReactionManagerComponent:OnAddInvestigatedBodyEvent(evt) end
 
----@protected
 ---@param trigger entAreaEnteredEvent
 ---@return Bool
-function ReactionManagerComponent:OnAreaEnter(trigger) return end
+function ReactionManagerComponent:OnAreaEnter(trigger) end
 
----@protected
 ---@param trigger entAreaExitedEvent
 ---@return Bool
-function ReactionManagerComponent:OnAreaExit(trigger) return end
+function ReactionManagerComponent:OnAreaExit(trigger) end
 
----@protected
 ---@param evt gameeventsAttitudeGroupChangedEvent
 ---@return Bool
-function ReactionManagerComponent:OnAttitudeGroupChanged(evt) return end
+function ReactionManagerComponent:OnAttitudeGroupChanged(evt) end
 
----@protected
 ---@param evt BodyInvestigatedEvent
 ---@return Bool
-function ReactionManagerComponent:OnBodyInvestigated(evt) return end
+function ReactionManagerComponent:OnBodyInvestigated(evt) end
 
----@protected
 ---@param evt SetBodyPositionEvent
 ---@return Bool
-function ReactionManagerComponent:OnBodyPickedUp(evt) return end
+function ReactionManagerComponent:OnBodyPickedUp(evt) end
 
----@protected
 ---@param evt gameinteractionsBumpEvent
 ---@return Bool
-function ReactionManagerComponent:OnBumpEvent(evt) return end
+function ReactionManagerComponent:OnBumpEvent(evt) end
 
----@protected
 ---@param evt CheckComfortZoneEvent
 ---@return Bool
-function ReactionManagerComponent:OnCheckComfortZoneEvent(evt) return end
+function ReactionManagerComponent:OnCheckComfortZoneEvent(evt) end
 
----@protected
 ---@param cleanEnvironmentalHazardEvent CleanEnvironmentalHazardEvent
 ---@return Bool
-function ReactionManagerComponent:OnCleanEnvironmentalHazardEvent(cleanEnvironmentalHazardEvent) return end
+function ReactionManagerComponent:OnCleanEnvironmentalHazardEvent(cleanEnvironmentalHazardEvent) end
 
----@protected
 ---@param evt ClearFearOnHitEvent
 ---@return Bool
-function ReactionManagerComponent:OnClearFearOnHitEvent(evt) return end
+function ReactionManagerComponent:OnClearFearOnHitEvent(evt) end
 
----@protected
 ---@param evt gameinteractionsCrosswalkEvent
 ---@return Bool
-function ReactionManagerComponent:OnCrosswalkEvent(evt) return end
+function ReactionManagerComponent:OnCrosswalkEvent(evt) end
 
----@protected
 ---@param evt CrowdCallingPoliceEvent
 ---@return Bool
-function ReactionManagerComponent:OnCrowdCallingPoliceEvent(evt) return end
+function ReactionManagerComponent:OnCrowdCallingPoliceEvent(evt) end
 
----@protected
 ---@param reactionDelayEvent DelayedCrowdReactionEvent
 ---@return Bool
-function ReactionManagerComponent:OnCrowdReaction(reactionDelayEvent) return end
+function ReactionManagerComponent:OnCrowdReaction(reactionDelayEvent) end
 
----@protected
 ---@param evt CrowdSettingsEvent
 ---@return Bool
-function ReactionManagerComponent:OnCrowdSettingsEvent(evt) return end
+function ReactionManagerComponent:OnCrowdSettingsEvent(evt) end
 
----@protected
 ---@param evt DeescalateFearInVehicle
 ---@return Bool
-function ReactionManagerComponent:OnDeescalateFearInVehicle(evt) return end
+function ReactionManagerComponent:OnDeescalateFearInVehicle(evt) end
 
----@protected
 ---@param evt DelayStimEvent
 ---@return Bool
-function ReactionManagerComponent:OnDelayStimEvent(evt) return end
+function ReactionManagerComponent:OnDelayStimEvent(evt) end
 
----@protected
 ---@param evt senseOnDetectedEvent
 ---@return Bool
-function ReactionManagerComponent:OnDetectedEvent(evt) return end
+function ReactionManagerComponent:OnDetectedEvent(evt) end
 
----@protected
 ---@param evt DisableUndeadAnimFeatureEvent
 ---@return Bool
-function ReactionManagerComponent:OnDisableUndeadAnimFeatureEvent(evt) return end
+function ReactionManagerComponent:OnDisableUndeadAnimFeatureEvent(evt) end
 
----@protected
 ---@param evt DistrurbComfortZoneAggressiveEvent
 ---@return Bool
-function ReactionManagerComponent:OnDistrurbComfortZoneAggressiveEvent(evt) return end
+function ReactionManagerComponent:OnDistrurbComfortZoneAggressiveEvent(evt) end
 
----@protected
 ---@param evt DisturbingComfortZone
 ---@return Bool
-function ReactionManagerComponent:OnDisturbingComfortZoneEvent(evt) return end
+function ReactionManagerComponent:OnDisturbingComfortZoneEvent(evt) end
 
----@protected
 ---@param evt EndLookatEvent
 ---@return Bool
-function ReactionManagerComponent:OnEndLookatEvent(evt) return end
+function ReactionManagerComponent:OnEndLookatEvent(evt) end
 
----@protected
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:OnEventReceived(stimEvent) return end
+function ReactionManagerComponent:OnEventReceived(stimEvent) end
 
----@protected
 ---@param evt ExitWorkspotSequenceEvent
 ---@return Bool
-function ReactionManagerComponent:OnExitWorkspotSequenceEvent(evt) return end
+function ReactionManagerComponent:OnExitWorkspotSequenceEvent(evt) end
 
----@protected
 ---@param evt moveExplorationEnteredEvent
 ---@return Bool
-function ReactionManagerComponent:OnExplorationEnteredEvent(evt) return end
+function ReactionManagerComponent:OnExplorationEnteredEvent(evt) end
 
----@protected
 ---@param evt moveExplorationLeftEvent
 ---@return Bool
-function ReactionManagerComponent:OnExplorationLeftEvent(evt) return end
+function ReactionManagerComponent:OnExplorationLeftEvent(evt) end
 
----@protected
 ---@param evt gameeventsHighLevelStateDataEvent
 ---@return Bool
-function ReactionManagerComponent:OnHighLevelStateDataEvent(evt) return end
+function ReactionManagerComponent:OnHighLevelStateDataEvent(evt) end
 
----@protected
 ---@param evt IgnoreListEvent
 ---@return Bool
-function ReactionManagerComponent:OnIgnoreListEvent(evt) return end
+function ReactionManagerComponent:OnIgnoreListEvent(evt) end
 
----@protected
 ---@param evt gameInCrowd
 ---@return Bool
-function ReactionManagerComponent:OnInCrowd(evt) return end
+function ReactionManagerComponent:OnInCrowd(evt) end
 
----@protected
 ---@param evt IncapacitatedEvent
 ---@return Bool
-function ReactionManagerComponent:OnIncapacitatedEvent(evt) return end
+function ReactionManagerComponent:OnIncapacitatedEvent(evt) end
 
----@protected
 ---@param evt LookedAtEvent
 ---@return Bool
-function ReactionManagerComponent:OnLookedAtEvent(evt) return end
+function ReactionManagerComponent:OnLookedAtEvent(evt) end
 
----@protected
 ---@param evt NPCRoleChangeEvent
 ---@return Bool
-function ReactionManagerComponent:OnNPCRoleChangeEvent(evt) return end
+function ReactionManagerComponent:OnNPCRoleChangeEvent(evt) end
 
----@protected
 ---@param evt gameOutOfCrowd
 ---@return Bool
-function ReactionManagerComponent:OnOutOfCrowd(evt) return end
+function ReactionManagerComponent:OnOutOfCrowd(evt) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function ReactionManagerComponent:OnPendingBehaviorChanged(value) return end
+function ReactionManagerComponent:OnPendingBehaviorChanged(value) end
 
----@protected
 ---@param evt PlayerMuntedToMyVehicle
 ---@return Bool
-function ReactionManagerComponent:OnPlayerMuntedToMyVehicle(evt) return end
+function ReactionManagerComponent:OnPlayerMuntedToMyVehicle(evt) end
 
----@protected
 ---@param evt worldPlayerProximityStartEvent
 ---@return Bool
-function ReactionManagerComponent:OnPlayerProximityStartEvent(evt) return end
+function ReactionManagerComponent:OnPlayerProximityStartEvent(evt) end
 
----@protected
 ---@param evt worldPlayerProximityStopEvent
 ---@return Bool
-function ReactionManagerComponent:OnPlayerProximityStopEvent(evt) return end
+function ReactionManagerComponent:OnPlayerProximityStopEvent(evt) end
 
----@protected
 ---@param evt ProximityLookatEvent
 ---@return Bool
-function ReactionManagerComponent:OnProximityLookatEvent(evt) return end
+function ReactionManagerComponent:OnProximityLookatEvent(evt) end
 
----@protected
 ---@param evt entRagdollNotifyEnabledEvent
 ---@return Bool
-function ReactionManagerComponent:OnRagdollEnabledEvent(evt) return end
+function ReactionManagerComponent:OnRagdollEnabledEvent(evt) end
 
----@protected
 ---@param evt worldRainEvent
 ---@return Bool
-function ReactionManagerComponent:OnRainEvent(evt) return end
+function ReactionManagerComponent:OnRainEvent(evt) end
 
----@protected
 ---@param evt ReactionBehaviorStatus
 ---@return Bool
-function ReactionManagerComponent:OnReactionBehaviorStatus(evt) return end
+function ReactionManagerComponent:OnReactionBehaviorStatus(evt) end
 
----@protected
 ---@param evt gameeventsReactionChangeRequestEvent
 ---@return Bool
-function ReactionManagerComponent:OnReactionChangeRequestEvent(evt) return end
+function ReactionManagerComponent:OnReactionChangeRequestEvent(evt) end
 
----@protected
 ---@param evt workReactionFinishedEvent
 ---@return Bool
-function ReactionManagerComponent:OnReactionFinishedEvent(evt) return end
+function ReactionManagerComponent:OnReactionFinishedEvent(evt) end
 
----@protected
 ---@param evt ReevaluatePresetEvent
 ---@return Bool
-function ReactionManagerComponent:OnReevaluatePresetEvent(evt) return end
+function ReactionManagerComponent:OnReevaluatePresetEvent(evt) end
 
----@protected
 ---@param evt RepeatLookatEvent
 ---@return Bool
-function ReactionManagerComponent:OnRepeatLookatEvent(evt) return end
+function ReactionManagerComponent:OnRepeatLookatEvent(evt) end
 
----@protected
 ---@param evt ReprimandEscalationEvent
 ---@return Bool
-function ReactionManagerComponent:OnReprimandEscalationEvent(evt) return end
+function ReactionManagerComponent:OnReprimandEscalationEvent(evt) end
 
----@protected
 ---@param evt ReprimandUpdate
 ---@return Bool
-function ReactionManagerComponent:OnReprimandUpdate(evt) return end
+function ReactionManagerComponent:OnReprimandUpdate(evt) end
 
----@protected
 ---@param evt ResetFacialEvent
 ---@return Bool
-function ReactionManagerComponent:OnResetFacialEvent(evt) return end
+function ReactionManagerComponent:OnResetFacialEvent(evt) end
 
----@protected
 ---@param evt ResetLookatReactionEvent
 ---@return Bool
-function ReactionManagerComponent:OnResetLookatReactionEvent(evt) return end
+function ReactionManagerComponent:OnResetLookatReactionEvent(evt) end
 
----@protected
 ---@param evt ResetReactionEvent
 ---@return Bool
-function ReactionManagerComponent:OnResetReactionEvent(evt) return end
+function ReactionManagerComponent:OnResetReactionEvent(evt) end
 
----@protected
 ---@param evt ResetVehicleHijackEvent
 ---@return Bool
-function ReactionManagerComponent:OnResetVehicleHijackEvent(evt) return end
+function ReactionManagerComponent:OnResetVehicleHijackEvent(evt) end
 
----@protected
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return Bool
-function ReactionManagerComponent:OnSecurityAreaCrossingPerimeter(evt) return end
+function ReactionManagerComponent:OnSecurityAreaCrossingPerimeter(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return Bool
-function ReactionManagerComponent:OnSecuritySystemOutput(evt) return end
+function ReactionManagerComponent:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt senseVisibilityEvent
 ---@return Bool
-function ReactionManagerComponent:OnSenseVisibilityEvent(evt) return end
+function ReactionManagerComponent:OnSenseVisibilityEvent(evt) end
 
----@protected
 ---@param evt gameeventsStanceStateChangeEvent
 ---@return Bool
-function ReactionManagerComponent:OnStanceLevelChanged(evt) return end
+function ReactionManagerComponent:OnStanceLevelChanged(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function ReactionManagerComponent:OnStatusEffectApplied(evt) return end
+function ReactionManagerComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function ReactionManagerComponent:OnStatusEffectRemoved(evt) return end
+function ReactionManagerComponent:OnStatusEffectRemoved(evt) end
 
----@protected
 ---@param thresholdEvent StealthStimThresholdEvent
 ---@return Bool
-function ReactionManagerComponent:OnStealthStimThresholdEvent(thresholdEvent) return end
+function ReactionManagerComponent:OnStealthStimThresholdEvent(thresholdEvent) end
 
----@protected
 ---@param thresholdEvent StimThresholdEvent
 ---@return Bool
-function ReactionManagerComponent:OnStimThresholdEvent(thresholdEvent) return end
+function ReactionManagerComponent:OnStimThresholdEvent(thresholdEvent) end
 
----@protected
 ---@param evt AIbehaviorSuspiciousObjectEvent
 ---@return Bool
-function ReactionManagerComponent:OnSuspiciousObjectEvent(evt) return end
+function ReactionManagerComponent:OnSuspiciousObjectEvent(evt) end
 
----@protected
 ---@param evt SwapPresetEvent
 ---@return Bool
-function ReactionManagerComponent:OnSwapPreset(evt) return end
+function ReactionManagerComponent:OnSwapPreset(evt) end
 
----@protected
 ---@param evt AIPuppetSwappedEvent
 ---@return Bool
-function ReactionManagerComponent:OnSwapped(evt) return end
+function ReactionManagerComponent:OnSwapped(evt) end
 
----@protected
 ---@param evt AIPuppetTeleportedEvent
 ---@return Bool
-function ReactionManagerComponent:OnTeleported(evt) return end
+function ReactionManagerComponent:OnTeleported(evt) end
 
----@protected
 ---@param evt TerminateReactionLookatEvent
 ---@return Bool
-function ReactionManagerComponent:OnTerminateReactionLookatEvent(evt) return end
+function ReactionManagerComponent:OnTerminateReactionLookatEvent(evt) end
 
----@protected
 ---@param evt TriggerDelayedReactionEvent
 ---@return Bool
-function ReactionManagerComponent:OnTriggerDelayedReactionEvent(evt) return end
+function ReactionManagerComponent:OnTriggerDelayedReactionEvent(evt) end
 
----@protected
 ---@param evt VehicleHijackEvent
 ---@return Bool
-function ReactionManagerComponent:OnVehicleHijackEvent(evt) return end
+function ReactionManagerComponent:OnVehicleHijackEvent(evt) end
 
----@protected
 ---@param evt gameeventsVehicleHitEvent
 ---@return Bool
-function ReactionManagerComponent:OnVehicleHit(evt) return end
+function ReactionManagerComponent:OnVehicleHit(evt) end
 
----@protected
 ---@param evt workWorkspotFinishedEvent
 ---@return Bool
-function ReactionManagerComponent:OnWorkspotFinishedEvent(evt) return end
+function ReactionManagerComponent:OnWorkspotFinishedEvent(evt) end
 
----@protected
 ---@param evt workWorkspotStartedEvent
 ---@return Bool
-function ReactionManagerComponent:OnWorkspotStartedEvent(evt) return end
+function ReactionManagerComponent:OnWorkspotStartedEvent(evt) end
 
----@private
 ---@param targetEntity entEntity
 ---@param end_? Bool
 ---@param repeat_? Bool
@@ -476,810 +404,678 @@ function ReactionManagerComponent:OnWorkspotStartedEvent(evt) return end
 ---@param upperBody? Bool
 ---@param inVehicle? Bool
 ---@return Bool
-function ReactionManagerComponent:ActivateReactionLookAt(targetEntity, end_, repeat_, duration, upperBody, inVehicle) return end
+function ReactionManagerComponent:ActivateReactionLookAt(targetEntity, end_, repeat_, duration, upperBody, inVehicle) end
 
----@private
 ---@param targetEntity entEntity
 ---@return Bool
-function ReactionManagerComponent:ActivateUndeadLookAt(targetEntity) return end
+function ReactionManagerComponent:ActivateUndeadLookAt(targetEntity) end
 
----@private
 ---@param bodyID entEntityID
 ---@return nil
-function ReactionManagerComponent:AddInvestigatedBody(bodyID) return end
+function ReactionManagerComponent:AddInvestigatedBody(bodyID) end
 
----@private
 ---@param reactionData AIReactionData
 ---@return nil
-function ReactionManagerComponent:AddReactionValueToStatPool(reactionData) return end
+function ReactionManagerComponent:AddReactionValueToStatPool(reactionData) end
 
----@private
 ---@param stimData StimEventTaskData
 ---@return nil
-function ReactionManagerComponent:CacheEvent(stimData) return end
+function ReactionManagerComponent:CacheEvent(stimData) end
 
----@private
 ---@param reactionData AIReactionData
 ---@return nil
-function ReactionManagerComponent:CacheReaction(reactionData) return end
+function ReactionManagerComponent:CacheReaction(reactionData) end
 
----@private
 ---@param totalDistance Float
 ---@param distanceLeft Float
 ---@param minDistance Float
 ---@param maxDelay Float
 ---@return Float
-function ReactionManagerComponent:CalculateMoveTypeChangeDelay(totalDistance, distanceLeft, minDistance, maxDelay) return end
+function ReactionManagerComponent:CalculateMoveTypeChangeDelay(totalDistance, distanceLeft, minDistance, maxDelay) end
 
 ---@return Bool
-function ReactionManagerComponent:CanAskToHolsterWeapon() return end
+function ReactionManagerComponent:CanAskToHolsterWeapon() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:CanReactInVehicle(stimEvent) return end
+function ReactionManagerComponent:CanReactInVehicle(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param canIgnorePlayerCombatStim Bool
 ---@return Bool
-function ReactionManagerComponent:CanStimInterruptCombat(stimEvent, canIgnorePlayerCombatStim) return end
+function ReactionManagerComponent:CanStimInterruptCombat(stimEvent, canIgnorePlayerCombatStim) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:CanTriggerAlertedFromHostileStim(stimEvent) return end
+function ReactionManagerComponent:CanTriggerAlertedFromHostileStim(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param reactionData AIReactionData
 ---@return Bool
-function ReactionManagerComponent:CanTriggerCombatFromHostileStim(stimEvent, reactionData) return end
+function ReactionManagerComponent:CanTriggerCombatFromHostileStim(stimEvent, reactionData) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:CanTriggerExpressionLookAt() return end
+function ReactionManagerComponent:CanTriggerExpressionLookAt() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:CanTriggerPanicInCombat(stimEvent) return end
+function ReactionManagerComponent:CanTriggerPanicInCombat(stimEvent) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:CanTriggerReprimandOrder() return end
+function ReactionManagerComponent:CanTriggerReprimandOrder() end
 
----@private
 ---@return nil
-function ReactionManagerComponent:CheckComfortZone() return end
+function ReactionManagerComponent:CheckComfortZone() end
 
----@private
 ---@return nil
-function ReactionManagerComponent:CheckCrowd() return end
+function ReactionManagerComponent:CheckCrowd() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:CheckHearingDistance(stimEvent) return end
+function ReactionManagerComponent:CheckHearingDistance(stimEvent) end
 
----@private
 ---@param target gameObject
 ---@param timeout Float
 ---@return nil
-function ReactionManagerComponent:CheckStalk(target, timeout) return end
+function ReactionManagerComponent:CheckStalk(target, timeout) end
 
 ---@return nil
-function ReactionManagerComponent:ClearPendingReaction() return end
+function ReactionManagerComponent:ClearPendingReaction() end
 
----@private
 ---@param player PlayerPuppet
 ---@return Bool
-function ReactionManagerComponent:CombatGracePeriodPassed(player) return end
+function ReactionManagerComponent:CombatGracePeriodPassed(player) end
 
----@private
 ---@param fearStage gameFearStage
 ---@return Int32
-function ReactionManagerComponent:ConvertFearStageToFearPhase(fearStage) return end
+function ReactionManagerComponent:ConvertFearStageToFearPhase(fearStage) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param fearPhase Int32
 ---@return nil
-function ReactionManagerComponent:CreateFearArea(stimEvent, fearPhase) return end
+function ReactionManagerComponent:CreateFearArea(stimEvent, fearPhase) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:CreateFearThreashold() return end
+function ReactionManagerComponent:CreateFearThreashold() end
 
----@private
 ---@param repeat_? Bool
 ---@return Bool
-function ReactionManagerComponent:DeactiveLookAt(repeat_) return end
+function ReactionManagerComponent:DeactiveLookAt(repeat_) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:DeescalateReprimand() return end
+function ReactionManagerComponent:DeescalateReprimand() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return gameDelayID
-function ReactionManagerComponent:DelayEnvironmentalHazardEvent(stimEvent) return end
+function ReactionManagerComponent:DelayEnvironmentalHazardEvent(stimEvent) end
 
----@private
 ---@param stimType gamedataStimType
 ---@return Bool
-function ReactionManagerComponent:DelayReaction(stimType) return end
+function ReactionManagerComponent:DelayReaction(stimType) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent:DidTargetMakeMeAlerted(target) return end
+function ReactionManagerComponent:DidTargetMakeMeAlerted(target) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return StimEventData
-function ReactionManagerComponent:FillStimData(stimEvent) return end
+function ReactionManagerComponent:FillStimData(stimEvent) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:FirstSquadMemberReaction() return end
+function ReactionManagerComponent:FirstSquadMemberReaction() end
 
 ---@return AIReactionData
-function ReactionManagerComponent:GetActiveOrDesiredReactionData() return end
+function ReactionManagerComponent:GetActiveOrDesiredReactionData() end
 
 ---@return AIReactionData
-function ReactionManagerComponent:GetActiveReactionData() return end
+function ReactionManagerComponent:GetActiveReactionData() end
 
----@private
 ---@return gamedataStimPriority
-function ReactionManagerComponent:GetActiveStimPriority() return end
+function ReactionManagerComponent:GetActiveStimPriority() end
 
----@private
 ---@return Vector4
-function ReactionManagerComponent:GetActiveStimSource() return end
+function ReactionManagerComponent:GetActiveStimSource() end
 
----@private
 ---@return gameObject
-function ReactionManagerComponent:GetActiveStimTarget() return end
+function ReactionManagerComponent:GetActiveStimTarget() end
 
----@private
 ---@param source gameObject
 ---@param attacker? entEntity
 ---@return gameObject
-function ReactionManagerComponent:GetCombatTarget(source, attacker) return end
+function ReactionManagerComponent:GetCombatTarget(source, attacker) end
 
 ---@return Int32
-function ReactionManagerComponent:GetCurrentStealthStimThresholdValue() return end
+function ReactionManagerComponent:GetCurrentStealthStimThresholdValue() end
 
 ---@return Float
-function ReactionManagerComponent:GetCurrentStealthStimTimeStamp() return end
+function ReactionManagerComponent:GetCurrentStealthStimTimeStamp() end
 
 ---@return Int32
-function ReactionManagerComponent:GetCurrentStimThresholdValue() return end
+function ReactionManagerComponent:GetCurrentStimThresholdValue() end
 
 ---@return Float
-function ReactionManagerComponent:GetCurrentStimTimeStamp() return end
+function ReactionManagerComponent:GetCurrentStimTimeStamp() end
 
 ---@return AIReactionData
-function ReactionManagerComponent:GetDesiredReactionData() return end
+function ReactionManagerComponent:GetDesiredReactionData() end
 
 ---@return gamedataOutput
-function ReactionManagerComponent:GetDesiredReactionName() return end
+function ReactionManagerComponent:GetDesiredReactionName() end
 
 ---@return senseStimuliEvent[]
-function ReactionManagerComponent:GetEnvironmentalHazards() return end
+function ReactionManagerComponent:GetEnvironmentalHazards() end
 
----@private
 ---@param fearPhase Int32
 ---@return CName
-function ReactionManagerComponent:GetFearAnimWrapper(fearPhase) return end
+function ReactionManagerComponent:GetFearAnimWrapper(fearPhase) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Int32
-function ReactionManagerComponent:GetFearReactionPhase(stimEvent) return end
+function ReactionManagerComponent:GetFearReactionPhase(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return gameObject
-function ReactionManagerComponent:GetGrenadeInstigator(stimEvent) return end
+function ReactionManagerComponent:GetGrenadeInstigator(stimEvent) end
 
 ---@return entEntityID[]
-function ReactionManagerComponent:GetIgnoreList() return end
+function ReactionManagerComponent:GetIgnoreList() end
 
 ---@return Bool
-function ReactionManagerComponent:GetInPendingBehavior() return end
+function ReactionManagerComponent:GetInPendingBehavior() end
 
----@private
 ---@param output gamedataOutput
 ---@return Float
-function ReactionManagerComponent:GetOutputPriority(output) return end
+function ReactionManagerComponent:GetOutputPriority(output) end
 
----@private
 ---@return ScriptedPuppet
-function ReactionManagerComponent:GetOwnerPuppet() return end
+function ReactionManagerComponent:GetOwnerPuppet() end
 
 ---@return gamedataOutput
-function ReactionManagerComponent:GetPendingReactionName() return end
+function ReactionManagerComponent:GetPendingReactionName() end
 
 ---@return Int32
-function ReactionManagerComponent:GetPreviousFearPhase() return end
+function ReactionManagerComponent:GetPreviousFearPhase() end
 
 ---@return gameIBlackboard
-function ReactionManagerComponent:GetPuppetReactionBlackboard() return end
+function ReactionManagerComponent:GetPuppetReactionBlackboard() end
 
 ---@param fearPhase Int32
 ---@param stimType? gamedataStimType
 ---@return CName
-function ReactionManagerComponent:GetRandomFearLocomotionAnimWrapper(fearPhase, stimType) return end
+function ReactionManagerComponent:GetRandomFearLocomotionAnimWrapper(fearPhase, stimType) end
 
 ---@return gamedataOutput
-function ReactionManagerComponent:GetReactionBehaviorName() return end
+function ReactionManagerComponent:GetReactionBehaviorName() end
 
 ---@return AIReactionData[]
-function ReactionManagerComponent:GetReactionCache() return end
+function ReactionManagerComponent:GetReactionCache() end
 
----@private
 ---@param stimType gamedataStimType
 ---@param rules gamedataRule_Record[]
 ---@return ReactionOutput
-function ReactionManagerComponent:GetReactionOutput(stimType, rules) return end
+function ReactionManagerComponent:GetReactionOutput(stimType, rules) end
 
 ---@return gamedataReactionPreset_Record
-function ReactionManagerComponent:GetReactionPreset() return end
+function ReactionManagerComponent:GetReactionPreset() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return gameObject
-function ReactionManagerComponent:GetRealStimSource(stimEvent) return end
+function ReactionManagerComponent:GetRealStimSource(stimEvent) end
 
 ---@return gamedataStimPropagation
-function ReactionManagerComponent:GetReceivedStimPropagation() return end
+function ReactionManagerComponent:GetReceivedStimPropagation() end
 
 ---@return gamedataStimType
-function ReactionManagerComponent:GetReceivedStimType() return end
+function ReactionManagerComponent:GetReceivedStimType() end
 
----@private
 ---@return gamedataRule_Record[]
-function ReactionManagerComponent:GetRules() return end
+function ReactionManagerComponent:GetRules() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Int32
-function ReactionManagerComponent:GetSpreadFearPhase(stimEvent) return end
+function ReactionManagerComponent:GetSpreadFearPhase(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Vector4
-function ReactionManagerComponent:GetStimSource(stimEvent) return end
+function ReactionManagerComponent:GetStimSource(stimEvent) end
 
 ---@return StimEventTaskData[]
-function ReactionManagerComponent:GetStimuliCache() return end
+function ReactionManagerComponent:GetStimuliCache() end
 
----@private
 ---@param threat gameObject
 ---@return Float
-function ReactionManagerComponent:GetThreatDistanceSquared(threat) return end
+function ReactionManagerComponent:GetThreatDistanceSquared(threat) end
 
 ---@return Bool
-function ReactionManagerComponent:GetWorkSpotReactionFlag() return end
+function ReactionManagerComponent:GetWorkSpotReactionFlag() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return nil
-function ReactionManagerComponent:HandleCrowdReaction(stimEvent) return end
+function ReactionManagerComponent:HandleCrowdReaction(stimEvent) end
 
----@protected
 ---@param stimData StimEventTaskData
 ---@return nil
-function ReactionManagerComponent:HandleStimEvent(stimData) return end
+function ReactionManagerComponent:HandleStimEvent(stimData) end
 
----@protected
 ---@param stimEvent senseStimuliEvent
 ---@param delayed? Bool
 ---@return nil
-function ReactionManagerComponent:HandleStimEventByTask(stimEvent, delayed) return end
+function ReactionManagerComponent:HandleStimEventByTask(stimEvent, delayed) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function ReactionManagerComponent:HandleStimEventTask(data) return end
+function ReactionManagerComponent:HandleStimEventTask(data) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:HasCombatTarget() return end
+function ReactionManagerComponent:HasCombatTarget() end
 
----@private
 ---@param ally gameObject
 ---@param targetOfAlly gameObject
 ---@param onlyAlertNoThreat Bool
 ---@param dontTrySquad? Bool
 ---@return nil
-function ReactionManagerComponent:HelpAlly(ally, targetOfAlly, onlyAlertNoThreat, dontTrySquad) return end
+function ReactionManagerComponent:HelpAlly(ally, targetOfAlly, onlyAlertNoThreat, dontTrySquad) end
 
----@private
 ---@param ownerPuppet ScriptedPuppet
 ---@param target gameObject
 ---@param timeToLive Float
 ---@return nil
-function ReactionManagerComponent:HelpAllyWithAlert(ownerPuppet, target, timeToLive) return end
+function ReactionManagerComponent:HelpAllyWithAlert(ownerPuppet, target, timeToLive) end
 
----@private
 ---@param enemy gameObject
 ---@return nil
-function ReactionManagerComponent:HelpPlayer(enemy) return end
+function ReactionManagerComponent:HelpPlayer(enemy) end
 
 ---@return nil
-function ReactionManagerComponent:InformInvestigators() return end
+function ReactionManagerComponent:InformInvestigators() end
 
----@private
 ---@return nil
-function ReactionManagerComponent:InitCrowd() return end
+function ReactionManagerComponent:InitCrowd() end
 
----@private
 ---@return nil
-function ReactionManagerComponent:Initialiaze() return end
+function ReactionManagerComponent:Initialiaze() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:InvestigatingAlready(stimEvent) return end
+function ReactionManagerComponent:InvestigatingAlready(stimEvent) end
 
 ---@return Bool
-function ReactionManagerComponent:IsAlertedByDeadBody() return end
+function ReactionManagerComponent:IsAlertedByDeadBody() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param cacheStim senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:IsDuplicate(stimEvent, cacheStim) return end
+function ReactionManagerComponent:IsDuplicate(stimEvent, cacheStim) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:IsEventDuplicated(stimEvent) return end
+function ReactionManagerComponent:IsEventDuplicated(stimEvent) end
 
 ---@return Bool
-function ReactionManagerComponent:IsFearLocomotionWrapperSet() return end
+function ReactionManagerComponent:IsFearLocomotionWrapperSet() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:IsIllegalActionAgainstGanger(stimEvent) return end
+function ReactionManagerComponent:IsIllegalActionAgainstGanger(stimEvent) end
 
----@private
 ---@param list StimEventData[]
 ---@param stimData StimEventData
 ---@return Bool
-function ReactionManagerComponent:IsInList(list, stimData) return end
-
----@private
----@return Bool
-function ReactionManagerComponent:IsInPendingBehavior() return end
+function ReactionManagerComponent:IsInList(list, stimData) end
 
 ---@return Bool
-function ReactionManagerComponent:IsInTrafficLane() return end
+function ReactionManagerComponent:IsInPendingBehavior() end
+
+---@return Bool
+function ReactionManagerComponent:IsInTrafficLane() end
 
 ---@param stim gamedataStimType
 ---@return Bool
-function ReactionManagerComponent:IsInitAnimCall(stim) return end
+function ReactionManagerComponent:IsInitAnimCall(stim) end
 
----@private
 ---@param behavior gamedataOutput
 ---@return Bool
-function ReactionManagerComponent:IsInitAnimShock(behavior) return end
+function ReactionManagerComponent:IsInitAnimShock(behavior) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param activePriority gamedataStimPriority
 ---@return Bool
-function ReactionManagerComponent:IsLowerPriority(stimEvent, activePriority) return end
+function ReactionManagerComponent:IsLowerPriority(stimEvent, activePriority) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:IsPlayerAiming() return end
+function ReactionManagerComponent:IsPlayerAiming() end
 
----@private
 ---@param playerPuppet PlayerPuppet
 ---@return Bool
-function ReactionManagerComponent:IsPlayerCarryingBody(playerPuppet) return end
+function ReactionManagerComponent:IsPlayerCarryingBody(playerPuppet) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:IsPlayerFearThreat() return end
+function ReactionManagerComponent:IsPlayerFearThreat() end
 
----@private
 ---@param zone gamePSMZones
 ---@return Bool
-function ReactionManagerComponent:IsPlayerInZone(zone) return end
+function ReactionManagerComponent:IsPlayerInZone(zone) end
 
----@private
 ---@param stimTrigger gamedataStimType
 ---@return Bool
-function ReactionManagerComponent:IsReactionAvailableInPreset(stimTrigger) return end
+function ReactionManagerComponent:IsReactionAvailableInPreset(stimTrigger) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:IsSameSourceObject(stimEvent) return end
+function ReactionManagerComponent:IsSameSourceObject(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:IsSameStimulus(stimEvent) return end
+function ReactionManagerComponent:IsSameStimulus(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:IsSourceGrenade(stimEvent) return end
+function ReactionManagerComponent:IsSourceGrenade(stimEvent) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:IsSquadMateInDanger() return end
+function ReactionManagerComponent:IsSquadMateInDanger() end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:IsStimuliEventValid(stimEvent) return end
+function ReactionManagerComponent:IsStimuliEventValid(stimEvent) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent:IsTargetArmed(target) return end
+function ReactionManagerComponent:IsTargetArmed(target) end
 
----@private
 ---@param target gameObject
 ---@param angle? Float
 ---@param meBehindOfTarget? Bool
 ---@return Bool
-function ReactionManagerComponent:IsTargetBehind(target, angle, meBehindOfTarget) return end
+function ReactionManagerComponent:IsTargetBehind(target, angle, meBehindOfTarget) end
 
----@private
 ---@param target gameObject
 ---@param distance Float
 ---@return Bool
-function ReactionManagerComponent:IsTargetClose(target, distance) return end
+function ReactionManagerComponent:IsTargetClose(target, distance) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent:IsTargetDetected(target) return end
+function ReactionManagerComponent:IsTargetDetected(target) end
 
----@private
 ---@param target gameObject
 ---@param frontAngle? Float
 ---@param meInFrontOfTarget? Bool
 ---@param checkFullAngle? Bool
 ---@return Bool
-function ReactionManagerComponent:IsTargetInFront(target, frontAngle, meInFrontOfTarget, checkFullAngle) return end
+function ReactionManagerComponent:IsTargetInFront(target, frontAngle, meInFrontOfTarget, checkFullAngle) end
 
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent:IsTargetInMovementDirection(target) return end
-
----@private
----@param target gameObject
----@return Bool
-function ReactionManagerComponent:IsTargetInSameSecuritySystem(target) return end
+function ReactionManagerComponent:IsTargetInMovementDirection(target) end
 
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent:IsTargetInterestingForPerception(target) return end
+function ReactionManagerComponent:IsTargetInSameSecuritySystem(target) end
 
----@private
+---@param target gameObject
+---@return Bool
+function ReactionManagerComponent:IsTargetInterestingForPerception(target) end
+
 ---@param target gameObject
 ---@param ally gameObject
 ---@return Bool
-function ReactionManagerComponent:IsTargetInterestingForRecentSquadMates(target, ally) return end
+function ReactionManagerComponent:IsTargetInterestingForRecentSquadMates(target, ally) end
 
----@private
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent:IsTargetMelee(target) return end
+function ReactionManagerComponent:IsTargetMelee(target) end
 
----@private
 ---@param targetPos Vector4
 ---@param distance Float
 ---@return Bool
-function ReactionManagerComponent:IsTargetPositionClose(targetPos, distance) return end
-
----@private
----@param target gameObject
----@return Bool
-function ReactionManagerComponent:IsTargetRecentSquadAlly(target) return end
-
----@private
----@param target gameObject
----@return Bool
-function ReactionManagerComponent:IsTargetSquadAlly(target) return end
-
----@private
----@param target gameObject
----@return Bool
-function ReactionManagerComponent:IsTargetVeryClose(target) return end
+function ReactionManagerComponent:IsTargetPositionClose(targetPos, distance) end
 
 ---@param target gameObject
 ---@return Bool
-function ReactionManagerComponent:IsTargetVisible(target) return end
+function ReactionManagerComponent:IsTargetRecentSquadAlly(target) end
 
----@private
+---@param target gameObject
+---@return Bool
+function ReactionManagerComponent:IsTargetSquadAlly(target) end
+
+---@param target gameObject
+---@return Bool
+function ReactionManagerComponent:IsTargetVeryClose(target) end
+
+---@param target gameObject
+---@return Bool
+function ReactionManagerComponent:IsTargetVisible(target) end
+
 ---@param stimEvent senseStimuliEvent
 ---@param reactionData AIReactionData
 ---@return Bool
-function ReactionManagerComponent:IsTargetVisibleBeyondSenses(stimEvent, reactionData) return end
+function ReactionManagerComponent:IsTargetVisibleBeyondSenses(stimEvent, reactionData) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param stimOffset Vector4
 ---@return Bool
-function ReactionManagerComponent:IsVisibleRaycast(stimEvent, stimOffset) return end
+function ReactionManagerComponent:IsVisibleRaycast(stimEvent, stimOffset) end
 
----@private
 ---@param ownerPuppet ScriptedPuppet
 ---@param target gameObject
 ---@param timeToLive Float
 ---@return nil
-function ReactionManagerComponent:JoinSearchWithAlert(ownerPuppet, target, timeToLive) return end
+function ReactionManagerComponent:JoinSearchWithAlert(ownerPuppet, target, timeToLive) end
 
----@private
 ---@param category CName|string
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:Log(category, message) return end
+function ReactionManagerComponent:Log(category, message) end
 
----@private
 ---@param suffix String
 ---@return CName
-function ReactionManagerComponent:LogCategory(suffix) return end
+function ReactionManagerComponent:LogCategory(suffix) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:LogEnabled() return end
+function ReactionManagerComponent:LogEnabled() end
 
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:LogFailure(message) return end
+function ReactionManagerComponent:LogFailure(message) end
 
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:LogInfo(message) return end
+function ReactionManagerComponent:LogInfo(message) end
 
----@private
 ---@param category CName|string
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:LogReaction(category, message) return end
+function ReactionManagerComponent:LogReaction(category, message) end
 
----@private
 ---@param category CName|string
 ---@param reactionData AIReactionData
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:LogReactionData(category, reactionData, message) return end
+function ReactionManagerComponent:LogReactionData(category, reactionData, message) end
 
 ---@param source EReactLogSource
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:LogStart(source, message) return end
+function ReactionManagerComponent:LogStart(source, message) end
 
----@private
 ---@param category CName|string
 ---@param stimType gamedataStimType
 ---@param stimPropagation gamedataStimPropagation
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:LogStim(category, stimType, stimPropagation, message) return end
+function ReactionManagerComponent:LogStim(category, stimType, stimPropagation, message) end
 
 ---@param message String
 ---@return nil
-function ReactionManagerComponent:LogSuccess(message) return end
+function ReactionManagerComponent:LogSuccess(message) end
 
----@private
 ---@param lookAtData LookAtData
 ---@return nil, CName vo
-function ReactionManagerComponent:MapLookAtVO(lookAtData) return end
+function ReactionManagerComponent:MapLookAtVO(lookAtData) end
 
----@private
 ---@param mappingName String
 ---@return nil
-function ReactionManagerComponent:MapReactionPreset(mappingName) return end
+function ReactionManagerComponent:MapReactionPreset(mappingName) end
 
----@private
 ---@param stimType gamedataStimType
 ---@param stimObject gameObject
 ---@return nil
-function ReactionManagerComponent:NotifySecuritySystem(stimType, stimObject) return end
+function ReactionManagerComponent:NotifySecuritySystem(stimType, stimObject) end
 
 ---@return nil
-function ReactionManagerComponent:OnGameAttach() return end
+function ReactionManagerComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function ReactionManagerComponent:OnGameDetach() return end
+function ReactionManagerComponent:OnGameDetach() end
 
----@private
 ---@param instigator gameObject
 ---@return nil
-function ReactionManagerComponent:OnIncapacitated(instigator) return end
+function ReactionManagerComponent:OnIncapacitated(instigator) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:OnReactionEnded() return end
+function ReactionManagerComponent:OnReactionEnded() end
 
----@private
 ---@param reactionData AIReactionData
 ---@return nil
-function ReactionManagerComponent:OnReactionStarted(reactionData) return end
+function ReactionManagerComponent:OnReactionStarted(reactionData) end
 
----@private
 ---@param newStimEvent senseStimuliEvent
 ---@return nil, Bool updateByActive
-function ReactionManagerComponent:PickCloserTarget(newStimEvent) return end
+function ReactionManagerComponent:PickCloserTarget(newStimEvent) end
 
----@private
 ---@param side gameinteractionsBumpSide
 ---@param direction Vector4
 ---@return nil
-function ReactionManagerComponent:PlayBumpInWorkspot(side, direction) return end
+function ReactionManagerComponent:PlayBumpInWorkspot(side, direction) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return nil
-function ReactionManagerComponent:ProcessEnvironmentalHazard(stimEvent) return end
+function ReactionManagerComponent:ProcessEnvironmentalHazard(stimEvent) end
 
----@private
 ---@param stimData StimEventTaskData
 ---@param stimParams StimParams
 ---@return nil
-function ReactionManagerComponent:ProcessReactionOutput(stimData, stimParams) return end
+function ReactionManagerComponent:ProcessReactionOutput(stimData, stimParams) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return nil
-function ReactionManagerComponent:ProcessStimForTheDead(stimEvent) return end
+function ReactionManagerComponent:ProcessStimForTheDead(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return StimParams
-function ReactionManagerComponent:ProcessStimParams(stimEvent) return end
+function ReactionManagerComponent:ProcessStimParams(stimEvent) end
 
----@private
 ---@param evt SecuritySystemOutput
 ---@return nil
-function ReactionManagerComponent:ReactToSecurityOutput(evt) return end
+function ReactionManagerComponent:ReactToSecurityOutput(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return nil
-function ReactionManagerComponent:ReactToSecuritySystemOutputByTask(evt) return end
+function ReactionManagerComponent:ReactToSecuritySystemOutputByTask(evt) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function ReactionManagerComponent:ReactToSecuritySystemOutputTask(data) return end
+function ReactionManagerComponent:ReactToSecuritySystemOutputTask(data) end
 
----@private
 ---@param behaviorName gamedataOutput
 ---@return Bool
-function ReactionManagerComponent:RecentReaction(behaviorName) return end
+function ReactionManagerComponent:RecentReaction(behaviorName) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:ReevaluateReaction() return end
+function ReactionManagerComponent:ReevaluateReaction() end
 
----@private
 ---@param ignoreSavedPreset? Bool
 ---@return nil
-function ReactionManagerComponent:ReevaluateReactionPreset(ignoreSavedPreset) return end
+function ReactionManagerComponent:ReevaluateReactionPreset(ignoreSavedPreset) end
 
----@private
 ---@param securityState ESecuritySystemState
 ---@return Bool
-function ReactionManagerComponent:ReflectSecSysStateToHLS(securityState) return end
+function ReactionManagerComponent:ReflectSecSysStateToHLS(securityState) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:ReprimandEscalation() return end
+function ReactionManagerComponent:ReprimandEscalation() end
 
----@private
 ---@return nil
-function ReactionManagerComponent:ResetAllFearAnimWrappers() return end
+function ReactionManagerComponent:ResetAllFearAnimWrappers() end
 
----@private
 ---@param cooldown Float
 ---@return nil
-function ReactionManagerComponent:ResetFacial(cooldown) return end
+function ReactionManagerComponent:ResetFacial(cooldown) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:SafeToExitFear() return end
+function ReactionManagerComponent:SafeToExitFear() end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:SafeToExitPanicFear() return end
+function ReactionManagerComponent:SafeToExitPanicFear() end
 
----@private
 ---@return nil, LookAtData lookAtData
-function ReactionManagerComponent:SelectFacialEmotion() return end
+function ReactionManagerComponent:SelectFacialEmotion() end
 
----@private
 ---@param ignoreListEvent? IgnoreListEvent
 ---@return nil
-function ReactionManagerComponent:SendIgnoreEventToSquad(ignoreListEvent) return end
+function ReactionManagerComponent:SendIgnoreEventToSquad(ignoreListEvent) end
 
----@private
 ---@param ignoreSavedPreset? Bool
 ---@return nil
-function ReactionManagerComponent:SetBaseReactionPreset(ignoreSavedPreset) return end
+function ReactionManagerComponent:SetBaseReactionPreset(ignoreSavedPreset) end
 
----@private
 ---@param stimType gamedataStimType
 ---@return nil
-function ReactionManagerComponent:SetCrowdRunningAwayAnimFeature(stimType) return end
+function ReactionManagerComponent:SetCrowdRunningAwayAnimFeature(stimType) end
 
 ---@param visible Bool
 ---@param description CName|string
 ---@return nil
-function ReactionManagerComponent:SetDownedBodyVisibleComponent(visible, description) return end
+function ReactionManagerComponent:SetDownedBodyVisibleComponent(visible, description) end
 
----@private
 ---@param reactionPreset gamedataReactionPreset_Record
 ---@return nil
-function ReactionManagerComponent:SetReactionPreset(reactionPreset) return end
+function ReactionManagerComponent:SetReactionPreset(reactionPreset) end
 
----@private
 ---@param lockey String
 ---@return nil
-function ReactionManagerComponent:SetWarningMessage(lockey) return end
+function ReactionManagerComponent:SetWarningMessage(lockey) end
 
----@private
 ---@param stimType gamedataStimType
 ---@return Bool
-function ReactionManagerComponent:ShouldAddToIgnoreList(stimType) return end
+function ReactionManagerComponent:ShouldAddToIgnoreList(stimType) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldAudioStimBeProcessed(stimEvent) return end
+function ReactionManagerComponent:ShouldAudioStimBeProcessed(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldEventBeProcessed(stimEvent) return end
+function ReactionManagerComponent:ShouldEventBeProcessed(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldFearInPlace(stimEvent) return end
+function ReactionManagerComponent:ShouldFearInPlace(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldFearWhileAggressiveCrowdNPCCombat(stimEvent) return end
+function ReactionManagerComponent:ShouldFearWhileAggressiveCrowdNPCCombat(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param investigateData senseStimInvestigateData
 ---@return Bool
-function ReactionManagerComponent:ShouldFriendlyStimBeProcessed(stimEvent, investigateData) return end
+function ReactionManagerComponent:ShouldFriendlyStimBeProcessed(stimEvent, investigateData) end
 
----@private
 ---@param targetOfTarget gameObject
 ---@param onlyAlertNoThreat Bool
 ---@return Bool
-function ReactionManagerComponent:ShouldHelpCausePlayerGotTooClose(targetOfTarget, onlyAlertNoThreat) return end
+function ReactionManagerComponent:ShouldHelpCausePlayerGotTooClose(targetOfTarget, onlyAlertNoThreat) end
 
----@private
 ---@param target gameObject
 ---@param targetOfTarget gameObject
 ---@return Bool
-function ReactionManagerComponent:ShouldHelpTargetFromSameAttitudeGroup(target, targetOfTarget) return end
+function ReactionManagerComponent:ShouldHelpTargetFromSameAttitudeGroup(target, targetOfTarget) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param investigateData senseStimInvestigateData
 ---@return Bool
-function ReactionManagerComponent:ShouldHostileStimBeProcessed(stimEvent, investigateData) return end
+function ReactionManagerComponent:ShouldHostileStimBeProcessed(stimEvent, investigateData) end
 
 ---@param stimType gamedataStimType
 ---@param instigator ScriptedPuppet
@@ -1287,7 +1083,7 @@ function ReactionManagerComponent:ShouldHostileStimBeProcessed(stimEvent, invest
 ---@param sourcePos Vector4
 ---@param log? Bool
 ---@return Bool
-function ReactionManagerComponent:ShouldIgnoreCombatStim(stimType, instigator, source, sourcePos, log) return end
+function ReactionManagerComponent:ShouldIgnoreCombatStim(stimType, instigator, source, sourcePos, log) end
 
 ---@param stimType gamedataStimType
 ---@param instigator ScriptedPuppet
@@ -1296,162 +1092,134 @@ function ReactionManagerComponent:ShouldIgnoreCombatStim(stimType, instigator, s
 ---@param canDelay Bool
 ---@param log Bool
 ---@return Bool, Bool canIgnoreOnlyDueToDelay, Bool canIgnorePlayerCombatStim
-function ReactionManagerComponent:ShouldIgnoreCombatStim(stimType, instigator, source, sourcePos, canDelay, log) return end
+function ReactionManagerComponent:ShouldIgnoreCombatStim(stimType, instigator, source, sourcePos, canDelay, log) end
 
----@private
 ---@param fearPhase Int32
 ---@return Bool
-function ReactionManagerComponent:ShouldInterruptCurrentFearStage(fearPhase) return end
+function ReactionManagerComponent:ShouldInterruptCurrentFearStage(fearPhase) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param investigateData senseStimInvestigateData
 ---@return Bool
-function ReactionManagerComponent:ShouldNeutralStimBeProcessed(stimEvent, investigateData) return end
+function ReactionManagerComponent:ShouldNeutralStimBeProcessed(stimEvent, investigateData) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldPreventionReact(stimEvent) return end
+function ReactionManagerComponent:ShouldPreventionReact(stimEvent) end
 
----@private
 ---@param grenade BaseGrenade
 ---@return Bool
-function ReactionManagerComponent:ShouldReactToNPCGrenade(grenade) return end
+function ReactionManagerComponent:ShouldReactToNPCGrenade(grenade) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param delayed Bool
 ---@return Bool
-function ReactionManagerComponent:ShouldStimBeProcessed(stimEvent, delayed) return end
+function ReactionManagerComponent:ShouldStimBeProcessed(stimEvent, delayed) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldStimBeProcessedByCrowd(stimEvent) return end
+function ReactionManagerComponent:ShouldStimBeProcessedByCrowd(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldTriggerAggressiveCrowdNPCCombat(stimEvent) return end
+function ReactionManagerComponent:ShouldTriggerAggressiveCrowdNPCCombat(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldTriggerGrenadeDodgeBehavior(stimEvent) return end
+function ReactionManagerComponent:ShouldTriggerGrenadeDodgeBehavior(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@return Bool
-function ReactionManagerComponent:ShouldUpdateThreatPosition(stimEvent) return end
+function ReactionManagerComponent:ShouldUpdateThreatPosition(stimEvent) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param reactionData AIReactionData
 ---@return Bool
-function ReactionManagerComponent:ShouldVisualStimBeProcessed(stimEvent, reactionData) return end
+function ReactionManagerComponent:ShouldVisualStimBeProcessed(stimEvent, reactionData) end
 
----@private
 ---@param source gameObject
 ---@param attitude EAIAttitude
 ---@return Bool
-function ReactionManagerComponent:SourceAttitude(source, attitude) return end
+function ReactionManagerComponent:SourceAttitude(source, attitude) end
 
----@private
 ---@param phase Int32
 ---@return nil
-function ReactionManagerComponent:SpreadFear(phase) return end
+function ReactionManagerComponent:SpreadFear(phase) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:StartEscalateReprimand() return end
+function ReactionManagerComponent:StartEscalateReprimand() end
 
----@private
 ---@param rule gamedataRule_Record
 ---@param stimType gamedataStimType
 ---@return Bool
-function ReactionManagerComponent:StimRule(rule, stimType) return end
+function ReactionManagerComponent:StimRule(rule, stimType) end
 
----@private
 ---@return Bool
-function ReactionManagerComponent:SurrenderToLeave() return end
+function ReactionManagerComponent:SurrenderToLeave() end
 
----@private
 ---@param target gameObject
 ---@param distance? Float
 ---@return Bool
-function ReactionManagerComponent:TargetVerticalCheck(target, distance) return end
+function ReactionManagerComponent:TargetVerticalCheck(target, distance) end
 
----@private
 ---@param owner gameObject
 ---@param target gameObject
 ---@return nil
-function ReactionManagerComponent:TriggerAggressiveCrowdBehavior(owner, target) return end
+function ReactionManagerComponent:TriggerAggressiveCrowdBehavior(owner, target) end
 
----@private
 ---@param instigator? gameObject
 ---@return nil
-function ReactionManagerComponent:TriggerAlerted(instigator) return end
+function ReactionManagerComponent:TriggerAlerted(instigator) end
 
----@private
 ---@param reaction ReactionOutput
 ---@param stimTaskData StimEventTaskData
 ---@param stimData StimEventData
 ---@return nil
-function ReactionManagerComponent:TriggerBehaviorReaction(reaction, stimTaskData, stimData) return end
+function ReactionManagerComponent:TriggerBehaviorReaction(reaction, stimTaskData, stimData) end
 
----@private
 ---@param trespasser gameObject
 ---@return nil
-function ReactionManagerComponent:TriggerCombat(trespasser) return end
+function ReactionManagerComponent:TriggerCombat(trespasser) end
 
----@private
 ---@param forceFear? Bool
 ---@param playVO? Bool
 ---@return nil
-function ReactionManagerComponent:TriggerFacialLookAtReaction(forceFear, playVO) return end
+function ReactionManagerComponent:TriggerFacialLookAtReaction(forceFear, playVO) end
 
----@private
 ---@param phase Int32
 ---@return nil
-function ReactionManagerComponent:TriggerFearFacial(phase) return end
+function ReactionManagerComponent:TriggerFearFacial(phase) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:TriggerPendingReaction() return end
+function ReactionManagerComponent:TriggerPendingReaction() end
 
----@private
 ---@param target gameObject
 ---@param reaction gamedataOutput
 ---@param initAnimInWorkspot Bool
 ---@param sourcePosition? Vector4
 ---@return nil
-function ReactionManagerComponent:TriggerReactionBehaviorForCrowd(target, reaction, initAnimInWorkspot, sourcePosition) return end
+function ReactionManagerComponent:TriggerReactionBehaviorForCrowd(target, reaction, initAnimInWorkspot, sourcePosition) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param reaction gamedataOutput
 ---@param dontPlayStartUpAnimation Bool
 ---@param skipInitialAnimation? Bool
 ---@return nil
-function ReactionManagerComponent:TriggerReactionBehaviorForCrowd(stimEvent, reaction, dontPlayStartUpAnimation, skipInitialAnimation) return end
+function ReactionManagerComponent:TriggerReactionBehaviorForCrowd(stimEvent, reaction, dontPlayStartUpAnimation, skipInitialAnimation) end
 
----@private
 ---@param stimEvent senseStimuliEvent
 ---@param stimData StimEventTaskData
 ---@param reactionData AIReactionData
 ---@param instigator gameObject
 ---@return Bool
-function ReactionManagerComponent:TryTriggerCombatOrAlertedFromHostileStim(stimEvent, stimData, reactionData, instigator) return end
+function ReactionManagerComponent:TryTriggerCombatOrAlertedFromHostileStim(stimEvent, stimData, reactionData, instigator) end
 
----@private
 ---@param reaction ReactionOutput
 ---@param stimEvent senseStimuliEvent
 ---@param stimData StimEventData
 ---@param updateByActive Bool
 ---@return nil
-function ReactionManagerComponent:UpdateActiveReaction(reaction, stimEvent, stimData, updateByActive) return end
+function ReactionManagerComponent:UpdateActiveReaction(reaction, stimEvent, stimData, updateByActive) end
 
----@private
 ---@return nil
-function ReactionManagerComponent:UpdateStimSource() return end
+function ReactionManagerComponent:UpdateStimSource() end

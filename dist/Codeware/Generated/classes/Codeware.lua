@@ -5,7 +5,7 @@ Codeware = {}
 
 ---@param version String
 ---@return Bool
-function Codeware.Require(version) return end
+function Codeware.Require(version) end
 
 ---@return String
-function Codeware.Version() return end
+function Codeware.Version() end

@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class ToggleFactEffector: gameEffector
----@field public fact CName
----@field public valueOn Int32
----@field public valueOff Int32
+---@field fact CName
+---@field valueOn Int32
+---@field valueOff Int32
 ToggleFactEffector = {}
 
 ---@param fields? ToggleFactEffector
 ---@return ToggleFactEffector
-function ToggleFactEffector.new(fields) return end
+function ToggleFactEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ToggleFactEffector:ActionOff(owner) return end
+function ToggleFactEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ToggleFactEffector:ActionOn(owner) return end
+function ToggleFactEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ToggleFactEffector:Initialize(record, parentRecord) return end
+function ToggleFactEffector:Initialize(record, parentRecord) end

@@ -5,13 +5,13 @@ gamedataVendorItemQuery_Record = {}
 
 ---@param fields? gamedataVendorItemQuery_Record
 ---@return gamedataVendorItemQuery_Record
-function gamedataVendorItemQuery_Record.new(fields) return end
+function gamedataVendorItemQuery_Record.new(fields) end
 
 ---@return gamedataItemArrayQuery_Record
-function gamedataVendorItemQuery_Record:Query() return end
+function gamedataVendorItemQuery_Record:Query() end
 
 ---@return gamedataItemArrayQuery_Record
-function gamedataVendorItemQuery_Record:QueryHandle() return end
+function gamedataVendorItemQuery_Record:QueryHandle() end
 
 ---@return Bool
-function gamedataVendorItemQuery_Record:UniquesOnly() return end
+function gamedataVendorItemQuery_Record:UniquesOnly() end

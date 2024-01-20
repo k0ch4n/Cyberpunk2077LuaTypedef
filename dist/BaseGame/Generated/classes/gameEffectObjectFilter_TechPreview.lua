@@ -5,4 +5,4 @@ gameEffectObjectFilter_TechPreview = {}
 
 ---@param fields? gameEffectObjectFilter_TechPreview
 ---@return gameEffectObjectFilter_TechPreview
-function gameEffectObjectFilter_TechPreview.new(fields) return end
+function gameEffectObjectFilter_TechPreview.new(fields) end

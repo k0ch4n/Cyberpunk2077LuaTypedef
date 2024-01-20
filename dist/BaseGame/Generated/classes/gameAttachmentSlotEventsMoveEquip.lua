@@ -5,4 +5,4 @@ gameAttachmentSlotEventsMoveEquip = {}
 
 ---@param fields? gameAttachmentSlotEventsMoveEquip
 ---@return gameAttachmentSlotEventsMoveEquip
-function gameAttachmentSlotEventsMoveEquip.new(fields) return end
+function gameAttachmentSlotEventsMoveEquip.new(fields) end

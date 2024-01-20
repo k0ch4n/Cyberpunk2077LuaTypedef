@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class cpGameplayLightComponent: entLightComponent
----@field public reactToTime Bool
----@field public begin GameTime
----@field public end GameTime
----@field public probability Float
----@field public delayRange GameTime
+---@field reactToTime Bool
+---@field begin GameTime
+---@field end GameTime
+---@field probability Float
+---@field delayRange GameTime
 cpGameplayLightComponent = {}
 
 ---@param fields? cpGameplayLightComponent
 ---@return cpGameplayLightComponent
-function cpGameplayLightComponent.new(fields) return end
+function cpGameplayLightComponent.new(fields) end

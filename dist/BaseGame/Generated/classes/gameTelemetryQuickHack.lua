@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameTelemetryQuickHack
----@field public actionName CName
----@field public titleLocKey String
----@field public targetType String
----@field public quickHackRecordID TweakDBID
----@field public quality gamedataQuality
+---@field actionName CName
+---@field titleLocKey String
+---@field targetType String
+---@field quickHackRecordID TweakDBID
+---@field quality gamedataQuality
 gameTelemetryQuickHack = {}
 
 ---@param fields? gameTelemetryQuickHack
 ---@return gameTelemetryQuickHack
-function gameTelemetryQuickHack.new(fields) return end
+function gameTelemetryQuickHack.new(fields) end

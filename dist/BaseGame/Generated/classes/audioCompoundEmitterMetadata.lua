@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioCompoundEmitterMetadata: audioEmitterMetadata
----@field public childrenNames CName[]
+---@field childrenNames CName[]
 audioCompoundEmitterMetadata = {}
 
 ---@param fields? audioCompoundEmitterMetadata
 ---@return audioCompoundEmitterMetadata
-function audioCompoundEmitterMetadata.new(fields) return end
+function audioCompoundEmitterMetadata.new(fields) end

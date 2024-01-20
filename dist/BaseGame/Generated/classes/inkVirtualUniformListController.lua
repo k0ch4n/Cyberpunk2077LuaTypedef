@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkVirtualUniformListController: inkVirtualCompoundController
----@field public itemTemplate inkWidgetLibraryReference
+---@field itemTemplate inkWidgetLibraryReference
 inkVirtualUniformListController = {}
 
 ---@param fields? inkVirtualUniformListController
 ---@return inkVirtualUniformListController
-function inkVirtualUniformListController.new(fields) return end
+function inkVirtualUniformListController.new(fields) end

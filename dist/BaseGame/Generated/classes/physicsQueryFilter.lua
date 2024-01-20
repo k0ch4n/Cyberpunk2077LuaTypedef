@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class physicsQueryFilter
----@field public mask1 Uint64
----@field public mask2 Uint64
+---@field mask1 Uint64
+---@field mask2 Uint64
 physicsQueryFilter = {}
 
 ---@param fields? physicsQueryFilter
 ---@return physicsQueryFilter
-function physicsQueryFilter.new(fields) return end
+function physicsQueryFilter.new(fields) end
 
 ---@return physicsQueryFilter
-function physicsQueryFilter.ALL() return end
+function physicsQueryFilter.ALL() end
 
 ---@param group CName|string
 ---@return nil, physicsQueryFilter filter
-function physicsQueryFilter.AddGroup(group) return end
+function physicsQueryFilter.AddGroup(group) end
 
 ---@return physicsQueryFilter
-function physicsQueryFilter.ZERO() return end
+function physicsQueryFilter.ZERO() end

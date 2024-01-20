@@ -5,7 +5,7 @@ DoorProximityDetectorController = {}
 
 ---@param fields? DoorProximityDetectorController
 ---@return DoorProximityDetectorController
-function DoorProximityDetectorController.new(fields) return end
+function DoorProximityDetectorController.new(fields) end
 
 ---@return DoorProximityDetectorControllerPS
-function DoorProximityDetectorController:GetPS() return end
+function DoorProximityDetectorController:GetPS() end

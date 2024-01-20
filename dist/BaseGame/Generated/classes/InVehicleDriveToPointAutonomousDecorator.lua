@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class InVehicleDriveToPointAutonomousDecorator: AIVehicleTaskAbstract
----@field public vehCommand AIVehicleDriveToPointAutonomousCommand
----@field protected targetPosition AIArgumentMapping
----@field protected minimumDistanceToTarget AIArgumentMapping
----@field protected maxSpeed AIArgumentMapping
----@field protected minSpeed AIArgumentMapping
----@field protected clearTrafficOnPath AIArgumentMapping
----@field protected driveDownTheRoadIndefinitely AIArgumentMapping
+---@field vehCommand AIVehicleDriveToPointAutonomousCommand
+---@field targetPosition AIArgumentMapping
+---@field minimumDistanceToTarget AIArgumentMapping
+---@field maxSpeed AIArgumentMapping
+---@field minSpeed AIArgumentMapping
+---@field clearTrafficOnPath AIArgumentMapping
+---@field driveDownTheRoadIndefinitely AIArgumentMapping
 InVehicleDriveToPointAutonomousDecorator = {}
 
 ---@param fields? InVehicleDriveToPointAutonomousDecorator
 ---@return InVehicleDriveToPointAutonomousDecorator
-function InVehicleDriveToPointAutonomousDecorator.new(fields) return end
+function InVehicleDriveToPointAutonomousDecorator.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleDriveToPointAutonomousDecorator:Activate(context) return end
+function InVehicleDriveToPointAutonomousDecorator:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleDriveToPointAutonomousDecorator:Deactivate(context) return end
+function InVehicleDriveToPointAutonomousDecorator:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIVehicleDriveToPointAutonomousCommand
-function InVehicleDriveToPointAutonomousDecorator:GetMountedVehicleActiveDriveToPointCommand(context) return end
+function InVehicleDriveToPointAutonomousDecorator:GetMountedVehicleActiveDriveToPointCommand(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleDriveToPointAutonomousDecorator:ProcessInitCommands(context) return end
+function InVehicleDriveToPointAutonomousDecorator:ProcessInitCommands(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function InVehicleDriveToPointAutonomousDecorator:Update(context) return end
+function InVehicleDriveToPointAutonomousDecorator:Update(context) end

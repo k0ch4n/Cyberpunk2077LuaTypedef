@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SequenceCallback: redEvent
----@field public persistentID gamePersistentID
----@field public className CName
----@field public actionToForward ScriptableDeviceAction
+---@field persistentID gamePersistentID
+---@field className CName
+---@field actionToForward ScriptableDeviceAction
 SequenceCallback = {}
 
 ---@param fields? SequenceCallback
 ---@return SequenceCallback
-function SequenceCallback.new(fields) return end
+function SequenceCallback.new(fields) end

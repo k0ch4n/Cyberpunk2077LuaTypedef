@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class worldAISpotNode: worldSocketNode
----@field public spot AISpot
----@field public isWorkspotInfinite Bool
----@field public isWorkspotStatic Bool
----@field public markings CName[]
----@field public spotDef worldTrafficSpotDefinition
----@field public disableBumps Bool
----@field public lookAtTarget NodeRef
----@field public useCrowdWhitelist Bool
----@field public useCrowdBlacklist Bool
----@field public crowdWhitelist redTagList
----@field public crowdBlacklist redTagList
+---@field spot AISpot
+---@field isWorkspotInfinite Bool
+---@field isWorkspotStatic Bool
+---@field markings CName[]
+---@field spotDef worldTrafficSpotDefinition
+---@field disableBumps Bool
+---@field lookAtTarget NodeRef
+---@field useCrowdWhitelist Bool
+---@field useCrowdBlacklist Bool
+---@field crowdWhitelist redTagList
+---@field crowdBlacklist redTagList
 worldAISpotNode = {}
 
 ---@param fields? worldAISpotNode
 ---@return worldAISpotNode
-function worldAISpotNode.new(fields) return end
+function worldAISpotNode.new(fields) end

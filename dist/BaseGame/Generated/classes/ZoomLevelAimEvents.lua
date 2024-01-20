@@ -1,49 +1,46 @@
 ---@meta
 
 ---@class ZoomLevelAimEvents: ZoomEventsTransition
----@field public isAmingWithWeapon Bool
+---@field isAmingWithWeapon Bool
 ZoomLevelAimEvents = {}
 
 ---@param fields? ZoomLevelAimEvents
 ---@return ZoomLevelAimEvents
-function ZoomLevelAimEvents.new(fields) return end
+function ZoomLevelAimEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function ZoomLevelAimEvents:GetActualZoomValue(stateContext, scriptInterface) return end
+function ZoomLevelAimEvents:GetActualZoomValue(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomLevelAimEvents:OnEnter(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function ZoomLevelAimEvents:OnExit(stateContext, scriptInterface) return end
+function ZoomLevelAimEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomLevelAimEvents:OnExitToZoomLevelBase(stateContext, scriptInterface) return end
+function ZoomLevelAimEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function ZoomLevelAimEvents:OnExitToZoomLevelBase(stateContext, scriptInterface) end
+
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomLevelAimEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ZoomLevelAimEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomLevelAimEvents:ReevaluateADSZoomIndex(stateContext, scriptInterface) return end
+function ZoomLevelAimEvents:ReevaluateADSZoomIndex(stateContext, scriptInterface) end
 
 ---@return Bool
-function ZoomLevelAimEvents:ShouldPlayZoomExitSound() return end
+function ZoomLevelAimEvents:ShouldPlayZoomExitSound() end
 
 ---@return Bool
-function ZoomLevelAimEvents:ShouldPlayZoomStepSound() return end
+function ZoomLevelAimEvents:ShouldPlayZoomStepSound() end

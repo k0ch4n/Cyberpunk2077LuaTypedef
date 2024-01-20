@@ -5,9 +5,8 @@ GamepadCursorRootController = {}
 
 ---@param fields? GamepadCursorRootController
 ---@return GamepadCursorRootController
-function GamepadCursorRootController.new(fields) return end
+function GamepadCursorRootController.new(fields) end
 
----@protected
 ---@param context CName|string
 ---@return CName
-function GamepadCursorRootController:GetAnimNameFromContext(context) return end
+function GamepadCursorRootController:GetAnimNameFromContext(context) end

@@ -5,9 +5,8 @@ InvincibilityCollisionLogic = {}
 
 ---@param fields? InvincibilityCollisionLogic
 ---@return InvincibilityCollisionLogic
-function InvincibilityCollisionLogic.new(fields) return end
+function InvincibilityCollisionLogic.new(fields) end
 
----@protected
 ---@param gameState gameuiRoachRaceGameState
 ---@return nil
-function InvincibilityCollisionLogic:ChangeGameState(gameState) return end
+function InvincibilityCollisionLogic:ChangeGameState(gameState) end

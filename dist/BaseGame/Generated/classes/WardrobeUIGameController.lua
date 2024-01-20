@@ -1,167 +1,143 @@
 ---@meta
 
 ---@class WardrobeUIGameController: gameuiMenuGameController
----@field private tooltipsManagerRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private setEditorWidget inkWidgetReference
----@field private setGridWidget inkCompoundWidgetReference
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private player PlayerPuppet
----@field private equipmentSystem EquipmentSystem
----@field private setEditorController WardrobeSetEditorUIController
----@field private isMainScreen Bool
----@field private tooltipsManager gameuiTooltipsManager
----@field private buttonHintsController ButtonHints
----@field private sets gameClothingSet[]
----@field private currentSetController ClothingSetController
----@field private maxSetsAmount Int32
----@field private setControllers ClothingSetController[]
----@field private confirmationRequestToken inkGameNotificationToken
----@field private deletedSetController ClothingSetController
----@field private introAnimProxy inkanimProxy
----@field private outroAnimProxy inkanimProxy
----@field private introFinished Bool
----@field private finalEquippedSet gameWardrobeClothingSetIndex
----@field private equipmentBlackboard gameIBlackboard
----@field private equipmentInProgressCallback redCallbackObject
+---@field tooltipsManagerRef inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field setEditorWidget inkWidgetReference
+---@field setGridWidget inkCompoundWidgetReference
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field player PlayerPuppet
+---@field equipmentSystem EquipmentSystem
+---@field setEditorController WardrobeSetEditorUIController
+---@field isMainScreen Bool
+---@field tooltipsManager gameuiTooltipsManager
+---@field buttonHintsController ButtonHints
+---@field sets gameClothingSet[]
+---@field currentSetController ClothingSetController
+---@field maxSetsAmount Int32
+---@field setControllers ClothingSetController[]
+---@field confirmationRequestToken inkGameNotificationToken
+---@field deletedSetController ClothingSetController
+---@field introAnimProxy inkanimProxy
+---@field outroAnimProxy inkanimProxy
+---@field introFinished Bool
+---@field finalEquippedSet gameWardrobeClothingSetIndex
+---@field equipmentBlackboard gameIBlackboard
+---@field equipmentInProgressCallback redCallbackObject
 WardrobeUIGameController = {}
 
 ---@param fields? WardrobeUIGameController
 ---@return WardrobeUIGameController
-function WardrobeUIGameController.new(fields) return end
+function WardrobeUIGameController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function WardrobeUIGameController:OnBack(userData) return end
+function WardrobeUIGameController:OnBack(userData) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function WardrobeUIGameController:OnCloseAnimationFinished(proxy) return end
+function WardrobeUIGameController:OnCloseAnimationFinished(proxy) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function WardrobeUIGameController:OnDeleteSetConfirmationResults(data) return end
+function WardrobeUIGameController:OnDeleteSetConfirmationResults(data) end
 
----@protected
 ---@param inProgress Bool
 ---@return Bool
-function WardrobeUIGameController:OnEquipmentInProgress(inProgress) return end
+function WardrobeUIGameController:OnEquipmentInProgress(inProgress) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function WardrobeUIGameController:OnExitConfirmationResults(data) return end
+function WardrobeUIGameController:OnExitConfirmationResults(data) end
 
----@protected
 ---@return Bool
-function WardrobeUIGameController:OnInitialize() return end
+function WardrobeUIGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function WardrobeUIGameController:OnIntroAnimationFinished(proxy) return end
+function WardrobeUIGameController:OnIntroAnimationFinished(proxy) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WardrobeUIGameController:OnSetClick(e) return end
+function WardrobeUIGameController:OnSetClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WardrobeUIGameController:OnSetHoverOut(e) return end
+function WardrobeUIGameController:OnSetHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function WardrobeUIGameController:OnSetHoverOver(e) return end
+function WardrobeUIGameController:OnSetHoverOver(e) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function WardrobeUIGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function WardrobeUIGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function WardrobeUIGameController:OnSetUserData(userData) return end
+function WardrobeUIGameController:OnSetUserData(userData) end
 
----@protected
 ---@return Bool
-function WardrobeUIGameController:OnUninitialize() return end
+function WardrobeUIGameController:OnUninitialize() end
 
----@protected
 ---@param setController ClothingSetController
 ---@return nil
-function WardrobeUIGameController:AddButtonHints(setController) return end
+function WardrobeUIGameController:AddButtonHints(setController) end
 
----@private
 ---@return nil
-function WardrobeUIGameController:CloseWardrobe() return end
-
----@param setID gameWardrobeClothingSetIndex
----@return nil
-function WardrobeUIGameController:DeleteSet(setID) return end
+function WardrobeUIGameController:CloseWardrobe() end
 
 ---@param setID gameWardrobeClothingSetIndex
 ---@return nil
-function WardrobeUIGameController:EquipSet(setID) return end
+function WardrobeUIGameController:DeleteSet(setID) end
 
----@private
+---@param setID gameWardrobeClothingSetIndex
 ---@return nil
-function WardrobeUIGameController:FinalizeTransmog() return end
+function WardrobeUIGameController:EquipSet(setID) end
 
----@private
 ---@return nil
-function WardrobeUIGameController:InitSetPanel() return end
+function WardrobeUIGameController:FinalizeTransmog() end
 
----@private
 ---@return nil
-function WardrobeUIGameController:PlayIdleLoopAnimation() return end
+function WardrobeUIGameController:InitSetPanel() end
 
----@private
 ---@return nil
-function WardrobeUIGameController:PlayIntroAnimation() return end
+function WardrobeUIGameController:PlayIdleLoopAnimation() end
+
+---@return nil
+function WardrobeUIGameController:PlayIntroAnimation() end
 
 ---@param widgetName CName|string
 ---@param eventName CName|string
 ---@param actionKey? CName|string
 ---@return nil
-function WardrobeUIGameController:PlayWardrobeSound(widgetName, eventName, actionKey) return end
+function WardrobeUIGameController:PlayWardrobeSound(widgetName, eventName, actionKey) end
 
----@private
 ---@param condition gamedataUICondition
 ---@return Bool
-function WardrobeUIGameController:ReadUICondition(condition) return end
+function WardrobeUIGameController:ReadUICondition(condition) end
 
----@protected
 ---@return nil
-function WardrobeUIGameController:RemoveButtonHints() return end
+function WardrobeUIGameController:RemoveButtonHints() end
 
 ---@param setID gameWardrobeClothingSetIndex
 ---@return nil
-function WardrobeUIGameController:ResetSet(setID) return end
+function WardrobeUIGameController:ResetSet(setID) end
 
----@private
 ---@param setController ClothingSetController
 ---@return nil
-function WardrobeUIGameController:SelectSlot(setController) return end
+function WardrobeUIGameController:SelectSlot(setController) end
 
----@private
 ---@return nil
-function WardrobeUIGameController:SendDeleteRequests() return end
+function WardrobeUIGameController:SendDeleteRequests() end
 
 ---@param currentSet gameWardrobeClothingSetIndex
 ---@return nil
-function WardrobeUIGameController:SetEquippedState(currentSet) return end
+function WardrobeUIGameController:SetEquippedState(currentSet) end
 
----@private
 ---@param enable Bool
 ---@return nil
-function WardrobeUIGameController:SetTimeDilatation(enable) return end
+function WardrobeUIGameController:SetTimeDilatation(enable) end
 
 ---@return nil
-function WardrobeUIGameController:UnequipSet() return end
+function WardrobeUIGameController:UnequipSet() end

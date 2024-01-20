@@ -5,4 +5,4 @@ gameDynamicEntityHandler = {}
 
 ---@param fields? gameDynamicEntityHandler
 ---@return gameDynamicEntityHandler
-function gameDynamicEntityHandler.new(fields) return end
+function gameDynamicEntityHandler.new(fields) end

@@ -5,4 +5,4 @@ inkAdvertisementsLayer = {}
 
 ---@param fields? inkAdvertisementsLayer
 ---@return inkAdvertisementsLayer
-function inkAdvertisementsLayer.new(fields) return end
+function inkAdvertisementsLayer.new(fields) end

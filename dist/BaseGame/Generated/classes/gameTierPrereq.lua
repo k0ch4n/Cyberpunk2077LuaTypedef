@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameTierPrereq: gameIComparisonPrereq
----@field public tier GameplayTier
+---@field tier GameplayTier
 gameTierPrereq = {}
 
 ---@param fields? gameTierPrereq
 ---@return gameTierPrereq
-function gameTierPrereq.new(fields) return end
+function gameTierPrereq.new(fields) end

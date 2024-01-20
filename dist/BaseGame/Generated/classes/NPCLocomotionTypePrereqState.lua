@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class NPCLocomotionTypePrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInt redCallbackObject
+---@field owner gameObject
+---@field listenerInt redCallbackObject
 NPCLocomotionTypePrereqState = {}
 
 ---@param fields? NPCLocomotionTypePrereqState
 ---@return NPCLocomotionTypePrereqState
-function NPCLocomotionTypePrereqState.new(fields) return end
+function NPCLocomotionTypePrereqState.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NPCLocomotionTypePrereqState:OnLocomotionTypeChanged(value) return end
+function NPCLocomotionTypePrereqState:OnLocomotionTypeChanged(value) end

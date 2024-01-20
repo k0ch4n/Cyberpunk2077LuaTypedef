@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class ItemInSlotCallback: gameAttachmentSlotsScriptCallback
----@field protected state ItemInSlotPrereqState
----@field public waitForVisuals Bool
+---@field state ItemInSlotPrereqState
+---@field waitForVisuals Bool
 ItemInSlotCallback = {}
 
 ---@param fields? ItemInSlotCallback
 ---@return ItemInSlotCallback
-function ItemInSlotCallback.new(fields) return end
+function ItemInSlotCallback.new(fields) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ItemInSlotCallback:OnItemEquipped(slot, item) return end
+function ItemInSlotCallback:OnItemEquipped(slot, item) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ItemInSlotCallback:OnItemEquippedVisual(slot, item) return end
+function ItemInSlotCallback:OnItemEquippedVisual(slot, item) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function ItemInSlotCallback:OnItemUnequipped(slot, item) return end
+function ItemInSlotCallback:OnItemUnequipped(slot, item) end
 
 ---@param state gamePrereqState
 ---@return nil
-function ItemInSlotCallback:RegisterState(state) return end
+function ItemInSlotCallback:RegisterState(state) end

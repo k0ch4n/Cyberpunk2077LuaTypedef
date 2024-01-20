@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class CasinoTableGamePageLogicController: inkWidgetLogicController
----@field public cash inkTextWidgetReference
----@field public bet inkTextWidgetReference
----@field public marks BetOnMark[]
+---@field cash inkTextWidgetReference
+---@field bet inkTextWidgetReference
+---@field marks BetOnMark[]
 CasinoTableGamePageLogicController = {}
 
 ---@param fields? CasinoTableGamePageLogicController
 ---@return CasinoTableGamePageLogicController
-function CasinoTableGamePageLogicController.new(fields) return end
+function CasinoTableGamePageLogicController.new(fields) end
 
 ---@param betData BetData
 ---@return nil
-function CasinoTableGamePageLogicController:PlaceBet(betData) return end
+function CasinoTableGamePageLogicController:PlaceBet(betData) end
 
 ---@param chipsAmount Uint32
 ---@return nil
-function CasinoTableGamePageLogicController:UpdateChipsAmount(chipsAmount) return end
+function CasinoTableGamePageLogicController:UpdateChipsAmount(chipsAmount) end

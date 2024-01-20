@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioFoleyGlobalMetadata: audioAudioMetadata
----@field public fadeoutTime Float
----@field public fadeoutRtpc CName
+---@field fadeoutTime Float
+---@field fadeoutRtpc CName
 audioFoleyGlobalMetadata = {}
 
 ---@param fields? audioFoleyGlobalMetadata
 ---@return audioFoleyGlobalMetadata
-function audioFoleyGlobalMetadata.new(fields) return end
+function audioFoleyGlobalMetadata.new(fields) end

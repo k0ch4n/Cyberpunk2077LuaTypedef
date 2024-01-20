@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class sampleTextScrolling: inkWidgetLogicController
----@field public scrollingText inkTextWidgetReference
----@field private infiniteloop inkanimPlaybackOptions
+---@field scrollingText inkTextWidgetReference
+---@field infiniteloop inkanimPlaybackOptions
 sampleTextScrolling = {}
 
 ---@param fields? sampleTextScrolling
 ---@return sampleTextScrolling
-function sampleTextScrolling.new(fields) return end
+function sampleTextScrolling.new(fields) end
 
----@protected
 ---@return Bool
-function sampleTextScrolling:OnInitialize() return end
+function sampleTextScrolling:OnInitialize() end

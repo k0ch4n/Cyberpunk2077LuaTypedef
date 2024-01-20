@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entRagdollNotifyEnabledEvent: redEvent
----@field public instigator entEntityID
+---@field instigator entEntityID
 entRagdollNotifyEnabledEvent = {}
 
 ---@param fields? entRagdollNotifyEnabledEvent
 ---@return entRagdollNotifyEnabledEvent
-function entRagdollNotifyEnabledEvent.new(fields) return end
+function entRagdollNotifyEnabledEvent.new(fields) end

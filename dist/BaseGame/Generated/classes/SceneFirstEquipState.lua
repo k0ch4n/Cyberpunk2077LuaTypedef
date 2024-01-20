@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SceneFirstEquipState: redEvent
----@field public prevented Bool
+---@field prevented Bool
 SceneFirstEquipState = {}
 
 ---@param fields? SceneFirstEquipState
 ---@return SceneFirstEquipState
-function SceneFirstEquipState.new(fields) return end
+function SceneFirstEquipState.new(fields) end
 
 ---@return String
-function SceneFirstEquipState:GetFriendlyDescription() return end
+function SceneFirstEquipState:GetFriendlyDescription() end

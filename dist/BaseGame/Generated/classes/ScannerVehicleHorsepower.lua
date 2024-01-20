@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class ScannerVehicleHorsepower: ScannerChunk
----@field private horsepower Int32
+---@field horsepower Int32
 ScannerVehicleHorsepower = {}
 
 ---@param fields? ScannerVehicleHorsepower
 ---@return ScannerVehicleHorsepower
-function ScannerVehicleHorsepower.new(fields) return end
+function ScannerVehicleHorsepower.new(fields) end
 
 ---@return Int32
-function ScannerVehicleHorsepower:GetHorsepower() return end
+function ScannerVehicleHorsepower:GetHorsepower() end
 
 ---@return ScannerDataType
-function ScannerVehicleHorsepower:GetType() return end
+function ScannerVehicleHorsepower:GetType() end
 
 ---@return Bool
-function ScannerVehicleHorsepower:IsValid() return end
+function ScannerVehicleHorsepower:IsValid() end
 
 ---@param hp Int32
 ---@return nil
-function ScannerVehicleHorsepower:Set(hp) return end
+function ScannerVehicleHorsepower:Set(hp) end

@@ -1,31 +1,31 @@
 ---@meta
 
 ---@class QuickSlotCommand
----@field public ActionType QuickSlotActionType
----@field public IsSlotUnlocked Bool
----@field public IsLocked Bool
----@field public AtlasPath CName
----@field public IconName CName
----@field public MaxTier Int32
----@field public VehicleState Int32
----@field public ItemId gameItemID
----@field public Title String
----@field public Type String
----@field public Description String
----@field public IsEquipped Bool
----@field public intData Int32
----@field public playerVehicleData vehiclePlayerVehicle
----@field public itemType QuickSlotItemType
----@field public equipType gamedataEquipmentArea
----@field public slotIndex Int32
----@field public interactiveAction gamedeviceAction
----@field public interactiveActionOwner entEntityID
+---@field ActionType QuickSlotActionType
+---@field IsSlotUnlocked Bool
+---@field IsLocked Bool
+---@field AtlasPath CName
+---@field IconName CName
+---@field MaxTier Int32
+---@field VehicleState Int32
+---@field ItemId gameItemID
+---@field Title String
+---@field Type String
+---@field Description String
+---@field IsEquipped Bool
+---@field intData Int32
+---@field playerVehicleData vehiclePlayerVehicle
+---@field itemType QuickSlotItemType
+---@field equipType gamedataEquipmentArea
+---@field slotIndex Int32
+---@field interactiveAction gamedeviceAction
+---@field interactiveActionOwner entEntityID
 QuickSlotCommand = {}
 
 ---@param fields? QuickSlotCommand
 ---@return QuickSlotCommand
-function QuickSlotCommand.new(fields) return end
+function QuickSlotCommand.new(fields) end
 
 ---@param self QuickSlotCommand
 ---@return Bool
-function QuickSlotCommand.IsEmpty(self) return end
+function QuickSlotCommand.IsEmpty(self) end

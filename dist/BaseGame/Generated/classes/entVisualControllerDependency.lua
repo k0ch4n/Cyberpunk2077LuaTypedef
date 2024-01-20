@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entVisualControllerDependency
----@field public mesh CMesh
----@field public appearanceName CName
----@field public componentName CName
+---@field mesh CMesh
+---@field appearanceName CName
+---@field componentName CName
 entVisualControllerDependency = {}
 
 ---@param fields? entVisualControllerDependency
 ---@return entVisualControllerDependency
-function entVisualControllerDependency.new(fields) return end
+function entVisualControllerDependency.new(fields) end

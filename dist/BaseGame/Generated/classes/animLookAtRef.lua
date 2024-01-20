@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animLookAtRef
----@field public id Int32
----@field public part CName
+---@field id Int32
+---@field part CName
 animLookAtRef = {}
 
 ---@param fields? animLookAtRef
 ---@return animLookAtRef
-function animLookAtRef.new(fields) return end
+function animLookAtRef.new(fields) end

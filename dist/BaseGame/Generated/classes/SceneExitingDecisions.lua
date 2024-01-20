@@ -5,14 +5,14 @@ SceneExitingDecisions = {}
 
 ---@param fields? SceneExitingDecisions
 ---@return SceneExitingDecisions
-function SceneExitingDecisions.new(fields) return end
+function SceneExitingDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneExitingDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SceneExitingDecisions:EnterCondition(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneExitingDecisions:ExitCondition(stateContext, scriptInterface) return end
+function SceneExitingDecisions:ExitCondition(stateContext, scriptInterface) end

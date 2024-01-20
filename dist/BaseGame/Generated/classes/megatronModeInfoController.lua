@@ -1,25 +1,24 @@
 ---@meta
 
 ---@class megatronModeInfoController: TriggerModeLogicController
----@field private ammoBarVisibility inkWidget
----@field private chargeBarVisibility inkWidget
----@field private fullAutoModeText inkWidget
----@field private chargeModeText inkWidget
----@field private fullAutoModeBG inkWidget
----@field private chargeModeBG inkWidget
----@field private bg1 inkWidget
----@field private bg2 inkWidget
----@field private vignette inkWidget
+---@field ammoBarVisibility inkWidget
+---@field chargeBarVisibility inkWidget
+---@field fullAutoModeText inkWidget
+---@field chargeModeText inkWidget
+---@field fullAutoModeBG inkWidget
+---@field chargeModeBG inkWidget
+---@field bg1 inkWidget
+---@field bg2 inkWidget
+---@field vignette inkWidget
 megatronModeInfoController = {}
 
 ---@param fields? megatronModeInfoController
 ---@return megatronModeInfoController
-function megatronModeInfoController.new(fields) return end
+function megatronModeInfoController.new(fields) end
 
----@protected
 ---@return Bool
-function megatronModeInfoController:OnInitialize() return end
+function megatronModeInfoController:OnInitialize() end
 
 ---@param value gamedataTriggerMode_Record
 ---@return nil
-function megatronModeInfoController:OnTriggerModeChanged(value) return end
+function megatronModeInfoController:OnTriggerModeChanged(value) end

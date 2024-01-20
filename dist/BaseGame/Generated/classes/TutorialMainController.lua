@@ -1,34 +1,32 @@
 ---@meta
 
 ---@class TutorialMainController: gameuiWidgetGameController
----@field private instructionPanel inkWidgetReference
----@field private instructionDesc inkTextWidgetReference
----@field private pointer inkWidgetReference
----@field private tutorialActive Bool
----@field private currentTutorialStep TutorialStep
+---@field instructionPanel inkWidgetReference
+---@field instructionDesc inkTextWidgetReference
+---@field pointer inkWidgetReference
+---@field tutorialActive Bool
+---@field currentTutorialStep TutorialStep
 TutorialMainController = {}
 
 ---@param fields? TutorialMainController
 ---@return TutorialMainController
-function TutorialMainController.new(fields) return end
+function TutorialMainController.new(fields) end
 
----@protected
 ---@return Bool
-function TutorialMainController:OnInitialize() return end
+function TutorialMainController:OnInitialize() end
 
----@protected
 ---@return Bool
-function TutorialMainController:OnUnitialize() return end
+function TutorialMainController:OnUnitialize() end
 
 ---@return nil
-function TutorialMainController:CompleteTutorial() return end
+function TutorialMainController:CompleteTutorial() end
 
 ---@return Bool
-function TutorialMainController:IsTutorialActive() return end
+function TutorialMainController:IsTutorialActive() end
 
 ---@return nil
-function TutorialMainController:StartTutorial() return end
+function TutorialMainController:StartTutorial() end
 
 ---@param step TutorialStep
 ---@return nil
-function TutorialMainController:UpdateTutorialStep(step) return end
+function TutorialMainController:UpdateTutorialStep(step) end

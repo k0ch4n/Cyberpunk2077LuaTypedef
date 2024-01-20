@@ -5,4 +5,4 @@ TriggerModeLogicController = {}
 
 ---@param value gamedataTriggerMode_Record
 ---@return nil
-function TriggerModeLogicController:OnTriggerModeChanged(value) return end
+function TriggerModeLogicController:OnTriggerModeChanged(value) end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class workExitAnim: workIEntry
----@field public animName CName
----@field public disableAutoTransition Bool
----@field public idleAnim CName
----@field public movementType moveMovementType
----@field public isSynchronized Bool
----@field public stayOnNavmesh Bool
----@field public snapZToNavmesh Bool
----@field public forceNoZSnap Bool
----@field public slotName CName
----@field public syncOffset Transform
----@field public disableRandomExit Bool
+---@field animName CName
+---@field disableAutoTransition Bool
+---@field idleAnim CName
+---@field movementType moveMovementType
+---@field isSynchronized Bool
+---@field stayOnNavmesh Bool
+---@field snapZToNavmesh Bool
+---@field forceNoZSnap Bool
+---@field slotName CName
+---@field syncOffset Transform
+---@field disableRandomExit Bool
 workExitAnim = {}
 
 ---@param fields? workExitAnim
 ---@return workExitAnim
-function workExitAnim.new(fields) return end
+function workExitAnim.new(fields) end

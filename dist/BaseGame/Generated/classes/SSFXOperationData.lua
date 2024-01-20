@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SSFXOperationData
----@field public sfxName CName
----@field public operationType EEffectOperationType
+---@field sfxName CName
+---@field operationType EEffectOperationType
 SSFXOperationData = {}
 
 ---@param fields? SSFXOperationData
 ---@return SSFXOperationData
-function SSFXOperationData.new(fields) return end
+function SSFXOperationData.new(fields) end

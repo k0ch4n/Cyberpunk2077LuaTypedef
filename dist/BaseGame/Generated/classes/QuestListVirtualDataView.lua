@@ -1,32 +1,31 @@
 ---@meta
 
 ---@class QuestListVirtualDataView: inkScriptableDataViewWrapper
----@field private filterType QuestListItemType
----@field private compareBuilder CompareBuilder
----@field private currentQuestSortType QuestListSortType
+---@field filterType QuestListItemType
+---@field compareBuilder CompareBuilder
+---@field currentQuestSortType QuestListSortType
 QuestListVirtualDataView = {}
 
 ---@param fields? QuestListVirtualDataView
 ---@return QuestListVirtualDataView
-function QuestListVirtualDataView.new(fields) return end
+function QuestListVirtualDataView.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function QuestListVirtualDataView:FilterItem(data) return end
+function QuestListVirtualDataView:FilterItem(data) end
 
 ---@param type QuestListItemType
 ---@return nil
-function QuestListVirtualDataView:SetFilter(type) return end
+function QuestListVirtualDataView:SetFilter(type) end
 
 ---@param type QuestListSortType
 ---@return nil
-function QuestListVirtualDataView:SetSortType(type) return end
+function QuestListVirtualDataView:SetSortType(type) end
 
 ---@return nil
-function QuestListVirtualDataView:Setup() return end
+function QuestListVirtualDataView:Setup() end
 
----@protected
 ---@param left IScriptable
 ---@param right IScriptable
 ---@return Bool
-function QuestListVirtualDataView:SortItem(left, right) return end
+function QuestListVirtualDataView:SortItem(left, right) end

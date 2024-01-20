@@ -5,25 +5,25 @@ gamedataAICalculateLineOfSightVector_Record = {}
 
 ---@param fields? gamedataAICalculateLineOfSightVector_Record
 ---@return gamedataAICalculateLineOfSightVector_Record
-function gamedataAICalculateLineOfSightVector_Record.new(fields) return end
+function gamedataAICalculateLineOfSightVector_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAICalculateLineOfSightVector_Record:EndPosition() return end
+function gamedataAICalculateLineOfSightVector_Record:EndPosition() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAICalculateLineOfSightVector_Record:EndPositionHandle() return end
+function gamedataAICalculateLineOfSightVector_Record:EndPositionHandle() end
 
 ---@return Vector3
-function gamedataAICalculateLineOfSightVector_Record:EndPositionOffset() return end
+function gamedataAICalculateLineOfSightVector_Record:EndPositionOffset() end
 
 ---@return Bool
-function gamedataAICalculateLineOfSightVector_Record:IgnoreNonPenetrableObj() return end
+function gamedataAICalculateLineOfSightVector_Record:IgnoreNonPenetrableObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAICalculateLineOfSightVector_Record:StartPosition() return end
+function gamedataAICalculateLineOfSightVector_Record:StartPosition() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAICalculateLineOfSightVector_Record:StartPositionHandle() return end
+function gamedataAICalculateLineOfSightVector_Record:StartPositionHandle() end
 
 ---@return Vector3
-function gamedataAICalculateLineOfSightVector_Record:StartPositionOffset() return end
+function gamedataAICalculateLineOfSightVector_Record:StartPositionOffset() end

@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class CoderControllerPS: BasicDistractionDeviceControllerPS
----@field private providedAuthorizationLevel ESecurityAccessLevel
+---@field providedAuthorizationLevel ESecurityAccessLevel
 CoderControllerPS = {}
 
 ---@param fields? CoderControllerPS
 ---@return CoderControllerPS
-function CoderControllerPS.new(fields) return end
+function CoderControllerPS.new(fields) end
 
----@protected
 ---@param isForced? Bool
 ---@return AuthorizeUser
-function CoderControllerPS:ActionAuthorizeUser(isForced) return end
+function CoderControllerPS:ActionAuthorizeUser(isForced) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function CoderControllerPS:GetActions(context) return end
+function CoderControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function CoderControllerPS:GetBackgroundTextureTweakDBID() return end
+function CoderControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function CoderControllerPS:GetDeviceIconTweakDBID() return end
+function CoderControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param evt AuthorizeUser
 ---@return EntityNotificationType
-function CoderControllerPS:OnAuthorizeUser(evt) return end
+function CoderControllerPS:OnAuthorizeUser(evt) end

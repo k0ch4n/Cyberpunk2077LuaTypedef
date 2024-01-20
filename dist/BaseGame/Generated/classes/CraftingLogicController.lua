@@ -1,209 +1,174 @@
 ---@meta
 
 ---@class CraftingLogicController: CraftingMainLogicController
----@field private ingredientsWeaponContainer inkCompoundWidgetReference
----@field private itemPreviewContainer inkWidgetReference
----@field private weaponPreviewContainer inkWidgetReference
----@field private garmentPreviewContainer inkWidgetReference
----@field private perkNotificationContainer inkWidgetReference
----@field private perkNotificationText inkTextWidgetReference
----@field private itemTooltipController AGenericTooltipController
----@field private quickHackTooltipController AGenericTooltipController
----@field private tooltipData ATooltipData
----@field private ingredientWeaponController InventoryWeaponDisplayController
----@field private ingredientClothingController InventoryWeaponDisplayController
----@field private selectedItemGameData gameItemData
----@field private quantityPickerPopupToken inkGameNotificationToken
----@field private playerCraftBook CraftBook
----@field private hasSpawnedQuickHackTooltip Bool
----@field private timeUntilReset Float
+---@field ingredientsWeaponContainer inkCompoundWidgetReference
+---@field itemPreviewContainer inkWidgetReference
+---@field weaponPreviewContainer inkWidgetReference
+---@field garmentPreviewContainer inkWidgetReference
+---@field perkNotificationContainer inkWidgetReference
+---@field perkNotificationText inkTextWidgetReference
+---@field itemTooltipController AGenericTooltipController
+---@field quickHackTooltipController AGenericTooltipController
+---@field tooltipData ATooltipData
+---@field ingredientWeaponController InventoryWeaponDisplayController
+---@field ingredientClothingController InventoryWeaponDisplayController
+---@field selectedItemGameData gameItemData
+---@field quantityPickerPopupToken inkGameNotificationToken
+---@field playerCraftBook CraftBook
+---@field hasSpawnedQuickHackTooltip Bool
+---@field timeUntilReset Float
 CraftingLogicController = {}
 
 ---@param fields? CraftingLogicController
 ---@return CraftingLogicController
-function CraftingLogicController.new(fields) return end
+function CraftingLogicController.new(fields) end
 
----@private
 ---@param quality gamedataQuality
 ---@return Int32
-function CraftingLogicController.GetMinimumLevelRequiredByQuality(quality) return end
+function CraftingLogicController.GetMinimumLevelRequiredByQuality(quality) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CraftingLogicController:OnClothingControllerSpawned(widget, userData) return end
+function CraftingLogicController:OnClothingControllerSpawned(widget, userData) end
 
----@protected
 ---@param hoverOverEvent ItemDisplayHoverOverEvent
 ---@return Bool
-function CraftingLogicController:OnDisplayHoverOver(hoverOverEvent) return end
+function CraftingLogicController:OnDisplayHoverOver(hoverOverEvent) end
 
----@protected
 ---@param evt ProgressBarFinishedProccess
 ---@return Bool
-function CraftingLogicController:OnHoldFinished(evt) return end
+function CraftingLogicController:OnHoldFinished(evt) end
 
----@protected
 ---@param evt ItemDisplayHoverOverEvent
 ---@return Bool
-function CraftingLogicController:OnItemDisplayHoverOver(evt) return end
+function CraftingLogicController:OnItemDisplayHoverOver(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CraftingLogicController:OnItemTooltipSpawned(widget, userData) return end
+function CraftingLogicController:OnItemTooltipSpawned(widget, userData) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function CraftingLogicController:OnQuantityPickerEvent(data) return end
+function CraftingLogicController:OnQuantityPickerEvent(data) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CraftingLogicController:OnQuickHackTooltipSpawned(widget, userData) return end
+function CraftingLogicController:OnQuickHackTooltipSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function CraftingLogicController:OnUninitialize() return end
+function CraftingLogicController:OnUninitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CraftingLogicController:OnWeaponControllerSpawned(widget, userData) return end
+function CraftingLogicController:OnWeaponControllerSpawned(widget, userData) end
 
----@private
 ---@param selectedRecipe RecipeData
 ---@param amount Int32
 ---@return nil
-function CraftingLogicController:CraftItem(selectedRecipe, amount) return end
+function CraftingLogicController:CraftItem(selectedRecipe, amount) end
 
----@private
 ---@param selectedRecipe RecipeData
 ---@return nil
-function CraftingLogicController:DryMakeItem(selectedRecipe) return end
+function CraftingLogicController:DryMakeItem(selectedRecipe) end
 
----@private
 ---@return nil
-function CraftingLogicController:EnableMainTooltip() return end
+function CraftingLogicController:EnableMainTooltip() end
 
----@private
 ---@return nil
-function CraftingLogicController:EnableQuickHackTooltip() return end
+function CraftingLogicController:EnableQuickHackTooltip() end
 
----@private
 ---@param itemRecord gamedataItem_Record
 ---@return gameInventoryItemData
-function CraftingLogicController:GetInventoryItemDataFromRecord(itemRecord) return end
+function CraftingLogicController:GetInventoryItemDataFromRecord(itemRecord) end
 
----@private
 ---@return MinimalItemTooltipData
-function CraftingLogicController:GetMinimalInvetoryItemData() return end
+function CraftingLogicController:GetMinimalInvetoryItemData() end
 
----@private
 ---@return gamedataQuality
-function CraftingLogicController:GetQuality() return end
+function CraftingLogicController:GetQuality() end
 
----@private
 ---@param recipeData RecipeData
 ---@param inventoryItemData gameInventoryItemData
 ---@param gameData gameItemData
 ---@return ATooltipData
-function CraftingLogicController:GetQuickHackTooltipData(recipeData, inventoryItemData, gameData) return end
+function CraftingLogicController:GetQuickHackTooltipData(recipeData, inventoryItemData, gameData) end
 
----@private
 ---@return IScriptable[]
-function CraftingLogicController:GetRecipesList() return end
+function CraftingLogicController:GetRecipesList() end
 
----@private
 ---@return Bool
-function CraftingLogicController:HasAmmoCap() return end
+function CraftingLogicController:HasAmmoCap() end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function CraftingLogicController:HideMods(data) return end
+function CraftingLogicController:HideMods(data) end
 
 ---@param craftingGameController CraftingMainGameController
 ---@return nil
-function CraftingLogicController:Init(craftingGameController) return end
+function CraftingLogicController:Init(craftingGameController) end
 
----@private
 ---@return Bool
-function CraftingLogicController:IsCurrentSelectedRecipeValid() return end
+function CraftingLogicController:IsCurrentSelectedRecipeValid() end
 
----@private
 ---@return Bool
-function CraftingLogicController:IsQuickHackItem() return end
+function CraftingLogicController:IsQuickHackItem() end
 
 ---@return nil
-function CraftingLogicController:OnChangeTab() return end
+function CraftingLogicController:OnChangeTab() end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param maxQuantity Int32
 ---@return nil
-function CraftingLogicController:OpenQuantityPicker(itemData, maxQuantity) return end
+function CraftingLogicController:OpenQuantityPicker(itemData, maxQuantity) end
 
 ---@param inventoryItemData? gameInventoryItemData
 ---@return nil
-function CraftingLogicController:RefreshListViewContent(inventoryItemData) return end
+function CraftingLogicController:RefreshListViewContent(inventoryItemData) end
 
 ---@return nil
-function CraftingLogicController:ResetViewDelayed() return end
+function CraftingLogicController:ResetViewDelayed() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return nil
-function CraftingLogicController:SetItemButtonHintsHoverOver(evt) return end
+function CraftingLogicController:SetItemButtonHintsHoverOver(evt) end
 
----@private
 ---@param isQuickHack Bool
 ---@return nil
-function CraftingLogicController:SetNotification(isQuickHack) return end
+function CraftingLogicController:SetNotification(isQuickHack) end
 
----@private
 ---@return nil
-function CraftingLogicController:SetQualityHeader() return end
+function CraftingLogicController:SetQualityHeader() end
 
----@protected
 ---@return nil
-function CraftingLogicController:SetupFilters() return end
+function CraftingLogicController:SetupFilters() end
 
----@protected
 ---@return nil
-function CraftingLogicController:SetupIngredientWidgets() return end
+function CraftingLogicController:SetupIngredientWidgets() end
 
----@private
 ---@param ingredient IngredientData[]
 ---@param itemAmount Int32
 ---@return nil
-function CraftingLogicController:SetupIngredients(ingredient, itemAmount) return end
+function CraftingLogicController:SetupIngredients(ingredient, itemAmount) end
 
----@private
 ---@param isEnabled Bool
 ---@return nil
-function CraftingLogicController:ToggleMainTooltip(isEnabled) return end
+function CraftingLogicController:ToggleMainTooltip(isEnabled) end
 
----@private
 ---@param isEnabled Bool
 ---@return nil
-function CraftingLogicController:ToggleQuickHackTooltip(isEnabled) return end
+function CraftingLogicController:ToggleQuickHackTooltip(isEnabled) end
 
----@protected
 ---@param craftableController CraftableItemLogicController
 ---@return nil
-function CraftingLogicController:UpdateItemPreview(craftableController) return end
+function CraftingLogicController:UpdateItemPreview(craftableController) end
 
----@private
 ---@param selectedRecipe RecipeData
 ---@return nil
-function CraftingLogicController:UpdateRecipePreviewPanel(selectedRecipe) return end
+function CraftingLogicController:UpdateRecipePreviewPanel(selectedRecipe) end
 
----@private
 ---@return nil
-function CraftingLogicController:UpdateTooltipData() return end
+function CraftingLogicController:UpdateTooltipData() end

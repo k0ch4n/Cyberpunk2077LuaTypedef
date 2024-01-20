@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameAppearanceNameVisualTagsPreset_AppearanceTags: ISerializable
----@field public appearanceName CName
----@field public visualTags redTagList
+---@field appearanceName CName
+---@field visualTags redTagList
 gameAppearanceNameVisualTagsPreset_AppearanceTags = {}
 
 ---@param fields? gameAppearanceNameVisualTagsPreset_AppearanceTags
 ---@return gameAppearanceNameVisualTagsPreset_AppearanceTags
-function gameAppearanceNameVisualTagsPreset_AppearanceTags.new(fields) return end
+function gameAppearanceNameVisualTagsPreset_AppearanceTags.new(fields) end

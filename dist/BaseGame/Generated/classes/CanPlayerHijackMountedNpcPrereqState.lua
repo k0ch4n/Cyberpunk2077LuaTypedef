@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class CanPlayerHijackMountedNpcPrereqState: gamePrereqState
----@field public mountingListener gameScriptedPrereqMountingListenerWrapper
+---@field mountingListener gameScriptedPrereqMountingListenerWrapper
 CanPlayerHijackMountedNpcPrereqState = {}
 
 ---@param fields? CanPlayerHijackMountedNpcPrereqState
 ---@return CanPlayerHijackMountedNpcPrereqState
-function CanPlayerHijackMountedNpcPrereqState.new(fields) return end
+function CanPlayerHijackMountedNpcPrereqState.new(fields) end
 
----@protected
 ---@return nil
-function CanPlayerHijackMountedNpcPrereqState:OnMountingStateChanged() return end
+function CanPlayerHijackMountedNpcPrereqState:OnMountingStateChanged() end

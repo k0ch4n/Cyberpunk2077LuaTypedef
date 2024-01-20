@@ -5,14 +5,13 @@ PlayerSquadInterface = {}
 
 ---@param fields? PlayerSquadInterface
 ---@return PlayerSquadInterface
-function PlayerSquadInterface.new(fields) return end
+function PlayerSquadInterface.new(fields) end
 
 ---@param command AICommand
 ---@return nil
-function PlayerSquadInterface:BroadcastCommand(command) return end
+function PlayerSquadInterface:BroadcastCommand(command) end
 
----@private
 ---@param member entEntity
 ---@param command AICommand
 ---@return nil
-function PlayerSquadInterface:GiveCommandToSquadMember(member, command) return end
+function PlayerSquadInterface:GiveCommandToSquadMember(member, command) end

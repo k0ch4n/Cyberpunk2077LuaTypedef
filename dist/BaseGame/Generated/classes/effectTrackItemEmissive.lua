@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class effectTrackItemEmissive: effectTrackItem
----@field public override Bool
----@field public brigtness effectEffectParameterEvaluatorFloat
+---@field override Bool
+---@field brigtness effectEffectParameterEvaluatorFloat
 effectTrackItemEmissive = {}
 
 ---@param fields? effectTrackItemEmissive
 ---@return effectTrackItemEmissive
-function effectTrackItemEmissive.new(fields) return end
+function effectTrackItemEmissive.new(fields) end

@@ -1,107 +1,92 @@
 ---@meta
 
 ---@class PerkDisplayController: inkButtonController
----@field protected levelText inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected fluffText inkTextWidgetReference
----@field protected requiredTrainerIcon inkWidgetReference
----@field protected requiredPointsText inkTextWidgetReference
----@field protected displayData BasePerkDisplayData
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected playerDevelopmentData PlayerDevelopmentData
----@field protected recentlyPurchased Bool
----@field protected holdStarted Bool
----@field protected isTrait Bool
----@field protected wasLocked Bool
----@field protected index Int32
----@field protected cool_in_proxy inkanimProxy
----@field protected cool_out_proxy inkanimProxy
+---@field levelText inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field fluffText inkTextWidgetReference
+---@field requiredTrainerIcon inkWidgetReference
+---@field requiredPointsText inkTextWidgetReference
+---@field displayData BasePerkDisplayData
+---@field dataManager PlayerDevelopmentDataManager
+---@field playerDevelopmentData PlayerDevelopmentData
+---@field recentlyPurchased Bool
+---@field holdStarted Bool
+---@field isTrait Bool
+---@field wasLocked Bool
+---@field index Int32
+---@field cool_in_proxy inkanimProxy
+---@field cool_out_proxy inkanimProxy
 PerkDisplayController = {}
 
 ---@param fields? PerkDisplayController
 ---@return PerkDisplayController
-function PerkDisplayController.new(fields) return end
+function PerkDisplayController.new(fields) end
 
----@protected
 ---@return Bool
-function PerkDisplayController:OnInitialize() return end
+function PerkDisplayController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerkDisplayController:OnPerkDisplayClick(evt) return end
+function PerkDisplayController:OnPerkDisplayClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerkDisplayController:OnPerkDisplayHold(evt) return end
+function PerkDisplayController:OnPerkDisplayHold(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerkDisplayController:OnPerkItemHoverOut(evt) return end
+function PerkDisplayController:OnPerkItemHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerkDisplayController:OnPerkItemHoverOver(evt) return end
+function PerkDisplayController:OnPerkItemHoverOver(evt) end
 
----@protected
 ---@return Bool
-function PerkDisplayController:OnUninitialize() return end
+function PerkDisplayController:OnUninitialize() end
 
----@protected
 ---@param evt UnlimitedUnlocked
 ---@return Bool
-function PerkDisplayController:OnUnlimitedUnlocked(evt) return end
+function PerkDisplayController:OnUnlimitedUnlocked(evt) end
 
 ---@param newDisplayData BasePerkDisplayData
 ---@param oldDisplayData BasePerkDisplayData
 ---@return nil
-function PerkDisplayController:CheckRevealAnimation(newDisplayData, oldDisplayData) return end
+function PerkDisplayController:CheckRevealAnimation(newDisplayData, oldDisplayData) end
 
----@protected
 ---@param perkData PerkDisplayData
 ---@param offset? Int32
 ---@return Int32
-function PerkDisplayController:GetFluffRand(perkData, offset) return end
+function PerkDisplayController:GetFluffRand(perkData, offset) end
 
----@protected
 ---@param traitData TraitDisplayData
 ---@param offset? Int32
 ---@return Int32
-function PerkDisplayController:GetFluffRand(traitData, offset) return end
+function PerkDisplayController:GetFluffRand(traitData, offset) end
 
----@private
 ---@param evt inkPointerEvent
 ---@return Bool
-function PerkDisplayController:IsActionNameCompatible(evt) return end
+function PerkDisplayController:IsActionNameCompatible(evt) end
 
 ---@param displayData BasePerkDisplayData
 ---@param dataManager PlayerDevelopmentDataManager
 ---@param index? Int32
 ---@return nil
-function PerkDisplayController:Setup(displayData, dataManager, index) return end
+function PerkDisplayController:Setup(displayData, dataManager, index) end
 
----@private
 ---@return nil
-function PerkDisplayController:StopHoverAnimations() return end
+function PerkDisplayController:StopHoverAnimations() end
 
----@private
 ---@param data BasePerkDisplayData
 ---@return nil
-function PerkDisplayController:UpdateLayout(data) return end
+function PerkDisplayController:UpdateLayout(data) end
 
----@private
 ---@param data PerkDisplayData
 ---@return nil
-function PerkDisplayController:UpdateLayout(data) return end
+function PerkDisplayController:UpdateLayout(data) end
 
----@private
 ---@param data TraitDisplayData
 ---@return nil
-function PerkDisplayController:UpdateLayout(data) return end
+function PerkDisplayController:UpdateLayout(data) end
 
----@private
 ---@return nil
-function PerkDisplayController:Upgrade() return end
+function PerkDisplayController:Upgrade() end

@@ -5,4 +5,4 @@ questGraphDefinition = {}
 
 ---@param fields? questGraphDefinition
 ---@return questGraphDefinition
-function questGraphDefinition.new(fields) return end
+function questGraphDefinition.new(fields) end

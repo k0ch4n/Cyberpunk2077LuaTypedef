@@ -5,23 +5,21 @@ DisassembleMasterControllerPS = {}
 
 ---@param fields? DisassembleMasterControllerPS
 ---@return DisassembleMasterControllerPS
-function DisassembleMasterControllerPS.new(fields) return end
+function DisassembleMasterControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function DisassembleMasterControllerPS:OnInstantiated() return end
+function DisassembleMasterControllerPS:OnInstantiated() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function DisassembleMasterControllerPS:GetActions(context) return end
+function DisassembleMasterControllerPS:GetActions(context) end
 
----@protected
 ---@return nil
-function DisassembleMasterControllerPS:Initialize() return end
+function DisassembleMasterControllerPS:Initialize() end
 
 ---@param evt DisassembleDevice
 ---@return EntityNotificationType
-function DisassembleMasterControllerPS:OnDisassembleDevice(evt) return end
+function DisassembleMasterControllerPS:OnDisassembleDevice(evt) end
 
 ---@return nil
-function DisassembleMasterControllerPS:RefreshLockOnSlaves() return end
+function DisassembleMasterControllerPS:RefreshLockOnSlaves() end

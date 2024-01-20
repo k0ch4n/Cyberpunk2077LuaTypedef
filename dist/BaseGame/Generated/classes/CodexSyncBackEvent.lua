@@ -5,4 +5,4 @@ CodexSyncBackEvent = {}
 
 ---@param fields? CodexSyncBackEvent
 ---@return CodexSyncBackEvent
-function CodexSyncBackEvent.new(fields) return end
+function CodexSyncBackEvent.new(fields) end

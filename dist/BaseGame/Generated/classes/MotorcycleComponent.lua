@@ -5,54 +5,43 @@ MotorcycleComponent = {}
 
 ---@param fields? MotorcycleComponent
 ---@return MotorcycleComponent
-function MotorcycleComponent.new(fields) return end
+function MotorcycleComponent.new(fields) end
 
----@protected
 ---@param evt KnockOverBikeEvent
 ---@return Bool
-function MotorcycleComponent:OnKnockOverBikeEvent(evt) return end
+function MotorcycleComponent:OnKnockOverBikeEvent(evt) end
 
----@protected
 ---@param evt gamemountingMountingEvent
 ---@return Bool
-function MotorcycleComponent:OnMountingEvent(evt) return end
+function MotorcycleComponent:OnMountingEvent(evt) end
 
----@protected
 ---@param evt vehicleRemoteControlEvent
 ---@return Bool
-function MotorcycleComponent:OnRemoteControlEvent(evt) return end
+function MotorcycleComponent:OnRemoteControlEvent(evt) end
 
----@protected
 ---@param evt vehicleToggleBrokenTireEvent
 ---@return Bool
-function MotorcycleComponent:OnToggleBrokenTireEvent(evt) return end
+function MotorcycleComponent:OnToggleBrokenTireEvent(evt) end
 
----@protected
 ---@param evt gamemountingUnmountingEvent
 ---@return Bool
-function MotorcycleComponent:OnUnmountingEvent(evt) return end
+function MotorcycleComponent:OnUnmountingEvent(evt) end
 
----@protected
 ---@param evt vehicleParkedEvent
 ---@return Bool
-function MotorcycleComponent:OnVehicleParkedEvent(evt) return end
+function MotorcycleComponent:OnVehicleParkedEvent(evt) end
 
----@private
 ---@return nil
-function MotorcycleComponent:ParkBike() return end
+function MotorcycleComponent:ParkBike() end
 
----@private
 ---@return nil
-function MotorcycleComponent:PickUpBike() return end
+function MotorcycleComponent:PickUpBike() end
 
----@private
 ---@return nil
-function MotorcycleComponent:StopBike() return end
+function MotorcycleComponent:StopBike() end
 
----@private
 ---@return nil
-function MotorcycleComponent:UnParkBike() return end
+function MotorcycleComponent:UnParkBike() end
 
----@private
 ---@return nil
-function MotorcycleComponent:WakeUpBike() return end
+function MotorcycleComponent:WakeUpBike() end

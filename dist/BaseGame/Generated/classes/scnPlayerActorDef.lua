@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class scnPlayerActorDef
----@field public actorId scnActorId
----@field public specTemplate CName
----@field public specCharacterRecordId TweakDBID
----@field public specAppearance CName
----@field public voicetagId scnVoicetagId
----@field public animSets scnSRRefId[]
----@field public lipsyncAnimSet scnLipsyncAnimSetSRRefId
----@field public facialAnimSets scnRidFacialAnimSetSRRefId[]
----@field public cyberwareAnimSets scnRidCyberwareAnimSetSRRefId[]
----@field public deformationAnimSets scnRidDeformationAnimSetSRRefId[]
----@field public bodyCinematicAnimSets scnCinematicAnimSetSRRefId[]
----@field public facialCinematicAnimSets scnCinematicAnimSetSRRefId[]
----@field public cyberwareCinematicAnimSets scnCinematicAnimSetSRRefId[]
----@field public dynamicAnimSets scnDynamicAnimSetSRRefId[]
----@field public acquisitionPlan scnEntityAcquisitionPlan
----@field public findNetworkPlayerParams scnFindNetworkPlayerParams
----@field public findActorInContextParams scnFindEntityInContextParams
----@field public playerName String
+---@field actorId scnActorId
+---@field specTemplate CName
+---@field specCharacterRecordId TweakDBID
+---@field specAppearance CName
+---@field voicetagId scnVoicetagId
+---@field animSets scnSRRefId[]
+---@field lipsyncAnimSet scnLipsyncAnimSetSRRefId
+---@field facialAnimSets scnRidFacialAnimSetSRRefId[]
+---@field cyberwareAnimSets scnRidCyberwareAnimSetSRRefId[]
+---@field deformationAnimSets scnRidDeformationAnimSetSRRefId[]
+---@field bodyCinematicAnimSets scnCinematicAnimSetSRRefId[]
+---@field facialCinematicAnimSets scnCinematicAnimSetSRRefId[]
+---@field cyberwareCinematicAnimSets scnCinematicAnimSetSRRefId[]
+---@field dynamicAnimSets scnDynamicAnimSetSRRefId[]
+---@field acquisitionPlan scnEntityAcquisitionPlan
+---@field findNetworkPlayerParams scnFindNetworkPlayerParams
+---@field findActorInContextParams scnFindEntityInContextParams
+---@field playerName String
 scnPlayerActorDef = {}
 
 ---@param fields? scnPlayerActorDef
 ---@return scnPlayerActorDef
-function scnPlayerActorDef.new(fields) return end
+function scnPlayerActorDef.new(fields) end

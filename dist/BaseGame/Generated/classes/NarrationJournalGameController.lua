@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class NarrationJournalGameController: gameuiHUDGameController
----@field private entriesContainer inkCompoundWidgetReference
----@field private narrationJournalBlackboardId redCallbackObject
+---@field entriesContainer inkCompoundWidgetReference
+---@field narrationJournalBlackboardId redCallbackObject
 NarrationJournalGameController = {}
 
 ---@param fields? NarrationJournalGameController
 ---@return NarrationJournalGameController
-function NarrationJournalGameController.new(fields) return end
+function NarrationJournalGameController.new(fields) end
 
----@protected
 ---@param entryWidget inkWidget
 ---@return Bool
-function NarrationJournalGameController:OnEntryHidden(entryWidget) return end
+function NarrationJournalGameController:OnEntryHidden(entryWidget) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function NarrationJournalGameController:OnEventAdded(value) return end
+function NarrationJournalGameController:OnEventAdded(value) end
 
----@protected
 ---@return Bool
-function NarrationJournalGameController:OnInitialize() return end
+function NarrationJournalGameController:OnInitialize() end
 
----@private
 ---@param entry gameuiNarrationEvent
 ---@return nil
-function NarrationJournalGameController:AddEntry(entry) return end
+function NarrationJournalGameController:AddEntry(entry) end

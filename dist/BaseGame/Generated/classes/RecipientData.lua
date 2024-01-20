@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RecipientData
----@field public fuseID Int32
----@field public entryID Int32
+---@field fuseID Int32
+---@field entryID Int32
 RecipientData = {}
 
 ---@param fields? RecipientData
 ---@return RecipientData
-function RecipientData.new(fields) return end
+function RecipientData.new(fields) end

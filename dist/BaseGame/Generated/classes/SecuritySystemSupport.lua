@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SecuritySystemSupport: redEvent
----@field public supportGranted Bool
+---@field supportGranted Bool
 SecuritySystemSupport = {}
 
 ---@param fields? SecuritySystemSupport
 ---@return SecuritySystemSupport
-function SecuritySystemSupport.new(fields) return end
+function SecuritySystemSupport.new(fields) end

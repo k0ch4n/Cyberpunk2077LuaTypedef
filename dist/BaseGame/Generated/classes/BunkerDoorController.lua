@@ -5,7 +5,7 @@ BunkerDoorController = {}
 
 ---@param fields? BunkerDoorController
 ---@return BunkerDoorController
-function BunkerDoorController.new(fields) return end
+function BunkerDoorController.new(fields) end
 
 ---@return BunkerDoorControllerPS
-function BunkerDoorController:GetPS() return end
+function BunkerDoorController:GetPS() end

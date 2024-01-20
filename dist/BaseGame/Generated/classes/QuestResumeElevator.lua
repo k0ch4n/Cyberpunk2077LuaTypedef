@@ -5,7 +5,7 @@ QuestResumeElevator = {}
 
 ---@param fields? QuestResumeElevator
 ---@return QuestResumeElevator
-function QuestResumeElevator.new(fields) return end
+function QuestResumeElevator.new(fields) end
 
 ---@return nil
-function QuestResumeElevator:SetProperties() return end
+function QuestResumeElevator:SetProperties() end

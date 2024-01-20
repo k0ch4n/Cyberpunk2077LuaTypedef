@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioLoopedSoundEmitterMetadata: audioEmitterMetadata
----@field public loopSound CName
+---@field loopSound CName
 audioLoopedSoundEmitterMetadata = {}
 
 ---@param fields? audioLoopedSoundEmitterMetadata
 ---@return audioLoopedSoundEmitterMetadata
-function audioLoopedSoundEmitterMetadata.new(fields) return end
+function audioLoopedSoundEmitterMetadata.new(fields) end

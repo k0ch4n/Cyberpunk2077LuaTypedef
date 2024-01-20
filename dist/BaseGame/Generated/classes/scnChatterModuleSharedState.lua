@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnChatterModuleSharedState: ISerializable
----@field public chatterHistory scnChatter[]
+---@field chatterHistory scnChatter[]
 scnChatterModuleSharedState = {}
 
 ---@param fields? scnChatterModuleSharedState
 ---@return scnChatterModuleSharedState
-function scnChatterModuleSharedState.new(fields) return end
+function scnChatterModuleSharedState.new(fields) end

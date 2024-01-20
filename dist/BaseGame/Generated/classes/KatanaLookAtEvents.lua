@@ -5,4 +5,4 @@ KatanaLookAtEvents = {}
 
 ---@param fields? KatanaLookAtEvents
 ---@return KatanaLookAtEvents
-function KatanaLookAtEvents.new(fields) return end
+function KatanaLookAtEvents.new(fields) end

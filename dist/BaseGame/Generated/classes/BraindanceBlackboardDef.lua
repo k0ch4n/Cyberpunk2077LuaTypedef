@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class BraindanceBlackboardDef: gamebbScriptDefinition
----@field public activeBraindanceVisionMode gamebbScriptID_Int32
----@field public lastBraindanceVisionMode gamebbScriptID_Int32
----@field public Progress gamebbScriptID_Float
----@field public SectionTime gamebbScriptID_Float
----@field public Clue gamebbScriptID_Variant
----@field public IsActive gamebbScriptID_Bool
----@field public EnableExit gamebbScriptID_Bool
----@field public IsFPP gamebbScriptID_Bool
----@field public PlaybackSpeed gamebbScriptID_Variant
----@field public PlaybackDirection gamebbScriptID_Variant
+---@field activeBraindanceVisionMode gamebbScriptID_Int32
+---@field lastBraindanceVisionMode gamebbScriptID_Int32
+---@field Progress gamebbScriptID_Float
+---@field SectionTime gamebbScriptID_Float
+---@field Clue gamebbScriptID_Variant
+---@field IsActive gamebbScriptID_Bool
+---@field EnableExit gamebbScriptID_Bool
+---@field IsFPP gamebbScriptID_Bool
+---@field PlaybackSpeed gamebbScriptID_Variant
+---@field PlaybackDirection gamebbScriptID_Variant
 BraindanceBlackboardDef = {}
 
 ---@param fields? BraindanceBlackboardDef
 ---@return BraindanceBlackboardDef
-function BraindanceBlackboardDef.new(fields) return end
+function BraindanceBlackboardDef.new(fields) end
 
 ---@return Bool
-function BraindanceBlackboardDef:AutoCreateInSystem() return end
+function BraindanceBlackboardDef:AutoCreateInSystem() end

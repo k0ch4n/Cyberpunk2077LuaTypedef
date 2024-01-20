@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AttachmentSlotCacheData
----@field public empty Bool
----@field public attachmentSlotRecord gamedataAttachmentSlot_Record
----@field public shouldBeAvailable Bool
----@field public slotId TweakDBID
+---@field empty Bool
+---@field attachmentSlotRecord gamedataAttachmentSlot_Record
+---@field shouldBeAvailable Bool
+---@field slotId TweakDBID
 AttachmentSlotCacheData = {}
 
 ---@param fields? AttachmentSlotCacheData
 ---@return AttachmentSlotCacheData
-function AttachmentSlotCacheData.new(fields) return end
+function AttachmentSlotCacheData.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIInterruptionHandlerBehaviorDefinition: AIInterruptionHandlerDefinition
----@field public ai LibTreeINodeDefinition
----@field public parallelActivation Bool
----@field public parallelExecution Bool
----@field public blockInterruption Bool
+---@field ai LibTreeINodeDefinition
+---@field parallelActivation Bool
+---@field parallelExecution Bool
+---@field blockInterruption Bool
 AIInterruptionHandlerBehaviorDefinition = {}
 
 ---@param fields? AIInterruptionHandlerBehaviorDefinition
 ---@return AIInterruptionHandlerBehaviorDefinition
-function AIInterruptionHandlerBehaviorDefinition.new(fields) return end
+function AIInterruptionHandlerBehaviorDefinition.new(fields) end

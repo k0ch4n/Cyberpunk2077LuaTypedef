@@ -5,4 +5,4 @@ senseOnEnterShapeEvent = {}
 
 ---@param fields? senseOnEnterShapeEvent
 ---@return senseOnEnterShapeEvent
-function senseOnEnterShapeEvent.new(fields) return end
+function senseOnEnterShapeEvent.new(fields) end

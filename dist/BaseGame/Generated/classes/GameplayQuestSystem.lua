@@ -1,59 +1,49 @@
 ---@meta
 
 ---@class GameplayQuestSystem: gameScriptableSystem
----@field private quests GamplayQuestData[]
+---@field quests GamplayQuestData[]
 GameplayQuestSystem = {}
 
 ---@param fields? GameplayQuestSystem
 ---@return GameplayQuestSystem
-function GameplayQuestSystem.new(fields) return end
+function GameplayQuestSystem.new(fields) end
 
----@private
 ---@param objectiveData GemplayObjectiveData
 ---@return nil
-function GameplayQuestSystem:AddObjective(objectiveData) return end
+function GameplayQuestSystem:AddObjective(objectiveData) end
 
----@private
 ---@param objectiveData GemplayObjectiveData
 ---@return GamplayQuestData
-function GameplayQuestSystem:CreateQuest(objectiveData) return end
+function GameplayQuestSystem:CreateQuest(objectiveData) end
 
----@private
 ---@param questData GamplayQuestData
 ---@return nil
-function GameplayQuestSystem:EvaluateQuest(questData) return end
+function GameplayQuestSystem:EvaluateQuest(questData) end
 
----@private
 ---@return gameJournalManager
-function GameplayQuestSystem:GetJournal() return end
+function GameplayQuestSystem:GetJournal() end
 
----@private
 ---@param objectiveData GemplayObjectiveData
 ---@return GamplayQuestData
-function GameplayQuestSystem:GetQuestData(objectiveData) return end
+function GameplayQuestSystem:GetQuestData(objectiveData) end
 
----@private
 ---@param questUniqueId String
 ---@return Bool
-function GameplayQuestSystem:HasQuest(questUniqueId) return end
+function GameplayQuestSystem:HasQuest(questUniqueId) end
 
----@private
 ---@param request RegisterGameplayObjectiveRequest
 ---@return nil
-function GameplayQuestSystem:OnRegisterObjective(request) return end
+function GameplayQuestSystem:OnRegisterObjective(request) end
 
----@private
 ---@param request SetGameplayObjectiveStateRequest
 ---@return nil
-function GameplayQuestSystem:OnSetObjectiveState(request) return end
+function GameplayQuestSystem:OnSetObjectiveState(request) end
 
----@private
 ---@param questData GamplayQuestData
 ---@return Bool
-function GameplayQuestSystem:RemoveQuest(questData) return end
+function GameplayQuestSystem:RemoveQuest(questData) end
 
----@private
 ---@param objectiveData GemplayObjectiveData
 ---@param objectiveState gameJournalEntryState
 ---@return nil
-function GameplayQuestSystem:SetObjectiveState(objectiveData, objectiveState) return end
+function GameplayQuestSystem:SetObjectiveState(objectiveData, objectiveState) end

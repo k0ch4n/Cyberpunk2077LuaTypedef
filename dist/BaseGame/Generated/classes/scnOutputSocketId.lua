@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnOutputSocketId
----@field public nodeId scnNodeId
----@field public osockStamp scnOutputSocketStamp
+---@field nodeId scnNodeId
+---@field osockStamp scnOutputSocketStamp
 scnOutputSocketId = {}
 
 ---@param fields? scnOutputSocketId
 ---@return scnOutputSocketId
-function scnOutputSocketId.new(fields) return end
+function scnOutputSocketId.new(fields) end

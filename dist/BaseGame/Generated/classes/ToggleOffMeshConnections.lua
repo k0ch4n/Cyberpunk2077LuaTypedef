@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ToggleOffMeshConnections: redEvent
----@field public enable Bool
----@field public affectsPlayer Bool
----@field public affectsNPCs Bool
+---@field enable Bool
+---@field affectsPlayer Bool
+---@field affectsNPCs Bool
 ToggleOffMeshConnections = {}
 
 ---@param fields? ToggleOffMeshConnections
 ---@return ToggleOffMeshConnections
-function ToggleOffMeshConnections.new(fields) return end
+function ToggleOffMeshConnections.new(fields) end

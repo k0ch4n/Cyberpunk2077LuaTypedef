@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questPrefabVariantReplicatedInfo
----@field public variantNameKey CName
----@field public show Bool
+---@field variantNameKey CName
+---@field show Bool
 questPrefabVariantReplicatedInfo = {}
 
 ---@param fields? questPrefabVariantReplicatedInfo
 ---@return questPrefabVariantReplicatedInfo
-function questPrefabVariantReplicatedInfo.new(fields) return end
+function questPrefabVariantReplicatedInfo.new(fields) end

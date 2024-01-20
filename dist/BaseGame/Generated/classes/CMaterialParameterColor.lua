@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CMaterialParameterColor: CMaterialParameter
----@field public color Color
+---@field color Color
 CMaterialParameterColor = {}
 
 ---@param fields? CMaterialParameterColor
 ---@return CMaterialParameterColor
-function CMaterialParameterColor.new(fields) return end
+function CMaterialParameterColor.new(fields) end

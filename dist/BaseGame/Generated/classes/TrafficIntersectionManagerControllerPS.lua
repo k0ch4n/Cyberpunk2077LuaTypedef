@@ -1,44 +1,40 @@
 ---@meta
 
 ---@class TrafficIntersectionManagerControllerPS: MasterControllerPS
----@field private trafficLightStatus worldTrafficLightColor
+---@field trafficLightStatus worldTrafficLightColor
 TrafficIntersectionManagerControllerPS = {}
 
 ---@param fields? TrafficIntersectionManagerControllerPS
 ---@return TrafficIntersectionManagerControllerPS
-function TrafficIntersectionManagerControllerPS.new(fields) return end
+function TrafficIntersectionManagerControllerPS.new(fields) end
 
----@private
 ---@return InitiateTrafficLightChange
-function TrafficIntersectionManagerControllerPS:ActionInitiateTrafficLightChange() return end
+function TrafficIntersectionManagerControllerPS:ActionInitiateTrafficLightChange() end
 
 ---@return worldTrafficLightColor
-function TrafficIntersectionManagerControllerPS:GetDesiredTrafficLightState() return end
+function TrafficIntersectionManagerControllerPS:GetDesiredTrafficLightState() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function TrafficIntersectionManagerControllerPS:GetQuestActions(context) return end
+function TrafficIntersectionManagerControllerPS:GetQuestActions(context) end
 
 ---@return nil
-function TrafficIntersectionManagerControllerPS:HandleLightChangeRequest() return end
+function TrafficIntersectionManagerControllerPS:HandleLightChangeRequest() end
 
----@private
 ---@return nil
-function TrafficIntersectionManagerControllerPS:InitiateChangeLightsSequenceForEntireIntersection() return end
+function TrafficIntersectionManagerControllerPS:InitiateChangeLightsSequenceForEntireIntersection() end
 
 ---@param evt InitiateTrafficLightChange
 ---@return EntityNotificationType
-function TrafficIntersectionManagerControllerPS:OnInitiateTrafficLightChange(evt) return end
+function TrafficIntersectionManagerControllerPS:OnInitiateTrafficLightChange(evt) end
 
 ---@param newColor worldTrafficLightColor
 ---@return nil
-function TrafficIntersectionManagerControllerPS:SetLightChangeRequest(newColor) return end
+function TrafficIntersectionManagerControllerPS:SetLightChangeRequest(newColor) end
 
----@private
 ---@param newColor worldTrafficLightColor
 ---@return nil
-function TrafficIntersectionManagerControllerPS:SetLightsSequenceForEntireIntersection(newColor) return end
+function TrafficIntersectionManagerControllerPS:SetLightsSequenceForEntireIntersection(newColor) end
 
----@private
 ---@return nil
-function TrafficIntersectionManagerControllerPS:ToggleLights() return end
+function TrafficIntersectionManagerControllerPS:ToggleLights() end

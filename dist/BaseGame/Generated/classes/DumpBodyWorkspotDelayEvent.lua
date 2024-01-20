@@ -5,4 +5,4 @@ DumpBodyWorkspotDelayEvent = {}
 
 ---@param fields? DumpBodyWorkspotDelayEvent
 ---@return DumpBodyWorkspotDelayEvent
-function DumpBodyWorkspotDelayEvent.new(fields) return end
+function DumpBodyWorkspotDelayEvent.new(fields) end

@@ -5,8 +5,8 @@ IsMultiplayerGamePrereq = {}
 
 ---@param fields? IsMultiplayerGamePrereq
 ---@return IsMultiplayerGamePrereq
-function IsMultiplayerGamePrereq.new(fields) return end
+function IsMultiplayerGamePrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function IsMultiplayerGamePrereq:IsFulfilled(context) return end
+function IsMultiplayerGamePrereq:IsFulfilled(context) end

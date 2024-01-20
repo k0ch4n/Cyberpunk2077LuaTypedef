@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ClueStatusNotification: HUDManagerRequest
----@field public isClue Bool
----@field public clueGroupID CName
+---@field isClue Bool
+---@field clueGroupID CName
 ClueStatusNotification = {}
 
 ---@param fields? ClueStatusNotification
 ---@return ClueStatusNotification
-function ClueStatusNotification.new(fields) return end
+function ClueStatusNotification.new(fields) end

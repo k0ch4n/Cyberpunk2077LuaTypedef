@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class RaceCheckpointSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field recordID TweakDBID
 RaceCheckpointSelector = {}
 
 ---@param fields? RaceCheckpointSelector
 ---@return RaceCheckpointSelector
-function RaceCheckpointSelector.new(fields) return end
+function RaceCheckpointSelector.new(fields) end
 
 ---@return TweakDBID
-function RaceCheckpointSelector:GetRecordID() return end
+function RaceCheckpointSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function RaceCheckpointSelector:SetRecordID(recordID) return end
+function RaceCheckpointSelector:SetRecordID(recordID) end

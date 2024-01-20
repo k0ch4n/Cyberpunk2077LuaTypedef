@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RegisterActiveClueOwnerkRequest: gameScriptableSystemRequest
----@field public ownerID entEntityID
+---@field ownerID entEntityID
 RegisterActiveClueOwnerkRequest = {}
 
 ---@param fields? RegisterActiveClueOwnerkRequest
 ---@return RegisterActiveClueOwnerkRequest
-function RegisterActiveClueOwnerkRequest.new(fields) return end
+function RegisterActiveClueOwnerkRequest.new(fields) end

@@ -1,185 +1,154 @@
 ---@meta
 
 ---@class PhoneSystem: gameScriptableSystem
----@field private BlackboardSystem gameBlackboardSystem
----@field private Blackboard gameIBlackboard
----@field private PsmBlackboard gameIBlackboard
----@field private LastCallInformation questPhoneCallInformation
----@field private StatusEffectsListener PhoneStatusEffectListener
----@field private StatsListener PhoneStatsListener
----@field private ContactsOpen Bool
----@field private PhoneVisibilityBBId redCallbackObject
----@field private ContactsOpenBBId redCallbackObject
----@field private HighLevelBBId redCallbackObject
----@field private CombatBBId redCallbackObject
----@field private SwimmingBBId redCallbackObject
----@field private IsContrDeviceBBId redCallbackObject
----@field private IsUIZoomDeviceBBId redCallbackObject
----@field private PlayerAttachedCallbackID Uint32
----@field private PlayerDetachedCallbackID Uint32
+---@field BlackboardSystem gameBlackboardSystem
+---@field Blackboard gameIBlackboard
+---@field PsmBlackboard gameIBlackboard
+---@field LastCallInformation questPhoneCallInformation
+---@field StatusEffectsListener PhoneStatusEffectListener
+---@field StatsListener PhoneStatsListener
+---@field ContactsOpen Bool
+---@field PhoneVisibilityBBId redCallbackObject
+---@field ContactsOpenBBId redCallbackObject
+---@field HighLevelBBId redCallbackObject
+---@field CombatBBId redCallbackObject
+---@field SwimmingBBId redCallbackObject
+---@field IsContrDeviceBBId redCallbackObject
+---@field IsUIZoomDeviceBBId redCallbackObject
+---@field PlayerAttachedCallbackID Uint32
+---@field PlayerDetachedCallbackID Uint32
 PhoneSystem = {}
 
 ---@param fields? PhoneSystem
 ---@return PhoneSystem
-function PhoneSystem.new(fields) return end
+function PhoneSystem.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function PhoneSystem:OnPhoneEnabledChangedBool(value) return end
+function PhoneSystem:OnPhoneEnabledChangedBool(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PhoneSystem:OnPhoneEnabledChangedInt(value) return end
+function PhoneSystem:OnPhoneEnabledChangedInt(value) end
 
 ---@param contactName1 CName|string
 ---@param contactName2 CName|string
 ---@return String
-function PhoneSystem:GetPhoneCallFactName(contactName1, contactName2) return end
-
----@private
----@return Bool
-function PhoneSystem:IsBlockedByBlackboard() return end
-
----@private
----@return Bool
-function PhoneSystem:IsBlockedByCombat() return end
-
----@private
----@return Bool
-function PhoneSystem:IsBlockedByHUD() return end
-
----@private
----@return Bool
-function PhoneSystem:IsBlockedByStatus() return end
-
----@private
----@return Bool
-function PhoneSystem:IsBlockedByTier() return end
-
----@private
----@return Bool
-function PhoneSystem:IsBlockedByVisiblity() return end
-
----@private
----@return Bool
-function PhoneSystem:IsCallingAvaliable() return end
-
----@private
----@return Bool
-function PhoneSystem:IsCallingBlockedByStatus() return end
+function PhoneSystem:GetPhoneCallFactName(contactName1, contactName2) end
 
 ---@return Bool
-function PhoneSystem:IsCallingEnabled() return end
-
----@private
----@return Bool
-function PhoneSystem:IsEnabledByQuestSystem() return end
-
----@private
----@return Bool
-function PhoneSystem:IsEnabledByVisiblity() return end
+function PhoneSystem:IsBlockedByBlackboard() end
 
 ---@return Bool
-function PhoneSystem:IsPhoneAvailable() return end
+function PhoneSystem:IsBlockedByCombat() end
 
 ---@return Bool
-function PhoneSystem:IsPhoneEnabled() return end
-
----@private
----@return Bool
-function PhoneSystem:IsPhoneOpened() return end
-
----@private
----@return Bool
-function PhoneSystem:IsShowingMessage() return end
-
----@private
----@return Bool
-function PhoneSystem:IsTextingBlockedByStatus() return end
+function PhoneSystem:IsBlockedByHUD() end
 
 ---@return Bool
-function PhoneSystem:IsTextingEnabled() return end
+function PhoneSystem:IsBlockedByStatus() end
 
----@private
+---@return Bool
+function PhoneSystem:IsBlockedByTier() end
+
+---@return Bool
+function PhoneSystem:IsBlockedByVisiblity() end
+
+---@return Bool
+function PhoneSystem:IsCallingAvaliable() end
+
+---@return Bool
+function PhoneSystem:IsCallingBlockedByStatus() end
+
+---@return Bool
+function PhoneSystem:IsCallingEnabled() end
+
+---@return Bool
+function PhoneSystem:IsEnabledByQuestSystem() end
+
+---@return Bool
+function PhoneSystem:IsEnabledByVisiblity() end
+
+---@return Bool
+function PhoneSystem:IsPhoneAvailable() end
+
+---@return Bool
+function PhoneSystem:IsPhoneEnabled() end
+
+---@return Bool
+function PhoneSystem:IsPhoneOpened() end
+
+---@return Bool
+function PhoneSystem:IsShowingMessage() end
+
+---@return Bool
+function PhoneSystem:IsTextingBlockedByStatus() end
+
+---@return Bool
+function PhoneSystem:IsTextingEnabled() end
+
 ---@return nil
-function PhoneSystem:OnAttach() return end
+function PhoneSystem:OnAttach() end
 
----@private
 ---@param newState Bool
 ---@return nil
-function PhoneSystem:OnContactsStateChanged(newState) return end
+function PhoneSystem:OnContactsStateChanged(newState) end
 
----@private
 ---@return nil
-function PhoneSystem:OnDetach() return end
+function PhoneSystem:OnDetach() end
 
----@private
 ---@param request questMinimizeCallRequest
 ---@return nil
-function PhoneSystem:OnMinimizeCallRequest(request) return end
+function PhoneSystem:OnMinimizeCallRequest(request) end
 
----@private
 ---@param request PhoneTimeoutRequest
 ---@return nil
-function PhoneSystem:OnPhoneTimeoutRequest(request) return end
+function PhoneSystem:OnPhoneTimeoutRequest(request) end
 
----@private
 ---@param newValue Variant
 ---@return nil
-function PhoneSystem:OnPhoneVisibilityChanged(newValue) return end
+function PhoneSystem:OnPhoneVisibilityChanged(newValue) end
 
----@private
 ---@param request PickupPhoneRequest
 ---@return nil
-function PhoneSystem:OnPickupPhone(request) return end
+function PhoneSystem:OnPickupPhone(request) end
 
----@private
 ---@param request questSetPhoneStatusRequest
 ---@return nil
-function PhoneSystem:OnSetPhoneStatus(request) return end
+function PhoneSystem:OnSetPhoneStatus(request) end
 
----@private
 ---@param request TalkingTriggerRequest
 ---@return nil
-function PhoneSystem:OnTalkingTriggerRequest(request) return end
+function PhoneSystem:OnTalkingTriggerRequest(request) end
 
----@private
 ---@param request questTriggerCallRequest
 ---@return nil
-function PhoneSystem:OnTriggerCall(request) return end
+function PhoneSystem:OnTriggerCall(request) end
 
----@private
 ---@param request UsePhoneRequest
 ---@return nil
-function PhoneSystem:OnUsePhone(request) return end
+function PhoneSystem:OnUsePhone(request) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function PhoneSystem:PlayerAttachedCallback(playerPuppet) return end
-
----@private
----@return nil
-function PhoneSystem:PlayerDetached() return end
+function PhoneSystem:PlayerAttachedCallback(playerPuppet) end
 
 ---@return nil
-function PhoneSystem:RefreshPhoneEnabled() return end
+function PhoneSystem:PlayerDetached() end
 
----@private
+---@return nil
+function PhoneSystem:RefreshPhoneEnabled() end
+
 ---@param isPlayerCalling Bool
 ---@param contactName CName|string
 ---@param state questPhoneTalkingState
 ---@return nil
-function PhoneSystem:SetPhoneFact(isPlayerCalling, contactName, state) return end
+function PhoneSystem:SetPhoneFact(isPlayerCalling, contactName, state) end
 
----@private
 ---@param open Bool
 ---@return nil
-function PhoneSystem:ToggleContacts(open) return end
+function PhoneSystem:ToggleContacts(open) end
 
----@private
 ---@param callMode questPhoneCallMode
 ---@param isAudio Bool
 ---@param contactName CName|string
@@ -190,4 +159,4 @@ function PhoneSystem:ToggleContacts(open) return end
 ---@param showAvatar Bool
 ---@param callVisuals questPhoneCallVisuals
 ---@return nil
-function PhoneSystem:TriggerCall(callMode, isAudio, contactName, isPlayerCalling, callPhase, isPlayerTriggered, isRejectable, showAvatar, callVisuals) return end
+function PhoneSystem:TriggerCall(callMode, isAudio, contactName, isPlayerCalling, callPhase, isPlayerTriggered, isRejectable, showAvatar, callVisuals) end

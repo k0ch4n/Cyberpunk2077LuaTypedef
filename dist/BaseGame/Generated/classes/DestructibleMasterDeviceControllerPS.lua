@@ -1,37 +1,31 @@
 ---@meta
 
 ---@class DestructibleMasterDeviceControllerPS: MasterControllerPS
----@field protected isDestroyed Bool
+---@field isDestroyed Bool
 DestructibleMasterDeviceControllerPS = {}
 
 ---@param fields? DestructibleMasterDeviceControllerPS
 ---@return DestructibleMasterDeviceControllerPS
-function DestructibleMasterDeviceControllerPS.new(fields) return end
+function DestructibleMasterDeviceControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function DestructibleMasterDeviceControllerPS:OnInstantiated() return end
+function DestructibleMasterDeviceControllerPS:OnInstantiated() end
 
----@protected
 ---@return MasterDeviceDestroyed
-function DestructibleMasterDeviceControllerPS:ActionMasterDeviceDestroyed() return end
+function DestructibleMasterDeviceControllerPS:ActionMasterDeviceDestroyed() end
 
----@protected
 ---@return nil
-function DestructibleMasterDeviceControllerPS:GameAttached() return end
+function DestructibleMasterDeviceControllerPS:GameAttached() end
 
----@protected
 ---@return nil
-function DestructibleMasterDeviceControllerPS:Initialize() return end
+function DestructibleMasterDeviceControllerPS:Initialize() end
 
 ---@return Bool
-function DestructibleMasterDeviceControllerPS:IsDestroyed() return end
+function DestructibleMasterDeviceControllerPS:IsDestroyed() end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function DestructibleMasterDeviceControllerPS:OnRefreshSlavesEvent(evt) return end
+function DestructibleMasterDeviceControllerPS:OnRefreshSlavesEvent(evt) end
 
----@protected
 ---@return nil
-function DestructibleMasterDeviceControllerPS:RefreshSlaves() return end
+function DestructibleMasterDeviceControllerPS:RefreshSlaves() end

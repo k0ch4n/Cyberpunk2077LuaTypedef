@@ -5,4 +5,4 @@ CancelSmartDespawnRequest = {}
 
 ---@param fields? CancelSmartDespawnRequest
 ---@return CancelSmartDespawnRequest
-function CancelSmartDespawnRequest.new(fields) return end
+function CancelSmartDespawnRequest.new(fields) end

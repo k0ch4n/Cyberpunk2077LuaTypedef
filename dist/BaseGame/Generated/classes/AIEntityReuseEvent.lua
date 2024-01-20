@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIEntityReuseEvent: AIAIEvent
----@field public destination worldGlobalNodeID
+---@field destination worldGlobalNodeID
 AIEntityReuseEvent = {}
 
 ---@param fields? AIEntityReuseEvent
 ---@return AIEntityReuseEvent
-function AIEntityReuseEvent.new(fields) return end
+function AIEntityReuseEvent.new(fields) end

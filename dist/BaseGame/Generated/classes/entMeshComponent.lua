@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class entMeshComponent: entIVisualComponent
----@field public mesh CMesh
----@field public meshAppearance CName
----@field public castShadows shadowsShadowCastingMode
----@field public castLocalShadows shadowsShadowCastingMode
----@field public castRayTracedGlobalShadows shadowsShadowCastingMode
----@field public castRayTracedLocalShadows shadowsShadowCastingMode
----@field public motionBlurScale Float
----@field public visualScale Vector3
----@field public renderingPlane ERenderingPlane
----@field public objectTypeID ERenderObjectType
----@field public numInstances Uint32
----@field public chunkMask Uint64
----@field public order Uint8
----@field public isEnabled Bool
----@field public LODMode entMeshComponentLODMode
----@field public forcedLodDistance entForcedLodDistance
----@field public overrideMeshNavigationImpact Bool
----@field public navigationImpact NavGenNavigationSetting
----@field public version Uint8
+---@field mesh CMesh
+---@field meshAppearance CName
+---@field castShadows shadowsShadowCastingMode
+---@field castLocalShadows shadowsShadowCastingMode
+---@field castRayTracedGlobalShadows shadowsShadowCastingMode
+---@field castRayTracedLocalShadows shadowsShadowCastingMode
+---@field motionBlurScale Float
+---@field visualScale Vector3
+---@field renderingPlane ERenderingPlane
+---@field objectTypeID ERenderObjectType
+---@field numInstances Uint32
+---@field chunkMask Uint64
+---@field order Uint8
+---@field isEnabled Bool
+---@field LODMode entMeshComponentLODMode
+---@field forcedLodDistance entForcedLodDistance
+---@field overrideMeshNavigationImpact Bool
+---@field navigationImpact NavGenNavigationSetting
+---@field version Uint8
 entMeshComponent = {}
 
 ---@param fields? entMeshComponent
 ---@return entMeshComponent
-function entMeshComponent.new(fields) return end
+function entMeshComponent.new(fields) end

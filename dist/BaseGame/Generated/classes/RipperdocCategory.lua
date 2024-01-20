@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class RipperdocCategory
----@field public equipArea gamedataEquipmentArea
----@field public align inkEHorizontalAlign
----@field public parent inkCompoundWidgetReference
+---@field equipArea gamedataEquipmentArea
+---@field align inkEHorizontalAlign
+---@field parent inkCompoundWidgetReference
 RipperdocCategory = {}
 
 ---@param fields? RipperdocCategory
 ---@return RipperdocCategory
-function RipperdocCategory.new(fields) return end
+function RipperdocCategory.new(fields) end

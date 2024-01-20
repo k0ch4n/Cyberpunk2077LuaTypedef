@@ -1,50 +1,42 @@
 ---@meta
 
 ---@class RoadBlockTrap: InteractiveMasterDevice
----@field protected areaComponent gameStaticTriggerAreaComponent
+---@field areaComponent gameStaticTriggerAreaComponent
 RoadBlockTrap = {}
 
 ---@param fields? RoadBlockTrap
 ---@return RoadBlockTrap
-function RoadBlockTrap.new(fields) return end
+function RoadBlockTrap.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function RoadBlockTrap:OnActivateDevice(evt) return end
+function RoadBlockTrap:OnActivateDevice(evt) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function RoadBlockTrap:OnAreaEnter(evt) return end
+function RoadBlockTrap:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function RoadBlockTrap:OnAreaExit(evt) return end
+function RoadBlockTrap:OnAreaExit(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function RoadBlockTrap:OnRequestComponents(ri) return end
+function RoadBlockTrap:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function RoadBlockTrap:OnTakeControl(ri) return end
+function RoadBlockTrap:OnTakeControl(ri) end
 
----@private
 ---@return RoadBlockTrapController
-function RoadBlockTrap:GetController() return end
+function RoadBlockTrap:GetController() end
 
 ---@return RoadBlockTrapControllerPS
-function RoadBlockTrap:GetDevicePS() return end
+function RoadBlockTrap:GetDevicePS() end
 
----@private
 ---@return Bool
-function RoadBlockTrap:IsPlayerInside() return end
+function RoadBlockTrap:IsPlayerInside() end
 
----@private
 ---@param player PlayerPuppet
 ---@return nil
-function RoadBlockTrap:TrapPlayer(player) return end
+function RoadBlockTrap:TrapPlayer(player) end

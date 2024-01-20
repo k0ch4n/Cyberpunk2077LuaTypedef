@@ -5,4 +5,4 @@ DeactivateAllNetworkLinksRequest = {}
 
 ---@param fields? DeactivateAllNetworkLinksRequest
 ---@return DeactivateAllNetworkLinksRequest
-function DeactivateAllNetworkLinksRequest.new(fields) return end
+function DeactivateAllNetworkLinksRequest.new(fields) end

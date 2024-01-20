@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class questIPhoneConditionType: questIUIConditionType
----@field public inverted Bool
+---@field inverted Bool
 questIPhoneConditionType = {}

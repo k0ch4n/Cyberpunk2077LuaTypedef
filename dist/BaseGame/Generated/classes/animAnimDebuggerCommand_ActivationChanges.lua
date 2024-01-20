@@ -5,4 +5,4 @@ animAnimDebuggerCommand_ActivationChanges = {}
 
 ---@param fields? animAnimDebuggerCommand_ActivationChanges
 ---@return animAnimDebuggerCommand_ActivationChanges
-function animAnimDebuggerCommand_ActivationChanges.new(fields) return end
+function animAnimDebuggerCommand_ActivationChanges.new(fields) end

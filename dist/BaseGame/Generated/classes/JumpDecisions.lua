@@ -1,33 +1,29 @@
 ---@meta
 
 ---@class JumpDecisions: LocomotionAirDecisions
----@field protected jumpPressed Bool
+---@field jumpPressed Bool
 JumpDecisions = {}
 
 ---@param fields? JumpDecisions
 ---@return JumpDecisions
-function JumpDecisions.new(fields) return end
+function JumpDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function JumpDecisions:OnAction(action, consumer) return end
+function JumpDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function JumpDecisions:EnterCondition(stateContext, scriptInterface) return end
+function JumpDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpDecisions:OnAttach(stateContext, scriptInterface) return end
+function JumpDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpDecisions:OnDetach(stateContext, scriptInterface) return end
+function JumpDecisions:OnDetach(stateContext, scriptInterface) end

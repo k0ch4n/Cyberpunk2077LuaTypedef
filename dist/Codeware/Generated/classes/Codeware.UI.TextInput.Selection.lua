@@ -1,97 +1,97 @@
 ---@meta
 
 ---@class Codeware_UI_TextInput_Selection: Codeware_UI_inkCustomController
----@field public selection inkRectangleWidget
----@field public startPosition Int32
----@field public endPosition Int32
----@field public maxPosition Int32
----@field public fontSize Float
----@field public padSize Float
+---@field selection inkRectangleWidget
+---@field startPosition Int32
+---@field endPosition Int32
+---@field maxPosition Int32
+---@field fontSize Float
+---@field padSize Float
 Codeware_UI_TextInput_Selection = {}
 
 ---@param fields? Codeware_UI_TextInput_Selection
 ---@return Codeware_UI_TextInput_Selection
-function Codeware_UI_TextInput_Selection.new(fields) return end
+function Codeware_UI_TextInput_Selection.new(fields) end
 
 ---@return Codeware_UI_TextInput_Selection
-function Codeware_UI_TextInput_Selection.Create() return end
+function Codeware_UI_TextInput_Selection.Create() end
 
 ---@return nil
-function Codeware_UI_TextInput_Selection:OnCreate() return end
+function Codeware_UI_TextInput_Selection:OnCreate() end
 
 ---@return nil
-function Codeware_UI_TextInput_Selection:OnInitialize() return end
+function Codeware_UI_TextInput_Selection:OnInitialize() end
 
 ---@return nil
-function Codeware_UI_TextInput_Selection:Clear() return end
+function Codeware_UI_TextInput_Selection:Clear() end
 
 ---@return nil
-function Codeware_UI_TextInput_Selection:CreateWidgets() return end
+function Codeware_UI_TextInput_Selection:CreateWidgets() end
 
 ---@return Int32
-function Codeware_UI_TextInput_Selection:GetEndPosition() return end
+function Codeware_UI_TextInput_Selection:GetEndPosition() end
 
 ---@return Int32
-function Codeware_UI_TextInput_Selection:GetFontSize() return end
+function Codeware_UI_TextInput_Selection:GetFontSize() end
 
 ---@return Int32
-function Codeware_UI_TextInput_Selection:GetLeftPosition() return end
+function Codeware_UI_TextInput_Selection:GetLeftPosition() end
 
 ---@return Int32
-function Codeware_UI_TextInput_Selection:GetMaxPosition() return end
+function Codeware_UI_TextInput_Selection:GetMaxPosition() end
 
 ---@return Float
-function Codeware_UI_TextInput_Selection:GetOpacity() return end
+function Codeware_UI_TextInput_Selection:GetOpacity() end
 
 ---@return RectF
-function Codeware_UI_TextInput_Selection:GetRange() return end
+function Codeware_UI_TextInput_Selection:GetRange() end
 
 ---@return Int32
-function Codeware_UI_TextInput_Selection:GetRightPosition() return end
+function Codeware_UI_TextInput_Selection:GetRightPosition() end
 
 ---@return Int32
-function Codeware_UI_TextInput_Selection:GetStartPosition() return end
+function Codeware_UI_TextInput_Selection:GetStartPosition() end
 
 ---@return HDRColor
-function Codeware_UI_TextInput_Selection:GetTintColor() return end
+function Codeware_UI_TextInput_Selection:GetTintColor() end
 
 ---@return nil
-function Codeware_UI_TextInput_Selection:InitializeLayout() return end
+function Codeware_UI_TextInput_Selection:InitializeLayout() end
 
 ---@return nil
-function Codeware_UI_TextInput_Selection:InitializeProps() return end
+function Codeware_UI_TextInput_Selection:InitializeProps() end
 
 ---@return Bool
-function Codeware_UI_TextInput_Selection:IsEmpty() return end
+function Codeware_UI_TextInput_Selection:IsEmpty() end
 
 ---@return nil
-function Codeware_UI_TextInput_Selection:SelectAll() return end
+function Codeware_UI_TextInput_Selection:SelectAll() end
 
 ---@param value Int32
 ---@return nil
-function Codeware_UI_TextInput_Selection:SetEndPosition(value) return end
+function Codeware_UI_TextInput_Selection:SetEndPosition(value) end
 
 ---@param fontSize Int32
 ---@return nil
-function Codeware_UI_TextInput_Selection:SetFontSize(fontSize) return end
+function Codeware_UI_TextInput_Selection:SetFontSize(fontSize) end
 
 ---@param max Int32
 ---@return nil
-function Codeware_UI_TextInput_Selection:SetMaxPosition(max) return end
+function Codeware_UI_TextInput_Selection:SetMaxPosition(max) end
 
 ---@param opacity Float
 ---@return nil
-function Codeware_UI_TextInput_Selection:SetOpacity(opacity) return end
+function Codeware_UI_TextInput_Selection:SetOpacity(opacity) end
 
 ---@param value Int32
 ---@return nil
-function Codeware_UI_TextInput_Selection:SetStartPosition(value) return end
+function Codeware_UI_TextInput_Selection:SetStartPosition(value) end
 
 ---@param color HDRColor
 ---@return nil
-function Codeware_UI_TextInput_Selection:SetTintColor(color) return end
+function Codeware_UI_TextInput_Selection:SetTintColor(color) end
 
 ---@param isFocused Bool
 ---@param selectedBounds RectF
 ---@return nil
-function Codeware_UI_TextInput_Selection:UpdateState(isFocused, selectedBounds) return end
+function Codeware_UI_TextInput_Selection:UpdateState(isFocused, selectedBounds) end

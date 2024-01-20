@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class MessageDescTooltip: MessageTooltip
----@field protected titleWrapper inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionLine inkWidgetReference
+---@field titleWrapper inkWidgetReference
+---@field descriptionWrapper inkWidgetReference
+---@field descriptionLine inkWidgetReference
 MessageDescTooltip = {}
 
 ---@param fields? MessageDescTooltip
 ---@return MessageDescTooltip
-function MessageDescTooltip.new(fields) return end
+function MessageDescTooltip.new(fields) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function MessageDescTooltip:SetData(tooltipData) return end
+function MessageDescTooltip:SetData(tooltipData) end

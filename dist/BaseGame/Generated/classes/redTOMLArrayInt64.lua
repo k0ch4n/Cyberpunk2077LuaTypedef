@@ -5,4 +5,4 @@ redTOMLArrayInt64 = {}
 
 ---@param fields? redTOMLArrayInt64
 ---@return redTOMLArrayInt64
-function redTOMLArrayInt64.new(fields) return end
+function redTOMLArrayInt64.new(fields) end

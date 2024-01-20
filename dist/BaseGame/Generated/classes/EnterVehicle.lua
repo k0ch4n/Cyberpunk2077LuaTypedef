@@ -5,9 +5,8 @@ EnterVehicle = {}
 
 ---@param fields? EnterVehicle
 ---@return EnterVehicle
-function EnterVehicle.new(fields) return end
+function EnterVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function EnterVehicle:Deactivate(context) return end
+function EnterVehicle:Deactivate(context) end

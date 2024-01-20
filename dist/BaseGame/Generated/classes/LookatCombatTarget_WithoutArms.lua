@@ -5,9 +5,8 @@ LookatCombatTarget_WithoutArms = {}
 
 ---@param fields? LookatCombatTarget_WithoutArms
 ---@return LookatCombatTarget_WithoutArms
-function LookatCombatTarget_WithoutArms.new(fields) return end
+function LookatCombatTarget_WithoutArms.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gameObject
-function LookatCombatTarget_WithoutArms:GetAimingLookatTarget(context) return end
+function LookatCombatTarget_WithoutArms:GetAimingLookatTarget(context) end

@@ -1,31 +1,26 @@
 ---@meta
 
 ---@class AnimatedSign: InteractiveDevice
----@field private animFeature AnimFeature_AnimatedDevice
+---@field animFeature AnimFeature_AnimatedDevice
 AnimatedSign = {}
 
 ---@param fields? AnimatedSign
 ---@return AnimatedSign
-function AnimatedSign.new(fields) return end
+function AnimatedSign.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AnimatedSign:OnRequestComponents(ri) return end
+function AnimatedSign:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AnimatedSign:OnTakeControl(ri) return end
+function AnimatedSign:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function AnimatedSign:TurnOffDevice() return end
+function AnimatedSign:TurnOffDevice() end
 
----@protected
 ---@return nil
-function AnimatedSign:TurnOnDevice() return end
+function AnimatedSign:TurnOnDevice() end
 
----@private
 ---@return nil
-function AnimatedSign:UpdateAnimState() return end
+function AnimatedSign:UpdateAnimState() end

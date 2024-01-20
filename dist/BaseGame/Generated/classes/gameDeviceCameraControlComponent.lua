@@ -5,4 +5,4 @@ gameDeviceCameraControlComponent = {}
 
 ---@param fields? gameDeviceCameraControlComponent
 ---@return gameDeviceCameraControlComponent
-function gameDeviceCameraControlComponent.new(fields) return end
+function gameDeviceCameraControlComponent.new(fields) end

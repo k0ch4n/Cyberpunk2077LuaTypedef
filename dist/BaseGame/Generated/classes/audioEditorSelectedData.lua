@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioEditorSelectedData: audioAudioMetadata
----@field public selectedWeaponConfigurationName CName
----@field public selectedFootstepsEventName CName
+---@field selectedWeaponConfigurationName CName
+---@field selectedFootstepsEventName CName
 audioEditorSelectedData = {}
 
 ---@param fields? audioEditorSelectedData
 ---@return audioEditorSelectedData
-function audioEditorSelectedData.new(fields) return end
+function audioEditorSelectedData.new(fields) end

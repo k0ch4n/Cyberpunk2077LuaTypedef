@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameMuppetMoveState
----@field public desiredSpeed Float
----@field public isJumping Bool
----@field public isFalling Bool
----@field public isDoubleJumped Bool
----@field public moveStyle gameMuppetMoveStyle
----@field public jumpStartFrameId Uint32
----@field public landFrameId Uint32
+---@field desiredSpeed Float
+---@field isJumping Bool
+---@field isFalling Bool
+---@field isDoubleJumped Bool
+---@field moveStyle gameMuppetMoveStyle
+---@field jumpStartFrameId Uint32
+---@field landFrameId Uint32
 gameMuppetMoveState = {}
 
 ---@param fields? gameMuppetMoveState
 ---@return gameMuppetMoveState
-function gameMuppetMoveState.new(fields) return end
+function gameMuppetMoveState.new(fields) end

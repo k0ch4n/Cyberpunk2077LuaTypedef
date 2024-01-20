@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ChangeInfoWithTimeStamp
----@field public TimeStamp Float
----@field public Change Float
+---@field TimeStamp Float
+---@field Change Float
 ChangeInfoWithTimeStamp = {}
 
 ---@param fields? ChangeInfoWithTimeStamp
 ---@return ChangeInfoWithTimeStamp
-function ChangeInfoWithTimeStamp.new(fields) return end
+function ChangeInfoWithTimeStamp.new(fields) end

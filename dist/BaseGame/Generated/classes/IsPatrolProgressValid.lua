@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class IsPatrolProgressValid: AIbehaviorconditionScript
----@field public patrolProgress AIArgumentMapping
+---@field patrolProgress AIArgumentMapping
 IsPatrolProgressValid = {}
 
 ---@param fields? IsPatrolProgressValid
 ---@return IsPatrolProgressValid
-function IsPatrolProgressValid.new(fields) return end
+function IsPatrolProgressValid.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPatrolProgressValid:Check(context) return end
+function IsPatrolProgressValid:Check(context) end

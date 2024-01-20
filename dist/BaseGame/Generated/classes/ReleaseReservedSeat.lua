@@ -5,9 +5,8 @@ ReleaseReservedSeat = {}
 
 ---@param fields? ReleaseReservedSeat
 ---@return ReleaseReservedSeat
-function ReleaseReservedSeat.new(fields) return end
+function ReleaseReservedSeat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReleaseReservedSeat:Activate(context) return end
+function ReleaseReservedSeat:Activate(context) end

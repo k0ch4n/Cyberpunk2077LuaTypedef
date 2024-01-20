@@ -5,4 +5,4 @@ inkBoolCallback = {}
 
 ---@param fields? inkBoolCallback
 ---@return inkBoolCallback
-function inkBoolCallback.new(fields) return end
+function inkBoolCallback.new(fields) end

@@ -1,85 +1,81 @@
 ---@meta
 
 ---@class AIBackgroundCombatDelegate: AIbehaviorScriptBehaviorDelegate
----@field private command AIBackgroundCombatCommand
----@field private execute Bool
----@field private steps AIBackgroundCombatStep[]
----@field private currentStep Int32
----@field private desiredCover NodeRef
----@field private desiredCoverExposureMethod AICoverExposureMethod
----@field private desiredDestination NodeRef
----@field private hasDesiredTarget Bool
----@field private desiredTarget gameEntityReference
----@field private desiredCoverId Uint64
----@field private currentCoverId Uint64
----@field private currentTarget gameObject
----@field private canFireFromCover Bool
----@field private canFireOutOfCover Bool
+---@field command AIBackgroundCombatCommand
+---@field execute Bool
+---@field steps AIBackgroundCombatStep[]
+---@field currentStep Int32
+---@field desiredCover NodeRef
+---@field desiredCoverExposureMethod AICoverExposureMethod
+---@field desiredDestination NodeRef
+---@field hasDesiredTarget Bool
+---@field desiredTarget gameEntityReference
+---@field desiredCoverId Uint64
+---@field currentCoverId Uint64
+---@field currentTarget gameObject
+---@field canFireFromCover Bool
+---@field canFireOutOfCover Bool
 AIBackgroundCombatDelegate = {}
 
 ---@param fields? AIBackgroundCombatDelegate
 ---@return AIBackgroundCombatDelegate
-function AIBackgroundCombatDelegate.new(fields) return end
+function AIBackgroundCombatDelegate.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoAllowCoverChange(context) return end
+function AIBackgroundCombatDelegate:DoAllowCoverChange(context) end
 
 ---@return Bool
-function AIBackgroundCombatDelegate:DoCompleteCoverChange() return end
+function AIBackgroundCombatDelegate:DoCompleteCoverChange() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoCompleteTargetChange(context) return end
+function AIBackgroundCombatDelegate:DoCompleteTargetChange(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoDisableShootingFromCover(context) return end
+function AIBackgroundCombatDelegate:DoDisableShootingFromCover(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoEnableShootingFromCover(context) return end
+function AIBackgroundCombatDelegate:DoEnableShootingFromCover(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoEndCommand(context) return end
+function AIBackgroundCombatDelegate:DoEndCommand(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoExecuteCurrentStep(context) return end
+function AIBackgroundCombatDelegate:DoExecuteCurrentStep(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoStartCommand(context) return end
+function AIBackgroundCombatDelegate:DoStartCommand(context) end
 
 ---@return Bool
-function AIBackgroundCombatDelegate:DoStartCoverChange() return end
+function AIBackgroundCombatDelegate:DoStartCoverChange() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBackgroundCombatDelegate:DoStartNextStep(context) return end
+function AIBackgroundCombatDelegate:DoStartNextStep(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param cover NodeRef
 ---@param exposureMethod AICoverExposureMethod
 ---@return nil
-function AIBackgroundCombatDelegate:SetDesiredCover(context, cover, exposureMethod) return end
+function AIBackgroundCombatDelegate:SetDesiredCover(context, cover, exposureMethod) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param destination NodeRef
 ---@return nil
-function AIBackgroundCombatDelegate:SetDesiredDestination(context, destination) return end
+function AIBackgroundCombatDelegate:SetDesiredDestination(context, destination) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param target gameEntityReference
 ---@return nil
-function AIBackgroundCombatDelegate:SetDesiredTarget(context, target) return end
+function AIBackgroundCombatDelegate:SetDesiredTarget(context, target) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param value Bool
 ---@return nil
-function AIBackgroundCombatDelegate:SetExecute(context, value) return end
+function AIBackgroundCombatDelegate:SetExecute(context, value) end

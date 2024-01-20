@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GrenadeMappinData: gamemappinsMappinScriptData
----@field public grenadeType EGrenadeType
----@field public iconID TweakDBID
+---@field grenadeType EGrenadeType
+---@field iconID TweakDBID
 GrenadeMappinData = {}
 
 ---@param fields? GrenadeMappinData
 ---@return GrenadeMappinData
-function GrenadeMappinData.new(fields) return end
+function GrenadeMappinData.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorDebugInfoBase: ISerializable
----@field public caption String
+---@field caption String
 AIbehaviorDebugInfoBase = {}
 
 ---@param fields? AIbehaviorDebugInfoBase
 ---@return AIbehaviorDebugInfoBase
-function AIbehaviorDebugInfoBase.new(fields) return end
+function AIbehaviorDebugInfoBase.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameaudioeventsSoundParameter: redEvent
----@field public parameterName CName
----@field public parameterValue Float
+---@field parameterName CName
+---@field parameterValue Float
 gameaudioeventsSoundParameter = {}
 
 ---@param fields? gameaudioeventsSoundParameter
 ---@return gameaudioeventsSoundParameter
-function gameaudioeventsSoundParameter.new(fields) return end
+function gameaudioeventsSoundParameter.new(fields) end

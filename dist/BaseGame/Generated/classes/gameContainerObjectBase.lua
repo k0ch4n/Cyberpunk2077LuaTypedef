@@ -1,46 +1,40 @@
 ---@meta
 
 ---@class gameContainerObjectBase: gameLootContainerBase
----@field public giveHandicapAmmo Bool
----@field protected lockedByKey TweakDBID
+---@field giveHandicapAmmo Bool
+---@field lockedByKey TweakDBID
 gameContainerObjectBase = {}
 
 ---@param fields? gameContainerObjectBase
 ---@return gameContainerObjectBase
-function gameContainerObjectBase.new(fields) return end
+function gameContainerObjectBase.new(fields) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function gameContainerObjectBase:OnInteractionActivated(evt) return end
+function gameContainerObjectBase:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt ToggleContainerLockEvent
 ---@return Bool
-function gameContainerObjectBase:OnToggleContainerLockEvent(evt) return end
+function gameContainerObjectBase:OnToggleContainerLockEvent(evt) end
 
 ---@param activator gameObject
 ---@return Bool
-function gameContainerObjectBase:IsLocked(activator) return end
+function gameContainerObjectBase:IsLocked(activator) end
 
----@private
 ---@param layerTag CName|string
 ---@return Bool
-function gameContainerObjectBase:IsQualityRangeInteractionLayer(layerTag) return end
+function gameContainerObjectBase:IsQualityRangeInteractionLayer(layerTag) end
 
----@protected
 ---@return nil
-function gameContainerObjectBase:OpenContainerWithTransformAnimation() return end
+function gameContainerObjectBase:OpenContainerWithTransformAnimation() end
 
----@protected
 ---@param activator gameObject
 ---@param force? Bool
 ---@return nil
-function gameContainerObjectBase:RefereshInteraction(activator, force) return end
+function gameContainerObjectBase:RefereshInteraction(activator, force) end
 
----@protected
 ---@return nil
-function gameContainerObjectBase:ResolveQualityRangeInteractionLayer() return end
+function gameContainerObjectBase:ResolveQualityRangeInteractionLayer() end
 
 ---@return Bool
-function gameContainerObjectBase:ShouldShowScanner() return end
+function gameContainerObjectBase:ShouldShowScanner() end

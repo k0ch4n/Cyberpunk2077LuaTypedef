@@ -5,4 +5,4 @@ AIAngleDistanceCoverSelectionRuntimeData = {}
 
 ---@param fields? AIAngleDistanceCoverSelectionRuntimeData
 ---@return AIAngleDistanceCoverSelectionRuntimeData
-function AIAngleDistanceCoverSelectionRuntimeData.new(fields) return end
+function AIAngleDistanceCoverSelectionRuntimeData.new(fields) end

@@ -1,30 +1,29 @@
 ---@meta
 
 ---@class DeviceOperationBase: IScriptable
----@field public operationName CName
----@field public executeOnce Bool
----@field protected isEnabled Bool
----@field public toggleOperations SToggleDeviceOperationData[]
----@field public disableDevice Bool
+---@field operationName CName
+---@field executeOnce Bool
+---@field isEnabled Bool
+---@field toggleOperations SToggleDeviceOperationData[]
+---@field disableDevice Bool
 DeviceOperationBase = {}
 
 ---@param owner gameObject
 ---@return nil
-function DeviceOperationBase:Execute(owner) return end
+function DeviceOperationBase:Execute(owner) end
 
 ---@return Bool
-function DeviceOperationBase:IsEnabled() return end
+function DeviceOperationBase:IsEnabled() end
 
----@private
 ---@param disable Bool
 ---@param owner gameObject
 ---@return nil
-function DeviceOperationBase:ResolveDisable(disable, owner) return end
+function DeviceOperationBase:ResolveDisable(disable, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function DeviceOperationBase:Restore(owner) return end
+function DeviceOperationBase:Restore(owner) end
 
 ---@param enabled Bool
 ---@return nil
-function DeviceOperationBase:SetIsEnabled(enabled) return end
+function DeviceOperationBase:SetIsEnabled(enabled) end

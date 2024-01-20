@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scneventsSpawnEntityEventCachedFallbackBone
----@field public boneName CName
----@field public modelSpaceTransform Transform
+---@field boneName CName
+---@field modelSpaceTransform Transform
 scneventsSpawnEntityEventCachedFallbackBone = {}
 
 ---@param fields? scneventsSpawnEntityEventCachedFallbackBone
 ---@return scneventsSpawnEntityEventCachedFallbackBone
-function scneventsSpawnEntityEventCachedFallbackBone.new(fields) return end
+function scneventsSpawnEntityEventCachedFallbackBone.new(fields) end

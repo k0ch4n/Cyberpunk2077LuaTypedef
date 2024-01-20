@@ -5,7 +5,7 @@ gamedataVehicleSeat_Record = {}
 
 ---@param fields? gamedataVehicleSeat_Record
 ---@return gamedataVehicleSeat_Record
-function gamedataVehicleSeat_Record.new(fields) return end
+function gamedataVehicleSeat_Record.new(fields) end
 
 ---@return CName
-function gamedataVehicleSeat_Record:SeatName() return end
+function gamedataVehicleSeat_Record:SeatName() end

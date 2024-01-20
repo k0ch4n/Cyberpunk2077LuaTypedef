@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class ThrowGrenadeCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIThrowGrenadeCommand
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIThrowGrenadeCommand
 ThrowGrenadeCommandHandler = {}
 
 ---@param fields? ThrowGrenadeCommandHandler
 ---@return ThrowGrenadeCommandHandler
-function ThrowGrenadeCommandHandler.new(fields) return end
+function ThrowGrenadeCommandHandler.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ThrowGrenadeCommandHandler:Activate(context) return end
+function ThrowGrenadeCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ThrowGrenadeCommandHandler:Update(context) return end
+function ThrowGrenadeCommandHandler:Update(context) end

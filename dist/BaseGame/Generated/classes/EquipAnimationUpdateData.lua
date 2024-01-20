@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class EquipAnimationUpdateData: IScriptable
----@field public equipArea gamedataEquipmentArea
----@field public isEquip Bool
+---@field equipArea gamedataEquipmentArea
+---@field isEquip Bool
 EquipAnimationUpdateData = {}
 
 ---@param fields? EquipAnimationUpdateData
 ---@return EquipAnimationUpdateData
-function EquipAnimationUpdateData.new(fields) return end
+function EquipAnimationUpdateData.new(fields) end

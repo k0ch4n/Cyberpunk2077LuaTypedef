@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class BaseStateOperationsTrigger: DeviceOperationsTrigger
----@field protected triggerData BaseStateOperationTriggerData
----@field private wasStateCached Bool
----@field private cachedState EDeviceStatus
+---@field triggerData BaseStateOperationTriggerData
+---@field wasStateCached Bool
+---@field cachedState EDeviceStatus
 BaseStateOperationsTrigger = {}
 
 ---@param fields? BaseStateOperationsTrigger
 ---@return BaseStateOperationsTrigger
-function BaseStateOperationsTrigger.new(fields) return end
+function BaseStateOperationsTrigger.new(fields) end
 
 ---@param state EDeviceStatus
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
-function BaseStateOperationsTrigger:EvaluateTrigger(state, owner, container) return end
+function BaseStateOperationsTrigger:EvaluateTrigger(state, owner, container) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameGodModeSharedStateData
----@field public entity entEntity
----@field public flags Int32
+---@field entity entEntity
+---@field flags Int32
 gameGodModeSharedStateData = {}
 
 ---@param fields? gameGodModeSharedStateData
 ---@return gameGodModeSharedStateData
-function gameGodModeSharedStateData.new(fields) return end
+function gameGodModeSharedStateData.new(fields) end

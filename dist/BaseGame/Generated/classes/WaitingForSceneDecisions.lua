@@ -5,19 +5,19 @@ WaitingForSceneDecisions = {}
 
 ---@param fields? WaitingForSceneDecisions
 ---@return WaitingForSceneDecisions
-function WaitingForSceneDecisions.new(fields) return end
+function WaitingForSceneDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WaitingForSceneDecisions:EnterCondition(stateContext, scriptInterface) return end
+function WaitingForSceneDecisions:EnterCondition(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WaitingForSceneDecisions:ToEntering(stateContext, scriptInterface) return end
+function WaitingForSceneDecisions:ToEntering(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WaitingForSceneDecisions:ToExit(stateContext, scriptInterface) return end
+function WaitingForSceneDecisions:ToExit(stateContext, scriptInterface) end

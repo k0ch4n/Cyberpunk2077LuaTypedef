@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class ShootCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIShootCommand
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIShootCommand
 ShootCommandHandler = {}
 
 ---@param fields? ShootCommandHandler
 ---@return ShootCommandHandler
-function ShootCommandHandler.new(fields) return end
+function ShootCommandHandler.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ShootCommandHandler:Activate(context) return end
+function ShootCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ShootCommandHandler:Update(context) return end
+function ShootCommandHandler:Update(context) end

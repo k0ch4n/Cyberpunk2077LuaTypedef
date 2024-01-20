@@ -5,4 +5,4 @@ animAnimEvent_KeyPose = {}
 
 ---@param fields? animAnimEvent_KeyPose
 ---@return animAnimEvent_KeyPose
-function animAnimEvent_KeyPose.new(fields) return end
+function animAnimEvent_KeyPose.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameEquipRequest: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
----@field public slotIndex Int32
----@field public addToInventory Bool
----@field public equipToCurrentActiveSlot Bool
+---@field itemID gameItemID
+---@field slotIndex Int32
+---@field addToInventory Bool
+---@field equipToCurrentActiveSlot Bool
 gameEquipRequest = {}
 
 ---@param fields? gameEquipRequest
 ---@return gameEquipRequest
-function gameEquipRequest.new(fields) return end
+function gameEquipRequest.new(fields) end

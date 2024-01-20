@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiPanzerExplosion: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
----@field public animationName CName
+---@field animationName CName
 gameuiPanzerExplosion = {}
 
 ---@param fields? gameuiPanzerExplosion
 ---@return gameuiPanzerExplosion
-function gameuiPanzerExplosion.new(fields) return end
+function gameuiPanzerExplosion.new(fields) end

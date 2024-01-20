@@ -5,4 +5,4 @@ Crosshair = {}
 
 ---@param fields? Crosshair
 ---@return Crosshair
-function Crosshair.new(fields) return end
+function Crosshair.new(fields) end

@@ -1,46 +1,41 @@
 ---@meta
 
 ---@class AttachCapsuleVisionBlockerEffector: gameEffector
----@field private visionBlockerRegistrar senseVisionBlockersRegistrar
----@field private visionBlockerType EVisionBlockerType
----@field private visionBlockerId Uint32
----@field private visionBlockerOffset Vector3
----@field private visionBlockerRadius Float
----@field private visionBlockerHeight Float
----@field private visionBlockerDetectionModifier Float
----@field private visionBlockerTBHModifier Float
----@field private isBlockingCompletely Bool
----@field private blocksParent Bool
+---@field visionBlockerRegistrar senseVisionBlockersRegistrar
+---@field visionBlockerType EVisionBlockerType
+---@field visionBlockerId Uint32
+---@field visionBlockerOffset Vector3
+---@field visionBlockerRadius Float
+---@field visionBlockerHeight Float
+---@field visionBlockerDetectionModifier Float
+---@field visionBlockerTBHModifier Float
+---@field isBlockingCompletely Bool
+---@field blocksParent Bool
 AttachCapsuleVisionBlockerEffector = {}
 
 ---@param fields? AttachCapsuleVisionBlockerEffector
 ---@return AttachCapsuleVisionBlockerEffector
-function AttachCapsuleVisionBlockerEffector.new(fields) return end
+function AttachCapsuleVisionBlockerEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AttachCapsuleVisionBlockerEffector:ActionOff(owner) return end
+function AttachCapsuleVisionBlockerEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AttachCapsuleVisionBlockerEffector:ActionOn(owner) return end
+function AttachCapsuleVisionBlockerEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function AttachCapsuleVisionBlockerEffector:Initialize(record, parentRecord) return end
+function AttachCapsuleVisionBlockerEffector:Initialize(record, parentRecord) end
 
 ---@param blockingCompletely Bool
 ---@return nil
-function AttachCapsuleVisionBlockerEffector:SetBlockingCompletely(blockingCompletely) return end
+function AttachCapsuleVisionBlockerEffector:SetBlockingCompletely(blockingCompletely) end
 
----@protected
 ---@return nil
-function AttachCapsuleVisionBlockerEffector:Uninitialize() return end
+function AttachCapsuleVisionBlockerEffector:Uninitialize() end
 
----@private
 ---@return nil
-function AttachCapsuleVisionBlockerEffector:UnregisterVisionBlocker() return end
+function AttachCapsuleVisionBlockerEffector:UnregisterVisionBlocker() end

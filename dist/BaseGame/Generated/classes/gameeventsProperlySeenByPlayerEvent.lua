@@ -5,4 +5,4 @@ gameeventsProperlySeenByPlayerEvent = {}
 
 ---@param fields? gameeventsProperlySeenByPlayerEvent
 ---@return gameeventsProperlySeenByPlayerEvent
-function gameeventsProperlySeenByPlayerEvent.new(fields) return end
+function gameeventsProperlySeenByPlayerEvent.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIFollowerCommand: AICommand
----@field public combatCommand Bool
+---@field combatCommand Bool
 AIFollowerCommand = {}
 
 ---@param fields? AIFollowerCommand
 ---@return AIFollowerCommand
-function AIFollowerCommand.new(fields) return end
+function AIFollowerCommand.new(fields) end
 
 ---@return Bool
-function AIFollowerCommand:IsCombatCommand() return end
+function AIFollowerCommand:IsCombatCommand() end

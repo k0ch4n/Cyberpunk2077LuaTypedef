@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class ApplyDamageDeviceOperation: DeviceOperationBase
----@field public damages SDamageOperationData[]
+---@field damages SDamageOperationData[]
 ApplyDamageDeviceOperation = {}
 
 ---@param fields? ApplyDamageDeviceOperation
 ---@return ApplyDamageDeviceOperation
-function ApplyDamageDeviceOperation.new(fields) return end
+function ApplyDamageDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function ApplyDamageDeviceOperation:Execute(owner) return end
+function ApplyDamageDeviceOperation:Execute(owner) end
 
----@private
 ---@param damagesArg SDamageOperationData[]
 ---@param owner gameObject
 ---@return nil
-function ApplyDamageDeviceOperation:ResolveDamages(damagesArg, owner) return end
+function ApplyDamageDeviceOperation:ResolveDamages(damagesArg, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function ApplyDamageDeviceOperation:Restore(owner) return end
+function ApplyDamageDeviceOperation:Restore(owner) end

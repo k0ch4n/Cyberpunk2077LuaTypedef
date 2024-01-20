@@ -5,4 +5,4 @@ ForceUpdateDefaultHighlightEvent = {}
 
 ---@param fields? ForceUpdateDefaultHighlightEvent
 ---@return ForceUpdateDefaultHighlightEvent
-function ForceUpdateDefaultHighlightEvent.new(fields) return end
+function ForceUpdateDefaultHighlightEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioGenericNameEventDictionary: audioInlinedAudioMetadata
----@field public entries audioGenericNameEventItem[]
----@field public entryType audioGenericNameEventItem
+---@field entries audioGenericNameEventItem[]
+---@field entryType audioGenericNameEventItem
 audioGenericNameEventDictionary = {}
 
 ---@param fields? audioGenericNameEventDictionary
 ---@return audioGenericNameEventDictionary
-function audioGenericNameEventDictionary.new(fields) return end
+function audioGenericNameEventDictionary.new(fields) end

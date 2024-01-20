@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NavGenNavigationSetting
----@field public navmeshImpact NavGenNavmeshImpact
+---@field navmeshImpact NavGenNavmeshImpact
 NavGenNavigationSetting = {}
 
 ---@param fields? NavGenNavigationSetting
 ---@return NavGenNavigationSetting
-function NavGenNavigationSetting.new(fields) return end
+function NavGenNavigationSetting.new(fields) end

@@ -1,68 +1,57 @@
 ---@meta
 
 ---@class buffListGameController: gameuiHUDGameController
----@field private buffsList inkHorizontalPanelWidgetReference
----@field private bbBuffList redCallbackObject
----@field private bbDeBuffList redCallbackObject
----@field private uiBlackboard gameIBlackboard
----@field private buffDataList gameuiBuffInfo[]
----@field private debuffDataList gameuiBuffInfo[]
----@field private buffWidgets inkWidget[]
----@field private UISystem gameuiGameSystemUI
----@field private pendingRequests Int32
+---@field buffsList inkHorizontalPanelWidgetReference
+---@field bbBuffList redCallbackObject
+---@field bbDeBuffList redCallbackObject
+---@field uiBlackboard gameIBlackboard
+---@field buffDataList gameuiBuffInfo[]
+---@field debuffDataList gameuiBuffInfo[]
+---@field buffWidgets inkWidget[]
+---@field UISystem gameuiGameSystemUI
+---@field pendingRequests Int32
 buffListGameController = {}
 
 ---@param fields? buffListGameController
 ---@return buffListGameController
-function buffListGameController.new(fields) return end
+function buffListGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function buffListGameController:OnBuffDataChanged(value) return end
+function buffListGameController:OnBuffDataChanged(value) end
 
----@protected
 ---@param newItem inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function buffListGameController:OnBuffSpawned(newItem, userData) return end
+function buffListGameController:OnBuffSpawned(newItem, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function buffListGameController:OnDeBuffDataChanged(value) return end
+function buffListGameController:OnDeBuffDataChanged(value) end
 
----@protected
 ---@return Bool
-function buffListGameController:OnInitialize() return end
+function buffListGameController:OnInitialize() end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function buffListGameController:OnPlayerAttach(playerGameObject) return end
+function buffListGameController:OnPlayerAttach(playerGameObject) end
 
----@protected
 ---@return Bool
-function buffListGameController:OnUninitialize() return end
+function buffListGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function buffListGameController:MergeKnockdowns() return end
+function buffListGameController:MergeKnockdowns() end
 
----@private
 ---@param oldVisible Bool
 ---@param nowVisible Bool
 ---@return nil
-function buffListGameController:SendVisibilityUpdate(oldVisible, nowVisible) return end
+function buffListGameController:SendVisibilityUpdate(oldVisible, nowVisible) end
 
----@private
 ---@return nil
-function buffListGameController:UpdateBuffDebuffList() return end
+function buffListGameController:UpdateBuffDebuffList() end
 
----@private
 ---@return nil
-function buffListGameController:UpdateBuffs() return end
+function buffListGameController:UpdateBuffs() end
 
----@private
 ---@return nil
-function buffListGameController:UpdateVisibility() return end
+function buffListGameController:UpdateVisibility() end

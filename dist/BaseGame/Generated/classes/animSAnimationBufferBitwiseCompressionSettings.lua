@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class animSAnimationBufferBitwiseCompressionSettings
----@field public translationTolerance Float
----@field public translationSkipFrameTolerance Float
----@field public orientationTolerance Float
----@field public orientationCompressionMethod SAnimationBufferOrientationCompressionMethod
----@field public orientationSkipFrameTolerance Float
----@field public scaleTolerance Float
----@field public scaleSkipFrameTolerance Float
----@field public trackTolerance Float
----@field public trackSkipFrameTolerance Float
+---@field translationTolerance Float
+---@field translationSkipFrameTolerance Float
+---@field orientationTolerance Float
+---@field orientationCompressionMethod SAnimationBufferOrientationCompressionMethod
+---@field orientationSkipFrameTolerance Float
+---@field scaleTolerance Float
+---@field scaleSkipFrameTolerance Float
+---@field trackTolerance Float
+---@field trackSkipFrameTolerance Float
 animSAnimationBufferBitwiseCompressionSettings = {}
 
 ---@param fields? animSAnimationBufferBitwiseCompressionSettings
 ---@return animSAnimationBufferBitwiseCompressionSettings
-function animSAnimationBufferBitwiseCompressionSettings.new(fields) return end
+function animSAnimationBufferBitwiseCompressionSettings.new(fields) end

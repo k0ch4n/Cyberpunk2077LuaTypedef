@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class inkScreenProjectionData
----@field public entity entEntity
----@field public slotComponentName CName
----@field public slotName CName
----@field public slotFallbackName CName
----@field public staticWorldPosition Vector4
----@field public fixedWorldOffset Vector4
----@field public userData IScriptable
----@field public adjustWithDistance Bool
----@field public extraOffsetAtMaxDistance Vector3
+---@field entity entEntity
+---@field slotComponentName CName
+---@field slotName CName
+---@field slotFallbackName CName
+---@field staticWorldPosition Vector4
+---@field fixedWorldOffset Vector4
+---@field userData IScriptable
+---@field adjustWithDistance Bool
+---@field extraOffsetAtMaxDistance Vector3
 inkScreenProjectionData = {}
 
 ---@param fields? inkScreenProjectionData
 ---@return inkScreenProjectionData
-function inkScreenProjectionData.new(fields) return end
+function inkScreenProjectionData.new(fields) end

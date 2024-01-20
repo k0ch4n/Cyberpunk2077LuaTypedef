@@ -5,4 +5,4 @@ ExpressionTreeExecutionListenerRef = {}
 
 ---@param fields? ExpressionTreeExecutionListenerRef
 ---@return ExpressionTreeExecutionListenerRef
-function ExpressionTreeExecutionListenerRef.new(fields) return end
+function ExpressionTreeExecutionListenerRef.new(fields) end

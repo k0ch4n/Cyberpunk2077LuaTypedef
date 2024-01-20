@@ -5,16 +5,14 @@ LeftHandCyberwareChargeRepeatActionDecisions = {}
 
 ---@param fields? LeftHandCyberwareChargeRepeatActionDecisions
 ---@return LeftHandCyberwareChargeRepeatActionDecisions
-function LeftHandCyberwareChargeRepeatActionDecisions.new(fields) return end
+function LeftHandCyberwareChargeRepeatActionDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareChargeRepeatActionDecisions:ToLeftHandCyberwareChargeRepeatAction(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeRepeatActionDecisions:ToLeftHandCyberwareChargeRepeatAction(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareChargeRepeatActionDecisions:ToLeftHandCyberwareWaitForUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeRepeatActionDecisions:ToLeftHandCyberwareWaitForUnequip(stateContext, scriptInterface) end

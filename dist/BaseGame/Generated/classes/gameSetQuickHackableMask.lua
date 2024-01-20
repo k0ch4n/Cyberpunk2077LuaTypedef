@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetQuickHackableMask: redEvent
----@field public isQuickHackable Bool
+---@field isQuickHackable Bool
 gameSetQuickHackableMask = {}
 
 ---@param fields? gameSetQuickHackableMask
 ---@return gameSetQuickHackableMask
-function gameSetQuickHackableMask.new(fields) return end
+function gameSetQuickHackableMask.new(fields) end

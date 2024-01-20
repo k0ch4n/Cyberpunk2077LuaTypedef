@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnChoiceNodeNsMappinParams: ISerializable
----@field public locationType scnChoiceNodeNsMappinLocation
----@field public mappinSettings TweakDBID
+---@field locationType scnChoiceNodeNsMappinLocation
+---@field mappinSettings TweakDBID
 scnChoiceNodeNsMappinParams = {}
 
 ---@param fields? scnChoiceNodeNsMappinParams
 ---@return scnChoiceNodeNsMappinParams
-function scnChoiceNodeNsMappinParams.new(fields) return end
+function scnChoiceNodeNsMappinParams.new(fields) end

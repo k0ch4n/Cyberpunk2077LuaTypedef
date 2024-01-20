@@ -5,4 +5,4 @@ worldCableMeshNodeInstance = {}
 
 ---@param fields? worldCableMeshNodeInstance
 ---@return worldCableMeshNodeInstance
-function worldCableMeshNodeInstance.new(fields) return end
+function worldCableMeshNodeInstance.new(fields) end

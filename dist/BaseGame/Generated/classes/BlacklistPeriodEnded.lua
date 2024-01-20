@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class BlacklistPeriodEnded: redEvent
----@field public entityID entEntityID
+---@field entityID entEntityID
 BlacklistPeriodEnded = {}
 
 ---@param fields? BlacklistPeriodEnded
 ---@return BlacklistPeriodEnded
-function BlacklistPeriodEnded.new(fields) return end
+function BlacklistPeriodEnded.new(fields) end

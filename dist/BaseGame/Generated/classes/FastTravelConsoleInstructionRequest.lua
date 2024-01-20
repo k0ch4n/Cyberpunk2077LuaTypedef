@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class FastTravelConsoleInstructionRequest: gameScriptableSystemRequest
----@field public instruction EFastTravelSystemInstruction
----@field public magicFloat Float
+---@field instruction EFastTravelSystemInstruction
+---@field magicFloat Float
 FastTravelConsoleInstructionRequest = {}
 
 ---@param fields? FastTravelConsoleInstructionRequest
 ---@return FastTravelConsoleInstructionRequest
-function FastTravelConsoleInstructionRequest.new(fields) return end
+function FastTravelConsoleInstructionRequest.new(fields) end

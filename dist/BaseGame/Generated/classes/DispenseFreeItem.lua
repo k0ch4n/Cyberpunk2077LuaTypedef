@@ -5,7 +5,7 @@ DispenseFreeItem = {}
 
 ---@param fields? DispenseFreeItem
 ---@return DispenseFreeItem
-function DispenseFreeItem.new(fields) return end
+function DispenseFreeItem.new(fields) end
 
 ---@return String
-function DispenseFreeItem:GetFriendlyDescription() return end
+function DispenseFreeItem:GetFriendlyDescription() end

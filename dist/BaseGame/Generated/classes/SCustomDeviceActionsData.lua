@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SCustomDeviceActionsData
----@field public actions SDeviceActionCustomData[]
+---@field actions SDeviceActionCustomData[]
 SCustomDeviceActionsData = {}
 
 ---@param fields? SCustomDeviceActionsData
 ---@return SCustomDeviceActionsData
-function SCustomDeviceActionsData.new(fields) return end
+function SCustomDeviceActionsData.new(fields) end

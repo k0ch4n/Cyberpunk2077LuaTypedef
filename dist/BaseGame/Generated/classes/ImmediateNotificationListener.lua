@@ -7,4 +7,4 @@ ImmediateNotificationListener = {}
 ---@param id Uint64
 ---@param data? IScriptable
 ---@return nil
-function ImmediateNotificationListener:Notify(message, id, data) return end
+function ImmediateNotificationListener:Notify(message, id, data) end

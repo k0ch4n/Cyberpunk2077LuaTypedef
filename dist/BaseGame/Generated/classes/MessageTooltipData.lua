@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class MessageTooltipData: ATooltipData
----@field public Title String
----@field public Description String
----@field public TitleLocalizationPackage gameUILocalizationDataPackage
----@field public DescriptionLocalizationPackage gameUILocalizationDataPackage
+---@field Title String
+---@field Description String
+---@field TitleLocalizationPackage gameUILocalizationDataPackage
+---@field DescriptionLocalizationPackage gameUILocalizationDataPackage
 MessageTooltipData = {}
 
 ---@param fields? MessageTooltipData
 ---@return MessageTooltipData
-function MessageTooltipData.new(fields) return end
+function MessageTooltipData.new(fields) end

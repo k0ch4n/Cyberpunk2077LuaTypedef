@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameBlackboardChangedEvent: redEvent
----@field public definition gamebbScriptDefinition
----@field public id gamebbScriptID
+---@field definition gamebbScriptDefinition
+---@field id gamebbScriptID
 gameBlackboardChangedEvent = {}
 
 ---@param fields? gameBlackboardChangedEvent
 ---@return gameBlackboardChangedEvent
-function gameBlackboardChangedEvent.new(fields) return end
+function gameBlackboardChangedEvent.new(fields) end
 
 ---@return gamebbScriptDefinition
-function gameBlackboardChangedEvent:GetDefinition() return end
+function gameBlackboardChangedEvent:GetDefinition() end
 
 ---@return gamebbScriptID
-function gameBlackboardChangedEvent:GetID() return end
+function gameBlackboardChangedEvent:GetID() end

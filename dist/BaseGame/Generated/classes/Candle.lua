@@ -5,14 +5,12 @@ Candle = {}
 
 ---@param fields? Candle
 ---@return Candle
-function Candle.new(fields) return end
+function Candle.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function Candle:OnAreaEnter(evt) return end
+function Candle:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function Candle:OnAreaExit(evt) return end
+function Candle:OnAreaExit(evt) end

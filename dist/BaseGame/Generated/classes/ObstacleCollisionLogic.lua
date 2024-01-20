@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class ObstacleCollisionLogic: gameuiSideScrollerMiniGameCollisionLogic
----@field private hasTriggered Bool
----@field private invincibityBonusTime Float
+---@field hasTriggered Bool
+---@field invincibityBonusTime Float
 ObstacleCollisionLogic = {}
 
 ---@param fields? ObstacleCollisionLogic
 ---@return ObstacleCollisionLogic
-function ObstacleCollisionLogic.new(fields) return end
+function ObstacleCollisionLogic.new(fields) end
 
----@protected
 ---@param hitEvent gameuiOnHitPlayerEvent
 ---@return Bool
-function ObstacleCollisionLogic:OnHitPlayer(hitEvent) return end
+function ObstacleCollisionLogic:OnHitPlayer(hitEvent) end
 
----@protected
 ---@return Bool
-function ObstacleCollisionLogic:OnInitialize() return end
+function ObstacleCollisionLogic:OnInitialize() end
 
----@protected
 ---@return Bool
-function ObstacleCollisionLogic:OnRecycle() return end
+function ObstacleCollisionLogic:OnRecycle() end

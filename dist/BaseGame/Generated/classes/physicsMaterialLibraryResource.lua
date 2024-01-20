@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsMaterialLibraryResource: CResource
----@field public defaultMaterial physicsMaterialResource
----@field public collectionData DataBuffer
+---@field defaultMaterial physicsMaterialResource
+---@field collectionData DataBuffer
 physicsMaterialLibraryResource = {}
 
 ---@param fields? physicsMaterialLibraryResource
 ---@return physicsMaterialLibraryResource
-function physicsMaterialLibraryResource.new(fields) return end
+function physicsMaterialLibraryResource.new(fields) end

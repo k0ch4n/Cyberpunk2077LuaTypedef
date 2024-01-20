@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetRevealedInNetwork: redEvent
----@field public wasRevealed Bool
+---@field wasRevealed Bool
 SetRevealedInNetwork = {}
 
 ---@param fields? SetRevealedInNetwork
 ---@return SetRevealedInNetwork
-function SetRevealedInNetwork.new(fields) return end
+function SetRevealedInNetwork.new(fields) end

@@ -1,226 +1,186 @@
 ---@meta
 
 ---@class gameuiInGameMenuGameController: gameuiBaseMenuGameController
----@field public itemSceneInfos gameuiInGameMenuGameControllerItemSceneInfo[]
----@field public garmentSwitchEffectControllers gameuiGarmentSwitchEffectController[]
----@field private quickSaveInProgress Bool
----@field private wasHoldingMapHotKey Bool
----@field private controllerDisconnected Bool
----@field private showDeathScreenBBID redCallbackObject
----@field private breachingNetworkBBID redCallbackObject
----@field private triggerMenuEventBBID redCallbackObject
----@field private openStorageBBID redCallbackObject
----@field private controllerDisconnectedBBID redCallbackObject
----@field private bbOnEquipmentChangedID redCallbackObject
----@field private inputSchemesBBID redCallbackObject
----@field private inventoryListener gameAttachmentSlotsScriptListener
----@field private animContainer inGameMenuAnimContainer
----@field private lastInGameNotificationType UIInGameNotificationType
----@field private loadSaveDelayID gameDelayID
----@field private player gameObject
+---@field itemSceneInfos gameuiInGameMenuGameControllerItemSceneInfo[]
+---@field garmentSwitchEffectControllers gameuiGarmentSwitchEffectController[]
+---@field quickSaveInProgress Bool
+---@field wasHoldingMapHotKey Bool
+---@field controllerDisconnected Bool
+---@field showDeathScreenBBID redCallbackObject
+---@field breachingNetworkBBID redCallbackObject
+---@field triggerMenuEventBBID redCallbackObject
+---@field openStorageBBID redCallbackObject
+---@field controllerDisconnectedBBID redCallbackObject
+---@field bbOnEquipmentChangedID redCallbackObject
+---@field inputSchemesBBID redCallbackObject
+---@field inventoryListener gameAttachmentSlotsScriptListener
+---@field animContainer inGameMenuAnimContainer
+---@field lastInGameNotificationType UIInGameNotificationType
+---@field loadSaveDelayID gameDelayID
+---@field player gameObject
 gameuiInGameMenuGameController = {}
 
 ---@param fields? gameuiInGameMenuGameController
 ---@return gameuiInGameMenuGameController
-function gameuiInGameMenuGameController.new(fields) return end
+function gameuiInGameMenuGameController.new(fields) end
 
 ---@param puppet gamePuppet
 ---@param itemID gameItemID
 ---@param value Float
 ---@return nil
-function gameuiInGameMenuGameController.SetAnimWrapperBasedOnItemFriendlyName(puppet, itemID, value) return end
+function gameuiInGameMenuGameController.SetAnimWrapperBasedOnItemFriendlyName(puppet, itemID, value) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function gameuiInGameMenuGameController:OnAction(action, consumer) return end
+function gameuiInGameMenuGameController:OnAction(action, consumer) end
 
----@protected
 ---@param value String
 ---@return Bool
-function gameuiInGameMenuGameController:OnArcadeMinigameEvent(value) return end
+function gameuiInGameMenuGameController:OnArcadeMinigameEvent(value) end
 
----@protected
 ---@param value String
 ---@return Bool
-function gameuiInGameMenuGameController:OnBreachingNetwork(value) return end
+function gameuiInGameMenuGameController:OnBreachingNetwork(value) end
 
----@protected
 ---@param evt DeathMenuDelayEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnDeathScreenDelayEvent(evt) return end
+function gameuiInGameMenuGameController:OnDeathScreenDelayEvent(evt) end
 
----@protected
 ---@param evt DelayedRegisterToGlobalInputCallbackEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnDelayedRegisterToGlobalInputCallbackEvent(evt) return end
+function gameuiInGameMenuGameController:OnDelayedRegisterToGlobalInputCallbackEvent(evt) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiInGameMenuGameController:OnDisconnectController(value) return end
+function gameuiInGameMenuGameController:OnDisconnectController(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiInGameMenuGameController:OnDisplayDeathMenu(value) return end
+function gameuiInGameMenuGameController:OnDisplayDeathMenu(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiInGameMenuGameController:OnEquipmentChanged(value) return end
+function gameuiInGameMenuGameController:OnEquipmentChanged(value) end
 
----@protected
 ---@param evt ForceCloseHubMenuEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnForceCloseHubMenuEvent(evt) return end
+function gameuiInGameMenuGameController:OnForceCloseHubMenuEvent(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnHandleMenuInput(evt) return end
+function gameuiInGameMenuGameController:OnHandleMenuInput(evt) end
 
----@protected
 ---@param evt DelayedHandleQuickLoadEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnHandleQuickLoad(evt) return end
+function gameuiInGameMenuGameController:OnHandleQuickLoad(evt) end
 
----@protected
 ---@return Bool
-function gameuiInGameMenuGameController:OnInitialize() return end
+function gameuiInGameMenuGameController:OnInitialize() end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function gameuiInGameMenuGameController:OnInputSchemeChanged(value) return end
+function gameuiInGameMenuGameController:OnInputSchemeChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiInGameMenuGameController:OnOpenStorage(value) return end
+function gameuiInGameMenuGameController:OnOpenStorage(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiInGameMenuGameController:OnOpenWardrobe(value) return end
+function gameuiInGameMenuGameController:OnOpenWardrobe(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiInGameMenuGameController:OnPlayerAttach(playerPuppet) return end
+function gameuiInGameMenuGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiInGameMenuGameController:OnPlayerDetach(playerPuppet) return end
+function gameuiInGameMenuGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param sceneName CName|string
 ---@param puppet gamePuppet
 ---@return Bool
-function gameuiInGameMenuGameController:OnPuppetReady(sceneName, puppet) return end
+function gameuiInGameMenuGameController:OnPuppetReady(sceneName, puppet) end
 
----@protected
 ---@param saves String[]
 ---@return Bool
-function gameuiInGameMenuGameController:OnQuickLoadSavesReady(saves) return end
+function gameuiInGameMenuGameController:OnQuickLoadSavesReady(saves) end
 
----@protected
 ---@param evt StartHubMenuEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnRequestHubMenu(evt) return end
+function gameuiInGameMenuGameController:OnRequestHubMenu(evt) end
 
----@protected
 ---@param evt ResetItemAppearanceInSlotDelayEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnResetItemAppearanceInSlotDelayEvent(evt) return end
+function gameuiInGameMenuGameController:OnResetItemAppearanceInSlotDelayEvent(evt) end
 
----@protected
 ---@param success Bool
 ---@param locks gameSaveLock[]
 ---@return Bool
-function gameuiInGameMenuGameController:OnSavingComplete(success, locks) return end
+function gameuiInGameMenuGameController:OnSavingComplete(success, locks) end
 
----@protected
 ---@param evt TimeSkipFinishEvent
 ---@return Bool
-function gameuiInGameMenuGameController:OnTimeSkipFinishEvent(evt) return end
+function gameuiInGameMenuGameController:OnTimeSkipFinishEvent(evt) end
 
----@protected
 ---@param value CName|string
 ---@return Bool
-function gameuiInGameMenuGameController:OnTriggerMenuEvent(value) return end
+function gameuiInGameMenuGameController:OnTriggerMenuEvent(value) end
 
----@protected
 ---@param previousStateName CName|string
 ---@param currentStateName CName|string
 ---@return Bool
-function gameuiInGameMenuGameController:OnUiStateChangedSuccessfully(previousStateName, currentStateName) return end
+function gameuiInGameMenuGameController:OnUiStateChangedSuccessfully(previousStateName, currentStateName) end
 
----@protected
 ---@return Bool
-function gameuiInGameMenuGameController:OnUninitialize() return end
+function gameuiInGameMenuGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function gameuiInGameMenuGameController:DelayedHandleQuickLoad() return end
+function gameuiInGameMenuGameController:DelayedHandleQuickLoad() end
 
----@private
 ---@return nil
-function gameuiInGameMenuGameController:HandleQuickSave() return end
+function gameuiInGameMenuGameController:HandleQuickSave() end
 
----@private
 ---@return Bool
-function gameuiInGameMenuGameController:IsPlayerInCombat() return end
+function gameuiInGameMenuGameController:IsPlayerInCombat() end
 
----@private
 ---@param actionName CName|string
 ---@return nil
-function gameuiInGameMenuGameController:OpenShortcutMenu(actionName) return end
+function gameuiInGameMenuGameController:OpenShortcutMenu(actionName) end
 
----@private
 ---@return nil
-function gameuiInGameMenuGameController:RegisterGlobalBlackboards() return end
+function gameuiInGameMenuGameController:RegisterGlobalBlackboards() end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiInGameMenuGameController:RegisterInputListenersForPlayer(playerPuppet) return end
+function gameuiInGameMenuGameController:RegisterInputListenersForPlayer(playerPuppet) end
 
----@private
 ---@return nil
-function gameuiInGameMenuGameController:RegisterInventoryListener() return end
+function gameuiInGameMenuGameController:RegisterInventoryListener() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiInGameMenuGameController:RegisterPSMListeners(playerPuppet) return end
+function gameuiInGameMenuGameController:RegisterPSMListeners(playerPuppet) end
 
----@private
 ---@param notificationEvent UIInGameNotificationEvent
 ---@return nil
-function gameuiInGameMenuGameController:SendNotification(notificationEvent) return end
+function gameuiInGameMenuGameController:SendNotification(notificationEvent) end
 
----@private
 ---@param actionName CName|string
 ---@return nil
-function gameuiInGameMenuGameController:TryOpenCraftingMenu(actionName) return end
+function gameuiInGameMenuGameController:TryOpenCraftingMenu(actionName) end
 
----@private
 ---@return nil
-function gameuiInGameMenuGameController:UnregisterGlobalBlackboards() return end
+function gameuiInGameMenuGameController:UnregisterGlobalBlackboards() end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiInGameMenuGameController:UnregisterInputListenersForPlayer(playerPuppet) return end
+function gameuiInGameMenuGameController:UnregisterInputListenersForPlayer(playerPuppet) end
 
----@private
 ---@return nil
-function gameuiInGameMenuGameController:UnregisterInventoryListener() return end
+function gameuiInGameMenuGameController:UnregisterInventoryListener() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiInGameMenuGameController:UnregisterPSMListeners(playerPuppet) return end
+function gameuiInGameMenuGameController:UnregisterPSMListeners(playerPuppet) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RegisterPreviewControllerEvent: redEvent
----@field public controller gameuiWardrobeSetPreviewGameController
+---@field controller gameuiWardrobeSetPreviewGameController
 RegisterPreviewControllerEvent = {}
 
 ---@param fields? RegisterPreviewControllerEvent
 ---@return RegisterPreviewControllerEvent
-function RegisterPreviewControllerEvent.new(fields) return end
+function RegisterPreviewControllerEvent.new(fields) end

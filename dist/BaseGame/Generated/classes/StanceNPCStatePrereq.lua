@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class StanceNPCStatePrereq: NPCStatePrereq
----@field public valueToListen gamedataNPCStanceState
+---@field valueToListen gamedataNPCStanceState
 StanceNPCStatePrereq = {}
 
 ---@param fields? StanceNPCStatePrereq
 ---@return StanceNPCStatePrereq
-function StanceNPCStatePrereq.new(fields) return end
+function StanceNPCStatePrereq.new(fields) end
 
----@protected
 ---@return Int32
-function StanceNPCStatePrereq:GetStateToCheck() return end
+function StanceNPCStatePrereq:GetStateToCheck() end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function StanceNPCStatePrereq:Initialize(recordID) return end
+function StanceNPCStatePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function StanceNPCStatePrereq:IsFulfilled(context) return end
+function StanceNPCStatePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function StanceNPCStatePrereq:OnRegister(state, context) return end
+function StanceNPCStatePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StanceNPCStatePrereq:OnUnregister(state, context) return end
+function StanceNPCStatePrereq:OnUnregister(state, context) end

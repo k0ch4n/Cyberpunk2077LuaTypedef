@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ForceBlackwallKillNPCSEvent: redEvent
----@field public targetID entEntityID
+---@field targetID entEntityID
 ForceBlackwallKillNPCSEvent = {}
 
 ---@param fields? ForceBlackwallKillNPCSEvent
 ---@return ForceBlackwallKillNPCSEvent
-function ForceBlackwallKillNPCSEvent.new(fields) return end
+function ForceBlackwallKillNPCSEvent.new(fields) end

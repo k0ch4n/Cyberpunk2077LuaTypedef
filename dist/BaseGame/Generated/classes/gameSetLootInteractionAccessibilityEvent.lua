@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetLootInteractionAccessibilityEvent: redEvent
----@field public accessible Bool
+---@field accessible Bool
 gameSetLootInteractionAccessibilityEvent = {}
 
 ---@param fields? gameSetLootInteractionAccessibilityEvent
 ---@return gameSetLootInteractionAccessibilityEvent
-function gameSetLootInteractionAccessibilityEvent.new(fields) return end
+function gameSetLootInteractionAccessibilityEvent.new(fields) end

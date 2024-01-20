@@ -5,4 +5,4 @@ inkEndGameLoadingState = {}
 
 ---@param fields? inkEndGameLoadingState
 ---@return inkEndGameLoadingState
-function inkEndGameLoadingState.new(fields) return end
+function inkEndGameLoadingState.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ThrowEquipmentRequest: gamePlayerScriptableSystemRequest
----@field public itemObject gameItemObject
+---@field itemObject gameItemObject
 ThrowEquipmentRequest = {}
 
 ---@param fields? ThrowEquipmentRequest
 ---@return ThrowEquipmentRequest
-function ThrowEquipmentRequest.new(fields) return end
+function ThrowEquipmentRequest.new(fields) end

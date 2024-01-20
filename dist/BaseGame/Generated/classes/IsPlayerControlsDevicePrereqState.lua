@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class IsPlayerControlsDevicePrereqState: gamePrereqState
----@field public listenerInfo redCallbackObject
+---@field listenerInfo redCallbackObject
 IsPlayerControlsDevicePrereqState = {}
 
 ---@param fields? IsPlayerControlsDevicePrereqState
 ---@return IsPlayerControlsDevicePrereqState
-function IsPlayerControlsDevicePrereqState.new(fields) return end
+function IsPlayerControlsDevicePrereqState.new(fields) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function IsPlayerControlsDevicePrereqState:OnStateUpdate(value) return end
+function IsPlayerControlsDevicePrereqState:OnStateUpdate(value) end

@@ -5,8 +5,8 @@ gameLocationManager = {}
 
 ---@param fields? gameLocationManager
 ---@return gameLocationManager
-function gameLocationManager.new(fields) return end
+function gameLocationManager.new(fields) end
 
 ---@param entityID entEntityID
 ---@return nil, CName[] tags
-function gameLocationManager:GetLocationTags(entityID) return end
+function gameLocationManager:GetLocationTags(entityID) end

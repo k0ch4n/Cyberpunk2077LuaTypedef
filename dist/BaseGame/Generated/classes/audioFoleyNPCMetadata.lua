@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class audioFoleyNPCMetadata: audioAudioMetadata
----@field public fastHeavy audioMeleeSound
----@field public fastMedium audioMeleeSound
----@field public fastLight audioMeleeSound
----@field public normalHeavy audioMeleeSound
----@field public normalMedium audioMeleeSound
----@field public normalLight audioMeleeSound
----@field public slowHeavy audioMeleeSound
----@field public slowMedium audioMeleeSound
----@field public slowLight audioMeleeSound
----@field public walk audioMeleeSound
----@field public run audioMeleeSound
+---@field fastHeavy audioMeleeSound
+---@field fastMedium audioMeleeSound
+---@field fastLight audioMeleeSound
+---@field normalHeavy audioMeleeSound
+---@field normalMedium audioMeleeSound
+---@field normalLight audioMeleeSound
+---@field slowHeavy audioMeleeSound
+---@field slowMedium audioMeleeSound
+---@field slowLight audioMeleeSound
+---@field walk audioMeleeSound
+---@field run audioMeleeSound
 audioFoleyNPCMetadata = {}
 
 ---@param fields? audioFoleyNPCMetadata
 ---@return audioFoleyNPCMetadata
-function audioFoleyNPCMetadata.new(fields) return end
+function audioFoleyNPCMetadata.new(fields) end

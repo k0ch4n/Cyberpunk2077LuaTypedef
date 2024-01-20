@@ -5,4 +5,4 @@ MineDespawnEvent = {}
 
 ---@param fields? MineDespawnEvent
 ---@return MineDespawnEvent
-function MineDespawnEvent.new(fields) return end
+function MineDespawnEvent.new(fields) end

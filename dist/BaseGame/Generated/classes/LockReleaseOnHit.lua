@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LockReleaseOnHit: gameScriptableSystemRequest
----@field public isLocked Bool
+---@field isLocked Bool
 LockReleaseOnHit = {}
 
 ---@param fields? LockReleaseOnHit
 ---@return LockReleaseOnHit
-function LockReleaseOnHit.new(fields) return end
+function LockReleaseOnHit.new(fields) end

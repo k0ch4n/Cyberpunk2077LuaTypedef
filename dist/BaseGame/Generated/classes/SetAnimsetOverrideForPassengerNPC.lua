@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetAnimsetOverrideForPassengerNPC: AIbehaviortaskScript
----@field public IsNPCMounted AIArgumentMapping
+---@field IsNPCMounted AIArgumentMapping
 SetAnimsetOverrideForPassengerNPC = {}
 
 ---@param fields? SetAnimsetOverrideForPassengerNPC
 ---@return SetAnimsetOverrideForPassengerNPC
-function SetAnimsetOverrideForPassengerNPC.new(fields) return end
+function SetAnimsetOverrideForPassengerNPC.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetAnimsetOverrideForPassengerNPC:Activate(context) return end
+function SetAnimsetOverrideForPassengerNPC:Activate(context) end

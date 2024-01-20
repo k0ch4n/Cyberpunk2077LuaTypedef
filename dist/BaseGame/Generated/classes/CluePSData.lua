@@ -1,32 +1,32 @@
 ---@meta
 
 ---@class CluePSData: IScriptable
----@field private id Int32
----@field private isEnabled Bool
----@field private wasInspected Bool
----@field private isScanned Bool
----@field private conclusionQuestState EConclusionQuestState
+---@field id Int32
+---@field isEnabled Bool
+---@field wasInspected Bool
+---@field isScanned Bool
+---@field conclusionQuestState EConclusionQuestState
 CluePSData = {}
 
 ---@param fields? CluePSData
 ---@return CluePSData
-function CluePSData.new(fields) return end
+function CluePSData.new(fields) end
 
 ---@return EConclusionQuestState
-function CluePSData:GetConclusionState() return end
+function CluePSData:GetConclusionState() end
 
 ---@return Int32
-function CluePSData:GetID() return end
+function CluePSData:GetID() end
 
 ---@return Bool
-function CluePSData:IsEnabled() return end
+function CluePSData:IsEnabled() end
 
 ---@return Bool
-function CluePSData:IsScanned() return end
+function CluePSData:IsScanned() end
 
 ---@param state EConclusionQuestState
 ---@return nil
-function CluePSData:SetConclusionState(state) return end
+function CluePSData:SetConclusionState(state) end
 
 ---@param id Int32
 ---@param isEnabled Bool
@@ -34,7 +34,7 @@ function CluePSData:SetConclusionState(state) return end
 ---@param isScanned Bool
 ---@param conclusionQuestState EConclusionQuestState
 ---@return nil
-function CluePSData:SetupData(id, isEnabled, wasInspected, isScanned, conclusionQuestState) return end
+function CluePSData:SetupData(id, isEnabled, wasInspected, isScanned, conclusionQuestState) end
 
 ---@return Bool
-function CluePSData:WasInspected() return end
+function CluePSData:WasInspected() end

@@ -5,22 +5,22 @@ gamedataAICooldownCond_Record = {}
 
 ---@param fields? gamedataAICooldownCond_Record
 ---@return gamedataAICooldownCond_Record
-function gamedataAICooldownCond_Record.new(fields) return end
+function gamedataAICooldownCond_Record.new(fields) end
 
 ---@return nil, gamedataAIActionCooldown_Record[] outList
-function gamedataAICooldownCond_Record:Cooldowns() return end
+function gamedataAICooldownCond_Record:Cooldowns() end
 
 ---@param item gamedataAIActionCooldown_Record
 ---@return Bool
-function gamedataAICooldownCond_Record:CooldownsContains(item) return end
+function gamedataAICooldownCond_Record:CooldownsContains(item) end
 
 ---@return Int32
-function gamedataAICooldownCond_Record:GetCooldownsCount() return end
+function gamedataAICooldownCond_Record:GetCooldownsCount() end
 
 ---@param index Int32
 ---@return gamedataAIActionCooldown_Record
-function gamedataAICooldownCond_Record:GetCooldownsItem(index) return end
+function gamedataAICooldownCond_Record:GetCooldownsItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIActionCooldown_Record
-function gamedataAICooldownCond_Record:GetCooldownsItemHandle(index) return end
+function gamedataAICooldownCond_Record:GetCooldownsItemHandle(index) end

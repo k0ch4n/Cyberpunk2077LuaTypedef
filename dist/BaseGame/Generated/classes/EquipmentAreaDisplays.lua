@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class EquipmentAreaDisplays: IScriptable
----@field public equipmentAreas gamedataEquipmentArea[]
----@field public displaysRoot inkWidget
----@field public displayControllers InventoryItemDisplayController[]
+---@field equipmentAreas gamedataEquipmentArea[]
+---@field displaysRoot inkWidget
+---@field displayControllers InventoryItemDisplayController[]
 EquipmentAreaDisplays = {}
 
 ---@param fields? EquipmentAreaDisplays
 ---@return EquipmentAreaDisplays
-function EquipmentAreaDisplays.new(fields) return end
+function EquipmentAreaDisplays.new(fields) end

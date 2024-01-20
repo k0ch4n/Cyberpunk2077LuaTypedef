@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class BlackwallAnimDef: gamebbScriptDefinition
----@field public deathAnimNumber gamebbScriptID_Int32
----@field public handGestureAnimNumber gamebbScriptID_Int32
+---@field deathAnimNumber gamebbScriptID_Int32
+---@field handGestureAnimNumber gamebbScriptID_Int32
 BlackwallAnimDef = {}
 
 ---@param fields? BlackwallAnimDef
 ---@return BlackwallAnimDef
-function BlackwallAnimDef.new(fields) return end
+function BlackwallAnimDef.new(fields) end
 
 ---@return Bool
-function BlackwallAnimDef:AutoCreateInSystem() return end
+function BlackwallAnimDef:AutoCreateInSystem() end

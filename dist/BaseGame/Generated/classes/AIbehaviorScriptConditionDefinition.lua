@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorScriptConditionDefinition: AIbehaviorConditionDefinition
----@field public script AIbehaviorconditionScript
----@field public disableLazyInitialization Bool
+---@field script AIbehaviorconditionScript
+---@field disableLazyInitialization Bool
 AIbehaviorScriptConditionDefinition = {}
 
 ---@param fields? AIbehaviorScriptConditionDefinition
 ---@return AIbehaviorScriptConditionDefinition
-function AIbehaviorScriptConditionDefinition.new(fields) return end
+function AIbehaviorScriptConditionDefinition.new(fields) end

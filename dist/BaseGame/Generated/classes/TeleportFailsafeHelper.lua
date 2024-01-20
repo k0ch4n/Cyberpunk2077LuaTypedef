@@ -5,9 +5,8 @@ TeleportFailsafeHelper = {}
 
 ---@param fields? TeleportFailsafeHelper
 ---@return TeleportFailsafeHelper
-function TeleportFailsafeHelper.new(fields) return end
+function TeleportFailsafeHelper.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TeleportFailsafeHelper:Activate(context) return end
+function TeleportFailsafeHelper:Activate(context) end

@@ -5,29 +5,25 @@ DodgeAirEvents = {}
 
 ---@param fields? DodgeAirEvents
 ---@return DodgeAirEvents
-function DodgeAirEvents.new(fields) return end
+function DodgeAirEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DodgeAirEvents:Dodge(stateContext, scriptInterface) return end
+function DodgeAirEvents:Dodge(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DodgeAirEvents:OnEnter(stateContext, scriptInterface) return end
+function DodgeAirEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DodgeAirEvents:OnExit(stateContext, scriptInterface) return end
+function DodgeAirEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DodgeAirEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function DodgeAirEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

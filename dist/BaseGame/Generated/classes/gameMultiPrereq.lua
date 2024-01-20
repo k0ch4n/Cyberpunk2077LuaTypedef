@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameMultiPrereq: gameIPrereq
----@field public aggregationType gameAggregationType
----@field public nestedPrereqs gameIPrereq[]
+---@field aggregationType gameAggregationType
+---@field nestedPrereqs gameIPrereq[]
 gameMultiPrereq = {}
 
 ---@param fields? gameMultiPrereq
 ---@return gameMultiPrereq
-function gameMultiPrereq.new(fields) return end
+function gameMultiPrereq.new(fields) end

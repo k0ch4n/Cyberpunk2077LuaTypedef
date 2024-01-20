@@ -5,4 +5,4 @@ gameCarriedObjectAttached = {}
 
 ---@param fields? gameCarriedObjectAttached
 ---@return gameCarriedObjectAttached
-function gameCarriedObjectAttached.new(fields) return end
+function gameCarriedObjectAttached.new(fields) end

@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SetAppearance: AIActionHelperTask
----@field public appearance CName
+---@field appearance CName
 SetAppearance = {}
 
 ---@param fields? SetAppearance
 ---@return SetAppearance
-function SetAppearance.new(fields) return end
+function SetAppearance.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetAppearance:Activate(context) return end
+function SetAppearance:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param appearance CName|string
 ---@return nil
-function SetAppearance:ApplyAppearance(context, appearance) return end
+function SetAppearance:ApplyAppearance(context, appearance) end

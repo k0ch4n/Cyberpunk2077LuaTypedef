@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class JoinTrafficInPoliceVehicle: AIVehicleTaskAbstract
----@field public vehicle vehicleBaseObject
----@field public panicDrivingCmd AIVehiclePanicCommand
+---@field vehicle vehicleBaseObject
+---@field panicDrivingCmd AIVehiclePanicCommand
 JoinTrafficInPoliceVehicle = {}
 
 ---@param fields? JoinTrafficInPoliceVehicle
 ---@return JoinTrafficInPoliceVehicle
-function JoinTrafficInPoliceVehicle.new(fields) return end
+function JoinTrafficInPoliceVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function JoinTrafficInPoliceVehicle:Activate(context) return end
+function JoinTrafficInPoliceVehicle:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function JoinTrafficInPoliceVehicle:Deactivate(context) return end
+function JoinTrafficInPoliceVehicle:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function JoinTrafficInPoliceVehicle:SendPanicDriveCommand(context) return end
+function JoinTrafficInPoliceVehicle:SendPanicDriveCommand(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function JoinTrafficInPoliceVehicle:Update(context) return end
+function JoinTrafficInPoliceVehicle:Update(context) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCpoArmouryItem: gameObject
----@field public armouryItemID TweakDBID
+---@field armouryItemID TweakDBID
 gameCpoArmouryItem = {}
 
 ---@param fields? gameCpoArmouryItem
 ---@return gameCpoArmouryItem
-function gameCpoArmouryItem.new(fields) return end
+function gameCpoArmouryItem.new(fields) end

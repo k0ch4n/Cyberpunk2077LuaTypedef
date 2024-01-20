@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIGuardAreaSavedData
----@field public puppetId entEntityID
----@field public nodeRef NodeRef
+---@field puppetId entEntityID
+---@field nodeRef NodeRef
 AIGuardAreaSavedData = {}
 
 ---@param fields? AIGuardAreaSavedData
 ---@return AIGuardAreaSavedData
-function AIGuardAreaSavedData.new(fields) return end
+function AIGuardAreaSavedData.new(fields) end

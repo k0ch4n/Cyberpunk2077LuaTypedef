@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class inkWidgetBrush: IScriptable
----@field public textureAtlas inkTextureAtlas
----@field public texturePartId CName
----@field public tileType inkBrushTileType
----@field public mirrorType inkBrushMirrorType
+---@field textureAtlas inkTextureAtlas
+---@field texturePartId CName
+---@field tileType inkBrushTileType
+---@field mirrorType inkBrushMirrorType
 inkWidgetBrush = {}
 
 ---@param fields? inkWidgetBrush
 ---@return inkWidgetBrush
-function inkWidgetBrush.new(fields) return end
+function inkWidgetBrush.new(fields) end
 
 ---@return nil
-function inkWidgetBrush:GetMirrorType() return end
+function inkWidgetBrush:GetMirrorType() end
 
 ---@return nil
-function inkWidgetBrush:GetTexturePart() return end
+function inkWidgetBrush:GetTexturePart() end
 
 ---@return nil
-function inkWidgetBrush:GetTileType() return end
+function inkWidgetBrush:GetTileType() end
 
 ---@return nil
-function inkWidgetBrush:IsTexturePartExist() return end
+function inkWidgetBrush:IsTexturePartExist() end
 
 ---@return nil
-function inkWidgetBrush:SetTexturePart() return end
+function inkWidgetBrush:SetTexturePart() end

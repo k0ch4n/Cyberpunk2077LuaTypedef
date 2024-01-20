@@ -5,4 +5,4 @@ ForceCloseHubMenuEvent = {}
 
 ---@param fields? ForceCloseHubMenuEvent
 ---@return ForceCloseHubMenuEvent
-function ForceCloseHubMenuEvent.new(fields) return end
+function ForceCloseHubMenuEvent.new(fields) end

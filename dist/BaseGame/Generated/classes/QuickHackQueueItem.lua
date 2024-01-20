@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class QuickHackQueueItem: inkWidgetLogicController
----@field private icon inkImageWidgetReference
----@field private data GameplayRoleMappinData
----@field private anim inkanimProxy
+---@field icon inkImageWidgetReference
+---@field data GameplayRoleMappinData
+---@field anim inkanimProxy
 QuickHackQueueItem = {}
 
 ---@param fields? QuickHackQueueItem
 ---@return QuickHackQueueItem
-function QuickHackQueueItem.new(fields) return end
+function QuickHackQueueItem.new(fields) end
 
 ---@return nil
-function QuickHackQueueItem:Hide() return end
+function QuickHackQueueItem:Hide() end
 
 ---@param data GameplayRoleMappinData
 ---@return nil
-function QuickHackQueueItem:Setup(data) return end
+function QuickHackQueueItem:Setup(data) end
 
 ---@return nil
-function QuickHackQueueItem:Show() return end
+function QuickHackQueueItem:Show() end
 
 ---@return nil
-function QuickHackQueueItem:Upload() return end
+function QuickHackQueueItem:Upload() end

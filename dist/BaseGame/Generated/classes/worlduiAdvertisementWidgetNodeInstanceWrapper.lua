@@ -5,4 +5,4 @@ worlduiAdvertisementWidgetNodeInstanceWrapper = {}
 
 ---@param fields? worlduiAdvertisementWidgetNodeInstanceWrapper
 ---@return worlduiAdvertisementWidgetNodeInstanceWrapper
-function worlduiAdvertisementWidgetNodeInstanceWrapper.new(fields) return end
+function worlduiAdvertisementWidgetNodeInstanceWrapper.new(fields) end

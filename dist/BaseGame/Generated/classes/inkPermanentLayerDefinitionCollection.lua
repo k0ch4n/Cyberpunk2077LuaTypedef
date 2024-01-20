@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkPermanentLayerDefinitionCollection
----@field public loadingLayer inkLoadingLayerDefinition
----@field public watermarksLayer inkWatermarksLayerDefinition
----@field public sysNotificationsLayer inkSystemNotificationsLayerDefinition
----@field public waitingSignLayerDefinition inkWaitingSignLayerDefinition
+---@field loadingLayer inkLoadingLayerDefinition
+---@field watermarksLayer inkWatermarksLayerDefinition
+---@field sysNotificationsLayer inkSystemNotificationsLayerDefinition
+---@field waitingSignLayerDefinition inkWaitingSignLayerDefinition
 inkPermanentLayerDefinitionCollection = {}
 
 ---@param fields? inkPermanentLayerDefinitionCollection
 ---@return inkPermanentLayerDefinitionCollection
-function inkPermanentLayerDefinitionCollection.new(fields) return end
+function inkPermanentLayerDefinitionCollection.new(fields) end

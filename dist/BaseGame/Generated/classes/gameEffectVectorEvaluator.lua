@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameEffectVectorEvaluator: ISerializable
----@field public modifier Float
+---@field modifier Float
 gameEffectVectorEvaluator = {}

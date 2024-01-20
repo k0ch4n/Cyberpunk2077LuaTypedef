@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameuiarcadeBoundingShape: IScriptable
----@field public boundingShape inkWidgetReference
+---@field boundingShape inkWidgetReference
 gameuiarcadeBoundingShape = {}

@@ -5,4 +5,4 @@ gamebbScriptID_EulerAngles = {}
 
 ---@param fields? gamebbScriptID_EulerAngles
 ---@return gamebbScriptID_EulerAngles
-function gamebbScriptID_EulerAngles.new(fields) return end
+function gamebbScriptID_EulerAngles.new(fields) end

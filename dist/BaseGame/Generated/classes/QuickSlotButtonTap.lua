@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuickSlotButtonTap: redEvent
----@field public dPadItemDirection EDPadSlot
+---@field dPadItemDirection EDPadSlot
 QuickSlotButtonTap = {}
 
 ---@param fields? QuickSlotButtonTap
 ---@return QuickSlotButtonTap
-function QuickSlotButtonTap.new(fields) return end
+function QuickSlotButtonTap.new(fields) end

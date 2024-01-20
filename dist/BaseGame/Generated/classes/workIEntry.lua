@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class workIEntry: ISerializable
----@field public id workWorkEntryId
----@field public flags Uint32
+---@field id workWorkEntryId
+---@field flags Uint32
 workIEntry = {}

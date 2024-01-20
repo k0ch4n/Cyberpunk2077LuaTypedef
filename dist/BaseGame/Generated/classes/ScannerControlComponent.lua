@@ -1,79 +1,65 @@
 ---@meta
 
 ---@class ScannerControlComponent: gameScriptableComponent
----@field private currentScanType MechanicalScanType
----@field private currentScanEffect gameEffectInstance
----@field private currentScanAnimation CName
----@field private scannerTriggerComponentName CName
----@field private scannerTriggerComponent entIComponent
----@field private a gameStaticTriggerAreaComponent
----@field private isScanningPlayer Bool
+---@field currentScanType MechanicalScanType
+---@field currentScanEffect gameEffectInstance
+---@field currentScanAnimation CName
+---@field scannerTriggerComponentName CName
+---@field scannerTriggerComponent entIComponent
+---@field a gameStaticTriggerAreaComponent
+---@field isScanningPlayer Bool
 ScannerControlComponent = {}
 
 ---@param fields? ScannerControlComponent
 ---@return ScannerControlComponent
-function ScannerControlComponent.new(fields) return end
+function ScannerControlComponent.new(fields) end
 
----@protected
 ---@param aiEvent AIAIEvent
 ---@return Bool
-function ScannerControlComponent:OnAIEvent(aiEvent) return end
+function ScannerControlComponent:OnAIEvent(aiEvent) end
 
----@protected
 ---@param trigger entAreaEnteredEvent
 ---@return Bool
-function ScannerControlComponent:OnAreaEnter(trigger) return end
+function ScannerControlComponent:OnAreaEnter(trigger) end
 
----@protected
 ---@param trigger entAreaExitedEvent
 ---@return Bool
-function ScannerControlComponent:OnAreaExit(trigger) return end
+function ScannerControlComponent:OnAreaExit(trigger) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function ScannerControlComponent:OnDeath(evt) return end
+function ScannerControlComponent:OnDeath(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ScannerControlComponent:OnRequestComponents(ri) return end
+function ScannerControlComponent:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ScannerControlComponent:OnTakeControl(ri) return end
+function ScannerControlComponent:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function ScannerControlComponent:OnGameAttach() return end
+function ScannerControlComponent:OnGameAttach() end
 
----@protected
 ---@param animationName CName|string
 ---@return nil
-function ScannerControlComponent:PlayScannerSlotAnimation(animationName) return end
+function ScannerControlComponent:PlayScannerSlotAnimation(animationName) end
 
----@protected
 ---@return nil
-function ScannerControlComponent:StartFullscreenPlayerVFX() return end
+function ScannerControlComponent:StartFullscreenPlayerVFX() end
 
----@private
 ---@param scanType MechanicalScanType
 ---@return nil
-function ScannerControlComponent:StartScanning(scanType) return end
+function ScannerControlComponent:StartScanning(scanType) end
 
----@private
 ---@return nil
-function ScannerControlComponent:StopCurrentScanningEffect() return end
+function ScannerControlComponent:StopCurrentScanningEffect() end
 
----@protected
 ---@return nil
-function ScannerControlComponent:StopFullscreenPlayerVFX() return end
+function ScannerControlComponent:StopFullscreenPlayerVFX() end
 
----@protected
 ---@return nil
-function ScannerControlComponent:StopScannerSlotAnimation() return end
+function ScannerControlComponent:StopScannerSlotAnimation() end
 
----@private
 ---@return nil
-function ScannerControlComponent:StopScanning() return end
+function ScannerControlComponent:StopScanning() end

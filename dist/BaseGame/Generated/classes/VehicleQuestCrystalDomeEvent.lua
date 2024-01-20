@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VehicleQuestCrystalDomeEvent: redEvent
----@field public toggle Bool
----@field public removeQuestControl Bool
+---@field toggle Bool
+---@field removeQuestControl Bool
 VehicleQuestCrystalDomeEvent = {}
 
 ---@param fields? VehicleQuestCrystalDomeEvent
 ---@return VehicleQuestCrystalDomeEvent
-function VehicleQuestCrystalDomeEvent.new(fields) return end
+function VehicleQuestCrystalDomeEvent.new(fields) end
 
 ---@return String
-function VehicleQuestCrystalDomeEvent:GetFriendlyDescription() return end
+function VehicleQuestCrystalDomeEvent:GetFriendlyDescription() end

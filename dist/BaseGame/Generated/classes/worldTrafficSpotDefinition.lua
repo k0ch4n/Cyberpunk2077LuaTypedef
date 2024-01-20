@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class worldTrafficSpotDefinition: ISerializable
----@field public length Float
----@field public direction worldTrafficSpotDirection
+---@field length Float
+---@field direction worldTrafficSpotDirection
 worldTrafficSpotDefinition = {}

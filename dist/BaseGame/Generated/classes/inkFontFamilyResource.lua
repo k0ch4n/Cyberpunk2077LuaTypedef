@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkFontFamilyResource: CResource
----@field public familyName CName
----@field public fontStyles inkFontStyle[]
+---@field familyName CName
+---@field fontStyles inkFontStyle[]
 inkFontFamilyResource = {}
 
 ---@param fields? inkFontFamilyResource
 ---@return inkFontFamilyResource
-function inkFontFamilyResource.new(fields) return end
+function inkFontFamilyResource.new(fields) end

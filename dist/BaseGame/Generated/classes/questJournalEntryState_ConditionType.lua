@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questJournalEntryState_ConditionType: questIJournalConditionType
----@field public path gameJournalPath
----@field public state gameJournalEntryState
----@field public inverted Bool
+---@field path gameJournalPath
+---@field state gameJournalEntryState
+---@field inverted Bool
 questJournalEntryState_ConditionType = {}
 
 ---@param fields? questJournalEntryState_ConditionType
 ---@return questJournalEntryState_ConditionType
-function questJournalEntryState_ConditionType.new(fields) return end
+function questJournalEntryState_ConditionType.new(fields) end

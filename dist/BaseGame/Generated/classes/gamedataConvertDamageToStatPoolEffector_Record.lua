@@ -5,16 +5,16 @@ gamedataConvertDamageToStatPoolEffector_Record = {}
 
 ---@param fields? gamedataConvertDamageToStatPoolEffector_Record
 ---@return gamedataConvertDamageToStatPoolEffector_Record
-function gamedataConvertDamageToStatPoolEffector_Record.new(fields) return end
+function gamedataConvertDamageToStatPoolEffector_Record.new(fields) end
 
 ---@return CName
-function gamedataConvertDamageToStatPoolEffector_Record:OpSymbol() return end
+function gamedataConvertDamageToStatPoolEffector_Record:OpSymbol() end
 
 ---@return gamedataStatPool_Record
-function gamedataConvertDamageToStatPoolEffector_Record:StatPoolType() return end
+function gamedataConvertDamageToStatPoolEffector_Record:StatPoolType() end
 
 ---@return gamedataStatPool_Record
-function gamedataConvertDamageToStatPoolEffector_Record:StatPoolTypeHandle() return end
+function gamedataConvertDamageToStatPoolEffector_Record:StatPoolTypeHandle() end
 
 ---@return Float
-function gamedataConvertDamageToStatPoolEffector_Record:Value() return end
+function gamedataConvertDamageToStatPoolEffector_Record:Value() end

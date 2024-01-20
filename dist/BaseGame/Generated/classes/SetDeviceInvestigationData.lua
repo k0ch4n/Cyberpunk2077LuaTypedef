@@ -1,43 +1,37 @@
 ---@meta
 
 ---@class SetDeviceInvestigationData: AIbehaviortaskScript
----@field public ownerPuppet ScriptedPuppet
----@field public listener gameObject
+---@field ownerPuppet ScriptedPuppet
+---@field listener gameObject
 SetDeviceInvestigationData = {}
 
 ---@param fields? SetDeviceInvestigationData
 ---@return SetDeviceInvestigationData
-function SetDeviceInvestigationData.new(fields) return end
+function SetDeviceInvestigationData.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetDeviceInvestigationData:Activate(context) return end
+function SetDeviceInvestigationData:Activate(context) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@param data FocusForcedHighlightData
 ---@return nil
-function SetDeviceInvestigationData:CancelForcedVisionAppearance(owner, data) return end
+function SetDeviceInvestigationData:CancelForcedVisionAppearance(owner, data) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetDeviceInvestigationData:Deactivate(context) return end
+function SetDeviceInvestigationData:Deactivate(context) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@param data FocusForcedHighlightData
 ---@return nil
-function SetDeviceInvestigationData:ForceVisionAppearance(owner, data) return end
+function SetDeviceInvestigationData:ForceVisionAppearance(owner, data) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@return FocusForcedHighlightData
-function SetDeviceInvestigationData:GetDistractionHighlightData(owner) return end
+function SetDeviceInvestigationData:GetDistractionHighlightData(owner) end
 
----@private
 ---@param listenerArg gameObject
 ---@param isInvestigated Bool
 ---@return nil
-function SetDeviceInvestigationData:SetInvestigationStateOnListener(listenerArg, isInvestigated) return end
+function SetDeviceInvestigationData:SetInvestigationStateOnListener(listenerArg, isInvestigated) end

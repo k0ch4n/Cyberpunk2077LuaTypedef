@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnPlacementEvent: scnSceneEvent
----@field public actorId scnActorId
----@field public targetWaypoint scnMarker
+---@field actorId scnActorId
+---@field targetWaypoint scnMarker
 scnPlacementEvent = {}
 
 ---@param fields? scnPlacementEvent
 ---@return scnPlacementEvent
-function scnPlacementEvent.new(fields) return end
+function scnPlacementEvent.new(fields) end

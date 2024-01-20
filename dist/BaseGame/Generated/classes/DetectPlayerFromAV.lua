@@ -5,9 +5,8 @@ DetectPlayerFromAV = {}
 
 ---@param fields? DetectPlayerFromAV
 ---@return DetectPlayerFromAV
-function DetectPlayerFromAV.new(fields) return end
+function DetectPlayerFromAV.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function DetectPlayerFromAV:Activate(context) return end
+function DetectPlayerFromAV:Activate(context) end

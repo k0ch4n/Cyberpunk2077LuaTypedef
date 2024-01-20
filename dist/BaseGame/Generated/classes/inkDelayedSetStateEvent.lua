@@ -5,4 +5,4 @@ inkDelayedSetStateEvent = {}
 
 ---@param fields? inkDelayedSetStateEvent
 ---@return inkDelayedSetStateEvent
-function inkDelayedSetStateEvent.new(fields) return end
+function inkDelayedSetStateEvent.new(fields) end

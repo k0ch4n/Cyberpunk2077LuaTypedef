@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class TransmogMessageDescTooltip: MessageTooltip
----@field protected titleWrapper inkWidgetReference
----@field protected descriptionWrapper inkWidgetReference
----@field protected descriptionLine inkWidgetReference
----@field protected icon inkImageWidgetReference
+---@field titleWrapper inkWidgetReference
+---@field descriptionWrapper inkWidgetReference
+---@field descriptionLine inkWidgetReference
+---@field icon inkImageWidgetReference
 TransmogMessageDescTooltip = {}
 
 ---@param fields? TransmogMessageDescTooltip
 ---@return TransmogMessageDescTooltip
-function TransmogMessageDescTooltip.new(fields) return end
+function TransmogMessageDescTooltip.new(fields) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function TransmogMessageDescTooltip:SetData(tooltipData) return end
+function TransmogMessageDescTooltip:SetData(tooltipData) end

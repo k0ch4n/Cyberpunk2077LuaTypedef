@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class scnChoiceNode: scnSceneGraphNode
----@field public displayNameOverride String
----@field public localizedDisplayNameOverride LocalizationString
----@field public options scnChoiceNodeOption[]
----@field public mode scnChoiceNodeNsOperationMode
----@field public persistentLineEvents scnSceneEventId[]
----@field public customPersistentLine scnscreenplayItemId
----@field public timedParams scnChoiceNodeNsTimedParams
----@field public reminderParams scnChoiceNodeNsActorReminderParams
----@field public shapeParams scnInteractionShapeParams
----@field public lookAtParams scnChoiceNodeNsLookAtParams
----@field public forceAttachToScreenCondition questIBaseCondition
----@field public choiceGroup CName
----@field public cpoHoldInputActionSection Bool
----@field public doNotTurnOffPreventionSystem Bool
----@field public ataParams scnChoiceNodeNsAttachToActorParams
----@field public atpParams scnChoiceNodeNsAttachToPropParams
----@field public atgoParams scnChoiceNodeNsAttachToGameObjectParams
----@field public atsParams scnChoiceNodeNsAttachToScreenParams
----@field public atwParams scnChoiceNodeNsAttachToWorldParams
----@field public choicePriority Uint8
----@field public hubPriority Uint8
----@field public mappinParams scnChoiceNodeNsMappinParams
----@field public interruptCapability scnInterruptCapability
----@field public interruptionSpeakerOverride scnActorId
----@field public choiceFlags scnChoiceNodeNsChoiceNodeBitFlags
----@field public alwaysUseBrainGender Bool
----@field public timedSectionCondition scnTimedCondition
----@field public reminderCondition scnReminderCondition
+---@field displayNameOverride String
+---@field localizedDisplayNameOverride LocalizationString
+---@field options scnChoiceNodeOption[]
+---@field mode scnChoiceNodeNsOperationMode
+---@field persistentLineEvents scnSceneEventId[]
+---@field customPersistentLine scnscreenplayItemId
+---@field timedParams scnChoiceNodeNsTimedParams
+---@field reminderParams scnChoiceNodeNsActorReminderParams
+---@field shapeParams scnInteractionShapeParams
+---@field lookAtParams scnChoiceNodeNsLookAtParams
+---@field forceAttachToScreenCondition questIBaseCondition
+---@field choiceGroup CName
+---@field cpoHoldInputActionSection Bool
+---@field doNotTurnOffPreventionSystem Bool
+---@field ataParams scnChoiceNodeNsAttachToActorParams
+---@field atpParams scnChoiceNodeNsAttachToPropParams
+---@field atgoParams scnChoiceNodeNsAttachToGameObjectParams
+---@field atsParams scnChoiceNodeNsAttachToScreenParams
+---@field atwParams scnChoiceNodeNsAttachToWorldParams
+---@field choicePriority Uint8
+---@field hubPriority Uint8
+---@field mappinParams scnChoiceNodeNsMappinParams
+---@field interruptCapability scnInterruptCapability
+---@field interruptionSpeakerOverride scnActorId
+---@field choiceFlags scnChoiceNodeNsChoiceNodeBitFlags
+---@field alwaysUseBrainGender Bool
+---@field timedSectionCondition scnTimedCondition
+---@field reminderCondition scnReminderCondition
 scnChoiceNode = {}
 
 ---@param fields? scnChoiceNode
 ---@return scnChoiceNode
-function scnChoiceNode.new(fields) return end
+function scnChoiceNode.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameSLastUsedWeapon
----@field public lastUsedWeapon gameItemID
----@field public lastUsedRanged gameItemID
----@field public lastUsedMelee gameItemID
----@field public lastUsedHeavy gameItemID
+---@field lastUsedWeapon gameItemID
+---@field lastUsedRanged gameItemID
+---@field lastUsedMelee gameItemID
+---@field lastUsedHeavy gameItemID
 gameSLastUsedWeapon = {}
 
 ---@param fields? gameSLastUsedWeapon
 ---@return gameSLastUsedWeapon
-function gameSLastUsedWeapon.new(fields) return end
+function gameSLastUsedWeapon.new(fields) end

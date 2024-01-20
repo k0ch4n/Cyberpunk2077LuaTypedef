@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerFaction: ScannerChunk
----@field public faction String
+---@field faction String
 ScannerFaction = {}
 
 ---@param fields? ScannerFaction
 ---@return ScannerFaction
-function ScannerFaction.new(fields) return end
+function ScannerFaction.new(fields) end
 
 ---@return String
-function ScannerFaction:GetFaction() return end
+function ScannerFaction:GetFaction() end
 
 ---@return ScannerDataType
-function ScannerFaction:GetType() return end
+function ScannerFaction:GetType() end
 
 ---@param f String
 ---@return nil
-function ScannerFaction:Set(f) return end
+function ScannerFaction:Set(f) end

@@ -5,4 +5,4 @@ redTOMLKeyValue = {}
 
 ---@param fields? redTOMLKeyValue
 ---@return redTOMLKeyValue
-function redTOMLKeyValue.new(fields) return end
+function redTOMLKeyValue.new(fields) end

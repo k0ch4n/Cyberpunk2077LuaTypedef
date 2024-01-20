@@ -5,4 +5,4 @@ inkWorldLayer = {}
 
 ---@param fields? inkWorldLayer
 ---@return inkWorldLayer
-function inkWorldLayer.new(fields) return end
+function inkWorldLayer.new(fields) end

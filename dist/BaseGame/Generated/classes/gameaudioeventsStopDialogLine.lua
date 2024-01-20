@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameaudioeventsStopDialogLine: redEvent
----@field public stringId CRUID
----@field public fadeOut Float
+---@field stringId CRUID
+---@field fadeOut Float
 gameaudioeventsStopDialogLine = {}
 
 ---@param fields? gameaudioeventsStopDialogLine
 ---@return gameaudioeventsStopDialogLine
-function gameaudioeventsStopDialogLine.new(fields) return end
+function gameaudioeventsStopDialogLine.new(fields) end

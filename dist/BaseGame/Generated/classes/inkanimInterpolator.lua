@@ -1,60 +1,60 @@
 ---@meta
 
 ---@class inkanimInterpolator: IScriptable
----@field public interpolationMode inkanimInterpolationMode
----@field public interpolationType inkanimInterpolationType
----@field public interpolationDirection inkanimInterpolationDirection
----@field public duration Float
----@field public startDelay Float
----@field public useRelativeDuration Bool
----@field public isAdditive Bool
+---@field interpolationMode inkanimInterpolationMode
+---@field interpolationType inkanimInterpolationType
+---@field interpolationDirection inkanimInterpolationDirection
+---@field duration Float
+---@field startDelay Float
+---@field useRelativeDuration Bool
+---@field isAdditive Bool
 inkanimInterpolator = {}
 
 ---@return inkanimInterpolationDirection
-function inkanimInterpolator:GetDirection() return end
+function inkanimInterpolator:GetDirection() end
 
 ---@return Float
-function inkanimInterpolator:GetDuration() return end
+function inkanimInterpolator:GetDuration() end
 
 ---@return Bool
-function inkanimInterpolator:GetIsAdditive() return end
+function inkanimInterpolator:GetIsAdditive() end
 
 ---@return inkanimInterpolationMode
-function inkanimInterpolator:GetMode() return end
+function inkanimInterpolator:GetMode() end
 
 ---@return Float
-function inkanimInterpolator:GetStartDelay() return end
+function inkanimInterpolator:GetStartDelay() end
 
 ---@return inkanimInterpolationType
-function inkanimInterpolator:GetType() return end
+function inkanimInterpolator:GetType() end
 
 ---@return Bool
-function inkanimInterpolator:GetUseRelativeDuration() return end
+function inkanimInterpolator:GetUseRelativeDuration() end
 
 ---@param direction inkanimInterpolationDirection
 ---@return nil
-function inkanimInterpolator:SetDirection(direction) return end
+function inkanimInterpolator:SetDirection(direction) end
 
 ---@param duration Float
 ---@return nil
-function inkanimInterpolator:SetDuration(duration) return end
+function inkanimInterpolator:SetDuration(duration) end
 
 ---@param isAdditive Bool
 ---@return nil
-function inkanimInterpolator:SetIsAdditive(isAdditive) return end
+function inkanimInterpolator:SetIsAdditive(isAdditive) end
 
 ---@param mode inkanimInterpolationMode
 ---@return nil
-function inkanimInterpolator:SetMode(mode) return end
+function inkanimInterpolator:SetMode(mode) end
 
 ---@param startDelay Float
 ---@return nil
-function inkanimInterpolator:SetStartDelay(startDelay) return end
+function inkanimInterpolator:SetStartDelay(startDelay) end
 
 ---@param type inkanimInterpolationType
 ---@return nil
-function inkanimInterpolator:SetType(type) return end
+function inkanimInterpolator:SetType(type) end
 
 ---@param useRelativeDuration Bool
 ---@return nil
-function inkanimInterpolator:SetUseRelativeDuration(useRelativeDuration) return end
+function inkanimInterpolator:SetUseRelativeDuration(useRelativeDuration) end

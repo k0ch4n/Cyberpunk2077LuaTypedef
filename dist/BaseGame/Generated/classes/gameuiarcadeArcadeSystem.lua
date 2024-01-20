@@ -5,4 +5,4 @@ gameuiarcadeArcadeSystem = {}
 
 ---@param fields? gameuiarcadeArcadeSystem
 ---@return gameuiarcadeArcadeSystem
-function gameuiarcadeArcadeSystem.new(fields) return end
+function gameuiarcadeArcadeSystem.new(fields) end

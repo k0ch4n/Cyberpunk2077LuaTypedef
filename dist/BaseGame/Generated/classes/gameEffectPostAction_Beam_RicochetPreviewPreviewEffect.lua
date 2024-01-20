@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameEffectPostAction_Beam_RicochetPreviewPreviewEffect
----@field public effect worldEffect
----@field public effectTag CName
----@field public effectSnap worldEffect
----@field public effectSnapTag CName
----@field public forwardOffset Float
+---@field effect worldEffect
+---@field effectTag CName
+---@field effectSnap worldEffect
+---@field effectSnapTag CName
+---@field forwardOffset Float
 gameEffectPostAction_Beam_RicochetPreviewPreviewEffect = {}
 
 ---@param fields? gameEffectPostAction_Beam_RicochetPreviewPreviewEffect
 ---@return gameEffectPostAction_Beam_RicochetPreviewPreviewEffect
-function gameEffectPostAction_Beam_RicochetPreviewPreviewEffect.new(fields) return end
+function gameEffectPostAction_Beam_RicochetPreviewPreviewEffect.new(fields) end

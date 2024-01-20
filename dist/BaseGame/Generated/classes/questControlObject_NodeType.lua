@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questControlObject_NodeType: questIGameManagerNonSignalStoppingNodeType
----@field public objectRef gameEntityReference
+---@field objectRef gameEntityReference
 questControlObject_NodeType = {}
 
 ---@param fields? questControlObject_NodeType
 ---@return questControlObject_NodeType
-function questControlObject_NodeType.new(fields) return end
+function questControlObject_NodeType.new(fields) end

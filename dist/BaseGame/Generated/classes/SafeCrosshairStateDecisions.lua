@@ -5,16 +5,14 @@ SafeCrosshairStateDecisions = {}
 
 ---@param fields? SafeCrosshairStateDecisions
 ---@return SafeCrosshairStateDecisions
-function SafeCrosshairStateDecisions.new(fields) return end
+function SafeCrosshairStateDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SafeCrosshairStateDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SafeCrosshairStateDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SafeCrosshairStateDecisions:ExitCondition(stateContext, scriptInterface) return end
+function SafeCrosshairStateDecisions:ExitCondition(stateContext, scriptInterface) end

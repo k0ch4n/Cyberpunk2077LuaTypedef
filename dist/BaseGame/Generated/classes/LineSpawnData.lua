@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class LineSpawnData: IScriptable
----@field public lineData scnDialogLineData
+---@field lineData scnDialogLineData
 LineSpawnData = {}
 
 ---@param fields? LineSpawnData
 ---@return LineSpawnData
-function LineSpawnData.new(fields) return end
+function LineSpawnData.new(fields) end
 
 ---@param lineData scnDialogLineData
 ---@return nil
-function LineSpawnData:Initialize(lineData) return end
+function LineSpawnData:Initialize(lineData) end

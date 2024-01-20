@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class VendingTerminalSetup
----@field public vendorTweakID TweakDBID
----@field public vendingBlacklist EVendorMode[]
----@field public timeToCompletePurchase Float
+---@field vendorTweakID TweakDBID
+---@field vendingBlacklist EVendorMode[]
+---@field timeToCompletePurchase Float
 VendingTerminalSetup = {}
 
 ---@param fields? VendingTerminalSetup
 ---@return VendingTerminalSetup
-function VendingTerminalSetup.new(fields) return end
+function VendingTerminalSetup.new(fields) end

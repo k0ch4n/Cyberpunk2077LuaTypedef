@@ -5,13 +5,13 @@ inkWidgetReference = {}
 
 ---@param fields? inkWidgetReference
 ---@return inkWidgetReference
-function inkWidgetReference.new(fields) return end
+function inkWidgetReference.new(fields) end
 
 ---@param self inkWidgetReference
 ---@param widget inkWidget
 ---@return nil
-function inkWidgetReference.Set(self, widget) return end
+function inkWidgetReference.Set(self, widget) end
 
 ---@param widget inkWidget
 ---@return inkWidgetReference
-function inkWidgetReference.Create(widget) return end
+function inkWidgetReference.Create(widget) end

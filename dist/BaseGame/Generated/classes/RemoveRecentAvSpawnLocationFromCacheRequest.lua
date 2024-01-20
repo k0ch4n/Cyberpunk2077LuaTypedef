@@ -5,4 +5,4 @@ RemoveRecentAvSpawnLocationFromCacheRequest = {}
 
 ---@param fields? RemoveRecentAvSpawnLocationFromCacheRequest
 ---@return RemoveRecentAvSpawnLocationFromCacheRequest
-function RemoveRecentAvSpawnLocationFromCacheRequest.new(fields) return end
+function RemoveRecentAvSpawnLocationFromCacheRequest.new(fields) end

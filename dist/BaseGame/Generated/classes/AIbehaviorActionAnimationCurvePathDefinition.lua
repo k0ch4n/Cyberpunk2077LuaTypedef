@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class AIbehaviorActionAnimationCurvePathDefinition: AIbehaviorActionTreeNodeDefinition
----@field public nodeReference AIArgumentMapping
----@field public controllersSetupName AIArgumentMapping
----@field public useStart AIArgumentMapping
----@field public useStop AIArgumentMapping
----@field public blendTime AIArgumentMapping
----@field public globalInBlendTime AIArgumentMapping
----@field public globalOutBlendTime AIArgumentMapping
----@field public turnCharacterToMatchVelocity AIArgumentMapping
----@field public customStartAnimationName AIArgumentMapping
----@field public customMainAnimationName AIArgumentMapping
----@field public customStopAnimationName AIArgumentMapping
----@field public startSnapToTerrain AIArgumentMapping
----@field public mainSnapToTerrain AIArgumentMapping
----@field public stopSnapToTerrain AIArgumentMapping
----@field public startSnapToTerrainBlendTime AIArgumentMapping
----@field public stopSnapToTerrainBlendTime AIArgumentMapping
+---@field nodeReference AIArgumentMapping
+---@field controllersSetupName AIArgumentMapping
+---@field useStart AIArgumentMapping
+---@field useStop AIArgumentMapping
+---@field blendTime AIArgumentMapping
+---@field globalInBlendTime AIArgumentMapping
+---@field globalOutBlendTime AIArgumentMapping
+---@field turnCharacterToMatchVelocity AIArgumentMapping
+---@field customStartAnimationName AIArgumentMapping
+---@field customMainAnimationName AIArgumentMapping
+---@field customStopAnimationName AIArgumentMapping
+---@field startSnapToTerrain AIArgumentMapping
+---@field mainSnapToTerrain AIArgumentMapping
+---@field stopSnapToTerrain AIArgumentMapping
+---@field startSnapToTerrainBlendTime AIArgumentMapping
+---@field stopSnapToTerrainBlendTime AIArgumentMapping
 AIbehaviorActionAnimationCurvePathDefinition = {}
 
 ---@param fields? AIbehaviorActionAnimationCurvePathDefinition
 ---@return AIbehaviorActionAnimationCurvePathDefinition
-function AIbehaviorActionAnimationCurvePathDefinition.new(fields) return end
+function AIbehaviorActionAnimationCurvePathDefinition.new(fields) end

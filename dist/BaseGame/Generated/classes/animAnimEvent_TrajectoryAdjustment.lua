@@ -5,4 +5,4 @@ animAnimEvent_TrajectoryAdjustment = {}
 
 ---@param fields? animAnimEvent_TrajectoryAdjustment
 ---@return animAnimEvent_TrajectoryAdjustment
-function animAnimEvent_TrajectoryAdjustment.new(fields) return end
+function animAnimEvent_TrajectoryAdjustment.new(fields) end

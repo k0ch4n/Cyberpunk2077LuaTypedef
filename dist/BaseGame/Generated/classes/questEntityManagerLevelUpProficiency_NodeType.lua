@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questEntityManagerLevelUpProficiency_NodeType: questIEntityManager_NodeType
----@field public type gamedataProficiencyType
+---@field type gamedataProficiencyType
 questEntityManagerLevelUpProficiency_NodeType = {}
 
 ---@param fields? questEntityManagerLevelUpProficiency_NodeType
 ---@return questEntityManagerLevelUpProficiency_NodeType
-function questEntityManagerLevelUpProficiency_NodeType.new(fields) return end
+function questEntityManagerLevelUpProficiency_NodeType.new(fields) end

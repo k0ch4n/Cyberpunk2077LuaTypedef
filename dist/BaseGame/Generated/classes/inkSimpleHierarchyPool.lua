@@ -5,4 +5,4 @@ inkSimpleHierarchyPool = {}
 
 ---@param fields? inkSimpleHierarchyPool
 ---@return inkSimpleHierarchyPool
-function inkSimpleHierarchyPool.new(fields) return end
+function inkSimpleHierarchyPool.new(fields) end

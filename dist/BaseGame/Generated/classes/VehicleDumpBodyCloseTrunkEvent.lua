@@ -5,4 +5,4 @@ VehicleDumpBodyCloseTrunkEvent = {}
 
 ---@param fields? VehicleDumpBodyCloseTrunkEvent
 ---@return VehicleDumpBodyCloseTrunkEvent
-function VehicleDumpBodyCloseTrunkEvent.new(fields) return end
+function VehicleDumpBodyCloseTrunkEvent.new(fields) end

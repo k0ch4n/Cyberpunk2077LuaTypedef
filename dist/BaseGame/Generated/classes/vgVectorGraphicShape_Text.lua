@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vgVectorGraphicShape_Text: vgBaseVectorGraphicShape
----@field public xt String
+---@field xt String
 vgVectorGraphicShape_Text = {}
 
 ---@param fields? vgVectorGraphicShape_Text
 ---@return vgVectorGraphicShape_Text
-function vgVectorGraphicShape_Text.new(fields) return end
+function vgVectorGraphicShape_Text.new(fields) end

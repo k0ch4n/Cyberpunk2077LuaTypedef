@@ -1,40 +1,39 @@
 ---@meta
 
 ---@class ProjectileLauncherRoundCollisionEvaluator: gameprojectileScriptCollisionEvaluator
----@field private collisionAction gamedataProjectileOnCollisionAction
----@field private projectileStopped Bool
----@field private maxBounceCount Int32
----@field private projectileBounced Bool
----@field private projectileStopAndStick Bool
----@field private projectilePierced Bool
+---@field collisionAction gamedataProjectileOnCollisionAction
+---@field projectileStopped Bool
+---@field maxBounceCount Int32
+---@field projectileBounced Bool
+---@field projectileStopAndStick Bool
+---@field projectilePierced Bool
 ProjectileLauncherRoundCollisionEvaluator = {}
 
 ---@param fields? ProjectileLauncherRoundCollisionEvaluator
 ---@return ProjectileLauncherRoundCollisionEvaluator
-function ProjectileLauncherRoundCollisionEvaluator.new(fields) return end
+function ProjectileLauncherRoundCollisionEvaluator.new(fields) end
 
----@protected
 ---@param defaultOnCollisionAction gameprojectileOnCollisionAction
 ---@param params gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileOnCollisionAction
-function ProjectileLauncherRoundCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) return end
+function ProjectileLauncherRoundCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) end
 
 ---@return Bool
-function ProjectileLauncherRoundCollisionEvaluator:ProjectileBounced() return end
+function ProjectileLauncherRoundCollisionEvaluator:ProjectileBounced() end
 
 ---@return Bool
-function ProjectileLauncherRoundCollisionEvaluator:ProjectilePierced() return end
+function ProjectileLauncherRoundCollisionEvaluator:ProjectilePierced() end
 
 ---@return Bool
-function ProjectileLauncherRoundCollisionEvaluator:ProjectileStopAndStick() return end
+function ProjectileLauncherRoundCollisionEvaluator:ProjectileStopAndStick() end
 
 ---@return Bool
-function ProjectileLauncherRoundCollisionEvaluator:ProjectileStopped() return end
+function ProjectileLauncherRoundCollisionEvaluator:ProjectileStopped() end
 
 ---@param collisionAction gamedataProjectileOnCollisionAction
 ---@return nil
-function ProjectileLauncherRoundCollisionEvaluator:SetCollisionAction(collisionAction) return end
+function ProjectileLauncherRoundCollisionEvaluator:SetCollisionAction(collisionAction) end
 
 ---@param maxBounceCount Int32
 ---@return nil
-function ProjectileLauncherRoundCollisionEvaluator:SetNumberOfBounces(maxBounceCount) return end
+function ProjectileLauncherRoundCollisionEvaluator:SetNumberOfBounces(maxBounceCount) end

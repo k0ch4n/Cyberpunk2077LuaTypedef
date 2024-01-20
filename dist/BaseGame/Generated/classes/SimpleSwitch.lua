@@ -1,52 +1,44 @@
 ---@meta
 
 ---@class SimpleSwitch: InteractiveMasterDevice
----@field protected animationType EAnimationType
----@field protected animationSpeed Float
+---@field animationType EAnimationType
+---@field animationSpeed Float
 SimpleSwitch = {}
 
 ---@param fields? SimpleSwitch
 ---@return SimpleSwitch
-function SimpleSwitch.new(fields) return end
+function SimpleSwitch.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SimpleSwitch:OnRequestComponents(ri) return end
+function SimpleSwitch:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SimpleSwitch:OnTakeControl(ri) return end
+function SimpleSwitch:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function SimpleSwitch:DeterminGameplayRole() return end
+function SimpleSwitch:DeterminGameplayRole() end
 
----@private
 ---@return SimpleSwitchController
-function SimpleSwitch:GetController() return end
+function SimpleSwitch:GetController() end
 
 ---@return SimpleSwitchControllerPS
-function SimpleSwitch:GetDevicePS() return end
+function SimpleSwitch:GetDevicePS() end
 
----@private
 ---@param id CName|string
 ---@return nil
-function SimpleSwitch:PlayAnimation(id) return end
+function SimpleSwitch:PlayAnimation(id) end
 
----@private
 ---@param on Bool
 ---@return nil
-function SimpleSwitch:SetDiodeAppearance(on) return end
+function SimpleSwitch:SetDiodeAppearance(on) end
 
----@protected
 ---@return nil
-function SimpleSwitch:TurnOffDevice() return end
+function SimpleSwitch:TurnOffDevice() end
 
----@protected
 ---@return nil
-function SimpleSwitch:TurnOnDevice() return end
+function SimpleSwitch:TurnOnDevice() end
 
----@protected
 ---@return nil
-function SimpleSwitch:TurnOnLights() return end
+function SimpleSwitch:TurnOnLights() end

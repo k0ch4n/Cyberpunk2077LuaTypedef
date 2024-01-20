@@ -5,9 +5,8 @@ BroadcastCombatHitStim = {}
 
 ---@param fields? BroadcastCombatHitStim
 ---@return BroadcastCombatHitStim
-function BroadcastCombatHitStim.new(fields) return end
+function BroadcastCombatHitStim.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function BroadcastCombatHitStim:Activate(context) return end
+function BroadcastCombatHitStim:Activate(context) end

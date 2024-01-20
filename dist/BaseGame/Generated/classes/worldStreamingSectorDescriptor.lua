@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class worldStreamingSectorDescriptor
----@field public data worldStreamingSector
----@field public streamingBox Box
----@field public questPrefabNodeRef NodeRef
----@field public numNodeRanges Uint32
----@field public variants worldStreamingSectorVariant[]
----@field public blockIndex worldStreamingBlockIndex
----@field public level Uint8
----@field public category worldStreamingSectorCategory
+---@field data worldStreamingSector
+---@field streamingBox Box
+---@field questPrefabNodeRef NodeRef
+---@field numNodeRanges Uint32
+---@field variants worldStreamingSectorVariant[]
+---@field blockIndex worldStreamingBlockIndex
+---@field level Uint8
+---@field category worldStreamingSectorCategory
 worldStreamingSectorDescriptor = {}
 
 ---@param fields? worldStreamingSectorDescriptor
 ---@return worldStreamingSectorDescriptor
-function worldStreamingSectorDescriptor.new(fields) return end
+function worldStreamingSectorDescriptor.new(fields) end

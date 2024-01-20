@@ -5,4 +5,4 @@ ArmorBarFinalizedEvent = {}
 
 ---@param fields? ArmorBarFinalizedEvent
 ---@return ArmorBarFinalizedEvent
-function ArmorBarFinalizedEvent.new(fields) return end
+function ArmorBarFinalizedEvent.new(fields) end

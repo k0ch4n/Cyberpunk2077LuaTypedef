@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class PersonnelSystem: DeviceSystemBase
----@field private EnableE3QuickHacks Bool
+---@field EnableE3QuickHacks Bool
 PersonnelSystem = {}
 
 ---@param fields? PersonnelSystem
 ---@return PersonnelSystem
-function PersonnelSystem.new(fields) return end
+function PersonnelSystem.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function PersonnelSystem:OnRequestComponents(ri) return end
+function PersonnelSystem:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function PersonnelSystem:OnTakeControl(ri) return end
+function PersonnelSystem:OnTakeControl(ri) end
 
----@protected
 ---@return PersonnelSystemController
-function PersonnelSystem:GetController() return end
+function PersonnelSystem:GetController() end
 
 ---@return PersonnelSystemControllerPS
-function PersonnelSystem:GetDevicePS() return end
+function PersonnelSystem:GetDevicePS() end

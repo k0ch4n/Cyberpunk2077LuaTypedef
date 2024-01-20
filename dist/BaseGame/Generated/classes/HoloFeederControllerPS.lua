@@ -1,28 +1,26 @@
 ---@meta
 
 ---@class HoloFeederControllerPS: ScriptableDeviceComponentPS
----@field protected turnOnSFX CName
----@field protected turnOffSFX CName
+---@field turnOnSFX CName
+---@field turnOffSFX CName
 HoloFeederControllerPS = {}
 
 ---@param fields? HoloFeederControllerPS
 ---@return HoloFeederControllerPS
-function HoloFeederControllerPS.new(fields) return end
+function HoloFeederControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function HoloFeederControllerPS:OnInstantiated() return end
+function HoloFeederControllerPS:OnInstantiated() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function HoloFeederControllerPS:GetActions(context) return end
+function HoloFeederControllerPS:GetActions(context) end
 
 ---@return CName
-function HoloFeederControllerPS:GetOffSound() return end
+function HoloFeederControllerPS:GetOffSound() end
 
 ---@return CName
-function HoloFeederControllerPS:GetOnSound() return end
+function HoloFeederControllerPS:GetOnSound() end
 
----@protected
 ---@return nil
-function HoloFeederControllerPS:Initialize() return end
+function HoloFeederControllerPS:Initialize() end

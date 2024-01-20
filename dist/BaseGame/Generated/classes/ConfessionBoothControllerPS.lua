@@ -5,40 +5,35 @@ ConfessionBoothControllerPS = {}
 
 ---@param fields? ConfessionBoothControllerPS
 ---@return ConfessionBoothControllerPS
-function ConfessionBoothControllerPS.new(fields) return end
+function ConfessionBoothControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function ConfessionBoothControllerPS:OnInstantiated() return end
+function ConfessionBoothControllerPS:OnInstantiated() end
 
----@protected
 ---@return Confess
-function ConfessionBoothControllerPS:ActionConfess() return end
+function ConfessionBoothControllerPS:ActionConfess() end
 
----@protected
 ---@return Bool
-function ConfessionBoothControllerPS:CanCreateAnyQuickHackActions() return end
+function ConfessionBoothControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ConfessionBoothControllerPS:GetActions(context) return end
+function ConfessionBoothControllerPS:GetActions(context) end
 
 ---@return ConfessionalBlackboardDef
-function ConfessionBoothControllerPS:GetBlackboardDef() return end
+function ConfessionBoothControllerPS:GetBlackboardDef() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ConfessionBoothControllerPS:GetQuestActions(context) return end
+function ConfessionBoothControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ConfessionBoothControllerPS:GetQuickHackActions(context) return end
+function ConfessionBoothControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return nil
-function ConfessionBoothControllerPS:Initialize() return end
+function ConfessionBoothControllerPS:Initialize() end
 
 ---@param evt Confess
 ---@return EntityNotificationType
-function ConfessionBoothControllerPS:OnConfess(evt) return end
+function ConfessionBoothControllerPS:OnConfess(evt) end

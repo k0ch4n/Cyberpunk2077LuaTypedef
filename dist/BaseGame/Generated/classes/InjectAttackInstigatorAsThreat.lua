@@ -5,9 +5,8 @@ InjectAttackInstigatorAsThreat = {}
 
 ---@param fields? InjectAttackInstigatorAsThreat
 ---@return InjectAttackInstigatorAsThreat
-function InjectAttackInstigatorAsThreat.new(fields) return end
+function InjectAttackInstigatorAsThreat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InjectAttackInstigatorAsThreat:Activate(context) return end
+function InjectAttackInstigatorAsThreat:Activate(context) end

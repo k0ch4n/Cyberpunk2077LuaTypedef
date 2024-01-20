@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIbehaviorUnaryConditionDefinition: AIbehaviorConditionDefinition
----@field public child AIbehaviorConditionDefinition
+---@field child AIbehaviorConditionDefinition
 AIbehaviorUnaryConditionDefinition = {}

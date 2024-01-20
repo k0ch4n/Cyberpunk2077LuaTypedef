@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class InitializeFocusCluesEvent: redEvent
----@field public requesterID entEntityID
+---@field requesterID entEntityID
 InitializeFocusCluesEvent = {}
 
 ---@param fields? InitializeFocusCluesEvent
 ---@return InitializeFocusCluesEvent
-function InitializeFocusCluesEvent.new(fields) return end
+function InitializeFocusCluesEvent.new(fields) end

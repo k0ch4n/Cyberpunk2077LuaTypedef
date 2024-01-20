@@ -5,9 +5,8 @@ HasNPCReactiveSignal = {}
 
 ---@param fields? HasNPCReactiveSignal
 ---@return HasNPCReactiveSignal
-function HasNPCReactiveSignal.new(fields) return end
+function HasNPCReactiveSignal.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HasNPCReactiveSignal:Check(context) return end
+function HasNPCReactiveSignal:Check(context) end

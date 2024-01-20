@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiDetectionParams
----@field public detectionProgress Float
+---@field detectionProgress Float
 gameuiDetectionParams = {}
 
 ---@param fields? gameuiDetectionParams
 ---@return gameuiDetectionParams
-function gameuiDetectionParams.new(fields) return end
+function gameuiDetectionParams.new(fields) end

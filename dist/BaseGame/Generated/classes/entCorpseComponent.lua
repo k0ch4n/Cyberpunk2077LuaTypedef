@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entCorpseComponent: entISkinableComponent
----@field public filterData physicsFilterData
----@field public material CName
+---@field filterData physicsFilterData
+---@field material CName
 entCorpseComponent = {}
 
 ---@param fields? entCorpseComponent
 ---@return entCorpseComponent
-function entCorpseComponent.new(fields) return end
+function entCorpseComponent.new(fields) end

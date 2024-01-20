@@ -5,32 +5,32 @@ inkVariantDataViewWrapper = {}
 
 ---@param fields? inkVariantDataViewWrapper
 ---@return inkVariantDataViewWrapper
-function inkVariantDataViewWrapper.new(fields) return end
+function inkVariantDataViewWrapper.new(fields) end
 
 ---@return nil
-function inkVariantDataViewWrapper:DisableSorting() return end
+function inkVariantDataViewWrapper:DisableSorting() end
 
 ---@return nil
-function inkVariantDataViewWrapper:EnableSorting() return end
+function inkVariantDataViewWrapper:EnableSorting() end
 
 ---@return nil
-function inkVariantDataViewWrapper:Filter() return end
+function inkVariantDataViewWrapper:Filter() end
 
 ---@return Bool
-function inkVariantDataViewWrapper:IsSortingEnabled() return end
+function inkVariantDataViewWrapper:IsSortingEnabled() end
 
 ---@param source inkBaseVariantDataSource
 ---@return nil
-function inkVariantDataViewWrapper:SetSource(source) return end
+function inkVariantDataViewWrapper:SetSource(source) end
 
 ---@return nil
-function inkVariantDataViewWrapper:Sort() return end
+function inkVariantDataViewWrapper:Sort() end
 
 ---@param data Variant
 ---@return Bool
-function inkVariantDataViewWrapper:FilterItem(data) return end
+function inkVariantDataViewWrapper:FilterItem(data) end
 
 ---@param left Variant
 ---@param right Variant
 ---@return Bool
-function inkVariantDataViewWrapper:SortItem(left, right) return end
+function inkVariantDataViewWrapper:SortItem(left, right) end

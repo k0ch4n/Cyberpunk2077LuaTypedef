@@ -5,4 +5,4 @@ AIbehaviortweakCompiledActionConditionData = {}
 
 ---@param fields? AIbehaviortweakCompiledActionConditionData
 ---@return AIbehaviortweakCompiledActionConditionData
-function AIbehaviortweakCompiledActionConditionData.new(fields) return end
+function AIbehaviortweakCompiledActionConditionData.new(fields) end

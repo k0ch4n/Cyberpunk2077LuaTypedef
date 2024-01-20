@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NewPerkBoughtEvent: redEvent
----@field public perkType gamedataNewPerkType
+---@field perkType gamedataNewPerkType
 NewPerkBoughtEvent = {}
 
 ---@param fields? NewPerkBoughtEvent
 ---@return NewPerkBoughtEvent
-function NewPerkBoughtEvent.new(fields) return end
+function NewPerkBoughtEvent.new(fields) end

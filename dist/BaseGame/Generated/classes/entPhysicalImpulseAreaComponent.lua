@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entPhysicalImpulseAreaComponent: entPhysicalTriggerComponent
----@field public impulse Vector3
----@field public impulseRadius Float
+---@field impulse Vector3
+---@field impulseRadius Float
 entPhysicalImpulseAreaComponent = {}
 
 ---@param fields? entPhysicalImpulseAreaComponent
 ---@return entPhysicalImpulseAreaComponent
-function entPhysicalImpulseAreaComponent.new(fields) return end
+function entPhysicalImpulseAreaComponent.new(fields) end

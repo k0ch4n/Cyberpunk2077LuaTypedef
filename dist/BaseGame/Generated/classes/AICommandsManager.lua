@@ -5,4 +5,4 @@ AICommandsManager = {}
 
 ---@param fields? AICommandsManager
 ---@return AICommandsManager
-function AICommandsManager.new(fields) return end
+function AICommandsManager.new(fields) end

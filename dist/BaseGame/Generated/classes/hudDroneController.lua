@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class hudDroneController: gameuiHUDGameController
----@field private Date inkTextWidgetReference
----@field private Timer inkTextWidgetReference
----@field private CameraID inkTextWidgetReference
----@field private scanBlackboard gameIBlackboard
----@field private psmBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private root inkCompoundWidget
----@field private currentZoom Float
----@field private currentTime GameTime
+---@field Date inkTextWidgetReference
+---@field Timer inkTextWidgetReference
+---@field CameraID inkTextWidgetReference
+---@field scanBlackboard gameIBlackboard
+---@field psmBlackboard gameIBlackboard
+---@field PSM_BBID redCallbackObject
+---@field root inkCompoundWidget
+---@field currentZoom Float
+---@field currentTime GameTime
 hudDroneController = {}
 
 ---@param fields? hudDroneController
 ---@return hudDroneController
-function hudDroneController.new(fields) return end
+function hudDroneController.new(fields) end
 
----@protected
 ---@return Bool
-function hudDroneController:OnInitialize() return end
+function hudDroneController:OnInitialize() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudDroneController:OnPlayerAttach(playerPuppet) return end
+function hudDroneController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudDroneController:OnPlayerDetach(playerPuppet) return end
+function hudDroneController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@return Bool
-function hudDroneController:OnUninitialize() return end
+function hudDroneController:OnUninitialize() end
 
----@protected
 ---@param evt Float
 ---@return Bool
-function hudDroneController:OnZoomChange(evt) return end
+function hudDroneController:OnZoomChange(evt) end

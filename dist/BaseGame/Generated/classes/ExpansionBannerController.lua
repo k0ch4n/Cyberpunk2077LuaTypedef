@@ -1,30 +1,28 @@
 ---@meta
 
 ---@class ExpansionBannerController: inkWidgetLogicController
----@field private statusTextRef inkTextWidgetReference
----@field private inputHintRef inkWidgetReference
----@field private indicatorRef inkWidgetReference
----@field private errorPanelRef inkWidgetReference
----@field private errorIconRef inkWidgetReference
----@field private expansionStatus ExpansionStatus
----@field private root inkWidget
+---@field statusTextRef inkTextWidgetReference
+---@field inputHintRef inkWidgetReference
+---@field indicatorRef inkWidgetReference
+---@field errorPanelRef inkWidgetReference
+---@field errorIconRef inkWidgetReference
+---@field expansionStatus ExpansionStatus
+---@field root inkWidget
 ExpansionBannerController = {}
 
 ---@param fields? ExpansionBannerController
 ---@return ExpansionBannerController
-function ExpansionBannerController.new(fields) return end
+function ExpansionBannerController.new(fields) end
 
----@protected
 ---@return Bool
-function ExpansionBannerController:OnInitialize() return end
+function ExpansionBannerController:OnInitialize() end
 
 ---@return ExpansionStatus
-function ExpansionBannerController:GetStatus() return end
+function ExpansionBannerController:GetStatus() end
 
 ---@param value ExpansionStatus
 ---@return nil
-function ExpansionBannerController:SetStatus(value) return end
+function ExpansionBannerController:SetStatus(value) end
 
----@private
 ---@return nil
-function ExpansionBannerController:UpdateVisuals() return end
+function ExpansionBannerController:UpdateVisuals() end

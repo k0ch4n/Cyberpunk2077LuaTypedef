@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameScanningTooltipElementData
----@field public recordID TweakDBID
----@field public localizedName CName
----@field public localizedDescription CName
+---@field recordID TweakDBID
+---@field localizedName CName
+---@field localizedDescription CName
 gameScanningTooltipElementData = {}
 
 ---@param fields? gameScanningTooltipElementData
 ---@return gameScanningTooltipElementData
-function gameScanningTooltipElementData.new(fields) return end
+function gameScanningTooltipElementData.new(fields) end

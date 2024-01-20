@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamehitRepresentationEventsResetMultipleScaleMultipliers: redEvent
----@field public shapeNames CName[]
+---@field shapeNames CName[]
 gamehitRepresentationEventsResetMultipleScaleMultipliers = {}
 
 ---@param fields? gamehitRepresentationEventsResetMultipleScaleMultipliers
 ---@return gamehitRepresentationEventsResetMultipleScaleMultipliers
-function gamehitRepresentationEventsResetMultipleScaleMultipliers.new(fields) return end
+function gamehitRepresentationEventsResetMultipleScaleMultipliers.new(fields) end

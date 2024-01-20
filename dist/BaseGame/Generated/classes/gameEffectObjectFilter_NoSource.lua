@@ -5,4 +5,4 @@ gameEffectObjectFilter_NoSource = {}
 
 ---@param fields? gameEffectObjectFilter_NoSource
 ---@return gameEffectObjectFilter_NoSource
-function gameEffectObjectFilter_NoSource.new(fields) return end
+function gameEffectObjectFilter_NoSource.new(fields) end

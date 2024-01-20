@@ -5,79 +5,79 @@ userSettingsVar = {}
 
 ---@param fields? userSettingsVar
 ---@return userSettingsVar
-function userSettingsVar.new(fields) return end
+function userSettingsVar.new(fields) end
 
 ---@return CName
-function userSettingsVar:GetDescription() return end
+function userSettingsVar:GetDescription() end
 
 ---@return CName
-function userSettingsVar:GetDisplayName() return end
+function userSettingsVar:GetDisplayName() end
 
 ---@param index Int32
 ---@return CName
-function userSettingsVar:GetDisplayNameKey(index) return end
+function userSettingsVar:GetDisplayNameKey(index) end
 
 ---@return Int32
-function userSettingsVar:GetDisplayNameKeysSize() return end
+function userSettingsVar:GetDisplayNameKeysSize() end
 
 ---@return userSettingsGroup
-function userSettingsVar:GetGroup() return end
+function userSettingsVar:GetGroup() end
 
 ---@return CName
-function userSettingsVar:GetGroupPath() return end
+function userSettingsVar:GetGroupPath() end
 
 ---@return CName
-function userSettingsVar:GetName() return end
+function userSettingsVar:GetName() end
 
 ---@return Int32
-function userSettingsVar:GetOrder() return end
+function userSettingsVar:GetOrder() end
 
 ---@return InGameConfigVarType
-function userSettingsVar:GetType() return end
+function userSettingsVar:GetType() end
 
 ---@return InGameConfigVarUpdatePolicy
-function userSettingsVar:GetUpdatePolicy() return end
+function userSettingsVar:GetUpdatePolicy() end
 
 ---@return Bool
-function userSettingsVar:HasRequestedValue() return end
+function userSettingsVar:HasRequestedValue() end
 
 ---@return Bool
-function userSettingsVar:IsDisabled() return end
+function userSettingsVar:IsDisabled() end
 
 ---@return Bool
-function userSettingsVar:IsDynamic() return end
+function userSettingsVar:IsDynamic() end
 
 ---@return Bool
-function userSettingsVar:IsDynamicInitialized() return end
+function userSettingsVar:IsDynamicInitialized() end
 
 ---@return Bool
-function userSettingsVar:IsInGame() return end
+function userSettingsVar:IsInGame() end
 
 ---@return Bool
-function userSettingsVar:IsInPreGame() return end
+function userSettingsVar:IsInPreGame() end
 
 ---@return Bool
-function userSettingsVar:IsPlatformSpecific() return end
+function userSettingsVar:IsPlatformSpecific() end
 
 ---@return Bool
-function userSettingsVar:IsSubOption() return end
+function userSettingsVar:IsSubOption() end
 
 ---@return Bool
-function userSettingsVar:IsVisible() return end
+function userSettingsVar:IsVisible() end
 
 ---@return Bool
-function userSettingsVar:ListHasDisplayValues() return end
+function userSettingsVar:ListHasDisplayValues() end
 
 ---@return Bool
-function userSettingsVar:RestoreDefault() return end
+function userSettingsVar:RestoreDefault() end
 
 ---@param isEnabled Bool
 ---@return nil
-function userSettingsVar:SetEnabled(isEnabled) return end
+function userSettingsVar:SetEnabled(isEnabled) end
 
 ---@param isVisible Bool
 ---@return nil
-function userSettingsVar:SetVisible(isVisible) return end
+function userSettingsVar:SetVisible(isVisible) end
 
 ---@return Bool
-function userSettingsVar:WasModifiedSinceLastSave() return end
+function userSettingsVar:WasModifiedSinceLastSave() end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class PatrolCommandHandler: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 PatrolCommandHandler = {}
 
 ---@param fields? PatrolCommandHandler
 ---@return PatrolCommandHandler
-function PatrolCommandHandler.new(fields) return end
+function PatrolCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function PatrolCommandHandler:Update(context) return end
+function PatrolCommandHandler:Update(context) end

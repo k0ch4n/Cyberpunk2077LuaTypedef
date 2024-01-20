@@ -5,4 +5,4 @@ UnblockAmmoDrop = {}
 
 ---@param fields? UnblockAmmoDrop
 ---@return UnblockAmmoDrop
-function UnblockAmmoDrop.new(fields) return end
+function UnblockAmmoDrop.new(fields) end

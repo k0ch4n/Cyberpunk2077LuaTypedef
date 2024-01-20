@@ -5,4 +5,4 @@ LoopStartedEvent = {}
 
 ---@param fields? LoopStartedEvent
 ---@return LoopStartedEvent
-function LoopStartedEvent.new(fields) return end
+function LoopStartedEvent.new(fields) end

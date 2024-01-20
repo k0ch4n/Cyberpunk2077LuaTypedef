@@ -1,85 +1,80 @@
 ---@meta
 
 ---@class DropdownListController: inkWidgetLogicController
----@field protected listContainer inkCompoundWidgetReference
----@field private ownerController IScriptable
----@field private triggerButton DropdownButtonController
----@field private displayContext DropdownDisplayContext
----@field private activeElement DropdownElementController
----@field private listOpened Bool
----@field private data DropdownItemData[]
+---@field listContainer inkCompoundWidgetReference
+---@field ownerController IScriptable
+---@field triggerButton DropdownButtonController
+---@field displayContext DropdownDisplayContext
+---@field activeElement DropdownElementController
+---@field listOpened Bool
+---@field data DropdownItemData[]
 DropdownListController = {}
 
 ---@param fields? DropdownListController
 ---@return DropdownListController
-function DropdownListController.new(fields) return end
+function DropdownListController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DropdownListController:OnDropdownItemClicked(evt) return end
+function DropdownListController:OnDropdownItemClicked(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DropdownListController:OnHoverOut(evt) return end
+function DropdownListController:OnHoverOut(evt) end
 
----@protected
 ---@return Bool
-function DropdownListController:OnInitialize() return end
+function DropdownListController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DropdownListController:OnRelease(evt) return end
+function DropdownListController:OnRelease(evt) end
 
 ---@return nil
-function DropdownListController:Close() return end
+function DropdownListController:Close() end
 
 ---@return DropdownItemData[]
-function DropdownListController:GetData() return end
+function DropdownListController:GetData() end
 
 ---@return DropdownDisplayContext
-function DropdownListController:GetDisplayContext() return end
+function DropdownListController:GetDisplayContext() end
 
 ---@return Bool
-function DropdownListController:IsOpened() return end
+function DropdownListController:IsOpened() end
 
 ---@return nil
-function DropdownListController:Open() return end
+function DropdownListController:Open() end
 
 ---@param triggerButton DropdownButtonController
 ---@return nil
-function DropdownListController:SetTriggerButton(triggerButton) return end
+function DropdownListController:SetTriggerButton(triggerButton) end
 
 ---@param owner inkWidgetLogicController
 ---@param data DropdownItemData[]
 ---@param triggerButton? DropdownButtonController
 ---@return nil
-function DropdownListController:Setup(owner, data, triggerButton) return end
+function DropdownListController:Setup(owner, data, triggerButton) end
 
 ---@param owner gameuiWidgetGameController
 ---@param data DropdownItemData[]
 ---@param triggerButton? DropdownButtonController
 ---@return nil
-function DropdownListController:Setup(owner, data, triggerButton) return end
+function DropdownListController:Setup(owner, data, triggerButton) end
 
 ---@param owner inkWidgetLogicController
 ---@param displayContext DropdownDisplayContext
 ---@param triggerButton? DropdownButtonController
 ---@return nil
-function DropdownListController:Setup(owner, displayContext, triggerButton) return end
+function DropdownListController:Setup(owner, displayContext, triggerButton) end
 
 ---@param owner gameuiWidgetGameController
 ---@param displayContext DropdownDisplayContext
 ---@param triggerButton? DropdownButtonController
 ---@return nil
-function DropdownListController:Setup(owner, displayContext, triggerButton) return end
+function DropdownListController:Setup(owner, displayContext, triggerButton) end
 
----@private
 ---@param data DropdownItemData[]
 ---@return nil
-function DropdownListController:SetupData(data) return end
+function DropdownListController:SetupData(data) end
 
 ---@return nil
-function DropdownListController:Toggle() return end
+function DropdownListController:Toggle() end

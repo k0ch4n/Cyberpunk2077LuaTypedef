@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class inkWindowDrawMetrics
----@field public allTextures Vector2[]
----@field public textureSizeTypes Vector2[]
----@field public textureTypeTotal Uint32[]
----@field public maxUsedTextureTypes Uint32[]
----@field public drawMetrics inkSingleDrawMetric[]
+---@field allTextures Vector2[]
+---@field textureSizeTypes Vector2[]
+---@field textureTypeTotal Uint32[]
+---@field maxUsedTextureTypes Uint32[]
+---@field drawMetrics inkSingleDrawMetric[]
 inkWindowDrawMetrics = {}
 
 ---@param fields? inkWindowDrawMetrics
 ---@return inkWindowDrawMetrics
-function inkWindowDrawMetrics.new(fields) return end
+function inkWindowDrawMetrics.new(fields) end

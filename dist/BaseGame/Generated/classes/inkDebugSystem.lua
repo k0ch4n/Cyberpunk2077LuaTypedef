@@ -5,4 +5,4 @@ inkDebugSystem = {}
 
 ---@param fields? inkDebugSystem
 ---@return inkDebugSystem
-function inkDebugSystem.new(fields) return end
+function inkDebugSystem.new(fields) end

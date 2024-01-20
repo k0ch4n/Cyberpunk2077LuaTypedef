@@ -5,38 +5,34 @@ PsychoSquadAvHelperClass = {}
 
 ---@param fields? PsychoSquadAvHelperClass
 ---@return PsychoSquadAvHelperClass
-function PsychoSquadAvHelperClass.new(fields) return end
+function PsychoSquadAvHelperClass.new(fields) end
 
 ---@param go gameObject
 ---@return nil
-function PsychoSquadAvHelperClass.GetOffAV(go) return end
-
----@param go gameObject
----@param delay Float
----@return nil
-function PsychoSquadAvHelperClass.TurnOffPsychoSquadAvCammoEventDelayed(go, delay) return end
+function PsychoSquadAvHelperClass.GetOffAV(go) end
 
 ---@param go gameObject
 ---@param delay Float
 ---@return nil
-function PsychoSquadAvHelperClass.TurnOnPsychoSquadAvCammoEventDelayed(go, delay) return end
+function PsychoSquadAvHelperClass.TurnOffPsychoSquadAvCammoEventDelayed(go, delay) end
 
----@private
+---@param go gameObject
+---@param delay Float
+---@return nil
+function PsychoSquadAvHelperClass.TurnOnPsychoSquadAvCammoEventDelayed(go, delay) end
+
 ---@param evt MaxTacFearEvent
 ---@return nil
-function PsychoSquadAvHelperClass:OnMaxTacFearEventDelayed(evt) return end
+function PsychoSquadAvHelperClass:OnMaxTacFearEventDelayed(evt) end
 
----@private
 ---@param evt PushAnimEventDelayed
 ---@return nil
-function PsychoSquadAvHelperClass:OnPushAnimEventDelayed(evt) return end
+function PsychoSquadAvHelperClass:OnPushAnimEventDelayed(evt) end
 
----@private
 ---@param evt TurnOffPsychoSquadAvCammoEvent
 ---@return nil
-function PsychoSquadAvHelperClass:OnTurnOffPsychoSquadAvCammoEventDelayed(evt) return end
+function PsychoSquadAvHelperClass:OnTurnOffPsychoSquadAvCammoEventDelayed(evt) end
 
----@private
 ---@param evt TurnOnPsychoSquadAvCammoEvent
 ---@return nil
-function PsychoSquadAvHelperClass:OnTurnOnPsychoSquadAvCammoEventDelayed(evt) return end
+function PsychoSquadAvHelperClass:OnTurnOnPsychoSquadAvCammoEventDelayed(evt) end

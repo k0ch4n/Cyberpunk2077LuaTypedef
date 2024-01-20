@@ -1,40 +1,39 @@
 ---@meta
 
 ---@class PresetAction: ActionBool
----@field protected preset SmartHousePreset
+---@field preset SmartHousePreset
 PresetAction = {}
 
 ---@param fields? PresetAction
 ---@return PresetAction
-function PresetAction.new(fields) return end
+function PresetAction.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function PresetAction.IsAvailable(device) return end
+function PresetAction.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function PresetAction.IsClearanceValid(clearance) return end
+function PresetAction.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function PresetAction.IsDefaultConditionMet(device, context) return end
+function PresetAction.IsDefaultConditionMet(device, context) end
 
 ---@param actions? gamedeviceAction[]
 ---@return nil
-function PresetAction:CreateActionWidgetPackage(actions) return end
+function PresetAction:CreateActionWidgetPackage(actions) end
 
----@protected
 ---@return CName
-function PresetAction:GetDisplayName() return end
+function PresetAction:GetDisplayName() end
 
 ---@return TweakDBID
-function PresetAction:GetInkWidgetTweakDBID() return end
+function PresetAction:GetInkWidgetTweakDBID() end
 
 ---@return SmartHousePreset
-function PresetAction:GetPreset() return end
+function PresetAction:GetPreset() end
 
 ---@param preset SmartHousePreset
 ---@return nil
-function PresetAction:SetProperties(preset) return end
+function PresetAction:SetProperties(preset) end

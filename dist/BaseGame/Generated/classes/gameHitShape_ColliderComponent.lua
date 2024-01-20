@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameHitShape_ColliderComponent: gameHitShapeBase
----@field public componentNames CName[]
+---@field componentNames CName[]
 gameHitShape_ColliderComponent = {}
 
 ---@param fields? gameHitShape_ColliderComponent
 ---@return gameHitShape_ColliderComponent
-function gameHitShape_ColliderComponent.new(fields) return end
+function gameHitShape_ColliderComponent.new(fields) end

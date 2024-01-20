@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class audioGroupingTagMetadata: audioAudioMetadata
----@field public shape CName
----@field public classificationMethod audioClassificationMethod
----@field public inputEmitterName CName
----@field public inputEventNames CName[]
----@field public inputTags CName[]
----@field public outputEventId CName
----@field public minimalGroupCount Float
----@field public fullGroupCount Float
+---@field shape CName
+---@field classificationMethod audioClassificationMethod
+---@field inputEmitterName CName
+---@field inputEventNames CName[]
+---@field inputTags CName[]
+---@field outputEventId CName
+---@field minimalGroupCount Float
+---@field fullGroupCount Float
 audioGroupingTagMetadata = {}
 
 ---@param fields? audioGroupingTagMetadata
 ---@return audioGroupingTagMetadata
-function audioGroupingTagMetadata.new(fields) return end
+function audioGroupingTagMetadata.new(fields) end

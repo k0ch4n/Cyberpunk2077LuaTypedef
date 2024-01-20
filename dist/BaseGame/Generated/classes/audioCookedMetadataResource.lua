@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioCookedMetadataResource: CResource
----@field public entries audioAudioMetadata[]
+---@field entries audioAudioMetadata[]
 audioCookedMetadataResource = {}
 
 ---@param fields? audioCookedMetadataResource
 ---@return audioCookedMetadataResource
-function audioCookedMetadataResource.new(fields) return end
+function audioCookedMetadataResource.new(fields) end

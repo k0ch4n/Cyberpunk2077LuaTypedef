@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PerformedAction: redEvent
----@field public action gamedeviceAction
+---@field action gamedeviceAction
 PerformedAction = {}
 
 ---@param fields? PerformedAction
 ---@return PerformedAction
-function PerformedAction.new(fields) return end
+function PerformedAction.new(fields) end

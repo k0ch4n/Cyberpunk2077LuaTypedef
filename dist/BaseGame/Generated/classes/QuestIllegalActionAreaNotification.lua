@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestIllegalActionAreaNotification: redEvent
----@field public revealPlayerSettings RevealPlayerSettings
+---@field revealPlayerSettings RevealPlayerSettings
 QuestIllegalActionAreaNotification = {}
 
 ---@param fields? QuestIllegalActionAreaNotification
 ---@return QuestIllegalActionAreaNotification
-function QuestIllegalActionAreaNotification.new(fields) return end
+function QuestIllegalActionAreaNotification.new(fields) end
 
 ---@return String
-function QuestIllegalActionAreaNotification:GetFriendlyDescription() return end
+function QuestIllegalActionAreaNotification:GetFriendlyDescription() end

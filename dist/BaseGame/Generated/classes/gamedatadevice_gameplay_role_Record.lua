@@ -5,4 +5,4 @@ gamedatadevice_gameplay_role_Record = {}
 
 ---@param fields? gamedatadevice_gameplay_role_Record
 ---@return gamedatadevice_gameplay_role_Record
-function gamedatadevice_gameplay_role_Record.new(fields) return end
+function gamedatadevice_gameplay_role_Record.new(fields) end

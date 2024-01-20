@@ -1,102 +1,88 @@
 ---@meta
 
 ---@class ConfessionalInkGameController: DeviceInkGameControllerBase
----@field private defaultUI inkCanvasWidget
----@field private mainDisplayWidget inkVideoWidget
----@field private messegeWidget inkTextWidget
----@field private defaultTextWidget inkTextWidget
----@field private actionsList inkWidget
----@field private RunningAnimation inkanimProxy
----@field private isConfessing Bool
----@field private onGlitchingStateChangedListener redCallbackObject
----@field private onConfessListener redCallbackObject
+---@field defaultUI inkCanvasWidget
+---@field mainDisplayWidget inkVideoWidget
+---@field messegeWidget inkTextWidget
+---@field defaultTextWidget inkTextWidget
+---@field actionsList inkWidget
+---@field RunningAnimation inkanimProxy
+---@field isConfessing Bool
+---@field onGlitchingStateChangedListener redCallbackObject
+---@field onConfessListener redCallbackObject
 ConfessionalInkGameController = {}
 
 ---@param fields? ConfessionalInkGameController
 ---@return ConfessionalInkGameController
-function ConfessionalInkGameController.new(fields) return end
+function ConfessionalInkGameController.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function ConfessionalInkGameController:OnConfess(value) return end
+function ConfessionalInkGameController:OnConfess(value) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function ConfessionalInkGameController:OnMessegeAnimFinished(e) return end
+function ConfessionalInkGameController:OnMessegeAnimFinished(e) end
 
----@protected
 ---@return Bool
-function ConfessionalInkGameController:OnUninitialize() return end
+function ConfessionalInkGameController:OnUninitialize() end
 
----@protected
 ---@param target inkVideoWidget
 ---@return Bool
-function ConfessionalInkGameController:OnVideoFinished(target) return end
+function ConfessionalInkGameController:OnVideoFinished(target) end
 
----@protected
 ---@return ConfessionBooth
-function ConfessionalInkGameController:GetOwner() return end
+function ConfessionalInkGameController:GetOwner() end
 
----@private
 ---@return nil
-function ConfessionalInkGameController:PlayConfessMessegeAnimation() return end
+function ConfessionalInkGameController:PlayConfessMessegeAnimation() end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@param audioEvent CName|string
 ---@return nil
-function ConfessionalInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
+function ConfessionalInkGameController:PlayVideo(videoPath, looped, audioEvent) end
 
 ---@param state EDeviceStatus
 ---@return nil
-function ConfessionalInkGameController:Refresh(state) return end
+function ConfessionalInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ConfessionalInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function ConfessionalInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@private
 ---@return nil
-function ConfessionalInkGameController:ResetConfessionState() return end
+function ConfessionalInkGameController:ResetConfessionState() end
 
----@protected
 ---@return nil
-function ConfessionalInkGameController:SetupWidgets() return end
+function ConfessionalInkGameController:SetupWidgets() end
 
----@private
 ---@return nil
-function ConfessionalInkGameController:StartConfessing() return end
+function ConfessionalInkGameController:StartConfessing() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function ConfessionalInkGameController:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function ConfessionalInkGameController:StopConfessing() return end
-
----@private
----@return nil
-function ConfessionalInkGameController:StopGlitchingScreen() return end
+function ConfessionalInkGameController:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function ConfessionalInkGameController:StopVideo() return end
+function ConfessionalInkGameController:StopConfessing() end
 
 ---@return nil
-function ConfessionalInkGameController:TurnOff() return end
+function ConfessionalInkGameController:StopGlitchingScreen() end
 
 ---@return nil
-function ConfessionalInkGameController:TurnOn() return end
+function ConfessionalInkGameController:StopVideo() end
 
----@protected
+---@return nil
+function ConfessionalInkGameController:TurnOff() end
+
+---@return nil
+function ConfessionalInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ConfessionalInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function ConfessionalInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function ConfessionalInkGameController:UpdateActionWidgets(widgetsData) return end
+function ConfessionalInkGameController:UpdateActionWidgets(widgetsData) end

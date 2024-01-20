@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameAnimsetOverrideData
----@field public animsetHash Uint64
----@field public variables CName[]
+---@field animsetHash Uint64
+---@field variables CName[]
 gameAnimsetOverrideData = {}
 
 ---@param fields? gameAnimsetOverrideData
 ---@return gameAnimsetOverrideData
-function gameAnimsetOverrideData.new(fields) return end
+function gameAnimsetOverrideData.new(fields) end

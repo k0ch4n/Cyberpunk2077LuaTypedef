@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class entMorphTargetSkinnedMeshComponent: entISkinTargetComponent
----@field public morphResource MorphTargetMesh
----@field public meshAppearance CName
----@field public castShadows shadowsShadowCastingMode
----@field public castLocalShadows shadowsShadowCastingMode
----@field public acceptDismemberment Bool
----@field public chunkMask Uint64
----@field public renderingPlaneAnimationParam CName
----@field public visibilityAnimationParam CName
----@field public isEnabled Bool
----@field public tags redTagList
----@field public version Uint8
+---@field morphResource MorphTargetMesh
+---@field meshAppearance CName
+---@field castShadows shadowsShadowCastingMode
+---@field castLocalShadows shadowsShadowCastingMode
+---@field acceptDismemberment Bool
+---@field chunkMask Uint64
+---@field renderingPlaneAnimationParam CName
+---@field visibilityAnimationParam CName
+---@field isEnabled Bool
+---@field tags redTagList
+---@field version Uint8
 entMorphTargetSkinnedMeshComponent = {}
 
 ---@param fields? entMorphTargetSkinnedMeshComponent
 ---@return entMorphTargetSkinnedMeshComponent
-function entMorphTargetSkinnedMeshComponent.new(fields) return end
+function entMorphTargetSkinnedMeshComponent.new(fields) end

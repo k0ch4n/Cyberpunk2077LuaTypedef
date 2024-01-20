@@ -5,30 +5,30 @@ SecuritySystemStatus = {}
 
 ---@param fields? SecuritySystemStatus
 ---@return SecuritySystemStatus
-function SecuritySystemStatus.new(fields) return end
+function SecuritySystemStatus.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function SecuritySystemStatus.IsAvailable(device) return end
+function SecuritySystemStatus.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SecuritySystemStatus.IsClearanceValid(clearance) return end
+function SecuritySystemStatus.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function SecuritySystemStatus.IsDefaultConditionMet(device, context) return end
+function SecuritySystemStatus.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function SecuritySystemStatus:GetCurrentDisplayString() return end
+function SecuritySystemStatus:GetCurrentDisplayString() end
 
 ---@return Int32
-function SecuritySystemStatus:GetStatusValue() return end
+function SecuritySystemStatus:GetStatusValue() end
 
 ---@return String
-function SecuritySystemStatus:GetTweakDBChoiceRecord() return end
+function SecuritySystemStatus:GetTweakDBChoiceRecord() end
 
 ---@param deviceRef ScriptableDeviceComponentPS
 ---@return nil
-function SecuritySystemStatus:SetProperties(deviceRef) return end
+function SecuritySystemStatus:SetProperties(deviceRef) end

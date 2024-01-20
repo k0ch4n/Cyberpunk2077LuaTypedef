@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameTelemetryEnemy
----@field public characterRecord TweakDBID
----@field public enemyAffiliation String
----@field public enemy gameObject
----@field public enemyEntityID entEntityID
----@field public archetype gamedataArchetypeType
----@field public level Int32
+---@field characterRecord TweakDBID
+---@field enemyAffiliation String
+---@field enemy gameObject
+---@field enemyEntityID entEntityID
+---@field archetype gamedataArchetypeType
+---@field level Int32
 gameTelemetryEnemy = {}
 
 ---@param fields? gameTelemetryEnemy
 ---@return gameTelemetryEnemy
-function gameTelemetryEnemy.new(fields) return end
+function gameTelemetryEnemy.new(fields) end

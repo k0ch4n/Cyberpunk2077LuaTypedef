@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldFoliageBrushItem: ISerializable
----@field public Mesh CMesh
----@field public MeshAppearance CName
----@field public Params worldFoliageBrushParams
----@field public Selected Bool
+---@field Mesh CMesh
+---@field MeshAppearance CName
+---@field Params worldFoliageBrushParams
+---@field Selected Bool
 worldFoliageBrushItem = {}
 
 ---@param fields? worldFoliageBrushItem
 ---@return worldFoliageBrushItem
-function worldFoliageBrushItem.new(fields) return end
+function worldFoliageBrushItem.new(fields) end

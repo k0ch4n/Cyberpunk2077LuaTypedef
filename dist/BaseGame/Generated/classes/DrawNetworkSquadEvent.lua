@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class DrawNetworkSquadEvent: redEvent
----@field public shouldDraw Bool
----@field public memberID gamePersistentID
----@field public fxResource gameFxResource
----@field public isPing Bool
----@field public revealMaster Bool
----@field public revealSlave Bool
----@field public memberOnly Bool
----@field public duration Float
+---@field shouldDraw Bool
+---@field memberID gamePersistentID
+---@field fxResource gameFxResource
+---@field isPing Bool
+---@field revealMaster Bool
+---@field revealSlave Bool
+---@field memberOnly Bool
+---@field duration Float
 DrawNetworkSquadEvent = {}
 
 ---@param fields? DrawNetworkSquadEvent
 ---@return DrawNetworkSquadEvent
-function DrawNetworkSquadEvent.new(fields) return end
+function DrawNetworkSquadEvent.new(fields) end

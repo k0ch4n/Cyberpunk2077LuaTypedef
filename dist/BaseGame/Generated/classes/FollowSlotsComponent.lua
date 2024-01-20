@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class FollowSlotsComponent: gameScriptableComponent
----@field private followSlots FollowSlot[]
+---@field followSlots FollowSlot[]
 FollowSlotsComponent = {}
 
 ---@param fields? FollowSlotsComponent
 ---@return FollowSlotsComponent
-function FollowSlotsComponent.new(fields) return end
+function FollowSlotsComponent.new(fields) end
 
----@protected
 ---@param evt RequestSlotEvent
 ---@return Bool
-function FollowSlotsComponent:OnReceiveSlotRequest(evt) return end
+function FollowSlotsComponent:OnReceiveSlotRequest(evt) end
 
----@protected
 ---@param evt ReleaseSlotEvent
 ---@return Bool
-function FollowSlotsComponent:OnSlotReleased(evt) return end
+function FollowSlotsComponent:OnSlotReleased(evt) end
 
----@private
 ---@return Int32[]
-function FollowSlotsComponent:GetAllAvailableSlots() return end
+function FollowSlotsComponent:GetAllAvailableSlots() end
 
----@private
 ---@param requester gameObject
 ---@return FollowSlot
-function FollowSlotsComponent:GetClosestAvailableSlot(requester) return end
+function FollowSlotsComponent:GetClosestAvailableSlot(requester) end
 
----@private
 ---@param slot FollowSlot
 ---@return Vector4
-function FollowSlotsComponent:GetCurrentWorldPositionOfSlot(slot) return end
+function FollowSlotsComponent:GetCurrentWorldPositionOfSlot(slot) end
 
 ---@return nil
-function FollowSlotsComponent:OnGameAttach() return end
+function FollowSlotsComponent:OnGameAttach() end

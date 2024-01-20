@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SpeakerSetup
----@field public defaultMusic ERadioStationList
----@field public distractionMusic ERadioStationList
----@field public range Float
----@field public glitchSFX CName
----@field public useOnlyGlitchSFX Bool
+---@field defaultMusic ERadioStationList
+---@field distractionMusic ERadioStationList
+---@field range Float
+---@field glitchSFX CName
+---@field useOnlyGlitchSFX Bool
 SpeakerSetup = {}
 
 ---@param fields? SpeakerSetup
 ---@return SpeakerSetup
-function SpeakerSetup.new(fields) return end
+function SpeakerSetup.new(fields) end

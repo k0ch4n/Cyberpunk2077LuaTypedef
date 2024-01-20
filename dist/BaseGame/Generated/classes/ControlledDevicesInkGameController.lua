@@ -1,110 +1,91 @@
 ---@meta
 
 ---@class ControlledDevicesInkGameController: gameuiWidgetGameController
----@field protected rootWidget inkCanvasWidget
----@field private devicesStackSlot inkHorizontalPanelWidget
----@field private currentDeviceText inkTextWidget
----@field protected controlledDevicesWidgetsData SWidgetPackage[]
----@field private isDeviceWorking_BBID redCallbackObject
----@field private activeDevice_BBID redCallbackObject
----@field private deviceChain_BBID redCallbackObject
----@field private chainLocked_BBID redCallbackObject
+---@field rootWidget inkCanvasWidget
+---@field devicesStackSlot inkHorizontalPanelWidget
+---@field currentDeviceText inkTextWidget
+---@field controlledDevicesWidgetsData SWidgetPackage[]
+---@field isDeviceWorking_BBID redCallbackObject
+---@field activeDevice_BBID redCallbackObject
+---@field deviceChain_BBID redCallbackObject
+---@field chainLocked_BBID redCallbackObject
 ControlledDevicesInkGameController = {}
 
 ---@param fields? ControlledDevicesInkGameController
 ---@return ControlledDevicesInkGameController
-function ControlledDevicesInkGameController.new(fields) return end
+function ControlledDevicesInkGameController.new(fields) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function ControlledDevicesInkGameController:OnControlledDeviceChanged(value) return end
+function ControlledDevicesInkGameController:OnControlledDeviceChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function ControlledDevicesInkGameController:OnControlledDeviceWorkStateChanged(value) return end
+function ControlledDevicesInkGameController:OnControlledDeviceWorkStateChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function ControlledDevicesInkGameController:OnDeviceChainLocked(value) return end
+function ControlledDevicesInkGameController:OnDeviceChainLocked(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ControlledDevicesInkGameController:OnDeviceSpawned(widget, userData) return end
+function ControlledDevicesInkGameController:OnDeviceSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function ControlledDevicesInkGameController:OnInitialize() return end
+function ControlledDevicesInkGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ControlledDevicesInkGameController:OnTakeControllOverDevice(value) return end
+function ControlledDevicesInkGameController:OnTakeControllOverDevice(value) end
 
----@protected
 ---@return Bool
-function ControlledDevicesInkGameController:OnUninitialize() return end
+function ControlledDevicesInkGameController:OnUninitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SWidgetPackage
 ---@return inkWidget
-function ControlledDevicesInkGameController:AddControlledDeviceWidget(widget, widgetData) return end
+function ControlledDevicesInkGameController:AddControlledDeviceWidget(widget, widgetData) end
 
----@private
 ---@return nil
-function ControlledDevicesInkGameController:ClearControlledDevicesStack() return end
+function ControlledDevicesInkGameController:ClearControlledDevicesStack() end
 
----@private
 ---@param isVisible Bool
 ---@return nil
-function ControlledDevicesInkGameController:CreateSwitchCameraHint(isVisible) return end
+function ControlledDevicesInkGameController:CreateSwitchCameraHint(isVisible) end
 
----@private
 ---@return gameIBlackboard
-function ControlledDevicesInkGameController:GetBlackboard() return end
+function ControlledDevicesInkGameController:GetBlackboard() end
 
----@private
 ---@return DeviceTakeControlDef
-function ControlledDevicesInkGameController:GetBlackboardDef() return end
+function ControlledDevicesInkGameController:GetBlackboardDef() end
 
----@protected
 ---@param id Int32
 ---@return inkWidget
-function ControlledDevicesInkGameController:GetControlledDeviceWidget(id) return end
+function ControlledDevicesInkGameController:GetControlledDeviceWidget(id) end
 
----@protected
 ---@param widgetData SWidgetPackage
 ---@return inkWidget
-function ControlledDevicesInkGameController:GetControlledDeviceWidget(widgetData) return end
+function ControlledDevicesInkGameController:GetControlledDeviceWidget(widgetData) end
 
----@protected
 ---@return nil
-function ControlledDevicesInkGameController:HideControlledDeviceWidgets() return end
+function ControlledDevicesInkGameController:HideControlledDeviceWidgets() end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SWidgetPackage
 ---@return nil
-function ControlledDevicesInkGameController:InitializeControlledDeviceWidget(widget, widgetData) return end
+function ControlledDevicesInkGameController:InitializeControlledDeviceWidget(widget, widgetData) end
 
----@private
 ---@return nil
-function ControlledDevicesInkGameController:RegisterBlackboardCallbacks() return end
+function ControlledDevicesInkGameController:RegisterBlackboardCallbacks() end
 
----@private
 ---@param isVisible Bool
 ---@return nil
-function ControlledDevicesInkGameController:SetRootVisibility(isVisible) return end
+function ControlledDevicesInkGameController:SetRootVisibility(isVisible) end
 
----@private
 ---@return nil
-function ControlledDevicesInkGameController:UnRegisterBlackboardCallbacks() return end
+function ControlledDevicesInkGameController:UnRegisterBlackboardCallbacks() end
 
 ---@param widgetsData SWidgetPackage[]
 ---@return nil
-function ControlledDevicesInkGameController:UpdateControlledDevicesWidgets(widgetsData) return end
+function ControlledDevicesInkGameController:UpdateControlledDevicesWidgets(widgetsData) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class effectTrackItemDataMosh: effectTrackItem
----@field public override Bool
----@field public intensity effectEffectParameterEvaluatorFloat
----@field public useGlitch Bool
----@field public glitchColor effectEffectParameterEvaluatorVector
----@field public usePixelsort Bool
----@field public pixelsortOverride Bool
----@field public pixelsortIntensity effectEffectParameterEvaluatorFloat
----@field public pixelsortStencil Bool
----@field public pixelsortVfx Bool
+---@field override Bool
+---@field intensity effectEffectParameterEvaluatorFloat
+---@field useGlitch Bool
+---@field glitchColor effectEffectParameterEvaluatorVector
+---@field usePixelsort Bool
+---@field pixelsortOverride Bool
+---@field pixelsortIntensity effectEffectParameterEvaluatorFloat
+---@field pixelsortStencil Bool
+---@field pixelsortVfx Bool
 effectTrackItemDataMosh = {}
 
 ---@param fields? effectTrackItemDataMosh
 ---@return effectTrackItemDataMosh
-function effectTrackItemDataMosh.new(fields) return end
+function effectTrackItemDataMosh.new(fields) end

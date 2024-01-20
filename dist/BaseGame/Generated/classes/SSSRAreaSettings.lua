@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SSSRAreaSettings: IAreaSettings
----@field public depthFadeStart Float
----@field public depthFadeEnd Float
+---@field depthFadeStart Float
+---@field depthFadeEnd Float
 SSSRAreaSettings = {}
 
 ---@param fields? SSSRAreaSettings
 ---@return SSSRAreaSettings
-function SSSRAreaSettings.new(fields) return end
+function SSSRAreaSettings.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class cpExplosiveBarrel: gameDestructibleObject
----@field public colliderComponentName CName
----@field public destructionComponentName CName
+---@field colliderComponentName CName
+---@field destructionComponentName CName
 cpExplosiveBarrel = {}
 
 ---@param fields? cpExplosiveBarrel
 ---@return cpExplosiveBarrel
-function cpExplosiveBarrel.new(fields) return end
+function cpExplosiveBarrel.new(fields) end

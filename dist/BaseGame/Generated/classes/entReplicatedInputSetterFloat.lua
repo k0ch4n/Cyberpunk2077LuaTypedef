@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entReplicatedInputSetterFloat: entReplicatedInputSetterBase
----@field public value Float
+---@field value Float
 entReplicatedInputSetterFloat = {}
 
 ---@param fields? entReplicatedInputSetterFloat
 ---@return entReplicatedInputSetterFloat
-function entReplicatedInputSetterFloat.new(fields) return end
+function entReplicatedInputSetterFloat.new(fields) end

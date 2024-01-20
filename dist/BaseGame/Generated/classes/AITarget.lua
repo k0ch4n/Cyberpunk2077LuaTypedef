@@ -5,4 +5,4 @@ AITarget = {}
 
 ---@param fields? AITarget
 ---@return AITarget
-function AITarget.new(fields) return end
+function AITarget.new(fields) end

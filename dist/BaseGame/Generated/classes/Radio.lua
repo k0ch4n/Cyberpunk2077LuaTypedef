@@ -1,236 +1,189 @@
 ---@meta
 
 ---@class Radio: InteractiveDevice
----@field private effectAction ScriptableDeviceAction
----@field private effectRef gameEffectRef
----@field private statusEffect TweakDBID
----@field private damageType TweakDBID
----@field private startingStation Int32
----@field private isInteractive Bool
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field private effectInstance gameEffectInstance
----@field private targets ScriptedPuppet[]
----@field private vfxInstance gameFxInstance
+---@field effectAction ScriptableDeviceAction
+---@field effectRef gameEffectRef
+---@field statusEffect TweakDBID
+---@field damageType TweakDBID
+---@field startingStation Int32
+---@field isInteractive Bool
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
+---@field effectInstance gameEffectInstance
+---@field targets ScriptedPuppet[]
+---@field vfxInstance gameFxInstance
 Radio = {}
 
 ---@param fields? Radio
 ---@return Radio
-function Radio.new(fields) return end
+function Radio.new(fields) end
 
----@protected
 ---@param evt NextStation
 ---@return Bool
-function Radio:OnNextStation(evt) return end
+function Radio:OnNextStation(evt) end
 
----@protected
 ---@param evt PreviousStation
 ---@return Bool
-function Radio:OnPreviousStation(evt) return end
+function Radio:OnPreviousStation(evt) end
 
----@protected
 ---@param evt QuestDefaultStation
 ---@return Bool
-function Radio:OnQuestDefaultStation(evt) return end
+function Radio:OnQuestDefaultStation(evt) end
 
----@protected
 ---@param evt QuestSetChannel
 ---@return Bool
-function Radio:OnQuestSetChannel(evt) return end
+function Radio:OnQuestSetChannel(evt) end
 
----@protected
 ---@param evt QuickHackAoeDamage
 ---@return Bool
-function Radio:OnQuickHackAoeDamage(evt) return end
+function Radio:OnQuickHackAoeDamage(evt) end
 
----@protected
 ---@param evt QuickHackHighPitchNoise
 ---@return Bool
-function Radio:OnQuickHackHighPitchNoise(evt) return end
+function Radio:OnQuickHackHighPitchNoise(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Radio:OnRequestComponents(ri) return end
+function Radio:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SpiderbotDistraction
 ---@return Bool
-function Radio:OnSpiderbotDistraction(evt) return end
+function Radio:OnSpiderbotDistraction(evt) end
 
----@protected
 ---@param evt SpiderbotOrderCompletedEvent
 ---@return Bool
-function Radio:OnSpiderbotOrderCompletedEvent(evt) return end
+function Radio:OnSpiderbotOrderCompletedEvent(evt) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function Radio:OnStopShortGlitch(evt) return end
+function Radio:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Radio:OnTakeControl(ri) return end
+function Radio:OnTakeControl(ri) end
 
----@protected
 ---@param evt TargetAcquiredEvent
 ---@return Bool
-function Radio:OnTargetAcquired(evt) return end
+function Radio:OnTargetAcquired(evt) end
 
----@protected
 ---@param evt TargetLostEvent
 ---@return Bool
-function Radio:OnTargetLost(evt) return end
+function Radio:OnTargetLost(evt) end
 
----@protected
 ---@param evt ToggleON
 ---@return Bool
-function Radio:OnToggleON(evt) return end
+function Radio:OnToggleON(evt) end
 
----@protected
 ---@param evt TogglePower
 ---@return Bool
-function Radio:OnTogglePower(evt) return end
+function Radio:OnTogglePower(evt) end
 
----@private
 ---@return nil
-function Radio:ApplyElectricDamage() return end
+function Radio:ApplyElectricDamage() end
 
----@private
 ---@param target gameObject
 ---@return nil
-function Radio:ApplyStatusEffect(target) return end
+function Radio:ApplyStatusEffect(target) end
 
----@private
 ---@return nil
-function Radio:ClearTargets() return end
+function Radio:ClearTargets() end
 
----@private
 ---@return nil
-function Radio:CreateGameEffect() return end
+function Radio:CreateGameEffect() end
 
----@protected
 ---@return nil
-function Radio:CutPower() return end
+function Radio:CutPower() end
 
----@protected
 ---@return nil
-function Radio:DeactivateDevice() return end
+function Radio:DeactivateDevice() end
 
 ---@return EGameplayRole
-function Radio:DeterminGameplayRole() return end
+function Radio:DeterminGameplayRole() end
 
----@private
 ---@return Vector4
-function Radio:GetAttackPosition() return end
+function Radio:GetAttackPosition() end
 
----@private
 ---@return WorldTransform
-function Radio:GetCenterWorldTransform() return end
+function Radio:GetCenterWorldTransform() end
 
----@protected
 ---@return RadioController
-function Radio:GetController() return end
+function Radio:GetController() end
 
 ---@return RadioControllerPS
-function Radio:GetDevicePS() return end
+function Radio:GetDevicePS() end
 
----@private
 ---@return Bool
-function Radio:IsStatusEffectValid() return end
+function Radio:IsStatusEffectValid() end
 
----@private
 ---@param isMetal Bool
 ---@return nil
-function Radio:MetalItUp(isMetal) return end
+function Radio:MetalItUp(isMetal) end
 
----@private
 ---@return nil
-function Radio:PlayAoeDamageSFX() return end
+function Radio:PlayAoeDamageSFX() end
 
----@private
 ---@return nil
-function Radio:PlayAoeDamageVFX() return end
+function Radio:PlayAoeDamageVFX() end
 
----@private
 ---@return nil
-function Radio:PlayGivenStation() return end
+function Radio:PlayGivenStation() end
 
----@private
 ---@return nil
-function Radio:PlayHighPitchNoiseSFX() return end
+function Radio:PlayHighPitchNoiseSFX() end
 
----@private
 ---@return nil
-function Radio:PlayHighPitchNoiseVFX() return end
+function Radio:PlayHighPitchNoiseVFX() end
 
----@private
 ---@param fxResource gameFxResource
 ---@return nil
-function Radio:PlayVfx(fxResource) return end
+function Radio:PlayVfx(fxResource) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function Radio:RemoveStatusEffect(target) return end
+function Radio:RemoveStatusEffect(target) end
 
----@private
 ---@return nil
-function Radio:RemoveStatusEffectFromTargets() return end
+function Radio:RemoveStatusEffectFromTargets() end
 
----@protected
 ---@return nil
-function Radio:ResolveGameplayState() return end
+function Radio:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function Radio:RestoreDeviceState() return end
+function Radio:RestoreDeviceState() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function Radio:StartGlitching(glitchState, intensity) return end
+function Radio:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function Radio:StartShortGlitch() return end
+function Radio:StartShortGlitch() end
 
----@private
 ---@return nil
-function Radio:StartStunEffect() return end
+function Radio:StartStunEffect() end
 
----@protected
 ---@return nil
-function Radio:StopGlitching() return end
+function Radio:StopGlitching() end
 
----@private
 ---@return nil
-function Radio:StopStunEffect() return end
+function Radio:StopStunEffect() end
 
----@private
 ---@param target ScriptedPuppet
 ---@return nil
-function Radio:TryAddToTargets(target) return end
+function Radio:TryAddToTargets(target) end
 
----@private
 ---@param target ScriptedPuppet
 ---@return nil
-function Radio:TryRemoveFromTargets(target) return end
+function Radio:TryRemoveFromTargets(target) end
 
----@private
 ---@return nil
-function Radio:TryStopVfx() return end
+function Radio:TryStopVfx() end
 
----@private
 ---@return nil
-function Radio:TryTerminateEffectInstance() return end
+function Radio:TryTerminateEffectInstance() end
 
----@protected
 ---@return nil
-function Radio:TurnOffDevice() return end
+function Radio:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Radio:TurnOnDevice() return end
+function Radio:TurnOnDevice() end

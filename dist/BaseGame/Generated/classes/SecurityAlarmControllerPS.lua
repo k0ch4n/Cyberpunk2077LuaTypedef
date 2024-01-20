@@ -1,118 +1,106 @@
 ---@meta
 
 ---@class SecurityAlarmControllerPS: MasterControllerPS
----@field protected securityAlarmSetup SecurityAlarmSetup
----@field private securityAlarmState ESecuritySystemState
+---@field securityAlarmSetup SecurityAlarmSetup
+---@field securityAlarmState ESecuritySystemState
 SecurityAlarmControllerPS = {}
 
 ---@param fields? SecurityAlarmControllerPS
 ---@return SecurityAlarmControllerPS
-function SecurityAlarmControllerPS.new(fields) return end
+function SecurityAlarmControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SecurityAlarmControllerPS:OnInstantiated() return end
+function SecurityAlarmControllerPS:OnInstantiated() end
 
----@protected
 ---@return SecurityAlarmEscalate
-function SecurityAlarmControllerPS:ActionSecurityAlarmEscalate() return end
+function SecurityAlarmControllerPS:ActionSecurityAlarmEscalate() end
 
----@protected
 ---@return ToggleAlarm
-function SecurityAlarmControllerPS:ActionToggleAlarm() return end
+function SecurityAlarmControllerPS:ActionToggleAlarm() end
 
 ---@return CName
-function SecurityAlarmControllerPS:AlarmSound() return end
+function SecurityAlarmControllerPS:AlarmSound() end
 
----@protected
 ---@return Bool
-function SecurityAlarmControllerPS:CanCreateAnyQuickHackActions() return end
+function SecurityAlarmControllerPS:CanCreateAnyQuickHackActions() end
 
----@private
 ---@param alarmState ESecuritySystemState
 ---@return SecurityAlarmBreachResponse
-function SecurityAlarmControllerPS:CreateAlarmResponse(alarmState) return end
+function SecurityAlarmControllerPS:CreateAlarmResponse(alarmState) end
 
 ---@return ESecuritySystemState
-function SecurityAlarmControllerPS:GetAlarmState() return end
+function SecurityAlarmControllerPS:GetAlarmState() end
 
----@protected
 ---@return TweakDBID
-function SecurityAlarmControllerPS:GetBackgroundTextureTweakDBID() return end
+function SecurityAlarmControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SecurityAlarmControllerPS:GetDeviceIconTweakDBID() return end
+function SecurityAlarmControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function SecurityAlarmControllerPS:GetQuestActions(context) return end
+function SecurityAlarmControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function SecurityAlarmControllerPS:GetQuickHackActions(context) return end
+function SecurityAlarmControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return nil
-function SecurityAlarmControllerPS:Initialize() return end
+function SecurityAlarmControllerPS:Initialize() end
 
 ---@return Bool
-function SecurityAlarmControllerPS:IsAlarmStateAlerted() return end
+function SecurityAlarmControllerPS:IsAlarmStateAlerted() end
 
 ---@return Bool
-function SecurityAlarmControllerPS:IsAlarmStateCombat() return end
+function SecurityAlarmControllerPS:IsAlarmStateCombat() end
 
 ---@return Bool
-function SecurityAlarmControllerPS:IsAlarmStateNotCombat() return end
+function SecurityAlarmControllerPS:IsAlarmStateNotCombat() end
 
 ---@return Bool
-function SecurityAlarmControllerPS:IsAlarmStateNotSafe() return end
+function SecurityAlarmControllerPS:IsAlarmStateNotSafe() end
 
 ---@return Bool
-function SecurityAlarmControllerPS:IsAlarmStateSafe() return end
+function SecurityAlarmControllerPS:IsAlarmStateSafe() end
 
 ---@param evt QuestForceSecuritySystemArmed
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnQuestForceSecuritySystemArmed(evt) return end
+function SecurityAlarmControllerPS:OnQuestForceSecuritySystemArmed(evt) end
 
 ---@param evt QuestForceSecuritySystemSafe
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnQuestForceSecuritySystemSafe(evt) return end
+function SecurityAlarmControllerPS:OnQuestForceSecuritySystemSafe(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnRefreshSlavesEvent(evt) return end
+function SecurityAlarmControllerPS:OnRefreshSlavesEvent(evt) end
 
 ---@param evt SecurityAlarmBreachResponse
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnSecurityAlarmBreachResponse(evt) return end
+function SecurityAlarmControllerPS:OnSecurityAlarmBreachResponse(evt) end
 
 ---@param evt SecurityAlarmEscalate
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnSecurityAlarmEscalate(evt) return end
+function SecurityAlarmControllerPS:OnSecurityAlarmEscalate(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnSecuritySystemOutput(evt) return end
+function SecurityAlarmControllerPS:OnSecuritySystemOutput(evt) end
 
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnTargetAssessmentRequest(evt) return end
+function SecurityAlarmControllerPS:OnTargetAssessmentRequest(evt) end
 
 ---@param evt ToggleAlarm
 ---@return EntityNotificationType
-function SecurityAlarmControllerPS:OnToggleAlarm(evt) return end
+function SecurityAlarmControllerPS:OnToggleAlarm(evt) end
 
----@private
 ---@param state ESecuritySystemState
 ---@return nil
-function SecurityAlarmControllerPS:QuestForceState(state) return end
+function SecurityAlarmControllerPS:QuestForceState(state) end
 
----@private
 ---@return nil
-function SecurityAlarmControllerPS:RefreshSlaves() return end
+function SecurityAlarmControllerPS:RefreshSlaves() end
 
 ---@return Bool
-function SecurityAlarmControllerPS:UsesSound() return end
+function SecurityAlarmControllerPS:UsesSound() end

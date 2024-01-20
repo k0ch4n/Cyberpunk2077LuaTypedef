@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetInputState
----@field public frameId Uint32
+---@field frameId Uint32
 gameMuppetInputState = {}
 
 ---@param fields? gameMuppetInputState
 ---@return gameMuppetInputState
-function gameMuppetInputState.new(fields) return end
+function gameMuppetInputState.new(fields) end

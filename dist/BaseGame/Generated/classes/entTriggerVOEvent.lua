@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class entTriggerVOEvent: redEvent
----@field public triggerBaseName CName
----@field public triggerVariationIndex Uint32
----@field public triggerVariationNumber Uint32
----@field public debugInitialContext CName
----@field public answeringEntityIDHash Uint64
----@field public ignoreGlobalVoLimitCheck Bool
----@field public overridingVoContext locVoiceoverContext
----@field public overridingVoiceoverExpression locVoiceoverExpression
----@field public overrideVoiceoverExpression Bool
----@field public overridingVisualStyleValue Uint8
----@field public overrideVisualStyle Bool
+---@field triggerBaseName CName
+---@field triggerVariationIndex Uint32
+---@field triggerVariationNumber Uint32
+---@field debugInitialContext CName
+---@field answeringEntityIDHash Uint64
+---@field ignoreGlobalVoLimitCheck Bool
+---@field overridingVoContext locVoiceoverContext
+---@field overridingVoiceoverExpression locVoiceoverExpression
+---@field overrideVoiceoverExpression Bool
+---@field overridingVisualStyleValue Uint8
+---@field overrideVisualStyle Bool
 entTriggerVOEvent = {}
 
 ---@param fields? entTriggerVOEvent
 ---@return entTriggerVOEvent
-function entTriggerVOEvent.new(fields) return end
+function entTriggerVOEvent.new(fields) end

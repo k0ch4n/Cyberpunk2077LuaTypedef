@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameinteractionsvisInteractionDisplayData
----@field public putAction CName
----@field public wInputKey EInputKey
----@field public HoldAction Bool
----@field public calizedName String
----@field public pe gameinteractionsChoiceTypeWrapper
----@field public oice gameinteractionsChoice
+---@field putAction CName
+---@field wInputKey EInputKey
+---@field HoldAction Bool
+---@field calizedName String
+---@field pe gameinteractionsChoiceTypeWrapper
+---@field oice gameinteractionsChoice
 gameinteractionsvisInteractionDisplayData = {}
 
 ---@param fields? gameinteractionsvisInteractionDisplayData
 ---@return gameinteractionsvisInteractionDisplayData
-function gameinteractionsvisInteractionDisplayData.new(fields) return end
+function gameinteractionsvisInteractionDisplayData.new(fields) end

@@ -5,4 +5,4 @@ gameTPPRepresentationCustomizationStateUpdater = {}
 
 ---@param fields? gameTPPRepresentationCustomizationStateUpdater
 ---@return gameTPPRepresentationCustomizationStateUpdater
-function gameTPPRepresentationCustomizationStateUpdater.new(fields) return end
+function gameTPPRepresentationCustomizationStateUpdater.new(fields) end

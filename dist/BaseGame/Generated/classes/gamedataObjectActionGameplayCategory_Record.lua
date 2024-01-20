@@ -5,4 +5,4 @@ gamedataObjectActionGameplayCategory_Record = {}
 
 ---@param fields? gamedataObjectActionGameplayCategory_Record
 ---@return gamedataObjectActionGameplayCategory_Record
-function gamedataObjectActionGameplayCategory_Record.new(fields) return end
+function gamedataObjectActionGameplayCategory_Record.new(fields) end

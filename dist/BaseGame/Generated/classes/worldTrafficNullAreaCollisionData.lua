@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTrafficNullAreaCollisionData: ISerializable
----@field public header worldCrowdNullAreaCollisionHeader
----@field public nullAreaCollisions worldCrowdNullAreaCollisionData[]
+---@field header worldCrowdNullAreaCollisionHeader
+---@field nullAreaCollisions worldCrowdNullAreaCollisionData[]
 worldTrafficNullAreaCollisionData = {}
 
 ---@param fields? worldTrafficNullAreaCollisionData
 ---@return worldTrafficNullAreaCollisionData
-function worldTrafficNullAreaCollisionData.new(fields) return end
+function worldTrafficNullAreaCollisionData.new(fields) end

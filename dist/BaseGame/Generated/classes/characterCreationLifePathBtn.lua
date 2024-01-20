@@ -1,43 +1,40 @@
 ---@meta
 
 ---@class characterCreationLifePathBtn: inkButtonController
----@field public selector inkWidgetReference
----@field public desc inkTextWidgetReference
----@field public image inkImageWidgetReference
----@field public label inkTextWidgetReference
----@field public video inkVideoWidgetReference
----@field private animationProxy inkanimProxy
----@field private root inkWidget
----@field private translationAnimationCtrl inkTextReplaceAnimationController
----@field private localizedText String
+---@field selector inkWidgetReference
+---@field desc inkTextWidgetReference
+---@field image inkImageWidgetReference
+---@field label inkTextWidgetReference
+---@field video inkVideoWidgetReference
+---@field animationProxy inkanimProxy
+---@field root inkWidget
+---@field translationAnimationCtrl inkTextReplaceAnimationController
+---@field localizedText String
 characterCreationLifePathBtn = {}
 
 ---@param fields? characterCreationLifePathBtn
 ---@return characterCreationLifePathBtn
-function characterCreationLifePathBtn.new(fields) return end
+function characterCreationLifePathBtn.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationLifePathBtn:OnHoverOut(e) return end
+function characterCreationLifePathBtn:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationLifePathBtn:OnHoverOver(e) return end
+function characterCreationLifePathBtn:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationLifePathBtn:OnInitialize() return end
+function characterCreationLifePathBtn:OnInitialize() end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@return nil
-function characterCreationLifePathBtn:PlayAnim(animName, callBack) return end
+function characterCreationLifePathBtn:PlayAnim(animName, callBack) end
 
 ---@param desc CName|string
 ---@param imagePath CName|string
 ---@param videoPath redResourceReferenceScriptToken
 ---@param label CName|string
 ---@return nil
-function characterCreationLifePathBtn:SetDescription(desc, imagePath, videoPath, label) return end
+function characterCreationLifePathBtn:SetDescription(desc, imagePath, videoPath, label) end

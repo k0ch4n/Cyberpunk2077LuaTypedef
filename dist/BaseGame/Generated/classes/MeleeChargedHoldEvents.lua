@@ -1,56 +1,51 @@
 ---@meta
 
 ---@class MeleeChargedHoldEvents: MeleeRumblingEvents
----@field public clearWeaponCharge Bool
----@field public effectiveRangeMod gameStatModifierData_Deprecated
+---@field clearWeaponCharge Bool
+---@field effectiveRangeMod gameStatModifierData_Deprecated
 MeleeChargedHoldEvents = {}
 
 ---@param fields? MeleeChargedHoldEvents
 ---@return MeleeChargedHoldEvents
-function MeleeChargedHoldEvents.new(fields) return end
+function MeleeChargedHoldEvents.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function MeleeChargedHoldEvents:GetChargeValuePerSec(scriptInterface) return end
+function MeleeChargedHoldEvents:GetChargeValuePerSec(scriptInterface) end
 
 ---@return String
-function MeleeChargedHoldEvents:GetIntensity() return end
+function MeleeChargedHoldEvents:GetIntensity() end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeChargedHoldEvents:IsMonowireQuickhackChargedAttack(scriptInterface) return end
+function MeleeChargedHoldEvents:IsMonowireQuickhackChargedAttack(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeChargedHoldEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeChargedHoldEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeChargedHoldEvents:OnExit(stateContext, scriptInterface) return end
-
----@private
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeChargedHoldEvents:OnExitCommon(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeChargedHoldEvents:OnExitToMeleeStrongAttack(stateContext, scriptInterface) return end
+function MeleeChargedHoldEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeChargedHoldEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeChargedHoldEvents:OnExitCommon(stateContext, scriptInterface) end
 
----@private
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeChargedHoldEvents:OnExitToMeleeStrongAttack(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeChargedHoldEvents:OnForcedExit(stateContext, scriptInterface) end
+
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectiveRange Float
 ---@return nil
-function MeleeChargedHoldEvents:UpdateEffectiveRange(scriptInterface, effectiveRange) return end
+function MeleeChargedHoldEvents:UpdateEffectiveRange(scriptInterface, effectiveRange) end

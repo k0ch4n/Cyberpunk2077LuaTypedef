@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldNameColorPair
----@field public name String
----@field public color Color
+---@field name String
+---@field color Color
 worldNameColorPair = {}
 
 ---@param fields? worldNameColorPair
 ---@return worldNameColorPair
-function worldNameColorPair.new(fields) return end
+function worldNameColorPair.new(fields) end

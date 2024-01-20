@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class questEventManagerNodeDefinition: questDisableableNodeDefinition
----@field public isUiEvent Bool
----@field public isObjectPlayer Bool
----@field public objectRef gameEntityReference
----@field public managerName String
----@field public event IScriptable
----@field public PSClassName CName
----@field public componentName CName
+---@field isUiEvent Bool
+---@field isObjectPlayer Bool
+---@field objectRef gameEntityReference
+---@field managerName String
+---@field event IScriptable
+---@field PSClassName CName
+---@field componentName CName
 questEventManagerNodeDefinition = {}
 
 ---@param fields? questEventManagerNodeDefinition
 ---@return questEventManagerNodeDefinition
-function questEventManagerNodeDefinition.new(fields) return end
+function questEventManagerNodeDefinition.new(fields) end

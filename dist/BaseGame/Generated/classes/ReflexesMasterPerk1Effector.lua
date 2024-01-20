@@ -1,48 +1,43 @@
 ---@meta
 
 ---@class ReflexesMasterPerk1Effector: ModifyAttackEffector
----@field private operationType EMathOperator
----@field private value Float
----@field private timeOut Float
----@field private damageHistory gameeventsHitEvent[]
----@field private listener ReflexesMasterPerk1EffectorListener
----@field private lastTargetID entEntityID
+---@field operationType EMathOperator
+---@field value Float
+---@field timeOut Float
+---@field damageHistory gameeventsHitEvent[]
+---@field listener ReflexesMasterPerk1EffectorListener
+---@field lastTargetID entEntityID
 ReflexesMasterPerk1Effector = {}
 
 ---@param fields? ReflexesMasterPerk1Effector
 ---@return ReflexesMasterPerk1Effector
-function ReflexesMasterPerk1Effector.new(fields) return end
+function ReflexesMasterPerk1Effector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ReflexesMasterPerk1Effector:ActionOn(owner) return end
+function ReflexesMasterPerk1Effector:ActionOn(owner) end
 
 ---@return nil
-function ReflexesMasterPerk1Effector:ClearHistory() return end
+function ReflexesMasterPerk1Effector:ClearHistory() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ReflexesMasterPerk1Effector:Initialize(record, parentRecord) return end
+function ReflexesMasterPerk1Effector:Initialize(record, parentRecord) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@param operationType EMathOperator
 ---@param value Float
 ---@return nil
-function ReflexesMasterPerk1Effector:ModifyDamage(hitEvent, operationType, value) return end
+function ReflexesMasterPerk1Effector:ModifyDamage(hitEvent, operationType, value) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ReflexesMasterPerk1Effector:RepeatedAction(owner) return end
+function ReflexesMasterPerk1Effector:RepeatedAction(owner) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function ReflexesMasterPerk1Effector:StoreHitEvent(hitEvent) return end
+function ReflexesMasterPerk1Effector:StoreHitEvent(hitEvent) end
 
----@protected
 ---@return nil
-function ReflexesMasterPerk1Effector:Uninitialize() return end
+function ReflexesMasterPerk1Effector:Uninitialize() end

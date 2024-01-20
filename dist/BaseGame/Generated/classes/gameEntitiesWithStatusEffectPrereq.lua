@@ -5,4 +5,4 @@ gameEntitiesWithStatusEffectPrereq = {}
 
 ---@param fields? gameEntitiesWithStatusEffectPrereq
 ---@return gameEntitiesWithStatusEffectPrereq
-function gameEntitiesWithStatusEffectPrereq.new(fields) return end
+function gameEntitiesWithStatusEffectPrereq.new(fields) end

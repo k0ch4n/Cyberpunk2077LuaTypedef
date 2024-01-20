@@ -5,24 +5,21 @@ NetrunnerChair = {}
 
 ---@param fields? NetrunnerChair
 ---@return NetrunnerChair
-function NetrunnerChair.new(fields) return end
+function NetrunnerChair.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function NetrunnerChair:OnRequestComponents(ri) return end
+function NetrunnerChair:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function NetrunnerChair:OnTakeControl(ri) return end
+function NetrunnerChair:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function NetrunnerChair:DeterminGameplayRole() return end
+function NetrunnerChair:DeterminGameplayRole() end
 
----@private
 ---@return NetrunnerChairController
-function NetrunnerChair:GetController() return end
+function NetrunnerChair:GetController() end
 
 ---@return NetrunnerChairControllerPS
-function NetrunnerChair:GetDevicePS() return end
+function NetrunnerChair:GetDevicePS() end

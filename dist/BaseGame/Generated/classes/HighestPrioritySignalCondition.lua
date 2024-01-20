@@ -1,31 +1,30 @@
 ---@meta
 
 ---@class HighestPrioritySignalCondition: AIbehaviorexpressionScript
----@field public signalName CName
----@field protected cbId Uint32
----@field protected lastValue Bool
+---@field signalName CName
+---@field cbId Uint32
+---@field lastValue Bool
 HighestPrioritySignalCondition = {}
 
 ---@param fields? HighestPrioritySignalCondition
 ---@return HighestPrioritySignalCondition
-function HighestPrioritySignalCondition.new(fields) return end
+function HighestPrioritySignalCondition.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function HighestPrioritySignalCondition:Activate(context) return end
+function HighestPrioritySignalCondition:Activate(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function HighestPrioritySignalCondition:CalculateValue(context) return end
+function HighestPrioritySignalCondition:CalculateValue(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function HighestPrioritySignalCondition:Deactivate(context) return end
+function HighestPrioritySignalCondition:Deactivate(context) end
 
 ---@return String
-function HighestPrioritySignalCondition:GetEditorSubCaption() return end
+function HighestPrioritySignalCondition:GetEditorSubCaption() end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AISignalHandlerComponent
-function HighestPrioritySignalCondition:GetSignalHandler(context) return end
+function HighestPrioritySignalCondition:GetSignalHandler(context) end

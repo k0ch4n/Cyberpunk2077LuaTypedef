@@ -5,4 +5,4 @@ questQuestStatPoolListener = {}
 
 ---@param fields? questQuestStatPoolListener
 ---@return questQuestStatPoolListener
-function questQuestStatPoolListener.new(fields) return end
+function questQuestStatPoolListener.new(fields) end

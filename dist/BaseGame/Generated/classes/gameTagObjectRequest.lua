@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameTagObjectRequest: gameScriptableSystemRequest
----@field public object gameObject
+---@field object gameObject
 gameTagObjectRequest = {}
 
 ---@param fields? gameTagObjectRequest
 ---@return gameTagObjectRequest
-function gameTagObjectRequest.new(fields) return end
+function gameTagObjectRequest.new(fields) end

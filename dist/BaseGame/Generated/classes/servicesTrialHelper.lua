@@ -5,10 +5,10 @@ servicesTrialHelper = {}
 
 ---@param fields? servicesTrialHelper
 ---@return servicesTrialHelper
-function servicesTrialHelper.new(fields) return end
+function servicesTrialHelper.new(fields) end
 
 ---@return Bool
-function servicesTrialHelper.IsInPS5TrialMode() return end
+function servicesTrialHelper.IsInPS5TrialMode() end
 
 ---@return nil
-function servicesTrialHelper.ShowUpgradeTrialVersionCommerceDialog() return end
+function servicesTrialHelper.ShowUpgradeTrialVersionCommerceDialog() end

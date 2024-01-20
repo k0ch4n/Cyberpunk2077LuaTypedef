@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioLimitedSound
----@field public soundType audioLimitedSoundType
----@field public attenuationDistance Float
+---@field soundType audioLimitedSoundType
+---@field attenuationDistance Float
 audioLimitedSound = {}
 
 ---@param fields? audioLimitedSound
 ---@return audioLimitedSound
-function audioLimitedSound.new(fields) return end
+function audioLimitedSound.new(fields) end

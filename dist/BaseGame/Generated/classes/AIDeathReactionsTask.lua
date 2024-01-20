@@ -1,90 +1,75 @@
 ---@meta
 
 ---@class AIDeathReactionsTask: AIbehaviortaskScript
----@field public fastForwardAnimation AIArgumentMapping
----@field protected hitData animAnimFeature_HitReactionsData
----@field private hitReactionAction ActionHitReactionScriptProxy
----@field private previousRagdollTimeStamp Float
----@field private deathHasBeenPlayed Bool
----@field private updateFrame Int32
+---@field fastForwardAnimation AIArgumentMapping
+---@field hitData animAnimFeature_HitReactionsData
+---@field hitReactionAction ActionHitReactionScriptProxy
+---@field previousRagdollTimeStamp Float
+---@field deathHasBeenPlayed Bool
+---@field updateFrame Int32
 AIDeathReactionsTask = {}
 
 ---@param owner ScriptedPuppet
 ---@return Bool
-function AIDeathReactionsTask.ShouldUseRagdoll(owner) return end
+function AIDeathReactionsTask.ShouldUseRagdoll(owner) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIDeathReactionsTask:Activate(context) return end
+function AIDeathReactionsTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param hitData animAnimFeature_HitReactionsData
 ---@return Float
-function AIDeathReactionsTask:AngleToAttackSource(context, hitData) return end
+function AIDeathReactionsTask:AngleToAttackSource(context, hitData) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return animAnimFeature_HitReactionsData
-function AIDeathReactionsTask:BrainMeltDeathData(context) return end
+function AIDeathReactionsTask:BrainMeltDeathData(context) end
 
----@protected
 ---@return Bool
-function AIDeathReactionsTask:CanSkipDeathAnimation() return end
+function AIDeathReactionsTask:CanSkipDeathAnimation() end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIDeathReactionsTask:ChangeHighLevelState(context) return end
+function AIDeathReactionsTask:ChangeHighLevelState(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIDeathReactionsTask:Deactivate(context) return end
+function AIDeathReactionsTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Int32
-function AIDeathReactionsTask:GetDeathReactionType(context) return end
+function AIDeathReactionsTask:GetDeathReactionType(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return animAnimFeature_HitReactionsData
-function AIDeathReactionsTask:GetHitData(context) return end
+function AIDeathReactionsTask:GetHitData(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIDeathReactionsTask:IsFloorSteepEnoughToRagdoll(context) return end
+function AIDeathReactionsTask:IsFloorSteepEnoughToRagdoll(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIDeathReactionsTask:PlayHitReactionAction(context) return end
+function AIDeathReactionsTask:PlayHitReactionAction(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIDeathReactionsTask:ShouldFastForward(context) return end
+function AIDeathReactionsTask:ShouldFastForward(context) end
 
----@protected
 ---@param puppet ScriptedPuppet
 ---@return nil
-function AIDeathReactionsTask:SpawnBloodPuddle(puppet) return end
+function AIDeathReactionsTask:SpawnBloodPuddle(puppet) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIDeathReactionsTask:StopMotionExtraction(context) return end
+function AIDeathReactionsTask:StopMotionExtraction(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param activationReason CName|string
 ---@return nil
-function AIDeathReactionsTask:TurnOnRagdoll(context, activationReason) return end
+function AIDeathReactionsTask:TurnOnRagdoll(context, activationReason) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIDeathReactionsTask:Update(context) return end
+function AIDeathReactionsTask:Update(context) end

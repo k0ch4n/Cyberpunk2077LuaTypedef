@@ -5,24 +5,20 @@ LocomotionTakedownDecisions = {}
 
 ---@param fields? LocomotionTakedownDecisions
 ---@return LocomotionTakedownDecisions
-function LocomotionTakedownDecisions.new(fields) return end
+function LocomotionTakedownDecisions.new(fields) end
 
----@protected
 ---@param target gameObject
 ---@return Bool
-function LocomotionTakedownDecisions:IsPowerLevelDifferentialTooHigh(target) return end
+function LocomotionTakedownDecisions:IsPowerLevelDifferentialTooHigh(target) end
 
----@protected
 ---@param actionName CName|string
 ---@return Bool
-function LocomotionTakedownDecisions:IsTakedownAction(actionName) return end
+function LocomotionTakedownDecisions:IsTakedownAction(actionName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionTakedownDecisions:IsTakedownAndDispose(scriptInterface) return end
+function LocomotionTakedownDecisions:IsTakedownAndDispose(scriptInterface) end
 
----@protected
 ---@param target ScriptedPuppet
 ---@return Bool
-function LocomotionTakedownDecisions:ShouldInstantlyBreakFree(target) return end
+function LocomotionTakedownDecisions:ShouldInstantlyBreakFree(target) end

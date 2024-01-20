@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIbehaviorTaskNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public task AIbehaviorTaskDefinition
+---@field task AIbehaviorTaskDefinition
 AIbehaviorTaskNodeDefinition = {}

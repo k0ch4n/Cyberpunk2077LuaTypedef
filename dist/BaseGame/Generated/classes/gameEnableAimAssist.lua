@@ -5,4 +5,4 @@ gameEnableAimAssist = {}
 
 ---@param fields? gameEnableAimAssist
 ---@return gameEnableAimAssist
-function gameEnableAimAssist.new(fields) return end
+function gameEnableAimAssist.new(fields) end

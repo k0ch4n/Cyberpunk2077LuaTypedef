@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CParticleEventGenerator: IParticleEvent
----@field public evtType EParticleEventType
----@field public frequency Float
----@field public probability Float
+---@field evtType EParticleEventType
+---@field frequency Float
+---@field probability Float
 CParticleEventGenerator = {}
 
 ---@param fields? CParticleEventGenerator
 ---@return CParticleEventGenerator
-function CParticleEventGenerator.new(fields) return end
+function CParticleEventGenerator.new(fields) end

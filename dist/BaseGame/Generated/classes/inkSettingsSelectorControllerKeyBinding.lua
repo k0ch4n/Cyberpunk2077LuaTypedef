@@ -1,65 +1,58 @@
 ---@meta
 
 ---@class inkSettingsSelectorControllerKeyBinding: inkSettingsSelectorController
----@field private text inkRichTextBoxWidgetReference
----@field private buttonRef inkWidgetReference
----@field private editView inkWidgetReference
----@field private editOpacity Float
+---@field text inkRichTextBoxWidgetReference
+---@field buttonRef inkWidgetReference
+---@field editView inkWidgetReference
+---@field editOpacity Float
 inkSettingsSelectorControllerKeyBinding = {}
 
 ---@param fields? inkSettingsSelectorControllerKeyBinding
 ---@return inkSettingsSelectorControllerKeyBinding
-function inkSettingsSelectorControllerKeyBinding.new(fields) return end
+function inkSettingsSelectorControllerKeyBinding.new(fields) end
 
 ---@param keyName CName|string
 ---@param groupName CName|string
 ---@param actionName CName|string
 ---@return String
-function inkSettingsSelectorControllerKeyBinding.PrepareInputTag(keyName, groupName, actionName) return end
+function inkSettingsSelectorControllerKeyBinding.PrepareInputTag(keyName, groupName, actionName) end
 
 ---@return Bool
-function inkSettingsSelectorControllerKeyBinding:IsListeningForInput() return end
+function inkSettingsSelectorControllerKeyBinding:IsListeningForInput() end
 
 ---@return nil
-function inkSettingsSelectorControllerKeyBinding:ListenForInput() return end
+function inkSettingsSelectorControllerKeyBinding:ListenForInput() end
 
 ---@return nil
-function inkSettingsSelectorControllerKeyBinding:StopListeningForInput() return end
+function inkSettingsSelectorControllerKeyBinding:StopListeningForInput() end
 
 ---@return nil
-function inkSettingsSelectorControllerKeyBinding:TriggerActionFeedback() return end
+function inkSettingsSelectorControllerKeyBinding:TriggerActionFeedback() end
 
----@protected
 ---@return Bool
-function inkSettingsSelectorControllerKeyBinding:OnInitialize() return end
+function inkSettingsSelectorControllerKeyBinding:OnInitialize() end
 
----@protected
 ---@param e inkKeyBindingEvent
 ---@return Bool
-function inkSettingsSelectorControllerKeyBinding:OnKeyBindingEvent(e) return end
+function inkSettingsSelectorControllerKeyBinding:OnKeyBindingEvent(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorControllerKeyBinding:OnRelease(e) return end
+function inkSettingsSelectorControllerKeyBinding:OnRelease(e) end
 
----@protected
 ---@return Bool
-function inkSettingsSelectorControllerKeyBinding:OnUninitialize() return end
+function inkSettingsSelectorControllerKeyBinding:OnUninitialize() end
 
----@private
 ---@param keyName CName|string
 ---@return Bool
-function inkSettingsSelectorControllerKeyBinding:IsCancel(keyName) return end
+function inkSettingsSelectorControllerKeyBinding:IsCancel(keyName) end
 
 ---@return nil
-function inkSettingsSelectorControllerKeyBinding:Refresh() return end
+function inkSettingsSelectorControllerKeyBinding:Refresh() end
 
----@private
 ---@return nil
-function inkSettingsSelectorControllerKeyBinding:ResetValue() return end
+function inkSettingsSelectorControllerKeyBinding:ResetValue() end
 
----@private
 ---@param key CName|string
 ---@return nil
-function inkSettingsSelectorControllerKeyBinding:SetValue(key) return end
+function inkSettingsSelectorControllerKeyBinding:SetValue(key) end

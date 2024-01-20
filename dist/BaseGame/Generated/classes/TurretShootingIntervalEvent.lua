@@ -5,4 +5,4 @@ TurretShootingIntervalEvent = {}
 
 ---@param fields? TurretShootingIntervalEvent
 ---@return TurretShootingIntervalEvent
-function TurretShootingIntervalEvent.new(fields) return end
+function TurretShootingIntervalEvent.new(fields) end

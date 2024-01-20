@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UpdateOverheatEvent: redEvent
----@field public value Float
+---@field value Float
 UpdateOverheatEvent = {}
 
 ---@param fields? UpdateOverheatEvent
 ---@return UpdateOverheatEvent
-function UpdateOverheatEvent.new(fields) return end
+function UpdateOverheatEvent.new(fields) end

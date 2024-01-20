@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleAccelerateQuickhackEvent: gameActionEvent
----@field public active Bool
+---@field active Bool
 vehicleAccelerateQuickhackEvent = {}
 
 ---@param fields? vehicleAccelerateQuickhackEvent
 ---@return vehicleAccelerateQuickhackEvent
-function vehicleAccelerateQuickhackEvent.new(fields) return end
+function vehicleAccelerateQuickhackEvent.new(fields) end

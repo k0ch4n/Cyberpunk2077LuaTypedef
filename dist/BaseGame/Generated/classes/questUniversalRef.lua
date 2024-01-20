@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questUniversalRef: ISerializable
----@field public entityReference gameEntityReference
----@field public refLocalPlayer Bool
----@field public mainPlayerObject Bool
+---@field entityReference gameEntityReference
+---@field refLocalPlayer Bool
+---@field mainPlayerObject Bool
 questUniversalRef = {}
 
 ---@param fields? questUniversalRef
 ---@return questUniversalRef
-function questUniversalRef.new(fields) return end
+function questUniversalRef.new(fields) end

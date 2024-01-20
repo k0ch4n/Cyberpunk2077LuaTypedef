@@ -5,15 +5,13 @@ MenuScenario_NewGame = {}
 
 ---@param fields? MenuScenario_NewGame
 ---@return MenuScenario_NewGame
-function MenuScenario_NewGame.new(fields) return end
+function MenuScenario_NewGame.new(fields) end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_NewGame:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_NewGame:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_NewGame:OnLeaveScenario(nextScenario) return end
+function MenuScenario_NewGame:OnLeaveScenario(nextScenario) end

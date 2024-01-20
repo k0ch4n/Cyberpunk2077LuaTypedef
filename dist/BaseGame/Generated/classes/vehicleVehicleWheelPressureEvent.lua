@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class vehicleVehicleWheelPressureEvent: redEvent
----@field public contactPoint Vector3
----@field public impulse Vector3
+---@field contactPoint Vector3
+---@field impulse Vector3
 vehicleVehicleWheelPressureEvent = {}
 
 ---@param fields? vehicleVehicleWheelPressureEvent
 ---@return vehicleVehicleWheelPressureEvent
-function vehicleVehicleWheelPressureEvent.new(fields) return end
+function vehicleVehicleWheelPressureEvent.new(fields) end

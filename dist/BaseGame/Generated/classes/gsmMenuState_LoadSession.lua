@@ -5,4 +5,4 @@ gsmMenuState_LoadSession = {}
 
 ---@param fields? gsmMenuState_LoadSession
 ---@return gsmMenuState_LoadSession
-function gsmMenuState_LoadSession.new(fields) return end
+function gsmMenuState_LoadSession.new(fields) end

@@ -1,70 +1,63 @@
 ---@meta
 
 ---@class FeaturesExpansionPopupController: inkWidgetLogicController
----@field private hoverAnimationName CName
----@field private hoverArrow inkImageWidgetReference
----@field private buyButtonRef inkWidgetReference
----@field private buyButtonText inkTextWidgetReference
----@field private buyButtonInputIcon inkWidgetReference
----@field private buyButtonSpinner inkWidgetReference
----@field private locKey_Buy CName
----@field private locKey_PreOrder CName
----@field private slectorContainerRef inkWidgetReference
----@field private slectorArrowLeftRef inkWidgetReference
----@field private slectorArrowRightRef inkWidgetReference
----@field private videoCarouselRef inkWidgetReference
----@field private videoContainerRef inkWidgetReference
----@field private videoCarouselData VideoCarouselData[]
----@field private videoCarouselController VideoCarouselController
----@field private buyButtonController inkButtonController
----@field private hoverAnimation inkanimProxy
----@field private hoverAnimationOptions inkanimPlaybackOptions
----@field private isEp1Released Bool
+---@field hoverAnimationName CName
+---@field hoverArrow inkImageWidgetReference
+---@field buyButtonRef inkWidgetReference
+---@field buyButtonText inkTextWidgetReference
+---@field buyButtonInputIcon inkWidgetReference
+---@field buyButtonSpinner inkWidgetReference
+---@field locKey_Buy CName
+---@field locKey_PreOrder CName
+---@field slectorContainerRef inkWidgetReference
+---@field slectorArrowLeftRef inkWidgetReference
+---@field slectorArrowRightRef inkWidgetReference
+---@field videoCarouselRef inkWidgetReference
+---@field videoContainerRef inkWidgetReference
+---@field videoCarouselData VideoCarouselData[]
+---@field videoCarouselController VideoCarouselController
+---@field buyButtonController inkButtonController
+---@field hoverAnimation inkanimProxy
+---@field hoverAnimationOptions inkanimPlaybackOptions
+---@field isEp1Released Bool
 FeaturesExpansionPopupController = {}
 
 ---@param fields? FeaturesExpansionPopupController
 ---@return FeaturesExpansionPopupController
-function FeaturesExpansionPopupController.new(fields) return end
+function FeaturesExpansionPopupController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FeaturesExpansionPopupController:OnHoverOutSelector(e) return end
+function FeaturesExpansionPopupController:OnHoverOutSelector(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FeaturesExpansionPopupController:OnHoverOutVideo(e) return end
+function FeaturesExpansionPopupController:OnHoverOutVideo(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FeaturesExpansionPopupController:OnHoverSelector(e) return end
+function FeaturesExpansionPopupController:OnHoverSelector(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function FeaturesExpansionPopupController:OnHoverVideo(e) return end
+function FeaturesExpansionPopupController:OnHoverVideo(e) end
 
----@protected
 ---@return Bool
-function FeaturesExpansionPopupController:OnInitialize() return end
+function FeaturesExpansionPopupController:OnInitialize() end
 
----@protected
 ---@return Bool
-function FeaturesExpansionPopupController:OnUninitialize() return end
+function FeaturesExpansionPopupController:OnUninitialize() end
 
 ---@return inkWidgetReference
-function FeaturesExpansionPopupController:GetButtonRef() return end
+function FeaturesExpansionPopupController:GetButtonRef() end
 
----@private
 ---@return nil
-function FeaturesExpansionPopupController:PlaySpinAnimation() return end
+function FeaturesExpansionPopupController:PlaySpinAnimation() end
 
 ---@param isEp1Released Bool
 ---@return nil
-function FeaturesExpansionPopupController:SetIsEp1Released(isEp1Released) return end
+function FeaturesExpansionPopupController:SetIsEp1Released(isEp1Released) end
 
 ---@param state ExpansionStatus
 ---@return nil
-function FeaturesExpansionPopupController:SetState(state) return end
+function FeaturesExpansionPopupController:SetState(state) end

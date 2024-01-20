@@ -5,4 +5,4 @@ gameeventsUserLeftCoverEvent = {}
 
 ---@param fields? gameeventsUserLeftCoverEvent
 ---@return gameeventsUserLeftCoverEvent
-function gameeventsUserLeftCoverEvent.new(fields) return end
+function gameeventsUserLeftCoverEvent.new(fields) end

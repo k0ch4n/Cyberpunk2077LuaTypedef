@@ -5,4 +5,4 @@ questResetScanningAngleThreshold_NodeType = {}
 
 ---@param fields? questResetScanningAngleThreshold_NodeType
 ---@return questResetScanningAngleThreshold_NodeType
-function questResetScanningAngleThreshold_NodeType.new(fields) return end
+function questResetScanningAngleThreshold_NodeType.new(fields) end

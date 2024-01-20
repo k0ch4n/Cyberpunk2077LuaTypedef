@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class QuickSlotsManagerPS: gameComponentPS
----@field private activeVehicleType gamedataVehicleType
+---@field activeVehicleType gamedataVehicleType
 QuickSlotsManagerPS = {}
 
 ---@param fields? QuickSlotsManagerPS
 ---@return QuickSlotsManagerPS
-function QuickSlotsManagerPS.new(fields) return end
+function QuickSlotsManagerPS.new(fields) end
 
 ---@return gamedataVehicleType
-function QuickSlotsManagerPS:GetActiveType() return end
+function QuickSlotsManagerPS:GetActiveType() end
 
 ---@param type gamedataVehicleType
 ---@return nil
-function QuickSlotsManagerPS:SetActiveType(type) return end
+function QuickSlotsManagerPS:SetActiveType(type) end

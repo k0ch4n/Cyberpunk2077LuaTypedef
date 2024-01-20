@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class VisualTagsPrereq: gameIScriptablePrereq
----@field public allowedTags CName[]
----@field public invert Bool
+---@field allowedTags CName[]
+---@field invert Bool
 VisualTagsPrereq = {}
 
 ---@param fields? VisualTagsPrereq
 ---@return VisualTagsPrereq
-function VisualTagsPrereq.new(fields) return end
+function VisualTagsPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function VisualTagsPrereq:Initialize(recordID) return end
+function VisualTagsPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function VisualTagsPrereq:IsFulfilled(context) return end
+function VisualTagsPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function VisualTagsPrereq:OnApplied(state, context) return end
+function VisualTagsPrereq:OnApplied(state, context) end

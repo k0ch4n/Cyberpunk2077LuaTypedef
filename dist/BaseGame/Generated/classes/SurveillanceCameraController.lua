@@ -5,7 +5,7 @@ SurveillanceCameraController = {}
 
 ---@param fields? SurveillanceCameraController
 ---@return SurveillanceCameraController
-function SurveillanceCameraController.new(fields) return end
+function SurveillanceCameraController.new(fields) end
 
 ---@return SurveillanceCameraControllerPS
-function SurveillanceCameraController:GetPS() return end
+function SurveillanceCameraController:GetPS() end

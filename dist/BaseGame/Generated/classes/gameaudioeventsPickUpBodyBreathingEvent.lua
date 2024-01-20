@@ -5,4 +5,4 @@ gameaudioeventsPickUpBodyBreathingEvent = {}
 
 ---@param fields? gameaudioeventsPickUpBodyBreathingEvent
 ---@return gameaudioeventsPickUpBodyBreathingEvent
-function gameaudioeventsPickUpBodyBreathingEvent.new(fields) return end
+function gameaudioeventsPickUpBodyBreathingEvent.new(fields) end

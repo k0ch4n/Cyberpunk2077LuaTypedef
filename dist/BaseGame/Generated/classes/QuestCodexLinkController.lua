@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class QuestCodexLinkController: BaseCodexLinkController
----@field protected linkLabelContainer inkWidgetReference
----@field private journalEntry gameJournalEntry
+---@field linkLabelContainer inkWidgetReference
+---@field journalEntry gameJournalEntry
 QuestCodexLinkController = {}
 
 ---@param fields? QuestCodexLinkController
 ---@return QuestCodexLinkController
-function QuestCodexLinkController.new(fields) return end
+function QuestCodexLinkController.new(fields) end
 
----@private
 ---@return nil
-function QuestCodexLinkController:Activate() return end
+function QuestCodexLinkController:Activate() end
 
 ---@param journalEntry gameJournalEntry
 ---@param journalEntryReplacer? gameJournalEntry
 ---@return nil
-function QuestCodexLinkController:Setup(journalEntry, journalEntryReplacer) return end
+function QuestCodexLinkController:Setup(journalEntry, journalEntryReplacer) end
 
----@private
 ---@param codexEntry gameJournalCodexEntry
 ---@return nil
-function QuestCodexLinkController:SetupCodexLink(codexEntry) return end
+function QuestCodexLinkController:SetupCodexLink(codexEntry) end
 
----@private
 ---@param imageEntry gameJournalImageEntry
 ---@return nil
-function QuestCodexLinkController:SetupImageLink(imageEntry) return end
+function QuestCodexLinkController:SetupImageLink(imageEntry) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiCyberspaceUIObject: gameObject
----@field public slotName CName
----@field public mappinType gameuiCyberspaceElementType
----@field public caption String
+---@field slotName CName
+---@field mappinType gameuiCyberspaceElementType
+---@field caption String
 gameuiCyberspaceUIObject = {}
 
 ---@param fields? gameuiCyberspaceUIObject
 ---@return gameuiCyberspaceUIObject
-function gameuiCyberspaceUIObject.new(fields) return end
+function gameuiCyberspaceUIObject.new(fields) end

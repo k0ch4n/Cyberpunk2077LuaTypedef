@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorDelegateTaskDefinition: AIbehaviorTaskDefinition
----@field public onActivate AIbehaviorDelegateTaskRef
----@field public onUpdate AIbehaviorDelegateTaskRef
----@field public onDeactivate AIbehaviorDelegateTaskRef
+---@field onActivate AIbehaviorDelegateTaskRef
+---@field onUpdate AIbehaviorDelegateTaskRef
+---@field onDeactivate AIbehaviorDelegateTaskRef
 AIbehaviorDelegateTaskDefinition = {}
 
 ---@param fields? AIbehaviorDelegateTaskDefinition
 ---@return AIbehaviorDelegateTaskDefinition
-function AIbehaviorDelegateTaskDefinition.new(fields) return end
+function AIbehaviorDelegateTaskDefinition.new(fields) end

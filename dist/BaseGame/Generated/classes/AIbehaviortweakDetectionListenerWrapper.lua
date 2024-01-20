@@ -5,4 +5,4 @@ AIbehaviortweakDetectionListenerWrapper = {}
 
 ---@param fields? AIbehaviortweakDetectionListenerWrapper
 ---@return AIbehaviortweakDetectionListenerWrapper
-function AIbehaviortweakDetectionListenerWrapper.new(fields) return end
+function AIbehaviortweakDetectionListenerWrapper.new(fields) end

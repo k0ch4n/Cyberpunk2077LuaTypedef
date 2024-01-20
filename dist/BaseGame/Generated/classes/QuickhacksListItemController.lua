@@ -1,126 +1,110 @@
 ---@meta
 
 ---@class QuickhacksListItemController: inkListItemController
----@field private expandAnimationDuration Float
----@field private icon inkImageWidgetReference
----@field private description inkTextWidgetReference
----@field private memoryValue inkTextWidgetReference
----@field private memoryCells inkCompoundWidgetReference
----@field private actionStateRoot inkWidgetReference
----@field private actionStateText inkTextWidgetReference
----@field private categoryRoot inkWidgetReference
----@field private categoryText inkTextWidgetReference
----@field private revealRoot inkWidgetReference
----@field private revealText inkTextWidgetReference
----@field private cooldownIcon inkWidgetReference
----@field private cooldownValue inkTextWidgetReference
----@field private descriptionSize inkWidgetReference
----@field private costReductionArrow inkImageWidgetReference
----@field private curveRadius Float
----@field private categorizedHacks Bool
----@field private colorCodedHacks Bool
----@field private hackColorDamage CName
----@field private hackColorControl CName
----@field private hackColorCovert CName
----@field private hackColorUltimate CName
----@field private hackColorDefault CName
----@field private selectedLoop inkanimProxy
----@field private currentAnimationName CName
----@field private choiceAccepted inkanimProxy
----@field private resizeAnim inkanimController
----@field private root inkWidget
----@field private data QuickhackData
----@field private isSelected Bool
----@field private expanded Bool
----@field private cachedDescriptionSize Vector2
----@field private defaultMargin inkMargin
+---@field expandAnimationDuration Float
+---@field icon inkImageWidgetReference
+---@field description inkTextWidgetReference
+---@field memoryValue inkTextWidgetReference
+---@field memoryCells inkCompoundWidgetReference
+---@field actionStateRoot inkWidgetReference
+---@field actionStateText inkTextWidgetReference
+---@field categoryRoot inkWidgetReference
+---@field categoryText inkTextWidgetReference
+---@field revealRoot inkWidgetReference
+---@field revealText inkTextWidgetReference
+---@field cooldownIcon inkWidgetReference
+---@field cooldownValue inkTextWidgetReference
+---@field descriptionSize inkWidgetReference
+---@field costReductionArrow inkImageWidgetReference
+---@field curveRadius Float
+---@field categorizedHacks Bool
+---@field colorCodedHacks Bool
+---@field hackColorDamage CName
+---@field hackColorControl CName
+---@field hackColorCovert CName
+---@field hackColorUltimate CName
+---@field hackColorDefault CName
+---@field selectedLoop inkanimProxy
+---@field currentAnimationName CName
+---@field choiceAccepted inkanimProxy
+---@field resizeAnim inkanimController
+---@field root inkWidget
+---@field data QuickhackData
+---@field isSelected Bool
+---@field expanded Bool
+---@field cachedDescriptionSize Vector2
+---@field defaultMargin inkMargin
 QuickhacksListItemController = {}
 
 ---@param fields? QuickhacksListItemController
 ---@return QuickhacksListItemController
-function QuickhacksListItemController.new(fields) return end
+function QuickhacksListItemController.new(fields) end
 
----@protected
 ---@param value IScriptable
 ---@return Bool
-function QuickhacksListItemController:OnDataChanged(value) return end
+function QuickhacksListItemController:OnDataChanged(value) end
 
----@protected
 ---@param itemController inkListItemController
 ---@return Bool
-function QuickhacksListItemController:OnDeselected(itemController) return end
+function QuickhacksListItemController:OnDeselected(itemController) end
 
----@protected
 ---@return Bool
-function QuickhacksListItemController:OnInitialize() return end
+function QuickhacksListItemController:OnInitialize() end
 
----@protected
 ---@param evt QuickhackDescriptionUpdate
 ---@return Bool
-function QuickhacksListItemController:OnQuickhackDescriptionUpdate(evt) return end
+function QuickhacksListItemController:OnQuickhackDescriptionUpdate(evt) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function QuickhacksListItemController:OnResizingFinished(anim) return end
+function QuickhacksListItemController:OnResizingFinished(anim) end
 
----@protected
 ---@param itemController inkListItemController
 ---@return Bool
-function QuickhacksListItemController:OnSelected(itemController) return end
+function QuickhacksListItemController:OnSelected(itemController) end
 
----@protected
 ---@return Bool
-function QuickhacksListItemController:OnUninitialize() return end
+function QuickhacksListItemController:OnUninitialize() end
 
----@protected
 ---@param e? inkanimProxy
 ---@return Bool
-function QuickhacksListItemController:OnUpdateAnimationState(e) return end
+function QuickhacksListItemController:OnUpdateAnimationState(e) end
 
----@private
 ---@param value Bool
 ---@return nil
-function QuickhacksListItemController:AdjustToTextDescriptionSize(value) return end
+function QuickhacksListItemController:AdjustToTextDescriptionSize(value) end
 
----@private
 ---@return nil
-function QuickhacksListItemController:ChangeMargin() return end
+function QuickhacksListItemController:ChangeMargin() end
 
----@private
 ---@param value Bool
 ---@param force? Bool
 ---@return nil
-function QuickhacksListItemController:Expand(value, force) return end
+function QuickhacksListItemController:Expand(value, force) end
 
----@private
 ---@return Bool
-function QuickhacksListItemController:IsChoiceAcceptedPlaying() return end
+function QuickhacksListItemController:IsChoiceAcceptedPlaying() end
 
 ---@return nil
-function QuickhacksListItemController:PlayChoiceAcceptedAnimation() return end
+function QuickhacksListItemController:PlayChoiceAcceptedAnimation() end
 
----@private
 ---@return nil
-function QuickhacksListItemController:SetActionState() return end
+function QuickhacksListItemController:SetActionState() end
 
 ---@param isVisible Bool
 ---@return nil
-function QuickhacksListItemController:SetCooldownVisibility(isVisible) return end
+function QuickhacksListItemController:SetCooldownVisibility(isVisible) end
 
----@private
 ---@return nil
-function QuickhacksListItemController:SetReductionArrowVisibility() return end
+function QuickhacksListItemController:SetReductionArrowVisibility() end
 
----@private
 ---@param value Int32
 ---@return nil
-function QuickhacksListItemController:ShowMemoryCell(value) return end
+function QuickhacksListItemController:ShowMemoryCell(value) end
 
 ---@param cooldown Float
 ---@return nil
-function QuickhacksListItemController:UpdateCooldown(cooldown) return end
+function QuickhacksListItemController:UpdateCooldown(cooldown) end
 
----@private
 ---@return nil
-function QuickhacksListItemController:UpdateState() return end
+function QuickhacksListItemController:UpdateState() end

@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class audioMeleeWeaponSettings: audioAudioMetadata
----@field public quickAttackSettings audioMeleeAttackSettings
----@field public strongAttackSettings audioMeleeAttackSettings
----@field public weaponHandlingSettings audioWeaponHandlingSettings
+---@field quickAttackSettings audioMeleeAttackSettings
+---@field strongAttackSettings audioMeleeAttackSettings
+---@field weaponHandlingSettings audioWeaponHandlingSettings
 audioMeleeWeaponSettings = {}

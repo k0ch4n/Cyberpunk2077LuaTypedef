@@ -1,37 +1,31 @@
 ---@meta
 
 ---@class WindowControllerPS: DoorControllerPS
----@field private windowSkillChecks EngDemoContainer
+---@field windowSkillChecks EngDemoContainer
 WindowControllerPS = {}
 
 ---@param fields? WindowControllerPS
 ---@return WindowControllerPS
-function WindowControllerPS.new(fields) return end
+function WindowControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function WindowControllerPS:OnInstantiated() return end
+function WindowControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function WindowControllerPS:GameAttached() return end
+function WindowControllerPS:GameAttached() end
 
----@protected
 ---@return TweakDBID
-function WindowControllerPS:GetBackgroundTextureTweakDBID() return end
+function WindowControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return String
-function WindowControllerPS:GetDeviceIconPath() return end
+function WindowControllerPS:GetDeviceIconPath() end
 
----@protected
 ---@return TweakDBID
-function WindowControllerPS:GetDeviceIconTweakDBID() return end
+function WindowControllerPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@return BaseSkillCheckContainer
-function WindowControllerPS:GetSkillCheckContainerForSetup() return end
+function WindowControllerPS:GetSkillCheckContainerForSetup() end
 
----@protected
 ---@param evt ActionDemolition
 ---@return EntityNotificationType
-function WindowControllerPS:OnActionDemolition(evt) return end
+function WindowControllerPS:OnActionDemolition(evt) end

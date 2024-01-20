@@ -5,4 +5,4 @@ gameEffectData_PiercePreview = {}
 
 ---@param fields? gameEffectData_PiercePreview
 ---@return gameEffectData_PiercePreview
-function gameEffectData_PiercePreview.new(fields) return end
+function gameEffectData_PiercePreview.new(fields) end

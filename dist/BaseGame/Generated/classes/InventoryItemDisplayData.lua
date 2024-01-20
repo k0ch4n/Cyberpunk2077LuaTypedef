@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class InventoryItemDisplayData
----@field public itemID gameItemID
----@field public equipmentArea gamedataEquipmentArea
----@field public slotIndex Int32
+---@field itemID gameItemID
+---@field equipmentArea gamedataEquipmentArea
+---@field slotIndex Int32
 InventoryItemDisplayData = {}
 
 ---@param fields? InventoryItemDisplayData
 ---@return InventoryItemDisplayData
-function InventoryItemDisplayData.new(fields) return end
+function InventoryItemDisplayData.new(fields) end

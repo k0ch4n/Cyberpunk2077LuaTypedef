@@ -5,4 +5,4 @@ QuestObjectiveHoverOutEvent = {}
 
 ---@param fields? QuestObjectiveHoverOutEvent
 ---@return QuestObjectiveHoverOutEvent
-function QuestObjectiveHoverOutEvent.new(fields) return end
+function QuestObjectiveHoverOutEvent.new(fields) end

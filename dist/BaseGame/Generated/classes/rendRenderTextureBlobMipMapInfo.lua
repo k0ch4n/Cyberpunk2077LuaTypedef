@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendRenderTextureBlobMipMapInfo
----@field public layout rendRenderTextureBlobMemoryLayout
----@field public placement rendRenderTextureBlobPlacement
+---@field layout rendRenderTextureBlobMemoryLayout
+---@field placement rendRenderTextureBlobPlacement
 rendRenderTextureBlobMipMapInfo = {}
 
 ---@param fields? rendRenderTextureBlobMipMapInfo
 ---@return rendRenderTextureBlobMipMapInfo
-function rendRenderTextureBlobMipMapInfo.new(fields) return end
+function rendRenderTextureBlobMipMapInfo.new(fields) end

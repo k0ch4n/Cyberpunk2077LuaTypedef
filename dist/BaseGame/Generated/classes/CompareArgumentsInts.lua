@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CompareArgumentsInts: CompareArguments
----@field public comparator ECompareOp
+---@field comparator ECompareOp
 CompareArgumentsInts = {}
 
 ---@param fields? CompareArgumentsInts
 ---@return CompareArgumentsInts
-function CompareArgumentsInts.new(fields) return end
+function CompareArgumentsInts.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CompareArgumentsInts:Check(context) return end
+function CompareArgumentsInts:Check(context) end

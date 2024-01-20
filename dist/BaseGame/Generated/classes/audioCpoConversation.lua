@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioCpoConversation: audioAudioMetadata
----@field public characterOne audioVoCpoCharacter
----@field public characterTwo audioVoCpoCharacter
----@field public voTriggers CName[]
+---@field characterOne audioVoCpoCharacter
+---@field characterTwo audioVoCpoCharacter
+---@field voTriggers CName[]
 audioCpoConversation = {}
 
 ---@param fields? audioCpoConversation
 ---@return audioCpoConversation
-function audioCpoConversation.new(fields) return end
+function audioCpoConversation.new(fields) end

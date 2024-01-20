@@ -5,4 +5,4 @@ inkRuntimeStylePropertyReference = {}
 
 ---@param fields? inkRuntimeStylePropertyReference
 ---@return inkRuntimeStylePropertyReference
-function inkRuntimeStylePropertyReference.new(fields) return end
+function inkRuntimeStylePropertyReference.new(fields) end

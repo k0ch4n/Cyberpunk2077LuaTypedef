@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class JuggernautEffector: gameContinuousEffector
----@field public modifiersAdded Bool
----@field public poolSystem gameStatPoolsSystem
----@field public statusEffectSystem gameStatusEffectSystem
+---@field modifiersAdded Bool
+---@field poolSystem gameStatPoolsSystem
+---@field statusEffectSystem gameStatusEffectSystem
 JuggernautEffector = {}
 
 ---@param fields? JuggernautEffector
 ---@return JuggernautEffector
-function JuggernautEffector.new(fields) return end
+function JuggernautEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function JuggernautEffector:ContinuousAction(owner, instigator) return end
+function JuggernautEffector:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function JuggernautEffector:Initialize(record, parentRecord) return end
+function JuggernautEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function JuggernautEffector:ProcessAction(owner) return end
+function JuggernautEffector:ProcessAction(owner) end

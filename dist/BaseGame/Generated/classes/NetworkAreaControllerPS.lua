@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class NetworkAreaControllerPS: MasterControllerPS
----@field private isActive Bool
----@field private visualizerID Uint32
----@field private hudActivated Bool
----@field private currentlyAvailableCharges Int32
----@field private maxAvailableCharges Int32
+---@field isActive Bool
+---@field visualizerID Uint32
+---@field hudActivated Bool
+---@field currentlyAvailableCharges Int32
+---@field maxAvailableCharges Int32
 NetworkAreaControllerPS = {}
 
 ---@param fields? NetworkAreaControllerPS
 ---@return NetworkAreaControllerPS
-function NetworkAreaControllerPS.new(fields) return end
-
----@private
----@return nil
-function NetworkAreaControllerPS:Activate() return end
+function NetworkAreaControllerPS.new(fields) end
 
 ---@return nil
-function NetworkAreaControllerPS:AreaEntered() return end
+function NetworkAreaControllerPS:Activate() end
 
 ---@return nil
-function NetworkAreaControllerPS:AreaExited() return end
+function NetworkAreaControllerPS:AreaEntered() end
 
----@private
 ---@return nil
-function NetworkAreaControllerPS:Deactivate() return end
+function NetworkAreaControllerPS:AreaExited() end
 
----@private
 ---@return nil
-function NetworkAreaControllerPS:HideResourceOnHUD() return end
+function NetworkAreaControllerPS:Deactivate() end
 
----@protected
 ---@return nil
-function NetworkAreaControllerPS:Initialize() return end
+function NetworkAreaControllerPS:HideResourceOnHUD() end
+
+---@return nil
+function NetworkAreaControllerPS:Initialize() end
 
 ---@param evt NetworkAreaActivationEvent
 ---@return EntityNotificationType
-function NetworkAreaControllerPS:OnNetworkAreaActivation(evt) return end
+function NetworkAreaControllerPS:OnNetworkAreaActivation(evt) end
 
----@private
 ---@return nil
-function NetworkAreaControllerPS:UpdateNetrunnerHUD() return end
+function NetworkAreaControllerPS:UpdateNetrunnerHUD() end

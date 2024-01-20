@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiTutorialBracketShowEvent: redEvent
----@field public data gameTutorialBracketData
+---@field data gameTutorialBracketData
 gameuiTutorialBracketShowEvent = {}
 
 ---@param fields? gameuiTutorialBracketShowEvent
 ---@return gameuiTutorialBracketShowEvent
-function gameuiTutorialBracketShowEvent.new(fields) return end
+function gameuiTutorialBracketShowEvent.new(fields) end

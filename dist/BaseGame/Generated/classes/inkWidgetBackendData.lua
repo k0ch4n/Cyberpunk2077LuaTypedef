@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkWidgetBackendData: IBackendData
----@field public owner inkWidget
----@field public isHiddenInEditor Bool
----@field public isLocked Bool
----@field public boundLibraryItemName CName
+---@field owner inkWidget
+---@field isHiddenInEditor Bool
+---@field isLocked Bool
+---@field boundLibraryItemName CName
 inkWidgetBackendData = {}
 
 ---@param fields? inkWidgetBackendData
 ---@return inkWidgetBackendData
-function inkWidgetBackendData.new(fields) return end
+function inkWidgetBackendData.new(fields) end

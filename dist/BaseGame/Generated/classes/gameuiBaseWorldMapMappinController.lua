@@ -1,99 +1,86 @@
 ---@meta
 
 ---@class gameuiBaseWorldMapMappinController: gameuiInteractionMappinController
----@field public selected Bool
----@field public inZoomLevel Bool
----@field public inCustomFilter Bool
----@field public hasCustomFilter Bool
----@field public isFastTravelEnabled Bool
----@field public isVisibleInFilterAndZoom Bool
----@field public groupState gameuiMappinGroupState
----@field public collectionCount Uint8
----@field public groupContainerWidget inkWidgetReference
----@field public groupCountTextWidget inkTextWidgetReference
----@field private mappin gamemappinsIMappin
----@field private isCompletedPhase Bool
----@field private resetStateWhenUntracked Bool
----@field private isNewAnim inkanimProxy
----@field private fadeAnim inkanimProxy
----@field private selectAnim inkanimProxy
----@field private fadeInOutDelay Float
+---@field selected Bool
+---@field inZoomLevel Bool
+---@field inCustomFilter Bool
+---@field hasCustomFilter Bool
+---@field isFastTravelEnabled Bool
+---@field isVisibleInFilterAndZoom Bool
+---@field groupState gameuiMappinGroupState
+---@field collectionCount Uint8
+---@field groupContainerWidget inkWidgetReference
+---@field groupCountTextWidget inkTextWidgetReference
+---@field mappin gamemappinsIMappin
+---@field isCompletedPhase Bool
+---@field resetStateWhenUntracked Bool
+---@field isNewAnim inkanimProxy
+---@field fadeAnim inkanimProxy
+---@field selectAnim inkanimProxy
+---@field fadeInOutDelay Float
 gameuiBaseWorldMapMappinController = {}
 
 ---@param fields? gameuiBaseWorldMapMappinController
 ---@return gameuiBaseWorldMapMappinController
-function gameuiBaseWorldMapMappinController.new(fields) return end
+function gameuiBaseWorldMapMappinController.new(fields) end
 
 ---@return Bool
-function gameuiBaseWorldMapMappinController:IsCollection() return end
+function gameuiBaseWorldMapMappinController:IsCollection() end
 
 ---@return Bool
-function gameuiBaseWorldMapMappinController:IsGrouped() return end
+function gameuiBaseWorldMapMappinController:IsGrouped() end
 
 ---@return Bool
-function gameuiBaseWorldMapMappinController:IsInCollection() return end
-
----@protected
----@return Bool
-function gameuiBaseWorldMapMappinController:OnFiltersChanged() return end
-
----@protected
----@return Bool
-function gameuiBaseWorldMapMappinController:OnInitialize() return end
-
----@protected
----@return Bool
-function gameuiBaseWorldMapMappinController:OnIntro() return end
-
----@protected
----@return Bool
-function gameuiBaseWorldMapMappinController:OnUpdate() return end
+function gameuiBaseWorldMapMappinController:IsInCollection() end
 
 ---@return Bool
-function gameuiBaseWorldMapMappinController:CanSelectMappin() return end
+function gameuiBaseWorldMapMappinController:OnFiltersChanged() end
 
----@protected
+---@return Bool
+function gameuiBaseWorldMapMappinController:OnInitialize() end
+
+---@return Bool
+function gameuiBaseWorldMapMappinController:OnIntro() end
+
+---@return Bool
+function gameuiBaseWorldMapMappinController:OnUpdate() end
+
+---@return Bool
+function gameuiBaseWorldMapMappinController:CanSelectMappin() end
+
 ---@return CName
-function gameuiBaseWorldMapMappinController:ComputeRootState() return end
+function gameuiBaseWorldMapMappinController:ComputeRootState() end
 
----@private
 ---@return nil, Float opacity, Bool interactive
-function gameuiBaseWorldMapMappinController:GetDesiredOpacityAndInteractivity() return end
+function gameuiBaseWorldMapMappinController:GetDesiredOpacityAndInteractivity() end
 
 ---@return gamedataMappinVariant
-function gameuiBaseWorldMapMappinController:GetMappinVariant() return end
+function gameuiBaseWorldMapMappinController:GetMappinVariant() end
 
----@private
 ---@param opacity Float
 ---@return nil
-function gameuiBaseWorldMapMappinController:PlayFadeAnimation(opacity) return end
-
----@private
----@return nil
-function gameuiBaseWorldMapMappinController:PlayHideShowAnim() return end
+function gameuiBaseWorldMapMappinController:PlayFadeAnimation(opacity) end
 
 ---@return nil
-function gameuiBaseWorldMapMappinController:SelectMappin() return end
-
----@private
----@return nil
-function gameuiBaseWorldMapMappinController:StopFadeAnimation() return end
+function gameuiBaseWorldMapMappinController:PlayHideShowAnim() end
 
 ---@return nil
-function gameuiBaseWorldMapMappinController:UnselectMappin() return end
+function gameuiBaseWorldMapMappinController:SelectMappin() end
 
----@protected
 ---@return nil
-function gameuiBaseWorldMapMappinController:Update() return end
+function gameuiBaseWorldMapMappinController:StopFadeAnimation() end
 
----@protected
 ---@return nil
-function gameuiBaseWorldMapMappinController:UpdateIcon() return end
+function gameuiBaseWorldMapMappinController:UnselectMappin() end
 
----@protected
 ---@return nil
-function gameuiBaseWorldMapMappinController:UpdateIsNew() return end
+function gameuiBaseWorldMapMappinController:Update() end
 
----@protected
 ---@return nil
-function gameuiBaseWorldMapMappinController:UpdateVisibility() return end
+function gameuiBaseWorldMapMappinController:UpdateIcon() end
+
+---@return nil
+function gameuiBaseWorldMapMappinController:UpdateIsNew() end
+
+---@return nil
+function gameuiBaseWorldMapMappinController:UpdateVisibility() end

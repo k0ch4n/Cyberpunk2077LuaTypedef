@@ -5,10 +5,10 @@ gamedataShooterSpiderDrone_Record = {}
 
 ---@param fields? gamedataShooterSpiderDrone_Record
 ---@return gamedataShooterSpiderDrone_Record
-function gamedataShooterSpiderDrone_Record.new(fields) return end
+function gamedataShooterSpiderDrone_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterSpiderDrone_Record:AttackDistance() return end
+function gamedataShooterSpiderDrone_Record:AttackDistance() end
 
 ---@return Float
-function gamedataShooterSpiderDrone_Record:AttackSpeed() return end
+function gamedataShooterSpiderDrone_Record:AttackSpeed() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiEntityPreviewGameObject: gameObject
----@field public cameraSettings gameuiEntityPreviewCameraSettings
+---@field cameraSettings gameuiEntityPreviewCameraSettings
 gameuiEntityPreviewGameObject = {}
 
 ---@param fields? gameuiEntityPreviewGameObject
 ---@return gameuiEntityPreviewGameObject
-function gameuiEntityPreviewGameObject.new(fields) return end
+function gameuiEntityPreviewGameObject.new(fields) end

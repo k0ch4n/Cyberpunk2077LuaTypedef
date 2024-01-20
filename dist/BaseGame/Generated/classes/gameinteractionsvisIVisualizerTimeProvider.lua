@@ -4,7 +4,7 @@
 gameinteractionsvisIVisualizerTimeProvider = {}
 
 ---@return Float
-function gameinteractionsvisIVisualizerTimeProvider:GetCurrentProgress() return end
+function gameinteractionsvisIVisualizerTimeProvider:GetCurrentProgress() end
 
 ---@return Float
-function gameinteractionsvisIVisualizerTimeProvider:GetDuration() return end
+function gameinteractionsvisIVisualizerTimeProvider:GetDuration() end

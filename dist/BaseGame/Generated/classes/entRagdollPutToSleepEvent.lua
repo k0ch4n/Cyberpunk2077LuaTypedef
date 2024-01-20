@@ -5,4 +5,4 @@ entRagdollPutToSleepEvent = {}
 
 ---@param fields? entRagdollPutToSleepEvent
 ---@return entRagdollPutToSleepEvent
-function entRagdollPutToSleepEvent.new(fields) return end
+function entRagdollPutToSleepEvent.new(fields) end

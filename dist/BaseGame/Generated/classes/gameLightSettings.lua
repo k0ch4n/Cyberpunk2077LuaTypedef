@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameLightSettings
----@field public strength Float
----@field public intensity Float
----@field public radius Float
----@field public color Color
----@field public innerAngle Float
----@field public outerAngle Float
+---@field strength Float
+---@field intensity Float
+---@field radius Float
+---@field color Color
+---@field innerAngle Float
+---@field outerAngle Float
 gameLightSettings = {}
 
 ---@param fields? gameLightSettings
 ---@return gameLightSettings
-function gameLightSettings.new(fields) return end
+function gameLightSettings.new(fields) end

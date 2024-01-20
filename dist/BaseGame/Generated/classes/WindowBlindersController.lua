@@ -5,7 +5,7 @@ WindowBlindersController = {}
 
 ---@param fields? WindowBlindersController
 ---@return WindowBlindersController
-function WindowBlindersController.new(fields) return end
+function WindowBlindersController.new(fields) end
 
 ---@return WindowBlindersControllerPS
-function WindowBlindersController:GetPS() return end
+function WindowBlindersController:GetPS() end

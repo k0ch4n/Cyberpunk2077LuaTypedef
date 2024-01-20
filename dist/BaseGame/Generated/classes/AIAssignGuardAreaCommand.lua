@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIAssignGuardAreaCommand: AICommand
----@field public restrictMovementAreaRef NodeRef
+---@field restrictMovementAreaRef NodeRef
 AIAssignGuardAreaCommand = {}
 
 ---@param fields? AIAssignGuardAreaCommand
 ---@return AIAssignGuardAreaCommand
-function AIAssignGuardAreaCommand.new(fields) return end
+function AIAssignGuardAreaCommand.new(fields) end

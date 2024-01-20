@@ -1,35 +1,32 @@
 ---@meta
 
 ---@class MessageTooltip: AGenericTooltipController
----@field protected Title inkTextWidgetReference
----@field protected Description inkTextWidgetReference
----@field private animProxy inkanimProxy
+---@field Title inkTextWidgetReference
+---@field Description inkTextWidgetReference
+---@field animProxy inkanimProxy
 MessageTooltip = {}
 
 ---@param fields? MessageTooltip
 ---@return MessageTooltip
-function MessageTooltip.new(fields) return end
+function MessageTooltip.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function MessageTooltip:OnIntroComplete(proxy) return end
+function MessageTooltip:OnIntroComplete(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function MessageTooltip:OnOutroComplete(proxy) return end
+function MessageTooltip:OnOutroComplete(proxy) end
 
----@private
 ---@param animName CName|string
 ---@param callback CName|string
 ---@param forceVisible? Bool
 ---@return nil
-function MessageTooltip:PlayAnim(animName, callback, forceVisible) return end
+function MessageTooltip:PlayAnim(animName, callback, forceVisible) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function MessageTooltip:SetData(tooltipData) return end
+function MessageTooltip:SetData(tooltipData) end
 
 ---@return nil
-function MessageTooltip:Show() return end
+function MessageTooltip:Show() end

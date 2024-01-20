@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class AssignHotkeyIfEmptySlot: gamePlayerScriptableSystemRequest
----@field private itemID gameItemID
+---@field itemID gameItemID
 AssignHotkeyIfEmptySlot = {}
 
 ---@param fields? AssignHotkeyIfEmptySlot
 ---@return AssignHotkeyIfEmptySlot
-function AssignHotkeyIfEmptySlot.new(fields) return end
+function AssignHotkeyIfEmptySlot.new(fields) end
 
 ---@param itemID gameItemID
 ---@param owner gameObject
 ---@return AssignHotkeyIfEmptySlot
-function AssignHotkeyIfEmptySlot.Construct(itemID, owner) return end
+function AssignHotkeyIfEmptySlot.Construct(itemID, owner) end
 
 ---@return Bool
-function AssignHotkeyIfEmptySlot:IsValid() return end
+function AssignHotkeyIfEmptySlot:IsValid() end
 
 ---@return gameItemID
-function AssignHotkeyIfEmptySlot:ItemID() return end
+function AssignHotkeyIfEmptySlot:ItemID() end
 
 ---@return gameObject
-function AssignHotkeyIfEmptySlot:Owner() return end
+function AssignHotkeyIfEmptySlot:Owner() end

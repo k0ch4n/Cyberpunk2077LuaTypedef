@@ -1,399 +1,327 @@
 ---@meta
 
 ---@class GameplayRoleComponent: gameScriptableComponent
----@field private gameplayRole EGameplayRole
----@field private autoDeterminGameplayRole Bool
----@field private mappinsDisplayMode EMappinDisplayMode
----@field private displayAllRolesAsGeneric Bool
----@field private alwaysCreateMappinAsDynamic Bool
----@field private forcedMappinVisualState EMappinVisualState
----@field private mappins SDeviceMappinData[]
----@field private offsetValue Float
----@field private isBeingScanned Bool
----@field private isCurrentTarget Bool
----@field private isShowingMappins Bool
----@field private canShowMappinsByTask Bool
----@field private canHideMappinsByTask Bool
----@field private isHighlightedInFocusMode Bool
----@field private currentGameplayRole EGameplayRole
----@field private isGameplayRoleInitialized Bool
----@field private isForceHidden Bool
----@field private isForcedVisibleThroughWalls Bool
----@field private enabledMinimapMappins gamedataMappinVariant[]
+---@field gameplayRole EGameplayRole
+---@field autoDeterminGameplayRole Bool
+---@field mappinsDisplayMode EMappinDisplayMode
+---@field displayAllRolesAsGeneric Bool
+---@field alwaysCreateMappinAsDynamic Bool
+---@field forcedMappinVisualState EMappinVisualState
+---@field mappins SDeviceMappinData[]
+---@field offsetValue Float
+---@field isBeingScanned Bool
+---@field isCurrentTarget Bool
+---@field isShowingMappins Bool
+---@field canShowMappinsByTask Bool
+---@field canHideMappinsByTask Bool
+---@field isHighlightedInFocusMode Bool
+---@field currentGameplayRole EGameplayRole
+---@field isGameplayRoleInitialized Bool
+---@field isForceHidden Bool
+---@field isForcedVisibleThroughWalls Bool
+---@field enabledMinimapMappins gamedataMappinVariant[]
 GameplayRoleComponent = {}
 
 ---@param fields? GameplayRoleComponent
 ---@return GameplayRoleComponent
-function GameplayRoleComponent.new(fields) return end
+function GameplayRoleComponent.new(fields) end
 
----@protected
 ---@param evt DeactivateQuickHackIndicatorEvent
 ---@return Bool
-function GameplayRoleComponent:OnDeactivateQuickHackIndicator(evt) return end
+function GameplayRoleComponent:OnDeactivateQuickHackIndicator(evt) end
 
----@protected
 ---@param evt EvaluateMappinsVisualStateEvent
 ---@return Bool
-function GameplayRoleComponent:OnEvaluateMappinVisualStateEvent(evt) return end
+function GameplayRoleComponent:OnEvaluateMappinVisualStateEvent(evt) end
 
----@protected
 ---@param evt HUDInstruction
 ---@return Bool
-function GameplayRoleComponent:OnHUDInstruction(evt) return end
+function GameplayRoleComponent:OnHUDInstruction(evt) end
 
----@protected
 ---@param evt HideSingleMappinEvent
 ---@return Bool
-function GameplayRoleComponent:OnHideSingleMappin(evt) return end
+function GameplayRoleComponent:OnHideSingleMappin(evt) end
 
----@protected
 ---@param evt SetLogicReadyEvent
 ---@return Bool
-function GameplayRoleComponent:OnLogicReady(evt) return end
+function GameplayRoleComponent:OnLogicReady(evt) end
 
----@protected
 ---@param evt LookedAtEvent
 ---@return Bool
-function GameplayRoleComponent:OnLookedAtEvent(evt) return end
+function GameplayRoleComponent:OnLookedAtEvent(evt) end
 
----@protected
 ---@param evt PerformedAction
 ---@return Bool
-function GameplayRoleComponent:OnPerformedAction(evt) return end
+function GameplayRoleComponent:OnPerformedAction(evt) end
 
----@protected
 ---@param evt entPostInitializeEvent
 ---@return Bool
-function GameplayRoleComponent:OnPostInitialize(evt) return end
+function GameplayRoleComponent:OnPostInitialize(evt) end
 
----@protected
 ---@param evt entPreUninitializeEvent
 ---@return Bool
-function GameplayRoleComponent:OnPreUninitialize(evt) return end
+function GameplayRoleComponent:OnPreUninitialize(evt) end
 
----@protected
 ---@param evt EvaluateGameplayRoleEvent
 ---@return Bool
-function GameplayRoleComponent:OnReEvaluateGameplayRole(evt) return end
+function GameplayRoleComponent:OnReEvaluateGameplayRole(evt) end
 
----@protected
 ---@param evt gameScanningLookAtEvent
 ---@return Bool
-function GameplayRoleComponent:OnScanningLookedAt(evt) return end
+function GameplayRoleComponent:OnScanningLookedAt(evt) end
 
----@protected
 ---@param evt SetCurrentGameplayRoleEvent
 ---@return Bool
-function GameplayRoleComponent:OnSetCurrentGameplayRole(evt) return end
+function GameplayRoleComponent:OnSetCurrentGameplayRole(evt) end
 
----@protected
 ---@param evt SetGameplayRoleEvent
 ---@return Bool
-function GameplayRoleComponent:OnSetGameplayRole(evt) return end
+function GameplayRoleComponent:OnSetGameplayRole(evt) end
 
----@protected
 ---@param evt ShowSingleMappinEvent
 ---@return Bool
-function GameplayRoleComponent:OnShowSingleMappin(evt) return end
+function GameplayRoleComponent:OnShowSingleMappin(evt) end
 
----@protected
 ---@param evt ToggleGameplayMappinVisibilityEvent
 ---@return Bool
-function GameplayRoleComponent:OnToggleGameplayMappinVisibilityEvent(evt) return end
+function GameplayRoleComponent:OnToggleGameplayMappinVisibilityEvent(evt) end
 
----@protected
 ---@param evt UnregisterAllMappinsEvent
 ---@return Bool
-function GameplayRoleComponent:OnUnregisterAllMappinsEvent(evt) return end
+function GameplayRoleComponent:OnUnregisterAllMappinsEvent(evt) end
 
----@protected
 ---@param evt UploadProgramProgressEvent
 ---@return Bool
-function GameplayRoleComponent:OnUploadProgressStateChanged(evt) return end
+function GameplayRoleComponent:OnUploadProgressStateChanged(evt) end
 
----@private
 ---@param visualData GameplayRoleMappinData
 ---@return nil
-function GameplayRoleComponent:ActivatePhoneCallIndicator(visualData) return end
+function GameplayRoleComponent:ActivatePhoneCallIndicator(visualData) end
 
----@private
 ---@param visualData GameplayRoleMappinData
 ---@return nil
-function GameplayRoleComponent:ActivateQuickHackDurationIndicator(visualData) return end
+function GameplayRoleComponent:ActivateQuickHackDurationIndicator(visualData) end
 
----@private
 ---@param visualData GameplayRoleMappinData
 ---@return nil
-function GameplayRoleComponent:ActivateQuickHackIndicator(visualData) return end
+function GameplayRoleComponent:ActivateQuickHackIndicator(visualData) end
 
----@private
 ---@param index Int32
 ---@return nil
-function GameplayRoleComponent:ActivateSingleMappin(index) return end
+function GameplayRoleComponent:ActivateSingleMappin(index) end
 
 ---@param data SDeviceMappinData
 ---@return Bool
-function GameplayRoleComponent:AddMappin(data) return end
+function GameplayRoleComponent:AddMappin(data) end
 
 ---@param visualData GameplayRoleMappinData
 ---@return nil
-function GameplayRoleComponent:AddQuickhackMappinToQueue(visualData) return end
+function GameplayRoleComponent:AddQuickhackMappinToQueue(visualData) end
 
----@private
 ---@return nil
-function GameplayRoleComponent:ClearAllRoleMappins() return end
+function GameplayRoleComponent:ClearAllRoleMappins() end
 
----@protected
 ---@return nil
-function GameplayRoleComponent:ClearAllRoleMappinsByTask() return end
+function GameplayRoleComponent:ClearAllRoleMappinsByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function GameplayRoleComponent:ClearAllRoleMappinsTask(data) return end
+function GameplayRoleComponent:ClearAllRoleMappinsTask(data) end
 
----@private
 ---@param data1 GameplayRoleMappinData
 ---@param data2 GameplayRoleMappinData
 ---@return Bool
-function GameplayRoleComponent:CompareRoleMappinsData(data1, data2) return end
+function GameplayRoleComponent:CompareRoleMappinsData(data1, data2) end
 
----@private
 ---@param data SDeviceMappinData
 ---@return GameplayRoleMappinData
-function GameplayRoleComponent:CreateRoleMappinData(data) return end
+function GameplayRoleComponent:CreateRoleMappinData(data) end
 
----@private
 ---@return nil
-function GameplayRoleComponent:DeactivatePhoneCallIndicator() return end
+function GameplayRoleComponent:DeactivatePhoneCallIndicator() end
 
----@private
 ---@return nil
-function GameplayRoleComponent:DeactivateQuickHackDurationIndicator() return end
+function GameplayRoleComponent:DeactivateQuickHackDurationIndicator() end
 
----@private
 ---@return nil
-function GameplayRoleComponent:DeactivateQuickHackIndicator() return end
+function GameplayRoleComponent:DeactivateQuickHackIndicator() end
 
----@private
 ---@param index Int32
 ---@return nil
-function GameplayRoleComponent:DeactivateSingleMappin(index) return end
+function GameplayRoleComponent:DeactivateSingleMappin(index) end
 
----@private
 ---@return nil
-function GameplayRoleComponent:DeterminGamplayRole() return end
+function GameplayRoleComponent:DeterminGamplayRole() end
 
----@private
 ---@return nil
-function GameplayRoleComponent:DeterminGamplayRoleByTask() return end
+function GameplayRoleComponent:DeterminGamplayRoleByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function GameplayRoleComponent:DeterminGamplayRoleTask(data) return end
+function GameplayRoleComponent:DeterminGamplayRoleTask(data) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@return nil
-function GameplayRoleComponent:EnableMappinVariantOnMinimap(mappinVariant) return end
+function GameplayRoleComponent:EnableMappinVariantOnMinimap(mappinVariant) end
 
----@private
 ---@return nil
-function GameplayRoleComponent:EvaluateMappins() return end
+function GameplayRoleComponent:EvaluateMappins() end
 
----@private
 ---@return nil
-function GameplayRoleComponent:EvaluatePositions() return end
+function GameplayRoleComponent:EvaluatePositions() end
 
 ---@return EGameplayRole
-function GameplayRoleComponent:GetCurrentGameplayRole() return end
+function GameplayRoleComponent:GetCurrentGameplayRole() end
 
----@private
 ---@param role EGameplayRole
 ---@return gamedataMappinVariant
-function GameplayRoleComponent:GetCurrentMappinVariant(role) return end
+function GameplayRoleComponent:GetCurrentMappinVariant(role) end
 
 ---@return EMappinVisualState
-function GameplayRoleComponent:GetForcedMappinVisualState() return end
+function GameplayRoleComponent:GetForcedMappinVisualState() end
 
----@private
 ---@param mappinVariant gamedataMappinVariant
 ---@return TweakDBID
-function GameplayRoleComponent:GetIconIdForMappinVariant(mappinVariant) return end
+function GameplayRoleComponent:GetIconIdForMappinVariant(mappinVariant) end
 
----@private
 ---@param role EGameplayRole
 ---@return SDeviceMappinData
-function GameplayRoleComponent:GetMappinDataForGamepleyRole(role) return end
+function GameplayRoleComponent:GetMappinDataForGamepleyRole(role) end
 
----@private
 ---@return gamemappinsMappinSystem
-function GameplayRoleComponent:GetMappinSystem() return end
+function GameplayRoleComponent:GetMappinSystem() end
 
----@private
 ---@return gamedataMappinVariant
-function GameplayRoleComponent:GetMinimalisticMappinVariant() return end
+function GameplayRoleComponent:GetMinimalisticMappinVariant() end
 
----@private
 ---@param currentAxis EAxisType
 ---@return EAxisType
-function GameplayRoleComponent:GetNextAxis(currentAxis) return end
+function GameplayRoleComponent:GetNextAxis(currentAxis) end
 
----@private
 ---@return gamedataMappinVariant
-function GameplayRoleComponent:GetPlaystyleMappinVariant() return end
+function GameplayRoleComponent:GetPlaystyleMappinVariant() end
 
----@private
 ---@return Int32
-function GameplayRoleComponent:GetQuickHackQueueSize() return end
+function GameplayRoleComponent:GetQuickHackQueueSize() end
 
----@private
 ---@param role EGameplayRole
 ---@return gamedataMappinVariant
-function GameplayRoleComponent:GetRoleMappinVariant(role) return end
+function GameplayRoleComponent:GetRoleMappinVariant(role) end
 
----@private
 ---@return gameuiGameSystemUI
-function GameplayRoleComponent:GetUISystem() return end
+function GameplayRoleComponent:GetUISystem() end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@return Bool
-function GameplayRoleComponent:HasActiveMappin(mappinVariant) return end
+function GameplayRoleComponent:HasActiveMappin(mappinVariant) end
 
----@private
 ---@param gameplayRole EGameplayRole
 ---@return Bool
-function GameplayRoleComponent:HasMappin(gameplayRole) return end
+function GameplayRoleComponent:HasMappin(gameplayRole) end
 
----@private
 ---@param data SDeviceMappinData
 ---@return Bool
-function GameplayRoleComponent:HasMappin(data) return end
+function GameplayRoleComponent:HasMappin(data) end
 
----@private
 ---@param mappinVariant gamedataMappinVariant
 ---@return Bool
-function GameplayRoleComponent:HasMappin(mappinVariant) return end
+function GameplayRoleComponent:HasMappin(mappinVariant) end
 
----@private
 ---@return Bool
-function GameplayRoleComponent:HasOffscreenArrow() return end
+function GameplayRoleComponent:HasOffscreenArrow() end
 
 ---@return nil
-function GameplayRoleComponent:HideRoleMappins() return end
+function GameplayRoleComponent:HideRoleMappins() end
 
----@protected
 ---@return nil
-function GameplayRoleComponent:HideRoleMappinsByTask() return end
+function GameplayRoleComponent:HideRoleMappinsByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function GameplayRoleComponent:HideRoleMappinsTask(data) return end
+function GameplayRoleComponent:HideRoleMappinsTask(data) end
 
----@private
 ---@param index Int32
 ---@return nil
-function GameplayRoleComponent:HideSingleMappin(index) return end
+function GameplayRoleComponent:HideSingleMappin(index) end
 
----@private
 ---@param index Int32
 ---@return nil
-function GameplayRoleComponent:HideSingleMappin_Event(index) return end
+function GameplayRoleComponent:HideSingleMappin_Event(index) end
 
----@private
 ---@return nil
-function GameplayRoleComponent:InitializeGamepleyRoleMappin() return end
+function GameplayRoleComponent:InitializeGamepleyRoleMappin() end
 
----@private
 ---@return nil
-function GameplayRoleComponent:InitializePhoneCallIndicator() return end
+function GameplayRoleComponent:InitializePhoneCallIndicator() end
 
----@private
 ---@return nil
-function GameplayRoleComponent:InitializeQuickHackIndicator() return end
-
----@private
----@return Bool
-function GameplayRoleComponent:IsCurrentTarget() return end
-
----@private
----@return Bool
-function GameplayRoleComponent:IsForceHidden() return end
+function GameplayRoleComponent:InitializeQuickHackIndicator() end
 
 ---@return Bool
-function GameplayRoleComponent:IsGameplayRoleStatic() return end
+function GameplayRoleComponent:IsCurrentTarget() end
 
----@private
 ---@return Bool
-function GameplayRoleComponent:IsHighlightedInFocusMode() return end
+function GameplayRoleComponent:IsForceHidden() end
 
----@private
+---@return Bool
+function GameplayRoleComponent:IsGameplayRoleStatic() end
+
+---@return Bool
+function GameplayRoleComponent:IsHighlightedInFocusMode() end
+
 ---@param mappinData SDeviceMappinData
 ---@return Bool
-function GameplayRoleComponent:IsMappinDataValid(mappinData) return end
+function GameplayRoleComponent:IsMappinDataValid(mappinData) end
 
----@private
 ---@return Bool
-function GameplayRoleComponent:IsMappinDynamic() return end
-
----@protected
----@return nil
-function GameplayRoleComponent:OnGameAttach() return end
-
----@protected
----@return nil
-function GameplayRoleComponent:OnGameDetach() return end
-
----@private
----@return nil
-function GameplayRoleComponent:ReEvaluateGameplayRole() return end
+function GameplayRoleComponent:IsMappinDynamic() end
 
 ---@return nil
-function GameplayRoleComponent:RemoveQuickhackMappinFromQueue() return end
+function GameplayRoleComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function GameplayRoleComponent:RequestHUDRefresh() return end
+function GameplayRoleComponent:OnGameDetach() end
 
----@private
+---@return nil
+function GameplayRoleComponent:ReEvaluateGameplayRole() end
+
+---@return nil
+function GameplayRoleComponent:RemoveQuickhackMappinFromQueue() end
+
+---@return nil
+function GameplayRoleComponent:RequestHUDRefresh() end
+
 ---@param role EGameplayRole
 ---@return nil
-function GameplayRoleComponent:SetCurrentGameplayRoleWithNotification(role) return end
+function GameplayRoleComponent:SetCurrentGameplayRoleWithNotification(role) end
 
----@private
 ---@param isHidden Bool
 ---@return nil
-function GameplayRoleComponent:SetForceHidden(isHidden) return end
+function GameplayRoleComponent:SetForceHidden(isHidden) end
 
 ---@return nil
-function GameplayRoleComponent:ShowRoleMappins() return end
+function GameplayRoleComponent:ShowRoleMappins() end
 
----@protected
 ---@return nil
-function GameplayRoleComponent:ShowRoleMappinsByTask() return end
+function GameplayRoleComponent:ShowRoleMappinsByTask() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function GameplayRoleComponent:ShowRoleMappinsTask(data) return end
+function GameplayRoleComponent:ShowRoleMappinsTask(data) end
 
----@private
 ---@param index Int32
 ---@return nil
-function GameplayRoleComponent:ShowSingleMappin(index) return end
+function GameplayRoleComponent:ShowSingleMappin(index) end
 
----@private
 ---@param index Int32
 ---@param visualData GameplayRoleMappinData
 ---@param bindPositionToSlotName? CName|string
 ---@return nil
-function GameplayRoleComponent:ShowSingleMappin(index, visualData, bindPositionToSlotName) return end
+function GameplayRoleComponent:ShowSingleMappin(index, visualData, bindPositionToSlotName) end
 
----@private
 ---@param index Int32
 ---@return nil
-function GameplayRoleComponent:ShowSingleMappin_Event(index) return end
+function GameplayRoleComponent:ShowSingleMappin_Event(index) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@param enable Bool
@@ -401,37 +329,35 @@ function GameplayRoleComponent:ShowSingleMappin_Event(index) return end
 ---@param visualData GameplayRoleMappinData
 ---@param bindPositionToSlotName? CName|string
 ---@return nil
-function GameplayRoleComponent:ToggleMappin(mappinVariant, enable, show, visualData, bindPositionToSlotName) return end
+function GameplayRoleComponent:ToggleMappin(mappinVariant, enable, show, visualData, bindPositionToSlotName) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@param enable Bool
 ---@param show Bool
 ---@return nil
-function GameplayRoleComponent:ToggleMappin(mappinVariant, enable, show) return end
+function GameplayRoleComponent:ToggleMappin(mappinVariant, enable, show) end
 
 ---@param mappinIndex Int32
 ---@param enable Bool
 ---@return nil
-function GameplayRoleComponent:ToggleMappin(mappinIndex, enable) return end
+function GameplayRoleComponent:ToggleMappin(mappinIndex, enable) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@param enable Bool
 ---@return nil
-function GameplayRoleComponent:ToggleMappin(mappinVariant, enable) return end
+function GameplayRoleComponent:ToggleMappin(mappinVariant, enable) end
 
 ---@return nil
-function GameplayRoleComponent:UnregisterAllMappins() return end
+function GameplayRoleComponent:UnregisterAllMappins() end
 
 ---@return nil
-function GameplayRoleComponent:UnregisterAllRoleMappins() return end
+function GameplayRoleComponent:UnregisterAllRoleMappins() end
 
----@protected
 ---@return nil
-function GameplayRoleComponent:UpdateDefaultHighlight() return end
+function GameplayRoleComponent:UpdateDefaultHighlight() end
 
----@private
 ---@param index Int32
 ---@param visualData GameplayRoleMappinData
 ---@param shouldUpdateVariant Bool
 ---@return nil
-function GameplayRoleComponent:UpdateSingleMappinData(index, visualData, shouldUpdateVariant) return end
+function GameplayRoleComponent:UpdateSingleMappinData(index, visualData, shouldUpdateVariant) end

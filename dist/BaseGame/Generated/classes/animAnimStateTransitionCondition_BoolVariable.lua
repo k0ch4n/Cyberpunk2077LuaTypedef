@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAnimStateTransitionCondition_BoolVariable: animIAnimStateTransitionCondition
----@field public variableName CName
----@field public compareValue Bool
+---@field variableName CName
+---@field compareValue Bool
 animAnimStateTransitionCondition_BoolVariable = {}
 
 ---@param fields? animAnimStateTransitionCondition_BoolVariable
 ---@return animAnimStateTransitionCondition_BoolVariable
-function animAnimStateTransitionCondition_BoolVariable.new(fields) return end
+function animAnimStateTransitionCondition_BoolVariable.new(fields) end

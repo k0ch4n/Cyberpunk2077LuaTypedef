@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckLastHitReaction: HitConditions
----@field public hitReactionToCheck animHitReactionType
+---@field hitReactionToCheck animHitReactionType
 CheckLastHitReaction = {}
 
 ---@param fields? CheckLastHitReaction
 ---@return CheckLastHitReaction
-function CheckLastHitReaction.new(fields) return end
+function CheckLastHitReaction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckLastHitReaction:Check(context) return end
+function CheckLastHitReaction:Check(context) end

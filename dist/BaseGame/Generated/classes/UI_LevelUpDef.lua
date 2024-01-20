@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class UI_LevelUpDef: gamebbScriptDefinition
----@field public level gamebbScriptID_Variant
+---@field level gamebbScriptID_Variant
 UI_LevelUpDef = {}
 
 ---@param fields? UI_LevelUpDef
 ---@return UI_LevelUpDef
-function UI_LevelUpDef.new(fields) return end
+function UI_LevelUpDef.new(fields) end
 
 ---@return Bool
-function UI_LevelUpDef:AutoCreateInSystem() return end
+function UI_LevelUpDef:AutoCreateInSystem() end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class CParticleSystem: resStreamedResource
----@field public visibleThroughWalls Bool
----@field public prewarmingTime Float
----@field public emitters CParticleEmitter[]
----@field public boundingBox Box
----@field public autoHideDistance Float
----@field public autoHideRange Float
----@field public lastLODFadeoutRange Float
----@field public renderingPlane ERenderingPlane
----@field public particleDamage ParticleDamage
+---@field visibleThroughWalls Bool
+---@field prewarmingTime Float
+---@field emitters CParticleEmitter[]
+---@field boundingBox Box
+---@field autoHideDistance Float
+---@field autoHideRange Float
+---@field lastLODFadeoutRange Float
+---@field renderingPlane ERenderingPlane
+---@field particleDamage ParticleDamage
 CParticleSystem = {}
 
 ---@param fields? CParticleSystem
 ---@return CParticleSystem
-function CParticleSystem.new(fields) return end
+function CParticleSystem.new(fields) end

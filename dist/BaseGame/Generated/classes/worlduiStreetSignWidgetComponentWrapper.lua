@@ -5,4 +5,4 @@ worlduiStreetSignWidgetComponentWrapper = {}
 
 ---@param fields? worlduiStreetSignWidgetComponentWrapper
 ---@return worlduiStreetSignWidgetComponentWrapper
-function worlduiStreetSignWidgetComponentWrapper.new(fields) return end
+function worlduiStreetSignWidgetComponentWrapper.new(fields) end

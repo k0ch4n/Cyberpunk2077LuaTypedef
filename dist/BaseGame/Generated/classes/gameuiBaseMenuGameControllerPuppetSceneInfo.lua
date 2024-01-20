@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameuiBaseMenuGameControllerPuppetSceneInfo
----@field public sceneName CName
----@field public markerRef NodeRef
----@field public prefabRef NodeRef
----@field public entityTemplate entEntityTemplate
----@field public puppetRecordId TweakDBID
----@field public gender gameuiBaseMenuGameControllerPuppetGenderInfo
+---@field sceneName CName
+---@field markerRef NodeRef
+---@field prefabRef NodeRef
+---@field entityTemplate entEntityTemplate
+---@field puppetRecordId TweakDBID
+---@field gender gameuiBaseMenuGameControllerPuppetGenderInfo
 gameuiBaseMenuGameControllerPuppetSceneInfo = {}
 
 ---@param fields? gameuiBaseMenuGameControllerPuppetSceneInfo
 ---@return gameuiBaseMenuGameControllerPuppetSceneInfo
-function gameuiBaseMenuGameControllerPuppetSceneInfo.new(fields) return end
+function gameuiBaseMenuGameControllerPuppetSceneInfo.new(fields) end

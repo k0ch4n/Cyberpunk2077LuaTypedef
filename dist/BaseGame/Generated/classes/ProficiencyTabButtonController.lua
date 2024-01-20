@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class ProficiencyTabButtonController: TabButtonController
----@field private bottom_bar inkWidgetReference
----@field private proxy inkanimProxy
----@field private isToggledState Bool
+---@field bottom_bar inkWidgetReference
+---@field proxy inkanimProxy
+---@field isToggledState Bool
 ProficiencyTabButtonController = {}
 
 ---@param fields? ProficiencyTabButtonController
 ---@return ProficiencyTabButtonController
-function ProficiencyTabButtonController.new(fields) return end
+function ProficiencyTabButtonController.new(fields) end
 
----@protected
 ---@return Bool
-function ProficiencyTabButtonController:OnInitialize() return end
+function ProficiencyTabButtonController:OnInitialize() end
 
----@protected
 ---@param controller inkToggleController
 ---@param isToggled Bool
 ---@return Bool
-function ProficiencyTabButtonController:OnToggleChanged(controller, isToggled) return end
+function ProficiencyTabButtonController:OnToggleChanged(controller, isToggled) end
 
----@protected
 ---@return Bool
-function ProficiencyTabButtonController:OnUninitialize() return end
+function ProficiencyTabButtonController:OnUninitialize() end

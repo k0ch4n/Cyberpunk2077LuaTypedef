@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorActionSlideToLocalPositionNodeDefinition: AIbehaviorActionSlideNodeDefinition
----@field public localOffset AIArgumentMapping
+---@field localOffset AIArgumentMapping
 AIbehaviorActionSlideToLocalPositionNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionSlideToLocalPositionNodeDefinition
 ---@return AIbehaviorActionSlideToLocalPositionNodeDefinition
-function AIbehaviorActionSlideToLocalPositionNodeDefinition.new(fields) return end
+function AIbehaviorActionSlideToLocalPositionNodeDefinition.new(fields) end

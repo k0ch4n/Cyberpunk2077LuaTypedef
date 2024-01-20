@@ -5,4 +5,4 @@ PlayerHostileThreatDetected = {}
 
 ---@param fields? PlayerHostileThreatDetected
 ---@return PlayerHostileThreatDetected
-function PlayerHostileThreatDetected.new(fields) return end
+function PlayerHostileThreatDetected.new(fields) end

@@ -1,35 +1,33 @@
 ---@meta
 
 ---@class DebugHubMenuLogicController: inkWidgetLogicController
----@field private selectorWidget inkWidget
----@field private selectorCtrl hubSelectorController
----@field private menusList CName[]
----@field private eventsList CName[]
----@field private defailtMenuName CName
+---@field selectorWidget inkWidget
+---@field selectorCtrl hubSelectorController
+---@field menusList CName[]
+---@field eventsList CName[]
+---@field defailtMenuName CName
 DebugHubMenuLogicController = {}
 
 ---@param fields? DebugHubMenuLogicController
 ---@return DebugHubMenuLogicController
-function DebugHubMenuLogicController.new(fields) return end
+function DebugHubMenuLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function DebugHubMenuLogicController:OnInitialize() return end
+function DebugHubMenuLogicController:OnInitialize() end
 
----@private
 ---@param menuLabel String
 ---@param eventName CName|string
 ---@param menuName CName|string
 ---@return nil
-function DebugHubMenuLogicController:AddMenuItem(menuLabel, eventName, menuName) return end
+function DebugHubMenuLogicController:AddMenuItem(menuLabel, eventName, menuName) end
 
 ---@param index Int32
 ---@return CName
-function DebugHubMenuLogicController:GetEventNameByIndex(index) return end
+function DebugHubMenuLogicController:GetEventNameByIndex(index) end
 
 ---@return hubSelectorController
-function DebugHubMenuLogicController:GetSelectorController() return end
+function DebugHubMenuLogicController:GetSelectorController() end
 
 ---@param defaultMenu CName|string
 ---@return nil
-function DebugHubMenuLogicController:SetDefaultMenu(defaultMenu) return end
+function DebugHubMenuLogicController:SetDefaultMenu(defaultMenu) end

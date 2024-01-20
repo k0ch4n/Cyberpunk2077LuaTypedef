@@ -5,32 +5,32 @@ GlitchScreen = {}
 
 ---@param fields? GlitchScreen
 ---@return GlitchScreen
-function GlitchScreen.new(fields) return end
+function GlitchScreen.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function GlitchScreen.IsAvailable(device) return end
+function GlitchScreen.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function GlitchScreen.IsClearanceValid(clearance) return end
+function GlitchScreen.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function GlitchScreen.IsDefaultConditionMet(device, context) return end
+function GlitchScreen.IsDefaultConditionMet(device, context) end
 
 ---@return TweakDBID
-function GlitchScreen:GetAttachedProgramTweakDBID() return end
+function GlitchScreen:GetAttachedProgramTweakDBID() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function GlitchScreen:GetInteractionIcon() return end
+function GlitchScreen:GetInteractionIcon() end
 
 ---@return String
-function GlitchScreen:GetTweakDBChoiceRecord() return end
+function GlitchScreen:GetTweakDBChoiceRecord() end
 
 ---@param isGlitching Bool
 ---@param actionID TweakDBID|string
 ---@param programID TweakDBID|string
 ---@return nil
-function GlitchScreen:SetProperties(isGlitching, actionID, programID) return end
+function GlitchScreen:SetProperties(isGlitching, actionID, programID) end

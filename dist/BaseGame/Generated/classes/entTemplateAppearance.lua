@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entTemplateAppearance
----@field public name CName
----@field public appearanceResource appearanceAppearanceResource
----@field public appearanceName CName
+---@field name CName
+---@field appearanceResource appearanceAppearanceResource
+---@field appearanceName CName
 entTemplateAppearance = {}
 
 ---@param fields? entTemplateAppearance
 ---@return entTemplateAppearance
-function entTemplateAppearance.new(fields) return end
+function entTemplateAppearance.new(fields) end

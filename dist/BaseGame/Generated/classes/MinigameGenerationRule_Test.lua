@@ -5,9 +5,8 @@ MinigameGenerationRule_Test = {}
 
 ---@param fields? MinigameGenerationRule_Test
 ---@return MinigameGenerationRule_Test
-function MinigameGenerationRule_Test.new(fields) return end
+function MinigameGenerationRule_Test.new(fields) end
 
----@protected
 ---@param size Uint32
 ---@return Bool, gameuiGridCell[][] grid
-function MinigameGenerationRule_Test:OnProcessRule(size) return end
+function MinigameGenerationRule_Test:OnProcessRule(size) end

@@ -5,4 +5,4 @@ inkSubtitlesLanguageOverride = {}
 
 ---@param fields? inkSubtitlesLanguageOverride
 ---@return inkSubtitlesLanguageOverride
-function inkSubtitlesLanguageOverride.new(fields) return end
+function inkSubtitlesLanguageOverride.new(fields) end

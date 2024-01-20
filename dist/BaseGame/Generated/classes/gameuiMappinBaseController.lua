@@ -1,101 +1,98 @@
 ---@meta
 
 ---@class gameuiMappinBaseController: inkWidgetLogicController
----@field public iconWidget inkImageWidgetReference
----@field public playerTrackedWidget inkWidgetReference
----@field public scaleWidget inkWidgetReference
----@field protected animPlayerTrackedWidget inkWidgetReference
----@field protected animPlayerAboveBelowWidget inkWidgetReference
----@field protected taggedWidgets inkWidgetReference[]
+---@field iconWidget inkImageWidgetReference
+---@field playerTrackedWidget inkWidgetReference
+---@field scaleWidget inkWidgetReference
+---@field animPlayerTrackedWidget inkWidgetReference
+---@field animPlayerAboveBelowWidget inkWidgetReference
+---@field taggedWidgets inkWidgetReference[]
 gameuiMappinBaseController = {}
 
 ---@return Float
-function gameuiMappinBaseController:GetDistanceToPlayer() return end
+function gameuiMappinBaseController:GetDistanceToPlayer() end
 
 ---@return gamemappinsIMappin
-function gameuiMappinBaseController:GetMappin() return end
+function gameuiMappinBaseController:GetMappin() end
 
 ---@return gamedataMappinUIRuntimeProfile_Record
-function gameuiMappinBaseController:GetProfile() return end
+function gameuiMappinBaseController:GetProfile() end
 
 ---@return gamemappinsVerticalPositioning
-function gameuiMappinBaseController:GetVerticalRelationToPlayer() return end
+function gameuiMappinBaseController:GetVerticalRelationToPlayer() end
 
 ---@return Bool
-function gameuiMappinBaseController:IsClamped() return end
+function gameuiMappinBaseController:IsClamped() end
 
 ---@return Bool
-function gameuiMappinBaseController:IsCustomPositionTracked() return end
+function gameuiMappinBaseController:IsCustomPositionTracked() end
 
 ---@return Bool
-function gameuiMappinBaseController:IsGPSPortal() return end
+function gameuiMappinBaseController:IsGPSPortal() end
 
 ---@return Bool
-function gameuiMappinBaseController:IsPlayerTracked() return end
+function gameuiMappinBaseController:IsPlayerTracked() end
 
 ---@return Bool
-function gameuiMappinBaseController:IsTracked() return end
+function gameuiMappinBaseController:IsTracked() end
 
 ---@param shouldClamp Bool
 ---@return nil
-function gameuiMappinBaseController:OverrideClamp(shouldClamp) return end
+function gameuiMappinBaseController:OverrideClamp(shouldClamp) end
 
 ---@param shouldClamp Bool
 ---@return nil
-function gameuiMappinBaseController:OverrideClampX(shouldClamp) return end
+function gameuiMappinBaseController:OverrideClampX(shouldClamp) end
 
 ---@param shouldClamp Bool
 ---@return nil
-function gameuiMappinBaseController:OverrideClampY(shouldClamp) return end
+function gameuiMappinBaseController:OverrideClampY(shouldClamp) end
 
 ---@param shouldScale Bool
 ---@return nil
-function gameuiMappinBaseController:OverrideScaleByDistance(shouldScale) return end
+function gameuiMappinBaseController:OverrideScaleByDistance(shouldScale) end
 
 ---@return nil
-function gameuiMappinBaseController:RequestForcedUpdate() return end
+function gameuiMappinBaseController:RequestForcedUpdate() end
 
 ---@param ignore Bool
 ---@return nil
-function gameuiMappinBaseController:SetIgnorePriority(ignore) return end
+function gameuiMappinBaseController:SetIgnorePriority(ignore) end
 
 ---@param projectToScreenSpace Bool
 ---@return nil
-function gameuiMappinBaseController:SetProjectToScreenSpace(projectToScreenSpace) return end
+function gameuiMappinBaseController:SetProjectToScreenSpace(projectToScreenSpace) end
 
 ---@param visible Bool
 ---@return nil
-function gameuiMappinBaseController:SetRootVisible(visible) return end
+function gameuiMappinBaseController:SetRootVisible(visible) end
 
 ---@return Bool
-function gameuiMappinBaseController:ShouldClamp() return end
+function gameuiMappinBaseController:ShouldClamp() end
 
 ---@return Bool
-function gameuiMappinBaseController:ShouldShowDisplayName() return end
+function gameuiMappinBaseController:ShouldShowDisplayName() end
 
 ---@return Bool
-function gameuiMappinBaseController:ShouldShowDistance() return end
+function gameuiMappinBaseController:ShouldShowDistance() end
 
----@protected
 ---@return CName
-function gameuiMappinBaseController:ComputeRootState() return end
+function gameuiMappinBaseController:ComputeRootState() end
 
 ---@return animationPlayer
-function gameuiMappinBaseController:GetAnimPlayer_AboveBelow() return end
+function gameuiMappinBaseController:GetAnimPlayer_AboveBelow() end
 
 ---@return animationPlayer
-function gameuiMappinBaseController:GetAnimPlayer_Tracked() return end
+function gameuiMappinBaseController:GetAnimPlayer_Tracked() end
 
 ---@return GameplayRoleMappinData
-function gameuiMappinBaseController:GetVisualData() return end
+function gameuiMappinBaseController:GetVisualData() end
 
 ---@return inkWidget
-function gameuiMappinBaseController:GetWidgetForNameplateSlot() return end
+function gameuiMappinBaseController:GetWidgetForNameplateSlot() end
 
----@protected
 ---@return nil
-function gameuiMappinBaseController:UpdateRootState() return end
+function gameuiMappinBaseController:UpdateRootState() end
 
----@protected
 ---@return nil
-function gameuiMappinBaseController:UpdateTrackedState() return end
+function gameuiMappinBaseController:UpdateTrackedState() end

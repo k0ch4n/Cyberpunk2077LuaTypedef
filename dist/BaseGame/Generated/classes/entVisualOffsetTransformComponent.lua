@@ -5,4 +5,4 @@ entVisualOffsetTransformComponent = {}
 
 ---@param fields? entVisualOffsetTransformComponent
 ---@return entVisualOffsetTransformComponent
-function entVisualOffsetTransformComponent.new(fields) return end
+function entVisualOffsetTransformComponent.new(fields) end

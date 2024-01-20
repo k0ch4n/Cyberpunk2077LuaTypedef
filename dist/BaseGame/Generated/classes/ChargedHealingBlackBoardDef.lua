@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ChargedHealingBlackBoardDef: gamebbScriptDefinition
----@field public currHealingItemCharge gamebbScriptID_Int32
----@field public rechargeGoingOn gamebbScriptID_Bool
+---@field currHealingItemCharge gamebbScriptID_Int32
+---@field rechargeGoingOn gamebbScriptID_Bool
 ChargedHealingBlackBoardDef = {}
 
 ---@param fields? ChargedHealingBlackBoardDef
 ---@return ChargedHealingBlackBoardDef
-function ChargedHealingBlackBoardDef.new(fields) return end
+function ChargedHealingBlackBoardDef.new(fields) end
 
 ---@return Bool
-function ChargedHealingBlackBoardDef:AutoCreateInSystem() return end
+function ChargedHealingBlackBoardDef:AutoCreateInSystem() end

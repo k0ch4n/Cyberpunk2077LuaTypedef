@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AddInvestigatorEvent: redEvent
----@field public investigator entEntityID
+---@field investigator entEntityID
 AddInvestigatorEvent = {}
 
 ---@param fields? AddInvestigatorEvent
 ---@return AddInvestigatorEvent
-function AddInvestigatorEvent.new(fields) return end
+function AddInvestigatorEvent.new(fields) end

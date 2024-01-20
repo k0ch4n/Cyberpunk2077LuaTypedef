@@ -5,4 +5,4 @@ gameuiCharacterCustomizationHairstyleController = {}
 
 ---@param fields? gameuiCharacterCustomizationHairstyleController
 ---@return gameuiCharacterCustomizationHairstyleController
-function gameuiCharacterCustomizationHairstyleController.new(fields) return end
+function gameuiCharacterCustomizationHairstyleController.new(fields) end

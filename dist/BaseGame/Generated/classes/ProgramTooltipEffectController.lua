@@ -5,8 +5,7 @@ ProgramTooltipEffectController = {}
 
 ---@param fields? ProgramTooltipEffectController
 ---@return ProgramTooltipEffectController
-function ProgramTooltipEffectController.new(fields) return end
+function ProgramTooltipEffectController.new(fields) end
 
----@private
 ---@return CName
-function ProgramTooltipEffectController:EntryWidgetToSpawn() return end
+function ProgramTooltipEffectController:EntryWidgetToSpawn() end

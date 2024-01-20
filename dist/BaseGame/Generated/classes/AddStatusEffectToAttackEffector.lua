@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class AddStatusEffectToAttackEffector: ModifyAttackEffector
----@field public isRandom Bool
----@field public applicationChanceMods gamedataStatModifier_Record[]
----@field public statusEffect SHitStatusEffect
----@field public stacks Float
+---@field isRandom Bool
+---@field applicationChanceMods gamedataStatModifier_Record[]
+---@field statusEffect SHitStatusEffect
+---@field stacks Float
 AddStatusEffectToAttackEffector = {}
 
 ---@param fields? AddStatusEffectToAttackEffector
 ---@return AddStatusEffectToAttackEffector
-function AddStatusEffectToAttackEffector.new(fields) return end
+function AddStatusEffectToAttackEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function AddStatusEffectToAttackEffector:Initialize(record, parentRecord) return end
+function AddStatusEffectToAttackEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AddStatusEffectToAttackEffector:RepeatedAction(owner) return end
+function AddStatusEffectToAttackEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function AddStatusEffectToAttackEffector:Uninitialize() return end
+function AddStatusEffectToAttackEffector:Uninitialize() end

@@ -5,16 +5,15 @@ SlideFallEvents = {}
 
 ---@param fields? SlideFallEvents
 ---@return SlideFallEvents
-function SlideFallEvents.new(fields) return end
+function SlideFallEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideFallEvents:OnEnter(stateContext, scriptInterface) return end
+function SlideFallEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SlideFallEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SlideFallEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

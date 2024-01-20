@@ -1,34 +1,31 @@
 ---@meta
 
 ---@class NPCInScenePrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 NPCInScenePrereq = {}
 
 ---@param fields? NPCInScenePrereq
 ---@return NPCInScenePrereq
-function NPCInScenePrereq.new(fields) return end
+function NPCInScenePrereq.new(fields) end
 
 ---@param isEntityInScene Bool
 ---@return Bool
-function NPCInScenePrereq:Evaluate(isEntityInScene) return end
+function NPCInScenePrereq:Evaluate(isEntityInScene) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCInScenePrereq:Initialize(recordID) return end
+function NPCInScenePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCInScenePrereq:IsFulfilled(context) return end
+function NPCInScenePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function NPCInScenePrereq:OnRegister(state, context) return end
+function NPCInScenePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCInScenePrereq:OnUnregister(state, context) return end
+function NPCInScenePrereq:OnUnregister(state, context) end

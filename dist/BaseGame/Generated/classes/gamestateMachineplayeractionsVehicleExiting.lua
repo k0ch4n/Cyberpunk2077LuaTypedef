@@ -5,4 +5,4 @@ gamestateMachineplayeractionsVehicleExiting = {}
 
 ---@param fields? gamestateMachineplayeractionsVehicleExiting
 ---@return gamestateMachineplayeractionsVehicleExiting
-function gamestateMachineplayeractionsVehicleExiting.new(fields) return end
+function gamestateMachineplayeractionsVehicleExiting.new(fields) end

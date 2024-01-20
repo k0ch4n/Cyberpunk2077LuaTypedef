@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class questIStatsScriptConditionType: questIStatsConditionType
----@field public scriptCondition IScriptable
+---@field scriptCondition IScriptable
 questIStatsScriptConditionType = {}

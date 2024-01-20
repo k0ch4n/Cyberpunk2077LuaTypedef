@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SAreaEffectTargetData
----@field public areaEffectID CName
----@field public onSelf Bool
----@field public onSlaves Bool
+---@field areaEffectID CName
+---@field onSelf Bool
+---@field onSlaves Bool
 SAreaEffectTargetData = {}
 
 ---@param fields? SAreaEffectTargetData
 ---@return SAreaEffectTargetData
-function SAreaEffectTargetData.new(fields) return end
+function SAreaEffectTargetData.new(fields) end

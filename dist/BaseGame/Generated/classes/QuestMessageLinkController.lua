@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class QuestMessageLinkController: BaseCodexLinkController
----@field private contactEntry gameJournalContact
----@field private messageEntry gameJournalPhoneMessage
----@field private journalManager gameJournalManager
----@field private childEntry gameJournalEntry
----@field private conversation gameJournalPhoneConversation
----@field private phoneSystem PhoneSystem
+---@field contactEntry gameJournalContact
+---@field messageEntry gameJournalPhoneMessage
+---@field journalManager gameJournalManager
+---@field childEntry gameJournalEntry
+---@field conversation gameJournalPhoneConversation
+---@field phoneSystem PhoneSystem
 QuestMessageLinkController = {}
 
 ---@param fields? QuestMessageLinkController
 ---@return QuestMessageLinkController
-function QuestMessageLinkController.new(fields) return end
+function QuestMessageLinkController.new(fields) end
 
----@protected
 ---@param e ActivateLink
 ---@return Bool
-function QuestMessageLinkController:OnActivateLink(e) return end
+function QuestMessageLinkController:OnActivateLink(e) end
 
----@private
 ---@return nil
-function QuestMessageLinkController:Activate() return end
+function QuestMessageLinkController:Activate() end
 
----@private
 ---@return nil
-function QuestMessageLinkController:CloseHubMenu() return end
+function QuestMessageLinkController:CloseHubMenu() end
 
 ---@param childEntry gameJournalEntry
 ---@param journalManager gameJournalManager
 ---@param phoneSystem PhoneSystem
 ---@return nil
-function QuestMessageLinkController:Setup(childEntry, journalManager, phoneSystem) return end
+function QuestMessageLinkController:Setup(childEntry, journalManager, phoneSystem) end
 
----@private
 ---@return nil
-function QuestMessageLinkController:ShowSmsMessenger() return end
+function QuestMessageLinkController:ShowSmsMessenger() end

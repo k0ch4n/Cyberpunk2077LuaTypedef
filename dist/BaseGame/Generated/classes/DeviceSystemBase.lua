@@ -3,11 +3,9 @@
 ---@class DeviceSystemBase: InteractiveMasterDevice
 DeviceSystemBase = {}
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DeviceSystemBase:OnTakeControl(ri) return end
+function DeviceSystemBase:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function DeviceSystemBase:AdjustInteractionComponent() return end
+function DeviceSystemBase:AdjustInteractionComponent() end

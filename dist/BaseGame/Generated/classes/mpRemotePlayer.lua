@@ -5,4 +5,4 @@ mpRemotePlayer = {}
 
 ---@param fields? mpRemotePlayer
 ---@return mpRemotePlayer
-function mpRemotePlayer.new(fields) return end
+function mpRemotePlayer.new(fields) end

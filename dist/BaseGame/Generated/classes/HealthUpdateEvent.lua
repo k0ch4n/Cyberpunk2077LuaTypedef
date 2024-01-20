@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class HealthUpdateEvent: redEvent
----@field public value Float
----@field public healthDifference Float
+---@field value Float
+---@field healthDifference Float
 HealthUpdateEvent = {}
 
 ---@param fields? HealthUpdateEvent
 ---@return HealthUpdateEvent
-function HealthUpdateEvent.new(fields) return end
+function HealthUpdateEvent.new(fields) end

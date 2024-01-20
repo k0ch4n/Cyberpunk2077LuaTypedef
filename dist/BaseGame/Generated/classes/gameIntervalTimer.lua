@@ -5,4 +5,4 @@ gameIntervalTimer = {}
 
 ---@param fields? gameIntervalTimer
 ---@return gameIntervalTimer
-function gameIntervalTimer.new(fields) return end
+function gameIntervalTimer.new(fields) end

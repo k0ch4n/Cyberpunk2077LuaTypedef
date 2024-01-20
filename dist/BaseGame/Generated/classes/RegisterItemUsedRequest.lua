@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RegisterItemUsedRequest: gameScriptableSystemRequest
----@field public itemUsed gameItemID
+---@field itemUsed gameItemID
 RegisterItemUsedRequest = {}
 
 ---@param fields? RegisterItemUsedRequest
 ---@return RegisterItemUsedRequest
-function RegisterItemUsedRequest.new(fields) return end
+function RegisterItemUsedRequest.new(fields) end

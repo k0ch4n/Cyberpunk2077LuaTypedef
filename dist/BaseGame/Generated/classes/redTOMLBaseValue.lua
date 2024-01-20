@@ -5,4 +5,4 @@ redTOMLBaseValue = {}
 
 ---@param fields? redTOMLBaseValue
 ---@return redTOMLBaseValue
-function redTOMLBaseValue.new(fields) return end
+function redTOMLBaseValue.new(fields) end

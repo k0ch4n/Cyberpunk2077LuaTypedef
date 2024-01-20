@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class effectTrackItemMotionBlurScale: effectTrackItem
----@field public scale effectEffectParameterEvaluatorFloat
+---@field scale effectEffectParameterEvaluatorFloat
 effectTrackItemMotionBlurScale = {}
 
 ---@param fields? effectTrackItemMotionBlurScale
 ---@return effectTrackItemMotionBlurScale
-function effectTrackItemMotionBlurScale.new(fields) return end
+function effectTrackItemMotionBlurScale.new(fields) end

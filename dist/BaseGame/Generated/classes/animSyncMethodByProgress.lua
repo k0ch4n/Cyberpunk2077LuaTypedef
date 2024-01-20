@@ -5,4 +5,4 @@ animSyncMethodByProgress = {}
 
 ---@param fields? animSyncMethodByProgress
 ---@return animSyncMethodByProgress
-function animSyncMethodByProgress.new(fields) return end
+function animSyncMethodByProgress.new(fields) end

@@ -5,13 +5,13 @@ gamedataUIIconCensorFlag_Record = {}
 
 ---@param fields? gamedataUIIconCensorFlag_Record
 ---@return gamedataUIIconCensorFlag_Record
-function gamedataUIIconCensorFlag_Record.new(fields) return end
+function gamedataUIIconCensorFlag_Record.new(fields) end
 
 ---@return String
-function gamedataUIIconCensorFlag_Record:EnumComment() return end
+function gamedataUIIconCensorFlag_Record:EnumComment() end
 
 ---@return CName
-function gamedataUIIconCensorFlag_Record:EnumName() return end
+function gamedataUIIconCensorFlag_Record:EnumName() end
 
 ---@return gamedataUIIconCensorFlag
-function gamedataUIIconCensorFlag_Record:Type() return end
+function gamedataUIIconCensorFlag_Record:Type() end

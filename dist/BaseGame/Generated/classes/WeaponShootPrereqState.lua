@@ -1,33 +1,30 @@
 ---@meta
 
 ---@class WeaponShootPrereqState: gamePrereqState
----@field public listenerWeaponInt redCallbackObject
----@field public listenerActiveWeaponVariant redCallbackObject
----@field public listenerOnShootVariant redCallbackObject
----@field public weaponObj gameweaponObject
----@field public owner gameObject
----@field public howManyAttacks Int32
----@field public remainingAttacks Int32
+---@field listenerWeaponInt redCallbackObject
+---@field listenerActiveWeaponVariant redCallbackObject
+---@field listenerOnShootVariant redCallbackObject
+---@field weaponObj gameweaponObject
+---@field owner gameObject
+---@field howManyAttacks Int32
+---@field remainingAttacks Int32
 WeaponShootPrereqState = {}
 
 ---@param fields? WeaponShootPrereqState
 ---@return WeaponShootPrereqState
-function WeaponShootPrereqState.new(fields) return end
+function WeaponShootPrereqState.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function WeaponShootPrereqState:OnInventoryChangeStateUpdate(value) return end
+function WeaponShootPrereqState:OnInventoryChangeStateUpdate(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function WeaponShootPrereqState:OnShoot(value) return end
+function WeaponShootPrereqState:OnShoot(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WeaponShootPrereqState:OnWeaponStateUpdate(value) return end
+function WeaponShootPrereqState:OnWeaponStateUpdate(value) end
 
 ---@return nil
-function WeaponShootPrereqState:CheckIfPlayerWeaponChanged() return end
+function WeaponShootPrereqState:CheckIfPlayerWeaponChanged() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimEvent_FootPhase: animAnimEvent
----@field public phase animEFootPhase
+---@field phase animEFootPhase
 animAnimEvent_FootPhase = {}
 
 ---@param fields? animAnimEvent_FootPhase
 ---@return animAnimEvent_FootPhase
-function animAnimEvent_FootPhase.new(fields) return end
+function animAnimEvent_FootPhase.new(fields) end

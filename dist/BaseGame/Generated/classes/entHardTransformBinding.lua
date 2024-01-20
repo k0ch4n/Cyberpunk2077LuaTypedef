@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entHardTransformBinding: entITransformBinding
----@field public slotName CName
+---@field slotName CName
 entHardTransformBinding = {}
 
 ---@param fields? entHardTransformBinding
 ---@return entHardTransformBinding
-function entHardTransformBinding.new(fields) return end
+function entHardTransformBinding.new(fields) end

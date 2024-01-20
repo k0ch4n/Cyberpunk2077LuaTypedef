@@ -1,74 +1,68 @@
 ---@meta
 
 ---@class DatatermDetailGameController: BaseBunkerComputerGameController
----@field public authFactsSet AuthorizationFactsSet
----@field public attemptedFactsSet AttemptedToStopFactsSet
----@field public systemStatusHeaderPannel inkWidgetReference
----@field public systemStatusLeftPannel inkWidgetReference
----@field public systemStatusRightPannel inkWidgetReference
----@field public loopAnimName CName
----@field public popup01Counter Int32
----@field public popup02Counter Int32
----@field public popup01LoopAnimName CName
----@field public popup02LoopAnimName CName
----@field public popup031LoopAnimName CName
----@field public popup032LoopAnimName CName
----@field public popup04LoopAnimName CName
----@field public popup05LoopAnimName CName
----@field public shutdownButton inkWidgetReference
----@field public transitionToMinigame inkWidgetReference
----@field public popup01LoopAnimProxy inkanimProxy
----@field public isAuthStep Bool
----@field public isHackingStep Bool
----@field public isPostHackingStep Bool
----@field public isOffline Bool
----@field public isAttemptedToStop Bool
+---@field authFactsSet AuthorizationFactsSet
+---@field attemptedFactsSet AttemptedToStopFactsSet
+---@field systemStatusHeaderPannel inkWidgetReference
+---@field systemStatusLeftPannel inkWidgetReference
+---@field systemStatusRightPannel inkWidgetReference
+---@field loopAnimName CName
+---@field popup01Counter Int32
+---@field popup02Counter Int32
+---@field popup01LoopAnimName CName
+---@field popup02LoopAnimName CName
+---@field popup031LoopAnimName CName
+---@field popup032LoopAnimName CName
+---@field popup04LoopAnimName CName
+---@field popup05LoopAnimName CName
+---@field shutdownButton inkWidgetReference
+---@field transitionToMinigame inkWidgetReference
+---@field popup01LoopAnimProxy inkanimProxy
+---@field isAuthStep Bool
+---@field isHackingStep Bool
+---@field isPostHackingStep Bool
+---@field isOffline Bool
+---@field isAttemptedToStop Bool
 DatatermDetailGameController = {}
 
 ---@param fields? DatatermDetailGameController
 ---@return DatatermDetailGameController
-function DatatermDetailGameController.new(fields) return end
+function DatatermDetailGameController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function DatatermDetailGameController:OnEndLoop(proxy) return end
+function DatatermDetailGameController:OnEndLoop(proxy) end
 
----@protected
 ---@return Bool
-function DatatermDetailGameController:OnInitialize() return end
+function DatatermDetailGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function DatatermDetailGameController:OnPopup02LoopAnimFinished(proxy) return end
+function DatatermDetailGameController:OnPopup02LoopAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function DatatermDetailGameController:OnPopup031LoopAnimFinished(proxy) return end
+function DatatermDetailGameController:OnPopup031LoopAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function DatatermDetailGameController:OnPopup032LoopAnimFinished(proxy) return end
+function DatatermDetailGameController:OnPopup032LoopAnimFinished(proxy) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DatatermDetailGameController:OnShutdownButtonClicked(e) return end
+function DatatermDetailGameController:OnShutdownButtonClicked(e) end
 
 ---@return nil
-function DatatermDetailGameController:ShowPopup02() return end
+function DatatermDetailGameController:ShowPopup02() end
 
 ---@return nil
-function DatatermDetailGameController:ShowPopup031() return end
+function DatatermDetailGameController:ShowPopup031() end
 
 ---@return nil
-function DatatermDetailGameController:ShowPopup032() return end
+function DatatermDetailGameController:ShowPopup032() end
 
 ---@return nil
-function DatatermDetailGameController:ShowPopup04() return end
+function DatatermDetailGameController:ShowPopup04() end
 
 ---@return nil
-function DatatermDetailGameController:ShowPopup05() return end
+function DatatermDetailGameController:ShowPopup05() end

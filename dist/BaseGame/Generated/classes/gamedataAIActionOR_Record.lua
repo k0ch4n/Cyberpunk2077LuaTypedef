@@ -5,22 +5,22 @@ gamedataAIActionOR_Record = {}
 
 ---@param fields? gamedataAIActionOR_Record
 ---@return gamedataAIActionOR_Record
-function gamedataAIActionOR_Record.new(fields) return end
+function gamedataAIActionOR_Record.new(fields) end
 
 ---@return Int32
-function gamedataAIActionOR_Record:GetORCount() return end
+function gamedataAIActionOR_Record:GetORCount() end
 
 ---@param index Int32
 ---@return gamedataAIActionSubCondition_Record
-function gamedataAIActionOR_Record:GetORItem(index) return end
+function gamedataAIActionOR_Record:GetORItem(index) end
 
 ---@param index Int32
 ---@return gamedataAIActionSubCondition_Record
-function gamedataAIActionOR_Record:GetORItemHandle(index) return end
+function gamedataAIActionOR_Record:GetORItemHandle(index) end
 
 ---@return nil, gamedataAIActionSubCondition_Record[] outList
-function gamedataAIActionOR_Record:OR() return end
+function gamedataAIActionOR_Record:OR() end
 
 ---@param item gamedataAIActionSubCondition_Record
 ---@return Bool
-function gamedataAIActionOR_Record:ORContains(item) return end
+function gamedataAIActionOR_Record:ORContains(item) end

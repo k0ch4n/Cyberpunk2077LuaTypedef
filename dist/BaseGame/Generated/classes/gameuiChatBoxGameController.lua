@@ -1,75 +1,65 @@
 ---@meta
 
 ---@class gameuiChatBoxGameController: gameuiHUDGameController
----@field private player gamePuppetBase
----@field private chatBoxBlackboardId redCallbackObject
----@field private chatBox inkWidgetReference
----@field private enteredText inkTextInputWidgetReference
----@field private chatBoxOpen Bool
----@field private recentChatsShown inkWidget[]
----@field private recentContainer inkVerticalPanelWidget
----@field private historyContainer inkVerticalPanelWidget
----@field private chatHistory gameuiChatBoxText[]
----@field private lastChatId Int32
----@field private maxChatsDisplayed Int32
----@field private maxChatHistory Int32
+---@field player gamePuppetBase
+---@field chatBoxBlackboardId redCallbackObject
+---@field chatBox inkWidgetReference
+---@field enteredText inkTextInputWidgetReference
+---@field chatBoxOpen Bool
+---@field recentChatsShown inkWidget[]
+---@field recentContainer inkVerticalPanelWidget
+---@field historyContainer inkVerticalPanelWidget
+---@field chatHistory gameuiChatBoxText[]
+---@field lastChatId Int32
+---@field maxChatsDisplayed Int32
+---@field maxChatHistory Int32
 gameuiChatBoxGameController = {}
 
 ---@param fields? gameuiChatBoxGameController
 ---@return gameuiChatBoxGameController
-function gameuiChatBoxGameController.new(fields) return end
+function gameuiChatBoxGameController.new(fields) end
 
 ---@param enteredText inkTextInputWidget
 ---@return nil
-function gameuiChatBoxGameController:SetMaxEnteredChars(enteredText) return end
+function gameuiChatBoxGameController:SetMaxEnteredChars(enteredText) end
 
 ---@param isChatBoxContext Bool
 ---@return nil
-function gameuiChatBoxGameController:UpdateInputContext(isChatBoxContext) return end
+function gameuiChatBoxGameController:UpdateInputContext(isChatBoxContext) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function gameuiChatBoxGameController:OnAction(action, consumer) return end
+function gameuiChatBoxGameController:OnAction(action, consumer) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiChatBoxGameController:OnChatAdded(value) return end
+function gameuiChatBoxGameController:OnChatAdded(value) end
 
----@protected
 ---@param chatItem inkWidget
 ---@return Bool
-function gameuiChatBoxGameController:OnHideRecentChat(chatItem) return end
+function gameuiChatBoxGameController:OnHideRecentChat(chatItem) end
 
----@protected
 ---@return Bool
-function gameuiChatBoxGameController:OnInitialize() return end
+function gameuiChatBoxGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function gameuiChatBoxGameController:OnUninitialize() return end
+function gameuiChatBoxGameController:OnUninitialize() end
 
----@private
 ---@param chatBoxText gameuiChatBoxText
 ---@return nil
-function gameuiChatBoxGameController:DisplayChat(chatBoxText) return end
+function gameuiChatBoxGameController:DisplayChat(chatBoxText) end
 
----@private
 ---@param chatBoxText gameuiChatBoxText
 ---@return nil
-function gameuiChatBoxGameController:DisplayHistory(chatBoxText) return end
+function gameuiChatBoxGameController:DisplayHistory(chatBoxText) end
 
----@private
 ---@return nil
-function gameuiChatBoxGameController:SendChat() return end
+function gameuiChatBoxGameController:SendChat() end
 
----@private
 ---@param show Bool
 ---@return nil
-function gameuiChatBoxGameController:ShowChatBox(show) return end
+function gameuiChatBoxGameController:ShowChatBox(show) end
 
----@private
 ---@return nil
-function gameuiChatBoxGameController:ShowHistory() return end
+function gameuiChatBoxGameController:ShowHistory() end

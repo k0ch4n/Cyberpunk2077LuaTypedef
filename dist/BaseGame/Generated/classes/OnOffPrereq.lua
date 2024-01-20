@@ -5,16 +5,14 @@ OnOffPrereq = {}
 
 ---@param fields? OnOffPrereq
 ---@return OnOffPrereq
-function OnOffPrereq.new(fields) return end
+function OnOffPrereq.new(fields) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function OnOffPrereq:OnApplied(state, context) return end
+function OnOffPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function OnOffPrereq:OnUnregister(state, context) return end
+function OnOffPrereq:OnUnregister(state, context) end

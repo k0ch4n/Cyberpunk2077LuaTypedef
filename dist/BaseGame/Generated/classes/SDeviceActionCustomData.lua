@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class SDeviceActionCustomData: SDeviceActionData
----@field public actionID CName
----@field public On Bool
----@field public Off Bool
----@field public Unpowered Bool
----@field public displayNameRecord TweakDBID
----@field public displayName String
----@field public customClearance Int32
----@field public isEnabled Bool
----@field public disableOnUse Bool
----@field public RestrictInCombat Bool
----@field public RestrictIfWanted Bool
----@field public RestrictDuringPhonecall Bool
----@field public factToEnableName CName
----@field public quickHackCost Int32
----@field public callbackID Uint32
+---@field actionID CName
+---@field On Bool
+---@field Off Bool
+---@field Unpowered Bool
+---@field displayNameRecord TweakDBID
+---@field displayName String
+---@field customClearance Int32
+---@field isEnabled Bool
+---@field disableOnUse Bool
+---@field RestrictInCombat Bool
+---@field RestrictIfWanted Bool
+---@field RestrictDuringPhonecall Bool
+---@field factToEnableName CName
+---@field quickHackCost Int32
+---@field callbackID Uint32
 SDeviceActionCustomData = {}
 
 ---@param fields? SDeviceActionCustomData
 ---@return SDeviceActionCustomData
-function SDeviceActionCustomData.new(fields) return end
+function SDeviceActionCustomData.new(fields) end
 
 ---@param self SDeviceActionCustomData
 ---@return String
-function SDeviceActionCustomData.GetCurrentDisplayName(self) return end
+function SDeviceActionCustomData.GetCurrentDisplayName(self) end

@@ -1,289 +1,238 @@
 ---@meta
 
 ---@class BaseSubtitlesGameController: gameuiProjectedHUDGameController
----@field protected lineMap subtitleLineMapEntry[]
----@field protected pendingShowLines CRUID[]
----@field protected pendingHideLines CRUID[]
----@field protected settings userSettingsUserSettings
----@field protected settingsListener SubtitlesSettingsListener
----@field protected groupPath CName
----@field private gameInstance ScriptGameInstance
----@field private uiBlackboard gameIBlackboard
----@field private bbCbShowDialogLine redCallbackObject
----@field private bbCbHideDialogLine redCallbackObject
----@field private bbCbHideDialogLineByData redCallbackObject
----@field private bbCbShowBackground redCallbackObject
----@field private showBackgroud Bool
----@field private isCreoleUnlocked Bool
----@field private isPlayerJohnny Bool
----@field private disabledBySettings Bool
----@field private forceForeignLines Bool
----@field private isRadioSubtitleEnabled Bool
----@field private backgroundOpacity Float
----@field private fontSize Int32
----@field private factlistenerId Uint32
+---@field lineMap subtitleLineMapEntry[]
+---@field pendingShowLines CRUID[]
+---@field pendingHideLines CRUID[]
+---@field settings userSettingsUserSettings
+---@field settingsListener SubtitlesSettingsListener
+---@field groupPath CName
+---@field gameInstance ScriptGameInstance
+---@field uiBlackboard gameIBlackboard
+---@field bbCbShowDialogLine redCallbackObject
+---@field bbCbHideDialogLine redCallbackObject
+---@field bbCbHideDialogLineByData redCallbackObject
+---@field bbCbShowBackground redCallbackObject
+---@field showBackgroud Bool
+---@field isCreoleUnlocked Bool
+---@field isPlayerJohnny Bool
+---@field disabledBySettings Bool
+---@field forceForeignLines Bool
+---@field isRadioSubtitleEnabled Bool
+---@field backgroundOpacity Float
+---@field fontSize Int32
+---@field factlistenerId Uint32
 BaseSubtitlesGameController = {}
 
 ---@param fields? BaseSubtitlesGameController
 ---@return BaseSubtitlesGameController
-function BaseSubtitlesGameController.new(fields) return end
+function BaseSubtitlesGameController.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function BaseSubtitlesGameController:OnCreoleFactChanged(value) return end
+function BaseSubtitlesGameController:OnCreoleFactChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BaseSubtitlesGameController:OnHideDialogLine(value) return end
+function BaseSubtitlesGameController:OnHideDialogLine(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BaseSubtitlesGameController:OnHideDialogLineByData(value) return end
+function BaseSubtitlesGameController:OnHideDialogLineByData(value) end
 
----@protected
 ---@return Bool
-function BaseSubtitlesGameController:OnInitialize() return end
+function BaseSubtitlesGameController:OnInitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function BaseSubtitlesGameController:OnLineSpawned(widget, userData) return end
+function BaseSubtitlesGameController:OnLineSpawned(widget, userData) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function BaseSubtitlesGameController:OnPlayerAttach(playerPuppet) return end
+function BaseSubtitlesGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function BaseSubtitlesGameController:OnShowBackground(value) return end
+function BaseSubtitlesGameController:OnShowBackground(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BaseSubtitlesGameController:OnShowDialogLine(value) return end
+function BaseSubtitlesGameController:OnShowDialogLine(value) end
 
----@protected
 ---@return Bool
-function BaseSubtitlesGameController:OnUninitialize() return end
+function BaseSubtitlesGameController:OnUninitialize() end
 
----@protected
 ---@param evt inkWorldAttachedEvt
 ---@return Bool
-function BaseSubtitlesGameController:OnWorldAttached(evt) return end
+function BaseSubtitlesGameController:OnWorldAttached(evt) end
 
----@protected
 ---@return nil
-function BaseSubtitlesGameController:CalculateVisibility() return end
+function BaseSubtitlesGameController:CalculateVisibility() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:Cleanup() return end
+function BaseSubtitlesGameController:Cleanup() end
 
----@protected
 ---@param lineSpawnData LineSpawnData
 ---@return nil
-function BaseSubtitlesGameController:CreateLine(lineSpawnData) return end
+function BaseSubtitlesGameController:CreateLine(lineSpawnData) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:DisableBySettings(value) return end
+function BaseSubtitlesGameController:DisableBySettings(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:EnableRadioSubtilesBySettings(value) return end
+function BaseSubtitlesGameController:EnableRadioSubtilesBySettings(value) end
 
----@private
 ---@param lineID CRUID
 ---@return BaseSubtitleLineLogicController
-function BaseSubtitlesGameController:FindLineController(lineID) return end
+function BaseSubtitlesGameController:FindLineController(lineID) end
 
----@private
 ---@param lineID CRUID
 ---@return inkWidget
-function BaseSubtitlesGameController:FindLineWidget(lineID) return end
+function BaseSubtitlesGameController:FindLineWidget(lineID) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:ForceForeignLinesBySettings(value) return end
+function BaseSubtitlesGameController:ForceForeignLinesBySettings(value) end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:ForceSettingsUpdate() return end
+function BaseSubtitlesGameController:ForceSettingsUpdate() end
 
----@protected
 ---@return ScriptGameInstance
-function BaseSubtitlesGameController:GetGame() return end
+function BaseSubtitlesGameController:GetGame() end
 
----@protected
 ---@return CName
-function BaseSubtitlesGameController:GetTextSizeSettigId() return end
+function BaseSubtitlesGameController:GetTextSizeSettigId() end
 
 ---@param linesToHide CRUID[]
 ---@return nil
-function BaseSubtitlesGameController:HideDialogLine(linesToHide) return end
+function BaseSubtitlesGameController:HideDialogLine(linesToHide) end
 
 ---@param linesToHide scnDialogLineData[]
 ---@return nil
-function BaseSubtitlesGameController:HideDialogLinesByData(linesToHide) return end
+function BaseSubtitlesGameController:HideDialogLinesByData(linesToHide) end
 
----@protected
 ---@param lineData scnDialogLineData
 ---@return Bool
-function BaseSubtitlesGameController:IsKiroshiEnabled(lineData) return end
+function BaseSubtitlesGameController:IsKiroshiEnabled(lineData) end
 
----@protected
 ---@param lineData scnDialogLineData
 ---@return Bool
-function BaseSubtitlesGameController:IsMainDialogLine(lineData) return end
+function BaseSubtitlesGameController:IsMainDialogLine(lineData) end
 
----@protected
 ---@param lineData subtitleLineMapEntry
 ---@return nil
-function BaseSubtitlesGameController:OnHideLine(lineData) return end
+function BaseSubtitlesGameController:OnHideLine(lineData) end
 
----@protected
 ---@param lineData subtitleLineMapEntry
 ---@return nil
-function BaseSubtitlesGameController:OnHideLineByData(lineData) return end
+function BaseSubtitlesGameController:OnHideLineByData(lineData) end
 
----@protected
 ---@param lineId CRUID
 ---@return nil
-function BaseSubtitlesGameController:OnRemovalFailure(lineId) return end
+function BaseSubtitlesGameController:OnRemovalFailure(lineId) end
 
----@protected
 ---@param controller BaseSubtitleLineLogicController
 ---@return nil
-function BaseSubtitlesGameController:OnSubCreated(controller) return end
+function BaseSubtitlesGameController:OnSubCreated(controller) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function BaseSubtitlesGameController:OnVarModified(groupPath, varName, varType, reason) return end
+function BaseSubtitlesGameController:OnVarModified(groupPath, varName, varType, reason) end
 
----@private
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:RegisterToDialogBlackboard(value) return end
+function BaseSubtitlesGameController:RegisterToDialogBlackboard(value) end
 
----@private
 ---@param lineID CRUID
 ---@return Bool
-function BaseSubtitlesGameController:RemoveLine(lineID) return end
+function BaseSubtitlesGameController:RemoveLine(lineID) end
 
----@private
 ---@param line scnDialogLineData
 ---@return Bool
-function BaseSubtitlesGameController:RemoveLineByData(line) return end
+function BaseSubtitlesGameController:RemoveLineByData(line) end
 
----@private
 ---@param currLine CRUID
 ---@return nil
-function BaseSubtitlesGameController:ResolveShowHidePendingLines(currLine) return end
+function BaseSubtitlesGameController:ResolveShowHidePendingLines(currLine) end
 
----@protected
 ---@param value Float
 ---@return nil
-function BaseSubtitlesGameController:SetBackgroundOpacitySettings(value) return end
+function BaseSubtitlesGameController:SetBackgroundOpacitySettings(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:SetChattersForeignLinesVisibilitySetting(value) return end
+function BaseSubtitlesGameController:SetChattersForeignLinesVisibilitySetting(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:SetChattersVisibilitySetting(value) return end
+function BaseSubtitlesGameController:SetChattersVisibilitySetting(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:SetRadioSubsVisibilitySetting(value) return end
+function BaseSubtitlesGameController:SetRadioSubsVisibilitySetting(value) end
 
----@protected
 ---@param value Int32
 ---@return nil
-function BaseSubtitlesGameController:SetSizeSettings(value) return end
+function BaseSubtitlesGameController:SetSizeSettings(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:SetSubsForeignLinesVisibilitySetting(value) return end
+function BaseSubtitlesGameController:SetSubsForeignLinesVisibilitySetting(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:SetSubsVisibilitySetting(value) return end
+function BaseSubtitlesGameController:SetSubsVisibilitySetting(value) end
 
----@protected
 ---@param lineWidget inkWidget
 ---@param lineSpawnData LineSpawnData
 ---@return nil
-function BaseSubtitlesGameController:SetupLine(lineWidget, lineSpawnData) return end
+function BaseSubtitlesGameController:SetupLine(lineWidget, lineSpawnData) end
 
----@protected
 ---@param lineData scnDialogLineData
 ---@return Bool
-function BaseSubtitlesGameController:ShouldDisplayLine(lineData) return end
+function BaseSubtitlesGameController:ShouldDisplayLine(lineData) end
 
 ---@param linesToShow scnDialogLineData[]
 ---@return nil
-function BaseSubtitlesGameController:ShowDialogLines(linesToShow) return end
+function BaseSubtitlesGameController:ShowDialogLines(linesToShow) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function BaseSubtitlesGameController:ShowKiroshiSettings(value) return end
+function BaseSubtitlesGameController:ShowKiroshiSettings(value) end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:ShowPendingSubtitles() return end
+function BaseSubtitlesGameController:ShowPendingSubtitles() end
 
----@private
 ---@param lineData scnDialogLineData
 ---@return nil
-function BaseSubtitlesGameController:SpawnDialogLine(lineData) return end
+function BaseSubtitlesGameController:SpawnDialogLine(lineData) end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:TryRemovePendingHideLines() return end
+function BaseSubtitlesGameController:TryRemovePendingHideLines() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:UpdateBackgroundOpacitySettings() return end
+function BaseSubtitlesGameController:UpdateBackgroundOpacitySettings() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:UpdateChattersForeignVisibilitySettings() return end
+function BaseSubtitlesGameController:UpdateChattersForeignVisibilitySettings() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:UpdateChattersVisibilitySetting() return end
+function BaseSubtitlesGameController:UpdateChattersVisibilitySetting() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:UpdateRadioSubsVisibilitySetting() return end
+function BaseSubtitlesGameController:UpdateRadioSubsVisibilitySetting() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:UpdateSizeSettings() return end
+function BaseSubtitlesGameController:UpdateSizeSettings() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:UpdateSubsForeignVisibilitySettings() return end
+function BaseSubtitlesGameController:UpdateSubsForeignVisibilitySettings() end
 
----@private
 ---@return nil
-function BaseSubtitlesGameController:UpdateSubsVisibilitySetting() return end
+function BaseSubtitlesGameController:UpdateSubsVisibilitySetting() end

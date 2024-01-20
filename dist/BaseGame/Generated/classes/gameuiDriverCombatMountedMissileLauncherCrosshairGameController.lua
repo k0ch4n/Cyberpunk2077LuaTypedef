@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class gameuiDriverCombatMountedMissileLauncherCrosshairGameController: gameuiCrosshairBaseGameController
----@field private lockingAnimationWidget inkWidgetReference
----@field private lockingAnimationProxy inkanimProxy
----@field private psmTrackedTargetChangedCallback redCallbackObject
----@field private currentTarget entIPlacedComponent
+---@field lockingAnimationWidget inkWidgetReference
+---@field lockingAnimationProxy inkanimProxy
+---@field psmTrackedTargetChangedCallback redCallbackObject
+---@field currentTarget entIPlacedComponent
 gameuiDriverCombatMountedMissileLauncherCrosshairGameController = {}
 
 ---@param fields? gameuiDriverCombatMountedMissileLauncherCrosshairGameController
 ---@return gameuiDriverCombatMountedMissileLauncherCrosshairGameController
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController.new(fields) return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnPSMTrackedTargetChanged(value) return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnPSMTrackedTargetChanged(value) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnPlayerAttach(player) return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnPlayerDetach(player) return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnPlayerDetach(player) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:GetIntroAnimation(firstEquip) return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:GetOutroAnimation() return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnState_Aim() return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:OnState_Aim() end
 
----@protected
 ---@param uiScreenResolution Vector2
 ---@return nil
-function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:UpdateLockingAnimationWidgetTranslation(uiScreenResolution) return end
+function gameuiDriverCombatMountedMissileLauncherCrosshairGameController:UpdateLockingAnimationWidgetTranslation(uiScreenResolution) end

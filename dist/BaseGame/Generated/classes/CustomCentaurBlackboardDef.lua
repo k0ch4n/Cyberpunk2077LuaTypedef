@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class CustomCentaurBlackboardDef: CustomBlackboardDef
----@field public ShieldState gamebbScriptID_Int32
----@field public WeakSpotHitTimeStamp gamebbScriptID_Float
----@field public ShieldTarget gamebbScriptID_EntityID
----@field public WoundedStateHPThreshold gamebbScriptID_Float
+---@field ShieldState gamebbScriptID_Int32
+---@field WeakSpotHitTimeStamp gamebbScriptID_Float
+---@field ShieldTarget gamebbScriptID_EntityID
+---@field WoundedStateHPThreshold gamebbScriptID_Float
 CustomCentaurBlackboardDef = {}
 
 ---@param fields? CustomCentaurBlackboardDef
 ---@return CustomCentaurBlackboardDef
-function CustomCentaurBlackboardDef.new(fields) return end
+function CustomCentaurBlackboardDef.new(fields) end
 
 ---@return Bool
-function CustomCentaurBlackboardDef:AutoCreateInSystem() return end
+function CustomCentaurBlackboardDef:AutoCreateInSystem() end

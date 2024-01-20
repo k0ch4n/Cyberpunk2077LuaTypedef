@@ -1,32 +1,32 @@
 ---@meta
 
 ---@class SoldItemsCache: IScriptable
----@field private cache SoldItem[]
+---@field cache SoldItem[]
 SoldItemsCache = {}
 
 ---@param fields? SoldItemsCache
 ---@return SoldItemsCache
-function SoldItemsCache.new(fields) return end
+function SoldItemsCache.new(fields) end
 
 ---@param itemID gameItemID
 ---@param quantity Int32
 ---@param piecePrice Int32
 ---@return nil
-function SoldItemsCache:AddItem(itemID, quantity, piecePrice) return end
+function SoldItemsCache:AddItem(itemID, quantity, piecePrice) end
 
 ---@param item SoldItem
 ---@return nil
-function SoldItemsCache:AddItem(item) return end
+function SoldItemsCache:AddItem(item) end
 
 ---@param itemID gameItemID
 ---@return SoldItem
-function SoldItemsCache:GetItem(itemID) return end
+function SoldItemsCache:GetItem(itemID) end
 
 ---@param itemID gameItemID
 ---@return Int32
-function SoldItemsCache:GetItemPrice(itemID) return end
+function SoldItemsCache:GetItemPrice(itemID) end
 
 ---@param itemID gameItemID
 ---@param quantity Int32
 ---@return nil
-function SoldItemsCache:RemoveItem(itemID, quantity) return end
+function SoldItemsCache:RemoveItem(itemID, quantity) end

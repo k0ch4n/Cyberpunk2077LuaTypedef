@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameWrappedEntIDArray
----@field public arr entEntityID[]
+---@field arr entEntityID[]
 gameWrappedEntIDArray = {}
 
 ---@param fields? gameWrappedEntIDArray
 ---@return gameWrappedEntIDArray
-function gameWrappedEntIDArray.new(fields) return end
+function gameWrappedEntIDArray.new(fields) end

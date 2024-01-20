@@ -5,29 +5,29 @@ gameuiIconsNameResolver = {}
 
 ---@param fields? gameuiIconsNameResolver
 ---@return gameuiIconsNameResolver
-function gameuiIconsNameResolver.new(fields) return end
+function gameuiIconsNameResolver.new(fields) end
 
 ---@return gameuiIconsNameResolver
-function gameuiIconsNameResolver.GetIconsNameResolver() return end
+function gameuiIconsNameResolver.GetIconsNameResolver() end
 
 ---@return Bool
-function gameuiIconsNameResolver:IsInDebugMode() return end
+function gameuiIconsNameResolver:IsInDebugMode() end
 
 ---@param tweak TweakDBID|string
 ---@return TweakDBID
-function gameuiIconsNameResolver:ResolveIconCensorship(tweak) return end
+function gameuiIconsNameResolver:ResolveIconCensorship(tweak) end
 
 ---@param tweak TweakDBID|string
 ---@param useMaleGender? Bool
 ---@return CName
-function gameuiIconsNameResolver:TranslateItemToIconName(tweak, useMaleGender) return end
+function gameuiIconsNameResolver:TranslateItemToIconName(tweak, useMaleGender) end
 
 ---@param tweak TweakDBID|string
 ---@param useMaleGender? Bool
 ---@return inkIconReference
-function gameuiIconsNameResolver:TranslateItemToIconRef(tweak, useMaleGender) return end
+function gameuiIconsNameResolver:TranslateItemToIconRef(tweak, useMaleGender) end
 
 ---@param tweak TweakDBID|string
 ---@param useMaleGender? Bool
 ---@return TweakDBID
-function gameuiIconsNameResolver:TranslateItemToIconTweak(tweak, useMaleGender) return end
+function gameuiIconsNameResolver:TranslateItemToIconTweak(tweak, useMaleGender) end

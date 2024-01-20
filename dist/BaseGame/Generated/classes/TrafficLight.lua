@@ -1,110 +1,89 @@
 ---@meta
 
 ---@class TrafficLight: Device
----@field protected lightState worldTrafficLightColor
----@field protected trafficLightMesh entPhysicalMeshComponent
----@field protected destroyedMesh entPhysicalMeshComponent
+---@field lightState worldTrafficLightColor
+---@field trafficLightMesh entPhysicalMeshComponent
+---@field destroyedMesh entPhysicalMeshComponent
 TrafficLight = {}
 
 ---@param fields? TrafficLight
 ---@return TrafficLight
-function TrafficLight.new(fields) return end
+function TrafficLight.new(fields) end
 
----@protected
 ---@param evt DelayEvent
 ---@return Bool
-function TrafficLight:OnDelayEvent(evt) return end
+function TrafficLight:OnDelayEvent(evt) end
 
----@protected
 ---@param evt MasterDeviceDestroyed
 ---@return Bool
-function TrafficLight:OnMasterDeviceDestroyed(evt) return end
+function TrafficLight:OnMasterDeviceDestroyed(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function TrafficLight:OnRequestComponents(ri) return end
+function TrafficLight:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function TrafficLight:OnTakeControl(ri) return end
+function TrafficLight:OnTakeControl(ri) end
 
----@protected
 ---@param evt worldTrafficLightChangeEvent
 ---@return Bool
-function TrafficLight:OnTrafficLightChangeEvent(evt) return end
+function TrafficLight:OnTrafficLightChangeEvent(evt) end
 
----@protected
 ---@return nil
-function TrafficLight:ActivateDevice() return end
+function TrafficLight:ActivateDevice() end
 
----@protected
 ---@return nil
-function TrafficLight:CommenceChangeToGreen() return end
+function TrafficLight:CommenceChangeToGreen() end
 
----@protected
 ---@return nil
-function TrafficLight:CommenceChangeToRed() return end
+function TrafficLight:CommenceChangeToRed() end
 
----@protected
 ---@param color worldTrafficLightColor
 ---@return nil
-function TrafficLight:CommenceLightChangeSequence(color) return end
+function TrafficLight:CommenceLightChangeSequence(color) end
 
----@protected
 ---@return nil
-function TrafficLight:CompleteLightChangeSequence() return end
+function TrafficLight:CompleteLightChangeSequence() end
 
----@protected
 ---@return nil
-function TrafficLight:DeactivateDevice() return end
+function TrafficLight:DeactivateDevice() end
 
----@protected
 ---@return nil
-function TrafficLight:DeactivateDeviceSilent() return end
+function TrafficLight:DeactivateDeviceSilent() end
 
 ---@return EGameplayRole
-function TrafficLight:DeterminGameplayRole() return end
+function TrafficLight:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function TrafficLight:DetermineLightsFixedState() return end
+function TrafficLight:DetermineLightsFixedState() end
 
----@private
 ---@return TrafficLightController
-function TrafficLight:GetController() return end
+function TrafficLight:GetController() end
 
 ---@return TrafficLightControllerPS
-function TrafficLight:GetDevicePS() return end
+function TrafficLight:GetDevicePS() end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function TrafficLight:HandleGreenLight(enable) return end
+function TrafficLight:HandleGreenLight(enable) end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function TrafficLight:HandleRedLight(enable) return end
+function TrafficLight:HandleRedLight(enable) end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function TrafficLight:HandleYellowLight(enable) return end
+function TrafficLight:HandleYellowLight(enable) end
 
----@protected
 ---@return nil
-function TrafficLight:ResolveGameplayState() return end
+function TrafficLight:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function TrafficLight:TurnOffDevice() return end
+function TrafficLight:TurnOffDevice() end
 
----@protected
 ---@return nil
-function TrafficLight:TurnOffLights() return end
+function TrafficLight:TurnOffLights() end
 
----@protected
 ---@return nil
-function TrafficLight:TurnOnDevice() return end
+function TrafficLight:TurnOnDevice() end

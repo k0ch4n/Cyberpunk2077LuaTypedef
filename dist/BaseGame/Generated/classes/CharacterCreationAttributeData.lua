@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class CharacterCreationAttributeData: IScriptable
----@field public label String
----@field public desc String
----@field public value Int32
----@field public attribute gamedataStatType
----@field public icon CName
----@field public maxValue Int32
----@field public minValue Int32
----@field public maxed Bool
----@field public atMinimum Bool
+---@field label String
+---@field desc String
+---@field value Int32
+---@field attribute gamedataStatType
+---@field icon CName
+---@field maxValue Int32
+---@field minValue Int32
+---@field maxed Bool
+---@field atMinimum Bool
 CharacterCreationAttributeData = {}
 
 ---@param fields? CharacterCreationAttributeData
 ---@return CharacterCreationAttributeData
-function CharacterCreationAttributeData.new(fields) return end
+function CharacterCreationAttributeData.new(fields) end
 
 ---@param val Bool
 ---@return nil
-function CharacterCreationAttributeData:SetAtMinimum(val) return end
+function CharacterCreationAttributeData:SetAtMinimum(val) end
 
 ---@param val Bool
 ---@return nil
-function CharacterCreationAttributeData:SetMaxed(val) return end
+function CharacterCreationAttributeData:SetMaxed(val) end
 
 ---@param val Int32
 ---@return nil
-function CharacterCreationAttributeData:SetValue(val) return end
+function CharacterCreationAttributeData:SetValue(val) end

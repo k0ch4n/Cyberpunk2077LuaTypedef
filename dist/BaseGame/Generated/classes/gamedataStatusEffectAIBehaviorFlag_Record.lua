@@ -5,13 +5,13 @@ gamedataStatusEffectAIBehaviorFlag_Record = {}
 
 ---@param fields? gamedataStatusEffectAIBehaviorFlag_Record
 ---@return gamedataStatusEffectAIBehaviorFlag_Record
-function gamedataStatusEffectAIBehaviorFlag_Record.new(fields) return end
+function gamedataStatusEffectAIBehaviorFlag_Record.new(fields) end
 
 ---@return String
-function gamedataStatusEffectAIBehaviorFlag_Record:EnumComment() return end
+function gamedataStatusEffectAIBehaviorFlag_Record:EnumComment() end
 
 ---@return CName
-function gamedataStatusEffectAIBehaviorFlag_Record:EnumName() return end
+function gamedataStatusEffectAIBehaviorFlag_Record:EnumName() end
 
 ---@return gamedataStatusEffectAIBehaviorFlag
-function gamedataStatusEffectAIBehaviorFlag_Record:Type() return end
+function gamedataStatusEffectAIBehaviorFlag_Record:Type() end

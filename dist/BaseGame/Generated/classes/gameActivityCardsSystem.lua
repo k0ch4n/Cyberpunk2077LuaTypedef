@@ -5,4 +5,4 @@ gameActivityCardsSystem = {}
 
 ---@param fields? gameActivityCardsSystem
 ---@return gameActivityCardsSystem
-function gameActivityCardsSystem.new(fields) return end
+function gameActivityCardsSystem.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimEvent_Effect: animAnimEvent
----@field public effectName CName
+---@field effectName CName
 animAnimEvent_Effect = {}
 
 ---@param fields? animAnimEvent_Effect
 ---@return animAnimEvent_Effect
-function animAnimEvent_Effect.new(fields) return end
+function animAnimEvent_Effect.new(fields) end

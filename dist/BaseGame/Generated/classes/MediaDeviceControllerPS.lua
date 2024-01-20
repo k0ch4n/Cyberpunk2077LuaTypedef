@@ -1,118 +1,109 @@
 ---@meta
 
 ---@class MediaDeviceControllerPS: ScriptableDeviceComponentPS
----@field protected previousStation Int32
----@field protected activeChannelName String
----@field protected dataInitialized Bool
----@field protected amountOfStations Int32
----@field protected activeStation Int32
+---@field previousStation Int32
+---@field activeChannelName String
+---@field dataInitialized Bool
+---@field amountOfStations Int32
+---@field activeStation Int32
 MediaDeviceControllerPS = {}
 
 ---@param fields? MediaDeviceControllerPS
 ---@return MediaDeviceControllerPS
-function MediaDeviceControllerPS.new(fields) return end
+function MediaDeviceControllerPS.new(fields) end
 
----@protected
 ---@return MediaDeviceStatus
-function MediaDeviceControllerPS:ActionMediaDeviceStatus() return end
+function MediaDeviceControllerPS:ActionMediaDeviceStatus() end
 
 ---@return NextStation
-function MediaDeviceControllerPS:ActionNextStation() return end
+function MediaDeviceControllerPS:ActionNextStation() end
 
 ---@return PreviousStation
-function MediaDeviceControllerPS:ActionPreviousStation() return end
+function MediaDeviceControllerPS:ActionPreviousStation() end
 
----@protected
 ---@return QuestDefaultStation
-function MediaDeviceControllerPS:ActionQuestDefaultStation() return end
+function MediaDeviceControllerPS:ActionQuestDefaultStation() end
 
----@protected
 ---@return QuestDisableInteraction
-function MediaDeviceControllerPS:ActionQuestDisableInteraction() return end
+function MediaDeviceControllerPS:ActionQuestDisableInteraction() end
 
----@protected
 ---@return QuestEnableInteraction
-function MediaDeviceControllerPS:ActionQuestEnableInteraction() return end
+function MediaDeviceControllerPS:ActionQuestEnableInteraction() end
 
----@protected
 ---@return QuestNextStation
-function MediaDeviceControllerPS:ActionQuestNextStation() return end
+function MediaDeviceControllerPS:ActionQuestNextStation() end
 
----@protected
 ---@return QuestPreviousStation
-function MediaDeviceControllerPS:ActionQuestPreviousStation() return end
+function MediaDeviceControllerPS:ActionQuestPreviousStation() end
 
----@protected
 ---@return QuestSetChannel
-function MediaDeviceControllerPS:ActionQuestSetChannel() return end
+function MediaDeviceControllerPS:ActionQuestSetChannel() end
 
----@protected
 ---@return ThumbnailUI
-function MediaDeviceControllerPS:ActionThumbnailUI() return end
+function MediaDeviceControllerPS:ActionThumbnailUI() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function MediaDeviceControllerPS:GetActions(context) return end
+function MediaDeviceControllerPS:GetActions(context) end
 
 ---@return Int32
-function MediaDeviceControllerPS:GetActiveStationIndex() return end
+function MediaDeviceControllerPS:GetActiveStationIndex() end
 
 ---@return String
-function MediaDeviceControllerPS:GetActiveStationName() return end
+function MediaDeviceControllerPS:GetActiveStationName() end
 
 ---@return MediaDeviceStatus
-function MediaDeviceControllerPS:GetDeviceStatusAction() return end
+function MediaDeviceControllerPS:GetDeviceStatusAction() end
 
 ---@return textTextParameterSet
-function MediaDeviceControllerPS:GetDeviceStatusTextData() return end
+function MediaDeviceControllerPS:GetDeviceStatusTextData() end
 
 ---@return Int32
-function MediaDeviceControllerPS:GetPreviousStationIndex() return end
+function MediaDeviceControllerPS:GetPreviousStationIndex() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function MediaDeviceControllerPS:GetQuestActionByName(actionName) return end
+function MediaDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function MediaDeviceControllerPS:GetQuestActions(context) return end
+function MediaDeviceControllerPS:GetQuestActions(context) end
 
----@private
 ---@return nil
-function MediaDeviceControllerPS:GetQuickHackDistractionActions() return end
+function MediaDeviceControllerPS:GetQuickHackDistractionActions() end
 
 ---@param evt NextStation
 ---@return EntityNotificationType
-function MediaDeviceControllerPS:OnNextStation(evt) return end
+function MediaDeviceControllerPS:OnNextStation(evt) end
 
 ---@param evt PreviousStation
 ---@return EntityNotificationType
-function MediaDeviceControllerPS:OnPreviousStation(evt) return end
+function MediaDeviceControllerPS:OnPreviousStation(evt) end
 
 ---@param evt QuestDisableInteraction
 ---@return EntityNotificationType
-function MediaDeviceControllerPS:OnQuestDisableInteraction(evt) return end
+function MediaDeviceControllerPS:OnQuestDisableInteraction(evt) end
 
 ---@param evt QuestEnableInteraction
 ---@return EntityNotificationType
-function MediaDeviceControllerPS:OnQuestEnableInteraction(evt) return end
+function MediaDeviceControllerPS:OnQuestEnableInteraction(evt) end
 
 ---@param evt QuestNextStation
 ---@return EntityNotificationType
-function MediaDeviceControllerPS:OnQuestNextStation(evt) return end
+function MediaDeviceControllerPS:OnQuestNextStation(evt) end
 
 ---@param evt QuestPreviousStation
 ---@return EntityNotificationType
-function MediaDeviceControllerPS:OnQuestPreviousStation(evt) return end
+function MediaDeviceControllerPS:OnQuestPreviousStation(evt) end
 
 ---@param evt QuestSetChannel
 ---@return EntityNotificationType
-function MediaDeviceControllerPS:OnQuestSetChannel(evt) return end
+function MediaDeviceControllerPS:OnQuestSetChannel(evt) end
 
 ---@param channelName String
 ---@return nil
-function MediaDeviceControllerPS:PassChannelName(channelName) return end
+function MediaDeviceControllerPS:PassChannelName(channelName) end
 
 ---@param stationIDX Int32
 ---@return nil
-function MediaDeviceControllerPS:SetActiveStationIndex(stationIDX) return end
+function MediaDeviceControllerPS:SetActiveStationIndex(stationIDX) end

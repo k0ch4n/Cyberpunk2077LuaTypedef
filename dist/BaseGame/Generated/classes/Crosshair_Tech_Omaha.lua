@@ -1,49 +1,43 @@
 ---@meta
 
 ---@class Crosshair_Tech_Omaha: gameuiCrosshairBaseGameController
----@field private leftPart inkWidget
----@field private rightPart inkWidget
----@field private topPart inkWidget
----@field private chargeBar inkRectangleWidget
----@field private sizeOfChargeBar Vector2
----@field private chargeBBID redCallbackObject
+---@field leftPart inkWidget
+---@field rightPart inkWidget
+---@field topPart inkWidget
+---@field chargeBar inkRectangleWidget
+---@field sizeOfChargeBar Vector2
+---@field chargeBBID redCallbackObject
 Crosshair_Tech_Omaha = {}
 
 ---@param fields? Crosshair_Tech_Omaha
 ---@return Crosshair_Tech_Omaha
-function Crosshair_Tech_Omaha.new(fields) return end
+function Crosshair_Tech_Omaha.new(fields) end
 
----@protected
 ---@param spread Vector2
 ---@return Bool
-function Crosshair_Tech_Omaha:OnBulletSpreadChanged(spread) return end
+function Crosshair_Tech_Omaha:OnBulletSpreadChanged(spread) end
 
----@protected
 ---@return Bool
-function Crosshair_Tech_Omaha:OnInitialize() return end
+function Crosshair_Tech_Omaha:OnInitialize() end
 
----@protected
 ---@return Bool
-function Crosshair_Tech_Omaha:OnPreIntro() return end
+function Crosshair_Tech_Omaha:OnPreIntro() end
 
----@protected
 ---@return Bool
-function Crosshair_Tech_Omaha:OnPreOutro() return end
+function Crosshair_Tech_Omaha:OnPreOutro() end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function Crosshair_Tech_Omaha:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function Crosshair_Tech_Omaha:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function Crosshair_Tech_Omaha:GetIntroAnimation(firstEquip) return end
+function Crosshair_Tech_Omaha:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function Crosshair_Tech_Omaha:GetOutroAnimation() return end
+function Crosshair_Tech_Omaha:GetOutroAnimation() end
 
----@protected
 ---@param charge Float
 ---@return nil
-function Crosshair_Tech_Omaha:OnChargeChanged(charge) return end
+function Crosshair_Tech_Omaha:OnChargeChanged(charge) end

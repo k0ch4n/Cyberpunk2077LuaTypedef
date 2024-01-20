@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animConditionalSegmentCondition
----@field public lod Int32
----@field public group CName
----@field public name CName
----@field public animFeatureValue Bool
+---@field lod Int32
+---@field group CName
+---@field name CName
+---@field animFeatureValue Bool
 animConditionalSegmentCondition = {}
 
 ---@param fields? animConditionalSegmentCondition
 ---@return animConditionalSegmentCondition
-function animConditionalSegmentCondition.new(fields) return end
+function animConditionalSegmentCondition.new(fields) end

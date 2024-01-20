@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class scnSpawnDespawnEntityParams
----@field public dynamicEntityUniqueName CName
----@field public spawnMarker CName
----@field public spawnMarkerType scnMarkerType
----@field public spawnMarkerNodeRef NodeRef
----@field public spawnOffset Transform
----@field public itemOwnerId scnPerformerId
----@field public specRecordId TweakDBID
----@field public appearance CName
----@field public spawnOnStart Bool
----@field public isEnabled Bool
----@field public validateSpawnPostion Bool
----@field public alwaysSpawned Bool
----@field public keepAlive Bool
----@field public findInWorld Bool
----@field public forceMaxVisibility Bool
----@field public prefetchAppearance Bool
+---@field dynamicEntityUniqueName CName
+---@field spawnMarker CName
+---@field spawnMarkerType scnMarkerType
+---@field spawnMarkerNodeRef NodeRef
+---@field spawnOffset Transform
+---@field itemOwnerId scnPerformerId
+---@field specRecordId TweakDBID
+---@field appearance CName
+---@field spawnOnStart Bool
+---@field isEnabled Bool
+---@field validateSpawnPostion Bool
+---@field alwaysSpawned Bool
+---@field keepAlive Bool
+---@field findInWorld Bool
+---@field forceMaxVisibility Bool
+---@field prefetchAppearance Bool
 scnSpawnDespawnEntityParams = {}
 
 ---@param fields? scnSpawnDespawnEntityParams
 ---@return scnSpawnDespawnEntityParams
-function scnSpawnDespawnEntityParams.new(fields) return end
+function scnSpawnDespawnEntityParams.new(fields) end

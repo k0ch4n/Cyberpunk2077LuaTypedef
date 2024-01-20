@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamedamageDamageDebugData: IScriptable
----@field public statPoolType gamedataStatPoolType
----@field public damageType gamedataDamageType
----@field public value Float
+---@field statPoolType gamedataStatPoolType
+---@field damageType gamedataDamageType
+---@field value Float
 gamedamageDamageDebugData = {}
 
 ---@param fields? gamedamageDamageDebugData
 ---@return gamedamageDamageDebugData
-function gamedamageDamageDebugData.new(fields) return end
+function gamedamageDamageDebugData.new(fields) end

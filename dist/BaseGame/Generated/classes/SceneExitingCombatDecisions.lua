@@ -5,9 +5,9 @@ SceneExitingCombatDecisions = {}
 
 ---@param fields? SceneExitingCombatDecisions
 ---@return SceneExitingCombatDecisions
-function SceneExitingCombatDecisions.new(fields) return end
+function SceneExitingCombatDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneExitingCombatDecisions:ExitCondition(stateContext, scriptInterface) return end
+function SceneExitingCombatDecisions:ExitCondition(stateContext, scriptInterface) end

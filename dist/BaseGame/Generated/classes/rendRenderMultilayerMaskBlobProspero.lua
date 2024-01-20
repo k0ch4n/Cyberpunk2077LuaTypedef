@@ -5,4 +5,4 @@ rendRenderMultilayerMaskBlobProspero = {}
 
 ---@param fields? rendRenderMultilayerMaskBlobProspero
 ---@return rendRenderMultilayerMaskBlobProspero
-function rendRenderMultilayerMaskBlobProspero.new(fields) return end
+function rendRenderMultilayerMaskBlobProspero.new(fields) end

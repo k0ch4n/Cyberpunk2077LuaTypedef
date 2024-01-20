@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnlocLocstringId
----@field public ruid CRUID
+---@field ruid CRUID
 scnlocLocstringId = {}
 
 ---@param fields? scnlocLocstringId
 ---@return scnlocLocstringId
-function scnlocLocstringId.new(fields) return end
+function scnlocLocstringId.new(fields) end

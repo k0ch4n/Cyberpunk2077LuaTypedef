@@ -5,4 +5,4 @@ gamebbScriptID_Variant = {}
 
 ---@param fields? gamebbScriptID_Variant
 ---@return gamebbScriptID_Variant
-function gamebbScriptID_Variant.new(fields) return end
+function gamebbScriptID_Variant.new(fields) end

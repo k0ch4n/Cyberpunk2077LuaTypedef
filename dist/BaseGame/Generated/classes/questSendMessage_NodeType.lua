@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questSendMessage_NodeType: questIPhoneManagerNodeType
----@field public msg gameJournalPath
----@field public sendNotification Bool
+---@field msg gameJournalPath
+---@field sendNotification Bool
 questSendMessage_NodeType = {}
 
 ---@param fields? questSendMessage_NodeType
 ---@return questSendMessage_NodeType
-function questSendMessage_NodeType.new(fields) return end
+function questSendMessage_NodeType.new(fields) end

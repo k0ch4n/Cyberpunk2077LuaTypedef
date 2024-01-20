@@ -5,46 +5,39 @@ AirThrustersEvents = {}
 
 ---@param fields? AirThrustersEvents
 ---@return AirThrustersEvents
-function AirThrustersEvents.new(fields) return end
+function AirThrustersEvents.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameItemObject
-function AirThrustersEvents:GetActiveFeetAreaItem(scriptInterface) return end
+function AirThrustersEvents:GetActiveFeetAreaItem(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AirThrustersEvents:OnEnter(stateContext, scriptInterface) return end
+function AirThrustersEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AirThrustersEvents:OnExit(stateContext, scriptInterface) return end
+function AirThrustersEvents:OnExit(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectName CName|string
 ---@return nil
-function AirThrustersEvents:PlayEffectOnItem(scriptInterface, effectName) return end
+function AirThrustersEvents:PlayEffectOnItem(scriptInterface, effectName) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param state Int32
 ---@return nil
-function AirThrustersEvents:SendAnimFeatureDataToGraph(stateContext, scriptInterface, state) return end
+function AirThrustersEvents:SendAnimFeatureDataToGraph(stateContext, scriptInterface, state) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AirThrustersEvents:SetUpwardsThrustStats(stateContext, scriptInterface) return end
+function AirThrustersEvents:SetUpwardsThrustStats(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectName CName|string
 ---@return nil
-function AirThrustersEvents:StopEffectOnItem(scriptInterface, effectName) return end
+function AirThrustersEvents:StopEffectOnItem(scriptInterface, effectName) end

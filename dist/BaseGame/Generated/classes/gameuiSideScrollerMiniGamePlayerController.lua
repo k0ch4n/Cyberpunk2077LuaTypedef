@@ -5,4 +5,4 @@ gameuiSideScrollerMiniGamePlayerController = {}
 
 ---@param fields? gameuiSideScrollerMiniGamePlayerController
 ---@return gameuiSideScrollerMiniGamePlayerController
-function gameuiSideScrollerMiniGamePlayerController.new(fields) return end
+function gameuiSideScrollerMiniGamePlayerController.new(fields) end

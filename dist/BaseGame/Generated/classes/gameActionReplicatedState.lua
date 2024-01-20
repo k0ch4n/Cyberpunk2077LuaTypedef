@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameActionReplicatedState
----@field public replicationId Uint32
----@field public type Uint16
----@field public startTimeStamp netTime
----@field public stopTimeStamp netTime
----@field public updateBucket Uint8
+---@field replicationId Uint32
+---@field type Uint16
+---@field startTimeStamp netTime
+---@field stopTimeStamp netTime
+---@field updateBucket Uint8
 gameActionReplicatedState = {}
 
 ---@param fields? gameActionReplicatedState
 ---@return gameActionReplicatedState
-function gameActionReplicatedState.new(fields) return end
+function gameActionReplicatedState.new(fields) end

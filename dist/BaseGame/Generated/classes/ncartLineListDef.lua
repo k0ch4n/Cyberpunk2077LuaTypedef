@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ncartLineListDef
----@field public lineNumber Uint32
----@field public lineColor Color
----@field public stationsList ncartStationListDef[]
----@field public lineSymbolWidget inkWidgetReference
----@field public lineIsLooped Bool
+---@field lineNumber Uint32
+---@field lineColor Color
+---@field stationsList ncartStationListDef[]
+---@field lineSymbolWidget inkWidgetReference
+---@field lineIsLooped Bool
 ncartLineListDef = {}
 
 ---@param fields? ncartLineListDef
 ---@return ncartLineListDef
-function ncartLineListDef.new(fields) return end
+function ncartLineListDef.new(fields) end

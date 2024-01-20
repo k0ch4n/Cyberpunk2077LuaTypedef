@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TonemappingModeACES: ITonemappingMode
----@field public params STonemappingACESParams
+---@field params STonemappingACESParams
 TonemappingModeACES = {}
 
 ---@param fields? TonemappingModeACES
 ---@return TonemappingModeACES
-function TonemappingModeACES.new(fields) return end
+function TonemappingModeACES.new(fields) end

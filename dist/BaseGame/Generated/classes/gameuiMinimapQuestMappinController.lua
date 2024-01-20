@@ -1,21 +1,18 @@
 ---@meta
 
 ---@class gameuiMinimapQuestMappinController: gameuiBaseMinimapMappinController
----@field private questMappin gamemappinsQuestMappin
+---@field questMappin gamemappinsQuestMappin
 gameuiMinimapQuestMappinController = {}
 
 ---@param fields? gameuiMinimapQuestMappinController
 ---@return gameuiMinimapQuestMappinController
-function gameuiMinimapQuestMappinController.new(fields) return end
+function gameuiMinimapQuestMappinController.new(fields) end
 
----@protected
 ---@return CName
-function gameuiMinimapQuestMappinController:ComputeRootState() return end
+function gameuiMinimapQuestMappinController:ComputeRootState() end
 
----@protected
 ---@return nil
-function gameuiMinimapQuestMappinController:Intro() return end
+function gameuiMinimapQuestMappinController:Intro() end
 
----@protected
 ---@return nil
-function gameuiMinimapQuestMappinController:Update() return end
+function gameuiMinimapQuestMappinController:Update() end

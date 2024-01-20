@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameprojectileSpawnerPreviewEvent: redEvent
----@field public previewActive Bool
+---@field previewActive Bool
 gameprojectileSpawnerPreviewEvent = {}
 
 ---@param fields? gameprojectileSpawnerPreviewEvent
 ---@return gameprojectileSpawnerPreviewEvent
-function gameprojectileSpawnerPreviewEvent.new(fields) return end
+function gameprojectileSpawnerPreviewEvent.new(fields) end

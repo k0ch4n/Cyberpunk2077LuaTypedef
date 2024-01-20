@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class toolsJiraStatus
----@field public name String
----@field public id String
+---@field name String
+---@field id String
 toolsJiraStatus = {}
 
 ---@param fields? toolsJiraStatus
 ---@return toolsJiraStatus
-function toolsJiraStatus.new(fields) return end
+function toolsJiraStatus.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorClearUsedAlertedSpotsTaskDefinition: AIbehaviorTaskDefinition
----@field public usedTokens AIArgumentMapping
+---@field usedTokens AIArgumentMapping
 AIbehaviorClearUsedAlertedSpotsTaskDefinition = {}
 
 ---@param fields? AIbehaviorClearUsedAlertedSpotsTaskDefinition
 ---@return AIbehaviorClearUsedAlertedSpotsTaskDefinition
-function AIbehaviorClearUsedAlertedSpotsTaskDefinition.new(fields) return end
+function AIbehaviorClearUsedAlertedSpotsTaskDefinition.new(fields) end

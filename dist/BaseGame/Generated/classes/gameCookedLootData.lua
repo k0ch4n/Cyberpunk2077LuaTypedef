@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameCookedLootData: ISerializable
----@field public lootTables TweakDBID[]
----@field public contentAssignment TweakDBID
+---@field lootTables TweakDBID[]
+---@field contentAssignment TweakDBID
 gameCookedLootData = {}
 
 ---@param fields? gameCookedLootData
 ---@return gameCookedLootData
-function gameCookedLootData.new(fields) return end
+function gameCookedLootData.new(fields) end

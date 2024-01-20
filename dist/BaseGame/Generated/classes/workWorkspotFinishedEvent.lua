@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class workWorkspotFinishedEvent: redEvent
----@field public nodeId worldGlobalNodeID
----@field public tags CName[]
----@field public statusEffectID TweakDBID
+---@field nodeId worldGlobalNodeID
+---@field tags CName[]
+---@field statusEffectID TweakDBID
 workWorkspotFinishedEvent = {}
 
 ---@param fields? workWorkspotFinishedEvent
 ---@return workWorkspotFinishedEvent
-function workWorkspotFinishedEvent.new(fields) return end
+function workWorkspotFinishedEvent.new(fields) end

@@ -5,19 +5,19 @@ SpiderbotDistractExplosiveDevicePerformed = {}
 
 ---@param fields? SpiderbotDistractExplosiveDevicePerformed
 ---@return SpiderbotDistractExplosiveDevicePerformed
-function SpiderbotDistractExplosiveDevicePerformed.new(fields) return end
+function SpiderbotDistractExplosiveDevicePerformed.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function SpiderbotDistractExplosiveDevicePerformed.IsAvailable(device) return end
+function SpiderbotDistractExplosiveDevicePerformed.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SpiderbotDistractExplosiveDevicePerformed.IsClearanceValid(clearance) return end
+function SpiderbotDistractExplosiveDevicePerformed.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function SpiderbotDistractExplosiveDevicePerformed.IsContextValid(context) return end
+function SpiderbotDistractExplosiveDevicePerformed.IsContextValid(context) end
 
 ---@return nil
-function SpiderbotDistractExplosiveDevicePerformed:SetProperties() return end
+function SpiderbotDistractExplosiveDevicePerformed:SetProperties() end

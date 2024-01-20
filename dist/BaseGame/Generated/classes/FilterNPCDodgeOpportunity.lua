@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class FilterNPCDodgeOpportunity: gameEffectObjectGroupFilter_Scripted
----@field private applyToTechWeapons Bool
----@field private doDodgingTargetsGetFilteredOut Bool
+---@field applyToTechWeapons Bool
+---@field doDodgingTargetsGetFilteredOut Bool
 FilterNPCDodgeOpportunity = {}
 
 ---@param fields? FilterNPCDodgeOpportunity
 ---@return FilterNPCDodgeOpportunity
-function FilterNPCDodgeOpportunity.new(fields) return end
+function FilterNPCDodgeOpportunity.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@return Bool, gameEffectGroupFilterScriptContext filterCtx
-function FilterNPCDodgeOpportunity:Process(ctx) return end
+function FilterNPCDodgeOpportunity:Process(ctx) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class PerksMenuAttributeItemHoldStart: redEvent
----@field public widget inkWidget
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
----@field public actionName inkActionName
+---@field widget inkWidget
+---@field attributeType PerkMenuAttribute
+---@field attributeData AttributeData
+---@field actionName inkActionName
 PerksMenuAttributeItemHoldStart = {}
 
 ---@param fields? PerksMenuAttributeItemHoldStart
 ---@return PerksMenuAttributeItemHoldStart
-function PerksMenuAttributeItemHoldStart.new(fields) return end
+function PerksMenuAttributeItemHoldStart.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class physicsSectorCacheArtifact: CResource
----@field public sectorGeometryKeys physicsGeometryKey[]
----@field public sectorInPlaceGeometry physicsGeometryCacheArtifact
----@field public sectorBounds Box
+---@field sectorGeometryKeys physicsGeometryKey[]
+---@field sectorInPlaceGeometry physicsGeometryCacheArtifact
+---@field sectorBounds Box
 physicsSectorCacheArtifact = {}
 
 ---@param fields? physicsSectorCacheArtifact
 ---@return physicsSectorCacheArtifact
-function physicsSectorCacheArtifact.new(fields) return end
+function physicsSectorCacheArtifact.new(fields) end

@@ -5,49 +5,43 @@ NewPerkFinisherCondition = {}
 
 ---@param fields? NewPerkFinisherCondition
 ---@return NewPerkFinisherCondition
-function NewPerkFinisherCondition.new(fields) return end
+function NewPerkFinisherCondition.new(fields) end
 
----@private
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@return Bool
-function NewPerkFinisherCondition:IsAreaClear(activatorObject, hotSpotObject) return end
+function NewPerkFinisherCondition:IsAreaClear(activatorObject, hotSpotObject) end
 
----@private
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@return Bool
-function NewPerkFinisherCondition:IsFinisherAvailable(activatorObject, hotSpotObject) return end
+function NewPerkFinisherCondition:IsFinisherAvailable(activatorObject, hotSpotObject) end
 
----@protected
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@param equippedWeapon gameweaponObject
 ---@return Bool
-function NewPerkFinisherCondition:NewPerkFinisherBladeEnabled(activatorObject, hotSpotObject, equippedWeapon) return end
+function NewPerkFinisherCondition:NewPerkFinisherBladeEnabled(activatorObject, hotSpotObject, equippedWeapon) end
 
----@protected
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@param equippedWeapon gameweaponObject
 ---@return Bool
-function NewPerkFinisherCondition:NewPerkFinisherBluntEnabled(activatorObject, hotSpotObject, equippedWeapon) return end
+function NewPerkFinisherCondition:NewPerkFinisherBluntEnabled(activatorObject, hotSpotObject, equippedWeapon) end
 
----@protected
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@param equippedWeapon gameweaponObject
 ---@return Bool
-function NewPerkFinisherCondition:NewPerkFinisherMonowireEnabled(activatorObject, hotSpotObject, equippedWeapon) return end
+function NewPerkFinisherCondition:NewPerkFinisherMonowireEnabled(activatorObject, hotSpotObject, equippedWeapon) end
 
----@protected
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@param equippedWeapon gameweaponObject
 ---@return Bool
-function NewPerkFinisherCondition:NewPerkFinisherThrowableEnabled(activatorObject, hotSpotObject, equippedWeapon) return end
+function NewPerkFinisherCondition:NewPerkFinisherThrowableEnabled(activatorObject, hotSpotObject, equippedWeapon) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@return Bool
-function NewPerkFinisherCondition:Test(activatorObject, hotSpotObject) return end
+function NewPerkFinisherCondition:Test(activatorObject, hotSpotObject) end

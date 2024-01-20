@@ -5,4 +5,4 @@ effectColorGradeV2PlayData = {}
 
 ---@param fields? effectColorGradeV2PlayData
 ---@return effectColorGradeV2PlayData
-function effectColorGradeV2PlayData.new(fields) return end
+function effectColorGradeV2PlayData.new(fields) end

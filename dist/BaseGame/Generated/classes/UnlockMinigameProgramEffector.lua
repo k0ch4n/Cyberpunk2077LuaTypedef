@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class UnlockMinigameProgramEffector: gameEffector
----@field public minigameProgram gameuiMinigameProgramData
+---@field minigameProgram gameuiMinigameProgramData
 UnlockMinigameProgramEffector = {}
 
 ---@param fields? UnlockMinigameProgramEffector
 ---@return UnlockMinigameProgramEffector
-function UnlockMinigameProgramEffector.new(fields) return end
+function UnlockMinigameProgramEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function UnlockMinigameProgramEffector:ActionOn(owner) return end
+function UnlockMinigameProgramEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function UnlockMinigameProgramEffector:Initialize(record, parentRecord) return end
+function UnlockMinigameProgramEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param program gameuiMinigameProgramData
 ---@param player PlayerPuppet
 ---@param addOrRemove Bool
 ---@return nil
-function UnlockMinigameProgramEffector:StoreMinigameProgramsOnPlayer(program, player, addOrRemove) return end
+function UnlockMinigameProgramEffector:StoreMinigameProgramsOnPlayer(program, player, addOrRemove) end
 
----@protected
 ---@return nil
-function UnlockMinigameProgramEffector:Uninitialize() return end
+function UnlockMinigameProgramEffector:Uninitialize() end

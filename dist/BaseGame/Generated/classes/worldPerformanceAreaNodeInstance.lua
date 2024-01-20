@@ -5,4 +5,4 @@ worldPerformanceAreaNodeInstance = {}
 
 ---@param fields? worldPerformanceAreaNodeInstance
 ---@return worldPerformanceAreaNodeInstance
-function worldPerformanceAreaNodeInstance.new(fields) return end
+function worldPerformanceAreaNodeInstance.new(fields) end

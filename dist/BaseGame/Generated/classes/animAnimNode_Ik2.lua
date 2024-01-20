@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class animAnimNode_Ik2: animAnimNode_Base
----@field public firstBone animTransformIndex
----@field public secondBone animTransformIndex
----@field public endBone animTransformIndex
----@field public hingeAxis animAxis
----@field public minHingeAngleDegrees Float
----@field public maxHingeAngleDegrees Float
----@field public firstBoneIkGain Float
----@field public secondBoneIkGain Float
----@field public endBoneIkGain Float
----@field public enforceEndPosition Bool
----@field public enforceEndOrientation Bool
----@field public endBoneOffsetPositionLS Vector4
----@field public bone animTransformIndex
----@field public floatTrack animNamedTrackIndex
----@field public inputPoseNode animPoseLink
----@field public weightNode animFloatLink
----@field public endTargetPositionNode animVectorLink
----@field public endTargetOrientationNode animQuaternionLink
+---@field firstBone animTransformIndex
+---@field secondBone animTransformIndex
+---@field endBone animTransformIndex
+---@field hingeAxis animAxis
+---@field minHingeAngleDegrees Float
+---@field maxHingeAngleDegrees Float
+---@field firstBoneIkGain Float
+---@field secondBoneIkGain Float
+---@field endBoneIkGain Float
+---@field enforceEndPosition Bool
+---@field enforceEndOrientation Bool
+---@field endBoneOffsetPositionLS Vector4
+---@field bone animTransformIndex
+---@field floatTrack animNamedTrackIndex
+---@field inputPoseNode animPoseLink
+---@field weightNode animFloatLink
+---@field endTargetPositionNode animVectorLink
+---@field endTargetOrientationNode animQuaternionLink
 animAnimNode_Ik2 = {}
 
 ---@param fields? animAnimNode_Ik2
 ---@return animAnimNode_Ik2
-function animAnimNode_Ik2.new(fields) return end
+function animAnimNode_Ik2.new(fields) end

@@ -5,10 +5,10 @@ gamedataTankPickup_Record = {}
 
 ---@param fields? gamedataTankPickup_Record
 ---@return gamedataTankPickup_Record
-function gamedataTankPickup_Record.new(fields) return end
+function gamedataTankPickup_Record.new(fields) end
 
 ---@return CName
-function gamedataTankPickup_Record:PickupLocKey() return end
+function gamedataTankPickup_Record:PickupLocKey() end
 
 ---@return Int32
-function gamedataTankPickup_Record:Value() return end
+function gamedataTankPickup_Record:Value() end

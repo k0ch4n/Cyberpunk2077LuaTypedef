@@ -5,9 +5,8 @@ AIFindForwardPositionAround = {}
 
 ---@param fields? AIFindForwardPositionAround
 ---@return AIFindForwardPositionAround
-function AIFindForwardPositionAround.new(fields) return end
+function AIFindForwardPositionAround.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIFindForwardPositionAround:Update(context) return end
+function AIFindForwardPositionAround:Update(context) end

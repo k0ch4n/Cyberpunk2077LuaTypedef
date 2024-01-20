@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class animAnimNode_TransformToTrack: animAnimNode_OnePoseInput
----@field public floatTrack Int32
----@field public floatTrackIndex animNamedTrackIndex
----@field public outputTransform Int16
----@field public transformIndex animTransformIndex
----@field public channel animTransformChannel
----@field public mulFactor Float
----@field public weight Float
----@field public weightNode animFloatLink
----@field public mulFactorNode animFloatLink
+---@field floatTrack Int32
+---@field floatTrackIndex animNamedTrackIndex
+---@field outputTransform Int16
+---@field transformIndex animTransformIndex
+---@field channel animTransformChannel
+---@field mulFactor Float
+---@field weight Float
+---@field weightNode animFloatLink
+---@field mulFactorNode animFloatLink
 animAnimNode_TransformToTrack = {}
 
 ---@param fields? animAnimNode_TransformToTrack
 ---@return animAnimNode_TransformToTrack
-function animAnimNode_TransformToTrack.new(fields) return end
+function animAnimNode_TransformToTrack.new(fields) end

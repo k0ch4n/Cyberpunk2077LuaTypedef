@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TargetIndicatorEntry
----@field public targetID entEntityID
----@field public indicator inkWidget
+---@field targetID entEntityID
+---@field indicator inkWidget
 TargetIndicatorEntry = {}
 
 ---@param fields? TargetIndicatorEntry
 ---@return TargetIndicatorEntry
-function TargetIndicatorEntry.new(fields) return end
+function TargetIndicatorEntry.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ReserveItemToThisDropPoint: ScriptableDeviceAction
----@field public item TweakDBID
+---@field item TweakDBID
 ReserveItemToThisDropPoint = {}
 
 ---@param fields? ReserveItemToThisDropPoint
 ---@return ReserveItemToThisDropPoint
-function ReserveItemToThisDropPoint.new(fields) return end
+function ReserveItemToThisDropPoint.new(fields) end
 
 ---@return String
-function ReserveItemToThisDropPoint:GetFriendlyDescription() return end
+function ReserveItemToThisDropPoint:GetFriendlyDescription() end

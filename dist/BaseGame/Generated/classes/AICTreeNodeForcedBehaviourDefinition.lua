@@ -5,4 +5,4 @@ AICTreeNodeForcedBehaviourDefinition = {}
 
 ---@param fields? AICTreeNodeForcedBehaviourDefinition
 ---@return AICTreeNodeForcedBehaviourDefinition
-function AICTreeNodeForcedBehaviourDefinition.new(fields) return end
+function AICTreeNodeForcedBehaviourDefinition.new(fields) end

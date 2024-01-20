@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class FilterNPCsByType: gameEffectObjectSingleFilter_Scripted
----@field public allowedTypes gamedataNPCType[]
----@field public invert Bool
+---@field allowedTypes gamedataNPCType[]
+---@field invert Bool
 FilterNPCsByType = {}
 
 ---@param fields? FilterNPCsByType
 ---@return FilterNPCsByType
-function FilterNPCsByType.new(fields) return end
+function FilterNPCsByType.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function FilterNPCsByType:Process(ctx, filterCtx) return end
+function FilterNPCsByType:Process(ctx, filterCtx) end

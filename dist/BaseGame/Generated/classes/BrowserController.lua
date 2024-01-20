@@ -1,84 +1,74 @@
 ---@meta
 
 ---@class BrowserController: inkWidgetLogicController
----@field protected homeButton inkWidgetReference
----@field protected homeButtonCoontroller LinkController
----@field protected addressText inkTextWidgetReference
----@field protected pageContentRoot inkWidgetReference
----@field protected spinnerContentRoot inkWidgetReference
----@field protected journalManager gameJournalManager
----@field protected spinnerPath redResourceReferenceScriptToken
----@field protected webPageLibraryID CName
----@field protected defaultDevicePage String
----@field private gameController BrowserGameController
----@field private currentRequestedPage gameJournalInternetPage
----@field private currentPage inkCompoundWidget
----@field private webPageSpawnRequest inkAsyncSpawnRequest
+---@field homeButton inkWidgetReference
+---@field homeButtonCoontroller LinkController
+---@field addressText inkTextWidgetReference
+---@field pageContentRoot inkWidgetReference
+---@field spinnerContentRoot inkWidgetReference
+---@field journalManager gameJournalManager
+---@field spinnerPath redResourceReferenceScriptToken
+---@field webPageLibraryID CName
+---@field defaultDevicePage String
+---@field gameController BrowserGameController
+---@field currentRequestedPage gameJournalInternetPage
+---@field currentPage inkCompoundWidget
+---@field webPageSpawnRequest inkAsyncSpawnRequest
 BrowserController = {}
 
 ---@param fields? BrowserController
 ---@return BrowserController
-function BrowserController.new(fields) return end
+function BrowserController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function BrowserController:OnPageSpawned(widget, userData) return end
+function BrowserController:OnPageSpawned(widget, userData) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function BrowserController:OnProcessLinkPressed(e) return end
+function BrowserController:OnProcessLinkPressed(e) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function BrowserController:OnSpinnerSpawned(widget, userData) return end
+function BrowserController:OnSpinnerSpawned(widget, userData) end
 
 ---@return String
-function BrowserController:GetDefaultpage() return end
+function BrowserController:GetDefaultpage() end
 
----@private
 ---@return Computer
-function BrowserController:GetOwnerGameObject() return end
+function BrowserController:GetOwnerGameObject() end
 
 ---@param gameController BrowserGameController
 ---@return nil
-function BrowserController:Init(gameController) return end
+function BrowserController:Init(gameController) end
 
----@private
 ---@param address String
 ---@return nil
-function BrowserController:LoadWebPage(address) return end
+function BrowserController:LoadWebPage(address) end
 
----@private
 ---@param e inkPointerEvent
 ---@return nil
-function BrowserController:OnHomeButtonPressed(e) return end
+function BrowserController:OnHomeButtonPressed(e) end
 
----@private
 ---@return nil
-function BrowserController:SetDefaultContent() return end
+function BrowserController:SetDefaultContent() end
 
 ---@param startingPage String
 ---@return nil
-function BrowserController:SetDefaultPage(startingPage) return end
+function BrowserController:SetDefaultPage(startingPage) end
 
----@private
 ---@param page gameJournalInternetPage
 ---@return nil
-function BrowserController:SetFacts(page) return end
+function BrowserController:SetFacts(page) end
 
 ---@return nil
-function BrowserController:SetWebsiteData() return end
+function BrowserController:SetWebsiteData() end
 
----@private
 ---@param address String
 ---@return gameJournalInternetPage
-function BrowserController:TryGetWebsiteData(address) return end
+function BrowserController:TryGetWebsiteData(address) end
 
----@private
 ---@return nil
-function BrowserController:UnloadCurrentWebsite() return end
+function BrowserController:UnloadCurrentWebsite() end

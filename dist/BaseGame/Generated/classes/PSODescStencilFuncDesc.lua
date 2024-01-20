@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PSODescStencilFuncDesc
----@field public stencilPassOp PSODescDepthStencilModeStencilOpMode
----@field public stencilFunc PSODescDepthStencilModeComparisonMode
+---@field stencilPassOp PSODescDepthStencilModeStencilOpMode
+---@field stencilFunc PSODescDepthStencilModeComparisonMode
 PSODescStencilFuncDesc = {}
 
 ---@param fields? PSODescStencilFuncDesc
 ---@return PSODescStencilFuncDesc
-function PSODescStencilFuncDesc.new(fields) return end
+function PSODescStencilFuncDesc.new(fields) end

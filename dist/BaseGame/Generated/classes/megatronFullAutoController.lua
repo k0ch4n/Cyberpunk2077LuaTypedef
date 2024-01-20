@@ -1,27 +1,25 @@
 ---@meta
 
 ---@class megatronFullAutoController: AmmoLogicController
----@field private ammoCountText inkTextWidget
----@field private ammoBar inkImageWidget
+---@field ammoCountText inkTextWidget
+---@field ammoBar inkImageWidget
 megatronFullAutoController = {}
 
 ---@param fields? megatronFullAutoController
 ---@return megatronFullAutoController
-function megatronFullAutoController.new(fields) return end
+function megatronFullAutoController.new(fields) end
 
----@protected
 ---@return Bool
-function megatronFullAutoController:OnInitialize() return end
+function megatronFullAutoController:OnInitialize() end
 
 ---@param value Uint32
 ---@return nil
-function megatronFullAutoController:OnMagazineAmmoCapacityChanged(value) return end
+function megatronFullAutoController:OnMagazineAmmoCapacityChanged(value) end
 
 ---@param value Uint32
 ---@return nil
-function megatronFullAutoController:OnMagazineAmmoCountChanged(value) return end
+function megatronFullAutoController:OnMagazineAmmoCountChanged(value) end
 
----@private
 ---@param value Uint32
 ---@return nil
-function megatronFullAutoController:UpdateAmmoCount(value) return end
+function megatronFullAutoController:UpdateAmmoCount(value) end

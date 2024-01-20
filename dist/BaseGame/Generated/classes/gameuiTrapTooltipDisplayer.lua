@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class gameuiTrapTooltipDisplayer: inkWidgetLogicController
----@field public trap gamedataMiniGame_Trap_Record
----@field private delayDuration Float
----@field private animationProxy inkanimProxy
+---@field trap gamedataMiniGame_Trap_Record
+---@field delayDuration Float
+---@field animationProxy inkanimProxy
 gameuiTrapTooltipDisplayer = {}
 
 ---@param fields? gameuiTrapTooltipDisplayer
 ---@return gameuiTrapTooltipDisplayer
-function gameuiTrapTooltipDisplayer.new(fields) return end
+function gameuiTrapTooltipDisplayer.new(fields) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function gameuiTrapTooltipDisplayer:OnDelayedTooltipRequest(e) return end
+function gameuiTrapTooltipDisplayer:OnDelayedTooltipRequest(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiTrapTooltipDisplayer:OnHoverOut(e) return end
+function gameuiTrapTooltipDisplayer:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiTrapTooltipDisplayer:OnHoverOver(e) return end
+function gameuiTrapTooltipDisplayer:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function gameuiTrapTooltipDisplayer:OnInitialize() return end
+function gameuiTrapTooltipDisplayer:OnInitialize() end

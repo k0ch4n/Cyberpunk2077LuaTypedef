@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class SpawnLibraryItemController: inkWidgetLogicController
----@field protected libraryID CName
+---@field libraryID CName
 SpawnLibraryItemController = {}
 
 ---@param fields? SpawnLibraryItemController
 ---@return SpawnLibraryItemController
-function SpawnLibraryItemController.new(fields) return end
+function SpawnLibraryItemController.new(fields) end
 
----@protected
 ---@return Bool
-function SpawnLibraryItemController:OnInitialize() return end
+function SpawnLibraryItemController:OnInitialize() end

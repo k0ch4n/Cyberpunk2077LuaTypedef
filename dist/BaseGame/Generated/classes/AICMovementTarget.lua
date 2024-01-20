@@ -5,4 +5,4 @@ AICMovementTarget = {}
 
 ---@param fields? AICMovementTarget
 ---@return AICMovementTarget
-function AICMovementTarget.new(fields) return end
+function AICMovementTarget.new(fields) end

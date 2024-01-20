@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UnregisterTimetableRequest: gameScriptableSystemRequest
----@field public requesterData PSOwnerData
+---@field requesterData PSOwnerData
 UnregisterTimetableRequest = {}
 
 ---@param fields? UnregisterTimetableRequest
 ---@return UnregisterTimetableRequest
-function UnregisterTimetableRequest.new(fields) return end
+function UnregisterTimetableRequest.new(fields) end

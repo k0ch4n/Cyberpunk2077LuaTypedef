@@ -5,4 +5,4 @@ VehicleCrystalDomeMeshVisibilityDelayEvent = {}
 
 ---@param fields? VehicleCrystalDomeMeshVisibilityDelayEvent
 ---@return VehicleCrystalDomeMeshVisibilityDelayEvent
-function VehicleCrystalDomeMeshVisibilityDelayEvent.new(fields) return end
+function VehicleCrystalDomeMeshVisibilityDelayEvent.new(fields) end

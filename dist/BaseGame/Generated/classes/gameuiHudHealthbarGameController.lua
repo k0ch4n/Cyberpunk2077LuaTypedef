@@ -1,297 +1,259 @@
 ---@meta
 
 ---@class gameuiHudHealthbarGameController: gameuiHUDGameController
----@field private bbPlayerStats gameIBlackboard
----@field private bbPlayerEventId redCallbackObject
----@field private bbMuppetStats gameIBlackboard
----@field private bbMuppetEventId redCallbackObject
----@field private bbRightWeaponInfo gameIBlackboard
----@field private bbRightWeaponEventId redCallbackObject
----@field private bbLeftWeaponInfo gameIBlackboard
----@field private bbLeftWeaponEventId redCallbackObject
----@field private bbPSceneTierEventId redCallbackObject
----@field private visionStateBlackboardId redCallbackObject
----@field private combatModeBlackboardId redCallbackObject
----@field private bbQuickhacksMemeoryEventId redCallbackObject
----@field private healthBar inkWidgetReference
----@field private overshieldBarRef inkWidgetReference
----@field private expBar inkWidgetReference
----@field private expBarSpacer inkWidgetReference
----@field private levelUpArrow inkWidgetReference
----@field private levelUpFrame inkWidgetReference
----@field private barsLayoutPath inkCompoundWidgetReference
----@field private buffsHolder inkCompoundWidgetReference
----@field private invulnerableTextPath inkTextWidgetReference
----@field private levelTextPath inkTextWidgetReference
----@field private nextLevelTextPath inkTextWidgetReference
----@field private healthTextPath inkTextWidgetReference
----@field private maxHealthTextPath inkTextWidgetReference
----@field private quickhacksContainer inkCompoundWidgetReference
----@field private expText inkTextWidgetReference
----@field private expTextLabel inkTextWidgetReference
----@field private lostHealthAggregationBar inkWidgetReference
----@field private levelUpRectangle inkWidgetReference
----@field private damegePreview inkWidgetReference
----@field private fullBar inkWidgetReference
----@field private healthController NameplateBarLogicController
----@field private armorController ProgressBarSimpleWidgetLogicController
----@field private RootWidget inkWidget
----@field private buffWidget inkWidget
----@field private invulnerableText inkTextWidget
----@field private animHideTemp inkanimDefinition
----@field private animShortFade inkanimDefinition
----@field private animLongFade inkanimDefinition
----@field private animHideHPProxy inkanimProxy
----@field public delayAnimation inkanimDefinition
----@field public animCreated Bool
----@field public aggregatingActive Bool
----@field public countingStartHealth Int32
----@field private currentHealth Int32
----@field private previousHealth Int32
----@field private maximumHealth Int32
----@field private quickhacksMemoryPercent Float
----@field private currentArmor Int32
----@field private maximumArmor Int32
----@field private quickhackBarArray inkWidget[]
----@field private spawnedMemoryCells Int32
----@field private usedQuickhacks Int32
----@field private buffsVisible Bool
----@field private isUnarmedRightHand Bool
----@field private isUnarmedLeftHand Bool
----@field private isControllingDevice Bool
----@field private currentVisionPSM gamePSMVision
----@field private combatModePSM gamePSMCombat
----@field private sceneTier GameplayTier
----@field private godModeStatListener GodModeStatListener
----@field private memoryStatListener HealthbarMemoryStatListener
----@field private playerStatsBlackboard gameIBlackboard
----@field private characterCurrentXPListener redCallbackObject
----@field private levelUpBlackboard gameIBlackboard
----@field private playerLevelUpListener redCallbackObject
----@field private currentLevel Int32
----@field private playerObject gameObject
----@field private playerDevelopmentSystem PlayerDevelopmentSystem
----@field private gameInstance ScriptGameInstance
----@field private foldingAnimProxy inkanimProxy
----@field private memoryFillCells Float
----@field private memoryMaxCells Int32
----@field private pendingRequests Int32
----@field private spawnTokens inkAsyncSpawnRequest[]
----@field private overshieldListener OvershieldListener
----@field private overshieldBarController NameplateBarLogicController
----@field private useOevershield Bool
----@field private currentOvershieldValue Int32
----@field private currentOvershieldValuePercent Float
----@field private overclockListener OverclockListener
----@field private isInOverclockedState Bool
----@field private pulseBar PulseAnimation
----@field private pulseText PulseAnimation
----@field private pulse PulseAnimation
----@field private healthMemoryJumpAnim inkanimProxy
----@field private healthMemoryFlashAnim inkanimProxy
+---@field bbPlayerStats gameIBlackboard
+---@field bbPlayerEventId redCallbackObject
+---@field bbMuppetStats gameIBlackboard
+---@field bbMuppetEventId redCallbackObject
+---@field bbRightWeaponInfo gameIBlackboard
+---@field bbRightWeaponEventId redCallbackObject
+---@field bbLeftWeaponInfo gameIBlackboard
+---@field bbLeftWeaponEventId redCallbackObject
+---@field bbPSceneTierEventId redCallbackObject
+---@field visionStateBlackboardId redCallbackObject
+---@field combatModeBlackboardId redCallbackObject
+---@field bbQuickhacksMemeoryEventId redCallbackObject
+---@field healthBar inkWidgetReference
+---@field overshieldBarRef inkWidgetReference
+---@field expBar inkWidgetReference
+---@field expBarSpacer inkWidgetReference
+---@field levelUpArrow inkWidgetReference
+---@field levelUpFrame inkWidgetReference
+---@field barsLayoutPath inkCompoundWidgetReference
+---@field buffsHolder inkCompoundWidgetReference
+---@field invulnerableTextPath inkTextWidgetReference
+---@field levelTextPath inkTextWidgetReference
+---@field nextLevelTextPath inkTextWidgetReference
+---@field healthTextPath inkTextWidgetReference
+---@field maxHealthTextPath inkTextWidgetReference
+---@field quickhacksContainer inkCompoundWidgetReference
+---@field expText inkTextWidgetReference
+---@field expTextLabel inkTextWidgetReference
+---@field lostHealthAggregationBar inkWidgetReference
+---@field levelUpRectangle inkWidgetReference
+---@field damegePreview inkWidgetReference
+---@field fullBar inkWidgetReference
+---@field healthController NameplateBarLogicController
+---@field armorController ProgressBarSimpleWidgetLogicController
+---@field RootWidget inkWidget
+---@field buffWidget inkWidget
+---@field invulnerableText inkTextWidget
+---@field animHideTemp inkanimDefinition
+---@field animShortFade inkanimDefinition
+---@field animLongFade inkanimDefinition
+---@field animHideHPProxy inkanimProxy
+---@field delayAnimation inkanimDefinition
+---@field animCreated Bool
+---@field aggregatingActive Bool
+---@field countingStartHealth Int32
+---@field currentHealth Int32
+---@field previousHealth Int32
+---@field maximumHealth Int32
+---@field quickhacksMemoryPercent Float
+---@field currentArmor Int32
+---@field maximumArmor Int32
+---@field quickhackBarArray inkWidget[]
+---@field spawnedMemoryCells Int32
+---@field usedQuickhacks Int32
+---@field buffsVisible Bool
+---@field isUnarmedRightHand Bool
+---@field isUnarmedLeftHand Bool
+---@field isControllingDevice Bool
+---@field currentVisionPSM gamePSMVision
+---@field combatModePSM gamePSMCombat
+---@field sceneTier GameplayTier
+---@field godModeStatListener GodModeStatListener
+---@field memoryStatListener HealthbarMemoryStatListener
+---@field playerStatsBlackboard gameIBlackboard
+---@field characterCurrentXPListener redCallbackObject
+---@field levelUpBlackboard gameIBlackboard
+---@field playerLevelUpListener redCallbackObject
+---@field currentLevel Int32
+---@field playerObject gameObject
+---@field playerDevelopmentSystem PlayerDevelopmentSystem
+---@field gameInstance ScriptGameInstance
+---@field foldingAnimProxy inkanimProxy
+---@field memoryFillCells Float
+---@field memoryMaxCells Int32
+---@field pendingRequests Int32
+---@field spawnTokens inkAsyncSpawnRequest[]
+---@field overshieldListener OvershieldListener
+---@field overshieldBarController NameplateBarLogicController
+---@field useOevershield Bool
+---@field currentOvershieldValue Int32
+---@field currentOvershieldValuePercent Float
+---@field overclockListener OverclockListener
+---@field isInOverclockedState Bool
+---@field pulseBar PulseAnimation
+---@field pulseText PulseAnimation
+---@field pulse PulseAnimation
+---@field healthMemoryJumpAnim inkanimProxy
+---@field healthMemoryFlashAnim inkanimProxy
 gameuiHudHealthbarGameController = {}
 
 ---@param fields? gameuiHudHealthbarGameController
 ---@return gameuiHudHealthbarGameController
-function gameuiHudHealthbarGameController.new(fields) return end
+function gameuiHudHealthbarGameController.new(fields) end
 
 ---@return nil
-function gameuiHudHealthbarGameController:RequestHealthBarVisibilityUpdate() return end
+function gameuiHudHealthbarGameController:RequestHealthBarVisibilityUpdate() end
 
----@protected
 ---@param evt BuffListVisibilityChangedEvent
 ---@return Bool
-function gameuiHudHealthbarGameController:OnBuffListVisibilityChanged(evt) return end
+function gameuiHudHealthbarGameController:OnBuffListVisibilityChanged(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiHudHealthbarGameController:OnCharacterLevelCurrentXPUpdated(value) return end
+function gameuiHudHealthbarGameController:OnCharacterLevelCurrentXPUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiHudHealthbarGameController:OnCharacterLevelUpdated(value) return end
+function gameuiHudHealthbarGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiHudHealthbarGameController:OnCombatStateChanged(value) return end
+function gameuiHudHealthbarGameController:OnCombatStateChanged(value) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiHudHealthbarGameController:OnDamageAggregationFinished(anim) return end
+function gameuiHudHealthbarGameController:OnDamageAggregationFinished(anim) end
 
----@protected
 ---@return Bool
-function gameuiHudHealthbarGameController:OnForceHide() return end
+function gameuiHudHealthbarGameController:OnForceHide() end
 
----@protected
 ---@param tierVisibility Bool
 ---@return Bool
-function gameuiHudHealthbarGameController:OnForceTierVisibility(tierVisibility) return end
+function gameuiHudHealthbarGameController:OnForceTierVisibility(tierVisibility) end
 
----@protected
 ---@return Bool
-function gameuiHudHealthbarGameController:OnInitialize() return end
+function gameuiHudHealthbarGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiHudHealthbarGameController:OnLeftWeaponSwap(value) return end
+function gameuiHudHealthbarGameController:OnLeftWeaponSwap(value) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiHudHealthbarGameController:OnLevelUpAnimationFinished(anim) return end
+function gameuiHudHealthbarGameController:OnLevelUpAnimationFinished(anim) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function gameuiHudHealthbarGameController:OnMemoryBarSpawned(widget, userData) return end
+function gameuiHudHealthbarGameController:OnMemoryBarSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiHudHealthbarGameController:OnMuppetUpdate(value) return end
+function gameuiHudHealthbarGameController:OnMuppetUpdate(value) end
 
----@protected
 ---@param e OverclockDamagePreview
 ---@return Bool
-function gameuiHudHealthbarGameController:OnOverclockDamagePreview(e) return end
+function gameuiHudHealthbarGameController:OnOverclockDamagePreview(e) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiHudHealthbarGameController:OnPSMVisionStateChanged(value) return end
+function gameuiHudHealthbarGameController:OnPSMVisionStateChanged(value) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function gameuiHudHealthbarGameController:OnPlayerAttach(playerGameObject) return end
+function gameuiHudHealthbarGameController:OnPlayerAttach(playerGameObject) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function gameuiHudHealthbarGameController:OnPlayerDetach(playerGameObject) return end
+function gameuiHudHealthbarGameController:OnPlayerDetach(playerGameObject) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function gameuiHudHealthbarGameController:OnQuickhacksMemoryPercentUpdate(value) return end
+function gameuiHudHealthbarGameController:OnQuickhacksMemoryPercentUpdate(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiHudHealthbarGameController:OnRightWeaponSwap(value) return end
+function gameuiHudHealthbarGameController:OnRightWeaponSwap(value) end
 
----@protected
 ---@param argTier Int32
 ---@return Bool
-function gameuiHudHealthbarGameController:OnSceneTierChange(argTier) return end
+function gameuiHudHealthbarGameController:OnSceneTierChange(argTier) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiHudHealthbarGameController:OnStatsChanged(value) return end
+function gameuiHudHealthbarGameController:OnStatsChanged(value) end
 
----@protected
 ---@return Bool
-function gameuiHudHealthbarGameController:OnUninitialize() return end
+function gameuiHudHealthbarGameController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function gameuiHudHealthbarGameController:OnUpdateHealthBarVisibility() return end
+function gameuiHudHealthbarGameController:OnUpdateHealthBarVisibility() end
 
----@private
 ---@return nil
-function gameuiHudHealthbarGameController:AdjustRequest() return end
+function gameuiHudHealthbarGameController:AdjustRequest() end
 
----@private
 ---@param value Int32
 ---@param skipAnimation? Bool
 ---@return nil
-function gameuiHudHealthbarGameController:AnimateCharacterLevelUpdated(value, skipAnimation) return end
+function gameuiHudHealthbarGameController:AnimateCharacterLevelUpdated(value, skipAnimation) end
 
----@private
 ---@return nil
-function gameuiHudHealthbarGameController:CreateAnimations() return end
+function gameuiHudHealthbarGameController:CreateAnimations() end
 
 ---@param isInOverclockedState Bool
 ---@return nil
-function gameuiHudHealthbarGameController:EvaluateHealthBarVisibility(isInOverclockedState) return end
+function gameuiHudHealthbarGameController:EvaluateHealthBarVisibility(isInOverclockedState) end
 
 ---@return nil
-function gameuiHudHealthbarGameController:EvaluateOvershieldBarVisibility() return end
+function gameuiHudHealthbarGameController:EvaluateOvershieldBarVisibility() end
 
----@private
 ---@return Bool
-function gameuiHudHealthbarGameController:HelperHasGodMode() return end
+function gameuiHudHealthbarGameController:HelperHasGodMode() end
 
----@private
 ---@return Bool
-function gameuiHudHealthbarGameController:IsCyberdeckEquipped() return end
+function gameuiHudHealthbarGameController:IsCyberdeckEquipped() end
 
----@private
 ---@return Bool
-function gameuiHudHealthbarGameController:IsUnarmed() return end
+function gameuiHudHealthbarGameController:IsUnarmed() end
 
----@protected
 ---@param playerObject gameObject
 ---@return nil
-function gameuiHudHealthbarGameController:RegisterPSMListeners(playerObject) return end
+function gameuiHudHealthbarGameController:RegisterPSMListeners(playerObject) end
 
----@private
 ---@param normalizedValue Float
 ---@param silent Bool
 ---@return nil
-function gameuiHudHealthbarGameController:SetArmorProgress(normalizedValue, silent) return end
+function gameuiHudHealthbarGameController:SetArmorProgress(normalizedValue, silent) end
 
----@private
 ---@param value Float
 ---@return nil
-function gameuiHudHealthbarGameController:SetHealthProgress(value) return end
+function gameuiHudHealthbarGameController:SetHealthProgress(value) end
 
----@private
 ---@return nil
-function gameuiHudHealthbarGameController:SetupQuickhacksMemoryBar() return end
+function gameuiHudHealthbarGameController:SetupQuickhacksMemoryBar() end
 
----@private
 ---@return nil
-function gameuiHudHealthbarGameController:ShowOverclockedHealthbar() return end
+function gameuiHudHealthbarGameController:ShowOverclockedHealthbar() end
 
----@private
 ---@return nil
-function gameuiHudHealthbarGameController:StartDamageFallDelay() return end
+function gameuiHudHealthbarGameController:StartDamageFallDelay() end
 
----@protected
 ---@param playerObject gameObject
 ---@return nil
-function gameuiHudHealthbarGameController:UnregisterPSMListeners(playerObject) return end
-
----@private
----@return nil
-function gameuiHudHealthbarGameController:UpdateCurrentHealthText() return end
+function gameuiHudHealthbarGameController:UnregisterPSMListeners(playerObject) end
 
 ---@return nil
-function gameuiHudHealthbarGameController:UpdateGodModeVisibility() return end
+function gameuiHudHealthbarGameController:UpdateCurrentHealthText() end
 
----@private
 ---@return nil
-function gameuiHudHealthbarGameController:UpdateMemoryBarData() return end
+function gameuiHudHealthbarGameController:UpdateGodModeVisibility() end
+
+---@return nil
+function gameuiHudHealthbarGameController:UpdateMemoryBarData() end
 
 ---@param maxBars Float
 ---@return nil
-function gameuiHudHealthbarGameController:UpdateMemoryBarMaxStat(maxBars) return end
+function gameuiHudHealthbarGameController:UpdateMemoryBarMaxStat(maxBars) end
 
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function gameuiHudHealthbarGameController:UpdateOvershieldValue(newValue, percToPoints) return end
+function gameuiHudHealthbarGameController:UpdateOvershieldValue(newValue, percToPoints) end
 
----@private
 ---@param size Int32
 ---@return nil
-function gameuiHudHealthbarGameController:UpdateQuickhacksMemoryBarSize(size) return end
+function gameuiHudHealthbarGameController:UpdateQuickhacksMemoryBarSize(size) end

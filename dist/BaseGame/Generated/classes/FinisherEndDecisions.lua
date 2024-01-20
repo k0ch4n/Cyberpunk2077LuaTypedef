@@ -5,4 +5,4 @@ FinisherEndDecisions = {}
 
 ---@param fields? FinisherEndDecisions
 ---@return FinisherEndDecisions
-function FinisherEndDecisions.new(fields) return end
+function FinisherEndDecisions.new(fields) end

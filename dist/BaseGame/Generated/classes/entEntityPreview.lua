@@ -5,4 +5,4 @@ entEntityPreview = {}
 
 ---@param fields? entEntityPreview
 ---@return entEntityPreview
-function entEntityPreview.new(fields) return end
+function entEntityPreview.new(fields) end

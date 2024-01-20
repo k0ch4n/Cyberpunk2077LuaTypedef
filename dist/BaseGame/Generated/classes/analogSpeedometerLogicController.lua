@@ -1,32 +1,31 @@
 ---@meta
 
 ---@class analogSpeedometerLogicController: IVehicleModuleController
----@field private analogSpeedNeedleWidget inkWidgetReference
----@field private analogSpeedNeedleMinRotation Float
----@field private analogSpeedNeedleMaxRotation Float
----@field private analogSpeedNeedleMaxValue Float
----@field private speedBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private vehicle vehicleBaseObject
+---@field analogSpeedNeedleWidget inkWidgetReference
+---@field analogSpeedNeedleMinRotation Float
+---@field analogSpeedNeedleMaxRotation Float
+---@field analogSpeedNeedleMaxValue Float
+---@field speedBBConnectionId redCallbackObject
+---@field vehBB gameIBlackboard
+---@field vehicle vehicleBaseObject
 analogSpeedometerLogicController = {}
 
 ---@param fields? analogSpeedometerLogicController
 ---@return analogSpeedometerLogicController
-function analogSpeedometerLogicController.new(fields) return end
+function analogSpeedometerLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function analogSpeedometerLogicController:OnUninitialize() return end
+function analogSpeedometerLogicController:OnUninitialize() end
 
 ---@param speed Float
 ---@return nil
-function analogSpeedometerLogicController:OnSpeedValueChanged(speed) return end
+function analogSpeedometerLogicController:OnSpeedValueChanged(speed) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function analogSpeedometerLogicController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function analogSpeedometerLogicController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function analogSpeedometerLogicController:UnregisterCallbacks() return end
+function analogSpeedometerLogicController:UnregisterCallbacks() end

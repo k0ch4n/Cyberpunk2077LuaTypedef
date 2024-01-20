@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class RestoreStatPoolEffector: gameEffector
----@field public statPoolType gamedataStatPoolType
----@field public valueToRestore Float
----@field public percentage Bool
+---@field statPoolType gamedataStatPoolType
+---@field valueToRestore Float
+---@field percentage Bool
 RestoreStatPoolEffector = {}
 
 ---@param fields? RestoreStatPoolEffector
 ---@return RestoreStatPoolEffector
-function RestoreStatPoolEffector.new(fields) return end
+function RestoreStatPoolEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RestoreStatPoolEffector:ActionOn(owner) return end
+function RestoreStatPoolEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function RestoreStatPoolEffector:Initialize(record, parentRecord) return end
+function RestoreStatPoolEffector:Initialize(record, parentRecord) end

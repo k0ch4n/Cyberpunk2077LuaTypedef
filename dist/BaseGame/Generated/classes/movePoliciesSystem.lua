@@ -5,4 +5,4 @@ movePoliciesSystem = {}
 
 ---@param fields? movePoliciesSystem
 ---@return movePoliciesSystem
-function movePoliciesSystem.new(fields) return end
+function movePoliciesSystem.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkCompositionPreset
----@field public stateName CName
----@field public useBackgroundTexture Bool
----@field public shaderParams fxCompositionShaderParams
----@field public transitions inkCompositionTransition[]
+---@field stateName CName
+---@field useBackgroundTexture Bool
+---@field shaderParams fxCompositionShaderParams
+---@field transitions inkCompositionTransition[]
 inkCompositionPreset = {}
 
 ---@param fields? inkCompositionPreset
 ---@return inkCompositionPreset
-function inkCompositionPreset.new(fields) return end
+function inkCompositionPreset.new(fields) end

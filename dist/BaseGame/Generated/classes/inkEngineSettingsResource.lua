@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkEngineSettingsResource: CResource
----@field public fallbackCompositionResource inkFullscreenCompositionResource
----@field public fallbackShapeCollectionResource inkShapeCollectionResource
----@field public fallbackIconAtlasResource inkTextureAtlas
----@field public inputKeyIconsDefinitionResource JsonResource
----@field public fallbackFontFamilyPath inkFontFamilyResource
----@field public blackTexture CBitmapTexture
----@field public advertMissingFormatTexture CBitmapTexture
----@field public advertWrongResourceTexture CBitmapTexture
----@field public fallbackTextureAtlas inkTextureAtlas
----@field public imageTilingMaterial IMaterial
----@field public imageNineSliceMaterial IMaterial
----@field public depthMaterial IMaterial
----@field public whiteMaskAtlas inkTextureAtlas
----@field public defaultBinkMaterial CMaterialTemplate
----@field public tooManyBinksTexture CBitmapTexture
----@field public componentMissingTexture CBitmapTexture
+---@field fallbackCompositionResource inkFullscreenCompositionResource
+---@field fallbackShapeCollectionResource inkShapeCollectionResource
+---@field fallbackIconAtlasResource inkTextureAtlas
+---@field inputKeyIconsDefinitionResource JsonResource
+---@field fallbackFontFamilyPath inkFontFamilyResource
+---@field blackTexture CBitmapTexture
+---@field advertMissingFormatTexture CBitmapTexture
+---@field advertWrongResourceTexture CBitmapTexture
+---@field fallbackTextureAtlas inkTextureAtlas
+---@field imageTilingMaterial IMaterial
+---@field imageNineSliceMaterial IMaterial
+---@field depthMaterial IMaterial
+---@field whiteMaskAtlas inkTextureAtlas
+---@field defaultBinkMaterial CMaterialTemplate
+---@field tooManyBinksTexture CBitmapTexture
+---@field componentMissingTexture CBitmapTexture
 inkEngineSettingsResource = {}
 
 ---@param fields? inkEngineSettingsResource
 ---@return inkEngineSettingsResource
-function inkEngineSettingsResource.new(fields) return end
+function inkEngineSettingsResource.new(fields) end

@@ -5,10 +5,10 @@ gamedataAISquadFilterOwnTargetSpotted_Record = {}
 
 ---@param fields? gamedataAISquadFilterOwnTargetSpotted_Record
 ---@return gamedataAISquadFilterOwnTargetSpotted_Record
-function gamedataAISquadFilterOwnTargetSpotted_Record.new(fields) return end
+function gamedataAISquadFilterOwnTargetSpotted_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISquadFilterOwnTargetSpotted_Record:Target() return end
+function gamedataAISquadFilterOwnTargetSpotted_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISquadFilterOwnTargetSpotted_Record:TargetHandle() return end
+function gamedataAISquadFilterOwnTargetSpotted_Record:TargetHandle() end

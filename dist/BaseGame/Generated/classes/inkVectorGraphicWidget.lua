@@ -5,8 +5,8 @@ inkVectorGraphicWidget = {}
 
 ---@param fields? inkVectorGraphicWidget
 ---@return inkVectorGraphicWidget
-function inkVectorGraphicWidget.new(fields) return end
+function inkVectorGraphicWidget.new(fields) end
 
 ---@param svgPath String
 ---@return nil
-function inkVectorGraphicWidget:LoadSVG(svgPath) return end
+function inkVectorGraphicWidget:LoadSVG(svgPath) end

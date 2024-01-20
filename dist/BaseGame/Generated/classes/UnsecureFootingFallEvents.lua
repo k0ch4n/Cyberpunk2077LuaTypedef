@@ -5,17 +5,15 @@ UnsecureFootingFallEvents = {}
 
 ---@param fields? UnsecureFootingFallEvents
 ---@return UnsecureFootingFallEvents
-function UnsecureFootingFallEvents.new(fields) return end
+function UnsecureFootingFallEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UnsecureFootingFallEvents:OnEnter(stateContext, scriptInterface) return end
+function UnsecureFootingFallEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UnsecureFootingFallEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function UnsecureFootingFallEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

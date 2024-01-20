@@ -5,4 +5,4 @@ gameAugmentedRealitySign = {}
 
 ---@param fields? gameAugmentedRealitySign
 ---@return gameAugmentedRealitySign
-function gameAugmentedRealitySign.new(fields) return end
+function gameAugmentedRealitySign.new(fields) end

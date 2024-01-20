@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeColliderData
----@field public type gameuiarcadeArcadeColliderType
----@field public shape gameuiarcadeBoundingShape
+---@field type gameuiarcadeArcadeColliderType
+---@field shape gameuiarcadeBoundingShape
 gameuiarcadeArcadeColliderData = {}
 
 ---@param fields? gameuiarcadeArcadeColliderData
 ---@return gameuiarcadeArcadeColliderData
-function gameuiarcadeArcadeColliderData.new(fields) return end
+function gameuiarcadeArcadeColliderData.new(fields) end

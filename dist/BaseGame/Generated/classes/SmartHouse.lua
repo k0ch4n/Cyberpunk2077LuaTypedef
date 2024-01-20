@@ -1,59 +1,49 @@
 ---@meta
 
 ---@class SmartHouse: InteractiveMasterDevice
----@field protected timetableActive Bool
+---@field timetableActive Bool
 SmartHouse = {}
 
 ---@param fields? SmartHouse
 ---@return SmartHouse
-function SmartHouse.new(fields) return end
+function SmartHouse.new(fields) end
 
----@protected
 ---@return Bool
-function SmartHouse:OnDetach() return end
+function SmartHouse:OnDetach() end
 
----@protected
 ---@param evt DisableTimeCallbacks
 ---@return Bool
-function SmartHouse:OnDisableTimeCallbacks(evt) return end
+function SmartHouse:OnDisableTimeCallbacks(evt) end
 
----@protected
 ---@param evt EnableTimeCallbacks
 ---@return Bool
-function SmartHouse:OnEnableTimeCallbacks(evt) return end
+function SmartHouse:OnEnableTimeCallbacks(evt) end
 
----@protected
 ---@param evt gameFactChangedEvent
 ---@return Bool
-function SmartHouse:OnFactChanged(evt) return end
+function SmartHouse:OnFactChanged(evt) end
 
----@protected
 ---@return Bool
-function SmartHouse:OnGameAttached() return end
+function SmartHouse:OnGameAttached() end
 
----@protected
 ---@param evt ChangePresetEvent
 ---@return Bool
-function SmartHouse:OnQuestChangePreset(evt) return end
+function SmartHouse:OnQuestChangePreset(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SmartHouse:OnRequestComponents(ri) return end
+function SmartHouse:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SmartHouse:OnTakeControl(ri) return end
+function SmartHouse:OnTakeControl(ri) end
 
----@protected
 ---@param evt PresetTimetableEvent
 ---@return Bool
-function SmartHouse:OnTimeTableCallback(evt) return end
+function SmartHouse:OnTimeTableCallback(evt) end
 
----@protected
 ---@return SmartHouseController
-function SmartHouse:GetController() return end
+function SmartHouse:GetController() end
 
 ---@return SmartHouseControllerPS
-function SmartHouse:GetDevicePS() return end
+function SmartHouse:GetDevicePS() end

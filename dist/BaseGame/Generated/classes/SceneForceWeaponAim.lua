@@ -5,7 +5,7 @@ SceneForceWeaponAim = {}
 
 ---@param fields? SceneForceWeaponAim
 ---@return SceneForceWeaponAim
-function SceneForceWeaponAim.new(fields) return end
+function SceneForceWeaponAim.new(fields) end
 
 ---@return String
-function SceneForceWeaponAim:GetFriendlyDescription() return end
+function SceneForceWeaponAim:GetFriendlyDescription() end

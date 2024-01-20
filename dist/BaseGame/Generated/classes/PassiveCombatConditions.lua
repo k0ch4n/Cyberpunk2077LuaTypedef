@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class PassiveCombatConditions: PassiveAutonomousCondition
----@field protected combatCommandCbId Uint32
----@field protected roleCbId Uint32
----@field protected threatCbId Uint32
----@field protected playerCombatCbId Uint32
----@field protected activeCombatConditionCbId Uint32
----@field protected delayEvaluationCbId Uint32
+---@field combatCommandCbId Uint32
+---@field roleCbId Uint32
+---@field threatCbId Uint32
+---@field playerCombatCbId Uint32
+---@field activeCombatConditionCbId Uint32
+---@field delayEvaluationCbId Uint32
 PassiveCombatConditions = {}
 
 ---@param fields? PassiveCombatConditions
 ---@return PassiveCombatConditions
-function PassiveCombatConditions.new(fields) return end
+function PassiveCombatConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveCombatConditions:Activate(context) return end
+function PassiveCombatConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveCombatConditions:CalculateValue(context) return end
+function PassiveCombatConditions:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveCombatConditions:Deactivate(context) return end
+function PassiveCombatConditions:Deactivate(context) end

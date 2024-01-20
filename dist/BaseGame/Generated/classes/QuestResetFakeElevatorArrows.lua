@@ -5,7 +5,7 @@ QuestResetFakeElevatorArrows = {}
 
 ---@param fields? QuestResetFakeElevatorArrows
 ---@return QuestResetFakeElevatorArrows
-function QuestResetFakeElevatorArrows.new(fields) return end
+function QuestResetFakeElevatorArrows.new(fields) end
 
 ---@return nil
-function QuestResetFakeElevatorArrows:SetProperties() return end
+function QuestResetFakeElevatorArrows:SetProperties() end

@@ -5,48 +5,40 @@ AOEEffector = {}
 
 ---@param fields? AOEEffector
 ---@return AOEEffector
-function AOEEffector.new(fields) return end
+function AOEEffector.new(fields) end
 
----@protected
 ---@return Bool
-function AOEEffector:OnGameAttached() return end
+function AOEEffector:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function AOEEffector:OnRequestComponents(ri) return end
+function AOEEffector:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function AOEEffector:OnTakeControl(ri) return end
+function AOEEffector:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleAOEEffect
 ---@return Bool
-function AOEEffector:OnToggleAOEEffect(evt) return end
+function AOEEffector:OnToggleAOEEffect(evt) end
 
----@protected
 ---@return nil
-function AOEEffector:BreakEffects() return end
+function AOEEffector:BreakEffects() end
 
 ---@return EGameplayRole
-function AOEEffector:DeterminGameplayRole() return end
+function AOEEffector:DeterminGameplayRole() end
 
----@protected
 ---@return AOEEffectorController
-function AOEEffector:GetController() return end
+function AOEEffector:GetController() end
 
 ---@return AOEEffectorControllerPS
-function AOEEffector:GetDevicePS() return end
+function AOEEffector:GetDevicePS() end
 
 ---@return Bool
-function AOEEffector:IsGameplayRelevant() return end
+function AOEEffector:IsGameplayRelevant() end
 
----@protected
 ---@return nil
-function AOEEffector:PushPersistentData() return end
+function AOEEffector:PushPersistentData() end
 
----@protected
 ---@return nil
-function AOEEffector:StartEffects() return end
+function AOEEffector:StartEffects() end

@@ -5,20 +5,20 @@ AIScriptsTargetTrackingListener = {}
 
 ---@param fields? AIScriptsTargetTrackingListener
 ---@return AIScriptsTargetTrackingListener
-function AIScriptsTargetTrackingListener.new(fields) return end
+function AIScriptsTargetTrackingListener.new(fields) end
 
 ---@param bound Float
 ---@return nil
-function AIScriptsTargetTrackingListener:SetAccuracyBound(bound) return end
+function AIScriptsTargetTrackingListener:SetAccuracyBound(bound) end
 
 ---@param bound Float
 ---@return nil
-function AIScriptsTargetTrackingListener:SetSharedAccuracyBound(bound) return end
+function AIScriptsTargetTrackingListener:SetSharedAccuracyBound(bound) end
 
 ---@param above Bool
 ---@return nil
-function AIScriptsTargetTrackingListener:OnAccuracyBoundReached(above) return end
+function AIScriptsTargetTrackingListener:OnAccuracyBoundReached(above) end
 
 ---@param above Bool
 ---@return nil
-function AIScriptsTargetTrackingListener:OnSharedAccuracyBoundReached(above) return end
+function AIScriptsTargetTrackingListener:OnSharedAccuracyBoundReached(above) end

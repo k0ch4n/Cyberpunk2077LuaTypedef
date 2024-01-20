@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questTeleportPuppetNodeDefinition: questAICommandNodeBase
----@field public entityReference questUniversalRef
----@field public params questTeleportPuppetParamsV1
----@field public lookAtAction questLookAtAction
----@field public playerLookAt questPlayerLookAtParams
+---@field entityReference questUniversalRef
+---@field params questTeleportPuppetParamsV1
+---@field lookAtAction questLookAtAction
+---@field playerLookAt questPlayerLookAtParams
 questTeleportPuppetNodeDefinition = {}
 
 ---@param fields? questTeleportPuppetNodeDefinition
 ---@return questTeleportPuppetNodeDefinition
-function questTeleportPuppetNodeDefinition.new(fields) return end
+function questTeleportPuppetNodeDefinition.new(fields) end

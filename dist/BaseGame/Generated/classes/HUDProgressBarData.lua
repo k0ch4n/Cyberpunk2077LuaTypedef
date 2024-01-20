@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class HUDProgressBarData
----@field public header String
----@field public bottomText String
----@field public completedText String
----@field public failedText String
----@field public active Bool
----@field public progress Float
----@field public type gameSimpleMessageType
+---@field header String
+---@field bottomText String
+---@field completedText String
+---@field failedText String
+---@field active Bool
+---@field progress Float
+---@field type gameSimpleMessageType
 HUDProgressBarData = {}
 
 ---@param fields? HUDProgressBarData
 ---@return HUDProgressBarData
-function HUDProgressBarData.new(fields) return end
+function HUDProgressBarData.new(fields) end

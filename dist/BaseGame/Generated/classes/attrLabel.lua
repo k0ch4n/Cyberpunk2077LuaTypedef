@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class attrLabel: attrAttribute
----@field public xt String
+---@field xt String
 attrLabel = {}
 
 ---@param fields? attrLabel
 ---@return attrLabel
-function attrLabel.new(fields) return end
+function attrLabel.new(fields) end

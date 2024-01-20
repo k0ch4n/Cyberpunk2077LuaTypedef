@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ControlledDeviceData: WidgetCustomData
----@field public isActive Bool
----@field public isNest Bool
+---@field isActive Bool
+---@field isNest Bool
 ControlledDeviceData = {}
 
 ---@param fields? ControlledDeviceData
 ---@return ControlledDeviceData
-function ControlledDeviceData.new(fields) return end
+function ControlledDeviceData.new(fields) end

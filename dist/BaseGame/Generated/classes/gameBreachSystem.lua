@@ -5,4 +5,4 @@ gameBreachSystem = {}
 
 ---@param fields? gameBreachSystem
 ---@return gameBreachSystem
-function gameBreachSystem.new(fields) return end
+function gameBreachSystem.new(fields) end

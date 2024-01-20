@@ -5,4 +5,4 @@ gameUniqueItemData = {}
 
 ---@param fields? gameUniqueItemData
 ---@return gameUniqueItemData
-function gameUniqueItemData.new(fields) return end
+function gameUniqueItemData.new(fields) end

@@ -1,39 +1,34 @@
 ---@meta
 
 ---@class TakedownLeapToPreyDecisions: LocomotionTakedownDecisions
----@field public stateMachineInitData LocomotionTakedownInitData
+---@field stateMachineInitData LocomotionTakedownInitData
 TakedownLeapToPreyDecisions = {}
 
 ---@param fields? TakedownLeapToPreyDecisions
 ---@return TakedownLeapToPreyDecisions
-function TakedownLeapToPreyDecisions.new(fields) return end
+function TakedownLeapToPreyDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownLeapToPreyDecisions:CollisionBetweenPlayerAndTarget(stateContext, scriptInterface) return end
+function TakedownLeapToPreyDecisions:CollisionBetweenPlayerAndTarget(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownLeapToPreyDecisions:EnterCondition(stateContext, scriptInterface) return end
+function TakedownLeapToPreyDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownLeapToPreyDecisions:TestTakedownEnterConditions(stateContext, scriptInterface) return end
+function TakedownLeapToPreyDecisions:TestTakedownEnterConditions(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownLeapToPreyDecisions:ToTakedownEnd(stateContext, scriptInterface) return end
+function TakedownLeapToPreyDecisions:ToTakedownEnd(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownLeapToPreyDecisions:ToTakedownExecuteTakedown(stateContext, scriptInterface) return end
+function TakedownLeapToPreyDecisions:ToTakedownExecuteTakedown(stateContext, scriptInterface) end

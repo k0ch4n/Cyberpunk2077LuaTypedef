@@ -1,27 +1,26 @@
 ---@meta
 
 ---@class InventoryItemDisplayCategoryArea: inkWidgetLogicController
----@field protected areasToHide inkWidgetReference[]
----@field protected equipmentAreas inkCompoundWidgetReference[]
----@field protected newItemsWrapper inkWidgetReference
----@field protected newItemsCounter inkTextWidgetReference
----@field protected categoryAreas InventoryItemDisplayEquipmentArea[]
+---@field areasToHide inkWidgetReference[]
+---@field equipmentAreas inkCompoundWidgetReference[]
+---@field newItemsWrapper inkWidgetReference
+---@field newItemsCounter inkTextWidgetReference
+---@field categoryAreas InventoryItemDisplayEquipmentArea[]
 InventoryItemDisplayCategoryArea = {}
 
 ---@param fields? InventoryItemDisplayCategoryArea
 ---@return InventoryItemDisplayCategoryArea
-function InventoryItemDisplayCategoryArea.new(fields) return end
+function InventoryItemDisplayCategoryArea.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryItemDisplayCategoryArea:OnInitialize() return end
+function InventoryItemDisplayCategoryArea:OnInitialize() end
 
 ---@return inkWidgetReference[]
-function InventoryItemDisplayCategoryArea:GetAreasToHide() return end
+function InventoryItemDisplayCategoryArea:GetAreasToHide() end
 
 ---@return InventoryItemDisplayEquipmentArea[]
-function InventoryItemDisplayCategoryArea:GetCategoryAreas() return end
+function InventoryItemDisplayCategoryArea:GetCategoryAreas() end
 
 ---@param value Int32
 ---@return nil
-function InventoryItemDisplayCategoryArea:SetNewItemsCounter(value) return end
+function InventoryItemDisplayCategoryArea:SetNewItemsCounter(value) end

@@ -1,66 +1,64 @@
 ---@meta
 
 ---@class DialogHubLogicController: inkWidgetLogicController
----@field public progressBarHolder inkWidgetReference
----@field public selectionSizeProviderRef inkWidgetReference
----@field public selectionRoot inkWidgetReference
----@field public moveAnimTime Float
----@field private rootWidget inkWidget
----@field private possessedDialogFluff inkWidget
----@field private titleWidget inkTextWidget
----@field private titleBorder inkWidget
----@field private titleContainer inkCompoundWidget
----@field private mainVert inkCompoundWidget
----@field private id Int32
----@field private isSelected Bool
----@field private data gameinteractionsvisListChoiceHubData
----@field private itemControllers DialogChoiceLogicController[]
----@field private progressBar DialogChoiceTimerController
----@field private hasProgressBar Bool
----@field private wasTimmed Bool
----@field private isClosingDelayed Bool
----@field private lastSelectedIdx Int32
----@field private inActiveTransparency Float
----@field private animSelectMarginProxy inkanimProxy
----@field private animSelectSizeProxy inkanimProxy
----@field private animSelectMargin inkanimDefinition
----@field private animSelectSize inkanimDefinition
----@field private animfFadingOutProxy inkanimProxy
----@field public selectBgSizeInterp inkanimSizeInterpolator
----@field public selectBgMarginInterp inkanimMarginInterpolator
----@field private dialogHubData DialogHubData
----@field private pendingRequests Int32
----@field private spawnTokens inkAsyncSpawnRequest[]
+---@field progressBarHolder inkWidgetReference
+---@field selectionSizeProviderRef inkWidgetReference
+---@field selectionRoot inkWidgetReference
+---@field moveAnimTime Float
+---@field rootWidget inkWidget
+---@field possessedDialogFluff inkWidget
+---@field titleWidget inkTextWidget
+---@field titleBorder inkWidget
+---@field titleContainer inkCompoundWidget
+---@field mainVert inkCompoundWidget
+---@field id Int32
+---@field isSelected Bool
+---@field data gameinteractionsvisListChoiceHubData
+---@field itemControllers DialogChoiceLogicController[]
+---@field progressBar DialogChoiceTimerController
+---@field hasProgressBar Bool
+---@field wasTimmed Bool
+---@field isClosingDelayed Bool
+---@field lastSelectedIdx Int32
+---@field inActiveTransparency Float
+---@field animSelectMarginProxy inkanimProxy
+---@field animSelectSizeProxy inkanimProxy
+---@field animSelectMargin inkanimDefinition
+---@field animSelectSize inkanimDefinition
+---@field animfFadingOutProxy inkanimProxy
+---@field selectBgSizeInterp inkanimSizeInterpolator
+---@field selectBgMarginInterp inkanimMarginInterpolator
+---@field dialogHubData DialogHubData
+---@field pendingRequests Int32
+---@field spawnTokens inkAsyncSpawnRequest[]
 DialogHubLogicController = {}
 
 ---@param fields? DialogHubLogicController
 ---@return DialogHubLogicController
-function DialogHubLogicController.new(fields) return end
+function DialogHubLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function DialogHubLogicController:OnInitialize() return end
+function DialogHubLogicController:OnInitialize() end
 
----@protected
 ---@param newItem inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DialogHubLogicController:OnItemSpawned(newItem, userData) return end
+function DialogHubLogicController:OnItemSpawned(newItem, userData) end
 
 ---@param fadeOutTime Float
 ---@return nil
-function DialogHubLogicController:FadeOutItems(fadeOutTime) return end
+function DialogHubLogicController:FadeOutItems(fadeOutTime) end
 
 ---@return Int32
-function DialogHubLogicController:GetId() return end
+function DialogHubLogicController:GetId() end
 
 ---@param isMenuVisible Bool
 ---@return nil
-function DialogHubLogicController:OnMenuVisibilityChange(isMenuVisible) return end
+function DialogHubLogicController:OnMenuVisibilityChange(isMenuVisible) end
 
 ---@param overrideButton Bool
 ---@return nil
-function DialogHubLogicController:OverrideInputButton(overrideButton) return end
+function DialogHubLogicController:OverrideInputButton(overrideButton) end
 
 ---@param value gameinteractionsvisListChoiceHubData
 ---@param isSelected Bool
@@ -70,25 +68,22 @@ function DialogHubLogicController:OverrideInputButton(overrideButton) return end
 ---@param currentNum Int32
 ---@param argTotalCountAcrossHubs Int32
 ---@return nil
-function DialogHubLogicController:SetData(value, isSelected, selectedInd, hasAboveElements, hasBelowElements, currentNum, argTotalCountAcrossHubs) return end
+function DialogHubLogicController:SetData(value, isSelected, selectedInd, hasAboveElements, hasBelowElements, currentNum, argTotalCountAcrossHubs) end
 
----@private
 ---@param isActive Bool
 ---@param timedDuration Float
 ---@param timedProgress Float
 ---@return nil
-function DialogHubLogicController:SetupTimeBar(isActive, timedDuration, timedProgress) return end
+function DialogHubLogicController:SetupTimeBar(isActive, timedDuration, timedProgress) end
 
----@private
 ---@param title String
 ---@param isActive Bool
 ---@param isPossessed Bool
 ---@return nil
-function DialogHubLogicController:SetupTitle(title, isActive, isPossessed) return end
+function DialogHubLogicController:SetupTitle(title, isActive, isPossessed) end
 
----@private
 ---@return nil
-function DialogHubLogicController:UpdateDialogHubData() return end
+function DialogHubLogicController:UpdateDialogHubData() end
 
 ---@return Bool
-function DialogHubLogicController:WasTimed() return end
+function DialogHubLogicController:WasTimed() end

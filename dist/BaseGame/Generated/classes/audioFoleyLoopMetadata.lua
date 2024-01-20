@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioFoleyLoopMetadata
----@field public startEvent CName
----@field public stopEvent CName
+---@field startEvent CName
+---@field stopEvent CName
 audioFoleyLoopMetadata = {}
 
 ---@param fields? audioFoleyLoopMetadata
 ---@return audioFoleyLoopMetadata
-function audioFoleyLoopMetadata.new(fields) return end
+function audioFoleyLoopMetadata.new(fields) end

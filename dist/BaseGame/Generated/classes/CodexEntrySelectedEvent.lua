@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CodexEntrySelectedEvent: redEvent
----@field public hash Uint32
+---@field hash Uint32
 CodexEntrySelectedEvent = {}
 
 ---@param fields? CodexEntrySelectedEvent
 ---@return CodexEntrySelectedEvent
-function CodexEntrySelectedEvent.new(fields) return end
+function CodexEntrySelectedEvent.new(fields) end

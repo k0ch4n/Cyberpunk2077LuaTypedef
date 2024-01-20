@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class questMoveToParams: questAICommandParams
----@field public movementTargetRef questUniversalRef
----@field public facingTargetRef questUniversalRef
----@field public rotateEntityTowardsFacingTarget Bool
----@field public movementType moveMovementType
----@field public ignoreNavigation Bool
----@field public useStart Bool
----@field public useStop Bool
----@field public desiredDistanceFromTarget Float
----@field public finishWhenDestinationReached Bool
----@field public repeatCommandOnInterrupt Bool
----@field public executeWhileDespawned Bool
----@field public removeAfterCombat Bool
----@field public ignoreInCombat Bool
----@field public alwaysUseStealth Bool
+---@field movementTargetRef questUniversalRef
+---@field facingTargetRef questUniversalRef
+---@field rotateEntityTowardsFacingTarget Bool
+---@field movementType moveMovementType
+---@field ignoreNavigation Bool
+---@field useStart Bool
+---@field useStop Bool
+---@field desiredDistanceFromTarget Float
+---@field finishWhenDestinationReached Bool
+---@field repeatCommandOnInterrupt Bool
+---@field executeWhileDespawned Bool
+---@field removeAfterCombat Bool
+---@field ignoreInCombat Bool
+---@field alwaysUseStealth Bool
 questMoveToParams = {}
 
 ---@param fields? questMoveToParams
 ---@return questMoveToParams
-function questMoveToParams.new(fields) return end
+function questMoveToParams.new(fields) end

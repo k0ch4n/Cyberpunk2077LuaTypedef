@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class OutputPersistentData
----@field public currentSecurityState ESecuritySystemState
----@field public breachOrigin EBreachOrigin
----@field public securityStateChanged Bool
----@field public lastKnownPosition Vector4
----@field public type ESecurityNotificationType
----@field public areaType ESecurityAreaType
----@field public objectOfInterest entEntityID
----@field public whoBreached entEntityID
----@field public reporter gamePersistentID
----@field public id Int32
+---@field currentSecurityState ESecuritySystemState
+---@field breachOrigin EBreachOrigin
+---@field securityStateChanged Bool
+---@field lastKnownPosition Vector4
+---@field type ESecurityNotificationType
+---@field areaType ESecurityAreaType
+---@field objectOfInterest entEntityID
+---@field whoBreached entEntityID
+---@field reporter gamePersistentID
+---@field id Int32
 OutputPersistentData = {}
 
 ---@param fields? OutputPersistentData
 ---@return OutputPersistentData
-function OutputPersistentData.new(fields) return end
+function OutputPersistentData.new(fields) end
 
 ---@param self OutputPersistentData
 ---@return Bool
-function OutputPersistentData.IsValid(self) return end
+function OutputPersistentData.IsValid(self) end

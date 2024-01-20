@@ -5,4 +5,4 @@ gamemappinsStubMappinData = {}
 
 ---@param fields? gamemappinsStubMappinData
 ---@return gamemappinsStubMappinData
-function gamemappinsStubMappinData.new(fields) return end
+function gamemappinsStubMappinData.new(fields) end

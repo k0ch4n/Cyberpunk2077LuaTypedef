@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameAudioEmitterComponent: entIPlacedComponent
----@field public EmitterName CName
----@field public EmitterType audioEntityEmitterContextType
----@field public OnAttach gameAudioSyncs
----@field public OnDetach gameAudioSyncs
----@field public updateDistance Float
----@field public emitterMetadataName CName
----@field public Tags CName[]
----@field public TagList redTagList
+---@field EmitterName CName
+---@field EmitterType audioEntityEmitterContextType
+---@field OnAttach gameAudioSyncs
+---@field OnDetach gameAudioSyncs
+---@field updateDistance Float
+---@field emitterMetadataName CName
+---@field Tags CName[]
+---@field TagList redTagList
 gameAudioEmitterComponent = {}
 
 ---@param fields? gameAudioEmitterComponent
 ---@return gameAudioEmitterComponent
-function gameAudioEmitterComponent.new(fields) return end
+function gameAudioEmitterComponent.new(fields) end

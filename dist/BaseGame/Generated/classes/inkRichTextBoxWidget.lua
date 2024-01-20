@@ -5,4 +5,4 @@ inkRichTextBoxWidget = {}
 
 ---@param fields? inkRichTextBoxWidget
 ---@return inkRichTextBoxWidget
-function inkRichTextBoxWidget.new(fields) return end
+function inkRichTextBoxWidget.new(fields) end

@@ -5,4 +5,4 @@ inkLeafWidget = {}
 
 ---@param fields? inkLeafWidget
 ---@return inkLeafWidget
-function inkLeafWidget.new(fields) return end
+function inkLeafWidget.new(fields) end

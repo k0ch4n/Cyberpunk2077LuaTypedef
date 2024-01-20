@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class AIActionHelperTask: AIbehaviortaskScript
----@field public actionTweakIDMapping AIArgumentMapping
----@field private actionStringName String
----@field private initialized Bool
----@field private actionName CName
----@field private actionID TweakDBID
+---@field actionTweakIDMapping AIArgumentMapping
+---@field actionStringName String
+---@field initialized Bool
+---@field actionName CName
+---@field actionID TweakDBID
 AIActionHelperTask = {}
 
----@protected
 ---@return TweakDBID
-function AIActionHelperTask:GetActionID() return end
+function AIActionHelperTask:GetActionID() end
 
----@private
 ---@return AIactionParamsPackageTypes
-function AIActionHelperTask:GetActionPackageType() return end
+function AIActionHelperTask:GetActionPackageType() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String
-function AIActionHelperTask:GetActionStringName(context) return end
+function AIActionHelperTask:GetActionStringName(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIActionHelperTask:Initialize(context) return end
+function AIActionHelperTask:Initialize(context) end

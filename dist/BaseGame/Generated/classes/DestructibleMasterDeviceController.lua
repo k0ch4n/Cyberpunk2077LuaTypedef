@@ -5,7 +5,7 @@ DestructibleMasterDeviceController = {}
 
 ---@param fields? DestructibleMasterDeviceController
 ---@return DestructibleMasterDeviceController
-function DestructibleMasterDeviceController.new(fields) return end
+function DestructibleMasterDeviceController.new(fields) end
 
 ---@return DestructibleMasterDeviceControllerPS
-function DestructibleMasterDeviceController:GetPS() return end
+function DestructibleMasterDeviceController:GetPS() end

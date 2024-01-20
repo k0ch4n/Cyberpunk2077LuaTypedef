@@ -5,4 +5,4 @@ gameaudioeventsPreFireEvent = {}
 
 ---@param fields? gameaudioeventsPreFireEvent
 ---@return gameaudioeventsPreFireEvent
-function gameaudioeventsPreFireEvent.new(fields) return end
+function gameaudioeventsPreFireEvent.new(fields) end

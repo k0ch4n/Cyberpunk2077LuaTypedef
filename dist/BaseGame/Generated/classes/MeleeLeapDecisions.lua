@@ -5,22 +5,19 @@ MeleeLeapDecisions = {}
 
 ---@param fields? MeleeLeapDecisions
 ---@return MeleeLeapDecisions
-function MeleeLeapDecisions.new(fields) return end
+function MeleeLeapDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeLeapDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeLeapDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeLeapDecisions:ToMeleeIdle(stateContext, scriptInterface) return end
+function MeleeLeapDecisions:ToMeleeIdle(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeLeapDecisions:ToMeleeStrongAttack(stateContext, scriptInterface) return end
+function MeleeLeapDecisions:ToMeleeStrongAttack(stateContext, scriptInterface) end

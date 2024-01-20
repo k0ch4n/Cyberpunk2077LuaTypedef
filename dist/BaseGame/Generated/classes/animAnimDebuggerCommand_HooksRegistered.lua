@@ -5,4 +5,4 @@ animAnimDebuggerCommand_HooksRegistered = {}
 
 ---@param fields? animAnimDebuggerCommand_HooksRegistered
 ---@return animAnimDebuggerCommand_HooksRegistered
-function animAnimDebuggerCommand_HooksRegistered.new(fields) return end
+function animAnimDebuggerCommand_HooksRegistered.new(fields) end

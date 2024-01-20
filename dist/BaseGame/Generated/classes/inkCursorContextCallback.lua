@@ -5,4 +5,4 @@ inkCursorContextCallback = {}
 
 ---@param fields? inkCursorContextCallback
 ---@return inkCursorContextCallback
-function inkCursorContextCallback.new(fields) return end
+function inkCursorContextCallback.new(fields) end

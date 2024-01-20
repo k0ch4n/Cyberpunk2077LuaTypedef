@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class ScannerSkillCheckItemLogicController: inkWidgetLogicController
----@field private NameRef inkTextWidgetReference
----@field private ConditionDataListRef inkCompoundWidgetReference
----@field private ConditionDataItems inkWidget[]
----@field private ConditionDataItemName CName
----@field private PassedStateName CName
----@field private FailedStateName CName
+---@field NameRef inkTextWidgetReference
+---@field ConditionDataListRef inkCompoundWidgetReference
+---@field ConditionDataItems inkWidget[]
+---@field ConditionDataItemName CName
+---@field PassedStateName CName
+---@field FailedStateName CName
 ScannerSkillCheckItemLogicController = {}
 
 ---@param fields? ScannerSkillCheckItemLogicController
 ---@return ScannerSkillCheckItemLogicController
-function ScannerSkillCheckItemLogicController.new(fields) return end
+function ScannerSkillCheckItemLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerSkillCheckItemLogicController:OnUninitialize() return end
+function ScannerSkillCheckItemLogicController:OnUninitialize() end
 
----@private
 ---@param skillCheck UIInteractionSkillCheck
 ---@return nil
-function ScannerSkillCheckItemLogicController:ConstructName(skillCheck) return end
+function ScannerSkillCheckItemLogicController:ConstructName(skillCheck) end
 
----@private
 ---@return inkWidget
-function ScannerSkillCheckItemLogicController:CreateConditionDataObject() return end
+function ScannerSkillCheckItemLogicController:CreateConditionDataObject() end
 
 ---@param skillCheck UIInteractionSkillCheck
 ---@return nil
-function ScannerSkillCheckItemLogicController:Setup(skillCheck) return end
+function ScannerSkillCheckItemLogicController:Setup(skillCheck) end

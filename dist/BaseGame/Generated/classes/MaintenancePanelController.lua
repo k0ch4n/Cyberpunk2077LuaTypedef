@@ -5,7 +5,7 @@ MaintenancePanelController = {}
 
 ---@param fields? MaintenancePanelController
 ---@return MaintenancePanelController
-function MaintenancePanelController.new(fields) return end
+function MaintenancePanelController.new(fields) end
 
 ---@return MaintenancePanelControllerPS
-function MaintenancePanelController:GetPS() return end
+function MaintenancePanelController:GetPS() end

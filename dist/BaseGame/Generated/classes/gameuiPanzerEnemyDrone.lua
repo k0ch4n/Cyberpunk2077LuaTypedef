@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiPanzerEnemyDrone: gameuiPanzerEnemy
----@field public speed Float
----@field public shootIntervalMinimum Float
----@field public shootIntervalMaximum Float
+---@field speed Float
+---@field shootIntervalMinimum Float
+---@field shootIntervalMaximum Float
 gameuiPanzerEnemyDrone = {}
 
 ---@param fields? gameuiPanzerEnemyDrone
 ---@return gameuiPanzerEnemyDrone
-function gameuiPanzerEnemyDrone.new(fields) return end
+function gameuiPanzerEnemyDrone.new(fields) end

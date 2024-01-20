@@ -5,4 +5,4 @@ AIStartedBeingTrackedAsHostile = {}
 
 ---@param fields? AIStartedBeingTrackedAsHostile
 ---@return AIStartedBeingTrackedAsHostile
-function AIStartedBeingTrackedAsHostile.new(fields) return end
+function AIStartedBeingTrackedAsHostile.new(fields) end

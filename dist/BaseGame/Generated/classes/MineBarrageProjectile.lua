@@ -1,52 +1,45 @@
 ---@meta
 
 ---@class MineBarrageProjectile: BaseProjectile
----@field private landIndicatorFX gameFxResource
----@field public fxInstance gameFxInstance
----@field public visualComponent entMeshComponent
----@field public onGround Bool
----@field public onGroundTimer Float
----@field public weapon gameweaponObject
----@field public attack_record gamedataAttack_Record
----@field public detonationTimer Float
----@field public explosionRadius Float
----@field public playerPuppet PlayerPuppet
+---@field landIndicatorFX gameFxResource
+---@field fxInstance gameFxInstance
+---@field visualComponent entMeshComponent
+---@field onGround Bool
+---@field onGroundTimer Float
+---@field weapon gameweaponObject
+---@field attack_record gamedataAttack_Record
+---@field detonationTimer Float
+---@field explosionRadius Float
+---@field playerPuppet PlayerPuppet
 MineBarrageProjectile = {}
 
 ---@param fields? MineBarrageProjectile
 ---@return MineBarrageProjectile
-function MineBarrageProjectile.new(fields) return end
+function MineBarrageProjectile.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function MineBarrageProjectile:OnCollision(eventData) return end
+function MineBarrageProjectile:OnCollision(eventData) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function MineBarrageProjectile:OnHit(evt) return end
+function MineBarrageProjectile:OnHit(evt) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function MineBarrageProjectile:OnProjectileInitialize(eventData) return end
+function MineBarrageProjectile:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function MineBarrageProjectile:OnShootTarget(eventData) return end
+function MineBarrageProjectile:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function MineBarrageProjectile:OnTakeControl(ri) return end
+function MineBarrageProjectile:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function MineBarrageProjectile:OnTick(eventData) return end
+function MineBarrageProjectile:OnTick(eventData) end
 
----@protected
 ---@return nil
-function MineBarrageProjectile:Explode() return end
+function MineBarrageProjectile:Explode() end

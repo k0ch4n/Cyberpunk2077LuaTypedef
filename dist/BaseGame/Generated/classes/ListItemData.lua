@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ListItemData: IScriptable
----@field public label String
+---@field label String
 ListItemData = {}
 
 ---@param fields? ListItemData
 ---@return ListItemData
-function ListItemData.new(fields) return end
+function ListItemData.new(fields) end

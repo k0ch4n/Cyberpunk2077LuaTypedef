@@ -1,49 +1,45 @@
 ---@meta
 
 ---@class activityLogEntryLogicController: inkWidgetLogicController
----@field private available Bool
----@field private originalSize Uint16
----@field private size Uint16
----@field private displayText String
----@field private root inkTextWidget
----@field private appearingAnim inkanimController
----@field private typingAnim inkanimController
----@field private disappearingAnim inkanimController
----@field private typingAnimDef inkanimDefinition
----@field private typingAnimProxy inkanimProxy
----@field private disappearingAnimDef inkanimDefinition
----@field private disappearingAnimProxy inkanimProxy
+---@field available Bool
+---@field originalSize Uint16
+---@field size Uint16
+---@field displayText String
+---@field root inkTextWidget
+---@field appearingAnim inkanimController
+---@field typingAnim inkanimController
+---@field disappearingAnim inkanimController
+---@field typingAnimDef inkanimDefinition
+---@field typingAnimProxy inkanimProxy
+---@field disappearingAnimDef inkanimDefinition
+---@field disappearingAnimProxy inkanimProxy
 activityLogEntryLogicController = {}
 
 ---@param fields? activityLogEntryLogicController
 ---@return activityLogEntryLogicController
-function activityLogEntryLogicController.new(fields) return end
+function activityLogEntryLogicController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function activityLogEntryLogicController:OnDisappeared(proxy) return end
+function activityLogEntryLogicController:OnDisappeared(proxy) end
 
----@protected
 ---@return Bool
-function activityLogEntryLogicController:OnInitialize() return end
+function activityLogEntryLogicController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function activityLogEntryLogicController:OnStopTyping(proxy) return end
+function activityLogEntryLogicController:OnStopTyping(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function activityLogEntryLogicController:OnTyping(proxy) return end
+function activityLogEntryLogicController:OnTyping(proxy) end
 
 ---@return Bool
-function activityLogEntryLogicController:IsAvailable() return end
+function activityLogEntryLogicController:IsAvailable() end
 
 ---@return nil
-function activityLogEntryLogicController:Reset() return end
+function activityLogEntryLogicController:Reset() end
 
 ---@param displayText String
 ---@return nil
-function activityLogEntryLogicController:SetText(displayText) return end
+function activityLogEntryLogicController:SetText(displayText) end

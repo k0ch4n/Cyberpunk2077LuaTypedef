@@ -5,13 +5,13 @@ gamedataIsHackable_Record = {}
 
 ---@param fields? gamedataIsHackable_Record
 ---@return gamedataIsHackable_Record
-function gamedataIsHackable_Record.new(fields) return end
+function gamedataIsHackable_Record.new(fields) end
 
 ---@return String
-function gamedataIsHackable_Record:EnumComment() return end
+function gamedataIsHackable_Record:EnumComment() end
 
 ---@return String
-function gamedataIsHackable_Record:EnumName() return end
+function gamedataIsHackable_Record:EnumName() end
 
 ---@return gamedataIsHackable
-function gamedataIsHackable_Record:Type() return end
+function gamedataIsHackable_Record:Type() end

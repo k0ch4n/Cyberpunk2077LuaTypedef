@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class VehicleQuestToggleEngineEvent: redEvent
----@field public toggle Bool
----@field public lockState VehicleQuestEngineLockState
----@field public vehicleOnEngineOff Bool
+---@field toggle Bool
+---@field lockState VehicleQuestEngineLockState
+---@field vehicleOnEngineOff Bool
 VehicleQuestToggleEngineEvent = {}
 
 ---@param fields? VehicleQuestToggleEngineEvent
 ---@return VehicleQuestToggleEngineEvent
-function VehicleQuestToggleEngineEvent.new(fields) return end
+function VehicleQuestToggleEngineEvent.new(fields) end
 
 ---@return String
-function VehicleQuestToggleEngineEvent:GetFriendlyDescription() return end
+function VehicleQuestToggleEngineEvent:GetFriendlyDescription() end

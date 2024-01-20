@@ -1,42 +1,41 @@
 ---@meta
 
 ---@class BulletCollisionEvaluator: gameprojectileScriptCollisionEvaluator
----@field protected user gameObject
----@field private hasStopped Bool
----@field private stoppedPosition Vector4
----@field private weaponParams gameprojectileWeaponParams
----@field private isExplodingBullet Bool
----@field private isSmartBullet Bool
+---@field user gameObject
+---@field hasStopped Bool
+---@field stoppedPosition Vector4
+---@field weaponParams gameprojectileWeaponParams
+---@field isExplodingBullet Bool
+---@field isSmartBullet Bool
 BulletCollisionEvaluator = {}
 
 ---@param fields? BulletCollisionEvaluator
 ---@return BulletCollisionEvaluator
-function BulletCollisionEvaluator.new(fields) return end
+function BulletCollisionEvaluator.new(fields) end
 
----@protected
 ---@param defaultOnCollisionAction gameprojectileOnCollisionAction
 ---@param params gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileOnCollisionAction
-function BulletCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) return end
+function BulletCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) end
 
 ---@return Vector4
-function BulletCollisionEvaluator:GetStoppedPosition() return end
+function BulletCollisionEvaluator:GetStoppedPosition() end
 
 ---@return Bool
-function BulletCollisionEvaluator:HasReportedStopped() return end
+function BulletCollisionEvaluator:HasReportedStopped() end
 
 ---@param isExplodingBullet Bool
 ---@return nil
-function BulletCollisionEvaluator:SetIsExplodingBullet(isExplodingBullet) return end
+function BulletCollisionEvaluator:SetIsExplodingBullet(isExplodingBullet) end
 
 ---@param isSmartBullet Bool
 ---@return nil
-function BulletCollisionEvaluator:SetIsSmartBullet(isSmartBullet) return end
+function BulletCollisionEvaluator:SetIsSmartBullet(isSmartBullet) end
 
 ---@param user gameObject
 ---@return nil
-function BulletCollisionEvaluator:SetUser(user) return end
+function BulletCollisionEvaluator:SetUser(user) end
 
 ---@param params gameprojectileWeaponParams
 ---@return nil
-function BulletCollisionEvaluator:SetWeaponParams(params) return end
+function BulletCollisionEvaluator:SetWeaponParams(params) end

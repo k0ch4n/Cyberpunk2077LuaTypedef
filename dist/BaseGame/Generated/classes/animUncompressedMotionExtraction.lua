@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animUncompressedMotionExtraction: animIMotionExtraction
----@field public frames Vector4[]
----@field public duration Float
+---@field frames Vector4[]
+---@field duration Float
 animUncompressedMotionExtraction = {}
 
 ---@param fields? animUncompressedMotionExtraction
 ---@return animUncompressedMotionExtraction
-function animUncompressedMotionExtraction.new(fields) return end
+function animUncompressedMotionExtraction.new(fields) end

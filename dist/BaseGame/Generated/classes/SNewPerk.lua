@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SNewPerk
----@field public type gamedataNewPerkType
----@field public currLevel Int32
+---@field type gamedataNewPerkType
+---@field currLevel Int32
 SNewPerk = {}
 
 ---@param fields? SNewPerk
 ---@return SNewPerk
-function SNewPerk.new(fields) return end
+function SNewPerk.new(fields) end

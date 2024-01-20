@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class SetDeviceAttitude: ActionBool
----@field public Repeat Bool
----@field public IgnoreHostiles Bool
----@field public Attitude EAIAttitude
+---@field Repeat Bool
+---@field IgnoreHostiles Bool
+---@field Attitude EAIAttitude
 SetDeviceAttitude = {}
 
 ---@param fields? SetDeviceAttitude
 ---@return SetDeviceAttitude
-function SetDeviceAttitude.new(fields) return end
+function SetDeviceAttitude.new(fields) end
 
 ---@return Int32
-function SetDeviceAttitude:GetBaseCost() return end
+function SetDeviceAttitude:GetBaseCost() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function SetDeviceAttitude:GetInteractionIcon() return end
+function SetDeviceAttitude:GetInteractionIcon() end
 
 ---@return String
-function SetDeviceAttitude:GetTweakDBChoiceRecord() return end
+function SetDeviceAttitude:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function SetDeviceAttitude:SetProperties() return end
+function SetDeviceAttitude:SetProperties() end

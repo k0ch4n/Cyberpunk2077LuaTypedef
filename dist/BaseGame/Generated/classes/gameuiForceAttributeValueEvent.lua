@@ -5,4 +5,4 @@ gameuiForceAttributeValueEvent = {}
 
 ---@param fields? gameuiForceAttributeValueEvent
 ---@return gameuiForceAttributeValueEvent
-function gameuiForceAttributeValueEvent.new(fields) return end
+function gameuiForceAttributeValueEvent.new(fields) end

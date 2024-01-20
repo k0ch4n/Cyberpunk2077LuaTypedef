@@ -5,48 +5,41 @@ Wardrobe = {}
 
 ---@param fields? Wardrobe
 ---@return Wardrobe
-function Wardrobe.new(fields) return end
+function Wardrobe.new(fields) end
 
----@protected
 ---@return Bool
-function Wardrobe:OnGameAttached() return end
+function Wardrobe:OnGameAttached() end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function Wardrobe:OnInteractionActivated(evt) return end
+function Wardrobe:OnInteractionActivated(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Wardrobe:OnRequestComponents(ri) return end
+function Wardrobe:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Wardrobe:OnTakeControl(ri) return end
+function Wardrobe:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function Wardrobe:DeterminGameplayRole() return end
+function Wardrobe:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function Wardrobe:DeterminGameplayRoleMappinVisuaState(data) return end
+function Wardrobe:DeterminGameplayRoleMappinVisuaState(data) end
 
----@private
 ---@return WardrobeController
-function Wardrobe:GetController() return end
+function Wardrobe:GetController() end
 
 ---@return WardrobeControllerPS
-function Wardrobe:GetDevicePS() return end
+function Wardrobe:GetDevicePS() end
 
 ---@return Bool
-function Wardrobe:IsWardrobe() return end
+function Wardrobe:IsWardrobe() end
 
----@protected
 ---@return nil
-function Wardrobe:ResolveGameplayState() return end
+function Wardrobe:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function Wardrobe:RestoreDeviceState() return end
+function Wardrobe:RestoreDeviceState() end

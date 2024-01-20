@@ -5,4 +5,4 @@ StopSoundDisposal = {}
 
 ---@param fields? StopSoundDisposal
 ---@return StopSoundDisposal
-function StopSoundDisposal.new(fields) return end
+function StopSoundDisposal.new(fields) end

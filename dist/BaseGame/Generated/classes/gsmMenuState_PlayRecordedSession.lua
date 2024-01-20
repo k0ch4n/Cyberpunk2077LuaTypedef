@@ -5,4 +5,4 @@ gsmMenuState_PlayRecordedSession = {}
 
 ---@param fields? gsmMenuState_PlayRecordedSession
 ---@return gsmMenuState_PlayRecordedSession
-function gsmMenuState_PlayRecordedSession.new(fields) return end
+function gsmMenuState_PlayRecordedSession.new(fields) end

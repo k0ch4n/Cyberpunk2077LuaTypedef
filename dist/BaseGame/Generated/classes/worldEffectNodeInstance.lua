@@ -5,4 +5,4 @@ worldEffectNodeInstance = {}
 
 ---@param fields? worldEffectNodeInstance
 ---@return worldEffectNodeInstance
-function worldEffectNodeInstance.new(fields) return end
+function worldEffectNodeInstance.new(fields) end

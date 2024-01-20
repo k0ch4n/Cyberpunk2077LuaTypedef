@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class interopSelectByDefinitionOptions
----@field public searchInSelection Bool
----@field public minBBoxDiagonalLength Float
----@field public maxBBoxDiagonalLength Float
----@field public maxBBoxParentPercantageDiagonalLength Float
----@field public includePrefabNodes Bool
----@field public includeDecalNodes Bool
----@field public includeMeshNodes Bool
+---@field searchInSelection Bool
+---@field minBBoxDiagonalLength Float
+---@field maxBBoxDiagonalLength Float
+---@field maxBBoxParentPercantageDiagonalLength Float
+---@field includePrefabNodes Bool
+---@field includeDecalNodes Bool
+---@field includeMeshNodes Bool
 interopSelectByDefinitionOptions = {}
 
 ---@param fields? interopSelectByDefinitionOptions
 ---@return interopSelectByDefinitionOptions
-function interopSelectByDefinitionOptions.new(fields) return end
+function interopSelectByDefinitionOptions.new(fields) end

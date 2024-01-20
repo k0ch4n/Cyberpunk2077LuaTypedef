@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class MuteArm: gameweaponObject
----@field private gameEffectRef gameEffectRef
----@field private gameEffectInstance gameEffectInstance
+---@field gameEffectRef gameEffectRef
+---@field gameEffectInstance gameEffectInstance
 MuteArm = {}
 
 ---@param fields? MuteArm
 ---@return MuteArm
-function MuteArm.new(fields) return end
+function MuteArm.new(fields) end
 
----@protected
 ---@param evt ChargeEndedEvent
 ---@return Bool
-function MuteArm:OnChargeEndedEvent(evt) return end
+function MuteArm:OnChargeEndedEvent(evt) end
 
----@protected
 ---@param evt ChargeStartedEvent
 ---@return Bool
-function MuteArm:OnChargeStartedEvent(evt) return end
+function MuteArm:OnChargeStartedEvent(evt) end
 
----@protected
 ---@param newAppearance CName|string
 ---@return nil
-function MuteArm:ChangeAppearance(newAppearance) return end
+function MuteArm:ChangeAppearance(newAppearance) end
 
----@protected
 ---@param enabled Bool
 ---@return nil
-function MuteArm:SetUpMuteArmBlackboard(enabled) return end
+function MuteArm:SetUpMuteArmBlackboard(enabled) end

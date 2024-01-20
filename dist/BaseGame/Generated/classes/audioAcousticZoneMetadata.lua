@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class audioAcousticZoneMetadata: audioAudioMetadata
----@field public priority Int32
----@field public bleadingDistance Float
----@field public eventsOnEnter CName[]
----@field public eventsOnExit CName[]
----@field public eventsOnActive CName[]
----@field public soundBanks CName[]
----@field public parameters audioAcousticZoneParameterMapItem[]
----@field public reverbSettings CName
----@field public voReverbSettings CName
----@field public footstepMaterialOverride CName
+---@field priority Int32
+---@field bleadingDistance Float
+---@field eventsOnEnter CName[]
+---@field eventsOnExit CName[]
+---@field eventsOnActive CName[]
+---@field soundBanks CName[]
+---@field parameters audioAcousticZoneParameterMapItem[]
+---@field reverbSettings CName
+---@field voReverbSettings CName
+---@field footstepMaterialOverride CName
 audioAcousticZoneMetadata = {}
 
 ---@param fields? audioAcousticZoneMetadata
 ---@return audioAcousticZoneMetadata
-function audioAcousticZoneMetadata.new(fields) return end
+function audioAcousticZoneMetadata.new(fields) end

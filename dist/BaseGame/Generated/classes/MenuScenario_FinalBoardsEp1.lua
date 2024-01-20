@@ -5,23 +5,19 @@ MenuScenario_FinalBoardsEp1 = {}
 
 ---@param fields? MenuScenario_FinalBoardsEp1
 ---@return MenuScenario_FinalBoardsEp1
-function MenuScenario_FinalBoardsEp1.new(fields) return end
+function MenuScenario_FinalBoardsEp1.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_FinalBoardsEp1:OnBack() return end
+function MenuScenario_FinalBoardsEp1:OnBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_FinalBoardsEp1:OnCloseFinalBoardsRequest() return end
+function MenuScenario_FinalBoardsEp1:OnCloseFinalBoardsRequest() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_FinalBoardsEp1:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_FinalBoardsEp1:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_FinalBoardsEp1:OnLeaveScenario(nextScenario) return end
+function MenuScenario_FinalBoardsEp1:OnLeaveScenario(nextScenario) end

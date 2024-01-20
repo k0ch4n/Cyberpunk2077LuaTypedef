@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class StrikeExecutor_Heal: gameEffectExecutor_Scripted
----@field private healthPerc Float
+---@field healthPerc Float
 StrikeExecutor_Heal = {}
 
 ---@param fields? StrikeExecutor_Heal
 ---@return StrikeExecutor_Heal
-function StrikeExecutor_Heal.new(fields) return end
+function StrikeExecutor_Heal.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function StrikeExecutor_Heal:Process(ctx, applierCtx) return end
+function StrikeExecutor_Heal:Process(ctx, applierCtx) end

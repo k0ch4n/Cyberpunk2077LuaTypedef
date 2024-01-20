@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class ModifyDamageEffectorStatListener: gameScriptStatsListener
----@field public effector ModifyDamageEffector
+---@field effector ModifyDamageEffector
 ModifyDamageEffectorStatListener = {}
 
 ---@param fields? ModifyDamageEffectorStatListener
 ---@return ModifyDamageEffectorStatListener
-function ModifyDamageEffectorStatListener.new(fields) return end
+function ModifyDamageEffectorStatListener.new(fields) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function ModifyDamageEffectorStatListener:OnStatChanged(ownerID, statType, diff, total) return end
+function ModifyDamageEffectorStatListener:OnStatChanged(ownerID, statType, diff, total) end

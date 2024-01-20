@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class NPCIsChildPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 NPCIsChildPrereq = {}
 
 ---@param fields? NPCIsChildPrereq
 ---@return NPCIsChildPrereq
-function NPCIsChildPrereq.new(fields) return end
+function NPCIsChildPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCIsChildPrereq:Initialize(recordID) return end
+function NPCIsChildPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCIsChildPrereq:IsFulfilled(context) return end
+function NPCIsChildPrereq:IsFulfilled(context) end

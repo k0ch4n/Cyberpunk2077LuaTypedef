@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questMovePuppetNodeDefinition: questConfigurableAICommandNode
----@field public entityReference gameEntityReference
----@field public moveType CName
----@field public nodeParams questAICommandParams
+---@field entityReference gameEntityReference
+---@field moveType CName
+---@field nodeParams questAICommandParams
 questMovePuppetNodeDefinition = {}
 
 ---@param fields? questMovePuppetNodeDefinition
 ---@return questMovePuppetNodeDefinition
-function questMovePuppetNodeDefinition.new(fields) return end
+function questMovePuppetNodeDefinition.new(fields) end

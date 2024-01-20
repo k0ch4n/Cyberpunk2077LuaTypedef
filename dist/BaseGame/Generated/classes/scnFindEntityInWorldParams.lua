@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnFindEntityInWorldParams
----@field public actorRef gameEntityReference
----@field public forceMaxVisibility Bool
+---@field actorRef gameEntityReference
+---@field forceMaxVisibility Bool
 scnFindEntityInWorldParams = {}
 
 ---@param fields? scnFindEntityInWorldParams
 ---@return scnFindEntityInWorldParams
-function scnFindEntityInWorldParams.new(fields) return end
+function scnFindEntityInWorldParams.new(fields) end

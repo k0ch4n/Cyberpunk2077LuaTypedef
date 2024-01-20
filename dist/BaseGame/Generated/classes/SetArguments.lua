@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetArguments: AIbehaviortaskScript
----@field public argumentVar CName
+---@field argumentVar CName
 SetArguments = {}
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String
-function SetArguments:GetDescription(context) return end
+function SetArguments:GetDescription(context) end
 
 ---@return String
-function SetArguments:GetEditorSubCaption() return end
+function SetArguments:GetEditorSubCaption() end

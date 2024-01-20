@@ -5,4 +5,4 @@ senseInitializeEvent = {}
 
 ---@param fields? senseInitializeEvent
 ---@return senseInitializeEvent
-function senseInitializeEvent.new(fields) return end
+function senseInitializeEvent.new(fields) end

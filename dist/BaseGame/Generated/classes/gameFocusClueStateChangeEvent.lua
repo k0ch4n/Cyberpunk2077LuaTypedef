@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameFocusClueStateChangeEvent: redEvent
----@field public clueIndex Int32
----@field public isEnabled Bool
+---@field clueIndex Int32
+---@field isEnabled Bool
 gameFocusClueStateChangeEvent = {}
 
 ---@param fields? gameFocusClueStateChangeEvent
 ---@return gameFocusClueStateChangeEvent
-function gameFocusClueStateChangeEvent.new(fields) return end
+function gameFocusClueStateChangeEvent.new(fields) end

@@ -5,8 +5,8 @@ HitIsHumanPrereqState = {}
 
 ---@param fields? HitIsHumanPrereqState
 ---@return HitIsHumanPrereqState
-function HitIsHumanPrereqState.new(fields) return end
+function HitIsHumanPrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitIsHumanPrereqState:Evaluate(hitEvent) return end
+function HitIsHumanPrereqState:Evaluate(hitEvent) end

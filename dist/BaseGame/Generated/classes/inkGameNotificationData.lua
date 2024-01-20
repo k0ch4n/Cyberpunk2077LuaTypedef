@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class inkGameNotificationData: inkUserData
----@field public notificationName CName
----@field public requiredGameState CName
----@field public isBlocking Bool
----@field public useCursor Bool
----@field public queueName CName
----@field public introAnimation CName
----@field public token inkGameNotificationToken
+---@field notificationName CName
+---@field requiredGameState CName
+---@field isBlocking Bool
+---@field useCursor Bool
+---@field queueName CName
+---@field introAnimation CName
+---@field token inkGameNotificationToken
 inkGameNotificationData = {}
 
 ---@param fields? inkGameNotificationData
 ---@return inkGameNotificationData
-function inkGameNotificationData.new(fields) return end
+function inkGameNotificationData.new(fields) end

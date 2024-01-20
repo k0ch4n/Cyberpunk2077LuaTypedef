@@ -5,12 +5,10 @@ ExitLightControllerPS = {}
 
 ---@param fields? ExitLightControllerPS
 ---@return ExitLightControllerPS
-function ExitLightControllerPS.new(fields) return end
+function ExitLightControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function ExitLightControllerPS:OnInstantiated() return end
+function ExitLightControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function ExitLightControllerPS:Initialize() return end
+function ExitLightControllerPS:Initialize() end

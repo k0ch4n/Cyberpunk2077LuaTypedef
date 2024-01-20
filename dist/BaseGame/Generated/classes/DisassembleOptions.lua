@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DisassembleOptions
----@field public canBeDisassembled Bool
+---@field canBeDisassembled Bool
 DisassembleOptions = {}
 
 ---@param fields? DisassembleOptions
 ---@return DisassembleOptions
-function DisassembleOptions.new(fields) return end
+function DisassembleOptions.new(fields) end

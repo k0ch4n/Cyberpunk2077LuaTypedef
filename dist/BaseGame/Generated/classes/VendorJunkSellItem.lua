@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class VendorJunkSellItem: IScriptable
----@field public item gameItemData
----@field public quantity Int32
+---@field item gameItemData
+---@field quantity Int32
 VendorJunkSellItem = {}
 
 ---@param fields? VendorJunkSellItem
 ---@return VendorJunkSellItem
-function VendorJunkSellItem.new(fields) return end
+function VendorJunkSellItem.new(fields) end

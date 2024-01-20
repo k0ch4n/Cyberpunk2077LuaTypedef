@@ -5,16 +5,16 @@ gamedataProjectileCollision_Record = {}
 
 ---@param fields? gamedataProjectileCollision_Record
 ---@return gamedataProjectileCollision_Record
-function gamedataProjectileCollision_Record.new(fields) return end
+function gamedataProjectileCollision_Record.new(fields) end
 
 ---@return Bool
-function gamedataProjectileCollision_Record:CanStopAndStickOnHardSurfaces() return end
+function gamedataProjectileCollision_Record:CanStopAndStickOnHardSurfaces() end
 
 ---@return Float
-function gamedataProjectileCollision_Record:EnergyLossFactor() return end
+function gamedataProjectileCollision_Record:EnergyLossFactor() end
 
 ---@return gamedataProjectileOnCollisionAction_Record
-function gamedataProjectileCollision_Record:Type() return end
+function gamedataProjectileCollision_Record:Type() end
 
 ---@return gamedataProjectileOnCollisionAction_Record
-function gamedataProjectileCollision_Record:TypeHandle() return end
+function gamedataProjectileCollision_Record:TypeHandle() end

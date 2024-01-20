@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class ForceMoveInCombatWhistleEffector: ForceMoveInCombatEffector
----@field public targetPosition Vector4
+---@field targetPosition Vector4
 ForceMoveInCombatWhistleEffector = {}
 
 ---@param fields? ForceMoveInCombatWhistleEffector
 ---@return ForceMoveInCombatWhistleEffector
-function ForceMoveInCombatWhistleEffector.new(fields) return end
+function ForceMoveInCombatWhistleEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ForceMoveInCombatWhistleEffector:ActionOff(owner) return end
+function ForceMoveInCombatWhistleEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ForceMoveInCombatWhistleEffector:ActionOn(owner) return end
+function ForceMoveInCombatWhistleEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ForceMoveInCombatWhistleEffector:Initialize(record, parentRecord) return end
+function ForceMoveInCombatWhistleEffector:Initialize(record, parentRecord) end

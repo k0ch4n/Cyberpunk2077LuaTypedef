@@ -5,4 +5,4 @@ PlayerDoesntHaveQuickhackPrereqState = {}
 
 ---@param fields? PlayerDoesntHaveQuickhackPrereqState
 ---@return PlayerDoesntHaveQuickhackPrereqState
-function PlayerDoesntHaveQuickhackPrereqState.new(fields) return end
+function PlayerDoesntHaveQuickhackPrereqState.new(fields) end

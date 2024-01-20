@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class textTextBlockFontStyle
----@field public fontStyle CName
----@field public outlineSize Int32
----@field public outlineColor HDRColor
+---@field fontStyle CName
+---@field outlineSize Int32
+---@field outlineColor HDRColor
 textTextBlockFontStyle = {}
 
 ---@param fields? textTextBlockFontStyle
 ---@return textTextBlockFontStyle
-function textTextBlockFontStyle.new(fields) return end
+function textTextBlockFontStyle.new(fields) end

@@ -1,34 +1,34 @@
 ---@meta
 
 ---@class CommonItemsGridView: inkScriptableDataViewWrapper
----@field protected itemFilterType ItemFilterCategory
----@field protected itemSortMode ItemSortMode
----@field protected uiScriptableSystem UIScriptableSystem
+---@field itemFilterType ItemFilterCategory
+---@field itemSortMode ItemSortMode
+---@field uiScriptableSystem UIScriptableSystem
 CommonItemsGridView = {}
 
 ---@param fields? CommonItemsGridView
 ---@return CommonItemsGridView
-function CommonItemsGridView.new(fields) return end
+function CommonItemsGridView.new(fields) end
 
 ---@param uiScriptableSystem UIScriptableSystem
 ---@return nil
-function CommonItemsGridView:BindUIScriptableSystem(uiScriptableSystem) return end
+function CommonItemsGridView:BindUIScriptableSystem(uiScriptableSystem) end
 
 ---@return ItemFilterCategory
-function CommonItemsGridView:GetFilterType() return end
+function CommonItemsGridView:GetFilterType() end
 
 ---@return ItemSortMode
-function CommonItemsGridView:GetSortMode() return end
+function CommonItemsGridView:GetSortMode() end
 
 ---@param type ItemFilterCategory
 ---@return nil
-function CommonItemsGridView:SetFilterType(type) return end
+function CommonItemsGridView:SetFilterType(type) end
 
 ---@param type ItemFilterCategory
 ---@param mode ItemSortMode
 ---@return nil
-function CommonItemsGridView:SetFilterTypeAndSortMode(type, mode) return end
+function CommonItemsGridView:SetFilterTypeAndSortMode(type, mode) end
 
 ---@param mode ItemSortMode
 ---@return nil
-function CommonItemsGridView:SetSortMode(mode) return end
+function CommonItemsGridView:SetSortMode(mode) end

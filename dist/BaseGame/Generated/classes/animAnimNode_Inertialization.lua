@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animAnimNode_Inertialization: animAnimNode_OnePoseInput
----@field public safeMode Bool
----@field public transformsCountUpperBound Uint32
----@field public tracksCountUpperBound Uint32
----@field public rotationLimits animInertializationRotationLimit[]
+---@field safeMode Bool
+---@field transformsCountUpperBound Uint32
+---@field tracksCountUpperBound Uint32
+---@field rotationLimits animInertializationRotationLimit[]
 animAnimNode_Inertialization = {}
 
 ---@param fields? animAnimNode_Inertialization
 ---@return animAnimNode_Inertialization
-function animAnimNode_Inertialization.new(fields) return end
+function animAnimNode_Inertialization.new(fields) end

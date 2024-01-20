@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameJournalManagerSharedState: gameIGameSystemReplicatedState
----@field public entryData gameJournalSharedStateData[]
----@field public trackedQuestPath Uint32
+---@field entryData gameJournalSharedStateData[]
+---@field trackedQuestPath Uint32
 gameJournalManagerSharedState = {}
 
 ---@param fields? gameJournalManagerSharedState
 ---@return gameJournalManagerSharedState
-function gameJournalManagerSharedState.new(fields) return end
+function gameJournalManagerSharedState.new(fields) end

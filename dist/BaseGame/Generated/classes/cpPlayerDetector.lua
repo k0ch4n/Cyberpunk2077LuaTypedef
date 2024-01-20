@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class cpPlayerDetector: gameObject
----@field public range Float
+---@field range Float
 cpPlayerDetector = {}
 
 ---@param fields? cpPlayerDetector
 ---@return cpPlayerDetector
-function cpPlayerDetector.new(fields) return end
+function cpPlayerDetector.new(fields) end

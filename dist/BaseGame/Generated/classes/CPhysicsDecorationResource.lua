@@ -5,4 +5,4 @@ CPhysicsDecorationResource = {}
 
 ---@param fields? CPhysicsDecorationResource
 ---@return CPhysicsDecorationResource
-function CPhysicsDecorationResource.new(fields) return end
+function CPhysicsDecorationResource.new(fields) end

@@ -5,22 +5,19 @@ SlideFallDecisions = {}
 
 ---@param fields? SlideFallDecisions
 ---@return SlideFallDecisions
-function SlideFallDecisions.new(fields) return end
+function SlideFallDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideFallDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SlideFallDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideFallDecisions:ToFall(stateContext, scriptInterface) return end
+function SlideFallDecisions:ToFall(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SlideFallDecisions:ToSlide(stateContext, scriptInterface) return end
+function SlideFallDecisions:ToSlide(stateContext, scriptInterface) end

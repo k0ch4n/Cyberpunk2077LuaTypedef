@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questCharacterManagerVisuals_OverridePlayerHairstyleAppearance: questICharacterManagerVisuals_NodeSubType
----@field public hairstyleIndex Uint32
----@field public hairstyleDefinitionName CName
----@field public beardIndex Uint32
----@field public beardPartIndex Uint32
----@field public beardDefinitionName CName
+---@field hairstyleIndex Uint32
+---@field hairstyleDefinitionName CName
+---@field beardIndex Uint32
+---@field beardPartIndex Uint32
+---@field beardDefinitionName CName
 questCharacterManagerVisuals_OverridePlayerHairstyleAppearance = {}
 
 ---@param fields? questCharacterManagerVisuals_OverridePlayerHairstyleAppearance
 ---@return questCharacterManagerVisuals_OverridePlayerHairstyleAppearance
-function questCharacterManagerVisuals_OverridePlayerHairstyleAppearance.new(fields) return end
+function questCharacterManagerVisuals_OverridePlayerHairstyleAppearance.new(fields) end

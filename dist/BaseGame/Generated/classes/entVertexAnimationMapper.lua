@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entVertexAnimationMapper
----@field public entries entVertexAnimationMapperEntry[]
+---@field entries entVertexAnimationMapperEntry[]
 entVertexAnimationMapper = {}
 
 ---@param fields? entVertexAnimationMapper
 ---@return entVertexAnimationMapper
-function entVertexAnimationMapper.new(fields) return end
+function entVertexAnimationMapper.new(fields) end

@@ -5,7 +5,7 @@ QuestForceScanEffect = {}
 
 ---@param fields? QuestForceScanEffect
 ---@return QuestForceScanEffect
-function QuestForceScanEffect.new(fields) return end
+function QuestForceScanEffect.new(fields) end
 
 ---@return nil
-function QuestForceScanEffect:SetProperties() return end
+function QuestForceScanEffect:SetProperties() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UpdateTrackedObjectiveEvent: redEvent
----@field public trackedObjective gameJournalQuestObjective
----@field public trackedQuest gameJournalQuest
+---@field trackedObjective gameJournalQuestObjective
+---@field trackedQuest gameJournalQuest
 UpdateTrackedObjectiveEvent = {}
 
 ---@param fields? UpdateTrackedObjectiveEvent
 ---@return UpdateTrackedObjectiveEvent
-function UpdateTrackedObjectiveEvent.new(fields) return end
+function UpdateTrackedObjectiveEvent.new(fields) end

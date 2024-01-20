@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiGarmentSwitchEffectController
----@field public sceneName CName
----@field public effectName CName
----@field public switchTime Float
----@field public hideTime Float
+---@field sceneName CName
+---@field effectName CName
+---@field switchTime Float
+---@field hideTime Float
 gameuiGarmentSwitchEffectController = {}
 
 ---@param fields? gameuiGarmentSwitchEffectController
 ---@return gameuiGarmentSwitchEffectController
-function gameuiGarmentSwitchEffectController.new(fields) return end
+function gameuiGarmentSwitchEffectController.new(fields) end

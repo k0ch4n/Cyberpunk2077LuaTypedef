@@ -5,25 +5,25 @@ gamedataMappinUIParamGroup_Record = {}
 
 ---@param fields? gamedataMappinUIParamGroup_Record
 ---@return gamedataMappinUIParamGroup_Record
-function gamedataMappinUIParamGroup_Record.new(fields) return end
+function gamedataMappinUIParamGroup_Record.new(fields) end
 
 ---@return Float
-function gamedataMappinUIParamGroup_Record:MaxFactor() return end
+function gamedataMappinUIParamGroup_Record:MaxFactor() end
 
 ---@return Float
-function gamedataMappinUIParamGroup_Record:MaxValue() return end
+function gamedataMappinUIParamGroup_Record:MaxValue() end
 
 ---@return Float
-function gamedataMappinUIParamGroup_Record:MinFactor() return end
+function gamedataMappinUIParamGroup_Record:MinFactor() end
 
 ---@return Float
-function gamedataMappinUIParamGroup_Record:MinValue() return end
+function gamedataMappinUIParamGroup_Record:MinValue() end
 
 ---@return Bool
-function gamedataMappinUIParamGroup_Record:Quadratic() return end
+function gamedataMappinUIParamGroup_Record:Quadratic() end
 
 ---@return Float
-function gamedataMappinUIParamGroup_Record:QuadraticPeakMultiplier() return end
+function gamedataMappinUIParamGroup_Record:QuadraticPeakMultiplier() end
 
 ---@return Float
-function gamedataMappinUIParamGroup_Record:ValueOffset() return end
+function gamedataMappinUIParamGroup_Record:ValueOffset() end

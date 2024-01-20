@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class BackpackInventoryListenerCallback: gameInventoryScriptCallback
----@field private backpackInstance gameuiBackpackMainGameController
+---@field backpackInstance gameuiBackpackMainGameController
 BackpackInventoryListenerCallback = {}
 
 ---@param fields? BackpackInventoryListenerCallback
 ---@return BackpackInventoryListenerCallback
-function BackpackInventoryListenerCallback.new(fields) return end
+function BackpackInventoryListenerCallback.new(fields) end
 
 ---@param backpackInstance gameuiBackpackMainGameController
 ---@return nil
-function BackpackInventoryListenerCallback:Setup(backpackInstance) return end
+function BackpackInventoryListenerCallback:Setup(backpackInstance) end

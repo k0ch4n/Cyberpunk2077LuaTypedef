@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class NPCDetectingPlayerPrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerID redCallbackObject
+---@field owner gameObject
+---@field listenerID redCallbackObject
 NPCDetectingPlayerPrereqState = {}
 
 ---@param fields? NPCDetectingPlayerPrereqState
 ---@return NPCDetectingPlayerPrereqState
-function NPCDetectingPlayerPrereqState.new(fields) return end
+function NPCDetectingPlayerPrereqState.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function NPCDetectingPlayerPrereqState:OnStateUpdate(value) return end
+function NPCDetectingPlayerPrereqState:OnStateUpdate(value) end

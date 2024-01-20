@@ -1,101 +1,85 @@
 ---@meta
 
 ---@class ExplosiveTriggerDevice: ExplosiveDevice
----@field private meshTrigger entMeshComponent
----@field private trapTrigger gameStaticTriggerAreaComponent
----@field private triggerName CName
----@field private surroundingArea gameStaticTriggerAreaComponent
----@field private surroundingAreaName CName
----@field private soundIsActive Bool
----@field private playerIsInSurroundingArea Bool
----@field private proximityExplosionEventID gameDelayID
----@field private proximityExplosionEventSent Bool
+---@field meshTrigger entMeshComponent
+---@field trapTrigger gameStaticTriggerAreaComponent
+---@field triggerName CName
+---@field surroundingArea gameStaticTriggerAreaComponent
+---@field surroundingAreaName CName
+---@field soundIsActive Bool
+---@field playerIsInSurroundingArea Bool
+---@field proximityExplosionEventID gameDelayID
+---@field proximityExplosionEventSent Bool
 ExplosiveTriggerDevice = {}
 
 ---@param fields? ExplosiveTriggerDevice
 ---@return ExplosiveTriggerDevice
-function ExplosiveTriggerDevice.new(fields) return end
+function ExplosiveTriggerDevice.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function ExplosiveTriggerDevice:OnAreaEnter(evt) return end
+function ExplosiveTriggerDevice:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function ExplosiveTriggerDevice:OnAreaExit(evt) return end
+function ExplosiveTriggerDevice:OnAreaExit(evt) end
 
----@protected
 ---@param evt ExplosiveTriggerDeviceProximityEvent
 ---@return Bool
-function ExplosiveTriggerDevice:OnExplosiveTriggerDeviceProximityEvent(evt) return end
+function ExplosiveTriggerDevice:OnExplosiveTriggerDeviceProximityEvent(evt) end
 
----@protected
 ---@param evt QuestSetPlayerSafePass
 ---@return Bool
-function ExplosiveTriggerDevice:OnQuestSetPlayerSafePass(evt) return end
+function ExplosiveTriggerDevice:OnQuestSetPlayerSafePass(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ExplosiveTriggerDevice:OnRequestComponents(ri) return end
+function ExplosiveTriggerDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SetDeviceAttitude
 ---@return Bool
-function ExplosiveTriggerDevice:OnSetDeviceAttitude(evt) return end
+function ExplosiveTriggerDevice:OnSetDeviceAttitude(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ExplosiveTriggerDevice:OnTakeControl(ri) return end
+function ExplosiveTriggerDevice:OnTakeControl(ri) end
 
----@private
 ---@param laserState ExplosiveTriggerDeviceLaserState
 ---@return nil
-function ExplosiveTriggerDevice:ChangeLasersColor(laserState) return end
+function ExplosiveTriggerDevice:ChangeLasersColor(laserState) end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function ExplosiveTriggerDevice:DeterminGameplayRoleMappinVisuaState(data) return end
+function ExplosiveTriggerDevice:DeterminGameplayRoleMappinVisuaState(data) end
 
----@private
 ---@return ExplosiveTriggerDeviceController
-function ExplosiveTriggerDevice:GetController() return end
+function ExplosiveTriggerDevice:GetController() end
 
 ---@return ExplosiveTriggerDeviceControllerPS
-function ExplosiveTriggerDevice:GetDevicePS() return end
+function ExplosiveTriggerDevice:GetDevicePS() end
 
----@private
 ---@param whoEnteredID entEntityID
 ---@return nil
-function ExplosiveTriggerDevice:ReactOnSurroundingArea(whoEnteredID) return end
+function ExplosiveTriggerDevice:ReactOnSurroundingArea(whoEnteredID) end
 
----@private
 ---@param whoEnteredID entEntityID
 ---@return nil
-function ExplosiveTriggerDevice:ReactOnTrigger(whoEnteredID) return end
+function ExplosiveTriggerDevice:ReactOnTrigger(whoEnteredID) end
 
----@protected
 ---@param state Bool
 ---@return nil
-function ExplosiveTriggerDevice:ToggleComponents(state) return end
+function ExplosiveTriggerDevice:ToggleComponents(state) end
 
----@protected
 ---@param state Bool
 ---@return nil
-function ExplosiveTriggerDevice:ToggleTriggerLogic(state) return end
+function ExplosiveTriggerDevice:ToggleTriggerLogic(state) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function ExplosiveTriggerDevice:ToggleVisibility(visible) return end
+function ExplosiveTriggerDevice:ToggleVisibility(visible) end
 
----@protected
 ---@return nil
-function ExplosiveTriggerDevice:TurnOffDevice() return end
+function ExplosiveTriggerDevice:TurnOffDevice() end
 
----@protected
 ---@return nil
-function ExplosiveTriggerDevice:TurnOnDevice() return end
+function ExplosiveTriggerDevice:TurnOnDevice() end

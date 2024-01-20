@@ -5,4 +5,4 @@ EndGracePeriodAfterSpawn = {}
 
 ---@param fields? EndGracePeriodAfterSpawn
 ---@return EndGracePeriodAfterSpawn
-function EndGracePeriodAfterSpawn.new(fields) return end
+function EndGracePeriodAfterSpawn.new(fields) end

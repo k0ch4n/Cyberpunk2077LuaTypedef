@@ -5,4 +5,4 @@ questPhaseInstance = {}
 
 ---@param fields? questPhaseInstance
 ---@return questPhaseInstance
-function questPhaseInstance.new(fields) return end
+function questPhaseInstance.new(fields) end

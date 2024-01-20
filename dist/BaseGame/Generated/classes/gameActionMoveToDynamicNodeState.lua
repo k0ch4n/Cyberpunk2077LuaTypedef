@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameActionMoveToDynamicNodeState: gameActionMoveToState
----@field public target gameObject
----@field public strafingTarget gameObject
----@field public desiredDistanceFromTarget Float
----@field public stopWhenDestinationReached Bool
----@field public pathfindingUpdateInterval Float
----@field public usePathfinding Bool
----@field public useStart Bool
----@field public useStop Bool
+---@field target gameObject
+---@field strafingTarget gameObject
+---@field desiredDistanceFromTarget Float
+---@field stopWhenDestinationReached Bool
+---@field pathfindingUpdateInterval Float
+---@field usePathfinding Bool
+---@field useStart Bool
+---@field useStop Bool
 gameActionMoveToDynamicNodeState = {}
 
 ---@param fields? gameActionMoveToDynamicNodeState
 ---@return gameActionMoveToDynamicNodeState
-function gameActionMoveToDynamicNodeState.new(fields) return end
+function gameActionMoveToDynamicNodeState.new(fields) end

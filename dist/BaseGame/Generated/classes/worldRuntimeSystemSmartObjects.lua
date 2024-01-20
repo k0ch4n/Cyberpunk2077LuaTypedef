@@ -5,4 +5,4 @@ worldRuntimeSystemSmartObjects = {}
 
 ---@param fields? worldRuntimeSystemSmartObjects
 ---@return worldRuntimeSystemSmartObjects
-function worldRuntimeSystemSmartObjects.new(fields) return end
+function worldRuntimeSystemSmartObjects.new(fields) end

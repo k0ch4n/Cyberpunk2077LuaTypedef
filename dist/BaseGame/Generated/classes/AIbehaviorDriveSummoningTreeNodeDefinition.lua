@@ -5,4 +5,4 @@ AIbehaviorDriveSummoningTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDriveSummoningTreeNodeDefinition
 ---@return AIbehaviorDriveSummoningTreeNodeDefinition
-function AIbehaviorDriveSummoningTreeNodeDefinition.new(fields) return end
+function AIbehaviorDriveSummoningTreeNodeDefinition.new(fields) end

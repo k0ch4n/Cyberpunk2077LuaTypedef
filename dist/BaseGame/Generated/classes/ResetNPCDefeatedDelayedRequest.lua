@@ -5,4 +5,4 @@ ResetNPCDefeatedDelayedRequest = {}
 
 ---@param fields? ResetNPCDefeatedDelayedRequest
 ---@return ResetNPCDefeatedDelayedRequest
-function ResetNPCDefeatedDelayedRequest.new(fields) return end
+function ResetNPCDefeatedDelayedRequest.new(fields) end

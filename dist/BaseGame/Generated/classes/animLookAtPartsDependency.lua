@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class animLookAtPartsDependency
----@field public masterPart CName
----@field public slavePart CName
----@field public angle Float
----@field public speedToTargetFactor Float
----@field public speedToTargetByAngleCurve curveData
----@field public verticalPullSpeedFactor Float
----@field public verticalPullSpeedByAngleCurve curveData
----@field public horizontalPullSpeedFactor Float
----@field public horizontalPullSpeedByAngleCurve curveData
----@field public pullScaleBySquareSizeFactor Float
----@field public pullScaleBySquareSizeCurve curveData
----@field public innerSquareScale Float
+---@field masterPart CName
+---@field slavePart CName
+---@field angle Float
+---@field speedToTargetFactor Float
+---@field speedToTargetByAngleCurve curveData
+---@field verticalPullSpeedFactor Float
+---@field verticalPullSpeedByAngleCurve curveData
+---@field horizontalPullSpeedFactor Float
+---@field horizontalPullSpeedByAngleCurve curveData
+---@field pullScaleBySquareSizeFactor Float
+---@field pullScaleBySquareSizeCurve curveData
+---@field innerSquareScale Float
 animLookAtPartsDependency = {}
 
 ---@param fields? animLookAtPartsDependency
 ---@return animLookAtPartsDependency
-function animLookAtPartsDependency.new(fields) return end
+function animLookAtPartsDependency.new(fields) end

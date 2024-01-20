@@ -5,9 +5,9 @@ EffectFilter_DamageOverTime = {}
 
 ---@param fields? EffectFilter_DamageOverTime
 ---@return EffectFilter_DamageOverTime
-function EffectFilter_DamageOverTime.new(fields) return end
+function EffectFilter_DamageOverTime.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function EffectFilter_DamageOverTime:Process(ctx, filterCtx) return end
+function EffectFilter_DamageOverTime:Process(ctx, filterCtx) end

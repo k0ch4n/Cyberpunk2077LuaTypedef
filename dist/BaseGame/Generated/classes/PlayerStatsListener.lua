@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class PlayerStatsListener: gameScriptStatsListener
----@field public owner gameObject
+---@field owner gameObject
 PlayerStatsListener = {}
 
 ---@param fields? PlayerStatsListener
 ---@return PlayerStatsListener
-function PlayerStatsListener.new(fields) return end
+function PlayerStatsListener.new(fields) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function PlayerStatsListener:OnStatChanged(ownerID, statType, diff, total) return end
+function PlayerStatsListener:OnStatChanged(ownerID, statType, diff, total) end

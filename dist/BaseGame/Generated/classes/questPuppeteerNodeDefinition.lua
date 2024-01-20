@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questPuppeteerNodeDefinition: questDisableableNodeDefinition
----@field public effector questPuppetsEffector
----@field public reference gameEntityReference
+---@field effector questPuppetsEffector
+---@field reference gameEntityReference
 questPuppeteerNodeDefinition = {}
 
 ---@param fields? questPuppeteerNodeDefinition
 ---@return questPuppeteerNodeDefinition
-function questPuppeteerNodeDefinition.new(fields) return end
+function questPuppeteerNodeDefinition.new(fields) end

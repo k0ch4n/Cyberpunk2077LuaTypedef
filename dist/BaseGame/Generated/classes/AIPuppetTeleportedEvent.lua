@@ -5,4 +5,4 @@ AIPuppetTeleportedEvent = {}
 
 ---@param fields? AIPuppetTeleportedEvent
 ---@return AIPuppetTeleportedEvent
-function AIPuppetTeleportedEvent.new(fields) return end
+function AIPuppetTeleportedEvent.new(fields) end

@@ -5,13 +5,13 @@ gamedataAISubActionDisableAimAssist_Record = {}
 
 ---@param fields? gamedataAISubActionDisableAimAssist_Record
 ---@return gamedataAISubActionDisableAimAssist_Record
-function gamedataAISubActionDisableAimAssist_Record.new(fields) return end
+function gamedataAISubActionDisableAimAssist_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionDisableAimAssist_Record:Delay() return end
+function gamedataAISubActionDisableAimAssist_Record:Delay() end
 
 ---@return Float
-function gamedataAISubActionDisableAimAssist_Record:Duration() return end
+function gamedataAISubActionDisableAimAssist_Record:Duration() end
 
 ---@return CName
-function gamedataAISubActionDisableAimAssist_Record:Reason() return end
+function gamedataAISubActionDisableAimAssist_Record:Reason() end

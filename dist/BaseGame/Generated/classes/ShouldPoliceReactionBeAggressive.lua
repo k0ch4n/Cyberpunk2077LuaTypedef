@@ -5,9 +5,8 @@ ShouldPoliceReactionBeAggressive = {}
 
 ---@param fields? ShouldPoliceReactionBeAggressive
 ---@return ShouldPoliceReactionBeAggressive
-function ShouldPoliceReactionBeAggressive.new(fields) return end
+function ShouldPoliceReactionBeAggressive.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldPoliceReactionBeAggressive:Check(context) return end
+function ShouldPoliceReactionBeAggressive:Check(context) end

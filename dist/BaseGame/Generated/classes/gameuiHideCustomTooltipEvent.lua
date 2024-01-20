@@ -5,4 +5,4 @@ gameuiHideCustomTooltipEvent = {}
 
 ---@param fields? gameuiHideCustomTooltipEvent
 ---@return gameuiHideCustomTooltipEvent
-function gameuiHideCustomTooltipEvent.new(fields) return end
+function gameuiHideCustomTooltipEvent.new(fields) end

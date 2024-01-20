@@ -1,67 +1,65 @@
 ---@meta
 
 ---@class ContinueGameTooltip: inkWidgetLogicController
----@field private mainContainer inkWidgetReference
----@field private imageReplacement inkImageWidgetReference
----@field private networkStatusError inkWidgetReference
----@field private networkSyncingIndicator inkWidgetReference
----@field private label inkTextWidgetReference
----@field private labelDate inkTextWidgetReference
----@field private location inkTextWidgetReference
----@field private quest inkTextWidgetReference
----@field private level inkTextWidgetReference
----@field private lifepath inkImageWidgetReference
----@field private cloudStatus inkImageWidgetReference
----@field private playTime inkTextWidgetReference
----@field private saveFileStatus inkSaveStatus
----@field private cloudSaveStatus servicesCloudSavesQueryStatus
----@field private metaDataLoaded Bool
----@field private isOffline Bool
----@field private defaultAtlasPath redResourceReferenceScriptToken
+---@field mainContainer inkWidgetReference
+---@field imageReplacement inkImageWidgetReference
+---@field networkStatusError inkWidgetReference
+---@field networkSyncingIndicator inkWidgetReference
+---@field label inkTextWidgetReference
+---@field labelDate inkTextWidgetReference
+---@field location inkTextWidgetReference
+---@field quest inkTextWidgetReference
+---@field level inkTextWidgetReference
+---@field lifepath inkImageWidgetReference
+---@field cloudStatus inkImageWidgetReference
+---@field playTime inkTextWidgetReference
+---@field saveFileStatus inkSaveStatus
+---@field cloudSaveStatus servicesCloudSavesQueryStatus
+---@field metaDataLoaded Bool
+---@field isOffline Bool
+---@field defaultAtlasPath redResourceReferenceScriptToken
 ContinueGameTooltip = {}
 
 ---@param fields? ContinueGameTooltip
 ---@return ContinueGameTooltip
-function ContinueGameTooltip.new(fields) return end
+function ContinueGameTooltip.new(fields) end
 
----@protected
 ---@return Bool
-function ContinueGameTooltip:OnInitialize() return end
+function ContinueGameTooltip:OnInitialize() end
 
 ---@param IsBuildCensored Bool
 ---@return nil
-function ContinueGameTooltip:CheckThumbnailCensorship(IsBuildCensored) return end
+function ContinueGameTooltip:CheckThumbnailCensorship(IsBuildCensored) end
 
 ---@param value Bool
 ---@return nil
-function ContinueGameTooltip:DisplayDataSyncIndicator(value) return end
+function ContinueGameTooltip:DisplayDataSyncIndicator(value) end
 
 ---@return inkImageWidget
-function ContinueGameTooltip:GetPreviewImageWidget() return end
+function ContinueGameTooltip:GetPreviewImageWidget() end
 
 ---@return Bool
-function ContinueGameTooltip:IsBusy() return end
+function ContinueGameTooltip:IsBusy() end
 
 ---@return Bool
-function ContinueGameTooltip:IsCloudSave() return end
+function ContinueGameTooltip:IsCloudSave() end
 
 ---@param metadata inkSaveMetadataInfo
 ---@return nil
-function ContinueGameTooltip:SetInvalid(metadata) return end
+function ContinueGameTooltip:SetInvalid(metadata) end
 
 ---@param metadata inkSaveMetadataInfo
 ---@param isEp1Enabled? Bool
 ---@return nil
-function ContinueGameTooltip:SetMetadata(metadata, isEp1Enabled) return end
+function ContinueGameTooltip:SetMetadata(metadata, isEp1Enabled) end
 
 ---@param value Bool
 ---@return nil
-function ContinueGameTooltip:SetOfflineStatus(value) return end
+function ContinueGameTooltip:SetOfflineStatus(value) end
 
 ---@param status servicesCloudSavesQueryStatus
 ---@return nil
-function ContinueGameTooltip:UpdateNetworkStatus(status) return end
+function ContinueGameTooltip:UpdateNetworkStatus(status) end
 
----@private
 ---@return nil
-function ContinueGameTooltip:UpdateStatus() return end
+function ContinueGameTooltip:UpdateStatus() end

@@ -5,4 +5,4 @@ hubSelectorSingleSmallCarouselController = {}
 
 ---@param fields? hubSelectorSingleSmallCarouselController
 ---@return hubSelectorSingleSmallCarouselController
-function hubSelectorSingleSmallCarouselController.new(fields) return end
+function hubSelectorSingleSmallCarouselController.new(fields) end

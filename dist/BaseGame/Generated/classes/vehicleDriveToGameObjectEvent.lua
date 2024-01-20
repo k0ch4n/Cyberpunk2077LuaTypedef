@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleDriveToGameObjectEvent: redEvent
----@field public targetObjToReach gameObject
+---@field targetObjToReach gameObject
 vehicleDriveToGameObjectEvent = {}
 
 ---@param fields? vehicleDriveToGameObjectEvent
 ---@return vehicleDriveToGameObjectEvent
-function vehicleDriveToGameObjectEvent.new(fields) return end
+function vehicleDriveToGameObjectEvent.new(fields) end

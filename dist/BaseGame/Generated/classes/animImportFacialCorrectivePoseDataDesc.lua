@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animImportFacialCorrectivePoseDataDesc
----@field public transforms animImportFacialTransform[]
----@field public transformsNoScale animImportFacialTransformNoScale[]
----@field public transformIds Uint16[]
----@field public transformNames CName[]
----@field public parentsWeights Float[]
+---@field transforms animImportFacialTransform[]
+---@field transformsNoScale animImportFacialTransformNoScale[]
+---@field transformIds Uint16[]
+---@field transformNames CName[]
+---@field parentsWeights Float[]
 animImportFacialCorrectivePoseDataDesc = {}
 
 ---@param fields? animImportFacialCorrectivePoseDataDesc
 ---@return animImportFacialCorrectivePoseDataDesc
-function animImportFacialCorrectivePoseDataDesc.new(fields) return end
+function animImportFacialCorrectivePoseDataDesc.new(fields) end

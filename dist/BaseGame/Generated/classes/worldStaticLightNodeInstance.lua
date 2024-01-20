@@ -5,4 +5,4 @@ worldStaticLightNodeInstance = {}
 
 ---@param fields? worldStaticLightNodeInstance
 ---@return worldStaticLightNodeInstance
-function worldStaticLightNodeInstance.new(fields) return end
+function worldStaticLightNodeInstance.new(fields) end

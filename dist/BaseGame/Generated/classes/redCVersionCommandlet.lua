@@ -5,4 +5,4 @@ redCVersionCommandlet = {}
 
 ---@param fields? redCVersionCommandlet
 ---@return redCVersionCommandlet
-function redCVersionCommandlet.new(fields) return end
+function redCVersionCommandlet.new(fields) end

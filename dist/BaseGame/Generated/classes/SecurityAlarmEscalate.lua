@@ -5,10 +5,10 @@ SecurityAlarmEscalate = {}
 
 ---@param fields? SecurityAlarmEscalate
 ---@return SecurityAlarmEscalate
-function SecurityAlarmEscalate.new(fields) return end
+function SecurityAlarmEscalate.new(fields) end
 
 ---@return String
-function SecurityAlarmEscalate:GetTweakDBChoiceRecord() return end
+function SecurityAlarmEscalate:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function SecurityAlarmEscalate:SetProperties() return end
+function SecurityAlarmEscalate:SetProperties() end

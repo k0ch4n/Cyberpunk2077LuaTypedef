@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class SquadMemberBaseComponent: gameSquadMemberComponent
----@field private baseSquadRecord gamedataAISquadParams_Record
+---@field baseSquadRecord gamedataAISquadParams_Record
 SquadMemberBaseComponent = {}
 
 ---@param fields? SquadMemberBaseComponent
 ---@return SquadMemberBaseComponent
-function SquadMemberBaseComponent.new(fields) return end
+function SquadMemberBaseComponent.new(fields) end
 
----@protected
 ---@param evt SquadActionEvent
 ---@return Bool
-function SquadMemberBaseComponent:OnSquadActionEvent(evt) return end
+function SquadMemberBaseComponent:OnSquadActionEvent(evt) end
 
----@private
 ---@return gamedataAISquadParams_Record
-function SquadMemberBaseComponent:GetBaseSquadRecord() return end
+function SquadMemberBaseComponent:GetBaseSquadRecord() end
 
----@private
 ---@return Bool, AISquadScriptInterface interface
-function SquadMemberBaseComponent:GetSquadInterface() return end
+function SquadMemberBaseComponent:GetSquadInterface() end
 
----@private
 ---@param actionName CName|string
 ---@param entity entEntity
 ---@return Bool, gamedataAITicket_Record ticketRecord
-function SquadMemberBaseComponent:GetTicketType(actionName, entity) return end
+function SquadMemberBaseComponent:GetTicketType(actionName, entity) end
 
 ---@param signal SquadActionSignal
 ---@return nil
-function SquadMemberBaseComponent:OnSquadActionSignalReceived(signal) return end
+function SquadMemberBaseComponent:OnSquadActionSignalReceived(signal) end
 
 ---@param squadActionName CName|string
 ---@param squadVerb EAISquadVerb
 ---@return nil
-function SquadMemberBaseComponent:PerformSquadVerb(squadActionName, squadVerb) return end
+function SquadMemberBaseComponent:PerformSquadVerb(squadActionName, squadVerb) end

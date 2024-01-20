@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animImportFacialSetupCombinedDesc
----@field public face animImportFacialSetupDesc
----@field public eyes animImportFacialSetupDesc
----@field public tongue animImportFacialSetupDesc
----@field public usedTransformIndices Uint16[]
----@field public lipsyncOverrideToMainPosesTracksMapping Int16[]
----@field public firstLipsyncOverrideTrackIndex Int16
+---@field face animImportFacialSetupDesc
+---@field eyes animImportFacialSetupDesc
+---@field tongue animImportFacialSetupDesc
+---@field usedTransformIndices Uint16[]
+---@field lipsyncOverrideToMainPosesTracksMapping Int16[]
+---@field firstLipsyncOverrideTrackIndex Int16
 animImportFacialSetupCombinedDesc = {}
 
 ---@param fields? animImportFacialSetupCombinedDesc
 ---@return animImportFacialSetupCombinedDesc
-function animImportFacialSetupCombinedDesc.new(fields) return end
+function animImportFacialSetupCombinedDesc.new(fields) end

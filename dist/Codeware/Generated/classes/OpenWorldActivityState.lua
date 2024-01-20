@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class OpenWorldActivityState
----@field public name CName
----@field public kind CName
----@field public district gamedataDistrict
----@field public timestamp Uint32
----@field public completed Bool
----@field public discovered Bool
+---@field name CName
+---@field kind CName
+---@field district gamedataDistrict
+---@field timestamp Uint32
+---@field completed Bool
+---@field discovered Bool
 OpenWorldActivityState = {}
 
 ---@param fields? OpenWorldActivityState
 ---@return OpenWorldActivityState
-function OpenWorldActivityState.new(fields) return end
+function OpenWorldActivityState.new(fields) end

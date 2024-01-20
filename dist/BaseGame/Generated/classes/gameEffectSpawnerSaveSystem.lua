@@ -5,4 +5,4 @@ gameEffectSpawnerSaveSystem = {}
 
 ---@param fields? gameEffectSpawnerSaveSystem
 ---@return gameEffectSpawnerSaveSystem
-function gameEffectSpawnerSaveSystem.new(fields) return end
+function gameEffectSpawnerSaveSystem.new(fields) end

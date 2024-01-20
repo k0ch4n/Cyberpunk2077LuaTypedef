@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class SetArgumentBoolean: SetArguments
----@field public customVar Bool
+---@field customVar Bool
 SetArgumentBoolean = {}
 
 ---@param fields? SetArgumentBoolean
 ---@return SetArgumentBoolean
-function SetArgumentBoolean.new(fields) return end
+function SetArgumentBoolean.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetArgumentBoolean:Activate(context) return end
+function SetArgumentBoolean:Activate(context) end
 
 ---@return String
-function SetArgumentBoolean:GetEditorSubCaption() return end
+function SetArgumentBoolean:GetEditorSubCaption() end

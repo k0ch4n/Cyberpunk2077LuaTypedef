@@ -5,9 +5,9 @@ SmartWindowViabilityInterpreter = {}
 
 ---@param fields? SmartWindowViabilityInterpreter
 ---@return SmartWindowViabilityInterpreter
-function SmartWindowViabilityInterpreter.new(fields) return end
+function SmartWindowViabilityInterpreter.new(fields) end
 
 ---@param device SmartWindowControllerPS
 ---@param hasActiveActions Bool
 ---@return Bool
-function SmartWindowViabilityInterpreter.Evaluate(device, hasActiveActions) return end
+function SmartWindowViabilityInterpreter.Evaluate(device, hasActiveActions) end

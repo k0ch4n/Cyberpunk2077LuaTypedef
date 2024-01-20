@@ -5,4 +5,4 @@ KatanaMagFieldHitDelayEvent = {}
 
 ---@param fields? KatanaMagFieldHitDelayEvent
 ---@return KatanaMagFieldHitDelayEvent
-function KatanaMagFieldHitDelayEvent.new(fields) return end
+function KatanaMagFieldHitDelayEvent.new(fields) end

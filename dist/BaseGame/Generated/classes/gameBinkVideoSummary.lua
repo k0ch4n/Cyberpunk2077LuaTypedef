@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameBinkVideoSummary
----@field public currentTimeMs Uint32
----@field public totalTimeMs Uint32
----@field public currentFrame Uint32
----@field public totalFrames Uint32
----@field public frameRate Uint32
+---@field currentTimeMs Uint32
+---@field totalTimeMs Uint32
+---@field currentFrame Uint32
+---@field totalFrames Uint32
+---@field frameRate Uint32
 gameBinkVideoSummary = {}
 
 ---@param fields? gameBinkVideoSummary
 ---@return gameBinkVideoSummary
-function gameBinkVideoSummary.new(fields) return end
+function gameBinkVideoSummary.new(fields) end

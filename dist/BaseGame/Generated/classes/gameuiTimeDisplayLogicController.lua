@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameuiTimeDisplayLogicController: inkWidgetLogicController
----@field public timerText inkTextWidgetReference
----@field public noConnectionText inkTextWidgetReference
+---@field timerText inkTextWidgetReference
+---@field noConnectionText inkTextWidgetReference
 gameuiTimeDisplayLogicController = {}
 
 ---@param fields? gameuiTimeDisplayLogicController
 ---@return gameuiTimeDisplayLogicController
-function gameuiTimeDisplayLogicController.new(fields) return end
+function gameuiTimeDisplayLogicController.new(fields) end
 
 ---@param glitchEnabled Bool
 ---@param gameTime GameTime
 ---@return nil
-function gameuiTimeDisplayLogicController:UpdateTime(glitchEnabled, gameTime) return end
+function gameuiTimeDisplayLogicController:UpdateTime(glitchEnabled, gameTime) end

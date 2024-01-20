@@ -1,33 +1,33 @@
 ---@meta
 
 ---@class worldStreamingWorld: CResource
----@field public version Uint32
----@field public blockRefs worldStreamingBlock[]
----@field public environmentDefinition worldEnvironmentDefinition
----@field public worldBoundingBox Box
----@field public persistentStateData CResource
----@field public deviceResource CResource
----@field public deviceInitResource CResource
----@field public mappinResource CResource
----@field public poiMappinResource CResource
----@field public areaResource CResource
----@field public lootResource CResource
----@field public locationResource CResource
----@field public locomotionPathResource CResource
----@field public autoFoliageMapping worldAutoFoliageMapping
----@field public trafficPersistentResource CResource
----@field public trafficLaneConnectivityResource CResource
----@field public trafficLanePolygonsResource CResource
----@field public trafficLaneSpotsResource CResource
----@field public trafficSpatialRepresentationResource CResource
----@field public trafficCollisionResource CResource
----@field public trafficNullAreaCollisionResource CResource
----@field public smartObjectCompiledRootResource CResource
----@field public geometryCacheResource CResource
----@field public wasBuiltForSceneRecording Bool
----@field public streamingQueryDataResource worldStreamingQueryDataResource
+---@field version Uint32
+---@field blockRefs worldStreamingBlock[]
+---@field environmentDefinition worldEnvironmentDefinition
+---@field worldBoundingBox Box
+---@field persistentStateData CResource
+---@field deviceResource CResource
+---@field deviceInitResource CResource
+---@field mappinResource CResource
+---@field poiMappinResource CResource
+---@field areaResource CResource
+---@field lootResource CResource
+---@field locationResource CResource
+---@field locomotionPathResource CResource
+---@field autoFoliageMapping worldAutoFoliageMapping
+---@field trafficPersistentResource CResource
+---@field trafficLaneConnectivityResource CResource
+---@field trafficLanePolygonsResource CResource
+---@field trafficLaneSpotsResource CResource
+---@field trafficSpatialRepresentationResource CResource
+---@field trafficCollisionResource CResource
+---@field trafficNullAreaCollisionResource CResource
+---@field smartObjectCompiledRootResource CResource
+---@field geometryCacheResource CResource
+---@field wasBuiltForSceneRecording Bool
+---@field streamingQueryDataResource worldStreamingQueryDataResource
 worldStreamingWorld = {}
 
 ---@param fields? worldStreamingWorld
 ---@return worldStreamingWorld
-function worldStreamingWorld.new(fields) return end
+function worldStreamingWorld.new(fields) end

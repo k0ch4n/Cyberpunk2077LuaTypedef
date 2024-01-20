@@ -5,16 +5,16 @@ gamedataVehicleSurfaceBinding_Record = {}
 
 ---@param fields? gamedataVehicleSurfaceBinding_Record
 ---@return gamedataVehicleSurfaceBinding_Record
-function gamedataVehicleSurfaceBinding_Record.new(fields) return end
+function gamedataVehicleSurfaceBinding_Record.new(fields) end
 
 ---@return gamedataVehicleWheelsFrictionPreset_Record
-function gamedataVehicleSurfaceBinding_Record:FrictionPreset() return end
+function gamedataVehicleSurfaceBinding_Record:FrictionPreset() end
 
 ---@return gamedataVehicleWheelsFrictionPreset_Record
-function gamedataVehicleSurfaceBinding_Record:FrictionPresetHandle() return end
+function gamedataVehicleSurfaceBinding_Record:FrictionPresetHandle() end
 
 ---@return gamedataVehicleSurfaceType_Record
-function gamedataVehicleSurfaceBinding_Record:SurfaceType() return end
+function gamedataVehicleSurfaceBinding_Record:SurfaceType() end
 
 ---@return gamedataVehicleSurfaceType_Record
-function gamedataVehicleSurfaceBinding_Record:SurfaceTypeHandle() return end
+function gamedataVehicleSurfaceBinding_Record:SurfaceTypeHandle() end

@@ -5,16 +5,14 @@ BurstDecisions = {}
 
 ---@param fields? BurstDecisions
 ---@return BurstDecisions
-function BurstDecisions.new(fields) return end
+function BurstDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BurstDecisions:EnterCondition(stateContext, scriptInterface) return end
+function BurstDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BurstDecisions:ToShoot(stateContext, scriptInterface) return end
+function BurstDecisions:ToShoot(stateContext, scriptInterface) end

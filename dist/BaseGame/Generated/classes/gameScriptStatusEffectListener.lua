@@ -5,4 +5,4 @@ gameScriptStatusEffectListener = {}
 
 ---@param fields? gameScriptStatusEffectListener
 ---@return gameScriptStatusEffectListener
-function gameScriptStatusEffectListener.new(fields) return end
+function gameScriptStatusEffectListener.new(fields) end

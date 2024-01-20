@@ -5,4 +5,4 @@ SoundFxFactsSet = {}
 
 ---@param fields? SoundFxFactsSet
 ---@return SoundFxFactsSet
-function SoundFxFactsSet.new(fields) return end
+function SoundFxFactsSet.new(fields) end

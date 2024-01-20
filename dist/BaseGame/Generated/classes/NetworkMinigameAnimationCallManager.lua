@@ -5,7 +5,7 @@ NetworkMinigameAnimationCallManager = {}
 
 ---@param fields? NetworkMinigameAnimationCallManager
 ---@return NetworkMinigameAnimationCallManager
-function NetworkMinigameAnimationCallManager.new(fields) return end
+function NetworkMinigameAnimationCallManager.new(fields) end
 
 ---@return nil
-function NetworkMinigameAnimationCallManager:StartReveal() return end
+function NetworkMinigameAnimationCallManager:StartReveal() end

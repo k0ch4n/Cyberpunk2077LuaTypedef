@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class HasNewMountRequest: AIVehicleConditionAbstract
----@field protected mountRequest AIArgumentMapping
----@field protected checkOnlyInstant Bool
+---@field mountRequest AIArgumentMapping
+---@field checkOnlyInstant Bool
 HasNewMountRequest = {}
 
 ---@param fields? HasNewMountRequest
 ---@return HasNewMountRequest
-function HasNewMountRequest.new(fields) return end
+function HasNewMountRequest.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HasNewMountRequest:Check(context) return end
+function HasNewMountRequest:Check(context) end

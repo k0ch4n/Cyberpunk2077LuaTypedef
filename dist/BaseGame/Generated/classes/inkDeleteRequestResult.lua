@@ -5,4 +5,4 @@ inkDeleteRequestResult = {}
 
 ---@param fields? inkDeleteRequestResult
 ---@return inkDeleteRequestResult
-function inkDeleteRequestResult.new(fields) return end
+function inkDeleteRequestResult.new(fields) end

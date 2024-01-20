@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameBodyTypeData
----@field public rigHash Uint64
----@field public animsetHashes Uint64[]
----@field public overrides gameAnimsetOverrideData[]
+---@field rigHash Uint64
+---@field animsetHashes Uint64[]
+---@field overrides gameAnimsetOverrideData[]
 gameBodyTypeData = {}
 
 ---@param fields? gameBodyTypeData
 ---@return gameBodyTypeData
-function gameBodyTypeData.new(fields) return end
+function gameBodyTypeData.new(fields) end

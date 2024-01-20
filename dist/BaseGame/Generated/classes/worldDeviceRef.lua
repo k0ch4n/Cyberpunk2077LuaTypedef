@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldDeviceRef
----@field public nodeRef NodeRef
----@field public componentName CName
----@field public deviceClassName CName
+---@field nodeRef NodeRef
+---@field componentName CName
+---@field deviceClassName CName
 worldDeviceRef = {}
 
 ---@param fields? worldDeviceRef
 ---@return worldDeviceRef
-function worldDeviceRef.new(fields) return end
+function worldDeviceRef.new(fields) end

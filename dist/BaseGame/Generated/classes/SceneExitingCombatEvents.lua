@@ -5,20 +5,19 @@ SceneExitingCombatEvents = {}
 
 ---@param fields? SceneExitingCombatEvents
 ---@return SceneExitingCombatEvents
-function SceneExitingCombatEvents.new(fields) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function SceneExitingCombatEvents:OnEnter(stateContext, scriptInterface) return end
+function SceneExitingCombatEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SceneExitingCombatEvents:OnExit(stateContext, scriptInterface) return end
+function SceneExitingCombatEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SceneExitingCombatEvents:OnForcedExit(stateContext, scriptInterface) return end
+function SceneExitingCombatEvents:OnExit(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function SceneExitingCombatEvents:OnForcedExit(stateContext, scriptInterface) end

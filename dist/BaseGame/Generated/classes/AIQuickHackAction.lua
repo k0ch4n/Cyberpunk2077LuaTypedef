@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class AIQuickHackAction: PuppetAction
----@field public target gameObject
----@field public scaleUploadTime Bool
----@field public HUDData HUDProgressBarData
+---@field target gameObject
+---@field scaleUploadTime Bool
+---@field HUDData HUDProgressBarData
 AIQuickHackAction = {}
 
 ---@param fields? AIQuickHackAction
 ---@return AIQuickHackAction
-function AIQuickHackAction.new(fields) return end
+function AIQuickHackAction.new(fields) end
 
----@protected
 ---@param actionEffects gamedataObjectActionEffect_Record[]
 ---@return nil
-function AIQuickHackAction:ProcessStatusEffects(actionEffects) return end
+function AIQuickHackAction:ProcessStatusEffects(actionEffects) end
 
----@protected
 ---@return nil
-function AIQuickHackAction:SetRegenBehavior() return end
+function AIQuickHackAction:SetRegenBehavior() end
 
----@private
 ---@return nil
-function AIQuickHackAction:StartUpload() return end
+function AIQuickHackAction:StartUpload() end

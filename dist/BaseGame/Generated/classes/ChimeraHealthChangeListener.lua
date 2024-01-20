@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class ChimeraHealthChangeListener: gameCustomValueStatPoolsListener
----@field private owner NPCPuppet
+---@field owner NPCPuppet
 ChimeraHealthChangeListener = {}
 
 ---@param fields? ChimeraHealthChangeListener
 ---@return ChimeraHealthChangeListener
-function ChimeraHealthChangeListener.new(fields) return end
+function ChimeraHealthChangeListener.new(fields) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function ChimeraHealthChangeListener:CheckPhase(oldValue, newValue, percToPoints) return end
+function ChimeraHealthChangeListener:CheckPhase(oldValue, newValue, percToPoints) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function ChimeraHealthChangeListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function ChimeraHealthChangeListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end
 
 ---@param owner NPCPuppet
 ---@return nil
-function ChimeraHealthChangeListener:SetOwner(owner) return end
+function ChimeraHealthChangeListener:SetOwner(owner) end

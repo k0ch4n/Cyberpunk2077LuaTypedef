@@ -5,4 +5,4 @@ IsNewPerkBoughtPrereqState = {}
 
 ---@param fields? IsNewPerkBoughtPrereqState
 ---@return IsNewPerkBoughtPrereqState
-function IsNewPerkBoughtPrereqState.new(fields) return end
+function IsNewPerkBoughtPrereqState.new(fields) end

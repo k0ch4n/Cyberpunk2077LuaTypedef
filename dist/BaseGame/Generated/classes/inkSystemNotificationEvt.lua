@@ -5,4 +5,4 @@ inkSystemNotificationEvt = {}
 
 ---@param fields? inkSystemNotificationEvt
 ---@return inkSystemNotificationEvt
-function inkSystemNotificationEvt.new(fields) return end
+function inkSystemNotificationEvt.new(fields) end

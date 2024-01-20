@@ -5,4 +5,4 @@ RemoveCachedStatusEffectFXEvent = {}
 
 ---@param fields? RemoveCachedStatusEffectFXEvent
 ---@return RemoveCachedStatusEffectFXEvent
-function RemoveCachedStatusEffectFXEvent.new(fields) return end
+function RemoveCachedStatusEffectFXEvent.new(fields) end

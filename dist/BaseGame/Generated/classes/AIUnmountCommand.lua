@@ -5,4 +5,4 @@ AIUnmountCommand = {}
 
 ---@param fields? AIUnmountCommand
 ---@return AIUnmountCommand
-function AIUnmountCommand.new(fields) return end
+function AIUnmountCommand.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ToggleFocusClueEvent: redEvent
----@field public clueIndex Int32
----@field public isEnabled Bool
----@field public investigationState EFocusClueInvestigationState
----@field public updatePS Bool
+---@field clueIndex Int32
+---@field isEnabled Bool
+---@field investigationState EFocusClueInvestigationState
+---@field updatePS Bool
 ToggleFocusClueEvent = {}
 
 ---@param fields? ToggleFocusClueEvent
 ---@return ToggleFocusClueEvent
-function ToggleFocusClueEvent.new(fields) return end
+function ToggleFocusClueEvent.new(fields) end
 
 ---@return String
-function ToggleFocusClueEvent:GetFriendlyDescription() return end
+function ToggleFocusClueEvent:GetFriendlyDescription() end

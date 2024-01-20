@@ -5,37 +5,37 @@ gamedataHitPrereq_Record = {}
 
 ---@param fields? gamedataHitPrereq_Record
 ---@return gamedataHitPrereq_Record
-function gamedataHitPrereq_Record.new(fields) return end
+function gamedataHitPrereq_Record.new(fields) end
 
 ---@return String
-function gamedataHitPrereq_Record:CallbackType() return end
+function gamedataHitPrereq_Record:CallbackType() end
 
 ---@return nil, gamedataHitPrereqCondition_Record[] outList
-function gamedataHitPrereq_Record:Conditions() return end
+function gamedataHitPrereq_Record:Conditions() end
 
 ---@param item gamedataHitPrereqCondition_Record
 ---@return Bool
-function gamedataHitPrereq_Record:ConditionsContains(item) return end
+function gamedataHitPrereq_Record:ConditionsContains(item) end
 
 ---@return Int32
-function gamedataHitPrereq_Record:GetConditionsCount() return end
+function gamedataHitPrereq_Record:GetConditionsCount() end
 
 ---@param index Int32
 ---@return gamedataHitPrereqCondition_Record
-function gamedataHitPrereq_Record:GetConditionsItem(index) return end
+function gamedataHitPrereq_Record:GetConditionsItem(index) end
 
 ---@param index Int32
 ---@return gamedataHitPrereqCondition_Record
-function gamedataHitPrereq_Record:GetConditionsItemHandle(index) return end
+function gamedataHitPrereq_Record:GetConditionsItemHandle(index) end
 
 ---@return Bool
-function gamedataHitPrereq_Record:IgnoreSelfInflictedPressureWave() return end
+function gamedataHitPrereq_Record:IgnoreSelfInflictedPressureWave() end
 
 ---@return Bool
-function gamedataHitPrereq_Record:IsSynchronous() return end
+function gamedataHitPrereq_Record:IsSynchronous() end
 
 ---@return String
-function gamedataHitPrereq_Record:PipelineStage() return end
+function gamedataHitPrereq_Record:PipelineStage() end
 
 ---@return String
-function gamedataHitPrereq_Record:PipelineType() return end
+function gamedataHitPrereq_Record:PipelineType() end

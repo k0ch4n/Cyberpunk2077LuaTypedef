@@ -5,13 +5,13 @@ CActionScriptProxy = {}
 
 ---@param go gameObject
 ---@return nil
-function CActionScriptProxy:Bind(go) return end
+function CActionScriptProxy:Bind(go) end
 
 ---@return gameEActionStatus
-function CActionScriptProxy:GetStatus() return end
+function CActionScriptProxy:GetStatus() end
 
 ---@return nil
-function CActionScriptProxy:Launch() return end
+function CActionScriptProxy:Launch() end
 
 ---@return nil
-function CActionScriptProxy:Stop() return end
+function CActionScriptProxy:Stop() end

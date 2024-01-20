@@ -5,4 +5,4 @@ questTestNodeDefinition = {}
 
 ---@param fields? questTestNodeDefinition
 ---@return questTestNodeDefinition
-function questTestNodeDefinition.new(fields) return end
+function questTestNodeDefinition.new(fields) end

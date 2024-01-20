@@ -5,4 +5,4 @@ gameScanningInternalEvent = {}
 
 ---@param fields? gameScanningInternalEvent
 ---@return gameScanningInternalEvent
-function gameScanningInternalEvent.new(fields) return end
+function gameScanningInternalEvent.new(fields) end

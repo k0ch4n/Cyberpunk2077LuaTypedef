@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIPosition
----@field public position Vector3
+---@field position Vector3
 AIPosition = {}
 
 ---@param fields? AIPosition
 ---@return AIPosition
-function AIPosition.new(fields) return end
+function AIPosition.new(fields) end

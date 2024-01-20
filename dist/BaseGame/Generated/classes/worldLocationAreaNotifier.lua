@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldLocationAreaNotifier: worldITriggerAreaNotifer
----@field public districtID TweakDBID
----@field public sendNewLocationNotification Bool
+---@field districtID TweakDBID
+---@field sendNewLocationNotification Bool
 worldLocationAreaNotifier = {}
 
 ---@param fields? worldLocationAreaNotifier
 ---@return worldLocationAreaNotifier
-function worldLocationAreaNotifier.new(fields) return end
+function worldLocationAreaNotifier.new(fields) end

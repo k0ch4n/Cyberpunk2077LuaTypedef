@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameTransformAnimationPlayEvent: gameTransformAnimationEvent
----@field public timeScale Float
----@field public looping Bool
----@field public timesPlayed Uint32
----@field public useEntitySetup Bool
+---@field timeScale Float
+---@field looping Bool
+---@field timesPlayed Uint32
+---@field useEntitySetup Bool
 gameTransformAnimationPlayEvent = {}
 
 ---@param fields? gameTransformAnimationPlayEvent
 ---@return gameTransformAnimationPlayEvent
-function gameTransformAnimationPlayEvent.new(fields) return end
+function gameTransformAnimationPlayEvent.new(fields) end

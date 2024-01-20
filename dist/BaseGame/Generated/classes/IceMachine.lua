@@ -5,49 +5,41 @@ IceMachine = {}
 
 ---@param fields? IceMachine
 ---@return IceMachine
-function IceMachine.new(fields) return end
+function IceMachine.new(fields) end
 
----@protected
 ---@param evt DispenceItemFromVendor
 ---@return Bool
-function IceMachine:OnDispenceItemFromVendor(evt) return end
+function IceMachine:OnDispenceItemFromVendor(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function IceMachine:OnRequestComponents(ri) return end
+function IceMachine:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function IceMachine:OnTakeControl(ri) return end
+function IceMachine:OnTakeControl(ri) end
 
----@protected
 ---@param evt VendingMachineFinishedEvent
 ---@return Bool
-function IceMachine:OnVendingMachineFinishedEvent(evt) return end
+function IceMachine:OnVendingMachineFinishedEvent(evt) end
 
 ---@return EGameplayRole
-function IceMachine:DeterminGameplayRole() return end
+function IceMachine:DeterminGameplayRole() end
 
----@private
 ---@return IceMachineController
-function IceMachine:GetController() return end
+function IceMachine:GetController() end
 
 ---@return IceMachineControllerPS
-function IceMachine:GetDevicePS() return end
+function IceMachine:GetDevicePS() end
 
 ---@return TweakDBID
-function IceMachine:GetVendorID() return end
+function IceMachine:GetVendorID() end
 
----@protected
 ---@return nil
-function IceMachine:HackedEffect() return end
+function IceMachine:HackedEffect() end
 
----@protected
 ---@return nil
-function IceMachine:PlayItemFall() return end
+function IceMachine:PlayItemFall() end
 
----@protected
 ---@return nil
-function IceMachine:StopGlitching() return end
+function IceMachine:StopGlitching() end

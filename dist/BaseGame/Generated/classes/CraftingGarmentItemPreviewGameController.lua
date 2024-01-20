@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class CraftingGarmentItemPreviewGameController: gameuiWardrobeSetPreviewGameController
----@field private initialItems gameItemID[]
----@field private previewedItem gameItemID
+---@field initialItems gameItemID[]
+---@field previewedItem gameItemID
 CraftingGarmentItemPreviewGameController = {}
 
 ---@param fields? CraftingGarmentItemPreviewGameController
 ---@return CraftingGarmentItemPreviewGameController
-function CraftingGarmentItemPreviewGameController.new(fields) return end
+function CraftingGarmentItemPreviewGameController.new(fields) end
 
----@protected
 ---@param evt CraftingItemPreviewEvent
 ---@return Bool
-function CraftingGarmentItemPreviewGameController:OnCrafrtingPreview(evt) return end
+function CraftingGarmentItemPreviewGameController:OnCrafrtingPreview(evt) end
 
----@protected
 ---@return Bool
-function CraftingGarmentItemPreviewGameController:OnPreviewInitialized() return end
+function CraftingGarmentItemPreviewGameController:OnPreviewInitialized() end
 
----@protected
 ---@return Bool
-function CraftingGarmentItemPreviewGameController:OnUninitialize() return end
+function CraftingGarmentItemPreviewGameController:OnUninitialize() end

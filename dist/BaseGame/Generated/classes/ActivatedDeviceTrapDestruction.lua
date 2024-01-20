@@ -1,86 +1,73 @@
 ---@meta
 
 ---@class ActivatedDeviceTrapDestruction: ActivatedDeviceTrap
----@field protected physicalMeshNames CName[]
----@field protected physicalMeshes entPhysicalMeshComponent[]
----@field protected hideMeshNames CName[]
----@field protected hideMeshes entIPlacedComponent[]
----@field protected hitColliderNames CName[]
----@field protected hitColliders entIPlacedComponent[]
----@field protected impulseVector Vector4
----@field protected physicalMeshImpactVFX gameFxResource[]
----@field protected componentsToEnableNames CName[]
----@field protected componentsToEnable entIPlacedComponent[]
----@field protected hitCount Int32
----@field protected wasAttackPerformed Bool
----@field protected alreadyPlayedVFXComponents CName[]
----@field protected shouldCheckPhysicalCollisions Bool
----@field protected lastEntityHit IScriptable
----@field protected timeToActivatePhysics Float
+---@field physicalMeshNames CName[]
+---@field physicalMeshes entPhysicalMeshComponent[]
+---@field hideMeshNames CName[]
+---@field hideMeshes entIPlacedComponent[]
+---@field hitColliderNames CName[]
+---@field hitColliders entIPlacedComponent[]
+---@field impulseVector Vector4
+---@field physicalMeshImpactVFX gameFxResource[]
+---@field componentsToEnableNames CName[]
+---@field componentsToEnable entIPlacedComponent[]
+---@field hitCount Int32
+---@field wasAttackPerformed Bool
+---@field alreadyPlayedVFXComponents CName[]
+---@field shouldCheckPhysicalCollisions Bool
+---@field lastEntityHit IScriptable
+---@field timeToActivatePhysics Float
 ActivatedDeviceTrapDestruction = {}
 
 ---@param fields? ActivatedDeviceTrapDestruction
 ---@return ActivatedDeviceTrapDestruction
-function ActivatedDeviceTrapDestruction.new(fields) return end
+function ActivatedDeviceTrapDestruction.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnActivateDevice(evt) return end
+function ActivatedDeviceTrapDestruction:OnActivateDevice(evt) end
 
----@protected
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnGameAttached() return end
+function ActivatedDeviceTrapDestruction:OnGameAttached() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnHit(evt) return end
+function ActivatedDeviceTrapDestruction:OnHit(evt) end
 
----@protected
 ---@param evt enteventsPhysicalCollisionEvent
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnPhysicalCollisionEvent(evt) return end
+function ActivatedDeviceTrapDestruction:OnPhysicalCollisionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnRequestComponents(ri) return end
+function ActivatedDeviceTrapDestruction:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnTakeControl(ri) return end
+function ActivatedDeviceTrapDestruction:OnTakeControl(ri) end
 
----@protected
 ---@param evt TimerEvent
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnTimerEvent(evt) return end
+function ActivatedDeviceTrapDestruction:OnTimerEvent(evt) end
 
----@protected
 ---@param evt TrapPhysicsActivationEvent
 ---@return Bool
-function ActivatedDeviceTrapDestruction:OnTrapPhysicsActivationEvent(evt) return end
+function ActivatedDeviceTrapDestruction:OnTrapPhysicsActivationEvent(evt) end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrapDestruction:ActivatePhysicalMeshes() return end
+function ActivatedDeviceTrapDestruction:ActivatePhysicalMeshes() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrapDestruction:EnableComponents() return end
+function ActivatedDeviceTrapDestruction:EnableComponents() end
 
 ---@return IScriptable
-function ActivatedDeviceTrapDestruction:GetLastEntityHit() return end
+function ActivatedDeviceTrapDestruction:GetLastEntityHit() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrapDestruction:HideMeshes() return end
+function ActivatedDeviceTrapDestruction:HideMeshes() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrapDestruction:HidePhysicalMeshes() return end
+function ActivatedDeviceTrapDestruction:HidePhysicalMeshes() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTrapDestruction:RefreshAnimation() return end
+function ActivatedDeviceTrapDestruction:RefreshAnimation() end

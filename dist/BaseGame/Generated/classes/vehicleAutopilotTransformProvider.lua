@@ -5,4 +5,4 @@ vehicleAutopilotTransformProvider = {}
 
 ---@param fields? vehicleAutopilotTransformProvider
 ---@return vehicleAutopilotTransformProvider
-function vehicleAutopilotTransformProvider.new(fields) return end
+function vehicleAutopilotTransformProvider.new(fields) end

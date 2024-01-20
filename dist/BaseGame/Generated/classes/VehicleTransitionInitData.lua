@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VehicleTransitionInitData: IScriptable
----@field public instant Bool
----@field public entityID entEntityID
----@field public alive Bool
----@field public occupiedByNonFriendly Bool
+---@field instant Bool
+---@field entityID entEntityID
+---@field alive Bool
+---@field occupiedByNonFriendly Bool
 VehicleTransitionInitData = {}
 
 ---@param fields? VehicleTransitionInitData
 ---@return VehicleTransitionInitData
-function VehicleTransitionInitData.new(fields) return end
+function VehicleTransitionInitData.new(fields) end

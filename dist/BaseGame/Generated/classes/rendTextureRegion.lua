@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class rendTextureRegion: ISerializable
----@field public name CName
----@field public isStretch Bool
----@field public regionParts rendTextureRegionPart[]
+---@field name CName
+---@field isStretch Bool
+---@field regionParts rendTextureRegionPart[]
 rendTextureRegion = {}
 
 ---@param fields? rendTextureRegion
 ---@return rendTextureRegion
-function rendTextureRegion.new(fields) return end
+function rendTextureRegion.new(fields) end

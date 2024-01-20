@@ -1,52 +1,44 @@
 ---@meta
 
 ---@class ScannerQuestCluesGameController: BaseChunkGameController
----@field private ScannerQuestPanel inkCompoundWidgetReference
----@field private questCluesCallbackID redCallbackObject
----@field private scannerDataCallbackID redCallbackObject
----@field private isValidQuestClues Bool
----@field private ScannerData scannerDataStructure
----@field private hasValidScannables Bool
----@field private asyncSpawnRequests inkAsyncSpawnRequest[]
+---@field ScannerQuestPanel inkCompoundWidgetReference
+---@field questCluesCallbackID redCallbackObject
+---@field scannerDataCallbackID redCallbackObject
+---@field isValidQuestClues Bool
+---@field ScannerData scannerDataStructure
+---@field hasValidScannables Bool
+---@field asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerQuestCluesGameController = {}
 
 ---@param fields? ScannerQuestCluesGameController
 ---@return ScannerQuestCluesGameController
-function ScannerQuestCluesGameController.new(fields) return end
+function ScannerQuestCluesGameController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerQuestCluesGameController:OnInitialize() return end
+function ScannerQuestCluesGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerQuestCluesGameController:OnQuestCluesChanged(value) return end
+function ScannerQuestCluesGameController:OnQuestCluesChanged(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ScannerQuestCluesGameController:OnQuestEntrySpawned(widget, userData) return end
+function ScannerQuestCluesGameController:OnQuestEntrySpawned(widget, userData) end
 
----@protected
 ---@param val Variant
 ---@return Bool
-function ScannerQuestCluesGameController:OnScannerDataChange(val) return end
+function ScannerQuestCluesGameController:OnScannerDataChange(val) end
 
----@protected
 ---@return Bool
-function ScannerQuestCluesGameController:OnUninitialize() return end
+function ScannerQuestCluesGameController:OnUninitialize() end
 
----@private
 ---@param request inkAsyncSpawnRequest
 ---@return nil
-function ScannerQuestCluesGameController:ClearAsyncSpawnRequest(request) return end
+function ScannerQuestCluesGameController:ClearAsyncSpawnRequest(request) end
 
----@private
 ---@return nil
-function ScannerQuestCluesGameController:Refresh() return end
+function ScannerQuestCluesGameController:Refresh() end
 
----@private
 ---@return nil
-function ScannerQuestCluesGameController:UpdateGlobalVisibility() return end
+function ScannerQuestCluesGameController:UpdateGlobalVisibility() end

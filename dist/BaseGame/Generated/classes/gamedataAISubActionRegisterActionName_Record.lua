@@ -5,7 +5,7 @@ gamedataAISubActionRegisterActionName_Record = {}
 
 ---@param fields? gamedataAISubActionRegisterActionName_Record
 ---@return gamedataAISubActionRegisterActionName_Record
-function gamedataAISubActionRegisterActionName_Record.new(fields) return end
+function gamedataAISubActionRegisterActionName_Record.new(fields) end
 
 ---@return CName
-function gamedataAISubActionRegisterActionName_Record:ActionName() return end
+function gamedataAISubActionRegisterActionName_Record:ActionName() end

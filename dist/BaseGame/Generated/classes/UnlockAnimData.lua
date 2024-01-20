@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UnlockAnimData
----@field public levelFrom Int32
----@field public levelTo Int32
+---@field levelFrom Int32
+---@field levelTo Int32
 UnlockAnimData = {}
 
 ---@param fields? UnlockAnimData
 ---@return UnlockAnimData
-function UnlockAnimData.new(fields) return end
+function UnlockAnimData.new(fields) end

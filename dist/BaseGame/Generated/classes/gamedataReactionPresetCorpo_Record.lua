@@ -5,4 +5,4 @@ gamedataReactionPresetCorpo_Record = {}
 
 ---@param fields? gamedataReactionPresetCorpo_Record
 ---@return gamedataReactionPresetCorpo_Record
-function gamedataReactionPresetCorpo_Record.new(fields) return end
+function gamedataReactionPresetCorpo_Record.new(fields) end

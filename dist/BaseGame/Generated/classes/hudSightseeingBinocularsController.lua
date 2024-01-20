@@ -1,76 +1,66 @@
 ---@meta
 
 ---@class hudSightseeingBinocularsController: CustomAnimationsHudGameController
----@field private pitch_min Float
----@field private pitch_max Float
----@field private yaw_min Float
----@field private yaw_max Float
----@field private tele_min Float
----@field private tele_max Float
----@field private tele_scale Float
----@field private max_zoom_level Float
----@field private background inkCanvasWidgetReference
----@field private psmBlackboard gameIBlackboard
----@field private tcsBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private tcs_BBID redCallbackObject
----@field private deviceChain_BBID redCallbackObject
----@field private currentZoom Float
----@field private controlledObjectRef gameObject
----@field private alpha_fadein inkanimDefinition
----@field private AnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private ownerObject gameObject
----@field private maxZoomLevel Int32
+---@field pitch_min Float
+---@field pitch_max Float
+---@field yaw_min Float
+---@field yaw_max Float
+---@field tele_min Float
+---@field tele_max Float
+---@field tele_scale Float
+---@field max_zoom_level Float
+---@field background inkCanvasWidgetReference
+---@field psmBlackboard gameIBlackboard
+---@field tcsBlackboard gameIBlackboard
+---@field PSM_BBID redCallbackObject
+---@field tcs_BBID redCallbackObject
+---@field deviceChain_BBID redCallbackObject
+---@field currentZoom Float
+---@field controlledObjectRef gameObject
+---@field alpha_fadein inkanimDefinition
+---@field AnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field ownerObject gameObject
+---@field maxZoomLevel Int32
 hudSightseeingBinocularsController = {}
 
 ---@param fields? hudSightseeingBinocularsController
 ---@return hudSightseeingBinocularsController
-function hudSightseeingBinocularsController.new(fields) return end
+function hudSightseeingBinocularsController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function hudSightseeingBinocularsController:OnAction(action, consumer) return end
+function hudSightseeingBinocularsController:OnAction(action, consumer) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function hudSightseeingBinocularsController:OnChangeControlledDevice(value) return end
+function hudSightseeingBinocularsController:OnChangeControlledDevice(value) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function hudSightseeingBinocularsController:OnEndLoop(proxy) return end
+function hudSightseeingBinocularsController:OnEndLoop(proxy) end
 
----@protected
 ---@return Bool
-function hudSightseeingBinocularsController:OnInitialize() return end
+function hudSightseeingBinocularsController:OnInitialize() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudSightseeingBinocularsController:OnPlayerAttach(playerPuppet) return end
+function hudSightseeingBinocularsController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function hudSightseeingBinocularsController:OnPlayerDetach(playerPuppet) return end
+function hudSightseeingBinocularsController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function hudSightseeingBinocularsController:OnTakeControllOverDevice(value) return end
+function hudSightseeingBinocularsController:OnTakeControllOverDevice(value) end
 
----@protected
 ---@return Bool
-function hudSightseeingBinocularsController:OnUninitialize() return end
+function hudSightseeingBinocularsController:OnUninitialize() end
 
----@private
 ---@return nil
-function hudSightseeingBinocularsController:ResolveState() return end
+function hudSightseeingBinocularsController:ResolveState() end
 
----@private
 ---@return nil
-function hudSightseeingBinocularsController:UpdateRulers() return end
+function hudSightseeingBinocularsController:UpdateRulers() end

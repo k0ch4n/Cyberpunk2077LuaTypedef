@@ -5,4 +5,4 @@ SpiderbotOrderCompletedEvent = {}
 
 ---@param fields? SpiderbotOrderCompletedEvent
 ---@return SpiderbotOrderCompletedEvent
-function SpiderbotOrderCompletedEvent.new(fields) return end
+function SpiderbotOrderCompletedEvent.new(fields) end

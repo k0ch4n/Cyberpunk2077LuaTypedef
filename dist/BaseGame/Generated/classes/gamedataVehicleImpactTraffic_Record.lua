@@ -5,13 +5,13 @@ gamedataVehicleImpactTraffic_Record = {}
 
 ---@param fields? gamedataVehicleImpactTraffic_Record
 ---@return gamedataVehicleImpactTraffic_Record
-function gamedataVehicleImpactTraffic_Record.new(fields) return end
+function gamedataVehicleImpactTraffic_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleImpactTraffic_Record:MaxThreshold() return end
+function gamedataVehicleImpactTraffic_Record:MaxThreshold() end
 
 ---@return Float
-function gamedataVehicleImpactTraffic_Record:MaxTimerStunned() return end
+function gamedataVehicleImpactTraffic_Record:MaxTimerStunned() end
 
 ---@return Float
-function gamedataVehicleImpactTraffic_Record:MinThreshold() return end
+function gamedataVehicleImpactTraffic_Record:MinThreshold() end

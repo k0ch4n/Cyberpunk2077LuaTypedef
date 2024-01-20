@@ -4,7 +4,7 @@
 ActionInt = {}
 
 ---@return String
-function ActionInt:GetCurrentDisplayString() return end
+function ActionInt:GetCurrentDisplayString() end
 
 ---@return gamedeviceActionProperty[]
-function ActionInt:GetProperties() return end
+function ActionInt:GetProperties() end

@@ -5,7 +5,7 @@ QuestPause = {}
 
 ---@param fields? QuestPause
 ---@return QuestPause
-function QuestPause.new(fields) return end
+function QuestPause.new(fields) end
 
 ---@return nil
-function QuestPause:SetProperties() return end
+function QuestPause:SetProperties() end

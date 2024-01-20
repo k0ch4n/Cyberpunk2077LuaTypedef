@@ -5,4 +5,4 @@ NotifyNearbyAboutCombatEvent = {}
 
 ---@param fields? NotifyNearbyAboutCombatEvent
 ---@return NotifyNearbyAboutCombatEvent
-function NotifyNearbyAboutCombatEvent.new(fields) return end
+function NotifyNearbyAboutCombatEvent.new(fields) end

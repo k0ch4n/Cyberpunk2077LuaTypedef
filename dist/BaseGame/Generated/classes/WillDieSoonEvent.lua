@@ -5,4 +5,4 @@ WillDieSoonEvent = {}
 
 ---@param fields? WillDieSoonEvent
 ---@return WillDieSoonEvent
-function WillDieSoonEvent.new(fields) return end
+function WillDieSoonEvent.new(fields) end

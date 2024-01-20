@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class FUNC_TEST_inkGameController: gameuiWidgetGameController
----@field public Canvas inkCanvasWidgetReference
----@field public HorizontalPanel inkHorizontalPanelWidgetReference
----@field public VerticalPanel inkVerticalPanelWidgetReference
----@field public Flex inkFlexWidgetReference
----@field public UniformGrid inkUniformGridWidgetReference
----@field public Text inkTextWidgetReference
----@field public TextInput inkTextInputWidgetReference
----@field public Image inkImageWidgetReference
----@field public Video inkVideoWidgetReference
----@field public Border inkBorderWidgetReference
----@field public Rectangle inkRectangleWidgetReference
----@field public Circle inkCircleWidgetReference
----@field public Shape inkShapeWidgetReference
----@field public BasicInputFields FUNC_TEST_Container_2
----@field public AdditionalFields FUNC_TEST_Container
+---@field Canvas inkCanvasWidgetReference
+---@field HorizontalPanel inkHorizontalPanelWidgetReference
+---@field VerticalPanel inkVerticalPanelWidgetReference
+---@field Flex inkFlexWidgetReference
+---@field UniformGrid inkUniformGridWidgetReference
+---@field Text inkTextWidgetReference
+---@field TextInput inkTextInputWidgetReference
+---@field Image inkImageWidgetReference
+---@field Video inkVideoWidgetReference
+---@field Border inkBorderWidgetReference
+---@field Rectangle inkRectangleWidgetReference
+---@field Circle inkCircleWidgetReference
+---@field Shape inkShapeWidgetReference
+---@field BasicInputFields FUNC_TEST_Container_2
+---@field AdditionalFields FUNC_TEST_Container
 FUNC_TEST_inkGameController = {}
 
 ---@param fields? FUNC_TEST_inkGameController
 ---@return FUNC_TEST_inkGameController
-function FUNC_TEST_inkGameController.new(fields) return end
+function FUNC_TEST_inkGameController.new(fields) end

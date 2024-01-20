@@ -5,4 +5,4 @@ gameWeakspotDestroyedEvent = {}
 
 ---@param fields? gameWeakspotDestroyedEvent
 ---@return gameWeakspotDestroyedEvent
-function gameWeakspotDestroyedEvent.new(fields) return end
+function gameWeakspotDestroyedEvent.new(fields) end

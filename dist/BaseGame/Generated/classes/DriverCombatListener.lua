@@ -1,36 +1,34 @@
 ---@meta
 
 ---@class DriverCombatListener: IScriptable
----@field public mountedCallback redCallbackObject
----@field public tppCallback redCallbackObject
----@field public isMounted Bool
----@field public isInTPP Bool
+---@field mountedCallback redCallbackObject
+---@field tppCallback redCallbackObject
+---@field isMounted Bool
+---@field isInTPP Bool
 DriverCombatListener = {}
 
 ---@param fields? DriverCombatListener
 ---@return DriverCombatListener
-function DriverCombatListener.new(fields) return end
+function DriverCombatListener.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function DriverCombatListener:OnDriveCombatTPPChanged(value) return end
+function DriverCombatListener:OnDriveCombatTPPChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function DriverCombatListener:OnMountedInDriverSeatChanged(value) return end
+function DriverCombatListener:OnMountedInDriverSeatChanged(value) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatListener:Init(scriptInterface) return end
+function DriverCombatListener:Init(scriptInterface) end
 
 ---@return Bool
-function DriverCombatListener:IsMounted() return end
+function DriverCombatListener:IsMounted() end
 
 ---@return Bool
-function DriverCombatListener:IsMountedInTPP() return end
+function DriverCombatListener:IsMountedInTPP() end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatListener:UnInit(scriptInterface) return end
+function DriverCombatListener:UnInit(scriptInterface) end

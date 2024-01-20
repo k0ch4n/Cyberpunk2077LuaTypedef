@@ -5,16 +5,14 @@ UiQuickHackPanelContextEvents = {}
 
 ---@param fields? UiQuickHackPanelContextEvents
 ---@return UiQuickHackPanelContextEvents
-function UiQuickHackPanelContextEvents.new(fields) return end
+function UiQuickHackPanelContextEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UiQuickHackPanelContextEvents:OnEnter(stateContext, scriptInterface) return end
+function UiQuickHackPanelContextEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param value Bool
 ---@return nil
-function UiQuickHackPanelContextEvents:SetChangeTargetTooltipVisibility(scriptInterface, value) return end
+function UiQuickHackPanelContextEvents:SetChangeTargetTooltipVisibility(scriptInterface, value) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questDeletionMarkerNodeDefinition: questSignalStoppingNodeDefinition
----@field public deletedNodeIds Uint16[]
+---@field deletedNodeIds Uint16[]
 questDeletionMarkerNodeDefinition = {}
 
 ---@param fields? questDeletionMarkerNodeDefinition
 ---@return questDeletionMarkerNodeDefinition
-function questDeletionMarkerNodeDefinition.new(fields) return end
+function questDeletionMarkerNodeDefinition.new(fields) end

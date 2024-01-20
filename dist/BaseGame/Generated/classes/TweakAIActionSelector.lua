@@ -1,43 +1,37 @@
 ---@meta
 
 ---@class TweakAIActionSelector: TweakAIActionAbstract
----@field public selector TweakDBID
----@field public selectorRecord gamedataAIActionSelector_Record
----@field public nodeIterator Int32
+---@field selector TweakDBID
+---@field selectorRecord gamedataAIActionSelector_Record
+---@field nodeIterator Int32
 TweakAIActionSelector = {}
 
 ---@param fields? TweakAIActionSelector
 ---@return TweakAIActionSelector
-function TweakAIActionSelector.new(fields) return end
+function TweakAIActionSelector.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionSelector:Deactivate(context) return end
+function TweakAIActionSelector:Deactivate(context) end
 
----@private
 ---@return TweakDBID
-function TweakAIActionSelector:Debug_GetBaseActionId() return end
+function TweakAIActionSelector:Debug_GetBaseActionId() end
 
----@private
 ---@return TweakDBID
-function TweakAIActionSelector:Debug_GetCompositeId() return end
+function TweakAIActionSelector:Debug_GetCompositeId() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionDebugName String
 ---@return Bool, gamedataAIAction_Record actionRecord, Bool shouldCallAgain
-function TweakAIActionSelector:GetActionRecord(context, actionDebugName) return end
+function TweakAIActionSelector:GetActionRecord(context, actionDebugName) end
 
 ---@return String
-function TweakAIActionSelector:GetFriendlyName() return end
+function TweakAIActionSelector:GetFriendlyName() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionSelector:RunNextAction(context) return end
+function TweakAIActionSelector:RunNextAction(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionSelector:Update(context) return end
+function TweakAIActionSelector:Update(context) end

@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkanimScaleInterpolator: inkanimInterpolator
----@field public startValue Vector2
----@field public endValue Vector2
+---@field startValue Vector2
+---@field endValue Vector2
 inkanimScaleInterpolator = {}
 
 ---@param fields? inkanimScaleInterpolator
 ---@return inkanimScaleInterpolator
-function inkanimScaleInterpolator.new(fields) return end
+function inkanimScaleInterpolator.new(fields) end
 
 ---@return Vector2
-function inkanimScaleInterpolator:GetEndScale() return end
+function inkanimScaleInterpolator:GetEndScale() end
 
 ---@return Vector2
-function inkanimScaleInterpolator:GetStartScale() return end
+function inkanimScaleInterpolator:GetStartScale() end
 
 ---@param endScale Vector2
 ---@return nil
-function inkanimScaleInterpolator:SetEndScale(endScale) return end
+function inkanimScaleInterpolator:SetEndScale(endScale) end
 
 ---@param startScale Vector2
 ---@return nil
-function inkanimScaleInterpolator:SetStartScale(startScale) return end
+function inkanimScaleInterpolator:SetStartScale(startScale) end

@@ -1,123 +1,110 @@
 ---@meta
 
 ---@class RadioControllerPS: MediaDeviceControllerPS
----@field protected radioSetup RadioSetup
----@field private wasRadioSetup Bool
+---@field radioSetup RadioSetup
+---@field wasRadioSetup Bool
 RadioControllerPS = {}
 
 ---@param fields? RadioControllerPS
 ---@return RadioControllerPS
-function RadioControllerPS.new(fields) return end
+function RadioControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function RadioControllerPS:OnInstantiated() return end
+function RadioControllerPS:OnInstantiated() end
 
----@protected
 ---@return QuickHackDistraction
-function RadioControllerPS:ActionQuickHackDistraction() return end
+function RadioControllerPS:ActionQuickHackDistraction() end
 
----@private
 ---@return Bool
-function RadioControllerPS:CanAddAoeDamageQuickHack() return end
+function RadioControllerPS:CanAddAoeDamageQuickHack() end
 
----@protected
 ---@return Bool
-function RadioControllerPS:CanCreateAnyQuickHackActions() return end
+function RadioControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@return nil
-function RadioControllerPS:CauseDistraction() return end
+function RadioControllerPS:CauseDistraction() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param hasActiveActions Bool
 ---@return Bool
-function RadioControllerPS:DetermineGameplayViability(context, hasActiveActions) return end
+function RadioControllerPS:DetermineGameplayViability(context, hasActiveActions) end
 
----@private
 ---@return nil
-function RadioControllerPS:EnsureRadioStatationPresence() return end
+function RadioControllerPS:EnsureRadioStatationPresence() end
 
----@protected
 ---@return nil
-function RadioControllerPS:GameAttached() return end
+function RadioControllerPS:GameAttached() end
 
 ---@return ERadioStationList
-function RadioControllerPS:GetActiveRadioStation() return end
+function RadioControllerPS:GetActiveRadioStation() end
 
 ---@return Int32
-function RadioControllerPS:GetActiveStationIndex() return end
+function RadioControllerPS:GetActiveStationIndex() end
 
 ---@return CName
-function RadioControllerPS:GetAoeDamageSFX() return end
+function RadioControllerPS:GetAoeDamageSFX() end
 
 ---@return gameFxResource
-function RadioControllerPS:GetAoeDamageVFX() return end
+function RadioControllerPS:GetAoeDamageVFX() end
 
----@protected
 ---@return TweakDBID
-function RadioControllerPS:GetBackgroundTextureTweakDBID() return end
+function RadioControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return String
-function RadioControllerPS:GetDeviceIconPath() return end
+function RadioControllerPS:GetDeviceIconPath() end
 
----@protected
 ---@return TweakDBID
-function RadioControllerPS:GetDeviceIconTweakDBID() return end
+function RadioControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
 ---@return SDeviceWidgetPackage
-function RadioControllerPS:GetDeviceWidget(context) return end
+function RadioControllerPS:GetDeviceWidget(context) end
 
 ---@return CName
-function RadioControllerPS:GetGlitchSFX() return end
+function RadioControllerPS:GetGlitchSFX() end
 
 ---@return Float
-function RadioControllerPS:GetHighPitchNoiseRadius() return end
+function RadioControllerPS:GetHighPitchNoiseRadius() end
 
 ---@return CName
-function RadioControllerPS:GetHighPitchNoiseSFX() return end
+function RadioControllerPS:GetHighPitchNoiseSFX() end
 
 ---@return gameFxResource
-function RadioControllerPS:GetHighPitchNoiseVFX() return end
+function RadioControllerPS:GetHighPitchNoiseVFX() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function RadioControllerPS:GetQuickHackActions(context) return end
+function RadioControllerPS:GetQuickHackActions(context) end
 
----@private
 ---@return ERadioStationList
-function RadioControllerPS:GetStartingStation() return end
+function RadioControllerPS:GetStartingStation() end
 
 ---@param evt NextStation
 ---@return EntityNotificationType
-function RadioControllerPS:OnNextStation(evt) return end
+function RadioControllerPS:OnNextStation(evt) end
 
 ---@param evt PreviousStation
 ---@return EntityNotificationType
-function RadioControllerPS:OnPreviousStation(evt) return end
+function RadioControllerPS:OnPreviousStation(evt) end
 
 ---@param evt QuestDefaultStation
 ---@return EntityNotificationType
-function RadioControllerPS:OnQuestDefaultStation(evt) return end
+function RadioControllerPS:OnQuestDefaultStation(evt) end
 
 ---@param evt QuickHackDistraction
 ---@return EntityNotificationType
-function RadioControllerPS:OnQuickHackDistraction(evt) return end
+function RadioControllerPS:OnQuickHackDistraction(evt) end
 
 ---@param evt SpiderbotDistraction
 ---@return EntityNotificationType
-function RadioControllerPS:OnSpiderbotDistraction(evt) return end
+function RadioControllerPS:OnSpiderbotDistraction(evt) end
 
 ---@param radioStationType ERadioStationList
 ---@return nil
-function RadioControllerPS:SetActiveStation(radioStationType) return end
+function RadioControllerPS:SetActiveStation(radioStationType) end
 
----@private
 ---@return nil
-function RadioControllerPS:SetDefaultRadioStation() return end
+function RadioControllerPS:SetDefaultRadioStation() end
 
----@private
 ---@return nil
-function RadioControllerPS:TryInitializeInteractiveState() return end
+function RadioControllerPS:TryInitializeInteractiveState() end

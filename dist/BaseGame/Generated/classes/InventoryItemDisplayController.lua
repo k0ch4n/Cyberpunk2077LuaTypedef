@@ -1,164 +1,156 @@
 ---@meta
 
 ---@class InventoryItemDisplayController: BaseButtonView
----@field protected widgetWrapper inkWidgetReference
----@field protected itemName inkTextWidgetReference
----@field protected itemPrice inkTextWidgetReference
----@field protected itemRarity inkWidgetReference
----@field protected commonModsRoot inkCompoundWidgetReference
----@field protected itemImage inkImageWidgetReference
----@field protected itemFallbackImage inkImageWidgetReference
----@field protected itemEmptyImage inkImageWidgetReference
----@field protected itemEmptyIcon inkImageWidgetReference
----@field protected cyberwareEmptyImage inkImageWidgetReference
----@field protected itemSelectedArrow inkWidgetReference
----@field protected quantintyAmmoIcon inkWidgetReference
----@field protected quantityWrapper inkCompoundWidgetReference
----@field protected quantityText inkTextWidgetReference
----@field protected weaponType inkTextWidgetReference
----@field protected highlightFrames inkWidgetReference[]
----@field protected equippedWidgets inkWidgetReference[]
----@field protected hideWhenEquippedWidgets inkWidgetReference[]
----@field protected hideWhenCyberwareInInventory inkWidgetReference[]
----@field protected showWhenCyberwareInInventory inkWidgetReference[]
----@field protected showInEmptyWidgets inkWidgetReference[]
----@field protected hideInEmptyWidgets inkWidgetReference[]
----@field protected backgroundFrames inkWidgetReference[]
----@field protected equippedMarker inkWidgetReference
----@field protected requirementsWrapper inkWidgetReference
----@field protected iconicTint inkWidgetReference
----@field protected transmogContainer inkCompoundWidgetReference
----@field protected rarityWrapper inkWidgetReference
----@field protected rarityCommonWrapper inkWidgetReference
----@field protected weaponTypeImage inkImageWidgetReference
----@field protected questItemMaker inkWidgetReference
----@field protected labelsContainer inkCompoundWidgetReference
----@field protected backgroundBlueprint inkWidgetReference
----@field protected iconBlueprint inkWidgetReference
----@field protected fluffBlueprint inkImageWidgetReference
----@field protected lootitemflufficon inkWidgetReference
----@field protected lootitemtypeicon inkImageWidgetReference
----@field protected slotItemsCountWrapper inkWidgetReference
----@field protected slotItemsCount inkTextWidgetReference
----@field protected iconErrorIndicator inkWidgetReference
----@field protected newItemsWrapper inkWidgetReference
----@field protected newItemsCounter inkTextWidgetReference
----@field protected lockIcon inkWidgetReference
----@field protected transmogedIcon inkWidgetReference
----@field protected iconWardrobeDisabled inkWidgetReference
----@field protected comparisionArrow inkWidgetReference
----@field protected iconTransmog inkWidgetReference
----@field protected wardrobeInfoContainer inkWidgetReference
----@field protected wardrobeInfoText inkTextWidgetReference
----@field protected perkWrapper inkWidgetReference
----@field protected perkIcon inkImageWidgetReference
----@field protected playerFavouriteWidget inkWidgetReference
----@field protected inventoryDataManager InventoryDataManagerV2
----@field protected inventoryScriptableSystem UIInventoryScriptableSystem
----@field protected uiScriptableSystem UIScriptableSystem
----@field protected itemID gameItemID
----@field protected itemData gameInventoryItemData
----@field protected recipeData RecipeData
----@field protected equipmentArea gamedataEquipmentArea
----@field protected itemType gamedataItemType
----@field protected emptySlotImage CName
----@field protected slotName String
----@field protected slotIndex Int32
----@field protected attachmentsDisplay InventoryItemModSlotDisplay[]
----@field private transmogItem gameItemID
----@field protected slotID TweakDBID
----@field private itemDisplayContext gameItemDisplayContext
----@field protected labelsContainerController ItemLabelContainerController
----@field protected defaultFallbackImage CName
----@field protected defaultEmptyImage CName
----@field protected defaultEmptyImageAtlas String
----@field protected emptyImage CName
----@field protected emptyImageAtlas String
----@field protected isEnoughMoney Bool
----@field protected owned Bool
----@field protected requirementsMet Bool
----@field protected tooltipData InventoryTooltipData
----@field protected isNew Bool
----@field private isNewOverriden Bool
----@field protected isPlayerFavourite Bool
----@field private isQuestBought Bool
----@field protected newItemsIDs gameItemID[]
----@field protected newItemsFetched Bool
----@field protected isBuybackStack Bool
----@field protected isDLCNewItem Bool
----@field protected parentItemData gameItemData
----@field protected isLocked Bool
----@field protected visibleWhenLocked Bool
----@field protected isTransmoged Bool
----@field protected isWardrobeDisabled Bool
----@field protected isUpgradable Bool
----@field protected overrideQuantity Int32
----@field protected hasAvailableItems Bool
----@field private isSlotTransmogged Bool
----@field protected wardrobeOutfitIndex Int32
----@field private additionalData IScriptable
----@field private isBound Bool
----@field private disableItemCounter Bool
----@field private isCyberwarePreviewInInventory Bool
----@field private isPerkRequiredCyberware Bool
----@field private delayProxy inkanimProxy
----@field private delayAnimation inkanimDefinition
----@field private hoverTarget inkWidget
----@field private upgradeProxy inkanimProxy
----@field private selectedCWProxy inkanimProxy
----@field protected DEBUG_isIconError Bool
----@field protected DEBUG_iconErrorInfo DEBUG_IconErrorInfo
----@field protected DEBUG_resolvedIconName String
----@field protected DEBUG_recordItemName String
----@field protected DEBUG_innerItemName String
----@field protected DEBUG_isIconManuallySet Bool
----@field protected DEBUG_iconsNameResolverIsDebug Bool
----@field protected uiInventoryItem UIInventoryItem
----@field protected displayContextData ItemDisplayContextData
----@field private parrentWrappedDataObject WrappedInventoryItemData
+---@field widgetWrapper inkWidgetReference
+---@field itemName inkTextWidgetReference
+---@field itemPrice inkTextWidgetReference
+---@field itemRarity inkWidgetReference
+---@field commonModsRoot inkCompoundWidgetReference
+---@field itemImage inkImageWidgetReference
+---@field itemFallbackImage inkImageWidgetReference
+---@field itemEmptyImage inkImageWidgetReference
+---@field itemEmptyIcon inkImageWidgetReference
+---@field cyberwareEmptyImage inkImageWidgetReference
+---@field itemSelectedArrow inkWidgetReference
+---@field quantintyAmmoIcon inkWidgetReference
+---@field quantityWrapper inkCompoundWidgetReference
+---@field quantityText inkTextWidgetReference
+---@field weaponType inkTextWidgetReference
+---@field highlightFrames inkWidgetReference[]
+---@field equippedWidgets inkWidgetReference[]
+---@field hideWhenEquippedWidgets inkWidgetReference[]
+---@field hideWhenCyberwareInInventory inkWidgetReference[]
+---@field showWhenCyberwareInInventory inkWidgetReference[]
+---@field showInEmptyWidgets inkWidgetReference[]
+---@field hideInEmptyWidgets inkWidgetReference[]
+---@field backgroundFrames inkWidgetReference[]
+---@field equippedMarker inkWidgetReference
+---@field requirementsWrapper inkWidgetReference
+---@field iconicTint inkWidgetReference
+---@field transmogContainer inkCompoundWidgetReference
+---@field rarityWrapper inkWidgetReference
+---@field rarityCommonWrapper inkWidgetReference
+---@field weaponTypeImage inkImageWidgetReference
+---@field questItemMaker inkWidgetReference
+---@field labelsContainer inkCompoundWidgetReference
+---@field backgroundBlueprint inkWidgetReference
+---@field iconBlueprint inkWidgetReference
+---@field fluffBlueprint inkImageWidgetReference
+---@field lootitemflufficon inkWidgetReference
+---@field lootitemtypeicon inkImageWidgetReference
+---@field slotItemsCountWrapper inkWidgetReference
+---@field slotItemsCount inkTextWidgetReference
+---@field iconErrorIndicator inkWidgetReference
+---@field newItemsWrapper inkWidgetReference
+---@field newItemsCounter inkTextWidgetReference
+---@field lockIcon inkWidgetReference
+---@field transmogedIcon inkWidgetReference
+---@field iconWardrobeDisabled inkWidgetReference
+---@field comparisionArrow inkWidgetReference
+---@field iconTransmog inkWidgetReference
+---@field wardrobeInfoContainer inkWidgetReference
+---@field wardrobeInfoText inkTextWidgetReference
+---@field perkWrapper inkWidgetReference
+---@field perkIcon inkImageWidgetReference
+---@field playerFavouriteWidget inkWidgetReference
+---@field inventoryDataManager InventoryDataManagerV2
+---@field inventoryScriptableSystem UIInventoryScriptableSystem
+---@field uiScriptableSystem UIScriptableSystem
+---@field itemID gameItemID
+---@field itemData gameInventoryItemData
+---@field recipeData RecipeData
+---@field equipmentArea gamedataEquipmentArea
+---@field itemType gamedataItemType
+---@field emptySlotImage CName
+---@field slotName String
+---@field slotIndex Int32
+---@field attachmentsDisplay InventoryItemModSlotDisplay[]
+---@field transmogItem gameItemID
+---@field slotID TweakDBID
+---@field itemDisplayContext gameItemDisplayContext
+---@field labelsContainerController ItemLabelContainerController
+---@field defaultFallbackImage CName
+---@field defaultEmptyImage CName
+---@field defaultEmptyImageAtlas String
+---@field emptyImage CName
+---@field emptyImageAtlas String
+---@field isEnoughMoney Bool
+---@field owned Bool
+---@field requirementsMet Bool
+---@field tooltipData InventoryTooltipData
+---@field isNew Bool
+---@field isNewOverriden Bool
+---@field isPlayerFavourite Bool
+---@field isQuestBought Bool
+---@field newItemsIDs gameItemID[]
+---@field newItemsFetched Bool
+---@field isBuybackStack Bool
+---@field isDLCNewItem Bool
+---@field parentItemData gameItemData
+---@field isLocked Bool
+---@field visibleWhenLocked Bool
+---@field isTransmoged Bool
+---@field isWardrobeDisabled Bool
+---@field isUpgradable Bool
+---@field overrideQuantity Int32
+---@field hasAvailableItems Bool
+---@field isSlotTransmogged Bool
+---@field wardrobeOutfitIndex Int32
+---@field additionalData IScriptable
+---@field isBound Bool
+---@field disableItemCounter Bool
+---@field isCyberwarePreviewInInventory Bool
+---@field isPerkRequiredCyberware Bool
+---@field delayProxy inkanimProxy
+---@field delayAnimation inkanimDefinition
+---@field hoverTarget inkWidget
+---@field upgradeProxy inkanimProxy
+---@field selectedCWProxy inkanimProxy
+---@field DEBUG_isIconError Bool
+---@field DEBUG_iconErrorInfo DEBUG_IconErrorInfo
+---@field DEBUG_resolvedIconName String
+---@field DEBUG_recordItemName String
+---@field DEBUG_innerItemName String
+---@field DEBUG_isIconManuallySet Bool
+---@field DEBUG_iconsNameResolverIsDebug Bool
+---@field uiInventoryItem UIInventoryItem
+---@field displayContextData ItemDisplayContextData
+---@field parrentWrappedDataObject WrappedInventoryItemData
 InventoryItemDisplayController = {}
 
 ---@param fields? InventoryItemDisplayController
 ---@return InventoryItemDisplayController
-function InventoryItemDisplayController.new(fields) return end
+function InventoryItemDisplayController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function InventoryItemDisplayController:OnDelayedHoverOver(proxy) return end
+function InventoryItemDisplayController:OnDelayedHoverOver(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemDisplayController:OnDisplayClicked(evt) return end
+function InventoryItemDisplayController:OnDisplayClicked(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemDisplayController:OnDisplayHold(evt) return end
+function InventoryItemDisplayController:OnDisplayHold(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemDisplayController:OnDisplayHoverOut(evt) return end
+function InventoryItemDisplayController:OnDisplayHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemDisplayController:OnDisplayHoverOver(evt) return end
+function InventoryItemDisplayController:OnDisplayHoverOver(evt) end
 
----@protected
 ---@param e inkCallbackData
 ---@return Bool
-function InventoryItemDisplayController:OnIconCallback(e) return end
+function InventoryItemDisplayController:OnIconCallback(e) end
 
----@protected
 ---@return Bool
-function InventoryItemDisplayController:OnInitialize() return end
+function InventoryItemDisplayController:OnInitialize() end
 
----@protected
 ---@return Bool
-function InventoryItemDisplayController:OnUninitialize() return end
+function InventoryItemDisplayController:OnUninitialize() end
 
 ---@param inventoryDataManager InventoryDataManagerV2
 ---@param equipmentArea gamedataEquipmentArea
@@ -167,23 +159,23 @@ function InventoryItemDisplayController:OnUninitialize() return end
 ---@param setWardrobeOutfit? Bool
 ---@param wardrobeOutfitIndex? Int32
 ---@return nil
-function InventoryItemDisplayController:Bind(inventoryDataManager, equipmentArea, slotIndex, displayContext, setWardrobeOutfit, wardrobeOutfitIndex) return end
+function InventoryItemDisplayController:Bind(inventoryDataManager, equipmentArea, slotIndex, displayContext, setWardrobeOutfit, wardrobeOutfitIndex) end
 
 ---@param inventoryScriptableSystem UIInventoryScriptableSystem
 ---@param equipmentArea gamedataEquipmentArea
 ---@param slotIndex? Int32
 ---@param displayContext gameItemDisplayContext
 ---@return nil
-function InventoryItemDisplayController:Bind(inventoryScriptableSystem, equipmentArea, slotIndex, displayContext) return end
+function InventoryItemDisplayController:Bind(inventoryScriptableSystem, equipmentArea, slotIndex, displayContext) end
 
 ---@param uiScriptableSystem UIScriptableSystem
 ---@param comparisonResolver ItemPreferredComparisonResolver
 ---@return nil
-function InventoryItemDisplayController:BindComparisonAndScriptableSystem(uiScriptableSystem, comparisonResolver) return end
+function InventoryItemDisplayController:BindComparisonAndScriptableSystem(uiScriptableSystem, comparisonResolver) end
 
 ---@param uiScriptableSystem UIScriptableSystem
 ---@return nil
-function InventoryItemDisplayController:BindUIScriptableSystem(uiScriptableSystem) return end
+function InventoryItemDisplayController:BindUIScriptableSystem(uiScriptableSystem) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@param itemsAmount Int32
@@ -191,334 +183,305 @@ function InventoryItemDisplayController:BindUIScriptableSystem(uiScriptableSyste
 ---@param slotIndex? Int32
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
-function InventoryItemDisplayController:BindVisualSlot(equipmentArea, itemsAmount, inventoryItemData, slotIndex, displayContext) return end
+function InventoryItemDisplayController:BindVisualSlot(equipmentArea, itemsAmount, inventoryItemData, slotIndex, displayContext) end
 
 ---@return DEBUG_IconErrorInfo
-function InventoryItemDisplayController:DEBUG_GetIconErrorInfo() return end
+function InventoryItemDisplayController:DEBUG_GetIconErrorInfo() end
 
 ---@return IScriptable
-function InventoryItemDisplayController:GetAdditionalData() return end
+function InventoryItemDisplayController:GetAdditionalData() end
 
 ---@return Int32
-function InventoryItemDisplayController:GetAttachmentsSize() return end
+function InventoryItemDisplayController:GetAttachmentsSize() end
 
----@private
 ---@return inkanimDefinition
-function InventoryItemDisplayController:GetDelayAnimation() return end
+function InventoryItemDisplayController:GetDelayAnimation() end
 
 ---@return gameItemDisplayContext
-function InventoryItemDisplayController:GetDisplayContext() return end
+function InventoryItemDisplayController:GetDisplayContext() end
 
 ---@return ItemDisplayType
-function InventoryItemDisplayController:GetDisplayType() return end
+function InventoryItemDisplayController:GetDisplayType() end
 
 ---@return gamedataEquipmentArea
-function InventoryItemDisplayController:GetEquipmentArea() return end
+function InventoryItemDisplayController:GetEquipmentArea() end
 
 ---@return Bool
-function InventoryItemDisplayController:GetIsPlayerFavourite() return end
+function InventoryItemDisplayController:GetIsPlayerFavourite() end
 
 ---@return String
-function InventoryItemDisplayController:GetItemCategory() return end
+function InventoryItemDisplayController:GetItemCategory() end
 
 ---@return gameInventoryItemData
-function InventoryItemDisplayController:GetItemData() return end
+function InventoryItemDisplayController:GetItemData() end
 
 ---@return InventoryItemDisplayData
-function InventoryItemDisplayController:GetItemDisplayData() return end
+function InventoryItemDisplayController:GetItemDisplayData() end
 
 ---@return gameItemID
-function InventoryItemDisplayController:GetItemID() return end
+function InventoryItemDisplayController:GetItemID() end
 
 ---@return gamedataItemType
-function InventoryItemDisplayController:GetItemType() return end
+function InventoryItemDisplayController:GetItemType() end
 
----@protected
 ---@param onlyGeneric Bool
 ---@return gameInventoryItemAttachments[]
-function InventoryItemDisplayController:GetMods(onlyGeneric) return end
+function InventoryItemDisplayController:GetMods(onlyGeneric) end
 
 ---@return Int32
-function InventoryItemDisplayController:GetNewItems() return end
+function InventoryItemDisplayController:GetNewItems() end
 
 ---@return gameItemData
-function InventoryItemDisplayController:GetParentItemData() return end
+function InventoryItemDisplayController:GetParentItemData() end
 
----@protected
 ---@return String
-function InventoryItemDisplayController:GetPriceText() return end
+function InventoryItemDisplayController:GetPriceText() end
 
----@protected
 ---@param itemQuality gamedataQuality
 ---@return gamedataQuality
-function InventoryItemDisplayController:GetQualityRounded(itemQuality) return end
+function InventoryItemDisplayController:GetQualityRounded(itemQuality) end
 
----@protected
 ---@param equipmentArea gamedataEquipmentArea
 ---@return String
-function InventoryItemDisplayController:GetShadowIconAtlas(equipmentArea) return end
+function InventoryItemDisplayController:GetShadowIconAtlas(equipmentArea) end
 
----@protected
 ---@param equipmentArea gamedataEquipmentArea
 ---@return CName
-function InventoryItemDisplayController:GetShadowIconFromEquipmentArea(equipmentArea) return end
+function InventoryItemDisplayController:GetShadowIconFromEquipmentArea(equipmentArea) end
 
 ---@return TweakDBID
-function InventoryItemDisplayController:GetSlotID() return end
+function InventoryItemDisplayController:GetSlotID() end
 
 ---@return Int32
-function InventoryItemDisplayController:GetSlotIndex() return end
+function InventoryItemDisplayController:GetSlotIndex() end
 
 ---@return String
-function InventoryItemDisplayController:GetSlotName() return end
+function InventoryItemDisplayController:GetSlotName() end
 
 ---@return UIInventoryItem
-function InventoryItemDisplayController:GetUIInventoryItem() return end
+function InventoryItemDisplayController:GetUIInventoryItem() end
 
 ---@return Int32
-function InventoryItemDisplayController:GetWardrobeOutfitIndex() return end
+function InventoryItemDisplayController:GetWardrobeOutfitIndex() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return nil
-function InventoryItemDisplayController:HandleLocalClick(evt) return end
+function InventoryItemDisplayController:HandleLocalClick(evt) end
 
 ---@return nil
-function InventoryItemDisplayController:HideSelectionArrow() return end
+function InventoryItemDisplayController:HideSelectionArrow() end
 
 ---@param setWardrobeOutfit? Bool
 ---@param wardrobeOutfitIndex? Int32
 ---@return nil
-function InventoryItemDisplayController:InvalidateContent(setWardrobeOutfit, wardrobeOutfitIndex) return end
+function InventoryItemDisplayController:InvalidateContent(setWardrobeOutfit, wardrobeOutfitIndex) end
 
 ---@return nil
-function InventoryItemDisplayController:InvalidateQuantity() return end
+function InventoryItemDisplayController:InvalidateQuantity() end
 
 ---@param inventoryItemData gameInventoryItemData
 ---@param itemsAmount Int32
 ---@param equipped Bool
 ---@return nil
-function InventoryItemDisplayController:InvalidateVisualContent(inventoryItemData, itemsAmount, equipped) return end
+function InventoryItemDisplayController:InvalidateVisualContent(inventoryItemData, itemsAmount, equipped) end
 
 ---@return Bool
-function InventoryItemDisplayController:IsEmpty() return end
+function InventoryItemDisplayController:IsEmpty() end
 
----@protected
 ---@param context gameItemDisplayContext
 ---@return Bool
-function InventoryItemDisplayController:IsEquippedContext(context) return end
+function InventoryItemDisplayController:IsEquippedContext(context) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Bool
-function InventoryItemDisplayController:IsInRestrictedNewArea(equipmentArea) return end
-
----@private
----@return Bool
-function InventoryItemDisplayController:IsItemIconic() return end
+function InventoryItemDisplayController:IsInRestrictedNewArea(equipmentArea) end
 
 ---@return Bool
-function InventoryItemDisplayController:IsLocked() return end
+function InventoryItemDisplayController:IsItemIconic() end
 
 ---@return Bool
-function InventoryItemDisplayController:IsPerkRequiredCyberware() return end
+function InventoryItemDisplayController:IsLocked() end
 
 ---@return Bool
-function InventoryItemDisplayController:IsQuestBought() return end
+function InventoryItemDisplayController:IsPerkRequiredCyberware() end
 
----@protected
+---@return Bool
+function InventoryItemDisplayController:IsQuestBought() end
+
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewRefreshUI(itemData) return end
+function InventoryItemDisplayController:NewRefreshUI(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateBlueprint(itemData) return end
+function InventoryItemDisplayController:NewUpdateBlueprint(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateEmptyWidgets(itemData) return end
+function InventoryItemDisplayController:NewUpdateEmptyWidgets(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateEquipped(itemData) return end
+function InventoryItemDisplayController:NewUpdateEquipped(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateIcon(itemData) return end
+function InventoryItemDisplayController:NewUpdateIcon(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateIndicators(itemData) return end
+function InventoryItemDisplayController:NewUpdateIndicators(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateIsNewIndicator(itemData) return end
+function InventoryItemDisplayController:NewUpdateIsNewIndicator(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateLocked(itemData) return end
+function InventoryItemDisplayController:NewUpdateLocked(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateMods(itemData) return end
+function InventoryItemDisplayController:NewUpdateMods(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateQuantity(itemData) return end
+function InventoryItemDisplayController:NewUpdateQuantity(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateRarity(itemData) return end
+function InventoryItemDisplayController:NewUpdateRarity(itemData) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateRequirements(itemData) return end
+function InventoryItemDisplayController:NewUpdateRequirements(itemData) end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:NewUpdateTransmoged() return end
+function InventoryItemDisplayController:NewUpdateTransmoged() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:NewUpdateWardrobeDisabled() return end
+function InventoryItemDisplayController:NewUpdateWardrobeDisabled() end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:NewUpdateWeaponType(itemData) return end
+function InventoryItemDisplayController:NewUpdateWeaponType(itemData) end
 
----@private
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:OnItemUpdate(itemData) return end
+function InventoryItemDisplayController:OnItemUpdate(itemData) end
 
----@private
 ---@param itemID gameItemID
 ---@return nil
-function InventoryItemDisplayController:OnItemUpdate(itemID) return end
+function InventoryItemDisplayController:OnItemUpdate(itemID) end
 
 ---@return nil
-function InventoryItemDisplayController:PlayEquipFeedback() return end
+function InventoryItemDisplayController:PlayEquipFeedback() end
 
 ---@return nil
-function InventoryItemDisplayController:PlayUpgradeFeedback() return end
-
----@protected
----@return nil
-function InventoryItemDisplayController:RefreshUI() return end
+function InventoryItemDisplayController:PlayUpgradeFeedback() end
 
 ---@return nil
-function InventoryItemDisplayController:Select() return end
+function InventoryItemDisplayController:RefreshUI() end
 
 ---@return nil
-function InventoryItemDisplayController:SelectItem() return end
+function InventoryItemDisplayController:Select() end
+
+---@return nil
+function InventoryItemDisplayController:SelectItem() end
 
 ---@param additionalData IScriptable
 ---@return nil
-function InventoryItemDisplayController:SetAdditionalData(additionalData) return end
+function InventoryItemDisplayController:SetAdditionalData(additionalData) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetBuybackStack(value) return end
+function InventoryItemDisplayController:SetBuybackStack(value) end
 
 ---@param comparisonState gameItemComparisonState
 ---@return nil
-function InventoryItemDisplayController:SetComparisonState(comparisonState) return end
+function InventoryItemDisplayController:SetComparisonState(comparisonState) end
 
 ---@return nil
-function InventoryItemDisplayController:SetCyberwareEmptyInInventroy() return end
+function InventoryItemDisplayController:SetCyberwareEmptyInInventroy() end
 
 ---@return nil
-function InventoryItemDisplayController:SetCyberwarePrieviewInInventroy() return end
+function InventoryItemDisplayController:SetCyberwarePrieviewInInventroy() end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetDLCNewIndicator(value) return end
+function InventoryItemDisplayController:SetDLCNewIndicator(value) end
 
 ---@param textureAtlasPart CName|string
 ---@param textureAtlas? String
 ---@return nil
-function InventoryItemDisplayController:SetDefaultShadowIcon(textureAtlasPart, textureAtlas) return end
+function InventoryItemDisplayController:SetDefaultShadowIcon(textureAtlasPart, textureAtlas) end
 
----@protected
 ---@param context gameItemDisplayContext
 ---@param recipeData RecipeData
 ---@return nil
-function InventoryItemDisplayController:SetDisplayContext(context, recipeData) return end
+function InventoryItemDisplayController:SetDisplayContext(context, recipeData) end
 
 ---@param inHUD Bool
 ---@return nil
-function InventoryItemDisplayController:SetHUDMode(inHUD) return end
+function InventoryItemDisplayController:SetHUDMode(inHUD) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetHighlighted(value) return end
+function InventoryItemDisplayController:SetHighlighted(value) end
 
 ---@param show Bool
 ---@return nil
-function InventoryItemDisplayController:SetHighlightedCyberwareSlot(show) return end
+function InventoryItemDisplayController:SetHighlightedCyberwareSlot(show) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetInteractive(value) return end
+function InventoryItemDisplayController:SetInteractive(value) end
 
 ---@param value Bool
 ---@param parrentWrappedDataObject? WrappedInventoryItemData
 ---@return nil
-function InventoryItemDisplayController:SetIsNew(value, parrentWrappedDataObject) return end
+function InventoryItemDisplayController:SetIsNew(value, parrentWrappedDataObject) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetIsNewOverride(value) return end
+function InventoryItemDisplayController:SetIsNewOverride(value) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetIsPlayerFavourite(value) return end
+function InventoryItemDisplayController:SetIsPlayerFavourite(value) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetItemCounterDisabled(value) return end
+function InventoryItemDisplayController:SetItemCounterDisabled(value) end
 
 ---@param value Bool
 ---@param visibleWhenLocked Bool
 ---@return nil
-function InventoryItemDisplayController:SetLocked(value, visibleWhenLocked) return end
+function InventoryItemDisplayController:SetLocked(value, visibleWhenLocked) end
 
 ---@param parentItemData gameItemData
 ---@return nil
-function InventoryItemDisplayController:SetParentItem(parentItemData) return end
+function InventoryItemDisplayController:SetParentItem(parentItemData) end
 
 ---@param area gamedataEquipmentArea
 ---@return nil
-function InventoryItemDisplayController:SetPerkRequiredCyberware(area) return end
+function InventoryItemDisplayController:SetPerkRequiredCyberware(area) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetQuestBought(value) return end
+function InventoryItemDisplayController:SetQuestBought(value) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetTransmoged(value) return end
+function InventoryItemDisplayController:SetTransmoged(value) end
 
 ---@param isUpgradable Bool
 ---@return nil
-function InventoryItemDisplayController:SetUpgradableCyberware(isUpgradable) return end
+function InventoryItemDisplayController:SetUpgradableCyberware(isUpgradable) end
 
 ---@param value Bool
 ---@return nil
-function InventoryItemDisplayController:SetWardrobeDisabled(value) return end
+function InventoryItemDisplayController:SetWardrobeDisabled(value) end
 
 ---@param itemData gameInventoryItemData
 ---@param equipmentArea gamedataEquipmentArea
@@ -526,7 +489,7 @@ function InventoryItemDisplayController:SetWardrobeDisabled(value) return end
 ---@param slotIndex? Int32
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
-function InventoryItemDisplayController:Setup(itemData, equipmentArea, slotName, slotIndex, displayContext) return end
+function InventoryItemDisplayController:Setup(itemData, equipmentArea, slotName, slotIndex, displayContext) end
 
 ---@param inventoryItem UIInventoryItem
 ---@param displayContextData ItemDisplayContextData
@@ -535,7 +498,7 @@ function InventoryItemDisplayController:Setup(itemData, equipmentArea, slotName,
 ---@param isUpgradable? Bool
 ---@param overrideQuantity? Int32
 ---@return nil
-function InventoryItemDisplayController:Setup(inventoryItem, displayContextData, isEnoughMoney, owned, isUpgradable, overrideQuantity) return end
+function InventoryItemDisplayController:Setup(inventoryItem, displayContextData, isEnoughMoney, owned, isUpgradable, overrideQuantity) end
 
 ---@param inventoryItem UIInventoryItem
 ---@param equipmentArea gamedataEquipmentArea
@@ -543,7 +506,7 @@ function InventoryItemDisplayController:Setup(inventoryItem, displayContextData,
 ---@param slotIndex? Int32
 ---@param displayContextData ItemDisplayContextData
 ---@return nil
-function InventoryItemDisplayController:Setup(inventoryItem, equipmentArea, slotName, slotIndex, displayContextData) return end
+function InventoryItemDisplayController:Setup(inventoryItem, equipmentArea, slotName, slotIndex, displayContextData) end
 
 ---@param itemData gameInventoryItemData
 ---@param displayContext gameItemDisplayContext
@@ -551,12 +514,12 @@ function InventoryItemDisplayController:Setup(inventoryItem, equipmentArea, slot
 ---@param owned? Bool
 ---@param isUpgradable? Bool
 ---@return nil
-function InventoryItemDisplayController:Setup(itemData, displayContext, isEnoughMoney, owned, isUpgradable) return end
+function InventoryItemDisplayController:Setup(itemData, displayContext, isEnoughMoney, owned, isUpgradable) end
 
 ---@param recipeData RecipeData
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
-function InventoryItemDisplayController:Setup(recipeData, displayContext) return end
+function InventoryItemDisplayController:Setup(recipeData, displayContext) end
 
 ---@param inventoryItem UIInventoryItem
 ---@param equipmentArea gamedataEquipmentArea
@@ -564,16 +527,16 @@ function InventoryItemDisplayController:Setup(recipeData, displayContext) return
 ---@param slotIndex? Int32
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
-function InventoryItemDisplayController:Setup(inventoryItem, equipmentArea, slotName, slotIndex, displayContext) return end
+function InventoryItemDisplayController:Setup(inventoryItem, equipmentArea, slotName, slotIndex, displayContext) end
 
 ---@param itemData gameInventoryItemData
 ---@param slotIndex? Int32
 ---@return nil
-function InventoryItemDisplayController:Setup(itemData, slotIndex) return end
+function InventoryItemDisplayController:Setup(itemData, slotIndex) end
 
 ---@param tooltipData InventoryTooltipData
 ---@return nil
-function InventoryItemDisplayController:Setup(tooltipData) return end
+function InventoryItemDisplayController:Setup(tooltipData) end
 
 ---@param inventoryDataManager InventoryDataManagerV2
 ---@param itemData gameInventoryItemData
@@ -581,59 +544,51 @@ function InventoryItemDisplayController:Setup(tooltipData) return end
 ---@param displayContext? gameItemDisplayContext
 ---@param forceUpdateCounter? Bool
 ---@return nil
-function InventoryItemDisplayController:Setup(inventoryDataManager, itemData, slotID, displayContext, forceUpdateCounter) return end
+function InventoryItemDisplayController:Setup(inventoryDataManager, itemData, slotID, displayContext, forceUpdateCounter) end
 
 ---@param itemData gameInventoryItemData
 ---@param slotID TweakDBID|string
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
-function InventoryItemDisplayController:Setup(itemData, slotID, displayContext) return end
+function InventoryItemDisplayController:Setup(itemData, slotID, displayContext) end
 
 ---@param inventoryItem UIInventoryItem
 ---@param slotIndex? Int32
 ---@return nil
-function InventoryItemDisplayController:Setup(inventoryItem, slotIndex) return end
+function InventoryItemDisplayController:Setup(inventoryItem, slotIndex) end
 
----@protected
 ---@return Bool
-function InventoryItemDisplayController:ShouldShowEquipped() return end
+function InventoryItemDisplayController:ShouldShowEquipped() end
 
 ---@return nil
-function InventoryItemDisplayController:ShowSelectionArrow() return end
+function InventoryItemDisplayController:ShowSelectionArrow() end
 
 ---@return nil
-function InventoryItemDisplayController:Unselect() return end
+function InventoryItemDisplayController:Unselect() end
 
 ---@return nil
-function InventoryItemDisplayController:UnselectItem() return end
+function InventoryItemDisplayController:UnselectItem() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateBlueprint() return end
+function InventoryItemDisplayController:UpdateBlueprint() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateEmptyWidgets() return end
+function InventoryItemDisplayController:UpdateEmptyWidgets() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateEquipped() return end
+function InventoryItemDisplayController:UpdateEquipped() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateIcon() return end
+function InventoryItemDisplayController:UpdateIcon() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateIndicators() return end
+function InventoryItemDisplayController:UpdateIndicators() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateIsNewIndicator() return end
+function InventoryItemDisplayController:UpdateIsNewIndicator() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateItemName() return end
+function InventoryItemDisplayController:UpdateItemName() end
 
 ---@param item? gameInventoryItemData
 ---@param slotID? TweakDBID|string
@@ -641,57 +596,46 @@ function InventoryItemDisplayController:UpdateItemName() return end
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param force? Bool
 ---@return Bool
-function InventoryItemDisplayController:UpdateItemsCounter(item, slotID, itemType, equipmentArea, force) return end
+function InventoryItemDisplayController:UpdateItemsCounter(item, slotID, itemType, equipmentArea, force) end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateLocked() return end
+function InventoryItemDisplayController:UpdateLocked() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateLoot() return end
+function InventoryItemDisplayController:UpdateLoot() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateMods() return end
+function InventoryItemDisplayController:UpdateMods() end
 
----@protected
 ---@param item? gameInventoryItemData
 ---@param slotID? TweakDBID|string
 ---@param itemType? gamedataItemType
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param force? Bool
 ---@return Bool
-function InventoryItemDisplayController:UpdateNewItemsIndicator(item, slotID, itemType, equipmentArea, force) return end
+function InventoryItemDisplayController:UpdateNewItemsIndicator(item, slotID, itemType, equipmentArea, force) end
 
----@protected
 ---@param itemData UIInventoryItem
 ---@return nil
-function InventoryItemDisplayController:UpdateNewRarity(itemData) return end
+function InventoryItemDisplayController:UpdateNewRarity(itemData) end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdatePlayerFavourite() return end
+function InventoryItemDisplayController:UpdatePlayerFavourite() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdatePrice() return end
+function InventoryItemDisplayController:UpdatePrice() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateQuantity() return end
+function InventoryItemDisplayController:UpdateQuantity() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateRarity() return end
+function InventoryItemDisplayController:UpdateRarity() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateRecipeIcon() return end
+function InventoryItemDisplayController:UpdateRecipeIcon() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateRequirements() return end
+function InventoryItemDisplayController:UpdateRequirements() end
 
 ---@param item? gameInventoryItemData
 ---@param slotID? TweakDBID|string
@@ -699,17 +643,14 @@ function InventoryItemDisplayController:UpdateRequirements() return end
 ---@param equipmentArea? gamedataEquipmentArea
 ---@param force? Bool
 ---@return nil
-function InventoryItemDisplayController:UpdateThisSlotItems(item, slotID, itemType, equipmentArea, force) return end
+function InventoryItemDisplayController:UpdateThisSlotItems(item, slotID, itemType, equipmentArea, force) end
 
----@private
 ---@param isEmpty Bool
 ---@return nil
-function InventoryItemDisplayController:UpdateTransmogControls(isEmpty) return end
+function InventoryItemDisplayController:UpdateTransmogControls(isEmpty) end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateTransmoged() return end
+function InventoryItemDisplayController:UpdateTransmoged() end
 
----@protected
 ---@return nil
-function InventoryItemDisplayController:UpdateWardrobeDisabled() return end
+function InventoryItemDisplayController:UpdateWardrobeDisabled() end

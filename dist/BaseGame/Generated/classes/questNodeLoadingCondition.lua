@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questNodeLoadingCondition: questCondition
----@field public objectRef NodeRef
----@field public inverted Bool
+---@field objectRef NodeRef
+---@field inverted Bool
 questNodeLoadingCondition = {}
 
 ---@param fields? questNodeLoadingCondition
 ---@return questNodeLoadingCondition
-function questNodeLoadingCondition.new(fields) return end
+function questNodeLoadingCondition.new(fields) end

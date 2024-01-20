@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class ReflexesMasterPerk1EffectorListener: gameScriptedDamageSystemListener
----@field public owner ReflexesMasterPerk1Effector
+---@field owner ReflexesMasterPerk1Effector
 ReflexesMasterPerk1EffectorListener = {}
 
 ---@param fields? ReflexesMasterPerk1EffectorListener
 ---@return ReflexesMasterPerk1EffectorListener
-function ReflexesMasterPerk1EffectorListener.new(fields) return end
+function ReflexesMasterPerk1EffectorListener.new(fields) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function ReflexesMasterPerk1EffectorListener:OnHitReceived(hitEvent) return end
+function ReflexesMasterPerk1EffectorListener:OnHitReceived(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function ReflexesMasterPerk1EffectorListener:OnHitTriggered(hitEvent) return end
+function ReflexesMasterPerk1EffectorListener:OnHitTriggered(hitEvent) end
 
----@protected
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function ReflexesMasterPerk1EffectorListener:OnMissTriggered(missEvent) return end
+function ReflexesMasterPerk1EffectorListener:OnMissTriggered(missEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function ReflexesMasterPerk1EffectorListener:OnPipelineProcessed(hitEvent) return end
+function ReflexesMasterPerk1EffectorListener:OnPipelineProcessed(hitEvent) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class NewPerksPerkItemInitData: IScriptable
----@field public perkRecord gamedataNewPerk_Record
----@field public perkType gamedataNewPerkType
----@field public requiredAttributePoints Int32
----@field public isAttributeRequirementMet Bool
----@field public maxPerkLevel Int32
----@field public icon TweakDBID
----@field public binkRef redResourceReferenceScriptToken
----@field public category gamedataNewPerkCategoryType
----@field public stat gamedataStatType
+---@field perkRecord gamedataNewPerk_Record
+---@field perkType gamedataNewPerkType
+---@field requiredAttributePoints Int32
+---@field isAttributeRequirementMet Bool
+---@field maxPerkLevel Int32
+---@field icon TweakDBID
+---@field binkRef redResourceReferenceScriptToken
+---@field category gamedataNewPerkCategoryType
+---@field stat gamedataStatType
 NewPerksPerkItemInitData = {}
 
 ---@param fields? NewPerksPerkItemInitData
 ---@return NewPerksPerkItemInitData
-function NewPerksPerkItemInitData.new(fields) return end
+function NewPerksPerkItemInitData.new(fields) end

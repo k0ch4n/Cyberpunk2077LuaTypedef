@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCrowdCreationDataRegistry: ISerializable
----@field public creationData gameCrowdCreationData[]
+---@field creationData gameCrowdCreationData[]
 gameCrowdCreationDataRegistry = {}
 
 ---@param fields? gameCrowdCreationDataRegistry
 ---@return gameCrowdCreationDataRegistry
-function gameCrowdCreationDataRegistry.new(fields) return end
+function gameCrowdCreationDataRegistry.new(fields) end

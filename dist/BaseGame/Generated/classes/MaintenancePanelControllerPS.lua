@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class MaintenancePanelControllerPS: MasterControllerPS
----@field private maintenancePanelSkillChecks EngineeringContainer
+---@field maintenancePanelSkillChecks EngineeringContainer
 MaintenancePanelControllerPS = {}
 
 ---@param fields? MaintenancePanelControllerPS
 ---@return MaintenancePanelControllerPS
-function MaintenancePanelControllerPS.new(fields) return end
+function MaintenancePanelControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function MaintenancePanelControllerPS:OnInstantiated() return end
+function MaintenancePanelControllerPS:OnInstantiated() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionEngineering
-function MaintenancePanelControllerPS:ActionEngineering(context) return end
+function MaintenancePanelControllerPS:ActionEngineering(context) end
 
----@protected
 ---@return nil
-function MaintenancePanelControllerPS:GameAttached() return end
+function MaintenancePanelControllerPS:GameAttached() end
 
----@protected
 ---@return BaseSkillCheckContainer
-function MaintenancePanelControllerPS:GetSkillCheckContainerForSetup() return end
+function MaintenancePanelControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@param evt DisassembleDevice
 ---@return EntityNotificationType
-function MaintenancePanelControllerPS:OnDisassembleDevice(evt) return end
+function MaintenancePanelControllerPS:OnDisassembleDevice(evt) end
 
 ---@return nil
-function MaintenancePanelControllerPS:RefreshLockOnSlaves() return end
+function MaintenancePanelControllerPS:RefreshLockOnSlaves() end
 
 ---@return nil
-function MaintenancePanelControllerPS:RmoveAuthorizationFromSlaves() return end
+function MaintenancePanelControllerPS:RmoveAuthorizationFromSlaves() end

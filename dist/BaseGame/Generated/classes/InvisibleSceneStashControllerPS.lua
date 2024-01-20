@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class InvisibleSceneStashControllerPS: ScriptableDeviceComponentPS
----@field protected storedItems gameItemID[]
+---@field storedItems gameItemID[]
 InvisibleSceneStashControllerPS = {}
 
 ---@param fields? InvisibleSceneStashControllerPS
 ---@return InvisibleSceneStashControllerPS
-function InvisibleSceneStashControllerPS.new(fields) return end
+function InvisibleSceneStashControllerPS.new(fields) end
 
 ---@return nil
-function InvisibleSceneStashControllerPS:ClearStoredItems() return end
+function InvisibleSceneStashControllerPS:ClearStoredItems() end
 
 ---@return gameItemID[]
-function InvisibleSceneStashControllerPS:GetItems() return end
+function InvisibleSceneStashControllerPS:GetItems() end
 
 ---@param items gameItemID[]
 ---@return nil
-function InvisibleSceneStashControllerPS:StoreItems(items) return end
+function InvisibleSceneStashControllerPS:StoreItems(items) end

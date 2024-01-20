@@ -5,9 +5,8 @@ CheckIfSearchAllowed = {}
 
 ---@param fields? CheckIfSearchAllowed
 ---@return CheckIfSearchAllowed
-function CheckIfSearchAllowed.new(fields) return end
+function CheckIfSearchAllowed.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckIfSearchAllowed:Check(context) return end
+function CheckIfSearchAllowed:Check(context) end

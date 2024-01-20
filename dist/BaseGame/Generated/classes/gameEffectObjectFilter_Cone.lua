@@ -5,4 +5,4 @@ gameEffectObjectFilter_Cone = {}
 
 ---@param fields? gameEffectObjectFilter_Cone
 ---@return gameEffectObjectFilter_Cone
-function gameEffectObjectFilter_Cone.new(fields) return end
+function gameEffectObjectFilter_Cone.new(fields) end

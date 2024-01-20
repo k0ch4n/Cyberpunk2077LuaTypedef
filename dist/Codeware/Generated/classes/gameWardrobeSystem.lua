@@ -5,8 +5,8 @@ gameWardrobeSystem = {}
 
 ---@param fields? gameWardrobeSystem
 ---@return gameWardrobeSystem
-function gameWardrobeSystem.new(fields) return end
+function gameWardrobeSystem.new(fields) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function gameWardrobeSystem:ForgetItemID(itemID) return end
+function gameWardrobeSystem:ForgetItemID(itemID) end

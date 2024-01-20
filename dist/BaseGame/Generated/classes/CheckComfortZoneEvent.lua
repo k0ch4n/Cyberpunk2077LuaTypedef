@@ -5,4 +5,4 @@ CheckComfortZoneEvent = {}
 
 ---@param fields? CheckComfortZoneEvent
 ---@return CheckComfortZoneEvent
-function CheckComfortZoneEvent.new(fields) return end
+function CheckComfortZoneEvent.new(fields) end

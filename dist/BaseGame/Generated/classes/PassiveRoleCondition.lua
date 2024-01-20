@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class PassiveRoleCondition: AIbehaviorexpressionScript
----@field public role EAIRole
----@field private roleCbId Uint32
+---@field role EAIRole
+---@field roleCbId Uint32
 PassiveRoleCondition = {}
 
 ---@param fields? PassiveRoleCondition
 ---@return PassiveRoleCondition
-function PassiveRoleCondition.new(fields) return end
+function PassiveRoleCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveRoleCondition:Activate(context) return end
+function PassiveRoleCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveRoleCondition:CalculateValue(context) return end
+function PassiveRoleCondition:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveRoleCondition:Deactivate(context) return end
+function PassiveRoleCondition:Deactivate(context) end
 
 ---@return String
-function PassiveRoleCondition:GetEditorSubCaption() return end
+function PassiveRoleCondition:GetEditorSubCaption() end

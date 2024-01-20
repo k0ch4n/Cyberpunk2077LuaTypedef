@@ -1,153 +1,127 @@
 ---@meta
 
 ---@class vehicleUIGameController: gameuiHUDGameController
----@field private vehicleBlackboard gameIBlackboard
----@field private vehicle vehicleBaseObject
----@field private vehiclePS VehicleComponentPS
----@field private vehicleBBStateConectionId redCallbackObject
----@field private vehicleCollisionBBStateID redCallbackObject
----@field private vehicleBBUIActivId redCallbackObject
----@field private rootWidget inkWidget
----@field private UIEnabled Bool
----@field private startAnimProxy inkanimProxy
----@field private loopAnimProxy inkanimProxy
----@field private endAnimProxy inkanimProxy
----@field private loopingBootProxy inkanimProxy
----@field private speedometerWidget inkWidgetReference
----@field private tachometerWidget inkWidgetReference
----@field private timeWidget inkWidgetReference
----@field private instruments inkWidgetReference
----@field private gearBox inkWidgetReference
----@field private radio inkWidgetReference
----@field private analogTachWidget inkWidgetReference
----@field private analogSpeedWidget inkWidgetReference
----@field private isVehicleReady Bool
+---@field vehicleBlackboard gameIBlackboard
+---@field vehicle vehicleBaseObject
+---@field vehiclePS VehicleComponentPS
+---@field vehicleBBStateConectionId redCallbackObject
+---@field vehicleCollisionBBStateID redCallbackObject
+---@field vehicleBBUIActivId redCallbackObject
+---@field rootWidget inkWidget
+---@field UIEnabled Bool
+---@field startAnimProxy inkanimProxy
+---@field loopAnimProxy inkanimProxy
+---@field endAnimProxy inkanimProxy
+---@field loopingBootProxy inkanimProxy
+---@field speedometerWidget inkWidgetReference
+---@field tachometerWidget inkWidgetReference
+---@field timeWidget inkWidgetReference
+---@field instruments inkWidgetReference
+---@field gearBox inkWidgetReference
+---@field radio inkWidgetReference
+---@field analogTachWidget inkWidgetReference
+---@field analogSpeedWidget inkWidgetReference
+---@field isVehicleReady Bool
 vehicleUIGameController = {}
 
 ---@param fields? vehicleUIGameController
 ---@return vehicleUIGameController
-function vehicleUIGameController.new(fields) return end
+function vehicleUIGameController.new(fields) end
 
----@protected
 ---@param activate Bool
 ---@return Bool
-function vehicleUIGameController:OnActivateUI(activate) return end
+function vehicleUIGameController:OnActivateUI(activate) end
 
----@protected
 ---@param evt VehicleUIactivateEvent
 ---@return Bool
-function vehicleUIGameController:OnActivateUIEvent(evt) return end
+function vehicleUIGameController:OnActivateUIEvent(evt) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function vehicleUIGameController:OnEndAnimFinished(anim) return end
+function vehicleUIGameController:OnEndAnimFinished(anim) end
 
----@protected
 ---@param evt ForwardVehicleQuestEnableUIEvent
 ---@return Bool
-function vehicleUIGameController:OnForwardVehicleQuestEnableUIEvent(evt) return end
+function vehicleUIGameController:OnForwardVehicleQuestEnableUIEvent(evt) end
 
----@protected
 ---@param evt ForwardVehicleQuestUIEffectEvent
 ---@return Bool
-function vehicleUIGameController:OnForwardVehicleQuestUIEffectEvent(evt) return end
+function vehicleUIGameController:OnForwardVehicleQuestUIEffectEvent(evt) end
 
----@protected
 ---@return Bool
-function vehicleUIGameController:OnInitialize() return end
+function vehicleUIGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function vehicleUIGameController:OnStartAnimFinished(anim) return end
+function vehicleUIGameController:OnStartAnimFinished(anim) end
 
----@protected
 ---@return Bool
-function vehicleUIGameController:OnUninitialize() return end
+function vehicleUIGameController:OnUninitialize() end
 
----@protected
 ---@param collision Bool
 ---@return Bool
-function vehicleUIGameController:OnVehicleCollision(collision) return end
+function vehicleUIGameController:OnVehicleCollision(collision) end
 
----@protected
 ---@param evt VehiclePanzerBootupUIQuestEvent
 ---@return Bool
-function vehicleUIGameController:OnVehiclePanzerBootupUIQuestEvent(evt) return end
+function vehicleUIGameController:OnVehiclePanzerBootupUIQuestEvent(evt) end
 
----@protected
 ---@param ready Bool
 ---@return Bool
-function vehicleUIGameController:OnVehicleReady(ready) return end
+function vehicleUIGameController:OnVehicleReady(ready) end
 
----@protected
 ---@param state Int32
 ---@return Bool
-function vehicleUIGameController:OnVehicleStateChanged(state) return end
+function vehicleUIGameController:OnVehicleStateChanged(state) end
 
----@private
 ---@return nil
-function vehicleUIGameController:ActivateUI() return end
+function vehicleUIGameController:ActivateUI() end
 
----@private
 ---@return nil
-function vehicleUIGameController:CheckIfVehicleShouldTurnOn() return end
+function vehicleUIGameController:CheckIfVehicleShouldTurnOn() end
 
----@private
 ---@return nil
-function vehicleUIGameController:DeactivateUI() return end
+function vehicleUIGameController:DeactivateUI() end
 
 ---@param time GameTime
 ---@return nil
-function vehicleUIGameController:EvaluateWidgetStyle(time) return end
+function vehicleUIGameController:EvaluateWidgetStyle(time) end
 
----@private
 ---@param veh vehicleBaseObject
 ---@return nil
-function vehicleUIGameController:InitializeWidgetStyleSheet(veh) return end
+function vehicleUIGameController:InitializeWidgetStyleSheet(veh) end
 
----@private
 ---@return Bool
-function vehicleUIGameController:IsUIactive() return end
+function vehicleUIGameController:IsUIactive() end
 
----@private
 ---@return nil
-function vehicleUIGameController:KillBootupProxy() return end
+function vehicleUIGameController:KillBootupProxy() end
 
----@private
 ---@return nil
-function vehicleUIGameController:PlayIdleLoop() return end
+function vehicleUIGameController:PlayIdleLoop() end
 
----@private
 ---@param animName CName|string
 ---@return nil
-function vehicleUIGameController:PlayLibraryAnim(animName) return end
+function vehicleUIGameController:PlayLibraryAnim(animName) end
 
----@private
 ---@return nil
-function vehicleUIGameController:RegisterBlackBoardCallbacks() return end
+function vehicleUIGameController:RegisterBlackBoardCallbacks() end
 
----@private
 ---@param widget inkWidgetReference
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@return nil
-function vehicleUIGameController:SetupModule(widget, vehicle, vehBB) return end
+function vehicleUIGameController:SetupModule(widget, vehicle, vehBB) end
 
----@private
 ---@return nil
-function vehicleUIGameController:TurnOff() return end
+function vehicleUIGameController:TurnOff() end
 
----@private
 ---@return nil
-function vehicleUIGameController:TurnOn() return end
+function vehicleUIGameController:TurnOn() end
 
----@private
 ---@return nil
-function vehicleUIGameController:UnregisterBlackBoardCallbacks() return end
+function vehicleUIGameController:UnregisterBlackBoardCallbacks() end
 
----@private
 ---@param widget inkWidgetReference
 ---@return nil
-function vehicleUIGameController:UnregisterModule(widget) return end
+function vehicleUIGameController:UnregisterModule(widget) end

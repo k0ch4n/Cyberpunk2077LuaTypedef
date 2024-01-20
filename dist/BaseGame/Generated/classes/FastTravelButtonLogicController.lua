@@ -1,55 +1,52 @@
 ---@meta
 
 ---@class FastTravelButtonLogicController: inkButtonController
----@field private districtName inkTextWidgetReference
----@field private locationName inkTextWidgetReference
----@field private soundData SSoundData
----@field private isInitialized Bool
----@field private fastTravelPointData gameFastTravelPointData
+---@field districtName inkTextWidgetReference
+---@field locationName inkTextWidgetReference
+---@field soundData SSoundData
+---@field isInitialized Bool
+---@field fastTravelPointData gameFastTravelPointData
 FastTravelButtonLogicController = {}
 
 ---@param fields? FastTravelButtonLogicController
 ---@return FastTravelButtonLogicController
-function FastTravelButtonLogicController.new(fields) return end
+function FastTravelButtonLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function FastTravelButtonLogicController:OnInitialize() return end
+function FastTravelButtonLogicController:OnInitialize() end
 
----@protected
 ---@return Bool
-function FastTravelButtonLogicController:OnUninitialize() return end
+function FastTravelButtonLogicController:OnUninitialize() end
 
 ---@return gameFastTravelPointData
-function FastTravelButtonLogicController:GetFastTravelPointData() return end
+function FastTravelButtonLogicController:GetFastTravelPointData() end
 
 ---@return CName
-function FastTravelButtonLogicController:GetOnHoverOutKey() return end
+function FastTravelButtonLogicController:GetOnHoverOutKey() end
 
 ---@return CName
-function FastTravelButtonLogicController:GetOnHoverOverKey() return end
+function FastTravelButtonLogicController:GetOnHoverOverKey() end
 
 ---@return CName
-function FastTravelButtonLogicController:GetOnPressKey() return end
+function FastTravelButtonLogicController:GetOnPressKey() end
 
 ---@return CName
-function FastTravelButtonLogicController:GetOnReleaseKey() return end
+function FastTravelButtonLogicController:GetOnReleaseKey() end
 
 ---@return CName
-function FastTravelButtonLogicController:GetWidgetAudioName() return end
+function FastTravelButtonLogicController:GetWidgetAudioName() end
 
 ---@param data gameFastTravelPointData
 ---@return nil
-function FastTravelButtonLogicController:Initialize(data) return end
+function FastTravelButtonLogicController:Initialize(data) end
 
 ---@return Bool
-function FastTravelButtonLogicController:IsInitialized() return end
+function FastTravelButtonLogicController:IsInitialized() end
 
 ---@param gameController gameuiWidgetGameController
 ---@return nil
-function FastTravelButtonLogicController:RegisterAudioCallbacks(gameController) return end
+function FastTravelButtonLogicController:RegisterAudioCallbacks(gameController) end
 
----@private
 ---@param data gameFastTravelPointData
 ---@return nil
-function FastTravelButtonLogicController:SetDescription(data) return end
+function FastTravelButtonLogicController:SetDescription(data) end

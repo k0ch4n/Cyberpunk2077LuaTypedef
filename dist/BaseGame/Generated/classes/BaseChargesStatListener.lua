@@ -1,47 +1,44 @@
 ---@meta
 
 ---@class BaseChargesStatListener: gameCustomValueStatPoolsListener
----@field public player PlayerPuppet
----@field public playedCueAlready Bool
----@field public currentCharges Int32
----@field public currentStatPoolValue Int32
----@field public rechargeSoundCue CName
----@field public statSystem gameStatsSystem
----@field public finalString String
+---@field player PlayerPuppet
+---@field playedCueAlready Bool
+---@field currentCharges Int32
+---@field currentStatPoolValue Int32
+---@field rechargeSoundCue CName
+---@field statSystem gameStatsSystem
+---@field finalString String
 BaseChargesStatListener = {}
 
 ---@param fields? BaseChargesStatListener
 ---@return BaseChargesStatListener
-function BaseChargesStatListener.new(fields) return end
+function BaseChargesStatListener.new(fields) end
 
----@protected
 ---@param hotkey gameEHotkey
 ---@return gamedataItem_Record
-function BaseChargesStatListener:GetActiveItem(hotkey) return end
+function BaseChargesStatListener:GetActiveItem(hotkey) end
 
 ---@return Int32
-function BaseChargesStatListener:GetCharges() return end
+function BaseChargesStatListener:GetCharges() end
 
 ---@return Int32
-function BaseChargesStatListener:GetRechargeDuration() return end
+function BaseChargesStatListener:GetRechargeDuration() end
 
 ---@param player PlayerPuppet
 ---@return nil
-function BaseChargesStatListener:Init(player) return end
+function BaseChargesStatListener:Init(player) end
 
 ---@return Int32
-function BaseChargesStatListener:MaxStatPoolValue() return end
+function BaseChargesStatListener:MaxStatPoolValue() end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function BaseChargesStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function BaseChargesStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end
 
----@protected
 ---@return nil
-function BaseChargesStatListener:PlayRechagedSoundEvent() return end
+function BaseChargesStatListener:PlayRechagedSoundEvent() end
 
----@private
 ---@return nil
-function BaseChargesStatListener:Recharged() return end
+function BaseChargesStatListener:Recharged() end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class InventoryComboBoxData
----@field public Message String
----@field public ItemsToDisplay gameInventoryItemData[]
----@field public ShowUnequipButton Bool
----@field public ShowcaseItem gameInventoryItemData
----@field public DisplayShowcase Bool
----@field public ForceDouble Bool
+---@field Message String
+---@field ItemsToDisplay gameInventoryItemData[]
+---@field ShowUnequipButton Bool
+---@field ShowcaseItem gameInventoryItemData
+---@field DisplayShowcase Bool
+---@field ForceDouble Bool
 InventoryComboBoxData = {}
 
 ---@param fields? InventoryComboBoxData
 ---@return InventoryComboBoxData
-function InventoryComboBoxData.new(fields) return end
+function InventoryComboBoxData.new(fields) end

@@ -5,7 +5,7 @@ QuestStopHacking = {}
 
 ---@param fields? QuestStopHacking
 ---@return QuestStopHacking
-function QuestStopHacking.new(fields) return end
+function QuestStopHacking.new(fields) end
 
 ---@return nil
-function QuestStopHacking:SetProperties() return end
+function QuestStopHacking:SetProperties() end

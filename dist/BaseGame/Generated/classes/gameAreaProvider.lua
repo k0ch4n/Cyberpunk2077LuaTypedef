@@ -5,4 +5,4 @@ gameAreaProvider = {}
 
 ---@param fields? gameAreaProvider
 ---@return gameAreaProvider
-function gameAreaProvider.new(fields) return end
+function gameAreaProvider.new(fields) end

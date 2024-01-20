@@ -5,13 +5,13 @@ gamedataTriggerHackingMinigameEffector_Record = {}
 
 ---@param fields? gamedataTriggerHackingMinigameEffector_Record
 ---@return gamedataTriggerHackingMinigameEffector_Record
-function gamedataTriggerHackingMinigameEffector_Record.new(fields) return end
+function gamedataTriggerHackingMinigameEffector_Record.new(fields) end
 
 ---@return String
-function gamedataTriggerHackingMinigameEffector_Record:JournalEntry() return end
+function gamedataTriggerHackingMinigameEffector_Record:JournalEntry() end
 
 ---@return gamedataRewardBase_Record
-function gamedataTriggerHackingMinigameEffector_Record:Reward() return end
+function gamedataTriggerHackingMinigameEffector_Record:Reward() end
 
 ---@return gamedataRewardBase_Record
-function gamedataTriggerHackingMinigameEffector_Record:RewardHandle() return end
+function gamedataTriggerHackingMinigameEffector_Record:RewardHandle() end

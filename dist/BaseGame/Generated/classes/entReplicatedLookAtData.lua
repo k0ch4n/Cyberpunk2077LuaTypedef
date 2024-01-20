@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entReplicatedLookAtData
----@field public creationNetTime netTime
+---@field creationNetTime netTime
 entReplicatedLookAtData = {}
 
 ---@param fields? entReplicatedLookAtData
 ---@return entReplicatedLookAtData
-function entReplicatedLookAtData.new(fields) return end
+function entReplicatedLookAtData.new(fields) end

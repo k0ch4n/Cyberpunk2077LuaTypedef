@@ -1,52 +1,44 @@
 ---@meta
 
 ---@class sampleGranade: BaseProjectile
----@field private countTime Float
----@field private energyLossFactor Float
----@field private startVelocity Float
----@field private grenadeLifetime Float
----@field private gravitySimulation Float
----@field private trailEffectName CName
----@field private alive Bool
+---@field countTime Float
+---@field energyLossFactor Float
+---@field startVelocity Float
+---@field grenadeLifetime Float
+---@field gravitySimulation Float
+---@field trailEffectName CName
+---@field alive Bool
 sampleGranade = {}
 
 ---@param fields? sampleGranade
 ---@return sampleGranade
-function sampleGranade.new(fields) return end
+function sampleGranade.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function sampleGranade:OnCollision(eventData) return end
+function sampleGranade:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function sampleGranade:OnProjectileInitialize(eventData) return end
+function sampleGranade:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function sampleGranade:OnShoot(eventData) return end
+function sampleGranade:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function sampleGranade:OnShootTarget(eventData) return end
+function sampleGranade:OnShootTarget(eventData) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function sampleGranade:OnTick(eventData) return end
+function sampleGranade:OnTick(eventData) end
 
----@private
 ---@return nil
-function sampleGranade:PlayExplosionSound() return end
+function sampleGranade:PlayExplosionSound() end
 
----@private
 ---@return nil
-function sampleGranade:Reset() return end
+function sampleGranade:Reset() end
 
----@private
 ---@return nil
-function sampleGranade:StartTrailEffect() return end
+function sampleGranade:StartTrailEffect() end

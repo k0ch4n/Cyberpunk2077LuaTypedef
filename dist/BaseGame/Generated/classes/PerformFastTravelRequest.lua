@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PerformFastTravelRequest: gameScriptableSystemRequest
----@field public pointData gameFastTravelPointData
----@field public player gameObject
+---@field pointData gameFastTravelPointData
+---@field player gameObject
 PerformFastTravelRequest = {}
 
 ---@param fields? PerformFastTravelRequest
 ---@return PerformFastTravelRequest
-function PerformFastTravelRequest.new(fields) return end
+function PerformFastTravelRequest.new(fields) end

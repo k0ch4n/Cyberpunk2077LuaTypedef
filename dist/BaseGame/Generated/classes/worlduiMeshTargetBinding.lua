@@ -5,4 +5,4 @@ worlduiMeshTargetBinding = {}
 
 ---@param fields? worlduiMeshTargetBinding
 ---@return worlduiMeshTargetBinding
-function worlduiMeshTargetBinding.new(fields) return end
+function worlduiMeshTargetBinding.new(fields) end

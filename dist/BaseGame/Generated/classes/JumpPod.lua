@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class JumpPod: gameObject
----@field private activationLight entIVisualComponent
----@field private activationTrigger entIComponent
----@field public impulseForward Float
----@field public impulseRight Float
----@field public impulseUp Float
+---@field activationLight entIVisualComponent
+---@field activationTrigger entIComponent
+---@field impulseForward Float
+---@field impulseRight Float
+---@field impulseUp Float
 JumpPod = {}
 
 ---@param fields? JumpPod
 ---@return JumpPod
-function JumpPod.new(fields) return end
+function JumpPod.new(fields) end
 
----@protected
 ---@param trigger entAreaEnteredEvent
 ---@return Bool
-function JumpPod:OnAreaEnter(trigger) return end
+function JumpPod:OnAreaEnter(trigger) end
 
----@protected
 ---@param trigger entAreaExitedEvent
 ---@return Bool
-function JumpPod:OnAreaExit(trigger) return end
+function JumpPod:OnAreaExit(trigger) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function JumpPod:OnRequestComponents(ri) return end
+function JumpPod:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function JumpPod:OnTakeControl(ri) return end
+function JumpPod:OnTakeControl(ri) end
 
----@private
 ---@param activator entEntityGameInterface
 ---@return nil
-function JumpPod:ApplyImpulse(activator) return end
+function JumpPod:ApplyImpulse(activator) end

@@ -1,59 +1,54 @@
 ---@meta
 
 ---@class SecurityLockerControllerPS: ScriptableDeviceComponentPS
----@field private securityLockerProperties SecurityLockerProperties
----@field private isStoringPlayerEquipement Bool
+---@field securityLockerProperties SecurityLockerProperties
+---@field isStoringPlayerEquipement Bool
 SecurityLockerControllerPS = {}
 
 ---@param fields? SecurityLockerControllerPS
 ---@return SecurityLockerControllerPS
-function SecurityLockerControllerPS.new(fields) return end
+function SecurityLockerControllerPS.new(fields) end
 
----@private
 ---@param executor gameObject
 ---@return UseSecurityLocker
-function SecurityLockerControllerPS:ActionUseSecurityLocker(executor) return end
+function SecurityLockerControllerPS:ActionUseSecurityLocker(executor) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function SecurityLockerControllerPS:GetActions(context) return end
+function SecurityLockerControllerPS:GetActions(context) end
 
 ---@return ESecurityAccessLevel
-function SecurityLockerControllerPS:GetAuthorizationLevel() return end
+function SecurityLockerControllerPS:GetAuthorizationLevel() end
 
----@protected
 ---@return TweakDBID
-function SecurityLockerControllerPS:GetBackgroundTextureTweakDBID() return end
+function SecurityLockerControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SecurityLockerControllerPS:GetDeviceIconTweakDBID() return end
+function SecurityLockerControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return Bool
-function SecurityLockerControllerPS:GetIsEmpty() return end
+function SecurityLockerControllerPS:GetIsEmpty() end
 
 ---@return Bool
-function SecurityLockerControllerPS:GetIsStoringPlayerEquipement() return end
+function SecurityLockerControllerPS:GetIsStoringPlayerEquipement() end
 
 ---@return CName
-function SecurityLockerControllerPS:GetReturnSFX() return end
+function SecurityLockerControllerPS:GetReturnSFX() end
 
 ---@return CName
-function SecurityLockerControllerPS:GetStoreSFX() return end
+function SecurityLockerControllerPS:GetStoreSFX() end
 
----@protected
 ---@return nil
-function SecurityLockerControllerPS:Initialize() return end
+function SecurityLockerControllerPS:Initialize() end
 
 ---@param evt UseSecurityLocker
 ---@return EntityNotificationType
-function SecurityLockerControllerPS:OnUseSecurityLocker(evt) return end
+function SecurityLockerControllerPS:OnUseSecurityLocker(evt) end
 
----@protected
 ---@param evt TogglePersonalLink
 ---@param abortOperation Bool
 ---@return nil
-function SecurityLockerControllerPS:ResolvePersonalLinkConnection(evt, abortOperation) return end
+function SecurityLockerControllerPS:ResolvePersonalLinkConnection(evt, abortOperation) end
 
 ---@return Bool
-function SecurityLockerControllerPS:ShouldDisableCyberware() return end
+function SecurityLockerControllerPS:ShouldDisableCyberware() end

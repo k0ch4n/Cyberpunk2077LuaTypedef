@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameprojectileProjectilePreviewEvent: gameprojectileSpawnerPreviewEvent
----@field public visualOffset Transform
+---@field visualOffset Transform
 gameprojectileProjectilePreviewEvent = {}
 
 ---@param fields? gameprojectileProjectilePreviewEvent
 ---@return gameprojectileProjectilePreviewEvent
-function gameprojectileProjectilePreviewEvent.new(fields) return end
+function gameprojectileProjectilePreviewEvent.new(fields) end

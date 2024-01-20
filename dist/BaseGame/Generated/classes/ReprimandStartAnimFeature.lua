@@ -5,9 +5,8 @@ ReprimandStartAnimFeature = {}
 
 ---@param fields? ReprimandStartAnimFeature
 ---@return ReprimandStartAnimFeature
-function ReprimandStartAnimFeature.new(fields) return end
+function ReprimandStartAnimFeature.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReprimandStartAnimFeature:Activate(context) return end
+function ReprimandStartAnimFeature:Activate(context) end

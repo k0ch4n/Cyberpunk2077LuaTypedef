@@ -5,4 +5,4 @@ UnregisterAggressiveCrowd = {}
 
 ---@param fields? UnregisterAggressiveCrowd
 ---@return UnregisterAggressiveCrowd
-function UnregisterAggressiveCrowd.new(fields) return end
+function UnregisterAggressiveCrowd.new(fields) end

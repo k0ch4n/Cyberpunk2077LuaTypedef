@@ -1,76 +1,66 @@
 ---@meta
 
 ---@class DropPointControllerPS: BasicDistractionDeviceControllerPS
----@field private vendorRecord String
----@field private rewardsLootTable TweakDBID[]
----@field private hasPlayerCollectedReward Bool
+---@field vendorRecord String
+---@field rewardsLootTable TweakDBID[]
+---@field hasPlayerCollectedReward Bool
 DropPointControllerPS = {}
 
 ---@param fields? DropPointControllerPS
 ---@return DropPointControllerPS
-function DropPointControllerPS.new(fields) return end
+function DropPointControllerPS.new(fields) end
 
----@private
 ---@param executor gameObject
 ---@return CollectDropPointRewards
-function DropPointControllerPS:ActionCollectDropPointRewards(executor) return end
+function DropPointControllerPS:ActionCollectDropPointRewards(executor) end
 
----@protected
 ---@param executor gameObject
 ---@return DepositQuestItems
-function DropPointControllerPS:ActionDepositQuestItems(executor) return end
+function DropPointControllerPS:ActionDepositQuestItems(executor) end
 
----@protected
 ---@param executor gameObject
 ---@return OpenVendorUI
-function DropPointControllerPS:ActionOpenVendorUI(executor) return end
+function DropPointControllerPS:ActionOpenVendorUI(executor) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function DropPointControllerPS:GetActions(context) return end
+function DropPointControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function DropPointControllerPS:GetBackgroundTextureTweakDBID() return end
+function DropPointControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function DropPointControllerPS:GetDeviceIconTweakDBID() return end
+function DropPointControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return String
-function DropPointControllerPS:GetVendorRecordPath() return end
+function DropPointControllerPS:GetVendorRecordPath() end
 
 ---@return Bool
-function DropPointControllerPS:IsRewardCollected() return end
+function DropPointControllerPS:IsRewardCollected() end
 
 ---@param evt AddItemForPlayerToPickUp
 ---@return EntityNotificationType
-function DropPointControllerPS:OnAddItemForPlayerToPickUp(evt) return end
+function DropPointControllerPS:OnAddItemForPlayerToPickUp(evt) end
 
----@private
 ---@param evt CollectDropPointRewards
 ---@return EntityNotificationType
-function DropPointControllerPS:OnCollectDropPointRewards(evt) return end
+function DropPointControllerPS:OnCollectDropPointRewards(evt) end
 
----@protected
 ---@param evt DepositQuestItems
 ---@return EntityNotificationType
-function DropPointControllerPS:OnDepositQuestItems(evt) return end
+function DropPointControllerPS:OnDepositQuestItems(evt) end
 
----@protected
 ---@param evt OpenVendorUI
 ---@return EntityNotificationType
-function DropPointControllerPS:OnOpenVendorUI(evt) return end
+function DropPointControllerPS:OnOpenVendorUI(evt) end
 
 ---@param evt ReserveItemToThisDropPoint
 ---@return EntityNotificationType
-function DropPointControllerPS:OnReserveItemToThisDropPoint(evt) return end
+function DropPointControllerPS:OnReserveItemToThisDropPoint(evt) end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function DropPointControllerPS:SetDeviceState(state) return end
+function DropPointControllerPS:SetDeviceState(state) end
 
----@private
 ---@return nil
-function DropPointControllerPS:UnregisterDropPointMappinInSystem() return end
+function DropPointControllerPS:UnregisterDropPointMappinInSystem() end

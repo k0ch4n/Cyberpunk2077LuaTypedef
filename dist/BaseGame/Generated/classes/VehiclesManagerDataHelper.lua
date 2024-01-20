@@ -5,18 +5,17 @@ VehiclesManagerDataHelper = {}
 
 ---@param fields? VehiclesManagerDataHelper
 ---@return VehiclesManagerDataHelper
-function VehiclesManagerDataHelper.new(fields) return end
+function VehiclesManagerDataHelper.new(fields) end
 
 ---@param player gameObject
 ---@return IScriptable[]
-function VehiclesManagerDataHelper.GetRadioStations(player) return end
+function VehiclesManagerDataHelper.GetRadioStations(player) end
 
 ---@param player gameObject
 ---@return IScriptable[]
-function VehiclesManagerDataHelper.GetVehicles(player) return end
+function VehiclesManagerDataHelper.GetVehicles(player) end
 
----@private
 ---@param result IScriptable[]
 ---@param record gamedataRadioStation_Record
 ---@return nil
-function VehiclesManagerDataHelper.PushRadioStationData(result, record) return end
+function VehiclesManagerDataHelper.PushRadioStationData(result, record) end

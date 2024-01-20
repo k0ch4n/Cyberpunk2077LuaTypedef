@@ -5,10 +5,9 @@ MeleeJumpAttackDecisions = {}
 
 ---@param fields? MeleeJumpAttackDecisions
 ---@return MeleeJumpAttackDecisions
-function MeleeJumpAttackDecisions.new(fields) return end
+function MeleeJumpAttackDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeJumpAttackDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeJumpAttackDecisions:EnterCondition(stateContext, scriptInterface) end

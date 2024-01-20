@@ -1,90 +1,72 @@
 ---@meta
 
 ---@class MenuScenario_PreGameSubMenu: inkMenuScenario
----@field protected prevScenario CName
----@field protected currSubMenuName CName
+---@field prevScenario CName
+---@field currSubMenuName CName
 MenuScenario_PreGameSubMenu = {}
 
 ---@param fields? MenuScenario_PreGameSubMenu
 ---@return MenuScenario_PreGameSubMenu
-function MenuScenario_PreGameSubMenu.new(fields) return end
+function MenuScenario_PreGameSubMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnBack() return end
+function MenuScenario_PreGameSubMenu:OnBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnCloseInitializeUserScreen() return end
+function MenuScenario_PreGameSubMenu:OnCloseInitializeUserScreen() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_PreGameSubMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param evt inkShowEngagementScreen
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnHandleEngagementScreen(evt) return end
+function MenuScenario_PreGameSubMenu:OnHandleEngagementScreen(evt) end
 
----@protected
 ---@param evt inkShowInitializeUserScreen
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnHandleInitializeUserScreen(evt) return end
+function MenuScenario_PreGameSubMenu:OnHandleInitializeUserScreen(evt) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnLeaveScenario(nextScenario) return end
+function MenuScenario_PreGameSubMenu:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnRequestHideMainMenuTooltip() return end
+function MenuScenario_PreGameSubMenu:OnRequestHideMainMenuTooltip() end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnRequestPatchNotes() return end
+function MenuScenario_PreGameSubMenu:OnRequestPatchNotes() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnRequestShowMainMenuTooltip(userData) return end
+function MenuScenario_PreGameSubMenu:OnRequestShowMainMenuTooltip(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnRequetCloseExpansionPopup() return end
+function MenuScenario_PreGameSubMenu:OnRequetCloseExpansionPopup() end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnRequetClosePatchNotes() return end
+function MenuScenario_PreGameSubMenu:OnRequetClosePatchNotes() end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnRequetPurchaseDisabledError() return end
+function MenuScenario_PreGameSubMenu:OnRequetPurchaseDisabledError() end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnSwitchToEngagementScreen() return end
+function MenuScenario_PreGameSubMenu:OnSwitchToEngagementScreen() end
 
----@protected
 ---@return Bool
-function MenuScenario_PreGameSubMenu:OnSwitchToInitializeUserScreen() return end
+function MenuScenario_PreGameSubMenu:OnSwitchToInitializeUserScreen() end
 
----@protected
 ---@return nil
-function MenuScenario_PreGameSubMenu:CloseSubMenu() return end
+function MenuScenario_PreGameSubMenu:CloseSubMenu() end
 
----@protected
 ---@return nil
-function MenuScenario_PreGameSubMenu:DisplayGog() return end
+function MenuScenario_PreGameSubMenu:DisplayGog() end
 
----@protected
 ---@return nil
-function MenuScenario_PreGameSubMenu:OnSubmenuOpen() return end
+function MenuScenario_PreGameSubMenu:OnSubmenuOpen() end
 
----@protected
 ---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return nil
-function MenuScenario_PreGameSubMenu:OpenSubMenu(menuName, userData) return end
+function MenuScenario_PreGameSubMenu:OpenSubMenu(menuName, userData) end

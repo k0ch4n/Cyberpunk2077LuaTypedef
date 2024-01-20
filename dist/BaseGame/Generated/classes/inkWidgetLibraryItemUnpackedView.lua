@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkWidgetLibraryItemUnpackedView: ISerializable
----@field public name CName
----@field public instance inkWidgetLibraryItemInstance
+---@field name CName
+---@field instance inkWidgetLibraryItemInstance
 inkWidgetLibraryItemUnpackedView = {}
 
 ---@param fields? inkWidgetLibraryItemUnpackedView
 ---@return inkWidgetLibraryItemUnpackedView
-function inkWidgetLibraryItemUnpackedView.new(fields) return end
+function inkWidgetLibraryItemUnpackedView.new(fields) end

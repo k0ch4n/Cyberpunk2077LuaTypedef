@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIbehaviorFindClosestPointOnPathTaskDefinition: AIbehaviorTaskDefinition
----@field public path AIArgumentMapping
----@field public forceStartFromClosest AIArgumentMapping
----@field public patrolProgress AIArgumentMapping
----@field public positionOnPath AIArgumentMapping
----@field public entryTangent AIArgumentMapping
+---@field path AIArgumentMapping
+---@field forceStartFromClosest AIArgumentMapping
+---@field patrolProgress AIArgumentMapping
+---@field positionOnPath AIArgumentMapping
+---@field entryTangent AIArgumentMapping
 AIbehaviorFindClosestPointOnPathTaskDefinition = {}
 
 ---@param fields? AIbehaviorFindClosestPointOnPathTaskDefinition
 ---@return AIbehaviorFindClosestPointOnPathTaskDefinition
-function AIbehaviorFindClosestPointOnPathTaskDefinition.new(fields) return end
+function AIbehaviorFindClosestPointOnPathTaskDefinition.new(fields) end

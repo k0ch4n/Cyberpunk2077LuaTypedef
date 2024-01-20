@@ -5,40 +5,40 @@ gamedataRangedAttack_Record = {}
 
 ---@param fields? gamedataRangedAttack_Record
 ---@return gamedataRangedAttack_Record
-function gamedataRangedAttack_Record.new(fields) return end
+function gamedataRangedAttack_Record.new(fields) end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:NPCAttack() return end
+function gamedataRangedAttack_Record:NPCAttack() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:NPCAttackHandle() return end
+function gamedataRangedAttack_Record:NPCAttackHandle() end
 
 ---@return gamedataAttack_Projectile_Record
-function gamedataRangedAttack_Record:NPCTimeDilated() return end
+function gamedataRangedAttack_Record:NPCTimeDilated() end
 
 ---@return gamedataAttack_Projectile_Record
-function gamedataRangedAttack_Record:NPCTimeDilatedHandle() return end
+function gamedataRangedAttack_Record:NPCTimeDilatedHandle() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:PlayerAttack() return end
+function gamedataRangedAttack_Record:PlayerAttack() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:PlayerAttackHandle() return end
+function gamedataRangedAttack_Record:PlayerAttackHandle() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:PlayerTimeDilated() return end
+function gamedataRangedAttack_Record:PlayerTimeDilated() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:PlayerTimeDilatedHandle() return end
+function gamedataRangedAttack_Record:PlayerTimeDilatedHandle() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:SecondaryPlayerAttack() return end
+function gamedataRangedAttack_Record:SecondaryPlayerAttack() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:SecondaryPlayerAttackHandle() return end
+function gamedataRangedAttack_Record:SecondaryPlayerAttackHandle() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:SecondaryPlayerTimeDilated() return end
+function gamedataRangedAttack_Record:SecondaryPlayerTimeDilated() end
 
 ---@return gamedataAttack_Record
-function gamedataRangedAttack_Record:SecondaryPlayerTimeDilatedHandle() return end
+function gamedataRangedAttack_Record:SecondaryPlayerTimeDilatedHandle() end

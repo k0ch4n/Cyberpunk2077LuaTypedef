@@ -1,513 +1,437 @@
 ---@meta
 
 ---@class InventoryItemModeLogicController: inkWidgetLogicController
----@field private itemCategoryList inkCompoundWidgetReference
----@field private itemCategoryHeader inkTextWidgetReference
----@field private mainWrapper inkCompoundWidgetReference
----@field private emptyInventoryText inkTextWidgetReference
----@field private filterButtonsGrid inkCompoundWidgetReference
----@field private outfitsFilterInfoText inkTextWidgetReference
----@field private itemGridContainer inkWidgetReference
----@field private itemGridScrollControllerWidget inkWidgetReference
----@field private wardrobeSlotsContainer inkWidgetReference
----@field private wardrobeSlotsLabel inkTextWidgetReference
----@field private buttonHintsController ButtonHints
----@field private TooltipsManager gameuiTooltipsManager
----@field private InventoryManager InventoryDataManagerV2
----@field private player PlayerPuppet
----@field private equipmentSystem EquipmentSystem
----@field private transactionSystem gameTransactionSystem
----@field private uiScriptableSystem UIScriptableSystem
----@field private wardrobeSystem gameWardrobeSystem
----@field private itemChooser InventoryGenericItemChooser
----@field private lastEquipmentAreas gamedataEquipmentArea[]
----@field private currentHotkey gameEHotkey
----@field private inventoryController gameuiInventoryGameController
----@field private itemsPositionProvider ItemPositionProvider
----@field public equipmentBlackboard gameIBlackboard
----@field public itemModsBlackboard gameIBlackboard
----@field public disassembleBlackboard gameIBlackboard
----@field public equipmentBlackboardCallback redCallbackObject
----@field public itemModsBlackboardCallback redCallbackObject
----@field public itemModsUpgradeBlackboardCallback redCallbackObject
----@field public disassembleBlackboardCallback redCallbackObject
----@field public equipmentInProgressCallback redCallbackObject
----@field public playerState gamePSMVehicle
----@field public itemGridClassifier ItemModeGridClassifier
----@field public itemGridDataView ItemModeGridView
----@field public itemGridDataSource inkScriptableDataSourceWrapper
----@field private activeFilter BackpackFilterButtonController
----@field private filterManager ItemCategoryFliterManager
----@field private savedFilter ItemFilterCategory
----@field private lastSelectedDisplay InventoryItemDisplayController
----@field private itemModeInventoryListenerCallback ItemModeInventoryListenerCallback
----@field private itemModeInventoryListener gameInventoryScriptListener
----@field private itemModeInventoryListenerRegistered Bool
----@field private itemGridContainerController ItemModeGridContainer
----@field private cyberwareGridContainerController ItemModeGridContainer
----@field private comparisonResolver ItemPreferredComparisonResolver
----@field private isE3Demo Bool
----@field public isShown Bool
----@field public itemDropQueue gameItemModParams[]
----@field private confirmationPopupToken inkGameNotificationToken
----@field private itemPreviewPopupToken inkGameNotificationToken
----@field private lastItemHoverOverEvent ItemDisplayHoverOverEvent
----@field private isComparisionDisabled Bool
----@field private animContainer inGameMenuAnimContainer
----@field private lastNotificationType UIMenuNotificationType
----@field private outfitWardrobeSpawned Bool
----@field private wardrobeOutfitSlotControllers WardrobeOutfitSlotController[]
----@field private delayedItemEquippedRequested Bool
----@field private delaySystem gameDelaySystem
----@field private delayedTimeoutCallbackId gameDelayID
----@field private timeoutPeroid Float
----@field private tokenPopup inkGameNotificationToken
----@field private refreshRequested Bool
----@field private currentFilter ItemFilterCategory
----@field private viewMode ItemViewModes
----@field private currentItems WrappedInventoryItemData[]
----@field private previousSelectedItem gameItemID
----@field private virtualGridInitialized Bool
----@field private replaceModNotification inkGameNotificationToken
----@field private installModData InstallModConfirmationData
----@field private HACK_lastItemDisplayEvent ItemDisplayClickEvent
+---@field itemCategoryList inkCompoundWidgetReference
+---@field itemCategoryHeader inkTextWidgetReference
+---@field mainWrapper inkCompoundWidgetReference
+---@field emptyInventoryText inkTextWidgetReference
+---@field filterButtonsGrid inkCompoundWidgetReference
+---@field outfitsFilterInfoText inkTextWidgetReference
+---@field itemGridContainer inkWidgetReference
+---@field itemGridScrollControllerWidget inkWidgetReference
+---@field wardrobeSlotsContainer inkWidgetReference
+---@field wardrobeSlotsLabel inkTextWidgetReference
+---@field buttonHintsController ButtonHints
+---@field TooltipsManager gameuiTooltipsManager
+---@field InventoryManager InventoryDataManagerV2
+---@field player PlayerPuppet
+---@field equipmentSystem EquipmentSystem
+---@field transactionSystem gameTransactionSystem
+---@field uiScriptableSystem UIScriptableSystem
+---@field wardrobeSystem gameWardrobeSystem
+---@field itemChooser InventoryGenericItemChooser
+---@field lastEquipmentAreas gamedataEquipmentArea[]
+---@field currentHotkey gameEHotkey
+---@field inventoryController gameuiInventoryGameController
+---@field itemsPositionProvider ItemPositionProvider
+---@field equipmentBlackboard gameIBlackboard
+---@field itemModsBlackboard gameIBlackboard
+---@field disassembleBlackboard gameIBlackboard
+---@field equipmentBlackboardCallback redCallbackObject
+---@field itemModsBlackboardCallback redCallbackObject
+---@field itemModsUpgradeBlackboardCallback redCallbackObject
+---@field disassembleBlackboardCallback redCallbackObject
+---@field equipmentInProgressCallback redCallbackObject
+---@field playerState gamePSMVehicle
+---@field itemGridClassifier ItemModeGridClassifier
+---@field itemGridDataView ItemModeGridView
+---@field itemGridDataSource inkScriptableDataSourceWrapper
+---@field activeFilter BackpackFilterButtonController
+---@field filterManager ItemCategoryFliterManager
+---@field savedFilter ItemFilterCategory
+---@field lastSelectedDisplay InventoryItemDisplayController
+---@field itemModeInventoryListenerCallback ItemModeInventoryListenerCallback
+---@field itemModeInventoryListener gameInventoryScriptListener
+---@field itemModeInventoryListenerRegistered Bool
+---@field itemGridContainerController ItemModeGridContainer
+---@field cyberwareGridContainerController ItemModeGridContainer
+---@field comparisonResolver ItemPreferredComparisonResolver
+---@field isE3Demo Bool
+---@field isShown Bool
+---@field itemDropQueue gameItemModParams[]
+---@field confirmationPopupToken inkGameNotificationToken
+---@field itemPreviewPopupToken inkGameNotificationToken
+---@field lastItemHoverOverEvent ItemDisplayHoverOverEvent
+---@field isComparisionDisabled Bool
+---@field animContainer inGameMenuAnimContainer
+---@field lastNotificationType UIMenuNotificationType
+---@field outfitWardrobeSpawned Bool
+---@field wardrobeOutfitSlotControllers WardrobeOutfitSlotController[]
+---@field delayedItemEquippedRequested Bool
+---@field delaySystem gameDelaySystem
+---@field delayedTimeoutCallbackId gameDelayID
+---@field timeoutPeroid Float
+---@field tokenPopup inkGameNotificationToken
+---@field refreshRequested Bool
+---@field currentFilter ItemFilterCategory
+---@field viewMode ItemViewModes
+---@field currentItems WrappedInventoryItemData[]
+---@field previousSelectedItem gameItemID
+---@field virtualGridInitialized Bool
+---@field replaceModNotification inkGameNotificationToken
+---@field installModData InstallModConfirmationData
+---@field HACK_lastItemDisplayEvent ItemDisplayClickEvent
 InventoryItemModeLogicController = {}
 
 ---@param fields? InventoryItemModeLogicController
 ---@return InventoryItemModeLogicController
-function InventoryItemModeLogicController.new(fields) return end
+function InventoryItemModeLogicController.new(fields) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function InventoryItemModeLogicController:OnBuyShardPopupClosed(data) return end
+function InventoryItemModeLogicController:OnBuyShardPopupClosed(data) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function InventoryItemModeLogicController:OnConfirmationPopupClosed(data) return end
+function InventoryItemModeLogicController:OnConfirmationPopupClosed(data) end
 
----@protected
 ---@param evt DelayedItemEquipped
 ---@return Bool
-function InventoryItemModeLogicController:OnDelayedItemEquipped(evt) return end
+function InventoryItemModeLogicController:OnDelayedItemEquipped(evt) end
 
----@protected
 ---@param evt DelayedRefreshItems
 ---@return Bool
-function InventoryItemModeLogicController:OnDelayedRefreshItems(evt) return end
+function InventoryItemModeLogicController:OnDelayedRefreshItems(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InventoryItemModeLogicController:OnDisassembleComplete(value) return end
+function InventoryItemModeLogicController:OnDisassembleComplete(value) end
 
----@protected
 ---@param inProgress Bool
 ---@return Bool
-function InventoryItemModeLogicController:OnEquipmentInProgress(inProgress) return end
+function InventoryItemModeLogicController:OnEquipmentInProgress(inProgress) end
 
----@protected
 ---@return Bool
-function InventoryItemModeLogicController:OnInitialize() return end
+function InventoryItemModeLogicController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnInventoryItemHoverOut(evt) return end
+function InventoryItemModeLogicController:OnInventoryItemHoverOut(evt) end
 
----@protected
 ---@param e ItemChooserItemChanged
 ---@return Bool
-function InventoryItemModeLogicController:OnItemChooserItemChanged(e) return end
+function InventoryItemModeLogicController:OnItemChooserItemChanged(e) end
 
----@protected
 ---@param evt ItemChooserItemHoverOut
 ---@return Bool
-function InventoryItemModeLogicController:OnItemChooserItemHoverOut(evt) return end
+function InventoryItemModeLogicController:OnItemChooserItemHoverOut(evt) end
 
----@protected
 ---@param evt ItemChooserItemHoverOver
 ---@return Bool
-function InventoryItemModeLogicController:OnItemChooserItemHoverOver(evt) return end
+function InventoryItemModeLogicController:OnItemChooserItemHoverOver(evt) end
 
----@protected
 ---@param evt ItemChooserUnequipItem
 ---@return Bool
-function InventoryItemModeLogicController:OnItemChooserUnequipItem(evt) return end
+function InventoryItemModeLogicController:OnItemChooserUnequipItem(evt) end
 
----@protected
 ---@param ev ItemChooserUnequipMod
 ---@return Bool
-function InventoryItemModeLogicController:OnItemChooserUnequipMod(ev) return end
+function InventoryItemModeLogicController:OnItemChooserUnequipMod(ev) end
 
----@protected
 ---@param evt ItemChooserUnequipVisuals
 ---@return Bool
-function InventoryItemModeLogicController:OnItemChooserUnequipVisuals(evt) return end
+function InventoryItemModeLogicController:OnItemChooserUnequipVisuals(evt) end
 
----@protected
 ---@param evt ItemDisplayClickEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemDisplayClick(evt) return end
+function InventoryItemModeLogicController:OnItemDisplayClick(evt) end
 
----@protected
 ---@param evt ItemDisplayHoldEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemDisplayHold(evt) return end
+function InventoryItemModeLogicController:OnItemDisplayHold(evt) end
 
----@protected
 ---@param evt ItemDisplayHoverOutEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemDisplayHoverOut(evt) return end
+function InventoryItemModeLogicController:OnItemDisplayHoverOut(evt) end
 
----@protected
 ---@param evt ItemDisplayHoverOverEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemDisplayHoverOver(evt) return end
+function InventoryItemModeLogicController:OnItemDisplayHoverOver(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InventoryItemModeLogicController:OnItemEquiped(value) return end
+function InventoryItemModeLogicController:OnItemEquiped(value) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemFilterClick(evt) return end
+function InventoryItemModeLogicController:OnItemFilterClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemFilterHoverOut(evt) return end
+function InventoryItemModeLogicController:OnItemFilterHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemFilterHoverOver(evt) return end
+function InventoryItemModeLogicController:OnItemFilterHoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnItemInventoryHold(evt) return end
+function InventoryItemModeLogicController:OnItemInventoryHold(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InventoryItemModeLogicController:OnItemModUpdatedEquiped(value) return end
+function InventoryItemModeLogicController:OnItemModUpdatedEquiped(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InventoryItemModeLogicController:OnItemModUpgradeInProgress(value) return end
+function InventoryItemModeLogicController:OnItemModUpgradeInProgress(value) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function InventoryItemModeLogicController:OnItemPreviewPopup(data) return end
+function InventoryItemModeLogicController:OnItemPreviewPopup(data) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function InventoryItemModeLogicController:OnOutfitWardrobeSlotSpawned(widget, userData) return end
+function InventoryItemModeLogicController:OnOutfitWardrobeSlotSpawned(widget, userData) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnPostOnRelease(evt) return end
+function InventoryItemModeLogicController:OnPostOnRelease(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function InventoryItemModeLogicController:OnReplaceModNotificationClosed(data) return end
+function InventoryItemModeLogicController:OnReplaceModNotificationClosed(data) end
 
----@protected
 ---@return Bool
-function InventoryItemModeLogicController:OnUninitialize() return end
+function InventoryItemModeLogicController:OnUninitialize() end
 
----@protected
 ---@param e WardrobeOutfitSlotClickedEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnWardrobeOutfitSlotClicked(e) return end
+function InventoryItemModeLogicController:OnWardrobeOutfitSlotClicked(e) end
 
----@protected
 ---@param e WardrobeOutfitSlotHoverOutEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnWardrobeOutfitSlotHoverOut(e) return end
+function InventoryItemModeLogicController:OnWardrobeOutfitSlotHoverOut(e) end
 
----@protected
 ---@param e WardrobeOutfitSlotHoverOverEvent
 ---@return Bool
-function InventoryItemModeLogicController:OnWardrobeOutfitSlotHoverOver(e) return end
+function InventoryItemModeLogicController:OnWardrobeOutfitSlotHoverOver(e) end
 
----@protected
 ---@param item gameItemModParams
 ---@return nil
-function InventoryItemModeLogicController:AddToDropQueue(item) return end
+function InventoryItemModeLogicController:AddToDropQueue(item) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:CleanupVirtualGrid() return end
+function InventoryItemModeLogicController:CleanupVirtualGrid() end
 
----@private
 ---@param targetWidget inkCompoundWidgetReference
 ---@param equipmentArea? gamedataEquipmentArea
 ---@return nil
-function InventoryItemModeLogicController:CreateFilterButtons(targetWidget, equipmentArea) return end
+function InventoryItemModeLogicController:CreateFilterButtons(targetWidget, equipmentArea) end
 
 ---@param displayData InventoryItemDisplayData
 ---@param dataSource InventoryDataManagerV2
 ---@return InventoryGenericItemChooser
-function InventoryItemModeLogicController:CreateItemChooser(displayData, dataSource) return end
+function InventoryItemModeLogicController:CreateItemChooser(displayData, dataSource) end
 
----@private
 ---@return UIMenuNotificationType
-function InventoryItemModeLogicController:DetermineUIMenuNotificationType() return end
+function InventoryItemModeLogicController:DetermineUIMenuNotificationType() end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param slotIndex Int32
 ---@return nil
-function InventoryItemModeLogicController:EquipItem(itemData, slotIndex) return end
+function InventoryItemModeLogicController:EquipItem(itemData, slotIndex) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param slotID TweakDBID|string
 ---@return nil
-function InventoryItemModeLogicController:EquipPart(itemData, slotID) return end
+function InventoryItemModeLogicController:EquipPart(itemData, slotID) end
 
----@private
 ---@param sets gameClothingSet[]
 ---@param targetIndex Int32
 ---@return gameClothingSet
-function InventoryItemModeLogicController:GetClothingSetByIndex(sets, targetIndex) return end
+function InventoryItemModeLogicController:GetClothingSetByIndex(sets, targetIndex) end
 
 ---@return gamedataEquipmentArea[]
-function InventoryItemModeLogicController:GetEquipmentAreas() return end
+function InventoryItemModeLogicController:GetEquipmentAreas() end
 
----@private
 ---@param targetFilter ItemFilterCategory
 ---@return Int32
-function InventoryItemModeLogicController:GetFilterButtonIndex(targetFilter) return end
+function InventoryItemModeLogicController:GetFilterButtonIndex(targetFilter) end
 
----@private
 ---@param evt inkPointerEvent
 ---@return InventoryItemDisplayController
-function InventoryItemModeLogicController:GetInventoryItemDisplayControllerFromTarget(evt) return end
+function InventoryItemModeLogicController:GetInventoryItemDisplayControllerFromTarget(evt) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param partItemData gameInventoryItemData
 ---@return TweakDBID
-function InventoryItemModeLogicController:GetMatchingSlot(itemData, partItemData) return end
+function InventoryItemModeLogicController:GetMatchingSlot(itemData, partItemData) end
 
----@private
 ---@param programs gameInventoryItemAttachments[]
 ---@param targetShardType CName|string
 ---@return gameInventoryItemAttachments
-function InventoryItemModeLogicController:GetProgramByShardType(programs, targetShardType) return end
+function InventoryItemModeLogicController:GetProgramByShardType(programs, targetShardType) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param actionName inkActionName
 ---@param displayContext? gameItemDisplayContext
 ---@param isPlayerLocked? Bool
 ---@return nil
-function InventoryItemModeLogicController:HandleItemClick(itemData, actionName, displayContext, isPlayerLocked) return end
+function InventoryItemModeLogicController:HandleItemClick(itemData, actionName, displayContext, isPlayerLocked) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param actionName inkActionName
 ---@param isPlayerLocked Bool
 ---@return nil
-function InventoryItemModeLogicController:HandleItemHold(itemData, actionName, isPlayerLocked) return end
+function InventoryItemModeLogicController:HandleItemHold(itemData, actionName, isPlayerLocked) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:HandleItemHoverOut() return end
+function InventoryItemModeLogicController:HandleItemHoverOut() end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:HideTooltips() return end
+function InventoryItemModeLogicController:HideTooltips() end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:InvalidateItemTooltipEvent() return end
+function InventoryItemModeLogicController:InvalidateItemTooltipEvent() end
 
----@private
 ---@param equipmentAreas gamedataEquipmentArea[]
 ---@return Bool
-function InventoryItemModeLogicController:IsEquipmentAreaClothing(equipmentAreas) return end
+function InventoryItemModeLogicController:IsEquipmentAreaClothing(equipmentAreas) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Bool
-function InventoryItemModeLogicController:IsEquipmentAreaClothing(equipmentArea) return end
+function InventoryItemModeLogicController:IsEquipmentAreaClothing(equipmentArea) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Bool
-function InventoryItemModeLogicController:IsEquipmentAreaWeapon(equipmentArea) return end
+function InventoryItemModeLogicController:IsEquipmentAreaWeapon(equipmentArea) end
 
----@private
 ---@param equipmentAreas gamedataEquipmentArea[]
 ---@return Bool
-function InventoryItemModeLogicController:IsEquipmentAreaWeapon(equipmentAreas) return end
+function InventoryItemModeLogicController:IsEquipmentAreaWeapon(equipmentAreas) end
 
----@private
 ---@param itemType gamedataItemType
 ---@return Bool
-function InventoryItemModeLogicController:IsItemCyberware(itemType) return end
+function InventoryItemModeLogicController:IsItemCyberware(itemType) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param partItemData gameInventoryItemData
 ---@param targetSlot TweakDBID|string
 ---@return Bool
-function InventoryItemModeLogicController:IsMatchingSlot(itemData, partItemData, targetSlot) return end
+function InventoryItemModeLogicController:IsMatchingSlot(itemData, partItemData, targetSlot) end
 
 ---@return Bool
-function InventoryItemModeLogicController:IsOutfitMode() return end
+function InventoryItemModeLogicController:IsOutfitMode() end
 
----@private
 ---@param itemID gameItemID
 ---@return Bool
-function InventoryItemModeLogicController:IsUnequipBlocked(itemID) return end
+function InventoryItemModeLogicController:IsUnequipBlocked(itemID) end
 
----@private
 ---@param sets gameClothingSet[]
 ---@param targetSet gameWardrobeClothingSetIndex
 ---@return Bool
-function InventoryItemModeLogicController:IsWardrobeSetDefined(sets, targetSet) return end
+function InventoryItemModeLogicController:IsWardrobeSetDefined(sets, targetSet) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:NotifyItemUpdate() return end
+function InventoryItemModeLogicController:NotifyItemUpdate() end
 
 ---@param data QuantityPickerPopupCloseData
 ---@return nil
-function InventoryItemModeLogicController:OnQuantityPickerDisassembly(data) return end
+function InventoryItemModeLogicController:OnQuantityPickerDisassembly(data) end
 
 ---@param data QuantityPickerPopupCloseData
 ---@return nil
-function InventoryItemModeLogicController:OnQuantityPickerDrop(data) return end
+function InventoryItemModeLogicController:OnQuantityPickerDrop(data) end
 
 ---@param data QuantityPickerPopupCloseData
 ---@return nil
-function InventoryItemModeLogicController:OnQuantityPickerPopupClosed(data) return end
+function InventoryItemModeLogicController:OnQuantityPickerPopupClosed(data) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@return nil
-function InventoryItemModeLogicController:OpenConfirmationPopupOpenConfirmationPopup(itemData) return end
+function InventoryItemModeLogicController:OpenConfirmationPopupOpenConfirmationPopup(itemData) end
 
 ---@param itemData gameInventoryItemData
 ---@param action QuantityPickerActionType
 ---@return nil
-function InventoryItemModeLogicController:OpenQuantityPicker(itemData, action) return end
+function InventoryItemModeLogicController:OpenQuantityPicker(itemData, action) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:RefreshAvailableItems() return end
+function InventoryItemModeLogicController:RefreshAvailableItems() end
 
----@protected
 ---@return nil
-function InventoryItemModeLogicController:RegisterBlackboard() return end
+function InventoryItemModeLogicController:RegisterBlackboard() end
 
 ---@return Bool
-function InventoryItemModeLogicController:RequestClose() return end
+function InventoryItemModeLogicController:RequestClose() end
 
----@private
 ---@param itemID gameItemID
 ---@return nil
-function InventoryItemModeLogicController:RequestItemInspected(itemID) return end
+function InventoryItemModeLogicController:RequestItemInspected(itemID) end
 
----@private
 ---@param targetFilter ItemFilterCategory
 ---@return nil
-function InventoryItemModeLogicController:SelectFilterButton(targetFilter) return end
+function InventoryItemModeLogicController:SelectFilterButton(targetFilter) end
 
----@private
 ---@param index Int32
 ---@return nil
-function InventoryItemModeLogicController:SelectFilterButtonByIndex(index) return end
+function InventoryItemModeLogicController:SelectFilterButtonByIndex(index) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:SelectMainItem() return end
+function InventoryItemModeLogicController:SelectMainItem() end
 
----@private
 ---@param controller BackpackFilterButtonController
 ---@return nil
-function InventoryItemModeLogicController:SetActiveFilterController(controller) return end
+function InventoryItemModeLogicController:SetActiveFilterController(controller) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return nil
-function InventoryItemModeLogicController:SetEquipmentArea(equipmentArea) return end
+function InventoryItemModeLogicController:SetEquipmentArea(equipmentArea) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:SetEquipmentSlotButtonHintsHoverOut() return end
+function InventoryItemModeLogicController:SetEquipmentSlotButtonHintsHoverOut() end
 
----@private
 ---@param controller InventoryItemDisplayController
 ---@return nil
-function InventoryItemModeLogicController:SetEquipmentSlotButtonHintsHoverOver(controller) return end
+function InventoryItemModeLogicController:SetEquipmentSlotButtonHintsHoverOver(controller) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:SetInventoryItemButtonHintsHoverOut() return end
+function InventoryItemModeLogicController:SetInventoryItemButtonHintsHoverOut() end
 
----@private
 ---@param displayingData gameInventoryItemData
 ---@param display? InventoryItemDisplayController
 ---@return nil
-function InventoryItemModeLogicController:SetInventoryItemButtonHintsHoverOver(displayingData, display) return end
+function InventoryItemModeLogicController:SetInventoryItemButtonHintsHoverOver(displayingData, display) end
 
----@private
 ---@param itemID gameItemID
 ---@param isUnequip Bool
 ---@return nil
-function InventoryItemModeLogicController:SetPingTutorialFact(itemID, isUnequip) return end
+function InventoryItemModeLogicController:SetPingTutorialFact(itemID, isUnequip) end
 
 ---@param identifier ItemSortMode
 ---@return nil
-function InventoryItemModeLogicController:SetSortMode(identifier) return end
+function InventoryItemModeLogicController:SetSortMode(identifier) end
 
 ---@param translation Vector2
 ---@return nil
-function InventoryItemModeLogicController:SetTranslation(translation) return end
+function InventoryItemModeLogicController:SetTranslation(translation) end
 
 ---@param buttonHints ButtonHints
 ---@param tooltipsManager gameuiTooltipsManager
 ---@param inventoryManager InventoryDataManagerV2
 ---@param player PlayerPuppet
 ---@return nil
-function InventoryItemModeLogicController:SetupData(buttonHints, tooltipsManager, inventoryManager, player) return end
+function InventoryItemModeLogicController:SetupData(buttonHints, tooltipsManager, inventoryManager, player) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return nil
-function InventoryItemModeLogicController:SetupFiltersToCheck(equipmentArea) return end
+function InventoryItemModeLogicController:SetupFiltersToCheck(equipmentArea) end
 
 ---@param displayData InventoryItemDisplayData
 ---@param dataSource InventoryDataManagerV2
 ---@param inventoryController? gameuiInventoryGameController
 ---@return nil
-function InventoryItemModeLogicController:SetupMode(displayData, dataSource, inventoryController) return end
+function InventoryItemModeLogicController:SetupMode(displayData, dataSource, inventoryController) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:SetupVirutalGrid() return end
+function InventoryItemModeLogicController:SetupVirutalGrid() end
 
----@private
 ---@param type UIMenuNotificationType
 ---@return nil
-function InventoryItemModeLogicController:ShowNotification(type) return end
+function InventoryItemModeLogicController:ShowNotification(type) end
 
----@private
 ---@param equippedItem gameInventoryItemData
 ---@param target inkWidget
 ---@param inspectedItemData gameInventoryItemData
@@ -516,90 +440,75 @@ function InventoryItemModeLogicController:ShowNotification(type) return end
 ---@param display? InventoryItemDisplayController
 ---@param transmogItem? gameItemID
 ---@return nil
-function InventoryItemModeLogicController:ShowTooltipsForItemData(equippedItem, target, inspectedItemData, skipCompare, iconErrorInfo, display, transmogItem) return end
+function InventoryItemModeLogicController:ShowTooltipsForItemData(equippedItem, target, inspectedItemData, skipCompare, iconErrorInfo, display, transmogItem) end
 
----@private
 ---@param modifiedItem gameInventoryItemData
 ---@param itemPart gameInventoryItemData
 ---@param slotID TweakDBID|string
 ---@return nil
-function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) return end
+function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) end
 
----@private
 ---@param modifiedItem gameTelemetryInventoryItem
 ---@param itemPart gameTelemetryInventoryItem
 ---@param slotID TweakDBID|string
 ---@return nil
-function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) return end
+function InventoryItemModeLogicController:TelemetryLogPartInstalled(modifiedItem, itemPart, slotID) end
 
----@private
 ---@param controller InventoryItemDisplayController
 ---@param itemData gameInventoryItemData
 ---@return nil
-function InventoryItemModeLogicController:UnequipItem(controller, itemData) return end
+function InventoryItemModeLogicController:UnequipItem(controller, itemData) end
 
----@private
 ---@param itemID gameItemID
 ---@param slotID TweakDBID|string
 ---@return nil
-function InventoryItemModeLogicController:UninstallMod(itemID, slotID) return end
+function InventoryItemModeLogicController:UninstallMod(itemID, slotID) end
 
----@protected
 ---@return nil
-function InventoryItemModeLogicController:UnregisterBlackboard() return end
+function InventoryItemModeLogicController:UnregisterBlackboard() end
 
----@private
 ---@param hotkey gameEHotkey
 ---@param itemsToSkip? gameItemID[]
 ---@return nil
-function InventoryItemModeLogicController:UpdateAvailableHotykeyItems(hotkey, itemsToSkip) return end
+function InventoryItemModeLogicController:UpdateAvailableHotykeyItems(hotkey, itemsToSkip) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:UpdateAvailableItems() return end
+function InventoryItemModeLogicController:UpdateAvailableItems() end
 
----@private
 ---@param availableItems gameInventoryItemData[]
 ---@return nil
-function InventoryItemModeLogicController:UpdateAvailableItemsGrid(availableItems) return end
+function InventoryItemModeLogicController:UpdateAvailableItemsGrid(availableItems) end
 
 ---@param itemID gameItemID
 ---@param tryToPreserveFilter? Bool
 ---@return nil
-function InventoryItemModeLogicController:UpdateDisplayedItems(itemID, tryToPreserveFilter) return end
+function InventoryItemModeLogicController:UpdateDisplayedItems(itemID, tryToPreserveFilter) end
 
----@private
 ---@param itemID gameItemID
 ---@return nil
-function InventoryItemModeLogicController:UpdateFavouriteHint(itemID) return end
+function InventoryItemModeLogicController:UpdateFavouriteHint(itemID) end
 
----@private
 ---@param state Bool
 ---@return nil
-function InventoryItemModeLogicController:UpdateFavouriteHint(state) return end
+function InventoryItemModeLogicController:UpdateFavouriteHint(state) end
 
----@private
 ---@param itemID gameItemID
 ---@param favourite Bool
 ---@return nil
-function InventoryItemModeLogicController:UpdateGridItemFavourite(itemID, favourite) return end
+function InventoryItemModeLogicController:UpdateGridItemFavourite(itemID, favourite) end
 
----@private
 ---@param active Bool
 ---@return nil
-function InventoryItemModeLogicController:UpdateOutfitWardrobe(active) return end
+function InventoryItemModeLogicController:UpdateOutfitWardrobe(active) end
 
----@private
 ---@param active Bool
 ---@param activeSetOverride Int32
 ---@return nil
-function InventoryItemModeLogicController:UpdateOutfitWardrobe(active, activeSetOverride) return end
+function InventoryItemModeLogicController:UpdateOutfitWardrobe(active, activeSetOverride) end
 
----@private
 ---@param setID gameWardrobeClothingSetIndex
 ---@return nil
-function InventoryItemModeLogicController:WardrobeOutfitEquipSet(setID) return end
+function InventoryItemModeLogicController:WardrobeOutfitEquipSet(setID) end
 
----@private
 ---@return nil
-function InventoryItemModeLogicController:WardrobeOutfitUnequipSet() return end
+function InventoryItemModeLogicController:WardrobeOutfitUnequipSet() end

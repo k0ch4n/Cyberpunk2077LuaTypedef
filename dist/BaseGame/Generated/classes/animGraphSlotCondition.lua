@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animGraphSlotCondition
----@field public condition animIStaticCondition
----@field public graph animAnimGraph
+---@field condition animIStaticCondition
+---@field graph animAnimGraph
 animGraphSlotCondition = {}
 
 ---@param fields? animGraphSlotCondition
 ---@return animGraphSlotCondition
-function animGraphSlotCondition.new(fields) return end
+function animGraphSlotCondition.new(fields) end

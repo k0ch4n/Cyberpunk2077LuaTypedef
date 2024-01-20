@@ -5,4 +5,4 @@ gameTierSystem = {}
 
 ---@param fields? gameTierSystem
 ---@return gameTierSystem
-function gameTierSystem.new(fields) return end
+function gameTierSystem.new(fields) end

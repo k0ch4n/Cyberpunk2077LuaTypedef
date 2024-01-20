@@ -5,4 +5,4 @@ inkSliderControllerHandleReleasedCallback = {}
 
 ---@param fields? inkSliderControllerHandleReleasedCallback
 ---@return inkSliderControllerHandleReleasedCallback
-function inkSliderControllerHandleReleasedCallback.new(fields) return end
+function inkSliderControllerHandleReleasedCallback.new(fields) end

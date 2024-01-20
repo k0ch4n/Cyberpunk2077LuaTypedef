@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class DeviceTakeControlDef: gamebbScriptDefinition
----@field public DevicesChain gamebbScriptID_Variant
----@field public ActiveDevice gamebbScriptID_EntityID
----@field public IsDeviceWorking gamebbScriptID_Bool
----@field public ChainLocked gamebbScriptID_Bool
+---@field DevicesChain gamebbScriptID_Variant
+---@field ActiveDevice gamebbScriptID_EntityID
+---@field IsDeviceWorking gamebbScriptID_Bool
+---@field ChainLocked gamebbScriptID_Bool
 DeviceTakeControlDef = {}
 
 ---@param fields? DeviceTakeControlDef
 ---@return DeviceTakeControlDef
-function DeviceTakeControlDef.new(fields) return end
+function DeviceTakeControlDef.new(fields) end
 
 ---@return Bool
-function DeviceTakeControlDef:AutoCreateInSystem() return end
+function DeviceTakeControlDef:AutoCreateInSystem() end

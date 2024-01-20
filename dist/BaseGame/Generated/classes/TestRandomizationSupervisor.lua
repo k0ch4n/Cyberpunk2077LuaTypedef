@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class TestRandomizationSupervisor: genScriptedRandomizationSupervisor
----@field public firstWasGenerated Bool
+---@field firstWasGenerated Bool
 TestRandomizationSupervisor = {}
 
 ---@param fields? TestRandomizationSupervisor
 ---@return TestRandomizationSupervisor
-function TestRandomizationSupervisor.new(fields) return end
+function TestRandomizationSupervisor.new(fields) end
 
----@protected
 ---@return Bool, genRandomizationDataEntry[] entries
-function TestRandomizationSupervisor:OnBeginRandomization() return end
+function TestRandomizationSupervisor:OnBeginRandomization() end
 
----@protected
 ---@param entry genRandomizationDataEntry
 ---@return Bool
-function TestRandomizationSupervisor:OnCanBeGenerated(entry) return end
+function TestRandomizationSupervisor:OnCanBeGenerated(entry) end
 
----@protected
 ---@return Bool
-function TestRandomizationSupervisor:OnEndRandomization() return end
+function TestRandomizationSupervisor:OnEndRandomization() end
 
----@protected
 ---@param entry genRandomizationDataEntry
 ---@return Bool
-function TestRandomizationSupervisor:OnMarkGenerated(entry) return end
+function TestRandomizationSupervisor:OnMarkGenerated(entry) end

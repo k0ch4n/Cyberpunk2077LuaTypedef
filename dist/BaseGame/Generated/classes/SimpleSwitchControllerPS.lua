@@ -1,73 +1,63 @@
 ---@meta
 
 ---@class SimpleSwitchControllerPS: MasterControllerPS
----@field protected switchAction ESwitchAction
----@field protected nameForON TweakDBID
----@field protected nameForOFF TweakDBID
+---@field switchAction ESwitchAction
+---@field nameForON TweakDBID
+---@field nameForOFF TweakDBID
 SimpleSwitchControllerPS = {}
 
 ---@param fields? SimpleSwitchControllerPS
 ---@return SimpleSwitchControllerPS
-function SimpleSwitchControllerPS.new(fields) return end
+function SimpleSwitchControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SimpleSwitchControllerPS:OnInstantiated() return end
+function SimpleSwitchControllerPS:OnInstantiated() end
 
 ---@return ToggleON
-function SimpleSwitchControllerPS:ActionToggleON() return end
+function SimpleSwitchControllerPS:ActionToggleON() end
 
----@protected
 ---@return Bool
-function SimpleSwitchControllerPS:CanCreateAnyQuickHackActions() return end
+function SimpleSwitchControllerPS:CanCreateAnyQuickHackActions() end
 
----@private
 ---@return ScriptableDeviceAction
-function SimpleSwitchControllerPS:GetAction() return end
+function SimpleSwitchControllerPS:GetAction() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function SimpleSwitchControllerPS:GetActions(context) return end
+function SimpleSwitchControllerPS:GetActions(context) end
 
----@protected
 ---@return gamedeviceClearance
-function SimpleSwitchControllerPS:GetClearance() return end
+function SimpleSwitchControllerPS:GetClearance() end
 
 ---@return EDeviceStatus
-function SimpleSwitchControllerPS:GetExpectedSlaveState() return end
+function SimpleSwitchControllerPS:GetExpectedSlaveState() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function SimpleSwitchControllerPS:GetQuickHackActions(context) return end
+function SimpleSwitchControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return nil
-function SimpleSwitchControllerPS:Initialize() return end
+function SimpleSwitchControllerPS:Initialize() end
 
 ---@return Bool
-function SimpleSwitchControllerPS:IsLightSwitch() return end
+function SimpleSwitchControllerPS:IsLightSwitch() end
 
----@protected
 ---@param evt QuestForceOFF
 ---@return EntityNotificationType
-function SimpleSwitchControllerPS:OnQuestForceOFF(evt) return end
+function SimpleSwitchControllerPS:OnQuestForceOFF(evt) end
 
----@protected
 ---@param evt QuestForceON
 ---@return EntityNotificationType
-function SimpleSwitchControllerPS:OnQuestForceON(evt) return end
+function SimpleSwitchControllerPS:OnQuestForceON(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function SimpleSwitchControllerPS:OnRefreshSlavesEvent(evt) return end
+function SimpleSwitchControllerPS:OnRefreshSlavesEvent(evt) end
 
 ---@param evt ToggleON
 ---@return EntityNotificationType
-function SimpleSwitchControllerPS:OnToggleON(evt) return end
+function SimpleSwitchControllerPS:OnToggleON(evt) end
 
----@protected
 ---@param onInitialize? Bool
 ---@return nil
-function SimpleSwitchControllerPS:RefreshSlaves(onInitialize) return end
+function SimpleSwitchControllerPS:RefreshSlaves(onInitialize) end

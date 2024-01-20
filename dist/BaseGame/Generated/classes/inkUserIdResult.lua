@@ -5,4 +5,4 @@ inkUserIdResult = {}
 
 ---@param fields? inkUserIdResult
 ---@return inkUserIdResult
-function inkUserIdResult.new(fields) return end
+function inkUserIdResult.new(fields) end

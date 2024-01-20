@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleApplyZOffsetFromGroundEvent: redEvent
----@field public sampleNavmesh Bool
+---@field sampleNavmesh Bool
 vehicleApplyZOffsetFromGroundEvent = {}
 
 ---@param fields? vehicleApplyZOffsetFromGroundEvent
 ---@return vehicleApplyZOffsetFromGroundEvent
-function vehicleApplyZOffsetFromGroundEvent.new(fields) return end
+function vehicleApplyZOffsetFromGroundEvent.new(fields) end

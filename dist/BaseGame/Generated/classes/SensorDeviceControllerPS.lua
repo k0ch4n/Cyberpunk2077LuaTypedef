@@ -1,383 +1,350 @@
 ---@meta
 
 ---@class SensorDeviceControllerPS: ExplosiveDeviceControllerPS
----@field private isRecognizableBySenses Bool
----@field protected targetingBehaviour TargetingBehaviour
----@field protected detectionParameters DetectionParameters
----@field protected lookAtPresetVert TweakDBID
----@field protected lookAtPresetHor TweakDBID
----@field protected scanGameEffectRef gameEffectRef
----@field protected visionConeEffectRef gameEffectRef
----@field protected visionConeFriendlyEffectRef gameEffectRef
----@field protected idleActiveRef gameEffectRef
----@field protected idleFriendlyRef gameEffectRef
----@field protected canTagEnemies Bool
----@field protected tagLockFromSystem Bool
----@field private netrunnerID entEntityID
----@field private netrunnerProxyID entEntityID
----@field private netrunnerTargetID entEntityID
----@field private linkedStatusEffect LinkedStatusEffect
----@field private questForcedTargetID entEntityID
----@field private isInFollowMode Bool
----@field private isAttitudeChanged Bool
----@field private isInTagKillMode Bool
----@field private isIdleForced Bool
----@field private questTargetToSpot entEntityID
----@field private questTargetSpotted Bool
----@field private isAnyTargetIsLocked Bool
----@field protected isPartOfPrevention Bool
----@field protected ignoreTargetTrackerComponent Bool
+---@field isRecognizableBySenses Bool
+---@field targetingBehaviour TargetingBehaviour
+---@field detectionParameters DetectionParameters
+---@field lookAtPresetVert TweakDBID
+---@field lookAtPresetHor TweakDBID
+---@field scanGameEffectRef gameEffectRef
+---@field visionConeEffectRef gameEffectRef
+---@field visionConeFriendlyEffectRef gameEffectRef
+---@field idleActiveRef gameEffectRef
+---@field idleFriendlyRef gameEffectRef
+---@field canTagEnemies Bool
+---@field tagLockFromSystem Bool
+---@field netrunnerID entEntityID
+---@field netrunnerProxyID entEntityID
+---@field netrunnerTargetID entEntityID
+---@field linkedStatusEffect LinkedStatusEffect
+---@field questForcedTargetID entEntityID
+---@field isInFollowMode Bool
+---@field isAttitudeChanged Bool
+---@field isInTagKillMode Bool
+---@field isIdleForced Bool
+---@field questTargetToSpot entEntityID
+---@field questTargetSpotted Bool
+---@field isAnyTargetIsLocked Bool
+---@field isPartOfPrevention Bool
+---@field ignoreTargetTrackerComponent Bool
 SensorDeviceControllerPS = {}
 
 ---@param fields? SensorDeviceControllerPS
 ---@return SensorDeviceControllerPS
-function SensorDeviceControllerPS.new(fields) return end
+function SensorDeviceControllerPS.new(fields) end
 
----@protected
 ---@return ForceIgnoreTargets
-function SensorDeviceControllerPS:ActionForceIgnoreTargets() return end
+function SensorDeviceControllerPS:ActionForceIgnoreTargets() end
 
----@protected
 ---@return QuestFollowTarget
-function SensorDeviceControllerPS:ActionQuestFollowTarget() return end
+function SensorDeviceControllerPS:ActionQuestFollowTarget() end
 
----@protected
 ---@return QuestForceAttitude
-function SensorDeviceControllerPS:ActionQuestForceAttitude() return end
+function SensorDeviceControllerPS:ActionQuestForceAttitude() end
 
----@protected
 ---@return QuestForceScanEffect
-function SensorDeviceControllerPS:ActionQuestForceScanEffect() return end
+function SensorDeviceControllerPS:ActionQuestForceScanEffect() end
 
----@protected
 ---@return QuestForceScanEffectStop
-function SensorDeviceControllerPS:ActionQuestForceScanEffectStop() return end
+function SensorDeviceControllerPS:ActionQuestForceScanEffectStop() end
 
----@protected
 ---@return QuestLookAtTarget
-function SensorDeviceControllerPS:ActionQuestLookAtTarget() return end
+function SensorDeviceControllerPS:ActionQuestLookAtTarget() end
 
----@protected
 ---@return QuestSetDetectionToFalse
-function SensorDeviceControllerPS:ActionQuestSetDetectionToFalse() return end
+function SensorDeviceControllerPS:ActionQuestSetDetectionToFalse() end
 
----@protected
 ---@return QuestSetDetectionToTrue
-function SensorDeviceControllerPS:ActionQuestSetDetectionToTrue() return end
+function SensorDeviceControllerPS:ActionQuestSetDetectionToTrue() end
 
----@protected
 ---@return QuestSpotTargetReference
-function SensorDeviceControllerPS:ActionQuestSpotTargetReference() return end
+function SensorDeviceControllerPS:ActionQuestSpotTargetReference() end
 
----@protected
 ---@return QuestStopFollowingTarget
-function SensorDeviceControllerPS:ActionQuestStopFollowingTarget() return end
+function SensorDeviceControllerPS:ActionQuestStopFollowingTarget() end
 
----@protected
 ---@return QuestStopLookAtTarget
-function SensorDeviceControllerPS:ActionQuestStopLookAtTarget() return end
+function SensorDeviceControllerPS:ActionQuestStopLookAtTarget() end
 
----@protected
 ---@return QuickHackToggleON
-function SensorDeviceControllerPS:ActionQuickHackToggleON() return end
+function SensorDeviceControllerPS:ActionQuickHackToggleON() end
 
----@protected
 ---@return SetDeviceTagKillMode
-function SensorDeviceControllerPS:ActionSetDeviceTagKillMode() return end
+function SensorDeviceControllerPS:ActionSetDeviceTagKillMode() end
 
 ---@return Bool
-function SensorDeviceControllerPS:CanTagEnemies() return end
+function SensorDeviceControllerPS:CanTagEnemies() end
 
 ---@return nil
-function SensorDeviceControllerPS:ClearLinkedStatusEffect() return end
+function SensorDeviceControllerPS:ClearLinkedStatusEffect() end
 
 ---@return Bool
-function SensorDeviceControllerPS:GetBehaviourCanDetectIntruders() return end
+function SensorDeviceControllerPS:GetBehaviourCanDetectIntruders() end
 
 ---@return Bool
-function SensorDeviceControllerPS:GetBehaviourCanRotate() return end
+function SensorDeviceControllerPS:GetBehaviourCanRotate() end
 
 ---@return Float
-function SensorDeviceControllerPS:GetBehaviourLastTargetLookAtTime() return end
+function SensorDeviceControllerPS:GetBehaviourLastTargetLookAtTime() end
 
 ---@return Float
-function SensorDeviceControllerPS:GetBehaviourLostTargetSearchTime() return end
+function SensorDeviceControllerPS:GetBehaviourLostTargetSearchTime() end
 
 ---@return Float
-function SensorDeviceControllerPS:GetBehaviourMaxRotationAngle() return end
+function SensorDeviceControllerPS:GetBehaviourMaxRotationAngle() end
 
 ---@return Float
-function SensorDeviceControllerPS:GetBehaviourOverrideRootRotation() return end
+function SensorDeviceControllerPS:GetBehaviourOverrideRootRotation() end
 
 ---@return Float
-function SensorDeviceControllerPS:GetBehaviourPitchAngle() return end
+function SensorDeviceControllerPS:GetBehaviourPitchAngle() end
 
 ---@return Float
-function SensorDeviceControllerPS:GetBehaviourRotationSpeed() return end
+function SensorDeviceControllerPS:GetBehaviourRotationSpeed() end
 
 ---@return Float
-function SensorDeviceControllerPS:GetBehaviourtimeToTakeAction() return end
+function SensorDeviceControllerPS:GetBehaviourtimeToTakeAction() end
 
 ---@return gameObject
-function SensorDeviceControllerPS:GetCurrentTarget() return end
+function SensorDeviceControllerPS:GetCurrentTarget() end
 
 ---@return entEntityID
-function SensorDeviceControllerPS:GetForcedTargetID() return end
+function SensorDeviceControllerPS:GetForcedTargetID() end
 
 ---@return gameEffectRef
-function SensorDeviceControllerPS:GetIdleActiveRef() return end
+function SensorDeviceControllerPS:GetIdleActiveRef() end
 
 ---@return gameEffectRef
-function SensorDeviceControllerPS:GetIdleFriendlyRef() return end
+function SensorDeviceControllerPS:GetIdleFriendlyRef() end
 
 ---@return ESensorDeviceWakeState
-function SensorDeviceControllerPS:GetInitialWakeState() return end
+function SensorDeviceControllerPS:GetInitialWakeState() end
 
 ---@return LinkedStatusEffect
-function SensorDeviceControllerPS:GetLinkedStatusEffect() return end
+function SensorDeviceControllerPS:GetLinkedStatusEffect() end
 
 ---@return TweakDBID
-function SensorDeviceControllerPS:GetLookAtPresetHor() return end
+function SensorDeviceControllerPS:GetLookAtPresetHor() end
 
 ---@return TweakDBID
-function SensorDeviceControllerPS:GetLookAtPresetVert() return end
+function SensorDeviceControllerPS:GetLookAtPresetVert() end
 
 ---@return entEntityID
-function SensorDeviceControllerPS:GetNetrunnerID() return end
+function SensorDeviceControllerPS:GetNetrunnerID() end
 
 ---@return entEntityID
-function SensorDeviceControllerPS:GetNetrunnerProxyID() return end
+function SensorDeviceControllerPS:GetNetrunnerProxyID() end
 
 ---@return entEntityID
-function SensorDeviceControllerPS:GetNetrunnerTargetID() return end
+function SensorDeviceControllerPS:GetNetrunnerTargetID() end
 
 ---@return entEntityID
-function SensorDeviceControllerPS:GetQuestSpotTargetID() return end
+function SensorDeviceControllerPS:GetQuestSpotTargetID() end
 
 ---@return gameEffectRef
-function SensorDeviceControllerPS:GetScanGameEffectRef() return end
+function SensorDeviceControllerPS:GetScanGameEffectRef() end
 
 ---@return gameEffectRef
-function SensorDeviceControllerPS:GetVisionConeEffectRef() return end
+function SensorDeviceControllerPS:GetVisionConeEffectRef() end
 
 ---@return gameEffectRef
-function SensorDeviceControllerPS:GetVisionConeFriendlyEffectRef() return end
+function SensorDeviceControllerPS:GetVisionConeFriendlyEffectRef() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IgnoreTargetTrackerComponent() return end
+function SensorDeviceControllerPS:IgnoreTargetTrackerComponent() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsAnyTargetLocked() return end
+function SensorDeviceControllerPS:IsAnyTargetLocked() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsAttitudeChanged() return end
-
----@protected
----@return Bool
-function SensorDeviceControllerPS:IsAttitudeFromContextHostile() return end
+function SensorDeviceControllerPS:IsAttitudeChanged() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsDetectingDebug() return end
+function SensorDeviceControllerPS:IsAttitudeFromContextHostile() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsIdleForced() return end
+function SensorDeviceControllerPS:IsDetectingDebug() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsInFollowMode() return end
+function SensorDeviceControllerPS:IsIdleForced() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsInTagKillMode() return end
+function SensorDeviceControllerPS:IsInFollowMode() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsNoTargetLocked() return end
+function SensorDeviceControllerPS:IsInTagKillMode() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsPartOfPrevention() return end
+function SensorDeviceControllerPS:IsNoTargetLocked() end
 
 ---@return Bool
-function SensorDeviceControllerPS:IsQuestTargetSpotted() return end
+function SensorDeviceControllerPS:IsPartOfPrevention() end
+
+---@return Bool
+function SensorDeviceControllerPS:IsQuestTargetSpotted() end
 
 ---@param doSee Bool
 ---@return nil
-function SensorDeviceControllerPS:NotifyAboutSpottingPlayer(doSee) return end
+function SensorDeviceControllerPS:NotifyAboutSpottingPlayer(doSee) end
 
 ---@param evt ForceIgnoreTargets
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnForceIgnoreTargets(evt) return end
+function SensorDeviceControllerPS:OnForceIgnoreTargets(evt) end
 
----@protected
 ---@param evt QuestFollowTarget
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestFollowTarget(evt) return end
+function SensorDeviceControllerPS:OnQuestFollowTarget(evt) end
 
----@protected
 ---@param evt QuestForceAttitude
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestForceAttitude(evt) return end
+function SensorDeviceControllerPS:OnQuestForceAttitude(evt) end
 
 ---@param evt QuestForceScanEffect
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestForceScanEffect(evt) return end
+function SensorDeviceControllerPS:OnQuestForceScanEffect(evt) end
 
 ---@param evt QuestForceScanEffectStop
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestForceScanEffectStop(evt) return end
+function SensorDeviceControllerPS:OnQuestForceScanEffectStop(evt) end
 
----@protected
 ---@param evt QuestForceStopTakeControlOverCamera
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestForceStopTakeControlOverCamera(evt) return end
+function SensorDeviceControllerPS:OnQuestForceStopTakeControlOverCamera(evt) end
 
----@protected
 ---@param evt QuestForceTakeControlOverCamera
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestForceTakeControlOverCamera(evt) return end
+function SensorDeviceControllerPS:OnQuestForceTakeControlOverCamera(evt) end
 
----@protected
 ---@param evt QuestForceTakeControlOverCameraWithChain
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestForceTakeControlOverCameraWithChain(evt) return end
+function SensorDeviceControllerPS:OnQuestForceTakeControlOverCameraWithChain(evt) end
 
----@protected
 ---@param evt QuestLookAtTarget
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestLookAtTarget(evt) return end
+function SensorDeviceControllerPS:OnQuestLookAtTarget(evt) end
 
----@protected
 ---@param evt QuestSetDetectionToFalse
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestSetDetectionToFalse(evt) return end
+function SensorDeviceControllerPS:OnQuestSetDetectionToFalse(evt) end
 
----@protected
 ---@param evt QuestSetDetectionToTrue
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestSetDetectionToTrue(evt) return end
+function SensorDeviceControllerPS:OnQuestSetDetectionToTrue(evt) end
 
----@protected
 ---@param evt QuestSpotTargetReference
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestSpotTargetReference(evt) return end
+function SensorDeviceControllerPS:OnQuestSpotTargetReference(evt) end
 
----@protected
 ---@param evt QuestStopFollowingTarget
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestStopFollowingTarget(evt) return end
+function SensorDeviceControllerPS:OnQuestStopFollowingTarget(evt) end
 
----@protected
 ---@param evt QuestStopLookAtTarget
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnQuestStopLookAtTarget(evt) return end
+function SensorDeviceControllerPS:OnQuestStopLookAtTarget(evt) end
 
 ---@param evt ReprimandUpdate
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnReprimandUpdate(evt) return end
+function SensorDeviceControllerPS:OnReprimandUpdate(evt) end
 
 ---@param evt RevealEnemiesProgram
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnRevealEnemiesProgram(evt) return end
+function SensorDeviceControllerPS:OnRevealEnemiesProgram(evt) end
 
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSecurityAreaCrossingPerimeter(evt) return end
+function SensorDeviceControllerPS:OnSecurityAreaCrossingPerimeter(evt) end
 
----@protected
 ---@param evt SecuritySystemDisabled
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSecuritySystemDisabled(evt) return end
+function SensorDeviceControllerPS:OnSecuritySystemDisabled(evt) end
 
----@protected
 ---@param evt SecuritySystemEnabled
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSecuritySystemEnabled(evt) return end
+function SensorDeviceControllerPS:OnSecuritySystemEnabled(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSecuritySystemOutput(evt) return end
+function SensorDeviceControllerPS:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt SecuritySystemSupport
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSecuritySystemSupport(evt) return end
+function SensorDeviceControllerPS:OnSecuritySystemSupport(evt) end
 
----@protected
 ---@param evt ReactoToPreventionSystem
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSecuritySystemSupport(evt) return end
+function SensorDeviceControllerPS:OnSecuritySystemSupport(evt) end
 
 ---@param evt SetAnyTargetIsLocked
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSetAnyTargetIsLocked(evt) return end
+function SensorDeviceControllerPS:OnSetAnyTargetIsLocked(evt) end
 
----@protected
 ---@param evt SetDeviceAttitude
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSetDeviceAttitude(evt) return end
+function SensorDeviceControllerPS:OnSetDeviceAttitude(evt) end
 
----@protected
 ---@param evt SetDeviceTagKillMode
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSetDeviceTagKillMode(evt) return end
+function SensorDeviceControllerPS:OnSetDeviceTagKillMode(evt) end
 
 ---@param evt SetQuestTargetWasSeen
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnSetQuestTargetWasSeen(evt) return end
+function SensorDeviceControllerPS:OnSetQuestTargetWasSeen(evt) end
 
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function SensorDeviceControllerPS:OnTargetAssessmentRequest(evt) return end
-
----@protected
----@return nil
-function SensorDeviceControllerPS:PerformRestart() return end
+function SensorDeviceControllerPS:OnTargetAssessmentRequest(evt) end
 
 ---@return nil
-function SensorDeviceControllerPS:QuestReleaseCurrentObject() return end
+function SensorDeviceControllerPS:PerformRestart() end
 
----@private
+---@return nil
+function SensorDeviceControllerPS:QuestReleaseCurrentObject() end
+
 ---@param shouldCreateChain Bool
 ---@return nil
-function SensorDeviceControllerPS:SendQuestTakeOverControlRequest(shouldCreateChain) return end
+function SensorDeviceControllerPS:SendQuestTakeOverControlRequest(shouldCreateChain) end
 
 ---@param value Bool
 ---@return nil
-function SensorDeviceControllerPS:SetCanDetectIntruders(value) return end
+function SensorDeviceControllerPS:SetCanDetectIntruders(value) end
 
 ---@param isChanged Bool
 ---@return nil
-function SensorDeviceControllerPS:SetIsAttitudeChanged(isChanged) return end
+function SensorDeviceControllerPS:SetIsAttitudeChanged(isChanged) end
 
 ---@param value Bool
 ---@return nil
-function SensorDeviceControllerPS:SetIsIdleForced(value) return end
+function SensorDeviceControllerPS:SetIsIdleForced(value) end
 
 ---@param value Bool
 ---@return nil
-function SensorDeviceControllerPS:SetIsInTagKillMode(value) return end
+function SensorDeviceControllerPS:SetIsInTagKillMode(value) end
 
 ---@param value LinkedStatusEffect
 ---@return nil
-function SensorDeviceControllerPS:SetLinkedStatusEffect(value) return end
+function SensorDeviceControllerPS:SetLinkedStatusEffect(value) end
 
 ---@param value entEntityID
 ---@return nil
-function SensorDeviceControllerPS:SetNetrunnerID(value) return end
+function SensorDeviceControllerPS:SetNetrunnerID(value) end
 
 ---@param value entEntityID
 ---@return nil
-function SensorDeviceControllerPS:SetNetrunnerProxyID(value) return end
+function SensorDeviceControllerPS:SetNetrunnerProxyID(value) end
 
 ---@param value entEntityID
 ---@return nil
-function SensorDeviceControllerPS:SetNetrunnerTargetID(value) return end
+function SensorDeviceControllerPS:SetNetrunnerTargetID(value) end
 
 ---@param value Bool
 ---@return nil
-function SensorDeviceControllerPS:SetQuestTargetSpotted(value) return end
+function SensorDeviceControllerPS:SetQuestTargetSpotted(value) end
 
 ---@param value Bool
 ---@return nil
-function SensorDeviceControllerPS:SetTagLockFromSystem(value) return end
+function SensorDeviceControllerPS:SetTagLockFromSystem(value) end
 
 ---@param value Bool
 ---@return nil
-function SensorDeviceControllerPS:SetTargetIsLocked(value) return end
+function SensorDeviceControllerPS:SetTargetIsLocked(value) end

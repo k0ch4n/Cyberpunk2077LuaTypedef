@@ -1,143 +1,142 @@
 ---@meta
 
 ---@class PreventionSystem: gameScriptableSystem
----@field private districtManager DistrictManager
----@field private agentRegistry PoliceAgentRegistry
----@field private ignoreSecurityAreasByQuest Bool
----@field private forceEternalGreyStars Bool
----@field private blockOnFootSpawnByQuest Bool
----@field private blockVehicleSpawnByQuest Bool
----@field private blockReconDroneSpawnByQuest Bool
----@field private crimeScoreMultiplierByQuest Float
----@field private preventionQuestEventSources CName[]
----@field private systemLockSources CName[]
----@field private systemEnabled Bool
----@field private player PlayerPuppet
----@field private preventionPreset gamedataDistrictPreventionData_Record
----@field private preventionDataMatrix gamedataPreventionHeatDataMatrix_Record
----@field private preventionDataTable gamedataPreventionHeatTable_Record
----@field private systemLocked Bool
----@field private nodeEventSources CName[]
----@field private heatStage EPreventionHeatStage
----@field private heatChangeReason String
----@field private ignoreSecurityAreas Bool
----@field private playerIsInSecurityArea gamePersistentID[]
----@field private playerIsInPreventionFreeArea Bool
----@field private policeSecuritySystems gamePersistentID[]
----@field private agentGroupsList PreventionAgents[]
----@field private lastKnownPosition Vector4
----@field private lastKnownVehicle vehicleBaseObject
----@field private districtMultiplier Float
----@field private shouldForceStarStateUIToActive Bool
----@field private lastAttackTime Float
----@field private lastAttackTargetIDs entEntityID[]
----@field private viewers gameObject[]
----@field private hasViewers Bool
----@field private starState EStarState
----@field private starStateUIChanged Bool
----@field private isPlayerMounted Bool
----@field private policeKnowsPlayerLocation Bool
----@field private isInitialSearchState Bool
----@field private heatLevelChanged Bool
----@field private playerCrossedBufferDistance Bool
----@field private crimescoreTimerDelayID gameDelayID
----@field private starStateBufferTimerDelayID gameDelayID
----@field private beliefAccuracyTimerDelayID gameDelayID
----@field private blinkingStatusDelayID gameDelayID
----@field private searchingStatusDelayID gameDelayID
----@field private transitionToGreyStateDelayID gameDelayID
----@field private policemenSpawnDelayID gameDelayID
----@field private securityAreaResetDelayID gameDelayID
----@field private inputlockDelayID gameDelayID
----@field private freeAreaResetDelayID gameDelayID
----@field private securityAreaResetCheck Bool
----@field private hadOngoingSpawnRequest Bool
----@field private totalCrimeScore Float
----@field private canSpawnFallbackEarly Bool
----@field private failsafePoliceRecordT1 TweakDBID
----@field private failsafePoliceRecordT2 TweakDBID
----@field private failsafePoliceRecordT3 TweakDBID
----@field private blinkReasonsStack CName[]
----@field private wantedBarBlackboard gameIBlackboard
----@field private onPlayerChoiceCallID redCallbackObject
----@field private playerAttachedCallbackID Uint32
----@field private playerDetachedCallbackID Uint32
----@field private playerHLSID redCallbackObject
----@field private playerVehicleStateID redCallbackObject
----@field private playerHLS gamePSMHighLevel
----@field private playerVehicleState gamePSMVehicle
----@field private unhandledInputsReceived Int32
----@field private preventionUnitKilledDuringLock Bool
----@field private previousHitTargetID entEntityID
----@field private previousHitAttackTime Float
----@field private reconPhaseEnabled Bool
----@field private reconDeployed Bool
----@field private reconDestroyed Bool
----@field private minHeatLevel EPreventionHeatStage
----@field private maxHeatLevel EPreventionHeatStage
----@field private defaultHeatLevels Bool
----@field private vehicleSpawnBlockSide EVehicleSpawnBlockSide
----@field private damageToPlayerMultiplier Float
----@field private chaseMultiplier Float
----@field private policeChaseBlackboard gameIBlackboard
----@field private blockShootingFromVehicle Bool
----@field private Debug_ProcessReason EPreventionDebugProcessReason
----@field private Debug_LastAttackType gamedataAttackType
----@field private Debug_LastDamageDealt Float
----@field private Debug_LastCrimeDistance Float
----@field private Debug_lastAVRequestedSpawnPosition Vector3
----@field private temp_const_false Bool
----@field private preventionTickCaller IntervalCaller
----@field private roadblockadeRespawnTickCaller IntervalCaller
----@field private maxtacTicketID Uint32
----@field private avSpawnPointList Vector3[]
----@field private maxAllowedDistanceToPlayer Float
----@field private lastAVRequestedSpawnPositionsArray Vector4[]
----@field private shouldPreventionUnitsStartRetreating Bool
----@field private numberOfMaxtacSquadsSpawned Int32
----@field private maxtacTroopBeingAliveTimeStamp Float
----@field private civilianVehicleDestructionCount Int32
----@field private lastCivilianVehicleDestructionTimeStamp Float
----@field private civilianVehicleDestructionThreshold Int32
----@field private civilianVehicleDestructionTimeout Float
----@field private vehicleSpawnTickCaller IntervalCaller
----@field private ressuplyVehicleTicketCaller IntervalCaller
----@field private isVehicleDelayOver Bool
----@field private currentVehicleTicketCount Int32
----@field private failedVehicleSpawnAttempts Int32
----@field private codeRedReinforcement Bool
----@field private lastStarChangeTimeStamp Float
----@field private firstStarTimeStamp Float
----@field private setCallRejectionIncrement Bool
+---@field districtManager DistrictManager
+---@field agentRegistry PoliceAgentRegistry
+---@field ignoreSecurityAreasByQuest Bool
+---@field forceEternalGreyStars Bool
+---@field blockOnFootSpawnByQuest Bool
+---@field blockVehicleSpawnByQuest Bool
+---@field blockReconDroneSpawnByQuest Bool
+---@field crimeScoreMultiplierByQuest Float
+---@field preventionQuestEventSources CName[]
+---@field systemLockSources CName[]
+---@field systemEnabled Bool
+---@field player PlayerPuppet
+---@field preventionPreset gamedataDistrictPreventionData_Record
+---@field preventionDataMatrix gamedataPreventionHeatDataMatrix_Record
+---@field preventionDataTable gamedataPreventionHeatTable_Record
+---@field systemLocked Bool
+---@field nodeEventSources CName[]
+---@field heatStage EPreventionHeatStage
+---@field heatChangeReason String
+---@field ignoreSecurityAreas Bool
+---@field playerIsInSecurityArea gamePersistentID[]
+---@field playerIsInPreventionFreeArea Bool
+---@field policeSecuritySystems gamePersistentID[]
+---@field agentGroupsList PreventionAgents[]
+---@field lastKnownPosition Vector4
+---@field lastKnownVehicle vehicleBaseObject
+---@field districtMultiplier Float
+---@field shouldForceStarStateUIToActive Bool
+---@field lastAttackTime Float
+---@field lastAttackTargetIDs entEntityID[]
+---@field viewers gameObject[]
+---@field hasViewers Bool
+---@field starState EStarState
+---@field starStateUIChanged Bool
+---@field isPlayerMounted Bool
+---@field policeKnowsPlayerLocation Bool
+---@field isInitialSearchState Bool
+---@field heatLevelChanged Bool
+---@field playerCrossedBufferDistance Bool
+---@field crimescoreTimerDelayID gameDelayID
+---@field starStateBufferTimerDelayID gameDelayID
+---@field beliefAccuracyTimerDelayID gameDelayID
+---@field blinkingStatusDelayID gameDelayID
+---@field searchingStatusDelayID gameDelayID
+---@field transitionToGreyStateDelayID gameDelayID
+---@field policemenSpawnDelayID gameDelayID
+---@field securityAreaResetDelayID gameDelayID
+---@field inputlockDelayID gameDelayID
+---@field freeAreaResetDelayID gameDelayID
+---@field securityAreaResetCheck Bool
+---@field hadOngoingSpawnRequest Bool
+---@field totalCrimeScore Float
+---@field canSpawnFallbackEarly Bool
+---@field failsafePoliceRecordT1 TweakDBID
+---@field failsafePoliceRecordT2 TweakDBID
+---@field failsafePoliceRecordT3 TweakDBID
+---@field blinkReasonsStack CName[]
+---@field wantedBarBlackboard gameIBlackboard
+---@field onPlayerChoiceCallID redCallbackObject
+---@field playerAttachedCallbackID Uint32
+---@field playerDetachedCallbackID Uint32
+---@field playerHLSID redCallbackObject
+---@field playerVehicleStateID redCallbackObject
+---@field playerHLS gamePSMHighLevel
+---@field playerVehicleState gamePSMVehicle
+---@field unhandledInputsReceived Int32
+---@field preventionUnitKilledDuringLock Bool
+---@field previousHitTargetID entEntityID
+---@field previousHitAttackTime Float
+---@field reconPhaseEnabled Bool
+---@field reconDeployed Bool
+---@field reconDestroyed Bool
+---@field minHeatLevel EPreventionHeatStage
+---@field maxHeatLevel EPreventionHeatStage
+---@field defaultHeatLevels Bool
+---@field vehicleSpawnBlockSide EVehicleSpawnBlockSide
+---@field damageToPlayerMultiplier Float
+---@field chaseMultiplier Float
+---@field policeChaseBlackboard gameIBlackboard
+---@field blockShootingFromVehicle Bool
+---@field Debug_ProcessReason EPreventionDebugProcessReason
+---@field Debug_LastAttackType gamedataAttackType
+---@field Debug_LastDamageDealt Float
+---@field Debug_LastCrimeDistance Float
+---@field Debug_lastAVRequestedSpawnPosition Vector3
+---@field temp_const_false Bool
+---@field preventionTickCaller IntervalCaller
+---@field roadblockadeRespawnTickCaller IntervalCaller
+---@field maxtacTicketID Uint32
+---@field avSpawnPointList Vector3[]
+---@field maxAllowedDistanceToPlayer Float
+---@field lastAVRequestedSpawnPositionsArray Vector4[]
+---@field shouldPreventionUnitsStartRetreating Bool
+---@field numberOfMaxtacSquadsSpawned Int32
+---@field maxtacTroopBeingAliveTimeStamp Float
+---@field civilianVehicleDestructionCount Int32
+---@field lastCivilianVehicleDestructionTimeStamp Float
+---@field civilianVehicleDestructionThreshold Int32
+---@field civilianVehicleDestructionTimeout Float
+---@field vehicleSpawnTickCaller IntervalCaller
+---@field ressuplyVehicleTicketCaller IntervalCaller
+---@field isVehicleDelayOver Bool
+---@field currentVehicleTicketCount Int32
+---@field failedVehicleSpawnAttempts Int32
+---@field codeRedReinforcement Bool
+---@field lastStarChangeTimeStamp Float
+---@field firstStarTimeStamp Float
+---@field setCallRejectionIncrement Bool
 PreventionSystem = {}
 
 ---@param fields? PreventionSystem
 ---@return PreventionSystem
-function PreventionSystem.new(fields) return end
+function PreventionSystem.new(fields) end
 
 ---@return Bool
-function PreventionSystem.CanPreventionReact() return end
+function PreventionSystem.CanPreventionReact() end
 
----@private
 ---@param vehicle vehicleWheeledBaseObject
 ---@return nil
-function PreventionSystem.ChasePlayer(vehicle) return end
+function PreventionSystem.ChasePlayer(vehicle) end
 
 ---@param entityID entEntityID
 ---@param spawnedTypeToCheck gameDynamicVehicleType
 ---@return Bool
-function PreventionSystem.CheckNPCSpawnedType(entityID, spawnedTypeToCheck) return end
+function PreventionSystem.CheckNPCSpawnedType(entityID, spawnedTypeToCheck) end
 
 ---@param requester gameObject
 ---@return nil
-function PreventionSystem.CombatStartedRequestToPreventionSystem(requester) return end
+function PreventionSystem.CombatStartedRequestToPreventionSystem(requester) end
 
 ---@param target gameObject
 ---@param attackType gamedataAttackType
 ---@param damageDealt Float
 ---@param isTargetKilled? Bool
 ---@return nil
-function PreventionSystem.CreateNewDamageRequest(target, attackType, damageDealt, isTargetKilled) return end
+function PreventionSystem.CreateNewDamageRequest(target, attackType, damageDealt, isTargetKilled) end
 
 ---@param target gameObject
 ---@param attackTime Float
@@ -145,1410 +144,1163 @@ function PreventionSystem.CreateNewDamageRequest(target, attackType, damageDealt
 ---@param damageDealt Float
 ---@param isTargetKilled Bool
 ---@return nil
-function PreventionSystem.CreateNewPreventionDamageRequest(target, attackTime, attackType, damageDealt, isTargetKilled) return end
+function PreventionSystem.CreateNewPreventionDamageRequest(target, attackTime, attackType, damageDealt, isTargetKilled) end
 
 ---@param criminalPosition Vector4
 ---@return nil
-function PreventionSystem.CrimeWitnessRequestToPreventionSystem(criminalPosition) return end
+function PreventionSystem.CrimeWitnessRequestToPreventionSystem(criminalPosition) end
 
 ---@param value Bool
 ---@return nil
-function PreventionSystem.ForceStarStateToActive(value) return end
+function PreventionSystem.ForceStarStateToActive(value) end
 
 ---@return PoliceAgentRegistry
-function PreventionSystem.GetAgentRegistry() return end
+function PreventionSystem.GetAgentRegistry() end
 
 ---@return Float
-function PreventionSystem.GetDamageReactionThreshold() return end
+function PreventionSystem.GetDamageReactionThreshold() end
 
 ---@return Float
-function PreventionSystem.GetDamageToPlayerMultiplier() return end
+function PreventionSystem.GetDamageToPlayerMultiplier() end
 
 ---@return vehicleBaseObject
-function PreventionSystem.GetLastKnownPlayerVehicle() return end
+function PreventionSystem.GetLastKnownPlayerVehicle() end
 
 ---@return gamedataPreventionHeatTable_Record
-function PreventionSystem.GetPreventionHeatTableRecord() return end
+function PreventionSystem.GetPreventionHeatTableRecord() end
 
 ---@return CName
-function PreventionSystem.GetPreventionQuestDisabledFactName() return end
+function PreventionSystem.GetPreventionQuestDisabledFactName() end
 
 ---@return CName
-function PreventionSystem.GetPreventionQuestDisabledGenericQuestReason() return end
+function PreventionSystem.GetPreventionQuestDisabledGenericQuestReason() end
 
 ---@return CName
-function PreventionSystem.GetPreventionQuestDisabledTweakContentTag() return end
+function PreventionSystem.GetPreventionQuestDisabledTweakContentTag() end
 
 ---@return CName
-function PreventionSystem.GetSystemName() return end
+function PreventionSystem.GetSystemName() end
 
 ---@return Bool
-function PreventionSystem.IsChasingPlayer() return end
+function PreventionSystem.IsChasingPlayer() end
 
 ---@return Bool
-function PreventionSystem.IsPlayerInAPoliceCarChase() return end
+function PreventionSystem.IsPlayerInAPoliceCarChase() end
 
 ---@param owner gamePuppet
 ---@return Bool
-function PreventionSystem.IsPreventionMaxTac(owner) return end
+function PreventionSystem.IsPreventionMaxTac(owner) end
 
----@private
 ---@param wheeledVehicleObject vehicleWheeledBaseObject
 ---@param strat vehiclePoliceStrategy
 ---@return nil
-function PreventionSystem.LogChaseVehicleInitBehaviorError(wheeledVehicleObject, strat) return end
+function PreventionSystem.LogChaseVehicleInitBehaviorError(wheeledVehicleObject, strat) end
 
 ---@param owner gameObject
 ---@return nil
-function PreventionSystem.NotifyPolice(owner) return end
+function PreventionSystem.NotifyPolice(owner) end
 
 ---@param veh vehicleBaseObject
 ---@return nil
-function PreventionSystem.NotifyVehicleExplosion(veh) return end
+function PreventionSystem.NotifyVehicleExplosion(veh) end
 
 ---@param securitySystemID gamePersistentID
 ---@return nil
-function PreventionSystem.PreventionPoliceSecuritySystemRequest(securitySystemID) return end
+function PreventionSystem.PreventionPoliceSecuritySystemRequest(securitySystemID) end
 
 ---@param playerIsIn Bool
 ---@param areaID gamePersistentID
 ---@return nil
-function PreventionSystem.PreventionSecurityAreaEnterRequest(playerIsIn, areaID) return end
+function PreventionSystem.PreventionSecurityAreaEnterRequest(playerIsIn, areaID) end
 
 ---@param request gameScriptableSystemRequest
 ---@param delay? Float
 ---@return Bool
-function PreventionSystem.QueueRequest(request, delay) return end
+function PreventionSystem.QueueRequest(request, delay) end
 
 ---@param requester gameObject
 ---@return nil
-function PreventionSystem.RegisterAsViewerToPreventionSystem(requester) return end
+function PreventionSystem.RegisterAsViewerToPreventionSystem(requester) end
 
 ---@param requester Device
 ---@return nil
-function PreventionSystem.RegisterToPreventionSystem(requester) return end
+function PreventionSystem.RegisterToPreventionSystem(requester) end
 
 ---@param value Vector4
 ---@return nil
-function PreventionSystem.SetLastKnownPlayerPosition(value) return end
+function PreventionSystem.SetLastKnownPlayerPosition(value) end
 
 ---@param value vehicleBaseObject
 ---@return nil
-function PreventionSystem.SetLastKnownPlayerVehicle(value) return end
+function PreventionSystem.SetLastKnownPlayerVehicle(value) end
 
 ---@param value Bool
 ---@return nil
-function PreventionSystem.SetPlayerMounted(value) return end
+function PreventionSystem.SetPlayerMounted(value) end
 
 ---@param shouldSpawnReinforcement Bool
 ---@return nil
-function PreventionSystem.SetSpawnCodeRedReinforcement(shouldSpawnReinforcement) return end
+function PreventionSystem.SetSpawnCodeRedReinforcement(shouldSpawnReinforcement) end
 
 ---@param target gameObject
 ---@param attackTime Float
 ---@param istargetDefeated Bool
 ---@return Bool
-function PreventionSystem.ShouldPreventionSystemReactToAttack(target, attackTime, istargetDefeated) return end
+function PreventionSystem.ShouldPreventionSystemReactToAttack(target, attackTime, istargetDefeated) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function PreventionSystem.ShouldPreventionSystemReactToCombat(puppet) return end
+function PreventionSystem.ShouldPreventionSystemReactToCombat(puppet) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function PreventionSystem.ShouldPreventionSystemReactToDamageDealt(puppet) return end
+function PreventionSystem.ShouldPreventionSystemReactToDamageDealt(puppet) end
 
 ---@return Bool
-function PreventionSystem.ShouldReactionBeAgressive() return end
+function PreventionSystem.ShouldReactionBeAgressive() end
 
 ---@param message String
 ---@param time Float
 ---@return nil
-function PreventionSystem.ShowMessage(message, time) return end
+function PreventionSystem.ShowMessage(message, time) end
 
 ---@param wheeledVehicleObject vehicleWheeledBaseObject
 ---@return nil
-function PreventionSystem.StartActiveVehicleBehaviour(wheeledVehicleObject) return end
+function PreventionSystem.StartActiveVehicleBehaviour(wheeledVehicleObject) end
 
----@private
 ---@param vehicle vehicleWheeledBaseObject
 ---@return Bool
-function PreventionSystem.StartDriveToPoint(vehicle) return end
+function PreventionSystem.StartDriveToPoint(vehicle) end
 
----@private
 ---@param vehicle vehicleWheeledBaseObject
 ---@param ps PreventionSystem
 ---@return nil
-function PreventionSystem.StartPatrol(vehicle, ps) return end
+function PreventionSystem.StartPatrol(vehicle, ps) end
 
 ---@param unit ScriptedPuppet
 ---@return nil
-function PreventionSystem.StartRoadblockNPCAgentBehaviour(unit) return end
+function PreventionSystem.StartRoadblockNPCAgentBehaviour(unit) end
 
 ---@param requester gameObject
 ---@return nil
-function PreventionSystem.UnRegisterAsViewerToPreventionSystem(requester) return end
+function PreventionSystem.UnRegisterAsViewerToPreventionSystem(requester) end
 
 ---@param requester Device
 ---@return nil
-function PreventionSystem.UnRegisterToPreventionSystem(requester) return end
+function PreventionSystem.UnRegisterToPreventionSystem(requester) end
 
 ---@return nil
-function PreventionSystem.UseCWMask() return end
+function PreventionSystem.UseCWMask() end
 
----@private
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function PreventionSystem.VehicleRegistered(vehicle) return end
+function PreventionSystem.VehicleRegistered(vehicle) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function PreventionSystem:OnPlayerChoice(value) return end
+function PreventionSystem:OnPlayerChoice(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PreventionSystem:OnPlayerHLSChange(value) return end
+function PreventionSystem:OnPlayerHLSChange(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PreventionSystem:OnPlayerVehicleStateChange(value) return end
+function PreventionSystem:OnPlayerVehicleStateChange(value) end
 
 ---@return Bool
-function PreventionSystem:AreTurretsActive() return end
+function PreventionSystem:AreTurretsActive() end
 
----@private
 ---@param request PreventionDamageRequest
 ---@return nil
-function PreventionSystem:CalculateCrimeScoreForNPC(request) return end
+function PreventionSystem:CalculateCrimeScoreForNPC(request) end
 
----@private
 ---@param request PreventionDamageRequest
 ---@return nil
-function PreventionSystem:CalculateCrimeScoreForVehicle(request) return end
+function PreventionSystem:CalculateCrimeScoreForVehicle(request) end
 
 ---@return Bool
-function PreventionSystem:CanPreventionReactToInput() return end
+function PreventionSystem:CanPreventionReactToInput() end
 
----@private
 ---@return Bool
-function PreventionSystem:CanRequestAVSpawn() return end
+function PreventionSystem:CanRequestAVSpawn() end
 
----@private
 ---@param playerPosition Vector4
 ---@param position Vector4
 ---@return Bool
-function PreventionSystem:CanSpawnAvAtPosition(playerPosition, position) return end
+function PreventionSystem:CanSpawnAvAtPosition(playerPosition, position) end
 
----@private
 ---@return nil
-function PreventionSystem:CancelAllDelayedEvents() return end
+function PreventionSystem:CancelAllDelayedEvents() end
 
----@private
 ---@return nil
-function PreventionSystem:CancelAllIntervalCallers() return end
+function PreventionSystem:CancelAllIntervalCallers() end
 
----@private
 ---@return nil
-function PreventionSystem:CancelBlinkingTimerRequest() return end
+function PreventionSystem:CancelBlinkingTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:CancelCrimescoreDropTimerRequest() return end
+function PreventionSystem:CancelCrimescoreDropTimerRequest() end
 
----@private
 ---@return Bool
-function PreventionSystem:CancelNPCSpawnDelay() return end
+function PreventionSystem:CancelNPCSpawnDelay() end
 
----@private
 ---@return nil
-function PreventionSystem:CancelSearchingTimerRequest() return end
+function PreventionSystem:CancelSearchingTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:CancelSecurityAreaResetRequest() return end
+function PreventionSystem:CancelSecurityAreaResetRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:CancelStateBufferTimerRequest() return end
+function PreventionSystem:CancelStateBufferTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:CancelTransitiontoGreyStateTimerRequest() return end
+function PreventionSystem:CancelTransitiontoGreyStateTimerRequest() end
 
----@private
 ---@param desiredAffiliation EAIAttitude
 ---@return nil
-function PreventionSystem:ChangeAgentsAttitude(desiredAffiliation) return end
+function PreventionSystem:ChangeAgentsAttitude(desiredAffiliation) end
 
----@private
 ---@param owner gameObject
 ---@param target gameObject
 ---@param desiredAttitude EAIAttitude
 ---@return nil
-function PreventionSystem:ChangeAttitude(owner, target, desiredAttitude) return end
+function PreventionSystem:ChangeAttitude(owner, target, desiredAttitude) end
 
----@private
 ---@param newHeatStage EPreventionHeatStage
 ---@param heatChangeReason String
 ---@return nil
-function PreventionSystem:ChangeHeatStage(newHeatStage, heatChangeReason) return end
+function PreventionSystem:ChangeHeatStage(newHeatStage, heatChangeReason) end
 
----@private
 ---@return nil
-function PreventionSystem:CheckLastMaxTacAlone() return end
+function PreventionSystem:CheckLastMaxTacAlone() end
 
----@private
 ---@return nil
-function PreventionSystem:CheckPlayerDistanceToLKP() return end
+function PreventionSystem:CheckPlayerDistanceToLKP() end
 
----@private
 ---@return nil
-function PreventionSystem:CheckPossibleSpawnPosAndRequestAVSpawn() return end
+function PreventionSystem:CheckPossibleSpawnPosAndRequestAVSpawn() end
 
----@protected
 ---@return nil
-function PreventionSystem:ClearLastAttackTargetIDs() return end
+function PreventionSystem:ClearLastAttackTargetIDs() end
 
----@private
 ---@param newHeatStageEnum EPreventionHeatStage
 ---@return Uint32
-function PreventionSystem:ComputeTotalCrimeScoreForTelemetry(newHeatStageEnum) return end
+function PreventionSystem:ComputeTotalCrimeScoreForTelemetry(newHeatStageEnum) end
 
----@private
 ---@param strategy vehiclePoliceStrategy
 ---@return vehicleBaseStrategyRequest
-function PreventionSystem:CreateStrategyRequest(strategy) return end
+function PreventionSystem:CreateStrategyRequest(strategy) end
 
----@private
 ---@return nil
-function PreventionSystem:DamageChange() return end
+function PreventionSystem:DamageChange() end
 
----@private
 ---@return Int32
-function PreventionSystem:DebugGetCivilianDestroyedVehicleCount() return end
+function PreventionSystem:DebugGetCivilianDestroyedVehicleCount() end
 
----@private
 ---@param useAggressiveDespawn Bool
 ---@return nil
-function PreventionSystem:DespawnAllPolice(useAggressiveDespawn) return end
+function PreventionSystem:DespawnAllPolice(useAggressiveDespawn) end
 
 ---@return nil, gamePreventionSystemDebugData dataToFill
-function PreventionSystem:FillPreventionSystemDebugData() return end
+function PreventionSystem:FillPreventionSystemDebugData() end
 
----@private
 ---@return PoliceAgentRegistry
-function PreventionSystem:GetAgentRegistry() return end
+function PreventionSystem:GetAgentRegistry() end
 
----@private
 ---@param pool gamedataPreventionUnitPoolData_Record[]
 ---@return Bool, TweakDBID recordID
-function PreventionSystem:GetCharacterRecordFromPool(pool) return end
+function PreventionSystem:GetCharacterRecordFromPool(pool) end
 
----@private
 ---@param recordsCount Int32
 ---@param pool gamedataPreventionUnitPoolData_Record[]
 ---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
-function PreventionSystem:GetCharacterRecordsFromPool(recordsCount, pool, recordIDs) return end
+function PreventionSystem:GetCharacterRecordsFromPool(recordsCount, pool, recordIDs) end
 
 ---@return District
-function PreventionSystem:GetCurrentDistrict() return end
+function PreventionSystem:GetCurrentDistrict() end
 
 ---@return Float
-function PreventionSystem:GetDamageToPlayerMultiplier() return end
+function PreventionSystem:GetDamageToPlayerMultiplier() end
 
----@private
 ---@param heatStage EPreventionHeatStage
 ---@param characterRecords TweakDBID[]|string[]
 ---@return Bool, Vector2 spawnRange, Uint32 unitsCount, Float spawnInterval, Bool hasRecon
-function PreventionSystem:GetDataTableForCurrentHeat(heatStage, characterRecords) return end
+function PreventionSystem:GetDataTableForCurrentHeat(heatStage, characterRecords) end
 
----@private
 ---@return nil
-function PreventionSystem:GetDataTableForCurrentHeat() return end
+function PreventionSystem:GetDataTableForCurrentHeat() end
 
----@private
 ---@param heatStage EPreventionHeatStage
 ---@return gamedataPreventionHeatTable_Record
-function PreventionSystem:GetDataTableForHeat(heatStage) return end
+function PreventionSystem:GetDataTableForHeat(heatStage) end
 
----@private
 ---@return Float
-function PreventionSystem:GetDistrictMultiplier() return end
+function PreventionSystem:GetDistrictMultiplier() end
 
----@private
 ---@return nil, Vector4 pos, Vector4 dir
-function PreventionSystem:GetFindSpawnPointsOrigin() return end
+function PreventionSystem:GetFindSpawnPointsOrigin() end
 
----@private
 ---@param spawnOriginsPositions Vector4[]
 ---@return nil
-function PreventionSystem:GetFindSpawnPointsOriginsData(spawnOriginsPositions) return end
+function PreventionSystem:GetFindSpawnPointsOriginsData(spawnOriginsPositions) end
 
 ---@return Float
-function PreventionSystem:GetFirstStarTimeStamp() return end
+function PreventionSystem:GetFirstStarTimeStamp() end
 
 ---@return ScriptGameInstance
-function PreventionSystem:GetGame() return end
+function PreventionSystem:GetGame() end
 
----@private
 ---@return gamedataPreventionHeatData_Record
-function PreventionSystem:GetHeatData() return end
+function PreventionSystem:GetHeatData() end
 
 ---@return EPreventionHeatStage
-function PreventionSystem:GetHeatStage() return end
+function PreventionSystem:GetHeatStage() end
 
 ---@return Uint32
-function PreventionSystem:GetHeatStageAsInt() return end
+function PreventionSystem:GetHeatStageAsInt() end
 
 ---@return Int32
-function PreventionSystem:GetInputLockOverrideThreshold() return end
+function PreventionSystem:GetInputLockOverrideThreshold() end
 
 ---@return entEntityID[]
-function PreventionSystem:GetLastAttackTargetIDs() return end
+function PreventionSystem:GetLastAttackTargetIDs() end
 
 ---@return Float
-function PreventionSystem:GetLastAttackTime() return end
+function PreventionSystem:GetLastAttackTime() end
 
 ---@return Vector4
-function PreventionSystem:GetLastKnownPlayerPosition() return end
+function PreventionSystem:GetLastKnownPlayerPosition() end
 
 ---@return vehicleBaseObject
-function PreventionSystem:GetLastKnownPlayerVehicle() return end
+function PreventionSystem:GetLastKnownPlayerVehicle() end
 
 ---@return Float
-function PreventionSystem:GetLastStarChangeStartTimeStamp() return end
+function PreventionSystem:GetLastStarChangeStartTimeStamp() end
 
----@private
 ---@return nil
-function PreventionSystem:GetNewBatchMaxTacSpawnPositions() return end
+function PreventionSystem:GetNewBatchMaxTacSpawnPositions() end
 
 ---@return PlayerPuppet
-function PreventionSystem:GetPlayer() return end
+function PreventionSystem:GetPlayer() end
 
----@private
 ---@param district District
 ---@return nil
-function PreventionSystem:GetPreventionDataForCurrentDistrict(district) return end
+function PreventionSystem:GetPreventionDataForCurrentDistrict(district) end
 
 ---@return Float
-function PreventionSystem:GetPreventionInputLockTime() return end
+function PreventionSystem:GetPreventionInputLockTime() end
 
----@private
 ---@param district District
 ---@return nil
-function PreventionSystem:GetPreventionMatrixPresetForCurrentDistrict(district) return end
-
----@private
----@return Float
-function PreventionSystem:GetSoftDeescalationBlinkingStarsDuration() return end
-
----@private
----@return Float
-function PreventionSystem:GetSoftDeescalationGreyStarsDuration() return end
+function PreventionSystem:GetPreventionMatrixPresetForCurrentDistrict(district) end
 
 ---@return Float
-function PreventionSystem:GetSpawnOriginMaxDistance() return end
+function PreventionSystem:GetSoftDeescalationBlinkingStarsDuration() end
+
+---@return Float
+function PreventionSystem:GetSoftDeescalationGreyStarsDuration() end
+
+---@return Float
+function PreventionSystem:GetSpawnOriginMaxDistance() end
 
 ---@return EStarState
-function PreventionSystem:GetStarState() return end
+function PreventionSystem:GetStarState() end
 
----@private
 ---@param pool gamedataPreventionVehiclePoolData_Record[]
 ---@return Bool, gamedataVehicle_Record outVehicleRecord
-function PreventionSystem:GetVehicleRecordFromPool(pool) return end
+function PreventionSystem:GetVehicleRecordFromPool(pool) end
 
----@private
 ---@return Int32
-function PreventionSystem:GetWantedLevelFact() return end
+function PreventionSystem:GetWantedLevelFact() end
 
----@private
 ---@param sourceName CName|string
 ---@param tryRemoveLock Bool
 ---@return nil
-function PreventionSystem:HandleDebugEventSourceTracking(sourceName, tryRemoveLock) return end
+function PreventionSystem:HandleDebugEventSourceTracking(sourceName, tryRemoveLock) end
 
----@private
 ---@param spawnedObject gameObject
 ---@return nil
-function PreventionSystem:HandleRoadblockadeUnitSpawned(spawnedObject) return end
+function PreventionSystem:HandleRoadblockadeUnitSpawned(spawnedObject) end
 
----@private
 ---@param result gameSpawnRequestResult
 ---@param ticketData TicketData
 ---@return nil
-function PreventionSystem:HandleSpawnRequestFailure(result, ticketData) return end
+function PreventionSystem:HandleSpawnRequestFailure(result, ticketData) end
 
----@private
 ---@param result gameSpawnRequestResult
 ---@param ticketData TicketData
 ---@return nil
-function PreventionSystem:HandleSpawnRequestSuccess(result, ticketData) return end
+function PreventionSystem:HandleSpawnRequestSuccess(result, ticketData) end
 
----@private
 ---@param currentViewerState Bool
 ---@return nil
-function PreventionSystem:HasViewersChanged(currentViewerState) return end
+function PreventionSystem:HasViewersChanged(currentViewerState) end
 
----@private
 ---@param heatChangeReason String
 ---@return nil
-function PreventionSystem:HeatPipeline(heatChangeReason) return end
-
----@private
----@return Bool
-function PreventionSystem:IsAnyVehicleChasingTarget() return end
+function PreventionSystem:HeatPipeline(heatChangeReason) end
 
 ---@return Bool
-function PreventionSystem:IsChasingPlayer() return end
+function PreventionSystem:IsAnyVehicleChasingTarget() end
 
----@private
+---@return Bool
+function PreventionSystem:IsChasingPlayer() end
+
 ---@param range Vector2
 ---@return Bool
-function PreventionSystem:IsDistanceRangeValid(range) return end
+function PreventionSystem:IsDistanceRangeValid(range) end
 
 ---@return Bool
-function PreventionSystem:IsMaxTacDefeated() return end
+function PreventionSystem:IsMaxTacDefeated() end
 
----@private
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function PreventionSystem:IsNPCValid(puppet) return end
-
----@private
----@return Bool
-function PreventionSystem:IsPlayerCloseToLastCrimePosition() return end
-
----@private
----@return Bool
-function PreventionSystem:IsPlayerInQuestArea() return end
+function PreventionSystem:IsNPCValid(puppet) end
 
 ---@return Bool
-function PreventionSystem:IsPlayerMounted() return end
+function PreventionSystem:IsPlayerCloseToLastCrimePosition() end
 
 ---@return Bool
-function PreventionSystem:IsPoliceUnawareOfThePlayerExactLocation() return end
+function PreventionSystem:IsPlayerInQuestArea() end
 
----@private
 ---@return Bool
-function PreventionSystem:IsPreventionGlobalQuestObjectiveEnabled() return end
+function PreventionSystem:IsPlayerMounted() end
 
----@private
 ---@return Bool
-function PreventionSystem:IsPreventionInputLocked() return end
+function PreventionSystem:IsPoliceUnawareOfThePlayerExactLocation() end
 
----@private
 ---@return Bool
-function PreventionSystem:IsPursuedVehicleFast() return end
+function PreventionSystem:IsPreventionGlobalQuestObjectiveEnabled() end
+
+---@return Bool
+function PreventionSystem:IsPreventionInputLocked() end
+
+---@return Bool
+function PreventionSystem:IsPursuedVehicleFast() end
 
 ---@param entityID entEntityID
 ---@return Bool
-function PreventionSystem:IsRegistered(entityID) return end
-
----@private
----@return Bool
-function PreventionSystem:IsSavingLocked() return end
+function PreventionSystem:IsRegistered(entityID) end
 
 ---@return Bool
-function PreventionSystem:IsShootingFromVehicleBlocked() return end
+function PreventionSystem:IsSavingLocked() end
 
----@private
+---@return Bool
+function PreventionSystem:IsShootingFromVehicleBlocked() end
+
 ---@param strategy vehiclePoliceStrategy
 ---@return Bool
-function PreventionSystem:IsStrategyAvailable(strategy) return end
+function PreventionSystem:IsStrategyAvailable(strategy) end
 
 ---@return Bool
-function PreventionSystem:IsSystemEnabled() return end
+function PreventionSystem:IsSystemEnabled() end
 
 ---@return Bool
-function PreventionSystem:IsSystemLocked() return end
+function PreventionSystem:IsSystemLocked() end
 
----@private
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function PreventionSystem:IsVehicleValid(vehicle) return end
+function PreventionSystem:IsVehicleValid(vehicle) end
 
----@private
 ---@return nil
-function PreventionSystem:OnAttach() return end
+function PreventionSystem:OnAttach() end
 
----@private
 ---@param evt ClearPreventionSystemLocks
 ---@return nil
-function PreventionSystem:OnClearPreventionSystemLocks(evt) return end
+function PreventionSystem:OnClearPreventionSystemLocks(evt) end
 
----@protected
 ---@param request PreventionCombatStartedRequest
 ---@return nil
-function PreventionSystem:OnCombatStartedRequest(request) return end
+function PreventionSystem:OnCombatStartedRequest(request) end
 
----@protected
 ---@param request PreventionCrimeWitnessRequest
 ---@return nil
-function PreventionSystem:OnCrimeWitnessRequest(request) return end
+function PreventionSystem:OnCrimeWitnessRequest(request) end
 
----@protected
 ---@param request PreventionDamageRequest
 ---@return nil
-function PreventionSystem:OnDamageInput(request) return end
+function PreventionSystem:OnDamageInput(request) end
 
----@private
 ---@return nil
-function PreventionSystem:OnDetach() return end
+function PreventionSystem:OnDetach() end
 
----@private
 ---@param request gamemappinsDistrictEnteredEvent
 ---@return nil
-function PreventionSystem:OnDistrictAreaEntered(request) return end
+function PreventionSystem:OnDistrictAreaEntered(request) end
 
----@private
 ---@param previousHeat EPreventionHeatStage
 ---@return nil
-function PreventionSystem:OnHeatChanged(previousHeat) return end
+function PreventionSystem:OnHeatChanged(previousHeat) end
 
----@private
 ---@param evt PreventionBlinkingStatusRequest
 ---@return nil
-function PreventionSystem:OnPreventionBlinkingStatusRequest(evt) return end
+function PreventionSystem:OnPreventionBlinkingStatusRequest(evt) end
 
----@protected
 ---@param request PreventionConsoleInstructionRequest
 ---@return nil
-function PreventionSystem:OnPreventionConsoleInstructionRequest(request) return end
+function PreventionSystem:OnPreventionConsoleInstructionRequest(request) end
 
----@protected
 ---@param request PreventionConsoleLockRequest
 ---@return nil
-function PreventionSystem:OnPreventionConsoleLockRequest(request) return end
+function PreventionSystem:OnPreventionConsoleLockRequest(request) end
 
----@private
 ---@param request PreventionCrimeScoreZeroRequest
 ---@return nil
-function PreventionSystem:OnPreventionCrimeScoreZeroRequest(request) return end
+function PreventionSystem:OnPreventionCrimeScoreZeroRequest(request) end
 
----@protected
 ---@param evt PreventionDamage
 ---@return nil
-function PreventionSystem:OnPreventionDamage(evt) return end
+function PreventionSystem:OnPreventionDamage(evt) end
 
----@private
 ---@param destroyedEntityID entEntityID
 ---@return nil
-function PreventionSystem:OnPreventionEntityDestroyed(destroyedEntityID) return end
+function PreventionSystem:OnPreventionEntityDestroyed(destroyedEntityID) end
 
----@private
 ---@param evt PreventionForceDeescalateRequest
 ---@return nil
-function PreventionSystem:OnPreventionForceDeescalateRequest(evt) return end
+function PreventionSystem:OnPreventionForceDeescalateRequest(evt) end
 
----@protected
 ---@param request PreventionMinMaxHeatLevels
 ---@return nil
-function PreventionSystem:OnPreventionMinMaxHeatLevels(request) return end
+function PreventionSystem:OnPreventionMinMaxHeatLevels(request) end
 
----@protected
 ---@param request PreventionPoliceSecuritySystemRequest
 ---@return nil
-function PreventionSystem:OnPreventionPoliceSecuritySystemRequest(request) return end
+function PreventionSystem:OnPreventionPoliceSecuritySystemRequest(request) end
 
----@private
 ---@param evt PreventionSearchingStatusRequest
 ---@return nil
-function PreventionSystem:OnPreventionSearchingStatusRequest(evt) return end
+function PreventionSystem:OnPreventionSearchingStatusRequest(evt) end
 
----@protected
 ---@param request PreventionSecurityAreaRequest
 ---@return nil
-function PreventionSystem:OnPreventionSecurityAreaRequest(request) return end
+function PreventionSystem:OnPreventionSecurityAreaRequest(request) end
 
----@private
 ---@param evt PreventionStarStateBufferTimerRequest
 ---@return nil
-function PreventionSystem:OnPreventionStarStateBufferTimerRequest(evt) return end
+function PreventionSystem:OnPreventionStarStateBufferTimerRequest(evt) end
 
----@private
 ---@param request PreventionTickRequest
 ---@return nil
-function PreventionSystem:OnPreventionTickRequest(request) return end
+function PreventionSystem:OnPreventionTickRequest(request) end
 
----@private
 ---@param evt PreventionTransitionToGreyStateTimerRequest
 ---@return nil
-function PreventionSystem:OnPreventionTransitionToGreyStateTimerRequest(evt) return end
+function PreventionSystem:OnPreventionTransitionToGreyStateTimerRequest(evt) end
 
----@private
 ---@param request PreventionUnitDespawnedRequest
 ---@return nil
-function PreventionSystem:OnPreventionUnitDespawnedRequest(request) return end
+function PreventionSystem:OnPreventionUnitDespawnedRequest(request) end
 
----@private
 ---@param request PreventionUnitSpawnedRequest
 ---@return nil
-function PreventionSystem:OnPreventionUnitSpawnedRequest(request) return end
+function PreventionSystem:OnPreventionUnitSpawnedRequest(request) end
 
----@private
 ---@param evt RefreshDeescalationTimers
 ---@return nil
-function PreventionSystem:OnRefreshDeescalationTimers(evt) return end
+function PreventionSystem:OnRefreshDeescalationTimers(evt) end
 
----@private
 ---@param request RefreshDistrictRequest
 ---@return nil
-function PreventionSystem:OnRefreshDistrict(request) return end
+function PreventionSystem:OnRefreshDistrict(request) end
 
----@private
 ---@param request RegisterNPCRequest
 ---@return nil
-function PreventionSystem:OnRegisterNPC(request) return end
+function PreventionSystem:OnRegisterNPC(request) end
 
----@protected
 ---@param request PreventionRegisterRequest
 ---@return nil
-function PreventionSystem:OnRegisterRequest(request) return end
+function PreventionSystem:OnRegisterRequest(request) end
 
----@private
 ---@param req RemoveRecentAvSpawnLocationFromCacheRequest
 ---@return nil
-function PreventionSystem:OnRemoveRecentAvSpawnLocationFromCacheRequest(req) return end
+function PreventionSystem:OnRemoveRecentAvSpawnLocationFromCacheRequest(req) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function PreventionSystem:OnRestored(saveVersion, gameVersion) return end
+function PreventionSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param evt ResupplyVehicleTicketsRequest
 ---@return nil
-function PreventionSystem:OnResupplyVehicleTicketsRequest(evt) return end
+function PreventionSystem:OnResupplyVehicleTicketsRequest(evt) end
 
----@private
 ---@param request SecurityAreaResetRequest
 ---@return nil
-function PreventionSystem:OnSecurityAreaResetRequest(request) return end
+function PreventionSystem:OnSecurityAreaResetRequest(request) end
 
----@private
 ---@param evt SetBlockShootingFromVehicle
 ---@return nil
-function PreventionSystem:OnSetBlockShootingFromVehicle(evt) return end
+function PreventionSystem:OnSetBlockShootingFromVehicle(evt) end
 
----@private
 ---@param evt SetHeatCounterMultiplier
 ---@return nil
-function PreventionSystem:OnSetHeatCounterMultiplier(evt) return end
+function PreventionSystem:OnSetHeatCounterMultiplier(evt) end
 
----@private
 ---@param evt SetHeatLevelLimiter
 ---@return nil
-function PreventionSystem:OnSetHeatLevelLimiter(evt) return end
+function PreventionSystem:OnSetHeatLevelLimiter(evt) end
 
----@private
 ---@param evt SetPoliceForcesPool
 ---@return nil
-function PreventionSystem:OnSetPoliceForcesPool(evt) return end
+function PreventionSystem:OnSetPoliceForcesPool(evt) end
 
----@private
 ---@param evt SetPoliceSearchArea
 ---@return nil
-function PreventionSystem:OnSetPoliceSearchArea(evt) return end
+function PreventionSystem:OnSetPoliceSearchArea(evt) end
 
----@private
 ---@param evt SetPreventionDifficulty
 ---@return nil
-function PreventionSystem:OnSetPreventionDifficulty(evt) return end
+function PreventionSystem:OnSetPreventionDifficulty(evt) end
 
----@private
 ---@param evt SetPreventionPath
 ---@return nil
-function PreventionSystem:OnSetPreventionPath(evt) return end
+function PreventionSystem:OnSetPreventionPath(evt) end
 
----@private
 ---@param evt SetWantedLevel
 ---@return nil
-function PreventionSystem:OnSetWantedLevel(evt) return end
+function PreventionSystem:OnSetWantedLevel(evt) end
 
----@private
 ---@param evt SpawnPoliceVehicleWithDelayRequest
 ---@return nil
-function PreventionSystem:OnSpawnPoliceVehicleRequest(evt) return end
+function PreventionSystem:OnSpawnPoliceVehicleRequest(evt) end
 
----@private
 ---@param evt SpawnRoadblockadeWithDelayRequest
 ---@return nil
-function PreventionSystem:OnSpawnRoadblockRequest(evt) return end
+function PreventionSystem:OnSpawnRoadblockRequest(evt) end
 
----@private
 ---@param evt ToggleBlockSceneInteractions
 ---@return nil
-function PreventionSystem:OnToggleBlockSceneInteractions(evt) return end
+function PreventionSystem:OnToggleBlockSceneInteractions(evt) end
 
----@private
 ---@param evt TogglePreventionCrowdSpawns
 ---@return nil
-function PreventionSystem:OnTogglePreventionCrowdSpawns(evt) return end
+function PreventionSystem:OnTogglePreventionCrowdSpawns(evt) end
 
----@private
 ---@param evt TogglePreventionFreeArea
 ---@return nil
-function PreventionSystem:OnTogglePreventionFreeArea(evt) return end
+function PreventionSystem:OnTogglePreventionFreeArea(evt) end
 
----@private
 ---@param evt TogglePreventionGlobalQuestObjective
 ---@return nil
-function PreventionSystem:OnTogglePreventionGlobalQuestObjective(evt) return end
+function PreventionSystem:OnTogglePreventionGlobalQuestObjective(evt) end
 
----@private
 ---@param evt TogglePreventionSystem
 ---@return nil
-function PreventionSystem:OnTogglePreventionSystem(evt) return end
+function PreventionSystem:OnTogglePreventionSystem(evt) end
 
----@private
 ---@param evt ToggleQuestPreventionTrigger
 ---@return nil
-function PreventionSystem:OnToggleQuestPreventionTrigger(evt) return end
+function PreventionSystem:OnToggleQuestPreventionTrigger(evt) end
 
----@protected
 ---@param request TryResetPreventionFreeArea
 ---@return nil
-function PreventionSystem:OnTryResetPreventionFreeArea(request) return end
+function PreventionSystem:OnTryResetPreventionFreeArea(request) end
 
----@private
 ---@param request UnlockPreventionInputRequest
 ---@return nil
-function PreventionSystem:OnUnlockPreventionInputRequest(request) return end
+function PreventionSystem:OnUnlockPreventionInputRequest(request) end
 
----@private
 ---@return nil
-function PreventionSystem:OnVehicleExplosion() return end
+function PreventionSystem:OnVehicleExplosion() end
 
----@protected
 ---@param request PreventionVehicleStolenRequest
 ---@return nil
-function PreventionSystem:OnVehicleStolenRequest(request) return end
+function PreventionSystem:OnVehicleStolenRequest(request) end
 
----@protected
 ---@param request PreventionVisibilityRequest
 ---@return nil
-function PreventionSystem:OnViewerRequest(request) return end
+function PreventionSystem:OnViewerRequest(request) end
 
----@private
 ---@return nil
-function PreventionSystem:OnViewersStateChanged() return end
+function PreventionSystem:OnViewersStateChanged() end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function PreventionSystem:PlayerAttachedCallback(playerPuppet) return end
+function PreventionSystem:PlayerAttachedCallback(playerPuppet) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function PreventionSystem:PlayerDetachedCallback(playerPuppet) return end
+function PreventionSystem:PlayerDetachedCallback(playerPuppet) end
 
----@private
 ---@return nil
-function PreventionSystem:PoliceLostPlayer() return end
+function PreventionSystem:PoliceLostPlayer() end
 
----@private
 ---@param request PreventionDamageRequest
 ---@return nil
-function PreventionSystem:PostDamageChange(request) return end
+function PreventionSystem:PostDamageChange(request) end
 
----@private
 ---@return nil
-function PreventionSystem:PreDamageChange() return end
+function PreventionSystem:PreDamageChange() end
 
----@private
 ---@return nil
-function PreventionSystem:PreventionInputLockRequest() return end
+function PreventionSystem:PreventionInputLockRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:PreventionMinimapOverride() return end
+function PreventionSystem:PreventionMinimapOverride() end
 
----@private
 ---@return nil
-function PreventionSystem:ProcessDogtownLawAchievement() return end
+function PreventionSystem:ProcessDogtownLawAchievement() end
 
----@private
 ---@param request PreventionDamageRequest
 ---@return nil
-function PreventionSystem:ProcessPreventionDamageRequest(request) return end
+function PreventionSystem:ProcessPreventionDamageRequest(request) end
 
----@private
 ---@return Bool
-function PreventionSystem:ReachedEngagedVehiclesLimit() return end
+function PreventionSystem:ReachedEngagedVehiclesLimit() end
 
----@private
 ---@return Bool
-function PreventionSystem:ReachedRoadblockLimit() return end
+function PreventionSystem:ReachedRoadblockLimit() end
 
----@private
 ---@return Bool
-function PreventionSystem:ReachedSupportVehiclesLimit() return end
+function PreventionSystem:ReachedSupportVehiclesLimit() end
 
----@private
 ---@return Bool
-function PreventionSystem:ReachedTotalVehiclesLimit() return end
+function PreventionSystem:ReachedTotalVehiclesLimit() end
 
----@private
 ---@return nil
-function PreventionSystem:ReevaluateSecurityAreaReset() return end
+function PreventionSystem:ReevaluateSecurityAreaReset() end
 
----@private
 ---@return nil
-function PreventionSystem:ReevaluttatePreventionLockSources() return end
+function PreventionSystem:ReevaluttatePreventionLockSources() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebug() return end
+function PreventionSystem:RefreshDebug() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebugDistrictInfo() return end
+function PreventionSystem:RefreshDebugDistrictInfo() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebugEventSources() return end
+function PreventionSystem:RefreshDebugEventSources() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebugEvents() return end
+function PreventionSystem:RefreshDebugEvents() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebugLockSources() return end
+function PreventionSystem:RefreshDebugLockSources() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebugProcessInfo() return end
+function PreventionSystem:RefreshDebugProcessInfo() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebugRemoveAllLockSources() return end
+function PreventionSystem:RefreshDebugRemoveAllLockSources() end
 
----@private
 ---@return nil
-function PreventionSystem:RefreshDebugSecAreaInfo() return end
+function PreventionSystem:RefreshDebugSecAreaInfo() end
 
----@private
 ---@param attitudeGroup CName|string
 ---@param ps gamePersistentState
 ---@return nil
-function PreventionSystem:Register(attitudeGroup, ps) return end
+function PreventionSystem:Register(attitudeGroup, ps) end
 
----@private
 ---@param preventionUnit gameObject
 ---@param vehicleType gameDynamicVehicleType
 ---@param overrideExisting Bool
 ---@param strategy? vehiclePoliceStrategy
 ---@param isFallback? Bool
 ---@return Bool
-function PreventionSystem:RegisterPreventionUnit(preventionUnit, vehicleType, overrideExisting, strategy, isFallback) return end
+function PreventionSystem:RegisterPreventionUnit(preventionUnit, vehicleType, overrideExisting, strategy, isFallback) end
 
----@private
 ---@return nil
-function PreventionSystem:RegisterToBBCalls() return end
+function PreventionSystem:RegisterToBBCalls() end
 
----@private
 ---@return nil
-function PreventionSystem:ReinitAll() return end
+function PreventionSystem:ReinitAll() end
 
----@private
 ---@return nil
-function PreventionSystem:RemovePlayerFromSecuritySystemBlacklist() return end
+function PreventionSystem:RemovePlayerFromSecuritySystemBlacklist() end
 
----@private
 ---@return nil
-function PreventionSystem:RemovePreventionInputLockRequest() return end
+function PreventionSystem:RemovePreventionInputLockRequest() end
 
----@private
 ---@param position Vector3
 ---@return nil
-function PreventionSystem:RequestAVSpawnAtPosition(position) return end
+function PreventionSystem:RequestAVSpawnAtPosition(position) end
 
----@private
 ---@param recordID TweakDBID|string
 ---@param spawnTransform WorldTransform
 ---@return nil
-function PreventionSystem:RequestUnitSpawn(recordID, spawnTransform) return end
+function PreventionSystem:RequestUnitSpawn(recordID, spawnTransform) end
 
----@private
 ---@return nil
-function PreventionSystem:ResetBlinkingTimerRequest() return end
+function PreventionSystem:ResetBlinkingTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:ResetCrimescoreDropTimerRequest() return end
+function PreventionSystem:ResetCrimescoreDropTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:ResetSearchingTimerRequest() return end
+function PreventionSystem:ResetSearchingTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:ResetStateBufferTimerRequest() return end
+function PreventionSystem:ResetStateBufferTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:ResetTransitiontoGreyStateTimerRequest() return end
+function PreventionSystem:ResetTransitiontoGreyStateTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:RestoreDefaultConfig() return end
+function PreventionSystem:RestoreDefaultConfig() end
 
----@private
 ---@return nil
-function PreventionSystem:RestoreDefaultPreset() return end
+function PreventionSystem:RestoreDefaultPreset() end
 
----@private
 ---@return nil
-function PreventionSystem:RestoreDefaultPreventionMatrixPreset() return end
+function PreventionSystem:RestoreDefaultPreventionMatrixPreset() end
 
----@private
 ---@return nil
-function PreventionSystem:RestoreMinimapToDefault() return end
+function PreventionSystem:RestoreMinimapToDefault() end
 
----@private
 ---@param strategyDataRec gamedataStrategyData_Record
 ---@return Vector2
-function PreventionSystem:SelectRange(strategyDataRec) return end
+function PreventionSystem:SelectRange(strategyDataRec) end
 
----@private
 ---@param isEnabled Bool
 ---@return nil
-function PreventionSystem:SendDropPointLockRequest(isEnabled) return end
+function PreventionSystem:SendDropPointLockRequest(isEnabled) end
 
----@private
 ---@param damageDealt Float
 ---@param heatStage? EPreventionHeatStage
 ---@return nil
-function PreventionSystem:SendInternalSystem(damageDealt, heatStage) return end
+function PreventionSystem:SendInternalSystem(damageDealt, heatStage) end
 
----@private
 ---@param hasSupport Bool
 ---@return nil
-function PreventionSystem:SetAgentsSupport(hasSupport) return end
+function PreventionSystem:SetAgentsSupport(hasSupport) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PreventionSystem:SetBlockOnFootSpawn(value) return end
+function PreventionSystem:SetBlockOnFootSpawn(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PreventionSystem:SetBlockReconDroneSpawn(value) return end
+function PreventionSystem:SetBlockReconDroneSpawn(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PreventionSystem:SetBlockShootingFromVehicle(value) return end
+function PreventionSystem:SetBlockShootingFromVehicle(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PreventionSystem:SetBlockVehicleSpawn(value) return end
+function PreventionSystem:SetBlockVehicleSpawn(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function PreventionSystem:SetChaseMultiplier(value) return end
+function PreventionSystem:SetChaseMultiplier(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function PreventionSystem:SetCrimeScoreMultiplier(value) return end
+function PreventionSystem:SetCrimeScoreMultiplier(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function PreventionSystem:SetDamageToPlayerMultiplier(value) return end
+function PreventionSystem:SetDamageToPlayerMultiplier(value) end
 
----@private
 ---@param isPlayerMounted Bool
 ---@return nil
-function PreventionSystem:SetIsPlayerMounted(isPlayerMounted) return end
+function PreventionSystem:SetIsPlayerMounted(isPlayerMounted) end
 
----@protected
 ---@param value Float
 ---@return nil
-function PreventionSystem:SetLastAttackTime(value) return end
+function PreventionSystem:SetLastAttackTime(value) end
 
----@protected
 ---@param value Vector4
 ---@return nil
-function PreventionSystem:SetLastKnownPlayerPosition(value) return end
+function PreventionSystem:SetLastKnownPlayerPosition(value) end
 
----@protected
 ---@param MinLevel Int32
 ---@param MaxLevel Int32
 ---@param isDefault Bool
 ---@return nil
-function PreventionSystem:SetMinMaxResetHeatLevels(MinLevel, MaxLevel, isDefault) return end
+function PreventionSystem:SetMinMaxResetHeatLevels(MinLevel, MaxLevel, isDefault) end
 
----@private
 ---@param ps gamePersistentState
 ---@param hasSupport Bool
 ---@return nil
-function PreventionSystem:SetSingleAgentSupport(ps, hasSupport) return end
+function PreventionSystem:SetSingleAgentSupport(ps, hasSupport) end
 
----@protected
 ---@param newState EStarState
 ---@return nil
-function PreventionSystem:SetStarStateUI(newState) return end
+function PreventionSystem:SetStarStateUI(newState) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function PreventionSystem:SetSystemLock(value) return end
+function PreventionSystem:SetSystemLock(value) end
 
----@protected
 ---@param value EVehicleSpawnBlockSide
 ---@return nil
-function PreventionSystem:SetVehicleSpawnBlockSide(value) return end
+function PreventionSystem:SetVehicleSpawnBlockSide(value) end
 
----@private
 ---@param level Int32
 ---@return nil
-function PreventionSystem:SetWantedLevelFact(level) return end
+function PreventionSystem:SetWantedLevelFact(level) end
 
----@private
 ---@param state EStarState
 ---@return nil
-function PreventionSystem:SetWantedStateFact(state) return end
+function PreventionSystem:SetWantedStateFact(state) end
 
 ---@return Bool
-function PreventionSystem:ShouldPreventionUnitsRetreat() return end
+function PreventionSystem:ShouldPreventionUnitsRetreat() end
 
 ---@return Bool
-function PreventionSystem:ShouldReactionBeAggressive() return end
+function PreventionSystem:ShouldReactionBeAggressive() end
 
----@private
 ---@return Bool
-function PreventionSystem:ShouldSpawnPatrolVehicleWhenInSearch() return end
+function PreventionSystem:ShouldSpawnPatrolVehicleWhenInSearch() end
 
----@private
 ---@return Bool
-function PreventionSystem:ShouldSpawnRoadblockade() return end
+function PreventionSystem:ShouldSpawnRoadblockade() end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool
-function PreventionSystem:ShouldWorkSpotPoliceJoinChase(puppet) return end
+function PreventionSystem:ShouldWorkSpotPoliceJoinChase(puppet) end
 
----@private
 ---@param spawnPoints Vector3[]
 ---@param characterRecords TweakDBID[]|string[]
 ---@param unitCount Uint32
 ---@return Int32
-function PreventionSystem:SpawnFallbackUnits(spawnPoints, characterRecords, unitCount) return end
+function PreventionSystem:SpawnFallbackUnits(spawnPoints, characterRecords, unitCount) end
 
----@private
 ---@return nil
-function PreventionSystem:SpawnPipeline() return end
+function PreventionSystem:SpawnPipeline() end
 
----@private
 ---@return Uint32
-function PreventionSystem:SpawnPoliceVehicle() return end
+function PreventionSystem:SpawnPoliceVehicle() end
 
----@private
 ---@param heatStage EPreventionHeatStage
 ---@return nil
-function PreventionSystem:SpawnRoadblockade(heatStage) return end
+function PreventionSystem:SpawnRoadblockade(heatStage) end
 
----@private
 ---@param spawnPoints Vector3[]
 ---@param characterRecords TweakDBID[]|string[]
 ---@param unitCount Uint32
 ---@return Bool, Int32 sentRequests
-function PreventionSystem:SpawnUnits(spawnPoints, characterRecords, unitCount) return end
+function PreventionSystem:SpawnUnits(spawnPoints, characterRecords, unitCount) end
 
----@private
 ---@return nil
-function PreventionSystem:StartBlinkingTimerRequest() return end
+function PreventionSystem:StartBlinkingTimerRequest() end
 
----@private
 ---@param duration Float
 ---@param lockWhileBlinking Bool
 ---@param telemetryInfo String
 ---@return nil
-function PreventionSystem:StartBlinkingTimerRequest(duration, lockWhileBlinking, telemetryInfo) return end
+function PreventionSystem:StartBlinkingTimerRequest(duration, lockWhileBlinking, telemetryInfo) end
 
----@private
 ---@return nil
-function PreventionSystem:StartCrimescoreDropTimerRequest() return end
+function PreventionSystem:StartCrimescoreDropTimerRequest() end
 
----@private
 ---@param request PreventionDamageRequest
 ---@return nil
-function PreventionSystem:StartPipeline(request) return end
+function PreventionSystem:StartPipeline(request) end
 
----@private
 ---@return nil
-function PreventionSystem:StartPreventionFreeAreaReset() return end
+function PreventionSystem:StartPreventionFreeAreaReset() end
 
----@private
 ---@return nil
-function PreventionSystem:StartSearchingTimerRequest() return end
+function PreventionSystem:StartSearchingTimerRequest() end
 
----@private
 ---@param resetDelay? Float
 ---@return nil
-function PreventionSystem:StartSecurityAreaResetRequest(resetDelay) return end
+function PreventionSystem:StartSecurityAreaResetRequest(resetDelay) end
 
----@private
 ---@return nil
-function PreventionSystem:StartStateBufferTimerRequest() return end
+function PreventionSystem:StartStateBufferTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:StartTransitiontoGreyStateTimerRequest() return end
+function PreventionSystem:StartTransitiontoGreyStateTimerRequest() end
 
----@private
 ---@param vehicle vehicleBaseObject
 ---@return nil
-function PreventionSystem:StartVehicleDeescalationBehavior(vehicle) return end
+function PreventionSystem:StartVehicleDeescalationBehavior(vehicle) end
 
----@private
 ---@return nil
-function PreventionSystem:SyncTweakDistrictData() return end
+function PreventionSystem:SyncTweakDistrictData() end
 
----@private
 ---@param preventionGlobalQuestDisabled Bool
 ---@param eventSource CName|string
 ---@return nil
-function PreventionSystem:TogglePreventionGlobalQuestObjective_Internal(preventionGlobalQuestDisabled, eventSource) return end
+function PreventionSystem:TogglePreventionGlobalQuestObjective_Internal(preventionGlobalQuestDisabled, eventSource) end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function PreventionSystem:TogglePreventionSystem(toggle) return end
+function PreventionSystem:TogglePreventionSystem(toggle) end
 
----@private
 ---@param requestResult gameAVSpawnPointsRequestResult
 ---@return nil
-function PreventionSystem:TryGetAVSpawnPointsCallback(requestResult) return end
+function PreventionSystem:TryGetAVSpawnPointsCallback(requestResult) end
 
----@private
 ---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
-function PreventionSystem:TryGetDistinctUnitDataFromHeatStage(recordIDs) return end
+function PreventionSystem:TryGetDistinctUnitDataFromHeatStage(recordIDs) end
 
 ---@param entityID entEntityID
 ---@return Bool, Bool markedForDespawn
-function PreventionSystem:TryGetNPCMarkedForDespawnAI(entityID) return end
+function PreventionSystem:TryGetNPCMarkedForDespawnAI(entityID) end
 
----@private
 ---@param heatStage EPreventionHeatStage
 ---@return Bool, gamedataVehicle_Record outVehicleRecord, Vector2 spawnDistanceRange
-function PreventionSystem:TryGetRoadblockDataFromHeatStage(heatStage) return end
+function PreventionSystem:TryGetRoadblockDataFromHeatStage(heatStage) end
 
----@private
 ---@param heatStage EPreventionHeatStage
 ---@param recordsCount Int32
 ---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
-function PreventionSystem:TryGetUnitDataFromHeatStage(heatStage, recordsCount, recordIDs) return end
+function PreventionSystem:TryGetUnitDataFromHeatStage(heatStage, recordsCount, recordIDs) end
 
----@private
 ---@param vehicleRecord gamedataVehicle_Record
 ---@param recordsCount Int32
 ---@param recordIDs TweakDBID[]|string[]
 ---@return Bool
-function PreventionSystem:TryGetUnitDataFromVehicleRecord(vehicleRecord, recordsCount, recordIDs) return end
+function PreventionSystem:TryGetUnitDataFromVehicleRecord(vehicleRecord, recordsCount, recordIDs) end
 
----@private
 ---@param heatStage EPreventionHeatStage
 ---@return Bool, gamedataVehicle_Record outVehicleRecord
-function PreventionSystem:TryGetVehicleDataFromHeatStage(heatStage) return end
+function PreventionSystem:TryGetVehicleDataFromHeatStage(heatStage) end
 
----@private
 ---@return nil
-function PreventionSystem:TryInitializePreventionTick() return end
+function PreventionSystem:TryInitializePreventionTick() end
 
----@private
 ---@param targetId entEntityID
 ---@return Bool
-function PreventionSystem:TryMarkAsAttackedByPlayer(targetId) return end
+function PreventionSystem:TryMarkAsAttackedByPlayer(targetId) end
 
----@private
 ---@return Bool
-function PreventionSystem:TryRequestVehicleSpawnWithStrategy() return end
+function PreventionSystem:TryRequestVehicleSpawnWithStrategy() end
 
----@private
 ---@return nil
-function PreventionSystem:TryResolveIndefiniteStarState() return end
+function PreventionSystem:TryResolveIndefiniteStarState() end
 
----@private
 ---@return nil
-function PreventionSystem:TryRessuplyVehicleTickets() return end
+function PreventionSystem:TryRessuplyVehicleTickets() end
 
----@private
 ---@return nil
-function PreventionSystem:TryResupplyTicket() return end
+function PreventionSystem:TryResupplyTicket() end
 
 ---@param entityID entEntityID
 ---@param markedForDespawn Bool
 ---@return Bool
-function PreventionSystem:TrySetNPCMarkedForDespawnAI(entityID, markedForDespawn) return end
+function PreventionSystem:TrySetNPCMarkedForDespawnAI(entityID, markedForDespawn) end
 
----@private
 ---@param system gamePreventionSpawnSystem
 ---@return Bool
-function PreventionSystem:TrySpawnOnFootFallbackBasedOnRoadInfo(system) return end
+function PreventionSystem:TrySpawnOnFootFallbackBasedOnRoadInfo(system) end
 
----@private
 ---@return nil
-function PreventionSystem:TrySpawnPoliceOnFootFallback() return end
+function PreventionSystem:TrySpawnPoliceOnFootFallback() end
 
----@private
 ---@return nil
-function PreventionSystem:TryStartRoadblockRespawn() return end
+function PreventionSystem:TryStartRoadblockRespawn() end
 
----@private
 ---@return nil
-function PreventionSystem:TryStartVehicleRespawn() return end
+function PreventionSystem:TryStartVehicleRespawn() end
 
----@private
 ---@return nil
-function PreventionSystem:TryUpdateStarState() return end
+function PreventionSystem:TryUpdateStarState() end
 
----@private
 ---@return nil
-function PreventionSystem:TryUpdateWantedLevelFact() return end
+function PreventionSystem:TryUpdateWantedLevelFact() end
 
----@private
 ---@return nil
-function PreventionSystem:TutorialAddPoliceSystemFact() return end
+function PreventionSystem:TutorialAddPoliceSystemFact() end
 
----@private
 ---@param attitudeGroup CName|string
 ---@param ps gamePersistentState
 ---@return nil
-function PreventionSystem:UnRegister(attitudeGroup, ps) return end
+function PreventionSystem:UnRegister(attitudeGroup, ps) end
 
----@private
 ---@return nil
-function PreventionSystem:UnregisterBBCalls() return end
+function PreventionSystem:UnregisterBBCalls() end
 
----@private
 ---@param entityID entEntityID
 ---@return nil
-function PreventionSystem:UnregisterPreventionUnit(entityID) return end
+function PreventionSystem:UnregisterPreventionUnit(entityID) end
 
----@private
 ---@param district District
 ---@return nil
-function PreventionSystem:UpdateDataMatrixOnDistrictChange(district) return end
+function PreventionSystem:UpdateDataMatrixOnDistrictChange(district) end
 
----@protected
 ---@param value entEntityID
 ---@return nil
-function PreventionSystem:UpdateLastAttackTargetIDs(value) return end
+function PreventionSystem:UpdateLastAttackTargetIDs(value) end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateMaxTacUnits() return end
+function PreventionSystem:UpdateMaxTacUnits() end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateNPCs() return end
+function PreventionSystem:UpdateNPCs() end
 
----@private
 ---@param isPlayerInFreeArea Bool
 ---@return nil
-function PreventionSystem:UpdatePreventionFreeAreas(isPlayerInFreeArea) return end
+function PreventionSystem:UpdatePreventionFreeAreas(isPlayerInFreeArea) end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateRoadblockadeUnits() return end
+function PreventionSystem:UpdateRoadblockadeUnits() end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateSearchingTimerRequest() return end
+function PreventionSystem:UpdateSearchingTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateStarState() return end
+function PreventionSystem:UpdateStarState() end
 
----@private
 ---@param state EStarState
 ---@return nil
-function PreventionSystem:UpdateStarStateTimers(state) return end
+function PreventionSystem:UpdateStarStateTimers(state) end
 
----@private
 ---@param state EStarState
 ---@return nil
-function PreventionSystem:UpdateStarStateTo(state) return end
+function PreventionSystem:UpdateStarStateTo(state) end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateStateBufferTimerRequest() return end
+function PreventionSystem:UpdateStateBufferTimerRequest() end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateStrategyPreCheckRequests() return end
+function PreventionSystem:UpdateStrategyPreCheckRequests() end
 
----@private
 ---@param request PreventionDamageRequest
 ---@return nil
-function PreventionSystem:UpdateTotalCrimeScore(request) return end
+function PreventionSystem:UpdateTotalCrimeScore(request) end
 
 ---@param entityID entEntityID
 ---@param passengersCount Int32
 ---@return nil
-function PreventionSystem:UpdateVehiclePassengerCount(entityID, passengersCount) return end
+function PreventionSystem:UpdateVehiclePassengerCount(entityID, passengersCount) end
 
----@private
 ---@return nil
-function PreventionSystem:UpdateVehicles() return end
+function PreventionSystem:UpdateVehicles() end
 
----@private
 ---@return Bool
-function PreventionSystem:UpdateViewers() return end
+function PreventionSystem:UpdateViewers() end
 
----@private
 ---@return Bool
-function PreventionSystem:UseOffTrafficPoints() return end
+function PreventionSystem:UseOffTrafficPoints() end
 
----@private
 ---@param viewer gameObject
 ---@return nil
-function PreventionSystem:ViewerRegister(viewer) return end
+function PreventionSystem:ViewerRegister(viewer) end
 
----@private
 ---@param viewer gameObject
 ---@return nil
-function PreventionSystem:ViewerUnRegister(viewer) return end
+function PreventionSystem:ViewerUnRegister(viewer) end
 
----@private
 ---@param ps gamePersistentState
 ---@param wakeUp Bool
 ---@return nil
-function PreventionSystem:WakeUpAgent(ps, wakeUp) return end
+function PreventionSystem:WakeUpAgent(ps, wakeUp) end
 
----@private
 ---@param wakeUp Bool
 ---@return nil
-function PreventionSystem:WakeUpAllAgents(wakeUp) return end
+function PreventionSystem:WakeUpAllAgents(wakeUp) end
 
----@private
 ---@param heatStage? EPreventionHeatStage
 ---@return nil
-function PreventionSystem:execInstructionActive(heatStage) return end
+function PreventionSystem:execInstructionActive(heatStage) end
 
----@private
 ---@return nil
-function PreventionSystem:execInstructionOff() return end
+function PreventionSystem:execInstructionOff() end
 
----@private
 ---@return nil
-function PreventionSystem:execInstructionOn() return end
+function PreventionSystem:execInstructionOn() end
 
----@private
 ---@param heatChangeReason String
 ---@return nil
-function PreventionSystem:execInstructionSafe(heatChangeReason) return end
+function PreventionSystem:execInstructionSafe(heatChangeReason) end

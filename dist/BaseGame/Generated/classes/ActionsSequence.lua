@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ActionsSequence
----@field public sequenceInitiator entEntityID
----@field public maxActionsInSequence Int32
----@field public actionsTriggeredCount Int32
----@field public delayIDs gameDelayID[]
+---@field sequenceInitiator entEntityID
+---@field maxActionsInSequence Int32
+---@field actionsTriggeredCount Int32
+---@field delayIDs gameDelayID[]
 ActionsSequence = {}
 
 ---@param fields? ActionsSequence
 ---@return ActionsSequence
-function ActionsSequence.new(fields) return end
+function ActionsSequence.new(fields) end

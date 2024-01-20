@@ -5,19 +5,19 @@ DriverCombatDecisions = {}
 
 ---@param fields? DriverCombatDecisions
 ---@return DriverCombatDecisions
-function DriverCombatDecisions.new(fields) return end
+function DriverCombatDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DriverCombatDecisions:ToCombatExiting(stateContext, scriptInterface) return end
+function DriverCombatDecisions:ToCombatExiting(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DriverCombatDecisions:ToDriveCondition(stateContext, scriptInterface) return end
+function DriverCombatDecisions:ToDriveCondition(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DriverCombatDecisions:ToSwitchSeats(stateContext, scriptInterface) return end
+function DriverCombatDecisions:ToSwitchSeats(stateContext, scriptInterface) end

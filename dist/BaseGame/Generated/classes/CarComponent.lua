@@ -5,4 +5,4 @@ CarComponent = {}
 
 ---@param fields? CarComponent
 ---@return CarComponent
-function CarComponent.new(fields) return end
+function CarComponent.new(fields) end

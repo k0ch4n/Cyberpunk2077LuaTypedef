@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldHeatmapLayer: CResource
----@field public minValue Uint32
----@field public maxValue Uint32
----@field public name String
----@field public units String
----@field public invert Bool
+---@field minValue Uint32
+---@field maxValue Uint32
+---@field name String
+---@field units String
+---@field invert Bool
 worldHeatmapLayer = {}
 
 ---@param fields? worldHeatmapLayer
 ---@return worldHeatmapLayer
-function worldHeatmapLayer.new(fields) return end
+function worldHeatmapLayer.new(fields) end

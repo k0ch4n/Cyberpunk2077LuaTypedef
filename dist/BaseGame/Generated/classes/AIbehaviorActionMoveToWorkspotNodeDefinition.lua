@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class AIbehaviorActionMoveToWorkspotNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public workspotSetup AIArgumentMapping
----@field public lookAtTarget AIArgumentMapping
----@field public movementType AIArgumentMapping
----@field public tolerance AIArgumentMapping
----@field public ignoreNavigation AIArgumentMapping
----@field public rotateEntity AIArgumentMapping
----@field public useStart AIArgumentMapping
----@field public spotReservation AIArgumentMapping
----@field public startTangent AIArgumentMapping
----@field public fastForwardAfterTeleport AIArgumentMapping
----@field public ignoreExploration AIArgumentMapping
----@field public failWhenStoppedByCollision AIArgumentMapping
+---@field workspotSetup AIArgumentMapping
+---@field lookAtTarget AIArgumentMapping
+---@field movementType AIArgumentMapping
+---@field tolerance AIArgumentMapping
+---@field ignoreNavigation AIArgumentMapping
+---@field rotateEntity AIArgumentMapping
+---@field useStart AIArgumentMapping
+---@field spotReservation AIArgumentMapping
+---@field startTangent AIArgumentMapping
+---@field fastForwardAfterTeleport AIArgumentMapping
+---@field ignoreExploration AIArgumentMapping
+---@field failWhenStoppedByCollision AIArgumentMapping
 AIbehaviorActionMoveToWorkspotNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionMoveToWorkspotNodeDefinition
 ---@return AIbehaviorActionMoveToWorkspotNodeDefinition
-function AIbehaviorActionMoveToWorkspotNodeDefinition.new(fields) return end
+function AIbehaviorActionMoveToWorkspotNodeDefinition.new(fields) end

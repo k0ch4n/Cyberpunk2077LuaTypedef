@@ -5,7 +5,7 @@ RoboticArmsController = {}
 
 ---@param fields? RoboticArmsController
 ---@return RoboticArmsController
-function RoboticArmsController.new(fields) return end
+function RoboticArmsController.new(fields) end
 
 ---@return RoboticArmsControllerPS
-function RoboticArmsController:GetPS() return end
+function RoboticArmsController:GetPS() end

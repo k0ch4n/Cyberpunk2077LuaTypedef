@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkLanguageSpecificVideoController: inkWidgetLogicController
----@field public isLooped Bool
----@field public specificVideoForLanguage Bink
----@field public languages inkLanguageId[]
----@field public fallbackVideo Bink
+---@field isLooped Bool
+---@field specificVideoForLanguage Bink
+---@field languages inkLanguageId[]
+---@field fallbackVideo Bink
 inkLanguageSpecificVideoController = {}
 
 ---@param fields? inkLanguageSpecificVideoController
 ---@return inkLanguageSpecificVideoController
-function inkLanguageSpecificVideoController.new(fields) return end
+function inkLanguageSpecificVideoController.new(fields) end

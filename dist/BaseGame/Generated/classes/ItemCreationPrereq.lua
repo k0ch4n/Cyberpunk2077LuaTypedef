@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class ItemCreationPrereq: gameIScriptablePrereq
----@field public fireAndForget Bool
----@field public statType gamedataStatType
----@field public valueToCheck Float
----@field public comparisonType EComparisonType
+---@field fireAndForget Bool
+---@field statType gamedataStatType
+---@field valueToCheck Float
+---@field comparisonType EComparisonType
 ItemCreationPrereq = {}
 
 ---@param fields? ItemCreationPrereq
 ---@return ItemCreationPrereq
-function ItemCreationPrereq.new(fields) return end
+function ItemCreationPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ItemCreationPrereq:Initialize(recordID) return end
+function ItemCreationPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function ItemCreationPrereq:IsFulfilled(context) return end
+function ItemCreationPrereq:IsFulfilled(context) end

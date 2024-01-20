@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class OutlineRequest: IScriptable
----@field private requester CName
----@field private outlineDuration Float
----@field private outlineData OutlineData
+---@field requester CName
+---@field outlineDuration Float
+---@field outlineData OutlineData
 OutlineRequest = {}
 
 ---@param fields? OutlineRequest
 ---@return OutlineRequest
-function OutlineRequest.new(fields) return end
+function OutlineRequest.new(fields) end
 
 ---@param requester CName|string
 ---@param data OutlineData
 ---@param expectedDuration? Float
 ---@return OutlineRequest
-function OutlineRequest.CreateRequest(requester, data, expectedDuration) return end
+function OutlineRequest.CreateRequest(requester, data, expectedDuration) end
 
 ---@return OutlineData
-function OutlineRequest:GetData() return end
+function OutlineRequest:GetData() end
 
 ---@return Float
-function OutlineRequest:GetOutlineDuration() return end
+function OutlineRequest:GetOutlineDuration() end
 
 ---@return Float
-function OutlineRequest:GetRequestOpacity() return end
+function OutlineRequest:GetRequestOpacity() end
 
 ---@return EOutlineType
-function OutlineRequest:GetRequestType() return end
+function OutlineRequest:GetRequestType() end
 
 ---@return CName
-function OutlineRequest:GetRequester() return end
+function OutlineRequest:GetRequester() end
 
 ---@param newData OutlineData
 ---@return nil
-function OutlineRequest:UpdateData(newData) return end
+function OutlineRequest:UpdateData(newData) end

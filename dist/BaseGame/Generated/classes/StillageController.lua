@@ -5,7 +5,7 @@ StillageController = {}
 
 ---@param fields? StillageController
 ---@return StillageController
-function StillageController.new(fields) return end
+function StillageController.new(fields) end
 
 ---@return StillageControllerPS
-function StillageController:GetPS() return end
+function StillageController:GetPS() end

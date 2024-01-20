@@ -5,4 +5,4 @@ NPCStoppingDetectionEvent = {}
 
 ---@param fields? NPCStoppingDetectionEvent
 ---@return NPCStoppingDetectionEvent
-function NPCStoppingDetectionEvent.new(fields) return end
+function NPCStoppingDetectionEvent.new(fields) end

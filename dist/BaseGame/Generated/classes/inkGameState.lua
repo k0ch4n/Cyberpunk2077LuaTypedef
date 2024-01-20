@@ -5,4 +5,4 @@ inkGameState = {}
 
 ---@param fields? inkGameState
 ---@return inkGameState
-function inkGameState.new(fields) return end
+function inkGameState.new(fields) end

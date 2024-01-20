@@ -1,103 +1,92 @@
 ---@meta
 
 ---@class BackpackDataView: inkScriptableDataViewWrapper
----@field private itemSortMode ItemSortMode
----@field private attachmentsList gamedataItemType[]
----@field private uiScriptableSystem UIScriptableSystem
----@field protected itemFilterType ItemFilterCategory
+---@field itemSortMode ItemSortMode
+---@field attachmentsList gamedataItemType[]
+---@field uiScriptableSystem UIScriptableSystem
+---@field itemFilterType ItemFilterCategory
 BackpackDataView = {}
 
 ---@param fields? BackpackDataView
 ---@return BackpackDataView
-function BackpackDataView.new(fields) return end
+function BackpackDataView.new(fields) end
 
 ---@param uiScriptableSystem UIScriptableSystem
 ---@return nil
-function BackpackDataView:BindUIScriptableSystem(uiScriptableSystem) return end
+function BackpackDataView:BindUIScriptableSystem(uiScriptableSystem) end
 
 ---@param data IScriptable
 ---@return DerivedFilterResult
-function BackpackDataView:DerivedFilterItem(data) return end
+function BackpackDataView:DerivedFilterItem(data) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function BackpackDataView:FilterAttachments(itemData) return end
+function BackpackDataView:FilterAttachments(itemData) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function BackpackDataView:FilterClothes(itemData) return end
+function BackpackDataView:FilterClothes(itemData) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function BackpackDataView:FilterConsumable(itemData) return end
+function BackpackDataView:FilterConsumable(itemData) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function BackpackDataView:FilterCyberware(itemData) return end
+function BackpackDataView:FilterCyberware(itemData) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return Bool
-function BackpackDataView:FilterCyberwareByEquipmentArea(equipmentArea) return end
+function BackpackDataView:FilterCyberwareByEquipmentArea(equipmentArea) end
 
----@private
 ---@param itemType gamedataItemType
 ---@return Bool
-function BackpackDataView:FilterCyberwareByItemType(itemType) return end
+function BackpackDataView:FilterCyberwareByItemType(itemType) end
 
 ---@param data IScriptable
 ---@return Bool
-function BackpackDataView:FilterItem(data) return end
+function BackpackDataView:FilterItem(data) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function BackpackDataView:FilterQuestItems(itemData) return end
+function BackpackDataView:FilterQuestItems(itemData) end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function BackpackDataView:FilterWeapons(itemData) return end
+function BackpackDataView:FilterWeapons(itemData) end
 
 ---@return ItemFilterCategory
-function BackpackDataView:GetFilterType() return end
+function BackpackDataView:GetFilterType() end
 
 ---@return ItemSortMode
-function BackpackDataView:GetSortMode() return end
+function BackpackDataView:GetSortMode() end
 
----@protected
 ---@param builder NewItemCompareBuilder
 ---@return NewItemCompareBuilder
-function BackpackDataView:NewPreSortingInjection(builder) return end
+function BackpackDataView:NewPreSortingInjection(builder) end
 
----@protected
 ---@param itemData gameInventoryItemData
 ---@return Bool
-function BackpackDataView:PreFilterInjection(itemData) return end
+function BackpackDataView:PreFilterInjection(itemData) end
 
----@protected
 ---@param builder ItemCompareBuilder
 ---@return ItemCompareBuilder
-function BackpackDataView:PreSortingInjection(builder) return end
+function BackpackDataView:PreSortingInjection(builder) end
 
 ---@param type ItemFilterCategory
 ---@return nil
-function BackpackDataView:SetFilterType(type) return end
+function BackpackDataView:SetFilterType(type) end
 
 ---@param mode ItemSortMode
 ---@return nil
-function BackpackDataView:SetSortMode(mode) return end
+function BackpackDataView:SetSortMode(mode) end
 
 ---@param left IScriptable
 ---@param right IScriptable
 ---@return Bool
-function BackpackDataView:SortItem(left, right) return end
+function BackpackDataView:SortItem(left, right) end
 
 ---@param left WrappedInventoryItemData
 ---@param right WrappedInventoryItemData
 ---@return Bool
-function BackpackDataView:SortItemNew(left, right) return end
+function BackpackDataView:SortItemNew(left, right) end

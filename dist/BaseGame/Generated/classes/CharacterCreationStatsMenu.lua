@@ -1,211 +1,180 @@
 ---@meta
 
 ---@class CharacterCreationStatsMenu: gameuiBaseCharacterCreationController
----@field public attribute_01 inkWidgetReference
----@field public attribute_02 inkWidgetReference
----@field public attribute_03 inkWidgetReference
----@field public attribute_04 inkWidgetReference
----@field public attribute_05 inkWidgetReference
----@field public pointsLabel inkWidgetReference
----@field public tooltipSlot inkWidgetReference
----@field public skillPointLabel inkTextWidgetReference
----@field private reset inkWidgetReference
----@field public nextMenuConfirmation inkWidgetReference
----@field public nextMenukConfirmationLibraryWidget inkWidgetReference
----@field public ConfirmationConfirmBtn inkWidgetReference
----@field public ConfirmationCloseBtn inkWidgetReference
----@field private TooltipsManagerRef inkWidgetReference
----@field public previousPageBtn inkWidgetReference
----@field public navigationButtons inkWidgetReference
----@field public optionSwitchHint inkWidgetReference
----@field private attributesControllers characterCreationStatsAttributeBtn[]
----@field private attributePointsAvailable Int32
----@field private startingAttributePoints Int32
----@field private TooltipsManager gameuiTooltipsManager
----@field private toolTipOffset inkMargin
----@field private animationProxy inkanimProxy
----@field private confirmAnimationProxy inkanimProxy
----@field private hoverdWidget inkWidget
----@field private menuVisited Bool
+---@field attribute_01 inkWidgetReference
+---@field attribute_02 inkWidgetReference
+---@field attribute_03 inkWidgetReference
+---@field attribute_04 inkWidgetReference
+---@field attribute_05 inkWidgetReference
+---@field pointsLabel inkWidgetReference
+---@field tooltipSlot inkWidgetReference
+---@field skillPointLabel inkTextWidgetReference
+---@field reset inkWidgetReference
+---@field nextMenuConfirmation inkWidgetReference
+---@field nextMenukConfirmationLibraryWidget inkWidgetReference
+---@field ConfirmationConfirmBtn inkWidgetReference
+---@field ConfirmationCloseBtn inkWidgetReference
+---@field TooltipsManagerRef inkWidgetReference
+---@field previousPageBtn inkWidgetReference
+---@field navigationButtons inkWidgetReference
+---@field optionSwitchHint inkWidgetReference
+---@field attributesControllers characterCreationStatsAttributeBtn[]
+---@field attributePointsAvailable Int32
+---@field startingAttributePoints Int32
+---@field TooltipsManager gameuiTooltipsManager
+---@field toolTipOffset inkMargin
+---@field animationProxy inkanimProxy
+---@field confirmAnimationProxy inkanimProxy
+---@field hoverdWidget inkWidget
+---@field menuVisited Bool
 CharacterCreationStatsMenu = {}
 
 ---@param fields? CharacterCreationStatsMenu
 ---@return CharacterCreationStatsMenu
-function CharacterCreationStatsMenu.new(fields) return end
+function CharacterCreationStatsMenu.new(fields) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function CharacterCreationStatsMenu:OnBtnHoverOut(e) return end
+function CharacterCreationStatsMenu:OnBtnHoverOut(e) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function CharacterCreationStatsMenu:OnBtnHoverOver(e) return end
+function CharacterCreationStatsMenu:OnBtnHoverOver(e) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnButtonRelease(evt) return end
+function CharacterCreationStatsMenu:OnButtonRelease(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnConfirmationClose(e) return end
+function CharacterCreationStatsMenu:OnConfirmationClose(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnConfirmationConfirm(e) return end
+function CharacterCreationStatsMenu:OnConfirmationConfirm(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnHoverOutWidget(e) return end
+function CharacterCreationStatsMenu:OnHoverOutWidget(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnHoverOverWidget(e) return end
+function CharacterCreationStatsMenu:OnHoverOverWidget(e) end
 
----@protected
 ---@return Bool
-function CharacterCreationStatsMenu:OnInitialize() return end
+function CharacterCreationStatsMenu:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function CharacterCreationStatsMenu:OnOutroComplete(anim) return end
+function CharacterCreationStatsMenu:OnOutroComplete(anim) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnPreviousButton(e) return end
+function CharacterCreationStatsMenu:OnPreviousButton(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnRelease(e) return end
+function CharacterCreationStatsMenu:OnRelease(e) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function CharacterCreationStatsMenu:OnSetUserData(userData) return end
+function CharacterCreationStatsMenu:OnSetUserData(userData) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationStatsMenu:OnShortcutPress(e) return end
+function CharacterCreationStatsMenu:OnShortcutPress(e) end
 
----@protected
 ---@return Bool
-function CharacterCreationStatsMenu:OnUninitialize() return end
+function CharacterCreationStatsMenu:OnUninitialize() end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function CharacterCreationStatsMenu:OnValueDecremented(e) return end
+function CharacterCreationStatsMenu:OnValueDecremented(e) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function CharacterCreationStatsMenu:OnValueIncremented(e) return end
+function CharacterCreationStatsMenu:OnValueIncremented(e) end
 
----@private
 ---@param targetWidget inkWidget
 ---@return nil
-function CharacterCreationStatsMenu:Add(targetWidget) return end
+function CharacterCreationStatsMenu:Add(targetWidget) end
 
----@private
 ---@param currValue Int32
 ---@return Bool
-function CharacterCreationStatsMenu:CanBeDecremented(currValue) return end
+function CharacterCreationStatsMenu:CanBeDecremented(currValue) end
 
----@private
 ---@param currValue Int32
 ---@return Bool
-function CharacterCreationStatsMenu:CanBeIncremented(currValue) return end
+function CharacterCreationStatsMenu:CanBeIncremented(currValue) end
 
 ---@param disabled Bool
 ---@return nil
-function CharacterCreationStatsMenu:DisableInputBelowConfirmationPopup(disabled) return end
+function CharacterCreationStatsMenu:DisableInputBelowConfirmationPopup(disabled) end
 
----@private
 ---@param label String
 ---@param value Int32
 ---@param desc String
 ---@return CharacterCreationAttributeData
-function CharacterCreationStatsMenu:FillAttributeData(label, value, desc) return end
+function CharacterCreationStatsMenu:FillAttributeData(label, value, desc) end
 
 ---@return nil
-function CharacterCreationStatsMenu:HideConfirmation() return end
+function CharacterCreationStatsMenu:HideConfirmation() end
 
----@private
 ---@return nil
-function CharacterCreationStatsMenu:ManageAllButtonsVisibility() return end
+function CharacterCreationStatsMenu:ManageAllButtonsVisibility() end
 
----@protected
 ---@return nil
-function CharacterCreationStatsMenu:NextMenu() return end
+function CharacterCreationStatsMenu:NextMenu() end
 
----@private
 ---@return nil
-function CharacterCreationStatsMenu:OnIntro() return end
+function CharacterCreationStatsMenu:OnIntro() end
 
----@private
 ---@return nil
-function CharacterCreationStatsMenu:OnOutro() return end
+function CharacterCreationStatsMenu:OnOutro() end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@return nil
-function CharacterCreationStatsMenu:PlayAnim(animName, callBack) return end
-
----@private
----@return nil
-function CharacterCreationStatsMenu:PrepareTooltips() return end
-
----@protected
----@return nil
-function CharacterCreationStatsMenu:PriorMenu() return end
+function CharacterCreationStatsMenu:PlayAnim(animName, callBack) end
 
 ---@return nil
-function CharacterCreationStatsMenu:RandomizeAttributes() return end
+function CharacterCreationStatsMenu:PrepareTooltips() end
 
----@private
+---@return nil
+function CharacterCreationStatsMenu:PriorMenu() end
+
+---@return nil
+function CharacterCreationStatsMenu:RandomizeAttributes() end
+
 ---@param currValue Int32
 ---@return Bool
-function CharacterCreationStatsMenu:ReachedLimit(currValue) return end
+function CharacterCreationStatsMenu:ReachedLimit(currValue) end
 
 ---@return nil
-function CharacterCreationStatsMenu:RefreshControllers() return end
+function CharacterCreationStatsMenu:RefreshControllers() end
 
 ---@return nil
-function CharacterCreationStatsMenu:RefreshPointsLabel() return end
-
----@private
----@return nil
-function CharacterCreationStatsMenu:ResetAllBtnBackToBaseline() return end
-
----@private
----@return nil
-function CharacterCreationStatsMenu:SaveChanges() return end
+function CharacterCreationStatsMenu:RefreshPointsLabel() end
 
 ---@return nil
-function CharacterCreationStatsMenu:SetDefaultTooltip() return end
+function CharacterCreationStatsMenu:ResetAllBtnBackToBaseline() end
+
+---@return nil
+function CharacterCreationStatsMenu:SaveChanges() end
+
+---@return nil
+function CharacterCreationStatsMenu:SetDefaultTooltip() end
 
 ---@param attribiuteController characterCreationStatsAttributeBtn
 ---@return nil
-function CharacterCreationStatsMenu:SetUpTooltipData(attribiuteController) return end
+function CharacterCreationStatsMenu:SetUpTooltipData(attribiuteController) end
 
 ---@return nil
-function CharacterCreationStatsMenu:ShowConfirmation() return end
+function CharacterCreationStatsMenu:ShowConfirmation() end
 
----@private
 ---@return nil
-function CharacterCreationStatsMenu:SkipStatsMenu() return end
+function CharacterCreationStatsMenu:SkipStatsMenu() end
 
----@private
 ---@param targetWidget inkWidget
 ---@return nil
-function CharacterCreationStatsMenu:Subtract(targetWidget) return end
+function CharacterCreationStatsMenu:Subtract(targetWidget) end

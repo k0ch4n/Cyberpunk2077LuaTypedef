@@ -5,8 +5,8 @@ RefreshPerkAreas = {}
 
 ---@param fields? RefreshPerkAreas
 ---@return RefreshPerkAreas
-function RefreshPerkAreas.new(fields) return end
+function RefreshPerkAreas.new(fields) end
 
 ---@param _owner gameObject
 ---@return nil
-function RefreshPerkAreas:Set(_owner) return end
+function RefreshPerkAreas:Set(_owner) end

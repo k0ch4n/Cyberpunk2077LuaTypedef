@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class QuickhackBarController: inkWidgetLogicController
----@field private emptyMask inkWidgetReference
----@field private empty inkWidgetReference
----@field private full inkWidgetReference
+---@field emptyMask inkWidgetReference
+---@field empty inkWidgetReference
+---@field full inkWidgetReference
 QuickhackBarController = {}
 
 ---@param fields? QuickhackBarController
 ---@return QuickhackBarController
-function QuickhackBarController.new(fields) return end
+function QuickhackBarController.new(fields) end
 
 ---@param value Float
 ---@return nil
-function QuickhackBarController:SetStatus(value) return end
+function QuickhackBarController:SetStatus(value) end

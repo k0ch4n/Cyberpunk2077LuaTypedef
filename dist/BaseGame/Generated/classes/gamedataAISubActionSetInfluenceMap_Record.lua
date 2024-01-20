@@ -5,22 +5,22 @@ gamedataAISubActionSetInfluenceMap_Record = {}
 
 ---@param fields? gamedataAISubActionSetInfluenceMap_Record
 ---@return gamedataAISubActionSetInfluenceMap_Record
-function gamedataAISubActionSetInfluenceMap_Record.new(fields) return end
+function gamedataAISubActionSetInfluenceMap_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionSetInfluenceMap_Record:Delay() return end
+function gamedataAISubActionSetInfluenceMap_Record:Delay() end
 
 ---@return Vector2
-function gamedataAISubActionSetInfluenceMap_Record:Lerp() return end
+function gamedataAISubActionSetInfluenceMap_Record:Lerp() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetInfluenceMap_Record:PositionObj() return end
+function gamedataAISubActionSetInfluenceMap_Record:PositionObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionSetInfluenceMap_Record:PositionObjHandle() return end
+function gamedataAISubActionSetInfluenceMap_Record:PositionObjHandle() end
 
 ---@return Float
-function gamedataAISubActionSetInfluenceMap_Record:Radius() return end
+function gamedataAISubActionSetInfluenceMap_Record:Radius() end
 
 ---@return Bool
-function gamedataAISubActionSetInfluenceMap_Record:Threat() return end
+function gamedataAISubActionSetInfluenceMap_Record:Threat() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkBinkLanguageDescriptor
----@field public bink Bink
----@field public languageId inkLanguageId
+---@field bink Bink
+---@field languageId inkLanguageId
 inkBinkLanguageDescriptor = {}
 
 ---@param fields? inkBinkLanguageDescriptor
 ---@return inkBinkLanguageDescriptor
-function inkBinkLanguageDescriptor.new(fields) return end
+function inkBinkLanguageDescriptor.new(fields) end

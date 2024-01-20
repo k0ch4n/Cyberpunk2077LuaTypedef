@@ -5,4 +5,4 @@ PatchNotesPopupData = {}
 
 ---@param fields? PatchNotesPopupData
 ---@return PatchNotesPopupData
-function PatchNotesPopupData.new(fields) return end
+function PatchNotesPopupData.new(fields) end

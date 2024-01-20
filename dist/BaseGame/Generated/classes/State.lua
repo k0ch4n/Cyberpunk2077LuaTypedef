@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class State: MorphData
----@field public state ESecuritySystemState
+---@field state ESecuritySystemState
 State = {}
 
 ---@param fields? State
 ---@return State
-function State.new(fields) return end
+function State.new(fields) end

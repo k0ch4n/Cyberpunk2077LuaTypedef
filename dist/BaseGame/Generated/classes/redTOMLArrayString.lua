@@ -5,4 +5,4 @@ redTOMLArrayString = {}
 
 ---@param fields? redTOMLArrayString
 ---@return redTOMLArrayString
-function redTOMLArrayString.new(fields) return end
+function redTOMLArrayString.new(fields) end

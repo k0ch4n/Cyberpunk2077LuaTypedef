@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RipperdocPerkTooltipData: ATooltipData
----@field public ripperdocHoverState RipperdocHoverState
+---@field ripperdocHoverState RipperdocHoverState
 RipperdocPerkTooltipData = {}
 
 ---@param fields? RipperdocPerkTooltipData
 ---@return RipperdocPerkTooltipData
-function RipperdocPerkTooltipData.new(fields) return end
+function RipperdocPerkTooltipData.new(fields) end

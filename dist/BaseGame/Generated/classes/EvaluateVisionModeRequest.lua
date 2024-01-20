@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EvaluateVisionModeRequest: gameScriptableSystemRequest
----@field public mode gameVisionModeType
+---@field mode gameVisionModeType
 EvaluateVisionModeRequest = {}
 
 ---@param fields? EvaluateVisionModeRequest
 ---@return EvaluateVisionModeRequest
-function EvaluateVisionModeRequest.new(fields) return end
+function EvaluateVisionModeRequest.new(fields) end

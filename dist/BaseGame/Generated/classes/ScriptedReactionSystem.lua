@@ -1,59 +1,53 @@
 ---@meta
 
 ---@class ScriptedReactionSystem: gameScriptableSystem
----@field private fleeingNPCs Int32
----@field private runners entEntity[]
----@field private registeredTimeout Float
----@field private callInAction Bool
----@field private policeCaller entEntity
+---@field fleeingNPCs Int32
+---@field runners entEntity[]
+---@field registeredTimeout Float
+---@field callInAction Bool
+---@field policeCaller entEntity
 ScriptedReactionSystem = {}
 
 ---@param fields? ScriptedReactionSystem
 ---@return ScriptedReactionSystem
-function ScriptedReactionSystem.new(fields) return end
+function ScriptedReactionSystem.new(fields) end
 
 ---@return Int32
-function ScriptedReactionSystem:GetFleeingNPCsCount() return end
+function ScriptedReactionSystem:GetFleeingNPCsCount() end
 
 ---@param position Vector4
 ---@param distance Float
 ---@return Int32
-function ScriptedReactionSystem:GetFleeingNPCsCountInDistance(position, distance) return end
+function ScriptedReactionSystem:GetFleeingNPCsCountInDistance(position, distance) end
 
 ---@return Float
-function ScriptedReactionSystem:GetRegisterTimeout() return end
+function ScriptedReactionSystem:GetRegisterTimeout() end
 
 ---@param entity entEntity
 ---@return Bool
-function ScriptedReactionSystem:IsCaller(entity) return end
+function ScriptedReactionSystem:IsCaller(entity) end
 
----@private
 ---@param newCaller entEntity
 ---@param crimePosition Vector4
 ---@return Bool
-function ScriptedReactionSystem:IsCallerCloser(newCaller, crimePosition) return end
+function ScriptedReactionSystem:IsCallerCloser(newCaller, crimePosition) end
 
----@private
 ---@param runner entEntity
 ---@return Bool
-function ScriptedReactionSystem:IsRegistered(runner) return end
+function ScriptedReactionSystem:IsRegistered(runner) end
 
----@private
 ---@param request RegisterFleeingNPC
 ---@return nil
-function ScriptedReactionSystem:OnRegisterFleeingNPC(request) return end
+function ScriptedReactionSystem:OnRegisterFleeingNPC(request) end
 
----@private
 ---@param request RegisterPoliceCaller
 ---@return nil
-function ScriptedReactionSystem:OnRegisterPoliceCaller(request) return end
+function ScriptedReactionSystem:OnRegisterPoliceCaller(request) end
 
----@private
 ---@param request UnregisterFleeingNPC
 ---@return nil
-function ScriptedReactionSystem:OnUnregisterFleeingNPC(request) return end
+function ScriptedReactionSystem:OnUnregisterFleeingNPC(request) end
 
----@private
 ---@param request UnregisterPoliceCaller
 ---@return nil
-function ScriptedReactionSystem:OnUnregisterPoliceCaller(request) return end
+function ScriptedReactionSystem:OnUnregisterPoliceCaller(request) end

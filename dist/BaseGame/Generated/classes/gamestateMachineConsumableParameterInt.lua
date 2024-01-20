@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineConsumableParameterInt: gamestateMachineActionParameterInt
----@field public consumed Bool
+---@field consumed Bool
 gamestateMachineConsumableParameterInt = {}
 
 ---@param fields? gamestateMachineConsumableParameterInt
 ---@return gamestateMachineConsumableParameterInt
-function gamestateMachineConsumableParameterInt.new(fields) return end
+function gamestateMachineConsumableParameterInt.new(fields) end

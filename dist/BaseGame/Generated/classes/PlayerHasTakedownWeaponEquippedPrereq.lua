@@ -5,8 +5,8 @@ PlayerHasTakedownWeaponEquippedPrereq = {}
 
 ---@param fields? PlayerHasTakedownWeaponEquippedPrereq
 ---@return PlayerHasTakedownWeaponEquippedPrereq
-function PlayerHasTakedownWeaponEquippedPrereq.new(fields) return end
+function PlayerHasTakedownWeaponEquippedPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function PlayerHasTakedownWeaponEquippedPrereq:IsFulfilled(context) return end
+function PlayerHasTakedownWeaponEquippedPrereq:IsFulfilled(context) end

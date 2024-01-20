@@ -5,4 +5,4 @@ inkHUDLayer = {}
 
 ---@param fields? inkHUDLayer
 ---@return inkHUDLayer
-function inkHUDLayer.new(fields) return end
+function inkHUDLayer.new(fields) end

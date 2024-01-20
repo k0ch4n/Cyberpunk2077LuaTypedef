@@ -5,22 +5,22 @@ ReflectionFunc = {}
 
 ---@param fields? ReflectionFunc
 ---@return ReflectionFunc
-function ReflectionFunc.new(fields) return end
+function ReflectionFunc.new(fields) end
 
 ---@return CName
-function ReflectionFunc:GetFullName() return end
+function ReflectionFunc:GetFullName() end
 
 ---@return CName
-function ReflectionFunc:GetName() return end
+function ReflectionFunc:GetName() end
 
 ---@return ReflectionProp[]
-function ReflectionFunc:GetParameters() return end
+function ReflectionFunc:GetParameters() end
 
 ---@return ReflectionType
-function ReflectionFunc:GetReturnType() return end
+function ReflectionFunc:GetReturnType() end
 
 ---@return Bool
-function ReflectionFunc:IsNative() return end
+function ReflectionFunc:IsNative() end
 
 ---@return Bool
-function ReflectionFunc:IsStatic() return end
+function ReflectionFunc:IsStatic() end

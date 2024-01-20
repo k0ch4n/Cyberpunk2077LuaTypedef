@@ -5,4 +5,4 @@ gameuiStickerEditorEnableCursorInputEvent = {}
 
 ---@param fields? gameuiStickerEditorEnableCursorInputEvent
 ---@return gameuiStickerEditorEnableCursorInputEvent
-function gameuiStickerEditorEnableCursorInputEvent.new(fields) return end
+function gameuiStickerEditorEnableCursorInputEvent.new(fields) end

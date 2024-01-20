@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questTeleportVehicleNodeDefinition: questDisableableNodeDefinition
----@field public entityReference gameEntityReference
----@field public params questTeleportPuppetParams
----@field public resetVelocities Bool
+---@field entityReference gameEntityReference
+---@field params questTeleportPuppetParams
+---@field resetVelocities Bool
 questTeleportVehicleNodeDefinition = {}
 
 ---@param fields? questTeleportVehicleNodeDefinition
 ---@return questTeleportVehicleNodeDefinition
-function questTeleportVehicleNodeDefinition.new(fields) return end
+function questTeleportVehicleNodeDefinition.new(fields) end

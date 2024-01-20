@@ -1,59 +1,50 @@
 ---@meta
 
 ---@class piercingGrenade: BaseProjectile
----@field private piercingEffect gameEffectRef
----@field private pierceTime Float
----@field private energyLossFactor Float
----@field private startVelocity Float
----@field private grenadeLifetime Float
----@field private gravitySimulation Float
----@field private trailEffectName CName
----@field private alive Bool
+---@field piercingEffect gameEffectRef
+---@field pierceTime Float
+---@field energyLossFactor Float
+---@field startVelocity Float
+---@field grenadeLifetime Float
+---@field gravitySimulation Float
+---@field trailEffectName CName
+---@field alive Bool
 piercingGrenade = {}
 
 ---@param fields? piercingGrenade
 ---@return piercingGrenade
-function piercingGrenade.new(fields) return end
+function piercingGrenade.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function piercingGrenade:OnCollision(eventData) return end
+function piercingGrenade:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function piercingGrenade:OnProjectileInitialize(eventData) return end
+function piercingGrenade:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function piercingGrenade:OnShoot(eventData) return end
+function piercingGrenade:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function piercingGrenade:OnShootTarget(eventData) return end
+function piercingGrenade:OnShootTarget(eventData) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function piercingGrenade:OnTick(eventData) return end
+function piercingGrenade:OnTick(eventData) end
 
----@private
 ---@param position Vector4
 ---@return nil
-function piercingGrenade:Explode(position) return end
+function piercingGrenade:Explode(position) end
 
----@private
 ---@param position Vector4
 ---@return nil
-function piercingGrenade:Pierce(position) return end
+function piercingGrenade:Pierce(position) end
 
----@private
 ---@return nil
-function piercingGrenade:StartTrailEffect() return end
+function piercingGrenade:StartTrailEffect() end
 
----@private
 ---@return nil
-function piercingGrenade:StopMovement() return end
+function piercingGrenade:StopMovement() end

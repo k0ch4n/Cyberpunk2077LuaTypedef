@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldAcousticsOutdoornessAreaNode: worldAreaShapeNode
----@field public outdoor Float
+---@field outdoor Float
 worldAcousticsOutdoornessAreaNode = {}
 
 ---@param fields? worldAcousticsOutdoornessAreaNode
 ---@return worldAcousticsOutdoornessAreaNode
-function worldAcousticsOutdoornessAreaNode.new(fields) return end
+function worldAcousticsOutdoornessAreaNode.new(fields) end

@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class inkButtonTintController: inkButtonController
----@field public NormalColor Color
----@field public HoverColor Color
----@field public PressColor Color
----@field public DisableColor Color
----@field public TintControlRef inkWidgetReference
+---@field NormalColor Color
+---@field HoverColor Color
+---@field PressColor Color
+---@field DisableColor Color
+---@field TintControlRef inkWidgetReference
 inkButtonTintController = {}
 
 ---@param fields? inkButtonTintController
 ---@return inkButtonTintController
-function inkButtonTintController.new(fields) return end
+function inkButtonTintController.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function inkButtonTintController:OnButtonStateChanged(controller, oldState, newState) return end
+function inkButtonTintController:OnButtonStateChanged(controller, oldState, newState) end

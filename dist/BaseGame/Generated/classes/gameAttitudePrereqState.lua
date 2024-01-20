@@ -5,4 +5,4 @@ gameAttitudePrereqState = {}
 
 ---@param fields? gameAttitudePrereqState
 ---@return gameAttitudePrereqState
-function gameAttitudePrereqState.new(fields) return end
+function gameAttitudePrereqState.new(fields) end

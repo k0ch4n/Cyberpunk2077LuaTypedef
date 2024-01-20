@@ -5,4 +5,4 @@ worldAIDirectorSpawnMarker = {}
 
 ---@param fields? worldAIDirectorSpawnMarker
 ---@return worldAIDirectorSpawnMarker
-function worldAIDirectorSpawnMarker.new(fields) return end
+function worldAIDirectorSpawnMarker.new(fields) end

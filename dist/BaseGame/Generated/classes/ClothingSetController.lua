@@ -1,78 +1,75 @@
 ---@meta
 
 ---@class ClothingSetController: BaseButtonView
----@field protected setName inkTextWidgetReference
----@field private clothingSet gameClothingSet
----@field private equipped Bool
----@field private selected Bool
----@field private defined Bool
----@field private isHovered Bool
----@field private hasChanges Bool
----@field private disabled Bool
----@field private styleWidget inkWidget
+---@field setName inkTextWidgetReference
+---@field clothingSet gameClothingSet
+---@field equipped Bool
+---@field selected Bool
+---@field defined Bool
+---@field isHovered Bool
+---@field hasChanges Bool
+---@field disabled Bool
+---@field styleWidget inkWidget
 ClothingSetController = {}
 
 ---@param fields? ClothingSetController
 ---@return ClothingSetController
-function ClothingSetController.new(fields) return end
+function ClothingSetController.new(fields) end
 
----@protected
 ---@return Bool
-function ClothingSetController:OnInitialize() return end
+function ClothingSetController:OnInitialize() end
 
----@protected
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function ClothingSetController:ButtonStateChanged(oldState, newState) return end
+function ClothingSetController:ButtonStateChanged(oldState, newState) end
 
 ---@return gameClothingSet
-function ClothingSetController:GetClothingSet() return end
+function ClothingSetController:GetClothingSet() end
 
 ---@return Bool
-function ClothingSetController:GetClothingSetChanged() return end
+function ClothingSetController:GetClothingSetChanged() end
 
 ---@return Bool
-function ClothingSetController:GetDefined() return end
+function ClothingSetController:GetDefined() end
 
 ---@return Bool
-function ClothingSetController:GetEquipped() return end
+function ClothingSetController:GetEquipped() end
 
 ---@return Bool
-function ClothingSetController:IsDisabled() return end
+function ClothingSetController:IsDisabled() end
 
 ---@return Bool
-function ClothingSetController:IsHovered() return end
+function ClothingSetController:IsHovered() end
 
 ---@param clothingSet gameClothingSet
 ---@param showName Bool
 ---@return nil
-function ClothingSetController:SetClothingSet(clothingSet, showName) return end
+function ClothingSetController:SetClothingSet(clothingSet, showName) end
 
 ---@param changed Bool
 ---@return nil
-function ClothingSetController:SetClothingSetChanged(changed) return end
+function ClothingSetController:SetClothingSetChanged(changed) end
 
 ---@param defined Bool
 ---@return nil
-function ClothingSetController:SetDefined(defined) return end
+function ClothingSetController:SetDefined(defined) end
 
 ---@param disabled Bool
 ---@return nil
-function ClothingSetController:SetDisabled(disabled) return end
+function ClothingSetController:SetDisabled(disabled) end
 
 ---@param equipped Bool
 ---@return nil
-function ClothingSetController:SetEquipped(equipped) return end
+function ClothingSetController:SetEquipped(equipped) end
 
 ---@param selected Bool
 ---@return nil
-function ClothingSetController:SetSelected(selected) return end
+function ClothingSetController:SetSelected(selected) end
 
 ---@param slotNumber Int32
 ---@return nil
-function ClothingSetController:UpdateNumbering(slotNumber) return end
+function ClothingSetController:UpdateNumbering(slotNumber) end
 
----@private
 ---@return nil
-function ClothingSetController:UpdateVisualState() return end
+function ClothingSetController:UpdateVisualState() end

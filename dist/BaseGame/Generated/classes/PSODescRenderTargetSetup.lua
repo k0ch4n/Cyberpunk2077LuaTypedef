@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PSODescRenderTargetSetup
----@field public rtFormats GpuWrapApieTextureFormat
----@field public dsFormat GpuWrapApieTextureFormat
+---@field rtFormats GpuWrapApieTextureFormat
+---@field dsFormat GpuWrapApieTextureFormat
 PSODescRenderTargetSetup = {}
 
 ---@param fields? PSODescRenderTargetSetup
 ---@return PSODescRenderTargetSetup
-function PSODescRenderTargetSetup.new(fields) return end
+function PSODescRenderTargetSetup.new(fields) end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ActionWeightManagerDelegate: AIbehaviorScriptBehaviorDelegate
----@field public actionsConditions String[]
----@field public actionsWeights Int32[]
----@field public lowestWeight Int32
----@field public selectedActionIndex Int32
+---@field actionsConditions String[]
+---@field actionsWeights Int32[]
+---@field lowestWeight Int32
+---@field selectedActionIndex Int32
 ActionWeightManagerDelegate = {}
 
 ---@param fields? ActionWeightManagerDelegate
 ---@return ActionWeightManagerDelegate
-function ActionWeightManagerDelegate.new(fields) return end
+function ActionWeightManagerDelegate.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function ActionWeightManagerDelegate:ProcessActionToPlay(context) return end
+function ActionWeightManagerDelegate:ProcessActionToPlay(context) end
 
 ---@return Bool
-function ActionWeightManagerDelegate:WeightUpdate() return end
+function ActionWeightManagerDelegate:WeightUpdate() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TarotCardPreviewData: inkGameNotificationData
----@field public cardData TarotCardData
+---@field cardData TarotCardData
 TarotCardPreviewData = {}
 
 ---@param fields? TarotCardPreviewData
 ---@return TarotCardPreviewData
-function TarotCardPreviewData.new(fields) return end
+function TarotCardPreviewData.new(fields) end

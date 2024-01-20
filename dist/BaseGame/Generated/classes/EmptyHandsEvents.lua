@@ -5,29 +5,25 @@ EmptyHandsEvents = {}
 
 ---@param fields? EmptyHandsEvents
 ---@return EmptyHandsEvents
-function EmptyHandsEvents.new(fields) return end
+function EmptyHandsEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function EmptyHandsEvents:CheckBodyCarryingConditions(stateContext, scriptInterface) return end
+function EmptyHandsEvents:CheckBodyCarryingConditions(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function EmptyHandsEvents:OnEnter(stateContext, scriptInterface) return end
+function EmptyHandsEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function EmptyHandsEvents:OnExit(stateContext, scriptInterface) return end
+function EmptyHandsEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function EmptyHandsEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function EmptyHandsEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

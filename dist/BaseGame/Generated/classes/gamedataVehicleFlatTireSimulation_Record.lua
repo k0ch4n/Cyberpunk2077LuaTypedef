@@ -5,16 +5,16 @@ gamedataVehicleFlatTireSimulation_Record = {}
 
 ---@param fields? gamedataVehicleFlatTireSimulation_Record
 ---@return gamedataVehicleFlatTireSimulation_Record
-function gamedataVehicleFlatTireSimulation_Record.new(fields) return end
+function gamedataVehicleFlatTireSimulation_Record.new(fields) end
 
 ---@return gamedataVehicleFlatTireSimParams_Record
-function gamedataVehicleFlatTireSimulation_Record:Front() return end
+function gamedataVehicleFlatTireSimulation_Record:Front() end
 
 ---@return gamedataVehicleFlatTireSimParams_Record
-function gamedataVehicleFlatTireSimulation_Record:FrontHandle() return end
+function gamedataVehicleFlatTireSimulation_Record:FrontHandle() end
 
 ---@return gamedataVehicleFlatTireSimParams_Record
-function gamedataVehicleFlatTireSimulation_Record:Rear() return end
+function gamedataVehicleFlatTireSimulation_Record:Rear() end
 
 ---@return gamedataVehicleFlatTireSimParams_Record
-function gamedataVehicleFlatTireSimulation_Record:RearHandle() return end
+function gamedataVehicleFlatTireSimulation_Record:RearHandle() end

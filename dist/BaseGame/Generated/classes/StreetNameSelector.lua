@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class StreetNameSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field recordID TweakDBID
 StreetNameSelector = {}
 
 ---@param fields? StreetNameSelector
 ---@return StreetNameSelector
-function StreetNameSelector.new(fields) return end
+function StreetNameSelector.new(fields) end
 
 ---@return TweakDBID
-function StreetNameSelector:GetRecordID() return end
+function StreetNameSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function StreetNameSelector:SetRecordID(recordID) return end
+function StreetNameSelector:SetRecordID(recordID) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questDevice_ConditionType: questIObjectConditionType
----@field public objectRef NodeRef
----@field public deviceControllerClass CName
----@field public deviceConditionFunction CName
----@field public functionParameters questDevice_ConditionFunctionParameter[]
+---@field objectRef NodeRef
+---@field deviceControllerClass CName
+---@field deviceConditionFunction CName
+---@field functionParameters questDevice_ConditionFunctionParameter[]
 questDevice_ConditionType = {}
 
 ---@param fields? questDevice_ConditionType
 ---@return questDevice_ConditionType
-function questDevice_ConditionType.new(fields) return end
+function questDevice_ConditionType.new(fields) end

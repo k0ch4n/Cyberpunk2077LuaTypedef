@@ -5,4 +5,4 @@ questPuppetsKill = {}
 
 ---@param fields? questPuppetsKill
 ---@return questPuppetsKill
-function questPuppetsKill.new(fields) return end
+function questPuppetsKill.new(fields) end

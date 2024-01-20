@@ -1,118 +1,101 @@
 ---@meta
 
 ---@class ProjectileLauncherRound: gameItemObject
----@field protected projectileComponent gameprojectileComponent
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected user gameObject
----@field protected projectile gameObject
----@field protected weapon gameweaponObject
----@field protected projectileSpawnPoint Vector4
----@field protected launchMode gamedataProjectileLaunchMode
----@field protected initialLaunchVelocity Float
----@field protected installedProjectile gameItemID
----@field protected actionType ELauncherActionType
----@field protected attackRecord gamedataAttack_Record
----@field protected releaseRequestDelayID gameDelayID
----@field protected detonateRequestDelayID gameDelayID
----@field protected projectileTrailName CName
----@field protected projectileCollisionEvaluator ProjectileLauncherRoundCollisionEvaluator
----@field protected isAlive Bool
----@field protected isSinking Bool
----@field protected waterHeight Float
----@field protected deepWaterDepth Float
----@field protected sinkingDetonationDelay Float
----@field protected waterSurfaceImpactImpulseRadius Float
----@field protected waterSurfaceImpactImpulseStrength Float
----@field protected waterDetonationImpulseRadius Float
----@field protected waterDetonationImpulseStrength Float
+---@field projectileComponent gameprojectileComponent
+---@field resourceLibraryComponent ResourceLibraryComponent
+---@field user gameObject
+---@field projectile gameObject
+---@field weapon gameweaponObject
+---@field projectileSpawnPoint Vector4
+---@field launchMode gamedataProjectileLaunchMode
+---@field initialLaunchVelocity Float
+---@field installedProjectile gameItemID
+---@field actionType ELauncherActionType
+---@field attackRecord gamedataAttack_Record
+---@field releaseRequestDelayID gameDelayID
+---@field detonateRequestDelayID gameDelayID
+---@field projectileTrailName CName
+---@field projectileCollisionEvaluator ProjectileLauncherRoundCollisionEvaluator
+---@field isAlive Bool
+---@field isSinking Bool
+---@field waterHeight Float
+---@field deepWaterDepth Float
+---@field sinkingDetonationDelay Float
+---@field waterSurfaceImpactImpulseRadius Float
+---@field waterSurfaceImpactImpulseStrength Float
+---@field waterDetonationImpulseRadius Float
+---@field waterDetonationImpulseStrength Float
 ProjectileLauncherRound = {}
 
 ---@param fields? ProjectileLauncherRound
 ---@return ProjectileLauncherRound
-function ProjectileLauncherRound.new(fields) return end
+function ProjectileLauncherRound.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function ProjectileLauncherRound:OnCollision(eventData) return end
+function ProjectileLauncherRound:OnCollision(eventData) end
 
----@protected
 ---@param evt ProjectileLauncherRoundDetonationDelayEvent
 ---@return Bool
-function ProjectileLauncherRound:OnMaxDetonationTimeReached(evt) return end
+function ProjectileLauncherRound:OnMaxDetonationTimeReached(evt) end
 
----@protected
 ---@param evt ProjectileDelayEvent
 ---@return Bool
-function ProjectileLauncherRound:OnMaxLifetimeReached(evt) return end
+function ProjectileLauncherRound:OnMaxLifetimeReached(evt) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function ProjectileLauncherRound:OnProjectileInitialize(eventData) return end
+function ProjectileLauncherRound:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ProjectileLauncherRound:OnRequestComponents(ri) return end
+function ProjectileLauncherRound:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function ProjectileLauncherRound:OnShoot(eventData) return end
+function ProjectileLauncherRound:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function ProjectileLauncherRound:OnShootTarget(eventData) return end
+function ProjectileLauncherRound:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ProjectileLauncherRound:OnTakeControl(ri) return end
+function ProjectileLauncherRound:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function ProjectileLauncherRound:OnTick(eventData) return end
+function ProjectileLauncherRound:OnTick(eventData) end
 
----@protected
 ---@param position Vector4
 ---@param numImpulses Int32
 ---@return nil
-function ProjectileLauncherRound:AddWaterImpulsesOnDetonation(position, numImpulses) return end
+function ProjectileLauncherRound:AddWaterImpulsesOnDetonation(position, numImpulses) end
 
----@protected
 ---@param effectName CName|string
 ---@return nil
-function ProjectileLauncherRound:BreakVisualEffectLoop(effectName) return end
+function ProjectileLauncherRound:BreakVisualEffectLoop(effectName) end
 
----@protected
 ---@param collisionAction CName|string
 ---@return gamedataProjectileOnCollisionAction
-function ProjectileLauncherRound:CollisionActionNameToEnum(collisionAction) return end
+function ProjectileLauncherRound:CollisionActionNameToEnum(collisionAction) end
 
----@protected
 ---@param onCollisionStimType CName|string
 ---@return gamedataStimType
-function ProjectileLauncherRound:CollisionStimTypeNameToEnum(onCollisionStimType) return end
+function ProjectileLauncherRound:CollisionStimTypeNameToEnum(onCollisionStimType) end
 
----@protected
 ---@param value Float
 ---@return nil
-function ProjectileLauncherRound:CreateCustomTickEventWithDuration(value) return end
+function ProjectileLauncherRound:CreateCustomTickEventWithDuration(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function ProjectileLauncherRound:CreateDelayEvent(value) return end
+function ProjectileLauncherRound:CreateDelayEvent(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function ProjectileLauncherRound:CreateDetonationDelayEvent(value) return end
+function ProjectileLauncherRound:CreateDetonationDelayEvent(value) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param targetObject? gameObject
 ---@param targetComponent? entIPlacedComponent
@@ -126,161 +109,129 @@ function ProjectileLauncherRound:CreateDetonationDelayEvent(value) return end
 ---@param endLeanAngle Float
 ---@param angleInterpolationDuration Float
 ---@return nil
-function ProjectileLauncherRound:CurvedLaunch(eventData, targetObject, targetComponent, startVelocity, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, halfLeanAngle, endLeanAngle, angleInterpolationDuration) return end
+function ProjectileLauncherRound:CurvedLaunch(eventData, targetObject, targetComponent, startVelocity, linearTimeRatio, interpolationTimeRatio, returnTimeMargin, bendTimeRatio, bendFactor, halfLeanAngle, endLeanAngle, angleInterpolationDuration) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param targetObject? gameObject
 ---@param targetComponent? entIPlacedComponent
 ---@return nil
-function ProjectileLauncherRound:CurvedLaunchToTarget(eventData, targetObject, targetComponent) return end
+function ProjectileLauncherRound:CurvedLaunchToTarget(eventData, targetObject, targetComponent) end
 
----@protected
 ---@param stimToSend gamedataStimType
 ---@return nil
-function ProjectileLauncherRound:EvaluateStimBroadcasting(stimToSend) return end
+function ProjectileLauncherRound:EvaluateStimBroadcasting(stimToSend) end
 
----@protected
 ---@param projectilePosition Vector4
 ---@return nil
-function ProjectileLauncherRound:ExecuteGameEffect(projectilePosition) return end
+function ProjectileLauncherRound:ExecuteGameEffect(projectilePosition) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return nil
-function ProjectileLauncherRound:GeneralLaunchSetup(eventData) return end
+function ProjectileLauncherRound:GeneralLaunchSetup(eventData) end
 
----@protected
 ---@param param String
 ---@return Bool
-function ProjectileLauncherRound:GetBool(param) return end
+function ProjectileLauncherRound:GetBool(param) end
 
----@protected
 ---@param param String
 ---@return CName
-function ProjectileLauncherRound:GetCName(param) return end
+function ProjectileLauncherRound:GetCName(param) end
 
----@protected
 ---@param param String
 ---@return Float
-function ProjectileLauncherRound:GetFloat(param) return end
+function ProjectileLauncherRound:GetFloat(param) end
 
----@protected
 ---@param param String
 ---@return Int32
-function ProjectileLauncherRound:GetInt(param) return end
+function ProjectileLauncherRound:GetInt(param) end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@return gameObject
-function ProjectileLauncherRound:GetObject(hitInstance) return end
+function ProjectileLauncherRound:GetObject(hitInstance) end
 
----@protected
 ---@param object gameObject
 ---@return Vector4
-function ProjectileLauncherRound:GetObjectWorldPosition(object) return end
+function ProjectileLauncherRound:GetObjectWorldPosition(object) end
 
----@protected
 ---@param param String
 ---@return String
-function ProjectileLauncherRound:GetString(param) return end
+function ProjectileLauncherRound:GetString(param) end
 
----@protected
 ---@param param String
 ---@return Vector3
-function ProjectileLauncherRound:GetVector3(param) return end
+function ProjectileLauncherRound:GetVector3(param) end
 
----@protected
 ---@return Bool
-function ProjectileLauncherRound:HasTrajectory() return end
+function ProjectileLauncherRound:HasTrajectory() end
 
----@protected
 ---@param effectName CName|string
 ---@return nil
-function ProjectileLauncherRound:KillVisualEffect(effectName) return end
+function ProjectileLauncherRound:KillVisualEffect(effectName) end
 
----@protected
 ---@param launchModeName CName|string
 ---@return gamedataProjectileLaunchMode
-function ProjectileLauncherRound:LaunchModeNameToEnum(launchModeName) return end
+function ProjectileLauncherRound:LaunchModeNameToEnum(launchModeName) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param startVelocity Float
 ---@return nil
-function ProjectileLauncherRound:LinearLaunch(eventData, startVelocity) return end
+function ProjectileLauncherRound:LinearLaunch(eventData, startVelocity) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@param gravitySimulation Float
 ---@param startVelocity Float
 ---@param energyLossFactorAfterCollision Float
 ---@return nil
-function ProjectileLauncherRound:ParabolicLaunch(eventData, gravitySimulation, startVelocity, energyLossFactorAfterCollision) return end
+function ProjectileLauncherRound:ParabolicLaunch(eventData, gravitySimulation, startVelocity, energyLossFactorAfterCollision) end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:Release() return end
+function ProjectileLauncherRound:Release() end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:SetAttackRecordBasedOnAction() return end
+function ProjectileLauncherRound:SetAttackRecordBasedOnAction() end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:SetCollisionAction() return end
+function ProjectileLauncherRound:SetCollisionAction() end
 
----@protected
 ---@return Bool
-function ProjectileLauncherRound:SetCurrentlyInstalledRound() return end
+function ProjectileLauncherRound:SetCurrentlyInstalledRound() end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:SetLaunchModeBasedOnAction() return end
+function ProjectileLauncherRound:SetLaunchModeBasedOnAction() end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:SetLaunchVelocityBasedOnAction() return end
+function ProjectileLauncherRound:SetLaunchVelocityBasedOnAction() end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:SetProjectileDetonationTime() return end
+function ProjectileLauncherRound:SetProjectileDetonationTime() end
 
----@protected
 ---@return ELauncherActionType
-function ProjectileLauncherRound:SetProjectileLauncherAction() return end
+function ProjectileLauncherRound:SetProjectileLauncherAction() end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:SetProjectileLifetime() return end
+function ProjectileLauncherRound:SetProjectileLifetime() end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:SetProjectileTrailEffect() return end
+function ProjectileLauncherRound:SetProjectileTrailEffect() end
 
----@protected
 ---@param effectName CName|string
 ---@param eventTag? CName|string
 ---@return nil
-function ProjectileLauncherRound:SpawnVisualEffect(effectName, eventTag) return end
+function ProjectileLauncherRound:SpawnVisualEffect(effectName, eventTag) end
 
----@protected
 ---@return nil
-function ProjectileLauncherRound:StopProjectile() return end
+function ProjectileLauncherRound:StopProjectile() end
 
----@protected
 ---@param stimToSend gamedataStimType
 ---@param lifetime Float
 ---@param radius Float
 ---@return nil
-function ProjectileLauncherRound:TriggerActiveStimuliWithLifetime(stimToSend, lifetime, radius) return end
+function ProjectileLauncherRound:TriggerActiveStimuliWithLifetime(stimToSend, lifetime, radius) end
 
----@protected
 ---@param radius Float
 ---@param stimToSend gamedataStimType
 ---@return nil
-function ProjectileLauncherRound:TriggerSingleStimuli(radius, stimToSend) return end
+function ProjectileLauncherRound:TriggerSingleStimuli(radius, stimToSend) end
 
----@protected
 ---@return Bool
-function ProjectileLauncherRound:WeaponIsCharged() return end
+function ProjectileLauncherRound:WeaponIsCharged() end

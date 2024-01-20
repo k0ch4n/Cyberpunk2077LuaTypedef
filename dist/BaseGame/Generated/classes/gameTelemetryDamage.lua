@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameTelemetryDamage
----@field public attackType gamedataAttackType
----@field public attackRecord TweakDBID
----@field public damageAmount Float
----@field public weapon gameTelemetryInventoryItem
----@field public sourceEntity gameTelemetrySourceEntity
----@field public hitCount Uint32
----@field public distance Float
----@field public time Float
+---@field attackType gamedataAttackType
+---@field attackRecord TweakDBID
+---@field damageAmount Float
+---@field weapon gameTelemetryInventoryItem
+---@field sourceEntity gameTelemetrySourceEntity
+---@field hitCount Uint32
+---@field distance Float
+---@field time Float
 gameTelemetryDamage = {}
 
 ---@param fields? gameTelemetryDamage
 ---@return gameTelemetryDamage
-function gameTelemetryDamage.new(fields) return end
+function gameTelemetryDamage.new(fields) end

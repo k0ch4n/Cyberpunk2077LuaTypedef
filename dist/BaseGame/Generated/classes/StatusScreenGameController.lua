@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class StatusScreenGameController: BaseBunkerComputerGameController
----@field protected alphaSys inkWidgetReference
----@field protected bravoSys inkWidgetReference
----@field protected sierraSys inkWidgetReference
----@field protected victorSys inkWidgetReference
----@field protected sierraBackupSys inkWidgetReference
----@field protected victorBackupSys inkWidgetReference
+---@field alphaSys inkWidgetReference
+---@field bravoSys inkWidgetReference
+---@field sierraSys inkWidgetReference
+---@field victorSys inkWidgetReference
+---@field sierraBackupSys inkWidgetReference
+---@field victorBackupSys inkWidgetReference
 StatusScreenGameController = {}
 
 ---@param fields? StatusScreenGameController
 ---@return StatusScreenGameController
-function StatusScreenGameController.new(fields) return end
+function StatusScreenGameController.new(fields) end
 
----@protected
 ---@return Bool
-function StatusScreenGameController:OnInitialize() return end
+function StatusScreenGameController:OnInitialize() end
 
----@protected
 ---@return nil
-function StatusScreenGameController:UpdateStatus() return end
+function StatusScreenGameController:UpdateStatus() end

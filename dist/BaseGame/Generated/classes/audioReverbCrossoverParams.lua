@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioReverbCrossoverParams
----@field public dist Float
----@field public fade Float
+---@field dist Float
+---@field fade Float
 audioReverbCrossoverParams = {}
 
 ---@param fields? audioReverbCrossoverParams
 ---@return audioReverbCrossoverParams
-function audioReverbCrossoverParams.new(fields) return end
+function audioReverbCrossoverParams.new(fields) end

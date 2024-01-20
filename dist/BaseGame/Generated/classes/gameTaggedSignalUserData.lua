@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameTaggedSignalUserData: gameSignalUserData
----@field public tags CName[]
+---@field tags CName[]
 gameTaggedSignalUserData = {}
 
 ---@param fields? gameTaggedSignalUserData
 ---@return gameTaggedSignalUserData
-function gameTaggedSignalUserData.new(fields) return end
+function gameTaggedSignalUserData.new(fields) end
 
 ---@param tag CName|string
 ---@return nil
-function gameTaggedSignalUserData:AddTag(tag) return end
+function gameTaggedSignalUserData:AddTag(tag) end

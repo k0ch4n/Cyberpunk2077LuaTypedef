@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SimpleSandevistanDashShootCondition: AIbehaviorconditionScript
----@field private initialized Bool
----@field private result Bool
+---@field initialized Bool
+---@field result Bool
 SimpleSandevistanDashShootCondition = {}
 
 ---@param fields? SimpleSandevistanDashShootCondition
 ---@return SimpleSandevistanDashShootCondition
-function SimpleSandevistanDashShootCondition.new(fields) return end
+function SimpleSandevistanDashShootCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleSandevistanDashShootCondition:Activate(context) return end
+function SimpleSandevistanDashShootCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function SimpleSandevistanDashShootCondition:Check(context) return end
+function SimpleSandevistanDashShootCondition:Check(context) end

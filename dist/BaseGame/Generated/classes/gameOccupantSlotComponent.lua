@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameOccupantSlotComponent: entSlotComponent
----@field public slotData gameOccupantSlotData[]
+---@field slotData gameOccupantSlotData[]
 gameOccupantSlotComponent = {}
 
 ---@param fields? gameOccupantSlotComponent
 ---@return gameOccupantSlotComponent
-function gameOccupantSlotComponent.new(fields) return end
+function gameOccupantSlotComponent.new(fields) end

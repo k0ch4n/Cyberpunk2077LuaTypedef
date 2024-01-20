@@ -5,7 +5,7 @@ gameuiSettingsControlsGameController = {}
 
 ---@param fields? gameuiSettingsControlsGameController
 ---@return gameuiSettingsControlsGameController
-function gameuiSettingsControlsGameController.new(fields) return end
+function gameuiSettingsControlsGameController.new(fields) end
 
 ---@return nil
-function gameuiSettingsControlsGameController:GetInputActionDisplayList() return end
+function gameuiSettingsControlsGameController:GetInputActionDisplayList() end

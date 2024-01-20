@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameJournalRequestClassFilter
----@field public className CName
+---@field className CName
 gameJournalRequestClassFilter = {}
 
 ---@param fields? gameJournalRequestClassFilter
 ---@return gameJournalRequestClassFilter
-function gameJournalRequestClassFilter.new(fields) return end
+function gameJournalRequestClassFilter.new(fields) end

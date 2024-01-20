@@ -1,35 +1,35 @@
 ---@meta
 
 ---@class gameJournalContact: gameJournalFileEntry
----@field public name LocalizationString
----@field public avatarID TweakDBID
----@field public type gameContactType
----@field public useFlatMessageLayout Bool
----@field public isCallableDefault Bool
+---@field name LocalizationString
+---@field avatarID TweakDBID
+---@field type gameContactType
+---@field useFlatMessageLayout Bool
+---@field isCallableDefault Bool
 gameJournalContact = {}
 
 ---@param fields? gameJournalContact
 ---@return gameJournalContact
-function gameJournalContact.new(fields) return end
+function gameJournalContact.new(fields) end
 
 ---@param journalManager gameIJournalManager
 ---@return TweakDBID
-function gameJournalContact:GetAvatarID(journalManager) return end
+function gameJournalContact:GetAvatarID(journalManager) end
 
 ---@param journalManager gameIJournalManager
 ---@return String
-function gameJournalContact:GetLocalizedName(journalManager) return end
+function gameJournalContact:GetLocalizedName(journalManager) end
 
 ---@return gameContactType
-function gameJournalContact:GetType() return end
+function gameJournalContact:GetType() end
 
 ---@param journalManager gameIJournalManager
 ---@return Bool
-function gameJournalContact:IsCallable(journalManager) return end
+function gameJournalContact:IsCallable(journalManager) end
 
 ---@param journalManager gameIJournalManager
 ---@return Bool
-function gameJournalContact:IsKnown(journalManager) return end
+function gameJournalContact:IsKnown(journalManager) end
 
 ---@return Bool
-function gameJournalContact:ShouldUseFlatMessageLayout() return end
+function gameJournalContact:ShouldUseFlatMessageLayout() end

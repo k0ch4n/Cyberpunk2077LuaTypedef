@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class BasePerksMenuTooltipData: ATooltipData
----@field public manager PlayerDevelopmentDataManager
+---@field manager PlayerDevelopmentDataManager
 BasePerksMenuTooltipData = {}
 
 ---@param fields? BasePerksMenuTooltipData
 ---@return BasePerksMenuTooltipData
-function BasePerksMenuTooltipData.new(fields) return end
+function BasePerksMenuTooltipData.new(fields) end
 
 ---@return nil
-function BasePerksMenuTooltipData:RefreshRuntimeData() return end
+function BasePerksMenuTooltipData:RefreshRuntimeData() end

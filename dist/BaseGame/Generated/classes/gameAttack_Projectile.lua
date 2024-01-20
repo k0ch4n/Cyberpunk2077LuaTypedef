@@ -5,8 +5,8 @@ gameAttack_Projectile = {}
 
 ---@param fields? gameAttack_Projectile
 ---@return gameAttack_Projectile
-function gameAttack_Projectile.new(fields) return end
+function gameAttack_Projectile.new(fields) end
 
 ---@param instigator gameObject
 ---@return gameprojectileSpawnerLaunchEvent
-function gameAttack_Projectile:PrepareAttack(instigator) return end
+function gameAttack_Projectile:PrepareAttack(instigator) end

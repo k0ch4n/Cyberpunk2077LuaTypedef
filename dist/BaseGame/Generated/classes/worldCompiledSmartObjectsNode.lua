@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldCompiledSmartObjectsNode: worldNode
----@field public resource gameSmartObjectsCompiledResource
+---@field resource gameSmartObjectsCompiledResource
 worldCompiledSmartObjectsNode = {}
 
 ---@param fields? worldCompiledSmartObjectsNode
 ---@return worldCompiledSmartObjectsNode
-function worldCompiledSmartObjectsNode.new(fields) return end
+function worldCompiledSmartObjectsNode.new(fields) end

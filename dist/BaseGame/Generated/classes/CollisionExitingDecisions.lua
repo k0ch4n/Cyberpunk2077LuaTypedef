@@ -5,15 +5,15 @@ CollisionExitingDecisions = {}
 
 ---@param fields? CollisionExitingDecisions
 ---@return CollisionExitingDecisions
-function CollisionExitingDecisions.new(fields) return end
+function CollisionExitingDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CollisionExitingDecisions:EnterCondition(stateContext, scriptInterface) return end
+function CollisionExitingDecisions:EnterCondition(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param vehicle vehicleBaseObject
 ---@param collisionForce Vector4
 ---@return nil
-function CollisionExitingDecisions:SetBikeForce(stateContext, vehicle, collisionForce) return end
+function CollisionExitingDecisions:SetBikeForce(stateContext, vehicle, collisionForce) end

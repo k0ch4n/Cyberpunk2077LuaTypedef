@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ncartDoorScreenLineDataDef
----@field public lineNumber Uint32
----@field public lineColor Color
----@field public lineSymbolWidget inkWidgetReference
+---@field lineNumber Uint32
+---@field lineColor Color
+---@field lineSymbolWidget inkWidgetReference
 ncartDoorScreenLineDataDef = {}
 
 ---@param fields? ncartDoorScreenLineDataDef
 ---@return ncartDoorScreenLineDataDef
-function ncartDoorScreenLineDataDef.new(fields) return end
+function ncartDoorScreenLineDataDef.new(fields) end

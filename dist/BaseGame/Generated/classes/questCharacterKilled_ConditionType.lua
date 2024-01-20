@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questCharacterKilled_ConditionType: questICharacterConditionType
----@field public objectRef gameEntityReference
----@field public source questUniversalRef
----@field public comparisonParams questComparisonParam
----@field public killed Bool
----@field public unconscious Bool
----@field public defeated Bool
+---@field objectRef gameEntityReference
+---@field source questUniversalRef
+---@field comparisonParams questComparisonParam
+---@field killed Bool
+---@field unconscious Bool
+---@field defeated Bool
 questCharacterKilled_ConditionType = {}
 
 ---@param fields? questCharacterKilled_ConditionType
 ---@return questCharacterKilled_ConditionType
-function questCharacterKilled_ConditionType.new(fields) return end
+function questCharacterKilled_ConditionType.new(fields) end

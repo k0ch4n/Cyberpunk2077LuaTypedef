@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioLocomotionCustomActionType: audioAudioMetadata
----@field public void Bool
+---@field void Bool
 audioLocomotionCustomActionType = {}
 
 ---@param fields? audioLocomotionCustomActionType
 ---@return audioLocomotionCustomActionType
-function audioLocomotionCustomActionType.new(fields) return end
+function audioLocomotionCustomActionType.new(fields) end

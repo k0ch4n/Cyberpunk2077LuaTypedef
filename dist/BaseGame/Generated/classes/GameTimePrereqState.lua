@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class GameTimePrereqState: gamePrereqState
----@field public listener Uint32
----@field public repeated Bool
+---@field listener Uint32
+---@field repeated Bool
 GameTimePrereqState = {}
 
 ---@param fields? GameTimePrereqState
 ---@return GameTimePrereqState
-function GameTimePrereqState.new(fields) return end
+function GameTimePrereqState.new(fields) end
 
 ---@return nil
-function GameTimePrereqState:UpdatePrereq() return end
+function GameTimePrereqState:UpdatePrereq() end

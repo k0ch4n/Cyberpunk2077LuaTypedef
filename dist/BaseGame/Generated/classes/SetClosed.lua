@@ -5,23 +5,23 @@ SetClosed = {}
 
 ---@param fields? SetClosed
 ---@return SetClosed
-function SetClosed.new(fields) return end
+function SetClosed.new(fields) end
 
 ---@param device DoorControllerPS
 ---@return Bool
-function SetClosed.IsAvailable(device) return end
+function SetClosed.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SetClosed.IsClearanceValid(clearance) return end
+function SetClosed.IsClearanceValid(clearance) end
 
 ---@param device DoorControllerPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function SetClosed.IsDefaultConditionMet(device, context) return end
+function SetClosed.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function SetClosed:GetTweakDBChoiceRecord() return end
+function SetClosed:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function SetClosed:SetProperties() return end
+function SetClosed:SetProperties() end

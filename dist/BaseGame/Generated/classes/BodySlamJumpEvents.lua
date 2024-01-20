@@ -5,10 +5,9 @@ BodySlamJumpEvents = {}
 
 ---@param fields? BodySlamJumpEvents
 ---@return BodySlamJumpEvents
-function BodySlamJumpEvents.new(fields) return end
+function BodySlamJumpEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BodySlamJumpEvents:OnExit(stateContext, scriptInterface) return end
+function BodySlamJumpEvents:OnExit(stateContext, scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioDynamicEventsPerVisualTags
----@field public visualTags CName[]
----@field public grunts audioDynamicEventsWithInterval[]
+---@field visualTags CName[]
+---@field grunts audioDynamicEventsWithInterval[]
 audioDynamicEventsPerVisualTags = {}
 
 ---@param fields? audioDynamicEventsPerVisualTags
 ---@return audioDynamicEventsPerVisualTags
-function audioDynamicEventsPerVisualTags.new(fields) return end
+function audioDynamicEventsPerVisualTags.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioAnyStateTransitionEntry
----@field public isDisabled Bool
----@field public sourceStateId Uint8
----@field public targetStateId Uint8
----@field public transitionTime Float
+---@field isDisabled Bool
+---@field sourceStateId Uint8
+---@field targetStateId Uint8
+---@field transitionTime Float
 audioAnyStateTransitionEntry = {}
 
 ---@param fields? audioAnyStateTransitionEntry
 ---@return audioAnyStateTransitionEntry
-function audioAnyStateTransitionEntry.new(fields) return end
+function audioAnyStateTransitionEntry.new(fields) end

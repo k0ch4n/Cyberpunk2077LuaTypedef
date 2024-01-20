@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class audioAccumulatedSoundDecoratorMetadata: audioEmitterMetadata
----@field public accumulatedSounds CName[]
----@field public inSpammingMode Bool
----@field public fadeParam CName
----@field public soundTimeout Float
----@field public loopStart CName
----@field public loopEnd CName
----@field public spammingSound CName
----@field public spammingSoundInterval Float
+---@field accumulatedSounds CName[]
+---@field inSpammingMode Bool
+---@field fadeParam CName
+---@field soundTimeout Float
+---@field loopStart CName
+---@field loopEnd CName
+---@field spammingSound CName
+---@field spammingSoundInterval Float
 audioAccumulatedSoundDecoratorMetadata = {}
 
 ---@param fields? audioAccumulatedSoundDecoratorMetadata
 ---@return audioAccumulatedSoundDecoratorMetadata
-function audioAccumulatedSoundDecoratorMetadata.new(fields) return end
+function audioAccumulatedSoundDecoratorMetadata.new(fields) end

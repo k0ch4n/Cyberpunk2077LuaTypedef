@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class OptionalAreaEffectData: IScriptable
----@field private includeInAoeData Bool
----@field private aoeData AreaEffectData
+---@field includeInAoeData Bool
+---@field aoeData AreaEffectData
 OptionalAreaEffectData = {}
 
 ---@param fields? OptionalAreaEffectData
 ---@return OptionalAreaEffectData
-function OptionalAreaEffectData.new(fields) return end
+function OptionalAreaEffectData.new(fields) end
 
 ---@return AreaEffectData
-function OptionalAreaEffectData:GetAoeData() return end
+function OptionalAreaEffectData:GetAoeData() end
 
 ---@return Bool
-function OptionalAreaEffectData:ShouldIncludeInAoeData() return end
+function OptionalAreaEffectData:ShouldIncludeInAoeData() end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class physicsSystemBody: physicsISystemObject
----@field public params physicsSystemBodyParams
----@field public localToModel Transform
----@field public collisionShapes physicsICollider[]
----@field public mappedBoneName CName
----@field public mappedBoneToBody Transform
----@field public isQueryBodyOnly Bool
+---@field params physicsSystemBodyParams
+---@field localToModel Transform
+---@field collisionShapes physicsICollider[]
+---@field mappedBoneName CName
+---@field mappedBoneToBody Transform
+---@field isQueryBodyOnly Bool
 physicsSystemBody = {}
 
 ---@param fields? physicsSystemBody
 ---@return physicsSystemBody
-function physicsSystemBody.new(fields) return end
+function physicsSystemBody.new(fields) end

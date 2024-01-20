@@ -1,32 +1,31 @@
 ---@meta
 
 ---@class gameuiRoachRaceGameLogicController: gameuiSideScrollerMiniGameLogicController
----@field public jumpAcceleration Float
----@field public jumpCancelAcceleration Float
----@field public gravity Float
----@field public playerSpawnPoint Vector2
----@field public pixelsPerScore Float
----@field public invincibilityTime Float
----@field public maxSpeedMultiplier Float
----@field public multiplierPerScore Float
----@field public house inkWidgetReference
----@field public ground inkWidgetReference
----@field public startAnimation CName
----@field public deathAnimation CName
----@field public layers gameuiRoachRaceChunkLayer[]
----@field private damageAnimation CName
----@field private healAnimation CName
----@field private healthText inkTextWidgetReference
----@field private scoreText inkTextWidgetReference
----@field private scoreMultiplierText inkTextWidgetReference
----@field private previousHealth Int32
+---@field jumpAcceleration Float
+---@field jumpCancelAcceleration Float
+---@field gravity Float
+---@field playerSpawnPoint Vector2
+---@field pixelsPerScore Float
+---@field invincibilityTime Float
+---@field maxSpeedMultiplier Float
+---@field multiplierPerScore Float
+---@field house inkWidgetReference
+---@field ground inkWidgetReference
+---@field startAnimation CName
+---@field deathAnimation CName
+---@field layers gameuiRoachRaceChunkLayer[]
+---@field damageAnimation CName
+---@field healAnimation CName
+---@field healthText inkTextWidgetReference
+---@field scoreText inkTextWidgetReference
+---@field scoreMultiplierText inkTextWidgetReference
+---@field previousHealth Int32
 gameuiRoachRaceGameLogicController = {}
 
 ---@param fields? gameuiRoachRaceGameLogicController
 ---@return gameuiRoachRaceGameLogicController
-function gameuiRoachRaceGameLogicController.new(fields) return end
+function gameuiRoachRaceGameLogicController.new(fields) end
 
----@protected
 ---@param gameStateUpdateEvent gameuiOnMiniGameStateUpdateEvent
 ---@return nil
-function gameuiRoachRaceGameLogicController:OnGameStateUpdateLogic(gameStateUpdateEvent) return end
+function gameuiRoachRaceGameLogicController:OnGameStateUpdateLogic(gameStateUpdateEvent) end

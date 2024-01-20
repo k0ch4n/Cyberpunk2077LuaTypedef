@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questAnimationEventsOverrideNode: questIAudioNodeType
----@field public perActorOverrides questActorOverrideEntry[]
----@field public GlobalMetadata CName
+---@field perActorOverrides questActorOverrideEntry[]
+---@field GlobalMetadata CName
 questAnimationEventsOverrideNode = {}
 
 ---@param fields? questAnimationEventsOverrideNode
 ---@return questAnimationEventsOverrideNode
-function questAnimationEventsOverrideNode.new(fields) return end
+function questAnimationEventsOverrideNode.new(fields) end

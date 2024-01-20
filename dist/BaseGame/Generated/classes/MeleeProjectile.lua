@@ -1,93 +1,81 @@
 ---@meta
 
 ---@class MeleeProjectile: BaseProjectile
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected throwCooldownSE TweakDBID
----@field protected collided Bool
----@field protected wasPicked Bool
----@field protected isActive Bool
----@field protected hasHitWater Bool
----@field protected waterHeight Float
----@field protected deactivationDepth Float
----@field protected waterImpulseRadius Float
----@field protected waterImpulseStrength Float
----@field protected gravitySimulationMult Float
----@field protected weapon gameObject
----@field private throwingMeleeResourcePoolListener ThrowingMeleeReloadListener
----@field protected projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
----@field protected projectileStopped Bool
----@field protected isCollidedWithEnemy Bool
+---@field resourceLibraryComponent ResourceLibraryComponent
+---@field throwCooldownSE TweakDBID
+---@field collided Bool
+---@field wasPicked Bool
+---@field isActive Bool
+---@field hasHitWater Bool
+---@field waterHeight Float
+---@field deactivationDepth Float
+---@field waterImpulseRadius Float
+---@field waterImpulseStrength Float
+---@field gravitySimulationMult Float
+---@field weapon gameObject
+---@field throwingMeleeResourcePoolListener ThrowingMeleeReloadListener
+---@field projectileCollisionEvaluator ThrowingMeleeCollisionEvaluator
+---@field projectileStopped Bool
+---@field isCollidedWithEnemy Bool
 MeleeProjectile = {}
 
 ---@param fields? MeleeProjectile
 ---@return MeleeProjectile
-function MeleeProjectile.new(fields) return end
+function MeleeProjectile.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function MeleeProjectile:OnCollision(eventData) return end
+function MeleeProjectile:OnCollision(eventData) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function MeleeProjectile:OnInteractionActivationEvent(evt) return end
+function MeleeProjectile:OnInteractionActivationEvent(evt) end
 
----@protected
 ---@param evt ProjectileDelayEvent
 ---@return Bool
-function MeleeProjectile:OnMaxLifetimeReached(evt) return end
+function MeleeProjectile:OnMaxLifetimeReached(evt) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function MeleeProjectile:OnProjectileInitialize(eventData) return end
+function MeleeProjectile:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function MeleeProjectile:OnRequestComponents(ri) return end
+function MeleeProjectile:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function MeleeProjectile:OnShoot(eventData) return end
+function MeleeProjectile:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function MeleeProjectile:OnShootTarget(eventData) return end
+function MeleeProjectile:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function MeleeProjectile:OnTakeControl(ri) return end
+function MeleeProjectile:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function MeleeProjectile:OnTick(eventData) return end
+function MeleeProjectile:OnTick(eventData) end
 
----@protected
 ---@return nil
-function MeleeProjectile:DeactivateAndSink() return end
+function MeleeProjectile:DeactivateAndSink() end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return nil
-function MeleeProjectile:ExecuteParabolicLaunch(eventData) return end
+function MeleeProjectile:ExecuteParabolicLaunch(eventData) end
 
 ---@return EFocusOutlineType
-function MeleeProjectile:GetCurrentOutline() return end
+function MeleeProjectile:GetCurrentOutline() end
 
 ---@return FocusForcedHighlightData
-function MeleeProjectile:GetDefaultHighlight() return end
+function MeleeProjectile:GetDefaultHighlight() end
 
----@protected
 ---@param appearance CName|string
 ---@param component? CName|string
 ---@return nil
-function MeleeProjectile:SetMeshAppearance(appearance, component) return end
+function MeleeProjectile:SetMeshAppearance(appearance, component) end
 
 ---@return nil
-function MeleeProjectile:TryToReleaseProjectile() return end
+function MeleeProjectile:TryToReleaseProjectile() end

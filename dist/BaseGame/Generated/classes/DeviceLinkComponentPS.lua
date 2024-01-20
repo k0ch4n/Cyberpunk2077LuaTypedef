@@ -1,151 +1,134 @@
 ---@meta
 
 ---@class DeviceLinkComponentPS: SharedGameplayPS
----@field private parentDevice DeviceLink
----@field private isConnected Bool
----@field protected ownerEntityID entEntityID
+---@field parentDevice DeviceLink
+---@field isConnected Bool
+---@field ownerEntityID entEntityID
 DeviceLinkComponentPS = {}
 
 ---@param fields? DeviceLinkComponentPS
 ---@return DeviceLinkComponentPS
-function DeviceLinkComponentPS.new(fields) return end
+function DeviceLinkComponentPS.new(fields) end
 
 ---@param entityID entEntityID
 ---@return DeviceLinkComponentPS
-function DeviceLinkComponentPS.AcquireDeviceLink(entityID) return end
+function DeviceLinkComponentPS.AcquireDeviceLink(entityID) end
 
 ---@param entityID entEntityID
 ---@return DeviceLinkComponentPS
-function DeviceLinkComponentPS.CreateAndAcquireDeviceLink(entityID) return end
+function DeviceLinkComponentPS.CreateAndAcquireDeviceLink(entityID) end
 
 ---@param id entEntityID
 ---@return gamePersistentID
-function DeviceLinkComponentPS.GenerateID(id) return end
+function DeviceLinkComponentPS.GenerateID(id) end
 
----@private
 ---@param ps gamePersistentState
 ---@return PingDevice
-function DeviceLinkComponentPS:ActionDevicePing(ps) return end
+function DeviceLinkComponentPS:ActionDevicePing(ps) end
 
 ---@param lastKnownPosition Vector4
 ---@param whoBreached gameObject
 ---@param type ESecurityNotificationType
 ---@param stimType? gamedataStimType
 ---@return SecuritySystemInput
-function DeviceLinkComponentPS:ActionSecurityBreachNotification(lastKnownPosition, whoBreached, type, stimType) return end
+function DeviceLinkComponentPS:ActionSecurityBreachNotification(lastKnownPosition, whoBreached, type, stimType) end
 
----@private
 ---@param links gameDeviceComponentPS[]
 ---@return nil
-function DeviceLinkComponentPS:Connect(links) return end
+function DeviceLinkComponentPS:Connect(links) end
 
----@private
 ---@param link gameDeviceComponentPS
 ---@return nil
-function DeviceLinkComponentPS:Connect(link) return end
+function DeviceLinkComponentPS:Connect(link) end
 
----@private
 ---@param links gameDeviceComponentPS[]
 ---@return nil
-function DeviceLinkComponentPS:Disconnect(links) return end
+function DeviceLinkComponentPS:Disconnect(links) end
 
----@private
 ---@param link gameDeviceComponentPS
 ---@return nil
-function DeviceLinkComponentPS:Disconnect(link) return end
+function DeviceLinkComponentPS:Disconnect(link) end
 
----@private
 ---@param connect Bool
 ---@return nil
-function DeviceLinkComponentPS:EstablishLink(connect) return end
+function DeviceLinkComponentPS:EstablishLink(connect) end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function DeviceLinkComponentPS:GetAncestors() return end
+function DeviceLinkComponentPS:GetAncestors() end
 
 ---@param deviceLink DeviceLink
 ---@return gameDeviceComponentPS
-function DeviceLinkComponentPS:GetDevice(deviceLink) return end
+function DeviceLinkComponentPS:GetDevice(deviceLink) end
 
 ---@return SharedGameplayPS
-function DeviceLinkComponentPS:GetParentDevice() return end
+function DeviceLinkComponentPS:GetParentDevice() end
 
----@protected
 ---@return DeviceLink
-function DeviceLinkComponentPS:GetParentDeviceLink() return end
+function DeviceLinkComponentPS:GetParentDeviceLink() end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function DeviceLinkComponentPS:GetParents() return end
+function DeviceLinkComponentPS:GetParents() end
 
 ---@return Bool
-function DeviceLinkComponentPS:HasNetworkBackdoor() return end
+function DeviceLinkComponentPS:HasNetworkBackdoor() end
 
 ---@return Bool
-function DeviceLinkComponentPS:IsConnected() return end
+function DeviceLinkComponentPS:IsConnected() end
 
----@protected
 ---@param evt AddToBlacklistEvent
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnAddToBlacklistEvent(evt) return end
+function DeviceLinkComponentPS:OnAddToBlacklistEvent(evt) end
 
----@protected
 ---@param evt DestroyLink
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnDestroyLink(evt) return end
+function DeviceLinkComponentPS:OnDestroyLink(evt) end
 
----@protected
 ---@param evt DeviceLinkRequest
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnDeviceLinkRequest(evt) return end
+function DeviceLinkComponentPS:OnDeviceLinkRequest(evt) end
 
----@protected
 ---@param evt RemoveFromBlacklistEvent
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnRemoveFromBlacklistEvent(evt) return end
+function DeviceLinkComponentPS:OnRemoveFromBlacklistEvent(evt) end
 
----@protected
 ---@param evt SecurityAreaCrossingPerimeter
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnSecurityAreaCrossingPerimeter(evt) return end
+function DeviceLinkComponentPS:OnSecurityAreaCrossingPerimeter(evt) end
 
----@protected
 ---@param evt SecuritySystemDisabled
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnSecuritySystemDisabled(evt) return end
+function DeviceLinkComponentPS:OnSecuritySystemDisabled(evt) end
 
----@protected
 ---@param evt SecuritySystemEnabled
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnSecuritySystemEnabled(evt) return end
+function DeviceLinkComponentPS:OnSecuritySystemEnabled(evt) end
 
----@protected
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnSecuritySystemOutput(evt) return end
+function DeviceLinkComponentPS:OnSecuritySystemOutput(evt) end
 
----@protected
 ---@param evt TargetAssessmentRequest
 ---@return EntityNotificationType
-function DeviceLinkComponentPS:OnTargetAssessmentRequest(evt) return end
+function DeviceLinkComponentPS:OnTargetAssessmentRequest(evt) end
 
 ---@return nil
-function DeviceLinkComponentPS:PingDevicesNetwork() return end
+function DeviceLinkComponentPS:PingDevicesNetwork() end
 
----@protected
 ---@param deviceLink DeviceLink
 ---@param evt redEvent
 ---@return nil
-function DeviceLinkComponentPS:QueuePSEvent(deviceLink, evt) return end
+function DeviceLinkComponentPS:QueuePSEvent(deviceLink, evt) end
 
 ---@param wasRevealed Bool
 ---@return nil
-function DeviceLinkComponentPS:SetRevealedInNetworkPing(wasRevealed) return end
+function DeviceLinkComponentPS:SetRevealedInNetworkPing(wasRevealed) end
 
 ---@param lastKnownPosition Vector4
 ---@param whoBreached gameObject
 ---@param type ESecurityNotificationType
 ---@param stimType? gamedataStimType
 ---@return nil
-function DeviceLinkComponentPS:TriggerSecuritySystemNotification(lastKnownPosition, whoBreached, type, stimType) return end
+function DeviceLinkComponentPS:TriggerSecuritySystemNotification(lastKnownPosition, whoBreached, type, stimType) end
 
 ---@return Bool
-function DeviceLinkComponentPS:WasRevealedInNetworkPing() return end
+function DeviceLinkComponentPS:WasRevealedInNetworkPing() end

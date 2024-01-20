@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiarcadeShooterBackgroundController: inkWidgetLogicController
----@field public layerInfo gameuiarcadeShooterLayerInfo[]
----@field public allowMarginTranslation Bool
----@field public expPlatformImageDetails gameuiarcadeShooterExplodingPlatformsImageWidgetDetail[]
+---@field layerInfo gameuiarcadeShooterLayerInfo[]
+---@field allowMarginTranslation Bool
+---@field expPlatformImageDetails gameuiarcadeShooterExplodingPlatformsImageWidgetDetail[]
 gameuiarcadeShooterBackgroundController = {}
 
 ---@param fields? gameuiarcadeShooterBackgroundController
 ---@return gameuiarcadeShooterBackgroundController
-function gameuiarcadeShooterBackgroundController.new(fields) return end
+function gameuiarcadeShooterBackgroundController.new(fields) end

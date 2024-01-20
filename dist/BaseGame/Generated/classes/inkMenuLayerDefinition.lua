@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkMenuLayerDefinition: inkLayerDefinition
----@field public menuResource inkMenuResource
----@field public cursorResource inkWidgetLibraryResource
+---@field menuResource inkMenuResource
+---@field cursorResource inkWidgetLibraryResource
 inkMenuLayerDefinition = {}
 
 ---@param fields? inkMenuLayerDefinition
 ---@return inkMenuLayerDefinition
-function inkMenuLayerDefinition.new(fields) return end
+function inkMenuLayerDefinition.new(fields) end

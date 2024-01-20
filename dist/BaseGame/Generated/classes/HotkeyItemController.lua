@@ -1,64 +1,54 @@
 ---@meta
 
 ---@class HotkeyItemController: GenericHotkeyController
----@field protected hotkeyItemSlot inkWidgetReference
----@field protected hotkeyItemWidget inkWidget
----@field protected hotkeyItemController InventoryItemDisplayController
----@field protected currentItem gameInventoryItemData
----@field private hotkeyBlackboard gameIBlackboard
----@field private hotkeyCallbackID redCallbackObject
----@field private equipmentSystem EquipmentSystem
----@field protected inventoryManager InventoryDataManagerV2
----@field protected dpadAnim inkanimProxy
+---@field hotkeyItemSlot inkWidgetReference
+---@field hotkeyItemWidget inkWidget
+---@field hotkeyItemController InventoryItemDisplayController
+---@field currentItem gameInventoryItemData
+---@field hotkeyBlackboard gameIBlackboard
+---@field hotkeyCallbackID redCallbackObject
+---@field equipmentSystem EquipmentSystem
+---@field inventoryManager InventoryDataManagerV2
+---@field dpadAnim inkanimProxy
 HotkeyItemController = {}
 
 ---@param fields? HotkeyItemController
 ---@return HotkeyItemController
-function HotkeyItemController.new(fields) return end
+function HotkeyItemController.new(fields) end
 
----@protected
 ---@param evt DPADActionPerformed
 ---@return Bool
-function HotkeyItemController:OnDpadActionPerformed(evt) return end
+function HotkeyItemController:OnDpadActionPerformed(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function HotkeyItemController:OnHotkeyRefreshed(value) return end
+function HotkeyItemController:OnHotkeyRefreshed(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function HotkeyItemController:OnPlayerAttach(playerPuppet) return end
+function HotkeyItemController:OnPlayerAttach(playerPuppet) end
 
----@private
 ---@return EquipmentSystem
-function HotkeyItemController:GetEquipmentSystem() return end
+function HotkeyItemController:GetEquipmentSystem() end
 
----@protected
 ---@return Bool
-function HotkeyItemController:Initialize() return end
+function HotkeyItemController:Initialize() end
 
----@private
 ---@return nil
-function HotkeyItemController:InitializeHotkeyItem() return end
+function HotkeyItemController:InitializeHotkeyItem() end
 
----@protected
 ---@return Bool
-function HotkeyItemController:IsAllowedByGameplay() return end
+function HotkeyItemController:IsAllowedByGameplay() end
 
 ---@param value Int32
 ---@return nil
-function HotkeyItemController:OnQuestActivate(value) return end
+function HotkeyItemController:OnQuestActivate(value) end
 
----@protected
 ---@return nil
-function HotkeyItemController:StopDpadAnim() return end
+function HotkeyItemController:StopDpadAnim() end
 
----@protected
 ---@return nil
-function HotkeyItemController:Uninitialize() return end
+function HotkeyItemController:Uninitialize() end
 
----@protected
 ---@return nil
-function HotkeyItemController:UpdateCurrentItem() return end
+function HotkeyItemController:UpdateCurrentItem() end

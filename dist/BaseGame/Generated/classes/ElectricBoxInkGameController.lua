@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class ElectricBoxInkGameController: DeviceInkGameControllerBase
----@field private onOverrideListener redCallbackObject
+---@field onOverrideListener redCallbackObject
 ElectricBoxInkGameController = {}
 
 ---@param fields? ElectricBoxInkGameController
 ---@return ElectricBoxInkGameController
-function ElectricBoxInkGameController.new(fields) return end
+function ElectricBoxInkGameController.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function ElectricBoxInkGameController:OnOverride(value) return end
+function ElectricBoxInkGameController:OnOverride(value) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ElectricBoxInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function ElectricBoxInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ElectricBoxInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function ElectricBoxInkGameController:UnRegisterBlackboardCallbacks(blackboard) end

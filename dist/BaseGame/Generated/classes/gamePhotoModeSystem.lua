@@ -5,21 +5,21 @@ gamePhotoModeSystem = {}
 
 ---@param fields? gamePhotoModeSystem
 ---@return gamePhotoModeSystem
-function gamePhotoModeSystem.new(fields) return end
+function gamePhotoModeSystem.new(fields) end
 
 ---@return Bool
-function gamePhotoModeSystem:CanPhotoModeBeEnabled() return end
+function gamePhotoModeSystem:CanPhotoModeBeEnabled() end
 
 ---@param location WorldPosition
 ---@return nil
-function gamePhotoModeSystem:GetCameraLocation(location) return end
+function gamePhotoModeSystem:GetCameraLocation(location) end
 
 ---@return Bool
-function gamePhotoModeSystem:IsExitLocked() return end
+function gamePhotoModeSystem:IsExitLocked() end
 
 ---@return Bool
-function gamePhotoModeSystem:IsPhotoModeActive() return end
+function gamePhotoModeSystem:IsPhotoModeActive() end
 
 ---@param stickerID TweakDBID|string
 ---@return Bool
-function gamePhotoModeSystem:UnlockPhotoModeItem(stickerID) return end
+function gamePhotoModeSystem:UnlockPhotoModeItem(stickerID) end

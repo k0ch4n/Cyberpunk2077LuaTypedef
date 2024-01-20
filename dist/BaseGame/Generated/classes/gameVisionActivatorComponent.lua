@@ -5,4 +5,4 @@ gameVisionActivatorComponent = {}
 
 ---@param fields? gameVisionActivatorComponent
 ---@return gameVisionActivatorComponent
-function gameVisionActivatorComponent.new(fields) return end
+function gameVisionActivatorComponent.new(fields) end

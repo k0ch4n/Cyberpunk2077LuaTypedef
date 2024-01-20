@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class FinisherEffectorActionOn: redEvent
----@field public instigator gameObject
+---@field instigator gameObject
 FinisherEffectorActionOn = {}
 
 ---@param fields? FinisherEffectorActionOn
 ---@return FinisherEffectorActionOn
-function FinisherEffectorActionOn.new(fields) return end
+function FinisherEffectorActionOn.new(fields) end

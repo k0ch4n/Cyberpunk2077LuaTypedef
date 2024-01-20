@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioRadioBlip
----@field public blipEventName CName
+---@field blipEventName CName
 audioRadioBlip = {}
 
 ---@param fields? audioRadioBlip
 ---@return audioRadioBlip
-function audioRadioBlip.new(fields) return end
+function audioRadioBlip.new(fields) end

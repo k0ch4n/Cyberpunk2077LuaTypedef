@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questSpawnerReady_ConditionType: questISpawnerConditionType
----@field public spawnerReference NodeRef
----@field public communityEntryNames CName[]
+---@field spawnerReference NodeRef
+---@field communityEntryNames CName[]
 questSpawnerReady_ConditionType = {}
 
 ---@param fields? questSpawnerReady_ConditionType
 ---@return questSpawnerReady_ConditionType
-function questSpawnerReady_ConditionType.new(fields) return end
+function questSpawnerReady_ConditionType.new(fields) end

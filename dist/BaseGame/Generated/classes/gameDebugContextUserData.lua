@@ -5,4 +5,4 @@ gameDebugContextUserData = {}
 
 ---@param fields? gameDebugContextUserData
 ---@return gameDebugContextUserData
-function gameDebugContextUserData.new(fields) return end
+function gameDebugContextUserData.new(fields) end

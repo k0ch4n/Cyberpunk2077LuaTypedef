@@ -5,25 +5,25 @@ gamedataSeatState_Record = {}
 
 ---@param fields? gamedataSeatState_Record
 ---@return gamedataSeatState_Record
-function gamedataSeatState_Record.new(fields) return end
+function gamedataSeatState_Record.new(fields) end
 
 ---@return Bool
-function gamedataSeatState_Record:DisableInteraction() return end
+function gamedataSeatState_Record:DisableInteraction() end
 
 ---@return Bool
-function gamedataSeatState_Record:EnableInteraction() return end
+function gamedataSeatState_Record:EnableInteraction() end
 
 ---@return Bool
-function gamedataSeatState_Record:ForceClose() return end
+function gamedataSeatState_Record:ForceClose() end
 
 ---@return Bool
-function gamedataSeatState_Record:ForceLock() return end
+function gamedataSeatState_Record:ForceLock() end
 
 ---@return Bool
-function gamedataSeatState_Record:ForceOpen() return end
+function gamedataSeatState_Record:ForceOpen() end
 
 ---@return Bool
-function gamedataSeatState_Record:ForceUnlock() return end
+function gamedataSeatState_Record:ForceUnlock() end
 
 ---@return Bool
-function gamedataSeatState_Record:QuestLock() return end
+function gamedataSeatState_Record:QuestLock() end

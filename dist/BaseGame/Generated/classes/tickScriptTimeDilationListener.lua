@@ -5,4 +5,4 @@ tickScriptTimeDilationListener = {}
 
 ---@param fields? tickScriptTimeDilationListener
 ---@return tickScriptTimeDilationListener
-function tickScriptTimeDilationListener.new(fields) return end
+function tickScriptTimeDilationListener.new(fields) end

@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class scnChoiceNodeOption
----@field public screenplayOptionId scnscreenplayItemId
----@field public caption CName
----@field public blueline Bool
----@field public isFixedAsRead Bool
----@field public isSingleChoice Bool
----@field public type gameinteractionsChoiceTypeWrapper
----@field public timedParams scnChoiceNodeNsTimedParams
----@field public questCondition questIBaseCondition
----@field public triggerCondition questIBaseCondition
----@field public bluelineCondition questIBaseCondition
----@field public emphasisCondition questIBaseCondition
----@field public iconCondition questIBaseCondition
----@field public gameplayAction TweakDBID
----@field public iconTagIds TweakDBID[]
----@field public exDataFlags Uint32
----@field public mappinReferencePointId scnReferencePointId
----@field public timedCondition scnTimedCondition
+---@field screenplayOptionId scnscreenplayItemId
+---@field caption CName
+---@field blueline Bool
+---@field isFixedAsRead Bool
+---@field isSingleChoice Bool
+---@field type gameinteractionsChoiceTypeWrapper
+---@field timedParams scnChoiceNodeNsTimedParams
+---@field questCondition questIBaseCondition
+---@field triggerCondition questIBaseCondition
+---@field bluelineCondition questIBaseCondition
+---@field emphasisCondition questIBaseCondition
+---@field iconCondition questIBaseCondition
+---@field gameplayAction TweakDBID
+---@field iconTagIds TweakDBID[]
+---@field exDataFlags Uint32
+---@field mappinReferencePointId scnReferencePointId
+---@field timedCondition scnTimedCondition
 scnChoiceNodeOption = {}
 
 ---@param fields? scnChoiceNodeOption
 ---@return scnChoiceNodeOption
-function scnChoiceNodeOption.new(fields) return end
+function scnChoiceNodeOption.new(fields) end

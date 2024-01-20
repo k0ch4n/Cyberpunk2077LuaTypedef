@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class vehiclePlayerVehicle
----@field public name CName
----@field public recordID TweakDBID
----@field public vehicleType gamedataVehicleType
----@field public isUnlocked Bool
----@field public uiFavoriteIndex Int32
----@field public destructionTimeStamp EngineTime
+---@field name CName
+---@field recordID TweakDBID
+---@field vehicleType gamedataVehicleType
+---@field isUnlocked Bool
+---@field uiFavoriteIndex Int32
+---@field destructionTimeStamp EngineTime
 vehiclePlayerVehicle = {}
 
 ---@param fields? vehiclePlayerVehicle
 ---@return vehiclePlayerVehicle
-function vehiclePlayerVehicle.new(fields) return end
+function vehiclePlayerVehicle.new(fields) end

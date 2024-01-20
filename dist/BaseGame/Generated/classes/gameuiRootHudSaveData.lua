@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiRootHudSaveData: ISerializable
----@field public entriesVisibility questHUDEntryVisibilityData[]
+---@field entriesVisibility questHUDEntryVisibilityData[]
 gameuiRootHudSaveData = {}
 
 ---@param fields? gameuiRootHudSaveData
 ---@return gameuiRootHudSaveData
-function gameuiRootHudSaveData.new(fields) return end
+function gameuiRootHudSaveData.new(fields) end

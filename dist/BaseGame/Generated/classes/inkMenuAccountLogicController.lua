@@ -1,49 +1,43 @@
 ---@meta
 
 ---@class inkMenuAccountLogicController: inkWidgetLogicController
----@field private playerId inkTextWidgetReference
----@field private changeAccountLabelTextRef inkTextWidgetReference
----@field private inputDisplayControllerRef inkWidgetReference
----@field private changeAccountEnabled Bool
+---@field playerId inkTextWidgetReference
+---@field changeAccountLabelTextRef inkTextWidgetReference
+---@field inputDisplayControllerRef inkWidgetReference
+---@field changeAccountEnabled Bool
 inkMenuAccountLogicController = {}
 
 ---@param fields? inkMenuAccountLogicController
 ---@return inkMenuAccountLogicController
-function inkMenuAccountLogicController.new(fields) return end
+function inkMenuAccountLogicController.new(fields) end
 
 ---@return nil
-function inkMenuAccountLogicController:ChangeAccountRequest() return end
+function inkMenuAccountLogicController:ChangeAccountRequest() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkMenuAccountLogicController:OnButtonClick(e) return end
+function inkMenuAccountLogicController:OnButtonClick(e) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function inkMenuAccountLogicController:OnButtonRelease(evt) return end
-
----@protected
----@return Bool
-function inkMenuAccountLogicController:OnInitialize() return end
-
----@protected
----@return Bool
-function inkMenuAccountLogicController:OnUninitialize() return end
+function inkMenuAccountLogicController:OnButtonRelease(evt) end
 
 ---@return Bool
-function inkMenuAccountLogicController:IsEnabled() return end
+function inkMenuAccountLogicController:OnInitialize() end
 
----@private
+---@return Bool
+function inkMenuAccountLogicController:OnUninitialize() end
+
+---@return Bool
+function inkMenuAccountLogicController:IsEnabled() end
+
 ---@param enabled Bool
 ---@return nil
-function inkMenuAccountLogicController:SetChangeAccountEnabled(enabled) return end
+function inkMenuAccountLogicController:SetChangeAccountEnabled(enabled) end
 
----@private
 ---@param playerName String
 ---@return nil
-function inkMenuAccountLogicController:SetPlayerName(playerName) return end
+function inkMenuAccountLogicController:SetPlayerName(playerName) end
 
 ---@return nil
-function inkMenuAccountLogicController:ShowAccountButton() return end
+function inkMenuAccountLogicController:ShowAccountButton() end

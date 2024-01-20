@@ -5,14 +5,12 @@ SyncAnimDeathTask = {}
 
 ---@param fields? SyncAnimDeathTask
 ---@return SyncAnimDeathTask
-function SyncAnimDeathTask.new(fields) return end
+function SyncAnimDeathTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SyncAnimDeathTask:Activate(context) return end
+function SyncAnimDeathTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function SyncAnimDeathTask:Update(context) return end
+function SyncAnimDeathTask:Update(context) end

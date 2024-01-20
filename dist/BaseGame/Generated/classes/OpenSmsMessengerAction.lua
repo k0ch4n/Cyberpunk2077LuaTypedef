@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class OpenSmsMessengerAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
----@field public journalEntry gameJournalEntry
+---@field eventDispatcher worlduiIWidgetGameController
+---@field journalEntry gameJournalEntry
 OpenSmsMessengerAction = {}
 
 ---@param fields? OpenSmsMessengerAction
 ---@return OpenSmsMessengerAction
-function OpenSmsMessengerAction.new(fields) return end
+function OpenSmsMessengerAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function OpenSmsMessengerAction:Execute(data) return end
+function OpenSmsMessengerAction:Execute(data) end
 
 ---@return String
-function OpenSmsMessengerAction:GetLabel() return end
+function OpenSmsMessengerAction:GetLabel() end
 
----@private
 ---@return nil
-function OpenSmsMessengerAction:ShowMessenger() return end
+function OpenSmsMessengerAction:ShowMessenger() end

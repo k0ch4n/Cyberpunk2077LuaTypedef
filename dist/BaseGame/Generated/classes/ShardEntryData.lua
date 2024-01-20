@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ShardEntryData: GenericCodexEntryData
----@field public isCrypted Bool
+---@field isCrypted Bool
 ShardEntryData = {}
 
 ---@param fields? ShardEntryData
 ---@return ShardEntryData
-function ShardEntryData.new(fields) return end
+function ShardEntryData.new(fields) end

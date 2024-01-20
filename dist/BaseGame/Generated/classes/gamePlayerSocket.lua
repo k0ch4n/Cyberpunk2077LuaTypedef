@@ -5,4 +5,4 @@ gamePlayerSocket = {}
 
 ---@param fields? gamePlayerSocket
 ---@return gamePlayerSocket
-function gamePlayerSocket.new(fields) return end
+function gamePlayerSocket.new(fields) end

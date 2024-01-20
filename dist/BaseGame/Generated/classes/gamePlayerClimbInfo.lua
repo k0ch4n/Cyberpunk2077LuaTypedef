@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gamePlayerClimbInfo: IScriptable
----@field public descResult worldgeometryDescriptionResult
----@field public obstacleEnd Vector4
----@field public inputDirection Vector4
----@field public climbValid Bool
----@field public vaultValid Bool
+---@field descResult worldgeometryDescriptionResult
+---@field obstacleEnd Vector4
+---@field inputDirection Vector4
+---@field climbValid Bool
+---@field vaultValid Bool
 gamePlayerClimbInfo = {}
 
 ---@param fields? gamePlayerClimbInfo
 ---@return gamePlayerClimbInfo
-function gamePlayerClimbInfo.new(fields) return end
+function gamePlayerClimbInfo.new(fields) end

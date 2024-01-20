@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameNetrunnerPrototypeSpawnCompletedEvent: redEvent
----@field public spawnedObject gameObject
+---@field spawnedObject gameObject
 gameNetrunnerPrototypeSpawnCompletedEvent = {}
 
 ---@param fields? gameNetrunnerPrototypeSpawnCompletedEvent
 ---@return gameNetrunnerPrototypeSpawnCompletedEvent
-function gameNetrunnerPrototypeSpawnCompletedEvent.new(fields) return end
+function gameNetrunnerPrototypeSpawnCompletedEvent.new(fields) end

@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class graphGraphNodeDefinition: graphIGraphObjectDefinition
----@field public sockets graphGraphSocketDefinition[]
+---@field sockets graphGraphSocketDefinition[]
 graphGraphNodeDefinition = {}

@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class worldStaticSoundEmitterNode: worldNode
----@field public radius Float
----@field public audioName CName
----@field public Settings audioAmbientAreaSettings
----@field public usePhysicsObstruction Bool
----@field public occlusionEnabled Bool
----@field public acousticRepositioningEnabled Bool
----@field public obstructionChangeTime Float
----@field public useDoppler Bool
----@field public dopplerFactor Float
----@field public setOpenDoorEmitter Bool
----@field public emitterMetadataName CName
----@field public overrideRolloff Bool
----@field public rolloffOverride Float
----@field public ambientPaletteTag CName
+---@field radius Float
+---@field audioName CName
+---@field Settings audioAmbientAreaSettings
+---@field usePhysicsObstruction Bool
+---@field occlusionEnabled Bool
+---@field acousticRepositioningEnabled Bool
+---@field obstructionChangeTime Float
+---@field useDoppler Bool
+---@field dopplerFactor Float
+---@field setOpenDoorEmitter Bool
+---@field emitterMetadataName CName
+---@field overrideRolloff Bool
+---@field rolloffOverride Float
+---@field ambientPaletteTag CName
 worldStaticSoundEmitterNode = {}
 
 ---@param fields? worldStaticSoundEmitterNode
 ---@return worldStaticSoundEmitterNode
-function worldStaticSoundEmitterNode.new(fields) return end
+function worldStaticSoundEmitterNode.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SecurityGateDetectionProperties
----@field public performWeaponCheck Bool
----@field public performCyberwareCheck Bool
----@field public scannerEntranceType ESecurityGateEntranceType
----@field public performCheckOnPlayerOnly Bool
+---@field performWeaponCheck Bool
+---@field performCyberwareCheck Bool
+---@field scannerEntranceType ESecurityGateEntranceType
+---@field performCheckOnPlayerOnly Bool
 SecurityGateDetectionProperties = {}
 
 ---@param fields? SecurityGateDetectionProperties
 ---@return SecurityGateDetectionProperties
-function SecurityGateDetectionProperties.new(fields) return end
+function SecurityGateDetectionProperties.new(fields) end

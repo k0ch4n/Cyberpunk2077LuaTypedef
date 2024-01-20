@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class LogicalCondition: workIScriptedCondition
----@field protected operation WorkspotConditionOperators
----@field protected conditions workIScriptedCondition[]
+---@field operation WorkspotConditionOperators
+---@field conditions workIScriptedCondition[]
 LogicalCondition = {}
 
 ---@param fields? LogicalCondition
 ---@return LogicalCondition
-function LogicalCondition.new(fields) return end
+function LogicalCondition.new(fields) end
 
 ---@param ent entEntity
 ---@return Bool
-function LogicalCondition:CheckCondition(ent) return end
+function LogicalCondition:CheckCondition(ent) end

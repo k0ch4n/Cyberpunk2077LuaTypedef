@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIEquipmentReplacedEvent: redEvent
----@field public itemID gameItemID
+---@field itemID gameItemID
 UIEquipmentReplacedEvent = {}
 
 ---@param fields? UIEquipmentReplacedEvent
 ---@return UIEquipmentReplacedEvent
-function UIEquipmentReplacedEvent.new(fields) return end
+function UIEquipmentReplacedEvent.new(fields) end

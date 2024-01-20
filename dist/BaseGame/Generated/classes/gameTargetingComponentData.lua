@@ -5,4 +5,4 @@ gameTargetingComponentData = {}
 
 ---@param fields? gameTargetingComponentData
 ---@return gameTargetingComponentData
-function gameTargetingComponentData.new(fields) return end
+function gameTargetingComponentData.new(fields) end

@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class RarityOfEquippedConsumableItemPrereq: gameIScriptablePrereq
----@field public consumableItemTag CName
----@field public qualityLessThan gamedataQuality
+---@field consumableItemTag CName
+---@field qualityLessThan gamedataQuality
 RarityOfEquippedConsumableItemPrereq = {}
 
 ---@param fields? RarityOfEquippedConsumableItemPrereq
 ---@return RarityOfEquippedConsumableItemPrereq
-function RarityOfEquippedConsumableItemPrereq.new(fields) return end
+function RarityOfEquippedConsumableItemPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function RarityOfEquippedConsumableItemPrereq:Initialize(recordID) return end
+function RarityOfEquippedConsumableItemPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function RarityOfEquippedConsumableItemPrereq:IsFulfilled(context) return end
+function RarityOfEquippedConsumableItemPrereq:IsFulfilled(context) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TCSInputXAxisEvent: redEvent
----@field public value Float
+---@field value Float
 TCSInputXAxisEvent = {}
 
 ---@param fields? TCSInputXAxisEvent
 ---@return TCSInputXAxisEvent
-function TCSInputXAxisEvent.new(fields) return end
+function TCSInputXAxisEvent.new(fields) end

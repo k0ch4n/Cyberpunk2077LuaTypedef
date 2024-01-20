@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class NonStealthQuickHackVictimEvent: redEvent
----@field public instigatorID entEntityID
+---@field instigatorID entEntityID
 NonStealthQuickHackVictimEvent = {}
 
 ---@param fields? NonStealthQuickHackVictimEvent
 ---@return NonStealthQuickHackVictimEvent
-function NonStealthQuickHackVictimEvent.new(fields) return end
+function NonStealthQuickHackVictimEvent.new(fields) end
 
 ---@param instigatorID entEntityID
 ---@return NonStealthQuickHackVictimEvent
-function NonStealthQuickHackVictimEvent.Create(instigatorID) return end
+function NonStealthQuickHackVictimEvent.Create(instigatorID) end

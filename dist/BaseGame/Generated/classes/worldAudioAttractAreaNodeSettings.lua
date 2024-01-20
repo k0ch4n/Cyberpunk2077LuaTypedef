@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldAudioAttractAreaNodeSettings
----@field public metadataName CName
+---@field metadataName CName
 worldAudioAttractAreaNodeSettings = {}
 
 ---@param fields? worldAudioAttractAreaNodeSettings
 ---@return worldAudioAttractAreaNodeSettings
-function worldAudioAttractAreaNodeSettings.new(fields) return end
+function worldAudioAttractAreaNodeSettings.new(fields) end

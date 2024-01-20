@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineStateMachineListDefinition: IScriptable
----@field public stateMachinesStorage gamestateMachineStateMachineDefinition[]
+---@field stateMachinesStorage gamestateMachineStateMachineDefinition[]
 gamestateMachineStateMachineListDefinition = {}
 
 ---@param fields? gamestateMachineStateMachineListDefinition
 ---@return gamestateMachineStateMachineListDefinition
-function gamestateMachineStateMachineListDefinition.new(fields) return end
+function gamestateMachineStateMachineListDefinition.new(fields) end

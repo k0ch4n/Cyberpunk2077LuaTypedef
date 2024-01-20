@@ -5,4 +5,4 @@ OnRepeat = {}
 
 ---@param fields? OnRepeat
 ---@return OnRepeat
-function OnRepeat.new(fields) return end
+function OnRepeat.new(fields) end

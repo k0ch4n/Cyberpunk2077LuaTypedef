@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class EmitterGroupAreaParams
----@field public group EEmitterGroup
----@field public emissionScale curveData
----@field public opacityScale curveData
+---@field group EEmitterGroup
+---@field emissionScale curveData
+---@field opacityScale curveData
 EmitterGroupAreaParams = {}
 
 ---@param fields? EmitterGroupAreaParams
 ---@return EmitterGroupAreaParams
-function EmitterGroupAreaParams.new(fields) return end
+function EmitterGroupAreaParams.new(fields) end

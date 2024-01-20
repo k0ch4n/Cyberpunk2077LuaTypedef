@@ -5,4 +5,4 @@ AIbehaviortweakAttachmentSlotsListener = {}
 
 ---@param fields? AIbehaviortweakAttachmentSlotsListener
 ---@return AIbehaviortweakAttachmentSlotsListener
-function AIbehaviortweakAttachmentSlotsListener.new(fields) return end
+function AIbehaviortweakAttachmentSlotsListener.new(fields) end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class gameJournalMetaQuestObjective: gameJournalEntry
----@field public description LocalizationString
----@field public progressPercent Uint32
----@field public iconID TweakDBID
+---@field description LocalizationString
+---@field progressPercent Uint32
+---@field iconID TweakDBID
 gameJournalMetaQuestObjective = {}
 
 ---@param fields? gameJournalMetaQuestObjective
 ---@return gameJournalMetaQuestObjective
-function gameJournalMetaQuestObjective.new(fields) return end
+function gameJournalMetaQuestObjective.new(fields) end
 
 ---@return String
-function gameJournalMetaQuestObjective:GetDescription() return end
+function gameJournalMetaQuestObjective:GetDescription() end
 
 ---@return TweakDBID
-function gameJournalMetaQuestObjective:GetIconID() return end
+function gameJournalMetaQuestObjective:GetIconID() end
 
 ---@return Uint32
-function gameJournalMetaQuestObjective:GetProgressPercent() return end
+function gameJournalMetaQuestObjective:GetProgressPercent() end

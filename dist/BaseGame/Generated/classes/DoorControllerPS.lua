@@ -1,574 +1,518 @@
 ---@meta
 
 ---@class DoorControllerPS: ScriptableDeviceComponentPS
----@field protected doorProperties DoorSetup
----@field protected doorSkillChecks EngDemoContainer
----@field private isOpened Bool
----@field private isLocked Bool
----@field private isSealed Bool
----@field protected alarmRaised Bool
----@field protected isBusy Bool
----@field protected isLiftDoor Bool
----@field protected isPlayerAuthorised Bool
----@field protected openingTokens entEntityID[]
+---@field doorProperties DoorSetup
+---@field doorSkillChecks EngDemoContainer
+---@field isOpened Bool
+---@field isLocked Bool
+---@field isSealed Bool
+---@field alarmRaised Bool
+---@field isBusy Bool
+---@field isLiftDoor Bool
+---@field isPlayerAuthorised Bool
+---@field openingTokens entEntityID[]
 DoorControllerPS = {}
 
 ---@param fields? DoorControllerPS
 ---@return DoorControllerPS
-function DoorControllerPS.new(fields) return end
+function DoorControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function DoorControllerPS:OnInstantiated() return end
+function DoorControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function DoorControllerPS:AccessGrantedNotification() return end
+function DoorControllerPS:AccessGrantedNotification() end
 
----@private
 ---@return CallElevator
-function DoorControllerPS:ActionCallElevator() return end
+function DoorControllerPS:ActionCallElevator() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionDemolition
-function DoorControllerPS:ActionDemolition(context) return end
+function DoorControllerPS:ActionDemolition(context) end
 
----@protected
 ---@return DoorOpeningToken
-function DoorControllerPS:ActionDoorOpeningToken() return end
+function DoorControllerPS:ActionDoorOpeningToken() end
 
----@protected
 ---@return DoorStatus
-function DoorControllerPS:ActionDoorStatus() return end
+function DoorControllerPS:ActionDoorStatus() end
 
----@protected
 ---@return ForceOpen
-function DoorControllerPS:ActionForceOpen() return end
+function DoorControllerPS:ActionForceOpen() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Pay
-function DoorControllerPS:ActionPay(context) return end
+function DoorControllerPS:ActionPay(context) end
 
----@private
 ---@return QuestForceClose
-function DoorControllerPS:ActionQuestForceClose() return end
+function DoorControllerPS:ActionQuestForceClose() end
 
----@private
 ---@return QuestForceCloseImmediate
-function DoorControllerPS:ActionQuestForceCloseImmediate() return end
+function DoorControllerPS:ActionQuestForceCloseImmediate() end
 
----@private
 ---@return QuestForceCloseScene
-function DoorControllerPS:ActionQuestForceCloseScene() return end
+function DoorControllerPS:ActionQuestForceCloseScene() end
 
----@private
 ---@return QuestForceLock
-function DoorControllerPS:ActionQuestForceLock() return end
+function DoorControllerPS:ActionQuestForceLock() end
 
----@private
 ---@return QuestForceOpen
-function DoorControllerPS:ActionQuestForceOpen() return end
+function DoorControllerPS:ActionQuestForceOpen() end
 
----@private
 ---@return QuestForceOpenScene
-function DoorControllerPS:ActionQuestForceOpenScene() return end
+function DoorControllerPS:ActionQuestForceOpenScene() end
 
----@private
 ---@return QuestForceSeal
-function DoorControllerPS:ActionQuestForceSeal() return end
+function DoorControllerPS:ActionQuestForceSeal() end
 
----@private
 ---@return QuestForceUnlock
-function DoorControllerPS:ActionQuestForceUnlock() return end
+function DoorControllerPS:ActionQuestForceUnlock() end
 
----@private
 ---@return QuestForceUnseal
-function DoorControllerPS:ActionQuestForceUnseal() return end
+function DoorControllerPS:ActionQuestForceUnseal() end
 
----@protected
 ---@return QuickHackToggleOpen
-function DoorControllerPS:ActionQuickHackToggleOpen() return end
+function DoorControllerPS:ActionQuickHackToggleOpen() end
 
 ---@return SetClosed
-function DoorControllerPS:ActionSetClosed() return end
+function DoorControllerPS:ActionSetClosed() end
 
 ---@return SetOpened
-function DoorControllerPS:ActionSetOpened() return end
+function DoorControllerPS:ActionSetOpened() end
 
 ---@return ToggleLock
-function DoorControllerPS:ActionToggleLock() return end
+function DoorControllerPS:ActionToggleLock() end
 
 ---@return ToggleOpen
-function DoorControllerPS:ActionToggleOpen() return end
+function DoorControllerPS:ActionToggleOpen() end
 
----@protected
 ---@return ToggleSeal
-function DoorControllerPS:ActionToggleSeal() return end
+function DoorControllerPS:ActionToggleSeal() end
 
 ---@return PlayerUnauthorized
-function DoorControllerPS:ActionUnauthorized() return end
+function DoorControllerPS:ActionUnauthorized() end
 
----@protected
 ---@param id entEntityID
 ---@return Bool
-function DoorControllerPS:AddToken(id) return end
+function DoorControllerPS:AddToken(id) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool
-function DoorControllerPS:CanAddToggleOpenAction(context) return end
+function DoorControllerPS:CanAddToggleOpenAction(context) end
 
----@protected
 ---@return Bool
-function DoorControllerPS:CanCreateAnyQuickHackActions() return end
+function DoorControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param requester gameObject
 ---@return Bool
-function DoorControllerPS:CanPassAnySkillCheckOnParentTerminal(requester) return end
+function DoorControllerPS:CanPassAnySkillCheckOnParentTerminal(requester) end
 
 ---@return Bool
-function DoorControllerPS:CanPayToAuthorize() return end
+function DoorControllerPS:CanPayToAuthorize() end
 
 ---@return Bool
-function DoorControllerPS:CanPayToUnlock() return end
+function DoorControllerPS:CanPayToUnlock() end
 
----@protected
 ---@return Bool
-function DoorControllerPS:CheckIfLiftDoors() return end
+function DoorControllerPS:CheckIfLiftDoors() end
 
 ---@param id entEntityID
 ---@return Bool
-function DoorControllerPS:DepleteToken(id) return end
+function DoorControllerPS:DepleteToken(id) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param hasActiveActions Bool
 ---@return Bool
-function DoorControllerPS:DetermineGameplayViability(context, hasActiveActions) return end
+function DoorControllerPS:DetermineGameplayViability(context, hasActiveActions) end
 
----@protected
 ---@param executor gameObject
 ---@return nil
-function DoorControllerPS:ExecuteForceOpen(executor) return end
+function DoorControllerPS:ExecuteForceOpen(executor) end
 
 ---@return Bool
-function DoorControllerPS:ExposeQuickHakcsIfNotConnnectedToAP() return end
+function DoorControllerPS:ExposeQuickHakcsIfNotConnnectedToAP() end
 
----@protected
 ---@return nil
-function DoorControllerPS:GameAttached() return end
+function DoorControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function DoorControllerPS:GetActions(context) return end
+function DoorControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function DoorControllerPS:GetBackgroundTextureTweakDBID() return end
+function DoorControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return String
-function DoorControllerPS:GetDeviceIconPath() return end
+function DoorControllerPS:GetDeviceIconPath() end
 
----@protected
 ---@return TweakDBID
-function DoorControllerPS:GetDeviceIconTweakDBID() return end
+function DoorControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return DoorStatus
-function DoorControllerPS:GetDeviceStatusAction() return end
+function DoorControllerPS:GetDeviceStatusAction() end
 
 ---@return EDoorSkillcheckSide
-function DoorControllerPS:GetDoorAuthorizationSide() return end
+function DoorControllerPS:GetDoorAuthorizationSide() end
 
 ---@return EDoorSkillcheckSide
-function DoorControllerPS:GetDoorSkillcheckSide() return end
+function DoorControllerPS:GetDoorSkillcheckSide() end
 
 ---@return EDoorStatus
-function DoorControllerPS:GetDoorState() return end
+function DoorControllerPS:GetDoorState() end
 
 ---@return EDoorTriggerSide
-function DoorControllerPS:GetDoorTriggerSide() return end
+function DoorControllerPS:GetDoorTriggerSide() end
 
 ---@return EDoorType
-function DoorControllerPS:GetDoorType() return end
+function DoorControllerPS:GetDoorType() end
 
 ---@return EDoorType
-function DoorControllerPS:GetDoorTypeSideOne() return end
+function DoorControllerPS:GetDoorTypeSideOne() end
 
 ---@return EDoorType
-function DoorControllerPS:GetDoorTypeSideTwo() return end
+function DoorControllerPS:GetDoorTypeSideTwo() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function DoorControllerPS:GetInkWidgetTweakDBID(context) return end
+function DoorControllerPS:GetInkWidgetTweakDBID(context) end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function DoorControllerPS:GetMinigameActions(actions, context) return end
+function DoorControllerPS:GetMinigameActions(actions, context) end
 
 ---@return Float
-function DoorControllerPS:GetOpeningSpeed() return end
+function DoorControllerPS:GetOpeningSpeed() end
 
 ---@return Float
-function DoorControllerPS:GetOpeningTime() return end
+function DoorControllerPS:GetOpeningTime() end
 
 ---@return entEntityID[]
-function DoorControllerPS:GetOpeningTokensList() return end
+function DoorControllerPS:GetOpeningTokensList() end
 
 ---@return gamedataActionPayment_Record
-function DoorControllerPS:GetPaymentRecord() return end
+function DoorControllerPS:GetPaymentRecord() end
 
 ---@return TweakDBID
-function DoorControllerPS:GetPaymentRecordID() return end
+function DoorControllerPS:GetPaymentRecordID() end
 
----@protected
 ---@return ToggleOpen
-function DoorControllerPS:GetPlayerToggleOpenAction() return end
+function DoorControllerPS:GetPlayerToggleOpenAction() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function DoorControllerPS:GetQuestActionByName(actionName) return end
+function DoorControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function DoorControllerPS:GetQuestActions(context) return end
+function DoorControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function DoorControllerPS:GetQuickHackActions(context) return end
+function DoorControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function DoorControllerPS:GetSkillCheckContainerForSetup() return end
+function DoorControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@return Float
-function DoorControllerPS:GetStimRange() return end
+function DoorControllerPS:GetStimRange() end
 
 ---@return CName
-function DoorControllerPS:GetWidgetTypeName() return end
+function DoorControllerPS:GetWidgetTypeName() end
 
----@protected
 ---@return EWidgetState
-function DoorControllerPS:GetWidgetVisualState() return end
+function DoorControllerPS:GetWidgetVisualState() end
 
----@private
 ---@param executor gameObject
 ---@return nil
-function DoorControllerPS:GiveKeycardsToExecutor(executor) return end
+function DoorControllerPS:GiveKeycardsToExecutor(executor) end
 
----@protected
 ---@return nil
-function DoorControllerPS:Initialize() return end
+function DoorControllerPS:Initialize() end
 
----@private
 ---@return nil
-function DoorControllerPS:InitializeDoorTypes() return end
+function DoorControllerPS:InitializeDoorTypes() end
 
 ---@return Bool
-function DoorControllerPS:IsBusy() return end
+function DoorControllerPS:IsBusy() end
 
 ---@return Bool
-function DoorControllerPS:IsClosed() return end
+function DoorControllerPS:IsClosed() end
 
 ---@return Bool
-function DoorControllerPS:IsClosingAutomatically() return end
-
----@protected
----@return Bool
-function DoorControllerPS:IsLiftAvailable() return end
+function DoorControllerPS:IsClosingAutomatically() end
 
 ---@return Bool
-function DoorControllerPS:IsLiftDoor() return end
+function DoorControllerPS:IsLiftAvailable() end
 
 ---@return Bool
-function DoorControllerPS:IsLiftDoorAndAtThisFloor() return end
-
----@protected
----@return Bool
-function DoorControllerPS:IsLiftFloorAuthorized() return end
-
----@protected
----@return Bool
-function DoorControllerPS:IsLiftMoving() return end
-
----@protected
----@return Bool
-function DoorControllerPS:IsLiftUnauthorized() return end
+function DoorControllerPS:IsLiftDoor() end
 
 ---@return Bool
-function DoorControllerPS:IsLocked() return end
+function DoorControllerPS:IsLiftDoorAndAtThisFloor() end
 
 ---@return Bool
-function DoorControllerPS:IsLogicallyClosed() return end
+function DoorControllerPS:IsLiftFloorAuthorized() end
 
 ---@return Bool
-function DoorControllerPS:IsOpen() return end
+function DoorControllerPS:IsLiftMoving() end
 
 ---@return Bool
-function DoorControllerPS:IsPlayerCarrying() return end
+function DoorControllerPS:IsLiftUnauthorized() end
 
 ---@return Bool
-function DoorControllerPS:IsSealed() return end
+function DoorControllerPS:IsLocked() end
 
 ---@return Bool
-function DoorControllerPS:IsShutter() return end
+function DoorControllerPS:IsLogicallyClosed() end
 
 ---@return Bool
-function DoorControllerPS:IsSideOneActive() return end
+function DoorControllerPS:IsOpen() end
 
 ---@return Bool
-function DoorControllerPS:IsSideTwoActive() return end
+function DoorControllerPS:IsPlayerCarrying() end
 
 ---@return Bool
-function DoorControllerPS:IsStatic() return end
+function DoorControllerPS:IsSealed() end
+
+---@return Bool
+function DoorControllerPS:IsShutter() end
+
+---@return Bool
+function DoorControllerPS:IsSideOneActive() end
+
+---@return Bool
+function DoorControllerPS:IsSideTwoActive() end
+
+---@return Bool
+function DoorControllerPS:IsStatic() end
 
 ---@param side EDoorSkillcheckSide
 ---@return Bool
-function DoorControllerPS:IsTriggerValid(side) return end
+function DoorControllerPS:IsTriggerValid(side) end
 
 ---@return Bool
-function DoorControllerPS:IsUnlocked() return end
+function DoorControllerPS:IsUnlocked() end
 
 ---@param user entEntityID
 ---@return Bool
-function DoorControllerPS:IsUserAuthorized(user) return end
+function DoorControllerPS:IsUserAuthorized(user) end
 
----@protected
 ---@param evt ActionDemolition
 ---@return EntityNotificationType
-function DoorControllerPS:OnActionDemolition(evt) return end
+function DoorControllerPS:OnActionDemolition(evt) end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function DoorControllerPS:OnActionEngineering(evt) return end
+function DoorControllerPS:OnActionEngineering(evt) end
 
 ---@param evt ActionForceResetDevice
 ---@return EntityNotificationType
-function DoorControllerPS:OnActionForceResetDevice(evt) return end
+function DoorControllerPS:OnActionForceResetDevice(evt) end
 
----@protected
 ---@param evt InstallKeylogger
 ---@return EntityNotificationType
-function DoorControllerPS:OnActionInstallKeylogger(evt) return end
+function DoorControllerPS:OnActionInstallKeylogger(evt) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function DoorControllerPS:OnActivateDevice(evt) return end
+function DoorControllerPS:OnActivateDevice(evt) end
 
 ---@param evt AuthorizeUser
 ---@return EntityNotificationType
-function DoorControllerPS:OnAuthorizeUser(evt) return end
+function DoorControllerPS:OnAuthorizeUser(evt) end
 
 ---@param evt CallElevator
 ---@return EntityNotificationType
-function DoorControllerPS:OnCallElevator(evt) return end
+function DoorControllerPS:OnCallElevator(evt) end
 
 ---@return nil
-function DoorControllerPS:OnDoorCollision() return end
+function DoorControllerPS:OnDoorCollision() end
 
 ---@param evt DoorOpeningToken
 ---@return EntityNotificationType
-function DoorControllerPS:OnDoorOpeningToken(evt) return end
+function DoorControllerPS:OnDoorOpeningToken(evt) end
 
 ---@param evt ForceLockElevator
 ---@return EntityNotificationType
-function DoorControllerPS:OnForceLockElevator(evt) return end
+function DoorControllerPS:OnForceLockElevator(evt) end
 
 ---@param evt ForceOpen
 ---@return EntityNotificationType
-function DoorControllerPS:OnForceOpen(evt) return end
+function DoorControllerPS:OnForceOpen(evt) end
 
 ---@param evt ForceUnlockAndOpenElevator
 ---@return EntityNotificationType
-function DoorControllerPS:OnForceUnlockAndOpenElevator(evt) return end
+function DoorControllerPS:OnForceUnlockAndOpenElevator(evt) end
 
 ---@param evt Pay
 ---@return EntityNotificationType
-function DoorControllerPS:OnPay(evt) return end
+function DoorControllerPS:OnPay(evt) end
 
 ---@param evt QuestForceClose
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceClose(evt) return end
+function DoorControllerPS:OnQuestForceClose(evt) end
 
 ---@param evt QuestForceCloseImmediate
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceCloseImmediate(evt) return end
+function DoorControllerPS:OnQuestForceCloseImmediate(evt) end
 
 ---@param evt QuestForceCloseScene
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceCloseScene(evt) return end
+function DoorControllerPS:OnQuestForceCloseScene(evt) end
 
 ---@param evt QuestForceLock
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceLock(evt) return end
+function DoorControllerPS:OnQuestForceLock(evt) end
 
 ---@param evt QuestForceOpen
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceOpen(evt) return end
+function DoorControllerPS:OnQuestForceOpen(evt) end
 
 ---@param evt QuestForceOpenScene
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceOpenScene(evt) return end
+function DoorControllerPS:OnQuestForceOpenScene(evt) end
 
 ---@param evt QuestForceSeal
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceSeal(evt) return end
+function DoorControllerPS:OnQuestForceSeal(evt) end
 
 ---@param evt QuestForceUnlock
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceUnlock(evt) return end
+function DoorControllerPS:OnQuestForceUnlock(evt) end
 
 ---@param evt QuestForceUnseal
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuestForceUnseal(evt) return end
+function DoorControllerPS:OnQuestForceUnseal(evt) end
 
 ---@param evt QuickHackToggleOpen
 ---@return EntityNotificationType
-function DoorControllerPS:OnQuickHackToggleOpen(evt) return end
+function DoorControllerPS:OnQuickHackToggleOpen(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function DoorControllerPS:OnSecuritySystemOutput(evt) return end
+function DoorControllerPS:OnSecuritySystemOutput(evt) end
 
 ---@param evt SetAuthorizationModuleOFF
 ---@return EntityNotificationType
-function DoorControllerPS:OnSetAuthorizationModuleOFF(evt) return end
+function DoorControllerPS:OnSetAuthorizationModuleOFF(evt) end
 
 ---@param evt SetClosed
 ---@return EntityNotificationType
-function DoorControllerPS:OnSetClosed(evt) return end
+function DoorControllerPS:OnSetClosed(evt) end
 
----@protected
 ---@return nil
-function DoorControllerPS:OnSetIsOpened() return end
+function DoorControllerPS:OnSetIsOpened() end
 
 ---@param evt SetOpened
 ---@return EntityNotificationType
-function DoorControllerPS:OnSetOpened(evt) return end
+function DoorControllerPS:OnSetOpened(evt) end
 
 ---@param evt ToggleLock
 ---@return EntityNotificationType
-function DoorControllerPS:OnToggleLock(evt) return end
+function DoorControllerPS:OnToggleLock(evt) end
 
 ---@param evt ToggleOpen
 ---@return EntityNotificationType
-function DoorControllerPS:OnToggleOpen(evt) return end
+function DoorControllerPS:OnToggleOpen(evt) end
 
 ---@param evt ToggleSeal
 ---@return EntityNotificationType
-function DoorControllerPS:OnToggleSeal(evt) return end
+function DoorControllerPS:OnToggleSeal(evt) end
 
 ---@param data DoorResaveData
 ---@return nil
-function DoorControllerPS:PushResaveData(data) return end
+function DoorControllerPS:PushResaveData(data) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function DoorControllerPS:PushReturnActions(context) return end
+function DoorControllerPS:PushReturnActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function DoorControllerPS:PushSkillCheckActions(context) return end
+function DoorControllerPS:PushSkillCheckActions(context) end
 
----@protected
 ---@param executor gameObject
 ---@return nil
-function DoorControllerPS:RequestForceBodyDrop(executor) return end
+function DoorControllerPS:RequestForceBodyDrop(executor) end
 
 ---@return Bool
-function DoorControllerPS:RequiresAuthorization() return end
+function DoorControllerPS:RequiresAuthorization() end
 
 ---@return nil
-function DoorControllerPS:ResetToDefault() return end
-
----@protected
----@return nil
-function DoorControllerPS:ResolveOtherSkillchecks() return end
+function DoorControllerPS:ResetToDefault() end
 
 ---@return nil
-function DoorControllerPS:ResolveSkillchecks() return end
+function DoorControllerPS:ResolveOtherSkillchecks() end
 
----@protected
+---@return nil
+function DoorControllerPS:ResolveSkillchecks() end
+
 ---@param id entEntityID
 ---@return nil
-function DoorControllerPS:ResolveTerminalSkillchecks(id) return end
+function DoorControllerPS:ResolveTerminalSkillchecks(id) end
 
 ---@param val Bool
 ---@return nil
-function DoorControllerPS:SetCloseItself(val) return end
+function DoorControllerPS:SetCloseItself(val) end
 
----@protected
 ---@return nil
-function DoorControllerPS:SetDefaultDoorState() return end
+function DoorControllerPS:SetDefaultDoorState() end
 
----@protected
 ---@return nil, gamedeviceAction[] outActions
-function DoorControllerPS:SetInactiveActionsWithExceptions() return end
+function DoorControllerPS:SetInactiveActionsWithExceptions() end
 
 ---@param isBusy Bool
 ---@return nil
-function DoorControllerPS:SetIsBusy(isBusy) return end
+function DoorControllerPS:SetIsBusy(isBusy) end
 
 ---@param isLocked Bool
 ---@return nil
-function DoorControllerPS:SetIsLocked(isLocked) return end
+function DoorControllerPS:SetIsLocked(isLocked) end
 
 ---@param isOpened Bool
 ---@return nil
-function DoorControllerPS:SetIsOpened(isOpened) return end
+function DoorControllerPS:SetIsOpened(isOpened) end
 
 ---@param isSealed Bool
 ---@return nil
-function DoorControllerPS:SetIsSealed(isSealed) return end
+function DoorControllerPS:SetIsSealed(isSealed) end
 
 ---@param type EDoorType
 ---@return nil
-function DoorControllerPS:SetNewDoorType(type) return end
+function DoorControllerPS:SetNewDoorType(type) end
 
 ---@param evt SetDoorType
 ---@return nil
-function DoorControllerPS:SetNewDoorType(evt) return end
+function DoorControllerPS:SetNewDoorType(evt) end
 
 ---@param side EDoorTriggerSide
 ---@return nil
-function DoorControllerPS:SetTriggerSide(side) return end
+function DoorControllerPS:SetTriggerSide(side) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool
-function DoorControllerPS:ShouldForceAuthorizeUser(context) return end
+function DoorControllerPS:ShouldForceAuthorizeUser(context) end
 
----@private
 ---@return Bool
-function DoorControllerPS:ToggleLockOnDoor() return end
+function DoorControllerPS:ToggleLockOnDoor() end
 
----@private
 ---@return Bool
-function DoorControllerPS:ToggleOpenOnDoor() return end
+function DoorControllerPS:ToggleOpenOnDoor() end
 
----@private
 ---@return Bool
-function DoorControllerPS:ToggleSealOnDoor() return end
+function DoorControllerPS:ToggleSealOnDoor() end
 
 ---@return nil
-function DoorControllerPS:UpdatePlayerAuthorization() return end
+function DoorControllerPS:UpdatePlayerAuthorization() end
 
 ---@return Bool
-function DoorControllerPS:WasPlayerAuthorized() return end
+function DoorControllerPS:WasPlayerAuthorized() end
 
 ---@return Bool
-function DoorControllerPS:canPlayerRemotelyAuthorize() return end
+function DoorControllerPS:canPlayerRemotelyAuthorize() end
 
 ---@return Bool
-function DoorControllerPS:canPlayerToggleLockState() return end
+function DoorControllerPS:canPlayerToggleLockState() end
 
 ---@return Bool
-function DoorControllerPS:canPlayerToggleSealState() return end
+function DoorControllerPS:canPlayerToggleSealState() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questRealtimeDelay_ConditionType: questITimeConditionType
----@field public hours Uint32
----@field public minutes Uint32
----@field public seconds Uint32
----@field public miliseconds Uint32
+---@field hours Uint32
+---@field minutes Uint32
+---@field seconds Uint32
+---@field miliseconds Uint32
 questRealtimeDelay_ConditionType = {}
 
 ---@param fields? questRealtimeDelay_ConditionType
 ---@return questRealtimeDelay_ConditionType
-function questRealtimeDelay_ConditionType.new(fields) return end
+function questRealtimeDelay_ConditionType.new(fields) end

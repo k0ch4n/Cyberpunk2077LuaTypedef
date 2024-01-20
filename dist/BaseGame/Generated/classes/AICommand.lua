@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class AICommand: IScriptable
----@field public id Uint32
----@field public state AICommandState
----@field public questBlockId Uint64
----@field public category CName
+---@field id Uint32
+---@field state AICommandState
+---@field questBlockId Uint64
+---@field category CName
 AICommand = {}
 
 ---@param fields? AICommand
 ---@return AICommand
-function AICommand.new(fields) return end
+function AICommand.new(fields) end
 
 ---@return AICommand
-function AICommand:Copy() return end
+function AICommand:Copy() end
 
 ---@return CName
-function AICommand:GetCategory() return end
+function AICommand:GetCategory() end
 
 ---@param value CName|string
 ---@return nil
-function AICommand:SetCategory(value) return end
+function AICommand:SetCategory(value) end

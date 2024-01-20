@@ -5,9 +5,8 @@ Debug_RotationTestEnabled = {}
 
 ---@param fields? Debug_RotationTestEnabled
 ---@return Debug_RotationTestEnabled
-function Debug_RotationTestEnabled.new(fields) return end
+function Debug_RotationTestEnabled.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function Debug_RotationTestEnabled:Check(context) return end
+function Debug_RotationTestEnabled:Check(context) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioAudBulletTimeModeMapItem: audioAudioMetadata
----@field public enterEvent CName
----@field public exitEvent CName
----@field public timeModeRTPC CName
+---@field enterEvent CName
+---@field exitEvent CName
+---@field timeModeRTPC CName
 audioAudBulletTimeModeMapItem = {}
 
 ---@param fields? audioAudBulletTimeModeMapItem
 ---@return audioAudBulletTimeModeMapItem
-function audioAudBulletTimeModeMapItem.new(fields) return end
+function audioAudBulletTimeModeMapItem.new(fields) end

@@ -5,4 +5,4 @@ VehiclePSMPrereqState = {}
 
 ---@param fields? VehiclePSMPrereqState
 ---@return VehiclePSMPrereqState
-function VehiclePSMPrereqState.new(fields) return end
+function VehiclePSMPrereqState.new(fields) end

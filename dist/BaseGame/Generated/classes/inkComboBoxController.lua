@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class inkComboBoxController: inkWidgetLogicController
----@field public comboBoxObjectRef inkWidgetReference
----@field public ComboBoxVisibleChanged inkComboBoxVisibleChangedCallback
+---@field comboBoxObjectRef inkWidgetReference
+---@field ComboBoxVisibleChanged inkComboBoxVisibleChangedCallback
 inkComboBoxController = {}
 
 ---@param fields? inkComboBoxController
 ---@return inkComboBoxController
-function inkComboBoxController.new(fields) return end
+function inkComboBoxController.new(fields) end
 
 ---@return inkWidget
-function inkComboBoxController:GetComboBox() return end
+function inkComboBoxController:GetComboBox() end
 
 ---@return inkWidget
-function inkComboBoxController:GetComboBoxContentWidget() return end
+function inkComboBoxController:GetComboBoxContentWidget() end
 
 ---@return inkWidget
-function inkComboBoxController:GetPlaceholderWidget() return end
+function inkComboBoxController:GetPlaceholderWidget() end
 
 ---@return nil
-function inkComboBoxController:HideComboBox() return end
+function inkComboBoxController:HideComboBox() end
 
 ---@param targetWidget inkWidget
 ---@return nil
-function inkComboBoxController:ShowComboBox(targetWidget) return end
+function inkComboBoxController:ShowComboBox(targetWidget) end
 
 ---@return Bool
-function inkComboBoxController:IsComboBoxVisible() return end
+function inkComboBoxController:IsComboBoxVisible() end

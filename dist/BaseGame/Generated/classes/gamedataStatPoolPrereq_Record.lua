@@ -5,40 +5,40 @@ gamedataStatPoolPrereq_Record = {}
 
 ---@param fields? gamedataStatPoolPrereq_Record
 ---@return gamedataStatPoolPrereq_Record
-function gamedataStatPoolPrereq_Record.new(fields) return end
+function gamedataStatPoolPrereq_Record.new(fields) end
 
 ---@return Bool
-function gamedataStatPoolPrereq_Record:ComparePercentage() return end
+function gamedataStatPoolPrereq_Record:ComparePercentage() end
 
 ---@return CName
-function gamedataStatPoolPrereq_Record:ComparisonType() return end
+function gamedataStatPoolPrereq_Record:ComparisonType() end
 
 ---@return Int32
-function gamedataStatPoolPrereq_Record:GetValueToCheckCount() return end
+function gamedataStatPoolPrereq_Record:GetValueToCheckCount() end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataStatPoolPrereq_Record:GetValueToCheckItem(index) return end
+function gamedataStatPoolPrereq_Record:GetValueToCheckItem(index) end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataStatPoolPrereq_Record:GetValueToCheckItemHandle(index) return end
+function gamedataStatPoolPrereq_Record:GetValueToCheckItemHandle(index) end
 
 ---@return Bool
-function gamedataStatPoolPrereq_Record:ListenConstantly() return end
+function gamedataStatPoolPrereq_Record:ListenConstantly() end
 
 ---@return CName
-function gamedataStatPoolPrereq_Record:ObjectToCheck() return end
+function gamedataStatPoolPrereq_Record:ObjectToCheck() end
 
 ---@return Bool
-function gamedataStatPoolPrereq_Record:SkipOnApply() return end
+function gamedataStatPoolPrereq_Record:SkipOnApply() end
 
 ---@return CName
-function gamedataStatPoolPrereq_Record:StatPoolType() return end
+function gamedataStatPoolPrereq_Record:StatPoolType() end
 
 ---@return nil, gamedataStatModifier_Record[] outList
-function gamedataStatPoolPrereq_Record:ValueToCheck() return end
+function gamedataStatPoolPrereq_Record:ValueToCheck() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
-function gamedataStatPoolPrereq_Record:ValueToCheckContains(item) return end
+function gamedataStatPoolPrereq_Record:ValueToCheckContains(item) end

@@ -5,4 +5,4 @@ gamedataFocusClue_Record = {}
 
 ---@param fields? gamedataFocusClue_Record
 ---@return gamedataFocusClue_Record
-function gamedataFocusClue_Record.new(fields) return end
+function gamedataFocusClue_Record.new(fields) end

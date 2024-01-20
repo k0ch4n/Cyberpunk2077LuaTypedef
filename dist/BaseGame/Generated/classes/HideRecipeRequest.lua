@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HideRecipeRequest: gamePlayerScriptableSystemRequest
----@field public recipe TweakDBID
+---@field recipe TweakDBID
 HideRecipeRequest = {}
 
 ---@param fields? HideRecipeRequest
 ---@return HideRecipeRequest
-function HideRecipeRequest.new(fields) return end
+function HideRecipeRequest.new(fields) end

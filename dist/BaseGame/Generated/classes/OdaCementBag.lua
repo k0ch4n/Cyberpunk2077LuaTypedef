@@ -1,43 +1,37 @@
 ---@meta
 
 ---@class OdaCementBag: InteractiveDevice
----@field private onCooldown Bool
+---@field onCooldown Bool
 OdaCementBag = {}
 
 ---@param fields? OdaCementBag
 ---@return OdaCementBag
-function OdaCementBag.new(fields) return end
+function OdaCementBag.new(fields) end
 
----@protected
 ---@param evt DelayEvent
 ---@return Bool
-function OdaCementBag:OnDelayEvent(evt) return end
+function OdaCementBag:OnDelayEvent(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function OdaCementBag:OnHitEvent(hit) return end
+function OdaCementBag:OnHitEvent(hit) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function OdaCementBag:OnRequestComponents(ri) return end
+function OdaCementBag:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function OdaCementBag:OnTakeControl(ri) return end
+function OdaCementBag:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function OdaCementBag:DeterminGameplayRole() return end
+function OdaCementBag:DeterminGameplayRole() end
 
----@private
 ---@return OdaCementBagController
-function OdaCementBag:GetController() return end
+function OdaCementBag:GetController() end
 
 ---@return OdaCementBagControllerPS
-function OdaCementBag:GetDevicePS() return end
+function OdaCementBag:GetDevicePS() end
 
----@protected
 ---@return Bool
-function OdaCementBag:HasAnyDirectInteractionActive() return end
+function OdaCementBag:HasAnyDirectInteractionActive() end

@@ -1,30 +1,28 @@
 ---@meta
 
 ---@class DamagePreviewController: inkWidgetLogicController
----@field public fullBar inkWidgetReference
----@field public stippedBar inkWidgetReference
----@field public rootCanvas inkWidgetReference
----@field private width Float
----@field private height Float
----@field private heightStripped Float
----@field private heightRoot Float
----@field private animProxy inkanimProxy
+---@field fullBar inkWidgetReference
+---@field stippedBar inkWidgetReference
+---@field rootCanvas inkWidgetReference
+---@field width Float
+---@field height Float
+---@field heightStripped Float
+---@field heightRoot Float
+---@field animProxy inkanimProxy
 DamagePreviewController = {}
 
 ---@param fields? DamagePreviewController
 ---@return DamagePreviewController
-function DamagePreviewController.new(fields) return end
+function DamagePreviewController.new(fields) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function DamagePreviewController:OnAnimationEnd(e) return end
+function DamagePreviewController:OnAnimationEnd(e) end
 
----@protected
 ---@return Bool
-function DamagePreviewController:OnInitialize() return end
+function DamagePreviewController:OnInitialize() end
 
 ---@param damageScale Float
 ---@param positionOffset Float
 ---@return nil
-function DamagePreviewController:SetPreview(damageScale, positionOffset) return end
+function DamagePreviewController:SetPreview(damageScale, positionOffset) end

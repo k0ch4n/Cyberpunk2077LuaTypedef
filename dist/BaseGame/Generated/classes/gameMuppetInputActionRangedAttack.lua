@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetInputActionRangedAttack: gameIMuppetInputAction
----@field public actionType gameMuppetInputActionType
+---@field actionType gameMuppetInputActionType
 gameMuppetInputActionRangedAttack = {}
 
 ---@param fields? gameMuppetInputActionRangedAttack
 ---@return gameMuppetInputActionRangedAttack
-function gameMuppetInputActionRangedAttack.new(fields) return end
+function gameMuppetInputActionRangedAttack.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animCurvePathPartInput
----@field public curveLengthStart Float
----@field public curveLengthEnd Float
----@field public controllerName CName
----@field public eventNameStart CName
----@field public eventNameEnd CName
----@field public startBlendTime Float
+---@field curveLengthStart Float
+---@field curveLengthEnd Float
+---@field controllerName CName
+---@field eventNameStart CName
+---@field eventNameEnd CName
+---@field startBlendTime Float
 animCurvePathPartInput = {}
 
 ---@param fields? animCurvePathPartInput
 ---@return animCurvePathPartInput
-function animCurvePathPartInput.new(fields) return end
+function animCurvePathPartInput.new(fields) end

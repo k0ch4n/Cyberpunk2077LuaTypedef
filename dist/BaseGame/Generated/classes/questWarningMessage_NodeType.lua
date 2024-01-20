@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questWarningMessage_NodeType: questIUIManagerNodeType
----@field public message String
----@field public localizedMessage LocalizationString
----@field public duration Float
----@field public show Bool
----@field public instant Bool
----@field public type gameSimpleMessageType
+---@field message String
+---@field localizedMessage LocalizationString
+---@field duration Float
+---@field show Bool
+---@field instant Bool
+---@field type gameSimpleMessageType
 questWarningMessage_NodeType = {}
 
 ---@param fields? questWarningMessage_NodeType
 ---@return questWarningMessage_NodeType
-function questWarningMessage_NodeType.new(fields) return end
+function questWarningMessage_NodeType.new(fields) end

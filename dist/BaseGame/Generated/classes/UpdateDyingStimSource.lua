@@ -5,9 +5,8 @@ UpdateDyingStimSource = {}
 
 ---@param fields? UpdateDyingStimSource
 ---@return UpdateDyingStimSource
-function UpdateDyingStimSource.new(fields) return end
+function UpdateDyingStimSource.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UpdateDyingStimSource:Activate(context) return end
+function UpdateDyingStimSource:Activate(context) end

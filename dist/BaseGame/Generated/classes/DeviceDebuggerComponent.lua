@@ -1,54 +1,46 @@
 ---@meta
 
 ---@class DeviceDebuggerComponent: gameScriptableComponent
----@field private isActive Bool
----@field private exclusiveModeTriggered Bool
----@field private currentDeviceProperties DebuggerProperties
----@field private debuggedDevice Device
----@field private debuggerColor EDebuggerColor
----@field private previousContext String
----@field private cachedContext String
----@field private layerIDs Uint32[]
+---@field isActive Bool
+---@field exclusiveModeTriggered Bool
+---@field currentDeviceProperties DebuggerProperties
+---@field debuggedDevice Device
+---@field debuggerColor EDebuggerColor
+---@field previousContext String
+---@field cachedContext String
+---@field layerIDs Uint32[]
 DeviceDebuggerComponent = {}
 
 ---@param fields? DeviceDebuggerComponent
 ---@return DeviceDebuggerComponent
-function DeviceDebuggerComponent.new(fields) return end
+function DeviceDebuggerComponent.new(fields) end
 
----@protected
 ---@param evt RegisterDebuggerCanditateEvent
 ---@return Bool
-function DeviceDebuggerComponent:OnRegisterDebuggerCandidate(evt) return end
+function DeviceDebuggerComponent:OnRegisterDebuggerCandidate(evt) end
 
----@private
 ---@param position Vector4
 ---@param text String
 ---@param color Color
 ---@return nil
-function DeviceDebuggerComponent:AddDebugBit(position, text, color) return end
+function DeviceDebuggerComponent:AddDebugBit(position, text, color) end
 
----@private
 ---@return nil
-function DeviceDebuggerComponent:DrawDbgLine() return end
+function DeviceDebuggerComponent:DrawDbgLine() end
 
----@private
 ---@param reverse? Bool
 ---@return Color
-function DeviceDebuggerComponent:GetColor(reverse) return end
+function DeviceDebuggerComponent:GetColor(reverse) end
 
----@private
 ---@return Bool
-function DeviceDebuggerComponent:IsFactValid() return end
+function DeviceDebuggerComponent:IsFactValid() end
 
----@protected
 ---@param deltaTime Float
 ---@return nil
-function DeviceDebuggerComponent:OnUpdate(deltaTime) return end
+function DeviceDebuggerComponent:OnUpdate(deltaTime) end
 
----@private
 ---@return nil
-function DeviceDebuggerComponent:PerformDebug() return end
+function DeviceDebuggerComponent:PerformDebug() end
 
----@private
 ---@return nil
-function DeviceDebuggerComponent:ToggleDebuggerColor() return end
+function DeviceDebuggerComponent:ToggleDebuggerColor() end

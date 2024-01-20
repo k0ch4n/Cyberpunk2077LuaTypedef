@@ -5,16 +5,14 @@ BeginTwo = {}
 
 ---@param fields? BeginTwo
 ---@return BeginTwo
-function BeginTwo.new(fields) return end
+function BeginTwo.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BeginTwo:OnEnter(stateContext, scriptInterface) return end
+function BeginTwo:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BeginTwo:OnExit(stateContext, scriptInterface) return end
+function BeginTwo:OnExit(stateContext, scriptInterface) end

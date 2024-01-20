@@ -5,4 +5,4 @@ animAnimDebuggerCommand_IntOutputApplied = {}
 
 ---@param fields? animAnimDebuggerCommand_IntOutputApplied
 ---@return animAnimDebuggerCommand_IntOutputApplied
-function animAnimDebuggerCommand_IntOutputApplied.new(fields) return end
+function animAnimDebuggerCommand_IntOutputApplied.new(fields) end

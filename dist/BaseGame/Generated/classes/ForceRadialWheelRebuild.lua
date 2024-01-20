@@ -5,4 +5,4 @@ ForceRadialWheelRebuild = {}
 
 ---@param fields? ForceRadialWheelRebuild
 ---@return ForceRadialWheelRebuild
-function ForceRadialWheelRebuild.new(fields) return end
+function ForceRadialWheelRebuild.new(fields) end

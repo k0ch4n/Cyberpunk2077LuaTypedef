@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamemountingMountingInfo
----@field public childId entEntityID
----@field public parentId entEntityID
----@field public slotId gamemountingMountingSlotId
+---@field childId entEntityID
+---@field parentId entEntityID
+---@field slotId gamemountingMountingSlotId
 gamemountingMountingInfo = {}
 
 ---@param fields? gamemountingMountingInfo
 ---@return gamemountingMountingInfo
-function gamemountingMountingInfo.new(fields) return end
+function gamemountingMountingInfo.new(fields) end

@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class animAnimNode_BlendMultiple: animAnimNode_Base
----@field public inputValues Float[]
----@field public sortedInputValues Float[]
----@field public minWeight Float
----@field public maxWeight Float
----@field public radialBlending Bool
----@field public timeWarpingEnabled Bool
----@field public syncMethod animISyncMethod
----@field public motionProvider animIMotionTableProvider
----@field public weightNode animFloatLink
----@field public inputNodes animPoseLink[]
+---@field inputValues Float[]
+---@field sortedInputValues Float[]
+---@field minWeight Float
+---@field maxWeight Float
+---@field radialBlending Bool
+---@field timeWarpingEnabled Bool
+---@field syncMethod animISyncMethod
+---@field motionProvider animIMotionTableProvider
+---@field weightNode animFloatLink
+---@field inputNodes animPoseLink[]
 animAnimNode_BlendMultiple = {}
 
 ---@param fields? animAnimNode_BlendMultiple
 ---@return animAnimNode_BlendMultiple
-function animAnimNode_BlendMultiple.new(fields) return end
+function animAnimNode_BlendMultiple.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldStaticMarkerNode: worldSocketNode
----@field public isEnabled Bool
----@field public tags redTagList
----@field public data worldIMarker
+---@field isEnabled Bool
+---@field tags redTagList
+---@field data worldIMarker
 worldStaticMarkerNode = {}
 
 ---@param fields? worldStaticMarkerNode
 ---@return worldStaticMarkerNode
-function worldStaticMarkerNode.new(fields) return end
+function worldStaticMarkerNode.new(fields) end

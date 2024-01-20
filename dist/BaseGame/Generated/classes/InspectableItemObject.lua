@@ -1,37 +1,32 @@
 ---@meta
 
 ---@class InspectableItemObject: gameItemObject
----@field public inspectableClues SInspectableClue[]
+---@field inspectableClues SInspectableClue[]
 InspectableItemObject = {}
 
 ---@param fields? InspectableItemObject
 ---@return InspectableItemObject
-function InspectableItemObject.new(fields) return end
+function InspectableItemObject.new(fields) end
 
----@protected
 ---@return Bool
-function InspectableItemObject:OnGameAttached() return end
+function InspectableItemObject:OnGameAttached() end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function InspectableItemObject:OnInteractionActivated(evt) return end
+function InspectableItemObject:OnInteractionActivated(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function InspectableItemObject:OnRequestComponents(ri) return end
+function InspectableItemObject:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function InspectableItemObject:OnTakeControl(ri) return end
+function InspectableItemObject:OnTakeControl(ri) end
 
----@protected
 ---@param show Bool
 ---@return nil
-function InspectableItemObject:DisplayScanButton(show) return end
+function InspectableItemObject:DisplayScanButton(show) end
 
 ---@param clueName CName|string
 ---@return Bool
-function InspectableItemObject:IsClueScanned(clueName) return end
+function InspectableItemObject:IsClueScanned(clueName) end

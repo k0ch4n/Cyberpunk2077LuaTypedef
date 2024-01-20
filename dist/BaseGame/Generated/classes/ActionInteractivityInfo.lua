@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ActionInteractivityInfo
----@field public isExternal Bool
----@field public isRemote Bool
----@field public isDirect Bool
+---@field isExternal Bool
+---@field isRemote Bool
+---@field isDirect Bool
 ActionInteractivityInfo = {}
 
 ---@param fields? ActionInteractivityInfo
 ---@return ActionInteractivityInfo
-function ActionInteractivityInfo.new(fields) return end
+function ActionInteractivityInfo.new(fields) end

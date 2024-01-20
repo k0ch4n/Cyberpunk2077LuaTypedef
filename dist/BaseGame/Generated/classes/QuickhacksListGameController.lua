@@ -1,319 +1,270 @@
 ---@meta
 
 ---@class QuickhacksListGameController: gameuiHUDGameController
----@field private timeBetweenIntroAndIntroDescription Float
----@field private timeBetweenIntroAndDescritpionDelayID gameDelayID
----@field private timeBetweenIntroAndDescritpionCheck Bool
----@field private introDescriptionAnimProxy inkanimProxy
----@field private middleDots inkWidgetReference
----@field private memoryWidget inkWidgetReference
----@field private avaliableMemory inkTextWidgetReference
----@field private listWidget inkWidgetReference
----@field private noQuickhacks inkCompoundWidgetReference
----@field private openCyberdeckBtn inkWidgetReference
----@field private executeBtn inkWidgetReference
----@field private executeAndCloseBtn inkWidgetReference
----@field private changeTarget inkWidgetReference
----@field private tutorialButton inkWidgetReference
----@field private rightPanel inkWidgetReference
----@field private networkBreach inkWidgetReference
----@field private costReductionPanel inkWidgetReference
----@field private costReductionText inkTextWidgetReference
----@field private costReductionValue inkTextWidgetReference
----@field private targetName inkTextWidgetReference
----@field private icePanel inkWidgetReference
----@field private iceValue inkTextWidgetReference
----@field private vulnerabilitiesPanel inkWidgetReference
----@field private vulnerabilityFields inkWidgetReference[]
----@field private subHeader inkTextWidgetReference
----@field private tier inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private recompileTimer inkTextWidgetReference
----@field private damage inkTextWidgetReference
----@field private duration inkTextWidgetReference
----@field private cooldown inkTextWidgetReference
----@field private uploadTime inkTextWidgetReference
----@field private memoryCost inkTextWidgetReference
----@field private memoryRawCost inkTextWidgetReference
----@field private warningWidget inkWidgetReference
----@field private warningText inkTextWidgetReference
----@field private recompilePanel inkWidgetReference
----@field private recompileText inkTextWidgetReference
----@field private isUILocked Bool
----@field private gameInstance ScriptGameInstance
----@field private visionModeSystem gameVisionModeSystem
----@field private scanningCtrl gameScanningController
----@field private uiSystem gameuiGameSystemUI
----@field private contextHelpOverlay Bool
----@field private quickHackDescriptionVisibility Uint32
----@field private buffListListener redCallbackObject
----@field private memoryBoard gameIBlackboard
----@field private memoryBoardDef UI_PlayerBioMonitorDef
----@field private memoryPercentListener redCallbackObject
----@field private quickhackBarArray inkCompoundWidget[]
----@field private maxQuickhackBars Int32
----@field private listController inkListController
----@field private data QuickhackData[]
----@field private selectedData QuickhackData
----@field private active Bool
----@field private memorySpendAnimation inkanimProxy
----@field private memorySpendCounter Int32
----@field private memorySpendIndex Int32
----@field private selectedMemoryLoop inkanimProxy[]
----@field private inkIntroAnimProxy inkanimProxy
----@field private inkVulnerabilityAnimProxy inkanimProxy
----@field private inkWarningAnimProxy inkanimProxy
----@field private inkRecompileAnimProxy inkanimProxy
----@field private inkReductionAnimProxy inkanimProxy
----@field private HACK_wasPlayedOnTarget Bool
----@field private inkMemoryWarningTransitionAnimProxy inkanimProxy
----@field private lastMemoryWarningTransitionAnimName CName
----@field private hasActiveUpload Bool
----@field private lastCompiledTarget entEntityID
----@field private statPoolListenersIndexes Int32[]
----@field protected chunkBlackboard gameIBlackboard
----@field private nameCallbackID redCallbackObject
----@field private uiScannerChangeTargetTooltipVisibilityCallback redCallbackObject
----@field private lastFillCells Int32
----@field private lastUsedCells Int32
----@field private lastMaxCells Int32
----@field private axisInputConsumed Bool
----@field public playerObject gameObject
+---@field timeBetweenIntroAndIntroDescription Float
+---@field timeBetweenIntroAndDescritpionDelayID gameDelayID
+---@field timeBetweenIntroAndDescritpionCheck Bool
+---@field introDescriptionAnimProxy inkanimProxy
+---@field middleDots inkWidgetReference
+---@field memoryWidget inkWidgetReference
+---@field avaliableMemory inkTextWidgetReference
+---@field listWidget inkWidgetReference
+---@field noQuickhacks inkCompoundWidgetReference
+---@field openCyberdeckBtn inkWidgetReference
+---@field executeBtn inkWidgetReference
+---@field executeAndCloseBtn inkWidgetReference
+---@field changeTarget inkWidgetReference
+---@field tutorialButton inkWidgetReference
+---@field rightPanel inkWidgetReference
+---@field networkBreach inkWidgetReference
+---@field costReductionPanel inkWidgetReference
+---@field costReductionText inkTextWidgetReference
+---@field costReductionValue inkTextWidgetReference
+---@field targetName inkTextWidgetReference
+---@field icePanel inkWidgetReference
+---@field iceValue inkTextWidgetReference
+---@field vulnerabilitiesPanel inkWidgetReference
+---@field vulnerabilityFields inkWidgetReference[]
+---@field subHeader inkTextWidgetReference
+---@field tier inkTextWidgetReference
+---@field description inkTextWidgetReference
+---@field recompileTimer inkTextWidgetReference
+---@field damage inkTextWidgetReference
+---@field duration inkTextWidgetReference
+---@field cooldown inkTextWidgetReference
+---@field uploadTime inkTextWidgetReference
+---@field memoryCost inkTextWidgetReference
+---@field memoryRawCost inkTextWidgetReference
+---@field warningWidget inkWidgetReference
+---@field warningText inkTextWidgetReference
+---@field recompilePanel inkWidgetReference
+---@field recompileText inkTextWidgetReference
+---@field isUILocked Bool
+---@field gameInstance ScriptGameInstance
+---@field visionModeSystem gameVisionModeSystem
+---@field scanningCtrl gameScanningController
+---@field uiSystem gameuiGameSystemUI
+---@field contextHelpOverlay Bool
+---@field quickHackDescriptionVisibility Uint32
+---@field buffListListener redCallbackObject
+---@field memoryBoard gameIBlackboard
+---@field memoryBoardDef UI_PlayerBioMonitorDef
+---@field memoryPercentListener redCallbackObject
+---@field quickhackBarArray inkCompoundWidget[]
+---@field maxQuickhackBars Int32
+---@field listController inkListController
+---@field data QuickhackData[]
+---@field selectedData QuickhackData
+---@field active Bool
+---@field memorySpendAnimation inkanimProxy
+---@field memorySpendCounter Int32
+---@field memorySpendIndex Int32
+---@field selectedMemoryLoop inkanimProxy[]
+---@field inkIntroAnimProxy inkanimProxy
+---@field inkVulnerabilityAnimProxy inkanimProxy
+---@field inkWarningAnimProxy inkanimProxy
+---@field inkRecompileAnimProxy inkanimProxy
+---@field inkReductionAnimProxy inkanimProxy
+---@field HACK_wasPlayedOnTarget Bool
+---@field inkMemoryWarningTransitionAnimProxy inkanimProxy
+---@field lastMemoryWarningTransitionAnimName CName
+---@field hasActiveUpload Bool
+---@field lastCompiledTarget entEntityID
+---@field statPoolListenersIndexes Int32[]
+---@field chunkBlackboard gameIBlackboard
+---@field nameCallbackID redCallbackObject
+---@field uiScannerChangeTargetTooltipVisibilityCallback redCallbackObject
+---@field lastFillCells Int32
+---@field lastUsedCells Int32
+---@field lastMaxCells Int32
+---@field axisInputConsumed Bool
+---@field playerObject gameObject
 QuickhacksListGameController = {}
 
 ---@param fields? QuickhacksListGameController
 ---@return QuickhacksListGameController
-function QuickhacksListGameController.new(fields) return end
+function QuickhacksListGameController.new(fields) end
 
 ---@param value EActionInactivityReson
 ---@return String
-function QuickhacksListGameController.EActionInactivityResonToLocalizationString(value) return end
+function QuickhacksListGameController.EActionInactivityResonToLocalizationString(value) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function QuickhacksListGameController:OnAction(action, consumer) return end
+function QuickhacksListGameController:OnAction(action, consumer) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function QuickhacksListGameController:OnCooldownStatPoolUpdate(value) return end
+function QuickhacksListGameController:OnCooldownStatPoolUpdate(value) end
 
----@protected
 ---@param evt DelayedDescriptionIntro
 ---@return Bool
-function QuickhacksListGameController:OnDelayedDescriptionIntro(evt) return end
+function QuickhacksListGameController:OnDelayedDescriptionIntro(evt) end
 
----@protected
 ---@param e? inkanimProxy
 ---@return Bool
-function QuickhacksListGameController:OnDeplenishMemoryCells(e) return end
+function QuickhacksListGameController:OnDeplenishMemoryCells(e) end
 
----@protected
 ---@return Bool
-function QuickhacksListGameController:OnInitialize() return end
+function QuickhacksListGameController:OnInitialize() end
 
----@protected
 ---@param index Int32
 ---@param itemController inkListItemController
 ---@return Bool
-function QuickhacksListGameController:OnItemSelected(index, itemController) return end
+function QuickhacksListGameController:OnItemSelected(index, itemController) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function QuickhacksListGameController:OnMemoryPercentUpdate(value) return end
+function QuickhacksListGameController:OnMemoryPercentUpdate(value) end
 
----@protected
 ---@param evt QuickHackLockHacks
 ---@return Bool
-function QuickhacksListGameController:OnQuickHackLockHacks(evt) return end
+function QuickhacksListGameController:OnQuickHackLockHacks(evt) end
 
----@protected
 ---@param evt QuickHackScreenOpen
 ---@return Bool
-function QuickhacksListGameController:OnQuickHackScreenOpen(evt) return end
+function QuickhacksListGameController:OnQuickHackScreenOpen(evt) end
 
----@protected
 ---@param evt QuickHackTimeDilationOverride
 ---@return Bool
-function QuickhacksListGameController:OnQuickHackTimeDilationOverride(evt) return end
+function QuickhacksListGameController:OnQuickHackTimeDilationOverride(evt) end
 
----@protected
 ---@param value RevealInteractionWheel
 ---@return Bool
-function QuickhacksListGameController:OnQuickhackStarted(value) return end
+function QuickhacksListGameController:OnQuickhackStarted(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function QuickhacksListGameController:OnScannerChangeTargetTooltipVisibilityChanged(value) return end
+function QuickhacksListGameController:OnScannerChangeTargetTooltipVisibilityChanged(value) end
 
----@protected
 ---@param evt OnSpecialQuickhackTriggeredEvent
 ---@return Bool
-function QuickhacksListGameController:OnSpecialQuickhackAttackTriggered(evt) return end
+function QuickhacksListGameController:OnSpecialQuickhackAttackTriggered(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function QuickhacksListGameController:OnTargetDisplayNameChanged(value) return end
+function QuickhacksListGameController:OnTargetDisplayNameChanged(value) end
 
----@protected
 ---@return Bool
-function QuickhacksListGameController:OnUninitialize() return end
+function QuickhacksListGameController:OnUninitialize() end
 
----@private
 ---@param shouldUseUI Bool
 ---@return Bool
-function QuickhacksListGameController:ApplyQuickHack(shouldUseUI) return end
+function QuickhacksListGameController:ApplyQuickHack(shouldUseUI) end
 
----@private
 ---@return nil
-function QuickhacksListGameController:ApplyQuickhackSelection() return end
+function QuickhacksListGameController:ApplyQuickhackSelection() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:DeplenishMemoryCells() return end
+function QuickhacksListGameController:DeplenishMemoryCells() end
 
----@private
 ---@return InventoryItemDisplayData
-function QuickhacksListGameController:GetItemDisplayData() return end
+function QuickhacksListGameController:GetItemDisplayData() end
 
----@private
 ---@param index Int32
 ---@return Bool
-function QuickhacksListGameController:IsCurrentSelectionOnStatPoolIndexes(index) return end
+function QuickhacksListGameController:IsCurrentSelectionOnStatPoolIndexes(index) end
 
----@private
 ---@return Bool
-function QuickhacksListGameController:IsCurrentSelectionOnStatPoolIndexes() return end
+function QuickhacksListGameController:IsCurrentSelectionOnStatPoolIndexes() end
 
----@private
 ---@return Bool
-function QuickhacksListGameController:IsIntroPlaying() return end
+function QuickhacksListGameController:IsIntroPlaying() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:LogQuickHack() return end
+function QuickhacksListGameController:LogQuickHack() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:PlayChoiceAnimation() return end
+function QuickhacksListGameController:PlayChoiceAnimation() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:PlayDescritpionIntroAnimaton() return end
+function QuickhacksListGameController:PlayDescritpionIntroAnimaton() end
 
----@private
 ---@param data QuickhackData[]
 ---@return nil
-function QuickhacksListGameController:PopulateData(data) return end
+function QuickhacksListGameController:PopulateData(data) end
 
----@private
 ---@return Bool
-function QuickhacksListGameController:RegisterCooldownStatPoolUpdate() return end
+function QuickhacksListGameController:RegisterCooldownStatPoolUpdate() end
 
----@private
 ---@param requester gameObject
 ---@param eventId CName|string
 ---@param val Bool
 ---@return nil
-function QuickhacksListGameController:RequestTimeDilation(requester, eventId, val) return end
+function QuickhacksListGameController:RequestTimeDilation(requester, eventId, val) end
 
----@private
 ---@return nil
-function QuickhacksListGameController:ResetQuickhackSelection() return end
+function QuickhacksListGameController:ResetQuickhackSelection() end
 
----@private
 ---@param data QuickhackData
 ---@return nil
-function QuickhacksListGameController:SelectData(data) return end
+function QuickhacksListGameController:SelectData(data) end
 
 ---@param isHovering Bool
 ---@param cost? Int32
 ---@param justHacked? Bool
 ---@return nil
-function QuickhacksListGameController:SendOverclockPreviewEvent(isHovering, cost, justHacked) return end
+function QuickhacksListGameController:SendOverclockPreviewEvent(isHovering, cost, justHacked) end
 
----@private
 ---@param value Bool
 ---@return nil
-function QuickhacksListGameController:SetVisibility(value) return end
+function QuickhacksListGameController:SetVisibility(value) end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupDuration() return end
+function QuickhacksListGameController:SetupDuration() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupICE() return end
+function QuickhacksListGameController:SetupICE() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupMaxCooldown() return end
+function QuickhacksListGameController:SetupMaxCooldown() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupMemoryCost() return end
+function QuickhacksListGameController:SetupMemoryCost() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupMemoryCostDifferance() return end
+function QuickhacksListGameController:SetupMemoryCostDifferance() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupNetworkBreach() return end
+function QuickhacksListGameController:SetupNetworkBreach() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupQuickhacksMemoryBar() return end
+function QuickhacksListGameController:SetupQuickhacksMemoryBar() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupTargetName() return end
+function QuickhacksListGameController:SetupTargetName() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupTier() return end
+function QuickhacksListGameController:SetupTier() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupUploadTime() return end
+function QuickhacksListGameController:SetupUploadTime() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:SetupVulnerabilities() return end
+function QuickhacksListGameController:SetupVulnerabilities() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:ShowInventory() return end
+function QuickhacksListGameController:ShowInventory() end
 
----@private
 ---@param value Bool
 ---@return nil
-function QuickhacksListGameController:ShowTutorialOverlay(value) return end
+function QuickhacksListGameController:ShowTutorialOverlay(value) end
 
----@private
 ---@return nil
-function QuickhacksListGameController:ToggleTutorialOverlay() return end
+function QuickhacksListGameController:ToggleTutorialOverlay() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:UnregisterCooldownStatPoolUpdate() return end
+function QuickhacksListGameController:UnregisterCooldownStatPoolUpdate() end
 
----@private
 ---@return nil
-function QuickhacksListGameController:UpdateMemoryBar() return end
+function QuickhacksListGameController:UpdateMemoryBar() end
 
----@private
 ---@param size Int32
 ---@return nil
-function QuickhacksListGameController:UpdateQuickhacksMemoryBarSize(size) return end
+function QuickhacksListGameController:UpdateQuickhacksMemoryBarSize(size) end
 
----@private
 ---@param isVisible Bool
 ---@param value Float
 ---@return nil
-function QuickhacksListGameController:UpdateRecompileTime(isVisible, value) return end
+function QuickhacksListGameController:UpdateRecompileTime(isVisible, value) end

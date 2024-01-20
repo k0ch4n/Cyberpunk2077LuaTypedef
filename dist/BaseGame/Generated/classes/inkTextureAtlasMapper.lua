@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkTextureAtlasMapper
----@field public partName CName
----@field public clippingRectInPixels Rect
----@field public clippingRectInUVCoords RectF
+---@field partName CName
+---@field clippingRectInPixels Rect
+---@field clippingRectInUVCoords RectF
 inkTextureAtlasMapper = {}
 
 ---@param fields? inkTextureAtlasMapper
 ---@return inkTextureAtlasMapper
-function inkTextureAtlasMapper.new(fields) return end
+function inkTextureAtlasMapper.new(fields) end

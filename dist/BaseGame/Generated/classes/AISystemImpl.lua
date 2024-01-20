@@ -5,4 +5,4 @@ AISystemImpl = {}
 
 ---@param fields? AISystemImpl
 ---@return AISystemImpl
-function AISystemImpl.new(fields) return end
+function AISystemImpl.new(fields) end

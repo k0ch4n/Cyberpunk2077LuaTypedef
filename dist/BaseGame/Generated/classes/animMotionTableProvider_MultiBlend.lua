@@ -5,4 +5,4 @@ animMotionTableProvider_MultiBlend = {}
 
 ---@param fields? animMotionTableProvider_MultiBlend
 ---@return animMotionTableProvider_MultiBlend
-function animMotionTableProvider_MultiBlend.new(fields) return end
+function animMotionTableProvider_MultiBlend.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public appearanceName CName
+---@field puppetRef gameEntityReference
+---@field isPlayer Bool
+---@field appearanceName CName
 questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry = {}
 
 ---@param fields? questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry
 ---@return questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry
-function questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry.new(fields) return end
+function questCharacterManagerVisuals_EntityAppearanceOperationBaseEntityAppearanceEntry.new(fields) end

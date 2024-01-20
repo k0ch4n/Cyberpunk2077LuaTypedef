@@ -5,4 +5,4 @@ worldOffMeshSmartObjectNodeInstance = {}
 
 ---@param fields? worldOffMeshSmartObjectNodeInstance
 ---@return worldOffMeshSmartObjectNodeInstance
-function worldOffMeshSmartObjectNodeInstance.new(fields) return end
+function worldOffMeshSmartObjectNodeInstance.new(fields) end

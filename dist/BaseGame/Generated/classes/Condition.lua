@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class Condition
----@field public passed Bool
----@field public description String
+---@field passed Bool
+---@field description String
 Condition = {}
 
 ---@param fields? Condition
 ---@return Condition
-function Condition.new(fields) return end
+function Condition.new(fields) end

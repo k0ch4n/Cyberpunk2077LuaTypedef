@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameQueryResult
----@field public hitShapes gameShapeData[]
+---@field hitShapes gameShapeData[]
 gameQueryResult = {}
 
 ---@param fields? gameQueryResult
 ---@return gameQueryResult
-function gameQueryResult.new(fields) return end
+function gameQueryResult.new(fields) end

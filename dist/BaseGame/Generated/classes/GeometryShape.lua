@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class GeometryShape: ISerializable
----@field public vertices Vector3[]
----@field public indices Uint16[]
----@field public faces GeometryShapeFace[]
+---@field vertices Vector3[]
+---@field indices Uint16[]
+---@field faces GeometryShapeFace[]
 GeometryShape = {}
 
 ---@param fields? GeometryShape
 ---@return GeometryShape
-function GeometryShape.new(fields) return end
+function GeometryShape.new(fields) end

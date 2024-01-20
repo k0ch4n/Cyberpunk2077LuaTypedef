@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gamedebugFailure: ISerializable
----@field public id gamedebugFailureId
----@field public time Float
----@field public message String
----@field public path gameDebugPath
----@field public previous gamedebugFailure
----@field public cause gamedebugFailure
+---@field id gamedebugFailureId
+---@field time Float
+---@field message String
+---@field path gameDebugPath
+---@field previous gamedebugFailure
+---@field cause gamedebugFailure
 gamedebugFailure = {}
 
 ---@param fields? gamedebugFailure
 ---@return gamedebugFailure
-function gamedebugFailure.new(fields) return end
+function gamedebugFailure.new(fields) end

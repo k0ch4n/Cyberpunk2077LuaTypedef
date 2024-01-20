@@ -5,4 +5,4 @@ entAnimFastForwardEvent = {}
 
 ---@param fields? entAnimFastForwardEvent
 ---@return entAnimFastForwardEvent
-function entAnimFastForwardEvent.new(fields) return end
+function entAnimFastForwardEvent.new(fields) end

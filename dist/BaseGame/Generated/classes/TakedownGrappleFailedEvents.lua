@@ -5,14 +5,14 @@ TakedownGrappleFailedEvents = {}
 
 ---@param fields? TakedownGrappleFailedEvents
 ---@return TakedownGrappleFailedEvents
-function TakedownGrappleFailedEvents.new(fields) return end
+function TakedownGrappleFailedEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownGrappleFailedEvents:OnEnter(stateContext, scriptInterface) return end
+function TakedownGrappleFailedEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownGrappleFailedEvents:OnExit(stateContext, scriptInterface) return end
+function TakedownGrappleFailedEvents:OnExit(stateContext, scriptInterface) end

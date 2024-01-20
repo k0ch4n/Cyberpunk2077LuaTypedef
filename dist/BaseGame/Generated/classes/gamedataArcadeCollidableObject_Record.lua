@@ -5,7 +5,7 @@ gamedataArcadeCollidableObject_Record = {}
 
 ---@param fields? gamedataArcadeCollidableObject_Record
 ---@return gamedataArcadeCollidableObject_Record
-function gamedataArcadeCollidableObject_Record.new(fields) return end
+function gamedataArcadeCollidableObject_Record.new(fields) end
 
 ---@return Vector2
-function gamedataArcadeCollidableObject_Record:BoundingShapeRelativeArea() return end
+function gamedataArcadeCollidableObject_Record:BoundingShapeRelativeArea() end

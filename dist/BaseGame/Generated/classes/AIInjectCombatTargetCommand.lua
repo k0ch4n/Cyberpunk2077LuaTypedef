@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIInjectCombatTargetCommand: AICombatRelatedCommand
----@field public targetNodeRef NodeRef
----@field public targetPuppetRef gameEntityReference
----@field public duration Float
+---@field targetNodeRef NodeRef
+---@field targetPuppetRef gameEntityReference
+---@field duration Float
 AIInjectCombatTargetCommand = {}
 
 ---@param fields? AIInjectCombatTargetCommand
 ---@return AIInjectCombatTargetCommand
-function AIInjectCombatTargetCommand.new(fields) return end
+function AIInjectCombatTargetCommand.new(fields) end

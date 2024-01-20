@@ -1,34 +1,31 @@
 ---@meta
 
 ---@class NPCTrackingPlayerPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 NPCTrackingPlayerPrereq = {}
 
 ---@param fields? NPCTrackingPlayerPrereq
 ---@return NPCTrackingPlayerPrereq
-function NPCTrackingPlayerPrereq.new(fields) return end
+function NPCTrackingPlayerPrereq.new(fields) end
 
 ---@param isTrackingPlayer Bool
 ---@return Bool
-function NPCTrackingPlayerPrereq:EvaluateCondition(isTrackingPlayer) return end
+function NPCTrackingPlayerPrereq:EvaluateCondition(isTrackingPlayer) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCTrackingPlayerPrereq:Initialize(recordID) return end
+function NPCTrackingPlayerPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCTrackingPlayerPrereq:IsFulfilled(context) return end
+function NPCTrackingPlayerPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function NPCTrackingPlayerPrereq:OnRegister(state, context) return end
+function NPCTrackingPlayerPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCTrackingPlayerPrereq:OnUnregister(state, context) return end
+function NPCTrackingPlayerPrereq:OnUnregister(state, context) end

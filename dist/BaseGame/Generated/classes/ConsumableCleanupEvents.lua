@@ -5,16 +5,14 @@ ConsumableCleanupEvents = {}
 
 ---@param fields? ConsumableCleanupEvents
 ---@return ConsumableCleanupEvents
-function ConsumableCleanupEvents.new(fields) return end
+function ConsumableCleanupEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ConsumableCleanupEvents:OnEnter(stateContext, scriptInterface) return end
+function ConsumableCleanupEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ConsumableCleanupEvents:OnForcedExit(stateContext, scriptInterface) return end
+function ConsumableCleanupEvents:OnForcedExit(stateContext, scriptInterface) end

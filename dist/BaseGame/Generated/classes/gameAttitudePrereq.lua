@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameAttitudePrereq: gameIPrereq
----@field public attitude EAIAttitude
+---@field attitude EAIAttitude
 gameAttitudePrereq = {}
 
 ---@param fields? gameAttitudePrereq
 ---@return gameAttitudePrereq
-function gameAttitudePrereq.new(fields) return end
+function gameAttitudePrereq.new(fields) end

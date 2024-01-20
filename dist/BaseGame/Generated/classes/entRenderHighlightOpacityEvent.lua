@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entRenderHighlightOpacityEvent: redEvent
----@field public opacity Float
+---@field opacity Float
 entRenderHighlightOpacityEvent = {}
 
 ---@param fields? entRenderHighlightOpacityEvent
 ---@return entRenderHighlightOpacityEvent
-function entRenderHighlightOpacityEvent.new(fields) return end
+function entRenderHighlightOpacityEvent.new(fields) end

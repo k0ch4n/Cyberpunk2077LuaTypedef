@@ -5,4 +5,4 @@ DelayedSetItemModeShown = {}
 
 ---@param fields? DelayedSetItemModeShown
 ---@return DelayedSetItemModeShown
-function DelayedSetItemModeShown.new(fields) return end
+function DelayedSetItemModeShown.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameAttackDebugData
----@field public pointOfViewTransform WorldTransform
----@field public projectileHitplaneSpread Vector4
----@field public bulletStartPosition Vector4
+---@field pointOfViewTransform WorldTransform
+---@field projectileHitplaneSpread Vector4
+---@field bulletStartPosition Vector4
 gameAttackDebugData = {}
 
 ---@param fields? gameAttackDebugData
 ---@return gameAttackDebugData
-function gameAttackDebugData.new(fields) return end
+function gameAttackDebugData.new(fields) end

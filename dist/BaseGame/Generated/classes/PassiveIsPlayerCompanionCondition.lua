@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class PassiveIsPlayerCompanionCondition: PassiveAutonomousCondition
----@field protected roleCbId Uint32
+---@field roleCbId Uint32
 PassiveIsPlayerCompanionCondition = {}
 
 ---@param fields? PassiveIsPlayerCompanionCondition
 ---@return PassiveIsPlayerCompanionCondition
-function PassiveIsPlayerCompanionCondition.new(fields) return end
+function PassiveIsPlayerCompanionCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveIsPlayerCompanionCondition:Activate(context) return end
+function PassiveIsPlayerCompanionCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveIsPlayerCompanionCondition:CalculateValue(context) return end
+function PassiveIsPlayerCompanionCondition:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveIsPlayerCompanionCondition:Deactivate(context) return end
+function PassiveIsPlayerCompanionCondition:Deactivate(context) end

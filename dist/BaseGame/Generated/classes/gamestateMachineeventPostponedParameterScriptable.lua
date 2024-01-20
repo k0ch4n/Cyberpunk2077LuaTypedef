@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineeventPostponedParameterScriptable: gamestateMachineeventPostponedParameterBase
----@field public value IScriptable
+---@field value IScriptable
 gamestateMachineeventPostponedParameterScriptable = {}
 
 ---@param fields? gamestateMachineeventPostponedParameterScriptable
 ---@return gamestateMachineeventPostponedParameterScriptable
-function gamestateMachineeventPostponedParameterScriptable.new(fields) return end
+function gamestateMachineeventPostponedParameterScriptable.new(fields) end

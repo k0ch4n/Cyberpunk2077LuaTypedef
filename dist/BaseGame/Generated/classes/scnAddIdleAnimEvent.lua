@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnAddIdleAnimEvent: scnSceneEvent
----@field public performerId scnPerformerId
----@field public actorComponent CName
----@field public weight Float
+---@field performerId scnPerformerId
+---@field actorComponent CName
+---@field weight Float
 scnAddIdleAnimEvent = {}
 
 ---@param fields? scnAddIdleAnimEvent
 ---@return scnAddIdleAnimEvent
-function scnAddIdleAnimEvent.new(fields) return end
+function scnAddIdleAnimEvent.new(fields) end

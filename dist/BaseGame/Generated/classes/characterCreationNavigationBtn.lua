@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class characterCreationNavigationBtn: inkButtonController
----@field public icon1 inkWidgetReference
----@field public shouldPlaySoundOnHover Bool
----@field private root inkWidget
+---@field icon1 inkWidgetReference
+---@field shouldPlaySoundOnHover Bool
+---@field root inkWidget
 characterCreationNavigationBtn = {}
 
 ---@param fields? characterCreationNavigationBtn
 ---@return characterCreationNavigationBtn
-function characterCreationNavigationBtn.new(fields) return end
+function characterCreationNavigationBtn.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationNavigationBtn:OnHoverOut(e) return end
+function characterCreationNavigationBtn:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationNavigationBtn:OnHoverOver(e) return end
+function characterCreationNavigationBtn:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationNavigationBtn:OnInitialize() return end
+function characterCreationNavigationBtn:OnInitialize() end

@@ -5,7 +5,7 @@ QuestStopElevator = {}
 
 ---@param fields? QuestStopElevator
 ---@return QuestStopElevator
-function QuestStopElevator.new(fields) return end
+function QuestStopElevator.new(fields) end
 
 ---@return nil
-function QuestStopElevator:SetProperties() return end
+function QuestStopElevator:SetProperties() end

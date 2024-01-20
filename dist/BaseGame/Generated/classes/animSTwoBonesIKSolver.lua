@@ -5,4 +5,4 @@ animSTwoBonesIKSolver = {}
 
 ---@param fields? animSTwoBonesIKSolver
 ---@return animSTwoBonesIKSolver
-function animSTwoBonesIKSolver.new(fields) return end
+function animSTwoBonesIKSolver.new(fields) end

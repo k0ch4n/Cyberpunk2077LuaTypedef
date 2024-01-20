@@ -1,58 +1,48 @@
 ---@meta
 
 ---@class RelicPerkSystem: gameScriptableSystem
----@field private registeredPerkDevices PerkDeviceMappinData[]
+---@field registeredPerkDevices PerkDeviceMappinData[]
 RelicPerkSystem = {}
 
 ---@param fields? RelicPerkSystem
 ---@return RelicPerkSystem
-function RelicPerkSystem.new(fields) return end
+function RelicPerkSystem.new(fields) end
 
----@private
 ---@param request RegisterPerkDeviceMappinRequest
 ---@return PerkDeviceMappinData
-function RelicPerkSystem:CreatePerkDeviceMappinData(request) return end
+function RelicPerkSystem:CreatePerkDeviceMappinData(request) end
 
----@private
 ---@return gamemappinsMappinData
-function RelicPerkSystem:GetMappinData() return end
+function RelicPerkSystem:GetMappinData() end
 
----@private
 ---@param perkDeviceMappinData PerkDeviceMappinData
 ---@return Bool
-function RelicPerkSystem:IsMappinRegistered(perkDeviceMappinData) return end
+function RelicPerkSystem:IsMappinRegistered(perkDeviceMappinData) end
 
----@private
 ---@param ownerID entEntityID
 ---@return Bool
-function RelicPerkSystem:IsOwnerRegistered(ownerID) return end
+function RelicPerkSystem:IsOwnerRegistered(ownerID) end
 
----@protected
 ---@param request RegisterPerkDeviceMappinRequest
 ---@return nil
-function RelicPerkSystem:OnRegisterPerkDeviceMappinRequest(request) return end
+function RelicPerkSystem:OnRegisterPerkDeviceMappinRequest(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function RelicPerkSystem:OnRestored(saveVersion, gameVersion) return end
+function RelicPerkSystem:OnRestored(saveVersion, gameVersion) end
 
----@protected
 ---@param request SetPerkDeviceAsUsedRequest
 ---@return nil
-function RelicPerkSystem:OnSetPerkDeviceAsUsedRequest(request) return end
+function RelicPerkSystem:OnSetPerkDeviceAsUsedRequest(request) end
 
----@private
 ---@param perkDeviceMappinData PerkDeviceMappinData
 ---@return nil
-function RelicPerkSystem:RegisterMappinInMappinSystem(perkDeviceMappinData) return end
+function RelicPerkSystem:RegisterMappinInMappinSystem(perkDeviceMappinData) end
 
----@private
 ---@return nil
-function RelicPerkSystem:RegisterMappins() return end
+function RelicPerkSystem:RegisterMappins() end
 
----@private
 ---@param ownerID entEntityID
 ---@return Bool, PerkDeviceMappinData perkDeviceMappinData
-function RelicPerkSystem:TryGetPerkDeviceMappinData(ownerID) return end
+function RelicPerkSystem:TryGetPerkDeviceMappinData(ownerID) end

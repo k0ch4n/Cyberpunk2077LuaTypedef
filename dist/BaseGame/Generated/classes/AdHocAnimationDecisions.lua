@@ -5,27 +5,23 @@ AdHocAnimationDecisions = {}
 
 ---@param fields? AdHocAnimationDecisions
 ---@return AdHocAnimationDecisions
-function AdHocAnimationDecisions.new(fields) return end
+function AdHocAnimationDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AdHocAnimationDecisions:EnterCondition(stateContext, scriptInterface) return end
+function AdHocAnimationDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function AdHocAnimationDecisions:GetAnimationDuration(scriptInterface) return end
+function AdHocAnimationDecisions:GetAnimationDuration(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AdHocAnimationDecisions:ToEmptyHands(stateContext, scriptInterface) return end
+function AdHocAnimationDecisions:ToEmptyHands(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AdHocAnimationDecisions:ToSingleWield(stateContext, scriptInterface) return end
+function AdHocAnimationDecisions:ToSingleWield(stateContext, scriptInterface) end

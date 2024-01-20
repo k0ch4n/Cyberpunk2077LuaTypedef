@@ -5,8 +5,8 @@ UIInGameNotification = {}
 
 ---@param fields? UIInGameNotification
 ---@return UIInGameNotification
-function UIInGameNotification.new(fields) return end
+function UIInGameNotification.new(fields) end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function UIInGameNotification:SetNotificationData(notificationData) return end
+function UIInGameNotification:SetNotificationData(notificationData) end

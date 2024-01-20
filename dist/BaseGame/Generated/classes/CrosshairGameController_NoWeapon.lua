@@ -1,74 +1,65 @@
 ---@meta
 
 ---@class CrosshairGameController_NoWeapon: gameuiCrosshairBaseGameController
----@field private AimDownSightContainer inkCompoundWidgetReference
----@field private ZoomMovingContainer inkCompoundWidgetReference
----@field private ZoomNumber inkTextWidgetReference
----@field private ZoomNumberR inkTextWidgetReference
----@field private DistanceImageRuler inkImageWidgetReference
----@field private ZoomMoveBracketL inkImageWidgetReference
----@field private ZoomMoveBracketR inkImageWidgetReference
----@field private ZoomLevelString String
----@field private PlayerSMBB gameIBlackboard
----@field private ZoomLevelBBID redCallbackObject
----@field private sceneTierBlackboardId redCallbackObject
----@field private sceneTier gamePSMHighLevel
----@field private zoomUpAnim inkanimProxy
----@field private animLockOn inkanimProxy
----@field private zoomDownAnim inkanimProxy
----@field private animLockOff inkanimProxy
----@field private zoomShowAnim inkanimProxy
----@field private zoomHideAnim inkanimProxy
----@field private argZoomBuffered Float
+---@field AimDownSightContainer inkCompoundWidgetReference
+---@field ZoomMovingContainer inkCompoundWidgetReference
+---@field ZoomNumber inkTextWidgetReference
+---@field ZoomNumberR inkTextWidgetReference
+---@field DistanceImageRuler inkImageWidgetReference
+---@field ZoomMoveBracketL inkImageWidgetReference
+---@field ZoomMoveBracketR inkImageWidgetReference
+---@field ZoomLevelString String
+---@field PlayerSMBB gameIBlackboard
+---@field ZoomLevelBBID redCallbackObject
+---@field sceneTierBlackboardId redCallbackObject
+---@field sceneTier gamePSMHighLevel
+---@field zoomUpAnim inkanimProxy
+---@field animLockOn inkanimProxy
+---@field zoomDownAnim inkanimProxy
+---@field animLockOff inkanimProxy
+---@field zoomShowAnim inkanimProxy
+---@field zoomHideAnim inkanimProxy
+---@field argZoomBuffered Float
 CrosshairGameController_NoWeapon = {}
 
 ---@param fields? CrosshairGameController_NoWeapon
 ---@return CrosshairGameController_NoWeapon
-function CrosshairGameController_NoWeapon.new(fields) return end
+function CrosshairGameController_NoWeapon.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function CrosshairGameController_NoWeapon:OnPSMSceneTierChanged(value) return end
+function CrosshairGameController_NoWeapon:OnPSMSceneTierChanged(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CrosshairGameController_NoWeapon:OnPlayerAttach(playerPuppet) return end
+function CrosshairGameController_NoWeapon:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CrosshairGameController_NoWeapon:OnPlayerDetach(playerPuppet) return end
+function CrosshairGameController_NoWeapon:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param argZoom Float
 ---@return Bool
-function CrosshairGameController_NoWeapon:OnZoomLevel(argZoom) return end
+function CrosshairGameController_NoWeapon:OnZoomLevel(argZoom) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function CrosshairGameController_NoWeapon:GetIntroAnimation(firstEquip) return end
+function CrosshairGameController_NoWeapon:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function CrosshairGameController_NoWeapon:GetOutroAnimation() return end
+function CrosshairGameController_NoWeapon:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function CrosshairGameController_NoWeapon:OnState_Aim() return end
+function CrosshairGameController_NoWeapon:OnState_Aim() end
 
----@protected
 ---@return nil
-function CrosshairGameController_NoWeapon:OnState_HipFire() return end
+function CrosshairGameController_NoWeapon:OnState_HipFire() end
 
----@protected
 ---@return nil
-function CrosshairGameController_NoWeapon:OnState_Safe() return end
+function CrosshairGameController_NoWeapon:OnState_Safe() end
 
----@protected
 ---@return nil
-function CrosshairGameController_NoWeapon:OnState_Scanning() return end
+function CrosshairGameController_NoWeapon:OnState_Scanning() end
 
----@protected
 ---@return nil
-function CrosshairGameController_NoWeapon:OnState_Sprint() return end
+function CrosshairGameController_NoWeapon:OnState_Sprint() end

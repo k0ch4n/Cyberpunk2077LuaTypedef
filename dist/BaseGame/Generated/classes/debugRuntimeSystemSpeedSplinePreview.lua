@@ -5,4 +5,4 @@ debugRuntimeSystemSpeedSplinePreview = {}
 
 ---@param fields? debugRuntimeSystemSpeedSplinePreview
 ---@return debugRuntimeSystemSpeedSplinePreview
-function debugRuntimeSystemSpeedSplinePreview.new(fields) return end
+function debugRuntimeSystemSpeedSplinePreview.new(fields) end

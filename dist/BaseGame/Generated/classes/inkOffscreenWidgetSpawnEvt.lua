@@ -5,4 +5,4 @@ inkOffscreenWidgetSpawnEvt = {}
 
 ---@param fields? inkOffscreenWidgetSpawnEvt
 ---@return inkOffscreenWidgetSpawnEvt
-function inkOffscreenWidgetSpawnEvt.new(fields) return end
+function inkOffscreenWidgetSpawnEvt.new(fields) end

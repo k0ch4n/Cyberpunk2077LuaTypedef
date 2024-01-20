@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioFoleyNPCAppearanceMappingMetadata: audioAudioMetadata
----@field public fallbackMetadata CName
----@field public NPCsPerAppearance audioAppearanceToNPCMetadata[]
----@field public NPCsPerMainMaterial audioVisualTagToNPCMetadata[]
----@field public NPCsPerAdditive audioVisualTagToNPCMetadata[]
+---@field fallbackMetadata CName
+---@field NPCsPerAppearance audioAppearanceToNPCMetadata[]
+---@field NPCsPerMainMaterial audioVisualTagToNPCMetadata[]
+---@field NPCsPerAdditive audioVisualTagToNPCMetadata[]
 audioFoleyNPCAppearanceMappingMetadata = {}
 
 ---@param fields? audioFoleyNPCAppearanceMappingMetadata
 ---@return audioFoleyNPCAppearanceMappingMetadata
-function audioFoleyNPCAppearanceMappingMetadata.new(fields) return end
+function audioFoleyNPCAppearanceMappingMetadata.new(fields) end

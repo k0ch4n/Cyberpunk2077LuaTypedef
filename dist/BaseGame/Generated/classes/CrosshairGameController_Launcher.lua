@@ -1,62 +1,53 @@
 ---@meta
 
 ---@class CrosshairGameController_Launcher: gameuiCrosshairBaseGameController
----@field private weaponBBID redCallbackObject
----@field private animationProxy inkanimProxy
----@field private Cori_S inkCanvasWidgetReference
----@field private Cori_M inkCanvasWidgetReference
----@field private rightStickX Float
----@field private rightStickY Float
----@field private currentState gamePSMLeftHandCyberware
+---@field weaponBBID redCallbackObject
+---@field animationProxy inkanimProxy
+---@field Cori_S inkCanvasWidgetReference
+---@field Cori_M inkCanvasWidgetReference
+---@field rightStickX Float
+---@field rightStickY Float
+---@field currentState gamePSMLeftHandCyberware
 CrosshairGameController_Launcher = {}
 
 ---@param fields? CrosshairGameController_Launcher
 ---@return CrosshairGameController_Launcher
-function CrosshairGameController_Launcher.new(fields) return end
+function CrosshairGameController_Launcher.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function CrosshairGameController_Launcher:OnPSMLeftHandCyberwareStateChanged(value) return end
+function CrosshairGameController_Launcher:OnPSMLeftHandCyberwareStateChanged(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CrosshairGameController_Launcher:OnPlayerAttach(playerPuppet) return end
+function CrosshairGameController_Launcher:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CrosshairGameController_Launcher:OnPlayerDetach(playerPuppet) return end
+function CrosshairGameController_Launcher:OnPlayerDetach(playerPuppet) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function CrosshairGameController_Launcher:GetIntroAnimation(firstEquip) return end
+function CrosshairGameController_Launcher:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function CrosshairGameController_Launcher:GetOutroAnimation() return end
+function CrosshairGameController_Launcher:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Launcher:OnState_Aim() return end
+function CrosshairGameController_Launcher:OnState_Aim() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Launcher:OnState_ChargeLaunch() return end
+function CrosshairGameController_Launcher:OnState_ChargeLaunch() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Launcher:OnState_Equip() return end
+function CrosshairGameController_Launcher:OnState_Equip() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Launcher:OnState_QuickLaunch() return end
+function CrosshairGameController_Launcher:OnState_QuickLaunch() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Launcher:OnState_Unequip() return end
+function CrosshairGameController_Launcher:OnState_Unequip() end
 
----@private
 ---@param state gamePSMLeftHandCyberware
 ---@return nil
-function CrosshairGameController_Launcher:UpdateCrosshairState(state) return end
+function CrosshairGameController_Launcher:UpdateCrosshairState(state) end

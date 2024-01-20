@@ -5,4 +5,4 @@ gameweaponeventsRequestAmmoChange = {}
 
 ---@param fields? gameweaponeventsRequestAmmoChange
 ---@return gameweaponeventsRequestAmmoChange
-function gameweaponeventsRequestAmmoChange.new(fields) return end
+function gameweaponeventsRequestAmmoChange.new(fields) end

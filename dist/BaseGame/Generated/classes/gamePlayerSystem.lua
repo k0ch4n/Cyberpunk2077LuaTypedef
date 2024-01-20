@@ -5,4 +5,4 @@ gamePlayerSystem = {}
 
 ---@param playerEnteredCombat Bool
 ---@return nil
-function gamePlayerSystem:PlayerEnteredCombat(playerEnteredCombat) return end
+function gamePlayerSystem:PlayerEnteredCombat(playerEnteredCombat) end

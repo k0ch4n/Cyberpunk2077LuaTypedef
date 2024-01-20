@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class RegisterFastTravelPointsRequest: gameScriptableSystemRequest
----@field public fastTravelNodes gameFastTravelPointData[]
----@field public register Bool
+---@field fastTravelNodes gameFastTravelPointData[]
+---@field register Bool
 RegisterFastTravelPointsRequest = {}
 
 ---@param fields? RegisterFastTravelPointsRequest
 ---@return RegisterFastTravelPointsRequest
-function RegisterFastTravelPointsRequest.new(fields) return end
+function RegisterFastTravelPointsRequest.new(fields) end
 
 ---@return String
-function RegisterFastTravelPointsRequest:GetFriendlyDescription() return end
+function RegisterFastTravelPointsRequest:GetFriendlyDescription() end

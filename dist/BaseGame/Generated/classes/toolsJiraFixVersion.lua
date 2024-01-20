@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraFixVersion
----@field public id String
+---@field id String
 toolsJiraFixVersion = {}
 
 ---@param fields? toolsJiraFixVersion
 ---@return toolsJiraFixVersion
-function toolsJiraFixVersion.new(fields) return end
+function toolsJiraFixVersion.new(fields) end

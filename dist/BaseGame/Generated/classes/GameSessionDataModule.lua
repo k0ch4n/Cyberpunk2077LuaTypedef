@@ -1,33 +1,33 @@
 ---@meta
 
 ---@class GameSessionDataModule: IScriptable
----@field protected moduleType EGameSessionDataType
+---@field moduleType EGameSessionDataType
 GameSessionDataModule = {}
 
 ---@param fields? GameSessionDataModule
 ---@return GameSessionDataModule
-function GameSessionDataModule.new(fields) return end
+function GameSessionDataModule.new(fields) end
 
 ---@param data Variant
 ---@return nil
-function GameSessionDataModule:AddEntry(data) return end
+function GameSessionDataModule:AddEntry(data) end
 
 ---@param data Variant
 ---@return Bool
-function GameSessionDataModule:CheckData(data) return end
+function GameSessionDataModule:CheckData(data) end
 
 ---@return EGameSessionDataType
-function GameSessionDataModule:GetModuleType() return end
+function GameSessionDataModule:GetModuleType() end
 
 ---@return nil
-function GameSessionDataModule:Initialize() return end
+function GameSessionDataModule:Initialize() end
 
 ---@param data Variant
 ---@return Bool
-function GameSessionDataModule:IsDataValid(data) return end
+function GameSessionDataModule:IsDataValid(data) end
 
 ---@return nil
-function GameSessionDataModule:RefreshDebug() return end
+function GameSessionDataModule:RefreshDebug() end
 
 ---@return nil
-function GameSessionDataModule:Uninitialize() return end
+function GameSessionDataModule:Uninitialize() end

@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class rendRenderMultilayerMaskBlob: IRenderResourceBlob
----@field public header rendRenderMultilayerMaskBlobHeader
----@field public atlasData serializationDeferredDataBuffer
----@field public tilesData serializationDeferredDataBuffer
+---@field header rendRenderMultilayerMaskBlobHeader
+---@field atlasData serializationDeferredDataBuffer
+---@field tilesData serializationDeferredDataBuffer
 rendRenderMultilayerMaskBlob = {}

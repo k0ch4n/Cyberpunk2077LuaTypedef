@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SuppressNPCInSecuritySystem: redEvent
----@field public suppressIncomingEvents Bool
----@field public suppressOutgoingEvents Bool
+---@field suppressIncomingEvents Bool
+---@field suppressOutgoingEvents Bool
 SuppressNPCInSecuritySystem = {}
 
 ---@param fields? SuppressNPCInSecuritySystem
 ---@return SuppressNPCInSecuritySystem
-function SuppressNPCInSecuritySystem.new(fields) return end
+function SuppressNPCInSecuritySystem.new(fields) end
 
 ---@return String
-function SuppressNPCInSecuritySystem:GetFriendlyDescription() return end
+function SuppressNPCInSecuritySystem:GetFriendlyDescription() end

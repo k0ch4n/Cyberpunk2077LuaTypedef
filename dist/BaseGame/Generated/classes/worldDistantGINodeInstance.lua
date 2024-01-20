@@ -5,4 +5,4 @@ worldDistantGINodeInstance = {}
 
 ---@param fields? worldDistantGINodeInstance
 ---@return worldDistantGINodeInstance
-function worldDistantGINodeInstance.new(fields) return end
+function worldDistantGINodeInstance.new(fields) end

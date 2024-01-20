@@ -5,7 +5,7 @@ QuestIdle = {}
 
 ---@param fields? QuestIdle
 ---@return QuestIdle
-function QuestIdle.new(fields) return end
+function QuestIdle.new(fields) end
 
 ---@return nil
-function QuestIdle:SetProperties() return end
+function QuestIdle:SetProperties() end

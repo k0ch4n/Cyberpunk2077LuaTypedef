@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questRecordingNodeDefinition: questDisableableNodeDefinition
----@field public type questIRecordingNodeType
+---@field type questIRecordingNodeType
 questRecordingNodeDefinition = {}
 
 ---@param fields? questRecordingNodeDefinition
 ---@return questRecordingNodeDefinition
-function questRecordingNodeDefinition.new(fields) return end
+function questRecordingNodeDefinition.new(fields) end

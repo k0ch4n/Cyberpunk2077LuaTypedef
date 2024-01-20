@@ -5,38 +5,32 @@ CarriedObjectTransition = {}
 
 ---@param owner gameObject
 ---@return Bool
-function CarriedObjectTransition.HasRightHandWeaponActiveInSlot(owner) return end
+function CarriedObjectTransition.HasRightHandWeaponActiveInSlot(owner) end
 
----@protected
 ---@param owner gameObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CarriedObjectTransition:CanEquipFirearm(owner, stateContext, scriptInterface) return end
+function CarriedObjectTransition:CanEquipFirearm(owner, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CarriedObjectTransition:GetFastModeParameter(stateContext) return end
+function CarriedObjectTransition:GetFastModeParameter(stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CarriedObjectTransition:GetIsFriendlyCarryParameter(stateContext) return end
+function CarriedObjectTransition:GetIsFriendlyCarryParameter(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CarriedObjectTransition:IsPlayerCombatAllowed(scriptInterface) return end
+function CarriedObjectTransition:IsPlayerCombatAllowed(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param fastMode Bool
 ---@return nil
-function CarriedObjectTransition:SetFastModeParameter(stateContext, fastMode) return end
+function CarriedObjectTransition:SetFastModeParameter(stateContext, fastMode) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param isFriendlyCarry Bool
 ---@return nil
-function CarriedObjectTransition:SetIsFriendlyCarryParameter(stateContext, isFriendlyCarry) return end
+function CarriedObjectTransition:SetIsFriendlyCarryParameter(stateContext, isFriendlyCarry) end

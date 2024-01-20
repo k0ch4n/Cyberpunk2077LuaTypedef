@@ -1,44 +1,38 @@
 ---@meta
 
 ---@class PlaySFXEffector: gameEffector
----@field public activationSFXName CName
----@field public deactivationSFXName CName
----@field public startOnUninitialize Bool
----@field public unique Bool
----@field public fireAndForget Bool
----@field public stopActiveSfxOnDeactivate Bool
----@field public owner gameObject
+---@field activationSFXName CName
+---@field deactivationSFXName CName
+---@field startOnUninitialize Bool
+---@field unique Bool
+---@field fireAndForget Bool
+---@field stopActiveSfxOnDeactivate Bool
+---@field owner gameObject
 PlaySFXEffector = {}
 
 ---@param fields? PlaySFXEffector
 ---@return PlaySFXEffector
-function PlaySFXEffector.new(fields) return end
+function PlaySFXEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlaySFXEffector:ActionOff(owner) return end
+function PlaySFXEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlaySFXEffector:ActionOn(owner) return end
+function PlaySFXEffector:ActionOn(owner) end
 
----@protected
 ---@return nil
-function PlaySFXEffector:Deactivate() return end
+function PlaySFXEffector:Deactivate() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function PlaySFXEffector:Initialize(record, parentRecord) return end
+function PlaySFXEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlaySFXEffector:RepeatedAction(owner) return end
+function PlaySFXEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function PlaySFXEffector:Uninitialize() return end
+function PlaySFXEffector:Uninitialize() end

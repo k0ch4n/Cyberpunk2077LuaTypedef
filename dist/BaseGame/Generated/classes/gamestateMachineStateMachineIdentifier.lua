@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineStateMachineIdentifier
----@field public definitionName CName
----@field public referenceName CName
+---@field definitionName CName
+---@field referenceName CName
 gamestateMachineStateMachineIdentifier = {}
 
 ---@param fields? gamestateMachineStateMachineIdentifier
 ---@return gamestateMachineStateMachineIdentifier
-function gamestateMachineStateMachineIdentifier.new(fields) return end
+function gamestateMachineStateMachineIdentifier.new(fields) end

@@ -5,4 +5,4 @@ TerminateReactionLookatEvent = {}
 
 ---@param fields? TerminateReactionLookatEvent
 ---@return TerminateReactionLookatEvent
-function TerminateReactionLookatEvent.new(fields) return end
+function TerminateReactionLookatEvent.new(fields) end

@@ -5,29 +5,25 @@ Toilet = {}
 
 ---@param fields? Toilet
 ---@return Toilet
-function Toilet.new(fields) return end
+function Toilet.new(fields) end
 
----@protected
 ---@param evt Flush
 ---@return Bool
-function Toilet:OnFlush(evt) return end
+function Toilet:OnFlush(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Toilet:OnRequestComponents(ri) return end
+function Toilet:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Toilet:OnTakeControl(ri) return end
+function Toilet:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function Toilet:DeterminGameplayRole() return end
+function Toilet:DeterminGameplayRole() end
 
----@protected
 ---@return ToiletController
-function Toilet:GetController() return end
+function Toilet:GetController() end
 
 ---@return ToiletControllerPS
-function Toilet:GetDevicePS() return end
+function Toilet:GetDevicePS() end

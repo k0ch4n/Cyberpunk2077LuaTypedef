@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AIbehaviorActionDroneMoveTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public moveType AIArgumentMapping
----@field public target AIArgumentMapping
----@field public movementTarget AIArgumentMapping
----@field public toleranceRadius AIArgumentMapping
----@field public desiredDistanceFromTarget AIArgumentMapping
----@field public strafingTarget AIArgumentMapping
----@field public stopWhenDestinationReached AIArgumentMapping
----@field public rotateEntity AIArgumentMapping
+---@field moveType AIArgumentMapping
+---@field target AIArgumentMapping
+---@field movementTarget AIArgumentMapping
+---@field toleranceRadius AIArgumentMapping
+---@field desiredDistanceFromTarget AIArgumentMapping
+---@field strafingTarget AIArgumentMapping
+---@field stopWhenDestinationReached AIArgumentMapping
+---@field rotateEntity AIArgumentMapping
 AIbehaviorActionDroneMoveTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionDroneMoveTreeNodeDefinition
 ---@return AIbehaviorActionDroneMoveTreeNodeDefinition
-function AIbehaviorActionDroneMoveTreeNodeDefinition.new(fields) return end
+function AIbehaviorActionDroneMoveTreeNodeDefinition.new(fields) end

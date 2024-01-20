@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class RipperdocPerkData: IScriptable
----@field public Perk TweakDBID
----@field public Area gamedataNewPerkSlotType
----@field public Level Int32
+---@field Perk TweakDBID
+---@field Area gamedataNewPerkSlotType
+---@field Level Int32
 RipperdocPerkData = {}
 
 ---@param fields? RipperdocPerkData
 ---@return RipperdocPerkData
-function RipperdocPerkData.new(fields) return end
+function RipperdocPerkData.new(fields) end

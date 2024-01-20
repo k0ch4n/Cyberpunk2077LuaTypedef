@@ -1,50 +1,46 @@
 ---@meta
 
 ---@class BackpackFilterButtonController: inkWidgetLogicController
----@field protected icon inkImageWidgetReference
----@field protected text inkTextWidgetReference
----@field private filterType ItemFilterCategory
----@field private active Bool
----@field private hovered Bool
+---@field icon inkImageWidgetReference
+---@field text inkTextWidgetReference
+---@field filterType ItemFilterCategory
+---@field active Bool
+---@field hovered Bool
 BackpackFilterButtonController = {}
 
 ---@param fields? BackpackFilterButtonController
 ---@return BackpackFilterButtonController
-function BackpackFilterButtonController.new(fields) return end
+function BackpackFilterButtonController.new(fields) end
 
----@private
 ---@param filterType ItemFilterCategory
 ---@return String
-function BackpackFilterButtonController.GetIcon(filterType) return end
+function BackpackFilterButtonController.GetIcon(filterType) end
 
 ---@param filterType ItemFilterCategory
 ---@return CName
-function BackpackFilterButtonController.GetLabelKey(filterType) return end
+function BackpackFilterButtonController.GetLabelKey(filterType) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function BackpackFilterButtonController:OnHoverOut(evt) return end
+function BackpackFilterButtonController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function BackpackFilterButtonController:OnHoverOver(evt) return end
+function BackpackFilterButtonController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function BackpackFilterButtonController:OnInitialize() return end
+function BackpackFilterButtonController:OnInitialize() end
 
 ---@return ItemFilterCategory
-function BackpackFilterButtonController:GetFilterType() return end
+function BackpackFilterButtonController:GetFilterType() end
 
 ---@return CName
-function BackpackFilterButtonController:GetLabelKey() return end
+function BackpackFilterButtonController:GetLabelKey() end
 
 ---@param value Bool
 ---@return nil
-function BackpackFilterButtonController:SetActive(value) return end
+function BackpackFilterButtonController:SetActive(value) end
 
 ---@param filterType ItemFilterCategory
 ---@return nil
-function BackpackFilterButtonController:Setup(filterType) return end
+function BackpackFilterButtonController:Setup(filterType) end

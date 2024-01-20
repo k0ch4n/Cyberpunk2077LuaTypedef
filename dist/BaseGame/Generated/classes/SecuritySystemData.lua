@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class SecuritySystemData
----@field public suppressIncomingEvents Bool
----@field public suppressOutgoingEvents Bool
+---@field suppressIncomingEvents Bool
+---@field suppressOutgoingEvents Bool
 SecuritySystemData = {}
 
 ---@param fields? SecuritySystemData
 ---@return SecuritySystemData
-function SecuritySystemData.new(fields) return end
+function SecuritySystemData.new(fields) end
 
 ---@param self SecuritySystemData
 ---@return Bool
-function SecuritySystemData.AreIncomingEventsSuppressed(self) return end
+function SecuritySystemData.AreIncomingEventsSuppressed(self) end
 
 ---@param self SecuritySystemData
 ---@return Bool
-function SecuritySystemData.AreOutgoingEventsSuppressed(self) return end
+function SecuritySystemData.AreOutgoingEventsSuppressed(self) end

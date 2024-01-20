@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class rendEmitterSimulationShaders
----@field public simCS DataBuffer[]
+---@field simCS DataBuffer[]
 rendEmitterSimulationShaders = {}
 
 ---@param fields? rendEmitterSimulationShaders
 ---@return rendEmitterSimulationShaders
-function rendEmitterSimulationShaders.new(fields) return end
+function rendEmitterSimulationShaders.new(fields) end

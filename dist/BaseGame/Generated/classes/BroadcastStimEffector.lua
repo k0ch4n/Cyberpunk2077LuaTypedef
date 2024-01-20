@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class BroadcastStimEffector: gameContinuousEffector
----@field public stimType gamedataStimType
----@field public radius Float
+---@field stimType gamedataStimType
+---@field radius Float
 BroadcastStimEffector = {}
 
 ---@param fields? BroadcastStimEffector
 ---@return BroadcastStimEffector
-function BroadcastStimEffector.new(fields) return end
+function BroadcastStimEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function BroadcastStimEffector:ContinuousAction(owner, instigator) return end
+function BroadcastStimEffector:ContinuousAction(owner, instigator) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function BroadcastStimEffector:Initialize(record, parentRecord) return end
+function BroadcastStimEffector:Initialize(record, parentRecord) end

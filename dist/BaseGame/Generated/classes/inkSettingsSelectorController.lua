@@ -1,124 +1,113 @@
 ---@meta
 
 ---@class inkSettingsSelectorController: inkWidgetLogicController
----@field protected LabelText inkTextWidgetReference
----@field protected ModifiedFlag inkTextWidgetReference
----@field protected Raycaster inkWidgetReference
----@field protected optionSwitchHint inkWidgetReference
----@field protected hoverGeneralHighlight inkWidgetReference
----@field protected container inkWidgetReference
----@field protected indentMarker inkWidgetReference
----@field protected SettingsEntry userSettingsVar
----@field protected hoveredChildren inkWidget[]
----@field protected IsPreGame Bool
----@field private varGroupPath CName
----@field private varName CName
----@field protected additionalText CName
----@field private hoverInAnim inkanimProxy
----@field private hoverOutAnim inkanimProxy
+---@field LabelText inkTextWidgetReference
+---@field ModifiedFlag inkTextWidgetReference
+---@field Raycaster inkWidgetReference
+---@field optionSwitchHint inkWidgetReference
+---@field hoverGeneralHighlight inkWidgetReference
+---@field container inkWidgetReference
+---@field indentMarker inkWidgetReference
+---@field SettingsEntry userSettingsVar
+---@field hoveredChildren inkWidget[]
+---@field IsPreGame Bool
+---@field varGroupPath CName
+---@field varName CName
+---@field additionalText CName
+---@field hoverInAnim inkanimProxy
+---@field hoverOutAnim inkanimProxy
 inkSettingsSelectorController = {}
 
 ---@param fields? inkSettingsSelectorController
 ---@return inkSettingsSelectorController
-function inkSettingsSelectorController.new(fields) return end
+function inkSettingsSelectorController.new(fields) end
 
 ---@param entry userSettingsVar
 ---@return nil
-function inkSettingsSelectorController:BindSettings(entry) return end
+function inkSettingsSelectorController:BindSettings(entry) end
 
 ---@return CName
-function inkSettingsSelectorController:GetDescription() return end
+function inkSettingsSelectorController:GetDescription() end
 
 ---@return CName
-function inkSettingsSelectorController:GetDisplayName() return end
+function inkSettingsSelectorController:GetDisplayName() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorController:OnElementHovered(e) return end
+function inkSettingsSelectorController:OnElementHovered(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorController:OnHoverOut(e) return end
+function inkSettingsSelectorController:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorController:OnHoverOver(e) return end
+function inkSettingsSelectorController:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function inkSettingsSelectorController:OnInitialize() return end
+function inkSettingsSelectorController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorController:OnLeft(e) return end
+function inkSettingsSelectorController:OnLeft(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorController:OnRight(e) return end
+function inkSettingsSelectorController:OnRight(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorController:OnShortcutPress(e) return end
+function inkSettingsSelectorController:OnShortcutPress(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSettingsSelectorController:OnShortcutRepeat(e) return end
+function inkSettingsSelectorController:OnShortcutRepeat(e) end
 
----@protected
 ---@return Bool
-function inkSettingsSelectorController:OnUpdateValue() return end
+function inkSettingsSelectorController:OnUpdateValue() end
 
----@private
 ---@param forward Bool
 ---@return nil
-function inkSettingsSelectorController:AcceptValue(forward) return end
+function inkSettingsSelectorController:AcceptValue(forward) end
 
 ---@param isRightAligned? Bool
 ---@return nil
-function inkSettingsSelectorController:AddLabelIndent(isRightAligned) return end
+function inkSettingsSelectorController:AddLabelIndent(isRightAligned) end
 
----@private
 ---@param forward Bool
 ---@return nil
-function inkSettingsSelectorController:ChangeValue(forward) return end
+function inkSettingsSelectorController:ChangeValue(forward) end
 
 ---@return CName
-function inkSettingsSelectorController:GetGroupPath() return end
+function inkSettingsSelectorController:GetGroupPath() end
 
 ---@return userSettingsVar
-function inkSettingsSelectorController:GetVar() return end
+function inkSettingsSelectorController:GetVar() end
 
 ---@return CName
-function inkSettingsSelectorController:GetVarName() return end
+function inkSettingsSelectorController:GetVarName() end
 
 ---@return InGameConfigVarUpdatePolicy
-function inkSettingsSelectorController:GetVarUpdatePolicy() return end
+function inkSettingsSelectorController:GetVarUpdatePolicy() end
 
 ---@return Bool
-function inkSettingsSelectorController:IsDynamic() return end
+function inkSettingsSelectorController:IsDynamic() end
 
 ---@return nil
-function inkSettingsSelectorController:Refresh() return end
+function inkSettingsSelectorController:Refresh() end
 
 ---@return nil
-function inkSettingsSelectorController:ResetAdditionalText() return end
+function inkSettingsSelectorController:ResetAdditionalText() end
 
 ---@param text CName|string
 ---@return nil
-function inkSettingsSelectorController:SetAdditionalText(text) return end
+function inkSettingsSelectorController:SetAdditionalText(text) end
 
 ---@param interactive Bool
 ---@return nil
-function inkSettingsSelectorController:SetInteractive(interactive) return end
+function inkSettingsSelectorController:SetInteractive(interactive) end
 
 ---@param entry userSettingsVar
 ---@param isPreGame Bool
 ---@return nil
-function inkSettingsSelectorController:Setup(entry, isPreGame) return end
+function inkSettingsSelectorController:Setup(entry, isPreGame) end

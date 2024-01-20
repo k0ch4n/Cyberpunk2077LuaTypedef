@@ -1,40 +1,37 @@
 ---@meta
 
 ---@class ItemTooltipModuleController: inkWidgetLogicController
----@field protected lineWidget inkWidgetReference
----@field protected displayContext ItemDisplayContextData
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
----@field protected itemDisplayContext gameItemDisplayContext
+---@field lineWidget inkWidgetReference
+---@field displayContext ItemDisplayContextData
+---@field tooltipDisplayContext InventoryTooltipDisplayContext
+---@field itemDisplayContext gameItemDisplayContext
 ItemTooltipModuleController = {}
 
 ---@param fields? ItemTooltipModuleController
 ---@return ItemTooltipModuleController
-function ItemTooltipModuleController.new(fields) return end
+function ItemTooltipModuleController.new(fields) end
 
----@protected
 ---@param diffValue Float
 ---@return CName
-function ItemTooltipModuleController:GetArrowWrapperState(diffValue) return end
+function ItemTooltipModuleController:GetArrowWrapperState(diffValue) end
 
 ---@param data UIInventoryItem
 ---@return nil
-function ItemTooltipModuleController:NEW_Update(data) return end
+function ItemTooltipModuleController:NEW_Update(data) end
 
 ---@param itemDisplayContext gameItemDisplayContext
 ---@param tooltipDisplayContext InventoryTooltipDisplayContext
 ---@param displayContext ItemDisplayContextData
 ---@return nil
-function ItemTooltipModuleController:SetDisplayContext(itemDisplayContext, tooltipDisplayContext, displayContext) return end
+function ItemTooltipModuleController:SetDisplayContext(itemDisplayContext, tooltipDisplayContext, displayContext) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipModuleController:Update(data) return end
+function ItemTooltipModuleController:Update(data) end
 
----@protected
 ---@return Bool
-function ItemTooltipModuleController:UseCraftingLayout() return end
+function ItemTooltipModuleController:UseCraftingLayout() end
 
----@protected
 ---@param data MinimalItemTooltipData
 ---@return Bool
-function ItemTooltipModuleController:UseCraftingLayout(data) return end
+function ItemTooltipModuleController:UseCraftingLayout(data) end

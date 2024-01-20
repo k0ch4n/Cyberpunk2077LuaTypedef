@@ -5,14 +5,14 @@ TakedownEndEvents = {}
 
 ---@param fields? TakedownEndEvents
 ---@return TakedownEndEvents
-function TakedownEndEvents.new(fields) return end
+function TakedownEndEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownEndEvents:OnEnter(stateContext, scriptInterface) return end
+function TakedownEndEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownEndEvents:OnExit(stateContext, scriptInterface) return end
+function TakedownEndEvents:OnExit(stateContext, scriptInterface) end

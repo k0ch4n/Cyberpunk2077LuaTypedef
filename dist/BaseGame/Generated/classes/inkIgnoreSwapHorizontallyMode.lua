@@ -5,4 +5,4 @@ inkIgnoreSwapHorizontallyMode = {}
 
 ---@param fields? inkIgnoreSwapHorizontallyMode
 ---@return inkIgnoreSwapHorizontallyMode
-function inkIgnoreSwapHorizontallyMode.new(fields) return end
+function inkIgnoreSwapHorizontallyMode.new(fields) end

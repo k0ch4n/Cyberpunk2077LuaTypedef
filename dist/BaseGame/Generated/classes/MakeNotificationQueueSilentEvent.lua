@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class MakeNotificationQueueSilentEvent: redEvent
----@field public notificationType GenericNotificationType
----@field public makeSilent Bool
+---@field notificationType GenericNotificationType
+---@field makeSilent Bool
 MakeNotificationQueueSilentEvent = {}
 
 ---@param fields? MakeNotificationQueueSilentEvent
 ---@return MakeNotificationQueueSilentEvent
-function MakeNotificationQueueSilentEvent.new(fields) return end
+function MakeNotificationQueueSilentEvent.new(fields) end

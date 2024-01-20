@@ -5,10 +5,10 @@ gamedataAISubActionSetTopThreatPersistance_Record = {}
 
 ---@param fields? gamedataAISubActionSetTopThreatPersistance_Record
 ---@return gamedataAISubActionSetTopThreatPersistance_Record
-function gamedataAISubActionSetTopThreatPersistance_Record.new(fields) return end
+function gamedataAISubActionSetTopThreatPersistance_Record.new(fields) end
 
 ---@return gamedataAIThreatPersistenceSource_Record
-function gamedataAISubActionSetTopThreatPersistance_Record:Source() return end
+function gamedataAISubActionSetTopThreatPersistance_Record:Source() end
 
 ---@return gamedataAIThreatPersistenceSource_Record
-function gamedataAISubActionSetTopThreatPersistance_Record:SourceHandle() return end
+function gamedataAISubActionSetTopThreatPersistance_Record:SourceHandle() end

@@ -5,14 +5,12 @@ IsConnectedToSecuritySystem = {}
 
 ---@param fields? IsConnectedToSecuritySystem
 ---@return IsConnectedToSecuritySystem
-function IsConnectedToSecuritySystem.new(fields) return end
+function IsConnectedToSecuritySystem.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsConnectedToSecuritySystem:Activate(context) return end
+function IsConnectedToSecuritySystem:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsConnectedToSecuritySystem:Check(context) return end
+function IsConnectedToSecuritySystem:Check(context) end

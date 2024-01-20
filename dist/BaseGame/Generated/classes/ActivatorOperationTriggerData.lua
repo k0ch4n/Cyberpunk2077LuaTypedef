@@ -5,4 +5,4 @@ ActivatorOperationTriggerData = {}
 
 ---@param fields? ActivatorOperationTriggerData
 ---@return ActivatorOperationTriggerData
-function ActivatorOperationTriggerData.new(fields) return end
+function ActivatorOperationTriggerData.new(fields) end

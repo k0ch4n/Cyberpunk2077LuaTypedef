@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkMaskEffect: inkIEffect
----@field public angle Float
----@field public opacity Float
----@field public invert Bool
+---@field angle Float
+---@field opacity Float
+---@field invert Bool
 inkMaskEffect = {}
 
 ---@param fields? inkMaskEffect
 ---@return inkMaskEffect
-function inkMaskEffect.new(fields) return end
+function inkMaskEffect.new(fields) end

@@ -5,4 +5,4 @@ SellNewPerk = {}
 
 ---@param fields? SellNewPerk
 ---@return SellNewPerk
-function SellNewPerk.new(fields) return end
+function SellNewPerk.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entEntityUserComponentResolution
----@field public id CRUID
----@field public include entEntityTemplate
----@field public mode entEntityUserComponentResolutionMode
+---@field id CRUID
+---@field include entEntityTemplate
+---@field mode entEntityUserComponentResolutionMode
 entEntityUserComponentResolution = {}
 
 ---@param fields? entEntityUserComponentResolution
 ---@return entEntityUserComponentResolution
-function entEntityUserComponentResolution.new(fields) return end
+function entEntityUserComponentResolution.new(fields) end

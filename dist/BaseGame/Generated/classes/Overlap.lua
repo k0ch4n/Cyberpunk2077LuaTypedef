@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class Overlap
----@field public instructionNumber Int32
----@field public otherInstruction Int32
----@field public atStart Bool
----@field public rarity Int32
+---@field instructionNumber Int32
+---@field otherInstruction Int32
+---@field atStart Bool
+---@field rarity Int32
 Overlap = {}
 
 ---@param fields? Overlap
 ---@return Overlap
-function Overlap.new(fields) return end
+function Overlap.new(fields) end

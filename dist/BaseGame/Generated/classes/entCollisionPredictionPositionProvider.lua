@@ -5,4 +5,4 @@ entCollisionPredictionPositionProvider = {}
 
 ---@param fields? entCollisionPredictionPositionProvider
 ---@return entCollisionPredictionPositionProvider
-function entCollisionPredictionPositionProvider.new(fields) return end
+function entCollisionPredictionPositionProvider.new(fields) end

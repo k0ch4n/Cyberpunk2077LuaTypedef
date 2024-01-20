@@ -5,4 +5,4 @@ ItemTooltipEquippedModule = {}
 
 ---@param fields? ItemTooltipEquippedModule
 ---@return ItemTooltipEquippedModule
-function ItemTooltipEquippedModule.new(fields) return end
+function ItemTooltipEquippedModule.new(fields) end

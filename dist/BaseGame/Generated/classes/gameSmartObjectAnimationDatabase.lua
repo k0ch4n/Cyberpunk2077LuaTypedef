@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSmartObjectAnimationDatabase: ISerializable
----@field public animationData gameAnimationExtractedData[]
----@field public bodyTypesData gameBodyTypeData[]
+---@field animationData gameAnimationExtractedData[]
+---@field bodyTypesData gameBodyTypeData[]
 gameSmartObjectAnimationDatabase = {}
 
 ---@param fields? gameSmartObjectAnimationDatabase
 ---@return gameSmartObjectAnimationDatabase
-function gameSmartObjectAnimationDatabase.new(fields) return end
+function gameSmartObjectAnimationDatabase.new(fields) end

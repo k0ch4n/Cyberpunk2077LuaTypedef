@@ -5,4 +5,4 @@ mpPersistentTestBox = {}
 
 ---@param fields? mpPersistentTestBox
 ---@return mpPersistentTestBox
-function mpPersistentTestBox.new(fields) return end
+function mpPersistentTestBox.new(fields) end

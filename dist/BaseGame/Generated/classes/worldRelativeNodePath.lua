@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldRelativeNodePath
----@field public parentsToSkip Uint32
----@field public elements worldRelativeNodePathElement[]
+---@field parentsToSkip Uint32
+---@field elements worldRelativeNodePathElement[]
 worldRelativeNodePath = {}
 
 ---@param fields? worldRelativeNodePath
 ---@return worldRelativeNodePath
-function worldRelativeNodePath.new(fields) return end
+function worldRelativeNodePath.new(fields) end

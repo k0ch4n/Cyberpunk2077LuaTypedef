@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameStimuliMergeInfo
----@field public position Vector4
----@field public instigator gameObject
----@field public radius Float
----@field public type gamedataStimType
----@field public propagationType gamedataStimPropagation
----@field public targets gamedataStimTargets
+---@field position Vector4
+---@field instigator gameObject
+---@field radius Float
+---@field type gamedataStimType
+---@field propagationType gamedataStimPropagation
+---@field targets gamedataStimTargets
 gameStimuliMergeInfo = {}
 
 ---@param fields? gameStimuliMergeInfo
 ---@return gameStimuliMergeInfo
-function gameStimuliMergeInfo.new(fields) return end
+function gameStimuliMergeInfo.new(fields) end

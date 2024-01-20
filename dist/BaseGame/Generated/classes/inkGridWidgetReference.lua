@@ -5,4 +5,4 @@ inkGridWidgetReference = {}
 
 ---@param fields? inkGridWidgetReference
 ---@return inkGridWidgetReference
-function inkGridWidgetReference.new(fields) return end
+function inkGridWidgetReference.new(fields) end

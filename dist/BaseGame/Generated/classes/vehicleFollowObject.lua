@@ -5,4 +5,4 @@ vehicleFollowObject = {}
 
 ---@param fields? vehicleFollowObject
 ---@return vehicleFollowObject
-function vehicleFollowObject.new(fields) return end
+function vehicleFollowObject.new(fields) end

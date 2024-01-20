@@ -5,7 +5,7 @@ FuseController = {}
 
 ---@param fields? FuseController
 ---@return FuseController
-function FuseController.new(fields) return end
+function FuseController.new(fields) end
 
 ---@return FuseControllerPS
-function FuseController:GetPS() return end
+function FuseController:GetPS() end

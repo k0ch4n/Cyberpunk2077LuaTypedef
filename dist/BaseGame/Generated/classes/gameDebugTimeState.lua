@@ -5,4 +5,4 @@ gameDebugTimeState = {}
 
 ---@param fields? gameDebugTimeState
 ---@return gameDebugTimeState
-function gameDebugTimeState.new(fields) return end
+function gameDebugTimeState.new(fields) end

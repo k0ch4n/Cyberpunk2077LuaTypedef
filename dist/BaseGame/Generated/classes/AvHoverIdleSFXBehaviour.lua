@@ -5,9 +5,8 @@ AvHoverIdleSFXBehaviour = {}
 
 ---@param fields? AvHoverIdleSFXBehaviour
 ---@return AvHoverIdleSFXBehaviour
-function AvHoverIdleSFXBehaviour.new(fields) return end
+function AvHoverIdleSFXBehaviour.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AvHoverIdleSFXBehaviour:Activate(context) return end
+function AvHoverIdleSFXBehaviour:Activate(context) end

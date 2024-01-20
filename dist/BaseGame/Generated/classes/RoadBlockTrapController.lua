@@ -5,7 +5,7 @@ RoadBlockTrapController = {}
 
 ---@param fields? RoadBlockTrapController
 ---@return RoadBlockTrapController
-function RoadBlockTrapController.new(fields) return end
+function RoadBlockTrapController.new(fields) end
 
 ---@return RoadBlockTrapControllerPS
-function RoadBlockTrapController:GetPS() return end
+function RoadBlockTrapController:GetPS() end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class senseSensorObject: ISerializable
----@field public presetID TweakDBID
----@field public detectionFactor Float
----@field public detectionDropFactor Float
----@field public detectionCoolDownTime Float
----@field public detectionPartCoolDownTime Float
----@field public hearingEnabled Bool
----@field public sensorObjectType gamedataSenseObjectType
+---@field presetID TweakDBID
+---@field detectionFactor Float
+---@field detectionDropFactor Float
+---@field detectionCoolDownTime Float
+---@field detectionPartCoolDownTime Float
+---@field hearingEnabled Bool
+---@field sensorObjectType gamedataSenseObjectType
 senseSensorObject = {}
 
 ---@param fields? senseSensorObject
 ---@return senseSensorObject
-function senseSensorObject.new(fields) return end
+function senseSensorObject.new(fields) end

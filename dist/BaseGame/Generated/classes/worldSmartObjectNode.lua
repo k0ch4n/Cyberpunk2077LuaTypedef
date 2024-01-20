@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldSmartObjectNode: worldNode
----@field public object gameSmartObjectDefinition
+---@field object gameSmartObjectDefinition
 worldSmartObjectNode = {}
 
 ---@param fields? worldSmartObjectNode
 ---@return worldSmartObjectNode
-function worldSmartObjectNode.new(fields) return end
+function worldSmartObjectNode.new(fields) end

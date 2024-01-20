@@ -5,10 +5,10 @@ gamedataReactionLimit_Record = {}
 
 ---@param fields? gamedataReactionLimit_Record
 ---@return gamedataReactionLimit_Record
-function gamedataReactionLimit_Record.new(fields) return end
+function gamedataReactionLimit_Record.new(fields) end
 
 ---@return Int32
-function gamedataReactionLimit_Record:Limit() return end
+function gamedataReactionLimit_Record:Limit() end
 
 ---@return CName
-function gamedataReactionLimit_Record:Name() return end
+function gamedataReactionLimit_Record:Name() end

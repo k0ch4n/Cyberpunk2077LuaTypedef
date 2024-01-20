@@ -5,19 +5,16 @@ MenuScenario_LifePathSelection = {}
 
 ---@param fields? MenuScenario_LifePathSelection
 ---@return MenuScenario_LifePathSelection
-function MenuScenario_LifePathSelection.new(fields) return end
+function MenuScenario_LifePathSelection.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_LifePathSelection:OnAccept() return end
+function MenuScenario_LifePathSelection:OnAccept() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_LifePathSelection:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_LifePathSelection:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_LifePathSelection:OnLeaveScenario(nextScenario) return end
+function MenuScenario_LifePathSelection:OnLeaveScenario(nextScenario) end

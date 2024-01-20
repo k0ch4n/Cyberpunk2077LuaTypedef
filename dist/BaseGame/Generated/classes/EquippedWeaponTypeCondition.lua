@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class EquippedWeaponTypeCondition: workIScriptedCondition
----@field protected weaponType WorkspotWeaponConditionEnum
+---@field weaponType WorkspotWeaponConditionEnum
 EquippedWeaponTypeCondition = {}
 
 ---@param fields? EquippedWeaponTypeCondition
 ---@return EquippedWeaponTypeCondition
-function EquippedWeaponTypeCondition.new(fields) return end
+function EquippedWeaponTypeCondition.new(fields) end
 
----@protected
 ---@param ent entEntity
 ---@return Bool
-function EquippedWeaponTypeCondition:CheckCondition(ent) return end
+function EquippedWeaponTypeCondition:CheckCondition(ent) end

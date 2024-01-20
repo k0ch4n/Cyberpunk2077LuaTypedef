@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class animSBehaviorConstraintNodeFloorIKLegsData
----@field public ["Min rel offset"] Float
----@field public ["Max rel offset"] Float
----@field public ["Min trace offset"] Float
----@field public ["Max trace offset"] Float
----@field public verticalOffsetBlendUpTime Float
----@field public verticalOffsetBlendDownTime Float
----@field public ["Max distance for trace update"] Float
----@field public ["Max angle from upright normal"] Float
----@field public ["Max angle from upright normal to side"] Float
----@field public ["Max angle from upright normal to revert orientation"] Float
+---@field ["Min rel offset"] Float
+---@field ["Max rel offset"] Float
+---@field ["Min trace offset"] Float
+---@field ["Max trace offset"] Float
+---@field verticalOffsetBlendUpTime Float
+---@field verticalOffsetBlendDownTime Float
+---@field ["Max distance for trace update"] Float
+---@field ["Max angle from upright normal"] Float
+---@field ["Max angle from upright normal to side"] Float
+---@field ["Max angle from upright normal to revert orientation"] Float
 animSBehaviorConstraintNodeFloorIKLegsData = {}
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKLegsData
 ---@return animSBehaviorConstraintNodeFloorIKLegsData
-function animSBehaviorConstraintNodeFloorIKLegsData.new(fields) return end
+function animSBehaviorConstraintNodeFloorIKLegsData.new(fields) end

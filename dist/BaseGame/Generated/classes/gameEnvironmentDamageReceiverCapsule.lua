@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameEnvironmentDamageReceiverCapsule: gameEnvironmentDamageReceiverShape
----@field public radius Float
----@field public height Float
+---@field radius Float
+---@field height Float
 gameEnvironmentDamageReceiverCapsule = {}
 
 ---@param fields? gameEnvironmentDamageReceiverCapsule
 ---@return gameEnvironmentDamageReceiverCapsule
-function gameEnvironmentDamageReceiverCapsule.new(fields) return end
+function gameEnvironmentDamageReceiverCapsule.new(fields) end

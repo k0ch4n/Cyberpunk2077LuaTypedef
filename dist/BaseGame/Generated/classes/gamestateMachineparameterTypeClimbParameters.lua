@@ -5,20 +5,20 @@ gamestateMachineparameterTypeClimbParameters = {}
 
 ---@param fields? gamestateMachineparameterTypeClimbParameters
 ---@return gamestateMachineparameterTypeClimbParameters
-function gamestateMachineparameterTypeClimbParameters.new(fields) return end
+function gamestateMachineparameterTypeClimbParameters.new(fields) end
 
 ---@param val Int32
 ---@return nil
-function gamestateMachineparameterTypeClimbParameters:SetClimbType(val) return end
+function gamestateMachineparameterTypeClimbParameters:SetClimbType(val) end
 
 ---@param val entEntity
 ---@return nil
-function gamestateMachineparameterTypeClimbParameters:SetClimbedEntity(val) return end
+function gamestateMachineparameterTypeClimbParameters:SetClimbedEntity(val) end
 
 ---@param val Float
 ---@return nil
-function gamestateMachineparameterTypeClimbParameters:SetHorizontalDuration(val) return end
+function gamestateMachineparameterTypeClimbParameters:SetHorizontalDuration(val) end
 
 ---@param val Float
 ---@return nil
-function gamestateMachineparameterTypeClimbParameters:SetVerticalDuration(val) return end
+function gamestateMachineparameterTypeClimbParameters:SetVerticalDuration(val) end

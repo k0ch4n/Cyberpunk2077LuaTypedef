@@ -5,10 +5,10 @@ gameAttachmentSlotEventsItemRemovedFromSlot = {}
 
 ---@param fields? gameAttachmentSlotEventsItemRemovedFromSlot
 ---@return gameAttachmentSlotEventsItemRemovedFromSlot
-function gameAttachmentSlotEventsItemRemovedFromSlot.new(fields) return end
+function gameAttachmentSlotEventsItemRemovedFromSlot.new(fields) end
 
 ---@return gameItemID
-function gameAttachmentSlotEventsItemRemovedFromSlot:GetItemID() return end
+function gameAttachmentSlotEventsItemRemovedFromSlot:GetItemID() end
 
 ---@return TweakDBID
-function gameAttachmentSlotEventsItemRemovedFromSlot:GetSlotID() return end
+function gameAttachmentSlotEventsItemRemovedFromSlot:GetSlotID() end

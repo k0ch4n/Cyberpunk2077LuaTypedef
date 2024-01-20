@@ -5,10 +5,9 @@ FallLowGravityEvents = {}
 
 ---@param fields? FallLowGravityEvents
 ---@return FallLowGravityEvents
-function FallLowGravityEvents.new(fields) return end
+function FallLowGravityEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FallLowGravityEvents:OnEnter(stateContext, scriptInterface) return end
+function FallLowGravityEvents:OnEnter(stateContext, scriptInterface) end

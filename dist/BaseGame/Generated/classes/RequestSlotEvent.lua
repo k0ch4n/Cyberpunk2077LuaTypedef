@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RequestSlotEvent: redEvent
----@field public blackboard gameIBlackboard
----@field public requester gameObject
+---@field blackboard gameIBlackboard
+---@field requester gameObject
 RequestSlotEvent = {}
 
 ---@param fields? RequestSlotEvent
 ---@return RequestSlotEvent
-function RequestSlotEvent.new(fields) return end
+function RequestSlotEvent.new(fields) end

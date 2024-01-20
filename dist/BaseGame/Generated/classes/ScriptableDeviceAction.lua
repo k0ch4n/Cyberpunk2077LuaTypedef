@@ -1,62 +1,62 @@
 ---@meta
 
 ---@class ScriptableDeviceAction: BaseScriptableAction
----@field public prop gamedeviceActionProperty
----@field protected actionWidgetPackage SActionWidgetPackage
----@field protected spiderbotActionLocationOverride NodeRef
----@field protected duration Float
----@field private canTriggerStim Bool
----@field private wasPerformedOnOwner Bool
----@field private shouldActivateDevice Bool
----@field private disableSpread Bool
----@field protected isQuickHack Bool
----@field protected isSpiderbotAction Bool
----@field protected attachedProgram TweakDBID
----@field protected activeStatusEffect TweakDBID
----@field protected interactionIconType TweakDBID
----@field protected hasInteraction Bool
----@field protected inactiveReason String
----@field protected widgetStyle gamedataComputerUIStyle
+---@field prop gamedeviceActionProperty
+---@field actionWidgetPackage SActionWidgetPackage
+---@field spiderbotActionLocationOverride NodeRef
+---@field duration Float
+---@field canTriggerStim Bool
+---@field wasPerformedOnOwner Bool
+---@field shouldActivateDevice Bool
+---@field disableSpread Bool
+---@field isQuickHack Bool
+---@field isSpiderbotAction Bool
+---@field attachedProgram TweakDBID
+---@field activeStatusEffect TweakDBID
+---@field interactionIconType TweakDBID
+---@field hasInteraction Bool
+---@field inactiveReason String
+---@field widgetStyle gamedataComputerUIStyle
 ScriptableDeviceAction = {}
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ScriptableDeviceAction.IsAvailable(device) return end
+function ScriptableDeviceAction.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ScriptableDeviceAction.IsClearanceValid(clearance) return end
+function ScriptableDeviceAction.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ScriptableDeviceAction.IsDefaultConditionMet(device, context) return end
+function ScriptableDeviceAction.IsDefaultConditionMet(device, context) end
 
 ---@param deviceName String
 ---@return nil
-function ScriptableDeviceAction:AddDeviceName(deviceName) return end
+function ScriptableDeviceAction:AddDeviceName(deviceName) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ScriptableDeviceAction:CanSpiderbotCompleteThisAction(device) return end
+function ScriptableDeviceAction:CanSpiderbotCompleteThisAction(device) end
 
 ---@return Bool
-function ScriptableDeviceAction:CanTriggerStim() return end
+function ScriptableDeviceAction:CanTriggerStim() end
 
 ---@return nil
-function ScriptableDeviceAction:ClearIllegal() return end
+function ScriptableDeviceAction:ClearIllegal() end
 
 ---@return nil
-function ScriptableDeviceAction:CompleteAction() return end
+function ScriptableDeviceAction:CompleteAction() end
 
 ---@param widgetTweakDBID TweakDBID|string
 ---@param actions? gamedeviceAction[]
 ---@return nil
-function ScriptableDeviceAction:CreateActionWidgetPackage(widgetTweakDBID, actions) return end
+function ScriptableDeviceAction:CreateActionWidgetPackage(widgetTweakDBID, actions) end
 
 ---@param actions? gamedeviceAction[]
 ---@return nil
-function ScriptableDeviceAction:CreateActionWidgetPackage(actions) return end
+function ScriptableDeviceAction:CreateActionWidgetPackage(actions) end
 
 ---@param actions? gamedeviceAction[]
 ---@param customName1 String
@@ -64,197 +64,192 @@ function ScriptableDeviceAction:CreateActionWidgetPackage(actions) return end
 ---@param customID1? TweakDBID|string
 ---@param customID2? TweakDBID|string
 ---@return nil
-function ScriptableDeviceAction:CreateCustomInteraction(actions, customName1, customName2, customID1, customID2) return end
+function ScriptableDeviceAction:CreateCustomInteraction(actions, customName1, customName2, customID1, customID2) end
 
 ---@param actions? gamedeviceAction[]
 ---@param alternativeMainChoiceRecord? String
 ---@param alternativeMainChoiceTweakDBID? TweakDBID|string
 ---@return nil
-function ScriptableDeviceAction:CreateInteraction(actions, alternativeMainChoiceRecord, alternativeMainChoiceTweakDBID) return end
+function ScriptableDeviceAction:CreateInteraction(actions, alternativeMainChoiceRecord, alternativeMainChoiceTweakDBID) end
 
 ---@return CName
-function ScriptableDeviceAction:GetActionName() return end
+function ScriptableDeviceAction:GetActionName() end
 
 ---@return SActionWidgetPackage
-function ScriptableDeviceAction:GetActionWidgetPackage() return end
+function ScriptableDeviceAction:GetActionWidgetPackage() end
 
 ---@return TweakDBID
-function ScriptableDeviceAction:GetActiveStatusEffectTweakDBID() return end
+function ScriptableDeviceAction:GetActiveStatusEffectTweakDBID() end
 
 ---@return TweakDBID
-function ScriptableDeviceAction:GetAttachedProgramTweakDBID() return end
+function ScriptableDeviceAction:GetAttachedProgramTweakDBID() end
 
 ---@return Float
-function ScriptableDeviceAction:GetAwarenessCost() return end
+function ScriptableDeviceAction:GetAwarenessCost() end
 
 ---@return Int32
-function ScriptableDeviceAction:GetCost() return end
+function ScriptableDeviceAction:GetCost() end
 
----@protected
 ---@return CName
-function ScriptableDeviceAction:GetDefaultActionName() return end
+function ScriptableDeviceAction:GetDefaultActionName() end
 
 ---@return String
-function ScriptableDeviceAction:GetDeviceName() return end
+function ScriptableDeviceAction:GetDeviceName() end
 
 ---@param record TweakDBID|string
 ---@return Float
-function ScriptableDeviceAction:GetDurationFromTDBRecord(record) return end
+function ScriptableDeviceAction:GetDurationFromTDBRecord(record) end
 
 ---@return Float
-function ScriptableDeviceAction:GetDurationValue() return end
+function ScriptableDeviceAction:GetDurationValue() end
 
 ---@return String
-function ScriptableDeviceAction:GetInactiveReason() return end
+function ScriptableDeviceAction:GetInactiveReason() end
 
 ---@return CName
-function ScriptableDeviceAction:GetInkWidgetLibraryID() return end
+function ScriptableDeviceAction:GetInkWidgetLibraryID() end
 
 ---@return redResourceReferenceScriptToken
-function ScriptableDeviceAction:GetInkWidgetLibraryPath() return end
+function ScriptableDeviceAction:GetInkWidgetLibraryPath() end
 
 ---@return TweakDBID
-function ScriptableDeviceAction:GetInkWidgetTweakDBID() return end
+function ScriptableDeviceAction:GetInkWidgetTweakDBID() end
 
 ---@return gameinteractionsChoice
-function ScriptableDeviceAction:GetInteractionChoice() return end
+function ScriptableDeviceAction:GetInteractionChoice() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function ScriptableDeviceAction:GetInteractionIcon() return end
+function ScriptableDeviceAction:GetInteractionIcon() end
 
 ---@return CName
-function ScriptableDeviceAction:GetInteractionLayer() return end
+function ScriptableDeviceAction:GetInteractionLayer() end
 
 ---@return gamedataObjectAction_Record
-function ScriptableDeviceAction:GetObjectActionRecord() return end
+function ScriptableDeviceAction:GetObjectActionRecord() end
 
----@protected
 ---@return ScriptableDeviceComponentPS
-function ScriptableDeviceAction:GetOwnerPS() return end
+function ScriptableDeviceAction:GetOwnerPS() end
 
 ---@return gamedeviceRequestType
-function ScriptableDeviceAction:GetRequestType() return end
+function ScriptableDeviceAction:GetRequestType() end
 
 ---@return NodeRef
-function ScriptableDeviceAction:GetSpiderbotLocationOverrideReference() return end
+function ScriptableDeviceAction:GetSpiderbotLocationOverrideReference() end
 
 ---@return Bool
-function ScriptableDeviceAction:HasUI() return end
+function ScriptableDeviceAction:HasUI() end
 
 ---@return Bool
-function ScriptableDeviceAction:IsCompleted() return end
+function ScriptableDeviceAction:IsCompleted() end
 
 ---@return Bool
-function ScriptableDeviceAction:IsIllegal() return end
+function ScriptableDeviceAction:IsIllegal() end
 
 ---@return Bool
-function ScriptableDeviceAction:IsQuickHack() return end
+function ScriptableDeviceAction:IsQuickHack() end
 
 ---@return Bool
-function ScriptableDeviceAction:IsRemoteHack() return end
+function ScriptableDeviceAction:IsRemoteHack() end
 
 ---@return Bool
-function ScriptableDeviceAction:IsSpiderbotAction() return end
+function ScriptableDeviceAction:IsSpiderbotAction() end
 
 ---@return Bool
-function ScriptableDeviceAction:IsSpreadDisabled() return end
+function ScriptableDeviceAction:IsSpreadDisabled() end
 
 ---@return Bool
-function ScriptableDeviceAction:IsStarted() return end
+function ScriptableDeviceAction:IsStarted() end
 
----@private
 ---@return nil
-function ScriptableDeviceAction:ProduceInteractionParts() return end
+function ScriptableDeviceAction:ProduceInteractionParts() end
 
 ---@param data ResolveActionData
 ---@return Bool
-function ScriptableDeviceAction:ResolveAction(data) return end
+function ScriptableDeviceAction:ResolveAction(data) end
 
----@protected
 ---@return nil
-function ScriptableDeviceAction:ResolveActionWidgetTweakDBData() return end
+function ScriptableDeviceAction:ResolveActionWidgetTweakDBData() end
 
 ---@param effectID TweakDBID|string
 ---@return nil
-function ScriptableDeviceAction:SetActiveStatusEffectTweakDBID(effectID) return end
+function ScriptableDeviceAction:SetActiveStatusEffectTweakDBID(effectID) end
 
 ---@param wasExecutedAtLeastOnce? Bool
 ---@return nil
-function ScriptableDeviceAction:SetAsQuickHack(wasExecutedAtLeastOnce) return end
+function ScriptableDeviceAction:SetAsQuickHack(wasExecutedAtLeastOnce) end
 
 ---@return nil
-function ScriptableDeviceAction:SetAsSpiderbotAction() return end
+function ScriptableDeviceAction:SetAsSpiderbotAction() end
 
 ---@param programID TweakDBID|string
 ---@return nil
-function ScriptableDeviceAction:SetAttachedProgramTweakDBID(programID) return end
+function ScriptableDeviceAction:SetAttachedProgramTweakDBID(programID) end
 
 ---@param value Bool
 ---@return nil
-function ScriptableDeviceAction:SetCanSkipPayCost(value) return end
+function ScriptableDeviceAction:SetCanSkipPayCost(value) end
 
 ---@param canTrigger Bool
 ---@return nil
-function ScriptableDeviceAction:SetCanTriggerStim(canTrigger) return end
+function ScriptableDeviceAction:SetCanTriggerStim(canTrigger) end
 
 ---@return nil
-function ScriptableDeviceAction:SetCompleted() return end
+function ScriptableDeviceAction:SetCompleted() end
 
 ---@param value Bool
 ---@return nil
-function ScriptableDeviceAction:SetDisableSpread(value) return end
+function ScriptableDeviceAction:SetDisableSpread(value) end
 
 ---@param duration Float
 ---@return nil
-function ScriptableDeviceAction:SetDurationValue(duration) return end
+function ScriptableDeviceAction:SetDurationValue(duration) end
 
 ---@param isIllegal Bool
 ---@return nil
-function ScriptableDeviceAction:SetIllegal(isIllegal) return end
+function ScriptableDeviceAction:SetIllegal(isIllegal) end
 
 ---@param reasonStr String
 ---@return nil
-function ScriptableDeviceAction:SetInactiveReason(reasonStr) return end
+function ScriptableDeviceAction:SetInactiveReason(reasonStr) end
 
 ---@return nil
-function ScriptableDeviceAction:SetInactiveReasonAsCaption() return end
+function ScriptableDeviceAction:SetInactiveReasonAsCaption() end
 
 ---@param isActiveIf Bool
 ---@param reason String
 ---@return nil
-function ScriptableDeviceAction:SetInactiveWithReason(isActiveIf, reason) return end
+function ScriptableDeviceAction:SetInactiveWithReason(isActiveIf, reason) end
 
 ---@param id TweakDBID|string
 ---@return nil
-function ScriptableDeviceAction:SetInkWidgetTweakDBID(id) return end
+function ScriptableDeviceAction:SetInkWidgetTweakDBID(id) end
 
 ---@param iconType TweakDBID|string
 ---@return nil
-function ScriptableDeviceAction:SetInteractionIcon(iconType) return end
+function ScriptableDeviceAction:SetInteractionIcon(iconType) end
 
 ---@param layer CName|string
 ---@return nil
-function ScriptableDeviceAction:SetInteractionLayer(layer) return end
+function ScriptableDeviceAction:SetInteractionLayer(layer) end
 
 ---@param id TweakDBID|string
 ---@return nil
-function ScriptableDeviceAction:SetObjectActionID(id) return end
+function ScriptableDeviceAction:SetObjectActionID(id) end
 
 ---@param value Bool
 ---@return nil
-function ScriptableDeviceAction:SetShouldActivateDevice(value) return end
+function ScriptableDeviceAction:SetShouldActivateDevice(value) end
 
 ---@param targetLocationReference NodeRef
 ---@return nil
-function ScriptableDeviceAction:SetSpiderbotLocationOverrideReference(targetLocationReference) return end
+function ScriptableDeviceAction:SetSpiderbotLocationOverrideReference(targetLocationReference) end
 
 ---@param style gamedataComputerUIStyle
 ---@return nil
-function ScriptableDeviceAction:SetWidgetStyle(style) return end
+function ScriptableDeviceAction:SetWidgetStyle(style) end
 
 ---@return Bool
-function ScriptableDeviceAction:ShouldActivateDevice() return end
+function ScriptableDeviceAction:ShouldActivateDevice() end
 
----@private
 ---@return nil
-function ScriptableDeviceAction:StartUpload() return end
+function ScriptableDeviceAction:StartUpload() end

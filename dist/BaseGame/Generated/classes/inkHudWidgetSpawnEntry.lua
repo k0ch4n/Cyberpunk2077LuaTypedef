@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class inkHudWidgetSpawnEntry
----@field public hudEntryName CName
----@field public enabled Bool
----@field public contextVisibility worlduiContextVisibility
----@field public gameContextVisibility gameuiContext
----@field public spawnMode inkSpawnMode
----@field public widgetResource inkWidgetLibraryResource
----@field public anchorPlace inkEAnchor
----@field public anchorPoint Vector2
----@field public margins inkMargin
----@field public attachToSlot Bool
----@field public slotParams inkWidgetSlotAttachmentParams
----@field public useSeparateWindow Bool
----@field public ignoreHudSafezones Bool
----@field public affectedByGlitchEffect Bool
----@field public affectedByBlackwallEffect Bool
----@field public spawnBeforeSlots Bool
----@field public ignoreHudScaleOverride Bool
----@field public hudScalingInterpolationValue Float
----@field public hudScalingMarginCorrection inkMargin
+---@field hudEntryName CName
+---@field enabled Bool
+---@field contextVisibility worlduiContextVisibility
+---@field gameContextVisibility gameuiContext
+---@field spawnMode inkSpawnMode
+---@field widgetResource inkWidgetLibraryResource
+---@field anchorPlace inkEAnchor
+---@field anchorPoint Vector2
+---@field margins inkMargin
+---@field attachToSlot Bool
+---@field slotParams inkWidgetSlotAttachmentParams
+---@field useSeparateWindow Bool
+---@field ignoreHudSafezones Bool
+---@field affectedByGlitchEffect Bool
+---@field affectedByBlackwallEffect Bool
+---@field spawnBeforeSlots Bool
+---@field ignoreHudScaleOverride Bool
+---@field hudScalingInterpolationValue Float
+---@field hudScalingMarginCorrection inkMargin
 inkHudWidgetSpawnEntry = {}
 
 ---@param fields? inkHudWidgetSpawnEntry
 ---@return inkHudWidgetSpawnEntry
-function inkHudWidgetSpawnEntry.new(fields) return end
+function inkHudWidgetSpawnEntry.new(fields) end

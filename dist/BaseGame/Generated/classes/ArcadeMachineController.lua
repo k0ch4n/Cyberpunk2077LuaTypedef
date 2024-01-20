@@ -5,7 +5,7 @@ ArcadeMachineController = {}
 
 ---@param fields? ArcadeMachineController
 ---@return ArcadeMachineController
-function ArcadeMachineController.new(fields) return end
+function ArcadeMachineController.new(fields) end
 
 ---@return ArcadeMachineControllerPS
-function ArcadeMachineController:GetPS() return end
+function ArcadeMachineController:GetPS() end

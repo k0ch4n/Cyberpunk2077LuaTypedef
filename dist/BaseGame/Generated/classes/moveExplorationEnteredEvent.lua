@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class moveExplorationEnteredEvent: redEvent
----@field public type moveExplorationType
+---@field type moveExplorationType
 moveExplorationEnteredEvent = {}
 
 ---@param fields? moveExplorationEnteredEvent
 ---@return moveExplorationEnteredEvent
-function moveExplorationEnteredEvent.new(fields) return end
+function moveExplorationEnteredEvent.new(fields) end

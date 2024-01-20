@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workUnequipFromSlotAction: workIWorkspotItemAction
----@field public itemSlot TweakDBID
+---@field itemSlot TweakDBID
 workUnequipFromSlotAction = {}
 
 ---@param fields? workUnequipFromSlotAction
 ---@return workUnequipFromSlotAction
-function workUnequipFromSlotAction.new(fields) return end
+function workUnequipFromSlotAction.new(fields) end

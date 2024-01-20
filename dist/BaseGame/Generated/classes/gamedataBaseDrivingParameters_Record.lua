@@ -5,58 +5,58 @@ gamedataBaseDrivingParameters_Record = {}
 
 ---@param fields? gamedataBaseDrivingParameters_Record
 ---@return gamedataBaseDrivingParameters_Record
-function gamedataBaseDrivingParameters_Record.new(fields) return end
+function gamedataBaseDrivingParameters_Record.new(fields) end
 
 ---@return gamedataVehiclePIDSettings_Record
-function gamedataBaseDrivingParameters_Record:Accel() return end
+function gamedataBaseDrivingParameters_Record:Accel() end
 
 ---@return gamedataVehiclePIDSettings_Record
-function gamedataBaseDrivingParameters_Record:AccelHandle() return end
+function gamedataBaseDrivingParameters_Record:AccelHandle() end
 
 ---@return gamedataVehicleAIBoostSettings_Record
-function gamedataBaseDrivingParameters_Record:BoostStats() return end
+function gamedataBaseDrivingParameters_Record:BoostStats() end
 
 ---@return gamedataVehicleAIBoostSettings_Record
-function gamedataBaseDrivingParameters_Record:BoostStatsHandle() return end
+function gamedataBaseDrivingParameters_Record:BoostStatsHandle() end
 
 ---@return gamedataVehiclePIDSettings_Record
-function gamedataBaseDrivingParameters_Record:Brake() return end
+function gamedataBaseDrivingParameters_Record:Brake() end
 
 ---@return gamedataVehiclePIDSettings_Record
-function gamedataBaseDrivingParameters_Record:BrakeHandle() return end
+function gamedataBaseDrivingParameters_Record:BrakeHandle() end
 
 ---@return gamedataVehicleAIPanicDrivingSettings_Record
-function gamedataBaseDrivingParameters_Record:Panic() return end
+function gamedataBaseDrivingParameters_Record:Panic() end
 
 ---@return gamedataVehicleAIPanicDrivingSettings_Record
-function gamedataBaseDrivingParameters_Record:PanicHandle() return end
+function gamedataBaseDrivingParameters_Record:PanicHandle() end
 
 ---@return gamedataVehicleSteeringSettings_Record
-function gamedataBaseDrivingParameters_Record:Steering() return end
+function gamedataBaseDrivingParameters_Record:Steering() end
 
 ---@return gamedataVehicleSteeringSettings_Record
-function gamedataBaseDrivingParameters_Record:SteeringHandle() return end
+function gamedataBaseDrivingParameters_Record:SteeringHandle() end
 
 ---@return gamedataVehicleSteeringSettings_Record
-function gamedataBaseDrivingParameters_Record:SteeringReverse() return end
+function gamedataBaseDrivingParameters_Record:SteeringReverse() end
 
 ---@return gamedataVehicleSteeringSettings_Record
-function gamedataBaseDrivingParameters_Record:SteeringReverseHandle() return end
+function gamedataBaseDrivingParameters_Record:SteeringReverseHandle() end
 
 ---@return gamedataVehicleStoppingSettings_Record
-function gamedataBaseDrivingParameters_Record:Stopping() return end
+function gamedataBaseDrivingParameters_Record:Stopping() end
 
 ---@return gamedataVehicleStoppingSettings_Record
-function gamedataBaseDrivingParameters_Record:StoppingHandle() return end
+function gamedataBaseDrivingParameters_Record:StoppingHandle() end
 
 ---@return gamedataVehicleAITractionEstimation_Record
-function gamedataBaseDrivingParameters_Record:Traction() return end
+function gamedataBaseDrivingParameters_Record:Traction() end
 
 ---@return gamedataVehicleAITractionEstimation_Record
-function gamedataBaseDrivingParameters_Record:TractionHandle() return end
+function gamedataBaseDrivingParameters_Record:TractionHandle() end
 
 ---@return gamedataVehicleAIVisionSettings_Record
-function gamedataBaseDrivingParameters_Record:Vision() return end
+function gamedataBaseDrivingParameters_Record:Vision() end
 
 ---@return gamedataVehicleAIVisionSettings_Record
-function gamedataBaseDrivingParameters_Record:VisionHandle() return end
+function gamedataBaseDrivingParameters_Record:VisionHandle() end

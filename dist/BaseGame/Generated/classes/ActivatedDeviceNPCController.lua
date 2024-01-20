@@ -5,7 +5,7 @@ ActivatedDeviceNPCController = {}
 
 ---@param fields? ActivatedDeviceNPCController
 ---@return ActivatedDeviceNPCController
-function ActivatedDeviceNPCController.new(fields) return end
+function ActivatedDeviceNPCController.new(fields) end
 
 ---@return ActivatedDeviceNPCControllerPS
-function ActivatedDeviceNPCController:GetPS() return end
+function ActivatedDeviceNPCController:GetPS() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HandleRagdollOnDeathEvent: redEvent
----@field public handleUncontrolledMovement Bool
+---@field handleUncontrolledMovement Bool
 HandleRagdollOnDeathEvent = {}
 
 ---@param fields? HandleRagdollOnDeathEvent
 ---@return HandleRagdollOnDeathEvent
-function HandleRagdollOnDeathEvent.new(fields) return end
+function HandleRagdollOnDeathEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LootItemInspectionEvent: redEvent
----@field public owner gameObject
+---@field owner gameObject
 LootItemInspectionEvent = {}
 
 ---@param fields? LootItemInspectionEvent
 ---@return LootItemInspectionEvent
-function LootItemInspectionEvent.new(fields) return end
+function LootItemInspectionEvent.new(fields) end

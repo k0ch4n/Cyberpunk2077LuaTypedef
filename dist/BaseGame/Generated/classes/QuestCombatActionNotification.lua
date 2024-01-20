@@ -5,7 +5,7 @@ QuestCombatActionNotification = {}
 
 ---@param fields? QuestCombatActionNotification
 ---@return QuestCombatActionNotification
-function QuestCombatActionNotification.new(fields) return end
+function QuestCombatActionNotification.new(fields) end
 
 ---@return String
-function QuestCombatActionNotification:GetFriendlyDescription() return end
+function QuestCombatActionNotification:GetFriendlyDescription() end

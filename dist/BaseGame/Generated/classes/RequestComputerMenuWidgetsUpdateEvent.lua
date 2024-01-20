@@ -5,4 +5,4 @@ RequestComputerMenuWidgetsUpdateEvent = {}
 
 ---@param fields? RequestComputerMenuWidgetsUpdateEvent
 ---@return RequestComputerMenuWidgetsUpdateEvent
-function RequestComputerMenuWidgetsUpdateEvent.new(fields) return end
+function RequestComputerMenuWidgetsUpdateEvent.new(fields) end

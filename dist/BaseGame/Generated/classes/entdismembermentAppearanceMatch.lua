@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entdismembermentAppearanceMatch
----@field public Character CName
----@field public Mesh CName
----@field public SetByUser Bool
+---@field Character CName
+---@field Mesh CName
+---@field SetByUser Bool
 entdismembermentAppearanceMatch = {}
 
 ---@param fields? entdismembermentAppearanceMatch
 ---@return entdismembermentAppearanceMatch
-function entdismembermentAppearanceMatch.new(fields) return end
+function entdismembermentAppearanceMatch.new(fields) end

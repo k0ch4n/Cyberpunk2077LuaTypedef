@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAudioScenesMap: audioAudioMetadata
----@field public defaultScene CName
----@field public scenesToActivateByQuestEvent audioAudioSceneDictionary
+---@field defaultScene CName
+---@field scenesToActivateByQuestEvent audioAudioSceneDictionary
 audioAudioScenesMap = {}
 
 ---@param fields? audioAudioScenesMap
 ---@return audioAudioScenesMap
-function audioAudioScenesMap.new(fields) return end
+function audioAudioScenesMap.new(fields) end

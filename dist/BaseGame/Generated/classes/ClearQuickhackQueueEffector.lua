@@ -5,14 +5,13 @@ ClearQuickhackQueueEffector = {}
 
 ---@param fields? ClearQuickhackQueueEffector
 ---@return ClearQuickhackQueueEffector
-function ClearQuickhackQueueEffector.new(fields) return end
+function ClearQuickhackQueueEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ClearQuickhackQueueEffector:ActionOn(owner) return end
+function ClearQuickhackQueueEffector:ActionOn(owner) end
 
 ---@param scriptedPuppet ScriptedPuppet
 ---@param player gameObject
 ---@return nil
-function ClearQuickhackQueueEffector:ClearQuickhackQueue(scriptedPuppet, player) return end
+function ClearQuickhackQueueEffector:ClearQuickhackQueue(scriptedPuppet, player) end

@@ -5,7 +5,7 @@ AlarmLightController = {}
 
 ---@param fields? AlarmLightController
 ---@return AlarmLightController
-function AlarmLightController.new(fields) return end
+function AlarmLightController.new(fields) end
 
 ---@return AlarmLightControllerPS
-function AlarmLightController:GetPS() return end
+function AlarmLightController:GetPS() end

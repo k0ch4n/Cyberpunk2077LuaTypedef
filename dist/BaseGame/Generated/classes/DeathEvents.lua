@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class DeathEvents: HighLevelTransition
----@field protected isDyingEffectPlaying Bool
+---@field isDyingEffectPlaying Bool
 DeathEvents = {}
 
 ---@param fields? DeathEvents
 ---@return DeathEvents
-function DeathEvents.new(fields) return end
+function DeathEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DeathEvents:OnEnter(stateContext, scriptInterface) return end
+function DeathEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DeathEvents:OnExit(stateContext, scriptInterface) return end
+function DeathEvents:OnExit(stateContext, scriptInterface) end

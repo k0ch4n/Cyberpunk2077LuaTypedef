@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gamePlayerSpawnParams
----@field public isSpectator Bool
----@field public spawnPoint Transform
----@field public recordId TweakDBID
----@field public gender CName
----@field public useSpecifiedStartPoint Bool
----@field public spawnTags redTagList
----@field public nickname String
+---@field isSpectator Bool
+---@field spawnPoint Transform
+---@field recordId TweakDBID
+---@field gender CName
+---@field useSpecifiedStartPoint Bool
+---@field spawnTags redTagList
+---@field nickname String
 gamePlayerSpawnParams = {}
 
 ---@param fields? gamePlayerSpawnParams
 ---@return gamePlayerSpawnParams
-function gamePlayerSpawnParams.new(fields) return end
+function gamePlayerSpawnParams.new(fields) end

@@ -1,49 +1,45 @@
 ---@meta
 
 ---@class QuestListFilterButtonController: inkWidgetLogicController
----@field public icon inkImageWidgetReference
----@field public counter inkTextWidgetReference
----@field public filterType QuestListItemType
----@field public hovered Bool
----@field public active Bool
+---@field icon inkImageWidgetReference
+---@field counter inkTextWidgetReference
+---@field filterType QuestListItemType
+---@field hovered Bool
+---@field active Bool
 QuestListFilterButtonController = {}
 
 ---@param fields? QuestListFilterButtonController
 ---@return QuestListFilterButtonController
-function QuestListFilterButtonController.new(fields) return end
+function QuestListFilterButtonController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function QuestListFilterButtonController:OnHoverOut(evt) return end
+function QuestListFilterButtonController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function QuestListFilterButtonController:OnHoverOver(evt) return end
+function QuestListFilterButtonController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function QuestListFilterButtonController:OnInitialize() return end
+function QuestListFilterButtonController:OnInitialize() end
 
 ---@return QuestListItemType
-function QuestListFilterButtonController:GetType() return end
+function QuestListFilterButtonController:GetType() end
 
 ---@return Bool
-function QuestListFilterButtonController:IsVisible() return end
+function QuestListFilterButtonController:IsVisible() end
 
 ---@param active Bool
 ---@return nil
-function QuestListFilterButtonController:SetActive(active) return end
+function QuestListFilterButtonController:SetActive(active) end
 
 ---@param count Int32
 ---@return nil
-function QuestListFilterButtonController:SetCounter(count) return end
+function QuestListFilterButtonController:SetCounter(count) end
 
 ---@param filterType QuestListItemType
 ---@return nil
-function QuestListFilterButtonController:SetData(filterType) return end
+function QuestListFilterButtonController:SetData(filterType) end
 
----@private
 ---@return nil
-function QuestListFilterButtonController:UpdateState() return end
+function QuestListFilterButtonController:UpdateState() end

@@ -5,13 +5,13 @@ gamedataAISubActionFailIfFriendlyFire_Record = {}
 
 ---@param fields? gamedataAISubActionFailIfFriendlyFire_Record
 ---@return gamedataAISubActionFailIfFriendlyFire_Record
-function gamedataAISubActionFailIfFriendlyFire_Record.new(fields) return end
+function gamedataAISubActionFailIfFriendlyFire_Record.new(fields) end
 
 ---@return Bool
-function gamedataAISubActionFailIfFriendlyFire_Record:CheckOnlyFirstFrame() return end
+function gamedataAISubActionFailIfFriendlyFire_Record:CheckOnlyFirstFrame() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionFailIfFriendlyFire_Record:Target() return end
+function gamedataAISubActionFailIfFriendlyFire_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionFailIfFriendlyFire_Record:TargetHandle() return end
+function gamedataAISubActionFailIfFriendlyFire_Record:TargetHandle() end

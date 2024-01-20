@@ -1,174 +1,154 @@
 ---@meta
 
 ---@class CraftingSystem: gameScriptableSystem
----@field private lastActionStatus Bool
----@field private playerCraftBook CraftBook
----@field private callback CraftingSystemInventoryCallback
----@field private inventoryListener gameInventoryScriptListener
----@field private itemIconGender gameItemIconGender
+---@field lastActionStatus Bool
+---@field playerCraftBook CraftBook
+---@field callback CraftingSystemInventoryCallback
+---@field inventoryListener gameInventoryScriptListener
+---@field itemIconGender gameItemIconGender
 CraftingSystem = {}
 
 ---@param fields? CraftingSystem
 ---@return CraftingSystem
-function CraftingSystem.new(fields) return end
+function CraftingSystem.new(fields) end
 
 ---@param ammoId TweakDBID|string
 ---@return Int32
-function CraftingSystem.GetAmmoBulletAmount(ammoId) return end
+function CraftingSystem.GetAmmoBulletAmount(ammoId) end
 
 ---@return CraftingSystem
-function CraftingSystem.GetInstance() return end
+function CraftingSystem.GetInstance() end
 
 ---@param target gameObject
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem.MarkItemAsCrafted(target, itemData) return end
+function CraftingSystem.MarkItemAsCrafted(target, itemData) end
 
 ---@param target gameObject
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem.SetItemLevel(target, itemData) return end
+function CraftingSystem.SetItemLevel(target, itemData) end
 
----@private
 ---@return nil
-function CraftingSystem:AddAmmoRecipes() return end
+function CraftingSystem:AddAmmoRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:AddCraftbookRecipes() return end
+function CraftingSystem:AddCraftbookRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:AddDLCBaseRecipes() return end
+function CraftingSystem:AddDLCBaseRecipes() end
 
----@private
 ---@param ingredient IngredientData
 ---@param amountMultiplier Int32
 ---@return nil, IngredientData[] outputResult
-function CraftingSystem:AddIngredientToResult(ingredient, amountMultiplier) return end
+function CraftingSystem:AddIngredientToResult(ingredient, amountMultiplier) end
 
----@private
 ---@return Float
-function CraftingSystem:CalculateCraftingLevelBoost() return end
+function CraftingSystem:CalculateCraftingLevelBoost() end
 
 ---@param itemData gameItemData
 ---@return Bool, gamedataQuality quality
-function CraftingSystem:CanCraftGivenQuality(itemData) return end
+function CraftingSystem:CanCraftGivenQuality(itemData) end
 
 ---@param itemRecord gamedataItem_Record
 ---@return Bool, gamedataQuality quality
-function CraftingSystem:CanCraftGivenQuality(itemRecord) return end
+function CraftingSystem:CanCraftGivenQuality(itemRecord) end
 
 ---@param itemData gameItemData
 ---@return Bool
-function CraftingSystem:CanItemBeCrafted(itemData) return end
+function CraftingSystem:CanItemBeCrafted(itemData) end
 
 ---@param itemRecord gamedataItem_Record
 ---@return Bool
-function CraftingSystem:CanItemBeCrafted(itemRecord) return end
+function CraftingSystem:CanItemBeCrafted(itemRecord) end
 
 ---@param owner gameObject
 ---@param itemID gameItemID
 ---@return Bool
-function CraftingSystem:CanItemBeDisassembled(owner, itemID) return end
+function CraftingSystem:CanItemBeDisassembled(owner, itemID) end
 
 ---@param itemData gameItemData
 ---@return Bool
-function CraftingSystem:CanItemBeDisassembled(itemData) return end
+function CraftingSystem:CanItemBeDisassembled(itemData) end
 
 ---@param itemData gameItemData
 ---@return Bool
-function CraftingSystem:CanItemBeUpgraded(itemData) return end
+function CraftingSystem:CanItemBeUpgraded(itemData) end
 
----@private
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem:ClearNonIconicSlots(itemData) return end
+function CraftingSystem:ClearNonIconicSlots(itemData) end
 
----@private
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem:ClearNonIconicSlotsFromWeaponsAndClothes(itemData) return end
+function CraftingSystem:ClearNonIconicSlotsFromWeaponsAndClothes(itemData) end
 
----@private
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem:ClearNonIconicSlotsWithoutDummyMods(itemData) return end
+function CraftingSystem:ClearNonIconicSlotsWithoutDummyMods(itemData) end
 
----@private
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem:CompensateForDeprecatedWeaponMods(itemData) return end
+function CraftingSystem:CompensateForDeprecatedWeaponMods(itemData) end
 
----@private
 ---@return nil
-function CraftingSystem:CompensateForOwnedButchersKnifeRecipes() return end
+function CraftingSystem:CompensateForOwnedButchersKnifeRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:CompensateForOwnedCraftableIconics() return end
+function CraftingSystem:CompensateForOwnedCraftableIconics() end
 
----@private
 ---@return nil
-function CraftingSystem:CompensateForOwnedMilitaryKatanaRecipes() return end
+function CraftingSystem:CompensateForOwnedMilitaryKatanaRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:CompensateForOwnedPipeWrenchRecipes() return end
+function CraftingSystem:CompensateForOwnedPipeWrenchRecipes() end
 
----@private
 ---@param target gameObject
 ---@param itemRecord gamedataItem_Record
 ---@param amount Int32
 ---@param ammoBulletAmount? Int32
 ---@return gameItemData
-function CraftingSystem:CraftItem(target, itemRecord, amount, ammoBulletAmount) return end
+function CraftingSystem:CraftItem(target, itemRecord, amount, ammoBulletAmount) end
 
----@private
 ---@param ingredientData gamedataRecipeElement_Record
 ---@return IngredientData
-function CraftingSystem:CreateIngredientData(ingredientData) return end
+function CraftingSystem:CreateIngredientData(ingredientData) end
 
----@private
 ---@param item gamedataItem_Record
 ---@param amount Int32
 ---@return IngredientData
-function CraftingSystem:CreateIngredientData(item, amount) return end
+function CraftingSystem:CreateIngredientData(item, amount) end
 
----@private
 ---@param amount Int32
 ---@param matQuality gamedataQuality
 ---@return nil, IngredientData[] disassembleResult
-function CraftingSystem:CreateIngredientDataOfQuality(amount, matQuality) return end
+function CraftingSystem:CreateIngredientDataOfQuality(amount, matQuality) end
 
----@private
 ---@param player PlayerPuppet
 ---@param itemData gameItemData
 ---@param part gameItemID
 ---@return InstallItemPart
-function CraftingSystem:CreateInstallPartRequest_Attachment(player, itemData, part) return end
+function CraftingSystem:CreateInstallPartRequest_Attachment(player, itemData, part) end
 
----@private
 ---@param player PlayerPuppet
 ---@param itemData gameItemData
 ---@param part gameItemID
 ---@return InstallItemPart
-function CraftingSystem:CreateInstallPartRequest_Mod(player, itemData, part) return end
+function CraftingSystem:CreateInstallPartRequest_Mod(player, itemData, part) end
 
----@private
 ---@param target gameObject
 ---@param itemID gameItemID
 ---@param amount Int32
 ---@return nil
-function CraftingSystem:DisassembleItem(target, itemID, amount) return end
+function CraftingSystem:DisassembleItem(target, itemID, amount) end
 
 ---@param itemData gameItemData
 ---@return Bool
-function CraftingSystem:EnoughIngredientsForCrafting(itemData) return end
+function CraftingSystem:EnoughIngredientsForCrafting(itemData) end
 
 ---@param itemData gameItemData
 ---@return Bool
-function CraftingSystem:EnoughIngredientsForUpgrading(itemData) return end
+function CraftingSystem:EnoughIngredientsForUpgrading(itemData) end
 
 ---@param target gameObject
 ---@param itemID gameItemID
@@ -176,231 +156,195 @@ function CraftingSystem:EnoughIngredientsForUpgrading(itemData) return end
 ---@param restoredAttachments ItemAttachments[]
 ---@param calledFromUI? Bool
 ---@return IngredientData[]
-function CraftingSystem:GetDisassemblyResultItems(target, itemID, amount, restoredAttachments, calledFromUI) return end
+function CraftingSystem:GetDisassemblyResultItems(target, itemID, amount, restoredAttachments, calledFromUI) end
 
----@private
 ---@param data IngredientData
 ---@return gamedataQuality
-function CraftingSystem:GetIngredientQuality(data) return end
+function CraftingSystem:GetIngredientQuality(data) end
 
 ---@param itemType gamedataItemType
 ---@param quality gamedataQuality
 ---@return IngredientData[]
-function CraftingSystem:GetItemBaseUpgradeCost(itemType, quality) return end
+function CraftingSystem:GetItemBaseUpgradeCost(itemType, quality) end
 
 ---@param record gamedataItem_Record
 ---@param craftingData gamedataRecipeElement_Record[]
 ---@return IngredientData[]
-function CraftingSystem:GetItemCraftingCost(record, craftingData) return end
+function CraftingSystem:GetItemCraftingCost(record, craftingData) end
 
 ---@param itemData gameItemData
 ---@return IngredientData[]
-function CraftingSystem:GetItemCraftingCost(itemData) return end
+function CraftingSystem:GetItemCraftingCost(itemData) end
 
 ---@param itemRecord gamedataItem_Record
 ---@return IngredientData[]
-function CraftingSystem:GetItemCraftingCost(itemRecord) return end
+function CraftingSystem:GetItemCraftingCost(itemRecord) end
 
 ---@param itemData gameItemData
 ---@return IngredientData[]
-function CraftingSystem:GetItemFinalUpgradeCost(itemData) return end
+function CraftingSystem:GetItemFinalUpgradeCost(itemData) end
 
 ---@return Bool
-function CraftingSystem:GetLastActionStatus() return end
+function CraftingSystem:GetLastActionStatus() end
 
 ---@param itemData gameItemData
 ---@return Int32
-function CraftingSystem:GetMaxCraftingAmount(itemData) return end
+function CraftingSystem:GetMaxCraftingAmount(itemData) end
 
 ---@return CraftBook
-function CraftingSystem:GetPlayerCraftBook() return end
+function CraftingSystem:GetPlayerCraftBook() end
 
 ---@return gamedataItem_Record[]
-function CraftingSystem:GetPlayerCraftableItems() return end
+function CraftingSystem:GetPlayerCraftableItems() end
 
 ---@param itemRecord gamedataItem_Record
 ---@return RecipeData
-function CraftingSystem:GetRecipeData(itemRecord) return end
+function CraftingSystem:GetRecipeData(itemRecord) end
 
----@private
 ---@param probability Float
 ---@param eventsNum Int32
 ---@return Int32
-function CraftingSystem:GetSuccessNum(probability, eventsNum) return end
+function CraftingSystem:GetSuccessNum(probability, eventsNum) end
 
 ---@param itemID gameItemID
 ---@return RecipeData
-function CraftingSystem:GetUpgradeRecipeData(itemID) return end
+function CraftingSystem:GetUpgradeRecipeData(itemID) end
 
 ---@param required IngredientData[]
 ---@return Bool
-function CraftingSystem:HasIngredients(required) return end
+function CraftingSystem:HasIngredients(required) end
 
----@private
 ---@return nil
-function CraftingSystem:HideButchersKnifeRecipes() return end
+function CraftingSystem:HideButchersKnifeRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:HideDLCRecipes() return end
+function CraftingSystem:HideDLCRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:HideDeprecatedCraftbookRecipes() return end
+function CraftingSystem:HideDeprecatedCraftbookRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:HideDeprecatedCraftingRecipes() return end
+function CraftingSystem:HideDeprecatedCraftingRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:HideIconicWeaponsRecipes() return end
+function CraftingSystem:HideIconicWeaponsRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:HideMilitaryKatanaRecipes() return end
+function CraftingSystem:HideMilitaryKatanaRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:HidePipeWrenchRecipes() return end
+function CraftingSystem:HidePipeWrenchRecipes() end
 
----@private
 ---@return nil
-function CraftingSystem:InstallModsToRedesignedItems() return end
+function CraftingSystem:InstallModsToRedesignedItems() end
 
 ---@param recipe TweakDBID|string
 ---@param playerCraftBook CraftBook
 ---@return Bool
-function CraftingSystem:IsRecipeKnown(recipe, playerCraftBook) return end
+function CraftingSystem:IsRecipeKnown(recipe, playerCraftBook) end
 
----@private
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem:MarkItemAsCrafted(itemData) return end
+function CraftingSystem:MarkItemAsCrafted(itemData) end
 
----@private
 ---@param request AddRecipeRequest
 ---@return nil
-function CraftingSystem:OnAddRecipeRequest(request) return end
+function CraftingSystem:OnAddRecipeRequest(request) end
 
----@private
 ---@return nil
-function CraftingSystem:OnAttach() return end
+function CraftingSystem:OnAttach() end
 
----@private
 ---@param request CraftItemRequest
 ---@return nil
-function CraftingSystem:OnCraftItemRequest(request) return end
+function CraftingSystem:OnCraftItemRequest(request) end
 
----@private
 ---@param request DisassembleItemRequest
 ---@return nil
-function CraftingSystem:OnDisassembleItemRequest(request) return end
+function CraftingSystem:OnDisassembleItemRequest(request) end
 
----@private
 ---@param request HideRecipeRequest
 ---@return nil
-function CraftingSystem:OnHideRecipeRequest(request) return end
+function CraftingSystem:OnHideRecipeRequest(request) end
 
----@private
 ---@param request gamePlayerAttachRequest
 ---@return nil
-function CraftingSystem:OnPlayerAttach(request) return end
+function CraftingSystem:OnPlayerAttach(request) end
 
----@private
 ---@param request gamePlayerDetachRequest
 ---@return nil
-function CraftingSystem:OnPlayerDetach(request) return end
+function CraftingSystem:OnPlayerDetach(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function CraftingSystem:OnRestored(saveVersion, gameVersion) return end
+function CraftingSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request ShowRecipeRequest
 ---@return nil
-function CraftingSystem:OnShowRecipeRequest(request) return end
+function CraftingSystem:OnShowRecipeRequest(request) end
 
----@private
 ---@param request UpgradeItemRequest
 ---@return nil
-function CraftingSystem:OnUpgradeItemRequest(request) return end
+function CraftingSystem:OnUpgradeItemRequest(request) end
 
----@private
 ---@param xpAmount Float
 ---@return nil
-function CraftingSystem:ProcessCraftSkill(xpAmount) return end
+function CraftingSystem:ProcessCraftSkill(xpAmount) end
 
----@private
 ---@return nil
-function CraftingSystem:ProcessCraftedItemsPowerBoost() return end
+function CraftingSystem:ProcessCraftedItemsPowerBoost() end
 
----@private
 ---@param amount Int32
 ---@param itemData gameItemData
 ---@param restoredAttachments ItemAttachments[]
 ---@param calledFromUI? Bool
 ---@return nil, IngredientData[] disassembleResult
-function CraftingSystem:ProcessDisassemblingPerks(amount, itemData, restoredAttachments, calledFromUI) return end
+function CraftingSystem:ProcessDisassemblingPerks(amount, itemData, restoredAttachments, calledFromUI) end
 
----@private
 ---@return nil
-function CraftingSystem:ProcessGritModsPurge() return end
+function CraftingSystem:ProcessGritModsPurge() end
 
----@private
 ---@return nil
-function CraftingSystem:ProcessIconicRevampRestoration() return end
+function CraftingSystem:ProcessIconicRevampRestoration() end
 
----@private
 ---@param itemTDBID TweakDBID|string
 ---@return nil
-function CraftingSystem:ProcessProgramCrafting(itemTDBID) return end
+function CraftingSystem:ProcessProgramCrafting(itemTDBID) end
 
----@private
 ---@param target gameObject
 ---@param itemRecord gamedataItem_Record
 ---@return nil
-function CraftingSystem:ProcessUpgradingPerksData(target, itemRecord) return end
+function CraftingSystem:ProcessUpgradingPerksData(target, itemRecord) end
 
----@private
 ---@return nil
-function CraftingSystem:ProcessWeaponsAndClothingModsPurge() return end
+function CraftingSystem:ProcessWeaponsAndClothingModsPurge() end
 
----@private
 ---@return nil
-function CraftingSystem:ProcessWeaponsModsCompensate() return end
+function CraftingSystem:ProcessWeaponsModsCompensate() end
 
----@private
 ---@param targetItem gameItemID
 ---@param amount Int32
 ---@return nil
-function CraftingSystem:SendItemCraftedDataTrackingRequest(targetItem, amount) return end
+function CraftingSystem:SendItemCraftedDataTrackingRequest(targetItem, amount) end
 
----@private
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem:SetItemLevel(itemData) return end
+function CraftingSystem:SetItemLevel(itemData) end
 
----@private
 ---@param itemData gameItemData
 ---@return nil
-function CraftingSystem:SetItemQualityBasedOnPlayerSkill(itemData) return end
+function CraftingSystem:SetItemQualityBasedOnPlayerSkill(itemData) end
 
----@private
 ---@param lastCommand CraftingCommands
 ---@param lastItem? gameItemID
 ---@param lastIngredients? IngredientData[]
 ---@return nil
-function CraftingSystem:UpdateBlackboard(lastCommand, lastItem, lastIngredients) return end
+function CraftingSystem:UpdateBlackboard(lastCommand, lastItem, lastIngredients) end
 
----@private
 ---@param owner gameObject
 ---@param itemID gameItemID
 ---@return nil
-function CraftingSystem:UpgradeItem(owner, itemID) return end
+function CraftingSystem:UpgradeItem(owner, itemID) end
 
----@private
 ---@return nil
-function CraftingSystem:VendorIconicKnivesSecured() return end
+function CraftingSystem:VendorIconicKnivesSecured() end

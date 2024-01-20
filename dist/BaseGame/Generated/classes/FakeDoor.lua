@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class FakeDoor: gameObject
----@field public interaction gameinteractionsComponent
+---@field interaction gameinteractionsComponent
 FakeDoor = {}
 
 ---@param fields? FakeDoor
 ---@return FakeDoor
-function FakeDoor.new(fields) return end
+function FakeDoor.new(fields) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function FakeDoor:OnInteractionActivated(evt) return end
+function FakeDoor:OnInteractionActivated(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function FakeDoor:OnRequestComponents(ri) return end
+function FakeDoor:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function FakeDoor:OnTakeControl(ri) return end
+function FakeDoor:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function FakeDoor:CreateFakeDoorChoice() return end
+function FakeDoor:CreateFakeDoorChoice() end
 
 ---@return EGameplayRole
-function FakeDoor:DeterminGameplayRole() return end
+function FakeDoor:DeterminGameplayRole() end

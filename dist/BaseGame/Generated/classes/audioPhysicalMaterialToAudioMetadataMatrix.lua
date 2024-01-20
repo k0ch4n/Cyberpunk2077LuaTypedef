@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioPhysicalMaterialToAudioMetadataMatrix: audioAudioMetadata
----@field public physicalToAudioMaterialAssignments audioAudioMaterialMetadataMapItem[]
+---@field physicalToAudioMaterialAssignments audioAudioMaterialMetadataMapItem[]
 audioPhysicalMaterialToAudioMetadataMatrix = {}
 
 ---@param fields? audioPhysicalMaterialToAudioMetadataMatrix
 ---@return audioPhysicalMaterialToAudioMetadataMatrix
-function audioPhysicalMaterialToAudioMetadataMatrix.new(fields) return end
+function audioPhysicalMaterialToAudioMetadataMatrix.new(fields) end

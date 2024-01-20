@@ -5,13 +5,13 @@ gamedataCoverTypeCoverSelectionParameters_Record = {}
 
 ---@param fields? gamedataCoverTypeCoverSelectionParameters_Record
 ---@return gamedataCoverTypeCoverSelectionParameters_Record
-function gamedataCoverTypeCoverSelectionParameters_Record.new(fields) return end
+function gamedataCoverTypeCoverSelectionParameters_Record.new(fields) end
 
 ---@return Float
-function gamedataCoverTypeCoverSelectionParameters_Record:CoverScore() return end
+function gamedataCoverTypeCoverSelectionParameters_Record:CoverScore() end
 
 ---@return Float
-function gamedataCoverTypeCoverSelectionParameters_Record:MaxScore() return end
+function gamedataCoverTypeCoverSelectionParameters_Record:MaxScore() end
 
 ---@return Float
-function gamedataCoverTypeCoverSelectionParameters_Record:ShootingSpotScore() return end
+function gamedataCoverTypeCoverSelectionParameters_Record:ShootingSpotScore() end

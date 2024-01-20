@@ -5,4 +5,4 @@ entTriggerNotifier_EntityInstance = {}
 
 ---@param fields? entTriggerNotifier_EntityInstance
 ---@return entTriggerNotifier_EntityInstance
-function entTriggerNotifier_EntityInstance.new(fields) return end
+function entTriggerNotifier_EntityInstance.new(fields) end

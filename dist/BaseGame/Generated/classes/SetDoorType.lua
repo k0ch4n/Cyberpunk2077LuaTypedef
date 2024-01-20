@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SetDoorType: redEvent
----@field public doorTypeSideOne EDoorType
----@field public doorTypeSideTwo EDoorType
+---@field doorTypeSideOne EDoorType
+---@field doorTypeSideTwo EDoorType
 SetDoorType = {}
 
 ---@param fields? SetDoorType
 ---@return SetDoorType
-function SetDoorType.new(fields) return end
+function SetDoorType.new(fields) end
 
 ---@return String
-function SetDoorType:GetFriendlyDescription() return end
+function SetDoorType:GetFriendlyDescription() end

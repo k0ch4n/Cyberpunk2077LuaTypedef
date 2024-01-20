@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAudioSceneDictionary: audioInlinedAudioMetadata
----@field public entries audioAudioSceneDictionaryItem[]
----@field public entryType audioAudioSceneDictionaryItem
+---@field entries audioAudioSceneDictionaryItem[]
+---@field entryType audioAudioSceneDictionaryItem
 audioAudioSceneDictionary = {}
 
 ---@param fields? audioAudioSceneDictionary
 ---@return audioAudioSceneDictionary
-function audioAudioSceneDictionary.new(fields) return end
+function audioAudioSceneDictionary.new(fields) end

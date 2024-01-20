@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ItemsPoolCachedData: IScriptable
----@field public tooltipData ATooltipData
+---@field tooltipData ATooltipData
 ItemsPoolCachedData = {}
 
 ---@param fields? ItemsPoolCachedData
 ---@return ItemsPoolCachedData
-function ItemsPoolCachedData.new(fields) return end
+function ItemsPoolCachedData.new(fields) end

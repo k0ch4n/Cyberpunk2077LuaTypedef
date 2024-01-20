@@ -5,4 +5,4 @@ gameMuppetInputActionJump = {}
 
 ---@param fields? gameMuppetInputActionJump
 ---@return gameMuppetInputActionJump
-function gameMuppetInputActionJump.new(fields) return end
+function gameMuppetInputActionJump.new(fields) end

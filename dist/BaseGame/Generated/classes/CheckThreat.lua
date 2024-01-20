@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class CheckThreat: AIbehaviorconditionScript
----@field public targetObjectMapping AIArgumentMapping
----@field protected targetThreat gameObject
+---@field targetObjectMapping AIArgumentMapping
+---@field targetThreat gameObject
 CheckThreat = {}
 
 ---@param fields? CheckThreat
 ---@return CheckThreat
-function CheckThreat.new(fields) return end
+function CheckThreat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckThreat:Activate(context) return end
+function CheckThreat:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckThreat:Check(context) return end
+function CheckThreat:Check(context) end

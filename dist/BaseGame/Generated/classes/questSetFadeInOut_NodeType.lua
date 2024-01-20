@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questSetFadeInOut_NodeType: questIRenderFxManagerNodeType
----@field public fadeColor Color
----@field public fadeIn Bool
----@field public duration Float
+---@field fadeColor Color
+---@field fadeIn Bool
+---@field duration Float
 questSetFadeInOut_NodeType = {}
 
 ---@param fields? questSetFadeInOut_NodeType
 ---@return questSetFadeInOut_NodeType
-function questSetFadeInOut_NodeType.new(fields) return end
+function questSetFadeInOut_NodeType.new(fields) end

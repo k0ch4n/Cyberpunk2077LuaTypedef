@@ -1,58 +1,50 @@
 ---@meta
 
 ---@class gameuiBaseCharacterCreationController: gameuiMenuGameController
----@field protected eventDispatcher inkMenuEventDispatcher
----@field protected characterCustomizationState gameuiICharacterCustomizationState
----@field protected nextPageHitArea inkWidgetReference
+---@field eventDispatcher inkMenuEventDispatcher
+---@field characterCustomizationState gameuiICharacterCustomizationState
+---@field nextPageHitArea inkWidgetReference
 gameuiBaseCharacterCreationController = {}
 
 ---@param fields? gameuiBaseCharacterCreationController
 ---@return gameuiBaseCharacterCreationController
-function gameuiBaseCharacterCreationController.new(fields) return end
+function gameuiBaseCharacterCreationController.new(fields) end
 
 ---@return gameuiICharacterCustomizationSystem
-function gameuiBaseCharacterCreationController:GetCharacterCustomizationSystem() return end
+function gameuiBaseCharacterCreationController:GetCharacterCustomizationSystem() end
 
 ---@param slotName CName|string
 ---@param delayed? Bool
 ---@return nil
-function gameuiBaseCharacterCreationController:RequestCameraChange(slotName, delayed) return end
+function gameuiBaseCharacterCreationController:RequestCameraChange(slotName, delayed) end
 
 ---@return Bool
-function gameuiBaseCharacterCreationController:WaitForRunningInstalations() return end
+function gameuiBaseCharacterCreationController:WaitForRunningInstalations() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiBaseCharacterCreationController:OnButtonRelease(evt) return end
+function gameuiBaseCharacterCreationController:OnButtonRelease(evt) end
 
----@protected
 ---@return Bool
-function gameuiBaseCharacterCreationController:OnInitialize() return end
+function gameuiBaseCharacterCreationController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiBaseCharacterCreationController:OnRelease(e) return end
+function gameuiBaseCharacterCreationController:OnRelease(e) end
 
----@protected
 ---@param d inkMenuEventDispatcher
 ---@return Bool
-function gameuiBaseCharacterCreationController:OnSetMenuEventDispatcher(d) return end
+function gameuiBaseCharacterCreationController:OnSetMenuEventDispatcher(d) end
 
----@protected
 ---@param evt inkShowEngagementScreen
 ---@return Bool
-function gameuiBaseCharacterCreationController:OnShowEngagementScreen(evt) return end
+function gameuiBaseCharacterCreationController:OnShowEngagementScreen(evt) end
 
----@protected
 ---@return Bool
-function gameuiBaseCharacterCreationController:OnUninitialize() return end
+function gameuiBaseCharacterCreationController:OnUninitialize() end
 
----@protected
 ---@return nil
-function gameuiBaseCharacterCreationController:NextMenu() return end
+function gameuiBaseCharacterCreationController:NextMenu() end
 
----@protected
 ---@return nil
-function gameuiBaseCharacterCreationController:PriorMenu() return end
+function gameuiBaseCharacterCreationController:PriorMenu() end

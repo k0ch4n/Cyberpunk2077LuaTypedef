@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameFlattenedLootData
----@field public lootID TweakDBID
+---@field lootID TweakDBID
 gameFlattenedLootData = {}
 
 ---@param fields? gameFlattenedLootData
 ---@return gameFlattenedLootData
-function gameFlattenedLootData.new(fields) return end
+function gameFlattenedLootData.new(fields) end

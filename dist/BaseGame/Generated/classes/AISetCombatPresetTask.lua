@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class AISetCombatPresetTask: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AISetCombatPresetTask = {}
 
 ---@param fields? AISetCombatPresetTask
 ---@return AISetCombatPresetTask
-function AISetCombatPresetTask.new(fields) return end
+function AISetCombatPresetTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param typedCommand AISetCombatPresetCommand
 ---@return nil
-function AISetCombatPresetTask:CancelCommand(context, typedCommand) return end
+function AISetCombatPresetTask:CancelCommand(context, typedCommand) end
 
----@protected
 ---@param owner gameObject
 ---@return Bool
-function AISetCombatPresetTask:RemovePresets(owner) return end
+function AISetCombatPresetTask:RemovePresets(owner) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AISetCombatPresetTask:Update(context) return end
+function AISetCombatPresetTask:Update(context) end

@@ -1,36 +1,30 @@
 ---@meta
 
 ---@class DoorTerminalMasterInkGameControllerBase: MasterDeviceInkGameControllerBase
----@field protected currentlyActiveDevices gamePersistentID[]
+---@field currentlyActiveDevices gamePersistentID[]
 DoorTerminalMasterInkGameControllerBase = {}
 
 ---@param fields? DoorTerminalMasterInkGameControllerBase
 ---@return DoorTerminalMasterInkGameControllerBase
-function DoorTerminalMasterInkGameControllerBase.new(fields) return end
+function DoorTerminalMasterInkGameControllerBase.new(fields) end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function DoorTerminalMasterInkGameControllerBase:Refresh(state) return end
+function DoorTerminalMasterInkGameControllerBase:Refresh(state) end
 
----@protected
 ---@return nil
-function DoorTerminalMasterInkGameControllerBase:ResolveBreadcrumbLevel() return end
+function DoorTerminalMasterInkGameControllerBase:ResolveBreadcrumbLevel() end
 
----@protected
 ---@return nil
-function DoorTerminalMasterInkGameControllerBase:TurnOff() return end
+function DoorTerminalMasterInkGameControllerBase:TurnOff() end
 
----@protected
 ---@return nil
-function DoorTerminalMasterInkGameControllerBase:TurnOn() return end
+function DoorTerminalMasterInkGameControllerBase:TurnOn() end
 
----@protected
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
-function DoorTerminalMasterInkGameControllerBase:UpdateDeviceWidgets(widgetsData) return end
+function DoorTerminalMasterInkGameControllerBase:UpdateDeviceWidgets(widgetsData) end
 
----@protected
 ---@param widgetsData SThumbnailWidgetPackage[]
 ---@return nil
-function DoorTerminalMasterInkGameControllerBase:UpdateThumbnailWidgets(widgetsData) return end
+function DoorTerminalMasterInkGameControllerBase:UpdateThumbnailWidgets(widgetsData) end

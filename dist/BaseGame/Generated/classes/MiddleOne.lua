@@ -5,16 +5,14 @@ MiddleOne = {}
 
 ---@param fields? MiddleOne
 ---@return MiddleOne
-function MiddleOne.new(fields) return end
+function MiddleOne.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MiddleOne:OnEnter(stateContext, scriptInterface) return end
+function MiddleOne:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MiddleOne:OnExit(stateContext, scriptInterface) return end
+function MiddleOne:OnExit(stateContext, scriptInterface) end

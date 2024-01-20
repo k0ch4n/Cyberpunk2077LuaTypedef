@@ -1,110 +1,95 @@
 ---@meta
 
 ---@class NcartTrainLineListInkController: NcartTrainInkControllerBase
----@field private LinesList ncartLineListDef[]
----@field private ActiveMetroLineNumberFactName CName
----@field private ActiveMetroStationNumberFactName CName
----@field private MetroStoppingFactName CName
----@field private MetroReverseDirectionFact CName
----@field private root inkCompoundWidget
----@field private questsSystem questQuestsSystem
----@field private activeStationListenerId Uint32
----@field private activeLineListenerId Uint32
----@field private StopListenerId Uint32
----@field private StationListSetUp Bool
----@field private lastDestination Int32
----@field private currentActiveStation Int32
----@field private activeStationWidget Int32
----@field private ncartLogo inkImageWidgetReference
----@field private ncartLogoDeco inkImageWidgetReference
----@field private ncartLogoDecoFrame1 inkImageWidgetReference
----@field private ncartLogoDecoFrame2 inkImageWidgetReference
----@field private ncartLogoDecoFrame3 inkImageWidgetReference
----@field private ncartLogoDecoFrame4 inkImageWidgetReference
----@field private line_loop_symbol inkImageWidgetReference
----@field private ncartDecoAccent1 inkImageWidgetReference
----@field private ncartDecoAccent2 inkImageWidgetReference
----@field private ncartDecoAccent3 inkImageWidgetReference
----@field private ncartDecoAccent4 inkImageWidgetReference
----@field private ncartTextLogo inkImageWidgetReference
----@field private ncartDirectionArrowsList inkHorizontalPanelWidgetReference
----@field private ncartLineStationList inkHorizontalPanelWidgetReference
----@field private cachedLine Uint32
+---@field LinesList ncartLineListDef[]
+---@field ActiveMetroLineNumberFactName CName
+---@field ActiveMetroStationNumberFactName CName
+---@field MetroStoppingFactName CName
+---@field MetroReverseDirectionFact CName
+---@field root inkCompoundWidget
+---@field questsSystem questQuestsSystem
+---@field activeStationListenerId Uint32
+---@field activeLineListenerId Uint32
+---@field StopListenerId Uint32
+---@field StationListSetUp Bool
+---@field lastDestination Int32
+---@field currentActiveStation Int32
+---@field activeStationWidget Int32
+---@field ncartLogo inkImageWidgetReference
+---@field ncartLogoDeco inkImageWidgetReference
+---@field ncartLogoDecoFrame1 inkImageWidgetReference
+---@field ncartLogoDecoFrame2 inkImageWidgetReference
+---@field ncartLogoDecoFrame3 inkImageWidgetReference
+---@field ncartLogoDecoFrame4 inkImageWidgetReference
+---@field line_loop_symbol inkImageWidgetReference
+---@field ncartDecoAccent1 inkImageWidgetReference
+---@field ncartDecoAccent2 inkImageWidgetReference
+---@field ncartDecoAccent3 inkImageWidgetReference
+---@field ncartDecoAccent4 inkImageWidgetReference
+---@field ncartTextLogo inkImageWidgetReference
+---@field ncartDirectionArrowsList inkHorizontalPanelWidgetReference
+---@field ncartLineStationList inkHorizontalPanelWidgetReference
+---@field cachedLine Uint32
 NcartTrainLineListInkController = {}
 
 ---@param fields? NcartTrainLineListInkController
 ---@return NcartTrainLineListInkController
-function NcartTrainLineListInkController.new(fields) return end
+function NcartTrainLineListInkController.new(fields) end
 
----@protected
 ---@return Bool
-function NcartTrainLineListInkController:OnInitialize() return end
+function NcartTrainLineListInkController:OnInitialize() end
 
----@protected
 ---@param factValue Int32
 ---@return Bool
-function NcartTrainLineListInkController:OnMetroActiveLineChangeEvent(factValue) return end
+function NcartTrainLineListInkController:OnMetroActiveLineChangeEvent(factValue) end
 
----@protected
 ---@param factValue Int32
 ---@return Bool
-function NcartTrainLineListInkController:OnMetroActiveStationChangeEvent(factValue) return end
+function NcartTrainLineListInkController:OnMetroActiveStationChangeEvent(factValue) end
 
----@protected
 ---@param factValue Int32
 ---@return Bool
-function NcartTrainLineListInkController:OnMetroArrivingAtStationEvent(factValue) return end
+function NcartTrainLineListInkController:OnMetroArrivingAtStationEvent(factValue) end
 
----@protected
 ---@return Bool
-function NcartTrainLineListInkController:OnUninitialize() return end
+function NcartTrainLineListInkController:OnUninitialize() end
 
----@private
 ---@param activeStation Int32
 ---@return nil
-function NcartTrainLineListInkController:MarkNextStationOnLine(activeStation) return end
+function NcartTrainLineListInkController:MarkNextStationOnLine(activeStation) end
 
----@private
 ---@param stationPosition Int32
 ---@return nil
-function NcartTrainLineListInkController:MarkStationActive(stationPosition) return end
+function NcartTrainLineListInkController:MarkStationActive(stationPosition) end
 
----@private
 ---@param widget inkCompoundWidget
 ---@param lastStation Bool
 ---@return nil
-function NcartTrainLineListInkController:MarkStationInactive(widget, lastStation) return end
+function NcartTrainLineListInkController:MarkStationInactive(widget, lastStation) end
 
----@private
 ---@param line Int32
 ---@return nil
-function NcartTrainLineListInkController:PaintDirectionArrows(line) return end
+function NcartTrainLineListInkController:PaintDirectionArrows(line) end
 
----@private
 ---@param widget inkCompoundWidget
 ---@param lineColor Color
 ---@param districtColor Color
 ---@return nil
-function NcartTrainLineListInkController:PaintStationMarker(widget, lineColor, districtColor) return end
+function NcartTrainLineListInkController:PaintStationMarker(widget, lineColor, districtColor) end
 
----@private
 ---@return inkanimPlaybackOptions
-function NcartTrainLineListInkController:PlayAnimationInReverse() return end
+function NcartTrainLineListInkController:PlayAnimationInReverse() end
 
----@private
 ---@return nil
-function NcartTrainLineListInkController:PlayDirectionArrows() return end
+function NcartTrainLineListInkController:PlayDirectionArrows() end
 
----@private
 ---@param line Int32
 ---@return Bool
-function NcartTrainLineListInkController:PopulateStationList(line) return end
+function NcartTrainLineListInkController:PopulateStationList(line) end
 
----@private
 ---@return nil
-function NcartTrainLineListInkController:SignalTrainStop() return end
+function NcartTrainLineListInkController:SignalTrainStop() end
 
----@private
 ---@param activeLine Uint32
 ---@return nil
-function NcartTrainLineListInkController:UpdateMetroLine(activeLine) return end
+function NcartTrainLineListInkController:UpdateMetroLine(activeLine) end

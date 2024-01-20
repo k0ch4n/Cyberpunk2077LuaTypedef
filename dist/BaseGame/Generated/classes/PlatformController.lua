@@ -5,7 +5,7 @@ PlatformController = {}
 
 ---@param fields? PlatformController
 ---@return PlatformController
-function PlatformController.new(fields) return end
+function PlatformController.new(fields) end
 
 ---@return PlatformControllerPS
-function PlatformController:GetPS() return end
+function PlatformController:GetPS() end

@@ -1,43 +1,42 @@
 ---@meta
 
 ---@class NewItemTooltipWeaponBarsModule: NewItemTooltipModuleController
----@field public wrapper inkWidgetReference
----@field public bars inkWidgetReference[]
----@field public diffBars inkWidgetReference[]
----@field public betterColorDummyHolder inkWidgetReference
----@field public worseColorDummyHolder inkWidgetReference
----@field private statsToDisplay WeaponBarType[]
----@field private disableSeparators Bool
+---@field wrapper inkWidgetReference
+---@field bars inkWidgetReference[]
+---@field diffBars inkWidgetReference[]
+---@field betterColorDummyHolder inkWidgetReference
+---@field worseColorDummyHolder inkWidgetReference
+---@field statsToDisplay WeaponBarType[]
+---@field disableSeparators Bool
 NewItemTooltipWeaponBarsModule = {}
 
 ---@param fields? NewItemTooltipWeaponBarsModule
 ---@return NewItemTooltipWeaponBarsModule
-function NewItemTooltipWeaponBarsModule.new(fields) return end
+function NewItemTooltipWeaponBarsModule.new(fields) end
 
----@protected
 ---@return Bool
-function NewItemTooltipWeaponBarsModule:OnInitialize() return end
+function NewItemTooltipWeaponBarsModule:OnInitialize() end
 
 ---@param itemType gamedataItemType
 ---@param bars UIInventoryItemWeaponBars
 ---@param shouldCompare? Bool
 ---@return nil
-function NewItemTooltipWeaponBarsModule:CommonUpdate(itemType, bars, shouldCompare) return end
+function NewItemTooltipWeaponBarsModule:CommonUpdate(itemType, bars, shouldCompare) end
 
 ---@param data UIInventoryItem
 ---@param comparisonData UIInventoryItemComparisonManager
 ---@return nil
-function NewItemTooltipWeaponBarsModule:NEW_Update(data, comparisonData) return end
+function NewItemTooltipWeaponBarsModule:NEW_Update(data, comparisonData) end
 
 ---@param bigFontEnabled Bool
 ---@return nil
-function NewItemTooltipWeaponBarsModule:NEW_UpdateWrapping(bigFontEnabled) return end
+function NewItemTooltipWeaponBarsModule:NEW_UpdateWrapping(bigFontEnabled) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipWeaponBarsModule:Update(data) return end
+function NewItemTooltipWeaponBarsModule:Update(data) end
 
 ---@param bigFontEnabled Bool
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipWeaponBarsModule:UpdateWrapping(bigFontEnabled, data) return end
+function NewItemTooltipWeaponBarsModule:UpdateWrapping(bigFontEnabled, data) end

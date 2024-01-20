@@ -1,155 +1,145 @@
 ---@meta
 
 ---@class MasterControllerPS: ScriptableDeviceComponentPS
----@field protected clearance gamedeviceClearance
+---@field clearance gamedeviceClearance
 MasterControllerPS = {}
 
 ---@param fields? MasterControllerPS
 ---@return MasterControllerPS
-function MasterControllerPS.new(fields) return end
+function MasterControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function MasterControllerPS:OnInstantiated() return end
+function MasterControllerPS:OnInstantiated() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param hasActiveActions Bool
 ---@return Bool
-function MasterControllerPS:DetermineGameplayViability(context, hasActiveActions) return end
+function MasterControllerPS:DetermineGameplayViability(context, hasActiveActions) end
 
----@protected
 ---@param slave gameDeviceComponentPS
 ---@param actionName CName|string
 ---@return Bool, gamedeviceAction outAction
-function MasterControllerPS:ExtractActionFromSlave(slave, actionName) return end
+function MasterControllerPS:ExtractActionFromSlave(slave, actionName) end
 
----@protected
 ---@return nil
-function MasterControllerPS:FillTakeOverChainBB() return end
+function MasterControllerPS:FillTakeOverChainBB() end
 
 ---@return nil, gameDeviceComponentPS[] outDevices
-function MasterControllerPS:GetAllDescendants() return end
+function MasterControllerPS:GetAllDescendants() end
 
 ---@param context? MasterControllerPS
 ---@return gameDeviceComponentPS
-function MasterControllerPS:GetAttachedSlaveForPing(context) return end
+function MasterControllerPS:GetAttachedSlaveForPing(context) end
 
 ---@return MasterDeviceBaseBlackboardDef
-function MasterControllerPS:GetBlackboardDef() return end
+function MasterControllerPS:GetBlackboardDef() end
 
----@protected
 ---@return gamedeviceClearance
-function MasterControllerPS:GetClearance() return end
+function MasterControllerPS:GetClearance() end
 
 ---@return SDeviceWidgetPackage[]
-function MasterControllerPS:GetDeviceWidgets() return end
+function MasterControllerPS:GetDeviceWidgets() end
 
 ---@return EDeviceStatus
-function MasterControllerPS:GetExpectedSlaveState() return end
+function MasterControllerPS:GetExpectedSlaveState() end
 
 ---@return gameDeviceComponentPS
-function MasterControllerPS:GetFirstAttachedSlave() return end
+function MasterControllerPS:GetFirstAttachedSlave() end
 
 ---@return gameDeviceComponentPS[]
-function MasterControllerPS:GetImmediateDescendants() return end
+function MasterControllerPS:GetImmediateDescendants() end
 
 ---@return gameDeviceComponentPS[]
-function MasterControllerPS:GetImmediateSlaves() return end
+function MasterControllerPS:GetImmediateSlaves() end
 
 ---@return gameLazyDevice[]
-function MasterControllerPS:GetLazyDescendants() return end
+function MasterControllerPS:GetLazyDescendants() end
 
 ---@return gameLazyDevice[]
-function MasterControllerPS:GetLazySlaves() return end
+function MasterControllerPS:GetLazySlaves() end
 
 ---@return PuppetDeviceLinkPS[]
-function MasterControllerPS:GetPuppets() return end
+function MasterControllerPS:GetPuppets() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function MasterControllerPS:GetQuickHacksFromSlave(context) return end
+function MasterControllerPS:GetQuickHacksFromSlave(context) end
 
 ---@param deviceID gamePersistentID
 ---@return SDeviceWidgetPackage
-function MasterControllerPS:GetSlaveDeviceWidget(deviceID) return end
+function MasterControllerPS:GetSlaveDeviceWidget(deviceID) end
 
 ---@return SThumbnailWidgetPackage[]
-function MasterControllerPS:GetThumbnailWidgets() return end
+function MasterControllerPS:GetThumbnailWidgets() end
 
 ---@return CName
-function MasterControllerPS:GetWidgetTypeName() return end
+function MasterControllerPS:GetWidgetTypeName() end
 
 ---@return Bool
-function MasterControllerPS:HasAnySlave() return end
+function MasterControllerPS:HasAnySlave() end
 
----@protected
 ---@return nil
-function MasterControllerPS:Initialize() return end
+function MasterControllerPS:Initialize() end
 
 ---@return Bool
-function MasterControllerPS:IsMasterType() return end
+function MasterControllerPS:IsMasterType() end
 
 ---@return gameDeviceComponentPS[]
-function MasterControllerPS:NetrunnerGiveConnectedDevices() return end
+function MasterControllerPS:NetrunnerGiveConnectedDevices() end
 
----@protected
 ---@param evt gameDeviceDynamicConnectionChange
 ---@return EntityNotificationType
-function MasterControllerPS:OnDeviceDynamicConnectionChange(evt) return end
+function MasterControllerPS:OnDeviceDynamicConnectionChange(evt) end
 
----@protected
 ---@param evt FillTakeOverChainBBoardEvent
 ---@return EntityNotificationType
-function MasterControllerPS:OnFillTakeOverChainBBoardEvent(evt) return end
+function MasterControllerPS:OnFillTakeOverChainBBoardEvent(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function MasterControllerPS:OnRefreshSlavesEvent(evt) return end
+function MasterControllerPS:OnRefreshSlavesEvent(evt) end
 
 ---@param evt RequestDeviceWidgetUpdateEvent
 ---@return nil
-function MasterControllerPS:OnRequestDeviceWidgetUpdate(evt) return end
+function MasterControllerPS:OnRequestDeviceWidgetUpdate(evt) end
 
 ---@param evt RequestThumbnailWidgetsUpdateEvent
 ---@return nil
-function MasterControllerPS:OnRequestThumbnailWidgetsUpdate(evt) return end
+function MasterControllerPS:OnRequestThumbnailWidgetsUpdate(evt) end
 
 ---@return nil
-function MasterControllerPS:RefreshDefaultHighlightOnSlaves() return end
+function MasterControllerPS:RefreshDefaultHighlightOnSlaves() end
 
 ---@return nil
-function MasterControllerPS:RefreshPowerOnSlaves_Event() return end
+function MasterControllerPS:RefreshPowerOnSlaves_Event() end
 
 ---@param onInitialize? Bool
 ---@param force? Bool
 ---@return nil
-function MasterControllerPS:RefreshSlaves_Event(onInitialize, force) return end
+function MasterControllerPS:RefreshSlaves_Event(onInitialize, force) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function MasterControllerPS:RequestAllDevicesWidgetsUpdate(blackboard) return end
+function MasterControllerPS:RequestAllDevicesWidgetsUpdate(blackboard) end
 
 ---@param areaEffectID CName|string
 ---@param show Bool
 ---@return nil
-function MasterControllerPS:RequestAreaEffectVisualisationUpdateOnSlaves(areaEffectID, show) return end
+function MasterControllerPS:RequestAreaEffectVisualisationUpdateOnSlaves(areaEffectID, show) end
 
 ---@param blackboard gameIBlackboard
 ---@param deviceID gamePersistentID
 ---@return nil
-function MasterControllerPS:RequestDeviceWidgetsUpdate(blackboard, deviceID) return end
+function MasterControllerPS:RequestDeviceWidgetsUpdate(blackboard, deviceID) end
 
 ---@param blackboard gameIBlackboard
 ---@param devices gamePersistentID[]
 ---@return nil
-function MasterControllerPS:RequestDeviceWidgetsUpdate(blackboard, devices) return end
+function MasterControllerPS:RequestDeviceWidgetsUpdate(blackboard, devices) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function MasterControllerPS:RequestThumbnailWidgetsUpdate(blackboard) return end
+function MasterControllerPS:RequestThumbnailWidgetsUpdate(blackboard) end
 
 ---@param shouldDraw Bool
 ---@param ownerEntityPosition? Vector4
@@ -160,23 +150,20 @@ function MasterControllerPS:RequestThumbnailWidgetsUpdate(blackboard) return end
 ---@param revealMaster? Bool
 ---@param ignoreRevealed? Bool
 ---@return nil
-function MasterControllerPS:RevealDevicesGrid(shouldDraw, ownerEntityPosition, fxDefault, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) return end
+function MasterControllerPS:RevealDevicesGrid(shouldDraw, ownerEntityPosition, fxDefault, isPing, lifetime, revealSlave, revealMaster, ignoreRevealed) end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function MasterControllerPS:SendActionToAllSlaves(action) return end
+function MasterControllerPS:SendActionToAllSlaves(action) end
 
----@protected
 ---@param actions ScriptableDeviceAction[]
 ---@return nil
-function MasterControllerPS:SendActionsToAllSlaves(actions) return end
+function MasterControllerPS:SendActionsToAllSlaves(actions) end
 
----@protected
 ---@param evt redEvent
 ---@return nil
-function MasterControllerPS:SendEventToAllSlaves(evt) return end
+function MasterControllerPS:SendEventToAllSlaves(evt) end
 
 ---@param isImportant Bool
 ---@return nil
-function MasterControllerPS:SetSlavesAsQuestImportant(isImportant) return end
+function MasterControllerPS:SetSlavesAsQuestImportant(isImportant) end

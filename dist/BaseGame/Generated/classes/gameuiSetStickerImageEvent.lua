@@ -5,4 +5,4 @@ gameuiSetStickerImageEvent = {}
 
 ---@param fields? gameuiSetStickerImageEvent
 ---@return gameuiSetStickerImageEvent
-function gameuiSetStickerImageEvent.new(fields) return end
+function gameuiSetStickerImageEvent.new(fields) end

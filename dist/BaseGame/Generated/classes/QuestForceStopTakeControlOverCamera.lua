@@ -5,7 +5,7 @@ QuestForceStopTakeControlOverCamera = {}
 
 ---@param fields? QuestForceStopTakeControlOverCamera
 ---@return QuestForceStopTakeControlOverCamera
-function QuestForceStopTakeControlOverCamera.new(fields) return end
+function QuestForceStopTakeControlOverCamera.new(fields) end
 
 ---@return nil
-function QuestForceStopTakeControlOverCamera:SetProperties() return end
+function QuestForceStopTakeControlOverCamera:SetProperties() end

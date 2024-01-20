@@ -5,4 +5,4 @@ HitIsRicochetPrereq = {}
 
 ---@param fields? HitIsRicochetPrereq
 ---@return HitIsRicochetPrereq
-function HitIsRicochetPrereq.new(fields) return end
+function HitIsRicochetPrereq.new(fields) end

@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class WoundedTriggeredPrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInt redCallbackObject
+---@field owner gameObject
+---@field listenerInt redCallbackObject
 WoundedTriggeredPrereqState = {}
 
 ---@param fields? WoundedTriggeredPrereqState
 ---@return WoundedTriggeredPrereqState
-function WoundedTriggeredPrereqState.new(fields) return end
+function WoundedTriggeredPrereqState.new(fields) end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function WoundedTriggeredPrereqState:OnStateUpdate(value) return end
+function WoundedTriggeredPrereqState:OnStateUpdate(value) end

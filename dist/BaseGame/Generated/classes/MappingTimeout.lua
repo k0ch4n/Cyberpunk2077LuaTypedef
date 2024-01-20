@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class MappingTimeout: AITimeoutCondition
----@field public timeoutMapping AIArgumentMapping
----@field protected timeoutValue Float
+---@field timeoutMapping AIArgumentMapping
+---@field timeoutValue Float
 MappingTimeout = {}
 
 ---@param fields? MappingTimeout
 ---@return MappingTimeout
-function MappingTimeout.new(fields) return end
+function MappingTimeout.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function MappingTimeout:GetTimeoutValue(context) return end
+function MappingTimeout:GetTimeoutValue(context) end

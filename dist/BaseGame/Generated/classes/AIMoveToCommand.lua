@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIMoveToCommand: AIMoveCommand
----@field public movementTarget AIPositionSpec
----@field public rotateEntityTowardsFacingTarget Bool
----@field public facingTarget AIPositionSpec
----@field public movementType moveMovementType
----@field public ignoreNavigation Bool
----@field public useStart Bool
----@field public useStop Bool
----@field public desiredDistanceFromTarget Float
----@field public finishWhenDestinationReached Bool
+---@field movementTarget AIPositionSpec
+---@field rotateEntityTowardsFacingTarget Bool
+---@field facingTarget AIPositionSpec
+---@field movementType moveMovementType
+---@field ignoreNavigation Bool
+---@field useStart Bool
+---@field useStop Bool
+---@field desiredDistanceFromTarget Float
+---@field finishWhenDestinationReached Bool
 AIMoveToCommand = {}
 
 ---@param fields? AIMoveToCommand
 ---@return AIMoveToCommand
-function AIMoveToCommand.new(fields) return end
+function AIMoveToCommand.new(fields) end

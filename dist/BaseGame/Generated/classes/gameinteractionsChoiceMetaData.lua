@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameinteractionsChoiceMetaData
----@field public tweakDBName String
----@field public tweakDBID TweakDBID
----@field public type gameinteractionsChoiceTypeWrapper
+---@field tweakDBName String
+---@field tweakDBID TweakDBID
+---@field type gameinteractionsChoiceTypeWrapper
 gameinteractionsChoiceMetaData = {}
 
 ---@param fields? gameinteractionsChoiceMetaData
 ---@return gameinteractionsChoiceMetaData
-function gameinteractionsChoiceMetaData.new(fields) return end
+function gameinteractionsChoiceMetaData.new(fields) end
 
 ---@param metaData gameinteractionsChoiceMetaData
 ---@return gamedataInteractionBase_Record
-function gameinteractionsChoiceMetaData.GetTweakData(metaData) return end
+function gameinteractionsChoiceMetaData.GetTweakData(metaData) end

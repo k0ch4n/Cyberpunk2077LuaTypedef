@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldCrowdNullAreaCollisionHeader
----@field public direction Vector3
----@field public radius Float
----@field public speed Float
----@field public flags Uint8
----@field public userData Uint64
+---@field direction Vector3
+---@field radius Float
+---@field speed Float
+---@field flags Uint8
+---@field userData Uint64
 worldCrowdNullAreaCollisionHeader = {}
 
 ---@param fields? worldCrowdNullAreaCollisionHeader
 ---@return worldCrowdNullAreaCollisionHeader
-function worldCrowdNullAreaCollisionHeader.new(fields) return end
+function worldCrowdNullAreaCollisionHeader.new(fields) end

@@ -1,44 +1,38 @@
 ---@meta
 
 ---@class ListItemStateMapper: inkWidgetLogicController
----@field private toggled Bool
----@field private selected Bool
----@field private new Bool
----@field private widget inkWidget
+---@field toggled Bool
+---@field selected Bool
+---@field new Bool
+---@field widget inkWidget
 ListItemStateMapper = {}
 
 ---@param fields? ListItemStateMapper
 ---@return ListItemStateMapper
-function ListItemStateMapper.new(fields) return end
+function ListItemStateMapper.new(fields) end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function ListItemStateMapper:OnDeselected(target) return end
+function ListItemStateMapper:OnDeselected(target) end
 
----@protected
 ---@return Bool
-function ListItemStateMapper:OnInitialize() return end
+function ListItemStateMapper:OnInitialize() end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function ListItemStateMapper:OnSelected(target) return end
+function ListItemStateMapper:OnSelected(target) end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function ListItemStateMapper:OnToggledOff(target) return end
+function ListItemStateMapper:OnToggledOff(target) end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function ListItemStateMapper:OnToggledOn(target) return end
+function ListItemStateMapper:OnToggledOn(target) end
 
 ---@param isNew Bool
 ---@return nil
-function ListItemStateMapper:SetNew(isNew) return end
+function ListItemStateMapper:SetNew(isNew) end
 
----@private
 ---@return nil
-function ListItemStateMapper:UpdateState() return end
+function ListItemStateMapper:UpdateState() end

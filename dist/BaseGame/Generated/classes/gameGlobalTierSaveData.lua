@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameGlobalTierSaveData
----@field public subtype gameGlobalTierSubtype
----@field public data gameSceneTierData
+---@field subtype gameGlobalTierSubtype
+---@field data gameSceneTierData
 gameGlobalTierSaveData = {}
 
 ---@param fields? gameGlobalTierSaveData
 ---@return gameGlobalTierSaveData
-function gameGlobalTierSaveData.new(fields) return end
+function gameGlobalTierSaveData.new(fields) end

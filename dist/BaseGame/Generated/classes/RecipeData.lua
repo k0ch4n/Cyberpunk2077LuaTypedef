@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class RecipeData: IScriptable
----@field public label String
----@field public ingredients IngredientData[]
----@field public icon String
----@field public iconGender gameItemIconGender
----@field public description String
----@field public type String
----@field public id gamedataItem_Record
----@field public isCraftable Bool
----@field public inventoryItem gameInventoryItemData
----@field public amount Int32
----@field public isNew Bool
----@field public isSelected Bool
----@field public quality gamedataQuality
+---@field label String
+---@field ingredients IngredientData[]
+---@field icon String
+---@field iconGender gameItemIconGender
+---@field description String
+---@field type String
+---@field id gamedataItem_Record
+---@field isCraftable Bool
+---@field inventoryItem gameInventoryItemData
+---@field amount Int32
+---@field isNew Bool
+---@field isSelected Bool
+---@field quality gamedataQuality
 RecipeData = {}
 
 ---@param fields? RecipeData
 ---@return RecipeData
-function RecipeData.new(fields) return end
+function RecipeData.new(fields) end

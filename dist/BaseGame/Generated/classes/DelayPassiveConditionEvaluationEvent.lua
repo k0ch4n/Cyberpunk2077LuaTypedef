@@ -5,4 +5,4 @@ DelayPassiveConditionEvaluationEvent = {}
 
 ---@param fields? DelayPassiveConditionEvaluationEvent
 ---@return DelayPassiveConditionEvaluationEvent
-function DelayPassiveConditionEvaluationEvent.new(fields) return end
+function DelayPassiveConditionEvaluationEvent.new(fields) end

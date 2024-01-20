@@ -6,14 +6,14 @@ AISubActionForceHitReaction_Record_Implementation = {}
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionForceHitReaction_Record
 ---@return nil
-function AISubActionForceHitReaction_Record_Implementation.Activate(context, record) return end
+function AISubActionForceHitReaction_Record_Implementation.Activate(context, record) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionForceHitReaction_Record
 ---@param duration Float
 ---@param interrupted Bool
 ---@return nil
-function AISubActionForceHitReaction_Record_Implementation.Deactivate(context, record, duration, interrupted) return end
+function AISubActionForceHitReaction_Record_Implementation.Deactivate(context, record, duration, interrupted) end
 
 ---@param target gameObject
 ---@param hitDirection Int32
@@ -24,7 +24,7 @@ function AISubActionForceHitReaction_Record_Implementation.Deactivate(context, r
 ---@param animVariation Int32
 ---@param hitSource Int32
 ---@return nil
-function AISubActionForceHitReaction_Record_Implementation.SendForcedHitDataToAIBehavior(target, hitDirection, hitIntensity, hitType, hitBodyPart, stance, animVariation, hitSource) return end
+function AISubActionForceHitReaction_Record_Implementation.SendForcedHitDataToAIBehavior(target, hitDirection, hitIntensity, hitType, hitBodyPart, stance, animVariation, hitSource) end
 
 ---@param target gameObject
 ---@param hitDirection Int32
@@ -35,10 +35,10 @@ function AISubActionForceHitReaction_Record_Implementation.SendForcedHitDataToAI
 ---@param animVariation Int32
 ---@param hitSource Int32
 ---@return nil
-function AISubActionForceHitReaction_Record_Implementation.SendForcedTwitchDataToAnimationGraph(target, hitDirection, hitIntensity, hitType, hitBodyPart, stance, animVariation, hitSource) return end
+function AISubActionForceHitReaction_Record_Implementation.SendForcedTwitchDataToAnimationGraph(target, hitDirection, hitIntensity, hitType, hitBodyPart, stance, animVariation, hitSource) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param record gamedataAISubActionForceHitReaction_Record
 ---@param duration Float
 ---@return AIbehaviorUpdateOutcome
-function AISubActionForceHitReaction_Record_Implementation.Update(context, record, duration) return end
+function AISubActionForceHitReaction_Record_Implementation.Update(context, record, duration) end

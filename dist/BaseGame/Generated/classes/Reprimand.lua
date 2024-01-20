@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class Reprimand: MorphData
----@field public reprimandData ReprimandData
+---@field reprimandData ReprimandData
 Reprimand = {}
 
 ---@param fields? Reprimand
 ---@return Reprimand
-function Reprimand.new(fields) return end
+function Reprimand.new(fields) end

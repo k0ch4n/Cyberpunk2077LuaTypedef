@@ -3,19 +3,16 @@
 ---@class RestrictedMovementAreaCondition: AIbehaviorconditionScript
 RestrictedMovementAreaCondition = {}
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIGuardAreaManager
-function RestrictedMovementAreaCondition:GetRestrictMovementAreaManager(context) return end
+function RestrictedMovementAreaCondition:GetRestrictMovementAreaManager(context) end
 
----@protected
 ---@param areaManager AIGuardAreaManager
 ---@param owner gameObject
 ---@return Bool
-function RestrictedMovementAreaCondition:IsOwnerConnectedToRestirctMovementArea(areaManager, owner) return end
+function RestrictedMovementAreaCondition:IsOwnerConnectedToRestirctMovementArea(areaManager, owner) end
 
----@protected
 ---@param areaManager AIGuardAreaManager
 ---@param owner gameObject
 ---@return Bool
-function RestrictedMovementAreaCondition:IsOwnerInRestirctMovementArea(areaManager, owner) return end
+function RestrictedMovementAreaCondition:IsOwnerInRestirctMovementArea(areaManager, owner) end

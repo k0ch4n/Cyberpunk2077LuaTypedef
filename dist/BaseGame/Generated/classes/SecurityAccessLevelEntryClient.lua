@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class SecurityAccessLevelEntryClient: SecurityAccessLevelEntry
----@field public level ESecurityAccessLevel
+---@field level ESecurityAccessLevel
 SecurityAccessLevelEntryClient = {}
 
 ---@param fields? SecurityAccessLevelEntryClient
 ---@return SecurityAccessLevelEntryClient
-function SecurityAccessLevelEntryClient.new(fields) return end
+function SecurityAccessLevelEntryClient.new(fields) end
 
 ---@param self SecurityAccessLevelEntryClient
 ---@return Bool
-function SecurityAccessLevelEntryClient.IsDataValid(self) return end
+function SecurityAccessLevelEntryClient.IsDataValid(self) end
 
 ---@param self SecurityAccessLevelEntryClient
 ---@return Bool
-function SecurityAccessLevelEntryClient.IsKeycardValid(self) return end
+function SecurityAccessLevelEntryClient.IsKeycardValid(self) end
 
 ---@param self SecurityAccessLevelEntryClient
 ---@return Bool
-function SecurityAccessLevelEntryClient.IsPasswordValid(self) return end
+function SecurityAccessLevelEntryClient.IsPasswordValid(self) end

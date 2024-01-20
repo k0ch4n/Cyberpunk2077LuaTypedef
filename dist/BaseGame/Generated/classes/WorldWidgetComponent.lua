@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class WorldWidgetComponent: IWorldWidgetComponent
----@field public cursorResource inkWidgetLibraryResource
----@field public widgetResource inkWidgetLibraryResource
----@field public itemNameToSpawn CName
----@field public staticTextureResource CBitmapTexture
----@field public sceneWidgetProperties worlduiSceneWidgetProperties
----@field public spawnDistanceOverride Float
----@field public limitedSpawnDistanceFromVehicle Bool
----@field protected screenDefinition SUIScreenDefinition
+---@field cursorResource inkWidgetLibraryResource
+---@field widgetResource inkWidgetLibraryResource
+---@field itemNameToSpawn CName
+---@field staticTextureResource CBitmapTexture
+---@field sceneWidgetProperties worlduiSceneWidgetProperties
+---@field spawnDistanceOverride Float
+---@field limitedSpawnDistanceFromVehicle Bool
+---@field screenDefinition SUIScreenDefinition
 WorldWidgetComponent = {}
 
 ---@param fields? WorldWidgetComponent
 ---@return WorldWidgetComponent
-function WorldWidgetComponent.new(fields) return end
+function WorldWidgetComponent.new(fields) end
 
 ---@return ScreenDefinitionPackage
-function WorldWidgetComponent:GetScreenDefinition() return end
+function WorldWidgetComponent:GetScreenDefinition() end
 
 ---@return Bool
-function WorldWidgetComponent:IsScreenDefinitionValid() return end
+function WorldWidgetComponent:IsScreenDefinitionValid() end

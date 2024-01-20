@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class artist_test_area_r: gameuiHUDGameController
----@field private rootWidget inkWidget
----@field private linesWidget inkCanvasWidget
+---@field rootWidget inkWidget
+---@field linesWidget inkCanvasWidget
 artist_test_area_r = {}
 
 ---@param fields? artist_test_area_r
 ---@return artist_test_area_r
-function artist_test_area_r.new(fields) return end
+function artist_test_area_r.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function artist_test_area_r:OnAction(action, consumer) return end
+function artist_test_area_r:OnAction(action, consumer) end
 
----@protected
 ---@return Bool
-function artist_test_area_r:OnInitialize() return end
+function artist_test_area_r:OnInitialize() end

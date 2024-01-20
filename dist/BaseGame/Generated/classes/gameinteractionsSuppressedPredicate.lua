@@ -5,4 +5,4 @@ gameinteractionsSuppressedPredicate = {}
 
 ---@param fields? gameinteractionsSuppressedPredicate
 ---@return gameinteractionsSuppressedPredicate
-function gameinteractionsSuppressedPredicate.new(fields) return end
+function gameinteractionsSuppressedPredicate.new(fields) end

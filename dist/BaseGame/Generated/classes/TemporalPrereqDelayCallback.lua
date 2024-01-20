@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class TemporalPrereqDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field protected state TemporalPrereqState
+---@field state TemporalPrereqState
 TemporalPrereqDelayCallback = {}
 
 ---@param fields? TemporalPrereqDelayCallback
 ---@return TemporalPrereqDelayCallback
-function TemporalPrereqDelayCallback.new(fields) return end
+function TemporalPrereqDelayCallback.new(fields) end
 
 ---@return nil
-function TemporalPrereqDelayCallback:Call() return end
+function TemporalPrereqDelayCallback:Call() end
 
 ---@param state gamePrereqState
 ---@return nil
-function TemporalPrereqDelayCallback:RegisterState(state) return end
+function TemporalPrereqDelayCallback:RegisterState(state) end

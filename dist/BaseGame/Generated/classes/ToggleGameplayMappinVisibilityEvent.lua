@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ToggleGameplayMappinVisibilityEvent: redEvent
----@field public isHidden Bool
+---@field isHidden Bool
 ToggleGameplayMappinVisibilityEvent = {}
 
 ---@param fields? ToggleGameplayMappinVisibilityEvent
 ---@return ToggleGameplayMappinVisibilityEvent
-function ToggleGameplayMappinVisibilityEvent.new(fields) return end
+function ToggleGameplayMappinVisibilityEvent.new(fields) end
 
 ---@return String
-function ToggleGameplayMappinVisibilityEvent:GetFriendlyDescription() return end
+function ToggleGameplayMappinVisibilityEvent:GetFriendlyDescription() end

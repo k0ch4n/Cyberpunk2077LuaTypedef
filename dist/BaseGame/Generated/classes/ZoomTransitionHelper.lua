@@ -4,4 +4,4 @@
 ZoomTransitionHelper = {}
 
 ---@return CName
-function ZoomTransitionHelper.GetReevaluateZoomName() return end
+function ZoomTransitionHelper.GetReevaluateZoomName() end

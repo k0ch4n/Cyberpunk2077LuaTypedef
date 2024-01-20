@@ -5,28 +5,28 @@ ReflectionType = {}
 
 ---@param fields? ReflectionType
 ---@return ReflectionType
-function ReflectionType.new(fields) return end
+function ReflectionType.new(fields) end
 
 ---@return ReflectionType
-function ReflectionType:GetInnerType() return end
+function ReflectionType:GetInnerType() end
 
 ---@return ERTTIType
-function ReflectionType:GetMetaType() return end
+function ReflectionType:GetMetaType() end
 
 ---@return CName
-function ReflectionType:GetName() return end
+function ReflectionType:GetName() end
 
 ---@return ReflectionClass
-function ReflectionType:AsClass() return end
+function ReflectionType:AsClass() end
 
 ---@return ReflectionEnum
-function ReflectionType:AsEnum() return end
+function ReflectionType:AsEnum() end
 
 ---@return Bool
-function ReflectionType:IsArray() return end
+function ReflectionType:IsArray() end
 
 ---@return Bool
-function ReflectionType:IsClass() return end
+function ReflectionType:IsClass() end
 
 ---@return Bool
-function ReflectionType:IsEnum() return end
+function ReflectionType:IsEnum() end

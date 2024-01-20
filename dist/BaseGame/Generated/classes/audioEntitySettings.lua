@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioEntitySettings: audioAudioMetadata
----@field public commonSettings audioCommonEntitySettings
----@field public scanningSettings audioScanningSettings
----@field public auxiliaryMetadata audioAuxiliaryMetadata
----@field public emitterDecoratorMetadata CName
----@field public preferSoundComponentPosition Bool
+---@field commonSettings audioCommonEntitySettings
+---@field scanningSettings audioScanningSettings
+---@field auxiliaryMetadata audioAuxiliaryMetadata
+---@field emitterDecoratorMetadata CName
+---@field preferSoundComponentPosition Bool
 audioEntitySettings = {}

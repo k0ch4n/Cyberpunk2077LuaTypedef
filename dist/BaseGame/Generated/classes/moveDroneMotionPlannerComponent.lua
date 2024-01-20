@@ -5,4 +5,4 @@ moveDroneMotionPlannerComponent = {}
 
 ---@param fields? moveDroneMotionPlannerComponent
 ---@return moveDroneMotionPlannerComponent
-function moveDroneMotionPlannerComponent.new(fields) return end
+function moveDroneMotionPlannerComponent.new(fields) end

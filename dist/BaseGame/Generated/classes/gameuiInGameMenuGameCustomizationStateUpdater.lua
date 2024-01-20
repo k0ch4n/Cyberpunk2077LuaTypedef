@@ -5,4 +5,4 @@ gameuiInGameMenuGameCustomizationStateUpdater = {}
 
 ---@param fields? gameuiInGameMenuGameCustomizationStateUpdater
 ---@return gameuiInGameMenuGameCustomizationStateUpdater
-function gameuiInGameMenuGameCustomizationStateUpdater.new(fields) return end
+function gameuiInGameMenuGameCustomizationStateUpdater.new(fields) end

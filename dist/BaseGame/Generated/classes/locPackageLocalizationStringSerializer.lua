@@ -5,4 +5,4 @@ locPackageLocalizationStringSerializer = {}
 
 ---@param fields? locPackageLocalizationStringSerializer
 ---@return locPackageLocalizationStringSerializer
-function locPackageLocalizationStringSerializer.new(fields) return end
+function locPackageLocalizationStringSerializer.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkLanguageFont
----@field public font inkFontFamilyResource
----@field public mapper inkLanguageFontMapper
+---@field font inkFontFamilyResource
+---@field mapper inkLanguageFontMapper
 inkLanguageFont = {}
 
 ---@param fields? inkLanguageFont
 ---@return inkLanguageFont
-function inkLanguageFont.new(fields) return end
+function inkLanguageFont.new(fields) end

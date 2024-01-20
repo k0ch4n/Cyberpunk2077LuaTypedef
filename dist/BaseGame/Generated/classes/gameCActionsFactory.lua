@@ -5,4 +5,4 @@ gameCActionsFactory = {}
 
 ---@param fields? gameCActionsFactory
 ---@return gameCActionsFactory
-function gameCActionsFactory.new(fields) return end
+function gameCActionsFactory.new(fields) end

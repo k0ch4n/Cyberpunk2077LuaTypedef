@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnWorkspotData_EmbeddedWorkspotTree: scnWorkspotData
----@field public workspotTree workWorkspotTree
+---@field workspotTree workWorkspotTree
 scnWorkspotData_EmbeddedWorkspotTree = {}
 
 ---@param fields? scnWorkspotData_EmbeddedWorkspotTree
 ---@return scnWorkspotData_EmbeddedWorkspotTree
-function scnWorkspotData_EmbeddedWorkspotTree.new(fields) return end
+function scnWorkspotData_EmbeddedWorkspotTree.new(fields) end

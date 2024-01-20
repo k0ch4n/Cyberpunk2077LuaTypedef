@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimSetTextEvent: inkanimEvent
----@field public localizationString String
+---@field localizationString String
 inkanimSetTextEvent = {}
 
 ---@param fields? inkanimSetTextEvent
 ---@return inkanimSetTextEvent
-function inkanimSetTextEvent.new(fields) return end
+function inkanimSetTextEvent.new(fields) end

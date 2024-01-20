@@ -1,425 +1,352 @@
 ---@meta
 
 ---@class NewPerksCategoriesGameController: gameuiMenuGameController
----@field private tooltipsManagerRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private perksCategoriesContainer inkWidgetReference
----@field private tabsContainer inkWidgetReference
----@field private perksScreenContainer inkWidgetReference
----@field private espionageScreenContainer inkWidgetReference
----@field private skillsScreenContainer inkWidgetReference
----@field private pointsDisplay inkWidgetReference
----@field private playerLevel inkTextWidgetReference
----@field private resetAttributesButton inkWidgetReference
----@field private skillsScreenButton inkWidgetReference
----@field private espionageAttributeMask inkWidgetReference
----@field private espionagePointsRef inkWidgetReference
----@field private attributeTooltipHolderRight inkWidgetReference
----@field private attributeTooltipHolderLeft inkWidgetReference
----@field private centerHiglightParts inkWidgetReference[]
----@field private perkTooltipPlacementLeft inkWidgetReference
----@field private perkTooltipPlacementRight inkWidgetReference
----@field private perkTooltipBgLeft inkWidgetReference
----@field private perkTooltipBgRight inkWidgetReference
----@field private perkTooltipBgAnimProxy inkanimProxy
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private tabsController NewPerkTabsController
----@field private perksScreenController NewPerksScreenLogicController
----@field private espionageScreenController NewPerksScreenLogicController
----@field private skillScreenController NewPerkSkillsLogicController
----@field private tooltipsManager gameuiTooltipsManager
----@field private buttonHintsController ButtonHints
----@field private dataManager PlayerDevelopmentDataManager
----@field private questSystem questQuestsSystem
----@field private attributesControllersList PerksMenuAttributeItemController[]
----@field private perksMenuItemCreatedQueue PerksMenuAttributeItemCreated[]
----@field private pointsDisplayController PerksPointsDisplayController
----@field private playerStatsBlackboard gameIBlackboard
----@field private characterLevelListener redCallbackObject
----@field private player PlayerPuppet
----@field private previousScreen NewPeksActiveScreen
----@field private currentScreen NewPeksActiveScreen
----@field private currentStatScreen gamedataStatType
----@field private johnnyEspionageInitialized Bool
----@field private isEspionageUnlocked Bool
----@field private lastHoveredAttribute PerkMenuAttribute
----@field private cyberwarePerkDetailsPopupToken inkGameNotificationToken
----@field private perksScreenIntroAnimProxy inkanimProxy
----@field private perksScreenOutroAnimProxy inkanimProxy
----@field private perksScreenDirection NewPerkTabsArrowDirection
----@field private currentTooltipData PerkHoverEventTooltipData
----@field private uiSystem gameuiGameSystemUI
----@field private currentCursorPos Vector2
----@field private perkUserData PerkUserData
----@field private vendorUserData VendorUserData
----@field private skillsOpenData OpenSkillsMenuData
----@field private resetConfirmationToken inkGameNotificationToken
----@field private userData IScriptable
----@field private isPlayerInCombat Bool
----@field private screenDisplayContext ScreenDisplayContext
+---@field tooltipsManagerRef inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field perksCategoriesContainer inkWidgetReference
+---@field tabsContainer inkWidgetReference
+---@field perksScreenContainer inkWidgetReference
+---@field espionageScreenContainer inkWidgetReference
+---@field skillsScreenContainer inkWidgetReference
+---@field pointsDisplay inkWidgetReference
+---@field playerLevel inkTextWidgetReference
+---@field resetAttributesButton inkWidgetReference
+---@field skillsScreenButton inkWidgetReference
+---@field espionageAttributeMask inkWidgetReference
+---@field espionagePointsRef inkWidgetReference
+---@field attributeTooltipHolderRight inkWidgetReference
+---@field attributeTooltipHolderLeft inkWidgetReference
+---@field centerHiglightParts inkWidgetReference[]
+---@field perkTooltipPlacementLeft inkWidgetReference
+---@field perkTooltipPlacementRight inkWidgetReference
+---@field perkTooltipBgLeft inkWidgetReference
+---@field perkTooltipBgRight inkWidgetReference
+---@field perkTooltipBgAnimProxy inkanimProxy
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field tabsController NewPerkTabsController
+---@field perksScreenController NewPerksScreenLogicController
+---@field espionageScreenController NewPerksScreenLogicController
+---@field skillScreenController NewPerkSkillsLogicController
+---@field tooltipsManager gameuiTooltipsManager
+---@field buttonHintsController ButtonHints
+---@field dataManager PlayerDevelopmentDataManager
+---@field questSystem questQuestsSystem
+---@field attributesControllersList PerksMenuAttributeItemController[]
+---@field perksMenuItemCreatedQueue PerksMenuAttributeItemCreated[]
+---@field pointsDisplayController PerksPointsDisplayController
+---@field playerStatsBlackboard gameIBlackboard
+---@field characterLevelListener redCallbackObject
+---@field player PlayerPuppet
+---@field previousScreen NewPeksActiveScreen
+---@field currentScreen NewPeksActiveScreen
+---@field currentStatScreen gamedataStatType
+---@field johnnyEspionageInitialized Bool
+---@field isEspionageUnlocked Bool
+---@field lastHoveredAttribute PerkMenuAttribute
+---@field cyberwarePerkDetailsPopupToken inkGameNotificationToken
+---@field perksScreenIntroAnimProxy inkanimProxy
+---@field perksScreenOutroAnimProxy inkanimProxy
+---@field perksScreenDirection NewPerkTabsArrowDirection
+---@field currentTooltipData PerkHoverEventTooltipData
+---@field uiSystem gameuiGameSystemUI
+---@field currentCursorPos Vector2
+---@field perkUserData PerkUserData
+---@field vendorUserData VendorUserData
+---@field skillsOpenData OpenSkillsMenuData
+---@field resetConfirmationToken inkGameNotificationToken
+---@field userData IScriptable
+---@field isPlayerInCombat Bool
+---@field screenDisplayContext ScreenDisplayContext
 NewPerksCategoriesGameController = {}
 
 ---@param fields? NewPerksCategoriesGameController
 ---@return NewPerksCategoriesGameController
-function NewPerksCategoriesGameController.new(fields) return end
+function NewPerksCategoriesGameController.new(fields) end
 
----@protected
 ---@param evt PerksMenuAttributeItemClicked
 ---@return Bool
-function NewPerksCategoriesGameController:OnAttributeClicked(evt) return end
+function NewPerksCategoriesGameController:OnAttributeClicked(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemHoldStart
 ---@return Bool
-function NewPerksCategoriesGameController:OnAttributeHoldStart(evt) return end
+function NewPerksCategoriesGameController:OnAttributeHoldStart(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemHoverOut
 ---@return Bool
-function NewPerksCategoriesGameController:OnAttributeHoverOut(evt) return end
+function NewPerksCategoriesGameController:OnAttributeHoverOut(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemHoverOver
 ---@return Bool
-function NewPerksCategoriesGameController:OnAttributeHoverOver(evt) return end
+function NewPerksCategoriesGameController:OnAttributeHoverOver(evt) end
 
----@protected
 ---@param evt NewPerksTabAttributeInvestHoldFinished
 ---@return Bool
-function NewPerksCategoriesGameController:OnAttributeInvestHoldFinished(evt) return end
+function NewPerksCategoriesGameController:OnAttributeInvestHoldFinished(evt) end
 
----@protected
 ---@param evt AttributeUpgradePurchased
 ---@return Bool
-function NewPerksCategoriesGameController:OnAttributePurchaseRequest(evt) return end
+function NewPerksCategoriesGameController:OnAttributePurchaseRequest(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemReleased
 ---@return Bool
-function NewPerksCategoriesGameController:OnAttributeReleased(evt) return end
+function NewPerksCategoriesGameController:OnAttributeReleased(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnAxisInput(evt) return end
+function NewPerksCategoriesGameController:OnAxisInput(evt) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnBack(userData) return end
+function NewPerksCategoriesGameController:OnBack(userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnBeforeLeaveScenario(userData) return end
+function NewPerksCategoriesGameController:OnBeforeLeaveScenario(userData) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NewPerksCategoriesGameController:OnCharacterLevelUpdated(value) return end
+function NewPerksCategoriesGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function NewPerksCategoriesGameController:OnCyberwarePerkDetailsPopup(data) return end
+function NewPerksCategoriesGameController:OnCyberwarePerkDetailsPopup(data) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnEspionageScreenSpawned(widget, userData) return end
+function NewPerksCategoriesGameController:OnEspionageScreenSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function NewPerksCategoriesGameController:OnInitialize() return end
+function NewPerksCategoriesGameController:OnInitialize() end
 
----@protected
 ---@param evt NewPerkHoverOutEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnPerkHoverOut(evt) return end
+function NewPerksCategoriesGameController:OnPerkHoverOut(evt) end
 
----@protected
 ---@param evt NewPerkHoverOverEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnPerkHoverOver(evt) return end
+function NewPerksCategoriesGameController:OnPerkHoverOver(evt) end
 
----@protected
 ---@param evt PerksMenuAttributeItemCreated
 ---@return Bool
-function NewPerksCategoriesGameController:OnPerksMenuAttributeItemCreated(evt) return end
+function NewPerksCategoriesGameController:OnPerksMenuAttributeItemCreated(evt) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NewPerksCategoriesGameController:OnPerksScreenOutroFinished(proxy) return end
+function NewPerksCategoriesGameController:OnPerksScreenOutroFinished(proxy) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnPerksScreenSpawned(widget, userData) return end
+function NewPerksCategoriesGameController:OnPerksScreenSpawned(widget, userData) end
 
----@protected
 ---@param evt PlayNewPerksSoundEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnPlayNewPerksSoundEvent(evt) return end
+function NewPerksCategoriesGameController:OnPlayNewPerksSoundEvent(evt) end
 
----@protected
 ---@param evt PlayRelicIntroAnimationEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnPlayRelicIntroAnimationEvent(evt) return end
+function NewPerksCategoriesGameController:OnPlayRelicIntroAnimationEvent(evt) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function NewPerksCategoriesGameController:OnPlayerAttach(playerPuppet) return end
+function NewPerksCategoriesGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param evt PlayerDevUpdateDataEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnPlayerDevUpdateData(evt) return end
+function NewPerksCategoriesGameController:OnPlayerDevUpdateData(evt) end
 
----@protected
 ---@param evt RefreshPerkTooltipEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnRefreshPerkTooltipEvent(evt) return end
+function NewPerksCategoriesGameController:OnRefreshPerkTooltipEvent(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnRelativeInput(evt) return end
+function NewPerksCategoriesGameController:OnRelativeInput(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnResetAttributesButtonClick(evt) return end
+function NewPerksCategoriesGameController:OnResetAttributesButtonClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnResetAttributesButtonHoverOut(evt) return end
+function NewPerksCategoriesGameController:OnResetAttributesButtonHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnResetAttributesButtonHoverOver(evt) return end
+function NewPerksCategoriesGameController:OnResetAttributesButtonHoverOver(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function NewPerksCategoriesGameController:OnResetConfirmed(data) return end
+function NewPerksCategoriesGameController:OnResetConfirmed(data) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function NewPerksCategoriesGameController:OnResetFailed(data) return end
+function NewPerksCategoriesGameController:OnResetFailed(data) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NewPerksCategoriesGameController:OnScreenIntroFinished(proxy) return end
+function NewPerksCategoriesGameController:OnScreenIntroFinished(proxy) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function NewPerksCategoriesGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function NewPerksCategoriesGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnSetScreenDisplayContext(userData) return end
+function NewPerksCategoriesGameController:OnSetScreenDisplayContext(userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnSetUserData(userData) return end
+function NewPerksCategoriesGameController:OnSetUserData(userData) end
 
----@protected
 ---@param evt SkillHoverOut
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillHoverOut(evt) return end
+function NewPerksCategoriesGameController:OnSkillHoverOut(evt) end
 
----@protected
 ---@param evt SkillHoverOver
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillHoverOver(evt) return end
+function NewPerksCategoriesGameController:OnSkillHoverOver(evt) end
 
----@protected
 ---@param evt SkillRewardHoverOut
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillRewardHoverOut(evt) return end
+function NewPerksCategoriesGameController:OnSkillRewardHoverOut(evt) end
 
----@protected
 ---@param evt SkillRewardHoverOver
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillRewardHoverOver(evt) return end
+function NewPerksCategoriesGameController:OnSkillRewardHoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillScreenButtonClick(evt) return end
+function NewPerksCategoriesGameController:OnSkillScreenButtonClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillScreenButtonHoverOut(evt) return end
+function NewPerksCategoriesGameController:OnSkillScreenButtonHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillScreenButtonHoverOver(evt) return end
+function NewPerksCategoriesGameController:OnSkillScreenButtonHoverOver(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnSkillsScreenSpawned(widget, userData) return end
+function NewPerksCategoriesGameController:OnSkillsScreenSpawned(widget, userData) end
 
----@protected
 ---@param evt NewPerksTabArrowClickedEvent
 ---@return Bool
-function NewPerksCategoriesGameController:OnTabMenuArrowClicked(evt) return end
+function NewPerksCategoriesGameController:OnTabMenuArrowClicked(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function NewPerksCategoriesGameController:OnTabsSpawned(widget, userData) return end
+function NewPerksCategoriesGameController:OnTabsSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function NewPerksCategoriesGameController:OnUninitialize() return end
+function NewPerksCategoriesGameController:OnUninitialize() end
 
----@protected
 ---@param evt UpdatePlayerDevelopmentData
 ---@return Bool
-function NewPerksCategoriesGameController:OnUpdatePlayerDevelopmentData(evt) return end
+function NewPerksCategoriesGameController:OnUpdatePlayerDevelopmentData(evt) end
 
----@private
 ---@param value Float
 ---@return Float
-function NewPerksCategoriesGameController:AdjustValueToScaleAndBlackBars(value) return end
+function NewPerksCategoriesGameController:AdjustValueToScaleAndBlackBars(value) end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:CloseActiveScreen() return end
+function NewPerksCategoriesGameController:CloseActiveScreen() end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:CloseVendor() return end
+function NewPerksCategoriesGameController:CloseVendor() end
 
----@protected
 ---@return nil
-function NewPerksCategoriesGameController:HandleEventQueue() return end
+function NewPerksCategoriesGameController:HandleEventQueue() end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:HideTooltip() return end
+function NewPerksCategoriesGameController:HideTooltip() end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:InitializePerkScreen() return end
+function NewPerksCategoriesGameController:InitializePerkScreen() end
 
----@private
 ---@return Bool
-function NewPerksCategoriesGameController:IsPerkScreenAnimPLaying() return end
+function NewPerksCategoriesGameController:IsPerkScreenAnimPLaying() end
 
----@private
 ---@param statType gamedataStatType
 ---@param direction NewPerkTabsArrowDirection
 ---@return nil
-function NewPerksCategoriesGameController:OpenPerksScreen(statType, direction) return end
+function NewPerksCategoriesGameController:OpenPerksScreen(statType, direction) end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:OpenSkillsScreen() return end
+function NewPerksCategoriesGameController:OpenSkillsScreen() end
 
----@protected
 ---@param value Bool
 ---@return nil
-function NewPerksCategoriesGameController:PlayHoverAnimation(value) return end
+function NewPerksCategoriesGameController:PlayHoverAnimation(value) end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:PlayRelicIntroAnim() return end
+function NewPerksCategoriesGameController:PlayRelicIntroAnim() end
 
----@private
 ---@return inkanimProxy
-function NewPerksCategoriesGameController:PlayScreenIntro() return end
+function NewPerksCategoriesGameController:PlayScreenIntro() end
 
----@private
 ---@return inkanimProxy
-function NewPerksCategoriesGameController:PlayScreenOutro() return end
+function NewPerksCategoriesGameController:PlayScreenOutro() end
 
 ---@param soundName CName|string
 ---@param stopIfPlaying Bool
 ---@return nil
-function NewPerksCategoriesGameController:PlaySoundByName(soundName, stopIfPlaying) return end
+function NewPerksCategoriesGameController:PlaySoundByName(soundName, stopIfPlaying) end
 
----@private
 ---@param attribute PerkMenuAttribute
 ---@return nil
-function NewPerksCategoriesGameController:ReevaluateAttributeBuyButtonHintHoverOver(attribute) return end
+function NewPerksCategoriesGameController:ReevaluateAttributeBuyButtonHintHoverOver(attribute) end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:RefreshAttributeTooltip() return end
+function NewPerksCategoriesGameController:RefreshAttributeTooltip() end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:ResolveResetAttributesButtonVisibility() return end
+function NewPerksCategoriesGameController:ResolveResetAttributesButtonVisibility() end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:SetAttributeBuyButtonHintHoverOut() return end
+function NewPerksCategoriesGameController:SetAttributeBuyButtonHintHoverOut() end
 
----@private
 ---@param attribute PerkMenuAttribute
 ---@return nil
-function NewPerksCategoriesGameController:SetAttributeBuyButtonHintHoverOver(attribute) return end
+function NewPerksCategoriesGameController:SetAttributeBuyButtonHintHoverOver(attribute) end
 
----@private
 ---@param data PerkHoverEventTooltipData
 ---@return nil
-function NewPerksCategoriesGameController:ShowTooltip(data) return end
+function NewPerksCategoriesGameController:ShowTooltip(data) end
 
----@private
 ---@param widget inkWidget
 ---@param data IDisplayData
 ---@param placement? gameuiETooltipPlacement
 ---@return nil
-function NewPerksCategoriesGameController:ShowTooltip(widget, data, placement) return end
+function NewPerksCategoriesGameController:ShowTooltip(widget, data, placement) end
 
----@private
 ---@param bgWidget inkWidgetReference
 ---@return nil
-function NewPerksCategoriesGameController:ShowTooltipBackground(bgWidget) return end
+function NewPerksCategoriesGameController:ShowTooltipBackground(bgWidget) end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:StopPerkScreenAnims() return end
+function NewPerksCategoriesGameController:StopPerkScreenAnims() end
 
 ---@param soundName CName|string
 ---@return nil
-function NewPerksCategoriesGameController:StopSoundByName(soundName) return end
+function NewPerksCategoriesGameController:StopSoundByName(soundName) end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:UpdateData() return end
+function NewPerksCategoriesGameController:UpdateData() end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:UpdateJohnnyEspionageAttribute() return end
+function NewPerksCategoriesGameController:UpdateJohnnyEspionageAttribute() end
 
----@private
 ---@param cursorPos Vector2
 ---@return nil
-function NewPerksCategoriesGameController:UpdatePerkScreenHighlights(cursorPos) return end
+function NewPerksCategoriesGameController:UpdatePerkScreenHighlights(cursorPos) end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:UpdateScreen() return end
+function NewPerksCategoriesGameController:UpdateScreen() end
 
----@private
 ---@return nil
-function NewPerksCategoriesGameController:UpdateScreensVisibility() return end
+function NewPerksCategoriesGameController:UpdateScreensVisibility() end

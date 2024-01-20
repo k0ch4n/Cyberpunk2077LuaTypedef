@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class HighLevelNPCStatePrereq: NPCStatePrereq
----@field public valueToListen gamedataNPCHighLevelState
+---@field valueToListen gamedataNPCHighLevelState
 HighLevelNPCStatePrereq = {}
 
 ---@param fields? HighLevelNPCStatePrereq
 ---@return HighLevelNPCStatePrereq
-function HighLevelNPCStatePrereq.new(fields) return end
+function HighLevelNPCStatePrereq.new(fields) end
 
----@protected
 ---@return Int32
-function HighLevelNPCStatePrereq:GetStateToCheck() return end
+function HighLevelNPCStatePrereq:GetStateToCheck() end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HighLevelNPCStatePrereq:Initialize(recordID) return end
+function HighLevelNPCStatePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function HighLevelNPCStatePrereq:IsFulfilled(context) return end
+function HighLevelNPCStatePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function HighLevelNPCStatePrereq:OnRegister(state, context) return end
+function HighLevelNPCStatePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function HighLevelNPCStatePrereq:OnUnregister(state, context) return end
+function HighLevelNPCStatePrereq:OnUnregister(state, context) end

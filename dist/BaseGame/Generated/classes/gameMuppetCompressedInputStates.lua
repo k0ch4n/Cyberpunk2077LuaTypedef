@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameMuppetCompressedInputStates
----@field public usesCompression Bool
----@field public compressedInputStates Uint8[]
----@field public firstFrameId Uint32
----@field public replicationTime netTime
+---@field usesCompression Bool
+---@field compressedInputStates Uint8[]
+---@field firstFrameId Uint32
+---@field replicationTime netTime
 gameMuppetCompressedInputStates = {}
 
 ---@param fields? gameMuppetCompressedInputStates
 ---@return gameMuppetCompressedInputStates
-function gameMuppetCompressedInputStates.new(fields) return end
+function gameMuppetCompressedInputStates.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PerkTierHighlight
----@field public position Float
----@field public height Float
+---@field position Float
+---@field height Float
 PerkTierHighlight = {}
 
 ---@param fields? PerkTierHighlight
 ---@return PerkTierHighlight
-function PerkTierHighlight.new(fields) return end
+function PerkTierHighlight.new(fields) end

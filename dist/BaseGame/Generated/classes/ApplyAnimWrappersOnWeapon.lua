@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class ApplyAnimWrappersOnWeapon: AIbehaviortaskScript
----@field private wrapperName CName
----@field private refOwner gamedataAIActionTarget_Record
----@field private owner gameObject
----@field private ownerPosition Vector4
----@field private animationController entAnimationControllerComponent
+---@field wrapperName CName
+---@field refOwner gamedataAIActionTarget_Record
+---@field owner gameObject
+---@field ownerPosition Vector4
+---@field animationController entAnimationControllerComponent
 ApplyAnimWrappersOnWeapon = {}
 
 ---@param fields? ApplyAnimWrappersOnWeapon
 ---@return ApplyAnimWrappersOnWeapon
-function ApplyAnimWrappersOnWeapon.new(fields) return end
+function ApplyAnimWrappersOnWeapon.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ApplyAnimWrappersOnWeapon:Activate(context) return end
+function ApplyAnimWrappersOnWeapon:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ApplyAnimWrappersOnWeapon:Deactivate(context) return end
+function ApplyAnimWrappersOnWeapon:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ApplyAnimWrappersOnWeapon:Update(context) return end
+function ApplyAnimWrappersOnWeapon:Update(context) end

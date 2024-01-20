@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAppearanceToFoleyLoopMetadata
----@field public appearances CName[]
----@field public loop audioFoleyLoopMetadata
+---@field appearances CName[]
+---@field loop audioFoleyLoopMetadata
 audioAppearanceToFoleyLoopMetadata = {}
 
 ---@param fields? audioAppearanceToFoleyLoopMetadata
 ---@return audioAppearanceToFoleyLoopMetadata
-function audioAppearanceToFoleyLoopMetadata.new(fields) return end
+function audioAppearanceToFoleyLoopMetadata.new(fields) end

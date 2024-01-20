@@ -1,52 +1,48 @@
 ---@meta
 
 ---@class GameplaySkillCondition: GameplayConditionBase
----@field protected skillToCheck TweakDBID
----@field private difficulty EGameplayChallengeLevel
----@field private skillBonus TweakDBID
----@field private requiredLevel Int32
+---@field skillToCheck TweakDBID
+---@field difficulty EGameplayChallengeLevel
+---@field skillBonus TweakDBID
+---@field requiredLevel Int32
 GameplaySkillCondition = {}
 
 ---@param fields? GameplaySkillCondition
 ---@return GameplaySkillCondition
-function GameplaySkillCondition.new(fields) return end
+function GameplaySkillCondition.new(fields) end
 
 ---@param requester gameObject
 ---@return Bool
-function GameplaySkillCondition:Evaluate(requester) return end
+function GameplaySkillCondition:Evaluate(requester) end
 
----@private
 ---@return String
-function GameplaySkillCondition:GetConditionDescription() return end
+function GameplaySkillCondition:GetConditionDescription() end
 
 ---@param requester gameObject
 ---@return Condition
-function GameplaySkillCondition:GetDescription(requester) return end
+function GameplaySkillCondition:GetDescription(requester) end
 
 ---@param requester gameObject
 ---@return Int32
-function GameplaySkillCondition:GetPlayerSkill(requester) return end
+function GameplaySkillCondition:GetPlayerSkill(requester) end
 
 ---@return Int32
-function GameplaySkillCondition:GetRequiredLevel() return end
+function GameplaySkillCondition:GetRequiredLevel() end
 
----@private
 ---@return gamedataStatType
-function GameplaySkillCondition:GetStatBonusType() return end
+function GameplaySkillCondition:GetStatBonusType() end
 
----@private
 ---@return gamedataStatType
-function GameplaySkillCondition:GetStatType() return end
+function GameplaySkillCondition:GetStatType() end
 
----@private
 ---@return Bool
-function GameplaySkillCondition:IsRequiredLevelSetup() return end
+function GameplaySkillCondition:IsRequiredLevelSetup() end
 
 ---@param sel_skill EDeviceChallengeSkill
 ---@param sel_difficulty EGameplayChallengeLevel
 ---@return nil
-function GameplaySkillCondition:SetProperties(sel_skill, sel_difficulty) return end
+function GameplaySkillCondition:SetProperties(sel_skill, sel_difficulty) end
 
 ---@param requiredLevel Int32
 ---@return nil
-function GameplaySkillCondition:TrySetRequiredLevel(requiredLevel) return end
+function GameplaySkillCondition:TrySetRequiredLevel(requiredLevel) end

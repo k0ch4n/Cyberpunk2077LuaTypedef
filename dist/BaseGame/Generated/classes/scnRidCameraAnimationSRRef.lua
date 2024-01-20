@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnRidCameraAnimationSRRef
----@field public resourceId scnRidResourceId
----@field public animationSN scnRidSerialNumber
+---@field resourceId scnRidResourceId
+---@field animationSN scnRidSerialNumber
 scnRidCameraAnimationSRRef = {}
 
 ---@param fields? scnRidCameraAnimationSRRef
 ---@return scnRidCameraAnimationSRRef
-function scnRidCameraAnimationSRRef.new(fields) return end
+function scnRidCameraAnimationSRRef.new(fields) end

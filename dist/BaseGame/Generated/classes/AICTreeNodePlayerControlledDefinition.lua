@@ -5,4 +5,4 @@ AICTreeNodePlayerControlledDefinition = {}
 
 ---@param fields? AICTreeNodePlayerControlledDefinition
 ---@return AICTreeNodePlayerControlledDefinition
-function AICTreeNodePlayerControlledDefinition.new(fields) return end
+function AICTreeNodePlayerControlledDefinition.new(fields) end

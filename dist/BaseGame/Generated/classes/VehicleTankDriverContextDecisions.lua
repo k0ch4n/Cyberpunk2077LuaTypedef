@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class VehicleTankDriverContextDecisions: InputContextTransitionDecisions
----@field private callbackID redCallbackObject
+---@field callbackID redCallbackObject
 VehicleTankDriverContextDecisions = {}
 
 ---@param fields? VehicleTankDriverContextDecisions
 ---@return VehicleTankDriverContextDecisions
-function VehicleTankDriverContextDecisions.new(fields) return end
+function VehicleTankDriverContextDecisions.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VehicleTankDriverContextDecisions:OnVehicleStateChanged(value) return end
+function VehicleTankDriverContextDecisions:OnVehicleStateChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleTankDriverContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VehicleTankDriverContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTankDriverContextDecisions:OnAttach(stateContext, scriptInterface) return end
+function VehicleTankDriverContextDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleTankDriverContextDecisions:OnDetach(stateContext, scriptInterface) return end
+function VehicleTankDriverContextDecisions:OnDetach(stateContext, scriptInterface) end

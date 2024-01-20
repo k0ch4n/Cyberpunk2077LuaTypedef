@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameCrowdTemplateEntryPhase
----@field public phaseName CName
----@field public timePeriods gameCrowdPhaseTimePeriod[]
----@field public density Float
----@field public charactersData gameCrowdTemplateCharacterData[]
----@field public legacy Bool
----@field public legacyDensityInTimePeriods Bool
----@field public legacyCharactersData Bool
+---@field phaseName CName
+---@field timePeriods gameCrowdPhaseTimePeriod[]
+---@field density Float
+---@field charactersData gameCrowdTemplateCharacterData[]
+---@field legacy Bool
+---@field legacyDensityInTimePeriods Bool
+---@field legacyCharactersData Bool
 gameCrowdTemplateEntryPhase = {}
 
 ---@param fields? gameCrowdTemplateEntryPhase
 ---@return gameCrowdTemplateEntryPhase
-function gameCrowdTemplateEntryPhase.new(fields) return end
+function gameCrowdTemplateEntryPhase.new(fields) end

@@ -5,4 +5,4 @@ inkVariantCallback = {}
 
 ---@param fields? inkVariantCallback
 ---@return inkVariantCallback
-function inkVariantCallback.new(fields) return end
+function inkVariantCallback.new(fields) end

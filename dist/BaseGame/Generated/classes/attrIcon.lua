@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class attrIcon: attrAttribute
----@field public onName String
+---@field onName String
 attrIcon = {}
 
 ---@param fields? attrIcon
 ---@return attrIcon
-function attrIcon.new(fields) return end
+function attrIcon.new(fields) end

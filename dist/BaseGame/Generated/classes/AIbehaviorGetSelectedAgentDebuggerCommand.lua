@@ -5,4 +5,4 @@ AIbehaviorGetSelectedAgentDebuggerCommand = {}
 
 ---@param fields? AIbehaviorGetSelectedAgentDebuggerCommand
 ---@return AIbehaviorGetSelectedAgentDebuggerCommand
-function AIbehaviorGetSelectedAgentDebuggerCommand.new(fields) return end
+function AIbehaviorGetSelectedAgentDebuggerCommand.new(fields) end

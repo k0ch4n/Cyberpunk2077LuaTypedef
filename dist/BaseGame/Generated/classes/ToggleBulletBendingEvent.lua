@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ToggleBulletBendingEvent: redEvent
----@field public enabled Bool
+---@field enabled Bool
 ToggleBulletBendingEvent = {}
 
 ---@param fields? ToggleBulletBendingEvent
 ---@return ToggleBulletBendingEvent
-function ToggleBulletBendingEvent.new(fields) return end
+function ToggleBulletBendingEvent.new(fields) end

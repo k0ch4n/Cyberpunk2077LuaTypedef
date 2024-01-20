@@ -5,4 +5,4 @@ gameuiarcadeBoundingCircle = {}
 
 ---@param fields? gameuiarcadeBoundingCircle
 ---@return gameuiarcadeBoundingCircle
-function gameuiarcadeBoundingCircle.new(fields) return end
+function gameuiarcadeBoundingCircle.new(fields) end

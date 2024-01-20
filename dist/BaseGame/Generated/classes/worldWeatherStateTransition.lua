@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldWeatherStateTransition: ISerializable
----@field public probability curveData
----@field public transitionDuration curveData
----@field public sourceWeatherState worldWeatherState
----@field public targetWeatherState worldWeatherState
+---@field probability curveData
+---@field transitionDuration curveData
+---@field sourceWeatherState worldWeatherState
+---@field targetWeatherState worldWeatherState
 worldWeatherStateTransition = {}
 
 ---@param fields? worldWeatherStateTransition
 ---@return worldWeatherStateTransition
-function worldWeatherStateTransition.new(fields) return end
+function worldWeatherStateTransition.new(fields) end

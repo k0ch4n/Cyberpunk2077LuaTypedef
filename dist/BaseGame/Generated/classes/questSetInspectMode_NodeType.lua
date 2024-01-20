@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questSetInspectMode_NodeType: questIInteractiveObjectManagerNodeType
----@field public objectID String
----@field public startingOffset Float
----@field public zoomOffset Float
----@field public timeInterval Float
+---@field objectID String
+---@field startingOffset Float
+---@field zoomOffset Float
+---@field timeInterval Float
 questSetInspectMode_NodeType = {}
 
 ---@param fields? questSetInspectMode_NodeType
 ---@return questSetInspectMode_NodeType
-function questSetInspectMode_NodeType.new(fields) return end
+function questSetInspectMode_NodeType.new(fields) end

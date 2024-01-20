@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkanimTransparencyInterpolator: inkanimInterpolator
----@field public startValue Float
----@field public endValue Float
+---@field startValue Float
+---@field endValue Float
 inkanimTransparencyInterpolator = {}
 
 ---@param fields? inkanimTransparencyInterpolator
 ---@return inkanimTransparencyInterpolator
-function inkanimTransparencyInterpolator.new(fields) return end
+function inkanimTransparencyInterpolator.new(fields) end
 
 ---@return Float
-function inkanimTransparencyInterpolator:GetEndTransparency() return end
+function inkanimTransparencyInterpolator:GetEndTransparency() end
 
 ---@return Float
-function inkanimTransparencyInterpolator:GetStartTransparency() return end
+function inkanimTransparencyInterpolator:GetStartTransparency() end
 
 ---@param endTransparency Float
 ---@return nil
-function inkanimTransparencyInterpolator:SetEndTransparency(endTransparency) return end
+function inkanimTransparencyInterpolator:SetEndTransparency(endTransparency) end
 
 ---@param startTransparency Float
 ---@return nil
-function inkanimTransparencyInterpolator:SetStartTransparency(startTransparency) return end
+function inkanimTransparencyInterpolator:SetStartTransparency(startTransparency) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SetApartmentScreenMessageEvent: redEvent
----@field public messageRecordID TweakDBID
----@field public targetRentStatus ERentStatus
+---@field messageRecordID TweakDBID
+---@field targetRentStatus ERentStatus
 SetApartmentScreenMessageEvent = {}
 
 ---@param fields? SetApartmentScreenMessageEvent
 ---@return SetApartmentScreenMessageEvent
-function SetApartmentScreenMessageEvent.new(fields) return end
+function SetApartmentScreenMessageEvent.new(fields) end
 
 ---@return String
-function SetApartmentScreenMessageEvent:GetFriendlyDescription() return end
+function SetApartmentScreenMessageEvent:GetFriendlyDescription() end

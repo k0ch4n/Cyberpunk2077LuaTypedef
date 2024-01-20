@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetBloodPuddleSettingsEvent: redEvent
----@field public shouldSpawnBloodPuddle Bool
+---@field shouldSpawnBloodPuddle Bool
 SetBloodPuddleSettingsEvent = {}
 
 ---@param fields? SetBloodPuddleSettingsEvent
 ---@return SetBloodPuddleSettingsEvent
-function SetBloodPuddleSettingsEvent.new(fields) return end
+function SetBloodPuddleSettingsEvent.new(fields) end

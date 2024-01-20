@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GenericMessageNotificationCloseData: inkGameNotificationData
----@field public identifier Int32
----@field public result GenericMessageNotificationResult
+---@field identifier Int32
+---@field result GenericMessageNotificationResult
 GenericMessageNotificationCloseData = {}
 
 ---@param fields? GenericMessageNotificationCloseData
 ---@return GenericMessageNotificationCloseData
-function GenericMessageNotificationCloseData.new(fields) return end
+function GenericMessageNotificationCloseData.new(fields) end

@@ -1,65 +1,58 @@
 ---@meta
 
 ---@class ServerInfoController: inkListItemController
----@field private settingsListCtrl inkListController
----@field public number inkTextWidget
----@field public numberPath CName
----@field private kind inkTextWidget
----@field public kindPath CName
----@field private hostname inkTextWidget
----@field public hostnamePath CName
----@field private address inkTextWidget
----@field public addressPath CName
----@field private worldDescription inkTextWidget
----@field public worldDescriptionPath CName
----@field private background inkImageWidget
----@field private c_selectionColor Color
----@field private c_initialColor HDRColor
----@field private c_markColor HDRColor
----@field private marked Bool
+---@field settingsListCtrl inkListController
+---@field number inkTextWidget
+---@field numberPath CName
+---@field kind inkTextWidget
+---@field kindPath CName
+---@field hostname inkTextWidget
+---@field hostnamePath CName
+---@field address inkTextWidget
+---@field addressPath CName
+---@field worldDescription inkTextWidget
+---@field worldDescriptionPath CName
+---@field background inkImageWidget
+---@field c_selectionColor Color
+---@field c_initialColor HDRColor
+---@field c_markColor HDRColor
+---@field marked Bool
 ServerInfoController = {}
 
 ---@param fields? ServerInfoController
 ---@return ServerInfoController
-function ServerInfoController.new(fields) return end
+function ServerInfoController.new(fields) end
 
----@protected
 ---@param data IScriptable
 ---@return Bool
-function ServerInfoController:OnDataChanged(data) return end
+function ServerInfoController:OnDataChanged(data) end
 
----@protected
 ---@param parent inkListItemController
 ---@return Bool
-function ServerInfoController:OnDeselected(parent) return end
+function ServerInfoController:OnDeselected(parent) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ServerInfoController:OnHoverOut(e) return end
+function ServerInfoController:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ServerInfoController:OnHoverOver(e) return end
+function ServerInfoController:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function ServerInfoController:OnInitialize() return end
+function ServerInfoController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ServerInfoController:OnRelease(e) return end
+function ServerInfoController:OnRelease(e) end
 
----@protected
 ---@param parent inkListItemController
 ---@return Bool
-function ServerInfoController:OnSelected(parent) return end
+function ServerInfoController:OnSelected(parent) end
 
 ---@return Bool
-function ServerInfoController:IsMarked() return end
+function ServerInfoController:IsMarked() end
 
 ---@param value Bool
 ---@return nil
-function ServerInfoController:SetMarked(value) return end
+function ServerInfoController:SetMarked(value) end

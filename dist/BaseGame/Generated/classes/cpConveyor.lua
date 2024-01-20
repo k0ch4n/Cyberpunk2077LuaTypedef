@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class cpConveyor: gameObject
----@field public lines cpConveyorLine[]
----@field public movementCurve curveData
----@field public entityDistance Float
----@field public entitySpawnOffset Float
----@field public audioParameterLineActive CName
----@field public audioParameterLineCycle CName
----@field public audioParameterLineSpeed CName
+---@field lines cpConveyorLine[]
+---@field movementCurve curveData
+---@field entityDistance Float
+---@field entitySpawnOffset Float
+---@field audioParameterLineActive CName
+---@field audioParameterLineCycle CName
+---@field audioParameterLineSpeed CName
 cpConveyor = {}
 
 ---@param fields? cpConveyor
 ---@return cpConveyor
-function cpConveyor.new(fields) return end
+function cpConveyor.new(fields) end

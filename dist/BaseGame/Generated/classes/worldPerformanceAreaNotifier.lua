@@ -5,4 +5,4 @@ worldPerformanceAreaNotifier = {}
 
 ---@param fields? worldPerformanceAreaNotifier
 ---@return worldPerformanceAreaNotifier
-function worldPerformanceAreaNotifier.new(fields) return end
+function worldPerformanceAreaNotifier.new(fields) end

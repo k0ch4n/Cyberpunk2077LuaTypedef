@@ -5,4 +5,4 @@ questPhaseFreezingAreaNotifierInstance = {}
 
 ---@param fields? questPhaseFreezingAreaNotifierInstance
 ---@return questPhaseFreezingAreaNotifierInstance
-function questPhaseFreezingAreaNotifierInstance.new(fields) return end
+function questPhaseFreezingAreaNotifierInstance.new(fields) end

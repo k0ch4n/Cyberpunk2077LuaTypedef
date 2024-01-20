@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class PainReactionTask: AIHitReactionTask
----@field protected weaponOverride AnimFeature_WeaponOverride
+---@field weaponOverride AnimFeature_WeaponOverride
 PainReactionTask = {}
 
 ---@param fields? PainReactionTask
 ---@return PainReactionTask
-function PainReactionTask.new(fields) return end
+function PainReactionTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PainReactionTask:Activate(context) return end
+function PainReactionTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PainReactionTask:Deactivate(context) return end
+function PainReactionTask:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function PainReactionTask:GetDesiredHitReactionDuration(context) return end
+function PainReactionTask:GetDesiredHitReactionDuration(context) end
 
----@private
 ---@return animHitReactionType
-function PainReactionTask:GetHitReactionType() return end
+function PainReactionTask:GetHitReactionType() end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gametargetingSystemHitInfo
----@field public queryMask Uint64
----@field public entityId entEntityID
----@field public entity entEntity
----@field public component entIComponent
----@field public aimStartPosition Vector4
----@field public closestHitPosition Vector4
----@field public isTransparent Bool
+---@field queryMask Uint64
+---@field entityId entEntityID
+---@field entity entEntity
+---@field component entIComponent
+---@field aimStartPosition Vector4
+---@field closestHitPosition Vector4
+---@field isTransparent Bool
 gametargetingSystemHitInfo = {}
 
 ---@param fields? gametargetingSystemHitInfo
 ---@return gametargetingSystemHitInfo
-function gametargetingSystemHitInfo.new(fields) return end
+function gametargetingSystemHitInfo.new(fields) end
 
 ---@param self gametargetingSystemHitInfo
 ---@return Bool
-function gametargetingSystemHitInfo.IsValid(self) return end
+function gametargetingSystemHitInfo.IsValid(self) end

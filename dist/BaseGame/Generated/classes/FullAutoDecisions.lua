@@ -1,55 +1,47 @@
 ---@meta
 
 ---@class FullAutoDecisions: WeaponTransition
----@field public callBackID redCallbackObject
+---@field callBackID redCallbackObject
 FullAutoDecisions = {}
 
 ---@param fields? FullAutoDecisions
 ---@return FullAutoDecisions
-function FullAutoDecisions.new(fields) return end
+function FullAutoDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function FullAutoDecisions:OnAction(action, consumer) return end
+function FullAutoDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FullAutoDecisions:EnterCondition(stateContext, scriptInterface) return end
+function FullAutoDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FullAutoDecisions:OnAttach(stateContext, scriptInterface) return end
+function FullAutoDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FullAutoDecisions:OnDetach(stateContext, scriptInterface) return end
+function FullAutoDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function FullAutoDecisions:OnQuestForcedShoot(value) return end
+function FullAutoDecisions:OnQuestForcedShoot(value) end
 
----@protected
 ---@param value Float
 ---@return nil
-function FullAutoDecisions:OnRangeAttackInput(value) return end
+function FullAutoDecisions:OnRangeAttackInput(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FullAutoDecisions:ToReady(stateContext, scriptInterface) return end
+function FullAutoDecisions:ToReady(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FullAutoDecisions:ToShoot(stateContext, scriptInterface) return end
+function FullAutoDecisions:ToShoot(stateContext, scriptInterface) end

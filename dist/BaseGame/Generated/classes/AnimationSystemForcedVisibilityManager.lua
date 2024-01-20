@@ -1,70 +1,60 @@
 ---@meta
 
 ---@class AnimationSystemForcedVisibilityManager: gameScriptableSystem
----@field private entities AnimationSystemForcedVisibilityEntityData[]
+---@field entities AnimationSystemForcedVisibilityEntityData[]
 AnimationSystemForcedVisibilityManager = {}
 
 ---@param fields? AnimationSystemForcedVisibilityManager
 ---@return AnimationSystemForcedVisibilityManager
-function AnimationSystemForcedVisibilityManager.new(fields) return end
+function AnimationSystemForcedVisibilityManager.new(fields) end
 
----@private
 ---@param data ForcedVisibilityInAnimSystemData
 ---@return nil
-function AnimationSystemForcedVisibilityManager:CancelDelayedRequestForVisilityData(data) return end
+function AnimationSystemForcedVisibilityManager:CancelDelayedRequestForVisilityData(data) end
 
----@private
 ---@param id entEntityID
 ---@return nil
-function AnimationSystemForcedVisibilityManager:ClearEntity(id) return end
+function AnimationSystemForcedVisibilityManager:ClearEntity(id) end
 
----@private
 ---@param id entEntityID
 ---@return AnimationSystemForcedVisibilityEntityData
-function AnimationSystemForcedVisibilityManager:GetEntityData(id) return end
+function AnimationSystemForcedVisibilityManager:GetEntityData(id) end
 
 ---@param id entEntityID
 ---@return Bool
-function AnimationSystemForcedVisibilityManager:HasVisibilityForced(id) return end
+function AnimationSystemForcedVisibilityManager:HasVisibilityForced(id) end
 
----@private
 ---@param id entEntityID
 ---@return Bool
-function AnimationSystemForcedVisibilityManager:IsEntityRegistered(id) return end
+function AnimationSystemForcedVisibilityManager:IsEntityRegistered(id) end
 
----@private
 ---@param request ClearVisibilityInAnimSystemRequest
 ---@return nil
-function AnimationSystemForcedVisibilityManager:OnClearVisibilityInAnimSystemRequest(request) return end
+function AnimationSystemForcedVisibilityManager:OnClearVisibilityInAnimSystemRequest(request) end
 
----@protected
 ---@param request DelayedVisibilityInAnimSystemRequest
 ---@return nil
-function AnimationSystemForcedVisibilityManager:OnHandleDelayedVisibilityInAnimSystemRequest(request) return end
+function AnimationSystemForcedVisibilityManager:OnHandleDelayedVisibilityInAnimSystemRequest(request) end
 
----@private
 ---@param request ToggleVisibilityInAnimSystemRequest
 ---@return nil
-function AnimationSystemForcedVisibilityManager:OnToggleVisibilityInAnimSystemRequest(request) return end
+function AnimationSystemForcedVisibilityManager:OnToggleVisibilityInAnimSystemRequest(request) end
 
----@protected
 ---@param entityData AnimationSystemForcedVisibilityEntityData
 ---@return nil
-function AnimationSystemForcedVisibilityManager:ResovleVisibilityInAnimSystem(entityData) return end
+function AnimationSystemForcedVisibilityManager:ResovleVisibilityInAnimSystem(entityData) end
 
----@private
 ---@param entityID entEntityID
 ---@param isVisible Bool
 ---@param transitionTime Float
 ---@param data ForcedVisibilityInAnimSystemData
 ---@return nil
-function AnimationSystemForcedVisibilityManager:SendDelayedRequestForVisilityData(entityID, isVisible, transitionTime, data) return end
+function AnimationSystemForcedVisibilityManager:SendDelayedRequestForVisilityData(entityID, isVisible, transitionTime, data) end
 
----@protected
 ---@param entityID entEntityID
 ---@param sourceName CName|string
 ---@param isVisible Bool
 ---@param transitionTime? Float
 ---@param forcedVisibleOnlyInFrustum? Bool
 ---@return nil
-function AnimationSystemForcedVisibilityManager:ToggleForcedVisibilityInAnimSystem(entityID, sourceName, isVisible, transitionTime, forcedVisibleOnlyInFrustum) return end
+function AnimationSystemForcedVisibilityManager:ToggleForcedVisibilityInAnimSystem(entityID, sourceName, isVisible, transitionTime, forcedVisibleOnlyInFrustum) end

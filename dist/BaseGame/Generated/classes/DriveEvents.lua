@@ -1,31 +1,30 @@
 ---@meta
 
 ---@class DriveEvents: VehicleEventsTransition
----@field private inCombatBlockingForbiddenZone Bool
+---@field inCombatBlockingForbiddenZone Bool
 DriveEvents = {}
 
 ---@param fields? DriveEvents
 ---@return DriveEvents
-function DriveEvents.new(fields) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function DriveEvents:OnEnter(stateContext, scriptInterface) return end
+function DriveEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriveEvents:OnExit(stateContext, scriptInterface) return end
+function DriveEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriveEvents:OnForcedExit(stateContext, scriptInterface) return end
+function DriveEvents:OnExit(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function DriveEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriveEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function DriveEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

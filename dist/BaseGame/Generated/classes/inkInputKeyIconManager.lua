@@ -5,4 +5,4 @@ inkInputKeyIconManager = {}
 
 ---@param fields? inkInputKeyIconManager
 ---@return inkInputKeyIconManager
-function inkInputKeyIconManager.new(fields) return end
+function inkInputKeyIconManager.new(fields) end

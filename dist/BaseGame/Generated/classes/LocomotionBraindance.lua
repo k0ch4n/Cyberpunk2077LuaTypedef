@@ -5,16 +5,14 @@ LocomotionBraindance = {}
 
 ---@param fields? LocomotionBraindance
 ---@return LocomotionBraindance
-function LocomotionBraindance.new(fields) return end
+function LocomotionBraindance.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionBraindance:CanEnterFastFlying(stateContext, scriptInterface) return end
+function LocomotionBraindance:CanEnterFastFlying(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionBraindance:OnDetach(stateContext, scriptInterface) return end
+function LocomotionBraindance:OnDetach(stateContext, scriptInterface) end

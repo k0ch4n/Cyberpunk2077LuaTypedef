@@ -5,16 +5,14 @@ MeleeBlockDecisions = {}
 
 ---@param fields? MeleeBlockDecisions
 ---@return MeleeBlockDecisions
-function MeleeBlockDecisions.new(fields) return end
+function MeleeBlockDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeBlockDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeBlockDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeBlockDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeBlockDecisions:ExitCondition(stateContext, scriptInterface) end

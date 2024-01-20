@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animLookAtPartInfo
----@field public partName CName
----@field public defaultPositionBoneName CName
+---@field partName CName
+---@field defaultPositionBoneName CName
 animLookAtPartInfo = {}
 
 ---@param fields? animLookAtPartInfo
 ---@return animLookAtPartInfo
-function animLookAtPartInfo.new(fields) return end
+function animLookAtPartInfo.new(fields) end

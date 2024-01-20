@@ -1,44 +1,38 @@
 ---@meta
 
 ---@class Katana: gameweaponObject
----@field private bentBulletTemplateName CName
----@field private bulletBendingReferenceSlotName CName
----@field private colliderComponent entIComponent
----@field private slotComponent entSlotComponent
+---@field bentBulletTemplateName CName
+---@field bulletBendingReferenceSlotName CName
+---@field colliderComponent entIComponent
+---@field slotComponent entSlotComponent
 Katana = {}
 
 ---@param fields? Katana
 ---@return Katana
-function Katana.new(fields) return end
+function Katana.new(fields) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function Katana:OnHit(evt) return end
+function Katana:OnHit(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Katana:OnRequestComponents(ri) return end
+function Katana:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Katana:OnTakeControl(ri) return end
+function Katana:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleBulletBendingEvent
 ---@return Bool
-function Katana:OnToggleCollider(evt) return end
+function Katana:OnToggleCollider(evt) end
 
----@private
 ---@param hitPosition Vector4
 ---@return Vector4
-function Katana:CalculateBendingVector(hitPosition) return end
+function Katana:CalculateBendingVector(hitPosition) end
 
 ---@return entSlotComponent
-function Katana:GetSlotComponent() return end
+function Katana:GetSlotComponent() end
 
----@protected
 ---@return nil
-function Katana:QueueEventToPlayerEntity() return end
+function Katana:QueueEventToPlayerEntity() end

@@ -5,10 +5,10 @@ ActionOverride = {}
 
 ---@param fields? ActionOverride
 ---@return ActionOverride
-function ActionOverride.new(fields) return end
+function ActionOverride.new(fields) end
 
 ---@return String
-function ActionOverride:GetTweakDBChoiceRecord() return end
+function ActionOverride:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function ActionOverride:SetProperties() return end
+function ActionOverride:SetProperties() end

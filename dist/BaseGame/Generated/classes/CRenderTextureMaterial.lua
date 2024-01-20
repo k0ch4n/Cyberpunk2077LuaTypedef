@@ -5,4 +5,4 @@ CRenderTextureMaterial = {}
 
 ---@param fields? CRenderTextureMaterial
 ---@return CRenderTextureMaterial
-function CRenderTextureMaterial.new(fields) return end
+function CRenderTextureMaterial.new(fields) end

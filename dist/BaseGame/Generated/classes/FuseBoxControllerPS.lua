@@ -1,133 +1,111 @@
 ---@meta
 
 ---@class FuseBoxControllerPS: MasterControllerPS
----@field private fuseBoxSkillChecks EngineeringContainer
----@field private isGenerator Bool
----@field private isOverloaded Bool
+---@field fuseBoxSkillChecks EngineeringContainer
+---@field isGenerator Bool
+---@field isOverloaded Bool
 FuseBoxControllerPS = {}
 
 ---@param fields? FuseBoxControllerPS
 ---@return FuseBoxControllerPS
-function FuseBoxControllerPS.new(fields) return end
+function FuseBoxControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function FuseBoxControllerPS:OnInstantiated() return end
+function FuseBoxControllerPS:OnInstantiated() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return ActionEngineering
-function FuseBoxControllerPS:ActionEngineering(context) return end
+function FuseBoxControllerPS:ActionEngineering(context) end
 
----@protected
 ---@return OverloadDevice
-function FuseBoxControllerPS:ActionOverloadDevice() return end
+function FuseBoxControllerPS:ActionOverloadDevice() end
 
----@protected
 ---@return SendSpiderbotToOverloadDevice
-function FuseBoxControllerPS:ActionSendSpiderbotToOverloadDevice() return end
+function FuseBoxControllerPS:ActionSendSpiderbotToOverloadDevice() end
 
----@protected
 ---@return SendSpiderbotToTogglePower
-function FuseBoxControllerPS:ActionSendSpiderbotToTogglePower() return end
+function FuseBoxControllerPS:ActionSendSpiderbotToTogglePower() end
 
 ---@return ToggleON
-function FuseBoxControllerPS:ActionToggleON() return end
+function FuseBoxControllerPS:ActionToggleON() end
 
----@protected
 ---@return Bool
-function FuseBoxControllerPS:CanCreateAnyQuickHackActions() return end
+function FuseBoxControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return Bool
-function FuseBoxControllerPS:CanCreateAnySpiderbotActions() return end
+function FuseBoxControllerPS:CanCreateAnySpiderbotActions() end
 
----@protected
 ---@return nil
-function FuseBoxControllerPS:GameAttached() return end
+function FuseBoxControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function FuseBoxControllerPS:GetActions(context) return end
+function FuseBoxControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function FuseBoxControllerPS:GetBackgroundTextureTweakDBID() return end
+function FuseBoxControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return gamedeviceClearance
-function FuseBoxControllerPS:GetClearance() return end
+function FuseBoxControllerPS:GetClearance() end
 
----@protected
 ---@return TweakDBID
-function FuseBoxControllerPS:GetDeviceIconTweakDBID() return end
+function FuseBoxControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return EDeviceStatus
-function FuseBoxControllerPS:GetExpectedSlaveState() return end
+function FuseBoxControllerPS:GetExpectedSlaveState() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function FuseBoxControllerPS:GetQuickHackActions(context) return end
+function FuseBoxControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function FuseBoxControllerPS:GetSkillCheckContainerForSetup() return end
+function FuseBoxControllerPS:GetSkillCheckContainerForSetup() end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function FuseBoxControllerPS:GetSpiderbotActions(actions, context) return end
+function FuseBoxControllerPS:GetSpiderbotActions(actions, context) end
 
 ---@return CName
-function FuseBoxControllerPS:GetWidgetTypeName() return end
+function FuseBoxControllerPS:GetWidgetTypeName() end
 
----@protected
 ---@return nil
-function FuseBoxControllerPS:Initialize() return end
+function FuseBoxControllerPS:Initialize() end
 
 ---@return Bool
-function FuseBoxControllerPS:IsGenerator() return end
+function FuseBoxControllerPS:IsGenerator() end
 
 ---@return Bool
-function FuseBoxControllerPS:IsOverloaded() return end
+function FuseBoxControllerPS:IsOverloaded() end
 
----@protected
 ---@param evt OverloadDevice
 ---@return EntityNotificationType
-function FuseBoxControllerPS:OnOverloadDevice(evt) return end
+function FuseBoxControllerPS:OnOverloadDevice(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function FuseBoxControllerPS:OnRefreshSlavesEvent(evt) return end
+function FuseBoxControllerPS:OnRefreshSlavesEvent(evt) end
 
----@protected
 ---@param evt SendSpiderbotToOverloadDevice
 ---@return EntityNotificationType
-function FuseBoxControllerPS:OnSendSpiderbotToOverloadDevice(evt) return end
+function FuseBoxControllerPS:OnSendSpiderbotToOverloadDevice(evt) end
 
----@protected
 ---@param evt SendSpiderbotToTogglePower
 ---@return EntityNotificationType
-function FuseBoxControllerPS:OnSendSpiderbotToTogglePower(evt) return end
+function FuseBoxControllerPS:OnSendSpiderbotToTogglePower(evt) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return EntityNotificationType
-function FuseBoxControllerPS:OnSetDeviceOFF(evt) return end
+function FuseBoxControllerPS:OnSetDeviceOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return EntityNotificationType
-function FuseBoxControllerPS:OnSetDeviceON(evt) return end
+function FuseBoxControllerPS:OnSetDeviceON(evt) end
 
 ---@param evt ToggleON
 ---@return EntityNotificationType
-function FuseBoxControllerPS:OnToggleON(evt) return end
+function FuseBoxControllerPS:OnToggleON(evt) end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@return nil
-function FuseBoxControllerPS:RefreshSlaves(devices) return end
+function FuseBoxControllerPS:RefreshSlaves(devices) end

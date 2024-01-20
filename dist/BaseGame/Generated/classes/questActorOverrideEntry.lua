@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questActorOverrideEntry
----@field public MetadataForOverride CName
----@field public ActorName CName
+---@field MetadataForOverride CName
+---@field ActorName CName
 questActorOverrideEntry = {}
 
 ---@param fields? questActorOverrideEntry
 ---@return questActorOverrideEntry
-function questActorOverrideEntry.new(fields) return end
+function questActorOverrideEntry.new(fields) end

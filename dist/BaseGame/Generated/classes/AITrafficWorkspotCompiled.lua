@@ -5,4 +5,4 @@ AITrafficWorkspotCompiled = {}
 
 ---@param fields? AITrafficWorkspotCompiled
 ---@return AITrafficWorkspotCompiled
-function AITrafficWorkspotCompiled.new(fields) return end
+function AITrafficWorkspotCompiled.new(fields) end

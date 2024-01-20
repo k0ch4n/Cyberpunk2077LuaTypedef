@@ -5,4 +5,4 @@ worldRuntimeSystemEntityTransactor = {}
 
 ---@param fields? worldRuntimeSystemEntityTransactor
 ---@return worldRuntimeSystemEntityTransactor
-function worldRuntimeSystemEntityTransactor.new(fields) return end
+function worldRuntimeSystemEntityTransactor.new(fields) end

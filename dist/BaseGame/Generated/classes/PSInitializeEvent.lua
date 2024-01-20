@@ -5,4 +5,4 @@ PSInitializeEvent = {}
 
 ---@param fields? PSInitializeEvent
 ---@return PSInitializeEvent
-function PSInitializeEvent.new(fields) return end
+function PSInitializeEvent.new(fields) end

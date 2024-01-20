@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class audioBreathingUnderwaterMetadata: audioAudioMetadata
----@field public inhaleSound CName
----@field public exhaleSound CName
----@field public emergenceSound CName
----@field public struggledEmergenceSound CName
----@field public divingSuitRTPC CName
----@field public BPM Float
----@field public lowOxygen Float
+---@field inhaleSound CName
+---@field exhaleSound CName
+---@field emergenceSound CName
+---@field struggledEmergenceSound CName
+---@field divingSuitRTPC CName
+---@field BPM Float
+---@field lowOxygen Float
 audioBreathingUnderwaterMetadata = {}
 
 ---@param fields? audioBreathingUnderwaterMetadata
 ---@return audioBreathingUnderwaterMetadata
-function audioBreathingUnderwaterMetadata.new(fields) return end
+function audioBreathingUnderwaterMetadata.new(fields) end

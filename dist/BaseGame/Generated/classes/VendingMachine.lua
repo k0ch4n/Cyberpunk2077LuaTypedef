@@ -1,236 +1,192 @@
 ---@meta
 
 ---@class VendingMachine: InteractiveDevice
----@field private vendorID VendorComponent
----@field protected advUiComponent entIComponent
----@field protected isShortGlitchActive Bool
----@field protected shortGlitchDelayID gameDelayID
+---@field vendorID VendorComponent
+---@field advUiComponent entIComponent
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
 VendingMachine = {}
 
 ---@param fields? VendingMachine
 ---@return VendingMachine
-function VendingMachine.new(fields) return end
+function VendingMachine.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function VendingMachine:OnAreaEnter(evt) return end
+function VendingMachine:OnAreaEnter(evt) end
 
----@protected
 ---@param evt DelayHackedEvent
 ---@return Bool
-function VendingMachine:OnDelayHackedEvent(evt) return end
+function VendingMachine:OnDelayHackedEvent(evt) end
 
----@protected
 ---@param evt DispenceItemFromVendor
 ---@return Bool
-function VendingMachine:OnDispenceItemFromVendor(evt) return end
+function VendingMachine:OnDispenceItemFromVendor(evt) end
 
----@protected
 ---@param evt DispenseStackOfItems
 ---@return Bool
-function VendingMachine:OnDispenseStackOfItems(evt) return end
+function VendingMachine:OnDispenseStackOfItems(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function VendingMachine:OnHitEvent(hit) return end
+function VendingMachine:OnHitEvent(hit) end
 
----@protected
 ---@param evt DispenseFreeItem
 ---@return Bool
-function VendingMachine:OnQuestDispenseFreeItem(evt) return end
+function VendingMachine:OnQuestDispenseFreeItem(evt) end
 
----@protected
 ---@param evt DispenseFreeSpecificItem
 ---@return Bool
-function VendingMachine:OnQuestDispenseSpecificItem(evt) return end
+function VendingMachine:OnQuestDispenseSpecificItem(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function VendingMachine:OnRequestComponents(ri) return end
+function VendingMachine:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function VendingMachine:OnStopShortGlitch(evt) return end
+function VendingMachine:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function VendingMachine:OnTakeControl(ri) return end
+function VendingMachine:OnTakeControl(ri) end
 
----@protected
 ---@param evt VendingMachineFinishedEvent
 ---@return Bool
-function VendingMachine:OnVendingMachineFinishedEvent(evt) return end
+function VendingMachine:OnVendingMachineFinishedEvent(evt) end
 
----@protected
 ---@param start Bool
 ---@param data GlitchData
 ---@return nil
-function VendingMachine:AdvertGlitch(start, data) return end
+function VendingMachine:AdvertGlitch(start, data) end
 
----@protected
 ---@return nil
-function VendingMachine:AttachVendor() return end
+function VendingMachine:AttachVendor() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function VendingMachine:AttachVendorTask(data) return end
+function VendingMachine:AttachVendorTask(data) end
 
----@protected
 ---@param request BuyRequest
 ---@return nil
-function VendingMachine:BuyItems(request) return end
+function VendingMachine:BuyItems(request) end
 
----@protected
 ---@return nil
-function VendingMachine:CreateBlackboard() return end
+function VendingMachine:CreateBlackboard() end
 
----@protected
 ---@param itemID? gameItemID
 ---@return BuyRequest
-function VendingMachine:CreateBuyRequest(itemID) return end
+function VendingMachine:CreateBuyRequest(itemID) end
 
----@protected
 ---@param shouldPay Bool
 ---@param item gameItemID
 ---@return DispenseRequest
-function VendingMachine:CreateDispenseRequest(shouldPay, item) return end
+function VendingMachine:CreateDispenseRequest(shouldPay, item) end
 
----@protected
 ---@param item gameItemID
 ---@param amount Int32
 ---@return DispenseStackRequest
-function VendingMachine:CreateQuestDispenseStackRequest(item, amount) return end
+function VendingMachine:CreateQuestDispenseStackRequest(item, amount) end
 
----@protected
 ---@return nil
-function VendingMachine:DeactivateDevice() return end
+function VendingMachine:DeactivateDevice() end
 
----@protected
 ---@return nil
-function VendingMachine:DeattachVendor() return end
+function VendingMachine:DeattachVendor() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function VendingMachine:DeattachVendorTask(data) return end
+function VendingMachine:DeattachVendorTask(data) end
 
----@protected
 ---@param time Float
 ---@param itemID gameItemID
 ---@return nil
-function VendingMachine:DelayHackedEvent(time, itemID) return end
+function VendingMachine:DelayHackedEvent(time, itemID) end
 
----@protected
 ---@param time Float
 ---@param isFree Bool
 ---@param isReady Bool
 ---@param itemID? gameItemID
 ---@return nil
-function VendingMachine:DelayVendingMachineEvent(time, isFree, isReady, itemID) return end
+function VendingMachine:DelayVendingMachineEvent(time, isFree, isReady, itemID) end
 
 ---@return EGameplayRole
-function VendingMachine:DeterminGameplayRole() return end
+function VendingMachine:DeterminGameplayRole() end
 
----@protected
 ---@param request DispenseRequest
 ---@return nil
-function VendingMachine:DispenseItems(request) return end
+function VendingMachine:DispenseItems(request) end
 
----@protected
 ---@param request DispenseStackRequest
 ---@return nil
-function VendingMachine:DispenseStack(request) return end
+function VendingMachine:DispenseStack(request) end
 
 ---@return VendingMachineDeviceBlackboardDef
-function VendingMachine:GetBlackboardDef() return end
+function VendingMachine:GetBlackboardDef() end
 
----@protected
 ---@return VendingMachineController
-function VendingMachine:GetController() return end
+function VendingMachine:GetController() end
 
 ---@return VendingMachineControllerPS
-function VendingMachine:GetDevicePS() return end
+function VendingMachine:GetDevicePS() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@return GlitchData
-function VendingMachine:GetGlitchData(glitchState) return end
+function VendingMachine:GetGlitchData(glitchState) end
 
----@protected
 ---@return gameItemID
-function VendingMachine:GetJunkItem() return end
+function VendingMachine:GetJunkItem() end
 
----@protected
 ---@return CName
-function VendingMachine:GetProcessingSFX() return end
+function VendingMachine:GetProcessingSFX() end
 
 ---@return TweakDBID
-function VendingMachine:GetVendorID() return end
+function VendingMachine:GetVendorID() end
 
----@protected
 ---@return nil
-function VendingMachine:HackedEffect() return end
+function VendingMachine:HackedEffect() end
 
----@private
 ---@return nil
-function VendingMachine:InitializeScreenDefinition() return end
+function VendingMachine:InitializeScreenDefinition() end
 
----@protected
 ---@return nil
-function VendingMachine:PlayItemFall() return end
+function VendingMachine:PlayItemFall() end
 
----@protected
 ---@return Vector4
-function VendingMachine:RandomizePosition() return end
+function VendingMachine:RandomizePosition() end
 
----@protected
 ---@return nil
-function VendingMachine:ResolveGameplayState() return end
+function VendingMachine:ResolveGameplayState() end
 
----@protected
 ---@param status PaymentStatus
 ---@return nil
-function VendingMachine:SendDataToUIBlackboard(status) return end
+function VendingMachine:SendDataToUIBlackboard(status) end
 
----@protected
 ---@param soldOut Bool
 ---@return nil
-function VendingMachine:SendSoldOutToUIBlackboard(soldOut) return end
+function VendingMachine:SendSoldOutToUIBlackboard(soldOut) end
 
----@protected
 ---@param on Bool
 ---@return nil
-function VendingMachine:SimpleGlitch(on) return end
+function VendingMachine:SimpleGlitch(on) end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function VendingMachine:StartGlitching(glitchState, intensity) return end
+function VendingMachine:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function VendingMachine:StartShortGlitch() return end
+function VendingMachine:StartShortGlitch() end
 
----@protected
 ---@return nil
-function VendingMachine:StopGlitching() return end
+function VendingMachine:StopGlitching() end
 
----@protected
 ---@param on Bool
 ---@return nil
-function VendingMachine:ToggleLights(on) return end
+function VendingMachine:ToggleLights(on) end
 
----@protected
 ---@return nil
-function VendingMachine:TurnOffDevice() return end
+function VendingMachine:TurnOffDevice() end
 
----@protected
 ---@return nil
-function VendingMachine:TurnOnDevice() return end
+function VendingMachine:TurnOnDevice() end

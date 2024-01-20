@@ -5,28 +5,24 @@ CycleObjectiveDecisions = {}
 
 ---@param fields? CycleObjectiveDecisions
 ---@return CycleObjectiveDecisions
-function CycleObjectiveDecisions.new(fields) return end
+function CycleObjectiveDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function CycleObjectiveDecisions:OnAction(action, consumer) return end
+function CycleObjectiveDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CycleObjectiveDecisions:EnterCondition(stateContext, scriptInterface) return end
+function CycleObjectiveDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CycleObjectiveDecisions:OnAttach(stateContext, scriptInterface) return end
+function CycleObjectiveDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CycleObjectiveDecisions:OnDetach(stateContext, scriptInterface) return end
+function CycleObjectiveDecisions:OnDetach(stateContext, scriptInterface) end

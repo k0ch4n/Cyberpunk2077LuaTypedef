@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class audioAudioSceneData: audioAudioMetadata
----@field public anyStateArray audioAudioStateData[]
----@field public states audioAudioStateData[]
----@field public anyStateTransitionsTable audioAnyStateTransitionEntry[]
----@field public voLineSignals audioVoLineSignal[]
----@field public signalLeadingToShutdown CName
----@field public templateScene CName
----@field public templateSceneStateOverrides audioAudioSceneStateOverride[]
----@field public templateSceneSignalOverrides audioAudioSceneSignalOverride[]
+---@field anyStateArray audioAudioStateData[]
+---@field states audioAudioStateData[]
+---@field anyStateTransitionsTable audioAnyStateTransitionEntry[]
+---@field voLineSignals audioVoLineSignal[]
+---@field signalLeadingToShutdown CName
+---@field templateScene CName
+---@field templateSceneStateOverrides audioAudioSceneStateOverride[]
+---@field templateSceneSignalOverrides audioAudioSceneSignalOverride[]
 audioAudioSceneData = {}
 
 ---@param fields? audioAudioSceneData
 ---@return audioAudioSceneData
-function audioAudioSceneData.new(fields) return end
+function audioAudioSceneData.new(fields) end

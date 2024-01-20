@@ -5,10 +5,10 @@ gamedataUICharacterCustomizationResourcePaths_Record = {}
 
 ---@param fields? gamedataUICharacterCustomizationResourcePaths_Record
 ---@return gamedataUICharacterCustomizationResourcePaths_Record
-function gamedataUICharacterCustomizationResourcePaths_Record.new(fields) return end
+function gamedataUICharacterCustomizationResourcePaths_Record.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataUICharacterCustomizationResourcePaths_Record:FemalePath() return end
+function gamedataUICharacterCustomizationResourcePaths_Record:FemalePath() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataUICharacterCustomizationResourcePaths_Record:MalePath() return end
+function gamedataUICharacterCustomizationResourcePaths_Record:MalePath() end

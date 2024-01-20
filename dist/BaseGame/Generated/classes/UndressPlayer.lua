@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class UndressPlayer: redEvent
----@field public isCensored Bool
+---@field isCensored Bool
 UndressPlayer = {}
 
 ---@param fields? UndressPlayer
 ---@return UndressPlayer
-function UndressPlayer.new(fields) return end
+function UndressPlayer.new(fields) end
 
 ---@return String
-function UndressPlayer:GetFriendlyDescription() return end
+function UndressPlayer:GetFriendlyDescription() end

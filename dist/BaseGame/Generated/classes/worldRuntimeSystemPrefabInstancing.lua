@@ -5,4 +5,4 @@ worldRuntimeSystemPrefabInstancing = {}
 
 ---@param fields? worldRuntimeSystemPrefabInstancing
 ---@return worldRuntimeSystemPrefabInstancing
-function worldRuntimeSystemPrefabInstancing.new(fields) return end
+function worldRuntimeSystemPrefabInstancing.new(fields) end

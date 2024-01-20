@@ -5,4 +5,4 @@ SwimmingForceFreezeEvents = {}
 
 ---@param fields? SwimmingForceFreezeEvents
 ---@return SwimmingForceFreezeEvents
-function SwimmingForceFreezeEvents.new(fields) return end
+function SwimmingForceFreezeEvents.new(fields) end

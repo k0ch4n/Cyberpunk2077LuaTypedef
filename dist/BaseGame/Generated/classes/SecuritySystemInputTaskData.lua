@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SecuritySystemInputTaskData: gameScriptTaskData
----@field public cachedEvt SecuritySystemInput
+---@field cachedEvt SecuritySystemInput
 SecuritySystemInputTaskData = {}
 
 ---@param fields? SecuritySystemInputTaskData
 ---@return SecuritySystemInputTaskData
-function SecuritySystemInputTaskData.new(fields) return end
+function SecuritySystemInputTaskData.new(fields) end

@@ -5,4 +5,4 @@ workTransferItemOwnershipCommandData = {}
 
 ---@param fields? workTransferItemOwnershipCommandData
 ---@return workTransferItemOwnershipCommandData
-function workTransferItemOwnershipCommandData.new(fields) return end
+function workTransferItemOwnershipCommandData.new(fields) end

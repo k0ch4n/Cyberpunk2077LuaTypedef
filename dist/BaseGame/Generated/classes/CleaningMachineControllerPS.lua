@@ -1,17 +1,15 @@
 ---@meta
 
 ---@class CleaningMachineControllerPS: BasicDistractionDeviceControllerPS
----@field protected cleaningMachineSkillChecks EngDemoContainer
+---@field cleaningMachineSkillChecks EngDemoContainer
 CleaningMachineControllerPS = {}
 
 ---@param fields? CleaningMachineControllerPS
 ---@return CleaningMachineControllerPS
-function CleaningMachineControllerPS.new(fields) return end
+function CleaningMachineControllerPS.new(fields) end
 
----@protected
 ---@return nil
-function CleaningMachineControllerPS:GameAttached() return end
+function CleaningMachineControllerPS:GameAttached() end
 
----@protected
 ---@return BaseSkillCheckContainer
-function CleaningMachineControllerPS:GetSkillCheckContainerForSetup() return end
+function CleaningMachineControllerPS:GetSkillCheckContainerForSetup() end

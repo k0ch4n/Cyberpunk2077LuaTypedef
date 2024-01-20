@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class DropPointRequest: gameScriptableSystemRequest
----@field private record TweakDBID
----@field private status DropPointPackageStatus
----@field private holder gamePersistentID
+---@field record TweakDBID
+---@field status DropPointPackageStatus
+---@field holder gamePersistentID
 DropPointRequest = {}
 
 ---@param fields? DropPointRequest
 ---@return DropPointRequest
-function DropPointRequest.new(fields) return end
+function DropPointRequest.new(fields) end
 
 ---@param _record TweakDBID|string
 ---@param _status DropPointPackageStatus
 ---@param _holder? gamePersistentID
 ---@return nil
-function DropPointRequest:CreateRequest(_record, _status, _holder) return end
+function DropPointRequest:CreateRequest(_record, _status, _holder) end
 
 ---@return String
-function DropPointRequest:GetFriendlyDescription() return end
+function DropPointRequest:GetFriendlyDescription() end
 
 ---@return gamePersistentID
-function DropPointRequest:Holder() return end
+function DropPointRequest:Holder() end
 
 ---@return TweakDBID
-function DropPointRequest:Record() return end
+function DropPointRequest:Record() end
 
 ---@return DropPointPackageStatus
-function DropPointRequest:Status() return end
+function DropPointRequest:Status() end

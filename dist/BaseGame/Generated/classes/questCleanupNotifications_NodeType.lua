@@ -5,4 +5,4 @@ questCleanupNotifications_NodeType = {}
 
 ---@param fields? questCleanupNotifications_NodeType
 ---@return questCleanupNotifications_NodeType
-function questCleanupNotifications_NodeType.new(fields) return end
+function questCleanupNotifications_NodeType.new(fields) end

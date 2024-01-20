@@ -5,4 +5,4 @@ gameuiLootVisualizer = {}
 
 ---@param fields? gameuiLootVisualizer
 ---@return gameuiLootVisualizer
-function gameuiLootVisualizer.new(fields) return end
+function gameuiLootVisualizer.new(fields) end

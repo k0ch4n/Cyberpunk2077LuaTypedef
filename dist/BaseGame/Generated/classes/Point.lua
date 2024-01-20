@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class Point
----@field public x Int32
----@field public y Int32
+---@field x Int32
+---@field y Int32
 Point = {}
 
 ---@param fields? Point
 ---@return Point
-function Point.new(fields) return end
+function Point.new(fields) end

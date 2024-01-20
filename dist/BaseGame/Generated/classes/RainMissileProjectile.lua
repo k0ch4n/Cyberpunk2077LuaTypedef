@@ -1,139 +1,118 @@
 ---@meta
 
 ---@class RainMissileProjectile: BaseProjectile
----@field private meshComponent entIComponent
----@field private effect gameEffectRef
----@field private damage gameEffectInstance
----@field private owner gameObject
----@field private weapon gameweaponObject
----@field private countTime Float
----@field private startVelocity Float
----@field private lifetime Float
----@field private alive Bool
----@field private arrived Bool
----@field private spawnPosition Vector4
----@field private phase1Duration Float
----@field private landIndicatorFX gameFxResource
----@field private fxInstance gameFxInstance
----@field private armingDistance Float
----@field private armed Bool
----@field private hasExploded Bool
----@field private missileDBID TweakDBID
----@field private missileAttackRecord gamedataAttack_Record
----@field private timeToDestory Float
----@field private initialTargetPosition Vector4
----@field private initialTargetOffset Vector4
----@field private finalTargetPosition Vector4
----@field private finalTargetOffset Vector4
----@field private finalTargetPositionCalculationDelay Float
----@field private targetComponent entIPlacedComponent
----@field private followTargetInPhase2 Bool
----@field private puppetBroadphaseHitRadiusSquared Float
----@field private phase EMissileRainPhase
----@field private spiralParams gameprojectileSpiralParams
----@field private useSpiralParams Bool
----@field private randStartVelocity Float
+---@field meshComponent entIComponent
+---@field effect gameEffectRef
+---@field damage gameEffectInstance
+---@field owner gameObject
+---@field weapon gameweaponObject
+---@field countTime Float
+---@field startVelocity Float
+---@field lifetime Float
+---@field alive Bool
+---@field arrived Bool
+---@field spawnPosition Vector4
+---@field phase1Duration Float
+---@field landIndicatorFX gameFxResource
+---@field fxInstance gameFxInstance
+---@field armingDistance Float
+---@field armed Bool
+---@field hasExploded Bool
+---@field missileDBID TweakDBID
+---@field missileAttackRecord gamedataAttack_Record
+---@field timeToDestory Float
+---@field initialTargetPosition Vector4
+---@field initialTargetOffset Vector4
+---@field finalTargetPosition Vector4
+---@field finalTargetOffset Vector4
+---@field finalTargetPositionCalculationDelay Float
+---@field targetComponent entIPlacedComponent
+---@field followTargetInPhase2 Bool
+---@field puppetBroadphaseHitRadiusSquared Float
+---@field phase EMissileRainPhase
+---@field spiralParams gameprojectileSpiralParams
+---@field useSpiralParams Bool
+---@field randStartVelocity Float
 RainMissileProjectile = {}
 
 ---@param fields? RainMissileProjectile
 ---@return RainMissileProjectile
-function RainMissileProjectile.new(fields) return end
+function RainMissileProjectile.new(fields) end
 
----@protected
 ---@param eventData gameprojectileAcceleratedMovementEvent
 ---@return Bool
-function RainMissileProjectile:OnAcceleratedMovement(eventData) return end
+function RainMissileProjectile:OnAcceleratedMovement(eventData) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function RainMissileProjectile:OnCollision(eventData) return end
+function RainMissileProjectile:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileFollowEvent
 ---@return Bool
-function RainMissileProjectile:OnFollowSuccess(eventData) return end
+function RainMissileProjectile:OnFollowSuccess(eventData) end
 
----@protected
 ---@param eventData gameprojectileBroadPhaseHitEvent
 ---@return Bool
-function RainMissileProjectile:OnGameprojectileBroadPhaseHitEvent(eventData) return end
+function RainMissileProjectile:OnGameprojectileBroadPhaseHitEvent(eventData) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function RainMissileProjectile:OnHit(evt) return end
+function RainMissileProjectile:OnHit(evt) end
 
----@protected
 ---@param eventData gameprojectileLinearMovementEvent
 ---@return Bool
-function RainMissileProjectile:OnLinearMovement(eventData) return end
+function RainMissileProjectile:OnLinearMovement(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function RainMissileProjectile:OnProjectileInitialize(eventData) return end
+function RainMissileProjectile:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function RainMissileProjectile:OnRequestComponents(ri) return end
+function RainMissileProjectile:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function RainMissileProjectile:OnShoot(eventData) return end
+function RainMissileProjectile:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function RainMissileProjectile:OnShootTarget(eventData) return end
+function RainMissileProjectile:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function RainMissileProjectile:OnTakeControl(ri) return end
+function RainMissileProjectile:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function RainMissileProjectile:OnTick(eventData) return end
+function RainMissileProjectile:OnTick(eventData) end
 
----@private
 ---@return nil
-function RainMissileProjectile:CalcFinalTargetPositionAndOffset() return end
+function RainMissileProjectile:CalcFinalTargetPositionAndOffset() end
 
----@protected
 ---@return nil
-function RainMissileProjectile:DelayDestroyBullet() return end
+function RainMissileProjectile:DelayDestroyBullet() end
 
----@private
 ---@return nil
-function RainMissileProjectile:DestroyBullet() return end
+function RainMissileProjectile:DestroyBullet() end
 
----@private
 ---@param projectilePosition Vector4
 ---@return nil
-function RainMissileProjectile:Explode(projectilePosition) return end
+function RainMissileProjectile:Explode(projectilePosition) end
 
----@private
 ---@param projectilePosition Vector4
 ---@return nil
-function RainMissileProjectile:OnCollideWithEntity(projectilePosition) return end
+function RainMissileProjectile:OnCollideWithEntity(projectilePosition) end
 
----@protected
 ---@param targetPos Vector4
 ---@return nil
-function RainMissileProjectile:StartPhase1(targetPos) return end
+function RainMissileProjectile:StartPhase1(targetPos) end
 
----@protected
 ---@return nil
-function RainMissileProjectile:StartPhase2() return end
+function RainMissileProjectile:StartPhase2() end
 
----@private
 ---@return nil
-function RainMissileProjectile:StartTrailEffect() return end
+function RainMissileProjectile:StartTrailEffect() end
 
----@private
 ---@return nil
-function RainMissileProjectile:StartTrailStartEffect() return end
+function RainMissileProjectile:StartTrailStartEffect() end

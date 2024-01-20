@@ -1,176 +1,151 @@
 ---@meta
 
 ---@class BraindanceGameController: gameuiHUDGameController
----@field private currentTimerMarker inkWidgetReference
----@field private currentTimerText inkTextWidgetReference
----@field private activeLayer inkTextWidgetReference
----@field private layerIcon inkImageWidgetReference
----@field private layerThermalIcon inkImageWidgetReference
----@field private layerVisualIcon inkImageWidgetReference
----@field private layerAudioIcon inkImageWidgetReference
----@field private cursorPoint inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private clueHolder inkCompoundWidgetReference[]
----@field private clueBarHolder inkWidgetReference[]
----@field private speedIndicatorManagers inkWidgetReference[]
----@field private clueArray BraindanceClueLogicController[]
----@field private buttonHintsController ButtonHints
----@field private barSize Float
----@field private braindanceDuration Float
----@field private currentTime Float
----@field private rootWidget inkWidget
----@field private currentLayer gameuiEBraindanceLayer
----@field private currentSpeed scnPlaySpeed
----@field private currentDirection scnPlayDirection
----@field private startingTimerTopMargin Float
----@field private gameInstance ScriptGameInstance
----@field private braindanceBB gameIBlackboard
----@field private braindanceDef BraindanceBlackboardDef
----@field private ClueBBID redCallbackObject
----@field private VisionModeBBID redCallbackObject
----@field private ProgressBBID redCallbackObject
----@field private SectionTimeBBID redCallbackObject
----@field private IsActiveBBID redCallbackObject
----@field private EnableExitBBID redCallbackObject
----@field private IsFPPBBID redCallbackObject
----@field private PlaybackSpeedID redCallbackObject
----@field private PlaybackDirectionID redCallbackObject
----@field private isFPPMode Bool
----@field private showTimelineAnimation inkanimProxy
----@field private hideTimelineAnimation inkanimProxy
----@field private showWidgetAnimation inkanimProxy
+---@field currentTimerMarker inkWidgetReference
+---@field currentTimerText inkTextWidgetReference
+---@field activeLayer inkTextWidgetReference
+---@field layerIcon inkImageWidgetReference
+---@field layerThermalIcon inkImageWidgetReference
+---@field layerVisualIcon inkImageWidgetReference
+---@field layerAudioIcon inkImageWidgetReference
+---@field cursorPoint inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field clueHolder inkCompoundWidgetReference[]
+---@field clueBarHolder inkWidgetReference[]
+---@field speedIndicatorManagers inkWidgetReference[]
+---@field clueArray BraindanceClueLogicController[]
+---@field buttonHintsController ButtonHints
+---@field barSize Float
+---@field braindanceDuration Float
+---@field currentTime Float
+---@field rootWidget inkWidget
+---@field currentLayer gameuiEBraindanceLayer
+---@field currentSpeed scnPlaySpeed
+---@field currentDirection scnPlayDirection
+---@field startingTimerTopMargin Float
+---@field gameInstance ScriptGameInstance
+---@field braindanceBB gameIBlackboard
+---@field braindanceDef BraindanceBlackboardDef
+---@field ClueBBID redCallbackObject
+---@field VisionModeBBID redCallbackObject
+---@field ProgressBBID redCallbackObject
+---@field SectionTimeBBID redCallbackObject
+---@field IsActiveBBID redCallbackObject
+---@field EnableExitBBID redCallbackObject
+---@field IsFPPBBID redCallbackObject
+---@field PlaybackSpeedID redCallbackObject
+---@field PlaybackDirectionID redCallbackObject
+---@field isFPPMode Bool
+---@field showTimelineAnimation inkanimProxy
+---@field hideTimelineAnimation inkanimProxy
+---@field showWidgetAnimation inkanimProxy
 BraindanceGameController = {}
 
 ---@param fields? BraindanceGameController
 ---@return BraindanceGameController
-function BraindanceGameController.new(fields) return end
+function BraindanceGameController.new(fields) end
 
----@protected
 ---@param evt BraindanceInputChangeEvent
 ---@return Bool
-function BraindanceGameController:OnBraindanceInputChangeEvent(evt) return end
+function BraindanceGameController:OnBraindanceInputChangeEvent(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BraindanceGameController:OnClueDataUpdated(value) return end
+function BraindanceGameController:OnClueDataUpdated(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function BraindanceGameController:OnExitEnabled(value) return end
+function BraindanceGameController:OnExitEnabled(value) end
 
----@protected
 ---@return Bool
-function BraindanceGameController:OnInitialize() return end
+function BraindanceGameController:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function BraindanceGameController:OnIsActiveUpdated(value) return end
+function BraindanceGameController:OnIsActiveUpdated(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function BraindanceGameController:OnIsFPPUpdated(value) return end
+function BraindanceGameController:OnIsFPPUpdated(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BraindanceGameController:OnPlaybackDirectionUpdated(value) return end
+function BraindanceGameController:OnPlaybackDirectionUpdated(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function BraindanceGameController:OnPlaybackSpeedUpdated(value) return end
+function BraindanceGameController:OnPlaybackSpeedUpdated(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function BraindanceGameController:OnProgressUpdated(value) return end
+function BraindanceGameController:OnProgressUpdated(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function BraindanceGameController:OnSectionTimeUpdated(value) return end
+function BraindanceGameController:OnSectionTimeUpdated(value) end
 
----@protected
 ---@return Bool
-function BraindanceGameController:OnUnInitialize() return end
+function BraindanceGameController:OnUnInitialize() end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function BraindanceGameController:OnVisionModeUpdated(value) return end
+function BraindanceGameController:OnVisionModeUpdated(value) end
 
 ---@param clueData BraindanceClueData
 ---@return nil
-function BraindanceGameController:AddClue(clueData) return end
+function BraindanceGameController:AddClue(clueData) end
 
----@private
 ---@return CName
-function BraindanceGameController:GetLeftShoulderLocKey() return end
+function BraindanceGameController:GetLeftShoulderLocKey() end
 
----@private
 ---@param stateEnum gameuiEBraindanceLayer
 ---@return CName
-function BraindanceGameController:GetStateName(stateEnum) return end
+function BraindanceGameController:GetStateName(stateEnum) end
 
----@private
 ---@param seconds Float
 ---@return String
-function BraindanceGameController:GetTimeMS(seconds) return end
+function BraindanceGameController:GetTimeMS(seconds) end
 
 ---@return nil
-function BraindanceGameController:Hide() return end
+function BraindanceGameController:Hide() end
 
----@private
 ---@param action CName|string
 ---@return nil
-function BraindanceGameController:HideInputHint(action) return end
-
----@private
----@return nil
-function BraindanceGameController:Intro() return end
-
----@private
----@return nil
-function BraindanceGameController:Outro() return end
-
----@private
----@return nil
-function BraindanceGameController:SetBraindanceBaseInput() return end
+function BraindanceGameController:HideInputHint(action) end
 
 ---@return nil
-function BraindanceGameController:SetBraindanceProgress() return end
+function BraindanceGameController:Intro() end
 
----@private
+---@return nil
+function BraindanceGameController:Outro() end
+
+---@return nil
+function BraindanceGameController:SetBraindanceBaseInput() end
+
+---@return nil
+function BraindanceGameController:SetBraindanceProgress() end
+
 ---@param layer gameuiEBraindanceLayer
 ---@return nil
-function BraindanceGameController:SetVisionMode(layer) return end
+function BraindanceGameController:SetVisionMode(layer) end
 
----@private
 ---@return nil
-function BraindanceGameController:SetupBB() return end
+function BraindanceGameController:SetupBB() end
 
----@private
 ---@param action CName|string
 ---@param label CName|string
 ---@return nil
-function BraindanceGameController:ShowInputHint(action, label) return end
+function BraindanceGameController:ShowInputHint(action, label) end
 
----@private
 ---@return nil
-function BraindanceGameController:UnregisterFromBB() return end
+function BraindanceGameController:UnregisterFromBB() end
 
 ---@param active Bool
 ---@return nil
-function BraindanceGameController:UpdateBraindance(active) return end
+function BraindanceGameController:UpdateBraindance(active) end
 
----@private
 ---@return nil
-function BraindanceGameController:UpdateClues() return end
+function BraindanceGameController:UpdateClues() end
 
----@private
 ---@return nil
-function BraindanceGameController:UpdateSpeedIndicators() return end
+function BraindanceGameController:UpdateSpeedIndicators() end

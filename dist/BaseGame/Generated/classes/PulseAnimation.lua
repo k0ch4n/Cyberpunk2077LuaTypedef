@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class PulseAnimation: IScriptable
----@field public root inkWidget
----@field public anim inkanimProxy
----@field public top Float
----@field public bot Float
----@field public time Float
----@field public delay Float
+---@field root inkWidget
+---@field anim inkanimProxy
+---@field top Float
+---@field bot Float
+---@field time Float
+---@field delay Float
 PulseAnimation = {}
 
 ---@param fields? PulseAnimation
 ---@return PulseAnimation
-function PulseAnimation.new(fields) return end
+function PulseAnimation.new(fields) end
 
 ---@param root inkWidget
 ---@param topOpacity Float
@@ -19,19 +19,19 @@ function PulseAnimation.new(fields) return end
 ---@param pulseRate Float
 ---@param delay? Float
 ---@return nil
-function PulseAnimation:Configure(root, topOpacity, bottomOpacity, pulseRate, delay) return end
+function PulseAnimation:Configure(root, topOpacity, bottomOpacity, pulseRate, delay) end
 
 ---@param root inkWidget
 ---@param params PulseAnimationParams
 ---@return nil
-function PulseAnimation:Configure(root, params) return end
+function PulseAnimation:Configure(root, params) end
 
 ---@return nil
-function PulseAnimation:ForceStop() return end
+function PulseAnimation:ForceStop() end
 
 ---@param singleLoop? Bool
 ---@return nil
-function PulseAnimation:Start(singleLoop) return end
+function PulseAnimation:Start(singleLoop) end
 
 ---@return nil
-function PulseAnimation:Stop() return end
+function PulseAnimation:Stop() end

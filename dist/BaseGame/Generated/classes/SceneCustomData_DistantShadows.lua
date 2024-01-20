@@ -5,4 +5,4 @@ SceneCustomData_DistantShadows = {}
 
 ---@param fields? SceneCustomData_DistantShadows
 ---@return SceneCustomData_DistantShadows
-function SceneCustomData_DistantShadows.new(fields) return end
+function SceneCustomData_DistantShadows.new(fields) end

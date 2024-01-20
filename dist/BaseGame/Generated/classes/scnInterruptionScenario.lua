@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class scnInterruptionScenario
----@field public id scnInterruptionScenarioId
----@field public name CName
----@field public queueName CName
----@field public enabled Bool
----@field public talkOnReturn Bool
----@field public playInterruptLine Bool
----@field public forcePlayReturnLine Bool
----@field public interruptionSpammingSafeguard Bool
----@field public playingLinesBehavior scnInterruptReturnLinesBehavior
----@field public postInterruptSignalTimeDelay Float
----@field public postReturnSignalTimeDelay Float
----@field public postInterruptSignalFactCondition scnInterruptFactConditionType
----@field public postReturnSignalFactCondition scnInterruptFactConditionType
----@field public interruptConditions scnIInterruptCondition[]
----@field public returnConditions scnIReturnCondition[]
+---@field id scnInterruptionScenarioId
+---@field name CName
+---@field queueName CName
+---@field enabled Bool
+---@field talkOnReturn Bool
+---@field playInterruptLine Bool
+---@field forcePlayReturnLine Bool
+---@field interruptionSpammingSafeguard Bool
+---@field playingLinesBehavior scnInterruptReturnLinesBehavior
+---@field postInterruptSignalTimeDelay Float
+---@field postReturnSignalTimeDelay Float
+---@field postInterruptSignalFactCondition scnInterruptFactConditionType
+---@field postReturnSignalFactCondition scnInterruptFactConditionType
+---@field interruptConditions scnIInterruptCondition[]
+---@field returnConditions scnIReturnCondition[]
 scnInterruptionScenario = {}
 
 ---@param fields? scnInterruptionScenario
 ---@return scnInterruptionScenario
-function scnInterruptionScenario.new(fields) return end
+function scnInterruptionScenario.new(fields) end

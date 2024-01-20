@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class MenuScenario_BenchmarkResults: MenuScenario_BaseMenu
----@field private callbackData inkCallbackConnectorData
+---@field callbackData inkCallbackConnectorData
 MenuScenario_BenchmarkResults = {}
 
 ---@param fields? MenuScenario_BenchmarkResults
 ---@return MenuScenario_BenchmarkResults
-function MenuScenario_BenchmarkResults.new(fields) return end
+function MenuScenario_BenchmarkResults.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_BenchmarkResults:OnBenchmarkResultsClose() return end
+function MenuScenario_BenchmarkResults:OnBenchmarkResultsClose() end
 
----@protected
 ---@return Bool
-function MenuScenario_BenchmarkResults:OnBenchmarkSettings() return end
+function MenuScenario_BenchmarkResults:OnBenchmarkSettings() end
 
----@protected
 ---@return Bool
-function MenuScenario_BenchmarkResults:OnCloseSettingsScreen() return end
+function MenuScenario_BenchmarkResults:OnCloseSettingsScreen() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_BenchmarkResults:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_BenchmarkResults:OnEnterScenario(prevScenario, userData) end

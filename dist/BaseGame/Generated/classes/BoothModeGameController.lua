@@ -1,22 +1,19 @@
 ---@meta
 
 ---@class BoothModeGameController: gameuiWidgetGameController
----@field public buttonRef inkWidgetReference
+---@field buttonRef inkWidgetReference
 BoothModeGameController = {}
 
 ---@param fields? BoothModeGameController
 ---@return BoothModeGameController
-function BoothModeGameController.new(fields) return end
+function BoothModeGameController.new(fields) end
 
----@protected
 ---@return Bool
-function BoothModeGameController:OnInitialize() return end
+function BoothModeGameController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function BoothModeGameController:OnPlay(evt) return end
+function BoothModeGameController:OnPlay(evt) end
 
----@protected
 ---@return Bool
-function BoothModeGameController:OnUninitialize() return end
+function BoothModeGameController:OnUninitialize() end

@@ -1,129 +1,109 @@
 ---@meta
 
 ---@class PhoneHotkeyController: GenericHotkeyController
----@field private mainIcon inkImageWidgetReference
----@field private questIcon inkImageWidgetReference
----@field private callIcon inkImageWidgetReference
----@field private messageCounterLabel inkWidgetReference
----@field private messageCounterLabelCircle inkWidgetReference
----@field private messageCounter inkTextWidgetReference
----@field private messageCounterCircle inkTextWidgetReference
----@field private journalManager gameJournalManager
----@field private phoneIconAtlas String
----@field private phoneIconName CName
----@field private proxy inkanimProxy
----@field private questImportantAnimProxy inkanimProxy
----@field private comDeviceBB gameIBlackboard
----@field private quickSlotBB gameIBlackboard
----@field private phoneEnabledBBId redCallbackObject
----@field private isVehiclesPopupVisibleBBId redCallbackObject
----@field private isRadioPopupVisibleBBId redCallbackObject
----@field private isRadialMenuVisibleBBId redCallbackObject
+---@field mainIcon inkImageWidgetReference
+---@field questIcon inkImageWidgetReference
+---@field callIcon inkImageWidgetReference
+---@field messageCounterLabel inkWidgetReference
+---@field messageCounterLabelCircle inkWidgetReference
+---@field messageCounter inkTextWidgetReference
+---@field messageCounterCircle inkTextWidgetReference
+---@field journalManager gameJournalManager
+---@field phoneIconAtlas String
+---@field phoneIconName CName
+---@field proxy inkanimProxy
+---@field questImportantAnimProxy inkanimProxy
+---@field comDeviceBB gameIBlackboard
+---@field quickSlotBB gameIBlackboard
+---@field phoneEnabledBBId redCallbackObject
+---@field isVehiclesPopupVisibleBBId redCallbackObject
+---@field isRadioPopupVisibleBBId redCallbackObject
+---@field isRadialMenuVisibleBBId redCallbackObject
 PhoneHotkeyController = {}
 
 ---@param fields? PhoneHotkeyController
 ---@return PhoneHotkeyController
-function PhoneHotkeyController.new(fields) return end
+function PhoneHotkeyController.new(fields) end
 
----@protected
 ---@param evt DPADActionPerformed
 ---@return Bool
-function PhoneHotkeyController:OnDpadActionPerformed(evt) return end
+function PhoneHotkeyController:OnDpadActionPerformed(evt) end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function PhoneHotkeyController:OnJournalUpdate(entryHash, className, notifyOption, changeType) return end
+function PhoneHotkeyController:OnJournalUpdate(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function PhoneHotkeyController:OnJournalUpdateVisited(entryHash, className, notifyOption, changeType) return end
+function PhoneHotkeyController:OnJournalUpdateVisited(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@param target inkWidget
 ---@return Bool
-function PhoneHotkeyController:OnPhoneDeviceReset(target) return end
+function PhoneHotkeyController:OnPhoneDeviceReset(target) end
 
----@protected
 ---@param target inkWidget
 ---@return Bool
-function PhoneHotkeyController:OnPhoneDeviceSlot(target) return end
+function PhoneHotkeyController:OnPhoneDeviceSlot(target) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function PhoneHotkeyController:OnPlayerAttach(player) return end
+function PhoneHotkeyController:OnPlayerAttach(player) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function PhoneHotkeyController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) return end
+function PhoneHotkeyController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) end
 
----@private
 ---@param convEntry gameJournalPhoneConversation
 ---@param tracked Int32[]
 ---@return nil, Int32 questImportantMessages, Int32 unreadMessages
-function PhoneHotkeyController:CountMessages(convEntry, tracked) return end
+function PhoneHotkeyController:CountMessages(convEntry, tracked) end
 
----@protected
 ---@return Bool
-function PhoneHotkeyController:Initialize() return end
+function PhoneHotkeyController:Initialize() end
 
----@protected
 ---@return nil
-function PhoneHotkeyController:InitializeStatusListener() return end
+function PhoneHotkeyController:InitializeStatusListener() end
 
----@protected
 ---@return Bool
-function PhoneHotkeyController:IsInDefaultState() return end
+function PhoneHotkeyController:IsInDefaultState() end
 
----@private
 ---@return Bool
-function PhoneHotkeyController:IsPhoneInUse() return end
+function PhoneHotkeyController:IsPhoneInUse() end
 
----@private
 ---@param val Bool
 ---@return nil
-function PhoneHotkeyController:OnPhoneEnabledChanged(val) return end
+function PhoneHotkeyController:OnPhoneEnabledChanged(val) end
 
----@private
 ---@param value Bool
 ---@return nil
-function PhoneHotkeyController:OnRadialMenuShown(value) return end
+function PhoneHotkeyController:OnRadialMenuShown(value) end
 
----@private
 ---@param value Bool
 ---@return nil
-function PhoneHotkeyController:OnRadioManagerPopupIsShown(value) return end
+function PhoneHotkeyController:OnRadioManagerPopupIsShown(value) end
 
----@private
 ---@param value Bool
 ---@return nil
-function PhoneHotkeyController:OnVehiclesManagerPopupIsShown(value) return end
+function PhoneHotkeyController:OnVehiclesManagerPopupIsShown(value) end
 
----@private
 ---@param enable Bool
 ---@return nil
-function PhoneHotkeyController:QuestImportantBlink(enable) return end
+function PhoneHotkeyController:QuestImportantBlink(enable) end
 
----@private
 ---@return nil
-function PhoneHotkeyController:RestoreDefaultIcon() return end
+function PhoneHotkeyController:RestoreDefaultIcon() end
 
----@protected
 ---@return nil
-function PhoneHotkeyController:Uninitialize() return end
+function PhoneHotkeyController:Uninitialize() end
 
----@private
 ---@return nil
-function PhoneHotkeyController:UpdateData() return end
+function PhoneHotkeyController:UpdateData() end

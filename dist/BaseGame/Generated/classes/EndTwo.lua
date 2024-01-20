@@ -5,16 +5,14 @@ EndTwo = {}
 
 ---@param fields? EndTwo
 ---@return EndTwo
-function EndTwo.new(fields) return end
+function EndTwo.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function EndTwo:OnEnter(stateContext, scriptInterface) return end
+function EndTwo:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function EndTwo:OnExit(stateContext, scriptInterface) return end
+function EndTwo:OnExit(stateContext, scriptInterface) end

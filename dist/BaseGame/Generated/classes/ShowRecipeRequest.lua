@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ShowRecipeRequest: gamePlayerScriptableSystemRequest
----@field public recipe TweakDBID
+---@field recipe TweakDBID
 ShowRecipeRequest = {}
 
 ---@param fields? ShowRecipeRequest
 ---@return ShowRecipeRequest
-function ShowRecipeRequest.new(fields) return end
+function ShowRecipeRequest.new(fields) end

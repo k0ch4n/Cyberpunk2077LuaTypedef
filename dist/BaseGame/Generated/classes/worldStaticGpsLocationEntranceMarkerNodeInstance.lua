@@ -5,4 +5,4 @@ worldStaticGpsLocationEntranceMarkerNodeInstance = {}
 
 ---@param fields? worldStaticGpsLocationEntranceMarkerNodeInstance
 ---@return worldStaticGpsLocationEntranceMarkerNodeInstance
-function worldStaticGpsLocationEntranceMarkerNodeInstance.new(fields) return end
+function worldStaticGpsLocationEntranceMarkerNodeInstance.new(fields) end

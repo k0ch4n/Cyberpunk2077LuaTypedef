@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class grsDeathmatchPlayerGameInfo
----@field public peerID netPeerID
----@field public isInGame Bool
----@field public isDead Bool
----@field public spawnTime netTime
----@field public killCount Uint32
----@field public deathCount Uint32
----@field public lastShooter netPeerID
+---@field peerID netPeerID
+---@field isInGame Bool
+---@field isDead Bool
+---@field spawnTime netTime
+---@field killCount Uint32
+---@field deathCount Uint32
+---@field lastShooter netPeerID
 grsDeathmatchPlayerGameInfo = {}
 
 ---@param fields? grsDeathmatchPlayerGameInfo
 ---@return grsDeathmatchPlayerGameInfo
-function grsDeathmatchPlayerGameInfo.new(fields) return end
+function grsDeathmatchPlayerGameInfo.new(fields) end

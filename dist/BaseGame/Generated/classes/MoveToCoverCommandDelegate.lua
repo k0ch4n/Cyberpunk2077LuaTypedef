@@ -1,47 +1,46 @@
 ---@meta
 
 ---@class MoveToCoverCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public inCommand AIArgumentMapping
----@field public releaseSignalOnCoverEnter Bool
----@field public useSpecialAction Bool
----@field public useHigh Bool
----@field public useLeft Bool
----@field public useRight Bool
+---@field inCommand AIArgumentMapping
+---@field releaseSignalOnCoverEnter Bool
+---@field useSpecialAction Bool
+---@field useHigh Bool
+---@field useLeft Bool
+---@field useRight Bool
 MoveToCoverCommandDelegate = {}
 
 ---@param fields? MoveToCoverCommandDelegate
 ---@return MoveToCoverCommandDelegate
-function MoveToCoverCommandDelegate.new(fields) return end
+function MoveToCoverCommandDelegate.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MoveToCoverCommandDelegate.ResetGracefulInterruptionSignal(context) return end
+function MoveToCoverCommandDelegate.ResetGracefulInterruptionSignal(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MoveToCoverCommandDelegate.SendGracefulInterruptionSignal(context) return end
+function MoveToCoverCommandDelegate.SendGracefulInterruptionSignal(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gameCoverHeight
-function MoveToCoverCommandDelegate:GetCoverHeight(context) return end
+function MoveToCoverCommandDelegate:GetCoverHeight(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function MoveToCoverCommandDelegate:GracefulInterruption(context) return end
+function MoveToCoverCommandDelegate:GracefulInterruption(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function MoveToCoverCommandDelegate:OnActivate(context) return end
+function MoveToCoverCommandDelegate:OnActivate(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function MoveToCoverCommandDelegate:ResetGracefulInterruption(context) return end
+function MoveToCoverCommandDelegate:ResetGracefulInterruption(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function MoveToCoverCommandDelegate:ResetVariables(context) return end
+function MoveToCoverCommandDelegate:ResetVariables(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function MoveToCoverCommandDelegate:StopExecutingCommand(context) return end
+function MoveToCoverCommandDelegate:StopExecutingCommand(context) end

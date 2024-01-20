@@ -5,4 +5,4 @@ gameuiPersonalLinkControllerCustomizationStateUpdater = {}
 
 ---@param fields? gameuiPersonalLinkControllerCustomizationStateUpdater
 ---@return gameuiPersonalLinkControllerCustomizationStateUpdater
-function gameuiPersonalLinkControllerCustomizationStateUpdater.new(fields) return end
+function gameuiPersonalLinkControllerCustomizationStateUpdater.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldStaticQuestMarkerNode: worldNode
----@field public questType worldQuestType
----@field public questLabel String
----@field public mapFilteringTag CName
----@field public questMarkerHeight Float
+---@field questType worldQuestType
+---@field questLabel String
+---@field mapFilteringTag CName
+---@field questMarkerHeight Float
 worldStaticQuestMarkerNode = {}
 
 ---@param fields? worldStaticQuestMarkerNode
 ---@return worldStaticQuestMarkerNode
-function worldStaticQuestMarkerNode.new(fields) return end
+function worldStaticQuestMarkerNode.new(fields) end

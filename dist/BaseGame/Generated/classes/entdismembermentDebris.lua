@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entdismembermentDebris: CResource
----@field public items entdismembermentDebrisResourceItem[]
+---@field items entdismembermentDebrisResourceItem[]
 entdismembermentDebris = {}
 
 ---@param fields? entdismembermentDebris
 ---@return entdismembermentDebris
-function entdismembermentDebris.new(fields) return end
+function entdismembermentDebris.new(fields) end

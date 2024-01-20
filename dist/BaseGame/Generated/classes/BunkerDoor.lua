@@ -1,99 +1,80 @@
 ---@meta
 
 ---@class BunkerDoor: Door
----@field private loudAnnouncementOpenSoundName CName
----@field private halfOpenSoundName CName
----@field private glitchingSoundName CName
----@field private fastOpenSoundName CName
+---@field loudAnnouncementOpenSoundName CName
+---@field halfOpenSoundName CName
+---@field glitchingSoundName CName
+---@field fastOpenSoundName CName
 BunkerDoor = {}
 
 ---@param fields? BunkerDoor
 ---@return BunkerDoor
-function BunkerDoor.new(fields) return end
+function BunkerDoor.new(fields) end
 
----@protected
 ---@param evt MalfunctionHalfOpen
 ---@return Bool
-function BunkerDoor:OnMalfunctionHalfOpen(evt) return end
+function BunkerDoor:OnMalfunctionHalfOpen(evt) end
 
----@protected
 ---@param evt SetDoorMalfunctioningType
 ---@return Bool
-function BunkerDoor:OnSetDoorMalfunctioningType(evt) return end
+function BunkerDoor:OnSetDoorMalfunctioningType(evt) end
 
----@private
 ---@param range Float
 ---@return nil
-function BunkerDoor:BroadCastOpeningStim(range) return end
+function BunkerDoor:BroadCastOpeningStim(range) end
 
----@private
 ---@return BunkerDoorController
-function BunkerDoor:GetController() return end
+function BunkerDoor:GetController() end
 
 ---@return BunkerDoorControllerPS
-function BunkerDoor:GetDevicePS() return end
+function BunkerDoor:GetDevicePS() end
 
----@protected
 ---@return Float
-function BunkerDoor:GetOpeningSpeed() return end
+function BunkerDoor:GetOpeningSpeed() end
 
----@protected
 ---@return Float
-function BunkerDoor:GetOpeningTime() return end
+function BunkerDoor:GetOpeningTime() end
 
----@private
 ---@param reset? Bool
 ---@return nil
-function BunkerDoor:InitAnimation(reset) return end
+function BunkerDoor:InitAnimation(reset) end
 
----@private
 ---@param time Float
 ---@return nil
-function BunkerDoor:InvokePsBusyState(time) return end
+function BunkerDoor:InvokePsBusyState(time) end
 
----@private
 ---@return Bool
-function BunkerDoor:IsInteractedByNPC() return end
+function BunkerDoor:IsInteractedByNPC() end
 
----@private
 ---@param delay Float
 ---@return nil
-function BunkerDoor:MakeDoorToBeForceOpen(delay) return end
+function BunkerDoor:MakeDoorToBeForceOpen(delay) end
 
----@private
 ---@return nil
-function BunkerDoor:PlayGlitchingAnimation() return end
+function BunkerDoor:PlayGlitchingAnimation() end
 
----@private
 ---@return nil
-function BunkerDoor:PlayHalfOpenAnimation() return end
+function BunkerDoor:PlayHalfOpenAnimation() end
 
----@private
 ---@return nil
-function BunkerDoor:PlayMalfunctionHalfOpen() return end
+function BunkerDoor:PlayMalfunctionHalfOpen() end
 
----@protected
 ---@return nil
-function BunkerDoor:PlayOpenDoorSound() return end
+function BunkerDoor:PlayOpenDoorSound() end
 
----@private
 ---@return nil
-function BunkerDoor:ResetAnimation() return end
+function BunkerDoor:ResetAnimation() end
 
----@protected
 ---@return nil
-function BunkerDoor:ResolveGameplayState() return end
+function BunkerDoor:ResolveGameplayState() end
 
----@private
 ---@return nil
-function BunkerDoor:SetUpAnimation() return end
+function BunkerDoor:SetUpAnimation() end
 
----@protected
 ---@return nil
-function BunkerDoor:SetupOpenDoorAnimationFeatures() return end
+function BunkerDoor:SetupOpenDoorAnimationFeatures() end
 
----@protected
 ---@param broadcaster StimBroadcasterComponent
 ---@param reactionData senseStimInvestigateData
 ---@return nil
-function BunkerDoor:TriggerMoveDoorStimBroadcaster(broadcaster, reactionData) return end
+function BunkerDoor:TriggerMoveDoorStimBroadcaster(broadcaster, reactionData) end

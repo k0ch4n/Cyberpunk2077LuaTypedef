@@ -5,12 +5,12 @@ ItemTooltipCraftedModule = {}
 
 ---@param fields? ItemTooltipCraftedModule
 ---@return ItemTooltipCraftedModule
-function ItemTooltipCraftedModule.new(fields) return end
+function ItemTooltipCraftedModule.new(fields) end
 
 ---@param data UIInventoryItem
 ---@return nil
-function ItemTooltipCraftedModule:NEW_Update(data) return end
+function ItemTooltipCraftedModule:NEW_Update(data) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipCraftedModule:Update(data) return end
+function ItemTooltipCraftedModule:Update(data) end

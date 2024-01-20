@@ -1,62 +1,54 @@
 ---@meta
 
 ---@class ScannerDeviceHeaderGameController: BaseChunkGameController
----@field private nameText inkTextWidgetReference
----@field private fluffText inkTextWidgetReference
----@field private separator1 inkRectangleWidgetReference
----@field private separator2 inkRectangleWidgetReference
----@field private levelText inkTextWidgetReference
----@field private status inkTextWidgetReference
----@field private statusIcon inkImageWidgetReference
----@field private levelWrapper inkWidgetReference
----@field private nameCallbackID redCallbackObject
----@field private networkLevelCallbackID redCallbackObject
----@field private networkStatusCallbackID redCallbackObject
----@field private deviceStatusCallbackID redCallbackObject
----@field private attitudeCallbackID redCallbackObject
----@field private isValidName Bool
----@field private isValidNetworkLevel Bool
----@field private isValidnetworkStatus Bool
----@field private isValidDeviceStatus Bool
+---@field nameText inkTextWidgetReference
+---@field fluffText inkTextWidgetReference
+---@field separator1 inkRectangleWidgetReference
+---@field separator2 inkRectangleWidgetReference
+---@field levelText inkTextWidgetReference
+---@field status inkTextWidgetReference
+---@field statusIcon inkImageWidgetReference
+---@field levelWrapper inkWidgetReference
+---@field nameCallbackID redCallbackObject
+---@field networkLevelCallbackID redCallbackObject
+---@field networkStatusCallbackID redCallbackObject
+---@field deviceStatusCallbackID redCallbackObject
+---@field attitudeCallbackID redCallbackObject
+---@field isValidName Bool
+---@field isValidNetworkLevel Bool
+---@field isValidnetworkStatus Bool
+---@field isValidDeviceStatus Bool
 ScannerDeviceHeaderGameController = {}
 
 ---@param fields? ScannerDeviceHeaderGameController
 ---@return ScannerDeviceHeaderGameController
-function ScannerDeviceHeaderGameController.new(fields) return end
+function ScannerDeviceHeaderGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDeviceHeaderGameController:OnAttitudeChange(value) return end
+function ScannerDeviceHeaderGameController:OnAttitudeChange(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDeviceHeaderGameController:OnDeviceStatusChange(value) return end
+function ScannerDeviceHeaderGameController:OnDeviceStatusChange(value) end
 
----@protected
 ---@return Bool
-function ScannerDeviceHeaderGameController:OnInitialize() return end
+function ScannerDeviceHeaderGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDeviceHeaderGameController:OnNameChanged(value) return end
+function ScannerDeviceHeaderGameController:OnNameChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDeviceHeaderGameController:OnNetworkLevelChanged(value) return end
+function ScannerDeviceHeaderGameController:OnNetworkLevelChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerDeviceHeaderGameController:OnNetworkStatusChanged(value) return end
+function ScannerDeviceHeaderGameController:OnNetworkStatusChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerDeviceHeaderGameController:OnUninitialize() return end
+function ScannerDeviceHeaderGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ScannerDeviceHeaderGameController:UpdateGlobalVisibility() return end
+function ScannerDeviceHeaderGameController:UpdateGlobalVisibility() end

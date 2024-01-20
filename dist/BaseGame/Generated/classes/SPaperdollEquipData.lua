@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SPaperdollEquipData
----@field public equipArea gameSEquipArea
----@field public slotIndex Int32
----@field public placementSlot TweakDBID
----@field public equipped Bool
+---@field equipArea gameSEquipArea
+---@field slotIndex Int32
+---@field placementSlot TweakDBID
+---@field equipped Bool
 SPaperdollEquipData = {}
 
 ---@param fields? SPaperdollEquipData
 ---@return SPaperdollEquipData
-function SPaperdollEquipData.new(fields) return end
+function SPaperdollEquipData.new(fields) end

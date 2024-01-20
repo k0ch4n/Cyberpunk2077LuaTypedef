@@ -5,4 +5,4 @@ gameuiPanzerCloud = {}
 
 ---@param fields? gameuiPanzerCloud
 ---@return gameuiPanzerCloud
-function gameuiPanzerCloud.new(fields) return end
+function gameuiPanzerCloud.new(fields) end

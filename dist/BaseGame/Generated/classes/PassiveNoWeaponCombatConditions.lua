@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class PassiveNoWeaponCombatConditions: PassiveAutonomousCondition
----@field protected delayEvaluationCbId Uint32
----@field protected onItemAddedToSlotCbId Uint32
+---@field delayEvaluationCbId Uint32
+---@field onItemAddedToSlotCbId Uint32
 PassiveNoWeaponCombatConditions = {}
 
 ---@param fields? PassiveNoWeaponCombatConditions
 ---@return PassiveNoWeaponCombatConditions
-function PassiveNoWeaponCombatConditions.new(fields) return end
+function PassiveNoWeaponCombatConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveNoWeaponCombatConditions:Activate(context) return end
+function PassiveNoWeaponCombatConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveNoWeaponCombatConditions:CalculateValue(context) return end
+function PassiveNoWeaponCombatConditions:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveNoWeaponCombatConditions:Deactivate(context) return end
+function PassiveNoWeaponCombatConditions:Deactivate(context) end

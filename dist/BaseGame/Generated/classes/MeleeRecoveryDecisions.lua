@@ -5,16 +5,14 @@ MeleeRecoveryDecisions = {}
 
 ---@param fields? MeleeRecoveryDecisions
 ---@return MeleeRecoveryDecisions
-function MeleeRecoveryDecisions.new(fields) return end
+function MeleeRecoveryDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeRecoveryDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeRecoveryDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeRecoveryDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeRecoveryDecisions:ExitCondition(stateContext, scriptInterface) end

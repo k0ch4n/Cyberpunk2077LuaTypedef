@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class QuestShardLinkController: BaseCodexLinkController
----@field public journalManager gameJournalManager
----@field public journalEntry gameJournalOnscreen
+---@field journalManager gameJournalManager
+---@field journalEntry gameJournalOnscreen
 QuestShardLinkController = {}
 
 ---@param fields? QuestShardLinkController
 ---@return QuestShardLinkController
-function QuestShardLinkController.new(fields) return end
+function QuestShardLinkController.new(fields) end
 
----@protected
 ---@param e ActivateLink
 ---@return Bool
-function QuestShardLinkController:OnActivateLink(e) return end
+function QuestShardLinkController:OnActivateLink(e) end
 
----@private
 ---@return nil
-function QuestShardLinkController:Activate() return end
+function QuestShardLinkController:Activate() end
 
 ---@param journalEntry gameJournalOnscreen
 ---@param journalManager gameJournalManager
 ---@return nil
-function QuestShardLinkController:Setup(journalEntry, journalManager) return end
+function QuestShardLinkController:Setup(journalEntry, journalManager) end
 
----@protected
 ---@return nil
-function QuestShardLinkController:ShowShardJournalEntry() return end
+function QuestShardLinkController:ShowShardJournalEntry() end

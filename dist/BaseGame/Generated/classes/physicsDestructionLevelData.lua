@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsDestructionLevelData
----@field public filterData physicsFilterData
----@field public fracturingEffect worldEffect
+---@field filterData physicsFilterData
+---@field fracturingEffect worldEffect
 physicsDestructionLevelData = {}
 
 ---@param fields? physicsDestructionLevelData
 ---@return physicsDestructionLevelData
-function physicsDestructionLevelData.new(fields) return end
+function physicsDestructionLevelData.new(fields) end

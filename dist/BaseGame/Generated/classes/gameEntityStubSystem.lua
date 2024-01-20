@@ -5,4 +5,4 @@ gameEntityStubSystem = {}
 
 ---@param fields? gameEntityStubSystem
 ---@return gameEntityStubSystem
-function gameEntityStubSystem.new(fields) return end
+function gameEntityStubSystem.new(fields) end

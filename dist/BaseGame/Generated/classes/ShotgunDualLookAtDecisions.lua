@@ -5,4 +5,4 @@ ShotgunDualLookAtDecisions = {}
 
 ---@param fields? ShotgunDualLookAtDecisions
 ---@return ShotgunDualLookAtDecisions
-function ShotgunDualLookAtDecisions.new(fields) return end
+function ShotgunDualLookAtDecisions.new(fields) end

@@ -5,7 +5,7 @@ MediaDeviceController = {}
 
 ---@param fields? MediaDeviceController
 ---@return MediaDeviceController
-function MediaDeviceController.new(fields) return end
+function MediaDeviceController.new(fields) end
 
 ---@return MediaDeviceControllerPS
-function MediaDeviceController:GetPS() return end
+function MediaDeviceController:GetPS() end

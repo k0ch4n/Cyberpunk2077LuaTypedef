@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class MorphTargetsTextureBlendInfo
----@field public blend Bool
----@field public diffSize MorphTargetsDiffTextureSize
----@field public name CName
+---@field blend Bool
+---@field diffSize MorphTargetsDiffTextureSize
+---@field name CName
 MorphTargetsTextureBlendInfo = {}
 
 ---@param fields? MorphTargetsTextureBlendInfo
 ---@return MorphTargetsTextureBlendInfo
-function MorphTargetsTextureBlendInfo.new(fields) return end
+function MorphTargetsTextureBlendInfo.new(fields) end

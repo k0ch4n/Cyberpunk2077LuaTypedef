@@ -5,4 +5,4 @@ gameLocationResource = {}
 
 ---@param fields? gameLocationResource
 ---@return gameLocationResource
-function gameLocationResource.new(fields) return end
+function gameLocationResource.new(fields) end

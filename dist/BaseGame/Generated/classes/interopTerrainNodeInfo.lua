@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class interopTerrainNodeInfo
----@field public width Uint32
----@field public height Uint32
----@field public externalDataSource Bool
----@field public isTerrainNode Bool
----@field public blendOrder Uint8
----@field public blendModeHeightIsIgnore Bool
----@field public blendModeHeightIsNormal Bool
----@field public blendModeColorIsIgnore Bool
----@field public blendModeHolesIsIgnore Bool
----@field public terrainSysID Uint16
----@field public nodeName String
----@field public nodeScale Vector3
----@field public nodeTransform Transform
----@field public nodeCellResScale Float
----@field public densityTexelSize Float
----@field public nodeIDPath toolsEditorObjectIDPath
+---@field width Uint32
+---@field height Uint32
+---@field externalDataSource Bool
+---@field isTerrainNode Bool
+---@field blendOrder Uint8
+---@field blendModeHeightIsIgnore Bool
+---@field blendModeHeightIsNormal Bool
+---@field blendModeColorIsIgnore Bool
+---@field blendModeHolesIsIgnore Bool
+---@field terrainSysID Uint16
+---@field nodeName String
+---@field nodeScale Vector3
+---@field nodeTransform Transform
+---@field nodeCellResScale Float
+---@field densityTexelSize Float
+---@field nodeIDPath toolsEditorObjectIDPath
 interopTerrainNodeInfo = {}
 
 ---@param fields? interopTerrainNodeInfo
 ---@return interopTerrainNodeInfo
-function interopTerrainNodeInfo.new(fields) return end
+function interopTerrainNodeInfo.new(fields) end

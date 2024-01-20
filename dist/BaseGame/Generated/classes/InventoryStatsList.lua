@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class InventoryStatsList: inkWidgetLogicController
----@field private titleText inkTextWidget
----@field private containerWidget inkCompoundWidget
----@field private widgtesList inkWidget[]
+---@field titleText inkTextWidget
+---@field containerWidget inkCompoundWidget
+---@field widgtesList inkWidget[]
 InventoryStatsList = {}
 
 ---@param fields? InventoryStatsList
 ---@return InventoryStatsList
-function InventoryStatsList.new(fields) return end
+function InventoryStatsList.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryStatsList:OnInitialize() return end
+function InventoryStatsList:OnInitialize() end
 
 ---@param data gameStatViewData[]
 ---@return nil
-function InventoryStatsList:SetData(data) return end
+function InventoryStatsList:SetData(data) end

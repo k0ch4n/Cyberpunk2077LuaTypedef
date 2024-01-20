@@ -5,14 +5,12 @@ SetHitStimSourceTask = {}
 
 ---@param fields? SetHitStimSourceTask
 ---@return SetHitStimSourceTask
-function SetHitStimSourceTask.new(fields) return end
+function SetHitStimSourceTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetHitStimSourceTask:Activate(context) return end
+function SetHitStimSourceTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetHitStimSourceTask:Deactivate(context) return end
+function SetHitStimSourceTask:Deactivate(context) end

@@ -1,199 +1,169 @@
 ---@meta
 
 ---@class questLogGameController: gameuiMenuGameController
----@field private virtualList inkWidgetReference
----@field private detailsPanel inkWidgetReference
----@field private buttonHints inkWidgetReference
----@field private filtersList inkWidgetReference
----@field private questList inkWidgetReference
----@field private game ScriptGameInstance
----@field private journalManager gameJournalManager
----@field private quests gameJournalEntry[]
----@field private resolvedQuests gameJournalEntry[]
----@field private buttonHintsController ButtonHints
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private trackedQuest gameJournalQuest
----@field private curreentQuest gameJournalQuest
----@field private externallyOpenedQuestHash Int32
----@field private playerLevel Int32
----@field private recommendedLevel Int32
----@field private entryAnimProxy inkanimProxy
----@field private canUsePhone Bool
----@field private detailsPanelCtrl QuestDetailsPanelController
----@field private virtualListController QuestListVirtualController
----@field private filters QuestListFilterButtonController[]
----@field private activeFilter QuestListFilterButtonController
----@field private currentCustomFilterIndex Int32
----@field private axisDataThreshold Float
----@field private mouseDataThreshold Float
----@field private delayedShowDuration Float
----@field private delayedShow gameDelayID
----@field private listPanelHoverd Bool
----@field private isDelayTicking Bool
----@field private firstInit Bool
----@field private filterSwich Bool
----@field private questData gameJournalQuest
----@field private appliedQuestData gameJournalQuest
----@field private skipAnimation Bool
----@field public listData QuestListItemData[]
----@field public questTypeList QuestListItemType[]
----@field public questToOpen gameJournalQuest
+---@field virtualList inkWidgetReference
+---@field detailsPanel inkWidgetReference
+---@field buttonHints inkWidgetReference
+---@field filtersList inkWidgetReference
+---@field questList inkWidgetReference
+---@field game ScriptGameInstance
+---@field journalManager gameJournalManager
+---@field quests gameJournalEntry[]
+---@field resolvedQuests gameJournalEntry[]
+---@field buttonHintsController ButtonHints
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field trackedQuest gameJournalQuest
+---@field curreentQuest gameJournalQuest
+---@field externallyOpenedQuestHash Int32
+---@field playerLevel Int32
+---@field recommendedLevel Int32
+---@field entryAnimProxy inkanimProxy
+---@field canUsePhone Bool
+---@field detailsPanelCtrl QuestDetailsPanelController
+---@field virtualListController QuestListVirtualController
+---@field filters QuestListFilterButtonController[]
+---@field activeFilter QuestListFilterButtonController
+---@field currentCustomFilterIndex Int32
+---@field axisDataThreshold Float
+---@field mouseDataThreshold Float
+---@field delayedShowDuration Float
+---@field delayedShow gameDelayID
+---@field listPanelHoverd Bool
+---@field isDelayTicking Bool
+---@field firstInit Bool
+---@field filterSwich Bool
+---@field questData gameJournalQuest
+---@field appliedQuestData gameJournalQuest
+---@field skipAnimation Bool
+---@field listData QuestListItemData[]
+---@field questTypeList QuestListItemType[]
+---@field questToOpen gameJournalQuest
 questLogGameController = {}
 
 ---@param fields? questLogGameController
 ---@return questLogGameController
-function questLogGameController.new(fields) return end
+function questLogGameController.new(fields) end
 
 ---@param journalManager gameJournalManager
 ---@param entry gameJournalEntry
 ---@return gameJournalQuest
-function questLogGameController.GetTopQuestEntry(journalManager, entry) return end
+function questLogGameController.GetTopQuestEntry(journalManager, entry) end
 
----@protected
 ---@return Bool
-function questLogGameController:OnAllElementsSpawned() return end
+function questLogGameController:OnAllElementsSpawned() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function questLogGameController:OnAxisInput(evt) return end
+function questLogGameController:OnAxisInput(evt) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function questLogGameController:OnBack(userData) return end
+function questLogGameController:OnBack(userData) end
 
----@protected
 ---@param evt CodexPopupClosedEvent
 ---@return Bool
-function questLogGameController:OnCodexPopupClosedEvent(evt) return end
+function questLogGameController:OnCodexPopupClosedEvent(evt) end
 
----@protected
 ---@param evt OpenCodexPopupEvent
 ---@return Bool
-function questLogGameController:OnCodexPopupRequest(evt) return end
+function questLogGameController:OnCodexPopupRequest(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function questLogGameController:OnFilterButtonSpawned(widget, userData) return end
+function questLogGameController:OnFilterButtonSpawned(widget, userData) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function questLogGameController:OnFilterReleased(evt) return end
+function questLogGameController:OnFilterReleased(evt) end
 
----@protected
 ---@return Bool
-function questLogGameController:OnInitialize() return end
+function questLogGameController:OnInitialize() end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function questLogGameController:OnJournalReady(entryHash, className, notifyOption, changeType) return end
+function questLogGameController:OnJournalReady(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@param e QuestlListItemSelected
 ---@return Bool
-function questLogGameController:OnQuestListItemSelected(e) return end
+function questLogGameController:OnQuestListItemSelected(e) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function questLogGameController:OnQuestListLeave(evt) return end
+function questLogGameController:OnQuestListLeave(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function questLogGameController:OnQuestListPanelEnter(evt) return end
+function questLogGameController:OnQuestListPanelEnter(evt) end
 
----@protected
 ---@param evt QuestlListItemDelayedHover
 ---@return Bool
-function questLogGameController:OnQuestlListItemDelayedHover(evt) return end
+function questLogGameController:OnQuestlListItemDelayedHover(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function questLogGameController:OnReleaseInput(e) return end
+function questLogGameController:OnReleaseInput(e) end
 
----@protected
 ---@param e RequestChangeTrackedObjective
 ---@return Bool
-function questLogGameController:OnRequestChangeTrackedObjective(e) return end
+function questLogGameController:OnRequestChangeTrackedObjective(e) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function questLogGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function questLogGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function questLogGameController:OnSetUserData(userData) return end
+function questLogGameController:OnSetUserData(userData) end
 
----@protected
 ---@return Bool
-function questLogGameController:OnUninitialize() return end
+function questLogGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function questLogGameController:BuildQuestList() return end
+function questLogGameController:BuildQuestList() end
 
----@private
 ---@param questData gameJournalQuest
 ---@param skipAnimation Bool
 ---@return nil
-function questLogGameController:DisplayQuestData(questData, skipAnimation) return end
+function questLogGameController:DisplayQuestData(questData, skipAnimation) end
 
----@private
 ---@param category gameJournalQuestType
 ---@return QuestListItemType
-function questLogGameController:GetDisplayedCategory(category) return end
+function questLogGameController:GetDisplayedCategory(category) end
 
----@private
 ---@param journalQuest gameJournalQuest
 ---@return gameJournalQuestObjective
-function questLogGameController:GetFirstObjectiveFromQuest(journalQuest) return end
+function questLogGameController:GetFirstObjectiveFromQuest(journalQuest) end
 
----@private
 ---@return gameJournalQuestType[]
-function questLogGameController:GetListedCategories() return end
+function questLogGameController:GetListedCategories() end
 
----@private
 ---@param questEntry gameJournalQuest
 ---@param questType QuestListItemType
 ---@param trackedQuest? gameJournalQuest
 ---@return QuestListItemData
-function questLogGameController:GetQuestListItemData(questEntry, questType, trackedQuest) return end
+function questLogGameController:GetQuestListItemData(questEntry, questType, trackedQuest) end
 
----@private
 ---@param currentQuestSortType QuestListSortType
 ---@return String
-function questLogGameController:GetSortTypeName(currentQuestSortType) return end
+function questLogGameController:GetSortTypeName(currentQuestSortType) end
 
----@private
 ---@return Bool
-function questLogGameController:IsPhoneAvailable() return end
+function questLogGameController:IsPhoneAvailable() end
 
----@private
 ---@param option ECustomFilterDPadNavigationOption
 ---@return nil
-function questLogGameController:NavigateCustomFilters(option) return end
+function questLogGameController:NavigateCustomFilters(option) end
 
----@private
 ---@param type Int32
 ---@return nil
-function questLogGameController:RequestSpawnFilterButton(type) return end
+function questLogGameController:RequestSpawnFilterButton(type) end
 
----@private
 ---@return nil
-function questLogGameController:SetupFilterButtons() return end
+function questLogGameController:SetupFilterButtons() end
 
----@private
 ---@return nil
-function questLogGameController:UpdateTrackingInputHint() return end
+function questLogGameController:UpdateTrackingInputHint() end

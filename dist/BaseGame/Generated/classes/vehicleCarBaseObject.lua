@@ -5,4 +5,4 @@ vehicleCarBaseObject = {}
 
 ---@param fields? vehicleCarBaseObject
 ---@return vehicleCarBaseObject
-function vehicleCarBaseObject.new(fields) return end
+function vehicleCarBaseObject.new(fields) end

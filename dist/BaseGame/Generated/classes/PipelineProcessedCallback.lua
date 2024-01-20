@@ -5,19 +5,16 @@ PipelineProcessedCallback = {}
 
 ---@param fields? PipelineProcessedCallback
 ---@return PipelineProcessedCallback
-function PipelineProcessedCallback.new(fields) return end
+function PipelineProcessedCallback.new(fields) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function PipelineProcessedCallback:OnHitReceived(hitEvent) return end
+function PipelineProcessedCallback:OnHitReceived(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function PipelineProcessedCallback:OnHitTriggered(hitEvent) return end
+function PipelineProcessedCallback:OnHitTriggered(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function PipelineProcessedCallback:OnPipelineProcessed(hitEvent) return end
+function PipelineProcessedCallback:OnPipelineProcessed(hitEvent) end

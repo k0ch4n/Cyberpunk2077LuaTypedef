@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questEntityManagerManageBinkComponent_NodeType: questIEntityManager_NodeType
----@field public params questEntityManagerManageBinkComponent_NodeTypeParams[]
+---@field params questEntityManagerManageBinkComponent_NodeTypeParams[]
 questEntityManagerManageBinkComponent_NodeType = {}
 
 ---@param fields? questEntityManagerManageBinkComponent_NodeType
 ---@return questEntityManagerManageBinkComponent_NodeType
-function questEntityManagerManageBinkComponent_NodeType.new(fields) return end
+function questEntityManagerManageBinkComponent_NodeType.new(fields) end

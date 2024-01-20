@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class WorldMapGangItemController: inkWidgetLogicController
----@field private factionNameText inkTextWidgetReference
----@field private factionIconImage inkImageWidgetReference
+---@field factionNameText inkTextWidgetReference
+---@field factionIconImage inkImageWidgetReference
 WorldMapGangItemController = {}
 
 ---@param fields? WorldMapGangItemController
 ---@return WorldMapGangItemController
-function WorldMapGangItemController.new(fields) return end
+function WorldMapGangItemController.new(fields) end
 
 ---@param affiliationRecord gamedataAffiliation_Record
 ---@return nil
-function WorldMapGangItemController:SetData(affiliationRecord) return end
+function WorldMapGangItemController:SetData(affiliationRecord) end

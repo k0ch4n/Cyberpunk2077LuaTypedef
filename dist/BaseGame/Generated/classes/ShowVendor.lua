@@ -5,20 +5,20 @@ ShowVendor = {}
 
 ---@param fields? ShowVendor
 ---@return ShowVendor
-function ShowVendor.new(fields) return end
+function ShowVendor.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ShowVendor.IsDefaultConditionMet(device, context) return end
+function ShowVendor.IsDefaultConditionMet(device, context) end
 
 ---@param buttonName String
 ---@param actions? gamedeviceAction[]
 ---@return nil
-function ShowVendor:CreateActionWidgetPackage(buttonName, actions) return end
+function ShowVendor:CreateActionWidgetPackage(buttonName, actions) end
 
 ---@return String
-function ShowVendor:GetTweakDBChoiceRecord() return end
+function ShowVendor:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function ShowVendor:SetProperties() return end
+function ShowVendor:SetProperties() end

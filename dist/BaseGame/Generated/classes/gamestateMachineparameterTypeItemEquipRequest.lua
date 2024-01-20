@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamestateMachineparameterTypeItemEquipRequest: IScriptable
----@field public slotId TweakDBID
----@field public itemId gameItemID
----@field public startingRenderingPlane ERenderingPlane
+---@field slotId TweakDBID
+---@field itemId gameItemID
+---@field startingRenderingPlane ERenderingPlane
 gamestateMachineparameterTypeItemEquipRequest = {}
 
 ---@param fields? gamestateMachineparameterTypeItemEquipRequest
 ---@return gamestateMachineparameterTypeItemEquipRequest
-function gamestateMachineparameterTypeItemEquipRequest.new(fields) return end
+function gamestateMachineparameterTypeItemEquipRequest.new(fields) end

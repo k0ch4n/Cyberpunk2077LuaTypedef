@@ -1,441 +1,370 @@
 ---@meta
 
 ---@class BaseGrenade: gameweaponGrenade
----@field protected projectileComponent gameprojectileComponent
----@field protected user gameObject
----@field protected projectileSpawnPoint Vector4
----@field protected shootCollision entSimpleColliderComponent
----@field protected visualComponent entIComponent
----@field protected stickyMeshComponent entIComponent
----@field protected decalsStickyComponent entIComponent
----@field protected homingMeshComponent entIComponent
----@field protected targetingComponent gameTargetingComponent
----@field protected resourceLibraryComponent ResourceLibraryComponent
----@field protected mappinID gameNewMappinID
----@field protected timeSinceLaunch Float
----@field protected timeSinceExplosion Float
----@field protected detonationTimer Float
----@field protected stickyTrackerTimeout Float
----@field protected timeOfFreezing Float
----@field protected spawnBlinkEffectDelayID gameDelayID
----@field protected detonateRequestDelayID gameDelayID
----@field protected releaseRequestDelayID gameDelayID
----@field protected delayToDetonate Float
----@field protected detonationTimerActive Bool
----@field protected isAlive Bool
----@field protected isSinking Bool
----@field protected landedOnGround Bool
----@field protected isStuck Bool
----@field protected isTracking Bool
----@field protected isLockingOn Bool
----@field protected isLockedOn Bool
----@field protected readyToTrack Bool
----@field protected lockOnFailed Bool
----@field protected canBeShot Bool
----@field protected shotDownByThePlayer Bool
----@field protected forceExplosion Bool
----@field protected hasClearedIgnoredObject Bool
----@field protected detonateOnImpact Bool
----@field protected setStickyTracker Bool
----@field protected isContinuousEffect Bool
----@field protected additionalAttackOnDetonate Bool
----@field protected additionalAttackOnCollision Bool
----@field protected targetAcquired Bool
----@field protected collidedWithNPC Bool
----@field protected isBroadcastingStim Bool
----@field protected playingFastBeep Bool
----@field protected hasExploded Bool
----@field protected targetTracker gameEffectInstance
----@field protected potentialHomingTargets GrenadePotentialHomingTarget[]
----@field protected homingGrenadeTarget GrenadePotentialHomingTarget
----@field protected cuttingGrenadePotentialTargets CuttingGrenadePotentialTarget[]
----@field protected drillTargetPosition Vector4
----@field protected attacksSpawned gameEffectInstance[]
----@field protected tweakRecord gamedataGrenade_Record
----@field private additionalEffect gameFxResource
----@field protected landedCooldownActive Bool
----@field protected landedCooldownTimer Float
----@field protected hasHitWater Bool
----@field protected waterHeight Float
----@field protected smokeEffectRadius Float
----@field protected smokeEffectDuration Float
----@field protected smokeVisionBlockerId Uint32
----@field private isSmokeEffectActive Bool
----@field private smokeVFXDeescalationOffset Float
----@field protected cpoTimeBeforeRelease Float
+---@field projectileComponent gameprojectileComponent
+---@field user gameObject
+---@field projectileSpawnPoint Vector4
+---@field shootCollision entSimpleColliderComponent
+---@field visualComponent entIComponent
+---@field stickyMeshComponent entIComponent
+---@field decalsStickyComponent entIComponent
+---@field homingMeshComponent entIComponent
+---@field targetingComponent gameTargetingComponent
+---@field resourceLibraryComponent ResourceLibraryComponent
+---@field mappinID gameNewMappinID
+---@field timeSinceLaunch Float
+---@field timeSinceExplosion Float
+---@field detonationTimer Float
+---@field stickyTrackerTimeout Float
+---@field timeOfFreezing Float
+---@field spawnBlinkEffectDelayID gameDelayID
+---@field detonateRequestDelayID gameDelayID
+---@field releaseRequestDelayID gameDelayID
+---@field delayToDetonate Float
+---@field detonationTimerActive Bool
+---@field isAlive Bool
+---@field isSinking Bool
+---@field landedOnGround Bool
+---@field isStuck Bool
+---@field isTracking Bool
+---@field isLockingOn Bool
+---@field isLockedOn Bool
+---@field readyToTrack Bool
+---@field lockOnFailed Bool
+---@field canBeShot Bool
+---@field shotDownByThePlayer Bool
+---@field forceExplosion Bool
+---@field hasClearedIgnoredObject Bool
+---@field detonateOnImpact Bool
+---@field setStickyTracker Bool
+---@field isContinuousEffect Bool
+---@field additionalAttackOnDetonate Bool
+---@field additionalAttackOnCollision Bool
+---@field targetAcquired Bool
+---@field collidedWithNPC Bool
+---@field isBroadcastingStim Bool
+---@field playingFastBeep Bool
+---@field hasExploded Bool
+---@field targetTracker gameEffectInstance
+---@field potentialHomingTargets GrenadePotentialHomingTarget[]
+---@field homingGrenadeTarget GrenadePotentialHomingTarget
+---@field cuttingGrenadePotentialTargets CuttingGrenadePotentialTarget[]
+---@field drillTargetPosition Vector4
+---@field attacksSpawned gameEffectInstance[]
+---@field tweakRecord gamedataGrenade_Record
+---@field additionalEffect gameFxResource
+---@field landedCooldownActive Bool
+---@field landedCooldownTimer Float
+---@field hasHitWater Bool
+---@field waterHeight Float
+---@field smokeEffectRadius Float
+---@field smokeEffectDuration Float
+---@field smokeVisionBlockerId Uint32
+---@field isSmokeEffectActive Bool
+---@field smokeVFXDeescalationOffset Float
+---@field cpoTimeBeforeRelease Float
 BaseGrenade = {}
 
 ---@param fields? BaseGrenade
 ---@return BaseGrenade
-function BaseGrenade.new(fields) return end
+function BaseGrenade.new(fields) end
 
 ---@param owner gameObject
 ---@param itemID gameItemID
 ---@return nil
-function BaseGrenade.SendGrenadeAnimFeatureChangeEvent(owner, itemID) return end
+function BaseGrenade.SendGrenadeAnimFeatureChangeEvent(owner, itemID) end
 
----@protected
 ---@param evt CuttingGrenadeAddAxisRotationEvent
 ---@return Bool
-function BaseGrenade:OnAddAxisRotationEvent(evt) return end
+function BaseGrenade:OnAddAxisRotationEvent(evt) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function BaseGrenade:OnCollision(eventData) return end
+function BaseGrenade:OnCollision(eventData) end
 
----@protected
 ---@param evt CuttingGrenadeDespawnEffectsEvent
 ---@return Bool
-function BaseGrenade:OnCuttingGrenadeDespawnEffectsEvent(evt) return end
+function BaseGrenade:OnCuttingGrenadeDespawnEffectsEvent(evt) end
 
----@protected
 ---@param evt CuttingGrenadeSpawnBlinkEffectEvent
 ---@return Bool
-function BaseGrenade:OnCuttingGrenadeSpawnBlinkEffectEvent(evt) return end
+function BaseGrenade:OnCuttingGrenadeSpawnBlinkEffectEvent(evt) end
 
----@protected
 ---@param evt CuttingGrenadeStopAttackEvent
 ---@return Bool
-function BaseGrenade:OnCuttingGrenadeStopAttackEvent(evt) return end
+function BaseGrenade:OnCuttingGrenadeStopAttackEvent(evt) end
 
----@protected
 ---@param evt GrenadeDespawnRequestEvent
 ---@return Bool
-function BaseGrenade:OnDespawnRequest(evt) return end
+function BaseGrenade:OnDespawnRequest(evt) end
 
----@protected
 ---@param evt GrenadeDetonateRequestEvent
 ---@return Bool
-function BaseGrenade:OnDetonateRequest(evt) return end
+function BaseGrenade:OnDetonateRequest(evt) end
 
----@protected
 ---@param eventData gameprojectileFollowEvent
 ---@return Bool
-function BaseGrenade:OnFollowSuccess(eventData) return end
+function BaseGrenade:OnFollowSuccess(eventData) end
 
----@protected
 ---@param evt gameprojectileForceActivationEvent
 ---@return Bool
-function BaseGrenade:OnForceActivation(evt) return end
+function BaseGrenade:OnForceActivation(evt) end
 
----@protected
 ---@param evt GrenadeAnimFeatureChangeEvent
 ---@return Bool
-function BaseGrenade:OnGrenadeAnimFeatureChange(evt) return end
+function BaseGrenade:OnGrenadeAnimFeatureChange(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function BaseGrenade:OnHit(evt) return end
+function BaseGrenade:OnHit(evt) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function BaseGrenade:OnProjectileInitialize(eventData) return end
+function BaseGrenade:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param evt GrenadeReleaseRequestEvent
 ---@return Bool
-function BaseGrenade:OnReleaseRequestEvent(evt) return end
+function BaseGrenade:OnReleaseRequestEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function BaseGrenade:OnRequestComponents(ri) return end
+function BaseGrenade:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function BaseGrenade:OnShoot(eventData) return end
+function BaseGrenade:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function BaseGrenade:OnShootTarget(eventData) return end
+function BaseGrenade:OnShootTarget(eventData) end
 
----@protected
 ---@param evt SpawnLaserAttackEvent
 ---@return Bool
-function BaseGrenade:OnSpawnLaserAttackEvent(evt) return end
+function BaseGrenade:OnSpawnLaserAttackEvent(evt) end
 
----@protected
 ---@param evt GrenadeStopDrillingRequestEvent
 ---@return Bool
-function BaseGrenade:OnStopDrillingRequest(evt) return end
+function BaseGrenade:OnStopDrillingRequest(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BaseGrenade:OnTakeControl(ri) return end
+function BaseGrenade:OnTakeControl(ri) end
 
----@protected
 ---@param evt GrenadeTrackerTargetAcquiredEvent
 ---@return Bool
-function BaseGrenade:OnTargetAcquired(evt) return end
+function BaseGrenade:OnTargetAcquired(evt) end
 
----@protected
 ---@param evt GrenadeTrackerTargetLostEvent
 ---@return Bool
-function BaseGrenade:OnTargetLost(evt) return end
+function BaseGrenade:OnTargetLost(evt) end
 
----@protected
 ---@param evt GrenadeSetTargetTrackerStateEvent
 ---@return Bool
-function BaseGrenade:OnTargetTrackerStateSet(evt) return end
+function BaseGrenade:OnTargetTrackerStateSet(evt) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function BaseGrenade:OnTick(eventData) return end
+function BaseGrenade:OnTick(eventData) end
 
----@protected
 ---@param evt GrenadeTriggerSmartTrajectoryEvent
 ---@return Bool
-function BaseGrenade:OnTriggerSmartTrajectory(evt) return end
+function BaseGrenade:OnTriggerSmartTrajectory(evt) end
 
----@protected
 ---@return Bool
-function BaseGrenade:OnVisualSpawnAttached() return end
+function BaseGrenade:OnVisualSpawnAttached() end
 
----@protected
 ---@return nil
-function BaseGrenade:ActivateSmartTrajectory() return end
+function BaseGrenade:ActivateSmartTrajectory() end
 
----@protected
 ---@param position Vector4
 ---@param attackRadius Float
 ---@param numImpulses Int32
 ---@return nil
-function BaseGrenade:AddWaterImpulsesOnDetonation(position, attackRadius, numImpulses) return end
+function BaseGrenade:AddWaterImpulsesOnDetonation(position, attackRadius, numImpulses) end
 
----@protected
 ---@param attackData gamedamageAttackData
 ---@return nil
-function BaseGrenade:CheckForGunslingerAchievement(attackData) return end
+function BaseGrenade:CheckForGunslingerAchievement(attackData) end
 
----@protected
 ---@return Bool
-function BaseGrenade:CheckRegularDeliveryMethodConditions() return end
+function BaseGrenade:CheckRegularDeliveryMethodConditions() end
 
----@protected
 ---@return Bool
-function BaseGrenade:CheckStickyDeliveryMethodConditions() return end
+function BaseGrenade:CheckStickyDeliveryMethodConditions() end
 
----@protected
 ---@return GrenadePotentialHomingTarget
-function BaseGrenade:ChooseSmartTrajectoryTarget() return end
+function BaseGrenade:ChooseSmartTrajectoryTarget() end
 
----@protected
 ---@param newState Bool
 ---@param delay Float
 ---@return nil
-function BaseGrenade:DelayTargetTrackingStateChange(newState, delay) return end
+function BaseGrenade:DelayTargetTrackingStateChange(newState, delay) end
 
----@protected
 ---@return gamedataStimType
-function BaseGrenade:DetermineLandedStimType() return end
+function BaseGrenade:DetermineLandedStimType() end
 
----@protected
 ---@param hitNormal? Vector4
 ---@return nil
-function BaseGrenade:Detonate(hitNormal) return end
+function BaseGrenade:Detonate(hitNormal) end
 
----@protected
 ---@param collisionEventData gameprojectileHitInstance
 ---@return nil
-function BaseGrenade:DrillThrough(collisionEventData) return end
+function BaseGrenade:DrillThrough(collisionEventData) end
 
----@protected
 ---@return nil
-function BaseGrenade:DropToFloor() return end
+function BaseGrenade:DropToFloor() end
 
----@protected
 ---@return nil
-function BaseGrenade:FloatCuttingGrenadeUp() return end
+function BaseGrenade:FloatCuttingGrenadeUp() end
 
----@protected
 ---@return nil
-function BaseGrenade:FloatToLockOnAltitude() return end
+function BaseGrenade:FloatToLockOnAltitude() end
 
----@protected
 ---@return nil
-function BaseGrenade:Freeze() return end
+function BaseGrenade:Freeze() end
 
 ---@return Float
-function BaseGrenade:GetAccelerationZ() return end
+function BaseGrenade:GetAccelerationZ() end
 
 ---@return Float
-function BaseGrenade:GetAttackDuration() return end
+function BaseGrenade:GetAttackDuration() end
 
 ---@return Float
-function BaseGrenade:GetAttackRadius() return end
+function BaseGrenade:GetAttackRadius() end
 
 ---@return gamedataAttack_Record
-function BaseGrenade:GetDefaultAttack() return end
+function BaseGrenade:GetDefaultAttack() end
 
 ---@return gamedataGrenadeDeliveryMethodType
-function BaseGrenade:GetDeliveryMethod() return end
+function BaseGrenade:GetDeliveryMethod() end
 
----@protected
 ---@return Float
-function BaseGrenade:GetDistanceFromFloor() return end
+function BaseGrenade:GetDistanceFromFloor() end
 
----@protected
 ---@return Float
-function BaseGrenade:GetDistanceToFloat() return end
+function BaseGrenade:GetDistanceToFloat() end
 
----@protected
 ---@param currentPosition Vector4
 ---@param hitNormal Vector4
 ---@return Vector4
-function BaseGrenade:GetDrillTargetPosition(currentPosition, hitNormal) return end
+function BaseGrenade:GetDrillTargetPosition(currentPosition, hitNormal) end
 
 ---@return Float
-function BaseGrenade:GetGrenadeAttackStatusEffectDuration() return end
+function BaseGrenade:GetGrenadeAttackStatusEffectDuration() end
 
----@private
 ---@return EGrenadeType
-function BaseGrenade:GetGrenadeType() return end
+function BaseGrenade:GetGrenadeType() end
 
 ---@param isQuickThrow Bool
 ---@return Float
-function BaseGrenade:GetInitialVelocity(isQuickThrow) return end
+function BaseGrenade:GetInitialVelocity(isQuickThrow) end
 
 ---@return Vector4
-function BaseGrenade:GetLastHitNormal() return end
+function BaseGrenade:GetLastHitNormal() end
 
----@private
 ---@param grenadeType EGrenadeType
 ---@return TweakDBID
-function BaseGrenade:GetMappinIconIDForGrenadeType(grenadeType) return end
+function BaseGrenade:GetMappinIconIDForGrenadeType(grenadeType) end
 
----@protected
 ---@return Vector4
-function BaseGrenade:GetShootCollisionSize() return end
+function BaseGrenade:GetShootCollisionSize() end
 
 ---@return gameObject
-function BaseGrenade:GetUser() return end
+function BaseGrenade:GetUser() end
 
----@private
 ---@return nil
-function BaseGrenade:InitializeRotation() return end
+function BaseGrenade:InitializeRotation() end
 
 ---@return Bool
-function BaseGrenade:IsEMP() return end
+function BaseGrenade:IsEMP() end
 
----@protected
 ---@param compareType EGrenadeType
 ---@return Bool
-function BaseGrenade:IsGrenadeOfType(compareType) return end
+function BaseGrenade:IsGrenadeOfType(compareType) end
 
----@protected
 ---@return Bool
-function BaseGrenade:IsUnderwater() return end
+function BaseGrenade:IsUnderwater() end
 
----@protected
 ---@return Bool
-function BaseGrenade:MultiplayerCanRelease() return end
+function BaseGrenade:MultiplayerCanRelease() end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return nil
-function BaseGrenade:OnServerTick(eventData) return end
+function BaseGrenade:OnServerTick(eventData) end
 
----@protected
 ---@param index Int32
 ---@return nil
-function BaseGrenade:PlayLaserSlotAnimation(index) return end
+function BaseGrenade:PlayLaserSlotAnimation(index) end
 
----@protected
 ---@return nil
-function BaseGrenade:PlayNPCGrenadeBeepSound() return end
+function BaseGrenade:PlayNPCGrenadeBeepSound() end
 
----@protected
 ---@return nil
-function BaseGrenade:PlayStickyGrenadeLongBeepSound() return end
+function BaseGrenade:PlayStickyGrenadeLongBeepSound() end
 
----@protected
 ---@return nil
-function BaseGrenade:PlayStickyGrenadeShortBeepSound() return end
+function BaseGrenade:PlayStickyGrenadeShortBeepSound() end
 
----@protected
 ---@return nil
-function BaseGrenade:PreloadAttackResources() return end
+function BaseGrenade:PreloadAttackResources() end
 
----@protected
 ---@return Bool
-function BaseGrenade:ProcessProximityTargets() return end
+function BaseGrenade:ProcessProximityTargets() end
 
----@protected
 ---@param delay Float
 ---@return nil
-function BaseGrenade:QueueSmartTrajectory(delay) return end
+function BaseGrenade:QueueSmartTrajectory(delay) end
 
----@private
 ---@param position Vector4
 ---@return nil
-function BaseGrenade:RegisterSmokeExplosion(position) return end
+function BaseGrenade:RegisterSmokeExplosion(position) end
 
----@protected
 ---@param isInstant? Bool
 ---@return nil
-function BaseGrenade:Release(isInstant) return end
+function BaseGrenade:Release(isInstant) end
 
----@protected
 ---@return nil
-function BaseGrenade:ReleaseAttackResources() return end
+function BaseGrenade:ReleaseAttackResources() end
 
----@protected
 ---@return nil
-function BaseGrenade:ReleaseMappin() return end
+function BaseGrenade:ReleaseMappin() end
 
----@protected
 ---@return nil
-function BaseGrenade:RemoveGrenadeLandedStimuli() return end
+function BaseGrenade:RemoveGrenadeLandedStimuli() end
 
----@protected
 ---@param delay Float
 ---@return nil
-function BaseGrenade:RequestGrenadeDetonation(delay) return end
+function BaseGrenade:RequestGrenadeDetonation(delay) end
 
----@protected
 ---@param delay Float
 ---@return nil
-function BaseGrenade:RequestGrenadeRelease(delay) return end
+function BaseGrenade:RequestGrenadeRelease(delay) end
 
----@protected
 ---@return nil
-function BaseGrenade:Reset() return end
+function BaseGrenade:Reset() end
 
----@protected
 ---@return nil
-function BaseGrenade:SendCombatGadgetIsAliveFeature() return end
+function BaseGrenade:SendCombatGadgetIsAliveFeature() end
 
 ---@param canBeShot Bool
 ---@return nil
-function BaseGrenade:SetCanBeShot(canBeShot) return end
+function BaseGrenade:SetCanBeShot(canBeShot) end
 
----@protected
 ---@param newState Int32
 ---@param target gameObject
 ---@return nil
-function BaseGrenade:SetThrowableAnimFeatureOnGrenade(newState, target) return end
+function BaseGrenade:SetThrowableAnimFeatureOnGrenade(newState, target) end
 
----@protected
 ---@param state Bool
 ---@return nil
-function BaseGrenade:SetTracking(state) return end
+function BaseGrenade:SetTracking(state) end
 
----@protected
 ---@return nil
-function BaseGrenade:SetupDeliveryMethodMesh() return end
+function BaseGrenade:SetupDeliveryMethodMesh() end
 
----@protected
 ---@return Bool
-function BaseGrenade:ShouldUsePlayerAttack() return end
+function BaseGrenade:ShouldUsePlayerAttack() end
 
----@protected
 ---@param attackRecord gamedataAttack_Record
 ---@param range? Float
 ---@param duration? Float
@@ -443,19 +372,16 @@ function BaseGrenade:ShouldUsePlayerAttack() return end
 ---@param position? Vector4
 ---@param vfxOffset? Vector4
 ---@return gameEffectInstance
-function BaseGrenade:SpawnAttack(attackRecord, range, duration, hitNormal, position, vfxOffset) return end
+function BaseGrenade:SpawnAttack(attackRecord, range, duration, hitNormal, position, vfxOffset) end
 
----@protected
 ---@param key CName|string
 ---@return nil
-function BaseGrenade:SpawnEffectFromLibrary(key) return end
+function BaseGrenade:SpawnEffectFromLibrary(key) end
 
----@protected
 ---@param groundEffect gameFxResource
 ---@return nil
-function BaseGrenade:SpawnEffectOnGround(groundEffect) return end
+function BaseGrenade:SpawnEffectOnGround(groundEffect) end
 
----@protected
 ---@param attackRecord gamedataAttack_Record
 ---@param numberOfLasers Int32
 ---@param range? Float
@@ -463,61 +389,49 @@ function BaseGrenade:SpawnEffectOnGround(groundEffect) return end
 ---@param playSlotAnimation Bool
 ---@param delayPerLaser? Float
 ---@return nil
-function BaseGrenade:SpawnLaserAttack(attackRecord, numberOfLasers, range, duration, playSlotAnimation, delayPerLaser) return end
+function BaseGrenade:SpawnLaserAttack(attackRecord, numberOfLasers, range, duration, playSlotAnimation, delayPerLaser) end
 
----@protected
 ---@param attackRecord gamedataAttack_Record
 ---@param range Float
 ---@param duration Float
 ---@param index Int32
 ---@param playSlotAnimation Bool
 ---@return nil
-function BaseGrenade:SpawnLaserAttackSingle(attackRecord, range, duration, index, playSlotAnimation) return end
+function BaseGrenade:SpawnLaserAttackSingle(attackRecord, range, duration, index, playSlotAnimation) end
 
----@protected
 ---@param attackRecord gamedataAttack_Record
 ---@param targetEntity? ScriptedPuppet
 ---@return gameEffectInstance
-function BaseGrenade:SpawnOnPuppetCollisionAttack(attackRecord, targetEntity) return end
+function BaseGrenade:SpawnOnPuppetCollisionAttack(attackRecord, targetEntity) end
 
----@protected
 ---@return nil
-function BaseGrenade:SpawnPiercingExplosion() return end
+function BaseGrenade:SpawnPiercingExplosion() end
 
----@protected
 ---@return nil
-function BaseGrenade:SpawnVisualEffectsOnDetonation() return end
+function BaseGrenade:SpawnVisualEffectsOnDetonation() end
 
----@protected
 ---@return nil
-function BaseGrenade:StopCuttingGrenadeAttack() return end
+function BaseGrenade:StopCuttingGrenadeAttack() end
 
----@protected
 ---@return nil
-function BaseGrenade:StopNPCGrenadeBeepSound() return end
+function BaseGrenade:StopNPCGrenadeBeepSound() end
 
----@protected
 ---@return nil
-function BaseGrenade:StopStickyGrenadeSounds() return end
+function BaseGrenade:StopStickyGrenadeSounds() end
 
----@protected
 ---@return nil
-function BaseGrenade:TerminateCuttingGrenadeAttack() return end
+function BaseGrenade:TerminateCuttingGrenadeAttack() end
 
----@protected
 ---@param hasLifeTime Bool
 ---@return nil
-function BaseGrenade:TriggerGrenadeLandedStimuli(hasLifeTime) return end
+function BaseGrenade:TriggerGrenadeLandedStimuli(hasLifeTime) end
 
----@protected
 ---@param radius Float
 ---@return nil
-function BaseGrenade:TriggerStimuli(radius) return end
+function BaseGrenade:TriggerStimuli(radius) end
 
----@protected
 ---@return nil
-function BaseGrenade:TryToSinkAndRequestDetonation() return end
+function BaseGrenade:TryToSinkAndRequestDetonation() end
 
----@private
 ---@return nil
-function BaseGrenade:UnregisterSmokeExplosion() return end
+function BaseGrenade:UnregisterSmokeExplosion() end

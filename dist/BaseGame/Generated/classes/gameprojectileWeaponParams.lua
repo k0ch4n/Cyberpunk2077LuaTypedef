@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class gameprojectileWeaponParams
----@field public targetPosition Vector4
----@field public smartGunSpreadOnHitPlane Vector3
----@field public charge Float
----@field public trackedTargetComponent entIPlacedComponent
----@field public smartGunAccuracy Float
----@field public smartGunIsProjectileGuided Bool
----@field public hitPlaneOffset Vector4
----@field public shootingOffset Float
----@field public ignoreWeaponOwnerCollision Bool
----@field public ignoreMountedVehicleCollision Bool
----@field public ricochetData gameRicochetData
----@field public range Float
+---@field targetPosition Vector4
+---@field smartGunSpreadOnHitPlane Vector3
+---@field charge Float
+---@field trackedTargetComponent entIPlacedComponent
+---@field smartGunAccuracy Float
+---@field smartGunIsProjectileGuided Bool
+---@field hitPlaneOffset Vector4
+---@field shootingOffset Float
+---@field ignoreWeaponOwnerCollision Bool
+---@field ignoreMountedVehicleCollision Bool
+---@field ricochetData gameRicochetData
+---@field range Float
 gameprojectileWeaponParams = {}
 
 ---@param fields? gameprojectileWeaponParams
 ---@return gameprojectileWeaponParams
-function gameprojectileWeaponParams.new(fields) return end
+function gameprojectileWeaponParams.new(fields) end
 
 ---@param self gameprojectileWeaponParams
 ---@param entityID entEntityID
 ---@return nil
-function gameprojectileWeaponParams.AddObjectToIgnoreCollisionWith(self, entityID) return end
+function gameprojectileWeaponParams.AddObjectToIgnoreCollisionWith(self, entityID) end

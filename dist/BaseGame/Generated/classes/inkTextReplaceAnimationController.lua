@@ -1,34 +1,34 @@
 ---@meta
 
 ---@class inkTextReplaceAnimationController: inkTextAnimationController
----@field public timeToSkip Float
----@field public widgetTextUsage inkTextReplaceAnimationControllerWidgetTextUsage
----@field public baseTextLocalized LocalizationString
----@field public targetText String
----@field public targetTextLocalized LocalizationString
+---@field timeToSkip Float
+---@field widgetTextUsage inkTextReplaceAnimationControllerWidgetTextUsage
+---@field baseTextLocalized LocalizationString
+---@field targetText String
+---@field targetTextLocalized LocalizationString
 inkTextReplaceAnimationController = {}
 
 ---@param fields? inkTextReplaceAnimationController
 ---@return inkTextReplaceAnimationController
-function inkTextReplaceAnimationController.new(fields) return end
+function inkTextReplaceAnimationController.new(fields) end
 
 ---@return String
-function inkTextReplaceAnimationController:GetBaseText() return end
+function inkTextReplaceAnimationController:GetBaseText() end
 
 ---@return String
-function inkTextReplaceAnimationController:GetTargetText() return end
+function inkTextReplaceAnimationController:GetTargetText() end
 
 ---@return Float
-function inkTextReplaceAnimationController:GetTimeSkip() return end
+function inkTextReplaceAnimationController:GetTimeSkip() end
 
 ---@param text String
 ---@return nil
-function inkTextReplaceAnimationController:SetBaseText(text) return end
+function inkTextReplaceAnimationController:SetBaseText(text) end
 
 ---@param text String
 ---@return nil
-function inkTextReplaceAnimationController:SetTargetText(text) return end
+function inkTextReplaceAnimationController:SetTargetText(text) end
 
 ---@param timeSkipValue Float
 ---@return nil
-function inkTextReplaceAnimationController:SetTimeSkip(timeSkipValue) return end
+function inkTextReplaceAnimationController:SetTimeSkip(timeSkipValue) end

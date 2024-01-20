@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkClippedMenuScenarioData: IScriptable
----@field public menus CName[]
+---@field menus CName[]
 inkClippedMenuScenarioData = {}
 
 ---@param fields? inkClippedMenuScenarioData
 ---@return inkClippedMenuScenarioData
-function inkClippedMenuScenarioData.new(fields) return end
+function inkClippedMenuScenarioData.new(fields) end

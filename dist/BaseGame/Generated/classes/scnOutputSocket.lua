@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnOutputSocket
----@field public stamp scnOutputSocketStamp
----@field public destinations scnInputSocketId[]
+---@field stamp scnOutputSocketStamp
+---@field destinations scnInputSocketId[]
 scnOutputSocket = {}
 
 ---@param fields? scnOutputSocket
 ---@return scnOutputSocket
-function scnOutputSocket.new(fields) return end
+function scnOutputSocket.new(fields) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class MoveCommandCleanup: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 MoveCommandCleanup = {}
 
 ---@param fields? MoveCommandCleanup
 ---@return MoveCommandCleanup
-function MoveCommandCleanup.new(fields) return end
+function MoveCommandCleanup.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MoveCommandCleanup:Deactivate(context) return end
+function MoveCommandCleanup:Deactivate(context) end

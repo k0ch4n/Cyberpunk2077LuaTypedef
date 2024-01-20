@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameinteractionsvisIVisualizerDefinition: ISerializable
----@field public flags gameinteractionsvisEVisualizerDefinitionFlags
+---@field flags gameinteractionsvisEVisualizerDefinitionFlags
 gameinteractionsvisIVisualizerDefinition = {}

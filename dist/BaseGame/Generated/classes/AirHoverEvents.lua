@@ -5,36 +5,31 @@ AirHoverEvents = {}
 
 ---@param fields? AirHoverEvents
 ---@return AirHoverEvents
-function AirHoverEvents.new(fields) return end
+function AirHoverEvents.new(fields) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param verticalSpeed Float
 ---@return nil
-function AirHoverEvents:AddUpwardsImpulse(stateContext, scriptInterface, verticalSpeed) return end
+function AirHoverEvents:AddUpwardsImpulse(stateContext, scriptInterface, verticalSpeed) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AirHoverEvents:OnEnter(stateContext, scriptInterface) return end
+function AirHoverEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AirHoverEvents:OnExit(stateContext, scriptInterface) return end
+function AirHoverEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AirHoverEvents:OnForcedExit(stateContext, scriptInterface) return end
+function AirHoverEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param verticalSpeed Float
 ---@return nil
-function AirHoverEvents:SetDeathFallHeight(stateContext, scriptInterface, verticalSpeed) return end
+function AirHoverEvents:SetDeathFallHeight(stateContext, scriptInterface, verticalSpeed) end

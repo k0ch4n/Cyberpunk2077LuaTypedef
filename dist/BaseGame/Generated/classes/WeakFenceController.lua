@@ -5,7 +5,7 @@ WeakFenceController = {}
 
 ---@param fields? WeakFenceController
 ---@return WeakFenceController
-function WeakFenceController.new(fields) return end
+function WeakFenceController.new(fields) end
 
 ---@return WeakFenceControllerPS
-function WeakFenceController:GetPS() return end
+function WeakFenceController:GetPS() end

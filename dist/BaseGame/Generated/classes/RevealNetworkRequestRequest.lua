@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RevealNetworkRequestRequest: gameScriptableSystemRequest
----@field public target entEntityID
----@field public delay Float
+---@field target entEntityID
+---@field delay Float
 RevealNetworkRequestRequest = {}
 
 ---@param fields? RevealNetworkRequestRequest
 ---@return RevealNetworkRequestRequest
-function RevealNetworkRequestRequest.new(fields) return end
+function RevealNetworkRequestRequest.new(fields) end

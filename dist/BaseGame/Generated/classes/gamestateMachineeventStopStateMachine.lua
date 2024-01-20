@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineeventStopStateMachine: redEvent
----@field public stateMachineIdentifier gamestateMachineStateMachineIdentifier
+---@field stateMachineIdentifier gamestateMachineStateMachineIdentifier
 gamestateMachineeventStopStateMachine = {}
 
 ---@param fields? gamestateMachineeventStopStateMachine
 ---@return gamestateMachineeventStopStateMachine
-function gamestateMachineeventStopStateMachine.new(fields) return end
+function gamestateMachineeventStopStateMachine.new(fields) end

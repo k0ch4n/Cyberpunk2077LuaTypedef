@@ -5,19 +5,19 @@ worldRuntimeInfo = {}
 
 ---@param fields? worldRuntimeInfo
 ---@return worldRuntimeInfo
-function worldRuntimeInfo.new(fields) return end
+function worldRuntimeInfo.new(fields) end
 
 ---@return Bool
-function worldRuntimeInfo:IsClient() return end
+function worldRuntimeInfo:IsClient() end
 
 ---@return Bool
-function worldRuntimeInfo:IsGamePreview() return end
+function worldRuntimeInfo:IsGamePreview() end
 
 ---@return Bool
-function worldRuntimeInfo:IsMultiplayer() return end
+function worldRuntimeInfo:IsMultiplayer() end
 
 ---@return Bool
-function worldRuntimeInfo:IsServer() return end
+function worldRuntimeInfo:IsServer() end
 
 ---@return Bool
-function worldRuntimeInfo:IsSingleplayer() return end
+function worldRuntimeInfo:IsSingleplayer() end

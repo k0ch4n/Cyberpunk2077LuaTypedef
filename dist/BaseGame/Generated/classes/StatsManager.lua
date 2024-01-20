@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class StatsManager: IScriptable
----@field public playerGodModeModifierData gameStatModifierData_Deprecated
+---@field playerGodModeModifierData gameStatModifierData_Deprecated
 StatsManager = {}
 
 ---@param fields? StatsManager
 ---@return StatsManager
-function StatsManager.new(fields) return end
+function StatsManager.new(fields) end
 
 ---@param obj gameObject
 ---@return DPSPackage
-function StatsManager.GetObjectDPS(obj) return end
+function StatsManager.GetObjectDPS(obj) end

@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class SampleInteractiveEntityThatBumpsTheCounter: gameObject
----@field public targetEntityWithCounter NodeRef
----@field public targetPersistentID gamePersistentID
+---@field targetEntityWithCounter NodeRef
+---@field targetPersistentID gamePersistentID
 SampleInteractiveEntityThatBumpsTheCounter = {}
 
 ---@param fields? SampleInteractiveEntityThatBumpsTheCounter
 ---@return SampleInteractiveEntityThatBumpsTheCounter
-function SampleInteractiveEntityThatBumpsTheCounter.new(fields) return end
+function SampleInteractiveEntityThatBumpsTheCounter.new(fields) end
 
----@protected
 ---@param choice gameinteractionsChoiceEvent
 ---@return Bool
-function SampleInteractiveEntityThatBumpsTheCounter:OnInteractionChoice(choice) return end
+function SampleInteractiveEntityThatBumpsTheCounter:OnInteractionChoice(choice) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SampleInteractiveEntityThatBumpsTheCounter:OnRequestComponents(ri) return end
+function SampleInteractiveEntityThatBumpsTheCounter:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SampleInteractiveEntityThatBumpsTheCounter:OnTakeControl(ri) return end
+function SampleInteractiveEntityThatBumpsTheCounter:OnTakeControl(ri) end

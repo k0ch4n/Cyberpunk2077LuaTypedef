@@ -1,62 +1,60 @@
 ---@meta
 
 ---@class ButtonHints: inkWidgetLogicController
----@field public horizontalHolder inkCompoundWidgetReference
+---@field horizontalHolder inkCompoundWidgetReference
 ButtonHints = {}
 
 ---@param fields? ButtonHints
 ---@return ButtonHints
-function ButtonHints.new(fields) return end
+function ButtonHints.new(fields) end
 
----@protected
 ---@return Bool
-function ButtonHints:OnInitialize() return end
+function ButtonHints:OnInitialize() end
 
 ---@param icon EInputKey
 ---@param label String
 ---@return nil
-function ButtonHints:AddButtonHint(icon, label) return end
+function ButtonHints:AddButtonHint(icon, label) end
 
 ---@param action CName|string
 ---@param label CName|string
 ---@param holdInteraction Bool
 ---@return nil
-function ButtonHints:AddButtonHint(action, label, holdInteraction) return end
+function ButtonHints:AddButtonHint(action, label, holdInteraction) end
 
 ---@param action CName|string
 ---@param label CName|string
 ---@return nil
-function ButtonHints:AddButtonHint(action, label) return end
+function ButtonHints:AddButtonHint(action, label) end
 
 ---@param action CName|string
 ---@param label String
 ---@return nil
-function ButtonHints:AddButtonHint(action, label) return end
+function ButtonHints:AddButtonHint(action, label) end
 
 ---@return nil
-function ButtonHints:AddCharacterRoatateButtonHint() return end
+function ButtonHints:AddCharacterRoatateButtonHint() end
 
----@private
 ---@param action CName|string
 ---@return ButtonHintListItem
-function ButtonHints:CheckForPreExisting(action) return end
+function ButtonHints:CheckForPreExisting(action) end
 
 ---@return nil
-function ButtonHints:ClearButtonHints() return end
+function ButtonHints:ClearButtonHints() end
 
 ---@return nil
-function ButtonHints:Hide() return end
+function ButtonHints:Hide() end
 
 ---@return Bool
-function ButtonHints:IsVisible() return end
+function ButtonHints:IsVisible() end
 
 ---@param action CName|string
 ---@return nil
-function ButtonHints:RemoveButtonHint(action) return end
+function ButtonHints:RemoveButtonHint(action) end
 
 ---@param action CName|string
 ---@return inkWidget
-function ButtonHints:RemoveItem(action) return end
+function ButtonHints:RemoveItem(action) end
 
 ---@return nil
-function ButtonHints:Show() return end
+function ButtonHints:Show() end

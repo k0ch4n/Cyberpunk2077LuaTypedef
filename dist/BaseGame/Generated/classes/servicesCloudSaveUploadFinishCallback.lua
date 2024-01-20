@@ -5,4 +5,4 @@ servicesCloudSaveUploadFinishCallback = {}
 
 ---@param fields? servicesCloudSaveUploadFinishCallback
 ---@return servicesCloudSaveUploadFinishCallback
-function servicesCloudSaveUploadFinishCallback.new(fields) return end
+function servicesCloudSaveUploadFinishCallback.new(fields) end

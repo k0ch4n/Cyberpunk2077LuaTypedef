@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class MessageCounterController: gameuiWidgetGameController
----@field protected messageCounter inkTextWidgetReference
----@field private rootWidget inkWidget
----@field private CallInformationBBID redCallbackObject
----@field private journalManager gameJournalManager
----@field private Owner gameObject
+---@field messageCounter inkTextWidgetReference
+---@field rootWidget inkWidget
+---@field CallInformationBBID redCallbackObject
+---@field journalManager gameJournalManager
+---@field Owner gameObject
 MessageCounterController = {}
 
 ---@param fields? MessageCounterController
 ---@return MessageCounterController
-function MessageCounterController.new(fields) return end
+function MessageCounterController.new(fields) end
 
----@protected
 ---@return Bool
-function MessageCounterController:OnInitialize() return end
+function MessageCounterController:OnInitialize() end
 
----@protected
 ---@param entryHash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function MessageCounterController:OnJournalUpdate(entryHash, className, notifyOption, changeType) return end
+function MessageCounterController:OnJournalUpdate(entryHash, className, notifyOption, changeType) end
 
----@protected
 ---@return Bool
-function MessageCounterController:OnUnitialize() return end
+function MessageCounterController:OnUnitialize() end
 
 ---@return nil
-function MessageCounterController:UpdateData() return end
+function MessageCounterController:UpdateData() end

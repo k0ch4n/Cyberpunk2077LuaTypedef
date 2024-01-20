@@ -5,7 +5,7 @@ RemoteBreach = {}
 
 ---@param fields? RemoteBreach
 ---@return RemoteBreach
-function RemoteBreach.new(fields) return end
+function RemoteBreach.new(fields) end
 
 ---@return nil
-function RemoteBreach:SetProperties() return end
+function RemoteBreach:SetProperties() end

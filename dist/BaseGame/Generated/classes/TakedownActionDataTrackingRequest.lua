@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TakedownActionDataTrackingRequest: gamePlayerScriptableSystemRequest
----@field public eventType ETakedownActionType
+---@field eventType ETakedownActionType
 TakedownActionDataTrackingRequest = {}
 
 ---@param fields? TakedownActionDataTrackingRequest
 ---@return TakedownActionDataTrackingRequest
-function TakedownActionDataTrackingRequest.new(fields) return end
+function TakedownActionDataTrackingRequest.new(fields) end

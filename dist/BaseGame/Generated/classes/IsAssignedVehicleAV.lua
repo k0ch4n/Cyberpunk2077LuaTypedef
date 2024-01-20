@@ -5,9 +5,8 @@ IsAssignedVehicleAV = {}
 
 ---@param fields? IsAssignedVehicleAV
 ---@return IsAssignedVehicleAV
-function IsAssignedVehicleAV.new(fields) return end
+function IsAssignedVehicleAV.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsAssignedVehicleAV:Check(context) return end
+function IsAssignedVehicleAV:Check(context) end

@@ -1,39 +1,39 @@
 ---@meta
 
 ---@class inkScrollController: inkWidgetLogicController
----@field public ScrollArea inkScrollAreaWidgetReference
----@field public VerticalScrollBarRef inkWidgetReference
----@field public navigableCompoundWidget inkWidgetReference
----@field public CompoundWidgetRef inkCompoundWidgetReference
----@field public autoHideVertical Bool
----@field public scrollSpeedGamepad Float
----@field public scrollSpeedMouse Float
----@field public direction inkEScrollDirection
----@field public useGlobalInput Bool
----@field public position Float
----@field public desiredSetupPosition Float
----@field public contentSmallerThanViewport Bool
----@field public scrollDelta Float
----@field public viewportSize Vector2
----@field public contentSize Vector2
+---@field ScrollArea inkScrollAreaWidgetReference
+---@field VerticalScrollBarRef inkWidgetReference
+---@field navigableCompoundWidget inkWidgetReference
+---@field CompoundWidgetRef inkCompoundWidgetReference
+---@field autoHideVertical Bool
+---@field scrollSpeedGamepad Float
+---@field scrollSpeedMouse Float
+---@field direction inkEScrollDirection
+---@field useGlobalInput Bool
+---@field position Float
+---@field desiredSetupPosition Float
+---@field contentSmallerThanViewport Bool
+---@field scrollDelta Float
+---@field viewportSize Vector2
+---@field contentSize Vector2
 inkScrollController = {}
 
 ---@param fields? inkScrollController
 ---@return inkScrollController
-function inkScrollController.new(fields) return end
+function inkScrollController.new(fields) end
 
 ---@param value Float
 ---@param isMouseWheel Bool
 ---@return nil
-function inkScrollController:Scroll(value, isMouseWheel) return end
+function inkScrollController:Scroll(value, isMouseWheel) end
 
 ---@param disabled Bool
 ---@return nil
-function inkScrollController:SetInputDisabled(disabled) return end
+function inkScrollController:SetInputDisabled(disabled) end
 
 ---@param newValue Float
 ---@return nil
-function inkScrollController:SetScrollPosition(newValue) return end
+function inkScrollController:SetScrollPosition(newValue) end
 
 ---@return nil
-function inkScrollController:UpdateScrollPositionFromScrollArea() return end
+function inkScrollController:UpdateScrollPositionFromScrollArea() end

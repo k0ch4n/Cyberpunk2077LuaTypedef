@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SecurityTurretReplicatedState: gameDeviceReplicatedState
----@field public isOn Bool
----@field public isShooting Bool
----@field public isDead Bool
----@field public health Float
+---@field isOn Bool
+---@field isShooting Bool
+---@field isDead Bool
+---@field health Float
 SecurityTurretReplicatedState = {}
 
 ---@param fields? SecurityTurretReplicatedState
 ---@return SecurityTurretReplicatedState
-function SecurityTurretReplicatedState.new(fields) return end
+function SecurityTurretReplicatedState.new(fields) end

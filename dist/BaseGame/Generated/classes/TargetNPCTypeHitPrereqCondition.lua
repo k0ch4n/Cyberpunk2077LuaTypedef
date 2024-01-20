@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class TargetNPCTypeHitPrereqCondition: BaseHitPrereqCondition
----@field public type gamedataNPCType
+---@field type gamedataNPCType
 TargetNPCTypeHitPrereqCondition = {}
 
 ---@param fields? TargetNPCTypeHitPrereqCondition
 ---@return TargetNPCTypeHitPrereqCondition
-function TargetNPCTypeHitPrereqCondition.new(fields) return end
+function TargetNPCTypeHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function TargetNPCTypeHitPrereqCondition:Evaluate(hitEvent) return end
+function TargetNPCTypeHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function TargetNPCTypeHitPrereqCondition:SetData(recordID) return end
+function TargetNPCTypeHitPrereqCondition:SetData(recordID) end

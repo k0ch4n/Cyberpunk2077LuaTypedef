@@ -5,4 +5,4 @@ inkAdditionalContentStatusUpdateCallback = {}
 
 ---@param fields? inkAdditionalContentStatusUpdateCallback
 ---@return inkAdditionalContentStatusUpdateCallback
-function inkAdditionalContentStatusUpdateCallback.new(fields) return end
+function inkAdditionalContentStatusUpdateCallback.new(fields) end

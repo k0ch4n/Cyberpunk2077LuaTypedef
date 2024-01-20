@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiPuppetPreviewCameraSetup
----@field public slotName CName
----@field public cameraZoom Float
----@field public interpolationTime Float
+---@field slotName CName
+---@field cameraZoom Float
+---@field interpolationTime Float
 gameuiPuppetPreviewCameraSetup = {}
 
 ---@param fields? gameuiPuppetPreviewCameraSetup
 ---@return gameuiPuppetPreviewCameraSetup
-function gameuiPuppetPreviewCameraSetup.new(fields) return end
+function gameuiPuppetPreviewCameraSetup.new(fields) end

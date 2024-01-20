@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineparameterTypeRequestReload: IScriptable
----@field public item gameItemObject
+---@field item gameItemObject
 gamestateMachineparameterTypeRequestReload = {}
 
 ---@param fields? gamestateMachineparameterTypeRequestReload
 ---@return gamestateMachineparameterTypeRequestReload
-function gamestateMachineparameterTypeRequestReload.new(fields) return end
+function gamestateMachineparameterTypeRequestReload.new(fields) end

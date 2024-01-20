@@ -1,150 +1,126 @@
 ---@meta
 
 ---@class SecurityGateControllerPS: MasterControllerPS
----@field private securityGateDetectionProperties SecurityGateDetectionProperties
----@field private securityGateResponseProperties SecurityGateResponseProperties
----@field private securityGateStatus ESecurityGateStatus
----@field private trespassersDataList TrespasserEntry[]
+---@field securityGateDetectionProperties SecurityGateDetectionProperties
+---@field securityGateResponseProperties SecurityGateResponseProperties
+---@field securityGateStatus ESecurityGateStatus
+---@field trespassersDataList TrespasserEntry[]
 SecurityGateControllerPS = {}
 
 ---@param fields? SecurityGateControllerPS
 ---@return SecurityGateControllerPS
-function SecurityGateControllerPS.new(fields) return end
+function SecurityGateControllerPS.new(fields) end
 
----@protected
 ---@return QuickHackAuthorization
-function SecurityGateControllerPS:ActionQuickHackAuthorization() return end
+function SecurityGateControllerPS:ActionQuickHackAuthorization() end
 
----@private
 ---@param trespasser ScriptedPuppet
 ---@param areaName CName|string
 ---@return nil
-function SecurityGateControllerPS:AddTrespasserEntry(trespasser, areaName) return end
+function SecurityGateControllerPS:AddTrespasserEntry(trespasser, areaName) end
 
----@protected
 ---@return Bool
-function SecurityGateControllerPS:CanCreateAnyQuickHackActions() return end
+function SecurityGateControllerPS:CanCreateAnyQuickHackActions() end
 
----@private
 ---@param trespasserIndex Int32
 ---@param areaName CName|string
 ---@return Bool
-function SecurityGateControllerPS:DetermineIfEnteredFromCorrectSide(trespasserIndex, areaName) return end
+function SecurityGateControllerPS:DetermineIfEnteredFromCorrectSide(trespasserIndex, areaName) end
 
----@protected
 ---@param index Int32
 ---@param areaName CName|string
 ---@return Bool
-function SecurityGateControllerPS:DetermineIfEntityIsWithdrawing(index, areaName) return end
+function SecurityGateControllerPS:DetermineIfEntityIsWithdrawing(index, areaName) end
 
----@private
 ---@param mostRecentArea CName|string
 ---@param tresspasser entEntityID
 ---@param isEntering Bool
 ---@return nil
-function SecurityGateControllerPS:EvaluateIfActionIsRequired(mostRecentArea, tresspasser, isEntering) return end
+function SecurityGateControllerPS:EvaluateIfActionIsRequired(mostRecentArea, tresspasser, isEntering) end
 
----@protected
 ---@return TweakDBID
-function SecurityGateControllerPS:GetBackgroundTextureTweakDBID() return end
+function SecurityGateControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SecurityGateControllerPS:GetDeviceIconTweakDBID() return end
+function SecurityGateControllerPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function SecurityGateControllerPS:GetQuickHackActions(context) return end
+function SecurityGateControllerPS:GetQuickHackActions(context) end
 
 ---@return ESecurityGateEntranceType
-function SecurityGateControllerPS:GetScannerEntranceType() return end
+function SecurityGateControllerPS:GetScannerEntranceType() end
 
 ---@return Bool
-function SecurityGateControllerPS:GetShouldCheckPlayerOnly() return end
+function SecurityGateControllerPS:GetShouldCheckPlayerOnly() end
 
----@private
 ---@return Bool, Int32 index
-function SecurityGateControllerPS:GetTrespasserInScannerArea() return end
+function SecurityGateControllerPS:GetTrespasserInScannerArea() end
 
----@private
 ---@param entryIndex Int32
 ---@return nil
-function SecurityGateControllerPS:InitiateScan(entryIndex) return end
+function SecurityGateControllerPS:InitiateScan(entryIndex) end
 
----@private
 ---@param trespasser ScriptedPuppet
 ---@return Bool, Int32 index
-function SecurityGateControllerPS:IsTrespasserOnTheList(trespasser) return end
+function SecurityGateControllerPS:IsTrespasserOnTheList(trespasser) end
 
----@private
 ---@param index Int32
 ---@return Bool
-function SecurityGateControllerPS:IsTrespasserOutside(index) return end
+function SecurityGateControllerPS:IsTrespasserOutside(index) end
 
----@private
 ---@param trespasser entEntityID
 ---@param shouldUnlock Bool
 ---@return nil
-function SecurityGateControllerPS:ManageSlaves(trespasser, shouldUnlock) return end
+function SecurityGateControllerPS:ManageSlaves(trespasser, shouldUnlock) end
 
 ---@param evt InitiateScanner
 ---@return EntityNotificationType
-function SecurityGateControllerPS:OnInitiateScanner(evt) return end
+function SecurityGateControllerPS:OnInitiateScanner(evt) end
 
----@protected
 ---@return nil
-function SecurityGateControllerPS:PerformRestart() return end
+function SecurityGateControllerPS:PerformRestart() end
 
----@private
 ---@param index Int32
 ---@return nil
-function SecurityGateControllerPS:PerformScan(index) return end
+function SecurityGateControllerPS:PerformScan(index) end
 
----@private
 ---@return Bool, ESecurityGateScannerIssueType reason
-function SecurityGateControllerPS:PerformScannerSmokeCheck() return end
+function SecurityGateControllerPS:PerformScannerSmokeCheck() end
 
----@private
 ---@param shouldProtect Bool
 ---@param whoToProtect entEntityID
 ---@param entered Bool
 ---@param hasEntityWithdrawn Bool
 ---@return nil
-function SecurityGateControllerPS:ProtectEntityFromSecuritySystem(shouldProtect, whoToProtect, entered, hasEntityWithdrawn) return end
+function SecurityGateControllerPS:ProtectEntityFromSecuritySystem(shouldProtect, whoToProtect, entered, hasEntityWithdrawn) end
 
----@private
 ---@param index Int32
 ---@return nil
-function SecurityGateControllerPS:RemoveTrespasserEntry(index) return end
+function SecurityGateControllerPS:RemoveTrespasserEntry(index) end
 
----@private
 ---@param reason ESecurityGateScannerIssueType
 ---@return nil
-function SecurityGateControllerPS:ResolveScannerNotReady(reason) return end
+function SecurityGateControllerPS:ResolveScannerNotReady(reason) end
 
----@protected
 ---@param user entEntityID
 ---@return nil
-function SecurityGateControllerPS:RevokeAuthorization(user) return end
+function SecurityGateControllerPS:RevokeAuthorization(user) end
 
----@private
 ---@param isSuccessful Bool
 ---@return nil
-function SecurityGateControllerPS:TriggerScanResponse(isSuccessful) return end
+function SecurityGateControllerPS:TriggerScanResponse(isSuccessful) end
 
----@private
 ---@param index Int32
 ---@param isEntering Bool
 ---@param areaName CName|string
 ---@return nil
-function SecurityGateControllerPS:UpdateTrespasserEntry(index, isEntering, areaName) return end
+function SecurityGateControllerPS:UpdateTrespasserEntry(index, isEntering, areaName) end
 
 ---@param evt entTriggerEvent
 ---@param isEntering Bool
 ---@return nil
-function SecurityGateControllerPS:UpdateTrespassersList(evt, isEntering) return end
+function SecurityGateControllerPS:UpdateTrespassersList(evt, isEntering) end
 
----@protected
 ---@return Bool
-function SecurityGateControllerPS:WakeUpDevice() return end
+function SecurityGateControllerPS:WakeUpDevice() end

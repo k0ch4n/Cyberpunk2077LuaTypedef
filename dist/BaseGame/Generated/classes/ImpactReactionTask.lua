@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class ImpactReactionTask: AIHitReactionTask
----@field public tweakDBPackage TweakDBID
+---@field tweakDBPackage TweakDBID
 ImpactReactionTask = {}
 
 ---@param fields? ImpactReactionTask
 ---@return ImpactReactionTask
-function ImpactReactionTask.new(fields) return end
+function ImpactReactionTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ImpactReactionTask:Activate(context) return end
+function ImpactReactionTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function ImpactReactionTask:GetDesiredHitReactionDuration(context) return end
+function ImpactReactionTask:GetDesiredHitReactionDuration(context) end
 
----@private
 ---@return animHitReactionType
-function ImpactReactionTask:GetHitReactionType() return end
+function ImpactReactionTask:GetHitReactionType() end

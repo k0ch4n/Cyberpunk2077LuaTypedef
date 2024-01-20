@@ -5,13 +5,13 @@ gamedataAISubActionReloadWeapon_Record = {}
 
 ---@param fields? gamedataAISubActionReloadWeapon_Record
 ---@return gamedataAISubActionReloadWeapon_Record
-function gamedataAISubActionReloadWeapon_Record.new(fields) return end
+function gamedataAISubActionReloadWeapon_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionReloadWeapon_Record:Duration() return end
+function gamedataAISubActionReloadWeapon_Record:Duration() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionReloadWeapon_Record:WeaponSlot() return end
+function gamedataAISubActionReloadWeapon_Record:WeaponSlot() end
 
 ---@return gamedataAttachmentSlot_Record
-function gamedataAISubActionReloadWeapon_Record:WeaponSlotHandle() return end
+function gamedataAISubActionReloadWeapon_Record:WeaponSlotHandle() end

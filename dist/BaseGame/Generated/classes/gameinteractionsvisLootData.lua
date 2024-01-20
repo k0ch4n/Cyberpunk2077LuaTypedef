@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameinteractionsvisLootData
----@field public isActive Bool
----@field public isListOpen Bool
----@field public e3hack_isWeapon Bool
----@field public currentIndex Int32
----@field public title String
----@field public choices gameinteractionsvisInteractionChoiceData[]
----@field public itemIDs gameItemID[]
----@field public ownerId entEntityID
----@field public isLocked Bool
+---@field isActive Bool
+---@field isListOpen Bool
+---@field e3hack_isWeapon Bool
+---@field currentIndex Int32
+---@field title String
+---@field choices gameinteractionsvisInteractionChoiceData[]
+---@field itemIDs gameItemID[]
+---@field ownerId entEntityID
+---@field isLocked Bool
 gameinteractionsvisLootData = {}
 
 ---@param fields? gameinteractionsvisLootData
 ---@return gameinteractionsvisLootData
-function gameinteractionsvisLootData.new(fields) return end
+function gameinteractionsvisLootData.new(fields) end

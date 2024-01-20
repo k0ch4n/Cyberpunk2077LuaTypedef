@@ -5,7 +5,7 @@ FactInvokerController = {}
 
 ---@param fields? FactInvokerController
 ---@return FactInvokerController
-function FactInvokerController.new(fields) return end
+function FactInvokerController.new(fields) end
 
 ---@return FactInvokerControllerPS
-function FactInvokerController:GetPS() return end
+function FactInvokerController:GetPS() end

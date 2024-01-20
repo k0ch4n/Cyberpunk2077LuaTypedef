@@ -1,8 +1,8 @@
 ---@meta
 
 ---@class AIbehaviorActionRotateBaseTreeNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public target AIArgumentMapping
----@field public angleOffset AIArgumentMapping
----@field public angleTolerance AIArgumentMapping
----@field public speed AIArgumentMapping
+---@field target AIArgumentMapping
+---@field angleOffset AIArgumentMapping
+---@field angleTolerance AIArgumentMapping
+---@field speed AIArgumentMapping
 AIbehaviorActionRotateBaseTreeNodeDefinition = {}

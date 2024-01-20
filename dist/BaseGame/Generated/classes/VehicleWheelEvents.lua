@@ -5,29 +5,25 @@ VehicleWheelEvents = {}
 
 ---@param fields? VehicleWheelEvents
 ---@return VehicleWheelEvents
-function VehicleWheelEvents.new(fields) return end
+function VehicleWheelEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleWheelEvents:OnEnter(stateContext, scriptInterface) return end
+function VehicleWheelEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleWheelEvents:OnExit(stateContext, scriptInterface) return end
+function VehicleWheelEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleWheelEvents:OnExitToQuickSlotsBusy(stateContext, scriptInterface) return end
+function VehicleWheelEvents:OnExitToQuickSlotsBusy(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleWheelEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function VehicleWheelEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

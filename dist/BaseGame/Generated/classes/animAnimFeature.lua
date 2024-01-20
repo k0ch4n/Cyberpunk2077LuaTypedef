@@ -5,4 +5,4 @@ animAnimFeature = {}
 
 ---@param fields? animAnimFeature
 ---@return animAnimFeature
-function animAnimFeature.new(fields) return end
+function animAnimFeature.new(fields) end

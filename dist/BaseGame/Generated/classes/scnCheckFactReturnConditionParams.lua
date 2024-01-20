@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnCheckFactReturnConditionParams
----@field public factCondition scnInterruptFactConditionType
+---@field factCondition scnInterruptFactConditionType
 scnCheckFactReturnConditionParams = {}
 
 ---@param fields? scnCheckFactReturnConditionParams
 ---@return scnCheckFactReturnConditionParams
-function scnCheckFactReturnConditionParams.new(fields) return end
+function scnCheckFactReturnConditionParams.new(fields) end

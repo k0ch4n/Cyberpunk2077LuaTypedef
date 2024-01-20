@@ -5,4 +5,4 @@ gameEffectObjectProvider_ProjectileHitEvent = {}
 
 ---@param fields? gameEffectObjectProvider_ProjectileHitEvent
 ---@return gameEffectObjectProvider_ProjectileHitEvent
-function gameEffectObjectProvider_ProjectileHitEvent.new(fields) return end
+function gameEffectObjectProvider_ProjectileHitEvent.new(fields) end

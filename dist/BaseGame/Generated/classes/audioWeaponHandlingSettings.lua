@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioWeaponHandlingSettings
----@field public equipEvent CName
----@field public unequipStartedEvent CName
----@field public unequippedEvent CName
+---@field equipEvent CName
+---@field unequipStartedEvent CName
+---@field unequippedEvent CName
 audioWeaponHandlingSettings = {}
 
 ---@param fields? audioWeaponHandlingSettings
 ---@return audioWeaponHandlingSettings
-function audioWeaponHandlingSettings.new(fields) return end
+function audioWeaponHandlingSettings.new(fields) end

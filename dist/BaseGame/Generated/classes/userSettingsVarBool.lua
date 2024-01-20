@@ -5,17 +5,17 @@ userSettingsVarBool = {}
 
 ---@param fields? userSettingsVarBool
 ---@return userSettingsVarBool
-function userSettingsVarBool.new(fields) return end
+function userSettingsVarBool.new(fields) end
 
 ---@return Bool
-function userSettingsVarBool:GetDefaultValue() return end
+function userSettingsVarBool:GetDefaultValue() end
 
 ---@return Bool
-function userSettingsVarBool:GetValue() return end
+function userSettingsVarBool:GetValue() end
 
 ---@param value Bool
 ---@return nil
-function userSettingsVarBool:SetValue(value) return end
+function userSettingsVarBool:SetValue(value) end
 
 ---@return nil
-function userSettingsVarBool:Toggle() return end
+function userSettingsVarBool:Toggle() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class parameterRequestEquip: IScriptable
----@field public valid Bool
----@field public itemID gameItemID
+---@field valid Bool
+---@field itemID gameItemID
 parameterRequestEquip = {}
 
 ---@param fields? parameterRequestEquip
 ---@return parameterRequestEquip
-function parameterRequestEquip.new(fields) return end
+function parameterRequestEquip.new(fields) end

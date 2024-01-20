@@ -5,4 +5,4 @@ BodyCarryingPSMPrereqState = {}
 
 ---@param fields? BodyCarryingPSMPrereqState
 ---@return BodyCarryingPSMPrereqState
-function BodyCarryingPSMPrereqState.new(fields) return end
+function BodyCarryingPSMPrereqState.new(fields) end

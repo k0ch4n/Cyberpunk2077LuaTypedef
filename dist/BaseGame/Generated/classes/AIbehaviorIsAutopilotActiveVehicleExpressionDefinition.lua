@@ -5,4 +5,4 @@ AIbehaviorIsAutopilotActiveVehicleExpressionDefinition = {}
 
 ---@param fields? AIbehaviorIsAutopilotActiveVehicleExpressionDefinition
 ---@return AIbehaviorIsAutopilotActiveVehicleExpressionDefinition
-function AIbehaviorIsAutopilotActiveVehicleExpressionDefinition.new(fields) return end
+function AIbehaviorIsAutopilotActiveVehicleExpressionDefinition.new(fields) end

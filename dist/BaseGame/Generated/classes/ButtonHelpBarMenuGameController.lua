@@ -5,12 +5,10 @@ ButtonHelpBarMenuGameController = {}
 
 ---@param fields? ButtonHelpBarMenuGameController
 ---@return ButtonHelpBarMenuGameController
-function ButtonHelpBarMenuGameController.new(fields) return end
+function ButtonHelpBarMenuGameController.new(fields) end
 
----@protected
 ---@return Bool
-function ButtonHelpBarMenuGameController:OnInitialize() return end
+function ButtonHelpBarMenuGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ButtonHelpBarMenuGameController:OnUnitialize() return end
+function ButtonHelpBarMenuGameController:OnUnitialize() end

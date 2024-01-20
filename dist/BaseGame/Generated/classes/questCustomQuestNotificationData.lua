@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questCustomQuestNotificationData
----@field public header String
----@field public desc String
----@field public icon CName
----@field public fluffHeader String
+---@field header String
+---@field desc String
+---@field icon CName
+---@field fluffHeader String
 questCustomQuestNotificationData = {}
 
 ---@param fields? questCustomQuestNotificationData
 ---@return questCustomQuestNotificationData
-function questCustomQuestNotificationData.new(fields) return end
+function questCustomQuestNotificationData.new(fields) end

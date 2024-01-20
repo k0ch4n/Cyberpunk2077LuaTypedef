@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameUnequipByContextRequest: gamePlayerScriptableSystemRequest
----@field public itemUnequipContext gameItemUnequipContexts
+---@field itemUnequipContext gameItemUnequipContexts
 gameUnequipByContextRequest = {}
 
 ---@param fields? gameUnequipByContextRequest
 ---@return gameUnequipByContextRequest
-function gameUnequipByContextRequest.new(fields) return end
+function gameUnequipByContextRequest.new(fields) end

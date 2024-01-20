@@ -5,28 +5,24 @@ CombatGadgetEquipDecisions = {}
 
 ---@param fields? CombatGadgetEquipDecisions
 ---@return CombatGadgetEquipDecisions
-function CombatGadgetEquipDecisions.new(fields) return end
+function CombatGadgetEquipDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatGadgetEquipDecisions:ToCombatGadgetCharge(stateContext, scriptInterface) return end
+function CombatGadgetEquipDecisions:ToCombatGadgetCharge(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatGadgetEquipDecisions:ToCombatGadgetQuickThrow(stateContext, scriptInterface) return end
+function CombatGadgetEquipDecisions:ToCombatGadgetQuickThrow(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatGadgetEquipDecisions:ToCombatGadgetUnequip(stateContext, scriptInterface) return end
+function CombatGadgetEquipDecisions:ToCombatGadgetUnequip(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatGadgetEquipDecisions:ToCombatGadgetWaitForUnequip(stateContext, scriptInterface) return end
+function CombatGadgetEquipDecisions:ToCombatGadgetWaitForUnequip(stateContext, scriptInterface) end

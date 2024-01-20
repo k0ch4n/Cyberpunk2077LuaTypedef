@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAmbientPaletteBrushDictionary: audioInlinedAudioMetadata
----@field public entries audioAmbientPaletteBrushDictionaryItem[]
----@field public entryType audioAmbientPaletteBrushDictionaryItem
+---@field entries audioAmbientPaletteBrushDictionaryItem[]
+---@field entryType audioAmbientPaletteBrushDictionaryItem
 audioAmbientPaletteBrushDictionary = {}
 
 ---@param fields? audioAmbientPaletteBrushDictionary
 ---@return audioAmbientPaletteBrushDictionary
-function audioAmbientPaletteBrushDictionary.new(fields) return end
+function audioAmbientPaletteBrushDictionary.new(fields) end

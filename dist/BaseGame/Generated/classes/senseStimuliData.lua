@@ -5,4 +5,4 @@ senseStimuliData = {}
 
 ---@param fields? senseStimuliData
 ---@return senseStimuliData
-function senseStimuliData.new(fields) return end
+function senseStimuliData.new(fields) end

@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SimpleSprintHarassCondition: AIbehaviorconditionScript
----@field private initialized Bool
----@field private result Bool
+---@field initialized Bool
+---@field result Bool
 SimpleSprintHarassCondition = {}
 
 ---@param fields? SimpleSprintHarassCondition
 ---@return SimpleSprintHarassCondition
-function SimpleSprintHarassCondition.new(fields) return end
+function SimpleSprintHarassCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleSprintHarassCondition:Activate(context) return end
+function SimpleSprintHarassCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function SimpleSprintHarassCondition:Check(context) return end
+function SimpleSprintHarassCondition:Check(context) end

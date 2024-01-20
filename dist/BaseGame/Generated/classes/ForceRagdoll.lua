@@ -5,9 +5,8 @@ ForceRagdoll = {}
 
 ---@param fields? ForceRagdoll
 ---@return ForceRagdoll
-function ForceRagdoll.new(fields) return end
+function ForceRagdoll.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceRagdoll:Activate(context) return end
+function ForceRagdoll:Activate(context) end

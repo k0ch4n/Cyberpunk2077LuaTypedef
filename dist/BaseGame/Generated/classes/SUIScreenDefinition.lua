@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SUIScreenDefinition
----@field public screenDefinition TweakDBID
----@field public style TweakDBID
+---@field screenDefinition TweakDBID
+---@field style TweakDBID
 SUIScreenDefinition = {}
 
 ---@param fields? SUIScreenDefinition
 ---@return SUIScreenDefinition
-function SUIScreenDefinition.new(fields) return end
+function SUIScreenDefinition.new(fields) end

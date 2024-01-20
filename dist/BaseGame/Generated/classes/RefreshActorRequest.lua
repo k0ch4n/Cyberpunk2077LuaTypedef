@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class RefreshActorRequest: HUDManagerRequest
----@field private actorUpdateData HUDActorUpdateData
----@field private requestedModules HUDModule[]
+---@field actorUpdateData HUDActorUpdateData
+---@field requestedModules HUDModule[]
 RefreshActorRequest = {}
 
 ---@param fields? RefreshActorRequest
 ---@return RefreshActorRequest
-function RefreshActorRequest.new(fields) return end
+function RefreshActorRequest.new(fields) end
 
 ---@param requesterID entEntityID
 ---@param updateData? HUDActorUpdateData
 ---@param suggestedModules? HUDModule[]
 ---@return RefreshActorRequest
-function RefreshActorRequest.Construct(requesterID, updateData, suggestedModules) return end
+function RefreshActorRequest.Construct(requesterID, updateData, suggestedModules) end
 
 ---@return HUDActorUpdateData
-function RefreshActorRequest:GetActorUpdateData() return end
+function RefreshActorRequest:GetActorUpdateData() end
 
 ---@return HUDModule[]
-function RefreshActorRequest:GetRequestedModules() return end
+function RefreshActorRequest:GetRequestedModules() end

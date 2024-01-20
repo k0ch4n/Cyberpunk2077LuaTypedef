@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CentaurShieldStateChangeEvent: redEvent
----@field public newState ECentaurShieldState
+---@field newState ECentaurShieldState
 CentaurShieldStateChangeEvent = {}
 
 ---@param fields? CentaurShieldStateChangeEvent
 ---@return CentaurShieldStateChangeEvent
-function CentaurShieldStateChangeEvent.new(fields) return end
+function CentaurShieldStateChangeEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnRidAnimationContainerSRRef
----@field public animations scnRidAnimationContainerSRRefAnimContainer[]
+---@field animations scnRidAnimationContainerSRRefAnimContainer[]
 scnRidAnimationContainerSRRef = {}
 
 ---@param fields? scnRidAnimationContainerSRRef
 ---@return scnRidAnimationContainerSRRef
-function scnRidAnimationContainerSRRef.new(fields) return end
+function scnRidAnimationContainerSRRef.new(fields) end

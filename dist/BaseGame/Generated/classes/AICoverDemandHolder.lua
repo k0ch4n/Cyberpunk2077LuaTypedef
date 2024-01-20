@@ -5,7 +5,7 @@ AICoverDemandHolder = {}
 
 ---@param fields? AICoverDemandHolder
 ---@return AICoverDemandHolder
-function AICoverDemandHolder.new(fields) return end
+function AICoverDemandHolder.new(fields) end
 
 ---@return Uint64
-function AICoverDemandHolder:GetCoverID() return end
+function AICoverDemandHolder:GetCoverID() end

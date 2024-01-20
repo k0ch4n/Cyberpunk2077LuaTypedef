@@ -5,4 +5,4 @@ worldRuntimeScene = {}
 
 ---@param fields? worldRuntimeScene
 ---@return worldRuntimeScene
-function worldRuntimeScene.new(fields) return end
+function worldRuntimeScene.new(fields) end

@@ -1,53 +1,49 @@
 ---@meta
 
 ---@class ObjectiveController: inkButtonController
----@field protected ObjectiveLabel inkTextWidgetReference
----@field protected ObjectiveStatus inkTextWidgetReference
----@field protected QuestIcon inkImageWidgetReference
----@field protected TrackedIcon inkImageWidgetReference
----@field protected FrameBackground_On inkImageWidgetReference
----@field protected FrameBackground_Off inkImageWidgetReference
----@field protected FrameFluff_On inkImageWidgetReference
----@field protected FrameFluff_Off inkImageWidgetReference
----@field protected Folder_On inkImageWidgetReference
----@field protected Folder_Off inkImageWidgetReference
----@field protected QuestObjectiveData ABaseQuestObjectiveWrapper
----@field private ToTrack ABaseQuestObjectiveWrapper
+---@field ObjectiveLabel inkTextWidgetReference
+---@field ObjectiveStatus inkTextWidgetReference
+---@field QuestIcon inkImageWidgetReference
+---@field TrackedIcon inkImageWidgetReference
+---@field FrameBackground_On inkImageWidgetReference
+---@field FrameBackground_Off inkImageWidgetReference
+---@field FrameFluff_On inkImageWidgetReference
+---@field FrameFluff_Off inkImageWidgetReference
+---@field Folder_On inkImageWidgetReference
+---@field Folder_Off inkImageWidgetReference
+---@field QuestObjectiveData ABaseQuestObjectiveWrapper
+---@field ToTrack ABaseQuestObjectiveWrapper
 ObjectiveController = {}
 
 ---@param fields? ObjectiveController
 ---@return ObjectiveController
-function ObjectiveController.new(fields) return end
+function ObjectiveController.new(fields) end
 
----@protected
 ---@return Bool
-function ObjectiveController:OnInitialize() return end
+function ObjectiveController:OnInitialize() end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function ObjectiveController:OnObjectiveClicked(controller) return end
+function ObjectiveController:OnObjectiveClicked(controller) end
 
 ---@return ABaseQuestObjectiveWrapper
-function ObjectiveController:GetObjectiveData() return end
+function ObjectiveController:GetObjectiveData() end
 
----@protected
 ---@param isOptional Bool
 ---@return String
-function ObjectiveController:GetObjectiveStatus(isOptional) return end
+function ObjectiveController:GetObjectiveStatus(isOptional) end
 
 ---@return ABaseQuestObjectiveWrapper
-function ObjectiveController:GetToTrack() return end
+function ObjectiveController:GetToTrack() end
 
----@private
 ---@return nil
-function ObjectiveController:RefreshTrackedStyle() return end
+function ObjectiveController:RefreshTrackedStyle() end
 
 ---@param val CName|string
 ---@return nil
-function ObjectiveController:SetState(val) return end
+function ObjectiveController:SetState(val) end
 
 ---@param data ABaseQuestObjectiveWrapper
 ---@param isOptional Bool
 ---@return nil
-function ObjectiveController:Setup(data, isOptional) return end
+function ObjectiveController:Setup(data, isOptional) end

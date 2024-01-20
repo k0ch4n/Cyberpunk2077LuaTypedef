@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class MinotaurOnStatusEffectAppliedListener: gameScriptStatusEffectListener
----@field public owner NPCPuppet
----@field private minotaurMechComponent MinotaurMechComponent
+---@field owner NPCPuppet
+---@field minotaurMechComponent MinotaurMechComponent
 MinotaurOnStatusEffectAppliedListener = {}
 
 ---@param fields? MinotaurOnStatusEffectAppliedListener
 ---@return MinotaurOnStatusEffectAppliedListener
-function MinotaurOnStatusEffectAppliedListener.new(fields) return end
+function MinotaurOnStatusEffectAppliedListener.new(fields) end
 
 ---@return nil
-function MinotaurOnStatusEffectAppliedListener:DisableLeftArmMesh() return end
+function MinotaurOnStatusEffectAppliedListener:DisableLeftArmMesh() end
 
 ---@return nil
-function MinotaurOnStatusEffectAppliedListener:DisableRightArmMesh() return end
+function MinotaurOnStatusEffectAppliedListener:DisableRightArmMesh() end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function MinotaurOnStatusEffectAppliedListener:OnStatusEffectApplied(statusEffect) return end
+function MinotaurOnStatusEffectAppliedListener:OnStatusEffectApplied(statusEffect) end

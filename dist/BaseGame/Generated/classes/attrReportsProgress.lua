@@ -5,4 +5,4 @@ attrReportsProgress = {}
 
 ---@param fields? attrReportsProgress
 ---@return attrReportsProgress
-function attrReportsProgress.new(fields) return end
+function attrReportsProgress.new(fields) end

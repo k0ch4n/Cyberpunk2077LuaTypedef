@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class ImageSwappingController: inkWidgetLogicController
----@field public ImageWidgetPath String
----@field public ButtonsPaths CName[]
----@field public ButtonsNames String[]
----@field public ButtonsValues String[]
----@field private Buttons inkCanvasWidget[]
+---@field ImageWidgetPath String
+---@field ButtonsPaths CName[]
+---@field ButtonsNames String[]
+---@field ButtonsValues String[]
+---@field Buttons inkCanvasWidget[]
 ImageSwappingController = {}
 
 ---@param fields? ImageSwappingController
 ---@return ImageSwappingController
-function ImageSwappingController.new(fields) return end
+function ImageSwappingController.new(fields) end
 
----@protected
 ---@return Bool
-function ImageSwappingController:OnInitialize() return end
+function ImageSwappingController:OnInitialize() end
 
----@private
 ---@return nil
-function ImageSwappingController:FillButtons() return end
+function ImageSwappingController:FillButtons() end

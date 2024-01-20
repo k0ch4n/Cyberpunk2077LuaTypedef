@@ -1,351 +1,325 @@
 ---@meta
 
 ---@class ComputerControllerPS: TerminalControllerPS
----@field protected computerSetup ComputerSetup
----@field protected quickHackSetup ComputerQuickHackData
----@field protected activatorActionSetup EToggleActivationTypeComputer
----@field protected computerSkillChecks HackEngContainer
----@field protected openedMailAdress SDocumentAdress
----@field protected openedFileAdress SDocumentAdress
----@field protected quickhackPerformed Bool
----@field private isInSleepMode Bool
----@field private computerUIpreset gamedataComputerStyleUIDefinition_Record
+---@field computerSetup ComputerSetup
+---@field quickHackSetup ComputerQuickHackData
+---@field activatorActionSetup EToggleActivationTypeComputer
+---@field computerSkillChecks HackEngContainer
+---@field openedMailAdress SDocumentAdress
+---@field openedFileAdress SDocumentAdress
+---@field quickhackPerformed Bool
+---@field isInSleepMode Bool
+---@field computerUIpreset gamedataComputerStyleUIDefinition_Record
 ComputerControllerPS = {}
 
 ---@param fields? ComputerControllerPS
 ---@return ComputerControllerPS
-function ComputerControllerPS.new(fields) return end
+function ComputerControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function ComputerControllerPS:OnInstantiated() return end
+function ComputerControllerPS:OnInstantiated() end
 
----@protected
 ---@return FactQuickHack
-function ComputerControllerPS:ActionCreateFactQuickHack() return end
+function ComputerControllerPS:ActionCreateFactQuickHack() end
 
 ---@return ToggleOpenComputer
-function ComputerControllerPS:ActionToggleOpen() return end
-
----@protected
----@return Bool
-function ComputerControllerPS:CanCreateAnyQuickHackActions() return end
-
----@return nil
-function ComputerControllerPS:ClearOpenedFileAdress() return end
-
----@return nil
-function ComputerControllerPS:ClearOpenedMailAdress() return end
+function ComputerControllerPS:ActionToggleOpen() end
 
 ---@return Bool
-function ComputerControllerPS:DataInitialized() return end
+function ComputerControllerPS:CanCreateAnyQuickHackActions() end
+
+---@return nil
+function ComputerControllerPS:ClearOpenedFileAdress() end
+
+---@return nil
+function ComputerControllerPS:ClearOpenedMailAdress() end
+
+---@return Bool
+function ComputerControllerPS:DataInitialized() end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:DecryptFile(documentAdress) return end
+function ComputerControllerPS:DecryptFile(documentAdress) end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:DecryptMail(documentAdress) return end
+function ComputerControllerPS:DecryptMail(documentAdress) end
 
----@private
 ---@param menuType EComputerMenuType
 ---@return nil
-function ComputerControllerPS:DisableMenu(menuType) return end
+function ComputerControllerPS:DisableMenu(menuType) end
 
 ---@param documentType EDocumentType
 ---@param documentAdress SDocumentAdress
 ---@param isEnabled Bool
 ---@return nil
-function ComputerControllerPS:EnableDocument(documentType, documentAdress, isEnabled) return end
+function ComputerControllerPS:EnableDocument(documentType, documentAdress, isEnabled) end
 
 ---@param documentType EDocumentType
 ---@param documentName CName|string
 ---@param isEnabled Bool
 ---@return nil
-function ComputerControllerPS:EnableDocumentsByName(documentType, documentName, isEnabled) return end
+function ComputerControllerPS:EnableDocumentsByName(documentType, documentName, isEnabled) end
 
 ---@param documentType EDocumentType
 ---@param folderID Int32
 ---@param isEnabled Bool
 ---@return nil
-function ComputerControllerPS:EnableDocumentsInFolder(documentType, folderID, isEnabled) return end
+function ComputerControllerPS:EnableDocumentsInFolder(documentType, folderID, isEnabled) end
 
----@private
 ---@param menuType EComputerMenuType
 ---@return nil
-function ComputerControllerPS:EnableMenu(menuType) return end
+function ComputerControllerPS:EnableMenu(menuType) end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:EncryptFile(documentAdress) return end
+function ComputerControllerPS:EncryptFile(documentAdress) end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:EncryptMail(documentAdress) return end
+function ComputerControllerPS:EncryptMail(documentAdress) end
 
----@protected
 ---@return nil
-function ComputerControllerPS:GameAttached() return end
+function ComputerControllerPS:GameAttached() end
 
----@protected
 ---@param requestType gamedeviceRequestType
 ---@param providedClearance gamedeviceClearance
 ---@param providedProcessInitiator? gameObject
 ---@param providedRequestor? entEntityID
 ---@return gameGetActionsContext
-function ComputerControllerPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) return end
+function ComputerControllerPS:GenerateContext(requestType, providedClearance, providedProcessInitiator, providedRequestor) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ComputerControllerPS:GetActions(context) return end
+function ComputerControllerPS:GetActions(context) end
 
 ---@return EToggleActivationTypeComputer
-function ComputerControllerPS:GetActivatorType() return end
+function ComputerControllerPS:GetActivatorType() end
 
 ---@return EComputerAnimationState
-function ComputerControllerPS:GetAnimationState() return end
+function ComputerControllerPS:GetAnimationState() end
 
 ---@return CName
-function ComputerControllerPS:GetAnimationStateFactName() return end
+function ComputerControllerPS:GetAnimationStateFactName() end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetBannerWidgetTweakDBID() return end
+function ComputerControllerPS:GetBannerWidgetTweakDBID() end
 
----@private
 ---@return SBannerWidgetPackage[]
-function ComputerControllerPS:GetBannerWidgets() return end
+function ComputerControllerPS:GetBannerWidgets() end
 
 ---@return ComputerDeviceBlackboardDef
-function ComputerControllerPS:GetBlackboardDef() return end
+function ComputerControllerPS:GetBlackboardDef() end
 
 ---@param documentType EDocumentType
 ---@param documentName CName|string
 ---@return SDocumentAdress
-function ComputerControllerPS:GetDocumentAdressByName(documentType, documentName) return end
+function ComputerControllerPS:GetDocumentAdressByName(documentType, documentName) end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@return Int32
-function ComputerControllerPS:GetEnabledDevicesCount(devices) return end
+function ComputerControllerPS:GetEnabledDevicesCount(devices) end
 
----@private
 ---@param documents gamedeviceDataElement[]
 ---@param unredOnly? Bool
 ---@return Int32
-function ComputerControllerPS:GetEnabledDocumentsCount(documents, unredOnly) return end
+function ComputerControllerPS:GetEnabledDocumentsCount(documents, unredOnly) end
 
 ---@param data gamedeviceComputerUIData
 ---@return nil
-function ComputerControllerPS:GetFileStructure(data) return end
+function ComputerControllerPS:GetFileStructure(data) end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetFileThumbnailWidgetTweakDBID() return end
+function ComputerControllerPS:GetFileThumbnailWidgetTweakDBID() end
 
 ---@return SDocumentThumbnailWidgetPackage[]
-function ComputerControllerPS:GetFileThumbnailWidgets() return end
+function ComputerControllerPS:GetFileThumbnailWidgets() end
 
 ---@param documentAdress SDocumentAdress
 ---@return SDocumentWidgetPackage
-function ComputerControllerPS:GetFileWidget(documentAdress) return end
+function ComputerControllerPS:GetFileWidget(documentAdress) end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetFileWidgetTweakDBID() return end
+function ComputerControllerPS:GetFileWidgetTweakDBID() end
 
 ---@return EComputerMenuType
-function ComputerControllerPS:GetInitialMenuType() return end
+function ComputerControllerPS:GetInitialMenuType() end
 
 ---@return SInternetData
-function ComputerControllerPS:GetInternetData() return end
+function ComputerControllerPS:GetInternetData() end
 
----@protected
 ---@param dataElement gamedeviceDataElement
 ---@return gameJournalFile
-function ComputerControllerPS:GetJournalFileEntry(dataElement) return end
+function ComputerControllerPS:GetJournalFileEntry(dataElement) end
 
----@protected
 ---@param dataElement gamedeviceDataElement
 ---@return gameJournalEmail
-function ComputerControllerPS:GetJournalMailEntry(dataElement) return end
+function ComputerControllerPS:GetJournalMailEntry(dataElement) end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetKeypadWidgetStyle() return end
+function ComputerControllerPS:GetKeypadWidgetStyle() end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetMailThumbnailWidgetTweakDBID() return end
+function ComputerControllerPS:GetMailThumbnailWidgetTweakDBID() end
 
 ---@return SDocumentThumbnailWidgetPackage[]
-function ComputerControllerPS:GetMailThumbnailWidgets() return end
+function ComputerControllerPS:GetMailThumbnailWidgets() end
 
 ---@param documentAdress SDocumentAdress
 ---@return SDocumentWidgetPackage
-function ComputerControllerPS:GetMailWidget(documentAdress) return end
+function ComputerControllerPS:GetMailWidget(documentAdress) end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetMailWidgetTweakDBID() return end
+function ComputerControllerPS:GetMailWidgetTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetMainMenuButtonWidgetTweakDBID() return end
+function ComputerControllerPS:GetMainMenuButtonWidgetTweakDBID() end
 
 ---@return SComputerMenuButtonWidgetPackage[]
-function ComputerControllerPS:GetMainMenuButtonWidgets() return end
+function ComputerControllerPS:GetMainMenuButtonWidgets() end
 
----@protected
 ---@return TweakDBID
-function ComputerControllerPS:GetMenuButtonWidgetTweakDBID() return end
+function ComputerControllerPS:GetMenuButtonWidgetTweakDBID() end
 
 ---@return SComputerMenuButtonWidgetPackage[]
-function ComputerControllerPS:GetMenuButtonWidgets() return end
+function ComputerControllerPS:GetMenuButtonWidgets() end
 
 ---@return Float
-function ComputerControllerPS:GetNewsfeedInterval() return end
+function ComputerControllerPS:GetNewsfeedInterval() end
 
 ---@return SDocumentAdress
-function ComputerControllerPS:GetOpenedFileAdress() return end
+function ComputerControllerPS:GetOpenedFileAdress() end
 
 ---@return SDocumentAdress
-function ComputerControllerPS:GetOpenedMailAdress() return end
+function ComputerControllerPS:GetOpenedMailAdress() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function ComputerControllerPS:GetQuestActionByName(actionName) return end
+function ComputerControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ComputerControllerPS:GetQuestActions(context) return end
+function ComputerControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ComputerControllerPS:GetQuickHackActions(context) return end
+function ComputerControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function ComputerControllerPS:GetSkillCheckContainerForSetup() return end
+function ComputerControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@return Bool
-function ComputerControllerPS:HasNewsfeed() return end
+function ComputerControllerPS:HasNewsfeed() end
 
----@private
 ---@param data gamedeviceDataElement
 ---@return Bool
-function ComputerControllerPS:IsDataElementValid(data) return end
+function ComputerControllerPS:IsDataElementValid(data) end
 
 ---@return Bool
-function ComputerControllerPS:IsInSleepMode() return end
+function ComputerControllerPS:IsInSleepMode() end
 
----@private
 ---@param menuType EComputerMenuType
 ---@return Bool
-function ComputerControllerPS:IsMenuEnabled(menuType) return end
+function ComputerControllerPS:IsMenuEnabled(menuType) end
 
----@protected
 ---@return nil
-function ComputerControllerPS:LogicReady() return end
+function ComputerControllerPS:LogicReady() end
 
 ---@param evt AuthorizeUser
 ---@return EntityNotificationType
-function ComputerControllerPS:OnAuthorizeUser(evt) return end
+function ComputerControllerPS:OnAuthorizeUser(evt) end
 
 ---@param evt FactQuickHack
 ---@return EntityNotificationType
-function ComputerControllerPS:OnCreateFactQuickHack(evt) return end
+function ComputerControllerPS:OnCreateFactQuickHack(evt) end
 
----@protected
 ---@param evt FillTakeOverChainBBoardEvent
 ---@return EntityNotificationType
-function ComputerControllerPS:OnFillTakeOverChainBBoardEvent(evt) return end
+function ComputerControllerPS:OnFillTakeOverChainBBoardEvent(evt) end
 
 ---@param evt QuestForceCameraZoom
 ---@return EntityNotificationType
-function ComputerControllerPS:OnQuestForceCameraZoom(evt) return end
+function ComputerControllerPS:OnQuestForceCameraZoom(evt) end
 
 ---@param evt RequestDocumentThumbnailWidgetsUpdateEvent
 ---@return nil
-function ComputerControllerPS:OnRequestDocumentThumbnailWidgetsUpdate(evt) return end
+function ComputerControllerPS:OnRequestDocumentThumbnailWidgetsUpdate(evt) end
 
 ---@param evt RequestDocumentWidgetUpdateEvent
 ---@return nil
-function ComputerControllerPS:OnRequestDocumentWidgetUpdate(evt) return end
+function ComputerControllerPS:OnRequestDocumentWidgetUpdate(evt) end
 
 ---@param evt RequestComputerMenuWidgetsUpdateEvent
 ---@return nil
-function ComputerControllerPS:OnRequestMenuWidgetsUpdate(evt) return end
+function ComputerControllerPS:OnRequestMenuWidgetsUpdate(evt) end
 
 ---@param evt ToggleOpenComputer
 ---@return EntityNotificationType
-function ComputerControllerPS:OnToggleOpen(evt) return end
+function ComputerControllerPS:OnToggleOpen(evt) end
 
 ---@param evt ToggleZoomInteraction
 ---@return EntityNotificationType
-function ComputerControllerPS:OnToggleZoomInteraction(evt) return end
+function ComputerControllerPS:OnToggleZoomInteraction(evt) end
 
 ---@param data ComputerPersistentData
 ---@return nil
-function ComputerControllerPS:PushData(data) return end
+function ComputerControllerPS:PushData(data) end
 
 ---@param data ComputerPersistentData
 ---@return nil
-function ComputerControllerPS:PushResaveData(data) return end
+function ComputerControllerPS:PushResaveData(data) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ComputerControllerPS:RequestBannerWidgetsUpdate(blackboard) return end
+function ComputerControllerPS:RequestBannerWidgetsUpdate(blackboard) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ComputerControllerPS:RequestFileThumbnailWidgetsUpdate(blackboard) return end
+function ComputerControllerPS:RequestFileThumbnailWidgetsUpdate(blackboard) end
 
 ---@param blackboard gameIBlackboard
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:RequestFileWidgetUpdate(blackboard, documentAdress) return end
+function ComputerControllerPS:RequestFileWidgetUpdate(blackboard, documentAdress) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ComputerControllerPS:RequestMailThumbnailWidgetsUpdate(blackboard) return end
+function ComputerControllerPS:RequestMailThumbnailWidgetsUpdate(blackboard) end
 
 ---@param blackboard gameIBlackboard
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:RequestMailWidgetUpdate(blackboard, documentAdress) return end
+function ComputerControllerPS:RequestMailWidgetUpdate(blackboard, documentAdress) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ComputerControllerPS:RequestMainMenuButtonWidgetsUpdate(blackboard) return end
+function ComputerControllerPS:RequestMainMenuButtonWidgetsUpdate(blackboard) end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ComputerControllerPS:RequestMenuButtonWidgetsUpdate(blackboard) return end
+function ComputerControllerPS:RequestMenuButtonWidgetsUpdate(blackboard) end
 
 ---@param state EComputerAnimationState
 ---@return nil
-function ComputerControllerPS:SetAnimationState(state) return end
+function ComputerControllerPS:SetAnimationState(state) end
 
 ---@param value Bool
 ---@return nil
-function ComputerControllerPS:SetIsInSleepMode(value) return end
+function ComputerControllerPS:SetIsInSleepMode(value) end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:SetOpenedFileAdress(documentAdress) return end
+function ComputerControllerPS:SetOpenedFileAdress(documentAdress) end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerControllerPS:SetOpenedMailAdress(documentAdress) return end
+function ComputerControllerPS:SetOpenedMailAdress(documentAdress) end
 
 ---@return Bool
-function ComputerControllerPS:ShouldShowExamineIntaraction() return end
+function ComputerControllerPS:ShouldShowExamineIntaraction() end
 
 ---@return nil
-function ComputerControllerPS:TurnAuthorizationModuleOFF() return end
+function ComputerControllerPS:TurnAuthorizationModuleOFF() end
 
 ---@return nil
-function ComputerControllerPS:UpdateBanners() return end
+function ComputerControllerPS:UpdateBanners() end

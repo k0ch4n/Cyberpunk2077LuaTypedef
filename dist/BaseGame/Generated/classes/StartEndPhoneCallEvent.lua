@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class StartEndPhoneCallEvent: redEvent
----@field public callDuration Float
----@field public startCall Bool
----@field public statType gamedataStatType
----@field public statPoolType gamedataStatPoolType
----@field public statPoolName String
+---@field callDuration Float
+---@field startCall Bool
+---@field statType gamedataStatType
+---@field statPoolType gamedataStatPoolType
+---@field statPoolName String
 StartEndPhoneCallEvent = {}
 
 ---@param fields? StartEndPhoneCallEvent
 ---@return StartEndPhoneCallEvent
-function StartEndPhoneCallEvent.new(fields) return end
+function StartEndPhoneCallEvent.new(fields) end

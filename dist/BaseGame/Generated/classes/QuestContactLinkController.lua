@@ -1,47 +1,41 @@
 ---@meta
 
 ---@class QuestContactLinkController: BaseCodexLinkController
----@field private msgLabel inkTextWidgetReference
----@field private msgContainer inkWidgetReference
----@field private msgCounter Int32
----@field private contactEntry gameJournalContact
----@field private journalMgr gameJournalManager
----@field private phoneSystem PhoneSystem
----@field private uiSystem gameuiGameSystemUI
+---@field msgLabel inkTextWidgetReference
+---@field msgContainer inkWidgetReference
+---@field msgCounter Int32
+---@field contactEntry gameJournalContact
+---@field journalMgr gameJournalManager
+---@field phoneSystem PhoneSystem
+---@field uiSystem gameuiGameSystemUI
 QuestContactLinkController = {}
 
 ---@param fields? QuestContactLinkController
 ---@return QuestContactLinkController
-function QuestContactLinkController.new(fields) return end
+function QuestContactLinkController.new(fields) end
 
----@protected
 ---@param e ActivateLink
 ---@return Bool
-function QuestContactLinkController:OnActivateLink(e) return end
+function QuestContactLinkController:OnActivateLink(e) end
 
----@private
 ---@return nil
-function QuestContactLinkController:Activate() return end
+function QuestContactLinkController:Activate() end
 
----@private
 ---@return nil
-function QuestContactLinkController:ActivateSecondary() return end
+function QuestContactLinkController:ActivateSecondary() end
 
----@private
 ---@return nil
-function QuestContactLinkController:CallSelectedContact() return end
+function QuestContactLinkController:CallSelectedContact() end
 
----@private
 ---@return nil
-function QuestContactLinkController:CloseHubMenu() return end
+function QuestContactLinkController:CloseHubMenu() end
 
 ---@param journalEntry gameJournalEntry
 ---@param journalManager gameJournalManager
 ---@param phoneSystem PhoneSystem
 ---@param uiSystem gameuiGameSystemUI
 ---@return nil
-function QuestContactLinkController:Setup(journalEntry, journalManager, phoneSystem, uiSystem) return end
+function QuestContactLinkController:Setup(journalEntry, journalManager, phoneSystem, uiSystem) end
 
----@private
 ---@return nil
-function QuestContactLinkController:ShowActionBlockedNotification() return end
+function QuestContactLinkController:ShowActionBlockedNotification() end

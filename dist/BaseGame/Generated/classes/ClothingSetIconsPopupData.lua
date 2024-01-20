@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ClothingSetIconsPopupData: inkGameNotificationData
----@field public IconID TweakDBID
----@field public IconChanged Bool
----@field public IconIDs TweakDBID[]
+---@field IconID TweakDBID
+---@field IconChanged Bool
+---@field IconIDs TweakDBID[]
 ClothingSetIconsPopupData = {}
 
 ---@param fields? ClothingSetIconsPopupData
 ---@return ClothingSetIconsPopupData
-function ClothingSetIconsPopupData.new(fields) return end
+function ClothingSetIconsPopupData.new(fields) end

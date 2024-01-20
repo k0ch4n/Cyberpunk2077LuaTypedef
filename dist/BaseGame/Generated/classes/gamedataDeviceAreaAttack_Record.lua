@@ -5,4 +5,4 @@ gamedataDeviceAreaAttack_Record = {}
 
 ---@param fields? gamedataDeviceAreaAttack_Record
 ---@return gamedataDeviceAreaAttack_Record
-function gamedataDeviceAreaAttack_Record.new(fields) return end
+function gamedataDeviceAreaAttack_Record.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PickerChoosenQuantityChangedEvent: inkGameNotificationData
----@field public choosenQuantity Int32
+---@field choosenQuantity Int32
 PickerChoosenQuantityChangedEvent = {}
 
 ---@param fields? PickerChoosenQuantityChangedEvent
 ---@return PickerChoosenQuantityChangedEvent
-function PickerChoosenQuantityChangedEvent.new(fields) return end
+function PickerChoosenQuantityChangedEvent.new(fields) end

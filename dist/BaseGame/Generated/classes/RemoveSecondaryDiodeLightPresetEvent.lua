@@ -5,4 +5,4 @@ RemoveSecondaryDiodeLightPresetEvent = {}
 
 ---@param fields? RemoveSecondaryDiodeLightPresetEvent
 ---@return RemoveSecondaryDiodeLightPresetEvent
-function RemoveSecondaryDiodeLightPresetEvent.new(fields) return end
+function RemoveSecondaryDiodeLightPresetEvent.new(fields) end

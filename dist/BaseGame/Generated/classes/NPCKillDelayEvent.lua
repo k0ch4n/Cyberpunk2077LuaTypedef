@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class NPCKillDelayEvent: redEvent
----@field public target gameObject
----@field public isLethalTakedown Bool
----@field public disableKillReward Bool
+---@field target gameObject
+---@field isLethalTakedown Bool
+---@field disableKillReward Bool
 NPCKillDelayEvent = {}
 
 ---@param fields? NPCKillDelayEvent
 ---@return NPCKillDelayEvent
-function NPCKillDelayEvent.new(fields) return end
+function NPCKillDelayEvent.new(fields) end

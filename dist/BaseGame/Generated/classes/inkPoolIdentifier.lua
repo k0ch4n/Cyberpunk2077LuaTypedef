@@ -5,4 +5,4 @@ inkPoolIdentifier = {}
 
 ---@param fields? inkPoolIdentifier
 ---@return inkPoolIdentifier
-function inkPoolIdentifier.new(fields) return end
+function inkPoolIdentifier.new(fields) end

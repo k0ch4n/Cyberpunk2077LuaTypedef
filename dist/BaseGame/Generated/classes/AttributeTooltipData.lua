@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AttributeTooltipData: BasePerksMenuTooltipData
----@field public attributeId TweakDBID
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
----@field public displayData AttributeDisplayData
+---@field attributeId TweakDBID
+---@field attributeType PerkMenuAttribute
+---@field attributeData AttributeData
+---@field displayData AttributeDisplayData
 AttributeTooltipData = {}
 
 ---@param fields? AttributeTooltipData
 ---@return AttributeTooltipData
-function AttributeTooltipData.new(fields) return end
+function AttributeTooltipData.new(fields) end
 
 ---@return nil
-function AttributeTooltipData:RefreshRuntimeData() return end
+function AttributeTooltipData:RefreshRuntimeData() end

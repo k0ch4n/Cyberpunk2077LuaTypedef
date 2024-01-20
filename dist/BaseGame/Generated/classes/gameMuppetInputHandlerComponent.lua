@@ -5,4 +5,4 @@ gameMuppetInputHandlerComponent = {}
 
 ---@param fields? gameMuppetInputHandlerComponent
 ---@return gameMuppetInputHandlerComponent
-function gameMuppetInputHandlerComponent.new(fields) return end
+function gameMuppetInputHandlerComponent.new(fields) end

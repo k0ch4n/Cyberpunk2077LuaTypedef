@@ -5,15 +5,13 @@ AIRandomTasks = {}
 
 ---@param fields? AIRandomTasks
 ---@return AIRandomTasks
-function AIRandomTasks.new(fields) return end
+function AIRandomTasks.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIRandomTasks:Activate(context) return end
+function AIRandomTasks:Activate(context) end
 
----@protected
 ---@param Max Int32
 ---@param Min Int32
 ---@return Int32
-function AIRandomTasks:RollInteger(Max, Min) return end
+function AIRandomTasks:RollInteger(Max, Min) end

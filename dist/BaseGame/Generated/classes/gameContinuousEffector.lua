@@ -5,10 +5,9 @@ gameContinuousEffector = {}
 
 ---@param fields? gameContinuousEffector
 ---@return gameContinuousEffector
-function gameContinuousEffector.new(fields) return end
+function gameContinuousEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@param instigator gameObject
 ---@return nil
-function gameContinuousEffector:ContinuousAction(owner, instigator) return end
+function gameContinuousEffector:ContinuousAction(owner, instigator) end

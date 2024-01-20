@@ -5,4 +5,4 @@ gameweaponeventsReloadStartEvent = {}
 
 ---@param fields? gameweaponeventsReloadStartEvent
 ---@return gameweaponeventsReloadStartEvent
-function gameweaponeventsReloadStartEvent.new(fields) return end
+function gameweaponeventsReloadStartEvent.new(fields) end

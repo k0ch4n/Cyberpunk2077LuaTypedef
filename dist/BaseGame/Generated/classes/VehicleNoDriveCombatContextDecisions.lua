@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class VehicleNoDriveCombatContextDecisions: InputContextTransitionDecisions
----@field private callbackID redCallbackObject
+---@field callbackID redCallbackObject
 VehicleNoDriveCombatContextDecisions = {}
 
 ---@param fields? VehicleNoDriveCombatContextDecisions
 ---@return VehicleNoDriveCombatContextDecisions
-function VehicleNoDriveCombatContextDecisions.new(fields) return end
+function VehicleNoDriveCombatContextDecisions.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function VehicleNoDriveCombatContextDecisions:OnVehicleStateChanged(value) return end
+function VehicleNoDriveCombatContextDecisions:OnVehicleStateChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleNoDriveCombatContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VehicleNoDriveCombatContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleNoDriveCombatContextDecisions:OnAttach(stateContext, scriptInterface) return end
+function VehicleNoDriveCombatContextDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleNoDriveCombatContextDecisions:OnDetach(stateContext, scriptInterface) return end
+function VehicleNoDriveCombatContextDecisions:OnDetach(stateContext, scriptInterface) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameStatsUnit: ISerializable
----@field public recordID TweakDBID
+---@field recordID TweakDBID
 gameStatsUnit = {}
 
 ---@param fields? gameStatsUnit
 ---@return gameStatsUnit
-function gameStatsUnit.new(fields) return end
+function gameStatsUnit.new(fields) end

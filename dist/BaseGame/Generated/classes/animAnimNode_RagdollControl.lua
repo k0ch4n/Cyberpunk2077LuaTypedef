@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimNode_RagdollControl: animAnimNode_Base
----@field public blendInDuration Float
----@field public blendOutDuration Float
----@field public inputPoseNode animPoseLink
+---@field blendInDuration Float
+---@field blendOutDuration Float
+---@field inputPoseNode animPoseLink
 animAnimNode_RagdollControl = {}
 
 ---@param fields? animAnimNode_RagdollControl
 ---@return animAnimNode_RagdollControl
-function animAnimNode_RagdollControl.new(fields) return end
+function animAnimNode_RagdollControl.new(fields) end

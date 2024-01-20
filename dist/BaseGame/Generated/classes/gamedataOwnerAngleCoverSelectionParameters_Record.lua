@@ -5,10 +5,10 @@ gamedataOwnerAngleCoverSelectionParameters_Record = {}
 
 ---@param fields? gamedataOwnerAngleCoverSelectionParameters_Record
 ---@return gamedataOwnerAngleCoverSelectionParameters_Record
-function gamedataOwnerAngleCoverSelectionParameters_Record.new(fields) return end
+function gamedataOwnerAngleCoverSelectionParameters_Record.new(fields) end
 
 ---@return Float
-function gamedataOwnerAngleCoverSelectionParameters_Record:MaxAngle() return end
+function gamedataOwnerAngleCoverSelectionParameters_Record:MaxAngle() end
 
 ---@return Float
-function gamedataOwnerAngleCoverSelectionParameters_Record:MinAngle() return end
+function gamedataOwnerAngleCoverSelectionParameters_Record:MinAngle() end

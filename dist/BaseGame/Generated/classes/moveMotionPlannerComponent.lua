@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class moveMotionPlannerComponent: moveIMotionPlannerComponent
----@field public snapToGround Bool
+---@field snapToGround Bool
 moveMotionPlannerComponent = {}
 
 ---@param fields? moveMotionPlannerComponent
 ---@return moveMotionPlannerComponent
-function moveMotionPlannerComponent.new(fields) return end
+function moveMotionPlannerComponent.new(fields) end

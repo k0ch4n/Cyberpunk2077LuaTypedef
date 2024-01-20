@@ -5,12 +5,12 @@ ForceLockElevator = {}
 
 ---@param fields? ForceLockElevator
 ---@return ForceLockElevator
-function ForceLockElevator.new(fields) return end
+function ForceLockElevator.new(fields) end
 
 ---@param device DoorControllerPS
 ---@param requestType gamedeviceRequestType
 ---@return Bool
-function ForceLockElevator.IsAvailable(device, requestType) return end
+function ForceLockElevator.IsAvailable(device, requestType) end
 
 ---@return nil
-function ForceLockElevator:SetProperties() return end
+function ForceLockElevator:SetProperties() end

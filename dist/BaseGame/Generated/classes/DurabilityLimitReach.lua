@@ -5,4 +5,4 @@ DurabilityLimitReach = {}
 
 ---@param fields? DurabilityLimitReach
 ---@return DurabilityLimitReach
-function DurabilityLimitReach.new(fields) return end
+function DurabilityLimitReach.new(fields) end

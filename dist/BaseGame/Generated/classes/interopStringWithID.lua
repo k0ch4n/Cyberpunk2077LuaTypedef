@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class interopStringWithID
----@field public text String
----@field public id Uint64
+---@field text String
+---@field id Uint64
 interopStringWithID = {}
 
 ---@param fields? interopStringWithID
 ---@return interopStringWithID
-function interopStringWithID.new(fields) return end
+function interopStringWithID.new(fields) end

@@ -5,4 +5,4 @@ AIJoinCrowdCommand = {}
 
 ---@param fields? AIJoinCrowdCommand
 ---@return AIJoinCrowdCommand
-function AIJoinCrowdCommand.new(fields) return end
+function AIJoinCrowdCommand.new(fields) end

@@ -1,78 +1,67 @@
 ---@meta
 
 ---@class BasicDistractionDeviceControllerPS: ScriptableDeviceComponentPS
----@field protected distractorType EPlaystyleType
----@field protected basicDistractionDeviceSkillChecks EngDemoContainer
----@field protected effectOnStartNames CName[]
----@field protected animationType EAnimationType
----@field protected forceAnimationSystem Bool
----@field public overrideDistractionActionId TweakDBID
+---@field distractorType EPlaystyleType
+---@field basicDistractionDeviceSkillChecks EngDemoContainer
+---@field effectOnStartNames CName[]
+---@field animationType EAnimationType
+---@field forceAnimationSystem Bool
+---@field overrideDistractionActionId TweakDBID
 BasicDistractionDeviceControllerPS = {}
 
 ---@param fields? BasicDistractionDeviceControllerPS
 ---@return BasicDistractionDeviceControllerPS
-function BasicDistractionDeviceControllerPS.new(fields) return end
+function BasicDistractionDeviceControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function BasicDistractionDeviceControllerPS:OnInstantiated() return end
+function BasicDistractionDeviceControllerPS:OnInstantiated() end
 
----@protected
 ---@return QuickHackDistraction
-function BasicDistractionDeviceControllerPS:ActionQuickHackDistraction() return end
+function BasicDistractionDeviceControllerPS:ActionQuickHackDistraction() end
 
----@protected
 ---@return SpiderbotDistractDevice
-function BasicDistractionDeviceControllerPS:ActionSpiderbotDistractDevice() return end
+function BasicDistractionDeviceControllerPS:ActionSpiderbotDistractDevice() end
 
----@protected
 ---@return SpiderbotDistractDevicePerformed
-function BasicDistractionDeviceControllerPS:ActionSpiderbotDistractDevicePerformed() return end
+function BasicDistractionDeviceControllerPS:ActionSpiderbotDistractDevicePerformed() end
 
----@protected
 ---@return Bool
-function BasicDistractionDeviceControllerPS:CanCreateAnyQuickHackActions() return end
+function BasicDistractionDeviceControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return Bool
-function BasicDistractionDeviceControllerPS:CanCreateAnySpiderbotActions() return end
+function BasicDistractionDeviceControllerPS:CanCreateAnySpiderbotActions() end
 
----@protected
 ---@return nil
-function BasicDistractionDeviceControllerPS:GameAttached() return end
+function BasicDistractionDeviceControllerPS:GameAttached() end
 
 ---@return EAnimationType
-function BasicDistractionDeviceControllerPS:GetAnimationType() return end
+function BasicDistractionDeviceControllerPS:GetAnimationType() end
 
 ---@return CName[]
-function BasicDistractionDeviceControllerPS:GetEffectOnStartNames() return end
+function BasicDistractionDeviceControllerPS:GetEffectOnStartNames() end
 
 ---@return Bool
-function BasicDistractionDeviceControllerPS:GetForceAnimationSystem() return end
+function BasicDistractionDeviceControllerPS:GetForceAnimationSystem() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function BasicDistractionDeviceControllerPS:GetQuickHackActions(context) return end
+function BasicDistractionDeviceControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function BasicDistractionDeviceControllerPS:GetSkillCheckContainerForSetup() return end
+function BasicDistractionDeviceControllerPS:GetSkillCheckContainerForSetup() end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function BasicDistractionDeviceControllerPS:GetSpiderbotActions(actions, context) return end
+function BasicDistractionDeviceControllerPS:GetSpiderbotActions(actions, context) end
 
----@protected
 ---@return nil
-function BasicDistractionDeviceControllerPS:Initialize() return end
+function BasicDistractionDeviceControllerPS:Initialize() end
 
 ---@param evt SpiderbotDistractDevice
 ---@return EntityNotificationType
-function BasicDistractionDeviceControllerPS:OnSpiderbotDistractExplosiveDevice(evt) return end
+function BasicDistractionDeviceControllerPS:OnSpiderbotDistractExplosiveDevice(evt) end
 
 ---@param evt SpiderbotDistractDevicePerformed
 ---@return EntityNotificationType
-function BasicDistractionDeviceControllerPS:OnSpiderbotDistractExplosiveDevicePerformed(evt) return end
+function BasicDistractionDeviceControllerPS:OnSpiderbotDistractExplosiveDevicePerformed(evt) end

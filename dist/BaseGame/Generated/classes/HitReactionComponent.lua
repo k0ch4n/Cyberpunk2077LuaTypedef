@@ -1,820 +1,728 @@
 ---@meta
 
 ---@class HitReactionComponent: AIMandatoryComponents
----@field protected ownerNPC NPCPuppet
----@field protected ownerPuppet ScriptedPuppet
----@field protected ownerWeapon gameweaponObject
----@field protected ownerID entEntityID
----@field protected statsSystem gameStatsSystem
----@field protected ownerIsMassive Bool
----@field protected impactDamageDuration Float
----@field protected staggerDamageDuration Float
----@field protected impactDamageDurationMelee Float
----@field protected staggerDamageDurationMelee Float
----@field protected knockdownDamageDuration Float
----@field protected defeatedMinDuration Float
----@field protected previousHitTime Float
----@field protected reactionType animHitReactionType
----@field protected animHitReaction animAnimFeature_HitReactionsData
----@field protected lastAnimHitReaction animAnimFeature_HitReactionsData
----@field protected hitReactionAction ActionHitReactionScriptProxy
----@field protected previousAnimHitReactionArray ScriptHitData[]
----@field protected lastHitReactionPlayed EAILastHitReactionPlayed
----@field protected hitShapeData gameShapeData
----@field protected animVariation Int32
----@field protected specificHitTimeout Float
----@field protected quickMeleeCooldown Float
----@field protected dismembermentBodyPartDamageThreshold Float[]
----@field protected woundedBodyPartDamageThreshold Float[]
----@field protected defeatedBodyPartDamageThreshold Float[]
----@field protected defeatedDamageThreshold Float
----@field protected impactDamageThreshold Float
----@field protected staggerDamageThreshold Float
----@field protected knockdownDamageThreshold Float
----@field protected knockdownImpulseThreshold Float
----@field protected immuneToKnockDown Bool
----@field protected hitComboReset Float
----@field protected physicalImpulseReset Float
----@field protected guardBreakImpulseReset Float
----@field protected cumulatedDamages Float
----@field protected bodyPartWoundCumulatedDamages Float[]
----@field protected bodyPartDismemberCumulatedDamages Float[]
----@field protected attackerWeaponKnockdownImpulse Float
----@field protected attackerWeaponKnockdownImpulseForEvade Float
----@field protected attackerWeaponKnockdownImpulseForEvadeCumulation Float
----@field protected ownerWeaponKnockdownImpulseForEvade Float
----@field protected cumulatedPhysicalImpulse Float
----@field protected cumulatedGuardBreakImpulse Float
----@field protected cumulatedEvadeBreakImpulse Float
----@field protected ragdollImpulse Float
----@field protected ragdollInfluenceRadius Float
----@field protected hitIntensity EAIHitIntensity
----@field protected previousMeleeHitTimeStamp Float
----@field protected previousRangedHitTimeStamp Float
----@field protected previousBlockTimeStamp Float
----@field protected previousParryTimeStamp Float
----@field protected previousDodgeTimeStamp Float
----@field protected previousRagdollTimeStamp Float
----@field protected previousHackStaggerTimeStamp Float
----@field protected previousHackImpactTimeStamp Float
----@field protected blockCount Int32
----@field protected parryCount Int32
----@field protected dodgeCount Int32
----@field public hitCount Uint32
----@field protected defeatedHasBeenPlayed Bool
----@field protected defeatedRegisteredTime Float
----@field protected deathHasBeenPlayed Bool
----@field protected deathRegisteredTime Float
----@field protected extendedDeathRegisteredTime Float
----@field protected extendedDeathDelayRegisteredTime Float
----@field protected extendedHitReactionRegisteredTime Float
----@field protected extendedHitReactionDelayRegisteredTime Float
----@field protected scatteredGuts Bool
----@field protected cumulativeDamageUpdateInterval Float
----@field protected cumulativeDamageUpdateRequested Bool
----@field protected currentStimId Uint32
----@field protected attackData gamedamageAttackData
----@field protected attackDirectionToInt Int32
----@field protected hitPosition Vector4
----@field protected hitDirection Vector4
----@field protected hitDirectionToInt Int32
----@field protected overridenHitDirection Bool
----@field protected lastHitReactionBehaviorData HitReactionBehaviorData
----@field protected lastStimName CName
----@field protected deathStimName CName
----@field protected meleeHitCount Int32
----@field protected strongMeleeHitCount Int32
----@field protected meleeBaseMaxHitChain Int32
----@field protected rangedBaseMaxHitChain Int32
----@field protected maxHitChainForMelee Int32
----@field protected maxHitChainForRanged Int32
----@field protected isAlive Bool
----@field protected frameDamageHealthFactor Float
----@field protected hitCountData Float[]
----@field protected hitCountArrayEnd Int32
----@field protected hitCountArrayCurrent Int32
----@field protected allowDefeatedOnCompanion Bool
----@field protected baseCumulativeDamagesDecreaser Float
----@field protected blockCountInterval Float
----@field protected dodgeCountInterval Float
----@field protected globalHitTimer Float
----@field protected hasMantisBladesinRecord Bool
----@field private indicatorEnabledBlackboardId redCallbackObject
----@field private hitIndicatorEnabled Bool
----@field private hasBeenWounded Bool
----@field private inWorkspot Bool
----@field private inCover Bool
----@field private healthListener NPCHealthListener
----@field private hitReactionComponentStatsListener NPCHitReactionComponentStatsListener
----@field private currentHealth Float
----@field private totalHealth Float
----@field private totalStamina Float
----@field private currentCanDropWeapon Float
----@field private currentExtendedHitReactionImmunity Float
----@field private currentIsInvulnerable Float
----@field private currentDefeatedDamageThreshold Float
----@field private currentImpactDamageThreshold Float
----@field private currentImpactDamageThresholdInCover Float
----@field private currentKnockdownDamageThreshold Float
----@field private currentKnockdownDamageThresholdImpulse Float
----@field private currentKnockdownDamageThresholdInCover Float
----@field private currentKnockdownImmunity Float
----@field private currentMeleeHitReactionResistance Float
----@field private currentStaggerDamageThreshold Float
----@field private currentStaggerDamageThresholdInCover Float
----@field private currentCanBlock Float
----@field private currentHasKerenzikov Float
----@field private dismemberExecuteHealthRange Vector2
----@field private dismemberExecuteDistanceRange Vector2
----@field private executeDismembered Bool
----@field private attackIsValidBodyPerk Bool
----@field private invalidForExecuteDismember Bool
----@field private hitReactionData animAnimFeature_HitReactionsData
+---@field ownerNPC NPCPuppet
+---@field ownerPuppet ScriptedPuppet
+---@field ownerWeapon gameweaponObject
+---@field ownerID entEntityID
+---@field statsSystem gameStatsSystem
+---@field ownerIsMassive Bool
+---@field impactDamageDuration Float
+---@field staggerDamageDuration Float
+---@field impactDamageDurationMelee Float
+---@field staggerDamageDurationMelee Float
+---@field knockdownDamageDuration Float
+---@field defeatedMinDuration Float
+---@field previousHitTime Float
+---@field reactionType animHitReactionType
+---@field animHitReaction animAnimFeature_HitReactionsData
+---@field lastAnimHitReaction animAnimFeature_HitReactionsData
+---@field hitReactionAction ActionHitReactionScriptProxy
+---@field previousAnimHitReactionArray ScriptHitData[]
+---@field lastHitReactionPlayed EAILastHitReactionPlayed
+---@field hitShapeData gameShapeData
+---@field animVariation Int32
+---@field specificHitTimeout Float
+---@field quickMeleeCooldown Float
+---@field dismembermentBodyPartDamageThreshold Float[]
+---@field woundedBodyPartDamageThreshold Float[]
+---@field defeatedBodyPartDamageThreshold Float[]
+---@field defeatedDamageThreshold Float
+---@field impactDamageThreshold Float
+---@field staggerDamageThreshold Float
+---@field knockdownDamageThreshold Float
+---@field knockdownImpulseThreshold Float
+---@field immuneToKnockDown Bool
+---@field hitComboReset Float
+---@field physicalImpulseReset Float
+---@field guardBreakImpulseReset Float
+---@field cumulatedDamages Float
+---@field bodyPartWoundCumulatedDamages Float[]
+---@field bodyPartDismemberCumulatedDamages Float[]
+---@field attackerWeaponKnockdownImpulse Float
+---@field attackerWeaponKnockdownImpulseForEvade Float
+---@field attackerWeaponKnockdownImpulseForEvadeCumulation Float
+---@field ownerWeaponKnockdownImpulseForEvade Float
+---@field cumulatedPhysicalImpulse Float
+---@field cumulatedGuardBreakImpulse Float
+---@field cumulatedEvadeBreakImpulse Float
+---@field ragdollImpulse Float
+---@field ragdollInfluenceRadius Float
+---@field hitIntensity EAIHitIntensity
+---@field previousMeleeHitTimeStamp Float
+---@field previousRangedHitTimeStamp Float
+---@field previousBlockTimeStamp Float
+---@field previousParryTimeStamp Float
+---@field previousDodgeTimeStamp Float
+---@field previousRagdollTimeStamp Float
+---@field previousHackStaggerTimeStamp Float
+---@field previousHackImpactTimeStamp Float
+---@field blockCount Int32
+---@field parryCount Int32
+---@field dodgeCount Int32
+---@field hitCount Uint32
+---@field defeatedHasBeenPlayed Bool
+---@field defeatedRegisteredTime Float
+---@field deathHasBeenPlayed Bool
+---@field deathRegisteredTime Float
+---@field extendedDeathRegisteredTime Float
+---@field extendedDeathDelayRegisteredTime Float
+---@field extendedHitReactionRegisteredTime Float
+---@field extendedHitReactionDelayRegisteredTime Float
+---@field scatteredGuts Bool
+---@field cumulativeDamageUpdateInterval Float
+---@field cumulativeDamageUpdateRequested Bool
+---@field currentStimId Uint32
+---@field attackData gamedamageAttackData
+---@field attackDirectionToInt Int32
+---@field hitPosition Vector4
+---@field hitDirection Vector4
+---@field hitDirectionToInt Int32
+---@field overridenHitDirection Bool
+---@field lastHitReactionBehaviorData HitReactionBehaviorData
+---@field lastStimName CName
+---@field deathStimName CName
+---@field meleeHitCount Int32
+---@field strongMeleeHitCount Int32
+---@field meleeBaseMaxHitChain Int32
+---@field rangedBaseMaxHitChain Int32
+---@field maxHitChainForMelee Int32
+---@field maxHitChainForRanged Int32
+---@field isAlive Bool
+---@field frameDamageHealthFactor Float
+---@field hitCountData Float[]
+---@field hitCountArrayEnd Int32
+---@field hitCountArrayCurrent Int32
+---@field allowDefeatedOnCompanion Bool
+---@field baseCumulativeDamagesDecreaser Float
+---@field blockCountInterval Float
+---@field dodgeCountInterval Float
+---@field globalHitTimer Float
+---@field hasMantisBladesinRecord Bool
+---@field indicatorEnabledBlackboardId redCallbackObject
+---@field hitIndicatorEnabled Bool
+---@field hasBeenWounded Bool
+---@field inWorkspot Bool
+---@field inCover Bool
+---@field healthListener NPCHealthListener
+---@field hitReactionComponentStatsListener NPCHitReactionComponentStatsListener
+---@field currentHealth Float
+---@field totalHealth Float
+---@field totalStamina Float
+---@field currentCanDropWeapon Float
+---@field currentExtendedHitReactionImmunity Float
+---@field currentIsInvulnerable Float
+---@field currentDefeatedDamageThreshold Float
+---@field currentImpactDamageThreshold Float
+---@field currentImpactDamageThresholdInCover Float
+---@field currentKnockdownDamageThreshold Float
+---@field currentKnockdownDamageThresholdImpulse Float
+---@field currentKnockdownDamageThresholdInCover Float
+---@field currentKnockdownImmunity Float
+---@field currentMeleeHitReactionResistance Float
+---@field currentStaggerDamageThreshold Float
+---@field currentStaggerDamageThresholdInCover Float
+---@field currentCanBlock Float
+---@field currentHasKerenzikov Float
+---@field dismemberExecuteHealthRange Vector2
+---@field dismemberExecuteDistanceRange Vector2
+---@field executeDismembered Bool
+---@field attackIsValidBodyPerk Bool
+---@field invalidForExecuteDismember Bool
+---@field hitReactionData animAnimFeature_HitReactionsData
 HitReactionComponent = {}
 
 ---@param fields? HitReactionComponent
 ---@return HitReactionComponent
-function HitReactionComponent.new(fields) return end
+function HitReactionComponent.new(fields) end
 
 ---@param obj gameObject
 ---@return nil
-function HitReactionComponent.ClearHitStim(obj) return end
+function HitReactionComponent.ClearHitStim(obj) end
 
----@protected
 ---@return TweakDBID
-function HitReactionComponent.GetMantisBladesInstantDismembermentSpyBuffStatusEffectID() return end
+function HitReactionComponent.GetMantisBladesInstantDismembermentSpyBuffStatusEffectID() end
 
----@protected
 ---@param evt ClearHitStimEvent
 ---@return Bool
-function HitReactionComponent:OnClearHitStimEvent(evt) return end
+function HitReactionComponent:OnClearHitStimEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function HitReactionComponent:OnDeath(evt) return end
+function HitReactionComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function HitReactionComponent:OnDefeated(evt) return end
+function HitReactionComponent:OnDefeated(evt) end
 
----@protected
 ---@param forcedDeath ForcedDeathEvent
 ---@return Bool
-function HitReactionComponent:OnForcedDeathEvent(forcedDeath) return end
+function HitReactionComponent:OnForcedDeathEvent(forcedDeath) end
 
----@protected
 ---@param forcedHitReaction ForcedHitReactionEvent
 ---@return Bool
-function HitReactionComponent:OnForcedHitReaction(forcedHitReaction) return end
+function HitReactionComponent:OnForcedHitReaction(forcedHitReaction) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function HitReactionComponent:OnHitIndicatorEnabledChanged(value) return end
+function HitReactionComponent:OnHitIndicatorEnabledChanged(value) end
 
----@protected
 ---@param evt HitReactionCumulativeDamageUpdate
 ---@return Bool
-function HitReactionComponent:OnHitReactionCumulativeDamageUpdate(evt) return end
+function HitReactionComponent:OnHitReactionCumulativeDamageUpdate(evt) end
 
----@protected
 ---@param evt HitReactionStopMotionExtraction
 ---@return Bool
-function HitReactionComponent:OnHitReactionStopMotionExtraction(evt) return end
+function HitReactionComponent:OnHitReactionStopMotionExtraction(evt) end
 
----@protected
 ---@param evt gameAttachmentSlotEventsItemAddedToSlot
 ---@return Bool
-function HitReactionComponent:OnItemAddedToSlot(evt) return end
+function HitReactionComponent:OnItemAddedToSlot(evt) end
 
----@protected
 ---@param evt PlayGrandFinaleVFX
 ---@return Bool
-function HitReactionComponent:OnPlayGrandFinaleVFX(evt) return end
+function HitReactionComponent:OnPlayGrandFinaleVFX(evt) end
 
----@protected
 ---@param evt PlayOnePunchVFX
 ---@return Bool
-function HitReactionComponent:OnPlayOnePunchVFX(evt) return end
+function HitReactionComponent:OnPlayOnePunchVFX(evt) end
 
----@protected
 ---@param evt HitReactionRequest
 ---@return Bool
-function HitReactionComponent:OnRequestHitReaction(evt) return end
+function HitReactionComponent:OnRequestHitReaction(evt) end
 
----@protected
 ---@param evt gameeventsResurrectEvent
 ---@return Bool
-function HitReactionComponent:OnResurrect(evt) return end
+function HitReactionComponent:OnResurrect(evt) end
 
----@protected
 ---@param evt LastHitDataEvent
 ---@return Bool
-function HitReactionComponent:OnSetLastHitReactionBehaviorData(evt) return end
+function HitReactionComponent:OnSetLastHitReactionBehaviorData(evt) end
 
----@protected
 ---@param evt NewHitDataEvent
 ---@return Bool
-function HitReactionComponent:OnSetNewHitReactionBehaviorData(evt) return end
+function HitReactionComponent:OnSetNewHitReactionBehaviorData(evt) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function HitReactionComponent:CacheVars(hitEvent) return end
+function HitReactionComponent:CacheVars(hitEvent) end
 
----@private
 ---@param weaponType gamedataItemType
 ---@param guardBreakImpulse Float
 ---@return Bool
-function HitReactionComponent:CanAttackGuardBreak(weaponType, guardBreakImpulse) return end
+function HitReactionComponent:CanAttackGuardBreak(weaponType, guardBreakImpulse) end
 
----@protected
 ---@param doNotCheckAttackData? Bool
 ---@return Bool
-function HitReactionComponent:CanDieCondition(doNotCheckAttackData) return end
+function HitReactionComponent:CanDieCondition(doNotCheckAttackData) end
 
----@private
 ---@return Bool
-function HitReactionComponent:CheckBrainMeltDeath() return end
+function HitReactionComponent:CheckBrainMeltDeath() end
 
----@protected
 ---@return Bool
-function HitReactionComponent:CheckInstantDismembermentOnDeath() return end
+function HitReactionComponent:CheckInstantDismembermentOnDeath() end
 
----@protected
 ---@param player gameObject
 ---@return nil
-function HitReactionComponent:ClearBodyPerkDismembermentChance(player) return end
+function HitReactionComponent:ClearBodyPerkDismembermentChance(player) end
 
----@protected
 ---@param npc NPCPuppet
 ---@return Bool
-function HitReactionComponent:DefeatedRemoveConditions(npc) return end
+function HitReactionComponent:DefeatedRemoveConditions(npc) end
 
----@protected
 ---@return Bool
-function HitReactionComponent:DismembermentConditions() return end
+function HitReactionComponent:DismembermentConditions() end
 
 ---@param newHitEvent gameeventsHitEvent
 ---@return nil
-function HitReactionComponent:EvaluateHit(newHitEvent) return end
+function HitReactionComponent:EvaluateHit(newHitEvent) end
 
 ---@return Int32
-function HitReactionComponent:GetAttackDirection() return end
+function HitReactionComponent:GetAttackDirection() end
 
 ---@return CName
-function HitReactionComponent:GetAttackTag() return end
+function HitReactionComponent:GetAttackTag() end
 
 ---@return gamedataAttackType
-function HitReactionComponent:GetAttackType() return end
+function HitReactionComponent:GetAttackType() end
 
 ---@return Int32
-function HitReactionComponent:GetBlockCount() return end
+function HitReactionComponent:GetBlockCount() end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitReactionComponent:GetBodyPart(hitEvent) return end
+function HitReactionComponent:GetBodyPart(hitEvent) end
 
 ---@return Bool
-function HitReactionComponent:GetCanBlock() return end
+function HitReactionComponent:GetCanBlock() end
 
 ---@return Float
-function HitReactionComponent:GetCumulatedDamage() return end
+function HitReactionComponent:GetCumulatedDamage() end
 
----@protected
 ---@return Float
-function HitReactionComponent:GetCurrentTime() return end
+function HitReactionComponent:GetCurrentTime() end
 
----@protected
 ---@return nil
-function HitReactionComponent:GetDBParameters() return end
+function HitReactionComponent:GetDBParameters() end
 
 ---@return Bool
-function HitReactionComponent:GetDeathHasBeenPlayed() return end
+function HitReactionComponent:GetDeathHasBeenPlayed() end
 
 ---@return CName
-function HitReactionComponent:GetDeathStimName() return end
+function HitReactionComponent:GetDeathStimName() end
 
 ---@return Bool
-function HitReactionComponent:GetDefeatedHasBeenPlayed() return end
+function HitReactionComponent:GetDefeatedHasBeenPlayed() end
 
----@protected
 ---@return gameDismWoundType
-function HitReactionComponent:GetDismembermentWoundType() return end
+function HitReactionComponent:GetDismembermentWoundType() end
 
 ---@return Int32
-function HitReactionComponent:GetDodgeCount() return end
+function HitReactionComponent:GetDodgeCount() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetFrameDamage() return end
+function HitReactionComponent:GetFrameDamage() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetFrameDismembermentDamage() return end
+function HitReactionComponent:GetFrameDismembermentDamage() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetFrameWoundsDamage() return end
+function HitReactionComponent:GetFrameWoundsDamage() end
 
 ---@return Bool
-function HitReactionComponent:GetHasKerenzikov() return end
+function HitReactionComponent:GetHasKerenzikov() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetHealthPecentageNormalized() return end
+function HitReactionComponent:GetHealthPecentageNormalized() end
 
 ---@return Bool
-function HitReactionComponent:GetHitAnimationInProgress() return end
+function HitReactionComponent:GetHitAnimationInProgress() end
 
 ---@param index Int32
 ---@return Float
-function HitReactionComponent:GetHitCountData(index) return end
+function HitReactionComponent:GetHitCountData(index) end
 
 ---@return Int32
-function HitReactionComponent:GetHitCountDataArrayCurrent() return end
+function HitReactionComponent:GetHitCountDataArrayCurrent() end
 
 ---@return Int32
-function HitReactionComponent:GetHitCountDataArrayEnd() return end
+function HitReactionComponent:GetHitCountDataArrayEnd() end
 
 ---@return Int32
-function HitReactionComponent:GetHitCountInCombo() return end
+function HitReactionComponent:GetHitCountInCombo() end
 
 ---@return Vector4
-function HitReactionComponent:GetHitDirection() return end
+function HitReactionComponent:GetHitDirection() end
 
 ---@return Int32
-function HitReactionComponent:GetHitDirectionToInt() return end
+function HitReactionComponent:GetHitDirectionToInt() end
 
 ---@return gameObject
-function HitReactionComponent:GetHitInstigator() return end
+function HitReactionComponent:GetHitInstigator() end
 
----@protected
 ---@param defeatedOverride Bool
 ---@return nil
-function HitReactionComponent:GetHitIntensity(defeatedOverride) return end
+function HitReactionComponent:GetHitIntensity(defeatedOverride) end
 
 ---@return Vector4
-function HitReactionComponent:GetHitPosition() return end
+function HitReactionComponent:GetHitPosition() end
 
 ---@return animAnimFeature_HitReactionsData
-function HitReactionComponent:GetHitReactionData() return end
+function HitReactionComponent:GetHitReactionData() end
 
 ---@return ActionHitReactionScriptProxy
-function HitReactionComponent:GetHitReactionProxyAction() return end
+function HitReactionComponent:GetHitReactionProxyAction() end
 
 ---@return Int32
-function HitReactionComponent:GetHitReactionType() return end
+function HitReactionComponent:GetHitReactionType() end
 
----@protected
 ---@return HitShapeUserDataBase
-function HitReactionComponent:GetHitShapeUserData() return end
+function HitReactionComponent:GetHitShapeUserData() end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return CName
-function HitReactionComponent:GetHitSoundName(hitEvent) return end
+function HitReactionComponent:GetHitSoundName(hitEvent) end
 
 ---@return gameObject
-function HitReactionComponent:GetHitSource() return end
+function HitReactionComponent:GetHitSource() end
 
 ---@return animAnimFeature_HitReactionsData
-function HitReactionComponent:GetHitStimEvent() return end
+function HitReactionComponent:GetHitStimEvent() end
 
----@protected
 ---@return Bool
-function HitReactionComponent:GetHitTimerAvailability() return end
+function HitReactionComponent:GetHitTimerAvailability() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetIsOwnerImmuneToExtendedHitReaction() return end
+function HitReactionComponent:GetIsOwnerImmuneToExtendedHitReaction() end
 
----@private
 ---@return Bool
-function HitReactionComponent:GetIsOwnerResistantToMeleeHitReaction() return end
+function HitReactionComponent:GetIsOwnerResistantToMeleeHitReaction() end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return CName
-function HitReactionComponent:GetKillSoundName(hitEvent) return end
+function HitReactionComponent:GetKillSoundName(hitEvent) end
 
 ---@return HitReactionBehaviorData
-function HitReactionComponent:GetLastHitReactionBehaviorData() return end
+function HitReactionComponent:GetLastHitReactionBehaviorData() end
 
 ---@return animAnimFeature_HitReactionsData
-function HitReactionComponent:GetLastHitReactionData() return end
+function HitReactionComponent:GetLastHitReactionData() end
 
 ---@return Float
-function HitReactionComponent:GetLastHitTimeStamp() return end
+function HitReactionComponent:GetLastHitTimeStamp() end
 
 ---@return Uint32
-function HitReactionComponent:GetLastStimID() return end
+function HitReactionComponent:GetLastStimID() end
 
 ---@return CName
-function HitReactionComponent:GetLastStimName() return end
+function HitReactionComponent:GetLastStimName() end
 
 ---@return Int32
-function HitReactionComponent:GetMeleeMaxHitChain() return end
+function HitReactionComponent:GetMeleeMaxHitChain() end
 
 ---@return Vector4
-function HitReactionComponent:GetOverridenHitDirection() return end
+function HitReactionComponent:GetOverridenHitDirection() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetOwnerCurrentHealth() return end
+function HitReactionComponent:GetOwnerCurrentHealth() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetOwnerHPPercentage() return end
+function HitReactionComponent:GetOwnerHPPercentage() end
 
----@private
 ---@return Float
-function HitReactionComponent:GetOwnerTotalHealth() return end
+function HitReactionComponent:GetOwnerTotalHealth() end
 
 ---@return Int32
-function HitReactionComponent:GetParryCount() return end
+function HitReactionComponent:GetParryCount() end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@param hitPosition Vector4
 ---@return Float, Float frameImpulse
-function HitReactionComponent:GetPhysicalImpulse(attackData, hitPosition) return end
+function HitReactionComponent:GetPhysicalImpulse(attackData, hitPosition) end
 
 ---@return Float
-function HitReactionComponent:GetRagdollImpulse() return end
+function HitReactionComponent:GetRagdollImpulse() end
 
 ---@return Int32
-function HitReactionComponent:GetRangedMaxHitChain() return end
+function HitReactionComponent:GetRangedMaxHitChain() end
 
----@protected
 ---@param guardBreakImpulse Float
 ---@param newHitEvent gameeventsHitEvent
 ---@return animHitReactionType
-function HitReactionComponent:GetReactionType(guardBreakImpulse, newHitEvent) return end
+function HitReactionComponent:GetReactionType(guardBreakImpulse, newHitEvent) end
 
 ---@return Bool
-function HitReactionComponent:GetShouldEvade() return end
+function HitReactionComponent:GetShouldEvade() end
 
 ---@return Int32
-function HitReactionComponent:GetStrongHitCountInCombo() return end
+function HitReactionComponent:GetStrongHitCountInCombo() end
 
 ---@return gamedataAttackSubtype
-function HitReactionComponent:GetSubAttackSubType() return end
+function HitReactionComponent:GetSubAttackSubType() end
 
----@protected
 ---@param player gameObject
 ---@return nil
-function HitReactionComponent:IncrementBodyPerkDismembermentChance(player) return end
+function HitReactionComponent:IncrementBodyPerkDismembermentChance(player) end
 
----@protected
 ---@return nil
-function HitReactionComponent:IncrementHitCountData() return end
+function HitReactionComponent:IncrementHitCountData() end
 
 ---@return Bool
-function HitReactionComponent:IsExecutedByDismemberment() return end
+function HitReactionComponent:IsExecutedByDismemberment() end
 
 ---@return Bool
-function HitReactionComponent:IsInKnockdown() return end
+function HitReactionComponent:IsInKnockdown() end
 
----@private
 ---@return Bool
-function HitReactionComponent:IsOwnerFacingInstigator() return end
+function HitReactionComponent:IsOwnerFacingInstigator() end
 
----@private
 ---@param powerDifferential gameEPowerDifferential
 ---@return Bool
-function HitReactionComponent:IsPowerDifferenceBelow(powerDifferential) return end
+function HitReactionComponent:IsPowerDifferenceBelow(powerDifferential) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitReactionComponent:IsSoundCriticalHit(hitEvent) return end
+function HitReactionComponent:IsSoundCriticalHit(hitEvent) end
 
----@private
 ---@param attackData gamedamageAttackData
 ---@return Bool
-function HitReactionComponent:IsStrongExplosion(attackData) return end
+function HitReactionComponent:IsStrongExplosion(attackData) end
 
----@protected
 ---@param healthMissing Float
 ---@return Bool
-function HitReactionComponent:IsValidBodyPerkDismemberAttack(healthMissing) return end
+function HitReactionComponent:IsValidBodyPerkDismemberAttack(healthMissing) end
 
----@private
 ---@param instigator gameObject
 ---@param bodyPart EHitReactionZone
 ---@param targetPosition Vector4
 ---@return nil
-function HitReactionComponent:NotifyAboutDismembermentInstigated(instigator, bodyPart, targetPosition) return end
+function HitReactionComponent:NotifyAboutDismembermentInstigated(instigator, bodyPart, targetPosition) end
 
----@private
 ---@param instigator gameObject
 ---@param bodyPart EHitReactionZone
 ---@return nil
-function HitReactionComponent:NotifyAboutWoundedInstigated(instigator, bodyPart) return end
+function HitReactionComponent:NotifyAboutWoundedInstigated(instigator, bodyPart) end
 
 ---@return nil
-function HitReactionComponent:OnGameAttach() return end
+function HitReactionComponent:OnGameAttach() end
 
 ---@return nil
-function HitReactionComponent:OnGameAttached() return end
+function HitReactionComponent:OnGameAttached() end
 
----@private
 ---@return nil
-function HitReactionComponent:OnGameDetach() return end
+function HitReactionComponent:OnGameDetach() end
 
----@protected
 ---@return nil
-function HitReactionComponent:ProcessBodyPerkDismembement() return end
+function HitReactionComponent:ProcessBodyPerkDismembement() end
 
----@protected
 ---@param npc NPCPuppet
 ---@return Bool
-function HitReactionComponent:ProcessDefeated(npc) return end
+function HitReactionComponent:ProcessDefeated(npc) end
 
----@protected
 ---@param owner gameObject
 ---@param hitBodyPart EHitReactionZone
 ---@param hitReaction animHitReactionType
 ---@return nil
-function HitReactionComponent:ProcessDropWeaponOnHit(owner, hitBodyPart, hitReaction) return end
+function HitReactionComponent:ProcessDropWeaponOnHit(owner, hitBodyPart, hitReaction) end
 
----@protected
 ---@return nil
-function HitReactionComponent:ProcessExplosionDismembement() return end
+function HitReactionComponent:ProcessExplosionDismembement() end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function HitReactionComponent:ProcessExtendedDeathAnimData(hitEvent) return end
+function HitReactionComponent:ProcessExtendedDeathAnimData(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function HitReactionComponent:ProcessExtendedHitReactionAnimData(hitEvent) return end
+function HitReactionComponent:ProcessExtendedHitReactionAnimData(hitEvent) end
 
----@protected
 ---@param hitPosition Vector4
 ---@return nil
-function HitReactionComponent:ProcessFragmentationSplinterReaction(hitPosition) return end
+function HitReactionComponent:ProcessFragmentationSplinterReaction(hitPosition) end
 
 ---@param target ScriptedPuppet
 ---@param instigator gameObject
 ---@return nil
-function HitReactionComponent:ProcessGrandFinaleHitImpact(target, instigator) return end
+function HitReactionComponent:ProcessGrandFinaleHitImpact(target, instigator) end
 
----@protected
 ---@param bodyPart EHitReactionZone
 ---@return EHitReactionZone
-function HitReactionComponent:ProcessHitReactionZone(bodyPart) return end
+function HitReactionComponent:ProcessHitReactionZone(bodyPart) end
 
 ---@param target ScriptedPuppet
 ---@param instigator gameObject
 ---@return nil
-function HitReactionComponent:ProcessOnePunchAttackHitImpact(target, instigator) return end
+function HitReactionComponent:ProcessOnePunchAttackHitImpact(target, instigator) end
 
----@protected
 ---@param hitevent gameeventsHitEvent
 ---@return nil
-function HitReactionComponent:ProcessSpecialFX(hitevent) return end
+function HitReactionComponent:ProcessSpecialFX(hitevent) end
 
----@protected
 ---@return nil
-function HitReactionComponent:ProcessWoundsAndDismemberment() return end
+function HitReactionComponent:ProcessWoundsAndDismemberment() end
 
----@protected
 ---@param reactionZone EHitReactionZone
 ---@return EBarkList
-function HitReactionComponent:ReactionZoneEnumToBarkListEnum(reactionZone) return end
+function HitReactionComponent:ReactionZoneEnumToBarkListEnum(reactionZone) end
 
----@protected
 ---@param reactionZone EHitReactionZone
 ---@return Int32
-function HitReactionComponent:ReactionZoneEnumToBodyPartID(reactionZone) return end
+function HitReactionComponent:ReactionZoneEnumToBodyPartID(reactionZone) end
 
----@private
 ---@param currentTimeStamp Float
 ---@return nil, Int32 hitReactionMin, Int32 hitReactionMax
-function HitReactionComponent:RecalculateHitReactionValsForHacks(currentTimeStamp) return end
-
----@private
----@return nil
-function HitReactionComponent:RequestCumulativeDamageUpdate() return end
-
----@private
----@return nil
-function HitReactionComponent:ResetFrameDamage() return end
+function HitReactionComponent:RecalculateHitReactionValsForHacks(currentTimeStamp) end
 
 ---@return nil
-function HitReactionComponent:ResetHitCount() return end
+function HitReactionComponent:RequestCumulativeDamageUpdate() end
 
----@private
+---@return nil
+function HitReactionComponent:ResetFrameDamage() end
+
+---@return nil
+function HitReactionComponent:ResetHitCount() end
+
 ---@param reactionPlayed animHitReactionType
 ---@return nil
-function HitReactionComponent:SendDataToAIBehavior(reactionPlayed) return end
+function HitReactionComponent:SendDataToAIBehavior(reactionPlayed) end
 
----@protected
 ---@param dismembermentType gameDismWoundType
 ---@param bodyPart gameDismBodyPart
 ---@param explosionEpicentrum Vector4
 ---@param strength Float
 ---@param hitPosition Vector4
 ---@return nil
-function HitReactionComponent:SendDismembermentCriticalEvent(dismembermentType, bodyPart, explosionEpicentrum, strength, hitPosition) return end
+function HitReactionComponent:SendDismembermentCriticalEvent(dismembermentType, bodyPart, explosionEpicentrum, strength, hitPosition) end
 
----@protected
 ---@param reactionPlayed animHitReactionType
 ---@return nil
-function HitReactionComponent:SendMechDataToAIBehavior(reactionPlayed) return end
+function HitReactionComponent:SendMechDataToAIBehavior(reactionPlayed) end
 
----@protected
 ---@return nil
-function HitReactionComponent:SendTwitchDataToAnimationGraph() return end
+function HitReactionComponent:SendTwitchDataToAnimationGraph() end
 
----@protected
 ---@param playerObject gameObject
 ---@return nil
-function HitReactionComponent:SendTwitchDataToPlayerAnimationGraph(playerObject) return end
+function HitReactionComponent:SendTwitchDataToPlayerAnimationGraph(playerObject) end
 
----@private
 ---@return nil, Int32 hitDirection, EHitReactionZone hitReactionZone
-function HitReactionComponent:SetAnimVariation() return end
+function HitReactionComponent:SetAnimVariation() end
 
----@protected
 ---@param target gameObject
 ---@return nil, Float guardBreakImpulse
-function HitReactionComponent:SetCumulatedDamages(target) return end
+function HitReactionComponent:SetCumulatedDamages(target) end
 
----@protected
 ---@return nil
-function HitReactionComponent:SetCumulatedDamagesForDeadNPC() return end
+function HitReactionComponent:SetCumulatedDamagesForDeadNPC() end
 
 ---@param laststimName CName|string
 ---@return nil
-function HitReactionComponent:SetDeathStimName(laststimName) return end
+function HitReactionComponent:SetDeathStimName(laststimName) end
 
----@protected
 ---@return nil
-function HitReactionComponent:SetHitReactionImmunities() return end
+function HitReactionComponent:SetHitReactionImmunities() end
 
----@protected
 ---@param hitSource EAIHitSource
 ---@return nil
-function HitReactionComponent:SetHitReactionSource(hitSource) return end
+function HitReactionComponent:SetHitReactionSource(hitSource) end
 
----@protected
 ---@return nil
-function HitReactionComponent:SetHitReactionThresholds() return end
+function HitReactionComponent:SetHitReactionThresholds() end
 
----@protected
 ---@param hitType animHitReactionType
 ---@return nil
-function HitReactionComponent:SetHitReactionType(hitType) return end
+function HitReactionComponent:SetHitReactionType(hitType) end
 
----@protected
 ---@param attackType gamedataAttackType
 ---@return nil
-function HitReactionComponent:SetHitSource(attackType) return end
+function HitReactionComponent:SetHitSource(attackType) end
 
----@private
 ---@param hitData animAnimFeature_HitReactionsData
 ---@return nil
-function HitReactionComponent:SetHitStimEvent(hitData) return end
+function HitReactionComponent:SetHitStimEvent(hitData) end
 
 ---@param laststimName CName|string
 ---@return nil
-function HitReactionComponent:SetLastStimName(laststimName) return end
+function HitReactionComponent:SetLastStimName(laststimName) end
 
----@protected
 ---@return nil
-function HitReactionComponent:SetStance() return end
+function HitReactionComponent:SetStance() end
 
----@private
 ---@return nil
-function HitReactionComponent:StartGuardBreakCooldown() return end
+function HitReactionComponent:StartGuardBreakCooldown() end
 
----@protected
 ---@param attackAngle Int32
 ---@param hitSeverity EAIHitIntensity
 ---@param reactionType animHitReactionType
 ---@param bodyPart EHitReactionZone
 ---@param variation Int32
 ---@return nil
-function HitReactionComponent:StoreHitData(attackAngle, hitSeverity, reactionType, bodyPart, variation) return end
+function HitReactionComponent:StoreHitData(attackAngle, hitSeverity, reactionType, bodyPart, variation) end
 
----@protected
 ---@param remainingHealth Float
 ---@return Bool
-function HitReactionComponent:TryTriggerBodyPerkDismembement(remainingHealth) return end
+function HitReactionComponent:TryTriggerBodyPerkDismembement(remainingHealth) end
 
 ---@return nil
-function HitReactionComponent:UpdateBlockCount() return end
+function HitReactionComponent:UpdateBlockCount() end
 
 ---@param npc NPCPuppet
 ---@param coverId Uint64
 ---@return nil
-function HitReactionComponent:UpdateCoverDamage(npc, coverId) return end
+function HitReactionComponent:UpdateCoverDamage(npc, coverId) end
 
----@private
 ---@param deltaTime Float
 ---@return Bool
-function HitReactionComponent:UpdateCumulatedDamages(deltaTime) return end
+function HitReactionComponent:UpdateCumulatedDamages(deltaTime) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function HitReactionComponent:UpdateDBParams(data) return end
+function HitReactionComponent:UpdateDBParams(data) end
 
 ---@return nil
-function HitReactionComponent:UpdateDeathHasBeenPlayed() return end
+function HitReactionComponent:UpdateDeathHasBeenPlayed() end
 
 ---@return nil
-function HitReactionComponent:UpdateDefeated() return end
+function HitReactionComponent:UpdateDefeated() end
 
 ---@return nil
-function HitReactionComponent:UpdateDodgeCount() return end
+function HitReactionComponent:UpdateDodgeCount() end
 
 ---@return Uint32
-function HitReactionComponent:UpdateLastStimID() return end
+function HitReactionComponent:UpdateLastStimID() end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerCanBlockData(Value) return end
+function HitReactionComponent:UpdateOwnerCanBlockData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerCanDropWeaponData(Value) return end
+function HitReactionComponent:UpdateOwnerCanDropWeaponData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerExtendedHitReactionImmunityData(Value) return end
+function HitReactionComponent:UpdateOwnerExtendedHitReactionImmunityData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerHasKerenzikovData(Value) return end
+function HitReactionComponent:UpdateOwnerHasKerenzikovData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerHealthData(Value) return end
+function HitReactionComponent:UpdateOwnerHealthData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerImpactDamageThresholdData(Value) return end
+function HitReactionComponent:UpdateOwnerImpactDamageThresholdData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerImpactDamageThresholdInCoverData(Value) return end
+function HitReactionComponent:UpdateOwnerImpactDamageThresholdInCoverData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerIsInvulnerableData(Value) return end
+function HitReactionComponent:UpdateOwnerIsInvulnerableData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerKnockdownDamageThresholdData(Value) return end
+function HitReactionComponent:UpdateOwnerKnockdownDamageThresholdData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerKnockdownDamageThresholdImpulseData(Value) return end
+function HitReactionComponent:UpdateOwnerKnockdownDamageThresholdImpulseData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerKnockdownDamageThresholdInCoverData(Value) return end
+function HitReactionComponent:UpdateOwnerKnockdownDamageThresholdInCoverData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerKnockdownImmunityData(Value) return end
+function HitReactionComponent:UpdateOwnerKnockdownImmunityData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerMeleeHitReactionResistanceData(Value) return end
+function HitReactionComponent:UpdateOwnerMeleeHitReactionResistanceData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerStaggerDamageThresholdData(Value) return end
+function HitReactionComponent:UpdateOwnerStaggerDamageThresholdData(Value) end
 
 ---@param Value Float
 ---@return nil
-function HitReactionComponent:UpdateOwnerStaggerDamageThresholdInCoverData(Value) return end
+function HitReactionComponent:UpdateOwnerStaggerDamageThresholdInCoverData(Value) end
 
 ---@return nil
-function HitReactionComponent:UpdateParryCount() return end
+function HitReactionComponent:UpdateParryCount() end
 
----@protected
 ---@return Bool
-function HitReactionComponent:WoundedBaseConditions() return end
+function HitReactionComponent:WoundedBaseConditions() end
 
----@protected
 ---@param dismembermentCheck Bool
 ---@param woundedBaseConditions Bool
 ---@return Bool
-function HitReactionComponent:WoundedCyberConditions(dismembermentCheck, woundedBaseConditions) return end
+function HitReactionComponent:WoundedCyberConditions(dismembermentCheck, woundedBaseConditions) end
 
----@protected
 ---@param dismembermentCheck Bool
 ---@param woundedBaseConditions Bool
 ---@return Bool
-function HitReactionComponent:WoundedFleshConditions(dismembermentCheck, woundedBaseConditions) return end
+function HitReactionComponent:WoundedFleshConditions(dismembermentCheck, woundedBaseConditions) end

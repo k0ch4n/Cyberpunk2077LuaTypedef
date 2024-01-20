@@ -5,34 +5,34 @@ gamedataAISubActionTriggerStim_Record = {}
 
 ---@param fields? gamedataAISubActionTriggerStim_Record
 ---@return gamedataAISubActionTriggerStim_Record
-function gamedataAISubActionTriggerStim_Record.new(fields) return end
+function gamedataAISubActionTriggerStim_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionTriggerStim_Record:Delay() return end
+function gamedataAISubActionTriggerStim_Record:Delay() end
 
 ---@return Bool
-function gamedataAISubActionTriggerStim_Record:Direct() return end
+function gamedataAISubActionTriggerStim_Record:Direct() end
 
 ---@return Bool
-function gamedataAISubActionTriggerStim_Record:PurelyDirect() return end
+function gamedataAISubActionTriggerStim_Record:PurelyDirect() end
 
 ---@return Float
-function gamedataAISubActionTriggerStim_Record:Radius() return end
+function gamedataAISubActionTriggerStim_Record:Radius() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionTriggerStim_Record:StimSource() return end
+function gamedataAISubActionTriggerStim_Record:StimSource() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionTriggerStim_Record:StimSourceHandle() return end
+function gamedataAISubActionTriggerStim_Record:StimSourceHandle() end
 
 ---@return gamedataStimType_Record
-function gamedataAISubActionTriggerStim_Record:StimType() return end
+function gamedataAISubActionTriggerStim_Record:StimType() end
 
 ---@return gamedataStimType_Record
-function gamedataAISubActionTriggerStim_Record:StimTypeHandle() return end
+function gamedataAISubActionTriggerStim_Record:StimTypeHandle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionTriggerStim_Record:Target() return end
+function gamedataAISubActionTriggerStim_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionTriggerStim_Record:TargetHandle() return end
+function gamedataAISubActionTriggerStim_Record:TargetHandle() end

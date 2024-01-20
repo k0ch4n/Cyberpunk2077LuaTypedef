@@ -1,34 +1,28 @@
 ---@meta
 
 ---@class AGenericTooltipControllerWithDebug: AGenericTooltipController
----@field protected DEBUG_showDebug Bool
----@field protected DEBUG_openInVSCode Bool
----@field protected DEBUG_openInVSCodeBlocked Bool
+---@field DEBUG_showDebug Bool
+---@field DEBUG_openInVSCode Bool
+---@field DEBUG_openInVSCodeBlocked Bool
 AGenericTooltipControllerWithDebug = {}
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function AGenericTooltipControllerWithDebug:OnGlobalPress_DEBUG(evt) return end
+function AGenericTooltipControllerWithDebug:OnGlobalPress_DEBUG(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function AGenericTooltipControllerWithDebug:OnGlobalRelease_DEBUG(evt) return end
+function AGenericTooltipControllerWithDebug:OnGlobalRelease_DEBUG(evt) end
 
----@protected
 ---@return Bool
-function AGenericTooltipControllerWithDebug:OnInitialize() return end
+function AGenericTooltipControllerWithDebug:OnInitialize() end
 
----@protected
 ---@return Bool
-function AGenericTooltipControllerWithDebug:OnUninitialize() return end
+function AGenericTooltipControllerWithDebug:OnUninitialize() end
 
----@protected
 ---@return nil
-function AGenericTooltipControllerWithDebug:DEBUG_UpdateDebugInfo() return end
+function AGenericTooltipControllerWithDebug:DEBUG_UpdateDebugInfo() end
 
----@protected
 ---@param tdbID TweakDBID|string
 ---@return nil
-function AGenericTooltipControllerWithDebug:OpenTweakDBRecordInVSCodeIfRequested(tdbID) return end
+function AGenericTooltipControllerWithDebug:OpenTweakDBRecordInVSCodeIfRequested(tdbID) end

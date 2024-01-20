@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameForceVisionModuleQuestEvent: redEvent
----@field public moduleName CName
----@field public meshComponentNames CName[]
+---@field moduleName CName
+---@field meshComponentNames CName[]
 gameForceVisionModuleQuestEvent = {}
 
 ---@param fields? gameForceVisionModuleQuestEvent
 ---@return gameForceVisionModuleQuestEvent
-function gameForceVisionModuleQuestEvent.new(fields) return end
+function gameForceVisionModuleQuestEvent.new(fields) end

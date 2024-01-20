@@ -5,11 +5,11 @@ ForceDisableCarAlarm = {}
 
 ---@param fields? ForceDisableCarAlarm
 ---@return ForceDisableCarAlarm
-function ForceDisableCarAlarm.new(fields) return end
+function ForceDisableCarAlarm.new(fields) end
 
 ---@return String
-function ForceDisableCarAlarm:GetTweakDBChoiceRecord() return end
+function ForceDisableCarAlarm:GetTweakDBChoiceRecord() end
 
 ---@param isAlarmTriggered Bool
 ---@return nil
-function ForceDisableCarAlarm:SetProperties(isAlarmTriggered) return end
+function ForceDisableCarAlarm:SetProperties(isAlarmTriggered) end

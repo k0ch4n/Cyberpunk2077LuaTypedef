@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class QuestSpotTargetReference: ActionEntityReference
----@field public ForcedTarget entEntityID
+---@field ForcedTarget entEntityID
 QuestSpotTargetReference = {}
 
 ---@param fields? QuestSpotTargetReference
 ---@return QuestSpotTargetReference
-function QuestSpotTargetReference.new(fields) return end
+function QuestSpotTargetReference.new(fields) end
 
 ---@return nil
-function QuestSpotTargetReference:SetProperties() return end
+function QuestSpotTargetReference:SetProperties() end
 
 ---@param id entEntityID
 ---@return nil
-function QuestSpotTargetReference:SetPropertiesFromScripts(id) return end
+function QuestSpotTargetReference:SetPropertiesFromScripts(id) end

@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class gameStatViewData
----@field public type gamedataStatType
----@field public statName String
----@field public value Int32
----@field public diffValue Int32
----@field public isMaxValue Bool
----@field public valueF Float
----@field public diffValueF Float
----@field public statMinValueF Float
----@field public statMaxValueF Float
----@field public canBeCompared Bool
----@field public isCompared Bool
----@field public statMinValue Int32
----@field public statMaxValue Int32
+---@field type gamedataStatType
+---@field statName String
+---@field value Int32
+---@field diffValue Int32
+---@field isMaxValue Bool
+---@field valueF Float
+---@field diffValueF Float
+---@field statMinValueF Float
+---@field statMaxValueF Float
+---@field canBeCompared Bool
+---@field isCompared Bool
+---@field statMinValue Int32
+---@field statMaxValue Int32
 gameStatViewData = {}
 
 ---@param fields? gameStatViewData
 ---@return gameStatViewData
-function gameStatViewData.new(fields) return end
+function gameStatViewData.new(fields) end

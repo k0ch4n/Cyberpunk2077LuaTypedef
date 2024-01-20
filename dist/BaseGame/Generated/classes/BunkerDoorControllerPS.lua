@@ -1,66 +1,60 @@
 ---@meta
 
 ---@class BunkerDoorControllerPS: DoorControllerPS
----@field private NpcOpenSpeed Float
----@field private NpcOpenTime Float
----@field private malfunctioningType EMalfunctioningType
----@field private malfunctioningChance Int32
----@field private malfunctioningStimRange Float
----@field private malfanctioningBehaviourActive Bool
+---@field NpcOpenSpeed Float
+---@field NpcOpenTime Float
+---@field malfunctioningType EMalfunctioningType
+---@field malfunctioningChance Int32
+---@field malfunctioningStimRange Float
+---@field malfanctioningBehaviourActive Bool
 BunkerDoorControllerPS = {}
 
 ---@param fields? BunkerDoorControllerPS
 ---@return BunkerDoorControllerPS
-function BunkerDoorControllerPS.new(fields) return end
+function BunkerDoorControllerPS.new(fields) end
 
 ---@return MalfunctionHalfOpen
-function BunkerDoorControllerPS:ActionMalfunctionHalfOpen() return end
+function BunkerDoorControllerPS:ActionMalfunctionHalfOpen() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool
-function BunkerDoorControllerPS:CanAddToggleOpenAction(context) return end
+function BunkerDoorControllerPS:CanAddToggleOpenAction(context) end
 
 ---@return Float
-function BunkerDoorControllerPS:GetMalfunctioningStimRange() return end
+function BunkerDoorControllerPS:GetMalfunctioningStimRange() end
 
 ---@return EMalfunctioningType
-function BunkerDoorControllerPS:GetMalfunctioningType() return end
+function BunkerDoorControllerPS:GetMalfunctioningType() end
 
 ---@return Float
-function BunkerDoorControllerPS:GetNpcOpenSpeed() return end
+function BunkerDoorControllerPS:GetNpcOpenSpeed() end
 
 ---@return Float
-function BunkerDoorControllerPS:GetNpcOpenTime() return end
+function BunkerDoorControllerPS:GetNpcOpenTime() end
 
----@protected
 ---@return ToggleOpen
-function BunkerDoorControllerPS:GetPlayerToggleOpenAction() return end
+function BunkerDoorControllerPS:GetPlayerToggleOpenAction() end
 
----@protected
 ---@return nil
-function BunkerDoorControllerPS:Initialize() return end
+function BunkerDoorControllerPS:Initialize() end
 
 ---@param type EMalfunctioningType
 ---@return Bool
-function BunkerDoorControllerPS:IsMalfunctioningBehaviourActive(type) return end
+function BunkerDoorControllerPS:IsMalfunctioningBehaviourActive(type) end
 
 ---@param evt MalfunctionHalfOpen
 ---@return EntityNotificationType
-function BunkerDoorControllerPS:OnMalfunctionHalfOpen(evt) return end
+function BunkerDoorControllerPS:OnMalfunctionHalfOpen(evt) end
 
----@protected
 ---@return nil
-function BunkerDoorControllerPS:OnSetIsOpened() return end
+function BunkerDoorControllerPS:OnSetIsOpened() end
 
----@private
 ---@return nil
-function BunkerDoorControllerPS:ReinitializeMalfunctionBehaviour() return end
+function BunkerDoorControllerPS:ReinitializeMalfunctionBehaviour() end
 
 ---@param type EMalfunctioningType
 ---@return nil
-function BunkerDoorControllerPS:SetMalfunctioningType(type) return end
+function BunkerDoorControllerPS:SetMalfunctioningType(type) end
 
----@private
 ---@return Bool
-function BunkerDoorControllerPS:ShouldMalfunction() return end
+function BunkerDoorControllerPS:ShouldMalfunction() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorStackScriptTaskDefinition: AIbehaviorTaskDefinition
----@field public script AIbehaviortaskStackScript
+---@field script AIbehaviortaskStackScript
 AIbehaviorStackScriptTaskDefinition = {}
 
 ---@param fields? AIbehaviorStackScriptTaskDefinition
 ---@return AIbehaviorStackScriptTaskDefinition
-function AIbehaviorStackScriptTaskDefinition.new(fields) return end
+function AIbehaviorStackScriptTaskDefinition.new(fields) end

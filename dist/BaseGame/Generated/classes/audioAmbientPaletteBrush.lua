@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioAmbientPaletteBrush
----@field public distributionBucketSize Float
----@field public virtualHearingRadius Float
----@field public hearingDistanceCooldown Float
----@field public eventsPool CName[]
----@field public radioStationMetadata CName
+---@field distributionBucketSize Float
+---@field virtualHearingRadius Float
+---@field hearingDistanceCooldown Float
+---@field eventsPool CName[]
+---@field radioStationMetadata CName
 audioAmbientPaletteBrush = {}
 
 ---@param fields? audioAmbientPaletteBrush
 ---@return audioAmbientPaletteBrush
-function audioAmbientPaletteBrush.new(fields) return end
+function audioAmbientPaletteBrush.new(fields) end

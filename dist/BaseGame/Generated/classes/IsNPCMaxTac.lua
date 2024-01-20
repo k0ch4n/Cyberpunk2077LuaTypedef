@@ -5,9 +5,8 @@ IsNPCMaxTac = {}
 
 ---@param fields? IsNPCMaxTac
 ---@return IsNPCMaxTac
-function IsNPCMaxTac.new(fields) return end
+function IsNPCMaxTac.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsNPCMaxTac:Check(context) return end
+function IsNPCMaxTac:Check(context) end

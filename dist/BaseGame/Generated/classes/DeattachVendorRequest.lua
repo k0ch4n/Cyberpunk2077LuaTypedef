@@ -5,4 +5,4 @@ DeattachVendorRequest = {}
 
 ---@param fields? DeattachVendorRequest
 ---@return DeattachVendorRequest
-function DeattachVendorRequest.new(fields) return end
+function DeattachVendorRequest.new(fields) end

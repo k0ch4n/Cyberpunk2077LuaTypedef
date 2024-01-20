@@ -5,4 +5,4 @@ CodexPrintRecordsRequest = {}
 
 ---@param fields? CodexPrintRecordsRequest
 ---@return CodexPrintRecordsRequest
-function CodexPrintRecordsRequest.new(fields) return end
+function CodexPrintRecordsRequest.new(fields) end

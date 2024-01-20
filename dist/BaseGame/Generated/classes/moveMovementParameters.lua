@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class moveMovementParameters
----@field public type moveMovementType
----@field public maxSpeed Float
----@field public acceleration Float
----@field public deceleration Float
----@field public rotationSpeed Float
+---@field type moveMovementType
+---@field maxSpeed Float
+---@field acceleration Float
+---@field deceleration Float
+---@field rotationSpeed Float
 moveMovementParameters = {}
 
 ---@param fields? moveMovementParameters
 ---@return moveMovementParameters
-function moveMovementParameters.new(fields) return end
+function moveMovementParameters.new(fields) end

@@ -1,22 +1,21 @@
 ---@meta
 
 ---@class TrackQuestNotificationAction: GenericNotificationBaseAction
----@field public questEntry gameJournalQuest
----@field public journalMgr gameJournalManager
+---@field questEntry gameJournalQuest
+---@field journalMgr gameJournalManager
 TrackQuestNotificationAction = {}
 
 ---@param fields? TrackQuestNotificationAction
 ---@return TrackQuestNotificationAction
-function TrackQuestNotificationAction.new(fields) return end
+function TrackQuestNotificationAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function TrackQuestNotificationAction:Execute(data) return end
+function TrackQuestNotificationAction:Execute(data) end
 
 ---@return String
-function TrackQuestNotificationAction:GetLabel() return end
+function TrackQuestNotificationAction:GetLabel() end
 
----@private
 ---@param questEntry gameJournalEntry
 ---@return Bool
-function TrackQuestNotificationAction:TrackFirstObjective(questEntry) return end
+function TrackQuestNotificationAction:TrackFirstObjective(questEntry) end

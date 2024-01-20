@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkUniformGridWidget: inkCompoundWidget
----@field public wrappingWidgetCount Uint32
----@field public orientation inkEOrientation
+---@field wrappingWidgetCount Uint32
+---@field orientation inkEOrientation
 inkUniformGridWidget = {}
 
 ---@param fields? inkUniformGridWidget
 ---@return inkUniformGridWidget
-function inkUniformGridWidget.new(fields) return end
+function inkUniformGridWidget.new(fields) end
 
 ---@return inkEOrientation
-function inkUniformGridWidget:GetOrientation() return end
+function inkUniformGridWidget:GetOrientation() end
 
 ---@return Uint32
-function inkUniformGridWidget:GetWrappingWidgetCount() return end
+function inkUniformGridWidget:GetWrappingWidgetCount() end
 
 ---@param orientation inkEOrientation
 ---@return nil
-function inkUniformGridWidget:SetOrientation(orientation) return end
+function inkUniformGridWidget:SetOrientation(orientation) end
 
 ---@param count Uint32
 ---@return nil
-function inkUniformGridWidget:SetWrappingWidgetCount(count) return end
+function inkUniformGridWidget:SetWrappingWidgetCount(count) end

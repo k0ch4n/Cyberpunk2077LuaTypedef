@@ -5,7 +5,7 @@ QuestForceSecuritySystemArmed = {}
 
 ---@param fields? QuestForceSecuritySystemArmed
 ---@return QuestForceSecuritySystemArmed
-function QuestForceSecuritySystemArmed.new(fields) return end
+function QuestForceSecuritySystemArmed.new(fields) end
 
 ---@return nil
-function QuestForceSecuritySystemArmed:SetProperties() return end
+function QuestForceSecuritySystemArmed:SetProperties() end

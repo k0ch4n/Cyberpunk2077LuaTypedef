@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ReactoToPreventionSystem: redEvent
----@field public wakeUp Bool
+---@field wakeUp Bool
 ReactoToPreventionSystem = {}
 
 ---@param fields? ReactoToPreventionSystem
 ---@return ReactoToPreventionSystem
-function ReactoToPreventionSystem.new(fields) return end
+function ReactoToPreventionSystem.new(fields) end

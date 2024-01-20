@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkTextureSlot
----@field public texture CBitmapTexture
----@field public parts inkTextureAtlasMapper[]
----@field public slices inkTextureAtlasSlice[]
+---@field texture CBitmapTexture
+---@field parts inkTextureAtlasMapper[]
+---@field slices inkTextureAtlasSlice[]
 inkTextureSlot = {}
 
 ---@param fields? inkTextureSlot
 ---@return inkTextureSlot
-function inkTextureSlot.new(fields) return end
+function inkTextureSlot.new(fields) end

@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class HealthConsumable: gameCpoPickableItem
----@field private interactionComponent gameinteractionsComponent
----@field private meshComponent entMeshComponent
----@field private disappearAfterEquip Bool
----@field private respawnTime Float
+---@field interactionComponent gameinteractionsComponent
+---@field meshComponent entMeshComponent
+---@field disappearAfterEquip Bool
+---@field respawnTime Float
 HealthConsumable = {}
 
 ---@param fields? HealthConsumable
 ---@return HealthConsumable
-function HealthConsumable.new(fields) return end
+function HealthConsumable.new(fields) end
 
----@protected
 ---@return Bool
-function HealthConsumable:OnGameAttached() return end
+function HealthConsumable:OnGameAttached() end
 
----@protected
 ---@param evt gameinteractionsChoiceEvent
 ---@return Bool
-function HealthConsumable:OnInteractionChoiceEvent(evt) return end
+function HealthConsumable:OnInteractionChoiceEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function HealthConsumable:OnRequestComponents(ri) return end
+function HealthConsumable:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function HealthConsumable:OnTakeControl(ri) return end
+function HealthConsumable:OnTakeControl(ri) end
 
----@protected
 ---@param evt RespawnHealthConsumable
 ---@return Bool
-function HealthConsumable:OnTurnOn(evt) return end
+function HealthConsumable:OnTurnOn(evt) end

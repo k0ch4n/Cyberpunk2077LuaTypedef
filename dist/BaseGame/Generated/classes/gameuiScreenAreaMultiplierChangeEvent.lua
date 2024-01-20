@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiScreenAreaMultiplierChangeEvent: redEvent
----@field public screenAreaMultiplier Float
+---@field screenAreaMultiplier Float
 gameuiScreenAreaMultiplierChangeEvent = {}
 
 ---@param fields? gameuiScreenAreaMultiplierChangeEvent
 ---@return gameuiScreenAreaMultiplierChangeEvent
-function gameuiScreenAreaMultiplierChangeEvent.new(fields) return end
+function gameuiScreenAreaMultiplierChangeEvent.new(fields) end

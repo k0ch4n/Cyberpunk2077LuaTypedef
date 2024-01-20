@@ -5,14 +5,12 @@ RewardPlayerWithCrimeScoreEffector = {}
 
 ---@param fields? RewardPlayerWithCrimeScoreEffector
 ---@return RewardPlayerWithCrimeScoreEffector
-function RewardPlayerWithCrimeScoreEffector.new(fields) return end
+function RewardPlayerWithCrimeScoreEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RewardPlayerWithCrimeScoreEffector:ActionOn(owner) return end
+function RewardPlayerWithCrimeScoreEffector:ActionOn(owner) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function RewardPlayerWithCrimeScoreEffector:ProcessAction(owner) return end
+function RewardPlayerWithCrimeScoreEffector:ProcessAction(owner) end

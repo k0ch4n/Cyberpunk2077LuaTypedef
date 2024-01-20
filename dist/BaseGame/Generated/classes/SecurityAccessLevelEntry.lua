@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class SecurityAccessLevelEntry
----@field public keycard TweakDBID
----@field public password CName
+---@field keycard TweakDBID
+---@field password CName
 SecurityAccessLevelEntry = {}
 
 ---@param fields? SecurityAccessLevelEntry
 ---@return SecurityAccessLevelEntry
-function SecurityAccessLevelEntry.new(fields) return end
+function SecurityAccessLevelEntry.new(fields) end
 
 ---@param self SecurityAccessLevelEntry
 ---@return Bool
-function SecurityAccessLevelEntry.IsDataValid(self) return end
+function SecurityAccessLevelEntry.IsDataValid(self) end
 
 ---@param self SecurityAccessLevelEntry
 ---@return Bool
-function SecurityAccessLevelEntry.IsKeycardValid(self) return end
+function SecurityAccessLevelEntry.IsKeycardValid(self) end
 
 ---@param self SecurityAccessLevelEntry
 ---@return Bool
-function SecurityAccessLevelEntry.IsPasswordValid(self) return end
+function SecurityAccessLevelEntry.IsPasswordValid(self) end

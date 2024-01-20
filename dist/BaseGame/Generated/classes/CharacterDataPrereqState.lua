@@ -5,4 +5,4 @@ CharacterDataPrereqState = {}
 
 ---@param fields? CharacterDataPrereqState
 ---@return CharacterDataPrereqState
-function CharacterDataPrereqState.new(fields) return end
+function CharacterDataPrereqState.new(fields) end

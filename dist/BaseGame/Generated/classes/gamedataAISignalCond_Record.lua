@@ -5,7 +5,7 @@ gamedataAISignalCond_Record = {}
 
 ---@param fields? gamedataAISignalCond_Record
 ---@return gamedataAISignalCond_Record
-function gamedataAISignalCond_Record.new(fields) return end
+function gamedataAISignalCond_Record.new(fields) end
 
 ---@return CName
-function gamedataAISignalCond_Record:Name() return end
+function gamedataAISignalCond_Record:Name() end

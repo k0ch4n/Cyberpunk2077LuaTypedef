@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UnlockCodexPartRequest: gameScriptableSystemRequest
----@field public codexRecordID TweakDBID
----@field public partName CName
+---@field codexRecordID TweakDBID
+---@field partName CName
 UnlockCodexPartRequest = {}
 
 ---@param fields? UnlockCodexPartRequest
 ---@return UnlockCodexPartRequest
-function UnlockCodexPartRequest.new(fields) return end
+function UnlockCodexPartRequest.new(fields) end

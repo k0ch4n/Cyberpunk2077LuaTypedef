@@ -5,11 +5,11 @@ questPhoneManager = {}
 
 ---@param fields? questPhoneManager
 ---@return questPhoneManager
-function questPhoneManager.new(fields) return end
+function questPhoneManager.new(fields) end
 
 ---@param apply Bool
 ---@return nil
-function questPhoneManager:ApplyPhoneCallRestriction(apply) return end
+function questPhoneManager:ApplyPhoneCallRestriction(apply) end
 
 ---@return Bool
-function questPhoneManager:IsPhoneCallActive() return end
+function questPhoneManager:IsPhoneCallActive() end

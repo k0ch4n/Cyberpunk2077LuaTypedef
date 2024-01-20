@@ -5,8 +5,7 @@ InStandStanceState = {}
 
 ---@param fields? InStandStanceState
 ---@return InStandStanceState
-function InStandStanceState.new(fields) return end
+function InStandStanceState.new(fields) end
 
----@private
 ---@return gamedataNPCStanceState
-function InStandStanceState:GetStateToCheck() return end
+function InStandStanceState:GetStateToCheck() end

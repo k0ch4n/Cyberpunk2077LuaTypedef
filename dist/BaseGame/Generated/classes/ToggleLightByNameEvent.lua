@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ToggleLightByNameEvent: ToggleLightEvent
----@field public componentName CName
+---@field componentName CName
 ToggleLightByNameEvent = {}
 
 ---@param fields? ToggleLightByNameEvent
 ---@return ToggleLightByNameEvent
-function ToggleLightByNameEvent.new(fields) return end
+function ToggleLightByNameEvent.new(fields) end

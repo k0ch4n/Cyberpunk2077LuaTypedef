@@ -5,9 +5,8 @@ SelectClosestPlayerThreat = {}
 
 ---@param fields? SelectClosestPlayerThreat
 ---@return SelectClosestPlayerThreat
-function SelectClosestPlayerThreat.new(fields) return end
+function SelectClosestPlayerThreat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SelectClosestPlayerThreat:Activate(context) return end
+function SelectClosestPlayerThreat:Activate(context) end

@@ -5,8 +5,8 @@ QuestForceFakeElevatorArrows = {}
 
 ---@param fields? QuestForceFakeElevatorArrows
 ---@return QuestForceFakeElevatorArrows
-function QuestForceFakeElevatorArrows.new(fields) return end
+function QuestForceFakeElevatorArrows.new(fields) end
 
 ---@param property Bool
 ---@return nil
-function QuestForceFakeElevatorArrows:SetProperties(property) return end
+function QuestForceFakeElevatorArrows:SetProperties(property) end

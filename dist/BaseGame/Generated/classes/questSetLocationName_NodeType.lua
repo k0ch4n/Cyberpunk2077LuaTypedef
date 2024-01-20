@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questSetLocationName_NodeType: questIUIManagerNodeType
----@field public locationName String
----@field public action questLocationAction
----@field public districtID TweakDBID
----@field public isNewLocation Bool
+---@field locationName String
+---@field action questLocationAction
+---@field districtID TweakDBID
+---@field isNewLocation Bool
 questSetLocationName_NodeType = {}
 
 ---@param fields? questSetLocationName_NodeType
 ---@return questSetLocationName_NodeType
-function questSetLocationName_NodeType.new(fields) return end
+function questSetLocationName_NodeType.new(fields) end

@@ -5,4 +5,4 @@ gamegpsGPSSystem = {}
 
 ---@param fields? gamegpsGPSSystem
 ---@return gamegpsGPSSystem
-function gamegpsGPSSystem.new(fields) return end
+function gamegpsGPSSystem.new(fields) end

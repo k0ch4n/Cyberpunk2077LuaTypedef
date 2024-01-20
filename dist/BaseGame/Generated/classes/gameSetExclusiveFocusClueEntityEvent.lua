@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetExclusiveFocusClueEntityEvent: redEvent
----@field public isSetExclusive Bool
+---@field isSetExclusive Bool
 gameSetExclusiveFocusClueEntityEvent = {}
 
 ---@param fields? gameSetExclusiveFocusClueEntityEvent
 ---@return gameSetExclusiveFocusClueEntityEvent
-function gameSetExclusiveFocusClueEntityEvent.new(fields) return end
+function gameSetExclusiveFocusClueEntityEvent.new(fields) end

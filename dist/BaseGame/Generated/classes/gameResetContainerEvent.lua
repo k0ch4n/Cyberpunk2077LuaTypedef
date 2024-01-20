@@ -5,4 +5,4 @@ gameResetContainerEvent = {}
 
 ---@param fields? gameResetContainerEvent
 ---@return gameResetContainerEvent
-function gameResetContainerEvent.new(fields) return end
+function gameResetContainerEvent.new(fields) end

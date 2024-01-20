@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DelayedTimetableEvent: redEvent
----@field public eventToForward DeviceTimetableEvent
----@field public targetPS ScriptableDeviceComponentPS
+---@field eventToForward DeviceTimetableEvent
+---@field targetPS ScriptableDeviceComponentPS
 DelayedTimetableEvent = {}
 
 ---@param fields? DelayedTimetableEvent
 ---@return DelayedTimetableEvent
-function DelayedTimetableEvent.new(fields) return end
+function DelayedTimetableEvent.new(fields) end

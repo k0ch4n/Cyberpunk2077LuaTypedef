@@ -5,7 +5,7 @@ TVController = {}
 
 ---@param fields? TVController
 ---@return TVController
-function TVController.new(fields) return end
+function TVController.new(fields) end
 
 ---@return TVControllerPS
-function TVController:GetPS() return end
+function TVController:GetPS() end

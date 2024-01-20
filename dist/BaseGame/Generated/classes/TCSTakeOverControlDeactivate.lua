@@ -5,4 +5,4 @@ TCSTakeOverControlDeactivate = {}
 
 ---@param fields? TCSTakeOverControlDeactivate
 ---@return TCSTakeOverControlDeactivate
-function TCSTakeOverControlDeactivate.new(fields) return end
+function TCSTakeOverControlDeactivate.new(fields) end

@@ -5,9 +5,9 @@ EMPExplosion = {}
 
 ---@param fields? EMPExplosion
 ---@return EMPExplosion
-function EMPExplosion.new(fields) return end
+function EMPExplosion.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function EMPExplosion:Process(ctx, applierCtx) return end
+function EMPExplosion:Process(ctx, applierCtx) end

@@ -5,4 +5,4 @@ AIbehaviorAndConditionDefinition = {}
 
 ---@param fields? AIbehaviorAndConditionDefinition
 ---@return AIbehaviorAndConditionDefinition
-function AIbehaviorAndConditionDefinition.new(fields) return end
+function AIbehaviorAndConditionDefinition.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTrafficLightListenerComponent: entIComponent
----@field public intersectionRef NodeRef
----@field public groupIdx Uint32
+---@field intersectionRef NodeRef
+---@field groupIdx Uint32
 worldTrafficLightListenerComponent = {}
 
 ---@param fields? worldTrafficLightListenerComponent
 ---@return worldTrafficLightListenerComponent
-function worldTrafficLightListenerComponent.new(fields) return end
+function worldTrafficLightListenerComponent.new(fields) end

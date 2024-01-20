@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioAmbientPaletteEntry
----@field public brushCategory CName
+---@field brushCategory CName
 audioAmbientPaletteEntry = {}
 
 ---@param fields? audioAmbientPaletteEntry
 ---@return audioAmbientPaletteEntry
-function audioAmbientPaletteEntry.new(fields) return end
+function audioAmbientPaletteEntry.new(fields) end

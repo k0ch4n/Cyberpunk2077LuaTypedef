@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questVendorPanel_NodeType: questIUIManagerNodeType
----@field public scenarioName CName
----@field public openVendorPanel Bool
----@field public vendorId String
----@field public objectRef gameEntityReference
----@field public assetsLibrary String
----@field public rootItemName CName
+---@field scenarioName CName
+---@field openVendorPanel Bool
+---@field vendorId String
+---@field objectRef gameEntityReference
+---@field assetsLibrary String
+---@field rootItemName CName
 questVendorPanel_NodeType = {}
 
 ---@param fields? questVendorPanel_NodeType
 ---@return questVendorPanel_NodeType
-function questVendorPanel_NodeType.new(fields) return end
+function questVendorPanel_NodeType.new(fields) end

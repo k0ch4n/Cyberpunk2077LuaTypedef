@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class effectLoopData
----@field public startTime Float
----@field public endTime Float
+---@field startTime Float
+---@field endTime Float
 effectLoopData = {}
 
 ---@param fields? effectLoopData
 ---@return effectLoopData
-function effectLoopData.new(fields) return end
+function effectLoopData.new(fields) end

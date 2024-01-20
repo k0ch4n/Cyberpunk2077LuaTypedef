@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioVoiceGruntVariations
----@field public cachedVariations CName[]
+---@field cachedVariations CName[]
 audioVoiceGruntVariations = {}
 
 ---@param fields? audioVoiceGruntVariations
 ---@return audioVoiceGruntVariations
-function audioVoiceGruntVariations.new(fields) return end
+function audioVoiceGruntVariations.new(fields) end

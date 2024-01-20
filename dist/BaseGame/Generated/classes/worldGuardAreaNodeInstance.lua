@@ -5,4 +5,4 @@ worldGuardAreaNodeInstance = {}
 
 ---@param fields? worldGuardAreaNodeInstance
 ---@return worldGuardAreaNodeInstance
-function worldGuardAreaNodeInstance.new(fields) return end
+function worldGuardAreaNodeInstance.new(fields) end

@@ -5,4 +5,4 @@ BasePerkLevelData_Records = {}
 
 ---@param index Int32
 ---@return gamedataTweakDBRecord
-function BasePerkLevelData_Records:GetItemAt(index) return end
+function BasePerkLevelData_Records:GetItemAt(index) end

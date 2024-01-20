@@ -4,7 +4,7 @@
 ActionEntityReference = {}
 
 ---@return String
-function ActionEntityReference:GetCurrentDisplayString() return end
+function ActionEntityReference:GetCurrentDisplayString() end
 
 ---@return gamedeviceActionProperty[]
-function ActionEntityReference:GetProperties() return end
+function ActionEntityReference:GetProperties() end

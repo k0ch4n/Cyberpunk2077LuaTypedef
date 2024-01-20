@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ExpressionTreeCGeneralCompositeNodeDefinition: ExpressionTreeCGeneralNodeDefinition
----@field public children LibTreeINodeDefinition[]
+---@field children LibTreeINodeDefinition[]
 ExpressionTreeCGeneralCompositeNodeDefinition = {}
 
 ---@param fields? ExpressionTreeCGeneralCompositeNodeDefinition
 ---@return ExpressionTreeCGeneralCompositeNodeDefinition
-function ExpressionTreeCGeneralCompositeNodeDefinition.new(fields) return end
+function ExpressionTreeCGeneralCompositeNodeDefinition.new(fields) end

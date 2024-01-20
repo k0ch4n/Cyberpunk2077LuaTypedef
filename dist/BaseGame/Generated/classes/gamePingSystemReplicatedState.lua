@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamePingSystemReplicatedState: gameIGameSystemReplicatedState
----@field public replicatedPingEntries gamePingEntry[]
+---@field replicatedPingEntries gamePingEntry[]
 gamePingSystemReplicatedState = {}
 
 ---@param fields? gamePingSystemReplicatedState
 ---@return gamePingSystemReplicatedState
-function gamePingSystemReplicatedState.new(fields) return end
+function gamePingSystemReplicatedState.new(fields) end

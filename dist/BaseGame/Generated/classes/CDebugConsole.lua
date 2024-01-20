@@ -5,4 +5,4 @@ CDebugConsole = {}
 
 ---@param fields? CDebugConsole
 ---@return CDebugConsole
-function CDebugConsole.new(fields) return end
+function CDebugConsole.new(fields) end

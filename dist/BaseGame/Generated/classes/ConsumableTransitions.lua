@@ -3,51 +3,42 @@
 ---@class ConsumableTransitions: DefaultTransition
 ConsumableTransitions = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Bool
 ---@return nil
-function ConsumableTransitions:ChangeConsumableAnimFeature(stateContext, scriptInterface, newState) return end
+function ConsumableTransitions:ChangeConsumableAnimFeature(stateContext, scriptInterface, newState) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ConsumableTransitions:ForceUnequipEvent(scriptInterface) return end
+function ConsumableTransitions:ForceUnequipEvent(scriptInterface) end
 
----@protected
 ---@param consumableItem gameItemID
 ---@return Float
-function ConsumableTransitions:GetConsumableCastPoint(consumableItem) return end
+function ConsumableTransitions:GetConsumableCastPoint(consumableItem) end
 
----@protected
 ---@param consumableItem gameItemID
 ---@return Float
-function ConsumableTransitions:GetConsumableCycleDuration(consumableItem) return end
+function ConsumableTransitions:GetConsumableCycleDuration(consumableItem) end
 
----@protected
 ---@param consumableItem gameItemID
 ---@return Float
-function ConsumableTransitions:GetConsumableInitBlendDuration(consumableItem) return end
+function ConsumableTransitions:GetConsumableInitBlendDuration(consumableItem) end
 
----@protected
 ---@param consumableItem gameItemID
 ---@return Float
-function ConsumableTransitions:GetConsumableRemovePoint(consumableItem) return end
+function ConsumableTransitions:GetConsumableRemovePoint(consumableItem) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function ConsumableTransitions:IsUsingFluffConsumable(stateContext) return end
+function ConsumableTransitions:IsUsingFluffConsumable(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Bool
 ---@return nil
-function ConsumableTransitions:SetItemInLeftHand(scriptInterface, newState) return end
+function ConsumableTransitions:SetItemInLeftHand(scriptInterface, newState) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newState Bool
 ---@return nil
-function ConsumableTransitions:SetLeftHandAnimationAnimFeature(scriptInterface, newState) return end
+function ConsumableTransitions:SetLeftHandAnimationAnimFeature(scriptInterface, newState) end

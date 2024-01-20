@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class VehicleAgent: AgentBase
----@field public unit vehicleBaseObject
----@field public passangers Int32
----@field public slotsTotal Int32
----@field public slotsReserved Int32
----@field public slotsAvailable Int32
----@field public everHadPassengers Bool
----@field public distanceToPlayerSquared Float
----@field public lifetimeStatus LifetimeStatus
----@field public nearTimeStamp Float
+---@field unit vehicleBaseObject
+---@field passangers Int32
+---@field slotsTotal Int32
+---@field slotsReserved Int32
+---@field slotsAvailable Int32
+---@field everHadPassengers Bool
+---@field distanceToPlayerSquared Float
+---@field lifetimeStatus LifetimeStatus
+---@field nearTimeStamp Float
 VehicleAgent = {}
 
 ---@param fields? VehicleAgent
 ---@return VehicleAgent
-function VehicleAgent.new(fields) return end
+function VehicleAgent.new(fields) end
 
 ---@return nil
-function VehicleAgent:Disengage() return end
+function VehicleAgent:Disengage() end
 
 ---@param playerPos Vector4
 ---@return nil
-function VehicleAgent:UpdateLifetimeStatus(playerPos) return end
+function VehicleAgent:UpdateLifetimeStatus(playerPos) end

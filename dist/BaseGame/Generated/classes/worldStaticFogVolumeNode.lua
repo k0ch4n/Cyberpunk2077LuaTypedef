@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class worldStaticFogVolumeNode: worldNode
----@field public priority Uint8
----@field public absolute Bool
----@field public applyHeightFalloff Bool
----@field public densityFalloff Float
----@field public blendFalloff Float
----@field public densityFactor Float
----@field public absorption Float
----@field public streamingDistance Float
----@field public ambientScale Float
----@field public envColorGroup EEnvColorGroup
----@field public color Color
----@field public lightChannels rendLightChannel
+---@field priority Uint8
+---@field absolute Bool
+---@field applyHeightFalloff Bool
+---@field densityFalloff Float
+---@field blendFalloff Float
+---@field densityFactor Float
+---@field absorption Float
+---@field streamingDistance Float
+---@field ambientScale Float
+---@field envColorGroup EEnvColorGroup
+---@field color Color
+---@field lightChannels rendLightChannel
 worldStaticFogVolumeNode = {}
 
 ---@param fields? worldStaticFogVolumeNode
 ---@return worldStaticFogVolumeNode
-function worldStaticFogVolumeNode.new(fields) return end
+function worldStaticFogVolumeNode.new(fields) end

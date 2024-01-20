@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animRigPartBoneTree
----@field public rootBone CName
----@field public weight Float
----@field public subtreesToChange animRigPartBoneTree[]
+---@field rootBone CName
+---@field weight Float
+---@field subtreesToChange animRigPartBoneTree[]
 animRigPartBoneTree = {}
 
 ---@param fields? animRigPartBoneTree
 ---@return animRigPartBoneTree
-function animRigPartBoneTree.new(fields) return end
+function animRigPartBoneTree.new(fields) end

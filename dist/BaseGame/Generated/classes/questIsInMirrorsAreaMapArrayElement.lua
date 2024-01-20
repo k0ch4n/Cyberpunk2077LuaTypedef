@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questIsInMirrorsAreaMapArrayElement
----@field public objectRef NodeRef
----@field public isInMirrorsArea Bool
+---@field objectRef NodeRef
+---@field isInMirrorsArea Bool
 questIsInMirrorsAreaMapArrayElement = {}
 
 ---@param fields? questIsInMirrorsAreaMapArrayElement
 ---@return questIsInMirrorsAreaMapArrayElement
-function questIsInMirrorsAreaMapArrayElement.new(fields) return end
+function questIsInMirrorsAreaMapArrayElement.new(fields) end

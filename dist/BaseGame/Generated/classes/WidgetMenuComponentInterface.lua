@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class WidgetMenuComponentInterface: WidgetBaseComponent
----@field public widgetResource inkWidgetLibraryResource
----@field public cursorResource inkWidgetLibraryResource
----@field public externalMaterial CMaterialTemplate
----@field public meshTargetBinding worlduiMeshTargetBinding
+---@field widgetResource inkWidgetLibraryResource
+---@field cursorResource inkWidgetLibraryResource
+---@field externalMaterial CMaterialTemplate
+---@field meshTargetBinding worlduiMeshTargetBinding
 WidgetMenuComponentInterface = {}
 
 ---@param fields? WidgetMenuComponentInterface
 ---@return WidgetMenuComponentInterface
-function WidgetMenuComponentInterface.new(fields) return end
+function WidgetMenuComponentInterface.new(fields) end

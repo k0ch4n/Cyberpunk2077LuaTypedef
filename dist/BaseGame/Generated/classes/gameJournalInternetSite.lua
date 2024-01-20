@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class gameJournalInternetSite: gameJournalFileEntry
----@field public shortName LocalizationString
----@field public mainPagePath gameJournalPath
----@field public ignoredAtDesktop Bool
----@field public textureAtlas inkTextureAtlas
----@field public texturePart CName
+---@field shortName LocalizationString
+---@field mainPagePath gameJournalPath
+---@field ignoredAtDesktop Bool
+---@field textureAtlas inkTextureAtlas
+---@field texturePart CName
 gameJournalInternetSite = {}
 
 ---@param fields? gameJournalInternetSite
 ---@return gameJournalInternetSite
-function gameJournalInternetSite.new(fields) return end
+function gameJournalInternetSite.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gameJournalInternetSite:GetAtlasPath() return end
+function gameJournalInternetSite:GetAtlasPath() end
 
 ---@return String
-function gameJournalInternetSite:GetShortName() return end
+function gameJournalInternetSite:GetShortName() end
 
 ---@return CName
-function gameJournalInternetSite:GetTexturePart() return end
+function gameJournalInternetSite:GetTexturePart() end
 
 ---@return Bool
-function gameJournalInternetSite:IsIgnoredAtDesktop() return end
+function gameJournalInternetSite:IsIgnoredAtDesktop() end

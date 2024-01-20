@@ -5,10 +5,9 @@ ReleaseEvents = {}
 
 ---@param fields? ReleaseEvents
 ---@return ReleaseEvents
-function ReleaseEvents.new(fields) return end
+function ReleaseEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReleaseEvents:OnEnter(stateContext, scriptInterface) return end
+function ReleaseEvents:OnEnter(stateContext, scriptInterface) end

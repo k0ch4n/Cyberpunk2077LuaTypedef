@@ -5,4 +5,4 @@ gameTransformAnimationPauseEvent = {}
 
 ---@param fields? gameTransformAnimationPauseEvent
 ---@return gameTransformAnimationPauseEvent
-function gameTransformAnimationPauseEvent.new(fields) return end
+function gameTransformAnimationPauseEvent.new(fields) end

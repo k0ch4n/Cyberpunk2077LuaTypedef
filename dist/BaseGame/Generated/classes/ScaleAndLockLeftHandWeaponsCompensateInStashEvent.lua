@@ -5,4 +5,4 @@ ScaleAndLockLeftHandWeaponsCompensateInStashEvent = {}
 
 ---@param fields? ScaleAndLockLeftHandWeaponsCompensateInStashEvent
 ---@return ScaleAndLockLeftHandWeaponsCompensateInStashEvent
-function ScaleAndLockLeftHandWeaponsCompensateInStashEvent.new(fields) return end
+function ScaleAndLockLeftHandWeaponsCompensateInStashEvent.new(fields) end

@@ -5,4 +5,4 @@ DayPassedEvent = {}
 
 ---@param fields? DayPassedEvent
 ---@return DayPassedEvent
-function DayPassedEvent.new(fields) return end
+function DayPassedEvent.new(fields) end

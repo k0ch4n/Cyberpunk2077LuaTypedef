@@ -1,69 +1,58 @@
 ---@meta
 
 ---@class InteractionUIBase: gameuiHUDGameController
----@field protected InteractionsBlackboard gameIBlackboard
----@field protected InteractionsBBDefinition UIInteractionsDef
----@field protected DialogsDataListenerId redCallbackObject
----@field protected DialogsActiveHubListenerId redCallbackObject
----@field protected DialogsSelectedChoiceListenerId redCallbackObject
----@field protected InteractionsDataListenerId redCallbackObject
----@field private lootingDataListenerId redCallbackObject
----@field protected AreDialogsOpen Bool
----@field protected AreContactsOpen Bool
----@field protected IsLootingOpen Bool
----@field protected AreInteractionsOpen Bool
----@field private interactionIsScrollable Bool
----@field private dialogIsScrollable Bool
----@field private lootingIsScrollable Bool
+---@field InteractionsBlackboard gameIBlackboard
+---@field InteractionsBBDefinition UIInteractionsDef
+---@field DialogsDataListenerId redCallbackObject
+---@field DialogsActiveHubListenerId redCallbackObject
+---@field DialogsSelectedChoiceListenerId redCallbackObject
+---@field InteractionsDataListenerId redCallbackObject
+---@field lootingDataListenerId redCallbackObject
+---@field AreDialogsOpen Bool
+---@field AreContactsOpen Bool
+---@field IsLootingOpen Bool
+---@field AreInteractionsOpen Bool
+---@field interactionIsScrollable Bool
+---@field dialogIsScrollable Bool
+---@field lootingIsScrollable Bool
 InteractionUIBase = {}
 
----@protected
 ---@param activeHubId Int32
 ---@return Bool
-function InteractionUIBase:OnDialogsActivateHub(activeHubId) return end
+function InteractionUIBase:OnDialogsActivateHub(activeHubId) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InteractionUIBase:OnDialogsData(value) return end
+function InteractionUIBase:OnDialogsData(value) end
 
----@protected
 ---@param index Int32
 ---@return Bool
-function InteractionUIBase:OnDialogsSelectIndex(index) return end
+function InteractionUIBase:OnDialogsSelectIndex(index) end
 
----@protected
 ---@return Bool
-function InteractionUIBase:OnInitialize() return end
+function InteractionUIBase:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InteractionUIBase:OnInteractionData(value) return end
+function InteractionUIBase:OnInteractionData(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function InteractionUIBase:OnLootingData(value) return end
+function InteractionUIBase:OnLootingData(value) end
 
----@protected
 ---@return Bool
-function InteractionUIBase:OnUninitialize() return end
+function InteractionUIBase:OnUninitialize() end
 
----@protected
 ---@return nil
-function InteractionUIBase:OnInteractionsChanged() return end
+function InteractionUIBase:OnInteractionsChanged() end
 
----@protected
 ---@param data gameinteractionsvisDialogChoiceHubs
 ---@return nil
-function InteractionUIBase:UpdateDialogsData(data) return end
+function InteractionUIBase:UpdateDialogsData(data) end
 
----@protected
 ---@param data gameinteractionsvisInteractionChoiceHubData
 ---@return nil
-function InteractionUIBase:UpdateInteractionData(data) return end
+function InteractionUIBase:UpdateInteractionData(data) end
 
----@private
 ---@return nil
-function InteractionUIBase:UpdateListBlackboard() return end
+function InteractionUIBase:UpdateListBlackboard() end

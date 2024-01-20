@@ -1,195 +1,172 @@
 ---@meta
 
 ---@class UIScriptableSystem: gameScriptableSystem
----@field private backpackActiveSorting Int32
----@field private backpackActiveFilter Int32
----@field private isBackpackActiveFilterSaved Bool
----@field private vendorPanelPlayerActiveSorting Int32
----@field private vendorPanelVendorActiveSorting Int32
----@field private playerFavouriteItems gameItemID[]
----@field private newItems gameItemID[]
----@field private DLCAddedItems TweakDBID[]
----@field private newWardrobeSets gameWardrobeClothingSetIndex[]
----@field private newWardrobeItems gameItemID[]
----@field private availableCars CName[]
----@field private previousAttributeLevels UIScriptableSystemAttributeLevel[]
----@field private comparisionTooltipDisabled Bool
----@field private attachedPlayer PlayerPuppet
----@field private inventoryListenerCallback UIScriptableInventoryListenerCallback
----@field private inventoryListener gameInventoryScriptListener
----@field private DEV_useNewTooltips Bool
----@field private DEV_useLongScanTooltips Bool
+---@field backpackActiveSorting Int32
+---@field backpackActiveFilter Int32
+---@field isBackpackActiveFilterSaved Bool
+---@field vendorPanelPlayerActiveSorting Int32
+---@field vendorPanelVendorActiveSorting Int32
+---@field playerFavouriteItems gameItemID[]
+---@field newItems gameItemID[]
+---@field DLCAddedItems TweakDBID[]
+---@field newWardrobeSets gameWardrobeClothingSetIndex[]
+---@field newWardrobeItems gameItemID[]
+---@field availableCars CName[]
+---@field previousAttributeLevels UIScriptableSystemAttributeLevel[]
+---@field comparisionTooltipDisabled Bool
+---@field attachedPlayer PlayerPuppet
+---@field inventoryListenerCallback UIScriptableInventoryListenerCallback
+---@field inventoryListener gameInventoryScriptListener
+---@field DEV_useNewTooltips Bool
+---@field DEV_useLongScanTooltips Bool
 UIScriptableSystem = {}
 
 ---@param fields? UIScriptableSystem
 ---@return UIScriptableSystem
-function UIScriptableSystem.new(fields) return end
+function UIScriptableSystem.new(fields) end
 
 ---@return UIScriptableSystem
-function UIScriptableSystem.GetInstance() return end
+function UIScriptableSystem.GetInstance() end
 
 ---@return Bool
-function UIScriptableSystem:DEV_IsNewTooltipEnabled() return end
+function UIScriptableSystem:DEV_IsNewTooltipEnabled() end
 
 ---@return Bool
-function UIScriptableSystem:DEV_IsScanLongTooltipEnabled() return end
+function UIScriptableSystem:DEV_IsScanLongTooltipEnabled() end
 
 ---@param defaultValue? Int32
 ---@return Int32
-function UIScriptableSystem:GetBackpackActiveFilter(defaultValue) return end
+function UIScriptableSystem:GetBackpackActiveFilter(defaultValue) end
 
 ---@param defaultValue? Int32
 ---@return Int32
-function UIScriptableSystem:GetBackpackActiveSorting(defaultValue) return end
+function UIScriptableSystem:GetBackpackActiveSorting(defaultValue) end
 
 ---@param stat gamedataStatType
 ---@return Int32
-function UIScriptableSystem:GetPreviousAttributeLevel(stat) return end
+function UIScriptableSystem:GetPreviousAttributeLevel(stat) end
 
 ---@param defaultValue? Int32
 ---@return Int32
-function UIScriptableSystem:GetVendorPanelPlayerActiveSorting(defaultValue) return end
+function UIScriptableSystem:GetVendorPanelPlayerActiveSorting(defaultValue) end
 
 ---@param defaultValue? Int32
 ---@return Int32
-function UIScriptableSystem:GetVendorPanelVendorActiveSorting(defaultValue) return end
+function UIScriptableSystem:GetVendorPanelVendorActiveSorting(defaultValue) end
 
 ---@param carFact CName|string
 ---@return Bool
-function UIScriptableSystem:IsAvailableCarNew(carFact) return end
+function UIScriptableSystem:IsAvailableCarNew(carFact) end
 
 ---@return Bool
-function UIScriptableSystem:IsComparisionTooltipDisabled() return end
+function UIScriptableSystem:IsComparisionTooltipDisabled() end
 
 ---@param itemTweakDBID TweakDBID|string
 ---@return Bool
-function UIScriptableSystem:IsDLCAddedActiveItem(itemTweakDBID) return end
+function UIScriptableSystem:IsDLCAddedActiveItem(itemTweakDBID) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function UIScriptableSystem:IsInventoryItemNew(itemID) return end
+function UIScriptableSystem:IsInventoryItemNew(itemID) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function UIScriptableSystem:IsItemPlayerFavourite(itemID) return end
+function UIScriptableSystem:IsItemPlayerFavourite(itemID) end
 
 ---@param itemID gameItemID
 ---@return Bool
-function UIScriptableSystem:IsWardrobeItemNew(itemID) return end
+function UIScriptableSystem:IsWardrobeItemNew(itemID) end
 
 ---@param wardrobeSet gameWardrobeClothingSetIndex
 ---@return Bool
-function UIScriptableSystem:IsWardrobeSetNew(wardrobeSet) return end
+function UIScriptableSystem:IsWardrobeSetNew(wardrobeSet) end
 
----@private
 ---@return nil
-function UIScriptableSystem:OnAttach() return end
+function UIScriptableSystem:OnAttach() end
 
----@private
 ---@param request UIScriptableSystemAddAvailableCar
 ---@return nil
-function UIScriptableSystem:OnAvailableCarAdded(request) return end
+function UIScriptableSystem:OnAvailableCarAdded(request) end
 
----@private
 ---@param request UIScriptableSystemSetComparisionTooltipDisabled
 ---@return nil
-function UIScriptableSystem:OnComparisionTooltipDisabled(request) return end
+function UIScriptableSystem:OnComparisionTooltipDisabled(request) end
 
----@private
 ---@param request UIScriptableSystemDLCAddedItemInspected
 ---@return nil
-function UIScriptableSystem:OnDLCAddedItemInspected(request) return end
+function UIScriptableSystem:OnDLCAddedItemInspected(request) end
 
----@private
 ---@return nil
-function UIScriptableSystem:OnDetach() return end
+function UIScriptableSystem:OnDetach() end
 
----@private
 ---@param request ScanLongDescriptionCall
 ---@return nil
-function UIScriptableSystem:OnEnableScanLongDescription(request) return end
+function UIScriptableSystem:OnEnableScanLongDescription(request) end
 
----@private
 ---@param request UIScriptableSystemInventoryAddItem
 ---@return nil
-function UIScriptableSystem:OnInventoryItemAdded(request) return end
+function UIScriptableSystem:OnInventoryItemAdded(request) end
 
----@private
 ---@param request UIScriptableSystemInventoryInspectItem
 ---@return nil
-function UIScriptableSystem:OnInventoryItemInspected(request) return end
+function UIScriptableSystem:OnInventoryItemInspected(request) end
 
----@private
 ---@param request UIScriptableSystemInventoryRemoveItem
 ---@return nil
-function UIScriptableSystem:OnInventoryItemRemoved(request) return end
+function UIScriptableSystem:OnInventoryItemRemoved(request) end
 
----@private
 ---@param request gamePlayerAttachRequest
 ---@return nil
-function UIScriptableSystem:OnPlayerAttach(request) return end
+function UIScriptableSystem:OnPlayerAttach(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function UIScriptableSystem:OnRestored(saveVersion, gameVersion) return end
+function UIScriptableSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request UIScriptableSystemSetBackpackFilter
 ---@return nil
-function UIScriptableSystem:OnSetBackpackFilter(request) return end
+function UIScriptableSystem:OnSetBackpackFilter(request) end
 
----@private
 ---@param request UIScriptableSystemSetBackpackSorting
 ---@return nil
-function UIScriptableSystem:OnSetBackpackSorting(request) return end
+function UIScriptableSystem:OnSetBackpackSorting(request) end
 
----@private
 ---@param request UIScriptableSystemSetItemPlayerFavourite
 ---@return nil
-function UIScriptableSystem:OnSetItemPlayerFavourite(request) return end
+function UIScriptableSystem:OnSetItemPlayerFavourite(request) end
 
----@private
 ---@param request UIScriptableSystemSetPreviousAttributeLevel
 ---@return nil
-function UIScriptableSystem:OnSetPreviousAttributeLevel(request) return end
+function UIScriptableSystem:OnSetPreviousAttributeLevel(request) end
 
----@private
 ---@param request UIScriptableSystemSetVendorPanelPlayerSorting
 ---@return nil
-function UIScriptableSystem:OnSetVendorPanelPlayerSorting(request) return end
+function UIScriptableSystem:OnSetVendorPanelPlayerSorting(request) end
 
----@private
 ---@param request UIScriptableSystemSetVendorPanelVendorSorting
 ---@return nil
-function UIScriptableSystem:OnSetVendorPanelVendorSorting(request) return end
+function UIScriptableSystem:OnSetVendorPanelVendorSorting(request) end
 
----@private
 ---@param request UIScriptableSystemWardrobeAddItem
 ---@return nil
-function UIScriptableSystem:OnWardrobeItemAdded(request) return end
+function UIScriptableSystem:OnWardrobeItemAdded(request) end
 
----@private
 ---@param request UIScriptableSystemWardrobeInspectItem
 ---@return nil
-function UIScriptableSystem:OnWardrobeItemInspected(request) return end
+function UIScriptableSystem:OnWardrobeItemInspected(request) end
 
----@private
 ---@param request UIScriptableSystemWardrobeSetAdded
 ---@return nil
-function UIScriptableSystem:OnWardrobeSetAdded(request) return end
+function UIScriptableSystem:OnWardrobeSetAdded(request) end
 
----@private
 ---@param request UIScriptableSystemWardrobeSetInspected
 ---@return nil
-function UIScriptableSystem:OnWardrobeSetInspected(request) return end
+function UIScriptableSystem:OnWardrobeSetInspected(request) end
 
----@private
 ---@param request UI_DEV_ScriptableSystemUseNewTooltips
 ---@return nil
-function UIScriptableSystem:On_DEV_ScriptableSystemUseNewTooltips(request) return end
+function UIScriptableSystem:On_DEV_ScriptableSystemUseNewTooltips(request) end
 
----@private
 ---@return nil
-function UIScriptableSystem:SetupInstance() return end
+function UIScriptableSystem:SetupInstance() end

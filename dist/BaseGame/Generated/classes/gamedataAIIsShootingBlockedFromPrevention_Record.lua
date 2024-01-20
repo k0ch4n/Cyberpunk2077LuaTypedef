@@ -5,4 +5,4 @@ gamedataAIIsShootingBlockedFromPrevention_Record = {}
 
 ---@param fields? gamedataAIIsShootingBlockedFromPrevention_Record
 ---@return gamedataAIIsShootingBlockedFromPrevention_Record
-function gamedataAIIsShootingBlockedFromPrevention_Record.new(fields) return end
+function gamedataAIIsShootingBlockedFromPrevention_Record.new(fields) end

@@ -5,4 +5,4 @@ AIbehaviorNodeRefToInstanceTaskDefinition = {}
 
 ---@param fields? AIbehaviorNodeRefToInstanceTaskDefinition
 ---@return AIbehaviorNodeRefToInstanceTaskDefinition
-function AIbehaviorNodeRefToInstanceTaskDefinition.new(fields) return end
+function AIbehaviorNodeRefToInstanceTaskDefinition.new(fields) end

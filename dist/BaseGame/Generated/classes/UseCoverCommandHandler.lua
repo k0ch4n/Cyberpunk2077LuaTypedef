@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class UseCoverCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIUseCoverCommand
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIUseCoverCommand
 UseCoverCommandHandler = {}
 
 ---@param fields? UseCoverCommandHandler
 ---@return UseCoverCommandHandler
-function UseCoverCommandHandler.new(fields) return end
+function UseCoverCommandHandler.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UseCoverCommandHandler:Activate(context) return end
+function UseCoverCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function UseCoverCommandHandler:Update(context) return end
+function UseCoverCommandHandler:Update(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function UseCoverCommandHandler:WaitBeforeExit(context) return end
+function UseCoverCommandHandler:WaitBeforeExit(context) end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class animFacialCustomizationSet: CResource
----@field public baseSetup animFacialSetup
----@field public targetSetups animFacialSetup[]
----@field public targetSetupsTemp animFacialCustomizationTargetEntryTemp[]
----@field public numTargets Uint32
----@field public posesInfo animFacialSetup_PosesBufferInfo
----@field public jointRegions Uint8[]
----@field public mainPosesData DataBuffer
----@field public usedTransformIndices Uint16[]
----@field public correctivePosesData DataBuffer
----@field public numJoints Uint32
----@field public rigReferencePosesData DataBuffer
----@field public isCooked Bool
+---@field baseSetup animFacialSetup
+---@field targetSetups animFacialSetup[]
+---@field targetSetupsTemp animFacialCustomizationTargetEntryTemp[]
+---@field numTargets Uint32
+---@field posesInfo animFacialSetup_PosesBufferInfo
+---@field jointRegions Uint8[]
+---@field mainPosesData DataBuffer
+---@field usedTransformIndices Uint16[]
+---@field correctivePosesData DataBuffer
+---@field numJoints Uint32
+---@field rigReferencePosesData DataBuffer
+---@field isCooked Bool
 animFacialCustomizationSet = {}
 
 ---@param fields? animFacialCustomizationSet
 ---@return animFacialCustomizationSet
-function animFacialCustomizationSet.new(fields) return end
+function animFacialCustomizationSet.new(fields) end

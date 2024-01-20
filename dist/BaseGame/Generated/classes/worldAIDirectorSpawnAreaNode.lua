@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldAIDirectorSpawnAreaNode: worldAreaShapeNode
----@field public groupKey CName
+---@field groupKey CName
 worldAIDirectorSpawnAreaNode = {}
 
 ---@param fields? worldAIDirectorSpawnAreaNode
 ---@return worldAIDirectorSpawnAreaNode
-function worldAIDirectorSpawnAreaNode.new(fields) return end
+function worldAIDirectorSpawnAreaNode.new(fields) end

@@ -5,15 +5,15 @@ questQuestsContentSystem = {}
 
 ---@param fields? questQuestsContentSystem
 ---@return questQuestsContentSystem
-function questQuestsContentSystem.new(fields) return end
+function questQuestsContentSystem.new(fields) end
 
 ---@return Bool
-function questQuestsContentSystem:IsTokensActivationBlocked() return end
-
----@param listener questScriptQuestContentLockListener
----@return Bool
-function questQuestsContentSystem:RegisterLockListener(listener) return end
+function questQuestsContentSystem:IsTokensActivationBlocked() end
 
 ---@param listener questScriptQuestContentLockListener
 ---@return Bool
-function questQuestsContentSystem:UnregisterLockListener(listener) return end
+function questQuestsContentSystem:RegisterLockListener(listener) end
+
+---@param listener questScriptQuestContentLockListener
+---@return Bool
+function questQuestsContentSystem:UnregisterLockListener(listener) end

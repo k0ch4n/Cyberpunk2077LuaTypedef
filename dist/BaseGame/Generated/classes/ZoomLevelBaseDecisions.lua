@@ -5,10 +5,9 @@ ZoomLevelBaseDecisions = {}
 
 ---@param fields? ZoomLevelBaseDecisions
 ---@return ZoomLevelBaseDecisions
-function ZoomLevelBaseDecisions.new(fields) return end
+function ZoomLevelBaseDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ZoomLevelBaseDecisions:ToZoomLevelAim(stateContext, scriptInterface) return end
+function ZoomLevelBaseDecisions:ToZoomLevelAim(stateContext, scriptInterface) end

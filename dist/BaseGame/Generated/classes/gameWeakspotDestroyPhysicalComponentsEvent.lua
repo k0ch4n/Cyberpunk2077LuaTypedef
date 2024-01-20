@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameWeakspotDestroyPhysicalComponentsEvent: redEvent
----@field public components gameWeakspotPhysicalDestructionComponent[]
+---@field components gameWeakspotPhysicalDestructionComponent[]
 gameWeakspotDestroyPhysicalComponentsEvent = {}
 
 ---@param fields? gameWeakspotDestroyPhysicalComponentsEvent
 ---@return gameWeakspotDestroyPhysicalComponentsEvent
-function gameWeakspotDestroyPhysicalComponentsEvent.new(fields) return end
+function gameWeakspotDestroyPhysicalComponentsEvent.new(fields) end

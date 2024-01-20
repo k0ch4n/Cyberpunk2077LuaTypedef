@@ -5,7 +5,7 @@ AudioFunctionalTests = {}
 
 ---@param fields? AudioFunctionalTests
 ---@return AudioFunctionalTests
-function AudioFunctionalTests.new(fields) return end
+function AudioFunctionalTests.new(fields) end
 
 ---@return nil
-function AudioFunctionalTests:IsSoundbankLoaded() return end
+function AudioFunctionalTests:IsSoundbankLoaded() end

@@ -1,91 +1,81 @@
 ---@meta
 
 ---@class ItemsNotificationQueue: gameuiGenericNotificationGameController
----@field private showDuration Float
----@field private transactionSystem gameTransactionSystem
----@field private currencyNotification CName
----@field private itemNotification CName
----@field private xpNotification CName
----@field private playerPuppet gameObject
----@field private inventoryListener gameInventoryScriptListener
----@field private currencyInventoryListener gameInventoryScriptListener
----@field private playerDevelopmentSystem PlayerDevelopmentSystem
----@field private combatModeListener redCallbackObject
----@field private InventoryManager InventoryDataManagerV2
----@field private comparisonResolver ItemPreferredComparisonResolver
----@field private combatModePSM gamePSMCombat
----@field private delaySystem gameDelaySystem
+---@field showDuration Float
+---@field transactionSystem gameTransactionSystem
+---@field currencyNotification CName
+---@field itemNotification CName
+---@field xpNotification CName
+---@field playerPuppet gameObject
+---@field inventoryListener gameInventoryScriptListener
+---@field currencyInventoryListener gameInventoryScriptListener
+---@field playerDevelopmentSystem PlayerDevelopmentSystem
+---@field combatModeListener redCallbackObject
+---@field InventoryManager InventoryDataManagerV2
+---@field comparisonResolver ItemPreferredComparisonResolver
+---@field combatModePSM gamePSMCombat
+---@field delaySystem gameDelaySystem
 ItemsNotificationQueue = {}
 
 ---@param fields? ItemsNotificationQueue
 ---@return ItemsNotificationQueue
-function ItemsNotificationQueue.new(fields) return end
+function ItemsNotificationQueue.new(fields) end
 
----@protected
 ---@param evt ProficiencyProgressEvent
 ---@return Bool
-function ItemsNotificationQueue:OnCharacterProficiencyUpdated(evt) return end
+function ItemsNotificationQueue:OnCharacterProficiencyUpdated(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ItemsNotificationQueue:OnCombatStateChanged(value) return end
+function ItemsNotificationQueue:OnCombatStateChanged(value) end
 
----@protected
 ---@param evt TarotCardAdded
 ---@return Bool
-function ItemsNotificationQueue:OnNewTarotCardAdded(evt) return end
+function ItemsNotificationQueue:OnNewTarotCardAdded(evt) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ItemsNotificationQueue:OnPlayerAttach(playerPuppet) return end
+function ItemsNotificationQueue:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function ItemsNotificationQueue:OnPlayerDetach(playerPuppet) return end
+function ItemsNotificationQueue:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param evt gameeventsLootedItemEvent
 ---@return Bool
-function ItemsNotificationQueue:OnUILootedItemEvent(evt) return end
+function ItemsNotificationQueue:OnUILootedItemEvent(evt) end
 
----@private
 ---@param area gamedataEquipmentArea
 ---@return Bool
-function ItemsNotificationQueue:EquipmentAreaNeedsNotification(area) return end
+function ItemsNotificationQueue:EquipmentAreaNeedsNotification(area) end
 
----@private
 ---@param item gameInventoryItemData
 ---@return gameItemComparisonState
-function ItemsNotificationQueue:GetComparisonState(item) return end
+function ItemsNotificationQueue:GetComparisonState(item) end
 
 ---@return Int32
-function ItemsNotificationQueue:GetID() return end
+function ItemsNotificationQueue:GetID() end
 
 ---@return Bool
-function ItemsNotificationQueue:GetShouldSaveState() return end
+function ItemsNotificationQueue:GetShouldSaveState() end
 
----@private
 ---@param newItem gameInventoryItemData
 ---@return Bool
-function ItemsNotificationQueue:IsBestInBackpack(newItem) return end
+function ItemsNotificationQueue:IsBestInBackpack(newItem) end
 
----@private
 ---@param newItem gameInventoryItemData
 ---@return Bool
-function ItemsNotificationQueue:NeedsNotification(newItem) return end
+function ItemsNotificationQueue:NeedsNotification(newItem) end
 
 ---@param diff Int32
 ---@param total Uint32
 ---@return nil
-function ItemsNotificationQueue:PushCurrencyNotification(diff, total) return end
+function ItemsNotificationQueue:PushCurrencyNotification(diff, total) end
 
 ---@param itemID gameItemID
 ---@param itemRarity CName|string
 ---@return nil
-function ItemsNotificationQueue:PushItemNotification(itemID, itemRarity) return end
+function ItemsNotificationQueue:PushItemNotification(itemID, itemRarity) end
 
 ---@param value Int32
 ---@param remainingPointsToLevelUp Int32
@@ -96,19 +86,16 @@ function ItemsNotificationQueue:PushItemNotification(itemID, itemRarity) return 
 ---@param currentLevel Int32
 ---@param isLevelMaxed Bool
 ---@return nil
-function ItemsNotificationQueue:PushXPNotification(value, remainingPointsToLevelUp, delta, notificationColorTheme, notificationName, type, currentLevel, isLevelMaxed) return end
+function ItemsNotificationQueue:PushXPNotification(value, remainingPointsToLevelUp, delta, notificationColorTheme, notificationName, type, currentLevel, isLevelMaxed) end
 
----@protected
 ---@param playerObject gameObject
 ---@return nil
-function ItemsNotificationQueue:RegisterPSMListeners(playerObject) return end
+function ItemsNotificationQueue:RegisterPSMListeners(playerObject) end
 
----@private
 ---@param newItem gameInventoryItemData
 ---@return Bool
-function ItemsNotificationQueue:ShouldRarityForceNotification(newItem) return end
+function ItemsNotificationQueue:ShouldRarityForceNotification(newItem) end
 
----@protected
 ---@param playerObject gameObject
 ---@return nil
-function ItemsNotificationQueue:UnregisterPSMListeners(playerObject) return end
+function ItemsNotificationQueue:UnregisterPSMListeners(playerObject) end

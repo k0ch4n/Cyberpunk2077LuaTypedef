@@ -5,61 +5,61 @@ gamedataAimAssistMagnetism_Record = {}
 
 ---@param fields? gamedataAimAssistMagnetism_Record
 ---@return gamedataAimAssistMagnetism_Record
-function gamedataAimAssistMagnetism_Record.new(fields) return end
+function gamedataAimAssistMagnetism_Record.new(fields) end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:BlendOffTime() return end
+function gamedataAimAssistMagnetism_Record:BlendOffTime() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:BlendOnTime() return end
+function gamedataAimAssistMagnetism_Record:BlendOnTime() end
 
 ---@return Bool
-function gamedataAimAssistMagnetism_Record:CheckWeaponEffectiveRange() return end
+function gamedataAimAssistMagnetism_Record:CheckWeaponEffectiveRange() end
 
 ---@return Bool
-function gamedataAimAssistMagnetism_Record:DisableWithNoInput() return end
+function gamedataAimAssistMagnetism_Record:DisableWithNoInput() end
 
 ---@return CName
-function gamedataAimAssistMagnetism_Record:DistanceMultiplier() return end
+function gamedataAimAssistMagnetism_Record:DistanceMultiplier() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:FullStickThreshold() return end
+function gamedataAimAssistMagnetism_Record:FullStickThreshold() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:FullStickYawAngleDisable() return end
+function gamedataAimAssistMagnetism_Record:FullStickYawAngleDisable() end
 
 ---@return Bool
-function gamedataAimAssistMagnetism_Record:IsEnabled() return end
+function gamedataAimAssistMagnetism_Record:IsEnabled() end
 
 ---@return Vector2
-function gamedataAimAssistMagnetism_Record:MaxStrength() return end
+function gamedataAimAssistMagnetism_Record:MaxStrength() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:MaxTimeTillOffTarget() return end
+function gamedataAimAssistMagnetism_Record:MaxTimeTillOffTarget() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:MinTimeTillOffTarget() return end
+function gamedataAimAssistMagnetism_Record:MinTimeTillOffTarget() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:PitchBoundAdditiveForYawMagnetism() return end
+function gamedataAimAssistMagnetism_Record:PitchBoundAdditiveForYawMagnetism() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:SoftLockBlendInTime() return end
+function gamedataAimAssistMagnetism_Record:SoftLockBlendInTime() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:SoftLockMinimumMagnetism() return end
+function gamedataAimAssistMagnetism_Record:SoftLockMinimumMagnetism() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:SoftLockTimeToReach() return end
+function gamedataAimAssistMagnetism_Record:SoftLockTimeToReach() end
 
 ---@return CName
-function gamedataAimAssistMagnetism_Record:StickInputMagMultiplier() return end
+function gamedataAimAssistMagnetism_Record:StickInputMagMultiplier() end
 
 ---@return Bool
-function gamedataAimAssistMagnetism_Record:TargetLostBlendOut() return end
+function gamedataAimAssistMagnetism_Record:TargetLostBlendOut() end
 
 ---@return Bool
-function gamedataAimAssistMagnetism_Record:TrackedTargetAutoTargeting() return end
+function gamedataAimAssistMagnetism_Record:TrackedTargetAutoTargeting() end
 
 ---@return Float
-function gamedataAimAssistMagnetism_Record:YawBoundAdditiveForPitchMagnetism() return end
+function gamedataAimAssistMagnetism_Record:YawBoundAdditiveForPitchMagnetism() end

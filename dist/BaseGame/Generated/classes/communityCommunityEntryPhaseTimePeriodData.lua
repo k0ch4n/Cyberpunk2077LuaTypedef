@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class communityCommunityEntryPhaseTimePeriodData
----@field public periodName CName
----@field public spotNodeIds worldGlobalNodeID[]
----@field public isSequence Bool
+---@field periodName CName
+---@field spotNodeIds worldGlobalNodeID[]
+---@field isSequence Bool
 communityCommunityEntryPhaseTimePeriodData = {}
 
 ---@param fields? communityCommunityEntryPhaseTimePeriodData
 ---@return communityCommunityEntryPhaseTimePeriodData
-function communityCommunityEntryPhaseTimePeriodData.new(fields) return end
+function communityCommunityEntryPhaseTimePeriodData.new(fields) end

@@ -5,4 +5,4 @@ gamemappinsRuntimeGenericMappinData = {}
 
 ---@param fields? gamemappinsRuntimeGenericMappinData
 ---@return gamemappinsRuntimeGenericMappinData
-function gamemappinsRuntimeGenericMappinData.new(fields) return end
+function gamemappinsRuntimeGenericMappinData.new(fields) end

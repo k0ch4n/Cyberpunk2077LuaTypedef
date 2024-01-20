@@ -5,4 +5,4 @@ gameuiUIObjectsLoaderSystem = {}
 
 ---@param fields? gameuiUIObjectsLoaderSystem
 ---@return gameuiUIObjectsLoaderSystem
-function gameuiUIObjectsLoaderSystem.new(fields) return end
+function gameuiUIObjectsLoaderSystem.new(fields) end

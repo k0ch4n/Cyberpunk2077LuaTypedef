@@ -1,49 +1,44 @@
 ---@meta
 
 ---@class VirtualNestedListDataView: inkScriptableDataViewWrapper
----@field public compareBuilder CompareBuilder
----@field public defaultCollapsed Bool
----@field public toggledLevels Int32[]
+---@field compareBuilder CompareBuilder
+---@field defaultCollapsed Bool
+---@field toggledLevels Int32[]
 VirtualNestedListDataView = {}
 
 ---@param fields? VirtualNestedListDataView
 ---@return VirtualNestedListDataView
-function VirtualNestedListDataView.new(fields) return end
+function VirtualNestedListDataView.new(fields) end
 
----@private
 ---@param data IScriptable
 ---@return Bool
-function VirtualNestedListDataView:FilterItem(data) return end
+function VirtualNestedListDataView:FilterItem(data) end
 
----@protected
 ---@param data VirutalNestedListData
 ---@return Bool
-function VirtualNestedListDataView:FilterItems(data) return end
+function VirtualNestedListDataView:FilterItems(data) end
 
----@protected
 ---@param compareBuilder CompareBuilder
 ---@param left VirutalNestedListData
 ---@param right VirutalNestedListData
 ---@return nil
-function VirtualNestedListDataView:PreSortItems(compareBuilder, left, right) return end
+function VirtualNestedListDataView:PreSortItems(compareBuilder, left, right) end
 
 ---@param toggledLevels Int32[]
 ---@param defaultCollapsed Bool
 ---@return nil
-function VirtualNestedListDataView:SetToggledLevels(toggledLevels, defaultCollapsed) return end
+function VirtualNestedListDataView:SetToggledLevels(toggledLevels, defaultCollapsed) end
 
 ---@return nil
-function VirtualNestedListDataView:Setup() return end
+function VirtualNestedListDataView:Setup() end
 
----@private
 ---@param left IScriptable
 ---@param right IScriptable
 ---@return Bool
-function VirtualNestedListDataView:SortItem(left, right) return end
+function VirtualNestedListDataView:SortItem(left, right) end
 
----@protected
 ---@param compareBuilder CompareBuilder
 ---@param left VirutalNestedListData
 ---@param right VirutalNestedListData
 ---@return nil
-function VirtualNestedListDataView:SortItems(compareBuilder, left, right) return end
+function VirtualNestedListDataView:SortItems(compareBuilder, left, right) end

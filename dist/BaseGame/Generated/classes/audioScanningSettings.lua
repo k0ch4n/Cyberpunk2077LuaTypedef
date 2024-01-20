@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioScanningSettings
----@field public scanningStartEvent CName
----@field public scanningStopEvent CName
----@field public scanningCompleteEvent CName
----@field public scanningAvailableEvent CName
+---@field scanningStartEvent CName
+---@field scanningStopEvent CName
+---@field scanningCompleteEvent CName
+---@field scanningAvailableEvent CName
 audioScanningSettings = {}
 
 ---@param fields? audioScanningSettings
 ---@return audioScanningSettings
-function audioScanningSettings.new(fields) return end
+function audioScanningSettings.new(fields) end

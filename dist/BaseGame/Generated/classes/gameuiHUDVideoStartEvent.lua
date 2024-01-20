@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameuiHUDVideoStartEvent
----@field public videoPathHash Uint64
----@field public playOnHud Bool
----@field public fullScreen Bool
----@field public useFullscreenVideoState Bool
----@field public keepWidescreenAspectRatio Bool
----@field public position Vector2
----@field public size Vector2
----@field public skippable Bool
----@field public isLooped Bool
----@field public forceVideoFrameRate Bool
+---@field videoPathHash Uint64
+---@field playOnHud Bool
+---@field fullScreen Bool
+---@field useFullscreenVideoState Bool
+---@field keepWidescreenAspectRatio Bool
+---@field position Vector2
+---@field size Vector2
+---@field skippable Bool
+---@field isLooped Bool
+---@field forceVideoFrameRate Bool
 gameuiHUDVideoStartEvent = {}
 
 ---@param fields? gameuiHUDVideoStartEvent
 ---@return gameuiHUDVideoStartEvent
-function gameuiHUDVideoStartEvent.new(fields) return end
+function gameuiHUDVideoStartEvent.new(fields) end

@@ -5,14 +5,12 @@ IsCerberus = {}
 
 ---@param fields? IsCerberus
 ---@return IsCerberus
-function IsCerberus.new(fields) return end
+function IsCerberus.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsCerberus:Activate(context) return end
+function IsCerberus:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsCerberus:Check(context) return end
+function IsCerberus:Check(context) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scneventsAttachPropToPerformer: scnSceneEvent
----@field public propId scnPropId
----@field public performerId scnPerformerId
----@field public slot CName
----@field public offsetMode scnOffsetMode
----@field public customOffsetPos Vector3
----@field public customOffsetRot Quaternion
----@field public fallbackData scneventsAttachPropToPerformerFallbackData[]
+---@field propId scnPropId
+---@field performerId scnPerformerId
+---@field slot CName
+---@field offsetMode scnOffsetMode
+---@field customOffsetPos Vector3
+---@field customOffsetRot Quaternion
+---@field fallbackData scneventsAttachPropToPerformerFallbackData[]
 scneventsAttachPropToPerformer = {}
 
 ---@param fields? scneventsAttachPropToPerformer
 ---@return scneventsAttachPropToPerformer
-function scneventsAttachPropToPerformer.new(fields) return end
+function scneventsAttachPropToPerformer.new(fields) end

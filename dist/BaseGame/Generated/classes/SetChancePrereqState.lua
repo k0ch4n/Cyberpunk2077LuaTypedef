@@ -5,4 +5,4 @@ SetChancePrereqState = {}
 
 ---@param fields? SetChancePrereqState
 ---@return SetChancePrereqState
-function SetChancePrereqState.new(fields) return end
+function SetChancePrereqState.new(fields) end

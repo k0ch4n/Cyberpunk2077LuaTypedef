@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameBreachControllerComponent: entIComponent
----@field public canHaveBreaches Bool
----@field public allowNormalBreachesAfterWeakspotsAreDestroyed Bool
----@field public debugAllowBreachesAfterDestruction Bool
----@field public breachesScale Float
+---@field canHaveBreaches Bool
+---@field allowNormalBreachesAfterWeakspotsAreDestroyed Bool
+---@field debugAllowBreachesAfterDestruction Bool
+---@field breachesScale Float
 gameBreachControllerComponent = {}
 
 ---@param fields? gameBreachControllerComponent
 ---@return gameBreachControllerComponent
-function gameBreachControllerComponent.new(fields) return end
+function gameBreachControllerComponent.new(fields) end
 
 ---@return nil
-function gameBreachControllerComponent:DestroyPreviouslyTrackedBreach() return end
+function gameBreachControllerComponent:DestroyPreviouslyTrackedBreach() end
 
 ---@return gameBreachComponent
-function gameBreachControllerComponent:GetPreviouslyTrackedBreach() return end
+function gameBreachControllerComponent:GetPreviouslyTrackedBreach() end

@@ -5,4 +5,4 @@ SecurityBreachPuppetNotificationEvent = {}
 
 ---@param fields? SecurityBreachPuppetNotificationEvent
 ---@return SecurityBreachPuppetNotificationEvent
-function SecurityBreachPuppetNotificationEvent.new(fields) return end
+function SecurityBreachPuppetNotificationEvent.new(fields) end

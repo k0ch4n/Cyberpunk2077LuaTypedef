@@ -5,4 +5,4 @@ inkInputContextChangedCallback = {}
 
 ---@param fields? inkInputContextChangedCallback
 ---@return inkInputContextChangedCallback
-function inkInputContextChangedCallback.new(fields) return end
+function inkInputContextChangedCallback.new(fields) end

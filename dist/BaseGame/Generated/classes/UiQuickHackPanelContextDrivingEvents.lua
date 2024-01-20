@@ -5,16 +5,14 @@ UiQuickHackPanelContextDrivingEvents = {}
 
 ---@param fields? UiQuickHackPanelContextDrivingEvents
 ---@return UiQuickHackPanelContextDrivingEvents
-function UiQuickHackPanelContextDrivingEvents.new(fields) return end
+function UiQuickHackPanelContextDrivingEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UiQuickHackPanelContextDrivingEvents:OnEnter(stateContext, scriptInterface) return end
+function UiQuickHackPanelContextDrivingEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UiQuickHackPanelContextDrivingEvents:OnExit(stateContext, scriptInterface) return end
+function UiQuickHackPanelContextDrivingEvents:OnExit(stateContext, scriptInterface) end

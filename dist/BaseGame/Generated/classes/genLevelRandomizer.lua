@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class genLevelRandomizer: gameObject
----@field public entries genLevelRandomizerEntry[]
----@field public seed Uint32
----@field public dataSource genLevelRandomizerDataSource
----@field public supervisorType CName
----@field public debugSpawnAll Bool
+---@field entries genLevelRandomizerEntry[]
+---@field seed Uint32
+---@field dataSource genLevelRandomizerDataSource
+---@field supervisorType CName
+---@field debugSpawnAll Bool
 genLevelRandomizer = {}
 
 ---@param fields? genLevelRandomizer
 ---@return genLevelRandomizer
-function genLevelRandomizer.new(fields) return end
+function genLevelRandomizer.new(fields) end

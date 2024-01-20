@@ -5,27 +5,22 @@ MenuScenario_MultiplayerMenu = {}
 
 ---@param fields? MenuScenario_MultiplayerMenu
 ---@return MenuScenario_MultiplayerMenu
-function MenuScenario_MultiplayerMenu.new(fields) return end
+function MenuScenario_MultiplayerMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_MultiplayerMenu:OnBoothMode() return end
+function MenuScenario_MultiplayerMenu:OnBoothMode() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_MultiplayerMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_MultiplayerMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_MultiplayerMenu:OnFindServers() return end
+function MenuScenario_MultiplayerMenu:OnFindServers() end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_MultiplayerMenu:OnLeaveScenario(nextScenario) return end
+function MenuScenario_MultiplayerMenu:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_MultiplayerMenu:OnPlayRecordedSession() return end
+function MenuScenario_MultiplayerMenu:OnPlayRecordedSession() end

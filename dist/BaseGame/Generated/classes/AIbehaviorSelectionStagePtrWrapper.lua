@@ -5,4 +5,4 @@ AIbehaviorSelectionStagePtrWrapper = {}
 
 ---@param fields? AIbehaviorSelectionStagePtrWrapper
 ---@return AIbehaviorSelectionStagePtrWrapper
-function AIbehaviorSelectionStagePtrWrapper.new(fields) return end
+function AIbehaviorSelectionStagePtrWrapper.new(fields) end

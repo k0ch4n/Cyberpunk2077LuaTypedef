@@ -5,8 +5,8 @@ UpdateComponent = {}
 
 ---@param fields? UpdateComponent
 ---@return UpdateComponent
-function UpdateComponent.new(fields) return end
+function UpdateComponent.new(fields) end
 
 ---@param deltaTime Float
 ---@return nil
-function UpdateComponent:OnUpdate(deltaTime) return end
+function UpdateComponent:OnUpdate(deltaTime) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemSetComparisionTooltipDisabled: gameScriptableSystemRequest
----@field public value Bool
+---@field value Bool
 UIScriptableSystemSetComparisionTooltipDisabled = {}
 
 ---@param fields? UIScriptableSystemSetComparisionTooltipDisabled
 ---@return UIScriptableSystemSetComparisionTooltipDisabled
-function UIScriptableSystemSetComparisionTooltipDisabled.new(fields) return end
+function UIScriptableSystemSetComparisionTooltipDisabled.new(fields) end

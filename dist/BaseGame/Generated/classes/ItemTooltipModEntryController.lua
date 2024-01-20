@@ -1,75 +1,72 @@
 ---@meta
 
 ---@class ItemTooltipModEntryController: inkWidgetLogicController
----@field protected modName inkTextWidgetReference
----@field protected attunementContainer inkWidgetReference
----@field protected attunementText inkTextWidgetReference
----@field protected attunementIcon inkImageWidgetReference
----@field protected attunementLine inkWidgetReference
----@field protected settings userSettingsUserSettings
----@field protected settingsListener ItemTooltipModSettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field protected isCrafting Bool
+---@field modName inkTextWidgetReference
+---@field attunementContainer inkWidgetReference
+---@field attunementText inkTextWidgetReference
+---@field attunementIcon inkImageWidgetReference
+---@field attunementLine inkWidgetReference
+---@field settings userSettingsUserSettings
+---@field settingsListener ItemTooltipModSettingsListener
+---@field groupPath CName
+---@field bigFontEnabled Bool
+---@field isCrafting Bool
 ItemTooltipModEntryController = {}
 
 ---@param fields? ItemTooltipModEntryController
 ---@return ItemTooltipModEntryController
-function ItemTooltipModEntryController.new(fields) return end
+function ItemTooltipModEntryController.new(fields) end
 
----@protected
 ---@return Bool
-function ItemTooltipModEntryController:OnInitialize() return end
+function ItemTooltipModEntryController:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return nil
-function ItemTooltipModEntryController:NewSetTooltipSize(value) return end
+function ItemTooltipModEntryController:NewSetTooltipSize(value) end
 
----@private
 ---@return nil
-function ItemTooltipModEntryController:NewUpdateTooltipSize() return end
+function ItemTooltipModEntryController:NewUpdateTooltipSize() end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function ItemTooltipModEntryController:OnVarModified(groupPath, varName, varType, reason) return end
+function ItemTooltipModEntryController:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@param text String
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipModEntryController:Setup(text, isCrafting) return end
+function ItemTooltipModEntryController:Setup(text, isCrafting) end
 
 ---@param data MinimalItemTooltipModRecordData
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipModEntryController:Setup(data, isCrafting) return end
+function ItemTooltipModEntryController:Setup(data, isCrafting) end
 
 ---@param data UIInventoryItemModDataPackage
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipModEntryController:Setup(data, isCrafting) return end
+function ItemTooltipModEntryController:Setup(data, isCrafting) end
 
 ---@param record gamedataGameplayLogicPackageUIData_Record
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipModEntryController:Setup(record, isCrafting) return end
+function ItemTooltipModEntryController:Setup(record, isCrafting) end
 
 ---@param record gamedataGameplayLogicPackageUIData_Record
 ---@param itemData gameItemData
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipModEntryController:Setup(record, itemData, isCrafting) return end
+function ItemTooltipModEntryController:Setup(record, itemData, isCrafting) end
 
 ---@param record gamedataGameplayLogicPackageUIData_Record
 ---@param partItemData gameInnerItemData
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipModEntryController:Setup(record, partItemData, isCrafting) return end
+function ItemTooltipModEntryController:Setup(record, partItemData, isCrafting) end
 
 ---@param ability gameInventoryItemAbility
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipModEntryController:Setup(ability, isCrafting) return end
+function ItemTooltipModEntryController:Setup(ability, isCrafting) end

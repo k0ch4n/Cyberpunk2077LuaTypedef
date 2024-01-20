@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemWardrobeInspectItem: gameScriptableSystemRequest
----@field public itemID gameItemID
+---@field itemID gameItemID
 UIScriptableSystemWardrobeInspectItem = {}
 
 ---@param fields? UIScriptableSystemWardrobeInspectItem
 ---@return UIScriptableSystemWardrobeInspectItem
-function UIScriptableSystemWardrobeInspectItem.new(fields) return end
+function UIScriptableSystemWardrobeInspectItem.new(fields) end

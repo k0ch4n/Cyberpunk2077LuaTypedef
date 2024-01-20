@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class UIInventoryItemModDataPackage: UIInventoryItemMod
----@field public Description String
----@field public DataPackage gameUILocalizationDataPackage
----@field public AttunementData UIInventoryItemModAttunementData
+---@field Description String
+---@field DataPackage gameUILocalizationDataPackage
+---@field AttunementData UIInventoryItemModAttunementData
 UIInventoryItemModDataPackage = {}
 
 ---@param fields? UIInventoryItemModDataPackage
 ---@return UIInventoryItemModDataPackage
-function UIInventoryItemModDataPackage.new(fields) return end
+function UIInventoryItemModDataPackage.new(fields) end

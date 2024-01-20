@@ -5,4 +5,4 @@ gsmState_SessionPaused = {}
 
 ---@param fields? gsmState_SessionPaused
 ---@return gsmState_SessionPaused
-function gsmState_SessionPaused.new(fields) return end
+function gsmState_SessionPaused.new(fields) end

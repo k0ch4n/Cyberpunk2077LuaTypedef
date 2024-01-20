@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class FillTakeOverChainBBoardEvent: redEvent
----@field public requesterID gamePersistentID
+---@field requesterID gamePersistentID
 FillTakeOverChainBBoardEvent = {}
 
 ---@param fields? FillTakeOverChainBBoardEvent
 ---@return FillTakeOverChainBBoardEvent
-function FillTakeOverChainBBoardEvent.new(fields) return end
+function FillTakeOverChainBBoardEvent.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuickWheelEndUIStructure
----@field public ChosenItem QuickSlotCommand
----@field public WasUsed Bool
----@field public WasAssignedToSlot Bool
----@field public WheelDirection EDPadSlot
+---@field ChosenItem QuickSlotCommand
+---@field WasUsed Bool
+---@field WasAssignedToSlot Bool
+---@field WheelDirection EDPadSlot
 QuickWheelEndUIStructure = {}
 
 ---@param fields? QuickWheelEndUIStructure
 ---@return QuickWheelEndUIStructure
-function QuickWheelEndUIStructure.new(fields) return end
+function QuickWheelEndUIStructure.new(fields) end

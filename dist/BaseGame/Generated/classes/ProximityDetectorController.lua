@@ -5,7 +5,7 @@ ProximityDetectorController = {}
 
 ---@param fields? ProximityDetectorController
 ---@return ProximityDetectorController
-function ProximityDetectorController.new(fields) return end
+function ProximityDetectorController.new(fields) end
 
 ---@return ProximityDetectorControllerPS
-function ProximityDetectorController:GetPS() return end
+function ProximityDetectorController:GetPS() end

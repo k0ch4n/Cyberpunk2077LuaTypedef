@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationFeetController: gameuiCharacterCustomizationBodyPartsController
----@field public liftedFeetGroupName CName
----@field public flatFeetGroupName CName
+---@field liftedFeetGroupName CName
+---@field flatFeetGroupName CName
 gameuiCharacterCustomizationFeetController = {}
 
 ---@param fields? gameuiCharacterCustomizationFeetController
 ---@return gameuiCharacterCustomizationFeetController
-function gameuiCharacterCustomizationFeetController.new(fields) return end
+function gameuiCharacterCustomizationFeetController.new(fields) end

@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class NPCRarityPrereq: gameIScriptablePrereq
----@field public rarity gamedataNPCRarity
----@field public invert Bool
+---@field rarity gamedataNPCRarity
+---@field invert Bool
 NPCRarityPrereq = {}
 
 ---@param fields? NPCRarityPrereq
 ---@return NPCRarityPrereq
-function NPCRarityPrereq.new(fields) return end
+function NPCRarityPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCRarityPrereq:Initialize(recordID) return end
+function NPCRarityPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCRarityPrereq:IsFulfilled(context) return end
+function NPCRarityPrereq:IsFulfilled(context) end
 
----@protected
 ---@return Bool
-function NPCRarityPrereq:IsOnRegisterSupported() return end
+function NPCRarityPrereq:IsOnRegisterSupported() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCRarityPrereq:OnApplied(state, context) return end
+function NPCRarityPrereq:OnApplied(state, context) end

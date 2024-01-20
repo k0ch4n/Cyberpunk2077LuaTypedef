@@ -5,25 +5,23 @@ CrouchSprintEvents = {}
 
 ---@param fields? CrouchSprintEvents
 ---@return CrouchSprintEvents
-function CrouchSprintEvents.new(fields) return end
+function CrouchSprintEvents.new(fields) end
 
----@protected
 ---@return Bool
-function CrouchSprintEvents:CancelSprintOnHoldWithoutNinjutsu() return end
+function CrouchSprintEvents:CancelSprintOnHoldWithoutNinjutsu() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CrouchSprintEvents:OnEnter(stateContext, scriptInterface) return end
+function CrouchSprintEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CrouchSprintEvents:OnExit(stateContext, scriptInterface) return end
+function CrouchSprintEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CrouchSprintEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function CrouchSprintEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class redTaskTextMessage
----@field public taskId Uint32
----@field public parent Uint32
----@field public text String
----@field public type redTaskTextMessageType
+---@field taskId Uint32
+---@field parent Uint32
+---@field text String
+---@field type redTaskTextMessageType
 redTaskTextMessage = {}
 
 ---@param fields? redTaskTextMessage
 ---@return redTaskTextMessage
-function redTaskTextMessage.new(fields) return end
+function redTaskTextMessage.new(fields) end

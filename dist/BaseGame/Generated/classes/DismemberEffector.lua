@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class DismemberEffector: gameEffector
----@field public bodyPart CName
----@field public woundType CName
----@field public hitPosition Vector3
----@field public isCritical Bool
+---@field bodyPart CName
+---@field woundType CName
+---@field hitPosition Vector3
+---@field isCritical Bool
 DismemberEffector = {}
 
 ---@param fields? DismemberEffector
 ---@return DismemberEffector
-function DismemberEffector.new(fields) return end
+function DismemberEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function DismemberEffector:ActionOn(owner) return end
+function DismemberEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function DismemberEffector:Initialize(record, parentRecord) return end
+function DismemberEffector:Initialize(record, parentRecord) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EntitiesAtGate: MorphData
----@field public entitiesAtGate entEntityID[]
+---@field entitiesAtGate entEntityID[]
 EntitiesAtGate = {}
 
 ---@param fields? EntitiesAtGate
 ---@return EntitiesAtGate
-function EntitiesAtGate.new(fields) return end
+function EntitiesAtGate.new(fields) end

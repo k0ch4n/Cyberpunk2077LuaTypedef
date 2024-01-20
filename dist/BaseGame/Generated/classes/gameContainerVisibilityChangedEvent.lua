@@ -5,4 +5,4 @@ gameContainerVisibilityChangedEvent = {}
 
 ---@param fields? gameContainerVisibilityChangedEvent
 ---@return gameContainerVisibilityChangedEvent
-function gameContainerVisibilityChangedEvent.new(fields) return end
+function gameContainerVisibilityChangedEvent.new(fields) end

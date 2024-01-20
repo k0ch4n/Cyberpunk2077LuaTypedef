@@ -5,8 +5,8 @@ UnitsLocalizationHelper = {}
 
 ---@param fields? UnitsLocalizationHelper
 ---@return UnitsLocalizationHelper
-function UnitsLocalizationHelper.new(fields) return end
+function UnitsLocalizationHelper.new(fields) end
 
 ---@param distance Float
 ---@return String
-function UnitsLocalizationHelper.LocalizeDistance(distance) return end
+function UnitsLocalizationHelper.LocalizeDistance(distance) end

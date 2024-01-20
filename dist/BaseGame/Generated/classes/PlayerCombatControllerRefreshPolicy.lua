@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class PlayerCombatControllerRefreshPolicy
----@field public crouchActive PlayerCombatControllerRefreshPolicyEnum
----@field public crouchTimerPassed PlayerCombatControllerRefreshPolicyEnum
----@field public isTracked PlayerCombatControllerRefreshPolicyEnum
----@field public usingJhonnyReplacer PlayerCombatControllerRefreshPolicyEnum
----@field public usingQuickHack PlayerCombatControllerRefreshPolicyEnum
+---@field crouchActive PlayerCombatControllerRefreshPolicyEnum
+---@field crouchTimerPassed PlayerCombatControllerRefreshPolicyEnum
+---@field isTracked PlayerCombatControllerRefreshPolicyEnum
+---@field usingJhonnyReplacer PlayerCombatControllerRefreshPolicyEnum
+---@field usingQuickHack PlayerCombatControllerRefreshPolicyEnum
 PlayerCombatControllerRefreshPolicy = {}
 
 ---@param fields? PlayerCombatControllerRefreshPolicy
 ---@return PlayerCombatControllerRefreshPolicy
-function PlayerCombatControllerRefreshPolicy.new(fields) return end
+function PlayerCombatControllerRefreshPolicy.new(fields) end

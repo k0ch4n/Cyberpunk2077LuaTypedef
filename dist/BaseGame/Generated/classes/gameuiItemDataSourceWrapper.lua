@@ -5,8 +5,8 @@ gameuiItemDataSourceWrapper = {}
 
 ---@param fields? gameuiItemDataSourceWrapper
 ---@return gameuiItemDataSourceWrapper
-function gameuiItemDataSourceWrapper.new(fields) return end
+function gameuiItemDataSourceWrapper.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function gameuiItemDataSourceWrapper:Initialize(owner) return end
+function gameuiItemDataSourceWrapper:Initialize(owner) end

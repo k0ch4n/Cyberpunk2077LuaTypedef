@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldInstancedOccluderNode: worldNode
----@field public worldBounds Box
----@field public occluderType visWorldOccluderType
----@field public autohideDistanceScale Uint8
----@field public mesh CMesh
+---@field worldBounds Box
+---@field occluderType visWorldOccluderType
+---@field autohideDistanceScale Uint8
+---@field mesh CMesh
 worldInstancedOccluderNode = {}
 
 ---@param fields? worldInstancedOccluderNode
 ---@return worldInstancedOccluderNode
-function worldInstancedOccluderNode.new(fields) return end
+function worldInstancedOccluderNode.new(fields) end

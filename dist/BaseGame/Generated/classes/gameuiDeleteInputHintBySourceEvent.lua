@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiDeleteInputHintBySourceEvent: redEvent
----@field public source CName
----@field public targetHintContainer CName
+---@field source CName
+---@field targetHintContainer CName
 gameuiDeleteInputHintBySourceEvent = {}
 
 ---@param fields? gameuiDeleteInputHintBySourceEvent
 ---@return gameuiDeleteInputHintBySourceEvent
-function gameuiDeleteInputHintBySourceEvent.new(fields) return end
+function gameuiDeleteInputHintBySourceEvent.new(fields) end

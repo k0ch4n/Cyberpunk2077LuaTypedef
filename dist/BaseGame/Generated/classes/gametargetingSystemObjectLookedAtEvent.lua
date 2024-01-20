@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gametargetingSystemObjectLookedAtEvent: redEvent
----@field public ownerID entEntityID
----@field public state Bool
+---@field ownerID entEntityID
+---@field state Bool
 gametargetingSystemObjectLookedAtEvent = {}
 
 ---@param fields? gametargetingSystemObjectLookedAtEvent
 ---@return gametargetingSystemObjectLookedAtEvent
-function gametargetingSystemObjectLookedAtEvent.new(fields) return end
+function gametargetingSystemObjectLookedAtEvent.new(fields) end

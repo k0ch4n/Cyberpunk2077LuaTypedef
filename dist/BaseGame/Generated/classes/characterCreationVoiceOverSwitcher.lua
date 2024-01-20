@@ -1,83 +1,73 @@
 ---@meta
 
 ---@class characterCreationVoiceOverSwitcher: CharacterCreationBodyMorphBaseOption
----@field private selectedLabel inkTextWidgetReference
----@field private selectorNextBtn inkWidgetReference
----@field private selectorPrevBtn inkWidgetReference
----@field private warningLabel inkTextWidgetReference
----@field private isMale Bool
----@field private male String
----@field private female String
----@field private selectorTexture inkImageWidgetReference
----@field private arrowsTexture inkImageWidgetReference
----@field private optionSwitchHint inkWidgetReference
----@field private translationAnimationCtrl inkTextReplaceAnimationController
----@field private selector inkWidget
----@field private inputDisabled Bool
+---@field selectedLabel inkTextWidgetReference
+---@field selectorNextBtn inkWidgetReference
+---@field selectorPrevBtn inkWidgetReference
+---@field warningLabel inkTextWidgetReference
+---@field isMale Bool
+---@field male String
+---@field female String
+---@field selectorTexture inkImageWidgetReference
+---@field arrowsTexture inkImageWidgetReference
+---@field optionSwitchHint inkWidgetReference
+---@field translationAnimationCtrl inkTextReplaceAnimationController
+---@field selector inkWidget
+---@field inputDisabled Bool
 characterCreationVoiceOverSwitcher = {}
 
 ---@param fields? characterCreationVoiceOverSwitcher
 ---@return characterCreationVoiceOverSwitcher
-function characterCreationVoiceOverSwitcher.new(fields) return end
+function characterCreationVoiceOverSwitcher.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnHoverOutNext(e) return end
+function characterCreationVoiceOverSwitcher:OnHoverOutNext(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnHoverOutPrev(e) return end
+function characterCreationVoiceOverSwitcher:OnHoverOutPrev(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnHoverOutWidget(e) return end
+function characterCreationVoiceOverSwitcher:OnHoverOutWidget(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnHoverOverNext(e) return end
+function characterCreationVoiceOverSwitcher:OnHoverOverNext(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnHoverOverPrev(e) return end
+function characterCreationVoiceOverSwitcher:OnHoverOverPrev(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnHoverOverWidget(e) return end
+function characterCreationVoiceOverSwitcher:OnHoverOverWidget(e) end
 
----@protected
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnInitialize() return end
+function characterCreationVoiceOverSwitcher:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnShortcutPress(e) return end
+function characterCreationVoiceOverSwitcher:OnShortcutPress(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationVoiceOverSwitcher:OnSwitch(e) return end
-
----@protected
----@return Bool
-function characterCreationVoiceOverSwitcher:OnUninitialize() return end
+function characterCreationVoiceOverSwitcher:OnSwitch(e) end
 
 ---@return Bool
-function characterCreationVoiceOverSwitcher:IsBrainGenderMale() return end
+function characterCreationVoiceOverSwitcher:OnUninitialize() end
+
+---@return Bool
+function characterCreationVoiceOverSwitcher:IsBrainGenderMale() end
 
 ---@param disabled Bool
 ---@return nil
-function characterCreationVoiceOverSwitcher:SetInputDisabled(disabled) return end
+function characterCreationVoiceOverSwitcher:SetInputDisabled(disabled) end
 
 ---@param isMale Bool
 ---@return nil
-function characterCreationVoiceOverSwitcher:SetIsBrainGenderMale(isMale) return end
+function characterCreationVoiceOverSwitcher:SetIsBrainGenderMale(isMale) end
 
 ---@return nil
-function characterCreationVoiceOverSwitcher:Switch() return end
+function characterCreationVoiceOverSwitcher:Switch() end

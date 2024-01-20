@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class AISetAutocraftingState: AIbehaviortaskScript
----@field public newState Bool
+---@field newState Bool
 AISetAutocraftingState = {}
 
 ---@param fields? AISetAutocraftingState
 ---@return AISetAutocraftingState
-function AISetAutocraftingState.new(fields) return end
+function AISetAutocraftingState.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISetAutocraftingState:Activate(context) return end
+function AISetAutocraftingState:Activate(context) end

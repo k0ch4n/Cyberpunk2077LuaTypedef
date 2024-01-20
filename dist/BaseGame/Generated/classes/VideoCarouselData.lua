@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class VideoCarouselData
----@field public videoTitleKey CName
----@field public videoDescriptionKey CName
----@field public videoResPath redResourceReferenceScriptToken
+---@field videoTitleKey CName
+---@field videoDescriptionKey CName
+---@field videoResPath redResourceReferenceScriptToken
 VideoCarouselData = {}
 
 ---@param fields? VideoCarouselData
 ---@return VideoCarouselData
-function VideoCarouselData.new(fields) return end
+function VideoCarouselData.new(fields) end

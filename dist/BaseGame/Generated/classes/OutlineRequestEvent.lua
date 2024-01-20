@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class OutlineRequestEvent: redEvent
----@field public outlineRequest OutlineRequest
----@field public flag Bool
----@field public outlineDuration Float
+---@field outlineRequest OutlineRequest
+---@field flag Bool
+---@field outlineDuration Float
 OutlineRequestEvent = {}
 
 ---@param fields? OutlineRequestEvent
 ---@return OutlineRequestEvent
-function OutlineRequestEvent.new(fields) return end
+function OutlineRequestEvent.new(fields) end

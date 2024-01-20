@@ -5,20 +5,17 @@ WeakspotOnDestroyEffector = {}
 
 ---@param fields? WeakspotOnDestroyEffector
 ---@return WeakspotOnDestroyEffector
-function WeakspotOnDestroyEffector.new(fields) return end
+function WeakspotOnDestroyEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function WeakspotOnDestroyEffector:ActionOff(owner) return end
+function WeakspotOnDestroyEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function WeakspotOnDestroyEffector:ActionOn(owner) return end
+function WeakspotOnDestroyEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function WeakspotOnDestroyEffector:Initialize(record, parentRecord) return end
+function WeakspotOnDestroyEffector:Initialize(record, parentRecord) end

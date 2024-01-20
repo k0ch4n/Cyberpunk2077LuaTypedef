@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiRandomNewsFeedAnimator: inkWidgetLogicController
----@field public textWidget inkTextWidgetReference
----@field public animDuration Float
+---@field textWidget inkTextWidgetReference
+---@field animDuration Float
 gameuiRandomNewsFeedAnimator = {}
 
 ---@param fields? gameuiRandomNewsFeedAnimator
 ---@return gameuiRandomNewsFeedAnimator
-function gameuiRandomNewsFeedAnimator.new(fields) return end
+function gameuiRandomNewsFeedAnimator.new(fields) end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerBountySystem: ScannerChunk
----@field private bounty BountyUI
+---@field bounty BountyUI
 ScannerBountySystem = {}
 
 ---@param fields? ScannerBountySystem
 ---@return ScannerBountySystem
-function ScannerBountySystem.new(fields) return end
+function ScannerBountySystem.new(fields) end
 
 ---@return BountyUI
-function ScannerBountySystem:GetBounty() return end
+function ScannerBountySystem:GetBounty() end
 
 ---@return ScannerDataType
-function ScannerBountySystem:GetType() return end
+function ScannerBountySystem:GetType() end
 
 ---@param b BountyUI
 ---@return nil
-function ScannerBountySystem:Set(b) return end
+function ScannerBountySystem:Set(b) end

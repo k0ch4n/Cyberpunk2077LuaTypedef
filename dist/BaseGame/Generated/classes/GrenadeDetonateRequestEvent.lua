@@ -5,4 +5,4 @@ GrenadeDetonateRequestEvent = {}
 
 ---@param fields? GrenadeDetonateRequestEvent
 ---@return GrenadeDetonateRequestEvent
-function GrenadeDetonateRequestEvent.new(fields) return end
+function GrenadeDetonateRequestEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entLocalizationStringMapEntry
----@field public key CName
----@field public string LocalizationString
+---@field key CName
+---@field string LocalizationString
 entLocalizationStringMapEntry = {}
 
 ---@param fields? entLocalizationStringMapEntry
 ---@return entLocalizationStringMapEntry
-function entLocalizationStringMapEntry.new(fields) return end
+function entLocalizationStringMapEntry.new(fields) end

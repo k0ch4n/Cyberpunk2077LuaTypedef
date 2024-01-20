@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class gameuiGenericNotificationViewData: IScriptable
----@field public title String
----@field public text String
----@field public soundEvent CName
----@field public soundAction CName
----@field public action GenericNotificationBaseAction
+---@field title String
+---@field text String
+---@field soundEvent CName
+---@field soundAction CName
+---@field action GenericNotificationBaseAction
 gameuiGenericNotificationViewData = {}
 
 ---@param fields? gameuiGenericNotificationViewData
 ---@return gameuiGenericNotificationViewData
-function gameuiGenericNotificationViewData.new(fields) return end
+function gameuiGenericNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function gameuiGenericNotificationViewData:CanMerge(data) return end
+function gameuiGenericNotificationViewData:CanMerge(data) end
 
 ---@return Int32
-function gameuiGenericNotificationViewData:GetPriority() return end
+function gameuiGenericNotificationViewData:GetPriority() end
 
 ---@param data IScriptable
 ---@return Bool
-function gameuiGenericNotificationViewData:OnRemoveNotification(data) return end
+function gameuiGenericNotificationViewData:OnRemoveNotification(data) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animAnimFeature_MeleeSlotData: animAnimFeature
----@field public attackType Int32
----@field public comboNumber Int32
----@field public startupDuration Float
----@field public activeDuration Float
----@field public recoverDuration Float
----@field public activeHitDuration Float
----@field public recoverHitDuration Float
+---@field attackType Int32
+---@field comboNumber Int32
+---@field startupDuration Float
+---@field activeDuration Float
+---@field recoverDuration Float
+---@field activeHitDuration Float
+---@field recoverHitDuration Float
 animAnimFeature_MeleeSlotData = {}
 
 ---@param fields? animAnimFeature_MeleeSlotData
 ---@return animAnimFeature_MeleeSlotData
-function animAnimFeature_MeleeSlotData.new(fields) return end
+function animAnimFeature_MeleeSlotData.new(fields) end

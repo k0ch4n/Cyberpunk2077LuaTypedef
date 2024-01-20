@@ -5,10 +5,9 @@ FallLowGravityDecisions = {}
 
 ---@param fields? FallLowGravityDecisions
 ---@return FallLowGravityDecisions
-function FallLowGravityDecisions.new(fields) return end
+function FallLowGravityDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FallLowGravityDecisions:EnterCondition(stateContext, scriptInterface) return end
+function FallLowGravityDecisions:EnterCondition(stateContext, scriptInterface) end

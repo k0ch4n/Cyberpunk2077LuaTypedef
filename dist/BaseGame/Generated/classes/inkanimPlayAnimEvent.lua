@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkanimPlayAnimEvent: inkanimEvent
----@field public animName CName
----@field public playbackOptions inkanimPlaybackOptions
+---@field animName CName
+---@field playbackOptions inkanimPlaybackOptions
 inkanimPlayAnimEvent = {}
 
 ---@param fields? inkanimPlayAnimEvent
 ---@return inkanimPlayAnimEvent
-function inkanimPlayAnimEvent.new(fields) return end
+function inkanimPlayAnimEvent.new(fields) end

@@ -5,4 +5,4 @@ moveExitedSplineEvent = {}
 
 ---@param fields? moveExitedSplineEvent
 ---@return moveExitedSplineEvent
-function moveExitedSplineEvent.new(fields) return end
+function moveExitedSplineEvent.new(fields) end

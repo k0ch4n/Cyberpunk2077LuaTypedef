@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class DeviceScanningDescription: ObjectScanningDescription
----@field protected DeviceGameplayDescription TweakDBID
----@field protected DeviceCustomDescriptions TweakDBID[]
----@field public DeviceGameplayRole TweakDBID
----@field public DeviceRoleActionsDescriptions TweakDBID[]
+---@field DeviceGameplayDescription TweakDBID
+---@field DeviceCustomDescriptions TweakDBID[]
+---@field DeviceGameplayRole TweakDBID
+---@field DeviceRoleActionsDescriptions TweakDBID[]
 DeviceScanningDescription = {}
 
 ---@param fields? DeviceScanningDescription
 ---@return DeviceScanningDescription
-function DeviceScanningDescription.new(fields) return end
+function DeviceScanningDescription.new(fields) end
 
 ---@return TweakDBID[]
-function DeviceScanningDescription:GetCustomDesriptions() return end
+function DeviceScanningDescription:GetCustomDesriptions() end
 
 ---@return TweakDBID[]
-function DeviceScanningDescription:GetDeviceRoleActionsDescriptions() return end
+function DeviceScanningDescription:GetDeviceRoleActionsDescriptions() end
 
 ---@return TweakDBID
-function DeviceScanningDescription:GetGameplayDesription() return end
+function DeviceScanningDescription:GetGameplayDesription() end

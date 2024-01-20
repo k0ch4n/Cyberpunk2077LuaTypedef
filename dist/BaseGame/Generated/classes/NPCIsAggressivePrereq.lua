@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class NPCIsAggressivePrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 NPCIsAggressivePrereq = {}
 
 ---@param fields? NPCIsAggressivePrereq
 ---@return NPCIsAggressivePrereq
-function NPCIsAggressivePrereq.new(fields) return end
+function NPCIsAggressivePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCIsAggressivePrereq:Initialize(recordID) return end
+function NPCIsAggressivePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCIsAggressivePrereq:IsFulfilled(context) return end
+function NPCIsAggressivePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCIsAggressivePrereq:OnApplied(state, context) return end
+function NPCIsAggressivePrereq:OnApplied(state, context) end

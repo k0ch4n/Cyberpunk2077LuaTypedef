@@ -5,13 +5,13 @@ gamedataSearchFilterMaskType_Record = {}
 
 ---@param fields? gamedataSearchFilterMaskType_Record
 ---@return gamedataSearchFilterMaskType_Record
-function gamedataSearchFilterMaskType_Record.new(fields) return end
+function gamedataSearchFilterMaskType_Record.new(fields) end
 
 ---@return String
-function gamedataSearchFilterMaskType_Record:EnumComment() return end
+function gamedataSearchFilterMaskType_Record:EnumComment() end
 
 ---@return CName
-function gamedataSearchFilterMaskType_Record:EnumName() return end
+function gamedataSearchFilterMaskType_Record:EnumName() end
 
 ---@return gamedataSearchFilterMaskType
-function gamedataSearchFilterMaskType_Record:Type() return end
+function gamedataSearchFilterMaskType_Record:Type() end

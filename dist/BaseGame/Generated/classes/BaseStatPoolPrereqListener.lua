@@ -5,8 +5,8 @@ BaseStatPoolPrereqListener = {}
 
 ---@param fields? BaseStatPoolPrereqListener
 ---@return BaseStatPoolPrereqListener
-function BaseStatPoolPrereqListener.new(fields) return end
+function BaseStatPoolPrereqListener.new(fields) end
 
 ---@param state gamePrereqState
 ---@return nil
-function BaseStatPoolPrereqListener:RegisterState(state) return end
+function BaseStatPoolPrereqListener:RegisterState(state) end

@@ -5,7 +5,7 @@ QuestDefaultStation = {}
 
 ---@param fields? QuestDefaultStation
 ---@return QuestDefaultStation
-function QuestDefaultStation.new(fields) return end
+function QuestDefaultStation.new(fields) end
 
 ---@return nil
-function QuestDefaultStation:SetProperties() return end
+function QuestDefaultStation:SetProperties() end

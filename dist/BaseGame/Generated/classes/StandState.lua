@@ -5,9 +5,8 @@ StandState = {}
 
 ---@param fields? StandState
 ---@return StandState
-function StandState.new(fields) return end
+function StandState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCStanceState
-function StandState:GetDesiredStanceState(context) return end
+function StandState:GetDesiredStanceState(context) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questHUDEntryVisibilityData
----@field public hudEntryName CName
----@field public visibility worlduiEntryVisibility
+---@field hudEntryName CName
+---@field visibility worlduiEntryVisibility
 questHUDEntryVisibilityData = {}
 
 ---@param fields? questHUDEntryVisibilityData
 ---@return questHUDEntryVisibilityData
-function questHUDEntryVisibilityData.new(fields) return end
+function questHUDEntryVisibilityData.new(fields) end

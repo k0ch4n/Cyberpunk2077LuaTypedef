@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class ToggleNetrunnerDive: ActionBool
----@field public skipMinigame Bool
----@field public attempt Int32
----@field public isRemote Bool
+---@field skipMinigame Bool
+---@field attempt Int32
+---@field isRemote Bool
 ToggleNetrunnerDive = {}
 
 ---@param fields? ToggleNetrunnerDive
 ---@return ToggleNetrunnerDive
-function ToggleNetrunnerDive.new(fields) return end
+function ToggleNetrunnerDive.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ToggleNetrunnerDive.IsAvailable(device) return end
+function ToggleNetrunnerDive.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ToggleNetrunnerDive.IsClearanceValid(clearance) return end
+function ToggleNetrunnerDive.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleNetrunnerDive.IsContextValid(context) return end
+function ToggleNetrunnerDive.IsContextValid(context) end
 
 ---@return String
-function ToggleNetrunnerDive:GetTweakDBChoiceRecord() return end
+function ToggleNetrunnerDive:GetTweakDBChoiceRecord() end
 
 ---@param terminateDive Bool
 ---@param skipMinigame Bool
 ---@param attempt Int32
 ---@param isRemote Bool
 ---@return nil
-function ToggleNetrunnerDive:SetProperties(terminateDive, skipMinigame, attempt, isRemote) return end
+function ToggleNetrunnerDive:SetProperties(terminateDive, skipMinigame, attempt, isRemote) end
 
 ---@return Bool
-function ToggleNetrunnerDive:ShouldTerminate() return end
+function ToggleNetrunnerDive:ShouldTerminate() end

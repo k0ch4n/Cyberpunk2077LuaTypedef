@@ -5,37 +5,32 @@ ReflectorControllerPS = {}
 
 ---@param fields? ReflectorControllerPS
 ---@return ReflectorControllerPS
-function ReflectorControllerPS.new(fields) return end
+function ReflectorControllerPS.new(fields) end
 
----@protected
 ---@return Distraction
-function ReflectorControllerPS:ActionDistraction() return end
+function ReflectorControllerPS:ActionDistraction() end
 
 ---@return ToggleON
-function ReflectorControllerPS:ActionToggleON() return end
+function ReflectorControllerPS:ActionToggleON() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function ReflectorControllerPS:GetActions(context) return end
+function ReflectorControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function ReflectorControllerPS:GetBackgroundTextureTweakDBID() return end
+function ReflectorControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function ReflectorControllerPS:GetDeviceIconTweakDBID() return end
+function ReflectorControllerPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function ReflectorControllerPS:OnActivateDevice(evt) return end
+function ReflectorControllerPS:OnActivateDevice(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return EntityNotificationType
-function ReflectorControllerPS:OnDeactivateDevice(evt) return end
+function ReflectorControllerPS:OnDeactivateDevice(evt) end
 
 ---@param evt Distraction
 ---@return EntityNotificationType
-function ReflectorControllerPS:OnDistraction(evt) return end
+function ReflectorControllerPS:OnDistraction(evt) end

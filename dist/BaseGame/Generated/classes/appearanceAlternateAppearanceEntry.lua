@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class appearanceAlternateAppearanceEntry
----@field public Original CName
----@field public Alternate CName
----@field public AlternateAppearanceIndex Uint8
+---@field Original CName
+---@field Alternate CName
+---@field AlternateAppearanceIndex Uint8
 appearanceAlternateAppearanceEntry = {}
 
 ---@param fields? appearanceAlternateAppearanceEntry
 ---@return appearanceAlternateAppearanceEntry
-function appearanceAlternateAppearanceEntry.new(fields) return end
+function appearanceAlternateAppearanceEntry.new(fields) end

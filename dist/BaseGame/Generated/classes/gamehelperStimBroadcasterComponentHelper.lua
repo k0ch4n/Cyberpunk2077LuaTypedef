@@ -5,7 +5,7 @@ gamehelperStimBroadcasterComponentHelper = {}
 
 ---@param fields? gamehelperStimBroadcasterComponentHelper
 ---@return gamehelperStimBroadcasterComponentHelper
-function gamehelperStimBroadcasterComponentHelper.new(fields) return end
+function gamehelperStimBroadcasterComponentHelper.new(fields) end
 
 ---@param owner gameObject
 ---@param stimType gamedataStimType
@@ -13,7 +13,7 @@ function gamehelperStimBroadcasterComponentHelper.new(fields) return end
 ---@param investigateData? senseStimInvestigateData
 ---@param propagationChange? Bool
 ---@return senseStimuliEvent
-function gamehelperStimBroadcasterComponentHelper.CreateStimEvent(owner, stimType, radius, investigateData, propagationChange) return end
+function gamehelperStimBroadcasterComponentHelper.CreateStimEvent(owner, stimType, radius, investigateData, propagationChange) end
 
 ---@param owner gameObject
 ---@param stimuli senseStimuliEvent
@@ -22,4 +22,4 @@ function gamehelperStimBroadcasterComponentHelper.CreateStimEvent(owner, stimTyp
 ---@param invalidDistraction Bool
 ---@param targets gameNPCstubData[]
 ---@return Bool
-function gamehelperStimBroadcasterComponentHelper.ProcessSingleStimuliBroadcast(owner, stimuli, isCrowd, isSurveillanceCamera, invalidDistraction, targets) return end
+function gamehelperStimBroadcasterComponentHelper.ProcessSingleStimuliBroadcast(owner, stimuli, isCrowd, isSurveillanceCamera, invalidDistraction, targets) end

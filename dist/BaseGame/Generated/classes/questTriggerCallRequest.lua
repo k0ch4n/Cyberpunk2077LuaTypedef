@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class questTriggerCallRequest: gameScriptableSystemRequest
----@field public caller CName
----@field public addressee CName
----@field public callPhase questPhoneCallPhase
----@field public callMode questPhoneCallMode
----@field public isPlayerTriggered Bool
----@field public isRejectable Bool
----@field public showAvatar Bool
----@field public visuals questPhoneCallVisuals
+---@field caller CName
+---@field addressee CName
+---@field callPhase questPhoneCallPhase
+---@field callMode questPhoneCallMode
+---@field isPlayerTriggered Bool
+---@field isRejectable Bool
+---@field showAvatar Bool
+---@field visuals questPhoneCallVisuals
 questTriggerCallRequest = {}
 
 ---@param fields? questTriggerCallRequest
 ---@return questTriggerCallRequest
-function questTriggerCallRequest.new(fields) return end
+function questTriggerCallRequest.new(fields) end

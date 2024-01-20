@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class sampleUIInteractionWidgetLogicController: inkWidgetLogicController
----@field public enableStateColor Color
----@field public disableStateColor Color
----@field private textWidget inkTextWidget
+---@field enableStateColor Color
+---@field disableStateColor Color
+---@field textWidget inkTextWidget
 sampleUIInteractionWidgetLogicController = {}
 
 ---@param fields? sampleUIInteractionWidgetLogicController
 ---@return sampleUIInteractionWidgetLogicController
-function sampleUIInteractionWidgetLogicController.new(fields) return end
+function sampleUIInteractionWidgetLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUIInteractionWidgetLogicController:OnInitialize() return end
+function sampleUIInteractionWidgetLogicController:OnInitialize() end
 
 ---@param interacting Bool
 ---@return nil
-function sampleUIInteractionWidgetLogicController:SetIsInteracting(interacting) return end
+function sampleUIInteractionWidgetLogicController:SetIsInteracting(interacting) end

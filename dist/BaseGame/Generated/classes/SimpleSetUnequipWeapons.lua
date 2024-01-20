@@ -1,48 +1,42 @@
 ---@meta
 
 ---@class SimpleSetUnequipWeapons: AIbehaviortaskScript
----@field private puppet ScriptedPuppet
----@field private game ScriptGameInstance
----@field private transactionSystem gameTransactionSystem
----@field private primaryItems gamedataNPCEquipmentItem_Record[]
----@field private secondaryItems gamedataNPCEquipmentItem_Record[]
----@field private secondaryEquipmentDuplicatesPrimary Bool
----@field private initialized Bool
+---@field puppet ScriptedPuppet
+---@field game ScriptGameInstance
+---@field transactionSystem gameTransactionSystem
+---@field primaryItems gamedataNPCEquipmentItem_Record[]
+---@field secondaryItems gamedataNPCEquipmentItem_Record[]
+---@field secondaryEquipmentDuplicatesPrimary Bool
+---@field initialized Bool
 SimpleSetUnequipWeapons = {}
 
 ---@param fields? SimpleSetUnequipWeapons
 ---@return SimpleSetUnequipWeapons
-function SimpleSetUnequipWeapons.new(fields) return end
+function SimpleSetUnequipWeapons.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleSetUnequipWeapons:Activate(context) return end
+function SimpleSetUnequipWeapons:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param itemsList NPCItemToEquip[]
 ---@return Bool
-function SimpleSetUnequipWeapons:GetItemsToEquip(context, itemsList) return end
+function SimpleSetUnequipWeapons:GetItemsToEquip(context, itemsList) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param itemsList NPCItemToEquip[]
 ---@return Bool
-function SimpleSetUnequipWeapons:GetItemsToUnequip(context, itemsList) return end
+function SimpleSetUnequipWeapons:GetItemsToUnequip(context, itemsList) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleSetUnequipWeapons:Init(context) return end
+function SimpleSetUnequipWeapons:Init(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param itemsToCheck gamedataNPCEquipmentItem_Record[]
 ---@return NPCItemToEquip[]
-function SimpleSetUnequipWeapons:IterateOverEquipItems(context, itemsToCheck) return end
+function SimpleSetUnequipWeapons:IterateOverEquipItems(context, itemsToCheck) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function SimpleSetUnequipWeapons:Update(context) return end
+function SimpleSetUnequipWeapons:Update(context) end

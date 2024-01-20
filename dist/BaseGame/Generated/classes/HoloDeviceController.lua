@@ -5,7 +5,7 @@ HoloDeviceController = {}
 
 ---@param fields? HoloDeviceController
 ---@return HoloDeviceController
-function HoloDeviceController.new(fields) return end
+function HoloDeviceController.new(fields) end
 
 ---@return HoloDeviceControllerPS
-function HoloDeviceController:GetPS() return end
+function HoloDeviceController:GetPS() end

@@ -5,4 +5,4 @@ worldCrowdParkingSpaceNode = {}
 
 ---@param fields? worldCrowdParkingSpaceNode
 ---@return worldCrowdParkingSpaceNode
-function worldCrowdParkingSpaceNode.new(fields) return end
+function worldCrowdParkingSpaceNode.new(fields) end

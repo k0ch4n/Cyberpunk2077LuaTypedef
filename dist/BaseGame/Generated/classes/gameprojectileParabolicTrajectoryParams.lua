@@ -5,23 +5,23 @@ gameprojectileParabolicTrajectoryParams = {}
 
 ---@param fields? gameprojectileParabolicTrajectoryParams
 ---@return gameprojectileParabolicTrajectoryParams
-function gameprojectileParabolicTrajectoryParams.new(fields) return end
+function gameprojectileParabolicTrajectoryParams.new(fields) end
 
 ---@param accel Vector4
 ---@param target Vector4
 ---@param angle Float
 ---@param zVelocityClamp? Float
 ---@return gameprojectileParabolicTrajectoryParams
-function gameprojectileParabolicTrajectoryParams.GetAccelTargetAngleParabolicParams(accel, target, angle, zVelocityClamp) return end
+function gameprojectileParabolicTrajectoryParams.GetAccelTargetAngleParabolicParams(accel, target, angle, zVelocityClamp) end
 
 ---@param accel Vector4
 ---@param vel Float
 ---@param zVelocityClamp? Float
 ---@return gameprojectileParabolicTrajectoryParams
-function gameprojectileParabolicTrajectoryParams.GetAccelVelParabolicParams(accel, vel, zVelocityClamp) return end
+function gameprojectileParabolicTrajectoryParams.GetAccelVelParabolicParams(accel, vel, zVelocityClamp) end
 
 ---@param target Vector4
 ---@param vel Float
 ---@param zVelocityClamp? Float
 ---@return gameprojectileParabolicTrajectoryParams
-function gameprojectileParabolicTrajectoryParams.GetVelTargetParabolicParams(target, vel, zVelocityClamp) return end
+function gameprojectileParabolicTrajectoryParams.GetVelTargetParabolicParams(target, vel, zVelocityClamp) end

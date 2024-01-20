@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class AIGateSignalSender: AIbehaviortaskStackScript
----@field public tags CName[]
----@field public flags EAIGateSignalFlags[]
----@field public priority Float
+---@field tags CName[]
+---@field flags EAIGateSignalFlags[]
+---@field priority Float
 AIGateSignalSender = {}
 
 ---@param fields? AIGateSignalSender
 ---@return AIGateSignalSender
-function AIGateSignalSender.new(fields) return end
+function AIGateSignalSender.new(fields) end
 
 ---@return String
-function AIGateSignalSender:GetEditorSubCaption() return end
+function AIGateSignalSender:GetEditorSubCaption() end
 
 ---@return CName
-function AIGateSignalSender:GetInstanceTypeName() return end
+function AIGateSignalSender:GetInstanceTypeName() end
 
 ---@return Float
-function AIGateSignalSender:GetSignalLifeTime() return end
+function AIGateSignalSender:GetSignalLifeTime() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param signalId Uint32
 ---@return nil
-function AIGateSignalSender:OnActivate(context, signalId) return end
+function AIGateSignalSender:OnActivate(context, signalId) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param signalId Uint32
 ---@return nil
-function AIGateSignalSender:OnDeactivate(context, signalId) return end
+function AIGateSignalSender:OnDeactivate(context, signalId) end

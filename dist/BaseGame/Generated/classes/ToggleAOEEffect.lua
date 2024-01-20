@@ -5,12 +5,12 @@ ToggleAOEEffect = {}
 
 ---@param fields? ToggleAOEEffect
 ---@return ToggleAOEEffect
-function ToggleAOEEffect.new(fields) return end
+function ToggleAOEEffect.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleAOEEffect.IsDefaultConditionMet(device, context) return end
+function ToggleAOEEffect.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function ToggleAOEEffect:SetProperties() return end
+function ToggleAOEEffect:SetProperties() end

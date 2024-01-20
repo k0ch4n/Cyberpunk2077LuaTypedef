@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetContainerStateEvent: redEvent
----@field public isDisabled Bool
+---@field isDisabled Bool
 SetContainerStateEvent = {}
 
 ---@param fields? SetContainerStateEvent
 ---@return SetContainerStateEvent
-function SetContainerStateEvent.new(fields) return end
+function SetContainerStateEvent.new(fields) end
 
 ---@return String
-function SetContainerStateEvent:GetFriendlyDescription() return end
+function SetContainerStateEvent:GetFriendlyDescription() end

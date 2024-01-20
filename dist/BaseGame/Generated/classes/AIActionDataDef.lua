@@ -1,47 +1,47 @@
 ---@meta
 
 ---@class AIActionDataDef: AIBlackboardDef
----@field public ownerMeleeAttackBlockedCount gamebbScriptID_Int32
----@field public ownerMeleeAttackParriedCount gamebbScriptID_Int32
----@field public ownerMeleeAttackDodgedCount gamebbScriptID_Int32
----@field public ownerLastAttackTimeStamp gamebbScriptID_Float
----@field public ownerLastAttackName gamebbScriptID_CName
----@field public ownerInTumble gamebbScriptID_Bool
----@field public ownerCurrentAnimVariationSet gamebbScriptID_Bool
----@field public ownerLastAnimVariationAction gamebbScriptID_Variant
----@field public ownerLastAnimVariation gamebbScriptID_Int32
----@field public ownerLastBlockAnimVariation gamebbScriptID_Int32
----@field public ownerItemsToEquip gamebbScriptID_Variant
----@field public ownerItemsUnequipped gamebbScriptID_Variant
----@field public ownerItemsForceUnequipped gamebbScriptID_Variant
----@field public ownerLastEquippedItems gamebbScriptID_Variant
----@field public ownerLastUnequipTimestamp gamebbScriptID_Float
----@field public ownerEquipItemTime gamebbScriptID_Float
----@field public ownerEquipDuration gamebbScriptID_Float
----@field public dropItemOnUnequip gamebbScriptID_Bool
----@field public archetypeEffectorsApplied gamebbScriptID_Bool
----@field public ownerTimeDilation gamebbScriptID_Float
----@field public ownerGlobalTimeDilation gamebbScriptID_Float
----@field public operationHasBeenProcessed gamebbScriptID_Bool
----@field public weaponTrailInitialised gamebbScriptID_Bool
----@field public weaponTrailAborted gamebbScriptID_Bool
----@field public netrunner gamebbScriptID_Variant
----@field public netrunnerProxy gamebbScriptID_Variant
----@field public netrunnerTarget gamebbScriptID_Variant
----@field public ignoreInCombatMoveCommand gamebbScriptID_Bool
----@field public avoidLOSTimeStamp gamebbScriptID_Float
----@field public attackBlocked gamebbScriptID_Bool
----@field public attackParried gamebbScriptID_Bool
----@field public lastGrenadeThrowTimestamp gamebbScriptID_Float
+---@field ownerMeleeAttackBlockedCount gamebbScriptID_Int32
+---@field ownerMeleeAttackParriedCount gamebbScriptID_Int32
+---@field ownerMeleeAttackDodgedCount gamebbScriptID_Int32
+---@field ownerLastAttackTimeStamp gamebbScriptID_Float
+---@field ownerLastAttackName gamebbScriptID_CName
+---@field ownerInTumble gamebbScriptID_Bool
+---@field ownerCurrentAnimVariationSet gamebbScriptID_Bool
+---@field ownerLastAnimVariationAction gamebbScriptID_Variant
+---@field ownerLastAnimVariation gamebbScriptID_Int32
+---@field ownerLastBlockAnimVariation gamebbScriptID_Int32
+---@field ownerItemsToEquip gamebbScriptID_Variant
+---@field ownerItemsUnequipped gamebbScriptID_Variant
+---@field ownerItemsForceUnequipped gamebbScriptID_Variant
+---@field ownerLastEquippedItems gamebbScriptID_Variant
+---@field ownerLastUnequipTimestamp gamebbScriptID_Float
+---@field ownerEquipItemTime gamebbScriptID_Float
+---@field ownerEquipDuration gamebbScriptID_Float
+---@field dropItemOnUnequip gamebbScriptID_Bool
+---@field archetypeEffectorsApplied gamebbScriptID_Bool
+---@field ownerTimeDilation gamebbScriptID_Float
+---@field ownerGlobalTimeDilation gamebbScriptID_Float
+---@field operationHasBeenProcessed gamebbScriptID_Bool
+---@field weaponTrailInitialised gamebbScriptID_Bool
+---@field weaponTrailAborted gamebbScriptID_Bool
+---@field netrunner gamebbScriptID_Variant
+---@field netrunnerProxy gamebbScriptID_Variant
+---@field netrunnerTarget gamebbScriptID_Variant
+---@field ignoreInCombatMoveCommand gamebbScriptID_Bool
+---@field avoidLOSTimeStamp gamebbScriptID_Float
+---@field attackBlocked gamebbScriptID_Bool
+---@field attackParried gamebbScriptID_Bool
+---@field lastGrenadeThrowTimestamp gamebbScriptID_Float
 AIActionDataDef = {}
 
 ---@param fields? AIActionDataDef
 ---@return AIActionDataDef
-function AIActionDataDef.new(fields) return end
+function AIActionDataDef.new(fields) end
 
 ---@return Bool
-function AIActionDataDef:AutoCreateInSystem() return end
+function AIActionDataDef:AutoCreateInSystem() end
 
 ---@param blackboard gameIBlackboard
 ---@return nil
-function AIActionDataDef:Initialize(blackboard) return end
+function AIActionDataDef:Initialize(blackboard) end

@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class DoorSystemUIPS: VirtualSystemPS
----@field private isOpen Bool
+---@field isOpen Bool
 DoorSystemUIPS = {}
 
 ---@param fields? DoorSystemUIPS
 ---@return DoorSystemUIPS
-function DoorSystemUIPS.new(fields) return end
+function DoorSystemUIPS.new(fields) end
 
 ---@return ToggleOpen
-function DoorSystemUIPS:ActionToggleOpen() return end
+function DoorSystemUIPS:ActionToggleOpen() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function DoorSystemUIPS:GetActions(context) return end
+function DoorSystemUIPS:GetActions(context) end
 
----@protected
 ---@param evt ToggleOpen
 ---@return EntityNotificationType
-function DoorSystemUIPS:OnToggleOpen(evt) return end
+function DoorSystemUIPS:OnToggleOpen(evt) end

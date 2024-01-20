@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TooltipWidgetReference
----@field public identifier CName
----@field public widgetLibraryReference inkWidgetLibraryReference
+---@field identifier CName
+---@field widgetLibraryReference inkWidgetLibraryReference
 TooltipWidgetReference = {}
 
 ---@param fields? TooltipWidgetReference
 ---@return TooltipWidgetReference
-function TooltipWidgetReference.new(fields) return end
+function TooltipWidgetReference.new(fields) end

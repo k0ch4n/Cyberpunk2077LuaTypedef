@@ -5,4 +5,4 @@ inkVirtualWindow = {}
 
 ---@param fields? inkVirtualWindow
 ---@return inkVirtualWindow
-function inkVirtualWindow.new(fields) return end
+function inkVirtualWindow.new(fields) end

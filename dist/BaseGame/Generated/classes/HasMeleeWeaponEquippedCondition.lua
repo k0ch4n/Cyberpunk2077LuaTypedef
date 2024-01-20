@@ -5,9 +5,8 @@ HasMeleeWeaponEquippedCondition = {}
 
 ---@param fields? HasMeleeWeaponEquippedCondition
 ---@return HasMeleeWeaponEquippedCondition
-function HasMeleeWeaponEquippedCondition.new(fields) return end
+function HasMeleeWeaponEquippedCondition.new(fields) end
 
----@protected
 ---@param ent entEntity
 ---@return Bool
-function HasMeleeWeaponEquippedCondition:CheckCondition(ent) return end
+function HasMeleeWeaponEquippedCondition:CheckCondition(ent) end

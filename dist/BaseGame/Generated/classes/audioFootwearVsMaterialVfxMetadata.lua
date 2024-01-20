@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioFootwearVsMaterialVfxMetadata: audioAudioMetadata
----@field public footwearType CName
----@field public defaultVfx CResource
----@field public locomotionStates audioLocomotionStateVfxDictionary
----@field public customActionVfx audioLocomotionCustomActionVfxDictionary
+---@field footwearType CName
+---@field defaultVfx CResource
+---@field locomotionStates audioLocomotionStateVfxDictionary
+---@field customActionVfx audioLocomotionCustomActionVfxDictionary
 audioFootwearVsMaterialVfxMetadata = {}
 
 ---@param fields? audioFootwearVsMaterialVfxMetadata
 ---@return audioFootwearVsMaterialVfxMetadata
-function audioFootwearVsMaterialVfxMetadata.new(fields) return end
+function audioFootwearVsMaterialVfxMetadata.new(fields) end

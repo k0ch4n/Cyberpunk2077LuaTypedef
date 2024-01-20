@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class gameuiMinimapDeviceMappinController: gameuiBaseMinimapMappinController
----@field public effectAreaWidget inkCircleWidgetReference
+---@field effectAreaWidget inkCircleWidgetReference
 gameuiMinimapDeviceMappinController = {}
 
 ---@param fields? gameuiMinimapDeviceMappinController
 ---@return gameuiMinimapDeviceMappinController
-function gameuiMinimapDeviceMappinController.new(fields) return end
+function gameuiMinimapDeviceMappinController.new(fields) end
 
 ---@param radius Float
 ---@return nil
-function gameuiMinimapDeviceMappinController:SetEffectAreaRadius(radius) return end
+function gameuiMinimapDeviceMappinController:SetEffectAreaRadius(radius) end
 
----@private
 ---@return CName
-function gameuiMinimapDeviceMappinController:ComputeRootState() return end
+function gameuiMinimapDeviceMappinController:ComputeRootState() end
 
----@private
 ---@param gameplayRole EGameplayRole
 ---@return CName
-function gameuiMinimapDeviceMappinController:GetTexturePartForDeviceEffect(gameplayRole) return end
+function gameuiMinimapDeviceMappinController:GetTexturePartForDeviceEffect(gameplayRole) end
 
 ---@return GameplayRoleMappinData
-function gameuiMinimapDeviceMappinController:GetVisualData() return end
+function gameuiMinimapDeviceMappinController:GetVisualData() end
 
----@protected
 ---@return nil
-function gameuiMinimapDeviceMappinController:Update() return end
+function gameuiMinimapDeviceMappinController:Update() end

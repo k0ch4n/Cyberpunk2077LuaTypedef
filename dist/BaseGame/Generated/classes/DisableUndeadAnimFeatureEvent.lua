@@ -5,4 +5,4 @@ DisableUndeadAnimFeatureEvent = {}
 
 ---@param fields? DisableUndeadAnimFeatureEvent
 ---@return DisableUndeadAnimFeatureEvent
-function DisableUndeadAnimFeatureEvent.new(fields) return end
+function DisableUndeadAnimFeatureEvent.new(fields) end

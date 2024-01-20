@@ -5,13 +5,13 @@ CameraTagSeenEnemies = {}
 
 ---@param fields? CameraTagSeenEnemies
 ---@return CameraTagSeenEnemies
-function CameraTagSeenEnemies.new(fields) return end
+function CameraTagSeenEnemies.new(fields) end
 
 ---@return Int32
-function CameraTagSeenEnemies:GetBaseCost() return end
+function CameraTagSeenEnemies:GetBaseCost() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function CameraTagSeenEnemies:GetInteractionIcon() return end
+function CameraTagSeenEnemies:GetInteractionIcon() end
 
 ---@return nil
-function CameraTagSeenEnemies:SetProperties() return end
+function CameraTagSeenEnemies:SetProperties() end

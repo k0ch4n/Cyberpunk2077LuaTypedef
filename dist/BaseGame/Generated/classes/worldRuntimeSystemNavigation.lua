@@ -5,4 +5,4 @@ worldRuntimeSystemNavigation = {}
 
 ---@param fields? worldRuntimeSystemNavigation
 ---@return worldRuntimeSystemNavigation
-function worldRuntimeSystemNavigation.new(fields) return end
+function worldRuntimeSystemNavigation.new(fields) end

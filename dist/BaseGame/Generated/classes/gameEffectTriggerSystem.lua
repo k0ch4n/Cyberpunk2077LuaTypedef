@@ -5,4 +5,4 @@ gameEffectTriggerSystem = {}
 
 ---@param fields? gameEffectTriggerSystem
 ---@return gameEffectTriggerSystem
-function gameEffectTriggerSystem.new(fields) return end
+function gameEffectTriggerSystem.new(fields) end

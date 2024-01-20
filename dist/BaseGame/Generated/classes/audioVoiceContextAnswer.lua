@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVoiceContextAnswer
----@field public answerContext CName
----@field public radius Float
+---@field answerContext CName
+---@field radius Float
 audioVoiceContextAnswer = {}
 
 ---@param fields? audioVoiceContextAnswer
 ---@return audioVoiceContextAnswer
-function audioVoiceContextAnswer.new(fields) return end
+function audioVoiceContextAnswer.new(fields) end

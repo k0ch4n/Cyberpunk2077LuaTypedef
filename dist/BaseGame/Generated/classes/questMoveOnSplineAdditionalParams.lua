@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questMoveOnSplineAdditionalParams: ISerializable
----@field public type questMoveOnSplineType
----@field public simpleParams questSimpleMoveOnSplineParams
----@field public animParams questAnimMoveOnSplineParams
----@field public withCompanionParams questWithCompanionMoveOnSplineParams
+---@field type questMoveOnSplineType
+---@field simpleParams questSimpleMoveOnSplineParams
+---@field animParams questAnimMoveOnSplineParams
+---@field withCompanionParams questWithCompanionMoveOnSplineParams
 questMoveOnSplineAdditionalParams = {}
 
 ---@param fields? questMoveOnSplineAdditionalParams
 ---@return questMoveOnSplineAdditionalParams
-function questMoveOnSplineAdditionalParams.new(fields) return end
+function questMoveOnSplineAdditionalParams.new(fields) end

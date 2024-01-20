@@ -5,49 +5,49 @@ gamedataSquadBase_Record = {}
 
 ---@param fields? gamedataSquadBase_Record
 ---@return gamedataSquadBase_Record
-function gamedataSquadBase_Record.new(fields) return end
+function gamedataSquadBase_Record.new(fields) end
 
 ---@return gamedataSquadBackyardBase_Record
-function gamedataSquadBase_Record:DefensiveBackyard() return end
+function gamedataSquadBase_Record:DefensiveBackyard() end
 
 ---@return gamedataSquadBackyardBase_Record
-function gamedataSquadBase_Record:DefensiveBackyardHandle() return end
+function gamedataSquadBase_Record:DefensiveBackyardHandle() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:DefensiveLeftFence() return end
+function gamedataSquadBase_Record:DefensiveLeftFence() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:DefensiveLeftFenceHandle() return end
+function gamedataSquadBase_Record:DefensiveLeftFenceHandle() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:DefensiveRightFence() return end
+function gamedataSquadBase_Record:DefensiveRightFence() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:DefensiveRightFenceHandle() return end
+function gamedataSquadBase_Record:DefensiveRightFenceHandle() end
 
 ---@return Bool
-function gamedataSquadBase_Record:HasActiveAlley() return end
+function gamedataSquadBase_Record:HasActiveAlley() end
 
 ---@return gamedataSquadBackyardBase_Record
-function gamedataSquadBase_Record:OffensiveBackyard() return end
+function gamedataSquadBase_Record:OffensiveBackyard() end
 
 ---@return gamedataSquadBackyardBase_Record
-function gamedataSquadBase_Record:OffensiveBackyardHandle() return end
+function gamedataSquadBase_Record:OffensiveBackyardHandle() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:OffensiveLeftFence() return end
+function gamedataSquadBase_Record:OffensiveLeftFence() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:OffensiveLeftFenceHandle() return end
+function gamedataSquadBase_Record:OffensiveLeftFenceHandle() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:OffensiveRightFence() return end
+function gamedataSquadBase_Record:OffensiveRightFence() end
 
 ---@return gamedataSquadFenceBase_Record
-function gamedataSquadBase_Record:OffensiveRightFenceHandle() return end
+function gamedataSquadBase_Record:OffensiveRightFenceHandle() end
 
 ---@return CName
-function gamedataSquadBase_Record:ScriptHandler() return end
+function gamedataSquadBase_Record:ScriptHandler() end
 
 ---@return CName
-function gamedataSquadBase_Record:SquadParams() return end
+function gamedataSquadBase_Record:SquadParams() end

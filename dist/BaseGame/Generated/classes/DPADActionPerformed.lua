@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class DPADActionPerformed: redEvent
----@field public ownerID entEntityID
----@field public state EUIActionState
----@field public stateInt Int32
----@field public action gameEHotkey
----@field public successful Bool
+---@field ownerID entEntityID
+---@field state EUIActionState
+---@field stateInt Int32
+---@field action gameEHotkey
+---@field successful Bool
 DPADActionPerformed = {}
 
 ---@param fields? DPADActionPerformed
 ---@return DPADActionPerformed
-function DPADActionPerformed.new(fields) return end
+function DPADActionPerformed.new(fields) end

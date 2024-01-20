@@ -1,164 +1,143 @@
 ---@meta
 
 ---@class gameuiCyberwareBreachGameController: gameuiWidgetGameController
----@field public strokeHealthDepleation inkWidgetReference
----@field public adjustedScreenPosition Vector2
----@field public maxHealth Float
----@field public currentHealth Float
----@field public lastHealth Float
----@field private currentSway Vector2
----@field private breachCanvasWRef inkWidgetReference
----@field private strokeFgRef inkBorderWidgetReference
----@field private strokeBgRef inkBorderWidgetReference
----@field private waveStrokeRef inkBorderWidgetReference
----@field private fillRef inkWidgetReference
----@field private textScaleWidgetRef inkCompoundWidgetReference
----@field private xTextRef inkTextWidgetReference
----@field private yTextRef inkTextWidgetReference
----@field private errorTextRef inkTextWidgetReference
----@field private strokeThicknessPercent Float
----@field private minThickness Float
----@field private maxThickness Float
----@field private minTextScale Float
----@field private maxTextScale Float
----@field private maxRadius Float
----@field private minRadiusForFluff Float
----@field private previousAlmostTimeout Bool
----@field private cwBreachCallbackHandle redCallbackObject
----@field private weaponSwayCallbackHandle redCallbackObject
----@field private introAnimationProxy inkanimProxy
----@field private showAnimationProxy inkanimProxy
----@field private timeoutAnimationProxy inkanimProxy
+---@field strokeHealthDepleation inkWidgetReference
+---@field adjustedScreenPosition Vector2
+---@field maxHealth Float
+---@field currentHealth Float
+---@field lastHealth Float
+---@field currentSway Vector2
+---@field breachCanvasWRef inkWidgetReference
+---@field strokeFgRef inkBorderWidgetReference
+---@field strokeBgRef inkBorderWidgetReference
+---@field waveStrokeRef inkBorderWidgetReference
+---@field fillRef inkWidgetReference
+---@field textScaleWidgetRef inkCompoundWidgetReference
+---@field xTextRef inkTextWidgetReference
+---@field yTextRef inkTextWidgetReference
+---@field errorTextRef inkTextWidgetReference
+---@field strokeThicknessPercent Float
+---@field minThickness Float
+---@field maxThickness Float
+---@field minTextScale Float
+---@field maxTextScale Float
+---@field maxRadius Float
+---@field minRadiusForFluff Float
+---@field previousAlmostTimeout Bool
+---@field cwBreachCallbackHandle redCallbackObject
+---@field weaponSwayCallbackHandle redCallbackObject
+---@field introAnimationProxy inkanimProxy
+---@field showAnimationProxy inkanimProxy
+---@field timeoutAnimationProxy inkanimProxy
 gameuiCyberwareBreachGameController = {}
 
 ---@param fields? gameuiCyberwareBreachGameController
 ---@return gameuiCyberwareBreachGameController
-function gameuiCyberwareBreachGameController.new(fields) return end
+function gameuiCyberwareBreachGameController.new(fields) end
 
 ---@param moveSpeed Float
 ---@return nil
-function gameuiCyberwareBreachGameController:BeginMoveAnim(moveSpeed) return end
+function gameuiCyberwareBreachGameController:BeginMoveAnim(moveSpeed) end
 
 ---@param sizeSpeed Float
 ---@return nil
-function gameuiCyberwareBreachGameController:BeginSizeAnim(sizeSpeed) return end
+function gameuiCyberwareBreachGameController:BeginSizeAnim(sizeSpeed) end
 
 ---@return Float
-function gameuiCyberwareBreachGameController:GetMoveAnimPercent() return end
+function gameuiCyberwareBreachGameController:GetMoveAnimPercent() end
 
 ---@return Float
-function gameuiCyberwareBreachGameController:GetSizeAnimPercent() return end
+function gameuiCyberwareBreachGameController:GetSizeAnimPercent() end
 
 ---@param fireCallback Bool
 ---@return nil
-function gameuiCyberwareBreachGameController:GotoEndAndStopMoveAnim(fireCallback) return end
+function gameuiCyberwareBreachGameController:GotoEndAndStopMoveAnim(fireCallback) end
 
 ---@param fireCallback Bool
 ---@return nil
-function gameuiCyberwareBreachGameController:GotoEndAndStopSizeAnim(fireCallback) return end
+function gameuiCyberwareBreachGameController:GotoEndAndStopSizeAnim(fireCallback) end
 
 ---@return nil
-function gameuiCyberwareBreachGameController:ResetCodeAnims() return end
+function gameuiCyberwareBreachGameController:ResetCodeAnims() end
 
 ---@return nil
-function gameuiCyberwareBreachGameController:UpdateHealthDepletion() return end
+function gameuiCyberwareBreachGameController:UpdateHealthDepletion() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnBreachDataChanged(value) return end
+function gameuiCyberwareBreachGameController:OnBreachDataChanged(value) end
 
----@protected
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnInitialize() return end
+function gameuiCyberwareBreachGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnIntroAnimationFinished(proxy) return end
+function gameuiCyberwareBreachGameController:OnIntroAnimationFinished(proxy) end
 
----@protected
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnMoveAnimationFinished() return end
+function gameuiCyberwareBreachGameController:OnMoveAnimationFinished() end
 
----@protected
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnResizeAnimationFinished() return end
+function gameuiCyberwareBreachGameController:OnResizeAnimationFinished() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnShowAnimationFinished(proxy) return end
+function gameuiCyberwareBreachGameController:OnShowAnimationFinished(proxy) end
 
----@protected
 ---@param pos Vector2
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnSway(pos) return end
+function gameuiCyberwareBreachGameController:OnSway(pos) end
 
----@protected
 ---@return Bool
-function gameuiCyberwareBreachGameController:OnUninitialize() return end
+function gameuiCyberwareBreachGameController:OnUninitialize() end
 
----@private
 ---@param screenPosition Vector2
 ---@param radius Float
 ---@return nil
-function gameuiCyberwareBreachGameController:ChangeFluff(screenPosition, radius) return end
+function gameuiCyberwareBreachGameController:ChangeFluff(screenPosition, radius) end
 
----@private
 ---@param health Float
 ---@param givenMaxHealth Float
 ---@param fireTransition? Bool
 ---@return nil
-function gameuiCyberwareBreachGameController:ChangeHealth(health, givenMaxHealth, fireTransition) return end
+function gameuiCyberwareBreachGameController:ChangeHealth(health, givenMaxHealth, fireTransition) end
 
----@private
 ---@param screenPosition Vector2
 ---@return nil
-function gameuiCyberwareBreachGameController:ChangeScreenPosition(screenPosition) return end
+function gameuiCyberwareBreachGameController:ChangeScreenPosition(screenPosition) end
 
----@private
 ---@param radius Float
 ---@return nil
-function gameuiCyberwareBreachGameController:ChangeScreenSize(radius) return end
+function gameuiCyberwareBreachGameController:ChangeScreenSize(radius) end
 
----@private
 ---@param startValue Float
 ---@param endValue Float
 ---@param ratio Float
 ---@return Float
-function gameuiCyberwareBreachGameController:InterpolateValues(startValue, endValue, ratio) return end
+function gameuiCyberwareBreachGameController:InterpolateValues(startValue, endValue, ratio) end
 
----@private
 ---@param ignoreSizeAnim Bool
 ---@return Bool
-function gameuiCyberwareBreachGameController:IsAnyIntroAnimPlaying(ignoreSizeAnim) return end
+function gameuiCyberwareBreachGameController:IsAnyIntroAnimPlaying(ignoreSizeAnim) end
 
----@private
 ---@return nil
-function gameuiCyberwareBreachGameController:PlayIntroAnimation() return end
+function gameuiCyberwareBreachGameController:PlayIntroAnimation() end
 
----@private
 ---@return nil
-function gameuiCyberwareBreachGameController:PlayShowAnimation() return end
+function gameuiCyberwareBreachGameController:PlayShowAnimation() end
 
----@private
 ---@return nil
-function gameuiCyberwareBreachGameController:PlayTimeoutAnimation() return end
+function gameuiCyberwareBreachGameController:PlayTimeoutAnimation() end
 
----@private
 ---@return nil
-function gameuiCyberwareBreachGameController:RegisterBlackboardCallbacks() return end
+function gameuiCyberwareBreachGameController:RegisterBlackboardCallbacks() end
 
----@private
 ---@return nil
-function gameuiCyberwareBreachGameController:StopAllAnimations() return end
+function gameuiCyberwareBreachGameController:StopAllAnimations() end
 
----@private
 ---@return nil
-function gameuiCyberwareBreachGameController:UnregisterBlackboardCallbacks() return end
+function gameuiCyberwareBreachGameController:UnregisterBlackboardCallbacks() end
 
----@private
 ---@param visible Bool
 ---@return nil
-function gameuiCyberwareBreachGameController:UpdateState(visible) return end
+function gameuiCyberwareBreachGameController:UpdateState(visible) end

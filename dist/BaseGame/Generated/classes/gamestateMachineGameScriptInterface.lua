@@ -5,444 +5,444 @@ gamestateMachineGameScriptInterface = {}
 
 ---@param fields? gamestateMachineGameScriptInterface
 ---@return gamestateMachineGameScriptInterface
-function gamestateMachineGameScriptInterface.new(fields) return end
+function gamestateMachineGameScriptInterface.new(fields) end
 
 ---@param position Vector4
 ---@param radius Float
 ---@param strength Float
 ---@param numFrames Uint32
 ---@return nil
-function gamestateMachineGameScriptInterface.CreateWaterImpulse(position, radius, strength, numFrames) return end
+function gamestateMachineGameScriptInterface.CreateWaterImpulse(position, radius, strength, numFrames) end
 
 ---@param item gameItemObject
 ---@param eventName CName|string
 ---@return nil
-function gamestateMachineGameScriptInterface.PushAnimationEventToItem(item, eventName) return end
+function gamestateMachineGameScriptInterface.PushAnimationEventToItem(item, eventName) end
 
 ---@param settingId CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:ActivateCameraSetting(settingId) return end
+function gamestateMachineGameScriptInterface:ActivateCameraSetting(settingId) end
 
 ---@param capsuleHeight Float
 ---@param capsuleRadius Float
 ---@return Bool
-function gamestateMachineGameScriptInterface:CanCapsuleFit(capsuleHeight, capsuleRadius) return end
+function gamestateMachineGameScriptInterface:CanCapsuleFit(capsuleHeight, capsuleRadius) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function gamestateMachineGameScriptInterface:CanEnterInteraction(stateContext) return end
+function gamestateMachineGameScriptInterface:CanEnterInteraction(stateContext) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function gamestateMachineGameScriptInterface:CanEquipItem(stateContext) return end
+function gamestateMachineGameScriptInterface:CanEquipItem(stateContext) end
 
 ---@return AINavigationSystem
-function gamestateMachineGameScriptInterface:GetAINavigationSystem() return end
+function gamestateMachineGameScriptInterface:GetAINavigationSystem() end
 
 ---@return gameAchievementSystem
-function gamestateMachineGameScriptInterface:GetAchievementSystem() return end
+function gamestateMachineGameScriptInterface:GetAchievementSystem() end
 
 ---@param actionName CName|string
 ---@return Uint32
-function gamestateMachineGameScriptInterface:GetActionPressCount(actionName) return end
+function gamestateMachineGameScriptInterface:GetActionPressCount(actionName) end
 
 ---@param actionName CName|string
 ---@return Float
-function gamestateMachineGameScriptInterface:GetActionPrevStateTime(actionName) return end
+function gamestateMachineGameScriptInterface:GetActionPrevStateTime(actionName) end
 
 ---@param actionName CName|string
 ---@return Float
-function gamestateMachineGameScriptInterface:GetActionStateTime(actionName) return end
+function gamestateMachineGameScriptInterface:GetActionStateTime(actionName) end
 
 ---@param actionName CName|string
 ---@return Float
-function gamestateMachineGameScriptInterface:GetActionValue(actionName) return end
+function gamestateMachineGameScriptInterface:GetActionValue(actionName) end
 
 ---@return gameActivityLogSystem
-function gamestateMachineGameScriptInterface:GetActivityLogSystem() return end
+function gamestateMachineGameScriptInterface:GetActivityLogSystem() end
 
 ---@return gameCAttitudeManager
-function gamestateMachineGameScriptInterface:GetAttitudeSystem() return end
+function gamestateMachineGameScriptInterface:GetAttitudeSystem() end
 
 ---@return gameGameAudioSystem
-function gamestateMachineGameScriptInterface:GetAudioSystem() return end
+function gamestateMachineGameScriptInterface:GetAudioSystem() end
 
 ---@return gameBlackboardSystem
-function gamestateMachineGameScriptInterface:GetBlackboardSystem() return end
+function gamestateMachineGameScriptInterface:GetBlackboardSystem() end
 
 ---@return gameCameraSystem
-function gamestateMachineGameScriptInterface:GetCameraSystem() return end
+function gamestateMachineGameScriptInterface:GetCameraSystem() end
 
 ---@return Transform
-function gamestateMachineGameScriptInterface:GetCameraWorldTransform() return end
+function gamestateMachineGameScriptInterface:GetCameraWorldTransform() end
 
 ---@return gameuiICharacterCustomizationSystem
-function gamestateMachineGameScriptInterface:GetCharacterCustomizationSystem() return end
+function gamestateMachineGameScriptInterface:GetCharacterCustomizationSystem() end
 
 ---@return physicsControllerHit[]
-function gamestateMachineGameScriptInterface:GetCollisionReport() return end
+function gamestateMachineGameScriptInterface:GetCollisionReport() end
 
 ---@return gameICombatQueriesSystem
-function gamestateMachineGameScriptInterface:GetCombatQueriesSystem() return end
+function gamestateMachineGameScriptInterface:GetCombatQueriesSystem() end
 
 ---@return gameCommunitySystem
-function gamestateMachineGameScriptInterface:GetCommunitySystem() return end
+function gamestateMachineGameScriptInterface:GetCommunitySystem() end
 
 ---@return gameCompanionSystem
-function gamestateMachineGameScriptInterface:GetCompanionSystem() return end
+function gamestateMachineGameScriptInterface:GetCompanionSystem() end
 
 ---@return gameICooldownSystem
-function gamestateMachineGameScriptInterface:GetCooldownSystem() return end
+function gamestateMachineGameScriptInterface:GetCooldownSystem() end
 
 ---@return AISmartCoverManager
-function gamestateMachineGameScriptInterface:GetCoverManager() return end
+function gamestateMachineGameScriptInterface:GetCoverManager() end
 
 ---@return gameDamageSystem
-function gamestateMachineGameScriptInterface:GetDamageSystem() return end
+function gamestateMachineGameScriptInterface:GetDamageSystem() end
 
 ---@return gameDebugCheatsSystem
-function gamestateMachineGameScriptInterface:GetDebugCheatsSystem() return end
+function gamestateMachineGameScriptInterface:GetDebugCheatsSystem() end
 
 ---@return gameIDebugDrawHistorySystem
-function gamestateMachineGameScriptInterface:GetDebugDrawHistorySystem() return end
+function gamestateMachineGameScriptInterface:GetDebugDrawHistorySystem() end
 
 ---@return gameDebugPlayerBreadcrumbs
-function gamestateMachineGameScriptInterface:GetDebugPlayerBreadcrumbs() return end
+function gamestateMachineGameScriptInterface:GetDebugPlayerBreadcrumbs() end
 
 ---@return gameDebugVisualizerSystem
-function gamestateMachineGameScriptInterface:GetDebugVisualizerSystem() return end
+function gamestateMachineGameScriptInterface:GetDebugVisualizerSystem() end
 
 ---@return gameDelaySystem
-function gamestateMachineGameScriptInterface:GetDelaySystem() return end
+function gamestateMachineGameScriptInterface:GetDelaySystem() end
 
 ---@return gameDeviceSystem
-function gamestateMachineGameScriptInterface:GetDeviceSystem() return end
+function gamestateMachineGameScriptInterface:GetDeviceSystem() end
 
 ---@return gameDynamicSpawnSystem
-function gamestateMachineGameScriptInterface:GetDynamicSpawnSystem() return end
+function gamestateMachineGameScriptInterface:GetDynamicSpawnSystem() end
 
 ---@return gameEffectorSystem
-function gamestateMachineGameScriptInterface:GetEffectorSystem() return end
+function gamestateMachineGameScriptInterface:GetEffectorSystem() end
 
 ---@return gameEntitySpawnerEventsBroadcasterImpl
-function gamestateMachineGameScriptInterface:GetEntitySpawnerEventsBroadcaster() return end
+function gamestateMachineGameScriptInterface:GetEntitySpawnerEventsBroadcaster() end
 
 ---@return gameFxSystem
-function gamestateMachineGameScriptInterface:GetFxSystem() return end
+function gamestateMachineGameScriptInterface:GetFxSystem() end
 
 ---@return ScriptGameInstance
-function gamestateMachineGameScriptInterface:GetGame() return end
+function gamestateMachineGameScriptInterface:GetGame() end
 
 ---@return gameEffectSystem
-function gamestateMachineGameScriptInterface:GetGameEffectSystem() return end
+function gamestateMachineGameScriptInterface:GetGameEffectSystem() end
 
 ---@return gameIGameRulesSystem
-function gamestateMachineGameScriptInterface:GetGameRulesSystem() return end
+function gamestateMachineGameScriptInterface:GetGameRulesSystem() end
 
 ---@return gameGameTagSystem
-function gamestateMachineGameScriptInterface:GetGameTagSystem() return end
+function gamestateMachineGameScriptInterface:GetGameTagSystem() end
 
 ---@return gameuiGamepadLightController
-function gamestateMachineGameScriptInterface:GetGamepadLightController() return end
+function gamestateMachineGameScriptInterface:GetGamepadLightController() end
 
 ---@return gameGameplayLogicPackageSystem
-function gamestateMachineGameScriptInterface:GetGameplayLogicPackageSystem() return end
+function gamestateMachineGameScriptInterface:GetGameplayLogicPackageSystem() end
 
 ---@return gameGodModeSystem
-function gamestateMachineGameScriptInterface:GetGodModeSystem() return end
+function gamestateMachineGameScriptInterface:GetGodModeSystem() end
 
 ---@return gameinfluenceSystem
-function gamestateMachineGameScriptInterface:GetInfluenceMapSystem() return end
+function gamestateMachineGameScriptInterface:GetInfluenceMapSystem() end
 
 ---@return Float
-function gamestateMachineGameScriptInterface:GetInputHeading() return end
+function gamestateMachineGameScriptInterface:GetInputHeading() end
 
 ---@return gameinteractionsCManager
-function gamestateMachineGameScriptInterface:GetInteractionManager() return end
+function gamestateMachineGameScriptInterface:GetInteractionManager() end
 
 ---@return gameInventoryManager
-function gamestateMachineGameScriptInterface:GetInventoryManager() return end
+function gamestateMachineGameScriptInterface:GetInventoryManager() end
 
 ---@param slotName TweakDBID|string
 ---@return gameItemID
-function gamestateMachineGameScriptInterface:GetItemIdInSlot(slotName) return end
+function gamestateMachineGameScriptInterface:GetItemIdInSlot(slotName) end
 
 ---@return gameJournalManager
-function gamestateMachineGameScriptInterface:GetJournalManager() return end
+function gamestateMachineGameScriptInterface:GetJournalManager() end
 
 ---@return gameLevelAssignmentSystem
-function gamestateMachineGameScriptInterface:GetLevelAssignmentSystem() return end
+function gamestateMachineGameScriptInterface:GetLevelAssignmentSystem() end
 
 ---@return gameLocationManager
-function gamestateMachineGameScriptInterface:GetLocationManager() return end
+function gamestateMachineGameScriptInterface:GetLocationManager() end
 
 ---@return gameLootManager
-function gamestateMachineGameScriptInterface:GetLootManager() return end
+function gamestateMachineGameScriptInterface:GetLootManager() end
 
 ---@return gamemappinsMappinSystem
-function gamestateMachineGameScriptInterface:GetMappinSystem() return end
+function gamestateMachineGameScriptInterface:GetMappinSystem() end
 
 ---@param attackRecord gamedataAttack_Melee_Record
 ---@param staminaCost Float
 ---@param attackSpeed Float
 ---@return gameMeleeAttackData
-function gamestateMachineGameScriptInterface:GetMeleeAttackData(attackRecord, staminaCost, attackSpeed) return end
+function gamestateMachineGameScriptInterface:GetMeleeAttackData(attackRecord, staminaCost, attackSpeed) end
 
 ---@return gameMinimapSystem
-function gamestateMachineGameScriptInterface:GetMinimapSystem() return end
+function gamestateMachineGameScriptInterface:GetMinimapSystem() end
 
 ---@return nil
-function gamestateMachineGameScriptInterface:GetModdingSystem() return end
+function gamestateMachineGameScriptInterface:GetModdingSystem() end
 
 ---@return gamemountingIMountingFacility
-function gamestateMachineGameScriptInterface:GetMountingFacility() return end
+function gamestateMachineGameScriptInterface:GetMountingFacility() end
 
 ---@param child gameObject
 ---@return gamemountingMountingInfo
-function gamestateMachineGameScriptInterface:GetMountingInfo(child) return end
+function gamestateMachineGameScriptInterface:GetMountingInfo(child) end
 
 ---@param targetingComponent entIPlacedComponent
 ---@return gameObject
-function gamestateMachineGameScriptInterface:GetObjectFromComponent(targetingComponent) return end
+function gamestateMachineGameScriptInterface:GetObjectFromComponent(targetingComponent) end
 
 ---@return gameObjectPoolSystem
-function gamestateMachineGameScriptInterface:GetObjectPoolSystem() return end
+function gamestateMachineGameScriptInterface:GetObjectPoolSystem() end
 
 ---@return gameIOnlineSystem
-function gamestateMachineGameScriptInterface:GetOnlineSystem() return end
+function gamestateMachineGameScriptInterface:GetOnlineSystem() end
 
 ---@return Vector4
-function gamestateMachineGameScriptInterface:GetOwnerForward() return end
+function gamestateMachineGameScriptInterface:GetOwnerForward() end
 
 ---@return Vector4
-function gamestateMachineGameScriptInterface:GetOwnerMovingDirection() return end
+function gamestateMachineGameScriptInterface:GetOwnerMovingDirection() end
 
 ---@param parameterType physicsStateValue
 ---@return Float
-function gamestateMachineGameScriptInterface:GetOwnerStateVectorParameterFloat(parameterType) return end
+function gamestateMachineGameScriptInterface:GetOwnerStateVectorParameterFloat(parameterType) end
 
 ---@param parameterType physicsStateValue
 ---@return Vector4
-function gamestateMachineGameScriptInterface:GetOwnerStateVectorParameterVector(parameterType) return end
+function gamestateMachineGameScriptInterface:GetOwnerStateVectorParameterVector(parameterType) end
 
 ---@return Transform
-function gamestateMachineGameScriptInterface:GetOwnerTransform() return end
+function gamestateMachineGameScriptInterface:GetOwnerTransform() end
 
 ---@return gamePersistencySystem
-function gamestateMachineGameScriptInterface:GetPersistencySystem() return end
+function gamestateMachineGameScriptInterface:GetPersistencySystem() end
 
 ---@return gamePhotoModeSystem
-function gamestateMachineGameScriptInterface:GetPhotoModeSystem() return end
+function gamestateMachineGameScriptInterface:GetPhotoModeSystem() end
 
 ---@return gamePingSystem
-function gamestateMachineGameScriptInterface:GetPingSystem() return end
+function gamestateMachineGameScriptInterface:GetPingSystem() end
 
 ---@return gameIPlayerManager
-function gamestateMachineGameScriptInterface:GetPlayerManagerSystem() return end
+function gamestateMachineGameScriptInterface:GetPlayerManagerSystem() end
 
 ---@return cpPlayerSystem
-function gamestateMachineGameScriptInterface:GetPlayerSystem() return end
+function gamestateMachineGameScriptInterface:GetPlayerSystem() end
 
 ---@return gamePoliceRadioSystem
-function gamestateMachineGameScriptInterface:GetPoliceRadioSystem() return end
+function gamestateMachineGameScriptInterface:GetPoliceRadioSystem() end
 
 ---@return gamePrereqManager
-function gamestateMachineGameScriptInterface:GetPrereqManager() return end
+function gamestateMachineGameScriptInterface:GetPrereqManager() end
 
 ---@return gamePreventionSpawnSystem
-function gamestateMachineGameScriptInterface:GetPreventionSpawnSystem() return end
+function gamestateMachineGameScriptInterface:GetPreventionSpawnSystem() end
 
 ---@return questQuestsSystem
-function gamestateMachineGameScriptInterface:GetQuestsSystem() return end
+function gamestateMachineGameScriptInterface:GetQuestsSystem() end
 
 ---@return nil
-function gamestateMachineGameScriptInterface:GetRazerChromaEffectsSystem() return end
+function gamestateMachineGameScriptInterface:GetRazerChromaEffectsSystem() end
 
 ---@return AIGuardAreaManager
-function gamestateMachineGameScriptInterface:GetRestrictMovementAreaManager() return end
+function gamestateMachineGameScriptInterface:GetRestrictMovementAreaManager() end
 
 ---@param slot gamemountingMountingSlotId
 ---@param parent gameObject
 ---@param occupantSlotComponentName? CName|string
 ---@return gameMountingSlotRole
-function gamestateMachineGameScriptInterface:GetRoleForSlot(slot, parent, occupantSlotComponentName) return end
+function gamestateMachineGameScriptInterface:GetRoleForSlot(slot, parent, occupantSlotComponentName) end
 
 ---@return AISafeAreaManager
-function gamestateMachineGameScriptInterface:GetSafeAreaManager() return end
+function gamestateMachineGameScriptInterface:GetSafeAreaManager() end
 
 ---@return scnISceneSystem
-function gamestateMachineGameScriptInterface:GetSceneSystem() return end
+function gamestateMachineGameScriptInterface:GetSceneSystem() end
 
 ---@param name CName|string
 ---@return gameScriptableSystem
-function gamestateMachineGameScriptInterface:GetScriptableSystem(name) return end
+function gamestateMachineGameScriptInterface:GetScriptableSystem(name) end
 
 ---@return gameScriptableSystemsContainer
-function gamestateMachineGameScriptInterface:GetScriptableSystemsContainer() return end
+function gamestateMachineGameScriptInterface:GetScriptableSystemsContainer() end
 
 ---@return gameScriptsDebugOverlaySystem
-function gamestateMachineGameScriptInterface:GetScriptsDebugOverlaySystem() return end
+function gamestateMachineGameScriptInterface:GetScriptsDebugOverlaySystem() end
 
 ---@return senseCSenseManager
-function gamestateMachineGameScriptInterface:GetSenseManager() return end
+function gamestateMachineGameScriptInterface:GetSenseManager() end
 
 ---@return gameSpatialQueriesSystem
-function gamestateMachineGameScriptInterface:GetSpatialQueriesSystem() return end
+function gamestateMachineGameScriptInterface:GetSpatialQueriesSystem() end
 
 ---@return gameStatPoolsSystem
-function gamestateMachineGameScriptInterface:GetStatPoolsSystem() return end
+function gamestateMachineGameScriptInterface:GetStatPoolsSystem() end
 
 ---@param stateVectorParameter physicsStateValue
 ---@return Variant
-function gamestateMachineGameScriptInterface:GetStateVectorParameter(stateVectorParameter) return end
+function gamestateMachineGameScriptInterface:GetStateVectorParameter(stateVectorParameter) end
 
 ---@return gameStatsDataSystem
-function gamestateMachineGameScriptInterface:GetStatsDataSystem() return end
+function gamestateMachineGameScriptInterface:GetStatsDataSystem() end
 
 ---@return gameStatsSystem
-function gamestateMachineGameScriptInterface:GetStatsSystem() return end
+function gamestateMachineGameScriptInterface:GetStatsSystem() end
 
 ---@return gameStatusEffectSystem
-function gamestateMachineGameScriptInterface:GetStatusEffectSystem() return end
+function gamestateMachineGameScriptInterface:GetStatusEffectSystem() end
 
 ---@return gameuiSubtitleHandlerSystem
-function gamestateMachineGameScriptInterface:GetSubtitleHandlerSystem() return end
+function gamestateMachineGameScriptInterface:GetSubtitleHandlerSystem() end
 
 ---@return gametargetingTargetingSystem
-function gamestateMachineGameScriptInterface:GetTargetingSystem() return end
+function gamestateMachineGameScriptInterface:GetTargetingSystem() end
 
 ---@return gameTelemetryTelemetrySystem
-function gamestateMachineGameScriptInterface:GetTelemetrySystem() return end
+function gamestateMachineGameScriptInterface:GetTelemetrySystem() end
 
 ---@return gameTeleportationFacility
-function gamestateMachineGameScriptInterface:GetTeleportationFacility() return end
+function gamestateMachineGameScriptInterface:GetTeleportationFacility() end
 
 ---@return gameTimeSystem
-function gamestateMachineGameScriptInterface:GetTimeSystem() return end
+function gamestateMachineGameScriptInterface:GetTimeSystem() end
 
 ---@return gameTransactionSystem
-function gamestateMachineGameScriptInterface:GetTransactionSystem() return end
+function gamestateMachineGameScriptInterface:GetTransactionSystem() end
 
 ---@return gameuiGameSystemUI
-function gamestateMachineGameScriptInterface:GetUISystem() return end
+function gamestateMachineGameScriptInterface:GetUISystem() end
 
 ---@return gameVehicleSystem
-function gamestateMachineGameScriptInterface:GetVehicleSystem() return end
+function gamestateMachineGameScriptInterface:GetVehicleSystem() end
 
 ---@return gameVisionModeSystem
-function gamestateMachineGameScriptInterface:GetVisionModeSystem() return end
+function gamestateMachineGameScriptInterface:GetVisionModeSystem() end
 
 ---@return nil
-function gamestateMachineGameScriptInterface:GetWardrobeSystem() return end
+function gamestateMachineGameScriptInterface:GetWardrobeSystem() end
 
 ---@return gameIWatchdogSystem
-function gamestateMachineGameScriptInterface:GetWatchdogSystem() return end
+function gamestateMachineGameScriptInterface:GetWatchdogSystem() end
 
 ---@param puppetPosition Vector4
 ---@param referencePosition Vector4
 ---@return Bool, Float waterLevel
-function gamestateMachineGameScriptInterface:GetWaterLevel(puppetPosition, referencePosition) return end
+function gamestateMachineGameScriptInterface:GetWaterLevel(puppetPosition, referencePosition) end
 
 ---@return gameWorkspotGameSystem
-function gamestateMachineGameScriptInterface:GetWorkspotSystem() return end
+function gamestateMachineGameScriptInterface:GetWorkspotSystem() end
 
 ---@return moveSecureFootingResult
-function gamestateMachineGameScriptInterface:HasSecureFooting() return end
+function gamestateMachineGameScriptInterface:HasSecureFooting() end
 
 ---@param flag gamedataStatType
 ---@return Bool
-function gamestateMachineGameScriptInterface:HasStatFlag(flag) return end
+function gamestateMachineGameScriptInterface:HasStatFlag(flag) end
 
 ---@param flag gamedataStatType
 ---@param owner gameObject
 ---@return Bool
-function gamestateMachineGameScriptInterface:HasStatFlagOwner(flag, owner) return end
+function gamestateMachineGameScriptInterface:HasStatFlagOwner(flag, owner) end
 
 ---@param actionName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsActionHeld(actionName) return end
+function gamestateMachineGameScriptInterface:IsActionHeld(actionName) end
 
 ---@param actionName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsActionJustHeld(actionName) return end
+function gamestateMachineGameScriptInterface:IsActionJustHeld(actionName) end
 
 ---@param actionName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsActionJustPressed(actionName) return end
+function gamestateMachineGameScriptInterface:IsActionJustPressed(actionName) end
 
 ---@param actionName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsActionJustReleased(actionName) return end
+function gamestateMachineGameScriptInterface:IsActionJustReleased(actionName) end
 
 ---@param actionName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsActionJustTapped(actionName) return end
+function gamestateMachineGameScriptInterface:IsActionJustTapped(actionName) end
 
 ---@param actionName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsAxisChangeAction(actionName) return end
+function gamestateMachineGameScriptInterface:IsAxisChangeAction(actionName) end
 
 ---@param child? gameObject
 ---@param parent? gameObject
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsDriverInVehicle(child, parent) return end
+function gamestateMachineGameScriptInterface:IsDriverInVehicle(child, parent) end
 
 ---@param objectId? entEntityID
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsEntityInCombat(objectId) return end
+function gamestateMachineGameScriptInterface:IsEntityInCombat(objectId) end
 
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsFalling() return end
+function gamestateMachineGameScriptInterface:IsFalling() end
 
 ---@param object? gameObject
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsMountedToObject(object) return end
+function gamestateMachineGameScriptInterface:IsMountedToObject(object) end
 
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsMoveInputConsiderable() return end
+function gamestateMachineGameScriptInterface:IsMoveInputConsiderable() end
 
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsOnGround() return end
+function gamestateMachineGameScriptInterface:IsOnGround() end
 
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsOnMovingPlatform() return end
+function gamestateMachineGameScriptInterface:IsOnMovingPlatform() end
 
 ---@param child? gameObject
 ---@param parent? gameObject
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsPassengerInVehicle(child, parent) return end
+function gamestateMachineGameScriptInterface:IsPassengerInVehicle(child, parent) end
 
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsPlayerInBraindance() return end
+function gamestateMachineGameScriptInterface:IsPlayerInBraindance() end
 
 ---@param actionName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsRelativeChangeAction(actionName) return end
+function gamestateMachineGameScriptInterface:IsRelativeChangeAction(actionName) end
 
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsSceneAnimationActive() return end
+function gamestateMachineGameScriptInterface:IsSceneAnimationActive() end
 
 ---@param triggerMode gamedataTriggerMode
 ---@return Bool
-function gamestateMachineGameScriptInterface:IsTriggerModeActive(triggerMode) return end
+function gamestateMachineGameScriptInterface:IsTriggerModeActive(triggerMode) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
 ---@return Bool, physicsTraceResult result
-function gamestateMachineGameScriptInterface:LocomotionOverlapTest(primitiveDimension, position, rotation) return end
+function gamestateMachineGameScriptInterface:LocomotionOverlapTest(primitiveDimension, position, rotation) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
 ---@param excludedEntity entEntity
 ---@return Bool, physicsTraceResult result
-function gamestateMachineGameScriptInterface:LocomotionOverlapTestExcludeEntity(primitiveDimension, position, rotation, excludedEntity) return end
+function gamestateMachineGameScriptInterface:LocomotionOverlapTestExcludeEntity(primitiveDimension, position, rotation, excludedEntity) end
 
 ---@param start Vector4
 ---@param end_ Vector4
 ---@return physicsTraceResult
-function gamestateMachineGameScriptInterface:LocomotionRaycastTest(start, end_) return end
+function gamestateMachineGameScriptInterface:LocomotionRaycastTest(start, end_) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
@@ -451,104 +451,104 @@ function gamestateMachineGameScriptInterface:LocomotionRaycastTest(start, end_) 
 ---@param distance Float
 ---@param assumeInitialPositionClear? Bool
 ---@return Bool, physicsTraceResult result
-function gamestateMachineGameScriptInterface:LocomotionSweepTest(primitiveDimension, position, rotation, direction, distance, assumeInitialPositionClear) return end
+function gamestateMachineGameScriptInterface:LocomotionSweepTest(primitiveDimension, position, rotation, direction, distance, assumeInitialPositionClear) end
 
 ---@param prereqName TweakDBID|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:MeetsPrerequisites(prereqName) return end
+function gamestateMachineGameScriptInterface:MeetsPrerequisites(prereqName) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
 ---@param queryPreset CName|string
 ---@return Bool, physicsTraceResult result
-function gamestateMachineGameScriptInterface:Overlap(primitiveDimension, position, rotation, queryPreset) return end
+function gamestateMachineGameScriptInterface:Overlap(primitiveDimension, position, rotation, queryPreset) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
 ---@param queryPreset CName|string
 ---@return physicsTraceResult[]
-function gamestateMachineGameScriptInterface:OverlapMultipleHits(primitiveDimension, position, rotation, queryPreset) return end
+function gamestateMachineGameScriptInterface:OverlapMultipleHits(primitiveDimension, position, rotation, queryPreset) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
 ---@param rotation EulerAngles
 ---@param queryGroup CName|string
 ---@return Bool, physicsTraceResult result
-function gamestateMachineGameScriptInterface:OverlapWithASingleGroup(primitiveDimension, position, rotation, queryGroup) return end
+function gamestateMachineGameScriptInterface:OverlapWithASingleGroup(primitiveDimension, position, rotation, queryGroup) end
 
 ---@param eventName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:PushAnimationEvent(eventName) return end
+function gamestateMachineGameScriptInterface:PushAnimationEvent(eventName) end
 
 ---@param start Vector4
 ---@param end_ Vector4
 ---@param queryPreset CName|string
 ---@return physicsTraceResult
-function gamestateMachineGameScriptInterface:Raycast(start, end_, queryPreset) return end
+function gamestateMachineGameScriptInterface:Raycast(start, end_, queryPreset) end
 
 ---@param start Vector4
 ---@param end_ Vector4
 ---@param queryPreset CName|string
 ---@return physicsTraceResult[]
-function gamestateMachineGameScriptInterface:RaycastMultipleHits(start, end_, queryPreset) return end
+function gamestateMachineGameScriptInterface:RaycastMultipleHits(start, end_, queryPreset) end
 
 ---@param start Vector4
 ---@param end_ Vector4
 ---@param queryGroup CName|string
 ---@return physicsTraceResult
-function gamestateMachineGameScriptInterface:RaycastWithASingleGroup(start, end_, queryGroup) return end
+function gamestateMachineGameScriptInterface:RaycastWithASingleGroup(start, end_, queryGroup) end
 
 ---@param slotName TweakDBID|string
 ---@param itemId gameItemID
 ---@return nil
-function gamestateMachineGameScriptInterface:RequestWeaponEquipOnServer(slotName, itemId) return end
+function gamestateMachineGameScriptInterface:RequestWeaponEquipOnServer(slotName, itemId) end
 
 ---@param key CName|string
 ---@param value Bool
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetAnimationParameterBool(key, value) return end
+function gamestateMachineGameScriptInterface:SetAnimationParameterBool(key, value) end
 
 ---@param key CName|string
 ---@param value animAnimFeature
 ---@param owner? gameObject
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetAnimationParameterFeature(key, value, owner) return end
+function gamestateMachineGameScriptInterface:SetAnimationParameterFeature(key, value, owner) end
 
 ---@param key CName|string
 ---@param value Float
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetAnimationParameterFloat(key, value) return end
+function gamestateMachineGameScriptInterface:SetAnimationParameterFloat(key, value) end
 
 ---@param key CName|string
 ---@param value Int32
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetAnimationParameterInt(key, value) return end
+function gamestateMachineGameScriptInterface:SetAnimationParameterInt(key, value) end
 
 ---@param key CName|string
 ---@param value Quaternion
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetAnimationParameterQuaternion(key, value) return end
+function gamestateMachineGameScriptInterface:SetAnimationParameterQuaternion(key, value) end
 
 ---@param key CName|string
 ---@param value Vector4
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetAnimationParameterVector(key, value) return end
+function gamestateMachineGameScriptInterface:SetAnimationParameterVector(key, value) end
 
 ---@param curveName CName|string
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetCameraTimeDilationCurve(curveName) return end
+function gamestateMachineGameScriptInterface:SetCameraTimeDilationCurve(curveName) end
 
 ---@param actionName CName|string
 ---@param visibility Bool
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetComponentVisibility(actionName, visibility) return end
+function gamestateMachineGameScriptInterface:SetComponentVisibility(actionName, visibility) end
 
 ---@param stateVectorParameter physicsStateValue
 ---@param value Variant
 ---@return Bool
-function gamestateMachineGameScriptInterface:SetStateVectorParameter(stateVectorParameter, value) return end
+function gamestateMachineGameScriptInterface:SetStateVectorParameter(stateVectorParameter, value) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
@@ -558,7 +558,7 @@ function gamestateMachineGameScriptInterface:SetStateVectorParameter(stateVector
 ---@param queryPreset CName|string
 ---@param assumeInitialPositionClear? Bool
 ---@return Bool, physicsTraceResult result
-function gamestateMachineGameScriptInterface:Sweep(primitiveDimension, position, rotation, direction, distance, queryPreset, assumeInitialPositionClear) return end
+function gamestateMachineGameScriptInterface:Sweep(primitiveDimension, position, rotation, direction, distance, queryPreset, assumeInitialPositionClear) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
@@ -567,7 +567,7 @@ function gamestateMachineGameScriptInterface:Sweep(primitiveDimension, position,
 ---@param distance Float
 ---@param queryPreset CName|string
 ---@return physicsTraceResult[]
-function gamestateMachineGameScriptInterface:SweepMultipleHits(primitiveDimension, position, rotation, direction, distance, queryPreset) return end
+function gamestateMachineGameScriptInterface:SweepMultipleHits(primitiveDimension, position, rotation, direction, distance, queryPreset) end
 
 ---@param primitiveDimension Vector4
 ---@param position Vector4
@@ -577,12 +577,12 @@ function gamestateMachineGameScriptInterface:SweepMultipleHits(primitiveDimensio
 ---@param queryGroup CName|string
 ---@param assumeInitialPositionClear? Bool
 ---@return Bool, physicsTraceResult result
-function gamestateMachineGameScriptInterface:SweepWithASingleGroup(primitiveDimension, position, rotation, direction, distance, queryGroup, assumeInitialPositionClear) return end
+function gamestateMachineGameScriptInterface:SweepWithASingleGroup(primitiveDimension, position, rotation, direction, distance, queryGroup, assumeInitialPositionClear) end
 
 ---@return Bool
-function gamestateMachineGameScriptInterface:TEMP_WeaponStopFiring() return end
+function gamestateMachineGameScriptInterface:TEMP_WeaponStopFiring() end
 
 ---@param point Vector4
 ---@param object? gameObject
 ---@return Vector4
-function gamestateMachineGameScriptInterface:TransformInvPointFromObject(point, object) return end
+function gamestateMachineGameScriptInterface:TransformInvPointFromObject(point, object) end

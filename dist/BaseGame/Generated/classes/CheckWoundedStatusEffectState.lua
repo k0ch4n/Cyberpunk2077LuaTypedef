@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckWoundedStatusEffectState: AIStatusEffectCondition
----@field public stateToCheck EstatusEffectsState
+---@field stateToCheck EstatusEffectsState
 CheckWoundedStatusEffectState = {}
 
 ---@param fields? CheckWoundedStatusEffectState
 ---@return CheckWoundedStatusEffectState
-function CheckWoundedStatusEffectState.new(fields) return end
+function CheckWoundedStatusEffectState.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckWoundedStatusEffectState:Check(context) return end
+function CheckWoundedStatusEffectState:Check(context) end

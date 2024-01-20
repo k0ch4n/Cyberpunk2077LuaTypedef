@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class vehicleRemoteControlDrivingUIData
----@field public remoteControlledVehicle vehicleBaseObject
----@field public isDistanceDisconnect Bool
+---@field remoteControlledVehicle vehicleBaseObject
+---@field isDistanceDisconnect Bool
 vehicleRemoteControlDrivingUIData = {}
 
 ---@param fields? vehicleRemoteControlDrivingUIData
 ---@return vehicleRemoteControlDrivingUIData
-function vehicleRemoteControlDrivingUIData.new(fields) return end
+function vehicleRemoteControlDrivingUIData.new(fields) end

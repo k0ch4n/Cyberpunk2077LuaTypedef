@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scneventsUnequipItemFromPerformerByItem: scnSceneEvent
----@field public performerId scnPerformerId
----@field public itemId TweakDBID
----@field public restoreGameplayItem Bool
+---@field performerId scnPerformerId
+---@field itemId TweakDBID
+---@field restoreGameplayItem Bool
 scneventsUnequipItemFromPerformerByItem = {}
 
 ---@param fields? scneventsUnequipItemFromPerformerByItem
 ---@return scneventsUnequipItemFromPerformerByItem
-function scneventsUnequipItemFromPerformerByItem.new(fields) return end
+function scneventsUnequipItemFromPerformerByItem.new(fields) end

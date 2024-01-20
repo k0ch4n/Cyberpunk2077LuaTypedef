@@ -1,45 +1,41 @@
 ---@meta
 
 ---@class IWorldWidgetComponent: WidgetBaseComponent
----@field public glitchValue Float
----@field public tintColor Color
----@field public screenAreaMultiplier Float
----@field public textureMinMipBias Uint32
----@field public textureMaxMipBias Uint32
----@field public meshTargetBinding worlduiMeshTargetBinding
----@field public isEnabled Bool
+---@field glitchValue Float
+---@field tintColor Color
+---@field screenAreaMultiplier Float
+---@field textureMinMipBias Uint32
+---@field textureMaxMipBias Uint32
+---@field meshTargetBinding worlduiMeshTargetBinding
+---@field isEnabled Bool
 IWorldWidgetComponent = {}
 
 ---@return worlduiIWidgetGameController
-function IWorldWidgetComponent:GetGameControllerInterface() return end
+function IWorldWidgetComponent:GetGameControllerInterface() end
 
 ---@return inkWidget
-function IWorldWidgetComponent:GetWidget() return end
+function IWorldWidgetComponent:GetWidget() end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function IWorldWidgetComponent:OnHitEvent(hit) return end
+function IWorldWidgetComponent:OnHitEvent(hit) end
 
 ---@return gameuiWidgetGameController
-function IWorldWidgetComponent:GetGameController() return end
+function IWorldWidgetComponent:GetGameController() end
 
 ---@return ScreenDefinitionPackage
-function IWorldWidgetComponent:GetScreenDefinition() return end
+function IWorldWidgetComponent:GetScreenDefinition() end
 
 ---@return Bool
-function IWorldWidgetComponent:IsScreenDefinitionValid() return end
+function IWorldWidgetComponent:IsScreenDefinitionValid() end
 
----@private
 ---@return Bool
-function IWorldWidgetComponent:ShouldReactToHit() return end
+function IWorldWidgetComponent:ShouldReactToHit() end
 
----@protected
 ---@param intensity Float
 ---@param lifetime Float
 ---@return nil
-function IWorldWidgetComponent:StartGlitching(intensity, lifetime) return end
+function IWorldWidgetComponent:StartGlitching(intensity, lifetime) end
 
----@protected
 ---@return nil
-function IWorldWidgetComponent:StopGlitching() return end
+function IWorldWidgetComponent:StopGlitching() end

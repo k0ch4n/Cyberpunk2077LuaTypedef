@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSaveLock
----@field public reason gameSaveLockReason
+---@field reason gameSaveLockReason
 gameSaveLock = {}
 
 ---@param fields? gameSaveLock
 ---@return gameSaveLock
-function gameSaveLock.new(fields) return end
+function gameSaveLock.new(fields) end

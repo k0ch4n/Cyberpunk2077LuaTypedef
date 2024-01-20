@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldProxyBoundingBoxSyncParams
----@field public positiveAxis worldProxyBBoxSyncOptions
----@field public negativeAxis worldProxyBBoxSyncOptions
----@field public pullRange Float
----@field public makeStackable Bool
----@field public stackOffset Vector3
+---@field positiveAxis worldProxyBBoxSyncOptions
+---@field negativeAxis worldProxyBBoxSyncOptions
+---@field pullRange Float
+---@field makeStackable Bool
+---@field stackOffset Vector3
 worldProxyBoundingBoxSyncParams = {}
 
 ---@param fields? worldProxyBoundingBoxSyncParams
 ---@return worldProxyBoundingBoxSyncParams
-function worldProxyBoundingBoxSyncParams.new(fields) return end
+function worldProxyBoundingBoxSyncParams.new(fields) end

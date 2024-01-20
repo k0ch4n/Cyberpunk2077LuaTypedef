@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameuiPhoneMessageNotificationViewData: gameuiQuestUpdateNotificationViewData
----@field public threadHash Int32
----@field public contactHash Int32
+---@field threadHash Int32
+---@field contactHash Int32
 gameuiPhoneMessageNotificationViewData = {}
 
 ---@param fields? gameuiPhoneMessageNotificationViewData
 ---@return gameuiPhoneMessageNotificationViewData
-function gameuiPhoneMessageNotificationViewData.new(fields) return end
+function gameuiPhoneMessageNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function gameuiPhoneMessageNotificationViewData:CanMerge(data) return end
+function gameuiPhoneMessageNotificationViewData:CanMerge(data) end
 
 ---@return Int32
-function gameuiPhoneMessageNotificationViewData:GetPriority() return end
+function gameuiPhoneMessageNotificationViewData:GetPriority() end

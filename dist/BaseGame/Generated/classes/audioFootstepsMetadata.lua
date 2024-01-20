@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class audioFootstepsMetadata: audioAudioMetadata
----@field public defaultFootwearMetadata CName
----@field public footwearMetadataArray CName[]
----@field public slideEvent CName
----@field public onEnterSound CName
----@field public onExitSound CName
----@field public defaultFootwearVfxMetadata CName
----@field public footwearVfxMetadataArray CName[]
+---@field defaultFootwearMetadata CName
+---@field footwearMetadataArray CName[]
+---@field slideEvent CName
+---@field onEnterSound CName
+---@field onExitSound CName
+---@field defaultFootwearVfxMetadata CName
+---@field footwearVfxMetadataArray CName[]
 audioFootstepsMetadata = {}
 
 ---@param fields? audioFootstepsMetadata
 ---@return audioFootstepsMetadata
-function audioFootstepsMetadata.new(fields) return end
+function audioFootstepsMetadata.new(fields) end

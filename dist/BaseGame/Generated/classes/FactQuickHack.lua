@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class FactQuickHack: ActionBool
----@field private factProperties ComputerQuickHackData
+---@field factProperties ComputerQuickHackData
 FactQuickHack = {}
 
 ---@param fields? FactQuickHack
 ---@return FactQuickHack
-function FactQuickHack.new(fields) return end
+function FactQuickHack.new(fields) end
 
 ---@return ComputerQuickHackData
-function FactQuickHack:GetFactProperties() return end
+function FactQuickHack:GetFactProperties() end
 
 ---@return TweakDBID
-function FactQuickHack:GetTweakDBChoiceID() return end
+function FactQuickHack:GetTweakDBChoiceID() end
 
 ---@return String
-function FactQuickHack:GetTweakDBChoiceRecord() return end
+function FactQuickHack:GetTweakDBChoiceRecord() end
 
 ---@param properties ComputerQuickHackData
 ---@return nil
-function FactQuickHack:SetProperties(properties) return end
+function FactQuickHack:SetProperties(properties) end

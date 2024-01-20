@@ -5,4 +5,4 @@ entRenderOverlayEvent = {}
 
 ---@param fields? entRenderOverlayEvent
 ---@return entRenderOverlayEvent
-function entRenderOverlayEvent.new(fields) return end
+function entRenderOverlayEvent.new(fields) end

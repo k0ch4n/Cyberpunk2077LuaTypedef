@@ -1,57 +1,57 @@
 ---@meta
 
 ---@class worldBenchmarkSummary: IScriptable
----@field public gameVersion String
----@field public benchmarkName String
----@field public gpuName String
----@field public gpuMemory Uint64
----@field public gpuDriverVersion String
----@field public cpuName String
----@field public systemMemory Uint64
----@field public osName String
----@field public osVersion String
----@field public presetName String
----@field public presetLocalizedName CName
----@field public textureQualityPresetLocalizedName CName
----@field public renderWidth Uint32
----@field public renderHeight Uint32
----@field public windowMode Uint8
----@field public verticalSync Bool
----@field public fpsClamp Int32
----@field public averageFps Float
----@field public minFps Float
----@field public maxFps Float
----@field public time Float
----@field public frameNumber Uint32
----@field public upscalingType Uint8
----@field public DLAAEnabled Bool
----@field public DLAASharpness Float
----@field public DLSSEnabled Bool
----@field public DLSSDEnabled Bool
----@field public DLSSQuality Int32
----@field public DLSSSharpness Float
----@field public DLSSFrameGenEnabled Bool
----@field public FSR2Enabled Bool
----@field public FSR2Quality Int32
----@field public FSR2Sharpness Float
----@field public XeSSEnabled Bool
----@field public XeSSQuality Int32
----@field public XeSSSharpness Float
----@field public DRSEnabled Bool
----@field public DRSTargetFPS Uint32
----@field public DRSMinimalResolutionPercentage Uint32
----@field public DRSMaximalResolutionPercentage Uint32
----@field public CASSharpeningEnabled Bool
----@field public FSREnabled Bool
----@field public FSRQuality Int32
----@field public rayTracingEnabled Bool
----@field public rayTracedReflections Bool
----@field public rayTracedSunShadows Bool
----@field public rayTracedLocalShadows Bool
----@field public rayTracedLightingQuality Int32
----@field public rayTracedPathTracingEnabled Bool
+---@field gameVersion String
+---@field benchmarkName String
+---@field gpuName String
+---@field gpuMemory Uint64
+---@field gpuDriverVersion String
+---@field cpuName String
+---@field systemMemory Uint64
+---@field osName String
+---@field osVersion String
+---@field presetName String
+---@field presetLocalizedName CName
+---@field textureQualityPresetLocalizedName CName
+---@field renderWidth Uint32
+---@field renderHeight Uint32
+---@field windowMode Uint8
+---@field verticalSync Bool
+---@field fpsClamp Int32
+---@field averageFps Float
+---@field minFps Float
+---@field maxFps Float
+---@field time Float
+---@field frameNumber Uint32
+---@field upscalingType Uint8
+---@field DLAAEnabled Bool
+---@field DLAASharpness Float
+---@field DLSSEnabled Bool
+---@field DLSSDEnabled Bool
+---@field DLSSQuality Int32
+---@field DLSSSharpness Float
+---@field DLSSFrameGenEnabled Bool
+---@field FSR2Enabled Bool
+---@field FSR2Quality Int32
+---@field FSR2Sharpness Float
+---@field XeSSEnabled Bool
+---@field XeSSQuality Int32
+---@field XeSSSharpness Float
+---@field DRSEnabled Bool
+---@field DRSTargetFPS Uint32
+---@field DRSMinimalResolutionPercentage Uint32
+---@field DRSMaximalResolutionPercentage Uint32
+---@field CASSharpeningEnabled Bool
+---@field FSREnabled Bool
+---@field FSRQuality Int32
+---@field rayTracingEnabled Bool
+---@field rayTracedReflections Bool
+---@field rayTracedSunShadows Bool
+---@field rayTracedLocalShadows Bool
+---@field rayTracedLightingQuality Int32
+---@field rayTracedPathTracingEnabled Bool
 worldBenchmarkSummary = {}
 
 ---@param fields? worldBenchmarkSummary
 ---@return worldBenchmarkSummary
-function worldBenchmarkSummary.new(fields) return end
+function worldBenchmarkSummary.new(fields) end

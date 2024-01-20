@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class MeleePublicSafeEvents: MeleeRumblingEvents
----@field public unequipTime Float
+---@field unequipTime Float
 MeleePublicSafeEvents = {}
 
 ---@param fields? MeleePublicSafeEvents
 ---@return MeleePublicSafeEvents
-function MeleePublicSafeEvents.new(fields) return end
+function MeleePublicSafeEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleePublicSafeEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleePublicSafeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleePublicSafeEvents:OnTick(timeDelta, stateContext, scriptInterface) return end
+function MeleePublicSafeEvents:OnTick(timeDelta, stateContext, scriptInterface) end

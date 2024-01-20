@@ -1,444 +1,374 @@
 ---@meta
 
 ---@class FullscreenVendorGameController: gameuiMenuGameController
----@field private TooltipsManagerRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private playerFiltersContainer inkWidgetReference
----@field private vendorFiltersContainer inkWidgetReference
----@field private inventoryGridList inkVirtualCompoundWidgetReference
----@field private vendorSpecialOffersInventoryGridList inkCompoundWidgetReference
----@field private vendorInventoryGridList inkVirtualCompoundWidgetReference
----@field private playerInventoryGridScroll inkWidgetReference
----@field private vendorInventoryGridScroll inkWidgetReference
----@field private notificationRoot inkWidgetReference
----@field private emptyStock inkWidgetReference
----@field private buyWrapper inkWidgetReference
----@field private vendorMoney inkTextWidgetReference
----@field private vendorName inkTextWidgetReference
----@field private playerMoney inkTextWidgetReference
----@field private quantityPicker inkWidgetReference
----@field private playerSortingButton inkWidgetReference
----@field private vendorSortingButton inkWidgetReference
----@field private sortingDropdown inkWidgetReference
----@field private playerBalance inkWidgetReference
----@field private vendorBalance inkWidgetReference
----@field private TooltipsManager gameuiTooltipsManager
----@field private buttonHintsController ButtonHints
----@field private VendorDataManager VendorDataManager
----@field private player PlayerPuppet
----@field private itemTypeSorting gamedataItemType[]
----@field private InventoryManager InventoryDataManagerV2
----@field private uiInventorySystem UIInventoryScriptableSystem
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private playerInventoryitemControllers InventoryItemDisplayController[]
----@field private vendorInventoryitemControllers InventoryItemDisplayController[]
----@field private vendorSpecialOfferInventoryitemControllers InventoryItemDisplayController[]
----@field private playerDataSource inkScriptableDataSourceWrapper
----@field private virtualPlayerListController inkVirtualGridController
----@field private vendorDataSource inkScriptableDataSourceWrapper
----@field private virtualVendorListController inkVirtualGridController
----@field private playerItemsDataView VendorDataView
----@field private vendorItemsDataView VendorDataView
----@field private itemsClassifier ItemDisplayTemplateClassifier
----@field private totalBuyCost Float
----@field private totalSellCost Float
----@field private root inkWidget
----@field private vendorUserData VendorUserData
----@field private storageUserData StorageUserData
----@field private comparisonResolver InventoryItemPreferredComparisonResolver
----@field private sellJunkPopupToken inkGameNotificationToken
----@field private quantityPickerPopupToken inkGameNotificationToken
----@field private confirmationPopupToken inkGameNotificationToken
----@field private itemPreviewPopupToken inkGameNotificationToken
----@field private VendorBlackboard gameIBlackboard
----@field private VendorBlackboardDef UI_VendorDef
----@field private VendorUpdatedCallbackID redCallbackObject
----@field private craftingBlackboard gameIBlackboard
----@field private craftingBlackboardDef UI_CraftingDef
----@field private craftingCallbackID redCallbackObject
----@field private InventoryBlackboard gameIBlackboard
----@field private InventoryCallback UI_InventoryDef
----@field private InventoryAddedBBID redCallbackObject
----@field private InventoryRemovedBBID redCallbackObject
----@field private playerFilterManager ItemCategoryFliterManager
----@field private vendorFilterManager ItemCategoryFliterManager
----@field private lastPlayerFilter ItemFilterCategory
----@field private lastVendorFilter ItemFilterCategory
----@field private uiScriptableSystem UIScriptableSystem
----@field private uiSystem gameuiGameSystemUI
----@field private storageDef StorageBlackboardDef
----@field private storageBlackboard gameIBlackboard
----@field private itemDropQueue gameItemModParams[]
----@field private isActivePanel Bool
----@field private lastItemHoverOverEvent ItemDisplayHoverOverEvent
----@field private isComparisionDisabled Bool
----@field private lastRequestId Int32
----@field private sellQueue VenodrRequestQueueEntry[]
----@field private buyQueue VenodrRequestQueueEntry[]
----@field private boughtQuestItems gameItemData[]
----@field private vendorSoldItems SoldItemsCache
----@field private vendorUIInventoryItems UIInventoryItem[]
----@field private playerItemDisplayContext ItemDisplayContextData
----@field private vendorItemDisplayContext ItemDisplayContextData
----@field private transactionPending Bool
----@field private screenDisplayContext ScreenDisplayContext
----@field private globalSellInputPending Bool
----@field private isPopupPending Bool
+---@field TooltipsManagerRef inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field playerFiltersContainer inkWidgetReference
+---@field vendorFiltersContainer inkWidgetReference
+---@field inventoryGridList inkVirtualCompoundWidgetReference
+---@field vendorSpecialOffersInventoryGridList inkCompoundWidgetReference
+---@field vendorInventoryGridList inkVirtualCompoundWidgetReference
+---@field playerInventoryGridScroll inkWidgetReference
+---@field vendorInventoryGridScroll inkWidgetReference
+---@field notificationRoot inkWidgetReference
+---@field emptyStock inkWidgetReference
+---@field buyWrapper inkWidgetReference
+---@field vendorMoney inkTextWidgetReference
+---@field vendorName inkTextWidgetReference
+---@field playerMoney inkTextWidgetReference
+---@field quantityPicker inkWidgetReference
+---@field playerSortingButton inkWidgetReference
+---@field vendorSortingButton inkWidgetReference
+---@field sortingDropdown inkWidgetReference
+---@field playerBalance inkWidgetReference
+---@field vendorBalance inkWidgetReference
+---@field TooltipsManager gameuiTooltipsManager
+---@field buttonHintsController ButtonHints
+---@field VendorDataManager VendorDataManager
+---@field player PlayerPuppet
+---@field itemTypeSorting gamedataItemType[]
+---@field InventoryManager InventoryDataManagerV2
+---@field uiInventorySystem UIInventoryScriptableSystem
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field playerInventoryitemControllers InventoryItemDisplayController[]
+---@field vendorInventoryitemControllers InventoryItemDisplayController[]
+---@field vendorSpecialOfferInventoryitemControllers InventoryItemDisplayController[]
+---@field playerDataSource inkScriptableDataSourceWrapper
+---@field virtualPlayerListController inkVirtualGridController
+---@field vendorDataSource inkScriptableDataSourceWrapper
+---@field virtualVendorListController inkVirtualGridController
+---@field playerItemsDataView VendorDataView
+---@field vendorItemsDataView VendorDataView
+---@field itemsClassifier ItemDisplayTemplateClassifier
+---@field totalBuyCost Float
+---@field totalSellCost Float
+---@field root inkWidget
+---@field vendorUserData VendorUserData
+---@field storageUserData StorageUserData
+---@field comparisonResolver InventoryItemPreferredComparisonResolver
+---@field sellJunkPopupToken inkGameNotificationToken
+---@field quantityPickerPopupToken inkGameNotificationToken
+---@field confirmationPopupToken inkGameNotificationToken
+---@field itemPreviewPopupToken inkGameNotificationToken
+---@field VendorBlackboard gameIBlackboard
+---@field VendorBlackboardDef UI_VendorDef
+---@field VendorUpdatedCallbackID redCallbackObject
+---@field craftingBlackboard gameIBlackboard
+---@field craftingBlackboardDef UI_CraftingDef
+---@field craftingCallbackID redCallbackObject
+---@field InventoryBlackboard gameIBlackboard
+---@field InventoryCallback UI_InventoryDef
+---@field InventoryAddedBBID redCallbackObject
+---@field InventoryRemovedBBID redCallbackObject
+---@field playerFilterManager ItemCategoryFliterManager
+---@field vendorFilterManager ItemCategoryFliterManager
+---@field lastPlayerFilter ItemFilterCategory
+---@field lastVendorFilter ItemFilterCategory
+---@field uiScriptableSystem UIScriptableSystem
+---@field uiSystem gameuiGameSystemUI
+---@field storageDef StorageBlackboardDef
+---@field storageBlackboard gameIBlackboard
+---@field itemDropQueue gameItemModParams[]
+---@field isActivePanel Bool
+---@field lastItemHoverOverEvent ItemDisplayHoverOverEvent
+---@field isComparisionDisabled Bool
+---@field lastRequestId Int32
+---@field sellQueue VenodrRequestQueueEntry[]
+---@field buyQueue VenodrRequestQueueEntry[]
+---@field boughtQuestItems gameItemData[]
+---@field vendorSoldItems SoldItemsCache
+---@field vendorUIInventoryItems UIInventoryItem[]
+---@field playerItemDisplayContext ItemDisplayContextData
+---@field vendorItemDisplayContext ItemDisplayContextData
+---@field transactionPending Bool
+---@field screenDisplayContext ScreenDisplayContext
+---@field globalSellInputPending Bool
+---@field isPopupPending Bool
 FullscreenVendorGameController = {}
 
 ---@param fields? FullscreenVendorGameController
 ---@return FullscreenVendorGameController
-function FullscreenVendorGameController.new(fields) return end
+function FullscreenVendorGameController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function FullscreenVendorGameController:OnBack(userData) return end
+function FullscreenVendorGameController:OnBack(userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function FullscreenVendorGameController:OnBeforeLeaveScenario(userData) return end
+function FullscreenVendorGameController:OnBeforeLeaveScenario(userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function FullscreenVendorGameController:OnCloseMenu(userData) return end
+function FullscreenVendorGameController:OnCloseMenu(userData) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function FullscreenVendorGameController:OnConfirmationPopupClosed(data) return end
+function FullscreenVendorGameController:OnConfirmationPopupClosed(data) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function FullscreenVendorGameController:OnCraftingComplete(value) return end
+function FullscreenVendorGameController:OnCraftingComplete(value) end
 
----@protected
 ---@param evt DropdownItemClickedEvent
 ---@return Bool
-function FullscreenVendorGameController:OnDropdownItemClickedEvent(evt) return end
+function FullscreenVendorGameController:OnDropdownItemClickedEvent(evt) end
 
----@protected
 ---@param evt FilterRadioItemHoverOut
 ---@return Bool
-function FullscreenVendorGameController:OnFilterRadioItemHoverOut(evt) return end
+function FullscreenVendorGameController:OnFilterRadioItemHoverOut(evt) end
 
----@protected
 ---@param evt FilterRadioItemHoverOver
 ---@return Bool
-function FullscreenVendorGameController:OnFilterRadioItemHoverOver(evt) return end
+function FullscreenVendorGameController:OnFilterRadioItemHoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function FullscreenVendorGameController:OnHandleGlobalPress(evt) return end
+function FullscreenVendorGameController:OnHandleGlobalPress(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function FullscreenVendorGameController:OnHandleGlobalRelease(evt) return end
+function FullscreenVendorGameController:OnHandleGlobalRelease(evt) end
 
----@protected
 ---@return Bool
-function FullscreenVendorGameController:OnInitialize() return end
+function FullscreenVendorGameController:OnInitialize() end
 
----@protected
 ---@param evt ItemDisplayClickEvent
 ---@return Bool
-function FullscreenVendorGameController:OnInventoryClick(evt) return end
+function FullscreenVendorGameController:OnInventoryClick(evt) end
 
----@protected
 ---@param evt DLCAddedItemDisplayHoverOverEvent
 ---@return Bool
-function FullscreenVendorGameController:OnInventoryDLCAddedItemHoverOver(evt) return end
+function FullscreenVendorGameController:OnInventoryDLCAddedItemHoverOver(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function FullscreenVendorGameController:OnInventoryItemAdded(value) return end
+function FullscreenVendorGameController:OnInventoryItemAdded(value) end
 
----@protected
 ---@param evt ItemDisplayHoverOutEvent
 ---@return Bool
-function FullscreenVendorGameController:OnInventoryItemHoverOut(evt) return end
+function FullscreenVendorGameController:OnInventoryItemHoverOut(evt) end
 
----@protected
 ---@param evt ItemDisplayHoverOverEvent
 ---@return Bool
-function FullscreenVendorGameController:OnInventoryItemHoverOver(evt) return end
+function FullscreenVendorGameController:OnInventoryItemHoverOver(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function FullscreenVendorGameController:OnInventoryItemRemoved(value) return end
+function FullscreenVendorGameController:OnInventoryItemRemoved(value) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function FullscreenVendorGameController:OnItemPreviewPopup(data) return end
+function FullscreenVendorGameController:OnItemPreviewPopup(data) end
 
----@protected
 ---@param controller inkRadioGroupController
 ---@param selectedIndex Int32
 ---@return Bool
-function FullscreenVendorGameController:OnPlayerFilterChange(controller, selectedIndex) return end
+function FullscreenVendorGameController:OnPlayerFilterChange(controller, selectedIndex) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function FullscreenVendorGameController:OnPlayerSortingButtonClicked(evt) return end
+function FullscreenVendorGameController:OnPlayerSortingButtonClicked(evt) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function FullscreenVendorGameController:OnQuantityPickerPopupClosed(data) return end
+function FullscreenVendorGameController:OnQuantityPickerPopupClosed(data) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function FullscreenVendorGameController:OnSellJunkPopupClosed(data) return end
+function FullscreenVendorGameController:OnSellJunkPopupClosed(data) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function FullscreenVendorGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function FullscreenVendorGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function FullscreenVendorGameController:OnSetScreenDisplayContext(userData) return end
+function FullscreenVendorGameController:OnSetScreenDisplayContext(userData) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function FullscreenVendorGameController:OnSetUserData(userData) return end
+function FullscreenVendorGameController:OnSetUserData(userData) end
 
----@protected
 ---@param evt UIVendorItemsBoughtEvent
 ---@return Bool
-function FullscreenVendorGameController:OnUIVendorItemBoughtEvent(evt) return end
+function FullscreenVendorGameController:OnUIVendorItemBoughtEvent(evt) end
 
----@protected
 ---@param evt UIVendorItemsSoldEvent
 ---@return Bool
-function FullscreenVendorGameController:OnUIVendorItemSoldEvent(evt) return end
+function FullscreenVendorGameController:OnUIVendorItemSoldEvent(evt) end
 
----@protected
 ---@return Bool
-function FullscreenVendorGameController:OnUninitialize() return end
+function FullscreenVendorGameController:OnUninitialize() end
 
----@protected
 ---@param controller inkRadioGroupController
 ---@param selectedIndex Int32
 ---@return Bool
-function FullscreenVendorGameController:OnVendorFilterChange(controller, selectedIndex) return end
+function FullscreenVendorGameController:OnVendorFilterChange(controller, selectedIndex) end
 
----@protected
 ---@param evt VendorHubMenuChanged
 ---@return Bool
-function FullscreenVendorGameController:OnVendorHubMenuChanged(evt) return end
+function FullscreenVendorGameController:OnVendorHubMenuChanged(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function FullscreenVendorGameController:OnVendorSortingButtonClicked(evt) return end
+function FullscreenVendorGameController:OnVendorSortingButtonClicked(evt) end
 
----@private
 ---@param item UIInventoryItem
 ---@param quantity Int32
 ---@param buyback? Bool
 ---@return nil
-function FullscreenVendorGameController:BuyItem(item, quantity, buyback) return end
+function FullscreenVendorGameController:BuyItem(item, quantity, buyback) end
 
----@private
 ---@param items VendorGameItemData[]
 ---@return VendorGameItemData[]
-function FullscreenVendorGameController:FilterOutDuplicateVendorItems(items) return end
+function FullscreenVendorGameController:FilterOutDuplicateVendorItems(items) end
 
----@private
 ---@param itemsID gameItemID[]
 ---@return nil
-function FullscreenVendorGameController:FlagDLCAddedItemsAsInspected(itemsID) return end
+function FullscreenVendorGameController:FlagDLCAddedItemsAsInspected(itemsID) end
 
----@private
 ---@param items VendorJunkSellItem[]
 ---@return Float
-function FullscreenVendorGameController:GetBulkSellPrice(items) return end
+function FullscreenVendorGameController:GetBulkSellPrice(items) end
 
----@private
 ---@param items gameItemData[]
 ---@return Float
-function FullscreenVendorGameController:GetBulkSellPrice(items) return end
+function FullscreenVendorGameController:GetBulkSellPrice(items) end
 
----@private
 ---@param item UIInventoryItem
 ---@return gameItemComparisonState
-function FullscreenVendorGameController:GetComparisonState(item) return end
+function FullscreenVendorGameController:GetComparisonState(item) end
 
----@private
 ---@param items gameItemData[]
 ---@param moneyLimit Int32
 ---@return VendorJunkSellItem[]
-function FullscreenVendorGameController:GetLimitedSellableItems(items, moneyLimit) return end
+function FullscreenVendorGameController:GetLimitedSellableItems(items, moneyLimit) end
 
----@private
 ---@param item UIInventoryItem
 ---@param isPlayerItem? Bool
 ---@param isBuybackStack? Bool
 ---@return Int32
-function FullscreenVendorGameController:GetMaxQuantity(item, isPlayerItem, isBuybackStack) return end
+function FullscreenVendorGameController:GetMaxQuantity(item, isPlayerItem, isBuybackStack) end
 
----@private
 ---@param item gameItemData
 ---@param actionType QuantityPickerActionType
 ---@param quantity Int32
 ---@return Int32
-function FullscreenVendorGameController:GetPrice(item, actionType, quantity) return end
+function FullscreenVendorGameController:GetPrice(item, actionType, quantity) end
 
----@private
 ---@return gameItemData[]
-function FullscreenVendorGameController:GetSellableJunk() return end
+function FullscreenVendorGameController:GetSellableJunk() end
 
----@private
 ---@param evt ItemDisplayClickEvent
 ---@return nil
-function FullscreenVendorGameController:HandleStorageSlotInput(evt) return end
+function FullscreenVendorGameController:HandleStorageSlotInput(evt) end
 
----@private
 ---@param evt ItemDisplayClickEvent
 ---@return nil
-function FullscreenVendorGameController:HandleVendorSlotInput(evt) return end
+function FullscreenVendorGameController:HandleVendorSlotInput(evt) end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:Init() return end
+function FullscreenVendorGameController:Init() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:InitializeVirtualLists() return end
+function FullscreenVendorGameController:InitializeVirtualLists() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:InvalidateItemTooltipEvent() return end
+function FullscreenVendorGameController:InvalidateItemTooltipEvent() end
 
----@private
 ---@param itemID gameItemID
 ---@return Bool
-function FullscreenVendorGameController:IsBuyRequestInQueue(itemID) return end
+function FullscreenVendorGameController:IsBuyRequestInQueue(itemID) end
 
----@private
 ---@param itemID gameItemID
 ---@return Bool
-function FullscreenVendorGameController:IsSellRequestInQueue(itemID) return end
+function FullscreenVendorGameController:IsSellRequestInQueue(itemID) end
 
----@private
 ---@param item UIInventoryItem
 ---@return Bool
-function FullscreenVendorGameController:NotGrenadeOrHealingItem(item) return end
+function FullscreenVendorGameController:NotGrenadeOrHealingItem(item) end
 
----@private
 ---@param itemData UIInventoryItem
 ---@param quantity Int32
 ---@param actionType QuantityPickerActionType
 ---@param type? VendorConfirmationPopupType
 ---@return nil
-function FullscreenVendorGameController:OpenConfirmationPopup(itemData, quantity, actionType, type) return end
+function FullscreenVendorGameController:OpenConfirmationPopup(itemData, quantity, actionType, type) end
 
----@private
 ---@param itemData UIInventoryItem
 ---@param actionType QuantityPickerActionType
 ---@param isBuyback? Bool
 ---@param isPlayerItem? Bool
 ---@return nil
-function FullscreenVendorGameController:OpenQuantityPicker(itemData, actionType, isBuyback, isPlayerItem) return end
+function FullscreenVendorGameController:OpenQuantityPicker(itemData, actionType, isBuyback, isPlayerItem) end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:OpenSellJunkConfirmation() return end
+function FullscreenVendorGameController:OpenSellJunkConfirmation() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:PopulateInventories() return end
+function FullscreenVendorGameController:PopulateInventories() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:PopulatePlayerInventory() return end
+function FullscreenVendorGameController:PopulatePlayerInventory() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:PopulateVendorInventory() return end
+function FullscreenVendorGameController:PopulateVendorInventory() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:PrepareTooltips() return end
+function FullscreenVendorGameController:PrepareTooltips() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:ReleaseVirtualLists() return end
+function FullscreenVendorGameController:ReleaseVirtualLists() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:RemoveBB() return end
+function FullscreenVendorGameController:RemoveBB() end
 
----@private
 ---@param itemData gameItemData
 ---@param quantity Int32
 ---@return nil
-function FullscreenVendorGameController:SellItem(itemData, quantity) return end
+function FullscreenVendorGameController:SellItem(itemData, quantity) end
 
----@private
 ---@param root inkWidgetReference
 ---@param data Int32[]
 ---@param callback CName|string
 ---@return nil
-function FullscreenVendorGameController:SetFilters(root, data, callback) return end
+function FullscreenVendorGameController:SetFilters(root, data, callback) end
 
----@private
 ---@param enable Bool
 ---@return nil
-function FullscreenVendorGameController:SetTimeDilatation(enable) return end
+function FullscreenVendorGameController:SetTimeDilatation(enable) end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:SetupBB() return end
+function FullscreenVendorGameController:SetupBB() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:SetupDropdown() return end
+function FullscreenVendorGameController:SetupDropdown() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:ShowHideVendorStock() return end
+function FullscreenVendorGameController:ShowHideVendorStock() end
 
----@private
 ---@param widget inkWidget
 ---@param inspectedItem UIInventoryItem
 ---@param equippedItem UIInventoryItem
 ---@param isBuybackStack Bool
 ---@return nil
-function FullscreenVendorGameController:ShowTooltipForUIInventoryItem(widget, inspectedItem, equippedItem, isBuybackStack) return end
+function FullscreenVendorGameController:ShowTooltipForUIInventoryItem(widget, inspectedItem, equippedItem, isBuybackStack) end
 
----@private
 ---@param root inkWidgetReference
 ---@param data Int32
 ---@return nil
-function FullscreenVendorGameController:ToggleFilter(root, data) return end
+function FullscreenVendorGameController:ToggleFilter(root, data) end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:Update() return end
+function FullscreenVendorGameController:Update() end
 
----@private
 ---@param state Bool
 ---@return nil
-function FullscreenVendorGameController:UpdateFavouriteHint(state) return end
+function FullscreenVendorGameController:UpdateFavouriteHint(state) end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:UpdatePlayerMoney() return end
+function FullscreenVendorGameController:UpdatePlayerMoney() end
 
----@private
 ---@return nil
-function FullscreenVendorGameController:UpdateVendorMoney() return end
+function FullscreenVendorGameController:UpdateVendorMoney() end

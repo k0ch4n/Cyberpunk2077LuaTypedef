@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldStreamingBlock: CResource
----@field public descriptors worldStreamingSectorDescriptor[]
----@field public index worldStreamingBlockIndex
+---@field descriptors worldStreamingSectorDescriptor[]
+---@field index worldStreamingBlockIndex
 worldStreamingBlock = {}
 
 ---@param fields? worldStreamingBlock
 ---@return worldStreamingBlock
-function worldStreamingBlock.new(fields) return end
+function worldStreamingBlock.new(fields) end

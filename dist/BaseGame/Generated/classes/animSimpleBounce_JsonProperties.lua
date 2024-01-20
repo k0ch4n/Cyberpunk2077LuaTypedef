@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class animSimpleBounce_JsonProperties: ISerializable
----@field public multiplier Float
----@field public negativeMultiplier Float
----@field public smoothStep Float
----@field public offset Float
----@field public delay Float
----@field public startTransform animTransformIndex
----@field public endTransform animTransformIndex
----@field public transformOutputs animSimpleBounceTransformOutput[]
----@field public trackOutputs animSimpleBounceTrackOutput[]
----@field public outputDriverTrack animNamedTrackIndex
+---@field multiplier Float
+---@field negativeMultiplier Float
+---@field smoothStep Float
+---@field offset Float
+---@field delay Float
+---@field startTransform animTransformIndex
+---@field endTransform animTransformIndex
+---@field transformOutputs animSimpleBounceTransformOutput[]
+---@field trackOutputs animSimpleBounceTrackOutput[]
+---@field outputDriverTrack animNamedTrackIndex
 animSimpleBounce_JsonProperties = {}
 
 ---@param fields? animSimpleBounce_JsonProperties
 ---@return animSimpleBounce_JsonProperties
-function animSimpleBounce_JsonProperties.new(fields) return end
+function animSimpleBounce_JsonProperties.new(fields) end

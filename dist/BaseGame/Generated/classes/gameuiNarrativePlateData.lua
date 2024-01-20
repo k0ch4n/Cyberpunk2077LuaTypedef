@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiNarrativePlateData
----@field public text String
----@field public caption String
----@field public entity gameObject
+---@field text String
+---@field caption String
+---@field entity gameObject
 gameuiNarrativePlateData = {}
 
 ---@param fields? gameuiNarrativePlateData
 ---@return gameuiNarrativePlateData
-function gameuiNarrativePlateData.new(fields) return end
+function gameuiNarrativePlateData.new(fields) end

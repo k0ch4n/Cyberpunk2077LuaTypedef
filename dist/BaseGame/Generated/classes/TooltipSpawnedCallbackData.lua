@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TooltipSpawnedCallbackData: IScriptable
----@field public index Int32
----@field public identifier CName
----@field public tooltipStyle ETooltipsStyle
----@field public styleResRef redResourceReferenceScriptToken
+---@field index Int32
+---@field identifier CName
+---@field tooltipStyle ETooltipsStyle
+---@field styleResRef redResourceReferenceScriptToken
 TooltipSpawnedCallbackData = {}
 
 ---@param fields? TooltipSpawnedCallbackData
 ---@return TooltipSpawnedCallbackData
-function TooltipSpawnedCallbackData.new(fields) return end
+function TooltipSpawnedCallbackData.new(fields) end

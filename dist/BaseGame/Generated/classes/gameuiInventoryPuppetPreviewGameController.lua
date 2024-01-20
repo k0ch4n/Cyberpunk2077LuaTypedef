@@ -1,47 +1,40 @@
 ---@meta
 
 ---@class gameuiInventoryPuppetPreviewGameController: gameuiPuppetPreviewGameController
----@field public sceneName CName
----@field public cameraRef NodeRef
----@field private collider inkWidgetReference
----@field private rotationIsMouseDown Bool
----@field protected maxMousePointerOffset Float
----@field protected mouseRotationSpeed Float
+---@field sceneName CName
+---@field cameraRef NodeRef
+---@field collider inkWidgetReference
+---@field rotationIsMouseDown Bool
+---@field maxMousePointerOffset Float
+---@field mouseRotationSpeed Float
 gameuiInventoryPuppetPreviewGameController = {}
 
 ---@param fields? gameuiInventoryPuppetPreviewGameController
 ---@return gameuiInventoryPuppetPreviewGameController
-function gameuiInventoryPuppetPreviewGameController.new(fields) return end
+function gameuiInventoryPuppetPreviewGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiInventoryPuppetPreviewGameController:OnGlobalRelease(e) return end
+function gameuiInventoryPuppetPreviewGameController:OnGlobalRelease(e) end
 
----@protected
 ---@return Bool
-function gameuiInventoryPuppetPreviewGameController:OnInitialize() return end
+function gameuiInventoryPuppetPreviewGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiInventoryPuppetPreviewGameController:OnMouseDown(e) return end
+function gameuiInventoryPuppetPreviewGameController:OnMouseDown(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiInventoryPuppetPreviewGameController:OnRelativeInput(e) return end
+function gameuiInventoryPuppetPreviewGameController:OnRelativeInput(e) end
 
----@protected
 ---@param index Uint32
 ---@param slotName CName|string
 ---@return Bool
-function gameuiInventoryPuppetPreviewGameController:OnSetCameraSetupEvent(index, slotName) return end
+function gameuiInventoryPuppetPreviewGameController:OnSetCameraSetupEvent(index, slotName) end
 
----@protected
 ---@return Bool
-function gameuiInventoryPuppetPreviewGameController:OnUninitialize() return end
+function gameuiInventoryPuppetPreviewGameController:OnUninitialize() end
 
----@private
 ---@return nil, AnimFeature_Paperdoll animFeature
-function gameuiInventoryPuppetPreviewGameController:GetAnimFeature() return end
+function gameuiInventoryPuppetPreviewGameController:GetAnimFeature() end

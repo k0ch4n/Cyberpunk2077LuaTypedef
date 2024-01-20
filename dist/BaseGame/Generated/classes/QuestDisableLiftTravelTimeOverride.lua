@@ -5,8 +5,8 @@ QuestDisableLiftTravelTimeOverride = {}
 
 ---@param fields? QuestDisableLiftTravelTimeOverride
 ---@return QuestDisableLiftTravelTimeOverride
-function QuestDisableLiftTravelTimeOverride.new(fields) return end
+function QuestDisableLiftTravelTimeOverride.new(fields) end
 
 ---@param toggle Bool
 ---@return nil
-function QuestDisableLiftTravelTimeOverride:SetProperties(toggle) return end
+function QuestDisableLiftTravelTimeOverride:SetProperties(toggle) end

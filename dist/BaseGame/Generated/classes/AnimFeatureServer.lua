@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AnimFeatureServer: animAnimFeature
----@field public coverState Int32
----@field public serverState Int32
+---@field coverState Int32
+---@field serverState Int32
 AnimFeatureServer = {}
 
 ---@param fields? AnimFeatureServer
 ---@return AnimFeatureServer
-function AnimFeatureServer.new(fields) return end
+function AnimFeatureServer.new(fields) end

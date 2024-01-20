@@ -5,4 +5,4 @@ RequestSmsMessagerCloseEvent = {}
 
 ---@param fields? RequestSmsMessagerCloseEvent
 ---@return RequestSmsMessagerCloseEvent
-function RequestSmsMessagerCloseEvent.new(fields) return end
+function RequestSmsMessagerCloseEvent.new(fields) end

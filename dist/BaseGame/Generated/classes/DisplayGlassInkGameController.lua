@@ -5,18 +5,17 @@ DisplayGlassInkGameController = {}
 
 ---@param fields? DisplayGlassInkGameController
 ---@return DisplayGlassInkGameController
-function DisplayGlassInkGameController.new(fields) return end
+function DisplayGlassInkGameController.new(fields) end
 
----@protected
 ---@return DisplayGlass
-function DisplayGlassInkGameController:GetOwner() return end
+function DisplayGlassInkGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function DisplayGlassInkGameController:Refresh(state) return end
+function DisplayGlassInkGameController:Refresh(state) end
 
 ---@return nil
-function DisplayGlassInkGameController:TurnOff() return end
+function DisplayGlassInkGameController:TurnOff() end
 
 ---@return nil
-function DisplayGlassInkGameController:TurnOn() return end
+function DisplayGlassInkGameController:TurnOn() end

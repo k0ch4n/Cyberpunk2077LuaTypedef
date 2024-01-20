@@ -1,55 +1,48 @@
 ---@meta
 
 ---@class CustomAnimationsGameController: gameuiWidgetGameController
----@field protected customAnimations WidgetAnimationManager
----@field protected onSpawnAnimations CName[]
----@field protected defaultLibraryItemName CName
----@field protected defaultLibraryItemAnchor inkEAnchor
----@field protected spawnedLibrararyItem inkWidget
----@field protected curentLibraryItemName CName
----@field protected currentLibraryItemAnchor inkEAnchor
----@field protected root inkCompoundWidget
----@field protected isInitialized Bool
----@field private ownerID entEntityID
+---@field customAnimations WidgetAnimationManager
+---@field onSpawnAnimations CName[]
+---@field defaultLibraryItemName CName
+---@field defaultLibraryItemAnchor inkEAnchor
+---@field spawnedLibrararyItem inkWidget
+---@field curentLibraryItemName CName
+---@field currentLibraryItemAnchor inkEAnchor
+---@field root inkCompoundWidget
+---@field isInitialized Bool
+---@field ownerID entEntityID
 CustomAnimationsGameController = {}
 
 ---@param fields? CustomAnimationsGameController
 ---@return CustomAnimationsGameController
-function CustomAnimationsGameController.new(fields) return end
+function CustomAnimationsGameController.new(fields) end
 
----@protected
 ---@param evt CustomUIAnimationEvent
 ---@return Bool
-function CustomAnimationsGameController:OnCustomUIAnimationEvent(evt) return end
+function CustomAnimationsGameController:OnCustomUIAnimationEvent(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CustomAnimationsGameController:OnInitialSpawnLibrararyItem(widget, userData) return end
+function CustomAnimationsGameController:OnInitialSpawnLibrararyItem(widget, userData) end
 
----@protected
 ---@return Bool
-function CustomAnimationsGameController:OnInitialize() return end
+function CustomAnimationsGameController:OnInitialize() end
 
----@private
 ---@return nil
-function CustomAnimationsGameController:InitalizeAnimationsData() return end
+function CustomAnimationsGameController:InitalizeAnimationsData() end
 
----@protected
 ---@param animationName CName|string
 ---@param playbackOption EInkAnimationPlaybackOption
 ---@return nil
-function CustomAnimationsGameController:PlayAnimation(animationName, playbackOption) return end
+function CustomAnimationsGameController:PlayAnimation(animationName, playbackOption) end
 
----@private
 ---@return nil
-function CustomAnimationsGameController:PlayOnSpawnAnimations() return end
+function CustomAnimationsGameController:PlayOnSpawnAnimations() end
 
----@private
 ---@param itemName CName|string
 ---@param anchor inkEAnchor
 ---@param async? Bool
 ---@param forceRespawnLibraryItem? Bool
 ---@return Bool
-function CustomAnimationsGameController:ResolveLibraryItemSpawn(itemName, anchor, async, forceRespawnLibraryItem) return end
+function CustomAnimationsGameController:ResolveLibraryItemSpawn(itemName, anchor, async, forceRespawnLibraryItem) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class AnimationLogicController: inkWidgetLogicController
----@field private imageView inkImageWidgetReference
+---@field imageView inkImageWidgetReference
 AnimationLogicController = {}
 
 ---@param fields? AnimationLogicController
 ---@return AnimationLogicController
-function AnimationLogicController.new(fields) return end
+function AnimationLogicController.new(fields) end
 
----@protected
 ---@param state String
 ---@return Bool
-function AnimationLogicController:OnChangeState(state) return end
+function AnimationLogicController:OnChangeState(state) end

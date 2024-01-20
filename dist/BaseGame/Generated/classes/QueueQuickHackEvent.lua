@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class QueueQuickHackEvent: redEvent
----@field public mappinID gameNewMappinID
----@field public data GameplayRoleMappinData
+---@field mappinID gameNewMappinID
+---@field data GameplayRoleMappinData
 QueueQuickHackEvent = {}
 
 ---@param fields? QueueQuickHackEvent
 ---@return QueueQuickHackEvent
-function QueueQuickHackEvent.new(fields) return end
+function QueueQuickHackEvent.new(fields) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class PuppetDef: gamebbScriptDefinition
----@field public IsCrowd gamebbScriptID_Bool
----@field public HideNameplate gamebbScriptID_Bool
----@field public ForceFriendlyCarry gamebbScriptID_Bool
----@field public ForcedCarryStyle gamebbScriptID_Int32
----@field public HasCPOMissionData gamebbScriptID_Bool
----@field public IsPlayerInterestingFromSecuritySystemPOV gamebbScriptID_Bool
+---@field IsCrowd gamebbScriptID_Bool
+---@field HideNameplate gamebbScriptID_Bool
+---@field ForceFriendlyCarry gamebbScriptID_Bool
+---@field ForcedCarryStyle gamebbScriptID_Int32
+---@field HasCPOMissionData gamebbScriptID_Bool
+---@field IsPlayerInterestingFromSecuritySystemPOV gamebbScriptID_Bool
 PuppetDef = {}
 
 ---@param fields? PuppetDef
 ---@return PuppetDef
-function PuppetDef.new(fields) return end
+function PuppetDef.new(fields) end
 
 ---@return Bool
-function PuppetDef:AutoCreateInSystem() return end
+function PuppetDef:AutoCreateInSystem() end

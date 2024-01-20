@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTrafficGlobalPathPosition: ISerializable
----@field public worldPosition Vector3
----@field public pathIdx Uint32
+---@field worldPosition Vector3
+---@field pathIdx Uint32
 worldTrafficGlobalPathPosition = {}
 
 ---@param fields? worldTrafficGlobalPathPosition
 ---@return worldTrafficGlobalPathPosition
-function worldTrafficGlobalPathPosition.new(fields) return end
+function worldTrafficGlobalPathPosition.new(fields) end

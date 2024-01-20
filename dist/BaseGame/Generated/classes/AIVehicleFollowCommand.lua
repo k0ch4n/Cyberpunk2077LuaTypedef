@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AIVehicleFollowCommand: AIVehicleCommand
----@field public target gameObject
----@field public secureTimeOut Float
----@field public distanceMin Float
----@field public distanceMax Float
----@field public stopWhenTargetReached Bool
----@field public useTraffic Bool
----@field public trafficTryNeighborsForStart Bool
----@field public trafficTryNeighborsForEnd Bool
+---@field target gameObject
+---@field secureTimeOut Float
+---@field distanceMin Float
+---@field distanceMax Float
+---@field stopWhenTargetReached Bool
+---@field useTraffic Bool
+---@field trafficTryNeighborsForStart Bool
+---@field trafficTryNeighborsForEnd Bool
 AIVehicleFollowCommand = {}
 
 ---@param fields? AIVehicleFollowCommand
 ---@return AIVehicleFollowCommand
-function AIVehicleFollowCommand.new(fields) return end
+function AIVehicleFollowCommand.new(fields) end

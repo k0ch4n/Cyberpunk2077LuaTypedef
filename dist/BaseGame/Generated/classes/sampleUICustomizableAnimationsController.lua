@@ -1,86 +1,82 @@
 ---@meta
 
 ---@class sampleUICustomizableAnimationsController: inkWidgetLogicController
----@field public imagePath CName
----@field public interpolationType inkanimInterpolationType
----@field public interpolationMode inkanimInterpolationMode
----@field public delayTime Float
----@field private rotation_anim inkanimDefinition
----@field private size_anim inkanimDefinition
----@field private color_anim inkanimDefinition
----@field private alpha_anim inkanimDefinition
----@field private position_anim inkanimDefinition
----@field private imageWidget inkWidget
----@field private animProxy inkanimProxy
----@field private CanRotate Bool
----@field private CanResize Bool
----@field private CanChangeColor Bool
----@field private CanChangeAlpha Bool
----@field private CanMove Bool
----@field private defaultSize Vector2
----@field private defaultMargin inkMargin
----@field private defaultRotation Float
----@field private defaultColor HDRColor
----@field private defaultAlpha Float
----@field private isHighlighted Bool
----@field private currentTarget inkWidget
----@field private currentAnimProxy inkanimProxy
+---@field imagePath CName
+---@field interpolationType inkanimInterpolationType
+---@field interpolationMode inkanimInterpolationMode
+---@field delayTime Float
+---@field rotation_anim inkanimDefinition
+---@field size_anim inkanimDefinition
+---@field color_anim inkanimDefinition
+---@field alpha_anim inkanimDefinition
+---@field position_anim inkanimDefinition
+---@field imageWidget inkWidget
+---@field animProxy inkanimProxy
+---@field CanRotate Bool
+---@field CanResize Bool
+---@field CanChangeColor Bool
+---@field CanChangeAlpha Bool
+---@field CanMove Bool
+---@field defaultSize Vector2
+---@field defaultMargin inkMargin
+---@field defaultRotation Float
+---@field defaultColor HDRColor
+---@field defaultAlpha Float
+---@field isHighlighted Bool
+---@field currentTarget inkWidget
+---@field currentAnimProxy inkanimProxy
 sampleUICustomizableAnimationsController = {}
 
 ---@param fields? sampleUICustomizableAnimationsController
 ---@return sampleUICustomizableAnimationsController
-function sampleUICustomizableAnimationsController.new(fields) return end
+function sampleUICustomizableAnimationsController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUICustomizableAnimationsController:OnInitialize() return end
+function sampleUICustomizableAnimationsController:OnInitialize() end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:EndHiglight(e) return end
+function sampleUICustomizableAnimationsController:EndHiglight(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:Higlight(e) return end
+function sampleUICustomizableAnimationsController:Higlight(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:PlayAnimation(e) return end
+function sampleUICustomizableAnimationsController:PlayAnimation(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:Reset(e) return end
+function sampleUICustomizableAnimationsController:Reset(e) end
 
----@private
 ---@return nil
-function sampleUICustomizableAnimationsController:SaveDefaults() return end
+function sampleUICustomizableAnimationsController:SaveDefaults() end
 
----@private
 ---@param buttonName CName|string
 ---@param status Bool
 ---@return nil
-function sampleUICustomizableAnimationsController:SetText(buttonName, status) return end
+function sampleUICustomizableAnimationsController:SetText(buttonName, status) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:ToggleAlphaAnim(e) return end
+function sampleUICustomizableAnimationsController:ToggleAlphaAnim(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:ToggleColorAnim(e) return end
+function sampleUICustomizableAnimationsController:ToggleColorAnim(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:TogglePositionAnim(e) return end
+function sampleUICustomizableAnimationsController:TogglePositionAnim(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:ToggleRotationAnim(e) return end
+function sampleUICustomizableAnimationsController:ToggleRotationAnim(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUICustomizableAnimationsController:ToggleSizeAnim(e) return end
+function sampleUICustomizableAnimationsController:ToggleSizeAnim(e) end
 
----@private
 ---@return nil
-function sampleUICustomizableAnimationsController:UpdateDefinitions() return end
+function sampleUICustomizableAnimationsController:UpdateDefinitions() end

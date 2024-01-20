@@ -5,4 +5,4 @@ TakedownPSMPrereqState = {}
 
 ---@param fields? TakedownPSMPrereqState
 ---@return TakedownPSMPrereqState
-function TakedownPSMPrereqState.new(fields) return end
+function TakedownPSMPrereqState.new(fields) end

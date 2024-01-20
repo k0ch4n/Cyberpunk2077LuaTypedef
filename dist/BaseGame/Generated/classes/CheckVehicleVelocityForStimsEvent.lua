@@ -5,4 +5,4 @@ CheckVehicleVelocityForStimsEvent = {}
 
 ---@param fields? CheckVehicleVelocityForStimsEvent
 ---@return CheckVehicleVelocityForStimsEvent
-function CheckVehicleVelocityForStimsEvent.new(fields) return end
+function CheckVehicleVelocityForStimsEvent.new(fields) end

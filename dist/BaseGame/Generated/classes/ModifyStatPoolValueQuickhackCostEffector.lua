@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class ModifyStatPoolValueQuickhackCostEffector: HitEventEffector
----@field public statPoolValue Float
----@field public statPoolType gamedataStatPoolType
----@field public recoverMemoryAmount Float
----@field public skipLastCombatHack Bool
+---@field statPoolValue Float
+---@field statPoolType gamedataStatPoolType
+---@field recoverMemoryAmount Float
+---@field skipLastCombatHack Bool
 ModifyStatPoolValueQuickhackCostEffector = {}
 
 ---@param fields? ModifyStatPoolValueQuickhackCostEffector
 ---@return ModifyStatPoolValueQuickhackCostEffector
-function ModifyStatPoolValueQuickhackCostEffector.new(fields) return end
+function ModifyStatPoolValueQuickhackCostEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolValueQuickhackCostEffector:ActionOn(owner) return end
+function ModifyStatPoolValueQuickhackCostEffector:ActionOn(owner) end
 
----@private
 ---@param target gameObject
 ---@return ScriptableDeviceAction[]
-function ModifyStatPoolValueQuickhackCostEffector:GetActiveQuickhackActionHistory(target) return end
+function ModifyStatPoolValueQuickhackCostEffector:GetActiveQuickhackActionHistory(target) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyStatPoolValueQuickhackCostEffector:Initialize(record, parentRecord) return end
+function ModifyStatPoolValueQuickhackCostEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolValueQuickhackCostEffector:ProcessEffector(owner) return end
+function ModifyStatPoolValueQuickhackCostEffector:ProcessEffector(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolValueQuickhackCostEffector:RepeatedAction(owner) return end
+function ModifyStatPoolValueQuickhackCostEffector:RepeatedAction(owner) end

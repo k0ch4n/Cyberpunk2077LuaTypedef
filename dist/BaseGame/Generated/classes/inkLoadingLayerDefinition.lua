@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkLoadingLayerDefinition: inkLayerDefinition
----@field public splashLoadingScreenResource inkWidgetLibraryResource
----@field public initialLoadingScreenResource inkWidgetLibraryResource
----@field public fastTravelLoadingScreenResource inkWidgetLibraryResource
----@field public fallbackLoadingScreenResource inkWidgetLibraryResource
+---@field splashLoadingScreenResource inkWidgetLibraryResource
+---@field initialLoadingScreenResource inkWidgetLibraryResource
+---@field fastTravelLoadingScreenResource inkWidgetLibraryResource
+---@field fallbackLoadingScreenResource inkWidgetLibraryResource
 inkLoadingLayerDefinition = {}
 
 ---@param fields? inkLoadingLayerDefinition
 ---@return inkLoadingLayerDefinition
-function inkLoadingLayerDefinition.new(fields) return end
+function inkLoadingLayerDefinition.new(fields) end

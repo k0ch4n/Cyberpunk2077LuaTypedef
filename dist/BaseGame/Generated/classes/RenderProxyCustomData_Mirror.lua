@@ -5,4 +5,4 @@ RenderProxyCustomData_Mirror = {}
 
 ---@param fields? RenderProxyCustomData_Mirror
 ---@return RenderProxyCustomData_Mirror
-function RenderProxyCustomData_Mirror.new(fields) return end
+function RenderProxyCustomData_Mirror.new(fields) end

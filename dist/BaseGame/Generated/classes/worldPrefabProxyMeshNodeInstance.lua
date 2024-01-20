@@ -5,4 +5,4 @@ worldPrefabProxyMeshNodeInstance = {}
 
 ---@param fields? worldPrefabProxyMeshNodeInstance
 ---@return worldPrefabProxyMeshNodeInstance
-function worldPrefabProxyMeshNodeInstance.new(fields) return end
+function worldPrefabProxyMeshNodeInstance.new(fields) end

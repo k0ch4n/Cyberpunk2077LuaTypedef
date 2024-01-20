@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiPersonalLinkSwitcherEvent: redEvent
----@field public isAdvanced Bool
+---@field isAdvanced Bool
 gameuiPersonalLinkSwitcherEvent = {}
 
 ---@param fields? gameuiPersonalLinkSwitcherEvent
 ---@return gameuiPersonalLinkSwitcherEvent
-function gameuiPersonalLinkSwitcherEvent.new(fields) return end
+function gameuiPersonalLinkSwitcherEvent.new(fields) end

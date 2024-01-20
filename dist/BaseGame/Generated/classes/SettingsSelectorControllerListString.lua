@@ -5,17 +5,16 @@ SettingsSelectorControllerListString = {}
 
 ---@param fields? SettingsSelectorControllerListString
 ---@return SettingsSelectorControllerListString
-function SettingsSelectorControllerListString.new(fields) return end
+function SettingsSelectorControllerListString.new(fields) end
 
----@private
 ---@param forward Bool
 ---@return nil
-function SettingsSelectorControllerListString:ChangeValue(forward) return end
+function SettingsSelectorControllerListString:ChangeValue(forward) end
 
 ---@return nil
-function SettingsSelectorControllerListString:Refresh() return end
+function SettingsSelectorControllerListString:Refresh() end
 
 ---@param entry userSettingsVar
 ---@param isPreGame Bool
 ---@return nil
-function SettingsSelectorControllerListString:Setup(entry, isPreGame) return end
+function SettingsSelectorControllerListString:Setup(entry, isPreGame) end

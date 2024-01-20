@@ -5,4 +5,4 @@ CRenderLightVolumeAllocator = {}
 
 ---@param fields? CRenderLightVolumeAllocator
 ---@return CRenderLightVolumeAllocator
-function CRenderLightVolumeAllocator.new(fields) return end
+function CRenderLightVolumeAllocator.new(fields) end

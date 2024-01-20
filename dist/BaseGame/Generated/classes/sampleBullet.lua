@@ -1,62 +1,52 @@
 ---@meta
 
 ---@class sampleBullet: BaseProjectile
----@field private meshComponent entIComponent
----@field private countTime Float
----@field private startVelocity Float
----@field private lifetime Float
----@field private BulletCollisionEvaluator BulletCollisionEvaluator
----@field private alive Bool
+---@field meshComponent entIComponent
+---@field countTime Float
+---@field startVelocity Float
+---@field lifetime Float
+---@field BulletCollisionEvaluator BulletCollisionEvaluator
+---@field alive Bool
 sampleBullet = {}
 
 ---@param fields? sampleBullet
 ---@return sampleBullet
-function sampleBullet.new(fields) return end
+function sampleBullet.new(fields) end
 
----@protected
 ---@param projectileHitEvent gameprojectileHitEvent
 ---@return Bool
-function sampleBullet:OnCollision(projectileHitEvent) return end
+function sampleBullet:OnCollision(projectileHitEvent) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function sampleBullet:OnProjectileInitialize(eventData) return end
+function sampleBullet:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function sampleBullet:OnRequestComponents(ri) return end
+function sampleBullet:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function sampleBullet:OnShoot(eventData) return end
+function sampleBullet:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function sampleBullet:OnShootTarget(eventData) return end
+function sampleBullet:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function sampleBullet:OnTakeControl(ri) return end
+function sampleBullet:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function sampleBullet:OnTick(eventData) return end
+function sampleBullet:OnTick(eventData) end
 
----@private
 ---@param eventData gameprojectileHitEvent
 ---@return nil
-function sampleBullet:DealDamage(eventData) return end
+function sampleBullet:DealDamage(eventData) end
 
----@private
 ---@return nil
-function sampleBullet:Reset() return end
+function sampleBullet:Reset() end
 
----@private
 ---@return nil
-function sampleBullet:StartTrailEffect() return end
+function sampleBullet:StartTrailEffect() end

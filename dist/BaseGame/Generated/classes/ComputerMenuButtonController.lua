@@ -1,28 +1,26 @@
 ---@meta
 
 ---@class ComputerMenuButtonController: DeviceButtonLogicControllerBase
----@field protected counterWidget inkTextWidgetReference
----@field protected notificationidget inkWidgetReference
----@field private menuID String
+---@field counterWidget inkTextWidgetReference
+---@field notificationidget inkWidgetReference
+---@field menuID String
 ComputerMenuButtonController = {}
 
 ---@param fields? ComputerMenuButtonController
 ---@return ComputerMenuButtonController
-function ComputerMenuButtonController.new(fields) return end
+function ComputerMenuButtonController.new(fields) end
 
----@protected
 ---@return Bool
-function ComputerMenuButtonController:OnInitialize() return end
+function ComputerMenuButtonController:OnInitialize() end
 
 ---@return String
-function ComputerMenuButtonController:GetMenuID() return end
+function ComputerMenuButtonController:GetMenuID() end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetData SComputerMenuButtonWidgetPackage
 ---@return nil
-function ComputerMenuButtonController:Initialize(gameController, widgetData) return end
+function ComputerMenuButtonController:Initialize(gameController, widgetData) end
 
----@protected
 ---@param gameController ComputerInkGameController
 ---@return nil
-function ComputerMenuButtonController:RegisterMenuCallback(gameController) return end
+function ComputerMenuButtonController:RegisterMenuCallback(gameController) end

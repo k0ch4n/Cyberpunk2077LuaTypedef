@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scneventsVFXBraindanceEvent: scnSceneEvent
----@field public performerId scnPerformerId
----@field public nodeRef NodeRef
----@field public effectEntry scnEffectEntry
----@field public sequenceShift Uint32
----@field public glitchEffectEntry scnEffectEntry
----@field public glitchSequenceShift Uint32
----@field public fullyRewindable Bool
+---@field performerId scnPerformerId
+---@field nodeRef NodeRef
+---@field effectEntry scnEffectEntry
+---@field sequenceShift Uint32
+---@field glitchEffectEntry scnEffectEntry
+---@field glitchSequenceShift Uint32
+---@field fullyRewindable Bool
 scneventsVFXBraindanceEvent = {}
 
 ---@param fields? scneventsVFXBraindanceEvent
 ---@return scneventsVFXBraindanceEvent
-function scneventsVFXBraindanceEvent.new(fields) return end
+function scneventsVFXBraindanceEvent.new(fields) end

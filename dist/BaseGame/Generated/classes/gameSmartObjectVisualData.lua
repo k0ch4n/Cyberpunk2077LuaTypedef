@@ -5,4 +5,4 @@ gameSmartObjectVisualData = {}
 
 ---@param fields? gameSmartObjectVisualData
 ---@return gameSmartObjectVisualData
-function gameSmartObjectVisualData.new(fields) return end
+function gameSmartObjectVisualData.new(fields) end

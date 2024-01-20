@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class animAnimNode_StateMachine: animAnimNode_Base
----@field public states animAnimNode_State[]
----@field public frozenState animAnimNode_StateFrozen
----@field public transitions animAnimStateTransitionDescription[]
----@field public conditionalEntries animAnimStateMachineConditionalEntry[]
----@field public globalTransitions animAnimStateTransitionDescription[]
----@field public anyStateInterpolator animIAnimStateTransitionInterpolator
----@field public defaultStateIndex Uint32
----@field public notifyOnEnterState Bool
+---@field states animAnimNode_State[]
+---@field frozenState animAnimNode_StateFrozen
+---@field transitions animAnimStateTransitionDescription[]
+---@field conditionalEntries animAnimStateMachineConditionalEntry[]
+---@field globalTransitions animAnimStateTransitionDescription[]
+---@field anyStateInterpolator animIAnimStateTransitionInterpolator
+---@field defaultStateIndex Uint32
+---@field notifyOnEnterState Bool
 animAnimNode_StateMachine = {}
 
 ---@param fields? animAnimNode_StateMachine
 ---@return animAnimNode_StateMachine
-function animAnimNode_StateMachine.new(fields) return end
+function animAnimNode_StateMachine.new(fields) end

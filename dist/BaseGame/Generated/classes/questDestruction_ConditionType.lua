@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questDestruction_ConditionType: questIObjectConditionType
----@field public objectRef gameEntityReference
----@field public threshold Float
+---@field objectRef gameEntityReference
+---@field threshold Float
 questDestruction_ConditionType = {}
 
 ---@param fields? questDestruction_ConditionType
 ---@return questDestruction_ConditionType
-function questDestruction_ConditionType.new(fields) return end
+function questDestruction_ConditionType.new(fields) end

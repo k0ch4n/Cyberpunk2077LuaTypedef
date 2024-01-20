@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldOffMeshConnectionNode: worldSplineNode
----@field public isBidirectional Bool
----@field public radius Float
----@field public type worldOffMeshConnectionType
----@field public tags CName[]
+---@field isBidirectional Bool
+---@field radius Float
+---@field type worldOffMeshConnectionType
+---@field tags CName[]
 worldOffMeshConnectionNode = {}
 
 ---@param fields? worldOffMeshConnectionNode
 ---@return worldOffMeshConnectionNode
-function worldOffMeshConnectionNode.new(fields) return end
+function worldOffMeshConnectionNode.new(fields) end

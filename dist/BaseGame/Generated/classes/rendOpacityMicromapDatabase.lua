@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendOpacityMicromapDatabase
----@field public ommChunks rendOpacityMicromapChunk[]
----@field public dataBuffer Uint8[]
+---@field ommChunks rendOpacityMicromapChunk[]
+---@field dataBuffer Uint8[]
 rendOpacityMicromapDatabase = {}
 
 ---@param fields? rendOpacityMicromapDatabase
 ---@return rendOpacityMicromapDatabase
-function rendOpacityMicromapDatabase.new(fields) return end
+function rendOpacityMicromapDatabase.new(fields) end

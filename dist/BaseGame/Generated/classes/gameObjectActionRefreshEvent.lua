@@ -5,4 +5,4 @@ gameObjectActionRefreshEvent = {}
 
 ---@param fields? gameObjectActionRefreshEvent
 ---@return gameObjectActionRefreshEvent
-function gameObjectActionRefreshEvent.new(fields) return end
+function gameObjectActionRefreshEvent.new(fields) end

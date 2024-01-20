@@ -5,4 +5,4 @@ QuestFluffShardLinkController = {}
 
 ---@param fields? QuestFluffShardLinkController
 ---@return QuestFluffShardLinkController
-function QuestFluffShardLinkController.new(fields) return end
+function QuestFluffShardLinkController.new(fields) end

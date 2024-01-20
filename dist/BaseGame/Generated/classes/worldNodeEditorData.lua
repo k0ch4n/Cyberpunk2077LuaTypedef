@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class worldNodeEditorData: ISerializable
----@field public id Uint64
----@field public name CName
----@field public globalName String
----@field public alternativeGlobalName String
----@field public isGlobalNameLocked Bool
----@field public isAlternativeGlobalNameLocked Bool
----@field public isDestructibleNode Bool
----@field public shouldSkipStreamingInEditor Bool
----@field public excludeOnConsole Bool
----@field public excludeOnNextGenConsoles Bool
----@field public proxyMeshDependency worldProxyMeshDependencyMode
----@field public transform worldNodeTransform
----@field public pivotTransform Transform
----@field public variantId Uint32
----@field public questPrefabRefHash Uint64
----@field public isInterior Bool
----@field public isDiscarded Bool
----@field public isSnapTarget Bool
----@field public isSnapSource Bool
----@field public maxStreamingDistance Float
----@field public initialGlobalNameHash String
+---@field id Uint64
+---@field name CName
+---@field globalName String
+---@field alternativeGlobalName String
+---@field isGlobalNameLocked Bool
+---@field isAlternativeGlobalNameLocked Bool
+---@field isDestructibleNode Bool
+---@field shouldSkipStreamingInEditor Bool
+---@field excludeOnConsole Bool
+---@field excludeOnNextGenConsoles Bool
+---@field proxyMeshDependency worldProxyMeshDependencyMode
+---@field transform worldNodeTransform
+---@field pivotTransform Transform
+---@field variantId Uint32
+---@field questPrefabRefHash Uint64
+---@field isInterior Bool
+---@field isDiscarded Bool
+---@field isSnapTarget Bool
+---@field isSnapSource Bool
+---@field maxStreamingDistance Float
+---@field initialGlobalNameHash String
 worldNodeEditorData = {}
 
 ---@param fields? worldNodeEditorData
 ---@return worldNodeEditorData
-function worldNodeEditorData.new(fields) return end
+function worldNodeEditorData.new(fields) end

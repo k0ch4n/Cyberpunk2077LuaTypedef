@@ -5,4 +5,4 @@ AISquadNPCMember = {}
 
 ---@param fields? AISquadNPCMember
 ---@return AISquadNPCMember
-function AISquadNPCMember.new(fields) return end
+function AISquadNPCMember.new(fields) end

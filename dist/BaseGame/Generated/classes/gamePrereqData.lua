@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamePrereqData
----@field public bAndValues Bool
----@field public prereqList gamePrereqCheckData[]
+---@field bAndValues Bool
+---@field prereqList gamePrereqCheckData[]
 gamePrereqData = {}
 
 ---@param fields? gamePrereqData
 ---@return gamePrereqData
-function gamePrereqData.new(fields) return end
+function gamePrereqData.new(fields) end

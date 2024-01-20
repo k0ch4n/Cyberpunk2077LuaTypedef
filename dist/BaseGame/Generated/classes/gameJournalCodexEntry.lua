@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class gameJournalCodexEntry: gameJournalContainerEntry
----@field public title LocalizationString
----@field public imageId TweakDBID
----@field public linkImageId TweakDBID
+---@field title LocalizationString
+---@field imageId TweakDBID
+---@field linkImageId TweakDBID
 gameJournalCodexEntry = {}
 
 ---@param fields? gameJournalCodexEntry
 ---@return gameJournalCodexEntry
-function gameJournalCodexEntry.new(fields) return end
+function gameJournalCodexEntry.new(fields) end
 
 ---@return TweakDBID
-function gameJournalCodexEntry:GetImageID() return end
+function gameJournalCodexEntry:GetImageID() end
 
 ---@return TweakDBID
-function gameJournalCodexEntry:GetLinkImageID() return end
+function gameJournalCodexEntry:GetLinkImageID() end
 
 ---@return String
-function gameJournalCodexEntry:GetTitle() return end
+function gameJournalCodexEntry:GetTitle() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questSceneLocation
----@field public sceneWorldMarkerTag CName
+---@field sceneWorldMarkerTag CName
 questSceneLocation = {}
 
 ---@param fields? questSceneLocation
 ---@return questSceneLocation
-function questSceneLocation.new(fields) return end
+function questSceneLocation.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameStatData
----@field public modifiers gameStatModifierHandle[]
----@field public statType gamedataStatType
+---@field modifiers gameStatModifierHandle[]
+---@field statType gamedataStatType
 gameStatData = {}
 
 ---@param fields? gameStatData
 ---@return gameStatData
-function gameStatData.new(fields) return end
+function gameStatData.new(fields) end

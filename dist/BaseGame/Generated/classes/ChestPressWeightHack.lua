@@ -5,22 +5,22 @@ ChestPressWeightHack = {}
 
 ---@param fields? ChestPressWeightHack
 ---@return ChestPressWeightHack
-function ChestPressWeightHack.new(fields) return end
+function ChestPressWeightHack.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ChestPressWeightHack.IsAvailable(device) return end
+function ChestPressWeightHack.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function ChestPressWeightHack.IsClearanceValid(clearance) return end
+function ChestPressWeightHack.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function ChestPressWeightHack.IsContextValid(context) return end
+function ChestPressWeightHack.IsContextValid(context) end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function ChestPressWeightHack:GetInteractionIcon() return end
+function ChestPressWeightHack:GetInteractionIcon() end
 
 ---@return nil
-function ChestPressWeightHack:SetProperties() return end
+function ChestPressWeightHack:SetProperties() end

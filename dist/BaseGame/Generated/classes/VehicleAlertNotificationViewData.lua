@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VehicleAlertNotificationViewData: gameuiGenericNotificationViewData
----@field public canBeMerged Bool
+---@field canBeMerged Bool
 VehicleAlertNotificationViewData = {}
 
 ---@param fields? VehicleAlertNotificationViewData
 ---@return VehicleAlertNotificationViewData
-function VehicleAlertNotificationViewData.new(fields) return end
+function VehicleAlertNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function VehicleAlertNotificationViewData:CanMerge(data) return end
+function VehicleAlertNotificationViewData:CanMerge(data) end

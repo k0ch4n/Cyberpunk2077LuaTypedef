@@ -5,4 +5,4 @@ CrowdMemberBaseComponent = {}
 
 ---@param fields? CrowdMemberBaseComponent
 ---@return CrowdMemberBaseComponent
-function CrowdMemberBaseComponent.new(fields) return end
+function CrowdMemberBaseComponent.new(fields) end

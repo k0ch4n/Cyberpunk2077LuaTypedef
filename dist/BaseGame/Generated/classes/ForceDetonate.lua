@@ -5,7 +5,7 @@ ForceDetonate = {}
 
 ---@param fields? ForceDetonate
 ---@return ForceDetonate
-function ForceDetonate.new(fields) return end
+function ForceDetonate.new(fields) end
 
 ---@return nil
-function ForceDetonate:SetProperties() return end
+function ForceDetonate:SetProperties() end

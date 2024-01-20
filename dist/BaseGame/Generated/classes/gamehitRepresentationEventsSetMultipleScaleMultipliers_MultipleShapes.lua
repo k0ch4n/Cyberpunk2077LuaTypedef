@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes: redEvent
----@field public scaleMultipliers Vector4[]
----@field public shapeNames CName[]
+---@field scaleMultipliers Vector4[]
+---@field shapeNames CName[]
 gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes = {}
 
 ---@param fields? gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes
 ---@return gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes
-function gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes.new(fields) return end
+function gamehitRepresentationEventsSetMultipleScaleMultipliers_MultipleShapes.new(fields) end

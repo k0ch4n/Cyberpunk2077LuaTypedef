@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class HitHistoryItem
----@field public instigator gameObject
----@field public hitTime Float
----@field public attackType gamedataAttackType
+---@field instigator gameObject
+---@field hitTime Float
+---@field attackType gamedataAttackType
 HitHistoryItem = {}
 
 ---@param fields? HitHistoryItem
 ---@return HitHistoryItem
-function HitHistoryItem.new(fields) return end
+function HitHistoryItem.new(fields) end

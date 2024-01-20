@@ -5,36 +5,31 @@ ConsumeAction = {}
 
 ---@param fields? ConsumeAction
 ---@return ConsumeAction
-function ConsumeAction.new(fields) return end
+function ConsumeAction.new(fields) end
 
 ---@return nil
-function ConsumeAction:CompleteAction() return end
+function ConsumeAction:CompleteAction() end
 
 ---@param context gameGetActionsContext
 ---@param objectActionsCallbackController gameObjectActionsCallbackController
 ---@return Bool
-function ConsumeAction:IsVisible(context, objectActionsCallbackController) return end
+function ConsumeAction:IsVisible(context, objectActionsCallbackController) end
 
----@protected
 ---@return nil
-function ConsumeAction:NotifyAutocraftSystem() return end
+function ConsumeAction:NotifyAutocraftSystem() end
 
----@private
 ---@return nil
-function ConsumeAction:ProcessPermanentFood() return end
+function ConsumeAction:ProcessPermanentFood() end
 
----@protected
 ---@param actionEffects gamedataObjectActionEffect_Record[]
 ---@return nil
-function ConsumeAction:ProcessStatusEffects(actionEffects) return end
+function ConsumeAction:ProcessStatusEffects(actionEffects) end
 
 ---@return nil
-function ConsumeAction:RemoveConsumableItem() return end
+function ConsumeAction:RemoveConsumableItem() end
 
----@private
 ---@return Bool
-function ConsumeAction:ShouldEquipAnotherConsumable() return end
+function ConsumeAction:ShouldEquipAnotherConsumable() end
 
----@private
 ---@return nil
-function ConsumeAction:TryToEquipSameTypeConsumable() return end
+function ConsumeAction:TryToEquipSameTypeConsumable() end

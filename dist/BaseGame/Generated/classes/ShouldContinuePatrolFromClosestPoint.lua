@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class ShouldContinuePatrolFromClosestPoint: AIbehaviorconditionScript
----@field public patrolContinuationPolicy AIArgumentMapping
+---@field patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromClosestPoint = {}
 
 ---@param fields? ShouldContinuePatrolFromClosestPoint
 ---@return ShouldContinuePatrolFromClosestPoint
-function ShouldContinuePatrolFromClosestPoint.new(fields) return end
+function ShouldContinuePatrolFromClosestPoint.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldContinuePatrolFromClosestPoint:Check(context) return end
+function ShouldContinuePatrolFromClosestPoint:Check(context) end

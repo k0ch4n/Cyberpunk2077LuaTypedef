@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class animAnimSet: CResource
----@field public animations animAnimSetEntry[]
----@field public animationDataChunks animAnimDataChunk[]
----@field public fallbackDataAddresses Uint16[]
----@field public fallbackDataAddressIndexes Uint8[]
----@field public fallbackAnimFrameDescs animAnimFallbackFrameDesc[]
----@field public fallbackAnimDescIndexes Uint8[]
----@field public fallbackAnimDataBuffer DataBuffer
----@field public fallbackNumPositionData Uint16
----@field public fallbackNumRotationData Uint16
----@field public fallbackNumFloatTrackData Uint16
----@field public rig animRig
----@field public tags redTagList
----@field public version Uint32
+---@field animations animAnimSetEntry[]
+---@field animationDataChunks animAnimDataChunk[]
+---@field fallbackDataAddresses Uint16[]
+---@field fallbackDataAddressIndexes Uint8[]
+---@field fallbackAnimFrameDescs animAnimFallbackFrameDesc[]
+---@field fallbackAnimDescIndexes Uint8[]
+---@field fallbackAnimDataBuffer DataBuffer
+---@field fallbackNumPositionData Uint16
+---@field fallbackNumRotationData Uint16
+---@field fallbackNumFloatTrackData Uint16
+---@field rig animRig
+---@field tags redTagList
+---@field version Uint32
 animAnimSet = {}
 
 ---@param fields? animAnimSet
 ---@return animAnimSet
-function animAnimSet.new(fields) return end
+function animAnimSet.new(fields) end

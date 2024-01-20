@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorIsNodeStreamedConditionDefinition: AIbehaviorConditionDefinition
----@field public nodeRef AIArgumentMapping
+---@field nodeRef AIArgumentMapping
 AIbehaviorIsNodeStreamedConditionDefinition = {}
 
 ---@param fields? AIbehaviorIsNodeStreamedConditionDefinition
 ---@return AIbehaviorIsNodeStreamedConditionDefinition
-function AIbehaviorIsNodeStreamedConditionDefinition.new(fields) return end
+function AIbehaviorIsNodeStreamedConditionDefinition.new(fields) end

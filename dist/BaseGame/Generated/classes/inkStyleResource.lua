@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class inkStyleResource: CResource
----@field public styles inkStyle[]
----@field public styleImports inkStyleResource[]
----@field public themes inkStyleTheme[]
----@field public overrides inkStyleOverride[]
----@field public hideInInheritingStyles Bool
+---@field styles inkStyle[]
+---@field styleImports inkStyleResource[]
+---@field themes inkStyleTheme[]
+---@field overrides inkStyleOverride[]
+---@field hideInInheritingStyles Bool
 inkStyleResource = {}
 
 ---@param fields? inkStyleResource
 ---@return inkStyleResource
-function inkStyleResource.new(fields) return end
+function inkStyleResource.new(fields) end

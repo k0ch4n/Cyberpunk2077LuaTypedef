@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineActionParameterTweakDBID
----@field public name CName
----@field public value TweakDBID
+---@field name CName
+---@field value TweakDBID
 gamestateMachineActionParameterTweakDBID = {}
 
 ---@param fields? gamestateMachineActionParameterTweakDBID
 ---@return gamestateMachineActionParameterTweakDBID
-function gamestateMachineActionParameterTweakDBID.new(fields) return end
+function gamestateMachineActionParameterTweakDBID.new(fields) end

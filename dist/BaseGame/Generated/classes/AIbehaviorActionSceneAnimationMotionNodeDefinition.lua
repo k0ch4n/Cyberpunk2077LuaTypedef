@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorActionSceneAnimationMotionNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public params AIArgumentMapping
----@field public mountData AIArgumentMapping
+---@field params AIArgumentMapping
+---@field mountData AIArgumentMapping
 AIbehaviorActionSceneAnimationMotionNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionSceneAnimationMotionNodeDefinition
 ---@return AIbehaviorActionSceneAnimationMotionNodeDefinition
-function AIbehaviorActionSceneAnimationMotionNodeDefinition.new(fields) return end
+function AIbehaviorActionSceneAnimationMotionNodeDefinition.new(fields) end

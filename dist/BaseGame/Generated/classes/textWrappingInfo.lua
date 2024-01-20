@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class textWrappingInfo
----@field public autoWrappingEnabled Bool
----@field public wrappingAtPosition Float
----@field public wrappingPolicy textWrappingPolicy
+---@field autoWrappingEnabled Bool
+---@field wrappingAtPosition Float
+---@field wrappingPolicy textWrappingPolicy
 textWrappingInfo = {}
 
 ---@param fields? textWrappingInfo
 ---@return textWrappingInfo
-function textWrappingInfo.new(fields) return end
+function textWrappingInfo.new(fields) end

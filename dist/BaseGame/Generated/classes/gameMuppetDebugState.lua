@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameMuppetDebugState: ISerializable
----@field public comparisonReports gameMuppetStateComparisonReport[]
----@field public comparisonReportIndex Uint32
----@field public subStepsData gameMuppetSubStepData[]
+---@field comparisonReports gameMuppetStateComparisonReport[]
+---@field comparisonReportIndex Uint32
+---@field subStepsData gameMuppetSubStepData[]
 gameMuppetDebugState = {}
 
 ---@param fields? gameMuppetDebugState
 ---@return gameMuppetDebugState
-function gameMuppetDebugState.new(fields) return end
+function gameMuppetDebugState.new(fields) end

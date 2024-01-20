@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerVehicleDriveLayout: ScannerChunk
----@field private vehicleDriveLayout String
+---@field vehicleDriveLayout String
 ScannerVehicleDriveLayout = {}
 
 ---@param fields? ScannerVehicleDriveLayout
 ---@return ScannerVehicleDriveLayout
-function ScannerVehicleDriveLayout.new(fields) return end
+function ScannerVehicleDriveLayout.new(fields) end
 
 ---@return String
-function ScannerVehicleDriveLayout:GetDriveLayout() return end
+function ScannerVehicleDriveLayout:GetDriveLayout() end
 
 ---@return ScannerDataType
-function ScannerVehicleDriveLayout:GetType() return end
+function ScannerVehicleDriveLayout:GetType() end
 
 ---@param vehDriveLayout String
 ---@return nil
-function ScannerVehicleDriveLayout:Set(vehDriveLayout) return end
+function ScannerVehicleDriveLayout:Set(vehDriveLayout) end

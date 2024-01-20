@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class BuyPerk: gamePlayerScriptableSystemRequest
----@field public perkType gamedataPerkType
+---@field perkType gamedataPerkType
 BuyPerk = {}
 
 ---@param fields? BuyPerk
 ---@return BuyPerk
-function BuyPerk.new(fields) return end
+function BuyPerk.new(fields) end
 
 ---@param _owner gameObject
 ---@param type gamedataPerkType
 ---@return nil
-function BuyPerk:Set(_owner, type) return end
+function BuyPerk:Set(_owner, type) end

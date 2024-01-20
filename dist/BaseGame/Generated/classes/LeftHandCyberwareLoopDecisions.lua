@@ -5,22 +5,19 @@ LeftHandCyberwareLoopDecisions = {}
 
 ---@param fields? LeftHandCyberwareLoopDecisions
 ---@return LeftHandCyberwareLoopDecisions
-function LeftHandCyberwareLoopDecisions.new(fields) return end
+function LeftHandCyberwareLoopDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareLoopDecisions:EnterCondition(stateContext, scriptInterface) return end
+function LeftHandCyberwareLoopDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareLoopDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareLoopDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareLoopDecisions:ToLeftHandCyberwareWaitForUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareLoopDecisions:ToLeftHandCyberwareWaitForUnequip(stateContext, scriptInterface) end

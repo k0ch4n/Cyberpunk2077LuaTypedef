@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questPatrolParams: questAICommandParams
----@field public pathParams AIPatrolPathParameters
----@field public repeatCommandOnInterrupt Bool
+---@field pathParams AIPatrolPathParameters
+---@field repeatCommandOnInterrupt Bool
 questPatrolParams = {}
 
 ---@param fields? questPatrolParams
 ---@return questPatrolParams
-function questPatrolParams.new(fields) return end
+function questPatrolParams.new(fields) end

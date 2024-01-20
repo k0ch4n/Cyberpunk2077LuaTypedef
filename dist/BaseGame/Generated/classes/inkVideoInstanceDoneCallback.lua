@@ -5,4 +5,4 @@ inkVideoInstanceDoneCallback = {}
 
 ---@param fields? inkVideoInstanceDoneCallback
 ---@return inkVideoInstanceDoneCallback
-function inkVideoInstanceDoneCallback.new(fields) return end
+function inkVideoInstanceDoneCallback.new(fields) end

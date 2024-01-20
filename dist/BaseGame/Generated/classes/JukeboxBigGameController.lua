@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class JukeboxBigGameController: DeviceInkGameControllerBase
----@field private onTogglePlayListener redCallbackObject
+---@field onTogglePlayListener redCallbackObject
 JukeboxBigGameController = {}
 
 ---@param fields? JukeboxBigGameController
 ---@return JukeboxBigGameController
-function JukeboxBigGameController.new(fields) return end
+function JukeboxBigGameController.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function JukeboxBigGameController:OnTogglePlay(value) return end
+function JukeboxBigGameController:OnTogglePlay(value) end
 
----@private
 ---@return PlaybackOptionsUpdateData
-function JukeboxBigGameController:CreatePlaybackOverrideData() return end
+function JukeboxBigGameController:CreatePlaybackOverrideData() end
 
----@protected
 ---@return Jukebox
-function JukeboxBigGameController:GetOwner() return end
+function JukeboxBigGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function JukeboxBigGameController:Refresh(state) return end
+function JukeboxBigGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function JukeboxBigGameController:RegisterBlackboardCallbacks(blackboard) return end
+function JukeboxBigGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param isPlaying Bool
 ---@return nil
-function JukeboxBigGameController:ResolveAnimState(isPlaying) return end
+function JukeboxBigGameController:ResolveAnimState(isPlaying) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function JukeboxBigGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function JukeboxBigGameController:UnRegisterBlackboardCallbacks(blackboard) end

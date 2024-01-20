@@ -5,4 +5,4 @@ DisconnectClickedEvent = {}
 
 ---@param fields? DisconnectClickedEvent
 ---@return DisconnectClickedEvent
-function DisconnectClickedEvent.new(fields) return end
+function DisconnectClickedEvent.new(fields) end

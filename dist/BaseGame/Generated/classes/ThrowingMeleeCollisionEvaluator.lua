@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class ThrowingMeleeCollisionEvaluator: gameprojectileScriptCollisionEvaluator
----@field private projectileStopAndStick Bool
+---@field projectileStopAndStick Bool
 ThrowingMeleeCollisionEvaluator = {}
 
 ---@param fields? ThrowingMeleeCollisionEvaluator
 ---@return ThrowingMeleeCollisionEvaluator
-function ThrowingMeleeCollisionEvaluator.new(fields) return end
+function ThrowingMeleeCollisionEvaluator.new(fields) end
 
----@protected
 ---@param defaultOnCollisionAction gameprojectileOnCollisionAction
 ---@param params gameprojectileCollisionEvaluatorParams
 ---@return gameprojectileOnCollisionAction
-function ThrowingMeleeCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) return end
+function ThrowingMeleeCollisionEvaluator:EvaluateCollision(defaultOnCollisionAction, params) end
 
 ---@return Bool
-function ThrowingMeleeCollisionEvaluator:ProjectileStopAndStick() return end
+function ThrowingMeleeCollisionEvaluator:ProjectileStopAndStick() end

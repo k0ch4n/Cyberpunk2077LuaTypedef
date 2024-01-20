@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTrafficCollisionDebugResource: CResource
----@field public data worldTrafficCollisionDebug
+---@field data worldTrafficCollisionDebug
 worldTrafficCollisionDebugResource = {}
 
 ---@param fields? worldTrafficCollisionDebugResource
 ---@return worldTrafficCollisionDebugResource
-function worldTrafficCollisionDebugResource.new(fields) return end
+function worldTrafficCollisionDebugResource.new(fields) end

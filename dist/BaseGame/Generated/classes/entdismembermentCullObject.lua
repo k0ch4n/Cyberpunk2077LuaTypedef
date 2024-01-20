@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class entdismembermentCullObject
----@field public Plane Plane
----@field public Plane1 Plane
----@field public CapsulePointA Vector3
----@field public CapsulePointB Vector3
----@field public CapsuleRadius Float
----@field public NearestAnimBoneName CName
----@field public NearestAnimIndex Int16
----@field public RagdollBodyIndex Uint16
+---@field Plane Plane
+---@field Plane1 Plane
+---@field CapsulePointA Vector3
+---@field CapsulePointB Vector3
+---@field CapsuleRadius Float
+---@field NearestAnimBoneName CName
+---@field NearestAnimIndex Int16
+---@field RagdollBodyIndex Uint16
 entdismembermentCullObject = {}
 
 ---@param fields? entdismembermentCullObject
 ---@return entdismembermentCullObject
-function entdismembermentCullObject.new(fields) return end
+function entdismembermentCullObject.new(fields) end

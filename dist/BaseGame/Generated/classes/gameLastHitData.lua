@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameLastHitData
----@field public targetEntityId entEntityID
----@field public hitType Uint32
----@field public hitShapes CName[]
+---@field targetEntityId entEntityID
+---@field hitType Uint32
+---@field hitShapes CName[]
 gameLastHitData = {}
 
 ---@param fields? gameLastHitData
 ---@return gameLastHitData
-function gameLastHitData.new(fields) return end
+function gameLastHitData.new(fields) end

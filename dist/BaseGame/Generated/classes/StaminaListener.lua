@@ -1,37 +1,36 @@
 ---@meta
 
 ---@class StaminaListener: gameCustomValueStatPoolsListener
----@field private player PlayerPuppet
----@field private psmAdded Bool
----@field private staminaValue Float
----@field private staminPerc Float
----@field private sfxThreshold Float
----@field private sfxDelay Float
----@field private sfxName CName
----@field private delayID gameDelayID
+---@field player PlayerPuppet
+---@field psmAdded Bool
+---@field staminaValue Float
+---@field staminPerc Float
+---@field sfxThreshold Float
+---@field sfxDelay Float
+---@field sfxName CName
+---@field delayID gameDelayID
 StaminaListener = {}
 
 ---@param fields? StaminaListener
 ---@return StaminaListener
-function StaminaListener.new(fields) return end
+function StaminaListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function StaminaListener:OnStatPoolMinValueReached(value) return end
+function StaminaListener:OnStatPoolMinValueReached(value) end
 
 ---@return Float
-function StaminaListener:GetStaminaPerc() return end
+function StaminaListener:GetStaminaPerc() end
 
 ---@return Float
-function StaminaListener:GetStaminaValue() return end
+function StaminaListener:GetStaminaValue() end
 
 ---@param player PlayerPuppet
 ---@return nil
-function StaminaListener:Init(player) return end
+function StaminaListener:Init(player) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function StaminaListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function StaminaListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end

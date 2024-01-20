@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CParticleModificatorAcceleration: IParticleModificator
----@field public direction IEvaluatorVector
----@field public scale IEvaluatorFloat
----@field public worldSpace Bool
+---@field direction IEvaluatorVector
+---@field scale IEvaluatorFloat
+---@field worldSpace Bool
 CParticleModificatorAcceleration = {}
 
 ---@param fields? CParticleModificatorAcceleration
 ---@return CParticleModificatorAcceleration
-function CParticleModificatorAcceleration.new(fields) return end
+function CParticleModificatorAcceleration.new(fields) end

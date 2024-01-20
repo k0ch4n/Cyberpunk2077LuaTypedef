@@ -5,4 +5,4 @@ gameuiarcadeTankDestroyableObjectController = {}
 
 ---@param fields? gameuiarcadeTankDestroyableObjectController
 ---@return gameuiarcadeTankDestroyableObjectController
-function gameuiarcadeTankDestroyableObjectController.new(fields) return end
+function gameuiarcadeTankDestroyableObjectController.new(fields) end

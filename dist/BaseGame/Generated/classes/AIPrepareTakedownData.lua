@@ -5,9 +5,8 @@ AIPrepareTakedownData = {}
 
 ---@param fields? AIPrepareTakedownData
 ---@return AIPrepareTakedownData
-function AIPrepareTakedownData.new(fields) return end
+function AIPrepareTakedownData.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIPrepareTakedownData:Activate(context) return end
+function AIPrepareTakedownData:Activate(context) end

@@ -5,7 +5,7 @@ DoorController = {}
 
 ---@param fields? DoorController
 ---@return DoorController
-function DoorController.new(fields) return end
+function DoorController.new(fields) end
 
 ---@return DoorControllerPS
-function DoorController:GetPS() return end
+function DoorController:GetPS() end

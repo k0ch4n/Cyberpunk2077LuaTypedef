@@ -5,7 +5,7 @@ GenericDeviceController = {}
 
 ---@param fields? GenericDeviceController
 ---@return GenericDeviceController
-function GenericDeviceController.new(fields) return end
+function GenericDeviceController.new(fields) end
 
 ---@return GenericDeviceControllerPS
-function GenericDeviceController:GetPS() return end
+function GenericDeviceController:GetPS() end

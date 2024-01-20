@@ -5,4 +5,4 @@ AcquireDeviceLink = {}
 
 ---@param fields? AcquireDeviceLink
 ---@return AcquireDeviceLink
-function AcquireDeviceLink.new(fields) return end
+function AcquireDeviceLink.new(fields) end

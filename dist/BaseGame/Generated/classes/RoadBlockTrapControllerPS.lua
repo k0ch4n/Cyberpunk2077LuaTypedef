@@ -5,24 +5,20 @@ RoadBlockTrapControllerPS = {}
 
 ---@param fields? RoadBlockTrapControllerPS
 ---@return RoadBlockTrapControllerPS
-function RoadBlockTrapControllerPS.new(fields) return end
+function RoadBlockTrapControllerPS.new(fields) end
 
----@protected
 ---@return TweakDBID
-function RoadBlockTrapControllerPS:GetBackgroundTextureTweakDBID() return end
+function RoadBlockTrapControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function RoadBlockTrapControllerPS:GetDeviceIconTweakDBID() return end
+function RoadBlockTrapControllerPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@return nil
-function RoadBlockTrapControllerPS:Initialize() return end
+function RoadBlockTrapControllerPS:Initialize() end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function RoadBlockTrapControllerPS:OnRefreshSlavesEvent(evt) return end
+function RoadBlockTrapControllerPS:OnRefreshSlavesEvent(evt) end
 
 ---@return nil
-function RoadBlockTrapControllerPS:RefreshSlaves() return end
+function RoadBlockTrapControllerPS:RefreshSlaves() end

@@ -5,4 +5,4 @@ worldOffMeshUserData = {}
 
 ---@param fields? worldOffMeshUserData
 ---@return worldOffMeshUserData
-function worldOffMeshUserData.new(fields) return end
+function worldOffMeshUserData.new(fields) end

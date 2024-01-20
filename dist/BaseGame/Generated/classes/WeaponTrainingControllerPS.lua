@@ -5,4 +5,4 @@ WeaponTrainingControllerPS = {}
 
 ---@param fields? WeaponTrainingControllerPS
 ---@return WeaponTrainingControllerPS
-function WeaponTrainingControllerPS.new(fields) return end
+function WeaponTrainingControllerPS.new(fields) end

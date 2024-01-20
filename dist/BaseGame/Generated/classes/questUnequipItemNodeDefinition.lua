@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questUnequipItemNodeDefinition: questSignalStoppingNodeDefinition
----@field public entityReference gameEntityReference
----@field public params questUnequipItemParams
+---@field entityReference gameEntityReference
+---@field params questUnequipItemParams
 questUnequipItemNodeDefinition = {}
 
 ---@param fields? questUnequipItemNodeDefinition
 ---@return questUnequipItemNodeDefinition
-function questUnequipItemNodeDefinition.new(fields) return end
+function questUnequipItemNodeDefinition.new(fields) end

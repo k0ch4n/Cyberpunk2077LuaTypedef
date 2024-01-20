@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CMaterialParameterDynamicTexture: CMaterialParameter
----@field public texture ITexture
+---@field texture ITexture
 CMaterialParameterDynamicTexture = {}
 
 ---@param fields? CMaterialParameterDynamicTexture
 ---@return CMaterialParameterDynamicTexture
-function CMaterialParameterDynamicTexture.new(fields) return end
+function CMaterialParameterDynamicTexture.new(fields) end

@@ -1,171 +1,142 @@
 ---@meta
 
 ---@class InspectionComponent: gameScriptableComponent
----@field public slot String
----@field private cumulatedObjRotationX Float
----@field private cumulatedObjRotationY Float
----@field private maxObjOffset Float
----@field private minObjOffset Float
----@field private zoomSpeed Float
----@field private timeToScan Float
----@field private isPlayerInspecting Bool
----@field private activeClue String
----@field private isScanAvailable Bool
----@field private scanningInProgress Bool
----@field private objectScanned Bool
----@field private animFeature AnimFeature_Inspection
----@field private listener IScriptable
----@field private lastInspectedObjID entEntityID
+---@field slot String
+---@field cumulatedObjRotationX Float
+---@field cumulatedObjRotationY Float
+---@field maxObjOffset Float
+---@field minObjOffset Float
+---@field zoomSpeed Float
+---@field timeToScan Float
+---@field isPlayerInspecting Bool
+---@field activeClue String
+---@field isScanAvailable Bool
+---@field scanningInProgress Bool
+---@field objectScanned Bool
+---@field animFeature AnimFeature_Inspection
+---@field listener IScriptable
+---@field lastInspectedObjID entEntityID
 InspectionComponent = {}
 
 ---@param fields? InspectionComponent
 ---@return InspectionComponent
-function InspectionComponent.new(fields) return end
+function InspectionComponent.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function InspectionComponent:OnAction(action, consumer) return end
+function InspectionComponent:OnAction(action, consumer) end
 
----@protected
 ---@param evt InspectionTriggerEvent
 ---@return Bool
-function InspectionComponent:OnInspectTrigger(evt) return end
+function InspectionComponent:OnInspectTrigger(evt) end
 
----@protected
 ---@param evt InspectionEvent
 ---@return Bool
-function InspectionComponent:OnInspectionEvent(evt) return end
+function InspectionComponent:OnInspectionEvent(evt) end
 
----@protected
 ---@param evt ScanEvent
 ---@return Bool
-function InspectionComponent:OnPreScanEvent(evt) return end
+function InspectionComponent:OnPreScanEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function InspectionComponent:OnTakeControl(ri) return end
+function InspectionComponent:OnTakeControl(ri) end
 
----@private
 ---@param wasLooted Bool
 ---@return nil
-function InspectionComponent:CleanupInspectSlot(wasLooted) return end
+function InspectionComponent:CleanupInspectSlot(wasLooted) end
 
----@private
 ---@param show Bool
 ---@return nil
-function InspectionComponent:DisplayScanningUI(show) return end
+function InspectionComponent:DisplayScanningUI(show) end
 
----@private
 ---@return nil
-function InspectionComponent:EmptyInspectSlot() return end
+function InspectionComponent:EmptyInspectSlot() end
 
----@private
 ---@return nil
-function InspectionComponent:ExitInspect() return end
+function InspectionComponent:ExitInspect() end
 
 ---@return Bool
-function InspectionComponent:GetIsPlayerInspecting() return end
+function InspectionComponent:GetIsPlayerInspecting() end
 
 ---@return entEntityID
-function InspectionComponent:GetLastInspectedObjectID() return end
+function InspectionComponent:GetLastInspectedObjectID() end
 
----@private
 ---@return nil
-function InspectionComponent:LootInspectItem() return end
+function InspectionComponent:LootInspectItem() end
 
----@private
 ---@param deltaTime Float
 ---@return nil
-function InspectionComponent:OnUpdate(deltaTime) return end
+function InspectionComponent:OnUpdate(deltaTime) end
 
----@private
 ---@param itemTDBIDString String
 ---@param offset Float
 ---@return nil
-function InspectionComponent:PlaceItemInInspectSlot(itemTDBIDString, offset) return end
+function InspectionComponent:PlaceItemInInspectSlot(itemTDBIDString, offset) end
 
----@private
 ---@param val Float
 ---@return nil
-function InspectionComponent:ProcessZoom(val) return end
+function InspectionComponent:ProcessZoom(val) end
 
----@private
 ---@param id entEntityID
 ---@return nil
-function InspectionComponent:RememberInspectedObjID(id) return end
+function InspectionComponent:RememberInspectedObjID(id) end
 
----@private
 ---@return nil
-function InspectionComponent:RemoveInspectedItem() return end
+function InspectionComponent:RemoveInspectedItem() end
 
----@private
 ---@return nil
-function InspectionComponent:ResetAnimFeature() return end
+function InspectionComponent:ResetAnimFeature() end
 
----@private
 ---@return nil
-function InspectionComponent:ResetScanningState() return end
+function InspectionComponent:ResetScanningState() end
 
----@private
 ---@param deltaX Float
 ---@param deltaY Float
 ---@return nil
-function InspectionComponent:RotateInInspection(deltaX, deltaY) return end
+function InspectionComponent:RotateInInspection(deltaX, deltaY) end
 
----@private
 ---@param deltaX Float
 ---@param deltaY Float
 ---@return nil
-function InspectionComponent:RotateInInspectionByMouse(deltaX, deltaY) return end
+function InspectionComponent:RotateInInspectionByMouse(deltaX, deltaY) end
 
----@private
 ---@return nil
-function InspectionComponent:ScanInspectableItem() return end
+function InspectionComponent:ScanInspectableItem() end
 
----@private
 ---@param enabled Bool
 ---@return nil
-function InspectionComponent:SetInputListening(enabled) return end
+function InspectionComponent:SetInputListening(enabled) end
 
----@private
 ---@param stage Int32
 ---@return nil
-function InspectionComponent:SetInspectionStage(stage) return end
+function InspectionComponent:SetInspectionStage(stage) end
 
----@private
 ---@param enabled Bool
 ---@return nil
-function InspectionComponent:SetIsPlayerInspecting(enabled) return end
+function InspectionComponent:SetIsPlayerInspecting(enabled) end
 
----@private
 ---@param newID entEntityID
 ---@return nil
-function InspectionComponent:SetLastInspectedObjectID(newID) return end
+function InspectionComponent:SetLastInspectedObjectID(newID) end
 
----@private
 ---@param offset Float
 ---@param adsOffset Float
 ---@return nil
-function InspectionComponent:SetObjectOffsets(offset, adsOffset) return end
+function InspectionComponent:SetObjectOffsets(offset, adsOffset) end
 
----@private
 ---@param timeVal Float
 ---@return nil
-function InspectionComponent:SetTimeToScan(timeVal) return end
+function InspectionComponent:SetTimeToScan(timeVal) end
 
----@private
 ---@return nil
-function InspectionComponent:ToggleExitInspect() return end
+function InspectionComponent:ToggleExitInspect() end
 
----@private
 ---@param show Bool
 ---@return nil
-function InspectionComponent:ToggleInspectObject(show) return end
+function InspectionComponent:ToggleInspectObject(show) end
 
----@private
 ---@param enabled Bool
 ---@return nil
-function InspectionComponent:ToggleInspection(enabled) return end
+function InspectionComponent:ToggleInspection(enabled) end

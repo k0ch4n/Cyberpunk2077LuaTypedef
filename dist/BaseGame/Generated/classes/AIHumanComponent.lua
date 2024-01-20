@@ -1,256 +1,234 @@
 ---@meta
 
 ---@class AIHumanComponent: AICAgent
----@field public movementParamsRecord TweakDBID
----@field private shootingBlackboard gameIBlackboard
----@field private gadgetBlackboard gameIBlackboard
----@field private coverBlackboard gameIBlackboard
----@field private actionBlackboard gameIBlackboard
----@field private patrolBlackboard gameIBlackboard
----@field private alertedPatrolBlackboard gameIBlackboard
----@field private prereqsBlackboard gameIBlackboard
----@field private friendlyFireCheckID Uint32
----@field private ffs gameIFriendlyFireSystem
----@field private LoSFinderCheckID Uint32
----@field private loSFinderSystem gameLoSIFinderSystem
----@field private LoSFinderVisibleObject senseVisibleObject
----@field private actionAnimationScriptProxy ActionAnimationScriptProxy
----@field private lastOwnerBlockedAttackEventID gameDelayID
----@field private lastOwnerParriedAttackEventID gameDelayID
----@field private lastOwnerDodgedAttackEventID gameDelayID
----@field private grenadeThrowQueryTarget gameObject
----@field private grenadeThrowQueryId Int32
----@field private scriptContext AIbehaviorScriptExecutionContext
----@field private scriptContextInitialized Bool
----@field private kerenzikovAbilityRecord gamedataGameplayAbility_Record
----@field private highLevelCb Uint32
----@field private lastReservedSeatVehicle entEntityID
----@field private assignedVehicleStuck Bool
----@field private activeCommands AIbehaviorUniqueActiveCommandList
+---@field movementParamsRecord TweakDBID
+---@field shootingBlackboard gameIBlackboard
+---@field gadgetBlackboard gameIBlackboard
+---@field coverBlackboard gameIBlackboard
+---@field actionBlackboard gameIBlackboard
+---@field patrolBlackboard gameIBlackboard
+---@field alertedPatrolBlackboard gameIBlackboard
+---@field prereqsBlackboard gameIBlackboard
+---@field friendlyFireCheckID Uint32
+---@field ffs gameIFriendlyFireSystem
+---@field LoSFinderCheckID Uint32
+---@field loSFinderSystem gameLoSIFinderSystem
+---@field LoSFinderVisibleObject senseVisibleObject
+---@field actionAnimationScriptProxy ActionAnimationScriptProxy
+---@field lastOwnerBlockedAttackEventID gameDelayID
+---@field lastOwnerParriedAttackEventID gameDelayID
+---@field lastOwnerDodgedAttackEventID gameDelayID
+---@field grenadeThrowQueryTarget gameObject
+---@field grenadeThrowQueryId Int32
+---@field scriptContext AIbehaviorScriptExecutionContext
+---@field scriptContextInitialized Bool
+---@field kerenzikovAbilityRecord gamedataGameplayAbility_Record
+---@field highLevelCb Uint32
+---@field lastReservedSeatVehicle entEntityID
+---@field assignedVehicleStuck Bool
+---@field activeCommands AIbehaviorUniqueActiveCommandList
 AIHumanComponent = {}
 
 ---@param fields? AIHumanComponent
 ---@return AIHumanComponent
-function AIHumanComponent.new(fields) return end
+function AIHumanComponent.new(fields) end
 
 ---@param owner ScriptedPuppet
 ---@return Bool, AIHumanComponent aiComponent
-function AIHumanComponent.Get(owner) return end
+function AIHumanComponent.Get(owner) end
 
 ---@param owner ScriptedPuppet
 ---@return Bool, gameObject vehicle
-function AIHumanComponent.GetAssignedVehicle(owner) return end
+function AIHumanComponent.GetAssignedVehicle(owner) end
 
 ---@param owner ScriptedPuppet
 ---@return Bool, CName vehicleSlotName
-function AIHumanComponent.GetLastUsedVehicleSlot(owner) return end
+function AIHumanComponent.GetLastUsedVehicleSlot(owner) end
 
 ---@param owner ScriptedPuppet
 ---@return Bool, gamemountingMountingSlotId vehicleSlot
-function AIHumanComponent.GetLastUsedVehicleSlot(owner) return end
+function AIHumanComponent.GetLastUsedVehicleSlot(owner) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool, AIbehaviorScriptExecutionContext context
-function AIHumanComponent.GetScriptContext(puppet) return end
+function AIHumanComponent.GetScriptContext(puppet) end
 
 ---@param owner gameObject
 ---@param newRole AIRole
 ---@return nil
-function AIHumanComponent.SetCurrentRole(owner, newRole) return end
+function AIHumanComponent.SetCurrentRole(owner, newRole) end
 
 ---@return entEntityID
-function AIHumanComponent:GetAssignedVehicleId() return end
+function AIHumanComponent:GetAssignedVehicleId() end
 
 ---@return gamemountingMountingSlotId
-function AIHumanComponent:GetAssignedVehicleSlot() return end
+function AIHumanComponent:GetAssignedVehicleSlot() end
 
 ---@param type moveMovementType
 ---@return moveMovementParameters
-function AIHumanComponent:GetMovementParams(type) return end
+function AIHumanComponent:GetMovementParams(type) end
 
 ---@return Bool
-function AIHumanComponent:HasVehicleAssigned() return end
+function AIHumanComponent:HasVehicleAssigned() end
 
 ---@return nil
-function AIHumanComponent:OverrideAssignedVehicleInfoForPreventionBlockade() return end
+function AIHumanComponent:OverrideAssignedVehicleInfoForPreventionBlockade() end
 
 ---@param params moveMovementParameters
 ---@return nil
-function AIHumanComponent:SetMovementParams(params) return end
+function AIHumanComponent:SetMovementParams(params) end
 
 ---@param paramsID TweakDBID|string
 ---@return Bool
-function AIHumanComponent:SetTDBMovementParams(paramsID) return end
+function AIHumanComponent:SetTDBMovementParams(paramsID) end
 
 ---@return Bool
-function AIHumanComponent:WasForcedToEnterCrowd() return end
+function AIHumanComponent:WasForcedToEnterCrowd() end
 
----@protected
 ---@param evt entAnimParamsEvent
 ---@return Bool
-function AIHumanComponent:OnAnimParamsEvent(evt) return end
+function AIHumanComponent:OnAnimParamsEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function AIHumanComponent:OnDeath(evt) return end
+function AIHumanComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function AIHumanComponent:OnDefeated(evt) return end
+function AIHumanComponent:OnDefeated(evt) end
 
----@protected
 ---@param evt DelayPassiveConditionEvaluationEvent
 ---@return Bool
-function AIHumanComponent:OnDelayPassiveConditionEvaluationEvent(evt) return end
+function AIHumanComponent:OnDelayPassiveConditionEvaluationEvent(evt) end
 
----@protected
 ---@param evt AIEnemyThreatDetected
 ---@return Bool
-function AIHumanComponent:OnEnemyThreatDetected(evt) return end
+function AIHumanComponent:OnEnemyThreatDetected(evt) end
 
----@protected
 ---@param hitAIEvent AIAIEvent
 ---@return Bool
-function AIHumanComponent:OnHitAiEventReceived(hitAIEvent) return end
+function AIHumanComponent:OnHitAiEventReceived(hitAIEvent) end
 
----@protected
 ---@param evt AIHostileThreatDetected
 ---@return Bool
-function AIHumanComponent:OnHostileThreatDetected(evt) return end
+function AIHumanComponent:OnHostileThreatDetected(evt) end
 
----@protected
 ---@param evt AINewThreat
 ---@return Bool
-function AIHumanComponent:OnNewThreat(evt) return end
+function AIHumanComponent:OnNewThreat(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AIHumanComponent:OnPlayerCombatChanged(value) return end
+function AIHumanComponent:OnPlayerCombatChanged(value) end
 
----@protected
 ---@param evt ReserveAssignedSeat
 ---@return Bool
-function AIHumanComponent:OnReserveAssignedSeat(evt) return end
+function AIHumanComponent:OnReserveAssignedSeat(evt) end
 
----@protected
 ---@param evt SetScriptExecutionContextEvent
 ---@return Bool
-function AIHumanComponent:OnSetScriptExecutionContext(evt) return end
+function AIHumanComponent:OnSetScriptExecutionContext(evt) end
 
----@protected
 ---@param evt StartGrenadeThrowQueryEvent
 ---@return Bool
-function AIHumanComponent:OnStartGrenadeThrowQueryEvent(evt) return end
+function AIHumanComponent:OnStartGrenadeThrowQueryEvent(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function AIHumanComponent:OnStatusEffectApplied(evt) return end
+function AIHumanComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function AIHumanComponent:OnStatusEffectRemoved(evt) return end
+function AIHumanComponent:OnStatusEffectRemoved(evt) end
 
----@protected
 ---@param evt vehicleVehicleStuckEvent
 ---@return Bool
-function AIHumanComponent:OnStuckEvent(evt) return end
+function AIHumanComponent:OnStuckEvent(evt) end
 
----@protected
 ---@param evt AIThreatRemoved
 ---@return Bool
-function AIHumanComponent:OnThreatRemoved(evt) return end
+function AIHumanComponent:OnThreatRemoved(evt) end
 
----@protected
 ---@param evt gameMountAIEvent
 ---@return Bool
-function AIHumanComponent:OnVehicleAssign(evt) return end
+function AIHumanComponent:OnVehicleAssign(evt) end
 
 ---@param target gameObject
 ---@return Bool
-function AIHumanComponent:CacheThrowGrenadeAtTargetQuery(target) return end
+function AIHumanComponent:CacheThrowGrenadeAtTargetQuery(target) end
 
 ---@param target gameObject
 ---@return Bool, Vector4 throwPositions, Float throwAngle, gameGrenadeThrowStartType throwStartType
-function AIHumanComponent:CanThrowGrenadeAtTarget(target) return end
+function AIHumanComponent:CanThrowGrenadeAtTarget(target) end
 
 ---@param ActionConditionName String
 ---@return Bool
-function AIHumanComponent:CheckTweakCondition(ActionConditionName) return end
+function AIHumanComponent:CheckTweakCondition(ActionConditionName) end
 
----@private
 ---@param commandClassNames CName[]|string[]
 ---@return nil
-function AIHumanComponent:ClearActionCommandID(commandClassNames) return end
-
----@private
----@return Bool
-function AIHumanComponent:CombatQueriesSystemInit() return end
+function AIHumanComponent:ClearActionCommandID(commandClassNames) end
 
 ---@return Bool
-function AIHumanComponent:FriendlyFireCheck() return end
+function AIHumanComponent:CombatQueriesSystemInit() end
 
----@private
 ---@return Bool
-function AIHumanComponent:FriendlyFireCheckInit() return end
+function AIHumanComponent:FriendlyFireCheck() end
 
----@private
+---@return Bool
+function AIHumanComponent:FriendlyFireCheckInit() end
+
 ---@return nil
-function AIHumanComponent:FriendlyFireTargetUpdateInit() return end
+function AIHumanComponent:FriendlyFireTargetUpdateInit() end
 
 ---@return gameIBlackboard
-function AIHumanComponent:GetAIAlertedPatrolBlackboard() return end
+function AIHumanComponent:GetAIAlertedPatrolBlackboard() end
 
 ---@return gameIBlackboard
-function AIHumanComponent:GetAIPatrolBlackboard() return end
+function AIHumanComponent:GetAIPatrolBlackboard() end
 
 ---@return gameIBlackboard
-function AIHumanComponent:GetAIPrereqsBlackboard() return end
+function AIHumanComponent:GetAIPrereqsBlackboard() end
 
 ---@return ActionAnimationScriptProxy
-function AIHumanComponent:GetActionAnimationScriptProxy() return end
+function AIHumanComponent:GetActionAnimationScriptProxy() end
 
 ---@return gameIBlackboard
-function AIHumanComponent:GetActionBlackboard() return end
+function AIHumanComponent:GetActionBlackboard() end
 
 ---@param commandClassName CName|string
 ---@return Int32
-function AIHumanComponent:GetActiveCommandID(commandClassName) return end
+function AIHumanComponent:GetActiveCommandID(commandClassName) end
 
 ---@return Int32
-function AIHumanComponent:GetActiveCommandsCount() return end
+function AIHumanComponent:GetActiveCommandsCount() end
 
 ---@return Bool, gameObject vehicle
-function AIHumanComponent:GetAssignedVehicle() return end
+function AIHumanComponent:GetAssignedVehicle() end
 
 ---@return Bool, entEntityID vehicleID, gamemountingMountingSlotId vehicleSlot
-function AIHumanComponent:GetAssignedVehicleData() return end
+function AIHumanComponent:GetAssignedVehicleData() end
 
 ---@return gameIBlackboard
-function AIHumanComponent:GetCombatGadgetBlackboard() return end
+function AIHumanComponent:GetCombatGadgetBlackboard() end
 
 ---@return gameIBlackboard
-function AIHumanComponent:GetCoverBlackboard() return end
+function AIHumanComponent:GetCoverBlackboard() end
 
 ---@return AIRole
-function AIHumanComponent:GetCurrentRole() return end
+function AIHumanComponent:GetCurrentRole() end
 
 ---@return Uint32
-function AIHumanComponent:GetFriendlyFireCheckID() return end
+function AIHumanComponent:GetFriendlyFireCheckID() end
 
 ---@return Bool, gameObject friendlyTarget
-function AIHumanComponent:GetFriendlyTarget() return end
+function AIHumanComponent:GetFriendlyTarget() end
 
 ---@return Bool, PlayerPuppet player
-function AIHumanComponent:GetFriendlyTargetAsPlayer() return end
+function AIHumanComponent:GetFriendlyTargetAsPlayer() end
 
----@private
 ---@return ScriptGameInstance
-function AIHumanComponent:GetGame() return end
+function AIHumanComponent:GetGame() end
 
 ---@param ownerId entEntityID
 ---@param entityPos Vector4
@@ -259,115 +237,105 @@ function AIHumanComponent:GetGame() return end
 ---@param radiusZ Float
 ---@param maxNotFoundTime Float
 ---@return Bool
-function AIHumanComponent:GetReachedLoSPosition(ownerId, entityPos, losMode, radiusXY, radiusZ, maxNotFoundTime) return end
+function AIHumanComponent:GetReachedLoSPosition(ownerId, entityPos, losMode, radiusXY, radiusZ, maxNotFoundTime) end
 
 ---@return Bool, AIbehaviorScriptExecutionContext context
-function AIHumanComponent:GetScriptContext() return end
+function AIHumanComponent:GetScriptContext() end
 
 ---@return gameIBlackboard
-function AIHumanComponent:GetShootingBlackboard() return end
+function AIHumanComponent:GetShootingBlackboard() end
 
 ---@param entityID entEntityID
 ---@return Bool, vehicleBaseObject vehicle
-function AIHumanComponent:GetVehicleHandle(entityID) return end
+function AIHumanComponent:GetVehicleHandle(entityID) end
 
 ---@return Bool
-function AIHumanComponent:IsAssignedVehicleStuck() return end
-
----@param commandClassName CName|string
----@return Bool
-function AIHumanComponent:IsCommandActive(commandClassName) return end
-
----@param commandID Uint32
----@return Bool
-function AIHumanComponent:IsCommandActive(commandID) return end
+function AIHumanComponent:IsAssignedVehicleStuck() end
 
 ---@param commandClassName CName|string
 ---@return Bool
-function AIHumanComponent:IsCommandReceivedOrOverriden(commandClassName) return end
+function AIHumanComponent:IsCommandActive(commandClassName) end
 
 ---@param commandID Uint32
 ---@return Bool
-function AIHumanComponent:IsCommandReceivedOrOverriden(commandID) return end
+function AIHumanComponent:IsCommandActive(commandID) end
+
+---@param commandClassName CName|string
+---@return Bool
+function AIHumanComponent:IsCommandReceivedOrOverriden(commandClassName) end
+
+---@param commandID Uint32
+---@return Bool
+function AIHumanComponent:IsCommandReceivedOrOverriden(commandID) end
 
 ---@return Bool
-function AIHumanComponent:IsFriendlyFiring() return end
+function AIHumanComponent:IsFriendlyFiring() end
 
 ---@return Bool
-function AIHumanComponent:IsPlayerCompanion() return end
+function AIHumanComponent:IsPlayerCompanion() end
 
----@private
 ---@return Bool
-function AIHumanComponent:LoSFinderCheckInit() return end
+function AIHumanComponent:LoSFinderCheckInit() end
 
 ---@return nil
-function AIHumanComponent:NULLCachedThrowGrenadeAtTargetQuery() return end
+function AIHumanComponent:NULLCachedThrowGrenadeAtTargetQuery() end
 
----@private
 ---@param newRole AIRole
 ---@param oldRole AIRole
 ---@return nil
-function AIHumanComponent:OnAIRoleChanged(newRole, oldRole) return end
+function AIHumanComponent:OnAIRoleChanged(newRole, oldRole) end
 
----@private
 ---@return nil
-function AIHumanComponent:OnAttach() return end
+function AIHumanComponent:OnAttach() end
 
 ---@param command AICommand
 ---@param oldState AICommandState
 ---@param newState AICommandState
 ---@return nil
-function AIHumanComponent:OnCommandStateChanged(command, oldState, newState) return end
+function AIHumanComponent:OnCommandStateChanged(command, oldState, newState) end
 
----@private
 ---@return nil
-function AIHumanComponent:OnDetach() return end
+function AIHumanComponent:OnDetach() end
 
 ---@param vehicleID entEntityID
 ---@return nil
-function AIHumanComponent:OnSeatReserved(vehicleID) return end
+function AIHumanComponent:OnSeatReserved(vehicleID) end
 
 ---@param signalId Uint16
 ---@param newValue Bool
 ---@return nil
-function AIHumanComponent:OnSignalCombatQueriesRequest(signalId, newValue) return end
+function AIHumanComponent:OnSignalCombatQueriesRequest(signalId, newValue) end
 
 ---@param signalId Uint16
 ---@param newValue Bool
 ---@return nil
-function AIHumanComponent:OnSignalCommandSignal(signalId, newValue) return end
+function AIHumanComponent:OnSignalCommandSignal(signalId, newValue) end
 
 ---@return nil
-function AIHumanComponent:ReleaseReservedSeat() return end
+function AIHumanComponent:ReleaseReservedSeat() end
 
----@private
 ---@return nil
-function AIHumanComponent:ResetBehaviorCoverArguments() return end
+function AIHumanComponent:ResetBehaviorCoverArguments() end
 
----@private
 ---@param target gameObject
 ---@return nil
-function AIHumanComponent:StartGrenadeThrowQuery(target) return end
+function AIHumanComponent:StartGrenadeThrowQuery(target) end
 
----@private
 ---@param commandClassNames CName[]|string[]
 ---@return nil
-function AIHumanComponent:TrackActionCommandID(commandClassNames) return end
+function AIHumanComponent:TrackActionCommandID(commandClassNames) end
 
 ---@return Bool
-function AIHumanComponent:TryBulletDodgeOpportunity() return end
+function AIHumanComponent:TryBulletDodgeOpportunity() end
 
----@private
 ---@param resetBB Bool
 ---@return nil
-function AIHumanComponent:UpdateMyAttackBlockedCount(resetBB) return end
+function AIHumanComponent:UpdateMyAttackBlockedCount(resetBB) end
 
----@private
 ---@param resetBB Bool
 ---@return nil
-function AIHumanComponent:UpdateMyAttackDodgedCount(resetBB) return end
+function AIHumanComponent:UpdateMyAttackDodgedCount(resetBB) end
 
----@private
 ---@param resetBB Bool
 ---@return nil
-function AIHumanComponent:UpdateMyAttackParriedCount(resetBB) return end
+function AIHumanComponent:UpdateMyAttackParriedCount(resetBB) end

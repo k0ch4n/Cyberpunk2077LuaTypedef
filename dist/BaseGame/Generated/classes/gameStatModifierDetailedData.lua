@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameStatModifierDetailedData
----@field public value Float
----@field public modifierType gameStatModifierType
+---@field value Float
+---@field modifierType gameStatModifierType
 gameStatModifierDetailedData = {}
 
 ---@param fields? gameStatModifierDetailedData
 ---@return gameStatModifierDetailedData
-function gameStatModifierDetailedData.new(fields) return end
+function gameStatModifierDetailedData.new(fields) end

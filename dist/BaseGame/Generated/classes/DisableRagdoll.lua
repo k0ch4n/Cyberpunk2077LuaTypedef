@@ -5,9 +5,8 @@ DisableRagdoll = {}
 
 ---@param fields? DisableRagdoll
 ---@return DisableRagdoll
-function DisableRagdoll.new(fields) return end
+function DisableRagdoll.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function DisableRagdoll:Activate(context) return end
+function DisableRagdoll:Activate(context) end

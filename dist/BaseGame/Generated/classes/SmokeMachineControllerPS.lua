@@ -5,30 +5,24 @@ SmokeMachineControllerPS = {}
 
 ---@param fields? SmokeMachineControllerPS
 ---@return SmokeMachineControllerPS
-function SmokeMachineControllerPS.new(fields) return end
+function SmokeMachineControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SmokeMachineControllerPS:OnInstantiated() return end
+function SmokeMachineControllerPS:OnInstantiated() end
 
----@protected
 ---@return OverloadDevice
-function SmokeMachineControllerPS:ActionOverloadDevice() return end
+function SmokeMachineControllerPS:ActionOverloadDevice() end
 
----@protected
 ---@return Bool
-function SmokeMachineControllerPS:CanCreateAnyQuickHackActions() return end
+function SmokeMachineControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function SmokeMachineControllerPS:GetQuickHackActions(context) return end
+function SmokeMachineControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return nil
-function SmokeMachineControllerPS:Initialize() return end
+function SmokeMachineControllerPS:Initialize() end
 
----@protected
 ---@param evt OverloadDevice
 ---@return EntityNotificationType
-function SmokeMachineControllerPS:OnOverloadDevice(evt) return end
+function SmokeMachineControllerPS:OnOverloadDevice(evt) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PauseMenuListItemData: ListItemData
----@field public eventName CName
----@field public action PauseMenuAction
+---@field eventName CName
+---@field action PauseMenuAction
 PauseMenuListItemData = {}
 
 ---@param fields? PauseMenuListItemData
 ---@return PauseMenuListItemData
-function PauseMenuListItemData.new(fields) return end
+function PauseMenuListItemData.new(fields) end

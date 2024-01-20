@@ -5,4 +5,4 @@ animAnimEvent_SafeCut = {}
 
 ---@param fields? animAnimEvent_SafeCut
 ---@return animAnimEvent_SafeCut
-function animAnimEvent_SafeCut.new(fields) return end
+function animAnimEvent_SafeCut.new(fields) end

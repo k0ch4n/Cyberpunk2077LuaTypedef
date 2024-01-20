@@ -5,4 +5,4 @@ gameMuppetInputActionUseConsumable = {}
 
 ---@param fields? gameMuppetInputActionUseConsumable
 ---@return gameMuppetInputActionUseConsumable
-function gameMuppetInputActionUseConsumable.new(fields) return end
+function gameMuppetInputActionUseConsumable.new(fields) end

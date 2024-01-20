@@ -5,4 +5,4 @@ ProjectileBreachEvent = {}
 
 ---@param fields? ProjectileBreachEvent
 ---@return ProjectileBreachEvent
-function ProjectileBreachEvent.new(fields) return end
+function ProjectileBreachEvent.new(fields) end

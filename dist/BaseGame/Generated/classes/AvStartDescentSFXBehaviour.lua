@@ -5,9 +5,8 @@ AvStartDescentSFXBehaviour = {}
 
 ---@param fields? AvStartDescentSFXBehaviour
 ---@return AvStartDescentSFXBehaviour
-function AvStartDescentSFXBehaviour.new(fields) return end
+function AvStartDescentSFXBehaviour.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AvStartDescentSFXBehaviour:Activate(context) return end
+function AvStartDescentSFXBehaviour:Activate(context) end

@@ -5,10 +5,10 @@ BeginArcadeMinigameUI = {}
 
 ---@param fields? BeginArcadeMinigameUI
 ---@return BeginArcadeMinigameUI
-function BeginArcadeMinigameUI.new(fields) return end
+function BeginArcadeMinigameUI.new(fields) end
 
 ---@return String
-function BeginArcadeMinigameUI:GetTweakDBChoiceRecord() return end
+function BeginArcadeMinigameUI:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function BeginArcadeMinigameUI:SetProperties() return end
+function BeginArcadeMinigameUI:SetProperties() end

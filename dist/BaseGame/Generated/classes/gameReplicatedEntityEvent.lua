@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameReplicatedEntityEvent: entReplicatedItem
----@field public value redEvent
+---@field value redEvent
 gameReplicatedEntityEvent = {}
 
 ---@param fields? gameReplicatedEntityEvent
 ---@return gameReplicatedEntityEvent
-function gameReplicatedEntityEvent.new(fields) return end
+function gameReplicatedEntityEvent.new(fields) end

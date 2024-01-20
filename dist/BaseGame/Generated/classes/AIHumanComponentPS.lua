@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIHumanComponentPS: AICommandQueuePS
----@field public spotUsageToken AISpotUsageToken
+---@field spotUsageToken AISpotUsageToken
 AIHumanComponentPS = {}
 
 ---@param fields? AIHumanComponentPS
 ---@return AIHumanComponentPS
-function AIHumanComponentPS.new(fields) return end
+function AIHumanComponentPS.new(fields) end

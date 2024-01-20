@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RequestQuestTakeControlInputLock: gameScriptableSystemRequest
----@field public isLocked Bool
----@field public isChainForced Bool
+---@field isLocked Bool
+---@field isChainForced Bool
 RequestQuestTakeControlInputLock = {}
 
 ---@param fields? RequestQuestTakeControlInputLock
 ---@return RequestQuestTakeControlInputLock
-function RequestQuestTakeControlInputLock.new(fields) return end
+function RequestQuestTakeControlInputLock.new(fields) end

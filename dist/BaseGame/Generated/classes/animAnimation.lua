@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class animAnimation: ISerializable
----@field public tags redTagList
----@field public name CName
----@field public duration Float
----@field public animationType animAnimationType
----@field public animBuffer animIAnimationBuffer
----@field public additionalTransforms animAdditionalTransformContainer
----@field public additionalTracks animAdditionalFloatTrackContainer
----@field public motionExtraction animIMotionExtraction
----@field public frameClamping Bool
----@field public frameClampingStartFrame Int8
----@field public frameClampingEndFrame Int8
+---@field tags redTagList
+---@field name CName
+---@field duration Float
+---@field animationType animAnimationType
+---@field animBuffer animIAnimationBuffer
+---@field additionalTransforms animAdditionalTransformContainer
+---@field additionalTracks animAdditionalFloatTrackContainer
+---@field motionExtraction animIMotionExtraction
+---@field frameClamping Bool
+---@field frameClampingStartFrame Int8
+---@field frameClampingEndFrame Int8
 animAnimation = {}
 
 ---@param fields? animAnimation
 ---@return animAnimation
-function animAnimation.new(fields) return end
+function animAnimation.new(fields) end

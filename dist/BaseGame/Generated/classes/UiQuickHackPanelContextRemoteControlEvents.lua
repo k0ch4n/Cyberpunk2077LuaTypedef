@@ -5,10 +5,9 @@ UiQuickHackPanelContextRemoteControlEvents = {}
 
 ---@param fields? UiQuickHackPanelContextRemoteControlEvents
 ---@return UiQuickHackPanelContextRemoteControlEvents
-function UiQuickHackPanelContextRemoteControlEvents.new(fields) return end
+function UiQuickHackPanelContextRemoteControlEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UiQuickHackPanelContextRemoteControlEvents:OnEnter(stateContext, scriptInterface) return end
+function UiQuickHackPanelContextRemoteControlEvents:OnEnter(stateContext, scriptInterface) end

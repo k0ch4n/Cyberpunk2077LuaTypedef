@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIApproachingAreaResponseEvent: redEvent
----@field public sender entEntity
----@field public areaComponent gameStaticAreaShapeComponent
----@field public isPassingThrough Bool
+---@field sender entEntity
+---@field areaComponent gameStaticAreaShapeComponent
+---@field isPassingThrough Bool
 AIApproachingAreaResponseEvent = {}
 
 ---@param fields? AIApproachingAreaResponseEvent
 ---@return AIApproachingAreaResponseEvent
-function AIApproachingAreaResponseEvent.new(fields) return end
+function AIApproachingAreaResponseEvent.new(fields) end

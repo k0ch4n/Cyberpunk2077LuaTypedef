@@ -5,4 +5,4 @@ AIOwnerThreatCoverSelection = {}
 
 ---@param fields? AIOwnerThreatCoverSelection
 ---@return AIOwnerThreatCoverSelection
-function AIOwnerThreatCoverSelection.new(fields) return end
+function AIOwnerThreatCoverSelection.new(fields) end

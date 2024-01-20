@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class QuantityPickerPopupCloseData: inkGameNotificationData
----@field public choosenQuantity Int32
----@field public itemData gameInventoryItemData
----@field public inventoryItem UIInventoryItem
----@field public actionType QuantityPickerActionType
----@field public isBuyback Bool
+---@field choosenQuantity Int32
+---@field itemData gameInventoryItemData
+---@field inventoryItem UIInventoryItem
+---@field actionType QuantityPickerActionType
+---@field isBuyback Bool
 QuantityPickerPopupCloseData = {}
 
 ---@param fields? QuantityPickerPopupCloseData
 ---@return QuantityPickerPopupCloseData
-function QuantityPickerPopupCloseData.new(fields) return end
+function QuantityPickerPopupCloseData.new(fields) end

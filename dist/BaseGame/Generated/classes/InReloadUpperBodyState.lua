@@ -5,8 +5,7 @@ InReloadUpperBodyState = {}
 
 ---@param fields? InReloadUpperBodyState
 ---@return InReloadUpperBodyState
-function InReloadUpperBodyState.new(fields) return end
+function InReloadUpperBodyState.new(fields) end
 
----@private
 ---@return gamedataNPCUpperBodyState
-function InReloadUpperBodyState:GetStateToCheck() return end
+function InReloadUpperBodyState:GetStateToCheck() end

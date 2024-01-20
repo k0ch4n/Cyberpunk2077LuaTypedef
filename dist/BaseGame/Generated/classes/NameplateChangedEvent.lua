@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NameplateChangedEvent: gameScriptableSystemRequest
----@field public entity entEntityID
+---@field entity entEntityID
 NameplateChangedEvent = {}
 
 ---@param fields? NameplateChangedEvent
 ---@return NameplateChangedEvent
-function NameplateChangedEvent.new(fields) return end
+function NameplateChangedEvent.new(fields) end

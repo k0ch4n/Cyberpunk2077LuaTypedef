@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class ApplyQuickhackEffector: AbstractApplyQuickhackEffector
----@field public quickhackObjectActionID TweakDBID
----@field public quickhackObjectActionRecord gamedataObjectAction_Record
----@field public MaxUploadChance Float
----@field public uploadTime Float
+---@field quickhackObjectActionID TweakDBID
+---@field quickhackObjectActionRecord gamedataObjectAction_Record
+---@field MaxUploadChance Float
+---@field uploadTime Float
 ApplyQuickhackEffector = {}
 
 ---@param fields? ApplyQuickhackEffector
 ---@return ApplyQuickhackEffector
-function ApplyQuickhackEffector.new(fields) return end
+function ApplyQuickhackEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyQuickhackEffector:Initialize(record, parentRecord) return end
+function ApplyQuickhackEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@param playerPuppet PlayerPuppet
 ---@param targetScriptedPuppet ScriptedPuppet
 ---@return nil
-function ApplyQuickhackEffector:ProcessApplyQuickhackAction(hitEvent, playerPuppet, targetScriptedPuppet) return end
+function ApplyQuickhackEffector:ProcessApplyQuickhackAction(hitEvent, playerPuppet, targetScriptedPuppet) end

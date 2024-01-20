@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIPlayMountedSlotWorkspotCommand: AICommand
----@field public mountData gameMountDescriptor
+---@field mountData gameMountDescriptor
 AIPlayMountedSlotWorkspotCommand = {}
 
 ---@param fields? AIPlayMountedSlotWorkspotCommand
 ---@return AIPlayMountedSlotWorkspotCommand
-function AIPlayMountedSlotWorkspotCommand.new(fields) return end
+function AIPlayMountedSlotWorkspotCommand.new(fields) end

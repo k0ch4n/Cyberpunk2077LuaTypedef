@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioKeySoundEventPairDictionaryItem: audioInlinedAudioMetadata
----@field public key CName
----@field public value CName
+---@field key CName
+---@field value CName
 audioKeySoundEventPairDictionaryItem = {}
 
 ---@param fields? audioKeySoundEventPairDictionaryItem
 ---@return audioKeySoundEventPairDictionaryItem
-function audioKeySoundEventPairDictionaryItem.new(fields) return end
+function audioKeySoundEventPairDictionaryItem.new(fields) end

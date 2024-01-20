@@ -5,11 +5,10 @@ gameNavmeshDetector = {}
 
 ---@param fields? gameNavmeshDetector
 ---@return gameNavmeshDetector
-function gameNavmeshDetector.new(fields) return end
+function gameNavmeshDetector.new(fields) end
 
----@protected
 ---@param onNavmesh Bool
 ---@param navmeshDistance Float
 ---@param overlapGeometry Bool
 ---@return nil
-function gameNavmeshDetector:OnNavmeshStateChanged(onNavmesh, navmeshDistance, overlapGeometry) return end
+function gameNavmeshDetector:OnNavmeshStateChanged(onNavmesh, navmeshDistance, overlapGeometry) end

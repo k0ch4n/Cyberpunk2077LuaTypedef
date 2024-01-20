@@ -5,4 +5,4 @@ worldgeometryCoverDescriptionQuery = {}
 
 ---@param fields? worldgeometryCoverDescriptionQuery
 ---@return worldgeometryCoverDescriptionQuery
-function worldgeometryCoverDescriptionQuery.new(fields) return end
+function worldgeometryCoverDescriptionQuery.new(fields) end

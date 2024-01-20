@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIAimAtTargetCommand: AICombatRelatedCommand
----@field public targetOverrideNodeRef NodeRef
----@field public targetOverridePuppetRef gameEntityReference
----@field public duration Float
+---@field targetOverrideNodeRef NodeRef
+---@field targetOverridePuppetRef gameEntityReference
+---@field duration Float
 AIAimAtTargetCommand = {}
 
 ---@param fields? AIAimAtTargetCommand
 ---@return AIAimAtTargetCommand
-function AIAimAtTargetCommand.new(fields) return end
+function AIAimAtTargetCommand.new(fields) end

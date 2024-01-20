@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameJournalQuestMultiMapPin: gameJournalQuestMapPinBase
----@field public references NodeRef[]
----@field public slotName CName
----@field public mappinData gamemappinsMappinData
----@field public offset Vector3
----@field public uiAnimation TweakDBID
+---@field references NodeRef[]
+---@field slotName CName
+---@field mappinData gamemappinsMappinData
+---@field offset Vector3
+---@field uiAnimation TweakDBID
 gameJournalQuestMultiMapPin = {}
 
 ---@param fields? gameJournalQuestMultiMapPin
 ---@return gameJournalQuestMultiMapPin
-function gameJournalQuestMultiMapPin.new(fields) return end
+function gameJournalQuestMultiMapPin.new(fields) end

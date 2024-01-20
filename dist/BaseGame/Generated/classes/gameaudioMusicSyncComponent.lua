@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameaudioMusicSyncComponent: entIComponent
----@field public notifyBeats Bool
----@field public notifyBars Bool
----@field public notifyGrid Bool
----@field public notifyBarProgression Bool
----@field public notifyBeatProgression Bool
----@field public syncTrack CName
+---@field notifyBeats Bool
+---@field notifyBars Bool
+---@field notifyGrid Bool
+---@field notifyBarProgression Bool
+---@field notifyBeatProgression Bool
+---@field syncTrack CName
 gameaudioMusicSyncComponent = {}
 
 ---@param fields? gameaudioMusicSyncComponent
 ---@return gameaudioMusicSyncComponent
-function gameaudioMusicSyncComponent.new(fields) return end
+function gameaudioMusicSyncComponent.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class rendRenderTextureBlobTextureInfo
----@field public type GpuWrapApieTextureType
----@field public textureDataSize Uint32
----@field public sliceSize Uint32
----@field public dataAlignment Uint32
----@field public sliceCount Uint16
----@field public mipCount Uint8
+---@field type GpuWrapApieTextureType
+---@field textureDataSize Uint32
+---@field sliceSize Uint32
+---@field dataAlignment Uint32
+---@field sliceCount Uint16
+---@field mipCount Uint8
 rendRenderTextureBlobTextureInfo = {}
 
 ---@param fields? rendRenderTextureBlobTextureInfo
 ---@return rendRenderTextureBlobTextureInfo
-function rendRenderTextureBlobTextureInfo.new(fields) return end
+function rendRenderTextureBlobTextureInfo.new(fields) end

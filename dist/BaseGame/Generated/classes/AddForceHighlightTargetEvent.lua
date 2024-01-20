@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AddForceHighlightTargetEvent: redEvent
----@field public targetID entEntityID
----@field public effecName CName
+---@field targetID entEntityID
+---@field effecName CName
 AddForceHighlightTargetEvent = {}
 
 ---@param fields? AddForceHighlightTargetEvent
 ---@return AddForceHighlightTargetEvent
-function AddForceHighlightTargetEvent.new(fields) return end
+function AddForceHighlightTargetEvent.new(fields) end

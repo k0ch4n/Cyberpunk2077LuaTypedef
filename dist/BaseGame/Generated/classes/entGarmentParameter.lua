@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entGarmentParameter: entEntityParameter
----@field public componentsData entGarmentParameterComponentData[]
----@field public collarArea garmentCollarAreaParams
----@field public lastUpdateDateTime CDateTime
+---@field componentsData entGarmentParameterComponentData[]
+---@field collarArea garmentCollarAreaParams
+---@field lastUpdateDateTime CDateTime
 entGarmentParameter = {}
 
 ---@param fields? entGarmentParameter
 ---@return entGarmentParameter
-function entGarmentParameter.new(fields) return end
+function entGarmentParameter.new(fields) end

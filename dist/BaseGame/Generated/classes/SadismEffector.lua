@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class SadismEffector: gameEffector
----@field public healingItemChargeRestorePercentage Float
+---@field healingItemChargeRestorePercentage Float
 SadismEffector = {}
 
 ---@param fields? SadismEffector
 ---@return SadismEffector
-function SadismEffector.new(fields) return end
+function SadismEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SadismEffector:ActionOn(owner) return end
+function SadismEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SadismEffector:Initialize(record, parentRecord) return end
+function SadismEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function SadismEffector:ProcessAction(owner) return end
+function SadismEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SadismEffector:RepeatedAction(owner) return end
+function SadismEffector:RepeatedAction(owner) end

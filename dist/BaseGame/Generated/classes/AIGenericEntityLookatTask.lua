@@ -1,42 +1,35 @@
 ---@meta
 
 ---@class AIGenericEntityLookatTask: AIGenericLookatTask
----@field private lookAtEvent entLookAtAddEvent
----@field private activationTimeStamp Float
----@field private lookatTarget entEntity
+---@field lookAtEvent entLookAtAddEvent
+---@field activationTimeStamp Float
+---@field lookatTarget entEntity
 AIGenericEntityLookatTask = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIGenericEntityLookatTask:Activate(context) return end
+function AIGenericEntityLookatTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIGenericEntityLookatTask:ActivateLookat(context) return end
+function AIGenericEntityLookatTask:ActivateLookat(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param instant? Bool
 ---@return nil
-function AIGenericEntityLookatTask:DeactivateLookat(context, instant) return end
+function AIGenericEntityLookatTask:DeactivateLookat(context, instant) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gameObject
-function AIGenericEntityLookatTask:GetAimingLookatTarget(context) return end
+function AIGenericEntityLookatTask:GetAimingLookatTarget(context) end
 
----@protected
 ---@return entLookAtAddEvent
-function AIGenericEntityLookatTask:GetLookAtEvent() return end
+function AIGenericEntityLookatTask:GetLookAtEvent() end
 
----@protected
 ---@param lookAtEvent entLookAtAddEvent
 ---@return nil
-function AIGenericEntityLookatTask:SetLookAtEvent(lookAtEvent) return end
+function AIGenericEntityLookatTask:SetLookAtEvent(lookAtEvent) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIGenericEntityLookatTask:ShouldLookatBeActive(context) return end
+function AIGenericEntityLookatTask:ShouldLookatBeActive(context) end

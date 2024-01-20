@@ -5,4 +5,4 @@ gameTimeSkipFinishedEvent = {}
 
 ---@param fields? gameTimeSkipFinishedEvent
 ---@return gameTimeSkipFinishedEvent
-function gameTimeSkipFinishedEvent.new(fields) return end
+function gameTimeSkipFinishedEvent.new(fields) end

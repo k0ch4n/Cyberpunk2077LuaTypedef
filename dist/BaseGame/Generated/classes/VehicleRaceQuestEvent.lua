@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class VehicleRaceQuestEvent: redEvent
----@field public mode vehicleRaceUI
----@field public maxPosition Int32
----@field public maxCheckpoints Int32
+---@field mode vehicleRaceUI
+---@field maxPosition Int32
+---@field maxCheckpoints Int32
 VehicleRaceQuestEvent = {}
 
 ---@param fields? VehicleRaceQuestEvent
 ---@return VehicleRaceQuestEvent
-function VehicleRaceQuestEvent.new(fields) return end
+function VehicleRaceQuestEvent.new(fields) end
 
 ---@return String
-function VehicleRaceQuestEvent:GetFriendlyDescription() return end
+function VehicleRaceQuestEvent:GetFriendlyDescription() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EquipWardrobeSetRequest: gamePlayerScriptableSystemRequest
----@field public setID gameWardrobeClothingSetIndex
+---@field setID gameWardrobeClothingSetIndex
 EquipWardrobeSetRequest = {}
 
 ---@param fields? EquipWardrobeSetRequest
 ---@return EquipWardrobeSetRequest
-function EquipWardrobeSetRequest.new(fields) return end
+function EquipWardrobeSetRequest.new(fields) end

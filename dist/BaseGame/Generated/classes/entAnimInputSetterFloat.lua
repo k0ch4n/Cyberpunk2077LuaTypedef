@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimInputSetterFloat: entAnimInputSetter
----@field public value Float
+---@field value Float
 entAnimInputSetterFloat = {}
 
 ---@param fields? entAnimInputSetterFloat
 ---@return entAnimInputSetterFloat
-function entAnimInputSetterFloat.new(fields) return end
+function entAnimInputSetterFloat.new(fields) end

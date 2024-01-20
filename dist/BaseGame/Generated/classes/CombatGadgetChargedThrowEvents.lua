@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class CombatGadgetChargedThrowEvents: CombatGadgetTransitions
----@field public grenadeThrown Bool
----@field public localAimForward Vector4
----@field public localAimPosition Vector4
+---@field grenadeThrown Bool
+---@field localAimForward Vector4
+---@field localAimPosition Vector4
 CombatGadgetChargedThrowEvents = {}
 
 ---@param fields? CombatGadgetChargedThrowEvents
 ---@return CombatGadgetChargedThrowEvents
-function CombatGadgetChargedThrowEvents.new(fields) return end
+function CombatGadgetChargedThrowEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargedThrowEvents:OnEnter(stateContext, scriptInterface) return end
+function CombatGadgetChargedThrowEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetChargedThrowEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function CombatGadgetChargedThrowEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

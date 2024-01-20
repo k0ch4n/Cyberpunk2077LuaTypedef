@@ -5,9 +5,8 @@ AlertedAnimWrapper = {}
 
 ---@param fields? AlertedAnimWrapper
 ---@return AlertedAnimWrapper
-function AlertedAnimWrapper.new(fields) return end
+function AlertedAnimWrapper.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AlertedAnimWrapper:Activate(context) return end
+function AlertedAnimWrapper:Activate(context) end

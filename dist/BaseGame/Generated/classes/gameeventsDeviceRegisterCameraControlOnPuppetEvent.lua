@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameeventsDeviceRegisterCameraControlOnPuppetEvent: redEvent
----@field public component gameDeviceCameraControlComponent
----@field public register Bool
+---@field component gameDeviceCameraControlComponent
+---@field register Bool
 gameeventsDeviceRegisterCameraControlOnPuppetEvent = {}
 
 ---@param fields? gameeventsDeviceRegisterCameraControlOnPuppetEvent
 ---@return gameeventsDeviceRegisterCameraControlOnPuppetEvent
-function gameeventsDeviceRegisterCameraControlOnPuppetEvent.new(fields) return end
+function gameeventsDeviceRegisterCameraControlOnPuppetEvent.new(fields) end

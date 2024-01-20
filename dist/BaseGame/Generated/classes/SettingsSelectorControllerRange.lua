@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class SettingsSelectorControllerRange: inkSettingsSelectorController
----@field protected ValueText inkTextWidgetReference
----@field protected LeftArrow inkWidgetReference
----@field protected RightArrow inkWidgetReference
----@field protected ProgressBar inkWidgetReference
+---@field ValueText inkTextWidgetReference
+---@field LeftArrow inkWidgetReference
+---@field RightArrow inkWidgetReference
+---@field ProgressBar inkWidgetReference
 SettingsSelectorControllerRange = {}
 
 ---@param fields? SettingsSelectorControllerRange
 ---@return SettingsSelectorControllerRange
-function SettingsSelectorControllerRange.new(fields) return end
+function SettingsSelectorControllerRange.new(fields) end
 
----@protected
 ---@return Bool
-function SettingsSelectorControllerRange:OnInitialize() return end
+function SettingsSelectorControllerRange:OnInitialize() end
 
 ---@return nil
-function SettingsSelectorControllerRange:Refresh() return end
+function SettingsSelectorControllerRange:Refresh() end
 
----@protected
 ---@return nil
-function SettingsSelectorControllerRange:RegisterShortcutCallbacks() return end
+function SettingsSelectorControllerRange:RegisterShortcutCallbacks() end
 
----@protected
 ---@return nil
-function SettingsSelectorControllerRange:UpdateValueTextLanguageResources() return end
+function SettingsSelectorControllerRange:UpdateValueTextLanguageResources() end

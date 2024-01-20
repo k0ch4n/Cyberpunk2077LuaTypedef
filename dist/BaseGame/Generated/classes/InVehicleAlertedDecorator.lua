@@ -5,9 +5,8 @@ InVehicleAlertedDecorator = {}
 
 ---@param fields? InVehicleAlertedDecorator
 ---@return InVehicleAlertedDecorator
-function InVehicleAlertedDecorator.new(fields) return end
+function InVehicleAlertedDecorator.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InVehicleAlertedDecorator:Deactivate(context) return end
+function InVehicleAlertedDecorator:Deactivate(context) end

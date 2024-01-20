@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioRadioStationJingleMetadata
----@field public introJingleEvent CName
----@field public introDuration Float
----@field public middleJingleEvent CName
----@field public endJingleEvent CName
----@field public outroDuration Float
+---@field introJingleEvent CName
+---@field introDuration Float
+---@field middleJingleEvent CName
+---@field endJingleEvent CName
+---@field outroDuration Float
 audioRadioStationJingleMetadata = {}
 
 ---@param fields? audioRadioStationJingleMetadata
 ---@return audioRadioStationJingleMetadata
-function audioRadioStationJingleMetadata.new(fields) return end
+function audioRadioStationJingleMetadata.new(fields) end

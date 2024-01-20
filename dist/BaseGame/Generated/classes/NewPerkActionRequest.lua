@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class NewPerkActionRequest: gamePlayerScriptableSystemRequest
----@field public perkType gamedataNewPerkType
+---@field perkType gamedataNewPerkType
 NewPerkActionRequest = {}
 
 ---@param fields? NewPerkActionRequest
 ---@return NewPerkActionRequest
-function NewPerkActionRequest.new(fields) return end
+function NewPerkActionRequest.new(fields) end
 
 ---@param _owner gameObject
 ---@param type gamedataNewPerkType
 ---@return nil
-function NewPerkActionRequest:Set(_owner, type) return end
+function NewPerkActionRequest:Set(_owner, type) end

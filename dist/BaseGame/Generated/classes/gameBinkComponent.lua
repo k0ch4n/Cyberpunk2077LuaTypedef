@@ -1,55 +1,55 @@
 ---@meta
 
 ---@class gameBinkComponent: entIVisualComponent
----@field public meshTargetBinding gameBinkMeshTargetBinding
----@field public videoPlayerName CName
----@field public binkResource Bink
----@field public audioEvent CName
----@field public loopVideo Bool
----@field public forceVideoFrameRate Bool
----@field public isEnabled Bool
+---@field meshTargetBinding gameBinkMeshTargetBinding
+---@field videoPlayerName CName
+---@field binkResource Bink
+---@field audioEvent CName
+---@field loopVideo Bool
+---@field forceVideoFrameRate Bool
+---@field isEnabled Bool
 gameBinkComponent = {}
 
 ---@param fields? gameBinkComponent
 ---@return gameBinkComponent
-function gameBinkComponent.new(fields) return end
+function gameBinkComponent.new(fields) end
 
 ---@param forceVideoFrameRate Bool
 ---@return nil
-function gameBinkComponent:ForceVideoFrameRate(forceVideoFrameRate) return end
+function gameBinkComponent:ForceVideoFrameRate(forceVideoFrameRate) end
 
 ---@return gameBinkVideoSummary
-function gameBinkComponent:GetVideoSummary() return end
+function gameBinkComponent:GetVideoSummary() end
 
 ---@return nil
-function gameBinkComponent:IsPaused() return end
+function gameBinkComponent:IsPaused() end
 
 ---@param pauseVideo Bool
 ---@return nil
-function gameBinkComponent:Pause(pauseVideo) return end
+function gameBinkComponent:Pause(pauseVideo) end
 
 ---@return nil
-function gameBinkComponent:Play() return end
+function gameBinkComponent:Play() end
 
 ---@param loopVideo Bool
 ---@return nil
-function gameBinkComponent:SetIsLooped(loopVideo) return end
+function gameBinkComponent:SetIsLooped(loopVideo) end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@return nil
-function gameBinkComponent:SetVideoPath(videoPath) return end
+function gameBinkComponent:SetVideoPath(videoPath) end
 
 ---@param videoPlayerName CName|string
 ---@return nil
-function gameBinkComponent:SetVideoPlayerName(videoPlayerName) return end
+function gameBinkComponent:SetVideoPlayerName(videoPlayerName) end
 
 ---@param percentage Int32
 ---@return nil
-function gameBinkComponent:SkipFramePercentage(percentage) return end
+function gameBinkComponent:SkipFramePercentage(percentage) end
 
 ---@param numberOfFrames Int32
 ---@return nil
-function gameBinkComponent:SkipFrames(numberOfFrames) return end
+function gameBinkComponent:SkipFrames(numberOfFrames) end
 
 ---@return nil
-function gameBinkComponent:Stop() return end
+function gameBinkComponent:Stop() end

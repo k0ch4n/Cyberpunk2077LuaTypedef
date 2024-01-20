@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class meshMeshParamPhysics: meshMeshParameter
----@field public physicsData physicsSystemResource
+---@field physicsData physicsSystemResource
 meshMeshParamPhysics = {}
 
 ---@param fields? meshMeshParamPhysics
 ---@return meshMeshParamPhysics
-function meshMeshParamPhysics.new(fields) return end
+function meshMeshParamPhysics.new(fields) end

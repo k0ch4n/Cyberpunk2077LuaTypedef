@@ -5,16 +5,14 @@ MeleePublicSafeDecisions = {}
 
 ---@param fields? MeleePublicSafeDecisions
 ---@return MeleePublicSafeDecisions
-function MeleePublicSafeDecisions.new(fields) return end
+function MeleePublicSafeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleePublicSafeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleePublicSafeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleePublicSafeDecisions:ToMeleeIdle(stateContext, scriptInterface) return end
+function MeleePublicSafeDecisions:ToMeleeIdle(stateContext, scriptInterface) end

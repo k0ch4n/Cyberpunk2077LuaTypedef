@@ -5,7 +5,7 @@ ClearCustomObjectDescriptionEvent = {}
 
 ---@param fields? ClearCustomObjectDescriptionEvent
 ---@return ClearCustomObjectDescriptionEvent
-function ClearCustomObjectDescriptionEvent.new(fields) return end
+function ClearCustomObjectDescriptionEvent.new(fields) end
 
 ---@return String
-function ClearCustomObjectDescriptionEvent:GetFriendlyDescription() return end
+function ClearCustomObjectDescriptionEvent:GetFriendlyDescription() end

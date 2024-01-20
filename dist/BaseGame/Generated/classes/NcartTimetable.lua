@@ -1,118 +1,97 @@
 ---@meta
 
 ---@class NcartTimetable: InteractiveDevice
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
 NcartTimetable = {}
 
 ---@param fields? NcartTimetable
 ---@return NcartTimetable
-function NcartTimetable.new(fields) return end
+function NcartTimetable.new(fields) end
 
----@protected
 ---@param evt NcartTimeTableCounterUpdateEvent
 ---@return Bool
-function NcartTimetable:OnCounterUpdate(evt) return end
+function NcartTimetable:OnCounterUpdate(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function NcartTimetable:OnHitEvent(hit) return end
+function NcartTimetable:OnHitEvent(hit) end
 
----@protected
 ---@param evt GameAttachedEvent
 ---@return Bool
-function NcartTimetable:OnPersitentStateInitialized(evt) return end
+function NcartTimetable:OnPersitentStateInitialized(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function NcartTimetable:OnRequestComponents(ri) return end
+function NcartTimetable:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function NcartTimetable:OnStopShortGlitch(evt) return end
+function NcartTimetable:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function NcartTimetable:OnTakeControl(ri) return end
+function NcartTimetable:OnTakeControl(ri) end
 
----@protected
 ---@param target entEntityID
 ---@param statusEffect TweakDBID|string
 ---@return nil
-function NcartTimetable:ApplyActiveStatusEffect(target, statusEffect) return end
+function NcartTimetable:ApplyActiveStatusEffect(target, statusEffect) end
 
----@protected
 ---@return nil
-function NcartTimetable:CreateBlackboard() return end
+function NcartTimetable:CreateBlackboard() end
 
----@protected
 ---@return nil
-function NcartTimetable:CutPower() return end
+function NcartTimetable:CutPower() end
 
 ---@return EGameplayRole
-function NcartTimetable:DeterminGameplayRole() return end
+function NcartTimetable:DeterminGameplayRole() end
 
 ---@return NcartTimetableBlackboardDef
-function NcartTimetable:GetBlackboardDef() return end
+function NcartTimetable:GetBlackboardDef() end
 
----@protected
 ---@return NcartTimetableController
-function NcartTimetable:GetController() return end
+function NcartTimetable:GetController() end
 
 ---@return NcartTimetableControllerPS
-function NcartTimetable:GetDevicePS() return end
+function NcartTimetable:GetDevicePS() end
 
----@private
 ---@return nil
-function NcartTimetable:InitializeDisplayUpdate() return end
+function NcartTimetable:InitializeDisplayUpdate() end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function NcartTimetable:ResavePersistentData(ps) return end
+function NcartTimetable:ResavePersistentData(ps) end
 
----@protected
 ---@return nil
-function NcartTimetable:ResolveGameplayState() return end
+function NcartTimetable:ResolveGameplayState() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function NcartTimetable:StartGlitching(glitchState, intensity) return end
+function NcartTimetable:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function NcartTimetable:StartShortGlitch() return end
+function NcartTimetable:StartShortGlitch() end
 
----@protected
 ---@return nil
-function NcartTimetable:StopGlitching() return end
+function NcartTimetable:StopGlitching() end
 
----@protected
 ---@return nil
-function NcartTimetable:TurnOffDevice() return end
+function NcartTimetable:TurnOffDevice() end
 
----@private
 ---@return nil
-function NcartTimetable:TurnOffScreen() return end
+function NcartTimetable:TurnOffScreen() end
 
----@protected
 ---@return nil
-function NcartTimetable:TurnOnDevice() return end
+function NcartTimetable:TurnOnDevice() end
 
----@private
 ---@return nil
-function NcartTimetable:TurnOnScreen() return end
+function NcartTimetable:TurnOnScreen() end
 
----@private
 ---@return nil
-function NcartTimetable:UpdateCounterUI() return end
+function NcartTimetable:UpdateCounterUI() end
 
----@protected
 ---@param targetID entEntityID
 ---@return nil
-function NcartTimetable:UploadActiveProgramOnNPC(targetID) return end
+function NcartTimetable:UploadActiveProgramOnNPC(targetID) end

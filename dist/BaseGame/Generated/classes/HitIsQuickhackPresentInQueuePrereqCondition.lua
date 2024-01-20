@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class HitIsQuickhackPresentInQueuePrereqCondition: BaseHitPrereqCondition
----@field public hackCategory gamedataHackCategory_Record
----@field public isTheNextQhInQueue Bool
+---@field hackCategory gamedataHackCategory_Record
+---@field isTheNextQhInQueue Bool
 HitIsQuickhackPresentInQueuePrereqCondition = {}
 
 ---@param fields? HitIsQuickhackPresentInQueuePrereqCondition
 ---@return HitIsQuickhackPresentInQueuePrereqCondition
-function HitIsQuickhackPresentInQueuePrereqCondition.new(fields) return end
+function HitIsQuickhackPresentInQueuePrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitIsQuickhackPresentInQueuePrereqCondition:Evaluate(hitEvent) return end
+function HitIsQuickhackPresentInQueuePrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitIsQuickhackPresentInQueuePrereqCondition:SetData(recordID) return end
+function HitIsQuickhackPresentInQueuePrereqCondition:SetData(recordID) end

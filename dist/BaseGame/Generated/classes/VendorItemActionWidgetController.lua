@@ -1,38 +1,35 @@
 ---@meta
 
 ---@class VendorItemActionWidgetController: DeviceActionWidgetControllerBase
----@field protected priceWidget inkTextWidgetReference
----@field protected priceContainer inkWidgetReference
----@field protected moneyStatusContainer inkWidgetReference
----@field protected processingStatusContainer inkWidgetReference
+---@field priceWidget inkTextWidgetReference
+---@field priceContainer inkWidgetReference
+---@field moneyStatusContainer inkWidgetReference
+---@field processingStatusContainer inkWidgetReference
 VendorItemActionWidgetController = {}
 
 ---@param fields? VendorItemActionWidgetController
 ---@return VendorItemActionWidgetController
-function VendorItemActionWidgetController.new(fields) return end
+function VendorItemActionWidgetController.new(fields) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function VendorItemActionWidgetController:OnNoMoneyShowed(e) return end
+function VendorItemActionWidgetController:OnNoMoneyShowed(e) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function VendorItemActionWidgetController:OnPaymentProcessed(e) return end
+function VendorItemActionWidgetController:OnPaymentProcessed(e) end
 
 ---@param executor gameObject
 ---@param action gamedeviceAction
 ---@return nil
-function VendorItemActionWidgetController:FinalizeActionExecution(executor, action) return end
+function VendorItemActionWidgetController:FinalizeActionExecution(executor, action) end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function VendorItemActionWidgetController:Initialize(gameController, widgetData) return end
+function VendorItemActionWidgetController:Initialize(gameController, widgetData) end
 
----@protected
 ---@param action DispenceItemFromVendor
 ---@param executor gameObject
 ---@return nil
-function VendorItemActionWidgetController:ProcessPayment(action, executor) return end
+function VendorItemActionWidgetController:ProcessPayment(action, executor) end

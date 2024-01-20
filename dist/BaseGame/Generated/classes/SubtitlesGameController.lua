@@ -1,76 +1,63 @@
 ---@meta
 
 ---@class SubtitlesGameController: BaseSubtitlesGameController
----@field private sceneComment inkTextWidget
----@field private subtitlesPanel inkVerticalPanelWidget
----@field private bbCbShowSceneComment redCallbackObject
----@field private bbCbHideSceneComment redCallbackObject
----@field private uiSceneCommentsBlackboard gameIBlackboard
+---@field sceneComment inkTextWidget
+---@field subtitlesPanel inkVerticalPanelWidget
+---@field bbCbShowSceneComment redCallbackObject
+---@field bbCbHideSceneComment redCallbackObject
+---@field uiSceneCommentsBlackboard gameIBlackboard
 SubtitlesGameController = {}
 
 ---@param fields? SubtitlesGameController
 ---@return SubtitlesGameController
-function SubtitlesGameController.new(fields) return end
+function SubtitlesGameController.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function SubtitlesGameController:OnHideSceneComment(value) return end
+function SubtitlesGameController:OnHideSceneComment(value) end
 
----@protected
 ---@return Bool
-function SubtitlesGameController:OnInitialize() return end
+function SubtitlesGameController:OnInitialize() end
 
----@protected
 ---@param value String
 ---@return Bool
-function SubtitlesGameController:OnShowSceneComment(value) return end
+function SubtitlesGameController:OnShowSceneComment(value) end
 
----@protected
 ---@return Bool
-function SubtitlesGameController:OnUninitialize() return end
+function SubtitlesGameController:OnUninitialize() end
 
----@protected
 ---@param lineSpawnData LineSpawnData
 ---@return nil
-function SubtitlesGameController:CreateLine(lineSpawnData) return end
+function SubtitlesGameController:CreateLine(lineSpawnData) end
 
----@protected
 ---@param lineData subtitleLineMapEntry
 ---@return nil
-function SubtitlesGameController:OnHideLine(lineData) return end
+function SubtitlesGameController:OnHideLine(lineData) end
 
----@protected
 ---@param lineData subtitleLineMapEntry
 ---@return nil
-function SubtitlesGameController:OnHideLineByData(lineData) return end
+function SubtitlesGameController:OnHideLineByData(lineData) end
 
----@protected
 ---@param controller BaseSubtitleLineLogicController
 ---@return nil
-function SubtitlesGameController:OnSubCreated(controller) return end
+function SubtitlesGameController:OnSubCreated(controller) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function SubtitlesGameController:SetRadioSubsVisibilitySetting(value) return end
+function SubtitlesGameController:SetRadioSubsVisibilitySetting(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function SubtitlesGameController:SetSubsForeignLinesVisibilitySetting(value) return end
+function SubtitlesGameController:SetSubsForeignLinesVisibilitySetting(value) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function SubtitlesGameController:SetSubsVisibilitySetting(value) return end
+function SubtitlesGameController:SetSubsVisibilitySetting(value) end
 
----@protected
 ---@param lineData scnDialogLineData
 ---@return Bool
-function SubtitlesGameController:ShouldDisplayLine(lineData) return end
+function SubtitlesGameController:ShouldDisplayLine(lineData) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function SubtitlesGameController:ShowKiroshiSettings(value) return end
+function SubtitlesGameController:ShowKiroshiSettings(value) end

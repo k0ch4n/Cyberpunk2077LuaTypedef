@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorPassiveSignalConditionDefinition: AIbehaviorPassiveConditionDefinition
----@field public tag CName
----@field public deactivateSignal Bool
+---@field tag CName
+---@field deactivateSignal Bool
 AIbehaviorPassiveSignalConditionDefinition = {}
 
 ---@param fields? AIbehaviorPassiveSignalConditionDefinition
 ---@return AIbehaviorPassiveSignalConditionDefinition
-function AIbehaviorPassiveSignalConditionDefinition.new(fields) return end
+function AIbehaviorPassiveSignalConditionDefinition.new(fields) end

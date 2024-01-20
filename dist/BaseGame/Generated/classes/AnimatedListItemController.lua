@@ -1,42 +1,38 @@
 ---@meta
 
 ---@class AnimatedListItemController: inkListItemController
----@field protected animOutName CName
----@field protected animPulseName CName
----@field protected animTargetHover inkWidgetReference
----@field protected animTargetPulse inkWidgetReference
----@field protected normalRootOpacity Float
----@field protected hoverRootOpacity Float
----@field protected rootWidget inkCompoundWidget
----@field protected animTarget_Hover inkWidget
----@field protected animTarget_Pulse inkWidget
----@field private animHover inkanimDefinition
----@field private animPulse inkanimDefinition
----@field private animHoverProxy inkanimProxy
----@field private animPulseProxy inkanimProxy
----@field private animPulseOptions inkanimPlaybackOptions
+---@field animOutName CName
+---@field animPulseName CName
+---@field animTargetHover inkWidgetReference
+---@field animTargetPulse inkWidgetReference
+---@field normalRootOpacity Float
+---@field hoverRootOpacity Float
+---@field rootWidget inkCompoundWidget
+---@field animTarget_Hover inkWidget
+---@field animTarget_Pulse inkWidget
+---@field animHover inkanimDefinition
+---@field animPulse inkanimDefinition
+---@field animHoverProxy inkanimProxy
+---@field animPulseProxy inkanimProxy
+---@field animPulseOptions inkanimPlaybackOptions
 AnimatedListItemController = {}
 
 ---@param fields? AnimatedListItemController
 ---@return AnimatedListItemController
-function AnimatedListItemController.new(fields) return end
+function AnimatedListItemController.new(fields) end
 
----@protected
 ---@param target inkListItemController
 ---@return Bool
-function AnimatedListItemController:OnAddedToList(target) return end
+function AnimatedListItemController:OnAddedToList(target) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function AnimatedListItemController:OnButtonStateChanged(controller, oldState, newState) return end
+function AnimatedListItemController:OnButtonStateChanged(controller, oldState, newState) end
 
----@protected
 ---@return Bool
-function AnimatedListItemController:OnInitialize() return end
+function AnimatedListItemController:OnInitialize() end
 
----@protected
 ---@return Bool
-function AnimatedListItemController:OnUninitialize() return end
+function AnimatedListItemController:OnUninitialize() end

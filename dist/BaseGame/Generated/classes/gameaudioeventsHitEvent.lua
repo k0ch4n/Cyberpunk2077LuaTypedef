@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameaudioeventsHitEvent: redEvent
----@field public attackType gamedataAttackType
----@field public hitPosition Vector4
----@field public physicsMaterial CName
----@field public damage Float
----@field public isTargetPuppet Bool
----@field public targetPuppetMeleeMaterial CName
----@field public isTargetPuppetHead Bool
+---@field attackType gamedataAttackType
+---@field hitPosition Vector4
+---@field physicsMaterial CName
+---@field damage Float
+---@field isTargetPuppet Bool
+---@field targetPuppetMeleeMaterial CName
+---@field isTargetPuppetHead Bool
 gameaudioeventsHitEvent = {}
 
 ---@param fields? gameaudioeventsHitEvent
 ---@return gameaudioeventsHitEvent
-function gameaudioeventsHitEvent.new(fields) return end
+function gameaudioeventsHitEvent.new(fields) end

@@ -1,31 +1,30 @@
 ---@meta
 
 ---@class InventoryItemAttachmentsList: inkWidgetLogicController
----@field private libraryItemName CName
----@field private container inkCompoundWidgetReference
----@field private itemsList inkWidget[]
----@field private data CName[]
+---@field libraryItemName CName
+---@field container inkCompoundWidgetReference
+---@field itemsList inkWidget[]
+---@field data CName[]
 InventoryItemAttachmentsList = {}
 
 ---@param fields? InventoryItemAttachmentsList
 ---@return InventoryItemAttachmentsList
-function InventoryItemAttachmentsList.new(fields) return end
+function InventoryItemAttachmentsList.new(fields) end
 
 ---@param toLeave Int32
 ---@return nil
-function InventoryItemAttachmentsList:ClearData(toLeave) return end
+function InventoryItemAttachmentsList:ClearData(toLeave) end
 
 ---@param data CName[]|string[]
 ---@return nil
-function InventoryItemAttachmentsList:SetData(data) return end
+function InventoryItemAttachmentsList:SetData(data) end
 
----@private
 ---@return nil
-function InventoryItemAttachmentsList:UpdateLayout() return end
+function InventoryItemAttachmentsList:UpdateLayout() end
 
 ---@param force Bool
 ---@return nil
-function InventoryItemAttachmentsList:UpdateVisibility(force) return end
+function InventoryItemAttachmentsList:UpdateVisibility(force) end
 
 ---@return nil
-function InventoryItemAttachmentsList:UpdateVisibility() return end
+function InventoryItemAttachmentsList:UpdateVisibility() end

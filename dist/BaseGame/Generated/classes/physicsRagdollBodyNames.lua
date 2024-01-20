@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsRagdollBodyNames
----@field public ParentAnimName CName
----@field public ChildAnimName CName
+---@field ParentAnimName CName
+---@field ChildAnimName CName
 physicsRagdollBodyNames = {}
 
 ---@param fields? physicsRagdollBodyNames
 ---@return physicsRagdollBodyNames
-function physicsRagdollBodyNames.new(fields) return end
+function physicsRagdollBodyNames.new(fields) end

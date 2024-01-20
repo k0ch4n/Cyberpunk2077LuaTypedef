@@ -1,89 +1,89 @@
 ---@meta
 
 ---@class AnimationSystemForcedVisibilityEntityData: IScriptable
----@field private owner AnimationSystemForcedVisibilityManager
----@field private entityID entEntityID
----@field private forcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
----@field private delayedForcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
----@field private hasVisibilityForcedInAnimSystem Bool
----@field private hasVisibilityForcedOnlyInFrustumInAnimSystem Bool
+---@field owner AnimationSystemForcedVisibilityManager
+---@field entityID entEntityID
+---@field forcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
+---@field delayedForcedVisibilityInAnimSystemRequests ForcedVisibilityInAnimSystemData[]
+---@field hasVisibilityForcedInAnimSystem Bool
+---@field hasVisibilityForcedOnlyInFrustumInAnimSystem Bool
 AnimationSystemForcedVisibilityEntityData = {}
 
 ---@param fields? AnimationSystemForcedVisibilityEntityData
 ---@return AnimationSystemForcedVisibilityEntityData
-function AnimationSystemForcedVisibilityEntityData.new(fields) return end
+function AnimationSystemForcedVisibilityEntityData.new(fields) end
 
 ---@param data ForcedVisibilityInAnimSystemData
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:AddDelayedForcedVisiblityInAnimSystemRequest(data) return end
+function AnimationSystemForcedVisibilityEntityData:AddDelayedForcedVisiblityInAnimSystemRequest(data) end
 
 ---@param data ForcedVisibilityInAnimSystemData
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:AddForcedVisiblityInAnimSystemRequest(data) return end
+function AnimationSystemForcedVisibilityEntityData:AddForcedVisiblityInAnimSystemRequest(data) end
 
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:ClearAllRequests() return end
+function AnimationSystemForcedVisibilityEntityData:ClearAllRequests() end
 
 ---@param sourceName CName|string
 ---@return ForcedVisibilityInAnimSystemData
-function AnimationSystemForcedVisibilityEntityData:GetDelayedForcedVisiblityInAnimSystemRequest(sourceName) return end
+function AnimationSystemForcedVisibilityEntityData:GetDelayedForcedVisiblityInAnimSystemRequest(sourceName) end
 
 ---@return entEntityID
-function AnimationSystemForcedVisibilityEntityData:GetEntityID() return end
+function AnimationSystemForcedVisibilityEntityData:GetEntityID() end
 
 ---@param sourceName CName|string
 ---@return ForcedVisibilityInAnimSystemData
-function AnimationSystemForcedVisibilityEntityData:GetForcedVisiblityInAnimSystemRequest(sourceName) return end
+function AnimationSystemForcedVisibilityEntityData:GetForcedVisiblityInAnimSystemRequest(sourceName) end
 
 ---@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasActiveRequestsForForcedVisibilityInAnimSystem() return end
+function AnimationSystemForcedVisibilityEntityData:HasActiveRequestsForForcedVisibilityInAnimSystem() end
 
 ---@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasActiveRequestsForForcedVisibilityOnlyInFrustumInAnimSystem() return end
-
----@param data ForcedVisibilityInAnimSystemData
----@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasDelayedForcedVisiblityInAnimSystemRequest(data) return end
-
----@param sourceName CName|string
----@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasDelayedForcedVisiblityInAnimSystemRequest(sourceName) return end
+function AnimationSystemForcedVisibilityEntityData:HasActiveRequestsForForcedVisibilityOnlyInFrustumInAnimSystem() end
 
 ---@param data ForcedVisibilityInAnimSystemData
 ---@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasForcedVisiblityInAnimSystemRequest(data) return end
+function AnimationSystemForcedVisibilityEntityData:HasDelayedForcedVisiblityInAnimSystemRequest(data) end
 
 ---@param sourceName CName|string
 ---@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasForcedVisiblityInAnimSystemRequest(sourceName) return end
+function AnimationSystemForcedVisibilityEntityData:HasDelayedForcedVisiblityInAnimSystemRequest(sourceName) end
+
+---@param data ForcedVisibilityInAnimSystemData
+---@return Bool
+function AnimationSystemForcedVisibilityEntityData:HasForcedVisiblityInAnimSystemRequest(data) end
+
+---@param sourceName CName|string
+---@return Bool
+function AnimationSystemForcedVisibilityEntityData:HasForcedVisiblityInAnimSystemRequest(sourceName) end
 
 ---@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasVisibilityForcedInAnimSystem() return end
+function AnimationSystemForcedVisibilityEntityData:HasVisibilityForcedInAnimSystem() end
 
 ---@return Bool
-function AnimationSystemForcedVisibilityEntityData:HasVisibilityForcedOnlyInFrustumInAnimSystem() return end
+function AnimationSystemForcedVisibilityEntityData:HasVisibilityForcedOnlyInFrustumInAnimSystem() end
 
 ---@param entityID entEntityID
 ---@param owner AnimationSystemForcedVisibilityManager
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:Initialize(entityID, owner) return end
+function AnimationSystemForcedVisibilityEntityData:Initialize(entityID, owner) end
 
 ---@param data ForcedVisibilityInAnimSystemData
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:RemoveDelayedForcedVisiblityInAnimSystemRequest(data) return end
+function AnimationSystemForcedVisibilityEntityData:RemoveDelayedForcedVisiblityInAnimSystemRequest(data) end
 
 ---@param data ForcedVisibilityInAnimSystemData
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:RemoveForcedVisiblityInAnimSystemRequest(data) return end
+function AnimationSystemForcedVisibilityEntityData:RemoveForcedVisiblityInAnimSystemRequest(data) end
 
 ---@param sourceName CName|string
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:RemoveForcedVisiblityInAnimSystemRequest(sourceName) return end
+function AnimationSystemForcedVisibilityEntityData:RemoveForcedVisiblityInAnimSystemRequest(sourceName) end
 
 ---@param isVisible Bool
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:SetHasVisibilityForcedInAnimSystem(isVisible) return end
+function AnimationSystemForcedVisibilityEntityData:SetHasVisibilityForcedInAnimSystem(isVisible) end
 
 ---@param isVisible Bool
 ---@return nil
-function AnimationSystemForcedVisibilityEntityData:SetHasVisibilityForcedOnlyInFrustumInAnimSystem(isVisible) return end
+function AnimationSystemForcedVisibilityEntityData:SetHasVisibilityForcedOnlyInFrustumInAnimSystem(isVisible) end

@@ -5,4 +5,4 @@ worldCompiledCommunityAreaNodeInstance = {}
 
 ---@param fields? worldCompiledCommunityAreaNodeInstance
 ---@return worldCompiledCommunityAreaNodeInstance
-function worldCompiledCommunityAreaNodeInstance.new(fields) return end
+function worldCompiledCommunityAreaNodeInstance.new(fields) end

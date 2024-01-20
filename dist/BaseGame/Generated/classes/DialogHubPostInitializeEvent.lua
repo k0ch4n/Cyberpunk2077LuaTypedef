@@ -5,4 +5,4 @@ DialogHubPostInitializeEvent = {}
 
 ---@param fields? DialogHubPostInitializeEvent
 ---@return DialogHubPostInitializeEvent
-function DialogHubPostInitializeEvent.new(fields) return end
+function DialogHubPostInitializeEvent.new(fields) end

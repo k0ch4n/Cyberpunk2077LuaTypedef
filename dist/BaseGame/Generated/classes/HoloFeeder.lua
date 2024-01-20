@@ -1,47 +1,39 @@
 ---@meta
 
 ---@class HoloFeeder: InteractiveDevice
----@field private feederMesh entIPlacedComponent
----@field private feederMesh1 entIPlacedComponent
+---@field feederMesh entIPlacedComponent
+---@field feederMesh1 entIPlacedComponent
 HoloFeeder = {}
 
 ---@param fields? HoloFeeder
 ---@return HoloFeeder
-function HoloFeeder.new(fields) return end
+function HoloFeeder.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function HoloFeeder:OnRequestComponents(ri) return end
+function HoloFeeder:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function HoloFeeder:OnTakeControl(ri) return end
+function HoloFeeder:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function HoloFeeder:CutPower() return end
+function HoloFeeder:CutPower() end
 
----@private
 ---@return HoloFeederController
-function HoloFeeder:GetController() return end
+function HoloFeeder:GetController() end
 
 ---@return HoloFeederControllerPS
-function HoloFeeder:GetDevicePS() return end
+function HoloFeeder:GetDevicePS() end
 
----@private
 ---@return nil
-function HoloFeeder:TurnOff() return end
+function HoloFeeder:TurnOff() end
 
----@protected
 ---@return nil
-function HoloFeeder:TurnOffDevice() return end
+function HoloFeeder:TurnOffDevice() end
 
----@private
 ---@return nil
-function HoloFeeder:TurnOn() return end
+function HoloFeeder:TurnOn() end
 
----@protected
 ---@return nil
-function HoloFeeder:TurnOnDevice() return end
+function HoloFeeder:TurnOnDevice() end

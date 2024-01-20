@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ExplosiveDeviceDelayedEvent: redEvent
----@field public arrayIndex Int32
----@field public instigator gameObject
+---@field arrayIndex Int32
+---@field instigator gameObject
 ExplosiveDeviceDelayedEvent = {}
 
 ---@param fields? ExplosiveDeviceDelayedEvent
 ---@return ExplosiveDeviceDelayedEvent
-function ExplosiveDeviceDelayedEvent.new(fields) return end
+function ExplosiveDeviceDelayedEvent.new(fields) end

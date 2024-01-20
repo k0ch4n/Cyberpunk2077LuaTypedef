@@ -5,4 +5,4 @@ MeleeEquipAttackDecisions = {}
 
 ---@param fields? MeleeEquipAttackDecisions
 ---@return MeleeEquipAttackDecisions
-function MeleeEquipAttackDecisions.new(fields) return end
+function MeleeEquipAttackDecisions.new(fields) end

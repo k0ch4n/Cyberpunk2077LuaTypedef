@@ -5,9 +5,9 @@ ElevatorFloorViabilityInterpreter = {}
 
 ---@param fields? ElevatorFloorViabilityInterpreter
 ---@return ElevatorFloorViabilityInterpreter
-function ElevatorFloorViabilityInterpreter.new(fields) return end
+function ElevatorFloorViabilityInterpreter.new(fields) end
 
 ---@param device DoorControllerPS
 ---@param hasActiveActions Bool
 ---@return Bool
-function ElevatorFloorViabilityInterpreter.Evaluate(device, hasActiveActions) return end
+function ElevatorFloorViabilityInterpreter.Evaluate(device, hasActiveActions) end

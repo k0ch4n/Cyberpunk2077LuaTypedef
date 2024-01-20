@@ -5,9 +5,8 @@ CanShootToTargretFromMountedGuns = {}
 
 ---@param fields? CanShootToTargretFromMountedGuns
 ---@return CanShootToTargretFromMountedGuns
-function CanShootToTargretFromMountedGuns.new(fields) return end
+function CanShootToTargretFromMountedGuns.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CanShootToTargretFromMountedGuns:Check(context) return end
+function CanShootToTargretFromMountedGuns:Check(context) end

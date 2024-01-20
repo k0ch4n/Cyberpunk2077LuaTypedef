@@ -1,37 +1,32 @@
 ---@meta
 
 ---@class ChaosWeaponCustomEffector: gameEffector
----@field public effectorOwnerID entEntityID
----@field public target gameStatsObjectID
----@field public record TweakDBID
----@field public applicationTarget CName
----@field public modGroupID Uint64
+---@field effectorOwnerID entEntityID
+---@field target gameStatsObjectID
+---@field record TweakDBID
+---@field applicationTarget CName
+---@field modGroupID Uint64
 ChaosWeaponCustomEffector = {}
 
 ---@param fields? ChaosWeaponCustomEffector
 ---@return ChaosWeaponCustomEffector
-function ChaosWeaponCustomEffector.new(fields) return end
+function ChaosWeaponCustomEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ChaosWeaponCustomEffector:ActionOn(owner) return end
+function ChaosWeaponCustomEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ChaosWeaponCustomEffector:Initialize(record, parentRecord) return end
+function ChaosWeaponCustomEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ChaosWeaponCustomEffector:ProcessEffector(owner) return end
+function ChaosWeaponCustomEffector:ProcessEffector(owner) end
 
----@private
 ---@return nil
-function ChaosWeaponCustomEffector:RemoveModifierGroup() return end
+function ChaosWeaponCustomEffector:RemoveModifierGroup() end
 
----@protected
 ---@return nil
-function ChaosWeaponCustomEffector:Uninitialize() return end
+function ChaosWeaponCustomEffector:Uninitialize() end

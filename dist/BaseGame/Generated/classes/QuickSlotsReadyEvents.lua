@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class QuickSlotsReadyEvents: QuickSlotsEvents
----@field public shouldSendEvent Bool
----@field public timePressed Float
+---@field shouldSendEvent Bool
+---@field timePressed Float
 QuickSlotsReadyEvents = {}
 
 ---@param fields? QuickSlotsReadyEvents
 ---@return QuickSlotsReadyEvents
-function QuickSlotsReadyEvents.new(fields) return end
+function QuickSlotsReadyEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function QuickSlotsReadyEvents:OnEnter(stateContext, scriptInterface) return end
+function QuickSlotsReadyEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function QuickSlotsReadyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function QuickSlotsReadyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

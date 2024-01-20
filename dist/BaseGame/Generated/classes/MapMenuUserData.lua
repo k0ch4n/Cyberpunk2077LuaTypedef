@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class MapMenuUserData: IScriptable
----@field public moveTo Vector3
----@field public hash Int32
----@field public isTracked Bool
+---@field moveTo Vector3
+---@field hash Int32
+---@field isTracked Bool
 MapMenuUserData = {}
 
 ---@param fields? MapMenuUserData
 ---@return MapMenuUserData
-function MapMenuUserData.new(fields) return end
+function MapMenuUserData.new(fields) end

@@ -1,124 +1,108 @@
 ---@meta
 
 ---@class HUDSignalProgressBarController: gameuiHUDGameController
----@field private bar inkWidgetReference
----@field private signalBar inkWidgetReference
----@field private completed inkWidgetReference
----@field private signalLost inkWidgetReference
----@field private percent inkTextWidgetReference
----@field private signalPercent inkTextWidgetReference
----@field private signalLabel inkWidgetReference
----@field private signalWrapper inkWidgetReference
----@field private appearance CName
----@field private SignalLostAnimationName CName
----@field private IntroAnimationName CName
----@field private OutroAnimationName CName
----@field private InRangeAnimationName CName
----@field private OutOfRangeAnimationName CName
----@field private addPercentSign Bool
----@field private handleOnComplete Bool
----@field private rootWidget inkWidget
----@field private progressBarBB gameIBlackboard
----@field private progressBarDef UI_HUDSignalProgressBarDef
----@field private stateBBID redCallbackObject
----@field private progressBBID redCallbackObject
----@field private signalStrengthBBID redCallbackObject
----@field private orientationBBID redCallbackObject
----@field private appearanceBBID redCallbackObject
----@field private data HUDProgressBarData
----@field private OutroAnimation inkanimProxy
----@field private SignalLostAnimation inkanimProxy
----@field private IntroAnimation inkanimProxy
----@field private OrientationAnimation inkanimProxy
----@field private alpha_fadein inkanimDefinition
----@field private AnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private alphaInterpolator inkanimTransparencyInterpolator
----@field private tick Float
----@field private isAppearanceMatch Bool
----@field private barSize Vector2
----@field private signalBarSize Vector2
+---@field bar inkWidgetReference
+---@field signalBar inkWidgetReference
+---@field completed inkWidgetReference
+---@field signalLost inkWidgetReference
+---@field percent inkTextWidgetReference
+---@field signalPercent inkTextWidgetReference
+---@field signalLabel inkWidgetReference
+---@field signalWrapper inkWidgetReference
+---@field appearance CName
+---@field SignalLostAnimationName CName
+---@field IntroAnimationName CName
+---@field OutroAnimationName CName
+---@field InRangeAnimationName CName
+---@field OutOfRangeAnimationName CName
+---@field addPercentSign Bool
+---@field handleOnComplete Bool
+---@field rootWidget inkWidget
+---@field progressBarBB gameIBlackboard
+---@field progressBarDef UI_HUDSignalProgressBarDef
+---@field stateBBID redCallbackObject
+---@field progressBBID redCallbackObject
+---@field signalStrengthBBID redCallbackObject
+---@field orientationBBID redCallbackObject
+---@field appearanceBBID redCallbackObject
+---@field data HUDProgressBarData
+---@field OutroAnimation inkanimProxy
+---@field SignalLostAnimation inkanimProxy
+---@field IntroAnimation inkanimProxy
+---@field OrientationAnimation inkanimProxy
+---@field alpha_fadein inkanimDefinition
+---@field AnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field alphaInterpolator inkanimTransparencyInterpolator
+---@field tick Float
+---@field isAppearanceMatch Bool
+---@field barSize Vector2
+---@field signalBarSize Vector2
 HUDSignalProgressBarController = {}
 
 ---@param fields? HUDSignalProgressBarController
 ---@return HUDSignalProgressBarController
-function HUDSignalProgressBarController.new(fields) return end
+function HUDSignalProgressBarController.new(fields) end
 
----@protected
 ---@param appearance CName|string
 ---@return Bool
-function HUDSignalProgressBarController:OnAppearanceChanged(appearance) return end
+function HUDSignalProgressBarController:OnAppearanceChanged(appearance) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function HUDSignalProgressBarController:OnHide(proxy) return end
+function HUDSignalProgressBarController:OnHide(proxy) end
 
----@protected
 ---@return Bool
-function HUDSignalProgressBarController:OnInitialize() return end
+function HUDSignalProgressBarController:OnInitialize() end
 
----@protected
 ---@param orientation Uint32
 ---@return Bool
-function HUDSignalProgressBarController:OnOrientationChanged(orientation) return end
+function HUDSignalProgressBarController:OnOrientationChanged(orientation) end
 
----@protected
 ---@param progress Float
 ---@return Bool
-function HUDSignalProgressBarController:OnProgressChanged(progress) return end
+function HUDSignalProgressBarController:OnProgressChanged(progress) end
 
----@protected
 ---@param signalStrength Float
 ---@return Bool
-function HUDSignalProgressBarController:OnSignalStrengthChanged(signalStrength) return end
+function HUDSignalProgressBarController:OnSignalStrengthChanged(signalStrength) end
 
----@protected
 ---@param state Uint32
 ---@return Bool
-function HUDSignalProgressBarController:OnStateChanged(state) return end
+function HUDSignalProgressBarController:OnStateChanged(state) end
 
----@protected
 ---@return Bool
-function HUDSignalProgressBarController:OnUnInitialize() return end
+function HUDSignalProgressBarController:OnUnInitialize() end
 
----@private
 ---@return nil
-function HUDSignalProgressBarController:Completed() return end
+function HUDSignalProgressBarController:Completed() end
 
----@private
 ---@return nil
-function HUDSignalProgressBarController:Hide() return end
+function HUDSignalProgressBarController:Hide() end
 
----@private
 ---@return nil
-function HUDSignalProgressBarController:InRange() return end
+function HUDSignalProgressBarController:InRange() end
 
----@private
 ---@return nil
-function HUDSignalProgressBarController:OutOfRange() return end
+function HUDSignalProgressBarController:OutOfRange() end
 
----@private
 ---@return nil
-function HUDSignalProgressBarController:SetupBB() return end
+function HUDSignalProgressBarController:SetupBB() end
 
----@private
 ---@return nil
-function HUDSignalProgressBarController:Show() return end
+function HUDSignalProgressBarController:Show() end
 
----@private
 ---@param val Bool
 ---@return nil
-function HUDSignalProgressBarController:SignalLost(val) return end
+function HUDSignalProgressBarController:SignalLost(val) end
 
----@private
 ---@return nil
-function HUDSignalProgressBarController:UnregisterFromBB() return end
-
----@param value Float
----@return nil
-function HUDSignalProgressBarController:UpdateSignalProgress(value) return end
+function HUDSignalProgressBarController:UnregisterFromBB() end
 
 ---@param value Float
 ---@return nil
-function HUDSignalProgressBarController:UpdateTimerProgress(value) return end
+function HUDSignalProgressBarController:UpdateSignalProgress(value) end
+
+---@param value Float
+---@return nil
+function HUDSignalProgressBarController:UpdateTimerProgress(value) end

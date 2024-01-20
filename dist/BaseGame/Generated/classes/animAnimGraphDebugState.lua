@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimGraphDebugState: ISerializable
----@field public nodes animAnimNodeDebugState[]
+---@field nodes animAnimNodeDebugState[]
 animAnimGraphDebugState = {}
 
 ---@param fields? animAnimGraphDebugState
 ---@return animAnimGraphDebugState
-function animAnimGraphDebugState.new(fields) return end
+function animAnimGraphDebugState.new(fields) end

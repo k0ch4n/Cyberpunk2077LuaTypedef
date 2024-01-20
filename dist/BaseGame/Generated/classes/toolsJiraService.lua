@@ -5,4 +5,4 @@ toolsJiraService = {}
 
 ---@param fields? toolsJiraService
 ---@return toolsJiraService
-function toolsJiraService.new(fields) return end
+function toolsJiraService.new(fields) end

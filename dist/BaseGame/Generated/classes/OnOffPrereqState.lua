@@ -5,4 +5,4 @@ OnOffPrereqState = {}
 
 ---@param fields? OnOffPrereqState
 ---@return OnOffPrereqState
-function OnOffPrereqState.new(fields) return end
+function OnOffPrereqState.new(fields) end

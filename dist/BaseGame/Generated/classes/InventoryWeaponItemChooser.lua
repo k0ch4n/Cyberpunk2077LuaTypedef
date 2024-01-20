@@ -1,73 +1,61 @@
 ---@meta
 
 ---@class InventoryWeaponItemChooser: InventoryGenericItemChooser
----@field protected scopeRootContainer inkCompoundWidgetReference
----@field protected magazineRootContainer inkCompoundWidgetReference
----@field protected silencerRootContainer inkCompoundWidgetReference
----@field protected scopeContainer inkCompoundWidgetReference
----@field protected magazineContainer inkCompoundWidgetReference
----@field protected silencerContainer inkCompoundWidgetReference
----@field protected attachmentsLabel inkTextWidgetReference
----@field protected attachmentsContainer inkWidgetReference
----@field protected softwareModsLabel inkTextWidgetReference
----@field protected softwareModsPush inkWidgetReference
----@field protected softwareModsContainer inkWidgetReference
+---@field scopeRootContainer inkCompoundWidgetReference
+---@field magazineRootContainer inkCompoundWidgetReference
+---@field silencerRootContainer inkCompoundWidgetReference
+---@field scopeContainer inkCompoundWidgetReference
+---@field magazineContainer inkCompoundWidgetReference
+---@field silencerContainer inkCompoundWidgetReference
+---@field attachmentsLabel inkTextWidgetReference
+---@field attachmentsContainer inkWidgetReference
+---@field softwareModsLabel inkTextWidgetReference
+---@field softwareModsPush inkWidgetReference
+---@field softwareModsContainer inkWidgetReference
 InventoryWeaponItemChooser = {}
 
 ---@param fields? InventoryWeaponItemChooser
 ---@return InventoryWeaponItemChooser
-function InventoryWeaponItemChooser.new(fields) return end
+function InventoryWeaponItemChooser.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryWeaponItemChooser:ForceDisplayLabel() return end
+function InventoryWeaponItemChooser:ForceDisplayLabel() end
 
----@private
 ---@return WeaponPartType[]
-function InventoryWeaponItemChooser:GetAllPartsTypes() return end
+function InventoryWeaponItemChooser:GetAllPartsTypes() end
 
----@private
 ---@param partType WeaponPartType
 ---@return CName
-function InventoryWeaponItemChooser:GetAtlasPartFromType(partType) return end
+function InventoryWeaponItemChooser:GetAtlasPartFromType(partType) end
 
----@protected
 ---@return CName
-function InventoryWeaponItemChooser:GetDisplayToSpawn() return end
+function InventoryWeaponItemChooser:GetDisplayToSpawn() end
 
----@protected
 ---@return CName
-function InventoryWeaponItemChooser:GetIntroAnimation() return end
+function InventoryWeaponItemChooser:GetIntroAnimation() end
 
----@private
 ---@param parts gameInventoryItemAttachments[]
 ---@param type WeaponPartType
 ---@return gameInventoryItemAttachments
-function InventoryWeaponItemChooser:GetPartDataByType(parts, type) return end
+function InventoryWeaponItemChooser:GetPartDataByType(parts, type) end
 
----@private
 ---@param partType WeaponPartType
 ---@return inkCompoundWidgetReference
-function InventoryWeaponItemChooser:GetRootSlotContainerFromType(partType) return end
+function InventoryWeaponItemChooser:GetRootSlotContainerFromType(partType) end
 
----@private
 ---@param partType WeaponPartType
 ---@return inkCompoundWidgetReference
-function InventoryWeaponItemChooser:GetSlotContainerFromType(partType) return end
+function InventoryWeaponItemChooser:GetSlotContainerFromType(partType) end
 
----@protected
 ---@return gameInventoryItemAttachments[]
-function InventoryWeaponItemChooser:GetSlots() return end
+function InventoryWeaponItemChooser:GetSlots() end
 
----@protected
 ---@return nil
-function InventoryWeaponItemChooser:RebuildParts() return end
+function InventoryWeaponItemChooser:RebuildParts() end
 
----@protected
 ---@return nil
-function InventoryWeaponItemChooser:RebuildSlots() return end
+function InventoryWeaponItemChooser:RebuildSlots() end
 
----@private
 ---@param parts gameInventoryItemAttachments[]
 ---@return nil
-function InventoryWeaponItemChooser:UpdateModsLabel(parts) return end
+function InventoryWeaponItemChooser:UpdateModsLabel(parts) end

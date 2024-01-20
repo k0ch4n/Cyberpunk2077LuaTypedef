@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class BloodswellEffectorHealthListener: gameScriptStatPoolsListener
----@field public effector BloodswellEffector
+---@field effector BloodswellEffector
 BloodswellEffectorHealthListener = {}
 
 ---@param fields? BloodswellEffectorHealthListener
 ---@return BloodswellEffectorHealthListener
-function BloodswellEffectorHealthListener.new(fields) return end
+function BloodswellEffectorHealthListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function BloodswellEffectorHealthListener:OnStatPoolCustomLimitReached(value) return end
+function BloodswellEffectorHealthListener:OnStatPoolCustomLimitReached(value) end

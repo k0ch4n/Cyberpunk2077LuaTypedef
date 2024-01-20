@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class inkWidgetLayout
----@field public padding inkMargin
----@field public margin inkMargin
----@field public HAlign inkEHorizontalAlign
----@field public VAlign inkEVerticalAlign
----@field public anchor inkEAnchor
----@field public anchorPoint Vector2
----@field public sizeRule inkESizeRule
----@field public sizeCoefficient Float
+---@field padding inkMargin
+---@field margin inkMargin
+---@field HAlign inkEHorizontalAlign
+---@field VAlign inkEVerticalAlign
+---@field anchor inkEAnchor
+---@field anchorPoint Vector2
+---@field sizeRule inkESizeRule
+---@field sizeCoefficient Float
 inkWidgetLayout = {}
 
 ---@param fields? inkWidgetLayout
 ---@return inkWidgetLayout
-function inkWidgetLayout.new(fields) return end
+function inkWidgetLayout.new(fields) end

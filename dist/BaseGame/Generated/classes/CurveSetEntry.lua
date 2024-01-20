@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CurveSetEntry
----@field public name CName
----@field public curve curveData
+---@field name CName
+---@field curve curveData
 CurveSetEntry = {}
 
 ---@param fields? CurveSetEntry
 ---@return CurveSetEntry
-function CurveSetEntry.new(fields) return end
+function CurveSetEntry.new(fields) end

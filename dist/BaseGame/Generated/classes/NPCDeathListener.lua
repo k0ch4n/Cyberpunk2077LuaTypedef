@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class NPCDeathListener: gameScriptStatPoolsListener
----@field public npc NPCPuppet
+---@field npc NPCPuppet
 NPCDeathListener = {}
 
 ---@param fields? NPCDeathListener
 ---@return NPCDeathListener
-function NPCDeathListener.new(fields) return end
+function NPCDeathListener.new(fields) end
 
----@protected
 ---@return Bool
-function NPCDeathListener:OnStatPoolAdded() return end
+function NPCDeathListener:OnStatPoolAdded() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function NPCDeathListener:OnStatPoolCustomLimitReached(value) return end
+function NPCDeathListener:OnStatPoolCustomLimitReached(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function NPCDeathListener:OnStatPoolMinValueReached(value) return end
+function NPCDeathListener:OnStatPoolMinValueReached(value) end
 
----@protected
 ---@return nil
-function NPCDeathListener:SendPotentialDeathEvent() return end
+function NPCDeathListener:SendPotentialDeathEvent() end

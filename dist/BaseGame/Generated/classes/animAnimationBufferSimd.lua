@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class animAnimationBufferSimd: animIAnimationBuffer
----@field public duration Float
----@field public numFrames Uint32
----@field public numExtraJoints Uint8
----@field public numExtraTracks Uint8
----@field public numJoints Uint16
----@field public numTracks Uint16
----@field public numTranslationsToCopy Uint16
----@field public numTranslationsToEvalAlignedToSimd Uint16
----@field public quantizationBits Uint16
----@field public isScaleConstant Bool
----@field public isTrackConstant Bool
----@field public dataAddress animAnimDataAddress
----@field public defferedBuffer serializationDeferredDataBuffer
----@field public inplaceCompressedBuffer DataBuffer
----@field public fallbackFrameIndices Uint16[]
----@field public extraDataNames CName[]
+---@field duration Float
+---@field numFrames Uint32
+---@field numExtraJoints Uint8
+---@field numExtraTracks Uint8
+---@field numJoints Uint16
+---@field numTracks Uint16
+---@field numTranslationsToCopy Uint16
+---@field numTranslationsToEvalAlignedToSimd Uint16
+---@field quantizationBits Uint16
+---@field isScaleConstant Bool
+---@field isTrackConstant Bool
+---@field dataAddress animAnimDataAddress
+---@field defferedBuffer serializationDeferredDataBuffer
+---@field inplaceCompressedBuffer DataBuffer
+---@field fallbackFrameIndices Uint16[]
+---@field extraDataNames CName[]
 animAnimationBufferSimd = {}
 
 ---@param fields? animAnimationBufferSimd
 ---@return animAnimationBufferSimd
-function animAnimationBufferSimd.new(fields) return end
+function animAnimationBufferSimd.new(fields) end

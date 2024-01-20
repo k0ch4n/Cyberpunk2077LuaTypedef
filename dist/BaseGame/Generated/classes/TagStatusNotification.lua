@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TagStatusNotification: HUDManagerRequest
----@field public isTagged Bool
+---@field isTagged Bool
 TagStatusNotification = {}
 
 ---@param fields? TagStatusNotification
 ---@return TagStatusNotification
-function TagStatusNotification.new(fields) return end
+function TagStatusNotification.new(fields) end

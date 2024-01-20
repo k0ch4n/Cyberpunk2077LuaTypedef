@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class sampleStylesGameController: gameuiWidgetGameController
----@field private stateText inkTextWidget
----@field private button1Controller inkButtonController
----@field private button2Controller inkButtonController
+---@field stateText inkTextWidget
+---@field button1Controller inkButtonController
+---@field button2Controller inkButtonController
 sampleStylesGameController = {}
 
 ---@param fields? sampleStylesGameController
 ---@return sampleStylesGameController
-function sampleStylesGameController.new(fields) return end
+function sampleStylesGameController.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function sampleStylesGameController:OnButton1StateChanged(controller, oldState, newState) return end
+function sampleStylesGameController:OnButton1StateChanged(controller, oldState, newState) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function sampleStylesGameController:OnButton2Pressed(e) return end
+function sampleStylesGameController:OnButton2Pressed(e) end
 
----@protected
 ---@return Bool
-function sampleStylesGameController:OnInitialize() return end
+function sampleStylesGameController:OnInitialize() end
 
----@private
 ---@param state inkEButtonState
 ---@return String
-function sampleStylesGameController:ButtonStateToString(state) return end
+function sampleStylesGameController:ButtonStateToString(state) end

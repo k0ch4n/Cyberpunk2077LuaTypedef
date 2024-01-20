@@ -5,4 +5,4 @@ ChargeLogicController = {}
 
 ---@param value Float
 ---@return nil
-function ChargeLogicController:OnChargeChanged(value) return end
+function ChargeLogicController:OnChargeChanged(value) end

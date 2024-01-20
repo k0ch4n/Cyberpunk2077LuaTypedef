@@ -1,93 +1,78 @@
 ---@meta
 
 ---@class ActivatedDeviceTransfromAnim: InteractiveDevice
----@field private animationState Int32
+---@field animationState Int32
 ActivatedDeviceTransfromAnim = {}
 
 ---@param fields? ActivatedDeviceTransfromAnim
 ---@return ActivatedDeviceTransfromAnim
-function ActivatedDeviceTransfromAnim.new(fields) return end
+function ActivatedDeviceTransfromAnim.new(fields) end
 
----@protected
 ---@param evt ActionEngineering
 ---@return Bool
-function ActivatedDeviceTransfromAnim:OnActionEngineering(evt) return end
+function ActivatedDeviceTransfromAnim:OnActionEngineering(evt) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function ActivatedDeviceTransfromAnim:OnActivateDevice(evt) return end
+function ActivatedDeviceTransfromAnim:OnActivateDevice(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ActivatedDeviceTransfromAnim:OnRequestComponents(ri) return end
+function ActivatedDeviceTransfromAnim:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SpiderbotOrderCompletedEvent
 ---@return Bool
-function ActivatedDeviceTransfromAnim:OnSpiderbotOrderCompletedEvent(evt) return end
+function ActivatedDeviceTransfromAnim:OnSpiderbotOrderCompletedEvent(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ActivatedDeviceTransfromAnim:OnTakeControl(ri) return end
+function ActivatedDeviceTransfromAnim:OnTakeControl(ri) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function ActivatedDeviceTransfromAnim:OnWorkspotFinished(componentName) return end
+function ActivatedDeviceTransfromAnim:OnWorkspotFinished(componentName) end
 
 ---@param data SDeviceMappinData
 ---@return Float
-function ActivatedDeviceTransfromAnim:DeterminGameplayRoleMappinRange(data) return end
+function ActivatedDeviceTransfromAnim:DeterminGameplayRoleMappinRange(data) end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@return nil
-function ActivatedDeviceTransfromAnim:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
+function ActivatedDeviceTransfromAnim:EnterWorkspot(activator, freeCamera, componentName, deviceData) end
 
----@protected
 ---@return ActivatedDeviceController
-function ActivatedDeviceTransfromAnim:GetController() return end
+function ActivatedDeviceTransfromAnim:GetController() end
 
 ---@return ActivatedDeviceControllerPS
-function ActivatedDeviceTransfromAnim:GetDevicePS() return end
+function ActivatedDeviceTransfromAnim:GetDevicePS() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTransfromAnim:RefreshAnimation() return end
+function ActivatedDeviceTransfromAnim:RefreshAnimation() end
 
----@protected
 ---@return nil
-function ActivatedDeviceTransfromAnim:ResolveGameplayState() return end
+function ActivatedDeviceTransfromAnim:ResolveGameplayState() end
 
----@protected
 ---@param bool1 Bool
 ---@param bool2 Bool
 ---@param bool3 Bool
 ---@return nil
-function ActivatedDeviceTransfromAnim:SendSimpleAnimFeature(bool1, bool2, bool3) return end
+function ActivatedDeviceTransfromAnim:SendSimpleAnimFeature(bool1, bool2, bool3) end
 
----@protected
 ---@param fx gameFxResource
 ---@return nil
-function ActivatedDeviceTransfromAnim:SpawnVFXs(fx) return end
+function ActivatedDeviceTransfromAnim:SpawnVFXs(fx) end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function ActivatedDeviceTransfromAnim:StartGlitching(glitchState, intensity) return end
+function ActivatedDeviceTransfromAnim:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function ActivatedDeviceTransfromAnim:StopGlitching() return end
+function ActivatedDeviceTransfromAnim:StopGlitching() end
 
----@protected
 ---@param isDelayed? Bool
 ---@return Bool
-function ActivatedDeviceTransfromAnim:UpdateDeviceState(isDelayed) return end
+function ActivatedDeviceTransfromAnim:UpdateDeviceState(isDelayed) end

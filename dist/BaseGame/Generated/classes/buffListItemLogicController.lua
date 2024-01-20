@@ -1,56 +1,53 @@
 ---@meta
 
 ---@class buffListItemLogicController: inkWidgetLogicController
----@field private icon inkImageWidgetReference
----@field private iconBg inkImageWidgetReference
----@field private fill inkWidgetReference
----@field private fillWidget inkWidget
----@field private timeLabel inkTextWidgetReference
----@field private stackCounter inkTextWidgetReference
----@field private stackCounterContainer inkWidgetReference
----@field private statusEffectRecord gamedataStatusEffect_Record
+---@field icon inkImageWidgetReference
+---@field iconBg inkImageWidgetReference
+---@field fill inkWidgetReference
+---@field fillWidget inkWidget
+---@field timeLabel inkTextWidgetReference
+---@field stackCounter inkTextWidgetReference
+---@field stackCounterContainer inkWidgetReference
+---@field statusEffectRecord gamedataStatusEffect_Record
 buffListItemLogicController = {}
 
 ---@param fields? buffListItemLogicController
 ---@return buffListItemLogicController
-function buffListItemLogicController.new(fields) return end
+function buffListItemLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function buffListItemLogicController:OnInitialize() return end
+function buffListItemLogicController:OnInitialize() end
 
 ---@return gamedataStatusEffect_Record
-function buffListItemLogicController:GetStatusEffectRecord() return end
+function buffListItemLogicController:GetStatusEffectRecord() end
 
 ---@param icon CName|string
 ---@param time Float
 ---@param totalTime Float
 ---@param stackCount? Int32
 ---@return nil
-function buffListItemLogicController:SetData(icon, time, totalTime, stackCount) return end
+function buffListItemLogicController:SetData(icon, time, totalTime, stackCount) end
 
 ---@param icon TweakDBID|string
 ---@param time Float
 ---@param totalTime Float
 ---@return nil
-function buffListItemLogicController:SetData(icon, time, totalTime) return end
+function buffListItemLogicController:SetData(icon, time, totalTime) end
 
 ---@param icon CName|string
 ---@param stackCount Int32
 ---@return nil
-function buffListItemLogicController:SetData(icon, stackCount) return end
+function buffListItemLogicController:SetData(icon, stackCount) end
 
 ---@param record gamedataStatusEffect_Record
 ---@return nil
-function buffListItemLogicController:SetStatusEffectRecord(record) return end
+function buffListItemLogicController:SetStatusEffectRecord(record) end
 
----@private
 ---@param time Float
 ---@param totalTime Float
 ---@return nil
-function buffListItemLogicController:SetTimeFill(time, totalTime) return end
+function buffListItemLogicController:SetTimeFill(time, totalTime) end
 
----@private
 ---@param f Float
 ---@return nil
-function buffListItemLogicController:SetTimeText(f) return end
+function buffListItemLogicController:SetTimeText(f) end

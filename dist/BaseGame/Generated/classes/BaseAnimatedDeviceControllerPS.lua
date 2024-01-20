@@ -1,78 +1,70 @@
 ---@meta
 
 ---@class BaseAnimatedDeviceControllerPS: ScriptableDeviceComponentPS
----@field private isActive Bool
----@field protected hasInteraction Bool
----@field protected randomizeAnimationTime Bool
----@field protected nameForActivation TweakDBID
----@field protected nameForDeactivation TweakDBID
+---@field isActive Bool
+---@field hasInteraction Bool
+---@field randomizeAnimationTime Bool
+---@field nameForActivation TweakDBID
+---@field nameForDeactivation TweakDBID
 BaseAnimatedDeviceControllerPS = {}
 
 ---@param fields? BaseAnimatedDeviceControllerPS
 ---@return BaseAnimatedDeviceControllerPS
-function BaseAnimatedDeviceControllerPS.new(fields) return end
+function BaseAnimatedDeviceControllerPS.new(fields) end
 
----@protected
 ---@return QuickHackToggleActivate
-function BaseAnimatedDeviceControllerPS:ActionQuickHackToggleActivate() return end
+function BaseAnimatedDeviceControllerPS:ActionQuickHackToggleActivate() end
 
----@protected
 ---@return ToggleActivate
-function BaseAnimatedDeviceControllerPS:ActionToggleActivate() return end
+function BaseAnimatedDeviceControllerPS:ActionToggleActivate() end
 
----@protected
 ---@return Bool
-function BaseAnimatedDeviceControllerPS:CanCreateAnyQuickHackActions() return end
+function BaseAnimatedDeviceControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function BaseAnimatedDeviceControllerPS:GameAttached() return end
+function BaseAnimatedDeviceControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function BaseAnimatedDeviceControllerPS:GetActions(context) return end
+function BaseAnimatedDeviceControllerPS:GetActions(context) end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function BaseAnimatedDeviceControllerPS:GetQuestActionByName(actionName) return end
+function BaseAnimatedDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function BaseAnimatedDeviceControllerPS:GetQuestActions(context) return end
+function BaseAnimatedDeviceControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function BaseAnimatedDeviceControllerPS:GetQuickHackActions(context) return end
+function BaseAnimatedDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool
-function BaseAnimatedDeviceControllerPS:IsActive() return end
+function BaseAnimatedDeviceControllerPS:IsActive() end
 
 ---@return Bool
-function BaseAnimatedDeviceControllerPS:IsNotActive() return end
+function BaseAnimatedDeviceControllerPS:IsNotActive() end
 
----@protected
 ---@param evt ActivateDevice
 ---@return EntityNotificationType
-function BaseAnimatedDeviceControllerPS:OnActivateDevice(evt) return end
+function BaseAnimatedDeviceControllerPS:OnActivateDevice(evt) end
 
----@protected
 ---@param evt DeactivateDevice
 ---@return EntityNotificationType
-function BaseAnimatedDeviceControllerPS:OnDeactivateDevice(evt) return end
+function BaseAnimatedDeviceControllerPS:OnDeactivateDevice(evt) end
 
 ---@param evt QuickHackToggleActivate
 ---@return EntityNotificationType
-function BaseAnimatedDeviceControllerPS:OnQuickHackToggleActivate(evt) return end
+function BaseAnimatedDeviceControllerPS:OnQuickHackToggleActivate(evt) end
 
 ---@param evt ToggleActivate
 ---@return EntityNotificationType
-function BaseAnimatedDeviceControllerPS:OnToggleActivate(evt) return end
+function BaseAnimatedDeviceControllerPS:OnToggleActivate(evt) end
 
 ---@return Bool
-function BaseAnimatedDeviceControllerPS:Randomize() return end
+function BaseAnimatedDeviceControllerPS:Randomize() end
 
----@protected
 ---@param isActive Bool
 ---@return nil
-function BaseAnimatedDeviceControllerPS:SetActiveState(isActive) return end
+function BaseAnimatedDeviceControllerPS:SetActiveState(isActive) end

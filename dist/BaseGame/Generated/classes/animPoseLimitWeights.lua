@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animPoseLimitWeights
----@field public min Float
----@field public mid Float
----@field public max Float
----@field public poseTrackIndex Int16
----@field public type Uint8
----@field public isCachable Bool
+---@field min Float
+---@field mid Float
+---@field max Float
+---@field poseTrackIndex Int16
+---@field type Uint8
+---@field isCachable Bool
 animPoseLimitWeights = {}
 
 ---@param fields? animPoseLimitWeights
 ---@return animPoseLimitWeights
-function animPoseLimitWeights.new(fields) return end
+function animPoseLimitWeights.new(fields) end

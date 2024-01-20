@@ -5,18 +5,15 @@ MenuScenario_ClippedMenu = {}
 
 ---@param fields? MenuScenario_ClippedMenu
 ---@return MenuScenario_ClippedMenu
-function MenuScenario_ClippedMenu.new(fields) return end
+function MenuScenario_ClippedMenu.new(fields) end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_ClippedMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_ClippedMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_ClippedMenu:OnOpenHubMenu() return end
+function MenuScenario_ClippedMenu:OnOpenHubMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_ClippedMenu:OnOpenPauseMenu() return end
+function MenuScenario_ClippedMenu:OnOpenPauseMenu() end

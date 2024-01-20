@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class OpticalCamoListener: gameScriptStatusEffectListener
----@field private controller gameuiCrosshairBaseGameController
+---@field controller gameuiCrosshairBaseGameController
 OpticalCamoListener = {}
 
 ---@param fields? OpticalCamoListener
 ---@return OpticalCamoListener
-function OpticalCamoListener.new(fields) return end
+function OpticalCamoListener.new(fields) end
 
 ---@param controlller gameuiCrosshairBaseGameController
 ---@return OpticalCamoListener
-function OpticalCamoListener.Create(controlller) return end
+function OpticalCamoListener.Create(controlller) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function OpticalCamoListener:OnStatusEffectApplied(statusEffect) return end
+function OpticalCamoListener:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function OpticalCamoListener:OnStatusEffectRemoved(statusEffect) return end
+function OpticalCamoListener:OnStatusEffectRemoved(statusEffect) end

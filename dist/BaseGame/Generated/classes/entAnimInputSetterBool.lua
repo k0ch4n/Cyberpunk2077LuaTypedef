@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimInputSetterBool: entAnimInputSetter
----@field public value Bool
+---@field value Bool
 entAnimInputSetterBool = {}
 
 ---@param fields? entAnimInputSetterBool
 ---@return entAnimInputSetterBool
-function entAnimInputSetterBool.new(fields) return end
+function entAnimInputSetterBool.new(fields) end

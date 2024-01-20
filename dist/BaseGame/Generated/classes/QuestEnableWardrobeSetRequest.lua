@@ -5,4 +5,4 @@ QuestEnableWardrobeSetRequest = {}
 
 ---@param fields? QuestEnableWardrobeSetRequest
 ---@return QuestEnableWardrobeSetRequest
-function QuestEnableWardrobeSetRequest.new(fields) return end
+function QuestEnableWardrobeSetRequest.new(fields) end

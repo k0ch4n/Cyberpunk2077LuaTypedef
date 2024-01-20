@@ -1,45 +1,45 @@
 ---@meta
 
 ---@class gameMeleeAttackData: IScriptable
----@field public trailAttackSide String
----@field public isThrust Bool
----@field public useMiddlePosition Bool
----@field public startPosition Vector4
----@field public middlePosition Vector4
----@field public endPosition Vector4
----@field public ikOffset Vector3
----@field public attackName CName
----@field public attackEffectDirection CName
----@field public impactFxSlot CName
----@field public attackSpeed Float
----@field public attackWindowOpen Float
----@field public attackWindowClosed Float
----@field public idleTransitionTime Float
----@field public holdTransitionTime Float
----@field public blockTransitionTime Float
----@field public attackEffectDuration Float
----@field public attackEffectDelay Float
----@field public impulseDelay Float
----@field public cameraSpaceImpulse Float
----@field public forwardImpulse Float
----@field public upImpulse Float
----@field public staminaCost Float
----@field public weaponChargeCost Float
----@field public trailStartDelay Float
----@field public trailStopDelay Float
----@field public startupDuration Float
----@field public activeDuration Float
----@field public recoverDuration Float
----@field public activeHitDuration Float
----@field public recoverHitDuration Float
----@field public standUpDelay Float
----@field public incrementsCombo Bool
----@field public hasDeflectAnim Bool
----@field public hasHitAnim Bool
----@field public useAdjustmentInsteadOfImpulse Bool
----@field public enableAdjustingPlayerPositionToTarget Bool
+---@field trailAttackSide String
+---@field isThrust Bool
+---@field useMiddlePosition Bool
+---@field startPosition Vector4
+---@field middlePosition Vector4
+---@field endPosition Vector4
+---@field ikOffset Vector3
+---@field attackName CName
+---@field attackEffectDirection CName
+---@field impactFxSlot CName
+---@field attackSpeed Float
+---@field attackWindowOpen Float
+---@field attackWindowClosed Float
+---@field idleTransitionTime Float
+---@field holdTransitionTime Float
+---@field blockTransitionTime Float
+---@field attackEffectDuration Float
+---@field attackEffectDelay Float
+---@field impulseDelay Float
+---@field cameraSpaceImpulse Float
+---@field forwardImpulse Float
+---@field upImpulse Float
+---@field staminaCost Float
+---@field weaponChargeCost Float
+---@field trailStartDelay Float
+---@field trailStopDelay Float
+---@field startupDuration Float
+---@field activeDuration Float
+---@field recoverDuration Float
+---@field activeHitDuration Float
+---@field recoverHitDuration Float
+---@field standUpDelay Float
+---@field incrementsCombo Bool
+---@field hasDeflectAnim Bool
+---@field hasHitAnim Bool
+---@field useAdjustmentInsteadOfImpulse Bool
+---@field enableAdjustingPlayerPositionToTarget Bool
 gameMeleeAttackData = {}
 
 ---@param fields? gameMeleeAttackData
 ---@return gameMeleeAttackData
-function gameMeleeAttackData.new(fields) return end
+function gameMeleeAttackData.new(fields) end

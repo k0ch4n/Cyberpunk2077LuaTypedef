@@ -5,4 +5,4 @@ gameSaveSanitizationForbiddenAreaSystem = {}
 
 ---@param fields? gameSaveSanitizationForbiddenAreaSystem
 ---@return gameSaveSanitizationForbiddenAreaSystem
-function gameSaveSanitizationForbiddenAreaSystem.new(fields) return end
+function gameSaveSanitizationForbiddenAreaSystem.new(fields) end

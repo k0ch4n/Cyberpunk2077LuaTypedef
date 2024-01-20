@@ -5,4 +5,4 @@ HmgLookAtEvents = {}
 
 ---@param fields? HmgLookAtEvents
 ---@return HmgLookAtEvents
-function HmgLookAtEvents.new(fields) return end
+function HmgLookAtEvents.new(fields) end

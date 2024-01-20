@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiRequestPushContextEvent: redEvent
----@field public context UIGameContext
+---@field context UIGameContext
 gameuiRequestPushContextEvent = {}
 
 ---@param fields? gameuiRequestPushContextEvent
 ---@return gameuiRequestPushContextEvent
-function gameuiRequestPushContextEvent.new(fields) return end
+function gameuiRequestPushContextEvent.new(fields) end

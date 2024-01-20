@@ -5,4 +5,4 @@ rendRenderTextureBlobStreamable = {}
 
 ---@param fields? rendRenderTextureBlobStreamable
 ---@return rendRenderTextureBlobStreamable
-function rendRenderTextureBlobStreamable.new(fields) return end
+function rendRenderTextureBlobStreamable.new(fields) end

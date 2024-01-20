@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameTelemetryInventoryItem
----@field public friendlyName String
----@field public localizedName String
----@field public itemID gameItemID
----@field public quality gamedataQuality
----@field public itemType gamedataItemType
----@field public iconic Bool
----@field public itemLevel Int32
----@field public isSilenced Bool
+---@field friendlyName String
+---@field localizedName String
+---@field itemID gameItemID
+---@field quality gamedataQuality
+---@field itemType gamedataItemType
+---@field iconic Bool
+---@field itemLevel Int32
+---@field isSilenced Bool
 gameTelemetryInventoryItem = {}
 
 ---@param fields? gameTelemetryInventoryItem
 ---@return gameTelemetryInventoryItem
-function gameTelemetryInventoryItem.new(fields) return end
+function gameTelemetryInventoryItem.new(fields) end

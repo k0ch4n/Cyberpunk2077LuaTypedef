@@ -1,250 +1,209 @@
 ---@meta
 
 ---@class TakeOverControlSystem: gameScriptableSystem
----@field private controlledObject gameObject
----@field private takeControlSourceID entEntityID
----@field private isInputRegistered Bool
----@field private isInputLockedFromQuest Bool
----@field private isChainForcedFromQuest Bool
----@field private isActionButtonLocked Bool
----@field private isDeviceChainCreationLocked Bool
----@field private isReleaseOnHitLocked Bool
----@field private chainLockSources CName[]
----@field private TCDUpdateDelayID gameDelayID
----@field private TCSupdateRate Float
----@field private lastInputSimTime Float
----@field private sniperNestObject gameObject
----@field private timestampLastTCS Float
+---@field controlledObject gameObject
+---@field takeControlSourceID entEntityID
+---@field isInputRegistered Bool
+---@field isInputLockedFromQuest Bool
+---@field isChainForcedFromQuest Bool
+---@field isActionButtonLocked Bool
+---@field isDeviceChainCreationLocked Bool
+---@field isReleaseOnHitLocked Bool
+---@field chainLockSources CName[]
+---@field TCDUpdateDelayID gameDelayID
+---@field TCSupdateRate Float
+---@field lastInputSimTime Float
+---@field sniperNestObject gameObject
+---@field timestampLastTCS Float
 TakeOverControlSystem = {}
 
 ---@param fields? TakeOverControlSystem
 ---@return TakeOverControlSystem
-function TakeOverControlSystem.new(fields) return end
+function TakeOverControlSystem.new(fields) end
 
 ---@param isVisible Bool
 ---@return nil
-function TakeOverControlSystem.CreateInputHint(isVisible) return end
+function TakeOverControlSystem.CreateInputHint(isVisible) end
 
----@private
 ---@param followupEvent redEvent
 ---@param followupEventEntityID entEntityID
 ---@return nil
-function TakeOverControlSystem.PlayFollowupEvent(followupEvent, followupEventEntityID) return end
+function TakeOverControlSystem.PlayFollowupEvent(followupEvent, followupEventEntityID) end
 
 ---@param followupEvent? redEvent
 ---@param followupEventEntityID? entEntityID
 ---@return Bool
-function TakeOverControlSystem.ReleaseControl(followupEvent, followupEventEntityID) return end
+function TakeOverControlSystem.ReleaseControl(followupEvent, followupEventEntityID) end
 
 ---@param playerID entEntityID
 ---@return nil
-function TakeOverControlSystem.ReleaseControlOfRemoteControlledVehicle(playerID) return end
+function TakeOverControlSystem.ReleaseControlOfRemoteControlledVehicle(playerID) end
 
 ---@param player PlayerPuppet
 ---@return Bool
-function TakeOverControlSystem.ReleaseControlOnHit(player) return end
+function TakeOverControlSystem.ReleaseControlOnHit(player) end
 
 ---@param context gameObject
 ---@param originalevent ToggleTakeOverControl
 ---@return nil
-function TakeOverControlSystem.RequestTakeControl(context, originalevent) return end
+function TakeOverControlSystem.RequestTakeControl(context, originalevent) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function TakeOverControlSystem:OnAction(action, consumer) return end
+function TakeOverControlSystem:OnAction(action, consumer) end
 
----@private
 ---@return nil
-function TakeOverControlSystem:BreakTCSUpdate() return end
+function TakeOverControlSystem:BreakTCSUpdate() end
 
----@private
 ---@return nil
-function TakeOverControlSystem:CleanupActiveEntityInChainBlackboard() return end
+function TakeOverControlSystem:CleanupActiveEntityInChainBlackboard() end
 
----@private
 ---@return nil
-function TakeOverControlSystem:CleanupChainBlackboard() return end
+function TakeOverControlSystem:CleanupChainBlackboard() end
 
----@private
 ---@return nil
-function TakeOverControlSystem:CleanupControlledObject() return end
+function TakeOverControlSystem:CleanupControlledObject() end
 
----@private
 ---@return nil
-function TakeOverControlSystem:CreateTCSUpdate() return end
+function TakeOverControlSystem:CreateTCSUpdate() end
 
----@private
 ---@param enable Bool
 ---@return nil
-function TakeOverControlSystem:EnablePlayerTPPRepresenation(enable) return end
+function TakeOverControlSystem:EnablePlayerTPPRepresenation(enable) end
 
----@private
 ---@param isChainForced Bool
 ---@return nil
-function TakeOverControlSystem:ForceChainFromQuestRequest(isChainForced) return end
+function TakeOverControlSystem:ForceChainFromQuestRequest(isChainForced) end
 
----@private
 ---@param ent gameObject
 ---@param player gameObject
 ---@return nil
-function TakeOverControlSystem:GetCameraDataFromControlledObject(ent, player) return end
+function TakeOverControlSystem:GetCameraDataFromControlledObject(ent, player) end
 
----@private
 ---@return SWidgetPackage[]
-function TakeOverControlSystem:GetChain() return end
+function TakeOverControlSystem:GetChain() end
 
 ---@return gameObject
-function TakeOverControlSystem:GetControlledObject() return end
+function TakeOverControlSystem:GetControlledObject() end
 
----@private
 ---@param deviceChain SWidgetPackage[]
 ---@return Int32
-function TakeOverControlSystem:GetCurrentActiveDeviceChainBlackboardIndex(deviceChain) return end
+function TakeOverControlSystem:GetCurrentActiveDeviceChainBlackboardIndex(deviceChain) end
 
----@private
 ---@param higher Bool
 ---@return SWidgetPackage, Bool isValid
-function TakeOverControlSystem:GetPackageFromChainNextToMe(higher) return end
+function TakeOverControlSystem:GetPackageFromChainNextToMe(higher) end
 
----@private
 ---@return nil
-function TakeOverControlSystem:HideAdvanceInteractionInputHints() return end
+function TakeOverControlSystem:HideAdvanceInteractionInputHints() end
 
 ---@return Bool
-function TakeOverControlSystem:IsDeviceChainCreationLocked() return end
+function TakeOverControlSystem:IsDeviceChainCreationLocked() end
 
 ---@return Bool
-function TakeOverControlSystem:IsDeviceControlled() return end
+function TakeOverControlSystem:IsDeviceControlled() end
 
 ---@return Bool
-function TakeOverControlSystem:IsInputLockedFromQuest() return end
+function TakeOverControlSystem:IsInputLockedFromQuest() end
 
----@private
 ---@return Bool
-function TakeOverControlSystem:IsSavingLocked() return end
+function TakeOverControlSystem:IsSavingLocked() end
 
----@private
 ---@param isLocked Bool
 ---@return nil
-function TakeOverControlSystem:LockInputFromQuestRequest(isLocked) return end
+function TakeOverControlSystem:LockInputFromQuestRequest(isLocked) end
 
----@private
 ---@param entity entEntityID
 ---@return nil
-function TakeOverControlSystem:MoveToSpecificEntity(entity) return end
+function TakeOverControlSystem:MoveToSpecificEntity(entity) end
 
----@private
 ---@param request LockDeviceChainCreation
 ---@return nil
-function TakeOverControlSystem:OnLockDeviceChainCreationRequest(request) return end
+function TakeOverControlSystem:OnLockDeviceChainCreationRequest(request) end
 
----@private
 ---@param request LockReleaseOnHit
 ---@return nil
-function TakeOverControlSystem:OnLockReleaseOnHitRequest(request) return end
+function TakeOverControlSystem:OnLockReleaseOnHitRequest(request) end
 
----@private
 ---@param request LockTakeControlAction
 ---@return nil
-function TakeOverControlSystem:OnLockTakeControlActionRequest(request) return end
+function TakeOverControlSystem:OnLockTakeControlActionRequest(request) end
 
----@private
 ---@param request RemoveFromChainRequest
 ---@return nil
-function TakeOverControlSystem:OnRemoveFromChainRequest(request) return end
+function TakeOverControlSystem:OnRemoveFromChainRequest(request) end
 
----@private
 ---@param request RequestQuestTakeControlInputLock
 ---@return nil
-function TakeOverControlSystem:OnRequestQuestTakeControlInputLock(request) return end
+function TakeOverControlSystem:OnRequestQuestTakeControlInputLock(request) end
 
----@private
 ---@param request RequestReleaseControl
 ---@return nil
-function TakeOverControlSystem:OnRequestReleaseControl(request) return end
+function TakeOverControlSystem:OnRequestReleaseControl(request) end
 
----@private
 ---@param request RequestTakeControl
 ---@return nil
-function TakeOverControlSystem:OnRequestTakeControl(request) return end
+function TakeOverControlSystem:OnRequestTakeControl(request) end
 
----@private
 ---@param request TCSUpdate
 ---@return nil
-function TakeOverControlSystem:OnTCSUpdate(request) return end
+function TakeOverControlSystem:OnTCSUpdate(request) end
 
----@private
 ---@param controllsDevice Bool
 ---@return nil
-function TakeOverControlSystem:PSMSetIsPlayerControllDevice(controllsDevice) return end
+function TakeOverControlSystem:PSMSetIsPlayerControllDevice(controllsDevice) end
 
----@private
 ---@param lastXYValue Bool
 ---@return nil
-function TakeOverControlSystem:RefreshDebug(lastXYValue) return end
+function TakeOverControlSystem:RefreshDebug(lastXYValue) end
 
----@private
 ---@param entityID entEntityID
 ---@return nil
-function TakeOverControlSystem:RegisterAsCurrentObject(entityID) return end
+function TakeOverControlSystem:RegisterAsCurrentObject(entityID) end
 
----@private
 ---@return nil
-function TakeOverControlSystem:RegisterBBActiveObjectAsCurrentObject() return end
+function TakeOverControlSystem:RegisterBBActiveObjectAsCurrentObject() end
 
----@private
 ---@param EntID entEntityID
 ---@return nil
-function TakeOverControlSystem:RegisterObjectHandle(EntID) return end
+function TakeOverControlSystem:RegisterObjectHandle(EntID) end
 
----@private
 ---@param register Bool
 ---@return nil
-function TakeOverControlSystem:RegisterSystemOnInput(register) return end
+function TakeOverControlSystem:RegisterSystemOnInput(register) end
 
----@private
 ---@return nil
-function TakeOverControlSystem:ReleaseCurrentObject() return end
+function TakeOverControlSystem:ReleaseCurrentObject() end
 
----@private
 ---@return nil
-function TakeOverControlSystem:ReturnToDeviceScreen() return end
+function TakeOverControlSystem:ReturnToDeviceScreen() end
 
----@private
 ---@param isQuickhack Bool
 ---@return nil
-function TakeOverControlSystem:SendTSCActivateEventToEntity(isQuickhack) return end
+function TakeOverControlSystem:SendTSCActivateEventToEntity(isQuickhack) end
 
----@private
 ---@param show Bool
 ---@return nil
-function TakeOverControlSystem:ShowChainControls(show) return end
+function TakeOverControlSystem:ShowChainControls(show) end
 
----@private
 ---@return nil
-function TakeOverControlSystem:ToggleToMainPlayerObject() return end
+function TakeOverControlSystem:ToggleToMainPlayerObject() end
 
----@private
 ---@return nil
-function TakeOverControlSystem:ToggleToNextControlledDevice() return end
+function TakeOverControlSystem:ToggleToNextControlledDevice() end
 
----@private
 ---@param otherPackage SWidgetPackage
 ---@return nil
-function TakeOverControlSystem:ToggleToOtherDeviceFromChain(otherPackage) return end
+function TakeOverControlSystem:ToggleToOtherDeviceFromChain(otherPackage) end
 
----@private
 ---@return nil
-function TakeOverControlSystem:ToggleToPreviousControlledDevice() return end
+function TakeOverControlSystem:ToggleToPreviousControlledDevice() end
 
----@private
 ---@param evt RequestTakeControl
 ---@return nil
-function TakeOverControlSystem:TryFillControlBlackboard(evt) return end
+function TakeOverControlSystem:TryFillControlBlackboard(evt) end
 
----@private
 ---@param evt RequestTakeControl
 ---@return nil
-function TakeOverControlSystem:TryFillControlBlackboardByForce(evt) return end
+function TakeOverControlSystem:TryFillControlBlackboardByForce(evt) end

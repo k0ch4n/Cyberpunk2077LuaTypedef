@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CMaterialParameterScalar: CMaterialParameter
----@field public scalar Float
----@field public min Float
----@field public max Float
+---@field scalar Float
+---@field min Float
+---@field max Float
 CMaterialParameterScalar = {}
 
 ---@param fields? CMaterialParameterScalar
 ---@return CMaterialParameterScalar
-function CMaterialParameterScalar.new(fields) return end
+function CMaterialParameterScalar.new(fields) end

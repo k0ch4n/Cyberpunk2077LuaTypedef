@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class SBaseDeviceOperationData
----@field public delay Float
----@field public resetDelay Bool
----@field public executeOnce Bool
----@field public isEnabled Bool
----@field public transformAnimations STransformAnimationData[]
----@field public VFXs SVFXOperationData[]
----@field public SFXs SSFXOperationData[]
----@field public facts SFactOperationData[]
----@field public components SComponentOperationData[]
----@field public stims SStimOperationData[]
----@field public statusEffects SStatusEffectOperationData[]
----@field public damages SDamageOperationData[]
----@field public items SInventoryOperationData[]
----@field public teleport STeleportOperationData
----@field public meshesAppearence CName
----@field public playerWorkspot SWorkspotData
----@field public disableDevice Bool
----@field public toggleOperations SToggleOperationData[]
----@field public id Int32
----@field public delayID gameDelayID
----@field public isDelayActive Bool
+---@field delay Float
+---@field resetDelay Bool
+---@field executeOnce Bool
+---@field isEnabled Bool
+---@field transformAnimations STransformAnimationData[]
+---@field VFXs SVFXOperationData[]
+---@field SFXs SSFXOperationData[]
+---@field facts SFactOperationData[]
+---@field components SComponentOperationData[]
+---@field stims SStimOperationData[]
+---@field statusEffects SStatusEffectOperationData[]
+---@field damages SDamageOperationData[]
+---@field items SInventoryOperationData[]
+---@field teleport STeleportOperationData
+---@field meshesAppearence CName
+---@field playerWorkspot SWorkspotData
+---@field disableDevice Bool
+---@field toggleOperations SToggleOperationData[]
+---@field id Int32
+---@field delayID gameDelayID
+---@field isDelayActive Bool
 SBaseDeviceOperationData = {}
 
 ---@param fields? SBaseDeviceOperationData
 ---@return SBaseDeviceOperationData
-function SBaseDeviceOperationData.new(fields) return end
+function SBaseDeviceOperationData.new(fields) end

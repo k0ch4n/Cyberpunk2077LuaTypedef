@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioLocomotionEmitterMetadata: audioEmitterMetadata
----@field public customMaterialLookup CName
----@field public isPlayer Bool
----@field public diveSuitName CName
+---@field customMaterialLookup CName
+---@field isPlayer Bool
+---@field diveSuitName CName
 audioLocomotionEmitterMetadata = {}
 
 ---@param fields? audioLocomotionEmitterMetadata
 ---@return audioLocomotionEmitterMetadata
-function audioLocomotionEmitterMetadata.new(fields) return end
+function audioLocomotionEmitterMetadata.new(fields) end

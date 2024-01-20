@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class audioCombatVoSettings: audioAudioMetadata
----@field public answerGroupName CName
----@field public isPlayerAlly Bool
----@field public contexts CName
----@field public voTriggerVariations CName
----@field public generalGruntSettings audioGeneralVoiceGruntSettings
----@field public voTriggerLimits audioVoiceTriggerLimits
----@field public overridingVoTriggerLimits CName
----@field public barkTriggerLimits audioVoiceTriggerLimits
----@field public gruntTriggerLimits audioVoiceTriggerLimits
----@field public minDamageToInterruptVoWithPainShort Float
----@field public minDamageToInterruptVoWithPainLong Float
+---@field answerGroupName CName
+---@field isPlayerAlly Bool
+---@field contexts CName
+---@field voTriggerVariations CName
+---@field generalGruntSettings audioGeneralVoiceGruntSettings
+---@field voTriggerLimits audioVoiceTriggerLimits
+---@field overridingVoTriggerLimits CName
+---@field barkTriggerLimits audioVoiceTriggerLimits
+---@field gruntTriggerLimits audioVoiceTriggerLimits
+---@field minDamageToInterruptVoWithPainShort Float
+---@field minDamageToInterruptVoWithPainLong Float
 audioCombatVoSettings = {}
 
 ---@param fields? audioCombatVoSettings
 ---@return audioCombatVoSettings
-function audioCombatVoSettings.new(fields) return end
+function audioCombatVoSettings.new(fields) end

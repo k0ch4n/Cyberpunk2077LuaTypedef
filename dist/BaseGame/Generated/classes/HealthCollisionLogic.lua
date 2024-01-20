@@ -5,9 +5,8 @@ HealthCollisionLogic = {}
 
 ---@param fields? HealthCollisionLogic
 ---@return HealthCollisionLogic
-function HealthCollisionLogic.new(fields) return end
+function HealthCollisionLogic.new(fields) end
 
----@protected
 ---@param gameState gameuiRoachRaceGameState
 ---@return nil
-function HealthCollisionLogic:ChangeGameState(gameState) return end
+function HealthCollisionLogic:ChangeGameState(gameState) end

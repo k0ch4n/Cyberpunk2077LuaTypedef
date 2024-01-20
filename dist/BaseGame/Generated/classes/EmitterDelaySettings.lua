@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class EmitterDelaySettings
----@field public emitterDelay Float
----@field public emitterDelayLow Float
----@field public useEmitterDelayRange Bool
----@field public useEmitterDelayOnce Bool
+---@field emitterDelay Float
+---@field emitterDelayLow Float
+---@field useEmitterDelayRange Bool
+---@field useEmitterDelayOnce Bool
 EmitterDelaySettings = {}
 
 ---@param fields? EmitterDelaySettings
 ---@return EmitterDelaySettings
-function EmitterDelaySettings.new(fields) return end
+function EmitterDelaySettings.new(fields) end

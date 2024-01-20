@@ -5,14 +5,12 @@ NoWeaponCombatConditions = {}
 
 ---@param fields? NoWeaponCombatConditions
 ---@return NoWeaponCombatConditions
-function NoWeaponCombatConditions.new(fields) return end
+function NoWeaponCombatConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function NoWeaponCombatConditions:Activate(context) return end
+function NoWeaponCombatConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function NoWeaponCombatConditions:Check(context) return end
+function NoWeaponCombatConditions:Check(context) end

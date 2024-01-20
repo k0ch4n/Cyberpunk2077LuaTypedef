@@ -5,4 +5,4 @@ gameweaponeventsReloadInterruptedEvent = {}
 
 ---@param fields? gameweaponeventsReloadInterruptedEvent
 ---@return gameweaponeventsReloadInterruptedEvent
-function gameweaponeventsReloadInterruptedEvent.new(fields) return end
+function gameweaponeventsReloadInterruptedEvent.new(fields) end

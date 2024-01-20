@@ -5,4 +5,4 @@ worldNavigationConfigAreaNodeInstance = {}
 
 ---@param fields? worldNavigationConfigAreaNodeInstance
 ---@return worldNavigationConfigAreaNodeInstance
-function worldNavigationConfigAreaNodeInstance.new(fields) return end
+function worldNavigationConfigAreaNodeInstance.new(fields) end

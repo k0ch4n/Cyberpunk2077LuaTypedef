@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questSectionNode_ConditionType: questISceneConditionType
----@field public sceneFile scnSceneResource
----@field public SceneVersion scnSceneVersionCheck
----@field public sectionName CName
----@field public type questSceneConditionType
+---@field sceneFile scnSceneResource
+---@field SceneVersion scnSceneVersionCheck
+---@field sectionName CName
+---@field type questSceneConditionType
 questSectionNode_ConditionType = {}
 
 ---@param fields? questSectionNode_ConditionType
 ---@return questSectionNode_ConditionType
-function questSectionNode_ConditionType.new(fields) return end
+function questSectionNode_ConditionType.new(fields) end

@@ -5,4 +5,4 @@ gamedataStopAndStickPerpendicular_Record = {}
 
 ---@param fields? gamedataStopAndStickPerpendicular_Record
 ---@return gamedataStopAndStickPerpendicular_Record
-function gamedataStopAndStickPerpendicular_Record.new(fields) return end
+function gamedataStopAndStickPerpendicular_Record.new(fields) end

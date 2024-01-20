@@ -5,4 +5,4 @@ gameMakeInventoryShareableEvent = {}
 
 ---@param fields? gameMakeInventoryShareableEvent
 ---@return gameMakeInventoryShareableEvent
-function gameMakeInventoryShareableEvent.new(fields) return end
+function gameMakeInventoryShareableEvent.new(fields) end

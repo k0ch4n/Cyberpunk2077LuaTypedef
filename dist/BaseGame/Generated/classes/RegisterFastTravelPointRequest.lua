@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RegisterFastTravelPointRequest: gameScriptableSystemRequest
----@field public pointData gameFastTravelPointData
----@field public requesterID entEntityID
+---@field pointData gameFastTravelPointData
+---@field requesterID entEntityID
 RegisterFastTravelPointRequest = {}
 
 ---@param fields? RegisterFastTravelPointRequest
 ---@return RegisterFastTravelPointRequest
-function RegisterFastTravelPointRequest.new(fields) return end
+function RegisterFastTravelPointRequest.new(fields) end

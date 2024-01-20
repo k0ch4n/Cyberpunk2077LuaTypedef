@@ -5,4 +5,4 @@ RefreshDeescalationTimers = {}
 
 ---@param fields? RefreshDeescalationTimers
 ---@return RefreshDeescalationTimers
-function RefreshDeescalationTimers.new(fields) return end
+function RefreshDeescalationTimers.new(fields) end

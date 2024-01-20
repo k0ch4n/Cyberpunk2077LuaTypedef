@@ -1,34 +1,34 @@
 ---@meta
 
 ---@class audioGeneralVoiceGruntSettings
----@field public variationsCount Uint32
----@field public painLong CName
----@field public agressionShort CName
----@field public agressionLong CName
----@field public longFall CName
----@field public death CName
----@field public silentDeath CName
----@field public grapple CName
----@field public grappleMovement CName
----@field public environmentalKnockdown CName
----@field public bump CName
----@field public curious CName
----@field public fear CName
----@field public jump CName
----@field public effortLong CName
----@field public deathShort CName
----@field public greet CName
----@field public laughHard CName
----@field public laughSoft CName
----@field public phone CName
----@field public braindanceExcited CName
----@field public braindanceFearful CName
----@field public braindanceNeutral CName
----@field public braindanceSexual CName
----@field public contextualVoiceGruntSettings audioContextualVoiceGruntSettings
----@field public gruntVariations audioVoiceGruntVariations
+---@field variationsCount Uint32
+---@field painLong CName
+---@field agressionShort CName
+---@field agressionLong CName
+---@field longFall CName
+---@field death CName
+---@field silentDeath CName
+---@field grapple CName
+---@field grappleMovement CName
+---@field environmentalKnockdown CName
+---@field bump CName
+---@field curious CName
+---@field fear CName
+---@field jump CName
+---@field effortLong CName
+---@field deathShort CName
+---@field greet CName
+---@field laughHard CName
+---@field laughSoft CName
+---@field phone CName
+---@field braindanceExcited CName
+---@field braindanceFearful CName
+---@field braindanceNeutral CName
+---@field braindanceSexual CName
+---@field contextualVoiceGruntSettings audioContextualVoiceGruntSettings
+---@field gruntVariations audioVoiceGruntVariations
 audioGeneralVoiceGruntSettings = {}
 
 ---@param fields? audioGeneralVoiceGruntSettings
 ---@return audioGeneralVoiceGruntSettings
-function audioGeneralVoiceGruntSettings.new(fields) return end
+function audioGeneralVoiceGruntSettings.new(fields) end

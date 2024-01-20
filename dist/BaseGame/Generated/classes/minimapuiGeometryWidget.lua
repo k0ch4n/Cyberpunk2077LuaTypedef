@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class minimapuiGeometryWidget: inkCanvasWidget
----@field public widgetTemplates inkWidgetReference[]
----@field public settings minimapuiSettings
+---@field widgetTemplates inkWidgetReference[]
+---@field settings minimapuiSettings
 minimapuiGeometryWidget = {}
 
 ---@param fields? minimapuiGeometryWidget
 ---@return minimapuiGeometryWidget
-function minimapuiGeometryWidget.new(fields) return end
+function minimapuiGeometryWidget.new(fields) end

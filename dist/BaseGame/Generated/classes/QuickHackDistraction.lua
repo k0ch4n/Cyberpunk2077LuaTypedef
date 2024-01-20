@@ -5,14 +5,14 @@ QuickHackDistraction = {}
 
 ---@param fields? QuickHackDistraction
 ---@return QuickHackDistraction
-function QuickHackDistraction.new(fields) return end
+function QuickHackDistraction.new(fields) end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function QuickHackDistraction:GetInteractionIcon() return end
+function QuickHackDistraction:GetInteractionIcon() end
 
 ---@return nil
-function QuickHackDistraction:SetProperties() return end
+function QuickHackDistraction:SetProperties() end
 
 ---@param interaction CName|string
 ---@return nil
-function QuickHackDistraction:SetProperties(interaction) return end
+function QuickHackDistraction:SetProperties(interaction) end

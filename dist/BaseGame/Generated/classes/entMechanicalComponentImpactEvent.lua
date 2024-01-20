@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entMechanicalComponentImpactEvent: redEvent
----@field public otherEntity entEntity
----@field public impactPoints entImpactPointData[]
+---@field otherEntity entEntity
+---@field impactPoints entImpactPointData[]
 entMechanicalComponentImpactEvent = {}
 
 ---@param fields? entMechanicalComponentImpactEvent
 ---@return entMechanicalComponentImpactEvent
-function entMechanicalComponentImpactEvent.new(fields) return end
+function entMechanicalComponentImpactEvent.new(fields) end

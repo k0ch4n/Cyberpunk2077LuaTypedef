@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetPhaseState: AIActionHelperTask
----@field public phaseStateValue ENPCPhaseState
+---@field phaseStateValue ENPCPhaseState
 SetPhaseState = {}
 
 ---@param fields? SetPhaseState
 ---@return SetPhaseState
-function SetPhaseState.new(fields) return end
+function SetPhaseState.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetPhaseState:Activate(context) return end
+function SetPhaseState:Activate(context) end

@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class SAreaEffectData
----@field public action ScriptableDeviceAction
----@field public areaEffectID CName
----@field public indicatorEffectName CName
----@field public useIndicatorEffect Bool
----@field public indicatorEffectSize Float
----@field public stimRange Float
----@field public stimLifetime Float
----@field public stimType DeviceStimType
----@field public stimSource NodeRef
----@field public additionaStimSources NodeRef[]
----@field public investigateSpot NodeRef
----@field public investigateController Bool
----@field public controllerSource NodeRef
----@field public highlightTargets Bool
----@field public highlightType EFocusForcedHighlightType
----@field public highlightPriority EPriority
----@field public effectInstance gameEffectInstance
+---@field action ScriptableDeviceAction
+---@field areaEffectID CName
+---@field indicatorEffectName CName
+---@field useIndicatorEffect Bool
+---@field indicatorEffectSize Float
+---@field stimRange Float
+---@field stimLifetime Float
+---@field stimType DeviceStimType
+---@field stimSource NodeRef
+---@field additionaStimSources NodeRef[]
+---@field investigateSpot NodeRef
+---@field investigateController Bool
+---@field controllerSource NodeRef
+---@field highlightTargets Bool
+---@field highlightType EFocusForcedHighlightType
+---@field highlightPriority EPriority
+---@field effectInstance gameEffectInstance
 SAreaEffectData = {}
 
 ---@param fields? SAreaEffectData
 ---@return SAreaEffectData
-function SAreaEffectData.new(fields) return end
+function SAreaEffectData.new(fields) end

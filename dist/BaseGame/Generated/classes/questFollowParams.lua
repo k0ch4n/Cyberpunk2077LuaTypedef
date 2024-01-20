@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class questFollowParams: questAICommandParams
----@field public companionRef questUniversalRef
----@field public companionDistance Float
----@field public destinationPointTolerance Float
----@field public stopWhenDestinationReached Bool
----@field public movementType moveMovementType
----@field public matchSpeed Bool
----@field public useTeleport Bool
----@field public repeatCommandOnInterrupt Bool
+---@field companionRef questUniversalRef
+---@field companionDistance Float
+---@field destinationPointTolerance Float
+---@field stopWhenDestinationReached Bool
+---@field movementType moveMovementType
+---@field matchSpeed Bool
+---@field useTeleport Bool
+---@field repeatCommandOnInterrupt Bool
 questFollowParams = {}
 
 ---@param fields? questFollowParams
 ---@return questFollowParams
-function questFollowParams.new(fields) return end
+function questFollowParams.new(fields) end

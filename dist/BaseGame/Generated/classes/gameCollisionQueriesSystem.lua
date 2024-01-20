@@ -5,4 +5,4 @@ gameCollisionQueriesSystem = {}
 
 ---@param fields? gameCollisionQueriesSystem
 ---@return gameCollisionQueriesSystem
-function gameCollisionQueriesSystem.new(fields) return end
+function gameCollisionQueriesSystem.new(fields) end

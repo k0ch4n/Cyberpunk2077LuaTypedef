@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuestUpdateUserData: inkGameNotificationData
----@field public data gameJournalQuest
+---@field data gameJournalQuest
 QuestUpdateUserData = {}
 
 ---@param fields? QuestUpdateUserData
 ---@return QuestUpdateUserData
-function QuestUpdateUserData.new(fields) return end
+function QuestUpdateUserData.new(fields) end

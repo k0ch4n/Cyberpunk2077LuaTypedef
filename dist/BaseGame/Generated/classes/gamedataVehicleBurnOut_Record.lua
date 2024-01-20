@@ -5,49 +5,49 @@ gamedataVehicleBurnOut_Record = {}
 
 ---@param fields? gamedataVehicleBurnOut_Record
 ---@return gamedataVehicleBurnOut_Record
-function gamedataVehicleBurnOut_Record.new(fields) return end
+function gamedataVehicleBurnOut_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:BurnOutGripBonus() return end
+function gamedataVehicleBurnOut_Record:BurnOutGripBonus() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:GripBonusMaxLaunchSpeed() return end
+function gamedataVehicleBurnOut_Record:GripBonusMaxLaunchSpeed() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:GripBonusMaxSpeedMultiplier() return end
+function gamedataVehicleBurnOut_Record:GripBonusMaxSpeedMultiplier() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:LateralAccelForwardSpeedMaxDecimation() return end
+function gamedataVehicleBurnOut_Record:LateralAccelForwardSpeedMaxDecimation() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:LateralForceMaxAcceleration() return end
+function gamedataVehicleBurnOut_Record:LateralForceMaxAcceleration() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:LateralForceMaxSpeed() return end
+function gamedataVehicleBurnOut_Record:LateralForceMaxSpeed() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:LateralSlipRatioInfluence() return end
+function gamedataVehicleBurnOut_Record:LateralSlipRatioInfluence() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MaxBrakeForceModifier() return end
+function gamedataVehicleBurnOut_Record:MaxBrakeForceModifier() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MaxDriveWheelSlipRatio() return end
+function gamedataVehicleBurnOut_Record:MaxDriveWheelSlipRatio() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MaxLateralAccelSlipRatioMultipler() return end
+function gamedataVehicleBurnOut_Record:MaxLateralAccelSlipRatioMultipler() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MaxLongFrictionSlipRatioMultipler() return end
+function gamedataVehicleBurnOut_Record:MaxLongFrictionSlipRatioMultipler() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MaxSpeedToInitiateBurnOut() return end
+function gamedataVehicleBurnOut_Record:MaxSpeedToInitiateBurnOut() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MinBrakeForceModifier() return end
+function gamedataVehicleBurnOut_Record:MinBrakeForceModifier() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MinLongFrictionCoeff() return end
+function gamedataVehicleBurnOut_Record:MinLongFrictionCoeff() end
 
 ---@return Float
-function gamedataVehicleBurnOut_Record:MinLongFrictionSlipRatioScaled() return end
+function gamedataVehicleBurnOut_Record:MinLongFrictionSlipRatioScaled() end

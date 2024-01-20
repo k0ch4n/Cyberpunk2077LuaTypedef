@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SampleMapArrayElement
----@field public myKey Uint32
----@field public someStringProperty String
----@field public someArrayProperty String[]
+---@field myKey Uint32
+---@field someStringProperty String
+---@field someArrayProperty String[]
 SampleMapArrayElement = {}
 
 ---@param fields? SampleMapArrayElement
 ---@return SampleMapArrayElement
-function SampleMapArrayElement.new(fields) return end
+function SampleMapArrayElement.new(fields) end

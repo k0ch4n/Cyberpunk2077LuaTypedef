@@ -1,57 +1,48 @@
 ---@meta
 
 ---@class sampleBulletGeneric: BaseProjectile
----@field private meshComponent entIComponent
----@field private damage gameEffectInstance
----@field private countTime Float
----@field private startVelocity Float
----@field private lifetime Float
----@field private alive Bool
+---@field meshComponent entIComponent
+---@field damage gameEffectInstance
+---@field countTime Float
+---@field startVelocity Float
+---@field lifetime Float
+---@field alive Bool
 sampleBulletGeneric = {}
 
 ---@param fields? sampleBulletGeneric
 ---@return sampleBulletGeneric
-function sampleBulletGeneric.new(fields) return end
+function sampleBulletGeneric.new(fields) end
 
----@protected
 ---@param projectileHitEvent gameprojectileHitEvent
 ---@return Bool
-function sampleBulletGeneric:OnCollision(projectileHitEvent) return end
+function sampleBulletGeneric:OnCollision(projectileHitEvent) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function sampleBulletGeneric:OnProjectileInitialize(eventData) return end
+function sampleBulletGeneric:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function sampleBulletGeneric:OnRequestComponents(ri) return end
+function sampleBulletGeneric:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function sampleBulletGeneric:OnShoot(eventData) return end
+function sampleBulletGeneric:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function sampleBulletGeneric:OnShootTarget(eventData) return end
+function sampleBulletGeneric:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function sampleBulletGeneric:OnTakeControl(ri) return end
+function sampleBulletGeneric:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function sampleBulletGeneric:OnTick(eventData) return end
+function sampleBulletGeneric:OnTick(eventData) end
 
----@private
 ---@return nil
-function sampleBulletGeneric:Reset() return end
+function sampleBulletGeneric:Reset() end
 
----@private
 ---@return nil
-function sampleBulletGeneric:StartTrailEffect() return end
+function sampleBulletGeneric:StartTrailEffect() end

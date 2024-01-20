@@ -3,23 +3,22 @@
 ---@class LeftHandCyberwareEventsTransition: LeftHandCyberwareTransition
 LeftHandCyberwareEventsTransition = {}
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareEventsTransition:CleanUpLeftHandCyberwareState(stateContext, scriptInterface) return end
+function LeftHandCyberwareEventsTransition:CleanUpLeftHandCyberwareState(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareEventsTransition:OnEnter(stateContext, scriptInterface) return end
+function LeftHandCyberwareEventsTransition:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareEventsTransition:OnExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareEventsTransition:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareEventsTransition:OnForcedExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareEventsTransition:OnForcedExit(stateContext, scriptInterface) end

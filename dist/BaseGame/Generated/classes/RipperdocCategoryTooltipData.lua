@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class RipperdocCategoryTooltipData: ATooltipData
----@field public category gamedataEquipmentArea
----@field public ownedItems Int32
----@field public availableItems Int32
----@field public screenType CyberwareScreenType
+---@field category gamedataEquipmentArea
+---@field ownedItems Int32
+---@field availableItems Int32
+---@field screenType CyberwareScreenType
 RipperdocCategoryTooltipData = {}
 
 ---@param fields? RipperdocCategoryTooltipData
 ---@return RipperdocCategoryTooltipData
-function RipperdocCategoryTooltipData.new(fields) return end
+function RipperdocCategoryTooltipData.new(fields) end

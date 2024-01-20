@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class ShouldContinuePatrolFromBeginning: AIbehaviorconditionScript
----@field public patrolContinuationPolicy AIArgumentMapping
+---@field patrolContinuationPolicy AIArgumentMapping
 ShouldContinuePatrolFromBeginning = {}
 
 ---@param fields? ShouldContinuePatrolFromBeginning
 ---@return ShouldContinuePatrolFromBeginning
-function ShouldContinuePatrolFromBeginning.new(fields) return end
+function ShouldContinuePatrolFromBeginning.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldContinuePatrolFromBeginning:Check(context) return end
+function ShouldContinuePatrolFromBeginning:Check(context) end

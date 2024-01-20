@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class senseSensorOwnerChangedEvent: redEvent
----@field public newOwnerId entEntityID
+---@field newOwnerId entEntityID
 senseSensorOwnerChangedEvent = {}
 
 ---@param fields? senseSensorOwnerChangedEvent
 ---@return senseSensorOwnerChangedEvent
-function senseSensorOwnerChangedEvent.new(fields) return end
+function senseSensorOwnerChangedEvent.new(fields) end

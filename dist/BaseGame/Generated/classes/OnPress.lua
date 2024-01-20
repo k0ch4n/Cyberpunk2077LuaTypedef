@@ -5,4 +5,4 @@ OnPress = {}
 
 ---@param fields? OnPress
 ---@return OnPress
-function OnPress.new(fields) return end
+function OnPress.new(fields) end

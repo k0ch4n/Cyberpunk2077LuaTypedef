@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SSoundData
----@field public widgetAudioName CName
----@field public onPressKey CName
----@field public onReleaseKey CName
----@field public onHoverOverKey CName
----@field public onHoverOutKey CName
+---@field widgetAudioName CName
+---@field onPressKey CName
+---@field onReleaseKey CName
+---@field onHoverOverKey CName
+---@field onHoverOutKey CName
 SSoundData = {}
 
 ---@param fields? SSoundData
 ---@return SSoundData
-function SSoundData.new(fields) return end
+function SSoundData.new(fields) end

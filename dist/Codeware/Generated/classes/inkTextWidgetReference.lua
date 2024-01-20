@@ -5,8 +5,8 @@ inkTextWidgetReference = {}
 
 ---@param fields? inkTextWidgetReference
 ---@return inkTextWidgetReference
-function inkTextWidgetReference.new(fields) return end
+function inkTextWidgetReference.new(fields) end
 
 ---@param widget inkTextWidget
 ---@return inkTextWidgetReference
-function inkTextWidgetReference.Create(widget) return end
+function inkTextWidgetReference.Create(widget) end

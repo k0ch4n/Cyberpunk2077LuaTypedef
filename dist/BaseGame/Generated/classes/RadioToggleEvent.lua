@@ -5,4 +5,4 @@ RadioToggleEvent = {}
 
 ---@param fields? RadioToggleEvent
 ---@return RadioToggleEvent
-function RadioToggleEvent.new(fields) return end
+function RadioToggleEvent.new(fields) end

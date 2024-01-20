@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class animAnimFeature_MeleeData: animAnimFeature
----@field public isMeleeWeaponEquipped Bool
----@field public attackSpeed Float
----@field public isEquippingThrowable Bool
----@field public isTargeting Bool
----@field public isBlocking Bool
----@field public isHolding Bool
----@field public isAttacking Bool
----@field public attackNumber Int32
----@field public shouldHandsDisappear Bool
----@field public isSliding Bool
----@field public deflectDuration Float
----@field public isSafe Bool
----@field public keepRenderPlane Bool
----@field public hasDeflectAnim Bool
----@field public hasHitAnim Bool
----@field public attackType Int32
----@field public isParried Bool
----@field public isThrowReloading Bool
----@field public throwReloadTime Float
+---@field isMeleeWeaponEquipped Bool
+---@field attackSpeed Float
+---@field isEquippingThrowable Bool
+---@field isTargeting Bool
+---@field isBlocking Bool
+---@field isHolding Bool
+---@field isAttacking Bool
+---@field attackNumber Int32
+---@field shouldHandsDisappear Bool
+---@field isSliding Bool
+---@field deflectDuration Float
+---@field isSafe Bool
+---@field keepRenderPlane Bool
+---@field hasDeflectAnim Bool
+---@field hasHitAnim Bool
+---@field attackType Int32
+---@field isParried Bool
+---@field isThrowReloading Bool
+---@field throwReloadTime Float
 animAnimFeature_MeleeData = {}
 
 ---@param fields? animAnimFeature_MeleeData
 ---@return animAnimFeature_MeleeData
-function animAnimFeature_MeleeData.new(fields) return end
+function animAnimFeature_MeleeData.new(fields) end

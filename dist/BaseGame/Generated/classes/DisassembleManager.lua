@@ -1,65 +1,56 @@
 ---@meta
 
 ---@class DisassembleManager: gameuiMenuGameController
----@field private listRef inkCompoundWidgetReference
----@field private initialPopupDelay Float
----@field private popupList DisassemblePopupLogicController[]
----@field private listOfAddedInventoryItems gameInventoryItemData[]
----@field private player PlayerPuppet
----@field private InventoryManager InventoryDataManagerV2
----@field private transactionSystem gameTransactionSystem
----@field private root inkWidget
----@field private animProxy inkanimProxy
----@field private alpha_fadein inkanimDefinition
----@field private AnimOptions inkanimPlaybackOptions
----@field private DisassembleCallback UI_CraftingDef
----@field private DisassembleBlackboard gameIBlackboard
----@field private DisassembleBBID redCallbackObject
----@field private CraftingBBID redCallbackObject
+---@field listRef inkCompoundWidgetReference
+---@field initialPopupDelay Float
+---@field popupList DisassemblePopupLogicController[]
+---@field listOfAddedInventoryItems gameInventoryItemData[]
+---@field player PlayerPuppet
+---@field InventoryManager InventoryDataManagerV2
+---@field transactionSystem gameTransactionSystem
+---@field root inkWidget
+---@field animProxy inkanimProxy
+---@field alpha_fadein inkanimDefinition
+---@field AnimOptions inkanimPlaybackOptions
+---@field DisassembleCallback UI_CraftingDef
+---@field DisassembleBlackboard gameIBlackboard
+---@field DisassembleBBID redCallbackObject
+---@field CraftingBBID redCallbackObject
 DisassembleManager = {}
 
 ---@param fields? DisassembleManager
 ---@return DisassembleManager
-function DisassembleManager.new(fields) return end
+function DisassembleManager.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function DisassembleManager:OnDelayComplete(anim) return end
+function DisassembleManager:OnDelayComplete(anim) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DisassembleManager:OnDisassembleComplete(value) return end
+function DisassembleManager:OnDisassembleComplete(value) end
 
----@protected
 ---@return Bool
-function DisassembleManager:OnInitialize() return end
+function DisassembleManager:OnInitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function DisassembleManager:OnRemovePopup(widget) return end
+function DisassembleManager:OnRemovePopup(widget) end
 
----@protected
 ---@return Bool
-function DisassembleManager:OnUninitialize() return end
-
----@private
----@return nil
-function DisassembleManager:CreatePopup() return end
-
----@private
----@return nil
-function DisassembleManager:CreatePopupDelay() return end
+function DisassembleManager:OnUninitialize() end
 
 ---@return nil
-function DisassembleManager:ManagePopups() return end
+function DisassembleManager:CreatePopup() end
 
----@private
 ---@return nil
-function DisassembleManager:SetupBB() return end
+function DisassembleManager:CreatePopupDelay() end
 
----@private
 ---@return nil
-function DisassembleManager:UnregisterFromBB() return end
+function DisassembleManager:ManagePopups() end
+
+---@return nil
+function DisassembleManager:SetupBB() end
+
+---@return nil
+function DisassembleManager:UnregisterFromBB() end

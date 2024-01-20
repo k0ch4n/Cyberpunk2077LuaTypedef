@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class meshMeshAppearance: ISerializable
----@field public name CName
----@field public chunkMaterials CName[]
----@field public tags CName[]
+---@field name CName
+---@field chunkMaterials CName[]
+---@field tags CName[]
 meshMeshAppearance = {}
 
 ---@param fields? meshMeshAppearance
 ---@return meshMeshAppearance
-function meshMeshAppearance.new(fields) return end
+function meshMeshAppearance.new(fields) end

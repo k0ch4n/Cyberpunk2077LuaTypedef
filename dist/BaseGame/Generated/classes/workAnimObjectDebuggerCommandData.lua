@@ -5,4 +5,4 @@ workAnimObjectDebuggerCommandData = {}
 
 ---@param fields? workAnimObjectDebuggerCommandData
 ---@return workAnimObjectDebuggerCommandData
-function workAnimObjectDebuggerCommandData.new(fields) return end
+function workAnimObjectDebuggerCommandData.new(fields) end

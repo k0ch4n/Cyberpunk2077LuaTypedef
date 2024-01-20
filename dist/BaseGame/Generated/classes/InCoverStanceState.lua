@@ -5,8 +5,7 @@ InCoverStanceState = {}
 
 ---@param fields? InCoverStanceState
 ---@return InCoverStanceState
-function InCoverStanceState.new(fields) return end
+function InCoverStanceState.new(fields) end
 
----@private
 ---@return gamedataNPCStanceState
-function InCoverStanceState:GetStateToCheck() return end
+function InCoverStanceState:GetStateToCheck() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class localizationPersistenceOnScreenEntry
----@field public primaryKey Uint64
----@field public secondaryKey String
----@field public femaleVariant String
----@field public maleVariant String
+---@field primaryKey Uint64
+---@field secondaryKey String
+---@field femaleVariant String
+---@field maleVariant String
 localizationPersistenceOnScreenEntry = {}
 
 ---@param fields? localizationPersistenceOnScreenEntry
 ---@return localizationPersistenceOnScreenEntry
-function localizationPersistenceOnScreenEntry.new(fields) return end
+function localizationPersistenceOnScreenEntry.new(fields) end

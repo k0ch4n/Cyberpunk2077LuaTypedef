@@ -5,23 +5,23 @@ DisassembleDevice = {}
 
 ---@param fields? DisassembleDevice
 ---@return DisassembleDevice
-function DisassembleDevice.new(fields) return end
+function DisassembleDevice.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function DisassembleDevice.IsAvailable(device) return end
+function DisassembleDevice.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function DisassembleDevice.IsClearanceValid(clearance) return end
+function DisassembleDevice.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function DisassembleDevice.IsDefaultConditionMet(device, context) return end
+function DisassembleDevice.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function DisassembleDevice:GetTweakDBChoiceRecord() return end
+function DisassembleDevice:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function DisassembleDevice:SetProperties() return end
+function DisassembleDevice:SetProperties() end

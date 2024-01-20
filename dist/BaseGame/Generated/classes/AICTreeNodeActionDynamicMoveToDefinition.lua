@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AICTreeNodeActionDynamicMoveToDefinition: AICTreeNodeActionDefinition
----@field public moveType moveMovementType
----@field public tolerance Float
----@field public target CName
----@field public keepDistance Bool
+---@field moveType moveMovementType
+---@field tolerance Float
+---@field target CName
+---@field keepDistance Bool
 AICTreeNodeActionDynamicMoveToDefinition = {}
 
 ---@param fields? AICTreeNodeActionDynamicMoveToDefinition
 ---@return AICTreeNodeActionDynamicMoveToDefinition
-function AICTreeNodeActionDynamicMoveToDefinition.new(fields) return end
+function AICTreeNodeActionDynamicMoveToDefinition.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CEvaluatorFloatRandomUniform: IEvaluatorFloat
----@field public min Float
----@field public max Float
+---@field min Float
+---@field max Float
 CEvaluatorFloatRandomUniform = {}
 
 ---@param fields? CEvaluatorFloatRandomUniform
 ---@return CEvaluatorFloatRandomUniform
-function CEvaluatorFloatRandomUniform.new(fields) return end
+function CEvaluatorFloatRandomUniform.new(fields) end

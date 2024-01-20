@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CharParamTimeout: AITimeoutCondition
----@field public timeoutParamName String
+---@field timeoutParamName String
 CharParamTimeout = {}
 
 ---@param fields? CharParamTimeout
 ---@return CharParamTimeout
-function CharParamTimeout.new(fields) return end
+function CharParamTimeout.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function CharParamTimeout:GetTimeoutValue(context) return end
+function CharParamTimeout:GetTimeoutValue(context) end

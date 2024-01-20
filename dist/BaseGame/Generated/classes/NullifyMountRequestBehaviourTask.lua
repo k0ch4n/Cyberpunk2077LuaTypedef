@@ -5,9 +5,8 @@ NullifyMountRequestBehaviourTask = {}
 
 ---@param fields? NullifyMountRequestBehaviourTask
 ---@return NullifyMountRequestBehaviourTask
-function NullifyMountRequestBehaviourTask.new(fields) return end
+function NullifyMountRequestBehaviourTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function NullifyMountRequestBehaviourTask:Activate(context) return end
+function NullifyMountRequestBehaviourTask:Activate(context) end

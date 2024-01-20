@@ -1,8 +1,8 @@
 ---@meta
 
 ---@class gameJournalQuestMapPinBase: gameJournalContainerEntry
----@field public enableGPS Bool
+---@field enableGPS Bool
 gameJournalQuestMapPinBase = {}
 
 ---@return String
-function gameJournalQuestMapPinBase:GetCaption() return end
+function gameJournalQuestMapPinBase:GetCaption() end

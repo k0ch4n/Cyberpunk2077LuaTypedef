@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioContextualVoiceGruntSettings
----@field public painShort audioContextualVoiceGrunt
----@field public effort audioContextualVoiceGrunt
+---@field painShort audioContextualVoiceGrunt
+---@field effort audioContextualVoiceGrunt
 audioContextualVoiceGruntSettings = {}
 
 ---@param fields? audioContextualVoiceGruntSettings
 ---@return audioContextualVoiceGruntSettings
-function audioContextualVoiceGruntSettings.new(fields) return end
+function audioContextualVoiceGruntSettings.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SNewsFeedData
----@field public interval Float
----@field public elements SNewsFeedElementData[]
+---@field interval Float
+---@field elements SNewsFeedElementData[]
 SNewsFeedData = {}
 
 ---@param fields? SNewsFeedData
 ---@return SNewsFeedData
-function SNewsFeedData.new(fields) return end
+function SNewsFeedData.new(fields) end

@@ -5,4 +5,4 @@ gamestateMachineplayeractionsActionChargeMax = {}
 
 ---@param fields? gamestateMachineplayeractionsActionChargeMax
 ---@return gamestateMachineplayeractionsActionChargeMax
-function gamestateMachineplayeractionsActionChargeMax.new(fields) return end
+function gamestateMachineplayeractionsActionChargeMax.new(fields) end

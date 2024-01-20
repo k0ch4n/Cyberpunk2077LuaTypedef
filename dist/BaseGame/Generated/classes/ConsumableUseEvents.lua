@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class ConsumableUseEvents: ConsumableTransitions
----@field public effectsApplied Bool
----@field public modelRemoved Bool
----@field public activeConsumable gameItemID
+---@field effectsApplied Bool
+---@field modelRemoved Bool
+---@field activeConsumable gameItemID
 ConsumableUseEvents = {}
 
 ---@param fields? ConsumableUseEvents
 ---@return ConsumableUseEvents
-function ConsumableUseEvents.new(fields) return end
+function ConsumableUseEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ConsumableUseEvents:OnEnter(stateContext, scriptInterface) return end
+function ConsumableUseEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ConsumableUseEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ConsumableUseEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

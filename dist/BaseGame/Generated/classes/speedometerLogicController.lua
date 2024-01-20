@@ -1,30 +1,29 @@
 ---@meta
 
 ---@class speedometerLogicController: IVehicleModuleController
----@field private speedTextWidget inkTextWidgetReference
----@field private speedBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
----@field private vehicle vehicleBaseObject
----@field private currentSpeed Int32
+---@field speedTextWidget inkTextWidgetReference
+---@field speedBBConnectionId redCallbackObject
+---@field vehBB gameIBlackboard
+---@field vehicle vehicleBaseObject
+---@field currentSpeed Int32
 speedometerLogicController = {}
 
 ---@param fields? speedometerLogicController
 ---@return speedometerLogicController
-function speedometerLogicController.new(fields) return end
+function speedometerLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function speedometerLogicController:OnUninitialize() return end
+function speedometerLogicController:OnUninitialize() end
 
 ---@param speed Float
 ---@return nil
-function speedometerLogicController:OnSpeedValueChanged(speed) return end
+function speedometerLogicController:OnSpeedValueChanged(speed) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function speedometerLogicController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function speedometerLogicController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function speedometerLogicController:UnregisterCallbacks() return end
+function speedometerLogicController:UnregisterCallbacks() end

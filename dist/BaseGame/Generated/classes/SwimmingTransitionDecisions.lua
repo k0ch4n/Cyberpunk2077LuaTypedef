@@ -5,16 +5,14 @@ SwimmingTransitionDecisions = {}
 
 ---@param fields? SwimmingTransitionDecisions
 ---@return SwimmingTransitionDecisions
-function SwimmingTransitionDecisions.new(fields) return end
+function SwimmingTransitionDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingTransitionDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SwimmingTransitionDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingTransitionDecisions:ExitCondition(stateContext, scriptInterface) return end
+function SwimmingTransitionDecisions:ExitCondition(stateContext, scriptInterface) end

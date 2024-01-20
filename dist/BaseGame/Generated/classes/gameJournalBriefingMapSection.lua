@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalBriefingMapSection: gameJournalBriefingBaseSection
----@field public mapLocation Vector3
+---@field mapLocation Vector3
 gameJournalBriefingMapSection = {}
 
 ---@param fields? gameJournalBriefingMapSection
 ---@return gameJournalBriefingMapSection
-function gameJournalBriefingMapSection.new(fields) return end
+function gameJournalBriefingMapSection.new(fields) end
 
 ---@return Vector4
-function gameJournalBriefingMapSection:GetMapLocation() return end
+function gameJournalBriefingMapSection:GetMapLocation() end

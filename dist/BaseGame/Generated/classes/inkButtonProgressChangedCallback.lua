@@ -5,4 +5,4 @@ inkButtonProgressChangedCallback = {}
 
 ---@param fields? inkButtonProgressChangedCallback
 ---@return inkButtonProgressChangedCallback
-function inkButtonProgressChangedCallback.new(fields) return end
+function inkButtonProgressChangedCallback.new(fields) end

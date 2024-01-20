@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class SPerformedActions
----@field public ID CName
----@field public ActionContext EActionContext[]
+---@field ID CName
+---@field ActionContext EActionContext[]
 SPerformedActions = {}
 
 ---@param fields? SPerformedActions
 ---@return SPerformedActions
-function SPerformedActions.new(fields) return end
+function SPerformedActions.new(fields) end
 
 ---@param self SPerformedActions
 ---@param actionContext EActionContext
 ---@return Bool
-function SPerformedActions.ContainsActionContext(self, actionContext) return end
+function SPerformedActions.ContainsActionContext(self, actionContext) end
 
 ---@param selfPSID gamePersistentID
 ---@param actionToResolve ScriptableDeviceAction
 ---@return EActionContext
-function SPerformedActions.GetContextFromAction(selfPSID, actionToResolve) return end
+function SPerformedActions.GetContextFromAction(selfPSID, actionToResolve) end

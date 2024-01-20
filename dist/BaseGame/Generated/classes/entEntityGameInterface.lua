@@ -5,7 +5,7 @@ entEntityGameInterface = {}
 
 ---@param fields? entEntityGameInterface
 ---@return entEntityGameInterface
-function entEntityGameInterface.new(fields) return end
+function entEntityGameInterface.new(fields) end
 
 ---@param self entEntityGameInterface
 ---@param target entEntityGameInterface
@@ -13,37 +13,37 @@ function entEntityGameInterface.new(fields) return end
 ---@param slotName? CName|string
 ---@param keepWorldTransform? Bool
 ---@return nil
-function entEntityGameInterface.BindToComponent(self, target, componentName, slotName, keepWorldTransform) return end
+function entEntityGameInterface.BindToComponent(self, target, componentName, slotName, keepWorldTransform) end
 
 ---@param self entEntityGameInterface
 ---@return nil
-function entEntityGameInterface.Destroy(self) return end
+function entEntityGameInterface.Destroy(self) end
 
 ---@param self entEntityGameInterface
 ---@return entEntity
-function entEntityGameInterface.GetEntity(self) return end
+function entEntityGameInterface.GetEntity(self) end
 
 ---@param self entEntityGameInterface
 ---@return Bool
-function entEntityGameInterface.IsStatic(self) return end
+function entEntityGameInterface.IsStatic(self) end
 
 ---@param self entEntityGameInterface
 ---@return Bool
-function entEntityGameInterface.IsValid(self) return end
+function entEntityGameInterface.IsValid(self) end
 
 ---@param self entEntityGameInterface
 ---@param enable Bool
 ---@return nil
-function entEntityGameInterface.ToggleSelectionEffect(self, enable) return end
+function entEntityGameInterface.ToggleSelectionEffect(self, enable) end
 
 ---@param crowdEntity entEntity[]
 ---@return nil
-function entEntityGameInterface.TryDisableCrowdCollider(crowdEntity) return end
+function entEntityGameInterface.TryDisableCrowdCollider(crowdEntity) end
 
 ---@param crowdEntity entEntity[]
 ---@return nil
-function entEntityGameInterface.TryEnableCrowdCollider(crowdEntity) return end
+function entEntityGameInterface.TryEnableCrowdCollider(crowdEntity) end
 
 ---@param self entEntityGameInterface
 ---@return nil
-function entEntityGameInterface.UnbindTransform(self) return end
+function entEntityGameInterface.UnbindTransform(self) end

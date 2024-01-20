@@ -1,145 +1,127 @@
 ---@meta
 
 ---@class JournalNotificationQueue: gameuiGenericNotificationGameController
----@field private showDuration Float
----@field private currencyNotification CName
----@field private shardNotification CName
----@field private itemNotification CName
----@field private questNotification CName
----@field private genericNotification CName
----@field private journalMgr gameJournalManager
----@field private newAreablackboard gameIBlackboard
----@field private newAreaDef UI_MapDef
----@field private newAreaID redCallbackObject
----@field private tutorialBlackboard gameIBlackboard
----@field private tutorialDef UIGameDataDef
----@field private tutorialID redCallbackObject
----@field private tutorialDataID redCallbackObject
----@field private isHiddenByTutorial Bool
----@field private customQuestNotificationblackBoardID redCallbackObject
----@field private customQuestNotificationblackboardDef UI_CustomQuestNotificationDef
----@field private customQuestNotificationblackboard gameIBlackboard
----@field private transactionSystem gameTransactionSystem
----@field private playerPuppet gameObject
----@field private activeVehicleBlackboard gameIBlackboard
----@field private mountBBConnectionId redCallbackObject
----@field private isPlayerMounted Bool
----@field private blackboard gameIBlackboard
----@field private uiSystemBB UI_SystemDef
----@field private uiSystemId redCallbackObject
----@field private trackedMappinId redCallbackObject
----@field private uiSystem gameuiGameSystemUI
----@field private shardTransactionListener gameInventoryScriptListener
+---@field showDuration Float
+---@field currencyNotification CName
+---@field shardNotification CName
+---@field itemNotification CName
+---@field questNotification CName
+---@field genericNotification CName
+---@field journalMgr gameJournalManager
+---@field newAreablackboard gameIBlackboard
+---@field newAreaDef UI_MapDef
+---@field newAreaID redCallbackObject
+---@field tutorialBlackboard gameIBlackboard
+---@field tutorialDef UIGameDataDef
+---@field tutorialID redCallbackObject
+---@field tutorialDataID redCallbackObject
+---@field isHiddenByTutorial Bool
+---@field customQuestNotificationblackBoardID redCallbackObject
+---@field customQuestNotificationblackboardDef UI_CustomQuestNotificationDef
+---@field customQuestNotificationblackboard gameIBlackboard
+---@field transactionSystem gameTransactionSystem
+---@field playerPuppet gameObject
+---@field activeVehicleBlackboard gameIBlackboard
+---@field mountBBConnectionId redCallbackObject
+---@field isPlayerMounted Bool
+---@field blackboard gameIBlackboard
+---@field uiSystemBB UI_SystemDef
+---@field uiSystemId redCallbackObject
+---@field trackedMappinId redCallbackObject
+---@field uiSystem gameuiGameSystemUI
+---@field shardTransactionListener gameInventoryScriptListener
 JournalNotificationQueue = {}
 
 ---@param fields? JournalNotificationQueue
 ---@return JournalNotificationQueue
-function JournalNotificationQueue.new(fields) return end
+function JournalNotificationQueue.new(fields) end
 
----@protected
 ---@param evt CustomNotificationEvent
 ---@return Bool
-function JournalNotificationQueue:OnCustomNotification(evt) return end
+function JournalNotificationQueue:OnCustomNotification(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function JournalNotificationQueue:OnCustomQuestNotificationUpdate(value) return end
+function JournalNotificationQueue:OnCustomQuestNotificationUpdate(value) end
 
----@protected
 ---@param evt HackingRewardNotificationEvent
 ---@return Bool
-function JournalNotificationQueue:OnHackingRewardNotification(evt) return end
+function JournalNotificationQueue:OnHackingRewardNotification(evt) end
 
----@protected
 ---@return Bool
-function JournalNotificationQueue:OnInitialize() return end
+function JournalNotificationQueue:OnInitialize() end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function JournalNotificationQueue:OnJournalEntryVisited(hash, className, notifyOption, changeType) return end
+function JournalNotificationQueue:OnJournalEntryVisited(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function JournalNotificationQueue:OnJournalUpdate(hash, className, notifyOption, changeType) return end
+function JournalNotificationQueue:OnJournalUpdate(hash, className, notifyOption, changeType) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function JournalNotificationQueue:OnMenuUpdate(value) return end
+function JournalNotificationQueue:OnMenuUpdate(value) end
 
----@protected
 ---@param evt NCPDJobDoneEvent
 ---@return Bool
-function JournalNotificationQueue:OnNCPDJobDoneEvent(evt) return end
+function JournalNotificationQueue:OnNCPDJobDoneEvent(evt) end
 
----@protected
 ---@param newLocation Bool
 ---@return Bool
-function JournalNotificationQueue:OnNewLocationDiscovered(newLocation) return end
+function JournalNotificationQueue:OnNewLocationDiscovered(newLocation) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function JournalNotificationQueue:OnPlayerAttach(playerPuppet) return end
+function JournalNotificationQueue:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function JournalNotificationQueue:OnPlayerDetach(playerPuppet) return end
+function JournalNotificationQueue:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function JournalNotificationQueue:OnPlayerMounted(value) return end
+function JournalNotificationQueue:OnPlayerMounted(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function JournalNotificationQueue:OnTrackedMappinUpdated(value) return end
+function JournalNotificationQueue:OnTrackedMappinUpdated(value) end
 
----@protected
 ---@param data Variant
 ---@return Bool
-function JournalNotificationQueue:OnTutorialDataUpdate(data) return end
+function JournalNotificationQueue:OnTutorialDataUpdate(data) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function JournalNotificationQueue:OnTutorialVisibilityUpdate(value) return end
+function JournalNotificationQueue:OnTutorialVisibilityUpdate(value) end
 
----@protected
 ---@return Bool
-function JournalNotificationQueue:OnUninitialize() return end
+function JournalNotificationQueue:OnUninitialize() end
 
 ---@return Int32
-function JournalNotificationQueue:GetID() return end
+function JournalNotificationQueue:GetID() end
 
----@private
 ---@param entry gameJournalOnscreen
 ---@return ShardCollectedNotificationViewData
-function JournalNotificationQueue:GetShardNotificationData(entry) return end
+function JournalNotificationQueue:GetShardNotificationData(entry) end
 
 ---@return Bool
-function JournalNotificationQueue:GetShouldSaveState() return end
+function JournalNotificationQueue:GetShouldSaveState() end
 
 ---@return nil
-function JournalNotificationQueue:ProcessCrackableShardTutorial() return end
+function JournalNotificationQueue:ProcessCrackableShardTutorial() end
 
 ---@param itemID gameItemID
 ---@param entry gameJournalOnscreen
 ---@return nil
-function JournalNotificationQueue:PushCrackableNotification(itemID, entry) return end
+function JournalNotificationQueue:PushCrackableNotification(itemID, entry) end
 
----@private
 ---@param title String
 ---@param text String
 ---@param widget CName|string
@@ -147,19 +129,17 @@ function JournalNotificationQueue:PushCrackableNotification(itemID, entry) retur
 ---@param action? GenericNotificationBaseAction
 ---@param duration? Float
 ---@return nil
-function JournalNotificationQueue:PushNotification(title, text, widget, animation, action, duration) return end
+function JournalNotificationQueue:PushNotification(title, text, widget, animation, action, duration) end
 
 ---@param entry gameJournalOnscreen
 ---@return nil
-function JournalNotificationQueue:PushNotification(entry) return end
+function JournalNotificationQueue:PushNotification(entry) end
 
----@private
 ---@param entry gameJournalEntry
 ---@return nil
-function JournalNotificationQueue:PushObjectiveQuestNotification(entry) return end
+function JournalNotificationQueue:PushObjectiveQuestNotification(entry) end
 
----@private
 ---@param questEntry gameJournalQuest
 ---@param state gameJournalEntryState
 ---@return nil
-function JournalNotificationQueue:PushQuestNotification(questEntry, state) return end
+function JournalNotificationQueue:PushQuestNotification(questEntry, state) end

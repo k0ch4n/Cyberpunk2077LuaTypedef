@@ -5,7 +5,7 @@ PSD_Detector = {}
 
 ---@param fields? PSD_Detector
 ---@return PSD_Detector
-function PSD_Detector.new(fields) return end
+function PSD_Detector.new(fields) end
 
 ---@return nil
-function PSD_Detector:LogID() return end
+function PSD_Detector:LogID() end

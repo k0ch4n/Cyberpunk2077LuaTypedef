@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetGlobalTvChannel: redEvent
----@field public channel TweakDBID
+---@field channel TweakDBID
 SetGlobalTvChannel = {}
 
 ---@param fields? SetGlobalTvChannel
 ---@return SetGlobalTvChannel
-function SetGlobalTvChannel.new(fields) return end
+function SetGlobalTvChannel.new(fields) end
 
 ---@return String
-function SetGlobalTvChannel:GetFriendlyDescription() return end
+function SetGlobalTvChannel:GetFriendlyDescription() end

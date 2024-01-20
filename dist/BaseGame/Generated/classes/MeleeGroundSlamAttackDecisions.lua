@@ -5,32 +5,27 @@ MeleeGroundSlamAttackDecisions = {}
 
 ---@param fields? MeleeGroundSlamAttackDecisions
 ---@return MeleeGroundSlamAttackDecisions
-function MeleeGroundSlamAttackDecisions.new(fields) return end
+function MeleeGroundSlamAttackDecisions.new(fields) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeGroundSlamAttackDecisions:CanFit(scriptInterface) return end
+function MeleeGroundSlamAttackDecisions:CanFit(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeGroundSlamAttackDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeGroundSlamAttackDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeGroundSlamAttackDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeGroundSlamAttackDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeGroundSlamAttackDecisions:IsGroundSlamming(stateContext, scriptInterface) return end
+function MeleeGroundSlamAttackDecisions:IsGroundSlamming(stateContext, scriptInterface) end
 
----@protected
 ---@param state CName|string
 ---@return Bool
-function MeleeGroundSlamAttackDecisions:IsValidLocomotionState(state) return end
+function MeleeGroundSlamAttackDecisions:IsValidLocomotionState(state) end

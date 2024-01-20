@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorParameterizedBehavior: ISerializable
----@field public treeDefinition AIbehaviorResource
----@field public argumentsOverrides AIArgumentOverrideWrapper[]
+---@field treeDefinition AIbehaviorResource
+---@field argumentsOverrides AIArgumentOverrideWrapper[]
 AIbehaviorParameterizedBehavior = {}
 
 ---@param fields? AIbehaviorParameterizedBehavior
 ---@return AIbehaviorParameterizedBehavior
-function AIbehaviorParameterizedBehavior.new(fields) return end
+function AIbehaviorParameterizedBehavior.new(fields) end

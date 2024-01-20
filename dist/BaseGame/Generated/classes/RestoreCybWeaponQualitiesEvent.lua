@@ -5,4 +5,4 @@ RestoreCybWeaponQualitiesEvent = {}
 
 ---@param fields? RestoreCybWeaponQualitiesEvent
 ---@return RestoreCybWeaponQualitiesEvent
-function RestoreCybWeaponQualitiesEvent.new(fields) return end
+function RestoreCybWeaponQualitiesEvent.new(fields) end

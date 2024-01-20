@@ -5,4 +5,4 @@ UnregisterFromZoomBlackboardEvent = {}
 
 ---@param fields? UnregisterFromZoomBlackboardEvent
 ---@return UnregisterFromZoomBlackboardEvent
-function UnregisterFromZoomBlackboardEvent.new(fields) return end
+function UnregisterFromZoomBlackboardEvent.new(fields) end

@@ -5,4 +5,4 @@ gamestateMachineplayeractionsActionCycleTriggerMode = {}
 
 ---@param fields? gamestateMachineplayeractionsActionCycleTriggerMode
 ---@return gamestateMachineplayeractionsActionCycleTriggerMode
-function gamestateMachineplayeractionsActionCycleTriggerMode.new(fields) return end
+function gamestateMachineplayeractionsActionCycleTriggerMode.new(fields) end

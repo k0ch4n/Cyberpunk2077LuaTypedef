@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NPCAbility
----@field public abilityName String
+---@field abilityName String
 NPCAbility = {}
 
 ---@param fields? NPCAbility
 ---@return NPCAbility
-function NPCAbility.new(fields) return end
+function NPCAbility.new(fields) end

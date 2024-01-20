@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scnlocLocStoreEmbeddedVariantDescriptorEntry
----@field public variantId scnlocVariantId
----@field public locstringId scnlocLocstringId
----@field public localeId scnlocLocaleId
----@field public signature scnlocSignature
----@field public vpeIndex Uint32
+---@field variantId scnlocVariantId
+---@field locstringId scnlocLocstringId
+---@field localeId scnlocLocaleId
+---@field signature scnlocSignature
+---@field vpeIndex Uint32
 scnlocLocStoreEmbeddedVariantDescriptorEntry = {}
 
 ---@param fields? scnlocLocStoreEmbeddedVariantDescriptorEntry
 ---@return scnlocLocStoreEmbeddedVariantDescriptorEntry
-function scnlocLocStoreEmbeddedVariantDescriptorEntry.new(fields) return end
+function scnlocLocStoreEmbeddedVariantDescriptorEntry.new(fields) end

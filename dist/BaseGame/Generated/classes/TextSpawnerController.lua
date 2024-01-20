@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class TextSpawnerController: inkWidgetLogicController
----@field private amountOfRows Int32
----@field private lineTextWidgetID CName
----@field private texts inkWidget[]
+---@field amountOfRows Int32
+---@field lineTextWidgetID CName
+---@field texts inkWidget[]
 TextSpawnerController = {}
 
 ---@param fields? TextSpawnerController
 ---@return TextSpawnerController
-function TextSpawnerController.new(fields) return end
+function TextSpawnerController.new(fields) end
 
----@protected
 ---@return Bool
-function TextSpawnerController:OnInitialize() return end
+function TextSpawnerController:OnInitialize() end

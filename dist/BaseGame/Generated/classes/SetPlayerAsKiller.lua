@@ -5,9 +5,8 @@ SetPlayerAsKiller = {}
 
 ---@param fields? SetPlayerAsKiller
 ---@return SetPlayerAsKiller
-function SetPlayerAsKiller.new(fields) return end
+function SetPlayerAsKiller.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetPlayerAsKiller:Activate(context) return end
+function SetPlayerAsKiller:Activate(context) end

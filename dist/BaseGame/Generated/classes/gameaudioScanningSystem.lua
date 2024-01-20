@@ -5,4 +5,4 @@ gameaudioScanningSystem = {}
 
 ---@param fields? gameaudioScanningSystem
 ---@return gameaudioScanningSystem
-function gameaudioScanningSystem.new(fields) return end
+function gameaudioScanningSystem.new(fields) end

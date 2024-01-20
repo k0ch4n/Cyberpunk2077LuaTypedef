@@ -5,32 +5,28 @@ gameScriptableSystem = {}
 
 ---@param fields? gameScriptableSystem
 ---@return gameScriptableSystem
-function gameScriptableSystem.new(fields) return end
+function gameScriptableSystem.new(fields) end
 
 ---@return ScriptGameInstance
-function gameScriptableSystem:GetGameInstance() return end
+function gameScriptableSystem:GetGameInstance() end
 
 ---@param request gameScriptableSystemRequest
 ---@return nil
-function gameScriptableSystem:QueueRequest(request) return end
+function gameScriptableSystem:QueueRequest(request) end
 
 ---@return Bool
-function gameScriptableSystem:WasRestored() return end
+function gameScriptableSystem:WasRestored() end
 
----@private
 ---@return Bool
-function gameScriptableSystem:IsSavingLocked() return end
+function gameScriptableSystem:IsSavingLocked() end
 
----@private
 ---@return nil
-function gameScriptableSystem:OnAttach() return end
+function gameScriptableSystem:OnAttach() end
 
----@private
 ---@return nil
-function gameScriptableSystem:OnDetach() return end
+function gameScriptableSystem:OnDetach() end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function gameScriptableSystem:OnRestored(saveVersion, gameVersion) return end
+function gameScriptableSystem:OnRestored(saveVersion, gameVersion) end

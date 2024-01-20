@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class workIContainerEntry: workIEntry
----@field public list workIEntry[]
----@field public disableAutoTransition Bool
----@field public idleAnim CName
+---@field list workIEntry[]
+---@field disableAutoTransition Bool
+---@field idleAnim CName
 workIContainerEntry = {}

@@ -5,4 +5,4 @@ worldRuntimeSystemRepellerComponents = {}
 
 ---@param fields? worldRuntimeSystemRepellerComponents
 ---@return worldRuntimeSystemRepellerComponents
-function worldRuntimeSystemRepellerComponents.new(fields) return end
+function worldRuntimeSystemRepellerComponents.new(fields) end

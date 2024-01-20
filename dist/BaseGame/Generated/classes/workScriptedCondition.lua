@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workScriptedCondition: workIWorkspotCondition
----@field public script workIScriptedCondition
+---@field script workIScriptedCondition
 workScriptedCondition = {}
 
 ---@param fields? workScriptedCondition
 ---@return workScriptedCondition
-function workScriptedCondition.new(fields) return end
+function workScriptedCondition.new(fields) end

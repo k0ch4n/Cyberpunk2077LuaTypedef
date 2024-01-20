@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameCyberspacePixelsortEffectParams
----@field public fullscreen Bool
----@field public vfx Bool
----@field public initialDatamosh Float
----@field public targetDatamosh Float
----@field public initialIntensity Float
----@field public targetIntensity Float
----@field public timeBlend Float
+---@field fullscreen Bool
+---@field vfx Bool
+---@field initialDatamosh Float
+---@field targetDatamosh Float
+---@field initialIntensity Float
+---@field targetIntensity Float
+---@field timeBlend Float
 gameCyberspacePixelsortEffectParams = {}
 
 ---@param fields? gameCyberspacePixelsortEffectParams
 ---@return gameCyberspacePixelsortEffectParams
-function gameCyberspacePixelsortEffectParams.new(fields) return end
+function gameCyberspacePixelsortEffectParams.new(fields) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class questvehicleToNodeParams: questVehicleSpecificCommandParams
----@field public stopAtEnd Bool
----@field public nodeRef NodeRef
----@field public isPlayer Bool
----@field public useTraffic Bool
----@field public speedInTraffic Float
----@field public forceGreenLights Bool
----@field public portals vehiclePortalsList
----@field public trafficTryNeighborsForStart Bool
----@field public trafficTryNeighborsForEnd Bool
+---@field stopAtEnd Bool
+---@field nodeRef NodeRef
+---@field isPlayer Bool
+---@field useTraffic Bool
+---@field speedInTraffic Float
+---@field forceGreenLights Bool
+---@field portals vehiclePortalsList
+---@field trafficTryNeighborsForStart Bool
+---@field trafficTryNeighborsForEnd Bool
 questvehicleToNodeParams = {}
 
 ---@param fields? questvehicleToNodeParams
 ---@return questvehicleToNodeParams
-function questvehicleToNodeParams.new(fields) return end
+function questvehicleToNodeParams.new(fields) end

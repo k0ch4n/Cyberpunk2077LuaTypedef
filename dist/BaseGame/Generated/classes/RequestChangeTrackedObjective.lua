@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class RequestChangeTrackedObjective: redEvent
----@field public objective gameJournalQuestObjective
----@field public quest gameJournalQuest
----@field public forceSelectEntry Int32
+---@field objective gameJournalQuestObjective
+---@field quest gameJournalQuest
+---@field forceSelectEntry Int32
 RequestChangeTrackedObjective = {}
 
 ---@param fields? RequestChangeTrackedObjective
 ---@return RequestChangeTrackedObjective
-function RequestChangeTrackedObjective.new(fields) return end
+function RequestChangeTrackedObjective.new(fields) end

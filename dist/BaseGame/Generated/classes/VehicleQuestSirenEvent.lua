@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class VehicleQuestSirenEvent: redEvent
----@field public lights Bool
----@field public sounds Bool
+---@field lights Bool
+---@field sounds Bool
 VehicleQuestSirenEvent = {}
 
 ---@param fields? VehicleQuestSirenEvent
 ---@return VehicleQuestSirenEvent
-function VehicleQuestSirenEvent.new(fields) return end
+function VehicleQuestSirenEvent.new(fields) end
 
 ---@return String
-function VehicleQuestSirenEvent:GetFriendlyDescription() return end
+function VehicleQuestSirenEvent:GetFriendlyDescription() end

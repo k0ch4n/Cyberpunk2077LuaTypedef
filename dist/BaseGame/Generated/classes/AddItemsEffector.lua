@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class AddItemsEffector: gameEffector
----@field public items gamedataInventoryItem_Record[]
+---@field items gamedataInventoryItem_Record[]
 AddItemsEffector = {}
 
 ---@param fields? AddItemsEffector
 ---@return AddItemsEffector
-function AddItemsEffector.new(fields) return end
+function AddItemsEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AddItemsEffector:ActionOn(owner) return end
+function AddItemsEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function AddItemsEffector:Initialize(record, parentRecord) return end
+function AddItemsEffector:Initialize(record, parentRecord) end

@@ -1,51 +1,45 @@
 ---@meta
 
 ---@class PingSquadEffector: gameEffector
----@field public squadMembers entEntityID[]
----@field public owner gameObject
----@field public oldSquadAttitude gameAttitudeAgent
----@field public quickhackLevel Float
----@field public data FocusForcedHighlightData
----@field public squadName CName
+---@field squadMembers entEntityID[]
+---@field owner gameObject
+---@field oldSquadAttitude gameAttitudeAgent
+---@field quickhackLevel Float
+---@field data FocusForcedHighlightData
+---@field squadName CName
 PingSquadEffector = {}
 
 ---@param fields? PingSquadEffector
 ---@return PingSquadEffector
-function PingSquadEffector.new(fields) return end
+function PingSquadEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PingSquadEffector:ActionOff(owner) return end
+function PingSquadEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PingSquadEffector:ActionOn(owner) return end
+function PingSquadEffector:ActionOn(owner) end
 
 ---@param level Float
 ---@return TweakDBID
-function PingSquadEffector:GetPingLevel(level) return end
+function PingSquadEffector:GetPingLevel(level) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function PingSquadEffector:Initialize(record, parentRecord) return end
+function PingSquadEffector:Initialize(record, parentRecord) end
 
 ---@param mark Bool
 ---@param root gameObject
 ---@return nil
-function PingSquadEffector:MarkSquad(mark, root) return end
+function PingSquadEffector:MarkSquad(mark, root) end
 
----@private
 ---@return nil
-function PingSquadEffector:RegisterMarkedSquadInNetworkSystem() return end
+function PingSquadEffector:RegisterMarkedSquadInNetworkSystem() end
 
----@protected
 ---@return nil
-function PingSquadEffector:Uninitialize() return end
+function PingSquadEffector:Uninitialize() end
 
----@private
 ---@return nil
-function PingSquadEffector:UnregisterMarkedSquadInNetworkSystem() return end
+function PingSquadEffector:UnregisterMarkedSquadInNetworkSystem() end

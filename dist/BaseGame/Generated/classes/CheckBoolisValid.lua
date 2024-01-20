@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckBoolisValid: AIbehaviorconditionScript
----@field public actionTweakIDMapping AIArgumentMapping
+---@field actionTweakIDMapping AIArgumentMapping
 CheckBoolisValid = {}
 
 ---@param fields? CheckBoolisValid
 ---@return CheckBoolisValid
-function CheckBoolisValid.new(fields) return end
+function CheckBoolisValid.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckBoolisValid:Check(context) return end
+function CheckBoolisValid:Check(context) end

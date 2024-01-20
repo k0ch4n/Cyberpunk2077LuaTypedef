@@ -5,4 +5,4 @@ gamestateMachineplayeractionsActionProjectileDetach = {}
 
 ---@param fields? gamestateMachineplayeractionsActionProjectileDetach
 ---@return gamestateMachineplayeractionsActionProjectileDetach
-function gamestateMachineplayeractionsActionProjectileDetach.new(fields) return end
+function gamestateMachineplayeractionsActionProjectileDetach.new(fields) end

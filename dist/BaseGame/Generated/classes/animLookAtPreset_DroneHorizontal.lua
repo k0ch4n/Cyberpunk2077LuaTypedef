@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animLookAtPreset_DroneHorizontal: animLookAtPreset
----@field public softLimitDegrees Float
----@field public hardLimitDegrees Float
----@field public hardLimitDistance Float
----@field public backLimitDegrees Float
----@field public suppress Float
----@field public mode Int32
+---@field softLimitDegrees Float
+---@field hardLimitDegrees Float
+---@field hardLimitDistance Float
+---@field backLimitDegrees Float
+---@field suppress Float
+---@field mode Int32
 animLookAtPreset_DroneHorizontal = {}
 
 ---@param fields? animLookAtPreset_DroneHorizontal
 ---@return animLookAtPreset_DroneHorizontal
-function animLookAtPreset_DroneHorizontal.new(fields) return end
+function animLookAtPreset_DroneHorizontal.new(fields) end

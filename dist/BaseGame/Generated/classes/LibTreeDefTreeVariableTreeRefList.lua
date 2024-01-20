@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class LibTreeDefTreeVariableTreeRefList: LibTreeDefTreeVariable
----@field public exportAsProperty Bool
----@field public defaultValue LibTreeCTreeReference[]
+---@field exportAsProperty Bool
+---@field defaultValue LibTreeCTreeReference[]
 LibTreeDefTreeVariableTreeRefList = {}
 
 ---@param fields? LibTreeDefTreeVariableTreeRefList
 ---@return LibTreeDefTreeVariableTreeRefList
-function LibTreeDefTreeVariableTreeRefList.new(fields) return end
+function LibTreeDefTreeVariableTreeRefList.new(fields) end

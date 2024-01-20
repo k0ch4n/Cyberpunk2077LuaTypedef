@@ -1,95 +1,88 @@
 ---@meta
 
 ---@class InventorySlotTooltip: AGenericTooltipController
----@field private itemName inkTextWidgetReference
----@field private itemCategory inkTextWidgetReference
----@field private itemPrice inkTextWidgetReference
----@field private descriptionText inkTextWidgetReference
----@field private lockedText inkTextWidgetReference
----@field private requiredLevelText inkTextWidgetReference
----@field private additionalStatsTextRef inkTextWidgetReference
----@field private equippedHeader inkWidgetReference
----@field private primaryStatsList inkWidgetReference
----@field private comparedStatsList inkWidgetReference
----@field private additionalStatsList inkWidgetReference
----@field private itemPriceGroup inkWidgetReference
----@field private damageIndicator inkWidgetReference
----@field private requiredLevelGroup inkWidgetReference
----@field private damageIndicatorRef inkWidgetReference
----@field private attachmentsListVertRef inkWidgetReference
----@field private attachmentsCtrlHorRef inkWidgetReference
----@field private specialAbilitiesListRef inkWidgetReference
----@field private rarityBarRef inkWidgetReference
----@field private elementsToSetRarityState inkWidgetReference[]
----@field private rarityElementsRefs inkImageWidgetReference[]
----@field private tooltipCycleIndicatorsContainer inkCompoundWidgetReference
----@field private tooltipCycleHintContainer inkCompoundWidgetReference
----@field private primaryStatsCtrl InventoryItemStatList
----@field private comparedStatsCtrl InventoryItemStatList
----@field private additionalStatsCtrl InventoryItemStatList
----@field private attachmentsCtrlVert InventoryItemAttachmentsList
----@field private attachmentsCtrlHor InventoryItemAttachmentsList
----@field private damageTypeIndicator DamageTypeIndicator
----@field private specialAbilitiesList TooltipSpecialAbilityList
----@field private data InventoryTooltipData
----@field private tooltipCycleHint ButtonHintListItem
----@field private anim inkanimProxy
+---@field itemName inkTextWidgetReference
+---@field itemCategory inkTextWidgetReference
+---@field itemPrice inkTextWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field lockedText inkTextWidgetReference
+---@field requiredLevelText inkTextWidgetReference
+---@field additionalStatsTextRef inkTextWidgetReference
+---@field equippedHeader inkWidgetReference
+---@field primaryStatsList inkWidgetReference
+---@field comparedStatsList inkWidgetReference
+---@field additionalStatsList inkWidgetReference
+---@field itemPriceGroup inkWidgetReference
+---@field damageIndicator inkWidgetReference
+---@field requiredLevelGroup inkWidgetReference
+---@field damageIndicatorRef inkWidgetReference
+---@field attachmentsListVertRef inkWidgetReference
+---@field attachmentsCtrlHorRef inkWidgetReference
+---@field specialAbilitiesListRef inkWidgetReference
+---@field rarityBarRef inkWidgetReference
+---@field elementsToSetRarityState inkWidgetReference[]
+---@field rarityElementsRefs inkImageWidgetReference[]
+---@field tooltipCycleIndicatorsContainer inkCompoundWidgetReference
+---@field tooltipCycleHintContainer inkCompoundWidgetReference
+---@field primaryStatsCtrl InventoryItemStatList
+---@field comparedStatsCtrl InventoryItemStatList
+---@field additionalStatsCtrl InventoryItemStatList
+---@field attachmentsCtrlVert InventoryItemAttachmentsList
+---@field attachmentsCtrlHor InventoryItemAttachmentsList
+---@field damageTypeIndicator DamageTypeIndicator
+---@field specialAbilitiesList TooltipSpecialAbilityList
+---@field data InventoryTooltipData
+---@field tooltipCycleHint ButtonHintListItem
+---@field anim inkanimProxy
 InventorySlotTooltip = {}
 
 ---@param fields? InventorySlotTooltip
 ---@return InventorySlotTooltip
-function InventorySlotTooltip.new(fields) return end
+function InventorySlotTooltip.new(fields) end
 
----@protected
 ---@return Bool
-function InventorySlotTooltip:OnInitialize() return end
+function InventorySlotTooltip:OnInitialize() end
 
----@private
 ---@return nil
-function InventorySlotTooltip:SetAdditionalStatsText() return end
+function InventorySlotTooltip:SetAdditionalStatsText() end
 
 ---@param data gameItemViewData
 ---@return nil
-function InventorySlotTooltip:SetData(data) return end
+function InventorySlotTooltip:SetData(data) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function InventorySlotTooltip:SetData(tooltipData) return end
+function InventorySlotTooltip:SetData(tooltipData) end
 
 ---@param data InventoryTooltipData
 ---@return nil
-function InventorySlotTooltip:SetData(data) return end
+function InventorySlotTooltip:SetData(data) end
 
----@private
 ---@param statList InventoryItemStatList
 ---@param data InventoryTooltipData_StatData[]
 ---@return nil
-function InventorySlotTooltip:SetStats(statList, data) return end
+function InventorySlotTooltip:SetStats(statList, data) end
 
 ---@param styleResPath redResourceReferenceScriptToken
 ---@return nil
-function InventorySlotTooltip:SetStyle(styleResPath) return end
+function InventorySlotTooltip:SetStyle(styleResPath) end
 
 ---@param data gameItemViewData
 ---@return nil
-function InventorySlotTooltip:Show(data) return end
+function InventorySlotTooltip:Show(data) end
 
 ---@param data InventoryTooltipData
 ---@return nil
-function InventorySlotTooltip:Show(data) return end
+function InventorySlotTooltip:Show(data) end
 
----@private
 ---@return nil
-function InventorySlotTooltip:UpdateCyclingDots() return end
+function InventorySlotTooltip:UpdateCyclingDots() end
 
----@private
 ---@return nil
-function InventorySlotTooltip:UpdateDescription() return end
+function InventorySlotTooltip:UpdateDescription() end
 
----@private
 ---@return nil
-function InventorySlotTooltip:UpdateLayout() return end
+function InventorySlotTooltip:UpdateLayout() end
 
----@private
 ---@return nil
-function InventorySlotTooltip:UpdateRarityBar() return end
+function InventorySlotTooltip:UpdateRarityBar() end

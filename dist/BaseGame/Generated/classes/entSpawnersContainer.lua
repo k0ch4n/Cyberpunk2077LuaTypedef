@@ -5,4 +5,4 @@ entSpawnersContainer = {}
 
 ---@param fields? entSpawnersContainer
 ---@return entSpawnersContainer
-function entSpawnersContainer.new(fields) return end
+function entSpawnersContainer.new(fields) end

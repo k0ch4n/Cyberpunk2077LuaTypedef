@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DeviceOperationTriggerData: IScriptable
----@field public operationsToExecute OperationExecutionData[]
+---@field operationsToExecute OperationExecutionData[]
 DeviceOperationTriggerData = {}
 
 ---@param fields? DeviceOperationTriggerData
 ---@return DeviceOperationTriggerData
-function DeviceOperationTriggerData.new(fields) return end
+function DeviceOperationTriggerData.new(fields) end

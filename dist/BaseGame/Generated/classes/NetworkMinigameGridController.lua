@@ -1,87 +1,83 @@
 ---@meta
 
 ---@class NetworkMinigameGridController: inkWidgetLogicController
----@field protected gridContainer inkWidgetReference
----@field protected horizontalHoverHighlight inkWidgetReference
----@field protected horizontalCurrentHighlight inkWidgetReference
----@field protected verticalHoverHighlight inkWidgetReference
----@field protected verticalCurrentHighlight inkWidgetReference
----@field protected gridVisualOffset Vector2
----@field protected gridCellLibraryName CName
----@field public gridData CellData[]
----@field public lastSelected CellData
----@field public currentActivePosition Vector2
----@field public isHorizontalHighlight Bool
----@field public lastHighlighted CellData
----@field private animProxy inkanimProxy
----@field private animHighlightProxy inkanimProxy
----@field private firstBoot Bool
----@field private isHorizontal Bool
+---@field gridContainer inkWidgetReference
+---@field horizontalHoverHighlight inkWidgetReference
+---@field horizontalCurrentHighlight inkWidgetReference
+---@field verticalHoverHighlight inkWidgetReference
+---@field verticalCurrentHighlight inkWidgetReference
+---@field gridVisualOffset Vector2
+---@field gridCellLibraryName CName
+---@field gridData CellData[]
+---@field lastSelected CellData
+---@field currentActivePosition Vector2
+---@field isHorizontalHighlight Bool
+---@field lastHighlighted CellData
+---@field animProxy inkanimProxy
+---@field animHighlightProxy inkanimProxy
+---@field firstBoot Bool
+---@field isHorizontal Bool
 NetworkMinigameGridController = {}
 
 ---@param fields? NetworkMinigameGridController
 ---@return NetworkMinigameGridController
-function NetworkMinigameGridController.new(fields) return end
+function NetworkMinigameGridController.new(fields) end
 
----@protected
 ---@return Bool
-function NetworkMinigameGridController:OnInitialize() return end
+function NetworkMinigameGridController:OnInitialize() end
 
----@private
 ---@param toAdd CellData
 ---@return inkWidget
-function NetworkMinigameGridController:AddCell(toAdd) return end
+function NetworkMinigameGridController:AddCell(toAdd) end
 
----@private
 ---@return nil
-function NetworkMinigameGridController:Clear() return end
+function NetworkMinigameGridController:Clear() end
 
 ---@param position Vector2
 ---@return CellData
-function NetworkMinigameGridController:FindCellData(position) return end
+function NetworkMinigameGridController:FindCellData(position) end
 
 ---@return CellData[]
-function NetworkMinigameGridController:GetGrid() return end
+function NetworkMinigameGridController:GetGrid() end
 
 ---@return CellData
-function NetworkMinigameGridController:GetLastCellSelected() return end
+function NetworkMinigameGridController:GetLastCellSelected() end
 
----@private
 ---@param index Int32
 ---@param isHover Bool
 ---@param isHorizontal Bool
 ---@return nil
-function NetworkMinigameGridController:HighlightCellSet(index, isHover, isHorizontal) return end
+function NetworkMinigameGridController:HighlightCellSet(index, isHover, isHorizontal) end
 
 ---@param position Vector2
 ---@return nil
-function NetworkMinigameGridController:HighlightFromCellHover(position) return end
+function NetworkMinigameGridController:HighlightFromCellHover(position) end
 
 ---@param position Vector2
 ---@return Bool
-function NetworkMinigameGridController:IsOnCurrentCellSet(position) return end
+function NetworkMinigameGridController:IsOnCurrentCellSet(position) end
 
 ---@param index Int32
 ---@param isHorizontal Bool
 ---@return nil
-function NetworkMinigameGridController:RefreshDimLevels(index, isHorizontal) return end
+function NetworkMinigameGridController:RefreshDimLevels(index, isHorizontal) end
 
 ---@return nil
-function NetworkMinigameGridController:RemoveHighlightFromCellHover() return end
+function NetworkMinigameGridController:RemoveHighlightFromCellHover() end
 
 ---@param position Vector2
 ---@param isHorizontal Bool
 ---@return nil
-function NetworkMinigameGridController:SetCurrentActivePosition(position, isHorizontal) return end
+function NetworkMinigameGridController:SetCurrentActivePosition(position, isHorizontal) end
 
 ---@param gridData CellData[]
 ---@return nil
-function NetworkMinigameGridController:SetGridData(gridData) return end
+function NetworkMinigameGridController:SetGridData(gridData) end
 
 ---@param cell CellData
 ---@return nil
-function NetworkMinigameGridController:SetLastCellSelected(cell) return end
+function NetworkMinigameGridController:SetLastCellSelected(cell) end
 
 ---@param gridData CellData[]
 ---@return nil
-function NetworkMinigameGridController:SetUp(gridData) return end
+function NetworkMinigameGridController:SetUp(gridData) end

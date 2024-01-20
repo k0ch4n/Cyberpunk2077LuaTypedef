@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class gameMuppetState
----@field public frameId Uint32
----@field public highLevelState gameMuppetHighLevelState
----@field public healthState gameMuppetHealthState
----@field public physicalMoveState gameMuppetPhysicalState
----@field public lookState gameMuppetLookState
----@field public moveState gameMuppetMoveState
----@field public upperBodyState gameMuppetUpperBodyState
----@field public scanningState gameMuppetScanningState
----@field public inventoryState gameMuppetInventoryState
----@field public abilities gameMuppetAbilities
----@field public stateMachinesSnapshot gameMuppetStateMachinesSnapshot
----@field public controllersSnapshot gameMuppetControllersSnapshot
----@field public snapFrameId Uint32
+---@field frameId Uint32
+---@field highLevelState gameMuppetHighLevelState
+---@field healthState gameMuppetHealthState
+---@field physicalMoveState gameMuppetPhysicalState
+---@field lookState gameMuppetLookState
+---@field moveState gameMuppetMoveState
+---@field upperBodyState gameMuppetUpperBodyState
+---@field scanningState gameMuppetScanningState
+---@field inventoryState gameMuppetInventoryState
+---@field abilities gameMuppetAbilities
+---@field stateMachinesSnapshot gameMuppetStateMachinesSnapshot
+---@field controllersSnapshot gameMuppetControllersSnapshot
+---@field snapFrameId Uint32
 gameMuppetState = {}
 
 ---@param fields? gameMuppetState
 ---@return gameMuppetState
-function gameMuppetState.new(fields) return end
+function gameMuppetState.new(fields) end

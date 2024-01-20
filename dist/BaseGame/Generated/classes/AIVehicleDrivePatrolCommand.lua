@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AIVehicleDrivePatrolCommand: AIVehicleCommand
----@field public maxSpeed Float
----@field public minSpeed Float
----@field public clearTrafficOnPath Bool
----@field public emergencyPatrol Bool
----@field public numPatrolLoops Uint32
----@field public forcedStartSpeed Float
+---@field maxSpeed Float
+---@field minSpeed Float
+---@field clearTrafficOnPath Bool
+---@field emergencyPatrol Bool
+---@field numPatrolLoops Uint32
+---@field forcedStartSpeed Float
 AIVehicleDrivePatrolCommand = {}
 
 ---@param fields? AIVehicleDrivePatrolCommand
 ---@return AIVehicleDrivePatrolCommand
-function AIVehicleDrivePatrolCommand.new(fields) return end
+function AIVehicleDrivePatrolCommand.new(fields) end

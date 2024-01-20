@@ -5,4 +5,4 @@ BuybackRequest = {}
 
 ---@param fields? BuybackRequest
 ---@return BuybackRequest
-function BuybackRequest.new(fields) return end
+function BuybackRequest.new(fields) end

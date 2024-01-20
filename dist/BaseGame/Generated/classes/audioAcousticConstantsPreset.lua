@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class audioAcousticConstantsPreset: audioAudioMetadata
----@field public dopplerFactor Float
----@field public speedOfSound Float
----@field public wideInteriorLimit Float
----@field public enclosedCeilingDistance Float
----@field public urbanNarrowDistance Float
----@field public urbanStreetDistance Float
----@field public exteriorWideAltitude Float
----@field public elevatedOpenDistance Float
----@field public ambExteriorCeilingMinDistance Float
----@field public ambExteriorCeilingMaxDistance Float
----@field public badlandsWideRelativeAltitude Float
----@field public repositioningStandardZoomFactor Float
----@field public repositioningScanningZoomFactor Float
----@field public repositioningVoStandardZoomFactor Float
----@field public repositioningVoScanningZoomFactor Float
----@field public groupingExcludedVisualTags CName[]
----@field public windowEventName CName
----@field public maxWindowOffset Float
+---@field dopplerFactor Float
+---@field speedOfSound Float
+---@field wideInteriorLimit Float
+---@field enclosedCeilingDistance Float
+---@field urbanNarrowDistance Float
+---@field urbanStreetDistance Float
+---@field exteriorWideAltitude Float
+---@field elevatedOpenDistance Float
+---@field ambExteriorCeilingMinDistance Float
+---@field ambExteriorCeilingMaxDistance Float
+---@field badlandsWideRelativeAltitude Float
+---@field repositioningStandardZoomFactor Float
+---@field repositioningScanningZoomFactor Float
+---@field repositioningVoStandardZoomFactor Float
+---@field repositioningVoScanningZoomFactor Float
+---@field groupingExcludedVisualTags CName[]
+---@field windowEventName CName
+---@field maxWindowOffset Float
 audioAcousticConstantsPreset = {}
 
 ---@param fields? audioAcousticConstantsPreset
 ---@return audioAcousticConstantsPreset
-function audioAcousticConstantsPreset.new(fields) return end
+function audioAcousticConstantsPreset.new(fields) end

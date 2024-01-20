@@ -5,4 +5,4 @@ gameScenePlayerAnimationParams = {}
 
 ---@param fields? gameScenePlayerAnimationParams
 ---@return gameScenePlayerAnimationParams
-function gameScenePlayerAnimationParams.new(fields) return end
+function gameScenePlayerAnimationParams.new(fields) end

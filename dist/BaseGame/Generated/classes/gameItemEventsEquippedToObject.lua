@@ -5,4 +5,4 @@ gameItemEventsEquippedToObject = {}
 
 ---@param fields? gameItemEventsEquippedToObject
 ---@return gameItemEventsEquippedToObject
-function gameItemEventsEquippedToObject.new(fields) return end
+function gameItemEventsEquippedToObject.new(fields) end

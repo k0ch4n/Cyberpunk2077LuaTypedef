@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questEntityManagerSendAnimationEvent_NodeType: questIEntityManager_NodeType
----@field public objectRef gameEntityReference
----@field public eventName CName
+---@field objectRef gameEntityReference
+---@field eventName CName
 questEntityManagerSendAnimationEvent_NodeType = {}
 
 ---@param fields? questEntityManagerSendAnimationEvent_NodeType
 ---@return questEntityManagerSendAnimationEvent_NodeType
-function questEntityManagerSendAnimationEvent_NodeType.new(fields) return end
+function questEntityManagerSendAnimationEvent_NodeType.new(fields) end

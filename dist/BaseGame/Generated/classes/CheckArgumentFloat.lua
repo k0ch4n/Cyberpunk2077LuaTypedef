@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class CheckArgumentFloat: CheckArguments
----@field public customVar Float
----@field public comparator ECompareOp
+---@field customVar Float
+---@field comparator ECompareOp
 CheckArgumentFloat = {}
 
 ---@param fields? CheckArgumentFloat
 ---@return CheckArgumentFloat
-function CheckArgumentFloat.new(fields) return end
+function CheckArgumentFloat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckArgumentFloat:Check(context) return end
+function CheckArgumentFloat:Check(context) end

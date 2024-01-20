@@ -1,35 +1,35 @@
 ---@meta
 
 ---@class MeleeTargetingEvents: MeleeEventsTransition
----@field private aimInTimeRemaining Float
+---@field aimInTimeRemaining Float
 MeleeTargetingEvents = {}
 
 ---@param fields? MeleeTargetingEvents
 ---@return MeleeTargetingEvents
-function MeleeTargetingEvents.new(fields) return end
+function MeleeTargetingEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeTargetingEvents:OnCommonExit(stateContext, scriptInterface) return end
+function MeleeTargetingEvents:OnCommonExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeTargetingEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeTargetingEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeTargetingEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeTargetingEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeTargetingEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeTargetingEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeTargetingEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeTargetingEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

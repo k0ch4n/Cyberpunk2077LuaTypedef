@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VisualDisplayController: InventoryItemDisplayController
----@field private equipped Bool
+---@field equipped Bool
 VisualDisplayController = {}
 
 ---@param fields? VisualDisplayController
 ---@return VisualDisplayController
-function VisualDisplayController.new(fields) return end
+function VisualDisplayController.new(fields) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@param itemsAmount Int32
@@ -14,29 +14,26 @@ function VisualDisplayController.new(fields) return end
 ---@param slotIndex? Int32
 ---@param displayContext? gameItemDisplayContext
 ---@return nil
-function VisualDisplayController:BindVisualSlot(equipmentArea, itemsAmount, inventoryItemData, slotIndex, displayContext) return end
+function VisualDisplayController:BindVisualSlot(equipmentArea, itemsAmount, inventoryItemData, slotIndex, displayContext) end
 
 ---@param inventoryItemData gameInventoryItemData
 ---@param itemsAmount Int32
 ---@param equipped Bool
 ---@return nil
-function VisualDisplayController:InvalidateVisualContent(inventoryItemData, itemsAmount, equipped) return end
+function VisualDisplayController:InvalidateVisualContent(inventoryItemData, itemsAmount, equipped) end
 
----@private
 ---@param inventoryItemData gameInventoryItemData
 ---@param itemsAmount Int32
 ---@param equipped Bool
 ---@return nil
-function VisualDisplayController:OnVisualUpdate(inventoryItemData, itemsAmount, equipped) return end
+function VisualDisplayController:OnVisualUpdate(inventoryItemData, itemsAmount, equipped) end
 
----@protected
 ---@return nil
-function VisualDisplayController:RefreshUI() return end
+function VisualDisplayController:RefreshUI() end
 
 ---@param visible Bool
 ---@return nil
-function VisualDisplayController:SetIconsVisible(visible) return end
+function VisualDisplayController:SetIconsVisible(visible) end
 
----@protected
 ---@return Bool
-function VisualDisplayController:ShouldShowEquipped() return end
+function VisualDisplayController:ShouldShowEquipped() end

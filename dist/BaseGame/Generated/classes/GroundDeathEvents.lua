@@ -5,10 +5,9 @@ GroundDeathEvents = {}
 
 ---@param fields? GroundDeathEvents
 ---@return GroundDeathEvents
-function GroundDeathEvents.new(fields) return end
+function GroundDeathEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GroundDeathEvents:OnEnter(stateContext, scriptInterface) return end
+function GroundDeathEvents:OnEnter(stateContext, scriptInterface) end

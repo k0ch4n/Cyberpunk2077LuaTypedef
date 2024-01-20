@@ -5,17 +5,17 @@ gameEffectDurationModifierScriptContext = {}
 
 ---@param fields? gameEffectDurationModifierScriptContext
 ---@return gameEffectDurationModifierScriptContext
-function gameEffectDurationModifierScriptContext.new(fields) return end
+function gameEffectDurationModifierScriptContext.new(fields) end
 
 ---@param modifierCtx gameEffectDurationModifierScriptContext
 ---@return Float
-function gameEffectDurationModifierScriptContext.GetRemainingTime(modifierCtx) return end
+function gameEffectDurationModifierScriptContext.GetRemainingTime(modifierCtx) end
 
 ---@param modifierCtx gameEffectDurationModifierScriptContext
 ---@return Float
-function gameEffectDurationModifierScriptContext.GetTimeDelta(modifierCtx) return end
+function gameEffectDurationModifierScriptContext.GetTimeDelta(modifierCtx) end
 
 ---@param modifierCtx gameEffectDurationModifierScriptContext
 ---@param time Float
 ---@return nil
-function gameEffectDurationModifierScriptContext.SetRemainingTime(modifierCtx, time) return end
+function gameEffectDurationModifierScriptContext.SetRemainingTime(modifierCtx, time) end

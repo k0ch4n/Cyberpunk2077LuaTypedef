@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorConstantExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public type AIbehaviorTypeRef
----@field public value Variant
+---@field type AIbehaviorTypeRef
+---@field value Variant
 AIbehaviorConstantExpressionDefinition = {}
 
 ---@param fields? AIbehaviorConstantExpressionDefinition
 ---@return AIbehaviorConstantExpressionDefinition
-function AIbehaviorConstantExpressionDefinition.new(fields) return end
+function AIbehaviorConstantExpressionDefinition.new(fields) end

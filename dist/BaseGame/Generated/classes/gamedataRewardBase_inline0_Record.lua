@@ -5,4 +5,4 @@ gamedataRewardBase_inline0_Record = {}
 
 ---@param fields? gamedataRewardBase_inline0_Record
 ---@return gamedataRewardBase_inline0_Record
-function gamedataRewardBase_inline0_Record.new(fields) return end
+function gamedataRewardBase_inline0_Record.new(fields) end

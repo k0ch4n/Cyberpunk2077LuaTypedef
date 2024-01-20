@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class gamePlayer
----@field public peerID netPeerID
----@field public nickname String
+---@field peerID netPeerID
+---@field nickname String
 gamePlayer = {}

@@ -5,4 +5,4 @@ VehicleDamageStageTurnOffEvent = {}
 
 ---@param fields? VehicleDamageStageTurnOffEvent
 ---@return VehicleDamageStageTurnOffEvent
-function VehicleDamageStageTurnOffEvent.new(fields) return end
+function VehicleDamageStageTurnOffEvent.new(fields) end

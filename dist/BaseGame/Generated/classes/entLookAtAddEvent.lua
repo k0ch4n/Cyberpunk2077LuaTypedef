@@ -1,33 +1,33 @@
 ---@meta
 
 ---@class entLookAtAddEvent: entAnimTargetAddEvent
----@field public outLookAtRef animLookAtRef
----@field public request animLookAtRequest
+---@field outLookAtRef animLookAtRef
+---@field request animLookAtRequest
 entLookAtAddEvent = {}
 
 ---@param fields? entLookAtAddEvent
 ---@return entLookAtAddEvent
-function entLookAtAddEvent.new(fields) return end
+function entLookAtAddEvent.new(fields) end
 
 ---@param additionalParts animLookAtPartRequest[]
 ---@return nil
-function entLookAtAddEvent:SetAdditionalPartsArray(additionalParts) return end
+function entLookAtAddEvent:SetAdditionalPartsArray(additionalParts) end
 
 ---@param debugInfo String
 ---@return nil
-function entLookAtAddEvent:SetDebugInfo(debugInfo) return end
+function entLookAtAddEvent:SetDebugInfo(debugInfo) end
 
 ---@param softLimitDegreesType animLookAtLimitDegreesType
 ---@param hardLimitDegreesType animLookAtLimitDegreesType
 ---@param hardLimitDistanceType animLookAtLimitDistanceType
 ---@param backLimitDegreesType animLookAtLimitDegreesType
 ---@return nil
-function entLookAtAddEvent:SetLimits(softLimitDegreesType, hardLimitDegreesType, hardLimitDistanceType, backLimitDegreesType) return end
+function entLookAtAddEvent:SetLimits(softLimitDegreesType, hardLimitDegreesType, hardLimitDistanceType, backLimitDegreesType) end
 
 ---@param outTransitionStyle animLookAtStyle
 ---@return nil
-function entLookAtAddEvent:SetOutTransitionStyle(outTransitionStyle) return end
+function entLookAtAddEvent:SetOutTransitionStyle(outTransitionStyle) end
 
 ---@param style animLookAtStyle
 ---@return nil
-function entLookAtAddEvent:SetStyle(style) return end
+function entLookAtAddEvent:SetStyle(style) end

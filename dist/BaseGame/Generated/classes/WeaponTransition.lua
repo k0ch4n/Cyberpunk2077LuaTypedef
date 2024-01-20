@@ -1,242 +1,201 @@
 ---@meta
 
 ---@class WeaponTransition: DefaultTransition
----@field public magazineID TweakDBID
----@field public magazineAttack TweakDBID
----@field public rangedAttackPackage gamedataRangedAttackPackage_Record
+---@field magazineID TweakDBID
+---@field magazineAttack TweakDBID
+---@field rangedAttackPackage gamedataRangedAttackPackage_Record
 WeaponTransition = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function WeaponTransition.GetPlayerSpeed(scriptInterface) return end
+function WeaponTransition.GetPlayerSpeed(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition.ServerHasReloadRequest(stateContext, scriptInterface) return end
+function WeaponTransition.ServerHasReloadRequest(stateContext, scriptInterface) end
 
----@protected
 ---@param cycleTime Float
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function WeaponTransition:CalcCycleTimeDeltaFactor(cycleTime, scriptInterface) return end
+function WeaponTransition:CalcCycleTimeDeltaFactor(cycleTime, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:CanHoldToShoot(scriptInterface) return end
+function WeaponTransition:CanHoldToShoot(scriptInterface) end
 
----@protected
 ---@param weaponObject gameweaponObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:CanPerformNextFullAutoShot(weaponObject, stateContext, scriptInterface) return end
+function WeaponTransition:CanPerformNextFullAutoShot(weaponObject, stateContext, scriptInterface) end
 
----@protected
 ---@param weaponObject gameweaponObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:CanPerformNextSemiAutoShot(weaponObject, stateContext, scriptInterface) return end
+function WeaponTransition:CanPerformNextSemiAutoShot(weaponObject, stateContext, scriptInterface) end
 
----@protected
 ---@param weaponObject gameweaponObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:CanPerformNextShotInSequence(weaponObject, stateContext, scriptInterface) return end
+function WeaponTransition:CanPerformNextShotInSequence(weaponObject, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:CanQuickMelee(stateContext, scriptInterface) return end
+function WeaponTransition:CanQuickMelee(stateContext, scriptInterface) end
 
----@protected
 ---@param layerId Uint32
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:ClearDebugText(layerId, scriptInterface) return end
+function WeaponTransition:ClearDebugText(layerId, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param timeToCompare Float
 ---@return Bool
-function WeaponTransition:CompareTimeToPublicSafeTimestamp(stateContext, scriptInterface, timeToCompare) return end
+function WeaponTransition:CompareTimeToPublicSafeTimestamp(stateContext, scriptInterface, timeToCompare) end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:EndShootingSequence(weapon, stateContext, scriptInterface) return end
+function WeaponTransition:EndShootingSequence(weapon, stateContext, scriptInterface) end
 
----@protected
 ---@return CName
-function WeaponTransition:GetBurstCycleTimeName() return end
+function WeaponTransition:GetBurstCycleTimeName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetBurstShotsRemainingName() return end
+function WeaponTransition:GetBurstShotsRemainingName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetBurstTimeName() return end
+function WeaponTransition:GetBurstTimeName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetBurstTimeRemainingName() return end
+function WeaponTransition:GetBurstTimeRemainingName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetCycleTimeName() return end
+function WeaponTransition:GetCycleTimeName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetCycleTimeRemainingName() return end
+function WeaponTransition:GetCycleTimeRemainingName() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gamedataAttack_Record
-function WeaponTransition:GetDesiredAttackRecord(stateContext, scriptInterface) return end
+function WeaponTransition:GetDesiredAttackRecord(stateContext, scriptInterface) end
 
----@protected
 ---@return CName
-function WeaponTransition:GetIsChargedFullAutoName() return end
+function WeaponTransition:GetIsChargedFullAutoName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetIsDelayFireName() return end
+function WeaponTransition:GetIsDelayFireName() end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function WeaponTransition:GetMaxChargeThreshold(scriptInterface) return end
+function WeaponTransition:GetMaxChargeThreshold(scriptInterface) end
 
----@protected
 ---@return CName
-function WeaponTransition:GetQuestForceShootName() return end
+function WeaponTransition:GetQuestForceShootName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetShootingNumBurstTotalName() return end
+function WeaponTransition:GetShootingNumBurstTotalName() end
 
----@protected
 ---@return CName
-function WeaponTransition:GetShootingStartName() return end
+function WeaponTransition:GetShootingStartName() end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function WeaponTransition:GetWeaponChargeMinValue(scriptInterface) return end
+function WeaponTransition:GetWeaponChargeMinValue(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameweaponObject
-function WeaponTransition:GetWeaponObject(scriptInterface) return end
+function WeaponTransition:GetWeaponObject(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Int32
-function WeaponTransition:GetWeaponTriggerModesNumber(scriptInterface) return end
+function WeaponTransition:GetWeaponTriggerModesNumber(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function WeaponTransition:InShootingSequence(stateContext) return end
+function WeaponTransition:InShootingSequence(stateContext) end
 
----@protected
 ---@param weaponObject gameweaponObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:IsFullAutoAction(weaponObject, stateContext, scriptInterface) return end
+function WeaponTransition:IsFullAutoAction(weaponObject, stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:IsHeavyWeaponEmpty(scriptInterface) return end
+function WeaponTransition:IsHeavyWeaponEmpty(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:IsPrimaryTriggerModeActive(scriptInterface) return end
+function WeaponTransition:IsPrimaryTriggerModeActive(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:IsReloadDurationComplete(stateContext, scriptInterface) return end
+function WeaponTransition:IsReloadDurationComplete(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:IsReloadUninterruptible(stateContext, scriptInterface) return end
+function WeaponTransition:IsReloadUninterruptible(stateContext, scriptInterface) end
 
----@protected
 ---@param weaponObject gameweaponObject
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:IsSemiAutoAction(weaponObject, stateContext, scriptInterface) return end
+function WeaponTransition:IsSemiAutoAction(weaponObject, stateContext, scriptInterface) end
 
----@protected
 ---@param effectName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param eventTag? CName|string
 ---@return nil
-function WeaponTransition:PlayEffect(effectName, scriptInterface, eventTag) return end
+function WeaponTransition:PlayEffect(effectName, scriptInterface, eventTag) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param clearParam Bool
 ---@return nil
-function WeaponTransition:SetUninteruptibleReloadParams(stateContext, clearParam) return end
+function WeaponTransition:SetUninteruptibleReloadParams(stateContext, clearParam) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param cycleTime Float
 ---@param burstCycleTime Float
 ---@param numShotsBurst Int32
 ---@return nil
-function WeaponTransition:SetupNextShootingPhase(stateContext, cycleTime, burstCycleTime, numShotsBurst) return end
+function WeaponTransition:SetupNextShootingPhase(stateContext, cycleTime, burstCycleTime, numShotsBurst) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:SetupStandardShootingSequence(stateContext, scriptInterface) return end
+function WeaponTransition:SetupStandardShootingSequence(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function WeaponTransition:ShootingSequencePostShoot(stateContext) return end
+function WeaponTransition:ShootingSequencePostShoot(stateContext) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:ShootingSequenceUpdateBurstTime(timeDelta, stateContext, scriptInterface) return end
+function WeaponTransition:ShootingSequenceUpdateBurstTime(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:ShootingSequenceUpdateCycleTime(timeDelta, stateContext, scriptInterface) return end
+function WeaponTransition:ShootingSequenceUpdateCycleTime(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param textToShow String
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil, Uint32 layerId
-function WeaponTransition:ShowDebugText(textToShow, scriptInterface) return end
+function WeaponTransition:ShowDebugText(textToShow, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param fireDelay Float
@@ -244,34 +203,29 @@ function WeaponTransition:ShowDebugText(textToShow, scriptInterface) return end
 ---@param numShotsBurst Int32
 ---@param isFullChargeFullAuto Bool
 ---@return nil
-function WeaponTransition:StartShootingSequence(stateContext, scriptInterface, fireDelay, burstCycleTime, numShotsBurst, isFullChargeFullAuto) return end
+function WeaponTransition:StartShootingSequence(stateContext, scriptInterface, fireDelay, burstCycleTime, numShotsBurst, isFullChargeFullAuto) end
 
----@protected
 ---@param effectName CName|string
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:StopEffect(effectName, scriptInterface) return end
+function WeaponTransition:StopEffect(effectName, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:SwitchTriggerMode(stateContext, scriptInterface) return end
+function WeaponTransition:SwitchTriggerMode(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:ToFullAutoTransitionCondition(stateContext, scriptInterface) return end
+function WeaponTransition:ToFullAutoTransitionCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponTransition:ToSemiAutoTransitionCondition(stateContext, scriptInterface) return end
+function WeaponTransition:ToSemiAutoTransitionCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponTransition:UpdateInputBuffer(stateContext, scriptInterface) return end
+function WeaponTransition:UpdateInputBuffer(stateContext, scriptInterface) end

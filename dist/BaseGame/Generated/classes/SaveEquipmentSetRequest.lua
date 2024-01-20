@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SaveEquipmentSetRequest: gamePlayerScriptableSystemRequest
----@field public setName String
----@field public setType gameEquipmentSetType
+---@field setName String
+---@field setType gameEquipmentSetType
 SaveEquipmentSetRequest = {}
 
 ---@param fields? SaveEquipmentSetRequest
 ---@return SaveEquipmentSetRequest
-function SaveEquipmentSetRequest.new(fields) return end
+function SaveEquipmentSetRequest.new(fields) end

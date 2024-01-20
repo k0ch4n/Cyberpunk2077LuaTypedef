@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class meshChunkFlags
----@field public renderInScene Bool
----@field public renderInShadows Bool
----@field public isTwoSided Bool
----@field public isRayTracedEmissive Bool
----@field public isConsoleLOD0 Bool
----@field public skipDynamicDecalGeneration Bool
+---@field renderInScene Bool
+---@field renderInShadows Bool
+---@field isTwoSided Bool
+---@field isRayTracedEmissive Bool
+---@field isConsoleLOD0 Bool
+---@field skipDynamicDecalGeneration Bool
 meshChunkFlags = {}
 
 ---@param fields? meshChunkFlags
 ---@return meshChunkFlags
-function meshChunkFlags.new(fields) return end
+function meshChunkFlags.new(fields) end

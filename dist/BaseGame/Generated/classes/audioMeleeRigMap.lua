@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioMeleeRigMap: audioAudioMetadata
----@field public mapItems audioMeleeRigMapItem[]
+---@field mapItems audioMeleeRigMapItem[]
 audioMeleeRigMap = {}
 
 ---@param fields? audioMeleeRigMap
 ---@return audioMeleeRigMap
-function audioMeleeRigMap.new(fields) return end
+function audioMeleeRigMap.new(fields) end

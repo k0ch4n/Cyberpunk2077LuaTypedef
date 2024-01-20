@@ -5,4 +5,4 @@ ShardCaseContainerPS = {}
 
 ---@param fields? ShardCaseContainerPS
 ---@return ShardCaseContainerPS
-function ShardCaseContainerPS.new(fields) return end
+function ShardCaseContainerPS.new(fields) end

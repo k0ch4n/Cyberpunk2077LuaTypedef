@@ -5,27 +5,22 @@ MenuScenario_CreditsPickerPause = {}
 
 ---@param fields? MenuScenario_CreditsPickerPause
 ---@return MenuScenario_CreditsPickerPause
-function MenuScenario_CreditsPickerPause.new(fields) return end
+function MenuScenario_CreditsPickerPause.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_CreditsPickerPause:OnBack() return end
+function MenuScenario_CreditsPickerPause:OnBack() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_CreditsPickerPause:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_CreditsPickerPause:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_CreditsPickerPause:OnLeaveScenario(nextScenario) return end
+function MenuScenario_CreditsPickerPause:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_CreditsPickerPause:OnSwitchToCredits() return end
+function MenuScenario_CreditsPickerPause:OnSwitchToCredits() end
 
----@protected
 ---@return Bool
-function MenuScenario_CreditsPickerPause:OnSwitchToCreditsEp1() return end
+function MenuScenario_CreditsPickerPause:OnSwitchToCreditsEp1() end

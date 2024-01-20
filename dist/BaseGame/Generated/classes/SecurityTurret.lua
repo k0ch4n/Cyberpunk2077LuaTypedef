@@ -1,337 +1,282 @@
 ---@meta
 
 ---@class SecurityTurret: SensorDevice
----@field private animFeature AnimFeature_SecurityTurretData
----@field private animFeatureName CName
----@field private lookAtSlot entSlotComponent
----@field private laserMesh entMeshComponent
----@field private targetingComp gameTargetingComponent
----@field protected triggerSideOne gameStaticTriggerAreaComponent
----@field protected triggerSideTwo gameStaticTriggerAreaComponent
----@field protected weapon gameweaponObject
----@field protected itemID gameItemID
----@field protected laserGameEffect gameEffectInstance
----@field protected laserFXSlotName CName
----@field private burstDelayEvtID gameDelayID
----@field private isBurstDelayOngoing Bool
----@field private nextShootCycleDelayEvtID gameDelayID
----@field private isShootingOngoing Bool
----@field private timeToNextShot Float
----@field private optim_CheckTargetParametersShots Int32
----@field private weaponRecord gamedataWeaponItem_Record
----@field private weaponTDBID TweakDBID
----@field private netClientCurrentlyAppliedState SecurityTurretReplicatedState
+---@field animFeature AnimFeature_SecurityTurretData
+---@field animFeatureName CName
+---@field lookAtSlot entSlotComponent
+---@field laserMesh entMeshComponent
+---@field targetingComp gameTargetingComponent
+---@field triggerSideOne gameStaticTriggerAreaComponent
+---@field triggerSideTwo gameStaticTriggerAreaComponent
+---@field weapon gameweaponObject
+---@field itemID gameItemID
+---@field laserGameEffect gameEffectInstance
+---@field laserFXSlotName CName
+---@field burstDelayEvtID gameDelayID
+---@field isBurstDelayOngoing Bool
+---@field nextShootCycleDelayEvtID gameDelayID
+---@field isShootingOngoing Bool
+---@field timeToNextShot Float
+---@field optim_CheckTargetParametersShots Int32
+---@field weaponRecord gamedataWeaponItem_Record
+---@field weaponTDBID TweakDBID
+---@field netClientCurrentlyAppliedState SecurityTurretReplicatedState
 SecurityTurret = {}
 
 ---@param fields? SecurityTurret
 ---@return SecurityTurret
-function SecurityTurret.new(fields) return end
+function SecurityTurret.new(fields) end
 
 ---@param isVisible Bool
 ---@return nil
-function SecurityTurret.CreateInputHint(isVisible) return end
+function SecurityTurret.CreateInputHint(isVisible) end
 
----@protected
 ---@param evt ActionEngineering
 ---@return Bool
-function SecurityTurret:OnActionEngineering(evt) return end
+function SecurityTurret:OnActionEngineering(evt) end
 
----@protected
 ---@param evt AutoKillDelayEvent
 ---@return Bool
-function SecurityTurret:OnAutoKillDelayEvent(evt) return end
+function SecurityTurret:OnAutoKillDelayEvent(evt) end
 
----@protected
 ---@param evt gameeventsDamageReceivedEvent
 ---@return Bool
-function SecurityTurret:OnDamageReceived(evt) return end
+function SecurityTurret:OnDamageReceived(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function SecurityTurret:OnDeath(evt) return end
+function SecurityTurret:OnDeath(evt) end
 
----@protected
 ---@return Bool
-function SecurityTurret:OnDetach() return end
+function SecurityTurret:OnDetach() end
 
----@protected
 ---@param evt DisassembleDevice
 ---@return Bool
-function SecurityTurret:OnDisassembleDevice(evt) return end
+function SecurityTurret:OnDisassembleDevice(evt) end
 
----@protected
 ---@return Bool
-function SecurityTurret:OnGameAttached() return end
+function SecurityTurret:OnGameAttached() end
 
----@protected
 ---@param evt GrabReferenceToWeaponEvent
 ---@return Bool
-function SecurityTurret:OnGrabReferenceToWeaponEvent(evt) return end
+function SecurityTurret:OnGrabReferenceToWeaponEvent(evt) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function SecurityTurret:OnHit(evt) return end
+function SecurityTurret:OnHit(evt) end
 
----@protected
 ---@param evt QuestForceOverheat
 ---@return Bool
-function SecurityTurret:OnQuestForceOverheat(evt) return end
+function SecurityTurret:OnQuestForceOverheat(evt) end
 
----@protected
 ---@param evt QuestForceReload
 ---@return Bool
-function SecurityTurret:OnQuestForceReload(evt) return end
+function SecurityTurret:OnQuestForceReload(evt) end
 
----@protected
 ---@param evt QuestRemoveWeapon
 ---@return Bool
-function SecurityTurret:OnQuestRemoveWeapon(evt) return end
+function SecurityTurret:OnQuestRemoveWeapon(evt) end
 
----@protected
 ---@param evt QuestResetDeviceToInitialState
 ---@return Bool
-function SecurityTurret:OnQuestResetDeviceToInitialState(evt) return end
+function SecurityTurret:OnQuestResetDeviceToInitialState(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SecurityTurret:OnRequestComponents(ri) return end
+function SecurityTurret:OnRequestComponents(ri) end
 
----@protected
 ---@param evt RipOff
 ---@return Bool
-function SecurityTurret:OnRipOff(evt) return end
+function SecurityTurret:OnRipOff(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlActivate
 ---@return Bool
-function SecurityTurret:OnTCSTakeOverControlActivate(evt) return end
+function SecurityTurret:OnTCSTakeOverControlActivate(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlDeactivate
 ---@return Bool
-function SecurityTurret:OnTCSTakeOverControlDeactivate(evt) return end
+function SecurityTurret:OnTCSTakeOverControlDeactivate(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SecurityTurret:OnTakeControl(ri) return end
+function SecurityTurret:OnTakeControl(ri) end
 
----@protected
 ---@param evt TargetLockedEvent
 ---@return Bool
-function SecurityTurret:OnTargetLocked(evt) return end
+function SecurityTurret:OnTargetLocked(evt) end
 
----@protected
 ---@param evt TurnONTurretAfterDuration
 ---@return Bool
-function SecurityTurret:OnTurnONTurretAfterDuration(evt) return end
+function SecurityTurret:OnTurnONTurretAfterDuration(evt) end
 
----@protected
 ---@param evt TurretBurstShootingDelayEvent
 ---@return Bool
-function SecurityTurret:OnTurretBurstShootingDelayEvent(evt) return end
+function SecurityTurret:OnTurretBurstShootingDelayEvent(evt) end
 
----@protected
 ---@param evt TurretShootingIntervalEvent
 ---@return Bool
-function SecurityTurret:OnTurretShootingIntervalEvent(evt) return end
+function SecurityTurret:OnTurretShootingIntervalEvent(evt) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function SecurityTurret:OnWorkspotFinished(componentName) return end
+function SecurityTurret:OnWorkspotFinished(componentName) end
 
----@protected
 ---@param state gameDeviceReplicatedState
 ---@return nil
-function SecurityTurret:ApplyReplicatedState(state) return end
+function SecurityTurret:ApplyReplicatedState(state) end
 
----@private
 ---@return nil
-function SecurityTurret:ApplyShootingInterval() return end
+function SecurityTurret:ApplyShootingInterval() end
 
----@protected
 ---@return nil
-function SecurityTurret:CheckTargetParameters() return end
+function SecurityTurret:CheckTargetParameters() end
 
 ---@param isPressed Bool
 ---@return nil
-function SecurityTurret:ControlledDeviceInputAction(isPressed) return end
+function SecurityTurret:ControlledDeviceInputAction(isPressed) end
 
----@protected
 ---@return nil
-function SecurityTurret:CutPower() return end
+function SecurityTurret:CutPower() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function SecurityTurret:DamagePipelineFinalized(evt) return end
+function SecurityTurret:DamagePipelineFinalized(evt) end
 
 ---@return EGameplayRole
-function SecurityTurret:DeterminGameplayRole() return end
+function SecurityTurret:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return Float
-function SecurityTurret:DeterminGameplayRoleMappinRange(data) return end
+function SecurityTurret:DeterminGameplayRoleMappinRange(data) end
 
----@protected
 ---@param activator gameObject
 ---@param freeCamera? Bool
 ---@param componentName? CName|string
 ---@param deviceData? CName|string
 ---@return nil
-function SecurityTurret:EnterWorkspot(activator, freeCamera, componentName, deviceData) return end
+function SecurityTurret:EnterWorkspot(activator, freeCamera, componentName, deviceData) end
 
----@private
 ---@return SecurityTurretController
-function SecurityTurret:GetController() return end
+function SecurityTurret:GetController() end
 
 ---@return SecurityTurretControllerPS
-function SecurityTurret:GetDevicePS() return end
+function SecurityTurret:GetDevicePS() end
 
 ---@return CName
-function SecurityTurret:GetDeviceStateClass() return end
+function SecurityTurret:GetDeviceStateClass() end
 
----@protected
 ---@return Float
-function SecurityTurret:GetFirerate() return end
+function SecurityTurret:GetFirerate() end
 
 ---@return gameObject[]
-function SecurityTurret:GetObjectToForwardHighlight() return end
+function SecurityTurret:GetObjectToForwardHighlight() end
 
----@private
 ---@return SecurityTurretReplicatedState
-function SecurityTurret:GetReplicationStateToUpdate() return end
+function SecurityTurret:GetReplicationStateToUpdate() end
 
 ---@param forEntity entEntity
 ---@return EDoorTriggerSide
-function SecurityTurret:GetRipOffTriggerSide(forEntity) return end
+function SecurityTurret:GetRipOffTriggerSide(forEntity) end
 
----@protected
 ---@return String
-function SecurityTurret:GetScannerName() return end
+function SecurityTurret:GetScannerName() end
 
 ---@return gameweaponObject
-function SecurityTurret:GetTurretWeapon() return end
+function SecurityTurret:GetTurretWeapon() end
 
----@protected
 ---@return gameweaponObject
-function SecurityTurret:GetWeapon() return end
+function SecurityTurret:GetWeapon() end
 
----@protected
 ---@return nil
-function SecurityTurret:GiveWeaponToTurret() return end
+function SecurityTurret:GiveWeaponToTurret() end
 
----@protected
 ---@return nil
-function SecurityTurret:GrabReferenceToWeapon() return end
+function SecurityTurret:GrabReferenceToWeapon() end
 
 ---@return Bool
-function SecurityTurret:IsTurret() return end
+function SecurityTurret:IsTurret() end
 
----@private
 ---@return Float
-function SecurityTurret:MultiplyBaseAIRecoil() return end
+function SecurityTurret:MultiplyBaseAIRecoil() end
 
 ---@return nil
-function SecurityTurret:OnAllValidTargetsDisappears() return end
+function SecurityTurret:OnAllValidTargetsDisappears() end
 
 ---@param target gameObject
 ---@return nil
-function SecurityTurret:OnCurrentTargetAppears(target) return end
+function SecurityTurret:OnCurrentTargetAppears(target) end
 
----@private
 ---@return nil
-function SecurityTurret:ProcessShootingPattern() return end
+function SecurityTurret:ProcessShootingPattern() end
 
----@protected
 ---@return nil
-function SecurityTurret:PushPersistentData() return end
+function SecurityTurret:PushPersistentData() end
 
----@private
 ---@param delay Float
 ---@return nil
-function SecurityTurret:QueueNextShot(delay) return end
+function SecurityTurret:QueueNextShot(delay) end
 
----@private
 ---@param health Float
 ---@return nil
-function SecurityTurret:ReplicateHealth(health) return end
+function SecurityTurret:ReplicateHealth(health) end
 
----@private
 ---@param isDead Bool
 ---@return nil
-function SecurityTurret:ReplicateIsDead(isDead) return end
+function SecurityTurret:ReplicateIsDead(isDead) end
 
----@private
 ---@param isOn Bool
 ---@return nil
-function SecurityTurret:ReplicateIsOn(isOn) return end
+function SecurityTurret:ReplicateIsOn(isOn) end
 
----@private
 ---@param isShooting Bool
 ---@return nil
-function SecurityTurret:ReplicateIsShooting(isShooting) return end
+function SecurityTurret:ReplicateIsShooting(isShooting) end
 
----@private
 ---@return nil
-function SecurityTurret:RipOffTurret() return end
+function SecurityTurret:RipOffTurret() end
 
----@protected
 ---@param weapon gameweaponObject
 ---@param weaponOwner gameObject
 ---@param forceReselection? Bool
 ---@return nil
-function SecurityTurret:SelectShootingPattern(weapon, weaponOwner, forceReselection) return end
+function SecurityTurret:SelectShootingPattern(weapon, weaponOwner, forceReselection) end
 
 ---@param target gameObject
 ---@return Bool
-function SecurityTurret:SetAsIntrestingTarget(target) return end
+function SecurityTurret:SetAsIntrestingTarget(target) end
 
----@private
 ---@param value Float
 ---@return nil
-function SecurityTurret:SetFirerate(value) return end
+function SecurityTurret:SetFirerate(value) end
 
----@protected
 ---@param evt entLookAtAddEvent
 ---@param otherTarget? gameObject
 ---@return nil
-function SecurityTurret:SetLookAtPositionProviderOnFollowedTarget(evt, otherTarget) return end
+function SecurityTurret:SetLookAtPositionProviderOnFollowedTarget(evt, otherTarget) end
 
----@private
 ---@param shootStart? Bool
 ---@return nil
-function SecurityTurret:ShootAttachedWeapon(shootStart) return end
+function SecurityTurret:ShootAttachedWeapon(shootStart) end
 
----@private
 ---@return nil
-function SecurityTurret:ShootStart() return end
+function SecurityTurret:ShootStart() end
 
----@private
 ---@return nil
-function SecurityTurret:ShootStop() return end
+function SecurityTurret:ShootStop() end
 
 ---@return Bool
-function SecurityTurret:ShouldShowDamageNumber() return end
+function SecurityTurret:ShouldShowDamageNumber() end
 
----@private
 ---@param originalPosition Vector4
 ---@return Vector4
-function SecurityTurret:SimplifiedTrackingSetUp(originalPosition) return end
+function SecurityTurret:SimplifiedTrackingSetUp(originalPosition) end
 
----@protected
 ---@param toggle Bool
 ---@return nil
-function SecurityTurret:ToggleTurretVisuals(toggle) return end
+function SecurityTurret:ToggleTurretVisuals(toggle) end
 
----@protected
 ---@return nil
-function SecurityTurret:TurnOffDevice() return end
+function SecurityTurret:TurnOffDevice() end
 
----@protected
 ---@return nil
-function SecurityTurret:TurnOnDevice() return end
+function SecurityTurret:TurnOnDevice() end

@@ -5,18 +5,16 @@ OverclockChargeListener = {}
 
 ---@param fields? OverclockChargeListener
 ---@return OverclockChargeListener
-function OverclockChargeListener.new(fields) return end
+function OverclockChargeListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function OverclockChargeListener:OnStatPoolMaxValueReached(value) return end
+function OverclockChargeListener:OnStatPoolMaxValueReached(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function OverclockChargeListener:OnStatPoolMinValueReached(value) return end
+function OverclockChargeListener:OnStatPoolMinValueReached(value) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function OverclockChargeListener:Init(player) return end
+function OverclockChargeListener:Init(player) end

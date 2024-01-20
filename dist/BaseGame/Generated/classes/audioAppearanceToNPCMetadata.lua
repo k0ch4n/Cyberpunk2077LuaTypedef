@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAppearanceToNPCMetadata
----@field public appearances CName[]
----@field public foleyNPCMetadata CName
+---@field appearances CName[]
+---@field foleyNPCMetadata CName
 audioAppearanceToNPCMetadata = {}
 
 ---@param fields? audioAppearanceToNPCMetadata
 ---@return audioAppearanceToNPCMetadata
-function audioAppearanceToNPCMetadata.new(fields) return end
+function audioAppearanceToNPCMetadata.new(fields) end

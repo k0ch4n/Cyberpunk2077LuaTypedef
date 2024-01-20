@@ -1,125 +1,107 @@
 ---@meta
 
 ---@class NetworkSystem: gameScriptableSystem
----@field private networkLinks SNetworkLinkData[]
----@field private networkRevealTargets entEntityID[]
----@field private networkRevealTargetsLastSession entEntityID[]
----@field private sessionStarted Bool
----@field private visionModeChangedCallback redCallbackObject
----@field private focusModeToggleCallback redCallbackObject
----@field private playerSpawnCallback Uint32
----@field private currentPlayerTargetCallbackID redCallbackObject
----@field private lastTargetSlaveID entEntityID
----@field private lastTargetMasterID entEntityID
----@field private unregisterLinksRequestDelay gameDelayID
----@field private focusModeActive Bool
----@field private lastBeamResource gameFxResource
----@field private pingNetworkEffect gameEffectInstance
----@field private pingCachedData PingCachedData
----@field private lastPingSourceID entEntityID
----@field private activePings PingCachedData[]
----@field private pingedSquads CName[]
----@field private pingLinksCounter Int32
----@field private networkPresetTBDID TweakDBID
----@field private networkPresetRecord gamedataNetworkPingingParameteres_Record
----@field private backdoors gamePersistentID[]
----@field private revealedBackdoorsCount Int32
----@field private debugCashedPingFxResource gameFxResource
----@field private debugQueryNumber Int32
----@field private activateLinksDelayID gameDelayID
----@field private deactivateLinksDelayID gameDelayID
+---@field networkLinks SNetworkLinkData[]
+---@field networkRevealTargets entEntityID[]
+---@field networkRevealTargetsLastSession entEntityID[]
+---@field sessionStarted Bool
+---@field visionModeChangedCallback redCallbackObject
+---@field focusModeToggleCallback redCallbackObject
+---@field playerSpawnCallback Uint32
+---@field currentPlayerTargetCallbackID redCallbackObject
+---@field lastTargetSlaveID entEntityID
+---@field lastTargetMasterID entEntityID
+---@field unregisterLinksRequestDelay gameDelayID
+---@field focusModeActive Bool
+---@field lastBeamResource gameFxResource
+---@field pingNetworkEffect gameEffectInstance
+---@field pingCachedData PingCachedData
+---@field lastPingSourceID entEntityID
+---@field activePings PingCachedData[]
+---@field pingedSquads CName[]
+---@field pingLinksCounter Int32
+---@field networkPresetTBDID TweakDBID
+---@field networkPresetRecord gamedataNetworkPingingParameteres_Record
+---@field backdoors gamePersistentID[]
+---@field revealedBackdoorsCount Int32
+---@field debugCashedPingFxResource gameFxResource
+---@field debugQueryNumber Int32
+---@field activateLinksDelayID gameDelayID
+---@field deactivateLinksDelayID gameDelayID
 NetworkSystem = {}
 
 ---@param fields? NetworkSystem
 ---@return NetworkSystem
-function NetworkSystem.new(fields) return end
+function NetworkSystem.new(fields) end
 
----@private
 ---@return Int32
-function NetworkSystem.GetMaxAmountOfVirtualLinkForks() return end
+function NetworkSystem.GetMaxAmountOfVirtualLinkForks() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetMaxLinksDeactivatedAtOnce() return end
+function NetworkSystem.GetMaxLinksDeactivatedAtOnce() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetMaxLinksDrawnAtOnce() return end
+function NetworkSystem.GetMaxLinksDrawnAtOnce() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetMaxLinksDrawnInTotal() return end
+function NetworkSystem.GetMaxLinksDrawnInTotal() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetMaxLinksRegisteredAtOnce() return end
+function NetworkSystem.GetMaxLinksRegisteredAtOnce() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetMaximumNumberOfActivePings() return end
+function NetworkSystem.GetMaximumNumberOfActivePings() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetMaximumNumberOfFreeLinksPerTarget() return end
+function NetworkSystem.GetMaximumNumberOfFreeLinksPerTarget() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetNumberOfVirtualLinksPerObject() return end
+function NetworkSystem.GetNumberOfVirtualLinksPerObject() end
 
----@private
 ---@return Int32
-function NetworkSystem.GetVirtualLinkDepth() return end
+function NetworkSystem.GetVirtualLinkDepth() end
 
----@private
 ---@return Float
-function NetworkSystem.GetVirtualLinksSphereRadius() return end
+function NetworkSystem.GetVirtualLinksSphereRadius() end
 
 ---@return Bool
-function NetworkSystem.QuickHacksExposedByDefault() return end
+function NetworkSystem.QuickHacksExposedByDefault() end
 
 ---@param mode gameVisionModeType
 ---@return nil
-function NetworkSystem.SendEvaluateVisionModeRequest(mode) return end
+function NetworkSystem.SendEvaluateVisionModeRequest(mode) end
 
 ---@return Bool
-function NetworkSystem.ShouldShowOnlyTargetQuickHacks() return end
+function NetworkSystem.ShouldShowOnlyTargetQuickHacks() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function NetworkSystem:OnFocusModeToggle(value) return end
+function NetworkSystem:OnFocusModeToggle(value) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function NetworkSystem:OnPlayerTargetChanged(value) return end
+function NetworkSystem:OnPlayerTargetChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NetworkSystem:OnVisionModeChanged(value) return end
+function NetworkSystem:OnVisionModeChanged(value) end
 
----@private
 ---@param linkIndex Int32
 ---@return nil
-function NetworkSystem:ActivateNetworkLinkByIndex(linkIndex) return end
+function NetworkSystem:ActivateNetworkLinkByIndex(linkIndex) end
 
----@protected
 ---@param linkIndex Int32
 ---@return nil
-function NetworkSystem:ActivateNetworkLinkByTask(linkIndex) return end
+function NetworkSystem:ActivateNetworkLinkByTask(linkIndex) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function NetworkSystem:ActivateNetworkLinkTask(data) return end
+function NetworkSystem:ActivateNetworkLinkTask(data) end
 
----@private
 ---@param toActivate Int32[]
 ---@return nil
-function NetworkSystem:ActivateNetworkLinks(toActivate) return end
+function NetworkSystem:ActivateNetworkLinks(toActivate) end
 
----@private
 ---@param source gameObject
 ---@param pingType EPingType
 ---@param duration Float
@@ -128,61 +110,51 @@ function NetworkSystem:ActivateNetworkLinks(toActivate) return end
 ---@param fxResource gameFxResource
 ---@param virtualNetworkShapeID TweakDBID|string
 ---@return nil
-function NetworkSystem:AddActivePing(source, pingType, duration, linkType, revealNetworkAtEnd, fxResource, virtualNetworkShapeID) return end
+function NetworkSystem:AddActivePing(source, pingType, duration, linkType, revealNetworkAtEnd, fxResource, virtualNetworkShapeID) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:AddNetworkLink(linkData) return end
+function NetworkSystem:AddNetworkLink(linkData) end
 
----@private
 ---@param target entEntityID
 ---@return nil
-function NetworkSystem:AddNetworkRevealTarget(target) return end
+function NetworkSystem:AddNetworkRevealTarget(target) end
 
----@private
 ---@param squadName CName|string
 ---@return nil
-function NetworkSystem:AddPingedSquad(squadName) return end
+function NetworkSystem:AddPingedSquad(squadName) end
 
 ---@return Bool
-function NetworkSystem:AllowSimultanousPinging() return end
+function NetworkSystem:AllowSimultanousPinging() end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:CancelNetworkLinkDelay(linkData) return end
+function NetworkSystem:CancelNetworkLinkDelay(linkData) end
 
----@private
 ---@return nil
-function NetworkSystem:CleanNetwork() return end
+function NetworkSystem:CleanNetwork() end
 
----@private
 ---@return nil
-function NetworkSystem:ClearPingedSquads() return end
+function NetworkSystem:ClearPingedSquads() end
 
----@private
 ---@param linkData1 SNetworkLinkData
 ---@param linkData2 SNetworkLinkData
 ---@return Bool
-function NetworkSystem:CompareLinks(linkData1, linkData2) return end
+function NetworkSystem:CompareLinks(linkData1, linkData2) end
 
----@private
 ---@param linkData1 SNetworkLinkData
 ---@param linkData2 SNetworkLinkData
 ---@return Bool
-function NetworkSystem:CompareLinksData(linkData1, linkData2) return end
+function NetworkSystem:CompareLinksData(linkData1, linkData2) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@param ping PingCachedData
 ---@param sphereCentre Vector4
 ---@param radius Float
 ---@param slice Int32
 ---@return nil
-function NetworkSystem:CreateForksForVirtualLink(linkData, ping, sphereCentre, radius, slice) return end
+function NetworkSystem:CreateForksForVirtualLink(linkData, ping, sphereCentre, radius, slice) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@param ping PingCachedData
 ---@param sphereCentre Vector4
@@ -190,9 +162,8 @@ function NetworkSystem:CreateForksForVirtualLink(linkData, ping, sphereCentre, r
 ---@param direction Vector4
 ---@param connectionPoint Vector4
 ---@return nil
-function NetworkSystem:CreateForksForVirtualLink1(linkData, ping, sphereCentre, radius, direction, connectionPoint) return end
+function NetworkSystem:CreateForksForVirtualLink1(linkData, ping, sphereCentre, radius, direction, connectionPoint) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@param ping PingCachedData
 ---@param sphereCentre Vector4
@@ -200,80 +171,65 @@ function NetworkSystem:CreateForksForVirtualLink1(linkData, ping, sphereCentre, 
 ---@param direction Vector4
 ---@param vertices Vector4[]
 ---@return nil
-function NetworkSystem:CreateForksForVirtualLink1(linkData, ping, sphereCentre, radius, direction, vertices) return end
+function NetworkSystem:CreateForksForVirtualLink1(linkData, ping, sphereCentre, radius, direction, vertices) end
 
----@private
 ---@param ping PingCachedData
 ---@return nil
-function NetworkSystem:CreateVirtualLinksForPing(ping) return end
+function NetworkSystem:CreateVirtualLinksForPing(ping) end
 
----@private
 ---@param ping PingCachedData
 ---@return nil
-function NetworkSystem:CreateVirtualLinksForPing1(ping) return end
+function NetworkSystem:CreateVirtualLinksForPing1(ping) end
 
----@private
 ---@param sourcePing PingCachedData
 ---@return nil
-function NetworkSystem:CreateVirtualNetwork(sourcePing) return end
+function NetworkSystem:CreateVirtualNetwork(sourcePing) end
 
----@protected
 ---@param linkIndex Int32
 ---@param instant Bool
 ---@return nil
-function NetworkSystem:DeactivateNetworkLinkByTask(linkIndex, instant) return end
+function NetworkSystem:DeactivateNetworkLinkByTask(linkIndex, instant) end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function NetworkSystem:DeactivateNetworkLinkTask(data) return end
+function NetworkSystem:DeactivateNetworkLinkTask(data) end
 
----@private
 ---@param toDeactivate Int32[]
 ---@param hasContext Bool
 ---@return nil
-function NetworkSystem:DeactivateNetworkLinks(toDeactivate, hasContext) return end
+function NetworkSystem:DeactivateNetworkLinks(toDeactivate, hasContext) end
 
----@private
 ---@return nil
-function NetworkSystem:DecreasePingLinbksCounter() return end
+function NetworkSystem:DecreasePingLinbksCounter() end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return EPriority
-function NetworkSystem:DeterminNetworkLinkPriority(linkData) return end
+function NetworkSystem:DeterminNetworkLinkPriority(linkData) end
 
----@private
 ---@param linkIndex Int32
 ---@return Bool
-function NetworkSystem:DeterminNetworkLinkVisibility(linkIndex) return end
+function NetworkSystem:DeterminNetworkLinkVisibility(linkIndex) end
 
----@private
 ---@param linkIndex Int32
 ---@return Bool
-function NetworkSystem:DrawNetworkBeamByIndex(linkIndex) return end
+function NetworkSystem:DrawNetworkBeamByIndex(linkIndex) end
 
----@private
 ---@param slaveID entEntityID
 ---@return nil
-function NetworkSystem:EvaluateLastMasterTarget(slaveID) return end
+function NetworkSystem:EvaluateLastMasterTarget(slaveID) end
 
----@private
 ---@param masterID entEntityID
 ---@return nil
-function NetworkSystem:EvaluateLastSlaveTarget(masterID) return end
+function NetworkSystem:EvaluateLastSlaveTarget(masterID) end
 
----@private
 ---@param visionType gameVisionModeType
 ---@return nil
-function NetworkSystem:EvaluateVisionMode(visionType) return end
+function NetworkSystem:EvaluateVisionMode(visionType) end
 
----@private
 ---@param newTarget entEntityID
 ---@return Bool
-function NetworkSystem:EvaluatelastTargets(newTarget) return end
+function NetworkSystem:EvaluatelastTargets(newTarget) end
 
----@private
 ---@param point Vector4
 ---@param direction Vector4
 ---@param angle Float
@@ -281,696 +237,577 @@ function NetworkSystem:EvaluatelastTargets(newTarget) return end
 ---@param excludeVertice Vector4
 ---@param vertices Vector4[]
 ---@return Vector4
-function NetworkSystem:FindBestMatchingVertice(point, direction, angle, radius, excludeVertice, vertices) return end
+function NetworkSystem:FindBestMatchingVertice(point, direction, angle, radius, excludeVertice, vertices) end
 
----@private
 ---@param sourceID entEntityID
 ---@return PingCachedData
-function NetworkSystem:GetActivePing(sourceID) return end
+function NetworkSystem:GetActivePing(sourceID) end
 
----@private
 ---@param slaveID entEntityID
 ---@return entEntityID[]
-function NetworkSystem:GetAllMastersOfSlave(slaveID) return end
+function NetworkSystem:GetAllMastersOfSlave(slaveID) end
 
----@private
 ---@param masterID entEntityID
 ---@return entEntityID[]
-function NetworkSystem:GetAllSlavesOfMaster(masterID) return end
+function NetworkSystem:GetAllSlavesOfMaster(masterID) end
 
----@private
 ---@return Int32
-function NetworkSystem:GetAmmountOfPingDurationIntervals() return end
+function NetworkSystem:GetAmmountOfPingDurationIntervals() end
 
----@private
 ---@return gameObject
-function NetworkSystem:GetCurrentTarget() return end
+function NetworkSystem:GetCurrentTarget() end
 
----@private
 ---@return entEntityID
-function NetworkSystem:GetCurrentTargetID() return end
+function NetworkSystem:GetCurrentTargetID() end
 
 ---@return HUDManager
-function NetworkSystem:GetHudManager() return end
+function NetworkSystem:GetHudManager() end
 
 ---@return gameObject
-function NetworkSystem:GetInitialPingSource() return end
+function NetworkSystem:GetInitialPingSource() end
 
 ---@return entEntityID
-function NetworkSystem:GetInitialPingSourceID() return end
+function NetworkSystem:GetInitialPingSourceID() end
 
 ---@return PingCachedData
-function NetworkSystem:GetLastActivePingWithRevealNetwork() return end
+function NetworkSystem:GetLastActivePingWithRevealNetwork() end
 
 ---@return entEntityID
-function NetworkSystem:GetLastPingSourceID() return end
+function NetworkSystem:GetLastPingSourceID() end
 
----@private
 ---@return Int32
-function NetworkSystem:GetMaxFreePingLinks() return end
+function NetworkSystem:GetMaxFreePingLinks() end
 
----@private
 ---@param virtualNetworkRecord gamedataVirtualNetwork_Record
 ---@return Int32
-function NetworkSystem:GetMaxNumberOfSegmentsForVirtualNetwork(virtualNetworkRecord) return end
+function NetworkSystem:GetMaxNumberOfSegmentsForVirtualNetwork(virtualNetworkRecord) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return gameFxInstance
-function NetworkSystem:GetNetworkBeam(linkData) return end
+function NetworkSystem:GetNetworkBeam(linkData) end
 
 ---@return Float
-function NetworkSystem:GetNetworkReavealDuration() return end
+function NetworkSystem:GetNetworkReavealDuration() end
 
----@private
 ---@param sourceID entEntityID
 ---@param targetID entEntityID
 ---@return ENetworkRelation
-function NetworkSystem:GetNetworkRelation(sourceID, targetID) return end
+function NetworkSystem:GetNetworkRelation(sourceID, targetID) end
 
----@private
 ---@param entityID entEntityID
 ---@return gameObject
-function NetworkSystem:GetObjectFromID(entityID) return end
+function NetworkSystem:GetObjectFromID(entityID) end
 
----@private
 ---@return gamedataNetworkPingingParameteres_Record
-function NetworkSystem:GetPingPresetRecord() return end
+function NetworkSystem:GetPingPresetRecord() end
 
----@private
 ---@return Float
-function NetworkSystem:GetPingRange() return end
+function NetworkSystem:GetPingRange() end
 
----@private
 ---@return Float
-function NetworkSystem:GetPingRevealDuration() return end
+function NetworkSystem:GetPingRevealDuration() end
 
 ---@param sourceID entEntityID
 ---@return EPingType
-function NetworkSystem:GetPingType(sourceID) return end
+function NetworkSystem:GetPingType(sourceID) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return gameIBlackboard
-function NetworkSystem:GetPlayerStateMachineBlackboard(playerPuppet) return end
+function NetworkSystem:GetPlayerStateMachineBlackboard(playerPuppet) end
 
 ---@return Float
-function NetworkSystem:GetPulseRange() return end
+function NetworkSystem:GetPulseRange() end
 
----@private
 ---@param direction Vector4
 ---@param radius Float
 ---@param angle Float
 ---@return Vector4
-function NetworkSystem:GetRandomPoint(direction, radius, angle) return end
+function NetworkSystem:GetRandomPoint(direction, radius, angle) end
 
----@private
 ---@param sphereCentre Vector4
 ---@param radius Float
 ---@param slice Int32
 ---@return Vector4
-function NetworkSystem:GetRandomPointOnSphere(sphereCentre, radius, slice) return end
+function NetworkSystem:GetRandomPointOnSphere(sphereCentre, radius, slice) end
 
----@private
 ---@param sphereCentre Vector4
 ---@param radius Float
 ---@return Vector4
-function NetworkSystem:GetRandomPointOnSphere(sphereCentre, radius) return end
+function NetworkSystem:GetRandomPointOnSphere(sphereCentre, radius) end
 
----@private
 ---@param sphereCenter Vector4
 ---@param radius Float
 ---@param facePoint Vector4
 ---@return Vector4
-function NetworkSystem:GetRandomPointOnSphereInFacingQuadrant(sphereCenter, radius, facePoint) return end
+function NetworkSystem:GetRandomPointOnSphereInFacingQuadrant(sphereCenter, radius, facePoint) end
 
----@private
 ---@return Vector4
-function NetworkSystem:GetRandomPointOnSphereQuadrant0() return end
+function NetworkSystem:GetRandomPointOnSphereQuadrant0() end
 
 ---@return Float
-function NetworkSystem:GetRevealLinksAfterLeavingFocusDuration() return end
+function NetworkSystem:GetRevealLinksAfterLeavingFocusDuration() end
 
 ---@return Float
-function NetworkSystem:GetRevealMasterAfterLeavingFocusDuration() return end
+function NetworkSystem:GetRevealMasterAfterLeavingFocusDuration() end
 
 ---@return Float
-function NetworkSystem:GetSpacePingAppearModifier() return end
+function NetworkSystem:GetSpacePingAppearModifier() end
 
 ---@return Float
-function NetworkSystem:GetSpacePingDuration() return end
+function NetworkSystem:GetSpacePingDuration() end
 
----@private
 ---@return Float
-function NetworkSystem:GetVirtualLinkAngleTollerance() return end
+function NetworkSystem:GetVirtualLinkAngleTollerance() end
 
----@private
 ---@return Float
-function NetworkSystem:GetVirtualLinkForkAngleTollerance() return end
+function NetworkSystem:GetVirtualLinkForkAngleTollerance() end
 
----@private
 ---@return gamedataVirtualNetwork_Record
-function NetworkSystem:GetVirtualNetworkRecord() return end
+function NetworkSystem:GetVirtualNetworkRecord() end
 
----@private
 ---@param virtualNetworkRecord gamedataVirtualNetwork_Record
 ---@return Vector4
-function NetworkSystem:GetVirtualNetworkSegmentMarker(virtualNetworkRecord) return end
+function NetworkSystem:GetVirtualNetworkSegmentMarker(virtualNetworkRecord) end
 
 ---@param sourceID entEntityID
 ---@return Bool
-function NetworkSystem:HasActivePing(sourceID) return end
+function NetworkSystem:HasActivePing(sourceID) end
 
 ---@param sourceID entEntityID
 ---@return Bool
-function NetworkSystem:HasActivePingWithRevealNetwork(sourceID) return end
+function NetworkSystem:HasActivePingWithRevealNetwork(sourceID) end
 
----@private
 ---@param ID entEntityID
 ---@return Bool
-function NetworkSystem:HasAnyActiveNetworkLink(ID) return end
-
----@private
----@return Bool
-function NetworkSystem:HasAnyActivePing() return end
+function NetworkSystem:HasAnyActiveNetworkLink(ID) end
 
 ---@return Bool
-function NetworkSystem:HasAnyActivePingWithRevealNetwork() return end
+function NetworkSystem:HasAnyActivePing() end
 
----@private
+---@return Bool
+function NetworkSystem:HasAnyActivePingWithRevealNetwork() end
+
 ---@param sourceID entEntityID
 ---@param targets entEntityID[]
 ---@return Bool
-function NetworkSystem:HasDiffrentChildrenThanTargets(sourceID, targets) return end
+function NetworkSystem:HasDiffrentChildrenThanTargets(sourceID, targets) end
 
----@private
 ---@param sourceID entEntityID
 ---@param targets entEntityID[]
 ---@return Bool
-function NetworkSystem:HasDiffrentParentsThanTargets(sourceID, targets) return end
+function NetworkSystem:HasDiffrentParentsThanTargets(sourceID, targets) end
 
 ---@param linkData SNetworkLinkData
 ---@return Bool, Int32 index
-function NetworkSystem:HasNetworkLink(linkData) return end
+function NetworkSystem:HasNetworkLink(linkData) end
 
 ---@param masterID entEntityID
 ---@param slaveID entEntityID
 ---@param linkType ELinkType
 ---@return Bool
-function NetworkSystem:HasNetworkLink(masterID, slaveID, linkType) return end
+function NetworkSystem:HasNetworkLink(masterID, slaveID, linkType) end
 
 ---@param ID entEntityID
 ---@param ignorePingLinks Bool
 ---@return Bool
-function NetworkSystem:HasNetworkLink(ID, ignorePingLinks) return end
+function NetworkSystem:HasNetworkLink(ID, ignorePingLinks) end
 
 ---@param ID entEntityID
 ---@return Bool
-function NetworkSystem:HasNetworkLink(ID) return end
+function NetworkSystem:HasNetworkLink(ID) end
 
 ---@param linkData SNetworkLinkData
 ---@return Bool
-function NetworkSystem:HasNetworkLink(linkData) return end
+function NetworkSystem:HasNetworkLink(linkData) end
 
 ---@param linkData SNetworkLinkData
 ---@return Bool
-function NetworkSystem:HasNetworkLinkWithHigherPriority(linkData) return end
+function NetworkSystem:HasNetworkLinkWithHigherPriority(linkData) end
 
----@private
 ---@return nil
-function NetworkSystem:IncreasePingLinbksCounter() return end
+function NetworkSystem:IncreasePingLinbksCounter() end
 
----@private
 ---@return Bool
-function NetworkSystem:IsActivePingsLimitReached() return end
+function NetworkSystem:IsActivePingsLimitReached() end
 
----@private
 ---@param entityID entEntityID
 ---@return Bool
-function NetworkSystem:IsCurrentTarget(entityID) return end
+function NetworkSystem:IsCurrentTarget(entityID) end
 
----@private
 ---@return Bool
-function NetworkSystem:IsCurrentTargetValid() return end
+function NetworkSystem:IsCurrentTargetValid() end
 
----@private
 ---@return Bool
-function NetworkSystem:IsCurrentTargetValidInNetwork() return end
+function NetworkSystem:IsCurrentTargetValidInNetwork() end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return Bool
-function NetworkSystem:IsFreeLinkLimitReached(linkData) return end
+function NetworkSystem:IsFreeLinkLimitReached(linkData) end
 
----@private
 ---@param id entEntityID
 ---@return Bool
-function NetworkSystem:IsIdValid(id) return end
+function NetworkSystem:IsIdValid(id) end
 
----@private
 ---@param id entEntityID
 ---@return Bool
-function NetworkSystem:IsInNetwork(id) return end
+function NetworkSystem:IsInNetwork(id) end
 
----@private
 ---@param entityID entEntityID
 ---@return Bool
-function NetworkSystem:IsLastMasterTarget(entityID) return end
+function NetworkSystem:IsLastMasterTarget(entityID) end
 
----@private
 ---@param entityID entEntityID
 ---@return Bool
-function NetworkSystem:IsLastSlaveTarget(entityID) return end
+function NetworkSystem:IsLastSlaveTarget(entityID) end
 
----@private
 ---@param targetEntityID entEntityID
 ---@return Bool
-function NetworkSystem:IsMaster(targetEntityID) return end
+function NetworkSystem:IsMaster(targetEntityID) end
 
----@private
 ---@param id entEntityID
 ---@return Bool
-function NetworkSystem:IsMasterInNetwork(id) return end
+function NetworkSystem:IsMasterInNetwork(id) end
 
 ---@return Bool
-function NetworkSystem:IsPingLinksLimitReached() return end
+function NetworkSystem:IsPingLinksLimitReached() end
 
----@private
 ---@param id entEntityID
 ---@return Bool
-function NetworkSystem:IsSlaveInNetwork(id) return end
+function NetworkSystem:IsSlaveInNetwork(id) end
 
 ---@param squadName CName|string
 ---@return Bool
-function NetworkSystem:IsSquadMarkedWithPing(squadName) return end
+function NetworkSystem:IsSquadMarkedWithPing(squadName) end
 
----@private
 ---@param id entEntityID
 ---@return Bool
-function NetworkSystem:IsTagged(id) return end
+function NetworkSystem:IsTagged(id) end
 
----@private
 ---@param sourcePing PingCachedData
 ---@return Bool
-function NetworkSystem:IsVirtualNetworkWithinDistanceLimit(sourcePing) return end
+function NetworkSystem:IsVirtualNetworkWithinDistanceLimit(sourcePing) end
 
----@private
 ---@return nil
-function NetworkSystem:KillAllNetworkBeams() return end
+function NetworkSystem:KillAllNetworkBeams() end
 
----@private
 ---@param index Int32
 ---@param instant Bool
 ---@return nil
-function NetworkSystem:KillNetworkBeam(index, instant) return end
+function NetworkSystem:KillNetworkBeam(index, instant) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:KillNetworkBeamByData(linkData) return end
+function NetworkSystem:KillNetworkBeamByData(linkData) end
 
----@private
 ---@param index Int32
 ---@return nil
-function NetworkSystem:KillNetworkBeamByIndex(index) return end
+function NetworkSystem:KillNetworkBeamByIndex(index) end
 
----@private
 ---@param slaveID entEntityID
 ---@param masterID entEntityID
 ---@return nil
-function NetworkSystem:KillNetworkBeamsByID(slaveID, masterID) return end
+function NetworkSystem:KillNetworkBeamsByID(slaveID, masterID) end
 
----@private
 ---@param ID entEntityID
 ---@return nil
-function NetworkSystem:KillNetworkBeamsByID(ID) return end
+function NetworkSystem:KillNetworkBeamsByID(ID) end
 
----@private
 ---@return nil
-function NetworkSystem:KillSingleOldestFreeLink() return end
+function NetworkSystem:KillSingleOldestFreeLink() end
 
----@private
 ---@return nil
-function NetworkSystem:KillSingleOldestFreeLinkWitoutRevealPing() return end
+function NetworkSystem:KillSingleOldestFreeLinkWitoutRevealPing() end
 
----@protected
 ---@param request ActivateLinksRequest
 ---@return nil
-function NetworkSystem:OnActivateNetworkLinksRequest(request) return end
+function NetworkSystem:OnActivateNetworkLinksRequest(request) end
 
----@private
 ---@param request AddPingedSquadRequest
 ---@return nil
-function NetworkSystem:OnAddPingedSquadRequest(request) return end
+function NetworkSystem:OnAddPingedSquadRequest(request) end
 
----@private
 ---@return nil
-function NetworkSystem:OnAttach() return end
+function NetworkSystem:OnAttach() end
 
----@private
 ---@param request ClearPingedSquadRequest
 ---@return nil
-function NetworkSystem:OnClearPingedSquadRequest(request) return end
+function NetworkSystem:OnClearPingedSquadRequest(request) end
 
----@private
 ---@param request DeactivateAllNetworkLinksRequest
 ---@return nil
-function NetworkSystem:OnDeactivateAllNetworkLinksRequest(request) return end
+function NetworkSystem:OnDeactivateAllNetworkLinksRequest(request) end
 
----@protected
 ---@param request DeactivateLinksRequest
 ---@return nil
-function NetworkSystem:OnDeactivateLinksRequest(request) return end
+function NetworkSystem:OnDeactivateLinksRequest(request) end
 
----@private
 ---@return nil
-function NetworkSystem:OnDetach() return end
+function NetworkSystem:OnDetach() end
 
----@private
 ---@param request EvaluateVisionModeRequest
 ---@return nil
-function NetworkSystem:OnEvaluateVisionModeRequest(request) return end
+function NetworkSystem:OnEvaluateVisionModeRequest(request) end
 
----@private
 ---@param request MarkBackdoorAsRevealedRequest
 ---@return nil
-function NetworkSystem:OnMarkBackdoorAsRevealedRequest(request) return end
+function NetworkSystem:OnMarkBackdoorAsRevealedRequest(request) end
 
----@private
 ---@param request NewBackdoorDeviceRequest
 ---@return nil
-function NetworkSystem:OnNewBackdoorDeviceRequest(request) return end
+function NetworkSystem:OnNewBackdoorDeviceRequest(request) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function NetworkSystem:OnPlayerSpawnedCallback(playerPuppet) return end
+function NetworkSystem:OnPlayerSpawnedCallback(playerPuppet) end
 
----@private
 ---@param request RegisterNetworkLinkRequest
 ---@return nil
-function NetworkSystem:OnRegisterNetworkLinkRequest(request) return end
+function NetworkSystem:OnRegisterNetworkLinkRequest(request) end
 
----@private
 ---@param request RegisterPingNetworkLinkRequest
 ---@return nil
-function NetworkSystem:OnRegisterPingLinkRequest(request) return end
+function NetworkSystem:OnRegisterPingLinkRequest(request) end
 
----@private
 ---@param request RemovePingedSquadRequest
 ---@return nil
-function NetworkSystem:OnRemovePingedSquadRequest(request) return end
+function NetworkSystem:OnRemovePingedSquadRequest(request) end
 
----@private
 ---@param request RevealNetworkRequestRequest
 ---@return nil
-function NetworkSystem:OnRevealNetworkRequestRequest(request) return end
+function NetworkSystem:OnRevealNetworkRequestRequest(request) end
 
----@private
 ---@param request StartPingingNetworkRequest
 ---@return nil
-function NetworkSystem:OnStartPingingNetworkRequest(request) return end
+function NetworkSystem:OnStartPingingNetworkRequest(request) end
 
----@private
 ---@param request StopPingingNetworkRequest
 ---@return nil
-function NetworkSystem:OnStopingingNetworkRequest(request) return end
+function NetworkSystem:OnStopingingNetworkRequest(request) end
 
----@private
 ---@param request UnregisterAllNetworkLinksRequest
 ---@return nil
-function NetworkSystem:OnUnregisterAllNetworkLinksRequest(request) return end
+function NetworkSystem:OnUnregisterAllNetworkLinksRequest(request) end
 
----@private
 ---@param request UnregisterNetworkLinkBetweenTwoEntitiesRequest
 ---@return nil
-function NetworkSystem:OnUnregisterNetworkLinkBetweenTwoEntitiesRequest(request) return end
+function NetworkSystem:OnUnregisterNetworkLinkBetweenTwoEntitiesRequest(request) end
 
----@private
 ---@param request UnregisterNetworkLinkRequest
 ---@return nil
-function NetworkSystem:OnUnregisterNetworkLinkRequest(request) return end
+function NetworkSystem:OnUnregisterNetworkLinkRequest(request) end
 
----@private
 ---@param request UnregisterNetworkLinksByIDRequest
 ---@return nil
-function NetworkSystem:OnUnregisterNetworkLinksByIDRequest(request) return end
+function NetworkSystem:OnUnregisterNetworkLinksByIDRequest(request) end
 
----@private
 ---@param request UnregisterNetworkLinksByIdAndTypeRequest
 ---@return nil
-function NetworkSystem:OnUnregisterNetworkLinksByIdAndTypeRequest(request) return end
+function NetworkSystem:OnUnregisterNetworkLinksByIdAndTypeRequest(request) end
 
----@private
 ---@param request UpdateNetworkVisualisationRequest
 ---@return nil
-function NetworkSystem:OnUpdateNetworkVisualisationRequest(request) return end
+function NetworkSystem:OnUpdateNetworkVisualisationRequest(request) end
 
 ---@return Bool
-function NetworkSystem:QuickHacksExposedByDefault() return end
+function NetworkSystem:QuickHacksExposedByDefault() end
 
----@protected
 ---@return nil
-function NetworkSystem:RegisterFocusModeCallback() return end
+function NetworkSystem:RegisterFocusModeCallback() end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:RegisterNetworkLink(linkData) return end
+function NetworkSystem:RegisterNetworkLink(linkData) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@param delay Float
 ---@return nil
-function NetworkSystem:RegisterNetworkLinkWithDelay(linkData, delay) return end
+function NetworkSystem:RegisterNetworkLinkWithDelay(linkData, delay) end
 
----@protected
 ---@return nil
-function NetworkSystem:RegisterPlayerSpawnedCallback() return end
+function NetworkSystem:RegisterPlayerSpawnedCallback() end
 
----@protected
 ---@return nil
-function NetworkSystem:RegisterPlayerTargetCallback() return end
+function NetworkSystem:RegisterPlayerTargetCallback() end
 
----@protected
 ---@param player gameObject
 ---@return nil
-function NetworkSystem:RegisterVisionModeCallback(player) return end
+function NetworkSystem:RegisterVisionModeCallback(player) end
 
----@private
 ---@param index Int32
 ---@return nil
-function NetworkSystem:RemoveActivePing(index) return end
+function NetworkSystem:RemoveActivePing(index) end
 
----@private
 ---@param sourceID entEntityID
 ---@return nil
-function NetworkSystem:RemoveActivePingBySource(sourceID) return end
+function NetworkSystem:RemoveActivePingBySource(sourceID) end
 
----@private
 ---@param sourceID entEntityID
 ---@param pingType EPingType
 ---@return nil
-function NetworkSystem:RemoveActivePingBySourceAndType(sourceID, pingType) return end
+function NetworkSystem:RemoveActivePingBySourceAndType(sourceID, pingType) end
 
----@private
 ---@return nil
-function NetworkSystem:RemoveAllActiveFakePings() return end
+function NetworkSystem:RemoveAllActiveFakePings() end
 
----@private
 ---@return nil
-function NetworkSystem:RemoveAllActivePings() return end
+function NetworkSystem:RemoveAllActivePings() end
 
----@private
 ---@return nil
-function NetworkSystem:RemoveAllNetworkLinks() return end
+function NetworkSystem:RemoveAllNetworkLinks() end
 
----@private
 ---@return nil
-function NetworkSystem:RemoveAllPingLinks() return end
+function NetworkSystem:RemoveAllPingLinks() end
 
----@private
 ---@param linkType ELinkType
 ---@return nil
-function NetworkSystem:RemoveAllPingLinksByType(linkType) return end
+function NetworkSystem:RemoveAllPingLinksByType(linkType) end
 
----@private
 ---@param index Int32
 ---@param instant Bool
 ---@return nil
-function NetworkSystem:RemoveNetworkLink(index, instant) return end
+function NetworkSystem:RemoveNetworkLink(index, instant) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:RemoveNetworkLinkByData(linkData) return end
+function NetworkSystem:RemoveNetworkLinkByData(linkData) end
 
----@private
 ---@param linkType ELinkType
 ---@param ID entEntityID
 ---@return nil
-function NetworkSystem:RemoveNetworkLinkByIdAndType(linkType, ID) return end
+function NetworkSystem:RemoveNetworkLinkByIdAndType(linkType, ID) end
 
----@private
 ---@param linkType ELinkType
 ---@return nil
-function NetworkSystem:RemoveNetworkLinkByType(linkType) return end
+function NetworkSystem:RemoveNetworkLinkByType(linkType) end
 
----@private
 ---@param firstID entEntityID
 ---@param secondID entEntityID
 ---@param onlyRemoveWeakLink Bool
 ---@return nil
-function NetworkSystem:RemoveNetworkLinksBetweenTwoEntitities(firstID, secondID, onlyRemoveWeakLink) return end
+function NetworkSystem:RemoveNetworkLinksBetweenTwoEntitities(firstID, secondID, onlyRemoveWeakLink) end
 
----@private
 ---@param ID entEntityID
 ---@return nil
-function NetworkSystem:RemoveNetworkLinksByID(ID) return end
+function NetworkSystem:RemoveNetworkLinksByID(ID) end
 
----@private
 ---@param index Int32
 ---@return nil
-function NetworkSystem:RemoveNetworkRevealTarget(index) return end
+function NetworkSystem:RemoveNetworkRevealTarget(index) end
 
----@private
 ---@param fxResource gameFxResource
 ---@param intant Bool
 ---@return nil
-function NetworkSystem:RemovePingLinksByFxResource(fxResource, intant) return end
+function NetworkSystem:RemovePingLinksByFxResource(fxResource, intant) end
 
----@private
 ---@param sourceID entEntityID
 ---@param intant Bool
 ---@return nil
-function NetworkSystem:RemovePingLinksBySource(sourceID, intant) return end
+function NetworkSystem:RemovePingLinksBySource(sourceID, intant) end
 
----@private
 ---@param sourceID entEntityID
 ---@param fxResource gameFxResource
 ---@param intant Bool
 ---@return nil
-function NetworkSystem:RemovePingLinksBySourceAndFxResource(sourceID, fxResource, intant) return end
+function NetworkSystem:RemovePingLinksBySourceAndFxResource(sourceID, fxResource, intant) end
 
----@private
 ---@param linkType ELinkType
 ---@param sourceID entEntityID
 ---@return nil
-function NetworkSystem:RemovePingLinksBySourceAndType(linkType, sourceID) return end
+function NetworkSystem:RemovePingLinksBySourceAndType(linkType, sourceID) end
 
----@private
 ---@param squadName CName|string
 ---@return nil
-function NetworkSystem:RemovePingedSquad(squadName) return end
+function NetworkSystem:RemovePingedSquad(squadName) end
 
----@private
 ---@param enable Bool
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:ResolveConnectionHighlight(enable, linkData) return end
+function NetworkSystem:ResolveConnectionHighlight(enable, linkData) end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:ResolveNetworkRevealTarget(linkData) return end
+function NetworkSystem:ResolveNetworkRevealTarget(linkData) end
 
----@private
 ---@return nil
-function NetworkSystem:ResolveNetworkSystemCleanupDelay() return end
+function NetworkSystem:ResolveNetworkSystemCleanupDelay() end
 
----@private
 ---@param target entEntityID
 ---@return nil
-function NetworkSystem:RevealEntireNetworkOnTarget(target) return end
+function NetworkSystem:RevealEntireNetworkOnTarget(target) end
 
----@private
 ---@param targets entEntityID[]
 ---@return nil
-function NetworkSystem:RevealNetworkOnCachedTarget(targets) return end
+function NetworkSystem:RevealNetworkOnCachedTarget(targets) end
 
----@private
 ---@param enable Bool
 ---@param target entEntityID
 ---@param source entEntityID
 ---@param linkData SNetworkLinkData
 ---@return nil
-function NetworkSystem:SendConnectionHighlightEvent(enable, target, source, linkData) return end
+function NetworkSystem:SendConnectionHighlightEvent(enable, target, source, linkData) end
 
----@private
 ---@param target entEntityID
 ---@param delay? Float
 ---@return nil
-function NetworkSystem:SendRevealNetworkEvent(target, delay) return end
+function NetworkSystem:SendRevealNetworkEvent(target, delay) end
 
----@private
 ---@param target entEntityID
 ---@return nil
-function NetworkSystem:SendRevealNetworkGridRequest(target) return end
+function NetworkSystem:SendRevealNetworkGridRequest(target) end
 
----@private
 ---@return nil
-function NetworkSystem:SetupPingPresetRecord() return end
-
----@private
----@return Bool
-function NetworkSystem:ShouldForceInstantBeamKill() return end
+function NetworkSystem:SetupPingPresetRecord() end
 
 ---@return Bool
-function NetworkSystem:ShouldNetworkElementsPersistAfterFocus() return end
+function NetworkSystem:ShouldForceInstantBeamKill() end
 
 ---@return Bool
-function NetworkSystem:ShouldPulsRealObject() return end
-
----@private
----@return Bool
-function NetworkSystem:ShouldRevealMasterOnPulse() return end
+function NetworkSystem:ShouldNetworkElementsPersistAfterFocus() end
 
 ---@return Bool
-function NetworkSystem:ShouldRevealNetworkAfterPulse() return end
-
----@private
----@return Bool
-function NetworkSystem:ShouldRevealSlaveOnPulse() return end
+function NetworkSystem:ShouldPulsRealObject() end
 
 ---@return Bool
-function NetworkSystem:ShouldShowLinksOnMaster() return end
+function NetworkSystem:ShouldRevealMasterOnPulse() end
 
 ---@return Bool
-function NetworkSystem:ShouldShowOnlyTargetQuickHacks() return end
+function NetworkSystem:ShouldRevealNetworkAfterPulse() end
 
 ---@return Bool
-function NetworkSystem:ShouldUsePulseOnPing() return end
+function NetworkSystem:ShouldRevealSlaveOnPulse() end
 
 ---@return Bool
-function NetworkSystem:SuppressPingIfBackdoorsFound() return end
+function NetworkSystem:ShouldShowLinksOnMaster() end
 
----@protected
+---@return Bool
+function NetworkSystem:ShouldShowOnlyTargetQuickHacks() end
+
+---@return Bool
+function NetworkSystem:ShouldUsePulseOnPing() end
+
+---@return Bool
+function NetworkSystem:SuppressPingIfBackdoorsFound() end
+
 ---@return nil
-function NetworkSystem:UnregisterFocusModeCallback() return end
+function NetworkSystem:UnregisterFocusModeCallback() end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@return gameDelayID
-function NetworkSystem:UnregisterNetworkLinkWithDelay(linkData) return end
+function NetworkSystem:UnregisterNetworkLinkWithDelay(linkData) end
 
----@protected
 ---@return nil
-function NetworkSystem:UnregisterPlayerSpawnedCallback() return end
+function NetworkSystem:UnregisterPlayerSpawnedCallback() end
 
----@protected
 ---@return nil
-function NetworkSystem:UnregisterPlayerTargetCallback() return end
+function NetworkSystem:UnregisterPlayerTargetCallback() end
 
----@protected
 ---@return nil
-function NetworkSystem:UnregisterVisionModeCallback() return end
+function NetworkSystem:UnregisterVisionModeCallback() end
 
----@private
 ---@param linkData SNetworkLinkData
 ---@param indexToUpdate Int32
 ---@return nil
-function NetworkSystem:UpdateNetworkLinkData(linkData, indexToUpdate) return end
+function NetworkSystem:UpdateNetworkLinkData(linkData, indexToUpdate) end
 
----@private
 ---@return nil
-function NetworkSystem:UpdateNetworkVisualisation() return end
+function NetworkSystem:UpdateNetworkVisualisation() end

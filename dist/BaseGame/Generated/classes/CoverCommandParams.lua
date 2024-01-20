@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CoverCommandParams: IScriptable
----@field public exposureMethods AICoverExposureMethod[]
+---@field exposureMethods AICoverExposureMethod[]
 CoverCommandParams = {}
 
 ---@param fields? CoverCommandParams
 ---@return CoverCommandParams
-function CoverCommandParams.new(fields) return end
+function CoverCommandParams.new(fields) end

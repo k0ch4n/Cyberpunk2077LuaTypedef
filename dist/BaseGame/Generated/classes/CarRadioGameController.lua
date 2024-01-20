@@ -1,42 +1,36 @@
 ---@meta
 
 ---@class CarRadioGameController: gameuiHUDGameController
----@field private radioStationName inkTextWidgetReference
----@field private songName inkTextWidgetReference
----@field private root inkWidget
----@field private stateChangesBlackboardId redCallbackObject
----@field private songNameChangeBlackboardId redCallbackObject
----@field private blackboard gameIBlackboard
----@field private animationProxy inkanimProxy
+---@field radioStationName inkTextWidgetReference
+---@field songName inkTextWidgetReference
+---@field root inkWidget
+---@field stateChangesBlackboardId redCallbackObject
+---@field songNameChangeBlackboardId redCallbackObject
+---@field blackboard gameIBlackboard
+---@field animationProxy inkanimProxy
 CarRadioGameController = {}
 
 ---@param fields? CarRadioGameController
 ---@return CarRadioGameController
-function CarRadioGameController.new(fields) return end
+function CarRadioGameController.new(fields) end
 
----@protected
 ---@return Bool
-function CarRadioGameController:OnInitialize() return end
+function CarRadioGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function CarRadioGameController:OnOutroAnimFinished(anim) return end
+function CarRadioGameController:OnOutroAnimFinished(anim) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function CarRadioGameController:OnRadioChange(value) return end
+function CarRadioGameController:OnRadioChange(value) end
 
----@protected
 ---@param value CName|string
 ---@return Bool
-function CarRadioGameController:OnSongChange(value) return end
+function CarRadioGameController:OnSongChange(value) end
 
----@protected
 ---@return Bool
-function CarRadioGameController:OnUninitialize() return end
+function CarRadioGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function CarRadioGameController:PlayIntroAnimation() return end
+function CarRadioGameController:PlayIntroAnimation() end

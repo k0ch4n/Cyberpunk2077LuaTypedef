@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIThreatDeath: AIAIEvent
----@field public owner entEntity
----@field public threat entEntity
----@field public id Uint32
----@field public detected Bool
+---@field owner entEntity
+---@field threat entEntity
+---@field id Uint32
+---@field detected Bool
 AIThreatDeath = {}
 
 ---@param fields? AIThreatDeath
 ---@return AIThreatDeath
-function AIThreatDeath.new(fields) return end
+function AIThreatDeath.new(fields) end

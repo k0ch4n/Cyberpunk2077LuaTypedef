@@ -5,7 +5,7 @@ PersonnelSystemController = {}
 
 ---@param fields? PersonnelSystemController
 ---@return PersonnelSystemController
-function PersonnelSystemController.new(fields) return end
+function PersonnelSystemController.new(fields) end
 
 ---@return PersonnelSystemControllerPS
-function PersonnelSystemController:GetPS() return end
+function PersonnelSystemController:GetPS() end

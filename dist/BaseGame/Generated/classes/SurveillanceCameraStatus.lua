@@ -5,34 +5,34 @@ SurveillanceCameraStatus = {}
 
 ---@param fields? SurveillanceCameraStatus
 ---@return SurveillanceCameraStatus
-function SurveillanceCameraStatus.new(fields) return end
+function SurveillanceCameraStatus.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function SurveillanceCameraStatus.IsAvailable(device) return end
+function SurveillanceCameraStatus.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SurveillanceCameraStatus.IsClearanceValid(clearance) return end
+function SurveillanceCameraStatus.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function SurveillanceCameraStatus.IsContextValid(context) return end
+function SurveillanceCameraStatus.IsContextValid(context) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function SurveillanceCameraStatus.IsDefaultConditionMet(device, context) return end
+function SurveillanceCameraStatus.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function SurveillanceCameraStatus:GetCurrentDisplayString() return end
+function SurveillanceCameraStatus:GetCurrentDisplayString() end
 
 ---@return Int32
-function SurveillanceCameraStatus:GetStatusValue() return end
+function SurveillanceCameraStatus:GetStatusValue() end
 
 ---@return String
-function SurveillanceCameraStatus:GetTweakDBChoiceRecord() return end
+function SurveillanceCameraStatus:GetTweakDBChoiceRecord() end
 
 ---@param deviceRef ScriptableDeviceComponentPS
 ---@return nil
-function SurveillanceCameraStatus:SetProperties(deviceRef) return end
+function SurveillanceCameraStatus:SetProperties(deviceRef) end

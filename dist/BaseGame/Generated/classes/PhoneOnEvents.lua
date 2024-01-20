@@ -5,16 +5,14 @@ PhoneOnEvents = {}
 
 ---@param fields? PhoneOnEvents
 ---@return PhoneOnEvents
-function PhoneOnEvents.new(fields) return end
+function PhoneOnEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PhoneOnEvents:OnEnter(stateContext, scriptInterface) return end
+function PhoneOnEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PhoneOnEvents:OnExit(stateContext, scriptInterface) return end
+function PhoneOnEvents:OnExit(stateContext, scriptInterface) end

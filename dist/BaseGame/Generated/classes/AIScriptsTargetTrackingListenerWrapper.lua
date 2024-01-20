@@ -5,4 +5,4 @@ AIScriptsTargetTrackingListenerWrapper = {}
 
 ---@param fields? AIScriptsTargetTrackingListenerWrapper
 ---@return AIScriptsTargetTrackingListenerWrapper
-function AIScriptsTargetTrackingListenerWrapper.new(fields) return end
+function AIScriptsTargetTrackingListenerWrapper.new(fields) end

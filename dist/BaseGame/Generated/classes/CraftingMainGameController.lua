@@ -1,166 +1,144 @@
 ---@meta
 
 ---@class CraftingMainGameController: gameuiMenuGameController
----@field private tooltipsManagerRef inkWidgetReference
----@field private tabRootRef inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private craftingLogicControllerContainer inkWidgetReference
----@field private upgradingLogicControllerContainer inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private player PlayerPuppet
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private craftingSystem CraftingSystem
----@field private playerCraftBook CraftBook
----@field private VendorDataManager VendorDataManager
----@field private InventoryManager InventoryDataManagerV2
----@field private uiScriptableSystem UIScriptableSystem
----@field private tooltipsManager gameuiTooltipsManager
----@field private craftingDef UI_CraftingDef
----@field private craftingBlackboard gameIBlackboard
----@field private craftingBBID redCallbackObject
----@field private levelUpBlackboard gameIBlackboard
----@field private playerLevelUpListener redCallbackObject
----@field private mode CraftingMode
----@field private isInitializeOver Bool
----@field private craftingLogicController CraftingLogicController
----@field private upgradingLogicController UpgradingScreenController
----@field private tabRoot TabRadioGroup
----@field private isTabEnabled Bool
+---@field tooltipsManagerRef inkWidgetReference
+---@field tabRootRef inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field craftingLogicControllerContainer inkWidgetReference
+---@field upgradingLogicControllerContainer inkWidgetReference
+---@field buttonHintsController ButtonHints
+---@field player PlayerPuppet
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field craftingSystem CraftingSystem
+---@field playerCraftBook CraftBook
+---@field VendorDataManager VendorDataManager
+---@field InventoryManager InventoryDataManagerV2
+---@field uiScriptableSystem UIScriptableSystem
+---@field tooltipsManager gameuiTooltipsManager
+---@field craftingDef UI_CraftingDef
+---@field craftingBlackboard gameIBlackboard
+---@field craftingBBID redCallbackObject
+---@field levelUpBlackboard gameIBlackboard
+---@field playerLevelUpListener redCallbackObject
+---@field mode CraftingMode
+---@field isInitializeOver Bool
+---@field craftingLogicController CraftingLogicController
+---@field upgradingLogicController UpgradingScreenController
+---@field tabRoot TabRadioGroup
+---@field isTabEnabled Bool
 CraftingMainGameController = {}
 
 ---@param fields? CraftingMainGameController
 ---@return CraftingMainGameController
-function CraftingMainGameController.new(fields) return end
+function CraftingMainGameController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function CraftingMainGameController:OnBack(userData) return end
+function CraftingMainGameController:OnBack(userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function CraftingMainGameController:OnCharacterLevelUpdated(value) return end
+function CraftingMainGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param evt ArrowClickedEvent
 ---@return Bool
-function CraftingMainGameController:OnClickArrow(evt) return end
+function CraftingMainGameController:OnClickArrow(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function CraftingMainGameController:OnCraftingComplete(value) return end
+function CraftingMainGameController:OnCraftingComplete(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CraftingMainGameController:OnHintsControllerSpawned(widget, userData) return end
+function CraftingMainGameController:OnHintsControllerSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function CraftingMainGameController:OnInitialize() return end
+function CraftingMainGameController:OnInitialize() end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function CraftingMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function CraftingMainGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function CraftingMainGameController:OnSetUserData(userData) return end
+function CraftingMainGameController:OnSetUserData(userData) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CraftingMainGameController:OnSubMenuRelease(evt) return end
+function CraftingMainGameController:OnSubMenuRelease(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CraftingMainGameController:OnTransferToPerkSreen(evt) return end
+function CraftingMainGameController:OnTransferToPerkSreen(evt) end
 
----@protected
 ---@return Bool
-function CraftingMainGameController:OnUninitialize() return end
+function CraftingMainGameController:OnUninitialize() end
 
----@protected
 ---@param controller inkRadioGroupController
 ---@param selectedIndex Int32
 ---@return Bool
-function CraftingMainGameController:OnValueChanged(controller, selectedIndex) return end
+function CraftingMainGameController:OnValueChanged(controller, selectedIndex) end
 
 ---@return nil
-function CraftingMainGameController:DisableTabs() return end
+function CraftingMainGameController:DisableTabs() end
 
 ---@return nil
-function CraftingMainGameController:EnableTabs() return end
+function CraftingMainGameController:EnableTabs() end
 
 ---@return ButtonHints
-function CraftingMainGameController:GetButtonHintsController() return end
+function CraftingMainGameController:GetButtonHintsController() end
 
 ---@return CraftingSystem
-function CraftingMainGameController:GetCraftingSystem() return end
+function CraftingMainGameController:GetCraftingSystem() end
 
 ---@return InventoryDataManagerV2
-function CraftingMainGameController:GetInventoryManager() return end
+function CraftingMainGameController:GetInventoryManager() end
 
----@private
 ---@return Int32
-function CraftingMainGameController:GetNextTabIndex() return end
+function CraftingMainGameController:GetNextTabIndex() end
 
 ---@return PlayerPuppet
-function CraftingMainGameController:GetPlayer() return end
+function CraftingMainGameController:GetPlayer() end
 
 ---@return Float
-function CraftingMainGameController:GetPlayerLevel() return end
+function CraftingMainGameController:GetPlayerLevel() end
 
----@private
 ---@return Int32
-function CraftingMainGameController:GetPreviousTabIndex() return end
+function CraftingMainGameController:GetPreviousTabIndex() end
 
 ---@return UIScriptableSystem
-function CraftingMainGameController:GetScriptableSystem() return end
+function CraftingMainGameController:GetScriptableSystem() end
 
 ---@return gameuiTooltipsManager
-function CraftingMainGameController:GetTooltipManager() return end
+function CraftingMainGameController:GetTooltipManager() end
 
 ---@return Bool
-function CraftingMainGameController:IsTabEnabled() return end
+function CraftingMainGameController:IsTabEnabled() end
 
----@private
 ---@param direction Direction
 ---@return nil
-function CraftingMainGameController:MoveTab(direction) return end
+function CraftingMainGameController:MoveTab(direction) end
 
----@private
 ---@return nil
-function CraftingMainGameController:OpenCraftingMode() return end
+function CraftingMainGameController:OpenCraftingMode() end
 
----@private
 ---@return nil
-function CraftingMainGameController:OpenUpgradeMode() return end
+function CraftingMainGameController:OpenUpgradeMode() end
 
----@private
 ---@param inventoryItemData? gameInventoryItemData
 ---@return nil
-function CraftingMainGameController:RefreshUI(inventoryItemData) return end
+function CraftingMainGameController:RefreshUI(inventoryItemData) end
 
----@protected
 ---@return nil
-function CraftingMainGameController:RegisterTabButtons() return end
+function CraftingMainGameController:RegisterTabButtons() end
 
----@private
 ---@return nil
-function CraftingMainGameController:RemoveBB() return end
+function CraftingMainGameController:RemoveBB() end
 
----@private
 ---@param selectedIndex Int32
 ---@return nil
-function CraftingMainGameController:SelectTab(selectedIndex) return end
+function CraftingMainGameController:SelectTab(selectedIndex) end
 
----@private
 ---@return nil
-function CraftingMainGameController:SetupBB() return end
+function CraftingMainGameController:SetupBB() end

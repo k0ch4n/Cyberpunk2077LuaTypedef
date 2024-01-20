@@ -5,4 +5,4 @@ entRagdollRequestCollectAnimPose = {}
 
 ---@param fields? entRagdollRequestCollectAnimPose
 ---@return entRagdollRequestCollectAnimPose
-function entRagdollRequestCollectAnimPose.new(fields) return end
+function entRagdollRequestCollectAnimPose.new(fields) end

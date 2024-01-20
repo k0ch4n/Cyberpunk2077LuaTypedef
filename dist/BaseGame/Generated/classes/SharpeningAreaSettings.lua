@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SharpeningAreaSettings: IAreaSettings
----@field public sharpeningStrength Float
----@field public sharpeningStrengthWhenUpsaling Float
----@field public sharpeningStrengthUpscalingTreshold Float
+---@field sharpeningStrength Float
+---@field sharpeningStrengthWhenUpsaling Float
+---@field sharpeningStrengthUpscalingTreshold Float
 SharpeningAreaSettings = {}
 
 ---@param fields? SharpeningAreaSettings
 ---@return SharpeningAreaSettings
-function SharpeningAreaSettings.new(fields) return end
+function SharpeningAreaSettings.new(fields) end

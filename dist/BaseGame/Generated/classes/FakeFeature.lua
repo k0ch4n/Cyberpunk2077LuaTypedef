@@ -1,79 +1,65 @@
 ---@meta
 
 ---@class FakeFeature: gameObject
----@field private choices SFakeFeatureChoice[]
----@field protected interaction gameinteractionsComponent
----@field private components entIPlacedComponent[]
----@field private scaningComponent gameScanningComponent
----@field private was_used Bool
+---@field choices SFakeFeatureChoice[]
+---@field interaction gameinteractionsComponent
+---@field components entIPlacedComponent[]
+---@field scaningComponent gameScanningComponent
+---@field was_used Bool
 FakeFeature = {}
 
 ---@param fields? FakeFeature
 ---@return FakeFeature
-function FakeFeature.new(fields) return end
+function FakeFeature.new(fields) end
 
----@protected
 ---@return Bool
-function FakeFeature:OnDetach() return end
+function FakeFeature:OnDetach() end
 
----@protected
 ---@param evt gameFactChangedEvent
 ---@return Bool
-function FakeFeature:OnEnabledFactChangeTrigerred(evt) return end
+function FakeFeature:OnEnabledFactChangeTrigerred(evt) end
 
----@protected
 ---@return Bool
-function FakeFeature:OnGameAttached() return end
+function FakeFeature:OnGameAttached() end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function FakeFeature:OnInteractionChoice(choiceEvent) return end
+function FakeFeature:OnInteractionChoice(choiceEvent) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function FakeFeature:OnItemTooltip(evt) return end
+function FakeFeature:OnItemTooltip(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function FakeFeature:OnRequestComponents(ri) return end
+function FakeFeature:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function FakeFeature:OnTakeControl(ri) return end
+function FakeFeature:OnTakeControl(ri) end
 
----@private
 ---@param choiceID String
 ---@param data Int32
 ---@return gameinteractionsChoice
-function FakeFeature:CreateChoice(choiceID, data) return end
+function FakeFeature:CreateChoice(choiceID, data) end
 
----@private
 ---@return nil
-function FakeFeature:InitializeChoices() return end
+function FakeFeature:InitializeChoices() end
 
----@private
 ---@return nil
-function FakeFeature:RefreshChoices() return end
+function FakeFeature:RefreshChoices() end
 
----@private
 ---@param choiceID Int32
 ---@return nil
-function FakeFeature:ResolveChoice(choiceID) return end
+function FakeFeature:ResolveChoice(choiceID) end
 
----@private
 ---@param choiceID Int32
 ---@return nil
-function FakeFeature:ResolveComponents(choiceID) return end
+function FakeFeature:ResolveComponents(choiceID) end
 
----@private
 ---@param factData SFactOperationData
 ---@return nil
-function FakeFeature:ResolveFact(factData) return end
+function FakeFeature:ResolveFact(factData) end
 
----@private
 ---@return nil
-function FakeFeature:UnInitializeChoices() return end
+function FakeFeature:UnInitializeChoices() end

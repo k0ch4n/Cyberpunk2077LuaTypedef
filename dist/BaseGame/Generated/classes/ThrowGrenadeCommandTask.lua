@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class ThrowGrenadeCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIThrowGrenadeCommand
----@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
----@field protected activationTimeStamp Float
----@field protected commandDuration Float
----@field protected once Bool
----@field protected target gameObject
----@field protected targetID entEntityID
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIThrowGrenadeCommand
+---@field threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field activationTimeStamp Float
+---@field commandDuration Float
+---@field once Bool
+---@field target gameObject
+---@field targetID entEntityID
 ThrowGrenadeCommandTask = {}
 
 ---@param fields? ThrowGrenadeCommandTask
 ---@return ThrowGrenadeCommandTask
-function ThrowGrenadeCommandTask.new(fields) return end
+function ThrowGrenadeCommandTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ThrowGrenadeCommandTask:Activate(context) return end
+function ThrowGrenadeCommandTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ThrowGrenadeCommandTask:CancelCommand(context) return end
+function ThrowGrenadeCommandTask:CancelCommand(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ThrowGrenadeCommandTask:Deactivate(context) return end
+function ThrowGrenadeCommandTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AIThrowGrenadeCommand
 ---@param success Bool
 ---@return nil
-function ThrowGrenadeCommandTask:StopCommand(context, command, success) return end
+function ThrowGrenadeCommandTask:StopCommand(context, command, success) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ThrowGrenadeCommandTask:Update(context) return end
+function ThrowGrenadeCommandTask:Update(context) end

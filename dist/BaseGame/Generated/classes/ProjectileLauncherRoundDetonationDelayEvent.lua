@@ -5,4 +5,4 @@ ProjectileLauncherRoundDetonationDelayEvent = {}
 
 ---@param fields? ProjectileLauncherRoundDetonationDelayEvent
 ---@return ProjectileLauncherRoundDetonationDelayEvent
-function ProjectileLauncherRoundDetonationDelayEvent.new(fields) return end
+function ProjectileLauncherRoundDetonationDelayEvent.new(fields) end

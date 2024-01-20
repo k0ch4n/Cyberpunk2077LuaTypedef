@@ -5,4 +5,4 @@ ClearAllRevealRequestsEvent = {}
 
 ---@param fields? ClearAllRevealRequestsEvent
 ---@return ClearAllRevealRequestsEvent
-function ClearAllRevealRequestsEvent.new(fields) return end
+function ClearAllRevealRequestsEvent.new(fields) end

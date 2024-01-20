@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class InventoryStatItem: inkWidgetLogicController
----@field private label inkTextWidget
----@field private value inkTextWidget
+---@field label inkTextWidget
+---@field value inkTextWidget
 InventoryStatItem = {}
 
 ---@param fields? InventoryStatItem
 ---@return InventoryStatItem
-function InventoryStatItem.new(fields) return end
+function InventoryStatItem.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryStatItem:OnInitialize() return end
+function InventoryStatItem:OnInitialize() end
 
 ---@param data gameStatViewData
 ---@return nil
-function InventoryStatItem:SetData(data) return end
+function InventoryStatItem:SetData(data) end

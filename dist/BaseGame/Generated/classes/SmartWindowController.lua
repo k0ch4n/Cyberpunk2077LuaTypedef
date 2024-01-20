@@ -5,7 +5,7 @@ SmartWindowController = {}
 
 ---@param fields? SmartWindowController
 ---@return SmartWindowController
-function SmartWindowController.new(fields) return end
+function SmartWindowController.new(fields) end
 
 ---@return SmartWindowControllerPS
-function SmartWindowController:GetPS() return end
+function SmartWindowController:GetPS() end

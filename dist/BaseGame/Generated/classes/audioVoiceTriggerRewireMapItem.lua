@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioVoiceTriggerRewireMapItem
----@field public name CName
----@field public inputToBeRewiredVariationIndex Uint32
----@field public inputToBeActuallyPlayedName CName
----@field public inputToBeActuallyPlayedVariationIndex Uint32
----@field public allowReuse Bool
+---@field name CName
+---@field inputToBeRewiredVariationIndex Uint32
+---@field inputToBeActuallyPlayedName CName
+---@field inputToBeActuallyPlayedVariationIndex Uint32
+---@field allowReuse Bool
 audioVoiceTriggerRewireMapItem = {}
 
 ---@param fields? audioVoiceTriggerRewireMapItem
 ---@return audioVoiceTriggerRewireMapItem
-function audioVoiceTriggerRewireMapItem.new(fields) return end
+function audioVoiceTriggerRewireMapItem.new(fields) end

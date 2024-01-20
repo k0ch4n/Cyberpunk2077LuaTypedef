@@ -5,4 +5,4 @@ worldStaticFogVolumeNodeInstance = {}
 
 ---@param fields? worldStaticFogVolumeNodeInstance
 ---@return worldStaticFogVolumeNodeInstance
-function worldStaticFogVolumeNodeInstance.new(fields) return end
+function worldStaticFogVolumeNodeInstance.new(fields) end

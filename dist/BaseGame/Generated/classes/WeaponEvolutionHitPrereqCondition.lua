@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class WeaponEvolutionHitPrereqCondition: BaseHitPrereqCondition
----@field public weaponEvolution gamedataWeaponEvolution
+---@field weaponEvolution gamedataWeaponEvolution
 WeaponEvolutionHitPrereqCondition = {}
 
 ---@param fields? WeaponEvolutionHitPrereqCondition
 ---@return WeaponEvolutionHitPrereqCondition
-function WeaponEvolutionHitPrereqCondition.new(fields) return end
+function WeaponEvolutionHitPrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function WeaponEvolutionHitPrereqCondition:Evaluate(hitEvent) return end
+function WeaponEvolutionHitPrereqCondition:Evaluate(hitEvent) end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function WeaponEvolutionHitPrereqCondition:SetData(recordID) return end
+function WeaponEvolutionHitPrereqCondition:SetData(recordID) end

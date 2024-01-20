@@ -3,27 +3,22 @@
 ---@class ChangeHighLevelStateAbstract: AIbehaviortaskScript
 ChangeHighLevelStateAbstract = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeHighLevelStateAbstract:Activate(context) return end
+function ChangeHighLevelStateAbstract:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeHighLevelStateAbstract:Deactivate(context) return end
+function ChangeHighLevelStateAbstract:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCHighLevelState
-function ChangeHighLevelStateAbstract:GetDesiredHighLevelState(context) return end
+function ChangeHighLevelStateAbstract:GetDesiredHighLevelState(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeHighLevelStateAbstract:OnActivate(context) return end
+function ChangeHighLevelStateAbstract:OnActivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ChangeHighLevelStateAbstract:OnDeactivate(context) return end
+function ChangeHighLevelStateAbstract:OnDeactivate(context) end

@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class GetTargetLastKnownPosition: AIbehaviortaskScript
----@field protected inTargetObject AIArgumentMapping
----@field protected outPosition AIArgumentMapping
----@field protected predictionTime Float
+---@field inTargetObject AIArgumentMapping
+---@field outPosition AIArgumentMapping
+---@field predictionTime Float
 GetTargetLastKnownPosition = {}
 
 ---@param fields? GetTargetLastKnownPosition
 ---@return GetTargetLastKnownPosition
-function GetTargetLastKnownPosition.new(fields) return end
+function GetTargetLastKnownPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetTargetLastKnownPosition:Activate(context) return end
+function GetTargetLastKnownPosition:Activate(context) end

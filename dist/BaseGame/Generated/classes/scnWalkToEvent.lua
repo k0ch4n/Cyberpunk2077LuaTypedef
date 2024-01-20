@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnWalkToEvent: scnSceneEvent
----@field public actorId scnActorId
----@field public targetWaypointTag CName
----@field public usePathfinding Bool
+---@field actorId scnActorId
+---@field targetWaypointTag CName
+---@field usePathfinding Bool
 scnWalkToEvent = {}
 
 ---@param fields? scnWalkToEvent
 ---@return scnWalkToEvent
-function scnWalkToEvent.new(fields) return end
+function scnWalkToEvent.new(fields) end

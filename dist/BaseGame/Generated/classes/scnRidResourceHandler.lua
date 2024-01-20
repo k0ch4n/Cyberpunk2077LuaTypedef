@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnRidResourceHandler
----@field public id scnRidResourceId
----@field public ridResource scnRidResource
+---@field id scnRidResourceId
+---@field ridResource scnRidResource
 scnRidResourceHandler = {}
 
 ---@param fields? scnRidResourceHandler
 ---@return scnRidResourceHandler
-function scnRidResourceHandler.new(fields) return end
+function scnRidResourceHandler.new(fields) end

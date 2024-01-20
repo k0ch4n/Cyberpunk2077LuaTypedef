@@ -5,4 +5,4 @@ worldWaterPatchNodeInstance = {}
 
 ---@param fields? worldWaterPatchNodeInstance
 ---@return worldWaterPatchNodeInstance
-function worldWaterPatchNodeInstance.new(fields) return end
+function worldWaterPatchNodeInstance.new(fields) end

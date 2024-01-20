@@ -5,4 +5,4 @@ CuttingGrenadeAddAxisRotationEvent = {}
 
 ---@param fields? CuttingGrenadeAddAxisRotationEvent
 ---@return CuttingGrenadeAddAxisRotationEvent
-function CuttingGrenadeAddAxisRotationEvent.new(fields) return end
+function CuttingGrenadeAddAxisRotationEvent.new(fields) end

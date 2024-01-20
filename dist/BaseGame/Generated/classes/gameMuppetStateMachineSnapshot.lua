@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameMuppetStateMachineSnapshot
----@field public stateMachineId CName
----@field public stateId CName
+---@field stateMachineId CName
+---@field stateId CName
 gameMuppetStateMachineSnapshot = {}
 
 ---@param fields? gameMuppetStateMachineSnapshot
 ---@return gameMuppetStateMachineSnapshot
-function gameMuppetStateMachineSnapshot.new(fields) return end
+function gameMuppetStateMachineSnapshot.new(fields) end

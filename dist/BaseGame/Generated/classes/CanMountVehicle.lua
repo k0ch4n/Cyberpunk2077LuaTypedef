@@ -5,9 +5,8 @@ CanMountVehicle = {}
 
 ---@param fields? CanMountVehicle
 ---@return CanMountVehicle
-function CanMountVehicle.new(fields) return end
+function CanMountVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CanMountVehicle:Check(context) return end
+function CanMountVehicle:Check(context) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class FakePhoneContactItemVirtualController: PhoneContactItemVirtualController
----@field private dots inkWidgetReference
+---@field dots inkWidgetReference
 FakePhoneContactItemVirtualController = {}
 
 ---@param fields? FakePhoneContactItemVirtualController
 ---@return FakePhoneContactItemVirtualController
-function FakePhoneContactItemVirtualController.new(fields) return end
+function FakePhoneContactItemVirtualController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function FakePhoneContactItemVirtualController:OnDataChanged(value) return end
+function FakePhoneContactItemVirtualController:OnDataChanged(value) end

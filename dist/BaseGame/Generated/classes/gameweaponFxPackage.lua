@@ -5,7 +5,7 @@ gameweaponFxPackage = {}
 
 ---@param fields? gameweaponFxPackage
 ---@return gameweaponFxPackage
-function gameweaponFxPackage.new(fields) return end
+function gameweaponFxPackage.new(fields) end
 
 ---@return gameFxResource
-function gameweaponFxPackage:GetVfxGroundThrow() return end
+function gameweaponFxPackage:GetVfxGroundThrow() end

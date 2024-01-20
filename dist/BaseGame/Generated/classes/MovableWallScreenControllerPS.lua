@@ -5,15 +5,13 @@ MovableWallScreenControllerPS = {}
 
 ---@param fields? MovableWallScreenControllerPS
 ---@return MovableWallScreenControllerPS
-function MovableWallScreenControllerPS.new(fields) return end
+function MovableWallScreenControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function MovableWallScreenControllerPS:OnInstantiated() return end
+function MovableWallScreenControllerPS:OnInstantiated() end
 
 ---@return String
-function MovableWallScreenControllerPS:GetDeviceIconPath() return end
+function MovableWallScreenControllerPS:GetDeviceIconPath() end
 
----@protected
 ---@return nil
-function MovableWallScreenControllerPS:Initialize() return end
+function MovableWallScreenControllerPS:Initialize() end

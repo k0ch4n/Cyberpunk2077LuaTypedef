@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineActionParameterDouble
----@field public name CName
----@field public value Double
+---@field name CName
+---@field value Double
 gamestateMachineActionParameterDouble = {}
 
 ---@param fields? gamestateMachineActionParameterDouble
 ---@return gamestateMachineActionParameterDouble
-function gamestateMachineActionParameterDouble.new(fields) return end
+function gamestateMachineActionParameterDouble.new(fields) end

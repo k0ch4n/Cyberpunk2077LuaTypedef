@@ -5,4 +5,4 @@ AICTreeInstance = {}
 
 ---@param fields? AICTreeInstance
 ---@return AICTreeInstance
-function AICTreeInstance.new(fields) return end
+function AICTreeInstance.new(fields) end

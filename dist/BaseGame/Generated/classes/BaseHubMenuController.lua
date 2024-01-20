@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class BaseHubMenuController: gameuiWidgetGameController
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private menuData IScriptable
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field menuData IScriptable
 BaseHubMenuController = {}
 
 ---@param fields? BaseHubMenuController
 ---@return BaseHubMenuController
-function BaseHubMenuController.new(fields) return end
+function BaseHubMenuController.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function BaseHubMenuController:OnBack(userData) return end
+function BaseHubMenuController:OnBack(userData) end
 
----@protected
 ---@return Bool
-function BaseHubMenuController:OnInitialize() return end
+function BaseHubMenuController:OnInitialize() end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function BaseHubMenuController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function BaseHubMenuController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function BaseHubMenuController:OnUninitialize() return end
+function BaseHubMenuController:OnUninitialize() end

@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class EquipCycleInitEvents: EquipmentBaseEvents
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 EquipCycleInitEvents = {}
 
 ---@param fields? EquipCycleInitEvents
 ---@return EquipCycleInitEvents
-function EquipCycleInitEvents.new(fields) return end
+function EquipCycleInitEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function EquipCycleInitEvents:OnEnter(stateContext, scriptInterface) return end
+function EquipCycleInitEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function EquipCycleInitEvents:OnExit(stateContext, scriptInterface) return end
+function EquipCycleInitEvents:OnExit(stateContext, scriptInterface) end

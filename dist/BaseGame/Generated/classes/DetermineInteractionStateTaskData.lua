@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DetermineInteractionStateTaskData: gameScriptTaskData
----@field public context gameGetActionsContext
+---@field context gameGetActionsContext
 DetermineInteractionStateTaskData = {}
 
 ---@param fields? DetermineInteractionStateTaskData
 ---@return DetermineInteractionStateTaskData
-function DetermineInteractionStateTaskData.new(fields) return end
+function DetermineInteractionStateTaskData.new(fields) end

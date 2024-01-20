@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class VehicleExternalWindowRequestEvent: redEvent
----@field public slotName CName
----@field public shouldOpen Bool
----@field public speed CName
+---@field slotName CName
+---@field shouldOpen Bool
+---@field speed CName
 VehicleExternalWindowRequestEvent = {}
 
 ---@param fields? VehicleExternalWindowRequestEvent
 ---@return VehicleExternalWindowRequestEvent
-function VehicleExternalWindowRequestEvent.new(fields) return end
+function VehicleExternalWindowRequestEvent.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class physicsColliderConvex: physicsICollider
----@field public vertices Vector3[]
----@field public indexBuffer Uint8[]
----@field public polygonVertices Uint16[]
----@field public compiledGeometryBuffer DataBuffer
+---@field vertices Vector3[]
+---@field indexBuffer Uint8[]
+---@field polygonVertices Uint16[]
+---@field compiledGeometryBuffer DataBuffer
 physicsColliderConvex = {}
 
 ---@param fields? physicsColliderConvex
 ---@return physicsColliderConvex
-function physicsColliderConvex.new(fields) return end
+function physicsColliderConvex.new(fields) end

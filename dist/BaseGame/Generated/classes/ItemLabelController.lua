@@ -1,29 +1,27 @@
 ---@meta
 
 ---@class ItemLabelController: inkWidgetLogicController
----@field protected label inkTextWidgetReference
----@field protected moneyIcon inkImageWidgetReference
----@field protected type ItemLabelType
+---@field label inkTextWidgetReference
+---@field moneyIcon inkImageWidgetReference
+---@field type ItemLabelType
 ItemLabelController = {}
 
 ---@param fields? ItemLabelController
 ---@return ItemLabelController
-function ItemLabelController.new(fields) return end
+function ItemLabelController.new(fields) end
 
----@protected
 ---@param type ItemLabelType
 ---@return String
-function ItemLabelController.GetLabelKey(type) return end
+function ItemLabelController.GetLabelKey(type) end
 
----@protected
 ---@param type ItemLabelType
 ---@return CName
-function ItemLabelController.GetState(type) return end
+function ItemLabelController.GetState(type) end
 
 ---@return ItemLabelType
-function ItemLabelController:GetType() return end
+function ItemLabelController:GetType() end
 
 ---@param type ItemLabelType
 ---@param params? String
 ---@return nil
-function ItemLabelController:Setup(type, params) return end
+function ItemLabelController:Setup(type, params) end

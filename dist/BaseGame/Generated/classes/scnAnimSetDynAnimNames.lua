@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnAnimSetDynAnimNames
----@field public animVariable CName
----@field public animNames CName[]
+---@field animVariable CName
+---@field animNames CName[]
 scnAnimSetDynAnimNames = {}
 
 ---@param fields? scnAnimSetDynAnimNames
 ---@return scnAnimSetDynAnimNames
-function scnAnimSetDynAnimNames.new(fields) return end
+function scnAnimSetDynAnimNames.new(fields) end

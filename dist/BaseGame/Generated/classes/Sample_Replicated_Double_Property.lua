@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class Sample_Replicated_Double_Property
----@field public property Double
+---@field property Double
 Sample_Replicated_Double_Property = {}
 
 ---@param fields? Sample_Replicated_Double_Property
 ---@return Sample_Replicated_Double_Property
-function Sample_Replicated_Double_Property.new(fields) return end
+function Sample_Replicated_Double_Property.new(fields) end

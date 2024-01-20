@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnLookAtAdvancedEventData
----@field public basic scnAnimTargetBasicData
----@field public requests animLookAtRequestForPart[]
+---@field basic scnAnimTargetBasicData
+---@field requests animLookAtRequestForPart[]
 scnLookAtAdvancedEventData = {}
 
 ---@param fields? scnLookAtAdvancedEventData
 ---@return scnLookAtAdvancedEventData
-function scnLookAtAdvancedEventData.new(fields) return end
+function scnLookAtAdvancedEventData.new(fields) end

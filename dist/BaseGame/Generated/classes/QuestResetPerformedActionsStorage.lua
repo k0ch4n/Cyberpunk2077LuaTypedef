@@ -5,7 +5,7 @@ QuestResetPerformedActionsStorage = {}
 
 ---@param fields? QuestResetPerformedActionsStorage
 ---@return QuestResetPerformedActionsStorage
-function QuestResetPerformedActionsStorage.new(fields) return end
+function QuestResetPerformedActionsStorage.new(fields) end
 
 ---@return nil
-function QuestResetPerformedActionsStorage:SetProperties() return end
+function QuestResetPerformedActionsStorage:SetProperties() end

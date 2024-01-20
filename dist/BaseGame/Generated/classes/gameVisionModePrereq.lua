@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameVisionModePrereq: gameIPrereq
----@field public type gameVisionModeType
+---@field type gameVisionModeType
 gameVisionModePrereq = {}
 
 ---@param fields? gameVisionModePrereq
 ---@return gameVisionModePrereq
-function gameVisionModePrereq.new(fields) return end
+function gameVisionModePrereq.new(fields) end

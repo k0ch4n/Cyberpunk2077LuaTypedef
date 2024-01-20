@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class animAnimNode_FootStepAdjuster: animAnimNode_OnePoseInput
----@field public leftToeName animTransformIndex
----@field public rightToeName animTransformIndex
----@field public leftFootName animTransformIndex
----@field public rightFootName animTransformIndex
----@field public leftCalfName animTransformIndex
----@field public rightCalfName animTransformIndex
----@field public leftThighName animTransformIndex
----@field public rightThighName animTransformIndex
----@field public pelvisBoneName animTransformIndex
----@field public calfHingeAxis Vector4
----@field public IKBlendTime Float
----@field public pelvisAdjustmentBlendSpeed Float
----@field public adjustPelvisVertically Bool
----@field public stepAdjustmentInterval Float
----@field public controlValueNode animFloatLink
----@field public controlVectorNode animVectorLink
+---@field leftToeName animTransformIndex
+---@field rightToeName animTransformIndex
+---@field leftFootName animTransformIndex
+---@field rightFootName animTransformIndex
+---@field leftCalfName animTransformIndex
+---@field rightCalfName animTransformIndex
+---@field leftThighName animTransformIndex
+---@field rightThighName animTransformIndex
+---@field pelvisBoneName animTransformIndex
+---@field calfHingeAxis Vector4
+---@field IKBlendTime Float
+---@field pelvisAdjustmentBlendSpeed Float
+---@field adjustPelvisVertically Bool
+---@field stepAdjustmentInterval Float
+---@field controlValueNode animFloatLink
+---@field controlVectorNode animVectorLink
 animAnimNode_FootStepAdjuster = {}
 
 ---@param fields? animAnimNode_FootStepAdjuster
 ---@return animAnimNode_FootStepAdjuster
-function animAnimNode_FootStepAdjuster.new(fields) return end
+function animAnimNode_FootStepAdjuster.new(fields) end

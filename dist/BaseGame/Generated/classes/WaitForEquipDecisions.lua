@@ -5,16 +5,14 @@ WaitForEquipDecisions = {}
 
 ---@param fields? WaitForEquipDecisions
 ---@return WaitForEquipDecisions
-function WaitForEquipDecisions.new(fields) return end
+function WaitForEquipDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WaitForEquipDecisions:ToEmptyHands(stateContext, scriptInterface) return end
+function WaitForEquipDecisions:ToEmptyHands(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WaitForEquipDecisions:ToSingleWield(stateContext, scriptInterface) return end
+function WaitForEquipDecisions:ToSingleWield(stateContext, scriptInterface) end

@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class rendRenderParticleUpdaterData
----@field public data DataBuffer
----@field public modifOffset Uint32
----@field public animFrameInit Float[]
----@field public turbulenceNoiseInterval Float
----@field public turbulenceDuration Float
----@field public collisionMask Uint64
----@field public collisionDynamicFriction Float
----@field public collisionStaticFriction Float
----@field public collisionRestitution Float
----@field public collisionVelocityDamp Float
----@field public collisionDisableGravity Bool
----@field public collisionRadius Float
----@field public collisionEffectMask Uint32
----@field public maxCollisions Uint8
----@field public eventGenerate CName
----@field public eventReceive CName
----@field public eventFrequency Float
----@field public eventProbability Float
----@field public noiseType Uint8
----@field public randomPerChannel Bool
----@field public eventSpawnObject Uint8
+---@field data DataBuffer
+---@field modifOffset Uint32
+---@field animFrameInit Float[]
+---@field turbulenceNoiseInterval Float
+---@field turbulenceDuration Float
+---@field collisionMask Uint64
+---@field collisionDynamicFriction Float
+---@field collisionStaticFriction Float
+---@field collisionRestitution Float
+---@field collisionVelocityDamp Float
+---@field collisionDisableGravity Bool
+---@field collisionRadius Float
+---@field collisionEffectMask Uint32
+---@field maxCollisions Uint8
+---@field eventGenerate CName
+---@field eventReceive CName
+---@field eventFrequency Float
+---@field eventProbability Float
+---@field noiseType Uint8
+---@field randomPerChannel Bool
+---@field eventSpawnObject Uint8
 rendRenderParticleUpdaterData = {}
 
 ---@param fields? rendRenderParticleUpdaterData
 ---@return rendRenderParticleUpdaterData
-function rendRenderParticleUpdaterData.new(fields) return end
+function rendRenderParticleUpdaterData.new(fields) end

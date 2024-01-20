@@ -5,4 +5,4 @@ attrCancelable = {}
 
 ---@param fields? attrCancelable
 ---@return attrCancelable
-function attrCancelable.new(fields) return end
+function attrCancelable.new(fields) end

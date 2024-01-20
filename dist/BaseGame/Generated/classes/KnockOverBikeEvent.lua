@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class KnockOverBikeEvent: redEvent
----@field public forceKnockdown Bool
----@field public applyDirectionalForce Bool
+---@field forceKnockdown Bool
+---@field applyDirectionalForce Bool
 KnockOverBikeEvent = {}
 
 ---@param fields? KnockOverBikeEvent
 ---@return KnockOverBikeEvent
-function KnockOverBikeEvent.new(fields) return end
+function KnockOverBikeEvent.new(fields) end

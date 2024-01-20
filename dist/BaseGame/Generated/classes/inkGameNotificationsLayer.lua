@@ -5,4 +5,4 @@ inkGameNotificationsLayer = {}
 
 ---@param fields? inkGameNotificationsLayer
 ---@return inkGameNotificationsLayer
-function inkGameNotificationsLayer.new(fields) return end
+function inkGameNotificationsLayer.new(fields) end

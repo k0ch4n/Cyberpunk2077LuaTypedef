@@ -1,190 +1,171 @@
 ---@meta
 
 ---@class TVControllerPS: MediaDeviceControllerPS
----@field protected tvSetup TVSetup
----@field protected defaultGlitchVideoPath redResourceReferenceScriptToken
----@field protected broadcastGlitchVideoPath redResourceReferenceScriptToken
----@field private globalTVInitialized Bool
----@field private backupCustomChannels STvChannel[]
+---@field tvSetup TVSetup
+---@field defaultGlitchVideoPath redResourceReferenceScriptToken
+---@field broadcastGlitchVideoPath redResourceReferenceScriptToken
+---@field globalTVInitialized Bool
+---@field backupCustomChannels STvChannel[]
 TVControllerPS = {}
 
 ---@param fields? TVControllerPS
 ---@return TVControllerPS
-function TVControllerPS.new(fields) return end
+function TVControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function TVControllerPS:OnInstantiated() return end
+function TVControllerPS:OnInstantiated() end
 
----@protected
 ---@param mute Bool
 ---@return QuestMuteSounds
-function TVControllerPS:ActionQuestMuteSounds(mute) return end
+function TVControllerPS:ActionQuestMuteSounds(mute) end
 
----@protected
 ---@param enable Bool
 ---@return QuestToggleInteractivity
-function TVControllerPS:ActionQuestToggleInteractivity(enable) return end
+function TVControllerPS:ActionQuestToggleInteractivity(enable) end
 
----@private
 ---@return nil
-function TVControllerPS:BackupCustomChannels() return end
+function TVControllerPS:BackupCustomChannels() end
 
----@protected
 ---@return Bool
-function TVControllerPS:CanCreateAnyQuickHackActions() return end
+function TVControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param hasActiveActions Bool
 ---@return Bool
-function TVControllerPS:DetermineGameplayViability(context, hasActiveActions) return end
+function TVControllerPS:DetermineGameplayViability(context, hasActiveActions) end
 
----@private
 ---@return Int32
-function TVControllerPS:EstablishInitialActiveChannelIndex() return end
+function TVControllerPS:EstablishInitialActiveChannelIndex() end
 
----@protected
 ---@return nil
-function TVControllerPS:GameAttached() return end
+function TVControllerPS:GameAttached() end
 
----@private
 ---@return TweakDBID
-function TVControllerPS:GetActiveChannelTweakDBID() return end
+function TVControllerPS:GetActiveChannelTweakDBID() end
 
----@private
 ---@return redResourceReferenceScriptToken
-function TVControllerPS:GetActiveChannelVideoPath() return end
+function TVControllerPS:GetActiveChannelVideoPath() end
 
 ---@return Int32
-function TVControllerPS:GetActiveStationIndex() return end
+function TVControllerPS:GetActiveStationIndex() end
 
 ---@return Int32
-function TVControllerPS:GetAmmountOfGlobalTVChannels() return end
+function TVControllerPS:GetAmmountOfGlobalTVChannels() end
 
----@protected
 ---@return TweakDBID
-function TVControllerPS:GetBackgroundTextureTweakDBID() return end
+function TVControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return TVDeviceBlackboardDef
-function TVControllerPS:GetBlackboardDef() return end
+function TVControllerPS:GetBlackboardDef() end
 
 ---@return redResourceReferenceScriptToken
-function TVControllerPS:GetBroadcastGlitchVideoPath() return end
+function TVControllerPS:GetBroadcastGlitchVideoPath() end
 
 ---@param channelIndex Int32
 ---@return STvChannel
-function TVControllerPS:GetChannelData(channelIndex) return end
+function TVControllerPS:GetChannelData(channelIndex) end
 
 ---@param channelName String
 ---@return Int32
-function TVControllerPS:GetChannelID(channelName) return end
+function TVControllerPS:GetChannelID(channelName) end
 
 ---@param index Int32
 ---@return String
-function TVControllerPS:GetChannelName(index) return end
+function TVControllerPS:GetChannelName(index) end
 
 ---@return redResourceReferenceScriptToken
-function TVControllerPS:GetDefaultGlitchVideoPath() return end
+function TVControllerPS:GetDefaultGlitchVideoPath() end
 
 ---@return String
-function TVControllerPS:GetDeviceIconPath() return end
+function TVControllerPS:GetDeviceIconPath() end
 
----@protected
 ---@return TweakDBID
-function TVControllerPS:GetDeviceIconTweakDBID() return end
+function TVControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
 ---@return SDeviceWidgetPackage
-function TVControllerPS:GetDeviceWidget(context) return end
+function TVControllerPS:GetDeviceWidget(context) end
 
 ---@param id TweakDBID|string
 ---@return Int32
-function TVControllerPS:GetGlobalTVChannelIDX(id) return end
+function TVControllerPS:GetGlobalTVChannelIDX(id) end
 
 ---@return gamedataChannelData_Record[]
-function TVControllerPS:GetGlobalTVChannels() return end
+function TVControllerPS:GetGlobalTVChannels() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function TVControllerPS:GetInkWidgetTweakDBID(context) return end
+function TVControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function TVControllerPS:GetQuestActionByName(actionName) return end
+function TVControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function TVControllerPS:GetQuestActions(context) return end
+function TVControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function TVControllerPS:GetQuickHackActions(context) return end
+function TVControllerPS:GetQuickHackActions(context) end
 
----@private
 ---@param id TweakDBID|string
 ---@return ETVChannel
-function TVControllerPS:GlobalTVChannelIDToEnum(id) return end
+function TVControllerPS:GlobalTVChannelIDToEnum(id) end
 
----@private
 ---@param id TweakDBID|string
 ---@return Int32
-function TVControllerPS:GlobalTVChannelIDToInt(id) return end
-
----@private
----@return Bool
-function TVControllerPS:HasBackupedCustomChannels() return end
+function TVControllerPS:GlobalTVChannelIDToInt(id) end
 
 ---@return Bool
-function TVControllerPS:HasCustomChannels() return end
+function TVControllerPS:HasBackupedCustomChannels() end
 
----@private
+---@return Bool
+function TVControllerPS:HasCustomChannels() end
+
 ---@return Int32
-function TVControllerPS:InitializeGlobalTV() return end
+function TVControllerPS:InitializeGlobalTV() end
 
----@private
 ---@return nil
-function TVControllerPS:InitializeTv() return end
+function TVControllerPS:InitializeTv() end
 
 ---@param channel Int32
 ---@return Bool
-function TVControllerPS:IsGlobalTVChannelActive(channel) return end
+function TVControllerPS:IsGlobalTVChannelActive(channel) end
 
 ---@return Bool
-function TVControllerPS:IsGlobalTvOnly() return end
+function TVControllerPS:IsGlobalTvOnly() end
 
 ---@return Bool
-function TVControllerPS:IsInteractive() return end
+function TVControllerPS:IsInteractive() end
 
 ---@return Bool
-function TVControllerPS:IsInterfaceMuted() return end
+function TVControllerPS:IsInterfaceMuted() end
 
 ---@param evt QuestDefaultStation
 ---@return EntityNotificationType
-function TVControllerPS:OnQuestDefaultStation(evt) return end
+function TVControllerPS:OnQuestDefaultStation(evt) end
 
 ---@param evt QuestMuteSounds
 ---@return EntityNotificationType
-function TVControllerPS:OnQuestMuteSounds(evt) return end
+function TVControllerPS:OnQuestMuteSounds(evt) end
 
 ---@param evt QuestToggleInteractivity
 ---@return EntityNotificationType
-function TVControllerPS:OnQuestToggleInteractivity(evt) return end
+function TVControllerPS:OnQuestToggleInteractivity(evt) end
 
 ---@param data TVResaveData
 ---@return nil
-function TVControllerPS:PushResaveData(data) return end
+function TVControllerPS:PushResaveData(data) end
 
 ---@param mute Bool
 ---@return nil
-function TVControllerPS:SetInterfaceMuted(mute) return end
+function TVControllerPS:SetInterfaceMuted(mute) end
 
 ---@param isGlobalTv Bool
 ---@return nil
-function TVControllerPS:SetIsGlobalTvOnly(isGlobalTv) return end
+function TVControllerPS:SetIsGlobalTvOnly(isGlobalTv) end
 
 ---@param isInteractive Bool
 ---@return nil
-function TVControllerPS:SetIsInteractive(isInteractive) return end
+function TVControllerPS:SetIsInteractive(isInteractive) end

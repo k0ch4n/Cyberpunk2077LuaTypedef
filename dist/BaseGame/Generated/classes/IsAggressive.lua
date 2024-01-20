@@ -5,14 +5,12 @@ IsAggressive = {}
 
 ---@param fields? IsAggressive
 ---@return IsAggressive
-function IsAggressive.new(fields) return end
+function IsAggressive.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsAggressive:Activate(context) return end
+function IsAggressive:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsAggressive:Check(context) return end
+function IsAggressive:Check(context) end

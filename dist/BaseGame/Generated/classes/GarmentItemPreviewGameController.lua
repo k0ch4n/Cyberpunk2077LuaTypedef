@@ -1,43 +1,36 @@
 ---@meta
 
 ---@class GarmentItemPreviewGameController: gameuiBaseGarmentItemPreviewGameController
----@field private data InventoryItemPreviewData
----@field private isMouseDown Bool
----@field private c_GARMENT_ROTATION_SPEED Float
+---@field data InventoryItemPreviewData
+---@field isMouseDown Bool
+---@field c_GARMENT_ROTATION_SPEED Float
 GarmentItemPreviewGameController = {}
 
 ---@param fields? GarmentItemPreviewGameController
 ---@return GarmentItemPreviewGameController
-function GarmentItemPreviewGameController.new(fields) return end
+function GarmentItemPreviewGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function GarmentItemPreviewGameController:OnGlobalPress(e) return end
+function GarmentItemPreviewGameController:OnGlobalPress(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function GarmentItemPreviewGameController:OnGlobalRelease(e) return end
+function GarmentItemPreviewGameController:OnGlobalRelease(e) end
 
----@protected
 ---@return Bool
-function GarmentItemPreviewGameController:OnInitialize() return end
+function GarmentItemPreviewGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function GarmentItemPreviewGameController:OnPreviewInitialized() return end
+function GarmentItemPreviewGameController:OnPreviewInitialized() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function GarmentItemPreviewGameController:OnRelativeInput(e) return end
+function GarmentItemPreviewGameController:OnRelativeInput(e) end
 
----@protected
 ---@return Bool
-function GarmentItemPreviewGameController:OnUninitialize() return end
+function GarmentItemPreviewGameController:OnUninitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function GarmentItemPreviewGameController:HandleAxisInput(e) return end
+function GarmentItemPreviewGameController:HandleAxisInput(e) end

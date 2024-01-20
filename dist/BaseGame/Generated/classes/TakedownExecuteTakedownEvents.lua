@@ -5,21 +5,20 @@ TakedownExecuteTakedownEvents = {}
 
 ---@param fields? TakedownExecuteTakedownEvents
 ---@return TakedownExecuteTakedownEvents
-function TakedownExecuteTakedownEvents.new(fields) return end
+function TakedownExecuteTakedownEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownExecuteTakedownEvents:OnEnter(stateContext, scriptInterface) return end
+function TakedownExecuteTakedownEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownExecuteTakedownEvents:OnExit(stateContext, scriptInterface) return end
+function TakedownExecuteTakedownEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TakedownExecuteTakedownEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function TakedownExecuteTakedownEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

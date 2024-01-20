@@ -5,4 +5,4 @@ cpPlayer = {}
 
 ---@param fields? cpPlayer
 ---@return cpPlayer
-function cpPlayer.new(fields) return end
+function cpPlayer.new(fields) end

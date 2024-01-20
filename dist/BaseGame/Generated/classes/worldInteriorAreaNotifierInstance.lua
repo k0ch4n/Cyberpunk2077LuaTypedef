@@ -5,4 +5,4 @@ worldInteriorAreaNotifierInstance = {}
 
 ---@param fields? worldInteriorAreaNotifierInstance
 ---@return worldInteriorAreaNotifierInstance
-function worldInteriorAreaNotifierInstance.new(fields) return end
+function worldInteriorAreaNotifierInstance.new(fields) end

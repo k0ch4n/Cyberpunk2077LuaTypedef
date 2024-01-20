@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckArgumentBoolean: CheckArguments
----@field public customVar Bool
+---@field customVar Bool
 CheckArgumentBoolean = {}
 
 ---@param fields? CheckArgumentBoolean
 ---@return CheckArgumentBoolean
-function CheckArgumentBoolean.new(fields) return end
+function CheckArgumentBoolean.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckArgumentBoolean:Check(context) return end
+function CheckArgumentBoolean:Check(context) end

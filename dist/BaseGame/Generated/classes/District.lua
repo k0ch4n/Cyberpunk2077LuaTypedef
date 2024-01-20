@@ -1,42 +1,42 @@
 ---@meta
 
 ---@class District: IScriptable
----@field private districtID TweakDBID
----@field private presetID TweakDBID
----@field private districtRecord gamedataDistrict_Record
+---@field districtID TweakDBID
+---@field presetID TweakDBID
+---@field districtRecord gamedataDistrict_Record
 District = {}
 
 ---@param fields? District
 ---@return District
-function District.new(fields) return end
+function District.new(fields) end
 
 ---@return Float
-function District:GetCrimeMultiplier() return end
+function District:GetCrimeMultiplier() end
 
 ---@return TweakDBID
-function District:GetDistrictID() return end
+function District:GetDistrictID() end
 
 ---@return gamedataDistrict_Record
-function District:GetDistrictRecord() return end
+function District:GetDistrictRecord() end
 
 ---@return Float
-function District:GetExplosiveDeviceStimRange() return end
+function District:GetExplosiveDeviceStimRange() end
 
 ---@return Float
-function District:GetGunshotStimRange() return end
+function District:GetGunshotStimRange() end
 
 ---@return TweakDBID
-function District:GetPresetID() return end
+function District:GetPresetID() end
 
 ---@return CName
-function District:GetRadioEntryName() return end
+function District:GetRadioEntryName() end
 
 ---@param district TweakDBID|string
 ---@return nil
-function District:Initialize(district) return end
+function District:Initialize(district) end
 
 ---@return Bool
-function District:IsBadlands() return end
+function District:IsBadlands() end
 
 ---@return Bool
-function District:IsDogTown() return end
+function District:IsDogTown() end

@@ -5,7 +5,7 @@ TrafficLightController = {}
 
 ---@param fields? TrafficLightController
 ---@return TrafficLightController
-function TrafficLightController.new(fields) return end
+function TrafficLightController.new(fields) end
 
 ---@return TrafficLightControllerPS
-function TrafficLightController:GetPS() return end
+function TrafficLightController:GetPS() end

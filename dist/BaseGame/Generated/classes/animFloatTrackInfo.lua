@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animFloatTrackInfo
----@field public name CName
----@field public referenceValue Float
+---@field name CName
+---@field referenceValue Float
 animFloatTrackInfo = {}
 
 ---@param fields? animFloatTrackInfo
 ---@return animFloatTrackInfo
-function animFloatTrackInfo.new(fields) return end
+function animFloatTrackInfo.new(fields) end

@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class CycleRoundEvents: WeaponEventsTransition
----@field public hasBlockedAiming Bool
----@field public blockAimStart Float
----@field public blockAimDuration Float
+---@field hasBlockedAiming Bool
+---@field blockAimStart Float
+---@field blockAimDuration Float
 CycleRoundEvents = {}
 
 ---@param fields? CycleRoundEvents
 ---@return CycleRoundEvents
-function CycleRoundEvents.new(fields) return end
+function CycleRoundEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CycleRoundEvents:OnEnter(stateContext, scriptInterface) return end
+function CycleRoundEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CycleRoundEvents:OnExit(stateContext, scriptInterface) return end
+function CycleRoundEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CycleRoundEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function CycleRoundEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

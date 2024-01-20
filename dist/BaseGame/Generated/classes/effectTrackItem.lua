@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class effectTrackItem: effectBaseItem
----@field public timeBegin Float
----@field public timeDuration Float
----@field public ruid CRUID
+---@field timeBegin Float
+---@field timeDuration Float
+---@field ruid CRUID
 effectTrackItem = {}

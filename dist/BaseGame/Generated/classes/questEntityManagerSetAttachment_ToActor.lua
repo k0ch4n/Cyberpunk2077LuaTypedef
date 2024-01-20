@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class questEntityManagerSetAttachment_ToActor: questIEntityManagerSetAttachment_NodeSubType
----@field public attachmentRef NodeRef
----@field public objectRef gameEntityReference
----@field public isPlayer Bool
----@field public slot CName
----@field public offsetMode questAttachmentOffsetMode
----@field public customOffsetPos Vector3
----@field public customOffsetRot Quaternion
+---@field attachmentRef NodeRef
+---@field objectRef gameEntityReference
+---@field isPlayer Bool
+---@field slot CName
+---@field offsetMode questAttachmentOffsetMode
+---@field customOffsetPos Vector3
+---@field customOffsetRot Quaternion
 questEntityManagerSetAttachment_ToActor = {}
 
 ---@param fields? questEntityManagerSetAttachment_ToActor
 ---@return questEntityManagerSetAttachment_ToActor
-function questEntityManagerSetAttachment_ToActor.new(fields) return end
+function questEntityManagerSetAttachment_ToActor.new(fields) end

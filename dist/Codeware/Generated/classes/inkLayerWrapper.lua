@@ -5,16 +5,16 @@ inkLayerWrapper = {}
 
 ---@param fields? inkLayerWrapper
 ---@return inkLayerWrapper
-function inkLayerWrapper.new(fields) return end
+function inkLayerWrapper.new(fields) end
 
 ---@return inkIWidgetController
-function inkLayerWrapper:GetGameController() return end
+function inkLayerWrapper:GetGameController() end
 
 ---@return inkIWidgetController[]
-function inkLayerWrapper:GetGameControllers() return end
+function inkLayerWrapper:GetGameControllers() end
 
 ---@return CName
-function inkLayerWrapper:GetLayerName() return end
+function inkLayerWrapper:GetLayerName() end
 
 ---@return inkVirtualWindow
-function inkLayerWrapper:GetVirtualWindow() return end
+function inkLayerWrapper:GetVirtualWindow() end

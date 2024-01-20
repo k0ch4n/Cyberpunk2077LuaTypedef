@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SPerkArea
----@field public type gamedataPerkArea
----@field public unlocked Bool
----@field public boughtPerks SPerk[]
+---@field type gamedataPerkArea
+---@field unlocked Bool
+---@field boughtPerks SPerk[]
 SPerkArea = {}
 
 ---@param fields? SPerkArea
 ---@return SPerkArea
-function SPerkArea.new(fields) return end
+function SPerkArea.new(fields) end

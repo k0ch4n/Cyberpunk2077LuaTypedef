@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class worldProxyMeshBuildParams
----@field public buildProxy Bool
----@field public type worldProxyMeshBuildType
----@field public usedMesh worldProxyMeshOutputType
----@field public resolution Uint32
----@field public polycount Uint32
----@field public polycountPercentage Float
----@field public coreAxis worldProxyCoreAxis
----@field public groupingNormals worldProxyGroupingNormals
----@field public forceSurfaceFlattening Bool
----@field public forceSeamlessModule Bool
----@field public enableAlphaMask Bool
----@field public windows worldProxyWindowsParams
----@field public textures worldProxyTextureParams
----@field public customGeometry worldProxyCustomGeometryParams
----@field public advancedParams worldProxyMeshAdvancedBuildParams
+---@field buildProxy Bool
+---@field type worldProxyMeshBuildType
+---@field usedMesh worldProxyMeshOutputType
+---@field resolution Uint32
+---@field polycount Uint32
+---@field polycountPercentage Float
+---@field coreAxis worldProxyCoreAxis
+---@field groupingNormals worldProxyGroupingNormals
+---@field forceSurfaceFlattening Bool
+---@field forceSeamlessModule Bool
+---@field enableAlphaMask Bool
+---@field windows worldProxyWindowsParams
+---@field textures worldProxyTextureParams
+---@field customGeometry worldProxyCustomGeometryParams
+---@field advancedParams worldProxyMeshAdvancedBuildParams
 worldProxyMeshBuildParams = {}
 
 ---@param fields? worldProxyMeshBuildParams
 ---@return worldProxyMeshBuildParams
-function worldProxyMeshBuildParams.new(fields) return end
+function worldProxyMeshBuildParams.new(fields) end

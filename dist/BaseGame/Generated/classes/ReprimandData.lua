@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ReprimandData
----@field public isActive Bool
----@field public receiver entEntityID
----@field public receiverAttitudeGroup CName
----@field public reprimandID Int32
----@field public count Int32
+---@field isActive Bool
+---@field receiver entEntityID
+---@field receiverAttitudeGroup CName
+---@field reprimandID Int32
+---@field count Int32
 ReprimandData = {}
 
 ---@param fields? ReprimandData
 ---@return ReprimandData
-function ReprimandData.new(fields) return end
+function ReprimandData.new(fields) end

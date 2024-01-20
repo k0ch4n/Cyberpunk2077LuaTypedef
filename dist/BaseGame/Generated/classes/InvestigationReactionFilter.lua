@@ -5,9 +5,9 @@ InvestigationReactionFilter = {}
 
 ---@param fields? InvestigationReactionFilter
 ---@return InvestigationReactionFilter
-function InvestigationReactionFilter.new(fields) return end
+function InvestigationReactionFilter.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function InvestigationReactionFilter:Process(ctx, filterCtx) return end
+function InvestigationReactionFilter:Process(ctx, filterCtx) end

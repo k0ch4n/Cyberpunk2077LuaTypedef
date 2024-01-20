@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class gameinteractionsReactionComponent: entIComponent
----@field public reactions gameinteractionsReactionData[]
----@field public triggerAutomatically Bool
+---@field reactions gameinteractionsReactionData[]
+---@field triggerAutomatically Bool
 gameinteractionsReactionComponent = {}
 
 ---@param fields? gameinteractionsReactionComponent
 ---@return gameinteractionsReactionComponent
-function gameinteractionsReactionComponent.new(fields) return end
+function gameinteractionsReactionComponent.new(fields) end
 
 ---@return nil
-function gameinteractionsReactionComponent:GetReactionIndex() return end
+function gameinteractionsReactionComponent:GetReactionIndex() end
 
 ---@return nil
-function gameinteractionsReactionComponent:GetRequiredItems() return end
+function gameinteractionsReactionComponent:GetRequiredItems() end
 
 ---@return nil
-function gameinteractionsReactionComponent:PerformReaction() return end
+function gameinteractionsReactionComponent:PerformReaction() end
 
 ---@return nil
-function gameinteractionsReactionComponent:PerformReactionWithIK() return end
+function gameinteractionsReactionComponent:PerformReactionWithIK() end
 
 ---@return nil
-function gameinteractionsReactionComponent:SetCanceled() return end
+function gameinteractionsReactionComponent:SetCanceled() end
 
 ---@return nil
-function gameinteractionsReactionComponent:SetFinished() return end
+function gameinteractionsReactionComponent:SetFinished() end

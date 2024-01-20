@@ -1,22 +1,21 @@
 ---@meta
 
 ---@class EquippedQuickHackData: IScriptable
----@field private programEntries ProgramEntry[]
+---@field programEntries ProgramEntry[]
 EquippedQuickHackData = {}
 
 ---@param fields? EquippedQuickHackData
 ---@return EquippedQuickHackData
-function EquippedQuickHackData.new(fields) return end
+function EquippedQuickHackData.new(fields) end
 
----@private
 ---@param parts gameSPartSlots[]
 ---@return ProgramEntry[]
-function EquippedQuickHackData.GetShardsQuickHacks(parts) return end
+function EquippedQuickHackData.GetShardsQuickHacks(parts) end
 
 ---@param player PlayerPuppet
 ---@return EquippedQuickHackData
-function EquippedQuickHackData.Make(player) return end
+function EquippedQuickHackData.Make(player) end
 
 ---@param itemID gameItemID
 ---@return gameInventoryItemAbility[]
-function EquippedQuickHackData:GetAbilitiesByItemID(itemID) return end
+function EquippedQuickHackData:GetAbilitiesByItemID(itemID) end

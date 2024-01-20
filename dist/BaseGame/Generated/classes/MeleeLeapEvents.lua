@@ -1,63 +1,57 @@
 ---@meta
 
 ---@class MeleeLeapEvents: MeleeEventsTransition
----@field public enableVaultFromLeapAttack Bool
----@field public exitingToMeleeStrongAttack Bool
----@field public isFinisher Bool
----@field public isTargetKnockedOver Bool
----@field public textLayerId Uint32
+---@field enableVaultFromLeapAttack Bool
+---@field exitingToMeleeStrongAttack Bool
+---@field isFinisher Bool
+---@field isTargetKnockedOver Bool
+---@field textLayerId Uint32
 MeleeLeapEvents = {}
 
 ---@param fields? MeleeLeapEvents
 ---@return MeleeLeapEvents
-function MeleeLeapEvents.new(fields) return end
+function MeleeLeapEvents.new(fields) end
 
----@private
 ---@param distance Float
 ---@return Float
-function MeleeLeapEvents:CalculateAdjustmentDuration(distance) return end
+function MeleeLeapEvents:CalculateAdjustmentDuration(distance) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param leapDuration Float
 ---@return Float
-function MeleeLeapEvents:GetExitTime(scriptInterface, leapDuration) return end
+function MeleeLeapEvents:GetExitTime(scriptInterface, leapDuration) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeLeapEvents:Leap(stateContext, scriptInterface) return end
+function MeleeLeapEvents:Leap(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeLeapEvents:LeapToTarget(stateContext, scriptInterface) return end
+function MeleeLeapEvents:LeapToTarget(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeLeapEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeLeapEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeLeapEvents:OnExit(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeLeapEvents:OnExitCommon(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeLeapEvents:OnExitToMeleeStrongAttack(stateContext, scriptInterface) return end
+function MeleeLeapEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeLeapEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeLeapEvents:OnExitCommon(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeLeapEvents:OnExitToMeleeStrongAttack(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeLeapEvents:OnForcedExit(stateContext, scriptInterface) end

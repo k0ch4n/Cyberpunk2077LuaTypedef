@@ -5,4 +5,4 @@ gameEffectObjectFilter_NearestWeakspotIfAny = {}
 
 ---@param fields? gameEffectObjectFilter_NearestWeakspotIfAny
 ---@return gameEffectObjectFilter_NearestWeakspotIfAny
-function gameEffectObjectFilter_NearestWeakspotIfAny.new(fields) return end
+function gameEffectObjectFilter_NearestWeakspotIfAny.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class StimRequest: IScriptable
----@field public stimuli senseStimuliEvent
----@field public hasExpirationDate Bool
----@field public duration Float
----@field public requestID StimRequestID
+---@field stimuli senseStimuliEvent
+---@field hasExpirationDate Bool
+---@field duration Float
+---@field requestID StimRequestID
 StimRequest = {}
 
 ---@param fields? StimRequest
 ---@return StimRequest
-function StimRequest.new(fields) return end
+function StimRequest.new(fields) end

@@ -5,7 +5,7 @@ CrossingLightController = {}
 
 ---@param fields? CrossingLightController
 ---@return CrossingLightController
-function CrossingLightController.new(fields) return end
+function CrossingLightController.new(fields) end
 
 ---@return CrossingLightControllerPS
-function CrossingLightController:GetPS() return end
+function CrossingLightController:GetPS() end

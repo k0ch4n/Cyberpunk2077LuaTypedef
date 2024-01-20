@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class PlayRecordedSessionMenuGameController: PreGameSubMenuGameController
----@field private recordsSelector inkSelectorController
----@field private records String[]
+---@field recordsSelector inkSelectorController
+---@field records String[]
 PlayRecordedSessionMenuGameController = {}
 
 ---@param fields? PlayRecordedSessionMenuGameController
 ---@return PlayRecordedSessionMenuGameController
-function PlayRecordedSessionMenuGameController.new(fields) return end
+function PlayRecordedSessionMenuGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PlayRecordedSessionMenuGameController:OnBack(e) return end
+function PlayRecordedSessionMenuGameController:OnBack(e) end
 
----@protected
 ---@return Bool
-function PlayRecordedSessionMenuGameController:OnInitialize() return end
+function PlayRecordedSessionMenuGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PlayRecordedSessionMenuGameController:OnPlay(e) return end
+function PlayRecordedSessionMenuGameController:OnPlay(e) end
 
 ---@param buttonsList inkVerticalPanelWidget
 ---@return nil
-function PlayRecordedSessionMenuGameController:InitializeButtons(buttonsList) return end
+function PlayRecordedSessionMenuGameController:InitializeButtons(buttonsList) end
 
 ---@param menuName inkTextWidget
 ---@return nil
-function PlayRecordedSessionMenuGameController:InitializeMenuName(menuName) return end
+function PlayRecordedSessionMenuGameController:InitializeMenuName(menuName) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entTemplateBindingOverride
----@field public componentName CName
----@field public propertyName CName
----@field public binding entIBinding
+---@field componentName CName
+---@field propertyName CName
+---@field binding entIBinding
 entTemplateBindingOverride = {}
 
 ---@param fields? entTemplateBindingOverride
 ---@return entTemplateBindingOverride
-function entTemplateBindingOverride.new(fields) return end
+function entTemplateBindingOverride.new(fields) end

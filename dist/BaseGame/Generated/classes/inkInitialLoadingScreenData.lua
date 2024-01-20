@@ -5,4 +5,4 @@ inkInitialLoadingScreenData = {}
 
 ---@param fields? inkInitialLoadingScreenData
 ---@return inkInitialLoadingScreenData
-function inkInitialLoadingScreenData.new(fields) return end
+function inkInitialLoadingScreenData.new(fields) end

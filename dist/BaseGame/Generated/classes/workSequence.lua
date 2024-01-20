@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class workSequence: workIContainerEntry
----@field public previousLoopInfinitely Bool
----@field public loopInfinitely Bool
----@field public category gamedataWorkspotCategory
+---@field previousLoopInfinitely Bool
+---@field loopInfinitely Bool
+---@field category gamedataWorkspotCategory
 workSequence = {}
 
 ---@param fields? workSequence
 ---@return workSequence
-function workSequence.new(fields) return end
+function workSequence.new(fields) end

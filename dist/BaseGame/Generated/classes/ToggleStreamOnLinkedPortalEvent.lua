@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ToggleStreamOnLinkedPortalEvent: redEvent
----@field public activate Bool
+---@field activate Bool
 ToggleStreamOnLinkedPortalEvent = {}
 
 ---@param fields? ToggleStreamOnLinkedPortalEvent
 ---@return ToggleStreamOnLinkedPortalEvent
-function ToggleStreamOnLinkedPortalEvent.new(fields) return end
+function ToggleStreamOnLinkedPortalEvent.new(fields) end

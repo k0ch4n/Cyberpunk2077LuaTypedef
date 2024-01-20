@@ -5,4 +5,4 @@ AIbehaviorTreeNodeDebugInfo = {}
 
 ---@param fields? AIbehaviorTreeNodeDebugInfo
 ---@return AIbehaviorTreeNodeDebugInfo
-function AIbehaviorTreeNodeDebugInfo.new(fields) return end
+function AIbehaviorTreeNodeDebugInfo.new(fields) end

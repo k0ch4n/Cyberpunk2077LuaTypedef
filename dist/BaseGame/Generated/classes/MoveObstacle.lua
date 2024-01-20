@@ -5,12 +5,12 @@ MoveObstacle = {}
 
 ---@param fields? MoveObstacle
 ---@return MoveObstacle
-function MoveObstacle.new(fields) return end
+function MoveObstacle.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function MoveObstacle.IsDefaultConditionMet(device, context) return end
+function MoveObstacle.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function MoveObstacle:SetProperties() return end
+function MoveObstacle:SetProperties() end

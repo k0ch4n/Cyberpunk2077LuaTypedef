@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class TriggerNotifier_BarbedWire: entTriggerNotifier_Script
----@field public attackType TweakDBID
+---@field attackType TweakDBID
 TriggerNotifier_BarbedWire = {}
 
 ---@param fields? TriggerNotifier_BarbedWire
 ---@return TriggerNotifier_BarbedWire
-function TriggerNotifier_BarbedWire.new(fields) return end
+function TriggerNotifier_BarbedWire.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function TriggerNotifier_BarbedWire:OnAreaEnter(evt) return end
+function TriggerNotifier_BarbedWire:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function TriggerNotifier_BarbedWire:OnAreaExit(evt) return end
+function TriggerNotifier_BarbedWire:OnAreaExit(evt) end
 
----@protected
 ---@return CName
-function TriggerNotifier_BarbedWire:GetInstanceClassName() return end
+function TriggerNotifier_BarbedWire:GetInstanceClassName() end

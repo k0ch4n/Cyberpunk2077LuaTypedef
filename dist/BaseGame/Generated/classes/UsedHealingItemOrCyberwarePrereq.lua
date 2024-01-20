@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class UsedHealingItemOrCyberwarePrereq: gameIScriptablePrereq
----@field public curValue Uint32
+---@field curValue Uint32
 UsedHealingItemOrCyberwarePrereq = {}
 
 ---@param fields? UsedHealingItemOrCyberwarePrereq
 ---@return UsedHealingItemOrCyberwarePrereq
-function UsedHealingItemOrCyberwarePrereq.new(fields) return end
+function UsedHealingItemOrCyberwarePrereq.new(fields) end
 
 ---@param value Uint32
 ---@return Bool
-function UsedHealingItemOrCyberwarePrereq:Evaluate(value) return end
+function UsedHealingItemOrCyberwarePrereq:Evaluate(value) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function UsedHealingItemOrCyberwarePrereq:OnRegister(state, context) return end
+function UsedHealingItemOrCyberwarePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function UsedHealingItemOrCyberwarePrereq:OnUnregister(state, context) return end
+function UsedHealingItemOrCyberwarePrereq:OnUnregister(state, context) end

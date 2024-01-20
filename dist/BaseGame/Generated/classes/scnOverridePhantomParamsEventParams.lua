@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnOverridePhantomParamsEventParams
----@field public performer scnPerformerId
----@field public overrideSpawnEffect CName
----@field public overrideIdleEffect CName
+---@field performer scnPerformerId
+---@field overrideSpawnEffect CName
+---@field overrideIdleEffect CName
 scnOverridePhantomParamsEventParams = {}
 
 ---@param fields? scnOverridePhantomParamsEventParams
 ---@return scnOverridePhantomParamsEventParams
-function scnOverridePhantomParamsEventParams.new(fields) return end
+function scnOverridePhantomParamsEventParams.new(fields) end

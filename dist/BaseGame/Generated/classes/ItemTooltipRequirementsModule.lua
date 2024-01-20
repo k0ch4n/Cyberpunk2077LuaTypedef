@@ -1,35 +1,34 @@
 ---@meta
 
 ---@class ItemTooltipRequirementsModule: ItemTooltipModuleController
----@field private levelRequirementsWrapper inkWidgetReference
----@field private strenghtOrReflexWrapper inkWidgetReference
----@field private smartlinkGunWrapper inkWidgetReference
----@field private anyAttributeWrapper inkCompoundWidgetReference
----@field private line inkWidgetReference
----@field private levelRequirementsText inkTextWidgetReference
----@field private strenghtOrReflexText inkTextWidgetReference
----@field private perkText inkTextWidgetReference
----@field private perkDot inkImageWidgetReference
+---@field levelRequirementsWrapper inkWidgetReference
+---@field strenghtOrReflexWrapper inkWidgetReference
+---@field smartlinkGunWrapper inkWidgetReference
+---@field anyAttributeWrapper inkCompoundWidgetReference
+---@field line inkWidgetReference
+---@field levelRequirementsText inkTextWidgetReference
+---@field strenghtOrReflexText inkTextWidgetReference
+---@field perkText inkTextWidgetReference
+---@field perkDot inkImageWidgetReference
 ItemTooltipRequirementsModule = {}
 
 ---@param fields? ItemTooltipRequirementsModule
 ---@return ItemTooltipRequirementsModule
-function ItemTooltipRequirementsModule.new(fields) return end
+function ItemTooltipRequirementsModule.new(fields) end
 
 ---@param data UIInventoryItem
 ---@param player PlayerPuppet
 ---@return nil
-function ItemTooltipRequirementsModule:NEW_Update(data, player) return end
+function ItemTooltipRequirementsModule:NEW_Update(data, player) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipRequirementsModule:Update(data) return end
+function ItemTooltipRequirementsModule:Update(data) end
 
----@private
 ---@param statRequirements MinimalItemTooltipDataStatRequirement[]
 ---@return nil
-function ItemTooltipRequirementsModule:UpdateStatRequirements(statRequirements) return end
+function ItemTooltipRequirementsModule:UpdateStatRequirements(statRequirements) end
 
 ---@param bigFontEnabled Bool
 ---@return nil
-function ItemTooltipRequirementsModule:UpdateWrapping(bigFontEnabled) return end
+function ItemTooltipRequirementsModule:UpdateWrapping(bigFontEnabled) end

@@ -5,4 +5,4 @@ InventoryComboBoxContentController = {}
 
 ---@param fields? InventoryComboBoxContentController
 ---@return InventoryComboBoxContentController
-function InventoryComboBoxContentController.new(fields) return end
+function InventoryComboBoxContentController.new(fields) end

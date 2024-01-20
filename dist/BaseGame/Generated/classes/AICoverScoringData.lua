@@ -5,4 +5,4 @@ AICoverScoringData = {}
 
 ---@param fields? AICoverScoringData
 ---@return AICoverScoringData
-function AICoverScoringData.new(fields) return end
+function AICoverScoringData.new(fields) end

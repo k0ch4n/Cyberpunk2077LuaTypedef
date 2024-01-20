@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class HUDManagerAssociationRequest: HUDManagerRequest
----@field public associatedID entEntityID
----@field public isRegistering Bool
+---@field associatedID entEntityID
+---@field isRegistering Bool
 HUDManagerAssociationRequest = {}
 
 ---@param fields? HUDManagerAssociationRequest
 ---@return HUDManagerAssociationRequest
-function HUDManagerAssociationRequest.new(fields) return end
+function HUDManagerAssociationRequest.new(fields) end

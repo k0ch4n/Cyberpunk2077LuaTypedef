@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldDistantLightsNode: worldNode
----@field public data CDistantLightsResource
+---@field data CDistantLightsResource
 worldDistantLightsNode = {}
 
 ---@param fields? worldDistantLightsNode
 ---@return worldDistantLightsNode
-function worldDistantLightsNode.new(fields) return end
+function worldDistantLightsNode.new(fields) end

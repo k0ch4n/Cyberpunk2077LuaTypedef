@@ -1,49 +1,42 @@
 ---@meta
 
 ---@class BaseCodexLinkController: inkWidgetLogicController
----@field protected linkImage inkImageWidgetReference
----@field protected linkLabel inkTextWidgetReference
----@field protected inputContainer inkWidgetReference
----@field protected animProxy inkanimProxy
----@field protected isInteractive Bool
+---@field linkImage inkImageWidgetReference
+---@field linkLabel inkTextWidgetReference
+---@field inputContainer inkWidgetReference
+---@field animProxy inkanimProxy
+---@field isInteractive Bool
 BaseCodexLinkController = {}
 
 ---@param fields? BaseCodexLinkController
 ---@return BaseCodexLinkController
-function BaseCodexLinkController.new(fields) return end
+function BaseCodexLinkController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function BaseCodexLinkController:OnHoverOut(evt) return end
+function BaseCodexLinkController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function BaseCodexLinkController:OnHoverOver(evt) return end
+function BaseCodexLinkController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function BaseCodexLinkController:OnInitialize() return end
+function BaseCodexLinkController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function BaseCodexLinkController:OnRelease(e) return end
+function BaseCodexLinkController:OnRelease(e) end
 
----@private
 ---@return nil
-function BaseCodexLinkController:Activate() return end
+function BaseCodexLinkController:Activate() end
 
----@private
 ---@return nil
-function BaseCodexLinkController:ActivateSecondary() return end
+function BaseCodexLinkController:ActivateSecondary() end
 
 ---@param value Bool
 ---@return nil
-function BaseCodexLinkController:EnableInputHint(value) return end
+function BaseCodexLinkController:EnableInputHint(value) end
 
----@private
 ---@param animationName CName|string
 ---@return nil
-function BaseCodexLinkController:ForcePlayAnimation(animationName) return end
+function BaseCodexLinkController:ForcePlayAnimation(animationName) end

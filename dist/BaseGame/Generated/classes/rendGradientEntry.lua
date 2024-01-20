@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendGradientEntry: ISerializable
----@field public value Float
----@field public color Color
+---@field value Float
+---@field color Color
 rendGradientEntry = {}
 
 ---@param fields? rendGradientEntry
 ---@return rendGradientEntry
-function rendGradientEntry.new(fields) return end
+function rendGradientEntry.new(fields) end

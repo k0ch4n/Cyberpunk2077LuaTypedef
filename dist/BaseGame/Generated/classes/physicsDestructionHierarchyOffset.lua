@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class physicsDestructionHierarchyOffset
----@field public combined Uint32
+---@field combined Uint32
 physicsDestructionHierarchyOffset = {}
 
 ---@param fields? physicsDestructionHierarchyOffset
 ---@return physicsDestructionHierarchyOffset
-function physicsDestructionHierarchyOffset.new(fields) return end
+function physicsDestructionHierarchyOffset.new(fields) end

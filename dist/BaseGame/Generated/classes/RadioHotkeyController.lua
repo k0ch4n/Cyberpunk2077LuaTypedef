@@ -1,97 +1,81 @@
 ---@meta
 
 ---@class RadioHotkeyController: GenericHotkeyController
----@field private vehicleBB gameIBlackboard
----@field private vehicleEnterListener redCallbackObject
----@field private factListener Uint32
----@field private animationProxy inkanimProxy
----@field private equalizerAnimProxy inkanimProxy
----@field private pocketRadioToken inkGameNotificationToken
----@field private isInDefaultState Bool
+---@field vehicleBB gameIBlackboard
+---@field vehicleEnterListener redCallbackObject
+---@field factListener Uint32
+---@field animationProxy inkanimProxy
+---@field equalizerAnimProxy inkanimProxy
+---@field pocketRadioToken inkGameNotificationToken
+---@field isInDefaultState Bool
 RadioHotkeyController = {}
 
 ---@param fields? RadioHotkeyController
 ---@return RadioHotkeyController
-function RadioHotkeyController.new(fields) return end
+function RadioHotkeyController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function RadioHotkeyController:OnAction(action, consumer) return end
+function RadioHotkeyController:OnAction(action, consumer) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function RadioHotkeyController:OnPlayerAttach(player) return end
+function RadioHotkeyController:OnPlayerAttach(player) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function RadioHotkeyController:OnPlayerEnteredVehicle(value) return end
+function RadioHotkeyController:OnPlayerEnteredVehicle(value) end
 
----@protected
 ---@param evt PocketRadioUIEvent
 ---@return Bool
-function RadioHotkeyController:OnPocketRadioUIEvent(evt) return end
+function RadioHotkeyController:OnPocketRadioUIEvent(evt) end
 
----@protected
 ---@param evt UIVehicleRadioEvent
 ---@return Bool
-function RadioHotkeyController:OnVehicleRadioEvent(evt) return end
+function RadioHotkeyController:OnVehicleRadioEvent(evt) end
 
----@protected
 ---@param evt vehicleRadioStationChanged
 ---@return Bool
-function RadioHotkeyController:OnVehicleRadioStationChanged(evt) return end
+function RadioHotkeyController:OnVehicleRadioStationChanged(evt) end
 
----@protected
 ---@return Bool
-function RadioHotkeyController:Initialize() return end
+function RadioHotkeyController:Initialize() end
 
----@private
 ---@return nil
-function RadioHotkeyController:InitializeEqualizerAnim() return end
+function RadioHotkeyController:InitializeEqualizerAnim() end
 
----@private
 ---@return nil
-function RadioHotkeyController:InitializeQuestListener() return end
+function RadioHotkeyController:InitializeQuestListener() end
 
----@protected
 ---@return Bool
-function RadioHotkeyController:IsInDefaultState() return end
+function RadioHotkeyController:IsInDefaultState() end
 
----@private
 ---@return Bool
-function RadioHotkeyController:IsRadioEnabled() return end
+function RadioHotkeyController:IsRadioEnabled() end
 
 ---@param value Int32
 ---@return nil
-function RadioHotkeyController:OnFactChanged(value) return end
+function RadioHotkeyController:OnFactChanged(value) end
 
----@protected
 ---@return nil
-function RadioHotkeyController:ResolveState() return end
+function RadioHotkeyController:ResolveState() end
 
----@private
 ---@param isInVehicle Bool
 ---@return nil
-function RadioHotkeyController:SetHintController(isInVehicle) return end
+function RadioHotkeyController:SetHintController(isInVehicle) end
 
----@private
 ---@return Bool
-function RadioHotkeyController:ShouldEqualizerShow() return end
+function RadioHotkeyController:ShouldEqualizerShow() end
 
 ---@return nil
-function RadioHotkeyController:StartEqualizerAnim() return end
+function RadioHotkeyController:StartEqualizerAnim() end
 
 ---@return nil
-function RadioHotkeyController:StopEqualizerAnim() return end
+function RadioHotkeyController:StopEqualizerAnim() end
 
----@protected
 ---@return nil
-function RadioHotkeyController:Uninitialize() return end
+function RadioHotkeyController:Uninitialize() end
 
----@private
 ---@return nil
-function RadioHotkeyController:UpdateEqualizer() return end
+function RadioHotkeyController:UpdateEqualizer() end

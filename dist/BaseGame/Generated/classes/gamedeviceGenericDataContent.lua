@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamedeviceGenericDataContent
----@field public name String
----@field public content gamedeviceDataElement[]
+---@field name String
+---@field content gamedeviceDataElement[]
 gamedeviceGenericDataContent = {}
 
 ---@param fields? gamedeviceGenericDataContent
 ---@return gamedeviceGenericDataContent
-function gamedeviceGenericDataContent.new(fields) return end
+function gamedeviceGenericDataContent.new(fields) end

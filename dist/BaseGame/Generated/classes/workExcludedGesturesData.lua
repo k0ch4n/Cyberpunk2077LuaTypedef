@@ -5,4 +5,4 @@ workExcludedGesturesData = {}
 
 ---@param fields? workExcludedGesturesData
 ---@return workExcludedGesturesData
-function workExcludedGesturesData.new(fields) return end
+function workExcludedGesturesData.new(fields) end

@@ -5,4 +5,4 @@ DialogueChoiceHubPrereqState = {}
 
 ---@param fields? DialogueChoiceHubPrereqState
 ---@return DialogueChoiceHubPrereqState
-function DialogueChoiceHubPrereqState.new(fields) return end
+function DialogueChoiceHubPrereqState.new(fields) end

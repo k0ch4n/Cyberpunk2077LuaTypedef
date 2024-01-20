@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AmbientOverrideAreaSettings: IAreaSettings
----@field public color curveData[]
+---@field color curveData[]
 AmbientOverrideAreaSettings = {}
 
 ---@param fields? AmbientOverrideAreaSettings
 ---@return AmbientOverrideAreaSettings
-function AmbientOverrideAreaSettings.new(fields) return end
+function AmbientOverrideAreaSettings.new(fields) end

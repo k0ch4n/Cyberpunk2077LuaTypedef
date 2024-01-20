@@ -5,7 +5,7 @@ MovableWallScreenController = {}
 
 ---@param fields? MovableWallScreenController
 ---@return MovableWallScreenController
-function MovableWallScreenController.new(fields) return end
+function MovableWallScreenController.new(fields) end
 
 ---@return MovableWallScreenControllerPS
-function MovableWallScreenController:GetPS() return end
+function MovableWallScreenController:GetPS() end

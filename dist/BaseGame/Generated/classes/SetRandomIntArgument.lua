@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class SetRandomIntArgument: AIRandomTasks
----@field public MaxValue Int32
----@field public MinValue Int32
----@field public ArgumentName CName
+---@field MaxValue Int32
+---@field MinValue Int32
+---@field ArgumentName CName
 SetRandomIntArgument = {}
 
 ---@param fields? SetRandomIntArgument
 ---@return SetRandomIntArgument
-function SetRandomIntArgument.new(fields) return end
+function SetRandomIntArgument.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetRandomIntArgument:Activate(context) return end
+function SetRandomIntArgument:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param argumentName CName|string
 ---@param intValue Int32
 ---@return nil
-function SetRandomIntArgument:SetArgument(context, argumentName, intValue) return end
+function SetRandomIntArgument:SetArgument(context, argumentName, intValue) end

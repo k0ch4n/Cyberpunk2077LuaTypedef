@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameinputActionDisplayData
----@field public name CName
----@field public isHold Bool
----@field public inputDisplayPad String
----@field public inputDisplayKeyboard String
+---@field name CName
+---@field isHold Bool
+---@field inputDisplayPad String
+---@field inputDisplayKeyboard String
 gameinputActionDisplayData = {}
 
 ---@param fields? gameinputActionDisplayData
 ---@return gameinputActionDisplayData
-function gameinputActionDisplayData.new(fields) return end
+function gameinputActionDisplayData.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class SetPreventionPath: gameScriptableSystemRequest
----@field public blockSpawnFrom EVehicleSpawnBlockSide
----@field public resetToDefault Bool
----@field public source CName
+---@field blockSpawnFrom EVehicleSpawnBlockSide
+---@field resetToDefault Bool
+---@field source CName
 SetPreventionPath = {}
 
 ---@param fields? SetPreventionPath
 ---@return SetPreventionPath
-function SetPreventionPath.new(fields) return end
+function SetPreventionPath.new(fields) end
 
 ---@return String
-function SetPreventionPath:GetFriendlyDesctiption() return end
+function SetPreventionPath:GetFriendlyDesctiption() end

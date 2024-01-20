@@ -5,9 +5,8 @@ ScriptableVirtualCameraViewComponent = {}
 
 ---@param fields? ScriptableVirtualCameraViewComponent
 ---@return ScriptableVirtualCameraViewComponent
-function ScriptableVirtualCameraViewComponent.new(fields) return end
+function ScriptableVirtualCameraViewComponent.new(fields) end
 
----@protected
 ---@param evt FeedEvent
 ---@return Bool
-function ScriptableVirtualCameraViewComponent:OnFeedChange(evt) return end
+function ScriptableVirtualCameraViewComponent:OnFeedChange(evt) end

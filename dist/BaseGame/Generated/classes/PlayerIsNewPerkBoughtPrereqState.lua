@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class PlayerIsNewPerkBoughtPrereqState: gamePrereqState
----@field public listenerPerksVariant redCallbackObject
----@field public owner gameObject
+---@field listenerPerksVariant redCallbackObject
+---@field owner gameObject
 PlayerIsNewPerkBoughtPrereqState = {}
 
 ---@param fields? PlayerIsNewPerkBoughtPrereqState
 ---@return PlayerIsNewPerkBoughtPrereqState
-function PlayerIsNewPerkBoughtPrereqState.new(fields) return end
+function PlayerIsNewPerkBoughtPrereqState.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function PlayerIsNewPerkBoughtPrereqState:OnPerkStateUpdate(value) return end
+function PlayerIsNewPerkBoughtPrereqState:OnPerkStateUpdate(value) end

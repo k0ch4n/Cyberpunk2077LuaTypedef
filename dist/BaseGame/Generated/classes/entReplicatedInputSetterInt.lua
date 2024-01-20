@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entReplicatedInputSetterInt: entReplicatedInputSetterBase
----@field public value Int32
+---@field value Int32
 entReplicatedInputSetterInt = {}
 
 ---@param fields? entReplicatedInputSetterInt
 ---@return entReplicatedInputSetterInt
-function entReplicatedInputSetterInt.new(fields) return end
+function entReplicatedInputSetterInt.new(fields) end

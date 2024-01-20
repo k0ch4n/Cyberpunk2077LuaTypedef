@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animCollisionShapesCollection: ISerializable
----@field public collisionRoundedShapes animCollisionRoundedShape[]
+---@field collisionRoundedShapes animCollisionRoundedShape[]
 animCollisionShapesCollection = {}
 
 ---@param fields? animCollisionShapesCollection
 ---@return animCollisionShapesCollection
-function animCollisionShapesCollection.new(fields) return end
+function animCollisionShapesCollection.new(fields) end

@@ -1,101 +1,83 @@
 ---@meta
 
 ---@class ElectricLight: Device
----@field private lightComponents gameLightComponent[]
----@field private lightDefinitions gamedataLightPreset[]
+---@field lightComponents gameLightComponent[]
+---@field lightDefinitions gamedataLightPreset[]
 ElectricLight = {}
 
 ---@param fields? ElectricLight
 ---@return ElectricLight
-function ElectricLight.new(fields) return end
+function ElectricLight.new(fields) end
 
----@protected
 ---@param evt EMPEnded
 ---@return Bool
-function ElectricLight:OnEMPEnded(evt) return end
+function ElectricLight:OnEMPEnded(evt) end
 
----@protected
 ---@param evt EMPHitEvent
 ---@return Bool
-function ElectricLight:OnEMPHitEvent(evt) return end
+function ElectricLight:OnEMPHitEvent(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function ElectricLight:OnHitEvent(hit) return end
+function ElectricLight:OnHitEvent(hit) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function ElectricLight:OnPhysicalDestructionEvent(evt) return end
+function ElectricLight:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ElectricLight:OnRequestComponents(ri) return end
+function ElectricLight:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ElectricLight:OnTakeControl(ri) return end
+function ElectricLight:OnTakeControl(ri) end
 
----@private
 ---@param light gameLightComponent
 ---@param preset TweakDBID|string
 ---@return nil
-function ElectricLight:ApplyPreset(light, preset) return end
+function ElectricLight:ApplyPreset(light, preset) end
 
----@private
 ---@param ints Int32[]
 ---@return Bool, Color color
-function ElectricLight:CreateColorFromIntArray(ints) return end
+function ElectricLight:CreateColorFromIntArray(ints) end
 
----@protected
 ---@return nil
-function ElectricLight:CutPower() return end
+function ElectricLight:CutPower() end
 
----@private
 ---@return ElectricLightController
-function ElectricLight:GetController() return end
+function ElectricLight:GetController() end
 
 ---@return ElectricLightControllerPS
-function ElectricLight:GetDevicePS() return end
-
----@protected
----@return Bool
-function ElectricLight:IncludeLightsInVisibilityBoundsScript() return end
+function ElectricLight:GetDevicePS() end
 
 ---@return Bool
-function ElectricLight:IsGameplayRelevant() return end
+function ElectricLight:IncludeLightsInVisibilityBoundsScript() end
 
----@protected
+---@return Bool
+function ElectricLight:IsGameplayRelevant() end
+
 ---@param hit gameeventsHitEvent
 ---@return nil
-function ElectricLight:ReactToHit(hit) return end
+function ElectricLight:ReactToHit(hit) end
 
----@protected
 ---@return nil
-function ElectricLight:RestorePower() return end
-
----@protected
----@return Bool
-function ElectricLight:ShouldRegisterToHUD() return end
+function ElectricLight:RestorePower() end
 
 ---@return Bool
-function ElectricLight:ShouldSendGameAttachedEventToPS() return end
+function ElectricLight:ShouldRegisterToHUD() end
 
----@protected
----@return nil
-function ElectricLight:TurnOffDevice() return end
+---@return Bool
+function ElectricLight:ShouldSendGameAttachedEventToPS() end
 
----@private
 ---@return nil
-function ElectricLight:TurnOffLights() return end
+function ElectricLight:TurnOffDevice() end
 
----@protected
 ---@return nil
-function ElectricLight:TurnOnDevice() return end
+function ElectricLight:TurnOffLights() end
 
----@private
 ---@return nil
-function ElectricLight:TurnOnLights() return end
+function ElectricLight:TurnOnDevice() end
+
+---@return nil
+function ElectricLight:TurnOnLights() end

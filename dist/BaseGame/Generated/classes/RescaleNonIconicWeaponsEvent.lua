@@ -5,4 +5,4 @@ RescaleNonIconicWeaponsEvent = {}
 
 ---@param fields? RescaleNonIconicWeaponsEvent
 ---@return RescaleNonIconicWeaponsEvent
-function RescaleNonIconicWeaponsEvent.new(fields) return end
+function RescaleNonIconicWeaponsEvent.new(fields) end

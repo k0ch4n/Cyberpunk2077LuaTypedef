@@ -5,13 +5,13 @@ PuppetAction = {}
 
 ---@param fields? PuppetAction
 ---@return PuppetAction
-function PuppetAction.new(fields) return end
+function PuppetAction.new(fields) end
 
 ---@return gamedataObjectAction_Record
-function PuppetAction:GetObjectActionRecord() return end
+function PuppetAction:GetObjectActionRecord() end
 
 ---@return TweakDBID
-function PuppetAction:GetTweakDBChoiceID() return end
+function PuppetAction:GetTweakDBChoiceID() end
 
 ---@return String
-function PuppetAction:GetTweakDBChoiceRecord() return end
+function PuppetAction:GetTweakDBChoiceRecord() end

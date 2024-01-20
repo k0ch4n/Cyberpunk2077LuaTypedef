@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LookAtPresetBaseEvents: DefaultTransition
----@field public lookAtEvents entLookAtAddEvent[]
----@field public attachLeft Bool
----@field public attachRight Bool
+---@field lookAtEvents entLookAtAddEvent[]
+---@field attachLeft Bool
+---@field attachRight Bool
 LookAtPresetBaseEvents = {}
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
@@ -11,40 +11,40 @@ LookAtPresetBaseEvents = {}
 ---@param priority Int32
 ---@param lookAtEventsArray entLookAtAddEvent[]
 ---@return nil, Bool attachLeft, Bool attachRight
-function LookAtPresetBaseEvents.AddLookat(scriptInterface, recordID, priority, lookAtEventsArray) return end
+function LookAtPresetBaseEvents.AddLookat(scriptInterface, recordID, priority, lookAtEventsArray) end
 
 ---@param lookatPresetRecord gamedataLookAtPreset_Record
 ---@param lookAtParts animLookAtPartRequest[]
 ---@return nil
-function LookAtPresetBaseEvents.GetLookatPartsRequests(lookatPresetRecord, lookAtParts) return end
+function LookAtPresetBaseEvents.GetLookatPartsRequests(lookatPresetRecord, lookAtParts) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param lookAtEventsArray entLookAtAddEvent[]
 ---@return nil
-function LookAtPresetBaseEvents.RemoveAddedLookAts(scriptInterface, lookAtEventsArray) return end
+function LookAtPresetBaseEvents.RemoveAddedLookAts(scriptInterface, lookAtEventsArray) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param presetNames String[]
 ---@param priority Int32
 ---@param lookAtEventsArray entLookAtAddEvent[]
 ---@return nil
-function LookAtPresetBaseEvents:AddAllLookAtsInList(scriptInterface, presetNames, priority, lookAtEventsArray) return end
+function LookAtPresetBaseEvents:AddAllLookAtsInList(scriptInterface, presetNames, priority, lookAtEventsArray) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LookAtPresetBaseEvents:OnEnter(stateContext, scriptInterface) return end
+function LookAtPresetBaseEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LookAtPresetBaseEvents:OnExit(stateContext, scriptInterface) return end
+function LookAtPresetBaseEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LookAtPresetBaseEvents:OnForcedExit(stateContext, scriptInterface) return end
+function LookAtPresetBaseEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LookAtPresetBaseEvents:SetHandAttachAnimVars(scriptInterface) return end
+function LookAtPresetBaseEvents:SetHandAttachAnimVars(scriptInterface) end

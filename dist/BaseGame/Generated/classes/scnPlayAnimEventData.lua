@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class scnPlayAnimEventData
----@field public blendIn Float
----@field public blendOut Float
----@field public clipFront Float
----@field public stretch Float
----@field public weight Float
----@field public bodyPartMask CName
+---@field blendIn Float
+---@field blendOut Float
+---@field clipFront Float
+---@field stretch Float
+---@field weight Float
+---@field bodyPartMask CName
 scnPlayAnimEventData = {}
 
 ---@param fields? scnPlayAnimEventData
 ---@return scnPlayAnimEventData
-function scnPlayAnimEventData.new(fields) return end
+function scnPlayAnimEventData.new(fields) end

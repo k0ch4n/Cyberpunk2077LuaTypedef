@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class WorldShadowConfig
----@field public contactShadows ContactShadowsConfig
----@field public distantShadowsNumLevels Uint32
----@field public distantShadowsBaseLevelRadius Float
----@field public foliageShadowConfig FoliageShadowConfig
+---@field contactShadows ContactShadowsConfig
+---@field distantShadowsNumLevels Uint32
+---@field distantShadowsBaseLevelRadius Float
+---@field foliageShadowConfig FoliageShadowConfig
 WorldShadowConfig = {}
 
 ---@param fields? WorldShadowConfig
 ---@return WorldShadowConfig
-function WorldShadowConfig.new(fields) return end
+function WorldShadowConfig.new(fields) end

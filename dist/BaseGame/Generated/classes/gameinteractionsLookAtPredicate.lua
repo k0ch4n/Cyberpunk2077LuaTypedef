@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameinteractionsLookAtPredicate: gameinteractionsIPredicateType
----@field public testTarget gameinteractionsELookAtTarget
----@field public testType gameinteractionsELookAtTest
----@field public stopOnTransparent Bool
+---@field testTarget gameinteractionsELookAtTarget
+---@field testType gameinteractionsELookAtTest
+---@field stopOnTransparent Bool
 gameinteractionsLookAtPredicate = {}
 
 ---@param fields? gameinteractionsLookAtPredicate
 ---@return gameinteractionsLookAtPredicate
-function gameinteractionsLookAtPredicate.new(fields) return end
+function gameinteractionsLookAtPredicate.new(fields) end

@@ -5,8 +5,8 @@ Attack_Beam = {}
 
 ---@param fields? Attack_Beam
 ---@return Attack_Beam
-function Attack_Beam.new(fields) return end
+function Attack_Beam.new(fields) end
 
 ---@param weapon gameweaponObject
 ---@return nil
-function Attack_Beam:OnTick(weapon) return end
+function Attack_Beam:OnTick(weapon) end

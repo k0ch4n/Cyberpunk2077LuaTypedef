@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class cpMeatBag: gameObject
----@field public rotationLerpFactor Float
----@field public kinematicBodyBoneName CName
----@field public bagBodyBoneName CName
----@field public physicalComponentName CName
----@field public bagHitComponentName CName
----@field public bagDestroyComponentName CName
----@field public destructionEffectName CName
----@field public jiggleEffectName CName
+---@field rotationLerpFactor Float
+---@field kinematicBodyBoneName CName
+---@field bagBodyBoneName CName
+---@field physicalComponentName CName
+---@field bagHitComponentName CName
+---@field bagDestroyComponentName CName
+---@field destructionEffectName CName
+---@field jiggleEffectName CName
 cpMeatBag = {}
 
 ---@param fields? cpMeatBag
 ---@return cpMeatBag
-function cpMeatBag.new(fields) return end
+function cpMeatBag.new(fields) end

@@ -5,4 +5,4 @@ AIStoppedBeingTrackedAsHostile = {}
 
 ---@param fields? AIStoppedBeingTrackedAsHostile
 ---@return AIStoppedBeingTrackedAsHostile
-function AIStoppedBeingTrackedAsHostile.new(fields) return end
+function AIStoppedBeingTrackedAsHostile.new(fields) end

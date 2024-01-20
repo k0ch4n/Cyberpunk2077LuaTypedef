@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VehicleMappinDelayedDiscreteModeCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public vehicleMappinComponent VehicleMappinComponent
+---@field vehicleMappinComponent VehicleMappinComponent
 VehicleMappinDelayedDiscreteModeCallback = {}
 
 ---@param fields? VehicleMappinDelayedDiscreteModeCallback
 ---@return VehicleMappinDelayedDiscreteModeCallback
-function VehicleMappinDelayedDiscreteModeCallback.new(fields) return end
+function VehicleMappinDelayedDiscreteModeCallback.new(fields) end
 
 ---@return nil
-function VehicleMappinDelayedDiscreteModeCallback:Call() return end
+function VehicleMappinDelayedDiscreteModeCallback:Call() end

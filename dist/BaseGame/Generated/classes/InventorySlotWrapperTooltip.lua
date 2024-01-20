@@ -1,27 +1,26 @@
 ---@meta
 
 ---@class InventorySlotWrapperTooltip: AGenericTooltipController
----@field protected itemDisplayController InventoryItemDisplayController
+---@field itemDisplayController InventoryItemDisplayController
 InventorySlotWrapperTooltip = {}
 
 ---@param fields? InventorySlotWrapperTooltip
 ---@return InventorySlotWrapperTooltip
-function InventorySlotWrapperTooltip.new(fields) return end
+function InventorySlotWrapperTooltip.new(fields) end
 
----@protected
 ---@return Bool
-function InventorySlotWrapperTooltip:OnInitialize() return end
+function InventorySlotWrapperTooltip:OnInitialize() end
 
 ---@param itemData gameInventoryItemData
 ---@param isSelected Bool
 ---@return nil
-function InventorySlotWrapperTooltip:SetData(itemData, isSelected) return end
+function InventorySlotWrapperTooltip:SetData(itemData, isSelected) end
 
 ---@param tooltipData ATooltipData
 ---@param isSelected Bool
 ---@return nil
-function InventorySlotWrapperTooltip:SetData(tooltipData, isSelected) return end
+function InventorySlotWrapperTooltip:SetData(tooltipData, isSelected) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function InventorySlotWrapperTooltip:SetData(tooltipData) return end
+function InventorySlotWrapperTooltip:SetData(tooltipData) end

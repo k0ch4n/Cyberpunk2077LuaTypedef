@@ -1,50 +1,42 @@
 ---@meta
 
 ---@class ThrowableWeaponObject: gameweaponObject
----@field protected projectileComponent gameprojectileComponent
----@field protected weaponOwner gameObject
+---@field projectileComponent gameprojectileComponent
+---@field weaponOwner gameObject
 ThrowableWeaponObject = {}
 
 ---@param fields? ThrowableWeaponObject
 ---@return ThrowableWeaponObject
-function ThrowableWeaponObject.new(fields) return end
+function ThrowableWeaponObject.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function ThrowableWeaponObject:OnCollision(eventData) return end
+function ThrowableWeaponObject:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function ThrowableWeaponObject:OnProjectileInitialize(eventData) return end
+function ThrowableWeaponObject:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ThrowableWeaponObject:OnRequestComponents(ri) return end
+function ThrowableWeaponObject:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function ThrowableWeaponObject:OnShoot(eventData) return end
+function ThrowableWeaponObject:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function ThrowableWeaponObject:OnShootTarget(eventData) return end
+function ThrowableWeaponObject:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ThrowableWeaponObject:OnTakeControl(ri) return end
+function ThrowableWeaponObject:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function ThrowableWeaponObject:OnTick(eventData) return end
+function ThrowableWeaponObject:OnTick(eventData) end
 
----@private
 ---@param eventData gameprojectileShootEvent
 ---@return nil
-function ThrowableWeaponObject:OnThrow(eventData) return end
+function ThrowableWeaponObject:OnThrow(eventData) end

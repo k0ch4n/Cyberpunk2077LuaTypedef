@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameinteractionsvisBluelineDescription: IScriptable
----@field public parts gameinteractionsvisBluelinePart[]
----@field public logicOperator ELogicOperator
+---@field parts gameinteractionsvisBluelinePart[]
+---@field logicOperator ELogicOperator
 gameinteractionsvisBluelineDescription = {}
 
 ---@param fields? gameinteractionsvisBluelineDescription
 ---@return gameinteractionsvisBluelineDescription
-function gameinteractionsvisBluelineDescription.new(fields) return end
+function gameinteractionsvisBluelineDescription.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LootPickupDelayEvent: redEvent
----@field public enableLootInteraction Bool
+---@field enableLootInteraction Bool
 LootPickupDelayEvent = {}
 
 ---@param fields? LootPickupDelayEvent
 ---@return LootPickupDelayEvent
-function LootPickupDelayEvent.new(fields) return end
+function LootPickupDelayEvent.new(fields) end

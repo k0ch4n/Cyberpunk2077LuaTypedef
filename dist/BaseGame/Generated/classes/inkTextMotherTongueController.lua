@@ -1,44 +1,44 @@
 ---@meta
 
 ---@class inkTextMotherTongueController: inkWidgetLogicController
----@field public preTranslatedTextWidget inkTextWidgetReference
----@field public postTranslatedTextWidget inkTextWidgetReference
----@field public nativeTextWidget inkRichTextBoxWidgetReference
----@field public translatedTextWidget inkTextWidgetReference
+---@field preTranslatedTextWidget inkTextWidgetReference
+---@field postTranslatedTextWidget inkTextWidgetReference
+---@field nativeTextWidget inkRichTextBoxWidgetReference
+---@field translatedTextWidget inkTextWidgetReference
 inkTextMotherTongueController = {}
 
 ---@param fields? inkTextMotherTongueController
 ---@return inkTextMotherTongueController
-function inkTextMotherTongueController.new(fields) return end
+function inkTextMotherTongueController.new(fields) end
 
 ---@return nil
-function inkTextMotherTongueController:ApplyTexts() return end
+function inkTextMotherTongueController:ApplyTexts() end
 
 ---@return String
-function inkTextMotherTongueController:GetNativeText() return end
+function inkTextMotherTongueController:GetNativeText() end
 
 ---@return String
-function inkTextMotherTongueController:GetPostTranslatedText() return end
+function inkTextMotherTongueController:GetPostTranslatedText() end
 
 ---@return String
-function inkTextMotherTongueController:GetPreTranslatedText() return end
+function inkTextMotherTongueController:GetPreTranslatedText() end
 
 ---@return String
-function inkTextMotherTongueController:GetTranslatedText() return end
+function inkTextMotherTongueController:GetTranslatedText() end
 
 ---@param text String
 ---@param language scnDialogLineLanguage
 ---@return nil
-function inkTextMotherTongueController:SetNativeText(text, language) return end
+function inkTextMotherTongueController:SetNativeText(text, language) end
 
 ---@param text String
 ---@return nil
-function inkTextMotherTongueController:SetPostTranslatedText(text) return end
+function inkTextMotherTongueController:SetPostTranslatedText(text) end
 
 ---@param text String
 ---@return nil
-function inkTextMotherTongueController:SetPreTranslatedText(text) return end
+function inkTextMotherTongueController:SetPreTranslatedText(text) end
 
 ---@param text String
 ---@return nil
-function inkTextMotherTongueController:SetTranslatedText(text) return end
+function inkTextMotherTongueController:SetTranslatedText(text) end

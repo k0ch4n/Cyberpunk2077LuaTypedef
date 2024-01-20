@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameprojectileSpiralParams: IScriptable
----@field public enabled Bool
----@field public radius Float
----@field public cycleTimeMin Float
----@field public cycleTimeMax Float
----@field public rampUpDistanceStart Float
----@field public rampUpDistanceEnd Float
----@field public rampDownDistanceStart Float
----@field public rampDownDistanceEnd Float
----@field public rampDownFactor Float
----@field public randomizePhase Bool
----@field public randomizeDirection Bool
+---@field enabled Bool
+---@field radius Float
+---@field cycleTimeMin Float
+---@field cycleTimeMax Float
+---@field rampUpDistanceStart Float
+---@field rampUpDistanceEnd Float
+---@field rampDownDistanceStart Float
+---@field rampDownDistanceEnd Float
+---@field rampDownFactor Float
+---@field randomizePhase Bool
+---@field randomizeDirection Bool
 gameprojectileSpiralParams = {}
 
 ---@param fields? gameprojectileSpiralParams
 ---@return gameprojectileSpiralParams
-function gameprojectileSpiralParams.new(fields) return end
+function gameprojectileSpiralParams.new(fields) end

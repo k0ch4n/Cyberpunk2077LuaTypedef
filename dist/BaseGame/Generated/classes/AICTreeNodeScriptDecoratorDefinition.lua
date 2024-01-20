@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AICTreeNodeScriptDecoratorDefinition: AICTreeExtendableNodeDefinition
----@field public script gameActionScript
----@field public scriptName CName
+---@field script gameActionScript
+---@field scriptName CName
 AICTreeNodeScriptDecoratorDefinition = {}
 
 ---@param fields? AICTreeNodeScriptDecoratorDefinition
 ---@return AICTreeNodeScriptDecoratorDefinition
-function AICTreeNodeScriptDecoratorDefinition.new(fields) return end
+function AICTreeNodeScriptDecoratorDefinition.new(fields) end

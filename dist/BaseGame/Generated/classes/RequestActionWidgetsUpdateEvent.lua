@@ -5,4 +5,4 @@ RequestActionWidgetsUpdateEvent = {}
 
 ---@param fields? RequestActionWidgetsUpdateEvent
 ---@return RequestActionWidgetsUpdateEvent
-function RequestActionWidgetsUpdateEvent.new(fields) return end
+function RequestActionWidgetsUpdateEvent.new(fields) end

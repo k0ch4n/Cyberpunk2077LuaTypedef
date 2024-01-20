@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class effectEffectParameterEvaluatorVector
----@field public evaluator IEvaluatorVector
----@field public inputParameterOverride CName
+---@field evaluator IEvaluatorVector
+---@field inputParameterOverride CName
 effectEffectParameterEvaluatorVector = {}
 
 ---@param fields? effectEffectParameterEvaluatorVector
 ---@return effectEffectParameterEvaluatorVector
-function effectEffectParameterEvaluatorVector.new(fields) return end
+function effectEffectParameterEvaluatorVector.new(fields) end

@@ -3,88 +3,69 @@
 ---@class AIGenericLookatTask: AILookatTask
 AIGenericLookatTask = {}
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIGenericLookatTask:ActivateLookat(context) return end
+function AIGenericLookatTask:ActivateLookat(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIGenericLookatTask:Deactivate(context) return end
+function AIGenericLookatTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param instant? Bool
 ---@return nil
-function AIGenericLookatTask:DeactivateLookat(context, instant) return end
+function AIGenericLookatTask:DeactivateLookat(context, instant) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param instant? Bool
 ---@return nil
-function AIGenericLookatTask:DeactivateLookatInternal(context, instant) return end
+function AIGenericLookatTask:DeactivateLookatInternal(context, instant) end
 
----@protected
 ---@return animLookAtLimitDegreesType
-function AIGenericLookatTask:GetBackLimitDegreesType() return end
+function AIGenericLookatTask:GetBackLimitDegreesType() end
 
----@protected
 ---@return animLookAtLimitDegreesType
-function AIGenericLookatTask:GetHardLimitDegreesType() return end
+function AIGenericLookatTask:GetHardLimitDegreesType() end
 
----@protected
 ---@return animLookAtLimitDistanceType
-function AIGenericLookatTask:GetHardLimitDistanceType() return end
+function AIGenericLookatTask:GetHardLimitDistanceType() end
 
----@protected
 ---@return Bool
-function AIGenericLookatTask:GetHasOutTransition() return end
+function AIGenericLookatTask:GetHasOutTransition() end
 
----@protected
 ---@return Float
-function AIGenericLookatTask:GetLookActivationDelay() return end
+function AIGenericLookatTask:GetLookActivationDelay() end
 
----@protected
 ---@return Float
-function AIGenericLookatTask:GetLookAtDeactivationDelay() return end
+function AIGenericLookatTask:GetLookAtDeactivationDelay() end
 
----@protected
 ---@return entLookAtAddEvent
-function AIGenericLookatTask:GetLookAtEvent() return end
+function AIGenericLookatTask:GetLookAtEvent() end
 
----@protected
 ---@return CName
-function AIGenericLookatTask:GetLookAtSlotName() return end
+function AIGenericLookatTask:GetLookAtSlotName() end
 
----@protected
 ---@return animLookAtStyle
-function AIGenericLookatTask:GetLookatStyle() return end
+function AIGenericLookatTask:GetLookatStyle() end
 
----@protected
 ---@return animLookAtStyle
-function AIGenericLookatTask:GetOutTransitionStyle() return end
+function AIGenericLookatTask:GetOutTransitionStyle() end
 
----@protected
 ---@return animLookAtLimitDegreesType
-function AIGenericLookatTask:GetSoftLimitDegreesType() return end
+function AIGenericLookatTask:GetSoftLimitDegreesType() end
 
----@protected
 ---@param lookAtEvent entLookAtAddEvent
 ---@return nil
-function AIGenericLookatTask:SetLookAtEvent(lookAtEvent) return end
+function AIGenericLookatTask:SetLookAtEvent(lookAtEvent) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIGenericLookatTask:ShouldLookatBeActive(context) return end
+function AIGenericLookatTask:ShouldLookatBeActive(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIGenericLookatTask:Update(context) return end
+function AIGenericLookatTask:Update(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIGenericLookatTask:UpdateLookat(context) return end
+function AIGenericLookatTask:UpdateLookat(context) end

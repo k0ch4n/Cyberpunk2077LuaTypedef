@@ -5,8 +5,8 @@ HitDamageOverTimePrereqState = {}
 
 ---@param fields? HitDamageOverTimePrereqState
 ---@return HitDamageOverTimePrereqState
-function HitDamageOverTimePrereqState.new(fields) return end
+function HitDamageOverTimePrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitDamageOverTimePrereqState:Evaluate(hitEvent) return end
+function HitDamageOverTimePrereqState:Evaluate(hitEvent) end

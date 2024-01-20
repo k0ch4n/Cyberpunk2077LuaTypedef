@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class ScannerModule: HUDModule
----@field private activeScans ScanInstance[]
+---@field activeScans ScanInstance[]
 ScannerModule = {}
 
 ---@param fields? ScannerModule
 ---@return ScannerModule
-function ScannerModule.new(fields) return end
+function ScannerModule.new(fields) end
 
----@protected
 ---@param actor gameHudActor
 ---@return ScanInstance
-function ScannerModule:DuplicateLastInstance(actor) return end
+function ScannerModule:DuplicateLastInstance(actor) end
 
----@private
 ---@return nil
-function ScannerModule:InitiateFreshScan() return end
+function ScannerModule:InitiateFreshScan() end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob task
-function ScannerModule:Process(mode) return end
+function ScannerModule:Process(mode) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob[] jobs
-function ScannerModule:Process(mode) return end
+function ScannerModule:Process(mode) end
 
 ---@param jobs HUDJob[]
 ---@return nil
-function ScannerModule:Suppress(jobs) return end
+function ScannerModule:Suppress(jobs) end

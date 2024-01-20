@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class SSAOAreaSettings: IAreaSettings
----@field public noiseFilterTolerance curveData
----@field public blurTolerance curveData
----@field public upsampleTolerance curveData
----@field public rejectionFalloff curveData
----@field public combineResolutionsBeforeBlur Bool
----@field public combineResolutionsWithMul Bool
----@field public normalsEnable Bool
----@field public hierarchyDepth Int32
----@field public normalAOMultiply curveData
----@field public normalBackProjectTolerance curveData
----@field public qualityLevel ESSAOQualityLevel
----@field public coneAoDiffuseStrength curveData
----@field public coneAoSpecularStrength curveData
----@field public coneAoSpecularTreshold curveData
----@field public lightAoDiffuseStrength curveData
----@field public lightAoSpecularStrength curveData
----@field public foliageDimDiffuse curveData
----@field public foliageDimSpecular curveData
+---@field noiseFilterTolerance curveData
+---@field blurTolerance curveData
+---@field upsampleTolerance curveData
+---@field rejectionFalloff curveData
+---@field combineResolutionsBeforeBlur Bool
+---@field combineResolutionsWithMul Bool
+---@field normalsEnable Bool
+---@field hierarchyDepth Int32
+---@field normalAOMultiply curveData
+---@field normalBackProjectTolerance curveData
+---@field qualityLevel ESSAOQualityLevel
+---@field coneAoDiffuseStrength curveData
+---@field coneAoSpecularStrength curveData
+---@field coneAoSpecularTreshold curveData
+---@field lightAoDiffuseStrength curveData
+---@field lightAoSpecularStrength curveData
+---@field foliageDimDiffuse curveData
+---@field foliageDimSpecular curveData
 SSAOAreaSettings = {}
 
 ---@param fields? SSAOAreaSettings
 ---@return SSAOAreaSettings
-function SSAOAreaSettings.new(fields) return end
+function SSAOAreaSettings.new(fields) end

@@ -5,4 +5,4 @@ AIbehaviorShouldJoinTrafficDefinition = {}
 
 ---@param fields? AIbehaviorShouldJoinTrafficDefinition
 ---@return AIbehaviorShouldJoinTrafficDefinition
-function AIbehaviorShouldJoinTrafficDefinition.new(fields) return end
+function AIbehaviorShouldJoinTrafficDefinition.new(fields) end

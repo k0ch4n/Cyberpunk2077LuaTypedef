@@ -5,4 +5,4 @@ vehicleToggleQuestCustomFPPLockOffEvent = {}
 
 ---@param fields? vehicleToggleQuestCustomFPPLockOffEvent
 ---@return vehicleToggleQuestCustomFPPLockOffEvent
-function vehicleToggleQuestCustomFPPLockOffEvent.new(fields) return end
+function vehicleToggleQuestCustomFPPLockOffEvent.new(fields) end

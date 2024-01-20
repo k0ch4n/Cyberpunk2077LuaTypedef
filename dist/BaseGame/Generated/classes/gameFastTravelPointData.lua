@@ -1,56 +1,56 @@
 ---@meta
 
 ---@class gameFastTravelPointData: IScriptable
----@field public pointRecord TweakDBID
----@field public markerRef NodeRef
----@field public requesterID entEntityID
----@field public isEP1 Bool
----@field public mappinID gameNewMappinID
+---@field pointRecord TweakDBID
+---@field markerRef NodeRef
+---@field requesterID entEntityID
+---@field isEP1 Bool
+---@field mappinID gameNewMappinID
 gameFastTravelPointData = {}
 
 ---@param fields? gameFastTravelPointData
 ---@return gameFastTravelPointData
-function gameFastTravelPointData.new(fields) return end
+function gameFastTravelPointData.new(fields) end
 
 ---@return Bool
-function gameFastTravelPointData:IsResolvable() return end
+function gameFastTravelPointData:IsResolvable() end
 
 ---@return Bool
-function gameFastTravelPointData:IsValid() return end
+function gameFastTravelPointData:IsValid() end
 
 ---@return String
-function gameFastTravelPointData:GetDistrictDisplayName() return end
+function gameFastTravelPointData:GetDistrictDisplayName() end
 
 ---@return NodeRef
-function gameFastTravelPointData:GetMarkerRef() return end
+function gameFastTravelPointData:GetMarkerRef() end
 
 ---@return String
-function gameFastTravelPointData:GetPointDisplayDescription() return end
+function gameFastTravelPointData:GetPointDisplayDescription() end
 
 ---@return String
-function gameFastTravelPointData:GetPointDisplayName() return end
+function gameFastTravelPointData:GetPointDisplayName() end
 
 ---@return TweakDBID
-function gameFastTravelPointData:GetPointRecord() return end
+function gameFastTravelPointData:GetPointRecord() end
 
 ---@return entEntityID
-function gameFastTravelPointData:GetRequesterID() return end
+function gameFastTravelPointData:GetRequesterID() end
 
 ---@return Bool
-function gameFastTravelPointData:HasReqesterID() return end
+function gameFastTravelPointData:HasReqesterID() end
 
 ---@return Bool
-function gameFastTravelPointData:IsAnEP1Node() return end
+function gameFastTravelPointData:IsAnEP1Node() end
 
 ---@return Bool
-function gameFastTravelPointData:IsSubway() return end
+function gameFastTravelPointData:IsSubway() end
 
 ---@param id entEntityID
 ---@return nil
-function gameFastTravelPointData:SetRequesterID(id) return end
+function gameFastTravelPointData:SetRequesterID(id) end
 
 ---@return Bool
-function gameFastTravelPointData:ShouldShowMappinInWorld() return end
+function gameFastTravelPointData:ShouldShowMappinInWorld() end
 
 ---@return Bool
-function gameFastTravelPointData:ShouldShowMappinOnWorldMap() return end
+function gameFastTravelPointData:ShouldShowMappinOnWorldMap() end

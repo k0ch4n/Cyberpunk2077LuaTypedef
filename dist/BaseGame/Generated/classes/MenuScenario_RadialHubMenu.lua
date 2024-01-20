@@ -1,80 +1,66 @@
 ---@meta
 
 ---@class MenuScenario_RadialHubMenu: MenuScenario_BaseMenu
----@field public hubMenuInitData HubMenuInitData
----@field public currentState inkMenusState
----@field public combatRestriction Bool
----@field public hubMenuInstanceID Uint32
+---@field hubMenuInitData HubMenuInitData
+---@field currentState inkMenusState
+---@field combatRestriction Bool
+---@field hubMenuInstanceID Uint32
 MenuScenario_RadialHubMenu = {}
 
 ---@param fields? MenuScenario_RadialHubMenu
 ---@return MenuScenario_RadialHubMenu
-function MenuScenario_RadialHubMenu.new(fields) return end
+function MenuScenario_RadialHubMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnCloseHubMenu() return end
+function MenuScenario_RadialHubMenu:OnCloseHubMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnCloseHubMenuRequest() return end
+function MenuScenario_RadialHubMenu:OnCloseHubMenuRequest() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_RadialHubMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnHotkeySwitchToCrafting() return end
+function MenuScenario_RadialHubMenu:OnHotkeySwitchToCrafting() end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnHotkeySwitchToInventory() return end
+function MenuScenario_RadialHubMenu:OnHotkeySwitchToInventory() end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnHotkeySwitchToJournal() return end
+function MenuScenario_RadialHubMenu:OnHotkeySwitchToJournal() end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnHotkeySwitchToMap() return end
+function MenuScenario_RadialHubMenu:OnHotkeySwitchToMap() end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnHotkeySwitchToPerks() return end
+function MenuScenario_RadialHubMenu:OnHotkeySwitchToPerks() end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnNetworkBreachBegin() return end
+function MenuScenario_RadialHubMenu:OnNetworkBreachBegin() end
 
----@protected
 ---@param menuName CName|string
 ---@param userData? IScriptable
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnOpenMenu(menuName, userData) return end
+function MenuScenario_RadialHubMenu:OnOpenMenu(menuName, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnRequestHubMenu() return end
+function MenuScenario_RadialHubMenu:OnRequestHubMenu() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnSelectMenuItem(userData) return end
+function MenuScenario_RadialHubMenu:OnSelectMenuItem(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_RadialHubMenu:OnSwitchToTimeManager() return end
+function MenuScenario_RadialHubMenu:OnSwitchToTimeManager() end
 
 ---@return CName
-function MenuScenario_RadialHubMenu:GetMenuName() return end
+function MenuScenario_RadialHubMenu:GetMenuName() end
 
----@protected
 ---@return nil
-function MenuScenario_RadialHubMenu:GotoIdleState() return end
+function MenuScenario_RadialHubMenu:GotoIdleState() end
 
 ---@param menuName CName|string
 ---@return nil
-function MenuScenario_RadialHubMenu:ToggleMenu(menuName) return end
+function MenuScenario_RadialHubMenu:ToggleMenu(menuName) end

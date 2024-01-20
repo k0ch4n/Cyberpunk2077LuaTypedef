@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimNode_MixerSlot: animAnimNode_OnePoseInput
----@field public maxNormalAnimEntriesCount Uint16
----@field public maxAdditiveAnimEntriesCount Uint16
----@field public maxOverrideAnimEntriesCount Uint16
+---@field maxNormalAnimEntriesCount Uint16
+---@field maxAdditiveAnimEntriesCount Uint16
+---@field maxOverrideAnimEntriesCount Uint16
 animAnimNode_MixerSlot = {}
 
 ---@param fields? animAnimNode_MixerSlot
 ---@return animAnimNode_MixerSlot
-function animAnimNode_MixerSlot.new(fields) return end
+function animAnimNode_MixerSlot.new(fields) end

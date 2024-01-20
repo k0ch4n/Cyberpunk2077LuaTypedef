@@ -5,13 +5,13 @@ gamedataVehicleModel_Record = {}
 
 ---@param fields? gamedataVehicleModel_Record
 ---@return gamedataVehicleModel_Record
-function gamedataVehicleModel_Record.new(fields) return end
+function gamedataVehicleModel_Record.new(fields) end
 
 ---@return String
-function gamedataVehicleModel_Record:EnumComment() return end
+function gamedataVehicleModel_Record:EnumComment() end
 
 ---@return String
-function gamedataVehicleModel_Record:EnumName() return end
+function gamedataVehicleModel_Record:EnumName() end
 
 ---@return gamedataVehicleModel
-function gamedataVehicleModel_Record:Type() return end
+function gamedataVehicleModel_Record:Type() end

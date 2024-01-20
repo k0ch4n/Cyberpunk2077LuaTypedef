@@ -1,42 +1,38 @@
 ---@meta
 
 ---@class TooltipProgessBarController: inkWidgetLogicController
----@field protected progressFill inkWidgetReference
----@field protected hintHolder inkWidgetReference
----@field protected progressHolder inkWidgetReference
----@field protected postprogressHolder inkWidgetReference
----@field protected hintTextHolder inkCompoundWidgetReference
----@field protected libraryPath inkWidgetLibraryReference
----@field protected postprogressText inkTextWidgetReference
----@field private isCraftable Bool
----@field private isCrafted Bool
+---@field progressFill inkWidgetReference
+---@field hintHolder inkWidgetReference
+---@field progressHolder inkWidgetReference
+---@field postprogressHolder inkWidgetReference
+---@field hintTextHolder inkCompoundWidgetReference
+---@field libraryPath inkWidgetLibraryReference
+---@field postprogressText inkTextWidgetReference
+---@field isCraftable Bool
+---@field isCrafted Bool
 TooltipProgessBarController = {}
 
 ---@param fields? TooltipProgessBarController
 ---@return TooltipProgessBarController
-function TooltipProgessBarController.new(fields) return end
+function TooltipProgessBarController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TooltipProgessBarController:OnHold(evt) return end
+function TooltipProgessBarController:OnHold(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TooltipProgessBarController:OnRelease(evt) return end
+function TooltipProgessBarController:OnRelease(evt) end
 
----@protected
 ---@return Bool
-function TooltipProgessBarController:OnUninitialize() return end
+function TooltipProgessBarController:OnUninitialize() end
 
----@private
 ---@param actionName CName|string
 ---@param label String
 ---@return nil
-function TooltipProgessBarController:AddButtonHints(actionName, label) return end
+function TooltipProgessBarController:AddButtonHints(actionName, label) end
 
 ---@param craftingMode CraftingMode
 ---@param isCraftable Bool
 ---@return nil
-function TooltipProgessBarController:SetProgressState(craftingMode, isCraftable) return end
+function TooltipProgessBarController:SetProgressState(craftingMode, isCraftable) end

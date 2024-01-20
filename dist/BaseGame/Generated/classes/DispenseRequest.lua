@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class DispenseRequest: MarketSystemRequest
----@field public position Vector4
----@field public itemID gameItemID
----@field public shouldPay Bool
+---@field position Vector4
+---@field itemID gameItemID
+---@field shouldPay Bool
 DispenseRequest = {}
 
 ---@param fields? DispenseRequest
 ---@return DispenseRequest
-function DispenseRequest.new(fields) return end
+function DispenseRequest.new(fields) end

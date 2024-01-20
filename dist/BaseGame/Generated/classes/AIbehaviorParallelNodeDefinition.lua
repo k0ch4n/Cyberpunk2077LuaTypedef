@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorParallelNodeDefinition: AIbehaviorCompositeTreeNodeDefinition
----@field public waitFor AIbehaviorParallelNodeWaitFor
+---@field waitFor AIbehaviorParallelNodeWaitFor
 AIbehaviorParallelNodeDefinition = {}
 
 ---@param fields? AIbehaviorParallelNodeDefinition
 ---@return AIbehaviorParallelNodeDefinition
-function AIbehaviorParallelNodeDefinition.new(fields) return end
+function AIbehaviorParallelNodeDefinition.new(fields) end

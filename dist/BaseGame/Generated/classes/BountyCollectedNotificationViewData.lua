@@ -5,8 +5,8 @@ BountyCollectedNotificationViewData = {}
 
 ---@param fields? BountyCollectedNotificationViewData
 ---@return BountyCollectedNotificationViewData
-function BountyCollectedNotificationViewData.new(fields) return end
+function BountyCollectedNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function BountyCollectedNotificationViewData:CanMerge(data) return end
+function BountyCollectedNotificationViewData:CanMerge(data) end

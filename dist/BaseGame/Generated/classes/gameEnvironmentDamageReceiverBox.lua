@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameEnvironmentDamageReceiverBox: gameEnvironmentDamageReceiverShape
----@field public dimensions Vector3
+---@field dimensions Vector3
 gameEnvironmentDamageReceiverBox = {}
 
 ---@param fields? gameEnvironmentDamageReceiverBox
 ---@return gameEnvironmentDamageReceiverBox
-function gameEnvironmentDamageReceiverBox.new(fields) return end
+function gameEnvironmentDamageReceiverBox.new(fields) end

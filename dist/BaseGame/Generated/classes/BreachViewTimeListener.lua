@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class BreachViewTimeListener: tickScriptTimeDilationListener
----@field public myOwner gameObject
+---@field myOwner gameObject
 BreachViewTimeListener = {}
 
 ---@param fields? BreachViewTimeListener
 ---@return BreachViewTimeListener
-function BreachViewTimeListener.new(fields) return end
+function BreachViewTimeListener.new(fields) end
 
----@protected
 ---@param reason CName|string
 ---@return Bool
-function BreachViewTimeListener:OnFinished(reason) return end
+function BreachViewTimeListener:OnFinished(reason) end
 
 ---@param owner gameObject
 ---@return nil
-function BreachViewTimeListener:SetOwner(owner) return end
+function BreachViewTimeListener:SetOwner(owner) end

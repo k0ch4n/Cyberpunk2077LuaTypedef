@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questAICommandNodeFunction
----@field public order Uint32
----@field public nodeType CName
----@field public commandCategory CName
----@field public friendlyName String
----@field public paramsType CName
----@field public nodeColor Color
+---@field order Uint32
+---@field nodeType CName
+---@field commandCategory CName
+---@field friendlyName String
+---@field paramsType CName
+---@field nodeColor Color
 questAICommandNodeFunction = {}
 
 ---@param fields? questAICommandNodeFunction
 ---@return questAICommandNodeFunction
-function questAICommandNodeFunction.new(fields) return end
+function questAICommandNodeFunction.new(fields) end

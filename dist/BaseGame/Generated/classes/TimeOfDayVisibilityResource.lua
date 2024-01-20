@@ -5,4 +5,4 @@ TimeOfDayVisibilityResource = {}
 
 ---@param fields? TimeOfDayVisibilityResource
 ---@return TimeOfDayVisibilityResource
-function TimeOfDayVisibilityResource.new(fields) return end
+function TimeOfDayVisibilityResource.new(fields) end

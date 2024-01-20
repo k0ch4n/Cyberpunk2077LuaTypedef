@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ObjectMoverStatus: redEvent
----@field public ownerName CName
----@field public direction EMovementDirection
+---@field ownerName CName
+---@field direction EMovementDirection
 ObjectMoverStatus = {}
 
 ---@param fields? ObjectMoverStatus
 ---@return ObjectMoverStatus
-function ObjectMoverStatus.new(fields) return end
+function ObjectMoverStatus.new(fields) end

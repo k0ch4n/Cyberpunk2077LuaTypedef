@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class HDRColor
----@field public Red Float
----@field public Green Float
----@field public Blue Float
----@field public Alpha Float
+---@field Red Float
+---@field Green Float
+---@field Blue Float
+---@field Alpha Float
 HDRColor = {}
 
 ---@param fields? HDRColor
 ---@return HDRColor
-function HDRColor.new(fields) return end
+function HDRColor.new(fields) end

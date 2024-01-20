@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckReaction: AIbehaviorconditionScript
----@field public reactionToCompare gamedataOutput
+---@field reactionToCompare gamedataOutput
 CheckReaction = {}
 
 ---@param fields? CheckReaction
 ---@return CheckReaction
-function CheckReaction.new(fields) return end
+function CheckReaction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckReaction:Check(context) return end
+function CheckReaction:Check(context) end

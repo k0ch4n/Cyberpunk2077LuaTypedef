@@ -5,4 +5,4 @@ gamemappinsCustomPositionMappin = {}
 
 ---@param fields? gamemappinsCustomPositionMappin
 ---@return gamemappinsCustomPositionMappin
-function gamemappinsCustomPositionMappin.new(fields) return end
+function gamemappinsCustomPositionMappin.new(fields) end

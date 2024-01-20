@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class ExampleNavigationTask: AIbehaviortaskScript
----@field private queryId Uint32
----@field private queryStarted Bool
+---@field queryId Uint32
+---@field queryStarted Bool
 ExampleNavigationTask = {}
 
 ---@param fields? ExampleNavigationTask
 ---@return ExampleNavigationTask
-function ExampleNavigationTask.new(fields) return end
+function ExampleNavigationTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ExampleNavigationTask:Activate(context) return end
+function ExampleNavigationTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ExampleNavigationTask:Deactivate(context) return end
+function ExampleNavigationTask:Deactivate(context) end

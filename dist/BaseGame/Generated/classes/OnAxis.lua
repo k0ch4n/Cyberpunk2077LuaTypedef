@@ -5,4 +5,4 @@ OnAxis = {}
 
 ---@param fields? OnAxis
 ---@return OnAxis
-function OnAxis.new(fields) return end
+function OnAxis.new(fields) end

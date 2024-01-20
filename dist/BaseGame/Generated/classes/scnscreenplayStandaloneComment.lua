@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnscreenplayStandaloneComment
----@field public itemId scnscreenplayItemId
----@field public comment String
+---@field itemId scnscreenplayItemId
+---@field comment String
 scnscreenplayStandaloneComment = {}
 
 ---@param fields? scnscreenplayStandaloneComment
 ---@return scnscreenplayStandaloneComment
-function scnscreenplayStandaloneComment.new(fields) return end
+function scnscreenplayStandaloneComment.new(fields) end

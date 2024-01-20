@@ -5,4 +5,4 @@ HUDButtonHints = {}
 
 ---@param fields? HUDButtonHints
 ---@return HUDButtonHints
-function HUDButtonHints.new(fields) return end
+function HUDButtonHints.new(fields) end

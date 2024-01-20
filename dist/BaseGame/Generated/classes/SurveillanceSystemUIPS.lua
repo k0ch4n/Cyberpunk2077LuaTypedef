@@ -5,21 +5,18 @@ SurveillanceSystemUIPS = {}
 
 ---@param fields? SurveillanceSystemUIPS
 ---@return SurveillanceSystemUIPS
-function SurveillanceSystemUIPS.new(fields) return end
+function SurveillanceSystemUIPS.new(fields) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function SurveillanceSystemUIPS:GetActions(context) return end
+function SurveillanceSystemUIPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function SurveillanceSystemUIPS:GetBackgroundTextureTweakDBID() return end
+function SurveillanceSystemUIPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SurveillanceSystemUIPS:GetDeviceIconTweakDBID() return end
+function SurveillanceSystemUIPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@param evt ToggleTakeOverControl
 ---@return EntityNotificationType
-function SurveillanceSystemUIPS:OnToggleTakeOverControl(evt) return end
+function SurveillanceSystemUIPS:OnToggleTakeOverControl(evt) end

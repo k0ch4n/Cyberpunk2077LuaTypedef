@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameJournalRootFolderEntry: gameJournalFolderEntry
----@field public descriptor gameJournalDescriptorResource
+---@field descriptor gameJournalDescriptorResource
 gameJournalRootFolderEntry = {}
 
 ---@param fields? gameJournalRootFolderEntry
 ---@return gameJournalRootFolderEntry
-function gameJournalRootFolderEntry.new(fields) return end
+function gameJournalRootFolderEntry.new(fields) end

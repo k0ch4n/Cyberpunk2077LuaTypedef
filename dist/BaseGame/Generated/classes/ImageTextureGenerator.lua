@@ -5,4 +5,4 @@ ImageTextureGenerator = {}
 
 ---@param fields? ImageTextureGenerator
 ---@return ImageTextureGenerator
-function ImageTextureGenerator.new(fields) return end
+function ImageTextureGenerator.new(fields) end

@@ -5,4 +5,4 @@ gameuiDelayedNextVOEvt = {}
 
 ---@param fields? gameuiDelayedNextVOEvt
 ---@return gameuiDelayedNextVOEvt
-function gameuiDelayedNextVOEvt.new(fields) return end
+function gameuiDelayedNextVOEvt.new(fields) end

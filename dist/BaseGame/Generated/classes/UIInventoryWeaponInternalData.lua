@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class UIInventoryWeaponInternalData: IScriptable
----@field public fetchedFlags Int32
----@field public WeaponType WeaponType
----@field public Evolution gamedataWeaponEvolution
----@field public PerkGroup gamedataPerkWeaponGroupType
----@field public GameplayDescription String
----@field public EmptySlots TweakDBID[]
----@field public UsedSlots TweakDBID[]
----@field public HasSilencerSlot Bool
----@field public HasScopeSlot Bool
----@field public HasSilencerInstalled Bool
----@field public HasScopeInstalled Bool
----@field public DamageMin Float
----@field public DamageMax Float
----@field public AttackSpeed Float
----@field public NumberOfPellets Int32
----@field public Ammo Int32
+---@field fetchedFlags Int32
+---@field WeaponType WeaponType
+---@field Evolution gamedataWeaponEvolution
+---@field PerkGroup gamedataPerkWeaponGroupType
+---@field GameplayDescription String
+---@field EmptySlots TweakDBID[]
+---@field UsedSlots TweakDBID[]
+---@field HasSilencerSlot Bool
+---@field HasScopeSlot Bool
+---@field HasSilencerInstalled Bool
+---@field HasScopeInstalled Bool
+---@field DamageMin Float
+---@field DamageMax Float
+---@field AttackSpeed Float
+---@field NumberOfPellets Int32
+---@field Ammo Int32
 UIInventoryWeaponInternalData = {}
 
 ---@param fields? UIInventoryWeaponInternalData
 ---@return UIInventoryWeaponInternalData
-function UIInventoryWeaponInternalData.new(fields) return end
+function UIInventoryWeaponInternalData.new(fields) end

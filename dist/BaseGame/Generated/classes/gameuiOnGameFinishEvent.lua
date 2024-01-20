@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiOnGameFinishEvent: redEvent
----@field public gameState gameuiMinigameState
----@field public gameName CName
+---@field gameState gameuiMinigameState
+---@field gameName CName
 gameuiOnGameFinishEvent = {}
 
 ---@param fields? gameuiOnGameFinishEvent
 ---@return gameuiOnGameFinishEvent
-function gameuiOnGameFinishEvent.new(fields) return end
+function gameuiOnGameFinishEvent.new(fields) end

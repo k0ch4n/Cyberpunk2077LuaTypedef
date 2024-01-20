@@ -5,4 +5,4 @@ gameEffectObjectFilter_NoPuppet = {}
 
 ---@param fields? gameEffectObjectFilter_NoPuppet
 ---@return gameEffectObjectFilter_NoPuppet
-function gameEffectObjectFilter_NoPuppet.new(fields) return end
+function gameEffectObjectFilter_NoPuppet.new(fields) end

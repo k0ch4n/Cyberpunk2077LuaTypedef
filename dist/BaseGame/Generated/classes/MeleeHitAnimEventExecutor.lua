@@ -1,52 +1,46 @@
 ---@meta
 
 ---@class MeleeHitAnimEventExecutor: gameEffectExecutor_Scripted
----@field private ignoreWaterImpacts Bool
+---@field ignoreWaterImpacts Bool
 MeleeHitAnimEventExecutor = {}
 
 ---@param fields? MeleeHitAnimEventExecutor
 ---@return MeleeHitAnimEventExecutor
-function MeleeHitAnimEventExecutor.new(fields) return end
+function MeleeHitAnimEventExecutor.new(fields) end
 
----@private
 ---@param instigator entEntity
 ---@param target entEntity
 ---@param instigatorWeapon gameweaponObject
 ---@param targetWeapon gameweaponObject
 ---@param strongAttack Bool
 ---@return Bool
-function MeleeHitAnimEventExecutor:CanAttackGuardBreak(instigator, target, instigatorWeapon, targetWeapon, strongAttack) return end
+function MeleeHitAnimEventExecutor:CanAttackGuardBreak(instigator, target, instigatorWeapon, targetWeapon, strongAttack) end
 
----@private
 ---@param path String
 ---@return nil, senseStimuliEvent stimToProcess
-function MeleeHitAnimEventExecutor:GetStimuliData(path) return end
+function MeleeHitAnimEventExecutor:GetStimuliData(path) end
 
----@private
 ---@param target ScriptedPuppet
 ---@return gameweaponObject
-function MeleeHitAnimEventExecutor:GetTargetWeapon(target) return end
-
----@private
----@param ctx gameEffectScriptContext
----@param applierCtx gameEffectExecutionScriptContext
----@return Bool
-function MeleeHitAnimEventExecutor:IsMuted(ctx, applierCtx) return end
+function MeleeHitAnimEventExecutor:GetTargetWeapon(target) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function MeleeHitAnimEventExecutor:Process(ctx, applierCtx) return end
+function MeleeHitAnimEventExecutor:IsMuted(ctx, applierCtx) end
 
----@private
+---@param ctx gameEffectScriptContext
+---@param applierCtx gameEffectExecutionScriptContext
+---@return Bool
+function MeleeHitAnimEventExecutor:Process(ctx, applierCtx) end
+
 ---@param instigatorWeapon gameweaponObject
 ---@param targetWeapon gameweaponObject
 ---@return nil
-function MeleeHitAnimEventExecutor:SpawnBlockEffects(instigatorWeapon, targetWeapon) return end
+function MeleeHitAnimEventExecutor:SpawnBlockEffects(instigatorWeapon, targetWeapon) end
 
----@private
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@param stimToSend gamedataStimType
 ---@return nil
-function MeleeHitAnimEventExecutor:TriggerSingleStimuliOnHit(ctx, applierCtx, stimToSend) return end
+function MeleeHitAnimEventExecutor:TriggerSingleStimuliOnHit(ctx, applierCtx, stimToSend) end

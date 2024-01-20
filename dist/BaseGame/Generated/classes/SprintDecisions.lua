@@ -1,46 +1,40 @@
 ---@meta
 
 ---@class SprintDecisions: LocomotionGroundDecisions
----@field private sprintPressed Bool
----@field private toggleSprintPressed Bool
----@field private dodgeForwardPressed Bool
+---@field sprintPressed Bool
+---@field toggleSprintPressed Bool
+---@field dodgeForwardPressed Bool
 SprintDecisions = {}
 
 ---@param fields? SprintDecisions
 ---@return SprintDecisions
-function SprintDecisions.new(fields) return end
+function SprintDecisions.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SprintDecisions.IsWreckingBallAllowed(scriptInterface) return end
+function SprintDecisions.IsWreckingBallAllowed(scriptInterface) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function SprintDecisions:OnAction(action, consumer) return end
+function SprintDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SprintDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SprintDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintDecisions:OnAttach(stateContext, scriptInterface) return end
+function SprintDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintDecisions:OnDetach(stateContext, scriptInterface) return end
+function SprintDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SprintDecisions:ToStand(stateContext, scriptInterface) return end
+function SprintDecisions:ToStand(stateContext, scriptInterface) end

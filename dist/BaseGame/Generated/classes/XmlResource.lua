@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class XmlResource: CResource
----@field public data String
+---@field data String
 XmlResource = {}
 
 ---@param fields? XmlResource
 ---@return XmlResource
-function XmlResource.new(fields) return end
+function XmlResource.new(fields) end

@@ -5,4 +5,4 @@ ReenableColliderEvent = {}
 
 ---@param fields? ReenableColliderEvent
 ---@return ReenableColliderEvent
-function ReenableColliderEvent.new(fields) return end
+function ReenableColliderEvent.new(fields) end

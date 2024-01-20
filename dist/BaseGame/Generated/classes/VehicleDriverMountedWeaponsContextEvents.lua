@@ -5,4 +5,4 @@ VehicleDriverMountedWeaponsContextEvents = {}
 
 ---@param fields? VehicleDriverMountedWeaponsContextEvents
 ---@return VehicleDriverMountedWeaponsContextEvents
-function VehicleDriverMountedWeaponsContextEvents.new(fields) return end
+function VehicleDriverMountedWeaponsContextEvents.new(fields) end

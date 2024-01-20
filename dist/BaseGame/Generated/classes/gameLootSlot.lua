@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameLootSlot: gameLootContainerBase
----@field public immovableAfterDrop Bool
----@field public dropChance Float
----@field public lootState gameLootSlotState
+---@field immovableAfterDrop Bool
+---@field dropChance Float
+---@field lootState gameLootSlotState
 gameLootSlot = {}
 
 ---@param fields? gameLootSlot
 ---@return gameLootSlot
-function gameLootSlot.new(fields) return end
+function gameLootSlot.new(fields) end

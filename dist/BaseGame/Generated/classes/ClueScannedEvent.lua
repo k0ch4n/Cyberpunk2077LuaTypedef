@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ClueScannedEvent: redEvent
----@field public clueIndex Int32
----@field public requesterID entEntityID
+---@field clueIndex Int32
+---@field requesterID entEntityID
 ClueScannedEvent = {}
 
 ---@param fields? ClueScannedEvent
 ---@return ClueScannedEvent
-function ClueScannedEvent.new(fields) return end
+function ClueScannedEvent.new(fields) end

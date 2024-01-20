@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class AssignRestrictMovementAreaTask: AIbehaviortaskScript
----@field public restrictMovementAreaRef AIArgumentMapping
+---@field restrictMovementAreaRef AIArgumentMapping
 AssignRestrictMovementAreaTask = {}
 
 ---@param fields? AssignRestrictMovementAreaTask
 ---@return AssignRestrictMovementAreaTask
-function AssignRestrictMovementAreaTask.new(fields) return end
+function AssignRestrictMovementAreaTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AssignRestrictMovementAreaTask:Update(context) return end
+function AssignRestrictMovementAreaTask:Update(context) end

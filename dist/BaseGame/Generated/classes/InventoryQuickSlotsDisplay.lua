@@ -5,4 +5,4 @@ InventoryQuickSlotsDisplay = {}
 
 ---@param fields? InventoryQuickSlotsDisplay
 ---@return InventoryQuickSlotsDisplay
-function InventoryQuickSlotsDisplay.new(fields) return end
+function InventoryQuickSlotsDisplay.new(fields) end

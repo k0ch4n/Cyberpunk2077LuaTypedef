@@ -5,130 +5,130 @@ gamedataControlledLootSet_Record = {}
 
 ---@param fields? gamedataControlledLootSet_Record
 ---@return gamedataControlledLootSet_Record
-function gamedataControlledLootSet_Record.new(fields) return end
+function gamedataControlledLootSet_Record.new(fields) end
 
 ---@return Bool
-function gamedataControlledLootSet_Record:BlocksFromNPCs() return end
+function gamedataControlledLootSet_Record:BlocksFromNPCs() end
 
 ---@return Bool
-function gamedataControlledLootSet_Record:BlocksInContainers() return end
+function gamedataControlledLootSet_Record:BlocksInContainers() end
 
 ---@return Float
-function gamedataControlledLootSet_Record:ChanceBase() return end
+function gamedataControlledLootSet_Record:ChanceBase() end
 
 ---@return Float
-function gamedataControlledLootSet_Record:ChanceIncreasePerAttempt() return end
+function gamedataControlledLootSet_Record:ChanceIncreasePerAttempt() end
 
 ---@return Float
-function gamedataControlledLootSet_Record:ChanceMax() return end
+function gamedataControlledLootSet_Record:ChanceMax() end
 
 ---@return Bool
-function gamedataControlledLootSet_Record:DropsFromNPCs() return end
+function gamedataControlledLootSet_Record:DropsFromNPCs() end
 
 ---@return Bool
-function gamedataControlledLootSet_Record:DropsInContainers() return end
+function gamedataControlledLootSet_Record:DropsInContainers() end
 
 ---@return nil, gamedataContainerType_Record[] outList
-function gamedataControlledLootSet_Record:ExcludedContainerTypes() return end
+function gamedataControlledLootSet_Record:ExcludedContainerTypes() end
 
 ---@param item gamedataContainerType_Record
 ---@return Bool
-function gamedataControlledLootSet_Record:ExcludedContainerTypesContains(item) return end
+function gamedataControlledLootSet_Record:ExcludedContainerTypesContains(item) end
 
 ---@return Int32
-function gamedataControlledLootSet_Record:GetExcludedContainerTypesCount() return end
+function gamedataControlledLootSet_Record:GetExcludedContainerTypesCount() end
 
 ---@param index Int32
 ---@return gamedataContainerType_Record
-function gamedataControlledLootSet_Record:GetExcludedContainerTypesItem(index) return end
+function gamedataControlledLootSet_Record:GetExcludedContainerTypesItem(index) end
 
 ---@param index Int32
 ---@return gamedataContainerType_Record
-function gamedataControlledLootSet_Record:GetExcludedContainerTypesItemHandle(index) return end
+function gamedataControlledLootSet_Record:GetExcludedContainerTypesItemHandle(index) end
 
 ---@return Int32
-function gamedataControlledLootSet_Record:GetLootItemsCount() return end
+function gamedataControlledLootSet_Record:GetLootItemsCount() end
 
 ---@param index Int32
 ---@return gamedataLootItem_Record
-function gamedataControlledLootSet_Record:GetLootItemsItem(index) return end
+function gamedataControlledLootSet_Record:GetLootItemsItem(index) end
 
 ---@param index Int32
 ---@return gamedataLootItem_Record
-function gamedataControlledLootSet_Record:GetLootItemsItemHandle(index) return end
+function gamedataControlledLootSet_Record:GetLootItemsItemHandle(index) end
 
 ---@return Int32
-function gamedataControlledLootSet_Record:GetReplacementLootItemsCount() return end
+function gamedataControlledLootSet_Record:GetReplacementLootItemsCount() end
 
 ---@param index Int32
 ---@return gamedataLootItem_Record
-function gamedataControlledLootSet_Record:GetReplacementLootItemsItem(index) return end
+function gamedataControlledLootSet_Record:GetReplacementLootItemsItem(index) end
 
 ---@param index Int32
 ---@return gamedataLootItem_Record
-function gamedataControlledLootSet_Record:GetReplacementLootItemsItemHandle(index) return end
+function gamedataControlledLootSet_Record:GetReplacementLootItemsItemHandle(index) end
 
 ---@return Int32
-function gamedataControlledLootSet_Record:GetReplacementQueriesCount() return end
+function gamedataControlledLootSet_Record:GetReplacementQueriesCount() end
 
 ---@param index Int32
 ---@return gamedataItemQueryElement_Record
-function gamedataControlledLootSet_Record:GetReplacementQueriesItem(index) return end
+function gamedataControlledLootSet_Record:GetReplacementQueriesItem(index) end
 
 ---@param index Int32
 ---@return gamedataItemQueryElement_Record
-function gamedataControlledLootSet_Record:GetReplacementQueriesItemHandle(index) return end
+function gamedataControlledLootSet_Record:GetReplacementQueriesItemHandle(index) end
 
 ---@return Bool
-function gamedataControlledLootSet_Record:ItemsInSetShareDropCount() return end
+function gamedataControlledLootSet_Record:ItemsInSetShareDropCount() end
 
 ---@return nil, gamedataLootItem_Record[] outList
-function gamedataControlledLootSet_Record:LootItems() return end
+function gamedataControlledLootSet_Record:LootItems() end
 
 ---@param item gamedataLootItem_Record
 ---@return Bool
-function gamedataControlledLootSet_Record:LootItemsContains(item) return end
+function gamedataControlledLootSet_Record:LootItemsContains(item) end
 
 ---@return Int32
-function gamedataControlledLootSet_Record:MaxDrops() return end
+function gamedataControlledLootSet_Record:MaxDrops() end
 
 ---@return Bool
-function gamedataControlledLootSet_Record:MaxDropsGloballyShared() return end
+function gamedataControlledLootSet_Record:MaxDropsGloballyShared() end
 
 ---@return Float
-function gamedataControlledLootSet_Record:MaxDropsPerLevel() return end
+function gamedataControlledLootSet_Record:MaxDropsPerLevel() end
 
 ---@return gamedataIPrereq_Record
-function gamedataControlledLootSet_Record:NpcPrereqID() return end
+function gamedataControlledLootSet_Record:NpcPrereqID() end
 
 ---@return gamedataIPrereq_Record
-function gamedataControlledLootSet_Record:NpcPrereqIDHandle() return end
+function gamedataControlledLootSet_Record:NpcPrereqIDHandle() end
 
 ---@return gamedataIPrereq_Record
-function gamedataControlledLootSet_Record:PlayerPrereqID() return end
+function gamedataControlledLootSet_Record:PlayerPrereqID() end
 
 ---@return gamedataIPrereq_Record
-function gamedataControlledLootSet_Record:PlayerPrereqIDHandle() return end
+function gamedataControlledLootSet_Record:PlayerPrereqIDHandle() end
 
 ---@return Float
-function gamedataControlledLootSet_Record:ProgressionBasedChanceBonus() return end
+function gamedataControlledLootSet_Record:ProgressionBasedChanceBonus() end
 
 ---@return Float
-function gamedataControlledLootSet_Record:ProgressionBasedThreshold() return end
+function gamedataControlledLootSet_Record:ProgressionBasedThreshold() end
 
 ---@return nil, gamedataLootItem_Record[] outList
-function gamedataControlledLootSet_Record:ReplacementLootItems() return end
+function gamedataControlledLootSet_Record:ReplacementLootItems() end
 
 ---@param item gamedataLootItem_Record
 ---@return Bool
-function gamedataControlledLootSet_Record:ReplacementLootItemsContains(item) return end
+function gamedataControlledLootSet_Record:ReplacementLootItemsContains(item) end
 
 ---@return nil, gamedataItemQueryElement_Record[] outList
-function gamedataControlledLootSet_Record:ReplacementQueries() return end
+function gamedataControlledLootSet_Record:ReplacementQueries() end
 
 ---@param item gamedataItemQueryElement_Record
 ---@return Bool
-function gamedataControlledLootSet_Record:ReplacementQueriesContains(item) return end
+function gamedataControlledLootSet_Record:ReplacementQueriesContains(item) end
 
 ---@return Bool
-function gamedataControlledLootSet_Record:RollOverDropsPerLevel() return end
+function gamedataControlledLootSet_Record:RollOverDropsPerLevel() end

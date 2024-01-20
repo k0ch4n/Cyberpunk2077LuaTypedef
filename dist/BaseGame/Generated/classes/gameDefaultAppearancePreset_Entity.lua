@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameDefaultAppearancePreset_Entity: ISerializable
----@field public entityPathHash Uint64
----@field public debugEntityPath CName
----@field public defaultAppearanceName CName
+---@field entityPathHash Uint64
+---@field debugEntityPath CName
+---@field defaultAppearanceName CName
 gameDefaultAppearancePreset_Entity = {}
 
 ---@param fields? gameDefaultAppearancePreset_Entity
 ---@return gameDefaultAppearancePreset_Entity
-function gameDefaultAppearancePreset_Entity.new(fields) return end
+function gameDefaultAppearancePreset_Entity.new(fields) end

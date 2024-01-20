@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class ForceCLSStateRequest: gameScriptableSystemRequest
----@field public state ECLSForcedState
----@field public sourceName CName
----@field public priority EPriority
----@field public removePreviousRequests Bool
----@field public savable Bool
+---@field state ECLSForcedState
+---@field sourceName CName
+---@field priority EPriority
+---@field removePreviousRequests Bool
+---@field savable Bool
 ForceCLSStateRequest = {}
 
 ---@param fields? ForceCLSStateRequest
 ---@return ForceCLSStateRequest
-function ForceCLSStateRequest.new(fields) return end
+function ForceCLSStateRequest.new(fields) end
 
 ---@return String
-function ForceCLSStateRequest:GetFriendlyDescription() return end
+function ForceCLSStateRequest:GetFriendlyDescription() end

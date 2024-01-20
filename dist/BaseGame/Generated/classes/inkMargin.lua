@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class inkMargin
----@field public left Float
----@field public top Float
----@field public right Float
----@field public bottom Float
+---@field left Float
+---@field top Float
+---@field right Float
+---@field bottom Float
 inkMargin = {}
 
 ---@param fields? inkMargin
 ---@return inkMargin
-function inkMargin.new(fields) return end
+function inkMargin.new(fields) end
 
 ---@param self inkMargin
 ---@param uniformThickness Float
 ---@return nil
-function inkMargin.SetUniform(self, uniformThickness) return end
+function inkMargin.SetUniform(self, uniformThickness) end

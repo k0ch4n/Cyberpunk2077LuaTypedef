@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class GetRandomPositionAroundPoint: AIRandomTasks
----@field public originPoint AIArgumentMapping
----@field public distanceMin AIArgumentMapping
----@field public distanceMax AIArgumentMapping
----@field public angleMin AIArgumentMapping
----@field public angleMax AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
----@field protected finalPosition Vector4
+---@field originPoint AIArgumentMapping
+---@field distanceMin AIArgumentMapping
+---@field distanceMax AIArgumentMapping
+---@field angleMin AIArgumentMapping
+---@field angleMax AIArgumentMapping
+---@field outPositionArgument AIArgumentMapping
+---@field finalPosition Vector4
 GetRandomPositionAroundPoint = {}
 
 ---@param fields? GetRandomPositionAroundPoint
 ---@return GetRandomPositionAroundPoint
-function GetRandomPositionAroundPoint.new(fields) return end
+function GetRandomPositionAroundPoint.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetRandomPositionAroundPoint:Activate(context) return end
+function GetRandomPositionAroundPoint:Activate(context) end

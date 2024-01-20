@@ -5,4 +5,4 @@ UIObjectsLoaderSystemListener = {}
 
 ---@param fields? UIObjectsLoaderSystemListener
 ---@return UIObjectsLoaderSystemListener
-function UIObjectsLoaderSystemListener.new(fields) return end
+function UIObjectsLoaderSystemListener.new(fields) end

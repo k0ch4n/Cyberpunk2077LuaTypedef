@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimSetupEntry
----@field public priority Uint8
----@field public animSet animAnimSet
----@field public variableNames CName[]
+---@field priority Uint8
+---@field animSet animAnimSet
+---@field variableNames CName[]
 animAnimSetupEntry = {}
 
 ---@param fields? animAnimSetupEntry
 ---@return animAnimSetupEntry
-function animAnimSetupEntry.new(fields) return end
+function animAnimSetupEntry.new(fields) end

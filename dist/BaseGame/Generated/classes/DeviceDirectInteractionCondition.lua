@@ -5,9 +5,9 @@ DeviceDirectInteractionCondition = {}
 
 ---@param fields? DeviceDirectInteractionCondition
 ---@return DeviceDirectInteractionCondition
-function DeviceDirectInteractionCondition.new(fields) return end
+function DeviceDirectInteractionCondition.new(fields) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@return Bool
-function DeviceDirectInteractionCondition:Test(activatorObject, hotSpotObject) return end
+function DeviceDirectInteractionCondition:Test(activatorObject, hotSpotObject) end

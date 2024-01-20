@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questProgressBar_NodeType: questIUIManagerNodeType
----@field public show Bool
----@field public duration Float
----@field public text LocalizationString
----@field public bottomText LocalizationString
----@field public type gameSimpleMessageType
+---@field show Bool
+---@field duration Float
+---@field text LocalizationString
+---@field bottomText LocalizationString
+---@field type gameSimpleMessageType
 questProgressBar_NodeType = {}
 
 ---@param fields? questProgressBar_NodeType
 ---@return questProgressBar_NodeType
-function questProgressBar_NodeType.new(fields) return end
+function questProgressBar_NodeType.new(fields) end

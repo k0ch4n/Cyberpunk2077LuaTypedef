@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioConversationItemMetadata
----@field public sceneFile CName
----@field public characterConditions audioConversationCharacterCondition[]
----@field public shouldSceneInstanceBeSaved Bool
+---@field sceneFile CName
+---@field characterConditions audioConversationCharacterCondition[]
+---@field shouldSceneInstanceBeSaved Bool
 audioConversationItemMetadata = {}
 
 ---@param fields? audioConversationItemMetadata
 ---@return audioConversationItemMetadata
-function audioConversationItemMetadata.new(fields) return end
+function audioConversationItemMetadata.new(fields) end

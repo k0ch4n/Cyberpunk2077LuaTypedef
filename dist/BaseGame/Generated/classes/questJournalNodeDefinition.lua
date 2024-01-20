@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questJournalNodeDefinition: questSignalStoppingNodeDefinition
----@field public type questIJournal_NodeType
+---@field type questIJournal_NodeType
 questJournalNodeDefinition = {}
 
 ---@param fields? questJournalNodeDefinition
 ---@return questJournalNodeDefinition
-function questJournalNodeDefinition.new(fields) return end
+function questJournalNodeDefinition.new(fields) end

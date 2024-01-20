@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OnReserveWorkspotEvent: OnWorkspotAvailabilityEvent
----@field public action gamedataWorkspotActionType
+---@field action gamedataWorkspotActionType
 OnReserveWorkspotEvent = {}
 
 ---@param fields? OnReserveWorkspotEvent
 ---@return OnReserveWorkspotEvent
-function OnReserveWorkspotEvent.new(fields) return end
+function OnReserveWorkspotEvent.new(fields) end

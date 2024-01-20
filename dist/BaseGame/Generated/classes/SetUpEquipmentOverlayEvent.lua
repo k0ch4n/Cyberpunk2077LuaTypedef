@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SetUpEquipmentOverlayEvent: redEvent
----@field public meshOverlayEffectName CName
----@field public meshOverlayEffectTag CName
----@field public meshOverlaySlots TweakDBID[]
+---@field meshOverlayEffectName CName
+---@field meshOverlayEffectTag CName
+---@field meshOverlaySlots TweakDBID[]
 SetUpEquipmentOverlayEvent = {}
 
 ---@param fields? SetUpEquipmentOverlayEvent
 ---@return SetUpEquipmentOverlayEvent
-function SetUpEquipmentOverlayEvent.new(fields) return end
+function SetUpEquipmentOverlayEvent.new(fields) end

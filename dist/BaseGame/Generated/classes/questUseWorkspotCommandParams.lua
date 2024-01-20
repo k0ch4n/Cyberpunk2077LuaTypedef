@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questUseWorkspotCommandParams: questAICommandParams
----@field public workspotNode NodeRef
----@field public moveToWorkspot Bool
----@field public forceEntryAnimName CName
+---@field workspotNode NodeRef
+---@field moveToWorkspot Bool
+---@field forceEntryAnimName CName
 questUseWorkspotCommandParams = {}
 
 ---@param fields? questUseWorkspotCommandParams
 ---@return questUseWorkspotCommandParams
-function questUseWorkspotCommandParams.new(fields) return end
+function questUseWorkspotCommandParams.new(fields) end

@@ -1,142 +1,122 @@
 ---@meta
 
 ---@class MenuHubGameController: gameuiMenuGameController
----@field private menusData MenuDataBuilder
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private menuCtrl MenuHubLogicController
----@field private metaCtrl MetaQuestLogicController
----@field private subMenuCtrl SubMenuPanelLogicController
----@field private timeCtrl HubTimeSkipController
----@field private player PlayerPuppet
----@field private playerDevSystem PlayerDevelopmentSystem
----@field private transaction gameTransactionSystem
----@field private playerStatsBlackboard gameIBlackboard
----@field private hubMenuBlackboard gameIBlackboard
----@field private characterCredListener redCallbackObject
----@field private characterLevelListener redCallbackObject
----@field private characterCurrentXPListener redCallbackObject
----@field private characterCredPointsListener redCallbackObject
----@field private weightListener redCallbackObject
----@field private maxWeightListener redCallbackObject
----@field private submenuHiddenListener redCallbackObject
----@field private metaQuestStatusListener redCallbackObject
----@field private journalManager gameJournalManager
----@field private trackedEntry gameJournalQuestObjective
----@field private trackedPhase gameJournalQuestPhase
----@field private trackedQuest gameJournalQuest
----@field private notificationRoot inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private bgFluff inkWidgetReference
----@field private dataManager PlayerDevelopmentDataManager
----@field private buttonHintsController ButtonHints
----@field private gameTimeContainer inkWidgetReference
----@field private gameTimeController gameuiTimeDisplayLogicController
----@field private inventoryListener gameInventoryScriptListener
----@field private callback CurrencyUpdateCallback
----@field public hubMenuInstanceID Uint32
----@field public previousRequest OpenMenuRequest
----@field public currentRequest OpenMenuRequest
+---@field menusData MenuDataBuilder
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field menuCtrl MenuHubLogicController
+---@field metaCtrl MetaQuestLogicController
+---@field subMenuCtrl SubMenuPanelLogicController
+---@field timeCtrl HubTimeSkipController
+---@field player PlayerPuppet
+---@field playerDevSystem PlayerDevelopmentSystem
+---@field transaction gameTransactionSystem
+---@field playerStatsBlackboard gameIBlackboard
+---@field hubMenuBlackboard gameIBlackboard
+---@field characterCredListener redCallbackObject
+---@field characterLevelListener redCallbackObject
+---@field characterCurrentXPListener redCallbackObject
+---@field characterCredPointsListener redCallbackObject
+---@field weightListener redCallbackObject
+---@field maxWeightListener redCallbackObject
+---@field submenuHiddenListener redCallbackObject
+---@field metaQuestStatusListener redCallbackObject
+---@field journalManager gameJournalManager
+---@field trackedEntry gameJournalQuestObjective
+---@field trackedPhase gameJournalQuestPhase
+---@field trackedQuest gameJournalQuest
+---@field notificationRoot inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field bgFluff inkWidgetReference
+---@field dataManager PlayerDevelopmentDataManager
+---@field buttonHintsController ButtonHints
+---@field gameTimeContainer inkWidgetReference
+---@field gameTimeController gameuiTimeDisplayLogicController
+---@field inventoryListener gameInventoryScriptListener
+---@field callback CurrencyUpdateCallback
+---@field hubMenuInstanceID Uint32
+---@field previousRequest OpenMenuRequest
+---@field currentRequest OpenMenuRequest
 MenuHubGameController = {}
 
 ---@param fields? MenuHubGameController
 ---@return MenuHubGameController
-function MenuHubGameController.new(fields) return end
+function MenuHubGameController.new(fields) end
 
----@protected
 ---@param evt BackActionCallback
 ---@return Bool
-function MenuHubGameController:OnBackActionCallback(evt) return end
+function MenuHubGameController:OnBackActionCallback(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function MenuHubGameController:OnButtonRelease(evt) return end
+function MenuHubGameController:OnButtonRelease(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function MenuHubGameController:OnCharacterLevelCurrentXPUpdated(value) return end
+function MenuHubGameController:OnCharacterLevelCurrentXPUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function MenuHubGameController:OnCharacterLevelUpdated(value) return end
+function MenuHubGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function MenuHubGameController:OnCharacterStreetCredLevelUpdated(value) return end
+function MenuHubGameController:OnCharacterStreetCredLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function MenuHubGameController:OnCharacterStreetCredPointsUpdated(value) return end
+function MenuHubGameController:OnCharacterStreetCredPointsUpdated(value) end
 
----@protected
 ---@param evt CyberwareTabModsRequest
 ---@return Bool
-function MenuHubGameController:OnCyberwareModsRequest(evt) return end
+function MenuHubGameController:OnCyberwareModsRequest(evt) end
 
----@protected
 ---@param evt DropQueueUpdatedEvent
 ---@return Bool
-function MenuHubGameController:OnDropQueueUpdatedEvent(evt) return end
+function MenuHubGameController:OnDropQueueUpdatedEvent(evt) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuHubGameController:OnHubMenuInstanceData(userData) return end
+function MenuHubGameController:OnHubMenuInstanceData(userData) end
 
----@protected
 ---@return Bool
-function MenuHubGameController:OnInitialize() return end
+function MenuHubGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function MenuHubGameController:OnMetaQuestStatusUpdated(value) return end
+function MenuHubGameController:OnMetaQuestStatusUpdated(value) end
 
----@protected
 ---@param evt OpenMenuRequest
 ---@return Bool
-function MenuHubGameController:OnOpenMenuRequest(evt) return end
+function MenuHubGameController:OnOpenMenuRequest(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function MenuHubGameController:OnPlayerMaxWeightUpdated(value) return end
+function MenuHubGameController:OnPlayerMaxWeightUpdated(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function MenuHubGameController:OnPlayerWeightUpdated(value) return end
+function MenuHubGameController:OnPlayerWeightUpdated(value) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function MenuHubGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function MenuHubGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function MenuHubGameController:OnSubmenuHiddenUpdated(value) return end
+function MenuHubGameController:OnSubmenuHiddenUpdated(value) end
 
----@protected
 ---@return Bool
-function MenuHubGameController:OnUninitialize() return end
+function MenuHubGameController:OnUninitialize() end
 
 ---@param dropQueueWeight? Float
 ---@return nil
-function MenuHubGameController:HandlePlayerWeightUpdated(dropQueueWeight) return end
+function MenuHubGameController:HandlePlayerWeightUpdated(dropQueueWeight) end
 
----@private
 ---@return nil
-function MenuHubGameController:InitMenusData() return end
+function MenuHubGameController:InitMenusData() end
 
----@private
 ---@return nil
-function MenuHubGameController:SetupBlackboards() return end
+function MenuHubGameController:SetupBlackboards() end
 
----@private
 ---@return nil
-function MenuHubGameController:UpdateTimeDisplay() return end
+function MenuHubGameController:UpdateTimeDisplay() end

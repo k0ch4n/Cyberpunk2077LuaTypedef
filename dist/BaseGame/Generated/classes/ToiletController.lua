@@ -5,7 +5,7 @@ ToiletController = {}
 
 ---@param fields? ToiletController
 ---@return ToiletController
-function ToiletController.new(fields) return end
+function ToiletController.new(fields) end
 
 ---@return ToiletControllerPS
-function ToiletController:GetPS() return end
+function ToiletController:GetPS() end

@@ -5,4 +5,4 @@ entTransformComponent = {}
 
 ---@param fields? entTransformComponent
 ---@return entTransformComponent
-function entTransformComponent.new(fields) return end
+function entTransformComponent.new(fields) end

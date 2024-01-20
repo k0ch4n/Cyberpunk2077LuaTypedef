@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class animAnimEvent: ISerializable
----@field public startFrame Uint32
----@field public durationInFrames Uint32
----@field public eventName CName
+---@field startFrame Uint32
+---@field durationInFrames Uint32
+---@field eventName CName
 animAnimEvent = {}

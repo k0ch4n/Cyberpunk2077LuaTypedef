@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkInputDevicesMappingsJSON
----@field public devices CName[]
----@field public mappings inkInputIconMappingJSON[]
+---@field devices CName[]
+---@field mappings inkInputIconMappingJSON[]
 inkInputDevicesMappingsJSON = {}
 
 ---@param fields? inkInputDevicesMappingsJSON
 ---@return inkInputDevicesMappingsJSON
-function inkInputDevicesMappingsJSON.new(fields) return end
+function inkInputDevicesMappingsJSON.new(fields) end

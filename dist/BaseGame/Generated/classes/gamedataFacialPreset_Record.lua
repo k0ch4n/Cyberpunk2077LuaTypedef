@@ -5,16 +5,16 @@ gamedataFacialPreset_Record = {}
 
 ---@param fields? gamedataFacialPreset_Record
 ---@return gamedataFacialPreset_Record
-function gamedataFacialPreset_Record.new(fields) return end
+function gamedataFacialPreset_Record.new(fields) end
 
 ---@return Bool
-function gamedataFacialPreset_Record:EyesBlendAdditive() return end
+function gamedataFacialPreset_Record:EyesBlendAdditive() end
 
 ---@return Bool
-function gamedataFacialPreset_Record:LowerFaceBlendAdditive() return end
+function gamedataFacialPreset_Record:LowerFaceBlendAdditive() end
 
 ---@return CName
-function gamedataFacialPreset_Record:ProfileName() return end
+function gamedataFacialPreset_Record:ProfileName() end
 
 ---@return Bool
-function gamedataFacialPreset_Record:UpperFaceBlendAdditive() return end
+function gamedataFacialPreset_Record:UpperFaceBlendAdditive() end

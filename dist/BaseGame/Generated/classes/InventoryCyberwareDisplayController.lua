@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class InventoryCyberwareDisplayController: InventoryItemDisplayController
----@field protected ownedFrame inkWidgetReference
----@field protected selectedFrame inkWidgetReference
----@field protected amountPanel inkWidgetReference
----@field protected amount inkTextWidgetReference
+---@field ownedFrame inkWidgetReference
+---@field selectedFrame inkWidgetReference
+---@field amountPanel inkWidgetReference
+---@field amount inkTextWidgetReference
 InventoryCyberwareDisplayController = {}
 
 ---@param fields? InventoryCyberwareDisplayController
 ---@return InventoryCyberwareDisplayController
-function InventoryCyberwareDisplayController.new(fields) return end
+function InventoryCyberwareDisplayController.new(fields) end
 
 ---@return nil
-function InventoryCyberwareDisplayController:Select() return end
+function InventoryCyberwareDisplayController:Select() end
 
 ---@param amount Int32
 ---@return nil
-function InventoryCyberwareDisplayController:SetAmountOfNewItem(amount) return end
+function InventoryCyberwareDisplayController:SetAmountOfNewItem(amount) end
 
 ---@return nil
-function InventoryCyberwareDisplayController:Unselect() return end
+function InventoryCyberwareDisplayController:Unselect() end

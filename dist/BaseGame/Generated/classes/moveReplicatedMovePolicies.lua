@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class moveReplicatedMovePolicies: entReplicatedItem
----@field public key Uint64
----@field public policies movePolicies
+---@field key Uint64
+---@field policies movePolicies
 moveReplicatedMovePolicies = {}
 
 ---@param fields? moveReplicatedMovePolicies
 ---@return moveReplicatedMovePolicies
-function moveReplicatedMovePolicies.new(fields) return end
+function moveReplicatedMovePolicies.new(fields) end

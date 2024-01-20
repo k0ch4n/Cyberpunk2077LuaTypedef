@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gamestateMachineStateContextConsumableParameters
----@field public boolParameters gamestateMachineConsumableParameterBool
----@field public intParameters gamestateMachineConsumableParameterInt
----@field public floatParameters gamestateMachineConsumableParameterFloat
----@field public doubleParameters gamestateMachineConsumableParameterDouble
----@field public vectorParameters gamestateMachineConsumableParameterVector
----@field public CNameParameters gamestateMachineConsumableParameterCName
----@field public IScriptableParameters gamestateMachineConsumableParameterIScriptable
----@field public weakIScriptableParameters gamestateMachineConsumableParameterWeakIScriptable
----@field public tweakDBIDParameters gamestateMachineConsumableParameterTweakDBID
+---@field boolParameters gamestateMachineConsumableParameterBool
+---@field intParameters gamestateMachineConsumableParameterInt
+---@field floatParameters gamestateMachineConsumableParameterFloat
+---@field doubleParameters gamestateMachineConsumableParameterDouble
+---@field vectorParameters gamestateMachineConsumableParameterVector
+---@field CNameParameters gamestateMachineConsumableParameterCName
+---@field IScriptableParameters gamestateMachineConsumableParameterIScriptable
+---@field weakIScriptableParameters gamestateMachineConsumableParameterWeakIScriptable
+---@field tweakDBIDParameters gamestateMachineConsumableParameterTweakDBID
 gamestateMachineStateContextConsumableParameters = {}
 
 ---@param fields? gamestateMachineStateContextConsumableParameters
 ---@return gamestateMachineStateContextConsumableParameters
-function gamestateMachineStateContextConsumableParameters.new(fields) return end
+function gamestateMachineStateContextConsumableParameters.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class audioTriggerEffectMetadata: audioAudioMetadata
----@field public mode audioTriggerEffectMode
----@field public target audioTriggerEffectTarget
----@field public strength Float
----@field public startPosition Float
----@field public endPosition Float
----@field public frequency Float
+---@field mode audioTriggerEffectMode
+---@field target audioTriggerEffectTarget
+---@field strength Float
+---@field startPosition Float
+---@field endPosition Float
+---@field frequency Float
 audioTriggerEffectMetadata = {}
 
 ---@param fields? audioTriggerEffectMetadata
 ---@return audioTriggerEffectMetadata
-function audioTriggerEffectMetadata.new(fields) return end
+function audioTriggerEffectMetadata.new(fields) end

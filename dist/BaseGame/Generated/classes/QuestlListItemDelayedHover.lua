@@ -5,4 +5,4 @@ QuestlListItemDelayedHover = {}
 
 ---@param fields? QuestlListItemDelayedHover
 ---@return QuestlListItemDelayedHover
-function QuestlListItemDelayedHover.new(fields) return end
+function QuestlListItemDelayedHover.new(fields) end

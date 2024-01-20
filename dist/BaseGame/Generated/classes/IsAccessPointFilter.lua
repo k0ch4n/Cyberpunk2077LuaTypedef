@@ -5,9 +5,9 @@ IsAccessPointFilter = {}
 
 ---@param fields? IsAccessPointFilter
 ---@return IsAccessPointFilter
-function IsAccessPointFilter.new(fields) return end
+function IsAccessPointFilter.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IsAccessPointFilter:Process(ctx, filterCtx) return end
+function IsAccessPointFilter:Process(ctx, filterCtx) end

@@ -1,52 +1,52 @@
 ---@meta
 
 ---@class senseSensorObjectComponent: entIPlacedComponent
----@field public sensorObject senseSensorObject
----@field public isEnabled Bool
+---@field sensorObject senseSensorObject
+---@field isEnabled Bool
 senseSensorObjectComponent = {}
 
 ---@param fields? senseSensorObjectComponent
 ---@return senseSensorObjectComponent
-function senseSensorObjectComponent.new(fields) return end
+function senseSensorObjectComponent.new(fields) end
 
 ---@param traceType senseAdditionalTraceType
 ---@return Float
-function senseSensorObjectComponent:GetDistToTraceEndFromPosToMainTrackedObject(traceType) return end
+function senseSensorObjectComponent:GetDistToTraceEndFromPosToMainTrackedObject(traceType) end
 
 ---@param entityID entEntityID
 ---@return Float
-function senseSensorObjectComponent:GetTimeSinceLastEntityVisible(entityID) return end
+function senseSensorObjectComponent:GetTimeSinceLastEntityVisible(entityID) end
 
 ---@param targetObjectType gamedataSenseObjectType
 ---@param attitudeToTarget EAIAttitude
 ---@return Bool
-function senseSensorObjectComponent:RemoveForcedSensesTracing(targetObjectType, attitudeToTarget) return end
+function senseSensorObjectComponent:RemoveForcedSensesTracing(targetObjectType, attitudeToTarget) end
 
 ---@param targetObjectType gamedataSenseObjectType
 ---@param attitudeToTarget EAIAttitude
 ---@return Bool
-function senseSensorObjectComponent:SetForcedSensesTracing(targetObjectType, attitudeToTarget) return end
+function senseSensorObjectComponent:SetForcedSensesTracing(targetObjectType, attitudeToTarget) end
 
 ---@param hasTechWeapon Bool
 ---@return Bool
-function senseSensorObjectComponent:SetHasPierceableWapon(hasTechWeapon) return end
+function senseSensorObjectComponent:SetHasPierceableWapon(hasTechWeapon) end
 
 ---@param target gameObject
 ---@return Bool
-function senseSensorObjectComponent:SetMainTrackedObject(target) return end
+function senseSensorObjectComponent:SetMainTrackedObject(target) end
 
 ---@param traceType senseAdditionalTraceType
 ---@param zOffset Float
 ---@return Bool
-function senseSensorObjectComponent:SetMainTrackedObjectTraceZOffset(traceType, zOffset) return end
+function senseSensorObjectComponent:SetMainTrackedObjectTraceZOffset(traceType, zOffset) end
 
 ---@param objectType gamedataSenseObjectType
 ---@return Bool
-function senseSensorObjectComponent:SetSensorObjectType(objectType) return end
+function senseSensorObjectComponent:SetSensorObjectType(objectType) end
 
 ---@param overrideDistance Float
 ---@return Bool
-function senseSensorObjectComponent:SetTickDistanceOverride(overrideDistance) return end
+function senseSensorObjectComponent:SetTickDistanceOverride(overrideDistance) end
 
 ---@return nil
-function senseSensorObjectComponent:UsePreset() return end
+function senseSensorObjectComponent:UsePreset() end

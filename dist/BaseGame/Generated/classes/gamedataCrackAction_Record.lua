@@ -5,10 +5,10 @@ gamedataCrackAction_Record = {}
 
 ---@param fields? gamedataCrackAction_Record
 ---@return gamedataCrackAction_Record
-function gamedataCrackAction_Record.new(fields) return end
+function gamedataCrackAction_Record.new(fields) end
 
 ---@return gamedataEffector_Record
-function gamedataCrackAction_Record:Effector() return end
+function gamedataCrackAction_Record:Effector() end
 
 ---@return gamedataEffector_Record
-function gamedataCrackAction_Record:EffectorHandle() return end
+function gamedataCrackAction_Record:EffectorHandle() end

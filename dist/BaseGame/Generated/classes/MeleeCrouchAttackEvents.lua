@@ -5,18 +5,17 @@ MeleeCrouchAttackEvents = {}
 
 ---@param fields? MeleeCrouchAttackEvents
 ---@return MeleeCrouchAttackEvents
-function MeleeCrouchAttackEvents.new(fields) return end
+function MeleeCrouchAttackEvents.new(fields) end
 
----@protected
 ---@return EMeleeAttackType
-function MeleeCrouchAttackEvents:GetAttackType() return end
+function MeleeCrouchAttackEvents:GetAttackType() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeCrouchAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeCrouchAttackEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeCrouchAttackEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeCrouchAttackEvents:OnExit(stateContext, scriptInterface) end

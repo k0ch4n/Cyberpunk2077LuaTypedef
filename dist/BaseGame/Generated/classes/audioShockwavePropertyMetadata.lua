@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioShockwavePropertyMetadata: audioAudioMetadata
----@field public eventName CName
----@field public maxDistance Float
----@field public probability Float
+---@field eventName CName
+---@field maxDistance Float
+---@field probability Float
 audioShockwavePropertyMetadata = {}
 
 ---@param fields? audioShockwavePropertyMetadata
 ---@return audioShockwavePropertyMetadata
-function audioShockwavePropertyMetadata.new(fields) return end
+function audioShockwavePropertyMetadata.new(fields) end

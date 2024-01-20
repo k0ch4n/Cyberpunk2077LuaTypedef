@@ -5,4 +5,4 @@ SpawnBoxEvaluator = {}
 
 ---@param fields? SpawnBoxEvaluator
 ---@return SpawnBoxEvaluator
-function SpawnBoxEvaluator.new(fields) return end
+function SpawnBoxEvaluator.new(fields) end

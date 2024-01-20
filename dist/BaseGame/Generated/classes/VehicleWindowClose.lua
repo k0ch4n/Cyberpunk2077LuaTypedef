@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class VehicleWindowClose: ActionBool
----@field public slotID CName
----@field public speed CName
----@field public isInteractionSource Bool
+---@field slotID CName
+---@field speed CName
+---@field isInteractionSource Bool
 VehicleWindowClose = {}
 
 ---@param fields? VehicleWindowClose
 ---@return VehicleWindowClose
-function VehicleWindowClose.new(fields) return end
+function VehicleWindowClose.new(fields) end
 
 ---@param slotString String
 ---@return nil
-function VehicleWindowClose:SetProperties(slotString) return end
+function VehicleWindowClose:SetProperties(slotString) end

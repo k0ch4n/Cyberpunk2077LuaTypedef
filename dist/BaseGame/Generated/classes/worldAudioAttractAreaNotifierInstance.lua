@@ -5,4 +5,4 @@ worldAudioAttractAreaNotifierInstance = {}
 
 ---@param fields? worldAudioAttractAreaNotifierInstance
 ---@return worldAudioAttractAreaNotifierInstance
-function worldAudioAttractAreaNotifierInstance.new(fields) return end
+function worldAudioAttractAreaNotifierInstance.new(fields) end

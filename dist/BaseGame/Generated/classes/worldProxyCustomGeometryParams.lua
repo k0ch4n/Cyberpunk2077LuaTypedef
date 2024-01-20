@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldProxyCustomGeometryParams
----@field public useLimiterHelper Bool
----@field public uvType worldProxyMeshUVType
+---@field useLimiterHelper Bool
+---@field uvType worldProxyMeshUVType
 worldProxyCustomGeometryParams = {}
 
 ---@param fields? worldProxyCustomGeometryParams
 ---@return worldProxyCustomGeometryParams
-function worldProxyCustomGeometryParams.new(fields) return end
+function worldProxyCustomGeometryParams.new(fields) end

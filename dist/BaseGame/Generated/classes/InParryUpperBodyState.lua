@@ -5,8 +5,7 @@ InParryUpperBodyState = {}
 
 ---@param fields? InParryUpperBodyState
 ---@return InParryUpperBodyState
-function InParryUpperBodyState.new(fields) return end
+function InParryUpperBodyState.new(fields) end
 
----@private
 ---@return gamedataNPCUpperBodyState
-function InParryUpperBodyState:GetStateToCheck() return end
+function InParryUpperBodyState:GetStateToCheck() end

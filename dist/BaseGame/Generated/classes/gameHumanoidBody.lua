@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameHumanoidBody: entIComponent
----@field public basePersonalSpace Float
----@field public baseHeight Float
----@field public baseEyesHeightRatio Float
----@field public stanceAnimFeatureName CName
----@field public aimAnimFeatureName CName
+---@field basePersonalSpace Float
+---@field baseHeight Float
+---@field baseEyesHeightRatio Float
+---@field stanceAnimFeatureName CName
+---@field aimAnimFeatureName CName
 gameHumanoidBody = {}
 
 ---@param fields? gameHumanoidBody
 ---@return gameHumanoidBody
-function gameHumanoidBody.new(fields) return end
+function gameHumanoidBody.new(fields) end

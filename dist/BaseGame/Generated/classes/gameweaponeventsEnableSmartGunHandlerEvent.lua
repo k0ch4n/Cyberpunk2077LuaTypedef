@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameweaponeventsEnableSmartGunHandlerEvent: redEvent
----@field public owner gameObject
----@field public enable Bool
+---@field owner gameObject
+---@field enable Bool
 gameweaponeventsEnableSmartGunHandlerEvent = {}
 
 ---@param fields? gameweaponeventsEnableSmartGunHandlerEvent
 ---@return gameweaponeventsEnableSmartGunHandlerEvent
-function gameweaponeventsEnableSmartGunHandlerEvent.new(fields) return end
+function gameweaponeventsEnableSmartGunHandlerEvent.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameinfluenceHeatAgent: gameinfluenceIAgent
----@field public timeToNextUpdate Float
----@field public heatRadius Float
----@field public heatValue Float
+---@field timeToNextUpdate Float
+---@field heatRadius Float
+---@field heatValue Float
 gameinfluenceHeatAgent = {}
 
 ---@param fields? gameinfluenceHeatAgent
 ---@return gameinfluenceHeatAgent
-function gameinfluenceHeatAgent.new(fields) return end
+function gameinfluenceHeatAgent.new(fields) end

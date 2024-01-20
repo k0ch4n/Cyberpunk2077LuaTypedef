@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalQuestDescription: gameJournalEntry
----@field public description LocalizationString
+---@field description LocalizationString
 gameJournalQuestDescription = {}
 
 ---@param fields? gameJournalQuestDescription
 ---@return gameJournalQuestDescription
-function gameJournalQuestDescription.new(fields) return end
+function gameJournalQuestDescription.new(fields) end
 
 ---@return String
-function gameJournalQuestDescription:GetDescription() return end
+function gameJournalQuestDescription:GetDescription() end

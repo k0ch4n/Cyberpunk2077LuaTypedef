@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldPersistentSnapData
----@field public targetObjectPath worldRelativeNodePath
----@field public targetSocketName CName
----@field public snapTangent Bool
----@field public reverseTangent Bool
----@field public preserveLength Bool
+---@field targetObjectPath worldRelativeNodePath
+---@field targetSocketName CName
+---@field snapTangent Bool
+---@field reverseTangent Bool
+---@field preserveLength Bool
 worldPersistentSnapData = {}
 
 ---@param fields? worldPersistentSnapData
 ---@return worldPersistentSnapData
-function worldPersistentSnapData.new(fields) return end
+function worldPersistentSnapData.new(fields) end

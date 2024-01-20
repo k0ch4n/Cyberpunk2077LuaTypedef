@@ -5,13 +5,13 @@ gamedataAttackSubtype_Record = {}
 
 ---@param fields? gamedataAttackSubtype_Record
 ---@return gamedataAttackSubtype_Record
-function gamedataAttackSubtype_Record.new(fields) return end
+function gamedataAttackSubtype_Record.new(fields) end
 
 ---@return String
-function gamedataAttackSubtype_Record:EnumComment() return end
+function gamedataAttackSubtype_Record:EnumComment() end
 
 ---@return CName
-function gamedataAttackSubtype_Record:EnumName() return end
+function gamedataAttackSubtype_Record:EnumName() end
 
 ---@return gamedataAttackSubtype
-function gamedataAttackSubtype_Record:Type() return end
+function gamedataAttackSubtype_Record:Type() end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioCommonEntitySettings
----@field public onAttachEvent CName
----@field public onDetachEvent CName
----@field public stopAllSoundsOnDetach Bool
+---@field onAttachEvent CName
+---@field onDetachEvent CName
+---@field stopAllSoundsOnDetach Bool
 audioCommonEntitySettings = {}
 
 ---@param fields? audioCommonEntitySettings
 ---@return audioCommonEntitySettings
-function audioCommonEntitySettings.new(fields) return end
+function audioCommonEntitySettings.new(fields) end

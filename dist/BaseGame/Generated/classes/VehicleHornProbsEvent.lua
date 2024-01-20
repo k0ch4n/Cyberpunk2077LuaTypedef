@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class VehicleHornProbsEvent: redEvent
----@field public honkMinTime Float
----@field public honkMaxTime Float
----@field public probability Float
+---@field honkMinTime Float
+---@field honkMaxTime Float
+---@field probability Float
 VehicleHornProbsEvent = {}
 
 ---@param fields? VehicleHornProbsEvent
 ---@return VehicleHornProbsEvent
-function VehicleHornProbsEvent.new(fields) return end
+function VehicleHornProbsEvent.new(fields) end

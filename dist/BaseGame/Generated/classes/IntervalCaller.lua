@@ -1,35 +1,33 @@
 ---@meta
 
 ---@class IntervalCaller: gameDelaySystemScriptedDelayCallbackWrapper
----@field public preventionSystem PreventionSystem
----@field public request gameScriptableSystemRequest
----@field private intervalSeconds Float
----@field private selfDelayID gameDelayID
+---@field preventionSystem PreventionSystem
+---@field request gameScriptableSystemRequest
+---@field intervalSeconds Float
+---@field selfDelayID gameDelayID
 IntervalCaller = {}
 
 ---@param fields? IntervalCaller
 ---@return IntervalCaller
-function IntervalCaller.new(fields) return end
+function IntervalCaller.new(fields) end
 
 ---@param preventionSystem PreventionSystem
 ---@return IntervalCaller
-function IntervalCaller.Create(preventionSystem) return end
-
----@protected
----@return nil
-function IntervalCaller:Call() return end
+function IntervalCaller.Create(preventionSystem) end
 
 ---@return nil
-function IntervalCaller:Cancel() return end
+function IntervalCaller:Call() end
+
+---@return nil
+function IntervalCaller:Cancel() end
 
 ---@return Bool
-function IntervalCaller:IsRunning() return end
+function IntervalCaller:IsRunning() end
 
 ---@param intervalSeconds Float
 ---@param request gameScriptableSystemRequest
 ---@return nil
-function IntervalCaller:Start(intervalSeconds, request) return end
+function IntervalCaller:Start(intervalSeconds, request) end
 
----@private
 ---@return nil
-function IntervalCaller:StartInternal() return end
+function IntervalCaller:StartInternal() end

@@ -5,8 +5,8 @@ QuestShowFloor = {}
 
 ---@param fields? QuestShowFloor
 ---@return QuestShowFloor
-function QuestShowFloor.new(fields) return end
+function QuestShowFloor.new(fields) end
 
 ---@param floor Int32
 ---@return nil
-function QuestShowFloor:SetProperties(floor) return end
+function QuestShowFloor:SetProperties(floor) end

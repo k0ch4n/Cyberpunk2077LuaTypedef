@@ -5,7 +5,7 @@ gamemappinsFastTravelMappin = {}
 
 ---@param fields? gamemappinsFastTravelMappin
 ---@return gamemappinsFastTravelMappin
-function gamemappinsFastTravelMappin.new(fields) return end
+function gamemappinsFastTravelMappin.new(fields) end
 
 ---@return gameFastTravelPointData
-function gamemappinsFastTravelMappin:GetPointData() return end
+function gamemappinsFastTravelMappin:GetPointData() end

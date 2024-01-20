@@ -5,4 +5,4 @@ moveObstacleDetectedEvent = {}
 
 ---@param fields? moveObstacleDetectedEvent
 ---@return moveObstacleDetectedEvent
-function moveObstacleDetectedEvent.new(fields) return end
+function moveObstacleDetectedEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TogglePlayerFlashlightEvent: redEvent
----@field public enable Bool
+---@field enable Bool
 TogglePlayerFlashlightEvent = {}
 
 ---@param fields? TogglePlayerFlashlightEvent
 ---@return TogglePlayerFlashlightEvent
-function TogglePlayerFlashlightEvent.new(fields) return end
+function TogglePlayerFlashlightEvent.new(fields) end

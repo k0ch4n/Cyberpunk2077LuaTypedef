@@ -5,7 +5,7 @@ inkTextInputWidget = {}
 
 ---@param fields? inkTextInputWidget
 ---@return inkTextInputWidget
-function inkTextInputWidget.new(fields) return end
+function inkTextInputWidget.new(fields) end
 
 ---@return nil
-function inkTextInputWidget:RequestFocus() return end
+function inkTextInputWidget:RequestFocus() end

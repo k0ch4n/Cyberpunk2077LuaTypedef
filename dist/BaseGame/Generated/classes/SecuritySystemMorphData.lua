@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SecuritySystemMorphData
----@field public state State
----@field public reprimandData Reprimand
----@field public blacklist Blacklist
----@field public protectedEntities ProtectedEntities
----@field public entitiesAtGate EntitiesAtGate
+---@field state State
+---@field reprimandData Reprimand
+---@field blacklist Blacklist
+---@field protectedEntities ProtectedEntities
+---@field entitiesAtGate EntitiesAtGate
 SecuritySystemMorphData = {}
 
 ---@param fields? SecuritySystemMorphData
 ---@return SecuritySystemMorphData
-function SecuritySystemMorphData.new(fields) return end
+function SecuritySystemMorphData.new(fields) end

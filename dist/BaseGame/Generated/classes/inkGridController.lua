@@ -1,55 +1,55 @@
 ---@meta
 
 ---@class inkGridController: inkVirtualCompoundController
----@field public height Uint32
----@field public width Uint32
----@field public items inkGridItem[]
----@field public slotSize Vector2
----@field public itemTemplates inkGridItemTemplate[]
+---@field height Uint32
+---@field width Uint32
+---@field items inkGridItem[]
+---@field slotSize Vector2
+---@field itemTemplates inkGridItemTemplate[]
 inkGridController = {}
 
 ---@param fields? inkGridController
 ---@return inkGridController
-function inkGridController.new(fields) return end
+function inkGridController.new(fields) end
 
 ---@param x Uint32
 ---@param y Uint32
 ---@return Uint32
-function inkGridController:GetIndexFromCoords(x, y) return end
+function inkGridController:GetIndexFromCoords(x, y) end
 
 ---@param itemIndex Uint32
 ---@return Variant
-function inkGridController:GetItemData(itemIndex) return end
+function inkGridController:GetItemData(itemIndex) end
 
 ---@param slotIndex Uint32
 ---@return Uint32
-function inkGridController:GetItemIndexFromSlot(slotIndex) return end
+function inkGridController:GetItemIndexFromSlot(slotIndex) end
 
 ---@param itemIndex Uint32
 ---@return Vector2
-function inkGridController:GetItemPosition(itemIndex) return end
+function inkGridController:GetItemPosition(itemIndex) end
 
 ---@param itemIndex Uint32
 ---@return Vector2
-function inkGridController:GetItemSize(itemIndex) return end
+function inkGridController:GetItemSize(itemIndex) end
 
 ---@param itemIndex Uint32
 ---@return inkWidget
-function inkGridController:GetItemWidget(itemIndex) return end
+function inkGridController:GetItemWidget(itemIndex) end
 
 ---@param position Vector2
 ---@return Uint32
-function inkGridController:GetSlotIndex(position) return end
+function inkGridController:GetSlotIndex(position) end
 
 ---@param item inkWidget
 ---@param slotIdx Uint32
 ---@return nil
-function inkGridController:PlaceItemInSlot(item, slotIdx) return end
+function inkGridController:PlaceItemInSlot(item, slotIdx) end
 
 ---@param slotIdx Uint32
 ---@return inkWidget
-function inkGridController:RemoveItemFromSlot(slotIdx) return end
+function inkGridController:RemoveItemFromSlot(slotIdx) end
 
 ---@param classifier inkItemPositionProviderWrapper
 ---@return nil
-function inkGridController:SetProvider(classifier) return end
+function inkGridController:SetProvider(classifier) end

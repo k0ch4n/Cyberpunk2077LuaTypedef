@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class TemporalPrereq: gameIScriptablePrereq
----@field public totalDuration Float
+---@field totalDuration Float
 TemporalPrereq = {}
 
 ---@param fields? TemporalPrereq
 ---@return TemporalPrereq
-function TemporalPrereq.new(fields) return end
+function TemporalPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function TemporalPrereq:Initialize(recordID) return end
+function TemporalPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function TemporalPrereq:OnRegister(state, context) return end
+function TemporalPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function TemporalPrereq:OnUnregister(state, context) return end
+function TemporalPrereq:OnUnregister(state, context) end

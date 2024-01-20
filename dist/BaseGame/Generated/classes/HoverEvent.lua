@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HoverEvent: redEvent
----@field public hooverOn Bool
+---@field hooverOn Bool
 HoverEvent = {}
 
 ---@param fields? HoverEvent
 ---@return HoverEvent
-function HoverEvent.new(fields) return end
+function HoverEvent.new(fields) end

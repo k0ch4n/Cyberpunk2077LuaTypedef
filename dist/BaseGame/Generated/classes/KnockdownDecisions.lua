@@ -5,22 +5,19 @@ KnockdownDecisions = {}
 
 ---@param fields? KnockdownDecisions
 ---@return KnockdownDecisions
-function KnockdownDecisions.new(fields) return end
+function KnockdownDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function KnockdownDecisions:ToRegularFall(stateContext, scriptInterface) return end
+function KnockdownDecisions:ToRegularFall(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function KnockdownDecisions:ToSecondaryKnockdown(stateContext, scriptInterface) return end
+function KnockdownDecisions:ToSecondaryKnockdown(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function KnockdownDecisions:ToStand(stateContext, scriptInterface) return end
+function KnockdownDecisions:ToStand(stateContext, scriptInterface) end

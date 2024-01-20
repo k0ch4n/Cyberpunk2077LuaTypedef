@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ConnectedClassTypes
----@field public surveillanceCamera Bool
----@field public securityTurret Bool
----@field public puppet Bool
+---@field surveillanceCamera Bool
+---@field securityTurret Bool
+---@field puppet Bool
 ConnectedClassTypes = {}
 
 ---@param fields? ConnectedClassTypes
 ---@return ConnectedClassTypes
-function ConnectedClassTypes.new(fields) return end
+function ConnectedClassTypes.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiRequestSwapContextEvent: redEvent
----@field public oldContext UIGameContext
----@field public newContext UIGameContext
+---@field oldContext UIGameContext
+---@field newContext UIGameContext
 gameuiRequestSwapContextEvent = {}
 
 ---@param fields? gameuiRequestSwapContextEvent
 ---@return gameuiRequestSwapContextEvent
-function gameuiRequestSwapContextEvent.new(fields) return end
+function gameuiRequestSwapContextEvent.new(fields) end

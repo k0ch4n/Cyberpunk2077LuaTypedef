@@ -5,7 +5,7 @@ DisableSandevistanAction = {}
 
 ---@param fields? DisableSandevistanAction
 ---@return DisableSandevistanAction
-function DisableSandevistanAction.new(fields) return end
+function DisableSandevistanAction.new(fields) end
 
 ---@return nil
-function DisableSandevistanAction:StartAction() return end
+function DisableSandevistanAction:StartAction() end

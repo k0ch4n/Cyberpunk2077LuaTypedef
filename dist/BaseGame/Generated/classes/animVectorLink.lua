@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animVectorLink
----@field public node animAnimNode_VectorValue
+---@field node animAnimNode_VectorValue
 animVectorLink = {}
 
 ---@param fields? animVectorLink
 ---@return animVectorLink
-function animVectorLink.new(fields) return end
+function animVectorLink.new(fields) end

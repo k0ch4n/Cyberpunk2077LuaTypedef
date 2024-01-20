@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameVisionModeActivationEvent: redEvent
----@field public activate Bool
+---@field activate Bool
 gameVisionModeActivationEvent = {}
 
 ---@param fields? gameVisionModeActivationEvent
 ---@return gameVisionModeActivationEvent
-function gameVisionModeActivationEvent.new(fields) return end
+function gameVisionModeActivationEvent.new(fields) end

@@ -5,4 +5,4 @@ scnStartNode = {}
 
 ---@param fields? scnStartNode
 ---@return scnStartNode
-function scnStartNode.new(fields) return end
+function scnStartNode.new(fields) end

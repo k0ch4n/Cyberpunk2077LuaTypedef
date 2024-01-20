@@ -5,4 +5,4 @@ WardrobeOutfitSlotHoverOutEvent = {}
 
 ---@param fields? WardrobeOutfitSlotHoverOutEvent
 ---@return WardrobeOutfitSlotHoverOutEvent
-function WardrobeOutfitSlotHoverOutEvent.new(fields) return end
+function WardrobeOutfitSlotHoverOutEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorRandomConditionDefinition: AIbehaviorConditionDefinition
----@field public chance Float
+---@field chance Float
 AIbehaviorRandomConditionDefinition = {}
 
 ---@param fields? AIbehaviorRandomConditionDefinition
 ---@return AIbehaviorRandomConditionDefinition
-function AIbehaviorRandomConditionDefinition.new(fields) return end
+function AIbehaviorRandomConditionDefinition.new(fields) end

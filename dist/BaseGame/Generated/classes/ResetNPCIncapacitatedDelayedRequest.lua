@@ -5,4 +5,4 @@ ResetNPCIncapacitatedDelayedRequest = {}
 
 ---@param fields? ResetNPCIncapacitatedDelayedRequest
 ---@return ResetNPCIncapacitatedDelayedRequest
-function ResetNPCIncapacitatedDelayedRequest.new(fields) return end
+function ResetNPCIncapacitatedDelayedRequest.new(fields) end

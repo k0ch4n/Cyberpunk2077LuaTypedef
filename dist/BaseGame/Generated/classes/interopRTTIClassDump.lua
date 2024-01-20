@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class interopRTTIClassDump
----@field public classNames String[]
----@field public descriptiveNames String[]
----@field public resourceInfos interopRTTIResourceDumpInfo[]
----@field public entries interopRTTIClassDumpEntry[]
+---@field classNames String[]
+---@field descriptiveNames String[]
+---@field resourceInfos interopRTTIResourceDumpInfo[]
+---@field entries interopRTTIClassDumpEntry[]
 interopRTTIClassDump = {}
 
 ---@param fields? interopRTTIClassDump
 ---@return interopRTTIClassDump
-function interopRTTIClassDump.new(fields) return end
+function interopRTTIClassDump.new(fields) end

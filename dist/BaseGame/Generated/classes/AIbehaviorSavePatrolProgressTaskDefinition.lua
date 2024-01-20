@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorSavePatrolProgressTaskDefinition: AIbehaviorTaskDefinition
----@field public patrolProgress AIArgumentMapping
----@field public saveOnDeactivation Bool
----@field public savedState AIArgumentMapping
+---@field patrolProgress AIArgumentMapping
+---@field saveOnDeactivation Bool
+---@field savedState AIArgumentMapping
 AIbehaviorSavePatrolProgressTaskDefinition = {}
 
 ---@param fields? AIbehaviorSavePatrolProgressTaskDefinition
 ---@return AIbehaviorSavePatrolProgressTaskDefinition
-function AIbehaviorSavePatrolProgressTaskDefinition.new(fields) return end
+function AIbehaviorSavePatrolProgressTaskDefinition.new(fields) end

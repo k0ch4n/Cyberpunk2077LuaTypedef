@@ -5,4 +5,4 @@ AIInterruptionHandlerAllowDefinition = {}
 
 ---@param fields? AIInterruptionHandlerAllowDefinition
 ---@return AIInterruptionHandlerAllowDefinition
-function AIInterruptionHandlerAllowDefinition.new(fields) return end
+function AIInterruptionHandlerAllowDefinition.new(fields) end

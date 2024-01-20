@@ -5,16 +5,14 @@ VehiclePassengerContextDecisions = {}
 
 ---@param fields? VehiclePassengerContextDecisions
 ---@return VehiclePassengerContextDecisions
-function VehiclePassengerContextDecisions.new(fields) return end
+function VehiclePassengerContextDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehiclePassengerContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VehiclePassengerContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehiclePassengerContextDecisions:ExitCondition(stateContext, scriptInterface) return end
+function VehiclePassengerContextDecisions:ExitCondition(stateContext, scriptInterface) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleSummonFinishedEvent: redEvent
----@field public state vehicleSummonState
+---@field state vehicleSummonState
 vehicleSummonFinishedEvent = {}
 
 ---@param fields? vehicleSummonFinishedEvent
 ---@return vehicleSummonFinishedEvent
-function vehicleSummonFinishedEvent.new(fields) return end
+function vehicleSummonFinishedEvent.new(fields) end

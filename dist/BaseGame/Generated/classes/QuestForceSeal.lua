@@ -5,7 +5,7 @@ QuestForceSeal = {}
 
 ---@param fields? QuestForceSeal
 ---@return QuestForceSeal
-function QuestForceSeal.new(fields) return end
+function QuestForceSeal.new(fields) end
 
 ---@return nil
-function QuestForceSeal:SetProperties() return end
+function QuestForceSeal:SetProperties() end

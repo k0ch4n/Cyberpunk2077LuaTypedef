@@ -5,52 +5,52 @@ gamedataComputerStyleUIDefinition_Record = {}
 
 ---@param fields? gamedataComputerStyleUIDefinition_Record
 ---@return gamedataComputerStyleUIDefinition_Record
-function gamedataComputerStyleUIDefinition_Record.new(fields) return end
+function gamedataComputerStyleUIDefinition_Record.new(fields) end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:BannerWidget() return end
+function gamedataComputerStyleUIDefinition_Record:BannerWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:BannerWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:BannerWidgetHandle() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:FileThumbnailWidget() return end
+function gamedataComputerStyleUIDefinition_Record:FileThumbnailWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:FileThumbnailWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:FileThumbnailWidgetHandle() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:FileWidget() return end
+function gamedataComputerStyleUIDefinition_Record:FileWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:FileWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:FileWidgetHandle() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:KeypadWidget() return end
+function gamedataComputerStyleUIDefinition_Record:KeypadWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:KeypadWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:KeypadWidgetHandle() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MailThumbnailWidget() return end
+function gamedataComputerStyleUIDefinition_Record:MailThumbnailWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MailThumbnailWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:MailThumbnailWidgetHandle() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MailWidget() return end
+function gamedataComputerStyleUIDefinition_Record:MailWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MailWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:MailWidgetHandle() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MainMenuButtonWidget() return end
+function gamedataComputerStyleUIDefinition_Record:MainMenuButtonWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MainMenuButtonWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:MainMenuButtonWidgetHandle() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MenuButtonWidget() return end
+function gamedataComputerStyleUIDefinition_Record:MenuButtonWidget() end
 
 ---@return gamedataWidgetDefinition_Record
-function gamedataComputerStyleUIDefinition_Record:MenuButtonWidgetHandle() return end
+function gamedataComputerStyleUIDefinition_Record:MenuButtonWidgetHandle() end

@@ -5,10 +5,9 @@ Ground = {}
 
 ---@param fields? Ground
 ---@return Ground
-function Ground.new(fields) return end
+function Ground.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function Ground:EnterCondition(stateContext, scriptInterface) return end
+function Ground:EnterCondition(stateContext, scriptInterface) end

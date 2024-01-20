@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class NPCHitReactionComponentStatsListener: gameScriptStatsListener
----@field public npc NPCPuppet
+---@field npc NPCPuppet
 NPCHitReactionComponentStatsListener = {}
 
 ---@param fields? NPCHitReactionComponentStatsListener
 ---@return NPCHitReactionComponentStatsListener
-function NPCHitReactionComponentStatsListener.new(fields) return end
+function NPCHitReactionComponentStatsListener.new(fields) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function NPCHitReactionComponentStatsListener:OnStatChanged(ownerID, statType, diff, total) return end
+function NPCHitReactionComponentStatsListener:OnStatChanged(ownerID, statType, diff, total) end

@@ -1,28 +1,27 @@
 ---@meta
 
 ---@class AIDriveRacingCommandHandler: AICommandHandlerBase
----@field protected outUseKinematic AIArgumentMapping
----@field protected outNeedDriver AIArgumentMapping
----@field protected outSpline AIArgumentMapping
----@field protected outSecureTimeOut AIArgumentMapping
----@field protected outDriveBackwards AIArgumentMapping
----@field protected outReverseSpline AIArgumentMapping
----@field protected outStartFromClosest AIArgumentMapping
----@field protected outRubberBandingBool AIArgumentMapping
----@field protected outRubberBandingTargetRef AIArgumentMapping
----@field protected outRubberBandingMinDistance AIArgumentMapping
----@field protected outRubberBandingMaxDistance AIArgumentMapping
----@field protected outRubberBandingStopAndWait AIArgumentMapping
----@field protected outRubberBandingTeleportToCatchUp AIArgumentMapping
----@field protected outRubberBandingStayInFront AIArgumentMapping
+---@field outUseKinematic AIArgumentMapping
+---@field outNeedDriver AIArgumentMapping
+---@field outSpline AIArgumentMapping
+---@field outSecureTimeOut AIArgumentMapping
+---@field outDriveBackwards AIArgumentMapping
+---@field outReverseSpline AIArgumentMapping
+---@field outStartFromClosest AIArgumentMapping
+---@field outRubberBandingBool AIArgumentMapping
+---@field outRubberBandingTargetRef AIArgumentMapping
+---@field outRubberBandingMinDistance AIArgumentMapping
+---@field outRubberBandingMaxDistance AIArgumentMapping
+---@field outRubberBandingStopAndWait AIArgumentMapping
+---@field outRubberBandingTeleportToCatchUp AIArgumentMapping
+---@field outRubberBandingStayInFront AIArgumentMapping
 AIDriveRacingCommandHandler = {}
 
 ---@param fields? AIDriveRacingCommandHandler
 ---@return AIDriveRacingCommandHandler
-function AIDriveRacingCommandHandler.new(fields) return end
+function AIDriveRacingCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function AIDriveRacingCommandHandler:UpdateCommand(context, command) return end
+function AIDriveRacingCommandHandler:UpdateCommand(context, command) end

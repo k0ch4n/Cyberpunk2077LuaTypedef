@@ -5,4 +5,4 @@ FadeOutOutlinesUpdate = {}
 
 ---@param fields? FadeOutOutlinesUpdate
 ---@return FadeOutOutlinesUpdate
-function FadeOutOutlinesUpdate.new(fields) return end
+function FadeOutOutlinesUpdate.new(fields) end

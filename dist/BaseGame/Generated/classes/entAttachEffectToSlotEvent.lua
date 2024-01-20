@@ -5,4 +5,4 @@ entAttachEffectToSlotEvent = {}
 
 ---@param fields? entAttachEffectToSlotEvent
 ---@return entAttachEffectToSlotEvent
-function entAttachEffectToSlotEvent.new(fields) return end
+function entAttachEffectToSlotEvent.new(fields) end

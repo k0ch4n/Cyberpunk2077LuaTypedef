@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class MetaQuestStatus
----@field public MetaQuest1Hidden Bool
----@field public MetaQuest1Value Int32
----@field public MetaQuest1Description String
----@field public MetaQuest2Hidden Bool
----@field public MetaQuest2Description String
----@field public MetaQuest2Value Int32
----@field public MetaQuest3Hidden Bool
----@field public MetaQuest3Description String
----@field public MetaQuest3Value Int32
+---@field MetaQuest1Hidden Bool
+---@field MetaQuest1Value Int32
+---@field MetaQuest1Description String
+---@field MetaQuest2Hidden Bool
+---@field MetaQuest2Description String
+---@field MetaQuest2Value Int32
+---@field MetaQuest3Hidden Bool
+---@field MetaQuest3Description String
+---@field MetaQuest3Value Int32
 MetaQuestStatus = {}
 
 ---@param fields? MetaQuestStatus
 ---@return MetaQuestStatus
-function MetaQuestStatus.new(fields) return end
+function MetaQuestStatus.new(fields) end

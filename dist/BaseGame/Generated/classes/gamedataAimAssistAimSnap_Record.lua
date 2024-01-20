@@ -5,94 +5,94 @@ gamedataAimAssistAimSnap_Record = {}
 
 ---@param fields? gamedataAimAssistAimSnap_Record
 ---@return gamedataAimAssistAimSnap_Record
-function gamedataAimAssistAimSnap_Record.new(fields) return end
+function gamedataAimAssistAimSnap_Record.new(fields) end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:AdjustPitch() return end
+function gamedataAimAssistAimSnap_Record:AdjustPitch() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:AdjustYaw() return end
+function gamedataAimAssistAimSnap_Record:AdjustYaw() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:AffectedByRecoil() return end
+function gamedataAimAssistAimSnap_Record:AffectedByRecoil() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:BodyPartsTracking() return end
+function gamedataAimAssistAimSnap_Record:BodyPartsTracking() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:BptMaxDot() return end
+function gamedataAimAssistAimSnap_Record:BptMaxDot() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:BptMaxSwitches() return end
+function gamedataAimAssistAimSnap_Record:BptMaxSwitches() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:BptMinInputMag() return end
+function gamedataAimAssistAimSnap_Record:BptMinInputMag() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:BptMinMouseInputMag() return end
+function gamedataAimAssistAimSnap_Record:BptMinMouseInputMag() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:BptMinResetInputMag() return end
+function gamedataAimAssistAimSnap_Record:BptMinResetInputMag() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:BreakOnDistance() return end
+function gamedataAimAssistAimSnap_Record:BreakOnDistance() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:CameraInputMagToBreak() return end
+function gamedataAimAssistAimSnap_Record:CameraInputMagToBreak() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:CameraMouseInputMagToBreak() return end
+function gamedataAimAssistAimSnap_Record:CameraMouseInputMagToBreak() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:CancelWithRecoil() return end
+function gamedataAimAssistAimSnap_Record:CancelWithRecoil() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:CheckRange() return end
+function gamedataAimAssistAimSnap_Record:CheckRange() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:Duration() return end
+function gamedataAimAssistAimSnap_Record:Duration() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:EaseIn() return end
+function gamedataAimAssistAimSnap_Record:EaseIn() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:EaseOut() return end
+function gamedataAimAssistAimSnap_Record:EaseOut() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:EndOnAimingStopped() return end
+function gamedataAimAssistAimSnap_Record:EndOnAimingStopped() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:EndOnCameraInputApplied() return end
+function gamedataAimAssistAimSnap_Record:EndOnCameraInputApplied() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:EndOnTargetReached() return end
+function gamedataAimAssistAimSnap_Record:EndOnTargetReached() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:EndOnTimeExceeded() return end
+function gamedataAimAssistAimSnap_Record:EndOnTimeExceeded() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:EvaluateTargets() return end
+function gamedataAimAssistAimSnap_Record:EvaluateTargets() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:IgnoreInputType() return end
+function gamedataAimAssistAimSnap_Record:IgnoreInputType() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:IsEnabled() return end
+function gamedataAimAssistAimSnap_Record:IsEnabled() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:MaxDistance() return end
+function gamedataAimAssistAimSnap_Record:MaxDistance() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:MaxDuration() return end
+function gamedataAimAssistAimSnap_Record:MaxDuration() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:MinDistance() return end
+function gamedataAimAssistAimSnap_Record:MinDistance() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:Precision() return end
+function gamedataAimAssistAimSnap_Record:Precision() end
 
 ---@return Float
-function gamedataAimAssistAimSnap_Record:TargetAngleDistanceFactor() return end
+function gamedataAimAssistAimSnap_Record:TargetAngleDistanceFactor() end
 
 ---@return Bool
-function gamedataAimAssistAimSnap_Record:TargetCycling() return end
+function gamedataAimAssistAimSnap_Record:TargetCycling() end

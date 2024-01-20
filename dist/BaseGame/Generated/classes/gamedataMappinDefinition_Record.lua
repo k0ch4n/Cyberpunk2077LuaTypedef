@@ -5,22 +5,22 @@ gamedataMappinDefinition_Record = {}
 
 ---@param fields? gamedataMappinDefinition_Record
 ---@return gamedataMappinDefinition_Record
-function gamedataMappinDefinition_Record.new(fields) return end
+function gamedataMappinDefinition_Record.new(fields) end
 
 ---@return Int32
-function gamedataMappinDefinition_Record:GetPossibleVariantsCount() return end
+function gamedataMappinDefinition_Record:GetPossibleVariantsCount() end
 
 ---@param index Int32
 ---@return gamedataMappinVariant_Record
-function gamedataMappinDefinition_Record:GetPossibleVariantsItem(index) return end
+function gamedataMappinDefinition_Record:GetPossibleVariantsItem(index) end
 
 ---@param index Int32
 ---@return gamedataMappinVariant_Record
-function gamedataMappinDefinition_Record:GetPossibleVariantsItemHandle(index) return end
+function gamedataMappinDefinition_Record:GetPossibleVariantsItemHandle(index) end
 
 ---@return nil, gamedataMappinVariant_Record[] outList
-function gamedataMappinDefinition_Record:PossibleVariants() return end
+function gamedataMappinDefinition_Record:PossibleVariants() end
 
 ---@param item gamedataMappinVariant_Record
 ---@return Bool
-function gamedataMappinDefinition_Record:PossibleVariantsContains(item) return end
+function gamedataMappinDefinition_Record:PossibleVariantsContains(item) end

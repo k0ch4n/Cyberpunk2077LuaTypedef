@@ -5,8 +5,8 @@ HitIsRicochetPrereqState = {}
 
 ---@param fields? HitIsRicochetPrereqState
 ---@return HitIsRicochetPrereqState
-function HitIsRicochetPrereqState.new(fields) return end
+function HitIsRicochetPrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitIsRicochetPrereqState:Evaluate(hitEvent) return end
+function HitIsRicochetPrereqState:Evaluate(hitEvent) end

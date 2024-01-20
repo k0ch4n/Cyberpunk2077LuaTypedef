@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioVoiceTriggerData
----@field public name CName
----@field public variationIndex Uint32
----@field public variationNumber Uint32
----@field public overridingVoContext locVoiceoverContext
+---@field name CName
+---@field variationIndex Uint32
+---@field variationNumber Uint32
+---@field overridingVoContext locVoiceoverContext
 audioVoiceTriggerData = {}
 
 ---@param fields? audioVoiceTriggerData
 ---@return audioVoiceTriggerData
-function audioVoiceTriggerData.new(fields) return end
+function audioVoiceTriggerData.new(fields) end

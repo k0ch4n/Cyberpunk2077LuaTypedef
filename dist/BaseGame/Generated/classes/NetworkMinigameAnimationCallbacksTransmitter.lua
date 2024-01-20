@@ -5,16 +5,13 @@ NetworkMinigameAnimationCallbacksTransmitter = {}
 
 ---@param fields? NetworkMinigameAnimationCallbacksTransmitter
 ---@return NetworkMinigameAnimationCallbacksTransmitter
-function NetworkMinigameAnimationCallbacksTransmitter.new(fields) return end
+function NetworkMinigameAnimationCallbacksTransmitter.new(fields) end
 
----@protected
 ---@return Bool
-function NetworkMinigameAnimationCallbacksTransmitter:OnIntroAnimationFinished() return end
+function NetworkMinigameAnimationCallbacksTransmitter:OnIntroAnimationFinished() end
 
----@protected
 ---@return Bool
-function NetworkMinigameAnimationCallbacksTransmitter:OnStartMinigameBGIntroAnimation() return end
+function NetworkMinigameAnimationCallbacksTransmitter:OnStartMinigameBGIntroAnimation() end
 
----@protected
 ---@return Bool
-function NetworkMinigameAnimationCallbacksTransmitter:OnStartSidesAnimation() return end
+function NetworkMinigameAnimationCallbacksTransmitter:OnStartSidesAnimation() end

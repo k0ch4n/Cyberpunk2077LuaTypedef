@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class DeadOnInitTask: AIbehaviortaskScript
----@field public preventSkippingDeathAnimation Bool
+---@field preventSkippingDeathAnimation Bool
 DeadOnInitTask = {}
 
 ---@param fields? DeadOnInitTask
 ---@return DeadOnInitTask
-function DeadOnInitTask.new(fields) return end
+function DeadOnInitTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function DeadOnInitTask:Activate(context) return end
+function DeadOnInitTask:Activate(context) end

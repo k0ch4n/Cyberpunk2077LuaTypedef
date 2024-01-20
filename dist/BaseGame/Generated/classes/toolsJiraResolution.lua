@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class toolsJiraResolution
----@field public name String
----@field public id String
+---@field name String
+---@field id String
 toolsJiraResolution = {}
 
 ---@param fields? toolsJiraResolution
 ---@return toolsJiraResolution
-function toolsJiraResolution.new(fields) return end
+function toolsJiraResolution.new(fields) end

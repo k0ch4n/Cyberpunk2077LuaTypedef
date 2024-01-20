@@ -5,4 +5,4 @@ ResetMeleeAttackDelayedRequest = {}
 
 ---@param fields? ResetMeleeAttackDelayedRequest
 ---@return ResetMeleeAttackDelayedRequest
-function ResetMeleeAttackDelayedRequest.new(fields) return end
+function ResetMeleeAttackDelayedRequest.new(fields) end

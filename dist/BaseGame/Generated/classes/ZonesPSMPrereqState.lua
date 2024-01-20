@@ -5,4 +5,4 @@ ZonesPSMPrereqState = {}
 
 ---@param fields? ZonesPSMPrereqState
 ---@return ZonesPSMPrereqState
-function ZonesPSMPrereqState.new(fields) return end
+function ZonesPSMPrereqState.new(fields) end

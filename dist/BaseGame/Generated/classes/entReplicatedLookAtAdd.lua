@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class entReplicatedLookAtAdd: entReplicatedLookAtData
----@field public bodyPart CName
----@field public request animLookAtRequest
----@field public targetPositionProvider entIPositionProvider
----@field public ref animLookAtRef
+---@field bodyPart CName
+---@field request animLookAtRequest
+---@field targetPositionProvider entIPositionProvider
+---@field ref animLookAtRef
 entReplicatedLookAtAdd = {}
 
 ---@param fields? entReplicatedLookAtAdd
 ---@return entReplicatedLookAtAdd
-function entReplicatedLookAtAdd.new(fields) return end
+function entReplicatedLookAtAdd.new(fields) end

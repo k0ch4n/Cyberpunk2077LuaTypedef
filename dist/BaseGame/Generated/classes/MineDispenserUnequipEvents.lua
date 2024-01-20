@@ -5,10 +5,9 @@ MineDispenserUnequipEvents = {}
 
 ---@param fields? MineDispenserUnequipEvents
 ---@return MineDispenserUnequipEvents
-function MineDispenserUnequipEvents.new(fields) return end
+function MineDispenserUnequipEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MineDispenserUnequipEvents:OnEnter(stateContext, scriptInterface) return end
+function MineDispenserUnequipEvents:OnEnter(stateContext, scriptInterface) end

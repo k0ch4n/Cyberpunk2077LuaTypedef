@@ -5,12 +5,12 @@ TakedownAndDisposeBody = {}
 
 ---@param fields? TakedownAndDisposeBody
 ---@return TakedownAndDisposeBody
-function TakedownAndDisposeBody.new(fields) return end
+function TakedownAndDisposeBody.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function TakedownAndDisposeBody.IsDefaultConditionMet(device, context) return end
+function TakedownAndDisposeBody.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function TakedownAndDisposeBody:SetProperties() return end
+function TakedownAndDisposeBody:SetProperties() end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SetWantedLevel: gameScriptableSystemRequest
----@field public wantedLevel EPreventionHeatStage
----@field public forceGreyStars Bool
----@field public resetGreyStars Bool
----@field public forcePlayerPositionAsLastCrimePoint Bool
----@field public forceIgnoreSecurityAreas Bool
+---@field wantedLevel EPreventionHeatStage
+---@field forceGreyStars Bool
+---@field resetGreyStars Bool
+---@field forcePlayerPositionAsLastCrimePoint Bool
+---@field forceIgnoreSecurityAreas Bool
 SetWantedLevel = {}
 
 ---@param fields? SetWantedLevel
 ---@return SetWantedLevel
-function SetWantedLevel.new(fields) return end
+function SetWantedLevel.new(fields) end
 
 ---@return String
-function SetWantedLevel:GetFriendlyDescription() return end
+function SetWantedLevel:GetFriendlyDescription() end

@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class gameuiCrosshairBaseMelee: gameuiCrosshairBaseGameController
----@field private meleeStateBlackboardId redCallbackObject
+---@field meleeStateBlackboardId redCallbackObject
 gameuiCrosshairBaseMelee = {}
 
 ---@param fields? gameuiCrosshairBaseMelee
 ---@return gameuiCrosshairBaseMelee
-function gameuiCrosshairBaseMelee.new(fields) return end
+function gameuiCrosshairBaseMelee.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiCrosshairBaseMelee:OnGamePSMMeleeWeapon(value) return end
+function gameuiCrosshairBaseMelee:OnGamePSMMeleeWeapon(value) end
 
----@protected
 ---@return Bool
-function gameuiCrosshairBaseMelee:OnPreIntro() return end
+function gameuiCrosshairBaseMelee:OnPreIntro() end
 
----@protected
 ---@return Bool
-function gameuiCrosshairBaseMelee:OnPreOutro() return end
+function gameuiCrosshairBaseMelee:OnPreOutro() end
 
----@protected
 ---@param value gamePSMMeleeWeapon
 ---@return nil
-function gameuiCrosshairBaseMelee:OnMeleeState_Update(value) return end
+function gameuiCrosshairBaseMelee:OnMeleeState_Update(value) end

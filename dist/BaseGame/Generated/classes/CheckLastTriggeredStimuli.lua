@@ -5,9 +5,8 @@ CheckLastTriggeredStimuli = {}
 
 ---@param fields? CheckLastTriggeredStimuli
 ---@return CheckLastTriggeredStimuli
-function CheckLastTriggeredStimuli.new(fields) return end
+function CheckLastTriggeredStimuli.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckLastTriggeredStimuli:Check(context) return end
+function CheckLastTriggeredStimuli:Check(context) end

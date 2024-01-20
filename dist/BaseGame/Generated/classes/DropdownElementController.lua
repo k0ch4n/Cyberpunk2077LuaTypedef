@@ -1,43 +1,40 @@
 ---@meta
 
 ---@class DropdownElementController: BaseButtonView
----@field protected text inkTextWidgetReference
----@field protected arrow inkImageWidgetReference
----@field protected frame inkWidgetReference
----@field protected contentContainer inkWidgetReference
----@field protected data DropdownItemData
----@field protected active Bool
+---@field text inkTextWidgetReference
+---@field arrow inkImageWidgetReference
+---@field frame inkWidgetReference
+---@field contentContainer inkWidgetReference
+---@field data DropdownItemData
+---@field active Bool
 DropdownElementController = {}
 
 ---@param fields? DropdownElementController
 ---@return DropdownElementController
-function DropdownElementController.new(fields) return end
+function DropdownElementController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DropdownElementController:OnHoverOut(evt) return end
+function DropdownElementController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DropdownElementController:OnHoverOver(evt) return end
+function DropdownElementController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function DropdownElementController:OnInitialize() return end
+function DropdownElementController:OnInitialize() end
 
 ---@return Variant
-function DropdownElementController:GetIdentifier() return end
+function DropdownElementController:GetIdentifier() end
 
 ---@param active Bool
 ---@return nil
-function DropdownElementController:SetActive(active) return end
+function DropdownElementController:SetActive(active) end
 
 ---@param highlighted Bool
 ---@return nil
-function DropdownElementController:SetHighlighted(highlighted) return end
+function DropdownElementController:SetHighlighted(highlighted) end
 
 ---@param data DropdownItemData
 ---@return nil
-function DropdownElementController:Setup(data) return end
+function DropdownElementController:Setup(data) end

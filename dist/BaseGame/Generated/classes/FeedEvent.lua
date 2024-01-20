@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class FeedEvent: redEvent
----@field public On Bool
----@field public virtualComponentName CName
----@field public cameraID entEntityID
+---@field On Bool
+---@field virtualComponentName CName
+---@field cameraID entEntityID
 FeedEvent = {}
 
 ---@param fields? FeedEvent
 ---@return FeedEvent
-function FeedEvent.new(fields) return end
+function FeedEvent.new(fields) end

@@ -1,29 +1,28 @@
 ---@meta
 
 ---@class AGenericTooltipController: inkWidgetLogicController
----@field protected Root inkCompoundWidget
+---@field Root inkCompoundWidget
 AGenericTooltipController = {}
 
----@protected
 ---@return Bool
-function AGenericTooltipController:OnInitialize() return end
+function AGenericTooltipController:OnInitialize() end
 
 ---@return nil
-function AGenericTooltipController:Hide() return end
+function AGenericTooltipController:Hide() end
 
 ---@return nil
-function AGenericTooltipController:PrespawnLazyModules() return end
+function AGenericTooltipController:PrespawnLazyModules() end
 
 ---@return nil
-function AGenericTooltipController:Refresh() return end
+function AGenericTooltipController:Refresh() end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function AGenericTooltipController:SetData(tooltipData) return end
+function AGenericTooltipController:SetData(tooltipData) end
 
 ---@param styleResPath redResourceReferenceScriptToken
 ---@return nil
-function AGenericTooltipController:SetStyle(styleResPath) return end
+function AGenericTooltipController:SetStyle(styleResPath) end
 
 ---@return nil
-function AGenericTooltipController:Show() return end
+function AGenericTooltipController:Show() end

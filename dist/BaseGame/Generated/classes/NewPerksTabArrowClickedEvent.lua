@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NewPerksTabArrowClickedEvent: redEvent
----@field public direction NewPerkTabsArrowDirection
+---@field direction NewPerkTabsArrowDirection
 NewPerksTabArrowClickedEvent = {}
 
 ---@param fields? NewPerksTabArrowClickedEvent
 ---@return NewPerksTabArrowClickedEvent
-function NewPerksTabArrowClickedEvent.new(fields) return end
+function NewPerksTabArrowClickedEvent.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIPrereqsDataDef: AIBlackboardDef
----@field public npcHitTypeTimeout gamebbScriptID_Variant
+---@field npcHitTypeTimeout gamebbScriptID_Variant
 AIPrereqsDataDef = {}
 
 ---@param fields? AIPrereqsDataDef
 ---@return AIPrereqsDataDef
-function AIPrereqsDataDef.new(fields) return end
+function AIPrereqsDataDef.new(fields) end
 
 ---@return Bool
-function AIPrereqsDataDef:AutoCreateInSystem() return end
+function AIPrereqsDataDef:AutoCreateInSystem() end

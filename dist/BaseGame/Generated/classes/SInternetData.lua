@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SInternetData
----@field public startingPage String
+---@field startingPage String
 SInternetData = {}
 
 ---@param fields? SInternetData
 ---@return SInternetData
-function SInternetData.new(fields) return end
+function SInternetData.new(fields) end

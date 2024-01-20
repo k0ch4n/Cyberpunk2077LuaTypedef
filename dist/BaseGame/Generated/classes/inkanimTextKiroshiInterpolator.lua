@@ -5,4 +5,4 @@ inkanimTextKiroshiInterpolator = {}
 
 ---@param fields? inkanimTextKiroshiInterpolator
 ---@return inkanimTextKiroshiInterpolator
-function inkanimTextKiroshiInterpolator.new(fields) return end
+function inkanimTextKiroshiInterpolator.new(fields) end

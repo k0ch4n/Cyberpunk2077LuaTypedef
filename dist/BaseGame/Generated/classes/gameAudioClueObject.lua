@@ -5,4 +5,4 @@ gameAudioClueObject = {}
 
 ---@param fields? gameAudioClueObject
 ---@return gameAudioClueObject
-function gameAudioClueObject.new(fields) return end
+function gameAudioClueObject.new(fields) end

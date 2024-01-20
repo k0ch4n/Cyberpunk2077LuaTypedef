@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkFastTravelLoadingControllerSupervisor: gameuiWidgetGameController
----@field public glitchEffect worldEffect
+---@field glitchEffect worldEffect
 inkFastTravelLoadingControllerSupervisor = {}
 
 ---@param fields? inkFastTravelLoadingControllerSupervisor
 ---@return inkFastTravelLoadingControllerSupervisor
-function inkFastTravelLoadingControllerSupervisor.new(fields) return end
+function inkFastTravelLoadingControllerSupervisor.new(fields) end

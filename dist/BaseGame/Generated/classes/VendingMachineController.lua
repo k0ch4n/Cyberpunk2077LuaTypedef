@@ -5,7 +5,7 @@ VendingMachineController = {}
 
 ---@param fields? VendingMachineController
 ---@return VendingMachineController
-function VendingMachineController.new(fields) return end
+function VendingMachineController.new(fields) end
 
 ---@return VendingMachineControllerPS
-function VendingMachineController:GetPS() return end
+function VendingMachineController:GetPS() end

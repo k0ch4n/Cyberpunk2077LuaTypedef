@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class workEntryAnim: workIEntry
----@field public animName CName
----@field public idleAnim CName
----@field public movementType moveMovementType
----@field public orientationType moveMovementOrientationType
----@field public isSynchronized Bool
----@field public slotName CName
----@field public syncOffset Transform
----@field public blendOutTime Float
+---@field animName CName
+---@field idleAnim CName
+---@field movementType moveMovementType
+---@field orientationType moveMovementOrientationType
+---@field isSynchronized Bool
+---@field slotName CName
+---@field syncOffset Transform
+---@field blendOutTime Float
 workEntryAnim = {}
 
 ---@param fields? workEntryAnim
 ---@return workEntryAnim
-function workEntryAnim.new(fields) return end
+function workEntryAnim.new(fields) end

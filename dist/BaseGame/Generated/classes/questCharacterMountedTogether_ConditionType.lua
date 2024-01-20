@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questCharacterMountedTogether_ConditionType: questICharacterConditionType
----@field public vehicleType questMountVehicleType
----@field public vehicleOrigin questMountVehicleOrigin
----@field public characters questMountedObjectInfo[]
+---@field vehicleType questMountVehicleType
+---@field vehicleOrigin questMountVehicleOrigin
+---@field characters questMountedObjectInfo[]
 questCharacterMountedTogether_ConditionType = {}
 
 ---@param fields? questCharacterMountedTogether_ConditionType
 ---@return questCharacterMountedTogether_ConditionType
-function questCharacterMountedTogether_ConditionType.new(fields) return end
+function questCharacterMountedTogether_ConditionType.new(fields) end

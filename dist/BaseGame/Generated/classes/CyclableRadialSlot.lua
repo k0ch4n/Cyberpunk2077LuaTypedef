@@ -1,44 +1,43 @@
 ---@meta
 
 ---@class CyclableRadialSlot: WeaponRadialSlot
----@field public leftArrowEmpty inkWidgetReference
----@field public leftArrowFull inkWidgetReference
----@field public rightArrowEmpty inkWidgetReference
----@field public rightArrowFull inkWidgetReference
----@field private canCycle Bool
----@field public isCycling Bool
----@field private wasCyclingRight Bool
----@field private hotkey gameEHotkey
+---@field leftArrowEmpty inkWidgetReference
+---@field leftArrowFull inkWidgetReference
+---@field rightArrowEmpty inkWidgetReference
+---@field rightArrowFull inkWidgetReference
+---@field canCycle Bool
+---@field isCycling Bool
+---@field wasCyclingRight Bool
+---@field hotkey gameEHotkey
 CyclableRadialSlot = {}
 
 ---@param fields? CyclableRadialSlot
 ---@return CyclableRadialSlot
-function CyclableRadialSlot.new(fields) return end
+function CyclableRadialSlot.new(fields) end
 
----@protected
 ---@param shouldActivate Bool
 ---@return nil
-function CyclableRadialSlot:Activate(shouldActivate) return end
+function CyclableRadialSlot:Activate(shouldActivate) end
 
 ---@return Bool
-function CyclableRadialSlot:CanCycle() return end
+function CyclableRadialSlot:CanCycle() end
 
 ---@param right Bool
 ---@return nil
-function CyclableRadialSlot:CycleStart(right) return end
+function CyclableRadialSlot:CycleStart(right) end
 
 ---@return nil
-function CyclableRadialSlot:CycleStop() return end
+function CyclableRadialSlot:CycleStop() end
 
 ---@return nil, String[] info
-function CyclableRadialSlot:GetDebugInfo() return end
+function CyclableRadialSlot:GetDebugInfo() end
 
 ---@return gameEHotkey
-function CyclableRadialSlot:GetHotkey() return end
+function CyclableRadialSlot:GetHotkey() end
 
 ---@return Bool
-function CyclableRadialSlot:IsCyclable() return end
+function CyclableRadialSlot:IsCyclable() end
 
 ---@param _canCycle Bool
 ---@return nil
-function CyclableRadialSlot:SetCanCycle(_canCycle) return end
+function CyclableRadialSlot:SetCanCycle(_canCycle) end

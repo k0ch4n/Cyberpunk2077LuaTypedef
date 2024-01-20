@@ -5,4 +5,4 @@ animAnimFeatureMarkUnstable = {}
 
 ---@param fields? animAnimFeatureMarkUnstable
 ---@return animAnimFeatureMarkUnstable
-function animAnimFeatureMarkUnstable.new(fields) return end
+function animAnimFeatureMarkUnstable.new(fields) end

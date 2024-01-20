@@ -5,4 +5,4 @@ AIbehaviorWaitingNotMountedCommandConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitingNotMountedCommandConditionDefinition
 ---@return AIbehaviorWaitingNotMountedCommandConditionDefinition
-function AIbehaviorWaitingNotMountedCommandConditionDefinition.new(fields) return end
+function AIbehaviorWaitingNotMountedCommandConditionDefinition.new(fields) end

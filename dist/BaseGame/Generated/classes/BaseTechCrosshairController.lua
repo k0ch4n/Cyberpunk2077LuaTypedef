@@ -1,45 +1,39 @@
 ---@meta
 
 ---@class BaseTechCrosshairController: gameuiCrosshairBaseGameController
----@field private player gameObject
----@field private statsSystem gameStatsSystem
----@field private fullChargeAvailable Bool
----@field private overChargeAvailable Bool
----@field private fullChargeListener CrosshairWeaponStatsListener
----@field private overChargeListener CrosshairWeaponStatsListener
+---@field player gameObject
+---@field statsSystem gameStatsSystem
+---@field fullChargeAvailable Bool
+---@field overChargeAvailable Bool
+---@field fullChargeListener CrosshairWeaponStatsListener
+---@field overChargeListener CrosshairWeaponStatsListener
 BaseTechCrosshairController = {}
 
 ---@param fields? BaseTechCrosshairController
 ---@return BaseTechCrosshairController
-function BaseTechCrosshairController.new(fields) return end
+function BaseTechCrosshairController.new(fields) end
 
----@protected
 ---@return Bool
-function BaseTechCrosshairController:OnInitialize() return end
+function BaseTechCrosshairController:OnInitialize() end
 
----@protected
 ---@return Bool
-function BaseTechCrosshairController:OnUnitialize() return end
+function BaseTechCrosshairController:OnUnitialize() end
 
----@protected
 ---@return Float
-function BaseTechCrosshairController:GetCurrentChargeLimit() return end
+function BaseTechCrosshairController:GetCurrentChargeLimit() end
 
----@protected
 ---@return Bool
-function BaseTechCrosshairController:IsFullChargeAvailable() return end
+function BaseTechCrosshairController:IsFullChargeAvailable() end
 
----@protected
 ---@return Bool
-function BaseTechCrosshairController:IsOverChargeAvailable() return end
+function BaseTechCrosshairController:IsOverChargeAvailable() end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function BaseTechCrosshairController:OnCrosshairWeaponStatChanged(ownerID, statType, diff, total) return end
+function BaseTechCrosshairController:OnCrosshairWeaponStatChanged(ownerID, statType, diff, total) end
 
----@protected
 ---@return nil
-function BaseTechCrosshairController:OnWeaponChargingStatChanged() return end
+function BaseTechCrosshairController:OnWeaponChargingStatChanged() end

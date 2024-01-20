@@ -1,37 +1,32 @@
 ---@meta
 
 ---@class ApplyStatusEffectBasedOnDifficultyEffector: ApplyStatusEffectEffector
----@field public statusEffectOnStoryDifficulty TweakDBID
----@field public statusEffectOnEasyDifficulty TweakDBID
----@field public statusEffectOnHardDifficulty TweakDBID
----@field public statusEffectOnVeryHardDifficulty TweakDBID
+---@field statusEffectOnStoryDifficulty TweakDBID
+---@field statusEffectOnEasyDifficulty TweakDBID
+---@field statusEffectOnHardDifficulty TweakDBID
+---@field statusEffectOnVeryHardDifficulty TweakDBID
 ApplyStatusEffectBasedOnDifficultyEffector = {}
 
 ---@param fields? ApplyStatusEffectBasedOnDifficultyEffector
 ---@return ApplyStatusEffectBasedOnDifficultyEffector
-function ApplyStatusEffectBasedOnDifficultyEffector.new(fields) return end
+function ApplyStatusEffectBasedOnDifficultyEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectBasedOnDifficultyEffector:ActionOn(owner) return end
+function ApplyStatusEffectBasedOnDifficultyEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyStatusEffectBasedOnDifficultyEffector:Initialize(record, parentRecord) return end
+function ApplyStatusEffectBasedOnDifficultyEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectBasedOnDifficultyEffector:RepeatedAction(owner) return end
+function ApplyStatusEffectBasedOnDifficultyEffector:RepeatedAction(owner) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function ApplyStatusEffectBasedOnDifficultyEffector:SetStatusEffectBasedOnDifficulty(owner) return end
+function ApplyStatusEffectBasedOnDifficultyEffector:SetStatusEffectBasedOnDifficulty(owner) end
 
----@protected
 ---@return nil
-function ApplyStatusEffectBasedOnDifficultyEffector:Uninitialize() return end
+function ApplyStatusEffectBasedOnDifficultyEffector:Uninitialize() end

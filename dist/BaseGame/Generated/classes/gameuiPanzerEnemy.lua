@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class gameuiPanzerEnemy: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
----@field public noBonusChanceCoeff Uint32
----@field public health Int32
----@field public score Uint32
----@field public shootPoint Vector2
----@field public bulletSpeed Float
----@field public gameLayerName CName
----@field public explosionLibraryName CName
----@field public bulletLibraryName CName
----@field public lifeBonusLibraryName CName
----@field public lifeBonusChanceCoeff Uint32
----@field public scoreBonusLibraryName CName
----@field public scoreBonusChanceCoeff Uint32
----@field public score50ChanceCoeff Uint32
----@field public score100ChanceCoeff Uint32
----@field public score200ChanceCoeff Uint32
+---@field noBonusChanceCoeff Uint32
+---@field health Int32
+---@field score Uint32
+---@field shootPoint Vector2
+---@field bulletSpeed Float
+---@field gameLayerName CName
+---@field explosionLibraryName CName
+---@field bulletLibraryName CName
+---@field lifeBonusLibraryName CName
+---@field lifeBonusChanceCoeff Uint32
+---@field scoreBonusLibraryName CName
+---@field scoreBonusChanceCoeff Uint32
+---@field score50ChanceCoeff Uint32
+---@field score100ChanceCoeff Uint32
+---@field score200ChanceCoeff Uint32
 gameuiPanzerEnemy = {}
 
 ---@param fields? gameuiPanzerEnemy
 ---@return gameuiPanzerEnemy
-function gameuiPanzerEnemy.new(fields) return end
+function gameuiPanzerEnemy.new(fields) end

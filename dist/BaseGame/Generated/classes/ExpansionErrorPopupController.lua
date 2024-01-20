@@ -1,51 +1,43 @@
 ---@meta
 
 ---@class ExpansionErrorPopupController: gameuiWidgetGameController
----@field private title inkTextWidgetReference
----@field private description inkTextWidgetReference
----@field private errorCodeText inkTextWidgetReference
----@field private closeButtonRef inkWidgetReference
----@field private introAnimationName CName
----@field private outroAnimationName CName
----@field private data ExpansionErrorPopuppData
----@field private animProxy inkanimProxy
+---@field title inkTextWidgetReference
+---@field description inkTextWidgetReference
+---@field errorCodeText inkTextWidgetReference
+---@field closeButtonRef inkWidgetReference
+---@field introAnimationName CName
+---@field outroAnimationName CName
+---@field data ExpansionErrorPopuppData
+---@field animProxy inkanimProxy
 ExpansionErrorPopupController = {}
 
 ---@param fields? ExpansionErrorPopupController
 ---@return ExpansionErrorPopupController
-function ExpansionErrorPopupController.new(fields) return end
+function ExpansionErrorPopupController.new(fields) end
 
----@protected
 ---@return Bool
-function ExpansionErrorPopupController:OnInitialize() return end
+function ExpansionErrorPopupController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function ExpansionErrorPopupController:OnOutroAnimationFinished(proxy) return end
+function ExpansionErrorPopupController:OnOutroAnimationFinished(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionErrorPopupController:OnPressClose(evt) return end
+function ExpansionErrorPopupController:OnPressClose(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionErrorPopupController:OnRelease(evt) return end
+function ExpansionErrorPopupController:OnRelease(evt) end
 
----@protected
 ---@return Bool
-function ExpansionErrorPopupController:OnUninitialize() return end
+function ExpansionErrorPopupController:OnUninitialize() end
 
----@private
 ---@return nil
-function ExpansionErrorPopupController:Close() return end
+function ExpansionErrorPopupController:Close() end
 
----@private
 ---@return nil
-function ExpansionErrorPopupController:SetMessage() return end
+function ExpansionErrorPopupController:SetMessage() end
 
----@private
 ---@return nil
-function ExpansionErrorPopupController:SetupData() return end
+function ExpansionErrorPopupController:SetupData() end

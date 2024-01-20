@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class ChangeUpperBodyState: ChangeUpperBodyStateAbstract
----@field public newState gamedataNPCUpperBodyState
+---@field newState gamedataNPCUpperBodyState
 ChangeUpperBodyState = {}
 
 ---@param fields? ChangeUpperBodyState
 ---@return ChangeUpperBodyState
-function ChangeUpperBodyState.new(fields) return end
+function ChangeUpperBodyState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCUpperBodyState
-function ChangeUpperBodyState:GetDesiredUpperBodyState(context) return end
+function ChangeUpperBodyState:GetDesiredUpperBodyState(context) end

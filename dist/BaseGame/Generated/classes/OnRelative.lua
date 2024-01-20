@@ -5,4 +5,4 @@ OnRelative = {}
 
 ---@param fields? OnRelative
 ---@return OnRelative
-function OnRelative.new(fields) return end
+function OnRelative.new(fields) end

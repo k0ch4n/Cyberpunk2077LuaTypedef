@@ -5,9 +5,8 @@ UnconsciousState = {}
 
 ---@param fields? UnconsciousState
 ---@return UnconsciousState
-function UnconsciousState.new(fields) return end
+function UnconsciousState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCHighLevelState
-function UnconsciousState:GetDesiredHighLevelState(context) return end
+function UnconsciousState:GetDesiredHighLevelState(context) end

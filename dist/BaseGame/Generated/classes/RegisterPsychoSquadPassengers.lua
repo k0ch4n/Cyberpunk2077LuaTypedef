@@ -5,9 +5,8 @@ RegisterPsychoSquadPassengers = {}
 
 ---@param fields? RegisterPsychoSquadPassengers
 ---@return RegisterPsychoSquadPassengers
-function RegisterPsychoSquadPassengers.new(fields) return end
+function RegisterPsychoSquadPassengers.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function RegisterPsychoSquadPassengers:Activate(context) return end
+function RegisterPsychoSquadPassengers:Activate(context) end

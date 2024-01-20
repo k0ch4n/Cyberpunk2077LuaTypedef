@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class animImportFacialCorrectivePoseDesc
----@field public influencedBy CName[]
----@field public influenceMainWeightIndices Uint16[]
----@field public poses animImportFacialCorrectivePoseDataDesc[]
----@field public parentsInBetweenIndices Int16[]
----@field public parentIndices Uint16[]
----@field public name CName
----@field public index Uint16
----@field public influencedBySpeed Uint8
----@field public poseType Uint8
----@field public poseLOD Uint8
----@field public weights Float[]
----@field public inBetweenScopeMultipliers Float[]
----@field public linearCorrection Bool
----@field public useGlobalWeight Bool
+---@field influencedBy CName[]
+---@field influenceMainWeightIndices Uint16[]
+---@field poses animImportFacialCorrectivePoseDataDesc[]
+---@field parentsInBetweenIndices Int16[]
+---@field parentIndices Uint16[]
+---@field name CName
+---@field index Uint16
+---@field influencedBySpeed Uint8
+---@field poseType Uint8
+---@field poseLOD Uint8
+---@field weights Float[]
+---@field inBetweenScopeMultipliers Float[]
+---@field linearCorrection Bool
+---@field useGlobalWeight Bool
 animImportFacialCorrectivePoseDesc = {}
 
 ---@param fields? animImportFacialCorrectivePoseDesc
 ---@return animImportFacialCorrectivePoseDesc
-function animImportFacialCorrectivePoseDesc.new(fields) return end
+function animImportFacialCorrectivePoseDesc.new(fields) end

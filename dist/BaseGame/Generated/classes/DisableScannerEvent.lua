@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DisableScannerEvent: redEvent
----@field public isDisabled Bool
+---@field isDisabled Bool
 DisableScannerEvent = {}
 
 ---@param fields? DisableScannerEvent
 ---@return DisableScannerEvent
-function DisableScannerEvent.new(fields) return end
+function DisableScannerEvent.new(fields) end
 
 ---@return String
-function DisableScannerEvent:GetFriendlyDescription() return end
+function DisableScannerEvent:GetFriendlyDescription() end

@@ -5,8 +5,8 @@ QuestCustomAction = {}
 
 ---@param fields? QuestCustomAction
 ---@return QuestCustomAction
-function QuestCustomAction.new(fields) return end
+function QuestCustomAction.new(fields) end
 
 ---@param actionID CName|string
 ---@return nil
-function QuestCustomAction:SetProperties(actionID) return end
+function QuestCustomAction:SetProperties(actionID) end

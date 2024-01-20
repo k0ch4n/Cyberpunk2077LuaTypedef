@@ -1,106 +1,89 @@
 ---@meta
 
 ---@class DamageDigitsGameController: gameuiProjectedHUDGameController
----@field public maxVisible Int32
----@field public maxAccumulatedVisible Int32
----@field private realOwner gameObject
----@field private digitsQueue inkScriptFIFOQueue
----@field private individualControllerArray DamageDigitLogicController[]
----@field private accumulatedControllerArray AccumulatedDamageDigitsNode[]
----@field private showDigitsIndividual Bool
----@field private showDigitsAccumulated Bool
----@field private damageDigitsStickingMode gameuiDamageDigitsStickingMode
----@field private spawnedDigits Int32
----@field private damageListBlackboardId redCallbackObject
----@field private damageDigitsModeBlackboardId redCallbackObject
----@field private damageDigitsStickingModeBlackboardId redCallbackObject
+---@field maxVisible Int32
+---@field maxAccumulatedVisible Int32
+---@field realOwner gameObject
+---@field digitsQueue inkScriptFIFOQueue
+---@field individualControllerArray DamageDigitLogicController[]
+---@field accumulatedControllerArray AccumulatedDamageDigitsNode[]
+---@field showDigitsIndividual Bool
+---@field showDigitsAccumulated Bool
+---@field damageDigitsStickingMode gameuiDamageDigitsStickingMode
+---@field spawnedDigits Int32
+---@field damageListBlackboardId redCallbackObject
+---@field damageDigitsModeBlackboardId redCallbackObject
+---@field damageDigitsStickingModeBlackboardId redCallbackObject
 DamageDigitsGameController = {}
 
 ---@param fields? DamageDigitsGameController
 ---@return DamageDigitsGameController
-function DamageDigitsGameController.new(fields) return end
+function DamageDigitsGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DamageDigitsGameController:OnAccumulatedDamageDigitSpawned(widget, userData) return end
+function DamageDigitsGameController:OnAccumulatedDamageDigitSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DamageDigitsGameController:OnDamageAdded(value) return end
+function DamageDigitsGameController:OnDamageAdded(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DamageDigitsGameController:OnDamageDigitSpawned(widget, userData) return end
+function DamageDigitsGameController:OnDamageDigitSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DamageDigitsGameController:OnDamageDigitsModeChanged(value) return end
+function DamageDigitsGameController:OnDamageDigitsModeChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DamageDigitsGameController:OnDigitsStickingModeChanged(value) return end
+function DamageDigitsGameController:OnDigitsStickingModeChanged(value) end
 
----@protected
 ---@param digitWidget inkWidget
 ---@return Bool
-function DamageDigitsGameController:OnHideAccumulatedDigit(digitWidget) return end
+function DamageDigitsGameController:OnHideAccumulatedDigit(digitWidget) end
 
----@protected
 ---@param digitWidget inkWidget
 ---@return Bool
-function DamageDigitsGameController:OnHideDigit(digitWidget) return end
+function DamageDigitsGameController:OnHideDigit(digitWidget) end
 
----@protected
 ---@return Bool
-function DamageDigitsGameController:OnInitialize() return end
+function DamageDigitsGameController:OnInitialize() end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function DamageDigitsGameController:OnPlayerAttach(player) return end
+function DamageDigitsGameController:OnPlayerAttach(player) end
 
----@protected
 ---@return Bool
-function DamageDigitsGameController:OnUninitialize() return end
+function DamageDigitsGameController:OnUninitialize() end
 
----@protected
 ---@param evt vehicleVehicleTirePuncturedEvent
 ---@return Bool
-function DamageDigitsGameController:OnVehicleTirePuncturedEvent(evt) return end
+function DamageDigitsGameController:OnVehicleTirePuncturedEvent(evt) end
 
----@private
 ---@return nil
-function DamageDigitsGameController:CreateAccumulatedDamageDigitsArray() return end
+function DamageDigitsGameController:CreateAccumulatedDamageDigitsArray() end
 
----@private
 ---@return nil
-function DamageDigitsGameController:CreateDigitsQueue() return end
+function DamageDigitsGameController:CreateDigitsQueue() end
 
 ---@param damageInfo gameuiDamageInfo
 ---@return Bool
-function DamageDigitsGameController:IsCriticalHit(damageInfo) return end
+function DamageDigitsGameController:IsCriticalHit(damageInfo) end
 
----@private
 ---@param damageInfo gameuiDamageInfo
 ---@return Bool
-function DamageDigitsGameController:IsDamageOverTime(damageInfo) return end
+function DamageDigitsGameController:IsDamageOverTime(damageInfo) end
 
----@private
 ---@return nil
-function DamageDigitsGameController:RegisterDigitsToQueue() return end
+function DamageDigitsGameController:RegisterDigitsToQueue() end
 
----@private
 ---@param damageInfo gameuiDamageInfo
 ---@return Bool
-function DamageDigitsGameController:ShowDamageFloater(damageInfo) return end
+function DamageDigitsGameController:ShowDamageFloater(damageInfo) end
 
----@private
 ---@return nil
-function DamageDigitsGameController:UpdateDamageDigitsStickingMode() return end
+function DamageDigitsGameController:UpdateDamageDigitsStickingMode() end

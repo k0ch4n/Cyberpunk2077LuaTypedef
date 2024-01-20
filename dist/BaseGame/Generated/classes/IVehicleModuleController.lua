@@ -5,13 +5,13 @@ IVehicleModuleController = {}
 
 ---@param fields? IVehicleModuleController
 ---@return IVehicleModuleController
-function IVehicleModuleController.new(fields) return end
+function IVehicleModuleController.new(fields) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function IVehicleModuleController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function IVehicleModuleController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function IVehicleModuleController:UnregisterCallbacks() return end
+function IVehicleModuleController:UnregisterCallbacks() end

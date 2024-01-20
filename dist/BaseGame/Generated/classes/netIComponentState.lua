@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class netIComponentState
----@field public componentName CName
----@field public enabled Bool
+---@field componentName CName
+---@field enabled Bool
 netIComponentState = {}

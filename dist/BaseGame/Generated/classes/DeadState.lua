@@ -5,9 +5,8 @@ DeadState = {}
 
 ---@param fields? DeadState
 ---@return DeadState
-function DeadState.new(fields) return end
+function DeadState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCHighLevelState
-function DeadState:GetDesiredHighLevelState(context) return end
+function DeadState:GetDesiredHighLevelState(context) end

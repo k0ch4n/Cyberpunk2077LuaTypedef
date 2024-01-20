@@ -5,4 +5,4 @@ gameImpostorComponentAttachEvent = {}
 
 ---@param fields? gameImpostorComponentAttachEvent
 ---@return gameImpostorComponentAttachEvent
-function gameImpostorComponentAttachEvent.new(fields) return end
+function gameImpostorComponentAttachEvent.new(fields) end

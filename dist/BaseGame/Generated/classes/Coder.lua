@@ -5,16 +5,14 @@ Coder = {}
 
 ---@param fields? Coder
 ---@return Coder
-function Coder.new(fields) return end
+function Coder.new(fields) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Coder:OnTakeControl(ri) return end
+function Coder:OnTakeControl(ri) end
 
----@private
 ---@return CoderController
-function Coder:GetController() return end
+function Coder:GetController() end
 
 ---@return CoderControllerPS
-function Coder:GetDevicePS() return end
+function Coder:GetDevicePS() end

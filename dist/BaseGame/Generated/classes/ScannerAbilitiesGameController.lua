@@ -1,44 +1,37 @@
 ---@meta
 
 ---@class ScannerAbilitiesGameController: BaseChunkGameController
----@field private ScannerAbilitiesRightPanel inkCompoundWidgetReference
----@field private abilitiesCallbackID redCallbackObject
----@field private isValidAbilities Bool
----@field private asyncSpawnRequests inkAsyncSpawnRequest[]
+---@field ScannerAbilitiesRightPanel inkCompoundWidgetReference
+---@field abilitiesCallbackID redCallbackObject
+---@field isValidAbilities Bool
+---@field asyncSpawnRequests inkAsyncSpawnRequest[]
 ScannerAbilitiesGameController = {}
 
 ---@param fields? ScannerAbilitiesGameController
 ---@return ScannerAbilitiesGameController
-function ScannerAbilitiesGameController.new(fields) return end
+function ScannerAbilitiesGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerAbilitiesGameController:OnAbilitiesChanged(value) return end
+function ScannerAbilitiesGameController:OnAbilitiesChanged(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ScannerAbilitiesGameController:OnAbilitySpawned(widget, userData) return end
+function ScannerAbilitiesGameController:OnAbilitySpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function ScannerAbilitiesGameController:OnInitialize() return end
+function ScannerAbilitiesGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ScannerAbilitiesGameController:OnUninitialize() return end
+function ScannerAbilitiesGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ScannerAbilitiesGameController:ClearAllAsyncSpawnRequests() return end
+function ScannerAbilitiesGameController:ClearAllAsyncSpawnRequests() end
 
----@private
 ---@param request inkAsyncSpawnRequest
 ---@return nil
-function ScannerAbilitiesGameController:ClearAsyncSpawnRequest(request) return end
+function ScannerAbilitiesGameController:ClearAsyncSpawnRequest(request) end
 
----@private
 ---@return nil
-function ScannerAbilitiesGameController:UpdateGlobalVisibility() return end
+function ScannerAbilitiesGameController:UpdateGlobalVisibility() end

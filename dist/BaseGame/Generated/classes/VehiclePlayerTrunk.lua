@@ -5,7 +5,7 @@ VehiclePlayerTrunk = {}
 
 ---@param fields? VehiclePlayerTrunk
 ---@return VehiclePlayerTrunk
-function VehiclePlayerTrunk.new(fields) return end
+function VehiclePlayerTrunk.new(fields) end
 
 ---@return nil
-function VehiclePlayerTrunk:SetProperties() return end
+function VehiclePlayerTrunk:SetProperties() end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameTargetingComponent: entIPlacedComponent
----@field public isPrimary Bool
----@field public isDirectional Bool
----@field public aimAssistData TweakDBID[]
----@field public isEnabled Bool
----@field public alwaysInTestRange Bool
+---@field isPrimary Bool
+---@field isDirectional Bool
+---@field aimAssistData TweakDBID[]
+---@field isEnabled Bool
+---@field alwaysInTestRange Bool
 gameTargetingComponent = {}
 
 ---@param fields? gameTargetingComponent
 ---@return gameTargetingComponent
-function gameTargetingComponent.new(fields) return end
+function gameTargetingComponent.new(fields) end
 
 ---@return Bool
-function gameTargetingComponent:IsAimAssistEnabled() return end
+function gameTargetingComponent:IsAimAssistEnabled() end
 
 ---@return nil
-function gameTargetingComponent:OnTargetHit() return end
+function gameTargetingComponent:OnTargetHit() end

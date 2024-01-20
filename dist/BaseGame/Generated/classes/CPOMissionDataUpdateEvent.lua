@@ -5,4 +5,4 @@ CPOMissionDataUpdateEvent = {}
 
 ---@param fields? CPOMissionDataUpdateEvent
 ---@return CPOMissionDataUpdateEvent
-function CPOMissionDataUpdateEvent.new(fields) return end
+function CPOMissionDataUpdateEvent.new(fields) end

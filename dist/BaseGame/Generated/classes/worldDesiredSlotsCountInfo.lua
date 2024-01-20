@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldDesiredSlotsCountInfo
----@field public siredSlotsCount Float
----@field public nCoeff Float
----@field public nCoeffWhenMounted Float
+---@field siredSlotsCount Float
+---@field nCoeff Float
+---@field nCoeffWhenMounted Float
 worldDesiredSlotsCountInfo = {}
 
 ---@param fields? worldDesiredSlotsCountInfo
 ---@return worldDesiredSlotsCountInfo
-function worldDesiredSlotsCountInfo.new(fields) return end
+function worldDesiredSlotsCountInfo.new(fields) end

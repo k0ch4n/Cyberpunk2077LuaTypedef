@@ -5,4 +5,4 @@ AIFollowerSquadMember = {}
 
 ---@param fields? AIFollowerSquadMember
 ---@return AIFollowerSquadMember
-function AIFollowerSquadMember.new(fields) return end
+function AIFollowerSquadMember.new(fields) end

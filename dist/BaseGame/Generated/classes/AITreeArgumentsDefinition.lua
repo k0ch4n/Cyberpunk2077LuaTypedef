@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AITreeArgumentsDefinition
----@field public args AIArgumentDefinition[]
+---@field args AIArgumentDefinition[]
 AITreeArgumentsDefinition = {}
 
 ---@param fields? AITreeArgumentsDefinition
 ---@return AITreeArgumentsDefinition
-function AITreeArgumentsDefinition.new(fields) return end
+function AITreeArgumentsDefinition.new(fields) end

@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class IncomingCallGameController: gameuiNewPhoneRelatedHUDGameController
----@field private contactNameWidget inkTextWidgetReference
----@field private buttonHint inkWidgetReference
----@field private phoneBlackboard gameIBlackboard
----@field private phoneBBDefinition UI_ComDeviceDef
----@field private phoneCallInfoBBID redCallbackObject
----@field private animProxy inkanimProxy
+---@field contactNameWidget inkTextWidgetReference
+---@field buttonHint inkWidgetReference
+---@field phoneBlackboard gameIBlackboard
+---@field phoneBBDefinition UI_ComDeviceDef
+---@field phoneCallInfoBBID redCallbackObject
+---@field animProxy inkanimProxy
 IncomingCallGameController = {}
 
 ---@param fields? IncomingCallGameController
 ---@return IncomingCallGameController
-function IncomingCallGameController.new(fields) return end
+function IncomingCallGameController.new(fields) end
 
----@protected
 ---@return Bool
-function IncomingCallGameController:OnInitialize() return end
+function IncomingCallGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function IncomingCallGameController:OnPhoneCall(value) return end
+function IncomingCallGameController:OnPhoneCall(value) end
 
----@protected
 ---@return Bool
-function IncomingCallGameController:OnUninitialize() return end
+function IncomingCallGameController:OnUninitialize() end
 
----@private
 ---@param phoneCallInfo questPhoneCallInformation
 ---@return gameJournalContact
-function IncomingCallGameController:GetIncomingContact(phoneCallInfo) return end
+function IncomingCallGameController:GetIncomingContact(phoneCallInfo) end

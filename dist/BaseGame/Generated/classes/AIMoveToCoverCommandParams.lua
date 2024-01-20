@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIMoveToCoverCommandParams: questScriptedAICommandParams
----@field public coverNodeRef NodeRef
----@field public alwaysUseStealth Bool
----@field public specialAction ECoverSpecialAction
+---@field coverNodeRef NodeRef
+---@field alwaysUseStealth Bool
+---@field specialAction ECoverSpecialAction
 AIMoveToCoverCommandParams = {}
 
 ---@param fields? AIMoveToCoverCommandParams
 ---@return AIMoveToCoverCommandParams
-function AIMoveToCoverCommandParams.new(fields) return end
+function AIMoveToCoverCommandParams.new(fields) end
 
 ---@return AICommand
-function AIMoveToCoverCommandParams:CreateCommand() return end
+function AIMoveToCoverCommandParams:CreateCommand() end
 
 ---@return String
-function AIMoveToCoverCommandParams:GetCommandName() return end
+function AIMoveToCoverCommandParams:GetCommandName() end

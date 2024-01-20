@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NewAreaDiscoveredUserData: inkGameNotificationData
----@field public data String
+---@field data String
 NewAreaDiscoveredUserData = {}
 
 ---@param fields? NewAreaDiscoveredUserData
 ---@return NewAreaDiscoveredUserData
-function NewAreaDiscoveredUserData.new(fields) return end
+function NewAreaDiscoveredUserData.new(fields) end

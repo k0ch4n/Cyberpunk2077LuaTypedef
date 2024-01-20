@@ -1,167 +1,167 @@
 ---@meta
 
 ---@class inkTextWidget: inkLeafWidget
----@field public localizationString LocalizationString
----@field public textIdKey CName
----@field public text String
----@field public fontFamily inkFontFamilyResource
----@field public fontStyle CName
----@field public fontSize Uint32
----@field public font rendFont
----@field public letterCase textLetterCase
----@field public tracking Uint32
----@field public lockFontInGame Bool
----@field public wrappingInfo textWrappingInfo
----@field public lineHeightPercentage Float
----@field public justification textJustificationType
----@field public textHorizontalAlignment textHorizontalAlignment
----@field public textVerticalAlignment textVerticalAlignment
----@field public textOverflowPolicy textOverflowPolicy
----@field public scrollTextSpeed Float
----@field public scrollDelay Uint16
----@field public contentHAlign inkEHorizontalAlign
----@field public contentVAlign inkEVerticalAlign
+---@field localizationString LocalizationString
+---@field textIdKey CName
+---@field text String
+---@field fontFamily inkFontFamilyResource
+---@field fontStyle CName
+---@field fontSize Uint32
+---@field font rendFont
+---@field letterCase textLetterCase
+---@field tracking Uint32
+---@field lockFontInGame Bool
+---@field wrappingInfo textWrappingInfo
+---@field lineHeightPercentage Float
+---@field justification textJustificationType
+---@field textHorizontalAlignment textHorizontalAlignment
+---@field textVerticalAlignment textVerticalAlignment
+---@field textOverflowPolicy textOverflowPolicy
+---@field scrollTextSpeed Float
+---@field scrollDelay Uint16
+---@field contentHAlign inkEHorizontalAlign
+---@field contentVAlign inkEVerticalAlign
 inkTextWidget = {}
 
 ---@param fields? inkTextWidget
 ---@return inkTextWidget
-function inkTextWidget.new(fields) return end
+function inkTextWidget.new(fields) end
 
 ---@param enableState Bool
 ---@return nil
-function inkTextWidget:EnableAutoScroll(enableState) return end
+function inkTextWidget:EnableAutoScroll(enableState) end
 
 ---@return Int32
-function inkTextWidget:GetFontSize() return end
+function inkTextWidget:GetFontSize() end
 
 ---@return CName
-function inkTextWidget:GetFontStyle() return end
+function inkTextWidget:GetFontStyle() end
 
 ---@return textHorizontalAlignment
-function inkTextWidget:GetHorizontalAlignment() return end
+function inkTextWidget:GetHorizontalAlignment() end
 
 ---@return textLetterCase
-function inkTextWidget:GetLetterCase() return end
+function inkTextWidget:GetLetterCase() end
 
 ---@return CName
-function inkTextWidget:GetLocalizationKey() return end
+function inkTextWidget:GetLocalizationKey() end
 
 ---@return nil
-function inkTextWidget:GetScrollDelay() return end
+function inkTextWidget:GetScrollDelay() end
 
 ---@return Float
-function inkTextWidget:GetScrollTextSpeed() return end
+function inkTextWidget:GetScrollTextSpeed() end
 
 ---@return String
-function inkTextWidget:GetText() return end
+function inkTextWidget:GetText() end
 
 ---@return textTextParameterSet
-function inkTextWidget:GetTextParameters() return end
+function inkTextWidget:GetTextParameters() end
 
 ---@return Int32
-function inkTextWidget:GetTracking() return end
+function inkTextWidget:GetTracking() end
 
 ---@return textVerticalAlignment
-function inkTextWidget:GetVerticalAlignment() return end
+function inkTextWidget:GetVerticalAlignment() end
 
 ---@param timestamp Uint64
 ---@return nil
-function inkTextWidget:SetDateTimeByTimestamp(timestamp) return end
+function inkTextWidget:SetDateTimeByTimestamp(timestamp) end
 
 ---@param fontFamilyPath String
 ---@param fontStyle? CName|string
 ---@return nil
-function inkTextWidget:SetFontFamily(fontFamilyPath, fontStyle) return end
+function inkTextWidget:SetFontFamily(fontFamilyPath, fontStyle) end
 
 ---@param textSize Int32
 ---@return nil
-function inkTextWidget:SetFontSize(textSize) return end
+function inkTextWidget:SetFontSize(textSize) end
 
 ---@param fontStyle CName|string
 ---@return nil
-function inkTextWidget:SetFontStyle(fontStyle) return end
+function inkTextWidget:SetFontStyle(fontStyle) end
 
 ---@param horizontalAlignment textHorizontalAlignment
 ---@return nil
-function inkTextWidget:SetHorizontalAlignment(horizontalAlignment) return end
+function inkTextWidget:SetHorizontalAlignment(horizontalAlignment) end
 
 ---@param letterCase textLetterCase
 ---@return nil
-function inkTextWidget:SetLetterCase(letterCase) return end
+function inkTextWidget:SetLetterCase(letterCase) end
 
 ---@param displayText CName|string
 ---@return nil
-function inkTextWidget:SetLocalizationKey(displayText) return end
+function inkTextWidget:SetLocalizationKey(displayText) end
 
 ---@param displayText String
 ---@return nil
-function inkTextWidget:SetLocalizationKeyString(displayText) return end
+function inkTextWidget:SetLocalizationKeyString(displayText) end
 
 ---@param locKey CName|string
 ---@param textParams? textTextParameterSet
 ---@return nil
-function inkTextWidget:SetLocalizedText(locKey, textParams) return end
+function inkTextWidget:SetLocalizedText(locKey, textParams) end
 
 ---@param locKey String
 ---@param textParams? textTextParameterSet
 ---@return nil
-function inkTextWidget:SetLocalizedTextString(locKey, textParams) return end
+function inkTextWidget:SetLocalizedTextString(locKey, textParams) end
 
 ---@return nil
-function inkTextWidget:SetScrollDelay() return end
+function inkTextWidget:SetScrollDelay() end
 
 ---@param scrollTextSpeed Float
 ---@return nil
-function inkTextWidget:SetScrollTextSpeed(scrollTextSpeed) return end
+function inkTextWidget:SetScrollTextSpeed(scrollTextSpeed) end
 
 ---@param displayText String
 ---@param textParams? textTextParameterSet
 ---@return nil
-function inkTextWidget:SetText(displayText, textParams) return end
+function inkTextWidget:SetText(displayText, textParams) end
 
 ---@param displayText String
 ---@return nil
-function inkTextWidget:SetTextDirect(displayText) return end
+function inkTextWidget:SetTextDirect(displayText) end
 
 ---@param textpart1 String
 ---@param textpart2? String
 ---@param textpart3? String
 ---@return nil
-function inkTextWidget:SetTextFromParts(textpart1, textpart2, textpart3) return end
+function inkTextWidget:SetTextFromParts(textpart1, textpart2, textpart3) end
 
 ---@param textParams textTextParameterSet
 ---@return nil
-function inkTextWidget:SetTextParameters(textParams) return end
+function inkTextWidget:SetTextParameters(textParams) end
 
 ---@param tracking Int32
 ---@return nil
-function inkTextWidget:SetTracking(tracking) return end
+function inkTextWidget:SetTracking(tracking) end
 
 ---@param verticalAlignment textVerticalAlignment
 ---@return nil
-function inkTextWidget:SetVerticalAlignment(verticalAlignment) return end
+function inkTextWidget:SetVerticalAlignment(verticalAlignment) end
 
 ---@param position Float
 ---@return nil
-function inkTextWidget:SetWrappingAtPosition(position) return end
+function inkTextWidget:SetWrappingAtPosition(position) end
 
 ---@return nil
-function inkTextWidget:UpdateLanguageResources() return end
+function inkTextWidget:UpdateLanguageResources() end
 
 ---@param nameValue CName|string
 ---@return textHorizontalAlignment
-function inkTextWidget:GetHorizontalAlignmentEnumValue(nameValue) return end
+function inkTextWidget:GetHorizontalAlignmentEnumValue(nameValue) end
 
 ---@param nameValue CName|string
 ---@return textVerticalAlignment
-function inkTextWidget:GetVerticalAlignmentEnumValue(nameValue) return end
+function inkTextWidget:GetVerticalAlignmentEnumValue(nameValue) end
 
 ---@param locKey String
 ---@param textParams? textTextParameterSet
 ---@return nil
-function inkTextWidget:SetLocalizedTextScript(locKey, textParams) return end
+function inkTextWidget:SetLocalizedTextScript(locKey, textParams) end
 
 ---@param locKey CName|string
 ---@param textParams? textTextParameterSet
 ---@return nil
-function inkTextWidget:SetLocalizedTextScript(locKey, textParams) return end
+function inkTextWidget:SetLocalizedTextScript(locKey, textParams) end

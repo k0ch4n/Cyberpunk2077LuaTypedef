@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimFeature_IK: animAnimFeature
----@field public point Vector4
----@field public normal Vector4
----@field public weight Float
+---@field point Vector4
+---@field normal Vector4
+---@field weight Float
 animAnimFeature_IK = {}
 
 ---@param fields? animAnimFeature_IK
 ---@return animAnimFeature_IK
-function animAnimFeature_IK.new(fields) return end
+function animAnimFeature_IK.new(fields) end

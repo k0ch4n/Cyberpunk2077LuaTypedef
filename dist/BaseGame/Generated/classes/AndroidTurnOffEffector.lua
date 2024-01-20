@@ -5,18 +5,15 @@ AndroidTurnOffEffector = {}
 
 ---@param fields? AndroidTurnOffEffector
 ---@return AndroidTurnOffEffector
-function AndroidTurnOffEffector.new(fields) return end
+function AndroidTurnOffEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AndroidTurnOffEffector:ActionOff(owner) return end
+function AndroidTurnOffEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AndroidTurnOffEffector:ActionOn(owner) return end
+function AndroidTurnOffEffector:ActionOn(owner) end
 
----@protected
 ---@return nil
-function AndroidTurnOffEffector:Uninitialize() return end
+function AndroidTurnOffEffector:Uninitialize() end

@@ -5,4 +5,4 @@ DistrurbComfortZoneAggressiveEvent = {}
 
 ---@param fields? DistrurbComfortZoneAggressiveEvent
 ---@return DistrurbComfortZoneAggressiveEvent
-function DistrurbComfortZoneAggressiveEvent.new(fields) return end
+function DistrurbComfortZoneAggressiveEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSVisualTagProcessing
----@field public areaType gamedataEquipmentArea
----@field public showItem Bool
+---@field areaType gamedataEquipmentArea
+---@field showItem Bool
 gameSVisualTagProcessing = {}
 
 ---@param fields? gameSVisualTagProcessing
 ---@return gameSVisualTagProcessing
-function gameSVisualTagProcessing.new(fields) return end
+function gameSVisualTagProcessing.new(fields) end

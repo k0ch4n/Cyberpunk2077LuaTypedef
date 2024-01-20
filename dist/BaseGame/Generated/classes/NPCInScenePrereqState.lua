@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class NPCInScenePrereqState: gamePrereqState
----@field public sceneListener gameScriptedPrereqSceneInspectionListenerWrapper
+---@field sceneListener gameScriptedPrereqSceneInspectionListenerWrapper
 NPCInScenePrereqState = {}
 
 ---@param fields? NPCInScenePrereqState
 ---@return NPCInScenePrereqState
-function NPCInScenePrereqState.new(fields) return end
+function NPCInScenePrereqState.new(fields) end
 
----@protected
 ---@param isEntityInScene Bool
 ---@return nil
-function NPCInScenePrereqState:OnSceneInspectionStateChanged(isEntityInScene) return end
+function NPCInScenePrereqState:OnSceneInspectionStateChanged(isEntityInScene) end

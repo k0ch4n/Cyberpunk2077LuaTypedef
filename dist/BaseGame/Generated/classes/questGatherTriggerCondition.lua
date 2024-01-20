@@ -5,4 +5,4 @@ questGatherTriggerCondition = {}
 
 ---@param fields? questGatherTriggerCondition
 ---@return questGatherTriggerCondition
-function questGatherTriggerCondition.new(fields) return end
+function questGatherTriggerCondition.new(fields) end

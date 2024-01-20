@@ -1,169 +1,146 @@
 ---@meta
 
 ---@class PhotoModePlayerEntityComponent: gameScriptableComponent
----@field private usedWeaponItemId gameItemID
----@field private currentWeaponInSlot gameItemID
----@field private availableCurrentItemTypesList gamedataItemType[]
----@field private availableCurrentItemsList gameItemData[]
----@field private swapMeleeWeaponItemId gameItemID
----@field private swapHangunWeaponItemId gameItemID
----@field private swapRifleWeaponItemId gameItemID
----@field private swapShootgunWeaponItemId gameItemID
----@field private fakePuppet gamePuppet
----@field private mainPuppet PlayerPuppet
----@field private currentPuppet PlayerPuppet
----@field private TS gameTransactionSystem
----@field private loadingItems gameItemID[]
----@field private itemsLoadingTime Float
----@field private muzzleEffectEnabled Bool
----@field private customizable Bool
----@field private holsteredArmsShouldBeVisible Bool
----@field private holsteredArmsBeingSpawned Bool
----@field private holsteredArmsVisible Bool
----@field private holsteredArmsItem gameItemID
----@field private cyberwareArmsBeingSpawned Bool
----@field private cyberwareArmsVisible Bool
----@field private cyberwareArmsItem gameItemID
+---@field usedWeaponItemId gameItemID
+---@field currentWeaponInSlot gameItemID
+---@field availableCurrentItemTypesList gamedataItemType[]
+---@field availableCurrentItemsList gameItemData[]
+---@field swapMeleeWeaponItemId gameItemID
+---@field swapHangunWeaponItemId gameItemID
+---@field swapRifleWeaponItemId gameItemID
+---@field swapShootgunWeaponItemId gameItemID
+---@field fakePuppet gamePuppet
+---@field mainPuppet PlayerPuppet
+---@field currentPuppet PlayerPuppet
+---@field TS gameTransactionSystem
+---@field loadingItems gameItemID[]
+---@field itemsLoadingTime Float
+---@field muzzleEffectEnabled Bool
+---@field customizable Bool
+---@field holsteredArmsShouldBeVisible Bool
+---@field holsteredArmsBeingSpawned Bool
+---@field holsteredArmsVisible Bool
+---@field holsteredArmsItem gameItemID
+---@field cyberwareArmsBeingSpawned Bool
+---@field cyberwareArmsVisible Bool
+---@field cyberwareArmsItem gameItemID
 PhotoModePlayerEntityComponent = {}
 
 ---@param fields? PhotoModePlayerEntityComponent
 ---@return PhotoModePlayerEntityComponent
-function PhotoModePlayerEntityComponent.new(fields) return end
+function PhotoModePlayerEntityComponent.new(fields) end
 
----@protected
 ---@param evt gameAttachmentSlotEventsItemAddedToSlot
 ---@return Bool
-function PhotoModePlayerEntityComponent:OnItemAddedToSlot(evt) return end
+function PhotoModePlayerEntityComponent:OnItemAddedToSlot(evt) end
 
----@protected
 ---@param evt gameAttachmentSlotEventsItemVisualsAddedToSlot
 ---@return Bool
-function PhotoModePlayerEntityComponent:OnItemVisualsAddedToSlot(evt) return end
+function PhotoModePlayerEntityComponent:OnItemVisualsAddedToSlot(evt) end
 
----@private
 ---@param weaponID gameItemID
 ---@return nil
-function PhotoModePlayerEntityComponent:AddAmmoForWeapon(weaponID) return end
+function PhotoModePlayerEntityComponent:AddAmmoForWeapon(weaponID) end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:ClearInventory() return end
+function PhotoModePlayerEntityComponent:ClearInventory() end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:EquipHolsteredArms() return end
+function PhotoModePlayerEntityComponent:EquipHolsteredArms() end
 
----@private
 ---@param typesList gamedataItemType[]
 ---@return nil
-function PhotoModePlayerEntityComponent:EquipWeaponOfThisType(typesList) return end
+function PhotoModePlayerEntityComponent:EquipWeaponOfThisType(typesList) end
 
----@private
 ---@return gamedataItemType[]
-function PhotoModePlayerEntityComponent:GetAllAvailableItemTypes() return end
+function PhotoModePlayerEntityComponent:GetAllAvailableItemTypes() end
 
----@private
 ---@param equipmentData EquipmentSystemPlayerData
 ---@param areaType gamedataEquipmentArea
 ---@return gameSEquipArea
-function PhotoModePlayerEntityComponent:GetEquipArea(equipmentData, areaType) return end
+function PhotoModePlayerEntityComponent:GetEquipArea(equipmentData, areaType) end
 
 ---@param equipmentData EquipmentSystemPlayerData
 ---@return gameSEquipArea[]
-function PhotoModePlayerEntityComponent:GetPhotoModeActiveEquipAreas(equipmentData) return end
+function PhotoModePlayerEntityComponent:GetPhotoModeActiveEquipAreas(equipmentData) end
 
 ---@return gamedataEquipmentArea[]
-function PhotoModePlayerEntityComponent:GetPhotoModeActiveSlots() return end
+function PhotoModePlayerEntityComponent:GetPhotoModeActiveSlots() end
 
 ---@param equipmentData EquipmentSystemPlayerData
 ---@param isVisual Bool
 ---@param withUnderwear Bool
 ---@return gameSEquipArea[]
-function PhotoModePlayerEntityComponent:GetPhotoModeEquipAreas(equipmentData, isVisual, withUnderwear) return end
+function PhotoModePlayerEntityComponent:GetPhotoModeEquipAreas(equipmentData, isVisual, withUnderwear) end
 
 ---@param equipmentData EquipmentSystemPlayerData
 ---@param withUnderwear Bool
 ---@return gameSEquipArea[]
-function PhotoModePlayerEntityComponent:GetPhotoModeVisualEquipAreas(equipmentData, withUnderwear) return end
+function PhotoModePlayerEntityComponent:GetPhotoModeVisualEquipAreas(equipmentData, withUnderwear) end
 
 ---@param withUnderwear Bool
 ---@return gamedataEquipmentArea[]
-function PhotoModePlayerEntityComponent:GetPhotoModeVisualSlots(withUnderwear) return end
+function PhotoModePlayerEntityComponent:GetPhotoModeVisualSlots(withUnderwear) end
 
----@private
 ---@return gamedataItemType
-function PhotoModePlayerEntityComponent:GetWeaponInHands() return end
+function PhotoModePlayerEntityComponent:GetWeaponInHands() end
 
----@private
 ---@return Bool
-function PhotoModePlayerEntityComponent:HasAllItemsFinishedLoading() return end
+function PhotoModePlayerEntityComponent:HasAllItemsFinishedLoading() end
 
----@private
 ---@param item gameItemID
 ---@param typesList gamedataItemType[]
 ---@return Bool
-function PhotoModePlayerEntityComponent:IsItemOfThisType(item, typesList) return end
+function PhotoModePlayerEntityComponent:IsItemOfThisType(item, typesList) end
 
 ---@return Bool
-function PhotoModePlayerEntityComponent:IsMuzzleFireSupported() return end
+function PhotoModePlayerEntityComponent:IsMuzzleFireSupported() end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:ListAllCurrentItems() return end
+function PhotoModePlayerEntityComponent:ListAllCurrentItems() end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:OnGameAttach() return end
+function PhotoModePlayerEntityComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:OnGameDetach() return end
+function PhotoModePlayerEntityComponent:OnGameDetach() end
 
----@private
 ---@param itemToAdd gameItemID
 ---@param puppet PlayerPuppet
 ---@return nil
-function PhotoModePlayerEntityComponent:PutOnFakeItem(itemToAdd, puppet) return end
+function PhotoModePlayerEntityComponent:PutOnFakeItem(itemToAdd, puppet) end
 
----@private
 ---@param itemToAdd gameItemID
 ---@return nil
-function PhotoModePlayerEntityComponent:PutOnFakeItemFromCurrentPuppet(itemToAdd) return end
+function PhotoModePlayerEntityComponent:PutOnFakeItemFromCurrentPuppet(itemToAdd) end
 
----@private
 ---@param itemToAdd gameItemID
 ---@return nil
-function PhotoModePlayerEntityComponent:PutOnFakeItemFromMainPuppet(itemToAdd) return end
+function PhotoModePlayerEntityComponent:PutOnFakeItemFromMainPuppet(itemToAdd) end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:ReevaluateArmsVisibility() return end
+function PhotoModePlayerEntityComponent:ReevaluateArmsVisibility() end
 
----@private
 ---@param areas gameSEquipArea[]
 ---@return nil
-function PhotoModePlayerEntityComponent:RemoveAllItems(areas) return end
+function PhotoModePlayerEntityComponent:RemoveAllItems(areas) end
 
 ---@param enabled Bool
 ---@return nil
-function PhotoModePlayerEntityComponent:SetMuzzleEffectEnabled(enabled) return end
+function PhotoModePlayerEntityComponent:SetMuzzleEffectEnabled(enabled) end
 
----@private
 ---@param isCurrentPlayerObjectCustomizable Bool
 ---@return nil
-function PhotoModePlayerEntityComponent:SetupInventory(isCurrentPlayerObjectCustomizable) return end
-
----@private
----@return nil
-function PhotoModePlayerEntityComponent:SetupUnderwear() return end
+function PhotoModePlayerEntityComponent:SetupInventory(isCurrentPlayerObjectCustomizable) end
 
 ---@return nil
-function PhotoModePlayerEntityComponent:StopWeaponShootEffects() return end
+function PhotoModePlayerEntityComponent:SetupUnderwear() end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:UnequipCyberwareArms() return end
+function PhotoModePlayerEntityComponent:StopWeaponShootEffects() end
 
----@private
 ---@return nil
-function PhotoModePlayerEntityComponent:UnequipHolsteredArms() return end
+function PhotoModePlayerEntityComponent:UnequipCyberwareArms() end
+
+---@return nil
+function PhotoModePlayerEntityComponent:UnequipHolsteredArms() end

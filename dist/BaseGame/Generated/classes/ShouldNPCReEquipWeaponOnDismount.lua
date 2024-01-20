@@ -5,9 +5,8 @@ ShouldNPCReEquipWeaponOnDismount = {}
 
 ---@param fields? ShouldNPCReEquipWeaponOnDismount
 ---@return ShouldNPCReEquipWeaponOnDismount
-function ShouldNPCReEquipWeaponOnDismount.new(fields) return end
+function ShouldNPCReEquipWeaponOnDismount.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldNPCReEquipWeaponOnDismount:Check(context) return end
+function ShouldNPCReEquipWeaponOnDismount:Check(context) end

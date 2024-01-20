@@ -5,4 +5,4 @@ NoReactionPerformedRequest = {}
 
 ---@param fields? NoReactionPerformedRequest
 ---@return NoReactionPerformedRequest
-function NoReactionPerformedRequest.new(fields) return end
+function NoReactionPerformedRequest.new(fields) end

@@ -5,4 +5,4 @@ RefreshBuyQueueEvent = {}
 
 ---@param fields? RefreshBuyQueueEvent
 ---@return RefreshBuyQueueEvent
-function RefreshBuyQueueEvent.new(fields) return end
+function RefreshBuyQueueEvent.new(fields) end

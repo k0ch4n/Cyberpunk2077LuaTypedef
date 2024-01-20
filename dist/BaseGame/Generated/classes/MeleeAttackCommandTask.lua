@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class MeleeAttackCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIMeleeAttackCommand
----@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
----@field protected activationTimeStamp Float
----@field protected commandDuration Float
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIMeleeAttackCommand
+---@field threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field activationTimeStamp Float
+---@field commandDuration Float
 MeleeAttackCommandTask = {}
 
 ---@param fields? MeleeAttackCommandTask
 ---@return MeleeAttackCommandTask
-function MeleeAttackCommandTask.new(fields) return end
+function MeleeAttackCommandTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MeleeAttackCommandTask:Activate(context) return end
+function MeleeAttackCommandTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param typedCommand AIMeleeAttackCommand
 ---@return nil
-function MeleeAttackCommandTask:CancelCommand(context, typedCommand) return end
+function MeleeAttackCommandTask:CancelCommand(context, typedCommand) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MeleeAttackCommandTask:Deactivate(context) return end
+function MeleeAttackCommandTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function MeleeAttackCommandTask:Update(context) return end
+function MeleeAttackCommandTask:Update(context) end

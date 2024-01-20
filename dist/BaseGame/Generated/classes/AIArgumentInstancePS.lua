@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class AIArgumentInstancePS: ISerializable
----@field public name CName
+---@field name CName
 AIArgumentInstancePS = {}

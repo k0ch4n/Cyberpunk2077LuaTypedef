@@ -5,9 +5,9 @@ vehicleInitialSearchStrategyRequest = {}
 
 ---@param fields? vehicleInitialSearchStrategyRequest
 ---@return vehicleInitialSearchStrategyRequest
-function vehicleInitialSearchStrategyRequest.new(fields) return end
+function vehicleInitialSearchStrategyRequest.new(fields) end
 
 ---@param spawnDistanceRange Vector2
 ---@param minDirectDist Float
 ---@return vehicleInitialSearchStrategyRequest
-function vehicleInitialSearchStrategyRequest.Create(spawnDistanceRange, minDirectDist) return end
+function vehicleInitialSearchStrategyRequest.Create(spawnDistanceRange, minDirectDist) end

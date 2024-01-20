@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class CheckFriendlyNPCAboutToBeHit: StatusEffectTasks
----@field public outStatusArgument AIArgumentMapping
----@field public outPositionStatusArgument AIArgumentMapping
----@field public outPositionArgument AIArgumentMapping
+---@field outStatusArgument AIArgumentMapping
+---@field outPositionStatusArgument AIArgumentMapping
+---@field outPositionArgument AIArgumentMapping
 CheckFriendlyNPCAboutToBeHit = {}
 
 ---@param fields? CheckFriendlyNPCAboutToBeHit
 ---@return CheckFriendlyNPCAboutToBeHit
-function CheckFriendlyNPCAboutToBeHit.new(fields) return end
+function CheckFriendlyNPCAboutToBeHit.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckFriendlyNPCAboutToBeHit:Activate(context) return end
+function CheckFriendlyNPCAboutToBeHit:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckFriendlyNPCAboutToBeHit:Deactivate(context) return end
+function CheckFriendlyNPCAboutToBeHit:Deactivate(context) end

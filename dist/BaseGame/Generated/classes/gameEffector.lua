@@ -5,65 +5,57 @@ gameEffector = {}
 
 ---@param fields? gameEffector
 ---@return gameEffector
-function gameEffector.new(fields) return end
+function gameEffector.new(fields) end
 
 ---@return gameObject
-function gameEffector:GetInstigator() return end
+function gameEffector:GetInstigator() end
 
 ---@return gameObject
-function gameEffector:GetOwner() return end
+function gameEffector:GetOwner() end
 
 ---@return TweakDBID
-function gameEffector:GetParentRecord() return end
+function gameEffector:GetParentRecord() end
 
 ---@return gamePrereqState
-function gameEffector:GetPrereqState() return end
+function gameEffector:GetPrereqState() end
 
 ---@return entEntityID
-function gameEffector:GetProxyEntityID() return end
+function gameEffector:GetProxyEntityID() end
 
 ---@return TweakDBID
-function gameEffector:GetRecord() return end
+function gameEffector:GetRecord() end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function gameEffector:ActionOff(owner) return end
+function gameEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function gameEffector:ActionOn(owner) return end
+function gameEffector:ActionOn(owner) end
 
----@protected
 ---@param effectorOwner gameObject
 ---@param applicationTarget CName|string
 ---@return Bool, entEntityID targetID
-function gameEffector:GetApplicationTarget(effectorOwner, applicationTarget) return end
+function gameEffector:GetApplicationTarget(effectorOwner, applicationTarget) end
 
----@protected
 ---@param effectorOwner gameObject
 ---@param applicationTarget CName|string
 ---@return Bool, gameObject target
-function gameEffector:GetApplicationTarget(effectorOwner, applicationTarget) return end
+function gameEffector:GetApplicationTarget(effectorOwner, applicationTarget) end
 
----@protected
 ---@param effectorOwner gameObject
 ---@param applicationTarget CName|string
 ---@return Bool, gameStatsObjectID targetID
-function gameEffector:GetApplicationTargetAsStatsObjectID(effectorOwner, applicationTarget) return end
+function gameEffector:GetApplicationTargetAsStatsObjectID(effectorOwner, applicationTarget) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function gameEffector:Initialize(record, parentRecord) return end
+function gameEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function gameEffector:RepeatedAction(owner) return end
+function gameEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function gameEffector:Uninitialize() return end
+function gameEffector:Uninitialize() end

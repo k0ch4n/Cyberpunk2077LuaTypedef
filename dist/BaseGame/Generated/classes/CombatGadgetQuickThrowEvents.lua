@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class CombatGadgetQuickThrowEvents: CombatGadgetTransitions
----@field public grenadeThrown Bool
----@field public event Bool
+---@field grenadeThrown Bool
+---@field event Bool
 CombatGadgetQuickThrowEvents = {}
 
 ---@param fields? CombatGadgetQuickThrowEvents
 ---@return CombatGadgetQuickThrowEvents
-function CombatGadgetQuickThrowEvents.new(fields) return end
+function CombatGadgetQuickThrowEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetQuickThrowEvents:OnEnter(stateContext, scriptInterface) return end
+function CombatGadgetQuickThrowEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetQuickThrowEvents:OnExit(stateContext, scriptInterface) return end
+function CombatGadgetQuickThrowEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetQuickThrowEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function CombatGadgetQuickThrowEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

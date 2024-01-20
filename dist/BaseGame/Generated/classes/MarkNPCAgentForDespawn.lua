@@ -5,9 +5,8 @@ MarkNPCAgentForDespawn = {}
 
 ---@param fields? MarkNPCAgentForDespawn
 ---@return MarkNPCAgentForDespawn
-function MarkNPCAgentForDespawn.new(fields) return end
+function MarkNPCAgentForDespawn.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MarkNPCAgentForDespawn:Activate(context) return end
+function MarkNPCAgentForDespawn:Activate(context) end

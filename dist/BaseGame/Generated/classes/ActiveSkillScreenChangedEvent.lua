@@ -5,4 +5,4 @@ ActiveSkillScreenChangedEvent = {}
 
 ---@param fields? ActiveSkillScreenChangedEvent
 ---@return ActiveSkillScreenChangedEvent
-function ActiveSkillScreenChangedEvent.new(fields) return end
+function ActiveSkillScreenChangedEvent.new(fields) end

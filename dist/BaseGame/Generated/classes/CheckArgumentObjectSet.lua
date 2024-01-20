@@ -5,9 +5,8 @@ CheckArgumentObjectSet = {}
 
 ---@param fields? CheckArgumentObjectSet
 ---@return CheckArgumentObjectSet
-function CheckArgumentObjectSet.new(fields) return end
+function CheckArgumentObjectSet.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckArgumentObjectSet:Check(context) return end
+function CheckArgumentObjectSet:Check(context) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VendorInventoryItemData: WrappedInventoryItemData
----@field public IsVendorItem Bool
----@field public IsEnoughMoney Bool
----@field public IsBuybackStack Bool
----@field public IsDLCAddedActiveItem Bool
+---@field IsVendorItem Bool
+---@field IsEnoughMoney Bool
+---@field IsBuybackStack Bool
+---@field IsDLCAddedActiveItem Bool
 VendorInventoryItemData = {}
 
 ---@param fields? VendorInventoryItemData
 ---@return VendorInventoryItemData
-function VendorInventoryItemData.new(fields) return end
+function VendorInventoryItemData.new(fields) end

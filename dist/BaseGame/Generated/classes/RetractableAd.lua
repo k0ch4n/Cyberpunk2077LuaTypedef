@@ -1,88 +1,73 @@
 ---@meta
 
 ---@class RetractableAd: BaseAnimatedDevice
----@field protected offMeshConnection AIOffMeshConnectionComponent
----@field protected areaComponent gameStaticTriggerAreaComponent
----@field protected advUiComponent entIComponent
----@field protected isPartOfTheTrap Bool
+---@field offMeshConnection AIOffMeshConnectionComponent
+---@field areaComponent gameStaticTriggerAreaComponent
+---@field advUiComponent entIComponent
+---@field isPartOfTheTrap Bool
 RetractableAd = {}
 
 ---@param fields? RetractableAd
 ---@return RetractableAd
-function RetractableAd.new(fields) return end
+function RetractableAd.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function RetractableAd:OnActivateDevice(evt) return end
+function RetractableAd:OnActivateDevice(evt) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function RetractableAd:OnAreaEnter(evt) return end
+function RetractableAd:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function RetractableAd:OnPhysicalDestructionEvent(evt) return end
+function RetractableAd:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function RetractableAd:OnRequestComponents(ri) return end
+function RetractableAd:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function RetractableAd:OnTakeControl(ri) return end
+function RetractableAd:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function RetractableAd:ActivateAnimation() return end
+function RetractableAd:ActivateAnimation() end
 
----@private
 ---@param activators entEntity[]
 ---@return nil
-function RetractableAd:ApplyImpulse(activators) return end
+function RetractableAd:ApplyImpulse(activators) end
 
----@protected
 ---@return nil
-function RetractableAd:DisableTrap() return end
+function RetractableAd:DisableTrap() end
 
----@private
 ---@return RetractableAdController
-function RetractableAd:GetController() return end
+function RetractableAd:GetController() end
 
 ---@return RetractableAdControllerPS
-function RetractableAd:GetDevicePS() return end
+function RetractableAd:GetDevicePS() end
 
 ---@return entEntity[]
-function RetractableAd:GetEntitiesInArea() return end
+function RetractableAd:GetEntitiesInArea() end
 
----@protected
 ---@return Float
-function RetractableAd:GetTimeScale() return end
+function RetractableAd:GetTimeScale() end
 
----@protected
 ---@return nil
-function RetractableAd:OnPlayAnimation() return end
+function RetractableAd:OnPlayAnimation() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function RetractableAd:StartGlitching(glitchState, intensity) return end
+function RetractableAd:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function RetractableAd:StopGlitching() return end
+function RetractableAd:StopGlitching() end
 
----@protected
 ---@param toggle Bool
 ---@return nil
-function RetractableAd:ToggleLights(toggle) return end
+function RetractableAd:ToggleLights(toggle) end
 
----@protected
 ---@param toggle Bool
 ---@return nil
-function RetractableAd:ToggleOffMeshConnection(toggle) return end
+function RetractableAd:ToggleOffMeshConnection(toggle) end

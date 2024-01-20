@@ -5,4 +5,4 @@ effectSoundPlayData = {}
 
 ---@param fields? effectSoundPlayData
 ---@return effectSoundPlayData
-function effectSoundPlayData.new(fields) return end
+function effectSoundPlayData.new(fields) end

@@ -5,8 +5,8 @@ ToggleOpenFridge = {}
 
 ---@param fields? ToggleOpenFridge
 ---@return ToggleOpenFridge
-function ToggleOpenFridge.new(fields) return end
+function ToggleOpenFridge.new(fields) end
 
 ---@param isOpen Bool
 ---@return nil
-function ToggleOpenFridge:SetProperties(isOpen) return end
+function ToggleOpenFridge:SetProperties(isOpen) end

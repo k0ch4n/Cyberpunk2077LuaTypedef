@@ -5,4 +5,4 @@ gameinteractionsOrbActivationPredicate = {}
 
 ---@param fields? gameinteractionsOrbActivationPredicate
 ---@return gameinteractionsOrbActivationPredicate
-function gameinteractionsOrbActivationPredicate.new(fields) return end
+function gameinteractionsOrbActivationPredicate.new(fields) end

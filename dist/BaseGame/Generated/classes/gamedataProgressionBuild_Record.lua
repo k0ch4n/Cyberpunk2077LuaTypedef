@@ -5,244 +5,244 @@ gamedataProgressionBuild_Record = {}
 
 ---@param fields? gamedataProgressionBuild_Record
 ---@return gamedataProgressionBuild_Record
-function gamedataProgressionBuild_Record.new(fields) return end
+function gamedataProgressionBuild_Record.new(fields) end
 
 ---@return gamedataBuildAttributeSet_Record
-function gamedataProgressionBuild_Record:AttributeSet() return end
+function gamedataProgressionBuild_Record:AttributeSet() end
 
 ---@return gamedataBuildAttributeSet_Record
-function gamedataProgressionBuild_Record:AttributeSetHandle() return end
+function gamedataProgressionBuild_Record:AttributeSetHandle() end
 
 ---@return gamedataCraftable_Record
-function gamedataProgressionBuild_Record:CraftBook() return end
+function gamedataProgressionBuild_Record:CraftBook() end
 
 ---@return gamedataCraftable_Record
-function gamedataProgressionBuild_Record:CraftBookHandle() return end
+function gamedataProgressionBuild_Record:CraftBookHandle() end
 
 ---@return gamedataBuildCyberwareSet_Record
-function gamedataProgressionBuild_Record:CyberwareSet() return end
+function gamedataProgressionBuild_Record:CyberwareSet() end
 
 ---@return gamedataBuildCyberwareSet_Record
-function gamedataProgressionBuild_Record:CyberwareSetHandle() return end
+function gamedataProgressionBuild_Record:CyberwareSetHandle() end
 
 ---@return String
-function gamedataProgressionBuild_Record:EnumComment() return end
+function gamedataProgressionBuild_Record:EnumComment() end
 
 ---@return CName
-function gamedataProgressionBuild_Record:EnumName() return end
+function gamedataProgressionBuild_Record:EnumName() end
 
 ---@return gamedataBuildEquipmentSet_Record
-function gamedataProgressionBuild_Record:EquipmentSet() return end
+function gamedataProgressionBuild_Record:EquipmentSet() end
 
 ---@return gamedataBuildEquipmentSet_Record
-function gamedataProgressionBuild_Record:EquipmentSetHandle() return end
+function gamedataProgressionBuild_Record:EquipmentSetHandle() end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetInventoryLayoutCount() return end
+function gamedataProgressionBuild_Record:GetInventoryLayoutCount() end
 
 ---@param index Int32
 ---@return gamedataCPOItemCategoryBase_Record
-function gamedataProgressionBuild_Record:GetInventoryLayoutItem(index) return end
+function gamedataProgressionBuild_Record:GetInventoryLayoutItem(index) end
 
 ---@param index Int32
 ---@return gamedataCPOItemCategoryBase_Record
-function gamedataProgressionBuild_Record:GetInventoryLayoutItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetInventoryLayoutItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetPerkSetsCount() return end
+function gamedataProgressionBuild_Record:GetPerkSetsCount() end
 
 ---@param index Int32
 ---@return gamedataBuildPerkSet_Record
-function gamedataProgressionBuild_Record:GetPerkSetsItem(index) return end
+function gamedataProgressionBuild_Record:GetPerkSetsItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildPerkSet_Record
-function gamedataProgressionBuild_Record:GetPerkSetsItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetPerkSetsItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingAttributesCount() return end
+function gamedataProgressionBuild_Record:GetStartingAttributesCount() end
 
 ---@param index Int32
 ---@return gamedataBuildAttribute_Record
-function gamedataProgressionBuild_Record:GetStartingAttributesItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingAttributesItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildAttribute_Record
-function gamedataProgressionBuild_Record:GetStartingAttributesItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingAttributesItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingCyberwareCount() return end
+function gamedataProgressionBuild_Record:GetStartingCyberwareCount() end
 
 ---@param index Int32
 ---@return gamedataBuildCyberware_Record
-function gamedataProgressionBuild_Record:GetStartingCyberwareItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingCyberwareItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildCyberware_Record
-function gamedataProgressionBuild_Record:GetStartingCyberwareItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingCyberwareItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingEquipmentCount() return end
+function gamedataProgressionBuild_Record:GetStartingEquipmentCount() end
 
 ---@param index Int32
 ---@return gamedataBuildEquipment_Record
-function gamedataProgressionBuild_Record:GetStartingEquipmentItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingEquipmentItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildEquipment_Record
-function gamedataProgressionBuild_Record:GetStartingEquipmentItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingEquipmentItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingItemsCount() return end
+function gamedataProgressionBuild_Record:GetStartingItemsCount() end
 
 ---@param index Int32
 ---@return gamedataInventoryItem_Record
-function gamedataProgressionBuild_Record:GetStartingItemsItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingItemsItem(index) end
 
 ---@param index Int32
 ---@return gamedataInventoryItem_Record
-function gamedataProgressionBuild_Record:GetStartingItemsItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingItemsItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingNewPerksCount() return end
+function gamedataProgressionBuild_Record:GetStartingNewPerksCount() end
 
 ---@param index Int32
 ---@return gamedataBuildNewPerk_Record
-function gamedataProgressionBuild_Record:GetStartingNewPerksItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingNewPerksItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildNewPerk_Record
-function gamedataProgressionBuild_Record:GetStartingNewPerksItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingNewPerksItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingPerksCount() return end
+function gamedataProgressionBuild_Record:GetStartingPerksCount() end
 
 ---@param index Int32
 ---@return gamedataBuildPerk_Record
-function gamedataProgressionBuild_Record:GetStartingPerksItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingPerksItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildPerk_Record
-function gamedataProgressionBuild_Record:GetStartingPerksItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingPerksItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingProficienciesCount() return end
+function gamedataProgressionBuild_Record:GetStartingProficienciesCount() end
 
 ---@param index Int32
 ---@return gamedataBuildProficiency_Record
-function gamedataProgressionBuild_Record:GetStartingProficienciesItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingProficienciesItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildProficiency_Record
-function gamedataProgressionBuild_Record:GetStartingProficienciesItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingProficienciesItemHandle(index) end
 
 ---@return Int32
-function gamedataProgressionBuild_Record:GetStartingProgramsCount() return end
+function gamedataProgressionBuild_Record:GetStartingProgramsCount() end
 
 ---@param index Int32
 ---@return gamedataBuildProgram_Record
-function gamedataProgressionBuild_Record:GetStartingProgramsItem(index) return end
+function gamedataProgressionBuild_Record:GetStartingProgramsItem(index) end
 
 ---@param index Int32
 ---@return gamedataBuildProgram_Record
-function gamedataProgressionBuild_Record:GetStartingProgramsItemHandle(index) return end
+function gamedataProgressionBuild_Record:GetStartingProgramsItemHandle(index) end
 
 ---@return nil, gamedataCPOItemCategoryBase_Record[] outList
-function gamedataProgressionBuild_Record:InventoryLayout() return end
+function gamedataProgressionBuild_Record:InventoryLayout() end
 
 ---@param item gamedataCPOItemCategoryBase_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:InventoryLayoutContains(item) return end
+function gamedataProgressionBuild_Record:InventoryLayoutContains(item) end
 
 ---@return gamedataInventoryItemSet_Record
-function gamedataProgressionBuild_Record:InventorySet() return end
+function gamedataProgressionBuild_Record:InventorySet() end
 
 ---@return gamedataInventoryItemSet_Record
-function gamedataProgressionBuild_Record:InventorySetHandle() return end
+function gamedataProgressionBuild_Record:InventorySetHandle() end
 
 ---@return gamedataLifePath_Record
-function gamedataProgressionBuild_Record:LifePath() return end
+function gamedataProgressionBuild_Record:LifePath() end
 
 ---@return gamedataLifePath_Record
-function gamedataProgressionBuild_Record:LifePathHandle() return end
+function gamedataProgressionBuild_Record:LifePathHandle() end
 
 ---@return gamedataBuildPerkSet_Record
-function gamedataProgressionBuild_Record:PerkSet() return end
+function gamedataProgressionBuild_Record:PerkSet() end
 
 ---@return gamedataBuildPerkSet_Record
-function gamedataProgressionBuild_Record:PerkSetHandle() return end
+function gamedataProgressionBuild_Record:PerkSetHandle() end
 
 ---@return nil, gamedataBuildPerkSet_Record[] outList
-function gamedataProgressionBuild_Record:PerkSets() return end
+function gamedataProgressionBuild_Record:PerkSets() end
 
 ---@param item gamedataBuildPerkSet_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:PerkSetsContains(item) return end
+function gamedataProgressionBuild_Record:PerkSetsContains(item) end
 
 ---@return gamedataBuildProficiencySet_Record
-function gamedataProgressionBuild_Record:ProficiencySet() return end
+function gamedataProgressionBuild_Record:ProficiencySet() end
 
 ---@return gamedataBuildProficiencySet_Record
-function gamedataProgressionBuild_Record:ProficiencySetHandle() return end
+function gamedataProgressionBuild_Record:ProficiencySetHandle() end
 
 ---@return Bool
-function gamedataProgressionBuild_Record:RandomizeClothing() return end
+function gamedataProgressionBuild_Record:RandomizeClothing() end
 
 ---@return nil, gamedataBuildAttribute_Record[] outList
-function gamedataProgressionBuild_Record:StartingAttributes() return end
+function gamedataProgressionBuild_Record:StartingAttributes() end
 
 ---@param item gamedataBuildAttribute_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingAttributesContains(item) return end
+function gamedataProgressionBuild_Record:StartingAttributesContains(item) end
 
 ---@return nil, gamedataBuildCyberware_Record[] outList
-function gamedataProgressionBuild_Record:StartingCyberware() return end
+function gamedataProgressionBuild_Record:StartingCyberware() end
 
 ---@param item gamedataBuildCyberware_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingCyberwareContains(item) return end
+function gamedataProgressionBuild_Record:StartingCyberwareContains(item) end
 
 ---@return nil, gamedataBuildEquipment_Record[] outList
-function gamedataProgressionBuild_Record:StartingEquipment() return end
+function gamedataProgressionBuild_Record:StartingEquipment() end
 
 ---@param item gamedataBuildEquipment_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingEquipmentContains(item) return end
+function gamedataProgressionBuild_Record:StartingEquipmentContains(item) end
 
 ---@return nil, gamedataInventoryItem_Record[] outList
-function gamedataProgressionBuild_Record:StartingItems() return end
+function gamedataProgressionBuild_Record:StartingItems() end
 
 ---@param item gamedataInventoryItem_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingItemsContains(item) return end
+function gamedataProgressionBuild_Record:StartingItemsContains(item) end
 
 ---@return nil, gamedataBuildNewPerk_Record[] outList
-function gamedataProgressionBuild_Record:StartingNewPerks() return end
+function gamedataProgressionBuild_Record:StartingNewPerks() end
 
 ---@param item gamedataBuildNewPerk_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingNewPerksContains(item) return end
+function gamedataProgressionBuild_Record:StartingNewPerksContains(item) end
 
 ---@return nil, gamedataBuildPerk_Record[] outList
-function gamedataProgressionBuild_Record:StartingPerks() return end
+function gamedataProgressionBuild_Record:StartingPerks() end
 
 ---@param item gamedataBuildPerk_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingPerksContains(item) return end
+function gamedataProgressionBuild_Record:StartingPerksContains(item) end
 
 ---@return nil, gamedataBuildProficiency_Record[] outList
-function gamedataProgressionBuild_Record:StartingProficiencies() return end
+function gamedataProgressionBuild_Record:StartingProficiencies() end
 
 ---@param item gamedataBuildProficiency_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingProficienciesContains(item) return end
+function gamedataProgressionBuild_Record:StartingProficienciesContains(item) end
 
 ---@return nil, gamedataBuildProgram_Record[] outList
-function gamedataProgressionBuild_Record:StartingPrograms() return end
+function gamedataProgressionBuild_Record:StartingPrograms() end
 
 ---@param item gamedataBuildProgram_Record
 ---@return Bool
-function gamedataProgressionBuild_Record:StartingProgramsContains(item) return end
+function gamedataProgressionBuild_Record:StartingProgramsContains(item) end
 
 ---@return gamedataBuildType
-function gamedataProgressionBuild_Record:Type() return end
+function gamedataProgressionBuild_Record:Type() end

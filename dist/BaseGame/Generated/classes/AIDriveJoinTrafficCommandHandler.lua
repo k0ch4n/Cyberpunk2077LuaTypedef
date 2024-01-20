@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class AIDriveJoinTrafficCommandHandler: AICommandHandlerBase
----@field protected outUseKinematic AIArgumentMapping
----@field protected outNeedDriver AIArgumentMapping
+---@field outUseKinematic AIArgumentMapping
+---@field outNeedDriver AIArgumentMapping
 AIDriveJoinTrafficCommandHandler = {}
 
 ---@param fields? AIDriveJoinTrafficCommandHandler
 ---@return AIDriveJoinTrafficCommandHandler
-function AIDriveJoinTrafficCommandHandler.new(fields) return end
+function AIDriveJoinTrafficCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function AIDriveJoinTrafficCommandHandler:UpdateCommand(context, command) return end
+function AIDriveJoinTrafficCommandHandler:UpdateCommand(context, command) end

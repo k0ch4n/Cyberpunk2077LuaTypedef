@@ -5,4 +5,4 @@ gameSetupControlledByStoryEvent = {}
 
 ---@param fields? gameSetupControlledByStoryEvent
 ---@return gameSetupControlledByStoryEvent
-function gameSetupControlledByStoryEvent.new(fields) return end
+function gameSetupControlledByStoryEvent.new(fields) end

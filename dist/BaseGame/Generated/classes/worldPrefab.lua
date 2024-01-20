@@ -1,41 +1,41 @@
 ---@meta
 
 ---@class worldPrefab: resStreamedResource
----@field public mainGroup worldNodesGroup
----@field public type worldPrefabType
----@field public teamOwnership worldPrefabOwnership
----@field public streamingOcclusion worldPrefabStreamingOcclusion
----@field public streamingImportance worldPrefabStreamingImportance
----@field public defaultVariants worldPrefabVariantsList
----@field public isLocked Bool
----@field public maxBounds Box
----@field public environmentDefinition worldEnvironmentDefinition
----@field public terrainMultilayerSetup Multilayer_Setup
----@field public foliageBrushToTerrainLayerMapping worldAutoFoliageMapping
----@field public prefabUniqueId CRUID
----@field public metadataArray worldPrefabMetadata[]
----@field public isMerged Bool
----@field public proxyMeshBuildParams worldProxyMeshBuildParams
----@field public isProxyMeshOnly Bool
----@field public proxyMesh CMesh
----@field public proxyScale Vector3
----@field public maxProxyStreamingDistance Float
----@field public proxyDistanceFactor Float
----@field public averageNodeDiagonal Float
----@field public boostInnerNodesToProxyDistance Bool
----@field public overrideStreamingPosWithBBoxCenter Bool
----@field public ignoreMeshEmbeddedOccluders Bool
----@field public ignoreAllOccluders Bool
----@field public excludeOnConsole Bool
----@field public excludeOnNextGenConsoles Bool
----@field public isTerrainPrefab Bool
----@field public minimapContribution worldPrefabMinimapContribution
----@field public interiorMapContribution worldPrefabInteriorMapContribution
----@field public booleanProxyHelper worldPrefab
----@field public proxyLimiterHelper worldPrefab
----@field public customProxyMeshHelper CMesh
+---@field mainGroup worldNodesGroup
+---@field type worldPrefabType
+---@field teamOwnership worldPrefabOwnership
+---@field streamingOcclusion worldPrefabStreamingOcclusion
+---@field streamingImportance worldPrefabStreamingImportance
+---@field defaultVariants worldPrefabVariantsList
+---@field isLocked Bool
+---@field maxBounds Box
+---@field environmentDefinition worldEnvironmentDefinition
+---@field terrainMultilayerSetup Multilayer_Setup
+---@field foliageBrushToTerrainLayerMapping worldAutoFoliageMapping
+---@field prefabUniqueId CRUID
+---@field metadataArray worldPrefabMetadata[]
+---@field isMerged Bool
+---@field proxyMeshBuildParams worldProxyMeshBuildParams
+---@field isProxyMeshOnly Bool
+---@field proxyMesh CMesh
+---@field proxyScale Vector3
+---@field maxProxyStreamingDistance Float
+---@field proxyDistanceFactor Float
+---@field averageNodeDiagonal Float
+---@field boostInnerNodesToProxyDistance Bool
+---@field overrideStreamingPosWithBBoxCenter Bool
+---@field ignoreMeshEmbeddedOccluders Bool
+---@field ignoreAllOccluders Bool
+---@field excludeOnConsole Bool
+---@field excludeOnNextGenConsoles Bool
+---@field isTerrainPrefab Bool
+---@field minimapContribution worldPrefabMinimapContribution
+---@field interiorMapContribution worldPrefabInteriorMapContribution
+---@field booleanProxyHelper worldPrefab
+---@field proxyLimiterHelper worldPrefab
+---@field customProxyMeshHelper CMesh
 worldPrefab = {}
 
 ---@param fields? worldPrefab
 ---@return worldPrefab
-function worldPrefab.new(fields) return end
+function worldPrefab.new(fields) end

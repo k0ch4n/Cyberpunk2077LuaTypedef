@@ -5,4 +5,4 @@ questCharacterEquippedItemAttachmentSlotsListener = {}
 
 ---@param fields? questCharacterEquippedItemAttachmentSlotsListener
 ---@return questCharacterEquippedItemAttachmentSlotsListener
-function questCharacterEquippedItemAttachmentSlotsListener.new(fields) return end
+function questCharacterEquippedItemAttachmentSlotsListener.new(fields) end

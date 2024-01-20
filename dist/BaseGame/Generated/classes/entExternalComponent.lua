@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entExternalComponent: entIComponent
----@field public externalComponentName CName
+---@field externalComponentName CName
 entExternalComponent = {}
 
 ---@param fields? entExternalComponent
 ---@return entExternalComponent
-function entExternalComponent.new(fields) return end
+function entExternalComponent.new(fields) end

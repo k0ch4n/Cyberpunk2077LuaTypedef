@@ -1,144 +1,135 @@
 ---@meta
 
 ---@class InterpolatorsShowcaseController: inkWidgetLogicController
----@field public interpolationType inkanimInterpolationType
----@field public interpolationMode inkanimInterpolationMode
----@field private overlay inkWidget
----@field private heightBar inkWidget
----@field private widthBar inkWidget
----@field private graphPointer inkWidget
----@field private counterText inkTextWidget
----@field private sizeWidget inkWidget
----@field private rotationWidget inkWidget
----@field private marginWidget inkWidget
----@field private colorWidget inkWidget
----@field private sizeAnim inkanimDefinition
----@field private rotationAnim inkanimDefinition
----@field private marginAnim inkanimDefinition
----@field private colorAnim inkanimDefinition
----@field private followTimelineAnim inkanimDefinition
----@field private interpolateAnim inkanimDefinition
----@field private startMargin inkMargin
----@field private animLength Float
----@field private animConstructor AnimationsConstructor
+---@field interpolationType inkanimInterpolationType
+---@field interpolationMode inkanimInterpolationMode
+---@field overlay inkWidget
+---@field heightBar inkWidget
+---@field widthBar inkWidget
+---@field graphPointer inkWidget
+---@field counterText inkTextWidget
+---@field sizeWidget inkWidget
+---@field rotationWidget inkWidget
+---@field marginWidget inkWidget
+---@field colorWidget inkWidget
+---@field sizeAnim inkanimDefinition
+---@field rotationAnim inkanimDefinition
+---@field marginAnim inkanimDefinition
+---@field colorAnim inkanimDefinition
+---@field followTimelineAnim inkanimDefinition
+---@field interpolateAnim inkanimDefinition
+---@field startMargin inkMargin
+---@field animLength Float
+---@field animConstructor AnimationsConstructor
 InterpolatorsShowcaseController = {}
 
 ---@param fields? InterpolatorsShowcaseController
 ---@return InterpolatorsShowcaseController
-function InterpolatorsShowcaseController.new(fields) return end
+function InterpolatorsShowcaseController.new(fields) end
 
----@protected
 ---@return Bool
-function InterpolatorsShowcaseController:OnInitialize() return end
+function InterpolatorsShowcaseController:OnInitialize() end
 
----@private
 ---@return nil
-function InterpolatorsShowcaseController:ConstructAnimations() return end
+function InterpolatorsShowcaseController:ConstructAnimations() end
 
----@private
 ---@return nil
-function InterpolatorsShowcaseController:ConstructInterpolatorAnim() return end
+function InterpolatorsShowcaseController:ConstructInterpolatorAnim() end
 
----@private
 ---@return nil
-function InterpolatorsShowcaseController:ConstructShowcaseAnimations() return end
+function InterpolatorsShowcaseController:ConstructShowcaseAnimations() end
 
----@private
 ---@return nil
-function InterpolatorsShowcaseController:ConstructTimelineFollow() return end
+function InterpolatorsShowcaseController:ConstructTimelineFollow() end
 
----@private
 ---@return nil
-function InterpolatorsShowcaseController:FillWidgetsVariables() return end
+function InterpolatorsShowcaseController:FillWidgetsVariables() end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorModeToIn(e) return end
+function InterpolatorsShowcaseController:InterpolatorModeToIn(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorModeToInOut(e) return end
+function InterpolatorsShowcaseController:InterpolatorModeToInOut(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorModeToOut(e) return end
+function InterpolatorsShowcaseController:InterpolatorModeToOut(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToBack(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToBack(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToCircular(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToCircular(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToElastic(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToElastic(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToExponential(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToExponential(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToLinear(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToLinear(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToQuadratic(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToQuadratic(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToQuartic(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToQuartic(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToQubic(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToQubic(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToQuintic(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToQuintic(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:InterpolatorTypeToSinusoidal(e) return end
+function InterpolatorsShowcaseController:InterpolatorTypeToSinusoidal(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:LowerTimer_1(e) return end
+function InterpolatorsShowcaseController:LowerTimer_1(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:LowerTimer_2(e) return end
+function InterpolatorsShowcaseController:LowerTimer_2(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:LowerTimer_3(e) return end
+function InterpolatorsShowcaseController:LowerTimer_3(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:PlayAnimation(e) return end
+function InterpolatorsShowcaseController:PlayAnimation(e) end
 
----@private
 ---@return nil
-function InterpolatorsShowcaseController:PrepareGraphPointer() return end
-
----@param e inkPointerEvent
----@return nil
-function InterpolatorsShowcaseController:RiseTimer_1(e) return end
+function InterpolatorsShowcaseController:PrepareGraphPointer() end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:RiseTimer_2(e) return end
+function InterpolatorsShowcaseController:RiseTimer_1(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:RiseTimer_3(e) return end
+function InterpolatorsShowcaseController:RiseTimer_2(e) end
 
----@private
+---@param e inkPointerEvent
 ---@return nil
-function InterpolatorsShowcaseController:StopAllAnimations() return end
+function InterpolatorsShowcaseController:RiseTimer_3(e) end
 
----@private
 ---@return nil
-function InterpolatorsShowcaseController:UpdateCounterText() return end
+function InterpolatorsShowcaseController:StopAllAnimations() end
+
+---@return nil
+function InterpolatorsShowcaseController:UpdateCounterText() end

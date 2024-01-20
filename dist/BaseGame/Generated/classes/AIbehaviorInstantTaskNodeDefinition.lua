@@ -5,4 +5,4 @@ AIbehaviorInstantTaskNodeDefinition = {}
 
 ---@param fields? AIbehaviorInstantTaskNodeDefinition
 ---@return AIbehaviorInstantTaskNodeDefinition
-function AIbehaviorInstantTaskNodeDefinition.new(fields) return end
+function AIbehaviorInstantTaskNodeDefinition.new(fields) end

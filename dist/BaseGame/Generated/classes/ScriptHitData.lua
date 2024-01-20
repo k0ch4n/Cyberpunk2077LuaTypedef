@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ScriptHitData
----@field public animVariation Int32
----@field public attackDirection Int32
----@field public hitBodyPart Int32
+---@field animVariation Int32
+---@field attackDirection Int32
+---@field hitBodyPart Int32
 ScriptHitData = {}
 
 ---@param fields? ScriptHitData
 ---@return ScriptHitData
-function ScriptHitData.new(fields) return end
+function ScriptHitData.new(fields) end

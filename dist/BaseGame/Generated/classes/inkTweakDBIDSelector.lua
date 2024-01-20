@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class inkTweakDBIDSelector: IScriptable
----@field public baseTweakID TweakDBID
+---@field baseTweakID TweakDBID
 inkTweakDBIDSelector = {}
 
 ---@param fields? inkTweakDBIDSelector
 ---@return inkTweakDBIDSelector
-function inkTweakDBIDSelector.new(fields) return end
+function inkTweakDBIDSelector.new(fields) end
 
 ---@return TweakDBID
-function inkTweakDBIDSelector:GetRecordID() return end
+function inkTweakDBIDSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function inkTweakDBIDSelector:SetRecordID(recordID) return end
+function inkTweakDBIDSelector:SetRecordID(recordID) end

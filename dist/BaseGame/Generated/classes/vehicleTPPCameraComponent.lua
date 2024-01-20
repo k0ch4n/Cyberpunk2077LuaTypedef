@@ -5,4 +5,4 @@ vehicleTPPCameraComponent = {}
 
 ---@param fields? vehicleTPPCameraComponent
 ---@return vehicleTPPCameraComponent
-function vehicleTPPCameraComponent.new(fields) return end
+function vehicleTPPCameraComponent.new(fields) end

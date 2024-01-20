@@ -5,4 +5,4 @@ worldMinimapConfigAreaNodeInstance = {}
 
 ---@param fields? worldMinimapConfigAreaNodeInstance
 ---@return worldMinimapConfigAreaNodeInstance
-function worldMinimapConfigAreaNodeInstance.new(fields) return end
+function worldMinimapConfigAreaNodeInstance.new(fields) end

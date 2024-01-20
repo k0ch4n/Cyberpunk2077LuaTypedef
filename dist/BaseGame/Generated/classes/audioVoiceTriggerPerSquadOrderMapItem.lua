@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVoiceTriggerPerSquadOrderMapItem
----@field public name CName
----@field public triggerName CName
+---@field name CName
+---@field triggerName CName
 audioVoiceTriggerPerSquadOrderMapItem = {}
 
 ---@param fields? audioVoiceTriggerPerSquadOrderMapItem
 ---@return audioVoiceTriggerPerSquadOrderMapItem
-function audioVoiceTriggerPerSquadOrderMapItem.new(fields) return end
+function audioVoiceTriggerPerSquadOrderMapItem.new(fields) end

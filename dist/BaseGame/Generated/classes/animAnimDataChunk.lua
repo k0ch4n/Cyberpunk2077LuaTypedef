@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimDataChunk
----@field public buffer serializationDeferredDataBuffer
+---@field buffer serializationDeferredDataBuffer
 animAnimDataChunk = {}
 
 ---@param fields? animAnimDataChunk
 ---@return animAnimDataChunk
-function animAnimDataChunk.new(fields) return end
+function animAnimDataChunk.new(fields) end

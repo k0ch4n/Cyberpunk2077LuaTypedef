@@ -1,106 +1,92 @@
 ---@meta
 
 ---@class DeviceWidgetControllerBase: DeviceInkLogicControllerBase
----@field protected backgroundTextureRef inkImageWidgetReference
----@field protected statusNameWidget inkTextWidgetReference
----@field protected actionsListWidget inkWidgetReference
----@field protected actionWidgetsData SActionWidgetPackage[]
----@field protected actionData ResolveActionData
+---@field backgroundTextureRef inkImageWidgetReference
+---@field statusNameWidget inkTextWidgetReference
+---@field actionsListWidget inkWidgetReference
+---@field actionWidgetsData SActionWidgetPackage[]
+---@field actionData ResolveActionData
 DeviceWidgetControllerBase = {}
 
 ---@param fields? DeviceWidgetControllerBase
 ---@return DeviceWidgetControllerBase
-function DeviceWidgetControllerBase.new(fields) return end
+function DeviceWidgetControllerBase.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DeviceWidgetControllerBase:OnActionWidgetSpawned(widget, userData) return end
+function DeviceWidgetControllerBase:OnActionWidgetSpawned(widget, userData) end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return inkWidget
-function DeviceWidgetControllerBase:AddActionWidget(widget, widgetData, gameController) return end
+function DeviceWidgetControllerBase:AddActionWidget(widget, widgetData, gameController) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function DeviceWidgetControllerBase:AddActionWidgetData(widgetData, gameController) return end
+function DeviceWidgetControllerBase:AddActionWidgetData(widgetData, gameController) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@param parentWidget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@return inkWidget
-function DeviceWidgetControllerBase:CreateActionWidget(gameController, parentWidget, widgetData) return end
+function DeviceWidgetControllerBase:CreateActionWidget(gameController, parentWidget, widgetData) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@param parentWidget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceWidgetControllerBase:CreateActionWidgetAsync(gameController, parentWidget, widgetData) return end
+function DeviceWidgetControllerBase:CreateActionWidgetAsync(gameController, parentWidget, widgetData) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return inkWidget
-function DeviceWidgetControllerBase:GetActionWidget(widgetData, gameController) return end
+function DeviceWidgetControllerBase:GetActionWidget(widgetData, gameController) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return Int32
-function DeviceWidgetControllerBase:GetActionWidgetDataIndex(widgetData, gameController) return end
+function DeviceWidgetControllerBase:GetActionWidgetDataIndex(widgetData, gameController) end
 
 ---@return inkWidget
-function DeviceWidgetControllerBase:GetParentForActionWidgets() return end
+function DeviceWidgetControllerBase:GetParentForActionWidgets() end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return Bool
-function DeviceWidgetControllerBase:HasActionWidget(widgetData, gameController) return end
+function DeviceWidgetControllerBase:HasActionWidget(widgetData, gameController) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@param gameController DeviceInkGameControllerBase
 ---@return Bool
-function DeviceWidgetControllerBase:HasActionWidgetData(widgetData, gameController) return end
+function DeviceWidgetControllerBase:HasActionWidgetData(widgetData, gameController) end
 
----@protected
 ---@return nil
-function DeviceWidgetControllerBase:HideActionWidgets() return end
+function DeviceWidgetControllerBase:HideActionWidgets() end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SDeviceWidgetPackage
 ---@return nil
-function DeviceWidgetControllerBase:Initialize(gameController, widgetData) return end
+function DeviceWidgetControllerBase:Initialize(gameController, widgetData) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@param widget inkWidget
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceWidgetControllerBase:InitializeActionWidget(gameController, widget, widgetData) return end
+function DeviceWidgetControllerBase:InitializeActionWidget(gameController, widget, widgetData) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@param widget inkWidget
 ---@return nil
-function DeviceWidgetControllerBase:RegisterButtonWidgetToAudioCallbacks(gameController, widget) return end
+function DeviceWidgetControllerBase:RegisterButtonWidgetToAudioCallbacks(gameController, widget) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function DeviceWidgetControllerBase:ResolveAction(widgetData) return end
+function DeviceWidgetControllerBase:ResolveAction(widgetData) end
 
----@protected
 ---@param widgetData SActionWidgetPackage
 ---@param index Int32
 ---@return nil
-function DeviceWidgetControllerBase:UpdateActionWidgetData(widgetData, index) return end
+function DeviceWidgetControllerBase:UpdateActionWidgetData(widgetData, index) end

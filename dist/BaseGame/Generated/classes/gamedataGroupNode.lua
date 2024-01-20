@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class gamedataGroupNode: gamedataDataNode
----@field public name String
----@field public base String
----@field public schema String
----@field public isInline Bool
----@field public baseGroup gamedataGroupNode
----@field public schemaGroup gamedataGroupNode
----@field public package gamedataPackageNode
----@field public fileNode gamedataFileNode
----@field public inlineGroupId Uint32
----@field public inheritanceState gamedataGroupNodeInheritanceState
----@field public serializedVariables gamedataGroupNodeGroupVariable[]
----@field public tags CName[]
+---@field name String
+---@field base String
+---@field schema String
+---@field isInline Bool
+---@field baseGroup gamedataGroupNode
+---@field schemaGroup gamedataGroupNode
+---@field package gamedataPackageNode
+---@field fileNode gamedataFileNode
+---@field inlineGroupId Uint32
+---@field inheritanceState gamedataGroupNodeInheritanceState
+---@field serializedVariables gamedataGroupNodeGroupVariable[]
+---@field tags CName[]
 gamedataGroupNode = {}
 
 ---@param fields? gamedataGroupNode
 ---@return gamedataGroupNode
-function gamedataGroupNode.new(fields) return end
+function gamedataGroupNode.new(fields) end

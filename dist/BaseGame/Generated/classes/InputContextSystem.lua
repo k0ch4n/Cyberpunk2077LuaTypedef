@@ -1,28 +1,26 @@
 ---@meta
 
 ---@class InputContextSystem: gameScriptableSystem
----@field private activeContext inputContextType
+---@field activeContext inputContextType
 InputContextSystem = {}
 
 ---@param fields? InputContextSystem
 ---@return InputContextSystem
-function InputContextSystem.new(fields) return end
+function InputContextSystem.new(fields) end
 
 ---@return inputContextType
-function InputContextSystem:GetActiveContext() return end
+function InputContextSystem:GetActiveContext() end
 
 ---@return Bool
-function InputContextSystem:IsActiveContextAction() return end
+function InputContextSystem:IsActiveContextAction() end
 
 ---@return Bool
-function InputContextSystem:IsActiveContextRPG() return end
+function InputContextSystem:IsActiveContextRPG() end
 
----@private
 ---@param request ChangeActiveContextRequest
 ---@return nil
-function InputContextSystem:OnChangeActiveContextRequest(request) return end
+function InputContextSystem:OnChangeActiveContextRequest(request) end
 
----@private
 ---@param request gamePlayerAttachRequest
 ---@return nil
-function InputContextSystem:OnPlayerAttach(request) return end
+function InputContextSystem:OnPlayerAttach(request) end

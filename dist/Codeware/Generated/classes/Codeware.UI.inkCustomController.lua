@@ -1,142 +1,142 @@
 ---@meta
 
 ---@class Codeware_UI_inkCustomController: inkWidgetLogicController
----@field public isCreated Bool
----@field public isInitialized Bool
----@field public detachedWidget inkWidget
----@field public gameController gameuiWidgetGameController
----@field public pendingCallbacks Codeware_UI_inkPendingCallback[]
----@field public rootWidget inkWidget
----@field public containerWidget inkCompoundWidget
+---@field isCreated Bool
+---@field isInitialized Bool
+---@field detachedWidget inkWidget
+---@field gameController gameuiWidgetGameController
+---@field pendingCallbacks Codeware_UI_inkPendingCallback[]
+---@field rootWidget inkWidget
+---@field containerWidget inkCompoundWidget
 Codeware_UI_inkCustomController = {}
 
 ---@return nil
-function Codeware_UI_inkCustomController:OnCreate() return end
+function Codeware_UI_inkCustomController:OnCreate() end
 
 ---@return nil
-function Codeware_UI_inkCustomController:OnInitialize() return end
+function Codeware_UI_inkCustomController:OnInitialize() end
 
 ---@param parent inkCompoundWidget
 ---@return nil
-function Codeware_UI_inkCustomController:OnReparent(parent) return end
+function Codeware_UI_inkCustomController:OnReparent(parent) end
 
 ---@return nil
-function Codeware_UI_inkCustomController:OnUninitialize() return end
+function Codeware_UI_inkCustomController:OnUninitialize() end
 
 ---@param eventName CName|string
 ---@return nil
-function Codeware_UI_inkCustomController:CallCustomCallback(eventName) return end
+function Codeware_UI_inkCustomController:CallCustomCallback(eventName) end
 
 ---@return nil
-function Codeware_UI_inkCustomController:CreateInstance() return end
+function Codeware_UI_inkCustomController:CreateInstance() end
 
 ---@return inkCompoundWidget
-function Codeware_UI_inkCustomController:GetContainerWidget() return end
+function Codeware_UI_inkCustomController:GetContainerWidget() end
 
 ---@return ScriptGameInstance
-function Codeware_UI_inkCustomController:GetGame() return end
+function Codeware_UI_inkCustomController:GetGame() end
 
 ---@return gameuiWidgetGameController
-function Codeware_UI_inkCustomController:GetGameController() return end
+function Codeware_UI_inkCustomController:GetGameController() end
 
 ---@return PlayerPuppet
-function Codeware_UI_inkCustomController:GetPlayer() return end
+function Codeware_UI_inkCustomController:GetPlayer() end
 
 ---@return inkCompoundWidget
-function Codeware_UI_inkCustomController:GetRootCompoundWidget() return end
+function Codeware_UI_inkCustomController:GetRootCompoundWidget() end
 
 ---@return inkWidget
-function Codeware_UI_inkCustomController:GetRootWidget() return end
+function Codeware_UI_inkCustomController:GetRootWidget() end
 
 ---@param rootWidget inkCompoundWidget
 ---@return nil
-function Codeware_UI_inkCustomController:InitializeChildren(rootWidget) return end
+function Codeware_UI_inkCustomController:InitializeChildren(rootWidget) end
 
 ---@return nil
-function Codeware_UI_inkCustomController:InitializeInstance() return end
+function Codeware_UI_inkCustomController:InitializeInstance() end
 
 ---@return Bool
-function Codeware_UI_inkCustomController:IsInitialized() return end
+function Codeware_UI_inkCustomController:IsInitialized() end
 
 ---@param rootWidget inkCompoundWidget
 ---@param gameController? gameuiWidgetGameController
 ---@return nil
-function Codeware_UI_inkCustomController:Mount(rootWidget, gameController) return end
+function Codeware_UI_inkCustomController:Mount(rootWidget, gameController) end
 
 ---@param rootController inkWidgetLogicController
 ---@param gameController? gameuiWidgetGameController
 ---@return nil
-function Codeware_UI_inkCustomController:Mount(rootController, gameController) return end
+function Codeware_UI_inkCustomController:Mount(rootController, gameController) end
 
 ---@param rootController gameuiWidgetGameController
 ---@return nil
-function Codeware_UI_inkCustomController:Mount(rootController) return end
+function Codeware_UI_inkCustomController:Mount(rootController) end
 
 ---@param widgetName CName|string
 ---@param eventName CName|string
 ---@param actionKey? CName|string
 ---@return nil
-function Codeware_UI_inkCustomController:PlaySound(widgetName, eventName, actionKey) return end
+function Codeware_UI_inkCustomController:PlaySound(widgetName, eventName, actionKey) end
 
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function Codeware_UI_inkCustomController:RegisterToCallback(eventName, object, functionName) return end
+function Codeware_UI_inkCustomController:RegisterToCallback(eventName, object, functionName) end
 
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function Codeware_UI_inkCustomController:RegisterToGlobalInputCallback(eventName, object, functionName) return end
+function Codeware_UI_inkCustomController:RegisterToGlobalInputCallback(eventName, object, functionName) end
 
 ---@param newParent inkCompoundWidget
 ---@return nil
-function Codeware_UI_inkCustomController:Reparent(newParent) return end
+function Codeware_UI_inkCustomController:Reparent(newParent) end
 
 ---@param newParent inkCompoundWidget
 ---@param index Int32
 ---@return nil
-function Codeware_UI_inkCustomController:Reparent(newParent, index) return end
+function Codeware_UI_inkCustomController:Reparent(newParent, index) end
 
 ---@param newParent inkCompoundWidget
 ---@param gameController gameuiWidgetGameController
 ---@return nil
-function Codeware_UI_inkCustomController:Reparent(newParent, gameController) return end
+function Codeware_UI_inkCustomController:Reparent(newParent, gameController) end
 
 ---@param newParent Codeware_UI_inkCustomController
 ---@return nil
-function Codeware_UI_inkCustomController:Reparent(newParent) return end
+function Codeware_UI_inkCustomController:Reparent(newParent) end
 
 ---@param newParent Codeware_UI_inkCustomController
 ---@param index Int32
 ---@return nil
-function Codeware_UI_inkCustomController:Reparent(newParent, index) return end
+function Codeware_UI_inkCustomController:Reparent(newParent, index) end
 
 ---@param containerWidget inkCompoundWidget
 ---@return nil
-function Codeware_UI_inkCustomController:SetContainerWidget(containerWidget) return end
+function Codeware_UI_inkCustomController:SetContainerWidget(containerWidget) end
 
 ---@param gameController gameuiWidgetGameController
 ---@return nil
-function Codeware_UI_inkCustomController:SetGameController(gameController) return end
+function Codeware_UI_inkCustomController:SetGameController(gameController) end
 
 ---@param parentController Codeware_UI_inkCustomController
 ---@return nil
-function Codeware_UI_inkCustomController:SetGameController(parentController) return end
+function Codeware_UI_inkCustomController:SetGameController(parentController) end
 
 ---@param rootWidget inkWidget
 ---@return nil
-function Codeware_UI_inkCustomController:SetRootWidget(rootWidget) return end
+function Codeware_UI_inkCustomController:SetRootWidget(rootWidget) end
 
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function Codeware_UI_inkCustomController:UnregisterFromCallback(eventName, object, functionName) return end
+function Codeware_UI_inkCustomController:UnregisterFromCallback(eventName, object, functionName) end
 
 ---@param eventName CName|string
 ---@param object IScriptable
 ---@param functionName CName|string
 ---@return nil
-function Codeware_UI_inkCustomController:UnregisterFromGlobalInputCallback(eventName, object, functionName) return end
+function Codeware_UI_inkCustomController:UnregisterFromGlobalInputCallback(eventName, object, functionName) end

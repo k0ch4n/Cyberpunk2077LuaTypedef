@@ -5,4 +5,4 @@ gameprojectileCollisionEvaluator = {}
 
 ---@param fields? gameprojectileCollisionEvaluator
 ---@return gameprojectileCollisionEvaluator
-function gameprojectileCollisionEvaluator.new(fields) return end
+function gameprojectileCollisionEvaluator.new(fields) end

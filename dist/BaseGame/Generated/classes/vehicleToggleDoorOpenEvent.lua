@@ -5,4 +5,4 @@ vehicleToggleDoorOpenEvent = {}
 
 ---@param fields? vehicleToggleDoorOpenEvent
 ---@return vehicleToggleDoorOpenEvent
-function vehicleToggleDoorOpenEvent.new(fields) return end
+function vehicleToggleDoorOpenEvent.new(fields) end

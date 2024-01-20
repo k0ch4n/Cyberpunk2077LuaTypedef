@@ -1,83 +1,77 @@
 ---@meta
 
 ---@class VendingMachineControllerPS: ScriptableDeviceComponentPS
----@field private vendingMachineSetup VendingMachineSetup
----@field private vendingMachineSFX VendingMachineSFX
----@field protected soldOutProbability Float
----@field protected isReady Bool
----@field protected isSoldOut Bool
----@field protected hackCount Int32
----@field private shopStock gameSItemStack[]
----@field protected shopStockInit Bool
+---@field vendingMachineSetup VendingMachineSetup
+---@field vendingMachineSFX VendingMachineSFX
+---@field soldOutProbability Float
+---@field isReady Bool
+---@field isSoldOut Bool
+---@field hackCount Int32
+---@field shopStock gameSItemStack[]
+---@field shopStockInit Bool
 VendingMachineControllerPS = {}
 
 ---@param fields? VendingMachineControllerPS
 ---@return VendingMachineControllerPS
-function VendingMachineControllerPS.new(fields) return end
+function VendingMachineControllerPS.new(fields) end
 
----@protected
 ---@param item gameItemID
 ---@param price Int32
 ---@return DispenceItemFromVendor
-function VendingMachineControllerPS:ActionDispenceItemFromVendor(item, price) return end
+function VendingMachineControllerPS:ActionDispenceItemFromVendor(item, price) end
 
----@protected
 ---@return Bool
-function VendingMachineControllerPS:CanCreateAnyQuickHackActions() return end
+function VendingMachineControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function VendingMachineControllerPS:GetActions(context) return end
+function VendingMachineControllerPS:GetActions(context) end
 
 ---@return VendingMachineDeviceBlackboardDef
-function VendingMachineControllerPS:GetBlackboardDef() return end
+function VendingMachineControllerPS:GetBlackboardDef() end
 
 ---@return CName
-function VendingMachineControllerPS:GetGlitchStartSFX() return end
+function VendingMachineControllerPS:GetGlitchStartSFX() end
 
 ---@return CName
-function VendingMachineControllerPS:GetGlitchStopSFX() return end
+function VendingMachineControllerPS:GetGlitchStopSFX() end
 
 ---@return Int32
-function VendingMachineControllerPS:GetHackedItemCount() return end
+function VendingMachineControllerPS:GetHackedItemCount() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function VendingMachineControllerPS:GetQuestActions(context) return end
+function VendingMachineControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function VendingMachineControllerPS:GetQuickHackActions(context) return end
+function VendingMachineControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return gameSItemStack[]
-function VendingMachineControllerPS:GetShopStock() return end
+function VendingMachineControllerPS:GetShopStock() end
 
 ---@return Float
-function VendingMachineControllerPS:GetTimeToCompletePurchase() return end
+function VendingMachineControllerPS:GetTimeToCompletePurchase() end
 
 ---@return Bool
-function VendingMachineControllerPS:IsSoldOut() return end
+function VendingMachineControllerPS:IsSoldOut() end
 
----@protected
 ---@return nil
-function VendingMachineControllerPS:LogicReady() return end
+function VendingMachineControllerPS:LogicReady() end
 
 ---@param evt DispenceItemFromVendor
 ---@return EntityNotificationType
-function VendingMachineControllerPS:OnDispenceItemFromVendor(evt) return end
+function VendingMachineControllerPS:OnDispenceItemFromVendor(evt) end
 
 ---@param evt QuickHackDistraction
 ---@return EntityNotificationType
-function VendingMachineControllerPS:OnQuickHackDistraction(evt) return end
+function VendingMachineControllerPS:OnQuickHackDistraction(evt) end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function VendingMachineControllerPS:PushShopStockActions(actions, context) return end
+function VendingMachineControllerPS:PushShopStockActions(actions, context) end
 
 ---@param value Bool
 ---@return nil
-function VendingMachineControllerPS:SetIsReady(value) return end
+function VendingMachineControllerPS:SetIsReady(value) end

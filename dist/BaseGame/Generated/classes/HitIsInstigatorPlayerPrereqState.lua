@@ -5,8 +5,8 @@ HitIsInstigatorPlayerPrereqState = {}
 
 ---@param fields? HitIsInstigatorPlayerPrereqState
 ---@return HitIsInstigatorPlayerPrereqState
-function HitIsInstigatorPlayerPrereqState.new(fields) return end
+function HitIsInstigatorPlayerPrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitIsInstigatorPlayerPrereqState:Evaluate(hitEvent) return end
+function HitIsInstigatorPlayerPrereqState:Evaluate(hitEvent) end

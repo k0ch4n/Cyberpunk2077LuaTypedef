@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class audioDeviceSettings: audioEntitySettings
----@field public deviceSettings audioDeviceStateSettings
+---@field deviceSettings audioDeviceStateSettings
 audioDeviceSettings = {}

@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class sampleUIAnchorController: inkWidgetLogicController
----@field public rectangleAnchor inkRectangleWidgetReference
+---@field rectangleAnchor inkRectangleWidgetReference
 sampleUIAnchorController = {}
 
 ---@param fields? sampleUIAnchorController
 ---@return sampleUIAnchorController
-function sampleUIAnchorController.new(fields) return end
+function sampleUIAnchorController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUIAnchorController:OnInitialize() return end
+function sampleUIAnchorController:OnInitialize() end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIAnchorController:onButtonRelease(e) return end
+function sampleUIAnchorController:onButtonRelease(e) end

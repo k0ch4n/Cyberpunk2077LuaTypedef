@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameuiPanzerBonus: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
----@field public fallingSpeed Float
+---@field fallingSpeed Float
 gameuiPanzerBonus = {}

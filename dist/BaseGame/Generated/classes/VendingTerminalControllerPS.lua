@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class VendingTerminalControllerPS: ScriptableDeviceComponentPS
----@field private vendingTerminalSetup VendingTerminalSetup
----@field private isReady Bool
----@field private VendorDataManager VendorDataManager
+---@field vendingTerminalSetup VendingTerminalSetup
+---@field isReady Bool
+---@field VendorDataManager VendorDataManager
 VendingTerminalControllerPS = {}
 
 ---@param fields? VendingTerminalControllerPS
 ---@return VendingTerminalControllerPS
-function VendingTerminalControllerPS.new(fields) return end
+function VendingTerminalControllerPS.new(fields) end
 
 ---@return VendingMachineDeviceBlackboardDef
-function VendingTerminalControllerPS:GetBlackboardDef() return end
+function VendingTerminalControllerPS:GetBlackboardDef() end
 
 ---@return VendorDataManager
-function VendingTerminalControllerPS:GetVendorDataManager() return end
+function VendingTerminalControllerPS:GetVendorDataManager() end
 
 ---@param vendor gameObject
 ---@return nil
-function VendingTerminalControllerPS:Prepare(vendor) return end
+function VendingTerminalControllerPS:Prepare(vendor) end
 
 ---@param value Bool
 ---@return nil
-function VendingTerminalControllerPS:SetIsReady(value) return end
+function VendingTerminalControllerPS:SetIsReady(value) end

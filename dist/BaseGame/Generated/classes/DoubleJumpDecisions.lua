@@ -5,10 +5,9 @@ DoubleJumpDecisions = {}
 
 ---@param fields? DoubleJumpDecisions
 ---@return DoubleJumpDecisions
-function DoubleJumpDecisions.new(fields) return end
+function DoubleJumpDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DoubleJumpDecisions:EnterCondition(stateContext, scriptInterface) return end
+function DoubleJumpDecisions:EnterCondition(stateContext, scriptInterface) end

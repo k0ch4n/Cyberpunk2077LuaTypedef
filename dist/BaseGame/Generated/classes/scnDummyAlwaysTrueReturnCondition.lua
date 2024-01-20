@@ -5,4 +5,4 @@ scnDummyAlwaysTrueReturnCondition = {}
 
 ---@param fields? scnDummyAlwaysTrueReturnCondition
 ---@return scnDummyAlwaysTrueReturnCondition
-function scnDummyAlwaysTrueReturnCondition.new(fields) return end
+function scnDummyAlwaysTrueReturnCondition.new(fields) end

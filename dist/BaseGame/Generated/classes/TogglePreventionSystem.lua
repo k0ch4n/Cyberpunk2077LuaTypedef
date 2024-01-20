@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TogglePreventionSystem: gameScriptableSystemRequest
----@field public sourceName CName
----@field public isActive Bool
+---@field sourceName CName
+---@field isActive Bool
 TogglePreventionSystem = {}
 
 ---@param fields? TogglePreventionSystem
 ---@return TogglePreventionSystem
-function TogglePreventionSystem.new(fields) return end
+function TogglePreventionSystem.new(fields) end

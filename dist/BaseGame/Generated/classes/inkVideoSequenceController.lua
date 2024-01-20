@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkVideoSequenceController: inkWidgetLogicController
----@field public videoWidget inkVideoWidgetReference
----@field public videoSequence inkVideoSequenceEntry[]
+---@field videoWidget inkVideoWidgetReference
+---@field videoSequence inkVideoSequenceEntry[]
 inkVideoSequenceController = {}
 
 ---@param fields? inkVideoSequenceController
 ---@return inkVideoSequenceController
-function inkVideoSequenceController.new(fields) return end
+function inkVideoSequenceController.new(fields) end

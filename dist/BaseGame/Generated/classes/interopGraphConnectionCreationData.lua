@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class interopGraphConnectionCreationData
----@field public data String
----@field public extraData String[]
+---@field data String
+---@field extraData String[]
 interopGraphConnectionCreationData = {}
 
 ---@param fields? interopGraphConnectionCreationData
 ---@return interopGraphConnectionCreationData
-function interopGraphConnectionCreationData.new(fields) return end
+function interopGraphConnectionCreationData.new(fields) end

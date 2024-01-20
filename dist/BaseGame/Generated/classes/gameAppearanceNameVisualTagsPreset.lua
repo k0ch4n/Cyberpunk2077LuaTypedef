@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameAppearanceNameVisualTagsPreset: ISerializable
----@field public presets gameAppearanceNameVisualTagsPreset_Entity[]
+---@field presets gameAppearanceNameVisualTagsPreset_Entity[]
 gameAppearanceNameVisualTagsPreset = {}
 
 ---@param fields? gameAppearanceNameVisualTagsPreset
 ---@return gameAppearanceNameVisualTagsPreset
-function gameAppearanceNameVisualTagsPreset.new(fields) return end
+function gameAppearanceNameVisualTagsPreset.new(fields) end

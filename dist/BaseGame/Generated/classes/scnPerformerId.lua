@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnPerformerId
----@field public id Uint32
+---@field id Uint32
 scnPerformerId = {}
 
 ---@param fields? scnPerformerId
 ---@return scnPerformerId
-function scnPerformerId.new(fields) return end
+function scnPerformerId.new(fields) end

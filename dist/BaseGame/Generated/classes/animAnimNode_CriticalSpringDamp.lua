@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class animAnimNode_CriticalSpringDamp: animAnimNode_FloatValue
----@field public smoothTime Float
----@field public useRange Bool
----@field public rangeMin Float
----@field public rangeMax Float
----@field public useRawTime Bool
----@field public inputNode animFloatLink
+---@field smoothTime Float
+---@field useRange Bool
+---@field rangeMin Float
+---@field rangeMax Float
+---@field useRawTime Bool
+---@field inputNode animFloatLink
 animAnimNode_CriticalSpringDamp = {}
 
 ---@param fields? animAnimNode_CriticalSpringDamp
 ---@return animAnimNode_CriticalSpringDamp
-function animAnimNode_CriticalSpringDamp.new(fields) return end
+function animAnimNode_CriticalSpringDamp.new(fields) end

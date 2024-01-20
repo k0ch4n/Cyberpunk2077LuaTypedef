@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimFeature_CrowdLocomotion: animAnimFeature
----@field public speed Float
----@field public slopeAngle Float
----@field public isCrowd Bool
+---@field speed Float
+---@field slopeAngle Float
+---@field isCrowd Bool
 animAnimFeature_CrowdLocomotion = {}
 
 ---@param fields? animAnimFeature_CrowdLocomotion
 ---@return animAnimFeature_CrowdLocomotion
-function animAnimFeature_CrowdLocomotion.new(fields) return end
+function animAnimFeature_CrowdLocomotion.new(fields) end

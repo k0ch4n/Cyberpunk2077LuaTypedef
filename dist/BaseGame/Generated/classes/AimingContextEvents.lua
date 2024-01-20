@@ -5,11 +5,10 @@ AimingContextEvents = {}
 
 ---@param fields? AimingContextEvents
 ---@return AimingContextEvents
-function AimingContextEvents.new(fields) return end
+function AimingContextEvents.new(fields) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingContextEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function AimingContextEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

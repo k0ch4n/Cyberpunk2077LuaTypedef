@@ -1,140 +1,123 @@
 ---@meta
 
 ---@class RipperdocMetersCapacity: RipperdocMetersBase
----@field private defaultRightBarScale Float
----@field private overchargeGapSize Float
----@field private curCapacityLabelContainer inkWidgetReference
----@field private curCapacityLabelBackground inkWidgetReference
----@field private costLabelContainer inkWidgetReference
----@field private costLabelText inkTextWidgetReference
----@field private maxCapacityLabelContainer inkWidgetReference
----@field private maxCapacityLabelText inkTextWidgetReference
----@field private overchargeBox inkWidgetReference
----@field private thresholdLine inkWidgetReference
----@field private edgrunnerLock inkWidgetReference
----@field private overchargeGlow inkWidgetReference
----@field private overchargeGlowAnimName CName
----@field private overchargeVisibilityThreshold Float
----@field private currentCapacity Int32
----@field private maxCapacity Int32
----@field private maxCapacityPossible Float
----@field private overchargeMaxCapacity Int32
----@field private overchargeValue Int32
----@field private isEdgerunner Bool
----@field private curCapacityLabel RipperdocFillLabel
----@field private capacityLabelAnimation inkanimProxy
----@field private costLabelAnimation inkanimProxy
----@field private capacityPulseAnimation PulseAnimation
----@field private costLabelPulseAnimation PulseAnimation
----@field private overchargeGlowAnimProxy inkanimProxy
----@field private overchargeGlowAnimOptions inkanimPlaybackOptions
----@field private overchargeBoxState CName
----@field private maxBaseBar Int32
----@field private overBars Int32
----@field private barsSpawned Bool
----@field private showOverchargeBox Bool
----@field private isHoverdCyberwareEquipped Bool
----@field private C_costLabelAnchorPoint_ADD Vector2
----@field private C_costLabelAnchorPoint_SUBTRACT Vector2
----@field private C_costLabelAnchorPoint_EQUIPPED Vector2
----@field private C_costLabelAnchorPoint_EQUIPPED_EDGRUNNER Vector2
+---@field defaultRightBarScale Float
+---@field overchargeGapSize Float
+---@field curCapacityLabelContainer inkWidgetReference
+---@field curCapacityLabelBackground inkWidgetReference
+---@field costLabelContainer inkWidgetReference
+---@field costLabelText inkTextWidgetReference
+---@field maxCapacityLabelContainer inkWidgetReference
+---@field maxCapacityLabelText inkTextWidgetReference
+---@field overchargeBox inkWidgetReference
+---@field thresholdLine inkWidgetReference
+---@field edgrunnerLock inkWidgetReference
+---@field overchargeGlow inkWidgetReference
+---@field overchargeGlowAnimName CName
+---@field overchargeVisibilityThreshold Float
+---@field currentCapacity Int32
+---@field maxCapacity Int32
+---@field maxCapacityPossible Float
+---@field overchargeMaxCapacity Int32
+---@field overchargeValue Int32
+---@field isEdgerunner Bool
+---@field curCapacityLabel RipperdocFillLabel
+---@field capacityLabelAnimation inkanimProxy
+---@field costLabelAnimation inkanimProxy
+---@field capacityPulseAnimation PulseAnimation
+---@field costLabelPulseAnimation PulseAnimation
+---@field overchargeGlowAnimProxy inkanimProxy
+---@field overchargeGlowAnimOptions inkanimPlaybackOptions
+---@field overchargeBoxState CName
+---@field maxBaseBar Int32
+---@field overBars Int32
+---@field barsSpawned Bool
+---@field showOverchargeBox Bool
+---@field isHoverdCyberwareEquipped Bool
+---@field C_costLabelAnchorPoint_ADD Vector2
+---@field C_costLabelAnchorPoint_SUBTRACT Vector2
+---@field C_costLabelAnchorPoint_EQUIPPED Vector2
+---@field C_costLabelAnchorPoint_EQUIPPED_EDGRUNNER Vector2
 RipperdocMetersCapacity = {}
 
 ---@param fields? RipperdocMetersCapacity
 ---@return RipperdocMetersCapacity
-function RipperdocMetersCapacity.new(fields) return end
+function RipperdocMetersCapacity.new(fields) end
 
----@protected
 ---@param evt RipperdocMeterCapacityApplyEvent
 ---@return Bool
-function RipperdocMetersCapacity:OnApply(evt) return end
+function RipperdocMetersCapacity:OnApply(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param data IScriptable
 ---@return Bool
-function RipperdocMetersCapacity:OnBarSpawned(widget, data) return end
+function RipperdocMetersCapacity:OnBarSpawned(widget, data) end
 
----@protected
 ---@param evt EdgrunnerPerkEvent
 ---@return Bool
-function RipperdocMetersCapacity:OnEdgrunnerPerkEvent(evt) return end
+function RipperdocMetersCapacity:OnEdgrunnerPerkEvent(evt) end
 
----@protected
 ---@param evt RipperdocMeterCapacityHoverEvent
 ---@return Bool
-function RipperdocMetersCapacity:OnHover(evt) return end
+function RipperdocMetersCapacity:OnHover(evt) end
 
----@protected
 ---@return Bool
-function RipperdocMetersCapacity:OnInitialize() return end
+function RipperdocMetersCapacity:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function RipperdocMetersCapacity:OnIntroAnimationFinished_METER(proxy) return end
+function RipperdocMetersCapacity:OnIntroAnimationFinished_METER(proxy) end
 
----@protected
 ---@param animProxy inkanimProxy
 ---@return Bool
-function RipperdocMetersCapacity:OnLastBarIntroFinished(animProxy) return end
+function RipperdocMetersCapacity:OnLastBarIntroFinished(animProxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function RipperdocMetersCapacity:OnMeterIntroFinished_LEFT(proxy) return end
+function RipperdocMetersCapacity:OnMeterIntroFinished_LEFT(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocMetersCapacity:OnOverchargeHoverOut(evt) return end
+function RipperdocMetersCapacity:OnOverchargeHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocMetersCapacity:OnOverchargeHoverOver(evt) return end
+function RipperdocMetersCapacity:OnOverchargeHoverOver(evt) end
 
----@protected
 ---@param evt RipperdocMeterCapacityBarHoverEvent
 ---@return Bool
-function RipperdocMetersCapacity:OnRipperdocMeterCapacityBarHoverEvent(evt) return end
+function RipperdocMetersCapacity:OnRipperdocMeterCapacityBarHoverEvent(evt) end
 
----@protected
 ---@return Bool
-function RipperdocMetersCapacity:OnUninitialize() return end
+function RipperdocMetersCapacity:OnUninitialize() end
 
----@private
 ---@param curEquippedCapacity Int32
 ---@param newEquippedCapacity Int32
 ---@param maxCapacity Int32
 ---@param overclockCapacity Int32
 ---@param isChange Bool
 ---@return nil
-function RipperdocMetersCapacity:ConfigureBar(curEquippedCapacity, newEquippedCapacity, maxCapacity, overclockCapacity, isChange) return end
+function RipperdocMetersCapacity:ConfigureBar(curEquippedCapacity, newEquippedCapacity, maxCapacity, overclockCapacity, isChange) end
 
----@private
 ---@param isSafe Bool
 ---@param isEdgerunner Bool
 ---@param cur Int32
 ---@param start Int32
 ---@param dif Int32
 ---@return CName
-function RipperdocMetersCapacity:GetState(isSafe, isEdgerunner, cur, start, dif) return end
+function RipperdocMetersCapacity:GetState(isSafe, isEdgerunner, cur, start, dif) end
 
----@private
 ---@param cur Int32
 ---@param max Int32
 ---@param over Int32
 ---@param maxPossible Float
 ---@return nil
-function RipperdocMetersCapacity:SetCapacity(cur, max, over, maxPossible) return end
+function RipperdocMetersCapacity:SetCapacity(cur, max, over, maxPossible) end
 
----@private
 ---@param downLine inkWidgetReference
 ---@param upperLine inkWidgetReference
 ---@return nil
-function RipperdocMetersCapacity:SetMaxZone(downLine, upperLine) return end
+function RipperdocMetersCapacity:SetMaxZone(downLine, upperLine) end
 
----@private
 ---@return nil
-function RipperdocMetersCapacity:SpawnBars() return end
+function RipperdocMetersCapacity:SpawnBars() end

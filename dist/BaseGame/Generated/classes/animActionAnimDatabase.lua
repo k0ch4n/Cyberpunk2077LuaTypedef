@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animActionAnimDatabase: CResource
----@field public rows animActionAnimDatabase_DatabaseRow[]
+---@field rows animActionAnimDatabase_DatabaseRow[]
 animActionAnimDatabase = {}
 
 ---@param fields? animActionAnimDatabase
 ---@return animActionAnimDatabase
-function animActionAnimDatabase.new(fields) return end
+function animActionAnimDatabase.new(fields) end

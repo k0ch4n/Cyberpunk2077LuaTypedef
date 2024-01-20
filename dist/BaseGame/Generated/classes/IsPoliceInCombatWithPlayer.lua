@@ -5,9 +5,8 @@ IsPoliceInCombatWithPlayer = {}
 
 ---@param fields? IsPoliceInCombatWithPlayer
 ---@return IsPoliceInCombatWithPlayer
-function IsPoliceInCombatWithPlayer.new(fields) return end
+function IsPoliceInCombatWithPlayer.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPoliceInCombatWithPlayer:Check(context) return end
+function IsPoliceInCombatWithPlayer:Check(context) end

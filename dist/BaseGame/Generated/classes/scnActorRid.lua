@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnActorRid
----@field public tag scnRidTag
----@field public animations scnAnimationRid[]
----@field public facialAnimations scnAnimationRid[]
----@field public cyberwareAnimations scnAnimationRid[]
+---@field tag scnRidTag
+---@field animations scnAnimationRid[]
+---@field facialAnimations scnAnimationRid[]
+---@field cyberwareAnimations scnAnimationRid[]
 scnActorRid = {}
 
 ---@param fields? scnActorRid
 ---@return scnActorRid
-function scnActorRid.new(fields) return end
+function scnActorRid.new(fields) end

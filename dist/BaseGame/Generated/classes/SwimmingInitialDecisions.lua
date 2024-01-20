@@ -5,22 +5,19 @@ SwimmingInitialDecisions = {}
 
 ---@param fields? SwimmingInitialDecisions
 ---@return SwimmingInitialDecisions
-function SwimmingInitialDecisions.new(fields) return end
+function SwimmingInitialDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingInitialDecisions:IsUnderwater(stateContext, scriptInterface) return end
+function SwimmingInitialDecisions:IsUnderwater(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingInitialDecisions:ToDiving(stateContext, scriptInterface) return end
+function SwimmingInitialDecisions:ToDiving(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingInitialDecisions:ToSurface(stateContext, scriptInterface) return end
+function SwimmingInitialDecisions:ToSurface(stateContext, scriptInterface) end

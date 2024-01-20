@@ -1,31 +1,30 @@
 ---@meta
 
 ---@class gameuiItemPreviewGameController: gameuiPreviewGameController
----@field public root inkWidgetReference
----@field public image inkImageWidgetReference
----@field public sceneName CName
----@field public cameraRef NodeRef
+---@field root inkWidgetReference
+---@field image inkImageWidgetReference
+---@field sceneName CName
+---@field cameraRef NodeRef
 gameuiItemPreviewGameController = {}
 
 ---@param fields? gameuiItemPreviewGameController
 ---@return gameuiItemPreviewGameController
-function gameuiItemPreviewGameController.new(fields) return end
+function gameuiItemPreviewGameController.new(fields) end
 
 ---@return nil
-function gameuiItemPreviewGameController:ClearPreview() return end
+function gameuiItemPreviewGameController:ClearPreview() end
 
 ---@return nil
-function gameuiItemPreviewGameController:DisableCamera() return end
+function gameuiItemPreviewGameController:DisableCamera() end
 
 ---@return nil
-function gameuiItemPreviewGameController:EnableCamera() return end
+function gameuiItemPreviewGameController:EnableCamera() end
 
 ---@param itemID gameItemID
 ---@param forceCreate Bool
 ---@return nil
-function gameuiItemPreviewGameController:PreviewItem(itemID, forceCreate) return end
+function gameuiItemPreviewGameController:PreviewItem(itemID, forceCreate) end
 
----@protected
 ---@param itemID gameItemID
 ---@return nil
-function gameuiItemPreviewGameController:PreviewItem(itemID) return end
+function gameuiItemPreviewGameController:PreviewItem(itemID) end

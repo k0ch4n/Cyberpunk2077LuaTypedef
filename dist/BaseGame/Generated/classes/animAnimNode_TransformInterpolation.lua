@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animAnimNode_TransformInterpolation: animAnimNode_TransformValue
----@field public interpolationType animQuaternionInterpolationType
----@field public firstInput animTransformLink
----@field public secondInput animTransformLink
----@field public weight animFloatLink
+---@field interpolationType animQuaternionInterpolationType
+---@field firstInput animTransformLink
+---@field secondInput animTransformLink
+---@field weight animFloatLink
 animAnimNode_TransformInterpolation = {}
 
 ---@param fields? animAnimNode_TransformInterpolation
 ---@return animAnimNode_TransformInterpolation
-function animAnimNode_TransformInterpolation.new(fields) return end
+function animAnimNode_TransformInterpolation.new(fields) end

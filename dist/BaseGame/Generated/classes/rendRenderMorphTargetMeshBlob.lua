@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class rendRenderMorphTargetMeshBlob: IRenderResourceBlob
----@field public header rendRenderMorphTargetMeshBlobHeader
----@field public diffsBuffer DataBuffer
----@field public mappingBuffer DataBuffer
----@field public textureDiffsBuffer serializationDeferredDataBuffer
----@field public baseBlob IRenderResourceBlob
+---@field header rendRenderMorphTargetMeshBlobHeader
+---@field diffsBuffer DataBuffer
+---@field mappingBuffer DataBuffer
+---@field textureDiffsBuffer serializationDeferredDataBuffer
+---@field baseBlob IRenderResourceBlob
 rendRenderMorphTargetMeshBlob = {}
 
 ---@param fields? rendRenderMorphTargetMeshBlob
 ---@return rendRenderMorphTargetMeshBlob
-function rendRenderMorphTargetMeshBlob.new(fields) return end
+function rendRenderMorphTargetMeshBlob.new(fields) end

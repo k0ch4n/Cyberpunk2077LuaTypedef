@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class BloomAreaSettings: IAreaSettings
----@field public blurSizeX Float
----@field public blurSizeY Float
----@field public mipColors Color[]
----@field public mipLuminanceClamp Float[]
----@field public luminanceThresholdMin Float
----@field public luminanceThresholdMax Float
----@field public sceneColorScale Float
----@field public bloomColorScale Float
----@field public numDownsamplePasses Uint8
----@field public shaftsAreaSettings ShaftsAreaSettings
+---@field blurSizeX Float
+---@field blurSizeY Float
+---@field mipColors Color[]
+---@field mipLuminanceClamp Float[]
+---@field luminanceThresholdMin Float
+---@field luminanceThresholdMax Float
+---@field sceneColorScale Float
+---@field bloomColorScale Float
+---@field numDownsamplePasses Uint8
+---@field shaftsAreaSettings ShaftsAreaSettings
 BloomAreaSettings = {}
 
 ---@param fields? BloomAreaSettings
 ---@return BloomAreaSettings
-function BloomAreaSettings.new(fields) return end
+function BloomAreaSettings.new(fields) end

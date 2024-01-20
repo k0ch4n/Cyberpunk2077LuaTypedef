@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class ModifyDamageWithCyberwareCountEffector: ModifyDamageEffector
----@field public minPlayerHealthPercentage Float
----@field public playerIncomingDamageMultiplier Float
----@field public playerMaxIncomingDamage Float
----@field public damageBuffAmount Float
----@field public damageBuffRarity Float
----@field public playVFXOnHitTargets CName
----@field public statusEffectRecord gamedataStatusEffect_Record
+---@field minPlayerHealthPercentage Float
+---@field playerIncomingDamageMultiplier Float
+---@field playerMaxIncomingDamage Float
+---@field damageBuffAmount Float
+---@field damageBuffRarity Float
+---@field playVFXOnHitTargets CName
+---@field statusEffectRecord gamedataStatusEffect_Record
 ModifyDamageWithCyberwareCountEffector = {}
 
 ---@param fields? ModifyDamageWithCyberwareCountEffector
 ---@return ModifyDamageWithCyberwareCountEffector
-function ModifyDamageWithCyberwareCountEffector.new(fields) return end
+function ModifyDamageWithCyberwareCountEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyDamageWithCyberwareCountEffector:Initialize(record, parentRecord) return end
+function ModifyDamageWithCyberwareCountEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyDamageWithCyberwareCountEffector:RepeatedAction(owner) return end
+function ModifyDamageWithCyberwareCountEffector:RepeatedAction(owner) end

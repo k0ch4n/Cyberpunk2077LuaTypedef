@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questAddRemoveItem_NodeType: questIItemManagerNodeType
----@field public params questAddRemoveItem_NodeTypeParams[]
+---@field params questAddRemoveItem_NodeTypeParams[]
 questAddRemoveItem_NodeType = {}
 
 ---@param fields? questAddRemoveItem_NodeType
 ---@return questAddRemoveItem_NodeType
-function questAddRemoveItem_NodeType.new(fields) return end
+function questAddRemoveItem_NodeType.new(fields) end

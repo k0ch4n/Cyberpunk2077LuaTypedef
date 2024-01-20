@@ -5,20 +5,19 @@ ExitingDecisions = {}
 
 ---@param fields? ExitingDecisions
 ---@return ExitingDecisions
-function ExitingDecisions.new(fields) return end
+function ExitingDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ExitingDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ExitingDecisions:EnterCondition(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ExitingDecisions:ExitCondition(stateContext, scriptInterface) return end
+function ExitingDecisions:ExitCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ExitingDecisions:IsCoolExitAllowed(stateContext, scriptInterface) return end
+function ExitingDecisions:IsCoolExitAllowed(stateContext, scriptInterface) end

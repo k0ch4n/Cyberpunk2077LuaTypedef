@@ -1,179 +1,150 @@
 ---@meta
 
 ---@class LoadGameMenuGameController: gameuiSaveHandlingController
----@field private list inkCompoundWidgetReference
----@field private noSavedGamesLabel inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private transitToLoadingAnimName CName
----@field private transitToLoadingSlotAnimName CName
----@field private animDelayBetweenSlots Float
----@field private animDelayForMainSlot Float
----@field private enableLoadingTransition Bool
----@field private gogButtonWidgetRef inkWidgetReference
----@field private gogContainer inkWidgetReference
----@field private laodingSpinner inkWidgetReference
----@field private scrollbar inkWidgetReference
----@field private eventDispatcher inkMenuEventDispatcher
----@field private loadComplete Bool
----@field private saveInfo inkSaveMetadataInfo
----@field private buttonHintsController ButtonHints
----@field private saveToLoadIndex Int32
----@field private saveToLoadID Uint64
----@field private isInputDisabled Bool
----@field private saveTransferPopupToken inkGameNotificationToken
----@field private saves String[]
----@field private saveFilesReady Bool
----@field private cloudSynced Bool
----@field private onlineSystem gameIOnlineSystem
----@field private systemHandler inkISystemRequestsHandler
----@field private pendingRegistration Bool
----@field private isEp1Enabled Bool
----@field private animProxy inkanimProxy
----@field private sourceIndex Int32
+---@field list inkCompoundWidgetReference
+---@field noSavedGamesLabel inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field transitToLoadingAnimName CName
+---@field transitToLoadingSlotAnimName CName
+---@field animDelayBetweenSlots Float
+---@field animDelayForMainSlot Float
+---@field enableLoadingTransition Bool
+---@field gogButtonWidgetRef inkWidgetReference
+---@field gogContainer inkWidgetReference
+---@field laodingSpinner inkWidgetReference
+---@field scrollbar inkWidgetReference
+---@field eventDispatcher inkMenuEventDispatcher
+---@field loadComplete Bool
+---@field saveInfo inkSaveMetadataInfo
+---@field buttonHintsController ButtonHints
+---@field saveToLoadIndex Int32
+---@field saveToLoadID Uint64
+---@field isInputDisabled Bool
+---@field saveTransferPopupToken inkGameNotificationToken
+---@field saves String[]
+---@field saveFilesReady Bool
+---@field cloudSynced Bool
+---@field onlineSystem gameIOnlineSystem
+---@field systemHandler inkISystemRequestsHandler
+---@field pendingRegistration Bool
+---@field isEp1Enabled Bool
+---@field animProxy inkanimProxy
+---@field sourceIndex Int32
 LoadGameMenuGameController = {}
 
 ---@param fields? LoadGameMenuGameController
 ---@return LoadGameMenuGameController
-function LoadGameMenuGameController.new(fields) return end
+function LoadGameMenuGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function LoadGameMenuGameController:OnButtonRelease(evt) return end
+function LoadGameMenuGameController:OnButtonRelease(evt) end
 
----@protected
 ---@param success Bool
 ---@return Bool
-function LoadGameMenuGameController:OnCloudSaveUploadFinish(success) return end
+function LoadGameMenuGameController:OnCloudSaveUploadFinish(success) end
 
----@protected
 ---@param status servicesCloudSavesQueryStatus
 ---@return Bool
-function LoadGameMenuGameController:OnCloudSavesQueryStatusChanged(status) return end
+function LoadGameMenuGameController:OnCloudSavesQueryStatusChanged(status) end
 
----@protected
 ---@param bIsSignedIn Bool
 ---@return Bool
-function LoadGameMenuGameController:OnGogLoginStatusChanged(bIsSignedIn) return end
+function LoadGameMenuGameController:OnGogLoginStatusChanged(bIsSignedIn) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function LoadGameMenuGameController:OnGogPressed(evt) return end
+function LoadGameMenuGameController:OnGogPressed(evt) end
 
----@protected
 ---@return Bool
-function LoadGameMenuGameController:OnInitialize() return end
+function LoadGameMenuGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function LoadGameMenuGameController:OnLoadSaveInGameCanceled() return end
+function LoadGameMenuGameController:OnLoadSaveInGameCanceled() end
 
----@protected
 ---@param evt gameuiRefreshGOGState
 ---@return Bool
-function LoadGameMenuGameController:OnRefreshGOGState(evt) return end
+function LoadGameMenuGameController:OnRefreshGOGState(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function LoadGameMenuGameController:OnRelease(e) return end
+function LoadGameMenuGameController:OnRelease(e) end
 
----@protected
 ---@param result Bool
 ---@param idx Int32
 ---@return Bool
-function LoadGameMenuGameController:OnSaveDeleted(result, idx) return end
+function LoadGameMenuGameController:OnSaveDeleted(result, idx) end
 
----@protected
 ---@param info inkSaveMetadataInfo
 ---@return Bool
-function LoadGameMenuGameController:OnSaveMetadataReady(info) return end
+function LoadGameMenuGameController:OnSaveMetadataReady(info) end
 
----@protected
 ---@param saves String[]
 ---@return Bool
-function LoadGameMenuGameController:OnSavesForLoadReady(saves) return end
+function LoadGameMenuGameController:OnSavesForLoadReady(saves) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function LoadGameMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function LoadGameMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function LoadGameMenuGameController:OnTransitionFinished(anim) return end
+function LoadGameMenuGameController:OnTransitionFinished(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function LoadGameMenuGameController:OnTransitionFinishedPreGame(anim) return end
+function LoadGameMenuGameController:OnTransitionFinishedPreGame(anim) end
 
----@protected
 ---@return Bool
-function LoadGameMenuGameController:OnUninitialize() return end
+function LoadGameMenuGameController:OnUninitialize() end
 
----@private
 ---@param index Int32
 ---@return nil
-function LoadGameMenuGameController:CreateLoadItem(index) return end
+function LoadGameMenuGameController:CreateLoadItem(index) end
 
----@private
 ---@return nil
-function LoadGameMenuGameController:GogLogin() return end
+function LoadGameMenuGameController:GogLogin() end
 
----@private
 ---@return nil
-function LoadGameMenuGameController:InitCrossProgression() return end
+function LoadGameMenuGameController:InitCrossProgression() end
 
----@private
 ---@param controller LoadListItem
 ---@return nil
-function LoadGameMenuGameController:LoadGame(controller) return end
+function LoadGameMenuGameController:LoadGame(controller) end
 
----@private
 ---@return nil
-function LoadGameMenuGameController:PlayLoadingAnimation() return end
+function LoadGameMenuGameController:PlayLoadingAnimation() end
 
----@private
 ---@param index Int32
 ---@param distanceFromSource Int32
 ---@param reverse Bool
 ---@return nil
-function LoadGameMenuGameController:PlayTransitionAnimOnButton(index, distanceFromSource, reverse) return end
+function LoadGameMenuGameController:PlayTransitionAnimOnButton(index, distanceFromSource, reverse) end
 
----@private
 ---@param index Int32
 ---@param delay Float
 ---@param reverse Bool
 ---@return nil
-function LoadGameMenuGameController:PlayTransitionAnimOnButton(index, delay, reverse) return end
+function LoadGameMenuGameController:PlayTransitionAnimOnButton(index, delay, reverse) end
 
----@private
 ---@param sourceIndex Int32
 ---@param reverse Bool
 ---@return nil
-function LoadGameMenuGameController:PlayTransitionAnimOnButtons(sourceIndex, reverse) return end
+function LoadGameMenuGameController:PlayTransitionAnimOnButtons(sourceIndex, reverse) end
 
----@private
 ---@return nil
-function LoadGameMenuGameController:RefreshUnfinishedItemLoads() return end
+function LoadGameMenuGameController:RefreshUnfinishedItemLoads() end
 
----@private
 ---@param saves String[]
 ---@return nil
-function LoadGameMenuGameController:SetupLoadItems(saves) return end
+function LoadGameMenuGameController:SetupLoadItems(saves) end
 
----@private
 ---@return nil
-function LoadGameMenuGameController:StopLoadingAnimation() return end
+function LoadGameMenuGameController:StopLoadingAnimation() end
 
----@private
 ---@param savesCount Int32
 ---@return nil
-function LoadGameMenuGameController:UpdateButtonHints(savesCount) return end
+function LoadGameMenuGameController:UpdateButtonHints(savesCount) end
 
----@private
 ---@return nil
-function LoadGameMenuGameController:UpdateSavesList() return end
+function LoadGameMenuGameController:UpdateSavesList() end

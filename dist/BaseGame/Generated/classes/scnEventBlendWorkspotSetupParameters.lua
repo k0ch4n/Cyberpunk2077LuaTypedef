@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scnEventBlendWorkspotSetupParameters: ISerializable
----@field public workspotId scnSceneWorkspotInstanceId
----@field public sequenceEntryId workWorkEntryId
----@field public idleOnlyMode Bool
----@field public workExcludedGestures workWorkEntryId[]
----@field public itemOverride workWorkspotItemOverride
+---@field workspotId scnSceneWorkspotInstanceId
+---@field sequenceEntryId workWorkEntryId
+---@field idleOnlyMode Bool
+---@field workExcludedGestures workWorkEntryId[]
+---@field itemOverride workWorkspotItemOverride
 scnEventBlendWorkspotSetupParameters = {}
 
 ---@param fields? scnEventBlendWorkspotSetupParameters
 ---@return scnEventBlendWorkspotSetupParameters
-function scnEventBlendWorkspotSetupParameters.new(fields) return end
+function scnEventBlendWorkspotSetupParameters.new(fields) end

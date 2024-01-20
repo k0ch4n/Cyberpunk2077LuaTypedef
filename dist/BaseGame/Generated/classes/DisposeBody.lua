@@ -5,12 +5,12 @@ DisposeBody = {}
 
 ---@param fields? DisposeBody
 ---@return DisposeBody
-function DisposeBody.new(fields) return end
+function DisposeBody.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function DisposeBody.IsDefaultConditionMet(device, context) return end
+function DisposeBody.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function DisposeBody:SetProperties() return end
+function DisposeBody:SetProperties() end

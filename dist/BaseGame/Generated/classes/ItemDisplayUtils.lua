@@ -5,7 +5,7 @@ ItemDisplayUtils = {}
 
 ---@param fields? ItemDisplayUtils
 ---@return ItemDisplayUtils
-function ItemDisplayUtils.new(fields) return end
+function ItemDisplayUtils.new(fields) end
 
 ---@param gameController inkIWidgetController
 ---@param parent inkWidget
@@ -13,7 +13,7 @@ function ItemDisplayUtils.new(fields) return end
 ---@param callBack? CName|string
 ---@param userData? IScriptable
 ---@return nil
-function ItemDisplayUtils.AsyncSpawnCommonSlot(gameController, parent, slotName, callBack, userData) return end
+function ItemDisplayUtils.AsyncSpawnCommonSlot(gameController, parent, slotName, callBack, userData) end
 
 ---@param logicController inkWidgetLogicController
 ---@param parent inkWidget
@@ -21,31 +21,31 @@ function ItemDisplayUtils.AsyncSpawnCommonSlot(gameController, parent, slotName,
 ---@param callbackName CName|string
 ---@param userData? IScriptable
 ---@return nil
-function ItemDisplayUtils.AsyncSpawnCommonSlotController(logicController, parent, slotName, callbackName, userData) return end
+function ItemDisplayUtils.AsyncSpawnCommonSlotController(logicController, parent, slotName, callbackName, userData) end
 
 ---@param gameController inkIWidgetController
 ---@param parent inkWidget
 ---@param slotName CName|string
 ---@return inkWidget
-function ItemDisplayUtils.SpawnCommonSlot(gameController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlot(gameController, parent, slotName) end
 
 ---@param logicController inkWidgetLogicController
 ---@param parent inkWidgetReference
 ---@param slotName CName|string
 ---@return inkWidget
-function ItemDisplayUtils.SpawnCommonSlot(logicController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlot(logicController, parent, slotName) end
 
 ---@param gameController inkIWidgetController
 ---@param parent inkWidgetReference
 ---@param slotName CName|string
 ---@return inkWidget
-function ItemDisplayUtils.SpawnCommonSlot(gameController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlot(gameController, parent, slotName) end
 
 ---@param logicController inkWidgetLogicController
 ---@param parent inkWidget
 ---@param slotName CName|string
 ---@return inkWidget
-function ItemDisplayUtils.SpawnCommonSlot(logicController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlot(logicController, parent, slotName) end
 
 ---@param logicController inkWidgetLogicController
 ---@param parent inkWidgetReference
@@ -53,7 +53,7 @@ function ItemDisplayUtils.SpawnCommonSlot(logicController, parent, slotName) ret
 ---@param callBack? CName|string
 ---@param userData? IScriptable
 ---@return nil
-function ItemDisplayUtils.SpawnCommonSlotAsync(logicController, parent, slotName, callBack, userData) return end
+function ItemDisplayUtils.SpawnCommonSlotAsync(logicController, parent, slotName, callBack, userData) end
 
 ---@param gameController inkIWidgetController
 ---@param parent inkWidgetReference
@@ -61,28 +61,28 @@ function ItemDisplayUtils.SpawnCommonSlotAsync(logicController, parent, slotName
 ---@param callBack? CName|string
 ---@param userData? IScriptable
 ---@return nil
-function ItemDisplayUtils.SpawnCommonSlotAsync(gameController, parent, slotName, callBack, userData) return end
+function ItemDisplayUtils.SpawnCommonSlotAsync(gameController, parent, slotName, callBack, userData) end
 
 ---@param gameController inkIWidgetController
 ---@param parent inkWidgetReference
 ---@param slotName CName|string
 ---@return inkWidgetLogicController
-function ItemDisplayUtils.SpawnCommonSlotController(gameController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlotController(gameController, parent, slotName) end
 
 ---@param logicController inkWidgetLogicController
 ---@param parent inkWidgetReference
 ---@param slotName CName|string
 ---@return inkWidgetLogicController
-function ItemDisplayUtils.SpawnCommonSlotController(logicController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlotController(logicController, parent, slotName) end
 
 ---@param logicController inkWidgetLogicController
 ---@param parent inkWidget
 ---@param slotName CName|string
 ---@return inkWidgetLogicController
-function ItemDisplayUtils.SpawnCommonSlotController(logicController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlotController(logicController, parent, slotName) end
 
 ---@param gameController inkIWidgetController
 ---@param parent inkWidget
 ---@param slotName CName|string
 ---@return inkWidgetLogicController
-function ItemDisplayUtils.SpawnCommonSlotController(gameController, parent, slotName) return end
+function ItemDisplayUtils.SpawnCommonSlotController(gameController, parent, slotName) end

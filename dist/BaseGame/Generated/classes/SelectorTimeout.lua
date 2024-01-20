@@ -5,9 +5,8 @@ SelectorTimeout = {}
 
 ---@param fields? SelectorTimeout
 ---@return SelectorTimeout
-function SelectorTimeout.new(fields) return end
+function SelectorTimeout.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function SelectorTimeout:GetTimeoutValue(context) return end
+function SelectorTimeout:GetTimeoutValue(context) end

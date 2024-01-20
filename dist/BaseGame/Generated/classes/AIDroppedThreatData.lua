@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIDroppedThreatData
----@field public threat entEntity
----@field public position Vector4
+---@field threat entEntity
+---@field position Vector4
 AIDroppedThreatData = {}
 
 ---@param fields? AIDroppedThreatData
 ---@return AIDroppedThreatData
-function AIDroppedThreatData.new(fields) return end
+function AIDroppedThreatData.new(fields) end

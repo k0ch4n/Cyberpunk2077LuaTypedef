@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class AIbehaviorGetSearchPointTaskDefinition: AIbehaviorTaskDefinition
----@field public inPlayerPositionDelay AIArgumentMapping
----@field public inSearchPositionMaxRadius AIArgumentMapping
----@field public inNearestNavmeshPolyExtent AIArgumentMapping
----@field public inPavementsOnly AIArgumentMapping
----@field public inLastKnownPosition AIArgumentMapping
----@field public outSearchPosition AIArgumentMapping
+---@field inPlayerPositionDelay AIArgumentMapping
+---@field inSearchPositionMaxRadius AIArgumentMapping
+---@field inNearestNavmeshPolyExtent AIArgumentMapping
+---@field inPavementsOnly AIArgumentMapping
+---@field inLastKnownPosition AIArgumentMapping
+---@field outSearchPosition AIArgumentMapping
 AIbehaviorGetSearchPointTaskDefinition = {}
 
 ---@param fields? AIbehaviorGetSearchPointTaskDefinition
 ---@return AIbehaviorGetSearchPointTaskDefinition
-function AIbehaviorGetSearchPointTaskDefinition.new(fields) return end
+function AIbehaviorGetSearchPointTaskDefinition.new(fields) end

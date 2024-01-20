@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class toolsMessage
----@field public severity toolsMessageSeverity
----@field public created Int64
----@field public location toolsIMessageLocation
----@field public tokens toolsIMessageToken[]
----@field public verbosity toolsMessageVerbosity
+---@field severity toolsMessageSeverity
+---@field created Int64
+---@field location toolsIMessageLocation
+---@field tokens toolsIMessageToken[]
+---@field verbosity toolsMessageVerbosity
 toolsMessage = {}
 
 ---@param fields? toolsMessage
 ---@return toolsMessage
-function toolsMessage.new(fields) return end
+function toolsMessage.new(fields) end

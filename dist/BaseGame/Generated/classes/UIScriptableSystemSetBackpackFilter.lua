@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemSetBackpackFilter: gameScriptableSystemRequest
----@field public filterMode Int32
+---@field filterMode Int32
 UIScriptableSystemSetBackpackFilter = {}
 
 ---@param fields? UIScriptableSystemSetBackpackFilter
 ---@return UIScriptableSystemSetBackpackFilter
-function UIScriptableSystemSetBackpackFilter.new(fields) return end
+function UIScriptableSystemSetBackpackFilter.new(fields) end

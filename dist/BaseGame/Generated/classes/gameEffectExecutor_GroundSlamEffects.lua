@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameEffectExecutor_GroundSlamEffects: gameEffectExecutor
----@field public groundEffect worldEffect
----@field public waterEffect worldEffect
----@field public earthquakeLevel1 worldEffect
----@field public earthquakeLevel2 worldEffect
----@field public earthquakeLevel1ChargeThreshold Float
----@field public earthquakeLevel2ChargeThreshold Float
+---@field groundEffect worldEffect
+---@field waterEffect worldEffect
+---@field earthquakeLevel1 worldEffect
+---@field earthquakeLevel2 worldEffect
+---@field earthquakeLevel1ChargeThreshold Float
+---@field earthquakeLevel2ChargeThreshold Float
 gameEffectExecutor_GroundSlamEffects = {}
 
 ---@param fields? gameEffectExecutor_GroundSlamEffects
 ---@return gameEffectExecutor_GroundSlamEffects
-function gameEffectExecutor_GroundSlamEffects.new(fields) return end
+function gameEffectExecutor_GroundSlamEffects.new(fields) end

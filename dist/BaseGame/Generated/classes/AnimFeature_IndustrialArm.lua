@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AnimFeature_IndustrialArm: animAnimFeature
----@field public idleAnimNumber Int32
----@field public isRotate Bool
----@field public isDistraction Bool
----@field public isPoke Bool
+---@field idleAnimNumber Int32
+---@field isRotate Bool
+---@field isDistraction Bool
+---@field isPoke Bool
 AnimFeature_IndustrialArm = {}
 
 ---@param fields? AnimFeature_IndustrialArm
 ---@return AnimFeature_IndustrialArm
-function AnimFeature_IndustrialArm.new(fields) return end
+function AnimFeature_IndustrialArm.new(fields) end

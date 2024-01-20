@@ -5,13 +5,13 @@ gamedataRandomStatModifier_Record = {}
 
 ---@param fields? gamedataRandomStatModifier_Record
 ---@return gamedataRandomStatModifier_Record
-function gamedataRandomStatModifier_Record.new(fields) return end
+function gamedataRandomStatModifier_Record.new(fields) end
 
 ---@return Float
-function gamedataRandomStatModifier_Record:Max() return end
+function gamedataRandomStatModifier_Record:Max() end
 
 ---@return Float
-function gamedataRandomStatModifier_Record:Min() return end
+function gamedataRandomStatModifier_Record:Min() end
 
 ---@return Bool
-function gamedataRandomStatModifier_Record:UseControlledRandom() return end
+function gamedataRandomStatModifier_Record:UseControlledRandom() end

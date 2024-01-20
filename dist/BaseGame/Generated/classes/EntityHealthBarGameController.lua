@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class EntityHealthBarGameController: gameuiWidgetGameController
----@field private healthControllerRef inkWidgetReference
----@field private healthPercentageRef inkTextWidgetReference
----@field private targetEntityRef gameEntityReference
----@field private healthStatListener EntityHealthStatListener
----@field private healthController NameplateBarLogicController
----@field private gameInstance ScriptGameInstance
----@field private targetEntityID entEntityID
+---@field healthControllerRef inkWidgetReference
+---@field healthPercentageRef inkTextWidgetReference
+---@field targetEntityRef gameEntityReference
+---@field healthStatListener EntityHealthStatListener
+---@field healthController NameplateBarLogicController
+---@field gameInstance ScriptGameInstance
+---@field targetEntityID entEntityID
 EntityHealthBarGameController = {}
 
 ---@param fields? EntityHealthBarGameController
 ---@return EntityHealthBarGameController
-function EntityHealthBarGameController.new(fields) return end
+function EntityHealthBarGameController.new(fields) end
 
----@protected
 ---@return Bool
-function EntityHealthBarGameController:OnInitialize() return end
+function EntityHealthBarGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function EntityHealthBarGameController:OnUninitialize() return end
+function EntityHealthBarGameController:OnUninitialize() end
 
----@protected
 ---@param evt questUpdateEntityHealthListenersEvent
 ---@return Bool
-function EntityHealthBarGameController:OnUpdateEntityHealthListenersEvent(evt) return end
+function EntityHealthBarGameController:OnUpdateEntityHealthListenersEvent(evt) end
 
----@private
 ---@return nil
-function EntityHealthBarGameController:RegisterHealthStatListener() return end
+function EntityHealthBarGameController:RegisterHealthStatListener() end
 
 ---@param newValue Float
 ---@return nil
-function EntityHealthBarGameController:UpdateHealthValue(newValue) return end
+function EntityHealthBarGameController:UpdateHealthValue(newValue) end

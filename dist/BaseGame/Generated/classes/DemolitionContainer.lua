@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class DemolitionContainer: BaseSkillCheckContainer
----@field public demolitionCheck DemolitionSkillCheck
+---@field demolitionCheck DemolitionSkillCheck
 DemolitionContainer = {}
 
 ---@param fields? DemolitionContainer
 ---@return DemolitionContainer
-function DemolitionContainer.new(fields) return end
+function DemolitionContainer.new(fields) end
 
 ---@param container BaseSkillCheckContainer
 ---@return nil
-function DemolitionContainer:Initialize(container) return end
+function DemolitionContainer:Initialize(container) end

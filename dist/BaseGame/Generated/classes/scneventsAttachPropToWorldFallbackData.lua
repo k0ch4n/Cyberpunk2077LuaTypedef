@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scneventsAttachPropToWorldFallbackData
----@field public owner scnPerformerId
----@field public fallbackCachedBones scneventsAttachPropToWorldCachedFallbackBone
----@field public fallbackAnimset animAnimSet
----@field public fallbackAnimationName CName
----@field public fallbackAnimTime Float
+---@field owner scnPerformerId
+---@field fallbackCachedBones scneventsAttachPropToWorldCachedFallbackBone
+---@field fallbackAnimset animAnimSet
+---@field fallbackAnimationName CName
+---@field fallbackAnimTime Float
 scneventsAttachPropToWorldFallbackData = {}
 
 ---@param fields? scneventsAttachPropToWorldFallbackData
 ---@return scneventsAttachPropToWorldFallbackData
-function scneventsAttachPropToWorldFallbackData.new(fields) return end
+function scneventsAttachPropToWorldFallbackData.new(fields) end

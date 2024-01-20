@@ -5,4 +5,4 @@ effectFilmGrainPlayData = {}
 
 ---@param fields? effectFilmGrainPlayData
 ---@return effectFilmGrainPlayData
-function effectFilmGrainPlayData.new(fields) return end
+function effectFilmGrainPlayData.new(fields) end

@@ -5,7 +5,7 @@ StaticPlatformController = {}
 
 ---@param fields? StaticPlatformController
 ---@return StaticPlatformController
-function StaticPlatformController.new(fields) return end
+function StaticPlatformController.new(fields) end
 
 ---@return StaticPlatformControllerPS
-function StaticPlatformController:GetPS() return end
+function StaticPlatformController:GetPS() end

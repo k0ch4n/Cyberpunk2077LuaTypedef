@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class PingSquad: PuppetAction
----@field private shouldForward Bool
+---@field shouldForward Bool
 PingSquad = {}
 
 ---@param fields? PingSquad
 ---@return PingSquad
-function PingSquad.new(fields) return end
+function PingSquad.new(fields) end
 
 ---@param shouldForward Bool
 ---@return nil
-function PingSquad:SetShouldForward(shouldForward) return end
+function PingSquad:SetShouldForward(shouldForward) end
 
 ---@return Bool
-function PingSquad:ShouldForward() return end
+function PingSquad:ShouldForward() end

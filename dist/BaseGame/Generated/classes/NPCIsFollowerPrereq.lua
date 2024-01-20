@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class NPCIsFollowerPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 NPCIsFollowerPrereq = {}
 
 ---@param fields? NPCIsFollowerPrereq
 ---@return NPCIsFollowerPrereq
-function NPCIsFollowerPrereq.new(fields) return end
+function NPCIsFollowerPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCIsFollowerPrereq:Initialize(recordID) return end
+function NPCIsFollowerPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCIsFollowerPrereq:IsFulfilled(context) return end
+function NPCIsFollowerPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCIsFollowerPrereq:OnApplied(state, context) return end
+function NPCIsFollowerPrereq:OnApplied(state, context) end

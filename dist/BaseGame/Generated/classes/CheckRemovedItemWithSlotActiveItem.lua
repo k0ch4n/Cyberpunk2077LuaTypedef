@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CheckRemovedItemWithSlotActiveItem: gamePlayerScriptableSystemRequest
----@field public itemID gameItemID
+---@field itemID gameItemID
 CheckRemovedItemWithSlotActiveItem = {}
 
 ---@param fields? CheckRemovedItemWithSlotActiveItem
 ---@return CheckRemovedItemWithSlotActiveItem
-function CheckRemovedItemWithSlotActiveItem.new(fields) return end
+function CheckRemovedItemWithSlotActiveItem.new(fields) end

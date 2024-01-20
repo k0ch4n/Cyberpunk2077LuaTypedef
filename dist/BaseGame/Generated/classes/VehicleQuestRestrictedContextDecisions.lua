@@ -5,10 +5,9 @@ VehicleQuestRestrictedContextDecisions = {}
 
 ---@param fields? VehicleQuestRestrictedContextDecisions
 ---@return VehicleQuestRestrictedContextDecisions
-function VehicleQuestRestrictedContextDecisions.new(fields) return end
+function VehicleQuestRestrictedContextDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function VehicleQuestRestrictedContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function VehicleQuestRestrictedContextDecisions:EnterCondition(stateContext, scriptInterface) end

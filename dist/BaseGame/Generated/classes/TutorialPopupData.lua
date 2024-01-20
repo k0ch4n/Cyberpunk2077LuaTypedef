@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class TutorialPopupData: inkGameNotificationData
----@field public closeAtInput Bool
----@field public pauseGame Bool
----@field public isModal Bool
----@field public position gamePopupPosition
----@field public margin inkMargin
----@field public imageId TweakDBID
----@field public title String
----@field public message String
----@field public messageOverrideDataList gameJournalEntryOverrideData[]
----@field public videoType gameVideoType
----@field public video redResourceReferenceScriptToken
+---@field closeAtInput Bool
+---@field pauseGame Bool
+---@field isModal Bool
+---@field position gamePopupPosition
+---@field margin inkMargin
+---@field imageId TweakDBID
+---@field title String
+---@field message String
+---@field messageOverrideDataList gameJournalEntryOverrideData[]
+---@field videoType gameVideoType
+---@field video redResourceReferenceScriptToken
 TutorialPopupData = {}
 
 ---@param fields? TutorialPopupData
 ---@return TutorialPopupData
-function TutorialPopupData.new(fields) return end
+function TutorialPopupData.new(fields) end

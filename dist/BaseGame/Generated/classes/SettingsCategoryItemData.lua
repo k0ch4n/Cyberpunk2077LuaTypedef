@@ -5,4 +5,4 @@ SettingsCategoryItemData = {}
 
 ---@param fields? SettingsCategoryItemData
 ---@return SettingsCategoryItemData
-function SettingsCategoryItemData.new(fields) return end
+function SettingsCategoryItemData.new(fields) end

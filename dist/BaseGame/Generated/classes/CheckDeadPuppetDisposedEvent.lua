@@ -5,4 +5,4 @@ CheckDeadPuppetDisposedEvent = {}
 
 ---@param fields? CheckDeadPuppetDisposedEvent
 ---@return CheckDeadPuppetDisposedEvent
-function CheckDeadPuppetDisposedEvent.new(fields) return end
+function CheckDeadPuppetDisposedEvent.new(fields) end

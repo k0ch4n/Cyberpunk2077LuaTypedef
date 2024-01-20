@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class Bounty
----@field public transgressions TweakDBID[]
----@field public bountySetter TweakDBID
----@field public bountID TweakDBID
----@field public moneyAmount Int32
----@field public streetCredAmount Int32
----@field public awarded Bool
----@field public wantedStars Int32
----@field public filteredOut Bool
+---@field transgressions TweakDBID[]
+---@field bountySetter TweakDBID
+---@field bountID TweakDBID
+---@field moneyAmount Int32
+---@field streetCredAmount Int32
+---@field awarded Bool
+---@field wantedStars Int32
+---@field filteredOut Bool
 Bounty = {}
 
 ---@param fields? Bounty
 ---@return Bounty
-function Bounty.new(fields) return end
+function Bounty.new(fields) end

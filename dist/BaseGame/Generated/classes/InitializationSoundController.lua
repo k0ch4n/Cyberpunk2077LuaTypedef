@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class InitializationSoundController: inkWidgetLogicController
----@field private soundControlName CName
----@field private initializeSoundName CName
----@field private unitializeSoundName CName
+---@field soundControlName CName
+---@field initializeSoundName CName
+---@field unitializeSoundName CName
 InitializationSoundController = {}
 
 ---@param fields? InitializationSoundController
 ---@return InitializationSoundController
-function InitializationSoundController.new(fields) return end
+function InitializationSoundController.new(fields) end
 
----@protected
 ---@return Bool
-function InitializationSoundController:OnInitialize() return end
+function InitializationSoundController:OnInitialize() end
 
----@protected
 ---@return Bool
-function InitializationSoundController:OnUninitialize() return end
+function InitializationSoundController:OnUninitialize() end

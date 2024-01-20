@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SsimpleBanerData
----@field public title String
----@field public description String
----@field public content redResourceReferenceScriptToken
+---@field title String
+---@field description String
+---@field content redResourceReferenceScriptToken
 SsimpleBanerData = {}
 
 ---@param fields? SsimpleBanerData
 ---@return SsimpleBanerData
-function SsimpleBanerData.new(fields) return end
+function SsimpleBanerData.new(fields) end

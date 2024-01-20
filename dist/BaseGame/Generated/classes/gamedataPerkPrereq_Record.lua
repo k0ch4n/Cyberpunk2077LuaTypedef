@@ -5,7 +5,7 @@ gamedataPerkPrereq_Record = {}
 
 ---@param fields? gamedataPerkPrereq_Record
 ---@return gamedataPerkPrereq_Record
-function gamedataPerkPrereq_Record.new(fields) return end
+function gamedataPerkPrereq_Record.new(fields) end
 
 ---@return String
-function gamedataPerkPrereq_Record:Perk() return end
+function gamedataPerkPrereq_Record:Perk() end

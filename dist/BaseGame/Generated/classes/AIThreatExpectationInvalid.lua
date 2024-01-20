@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIThreatExpectationInvalid: AIAIEvent
----@field public owner entEntity
----@field public threat entEntity
----@field public threatId Uint32
+---@field owner entEntity
+---@field threat entEntity
+---@field threatId Uint32
 AIThreatExpectationInvalid = {}
 
 ---@param fields? AIThreatExpectationInvalid
 ---@return AIThreatExpectationInvalid
-function AIThreatExpectationInvalid.new(fields) return end
+function AIThreatExpectationInvalid.new(fields) end

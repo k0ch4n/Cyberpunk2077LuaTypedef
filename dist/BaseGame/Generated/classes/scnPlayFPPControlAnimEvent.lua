@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class scnPlayFPPControlAnimEvent: scnPlayAnimEvent
----@field public gameplayAnimName scnAnimName
----@field public FPPControlActive Bool
----@field public blendOverride scnfppBlendOverride
----@field public cameraUseTrajectorySpace Bool
----@field public cameraBlendInDuration Float
----@field public cameraBlendOutDuration Float
----@field public stayInScene Bool
----@field public idleIsMountedWorkspot Bool
----@field public enableWorldSpaceSmoothing Bool
----@field public isSceneCarrying Bool
----@field public cameraParallaxWeight Float
----@field public cameraParallaxSpace scnfppParallaxSpace
----@field public vehicleProceduralCameraWeight Float
----@field public yawLimitLeft Float
----@field public yawLimitRight Float
----@field public pitchLimitTop Float
----@field public pitchLimitBottom Float
----@field public genderSpecificParams scnfppGenderSpecificParams[]
+---@field gameplayAnimName scnAnimName
+---@field FPPControlActive Bool
+---@field blendOverride scnfppBlendOverride
+---@field cameraUseTrajectorySpace Bool
+---@field cameraBlendInDuration Float
+---@field cameraBlendOutDuration Float
+---@field stayInScene Bool
+---@field idleIsMountedWorkspot Bool
+---@field enableWorldSpaceSmoothing Bool
+---@field isSceneCarrying Bool
+---@field cameraParallaxWeight Float
+---@field cameraParallaxSpace scnfppParallaxSpace
+---@field vehicleProceduralCameraWeight Float
+---@field yawLimitLeft Float
+---@field yawLimitRight Float
+---@field pitchLimitTop Float
+---@field pitchLimitBottom Float
+---@field genderSpecificParams scnfppGenderSpecificParams[]
 scnPlayFPPControlAnimEvent = {}
 
 ---@param fields? scnPlayFPPControlAnimEvent
 ---@return scnPlayFPPControlAnimEvent
-function scnPlayFPPControlAnimEvent.new(fields) return end
+function scnPlayFPPControlAnimEvent.new(fields) end

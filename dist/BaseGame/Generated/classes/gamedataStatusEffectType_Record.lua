@@ -5,13 +5,13 @@ gamedataStatusEffectType_Record = {}
 
 ---@param fields? gamedataStatusEffectType_Record
 ---@return gamedataStatusEffectType_Record
-function gamedataStatusEffectType_Record.new(fields) return end
+function gamedataStatusEffectType_Record.new(fields) end
 
 ---@return String
-function gamedataStatusEffectType_Record:EnumComment() return end
+function gamedataStatusEffectType_Record:EnumComment() end
 
 ---@return String
-function gamedataStatusEffectType_Record:EnumName() return end
+function gamedataStatusEffectType_Record:EnumName() end
 
 ---@return gamedataStatusEffectType
-function gamedataStatusEffectType_Record:Type() return end
+function gamedataStatusEffectType_Record:Type() end

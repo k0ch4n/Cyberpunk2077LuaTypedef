@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class NewLocationNotification: JournalNotification
----@field private districtName inkTextWidgetReference
----@field private districtIcon inkImageWidgetReference
----@field private districtFluffIcon inkImageWidgetReference
+---@field districtName inkTextWidgetReference
+---@field districtIcon inkImageWidgetReference
+---@field districtFluffIcon inkImageWidgetReference
 NewLocationNotification = {}
 
 ---@param fields? NewLocationNotification
 ---@return NewLocationNotification
-function NewLocationNotification.new(fields) return end
+function NewLocationNotification.new(fields) end
 
----@protected
 ---@return Bool
-function NewLocationNotification:OnInitialize() return end
+function NewLocationNotification:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function NewLocationNotification:OnInteractionUpdate(value) return end
+function NewLocationNotification:OnInteractionUpdate(value) end
 
----@protected
 ---@return Bool
-function NewLocationNotification:OnNotificationPaused() return end
+function NewLocationNotification:OnNotificationPaused() end
 
----@protected
 ---@return Bool
-function NewLocationNotification:OnNotificationResumed() return end
+function NewLocationNotification:OnNotificationResumed() end
 
----@protected
 ---@return Bool
-function NewLocationNotification:OnUninitialize() return end
+function NewLocationNotification:OnUninitialize() end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function NewLocationNotification:SetNotificationData(notificationData) return end
+function NewLocationNotification:SetNotificationData(notificationData) end

@@ -5,4 +5,4 @@ gameuiarcadeShooterBossMeatHead = {}
 
 ---@param fields? gameuiarcadeShooterBossMeatHead
 ---@return gameuiarcadeShooterBossMeatHead
-function gameuiarcadeShooterBossMeatHead.new(fields) return end
+function gameuiarcadeShooterBossMeatHead.new(fields) end

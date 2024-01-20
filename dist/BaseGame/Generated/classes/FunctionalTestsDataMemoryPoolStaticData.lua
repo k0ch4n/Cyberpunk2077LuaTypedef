@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class FunctionalTestsDataMemoryPoolStaticData: ISerializable
----@field public poolName String
----@field public budget Int64
----@field public childrenBudget Int64
----@field public children String[]
----@field public parent String
+---@field poolName String
+---@field budget Int64
+---@field childrenBudget Int64
+---@field children String[]
+---@field parent String
 FunctionalTestsDataMemoryPoolStaticData = {}
 
 ---@param fields? FunctionalTestsDataMemoryPoolStaticData
 ---@return FunctionalTestsDataMemoryPoolStaticData
-function FunctionalTestsDataMemoryPoolStaticData.new(fields) return end
+function FunctionalTestsDataMemoryPoolStaticData.new(fields) end

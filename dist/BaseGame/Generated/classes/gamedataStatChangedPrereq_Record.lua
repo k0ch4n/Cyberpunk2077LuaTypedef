@@ -5,13 +5,13 @@ gamedataStatChangedPrereq_Record = {}
 
 ---@param fields? gamedataStatChangedPrereq_Record
 ---@return gamedataStatChangedPrereq_Record
-function gamedataStatChangedPrereq_Record.new(fields) return end
+function gamedataStatChangedPrereq_Record.new(fields) end
 
 ---@return CName
-function gamedataStatChangedPrereq_Record:ChangeType() return end
+function gamedataStatChangedPrereq_Record:ChangeType() end
 
 ---@return CName
-function gamedataStatChangedPrereq_Record:ObjectToCheck() return end
+function gamedataStatChangedPrereq_Record:ObjectToCheck() end
 
 ---@return CName
-function gamedataStatChangedPrereq_Record:StatType() return end
+function gamedataStatChangedPrereq_Record:StatType() end

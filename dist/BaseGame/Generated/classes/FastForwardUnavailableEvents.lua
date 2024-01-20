@@ -5,9 +5,9 @@ FastForwardUnavailableEvents = {}
 
 ---@param fields? FastForwardUnavailableEvents
 ---@return FastForwardUnavailableEvents
-function FastForwardUnavailableEvents.new(fields) return end
+function FastForwardUnavailableEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FastForwardUnavailableEvents:OnEnter(stateContext, scriptInterface) return end
+function FastForwardUnavailableEvents:OnEnter(stateContext, scriptInterface) end

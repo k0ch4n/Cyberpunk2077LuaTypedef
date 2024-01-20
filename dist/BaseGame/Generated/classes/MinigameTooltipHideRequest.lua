@@ -5,4 +5,4 @@ MinigameTooltipHideRequest = {}
 
 ---@param fields? MinigameTooltipHideRequest
 ---@return MinigameTooltipHideRequest
-function MinigameTooltipHideRequest.new(fields) return end
+function MinigameTooltipHideRequest.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DamageTypeIndicator: inkWidgetLogicController
----@field private DamageIconRef inkImageWidgetReference
----@field private DamageTypeLabelRef inkTextWidgetReference
+---@field DamageIconRef inkImageWidgetReference
+---@field DamageTypeLabelRef inkTextWidgetReference
 DamageTypeIndicator = {}
 
 ---@param fields? DamageTypeIndicator
 ---@return DamageTypeIndicator
-function DamageTypeIndicator.new(fields) return end
+function DamageTypeIndicator.new(fields) end
 
 ---@param damageType gamedataDamageType
 ---@return nil
-function DamageTypeIndicator:Setup(damageType) return end
+function DamageTypeIndicator:Setup(damageType) end

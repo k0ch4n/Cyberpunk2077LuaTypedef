@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class CheckHeatStage: PreventionConditionAbstract
----@field public heatStageToCompare AIArgumentMapping
----@field public heatStageToCompareAsInteger Int32
----@field public currentHeatStageAsInteger Int32
----@field public system PreventionSystem
+---@field heatStageToCompare AIArgumentMapping
+---@field heatStageToCompareAsInteger Int32
+---@field currentHeatStageAsInteger Int32
+---@field system PreventionSystem
 CheckHeatStage = {}
 
 ---@param fields? CheckHeatStage
 ---@return CheckHeatStage
-function CheckHeatStage.new(fields) return end
+function CheckHeatStage.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckHeatStage:Check(context) return end
+function CheckHeatStage:Check(context) end

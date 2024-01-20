@@ -1,41 +1,37 @@
 ---@meta
 
 ---@class EffectExecutor_PingNetwork: gameEffectExecutor_Scripted
----@field private fxResource gameFxResource
+---@field fxResource gameFxResource
 EffectExecutor_PingNetwork = {}
 
 ---@param fields? EffectExecutor_PingNetwork
 ---@return EffectExecutor_PingNetwork
-function EffectExecutor_PingNetwork.new(fields) return end
+function EffectExecutor_PingNetwork.new(fields) end
 
----@private
 ---@param object gameObject
 ---@return gameFxResource
-function EffectExecutor_PingNetwork:GetFxResource(object) return end
+function EffectExecutor_PingNetwork:GetFxResource(object) end
 
----@protected
 ---@param ctx gameEffectScriptContext
 ---@return NetworkSystem
-function EffectExecutor_PingNetwork:GetNetworkSystem(ctx) return end
+function EffectExecutor_PingNetwork:GetNetworkSystem(ctx) end
 
----@private
 ---@param target gameObject
 ---@param source gameObject
 ---@param ctx gameEffectScriptContext
 ---@return Bool
-function EffectExecutor_PingNetwork:IsTargetValid(target, source, ctx) return end
+function EffectExecutor_PingNetwork:IsTargetValid(target, source, ctx) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function EffectExecutor_PingNetwork:Process(ctx, applierCtx) return end
+function EffectExecutor_PingNetwork:Process(ctx, applierCtx) end
 
----@private
 ---@param object gameObject
 ---@return Bool
-function EffectExecutor_PingNetwork:ShouldRevealObject(object) return end
+function EffectExecutor_PingNetwork:ShouldRevealObject(object) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return nil
-function EffectExecutor_PingNetwork:TargetLost(ctx, applierCtx) return end
+function EffectExecutor_PingNetwork:TargetLost(ctx, applierCtx) end

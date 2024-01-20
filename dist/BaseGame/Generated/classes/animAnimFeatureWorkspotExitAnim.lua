@@ -5,4 +5,4 @@ animAnimFeatureWorkspotExitAnim = {}
 
 ---@param fields? animAnimFeatureWorkspotExitAnim
 ---@return animAnimFeatureWorkspotExitAnim
-function animAnimFeatureWorkspotExitAnim.new(fields) return end
+function animAnimFeatureWorkspotExitAnim.new(fields) end

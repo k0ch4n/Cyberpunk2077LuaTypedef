@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class UI_CraftingDef: gamebbScriptDefinition
----@field public lastCommand gamebbScriptID_Variant
----@field public lastItem gamebbScriptID_Variant
----@field public lastIngredients gamebbScriptID_Variant
+---@field lastCommand gamebbScriptID_Variant
+---@field lastItem gamebbScriptID_Variant
+---@field lastIngredients gamebbScriptID_Variant
 UI_CraftingDef = {}
 
 ---@param fields? UI_CraftingDef
 ---@return UI_CraftingDef
-function UI_CraftingDef.new(fields) return end
+function UI_CraftingDef.new(fields) end
 
 ---@return Bool
-function UI_CraftingDef:AutoCreateInSystem() return end
+function UI_CraftingDef:AutoCreateInSystem() end

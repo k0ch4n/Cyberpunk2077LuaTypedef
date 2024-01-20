@@ -5,4 +5,4 @@ entRuntimeSystemEditorMeshes = {}
 
 ---@param fields? entRuntimeSystemEditorMeshes
 ---@return entRuntimeSystemEditorMeshes
-function entRuntimeSystemEditorMeshes.new(fields) return end
+function entRuntimeSystemEditorMeshes.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EMPHitEvent: redEvent
----@field public lifetime Float
+---@field lifetime Float
 EMPHitEvent = {}
 
 ---@param fields? EMPHitEvent
 ---@return EMPHitEvent
-function EMPHitEvent.new(fields) return end
+function EMPHitEvent.new(fields) end

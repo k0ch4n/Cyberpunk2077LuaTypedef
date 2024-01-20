@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CReflectionProbeDataResource: resStreamedResource
----@field public data DataBuffer
----@field public textureData rendRenderTextureResource
----@field public dataHash Uint64
----@field public haveSkyData Bool
----@field public faceDepth Float[]
+---@field data DataBuffer
+---@field textureData rendRenderTextureResource
+---@field dataHash Uint64
+---@field haveSkyData Bool
+---@field faceDepth Float[]
 CReflectionProbeDataResource = {}
 
 ---@param fields? CReflectionProbeDataResource
 ---@return CReflectionProbeDataResource
-function CReflectionProbeDataResource.new(fields) return end
+function CReflectionProbeDataResource.new(fields) end

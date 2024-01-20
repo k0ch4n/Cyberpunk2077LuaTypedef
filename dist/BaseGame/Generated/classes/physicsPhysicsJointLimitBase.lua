@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class physicsPhysicsJointLimitBase
----@field public restitution Float
----@field public bounceThreshold Float
----@field public stiffness Float
----@field public damping Float
----@field public contactDistance Float
+---@field restitution Float
+---@field bounceThreshold Float
+---@field stiffness Float
+---@field damping Float
+---@field contactDistance Float
 physicsPhysicsJointLimitBase = {}
 
 ---@param fields? physicsPhysicsJointLimitBase
 ---@return physicsPhysicsJointLimitBase
-function physicsPhysicsJointLimitBase.new(fields) return end
+function physicsPhysicsJointLimitBase.new(fields) end

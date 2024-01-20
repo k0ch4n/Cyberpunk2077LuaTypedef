@@ -5,27 +5,22 @@ sampleVisWireSlave = {}
 
 ---@param fields? sampleVisWireSlave
 ---@return sampleVisWireSlave
-function sampleVisWireSlave.new(fields) return end
+function sampleVisWireSlave.new(fields) end
 
----@protected
 ---@return Bool
-function sampleVisWireSlave:OnGameAttached() return end
+function sampleVisWireSlave:OnGameAttached() end
 
----@protected
 ---@param choice gameinteractionsChoiceEvent
 ---@return Bool
-function sampleVisWireSlave:OnInteractionChoice(choice) return end
+function sampleVisWireSlave:OnInteractionChoice(choice) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function sampleVisWireSlave:OnRequestComponents(ri) return end
+function sampleVisWireSlave:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function sampleVisWireSlave:OnTakeControl(ri) return end
+function sampleVisWireSlave:OnTakeControl(ri) end
 
----@private
 ---@return Bool
-function sampleVisWireSlave:IsModeOn() return end
+function sampleVisWireSlave:IsModeOn() end

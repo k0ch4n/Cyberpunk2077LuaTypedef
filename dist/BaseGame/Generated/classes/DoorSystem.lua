@@ -5,21 +5,18 @@ DoorSystem = {}
 
 ---@param fields? DoorSystem
 ---@return DoorSystem
-function DoorSystem.new(fields) return end
+function DoorSystem.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DoorSystem:OnRequestComponents(ri) return end
+function DoorSystem:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DoorSystem:OnTakeControl(ri) return end
+function DoorSystem:OnTakeControl(ri) end
 
----@protected
 ---@return DoorSystemController
-function DoorSystem:GetController() return end
+function DoorSystem:GetController() end
 
 ---@return DoorSystemControllerPS
-function DoorSystem:GetDevicePS() return end
+function DoorSystem:GetDevicePS() end

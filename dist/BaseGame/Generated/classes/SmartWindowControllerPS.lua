@@ -5,30 +5,24 @@ SmartWindowControllerPS = {}
 
 ---@param fields? SmartWindowControllerPS
 ---@return SmartWindowControllerPS
-function SmartWindowControllerPS.new(fields) return end
+function SmartWindowControllerPS.new(fields) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param hasActiveActions Bool
 ---@return Bool
-function SmartWindowControllerPS:DetermineGameplayViability(context, hasActiveActions) return end
+function SmartWindowControllerPS:DetermineGameplayViability(context, hasActiveActions) end
 
----@protected
 ---@return TweakDBID
-function SmartWindowControllerPS:GetBannerWidgetTweakDBID() return end
+function SmartWindowControllerPS:GetBannerWidgetTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SmartWindowControllerPS:GetFileThumbnailWidgetTweakDBID() return end
+function SmartWindowControllerPS:GetFileThumbnailWidgetTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SmartWindowControllerPS:GetFileWidgetTweakDBID() return end
+function SmartWindowControllerPS:GetFileWidgetTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SmartWindowControllerPS:GetMailThumbnailWidgetTweakDBID() return end
+function SmartWindowControllerPS:GetMailThumbnailWidgetTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function SmartWindowControllerPS:GetMailWidgetTweakDBID() return end
+function SmartWindowControllerPS:GetMailWidgetTweakDBID() end

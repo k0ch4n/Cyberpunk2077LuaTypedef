@@ -5,4 +5,4 @@ CParticleDrawerFacingTrail = {}
 
 ---@param fields? CParticleDrawerFacingTrail
 ---@return CParticleDrawerFacingTrail
-function CParticleDrawerFacingTrail.new(fields) return end
+function CParticleDrawerFacingTrail.new(fields) end

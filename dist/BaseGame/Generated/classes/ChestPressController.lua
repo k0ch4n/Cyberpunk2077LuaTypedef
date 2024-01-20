@@ -5,7 +5,7 @@ ChestPressController = {}
 
 ---@param fields? ChestPressController
 ---@return ChestPressController
-function ChestPressController.new(fields) return end
+function ChestPressController.new(fields) end
 
 ---@return ChestPressControllerPS
-function ChestPressController:GetPS() return end
+function ChestPressController:GetPS() end

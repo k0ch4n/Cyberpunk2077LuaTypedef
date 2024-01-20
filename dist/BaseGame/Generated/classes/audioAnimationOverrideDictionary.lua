@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAnimationOverrideDictionary: audioInlinedAudioMetadata
----@field public entries audioAnimationOverrideDictionaryItem[]
----@field public entryType audioAnimationOverrideDictionaryItem
+---@field entries audioAnimationOverrideDictionaryItem[]
+---@field entryType audioAnimationOverrideDictionaryItem
 audioAnimationOverrideDictionary = {}
 
 ---@param fields? audioAnimationOverrideDictionary
 ---@return audioAnimationOverrideDictionary
-function audioAnimationOverrideDictionary.new(fields) return end
+function audioAnimationOverrideDictionary.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamestateMachineparameterTypeItemUnequipRequest: IScriptable
----@field public slotId TweakDBID
----@field public itemId gameItemID
----@field public instant Bool
+---@field slotId TweakDBID
+---@field itemId gameItemID
+---@field instant Bool
 gamestateMachineparameterTypeItemUnequipRequest = {}
 
 ---@param fields? gamestateMachineparameterTypeItemUnequipRequest
 ---@return gamestateMachineparameterTypeItemUnequipRequest
-function gamestateMachineparameterTypeItemUnequipRequest.new(fields) return end
+function gamestateMachineparameterTypeItemUnequipRequest.new(fields) end

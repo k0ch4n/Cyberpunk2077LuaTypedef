@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class OrientedBox
----@field public position Vector4
----@field public ["edge 1"] Vector4
----@field public ["edge 2"] Vector4
+---@field position Vector4
+---@field ["edge 1"] Vector4
+---@field ["edge 2"] Vector4
 OrientedBox = {}
 
 ---@param fields? OrientedBox
 ---@return OrientedBox
-function OrientedBox.new(fields) return end
+function OrientedBox.new(fields) end

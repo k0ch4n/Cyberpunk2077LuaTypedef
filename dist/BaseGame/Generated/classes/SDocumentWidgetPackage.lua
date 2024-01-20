@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class SDocumentWidgetPackage: SWidgetPackage
----@field public owner String
----@field public date String
----@field public title String
----@field public content String
----@field public image TweakDBID
----@field public videoPath redResourceReferenceScriptToken
----@field public isEncrypted Bool
----@field public questInfo gamedeviceQuestInfo
----@field public wasRead Bool
----@field public documentType EDocumentType
+---@field owner String
+---@field date String
+---@field title String
+---@field content String
+---@field image TweakDBID
+---@field videoPath redResourceReferenceScriptToken
+---@field isEncrypted Bool
+---@field questInfo gamedeviceQuestInfo
+---@field wasRead Bool
+---@field documentType EDocumentType
 SDocumentWidgetPackage = {}
 
 ---@param fields? SDocumentWidgetPackage
 ---@return SDocumentWidgetPackage
-function SDocumentWidgetPackage.new(fields) return end
+function SDocumentWidgetPackage.new(fields) end

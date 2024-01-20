@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsVisibleTargetPredicate: gameinteractionsIPredicateType
----@field public stopOnTransparent Bool
+---@field stopOnTransparent Bool
 gameinteractionsVisibleTargetPredicate = {}
 
 ---@param fields? gameinteractionsVisibleTargetPredicate
 ---@return gameinteractionsVisibleTargetPredicate
-function gameinteractionsVisibleTargetPredicate.new(fields) return end
+function gameinteractionsVisibleTargetPredicate.new(fields) end

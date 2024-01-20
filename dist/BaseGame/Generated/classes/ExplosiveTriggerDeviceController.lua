@@ -5,7 +5,7 @@ ExplosiveTriggerDeviceController = {}
 
 ---@param fields? ExplosiveTriggerDeviceController
 ---@return ExplosiveTriggerDeviceController
-function ExplosiveTriggerDeviceController.new(fields) return end
+function ExplosiveTriggerDeviceController.new(fields) end
 
 ---@return ExplosiveTriggerDeviceControllerPS
-function ExplosiveTriggerDeviceController:GetPS() return end
+function ExplosiveTriggerDeviceController:GetPS() end

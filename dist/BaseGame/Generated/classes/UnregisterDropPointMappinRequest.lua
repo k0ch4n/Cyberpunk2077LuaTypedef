@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UnregisterDropPointMappinRequest: gameScriptableSystemRequest
----@field public ownerID entEntityID
----@field public removeFromSystem Bool
+---@field ownerID entEntityID
+---@field removeFromSystem Bool
 UnregisterDropPointMappinRequest = {}
 
 ---@param fields? UnregisterDropPointMappinRequest
 ---@return UnregisterDropPointMappinRequest
-function UnregisterDropPointMappinRequest.new(fields) return end
+function UnregisterDropPointMappinRequest.new(fields) end

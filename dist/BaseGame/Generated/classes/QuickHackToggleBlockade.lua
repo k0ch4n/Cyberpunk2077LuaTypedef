@@ -5,7 +5,7 @@ QuickHackToggleBlockade = {}
 
 ---@param fields? QuickHackToggleBlockade
 ---@return QuickHackToggleBlockade
-function QuickHackToggleBlockade.new(fields) return end
+function QuickHackToggleBlockade.new(fields) end
 
 ---@return String
-function QuickHackToggleBlockade:GetTweakDBChoiceRecord() return end
+function QuickHackToggleBlockade:GetTweakDBChoiceRecord() end

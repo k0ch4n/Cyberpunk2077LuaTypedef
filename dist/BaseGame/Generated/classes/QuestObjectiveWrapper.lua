@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class QuestObjectiveWrapper: ABaseQuestObjectiveWrapper
----@field private questSubObjectives QuestSubObjectiveWrapper[]
+---@field questSubObjectives QuestSubObjectiveWrapper[]
 QuestObjectiveWrapper = {}
 
 ---@param fields? QuestObjectiveWrapper
 ---@return QuestObjectiveWrapper
-function QuestObjectiveWrapper.new(fields) return end
+function QuestObjectiveWrapper.new(fields) end
 
 ---@param questSubObjective gameJournalQuestSubObjective
 ---@param subObjectiveStatus gameJournalEntryState
 ---@param isTracked Bool
 ---@param uniqueId Int32
 ---@return nil
-function QuestObjectiveWrapper:AddSubObjective(questSubObjective, subObjectiveStatus, isTracked, uniqueId) return end
+function QuestObjectiveWrapper:AddSubObjective(questSubObjective, subObjectiveStatus, isTracked, uniqueId) end
 
 ---@return QuestSubObjectiveWrapper[]
-function QuestObjectiveWrapper:GetSubObjectives() return end
+function QuestObjectiveWrapper:GetSubObjectives() end
 
 ---@return Bool
-function QuestObjectiveWrapper:IsTrackedInHierarchy() return end
+function QuestObjectiveWrapper:IsTrackedInHierarchy() end

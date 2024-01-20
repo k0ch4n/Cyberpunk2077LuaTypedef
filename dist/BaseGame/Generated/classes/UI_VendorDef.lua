@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class UI_VendorDef: gamebbScriptDefinition
----@field public VendorData gamebbScriptID_Variant
+---@field VendorData gamebbScriptID_Variant
 UI_VendorDef = {}
 
 ---@param fields? UI_VendorDef
 ---@return UI_VendorDef
-function UI_VendorDef.new(fields) return end
+function UI_VendorDef.new(fields) end
 
 ---@return Bool
-function UI_VendorDef:AutoCreateInSystem() return end
+function UI_VendorDef:AutoCreateInSystem() end

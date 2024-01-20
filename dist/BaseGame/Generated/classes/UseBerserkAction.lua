@@ -5,7 +5,7 @@ UseBerserkAction = {}
 
 ---@param fields? UseBerserkAction
 ---@return UseBerserkAction
-function UseBerserkAction.new(fields) return end
+function UseBerserkAction.new(fields) end
 
 ---@return nil
-function UseBerserkAction:StartAction() return end
+function UseBerserkAction:StartAction() end

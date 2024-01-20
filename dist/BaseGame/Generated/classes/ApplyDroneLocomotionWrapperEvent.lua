@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ApplyDroneLocomotionWrapperEvent: redEvent
----@field public movementType CName
+---@field movementType CName
 ApplyDroneLocomotionWrapperEvent = {}
 
 ---@param fields? ApplyDroneLocomotionWrapperEvent
 ---@return ApplyDroneLocomotionWrapperEvent
-function ApplyDroneLocomotionWrapperEvent.new(fields) return end
+function ApplyDroneLocomotionWrapperEvent.new(fields) end

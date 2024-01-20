@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class MinimapDataNode: worldNode
----@field public encodedShapesRef minimapEncodedShapes
----@field public streamingDistance Float
----@field public localBounds Box
----@field public allInteriorShapes Bool
+---@field encodedShapesRef minimapEncodedShapes
+---@field streamingDistance Float
+---@field localBounds Box
+---@field allInteriorShapes Bool
 MinimapDataNode = {}
 
 ---@param fields? MinimapDataNode
 ---@return MinimapDataNode
-function MinimapDataNode.new(fields) return end
+function MinimapDataNode.new(fields) end

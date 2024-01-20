@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerVisionModeControllerInvalidateEvent: redEvent
----@field public active Bool
+---@field active Bool
 PlayerVisionModeControllerInvalidateEvent = {}
 
 ---@param fields? PlayerVisionModeControllerInvalidateEvent
 ---@return PlayerVisionModeControllerInvalidateEvent
-function PlayerVisionModeControllerInvalidateEvent.new(fields) return end
+function PlayerVisionModeControllerInvalidateEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CreateCustomBlackboardEvent: redEvent
----@field public blackboardDef CustomBlackboardDef
----@field public blackboard gameIBlackboard
+---@field blackboardDef CustomBlackboardDef
+---@field blackboard gameIBlackboard
 CreateCustomBlackboardEvent = {}
 
 ---@param fields? CreateCustomBlackboardEvent
 ---@return CreateCustomBlackboardEvent
-function CreateCustomBlackboardEvent.new(fields) return end
+function CreateCustomBlackboardEvent.new(fields) end

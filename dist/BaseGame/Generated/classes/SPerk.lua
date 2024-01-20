@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SPerk
----@field public type gamedataPerkType
----@field public currLevel Int32
+---@field type gamedataPerkType
+---@field currLevel Int32
 SPerk = {}
 
 ---@param fields? SPerk
 ---@return SPerk
-function SPerk.new(fields) return end
+function SPerk.new(fields) end

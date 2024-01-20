@@ -5,4 +5,4 @@ DisassembleEvent = {}
 
 ---@param fields? DisassembleEvent
 ---@return DisassembleEvent
-function DisassembleEvent.new(fields) return end
+function DisassembleEvent.new(fields) end

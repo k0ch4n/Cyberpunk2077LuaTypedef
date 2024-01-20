@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class OverrideScannerPreset: redEvent
----@field public scannerPreset TweakDBID
+---@field scannerPreset TweakDBID
 OverrideScannerPreset = {}
 
 ---@param fields? OverrideScannerPreset
 ---@return OverrideScannerPreset
-function OverrideScannerPreset.new(fields) return end
+function OverrideScannerPreset.new(fields) end
 
 ---@return String
-function OverrideScannerPreset:GetFriendlyDescription() return end
+function OverrideScannerPreset:GetFriendlyDescription() end

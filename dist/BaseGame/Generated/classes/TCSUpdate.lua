@@ -5,4 +5,4 @@ TCSUpdate = {}
 
 ---@param fields? TCSUpdate
 ---@return TCSUpdate
-function TCSUpdate.new(fields) return end
+function TCSUpdate.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkRollingListController: inkListController
----@field public itemsToDisplay Int32
----@field public convexity Float
----@field public verticalCompression Float
----@field public scrollTime Float
+---@field itemsToDisplay Int32
+---@field convexity Float
+---@field verticalCompression Float
+---@field scrollTime Float
 inkRollingListController = {}
 
 ---@param fields? inkRollingListController
 ---@return inkRollingListController
-function inkRollingListController.new(fields) return end
+function inkRollingListController.new(fields) end

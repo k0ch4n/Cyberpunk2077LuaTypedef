@@ -5,4 +5,4 @@ entSlotAttachment = {}
 
 ---@param fields? entSlotAttachment
 ---@return entSlotAttachment
-function entSlotAttachment.new(fields) return end
+function entSlotAttachment.new(fields) end

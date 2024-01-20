@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioUiControlMap: audioAudioMetadata
----@field public uiControlsByName audioKeyUiControlDictionary
+---@field uiControlsByName audioKeyUiControlDictionary
 audioUiControlMap = {}
 
 ---@param fields? audioUiControlMap
 ---@return audioUiControlMap
-function audioUiControlMap.new(fields) return end
+function audioUiControlMap.new(fields) end

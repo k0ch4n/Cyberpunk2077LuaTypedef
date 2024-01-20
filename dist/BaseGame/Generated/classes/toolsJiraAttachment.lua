@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class toolsJiraAttachment
----@field public id String
----@field public filename String
----@field public content String
----@field public thumbnail String
+---@field id String
+---@field filename String
+---@field content String
+---@field thumbnail String
 toolsJiraAttachment = {}
 
 ---@param fields? toolsJiraAttachment
 ---@return toolsJiraAttachment
-function toolsJiraAttachment.new(fields) return end
+function toolsJiraAttachment.new(fields) end

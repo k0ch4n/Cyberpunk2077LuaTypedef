@@ -1,186 +1,159 @@
 ---@meta
 
 ---@class TvInkGameController: DeviceInkGameControllerBase
----@field private defaultUI inkCanvasWidget
----@field private securedUI inkCanvasWidget
----@field private channellTextWidget inkTextWidget
----@field private securedTextWidget inkTextWidget
----@field protected mainDisplayWidget inkVideoWidget
----@field private actionsList inkWidget
----@field private activeChannelIDX Int32
----@field private activeSequence SequenceVideo[]
----@field private activeSequenceVideo Int32
----@field private globalTVChannels inkWidget[]
----@field protected messegeWidget inkTextWidget
----@field protected backgroundWidget inkLeafWidget
----@field private previousGlobalTVChannelID Int32
----@field private globalTVchanellsCount Int32
----@field private globalTVchanellsSpawned Int32
----@field private globalTVslot inkWidget
----@field private activeAudio CName
----@field private activeMessage gamedataScreenMessageData_Record
----@field private onChangeChannelListener redCallbackObject
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field defaultUI inkCanvasWidget
+---@field securedUI inkCanvasWidget
+---@field channellTextWidget inkTextWidget
+---@field securedTextWidget inkTextWidget
+---@field mainDisplayWidget inkVideoWidget
+---@field actionsList inkWidget
+---@field activeChannelIDX Int32
+---@field activeSequence SequenceVideo[]
+---@field activeSequenceVideo Int32
+---@field globalTVChannels inkWidget[]
+---@field messegeWidget inkTextWidget
+---@field backgroundWidget inkLeafWidget
+---@field previousGlobalTVChannelID Int32
+---@field globalTVchanellsCount Int32
+---@field globalTVchanellsSpawned Int32
+---@field globalTVslot inkWidget
+---@field activeAudio CName
+---@field activeMessage gamedataScreenMessageData_Record
+---@field onChangeChannelListener redCallbackObject
+---@field onGlitchingStateChangedListener redCallbackObject
 TvInkGameController = {}
 
 ---@param fields? TvInkGameController
 ---@return TvInkGameController
-function TvInkGameController.new(fields) return end
+function TvInkGameController.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function TvInkGameController:OnChangeChannel(value) return end
+function TvInkGameController:OnChangeChannel(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function TvInkGameController:OnGLobalChannelSpawned(widget, userData) return end
+function TvInkGameController:OnGLobalChannelSpawned(widget, userData) end
 
----@protected
 ---@param e inkCallbackData
 ---@return Bool
-function TvInkGameController:OnMessageTextureCallback(e) return end
+function TvInkGameController:OnMessageTextureCallback(e) end
 
----@protected
 ---@return Bool
-function TvInkGameController:OnUninitialize() return end
+function TvInkGameController:OnUninitialize() end
 
----@protected
 ---@param target inkVideoWidget
 ---@return Bool
-function TvInkGameController:OnVideoFinished(target) return end
+function TvInkGameController:OnVideoFinished(target) end
 
----@private
 ---@param colorArray Int32[]
 ---@return Color
-function TvInkGameController:GetColorFromArray(colorArray) return end
+function TvInkGameController:GetColorFromArray(colorArray) end
 
----@private
 ---@return inkWidget
-function TvInkGameController:GetGlobalTVSlot() return end
+function TvInkGameController:GetGlobalTVSlot() end
 
----@private
 ---@param messageID TweakDBID|string
 ---@return gamedataScreenMessageData_Record
-function TvInkGameController:GetMessageRecord(messageID) return end
+function TvInkGameController:GetMessageRecord(messageID) end
 
----@protected
 ---@return TV
-function TvInkGameController:GetOwner() return end
+function TvInkGameController:GetOwner() end
 
----@private
 ---@return nil
-function TvInkGameController:HideAllGlobalTVChannels() return end
+function TvInkGameController:HideAllGlobalTVChannels() end
 
----@private
 ---@param channelID TweakDBID|string
 ---@return nil
-function TvInkGameController:HideGlobalTVChannel(channelID) return end
+function TvInkGameController:HideGlobalTVChannel(channelID) end
 
----@private
 ---@return nil
-function TvInkGameController:InitializeGlobalTV() return end
+function TvInkGameController:InitializeGlobalTV() end
 
----@private
 ---@param channel STvChannel
 ---@return Bool
-function TvInkGameController:IsGlobalTVChannel(channel) return end
+function TvInkGameController:IsGlobalTVChannel(channel) end
 
----@private
 ---@return Bool
-function TvInkGameController:IsGlobalTVInitialized() return end
+function TvInkGameController:IsGlobalTVInitialized() end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@param audioEvent CName|string
 ---@return nil
-function TvInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
+function TvInkGameController:PlayVideo(videoPath, looped, audioEvent) end
 
 ---@param state EDeviceStatus
 ---@return nil
-function TvInkGameController:Refresh(state) return end
+function TvInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function TvInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function TvInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@private
 ---@param id Int32
 ---@return nil
-function TvInkGameController:RegisterTvChannel(id) return end
+function TvInkGameController:RegisterTvChannel(id) end
 
----@protected
 ---@param record gamedataScreenMessageData_Record
 ---@return nil
-function TvInkGameController:ResolveMessegeRecord(record) return end
+function TvInkGameController:ResolveMessegeRecord(record) end
 
----@private
 ---@param value Int32
 ---@param force? Bool
 ---@return nil
-function TvInkGameController:SelectChannel(value, force) return end
+function TvInkGameController:SelectChannel(value, force) end
 
----@private
 ---@param imageWidget inkImageWidget
 ---@param textureID TweakDBID|string
 ---@return nil
-function TvInkGameController:SetBackgroundTexture(imageWidget, textureID) return end
+function TvInkGameController:SetBackgroundTexture(imageWidget, textureID) end
 
----@private
 ---@param imageWidget inkImageWidget
 ---@param textureRecord gamedataUIIcon_Record
 ---@return nil
-function TvInkGameController:SetBackgroundTexture(imageWidget, textureRecord) return end
+function TvInkGameController:SetBackgroundTexture(imageWidget, textureRecord) end
 
----@private
 ---@param imageWidgetRef inkImageWidgetReference
 ---@param textureRecord gamedataUIIcon_Record
 ---@return nil
-function TvInkGameController:SetBackgroundTexture(imageWidgetRef, textureRecord) return end
+function TvInkGameController:SetBackgroundTexture(imageWidgetRef, textureRecord) end
 
 ---@param channelName String
 ---@return nil
-function TvInkGameController:SetChannellText(channelName) return end
+function TvInkGameController:SetChannellText(channelName) end
 
 ---@param text String
 ---@return nil
-function TvInkGameController:SetSecuredText(text) return end
+function TvInkGameController:SetSecuredText(text) end
 
----@protected
 ---@return nil
-function TvInkGameController:SetupWidgets() return end
+function TvInkGameController:SetupWidgets() end
 
----@private
 ---@param channelID TweakDBID|string
 ---@return Bool
-function TvInkGameController:ShowGlobalTVChannel(channelID) return end
+function TvInkGameController:ShowGlobalTVChannel(channelID) end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function TvInkGameController:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function TvInkGameController:StopGlitchingScreen() return end
+function TvInkGameController:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function TvInkGameController:StopVideo() return end
+function TvInkGameController:StopGlitchingScreen() end
 
 ---@return nil
-function TvInkGameController:TurnOff() return end
+function TvInkGameController:StopVideo() end
 
 ---@return nil
-function TvInkGameController:TurnOn() return end
+function TvInkGameController:TurnOff() end
 
----@protected
+---@return nil
+function TvInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function TvInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function TvInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
----@private
 ---@return Bool
-function TvInkGameController:WasGlobalTVinitalizationTrigered() return end
+function TvInkGameController:WasGlobalTVinitalizationTrigered() end

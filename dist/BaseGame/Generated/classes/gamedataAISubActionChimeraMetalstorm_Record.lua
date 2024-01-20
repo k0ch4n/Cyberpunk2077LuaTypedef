@@ -5,4 +5,4 @@ gamedataAISubActionChimeraMetalstorm_Record = {}
 
 ---@param fields? gamedataAISubActionChimeraMetalstorm_Record
 ---@return gamedataAISubActionChimeraMetalstorm_Record
-function gamedataAISubActionChimeraMetalstorm_Record.new(fields) return end
+function gamedataAISubActionChimeraMetalstorm_Record.new(fields) end

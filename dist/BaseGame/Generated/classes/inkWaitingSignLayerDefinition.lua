@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class inkWaitingSignLayerDefinition: inkLayerDefinition
----@field public introAnimName CName
----@field public waitingAnimName CName
----@field public outroAnimName CName
----@field public delayTime Float
----@field public introTime Float
----@field public waitingTime Float
----@field public postWaitTime Float
----@field public outroTime Float
+---@field introAnimName CName
+---@field waitingAnimName CName
+---@field outroAnimName CName
+---@field delayTime Float
+---@field introTime Float
+---@field waitingTime Float
+---@field postWaitTime Float
+---@field outroTime Float
 inkWaitingSignLayerDefinition = {}
 
 ---@param fields? inkWaitingSignLayerDefinition
 ---@return inkWaitingSignLayerDefinition
-function inkWaitingSignLayerDefinition.new(fields) return end
+function inkWaitingSignLayerDefinition.new(fields) end

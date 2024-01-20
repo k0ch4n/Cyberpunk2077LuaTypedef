@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class DelayedVisibilityInAnimSystemRequest: gameScriptableSystemRequest
----@field public data ForcedVisibilityInAnimSystemData
----@field public isVisible Bool
----@field public entityID entEntityID
+---@field data ForcedVisibilityInAnimSystemData
+---@field isVisible Bool
+---@field entityID entEntityID
 DelayedVisibilityInAnimSystemRequest = {}
 
 ---@param fields? DelayedVisibilityInAnimSystemRequest
 ---@return DelayedVisibilityInAnimSystemRequest
-function DelayedVisibilityInAnimSystemRequest.new(fields) return end
+function DelayedVisibilityInAnimSystemRequest.new(fields) end

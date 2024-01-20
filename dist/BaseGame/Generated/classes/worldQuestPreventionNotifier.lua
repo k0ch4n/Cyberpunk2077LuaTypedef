@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldQuestPreventionNotifier: worldITriggerAreaNotifer
----@field public type worldQuestPreventionNotifierType
----@field public activation worldQuestPreventionNotifierActivation
+---@field type worldQuestPreventionNotifierType
+---@field activation worldQuestPreventionNotifierActivation
 worldQuestPreventionNotifier = {}
 
 ---@param fields? worldQuestPreventionNotifier
 ---@return worldQuestPreventionNotifier
-function worldQuestPreventionNotifier.new(fields) return end
+function worldQuestPreventionNotifier.new(fields) end

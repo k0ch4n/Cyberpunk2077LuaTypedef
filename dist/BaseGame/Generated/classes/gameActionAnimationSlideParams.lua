@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class gameActionAnimationSlideParams
----@field public distance Float
----@field public directionAngle Float
----@field public finalRotationAngle Float
----@field public offsetToTarget Float
----@field public offsetAroundTarget Float
----@field public slideToTarget Bool
----@field public duration Float
----@field public positionSpeed Float
----@field public rotationSpeed Float
----@field public maxSlidePositionDistance Float
----@field public maxSlideRotationAngle Float
----@field public slideStartDelay Float
----@field public usePositionSlide Bool
----@field public useRotationSlide Bool
----@field public maxTargetVelocity Float
----@field public zAlignmentThreshold Float
+---@field distance Float
+---@field directionAngle Float
+---@field finalRotationAngle Float
+---@field offsetToTarget Float
+---@field offsetAroundTarget Float
+---@field slideToTarget Bool
+---@field duration Float
+---@field positionSpeed Float
+---@field rotationSpeed Float
+---@field maxSlidePositionDistance Float
+---@field maxSlideRotationAngle Float
+---@field slideStartDelay Float
+---@field usePositionSlide Bool
+---@field useRotationSlide Bool
+---@field maxTargetVelocity Float
+---@field zAlignmentThreshold Float
 gameActionAnimationSlideParams = {}
 
 ---@param fields? gameActionAnimationSlideParams
 ---@return gameActionAnimationSlideParams
-function gameActionAnimationSlideParams.new(fields) return end
+function gameActionAnimationSlideParams.new(fields) end

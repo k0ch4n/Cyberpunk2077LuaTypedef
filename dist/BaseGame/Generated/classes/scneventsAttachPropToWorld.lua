@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class scneventsAttachPropToWorld: scnSceneEvent
----@field public propId scnPropId
----@field public offsetMode scnOffsetMode
----@field public customOffsetPos Vector3
----@field public customOffsetRot Quaternion
----@field public referencePerformer scnPerformerId
----@field public referencePerformerSlotId TweakDBID
----@field public referencePerformerItemId TweakDBID
----@field public fallbackData scneventsAttachPropToWorldFallbackData[]
+---@field propId scnPropId
+---@field offsetMode scnOffsetMode
+---@field customOffsetPos Vector3
+---@field customOffsetRot Quaternion
+---@field referencePerformer scnPerformerId
+---@field referencePerformerSlotId TweakDBID
+---@field referencePerformerItemId TweakDBID
+---@field fallbackData scneventsAttachPropToWorldFallbackData[]
 scneventsAttachPropToWorld = {}
 
 ---@param fields? scneventsAttachPropToWorld
 ---@return scneventsAttachPropToWorld
-function scneventsAttachPropToWorld.new(fields) return end
+function scneventsAttachPropToWorld.new(fields) end

@@ -1,45 +1,42 @@
 ---@meta
 
 ---@class NewItemTooltipAttachmentEntryController: inkWidgetLogicController
----@field protected text inkTextWidgetReference
----@field protected attunementContainer inkWidgetReference
----@field protected attunementText inkTextWidgetReference
----@field protected attunementIcon inkImageWidgetReference
----@field protected settings userSettingsUserSettings
----@field protected settingsListener NewItemTooltipAttachmentEntrySettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field protected isCrafting Bool
+---@field text inkTextWidgetReference
+---@field attunementContainer inkWidgetReference
+---@field attunementText inkTextWidgetReference
+---@field attunementIcon inkImageWidgetReference
+---@field settings userSettingsUserSettings
+---@field settingsListener NewItemTooltipAttachmentEntrySettingsListener
+---@field groupPath CName
+---@field bigFontEnabled Bool
+---@field isCrafting Bool
 NewItemTooltipAttachmentEntryController = {}
 
 ---@param fields? NewItemTooltipAttachmentEntryController
 ---@return NewItemTooltipAttachmentEntryController
-function NewItemTooltipAttachmentEntryController.new(fields) return end
+function NewItemTooltipAttachmentEntryController.new(fields) end
 
----@protected
 ---@return Bool
-function NewItemTooltipAttachmentEntryController:OnInitialize() return end
+function NewItemTooltipAttachmentEntryController:OnInitialize() end
 
 ---@param isCrafting Bool
 ---@return nil
-function NewItemTooltipAttachmentEntryController:GetContext(isCrafting) return end
+function NewItemTooltipAttachmentEntryController:GetContext(isCrafting) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function NewItemTooltipAttachmentEntryController:NewSetTooltipSize(value) return end
+function NewItemTooltipAttachmentEntryController:NewSetTooltipSize(value) end
 
----@private
 ---@return nil
-function NewItemTooltipAttachmentEntryController:NewUpdateTooltipSize() return end
+function NewItemTooltipAttachmentEntryController:NewUpdateTooltipSize() end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function NewItemTooltipAttachmentEntryController:OnVarModified(groupPath, varName, varType, reason) return end
+function NewItemTooltipAttachmentEntryController:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@param data NewItemTooltipAttachmentEntryData
 ---@return nil
-function NewItemTooltipAttachmentEntryController:SetData(data) return end
+function NewItemTooltipAttachmentEntryController:SetData(data) end

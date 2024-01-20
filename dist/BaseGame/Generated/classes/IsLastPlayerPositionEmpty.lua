@@ -5,9 +5,8 @@ IsLastPlayerPositionEmpty = {}
 
 ---@param fields? IsLastPlayerPositionEmpty
 ---@return IsLastPlayerPositionEmpty
-function IsLastPlayerPositionEmpty.new(fields) return end
+function IsLastPlayerPositionEmpty.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsLastPlayerPositionEmpty:Check(context) return end
+function IsLastPlayerPositionEmpty:Check(context) end

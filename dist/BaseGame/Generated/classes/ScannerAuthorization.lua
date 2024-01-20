@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class ScannerAuthorization: ScannerChunk
----@field private keycard Bool
----@field private password Bool
+---@field keycard Bool
+---@field password Bool
 ScannerAuthorization = {}
 
 ---@param fields? ScannerAuthorization
 ---@return ScannerAuthorization
-function ScannerAuthorization.new(fields) return end
+function ScannerAuthorization.new(fields) end
 
 ---@return Bool
-function ScannerAuthorization:ProtectedByKeycard() return end
+function ScannerAuthorization:ProtectedByKeycard() end
 
 ---@return Bool
-function ScannerAuthorization:ProtectedByPassword() return end
+function ScannerAuthorization:ProtectedByPassword() end
 
 ---@param key Bool
 ---@param pass Bool
 ---@return nil
-function ScannerAuthorization:Set(key, pass) return end
+function ScannerAuthorization:Set(key, pass) end

@@ -5,4 +5,4 @@ gameeventsResurrectEvent = {}
 
 ---@param fields? gameeventsResurrectEvent
 ---@return gameeventsResurrectEvent
-function gameeventsResurrectEvent.new(fields) return end
+function gameeventsResurrectEvent.new(fields) end

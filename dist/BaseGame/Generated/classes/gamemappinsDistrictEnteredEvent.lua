@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gamemappinsDistrictEnteredEvent: gameScriptableSystemRequest
----@field public entered Bool
----@field public sendNewLocationNotification Bool
----@field public district TweakDBID
+---@field entered Bool
+---@field sendNewLocationNotification Bool
+---@field district TweakDBID
 gamemappinsDistrictEnteredEvent = {}
 
 ---@param fields? gamemappinsDistrictEnteredEvent
 ---@return gamemappinsDistrictEnteredEvent
-function gamemappinsDistrictEnteredEvent.new(fields) return end
+function gamemappinsDistrictEnteredEvent.new(fields) end

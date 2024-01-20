@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameGodModeEntityData
----@field public overrides gameGodModeData[]
----@field public base gameGodModeData[]
+---@field overrides gameGodModeData[]
+---@field base gameGodModeData[]
 gameGodModeEntityData = {}
 
 ---@param fields? gameGodModeEntityData
 ---@return gameGodModeEntityData
-function gameGodModeEntityData.new(fields) return end
+function gameGodModeEntityData.new(fields) end

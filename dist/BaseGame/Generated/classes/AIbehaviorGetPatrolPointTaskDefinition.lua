@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorGetPatrolPointTaskDefinition: AIbehaviorTaskDefinition
----@field public inPatrolDistance AIArgumentMapping
----@field public inLastKnownPosition AIArgumentMapping
----@field public outFollowTrailPoint AIArgumentMapping
+---@field inPatrolDistance AIArgumentMapping
+---@field inLastKnownPosition AIArgumentMapping
+---@field outFollowTrailPoint AIArgumentMapping
 AIbehaviorGetPatrolPointTaskDefinition = {}
 
 ---@param fields? AIbehaviorGetPatrolPointTaskDefinition
 ---@return AIbehaviorGetPatrolPointTaskDefinition
-function AIbehaviorGetPatrolPointTaskDefinition.new(fields) return end
+function AIbehaviorGetPatrolPointTaskDefinition.new(fields) end

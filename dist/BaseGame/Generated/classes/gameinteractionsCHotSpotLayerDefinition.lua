@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameinteractionsCHotSpotLayerDefinition: gameinteractionsNodeDefinition
----@field public enabled Bool
----@field public tag CName
----@field public group gameinteractionsEGroupType
----@field public priorityMultiplier Float
----@field public areaFilterDefinition gameinteractionsCHotSpotAreaFilterDefinition
----@field public gameLogicFilterDefinition gameinteractionsCHotSpotGameLogicFilterDefinition
+---@field enabled Bool
+---@field tag CName
+---@field group gameinteractionsEGroupType
+---@field priorityMultiplier Float
+---@field areaFilterDefinition gameinteractionsCHotSpotAreaFilterDefinition
+---@field gameLogicFilterDefinition gameinteractionsCHotSpotGameLogicFilterDefinition
 gameinteractionsCHotSpotLayerDefinition = {}
 
 ---@param fields? gameinteractionsCHotSpotLayerDefinition
 ---@return gameinteractionsCHotSpotLayerDefinition
-function gameinteractionsCHotSpotLayerDefinition.new(fields) return end
+function gameinteractionsCHotSpotLayerDefinition.new(fields) end

@@ -1,138 +1,122 @@
 ---@meta
 
 ---@class CooldownStorage: IScriptable
----@field private owner PSOwnerData
----@field private initialized EBOOL
----@field private gameInstanceHack ScriptGameInstance
----@field private packages CooldownPackage[]
----@field private currentID Uint32
----@field private map CooldownPackageDelayIDs[]
+---@field owner PSOwnerData
+---@field initialized EBOOL
+---@field gameInstanceHack ScriptGameInstance
+---@field packages CooldownPackage[]
+---@field currentID Uint32
+---@field map CooldownPackageDelayIDs[]
 CooldownStorage = {}
 
 ---@param fields? CooldownStorage
 ---@return CooldownStorage
-function CooldownStorage.new(fields) return end
+function CooldownStorage.new(fields) end
 
----@private
 ---@return CooldownStorageID
-function CooldownStorage:AttachUniqueLabel() return end
+function CooldownStorage:AttachUniqueLabel() end
 
 ---@param id CooldownStorageID
 ---@return Bool
-function CooldownStorage:CancelCooldown(id) return end
+function CooldownStorage:CancelCooldown(id) end
 
 ---@param action TweakDBID|string
 ---@return Bool
-function CooldownStorage:CancelCooldown(action) return end
+function CooldownStorage:CancelCooldown(action) end
 
----@private
 ---@param package CooldownPackage
 ---@return nil
-function CooldownStorage:CancelDelayEvents(package) return end
+function CooldownStorage:CancelDelayEvents(package) end
 
----@private
 ---@param id CooldownStorageID
 ---@return Int32
-function CooldownStorage:FindMapEntry(id) return end
+function CooldownStorage:FindMapEntry(id) end
 
----@private
 ---@param package CooldownPackage
 ---@return Int32
-function CooldownStorage:FindMapEntry(package) return end
+function CooldownStorage:FindMapEntry(package) end
 
----@private
 ---@param actionID TweakDBID|string
 ---@return Int32
-function CooldownStorage:FindPackageIndexByAction(actionID) return end
+function CooldownStorage:FindPackageIndexByAction(actionID) end
 
----@private
 ---@param label CooldownStorageID
 ---@return Int32
-function CooldownStorage:FindPackageIndexByID(label) return end
+function CooldownStorage:FindPackageIndexByID(label) end
 
----@private
 ---@param id Uint32
 ---@return CooldownStorageID
-function CooldownStorage:GenerateLabel(id) return end
+function CooldownStorage:GenerateLabel(id) end
 
 ---@param label CooldownStorageID
 ---@return CooldownPackage
-function CooldownStorage:GetPackage(label) return end
+function CooldownStorage:GetPackage(label) end
 
----@private
 ---@param action TweakDBID|string
 ---@return CooldownPackage
-function CooldownStorage:GetPackage(action) return end
+function CooldownStorage:GetPackage(action) end
 
 ---@param id gamePersistentID
 ---@param className CName|string
 ---@return nil
-function CooldownStorage:Initialize(id, className) return end
+function CooldownStorage:Initialize(id, className) end
 
 ---@param action TweakDBID|string
 ---@return Bool
-function CooldownStorage:IsActionReady(action) return end
+function CooldownStorage:IsActionReady(action) end
 
 ---@param id CooldownStorageID
 ---@return Bool
-function CooldownStorage:IsActionReady(id) return end
+function CooldownStorage:IsActionReady(id) end
 
----@private
 ---@param index Int32
 ---@return Bool
-function CooldownStorage:IsActionReady(index) return end
+function CooldownStorage:IsActionReady(index) end
 
 ---@return EBOOL
-function CooldownStorage:IsInitialized() return end
+function CooldownStorage:IsInitialized() end
 
 ---@param actionID TweakDBID|string
 ---@return Bool
-function CooldownStorage:ManuallyTriggerCooldown(actionID) return end
+function CooldownStorage:ManuallyTriggerCooldown(actionID) end
 
----@private
 ---@param request CooldownRequest
 ---@return CooldownStorageID
-function CooldownStorage:ProcessNewPackage(request) return end
+function CooldownStorage:ProcessNewPackage(request) end
 
----@private
 ---@param label CooldownStorageID
 ---@return Bool
-function CooldownStorage:RemoveCooldown(label) return end
+function CooldownStorage:RemoveCooldown(label) end
 
----@private
 ---@param action TweakDBID|string
 ---@return Bool
-function CooldownStorage:RemoveCooldown(action) return end
+function CooldownStorage:RemoveCooldown(action) end
 
----@private
 ---@param index Int32
 ---@return Bool
-function CooldownStorage:RemoveCooldown(index) return end
+function CooldownStorage:RemoveCooldown(index) end
 
----@private
 ---@param index Int32
 ---@return Bool
-function CooldownStorage:RemoveMapEntry(index) return end
+function CooldownStorage:RemoveMapEntry(index) end
 
 ---@param evt ActionCooldownEvent
 ---@return nil
-function CooldownStorage:ResolveCooldownEvent(evt) return end
+function CooldownStorage:ResolveCooldownEvent(evt) end
 
 ---@param request CooldownRequest
 ---@return CooldownStorageID
-function CooldownStorage:StartCooldownRequest(request) return end
+function CooldownStorage:StartCooldownRequest(request) end
 
 ---@param action BaseScriptableAction
 ---@return CooldownStorageID
-function CooldownStorage:StartSimpleCooldown(action) return end
+function CooldownStorage:StartSimpleCooldown(action) end
 
----@private
 ---@param package CooldownPackage
 ---@return nil
-function CooldownStorage:TriggerPackageListeners(package) return end
+function CooldownStorage:TriggerPackageListeners(package) end
 
----@private
 ---@param label CooldownStorageID
 ---@param ids gameDelayID[]
 ---@return nil
-function CooldownStorage:UpdateMap(label, ids) return end
+function CooldownStorage:UpdateMap(label, ids) end

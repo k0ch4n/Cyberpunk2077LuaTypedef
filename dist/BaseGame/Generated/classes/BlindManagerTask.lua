@@ -5,14 +5,12 @@ BlindManagerTask = {}
 
 ---@param fields? BlindManagerTask
 ---@return BlindManagerTask
-function BlindManagerTask.new(fields) return end
+function BlindManagerTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function BlindManagerTask:Activate(context) return end
+function BlindManagerTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function BlindManagerTask:Deactivate(context) return end
+function BlindManagerTask:Deactivate(context) end

@@ -5,4 +5,4 @@ AIbehaviorWaitStunnedConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitStunnedConditionDefinition
 ---@return AIbehaviorWaitStunnedConditionDefinition
-function AIbehaviorWaitStunnedConditionDefinition.new(fields) return end
+function AIbehaviorWaitStunnedConditionDefinition.new(fields) end

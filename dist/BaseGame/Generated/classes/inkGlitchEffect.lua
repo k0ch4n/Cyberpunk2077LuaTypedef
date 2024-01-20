@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class inkGlitchEffect: inkIEffect
----@field public intensity Float
----@field public offsetX Float
----@field public offsetY Float
----@field public sizeX Float
----@field public sizeY Float
+---@field intensity Float
+---@field offsetX Float
+---@field offsetY Float
+---@field sizeX Float
+---@field sizeY Float
 inkGlitchEffect = {}
 
 ---@param fields? inkGlitchEffect
 ---@return inkGlitchEffect
-function inkGlitchEffect.new(fields) return end
+function inkGlitchEffect.new(fields) end

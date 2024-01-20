@@ -5,7 +5,7 @@ ServerOverload = {}
 
 ---@param fields? ServerOverload
 ---@return ServerOverload
-function ServerOverload.new(fields) return end
+function ServerOverload.new(fields) end
 
 ---@return nil
-function ServerOverload:SetProperties() return end
+function ServerOverload:SetProperties() end

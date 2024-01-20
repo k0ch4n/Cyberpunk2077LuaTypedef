@@ -5,12 +5,10 @@ DoorSystemControllerPS = {}
 
 ---@param fields? DoorSystemControllerPS
 ---@return DoorSystemControllerPS
-function DoorSystemControllerPS.new(fields) return end
+function DoorSystemControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function DoorSystemControllerPS:OnInstantiated() return end
+function DoorSystemControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function DoorSystemControllerPS:Initialize() return end
+function DoorSystemControllerPS:Initialize() end

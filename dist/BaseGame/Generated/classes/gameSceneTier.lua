@@ -5,17 +5,17 @@ gameSceneTier = {}
 
 ---@param fields? gameSceneTier
 ---@return gameSceneTier
-function gameSceneTier.new(fields) return end
+function gameSceneTier.new(fields) end
 
 ---@return Bool
-function gameSceneTier:GetForceEmptyHands() return end
+function gameSceneTier:GetForceEmptyHands() end
 
 ---@return GameplayTier
-function gameSceneTier:GetTier() return end
+function gameSceneTier:GetTier() end
 
 ---@return gameSceneTierData
-function gameSceneTier:GetTierData() return end
+function gameSceneTier:GetTierData() end
 
 ---@param tierData gameSceneTierData
 ---@return nil
-function gameSceneTier:SetTierData(tierData) return end
+function gameSceneTier:SetTierData(tierData) end

@@ -1,62 +1,53 @@
 ---@meta
 
 ---@class CurrencyNotification: GenericNotificationController
----@field private CurrencyUpdateAnimation CName
----@field private CurrencyDiff inkTextWidgetReference
----@field private CurrencyTotal inkTextWidgetReference
----@field private total_animator inkTextValueProgressAnimationController
----@field private currencyData gameuiCurrencyUpdateNotificationViewData
----@field private animProxy inkanimProxy
----@field private animState CurrencyNotificationAnimState
----@field private blackboard gameIBlackboard
----@field private uiSystemBB UI_SystemDef
----@field private uiSystemId redCallbackObject
+---@field CurrencyUpdateAnimation CName
+---@field CurrencyDiff inkTextWidgetReference
+---@field CurrencyTotal inkTextWidgetReference
+---@field total_animator inkTextValueProgressAnimationController
+---@field currencyData gameuiCurrencyUpdateNotificationViewData
+---@field animProxy inkanimProxy
+---@field animState CurrencyNotificationAnimState
+---@field blackboard gameIBlackboard
+---@field uiSystemBB UI_SystemDef
+---@field uiSystemId redCallbackObject
 CurrencyNotification = {}
 
 ---@param fields? CurrencyNotification
 ---@return CurrencyNotification
-function CurrencyNotification.new(fields) return end
+function CurrencyNotification.new(fields) end
 
----@protected
 ---@return Bool
-function CurrencyNotification:OnDataUpdate() return end
+function CurrencyNotification:OnDataUpdate() end
 
----@protected
 ---@return Bool
-function CurrencyNotification:OnInitialize() return end
+function CurrencyNotification:OnInitialize() end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function CurrencyNotification:OnIntoOver(e) return end
+function CurrencyNotification:OnIntoOver(e) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function CurrencyNotification:OnMainAnimationOver(e) return end
+function CurrencyNotification:OnMainAnimationOver(e) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function CurrencyNotification:OnMenuUpdate(value) return end
+function CurrencyNotification:OnMenuUpdate(value) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function CurrencyNotification:OnOutroOver(e) return end
+function CurrencyNotification:OnOutroOver(e) end
 
----@protected
 ---@return Bool
-function CurrencyNotification:OnUninitialize() return end
+function CurrencyNotification:OnUninitialize() end
 
----@private
 ---@return nil
-function CurrencyNotification:PlayActiveAnim() return end
+function CurrencyNotification:PlayActiveAnim() end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function CurrencyNotification:SetNotificationData(notificationData) return end
+function CurrencyNotification:SetNotificationData(notificationData) end
 
----@private
 ---@return nil
-function CurrencyNotification:UpdateData() return end
+function CurrencyNotification:UpdateData() end

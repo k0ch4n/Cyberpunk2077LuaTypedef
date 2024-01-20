@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UIActionEvent: redEvent
----@field public action gamedeviceAction
----@field public executor gameObject
+---@field action gamedeviceAction
+---@field executor gameObject
 UIActionEvent = {}
 
 ---@param fields? UIActionEvent
 ---@return UIActionEvent
-function UIActionEvent.new(fields) return end
+function UIActionEvent.new(fields) end

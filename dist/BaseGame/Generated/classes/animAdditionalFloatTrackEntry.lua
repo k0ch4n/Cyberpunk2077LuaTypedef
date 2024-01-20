@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAdditionalFloatTrackEntry: ISerializable
----@field public name CName
----@field public trackInfo animFloatTrackInfo
----@field public values curveData
+---@field name CName
+---@field trackInfo animFloatTrackInfo
+---@field values curveData
 animAdditionalFloatTrackEntry = {}
 
 ---@param fields? animAdditionalFloatTrackEntry
 ---@return animAdditionalFloatTrackEntry
-function animAdditionalFloatTrackEntry.new(fields) return end
+function animAdditionalFloatTrackEntry.new(fields) end

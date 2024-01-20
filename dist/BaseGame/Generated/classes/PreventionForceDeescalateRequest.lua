@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PreventionForceDeescalateRequest: gameScriptableSystemRequest
----@field public fakeBlinkingDuration Float
----@field public telemetryInfo String
+---@field fakeBlinkingDuration Float
+---@field telemetryInfo String
 PreventionForceDeescalateRequest = {}
 
 ---@param fields? PreventionForceDeescalateRequest
 ---@return PreventionForceDeescalateRequest
-function PreventionForceDeescalateRequest.new(fields) return end
+function PreventionForceDeescalateRequest.new(fields) end

@@ -5,4 +5,4 @@ worldFoliageNodeInstance = {}
 
 ---@param fields? worldFoliageNodeInstance
 ---@return worldFoliageNodeInstance
-function worldFoliageNodeInstance.new(fields) return end
+function worldFoliageNodeInstance.new(fields) end

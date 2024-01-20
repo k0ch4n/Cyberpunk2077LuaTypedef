@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animRigRetarget
----@field public sourceRig animRig
+---@field sourceRig animRig
 animRigRetarget = {}
 
 ---@param fields? animRigRetarget
 ---@return animRigRetarget
-function animRigRetarget.new(fields) return end
+function animRigRetarget.new(fields) end

@@ -1,80 +1,63 @@
 ---@meta
 
 ---@class MenuScenario_SingleplayerMenu: MenuScenario_PreGameSubMenu
----@field private expansionHintShown Bool
+---@field expansionHintShown Bool
 MenuScenario_SingleplayerMenu = {}
 
 ---@param fields? MenuScenario_SingleplayerMenu
 ---@return MenuScenario_SingleplayerMenu
-function MenuScenario_SingleplayerMenu.new(fields) return end
+function MenuScenario_SingleplayerMenu.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnBuyGame() return end
+function MenuScenario_SingleplayerMenu:OnBuyGame() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnCloseSettings() return end
+function MenuScenario_SingleplayerMenu:OnCloseSettings() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnCreditsPicker() return end
+function MenuScenario_SingleplayerMenu:OnCreditsPicker() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnDebug() return end
+function MenuScenario_SingleplayerMenu:OnDebug() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_SingleplayerMenu:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnExpansionHint() return end
+function MenuScenario_SingleplayerMenu:OnExpansionHint() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnGOGProfile() return end
+function MenuScenario_SingleplayerMenu:OnGOGProfile() end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnLeaveScenario(nextScenario) return end
+function MenuScenario_SingleplayerMenu:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnLoadGame() return end
+function MenuScenario_SingleplayerMenu:OnLoadGame() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnMainMenuBack() return end
+function MenuScenario_SingleplayerMenu:OnMainMenuBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnNewGame() return end
+function MenuScenario_SingleplayerMenu:OnNewGame() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnSwitchToCredits() return end
+function MenuScenario_SingleplayerMenu:OnSwitchToCredits() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnSwitchToCreditsEp1() return end
+function MenuScenario_SingleplayerMenu:OnSwitchToCreditsEp1() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnSwitchToDlc() return end
+function MenuScenario_SingleplayerMenu:OnSwitchToDlc() end
 
----@protected
 ---@return Bool
-function MenuScenario_SingleplayerMenu:OnSwitchToSettings() return end
+function MenuScenario_SingleplayerMenu:OnSwitchToSettings() end
 
----@protected
 ---@return nil
-function MenuScenario_SingleplayerMenu:DisplayGog() return end
+function MenuScenario_SingleplayerMenu:DisplayGog() end
 
----@protected
 ---@return nil
-function MenuScenario_SingleplayerMenu:OnSubmenuOpen() return end
+function MenuScenario_SingleplayerMenu:OnSubmenuOpen() end

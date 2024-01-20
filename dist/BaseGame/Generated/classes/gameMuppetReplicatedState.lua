@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class gameMuppetReplicatedState: netIEntityState
----@field public state gameMuppetState
----@field public initialOrientation EulerAngles
----@field public initialLocation Vector3
----@field public health Float
----@field public armor Float
+---@field state gameMuppetState
+---@field initialOrientation EulerAngles
+---@field initialLocation Vector3
+---@field health Float
+---@field armor Float
 gameMuppetReplicatedState = {}
 
 ---@param fields? gameMuppetReplicatedState
 ---@return gameMuppetReplicatedState
-function gameMuppetReplicatedState.new(fields) return end
+function gameMuppetReplicatedState.new(fields) end
 
 ---@param compressedInputStates gameMuppetCompressedInputStates
 ---@return nil
-function gameMuppetReplicatedState:Muppet_ReplicateInputStates(compressedInputStates) return end
+function gameMuppetReplicatedState:Muppet_ReplicateInputStates(compressedInputStates) end
 
 ---@param loadoutTBID TweakDBID|string
 ---@return nil
-function gameMuppetReplicatedState:Muppet_UseLoadout(loadoutTBID) return end
+function gameMuppetReplicatedState:Muppet_UseLoadout(loadoutTBID) end

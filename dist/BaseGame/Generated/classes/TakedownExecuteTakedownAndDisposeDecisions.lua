@@ -5,10 +5,9 @@ TakedownExecuteTakedownAndDisposeDecisions = {}
 
 ---@param fields? TakedownExecuteTakedownAndDisposeDecisions
 ---@return TakedownExecuteTakedownAndDisposeDecisions
-function TakedownExecuteTakedownAndDisposeDecisions.new(fields) return end
+function TakedownExecuteTakedownAndDisposeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownExecuteTakedownAndDisposeDecisions:ExitCondition(stateContext, scriptInterface) return end
+function TakedownExecuteTakedownAndDisposeDecisions:ExitCondition(stateContext, scriptInterface) end

@@ -5,24 +5,24 @@ TogglePlay = {}
 
 ---@param fields? TogglePlay
 ---@return TogglePlay
-function TogglePlay.new(fields) return end
+function TogglePlay.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function TogglePlay.IsAvailable(device) return end
+function TogglePlay.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function TogglePlay.IsClearanceValid(clearance) return end
+function TogglePlay.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function TogglePlay.IsDefaultConditionMet(device, context) return end
+function TogglePlay.IsDefaultConditionMet(device, context) end
 
 ---@return TweakDBID
-function TogglePlay:GetInkWidgetTweakDBID() return end
+function TogglePlay:GetInkWidgetTweakDBID() end
 
 ---@param isPlaying Bool
 ---@return nil
-function TogglePlay:SetProperties(isPlaying) return end
+function TogglePlay:SetProperties(isPlaying) end

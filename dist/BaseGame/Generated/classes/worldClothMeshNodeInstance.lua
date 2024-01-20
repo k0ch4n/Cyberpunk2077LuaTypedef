@@ -5,4 +5,4 @@ worldClothMeshNodeInstance = {}
 
 ---@param fields? worldClothMeshNodeInstance
 ---@return worldClothMeshNodeInstance
-function worldClothMeshNodeInstance.new(fields) return end
+function worldClothMeshNodeInstance.new(fields) end

@@ -1,44 +1,37 @@
 ---@meta
 
 ---@class DebugInteractionObject: gameObject
----@field private choices SDebugChoice[]
----@field private interaction gameinteractionsComponent
+---@field choices SDebugChoice[]
+---@field interaction gameinteractionsComponent
 DebugInteractionObject = {}
 
 ---@param fields? DebugInteractionObject
 ---@return DebugInteractionObject
-function DebugInteractionObject.new(fields) return end
+function DebugInteractionObject.new(fields) end
 
----@protected
 ---@return Bool
-function DebugInteractionObject:OnGameAttached() return end
+function DebugInteractionObject:OnGameAttached() end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function DebugInteractionObject:OnInteractionChoice(choiceEvent) return end
+function DebugInteractionObject:OnInteractionChoice(choiceEvent) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DebugInteractionObject:OnRequestComponents(ri) return end
+function DebugInteractionObject:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DebugInteractionObject:OnTakeControl(ri) return end
+function DebugInteractionObject:OnTakeControl(ri) end
 
----@private
 ---@param choiceName String
 ---@param data Int32
 ---@return gameinteractionsChoice
-function DebugInteractionObject:CreateChoice(choiceName, data) return end
+function DebugInteractionObject:CreateChoice(choiceName, data) end
 
----@private
 ---@return nil
-function DebugInteractionObject:InitializeChoices() return end
+function DebugInteractionObject:InitializeChoices() end
 
----@private
 ---@param factName String
 ---@return nil
-function DebugInteractionObject:ResolveFact(factName) return end
+function DebugInteractionObject:ResolveFact(factName) end

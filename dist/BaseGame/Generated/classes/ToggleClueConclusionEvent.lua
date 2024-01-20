@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class ToggleClueConclusionEvent: redEvent
----@field public toggleConclusion Bool
----@field public clueID Int32
----@field public updatePS Bool
+---@field toggleConclusion Bool
+---@field clueID Int32
+---@field updatePS Bool
 ToggleClueConclusionEvent = {}
 
 ---@param fields? ToggleClueConclusionEvent
 ---@return ToggleClueConclusionEvent
-function ToggleClueConclusionEvent.new(fields) return end
+function ToggleClueConclusionEvent.new(fields) end
 
 ---@return String
-function ToggleClueConclusionEvent:GetFriendlyDescription() return end
+function ToggleClueConclusionEvent:GetFriendlyDescription() end

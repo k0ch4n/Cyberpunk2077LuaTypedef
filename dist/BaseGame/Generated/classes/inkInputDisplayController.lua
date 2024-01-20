@@ -1,41 +1,41 @@
 ---@meta
 
 ---@class inkInputDisplayController: inkWidgetLogicController
----@field public iconRef inkWidgetReference
----@field public iconAND inkTextWidgetReference
----@field public nameRef inkWidgetReference
----@field public canvasRef inkWidgetReference
----@field public holdIndicatorContainerRef inkCompoundWidgetReference
----@field public gamepadHoldIndicatorLibraryRef inkWidgetLibraryReference
----@field public keyboardHoldIndicatorLibraryRef inkWidgetLibraryReference
----@field public holdIndicationType inkInputHintHoldIndicationType
----@field public inputActionName CName
----@field public fixedIconHeight Float
+---@field iconRef inkWidgetReference
+---@field iconAND inkTextWidgetReference
+---@field nameRef inkWidgetReference
+---@field canvasRef inkWidgetReference
+---@field holdIndicatorContainerRef inkCompoundWidgetReference
+---@field gamepadHoldIndicatorLibraryRef inkWidgetLibraryReference
+---@field keyboardHoldIndicatorLibraryRef inkWidgetLibraryReference
+---@field holdIndicationType inkInputHintHoldIndicationType
+---@field inputActionName CName
+---@field fixedIconHeight Float
 inkInputDisplayController = {}
 
 ---@param fields? inkInputDisplayController
 ---@return inkInputDisplayController
-function inkInputDisplayController.new(fields) return end
+function inkInputDisplayController.new(fields) end
 
 ---@return CName
-function inkInputDisplayController:GetInputAction() return end
+function inkInputDisplayController:GetInputAction() end
 
 ---@param fixedIconHeight Float
 ---@return nil
-function inkInputDisplayController:SetFixedIconHeight(fixedIconHeight) return end
+function inkInputDisplayController:SetFixedIconHeight(fixedIconHeight) end
 
 ---@param type inkInputHintHoldIndicationType
 ---@return nil
-function inkInputDisplayController:SetHoldIndicatorType(type) return end
+function inkInputDisplayController:SetHoldIndicatorType(type) end
 
 ---@param actionName CName|string
 ---@return nil
-function inkInputDisplayController:SetInputAction(actionName) return end
+function inkInputDisplayController:SetInputAction(actionName) end
 
 ---@param inputKeyData inkInputKeyData
 ---@return nil
-function inkInputDisplayController:SetInputKey(inputKeyData) return end
+function inkInputDisplayController:SetInputKey(inputKeyData) end
 
 ---@param visible Bool
 ---@return nil
-function inkInputDisplayController:SetVisible(visible) return end
+function inkInputDisplayController:SetVisible(visible) end

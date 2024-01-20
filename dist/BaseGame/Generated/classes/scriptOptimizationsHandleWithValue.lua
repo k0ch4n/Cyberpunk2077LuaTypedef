@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scriptOptimizationsHandleWithValue
----@field public value Float
----@field public handle IScriptable
+---@field value Float
+---@field handle IScriptable
 scriptOptimizationsHandleWithValue = {}
 
 ---@param fields? scriptOptimizationsHandleWithValue
 ---@return scriptOptimizationsHandleWithValue
-function scriptOptimizationsHandleWithValue.new(fields) return end
+function scriptOptimizationsHandleWithValue.new(fields) end

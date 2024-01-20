@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scnAnimationRid
----@field public tag scnRidTag
----@field public animation animAnimation
----@field public events animEventsContainer
----@field public motionExtracted Bool
----@field public offset Transform
----@field public bonesCount Uint32
----@field public trajectoryBoneIndex Int32
+---@field tag scnRidTag
+---@field animation animAnimation
+---@field events animEventsContainer
+---@field motionExtracted Bool
+---@field offset Transform
+---@field bonesCount Uint32
+---@field trajectoryBoneIndex Int32
 scnAnimationRid = {}
 
 ---@param fields? scnAnimationRid
 ---@return scnAnimationRid
-function scnAnimationRid.new(fields) return end
+function scnAnimationRid.new(fields) end

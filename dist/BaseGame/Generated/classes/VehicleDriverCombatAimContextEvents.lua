@@ -5,16 +5,14 @@ VehicleDriverCombatAimContextEvents = {}
 
 ---@param fields? VehicleDriverCombatAimContextEvents
 ---@return VehicleDriverCombatAimContextEvents
-function VehicleDriverCombatAimContextEvents.new(fields) return end
+function VehicleDriverCombatAimContextEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleDriverCombatAimContextEvents:OnEnter(stateContext, scriptInterface) return end
+function VehicleDriverCombatAimContextEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VehicleDriverCombatAimContextEvents:OnExit(stateContext, scriptInterface) return end
+function VehicleDriverCombatAimContextEvents:OnExit(stateContext, scriptInterface) end

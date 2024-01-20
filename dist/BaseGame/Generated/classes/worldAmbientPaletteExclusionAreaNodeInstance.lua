@@ -5,4 +5,4 @@ worldAmbientPaletteExclusionAreaNodeInstance = {}
 
 ---@param fields? worldAmbientPaletteExclusionAreaNodeInstance
 ---@return worldAmbientPaletteExclusionAreaNodeInstance
-function worldAmbientPaletteExclusionAreaNodeInstance.new(fields) return end
+function worldAmbientPaletteExclusionAreaNodeInstance.new(fields) end

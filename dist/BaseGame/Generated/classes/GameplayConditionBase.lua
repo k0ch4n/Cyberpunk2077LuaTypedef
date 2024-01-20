@@ -1,22 +1,21 @@
 ---@meta
 
 ---@class GameplayConditionBase: IScriptable
----@field protected entityID entEntityID
+---@field entityID entEntityID
 GameplayConditionBase = {}
 
 ---@param requester gameObject
 ---@return Bool
-function GameplayConditionBase:Evaluate(requester) return end
+function GameplayConditionBase:Evaluate(requester) end
 
 ---@param requester gameObject
 ---@return Condition
-function GameplayConditionBase:GetDescription(requester) return end
+function GameplayConditionBase:GetDescription(requester) end
 
----@protected
 ---@param requester gameObject
 ---@return gameObject
-function GameplayConditionBase:GetPlayer(requester) return end
+function GameplayConditionBase:GetPlayer(requester) end
 
 ---@param id entEntityID
 ---@return nil
-function GameplayConditionBase:SetEntityID(id) return end
+function GameplayConditionBase:SetEntityID(id) end

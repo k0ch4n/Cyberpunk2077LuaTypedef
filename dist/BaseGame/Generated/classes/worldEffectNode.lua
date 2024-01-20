@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldEffectNode: worldNode
----@field public effect worldEffect
----@field public streamingDistanceOverride Float
+---@field effect worldEffect
+---@field streamingDistanceOverride Float
 worldEffectNode = {}
 
 ---@param fields? worldEffectNode
 ---@return worldEffectNode
-function worldEffectNode.new(fields) return end
+function worldEffectNode.new(fields) end

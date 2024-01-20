@@ -5,4 +5,4 @@ questCreditsForceStopped_ConditionType = {}
 
 ---@param fields? questCreditsForceStopped_ConditionType
 ---@return questCreditsForceStopped_ConditionType
-function questCreditsForceStopped_ConditionType.new(fields) return end
+function questCreditsForceStopped_ConditionType.new(fields) end

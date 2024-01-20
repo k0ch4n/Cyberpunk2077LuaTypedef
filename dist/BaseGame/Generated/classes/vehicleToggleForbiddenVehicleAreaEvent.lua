@@ -5,4 +5,4 @@ vehicleToggleForbiddenVehicleAreaEvent = {}
 
 ---@param fields? vehicleToggleForbiddenVehicleAreaEvent
 ---@return vehicleToggleForbiddenVehicleAreaEvent
-function vehicleToggleForbiddenVehicleAreaEvent.new(fields) return end
+function vehicleToggleForbiddenVehicleAreaEvent.new(fields) end

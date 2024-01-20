@@ -1,42 +1,42 @@
 ---@meta
 
 ---@class gamePersistentID
----@field public entityHash Uint64
----@field public componentName CName
+---@field entityHash Uint64
+---@field componentName CName
 gamePersistentID = {}
 
 ---@param fields? gamePersistentID
 ---@return gamePersistentID
-function gamePersistentID.new(fields) return end
+function gamePersistentID.new(fields) end
 
 ---@param id gamePersistentID
 ---@return entEntityID
-function gamePersistentID.ExtractEntityID(id) return end
+function gamePersistentID.ExtractEntityID(id) end
 
 ---@param id gamePersistentID
 ---@return CName
-function gamePersistentID.GetComponentName(id) return end
+function gamePersistentID.GetComponentName(id) end
 
 ---@param id gamePersistentID
 ---@return Bool
-function gamePersistentID.IsComponent(id) return end
+function gamePersistentID.IsComponent(id) end
 
 ---@param id gamePersistentID
 ---@return Bool
-function gamePersistentID.IsDefined(id) return end
+function gamePersistentID.IsDefined(id) end
 
 ---@param id gamePersistentID
 ---@return Bool
-function gamePersistentID.IsDynamic(id) return end
+function gamePersistentID.IsDynamic(id) end
 
 ---@param id gamePersistentID
 ---@return Bool
-function gamePersistentID.IsEntity(id) return end
+function gamePersistentID.IsEntity(id) end
 
 ---@param id gamePersistentID
 ---@return Bool
-function gamePersistentID.IsStatic(id) return end
+function gamePersistentID.IsStatic(id) end
 
 ---@param id gamePersistentID
 ---@return String
-function gamePersistentID.ToDebugString(id) return end
+function gamePersistentID.ToDebugString(id) end

@@ -5,4 +5,4 @@ gamePlayerCommandConsumerComponent = {}
 
 ---@param fields? gamePlayerCommandConsumerComponent
 ---@return gamePlayerCommandConsumerComponent
-function gamePlayerCommandConsumerComponent.new(fields) return end
+function gamePlayerCommandConsumerComponent.new(fields) end

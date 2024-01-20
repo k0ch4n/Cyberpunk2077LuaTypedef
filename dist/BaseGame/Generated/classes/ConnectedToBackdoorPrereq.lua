@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class ConnectedToBackdoorPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 ConnectedToBackdoorPrereq = {}
 
 ---@param fields? ConnectedToBackdoorPrereq
 ---@return ConnectedToBackdoorPrereq
-function ConnectedToBackdoorPrereq.new(fields) return end
+function ConnectedToBackdoorPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function ConnectedToBackdoorPrereq:Initialize(recordID) return end
+function ConnectedToBackdoorPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function ConnectedToBackdoorPrereq:IsFulfilled(context) return end
+function ConnectedToBackdoorPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ConnectedToBackdoorPrereq:OnRegister(state, context) return end
+function ConnectedToBackdoorPrereq:OnRegister(state, context) end

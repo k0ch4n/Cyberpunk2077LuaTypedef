@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CComStaticSkeletonData
----@field public entries CComStaticSkeletonDataEntry[]
+---@field entries CComStaticSkeletonDataEntry[]
 CComStaticSkeletonData = {}
 
 ---@param fields? CComStaticSkeletonData
 ---@return CComStaticSkeletonData
-function CComStaticSkeletonData.new(fields) return end
+function CComStaticSkeletonData.new(fields) end

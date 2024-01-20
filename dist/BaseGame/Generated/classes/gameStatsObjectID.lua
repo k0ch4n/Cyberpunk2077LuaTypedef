@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class gameStatsObjectID
----@field public entityHash Uint64
----@field public idType gameStatIDType
+---@field entityHash Uint64
+---@field idType gameStatIDType
 gameStatsObjectID = {}
 
 ---@param fields? gameStatsObjectID
 ---@return gameStatsObjectID
-function gameStatsObjectID.new(fields) return end
+function gameStatsObjectID.new(fields) end
 
 ---@param id gameStatsObjectID
 ---@return entEntityID
-function gameStatsObjectID.ExtractEntityID(id) return end
+function gameStatsObjectID.ExtractEntityID(id) end
 
 ---@param id gameStatsObjectID
 ---@return Bool
-function gameStatsObjectID.IsDefined(id) return end
+function gameStatsObjectID.IsDefined(id) end
 
 ---@param id gameStatsObjectID
 ---@return Bool
-function gameStatsObjectID.IsDynamic(id) return end
+function gameStatsObjectID.IsDynamic(id) end
 
 ---@param id gameStatsObjectID
 ---@return Bool
-function gameStatsObjectID.IsEntity(id) return end
+function gameStatsObjectID.IsEntity(id) end

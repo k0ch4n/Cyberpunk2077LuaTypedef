@@ -5,9 +5,8 @@ MinigameGenerationRulePredefinedBoard = {}
 
 ---@param fields? MinigameGenerationRulePredefinedBoard
 ---@return MinigameGenerationRulePredefinedBoard
-function MinigameGenerationRulePredefinedBoard.new(fields) return end
+function MinigameGenerationRulePredefinedBoard.new(fields) end
 
----@protected
 ---@param size Uint32
 ---@return Bool, gameuiGridCell[][] grid
-function MinigameGenerationRulePredefinedBoard:OnProcessRule(size) return end
+function MinigameGenerationRulePredefinedBoard:OnProcessRule(size) end

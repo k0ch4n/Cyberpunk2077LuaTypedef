@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TaggedObjectsListDef: gamebbScriptDefinition
----@field public taggedObjectsList gamebbScriptID_Variant
+---@field taggedObjectsList gamebbScriptID_Variant
 TaggedObjectsListDef = {}
 
 ---@param fields? TaggedObjectsListDef
 ---@return TaggedObjectsListDef
-function TaggedObjectsListDef.new(fields) return end
+function TaggedObjectsListDef.new(fields) end
 
 ---@return Bool
-function TaggedObjectsListDef:AutoCreateInSystem() return end
+function TaggedObjectsListDef:AutoCreateInSystem() end

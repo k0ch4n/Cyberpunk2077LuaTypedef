@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIRemovedAsHostileThreat: AIAIEvent
----@field public threateningEntity AITargetTrackerComponent
----@field public threateningEntityCanTriggersCombat Bool
+---@field threateningEntity AITargetTrackerComponent
+---@field threateningEntityCanTriggersCombat Bool
 AIRemovedAsHostileThreat = {}
 
 ---@param fields? AIRemovedAsHostileThreat
 ---@return AIRemovedAsHostileThreat
-function AIRemovedAsHostileThreat.new(fields) return end
+function AIRemovedAsHostileThreat.new(fields) end

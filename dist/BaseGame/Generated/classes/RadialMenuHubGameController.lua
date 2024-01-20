@@ -1,172 +1,146 @@
 ---@meta
 
 ---@class RadialMenuHubGameController: gameuiMenuGameController
----@field private menusData MenuDataBuilder
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private menuCtrl RadialMenuHubLogicController
----@field private metaCtrl MetaQuestLogicController
----@field private subMenuCtrl RadialSubMenuPanelLogicController
----@field private timeCtrl RadialHubTimeSkipController
----@field private player PlayerPuppet
----@field private playerDevSystem PlayerDevelopmentSystem
----@field private transaction gameTransactionSystem
----@field private playerStatsBlackboard gameIBlackboard
----@field private hubMenuBlackboard gameIBlackboard
----@field private characterCredListener redCallbackObject
----@field private characterLevelListener redCallbackObject
----@field private characterCurrentXPListener redCallbackObject
----@field private characterCredPointsListener redCallbackObject
----@field private weightListener redCallbackObject
----@field private maxWeightListener redCallbackObject
----@field private submenuHiddenListener redCallbackObject
----@field private metaQuestStatusListener redCallbackObject
----@field private journalManager gameJournalManager
----@field private trackedEntry gameJournalQuestObjective
----@field private trackedPhase gameJournalQuestPhase
----@field private trackedQuest gameJournalQuest
----@field private notificationRoot inkWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private bgFluff inkWidgetReference
----@field private dataManager PlayerDevelopmentDataManager
----@field private buttonHintsController ButtonHints
----@field private gameTimeContainer inkWidgetReference
----@field private gameTimeController gameuiTimeDisplayLogicController
----@field private inventoryListener gameInventoryScriptListener
----@field private callback CurrencyUpdateCallback
----@field public hubMenuInstanceID Uint32
----@field public previousRequest OpenMenuRequest
----@field public currentRequest OpenMenuRequest
+---@field menusData MenuDataBuilder
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field menuCtrl RadialMenuHubLogicController
+---@field metaCtrl MetaQuestLogicController
+---@field subMenuCtrl RadialSubMenuPanelLogicController
+---@field timeCtrl RadialHubTimeSkipController
+---@field player PlayerPuppet
+---@field playerDevSystem PlayerDevelopmentSystem
+---@field transaction gameTransactionSystem
+---@field playerStatsBlackboard gameIBlackboard
+---@field hubMenuBlackboard gameIBlackboard
+---@field characterCredListener redCallbackObject
+---@field characterLevelListener redCallbackObject
+---@field characterCurrentXPListener redCallbackObject
+---@field characterCredPointsListener redCallbackObject
+---@field weightListener redCallbackObject
+---@field maxWeightListener redCallbackObject
+---@field submenuHiddenListener redCallbackObject
+---@field metaQuestStatusListener redCallbackObject
+---@field journalManager gameJournalManager
+---@field trackedEntry gameJournalQuestObjective
+---@field trackedPhase gameJournalQuestPhase
+---@field trackedQuest gameJournalQuest
+---@field notificationRoot inkWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field bgFluff inkWidgetReference
+---@field dataManager PlayerDevelopmentDataManager
+---@field buttonHintsController ButtonHints
+---@field gameTimeContainer inkWidgetReference
+---@field gameTimeController gameuiTimeDisplayLogicController
+---@field inventoryListener gameInventoryScriptListener
+---@field callback CurrencyUpdateCallback
+---@field hubMenuInstanceID Uint32
+---@field previousRequest OpenMenuRequest
+---@field currentRequest OpenMenuRequest
 RadialMenuHubGameController = {}
 
 ---@param fields? RadialMenuHubGameController
 ---@return RadialMenuHubGameController
-function RadialMenuHubGameController.new(fields) return end
+function RadialMenuHubGameController.new(fields) end
 
----@protected
 ---@param evt BackActionCallback
 ---@return Bool
-function RadialMenuHubGameController:OnBackActionCallback(evt) return end
+function RadialMenuHubGameController:OnBackActionCallback(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RadialMenuHubGameController:OnButtonRelease(evt) return end
+function RadialMenuHubGameController:OnButtonRelease(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function RadialMenuHubGameController:OnCharacterLevelCurrentXPUpdated(value) return end
+function RadialMenuHubGameController:OnCharacterLevelCurrentXPUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function RadialMenuHubGameController:OnCharacterLevelUpdated(value) return end
+function RadialMenuHubGameController:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function RadialMenuHubGameController:OnCharacterStreetCredLevelUpdated(value) return end
+function RadialMenuHubGameController:OnCharacterStreetCredLevelUpdated(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function RadialMenuHubGameController:OnCharacterStreetCredPointsUpdated(value) return end
+function RadialMenuHubGameController:OnCharacterStreetCredPointsUpdated(value) end
 
----@protected
 ---@param evt CyberwareTabModsRequest
 ---@return Bool
-function RadialMenuHubGameController:OnCyberwareModsRequest(evt) return end
+function RadialMenuHubGameController:OnCyberwareModsRequest(evt) end
 
----@protected
 ---@param evt DropQueueUpdatedEvent
 ---@return Bool
-function RadialMenuHubGameController:OnDropQueueUpdatedEvent(evt) return end
+function RadialMenuHubGameController:OnDropQueueUpdatedEvent(evt) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function RadialMenuHubGameController:OnHubMenuInstanceData(userData) return end
+function RadialMenuHubGameController:OnHubMenuInstanceData(userData) end
 
----@protected
 ---@return Bool
-function RadialMenuHubGameController:OnInitialize() return end
+function RadialMenuHubGameController:OnInitialize() end
 
----@protected
 ---@param e MenuButtonHoverOutEvent
 ---@return Bool
-function RadialMenuHubGameController:OnMenuButtonHoverOutEvent(e) return end
+function RadialMenuHubGameController:OnMenuButtonHoverOutEvent(e) end
 
----@protected
 ---@param e MenuButtonHoverOverEvent
 ---@return Bool
-function RadialMenuHubGameController:OnMenuButtonHoverOverEvent(e) return end
+function RadialMenuHubGameController:OnMenuButtonHoverOverEvent(e) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function RadialMenuHubGameController:OnMetaQuestStatusUpdated(value) return end
+function RadialMenuHubGameController:OnMetaQuestStatusUpdated(value) end
 
----@protected
 ---@param evt OpenMenuRequest
 ---@return Bool
-function RadialMenuHubGameController:OnOpenMenuRequest(evt) return end
+function RadialMenuHubGameController:OnOpenMenuRequest(evt) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function RadialMenuHubGameController:OnPlayerMaxWeightUpdated(value) return end
+function RadialMenuHubGameController:OnPlayerMaxWeightUpdated(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function RadialMenuHubGameController:OnPlayerWeightUpdated(value) return end
+function RadialMenuHubGameController:OnPlayerWeightUpdated(value) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function RadialMenuHubGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function RadialMenuHubGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function RadialMenuHubGameController:OnSubmenuHiddenUpdated(value) return end
+function RadialMenuHubGameController:OnSubmenuHiddenUpdated(value) end
 
----@protected
 ---@param e TimeSkipClosedEvent
 ---@return Bool
-function RadialMenuHubGameController:OnTimeSkipClosedEvent(e) return end
+function RadialMenuHubGameController:OnTimeSkipClosedEvent(e) end
 
----@protected
 ---@param e TimeSkipHoverOutEvent
 ---@return Bool
-function RadialMenuHubGameController:OnTimeSkipHoverOutEvent(e) return end
+function RadialMenuHubGameController:OnTimeSkipHoverOutEvent(e) end
 
----@protected
 ---@param e TimeSkipHoverOverEvent
 ---@return Bool
-function RadialMenuHubGameController:OnTimeSkipHoverOverEvent(e) return end
+function RadialMenuHubGameController:OnTimeSkipHoverOverEvent(e) end
 
----@protected
 ---@param e TimeSkipOpenedEvent
 ---@return Bool
-function RadialMenuHubGameController:OnTimeSkipOpenedEvent(e) return end
+function RadialMenuHubGameController:OnTimeSkipOpenedEvent(e) end
 
----@protected
 ---@return Bool
-function RadialMenuHubGameController:OnUninitialize() return end
+function RadialMenuHubGameController:OnUninitialize() end
 
 ---@param dropQueueWeight? Float
 ---@return nil
-function RadialMenuHubGameController:HandlePlayerWeightUpdated(dropQueueWeight) return end
+function RadialMenuHubGameController:HandlePlayerWeightUpdated(dropQueueWeight) end
 
----@private
 ---@return nil
-function RadialMenuHubGameController:InitMenusData() return end
+function RadialMenuHubGameController:InitMenusData() end
 
----@private
 ---@return nil
-function RadialMenuHubGameController:SetupBlackboards() return end
+function RadialMenuHubGameController:SetupBlackboards() end
 
----@private
 ---@return nil
-function RadialMenuHubGameController:UpdateTimeDisplay() return end
+function RadialMenuHubGameController:UpdateTimeDisplay() end

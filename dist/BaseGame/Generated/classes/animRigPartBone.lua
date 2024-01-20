@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animRigPartBone
----@field public bone CName
----@field public weight Float
+---@field bone CName
+---@field weight Float
 animRigPartBone = {}
 
 ---@param fields? animRigPartBone
 ---@return animRigPartBone
-function animRigPartBone.new(fields) return end
+function animRigPartBone.new(fields) end

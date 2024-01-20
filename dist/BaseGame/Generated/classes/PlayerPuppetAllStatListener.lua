@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class PlayerPuppetAllStatListener: gameScriptStatsListener
----@field public player PlayerPuppet
+---@field player PlayerPuppet
 PlayerPuppetAllStatListener = {}
 
 ---@param fields? PlayerPuppetAllStatListener
 ---@return PlayerPuppetAllStatListener
-function PlayerPuppetAllStatListener.new(fields) return end
+function PlayerPuppetAllStatListener.new(fields) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function PlayerPuppetAllStatListener:OnStatChanged(ownerID, statType, diff, total) return end
+function PlayerPuppetAllStatListener:OnStatChanged(ownerID, statType, diff, total) end

@@ -5,4 +5,4 @@ gamedataTerminalScreenType_Record = {}
 
 ---@param fields? gamedataTerminalScreenType_Record
 ---@return gamedataTerminalScreenType_Record
-function gamedataTerminalScreenType_Record.new(fields) return end
+function gamedataTerminalScreenType_Record.new(fields) end

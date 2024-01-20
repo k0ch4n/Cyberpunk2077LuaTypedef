@@ -5,4 +5,4 @@ gameObjectCarrySystem = {}
 
 ---@param fields? gameObjectCarrySystem
 ---@return gameObjectCarrySystem
-function gameObjectCarrySystem.new(fields) return end
+function gameObjectCarrySystem.new(fields) end

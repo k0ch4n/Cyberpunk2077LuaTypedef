@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class OnDisableAreaData
----@field public agent gamePersistentID
----@field public remainingAreas SecurityAreaControllerPS[]
+---@field agent gamePersistentID
+---@field remainingAreas SecurityAreaControllerPS[]
 OnDisableAreaData = {}
 
 ---@param fields? OnDisableAreaData
 ---@return OnDisableAreaData
-function OnDisableAreaData.new(fields) return end
+function OnDisableAreaData.new(fields) end

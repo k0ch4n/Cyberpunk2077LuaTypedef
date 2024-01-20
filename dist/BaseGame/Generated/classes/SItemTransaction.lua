@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SItemTransaction
----@field public itemStack gameSItemStack
----@field public pricePerItem Int32
+---@field itemStack gameSItemStack
+---@field pricePerItem Int32
 SItemTransaction = {}
 
 ---@param fields? SItemTransaction
 ---@return SItemTransaction
-function SItemTransaction.new(fields) return end
+function SItemTransaction.new(fields) end

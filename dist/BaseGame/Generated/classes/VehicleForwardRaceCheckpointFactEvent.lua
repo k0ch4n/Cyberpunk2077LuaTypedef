@@ -5,4 +5,4 @@ VehicleForwardRaceCheckpointFactEvent = {}
 
 ---@param fields? VehicleForwardRaceCheckpointFactEvent
 ---@return VehicleForwardRaceCheckpointFactEvent
-function VehicleForwardRaceCheckpointFactEvent.new(fields) return end
+function VehicleForwardRaceCheckpointFactEvent.new(fields) end

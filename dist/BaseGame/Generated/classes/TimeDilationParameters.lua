@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class TimeDilationParameters: IScriptable
----@field public reason CName
----@field public timeDilation Float
----@field public playerTimeDilation Float
----@field public duration Float
----@field public easeInCurve CName
----@field public easeOutCurve CName
+---@field reason CName
+---@field timeDilation Float
+---@field playerTimeDilation Float
+---@field duration Float
+---@field easeInCurve CName
+---@field easeOutCurve CName
 TimeDilationParameters = {}
 
 ---@param fields? TimeDilationParameters
 ---@return TimeDilationParameters
-function TimeDilationParameters.new(fields) return end
+function TimeDilationParameters.new(fields) end

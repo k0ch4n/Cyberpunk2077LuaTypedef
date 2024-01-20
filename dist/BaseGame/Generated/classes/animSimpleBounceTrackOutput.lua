@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animSimpleBounceTrackOutput
----@field public targetTrack animNamedTrackIndex
----@field public multiplier Float
+---@field targetTrack animNamedTrackIndex
+---@field multiplier Float
 animSimpleBounceTrackOutput = {}
 
 ---@param fields? animSimpleBounceTrackOutput
 ---@return animSimpleBounceTrackOutput
-function animSimpleBounceTrackOutput.new(fields) return end
+function animSimpleBounceTrackOutput.new(fields) end

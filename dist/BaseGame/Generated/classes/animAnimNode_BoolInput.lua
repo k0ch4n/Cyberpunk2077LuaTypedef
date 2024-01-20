@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAnimNode_BoolInput: animAnimNode_BoolValue
----@field public group CName
----@field public name CName
+---@field group CName
+---@field name CName
 animAnimNode_BoolInput = {}
 
 ---@param fields? animAnimNode_BoolInput
 ---@return animAnimNode_BoolInput
-function animAnimNode_BoolInput.new(fields) return end
+function animAnimNode_BoolInput.new(fields) end

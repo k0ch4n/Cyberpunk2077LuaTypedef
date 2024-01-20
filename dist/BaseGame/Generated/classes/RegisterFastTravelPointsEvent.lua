@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class RegisterFastTravelPointsEvent: redEvent
----@field public fastTravelNodes gameFastTravelPointData[]
+---@field fastTravelNodes gameFastTravelPointData[]
 RegisterFastTravelPointsEvent = {}
 
 ---@param fields? RegisterFastTravelPointsEvent
 ---@return RegisterFastTravelPointsEvent
-function RegisterFastTravelPointsEvent.new(fields) return end
+function RegisterFastTravelPointsEvent.new(fields) end
 
 ---@return String
-function RegisterFastTravelPointsEvent:GetFriendlyDescription() return end
+function RegisterFastTravelPointsEvent:GetFriendlyDescription() end

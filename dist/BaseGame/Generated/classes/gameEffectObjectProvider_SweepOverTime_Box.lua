@@ -5,4 +5,4 @@ gameEffectObjectProvider_SweepOverTime_Box = {}
 
 ---@param fields? gameEffectObjectProvider_SweepOverTime_Box
 ---@return gameEffectObjectProvider_SweepOverTime_Box
-function gameEffectObjectProvider_SweepOverTime_Box.new(fields) return end
+function gameEffectObjectProvider_SweepOverTime_Box.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class TVResaveData
----@field public mediaResaveData MediaResaveData
----@field public channels STvChannel[]
----@field public securedText CName
----@field public muteInterface Bool
----@field public useWhiteNoiseFX Bool
+---@field mediaResaveData MediaResaveData
+---@field channels STvChannel[]
+---@field securedText CName
+---@field muteInterface Bool
+---@field useWhiteNoiseFX Bool
 TVResaveData = {}
 
 ---@param fields? TVResaveData
 ---@return TVResaveData
-function TVResaveData.new(fields) return end
+function TVResaveData.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameinteractionsLayerActivatedPredicate: gameinteractionsIPredicateType
----@field public linkedLayersName CName
----@field public layerName CName
+---@field linkedLayersName CName
+---@field layerName CName
 gameinteractionsLayerActivatedPredicate = {}
 
 ---@param fields? gameinteractionsLayerActivatedPredicate
 ---@return gameinteractionsLayerActivatedPredicate
-function gameinteractionsLayerActivatedPredicate.new(fields) return end
+function gameinteractionsLayerActivatedPredicate.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVoiceTagAppearanceGroup
----@field public appearances CName[]
----@field public voicetags CName[]
+---@field appearances CName[]
+---@field voicetags CName[]
 audioVoiceTagAppearanceGroup = {}
 
 ---@param fields? audioVoiceTagAppearanceGroup
 ---@return audioVoiceTagAppearanceGroup
-function audioVoiceTagAppearanceGroup.new(fields) return end
+function audioVoiceTagAppearanceGroup.new(fields) end

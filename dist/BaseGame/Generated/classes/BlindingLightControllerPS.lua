@@ -1,52 +1,44 @@
 ---@meta
 
 ---@class BlindingLightControllerPS: BasicDistractionDeviceControllerPS
----@field protected reflectorSFX ReflectorSFX
+---@field reflectorSFX ReflectorSFX
 BlindingLightControllerPS = {}
 
 ---@param fields? BlindingLightControllerPS
 ---@return BlindingLightControllerPS
-function BlindingLightControllerPS.new(fields) return end
+function BlindingLightControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function BlindingLightControllerPS:OnInstantiated() return end
+function BlindingLightControllerPS:OnInstantiated() end
 
----@protected
 ---@return OverloadDevice
-function BlindingLightControllerPS:ActionOverloadDevice() return end
+function BlindingLightControllerPS:ActionOverloadDevice() end
 
----@protected
 ---@return Bool
-function BlindingLightControllerPS:CanCreateAnyQuickHackActions() return end
+function BlindingLightControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return TweakDBID
-function BlindingLightControllerPS:GetBackgroundTextureTweakDBID() return end
+function BlindingLightControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function BlindingLightControllerPS:GetDeviceIconTweakDBID() return end
+function BlindingLightControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return CName
-function BlindingLightControllerPS:GetDistractionSound() return end
+function BlindingLightControllerPS:GetDistractionSound() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function BlindingLightControllerPS:GetQuickHackActions(context) return end
+function BlindingLightControllerPS:GetQuickHackActions(context) end
 
 ---@return CName
-function BlindingLightControllerPS:GetTurnOffSound() return end
+function BlindingLightControllerPS:GetTurnOffSound() end
 
 ---@return CName
-function BlindingLightControllerPS:GetTurnOnSound() return end
+function BlindingLightControllerPS:GetTurnOnSound() end
 
----@protected
 ---@return nil
-function BlindingLightControllerPS:Initialize() return end
+function BlindingLightControllerPS:Initialize() end
 
----@protected
 ---@param evt OverloadDevice
 ---@return EntityNotificationType
-function BlindingLightControllerPS:OnOverloadDevice(evt) return end
+function BlindingLightControllerPS:OnOverloadDevice(evt) end

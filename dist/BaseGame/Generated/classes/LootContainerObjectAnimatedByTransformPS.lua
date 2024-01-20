@@ -5,4 +5,4 @@ LootContainerObjectAnimatedByTransformPS = {}
 
 ---@param fields? LootContainerObjectAnimatedByTransformPS
 ---@return LootContainerObjectAnimatedByTransformPS
-function LootContainerObjectAnimatedByTransformPS.new(fields) return end
+function LootContainerObjectAnimatedByTransformPS.new(fields) end

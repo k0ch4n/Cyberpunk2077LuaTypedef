@@ -1,33 +1,30 @@
 ---@meta
 
 ---@class InputDeviceController: gameScriptableComponent
----@field private isStarted Bool
+---@field isStarted Bool
 InputDeviceController = {}
 
 ---@param fields? InputDeviceController
 ---@return InputDeviceController
-function InputDeviceController.new(fields) return end
-
----@private
----@param self InputDeviceController
----@return nil
-function InputDeviceController.RegisterListeners(self) return end
+function InputDeviceController.new(fields) end
 
 ---@param self InputDeviceController
 ---@return nil
-function InputDeviceController.Start(self) return end
+function InputDeviceController.RegisterListeners(self) end
 
 ---@param self InputDeviceController
 ---@return nil
-function InputDeviceController.Stop(self) return end
+function InputDeviceController.Start(self) end
 
----@private
 ---@param self InputDeviceController
 ---@return nil
-function InputDeviceController.UnregsiterListeners(self) return end
+function InputDeviceController.Stop(self) end
 
----@protected
+---@param self InputDeviceController
+---@return nil
+function InputDeviceController.UnregsiterListeners(self) end
+
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function InputDeviceController:OnAction(action, consumer) return end
+function InputDeviceController:OnAction(action, consumer) end

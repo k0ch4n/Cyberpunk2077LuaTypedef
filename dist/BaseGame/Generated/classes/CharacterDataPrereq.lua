@@ -1,24 +1,22 @@
 ---@meta
 
 ---@class CharacterDataPrereq: gameIScriptablePrereq
----@field public idToCheck TweakDBID
+---@field idToCheck TweakDBID
 CharacterDataPrereq = {}
 
 ---@param fields? CharacterDataPrereq
 ---@return CharacterDataPrereq
-function CharacterDataPrereq.new(fields) return end
+function CharacterDataPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function CharacterDataPrereq:Initialize(recordID) return end
+function CharacterDataPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function CharacterDataPrereq:IsFulfilled(context) return end
+function CharacterDataPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function CharacterDataPrereq:OnApplied(state, context) return end
+function CharacterDataPrereq:OnApplied(state, context) end

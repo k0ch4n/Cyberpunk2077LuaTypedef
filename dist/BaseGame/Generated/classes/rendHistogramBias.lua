@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendHistogramBias
----@field public mulCoef Vector3
----@field public addCoef Vector3
+---@field mulCoef Vector3
+---@field addCoef Vector3
 rendHistogramBias = {}
 
 ---@param fields? rendHistogramBias
 ---@return rendHistogramBias
-function rendHistogramBias.new(fields) return end
+function rendHistogramBias.new(fields) end

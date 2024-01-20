@@ -4,330 +4,330 @@
 ScriptGameInstance = {}
 
 ---@return ScriptGameInstance
-function ScriptGameInstance.new() return end
+function ScriptGameInstance.new() end
 
 ---@param entityId entEntityID
 ---@return entEntity
-function ScriptGameInstance.FindEntityByID(entityId) return end
+function ScriptGameInstance.FindEntityByID(entityId) end
 
 ---@param tag CName|string
 ---@return nil, Vector4[] waypoints
-function ScriptGameInstance.FindWaypointsByTag(tag) return end
+function ScriptGameInstance.FindWaypointsByTag(tag) end
 
 ---@return AINavigationSystem
-function ScriptGameInstance.GetAINavigationSystem() return end
+function ScriptGameInstance.GetAINavigationSystem() end
 
 ---@return gameAchievementSystem
-function ScriptGameInstance.GetAchievementSystem() return end
+function ScriptGameInstance.GetAchievementSystem() end
 
 ---@return gameActivityLogSystem
-function ScriptGameInstance.GetActivityLogSystem() return end
+function ScriptGameInstance.GetActivityLogSystem() end
 
 ---@return worldAnimationSystemScriptInterface
-function ScriptGameInstance.GetAnimationSystem() return end
+function ScriptGameInstance.GetAnimationSystem() end
 
 ---@return gameCAttitudeManager
-function ScriptGameInstance.GetAttitudeSystem() return end
+function ScriptGameInstance.GetAttitudeSystem() end
 
 ---@return gameGameAudioSystem
-function ScriptGameInstance.GetAudioSystem() return end
+function ScriptGameInstance.GetAudioSystem() end
 
 ---@return gameAutoSaveSystem
-function ScriptGameInstance.GetAutoSaveSystem() return end
+function ScriptGameInstance.GetAutoSaveSystem() end
 
 ---@return gameBlackboardSystem
-function ScriptGameInstance.GetBlackboardSystem() return end
+function ScriptGameInstance.GetBlackboardSystem() end
 
 ---@return gameCameraSystem
-function ScriptGameInstance.GetCameraSystem() return end
+function ScriptGameInstance.GetCameraSystem() end
 
 ---@return gameuiICharacterCustomizationSystem
-function ScriptGameInstance.GetCharacterCustomizationSystem() return end
+function ScriptGameInstance.GetCharacterCustomizationSystem() end
 
 ---@return gameICombatQueriesSystem
-function ScriptGameInstance.GetCombatQueriesSystem() return end
+function ScriptGameInstance.GetCombatQueriesSystem() end
 
 ---@return gameCommunitySystem
-function ScriptGameInstance.GetCommunitySystem() return end
+function ScriptGameInstance.GetCommunitySystem() end
 
 ---@return gameCompanionSystem
-function ScriptGameInstance.GetCompanionSystem() return end
+function ScriptGameInstance.GetCompanionSystem() end
 
 ---@return gameContainerManager
-function ScriptGameInstance.GetContainerManager() return end
+function ScriptGameInstance.GetContainerManager() end
 
 ---@return gameICooldownSystem
-function ScriptGameInstance.GetCooldownSystem() return end
+function ScriptGameInstance.GetCooldownSystem() end
 
 ---@return AISmartCoverManager
-function ScriptGameInstance.GetCoverManager() return end
+function ScriptGameInstance.GetCoverManager() end
 
 ---@return gameDamageSystem
-function ScriptGameInstance.GetDamageSystem() return end
+function ScriptGameInstance.GetDamageSystem() end
 
 ---@return gameDebugCheatsSystem
-function ScriptGameInstance.GetDebugCheatsSystem() return end
+function ScriptGameInstance.GetDebugCheatsSystem() end
 
 ---@return gameIDebugDrawHistorySystem
-function ScriptGameInstance.GetDebugDrawHistorySystem() return end
+function ScriptGameInstance.GetDebugDrawHistorySystem() end
 
 ---@return gameDebugPlayerBreadcrumbs
-function ScriptGameInstance.GetDebugPlayerBreadcrumbs() return end
+function ScriptGameInstance.GetDebugPlayerBreadcrumbs() end
 
 ---@return gameDebugVisualizerSystem
-function ScriptGameInstance.GetDebugVisualizerSystem() return end
+function ScriptGameInstance.GetDebugVisualizerSystem() end
 
 ---@return gameDelaySystem
-function ScriptGameInstance.GetDelaySystem() return end
+function ScriptGameInstance.GetDelaySystem() end
 
 ---@return gameDeviceSystem
-function ScriptGameInstance.GetDeviceSystem() return end
+function ScriptGameInstance.GetDeviceSystem() end
 
 ---@return gameDynamicSpawnSystem
-function ScriptGameInstance.GetDynamicSpawnSystem() return end
+function ScriptGameInstance.GetDynamicSpawnSystem() end
 
 ---@return gameEffectorSystem
-function ScriptGameInstance.GetEffectorSystem() return end
+function ScriptGameInstance.GetEffectorSystem() end
 
 ---@return EngineTime
-function ScriptGameInstance.GetEngineTime() return end
+function ScriptGameInstance.GetEngineTime() end
 
 ---@return entEntity[]
-function ScriptGameInstance.GetEntityList() return end
+function ScriptGameInstance.GetEntityList() end
 
 ---@return gameEntitySpawnerEventsBroadcasterImpl
-function ScriptGameInstance.GetEntitySpawnerEventsBroadcaster() return end
+function ScriptGameInstance.GetEntitySpawnerEventsBroadcaster() end
 
 ---@return Uint64
-function ScriptGameInstance.GetFrameNumber() return end
+function ScriptGameInstance.GetFrameNumber() end
 
 ---@return gameFxSystem
-function ScriptGameInstance.GetFxSystem() return end
+function ScriptGameInstance.GetFxSystem() end
 
 ---@return gameEffectSystem
-function ScriptGameInstance.GetGameEffectSystem() return end
+function ScriptGameInstance.GetGameEffectSystem() end
 
 ---@return gameGameFeatureManager
-function ScriptGameInstance.GetGameFeatureManager() return end
+function ScriptGameInstance.GetGameFeatureManager() end
 
 ---@return gameIGameRulesSystem
-function ScriptGameInstance.GetGameRulesSystem() return end
+function ScriptGameInstance.GetGameRulesSystem() end
 
 ---@return gameGameTagSystem
-function ScriptGameInstance.GetGameTagSystem() return end
+function ScriptGameInstance.GetGameTagSystem() end
 
 ---@return GameTime
-function ScriptGameInstance.GetGameTime() return end
+function ScriptGameInstance.GetGameTime() end
 
 ---@return gameuiGamepadLightController
-function ScriptGameInstance.GetGamepadLightController() return end
+function ScriptGameInstance.GetGamepadLightController() end
 
 ---@return gameGameplayLogicPackageSystem
-function ScriptGameInstance.GetGameplayLogicPackageSystem() return end
+function ScriptGameInstance.GetGameplayLogicPackageSystem() end
 
 ---@return gameuiGlobalTvSystem
-function ScriptGameInstance.GetGlobalTVSystem() return end
+function ScriptGameInstance.GetGlobalTVSystem() end
 
 ---@return gameGodModeSystem
-function ScriptGameInstance.GetGodModeSystem() return end
+function ScriptGameInstance.GetGodModeSystem() end
 
 ---@return gameinfluenceSystem
-function ScriptGameInstance.GetInfluenceMapSystem() return end
+function ScriptGameInstance.GetInfluenceMapSystem() end
 
 ---@return gameinteractionsCManager
-function ScriptGameInstance.GetInteractionManager() return end
+function ScriptGameInstance.GetInteractionManager() end
 
 ---@return gameInventoryManager
-function ScriptGameInstance.GetInventoryManager() return end
+function ScriptGameInstance.GetInventoryManager() end
 
 ---@return gameJournalManager
-function ScriptGameInstance.GetJournalManager() return end
+function ScriptGameInstance.GetJournalManager() end
 
 ---@return gameLevelAssignmentSystem
-function ScriptGameInstance.GetLevelAssignmentSystem() return end
+function ScriptGameInstance.GetLevelAssignmentSystem() end
 
 ---@return gameLocationManager
-function ScriptGameInstance.GetLocationManager() return end
+function ScriptGameInstance.GetLocationManager() end
 
 ---@return gameLootManager
-function ScriptGameInstance.GetLootManager() return end
+function ScriptGameInstance.GetLootManager() end
 
 ---@return gamemappinsMappinSystem
-function ScriptGameInstance.GetMappinSystem() return end
+function ScriptGameInstance.GetMappinSystem() end
 
 ---@return gameMinimapSystem
-function ScriptGameInstance.GetMinimapSystem() return end
+function ScriptGameInstance.GetMinimapSystem() end
 
 ---@return gamemountingIMountingFacility
-function ScriptGameInstance.GetMountingFacility() return end
+function ScriptGameInstance.GetMountingFacility() end
 
 ---@return worldNavigationScriptInterface
-function ScriptGameInstance.GetNavigationSystem() return end
+function ScriptGameInstance.GetNavigationSystem() end
 
 ---@param nodeRef worldGlobalNodeRef
 ---@return Bool, Transform transform
-function ScriptGameInstance.GetNodeTransform(nodeRef) return end
+function ScriptGameInstance.GetNodeTransform(nodeRef) end
 
 ---@return gameObjectPoolSystem
-function ScriptGameInstance.GetObjectPoolSystem() return end
+function ScriptGameInstance.GetObjectPoolSystem() end
 
 ---@return gameIOnlineSystem
-function ScriptGameInstance.GetOnlineSystem() return end
+function ScriptGameInstance.GetOnlineSystem() end
 
 ---@return gamePersistencySystem
-function ScriptGameInstance.GetPersistencySystem() return end
+function ScriptGameInstance.GetPersistencySystem() end
 
 ---@return questPhoneManager
-function ScriptGameInstance.GetPhoneManager() return end
+function ScriptGameInstance.GetPhoneManager() end
 
 ---@return gamePhotoModeSystem
-function ScriptGameInstance.GetPhotoModeSystem() return end
+function ScriptGameInstance.GetPhotoModeSystem() end
 
 ---@return gamePingSystem
-function ScriptGameInstance.GetPingSystem() return end
+function ScriptGameInstance.GetPingSystem() end
 
 ---@return gameIPlayerManager
-function ScriptGameInstance.GetPlayerManagerSystem() return end
+function ScriptGameInstance.GetPlayerManagerSystem() end
 
 ---@return cpPlayerSystem
-function ScriptGameInstance.GetPlayerSystem() return end
+function ScriptGameInstance.GetPlayerSystem() end
 
 ---@return EngineTime
-function ScriptGameInstance.GetPlaythroughTime() return end
+function ScriptGameInstance.GetPlaythroughTime() end
 
 ---@return gamePoliceRadioSystem
-function ScriptGameInstance.GetPoliceRadioSystem() return end
+function ScriptGameInstance.GetPoliceRadioSystem() end
 
 ---@return gamePrereqManager
-function ScriptGameInstance.GetPrereqManager() return end
+function ScriptGameInstance.GetPrereqManager() end
 
 ---@return gamePreventionSpawnSystem
-function ScriptGameInstance.GetPreventionSpawnSystem() return end
+function ScriptGameInstance.GetPreventionSpawnSystem() end
 
 ---@return gameProjectileSystem
-function ScriptGameInstance.GetProjectileSystem() return end
+function ScriptGameInstance.GetProjectileSystem() end
 
 ---@return questQuestsContentSystem
-function ScriptGameInstance.GetQuestsContentSystem() return end
+function ScriptGameInstance.GetQuestsContentSystem() end
 
 ---@return questQuestsSystem
-function ScriptGameInstance.GetQuestsSystem() return end
+function ScriptGameInstance.GetQuestsSystem() end
 
 ---@return vehicleRacingSystem
-function ScriptGameInstance.GetRacingSystem() return end
+function ScriptGameInstance.GetRacingSystem() end
 
 ---@return gameRazerChromaEffectsSystem
-function ScriptGameInstance.GetRazerChromaEffectsSystem() return end
+function ScriptGameInstance.GetRazerChromaEffectsSystem() end
 
 ---@return AIReactionSystem
-function ScriptGameInstance.GetReactionSystem() return end
+function ScriptGameInstance.GetReactionSystem() end
 
 ---@return AIGuardAreaManager
-function ScriptGameInstance.GetRestrictMovementAreaManager() return end
+function ScriptGameInstance.GetRestrictMovementAreaManager() end
 
 ---@return worldRuntimeInfo
-function ScriptGameInstance.GetRuntimeInfo() return end
+function ScriptGameInstance.GetRuntimeInfo() end
 
 ---@return AISafeAreaManager
-function ScriptGameInstance.GetSafeAreaManager() return end
+function ScriptGameInstance.GetSafeAreaManager() end
 
 ---@return scnISceneSystem
-function ScriptGameInstance.GetSceneSystem() return end
+function ScriptGameInstance.GetSceneSystem() end
 
 ---@return gameScriptableSystemsContainer
-function ScriptGameInstance.GetScriptableSystemsContainer() return end
+function ScriptGameInstance.GetScriptableSystemsContainer() end
 
 ---@return gameScriptsDebugOverlaySystem
-function ScriptGameInstance.GetScriptsDebugOverlaySystem() return end
+function ScriptGameInstance.GetScriptsDebugOverlaySystem() end
 
 ---@return senseCSenseManager
-function ScriptGameInstance.GetSenseManager() return end
+function ScriptGameInstance.GetSenseManager() end
 
 ---@return userSettingsUserSettings
-function ScriptGameInstance.GetSettingsSystem() return end
+function ScriptGameInstance.GetSettingsSystem() end
 
 ---@return EngineTime
-function ScriptGameInstance.GetSimTime() return end
+function ScriptGameInstance.GetSimTime() end
 
 ---@return gameSpatialQueriesSystem
-function ScriptGameInstance.GetSpatialQueriesSystem() return end
+function ScriptGameInstance.GetSpatialQueriesSystem() end
 
 ---@return gameStatPoolsSystem
-function ScriptGameInstance.GetStatPoolsSystem() return end
+function ScriptGameInstance.GetStatPoolsSystem() end
 
 ---@return gameStatsDataSystem
-function ScriptGameInstance.GetStatsDataSystem() return end
+function ScriptGameInstance.GetStatsDataSystem() end
 
 ---@return gameStatsSystem
-function ScriptGameInstance.GetStatsSystem() return end
+function ScriptGameInstance.GetStatsSystem() end
 
 ---@return gameStatusEffectSystem
-function ScriptGameInstance.GetStatusEffectSystem() return end
+function ScriptGameInstance.GetStatusEffectSystem() end
 
 ---@return gameStimuliSystem
-function ScriptGameInstance.GetStimuliSystem() return end
+function ScriptGameInstance.GetStimuliSystem() end
 
 ---@return gameuiSubtitleHandlerSystem
-function ScriptGameInstance.GetSubtitleHandlerSystem() return end
+function ScriptGameInstance.GetSubtitleHandlerSystem() end
 
 ---@return gametargetingTargetingSystem
-function ScriptGameInstance.GetTargetingSystem() return end
+function ScriptGameInstance.GetTargetingSystem() end
 
 ---@return gameTelemetryTelemetrySystem
-function ScriptGameInstance.GetTelemetrySystem() return end
+function ScriptGameInstance.GetTelemetrySystem() end
 
 ---@return gameTeleportationFacility
-function ScriptGameInstance.GetTeleportationFacility() return end
+function ScriptGameInstance.GetTeleportationFacility() end
 
 ---@return gameTimeSystem
-function ScriptGameInstance.GetTimeSystem() return end
+function ScriptGameInstance.GetTimeSystem() end
 
 ---@return worldTrafficScriptInterface
-function ScriptGameInstance.GetTrafficSystem() return end
+function ScriptGameInstance.GetTrafficSystem() end
 
 ---@return gameTransactionSystem
-function ScriptGameInstance.GetTransactionSystem() return end
+function ScriptGameInstance.GetTransactionSystem() end
 
 ---@return questTutorialManager
-function ScriptGameInstance.GetTutorialManager() return end
+function ScriptGameInstance.GetTutorialManager() end
 
 ---@return gameuiIUIObjectsLoaderSystem
-function ScriptGameInstance.GetUIObjectsLoaderSystem() return end
+function ScriptGameInstance.GetUIObjectsLoaderSystem() end
 
 ---@return gameuiGameSystemUI
-function ScriptGameInstance.GetUISystem() return end
+function ScriptGameInstance.GetUISystem() end
 
 ---@return gameVehicleSystem
-function ScriptGameInstance.GetVehicleSystem() return end
+function ScriptGameInstance.GetVehicleSystem() end
 
 ---@return gameVisionModeSystem
-function ScriptGameInstance.GetVisionModeSystem() return end
+function ScriptGameInstance.GetVisionModeSystem() end
 
 ---@return gameWardrobeSystem
-function ScriptGameInstance.GetWardrobeSystem() return end
+function ScriptGameInstance.GetWardrobeSystem() end
 
 ---@return gameIWatchdogSystem
-function ScriptGameInstance.GetWatchdogSystem() return end
+function ScriptGameInstance.GetWatchdogSystem() end
 
 ---@return worldWeatherScriptInterface
-function ScriptGameInstance.GetWeatherSystem() return end
+function ScriptGameInstance.GetWeatherSystem() end
 
 ---@return gameWorkspotGameSystem
-function ScriptGameInstance.GetWorkspotSystem() return end
+function ScriptGameInstance.GetWorkspotSystem() end
 
 ---@return Bool
-function ScriptGameInstance.IsRestoringState() return end
+function ScriptGameInstance.IsRestoringState() end
 
 ---@return Bool, gameSaveLock[] locks
-function ScriptGameInstance.IsSavingLocked() return end
+function ScriptGameInstance.IsSavingLocked() end
 
 ---@return nil
-function ScriptGameInstance.IsTweakContentTagActive() return end
+function ScriptGameInstance.IsTweakContentTagActive() end
 
 ---@return Bool
-function ScriptGameInstance.IsValid() return end
+function ScriptGameInstance.IsValid() end
 
 ---@param scriptableSystemName CName|string
 ---@param request gameScriptableSystemRequest
 ---@return Bool
-function ScriptGameInstance.QueueScriptableSystemRequest(scriptableSystemName, request) return end
+function ScriptGameInstance.QueueScriptableSystemRequest(scriptableSystemName, request) end

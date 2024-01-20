@@ -1,134 +1,117 @@
 ---@meta
 
 ---@class MeleeAttackGenericEvents: MeleeEventsTransition
----@field public effect gameEffectInstance
----@field public attackCreated Bool
----@field public blockImpulseCreation Bool
----@field public standUpSend Bool
----@field public trailCreated Bool
----@field public finisherTarget ScriptedPuppet
----@field public finisherCameraRotReseted Bool
----@field public textLayer Uint32
----@field public rumblePlayed Bool
----@field public shouldBlockImpulseUpdate Bool
----@field public enteredFromMeleeLeap Bool
----@field public effectPositionUpdated Bool
----@field public tppYawOverride Float
+---@field effect gameEffectInstance
+---@field attackCreated Bool
+---@field blockImpulseCreation Bool
+---@field standUpSend Bool
+---@field trailCreated Bool
+---@field finisherTarget ScriptedPuppet
+---@field finisherCameraRotReseted Bool
+---@field textLayer Uint32
+---@field rumblePlayed Bool
+---@field shouldBlockImpulseUpdate Bool
+---@field enteredFromMeleeLeap Bool
+---@field effectPositionUpdated Bool
+---@field tppYawOverride Float
 MeleeAttackGenericEvents = {}
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param radius Float
 ---@return nil
-function MeleeAttackGenericEvents:BroadcastStimuli(scriptInterface, radius) return end
+function MeleeAttackGenericEvents:BroadcastStimuli(scriptInterface, radius) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeAttackGenericEvents:ClearLeapedDistanceBlackboardValue(scriptInterface) return end
+function MeleeAttackGenericEvents:ClearLeapedDistanceBlackboardValue(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackData gameMeleeAttackData
 ---@return nil
-function MeleeAttackGenericEvents:ConsumeWeaponCharge(scriptInterface, attackData) return end
+function MeleeAttackGenericEvents:ConsumeWeaponCharge(scriptInterface, attackData) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackData gameMeleeAttackData
 ---@return nil
-function MeleeAttackGenericEvents:CreateMeleeAttack(stateContext, scriptInterface, attackData) return end
+function MeleeAttackGenericEvents:CreateMeleeAttack(stateContext, scriptInterface, attackData) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool, gameMeleeAttackData attackData
-function MeleeAttackGenericEvents:CreateMeleeAttackForFinisher(stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:CreateMeleeAttackForFinisher(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return gameMeleeAttackData
-function MeleeAttackGenericEvents:GetAttackData(stateContext) return end
+function MeleeAttackGenericEvents:GetAttackData(stateContext) end
 
----@protected
 ---@return EMeleeAttackType
-function MeleeAttackGenericEvents:GetAttackType() return end
+function MeleeAttackGenericEvents:GetAttackType() end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Transform
-function MeleeAttackGenericEvents:GetCameraTransformForMelee(scriptInterface) return end
+function MeleeAttackGenericEvents:GetCameraTransformForMelee(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeAttackGenericEvents:IsAttackWindowOpen(stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:IsAttackWindowOpen(stateContext, scriptInterface) end
 
----@protected
 ---@return Bool
-function MeleeAttackGenericEvents:IsMountedTPPAttack() return end
+function MeleeAttackGenericEvents:IsMountedTPPAttack() end
 
----@protected
 ---@param attackData gameMeleeAttackData
 ---@param assistRecord gamedataAimAssistMelee_Record
 ---@return Bool
-function MeleeAttackGenericEvents:IsMoveToTargetEnabled(attackData, assistRecord) return end
+function MeleeAttackGenericEvents:IsMoveToTargetEnabled(attackData, assistRecord) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeAttackGenericEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeAttackGenericEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeAttackGenericEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeAttackGenericEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeAttackGenericEvents:ResetCameraRotation(scriptInterface) return end
+function MeleeAttackGenericEvents:ResetCameraRotation(scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param rotateDuration Float
 ---@return nil
-function MeleeAttackGenericEvents:RotateCameraToFinisherTarget(scriptInterface, rotateDuration) return end
+function MeleeAttackGenericEvents:RotateCameraToFinisherTarget(scriptInterface, rotateDuration) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackData gameMeleeAttackData
 ---@return Bool
-function MeleeAttackGenericEvents:SendAnimationSlotData(stateContext, scriptInterface, attackData) return end
+function MeleeAttackGenericEvents:SendAnimationSlotData(stateContext, scriptInterface, attackData) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function MeleeAttackGenericEvents:SetTPPYawOverride(stateContext) return end
+function MeleeAttackGenericEvents:SetTPPYawOverride(stateContext) end
 
----@protected
 ---@param timeDelta Float
 ---@param attackData gameMeleeAttackData
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeAttackGenericEvents:ShouldBlockMovementImpulseUpdate(timeDelta, attackData, stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:ShouldBlockMovementImpulseUpdate(timeDelta, attackData, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param startPosition Vector4
@@ -138,26 +121,23 @@ function MeleeAttackGenericEvents:ShouldBlockMovementImpulseUpdate(timeDelta, at
 ---@param colliderBox Vector4
 ---@param attackData gameMeleeAttackData
 ---@return Bool
-function MeleeAttackGenericEvents:SpawnAttackGameEffect(stateContext, scriptInterface, startPosition, middlePosition, endPosition, time, colliderBox, attackData) return end
+function MeleeAttackGenericEvents:SpawnAttackGameEffect(stateContext, scriptInterface, startPosition, middlePosition, endPosition, time, colliderBox, attackData) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackData gameMeleeAttackData
 ---@param duration Float
 ---@return nil
-function MeleeAttackGenericEvents:UpdateEffectPosition(stateContext, scriptInterface, attackData, duration) return end
+function MeleeAttackGenericEvents:UpdateEffectPosition(stateContext, scriptInterface, attackData, duration) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackData gameMeleeAttackData
 ---@return nil
-function MeleeAttackGenericEvents:UpdateIKData(scriptInterface, attackData) return end
+function MeleeAttackGenericEvents:UpdateIKData(scriptInterface, attackData) end
 
----@protected
 ---@param timeDelta Float
 ---@param attackData gameMeleeAttackData
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeAttackGenericEvents:UpdateMovementImpulse(timeDelta, attackData, stateContext, scriptInterface) return end
+function MeleeAttackGenericEvents:UpdateMovementImpulse(timeDelta, attackData, stateContext, scriptInterface) end

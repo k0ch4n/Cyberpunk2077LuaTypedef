@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class OverheatStatListener: gameScriptStatPoolsListener
----@field public weapon gameweaponObject
----@field private updateEvt UpdateOverheatEvent
----@field private startEvt StartOverheatEffectEvent
+---@field weapon gameweaponObject
+---@field updateEvt UpdateOverheatEvent
+---@field startEvt StartOverheatEffectEvent
 OverheatStatListener = {}
 
 ---@param fields? OverheatStatListener
 ---@return OverheatStatListener
-function OverheatStatListener.new(fields) return end
+function OverheatStatListener.new(fields) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function OverheatStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function OverheatStatListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end

@@ -5,4 +5,4 @@ gameItemsMeshesLoaded = {}
 
 ---@param fields? gameItemsMeshesLoaded
 ---@return gameItemsMeshesLoaded
-function gameItemsMeshesLoaded.new(fields) return end
+function gameItemsMeshesLoaded.new(fields) end

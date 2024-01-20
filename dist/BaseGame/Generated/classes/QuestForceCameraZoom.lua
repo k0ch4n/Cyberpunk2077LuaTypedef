@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class QuestForceCameraZoom: ActionBool
----@field private useWorkspot Bool
----@field private instant Bool
+---@field useWorkspot Bool
+---@field instant Bool
 QuestForceCameraZoom = {}
 
 ---@param fields? QuestForceCameraZoom
 ---@return QuestForceCameraZoom
-function QuestForceCameraZoom.new(fields) return end
+function QuestForceCameraZoom.new(fields) end
 
 ---@return String
-function QuestForceCameraZoom:GetTweakDBChoiceRecord() return end
+function QuestForceCameraZoom:GetTweakDBChoiceRecord() end
 
 ---@return Bool
-function QuestForceCameraZoom:IsInstant() return end
+function QuestForceCameraZoom:IsInstant() end
 
 ---@param enable Bool
 ---@param instant? Bool
 ---@return nil
-function QuestForceCameraZoom:SetProperties(enable, instant) return end
+function QuestForceCameraZoom:SetProperties(enable, instant) end
 
 ---@param useWorkspot Bool
 ---@return nil
-function QuestForceCameraZoom:SetUseWorkspot(useWorkspot) return end
+function QuestForceCameraZoom:SetUseWorkspot(useWorkspot) end
 
 ---@return Bool
-function QuestForceCameraZoom:UseWorkspot() return end
+function QuestForceCameraZoom:UseWorkspot() end

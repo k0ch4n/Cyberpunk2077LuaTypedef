@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorActionSlideToWorldPositionNodeDefinition: AIbehaviorActionSlideNodeDefinition
----@field public worldPosition AIArgumentMapping
----@field public useMovePlanner Bool
+---@field worldPosition AIArgumentMapping
+---@field useMovePlanner Bool
 AIbehaviorActionSlideToWorldPositionNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionSlideToWorldPositionNodeDefinition
 ---@return AIbehaviorActionSlideToWorldPositionNodeDefinition
-function AIbehaviorActionSlideToWorldPositionNodeDefinition.new(fields) return end
+function AIbehaviorActionSlideToWorldPositionNodeDefinition.new(fields) end

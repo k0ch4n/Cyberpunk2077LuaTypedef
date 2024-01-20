@@ -5,4 +5,4 @@ LadderEnterContextEvents = {}
 
 ---@param fields? LadderEnterContextEvents
 ---@return LadderEnterContextEvents
-function LadderEnterContextEvents.new(fields) return end
+function LadderEnterContextEvents.new(fields) end

@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class PlayBreathingAnimationEffector: gameEffector
----@field public animFeature AnimFeature_CameraBreathing
----@field public animFeatureName CName
----@field public owner gameObject
+---@field animFeature AnimFeature_CameraBreathing
+---@field animFeatureName CName
+---@field owner gameObject
 PlayBreathingAnimationEffector = {}
 
 ---@param fields? PlayBreathingAnimationEffector
 ---@return PlayBreathingAnimationEffector
-function PlayBreathingAnimationEffector.new(fields) return end
+function PlayBreathingAnimationEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlayBreathingAnimationEffector:ActionOff(owner) return end
+function PlayBreathingAnimationEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PlayBreathingAnimationEffector:ActionOn(owner) return end
+function PlayBreathingAnimationEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function PlayBreathingAnimationEffector:Initialize(record, parentRecord) return end
+function PlayBreathingAnimationEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function PlayBreathingAnimationEffector:Uninitialize() return end
+function PlayBreathingAnimationEffector:Uninitialize() end

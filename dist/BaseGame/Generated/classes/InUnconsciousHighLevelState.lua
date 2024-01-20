@@ -5,8 +5,7 @@ InUnconsciousHighLevelState = {}
 
 ---@param fields? InUnconsciousHighLevelState
 ---@return InUnconsciousHighLevelState
-function InUnconsciousHighLevelState.new(fields) return end
+function InUnconsciousHighLevelState.new(fields) end
 
----@private
 ---@return gamedataNPCHighLevelState
-function InUnconsciousHighLevelState:GetStateToCheck() return end
+function InUnconsciousHighLevelState:GetStateToCheck() end

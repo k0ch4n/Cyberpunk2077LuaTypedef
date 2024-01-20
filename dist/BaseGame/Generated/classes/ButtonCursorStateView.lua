@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class ButtonCursorStateView: BaseButtonView
----@field private HoverStateName CName
----@field private PressStateName CName
----@field private DefaultStateName CName
+---@field HoverStateName CName
+---@field PressStateName CName
+---@field DefaultStateName CName
 ButtonCursorStateView = {}
 
 ---@param fields? ButtonCursorStateView
 ---@return ButtonCursorStateView
-function ButtonCursorStateView.new(fields) return end
+function ButtonCursorStateView.new(fields) end
 
----@protected
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function ButtonCursorStateView:ButtonStateChanged(oldState, newState) return end
+function ButtonCursorStateView:ButtonStateChanged(oldState, newState) end

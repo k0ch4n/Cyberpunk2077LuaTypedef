@@ -5,4 +5,4 @@ ObjectMoverComponent = {}
 
 ---@param fields? ObjectMoverComponent
 ---@return ObjectMoverComponent
-function ObjectMoverComponent.new(fields) return end
+function ObjectMoverComponent.new(fields) end

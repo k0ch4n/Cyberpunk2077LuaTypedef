@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimPlaySoundEvent: inkanimEvent
----@field public soundEventName CName
+---@field soundEventName CName
 inkanimPlaySoundEvent = {}
 
 ---@param fields? inkanimPlaySoundEvent
 ---@return inkanimPlaySoundEvent
-function inkanimPlaySoundEvent.new(fields) return end
+function inkanimPlaySoundEvent.new(fields) end

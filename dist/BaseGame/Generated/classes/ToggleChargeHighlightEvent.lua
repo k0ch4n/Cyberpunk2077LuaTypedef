@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ToggleChargeHighlightEvent: redEvent
----@field public active Bool
+---@field active Bool
 ToggleChargeHighlightEvent = {}
 
 ---@param fields? ToggleChargeHighlightEvent
 ---@return ToggleChargeHighlightEvent
-function ToggleChargeHighlightEvent.new(fields) return end
+function ToggleChargeHighlightEvent.new(fields) end

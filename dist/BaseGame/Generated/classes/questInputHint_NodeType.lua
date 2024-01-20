@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questInputHint_NodeType: questIUIManagerNodeType
----@field public show Bool
----@field public action CName
----@field public groupId CName
----@field public source CName
----@field public localizedLabel String
----@field public queuePriority Int32
+---@field show Bool
+---@field action CName
+---@field groupId CName
+---@field source CName
+---@field localizedLabel String
+---@field queuePriority Int32
 questInputHint_NodeType = {}
 
 ---@param fields? questInputHint_NodeType
 ---@return questInputHint_NodeType
-function questInputHint_NodeType.new(fields) return end
+function questInputHint_NodeType.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MessengerThreadSelectedEvent: redEvent
----@field public hash Uint32
+---@field hash Uint32
 MessengerThreadSelectedEvent = {}
 
 ---@param fields? MessengerThreadSelectedEvent
 ---@return MessengerThreadSelectedEvent
-function MessengerThreadSelectedEvent.new(fields) return end
+function MessengerThreadSelectedEvent.new(fields) end

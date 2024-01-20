@@ -1,126 +1,118 @@
 ---@meta
 
 ---@class FxResourceMapperComponent: gameScriptableComponent
----@field protected areaEffectData AreaEffectData[]
----@field protected investigationSlotOffsetMultiplier Float
----@field protected areaEffectInFocusMode AreaEffectTargetData[]
----@field protected optionalAreaEffectData OptionalAreaEffectData[]
----@field private DEBUG_copiedDataFromEntity Bool
----@field private DEBUG_copiedDataFromFXStruct Bool
----@field private isInitialized Bool
+---@field areaEffectData AreaEffectData[]
+---@field investigationSlotOffsetMultiplier Float
+---@field areaEffectInFocusMode AreaEffectTargetData[]
+---@field optionalAreaEffectData OptionalAreaEffectData[]
+---@field DEBUG_copiedDataFromEntity Bool
+---@field DEBUG_copiedDataFromFXStruct Bool
+---@field isInitialized Bool
 FxResourceMapperComponent = {}
 
 ---@param fields? FxResourceMapperComponent
 ---@return FxResourceMapperComponent
-function FxResourceMapperComponent.new(fields) return end
+function FxResourceMapperComponent.new(fields) end
 
----@private
 ---@param desiredRange Float
 ---@return nil, CName effectName, Float effectSize
-function FxResourceMapperComponent:CalculateRangeSphere(desiredRange) return end
+function FxResourceMapperComponent:CalculateRangeSphere(desiredRange) end
 
----@private
 ---@param type DeviceStimType
 ---@param currentType DeviceStimType
 ---@return Bool
-function FxResourceMapperComponent:CanCompareRanges(type, currentType) return end
+function FxResourceMapperComponent:CanCompareRanges(type, currentType) end
 
 ---@param areaEffectsData SAreaEffectData[]
 ---@param DEBUG_entityCopy Bool
 ---@param DEBUG_fxCopy Bool
 ---@return nil
-function FxResourceMapperComponent:CopyDataToFxMapClass(areaEffectsData, DEBUG_entityCopy, DEBUG_fxCopy) return end
+function FxResourceMapperComponent:CopyDataToFxMapClass(areaEffectsData, DEBUG_entityCopy, DEBUG_fxCopy) end
 
 ---@param areaEffectsInFocusMode SAreaEffectTargetData[]
 ---@return nil
-function FxResourceMapperComponent:CopyEffectToFxMapClass(areaEffectsInFocusMode) return end
+function FxResourceMapperComponent:CopyEffectToFxMapClass(areaEffectsInFocusMode) end
 
----@protected
 ---@param mainEffect AreaEffectData
 ---@return nil
-function FxResourceMapperComponent:CreateAreaEffectTargetData(mainEffect) return end
-
----@private
----@param attackTDBID TweakDBID|string
----@param index Int32
----@param gameEffectNameOverride? CName|string
----@param dontHighlightOnLookat? Bool
----@return nil
-function FxResourceMapperComponent:CreateData(attackTDBID, index, gameEffectNameOverride, dontHighlightOnLookat) return end
+function FxResourceMapperComponent:CreateAreaEffectTargetData(mainEffect) end
 
 ---@param attackTDBID TweakDBID|string
 ---@param index Int32
 ---@param gameEffectNameOverride? CName|string
 ---@param dontHighlightOnLookat? Bool
 ---@return nil
-function FxResourceMapperComponent:CreateEffectStructDataFromAttack(attackTDBID, index, gameEffectNameOverride, dontHighlightOnLookat) return end
+function FxResourceMapperComponent:CreateData(attackTDBID, index, gameEffectNameOverride, dontHighlightOnLookat) end
+
+---@param attackTDBID TweakDBID|string
+---@param index Int32
+---@param gameEffectNameOverride? CName|string
+---@param dontHighlightOnLookat? Bool
+---@return nil
+function FxResourceMapperComponent:CreateEffectStructDataFromAttack(attackTDBID, index, gameEffectNameOverride, dontHighlightOnLookat) end
 
 ---@return AreaEffectData[]
-function FxResourceMapperComponent:GetAreaEffectData() return end
+function FxResourceMapperComponent:GetAreaEffectData() end
 
 ---@param index Int32
 ---@return AreaEffectData
-function FxResourceMapperComponent:GetAreaEffectDataByIndex(index) return end
+function FxResourceMapperComponent:GetAreaEffectDataByIndex(index) end
 
 ---@param action BaseScriptableAction
 ---@return Int32
-function FxResourceMapperComponent:GetAreaEffectDataIndexByAction(action) return end
+function FxResourceMapperComponent:GetAreaEffectDataIndexByAction(action) end
 
 ---@param effectName CName|string
 ---@return Int32
-function FxResourceMapperComponent:GetAreaEffectDataIndexByName(effectName) return end
+function FxResourceMapperComponent:GetAreaEffectDataIndexByName(effectName) end
 
 ---@param effectIndex Int32
 ---@return CName
-function FxResourceMapperComponent:GetAreaEffectDataNameByIndex(effectIndex) return end
+function FxResourceMapperComponent:GetAreaEffectDataNameByIndex(effectIndex) end
 
 ---@return Int32
-function FxResourceMapperComponent:GetAreaEffectDataSize() return end
+function FxResourceMapperComponent:GetAreaEffectDataSize() end
 
 ---@return AreaEffectTargetData[]
-function FxResourceMapperComponent:GetAreaEffectInFocusMode() return end
+function FxResourceMapperComponent:GetAreaEffectInFocusMode() end
 
 ---@param index Int32
 ---@return AreaEffectTargetData
-function FxResourceMapperComponent:GetAreaEffectInFocusModeByIndex(index) return end
+function FxResourceMapperComponent:GetAreaEffectInFocusModeByIndex(index) end
 
 ---@return Int32
-function FxResourceMapperComponent:GetAreaEffectInFocusSize() return end
+function FxResourceMapperComponent:GetAreaEffectInFocusSize() end
 
 ---@param type DeviceStimType
 ---@return Float
-function FxResourceMapperComponent:GetDistractionRange(type) return end
+function FxResourceMapperComponent:GetDistractionRange(type) end
 
 ---@return Float
-function FxResourceMapperComponent:GetInvestigationSlotOffset() return end
+function FxResourceMapperComponent:GetInvestigationSlotOffset() end
 
 ---@param type DeviceStimType
 ---@return Float
-function FxResourceMapperComponent:GetSmallestDistractionRange(type) return end
+function FxResourceMapperComponent:GetSmallestDistractionRange(type) end
 
 ---@return Bool
-function FxResourceMapperComponent:HasAnyDistractions() return end
+function FxResourceMapperComponent:HasAnyDistractions() end
 
----@private
 ---@return nil
-function FxResourceMapperComponent:Initialize() return end
+function FxResourceMapperComponent:Initialize() end
 
----@private
 ---@return nil
-function FxResourceMapperComponent:OnGameAttach() return end
+function FxResourceMapperComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function FxResourceMapperComponent:TryAddOptionalAoeData() return end
+function FxResourceMapperComponent:TryAddOptionalAoeData() end
 
 ---@param action ScriptableDeviceAction
 ---@return Bool, Int32 actionIndex
-function FxResourceMapperComponent:TryGetActionIndex(action) return end
+function FxResourceMapperComponent:TryGetActionIndex(action) end
 
 ---@param action ScriptableDeviceAction
 ---@return Bool, AreaEffectData areaEffectData
-function FxResourceMapperComponent:TryGetAreaEffectByAction(action) return end
+function FxResourceMapperComponent:TryGetAreaEffectByAction(action) end
 
----@private
 ---@return nil
-function FxResourceMapperComponent:TryInitialize() return end
+function FxResourceMapperComponent:TryInitialize() end

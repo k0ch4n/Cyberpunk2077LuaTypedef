@@ -5,4 +5,4 @@ OnUnstoppableStateSignal = {}
 
 ---@param fields? OnUnstoppableStateSignal
 ---@return OnUnstoppableStateSignal
-function OnUnstoppableStateSignal.new(fields) return end
+function OnUnstoppableStateSignal.new(fields) end

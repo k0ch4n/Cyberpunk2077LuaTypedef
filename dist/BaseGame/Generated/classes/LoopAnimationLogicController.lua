@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class LoopAnimationLogicController: inkWidgetLogicController
----@field private defaultAnimation CName
----@field private selectionRule inkSelectionRule
+---@field defaultAnimation CName
+---@field selectionRule inkSelectionRule
 LoopAnimationLogicController = {}
 
 ---@param fields? LoopAnimationLogicController
 ---@return LoopAnimationLogicController
-function LoopAnimationLogicController.new(fields) return end
+function LoopAnimationLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function LoopAnimationLogicController:OnInitialize() return end
+function LoopAnimationLogicController:OnInitialize() end

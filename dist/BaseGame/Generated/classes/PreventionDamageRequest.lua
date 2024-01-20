@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class PreventionDamageRequest: gameScriptableSystemRequest
----@field public isInternal Bool
----@field public damageDealtPercentValue Float
----@field public targetID entEntityID
----@field public targetPosition Vector4
----@field public isTargetKilled Bool
----@field public isTargetPrevention Bool
----@field public isTargetVehicle Bool
----@field public requestedHeat EPreventionHeatStage
----@field public attackType gamedataAttackType
----@field public telemetryInfo String
+---@field isInternal Bool
+---@field damageDealtPercentValue Float
+---@field targetID entEntityID
+---@field targetPosition Vector4
+---@field isTargetKilled Bool
+---@field isTargetPrevention Bool
+---@field isTargetVehicle Bool
+---@field requestedHeat EPreventionHeatStage
+---@field attackType gamedataAttackType
+---@field telemetryInfo String
 PreventionDamageRequest = {}
 
 ---@param fields? PreventionDamageRequest
 ---@return PreventionDamageRequest
-function PreventionDamageRequest.new(fields) return end
+function PreventionDamageRequest.new(fields) end

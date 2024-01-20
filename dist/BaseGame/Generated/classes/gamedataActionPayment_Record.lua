@@ -5,4 +5,4 @@ gamedataActionPayment_Record = {}
 
 ---@param fields? gamedataActionPayment_Record
 ---@return gamedataActionPayment_Record
-function gamedataActionPayment_Record.new(fields) return end
+function gamedataActionPayment_Record.new(fields) end

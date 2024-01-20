@@ -5,4 +5,4 @@ gameuiMinimapQuestAreaInitData = {}
 
 ---@param fields? gameuiMinimapQuestAreaInitData
 ---@return gameuiMinimapQuestAreaInitData
-function gameuiMinimapQuestAreaInitData.new(fields) return end
+function gameuiMinimapQuestAreaInitData.new(fields) end

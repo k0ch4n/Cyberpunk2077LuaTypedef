@@ -5,4 +5,4 @@ PSD_MasterPS = {}
 
 ---@param fields? PSD_MasterPS
 ---@return PSD_MasterPS
-function PSD_MasterPS.new(fields) return end
+function PSD_MasterPS.new(fields) end

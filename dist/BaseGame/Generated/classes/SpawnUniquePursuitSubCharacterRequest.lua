@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SpawnUniquePursuitSubCharacterRequest: gameScriptableSystemRequest
----@field public subCharacterID TweakDBID
----@field public position Vector4
+---@field subCharacterID TweakDBID
+---@field position Vector4
 SpawnUniquePursuitSubCharacterRequest = {}
 
 ---@param fields? SpawnUniquePursuitSubCharacterRequest
 ---@return SpawnUniquePursuitSubCharacterRequest
-function SpawnUniquePursuitSubCharacterRequest.new(fields) return end
+function SpawnUniquePursuitSubCharacterRequest.new(fields) end

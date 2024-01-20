@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkWidgetLibraryUnpackedView: ISerializable
----@field public libraryItems inkWidgetLibraryItemUnpackedView[]
----@field public externalLibraries inkWidgetLibraryResource[]
+---@field libraryItems inkWidgetLibraryItemUnpackedView[]
+---@field externalLibraries inkWidgetLibraryResource[]
 inkWidgetLibraryUnpackedView = {}
 
 ---@param fields? inkWidgetLibraryUnpackedView
 ---@return inkWidgetLibraryUnpackedView
-function inkWidgetLibraryUnpackedView.new(fields) return end
+function inkWidgetLibraryUnpackedView.new(fields) end

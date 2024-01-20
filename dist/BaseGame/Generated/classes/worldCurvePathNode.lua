@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class worldCurvePathNode: worldSplineNode
----@field public userInput animCurvePathBakerUserInput
----@field public defaultForwardVector Vector4
----@field public globalInBlendTime Float
----@field public globalOutBlendTime Float
----@field public defaultPoseAnimationName CName
----@field public defaultPoseSampleTime Float
----@field public initialDiffYaw Float
----@field public turnCharacterToMatchVelocity Bool
----@field public rig animRig
----@field public animSets animAnimSet[]
----@field public timeDeltaMultiplier Float
+---@field userInput animCurvePathBakerUserInput
+---@field defaultForwardVector Vector4
+---@field globalInBlendTime Float
+---@field globalOutBlendTime Float
+---@field defaultPoseAnimationName CName
+---@field defaultPoseSampleTime Float
+---@field initialDiffYaw Float
+---@field turnCharacterToMatchVelocity Bool
+---@field rig animRig
+---@field animSets animAnimSet[]
+---@field timeDeltaMultiplier Float
 worldCurvePathNode = {}
 
 ---@param fields? worldCurvePathNode
 ---@return worldCurvePathNode
-function worldCurvePathNode.new(fields) return end
+function worldCurvePathNode.new(fields) end

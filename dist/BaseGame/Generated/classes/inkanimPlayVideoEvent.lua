@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimPlayVideoEvent: inkanimEvent
----@field public videoResource Bink
+---@field videoResource Bink
 inkanimPlayVideoEvent = {}
 
 ---@param fields? inkanimPlayVideoEvent
 ---@return inkanimPlayVideoEvent
-function inkanimPlayVideoEvent.new(fields) return end
+function inkanimPlayVideoEvent.new(fields) end

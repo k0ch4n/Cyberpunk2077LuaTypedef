@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiTooltipSlotData: inkUserData
----@field public margin inkMargin
----@field public placement gameuiETooltipPlacement
+---@field margin inkMargin
+---@field placement gameuiETooltipPlacement
 gameuiTooltipSlotData = {}
 
 ---@param fields? gameuiTooltipSlotData
 ---@return gameuiTooltipSlotData
-function gameuiTooltipSlotData.new(fields) return end
+function gameuiTooltipSlotData.new(fields) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameinteractionsReactionData: IScriptable
----@field public choiceName CName
----@field public startDuration Float
----@field public endDuration Float
----@field public interactionDuration Float
----@field public interactionType CName
----@field public requiredEquips gameEquipParam[]
----@field public interactionPoint Transform
----@field public useIK Bool
----@field public IKPoint Vector4
+---@field choiceName CName
+---@field startDuration Float
+---@field endDuration Float
+---@field interactionDuration Float
+---@field interactionType CName
+---@field requiredEquips gameEquipParam[]
+---@field interactionPoint Transform
+---@field useIK Bool
+---@field IKPoint Vector4
 gameinteractionsReactionData = {}
 
 ---@param fields? gameinteractionsReactionData
 ---@return gameinteractionsReactionData
-function gameinteractionsReactionData.new(fields) return end
+function gameinteractionsReactionData.new(fields) end

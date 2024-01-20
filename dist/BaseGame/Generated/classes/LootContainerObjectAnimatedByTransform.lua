@@ -1,41 +1,37 @@
 ---@meta
 
 ---@class LootContainerObjectAnimatedByTransform: gameContainerObjectBase
----@field protected wasOpened Bool
+---@field wasOpened Bool
 LootContainerObjectAnimatedByTransform = {}
 
 ---@param fields? LootContainerObjectAnimatedByTransform
 ---@return LootContainerObjectAnimatedByTransform
-function LootContainerObjectAnimatedByTransform.new(fields) return end
+function LootContainerObjectAnimatedByTransform.new(fields) end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:OnInteraction(choiceEvent) return end
+function LootContainerObjectAnimatedByTransform:OnInteraction(choiceEvent) end
 
----@protected
 ---@param evt gameResetContainerEvent
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:OnResetContainerEvent(evt) return end
+function LootContainerObjectAnimatedByTransform:OnResetContainerEvent(evt) end
 
----@protected
 ---@param evt ToggleContainerLockEvent
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:OnToggleContainerLockEvent(evt) return end
+function LootContainerObjectAnimatedByTransform:OnToggleContainerLockEvent(evt) end
 
----@private
 ---@param itemId TweakDBID|string
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:HasTransactionFromTweakID(itemId) return end
+function LootContainerObjectAnimatedByTransform:HasTransactionFromTweakID(itemId) end
 
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:IsHandgunAmmoLoot() return end
+function LootContainerObjectAnimatedByTransform:IsHandgunAmmoLoot() end
 
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:IsRifleAmmoLoot() return end
+function LootContainerObjectAnimatedByTransform:IsRifleAmmoLoot() end
 
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:IsShotgunAmmoLoot() return end
+function LootContainerObjectAnimatedByTransform:IsShotgunAmmoLoot() end
 
 ---@return Bool
-function LootContainerObjectAnimatedByTransform:IsSniperAmmoLoot() return end
+function LootContainerObjectAnimatedByTransform:IsSniperAmmoLoot() end

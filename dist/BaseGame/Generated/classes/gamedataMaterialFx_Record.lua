@@ -5,109 +5,109 @@ gamedataMaterialFx_Record = {}
 
 ---@param fields? gamedataMaterialFx_Record
 ---@return gamedataMaterialFx_Record
-function gamedataMaterialFx_Record.new(fields) return end
+function gamedataMaterialFx_Record.new(fields) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_decalCount() return end
+function gamedataMaterialFx_Record:GetImpact_decalCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_decalItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_decalItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_dismemberment_piercingCount() return end
+function gamedataMaterialFx_Record:GetImpact_dismemberment_piercingCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_dismemberment_piercingItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_dismemberment_piercingItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_main_effectCount() return end
+function gamedataMaterialFx_Record:GetImpact_main_effectCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_main_effectItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_main_effectItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_pierce_decalCount() return end
+function gamedataMaterialFx_Record:GetImpact_pierce_decalCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_pierce_decalItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_pierce_decalItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_pierce_effectCount() return end
+function gamedataMaterialFx_Record:GetImpact_pierce_effectCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_pierce_effectItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_pierce_effectItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_pierce_splatter_farCount() return end
+function gamedataMaterialFx_Record:GetImpact_pierce_splatter_farCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_pierce_splatter_farItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_pierce_splatter_farItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_pierce_splatter_nearCount() return end
+function gamedataMaterialFx_Record:GetImpact_pierce_splatter_nearCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_pierce_splatter_nearItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_pierce_splatter_nearItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_reflected_effectCount() return end
+function gamedataMaterialFx_Record:GetImpact_reflected_effectCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_reflected_effectItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_reflected_effectItem(index) end
 
 ---@return Int32
-function gamedataMaterialFx_Record:GetImpact_underwater_effectCount() return end
+function gamedataMaterialFx_Record:GetImpact_underwater_effectCount() end
 
 ---@param index Int32
 ---@return redResourceReferenceScriptToken
-function gamedataMaterialFx_Record:GetImpact_underwater_effectItem(index) return end
+function gamedataMaterialFx_Record:GetImpact_underwater_effectItem(index) end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_decal() return end
+function gamedataMaterialFx_Record:Impact_decal() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_dismemberment_piercing() return end
+function gamedataMaterialFx_Record:Impact_dismemberment_piercing() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_main_effect() return end
+function gamedataMaterialFx_Record:Impact_main_effect() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_pierce_decal() return end
+function gamedataMaterialFx_Record:Impact_pierce_decal() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_pierce_effect() return end
+function gamedataMaterialFx_Record:Impact_pierce_effect() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_pierce_splatter_far() return end
+function gamedataMaterialFx_Record:Impact_pierce_splatter_far() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_pierce_splatter_near() return end
+function gamedataMaterialFx_Record:Impact_pierce_splatter_near() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_reflected_effect() return end
+function gamedataMaterialFx_Record:Impact_reflected_effect() end
 
 ---@return redResourceReferenceScriptToken[]
-function gamedataMaterialFx_Record:Impact_underwater_effect() return end
+function gamedataMaterialFx_Record:Impact_underwater_effect() end
 
 ---@return Bool
-function gamedataMaterialFx_Record:Pierce_enter() return end
+function gamedataMaterialFx_Record:Pierce_enter() end
 
 ---@return Bool
-function gamedataMaterialFx_Record:Pierce_exit() return end
+function gamedataMaterialFx_Record:Pierce_exit() end
 
 ---@return Float
-function gamedataMaterialFx_Record:Pierce_far_distance() return end
+function gamedataMaterialFx_Record:Pierce_far_distance() end
 
 ---@return Float
-function gamedataMaterialFx_Record:Pierce_near_distance() return end
+function gamedataMaterialFx_Record:Pierce_near_distance() end
 
 ---@return Float
-function gamedataMaterialFx_Record:Reflected_angle_max() return end
+function gamedataMaterialFx_Record:Reflected_angle_max() end

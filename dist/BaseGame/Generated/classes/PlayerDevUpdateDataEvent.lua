@@ -5,4 +5,4 @@ PlayerDevUpdateDataEvent = {}
 
 ---@param fields? PlayerDevUpdateDataEvent
 ---@return PlayerDevUpdateDataEvent
-function PlayerDevUpdateDataEvent.new(fields) return end
+function PlayerDevUpdateDataEvent.new(fields) end

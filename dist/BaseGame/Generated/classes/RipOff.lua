@@ -5,10 +5,10 @@ RipOff = {}
 
 ---@param fields? RipOff
 ---@return RipOff
-function RipOff.new(fields) return end
+function RipOff.new(fields) end
 
 ---@return String
-function RipOff:GetTweakDBChoiceRecord() return end
+function RipOff:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function RipOff:SetProperties() return end
+function RipOff:SetProperties() end

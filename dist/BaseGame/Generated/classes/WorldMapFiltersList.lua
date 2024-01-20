@@ -5,17 +5,14 @@ WorldMapFiltersList = {}
 
 ---@param fields? WorldMapFiltersList
 ---@return WorldMapFiltersList
-function WorldMapFiltersList.new(fields) return end
+function WorldMapFiltersList.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function WorldMapFiltersList:OnConsumeInput(evt) return end
+function WorldMapFiltersList:OnConsumeInput(evt) end
 
----@protected
 ---@return Bool
-function WorldMapFiltersList:OnInitialize() return end
+function WorldMapFiltersList:OnInitialize() end
 
----@protected
 ---@return Bool
-function WorldMapFiltersList:OnUninitialize() return end
+function WorldMapFiltersList:OnUninitialize() end

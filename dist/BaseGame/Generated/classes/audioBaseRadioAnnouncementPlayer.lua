@@ -5,4 +5,4 @@ audioBaseRadioAnnouncementPlayer = {}
 
 ---@param fields? audioBaseRadioAnnouncementPlayer
 ---@return audioBaseRadioAnnouncementPlayer
-function audioBaseRadioAnnouncementPlayer.new(fields) return end
+function audioBaseRadioAnnouncementPlayer.new(fields) end

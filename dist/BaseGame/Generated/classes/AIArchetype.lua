@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArchetype: CResource
----@field public behaviorDefinition AIbehaviorParameterizedBehavior
----@field public movementParameters moveMovementParameters
+---@field behaviorDefinition AIbehaviorParameterizedBehavior
+---@field movementParameters moveMovementParameters
 AIArchetype = {}
 
 ---@param fields? AIArchetype
 ---@return AIArchetype
-function AIArchetype.new(fields) return end
+function AIArchetype.new(fields) end

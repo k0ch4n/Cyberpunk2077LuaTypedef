@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class WindowBlindersData
----@field public windowBlindersState EWindowBlindersStates
----@field public hasOpenInteraction Bool
----@field public hasTiltInteraction Bool
----@field public hasQuickHack Bool
+---@field windowBlindersState EWindowBlindersStates
+---@field hasOpenInteraction Bool
+---@field hasTiltInteraction Bool
+---@field hasQuickHack Bool
 WindowBlindersData = {}
 
 ---@param fields? WindowBlindersData
 ---@return WindowBlindersData
-function WindowBlindersData.new(fields) return end
+function WindowBlindersData.new(fields) end

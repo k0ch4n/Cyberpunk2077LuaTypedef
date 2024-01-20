@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class DialogueChoiceHubPrereq: gameIScriptablePrereq
----@field private isChoiceHubActive Bool
+---@field isChoiceHubActive Bool
 DialogueChoiceHubPrereq = {}
 
 ---@param fields? DialogueChoiceHubPrereq
 ---@return DialogueChoiceHubPrereq
-function DialogueChoiceHubPrereq.new(fields) return end
+function DialogueChoiceHubPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function DialogueChoiceHubPrereq:Initialize(recordID) return end
+function DialogueChoiceHubPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function DialogueChoiceHubPrereq:IsFulfilled(context) return end
+function DialogueChoiceHubPrereq:IsFulfilled(context) end

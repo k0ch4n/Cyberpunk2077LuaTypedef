@@ -5,4 +5,4 @@ worldTerrainProxyMeshNode = {}
 
 ---@param fields? worldTerrainProxyMeshNode
 ---@return worldTerrainProxyMeshNode
-function worldTerrainProxyMeshNode.new(fields) return end
+function worldTerrainProxyMeshNode.new(fields) end

@@ -1,65 +1,57 @@
 ---@meta
 
 ---@class CrosshairGameController_Mantis_Blade: gameuiCrosshairBaseGameController
----@field private weaponBBID redCallbackObject
----@field private meleeWeaponState gamePSMMeleeWeapon
----@field private targetColorChange inkWidgetReference
----@field private holdAnim inkanimProxy
----@field private aimAnim inkanimProxy
----@field private isInHoldState Bool
----@field private meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
+---@field weaponBBID redCallbackObject
+---@field meleeWeaponState gamePSMMeleeWeapon
+---@field targetColorChange inkWidgetReference
+---@field holdAnim inkanimProxy
+---@field aimAnim inkanimProxy
+---@field isInHoldState Bool
+---@field meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
 CrosshairGameController_Mantis_Blade = {}
 
 ---@param fields? CrosshairGameController_Mantis_Blade
 ---@return CrosshairGameController_Mantis_Blade
-function CrosshairGameController_Mantis_Blade.new(fields) return end
+function CrosshairGameController_Mantis_Blade.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function CrosshairGameController_Mantis_Blade:OnPSMMeleeWeaponStateChanged(value) return end
+function CrosshairGameController_Mantis_Blade:OnPSMMeleeWeaponStateChanged(value) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CrosshairGameController_Mantis_Blade:OnPlayerAttach(playerPuppet) return end
+function CrosshairGameController_Mantis_Blade:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CrosshairGameController_Mantis_Blade:OnPlayerDetach(playerPuppet) return end
+function CrosshairGameController_Mantis_Blade:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function CrosshairGameController_Mantis_Blade:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function CrosshairGameController_Mantis_Blade:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function CrosshairGameController_Mantis_Blade:GetIntroAnimation(firstEquip) return end
+function CrosshairGameController_Mantis_Blade:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function CrosshairGameController_Mantis_Blade:GetOutroAnimation() return end
+function CrosshairGameController_Mantis_Blade:GetOutroAnimation() end
 
----@private
 ---@param oldState gamePSMMeleeWeapon
 ---@param newState gamePSMMeleeWeapon
 ---@return nil
-function CrosshairGameController_Mantis_Blade:OnMeleeWeaponStateChange(oldState, newState) return end
+function CrosshairGameController_Mantis_Blade:OnMeleeWeaponStateChange(oldState, newState) end
 
----@protected
 ---@return nil
-function CrosshairGameController_Mantis_Blade:OnState_Default() return end
+function CrosshairGameController_Mantis_Blade:OnState_Default() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Mantis_Blade:OnState_Hold() return end
+function CrosshairGameController_Mantis_Blade:OnState_Hold() end
 
----@private
 ---@param animName CName|string
 ---@return inkanimProxy
-function CrosshairGameController_Mantis_Blade:PlayAnimation(animName) return end
+function CrosshairGameController_Mantis_Blade:PlayAnimation(animName) end
 
 ---@return nil
-function CrosshairGameController_Mantis_Blade:UpdateTargetIndicator() return end
+function CrosshairGameController_Mantis_Blade:UpdateTargetIndicator() end

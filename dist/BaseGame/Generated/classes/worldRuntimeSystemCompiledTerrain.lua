@@ -5,4 +5,4 @@ worldRuntimeSystemCompiledTerrain = {}
 
 ---@param fields? worldRuntimeSystemCompiledTerrain
 ---@return worldRuntimeSystemCompiledTerrain
-function worldRuntimeSystemCompiledTerrain.new(fields) return end
+function worldRuntimeSystemCompiledTerrain.new(fields) end

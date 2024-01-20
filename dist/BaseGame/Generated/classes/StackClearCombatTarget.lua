@@ -5,9 +5,8 @@ StackClearCombatTarget = {}
 
 ---@param fields? StackClearCombatTarget
 ---@return StackClearCombatTarget
-function StackClearCombatTarget.new(fields) return end
+function StackClearCombatTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function StackClearCombatTarget:OnActivate(context) return end
+function StackClearCombatTarget:OnActivate(context) end

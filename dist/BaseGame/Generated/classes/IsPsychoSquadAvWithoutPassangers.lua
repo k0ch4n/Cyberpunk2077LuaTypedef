@@ -5,9 +5,8 @@ IsPsychoSquadAvWithoutPassangers = {}
 
 ---@param fields? IsPsychoSquadAvWithoutPassangers
 ---@return IsPsychoSquadAvWithoutPassangers
-function IsPsychoSquadAvWithoutPassangers.new(fields) return end
+function IsPsychoSquadAvWithoutPassangers.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPsychoSquadAvWithoutPassangers:Check(context) return end
+function IsPsychoSquadAvWithoutPassangers:Check(context) end

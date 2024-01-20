@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class DispenseStackRequest: MarketSystemRequest
----@field public position Vector4
----@field public itemID gameItemID
----@field public amount Int32
----@field public shouldPay Bool
----@field public bypassStock Bool
+---@field position Vector4
+---@field itemID gameItemID
+---@field amount Int32
+---@field shouldPay Bool
+---@field bypassStock Bool
 DispenseStackRequest = {}
 
 ---@param fields? DispenseStackRequest
 ---@return DispenseStackRequest
-function DispenseStackRequest.new(fields) return end
+function DispenseStackRequest.new(fields) end

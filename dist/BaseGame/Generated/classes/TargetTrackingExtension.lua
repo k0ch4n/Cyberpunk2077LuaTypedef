@@ -1,237 +1,217 @@
 ---@meta
 
 ---@class TargetTrackingExtension: AITargetTrackerComponent
----@field private trackedCombatSquads AICombatSquadScriptInterface[]
----@field private trackedCombatSquadsCounters Int32[]
----@field private threatPersistanceMemory ThreatPersistanceMemory
----@field private hasBeenSeenByPlayer Bool
----@field private canBeAddedToBossHealthbar Bool
----@field private playerPuppet gameObject
+---@field trackedCombatSquads AICombatSquadScriptInterface[]
+---@field trackedCombatSquadsCounters Int32[]
+---@field threatPersistanceMemory ThreatPersistanceMemory
+---@field hasBeenSeenByPlayer Bool
+---@field canBeAddedToBossHealthbar Bool
+---@field playerPuppet gameObject
 TargetTrackingExtension = {}
 
 ---@param fields? TargetTrackingExtension
 ---@return TargetTrackingExtension
-function TargetTrackingExtension.new(fields) return end
+function TargetTrackingExtension.new(fields) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool, TargetTrackingExtension targetTracker
-function TargetTrackingExtension.Get(puppet) return end
+function TargetTrackingExtension.Get(puppet) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool, AITargetTrackerComponent targetTracker
-function TargetTrackingExtension.Get(context) return end
+function TargetTrackingExtension.Get(context) end
 
 ---@param puppet ScriptedPuppet
 ---@return Bool, AITargetTrackerComponent targetTracker
-function TargetTrackingExtension.Get(puppet) return end
+function TargetTrackingExtension.Get(puppet) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param visible Bool
 ---@param trackedLocations AITrackedLocation[]
 ---@return Bool
-function TargetTrackingExtension.GetHostileThreats(context, visible, trackedLocations) return end
+function TargetTrackingExtension.GetHostileThreats(context, visible, trackedLocations) end
 
 ---@param puppet ScriptedPuppet
 ---@param visible Bool
 ---@param trackedLocations AITrackedLocation[]
 ---@return Bool
-function TargetTrackingExtension.GetHostileThreats(puppet, visible, trackedLocations) return end
+function TargetTrackingExtension.GetHostileThreats(puppet, visible, trackedLocations) end
 
 ---@param hostileThreats AITrackedLocation[]
 ---@return Bool, gameObject player
-function TargetTrackingExtension.GetPlayerFromThreats(hostileThreats) return end
+function TargetTrackingExtension.GetPlayerFromThreats(hostileThreats) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool, AITargetTrackerComponent targetTracker
-function TargetTrackingExtension.GetStrong(context) return end
+function TargetTrackingExtension.GetStrong(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param visible Bool
 ---@return Bool, AITrackedLocation trackedLocation
-function TargetTrackingExtension.GetTopThreat(context, visible) return end
+function TargetTrackingExtension.GetTopThreat(context, visible) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param target entEntity
 ---@return Bool, AITrackedLocation trackedLocation
-function TargetTrackingExtension.GetTrackedLocation(context, target) return end
+function TargetTrackingExtension.GetTrackedLocation(context, target) end
 
 ---@param puppet ScriptedPuppet
 ---@param target entEntity
 ---@return Bool, AITrackedLocation trackedLocation
-function TargetTrackingExtension.GetTrackedLocation(puppet, target) return end
+function TargetTrackingExtension.GetTrackedLocation(puppet, target) end
 
 ---@param puppet ScriptedPuppet
 ---@param onlyVisible? Bool
 ---@param onlyEntities? Bool
 ---@return Bool
-function TargetTrackingExtension.HasHostileThreat(puppet, onlyVisible, onlyEntities) return end
+function TargetTrackingExtension.HasHostileThreat(puppet, onlyVisible, onlyEntities) end
 
 ---@param puppet ScriptedPuppet
 ---@param threat AITrackedLocation
 ---@return nil
-function TargetTrackingExtension.InjectThreat(puppet, threat) return end
+function TargetTrackingExtension.InjectThreat(puppet, threat) end
 
 ---@param puppet ScriptedPuppet
 ---@param threat entEntity
 ---@param accuracy Float
 ---@param cooldown? Float
 ---@return nil
-function TargetTrackingExtension.InjectThreat(puppet, threat, accuracy, cooldown) return end
+function TargetTrackingExtension.InjectThreat(puppet, threat, accuracy, cooldown) end
 
 ---@param puppet ScriptedPuppet
 ---@param threat entEntity
 ---@return nil
-function TargetTrackingExtension.InjectThreat(puppet, threat) return end
+function TargetTrackingExtension.InjectThreat(puppet, threat) end
 
 ---@param puppet ScriptedPuppet
 ---@param pos Vector4
 ---@param timeToLive Float
 ---@return nil
-function TargetTrackingExtension.InjectThreat(puppet, pos, timeToLive) return end
+function TargetTrackingExtension.InjectThreat(puppet, pos, timeToLive) end
 
 ---@param owner ScriptedPuppet
 ---@param threat entEntity
 ---@param visible Bool
 ---@param hostile Bool
 ---@return Bool
-function TargetTrackingExtension.IsThreatInThreatList(owner, threat, visible, hostile) return end
+function TargetTrackingExtension.IsThreatInThreatList(owner, threat, visible, hostile) end
 
 ---@param ownerPuppet ScriptedPuppet
 ---@param evt gameeventsHitEvent
 ---@return nil
-function TargetTrackingExtension.OnHit(ownerPuppet, evt) return end
+function TargetTrackingExtension.OnHit(ownerPuppet, evt) end
 
 ---@param puppet ScriptedPuppet
 ---@param threat entEntity
 ---@return nil
-function TargetTrackingExtension.RemoveThreat(puppet, threat) return end
+function TargetTrackingExtension.RemoveThreat(puppet, threat) end
 
 ---@param puppet ScriptedPuppet
 ---@param isPersistent Bool
 ---@param persistenceSource Uint32
 ---@return nil
-function TargetTrackingExtension.SetCurrentThreatsPersistence(puppet, isPersistent, persistenceSource) return end
+function TargetTrackingExtension.SetCurrentThreatsPersistence(puppet, isPersistent, persistenceSource) end
 
 ---@param puppet ScriptedPuppet
 ---@param target entEntity
 ---@param isPersistent Bool
 ---@param persistenceSource Uint32
 ---@return nil
-function TargetTrackingExtension.SetThreatPersistence(puppet, target, isPersistent, persistenceSource) return end
+function TargetTrackingExtension.SetThreatPersistence(puppet, target, isPersistent, persistenceSource) end
 
----@protected
 ---@param evt AIEnemyPushedToSquad
 ---@return Bool
-function TargetTrackingExtension:OnEnemyPushedToSquad(evt) return end
+function TargetTrackingExtension:OnEnemyPushedToSquad(evt) end
 
----@protected
 ---@param th AIEnemyThreatDetected
 ---@return Bool
-function TargetTrackingExtension:OnEnemyThreatDetected(th) return end
+function TargetTrackingExtension:OnEnemyThreatDetected(th) end
 
----@protected
 ---@param th AIHostJoinedSquad
 ---@return Bool
-function TargetTrackingExtension:OnHostJoinedSquad(th) return end
+function TargetTrackingExtension:OnHostJoinedSquad(th) end
 
----@protected
 ---@param th AIHostLeftSquad
 ---@return Bool
-function TargetTrackingExtension:OnHostLeftSquad(th) return end
+function TargetTrackingExtension:OnHostLeftSquad(th) end
 
----@protected
 ---@param th AIHostileThreatDetected
 ---@return Bool
-function TargetTrackingExtension:OnHostileThreatDetected(th) return end
+function TargetTrackingExtension:OnHostileThreatDetected(th) end
 
----@protected
 ---@param th AINewThreat
 ---@return Bool
-function TargetTrackingExtension:OnNewThreat(th) return end
+function TargetTrackingExtension:OnNewThreat(th) end
 
----@protected
 ---@param evt PlayerHostileThreatDetected
 ---@return Bool
-function TargetTrackingExtension:OnPlayerHostileThreatDetected(evt) return end
+function TargetTrackingExtension:OnPlayerHostileThreatDetected(evt) end
 
----@protected
 ---@param evt PullSquadSyncRequest
 ---@return Bool
-function TargetTrackingExtension:OnPullSquadSyncRequest(evt) return end
+function TargetTrackingExtension:OnPullSquadSyncRequest(evt) end
 
----@protected
 ---@param evt gameeventsProperlySeenByPlayerEvent
 ---@return Bool
-function TargetTrackingExtension:OnSeenByPlayerEvent(evt) return end
+function TargetTrackingExtension:OnSeenByPlayerEvent(evt) end
 
----@protected
 ---@param evt SetThreatsPersistenceRequest
 ---@return Bool
-function TargetTrackingExtension:OnSetThreatsPersistenceRequest(evt) return end
+function TargetTrackingExtension:OnSetThreatsPersistenceRequest(evt) end
 
----@protected
 ---@param evt OnSquadmateDied
 ---@return Bool
-function TargetTrackingExtension:OnSquadmateDeath(evt) return end
+function TargetTrackingExtension:OnSquadmateDeath(evt) end
 
----@protected
 ---@param evt AIStoppedBeingTrackedAsHostile
 ---@return Bool
-function TargetTrackingExtension:OnStoppedBeingTrackedAsHostile(evt) return end
+function TargetTrackingExtension:OnStoppedBeingTrackedAsHostile(evt) end
 
----@protected
 ---@param th AIThreatRemoved
 ---@return Bool
-function TargetTrackingExtension:OnThreatRemoved(th) return end
+function TargetTrackingExtension:OnThreatRemoved(th) end
 
----@private
 ---@param target gameObject
 ---@return nil
-function TargetTrackingExtension:AddPotentialBossTarget(target) return end
+function TargetTrackingExtension:AddPotentialBossTarget(target) end
 
 ---@param cssi AICombatSquadScriptInterface
 ---@return Bool
-function TargetTrackingExtension:IsSquadTracked(cssi) return end
+function TargetTrackingExtension:IsSquadTracked(cssi) end
 
----@protected
 ---@param owner entEntity
 ---@param threat entEntity
 ---@return nil
-function TargetTrackingExtension:OnHostileThreatAdded(owner, threat) return end
+function TargetTrackingExtension:OnHostileThreatAdded(owner, threat) end
 
----@private
 ---@param cssi AICombatSquadScriptInterface
 ---@return nil
-function TargetTrackingExtension:RegisterTrackedSquadMember(cssi) return end
+function TargetTrackingExtension:RegisterTrackedSquadMember(cssi) end
 
 ---@return nil
-function TargetTrackingExtension:RemoveHostileCamerasFromThreats() return end
+function TargetTrackingExtension:RemoveHostileCamerasFromThreats() end
 
----@private
 ---@param cssi AICombatSquadScriptInterface
 ---@return nil
-function TargetTrackingExtension:RemoveWholeSquadFromThreats(cssi) return end
+function TargetTrackingExtension:RemoveWholeSquadFromThreats(cssi) end
 
----@private
 ---@return nil
-function TargetTrackingExtension:RevaluateTrackedSquads() return end
+function TargetTrackingExtension:RevaluateTrackedSquads() end
 
 ---@param cssi AICombatSquadScriptInterface
 ---@return Int32
-function TargetTrackingExtension:SquadTrackedMembersAmount(cssi) return end
+function TargetTrackingExtension:SquadTrackedMembersAmount(cssi) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@param threat gameObject
 ---@param detectedBySelf Bool
 ---@return nil
-function TargetTrackingExtension:TryToPlayVOOnCompanion(owner, threat, detectedBySelf) return end
+function TargetTrackingExtension:TryToPlayVOOnCompanion(owner, threat, detectedBySelf) end
 
----@private
 ---@param threat ScriptedPuppet
 ---@return nil
-function TargetTrackingExtension:TryToRegisterTrackedSquad(threat) return end
+function TargetTrackingExtension:TryToRegisterTrackedSquad(threat) end
 
 ---@param threat entEntity
 ---@return Bool
-function TargetTrackingExtension:WasThreatPersistent(threat) return end
+function TargetTrackingExtension:WasThreatPersistent(threat) end

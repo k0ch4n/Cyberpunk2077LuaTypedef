@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimChangeTexturePartEvent: inkanimEvent
----@field public imageTexturePartName CName
+---@field imageTexturePartName CName
 inkanimChangeTexturePartEvent = {}
 
 ---@param fields? inkanimChangeTexturePartEvent
 ---@return inkanimChangeTexturePartEvent
-function inkanimChangeTexturePartEvent.new(fields) return end
+function inkanimChangeTexturePartEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimBreakpointSimple: animIAnimBreakpoint
----@field public hitCount Uint32
+---@field hitCount Uint32
 animAnimBreakpointSimple = {}
 
 ---@param fields? animAnimBreakpointSimple
 ---@return animAnimBreakpointSimple
-function animAnimBreakpointSimple.new(fields) return end
+function animAnimBreakpointSimple.new(fields) end

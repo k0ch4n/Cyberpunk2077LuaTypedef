@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class entAudioEvent: redEvent
----@field public eventName CName
----@field public emitterName CName
----@field public nameData CName
----@field public floatData Float
----@field public eventType audioEventActionType
----@field public eventFlags audioAudioEventFlags
+---@field eventName CName
+---@field emitterName CName
+---@field nameData CName
+---@field floatData Float
+---@field eventType audioEventActionType
+---@field eventFlags audioAudioEventFlags
 entAudioEvent = {}
 
 ---@param fields? entAudioEvent
 ---@return entAudioEvent
-function entAudioEvent.new(fields) return end
+function entAudioEvent.new(fields) end

@@ -5,7 +5,7 @@ NetworkAreaController = {}
 
 ---@param fields? NetworkAreaController
 ---@return NetworkAreaController
-function NetworkAreaController.new(fields) return end
+function NetworkAreaController.new(fields) end
 
 ---@return NetworkAreaControllerPS
-function NetworkAreaController:GetPS() return end
+function NetworkAreaController:GetPS() end

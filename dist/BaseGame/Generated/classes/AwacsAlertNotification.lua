@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AwacsAlertNotification: GenericNotificationController
----@field private animation inkanimProxy
----@field private zone_data VehicleAlertNotificationViewData
----@field private ZoneLabelText inkTextWidgetReference
+---@field animation inkanimProxy
+---@field zone_data VehicleAlertNotificationViewData
+---@field ZoneLabelText inkTextWidgetReference
 AwacsAlertNotification = {}
 
 ---@param fields? AwacsAlertNotification
 ---@return AwacsAlertNotification
-function AwacsAlertNotification.new(fields) return end
+function AwacsAlertNotification.new(fields) end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function AwacsAlertNotification:SetNotificationData(notificationData) return end
+function AwacsAlertNotification:SetNotificationData(notificationData) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CompleteCommand: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 CompleteCommand = {}
 
 ---@param fields? CompleteCommand
 ---@return CompleteCommand
-function CompleteCommand.new(fields) return end
+function CompleteCommand.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CompleteCommand:Deactivate(context) return end
+function CompleteCommand:Deactivate(context) end

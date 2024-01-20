@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class UnequippedDecisions: EquipmentBaseDecisions
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public stateMachineInitData EquipmentInitData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInitData EquipmentInitData
 UnequippedDecisions = {}
 
 ---@param fields? UnequippedDecisions
 ---@return UnequippedDecisions
-function UnequippedDecisions.new(fields) return end
+function UnequippedDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UnequippedDecisions:ToUnequippedWaitingForExternalFactors(stateContext, scriptInterface) return end
+function UnequippedDecisions:ToUnequippedWaitingForExternalFactors(stateContext, scriptInterface) end

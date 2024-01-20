@@ -5,4 +5,4 @@ worldOffMeshConnectionNodeInstance = {}
 
 ---@param fields? worldOffMeshConnectionNodeInstance
 ---@return worldOffMeshConnectionNodeInstance
-function worldOffMeshConnectionNodeInstance.new(fields) return end
+function worldOffMeshConnectionNodeInstance.new(fields) end

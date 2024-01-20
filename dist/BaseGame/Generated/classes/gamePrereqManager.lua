@@ -5,14 +5,14 @@ gamePrereqManager = {}
 
 ---@param fields? gamePrereqManager
 ---@return gamePrereqManager
-function gamePrereqManager.new(fields) return end
+function gamePrereqManager.new(fields) end
 
 ---@param prereqData gamePrereqData
 ---@param params gamePrereqParams
 ---@return Bool
-function gamePrereqManager:MeetsPrerequisite(prereqData, params) return end
+function gamePrereqManager:MeetsPrerequisite(prereqData, params) end
 
 ---@param prereqID String
 ---@param params gamePrereqParams
 ---@return Bool
-function gamePrereqManager:MeetsPrerequisiteByID(prereqID, params) return end
+function gamePrereqManager:MeetsPrerequisiteByID(prereqID, params) end

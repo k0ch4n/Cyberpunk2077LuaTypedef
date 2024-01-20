@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class IsPlayerMovingPrereqState: gamePrereqState
----@field public owner gameObject
----@field public isMovingVertically Bool
----@field public listenerVertical redCallbackObject
----@field public isMovingHorizontally Bool
----@field public listenerHorizontal redCallbackObject
+---@field owner gameObject
+---@field isMovingVertically Bool
+---@field listenerVertical redCallbackObject
+---@field isMovingHorizontally Bool
+---@field listenerHorizontal redCallbackObject
 IsPlayerMovingPrereqState = {}
 
 ---@param fields? IsPlayerMovingPrereqState
 ---@return IsPlayerMovingPrereqState
-function IsPlayerMovingPrereqState.new(fields) return end
+function IsPlayerMovingPrereqState.new(fields) end
 
----@protected
 ---@param isMovingHorizontally Bool
 ---@return Bool
-function IsPlayerMovingPrereqState:OnHorizontalUpdate(isMovingHorizontally) return end
+function IsPlayerMovingPrereqState:OnHorizontalUpdate(isMovingHorizontally) end
 
----@protected
 ---@param isMovingVertically Bool
 ---@return Bool
-function IsPlayerMovingPrereqState:OnVerticalUpdate(isMovingVertically) return end
+function IsPlayerMovingPrereqState:OnVerticalUpdate(isMovingVertically) end

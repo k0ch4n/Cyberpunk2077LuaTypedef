@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class LootContainerAccessPointControllerPS: AccessPointControllerPS
----@field protected objRef NodeRef
+---@field objRef NodeRef
 LootContainerAccessPointControllerPS = {}
 
 ---@param fields? LootContainerAccessPointControllerPS
 ---@return LootContainerAccessPointControllerPS
-function LootContainerAccessPointControllerPS.new(fields) return end
+function LootContainerAccessPointControllerPS.new(fields) end
 
 ---@param state gameuiHackingMinigameState
 ---@return nil
-function LootContainerAccessPointControllerPS:FinalizeNetrunnerDive(state) return end
+function LootContainerAccessPointControllerPS:FinalizeNetrunnerDive(state) end
 
----@private
 ---@return nil
-function LootContainerAccessPointControllerPS:SendActionToEntity() return end
+function LootContainerAccessPointControllerPS:SendActionToEntity() end
 
----@private
 ---@return nil
-function LootContainerAccessPointControllerPS:SendActionToOtherAPDevices() return end
+function LootContainerAccessPointControllerPS:SendActionToOtherAPDevices() end

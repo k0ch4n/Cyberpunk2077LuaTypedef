@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorScriptPassiveExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public script AIbehaviorexpressionScript
+---@field script AIbehaviorexpressionScript
 AIbehaviorScriptPassiveExpressionDefinition = {}
 
 ---@param fields? AIbehaviorScriptPassiveExpressionDefinition
 ---@return AIbehaviorScriptPassiveExpressionDefinition
-function AIbehaviorScriptPassiveExpressionDefinition.new(fields) return end
+function AIbehaviorScriptPassiveExpressionDefinition.new(fields) end

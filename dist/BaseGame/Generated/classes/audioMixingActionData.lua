@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class audioMixingActionData
----@field public actionType audioMixingActionType
----@field public voContext locVoiceoverContext
----@field public tagValue CName
----@field public dbOffset Float
----@field public distanceRolloffFactor Float
----@field public voEventOverride CName
----@field public customParametersSetKey Uint64
----@field public customParameters audioAudSimpleParameter[]
+---@field actionType audioMixingActionType
+---@field voContext locVoiceoverContext
+---@field tagValue CName
+---@field dbOffset Float
+---@field distanceRolloffFactor Float
+---@field voEventOverride CName
+---@field customParametersSetKey Uint64
+---@field customParameters audioAudSimpleParameter[]
 audioMixingActionData = {}
 
 ---@param fields? audioMixingActionData
 ---@return audioMixingActionData
-function audioMixingActionData.new(fields) return end
+function audioMixingActionData.new(fields) end

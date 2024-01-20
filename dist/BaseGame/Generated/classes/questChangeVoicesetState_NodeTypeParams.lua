@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questChangeVoicesetState_NodeTypeParams
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public enableVoicesetLines Bool
----@field public enableVoicesetGrunts Bool
----@field public inputsToBlock entVoicesetInputToBlock[]
+---@field puppetRef gameEntityReference
+---@field isPlayer Bool
+---@field enableVoicesetLines Bool
+---@field enableVoicesetGrunts Bool
+---@field inputsToBlock entVoicesetInputToBlock[]
 questChangeVoicesetState_NodeTypeParams = {}
 
 ---@param fields? questChangeVoicesetState_NodeTypeParams
 ---@return questChangeVoicesetState_NodeTypeParams
-function questChangeVoicesetState_NodeTypeParams.new(fields) return end
+function questChangeVoicesetState_NodeTypeParams.new(fields) end

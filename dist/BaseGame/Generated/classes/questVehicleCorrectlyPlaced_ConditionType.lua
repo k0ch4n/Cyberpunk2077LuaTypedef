@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class questVehicleCorrectlyPlaced_ConditionType: questIVehicleConditionType
----@field public vehicleRef gameEntityReference
----@field public timeInterval Float
----@field public checkIsUpsideDown Bool
----@field public checkIsOnTheSide Bool
----@field public checkAreAllWheelsOnGround Bool
----@field public inverted Bool
+---@field vehicleRef gameEntityReference
+---@field timeInterval Float
+---@field checkIsUpsideDown Bool
+---@field checkIsOnTheSide Bool
+---@field checkAreAllWheelsOnGround Bool
+---@field inverted Bool
 questVehicleCorrectlyPlaced_ConditionType = {}
 
 ---@param fields? questVehicleCorrectlyPlaced_ConditionType
 ---@return questVehicleCorrectlyPlaced_ConditionType
-function questVehicleCorrectlyPlaced_ConditionType.new(fields) return end
+function questVehicleCorrectlyPlaced_ConditionType.new(fields) end

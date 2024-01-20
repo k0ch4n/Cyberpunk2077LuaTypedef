@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioDroneGlobalSettings: audioAudioMetadata
----@field public speedRtpc CName
----@field public thrustRtpc CName
+---@field speedRtpc CName
+---@field thrustRtpc CName
 audioDroneGlobalSettings = {}
 
 ---@param fields? audioDroneGlobalSettings
 ---@return audioDroneGlobalSettings
-function audioDroneGlobalSettings.new(fields) return end
+function audioDroneGlobalSettings.new(fields) end

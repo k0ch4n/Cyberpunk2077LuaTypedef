@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animTwistOutput
----@field public positiveScale Float
----@field public negativeScale Float
----@field public twistAxis animAxis
----@field public twistedTransform animTransformIndex
----@field public outputAngleTrack animNamedTrackIndex
+---@field positiveScale Float
+---@field negativeScale Float
+---@field twistAxis animAxis
+---@field twistedTransform animTransformIndex
+---@field outputAngleTrack animNamedTrackIndex
 animTwistOutput = {}
 
 ---@param fields? animTwistOutput
 ---@return animTwistOutput
-function animTwistOutput.new(fields) return end
+function animTwistOutput.new(fields) end

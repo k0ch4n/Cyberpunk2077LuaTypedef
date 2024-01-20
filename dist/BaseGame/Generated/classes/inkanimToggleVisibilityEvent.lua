@@ -5,4 +5,4 @@ inkanimToggleVisibilityEvent = {}
 
 ---@param fields? inkanimToggleVisibilityEvent
 ---@return inkanimToggleVisibilityEvent
-function inkanimToggleVisibilityEvent.new(fields) return end
+function inkanimToggleVisibilityEvent.new(fields) end

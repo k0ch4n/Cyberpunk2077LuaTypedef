@@ -5,4 +5,4 @@ gameCurrentTargetPrereq = {}
 
 ---@param fields? gameCurrentTargetPrereq
 ---@return gameCurrentTargetPrereq
-function gameCurrentTargetPrereq.new(fields) return end
+function gameCurrentTargetPrereq.new(fields) end

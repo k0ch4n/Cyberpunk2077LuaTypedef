@@ -5,4 +5,4 @@ animSApplyRotationIKSolver = {}
 
 ---@param fields? animSApplyRotationIKSolver
 ---@return animSApplyRotationIKSolver
-function animSApplyRotationIKSolver.new(fields) return end
+function animSApplyRotationIKSolver.new(fields) end

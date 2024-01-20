@@ -1,35 +1,34 @@
 ---@meta
 
 ---@class StatPoolChangeOverTimePrereqState: gamePrereqState
----@field public statPoolListener BaseStatPoolPrereqListener
----@field public ownerID gameStatsObjectID
----@field public valueToCheck Float
----@field public timeFrame Float
----@field public comparePercentage Bool
----@field public checkGain Bool
----@field public history ChangeInfoWithTimeStamp[]
----@field public GameInstance ScriptGameInstance
+---@field statPoolListener BaseStatPoolPrereqListener
+---@field ownerID gameStatsObjectID
+---@field valueToCheck Float
+---@field timeFrame Float
+---@field comparePercentage Bool
+---@field checkGain Bool
+---@field history ChangeInfoWithTimeStamp[]
+---@field GameInstance ScriptGameInstance
 StatPoolChangeOverTimePrereqState = {}
 
 ---@param fields? StatPoolChangeOverTimePrereqState
 ---@return StatPoolChangeOverTimePrereqState
-function StatPoolChangeOverTimePrereqState.new(fields) return end
+function StatPoolChangeOverTimePrereqState.new(fields) end
 
----@private
 ---@return Bool
-function StatPoolChangeOverTimePrereqState:CheckHistory() return end
+function StatPoolChangeOverTimePrereqState:CheckHistory() end
 
 ---@param statPoolType gamedataStatPoolType
 ---@param owner entEntityID
 ---@return nil
-function StatPoolChangeOverTimePrereqState:RegisterStatPoolListener(statPoolType, owner) return end
+function StatPoolChangeOverTimePrereqState:RegisterStatPoolListener(statPoolType, owner) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function StatPoolChangeOverTimePrereqState:StatPoolUpdate(oldValue, newValue, percToPoints) return end
+function StatPoolChangeOverTimePrereqState:StatPoolUpdate(oldValue, newValue, percToPoints) end
 
 ---@param statPoolType gamedataStatPoolType
 ---@return nil
-function StatPoolChangeOverTimePrereqState:UnregisterStatPoolListener(statPoolType) return end
+function StatPoolChangeOverTimePrereqState:UnregisterStatPoolListener(statPoolType) end

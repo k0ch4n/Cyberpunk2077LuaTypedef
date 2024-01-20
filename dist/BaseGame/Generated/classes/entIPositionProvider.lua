@@ -8,40 +8,40 @@ entIPositionProvider = {}
 ---@param targetVelocityProvider entIVelocityProvider
 ---@param ownerVelocity Float
 ---@return entIPositionProvider
-function entIPositionProvider.CreateCollisionPredictionPositionProvider(targetPosProvider, ownerPosProvider, targetVelocityProvider, ownerVelocity) return end
+function entIPositionProvider.CreateCollisionPredictionPositionProvider(targetPosProvider, ownerPosProvider, targetVelocityProvider, ownerVelocity) end
 
 ---@param transformHistoryComp entTransformHistoryComponent
 ---@param timeDelay Float
 ---@param localOffset? Vector3
 ---@return entIPositionProvider
-function entIPositionProvider.CreateEntityHistoryPositionProvider(transformHistoryComp, timeDelay, localOffset) return end
+function entIPositionProvider.CreateEntityHistoryPositionProvider(transformHistoryComp, timeDelay, localOffset) end
 
 ---@param entity entEntity
 ---@param localOffset? Vector3
 ---@return entIPositionProvider
-function entIPositionProvider.CreateEntityPositionProvider(entity, localOffset) return end
+function entIPositionProvider.CreateEntityPositionProvider(entity, localOffset) end
 
 ---@param entity entIPlacedComponent
 ---@param localOffset? Vector3
 ---@return entIPositionProvider
-function entIPositionProvider.CreatePlacedComponentPositionProvider(entity, localOffset) return end
+function entIPositionProvider.CreatePlacedComponentPositionProvider(entity, localOffset) end
 
 ---@param entity entEntity
 ---@param slotName CName|string
 ---@param localOffset? Vector3
 ---@return entIPositionProvider
-function entIPositionProvider.CreateSlotPositionProvider(entity, slotName, localOffset) return end
+function entIPositionProvider.CreateSlotPositionProvider(entity, slotName, localOffset) end
 
 ---@param position WorldPosition
 ---@return entIPositionProvider
-function entIPositionProvider.CreateStaticPositionProvider(position) return end
+function entIPositionProvider.CreateStaticPositionProvider(position) end
 
 ---@return Bool, Vector4 outPos
-function entIPositionProvider:CalculatePosition() return end
+function entIPositionProvider:CalculatePosition() end
 
 ---@return Vector4
-function entIPositionProvider:GetWorldOffset() return end
+function entIPositionProvider:GetWorldOffset() end
 
 ---@param worldOffset Vector4
 ---@return nil
-function entIPositionProvider:SetWorldOffset(worldOffset) return end
+function entIPositionProvider:SetWorldOffset(worldOffset) end

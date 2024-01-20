@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PerkHoverOutEvent: redEvent
----@field public widget inkWidget
----@field public perkData BasePerkDisplayData
+---@field widget inkWidget
+---@field perkData BasePerkDisplayData
 PerkHoverOutEvent = {}
 
 ---@param fields? PerkHoverOutEvent
 ---@return PerkHoverOutEvent
-function PerkHoverOutEvent.new(fields) return end
+function PerkHoverOutEvent.new(fields) end

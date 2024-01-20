@@ -5,4 +5,4 @@ animAnimNode_NPCExploration = {}
 
 ---@param fields? animAnimNode_NPCExploration
 ---@return animAnimNode_NPCExploration
-function animAnimNode_NPCExploration.new(fields) return end
+function animAnimNode_NPCExploration.new(fields) end

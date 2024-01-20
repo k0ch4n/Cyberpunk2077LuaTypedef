@@ -5,4 +5,4 @@ gamemappinsRuntimeQuestMappinData = {}
 
 ---@param fields? gamemappinsRuntimeQuestMappinData
 ---@return gamemappinsRuntimeQuestMappinData
-function gamemappinsRuntimeQuestMappinData.new(fields) return end
+function gamemappinsRuntimeQuestMappinData.new(fields) end

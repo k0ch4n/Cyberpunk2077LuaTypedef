@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class IsPuppetActivePrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 IsPuppetActivePrereq = {}
 
 ---@param fields? IsPuppetActivePrereq
 ---@return IsPuppetActivePrereq
-function IsPuppetActivePrereq.new(fields) return end
+function IsPuppetActivePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IsPuppetActivePrereq:Initialize(recordID) return end
+function IsPuppetActivePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function IsPuppetActivePrereq:IsFulfilled(context) return end
+function IsPuppetActivePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IsPuppetActivePrereq:OnApplied(state, context) return end
+function IsPuppetActivePrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function IsPuppetActivePrereq:OnRegister(state, context) return end
+function IsPuppetActivePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IsPuppetActivePrereq:OnUnregister(state, context) return end
+function IsPuppetActivePrereq:OnUnregister(state, context) end

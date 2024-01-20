@@ -5,4 +5,4 @@ gameRealTimeEventSystem = {}
 
 ---@param fields? gameRealTimeEventSystem
 ---@return gameRealTimeEventSystem
-function gameRealTimeEventSystem.new(fields) return end
+function gameRealTimeEventSystem.new(fields) end

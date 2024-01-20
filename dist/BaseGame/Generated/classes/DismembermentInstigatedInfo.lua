@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class DismembermentInstigatedInfo
----@field public target gameObject
----@field public targetPosition Vector4
----@field public attackPosition Vector4
----@field public bodyPart EHitReactionZone
----@field public weaponRecord gamedataWeaponItem_Record
----@field public attackType gamedataAttackType
----@field public attackSubtype gamedataAttackSubtype
----@field public value Uint32
----@field public timeSinceDeath Float
----@field public timeSinceDefeat Float
----@field public wasTargetAlreadyDead Bool
----@field public wasTargetAlreadyDefeated Bool
----@field public attackIsExplosion Bool
+---@field target gameObject
+---@field targetPosition Vector4
+---@field attackPosition Vector4
+---@field bodyPart EHitReactionZone
+---@field weaponRecord gamedataWeaponItem_Record
+---@field attackType gamedataAttackType
+---@field attackSubtype gamedataAttackSubtype
+---@field value Uint32
+---@field timeSinceDeath Float
+---@field timeSinceDefeat Float
+---@field wasTargetAlreadyDead Bool
+---@field wasTargetAlreadyDefeated Bool
+---@field attackIsExplosion Bool
 DismembermentInstigatedInfo = {}
 
 ---@param fields? DismembermentInstigatedInfo
 ---@return DismembermentInstigatedInfo
-function DismembermentInstigatedInfo.new(fields) return end
+function DismembermentInstigatedInfo.new(fields) end

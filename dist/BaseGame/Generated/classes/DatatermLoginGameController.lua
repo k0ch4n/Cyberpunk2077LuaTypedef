@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class DatatermLoginGameController: BaseBunkerComputerGameController
----@field public loopAnimName CName
----@field public alphaSys inkWidgetReference
----@field public bravoSys inkWidgetReference
----@field public sierraSys inkWidgetReference
----@field public victorSys inkWidgetReference
+---@field loopAnimName CName
+---@field alphaSys inkWidgetReference
+---@field bravoSys inkWidgetReference
+---@field sierraSys inkWidgetReference
+---@field victorSys inkWidgetReference
 DatatermLoginGameController = {}
 
 ---@param fields? DatatermLoginGameController
 ---@return DatatermLoginGameController
-function DatatermLoginGameController.new(fields) return end
+function DatatermLoginGameController.new(fields) end
 
----@protected
 ---@return Bool
-function DatatermLoginGameController:OnInitialize() return end
+function DatatermLoginGameController:OnInitialize() end

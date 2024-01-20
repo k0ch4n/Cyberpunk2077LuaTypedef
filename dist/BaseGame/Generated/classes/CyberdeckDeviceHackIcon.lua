@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CyberdeckDeviceHackIcon: inkWidgetLogicController
----@field protected image inkImageWidgetReference
+---@field image inkImageWidgetReference
 CyberdeckDeviceHackIcon = {}
 
 ---@param fields? CyberdeckDeviceHackIcon
 ---@return CyberdeckDeviceHackIcon
-function CyberdeckDeviceHackIcon.new(fields) return end
+function CyberdeckDeviceHackIcon.new(fields) end
 
 ---@param data CyberdeckDeviceQuickhackData
 ---@return nil
-function CyberdeckDeviceHackIcon:Setup(data) return end
+function CyberdeckDeviceHackIcon:Setup(data) end

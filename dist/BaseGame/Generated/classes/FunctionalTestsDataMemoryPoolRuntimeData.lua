@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class FunctionalTestsDataMemoryPoolRuntimeData: ISerializable
----@field public poolName String
----@field public bytesAllocated Int64
----@field public allocationCount Int64
+---@field poolName String
+---@field bytesAllocated Int64
+---@field allocationCount Int64
 FunctionalTestsDataMemoryPoolRuntimeData = {}
 
 ---@param fields? FunctionalTestsDataMemoryPoolRuntimeData
 ---@return FunctionalTestsDataMemoryPoolRuntimeData
-function FunctionalTestsDataMemoryPoolRuntimeData.new(fields) return end
+function FunctionalTestsDataMemoryPoolRuntimeData.new(fields) end

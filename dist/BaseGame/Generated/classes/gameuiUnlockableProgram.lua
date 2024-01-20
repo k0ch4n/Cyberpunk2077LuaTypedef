@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameuiUnlockableProgram
----@field public name CName
----@field public note CName
----@field public isFulfilled Bool
----@field public programTweakID TweakDBID
----@field public iconTweakID TweakDBID
----@field public hidden Bool
+---@field name CName
+---@field note CName
+---@field isFulfilled Bool
+---@field programTweakID TweakDBID
+---@field iconTweakID TweakDBID
+---@field hidden Bool
 gameuiUnlockableProgram = {}
 
 ---@param fields? gameuiUnlockableProgram
 ---@return gameuiUnlockableProgram
-function gameuiUnlockableProgram.new(fields) return end
+function gameuiUnlockableProgram.new(fields) end

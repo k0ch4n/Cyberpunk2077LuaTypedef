@@ -1,98 +1,83 @@
 ---@meta
 
 ---@class DifficultySelectionMenu: gameuiBaseCharacterCreationController
----@field public difficultyTitle inkTextWidgetReference
----@field public textureTop inkImageWidgetReference
----@field public textureBottom inkImageWidgetReference
----@field private hoverAnimation CName
----@field public difficulty0 inkWidgetReference
----@field public difficulty1 inkWidgetReference
----@field public difficulty2 inkWidgetReference
----@field public difficulty3 inkWidgetReference
----@field private animationProxy inkanimProxy
----@field private lastShownPart CName
----@field private lastAtlas redResourceReferenceScriptToken
----@field private translationAnimationCtrl inkTextReplaceAnimationController
----@field private localizedText String
----@field private c_atlas1 redResourceReferenceScriptToken
----@field private c_atlas2 redResourceReferenceScriptToken
----@field private isInputLocked Bool
+---@field difficultyTitle inkTextWidgetReference
+---@field textureTop inkImageWidgetReference
+---@field textureBottom inkImageWidgetReference
+---@field hoverAnimation CName
+---@field difficulty0 inkWidgetReference
+---@field difficulty1 inkWidgetReference
+---@field difficulty2 inkWidgetReference
+---@field difficulty3 inkWidgetReference
+---@field animationProxy inkanimProxy
+---@field lastShownPart CName
+---@field lastAtlas redResourceReferenceScriptToken
+---@field translationAnimationCtrl inkTextReplaceAnimationController
+---@field localizedText String
+---@field c_atlas1 redResourceReferenceScriptToken
+---@field c_atlas2 redResourceReferenceScriptToken
+---@field isInputLocked Bool
 DifficultySelectionMenu = {}
 
 ---@param fields? DifficultySelectionMenu
 ---@return DifficultySelectionMenu
-function DifficultySelectionMenu.new(fields) return end
+function DifficultySelectionMenu.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DifficultySelectionMenu:OnButtonRelease(evt) return end
+function DifficultySelectionMenu:OnButtonRelease(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DifficultySelectionMenu:OnHoverOverDifficulty0(e) return end
+function DifficultySelectionMenu:OnHoverOverDifficulty0(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DifficultySelectionMenu:OnHoverOverDifficulty1(e) return end
+function DifficultySelectionMenu:OnHoverOverDifficulty1(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DifficultySelectionMenu:OnHoverOverDifficulty2(e) return end
+function DifficultySelectionMenu:OnHoverOverDifficulty2(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DifficultySelectionMenu:OnHoverOverDifficulty3(e) return end
+function DifficultySelectionMenu:OnHoverOverDifficulty3(e) end
 
----@protected
 ---@return Bool
-function DifficultySelectionMenu:OnInitialize() return end
+function DifficultySelectionMenu:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function DifficultySelectionMenu:OnOutroComplete(anim) return end
+function DifficultySelectionMenu:OnOutroComplete(anim) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function DifficultySelectionMenu:OnPress(e) return end
+function DifficultySelectionMenu:OnPress(e) end
 
----@protected
 ---@return Bool
-function DifficultySelectionMenu:OnUninitialize() return end
+function DifficultySelectionMenu:OnUninitialize() end
 
----@protected
 ---@return nil
-function DifficultySelectionMenu:NextMenu() return end
+function DifficultySelectionMenu:NextMenu() end
 
----@private
 ---@return nil
-function DifficultySelectionMenu:OnIntro() return end
+function DifficultySelectionMenu:OnIntro() end
 
----@private
 ---@return nil
-function DifficultySelectionMenu:OnOutro() return end
+function DifficultySelectionMenu:OnOutro() end
 
 ---@param animName CName|string
 ---@param callBack? CName|string
 ---@return nil
-function DifficultySelectionMenu:PlayAnim(animName, callBack) return end
+function DifficultySelectionMenu:PlayAnim(animName, callBack) end
 
----@private
 ---@return nil
-function DifficultySelectionMenu:PlayTranslationAnimation() return end
+function DifficultySelectionMenu:PlayTranslationAnimation() end
 
----@protected
 ---@return nil
-function DifficultySelectionMenu:PriorMenu() return end
+function DifficultySelectionMenu:PriorMenu() end
 
----@private
 ---@param atlas redResourceReferenceScriptToken
 ---@param part CName|string
 ---@return nil
-function DifficultySelectionMenu:TextureTransition(atlas, part) return end
+function DifficultySelectionMenu:TextureTransition(atlas, part) end

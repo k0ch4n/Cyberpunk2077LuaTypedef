@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questJoinCrowdParams: questAICommandParams
----@field public repeatCommandOnInterrupt Bool
+---@field repeatCommandOnInterrupt Bool
 questJoinCrowdParams = {}
 
 ---@param fields? questJoinCrowdParams
 ---@return questJoinCrowdParams
-function questJoinCrowdParams.new(fields) return end
+function questJoinCrowdParams.new(fields) end

@@ -5,4 +5,4 @@ entFuncOrientationProvider = {}
 
 ---@param fields? entFuncOrientationProvider
 ---@return entFuncOrientationProvider
-function entFuncOrientationProvider.new(fields) return end
+function entFuncOrientationProvider.new(fields) end

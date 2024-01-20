@@ -1,59 +1,56 @@
 ---@meta
 
 ---@class MeleeStrongAttackEvents: MeleeAttackGenericEvents
----@field public slowMoSet Bool
----@field public crouchedAfterLeapAttack Bool
+---@field slowMoSet Bool
+---@field crouchedAfterLeapAttack Bool
 MeleeStrongAttackEvents = {}
 
 ---@param fields? MeleeStrongAttackEvents
 ---@return MeleeStrongAttackEvents
-function MeleeStrongAttackEvents.new(fields) return end
+function MeleeStrongAttackEvents.new(fields) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param playerPuppet gameObject
 ---@param target NPCPuppet
 ---@return nil
-function MeleeStrongAttackEvents:ApplyRelicMeleewareDamageToTarget(scriptInterface, playerPuppet, target) return end
+function MeleeStrongAttackEvents:ApplyRelicMeleewareDamageToTarget(scriptInterface, playerPuppet, target) end
 
----@protected
 ---@return EMeleeAttackType
-function MeleeStrongAttackEvents:GetAttackType() return end
+function MeleeStrongAttackEvents:GetAttackType() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param target gameObject
 ---@return nil
-function MeleeStrongAttackEvents:LeapToTarget(stateContext, scriptInterface, target) return end
+function MeleeStrongAttackEvents:LeapToTarget(stateContext, scriptInterface, target) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeStrongAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeStrongAttackEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeStrongAttackEvents:OnEnterFromMeleeLeap(stateContext, scriptInterface) return end
+function MeleeStrongAttackEvents:OnEnterFromMeleeLeap(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeStrongAttackEvents:OnExit(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function MeleeStrongAttackEvents:OnExitToMeleeComboAttack(stateContext, scriptInterface) return end
+function MeleeStrongAttackEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeStrongAttackEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeStrongAttackEvents:OnExitToMeleeComboAttack(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function MeleeStrongAttackEvents:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeStrongAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeStrongAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

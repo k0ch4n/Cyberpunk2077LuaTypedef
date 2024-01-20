@@ -5,4 +5,4 @@ workIsSyncSlaveCondition = {}
 
 ---@param fields? workIsSyncSlaveCondition
 ---@return workIsSyncSlaveCondition
-function workIsSyncSlaveCondition.new(fields) return end
+function workIsSyncSlaveCondition.new(fields) end

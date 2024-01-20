@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVoiceTriggerLimitsMap: audioAudioMetadata
----@field public includes CName[]
----@field public triggers audioVoiceTriggerLimitsMapItem[]
+---@field includes CName[]
+---@field triggers audioVoiceTriggerLimitsMapItem[]
 audioVoiceTriggerLimitsMap = {}
 
 ---@param fields? audioVoiceTriggerLimitsMap
 ---@return audioVoiceTriggerLimitsMap
-function audioVoiceTriggerLimitsMap.new(fields) return end
+function audioVoiceTriggerLimitsMap.new(fields) end

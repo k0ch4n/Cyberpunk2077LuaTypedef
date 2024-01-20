@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class CheckUnregisteredWeapon: AIItemHandlingCondition
----@field private primaryItemArrayRecordTweakDBID TweakDBID[]
----@field private secondaryItemArrayRecordTweakDBID TweakDBID[]
----@field private transactionSystem gameTransactionSystem
----@field private puppet ScriptedPuppet
----@field private initialized Bool
+---@field primaryItemArrayRecordTweakDBID TweakDBID[]
+---@field secondaryItemArrayRecordTweakDBID TweakDBID[]
+---@field transactionSystem gameTransactionSystem
+---@field puppet ScriptedPuppet
+---@field initialized Bool
 CheckUnregisteredWeapon = {}
 
 ---@param fields? CheckUnregisteredWeapon
 ---@return CheckUnregisteredWeapon
-function CheckUnregisteredWeapon.new(fields) return end
+function CheckUnregisteredWeapon.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckUnregisteredWeapon:Activate(context) return end
+function CheckUnregisteredWeapon:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckUnregisteredWeapon:Check(context) return end
+function CheckUnregisteredWeapon:Check(context) end

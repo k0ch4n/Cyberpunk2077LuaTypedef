@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameOverrideMissShotOffset: redEvent
----@field public overrideRecord String
+---@field overrideRecord String
 gameOverrideMissShotOffset = {}
 
 ---@param fields? gameOverrideMissShotOffset
 ---@return gameOverrideMissShotOffset
-function gameOverrideMissShotOffset.new(fields) return end
+function gameOverrideMissShotOffset.new(fields) end

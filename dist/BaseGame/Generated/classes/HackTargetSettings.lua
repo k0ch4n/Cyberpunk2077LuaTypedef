@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class HackTargetSettings
----@field public showDirectionalIndicator Bool
----@field public isRevealPositionAction Bool
----@field public skipBeingHackedSetUp Bool
----@field public HUDData HUDProgressBarData
+---@field showDirectionalIndicator Bool
+---@field isRevealPositionAction Bool
+---@field skipBeingHackedSetUp Bool
+---@field HUDData HUDProgressBarData
 HackTargetSettings = {}
 
 ---@param fields? HackTargetSettings
 ---@return HackTargetSettings
-function HackTargetSettings.new(fields) return end
+function HackTargetSettings.new(fields) end

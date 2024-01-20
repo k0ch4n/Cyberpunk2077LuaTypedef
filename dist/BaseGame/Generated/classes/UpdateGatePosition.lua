@@ -5,4 +5,4 @@ UpdateGatePosition = {}
 
 ---@param fields? UpdateGatePosition
 ---@return UpdateGatePosition
-function UpdateGatePosition.new(fields) return end
+function UpdateGatePosition.new(fields) end

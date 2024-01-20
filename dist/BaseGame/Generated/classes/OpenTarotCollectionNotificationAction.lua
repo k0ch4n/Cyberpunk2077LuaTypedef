@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class OpenTarotCollectionNotificationAction: GenericNotificationBaseAction
----@field public eventDispatcher worlduiIWidgetGameController
+---@field eventDispatcher worlduiIWidgetGameController
 OpenTarotCollectionNotificationAction = {}
 
 ---@param fields? OpenTarotCollectionNotificationAction
 ---@return OpenTarotCollectionNotificationAction
-function OpenTarotCollectionNotificationAction.new(fields) return end
+function OpenTarotCollectionNotificationAction.new(fields) end
 
 ---@param data IScriptable
 ---@return Bool
-function OpenTarotCollectionNotificationAction:Execute(data) return end
+function OpenTarotCollectionNotificationAction:Execute(data) end
 
 ---@return String
-function OpenTarotCollectionNotificationAction:GetLabel() return end
+function OpenTarotCollectionNotificationAction:GetLabel() end
 
----@private
 ---@return nil
-function OpenTarotCollectionNotificationAction:ShowTarotCollection() return end
+function OpenTarotCollectionNotificationAction:ShowTarotCollection() end

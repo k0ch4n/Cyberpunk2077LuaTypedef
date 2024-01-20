@@ -5,4 +5,4 @@ QuickHackCrosshairStateEvents = {}
 
 ---@param fields? QuickHackCrosshairStateEvents
 ---@return QuickHackCrosshairStateEvents
-function QuickHackCrosshairStateEvents.new(fields) return end
+function QuickHackCrosshairStateEvents.new(fields) end

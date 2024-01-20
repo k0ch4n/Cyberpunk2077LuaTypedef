@@ -5,4 +5,4 @@ CrowdCallingPoliceEvent = {}
 
 ---@param fields? CrowdCallingPoliceEvent
 ---@return CrowdCallingPoliceEvent
-function CrowdCallingPoliceEvent.new(fields) return end
+function CrowdCallingPoliceEvent.new(fields) end

@@ -5,4 +5,4 @@ gameuiGridDataFillFinished = {}
 
 ---@param fields? gameuiGridDataFillFinished
 ---@return gameuiGridDataFillFinished
-function gameuiGridDataFillFinished.new(fields) return end
+function gameuiGridDataFillFinished.new(fields) end

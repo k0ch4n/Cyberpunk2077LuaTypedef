@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class effectSlotEntry
----@field public slotName CName
----@field public relativePosition Vector3
----@field public relativeRotation Quaternion
+---@field slotName CName
+---@field relativePosition Vector3
+---@field relativeRotation Quaternion
 effectSlotEntry = {}
 
 ---@param fields? effectSlotEntry
 ---@return effectSlotEntry
-function effectSlotEntry.new(fields) return end
+function effectSlotEntry.new(fields) end

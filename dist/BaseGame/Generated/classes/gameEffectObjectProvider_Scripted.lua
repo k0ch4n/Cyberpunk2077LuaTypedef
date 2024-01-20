@@ -5,4 +5,4 @@ gameEffectObjectProvider_Scripted = {}
 
 ---@param fields? gameEffectObjectProvider_Scripted
 ---@return gameEffectObjectProvider_Scripted
-function gameEffectObjectProvider_Scripted.new(fields) return end
+function gameEffectObjectProvider_Scripted.new(fields) end

@@ -5,10 +5,9 @@ WaitForEquipEvents = {}
 
 ---@param fields? WaitForEquipEvents
 ---@return WaitForEquipEvents
-function WaitForEquipEvents.new(fields) return end
+function WaitForEquipEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WaitForEquipEvents:OnEnter(stateContext, scriptInterface) return end
+function WaitForEquipEvents:OnEnter(stateContext, scriptInterface) end

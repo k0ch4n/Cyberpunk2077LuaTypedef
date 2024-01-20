@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class GlobalIlluminationSettings: IAreaSettings
----@field public multiBouceScale curveData
----@field public multiBouceSaturation curveData
----@field public emissiveScale curveData
----@field public diffuseScale curveData
----@field public localLightsScale curveData
----@field public lightScaleCompenensation curveData
----@field public reflectionCompensation curveData
----@field public ambientBase curveData
----@field public rayTracedSkyRadianceScale curveData
+---@field multiBouceScale curveData
+---@field multiBouceSaturation curveData
+---@field emissiveScale curveData
+---@field diffuseScale curveData
+---@field localLightsScale curveData
+---@field lightScaleCompenensation curveData
+---@field reflectionCompensation curveData
+---@field ambientBase curveData
+---@field rayTracedSkyRadianceScale curveData
 GlobalIlluminationSettings = {}
 
 ---@param fields? GlobalIlluminationSettings
 ---@return GlobalIlluminationSettings
-function GlobalIlluminationSettings.new(fields) return end
+function GlobalIlluminationSettings.new(fields) end

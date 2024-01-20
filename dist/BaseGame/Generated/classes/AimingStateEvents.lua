@@ -1,179 +1,158 @@
 ---@meta
 
 ---@class AimingStateEvents: UpperBodyEventsTransition
----@field private aim gameweaponAnimFeature_AimPlayer
----@field private posAnimFeature AnimFeature_ProceduralIronsightData
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private weapon gameweaponObject
----@field private executionOwner gameObject
----@field private localBlackboard gameIBlackboard
----@field private mouseZoomLevel Float
----@field private zoomLevelNum Int32
----@field private numZoomLevels Int32
----@field private delayAimSnap Int32
----@field private isAiming Bool
----@field private aimInTimeRemaining Float
----@field private aimBroadcast Bool
----@field private zoomLevel Float
----@field private finalZoomLevel Float
----@field private previousZoomLevel Float
----@field private currentZoomLevel Float
----@field private timeToBlendZoom Float
----@field private time Float
----@field private speed Float
----@field private itemChanged Bool
----@field private firearmsNoUnequipNoSwitch Bool
----@field private shootingRangeCompetition Bool
----@field private weaponHasPerfectAim Bool
----@field private statsSystem gameStatsSystem
----@field private statusEffectSystem gameStatusEffectSystem
----@field private attachmentSlotListener gameAttachmentSlotsScriptListener
----@field private prevDownwardsGravity Float
----@field private downwardsGravityChanged Bool
----@field private accelerationMod gameConstantStatModifierData_Deprecated
----@field private decelerationMod gameConstantStatModifierData_Deprecated
+---@field aim gameweaponAnimFeature_AimPlayer
+---@field posAnimFeature AnimFeature_ProceduralIronsightData
+---@field statusEffectListener DefaultTransitionStatusEffectListener
+---@field weapon gameweaponObject
+---@field executionOwner gameObject
+---@field localBlackboard gameIBlackboard
+---@field mouseZoomLevel Float
+---@field zoomLevelNum Int32
+---@field numZoomLevels Int32
+---@field delayAimSnap Int32
+---@field isAiming Bool
+---@field aimInTimeRemaining Float
+---@field aimBroadcast Bool
+---@field zoomLevel Float
+---@field finalZoomLevel Float
+---@field previousZoomLevel Float
+---@field currentZoomLevel Float
+---@field timeToBlendZoom Float
+---@field time Float
+---@field speed Float
+---@field itemChanged Bool
+---@field firearmsNoUnequipNoSwitch Bool
+---@field shootingRangeCompetition Bool
+---@field weaponHasPerfectAim Bool
+---@field statsSystem gameStatsSystem
+---@field statusEffectSystem gameStatusEffectSystem
+---@field attachmentSlotListener gameAttachmentSlotsScriptListener
+---@field prevDownwardsGravity Float
+---@field downwardsGravityChanged Bool
+---@field accelerationMod gameConstantStatModifierData_Deprecated
+---@field decelerationMod gameConstantStatModifierData_Deprecated
 AimingStateEvents = {}
 
 ---@param fields? AimingStateEvents
 ---@return AimingStateEvents
-function AimingStateEvents.new(fields) return end
+function AimingStateEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:EvaluateAimSnap(stateContext, scriptInterface) return end
+function AimingStateEvents:EvaluateAimSnap(stateContext, scriptInterface) end
 
----@protected
 ---@return gameaimAssistAimRequest
-function AimingStateEvents:GetPerfectAimSnapParams() return end
+function AimingStateEvents:GetPerfectAimSnapParams() end
 
----@private
 ---@return TweakDBID
-function AimingStateEvents:GetPlayerAimingStatusEffectID() return end
+function AimingStateEvents:GetPlayerAimingStatusEffectID() end
 
----@protected
 ---@return gameaimAssistAimRequest
-function AimingStateEvents:GetVehicleAimSnapParams() return end
+function AimingStateEvents:GetVehicleAimSnapParams() end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gameweaponObject
-function AimingStateEvents:GetWeaponObject(scriptInterface) return end
+function AimingStateEvents:GetWeaponObject(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param isAiming Bool
 ---@return nil
-function AimingStateEvents:NotifyWeaponObject(scriptInterface, isAiming) return end
+function AimingStateEvents:NotifyWeaponObject(scriptInterface, isAiming) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:OnAimStartBegin(stateContext, scriptInterface) return end
+function AimingStateEvents:OnAimStartBegin(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:OnAttach(stateContext, scriptInterface) return end
+function AimingStateEvents:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:OnDetach(stateContext, scriptInterface) return end
+function AimingStateEvents:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:OnEnter(stateContext, scriptInterface) return end
+function AimingStateEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:OnExit(stateContext, scriptInterface) return end
+function AimingStateEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function AimingStateEvents:OnItemEquipped(slot, item) return end
+function AimingStateEvents:OnItemEquipped(slot, item) end
 
 ---@param slot TweakDBID|string
 ---@param item gameItemID
 ---@return nil
-function AimingStateEvents:OnItemUnequipped(slot, item) return end
+function AimingStateEvents:OnItemUnequipped(slot, item) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function AimingStateEvents:OnStatusEffectApplied(statusEffect) return end
+function AimingStateEvents:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function AimingStateEvents:OnStatusEffectRemoved(statusEffect) return end
+function AimingStateEvents:OnStatusEffectRemoved(statusEffect) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function AimingStateEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectName CName|string
 ---@return nil
-function AimingStateEvents:PlayEffectOnHeldItems(scriptInterface, effectName) return end
+function AimingStateEvents:PlayEffectOnHeldItems(scriptInterface, effectName) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:RemoveAirKerenzikovPerk(stateContext, scriptInterface) return end
+function AimingStateEvents:RemoveAirKerenzikovPerk(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param effectName CName|string
 ---@return nil
-function AimingStateEvents:StartZoomEffect(scriptInterface, effectName) return end
+function AimingStateEvents:StartZoomEffect(scriptInterface, effectName) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:TriggerZoomExitSfx(scriptInterface) return end
+function AimingStateEvents:TriggerZoomExitSfx(scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:TryToActivateAirKerenzikovPerk(stateContext, scriptInterface) return end
+function AimingStateEvents:TryToActivateAirKerenzikovPerk(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:UpdateAimAnimFeature(stateContext, scriptInterface) return end
+function AimingStateEvents:UpdateAimAnimFeature(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:UpdateAimDownSightsSfx(stateContext, scriptInterface) return end
+function AimingStateEvents:UpdateAimDownSightsSfx(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:UpdateAimingStatusEffect(stateContext, scriptInterface) return end
+function AimingStateEvents:UpdateAimingStatusEffect(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:UpdateWeaponOffsetPosition(scriptInterface) return end
+function AimingStateEvents:UpdateWeaponOffsetPosition(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingStateEvents:UpdateZoomVfx(scriptInterface) return end
+function AimingStateEvents:UpdateZoomVfx(scriptInterface) end

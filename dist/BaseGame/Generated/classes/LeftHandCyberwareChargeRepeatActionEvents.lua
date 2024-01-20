@@ -1,37 +1,36 @@
 ---@meta
 
 ---@class LeftHandCyberwareChargeRepeatActionEvents: LeftHandCyberwareActionAbstractEvents
----@field public maxSpread Float
----@field public maxProjectiles Int32
+---@field maxSpread Float
+---@field maxProjectiles Int32
 LeftHandCyberwareChargeRepeatActionEvents = {}
 
 ---@param fields? LeftHandCyberwareChargeRepeatActionEvents
 ---@return LeftHandCyberwareChargeRepeatActionEvents
-function LeftHandCyberwareChargeRepeatActionEvents.new(fields) return end
+function LeftHandCyberwareChargeRepeatActionEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareChargeRepeatActionEvents:OnEnter(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeRepeatActionEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareChargeRepeatActionEvents:OnEnterFromLeftHandCyberwareCharge(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeRepeatActionEvents:OnEnterFromLeftHandCyberwareCharge(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareChargeRepeatActionEvents:OnExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeRepeatActionEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareChargeRepeatActionEvents:OnForcedExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeRepeatActionEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareChargeRepeatActionEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function LeftHandCyberwareChargeRepeatActionEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

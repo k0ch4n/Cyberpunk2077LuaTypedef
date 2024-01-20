@@ -5,4 +5,4 @@ gameStreamingSmartObjectsDataExtractor = {}
 
 ---@param fields? gameStreamingSmartObjectsDataExtractor
 ---@return gameStreamingSmartObjectsDataExtractor
-function gameStreamingSmartObjectsDataExtractor.new(fields) return end
+function gameStreamingSmartObjectsDataExtractor.new(fields) end

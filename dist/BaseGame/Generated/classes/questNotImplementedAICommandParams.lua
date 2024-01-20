@@ -5,4 +5,4 @@ questNotImplementedAICommandParams = {}
 
 ---@param fields? questNotImplementedAICommandParams
 ---@return questNotImplementedAICommandParams
-function questNotImplementedAICommandParams.new(fields) return end
+function questNotImplementedAICommandParams.new(fields) end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class MetroSignSelector: StreetSignSelector
----@field private recordID TweakDBID
+---@field recordID TweakDBID
 MetroSignSelector = {}
 
 ---@param fields? MetroSignSelector
 ---@return MetroSignSelector
-function MetroSignSelector.new(fields) return end
+function MetroSignSelector.new(fields) end
 
 ---@return TweakDBID
-function MetroSignSelector:GetRecordID() return end
+function MetroSignSelector:GetRecordID() end
 
 ---@param recordID TweakDBID|string
 ---@return nil
-function MetroSignSelector:SetRecordID(recordID) return end
+function MetroSignSelector:SetRecordID(recordID) end

@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class PassiveCrowdCombatConditions: PassiveAutonomousCondition
----@field protected threatCbId Uint32
----@field protected delayEvaluationCbId Uint32
----@field protected onItemAddedToSlotCbId Uint32
----@field protected crowdCombatConditionCbId Uint32
+---@field threatCbId Uint32
+---@field delayEvaluationCbId Uint32
+---@field onItemAddedToSlotCbId Uint32
+---@field crowdCombatConditionCbId Uint32
 PassiveCrowdCombatConditions = {}
 
 ---@param fields? PassiveCrowdCombatConditions
 ---@return PassiveCrowdCombatConditions
-function PassiveCrowdCombatConditions.new(fields) return end
+function PassiveCrowdCombatConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveCrowdCombatConditions:Activate(context) return end
+function PassiveCrowdCombatConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function PassiveCrowdCombatConditions:CalculateValue(context) return end
+function PassiveCrowdCombatConditions:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PassiveCrowdCombatConditions:Deactivate(context) return end
+function PassiveCrowdCombatConditions:Deactivate(context) end

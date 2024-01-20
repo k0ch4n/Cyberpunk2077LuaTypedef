@@ -5,40 +5,40 @@ gamedataVehicleAIVisionSettings_Record = {}
 
 ---@param fields? gamedataVehicleAIVisionSettings_Record
 ---@return gamedataVehicleAIVisionSettings_Record
-function gamedataVehicleAIVisionSettings_Record.new(fields) return end
+function gamedataVehicleAIVisionSettings_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:MaxDistance() return end
+function gamedataVehicleAIVisionSettings_Record:MaxDistance() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:MaxStraightPathExtension() return end
+function gamedataVehicleAIVisionSettings_Record:MaxStraightPathExtension() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:MinDistance() return end
+function gamedataVehicleAIVisionSettings_Record:MinDistance() end
 
 ---@return Int32
-function gamedataVehicleAIVisionSettings_Record:NumSweeps() return end
+function gamedataVehicleAIVisionSettings_Record:NumSweeps() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:OffsetSmoothingFastChangeSpeed() return end
+function gamedataVehicleAIVisionSettings_Record:OffsetSmoothingFastChangeSpeed() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:OffsetSmoothingReturnToNeutralSpeed() return end
+function gamedataVehicleAIVisionSettings_Record:OffsetSmoothingReturnToNeutralSpeed() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:SideOverlapForwardOffset() return end
+function gamedataVehicleAIVisionSettings_Record:SideOverlapForwardOffset() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:SideOverlapLateralScale() return end
+function gamedataVehicleAIVisionSettings_Record:SideOverlapLateralScale() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:SideOverlapLongitudinalScale() return end
+function gamedataVehicleAIVisionSettings_Record:SideOverlapLongitudinalScale() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:SpeedLimitDeceleration() return end
+function gamedataVehicleAIVisionSettings_Record:SpeedLimitDeceleration() end
 
 ---@return Float
-function gamedataVehicleAIVisionSettings_Record:SpeedLimitSafetyMargin() return end
+function gamedataVehicleAIVisionSettings_Record:SpeedLimitSafetyMargin() end
 
 ---@return Bool
-function gamedataVehicleAIVisionSettings_Record:UseSpeedLimit() return end
+function gamedataVehicleAIVisionSettings_Record:UseSpeedLimit() end

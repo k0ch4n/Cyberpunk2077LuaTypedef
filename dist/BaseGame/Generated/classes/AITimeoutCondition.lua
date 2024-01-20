@@ -1,25 +1,21 @@
 ---@meta
 
 ---@class AITimeoutCondition: AITimeCondition
----@field protected timestamp Float
+---@field timestamp Float
 AITimeoutCondition = {}
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AITimeoutCondition:Activate(context) return end
+function AITimeoutCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AITimeoutCondition:Check(context) return end
+function AITimeoutCondition:Check(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function AITimeoutCondition:GetTimeoutValue(context) return end
+function AITimeoutCondition:GetTimeoutValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AITimeoutCondition:UpdateTimeStamp(context) return end
+function AITimeoutCondition:UpdateTimeStamp(context) end

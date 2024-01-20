@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class animAnimProfilerData_TimingsDetailed
----@field public className CName
----@field public avarageExclusiveUpdateTimeMS Float
----@field public avarageInclusiveUpdateTimeMS Float
----@field public avarageExclusiveSampleTimeMS Float
----@field public avarageInclusiveSampleTimeMS Float
----@field public totalExclusiveUpdateTimeMS Float
----@field public totalInclusiveUpdateTimeMS Float
----@field public totalExclusiveSampleTimeMS Float
----@field public totalInclusiveSampleTimeMS Float
----@field public updatesCount Uint32
----@field public samplesCount Uint32
+---@field className CName
+---@field avarageExclusiveUpdateTimeMS Float
+---@field avarageInclusiveUpdateTimeMS Float
+---@field avarageExclusiveSampleTimeMS Float
+---@field avarageInclusiveSampleTimeMS Float
+---@field totalExclusiveUpdateTimeMS Float
+---@field totalInclusiveUpdateTimeMS Float
+---@field totalExclusiveSampleTimeMS Float
+---@field totalInclusiveSampleTimeMS Float
+---@field updatesCount Uint32
+---@field samplesCount Uint32
 animAnimProfilerData_TimingsDetailed = {}
 
 ---@param fields? animAnimProfilerData_TimingsDetailed
 ---@return animAnimProfilerData_TimingsDetailed
-function animAnimProfilerData_TimingsDetailed.new(fields) return end
+function animAnimProfilerData_TimingsDetailed.new(fields) end

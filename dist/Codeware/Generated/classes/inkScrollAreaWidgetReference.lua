@@ -5,8 +5,8 @@ inkScrollAreaWidgetReference = {}
 
 ---@param fields? inkScrollAreaWidgetReference
 ---@return inkScrollAreaWidgetReference
-function inkScrollAreaWidgetReference.new(fields) return end
+function inkScrollAreaWidgetReference.new(fields) end
 
 ---@param widget inkScrollAreaWidget
 ---@return inkScrollAreaWidgetReference
-function inkScrollAreaWidgetReference.Create(widget) return end
+function inkScrollAreaWidgetReference.Create(widget) end

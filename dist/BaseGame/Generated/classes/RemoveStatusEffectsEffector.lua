@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class RemoveStatusEffectsEffector: gameEffector
----@field private effectTypes String[]
----@field private effectString String[]
----@field private effectTags CName[]
+---@field effectTypes String[]
+---@field effectString String[]
+---@field effectTags CName[]
 RemoveStatusEffectsEffector = {}
 
 ---@param fields? RemoveStatusEffectsEffector
 ---@return RemoveStatusEffectsEffector
-function RemoveStatusEffectsEffector.new(fields) return end
+function RemoveStatusEffectsEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RemoveStatusEffectsEffector:ActionOn(owner) return end
+function RemoveStatusEffectsEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function RemoveStatusEffectsEffector:Initialize(record, parentRecord) return end
+function RemoveStatusEffectsEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function RemoveStatusEffectsEffector:ProcessAction(owner) return end
+function RemoveStatusEffectsEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RemoveStatusEffectsEffector:RepeatedAction(owner) return end
+function RemoveStatusEffectsEffector:RepeatedAction(owner) end

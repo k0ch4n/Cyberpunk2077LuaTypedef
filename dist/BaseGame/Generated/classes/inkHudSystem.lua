@@ -5,4 +5,4 @@ inkHudSystem = {}
 
 ---@param fields? inkHudSystem
 ---@return inkHudSystem
-function inkHudSystem.new(fields) return end
+function inkHudSystem.new(fields) end

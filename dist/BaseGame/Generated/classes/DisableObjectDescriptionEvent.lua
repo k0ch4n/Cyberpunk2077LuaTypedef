@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DisableObjectDescriptionEvent: redEvent
----@field public isDisabled Bool
+---@field isDisabled Bool
 DisableObjectDescriptionEvent = {}
 
 ---@param fields? DisableObjectDescriptionEvent
 ---@return DisableObjectDescriptionEvent
-function DisableObjectDescriptionEvent.new(fields) return end
+function DisableObjectDescriptionEvent.new(fields) end
 
 ---@return String
-function DisableObjectDescriptionEvent:GetFriendlyDescription() return end
+function DisableObjectDescriptionEvent:GetFriendlyDescription() end

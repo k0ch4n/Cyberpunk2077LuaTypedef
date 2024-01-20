@@ -5,27 +5,27 @@ gameStatsBundleHandler = {}
 
 ---@param fields? gameStatsBundleHandler
 ---@return gameStatsBundleHandler
-function gameStatsBundleHandler.new(fields) return end
+function gameStatsBundleHandler.new(fields) end
 
 ---@param modifierData gameStatModifierData_Deprecated
 ---@return Bool
-function gameStatsBundleHandler:AddModifier(modifierData) return end
+function gameStatsBundleHandler:AddModifier(modifierData) end
 
 ---@param statType gamedataStatType
 ---@return Bool
-function gameStatsBundleHandler:GetStatBoolValue(statType) return end
+function gameStatsBundleHandler:GetStatBoolValue(statType) end
 
 ---@return gameStatDetailedData[]
-function gameStatsBundleHandler:GetStatDetails() return end
+function gameStatsBundleHandler:GetStatDetails() end
 
 ---@param statType gamedataStatType
 ---@return Float
-function gameStatsBundleHandler:GetStatValue(statType) return end
+function gameStatsBundleHandler:GetStatValue(statType) end
 
 ---@param statType gamedataStatType
 ---@return nil
-function gameStatsBundleHandler:RemoveAllModifiers(statType) return end
+function gameStatsBundleHandler:RemoveAllModifiers(statType) end
 
 ---@param modifierData gameStatModifierData_Deprecated
 ---@return nil
-function gameStatsBundleHandler:RemoveModifier(modifierData) return end
+function gameStatsBundleHandler:RemoveModifier(modifierData) end

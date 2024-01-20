@@ -5,4 +5,4 @@ gameTransformAnimatorSaveSystem = {}
 
 ---@param fields? gameTransformAnimatorSaveSystem
 ---@return gameTransformAnimatorSaveSystem
-function gameTransformAnimatorSaveSystem.new(fields) return end
+function gameTransformAnimatorSaveSystem.new(fields) end

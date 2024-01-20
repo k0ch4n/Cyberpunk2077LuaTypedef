@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class workAnimClip: workIEntry
----@field public animName CName
----@field public blendOutTime Float
+---@field animName CName
+---@field blendOutTime Float
 workAnimClip = {}
 
 ---@param fields? workAnimClip
 ---@return workAnimClip
-function workAnimClip.new(fields) return end
+function workAnimClip.new(fields) end

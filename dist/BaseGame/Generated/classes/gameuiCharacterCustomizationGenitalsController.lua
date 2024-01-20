@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationGenitalsController: gameuiCharacterCustomizationBodyPartsController
----@field public upperBodyGroupName CName
----@field public bottomBodyGroupName CName
----@field public forceHideGenitals Bool
+---@field upperBodyGroupName CName
+---@field bottomBodyGroupName CName
+---@field forceHideGenitals Bool
 gameuiCharacterCustomizationGenitalsController = {}
 
 ---@param fields? gameuiCharacterCustomizationGenitalsController
 ---@return gameuiCharacterCustomizationGenitalsController
-function gameuiCharacterCustomizationGenitalsController.new(fields) return end
+function gameuiCharacterCustomizationGenitalsController.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiPanzerScoreBoard: gameuiSideScrollerMiniGameDynObjectLogicAdvanced
----@field public scoreboardList inkVerticalPanelWidgetReference
----@field public champions gameuiPanzerScoreRecordData[]
----@field public recordWidgetLibraryName CName
+---@field scoreboardList inkVerticalPanelWidgetReference
+---@field champions gameuiPanzerScoreRecordData[]
+---@field recordWidgetLibraryName CName
 gameuiPanzerScoreBoard = {}
 
 ---@param fields? gameuiPanzerScoreBoard
 ---@return gameuiPanzerScoreBoard
-function gameuiPanzerScoreBoard.new(fields) return end
+function gameuiPanzerScoreBoard.new(fields) end

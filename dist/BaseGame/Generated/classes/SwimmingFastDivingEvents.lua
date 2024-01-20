@@ -1,33 +1,31 @@
 ---@meta
 
 ---@class SwimmingFastDivingEvents: LocomotionSwimmingEvents
----@field public lapsedTime Float
+---@field lapsedTime Float
 SwimmingFastDivingEvents = {}
 
 ---@param fields? SwimmingFastDivingEvents
 ---@return SwimmingFastDivingEvents
-function SwimmingFastDivingEvents.new(fields) return end
+function SwimmingFastDivingEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingFastDivingEvents:OnEnter(stateContext, scriptInterface) return end
+function SwimmingFastDivingEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingFastDivingEvents:OnExit(stateContext, scriptInterface) return end
+function SwimmingFastDivingEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingFastDivingEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SwimmingFastDivingEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingFastDivingEvents:UpdateFastDivingStroke(timeDelta, stateContext, scriptInterface) return end
+function SwimmingFastDivingEvents:UpdateFastDivingStroke(timeDelta, stateContext, scriptInterface) end

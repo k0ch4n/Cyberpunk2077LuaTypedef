@@ -5,4 +5,4 @@ effectMotionBlurScalePlayData = {}
 
 ---@param fields? effectMotionBlurScalePlayData
 ---@return effectMotionBlurScalePlayData
-function effectMotionBlurScalePlayData.new(fields) return end
+function effectMotionBlurScalePlayData.new(fields) end

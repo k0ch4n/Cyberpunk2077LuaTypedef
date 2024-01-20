@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameQuestDistanceRequestFilter: gameCustomRequestFilter
----@field public distanceSquared Float
+---@field distanceSquared Float
 gameQuestDistanceRequestFilter = {}
 
 ---@param fields? gameQuestDistanceRequestFilter
 ---@return gameQuestDistanceRequestFilter
-function gameQuestDistanceRequestFilter.new(fields) return end
+function gameQuestDistanceRequestFilter.new(fields) end

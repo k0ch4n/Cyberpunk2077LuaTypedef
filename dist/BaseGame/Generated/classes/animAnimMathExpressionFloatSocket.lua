@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimMathExpressionFloatSocket
----@field public link animFloatLink
----@field public expressionVarId Uint16
----@field public inputFloatTrack animNamedTrackIndex
+---@field link animFloatLink
+---@field expressionVarId Uint16
+---@field inputFloatTrack animNamedTrackIndex
 animAnimMathExpressionFloatSocket = {}
 
 ---@param fields? animAnimMathExpressionFloatSocket
 ---@return animAnimMathExpressionFloatSocket
-function animAnimMathExpressionFloatSocket.new(fields) return end
+function animAnimMathExpressionFloatSocket.new(fields) end

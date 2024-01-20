@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ExperiencePointsEvent: redEvent
----@field public amount Int32
----@field public type gamedataProficiencyType
----@field public isDebug Bool
+---@field amount Int32
+---@field type gamedataProficiencyType
+---@field isDebug Bool
 ExperiencePointsEvent = {}
 
 ---@param fields? ExperiencePointsEvent
 ---@return ExperiencePointsEvent
-function ExperiencePointsEvent.new(fields) return end
+function ExperiencePointsEvent.new(fields) end

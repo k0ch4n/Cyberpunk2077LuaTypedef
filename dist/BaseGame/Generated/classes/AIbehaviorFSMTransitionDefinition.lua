@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AIbehaviorFSMTransitionDefinition: AIbehaviorBehaviorComponentDefinition
----@field public inState Uint16
----@field public outState Uint16
----@field public evaluationOrder Int32
----@field public instantConditions AIbehaviorInstantConditionDefinition[]
----@field public monitorConditions AIbehaviorMonitorConditionDefinition[]
----@field public eventConditions AIbehaviorEventConditionDefinition[]
----@field public passiveConditions AIbehaviorExpressionSocket[]
+---@field inState Uint16
+---@field outState Uint16
+---@field evaluationOrder Int32
+---@field instantConditions AIbehaviorInstantConditionDefinition[]
+---@field monitorConditions AIbehaviorMonitorConditionDefinition[]
+---@field eventConditions AIbehaviorEventConditionDefinition[]
+---@field passiveConditions AIbehaviorExpressionSocket[]
 AIbehaviorFSMTransitionDefinition = {}
 
 ---@param fields? AIbehaviorFSMTransitionDefinition
 ---@return AIbehaviorFSMTransitionDefinition
-function AIbehaviorFSMTransitionDefinition.new(fields) return end
+function AIbehaviorFSMTransitionDefinition.new(fields) end

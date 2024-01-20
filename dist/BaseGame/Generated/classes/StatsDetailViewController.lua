@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class StatsDetailViewController: inkWidgetLogicController
----@field private StatLabelRef inkTextWidgetReference
----@field private StatValueRef inkTextWidgetReference
+---@field StatLabelRef inkTextWidgetReference
+---@field StatValueRef inkTextWidgetReference
 StatsDetailViewController = {}
 
 ---@param fields? StatsDetailViewController
 ---@return StatsDetailViewController
-function StatsDetailViewController.new(fields) return end
+function StatsDetailViewController.new(fields) end
 
----@protected
 ---@return Bool
-function StatsDetailViewController:OnInitialize() return end
+function StatsDetailViewController:OnInitialize() end
 
 ---@param stat gameStatViewData
 ---@return nil
-function StatsDetailViewController:Setup(stat) return end
+function StatsDetailViewController:Setup(stat) end

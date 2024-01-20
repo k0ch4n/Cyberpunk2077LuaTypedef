@@ -5,4 +5,4 @@ gamePhotoModeUtils = {}
 
 ---@param fields? gamePhotoModeUtils
 ---@return gamePhotoModeUtils
-function gamePhotoModeUtils.new(fields) return end
+function gamePhotoModeUtils.new(fields) end

@@ -1,35 +1,33 @@
 ---@meta
 
 ---@class MeleeLeapAttackObjectTagger: IScriptable
----@field private game ScriptGameInstance
----@field private playerPuppet gameObject
----@field private playerDevelopmentData PlayerDevelopmentData
----@field private visionModeSystem gameVisionModeSystem
----@field private target gameObject
----@field private minDistanceToTarget Float
+---@field game ScriptGameInstance
+---@field playerPuppet gameObject
+---@field playerDevelopmentData PlayerDevelopmentData
+---@field visionModeSystem gameVisionModeSystem
+---@field target gameObject
+---@field minDistanceToTarget Float
 MeleeLeapAttackObjectTagger = {}
 
 ---@param fields? MeleeLeapAttackObjectTagger
 ---@return MeleeLeapAttackObjectTagger
-function MeleeLeapAttackObjectTagger.new(fields) return end
+function MeleeLeapAttackObjectTagger.new(fields) end
 
----@protected
 ---@param equippedWeapon gameweaponObject
 ---@return Bool
-function MeleeLeapAttackObjectTagger:CanPerformRelicLeap(equippedWeapon) return end
+function MeleeLeapAttackObjectTagger:CanPerformRelicLeap(equippedWeapon) end
 
----@private
 ---@return Float
-function MeleeLeapAttackObjectTagger:GetTargetMaxRange() return end
+function MeleeLeapAttackObjectTagger:GetTargetMaxRange() end
 
 ---@return nil
-function MeleeLeapAttackObjectTagger:ResetVisionOnTargetObj() return end
+function MeleeLeapAttackObjectTagger:ResetVisionOnTargetObj() end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function MeleeLeapAttackObjectTagger:SetUp(playerPuppet) return end
+function MeleeLeapAttackObjectTagger:SetUp(playerPuppet) end
 
 ---@param targetEntity entEntity
 ---@param distanceToTarget Float
 ---@return nil
-function MeleeLeapAttackObjectTagger:SetVisionOnTargetObj(targetEntity, distanceToTarget) return end
+function MeleeLeapAttackObjectTagger:SetVisionOnTargetObj(targetEntity, distanceToTarget) end

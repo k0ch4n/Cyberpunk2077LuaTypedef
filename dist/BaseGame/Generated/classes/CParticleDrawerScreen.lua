@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleDrawerScreen: IParticleDrawer
----@field public isGPUBased Bool
+---@field isGPUBased Bool
 CParticleDrawerScreen = {}
 
 ---@param fields? CParticleDrawerScreen
 ---@return CParticleDrawerScreen
-function CParticleDrawerScreen.new(fields) return end
+function CParticleDrawerScreen.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameMuppetPhysicalState
----@field public position Vector4
----@field public worldYaw Float
----@field public velocity Vector4
----@field public isOnGround Bool
----@field public groundNormal Vector4
+---@field position Vector4
+---@field worldYaw Float
+---@field velocity Vector4
+---@field isOnGround Bool
+---@field groundNormal Vector4
 gameMuppetPhysicalState = {}
 
 ---@param fields? gameMuppetPhysicalState
 ---@return gameMuppetPhysicalState
-function gameMuppetPhysicalState.new(fields) return end
+function gameMuppetPhysicalState.new(fields) end

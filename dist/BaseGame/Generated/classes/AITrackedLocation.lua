@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class AITrackedLocation
----@field public lastKnown AILocationInformation
----@field public location AILocationInformation
----@field public sharedLocation AILocationInformation
----@field public entity entEntity
----@field public accuracy Float
----@field public sharedAccuracy Float
----@field public sharedTimeDelay Float
----@field public threat Float
----@field public speed Vector4
----@field public visible Bool
----@field public invalidExpectation Bool
----@field public status AITrackedStatusType
----@field public sharedLastKnown AILocationInformation
+---@field lastKnown AILocationInformation
+---@field location AILocationInformation
+---@field sharedLocation AILocationInformation
+---@field entity entEntity
+---@field accuracy Float
+---@field sharedAccuracy Float
+---@field sharedTimeDelay Float
+---@field threat Float
+---@field speed Vector4
+---@field visible Bool
+---@field invalidExpectation Bool
+---@field status AITrackedStatusType
+---@field sharedLastKnown AILocationInformation
 AITrackedLocation = {}
 
 ---@param fields? AITrackedLocation
 ---@return AITrackedLocation
-function AITrackedLocation.new(fields) return end
+function AITrackedLocation.new(fields) end

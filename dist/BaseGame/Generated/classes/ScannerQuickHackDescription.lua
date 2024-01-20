@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerQuickHackDescription: ScannerChunk
----@field private QuickHackDescription QuickhackData
+---@field QuickHackDescription QuickhackData
 ScannerQuickHackDescription = {}
 
 ---@param fields? ScannerQuickHackDescription
 ---@return ScannerQuickHackDescription
-function ScannerQuickHackDescription.new(fields) return end
+function ScannerQuickHackDescription.new(fields) end
 
 ---@return QuickhackData
-function ScannerQuickHackDescription:GetCurrrentQuickHackData() return end
+function ScannerQuickHackDescription:GetCurrrentQuickHackData() end
 
 ---@return ScannerDataType
-function ScannerQuickHackDescription:GetType() return end
+function ScannerQuickHackDescription:GetType() end
 
 ---@param vehInfo QuickhackData
 ---@return nil
-function ScannerQuickHackDescription:Set(vehInfo) return end
+function ScannerQuickHackDescription:Set(vehInfo) end

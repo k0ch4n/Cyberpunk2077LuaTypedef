@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVisualTagToFoleyLoopMetadata
----@field public visualtags CName[]
----@field public loop audioFoleyLoopMetadata
+---@field visualtags CName[]
+---@field loop audioFoleyLoopMetadata
 audioVisualTagToFoleyLoopMetadata = {}
 
 ---@param fields? audioVisualTagToFoleyLoopMetadata
 ---@return audioVisualTagToFoleyLoopMetadata
-function audioVisualTagToFoleyLoopMetadata.new(fields) return end
+function audioVisualTagToFoleyLoopMetadata.new(fields) end

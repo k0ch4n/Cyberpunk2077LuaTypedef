@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scneventsUIAnimationEvent: scnSceneEvent
----@field public animationName CName
----@field public performerId scnPerformerId
----@field public nodeRef NodeRef
+---@field animationName CName
+---@field performerId scnPerformerId
+---@field nodeRef NodeRef
 scneventsUIAnimationEvent = {}
 
 ---@param fields? scneventsUIAnimationEvent
 ---@return scneventsUIAnimationEvent
-function scneventsUIAnimationEvent.new(fields) return end
+function scneventsUIAnimationEvent.new(fields) end

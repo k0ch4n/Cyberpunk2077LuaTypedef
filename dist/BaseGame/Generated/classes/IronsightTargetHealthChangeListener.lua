@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class IronsightTargetHealthChangeListener: gameScriptStatPoolsListener
----@field private parentIronsight IronsightGameController
+---@field parentIronsight IronsightGameController
 IronsightTargetHealthChangeListener = {}
 
 ---@param fields? IronsightTargetHealthChangeListener
 ---@return IronsightTargetHealthChangeListener
-function IronsightTargetHealthChangeListener.new(fields) return end
+function IronsightTargetHealthChangeListener.new(fields) end
 
 ---@param parentIronsight IronsightGameController
 ---@return IronsightTargetHealthChangeListener
-function IronsightTargetHealthChangeListener.Create(parentIronsight) return end
+function IronsightTargetHealthChangeListener.Create(parentIronsight) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function IronsightTargetHealthChangeListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function IronsightTargetHealthChangeListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end

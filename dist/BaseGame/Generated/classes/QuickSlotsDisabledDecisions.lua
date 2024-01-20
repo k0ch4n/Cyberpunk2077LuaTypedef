@@ -1,47 +1,43 @@
 ---@meta
 
 ---@class QuickSlotsDisabledDecisions: QuickSlotsDecisions
----@field private executionOwner gameObject
----@field private hasStatusEffect Bool
+---@field executionOwner gameObject
+---@field hasStatusEffect Bool
 QuickSlotsDisabledDecisions = {}
 
 ---@param fields? QuickSlotsDisabledDecisions
 ---@return QuickSlotsDisabledDecisions
-function QuickSlotsDisabledDecisions.new(fields) return end
+function QuickSlotsDisabledDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickSlotsDisabledDecisions:EnterCondition(stateContext, scriptInterface) return end
+function QuickSlotsDisabledDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickSlotsDisabledDecisions:IsPocketRadioOverrideActive(scriptInterface) return end
+function QuickSlotsDisabledDecisions:IsPocketRadioOverrideActive(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function QuickSlotsDisabledDecisions:OnAttach(stateContext, scriptInterface) return end
+function QuickSlotsDisabledDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickSlotsDisabledDecisions:ShouldDisableRadialForReplacer(scriptInterface) return end
-
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return Bool
-function QuickSlotsDisabledDecisions:ToCycleObjective(stateContext, scriptInterface) return end
+function QuickSlotsDisabledDecisions:ShouldDisableRadialForReplacer(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickSlotsDisabledDecisions:ToPocketRadioWheel(stateContext, scriptInterface) return end
+function QuickSlotsDisabledDecisions:ToCycleObjective(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function QuickSlotsDisabledDecisions:ToQuickSlotsReady(stateContext, scriptInterface) return end
+function QuickSlotsDisabledDecisions:ToPocketRadioWheel(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return Bool
+function QuickSlotsDisabledDecisions:ToQuickSlotsReady(stateContext, scriptInterface) end

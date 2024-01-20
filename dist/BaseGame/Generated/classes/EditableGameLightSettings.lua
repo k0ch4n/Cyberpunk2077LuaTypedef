@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class EditableGameLightSettings
----@field public componentName CName
----@field public strength Float
----@field public modifyStrength Bool
----@field public intensity Float
----@field public modifyIntensity Bool
----@field public radius Float
----@field public modifyRadius Bool
----@field public color Color
----@field public modifyColor Bool
----@field public innerAngle Float
----@field public modifyInnerAngle Bool
----@field public outerAngle Float
----@field public modifyOuterAngle Bool
+---@field componentName CName
+---@field strength Float
+---@field modifyStrength Bool
+---@field intensity Float
+---@field modifyIntensity Bool
+---@field radius Float
+---@field modifyRadius Bool
+---@field color Color
+---@field modifyColor Bool
+---@field innerAngle Float
+---@field modifyInnerAngle Bool
+---@field outerAngle Float
+---@field modifyOuterAngle Bool
 EditableGameLightSettings = {}
 
 ---@param fields? EditableGameLightSettings
 ---@return EditableGameLightSettings
-function EditableGameLightSettings.new(fields) return end
+function EditableGameLightSettings.new(fields) end

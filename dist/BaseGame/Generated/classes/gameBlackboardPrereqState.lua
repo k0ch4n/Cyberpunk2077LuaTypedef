@@ -5,4 +5,4 @@ gameBlackboardPrereqState = {}
 
 ---@param fields? gameBlackboardPrereqState
 ---@return gameBlackboardPrereqState
-function gameBlackboardPrereqState.new(fields) return end
+function gameBlackboardPrereqState.new(fields) end

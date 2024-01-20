@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamemountingUnmountingEvent: redEvent
----@field public request gamemountingUnmountingRequest
----@field public relationship gamemountingMountingRelationship
+---@field request gamemountingUnmountingRequest
+---@field relationship gamemountingMountingRelationship
 gamemountingUnmountingEvent = {}
 
 ---@param fields? gamemountingUnmountingEvent
 ---@return gamemountingUnmountingEvent
-function gamemountingUnmountingEvent.new(fields) return end
+function gamemountingUnmountingEvent.new(fields) end

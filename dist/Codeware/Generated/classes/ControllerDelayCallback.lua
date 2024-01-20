@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ControllerDelayCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public controller IScriptable
----@field public event redEvent
+---@field controller IScriptable
+---@field event redEvent
 ControllerDelayCallback = {}
 
 ---@param fields? ControllerDelayCallback
 ---@return ControllerDelayCallback
-function ControllerDelayCallback.new(fields) return end
+function ControllerDelayCallback.new(fields) end
 
 ---@return nil
-function ControllerDelayCallback:Call() return end
+function ControllerDelayCallback:Call() end

@@ -1,92 +1,80 @@
 ---@meta
 
 ---@class NewItemTooltipHeaderController: NewItemTooltipModuleController
----@field private itemNameText inkTextWidgetReference
----@field private itemRarityText inkTextWidgetReference
----@field private itemTypeText inkTextWidgetReference
----@field private comparisionArrow inkWidgetReference
----@field private itemEvolutionIcon inkImageWidgetReference
----@field private itemPerkIcon inkImageWidgetReference
----@field private itemWeaponIcon inkImageWidgetReference
----@field private separatorTop inkWidgetReference
----@field private localizedIconicText String
+---@field itemNameText inkTextWidgetReference
+---@field itemRarityText inkTextWidgetReference
+---@field itemTypeText inkTextWidgetReference
+---@field comparisionArrow inkWidgetReference
+---@field itemEvolutionIcon inkImageWidgetReference
+---@field itemPerkIcon inkImageWidgetReference
+---@field itemWeaponIcon inkImageWidgetReference
+---@field separatorTop inkWidgetReference
+---@field localizedIconicText String
 NewItemTooltipHeaderController = {}
 
 ---@param fields? NewItemTooltipHeaderController
 ---@return NewItemTooltipHeaderController
-function NewItemTooltipHeaderController.new(fields) return end
+function NewItemTooltipHeaderController.new(fields) end
 
----@protected
 ---@return Bool
-function NewItemTooltipHeaderController:OnInitialize() return end
+function NewItemTooltipHeaderController:OnInitialize() end
 
 ---@param data UIInventoryItem
 ---@param comparisonData UIInventoryItemComparisonManager
 ---@return nil
-function NewItemTooltipHeaderController:NEW_Update(data, comparisonData) return end
+function NewItemTooltipHeaderController:NEW_Update(data, comparisonData) end
 
----@private
 ---@param itemName String
 ---@param quantity Int32
 ---@return nil
-function NewItemTooltipHeaderController:NEW_UpdateName(itemName, quantity) return end
+function NewItemTooltipHeaderController:NEW_UpdateName(itemName, quantity) end
 
----@private
 ---@param data UIInventoryItem
 ---@return nil
-function NewItemTooltipHeaderController:NEW_UpdateRarity(data) return end
+function NewItemTooltipHeaderController:NEW_UpdateRarity(data) end
 
 ---@param bigFontEnabled Bool
 ---@return nil
-function NewItemTooltipHeaderController:NEW_UpdateWrapping(bigFontEnabled) return end
+function NewItemTooltipHeaderController:NEW_UpdateWrapping(bigFontEnabled) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:Update(data) return end
+function NewItemTooltipHeaderController:Update(data) end
 
----@private
 ---@param qualityF Float
 ---@param comparisonQualityF Float
 ---@param isEquipped Bool
 ---@return nil
-function NewItemTooltipHeaderController:UpdateComparisonArrow(qualityF, comparisonQualityF, isEquipped) return end
+function NewItemTooltipHeaderController:UpdateComparisonArrow(qualityF, comparisonQualityF, isEquipped) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdateContentForCrafting(data) return end
+function NewItemTooltipHeaderController:UpdateContentForCrafting(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdateContentForUpgrading(data) return end
+function NewItemTooltipHeaderController:UpdateContentForUpgrading(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdateName(data) return end
+function NewItemTooltipHeaderController:UpdateName(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdatePerkGroup(data) return end
+function NewItemTooltipHeaderController:UpdatePerkGroup(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdateRarity(data) return end
+function NewItemTooltipHeaderController:UpdateRarity(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdateSeparator(data) return end
+function NewItemTooltipHeaderController:UpdateSeparator(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdateWeaponEvolution(data) return end
+function NewItemTooltipHeaderController:UpdateWeaponEvolution(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipHeaderController:UpdateWeaponType(data) return end
+function NewItemTooltipHeaderController:UpdateWeaponType(data) end

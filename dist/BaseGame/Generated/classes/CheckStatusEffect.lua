@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckStatusEffect: AIStatusEffectCondition
----@field public statusEffectID TweakDBID
+---@field statusEffectID TweakDBID
 CheckStatusEffect = {}
 
 ---@param fields? CheckStatusEffect
 ---@return CheckStatusEffect
-function CheckStatusEffect.new(fields) return end
+function CheckStatusEffect.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckStatusEffect:Check(context) return end
+function CheckStatusEffect:Check(context) end

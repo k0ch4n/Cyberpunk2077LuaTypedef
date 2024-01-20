@@ -5,4 +5,4 @@ gameScriptTaskData = {}
 
 ---@param fields? gameScriptTaskData
 ---@return gameScriptTaskData
-function gameScriptTaskData.new(fields) return end
+function gameScriptTaskData.new(fields) end

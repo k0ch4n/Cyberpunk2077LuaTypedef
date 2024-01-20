@@ -5,4 +5,4 @@ AIbehaviortweakConditionStatusEffectListener = {}
 
 ---@param fields? AIbehaviortweakConditionStatusEffectListener
 ---@return AIbehaviortweakConditionStatusEffectListener
-function AIbehaviortweakConditionStatusEffectListener.new(fields) return end
+function AIbehaviortweakConditionStatusEffectListener.new(fields) end

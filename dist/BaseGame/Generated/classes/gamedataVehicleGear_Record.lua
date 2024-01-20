@@ -5,19 +5,19 @@ gamedataVehicleGear_Record = {}
 
 ---@param fields? gamedataVehicleGear_Record
 ---@return gamedataVehicleGear_Record
-function gamedataVehicleGear_Record.new(fields) return end
+function gamedataVehicleGear_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleGear_Record:MaxEngineRPM() return end
+function gamedataVehicleGear_Record:MaxEngineRPM() end
 
 ---@return Float
-function gamedataVehicleGear_Record:MaxSpeed() return end
+function gamedataVehicleGear_Record:MaxSpeed() end
 
 ---@return Float
-function gamedataVehicleGear_Record:MinEngineRPM() return end
+function gamedataVehicleGear_Record:MinEngineRPM() end
 
 ---@return Float
-function gamedataVehicleGear_Record:MinSpeed() return end
+function gamedataVehicleGear_Record:MinSpeed() end
 
 ---@return Float
-function gamedataVehicleGear_Record:TorqueMultiplier() return end
+function gamedataVehicleGear_Record:TorqueMultiplier() end

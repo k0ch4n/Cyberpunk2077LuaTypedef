@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class EffectExecutor_Spread: gameEffectExecutor_Scripted
----@field public objectActionRecord gamedataObjectAction_Record
----@field public prevEntity entEntity
----@field public player PlayerPuppet
----@field public spreadToAllTargetsInTheArea Bool
+---@field objectActionRecord gamedataObjectAction_Record
+---@field prevEntity entEntity
+---@field player PlayerPuppet
+---@field spreadToAllTargetsInTheArea Bool
 EffectExecutor_Spread = {}
 
 ---@param fields? EffectExecutor_Spread
 ---@return EffectExecutor_Spread
-function EffectExecutor_Spread.new(fields) return end
+function EffectExecutor_Spread.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@return Bool
-function EffectExecutor_Spread:Init(ctx) return end
+function EffectExecutor_Spread:Init(ctx) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function EffectExecutor_Spread:Process(ctx, applierCtx) return end
+function EffectExecutor_Spread:Process(ctx, applierCtx) end

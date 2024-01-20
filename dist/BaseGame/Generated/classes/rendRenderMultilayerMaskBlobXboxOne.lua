@@ -5,4 +5,4 @@ rendRenderMultilayerMaskBlobXboxOne = {}
 
 ---@param fields? rendRenderMultilayerMaskBlobXboxOne
 ---@return rendRenderMultilayerMaskBlobXboxOne
-function rendRenderMultilayerMaskBlobXboxOne.new(fields) return end
+function rendRenderMultilayerMaskBlobXboxOne.new(fields) end

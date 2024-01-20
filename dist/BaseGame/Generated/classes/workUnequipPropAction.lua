@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workUnequipPropAction: workIWorkspotItemAction
----@field public itemId CName
+---@field itemId CName
 workUnequipPropAction = {}
 
 ---@param fields? workUnequipPropAction
 ---@return workUnequipPropAction
-function workUnequipPropAction.new(fields) return end
+function workUnequipPropAction.new(fields) end

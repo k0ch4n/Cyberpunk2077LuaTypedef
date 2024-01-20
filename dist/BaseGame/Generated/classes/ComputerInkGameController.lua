@@ -1,366 +1,319 @@
 ---@meta
 
 ---@class ComputerInkGameController: DeviceInkGameControllerBase
----@field protected layoutID TweakDBID
----@field protected currentLayoutLibraryID CName
----@field protected mainLayout inkWidget
----@field protected devicesMenuInitialized Bool
----@field protected devicesMenuSpawned Bool
----@field protected devicesMenuSpawnRequested Bool
----@field protected menuInitialized Bool
----@field private mainDisplayWidget inkVideoWidget
----@field private forceOpenDocumentType EDocumentType
----@field private forceOpenDocumentAdress SDocumentAdress
----@field private onMailThumbnailWidgetsUpdateListener redCallbackObject
----@field private onFileThumbnailWidgetsUpdateListener redCallbackObject
----@field private onMailWidgetsUpdateListener redCallbackObject
----@field private onFileWidgetsUpdateListener redCallbackObject
----@field private onMenuButtonWidgetsUpdateListener redCallbackObject
----@field private onMainMenuButtonWidgetsUpdateListener redCallbackObject
----@field private onBannerWidgetsUpdateListener redCallbackObject
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field layoutID TweakDBID
+---@field currentLayoutLibraryID CName
+---@field mainLayout inkWidget
+---@field devicesMenuInitialized Bool
+---@field devicesMenuSpawned Bool
+---@field devicesMenuSpawnRequested Bool
+---@field menuInitialized Bool
+---@field mainDisplayWidget inkVideoWidget
+---@field forceOpenDocumentType EDocumentType
+---@field forceOpenDocumentAdress SDocumentAdress
+---@field onMailThumbnailWidgetsUpdateListener redCallbackObject
+---@field onFileThumbnailWidgetsUpdateListener redCallbackObject
+---@field onMailWidgetsUpdateListener redCallbackObject
+---@field onFileWidgetsUpdateListener redCallbackObject
+---@field onMenuButtonWidgetsUpdateListener redCallbackObject
+---@field onMainMenuButtonWidgetsUpdateListener redCallbackObject
+---@field onBannerWidgetsUpdateListener redCallbackObject
+---@field onGlitchingStateChangedListener redCallbackObject
 ComputerInkGameController = {}
 
 ---@param fields? ComputerInkGameController
 ---@return ComputerInkGameController
-function ComputerInkGameController.new(fields) return end
+function ComputerInkGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ComputerInkGameController:OnBannerWidgetsUpdate(value) return end
+function ComputerInkGameController:OnBannerWidgetsUpdate(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerInkGameController:OnDevicesMenuSpawned(widget, userData) return end
+function ComputerInkGameController:OnDevicesMenuSpawned(widget, userData) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ComputerInkGameController:OnDocumentThumbnailCallback(e) return end
+function ComputerInkGameController:OnDocumentThumbnailCallback(e) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ComputerInkGameController:OnFileThumbnailWidgetsUpdate(value) return end
+function ComputerInkGameController:OnFileThumbnailWidgetsUpdate(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ComputerInkGameController:OnFileWidgetsUpdate(value) return end
+function ComputerInkGameController:OnFileWidgetsUpdate(value) end
 
----@protected
 ---@param evt GoToMenuEvent
 ---@return Bool
-function ComputerInkGameController:OnGoToMenuEvent(evt) return end
+function ComputerInkGameController:OnGoToMenuEvent(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ComputerInkGameController:OnHideFileCallback(e) return end
+function ComputerInkGameController:OnHideFileCallback(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ComputerInkGameController:OnHideFullBannerCallback(e) return end
+function ComputerInkGameController:OnHideFullBannerCallback(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ComputerInkGameController:OnHideMailCallback(e) return end
+function ComputerInkGameController:OnHideMailCallback(e) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ComputerInkGameController:OnMailThumbnailWidgetsUpdate(value) return end
+function ComputerInkGameController:OnMailThumbnailWidgetsUpdate(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ComputerInkGameController:OnMailWidgetsUpdate(value) return end
+function ComputerInkGameController:OnMailWidgetsUpdate(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function ComputerInkGameController:OnMainLayoutSpawned(widget, userData) return end
+function ComputerInkGameController:OnMainLayoutSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ComputerInkGameController:OnMainMenuButtonWidgetsUpdate(value) return end
+function ComputerInkGameController:OnMainMenuButtonWidgetsUpdate(value) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ComputerInkGameController:OnMenuButtonCallback(e) return end
+function ComputerInkGameController:OnMenuButtonCallback(e) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ComputerInkGameController:OnMenuButtonWidgetsUpdate(value) return end
+function ComputerInkGameController:OnMenuButtonWidgetsUpdate(value) end
 
----@protected
 ---@param evt OpenDocumentEvent
 ---@return Bool
-function ComputerInkGameController:OnOpenDocumentEvent(evt) return end
+function ComputerInkGameController:OnOpenDocumentEvent(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ComputerInkGameController:OnShowFullBannerCallback(e) return end
+function ComputerInkGameController:OnShowFullBannerCallback(e) end
 
----@protected
 ---@return Bool
-function ComputerInkGameController:OnUninitialize() return end
+function ComputerInkGameController:OnUninitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ComputerInkGameController:OnWindowCloseCallback(e) return end
+function ComputerInkGameController:OnWindowCloseCallback(e) end
 
 ---@param screenDefinition ScreenDefinitionPackage
 ---@return String
-function ComputerInkGameController:GetComputerInkLibraryPath(screenDefinition) return end
+function ComputerInkGameController:GetComputerInkLibraryPath(screenDefinition) end
 
 ---@return SDocumentAdress
-function ComputerInkGameController:GetForceOpenDocumentAdress() return end
+function ComputerInkGameController:GetForceOpenDocumentAdress() end
 
 ---@return EDocumentType
-function ComputerInkGameController:GetForceOpenDocumentType() return end
+function ComputerInkGameController:GetForceOpenDocumentType() end
 
 ---@return ComputerMainLayoutWidgetController
-function ComputerInkGameController:GetMainLayoutController() return end
+function ComputerInkGameController:GetMainLayoutController() end
 
----@private
 ---@param menuType EComputerMenuType
 ---@return String
-function ComputerInkGameController:GetMenuName(menuType) return end
+function ComputerInkGameController:GetMenuName(menuType) end
 
----@protected
 ---@return Computer
-function ComputerInkGameController:GetOwner() return end
+function ComputerInkGameController:GetOwner() end
 
 ---@param screenDefinition ScreenDefinitionPackage
 ---@return redResourceReferenceScriptToken
-function ComputerInkGameController:GetTerminalInkLibraryPath(screenDefinition) return end
+function ComputerInkGameController:GetTerminalInkLibraryPath(screenDefinition) end
 
----@private
 ---@param menuID String
 ---@return nil
-function ComputerInkGameController:GoToMenu(menuID) return end
+function ComputerInkGameController:GoToMenu(menuID) end
 
----@private
 ---@param elementName String
 ---@return nil
-function ComputerInkGameController:HideMenuByName(elementName) return end
+function ComputerInkGameController:HideMenuByName(elementName) end
 
----@protected
 ---@param widgetsData SBannerWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:InitializeBanners(widgetsData) return end
+function ComputerInkGameController:InitializeBanners(widgetsData) end
 
----@protected
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:InitializeFiles(widgetsData) return end
+function ComputerInkGameController:InitializeFiles(widgetsData) end
 
----@private
 ---@param widgetsData SDocumentThumbnailWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:InitializeFilesThumbnails(widgetsData) return end
+function ComputerInkGameController:InitializeFilesThumbnails(widgetsData) end
 
----@protected
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:InitializeMails(widgetsData) return end
+function ComputerInkGameController:InitializeMails(widgetsData) end
 
----@protected
 ---@param widgetsData SDocumentThumbnailWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:InitializeMailsThumbnails(widgetsData) return end
+function ComputerInkGameController:InitializeMailsThumbnails(widgetsData) end
 
----@protected
 ---@return nil
-function ComputerInkGameController:InitializeMainLayout() return end
+function ComputerInkGameController:InitializeMainLayout() end
 
----@protected
 ---@param widgetsData SComputerMenuButtonWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:InitializeMainMenuButtons(widgetsData) return end
+function ComputerInkGameController:InitializeMainMenuButtons(widgetsData) end
 
----@protected
 ---@param widgetsData SComputerMenuButtonWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:InitializeMenuButtons(widgetsData) return end
+function ComputerInkGameController:InitializeMenuButtons(widgetsData) end
 
----@protected
 ---@return Bool
-function ComputerInkGameController:IsDevicesManuSpawnRequested() return end
+function ComputerInkGameController:IsDevicesManuSpawnRequested() end
 
----@protected
 ---@return Bool
-function ComputerInkGameController:IsDevicesManuSpawned() return end
+function ComputerInkGameController:IsDevicesManuSpawned() end
 
----@protected
 ---@return Bool
-function ComputerInkGameController:IsMainLayoutInitialized() return end
+function ComputerInkGameController:IsMainLayoutInitialized() end
 
 ---@param controller ComputerDocumentThumbnailWidgetController
 ---@return nil
-function ComputerInkGameController:OpenDocument(controller) return end
+function ComputerInkGameController:OpenDocument(controller) end
 
----@private
 ---@param documentType EDocumentType
 ---@param adress SDocumentAdress
 ---@return nil
-function ComputerInkGameController:OpenDocument(documentType, adress) return end
+function ComputerInkGameController:OpenDocument(documentType, adress) end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@param audioEvent CName|string
 ---@return nil
-function ComputerInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
+function ComputerInkGameController:PlayVideo(videoPath, looped, audioEvent) end
 
 ---@param state EDeviceStatus
 ---@return nil
-function ComputerInkGameController:Refresh(state) return end
+function ComputerInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ComputerInkGameController:RegisterBlackboardCallbacks(blackboard) return end
-
----@protected
----@return nil
-function ComputerInkGameController:RegisterCloseWindowButtonCallback() return end
+function ComputerInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
 ---@return nil
-function ComputerInkGameController:RequestBannerWidgetsUpdate() return end
+function ComputerInkGameController:RegisterCloseWindowButtonCallback() end
 
 ---@return nil
-function ComputerInkGameController:RequestFileThumbnailWidgetsUpdate() return end
+function ComputerInkGameController:RequestBannerWidgetsUpdate() end
+
+---@return nil
+function ComputerInkGameController:RequestFileThumbnailWidgetsUpdate() end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerInkGameController:RequestFileWidgetUpdate(documentAdress) return end
+function ComputerInkGameController:RequestFileWidgetUpdate(documentAdress) end
 
 ---@return nil
-function ComputerInkGameController:RequestMailThumbnailWidgetsUpdate() return end
+function ComputerInkGameController:RequestMailThumbnailWidgetsUpdate() end
 
 ---@param documentAdress SDocumentAdress
 ---@return nil
-function ComputerInkGameController:RequestMailWidgetUpdate(documentAdress) return end
+function ComputerInkGameController:RequestMailWidgetUpdate(documentAdress) end
 
 ---@return nil
-function ComputerInkGameController:RequestMainMenuButtonWidgetsUpdate() return end
+function ComputerInkGameController:RequestMainMenuButtonWidgetsUpdate() end
 
 ---@return nil
-function ComputerInkGameController:RequestMenuButtonWidgetsUpdate() return end
+function ComputerInkGameController:RequestMenuButtonWidgetsUpdate() end
 
 ---@return nil
-function ComputerInkGameController:ResetForceOpenDocumentData() return end
+function ComputerInkGameController:ResetForceOpenDocumentData() end
 
----@protected
 ---@return nil
-function ComputerInkGameController:ResolveBreadcrumbLevel() return end
+function ComputerInkGameController:ResolveBreadcrumbLevel() end
 
----@private
 ---@return nil
-function ComputerInkGameController:ResolveInitialMenuType() return end
+function ComputerInkGameController:ResolveInitialMenuType() end
 
----@private
 ---@param questInfo gamedeviceQuestInfo
 ---@return nil
-function ComputerInkGameController:ResolveQuestInfo(questInfo) return end
+function ComputerInkGameController:ResolveQuestInfo(questInfo) end
 
 ---@param gameController ComputerInkGameController
 ---@param parentWidget inkWidget
 ---@return nil
-function ComputerInkGameController:SetDevicesMenu(gameController, parentWidget) return end
-
----@protected
----@return nil
-function ComputerInkGameController:SetupWidgets() return end
+function ComputerInkGameController:SetDevicesMenu(gameController, parentWidget) end
 
 ---@return nil
-function ComputerInkGameController:ShowDevices() return end
+function ComputerInkGameController:SetupWidgets() end
 
 ---@return nil
-function ComputerInkGameController:ShowFiles() return end
+function ComputerInkGameController:ShowDevices() end
 
 ---@return nil
-function ComputerInkGameController:ShowInternet() return end
+function ComputerInkGameController:ShowFiles() end
 
 ---@return nil
-function ComputerInkGameController:ShowMails() return end
+function ComputerInkGameController:ShowInternet() end
 
 ---@return nil
-function ComputerInkGameController:ShowMainMenu() return end
+function ComputerInkGameController:ShowMails() end
 
----@private
+---@return nil
+function ComputerInkGameController:ShowMainMenu() end
+
 ---@param elementName String
 ---@return nil
-function ComputerInkGameController:ShowMenuByName(elementName) return end
+function ComputerInkGameController:ShowMenuByName(elementName) end
 
 ---@return nil
-function ComputerInkGameController:ShowNewsfeed() return end
+function ComputerInkGameController:ShowNewsfeed() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function ComputerInkGameController:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function ComputerInkGameController:StopGlitchingScreen() return end
+function ComputerInkGameController:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function ComputerInkGameController:StopVideo() return end
+function ComputerInkGameController:StopGlitchingScreen() end
 
----@protected
 ---@return nil
-function ComputerInkGameController:TurnOff() return end
+function ComputerInkGameController:StopVideo() end
 
----@protected
 ---@return nil
-function ComputerInkGameController:TurnOn() return end
+function ComputerInkGameController:TurnOff() end
 
----@protected
+---@return nil
+function ComputerInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ComputerInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function ComputerInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateActionWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateActionWidgets(widgetsData) end
 
 ---@param widgetsData SBannerWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateBannersWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateBannersWidgets(widgetsData) end
 
 ---@param widgetsData SDocumentThumbnailWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateFilesThumbnailsWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateFilesThumbnailsWidgets(widgetsData) end
 
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateFilesWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateFilesWidgets(widgetsData) end
 
 ---@param widgetsData SDocumentThumbnailWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateMailsThumbnailsWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateMailsThumbnailsWidgets(widgetsData) end
 
 ---@param widgetsData SDocumentWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateMailsWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateMailsWidgets(widgetsData) end
 
 ---@param widgetsData SComputerMenuButtonWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateMainMenuButtonsWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateMainMenuButtonsWidgets(widgetsData) end
 
 ---@param widgetsData SComputerMenuButtonWidgetPackage[]
 ---@return nil
-function ComputerInkGameController:UpdateMenuButtonsWidgets(widgetsData) return end
+function ComputerInkGameController:UpdateMenuButtonsWidgets(widgetsData) end

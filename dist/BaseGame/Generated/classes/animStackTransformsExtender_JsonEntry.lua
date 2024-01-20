@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class animStackTransformsExtender_JsonEntry
----@field public name CName
----@field public parentName CName
----@field public referenceTransformLs QsTransform
----@field public snapMethod animStackTransformsExtender_SnapToBoneMethod
----@field public snapToReference Bool
----@field public snapTargetBone CName
----@field public offsetToReference Bool
----@field public offsetSpaceBone CName
----@field public offset QsTransform
+---@field name CName
+---@field parentName CName
+---@field referenceTransformLs QsTransform
+---@field snapMethod animStackTransformsExtender_SnapToBoneMethod
+---@field snapToReference Bool
+---@field snapTargetBone CName
+---@field offsetToReference Bool
+---@field offsetSpaceBone CName
+---@field offset QsTransform
 animStackTransformsExtender_JsonEntry = {}
 
 ---@param fields? animStackTransformsExtender_JsonEntry
 ---@return animStackTransformsExtender_JsonEntry
-function animStackTransformsExtender_JsonEntry.new(fields) return end
+function animStackTransformsExtender_JsonEntry.new(fields) end

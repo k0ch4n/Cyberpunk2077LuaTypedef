@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class DebugTextDrawer: gameObject
----@field private text String
----@field private color Color
+---@field text String
+---@field color Color
 DebugTextDrawer = {}
 
 ---@param fields? DebugTextDrawer
 ---@return DebugTextDrawer
-function DebugTextDrawer.new(fields) return end
+function DebugTextDrawer.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DebugTextDrawer:OnRequestComponents(ri) return end
+function DebugTextDrawer:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DebugTextDrawer:OnTakeControl(ri) return end
+function DebugTextDrawer:OnTakeControl(ri) end

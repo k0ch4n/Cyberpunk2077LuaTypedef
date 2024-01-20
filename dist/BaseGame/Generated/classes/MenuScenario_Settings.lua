@@ -5,48 +5,38 @@ MenuScenario_Settings = {}
 
 ---@param fields? MenuScenario_Settings
 ---@return MenuScenario_Settings
-function MenuScenario_Settings.new(fields) return end
+function MenuScenario_Settings.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_Settings:OnCloseSettingsScreen() return end
+function MenuScenario_Settings:OnCloseSettingsScreen() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Settings:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_Settings:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_Settings:OnLeaveScenario(nextScenario) return end
+function MenuScenario_Settings:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_Settings:OnMainMenuBack() return end
+function MenuScenario_Settings:OnMainMenuBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_Settings:OnSettingsBack() return end
+function MenuScenario_Settings:OnSettingsBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_Settings:OnSwitchToBrightnessSettings() return end
+function MenuScenario_Settings:OnSwitchToBrightnessSettings() end
 
----@protected
 ---@return Bool
-function MenuScenario_Settings:OnSwitchToControllerPanel() return end
+function MenuScenario_Settings:OnSwitchToControllerPanel() end
 
----@protected
 ---@return Bool
-function MenuScenario_Settings:OnSwitchToHDRSettings() return end
+function MenuScenario_Settings:OnSwitchToHDRSettings() end
 
----@private
 ---@param forceCloseSettings Bool
 ---@return nil
-function MenuScenario_Settings:CloseSettings(forceCloseSettings) return end
+function MenuScenario_Settings:CloseSettings(forceCloseSettings) end
 
----@protected
 ---@return nil
-function MenuScenario_Settings:OnSubmenuOpen() return end
+function MenuScenario_Settings:OnSubmenuOpen() end

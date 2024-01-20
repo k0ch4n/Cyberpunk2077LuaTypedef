@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorDelegateExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public delegateAttribute AIbehaviorDelegateAttrRef
----@field public behaviorCallbackNames CName[]
+---@field delegateAttribute AIbehaviorDelegateAttrRef
+---@field behaviorCallbackNames CName[]
 AIbehaviorDelegateExpressionDefinition = {}
 
 ---@param fields? AIbehaviorDelegateExpressionDefinition
 ---@return AIbehaviorDelegateExpressionDefinition
-function AIbehaviorDelegateExpressionDefinition.new(fields) return end
+function AIbehaviorDelegateExpressionDefinition.new(fields) end

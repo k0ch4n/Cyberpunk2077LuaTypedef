@@ -5,4 +5,4 @@ worldStaticMeshNode = {}
 
 ---@param fields? worldStaticMeshNode
 ---@return worldStaticMeshNode
-function worldStaticMeshNode.new(fields) return end
+function worldStaticMeshNode.new(fields) end

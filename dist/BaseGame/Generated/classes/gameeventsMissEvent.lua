@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameeventsMissEvent: redEvent
----@field public attackData gamedamageAttackData
----@field public hitPosition Vector4
----@field public hitDirection Vector4
----@field public attackPentration Float
----@field public hasPiercedTechSurface Bool
----@field public attackComputed gameAttackComputed
+---@field attackData gamedamageAttackData
+---@field hitPosition Vector4
+---@field hitDirection Vector4
+---@field attackPentration Float
+---@field hasPiercedTechSurface Bool
+---@field attackComputed gameAttackComputed
 gameeventsMissEvent = {}
 
 ---@param fields? gameeventsMissEvent
 ---@return gameeventsMissEvent
-function gameeventsMissEvent.new(fields) return end
+function gameeventsMissEvent.new(fields) end

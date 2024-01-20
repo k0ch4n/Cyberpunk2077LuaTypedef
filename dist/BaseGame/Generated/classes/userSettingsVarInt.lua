@@ -5,23 +5,23 @@ userSettingsVarInt = {}
 
 ---@param fields? userSettingsVarInt
 ---@return userSettingsVarInt
-function userSettingsVarInt.new(fields) return end
+function userSettingsVarInt.new(fields) end
 
 ---@return Int32
-function userSettingsVarInt:GetDefaultValue() return end
+function userSettingsVarInt:GetDefaultValue() end
 
 ---@return Int32
-function userSettingsVarInt:GetMaxValue() return end
+function userSettingsVarInt:GetMaxValue() end
 
 ---@return Int32
-function userSettingsVarInt:GetMinValue() return end
+function userSettingsVarInt:GetMinValue() end
 
 ---@return Int32
-function userSettingsVarInt:GetStepValue() return end
+function userSettingsVarInt:GetStepValue() end
 
 ---@return Int32
-function userSettingsVarInt:GetValue() return end
+function userSettingsVarInt:GetValue() end
 
 ---@param value Int32
 ---@return nil
-function userSettingsVarInt:SetValue(value) return end
+function userSettingsVarInt:SetValue(value) end

@@ -5,4 +5,4 @@ IronsightTargetHealthUpdateEvent = {}
 
 ---@param fields? IronsightTargetHealthUpdateEvent
 ---@return IronsightTargetHealthUpdateEvent
-function IronsightTargetHealthUpdateEvent.new(fields) return end
+function IronsightTargetHealthUpdateEvent.new(fields) end

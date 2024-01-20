@@ -5,9 +5,8 @@ CombatState = {}
 
 ---@param fields? CombatState
 ---@return CombatState
-function CombatState.new(fields) return end
+function CombatState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCHighLevelState
-function CombatState:GetDesiredHighLevelState(context) return end
+function CombatState:GetDesiredHighLevelState(context) end

@@ -5,7 +5,7 @@ StatusEffectSlot = {}
 
 ---@param fields? StatusEffectSlot
 ---@return StatusEffectSlot
-function StatusEffectSlot.new(fields) return end
+function StatusEffectSlot.new(fields) end
 
 ---@return RadialStatusEffectController
-function StatusEffectSlot:GetController() return end
+function StatusEffectSlot:GetController() end

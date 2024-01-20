@@ -5,14 +5,12 @@ HitReceivedCallback = {}
 
 ---@param fields? HitReceivedCallback
 ---@return HitReceivedCallback
-function HitReceivedCallback.new(fields) return end
+function HitReceivedCallback.new(fields) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function HitReceivedCallback:OnHitReceived(hitEvent) return end
+function HitReceivedCallback:OnHitReceived(hitEvent) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function HitReceivedCallback:OnHitTriggered(hitEvent) return end
+function HitReceivedCallback:OnHitTriggered(hitEvent) end

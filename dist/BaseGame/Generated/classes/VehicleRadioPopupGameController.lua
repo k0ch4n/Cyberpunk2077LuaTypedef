@@ -1,123 +1,102 @@
 ---@meta
 
 ---@class VehicleRadioPopupGameController: BaseModalListPopupGameController
----@field private icon inkImageWidgetReference
----@field private trackName inkTextWidgetReference
----@field private scrollArea inkScrollAreaWidgetReference
----@field private scrollControllerWidget inkWidgetReference
----@field private radioVolumeSettings inkWidgetReference
----@field private volumeSettingGroupName CName
----@field private volumeSettingVarName CName
----@field private dataView RadioStationsDataView
----@field private dataSource inkScriptableDataSourceWrapper
----@field private quickSlotsManager QuickSlotsManager
----@field private player PlayerPuppet
----@field private playerVehicle vehicleBaseObject
----@field private startupIndex Uint32
----@field private currentRadioId Int32
----@field private selectedItem RadioStationListItemController
----@field private scrollController inkScrollController
----@field private canVolumeDown Bool
----@field private canVolumeUp Bool
----@field private radioVolumeSettingsController RadioVolumeSettingsController
+---@field icon inkImageWidgetReference
+---@field trackName inkTextWidgetReference
+---@field scrollArea inkScrollAreaWidgetReference
+---@field scrollControllerWidget inkWidgetReference
+---@field radioVolumeSettings inkWidgetReference
+---@field volumeSettingGroupName CName
+---@field volumeSettingVarName CName
+---@field dataView RadioStationsDataView
+---@field dataSource inkScriptableDataSourceWrapper
+---@field quickSlotsManager QuickSlotsManager
+---@field player PlayerPuppet
+---@field playerVehicle vehicleBaseObject
+---@field startupIndex Uint32
+---@field currentRadioId Int32
+---@field selectedItem RadioStationListItemController
+---@field scrollController inkScrollController
+---@field canVolumeDown Bool
+---@field canVolumeUp Bool
+---@field radioVolumeSettingsController RadioVolumeSettingsController
 VehicleRadioPopupGameController = {}
 
 ---@param fields? VehicleRadioPopupGameController
 ---@return VehicleRadioPopupGameController
-function VehicleRadioPopupGameController.new(fields) return end
+function VehicleRadioPopupGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function VehicleRadioPopupGameController:OnAction(action, consumer) return end
+function VehicleRadioPopupGameController:OnAction(action, consumer) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function VehicleRadioPopupGameController:OnPlayerAttach(playerPuppet) return end
+function VehicleRadioPopupGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param value Vector2
 ---@return Bool
-function VehicleRadioPopupGameController:OnScrollChanged(value) return end
+function VehicleRadioPopupGameController:OnScrollChanged(value) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function VehicleRadioPopupGameController:OnShowAnimFinished(proxy) return end
+function VehicleRadioPopupGameController:OnShowAnimFinished(proxy) end
 
----@protected
 ---@param evt UIVehicleRadioEvent
 ---@return Bool
-function VehicleRadioPopupGameController:OnVehicleRadioEvent(evt) return end
+function VehicleRadioPopupGameController:OnVehicleRadioEvent(evt) end
 
----@protected
 ---@param evt vehicleRadioSongChanged
 ---@return Bool
-function VehicleRadioPopupGameController:OnVehicleRadioSongChanged(evt) return end
+function VehicleRadioPopupGameController:OnVehicleRadioSongChanged(evt) end
 
----@protected
 ---@return nil
-function VehicleRadioPopupGameController:Activate() return end
+function VehicleRadioPopupGameController:Activate() end
 
----@private
 ---@param actionName CName|string
 ---@param actionType gameinputActionType
 ---@return nil
-function VehicleRadioPopupGameController:AdjustRadioVolumeWithAction(actionName, actionType) return end
+function VehicleRadioPopupGameController:AdjustRadioVolumeWithAction(actionName, actionType) end
 
----@protected
 ---@return nil
-function VehicleRadioPopupGameController:CleanVirtualList() return end
+function VehicleRadioPopupGameController:CleanVirtualList() end
 
----@private
 ---@return entEntityID
-function VehicleRadioPopupGameController:GetRadioReceiverEntityID() return end
+function VehicleRadioPopupGameController:GetRadioReceiverEntityID() end
 
----@private
 ---@return CName
-function VehicleRadioPopupGameController:GetRadioReceiverStationName() return end
+function VehicleRadioPopupGameController:GetRadioReceiverStationName() end
 
----@private
 ---@return CName
-function VehicleRadioPopupGameController:GetRadioReceiverTrackName() return end
+function VehicleRadioPopupGameController:GetRadioReceiverTrackName() end
 
----@private
 ---@return Bool
-function VehicleRadioPopupGameController:IsRadioReceiverActive() return end
+function VehicleRadioPopupGameController:IsRadioReceiverActive() end
 
----@protected
 ---@return nil
-function VehicleRadioPopupGameController:OnClose() return end
+function VehicleRadioPopupGameController:OnClose() end
 
----@protected
 ---@param previous inkVirtualCompoundItemController
 ---@param next inkVirtualCompoundItemController
 ---@return nil
-function VehicleRadioPopupGameController:Select(previous, next) return end
+function VehicleRadioPopupGameController:Select(previous, next) end
 
----@private
 ---@param track CName|string
 ---@return nil
-function VehicleRadioPopupGameController:SetTrackName(track) return end
+function VehicleRadioPopupGameController:SetTrackName(track) end
 
----@protected
 ---@return nil
-function VehicleRadioPopupGameController:SetupData() return end
+function VehicleRadioPopupGameController:SetupData() end
 
----@protected
 ---@return nil
-function VehicleRadioPopupGameController:SetupTimeModifierConfig() return end
+function VehicleRadioPopupGameController:SetupTimeModifierConfig() end
 
----@protected
 ---@return nil
-function VehicleRadioPopupGameController:SetupVirtualList() return end
+function VehicleRadioPopupGameController:SetupVirtualList() end
 
----@private
 ---@return nil
-function VehicleRadioPopupGameController:SetupVolumeContorls() return end
+function VehicleRadioPopupGameController:SetupVolumeContorls() end
 
----@protected
 ---@return nil
-function VehicleRadioPopupGameController:VirtualListReady() return end
+function VehicleRadioPopupGameController:VirtualListReady() end

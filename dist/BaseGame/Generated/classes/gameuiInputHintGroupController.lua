@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiInputHintGroupController: inkWidgetLogicController
----@field public titleTextRef inkTextWidgetReference
----@field public descriptionTextRef inkTextWidgetReference
----@field public hintsContainerRef inkCompoundWidgetReference
----@field public iconRef inkImageWidgetReference
+---@field titleTextRef inkTextWidgetReference
+---@field descriptionTextRef inkTextWidgetReference
+---@field hintsContainerRef inkCompoundWidgetReference
+---@field iconRef inkImageWidgetReference
 gameuiInputHintGroupController = {}
 
 ---@param fields? gameuiInputHintGroupController
 ---@return gameuiInputHintGroupController
-function gameuiInputHintGroupController.new(fields) return end
+function gameuiInputHintGroupController.new(fields) end

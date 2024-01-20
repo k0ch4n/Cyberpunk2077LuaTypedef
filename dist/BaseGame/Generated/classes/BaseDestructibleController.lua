@@ -5,7 +5,7 @@ BaseDestructibleController = {}
 
 ---@param fields? BaseDestructibleController
 ---@return BaseDestructibleController
-function BaseDestructibleController.new(fields) return end
+function BaseDestructibleController.new(fields) end
 
 ---@return BaseDestructibleControllerPS
-function BaseDestructibleController:GetPS() return end
+function BaseDestructibleController:GetPS() end

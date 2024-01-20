@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class animAnimNode_DirectConnConstraint: animAnimNode_OnePoseInput
----@field public sourceTransform animIAnimNodeSourceChannel_QsTransform
----@field public isSourceTransformResaved Bool
----@field public sourceTransformIndex animTransformIndex
----@field public transformIndex animTransformIndex
----@field public posX Bool
----@field public posY Bool
----@field public posZ Bool
----@field public rotX Bool
----@field public rotY Bool
----@field public rotZ Bool
----@field public scaleX Bool
----@field public scaleY Bool
----@field public scaleZ Bool
----@field public weight Float
----@field public weightNode animFloatLink
+---@field sourceTransform animIAnimNodeSourceChannel_QsTransform
+---@field isSourceTransformResaved Bool
+---@field sourceTransformIndex animTransformIndex
+---@field transformIndex animTransformIndex
+---@field posX Bool
+---@field posY Bool
+---@field posZ Bool
+---@field rotX Bool
+---@field rotY Bool
+---@field rotZ Bool
+---@field scaleX Bool
+---@field scaleY Bool
+---@field scaleZ Bool
+---@field weight Float
+---@field weightNode animFloatLink
 animAnimNode_DirectConnConstraint = {}
 
 ---@param fields? animAnimNode_DirectConnConstraint
 ---@return animAnimNode_DirectConnConstraint
-function animAnimNode_DirectConnConstraint.new(fields) return end
+function animAnimNode_DirectConnConstraint.new(fields) end

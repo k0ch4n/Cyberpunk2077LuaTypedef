@@ -5,25 +5,21 @@ DestructibleMasterLightControllerPS = {}
 
 ---@param fields? DestructibleMasterLightControllerPS
 ---@return DestructibleMasterLightControllerPS
-function DestructibleMasterLightControllerPS.new(fields) return end
+function DestructibleMasterLightControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function DestructibleMasterLightControllerPS:OnInstantiated() return end
+function DestructibleMasterLightControllerPS:OnInstantiated() end
 
----@protected
 ---@return nil
-function DestructibleMasterLightControllerPS:GameAttached() return end
+function DestructibleMasterLightControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function DestructibleMasterLightControllerPS:GetActions(context) return end
+function DestructibleMasterLightControllerPS:GetActions(context) end
 
----@private
 ---@return nil
-function DestructibleMasterLightControllerPS:InitializeCLS() return end
+function DestructibleMasterLightControllerPS:InitializeCLS() end
 
----@private
 ---@param state EDeviceStatus
 ---@return nil
-function DestructibleMasterLightControllerPS:UpdateStateOnCLS(state) return end
+function DestructibleMasterLightControllerPS:UpdateStateOnCLS(state) end

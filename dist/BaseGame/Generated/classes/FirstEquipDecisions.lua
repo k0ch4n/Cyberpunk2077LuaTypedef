@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class FirstEquipDecisions: EquipmentBaseDecisions
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public stateMachineInitData EquipmentInitData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInitData EquipmentInitData
 FirstEquipDecisions = {}
 
 ---@param fields? FirstEquipDecisions
 ---@return FirstEquipDecisions
-function FirstEquipDecisions.new(fields) return end
+function FirstEquipDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function FirstEquipDecisions:ToEquipped(stateContext, scriptInterface) return end
+function FirstEquipDecisions:ToEquipped(stateContext, scriptInterface) end

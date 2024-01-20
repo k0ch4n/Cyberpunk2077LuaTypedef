@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ShardForceSelectionEvent: redEvent
----@field public selectionIndex Int32
----@field public hash Int32
+---@field selectionIndex Int32
+---@field hash Int32
 ShardForceSelectionEvent = {}
 
 ---@param fields? ShardForceSelectionEvent
 ---@return ShardForceSelectionEvent
-function ShardForceSelectionEvent.new(fields) return end
+function ShardForceSelectionEvent.new(fields) end

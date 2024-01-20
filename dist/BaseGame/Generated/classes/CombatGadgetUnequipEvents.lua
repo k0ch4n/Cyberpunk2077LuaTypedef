@@ -5,10 +5,9 @@ CombatGadgetUnequipEvents = {}
 
 ---@param fields? CombatGadgetUnequipEvents
 ---@return CombatGadgetUnequipEvents
-function CombatGadgetUnequipEvents.new(fields) return end
+function CombatGadgetUnequipEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetUnequipEvents:OnEnter(stateContext, scriptInterface) return end
+function CombatGadgetUnequipEvents:OnEnter(stateContext, scriptInterface) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class VirutalNestedListData: IScriptable
----@field public collapsable Bool
----@field public isHeader Bool
----@field public level Int32
----@field public forceToTopWithinLevel Bool
----@field public widgetType Uint32
----@field public data IScriptable
+---@field collapsable Bool
+---@field isHeader Bool
+---@field level Int32
+---@field forceToTopWithinLevel Bool
+---@field widgetType Uint32
+---@field data IScriptable
 VirutalNestedListData = {}
 
 ---@param fields? VirutalNestedListData
 ---@return VirutalNestedListData
-function VirutalNestedListData.new(fields) return end
+function VirutalNestedListData.new(fields) end

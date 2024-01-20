@@ -1,121 +1,100 @@
 ---@meta
 
 ---@class PlatformDevice: InteractiveDevice
----@field private movingPlatform gameMovingPlatform
----@field private offMeshConnection AIOffMeshConnectionComponent
----@field public StartAudioEvent CName
----@field public StopAudioEvent CName
----@field public MovingVFX CName
+---@field movingPlatform gameMovingPlatform
+---@field offMeshConnection AIOffMeshConnectionComponent
+---@field StartAudioEvent CName
+---@field StopAudioEvent CName
+---@field MovingVFX CName
 PlatformDevice = {}
 
 ---@param fields? PlatformDevice
 ---@return PlatformDevice
-function PlatformDevice.new(fields) return end
+function PlatformDevice.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function PlatformDevice:OnAreaEnter(evt) return end
+function PlatformDevice:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function PlatformDevice:OnAreaExit(evt) return end
+function PlatformDevice:OnAreaExit(evt) end
 
----@protected
 ---@param evt gameMovingPlatformArrivedAt
 ---@return Bool
-function PlatformDevice:OnArrivedAt(evt) return end
+function PlatformDevice:OnArrivedAt(evt) end
 
----@protected
 ---@return Bool
-function PlatformDevice:OnDetach() return end
+function PlatformDevice:OnDetach() end
 
----@protected
 ---@param evt QuestMoveToNextFloor
 ---@return Bool
-function PlatformDevice:OnMoveNext(evt) return end
+function PlatformDevice:OnMoveNext(evt) end
 
----@protected
 ---@param evt QuestMoveToPrevFloor
 ---@return Bool
-function PlatformDevice:OnMovePrev(evt) return end
+function PlatformDevice:OnMovePrev(evt) end
 
----@protected
 ---@param evt gameMovingPlatformMovementStateChanged
 ---@return Bool
-function PlatformDevice:OnMovementChange(evt) return end
+function PlatformDevice:OnMovementChange(evt) end
 
----@protected
 ---@param evt QuestMoveToFloor
 ---@return Bool
-function PlatformDevice:OnQuestMoveToFloor(evt) return end
+function PlatformDevice:OnQuestMoveToFloor(evt) end
 
----@protected
 ---@param evt QuestPause
 ---@return Bool
-function PlatformDevice:OnQuestPause(evt) return end
+function PlatformDevice:OnQuestPause(evt) end
 
----@protected
 ---@param evt QuestResume
 ---@return Bool
-function PlatformDevice:OnQuestResume(evt) return end
+function PlatformDevice:OnQuestResume(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function PlatformDevice:OnRequestComponents(ri) return end
+function PlatformDevice:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function PlatformDevice:OnTakeControl(ri) return end
+function PlatformDevice:OnTakeControl(ri) end
 
----@protected
 ---@param evt gameMovingPlatformTeleportTo
 ---@return Bool
-function PlatformDevice:OnTeleport(evt) return end
+function PlatformDevice:OnTeleport(evt) end
 
----@protected
 ---@return PlatformController
-function PlatformDevice:GetController() return end
+function PlatformDevice:GetController() end
 
 ---@return PlatformControllerPS
-function PlatformDevice:GetDevicePS() return end
+function PlatformDevice:GetDevicePS() end
 
 ---@return Vector4
-function PlatformDevice:GetPosition() return end
+function PlatformDevice:GetPosition() end
 
----@protected
 ---@return Bool
-function PlatformDevice:IsDeviceMovableScript() return end
+function PlatformDevice:IsDeviceMovableScript() end
 
----@protected
 ---@param destination NodeRef
 ---@return nil
-function PlatformDevice:MoveToMarker(destination) return end
+function PlatformDevice:MoveToMarker(destination) end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function PlatformDevice:OnMaraudersMapDeviceDebug(sink) return end
+function PlatformDevice:OnMaraudersMapDeviceDebug(sink) end
 
----@protected
 ---@return nil
-function PlatformDevice:Pause() return end
+function PlatformDevice:Pause() end
 
----@protected
 ---@return nil
-function PlatformDevice:ResolveGameplayState() return end
+function PlatformDevice:ResolveGameplayState() end
 
----@protected
 ---@param time Float
 ---@return nil
-function PlatformDevice:Resume(time) return end
+function PlatformDevice:Resume(time) end
 
----@private
 ---@return nil
-function PlatformDevice:StartPostProductionEvents() return end
+function PlatformDevice:StartPostProductionEvents() end
 
----@private
 ---@return nil
-function PlatformDevice:StopPostProductionEvents() return end
+function PlatformDevice:StopPostProductionEvents() end

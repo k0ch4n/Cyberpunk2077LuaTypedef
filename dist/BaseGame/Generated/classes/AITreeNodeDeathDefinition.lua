@@ -5,4 +5,4 @@ AITreeNodeDeathDefinition = {}
 
 ---@param fields? AITreeNodeDeathDefinition
 ---@return AITreeNodeDeathDefinition
-function AITreeNodeDeathDefinition.new(fields) return end
+function AITreeNodeDeathDefinition.new(fields) end

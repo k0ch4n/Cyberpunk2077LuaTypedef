@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ncartStationListDef
----@field public station ENcartStations
+---@field station ENcartStations
 ncartStationListDef = {}
 
 ---@param fields? ncartStationListDef
 ---@return ncartStationListDef
-function ncartStationListDef.new(fields) return end
+function ncartStationListDef.new(fields) end

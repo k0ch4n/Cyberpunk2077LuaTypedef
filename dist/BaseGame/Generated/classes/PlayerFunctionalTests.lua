@@ -5,10 +5,10 @@ PlayerFunctionalTests = {}
 
 ---@param fields? PlayerFunctionalTests
 ---@return PlayerFunctionalTests
-function PlayerFunctionalTests.new(fields) return end
+function PlayerFunctionalTests.new(fields) end
 
 ---@return nil
-function PlayerFunctionalTests:RemoveCollision() return end
+function PlayerFunctionalTests:RemoveCollision() end
 
 ---@return nil
-function PlayerFunctionalTests:SetCameraOrientation() return end
+function PlayerFunctionalTests:SetCameraOrientation() end

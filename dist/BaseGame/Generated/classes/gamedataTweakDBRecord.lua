@@ -5,10 +5,10 @@ gamedataTweakDBRecord = {}
 
 ---@param fields? gamedataTweakDBRecord
 ---@return gamedataTweakDBRecord
-function gamedataTweakDBRecord.new(fields) return end
+function gamedataTweakDBRecord.new(fields) end
 
 ---@return TweakDBID
-function gamedataTweakDBRecord:GetID() return end
+function gamedataTweakDBRecord:GetID() end
 
 ---@return TweakDBID
-function gamedataTweakDBRecord:GetRecordID() return end
+function gamedataTweakDBRecord:GetRecordID() end

@@ -1,45 +1,45 @@
 ---@meta
 
 ---@class CParticleEmitter: IParticleModule
----@field public modules IParticleModule[]
----@field public positionX Int32
----@field public positionY Int32
----@field public material IMaterial
----@field public localMaterialInstance IMaterial
----@field public maxParticles Uint16
----@field public diffuseWrapFactor Float
----@field public backLightingFactor Float
----@field public lightingMipBias Uint32
----@field public emitterLoops Int8
----@field public particleDrawer IParticleDrawer
----@field public decalSpawner CDecalSpawner
----@field public maskInsideCar Bool
----@field public maskInsideInterior Bool
----@field public maskAboveWater Bool
----@field public maskUnderWater Bool
----@field public useSubFrameEmission Bool
----@field public keepSimulationLocal Bool
----@field public killOnCollision Bool
----@field public initialParticleCount Uint8
----@field public envColorGroup EEnvColorGroup
----@field public emitterGroup EEmitterGroup
----@field public renderObjectType ERenderObjectType
----@field public windInfluence Float
----@field public internalPriority Uint8
----@field public lods SParticleEmitterLODLevel[]
----@field public renderResourceBlob IRenderResourceBlob
----@field public Enabled Bool
----@field public Relative Bool
----@field public UseEnvironmentFogColor Bool
----@field public Color HDRColor
----@field public Size Float
----@field public Density Float
----@field public Falloff Float
----@field public NoiseScale Float
----@field public NoiseThreshold Float
----@field public NoiseVelocity Vector3
+---@field modules IParticleModule[]
+---@field positionX Int32
+---@field positionY Int32
+---@field material IMaterial
+---@field localMaterialInstance IMaterial
+---@field maxParticles Uint16
+---@field diffuseWrapFactor Float
+---@field backLightingFactor Float
+---@field lightingMipBias Uint32
+---@field emitterLoops Int8
+---@field particleDrawer IParticleDrawer
+---@field decalSpawner CDecalSpawner
+---@field maskInsideCar Bool
+---@field maskInsideInterior Bool
+---@field maskAboveWater Bool
+---@field maskUnderWater Bool
+---@field useSubFrameEmission Bool
+---@field keepSimulationLocal Bool
+---@field killOnCollision Bool
+---@field initialParticleCount Uint8
+---@field envColorGroup EEnvColorGroup
+---@field emitterGroup EEmitterGroup
+---@field renderObjectType ERenderObjectType
+---@field windInfluence Float
+---@field internalPriority Uint8
+---@field lods SParticleEmitterLODLevel[]
+---@field renderResourceBlob IRenderResourceBlob
+---@field Enabled Bool
+---@field Relative Bool
+---@field UseEnvironmentFogColor Bool
+---@field Color HDRColor
+---@field Size Float
+---@field Density Float
+---@field Falloff Float
+---@field NoiseScale Float
+---@field NoiseThreshold Float
+---@field NoiseVelocity Vector3
 CParticleEmitter = {}
 
 ---@param fields? CParticleEmitter
 ---@return CParticleEmitter
-function CParticleEmitter.new(fields) return end
+function CParticleEmitter.new(fields) end

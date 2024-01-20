@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SInspectableClue
----@field public clueName CName
----@field public isScanned Bool
+---@field clueName CName
+---@field isScanned Bool
 SInspectableClue = {}
 
 ---@param fields? SInspectableClue
 ---@return SInspectableClue
-function SInspectableClue.new(fields) return end
+function SInspectableClue.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameaudioeventsEmerge: redEvent
----@field public oxygen Float
+---@field oxygen Float
 gameaudioeventsEmerge = {}
 
 ---@param fields? gameaudioeventsEmerge
 ---@return gameaudioeventsEmerge
-function gameaudioeventsEmerge.new(fields) return end
+function gameaudioeventsEmerge.new(fields) end

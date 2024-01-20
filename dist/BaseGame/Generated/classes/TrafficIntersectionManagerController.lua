@@ -5,7 +5,7 @@ TrafficIntersectionManagerController = {}
 
 ---@param fields? TrafficIntersectionManagerController
 ---@return TrafficIntersectionManagerController
-function TrafficIntersectionManagerController.new(fields) return end
+function TrafficIntersectionManagerController.new(fields) end
 
 ---@return TrafficIntersectionManagerControllerPS
-function TrafficIntersectionManagerController:GetPS() return end
+function TrafficIntersectionManagerController:GetPS() end

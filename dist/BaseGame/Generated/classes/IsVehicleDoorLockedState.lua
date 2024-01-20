@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class IsVehicleDoorLockedState: gamePrereqState
----@field public psListener gameScriptedPrereqPSChangeListenerWrapper
+---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsVehicleDoorLockedState = {}
 
 ---@param fields? IsVehicleDoorLockedState
 ---@return IsVehicleDoorLockedState
-function IsVehicleDoorLockedState.new(fields) return end
+function IsVehicleDoorLockedState.new(fields) end
 
----@protected
 ---@return nil
-function IsVehicleDoorLockedState:OnPSStateChanged() return end
+function IsVehicleDoorLockedState:OnPSStateChanged() end

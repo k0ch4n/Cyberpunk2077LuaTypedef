@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class FirstEquipEvents: EquipmentBaseEvents
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public stateMachineInitData EquipmentInitData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInitData EquipmentInitData
 FirstEquipEvents = {}
 
 ---@param fields? FirstEquipEvents
 ---@return FirstEquipEvents
-function FirstEquipEvents.new(fields) return end
+function FirstEquipEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FirstEquipEvents:OnEnter(stateContext, scriptInterface) return end
+function FirstEquipEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FirstEquipEvents:OnExit(stateContext, scriptInterface) return end
+function FirstEquipEvents:OnExit(stateContext, scriptInterface) end

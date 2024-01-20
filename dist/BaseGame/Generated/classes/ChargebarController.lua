@@ -1,92 +1,87 @@
 ---@meta
 
 ---@class ChargebarController: inkWidgetLogicController
----@field protected foreground inkWidgetReference
----@field protected midground inkWidgetReference
----@field protected background inkWidgetReference
----@field protected maxChargeAnimationName CName
----@field protected maxChargeResetAnimationName CName
----@field protected staticChargeAnimationName CName
----@field protected chargedShootAnimationName CName
----@field protected radialWipe Bool
----@field protected verticalChargeBar Bool
----@field protected playStaticChargeAnimationInstead Bool
----@field protected player gameObject
----@field protected statsSystem gameStatsSystem
----@field protected canFullyCharge Bool
----@field protected canOvercharge Bool
----@field protected listenerFullCharge ChargebarStatsListener
----@field protected listenerOvercharge ChargebarStatsListener
----@field protected animationMaxCharge inkanimProxy
----@field protected animationStaticCharge inkanimProxy
----@field protected animationChargedShoot inkanimProxy
----@field public animationStaticChargePlayed Bool
----@field protected isCharged Bool
+---@field foreground inkWidgetReference
+---@field midground inkWidgetReference
+---@field background inkWidgetReference
+---@field maxChargeAnimationName CName
+---@field maxChargeResetAnimationName CName
+---@field staticChargeAnimationName CName
+---@field chargedShootAnimationName CName
+---@field radialWipe Bool
+---@field verticalChargeBar Bool
+---@field playStaticChargeAnimationInstead Bool
+---@field player gameObject
+---@field statsSystem gameStatsSystem
+---@field canFullyCharge Bool
+---@field canOvercharge Bool
+---@field listenerFullCharge ChargebarStatsListener
+---@field listenerOvercharge ChargebarStatsListener
+---@field animationMaxCharge inkanimProxy
+---@field animationStaticCharge inkanimProxy
+---@field animationChargedShoot inkanimProxy
+---@field animationStaticChargePlayed Bool
+---@field isCharged Bool
 ChargebarController = {}
 
 ---@param fields? ChargebarController
 ---@return ChargebarController
-function ChargebarController.new(fields) return end
+function ChargebarController.new(fields) end
 
----@protected
 ---@param value Float
 ---@param threshold Float
 ---@return nil
-function ChargebarController:EvalChargeAnimation(value, threshold) return end
+function ChargebarController:EvalChargeAnimation(value, threshold) end
 
----@protected
 ---@return Float
-function ChargebarController:GetCurrentChargeLimit() return end
+function ChargebarController:GetCurrentChargeLimit() end
 
----@protected
 ---@return gameweaponObject
-function ChargebarController:GetWeaponObject() return end
+function ChargebarController:GetWeaponObject() end
 
 ---@return Float
-function ChargebarController:GetWeponChargingSpeedRatio() return end
+function ChargebarController:GetWeponChargingSpeedRatio() end
 
 ---@param value Float
 ---@return nil
-function ChargebarController:OnChargeValueChanged(value) return end
+function ChargebarController:OnChargeValueChanged(value) end
 
 ---@param player gameObject
 ---@return nil
-function ChargebarController:OnPlayerAttach(player) return end
+function ChargebarController:OnPlayerAttach(player) end
 
 ---@param player gameObject
 ---@return nil
-function ChargebarController:OnPlayerDetach(player) return end
+function ChargebarController:OnPlayerDetach(player) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function ChargebarController:OnStatChanged(ownerID, statType, diff, total) return end
+function ChargebarController:OnStatChanged(ownerID, statType, diff, total) end
 
 ---@param value Variant
 ---@return nil
-function ChargebarController:OnTriggerModeChanged(value) return end
+function ChargebarController:OnTriggerModeChanged(value) end
 
 ---@return nil
-function ChargebarController:PlayChargedShootAnimation() return end
-
----@param value Float
----@param threshold Float
----@return nil
-function ChargebarController:PlayStaticChargeAnimation(value, threshold) return end
-
----@protected
----@param value Float
----@param threshold Float
----@return nil
-function ChargebarController:SetBarsSize(value, threshold) return end
+function ChargebarController:PlayChargedShootAnimation() end
 
 ---@param value Float
 ---@param threshold Float
 ---@return nil
-function ChargebarController:SetRadialWipe(value, threshold) return end
+function ChargebarController:PlayStaticChargeAnimation(value, threshold) end
 
----@private
+---@param value Float
+---@param threshold Float
 ---@return nil
-function ChargebarController:StopChargingAnimation() return end
+function ChargebarController:SetBarsSize(value, threshold) end
+
+---@param value Float
+---@param threshold Float
+---@return nil
+function ChargebarController:SetRadialWipe(value, threshold) end
+
+---@return nil
+function ChargebarController:StopChargingAnimation() end

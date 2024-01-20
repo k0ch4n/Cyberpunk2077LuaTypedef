@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DoorResaveData
----@field public doorType EDoorType
----@field public canPlayerToggleLockState Bool
----@field public canPlayerToggleSealState Bool
----@field public initialStatus EDoorStatus
----@field public keycardName TweakDBID
----@field public passcode CName
+---@field doorType EDoorType
+---@field canPlayerToggleLockState Bool
+---@field canPlayerToggleSealState Bool
+---@field initialStatus EDoorStatus
+---@field keycardName TweakDBID
+---@field passcode CName
 DoorResaveData = {}
 
 ---@param fields? DoorResaveData
 ---@return DoorResaveData
-function DoorResaveData.new(fields) return end
+function DoorResaveData.new(fields) end

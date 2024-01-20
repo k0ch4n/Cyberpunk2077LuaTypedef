@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameSlotWeaponData
----@field public weaponID gameItemID
----@field public ammoCurrent Int32
----@field public magazineCap Int32
----@field public ammoId gameItemID
----@field public triggerModeCurrent gamedataTriggerMode
----@field public triggerModeList gamedataTriggerMode[]
----@field public evolution gamedataWeaponEvolution
----@field public isActive Bool
----@field public isFirstEquip Bool
+---@field weaponID gameItemID
+---@field ammoCurrent Int32
+---@field magazineCap Int32
+---@field ammoId gameItemID
+---@field triggerModeCurrent gamedataTriggerMode
+---@field triggerModeList gamedataTriggerMode[]
+---@field evolution gamedataWeaponEvolution
+---@field isActive Bool
+---@field isFirstEquip Bool
 gameSlotWeaponData = {}
 
 ---@param fields? gameSlotWeaponData
 ---@return gameSlotWeaponData
-function gameSlotWeaponData.new(fields) return end
+function gameSlotWeaponData.new(fields) end

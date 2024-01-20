@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkanimSetStyleEvent: inkanimEvent
----@field public style inkStyleResource
+---@field style inkStyleResource
 inkanimSetStyleEvent = {}
 
 ---@param fields? inkanimSetStyleEvent
 ---@return inkanimSetStyleEvent
-function inkanimSetStyleEvent.new(fields) return end
+function inkanimSetStyleEvent.new(fields) end

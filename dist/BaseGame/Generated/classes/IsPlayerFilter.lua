@@ -5,9 +5,9 @@ IsPlayerFilter = {}
 
 ---@param fields? IsPlayerFilter
 ---@return IsPlayerFilter
-function IsPlayerFilter.new(fields) return end
+function IsPlayerFilter.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IsPlayerFilter:Process(ctx, filterCtx) return end
+function IsPlayerFilter:Process(ctx, filterCtx) end

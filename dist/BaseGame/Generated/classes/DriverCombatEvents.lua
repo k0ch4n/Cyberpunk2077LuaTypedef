@@ -1,116 +1,100 @@
 ---@meta
 
 ---@class DriverCombatEvents: VehicleEventsTransition
----@field protected executionOwner gameObject
----@field protected owner gameObject
----@field protected newTargetComponent Bool
----@field protected targetComponent entIPlacedComponent
----@field protected vehicleInTPP Bool
----@field protected driverCombatInTPP Bool
----@field protected targetComponentCallback redCallbackObject
----@field protected vehicleInTPPCallback redCallbackObject
----@field protected driverCombatInTPPCallback redCallbackObject
----@field protected curTarget gameObject
----@field protected curTargetHostile Bool
----@field protected highlightData FocusForcedHighlightData
----@field protected requirePerspectiveUpdate Bool
----@field protected aimPressed Bool
----@field protected vehicleManeuversTime Float
----@field protected exitReleasedTime Float
+---@field executionOwner gameObject
+---@field owner gameObject
+---@field newTargetComponent Bool
+---@field targetComponent entIPlacedComponent
+---@field vehicleInTPP Bool
+---@field driverCombatInTPP Bool
+---@field targetComponentCallback redCallbackObject
+---@field vehicleInTPPCallback redCallbackObject
+---@field driverCombatInTPPCallback redCallbackObject
+---@field curTarget gameObject
+---@field curTargetHostile Bool
+---@field highlightData FocusForcedHighlightData
+---@field requirePerspectiveUpdate Bool
+---@field aimPressed Bool
+---@field vehicleManeuversTime Float
+---@field exitReleasedTime Float
 DriverCombatEvents = {}
 
 ---@param fields? DriverCombatEvents
 ---@return DriverCombatEvents
-function DriverCombatEvents.new(fields) return end
+function DriverCombatEvents.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function DriverCombatEvents:OnDriverCombatInTPPChange(value) return end
+function DriverCombatEvents:OnDriverCombatInTPPChange(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DriverCombatEvents:OnDriverCombatTargetChange(value) return end
+function DriverCombatEvents:OnDriverCombatTargetChange(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function DriverCombatEvents:OnVehicleInTPPChange(value) return end
+function DriverCombatEvents:OnVehicleInTPPChange(value) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatEvents:ClearTarget(scriptInterface) return end
+function DriverCombatEvents:ClearTarget(scriptInterface) end
 
----@private
 ---@param vehicleObject vehicleBaseObject
 ---@return Bool
-function DriverCombatEvents:IsPerformingAWheelieOrEndo(vehicleObject) return end
+function DriverCombatEvents:IsPerformingAWheelieOrEndo(vehicleObject) end
 
----@protected
 ---@return nil
-function DriverCombatEvents:OnAimChange() return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function DriverCombatEvents:OnEnter(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function DriverCombatEvents:OnExit(stateContext, scriptInterface) return end
+function DriverCombatEvents:OnAimChange() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatEvents:OnForcedExit(stateContext, scriptInterface) return end
+function DriverCombatEvents:OnEnter(stateContext, scriptInterface) end
 
----@private
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function DriverCombatEvents:OnExit(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function DriverCombatEvents:OnForcedExit(stateContext, scriptInterface) end
+
 ---@param playerOwner PlayerPuppet
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatEvents:OnNewTargetAcquired(playerOwner, scriptInterface) return end
+function DriverCombatEvents:OnNewTargetAcquired(playerOwner, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatEvents:OnPerspectiveUpdate(scriptInterface) return end
+function DriverCombatEvents:OnPerspectiveUpdate(scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function DriverCombatEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DriverCombatEvents:RequestToggleVehicleDriverCombatCamera(scriptInterface) return end
+function DriverCombatEvents:RequestToggleVehicleDriverCombatCamera(scriptInterface) end
 
----@private
 ---@param attitude EAIAttitude
 ---@param highlight FocusForcedHighlightData
 ---@return nil
-function DriverCombatEvents:SetTargetHighlight(attitude, highlight) return end
+function DriverCombatEvents:SetTargetHighlight(attitude, highlight) end
 
----@private
 ---@param playerOwner PlayerPuppet
 ---@return nil
-function DriverCombatEvents:UpdateTargetHighlight(playerOwner) return end
+function DriverCombatEvents:UpdateTargetHighlight(playerOwner) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param timeDelta Float
 ---@return nil
-function DriverCombatEvents:UpdateVehicleManeuversPerk(scriptInterface, timeDelta) return end
+function DriverCombatEvents:UpdateVehicleManeuversPerk(scriptInterface, timeDelta) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param itemType gamedataItemType
 ---@return nil
-function DriverCombatEvents:UpdateWeaponData(scriptInterface, itemType) return end
+function DriverCombatEvents:UpdateWeaponData(scriptInterface, itemType) end

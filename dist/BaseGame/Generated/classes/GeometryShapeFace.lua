@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class GeometryShapeFace
----@field public indices Uint32[]
+---@field indices Uint32[]
 GeometryShapeFace = {}
 
 ---@param fields? GeometryShapeFace
 ---@return GeometryShapeFace
-function GeometryShapeFace.new(fields) return end
+function GeometryShapeFace.new(fields) end

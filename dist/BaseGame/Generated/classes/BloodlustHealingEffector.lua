@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class BloodlustHealingEffector: ApplyEffectToDismemberedEffector
----@field public poolSystem gameStatPoolsSystem
----@field public maxDistanceSquared Float
----@field public healAmount Float
----@field public usePercent Bool
----@field public lastActivationTime Float
+---@field poolSystem gameStatPoolsSystem
+---@field maxDistanceSquared Float
+---@field healAmount Float
+---@field usePercent Bool
+---@field lastActivationTime Float
 BloodlustHealingEffector = {}
 
 ---@param fields? BloodlustHealingEffector
 ---@return BloodlustHealingEffector
-function BloodlustHealingEffector.new(fields) return end
+function BloodlustHealingEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function BloodlustHealingEffector:ActionOn(owner) return end
+function BloodlustHealingEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function BloodlustHealingEffector:Initialize(record, parentRecord) return end
+function BloodlustHealingEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function BloodlustHealingEffector:ProcessAction(owner) return end
+function BloodlustHealingEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function BloodlustHealingEffector:RepeatedAction(owner) return end
+function BloodlustHealingEffector:RepeatedAction(owner) end

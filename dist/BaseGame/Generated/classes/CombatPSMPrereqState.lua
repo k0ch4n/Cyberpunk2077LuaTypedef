@@ -5,4 +5,4 @@ CombatPSMPrereqState = {}
 
 ---@param fields? CombatPSMPrereqState
 ---@return CombatPSMPrereqState
-function CombatPSMPrereqState.new(fields) return end
+function CombatPSMPrereqState.new(fields) end

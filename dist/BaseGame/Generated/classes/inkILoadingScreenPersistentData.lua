@@ -5,4 +5,4 @@ inkILoadingScreenPersistentData = {}
 
 ---@param fields? inkILoadingScreenPersistentData
 ---@return inkILoadingScreenPersistentData
-function inkILoadingScreenPersistentData.new(fields) return end
+function inkILoadingScreenPersistentData.new(fields) end

@@ -1,23 +1,20 @@
 ---@meta
 
 ---@class DEBUG_ItemRebalancer: gameObject
----@field public nodeRef NodeRef
+---@field nodeRef NodeRef
 DEBUG_ItemRebalancer = {}
 
 ---@param fields? DEBUG_ItemRebalancer
 ---@return DEBUG_ItemRebalancer
-function DEBUG_ItemRebalancer.new(fields) return end
+function DEBUG_ItemRebalancer.new(fields) end
 
----@protected
 ---@param evt gameinteractionsChoiceEvent
 ---@return Bool
-function DEBUG_ItemRebalancer:OnInteractionChoice(evt) return end
+function DEBUG_ItemRebalancer:OnInteractionChoice(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DEBUG_ItemRebalancer:OnRequestComponents(ri) return end
+function DEBUG_ItemRebalancer:OnRequestComponents(ri) end
 
----@private
 ---@return nil
-function DEBUG_ItemRebalancer:RebalanceItem() return end
+function DEBUG_ItemRebalancer:RebalanceItem() end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class MusicSettings: IScriptable
----@field protected statusEffect ESoundStatusEffects
+---@field statusEffect ESoundStatusEffects
 MusicSettings = {}
 
 ---@return CName
-function MusicSettings:GetSoundName() return end
+function MusicSettings:GetSoundName() end
 
 ---@return ESoundStatusEffects
-function MusicSettings:GetStatusEffect() return end
+function MusicSettings:GetStatusEffect() end
 
 ---@param effect ESoundStatusEffects
 ---@return nil
-function MusicSettings:SetStatusEffect(effect) return end
+function MusicSettings:SetStatusEffect(effect) end

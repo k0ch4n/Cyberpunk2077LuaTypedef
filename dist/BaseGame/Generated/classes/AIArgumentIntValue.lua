@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentIntValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue Int32
+---@field type AIArgumentType
+---@field defaultValue Int32
 AIArgumentIntValue = {}
 
 ---@param fields? AIArgumentIntValue
 ---@return AIArgumentIntValue
-function AIArgumentIntValue.new(fields) return end
+function AIArgumentIntValue.new(fields) end

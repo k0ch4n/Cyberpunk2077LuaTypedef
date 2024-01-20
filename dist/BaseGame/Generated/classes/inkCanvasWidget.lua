@@ -5,4 +5,4 @@ inkCanvasWidget = {}
 
 ---@param fields? inkCanvasWidget
 ---@return inkCanvasWidget
-function inkCanvasWidget.new(fields) return end
+function inkCanvasWidget.new(fields) end

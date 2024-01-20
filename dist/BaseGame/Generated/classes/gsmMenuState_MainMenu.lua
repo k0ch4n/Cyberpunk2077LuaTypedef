@@ -5,4 +5,4 @@ gsmMenuState_MainMenu = {}
 
 ---@param fields? gsmMenuState_MainMenu
 ---@return gsmMenuState_MainMenu
-function gsmMenuState_MainMenu.new(fields) return end
+function gsmMenuState_MainMenu.new(fields) end

@@ -1,124 +1,113 @@
 ---@meta
 
 ---@class WorkspotFunctionalTestsDebugListener: IScriptable
----@field private entityId entEntityID
----@field private instancesCreated Int32
----@field private instancesRemoved Int32
----@field private workspotsSetup Int32
----@field private workspotsStarted Int32
----@field private workspotsFinished Int32
----@field private animationsStack String[]
----@field private animationsSkippedStack String[]
----@field private animationsMissingStack String[]
----@field private skipOverflows Int32
----@field private teleportRequests Int32
----@field private movementRequests Int32
+---@field entityId entEntityID
+---@field instancesCreated Int32
+---@field instancesRemoved Int32
+---@field workspotsSetup Int32
+---@field workspotsStarted Int32
+---@field workspotsFinished Int32
+---@field animationsStack String[]
+---@field animationsSkippedStack String[]
+---@field animationsMissingStack String[]
+---@field skipOverflows Int32
+---@field teleportRequests Int32
+---@field movementRequests Int32
 WorkspotFunctionalTestsDebugListener = {}
 
 ---@param fields? WorkspotFunctionalTestsDebugListener
 ---@return WorkspotFunctionalTestsDebugListener
-function WorkspotFunctionalTestsDebugListener.new(fields) return end
+function WorkspotFunctionalTestsDebugListener.new(fields) end
 
----@protected
 ---@param animName CName|string
 ---@param workEntryID workWorkEntryId
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnAnimationChanged(animName, workEntryID) return end
+function WorkspotFunctionalTestsDebugListener:OnAnimationChanged(animName, workEntryID) end
 
----@protected
 ---@param animName CName|string
 ---@param workEntryID workWorkEntryId
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnAnimationMissing(animName, workEntryID) return end
+function WorkspotFunctionalTestsDebugListener:OnAnimationMissing(animName, workEntryID) end
 
----@protected
 ---@param animName CName|string
 ---@param workEntryID workWorkEntryId
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnAnimationSkipped(animName, workEntryID) return end
+function WorkspotFunctionalTestsDebugListener:OnAnimationSkipped(animName, workEntryID) end
 
----@protected
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnInstanceCreated() return end
+function WorkspotFunctionalTestsDebugListener:OnInstanceCreated() end
 
----@protected
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnInstanceRemoved() return end
+function WorkspotFunctionalTestsDebugListener:OnInstanceRemoved() end
 
----@protected
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnMovementRequest() return end
+function WorkspotFunctionalTestsDebugListener:OnMovementRequest() end
 
----@protected
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnSkipOverflow() return end
+function WorkspotFunctionalTestsDebugListener:OnSkipOverflow() end
 
----@protected
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnTeleportRequest() return end
+function WorkspotFunctionalTestsDebugListener:OnTeleportRequest() end
 
----@protected
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnWorkspotFinished() return end
+function WorkspotFunctionalTestsDebugListener:OnWorkspotFinished() end
 
----@protected
 ---@param path String
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnWorkspotSetup(path) return end
+function WorkspotFunctionalTestsDebugListener:OnWorkspotSetup(path) end
 
----@protected
 ---@return Bool
-function WorkspotFunctionalTestsDebugListener:OnWorkspotStarted() return end
+function WorkspotFunctionalTestsDebugListener:OnWorkspotStarted() end
 
 ---@param animationName String
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetAnimationPlayCount(animationName) return end
+function WorkspotFunctionalTestsDebugListener:GetAnimationPlayCount(animationName) end
 
 ---@return String[]
-function WorkspotFunctionalTestsDebugListener:GetAnimationStack() return end
+function WorkspotFunctionalTestsDebugListener:GetAnimationStack() end
 
 ---@return entEntityID
-function WorkspotFunctionalTestsDebugListener:GetEntityID() return end
+function WorkspotFunctionalTestsDebugListener:GetEntityID() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetInstancesCreatedCount() return end
+function WorkspotFunctionalTestsDebugListener:GetInstancesCreatedCount() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetInstancesRemovedCount() return end
+function WorkspotFunctionalTestsDebugListener:GetInstancesRemovedCount() end
 
 ---@return String
-function WorkspotFunctionalTestsDebugListener:GetLastMissingAnimation() return end
+function WorkspotFunctionalTestsDebugListener:GetLastMissingAnimation() end
 
 ---@return String
-function WorkspotFunctionalTestsDebugListener:GetLastPlayedAnimation() return end
+function WorkspotFunctionalTestsDebugListener:GetLastPlayedAnimation() end
 
 ---@return String
-function WorkspotFunctionalTestsDebugListener:GetLastSkippedAnimation() return end
+function WorkspotFunctionalTestsDebugListener:GetLastSkippedAnimation() end
 
 ---@return String[]
-function WorkspotFunctionalTestsDebugListener:GetMissingAnimationStack() return end
+function WorkspotFunctionalTestsDebugListener:GetMissingAnimationStack() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetMovementRequestsCount() return end
+function WorkspotFunctionalTestsDebugListener:GetMovementRequestsCount() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetSkipOverflowsCount() return end
+function WorkspotFunctionalTestsDebugListener:GetSkipOverflowsCount() end
 
 ---@return String[]
-function WorkspotFunctionalTestsDebugListener:GetSkippedAnimationStack() return end
+function WorkspotFunctionalTestsDebugListener:GetSkippedAnimationStack() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetTeleportRequestsCount() return end
+function WorkspotFunctionalTestsDebugListener:GetTeleportRequestsCount() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetWorkspotsFinishedCount() return end
+function WorkspotFunctionalTestsDebugListener:GetWorkspotsFinishedCount() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetWorkspotsSetupCount() return end
+function WorkspotFunctionalTestsDebugListener:GetWorkspotsSetupCount() end
 
 ---@return Int32
-function WorkspotFunctionalTestsDebugListener:GetWorkspotsStartedCount() return end
+function WorkspotFunctionalTestsDebugListener:GetWorkspotsStartedCount() end
 
 ---@param entID entEntityID
 ---@return nil
-function WorkspotFunctionalTestsDebugListener:SetEntityID(entID) return end
+function WorkspotFunctionalTestsDebugListener:SetEntityID(entID) end

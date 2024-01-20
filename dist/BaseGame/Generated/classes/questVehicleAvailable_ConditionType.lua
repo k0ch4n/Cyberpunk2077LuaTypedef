@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questVehicleAvailable_ConditionType: questIVehicleConditionType
----@field public vehicleType questAvailableVehicleType
----@field public vehicleName String
+---@field vehicleType questAvailableVehicleType
+---@field vehicleName String
 questVehicleAvailable_ConditionType = {}
 
 ---@param fields? questVehicleAvailable_ConditionType
 ---@return questVehicleAvailable_ConditionType
-function questVehicleAvailable_ConditionType.new(fields) return end
+function questVehicleAvailable_ConditionType.new(fields) end

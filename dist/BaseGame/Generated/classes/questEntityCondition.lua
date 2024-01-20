@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questEntityCondition: questTypedCondition
----@field public type questIEntityConditionType
+---@field type questIEntityConditionType
 questEntityCondition = {}
 
 ---@param fields? questEntityCondition
 ---@return questEntityCondition
-function questEntityCondition.new(fields) return end
+function questEntityCondition.new(fields) end

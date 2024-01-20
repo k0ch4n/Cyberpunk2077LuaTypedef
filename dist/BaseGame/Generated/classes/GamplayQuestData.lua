@@ -1,63 +1,62 @@
 ---@meta
 
 ---@class GamplayQuestData: IScriptable
----@field public questUniqueID String
----@field public objectives GemplayObjectiveData[]
+---@field questUniqueID String
+---@field objectives GemplayObjectiveData[]
 GamplayQuestData = {}
 
 ---@param fields? GamplayQuestData
 ---@return GamplayQuestData
-function GamplayQuestData.new(fields) return end
+function GamplayQuestData.new(fields) end
 
 ---@param objectiveData GemplayObjectiveData
 ---@param journal gameJournalManager
 ---@return nil
-function GamplayQuestData:AddObjective(objectiveData, journal) return end
+function GamplayQuestData:AddObjective(objectiveData, journal) end
 
----@private
 ---@param objectiveData GemplayObjectiveData
 ---@param journal gameJournalManager
 ---@return Bool
-function GamplayQuestData:CreateObjective(objectiveData, journal) return end
+function GamplayQuestData:CreateObjective(objectiveData, journal) end
 
 ---@return String
-function GamplayQuestData:GetBaseObjectiveEntryID() return end
+function GamplayQuestData:GetBaseObjectiveEntryID() end
 
 ---@return String
-function GamplayQuestData:GetFreeObjectiveEntryID() return end
+function GamplayQuestData:GetFreeObjectiveEntryID() end
 
 ---@return String
-function GamplayQuestData:GetFreeObjectivePath() return end
+function GamplayQuestData:GetFreeObjectivePath() end
 
 ---@return String
-function GamplayQuestData:GetFreeQuestMappinPath() return end
+function GamplayQuestData:GetFreeQuestMappinPath() end
 
 ---@return String
-function GamplayQuestData:GetMappinEntryID() return end
+function GamplayQuestData:GetMappinEntryID() end
 
 ---@param objectiveData GemplayObjectiveData
 ---@return GemplayObjectiveData
-function GamplayQuestData:GetObjective(objectiveData) return end
+function GamplayQuestData:GetObjective(objectiveData) end
 
 ---@return String
-function GamplayQuestData:GetPhaseEntryID() return end
+function GamplayQuestData:GetPhaseEntryID() end
 
 ---@return String
-function GamplayQuestData:GetQuestEntryID() return end
+function GamplayQuestData:GetQuestEntryID() end
 
 ---@param objectiveData GemplayObjectiveData
 ---@return String
-function GamplayQuestData:GetbjectivePath(objectiveData) return end
+function GamplayQuestData:GetbjectivePath(objectiveData) end
 
 ---@param objectiveData GemplayObjectiveData
 ---@return Bool
-function GamplayQuestData:HasObjective(objectiveData) return end
+function GamplayQuestData:HasObjective(objectiveData) end
 
 ---@return Bool
-function GamplayQuestData:IsCompleted() return end
+function GamplayQuestData:IsCompleted() end
 
 ---@param objectiveData GemplayObjectiveData
 ---@param journal gameJournalManager
 ---@param state gameJournalEntryState
 ---@return nil
-function GamplayQuestData:SetObjectiveState(objectiveData, journal, state) return end
+function GamplayQuestData:SetObjectiveState(objectiveData, journal, state) end

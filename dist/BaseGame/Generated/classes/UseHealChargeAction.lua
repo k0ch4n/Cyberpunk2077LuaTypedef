@@ -5,12 +5,11 @@ UseHealChargeAction = {}
 
 ---@param fields? UseHealChargeAction
 ---@return UseHealChargeAction
-function UseHealChargeAction.new(fields) return end
+function UseHealChargeAction.new(fields) end
 
 ---@return nil
-function UseHealChargeAction:CompleteAction() return end
+function UseHealChargeAction:CompleteAction() end
 
----@protected
 ---@param actionEffects gamedataObjectActionEffect_Record[]
 ---@return nil
-function UseHealChargeAction:ProcessStatusEffects(actionEffects) return end
+function UseHealChargeAction:ProcessStatusEffects(actionEffects) end

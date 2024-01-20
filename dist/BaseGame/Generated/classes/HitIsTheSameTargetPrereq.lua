@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class HitIsTheSameTargetPrereq: GenericHitPrereq
----@field public isMoving Bool
----@field public object String
----@field public invert Bool
+---@field isMoving Bool
+---@field object String
+---@field invert Bool
 HitIsTheSameTargetPrereq = {}
 
 ---@param fields? HitIsTheSameTargetPrereq
 ---@return HitIsTheSameTargetPrereq
-function HitIsTheSameTargetPrereq.new(fields) return end
+function HitIsTheSameTargetPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitIsTheSameTargetPrereq:Initialize(recordID) return end
+function HitIsTheSameTargetPrereq:Initialize(recordID) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationOptionVersionUpdateInfo
----@field public curOptionNames CName[]
----@field public curDefintionName CName
----@field public optionPrereqs gameuiCharacterCustomizationOptionVersionPrereq[]
----@field public newOptionName CName
----@field public newDefinitionName CName
----@field public replaceCurOption Bool
+---@field curOptionNames CName[]
+---@field curDefintionName CName
+---@field optionPrereqs gameuiCharacterCustomizationOptionVersionPrereq[]
+---@field newOptionName CName
+---@field newDefinitionName CName
+---@field replaceCurOption Bool
 gameuiCharacterCustomizationOptionVersionUpdateInfo = {}
 
 ---@param fields? gameuiCharacterCustomizationOptionVersionUpdateInfo
 ---@return gameuiCharacterCustomizationOptionVersionUpdateInfo
-function gameuiCharacterCustomizationOptionVersionUpdateInfo.new(fields) return end
+function gameuiCharacterCustomizationOptionVersionUpdateInfo.new(fields) end

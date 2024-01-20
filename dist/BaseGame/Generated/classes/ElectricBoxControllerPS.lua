@@ -1,61 +1,53 @@
 ---@meta
 
 ---@class ElectricBoxControllerPS: MasterControllerPS
----@field private techieSkillChecks EngineeringContainer
----@field private questFactSetup ComputerQuickHackData
----@field private isOverriden Bool
+---@field techieSkillChecks EngineeringContainer
+---@field questFactSetup ComputerQuickHackData
+---@field isOverriden Bool
 ElectricBoxControllerPS = {}
 
 ---@param fields? ElectricBoxControllerPS
 ---@return ElectricBoxControllerPS
-function ElectricBoxControllerPS.new(fields) return end
+function ElectricBoxControllerPS.new(fields) end
 
----@private
 ---@return ActionOverride
-function ElectricBoxControllerPS:ActionOverride() return end
+function ElectricBoxControllerPS:ActionOverride() end
 
----@protected
 ---@return nil
-function ElectricBoxControllerPS:GameAttached() return end
+function ElectricBoxControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ElectricBoxControllerPS:GetActions(context) return end
+function ElectricBoxControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function ElectricBoxControllerPS:GetBackgroundTextureTweakDBID() return end
+function ElectricBoxControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return DeviceBaseBlackboardDef
-function ElectricBoxControllerPS:GetBlackboardDef() return end
+function ElectricBoxControllerPS:GetBlackboardDef() end
 
----@protected
 ---@return TweakDBID
-function ElectricBoxControllerPS:GetDeviceIconTweakDBID() return end
+function ElectricBoxControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return ComputerQuickHackData
-function ElectricBoxControllerPS:GetQuestSetup() return end
+function ElectricBoxControllerPS:GetQuestSetup() end
 
----@protected
 ---@return BaseSkillCheckContainer
-function ElectricBoxControllerPS:GetSkillCheckContainerForSetup() return end
+function ElectricBoxControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@return Bool
-function ElectricBoxControllerPS:IsOverriden() return end
+function ElectricBoxControllerPS:IsOverriden() end
 
----@protected
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function ElectricBoxControllerPS:OnActionEngineering(evt) return end
+function ElectricBoxControllerPS:OnActionEngineering(evt) end
 
----@protected
 ---@param evt ActionOverride
 ---@return EntityNotificationType
-function ElectricBoxControllerPS:OnActionOverride(evt) return end
-
----@private
----@return nil
-function ElectricBoxControllerPS:RefreshSlaves() return end
+function ElectricBoxControllerPS:OnActionOverride(evt) end
 
 ---@return nil
-function ElectricBoxControllerPS:WorkspotFinished() return end
+function ElectricBoxControllerPS:RefreshSlaves() end
+
+---@return nil
+function ElectricBoxControllerPS:WorkspotFinished() end

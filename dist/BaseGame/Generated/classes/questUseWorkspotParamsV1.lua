@@ -1,31 +1,31 @@
 ---@meta
 
 ---@class questUseWorkspotParamsV1: questAICommandParams
----@field public function questUseWorkspotNodeFunctions
----@field public workspotNode NodeRef
----@field public teleport Bool
----@field public finishAnimation Bool
----@field public forceEntryAnimName CName
----@field public jumpToEntry Bool
----@field public entryId workWorkEntryId
----@field public entryTag CName
----@field public changeWorkspot Bool
----@field public enableIdleMode Bool
----@field public exitEntryId workWorkEntryId
----@field public exitAnimName CName
----@field public instant Bool
----@field public isWorkspotInfinite Bool
----@field public isPlayer Bool
----@field public playerParams questUseWorkspotPlayerParams
----@field public repeatCommandOnInterrupt Bool
----@field public workExcludedGestures workWorkEntryId[]
----@field public movementType moveMovementType
----@field public continueInCombat Bool
----@field public maxAnimTimeLimit Float
----@field public meshDissolvingEnabled Bool
----@field public dangleResetSimulation Bool
+---@field function questUseWorkspotNodeFunctions
+---@field workspotNode NodeRef
+---@field teleport Bool
+---@field finishAnimation Bool
+---@field forceEntryAnimName CName
+---@field jumpToEntry Bool
+---@field entryId workWorkEntryId
+---@field entryTag CName
+---@field changeWorkspot Bool
+---@field enableIdleMode Bool
+---@field exitEntryId workWorkEntryId
+---@field exitAnimName CName
+---@field instant Bool
+---@field isWorkspotInfinite Bool
+---@field isPlayer Bool
+---@field playerParams questUseWorkspotPlayerParams
+---@field repeatCommandOnInterrupt Bool
+---@field workExcludedGestures workWorkEntryId[]
+---@field movementType moveMovementType
+---@field continueInCombat Bool
+---@field maxAnimTimeLimit Float
+---@field meshDissolvingEnabled Bool
+---@field dangleResetSimulation Bool
 questUseWorkspotParamsV1 = {}
 
 ---@param fields? questUseWorkspotParamsV1
 ---@return questUseWorkspotParamsV1
-function questUseWorkspotParamsV1.new(fields) return end
+function questUseWorkspotParamsV1.new(fields) end

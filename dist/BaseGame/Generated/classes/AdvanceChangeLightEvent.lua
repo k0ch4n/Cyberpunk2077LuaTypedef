@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AdvanceChangeLightEvent: redEvent
----@field public settings EditableGameLightSettings
----@field public time Float
----@field public curve CName
----@field public loop Bool
+---@field settings EditableGameLightSettings
+---@field time Float
+---@field curve CName
+---@field loop Bool
 AdvanceChangeLightEvent = {}
 
 ---@param fields? AdvanceChangeLightEvent
 ---@return AdvanceChangeLightEvent
-function AdvanceChangeLightEvent.new(fields) return end
+function AdvanceChangeLightEvent.new(fields) end

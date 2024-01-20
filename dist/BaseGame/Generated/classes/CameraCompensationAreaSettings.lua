@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CameraCompensationAreaSettings
----@field public automated Bool
----@field public ISO Uint32
----@field public shutterTime Float
----@field public fStop Float
+---@field automated Bool
+---@field ISO Uint32
+---@field shutterTime Float
+---@field fStop Float
 CameraCompensationAreaSettings = {}
 
 ---@param fields? CameraCompensationAreaSettings
 ---@return CameraCompensationAreaSettings
-function CameraCompensationAreaSettings.new(fields) return end
+function CameraCompensationAreaSettings.new(fields) end

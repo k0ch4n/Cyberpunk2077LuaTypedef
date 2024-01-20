@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entRagdollApplyImpulseEvent: redEvent
----@field public worldImpulsePos Vector4
----@field public worldImpulseValue Vector4
----@field public influenceRadius Float
+---@field worldImpulsePos Vector4
+---@field worldImpulseValue Vector4
+---@field influenceRadius Float
 entRagdollApplyImpulseEvent = {}
 
 ---@param fields? entRagdollApplyImpulseEvent
 ---@return entRagdollApplyImpulseEvent
-function entRagdollApplyImpulseEvent.new(fields) return end
+function entRagdollApplyImpulseEvent.new(fields) end

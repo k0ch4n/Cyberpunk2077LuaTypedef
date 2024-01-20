@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questPhonePickUp_ConditionType: questISystemConditionType
----@field public caller gameJournalPath
----@field public addressee gameJournalPath
----@field public releaseOnRejection Bool
+---@field caller gameJournalPath
+---@field addressee gameJournalPath
+---@field releaseOnRejection Bool
 questPhonePickUp_ConditionType = {}
 
 ---@param fields? questPhonePickUp_ConditionType
 ---@return questPhonePickUp_ConditionType
-function questPhonePickUp_ConditionType.new(fields) return end
+function questPhonePickUp_ConditionType.new(fields) end

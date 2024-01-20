@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioWeaponFireModeSounds
----@field public burst CName
----@field public charge CName
----@field public fullAuto CName
----@field public semiAuto CName
----@field public windup CName
+---@field burst CName
+---@field charge CName
+---@field fullAuto CName
+---@field semiAuto CName
+---@field windup CName
 audioWeaponFireModeSounds = {}
 
 ---@param fields? audioWeaponFireModeSounds
 ---@return audioWeaponFireModeSounds
-function audioWeaponFireModeSounds.new(fields) return end
+function audioWeaponFireModeSounds.new(fields) end

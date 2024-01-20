@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleInitializerLifeTime: IParticleInitializer
----@field public lifeTime IEvaluatorFloat
+---@field lifeTime IEvaluatorFloat
 CParticleInitializerLifeTime = {}
 
 ---@param fields? CParticleInitializerLifeTime
 ---@return CParticleInitializerLifeTime
-function CParticleInitializerLifeTime.new(fields) return end
+function CParticleInitializerLifeTime.new(fields) end

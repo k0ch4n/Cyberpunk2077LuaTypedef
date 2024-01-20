@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class EquipCycleInitDecisions: EquipmentBaseDecisions
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
 EquipCycleInitDecisions = {}
 
 ---@param fields? EquipCycleInitDecisions
 ---@return EquipCycleInitDecisions
-function EquipCycleInitDecisions.new(fields) return end
+function EquipCycleInitDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function EquipCycleInitDecisions:EnterCondition(stateContext, scriptInterface) return end
+function EquipCycleInitDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function EquipCycleInitDecisions:ToEquipCycle(stateContext, scriptInterface) return end
+function EquipCycleInitDecisions:ToEquipCycle(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function EquipCycleInitDecisions:ToUnequipped(stateContext, scriptInterface) return end
+function EquipCycleInitDecisions:ToUnequipped(stateContext, scriptInterface) end

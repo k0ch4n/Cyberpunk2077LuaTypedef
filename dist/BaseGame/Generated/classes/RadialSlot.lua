@@ -1,51 +1,50 @@
 ---@meta
 
 ---@class RadialSlot: IScriptable
----@field public slotAnchorRef inkWidgetReference
----@field public libraryRef inkWidgetLibraryReference
----@field public slotType SlotType
----@field protected animData RadialAnimData
----@field private widget inkWidget
----@field private targetAngle Float
----@field private active String
----@field private inactive String
----@field private blocked String
+---@field slotAnchorRef inkWidgetReference
+---@field libraryRef inkWidgetLibraryReference
+---@field slotType SlotType
+---@field animData RadialAnimData
+---@field widget inkWidget
+---@field targetAngle Float
+---@field active String
+---@field inactive String
+---@field blocked String
 RadialSlot = {}
 
 ---@param fields? RadialSlot
 ---@return RadialSlot
-function RadialSlot.new(fields) return end
+function RadialSlot.new(fields) end
 
 ---@return nil
-function RadialSlot:Activate() return end
+function RadialSlot:Activate() end
 
----@protected
 ---@param shouldActivate Bool
 ---@return nil
-function RadialSlot:Activate(shouldActivate) return end
+function RadialSlot:Activate(shouldActivate) end
 
 ---@return Bool
-function RadialSlot:CanCycle() return end
+function RadialSlot:CanCycle() end
 
 ---@param w inkWidget
 ---@return nil
-function RadialSlot:Construct(w) return end
+function RadialSlot:Construct(w) end
 
 ---@return nil
-function RadialSlot:Deactivate() return end
+function RadialSlot:Deactivate() end
 
 ---@return Float
-function RadialSlot:GetAngle() return end
+function RadialSlot:GetAngle() end
 
 ---@return nil, String[] info
-function RadialSlot:GetDebugInfo() return end
+function RadialSlot:GetDebugInfo() end
 
 ---@return inkWidget
-function RadialSlot:GetWidget() return end
+function RadialSlot:GetWidget() end
 
 ---@return Bool
-function RadialSlot:IsCyclable() return end
+function RadialSlot:IsCyclable() end
 
 ---@param precalculatedAngle Float
 ---@return nil
-function RadialSlot:SetTargetAngle(precalculatedAngle) return end
+function RadialSlot:SetTargetAngle(precalculatedAngle) end

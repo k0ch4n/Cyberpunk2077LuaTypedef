@@ -1,68 +1,67 @@
 ---@meta
 
 ---@class ActionSkillCheck: ActionBool
----@field protected skillCheck SkillCheckBase
----@field protected skillCheckName EDeviceChallengeSkill
----@field protected localizedName String
----@field protected skillcheckDescription UIInteractionSkillCheck
----@field protected wasPassed Bool
----@field protected availableUnpowered Bool
+---@field skillCheck SkillCheckBase
+---@field skillCheckName EDeviceChallengeSkill
+---@field localizedName String
+---@field skillcheckDescription UIInteractionSkillCheck
+---@field wasPassed Bool
+---@field availableUnpowered Bool
 ActionSkillCheck = {}
 
 ---@param device ScriptableDeviceComponentPS
 ---@param availableUnpowered Bool
 ---@return Bool
-function ActionSkillCheck.IsAvailable(device, availableUnpowered) return end
+function ActionSkillCheck.IsAvailable(device, availableUnpowered) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@param availableUnpowered Bool
 ---@return Bool
-function ActionSkillCheck.IsDefaultConditionMet(device, context, availableUnpowered) return end
+function ActionSkillCheck.IsDefaultConditionMet(device, context, availableUnpowered) end
 
 ---@return Bool
-function ActionSkillCheck:AvailableOnUnpowered() return end
+function ActionSkillCheck:AvailableOnUnpowered() end
 
 ---@param requester gameObject
 ---@param actions? gamedeviceAction[]
 ---@param alternativeMainChoiceRecord? String
 ---@param alternativeMainChoiceRecordID? TweakDBID|string
 ---@return nil
-function ActionSkillCheck:CreateInteraction(requester, actions, alternativeMainChoiceRecord, alternativeMainChoiceRecordID) return end
+function ActionSkillCheck:CreateInteraction(requester, actions, alternativeMainChoiceRecord, alternativeMainChoiceRecordID) end
 
 ---@param requester gameObject
 ---@return UIInteractionSkillCheck
-function ActionSkillCheck:CreateSkillcheckInfo(requester) return end
+function ActionSkillCheck:CreateSkillcheckInfo(requester) end
 
 ---@return EDeviceChallengeSkill
-function ActionSkillCheck:GetAttributeCheckType() return end
+function ActionSkillCheck:GetAttributeCheckType() end
 
----@protected
 ---@return CName
-function ActionSkillCheck:GetDefaultActionName() return end
+function ActionSkillCheck:GetDefaultActionName() end
 
 ---@param requester gameObject
 ---@return gameIBlackboard
-function ActionSkillCheck:GetPlayerStateMachine(requester) return end
+function ActionSkillCheck:GetPlayerStateMachine(requester) end
 
 ---@return UIInteractionSkillCheck
-function ActionSkillCheck:GetSkillcheckInfo() return end
+function ActionSkillCheck:GetSkillcheckInfo() end
 
 ---@return String
-function ActionSkillCheck:GetTweakDBChoiceRecord() return end
+function ActionSkillCheck:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function ActionSkillCheck:ResetCaption() return end
+function ActionSkillCheck:ResetCaption() end
 
 ---@return nil
-function ActionSkillCheck:SetAvailableOnUnpowered() return end
+function ActionSkillCheck:SetAvailableOnUnpowered() end
 
 ---@param skillCheck SkillCheckBase
 ---@return nil
-function ActionSkillCheck:SetProperties(skillCheck) return end
+function ActionSkillCheck:SetProperties(skillCheck) end
 
 ---@return nil
-function ActionSkillCheck:SetSkillCheckReadyToPresentOnScreen() return end
+function ActionSkillCheck:SetSkillCheckReadyToPresentOnScreen() end
 
 ---@return Bool
-function ActionSkillCheck:WasPassed() return end
+function ActionSkillCheck:WasPassed() end

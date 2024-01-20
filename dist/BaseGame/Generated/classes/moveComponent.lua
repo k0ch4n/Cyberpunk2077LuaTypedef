@@ -5,4 +5,4 @@ moveComponent = {}
 
 ---@param fields? moveComponent
 ---@return moveComponent
-function moveComponent.new(fields) return end
+function moveComponent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questMappinGPSDistance: questIDistance
----@field public mappinPath gameJournalPath
+---@field mappinPath gameJournalPath
 questMappinGPSDistance = {}
 
 ---@param fields? questMappinGPSDistance
 ---@return questMappinGPSDistance
-function questMappinGPSDistance.new(fields) return end
+function questMappinGPSDistance.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldAreaShapeNode: worldNode
----@field public color Color
----@field public outline AreaShapeOutline
+---@field color Color
+---@field outline AreaShapeOutline
 worldAreaShapeNode = {}
 
 ---@param fields? worldAreaShapeNode
 ---@return worldAreaShapeNode
-function worldAreaShapeNode.new(fields) return end
+function worldAreaShapeNode.new(fields) end

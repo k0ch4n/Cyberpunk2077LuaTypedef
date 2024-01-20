@@ -5,7 +5,7 @@ ApartmentScreenController = {}
 
 ---@param fields? ApartmentScreenController
 ---@return ApartmentScreenController
-function ApartmentScreenController.new(fields) return end
+function ApartmentScreenController.new(fields) end
 
 ---@return ApartmentScreenControllerPS
-function ApartmentScreenController:GetPS() return end
+function ApartmentScreenController:GetPS() end

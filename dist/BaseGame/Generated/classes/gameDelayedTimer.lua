@@ -5,4 +5,4 @@ gameDelayedTimer = {}
 
 ---@param fields? gameDelayedTimer
 ---@return gameDelayedTimer
-function gameDelayedTimer.new(fields) return end
+function gameDelayedTimer.new(fields) end

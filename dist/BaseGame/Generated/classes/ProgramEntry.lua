@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class ProgramEntry: IScriptable
----@field public itemID gameItemID
----@field public equippedItem gamedataItem_Record
----@field public abilities gameInventoryItemAbility[]
+---@field itemID gameItemID
+---@field equippedItem gamedataItem_Record
+---@field abilities gameInventoryItemAbility[]
 ProgramEntry = {}
 
 ---@param fields? ProgramEntry
 ---@return ProgramEntry
-function ProgramEntry.new(fields) return end
+function ProgramEntry.new(fields) end
 
----@private
 ---@param equippedItem gamedataItem_Record
 ---@return gameInventoryItemAbility[]
-function ProgramEntry.GetSpecialAbilities(equippedItem) return end
+function ProgramEntry.GetSpecialAbilities(equippedItem) end
 
 ---@param itemID gameItemID
 ---@param equippedItem gamedataItem_Record
 ---@return ProgramEntry
-function ProgramEntry.Make(itemID, equippedItem) return end
+function ProgramEntry.Make(itemID, equippedItem) end

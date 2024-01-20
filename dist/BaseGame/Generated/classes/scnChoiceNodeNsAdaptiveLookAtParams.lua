@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class scnChoiceNodeNsAdaptiveLookAtParams: scnChoiceNodeNsLookAtParams
----@field public nearbySlotName CName
----@field public distantSlotName CName
----@field public blendLimit Float
----@field public referencePointFullEffectAngle Float
----@field public referencePointNoEffectAngle Float
----@field public referencePointFullEffectDistance Float
----@field public referencePointNoEffectDistance Float
----@field public referencePoints scnChoiceNodeNsAdaptiveLookAtReferencePoint[]
----@field public auxiliaryRelativePoint Vector3
+---@field nearbySlotName CName
+---@field distantSlotName CName
+---@field blendLimit Float
+---@field referencePointFullEffectAngle Float
+---@field referencePointNoEffectAngle Float
+---@field referencePointFullEffectDistance Float
+---@field referencePointNoEffectDistance Float
+---@field referencePoints scnChoiceNodeNsAdaptiveLookAtReferencePoint[]
+---@field auxiliaryRelativePoint Vector3
 scnChoiceNodeNsAdaptiveLookAtParams = {}
 
 ---@param fields? scnChoiceNodeNsAdaptiveLookAtParams
 ---@return scnChoiceNodeNsAdaptiveLookAtParams
-function scnChoiceNodeNsAdaptiveLookAtParams.new(fields) return end
+function scnChoiceNodeNsAdaptiveLookAtParams.new(fields) end

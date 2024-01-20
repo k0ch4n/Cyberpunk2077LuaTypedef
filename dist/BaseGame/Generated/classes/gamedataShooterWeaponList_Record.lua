@@ -5,22 +5,22 @@ gamedataShooterWeaponList_Record = {}
 
 ---@param fields? gamedataShooterWeaponList_Record
 ---@return gamedataShooterWeaponList_Record
-function gamedataShooterWeaponList_Record.new(fields) return end
+function gamedataShooterWeaponList_Record.new(fields) end
 
 ---@return nil, gamedataShooterWeaponData_Record[] outList
-function gamedataShooterWeaponList_Record:Data() return end
+function gamedataShooterWeaponList_Record:Data() end
 
 ---@param item gamedataShooterWeaponData_Record
 ---@return Bool
-function gamedataShooterWeaponList_Record:DataContains(item) return end
+function gamedataShooterWeaponList_Record:DataContains(item) end
 
 ---@return Int32
-function gamedataShooterWeaponList_Record:GetDataCount() return end
+function gamedataShooterWeaponList_Record:GetDataCount() end
 
 ---@param index Int32
 ---@return gamedataShooterWeaponData_Record
-function gamedataShooterWeaponList_Record:GetDataItem(index) return end
+function gamedataShooterWeaponList_Record:GetDataItem(index) end
 
 ---@param index Int32
 ---@return gamedataShooterWeaponData_Record
-function gamedataShooterWeaponList_Record:GetDataItemHandle(index) return end
+function gamedataShooterWeaponList_Record:GetDataItemHandle(index) end

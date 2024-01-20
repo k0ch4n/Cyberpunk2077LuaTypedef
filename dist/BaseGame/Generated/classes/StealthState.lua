@@ -5,9 +5,8 @@ StealthState = {}
 
 ---@param fields? StealthState
 ---@return StealthState
-function StealthState.new(fields) return end
+function StealthState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCHighLevelState
-function StealthState:GetDesiredHighLevelState(context) return end
+function StealthState:GetDesiredHighLevelState(context) end

@@ -1,18 +1,16 @@
 ---@meta
 
 ---@class gameNotificationsTest: gameuiWidgetGameController
----@field public token inkGameNotificationToken
+---@field token inkGameNotificationToken
 gameNotificationsTest = {}
 
 ---@param fields? gameNotificationsTest
 ---@return gameNotificationsTest
-function gameNotificationsTest.new(fields) return end
+function gameNotificationsTest.new(fields) end
 
----@protected
 ---@return Bool
-function gameNotificationsTest:OnInitialize() return end
+function gameNotificationsTest:OnInitialize() end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function gameNotificationsTest:OnResponse(data) return end
+function gameNotificationsTest:OnResponse(data) end

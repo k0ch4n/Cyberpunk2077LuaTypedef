@@ -5,4 +5,4 @@ worldTrafficPersistentLanePolygonResource = {}
 
 ---@param fields? worldTrafficPersistentLanePolygonResource
 ---@return worldTrafficPersistentLanePolygonResource
-function worldTrafficPersistentLanePolygonResource.new(fields) return end
+function worldTrafficPersistentLanePolygonResource.new(fields) end

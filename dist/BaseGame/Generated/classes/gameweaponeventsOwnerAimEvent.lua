@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameweaponeventsOwnerAimEvent: redEvent
----@field public isAiming Bool
+---@field isAiming Bool
 gameweaponeventsOwnerAimEvent = {}
 
 ---@param fields? gameweaponeventsOwnerAimEvent
 ---@return gameweaponeventsOwnerAimEvent
-function gameweaponeventsOwnerAimEvent.new(fields) return end
+function gameweaponeventsOwnerAimEvent.new(fields) end

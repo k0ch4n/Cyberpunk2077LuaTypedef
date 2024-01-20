@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleUnableToStartPanicDriving: redEvent
----@field public forceExitVehicle Bool
+---@field forceExitVehicle Bool
 vehicleUnableToStartPanicDriving = {}
 
 ---@param fields? vehicleUnableToStartPanicDriving
 ---@return vehicleUnableToStartPanicDriving
-function vehicleUnableToStartPanicDriving.new(fields) return end
+function vehicleUnableToStartPanicDriving.new(fields) end

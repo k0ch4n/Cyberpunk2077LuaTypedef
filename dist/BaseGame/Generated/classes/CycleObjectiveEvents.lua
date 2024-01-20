@@ -5,10 +5,9 @@ CycleObjectiveEvents = {}
 
 ---@param fields? CycleObjectiveEvents
 ---@return CycleObjectiveEvents
-function CycleObjectiveEvents.new(fields) return end
+function CycleObjectiveEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CycleObjectiveEvents:OnEnter(stateContext, scriptInterface) return end
+function CycleObjectiveEvents:OnEnter(stateContext, scriptInterface) end

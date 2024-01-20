@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SoundSystemSettings
----@field public interactionName TweakDBID
----@field public musicSettings MusicSettings
----@field public canBeUsedAsQuickHack Bool
+---@field interactionName TweakDBID
+---@field musicSettings MusicSettings
+---@field canBeUsedAsQuickHack Bool
 SoundSystemSettings = {}
 
 ---@param fields? SoundSystemSettings
 ---@return SoundSystemSettings
-function SoundSystemSettings.new(fields) return end
+function SoundSystemSettings.new(fields) end

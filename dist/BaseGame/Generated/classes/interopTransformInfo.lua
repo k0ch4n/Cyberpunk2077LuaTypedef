@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class interopTransformInfo
----@field public translation Vector3
----@field public rotation EulerAngles
+---@field translation Vector3
+---@field rotation EulerAngles
 interopTransformInfo = {}
 
 ---@param fields? interopTransformInfo
 ---@return interopTransformInfo
-function interopTransformInfo.new(fields) return end
+function interopTransformInfo.new(fields) end

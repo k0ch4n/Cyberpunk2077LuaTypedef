@@ -1,68 +1,58 @@
 ---@meta
 
 ---@class SecuritySystem: DeviceSystemBase
----@field private savedOutputCache OutputValidationDataStruct[]
+---@field savedOutputCache OutputValidationDataStruct[]
 SecuritySystem = {}
 
 ---@param fields? SecuritySystem
 ---@return SecuritySystem
-function SecuritySystem.new(fields) return end
+function SecuritySystem.new(fields) end
 
----@protected
 ---@param evt AuthorizePlayerInSecuritySystem
 ---@return Bool
-function SecuritySystem:OnQuestAuthorizePlayer(evt) return end
+function SecuritySystem:OnQuestAuthorizePlayer(evt) end
 
----@protected
 ---@param evt BlacklistPlayer
 ---@return Bool
-function SecuritySystem:OnQuestBlackListPlayer(evt) return end
+function SecuritySystem:OnQuestBlackListPlayer(evt) end
 
----@protected
 ---@param evt QuestChangeSecuritySystemAttitudeGroup
 ---@return Bool
-function SecuritySystem:OnQuestChangeSecuritySystemAttitudeGroup(evt) return end
+function SecuritySystem:OnQuestChangeSecuritySystemAttitudeGroup(evt) end
 
----@protected
 ---@param evt QuestCombatActionNotification
 ---@return Bool
-function SecuritySystem:OnQuestCombatActionNotification(evt) return end
+function SecuritySystem:OnQuestCombatActionNotification(evt) end
 
----@protected
 ---@param evt SuppressSecuritySystemStateChange
 ---@return Bool
-function SecuritySystem:OnQuestExclusiveQuestControl(evt) return end
+function SecuritySystem:OnQuestExclusiveQuestControl(evt) end
 
----@protected
 ---@param evt QuestIllegalActionNotification
 ---@return Bool
-function SecuritySystem:OnQuestIllegalActionNotification(evt) return end
+function SecuritySystem:OnQuestIllegalActionNotification(evt) end
 
----@protected
 ---@param evt SetSecuritySystemState
 ---@return Bool
-function SecuritySystem:OnSetSecuritySystemState(evt) return end
+function SecuritySystem:OnSetSecuritySystemState(evt) end
 
----@protected
 ---@param evt gamePSDeviceChangedEvent
 ---@return Bool
-function SecuritySystem:OnSlaveStateChanged(evt) return end
+function SecuritySystem:OnSlaveStateChanged(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SecuritySystem:OnTakeControl(ri) return end
+function SecuritySystem:OnTakeControl(ri) end
 
----@private
 ---@return SecuritySystemController
-function SecuritySystem:GetController() return end
+function SecuritySystem:GetController() end
 
 ---@return FocusForcedHighlightData
-function SecuritySystem:GetDefaultHighlight() return end
+function SecuritySystem:GetDefaultHighlight() end
 
 ---@return SecuritySystemControllerPS
-function SecuritySystem:GetDevicePS() return end
+function SecuritySystem:GetDevicePS() end
 
 ---@param sink worldMaraudersMapDevicesSink
 ---@return nil
-function SecuritySystem:OnMaraudersMapDeviceDebug(sink) return end
+function SecuritySystem:OnMaraudersMapDeviceDebug(sink) end

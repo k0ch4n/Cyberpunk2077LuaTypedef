@@ -5,4 +5,4 @@ SmartDespawnRequest = {}
 
 ---@param fields? SmartDespawnRequest
 ---@return SmartDespawnRequest
-function SmartDespawnRequest.new(fields) return end
+function SmartDespawnRequest.new(fields) end

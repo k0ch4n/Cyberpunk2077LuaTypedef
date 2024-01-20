@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class scneventsClueEvent: scnSceneEvent
----@field public clueEntity gameEntityReference
----@field public markedOnTimeline Bool
----@field public clueName CName
----@field public layer gameuiEBraindanceLayer
----@field public overrideFact Bool
----@field public factName CName
+---@field clueEntity gameEntityReference
+---@field markedOnTimeline Bool
+---@field clueName CName
+---@field layer gameuiEBraindanceLayer
+---@field overrideFact Bool
+---@field factName CName
 scneventsClueEvent = {}
 
 ---@param fields? scneventsClueEvent
 ---@return scneventsClueEvent
-function scneventsClueEvent.new(fields) return end
+function scneventsClueEvent.new(fields) end

@@ -5,20 +5,19 @@ DoubleJumpEvents = {}
 
 ---@param fields? DoubleJumpEvents
 ---@return DoubleJumpEvents
-function DoubleJumpEvents.new(fields) return end
+function DoubleJumpEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DoubleJumpEvents:OnEnter(stateContext, scriptInterface) return end
+function DoubleJumpEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DoubleJumpEvents:OnEnterFromAirThrusters(stateContext, scriptInterface) return end
+function DoubleJumpEvents:OnEnterFromAirThrusters(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DoubleJumpEvents:OnExit(stateContext, scriptInterface) return end
+function DoubleJumpEvents:OnExit(stateContext, scriptInterface) end

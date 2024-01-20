@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class DoorPersistentData
----@field public doorType EDoorType
----@field public canPlayerToggleLockState Bool
----@field public canPlayerToggleSealState Bool
----@field public initialStatus EDoorStatus
----@field public keycardName TweakDBID
----@field public passcode CName
+---@field doorType EDoorType
+---@field canPlayerToggleLockState Bool
+---@field canPlayerToggleSealState Bool
+---@field initialStatus EDoorStatus
+---@field keycardName TweakDBID
+---@field passcode CName
 DoorPersistentData = {}
 
 ---@param fields? DoorPersistentData
 ---@return DoorPersistentData
-function DoorPersistentData.new(fields) return end
+function DoorPersistentData.new(fields) end

@@ -5,4 +5,4 @@ gameIEquipmentSystem = {}
 
 ---@param fields? gameIEquipmentSystem
 ---@return gameIEquipmentSystem
-function gameIEquipmentSystem.new(fields) return end
+function gameIEquipmentSystem.new(fields) end

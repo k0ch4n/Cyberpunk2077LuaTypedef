@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class BuildButtonItemController: inkButtonDpadSupportedController
----@field private associatedBuild gamedataBuildType
+---@field associatedBuild gamedataBuildType
 BuildButtonItemController = {}
 
 ---@param fields? BuildButtonItemController
 ---@return BuildButtonItemController
-function BuildButtonItemController.new(fields) return end
+function BuildButtonItemController.new(fields) end
 
----@protected
 ---@return Bool
-function BuildButtonItemController:OnInitialize() return end
+function BuildButtonItemController:OnInitialize() end
 
 ---@return gamedataBuildType
-function BuildButtonItemController:GetAssociatedBuild() return end
+function BuildButtonItemController:GetAssociatedBuild() end
 
 ---@param argText String
 ---@param type gamedataBuildType
 ---@return nil
-function BuildButtonItemController:SetButtonDetails(argText, type) return end
+function BuildButtonItemController:SetButtonDetails(argText, type) end

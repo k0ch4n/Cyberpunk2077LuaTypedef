@@ -5,4 +5,4 @@ gamemappinsRuntimeStubMappinData = {}
 
 ---@param fields? gamemappinsRuntimeStubMappinData
 ---@return gamemappinsRuntimeStubMappinData
-function gamemappinsRuntimeStubMappinData.new(fields) return end
+function gamemappinsRuntimeStubMappinData.new(fields) end

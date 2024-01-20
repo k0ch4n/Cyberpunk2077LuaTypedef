@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameuiarcadeRoachRaceObstacleSpawnerController: gameuiarcadeArcadeSpawnerController
----@field public initialMinimumSpawnTime Float
----@field public initialDoubleSpawnChance Float
----@field public spawnRateIncreasePerCycle Float
----@field public doubleSpawnChanceIncreasePerLevel Float
----@field public doubleSpawnDelay Float
----@field public powerupSpawnTimeDelayMultiplier Float
----@field public appleSpawnTime Float
----@field public carrotSpawnTime Float
+---@field initialMinimumSpawnTime Float
+---@field initialDoubleSpawnChance Float
+---@field spawnRateIncreasePerCycle Float
+---@field doubleSpawnChanceIncreasePerLevel Float
+---@field doubleSpawnDelay Float
+---@field powerupSpawnTimeDelayMultiplier Float
+---@field appleSpawnTime Float
+---@field carrotSpawnTime Float
 gameuiarcadeRoachRaceObstacleSpawnerController = {}
 
 ---@param fields? gameuiarcadeRoachRaceObstacleSpawnerController
 ---@return gameuiarcadeRoachRaceObstacleSpawnerController
-function gameuiarcadeRoachRaceObstacleSpawnerController.new(fields) return end
+function gameuiarcadeRoachRaceObstacleSpawnerController.new(fields) end

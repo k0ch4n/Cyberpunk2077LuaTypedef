@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioVehicleDoorsSettings
----@field public openEvent CName
----@field public closeEvent CName
+---@field openEvent CName
+---@field closeEvent CName
 audioVehicleDoorsSettings = {}
 
 ---@param fields? audioVehicleDoorsSettings
 ---@return audioVehicleDoorsSettings
-function audioVehicleDoorsSettings.new(fields) return end
+function audioVehicleDoorsSettings.new(fields) end

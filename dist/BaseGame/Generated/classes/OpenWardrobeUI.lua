@@ -5,10 +5,10 @@ OpenWardrobeUI = {}
 
 ---@param fields? OpenWardrobeUI
 ---@return OpenWardrobeUI
-function OpenWardrobeUI.new(fields) return end
+function OpenWardrobeUI.new(fields) end
 
 ---@return String
-function OpenWardrobeUI:GetTweakDBChoiceRecord() return end
+function OpenWardrobeUI:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function OpenWardrobeUI:SetProperties() return end
+function OpenWardrobeUI:SetProperties() end

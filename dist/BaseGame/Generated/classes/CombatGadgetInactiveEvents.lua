@@ -5,10 +5,9 @@ CombatGadgetInactiveEvents = {}
 
 ---@param fields? CombatGadgetInactiveEvents
 ---@return CombatGadgetInactiveEvents
-function CombatGadgetInactiveEvents.new(fields) return end
+function CombatGadgetInactiveEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CombatGadgetInactiveEvents:OnEnter(stateContext, scriptInterface) return end
+function CombatGadgetInactiveEvents:OnEnter(stateContext, scriptInterface) end

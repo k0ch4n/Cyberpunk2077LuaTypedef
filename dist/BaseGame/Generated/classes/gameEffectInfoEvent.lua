@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameEffectInfoEvent: redEvent
----@field public tag String
----@field public entitiesGathered Uint32
----@field public entitiesFiltered Uint32
----@field public entitiesProcessed Uint32
+---@field tag String
+---@field entitiesGathered Uint32
+---@field entitiesFiltered Uint32
+---@field entitiesProcessed Uint32
 gameEffectInfoEvent = {}
 
 ---@param fields? gameEffectInfoEvent
 ---@return gameEffectInfoEvent
-function gameEffectInfoEvent.new(fields) return end
+function gameEffectInfoEvent.new(fields) end

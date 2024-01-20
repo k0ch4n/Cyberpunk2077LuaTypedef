@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class KillMarkerGameController: gameuiWidgetGameController
----@field private targetNeutralized redCallbackObject
----@field private blackboard gameIBlackboard
----@field private animProxy inkanimProxy
+---@field targetNeutralized redCallbackObject
+---@field blackboard gameIBlackboard
+---@field animProxy inkanimProxy
 KillMarkerGameController = {}
 
 ---@param fields? KillMarkerGameController
 ---@return KillMarkerGameController
-function KillMarkerGameController.new(fields) return end
+function KillMarkerGameController.new(fields) end
 
----@protected
 ---@return Bool
-function KillMarkerGameController:OnInitialize() return end
+function KillMarkerGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function KillMarkerGameController:OnKillMarkerComplete(proxy) return end
+function KillMarkerGameController:OnKillMarkerComplete(proxy) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function KillMarkerGameController:OnNPCNeutralized(value) return end
+function KillMarkerGameController:OnNPCNeutralized(value) end
 
----@protected
 ---@return Bool
-function KillMarkerGameController:OnUninitialize() return end
+function KillMarkerGameController:OnUninitialize() end

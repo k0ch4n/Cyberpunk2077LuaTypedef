@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ApplyRelicMeleewareDamageOnNPCEvent: redEvent
----@field public newHitEvent gameeventsHitEvent
----@field public hitPosition Vector4
----@field public target NPCPuppet
----@field public weapon gameweaponObject
----@field public weaponType gamedataItemType
+---@field newHitEvent gameeventsHitEvent
+---@field hitPosition Vector4
+---@field target NPCPuppet
+---@field weapon gameweaponObject
+---@field weaponType gamedataItemType
 ApplyRelicMeleewareDamageOnNPCEvent = {}
 
 ---@param fields? ApplyRelicMeleewareDamageOnNPCEvent
 ---@return ApplyRelicMeleewareDamageOnNPCEvent
-function ApplyRelicMeleewareDamageOnNPCEvent.new(fields) return end
+function ApplyRelicMeleewareDamageOnNPCEvent.new(fields) end

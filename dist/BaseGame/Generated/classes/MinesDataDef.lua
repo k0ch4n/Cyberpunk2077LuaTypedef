@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class MinesDataDef: gamebbScriptDefinition
----@field public CurrentNormal gamebbScriptID_Vector4
+---@field CurrentNormal gamebbScriptID_Vector4
 MinesDataDef = {}
 
 ---@param fields? MinesDataDef
 ---@return MinesDataDef
-function MinesDataDef.new(fields) return end
+function MinesDataDef.new(fields) end
 
 ---@return Bool
-function MinesDataDef:AutoCreateInSystem() return end
+function MinesDataDef:AutoCreateInSystem() end

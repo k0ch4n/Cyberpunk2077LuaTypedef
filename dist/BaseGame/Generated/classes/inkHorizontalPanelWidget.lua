@@ -5,4 +5,4 @@ inkHorizontalPanelWidget = {}
 
 ---@param fields? inkHorizontalPanelWidget
 ---@return inkHorizontalPanelWidget
-function inkHorizontalPanelWidget.new(fields) return end
+function inkHorizontalPanelWidget.new(fields) end

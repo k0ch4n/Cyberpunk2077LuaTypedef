@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class EmitterGroupParams
----@field public group EEmitterGroup
----@field public emissionScale Float
----@field public opacityScale Float
+---@field group EEmitterGroup
+---@field emissionScale Float
+---@field opacityScale Float
 EmitterGroupParams = {}
 
 ---@param fields? EmitterGroupParams
 ---@return EmitterGroupParams
-function EmitterGroupParams.new(fields) return end
+function EmitterGroupParams.new(fields) end

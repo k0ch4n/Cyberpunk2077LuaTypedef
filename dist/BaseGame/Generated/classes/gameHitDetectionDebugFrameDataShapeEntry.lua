@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameHitDetectionDebugFrameDataShapeEntry
----@field public ansformWS WorldTransform
+---@field ansformWS WorldTransform
 gameHitDetectionDebugFrameDataShapeEntry = {}
 
 ---@param fields? gameHitDetectionDebugFrameDataShapeEntry
 ---@return gameHitDetectionDebugFrameDataShapeEntry
-function gameHitDetectionDebugFrameDataShapeEntry.new(fields) return end
+function gameHitDetectionDebugFrameDataShapeEntry.new(fields) end

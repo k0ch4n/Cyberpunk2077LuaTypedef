@@ -5,4 +5,4 @@ ClearBeingNoticedBB = {}
 
 ---@param fields? ClearBeingNoticedBB
 ---@return ClearBeingNoticedBB
-function ClearBeingNoticedBB.new(fields) return end
+function ClearBeingNoticedBB.new(fields) end

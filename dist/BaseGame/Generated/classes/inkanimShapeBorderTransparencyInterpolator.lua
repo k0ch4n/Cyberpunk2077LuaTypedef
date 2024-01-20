@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class inkanimShapeBorderTransparencyInterpolator: inkanimInterpolator
----@field public startValue Float
----@field public endValue Float
+---@field startValue Float
+---@field endValue Float
 inkanimShapeBorderTransparencyInterpolator = {}
 
 ---@param fields? inkanimShapeBorderTransparencyInterpolator
 ---@return inkanimShapeBorderTransparencyInterpolator
-function inkanimShapeBorderTransparencyInterpolator.new(fields) return end
+function inkanimShapeBorderTransparencyInterpolator.new(fields) end
 
 ---@return nil
-function inkanimShapeBorderTransparencyInterpolator:GetEndTransparency() return end
+function inkanimShapeBorderTransparencyInterpolator:GetEndTransparency() end
 
 ---@return nil
-function inkanimShapeBorderTransparencyInterpolator:GetStartTransparency() return end
+function inkanimShapeBorderTransparencyInterpolator:GetStartTransparency() end
 
 ---@return nil
-function inkanimShapeBorderTransparencyInterpolator:SetEndTransparency() return end
+function inkanimShapeBorderTransparencyInterpolator:SetEndTransparency() end
 
 ---@return nil
-function inkanimShapeBorderTransparencyInterpolator:SetStartTransparency() return end
+function inkanimShapeBorderTransparencyInterpolator:SetStartTransparency() end

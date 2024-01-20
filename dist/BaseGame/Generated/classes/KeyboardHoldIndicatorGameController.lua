@@ -1,26 +1,22 @@
 ---@meta
 
 ---@class KeyboardHoldIndicatorGameController: gameuiHoldIndicatorGameController
----@field private progress inkImageWidgetReference
+---@field progress inkImageWidgetReference
 KeyboardHoldIndicatorGameController = {}
 
 ---@param fields? KeyboardHoldIndicatorGameController
 ---@return KeyboardHoldIndicatorGameController
-function KeyboardHoldIndicatorGameController.new(fields) return end
+function KeyboardHoldIndicatorGameController.new(fields) end
 
----@protected
 ---@return nil
-function KeyboardHoldIndicatorGameController:HoldFinish() return end
+function KeyboardHoldIndicatorGameController:HoldFinish() end
 
----@protected
 ---@param value Float
 ---@return nil
-function KeyboardHoldIndicatorGameController:HoldProgress(value) return end
+function KeyboardHoldIndicatorGameController:HoldProgress(value) end
 
----@protected
 ---@return nil
-function KeyboardHoldIndicatorGameController:HoldStart() return end
+function KeyboardHoldIndicatorGameController:HoldStart() end
 
----@protected
 ---@return nil
-function KeyboardHoldIndicatorGameController:HoldStop() return end
+function KeyboardHoldIndicatorGameController:HoldStop() end

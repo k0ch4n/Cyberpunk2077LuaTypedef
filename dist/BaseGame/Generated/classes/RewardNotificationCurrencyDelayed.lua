@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class RewardNotificationCurrencyDelayed: gameDelaySystemScriptedDelayCallbackWrapper
----@field private notificationQueue ItemsNotificationQueue
----@field private notificationData gameuiGenericNotificationData
+---@field notificationQueue ItemsNotificationQueue
+---@field notificationData gameuiGenericNotificationData
 RewardNotificationCurrencyDelayed = {}
 
 ---@param fields? RewardNotificationCurrencyDelayed
 ---@return RewardNotificationCurrencyDelayed
-function RewardNotificationCurrencyDelayed.new(fields) return end
+function RewardNotificationCurrencyDelayed.new(fields) end
 
 ---@param queue ItemsNotificationQueue
 ---@param notificationData gameuiGenericNotificationData
 ---@param delaySystem gameDelaySystem
 ---@return nil
-function RewardNotificationCurrencyDelayed.CreateAndDispatch(queue, notificationData, delaySystem) return end
+function RewardNotificationCurrencyDelayed.CreateAndDispatch(queue, notificationData, delaySystem) end
 
 ---@return nil
-function RewardNotificationCurrencyDelayed:Call() return end
+function RewardNotificationCurrencyDelayed:Call() end

@@ -1,35 +1,33 @@
 ---@meta
 
 ---@class SocialPanelContactsList: inkWidgetLogicController
----@field private ListItemName CName
----@field private ItemsRoot inkBasePanelWidgetReference
----@field private ItemsList SocialPanelContactsListItem[]
----@field private CurrentContactHash Int32
----@field private LastClickedContact gameJournalContact
+---@field ListItemName CName
+---@field ItemsRoot inkBasePanelWidgetReference
+---@field ItemsList SocialPanelContactsListItem[]
+---@field CurrentContactHash Int32
+---@field LastClickedContact gameJournalContact
 SocialPanelContactsList = {}
 
 ---@param fields? SocialPanelContactsList
 ---@return SocialPanelContactsList
-function SocialPanelContactsList.new(fields) return end
+function SocialPanelContactsList.new(fields) end
 
----@private
 ---@param contactInfo SocialPanelContactInfo
 ---@param currentItem Int32
 ---@return nil
-function SocialPanelContactsList:AddContactItem(contactInfo, currentItem) return end
+function SocialPanelContactsList:AddContactItem(contactInfo, currentItem) end
 
 ---@param contactToShowHash Int32
 ---@return Bool
-function SocialPanelContactsList:ChooseContact(contactToShowHash) return end
+function SocialPanelContactsList:ChooseContact(contactToShowHash) end
 
 ---@return gameJournalContact
-function SocialPanelContactsList:GetClickedContact() return end
+function SocialPanelContactsList:GetClickedContact() end
 
----@private
 ---@param e inkPointerEvent
 ---@return nil
-function SocialPanelContactsList:OnListItemClicked(e) return end
+function SocialPanelContactsList:OnListItemClicked(e) end
 
 ---@param contacts SocialPanelContactInfo[]
 ---@return nil
-function SocialPanelContactsList:RefreshContactsList(contacts) return end
+function SocialPanelContactsList:RefreshContactsList(contacts) end

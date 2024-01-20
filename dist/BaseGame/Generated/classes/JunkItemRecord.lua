@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class JunkItemRecord
----@field public junkItemID TweakDBID
+---@field junkItemID TweakDBID
 JunkItemRecord = {}
 
 ---@param fields? JunkItemRecord
 ---@return JunkItemRecord
-function JunkItemRecord.new(fields) return end
+function JunkItemRecord.new(fields) end

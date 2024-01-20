@@ -5,4 +5,4 @@ ResetBlockedHitsRequest = {}
 
 ---@param fields? ResetBlockedHitsRequest
 ---@return ResetBlockedHitsRequest
-function ResetBlockedHitsRequest.new(fields) return end
+function ResetBlockedHitsRequest.new(fields) end

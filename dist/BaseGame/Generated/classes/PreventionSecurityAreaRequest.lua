@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PreventionSecurityAreaRequest: gameScriptableSystemRequest
----@field public playerIsIn Bool
----@field public areaID gamePersistentID
+---@field playerIsIn Bool
+---@field areaID gamePersistentID
 PreventionSecurityAreaRequest = {}
 
 ---@param fields? PreventionSecurityAreaRequest
 ---@return PreventionSecurityAreaRequest
-function PreventionSecurityAreaRequest.new(fields) return end
+function PreventionSecurityAreaRequest.new(fields) end

@@ -5,9 +5,9 @@ EffectExecutor_SetDeviceOFF = {}
 
 ---@param fields? EffectExecutor_SetDeviceOFF
 ---@return EffectExecutor_SetDeviceOFF
-function EffectExecutor_SetDeviceOFF.new(fields) return end
+function EffectExecutor_SetDeviceOFF.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function EffectExecutor_SetDeviceOFF:Process(ctx, applierCtx) return end
+function EffectExecutor_SetDeviceOFF:Process(ctx, applierCtx) end

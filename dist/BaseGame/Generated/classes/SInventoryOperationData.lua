@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SInventoryOperationData
----@field public itemName TweakDBID
----@field public quantity Int32
----@field public operationType EItemOperationType
+---@field itemName TweakDBID
+---@field quantity Int32
+---@field operationType EItemOperationType
 SInventoryOperationData = {}
 
 ---@param fields? SInventoryOperationData
 ---@return SInventoryOperationData
-function SInventoryOperationData.new(fields) return end
+function SInventoryOperationData.new(fields) end

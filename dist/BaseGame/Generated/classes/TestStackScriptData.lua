@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TestStackScriptData
----@field public testVar Int32
----@field public anotherVar CName
+---@field testVar Int32
+---@field anotherVar CName
 TestStackScriptData = {}
 
 ---@param fields? TestStackScriptData
 ---@return TestStackScriptData
-function TestStackScriptData.new(fields) return end
+function TestStackScriptData.new(fields) end

@@ -5,13 +5,11 @@ PachinkoMachineControllerPS = {}
 
 ---@param fields? PachinkoMachineControllerPS
 ---@return PachinkoMachineControllerPS
-function PachinkoMachineControllerPS.new(fields) return end
+function PachinkoMachineControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function PachinkoMachineControllerPS:CanCreateAnyQuickHackActions() return end
+function PachinkoMachineControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function PachinkoMachineControllerPS:GetQuickHackActions(context) return end
+function PachinkoMachineControllerPS:GetQuickHackActions(context) end

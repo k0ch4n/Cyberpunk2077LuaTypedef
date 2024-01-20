@@ -5,4 +5,4 @@ TurretEndDecisions = {}
 
 ---@param fields? TurretEndDecisions
 ---@return TurretEndDecisions
-function TurretEndDecisions.new(fields) return end
+function TurretEndDecisions.new(fields) end

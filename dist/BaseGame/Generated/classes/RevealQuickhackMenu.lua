@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RevealQuickhackMenu: HUDManagerRequest
----@field public shouldOpenWheel Bool
+---@field shouldOpenWheel Bool
 RevealQuickhackMenu = {}
 
 ---@param fields? RevealQuickhackMenu
 ---@return RevealQuickhackMenu
-function RevealQuickhackMenu.new(fields) return end
+function RevealQuickhackMenu.new(fields) end

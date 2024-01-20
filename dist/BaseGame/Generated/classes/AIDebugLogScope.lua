@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIDebugLogScope
----@field public index Uint32
----@field public id Uint32
+---@field index Uint32
+---@field id Uint32
 AIDebugLogScope = {}
 
 ---@param fields? AIDebugLogScope
 ---@return AIDebugLogScope
-function AIDebugLogScope.new(fields) return end
+function AIDebugLogScope.new(fields) end

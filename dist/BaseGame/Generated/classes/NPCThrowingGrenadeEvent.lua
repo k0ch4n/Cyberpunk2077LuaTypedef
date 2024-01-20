@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NPCThrowingGrenadeEvent: redEvent
----@field public target gameObject
+---@field target gameObject
 NPCThrowingGrenadeEvent = {}
 
 ---@param fields? NPCThrowingGrenadeEvent
 ---@return NPCThrowingGrenadeEvent
-function NPCThrowingGrenadeEvent.new(fields) return end
+function NPCThrowingGrenadeEvent.new(fields) end

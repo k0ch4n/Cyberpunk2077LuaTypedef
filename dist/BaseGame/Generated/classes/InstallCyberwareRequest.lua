@@ -5,4 +5,4 @@ InstallCyberwareRequest = {}
 
 ---@param fields? InstallCyberwareRequest
 ---@return InstallCyberwareRequest
-function InstallCyberwareRequest.new(fields) return end
+function InstallCyberwareRequest.new(fields) end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class inkanimTextInterpolator: inkanimInterpolator
----@field public startValue Float
----@field public endValue Float
+---@field startValue Float
+---@field endValue Float
 inkanimTextInterpolator = {}
 
 ---@return Float
-function inkanimTextInterpolator:GetEndProgress() return end
+function inkanimTextInterpolator:GetEndProgress() end
 
 ---@return Float
-function inkanimTextInterpolator:GetStartProgress() return end
+function inkanimTextInterpolator:GetStartProgress() end
 
 ---@param complexityValue Float
 ---@return nil
-function inkanimTextInterpolator:SetEndProgress(complexityValue) return end
+function inkanimTextInterpolator:SetEndProgress(complexityValue) end
 
 ---@param complexityValue Float
 ---@return nil
-function inkanimTextInterpolator:SetStartProgress(complexityValue) return end
+function inkanimTextInterpolator:SetStartProgress(complexityValue) end

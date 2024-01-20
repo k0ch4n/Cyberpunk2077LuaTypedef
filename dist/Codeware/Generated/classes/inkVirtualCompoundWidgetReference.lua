@@ -5,8 +5,8 @@ inkVirtualCompoundWidgetReference = {}
 
 ---@param fields? inkVirtualCompoundWidgetReference
 ---@return inkVirtualCompoundWidgetReference
-function inkVirtualCompoundWidgetReference.new(fields) return end
+function inkVirtualCompoundWidgetReference.new(fields) end
 
 ---@param widget inkVirtualCompoundWidget
 ---@return inkVirtualCompoundWidgetReference
-function inkVirtualCompoundWidgetReference.Create(widget) return end
+function inkVirtualCompoundWidgetReference.Create(widget) end

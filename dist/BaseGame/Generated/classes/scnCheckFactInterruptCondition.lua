@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnCheckFactInterruptCondition: scnIInterruptCondition
----@field public params scnCheckFactInterruptConditionParams
+---@field params scnCheckFactInterruptConditionParams
 scnCheckFactInterruptCondition = {}
 
 ---@param fields? scnCheckFactInterruptCondition
 ---@return scnCheckFactInterruptCondition
-function scnCheckFactInterruptCondition.new(fields) return end
+function scnCheckFactInterruptCondition.new(fields) end

@@ -5,4 +5,4 @@ gamestateMachineStateSocketDefinition = {}
 
 ---@param fields? gamestateMachineStateSocketDefinition
 ---@return gamestateMachineStateSocketDefinition
-function gamestateMachineStateSocketDefinition.new(fields) return end
+function gamestateMachineStateSocketDefinition.new(fields) end

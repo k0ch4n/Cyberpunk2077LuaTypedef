@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class DestroyWeakspotEffector: gameEffector
----@field public weakspotIndex Int32
+---@field weakspotIndex Int32
 DestroyWeakspotEffector = {}
 
 ---@param fields? DestroyWeakspotEffector
 ---@return DestroyWeakspotEffector
-function DestroyWeakspotEffector.new(fields) return end
+function DestroyWeakspotEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function DestroyWeakspotEffector:ActionOn(owner) return end
+function DestroyWeakspotEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function DestroyWeakspotEffector:Initialize(record, parentRecord) return end
+function DestroyWeakspotEffector:Initialize(record, parentRecord) end

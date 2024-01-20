@@ -5,4 +5,4 @@ gameRandomStatModifier = {}
 
 ---@param fields? gameRandomStatModifier
 ---@return gameRandomStatModifier
-function gameRandomStatModifier.new(fields) return end
+function gameRandomStatModifier.new(fields) end

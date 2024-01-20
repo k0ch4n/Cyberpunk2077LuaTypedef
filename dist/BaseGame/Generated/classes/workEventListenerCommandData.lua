@@ -5,4 +5,4 @@ workEventListenerCommandData = {}
 
 ---@param fields? workEventListenerCommandData
 ---@return workEventListenerCommandData
-function workEventListenerCommandData.new(fields) return end
+function workEventListenerCommandData.new(fields) end

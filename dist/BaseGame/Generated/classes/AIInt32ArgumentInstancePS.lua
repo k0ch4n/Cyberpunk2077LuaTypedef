@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIInt32ArgumentInstancePS: AIArgumentInstancePS
----@field public value Int32
+---@field value Int32
 AIInt32ArgumentInstancePS = {}
 
 ---@param fields? AIInt32ArgumentInstancePS
 ---@return AIInt32ArgumentInstancePS
-function AIInt32ArgumentInstancePS.new(fields) return end
+function AIInt32ArgumentInstancePS.new(fields) end

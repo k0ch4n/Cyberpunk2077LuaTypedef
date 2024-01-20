@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class MeleeDeflectAttackEvents: MeleeAttackGenericEvents
----@field public slowMoSet Bool
+---@field slowMoSet Bool
 MeleeDeflectAttackEvents = {}
 
 ---@param fields? MeleeDeflectAttackEvents
 ---@return MeleeDeflectAttackEvents
-function MeleeDeflectAttackEvents.new(fields) return end
+function MeleeDeflectAttackEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeDeflectAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeDeflectAttackEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeDeflectAttackEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeDeflectAttackEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeDeflectAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function MeleeDeflectAttackEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

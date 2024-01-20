@@ -5,8 +5,8 @@ HitAttackSubtypePrereqState = {}
 
 ---@param fields? HitAttackSubtypePrereqState
 ---@return HitAttackSubtypePrereqState
-function HitAttackSubtypePrereqState.new(fields) return end
+function HitAttackSubtypePrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function HitAttackSubtypePrereqState:Evaluate(hitEvent) return end
+function HitAttackSubtypePrereqState:Evaluate(hitEvent) end

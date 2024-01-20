@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gamedataPackageNode: ISerializable
----@field public name String
----@field public serializedVariables gamedataVariableNode[]
----@field public serializedGroups gamedataGroupNode[]
----@field public files gamedataFileNode[]
+---@field name String
+---@field serializedVariables gamedataVariableNode[]
+---@field serializedGroups gamedataGroupNode[]
+---@field files gamedataFileNode[]
 gamedataPackageNode = {}
 
 ---@param fields? gamedataPackageNode
 ---@return gamedataPackageNode
-function gamedataPackageNode.new(fields) return end
+function gamedataPackageNode.new(fields) end

@@ -5,4 +5,4 @@ vehicleMoveSystem = {}
 
 ---@param fields? vehicleMoveSystem
 ---@return vehicleMoveSystem
-function vehicleMoveSystem.new(fields) return end
+function vehicleMoveSystem.new(fields) end

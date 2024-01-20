@@ -5,7 +5,7 @@ VentilationAreaController = {}
 
 ---@param fields? VentilationAreaController
 ---@return VentilationAreaController
-function VentilationAreaController.new(fields) return end
+function VentilationAreaController.new(fields) end
 
 ---@return VentilationAreaControllerPS
-function VentilationAreaController:GetPS() return end
+function VentilationAreaController:GetPS() end

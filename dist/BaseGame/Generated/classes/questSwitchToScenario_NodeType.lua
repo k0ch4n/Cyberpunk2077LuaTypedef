@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questSwitchToScenario_NodeType: questIUIManagerNodeType
----@field public startScenarioName CName
----@field public endScenarioName CName
----@field public userData inkUserData
----@field public forceOpenDuringFadeout Bool
+---@field startScenarioName CName
+---@field endScenarioName CName
+---@field userData inkUserData
+---@field forceOpenDuringFadeout Bool
 questSwitchToScenario_NodeType = {}
 
 ---@param fields? questSwitchToScenario_NodeType
 ---@return questSwitchToScenario_NodeType
-function questSwitchToScenario_NodeType.new(fields) return end
+function questSwitchToScenario_NodeType.new(fields) end

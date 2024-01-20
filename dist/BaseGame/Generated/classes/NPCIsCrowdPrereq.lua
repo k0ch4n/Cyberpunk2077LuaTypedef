@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class NPCIsCrowdPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 NPCIsCrowdPrereq = {}
 
 ---@param fields? NPCIsCrowdPrereq
 ---@return NPCIsCrowdPrereq
-function NPCIsCrowdPrereq.new(fields) return end
+function NPCIsCrowdPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCIsCrowdPrereq:Initialize(recordID) return end
+function NPCIsCrowdPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCIsCrowdPrereq:IsFulfilled(context) return end
+function NPCIsCrowdPrereq:IsFulfilled(context) end

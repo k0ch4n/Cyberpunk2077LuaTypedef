@@ -1,54 +1,49 @@
 ---@meta
 
 ---@class StatusEffectDecisions: LocomotionGroundDecisions
----@field private executionOwner gameObject
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private statusEffectEnumName String
+---@field executionOwner gameObject
+---@field statusEffectListener DefaultTransitionStatusEffectListener
+---@field statusEffectEnumName String
 StatusEffectDecisions = {}
 
 ---@param fields? StatusEffectDecisions
 ---@return StatusEffectDecisions
-function StatusEffectDecisions.new(fields) return end
+function StatusEffectDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function StatusEffectDecisions:EnterCondition(stateContext, scriptInterface) return end
+function StatusEffectDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function StatusEffectDecisions:HasMovementAffiliatedStatusEffect(stateContext, scriptInterface) return end
+function StatusEffectDecisions:HasMovementAffiliatedStatusEffect(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function StatusEffectDecisions:OnAttach(stateContext, scriptInterface) return end
+function StatusEffectDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function StatusEffectDecisions:OnDetach(stateContext, scriptInterface) return end
+function StatusEffectDecisions:OnDetach(stateContext, scriptInterface) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function StatusEffectDecisions:OnStatusEffectApplied(statusEffect) return end
+function StatusEffectDecisions:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function StatusEffectDecisions:OnStatusEffectRemoved(statusEffect) return end
+function StatusEffectDecisions:OnStatusEffectRemoved(statusEffect) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function StatusEffectDecisions:ToRegularFall(stateContext, scriptInterface) return end
+function StatusEffectDecisions:ToRegularFall(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function StatusEffectDecisions:ToStand(stateContext, scriptInterface) return end
+function StatusEffectDecisions:ToStand(stateContext, scriptInterface) end

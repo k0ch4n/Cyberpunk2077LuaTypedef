@@ -1,36 +1,30 @@
 ---@meta
 
 ---@class InteractionMappinController: gameuiInteractionMappinController
----@field private mappin gamemappinsInteractionMappin
----@field private root inkWidget
----@field private isConnected Bool
+---@field mappin gamemappinsInteractionMappin
+---@field root inkWidget
+---@field isConnected Bool
 InteractionMappinController = {}
 
 ---@param fields? InteractionMappinController
 ---@return InteractionMappinController
-function InteractionMappinController.new(fields) return end
+function InteractionMappinController.new(fields) end
 
----@protected
 ---@param connected Bool
 ---@return Bool
-function InteractionMappinController:OnChoiceVisualizer(connected) return end
+function InteractionMappinController:OnChoiceVisualizer(connected) end
 
----@protected
 ---@return Bool
-function InteractionMappinController:OnInitialize() return end
+function InteractionMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function InteractionMappinController:OnIntro() return end
+function InteractionMappinController:OnIntro() end
 
----@protected
 ---@return Bool
-function InteractionMappinController:OnUninitialize() return end
+function InteractionMappinController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function InteractionMappinController:OnUpdate() return end
+function InteractionMappinController:OnUpdate() end
 
----@protected
 ---@return nil
-function InteractionMappinController:UpdateVisibility() return end
+function InteractionMappinController:UpdateVisibility() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CanSellNewPerkResult
----@field public success Bool
----@field public title String
----@field public message String
----@field public perkType gamedataNewPerkType
+---@field success Bool
+---@field title String
+---@field message String
+---@field perkType gamedataNewPerkType
 CanSellNewPerkResult = {}
 
 ---@param fields? CanSellNewPerkResult
 ---@return CanSellNewPerkResult
-function CanSellNewPerkResult.new(fields) return end
+function CanSellNewPerkResult.new(fields) end

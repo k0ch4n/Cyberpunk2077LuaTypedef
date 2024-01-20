@@ -5,4 +5,4 @@ gameuiSetSelectedStickerEvent = {}
 
 ---@param fields? gameuiSetSelectedStickerEvent
 ---@return gameuiSetSelectedStickerEvent
-function gameuiSetSelectedStickerEvent.new(fields) return end
+function gameuiSetSelectedStickerEvent.new(fields) end

@@ -5,7 +5,7 @@ InvisibleSceneStashController = {}
 
 ---@param fields? InvisibleSceneStashController
 ---@return InvisibleSceneStashController
-function InvisibleSceneStashController.new(fields) return end
+function InvisibleSceneStashController.new(fields) end
 
 ---@return InvisibleSceneStashControllerPS
-function InvisibleSceneStashController:GetPS() return end
+function InvisibleSceneStashController:GetPS() end

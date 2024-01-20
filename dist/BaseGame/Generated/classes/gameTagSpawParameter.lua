@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameTagSpawParameter: gameObjectSpawnParameter
----@field public tags CName[]
+---@field tags CName[]
 gameTagSpawParameter = {}
 
 ---@param fields? gameTagSpawParameter
 ---@return gameTagSpawParameter
-function gameTagSpawParameter.new(fields) return end
+function gameTagSpawParameter.new(fields) end

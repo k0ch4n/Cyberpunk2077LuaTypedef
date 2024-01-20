@@ -5,8 +5,7 @@ InTauntUpperBodyState = {}
 
 ---@param fields? InTauntUpperBodyState
 ---@return InTauntUpperBodyState
-function InTauntUpperBodyState.new(fields) return end
+function InTauntUpperBodyState.new(fields) end
 
----@private
 ---@return gamedataNPCUpperBodyState
-function InTauntUpperBodyState:GetStateToCheck() return end
+function InTauntUpperBodyState:GetStateToCheck() end

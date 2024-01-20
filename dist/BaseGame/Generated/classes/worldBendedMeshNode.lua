@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class worldBendedMeshNode: worldNode
----@field public mesh CMesh
----@field public meshAppearance CName
----@field public deformationData Matrix[]
----@field public deformedBox Box
----@field public isBendedRoad Bool
----@field public castShadows shadowsShadowCastingMode
----@field public castLocalShadows shadowsShadowCastingMode
----@field public removeFromRainMap Bool
----@field public navigationSetting NavGenNavigationSetting
----@field public version Uint8
+---@field mesh CMesh
+---@field meshAppearance CName
+---@field deformationData Matrix[]
+---@field deformedBox Box
+---@field isBendedRoad Bool
+---@field castShadows shadowsShadowCastingMode
+---@field castLocalShadows shadowsShadowCastingMode
+---@field removeFromRainMap Bool
+---@field navigationSetting NavGenNavigationSetting
+---@field version Uint8
 worldBendedMeshNode = {}
 
 ---@param fields? worldBendedMeshNode
 ---@return worldBendedMeshNode
-function worldBendedMeshNode.new(fields) return end
+function worldBendedMeshNode.new(fields) end

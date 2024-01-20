@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class TooltipSpecialAbilityDisplay: inkWidgetLogicController
----@field private AbilityIcon inkImageWidgetReference
----@field private AbilityDescription inkTextWidgetReference
----@field private QualityRoot inkWidgetReference
+---@field AbilityIcon inkImageWidgetReference
+---@field AbilityDescription inkTextWidgetReference
+---@field QualityRoot inkWidgetReference
 TooltipSpecialAbilityDisplay = {}
 
 ---@param fields? TooltipSpecialAbilityDisplay
 ---@return TooltipSpecialAbilityDisplay
-function TooltipSpecialAbilityDisplay.new(fields) return end
+function TooltipSpecialAbilityDisplay.new(fields) end
 
 ---@param qualityName CName|string
 ---@param data gameInventoryItemAbility
 ---@return nil
-function TooltipSpecialAbilityDisplay:Setup(qualityName, data) return end
+function TooltipSpecialAbilityDisplay:Setup(qualityName, data) end

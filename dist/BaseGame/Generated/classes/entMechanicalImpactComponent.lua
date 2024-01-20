@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class entMechanicalImpactComponent: entIComponent
----@field private c_impulseMagThreshold Float
+---@field c_impulseMagThreshold Float
 entMechanicalImpactComponent = {}
 
 ---@param fields? entMechanicalImpactComponent
 ---@return entMechanicalImpactComponent
-function entMechanicalImpactComponent.new(fields) return end
+function entMechanicalImpactComponent.new(fields) end
 
----@protected
 ---@param evt entMechanicalComponentImpactEvent
 ---@return Bool
-function entMechanicalImpactComponent:OnMechanicalComponentImpactEvent(evt) return end
+function entMechanicalImpactComponent:OnMechanicalComponentImpactEvent(evt) end
 
----@private
 ---@param impactPoints entImpactPointData[]
 ---@param vehicleObject vehicleBaseObject
 ---@param outImpactPoint entImpactPointData
 ---@param outInstigator gameObject
 ---@return Bool
-function entMechanicalImpactComponent:FilterOutVehicleImpact(impactPoints, vehicleObject, outImpactPoint, outInstigator) return end
+function entMechanicalImpactComponent:FilterOutVehicleImpact(impactPoints, vehicleObject, outImpactPoint, outInstigator) end
 
----@private
 ---@param vehicleObject vehicleBaseObject
 ---@param instigator gameObject
 ---@param impactPoint entImpactPointData
 ---@return nil
-function entMechanicalImpactComponent:ProcessVehicleImpact(vehicleObject, instigator, impactPoint) return end
+function entMechanicalImpactComponent:ProcessVehicleImpact(vehicleObject, instigator, impactPoint) end

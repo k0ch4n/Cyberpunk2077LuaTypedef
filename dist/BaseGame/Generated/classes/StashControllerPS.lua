@@ -5,17 +5,15 @@ StashControllerPS = {}
 
 ---@param fields? StashControllerPS
 ---@return StashControllerPS
-function StashControllerPS.new(fields) return end
+function StashControllerPS.new(fields) end
 
----@private
 ---@return OpenStash
-function StashControllerPS:ActionOpenStash() return end
+function StashControllerPS:ActionOpenStash() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function StashControllerPS:GetActions(context) return end
+function StashControllerPS:GetActions(context) end
 
----@private
 ---@param evt OpenStash
 ---@return EntityNotificationType
-function StashControllerPS:OnOpenStash(evt) return end
+function StashControllerPS:OnOpenStash(evt) end

@@ -1,151 +1,133 @@
 ---@meta
 
 ---@class gameLootContainerBase: gameObject
----@field public useAreaLoot Bool
----@field public lootTables TweakDBID[]
----@field public contentAssignment TweakDBID
----@field public isIllegal Bool
----@field public wasLootInitalized Bool
----@field public containerType gamedataContainerType
----@field protected lootQuality gamedataQuality
----@field private hasQuestItems Bool
----@field protected isInIconForcedVisibilityRange Bool
----@field private isIconic Bool
----@field protected activeQualityRangeInteraction CName
+---@field useAreaLoot Bool
+---@field lootTables TweakDBID[]
+---@field contentAssignment TweakDBID
+---@field isIllegal Bool
+---@field wasLootInitalized Bool
+---@field containerType gamedataContainerType
+---@field lootQuality gamedataQuality
+---@field hasQuestItems Bool
+---@field isInIconForcedVisibilityRange Bool
+---@field isIconic Bool
+---@field activeQualityRangeInteraction CName
 gameLootContainerBase = {}
 
 ---@param fields? gameLootContainerBase
 ---@return gameLootContainerBase
-function gameLootContainerBase.new(fields) return end
+function gameLootContainerBase.new(fields) end
 
 ---@return TweakDBID
-function gameLootContainerBase:GetContentAssignment() return end
+function gameLootContainerBase:GetContentAssignment() end
 
 ---@return Bool
-function gameLootContainerBase:IsEmpty() return end
+function gameLootContainerBase:IsEmpty() end
 
 ---@return Bool
-function gameLootContainerBase:IsIllegal() return end
+function gameLootContainerBase:IsIllegal() end
 
 ---@return Bool
-function gameLootContainerBase:IsLogicReady() return end
+function gameLootContainerBase:IsLogicReady() end
 
----@protected
 ---@param evt gameeventsEvaluateLootQualityEvent
 ---@return Bool
-function gameLootContainerBase:OnEvaluateLootQuality(evt) return end
+function gameLootContainerBase:OnEvaluateLootQuality(evt) end
 
----@protected
 ---@return Bool
-function gameLootContainerBase:OnGameAttached() return end
+function gameLootContainerBase:OnGameAttached() end
 
----@protected
 ---@param choiceEvent gameinteractionsChoiceEvent
 ---@return Bool
-function gameLootContainerBase:OnInteraction(choiceEvent) return end
+function gameLootContainerBase:OnInteraction(choiceEvent) end
 
----@protected
 ---@param evt gameInventoryChangedEvent
 ---@return Bool
-function gameLootContainerBase:OnInventoryChangedEvent(evt) return end
+function gameLootContainerBase:OnInventoryChangedEvent(evt) end
 
----@protected
 ---@param evt gameOnInventoryEmptyEvent
 ---@return Bool
-function gameLootContainerBase:OnInventoryEmptyEvent(evt) return end
+function gameLootContainerBase:OnInventoryEmptyEvent(evt) end
 
----@protected
 ---@param evt gameContainerFilledEvent
 ---@return Bool
-function gameLootContainerBase:OnInventoryFilledEvent(evt) return end
+function gameLootContainerBase:OnInventoryFilledEvent(evt) end
 
----@protected
 ---@param evt gameItemAddedEvent
 ---@return Bool
-function gameLootContainerBase:OnItemAddedEvent(evt) return end
+function gameLootContainerBase:OnItemAddedEvent(evt) end
 
----@protected
 ---@param evt gameItemBeingRemovedEvent
 ---@return Bool
-function gameLootContainerBase:OnItemRemoveddEvent(evt) return end
+function gameLootContainerBase:OnItemRemoveddEvent(evt) end
 
----@protected
 ---@param evt SetContainerStateEvent
 ---@return Bool
-function gameLootContainerBase:OnSetContainerStateEventEvent(evt) return end
+function gameLootContainerBase:OnSetContainerStateEventEvent(evt) end
 
 ---@return EGameplayRole
-function gameLootContainerBase:DeterminGameplayRole() return end
+function gameLootContainerBase:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function gameLootContainerBase:DeterminGameplayRoleMappinVisuaState(data) return end
+function gameLootContainerBase:DeterminGameplayRoleMappinVisuaState(data) end
 
----@private
 ---@return Bool
-function gameLootContainerBase:EvaluateLootQuality() return end
+function gameLootContainerBase:EvaluateLootQuality() end
 
----@protected
 ---@return nil
-function gameLootContainerBase:EvaluateLootQualityByTask() return end
+function gameLootContainerBase:EvaluateLootQualityByTask() end
 
----@protected
 ---@return nil
-function gameLootContainerBase:EvaluateLootQualityEvent() return end
+function gameLootContainerBase:EvaluateLootQualityEvent() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function gameLootContainerBase:EvaluateLootQualityTask(data) return end
+function gameLootContainerBase:EvaluateLootQualityTask(data) end
 
 ---@return EFocusOutlineType
-function gameLootContainerBase:GetCurrentOutline() return end
+function gameLootContainerBase:GetCurrentOutline() end
 
 ---@return FocusForcedHighlightData
-function gameLootContainerBase:GetDefaultHighlight() return end
+function gameLootContainerBase:GetDefaultHighlight() end
 
 ---@return Bool
-function gameLootContainerBase:GetIsIconic() return end
+function gameLootContainerBase:GetIsIconic() end
 
 ---@return gamedataQuality
-function gameLootContainerBase:GetLootQuality() return end
+function gameLootContainerBase:GetLootQuality() end
 
----@protected
 ---@return gameLootContainerBasePS
-function gameLootContainerBase:GetPS() return end
+function gameLootContainerBase:GetPS() end
 
 ---@return Bool
-function gameLootContainerBase:HasValidLootQuality() return end
+function gameLootContainerBase:HasValidLootQuality() end
 
 ---@return Bool
-function gameLootContainerBase:IsContainer() return end
+function gameLootContainerBase:IsContainer() end
 
 ---@return Bool
-function gameLootContainerBase:IsDisabled() return end
+function gameLootContainerBase:IsDisabled() end
 
 ---@return Bool
-function gameLootContainerBase:IsInIconForcedVisibilityRange() return end
+function gameLootContainerBase:IsInIconForcedVisibilityRange() end
 
 ---@return Bool
-function gameLootContainerBase:IsQuest() return end
+function gameLootContainerBase:IsQuest() end
 
----@protected
 ---@param isQuest Bool
 ---@return nil
-function gameLootContainerBase:MarkAsQuest(isQuest) return end
+function gameLootContainerBase:MarkAsQuest(isQuest) end
 
----@protected
 ---@return nil
-function gameLootContainerBase:ResolveQualityRangeInteractionLayer() return end
+function gameLootContainerBase:ResolveQualityRangeInteractionLayer() end
 
 ---@return Bool
-function gameLootContainerBase:ShouldHideLockedUI() return end
+function gameLootContainerBase:ShouldHideLockedUI() end
 
----@protected
 ---@return Bool
-function gameLootContainerBase:ShouldRegisterToHUD() return end
+function gameLootContainerBase:ShouldRegisterToHUD() end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function gameLootContainerBase:ToggleLootHighlight(enable) return end
+function gameLootContainerBase:ToggleLootHighlight(enable) end

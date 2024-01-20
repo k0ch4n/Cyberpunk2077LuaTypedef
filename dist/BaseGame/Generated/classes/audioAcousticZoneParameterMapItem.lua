@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioAcousticZoneParameterMapItem: audioAudioMetadata
----@field public param CName
----@field public value Float
----@field public enterCurveTime Float
----@field public exitCurveTime Float
+---@field param CName
+---@field value Float
+---@field enterCurveTime Float
+---@field exitCurveTime Float
 audioAcousticZoneParameterMapItem = {}
 
 ---@param fields? audioAcousticZoneParameterMapItem
 ---@return audioAcousticZoneParameterMapItem
-function audioAcousticZoneParameterMapItem.new(fields) return end
+function audioAcousticZoneParameterMapItem.new(fields) end

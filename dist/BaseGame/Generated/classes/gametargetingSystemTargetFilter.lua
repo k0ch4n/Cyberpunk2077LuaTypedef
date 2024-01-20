@@ -4,7 +4,7 @@
 gametargetingSystemTargetFilter = {}
 
 ---@return entIComponent
-function gametargetingSystemTargetFilter:GetHitComponent() return end
+function gametargetingSystemTargetFilter:GetHitComponent() end
 
 ---@return entEntityID
-function gametargetingSystemTargetFilter:GetHitEntityID() return end
+function gametargetingSystemTargetFilter:GetHitEntityID() end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameCrowdPhaseTimePeriod: communityTimePeriod
----@field public mergeMode gameCrowdCreationDataMergeMode
----@field public density Float
----@field public Density CName
----@field public workspotsUsage Float
----@field public charactersData gameCrowdTemplateCharacterData[]
----@field public reducedCharactersData gameCrowdTemplateCharacterData[]
----@field public crowdType gameCrowdEntryType
----@field public useDensityPreset Bool
+---@field mergeMode gameCrowdCreationDataMergeMode
+---@field density Float
+---@field Density CName
+---@field workspotsUsage Float
+---@field charactersData gameCrowdTemplateCharacterData[]
+---@field reducedCharactersData gameCrowdTemplateCharacterData[]
+---@field crowdType gameCrowdEntryType
+---@field useDensityPreset Bool
 gameCrowdPhaseTimePeriod = {}
 
 ---@param fields? gameCrowdPhaseTimePeriod
 ---@return gameCrowdPhaseTimePeriod
-function gameCrowdPhaseTimePeriod.new(fields) return end
+function gameCrowdPhaseTimePeriod.new(fields) end

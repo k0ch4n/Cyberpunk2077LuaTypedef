@@ -1,42 +1,35 @@
 ---@meta
 
 ---@class DestructibleRoadSign: BaseDestructibleDevice
----@field protected frameMesh entMeshComponent
----@field protected uiMesh entMeshComponent
----@field protected uiMesh_2 entMeshComponent
+---@field frameMesh entMeshComponent
+---@field uiMesh entMeshComponent
+---@field uiMesh_2 entMeshComponent
 DestructibleRoadSign = {}
 
 ---@param fields? DestructibleRoadSign
 ---@return DestructibleRoadSign
-function DestructibleRoadSign.new(fields) return end
+function DestructibleRoadSign.new(fields) end
 
----@protected
 ---@param evt entPhysicalDestructionEvent
 ---@return Bool
-function DestructibleRoadSign:OnPhysicalDestructionEvent(evt) return end
+function DestructibleRoadSign:OnPhysicalDestructionEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DestructibleRoadSign:OnRequestComponents(ri) return end
+function DestructibleRoadSign:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DestructibleRoadSign:OnTakeControl(ri) return end
+function DestructibleRoadSign:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function DestructibleRoadSign:ActivateDevice() return end
+function DestructibleRoadSign:ActivateDevice() end
 
----@protected
 ---@return nil
-function DestructibleRoadSign:CreateDestructionEffects() return end
+function DestructibleRoadSign:CreateDestructionEffects() end
 
----@protected
 ---@return nil
-function DestructibleRoadSign:DeactivateDevice() return end
+function DestructibleRoadSign:DeactivateDevice() end
 
----@protected
 ---@return nil
-function DestructibleRoadSign:DeactivateDeviceSilent() return end
+function DestructibleRoadSign:DeactivateDeviceSilent() end

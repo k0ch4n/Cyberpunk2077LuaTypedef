@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class customGameNotificationDataSet: inkGameNotificationData
----@field public customText CName
----@field public testBool Bool
+---@field customText CName
+---@field testBool Bool
 customGameNotificationDataSet = {}
 
 ---@param fields? customGameNotificationDataSet
 ---@return customGameNotificationDataSet
-function customGameNotificationDataSet.new(fields) return end
+function customGameNotificationDataSet.new(fields) end

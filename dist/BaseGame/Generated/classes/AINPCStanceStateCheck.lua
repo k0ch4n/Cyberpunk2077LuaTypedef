@@ -1,19 +1,16 @@
 ---@meta
 
 ---@class AINPCStanceStateCheck: AINPCStateCheck
----@field public blackboard gameIBlackboard
+---@field blackboard gameIBlackboard
 AINPCStanceStateCheck = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AINPCStanceStateCheck:Activate(context) return end
+function AINPCStanceStateCheck:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AINPCStanceStateCheck:Check(context) return end
+function AINPCStanceStateCheck:Check(context) end
 
----@private
 ---@return gamedataNPCStanceState
-function AINPCStanceStateCheck:GetStateToCheck() return end
+function AINPCStanceStateCheck:GetStateToCheck() end

@@ -5,4 +5,4 @@ vehicleTeleportEvent = {}
 
 ---@param fields? vehicleTeleportEvent
 ---@return vehicleTeleportEvent
-function vehicleTeleportEvent.new(fields) return end
+function vehicleTeleportEvent.new(fields) end

@@ -5,4 +5,4 @@ OnHold = {}
 
 ---@param fields? OnHold
 ---@return OnHold
-function OnHold.new(fields) return end
+function OnHold.new(fields) end

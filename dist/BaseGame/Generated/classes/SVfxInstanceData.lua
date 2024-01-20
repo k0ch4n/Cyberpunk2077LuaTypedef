@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SVfxInstanceData
----@field public fx gameFxInstance
----@field public id CName
+---@field fx gameFxInstance
+---@field id CName
 SVfxInstanceData = {}
 
 ---@param fields? SVfxInstanceData
 ---@return SVfxInstanceData
-function SVfxInstanceData.new(fields) return end
+function SVfxInstanceData.new(fields) end

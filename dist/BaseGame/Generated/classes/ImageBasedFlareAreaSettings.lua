@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class ImageBasedFlareAreaSettings: IAreaSettings
----@field public treshold Float
----@field public dispersal Float
----@field public haloWidth Float
----@field public distortion Float
----@field public curve Float
----@field public tint Color[]
----@field public scale curveData
----@field public saturation curveData
+---@field treshold Float
+---@field dispersal Float
+---@field haloWidth Float
+---@field distortion Float
+---@field curve Float
+---@field tint Color[]
+---@field scale curveData
+---@field saturation curveData
 ImageBasedFlareAreaSettings = {}
 
 ---@param fields? ImageBasedFlareAreaSettings
 ---@return ImageBasedFlareAreaSettings
-function ImageBasedFlareAreaSettings.new(fields) return end
+function ImageBasedFlareAreaSettings.new(fields) end

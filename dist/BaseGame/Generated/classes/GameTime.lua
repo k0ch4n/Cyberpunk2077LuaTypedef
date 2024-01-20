@@ -1,54 +1,54 @@
 ---@meta
 
 ---@class GameTime
----@field public seconds Int32
+---@field seconds Int32
 GameTime = {}
 
 ---@param fields? GameTime
 ---@return GameTime
-function GameTime.new(fields) return end
+function GameTime.new(fields) end
 
 ---@return GameTime
-function GameTime.Day() return end
+function GameTime.Day() end
 
 ---@param self GameTime
 ---@return Int32
-function GameTime.Days(self) return end
+function GameTime.Days(self) end
 
 ---@param self GameTime
 ---@return Int32
-function GameTime.GetSeconds(self) return end
+function GameTime.GetSeconds(self) end
 
 ---@return GameTime
-function GameTime.Hour() return end
+function GameTime.Hour() end
 
 ---@param self GameTime
 ---@return Int32
-function GameTime.Hours(self) return end
+function GameTime.Hours(self) end
 
 ---@param self GameTime
 ---@param other GameTime
 ---@return Bool
-function GameTime.IsAfter(self, other) return end
+function GameTime.IsAfter(self, other) end
 
 ---@param days Int32
 ---@param hours Int32
 ---@param minutes? Int32
 ---@param seconds? Int32
 ---@return GameTime
-function GameTime.MakeGameTime(days, hours, minutes, seconds) return end
+function GameTime.MakeGameTime(days, hours, minutes, seconds) end
 
 ---@return GameTime
-function GameTime.Minute() return end
+function GameTime.Minute() end
 
 ---@param self GameTime
 ---@return Int32
-function GameTime.Minutes(self) return end
+function GameTime.Minutes(self) end
 
 ---@param self GameTime
 ---@return Int32
-function GameTime.Seconds(self) return end
+function GameTime.Seconds(self) end
 
 ---@param self GameTime
 ---@return String
-function GameTime.ToString(self) return end
+function GameTime.ToString(self) end

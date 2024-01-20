@@ -1,48 +1,43 @@
 ---@meta
 
 ---@class DialogChoiceTimerController: inkWidgetLogicController
----@field public bar inkWidgetReference
----@field public timerValue inkTextWidgetReference
----@field private progressAnimDef inkanimDefinition
----@field private timerAnimDef inkanimDefinition
----@field private ProgressAnimInterpolator inkanimScaleInterpolator
----@field private timerAnimInterpolator inkanimTransparencyInterpolator
----@field private timerAnimProxy inkanimProxy
----@field private timerBarAnimProxy inkanimProxy
----@field private AnimOptions inkanimPlaybackOptions
----@field private time Float
+---@field bar inkWidgetReference
+---@field timerValue inkTextWidgetReference
+---@field progressAnimDef inkanimDefinition
+---@field timerAnimDef inkanimDefinition
+---@field ProgressAnimInterpolator inkanimScaleInterpolator
+---@field timerAnimInterpolator inkanimTransparencyInterpolator
+---@field timerAnimProxy inkanimProxy
+---@field timerBarAnimProxy inkanimProxy
+---@field AnimOptions inkanimPlaybackOptions
+---@field time Float
 DialogChoiceTimerController = {}
 
 ---@param fields? DialogChoiceTimerController
 ---@return DialogChoiceTimerController
-function DialogChoiceTimerController.new(fields) return end
+function DialogChoiceTimerController.new(fields) end
 
----@protected
 ---@return Bool
-function DialogChoiceTimerController:OnInitialize() return end
+function DialogChoiceTimerController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function DialogChoiceTimerController:OnTimerEndLoop(proxy) return end
+function DialogChoiceTimerController:OnTimerEndLoop(proxy) end
 
----@protected
 ---@return Bool
-function DialogChoiceTimerController:OnUninitialize() return end
+function DialogChoiceTimerController:OnUninitialize() end
 
 ---@param isMenuVisible Bool
 ---@return nil
-function DialogChoiceTimerController:OnMenuVisibilityChange(isMenuVisible) return end
+function DialogChoiceTimerController:OnMenuVisibilityChange(isMenuVisible) end
 
----@private
 ---@return nil
-function DialogChoiceTimerController:SetTime() return end
+function DialogChoiceTimerController:SetTime() end
 
----@private
 ---@return nil
-function DialogChoiceTimerController:SetupAnimation() return end
+function DialogChoiceTimerController:SetupAnimation() end
 
 ---@param timeDuration Float
 ---@param timedProgress Float
 ---@return nil
-function DialogChoiceTimerController:StartProgressBarAnim(timeDuration, timedProgress) return end
+function DialogChoiceTimerController:StartProgressBarAnim(timeDuration, timedProgress) end

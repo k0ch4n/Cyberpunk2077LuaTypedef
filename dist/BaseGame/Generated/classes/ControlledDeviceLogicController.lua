@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class ControlledDeviceLogicController: inkWidgetLogicController
----@field private deviceIcon inkImageWidget
----@field private nestIcon inkImageWidget
----@field private activeBg inkRectangleWidget
+---@field deviceIcon inkImageWidget
+---@field nestIcon inkImageWidget
+---@field activeBg inkRectangleWidget
 ControlledDeviceLogicController = {}
 
 ---@param fields? ControlledDeviceLogicController
 ---@return ControlledDeviceLogicController
-function ControlledDeviceLogicController.new(fields) return end
+function ControlledDeviceLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function ControlledDeviceLogicController:OnInitialize() return end
+function ControlledDeviceLogicController:OnInitialize() end
 
 ---@param gameController ControlledDevicesInkGameController
 ---@param widgetData SWidgetPackage
 ---@return nil
-function ControlledDeviceLogicController:Initialize(gameController, widgetData) return end
+function ControlledDeviceLogicController:Initialize(gameController, widgetData) end

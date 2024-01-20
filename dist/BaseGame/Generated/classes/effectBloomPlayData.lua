@@ -5,4 +5,4 @@ effectBloomPlayData = {}
 
 ---@param fields? effectBloomPlayData
 ---@return effectBloomPlayData
-function effectBloomPlayData.new(fields) return end
+function effectBloomPlayData.new(fields) end

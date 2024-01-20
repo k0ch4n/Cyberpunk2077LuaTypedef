@@ -1,39 +1,38 @@
 ---@meta
 
 ---@class GenericHitPrereqState: gamePrereqState
----@field public listener HitCallback
----@field public hitEvent gameeventsHitEvent
----@field public missEvent gameeventsMissEvent
+---@field listener HitCallback
+---@field hitEvent gameeventsHitEvent
+---@field missEvent gameeventsMissEvent
 GenericHitPrereqState = {}
 
 ---@param fields? GenericHitPrereqState
 ---@return GenericHitPrereqState
-function GenericHitPrereqState.new(fields) return end
+function GenericHitPrereqState.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function GenericHitPrereqState:Evaluate(hitEvent) return end
+function GenericHitPrereqState:Evaluate(hitEvent) end
 
 ---@return gameeventsHitEvent
-function GenericHitPrereqState:GetHitEvent() return end
+function GenericHitPrereqState:GetHitEvent() end
 
 ---@return gameeventsMissEvent
-function GenericHitPrereqState:GetMissEvent() return end
+function GenericHitPrereqState:GetMissEvent() end
 
----@protected
 ---@param obj String
 ---@param hitEvent gameeventsHitEvent
 ---@return gameObject
-function GenericHitPrereqState:GetObjectToCheck(obj, hitEvent) return end
+function GenericHitPrereqState:GetObjectToCheck(obj, hitEvent) end
 
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function GenericHitPrereqState:OnMissTriggered(missEvent) return end
+function GenericHitPrereqState:OnMissTriggered(missEvent) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function GenericHitPrereqState:SetHitEvent(hitEvent) return end
+function GenericHitPrereqState:SetHitEvent(hitEvent) end
 
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function GenericHitPrereqState:SetMissEvent(missEvent) return end
+function GenericHitPrereqState:SetMissEvent(missEvent) end

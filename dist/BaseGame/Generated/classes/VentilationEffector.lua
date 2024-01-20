@@ -1,47 +1,40 @@
 ---@meta
 
 ---@class VentilationEffector: ActivatedDeviceTransfromAnim
----@field protected effectComponent entIPlacedComponent
+---@field effectComponent entIPlacedComponent
 VentilationEffector = {}
 
 ---@param fields? VentilationEffector
 ---@return VentilationEffector
-function VentilationEffector.new(fields) return end
+function VentilationEffector.new(fields) end
 
----@protected
 ---@return Bool
-function VentilationEffector:OnGameAttached() return end
+function VentilationEffector:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function VentilationEffector:OnRequestComponents(ri) return end
+function VentilationEffector:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function VentilationEffector:OnTakeControl(ri) return end
+function VentilationEffector:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleEffect
 ---@return Bool
-function VentilationEffector:OnToggleEffect(evt) return end
+function VentilationEffector:OnToggleEffect(evt) end
 
 ---@return EGameplayRole
-function VentilationEffector:DeterminGameplayRole() return end
+function VentilationEffector:DeterminGameplayRole() end
 
----@protected
 ---@return VentilationEffectorController
-function VentilationEffector:GetController() return end
+function VentilationEffector:GetController() end
 
 ---@return VentilationEffectorControllerPS
-function VentilationEffector:GetDevicePS() return end
+function VentilationEffector:GetDevicePS() end
 
----@protected
 ---@return nil
-function VentilationEffector:PushPersistentData() return end
+function VentilationEffector:PushPersistentData() end
 
----@protected
 ---@param state Bool
 ---@return nil
-function VentilationEffector:SetEffects(state) return end
+function VentilationEffector:SetEffects(state) end

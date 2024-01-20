@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ResponseEvent: redEvent
----@field public responseData IScriptable
+---@field responseData IScriptable
 ResponseEvent = {}
 
 ---@param fields? ResponseEvent
 ---@return ResponseEvent
-function ResponseEvent.new(fields) return end
+function ResponseEvent.new(fields) end

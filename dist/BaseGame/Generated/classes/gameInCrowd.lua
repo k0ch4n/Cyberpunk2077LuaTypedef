@@ -5,4 +5,4 @@ gameInCrowd = {}
 
 ---@param fields? gameInCrowd
 ---@return gameInCrowd
-function gameInCrowd.new(fields) return end
+function gameInCrowd.new(fields) end

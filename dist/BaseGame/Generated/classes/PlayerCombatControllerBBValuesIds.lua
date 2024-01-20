@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerCombatControllerBBValuesIds
----@field public crouchActive gamebbScriptID_Int32
+---@field crouchActive gamebbScriptID_Int32
 PlayerCombatControllerBBValuesIds = {}
 
 ---@param fields? PlayerCombatControllerBBValuesIds
 ---@return PlayerCombatControllerBBValuesIds
-function PlayerCombatControllerBBValuesIds.new(fields) return end
+function PlayerCombatControllerBBValuesIds.new(fields) end

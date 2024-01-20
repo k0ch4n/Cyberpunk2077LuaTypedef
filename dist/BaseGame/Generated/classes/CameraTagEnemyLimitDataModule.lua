@@ -1,40 +1,38 @@
 ---@meta
 
 ---@class CameraTagEnemyLimitDataModule: GameSessionDataModule
----@field public cameraLimit Int32
----@field public cameraList SurveillanceCamera[]
+---@field cameraLimit Int32
+---@field cameraList SurveillanceCamera[]
 CameraTagEnemyLimitDataModule = {}
 
 ---@param fields? CameraTagEnemyLimitDataModule
 ---@return CameraTagEnemyLimitDataModule
-function CameraTagEnemyLimitDataModule.new(fields) return end
+function CameraTagEnemyLimitDataModule.new(fields) end
 
 ---@param data Variant
 ---@return nil
-function CameraTagEnemyLimitDataModule:AddEntry(data) return end
-
----@param data Variant
----@return Bool
-function CameraTagEnemyLimitDataModule:CheckData(data) return end
-
----@private
----@return nil
-function CameraTagEnemyLimitDataModule:CleanupNulls() return end
-
----@return nil
-function CameraTagEnemyLimitDataModule:Initialize() return end
+function CameraTagEnemyLimitDataModule:AddEntry(data) end
 
 ---@param data Variant
 ---@return Bool
-function CameraTagEnemyLimitDataModule:IsDataValid(data) return end
+function CameraTagEnemyLimitDataModule:CheckData(data) end
 
 ---@return nil
-function CameraTagEnemyLimitDataModule:RefreshDebug() return end
+function CameraTagEnemyLimitDataModule:CleanupNulls() end
 
----@private
+---@return nil
+function CameraTagEnemyLimitDataModule:Initialize() end
+
+---@param data Variant
+---@return Bool
+function CameraTagEnemyLimitDataModule:IsDataValid(data) end
+
+---@return nil
+function CameraTagEnemyLimitDataModule:RefreshDebug() end
+
 ---@param index Int32
 ---@return nil
-function CameraTagEnemyLimitDataModule:SendCameraTagLockEvent(index) return end
+function CameraTagEnemyLimitDataModule:SendCameraTagLockEvent(index) end
 
 ---@return nil
-function CameraTagEnemyLimitDataModule:Uninitialize() return end
+function CameraTagEnemyLimitDataModule:Uninitialize() end

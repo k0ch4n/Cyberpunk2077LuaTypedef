@@ -1,63 +1,58 @@
 ---@meta
 
 ---@class HubMenuLabelController: inkWidgetLogicController
----@field protected container inkCompoundWidgetReference
----@field protected wrapper inkWidget
----@field protected wrapperNext inkWidget
----@field protected wrapperController HubMenuLabelContentContainer
----@field protected wrapperNextController HubMenuLabelContentContainer
----@field public data MenuData
----@field protected watchForSize Bool
----@field protected watchForInstatnSize Bool
----@field protected once Bool
----@field protected direction Int32
----@field protected isRadialVariant Bool
+---@field container inkCompoundWidgetReference
+---@field wrapper inkWidget
+---@field wrapperNext inkWidget
+---@field wrapperController HubMenuLabelContentContainer
+---@field wrapperNextController HubMenuLabelContentContainer
+---@field data MenuData
+---@field watchForSize Bool
+---@field watchForInstatnSize Bool
+---@field once Bool
+---@field direction Int32
+---@field isRadialVariant Bool
 HubMenuLabelController = {}
 
 ---@param fields? HubMenuLabelController
 ---@return HubMenuLabelController
-function HubMenuLabelController.new(fields) return end
+function HubMenuLabelController.new(fields) end
 
----@protected
 ---@return Bool
-function HubMenuLabelController:OnArrangeChildrenComplete() return end
+function HubMenuLabelController:OnArrangeChildrenComplete() end
 
----@protected
 ---@return Bool
-function HubMenuLabelController:OnInitialize() return end
+function HubMenuLabelController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function HubMenuLabelController:OnSwipeCompleted(anim) return end
+function HubMenuLabelController:OnSwipeCompleted(anim) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param width Float
 ---@return inkanimDefinition
-function HubMenuLabelController:ResizeAnimation(targetWidget, width) return end
+function HubMenuLabelController:ResizeAnimation(targetWidget, width) end
 
 ---@param active Bool
 ---@return nil
-function HubMenuLabelController:SetActive(active) return end
+function HubMenuLabelController:SetActive(active) end
 
 ---@param data MenuData
 ---@param isRadialVariant Bool
 ---@return nil
-function HubMenuLabelController:SetData(data, isRadialVariant) return end
+function HubMenuLabelController:SetData(data, isRadialVariant) end
 
 ---@param data MenuData
 ---@return nil
-function HubMenuLabelController:SetData(data) return end
+function HubMenuLabelController:SetData(data) end
 
 ---@param data MenuData
 ---@param direction Int32
 ---@return nil
-function HubMenuLabelController:SetTargetData(data, direction) return end
+function HubMenuLabelController:SetTargetData(data, direction) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param startTranslation Float
 ---@param endTranslation Float
 ---@return inkanimDefinition
-function HubMenuLabelController:SwipeAnimation(targetWidget, startTranslation, endTranslation) return end
+function HubMenuLabelController:SwipeAnimation(targetWidget, startTranslation, endTranslation) end

@@ -5,4 +5,4 @@ worldPhysicalFractureFieldNodeInstance = {}
 
 ---@param fields? worldPhysicalFractureFieldNodeInstance
 ---@return worldPhysicalFractureFieldNodeInstance
-function worldPhysicalFractureFieldNodeInstance.new(fields) return end
+function worldPhysicalFractureFieldNodeInstance.new(fields) end

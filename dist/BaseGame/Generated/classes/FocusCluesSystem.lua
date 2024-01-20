@@ -1,130 +1,112 @@
 ---@meta
 
 ---@class FocusCluesSystem: gameScriptableSystem
----@field private linkedClues LinkedFocusClueData[]
----@field private disabledGroupes CName[]
----@field private activeLinkedClue LinkedFocusClueData
+---@field linkedClues LinkedFocusClueData[]
+---@field disabledGroupes CName[]
+---@field activeLinkedClue LinkedFocusClueData
 FocusCluesSystem = {}
 
 ---@param fields? FocusCluesSystem
 ---@return FocusCluesSystem
-function FocusCluesSystem.new(fields) return end
+function FocusCluesSystem.new(fields) end
 
----@private
 ---@param clue LinkedFocusClueData
 ---@return nil
-function FocusCluesSystem:AddLinkedClue(clue) return end
+function FocusCluesSystem:AddLinkedClue(clue) end
 
----@private
 ---@param groupID CName|string
 ---@return nil
-function FocusCluesSystem:DisableGroup(groupID) return end
+function FocusCluesSystem:DisableGroup(groupID) end
 
----@private
 ---@param groupID CName|string
 ---@return nil
-function FocusCluesSystem:EnableGroup(groupID) return end
+function FocusCluesSystem:EnableGroup(groupID) end
 
 ---@return LinkedFocusClueData
-function FocusCluesSystem:GetActiveLinkedClue() return end
+function FocusCluesSystem:GetActiveLinkedClue() end
 
 ---@return gameScanningTooltipElementDef[]
-function FocusCluesSystem:GetActiveLinkedClueScannableData() return end
+function FocusCluesSystem:GetActiveLinkedClueScannableData() end
 
 ---@param groupID CName|string
 ---@param clue FocusClueDefinition
 ---@return Bool
-function FocusCluesSystem:GetClueGroupData(groupID, clue) return end
+function FocusCluesSystem:GetClueGroupData(groupID, clue) end
 
----@private
 ---@param groupID CName|string
 ---@param clue LinkedFocusClueData
 ---@return Bool
-function FocusCluesSystem:GetLinkedClueGroupData(groupID, clue) return end
+function FocusCluesSystem:GetLinkedClueGroupData(groupID, clue) end
 
----@private
 ---@param clue LinkedFocusClueData
 ---@return Bool
-function FocusCluesSystem:HasLinkedClue(clue) return end
+function FocusCluesSystem:HasLinkedClue(clue) end
 
 ---@param groupID CName|string
 ---@return Bool
-function FocusCluesSystem:IsGroupDisabled(groupID) return end
+function FocusCluesSystem:IsGroupDisabled(groupID) end
 
----@private
 ---@param clue LinkedFocusClueData
 ---@return Bool
-function FocusCluesSystem:IsGroupTagged(clue) return end
+function FocusCluesSystem:IsGroupTagged(clue) end
 
 ---@param ownerID entEntityID
 ---@return Bool, CName groupID
-function FocusCluesSystem:IsGroupped(ownerID) return end
+function FocusCluesSystem:IsGroupped(ownerID) end
 
 ---@param ownerID entEntityID
 ---@param groupID CName|string
 ---@return Bool
-function FocusCluesSystem:IsRegistered(ownerID, groupID) return end
+function FocusCluesSystem:IsRegistered(ownerID, groupID) end
 
----@private
 ---@param owner gameObject
 ---@return Bool
-function FocusCluesSystem:IsTagged(owner) return end
+function FocusCluesSystem:IsTagged(owner) end
 
----@private
 ---@param request RegisterLinkedCluekRequest
 ---@return nil
-function FocusCluesSystem:OnRegisterLinkedClueRequest(request) return end
+function FocusCluesSystem:OnRegisterLinkedClueRequest(request) end
 
----@private
 ---@param request TagLinkedCluekRequest
 ---@return nil
-function FocusCluesSystem:OnTagLinkedClueRequest(request) return end
+function FocusCluesSystem:OnTagLinkedClueRequest(request) end
 
----@private
 ---@param request UnregisterLinkedCluekRequest
 ---@return nil
-function FocusCluesSystem:OnUnregisterLinkedClueRequest(request) return end
+function FocusCluesSystem:OnUnregisterLinkedClueRequest(request) end
 
----@private
 ---@param request UpdateLinkedClueskRequest
 ---@return nil
-function FocusCluesSystem:OnUpdateLinkedCluesRequest(request) return end
+function FocusCluesSystem:OnUpdateLinkedCluesRequest(request) end
 
----@private
 ---@param clue LinkedFocusClueData
 ---@return nil
-function FocusCluesSystem:RemoveLinkedClue(clue) return end
+function FocusCluesSystem:RemoveLinkedClue(clue) end
 
----@private
 ---@param clueID Int32
 ---@return nil
-function FocusCluesSystem:RemoveLinkedClueByIndex(clueID) return end
+function FocusCluesSystem:RemoveLinkedClueByIndex(clueID) end
 
----@private
 ---@param clue LinkedFocusClueData
 ---@param tag Bool
 ---@return nil
-function FocusCluesSystem:ResolveLinkedCluesTagging(clue, tag) return end
+function FocusCluesSystem:ResolveLinkedCluesTagging(clue, tag) end
 
----@private
 ---@param linkedClue LinkedFocusClueData
 ---@param requester entEntityID
 ---@param tag Bool
 ---@return nil
-function FocusCluesSystem:SendlinkedClueTagEvent(linkedClue, requester, tag) return end
+function FocusCluesSystem:SendlinkedClueTagEvent(linkedClue, requester, tag) end
 
----@private
 ---@param linkedClue LinkedFocusClueData
 ---@param requester entEntityID
 ---@return nil
-function FocusCluesSystem:SendlinkedClueUpdateEvent(linkedClue, requester) return end
+function FocusCluesSystem:SendlinkedClueUpdateEvent(linkedClue, requester) end
 
----@private
 ---@param clue LinkedFocusClueData
 ---@return nil
-function FocusCluesSystem:UpdateLinkedClues(clue) return end
+function FocusCluesSystem:UpdateLinkedClues(clue) end
 
----@private
 ---@param clue LinkedFocusClueData
 ---@return nil
-function FocusCluesSystem:UpdateSingleLinkedClue(clue) return end
+function FocusCluesSystem:UpdateSingleLinkedClue(clue) end

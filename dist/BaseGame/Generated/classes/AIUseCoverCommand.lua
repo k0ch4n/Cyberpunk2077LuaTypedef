@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIUseCoverCommand: AICombatRelatedCommand
----@field public coverNodeRef NodeRef
----@field public oneTimeSelection Bool
----@field public forcedEntryAnimation CName
----@field public exposureMethods AICoverExposureMethod[]
----@field public limitToTheseExposureMethods CoverCommandParams
+---@field coverNodeRef NodeRef
+---@field oneTimeSelection Bool
+---@field forcedEntryAnimation CName
+---@field exposureMethods AICoverExposureMethod[]
+---@field limitToTheseExposureMethods CoverCommandParams
 AIUseCoverCommand = {}
 
 ---@param fields? AIUseCoverCommand
 ---@return AIUseCoverCommand
-function AIUseCoverCommand.new(fields) return end
+function AIUseCoverCommand.new(fields) end

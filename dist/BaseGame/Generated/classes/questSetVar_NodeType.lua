@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questSetVar_NodeType: questIFactsDBManagerNodeType
----@field public factName String
----@field public value Int32
----@field public setExactValue Bool
+---@field factName String
+---@field value Int32
+---@field setExactValue Bool
 questSetVar_NodeType = {}
 
 ---@param fields? questSetVar_NodeType
 ---@return questSetVar_NodeType
-function questSetVar_NodeType.new(fields) return end
+function questSetVar_NodeType.new(fields) end

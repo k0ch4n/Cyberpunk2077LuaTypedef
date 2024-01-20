@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ActionUploadListener: gameCustomValueStatPoolsListener
----@field public action ScriptableDeviceAction
----@field public gameInstance ScriptGameInstance
+---@field action ScriptableDeviceAction
+---@field gameInstance ScriptGameInstance
 ActionUploadListener = {}
 
 ---@param fields? ActionUploadListener
 ---@return ActionUploadListener
-function ActionUploadListener.new(fields) return end
+function ActionUploadListener.new(fields) end

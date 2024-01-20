@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class ReactiveEventSender: AISignalSenderTask
----@field public behaviorArgumentNameTag CName
----@field public behaviorArgumentFloatPriority CName
----@field public behaviorArgumentNameFlag CName
----@field public reactiveType CName
+---@field behaviorArgumentNameTag CName
+---@field behaviorArgumentFloatPriority CName
+---@field behaviorArgumentNameFlag CName
+---@field reactiveType CName
 ReactiveEventSender = {}
 
 ---@param fields? ReactiveEventSender
 ---@return ReactiveEventSender
-function ReactiveEventSender.new(fields) return end
+function ReactiveEventSender.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReactiveEventSender:Activate(context) return end
+function ReactiveEventSender:Activate(context) end
 
----@private
 ---@param FlagName CName|string
 ---@return EAIGateSignalFlags
-function ReactiveEventSender:GateSignalFlagsNameToEnum(FlagName) return end
+function ReactiveEventSender:GateSignalFlagsNameToEnum(FlagName) end
 
 ---@return Float
-function ReactiveEventSender:GetSignalLifeTime() return end
+function ReactiveEventSender:GetSignalLifeTime() end

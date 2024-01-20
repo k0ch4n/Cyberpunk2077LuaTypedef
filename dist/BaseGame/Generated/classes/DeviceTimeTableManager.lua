@@ -1,37 +1,35 @@
 ---@meta
 
 ---@class DeviceTimeTableManager: IScriptable
----@field protected timeTable SDeviceTimetableEntry[]
+---@field timeTable SDeviceTimetableEntry[]
 DeviceTimeTableManager = {}
 
 ---@param fields? DeviceTimeTableManager
 ---@return DeviceTimeTableManager
-function DeviceTimeTableManager.new(fields) return end
+function DeviceTimeTableManager.new(fields) end
 
 ---@return Int32
-function DeviceTimeTableManager:GetACtiveEntryID() return end
+function DeviceTimeTableManager:GetACtiveEntryID() end
 
----@private
 ---@return GameTime
-function DeviceTimeTableManager:GetCurrentTime() return end
+function DeviceTimeTableManager:GetCurrentTime() end
 
 ---@return EDeviceStatus
-function DeviceTimeTableManager:GetDeviceStateForActiveEntry() return end
+function DeviceTimeTableManager:GetDeviceStateForActiveEntry() end
 
 ---@return SDeviceTimetableEntry[]
-function DeviceTimeTableManager:GetTimeTable() return end
+function DeviceTimeTableManager:GetTimeTable() end
 
 ---@param owner gameObject
 ---@return nil
-function DeviceTimeTableManager:InitializeTimetable(owner) return end
+function DeviceTimeTableManager:InitializeTimetable(owner) end
 
----@private
 ---@param entryID Int32
 ---@return Bool
-function DeviceTimeTableManager:IsEntryActive(entryID) return end
+function DeviceTimeTableManager:IsEntryActive(entryID) end
 
 ---@return Bool
-function DeviceTimeTableManager:IsValid() return end
+function DeviceTimeTableManager:IsValid() end
 
 ---@return nil
-function DeviceTimeTableManager:UninitializeTimetable() return end
+function DeviceTimeTableManager:UninitializeTimetable() end

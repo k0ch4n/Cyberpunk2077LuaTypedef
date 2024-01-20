@@ -5,4 +5,4 @@ tempshitJournalEntryNodeType = {}
 
 ---@param fields? tempshitJournalEntryNodeType
 ---@return tempshitJournalEntryNodeType
-function tempshitJournalEntryNodeType.new(fields) return end
+function tempshitJournalEntryNodeType.new(fields) end

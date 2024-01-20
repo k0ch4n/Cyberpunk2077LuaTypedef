@@ -5,16 +5,16 @@ WorldFunctionalTests = {}
 
 ---@param fields? WorldFunctionalTests
 ---@return WorldFunctionalTests
-function WorldFunctionalTests.new(fields) return end
+function WorldFunctionalTests.new(fields) end
 
 ---@return nil
-function WorldFunctionalTests:DespawnEntity() return end
+function WorldFunctionalTests:DespawnEntity() end
 
 ---@return nil
-function WorldFunctionalTests:GetCurrentLightColor() return end
+function WorldFunctionalTests:GetCurrentLightColor() end
 
 ---@return nil
-function WorldFunctionalTests:SpawnEntity() return end
+function WorldFunctionalTests:SpawnEntity() end
 
 ---@return nil
-function WorldFunctionalTests:TogglePrefabVariant() return end
+function WorldFunctionalTests:TogglePrefabVariant() end

@@ -5,16 +5,14 @@ DisposeEvents = {}
 
 ---@param fields? DisposeEvents
 ---@return DisposeEvents
-function DisposeEvents.new(fields) return end
+function DisposeEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DisposeEvents:OnEnter(stateContext, scriptInterface) return end
+function DisposeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DisposeEvents:OnExit(stateContext, scriptInterface) return end
+function DisposeEvents:OnExit(stateContext, scriptInterface) end

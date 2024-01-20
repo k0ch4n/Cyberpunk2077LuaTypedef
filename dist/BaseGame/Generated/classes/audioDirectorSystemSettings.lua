@@ -1,35 +1,35 @@
 ---@meta
 
 ---@class audioDirectorSystemSettings: audioAudioMetadata
----@field public combatVoManagerSettingsName CName
----@field public singleConversationMinRepeatTime Float
----@field public allConversationsMinRepeatTime Float
----@field public maxVelocityMagnitudeToConsiderPlayerVehicleInactive Float
----@field public maxVelocityMagnitudeToConsiderTrafficVehicleIdle Float
----@field public playerInactiveMinTimeNeededToEngageMovingFaster Float
----@field public vehEngageMovingFasterInterpolation audioVehicleEngageMovingFasterInterpolationData
----@field public playerBrakeEventCooldown Float
----@field public trafficSpeedRC Float
----@field public trafficAccelerationRC Float
----@field public trafficRpmRC Float
----@field public trafficSlipRatioSkidThreshold Float
----@field public trafficHornSingleVehicleCooldown Float
----@field public trafficHornAllVehiclesCooldown Float
----@field public trafficHornMaxDistanceRangeToPlayer Float
----@field public overHeadVisibilityMaxOcclusion Float
----@field public overHeadVisibilityMaxObstruction Float
----@field public conversationMixCooldown Float
----@field public enemyPingCooldown Float
----@field public idleTimeBeforeAllowingOwMusicChange Float
----@field public drivingStreamingAmbientEmittersDistanceRolloff Float
----@field public lowHealthStateMaxTime Float
----@field public lowGearMaxTrafficSpeed Float
----@field public lowGearAccelerationThreshold Float
----@field public mediumGearMaxTrafficSpeed Float
----@field public mediumGearAccelerationThreshold Float
----@field public highGearAccelerationThreshold Float
+---@field combatVoManagerSettingsName CName
+---@field singleConversationMinRepeatTime Float
+---@field allConversationsMinRepeatTime Float
+---@field maxVelocityMagnitudeToConsiderPlayerVehicleInactive Float
+---@field maxVelocityMagnitudeToConsiderTrafficVehicleIdle Float
+---@field playerInactiveMinTimeNeededToEngageMovingFaster Float
+---@field vehEngageMovingFasterInterpolation audioVehicleEngageMovingFasterInterpolationData
+---@field playerBrakeEventCooldown Float
+---@field trafficSpeedRC Float
+---@field trafficAccelerationRC Float
+---@field trafficRpmRC Float
+---@field trafficSlipRatioSkidThreshold Float
+---@field trafficHornSingleVehicleCooldown Float
+---@field trafficHornAllVehiclesCooldown Float
+---@field trafficHornMaxDistanceRangeToPlayer Float
+---@field overHeadVisibilityMaxOcclusion Float
+---@field overHeadVisibilityMaxObstruction Float
+---@field conversationMixCooldown Float
+---@field enemyPingCooldown Float
+---@field idleTimeBeforeAllowingOwMusicChange Float
+---@field drivingStreamingAmbientEmittersDistanceRolloff Float
+---@field lowHealthStateMaxTime Float
+---@field lowGearMaxTrafficSpeed Float
+---@field lowGearAccelerationThreshold Float
+---@field mediumGearMaxTrafficSpeed Float
+---@field mediumGearAccelerationThreshold Float
+---@field highGearAccelerationThreshold Float
 audioDirectorSystemSettings = {}
 
 ---@param fields? audioDirectorSystemSettings
 ---@return audioDirectorSystemSettings
-function audioDirectorSystemSettings.new(fields) return end
+function audioDirectorSystemSettings.new(fields) end

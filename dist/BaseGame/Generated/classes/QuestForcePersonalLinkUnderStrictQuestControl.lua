@@ -5,7 +5,7 @@ QuestForcePersonalLinkUnderStrictQuestControl = {}
 
 ---@param fields? QuestForcePersonalLinkUnderStrictQuestControl
 ---@return QuestForcePersonalLinkUnderStrictQuestControl
-function QuestForcePersonalLinkUnderStrictQuestControl.new(fields) return end
+function QuestForcePersonalLinkUnderStrictQuestControl.new(fields) end
 
 ---@return nil
-function QuestForcePersonalLinkUnderStrictQuestControl:SetProperties() return end
+function QuestForcePersonalLinkUnderStrictQuestControl:SetProperties() end

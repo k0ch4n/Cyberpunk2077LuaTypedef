@@ -5,4 +5,4 @@ inkScreenProjectionCallback = {}
 
 ---@param fields? inkScreenProjectionCallback
 ---@return inkScreenProjectionCallback
-function inkScreenProjectionCallback.new(fields) return end
+function inkScreenProjectionCallback.new(fields) end

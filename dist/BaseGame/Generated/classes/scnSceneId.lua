@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnSceneId
----@field public resPathHash Uint64
+---@field resPathHash Uint64
 scnSceneId = {}
 
 ---@param fields? scnSceneId
 ---@return scnSceneId
-function scnSceneId.new(fields) return end
+function scnSceneId.new(fields) end

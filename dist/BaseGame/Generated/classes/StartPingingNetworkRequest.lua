@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class StartPingingNetworkRequest: gameScriptableSystemRequest
----@field public source gameObject
----@field public fxResource gameFxResource
----@field public duration Float
----@field public pingType EPingType
----@field public fakeLinkType ELinkType
----@field public revealNetworkAtEnd Bool
----@field public virtualNetworkShapeID TweakDBID
+---@field source gameObject
+---@field fxResource gameFxResource
+---@field duration Float
+---@field pingType EPingType
+---@field fakeLinkType ELinkType
+---@field revealNetworkAtEnd Bool
+---@field virtualNetworkShapeID TweakDBID
 StartPingingNetworkRequest = {}
 
 ---@param fields? StartPingingNetworkRequest
 ---@return StartPingingNetworkRequest
-function StartPingingNetworkRequest.new(fields) return end
+function StartPingingNetworkRequest.new(fields) end

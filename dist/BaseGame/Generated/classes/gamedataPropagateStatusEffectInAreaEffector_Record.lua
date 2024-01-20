@@ -5,22 +5,22 @@ gamedataPropagateStatusEffectInAreaEffector_Record = {}
 
 ---@param fields? gamedataPropagateStatusEffectInAreaEffector_Record
 ---@return gamedataPropagateStatusEffectInAreaEffector_Record
-function gamedataPropagateStatusEffectInAreaEffector_Record.new(fields) return end
+function gamedataPropagateStatusEffectInAreaEffector_Record.new(fields) end
 
 ---@return CName
-function gamedataPropagateStatusEffectInAreaEffector_Record:ApplicationTarget() return end
+function gamedataPropagateStatusEffectInAreaEffector_Record:ApplicationTarget() end
 
 ---@return Float
-function gamedataPropagateStatusEffectInAreaEffector_Record:Duration() return end
+function gamedataPropagateStatusEffectInAreaEffector_Record:Duration() end
 
 ---@return Bool
-function gamedataPropagateStatusEffectInAreaEffector_Record:PropagateToInstigator() return end
+function gamedataPropagateStatusEffectInAreaEffector_Record:PropagateToInstigator() end
 
 ---@return Float
-function gamedataPropagateStatusEffectInAreaEffector_Record:Range() return end
+function gamedataPropagateStatusEffectInAreaEffector_Record:Range() end
 
 ---@return gamedataStatusEffect_Record
-function gamedataPropagateStatusEffectInAreaEffector_Record:StatusEffect() return end
+function gamedataPropagateStatusEffectInAreaEffector_Record:StatusEffect() end
 
 ---@return gamedataStatusEffect_Record
-function gamedataPropagateStatusEffectInAreaEffector_Record:StatusEffectHandle() return end
+function gamedataPropagateStatusEffectInAreaEffector_Record:StatusEffectHandle() end

@@ -5,13 +5,13 @@ gamedataShooterNPCDrone_Record = {}
 
 ---@param fields? gamedataShooterNPCDrone_Record
 ---@return gamedataShooterNPCDrone_Record
-function gamedataShooterNPCDrone_Record.new(fields) return end
+function gamedataShooterNPCDrone_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterNPCDrone_Record:Bobbing() return end
+function gamedataShooterNPCDrone_Record:Bobbing() end
 
 ---@return Float
-function gamedataShooterNPCDrone_Record:Duration() return end
+function gamedataShooterNPCDrone_Record:Duration() end
 
 ---@return Float
-function gamedataShooterNPCDrone_Record:FireRate() return end
+function gamedataShooterNPCDrone_Record:FireRate() end

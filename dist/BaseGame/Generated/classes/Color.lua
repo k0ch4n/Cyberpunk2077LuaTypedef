@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class Color
----@field public Red Uint8
----@field public Green Uint8
----@field public Blue Uint8
----@field public Alpha Uint8
+---@field Red Uint8
+---@field Green Uint8
+---@field Blue Uint8
+---@field Alpha Uint8
 Color = {}
 
 ---@param fields? Color
 ---@return Color
-function Color.new(fields) return end
+function Color.new(fields) end
 
 ---@param color Color
 ---@return HDRColor
-function Color.ToHDRColorDirect(color) return end
+function Color.ToHDRColorDirect(color) end

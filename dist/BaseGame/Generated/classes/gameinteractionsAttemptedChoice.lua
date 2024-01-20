@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameinteractionsAttemptedChoice
----@field public choiceIdx Int32
----@field public visualizerType gameinteractionsvisEVisualizerType
----@field public isSuccess Bool
----@field public choice gameinteractionsChoice
+---@field choiceIdx Int32
+---@field visualizerType gameinteractionsvisEVisualizerType
+---@field isSuccess Bool
+---@field choice gameinteractionsChoice
 gameinteractionsAttemptedChoice = {}
 
 ---@param fields? gameinteractionsAttemptedChoice
 ---@return gameinteractionsAttemptedChoice
-function gameinteractionsAttemptedChoice.new(fields) return end
+function gameinteractionsAttemptedChoice.new(fields) end

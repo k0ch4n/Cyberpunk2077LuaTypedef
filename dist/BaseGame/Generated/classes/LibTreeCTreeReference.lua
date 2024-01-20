@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class LibTreeCTreeReference: ISerializable
----@field public TreeDefinition LibTreeCTreeResource
----@field public parameters LibTreeParameterList
+---@field TreeDefinition LibTreeCTreeResource
+---@field parameters LibTreeParameterList
 LibTreeCTreeReference = {}

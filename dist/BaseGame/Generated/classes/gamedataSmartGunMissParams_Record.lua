@@ -5,49 +5,49 @@ gamedataSmartGunMissParams_Record = {}
 
 ---@param fields? gamedataSmartGunMissParams_Record
 ---@return gamedataSmartGunMissParams_Record
-function gamedataSmartGunMissParams_Record.new(fields) return end
+function gamedataSmartGunMissParams_Record.new(fields) end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:AreaToIgnoreHalfYaw() return end
+function gamedataSmartGunMissParams_Record:AreaToIgnoreHalfYaw() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:Gravity() return end
+function gamedataSmartGunMissParams_Record:Gravity() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:MaxMissAnglePitch() return end
+function gamedataSmartGunMissParams_Record:MaxMissAnglePitch() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:MaxMissAngleYaw() return end
+function gamedataSmartGunMissParams_Record:MaxMissAngleYaw() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:MinMissAnglePitch() return end
+function gamedataSmartGunMissParams_Record:MinMissAnglePitch() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:MinMissAngleYaw() return end
+function gamedataSmartGunMissParams_Record:MinMissAngleYaw() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralCycleTimeMax() return end
+function gamedataSmartGunMissParams_Record:SpiralCycleTimeMax() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralCycleTimeMin() return end
+function gamedataSmartGunMissParams_Record:SpiralCycleTimeMin() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralRadius() return end
+function gamedataSmartGunMissParams_Record:SpiralRadius() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralRampDownDistanceEnd() return end
+function gamedataSmartGunMissParams_Record:SpiralRampDownDistanceEnd() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralRampDownDistanceStart() return end
+function gamedataSmartGunMissParams_Record:SpiralRampDownDistanceStart() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralRampDownFactor() return end
+function gamedataSmartGunMissParams_Record:SpiralRampDownFactor() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralRampUpDistanceEnd() return end
+function gamedataSmartGunMissParams_Record:SpiralRampUpDistanceEnd() end
 
 ---@return Float
-function gamedataSmartGunMissParams_Record:SpiralRampUpDistanceStart() return end
+function gamedataSmartGunMissParams_Record:SpiralRampUpDistanceStart() end
 
 ---@return Bool
-function gamedataSmartGunMissParams_Record:SpiralRandomizePhase() return end
+function gamedataSmartGunMissParams_Record:SpiralRandomizePhase() end

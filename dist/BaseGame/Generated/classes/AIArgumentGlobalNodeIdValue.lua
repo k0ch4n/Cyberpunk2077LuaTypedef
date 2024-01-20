@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentGlobalNodeIdValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue worldGlobalNodeID
+---@field type AIArgumentType
+---@field defaultValue worldGlobalNodeID
 AIArgumentGlobalNodeIdValue = {}
 
 ---@param fields? AIArgumentGlobalNodeIdValue
 ---@return AIArgumentGlobalNodeIdValue
-function AIArgumentGlobalNodeIdValue.new(fields) return end
+function AIArgumentGlobalNodeIdValue.new(fields) end

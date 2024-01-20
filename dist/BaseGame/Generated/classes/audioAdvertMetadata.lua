@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioAdvertMetadata: audioEmitterMetadata
----@field public advertSoundNames CName[]
----@field public minSilenceTime Float
----@field public maxSilenceTime Float
----@field public minDistance Float
----@field public filter audioAdvertIndoorFilter
+---@field advertSoundNames CName[]
+---@field minSilenceTime Float
+---@field maxSilenceTime Float
+---@field minDistance Float
+---@field filter audioAdvertIndoorFilter
 audioAdvertMetadata = {}
 
 ---@param fields? audioAdvertMetadata
 ---@return audioAdvertMetadata
-function audioAdvertMetadata.new(fields) return end
+function audioAdvertMetadata.new(fields) end

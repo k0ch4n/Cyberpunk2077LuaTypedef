@@ -5,4 +5,4 @@ inkCircleWidgetReference = {}
 
 ---@param fields? inkCircleWidgetReference
 ---@return inkCircleWidgetReference
-function inkCircleWidgetReference.new(fields) return end
+function inkCircleWidgetReference.new(fields) end

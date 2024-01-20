@@ -1,38 +1,34 @@
 ---@meta
 
 ---@class SetFactBasedOnClearAreaEffector: gameEffector
----@field public fact CName
----@field public factSuffixes CName[]
----@field public vectorRotations Float[]
----@field public value Int32
----@field public distance Float
----@field public width Float
----@field public fromHeight Float
----@field public height Float
+---@field fact CName
+---@field factSuffixes CName[]
+---@field vectorRotations Float[]
+---@field value Int32
+---@field distance Float
+---@field width Float
+---@field fromHeight Float
+---@field height Float
 SetFactBasedOnClearAreaEffector = {}
 
 ---@param fields? SetFactBasedOnClearAreaEffector
 ---@return SetFactBasedOnClearAreaEffector
-function SetFactBasedOnClearAreaEffector.new(fields) return end
+function SetFactBasedOnClearAreaEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function SetFactBasedOnClearAreaEffector:ActionOn(owner) return end
+function SetFactBasedOnClearAreaEffector:ActionOn(owner) end
 
----@private
 ---@param owner gameObject
 ---@param rotation Float
 ---@return Bool
-function SetFactBasedOnClearAreaEffector:HasSpaceInFront(owner, rotation) return end
+function SetFactBasedOnClearAreaEffector:HasSpaceInFront(owner, rotation) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function SetFactBasedOnClearAreaEffector:Initialize(record, parentRecord) return end
+function SetFactBasedOnClearAreaEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function SetFactBasedOnClearAreaEffector:SetFactBasedOnObjectAndPlayerRelation(owner) return end
+function SetFactBasedOnClearAreaEffector:SetFactBasedOnObjectAndPlayerRelation(owner) end

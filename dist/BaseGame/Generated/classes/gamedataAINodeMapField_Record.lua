@@ -5,19 +5,19 @@ gamedataAINodeMapField_Record = {}
 
 ---@param fields? gamedataAINodeMapField_Record
 ---@return gamedataAINodeMapField_Record
-function gamedataAINodeMapField_Record.new(fields) return end
+function gamedataAINodeMapField_Record.new(fields) end
 
 ---@return Int32
-function gamedataAINodeMapField_Record:ForLOD() return end
+function gamedataAINodeMapField_Record:ForLOD() end
 
 ---@return gamedataAIRecord_Record
-function gamedataAINodeMapField_Record:IsOverriddenBy() return end
+function gamedataAINodeMapField_Record:IsOverriddenBy() end
 
 ---@return gamedataAIRecord_Record
-function gamedataAINodeMapField_Record:IsOverriddenByHandle() return end
+function gamedataAINodeMapField_Record:IsOverriddenByHandle() end
 
 ---@return gamedataAIRecord_Record
-function gamedataAINodeMapField_Record:Node() return end
+function gamedataAINodeMapField_Record:Node() end
 
 ---@return gamedataAIRecord_Record
-function gamedataAINodeMapField_Record:NodeHandle() return end
+function gamedataAINodeMapField_Record:NodeHandle() end

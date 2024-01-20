@@ -1,52 +1,47 @@
 ---@meta
 
 ---@class TabButtonController: inkToggleController
----@field protected label inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected data Int32
----@field protected labelSet String
----@field protected iconSet String
+---@field label inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field data Int32
+---@field labelSet String
+---@field iconSet String
 TabButtonController = {}
 
 ---@param fields? TabButtonController
 ---@return TabButtonController
-function TabButtonController.new(fields) return end
+function TabButtonController.new(fields) end
 
----@protected
 ---@param e inkCallbackData
 ---@return Bool
-function TabButtonController:OnIconCallback(e) return end
+function TabButtonController:OnIconCallback(e) end
 
----@protected
 ---@return Bool
-function TabButtonController:OnInitialize() return end
+function TabButtonController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function TabButtonController:OnTabHoverOut(e) return end
+function TabButtonController:OnTabHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function TabButtonController:OnTabHoverOver(e) return end
+function TabButtonController:OnTabHoverOver(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function TabButtonController:OnTabSelected(e) return end
+function TabButtonController:OnTabSelected(e) end
 
 ---@return Int32
-function TabButtonController:GetData() return end
+function TabButtonController:GetData() end
 
 ---@return String
-function TabButtonController:GetIcon() return end
+function TabButtonController:GetIcon() end
 
 ---@return String
-function TabButtonController:GetLabelKey() return end
+function TabButtonController:GetLabelKey() end
 
 ---@param data Int32
 ---@param label? String
 ---@param icon? String
 ---@return nil
-function TabButtonController:SetToggleData(data, label, icon) return end
+function TabButtonController:SetToggleData(data, label, icon) end

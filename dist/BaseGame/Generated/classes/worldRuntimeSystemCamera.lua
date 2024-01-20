@@ -5,4 +5,4 @@ worldRuntimeSystemCamera = {}
 
 ---@param fields? worldRuntimeSystemCamera
 ---@return worldRuntimeSystemCamera
-function worldRuntimeSystemCamera.new(fields) return end
+function worldRuntimeSystemCamera.new(fields) end

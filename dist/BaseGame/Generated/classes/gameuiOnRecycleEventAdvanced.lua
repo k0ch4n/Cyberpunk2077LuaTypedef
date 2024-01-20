@@ -5,4 +5,4 @@ gameuiOnRecycleEventAdvanced = {}
 
 ---@param fields? gameuiOnRecycleEventAdvanced
 ---@return gameuiOnRecycleEventAdvanced
-function gameuiOnRecycleEventAdvanced.new(fields) return end
+function gameuiOnRecycleEventAdvanced.new(fields) end

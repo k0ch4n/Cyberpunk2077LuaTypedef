@@ -1,37 +1,34 @@
 ---@meta
 
 ---@class BloodswellEffector: gameEffector
----@field private deathListener BloodswellEffectorHealthListener
----@field private coldBloodListener BloodswellEffectorColdBloodListener
----@field private gameInstance ScriptGameInstance
----@field private owner gameObject
----@field private isImmortal Bool
+---@field deathListener BloodswellEffectorHealthListener
+---@field coldBloodListener BloodswellEffectorColdBloodListener
+---@field gameInstance ScriptGameInstance
+---@field owner gameObject
+---@field isImmortal Bool
 BloodswellEffector = {}
 
 ---@param fields? BloodswellEffector
 ---@return BloodswellEffector
-function BloodswellEffector.new(fields) return end
+function BloodswellEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function BloodswellEffector:ActionOn(owner) return end
+function BloodswellEffector:ActionOn(owner) end
 
 ---@return nil
-function BloodswellEffector:ColdBloodSpend() return end
+function BloodswellEffector:ColdBloodSpend() end
 
 ---@return nil
-function BloodswellEffector:ColdbloodAcquired() return end
+function BloodswellEffector:ColdbloodAcquired() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function BloodswellEffector:Initialize(record, parentRecord) return end
+function BloodswellEffector:Initialize(record, parentRecord) end
 
 ---@return nil
-function BloodswellEffector:OnDeath() return end
+function BloodswellEffector:OnDeath() end
 
----@protected
 ---@return nil
-function BloodswellEffector:Uninitialize() return end
+function BloodswellEffector:Uninitialize() end

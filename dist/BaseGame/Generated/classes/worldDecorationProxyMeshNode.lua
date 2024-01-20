@@ -5,4 +5,4 @@ worldDecorationProxyMeshNode = {}
 
 ---@param fields? worldDecorationProxyMeshNode
 ---@return worldDecorationProxyMeshNode
-function worldDecorationProxyMeshNode.new(fields) return end
+function worldDecorationProxyMeshNode.new(fields) end

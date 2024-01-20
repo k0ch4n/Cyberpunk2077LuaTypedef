@@ -1,43 +1,37 @@
 ---@meta
 
 ---@class RetractableAdControllerPS: BaseAnimatedDeviceControllerPS
----@field protected isControlled Bool
+---@field isControlled Bool
 RetractableAdControllerPS = {}
 
 ---@param fields? RetractableAdControllerPS
 ---@return RetractableAdControllerPS
-function RetractableAdControllerPS.new(fields) return end
+function RetractableAdControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function RetractableAdControllerPS:CanCreateAnyQuickHackActions() return end
+function RetractableAdControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function RetractableAdControllerPS:ControlledByMaster() return end
+function RetractableAdControllerPS:ControlledByMaster() end
 
----@protected
 ---@return nil
-function RetractableAdControllerPS:GameAttached() return end
+function RetractableAdControllerPS:GameAttached() end
 
----@protected
 ---@return TweakDBID
-function RetractableAdControllerPS:GetBackgroundTextureTweakDBID() return end
+function RetractableAdControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function RetractableAdControllerPS:GetDeviceIconTweakDBID() return end
+function RetractableAdControllerPS:GetDeviceIconTweakDBID() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function RetractableAdControllerPS:GetQuickHackActions(context) return end
+function RetractableAdControllerPS:GetQuickHackActions(context) end
 
 ---@return RoadBlockTrapControllerPS
-function RetractableAdControllerPS:GetTrapController() return end
+function RetractableAdControllerPS:GetTrapController() end
 
 ---@return Bool
-function RetractableAdControllerPS:IsConnected() return end
+function RetractableAdControllerPS:IsConnected() end
 
 ---@return Bool
-function RetractableAdControllerPS:IsNotConnected() return end
+function RetractableAdControllerPS:IsNotConnected() end

@@ -5,9 +5,9 @@ NotInDefeated = {}
 
 ---@param fields? NotInDefeated
 ---@return NotInDefeated
-function NotInDefeated.new(fields) return end
+function NotInDefeated.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function NotInDefeated:Process(ctx, filterCtx) return end
+function NotInDefeated:Process(ctx, filterCtx) end

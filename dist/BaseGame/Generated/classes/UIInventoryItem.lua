@@ -1,53 +1,53 @@
 ---@meta
 
 ---@class UIInventoryItem: IScriptable
----@field public ID gameItemID
----@field public Hash Uint64
----@field public DEBUG_iconErrorInfo DEBUG_IconErrorInfo
----@field private manager UIInventoryItemsManager
----@field private owner gameObject
----@field private itemData gameItemData
----@field private realItemData gameItemData
----@field private recipeItemData gameItemData
----@field private itemRecord gamedataItem_Record
----@field private realItemRecord gamedataItem_Record
----@field private itemTweakID TweakDBID
----@field private realItemTweakID TweakDBID
----@field private data UIInventoryItemInternalData
----@field private weaponData UIInventoryWeaponInternalData
----@field private programData UIInventoryItemProgramData
----@field private grenadeData UIInventoryItemGrenadeData
----@field private cyberwareUpgradeData InventoryTooltiData_CyberwareUpgradeData
----@field private parentItem gameItemData
----@field private slotID TweakDBID
----@field private fetchedFlags Int32
----@field private isQuantityDirty Bool
----@field private craftingResult gamedataCraftingResult_Record
----@field private TEMP_isEquippedPrefetched Bool
----@field public TEMP_isEquipped Bool
+---@field ID gameItemID
+---@field Hash Uint64
+---@field DEBUG_iconErrorInfo DEBUG_IconErrorInfo
+---@field manager UIInventoryItemsManager
+---@field owner gameObject
+---@field itemData gameItemData
+---@field realItemData gameItemData
+---@field recipeItemData gameItemData
+---@field itemRecord gamedataItem_Record
+---@field realItemRecord gamedataItem_Record
+---@field itemTweakID TweakDBID
+---@field realItemTweakID TweakDBID
+---@field data UIInventoryItemInternalData
+---@field weaponData UIInventoryWeaponInternalData
+---@field programData UIInventoryItemProgramData
+---@field grenadeData UIInventoryItemGrenadeData
+---@field cyberwareUpgradeData InventoryTooltiData_CyberwareUpgradeData
+---@field parentItem gameItemData
+---@field slotID TweakDBID
+---@field fetchedFlags Int32
+---@field isQuantityDirty Bool
+---@field craftingResult gamedataCraftingResult_Record
+---@field TEMP_isEquippedPrefetched Bool
+---@field TEMP_isEquipped Bool
 UIInventoryItem = {}
 
 ---@param fields? UIInventoryItem
 ---@return UIInventoryItem
-function UIInventoryItem.new(fields) return end
+function UIInventoryItem.new(fields) end
 
 ---@param owner gameObject
 ---@param itemData gameInventoryItemData
 ---@param manager? UIInventoryItemsManager
 ---@return UIInventoryItem
-function UIInventoryItem.FromInventoryItemData(owner, itemData, manager) return end
+function UIInventoryItem.FromInventoryItemData(owner, itemData, manager) end
 
 ---@param owner gameObject
 ---@param data MinimalItemTooltipData
 ---@param manager? UIInventoryItemsManager
 ---@return UIInventoryItem
-function UIInventoryItem.FromMinimalItemTooltipData(owner, data, manager) return end
+function UIInventoryItem.FromMinimalItemTooltipData(owner, data, manager) end
 
 ---@param owner gameObject
 ---@param itemData gameItemData
 ---@param manager? UIInventoryItemsManager
 ---@return UIInventoryItem
-function UIInventoryItem.Make(owner, itemData, manager) return end
+function UIInventoryItem.Make(owner, itemData, manager) end
 
 ---@param owner gameObject
 ---@param itemData gameItemData
@@ -55,270 +55,267 @@ function UIInventoryItem.Make(owner, itemData, manager) return end
 ---@param itemRecord gamedataItem_Record
 ---@param manager? UIInventoryItemsManager
 ---@return UIInventoryItem
-function UIInventoryItem.Make(owner, itemData, itemTweakID, itemRecord, manager) return end
+function UIInventoryItem.Make(owner, itemData, itemTweakID, itemRecord, manager) end
 
----@private
 ---@return nil
-function UIInventoryItem:FetchDamageData() return end
+function UIInventoryItem:FetchDamageData() end
 
----@private
 ---@return nil
-function UIInventoryItem:FetchImmediate() return end
+function UIInventoryItem:FetchImmediate() end
 
----@private
 ---@param weaponType WeaponType
 ---@return nil
-function UIInventoryItem:FetchWeaponImmediate(weaponType) return end
+function UIInventoryItem:FetchWeaponImmediate(weaponType) end
 
 ---@param update? Bool
 ---@return Int32
-function UIInventoryItem:GetAmmo(update) return end
+function UIInventoryItem:GetAmmo(update) end
 
 ---@return Float
-function UIInventoryItem:GetAttackSpeed() return end
+function UIInventoryItem:GetAttackSpeed() end
 
 ---@return Float
-function UIInventoryItem:GetBuyPrice() return end
+function UIInventoryItem:GetBuyPrice() end
 
 ---@return Float
-function UIInventoryItem:GetComparisonQualityF() return end
+function UIInventoryItem:GetComparisonQualityF() end
 
 ---@param player gameObject
 ---@param force? Bool
 ---@return InventoryTooltiData_CyberwareUpgradeData
-function UIInventoryItem:GetCyberwareUpgradeData(player, force) return end
+function UIInventoryItem:GetCyberwareUpgradeData(player, force) end
 
 ---@return Float
-function UIInventoryItem:GetDamageMax() return end
+function UIInventoryItem:GetDamageMax() end
 
 ---@return Float
-function UIInventoryItem:GetDamageMin() return end
+function UIInventoryItem:GetDamageMin() end
 
 ---@return String
-function UIInventoryItem:GetDescription() return end
+function UIInventoryItem:GetDescription() end
 
 ---@return gamedataEquipmentArea
-function UIInventoryItem:GetEquipmentArea() return end
+function UIInventoryItem:GetEquipmentArea() end
 
 ---@return ItemFilterCategory
-function UIInventoryItem:GetFilterCategory() return end
+function UIInventoryItem:GetFilterCategory() end
 
 ---@return String
-function UIInventoryItem:GetGameplayDescription() return end
+function UIInventoryItem:GetGameplayDescription() end
 
 ---@param player PlayerPuppet
 ---@param force Bool
 ---@return UIInventoryItemGrenadeData
-function UIInventoryItem:GetGrenadeData(player, force) return end
+function UIInventoryItem:GetGrenadeData(player, force) end
 
 ---@return gameItemID
-function UIInventoryItem:GetID() return end
+function UIInventoryItem:GetID() end
 
 ---@return String
-function UIInventoryItem:GetIconPath() return end
+function UIInventoryItem:GetIconPath() end
 
 ---@return gameItemData
-function UIInventoryItem:GetItemData() return end
+function UIInventoryItem:GetItemData() end
 
 ---@return Float
-function UIInventoryItem:GetItemPlus() return end
+function UIInventoryItem:GetItemPlus() end
 
 ---@return gamedataItem_Record
-function UIInventoryItem:GetItemRecord() return end
+function UIInventoryItem:GetItemRecord() end
 
 ---@return gamedataItemType
-function UIInventoryItem:GetItemType() return end
+function UIInventoryItem:GetItemType() end
 
 ---@return Int32
-function UIInventoryItem:GetItemTypeOrder() return end
+function UIInventoryItem:GetItemTypeOrder() end
 
 ---@return UIInventoryItemModsManager
-function UIInventoryItem:GetModsManager() return end
+function UIInventoryItem:GetModsManager() end
 
 ---@return String
-function UIInventoryItem:GetName() return end
+function UIInventoryItem:GetName() end
 
 ---@return Int32
-function UIInventoryItem:GetNumberOfPellets() return end
+function UIInventoryItem:GetNumberOfPellets() end
 
 ---@return gameObject
-function UIInventoryItem:GetOwner() return end
+function UIInventoryItem:GetOwner() end
 
 ---@return gamedataPerkWeaponGroupType
-function UIInventoryItem:GetPerkGroup() return end
+function UIInventoryItem:GetPerkGroup() end
 
 ---@return UIInventoryItemStat
-function UIInventoryItem:GetPrimaryStat() return end
+function UIInventoryItem:GetPrimaryStat() end
 
 ---@param player PlayerPuppet
 ---@param force Bool
 ---@return UIInventoryItemProgramData
-function UIInventoryItem:GetProgramData(player, force) return end
+function UIInventoryItem:GetProgramData(player, force) end
 
 ---@return gamedataQuality
-function UIInventoryItem:GetQuality() return end
+function UIInventoryItem:GetQuality() end
 
 ---@return Int32
-function UIInventoryItem:GetQualityInt() return end
+function UIInventoryItem:GetQualityInt() end
 
 ---@return CName
-function UIInventoryItem:GetQualityName() return end
+function UIInventoryItem:GetQualityName() end
 
 ---@param type? RarityItemType
 ---@return String
-function UIInventoryItem:GetQualityText(type) return end
+function UIInventoryItem:GetQualityText(type) end
 
 ---@param update? Bool
 ---@return Int32
-function UIInventoryItem:GetQuantity(update) return end
+function UIInventoryItem:GetQuantity(update) end
 
 ---@return gameItemData
-function UIInventoryItem:GetRealItemData() return end
+function UIInventoryItem:GetRealItemData() end
 
 ---@return gamedataItem_Record
-function UIInventoryItem:GetRealItemRecord() return end
+function UIInventoryItem:GetRealItemRecord() end
 
 ---@return TweakDBID
-function UIInventoryItem:GetRealTweakDBID() return end
+function UIInventoryItem:GetRealTweakDBID() end
 
 ---@return Int32
-function UIInventoryItem:GetRequiredLevel() return end
+function UIInventoryItem:GetRequiredLevel() end
 
 ---@param player gameObject
 ---@return UIInventoryItemRequirementsManager
-function UIInventoryItem:GetRequirementsManager(player) return end
+function UIInventoryItem:GetRequirementsManager(player) end
 
 ---@return Float
-function UIInventoryItem:GetSellPrice() return end
+function UIInventoryItem:GetSellPrice() end
 
 ---@return UIInventoryItemStatsManager
-function UIInventoryItem:GetStatsManager() return end
+function UIInventoryItem:GetStatsManager() end
 
 ---@return UIInventoryItemStatsManager
-function UIInventoryItem:GetStatsManagerPure() return end
+function UIInventoryItem:GetStatsManagerPure() end
 
 ---@return TweakDBID
-function UIInventoryItem:GetTweakDBID() return end
+function UIInventoryItem:GetTweakDBID() end
 
 ---@return UIItemCategory
-function UIInventoryItem:GetUIItemCategory() return end
+function UIInventoryItem:GetUIItemCategory() end
 
 ---@return gamedataWeaponEvolution
-function UIInventoryItem:GetWeaponEvolution() return end
+function UIInventoryItem:GetWeaponEvolution() end
 
 ---@return WeaponType
-function UIInventoryItem:GetWeaponType() return end
+function UIInventoryItem:GetWeaponType() end
 
 ---@return Float
-function UIInventoryItem:GetWeight() return end
+function UIInventoryItem:GetWeight() end
 
 ---@param tagsToCheck CName[]|string[]
 ---@return Bool
-function UIInventoryItem:HasAnyTag(tagsToCheck) return end
+function UIInventoryItem:HasAnyTag(tagsToCheck) end
 
 ---@return Bool
-function UIInventoryItem:HasScopeInstalled() return end
+function UIInventoryItem:HasScopeInstalled() end
 
 ---@return Bool
-function UIInventoryItem:HasScopeSlot() return end
+function UIInventoryItem:HasScopeSlot() end
 
 ---@return Bool
-function UIInventoryItem:HasSilencerInstalled() return end
+function UIInventoryItem:HasSilencerInstalled() end
 
 ---@return Bool
-function UIInventoryItem:HasSilencerSlot() return end
+function UIInventoryItem:HasSilencerSlot() end
 
 ---@return nil
-function UIInventoryItem:Internal_FlushComparedBars() return end
+function UIInventoryItem:Internal_FlushComparedBars() end
 
 ---@return nil
-function UIInventoryItem:Internal_FlushCraftingResults() return end
+function UIInventoryItem:Internal_FlushCraftingResults() end
 
 ---@return nil
-function UIInventoryItem:Internal_FlushCyberwareUpgrade() return end
+function UIInventoryItem:Internal_FlushCyberwareUpgrade() end
 
 ---@return nil
-function UIInventoryItem:Internal_FlushRequirements() return end
+function UIInventoryItem:Internal_FlushRequirements() end
 
 ---@return gameItemData
-function UIInventoryItem:Internal_GetParentItem() return end
+function UIInventoryItem:Internal_GetParentItem() end
 
 ---@return TweakDBID
-function UIInventoryItem:Internal_GetSlotID() return end
+function UIInventoryItem:Internal_GetSlotID() end
 
 ---@return nil
-function UIInventoryItem:Internal_MarkModsDirty() return end
+function UIInventoryItem:Internal_MarkModsDirty() end
 
 ---@return nil
-function UIInventoryItem:Internal_MarkStatsDirty() return end
+function UIInventoryItem:Internal_MarkStatsDirty() end
 
 ---@return Bool
-function UIInventoryItem:IsAnyCyberware() return end
+function UIInventoryItem:IsAnyCyberware() end
 
 ---@return Bool
-function UIInventoryItem:IsBroken() return end
+function UIInventoryItem:IsBroken() end
 
 ---@return Bool
-function UIInventoryItem:IsClothing() return end
+function UIInventoryItem:IsClothing() end
 
 ---@return Bool
-function UIInventoryItem:IsCrafted() return end
+function UIInventoryItem:IsCrafted() end
 
 ---@return Bool
-function UIInventoryItem:IsCyberdeck() return end
+function UIInventoryItem:IsCyberdeck() end
 
 ---@return Bool
-function UIInventoryItem:IsCyberware() return end
+function UIInventoryItem:IsCyberware() end
 
 ---@return Bool
-function UIInventoryItem:IsCyberwareWeapon() return end
+function UIInventoryItem:IsCyberwareWeapon() end
 
 ---@param force? Bool
 ---@return Bool
-function UIInventoryItem:IsEquipped(force) return end
+function UIInventoryItem:IsEquipped(force) end
 
 ---@return Bool
-function UIInventoryItem:IsIconic() return end
+function UIInventoryItem:IsIconic() end
 
 ---@return Bool
-function UIInventoryItem:IsIllegal() return end
+function UIInventoryItem:IsIllegal() end
 
 ---@return Bool
-function UIInventoryItem:IsJunk() return end
+function UIInventoryItem:IsJunk() end
 
 ---@return Bool
-function UIInventoryItem:IsNew() return end
+function UIInventoryItem:IsNew() end
 
 ---@return Bool
-function UIInventoryItem:IsOfEquippableType() return end
+function UIInventoryItem:IsOfEquippableType() end
 
 ---@return Bool
-function UIInventoryItem:IsPart() return end
+function UIInventoryItem:IsPart() end
 
 ---@return Bool
-function UIInventoryItem:IsPlayerFavourite() return end
+function UIInventoryItem:IsPlayerFavourite() end
 
 ---@return Bool
-function UIInventoryItem:IsProgram() return end
+function UIInventoryItem:IsProgram() end
 
 ---@return Bool
-function UIInventoryItem:IsQuestItem() return end
+function UIInventoryItem:IsQuestItem() end
 
 ---@return Bool
-function UIInventoryItem:IsRecipe() return end
+function UIInventoryItem:IsRecipe() end
 
 ---@return Bool
-function UIInventoryItem:IsSellable() return end
+function UIInventoryItem:IsSellable() end
 
 ---@return Bool
-function UIInventoryItem:IsTransmogItem() return end
+function UIInventoryItem:IsTransmogItem() end
 
 ---@return Bool
-function UIInventoryItem:IsWeapon() return end
+function UIInventoryItem:IsWeapon() end
 
 ---@return nil
-function UIInventoryItem:MarkQuantityDirty() return end
+function UIInventoryItem:MarkQuantityDirty() end
 
 ---@param quantity Int32
 ---@return nil
-function UIInventoryItem:SetQuantity(quantity) return end
+function UIInventoryItem:SetQuantity(quantity) end

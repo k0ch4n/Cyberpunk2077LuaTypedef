@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameAttackInitContext
----@field public record gamedataAttack_Record
----@field public instigator gameObject
----@field public source gameObject
----@field public weapon gameweaponObject
+---@field record gamedataAttack_Record
+---@field instigator gameObject
+---@field source gameObject
+---@field weapon gameweaponObject
 gameAttackInitContext = {}
 
 ---@param fields? gameAttackInitContext
 ---@return gameAttackInitContext
-function gameAttackInitContext.new(fields) return end
+function gameAttackInitContext.new(fields) end

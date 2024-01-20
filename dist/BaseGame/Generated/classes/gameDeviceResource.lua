@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameDeviceResource: CResource
----@field public data gameDeviceResourceData
+---@field data gameDeviceResourceData
 gameDeviceResource = {}
 
 ---@param fields? gameDeviceResource
 ---@return gameDeviceResource
-function gameDeviceResource.new(fields) return end
+function gameDeviceResource.new(fields) end

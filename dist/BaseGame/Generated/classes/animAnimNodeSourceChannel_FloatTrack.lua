@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAnimNodeSourceChannel_FloatTrack: animIAnimNodeSourceChannel_Float
----@field public floatTrack animNamedTrackIndex
----@field public useComplementValue Bool
+---@field floatTrack animNamedTrackIndex
+---@field useComplementValue Bool
 animAnimNodeSourceChannel_FloatTrack = {}
 
 ---@param fields? animAnimNodeSourceChannel_FloatTrack
 ---@return animAnimNodeSourceChannel_FloatTrack
-function animAnimNodeSourceChannel_FloatTrack.new(fields) return end
+function animAnimNodeSourceChannel_FloatTrack.new(fields) end

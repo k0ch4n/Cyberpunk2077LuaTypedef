@@ -5,4 +5,4 @@ scnXorNode = {}
 
 ---@param fields? scnXorNode
 ---@return scnXorNode
-function scnXorNode.new(fields) return end
+function scnXorNode.new(fields) end

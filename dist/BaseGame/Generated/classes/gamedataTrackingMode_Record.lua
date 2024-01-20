@@ -5,13 +5,13 @@ gamedataTrackingMode_Record = {}
 
 ---@param fields? gamedataTrackingMode_Record
 ---@return gamedataTrackingMode_Record
-function gamedataTrackingMode_Record.new(fields) return end
+function gamedataTrackingMode_Record.new(fields) end
 
 ---@return String
-function gamedataTrackingMode_Record:EnumComment() return end
+function gamedataTrackingMode_Record:EnumComment() end
 
 ---@return String
-function gamedataTrackingMode_Record:EnumName() return end
+function gamedataTrackingMode_Record:EnumName() end
 
 ---@return gamedataTrackingMode
-function gamedataTrackingMode_Record:Type() return end
+function gamedataTrackingMode_Record:Type() end

@@ -5,12 +5,10 @@ PauseMenuBackgroundGameController = {}
 
 ---@param fields? PauseMenuBackgroundGameController
 ---@return PauseMenuBackgroundGameController
-function PauseMenuBackgroundGameController.new(fields) return end
+function PauseMenuBackgroundGameController.new(fields) end
 
----@protected
 ---@return Bool
-function PauseMenuBackgroundGameController:OnInitialize() return end
+function PauseMenuBackgroundGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function PauseMenuBackgroundGameController:OnUninitialize() return end
+function PauseMenuBackgroundGameController:OnUninitialize() end

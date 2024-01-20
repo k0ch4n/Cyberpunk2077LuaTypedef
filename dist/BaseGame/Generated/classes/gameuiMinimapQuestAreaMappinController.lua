@@ -1,17 +1,15 @@
 ---@meta
 
 ---@class gameuiMinimapQuestAreaMappinController: gameuiBaseMinimapMappinController
----@field public areaShapeWidget inkShapeWidgetReference
+---@field areaShapeWidget inkShapeWidgetReference
 gameuiMinimapQuestAreaMappinController = {}
 
 ---@param fields? gameuiMinimapQuestAreaMappinController
 ---@return gameuiMinimapQuestAreaMappinController
-function gameuiMinimapQuestAreaMappinController.new(fields) return end
+function gameuiMinimapQuestAreaMappinController.new(fields) end
 
----@protected
 ---@return CName
-function gameuiMinimapQuestAreaMappinController:ComputeRootState() return end
+function gameuiMinimapQuestAreaMappinController:ComputeRootState() end
 
----@protected
 ---@return nil
-function gameuiMinimapQuestAreaMappinController:Update() return end
+function gameuiMinimapQuestAreaMappinController:Update() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class NewPerksWireConnection
----@field public targetSlot gamedataNewPerkSlotType
----@field public dependanciesPresenceToggle Bool
----@field public connectionDependancies gamedataNewPerkSlotType[]
----@field public wires inkWidgetReference[]
+---@field targetSlot gamedataNewPerkSlotType
+---@field dependanciesPresenceToggle Bool
+---@field connectionDependancies gamedataNewPerkSlotType[]
+---@field wires inkWidgetReference[]
 NewPerksWireConnection = {}
 
 ---@param fields? NewPerksWireConnection
 ---@return NewPerksWireConnection
-function NewPerksWireConnection.new(fields) return end
+function NewPerksWireConnection.new(fields) end

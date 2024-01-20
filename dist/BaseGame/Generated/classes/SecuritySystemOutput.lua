@@ -1,45 +1,45 @@
 ---@meta
 
 ---@class SecuritySystemOutput: ActionBool
----@field private currentSecurityState ESecuritySystemState
----@field private breachOrigin EBreachOrigin
----@field private originalInputEvent SecuritySystemInput
----@field private securityStateChanged Bool
+---@field currentSecurityState ESecuritySystemState
+---@field breachOrigin EBreachOrigin
+---@field originalInputEvent SecuritySystemInput
+---@field securityStateChanged Bool
 SecuritySystemOutput = {}
 
 ---@param fields? SecuritySystemOutput
 ---@return SecuritySystemOutput
-function SecuritySystemOutput.new(fields) return end
+function SecuritySystemOutput.new(fields) end
 
 ---@return EBreachOrigin
-function SecuritySystemOutput:GetBreachOrigin() return end
+function SecuritySystemOutput:GetBreachOrigin() end
 
 ---@return ESecuritySystemState
-function SecuritySystemOutput:GetCachedSecurityState() return end
+function SecuritySystemOutput:GetCachedSecurityState() end
 
 ---@return SecuritySystemInput
-function SecuritySystemOutput:GetOriginalInputEvent() return end
+function SecuritySystemOutput:GetOriginalInputEvent() end
 
 ---@return Bool
-function SecuritySystemOutput:GetSecurityStateChanged() return end
+function SecuritySystemOutput:GetSecurityStateChanged() end
 
 ---@param originalEvent SecuritySystemOutput
 ---@return nil
-function SecuritySystemOutput:Initialize(originalEvent) return end
+function SecuritySystemOutput:Initialize(originalEvent) end
 
 ---@param breachType EBreachOrigin
 ---@return nil
-function SecuritySystemOutput:SetBreachOrigin(breachType) return end
+function SecuritySystemOutput:SetBreachOrigin(breachType) end
 
 ---@param state ESecuritySystemState
 ---@return nil
-function SecuritySystemOutput:SetCachedSecuritySystemState(state) return end
+function SecuritySystemOutput:SetCachedSecuritySystemState(state) end
 
 ---@param currentSecuritySystemState ESecuritySystemState
 ---@param notificationEvent SecuritySystemInput
 ---@return nil
-function SecuritySystemOutput:SetProperties(currentSecuritySystemState, notificationEvent) return end
+function SecuritySystemOutput:SetProperties(currentSecuritySystemState, notificationEvent) end
 
 ---@param changed Bool
 ---@return nil
-function SecuritySystemOutput:SetSecurityStateChanged(changed) return end
+function SecuritySystemOutput:SetSecurityStateChanged(changed) end

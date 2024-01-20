@@ -5,4 +5,4 @@ worldTrafficPersistentLaneConnectionsResource = {}
 
 ---@param fields? worldTrafficPersistentLaneConnectionsResource
 ---@return worldTrafficPersistentLaneConnectionsResource
-function worldTrafficPersistentLaneConnectionsResource.new(fields) return end
+function worldTrafficPersistentLaneConnectionsResource.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animRigSharedData: CResource
----@field public parts animRigPart[]
----@field public ikSetups animIRigIkSetup[]
+---@field parts animRigPart[]
+---@field ikSetups animIRigIkSetup[]
 animRigSharedData = {}
 
 ---@param fields? animRigSharedData
 ---@return animRigSharedData
-function animRigSharedData.new(fields) return end
+function animRigSharedData.new(fields) end

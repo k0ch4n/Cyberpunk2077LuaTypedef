@@ -5,94 +5,94 @@ scnScriptInterface = {}
 
 ---@param fields? scnScriptInterface
 ---@return scnScriptInterface
-function scnScriptInterface.new(fields) return end
+function scnScriptInterface.new(fields) end
 
 ---@param firstEntity entEntityID
 ---@param secondEntity entEntityID
 ---@return Bool
-function scnScriptInterface:AreEntitiesInDialogue(firstEntity, secondEntity) return end
+function scnScriptInterface:AreEntitiesInDialogue(firstEntity, secondEntity) end
 
 ---@param ffMode scnFastForwardMode
 ---@return nil
-function scnScriptInterface:FastForwardingActivate(ffMode) return end
+function scnScriptInterface:FastForwardingActivate(ffMode) end
 
 ---@return nil
-function scnScriptInterface:FastForwardingDeactivate() return end
+function scnScriptInterface:FastForwardingDeactivate() end
 
 ---@return Float
-function scnScriptInterface:GetRewindableSectionDurationInSec() return end
+function scnScriptInterface:GetRewindableSectionDurationInSec() end
 
 ---@return scnPlayDirection
-function scnScriptInterface:GetRewindableSectionPlayDirection() return end
+function scnScriptInterface:GetRewindableSectionPlayDirection() end
 
 ---@return scnPlaySpeed
-function scnScriptInterface:GetRewindableSectionPlaySpeed() return end
+function scnScriptInterface:GetRewindableSectionPlaySpeed() end
 
 ---@return Float
-function scnScriptInterface:GetRewindableSectionProgress() return end
+function scnScriptInterface:GetRewindableSectionProgress() end
 
 ---@return Float
-function scnScriptInterface:GetRewindableSectionSpeedModifier() return end
+function scnScriptInterface:GetRewindableSectionSpeedModifier() end
 
 ---@return Float
-function scnScriptInterface:GetRewindableSectionTimeInSec() return end
+function scnScriptInterface:GetRewindableSectionTimeInSec() end
 
 ---@return Bool
-function scnScriptInterface:GetSceneSystemCameraControlEnabled() return end
+function scnScriptInterface:GetSceneSystemCameraControlEnabled() end
 
 ---@return Quaternion
-function scnScriptInterface:GetSceneSystemCameraLastCameraOrientation() return end
+function scnScriptInterface:GetSceneSystemCameraLastCameraOrientation() end
 
 ---@return WorldPosition
-function scnScriptInterface:GetSceneSystemCameraLastCameraPosition() return end
+function scnScriptInterface:GetSceneSystemCameraLastCameraPosition() end
 
 ---@param entity entEntityID
 ---@return Bool
-function scnScriptInterface:IsEntityInDialogue(entity) return end
+function scnScriptInterface:IsEntityInDialogue(entity) end
 
 ---@param entity entEntityID
 ---@return Bool
-function scnScriptInterface:IsEntityInScene(entity) return end
+function scnScriptInterface:IsEntityInScene(entity) end
 
 ---@param ffMode scnFastForwardMode
 ---@return Bool
-function scnScriptInterface:IsFastForwardingActive(ffMode) return end
+function scnScriptInterface:IsFastForwardingActive(ffMode) end
 
 ---@param ffMode scnFastForwardMode
 ---@return Bool
-function scnScriptInterface:IsFastForwardingAllowed(ffMode) return end
+function scnScriptInterface:IsFastForwardingAllowed(ffMode) end
 
 ---@return Bool
-function scnScriptInterface:IsRewindableSectionActive() return end
+function scnScriptInterface:IsRewindableSectionActive() end
 
 ---@return Bool
-function scnScriptInterface:IsRewindableSectionPaused() return end
+function scnScriptInterface:IsRewindableSectionPaused() end
 
 ---@return Bool
-function scnScriptInterface:IsRewindableSectionResetting() return end
+function scnScriptInterface:IsRewindableSectionResetting() end
 
 ---@param resetSpeed Float
 ---@param jumpTime Float
 ---@param postResetPlayDirection scnPlayDirection
 ---@param postResetPlaySpeed scnPlaySpeed
 ---@return Bool
-function scnScriptInterface:JumpRewindableSection(resetSpeed, jumpTime, postResetPlayDirection, postResetPlaySpeed) return end
+function scnScriptInterface:JumpRewindableSection(resetSpeed, jumpTime, postResetPlayDirection, postResetPlaySpeed) end
 
 ---@param resetSpeed Float
 ---@param postResetPlayDirection scnPlayDirection
 ---@param postResetPlaySpeed scnPlaySpeed
 ---@return nil
-function scnScriptInterface:ResetRewindableSection(resetSpeed, postResetPlayDirection, postResetPlaySpeed) return end
+function scnScriptInterface:ResetRewindableSection(resetSpeed, postResetPlayDirection, postResetPlaySpeed) end
 
 ---@param direction scnPlayDirection
 ---@return nil
-function scnScriptInterface:SetRewindableSectionPlayDirection(direction) return end
+function scnScriptInterface:SetRewindableSectionPlayDirection(direction) end
 
 ---@param speed scnPlaySpeed
 ---@return nil
-function scnScriptInterface:SetRewindableSectionPlaySpeed(speed) return end
+function scnScriptInterface:SetRewindableSectionPlaySpeed(speed) end
 
 ---@param enabled Bool
 ---@param blendTime? Float
 ---@return nil
-function scnScriptInterface:SetSceneSystemCameraControlEnabled(enabled, blendTime) return end
+function scnScriptInterface:SetSceneSystemCameraControlEnabled(enabled, blendTime) end

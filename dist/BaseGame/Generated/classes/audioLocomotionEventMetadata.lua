@@ -5,4 +5,4 @@ audioLocomotionEventMetadata = {}
 
 ---@param fields? audioLocomotionEventMetadata
 ---@return audioLocomotionEventMetadata
-function audioLocomotionEventMetadata.new(fields) return end
+function audioLocomotionEventMetadata.new(fields) end

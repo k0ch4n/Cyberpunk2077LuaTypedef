@@ -5,32 +5,32 @@ inkImageWidget = {}
 
 ---@param fields? inkImageWidget
 ---@return inkImageWidget
-function inkImageWidget.new(fields) return end
+function inkImageWidget.new(fields) end
 
 ---@return inkMargin
-function inkImageWidget:GetNineSliceGrid() return end
+function inkImageWidget:GetNineSliceGrid() end
 
 ---@return inkEHorizontalAlign
-function inkImageWidget:GetTileHAlign() return end
+function inkImageWidget:GetTileHAlign() end
 
 ---@return inkEVerticalAlign
-function inkImageWidget:GetTileVAlign() return end
+function inkImageWidget:GetTileVAlign() end
 
 ---@param grid inkMargin
 ---@return nil
-function inkImageWidget:SetNineSliceGrid(grid) return end
+function inkImageWidget:SetNineSliceGrid(grid) end
 
 ---@param enable Bool
 ---@return nil
-function inkImageWidget:SetNineSliceScale(enable) return end
+function inkImageWidget:SetNineSliceScale(enable) end
 
 ---@param tileHAlign inkEHorizontalAlign
 ---@return nil
-function inkImageWidget:SetTileHAlign(tileHAlign) return end
+function inkImageWidget:SetTileHAlign(tileHAlign) end
 
 ---@param tileVAlign inkEVerticalAlign
 ---@return nil
-function inkImageWidget:SetTileVAlign(tileVAlign) return end
+function inkImageWidget:SetTileVAlign(tileVAlign) end
 
 ---@return Bool
-function inkImageWidget:UsesNineSliceScale() return end
+function inkImageWidget:UsesNineSliceScale() end

@@ -5,7 +5,7 @@ FuseBoxController = {}
 
 ---@param fields? FuseBoxController
 ---@return FuseBoxController
-function FuseBoxController.new(fields) return end
+function FuseBoxController.new(fields) end
 
 ---@return FuseBoxControllerPS
-function FuseBoxController:GetPS() return end
+function FuseBoxController:GetPS() end

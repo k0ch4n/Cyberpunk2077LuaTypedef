@@ -1,71 +1,59 @@
 ---@meta
 
 ---@class InteractiveAdInkGameController: DeviceInkGameControllerBase
----@field private ProcessingVideo inkVideoWidgetReference
----@field private PersonalAd inkVideoWidgetReference
----@field private CommonAd inkVideoWidgetReference
----@field protected fadeDuration Float
----@field private animFade inkanimDefinition
----@field private animOptions inkanimPlaybackOptions
----@field private showAd Bool
----@field private onShowAdListener redCallbackObject
----@field private onShowVendorListener redCallbackObject
+---@field ProcessingVideo inkVideoWidgetReference
+---@field PersonalAd inkVideoWidgetReference
+---@field CommonAd inkVideoWidgetReference
+---@field fadeDuration Float
+---@field animFade inkanimDefinition
+---@field animOptions inkanimPlaybackOptions
+---@field showAd Bool
+---@field onShowAdListener redCallbackObject
+---@field onShowVendorListener redCallbackObject
 InteractiveAdInkGameController = {}
 
 ---@param fields? InteractiveAdInkGameController
 ---@return InteractiveAdInkGameController
-function InteractiveAdInkGameController.new(fields) return end
+function InteractiveAdInkGameController.new(fields) end
 
----@protected
 ---@param flag Bool
 ---@return Bool
-function InteractiveAdInkGameController:OnShowAd(flag) return end
+function InteractiveAdInkGameController:OnShowAd(flag) end
 
----@protected
 ---@param flag Bool
 ---@return Bool
-function InteractiveAdInkGameController:OnShowVendor(flag) return end
+function InteractiveAdInkGameController:OnShowVendor(flag) end
 
----@protected
 ---@return nil
-function InteractiveAdInkGameController:CreateAnimation() return end
+function InteractiveAdInkGameController:CreateAnimation() end
 
----@protected
 ---@return Device
-function InteractiveAdInkGameController:GetOwner() return end
+function InteractiveAdInkGameController:GetOwner() end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function InteractiveAdInkGameController:Refresh(state) return end
+function InteractiveAdInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function InteractiveAdInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function InteractiveAdInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@return nil
-function InteractiveAdInkGameController:SetupWidgets() return end
+function InteractiveAdInkGameController:SetupWidgets() end
 
----@protected
 ---@return nil
-function InteractiveAdInkGameController:StartAdVideo() return end
+function InteractiveAdInkGameController:StartAdVideo() end
 
----@protected
 ---@return nil
-function InteractiveAdInkGameController:StartProcessingVideo() return end
+function InteractiveAdInkGameController:StartProcessingVideo() end
 
----@protected
 ---@return nil
-function InteractiveAdInkGameController:StopProcessingVideo() return end
+function InteractiveAdInkGameController:StopProcessingVideo() end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function InteractiveAdInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function InteractiveAdInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function InteractiveAdInkGameController:UpdateActionWidgets(widgetsData) return end
+function InteractiveAdInkGameController:UpdateActionWidgets(widgetsData) end

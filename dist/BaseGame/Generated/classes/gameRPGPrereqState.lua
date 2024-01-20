@@ -5,4 +5,4 @@ gameRPGPrereqState = {}
 
 ---@param fields? gameRPGPrereqState
 ---@return gameRPGPrereqState
-function gameRPGPrereqState.new(fields) return end
+function gameRPGPrereqState.new(fields) end

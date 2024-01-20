@@ -1,51 +1,42 @@
 ---@meta
 
 ---@class CrossingLight: TrafficLight
----@field protected audioLightIsGreen Bool
+---@field audioLightIsGreen Bool
 CrossingLight = {}
 
 ---@param fields? CrossingLight
 ---@return CrossingLight
-function CrossingLight.new(fields) return end
+function CrossingLight.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function CrossingLight:OnRequestComponents(ri) return end
+function CrossingLight:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function CrossingLight:OnTakeControl(ri) return end
+function CrossingLight:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function CrossingLight:CommenceChangeToGreen() return end
+function CrossingLight:CommenceChangeToGreen() end
 
----@protected
 ---@return nil
-function CrossingLight:CommenceChangeToRed() return end
+function CrossingLight:CommenceChangeToRed() end
 
----@protected
 ---@return nil
-function CrossingLight:CompleteLightChangeSequence() return end
+function CrossingLight:CompleteLightChangeSequence() end
 
----@private
 ---@return CrossingLightController
-function CrossingLight:GetController() return end
+function CrossingLight:GetController() end
 
 ---@return CrossingLightControllerPS
-function CrossingLight:GetDevicePS() return end
+function CrossingLight:GetDevicePS() end
 
----@protected
 ---@param status worldTrafficLightColor
 ---@return nil
-function CrossingLight:PlayTrafficNotificationSound(status) return end
+function CrossingLight:PlayTrafficNotificationSound(status) end
 
----@private
 ---@return nil
-function CrossingLight:StartBlinking() return end
+function CrossingLight:StartBlinking() end
 
----@private
 ---@return nil
-function CrossingLight:StopBlinking() return end
+function CrossingLight:StopBlinking() end

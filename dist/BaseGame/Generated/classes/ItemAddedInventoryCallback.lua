@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class ItemAddedInventoryCallback: gameInventoryScriptCallback
----@field public notificationQueue ItemsNotificationQueue
+---@field notificationQueue ItemsNotificationQueue
 ItemAddedInventoryCallback = {}
 
 ---@param fields? ItemAddedInventoryCallback
 ---@return ItemAddedInventoryCallback
-function ItemAddedInventoryCallback.new(fields) return end
+function ItemAddedInventoryCallback.new(fields) end
 
----@private
 ---@param data gameItemData
 ---@return CName
-function ItemAddedInventoryCallback:GetItemRarity(data) return end
+function ItemAddedInventoryCallback:GetItemRarity(data) end
 
 ---@param item gameItemID
 ---@param itemData gameItemData
 ---@return nil
-function ItemAddedInventoryCallback:OnItemNotification(item, itemData) return end
+function ItemAddedInventoryCallback:OnItemNotification(item, itemData) end

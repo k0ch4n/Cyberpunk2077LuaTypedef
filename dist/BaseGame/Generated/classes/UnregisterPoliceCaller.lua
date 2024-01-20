@@ -5,4 +5,4 @@ UnregisterPoliceCaller = {}
 
 ---@param fields? UnregisterPoliceCaller
 ---@return UnregisterPoliceCaller
-function UnregisterPoliceCaller.new(fields) return end
+function UnregisterPoliceCaller.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnCheckPlayerTargetNodeDistanceReturnConditionParams
----@field public distance Float
----@field public comparisonType EComparisonType
----@field public targetNode NodeRef
+---@field distance Float
+---@field comparisonType EComparisonType
+---@field targetNode NodeRef
 scnCheckPlayerTargetNodeDistanceReturnConditionParams = {}
 
 ---@param fields? scnCheckPlayerTargetNodeDistanceReturnConditionParams
 ---@return scnCheckPlayerTargetNodeDistanceReturnConditionParams
-function scnCheckPlayerTargetNodeDistanceReturnConditionParams.new(fields) return end
+function scnCheckPlayerTargetNodeDistanceReturnConditionParams.new(fields) end

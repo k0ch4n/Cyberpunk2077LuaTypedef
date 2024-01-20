@@ -5,26 +5,25 @@ PreCrouchLowGravityEvents = {}
 
 ---@param fields? PreCrouchLowGravityEvents
 ---@return PreCrouchLowGravityEvents
-function PreCrouchLowGravityEvents.new(fields) return end
+function PreCrouchLowGravityEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PreCrouchLowGravityEvents:OnEnter(stateContext, scriptInterface) return end
+function PreCrouchLowGravityEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PreCrouchLowGravityEvents:OnExit(stateContext, scriptInterface) return end
+function PreCrouchLowGravityEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PreCrouchLowGravityEvents:OnExitToDodgeCrouchLowGravity(stateContext, scriptInterface) return end
+function PreCrouchLowGravityEvents:OnExitToDodgeCrouchLowGravity(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PreCrouchLowGravityEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function PreCrouchLowGravityEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalQuestCodexLink: gameJournalEntry
----@field public path gameJournalPath
+---@field path gameJournalPath
 gameJournalQuestCodexLink = {}
 
 ---@param fields? gameJournalQuestCodexLink
 ---@return gameJournalQuestCodexLink
-function gameJournalQuestCodexLink.new(fields) return end
+function gameJournalQuestCodexLink.new(fields) end
 
 ---@return Uint32
-function gameJournalQuestCodexLink:GetLinkPathHash() return end
+function gameJournalQuestCodexLink:GetLinkPathHash() end

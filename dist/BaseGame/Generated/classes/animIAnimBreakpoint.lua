@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class animIAnimBreakpoint
----@field public enabled Bool
+---@field enabled Bool
 animIAnimBreakpoint = {}

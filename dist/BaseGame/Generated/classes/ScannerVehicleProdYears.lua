@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class ScannerVehicleProdYears: ScannerChunk
----@field private vehicleProdYears String
+---@field vehicleProdYears String
 ScannerVehicleProdYears = {}
 
 ---@param fields? ScannerVehicleProdYears
 ---@return ScannerVehicleProdYears
-function ScannerVehicleProdYears.new(fields) return end
+function ScannerVehicleProdYears.new(fields) end
 
 ---@return String
-function ScannerVehicleProdYears:GetProdYears() return end
+function ScannerVehicleProdYears:GetProdYears() end
 
 ---@return ScannerDataType
-function ScannerVehicleProdYears:GetType() return end
+function ScannerVehicleProdYears:GetType() end
 
 ---@param vehProdYears String
 ---@return nil
-function ScannerVehicleProdYears:Set(vehProdYears) return end
+function ScannerVehicleProdYears:Set(vehProdYears) end

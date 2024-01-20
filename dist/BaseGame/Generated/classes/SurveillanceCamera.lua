@@ -1,195 +1,163 @@
 ---@meta
 
 ---@class SurveillanceCamera: SensorDevice
----@field private virtualCam entVirtualCameraComponent
----@field private cameraHead entIComponent
----@field private cameraHeadPhysics entIComponent
----@field private verticalDecal1 entIComponent
----@field private verticalDecal2 entIComponent
----@field private meshDestrSupport Bool
----@field private shouldRotate Bool
----@field private canStreamVideo Bool
----@field private canDetectIntruders Bool
----@field private currentAngle Float
----@field private rotateLeft Bool
----@field private targetPosition Vector4
----@field private factOnFeedReceived CName
----@field private questFactOnDetection CName
----@field private lookAtEvent entLookAtAddEvent
----@field public currentYawModifier Float
----@field public currentPitchModifier Float
+---@field virtualCam entVirtualCameraComponent
+---@field cameraHead entIComponent
+---@field cameraHeadPhysics entIComponent
+---@field verticalDecal1 entIComponent
+---@field verticalDecal2 entIComponent
+---@field meshDestrSupport Bool
+---@field shouldRotate Bool
+---@field canStreamVideo Bool
+---@field canDetectIntruders Bool
+---@field currentAngle Float
+---@field rotateLeft Bool
+---@field targetPosition Vector4
+---@field factOnFeedReceived CName
+---@field questFactOnDetection CName
+---@field lookAtEvent entLookAtAddEvent
+---@field currentYawModifier Float
+---@field currentPitchModifier Float
 SurveillanceCamera = {}
 
 ---@param fields? SurveillanceCamera
 ---@return SurveillanceCamera
-function SurveillanceCamera.new(fields) return end
+function SurveillanceCamera.new(fields) end
 
----@protected
 ---@param evt ActionEngineering
 ---@return Bool
-function SurveillanceCamera:OnActionEngineering(evt) return end
+function SurveillanceCamera:OnActionEngineering(evt) end
 
----@protected
 ---@param evt CameraTagLockEvent
 ---@return Bool
-function SurveillanceCamera:OnCameraTagLockEvent(evt) return end
+function SurveillanceCamera:OnCameraTagLockEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function SurveillanceCamera:OnDeath(evt) return end
+function SurveillanceCamera:OnDeath(evt) end
 
----@protected
 ---@return Bool
-function SurveillanceCamera:OnDetach() return end
+function SurveillanceCamera:OnDetach() end
 
----@protected
 ---@return Bool
-function SurveillanceCamera:OnGameAttached() return end
+function SurveillanceCamera:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SurveillanceCamera:OnRequestComponents(ri) return end
+function SurveillanceCamera:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SetDeviceAttitude
 ---@return Bool
-function SurveillanceCamera:OnSetDeviceAttitude(evt) return end
+function SurveillanceCamera:OnSetDeviceAttitude(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlActivate
 ---@return Bool
-function SurveillanceCamera:OnTCSTakeOverControlActivate(evt) return end
+function SurveillanceCamera:OnTCSTakeOverControlActivate(evt) end
 
----@protected
 ---@param evt TCSTakeOverControlDeactivate
 ---@return Bool
-function SurveillanceCamera:OnTCSTakeOverControlDeactivate(evt) return end
+function SurveillanceCamera:OnTCSTakeOverControlDeactivate(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SurveillanceCamera:OnTakeControl(ri) return end
+function SurveillanceCamera:OnTakeControl(ri) end
 
----@protected
 ---@param evt ToggleON
 ---@return Bool
-function SurveillanceCamera:OnToggleCamera(evt) return end
+function SurveillanceCamera:OnToggleCamera(evt) end
 
----@protected
 ---@param evt ToggleStreamFeed
 ---@return Bool
-function SurveillanceCamera:OnToggleStreamFeed(evt) return end
+function SurveillanceCamera:OnToggleStreamFeed(evt) end
 
----@protected
 ---@return nil
-function SurveillanceCamera:CutPower() return end
+function SurveillanceCamera:CutPower() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function SurveillanceCamera:DamagePipelineFinalized(evt) return end
+function SurveillanceCamera:DamagePipelineFinalized(evt) end
 
----@protected
 ---@return nil
-function SurveillanceCamera:DeactivateDevice() return end
+function SurveillanceCamera:DeactivateDevice() end
 
 ---@return EGameplayRole
-function SurveillanceCamera:DeterminGameplayRole() return end
+function SurveillanceCamera:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function SurveillanceCamera:EvaluateProximityRevealInteractionLayerState() return end
+function SurveillanceCamera:EvaluateProximityRevealInteractionLayerState() end
 
----@private
 ---@return SurveillanceCameraController
-function SurveillanceCamera:GetController() return end
+function SurveillanceCamera:GetController() end
 
 ---@return SurveillanceCameraControllerPS
-function SurveillanceCamera:GetDevicePS() return end
+function SurveillanceCamera:GetDevicePS() end
 
 ---@return CameraRotationData
-function SurveillanceCamera:GetRotationData() return end
+function SurveillanceCamera:GetRotationData() end
 
----@protected
 ---@return String
-function SurveillanceCamera:GetScannerName() return end
+function SurveillanceCamera:GetScannerName() end
 
 ---@return Bool
-function SurveillanceCamera:IsSurveillanceCamera() return end
+function SurveillanceCamera:IsSurveillanceCamera() end
 
 ---@return nil
-function SurveillanceCamera:OnAllValidTargetsDisappears() return end
+function SurveillanceCamera:OnAllValidTargetsDisappears() end
 
 ---@param target gameObject
 ---@return nil
-function SurveillanceCamera:OnCurrentTargetAppears(target) return end
+function SurveillanceCamera:OnCurrentTargetAppears(target) end
 
 ---@param target gameObject
 ---@return nil
-function SurveillanceCamera:OnValidTargetAppears(target) return end
+function SurveillanceCamera:OnValidTargetAppears(target) end
 
 ---@param target gameObject
 ---@return nil
-function SurveillanceCamera:OnValidTargetDisappears(target) return end
+function SurveillanceCamera:OnValidTargetDisappears(target) end
 
----@protected
 ---@return nil, entLookAtAddEvent lookAtEntityEvent
-function SurveillanceCamera:OverrideLookAtSetupHor() return end
+function SurveillanceCamera:OverrideLookAtSetupHor() end
 
----@protected
 ---@return nil
-function SurveillanceCamera:PushPersistentData() return end
+function SurveillanceCamera:PushPersistentData() end
 
----@private
 ---@param add Bool
 ---@return nil
-function SurveillanceCamera:RegisterToGameSessionDataSystem(add) return end
+function SurveillanceCamera:RegisterToGameSessionDataSystem(add) end
 
----@private
 ---@return nil
-function SurveillanceCamera:RequestAlarm() return end
+function SurveillanceCamera:RequestAlarm() end
 
----@protected
 ---@return nil
-function SurveillanceCamera:ResolveGameplayState() return end
+function SurveillanceCamera:ResolveGameplayState() end
 
----@protected
 ---@return nil
-function SurveillanceCamera:RestoreDeviceState() return end
+function SurveillanceCamera:RestoreDeviceState() end
 
----@private
 ---@return nil
-function SurveillanceCamera:SetForcedSensesTracing() return end
+function SurveillanceCamera:SetForcedSensesTracing() end
 
----@protected
 ---@param data gameScriptTaskData
 ---@return nil
-function SurveillanceCamera:SetForcedSensesTracingTask(data) return end
+function SurveillanceCamera:SetForcedSensesTracingTask(data) end
 
----@private
 ---@param lockey String
 ---@return nil
-function SurveillanceCamera:SetWarningMessage(lockey) return end
+function SurveillanceCamera:SetWarningMessage(lockey) end
 
----@private
 ---@param shouldBeOn Bool
 ---@return nil
-function SurveillanceCamera:ToggleFeed(shouldBeOn) return end
+function SurveillanceCamera:ToggleFeed(shouldBeOn) end
 
----@private
 ---@return nil
-function SurveillanceCamera:TurnOffCamera() return end
+function SurveillanceCamera:TurnOffCamera() end
 
----@protected
 ---@return nil
-function SurveillanceCamera:TurnOffDevice() return end
+function SurveillanceCamera:TurnOffDevice() end
 
----@private
 ---@return nil
-function SurveillanceCamera:TurnOnCamera() return end
+function SurveillanceCamera:TurnOnCamera() end
 
----@protected
 ---@return nil
-function SurveillanceCamera:TurnOnDevice() return end
+function SurveillanceCamera:TurnOnDevice() end

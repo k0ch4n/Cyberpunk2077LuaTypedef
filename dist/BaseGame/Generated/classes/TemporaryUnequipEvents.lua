@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class TemporaryUnequipEvents: UpperBodyEventsTransition
----@field private forceOpen Bool
----@field private hadStrongArmsEquipped Bool
+---@field forceOpen Bool
+---@field hadStrongArmsEquipped Bool
 TemporaryUnequipEvents = {}
 
 ---@param fields? TemporaryUnequipEvents
 ---@return TemporaryUnequipEvents
-function TemporaryUnequipEvents.new(fields) return end
+function TemporaryUnequipEvents.new(fields) end
 
----@protected
 ---@param player PlayerPuppet
 ---@param instantStatChange Bool
 ---@return nil
-function TemporaryUnequipEvents:ForceEquipStrongArms(player, instantStatChange) return end
+function TemporaryUnequipEvents:ForceEquipStrongArms(player, instantStatChange) end
 
----@protected
 ---@param player PlayerPuppet
 ---@return nil
-function TemporaryUnequipEvents:ForceUnequipStrongArms(player) return end
+function TemporaryUnequipEvents:ForceUnequipStrongArms(player) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TemporaryUnequipEvents:OnEnter(stateContext, scriptInterface) return end
+function TemporaryUnequipEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TemporaryUnequipEvents:OnExit(stateContext, scriptInterface) return end
+function TemporaryUnequipEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function TemporaryUnequipEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function TemporaryUnequipEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

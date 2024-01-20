@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class FlickerEvent: redEvent
----@field public strength Float
----@field public duration Float
----@field public offset Float
+---@field strength Float
+---@field duration Float
+---@field offset Float
 FlickerEvent = {}
 
 ---@param fields? FlickerEvent
 ---@return FlickerEvent
-function FlickerEvent.new(fields) return end
+function FlickerEvent.new(fields) end

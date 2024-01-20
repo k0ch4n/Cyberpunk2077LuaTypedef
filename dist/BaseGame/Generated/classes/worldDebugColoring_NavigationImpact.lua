@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class worldDebugColoring_NavigationImpact: worldEditorDebugColoringSettings
----@field public walkable Color
----@field public ignored Color
----@field public blocking Color
----@field public road Color
----@field public ["stairs walkable"] Color
----@field public drones Color
----@field public terrain Color
----@field public ["everything else"] Color
+---@field walkable Color
+---@field ignored Color
+---@field blocking Color
+---@field road Color
+---@field ["stairs walkable"] Color
+---@field drones Color
+---@field terrain Color
+---@field ["everything else"] Color
 worldDebugColoring_NavigationImpact = {}
 
 ---@param fields? worldDebugColoring_NavigationImpact
 ---@return worldDebugColoring_NavigationImpact
-function worldDebugColoring_NavigationImpact.new(fields) return end
+function worldDebugColoring_NavigationImpact.new(fields) end

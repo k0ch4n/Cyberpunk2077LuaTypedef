@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class MountCommandHandlerTask: AIbehaviortaskScript
----@field public command AIArgumentMapping
----@field public mountEventData AIArgumentMapping
----@field public callbackName CName
+---@field command AIArgumentMapping
+---@field mountEventData AIArgumentMapping
+---@field callbackName CName
 MountCommandHandlerTask = {}
 
 ---@param fields? MountCommandHandlerTask
 ---@return MountCommandHandlerTask
-function MountCommandHandlerTask.new(fields) return end
+function MountCommandHandlerTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MountCommandHandlerTask:Activate(context) return end
+function MountCommandHandlerTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function MountCommandHandlerTask:Update(context) return end
+function MountCommandHandlerTask:Update(context) end

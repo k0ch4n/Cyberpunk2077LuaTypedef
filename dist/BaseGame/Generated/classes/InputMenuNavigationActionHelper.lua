@@ -5,10 +5,10 @@ InputMenuNavigationActionHelper = {}
 
 ---@param fields? InputMenuNavigationActionHelper
 ---@return InputMenuNavigationActionHelper
-function InputMenuNavigationActionHelper.new(fields) return end
+function InputMenuNavigationActionHelper.new(fields) end
 
 ---@return CName
-function InputMenuNavigationActionHelper.GetNextSubActionName() return end
+function InputMenuNavigationActionHelper.GetNextSubActionName() end
 
 ---@return CName
-function InputMenuNavigationActionHelper.GetPreviousSubActionName() return end
+function InputMenuNavigationActionHelper.GetPreviousSubActionName() end

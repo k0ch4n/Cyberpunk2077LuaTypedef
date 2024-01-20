@@ -5,4 +5,4 @@ gameuiPanzerMiniGameController = {}
 
 ---@param fields? gameuiPanzerMiniGameController
 ---@return gameuiPanzerMiniGameController
-function gameuiPanzerMiniGameController.new(fields) return end
+function gameuiPanzerMiniGameController.new(fields) end

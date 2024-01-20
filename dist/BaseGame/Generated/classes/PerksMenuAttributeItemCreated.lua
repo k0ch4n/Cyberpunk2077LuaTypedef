@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PerksMenuAttributeItemCreated: redEvent
----@field public perksMenuAttributeItem PerksMenuAttributeItemController
+---@field perksMenuAttributeItem PerksMenuAttributeItemController
 PerksMenuAttributeItemCreated = {}
 
 ---@param fields? PerksMenuAttributeItemCreated
 ---@return PerksMenuAttributeItemCreated
-function PerksMenuAttributeItemCreated.new(fields) return end
+function PerksMenuAttributeItemCreated.new(fields) end

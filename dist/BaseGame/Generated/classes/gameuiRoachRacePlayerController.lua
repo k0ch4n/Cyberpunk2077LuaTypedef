@@ -1,35 +1,29 @@
 ---@meta
 
 ---@class gameuiRoachRacePlayerController: gameuiSideScrollerMiniGamePlayerController
----@field private runAnimation CName
----@field private jumpAnimation CName
----@field private currentAnimation inkanimProxy
+---@field runAnimation CName
+---@field jumpAnimation CName
+---@field currentAnimation inkanimProxy
 gameuiRoachRacePlayerController = {}
 
 ---@param fields? gameuiRoachRacePlayerController
 ---@return gameuiRoachRacePlayerController
-function gameuiRoachRacePlayerController.new(fields) return end
+function gameuiRoachRacePlayerController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiRoachRacePlayerController:OnDie() return end
+function gameuiRoachRacePlayerController:OnDie() end
 
----@protected
 ---@return Bool
-function gameuiRoachRacePlayerController:OnJumpEnd() return end
+function gameuiRoachRacePlayerController:OnJumpEnd() end
 
----@protected
 ---@return Bool
-function gameuiRoachRacePlayerController:OnJumpStart() return end
+function gameuiRoachRacePlayerController:OnJumpStart() end
 
----@protected
 ---@return Bool
-function gameuiRoachRacePlayerController:OnRun() return end
+function gameuiRoachRacePlayerController:OnRun() end
 
----@private
 ---@return nil
-function gameuiRoachRacePlayerController:Jump() return end
+function gameuiRoachRacePlayerController:Jump() end
 
----@private
 ---@return nil
-function gameuiRoachRacePlayerController:Run() return end
+function gameuiRoachRacePlayerController:Run() end

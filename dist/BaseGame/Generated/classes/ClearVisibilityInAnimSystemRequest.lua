@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ClearVisibilityInAnimSystemRequest: gameScriptableSystemRequest
----@field public entityID entEntityID
+---@field entityID entEntityID
 ClearVisibilityInAnimSystemRequest = {}
 
 ---@param fields? ClearVisibilityInAnimSystemRequest
 ---@return ClearVisibilityInAnimSystemRequest
-function ClearVisibilityInAnimSystemRequest.new(fields) return end
+function ClearVisibilityInAnimSystemRequest.new(fields) end

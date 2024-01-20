@@ -5,31 +5,31 @@ gamedataAIHitCond_Record = {}
 
 ---@param fields? gamedataAIHitCond_Record
 ---@return gamedataAIHitCond_Record
-function gamedataAIHitCond_Record.new(fields) return end
+function gamedataAIHitCond_Record.new(fields) end
 
 ---@return CName
-function gamedataAIHitCond_Record:AttackTag() return end
+function gamedataAIHitCond_Record:AttackTag() end
 
 ---@return Int32
-function gamedataAIHitCond_Record:CumulatedDamageThreshold() return end
+function gamedataAIHitCond_Record:CumulatedDamageThreshold() end
 
 ---@return Int32
-function gamedataAIHitCond_Record:HitDirection() return end
+function gamedataAIHitCond_Record:HitDirection() end
 
 ---@return Float
-function gamedataAIHitCond_Record:HitTimeout() return end
+function gamedataAIHitCond_Record:HitTimeout() end
 
 ---@return Int32
-function gamedataAIHitCond_Record:MaxHitSeverity() return end
+function gamedataAIHitCond_Record:MaxHitSeverity() end
 
 ---@return Int32
-function gamedataAIHitCond_Record:MinHitSeverity() return end
+function gamedataAIHitCond_Record:MinHitSeverity() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIHitCond_Record:Target() return end
+function gamedataAIHitCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIHitCond_Record:TargetHandle() return end
+function gamedataAIHitCond_Record:TargetHandle() end
 
 ---@return Int32
-function gamedataAIHitCond_Record:TargetHitCount() return end
+function gamedataAIHitCond_Record:TargetHitCount() end

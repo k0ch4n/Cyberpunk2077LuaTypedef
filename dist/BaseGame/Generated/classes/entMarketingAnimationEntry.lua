@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entMarketingAnimationEntry
----@field public animationName CName
----@field public time Float
----@field public frame Float
+---@field animationName CName
+---@field time Float
+---@field frame Float
 entMarketingAnimationEntry = {}
 
 ---@param fields? entMarketingAnimationEntry
 ---@return entMarketingAnimationEntry
-function entMarketingAnimationEntry.new(fields) return end
+function entMarketingAnimationEntry.new(fields) end

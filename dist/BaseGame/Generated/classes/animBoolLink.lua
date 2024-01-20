@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animBoolLink
----@field public node animAnimNode_BoolValue
+---@field node animAnimNode_BoolValue
 animBoolLink = {}
 
 ---@param fields? animBoolLink
 ---@return animBoolLink
-function animBoolLink.new(fields) return end
+function animBoolLink.new(fields) end

@@ -1,57 +1,46 @@
 ---@meta
 
 ---@class GameplayMappinController: QuestMappinController
----@field private anim inkanimProxy
----@field private isVisibleThroughWalls Bool
+---@field anim inkanimProxy
+---@field isVisibleThroughWalls Bool
 GameplayMappinController = {}
 
 ---@param fields? GameplayMappinController
 ---@return GameplayMappinController
-function GameplayMappinController.new(fields) return end
+function GameplayMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function GameplayMappinController:OnUpdate() return end
+function GameplayMappinController:OnUpdate() end
 
----@private
 ---@return CName
-function GameplayMappinController:ComputeRootState() return end
+function GameplayMappinController:ComputeRootState() end
 
----@private
 ---@return EGameplayRole
-function GameplayMappinController:GetGameplayRole() return end
+function GameplayMappinController:GetGameplayRole() end
 
----@private
 ---@param mappinVariant gamedataMappinVariant
 ---@param braindanceLayer braindanceVisionMode
 ---@return CName
-function GameplayMappinController:GetTexturePartForDeviceEffect(mappinVariant, braindanceLayer) return end
+function GameplayMappinController:GetTexturePartForDeviceEffect(mappinVariant, braindanceLayer) end
 
----@private
 ---@param gameplayRole EGameplayRole
 ---@return CName
-function GameplayMappinController:GetTexturePartForGameplayRole(gameplayRole) return end
+function GameplayMappinController:GetTexturePartForGameplayRole(gameplayRole) end
 
----@private
 ---@return nil
-function GameplayMappinController:SetClampVisibility() return end
+function GameplayMappinController:SetClampVisibility() end
 
----@private
 ---@return Bool
-function GameplayMappinController:ShouldBeClamped() return end
+function GameplayMappinController:ShouldBeClamped() end
 
----@private
 ---@return nil
-function GameplayMappinController:UpdateIcon() return end
+function GameplayMappinController:UpdateIcon() end
 
----@protected
 ---@return nil
-function GameplayMappinController:UpdateTrackedState() return end
+function GameplayMappinController:UpdateTrackedState() end
 
----@private
 ---@return nil
-function GameplayMappinController:UpdateVisibility() return end
+function GameplayMappinController:UpdateVisibility() end
 
----@private
 ---@return nil
-function GameplayMappinController:UpdateVisibilityThroughWalls() return end
+function GameplayMappinController:UpdateVisibilityThroughWalls() end

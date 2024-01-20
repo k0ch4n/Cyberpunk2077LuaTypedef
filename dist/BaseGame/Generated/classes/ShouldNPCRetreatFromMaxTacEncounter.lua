@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class ShouldNPCRetreatFromMaxTacEncounter: PreventionConditionAbstract
----@field public agentRegistry PoliceAgentRegistry
----@field public threatLocation AITrackedLocation
+---@field agentRegistry PoliceAgentRegistry
+---@field threatLocation AITrackedLocation
 ShouldNPCRetreatFromMaxTacEncounter = {}
 
 ---@param fields? ShouldNPCRetreatFromMaxTacEncounter
 ---@return ShouldNPCRetreatFromMaxTacEncounter
-function ShouldNPCRetreatFromMaxTacEncounter.new(fields) return end
+function ShouldNPCRetreatFromMaxTacEncounter.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldNPCRetreatFromMaxTacEncounter:Check(context) return end
+function ShouldNPCRetreatFromMaxTacEncounter:Check(context) end

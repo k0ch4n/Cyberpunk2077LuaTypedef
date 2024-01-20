@@ -1,45 +1,43 @@
 ---@meta
 
 ---@class WeaponVendingMachineControllerPS: VendingMachineControllerPS
----@field private weaponVendingMachineSetup WeaponVendingMachineSetup
----@field private weaponVendingMachineSFX WeaponVendingMachineSFX
+---@field weaponVendingMachineSetup WeaponVendingMachineSetup
+---@field weaponVendingMachineSFX WeaponVendingMachineSFX
 WeaponVendingMachineControllerPS = {}
 
 ---@param fields? WeaponVendingMachineControllerPS
 ---@return WeaponVendingMachineControllerPS
-function WeaponVendingMachineControllerPS.new(fields) return end
+function WeaponVendingMachineControllerPS.new(fields) end
 
 ---@return CName
-function WeaponVendingMachineControllerPS:GetGlitchStartSFX() return end
+function WeaponVendingMachineControllerPS:GetGlitchStartSFX() end
 
 ---@return CName
-function WeaponVendingMachineControllerPS:GetGlitchStopSFX() return end
+function WeaponVendingMachineControllerPS:GetGlitchStopSFX() end
 
 ---@return CName
-function WeaponVendingMachineControllerPS:GetGunFallSFX() return end
+function WeaponVendingMachineControllerPS:GetGunFallSFX() end
 
 ---@return Int32
-function WeaponVendingMachineControllerPS:GetHackedItemCount() return end
+function WeaponVendingMachineControllerPS:GetHackedItemCount() end
 
 ---@return TweakDBID
-function WeaponVendingMachineControllerPS:GetJunkItemID() return end
+function WeaponVendingMachineControllerPS:GetJunkItemID() end
 
 ---@return CName
-function WeaponVendingMachineControllerPS:GetProcessingSFX() return end
+function WeaponVendingMachineControllerPS:GetProcessingSFX() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function WeaponVendingMachineControllerPS:GetQuickHackActions(context) return end
+function WeaponVendingMachineControllerPS:GetQuickHackActions(context) end
 
 ---@return Float
-function WeaponVendingMachineControllerPS:GetTimeToCompletePurchase() return end
+function WeaponVendingMachineControllerPS:GetTimeToCompletePurchase() end
 
 ---@return TweakDBID
-function WeaponVendingMachineControllerPS:GetVendorTweakID() return end
+function WeaponVendingMachineControllerPS:GetVendorTweakID() end
 
----@protected
 ---@param actions gamedeviceAction[]
 ---@param context gameGetActionsContext
 ---@return nil
-function WeaponVendingMachineControllerPS:PushShopStockActions(actions, context) return end
+function WeaponVendingMachineControllerPS:PushShopStockActions(actions, context) end

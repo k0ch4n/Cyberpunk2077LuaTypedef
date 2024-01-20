@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameSPartSlots
----@field public status gameESlotState
----@field public installedPart gameItemID
----@field public slotID TweakDBID
----@field public innerItemData gameInnerItemData
+---@field status gameESlotState
+---@field installedPart gameItemID
+---@field slotID TweakDBID
+---@field innerItemData gameInnerItemData
 gameSPartSlots = {}
 
 ---@param fields? gameSPartSlots
 ---@return gameSPartSlots
-function gameSPartSlots.new(fields) return end
+function gameSPartSlots.new(fields) end

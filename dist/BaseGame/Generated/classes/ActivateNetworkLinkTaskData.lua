@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ActivateNetworkLinkTaskData: gameScriptTaskData
----@field public linkIndex Int32
+---@field linkIndex Int32
 ActivateNetworkLinkTaskData = {}
 
 ---@param fields? ActivateNetworkLinkTaskData
 ---@return ActivateNetworkLinkTaskData
-function ActivateNetworkLinkTaskData.new(fields) return end
+function ActivateNetworkLinkTaskData.new(fields) end

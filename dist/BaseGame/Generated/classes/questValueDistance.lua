@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questValueDistance: questIDistance
----@field public distanceValue Float
+---@field distanceValue Float
 questValueDistance = {}
 
 ---@param fields? questValueDistance
 ---@return questValueDistance
-function questValueDistance.new(fields) return end
+function questValueDistance.new(fields) end

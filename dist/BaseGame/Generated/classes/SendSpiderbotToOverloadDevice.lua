@@ -5,7 +5,7 @@ SendSpiderbotToOverloadDevice = {}
 
 ---@param fields? SendSpiderbotToOverloadDevice
 ---@return SendSpiderbotToOverloadDevice
-function SendSpiderbotToOverloadDevice.new(fields) return end
+function SendSpiderbotToOverloadDevice.new(fields) end
 
 ---@return nil
-function SendSpiderbotToOverloadDevice:SetProperties() return end
+function SendSpiderbotToOverloadDevice:SetProperties() end

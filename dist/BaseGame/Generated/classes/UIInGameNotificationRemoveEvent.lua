@@ -5,4 +5,4 @@ UIInGameNotificationRemoveEvent = {}
 
 ---@param fields? UIInGameNotificationRemoveEvent
 ---@return UIInGameNotificationRemoveEvent
-function UIInGameNotificationRemoveEvent.new(fields) return end
+function UIInGameNotificationRemoveEvent.new(fields) end

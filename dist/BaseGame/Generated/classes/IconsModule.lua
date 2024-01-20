@@ -5,36 +5,30 @@ IconsModule = {}
 
 ---@param fields? IconsModule
 ---@return IconsModule
-function IconsModule.new(fields) return end
+function IconsModule.new(fields) end
 
----@protected
 ---@param actor gameHudActor
 ---@return IconsInstance
-function IconsModule:DuplicateLastInstance(actor) return end
+function IconsModule:DuplicateLastInstance(actor) end
 
----@private
 ---@return Bool
-function IconsModule:IsEnemyGrappled() return end
+function IconsModule:IsEnemyGrappled() end
 
----@private
 ---@return Bool
-function IconsModule:IsPlayerCarrying() return end
+function IconsModule:IsPlayerCarrying() end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob task
-function IconsModule:Process(mode) return end
+function IconsModule:Process(mode) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob[] jobs
-function IconsModule:Process(mode) return end
+function IconsModule:Process(mode) end
 
----@protected
 ---@param actor gameHudActor
 ---@return Bool
-function IconsModule:ShouldDisplayBodyDisposal(actor) return end
+function IconsModule:ShouldDisplayBodyDisposal(actor) end
 
 ---@param jobs HUDJob[]
 ---@return nil
-function IconsModule:Suppress(jobs) return end
+function IconsModule:Suppress(jobs) end

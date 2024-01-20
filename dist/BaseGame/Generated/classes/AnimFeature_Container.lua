@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AnimFeature_Container: animAnimFeature
----@field public opened Bool
----@field public transitionDuration Float
+---@field opened Bool
+---@field transitionDuration Float
 AnimFeature_Container = {}
 
 ---@param fields? AnimFeature_Container
 ---@return AnimFeature_Container
-function AnimFeature_Container.new(fields) return end
+function AnimFeature_Container.new(fields) end

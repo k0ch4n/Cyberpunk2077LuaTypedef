@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MenuItemData: IScriptable
----@field public menuData MenuData
+---@field menuData MenuData
 MenuItemData = {}
 
 ---@param fields? MenuItemData
 ---@return MenuItemData
-function MenuItemData.new(fields) return end
+function MenuItemData.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetCustomPersonalLinkReason: ScriptableDeviceAction
----@field public reason TweakDBID
+---@field reason TweakDBID
 SetCustomPersonalLinkReason = {}
 
 ---@param fields? SetCustomPersonalLinkReason
 ---@return SetCustomPersonalLinkReason
-function SetCustomPersonalLinkReason.new(fields) return end
+function SetCustomPersonalLinkReason.new(fields) end
 
 ---@return String
-function SetCustomPersonalLinkReason:GetFriendlyDescription() return end
+function SetCustomPersonalLinkReason:GetFriendlyDescription() end

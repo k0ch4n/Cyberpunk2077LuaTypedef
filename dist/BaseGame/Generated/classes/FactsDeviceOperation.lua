@@ -1,24 +1,23 @@
 ---@meta
 
 ---@class FactsDeviceOperation: DeviceOperationBase
----@field public facts SFactOperationData[]
+---@field facts SFactOperationData[]
 FactsDeviceOperation = {}
 
 ---@param fields? FactsDeviceOperation
 ---@return FactsDeviceOperation
-function FactsDeviceOperation.new(fields) return end
+function FactsDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function FactsDeviceOperation:Execute(owner) return end
+function FactsDeviceOperation:Execute(owner) end
 
----@private
 ---@param factsArg SFactOperationData[]
 ---@param owner gameObject
 ---@param restore? Bool
 ---@return nil
-function FactsDeviceOperation:ResolveFacts(factsArg, owner, restore) return end
+function FactsDeviceOperation:ResolveFacts(factsArg, owner, restore) end
 
 ---@param owner gameObject
 ---@return nil
-function FactsDeviceOperation:Restore(owner) return end
+function FactsDeviceOperation:Restore(owner) end

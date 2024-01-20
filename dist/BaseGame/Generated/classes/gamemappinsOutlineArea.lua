@@ -5,4 +5,4 @@ gamemappinsOutlineArea = {}
 
 ---@param fields? gamemappinsOutlineArea
 ---@return gamemappinsOutlineArea
-function gamemappinsOutlineArea.new(fields) return end
+function gamemappinsOutlineArea.new(fields) end

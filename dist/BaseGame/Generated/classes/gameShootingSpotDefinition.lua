@@ -5,4 +5,4 @@ gameShootingSpotDefinition = {}
 
 ---@param fields? gameShootingSpotDefinition
 ---@return gameShootingSpotDefinition
-function gameShootingSpotDefinition.new(fields) return end
+function gameShootingSpotDefinition.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class meshMeshParamCompiledPhysics: meshMeshParameter
----@field public collection physicsDeferredCollection
+---@field collection physicsDeferredCollection
 meshMeshParamCompiledPhysics = {}
 
 ---@param fields? meshMeshParamCompiledPhysics
 ---@return meshMeshParamCompiledPhysics
-function meshMeshParamCompiledPhysics.new(fields) return end
+function meshMeshParamCompiledPhysics.new(fields) end

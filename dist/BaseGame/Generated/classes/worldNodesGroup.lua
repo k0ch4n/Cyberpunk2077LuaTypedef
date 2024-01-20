@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class worldNodesGroup: ISerializable
----@field public name CName
----@field public id Uint64
----@field public groupUniqueId CRUID
----@field public nodes worldNode[]
----@field public subGroups worldNodesGroup[]
----@field public type worldNodeGroupType
----@field public keepPosition Bool
----@field public transform Transform
----@field public transformCalculated Bool
----@field public customPivotOffset Transform
----@field public proxyMeshGroupBuildParams worldProxyMeshGroupBuildParams
----@field public proxyMesh CMesh
----@field public proxyDistanceFactor Float
----@field public metadataArray worldPrefabMetadata[]
+---@field name CName
+---@field id Uint64
+---@field groupUniqueId CRUID
+---@field nodes worldNode[]
+---@field subGroups worldNodesGroup[]
+---@field type worldNodeGroupType
+---@field keepPosition Bool
+---@field transform Transform
+---@field transformCalculated Bool
+---@field customPivotOffset Transform
+---@field proxyMeshGroupBuildParams worldProxyMeshGroupBuildParams
+---@field proxyMesh CMesh
+---@field proxyDistanceFactor Float
+---@field metadataArray worldPrefabMetadata[]
 worldNodesGroup = {}
 
 ---@param fields? worldNodesGroup
 ---@return worldNodesGroup
-function worldNodesGroup.new(fields) return end
+function worldNodesGroup.new(fields) end

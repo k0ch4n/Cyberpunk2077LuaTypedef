@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameVisionModuleEvent: redEvent
----@field public changedModule CName
----@field public activator gameObject
----@field public activated Bool
+---@field changedModule CName
+---@field activator gameObject
+---@field activated Bool
 gameVisionModuleEvent = {}
 
 ---@param fields? gameVisionModuleEvent
 ---@return gameVisionModuleEvent
-function gameVisionModuleEvent.new(fields) return end
+function gameVisionModuleEvent.new(fields) end

@@ -5,10 +5,10 @@ gamedataStatPoolCost_Record = {}
 
 ---@param fields? gamedataStatPoolCost_Record
 ---@return gamedataStatPoolCost_Record
-function gamedataStatPoolCost_Record.new(fields) return end
+function gamedataStatPoolCost_Record.new(fields) end
 
 ---@return gamedataStatPool_Record
-function gamedataStatPoolCost_Record:StatPool() return end
+function gamedataStatPoolCost_Record:StatPool() end
 
 ---@return gamedataStatPool_Record
-function gamedataStatPoolCost_Record:StatPoolHandle() return end
+function gamedataStatPoolCost_Record:StatPoolHandle() end

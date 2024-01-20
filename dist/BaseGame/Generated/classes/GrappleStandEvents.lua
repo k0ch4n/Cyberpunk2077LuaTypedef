@@ -1,32 +1,30 @@
 ---@meta
 
 ---@class GrappleStandEvents: LocomotionTakedownEvents
----@field public isWalking Bool
+---@field isWalking Bool
 GrappleStandEvents = {}
 
 ---@param fields? GrappleStandEvents
 ---@return GrappleStandEvents
-function GrappleStandEvents.new(fields) return end
+function GrappleStandEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleStandEvents:IsPreferredWalkingSpeed(stateContext, scriptInterface) return end
+function GrappleStandEvents:IsPreferredWalkingSpeed(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleStandEvents:OnEnter(stateContext, scriptInterface) return end
+function GrappleStandEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleStandEvents:OnExit(stateContext, scriptInterface) return end
+function GrappleStandEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleStandEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function GrappleStandEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

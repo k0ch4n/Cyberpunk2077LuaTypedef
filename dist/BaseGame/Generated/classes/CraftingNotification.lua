@@ -1,17 +1,15 @@
 ---@meta
 
 ---@class CraftingNotification: GenericNotificationController
----@field private introAnimation inkanimProxy
+---@field introAnimation inkanimProxy
 CraftingNotification = {}
 
 ---@param fields? CraftingNotification
 ---@return CraftingNotification
-function CraftingNotification.new(fields) return end
+function CraftingNotification.new(fields) end
 
----@protected
 ---@return Bool
-function CraftingNotification:OnInitialize() return end
+function CraftingNotification:OnInitialize() end
 
----@protected
 ---@return Bool
-function CraftingNotification:OnUnitialize() return end
+function CraftingNotification:OnUnitialize() end

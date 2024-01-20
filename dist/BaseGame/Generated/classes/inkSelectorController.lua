@@ -1,85 +1,81 @@
 ---@meta
 
 ---@class inkSelectorController: inkWidgetLogicController
----@field public index Int32
----@field public values String[]
----@field public cycledNavigation Bool
----@field public SelectionChanged inkSelectionChangeCallback
----@field public labelPath CName
----@field public valuePath CName
----@field public leftArrowPath CName
----@field public rightArrowPath CName
----@field protected label inkTextWidget
----@field protected value inkTextWidget
----@field protected leftArrow inkWidget
----@field protected rightArrow inkWidget
----@field protected rightArrowButton inkButtonController
----@field protected leftArrowButton inkButtonController
+---@field index Int32
+---@field values String[]
+---@field cycledNavigation Bool
+---@field SelectionChanged inkSelectionChangeCallback
+---@field labelPath CName
+---@field valuePath CName
+---@field leftArrowPath CName
+---@field rightArrowPath CName
+---@field label inkTextWidget
+---@field value inkTextWidget
+---@field leftArrow inkWidget
+---@field rightArrow inkWidget
+---@field rightArrowButton inkButtonController
+---@field leftArrowButton inkButtonController
 inkSelectorController = {}
 
 ---@param fields? inkSelectorController
 ---@return inkSelectorController
-function inkSelectorController.new(fields) return end
+function inkSelectorController.new(fields) end
 
 ---@param value String
 ---@return nil
-function inkSelectorController:AddValue(value) return end
+function inkSelectorController:AddValue(value) end
 
 ---@param values String[]
 ---@return nil
-function inkSelectorController:AddValues(values) return end
+function inkSelectorController:AddValues(values) end
 
 ---@return nil
-function inkSelectorController:Clear() return end
+function inkSelectorController:Clear() end
 
 ---@return Int32
-function inkSelectorController:GetCurrIndex() return end
+function inkSelectorController:GetCurrIndex() end
 
 ---@return String[]
-function inkSelectorController:GetValues() return end
+function inkSelectorController:GetValues() end
 
 ---@return Int32
-function inkSelectorController:GetValuesCount() return end
+function inkSelectorController:GetValuesCount() end
 
 ---@return Bool
-function inkSelectorController:IsCyclical() return end
+function inkSelectorController:IsCyclical() end
 
 ---@return Int32
-function inkSelectorController:Next() return end
+function inkSelectorController:Next() end
 
 ---@return nil
-function inkSelectorController:Prior() return end
+function inkSelectorController:Prior() end
 
 ---@param index Int32
 ---@return nil
-function inkSelectorController:SetCurrIndex(index) return end
+function inkSelectorController:SetCurrIndex(index) end
 
 ---@param index Int32
 ---@param changeDirection inkSelectorChangeDirection
 ---@return nil
-function inkSelectorController:SetCurrIndexWithDirection(index, changeDirection) return end
+function inkSelectorController:SetCurrIndexWithDirection(index, changeDirection) end
 
----@protected
 ---@return Bool
-function inkSelectorController:OnInitialize() return end
+function inkSelectorController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSelectorController:OnLeft(e) return end
+function inkSelectorController:OnLeft(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function inkSelectorController:OnRight(e) return end
+function inkSelectorController:OnRight(e) end
 
----@protected
 ---@param value String
 ---@param index Int32
 ---@param changeDirection inkSelectorChangeDirection
 ---@return Bool
-function inkSelectorController:OnUpdateValue(value, index, changeDirection) return end
+function inkSelectorController:OnUpdateValue(value, index, changeDirection) end
 
 ---@param label String
 ---@return nil
-function inkSelectorController:SetLabel(label) return end
+function inkSelectorController:SetLabel(label) end

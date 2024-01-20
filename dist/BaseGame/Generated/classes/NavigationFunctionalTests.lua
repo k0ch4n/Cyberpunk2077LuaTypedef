@@ -5,13 +5,13 @@ NavigationFunctionalTests = {}
 
 ---@param fields? NavigationFunctionalTests
 ---@return NavigationFunctionalTests
-function NavigationFunctionalTests.new(fields) return end
+function NavigationFunctionalTests.new(fields) end
 
 ---@return nil
-function NavigationFunctionalTests:GetPathOnNavmesh() return end
+function NavigationFunctionalTests:GetPathOnNavmesh() end
 
 ---@return nil
-function NavigationFunctionalTests:RunGPSQuery() return end
+function NavigationFunctionalTests:RunGPSQuery() end
 
 ---@return nil
-function NavigationFunctionalTests:UpdateGPSQuery() return end
+function NavigationFunctionalTests:UpdateGPSQuery() end

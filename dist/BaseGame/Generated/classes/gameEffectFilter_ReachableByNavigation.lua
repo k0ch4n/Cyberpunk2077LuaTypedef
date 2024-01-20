@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameEffectFilter_ReachableByNavigation: gameEffectObjectSingleFilter
----@field public maxPathLength gameEffectInputParameter_Float
+---@field maxPathLength gameEffectInputParameter_Float
 gameEffectFilter_ReachableByNavigation = {}
 
 ---@param fields? gameEffectFilter_ReachableByNavigation
 ---@return gameEffectFilter_ReachableByNavigation
-function gameEffectFilter_ReachableByNavigation.new(fields) return end
+function gameEffectFilter_ReachableByNavigation.new(fields) end

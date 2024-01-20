@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class mpPersistentTestBoxState: netIEntityState
----@field public isOn Bool
----@field public weakPersistentEntity mpPersistentTestBox
----@field public weakPersistentEntityComponent entIComponent
----@field public weakDynamicEntity gameObject
----@field public weakDynamicEntityComponent entIComponent
+---@field isOn Bool
+---@field weakPersistentEntity mpPersistentTestBox
+---@field weakPersistentEntityComponent entIComponent
+---@field weakDynamicEntity gameObject
+---@field weakDynamicEntityComponent entIComponent
 mpPersistentTestBoxState = {}
 
 ---@param fields? mpPersistentTestBoxState
 ---@return mpPersistentTestBoxState
-function mpPersistentTestBoxState.new(fields) return end
+function mpPersistentTestBoxState.new(fields) end

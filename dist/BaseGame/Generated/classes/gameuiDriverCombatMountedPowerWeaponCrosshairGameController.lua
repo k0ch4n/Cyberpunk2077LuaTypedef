@@ -1,62 +1,54 @@
 ---@meta
 
 ---@class gameuiDriverCombatMountedPowerWeaponCrosshairGameController: gameuiCrosshairBaseGameController
----@field private reticleLeft inkWidgetReference
----@field private reticleRight inkWidgetReference
----@field private reticleStartingRange Float
----@field private defaultOpacity Float
----@field private reducedOpacity Float
----@field private weaponList gameweaponObject[]
----@field private isTPP Bool
----@field private uiActiveVehicleDataBlackboard gameIBlackboard
----@field private psmCombatStateChangedCallback redCallbackObject
----@field private uiActiveVehicleCameraChangedCallback redCallbackObject
+---@field reticleLeft inkWidgetReference
+---@field reticleRight inkWidgetReference
+---@field reticleStartingRange Float
+---@field defaultOpacity Float
+---@field reducedOpacity Float
+---@field weaponList gameweaponObject[]
+---@field isTPP Bool
+---@field uiActiveVehicleDataBlackboard gameIBlackboard
+---@field psmCombatStateChangedCallback redCallbackObject
+---@field uiActiveVehicleCameraChangedCallback redCallbackObject
 gameuiDriverCombatMountedPowerWeaponCrosshairGameController = {}
 
 ---@param fields? gameuiDriverCombatMountedPowerWeaponCrosshairGameController
 ---@return gameuiDriverCombatMountedPowerWeaponCrosshairGameController
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController.new(fields) return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController.new(fields) end
 
----@protected
 ---@param isTPP Bool
 ---@return Bool
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnActiveVehicleCameraChanged(isTPP) return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnActiveVehicleCameraChanged(isTPP) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPSMCombatStateChanged(value) return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPSMCombatStateChanged(value) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPlayerAttach(player) return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPlayerDetach(player) return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPlayerDetach(player) end
 
----@protected
 ---@return Bool
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPreIntro() return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnPreIntro() end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:GetIntroAnimation(firstEquip) return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:GetOutroAnimation() return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnState_Aim() return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:OnState_Aim() end
 
----@private
 ---@return Bool
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:TryGetWeaponObjectList() return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:TryGetWeaponObjectList() end
 
----@protected
 ---@param uiScreenResolution Vector2
 ---@return nil
-function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:UpdateTranslation(uiScreenResolution) return end
+function gameuiDriverCombatMountedPowerWeaponCrosshairGameController:UpdateTranslation(uiScreenResolution) end

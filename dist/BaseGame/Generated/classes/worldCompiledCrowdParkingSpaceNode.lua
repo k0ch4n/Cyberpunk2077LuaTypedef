@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldCompiledCrowdParkingSpaceNode: worldNode
----@field public crowdCreationIndex Uint32
----@field public parkingSpaceId Uint32
+---@field crowdCreationIndex Uint32
+---@field parkingSpaceId Uint32
 worldCompiledCrowdParkingSpaceNode = {}
 
 ---@param fields? worldCompiledCrowdParkingSpaceNode
 ---@return worldCompiledCrowdParkingSpaceNode
-function worldCompiledCrowdParkingSpaceNode.new(fields) return end
+function worldCompiledCrowdParkingSpaceNode.new(fields) end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SetPoliceForcesPool: gameScriptableSystemRequest
----@field public disableOnFootSpawn Bool
----@field public disableVehicleSpawn Bool
----@field public disableDroneSpawn Bool
----@field public resetToDefault Bool
----@field public source CName
+---@field disableOnFootSpawn Bool
+---@field disableVehicleSpawn Bool
+---@field disableDroneSpawn Bool
+---@field resetToDefault Bool
+---@field source CName
 SetPoliceForcesPool = {}
 
 ---@param fields? SetPoliceForcesPool
 ---@return SetPoliceForcesPool
-function SetPoliceForcesPool.new(fields) return end
+function SetPoliceForcesPool.new(fields) end
 
 ---@return String
-function SetPoliceForcesPool:GetFriendlyDesctiption() return end
+function SetPoliceForcesPool:GetFriendlyDesctiption() end

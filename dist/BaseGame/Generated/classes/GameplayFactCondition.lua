@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class GameplayFactCondition: GameplayConditionBase
----@field public factName CName
----@field public value Int32
----@field public comparisonType ECompareOp
----@field public description String
+---@field factName CName
+---@field value Int32
+---@field comparisonType ECompareOp
+---@field description String
 GameplayFactCondition = {}
 
 ---@param fields? GameplayFactCondition
 ---@return GameplayFactCondition
-function GameplayFactCondition.new(fields) return end
+function GameplayFactCondition.new(fields) end
 
 ---@param requester gameObject
 ---@return Bool
-function GameplayFactCondition:Evaluate(requester) return end
+function GameplayFactCondition:Evaluate(requester) end
 
 ---@param requester gameObject
 ---@return Condition
-function GameplayFactCondition:GetDescription(requester) return end
+function GameplayFactCondition:GetDescription(requester) end

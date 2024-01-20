@@ -5,7 +5,7 @@ DisableCorruptedSandevistanAction = {}
 
 ---@param fields? DisableCorruptedSandevistanAction
 ---@return DisableCorruptedSandevistanAction
-function DisableCorruptedSandevistanAction.new(fields) return end
+function DisableCorruptedSandevistanAction.new(fields) end
 
 ---@return nil
-function DisableCorruptedSandevistanAction:StartAction() return end
+function DisableCorruptedSandevistanAction:StartAction() end

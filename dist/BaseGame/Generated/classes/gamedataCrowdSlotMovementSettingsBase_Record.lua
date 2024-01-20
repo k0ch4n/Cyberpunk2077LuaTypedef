@@ -5,154 +5,154 @@ gamedataCrowdSlotMovementSettingsBase_Record = {}
 
 ---@param fields? gamedataCrowdSlotMovementSettingsBase_Record
 ---@return gamedataCrowdSlotMovementSettingsBase_Record
-function gamedataCrowdSlotMovementSettingsBase_Record.new(fields) return end
+function gamedataCrowdSlotMovementSettingsBase_Record.new(fields) end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:AbsoluteFrontClamp() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:AbsoluteFrontClamp() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:Acceleration() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:Acceleration() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:AccelerationFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:AccelerationFactor() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:AvoidanceReserve() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:AvoidanceReserve() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:BaseRadius() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:BaseRadius() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:BrakePressureFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:BrakePressureFactor() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerMaxDistanceNPC() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerMaxDistanceNPC() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerMaxDistancePlayer() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerMaxDistancePlayer() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerMinSpeed() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerMinSpeed() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerRadiusFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerRadiusFactor() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerSpeedFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:BumpTriggerSpeedFactor() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:CurveFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:CurveFactor() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:CurveLimit() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:CurveLimit() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:Deceleration() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:Deceleration() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:DirectionSmoothFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:DirectionSmoothFactor() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:DirectionStage() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:DirectionStage() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:DropItems() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:DropItems() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:FenceGapReserve() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:FenceGapReserve() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreCars() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreCars() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreLights() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreLights() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:IgnorePedestrians() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:IgnorePedestrians() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:IgnorePlayer() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:IgnorePlayer() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreRules() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreRules() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreSpeedLimitations() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreSpeedLimitations() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreStatics() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:IgnoreStatics() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:LaneObstacleBuffer() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:LaneObstacleBuffer() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:Length() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:Length() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MaxAnimScale() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MaxAnimScale() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MaxDeviationFromPath() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MaxDeviationFromPath() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MaxLightDelay() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MaxLightDelay() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MaxSpeed() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MaxSpeed() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MaxSpeedTolerance() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MaxSpeedTolerance() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MaxStopSpeed() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MaxStopSpeed() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MinAnimScale() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MinAnimScale() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MinLightDelay() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MinLightDelay() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MinSpeed() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MinSpeed() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:MinStopSpeed() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MinStopSpeed() end
 
 ---@return Int32
-function gamedataCrowdSlotMovementSettingsBase_Record:MoveSpeedType() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:MoveSpeedType() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:OverlapTolerance() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:OverlapTolerance() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:PredictSpecialVehicles() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:PredictSpecialVehicles() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:RadiusBottomClamp() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:RadiusBottomClamp() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:RadiusSmoothFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:RadiusSmoothFactor() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:RadiusTopClamp() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:RadiusTopClamp() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:ReachFactor() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:ReachFactor() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:RotationSpeed() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:RotationSpeed() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:SoftAdheranceMax() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:SoftAdheranceMax() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:SoftAdheranceMin() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:SoftAdheranceMin() end
 
 ---@return Bool
-function gamedataCrowdSlotMovementSettingsBase_Record:SpeedStage() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:SpeedStage() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:StopReserve() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:StopReserve() end
 
 ---@return Float
-function gamedataCrowdSlotMovementSettingsBase_Record:SurroundDistance() return end
+function gamedataCrowdSlotMovementSettingsBase_Record:SurroundDistance() end

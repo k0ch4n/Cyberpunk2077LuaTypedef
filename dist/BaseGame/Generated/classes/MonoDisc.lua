@@ -1,173 +1,142 @@
 ---@meta
 
 ---@class MonoDisc: BaseProjectile
----@field private throwtype ThrowType
----@field private targetAcquired Bool
----@field private player gameObject
----@field private disc gameObject
----@field private target gameObject
----@field private blackboard gameIBlackboard
----@field private discSpawnPoint Vector4
----@field private discPosition Vector4
----@field private collisionCount Int32
----@field private airTime Float
----@field private destroyTimer Float
----@field private returningToPlayer Bool
----@field private catchingPlayer Bool
----@field private discCaught Bool
----@field private discLodgedToSurface Bool
----@field private OnProjectileCaughtCallback redCallbackObject
----@field private wasNPCHit Bool
----@field private animationController entAnimationControllerComponent
+---@field throwtype ThrowType
+---@field targetAcquired Bool
+---@field player gameObject
+---@field disc gameObject
+---@field target gameObject
+---@field blackboard gameIBlackboard
+---@field discSpawnPoint Vector4
+---@field discPosition Vector4
+---@field collisionCount Int32
+---@field airTime Float
+---@field destroyTimer Float
+---@field returningToPlayer Bool
+---@field catchingPlayer Bool
+---@field discCaught Bool
+---@field discLodgedToSurface Bool
+---@field OnProjectileCaughtCallback redCallbackObject
+---@field wasNPCHit Bool
+---@field animationController entAnimationControllerComponent
 MonoDisc = {}
 
 ---@param fields? MonoDisc
 ---@return MonoDisc
-function MonoDisc.new(fields) return end
+function MonoDisc.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function MonoDisc:OnCollision(eventData) return end
+function MonoDisc:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileFollowEvent
 ---@return Bool
-function MonoDisc:OnFollowSuccess(eventData) return end
+function MonoDisc:OnFollowSuccess(eventData) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function MonoDisc:OnProjectileCaught(value) return end
+function MonoDisc:OnProjectileCaught(value) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function MonoDisc:OnProjectileInitialize(eventData) return end
+function MonoDisc:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function MonoDisc:OnRequestComponents(ri) return end
+function MonoDisc:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function MonoDisc:OnShoot(eventData) return end
+function MonoDisc:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function MonoDisc:OnShootTarget(eventData) return end
+function MonoDisc:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function MonoDisc:OnTakeControl(ri) return end
+function MonoDisc:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function MonoDisc:OnTick(eventData) return end
+function MonoDisc:OnTick(eventData) end
 
----@private
 ---@param eventData gameprojectileHitEvent
 ---@return nil
-function MonoDisc:DealDamage(eventData) return end
+function MonoDisc:DealDamage(eventData) end
 
----@private
 ---@param eventData gameprojectileShootEvent
 ---@return nil
-function MonoDisc:GeneralShoot(eventData) return end
+function MonoDisc:GeneralShoot(eventData) end
 
----@private
 ---@param id gamebbScriptID_Int32
 ---@return Int32
-function MonoDisc:GetBlackboardIntVariable(id) return end
+function MonoDisc:GetBlackboardIntVariable(id) end
 
----@private
 ---@return Float
-function MonoDisc:GetMaxDistance() return end
+function MonoDisc:GetMaxDistance() end
 
----@private
 ---@return Vector4
-function MonoDisc:GetPlayerPosition() return end
+function MonoDisc:GetPlayerPosition() end
 
----@private
 ---@return Float
-function MonoDisc:GetPlayerSpeed() return end
+function MonoDisc:GetPlayerSpeed() end
 
----@private
 ---@return CName
-function MonoDisc:GetPlayerTargetComponent() return end
+function MonoDisc:GetPlayerTargetComponent() end
 
----@private
 ---@param chargeParam Float
 ---@return nil
-function MonoDisc:GetThrowType(chargeParam) return end
+function MonoDisc:GetThrowType(chargeParam) end
 
----@private
 ---@return Bool
-function MonoDisc:IsPlayerInKerenzikov() return end
+function MonoDisc:IsPlayerInKerenzikov() end
 
----@private
 ---@param eventData gameprojectileShootEvent
 ---@return nil
-function MonoDisc:LaunchDisc(eventData) return end
+function MonoDisc:LaunchDisc(eventData) end
 
----@private
 ---@return nil
-function MonoDisc:LodgeDiscToSurface() return end
+function MonoDisc:LodgeDiscToSurface() end
 
----@private
 ---@param localToWorld Matrix
 ---@param startVelocity Float
 ---@param distance Float
 ---@param sideOffset Float
 ---@param height Float
 ---@return nil
-function MonoDisc:NoTargetLaunch(localToWorld, startVelocity, distance, sideOffset, height) return end
+function MonoDisc:NoTargetLaunch(localToWorld, startVelocity, distance, sideOffset, height) end
 
----@private
 ---@return nil
-function MonoDisc:PlayCatchAnimation() return end
+function MonoDisc:PlayCatchAnimation() end
 
----@private
 ---@return nil
-function MonoDisc:RegisterForProjectileCaught() return end
+function MonoDisc:RegisterForProjectileCaught() end
 
----@private
 ---@return nil
-function MonoDisc:ResetParameters() return end
+function MonoDisc:ResetParameters() end
 
----@private
 ---@return nil
-function MonoDisc:ReturnToPlayer() return end
+function MonoDisc:ReturnToPlayer() end
 
----@private
 ---@param target entIPlacedComponent
 ---@return nil
-function MonoDisc:SetTargetComponent(target) return end
+function MonoDisc:SetTargetComponent(target) end
 
----@private
 ---@param quickThrowTarget entIPlacedComponent
 ---@return nil
-function MonoDisc:SetTargetComponentQuickThrow(quickThrowTarget) return end
+function MonoDisc:SetTargetComponentQuickThrow(quickThrowTarget) end
 
----@private
 ---@return nil
-function MonoDisc:SpawnTrailEffects() return end
+function MonoDisc:SpawnTrailEffects() end
 
----@private
 ---@param effectName CName|string
 ---@param disc gameObject
 ---@return nil
-function MonoDisc:SpawnVisualEffect(effectName, disc) return end
+function MonoDisc:SpawnVisualEffect(effectName, disc) end
 
----@private
 ---@return nil
-function MonoDisc:StartCathingPlayer() return end
+function MonoDisc:StartCathingPlayer() end
 
----@private
 ---@return nil
-function MonoDisc:UpdateAnimData() return end
+function MonoDisc:UpdateAnimData() end

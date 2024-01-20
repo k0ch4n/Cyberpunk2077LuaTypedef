@@ -5,4 +5,4 @@ scnSceneTimeProvider = {}
 
 ---@param fields? scnSceneTimeProvider
 ---@return scnSceneTimeProvider
-function scnSceneTimeProvider.new(fields) return end
+function scnSceneTimeProvider.new(fields) end

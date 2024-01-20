@@ -1,38 +1,33 @@
 ---@meta
 
 ---@class ModifyStatPoolModifierEffector: gameEffector
----@field public owner gameObject
----@field public ownerEntityID entEntityID
----@field public poolType gamedataStatPoolType
----@field public modType gameStatPoolModificationTypes
----@field public recordId TweakDBID
----@field public cachedModifier gameStatPoolModifier
+---@field owner gameObject
+---@field ownerEntityID entEntityID
+---@field poolType gamedataStatPoolType
+---@field modType gameStatPoolModificationTypes
+---@field recordId TweakDBID
+---@field cachedModifier gameStatPoolModifier
 ModifyStatPoolModifierEffector = {}
 
 ---@param fields? ModifyStatPoolModifierEffector
 ---@return ModifyStatPoolModifierEffector
-function ModifyStatPoolModifierEffector.new(fields) return end
+function ModifyStatPoolModifierEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolModifierEffector:ActionOff(owner) return end
+function ModifyStatPoolModifierEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyStatPoolModifierEffector:ActionOn(owner) return end
+function ModifyStatPoolModifierEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyStatPoolModifierEffector:Initialize(record, parentRecord) return end
+function ModifyStatPoolModifierEffector:Initialize(record, parentRecord) end
 
----@private
 ---@return nil
-function ModifyStatPoolModifierEffector:RevertPoolModifier() return end
+function ModifyStatPoolModifierEffector:RevertPoolModifier() end
 
----@protected
 ---@return nil
-function ModifyStatPoolModifierEffector:Uninitialize() return end
+function ModifyStatPoolModifierEffector:Uninitialize() end

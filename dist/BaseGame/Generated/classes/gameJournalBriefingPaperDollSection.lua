@@ -5,4 +5,4 @@ gameJournalBriefingPaperDollSection = {}
 
 ---@param fields? gameJournalBriefingPaperDollSection
 ---@return gameJournalBriefingPaperDollSection
-function gameJournalBriefingPaperDollSection.new(fields) return end
+function gameJournalBriefingPaperDollSection.new(fields) end

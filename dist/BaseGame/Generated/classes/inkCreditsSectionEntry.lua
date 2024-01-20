@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkCreditsSectionEntry
----@field public sectionTitle String
----@field public names String[]
----@field public displayMode inkDisplayMode
+---@field sectionTitle String
+---@field names String[]
+---@field displayMode inkDisplayMode
 inkCreditsSectionEntry = {}
 
 ---@param fields? inkCreditsSectionEntry
 ---@return inkCreditsSectionEntry
-function inkCreditsSectionEntry.new(fields) return end
+function inkCreditsSectionEntry.new(fields) end

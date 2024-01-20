@@ -5,4 +5,4 @@ OnHoverOut = {}
 
 ---@param fields? OnHoverOut
 ---@return OnHoverOut
-function OnHoverOut.new(fields) return end
+function OnHoverOut.new(fields) end

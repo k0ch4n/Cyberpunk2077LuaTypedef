@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SetPreventionDifficulty: gameScriptableSystemRequest
----@field public damageDealtToPlayerMultiplier Float
----@field public chaseAggressivnessMultiplier Float
----@field public difficuiltyReset Bool
----@field public source CName
+---@field damageDealtToPlayerMultiplier Float
+---@field chaseAggressivnessMultiplier Float
+---@field difficuiltyReset Bool
+---@field source CName
 SetPreventionDifficulty = {}
 
 ---@param fields? SetPreventionDifficulty
 ---@return SetPreventionDifficulty
-function SetPreventionDifficulty.new(fields) return end
+function SetPreventionDifficulty.new(fields) end
 
 ---@return String
-function SetPreventionDifficulty:GetFriendlyDesctiption() return end
+function SetPreventionDifficulty:GetFriendlyDesctiption() end

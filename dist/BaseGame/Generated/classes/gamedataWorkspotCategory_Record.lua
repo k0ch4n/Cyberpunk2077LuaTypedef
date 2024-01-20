@@ -5,13 +5,13 @@ gamedataWorkspotCategory_Record = {}
 
 ---@param fields? gamedataWorkspotCategory_Record
 ---@return gamedataWorkspotCategory_Record
-function gamedataWorkspotCategory_Record.new(fields) return end
+function gamedataWorkspotCategory_Record.new(fields) end
 
 ---@return String
-function gamedataWorkspotCategory_Record:Comment() return end
+function gamedataWorkspotCategory_Record:Comment() end
 
 ---@return CName
-function gamedataWorkspotCategory_Record:EnumName() return end
+function gamedataWorkspotCategory_Record:EnumName() end
 
 ---@return gamedataWorkspotCategory
-function gamedataWorkspotCategory_Record:Type() return end
+function gamedataWorkspotCategory_Record:Type() end

@@ -1,477 +1,404 @@
 ---@meta
 
 ---@class NPCStatesComponent: gameAINetStateComponent
----@field private aimingLookatEvent entLookAtAddEvent
----@field private highLevelAnimFeatureName CName
----@field private upperBodyAnimFeatureName CName
----@field private stanceAnimFeatureName CName
----@field public statFlagDefensiveState gameStatModifierData_Deprecated
----@field private prevNPCStanceState gamedataNPCStanceState
----@field private previousHighLevelState gamedataNPCHighLevelState
----@field private prevHitReactionMode EHitReactionMode
----@field private bulkyStaggerMinRecordID TweakDBID
----@field private staggerMinRecordID TweakDBID
----@field private unstoppableRecordID TweakDBID
----@field private unstoppableTwitchMinRecordID TweakDBID
----@field private unstoppableTwitchNoneRecordID TweakDBID
----@field private forceImpactRecordID TweakDBID
----@field private forceStaggerRecordID TweakDBID
----@field private forceKnockdownRecordID TweakDBID
----@field private fragileRecordID TweakDBID
----@field private weakRecordID TweakDBID
----@field private toughRecordID TweakDBID
----@field private bulkyRecordID TweakDBID
----@field private regularRecordID TweakDBID
----@field private keepRecentThreatAfterRelaxedDuration Float
----@field private inCombat Bool
+---@field aimingLookatEvent entLookAtAddEvent
+---@field highLevelAnimFeatureName CName
+---@field upperBodyAnimFeatureName CName
+---@field stanceAnimFeatureName CName
+---@field statFlagDefensiveState gameStatModifierData_Deprecated
+---@field prevNPCStanceState gamedataNPCStanceState
+---@field previousHighLevelState gamedataNPCHighLevelState
+---@field prevHitReactionMode EHitReactionMode
+---@field bulkyStaggerMinRecordID TweakDBID
+---@field staggerMinRecordID TweakDBID
+---@field unstoppableRecordID TweakDBID
+---@field unstoppableTwitchMinRecordID TweakDBID
+---@field unstoppableTwitchNoneRecordID TweakDBID
+---@field forceImpactRecordID TweakDBID
+---@field forceStaggerRecordID TweakDBID
+---@field forceKnockdownRecordID TweakDBID
+---@field fragileRecordID TweakDBID
+---@field weakRecordID TweakDBID
+---@field toughRecordID TweakDBID
+---@field bulkyRecordID TweakDBID
+---@field regularRecordID TweakDBID
+---@field keepRecentThreatAfterRelaxedDuration Float
+---@field inCombat Bool
 NPCStatesComponent = {}
 
 ---@param fields? NPCStatesComponent
 ---@return NPCStatesComponent
-function NPCStatesComponent.new(fields) return end
+function NPCStatesComponent.new(fields) end
 
 ---@param ownerPuppet ScriptedPuppet
 ---@return Bool
-function NPCStatesComponent.AlertPuppet(ownerPuppet) return end
+function NPCStatesComponent.AlertPuppet(ownerPuppet) end
 
 ---@param highLevelState gamedataNPCHighLevelState
 ---@return CName
-function NPCStatesComponent.GetAnimWrapperNameBasedOnHighLevelState(highLevelState) return end
+function NPCStatesComponent.GetAnimWrapperNameBasedOnHighLevelState(highLevelState) end
 
 ---@param stanceState gamedataNPCStanceState
 ---@return CName
-function NPCStatesComponent.GetAnimWrapperNameBasedOnStanceState(stanceState) return end
+function NPCStatesComponent.GetAnimWrapperNameBasedOnStanceState(stanceState) end
 
----@private
 ---@param npcPuppet NPCPuppet
 ---@return gameObject
-function NPCStatesComponent.GetCombatTarget(npcPuppet) return end
+function NPCStatesComponent.GetCombatTarget(npcPuppet) end
 
----@protected
 ---@param evt NotifyNearbyAboutCombatEvent
 ---@return Bool
-function NPCStatesComponent:OnNotifyNearbyAboutCombatEvent(evt) return end
+function NPCStatesComponent:OnNotifyNearbyAboutCombatEvent(evt) end
 
----@protected
 ---@param evt NotifySecuritySystemCombatEvent
 ---@return Bool
-function NPCStatesComponent:OnNotifySecuritySystemCombatEvent(evt) return end
+function NPCStatesComponent:OnNotifySecuritySystemCombatEvent(evt) end
 
----@private
 ---@param newState gamedataNPCBehaviorState
 ---@return nil
-function NPCStatesComponent:ChangeBehaviorState(newState) return end
+function NPCStatesComponent:ChangeBehaviorState(newState) end
 
----@private
 ---@param newState gamedataDefenseMode
 ---@return nil
-function NPCStatesComponent:ChangeDefenseMode(newState) return end
+function NPCStatesComponent:ChangeDefenseMode(newState) end
 
----@private
 ---@param newState gamedataNPCHighLevelState
 ---@return nil
-function NPCStatesComponent:ChangeHighLevelState(newState) return end
+function NPCStatesComponent:ChangeHighLevelState(newState) end
 
----@private
 ---@param newState EHitReactionMode
 ---@return nil
-function NPCStatesComponent:ChangeHitReactionModeState(newState) return end
+function NPCStatesComponent:ChangeHitReactionModeState(newState) end
 
----@private
 ---@param newState gamedataLocomotionMode
 ---@return nil
-function NPCStatesComponent:ChangeLocomotionMode(newState) return end
+function NPCStatesComponent:ChangeLocomotionMode(newState) end
 
----@private
 ---@param newState ENPCPhaseState
 ---@return nil
-function NPCStatesComponent:ChangePhaseState(newState) return end
+function NPCStatesComponent:ChangePhaseState(newState) end
 
----@private
 ---@param newState gamedataNPCStanceState
 ---@return nil
-function NPCStatesComponent:ChangeStanceState(newState) return end
+function NPCStatesComponent:ChangeStanceState(newState) end
 
----@private
 ---@param newState gamedataNPCUpperBodyState
 ---@return nil
-function NPCStatesComponent:ChangeUpperBodyState(newState) return end
+function NPCStatesComponent:ChangeUpperBodyState(newState) end
 
 ---@return gamedataNPCBehaviorState
-function NPCStatesComponent:GetCurrentBehaviorState() return end
+function NPCStatesComponent:GetCurrentBehaviorState() end
 
 ---@return gamedataDefenseMode
-function NPCStatesComponent:GetCurrentDefenseMode() return end
+function NPCStatesComponent:GetCurrentDefenseMode() end
 
 ---@return gamedataNPCHighLevelState
-function NPCStatesComponent:GetCurrentHighLevelState() return end
+function NPCStatesComponent:GetCurrentHighLevelState() end
 
 ---@return EHitReactionMode
-function NPCStatesComponent:GetCurrentHitReactionModeState() return end
+function NPCStatesComponent:GetCurrentHitReactionModeState() end
 
 ---@return gamedataLocomotionMode
-function NPCStatesComponent:GetCurrentLocomotionMode() return end
+function NPCStatesComponent:GetCurrentLocomotionMode() end
 
 ---@return ENPCPhaseState
-function NPCStatesComponent:GetCurrentPhaseState() return end
+function NPCStatesComponent:GetCurrentPhaseState() end
 
 ---@return gamedataNPCStanceState
-function NPCStatesComponent:GetCurrentStanceState() return end
+function NPCStatesComponent:GetCurrentStanceState() end
 
 ---@return gamedataNPCUpperBodyState
-function NPCStatesComponent:GetCurrentUpperBodyState() return end
+function NPCStatesComponent:GetCurrentUpperBodyState() end
 
 ---@return gamedataNPCHighLevelState
-function NPCStatesComponent:GetPreviousHighLevelState() return end
+function NPCStatesComponent:GetPreviousHighLevelState() end
 
 ---@return EHitReactionMode
-function NPCStatesComponent:GetPreviousHitReactionMode() return end
+function NPCStatesComponent:GetPreviousHitReactionMode() end
 
 ---@return gamedataNPCStanceState
-function NPCStatesComponent:GetPreviousStanceState() return end
+function NPCStatesComponent:GetPreviousStanceState() end
 
----@private
 ---@return ScriptedPuppet
-function NPCStatesComponent:GetPuppet() return end
+function NPCStatesComponent:GetPuppet() end
 
----@private
 ---@return gameIBlackboard
-function NPCStatesComponent:GetPuppetStateBlackboard() return end
+function NPCStatesComponent:GetPuppetStateBlackboard() end
 
----@private
 ---@return Int32
-function NPCStatesComponent:GetUpperBodyStateForAnimGraph() return end
+function NPCStatesComponent:GetUpperBodyStateForAnimGraph() end
 
----@private
 ---@param newState gamedataNPCHighLevelState
 ---@param previousState gamedataNPCHighLevelState
 ---@return nil
-function NPCStatesComponent:HandleCombatStateAnimHint(newState, previousState) return end
+function NPCStatesComponent:HandleCombatStateAnimHint(newState, previousState) end
 
----@private
 ---@param newState gamedataNPCHighLevelState
 ---@return nil
-function NPCStatesComponent:MaxtacSetQuestCammo(newState) return end
+function NPCStatesComponent:MaxtacSetQuestCammo(newState) end
 
----@private
 ---@return nil
-function NPCStatesComponent:NotifySecuritySystemCombat() return end
+function NPCStatesComponent:NotifySecuritySystemCombat() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnAlerted() return end
+function NPCStatesComponent:OnAlerted() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnAttack() return end
+function NPCStatesComponent:OnAttack() end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnBulky(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnBulky(statSystem, entityID, recordID) end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnBulkyStaggerMin(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnBulkyStaggerMin(statSystem, entityID, recordID) end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnChargeAttack() return end
+function NPCStatesComponent:OnChargeAttack() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnCombat() return end
+function NPCStatesComponent:OnCombat() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnCover() return end
+function NPCStatesComponent:OnCover() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnCrouch() return end
+function NPCStatesComponent:OnCrouch() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnDead() return end
+function NPCStatesComponent:OnDead() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnDefend() return end
+function NPCStatesComponent:OnDefend() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnDefendAll() return end
+function NPCStatesComponent:OnDefendAll() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnDefendMelee() return end
+function NPCStatesComponent:OnDefendMelee() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnDefendRanged() return end
+function NPCStatesComponent:OnDefendRanged() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnDefenseModeChanged() return end
+function NPCStatesComponent:OnDefenseModeChanged() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnFear() return end
+function NPCStatesComponent:OnFear() end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnForceImpact(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnForceImpact(statSystem, entityID, recordID) end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnForceKnockdown(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnForceKnockdown(statSystem, entityID, recordID) end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnForceStagger(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnForceStagger(statSystem, entityID, recordID) end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnFragile(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnFragile(statSystem, entityID, recordID) end
 
 ---@return nil
-function NPCStatesComponent:OnGameAttach() return end
+function NPCStatesComponent:OnGameAttach() end
 
----@private
 ---@param newState gamedataNPCHighLevelState
 ---@param previousState gamedataNPCHighLevelState
 ---@return nil
-function NPCStatesComponent:OnHighLevelStateEnter(newState, previousState) return end
+function NPCStatesComponent:OnHighLevelStateEnter(newState, previousState) end
 
----@private
 ---@param leftState gamedataNPCHighLevelState
 ---@param nextState gamedataNPCHighLevelState
 ---@return nil
-function NPCStatesComponent:OnHighLevelStateExit(leftState, nextState) return end
+function NPCStatesComponent:OnHighLevelStateExit(leftState, nextState) end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnLocomotionModeChanged() return end
+function NPCStatesComponent:OnLocomotionModeChanged() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnMoving() return end
+function NPCStatesComponent:OnMoving() end
 
 ---@param signal NPCStateChangeSignal
 ---@return nil
-function NPCStatesComponent:OnNPCStateChangeSignalReceived(signal) return end
+function NPCStatesComponent:OnNPCStateChangeSignalReceived(signal) end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnNoDefend() return end
+function NPCStatesComponent:OnNoDefend() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnNormal() return end
+function NPCStatesComponent:OnNormal() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnParry() return end
+function NPCStatesComponent:OnParry() end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnRegular(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnRegular(statSystem, entityID, recordID) end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnRelaxed() return end
+function NPCStatesComponent:OnRelaxed() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnReload() return end
+function NPCStatesComponent:OnReload() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnShoot() return end
+function NPCStatesComponent:OnShoot() end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnStaggerMin(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnStaggerMin(statSystem, entityID, recordID) end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnStanceStateChanged() return end
+function NPCStatesComponent:OnStanceStateChanged() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnStand() return end
+function NPCStatesComponent:OnStand() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnStatic() return end
+function NPCStatesComponent:OnStatic() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnSwim() return end
+function NPCStatesComponent:OnSwim() end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnTough(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnTough(statSystem, entityID, recordID) end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnUnstoppable(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnUnstoppable(statSystem, entityID, recordID) end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnUnstoppableTwitchMin(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnUnstoppableTwitchMin(statSystem, entityID, recordID) end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnUnstoppableTwitchNone(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnUnstoppableTwitchNone(statSystem, entityID, recordID) end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnUpperBodyStateChanged() return end
+function NPCStatesComponent:OnUpperBodyStateChanged() end
 
----@private
 ---@return nil
-function NPCStatesComponent:OnVehicle() return end
+function NPCStatesComponent:OnVehicle() end
 
----@private
 ---@param statSystem gameStatsSystem
 ---@param entityID entEntityID
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCStatesComponent:OnWeak(statSystem, entityID, recordID) return end
+function NPCStatesComponent:OnWeak(statSystem, entityID, recordID) end
 
----@private
 ---@return nil
-function NPCStatesComponent:PlayDeadVO() return end
+function NPCStatesComponent:PlayDeadVO() end
 
----@private
 ---@param b Bool
 ---@return nil
-function NPCStatesComponent:SendOnUnstoppableRemovedSignal(b) return end
+function NPCStatesComponent:SendOnUnstoppableRemovedSignal(b) end
 
 ---@param newState gamedataNPCBehaviorState
 ---@return Bool
-function NPCStatesComponent:SetCurrentBehaviorState(newState) return end
+function NPCStatesComponent:SetCurrentBehaviorState(newState) end
 
 ---@param newState gamedataDefenseMode
 ---@return Bool
-function NPCStatesComponent:SetCurrentDefenseMode(newState) return end
+function NPCStatesComponent:SetCurrentDefenseMode(newState) end
 
 ---@param newState gamedataNPCHighLevelState
 ---@return Bool
-function NPCStatesComponent:SetCurrentHighLevelState(newState) return end
+function NPCStatesComponent:SetCurrentHighLevelState(newState) end
 
 ---@param newState EHitReactionMode
 ---@return Bool
-function NPCStatesComponent:SetCurrentHitReactionModeState(newState) return end
+function NPCStatesComponent:SetCurrentHitReactionModeState(newState) end
 
 ---@param newState gamedataLocomotionMode
 ---@return Bool
-function NPCStatesComponent:SetCurrentLocomotionMode(newState) return end
+function NPCStatesComponent:SetCurrentLocomotionMode(newState) end
 
 ---@param newState ENPCPhaseState
 ---@return Bool
-function NPCStatesComponent:SetCurrentPhaseState(newState) return end
+function NPCStatesComponent:SetCurrentPhaseState(newState) end
 
 ---@param newState gamedataNPCStanceState
 ---@return Bool
-function NPCStatesComponent:SetCurrentStanceState(newState) return end
+function NPCStatesComponent:SetCurrentStanceState(newState) end
 
 ---@param newState gamedataNPCUpperBodyState
 ---@return Bool
-function NPCStatesComponent:SetCurrentUpperBodyState(newState) return end
+function NPCStatesComponent:SetCurrentUpperBodyState(newState) end
 
 ---@param prevState EHitReactionMode
 ---@return nil
-function NPCStatesComponent:SetPreviousHitReactionMode(prevState) return end
+function NPCStatesComponent:SetPreviousHitReactionMode(prevState) end
 
 ---@param prevState gamedataNPCStanceState
 ---@return nil
-function NPCStatesComponent:SetPreviousStanceState(prevState) return end
+function NPCStatesComponent:SetPreviousStanceState(prevState) end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function NPCStatesComponent:ToggleVehicleWindow(toggle) return end
+function NPCStatesComponent:ToggleVehicleWindow(toggle) end
 
----@private
 ---@return nil
-function NPCStatesComponent:TurnOffParryState() return end
+function NPCStatesComponent:TurnOffParryState() end
 
----@private
 ---@return nil
-function NPCStatesComponent:TurnOnParryState() return end
+function NPCStatesComponent:TurnOnParryState() end
 
----@private
 ---@return nil
-function NPCStatesComponent:UpdateBehaviorState() return end
+function NPCStatesComponent:UpdateBehaviorState() end
 
----@private
 ---@return nil
-function NPCStatesComponent:UpdateDefenseMode() return end
+function NPCStatesComponent:UpdateDefenseMode() end
 
----@private
 ---@param enable Bool
 ---@return nil
-function NPCStatesComponent:UpdateDefensiveState(enable) return end
+function NPCStatesComponent:UpdateDefensiveState(enable) end
 
----@private
 ---@param newState gamedataNPCHighLevelState
 ---@param previousState gamedataNPCHighLevelState
 ---@return nil
-function NPCStatesComponent:UpdateHighLevelState(newState, previousState) return end
+function NPCStatesComponent:UpdateHighLevelState(newState, previousState) end
 
----@private
 ---@return nil
-function NPCStatesComponent:UpdateHitReactionsExceptionState() return end
+function NPCStatesComponent:UpdateHitReactionsExceptionState() end
 
----@private
 ---@return nil
-function NPCStatesComponent:UpdateLocomotionMode() return end
+function NPCStatesComponent:UpdateLocomotionMode() end
 
----@private
 ---@return nil
-function NPCStatesComponent:UpdatePhaseState() return end
+function NPCStatesComponent:UpdatePhaseState() end
 
----@private
 ---@return nil
-function NPCStatesComponent:UpdateStanceState() return end
+function NPCStatesComponent:UpdateStanceState() end
 
----@private
 ---@return nil
-function NPCStatesComponent:UpdateUpperBodyState() return end
+function NPCStatesComponent:UpdateUpperBodyState() end

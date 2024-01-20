@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class cpTestPlatformController: gameObject
----@field public platform NodeRef
----@field public pointA NodeRef
----@field public pointB NodeRef
----@field public speed Float
+---@field platform NodeRef
+---@field pointA NodeRef
+---@field pointB NodeRef
+---@field speed Float
 cpTestPlatformController = {}
 
 ---@param fields? cpTestPlatformController
 ---@return cpTestPlatformController
-function cpTestPlatformController.new(fields) return end
+function cpTestPlatformController.new(fields) end

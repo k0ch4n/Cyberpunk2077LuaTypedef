@@ -1,75 +1,68 @@
 ---@meta
 
 ---@class LocomotionEventsTransition: LocomotionTransition
----@field public causeContactDestruction Bool
----@field public activatedDestructionComponent Bool
----@field public ignoreBarbedWire Bool
+---@field causeContactDestruction Bool
+---@field activatedDestructionComponent Bool
+---@field ignoreBarbedWire Bool
 LocomotionEventsTransition = {}
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionEventsTransition:CleanupTriggerDestructionComponent(scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LocomotionEventsTransition:ConsumeStaminaBasedOnLocomotionState(stateContext, scriptInterface) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function LocomotionEventsTransition:OnAttach(stateContext, scriptInterface) return end
+function LocomotionEventsTransition:CleanupTriggerDestructionComponent(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionEventsTransition:OnEnter(stateContext, scriptInterface) return end
+function LocomotionEventsTransition:ConsumeStaminaBasedOnLocomotionState(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionEventsTransition:OnExit(stateContext, scriptInterface) return end
+function LocomotionEventsTransition:OnAttach(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionEventsTransition:OnForcedExit(stateContext, scriptInterface) return end
+function LocomotionEventsTransition:OnEnter(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LocomotionEventsTransition:OnExit(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function LocomotionEventsTransition:OnForcedExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionEventsTransition:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function LocomotionEventsTransition:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param currentState Int32
 ---@param timeInState? Float
 ---@return nil
-function LocomotionEventsTransition:RemoveOpticalCamoEffect(stateContext, scriptInterface, currentState, timeInState) return end
+function LocomotionEventsTransition:RemoveOpticalCamoEffect(stateContext, scriptInterface, currentState, timeInState) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LocomotionEventsTransition:ResetGravityParametersForChargedJump(stateContext, scriptInterface) return end
+function LocomotionEventsTransition:ResetGravityParametersForChargedJump(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param minTimeBeforeCrouch Float
 ---@param dontToggleCrouchOffOnSprint Bool
 ---@return nil, Bool toggledSprint, Bool toggledCrouch
-function LocomotionEventsTransition:UpdateInputToggles(stateContext, scriptInterface, minTimeBeforeCrouch, dontToggleCrouchOffOnSprint) return end
+function LocomotionEventsTransition:UpdateInputToggles(stateContext, scriptInterface, minTimeBeforeCrouch, dontToggleCrouchOffOnSprint) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param minTimeBeforeCrouch? Float
 ---@param dontToggleCrouchOffOnSprint? Bool
 ---@return nil
-function LocomotionEventsTransition:UpdateInputToggles(stateContext, scriptInterface, minTimeBeforeCrouch, dontToggleCrouchOffOnSprint) return end
+function LocomotionEventsTransition:UpdateInputToggles(stateContext, scriptInterface, minTimeBeforeCrouch, dontToggleCrouchOffOnSprint) end

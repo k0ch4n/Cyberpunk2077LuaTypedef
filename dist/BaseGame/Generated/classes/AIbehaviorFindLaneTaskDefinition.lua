@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorFindLaneTaskDefinition: AIbehaviorTaskDefinition
----@field public pointOnLane AIArgumentMapping
----@field public filter worldFindLaneFilter
+---@field pointOnLane AIArgumentMapping
+---@field filter worldFindLaneFilter
 AIbehaviorFindLaneTaskDefinition = {}
 
 ---@param fields? AIbehaviorFindLaneTaskDefinition
 ---@return AIbehaviorFindLaneTaskDefinition
-function AIbehaviorFindLaneTaskDefinition.new(fields) return end
+function AIbehaviorFindLaneTaskDefinition.new(fields) end

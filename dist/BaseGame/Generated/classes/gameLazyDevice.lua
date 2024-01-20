@@ -5,10 +5,10 @@ gameLazyDevice = {}
 
 ---@param fields? gameLazyDevice
 ---@return gameLazyDevice
-function gameLazyDevice.new(fields) return end
+function gameLazyDevice.new(fields) end
 
 ---@return gameDeviceComponentPS
-function gameLazyDevice:ExtractDevice() return end
+function gameLazyDevice:ExtractDevice() end
 
 ---@return gamePersistentID
-function gameLazyDevice:GetPersistentID() return end
+function gameLazyDevice:GetPersistentID() end

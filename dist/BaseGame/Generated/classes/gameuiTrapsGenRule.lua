@@ -5,4 +5,4 @@ gameuiTrapsGenRule = {}
 
 ---@param fields? gameuiTrapsGenRule
 ---@return gameuiTrapsGenRule
-function gameuiTrapsGenRule.new(fields) return end
+function gameuiTrapsGenRule.new(fields) end

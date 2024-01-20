@@ -5,32 +5,32 @@ inkScrollController = {}
 
 ---@param fields? inkScrollController
 ---@return inkScrollController
-function inkScrollController.new(fields) return end
+function inkScrollController.new(fields) end
 
 ---@return Vector2
-function inkScrollController:GetContentSize() return end
+function inkScrollController:GetContentSize() end
 
 ---@return Float
-function inkScrollController:GetScrollPosition() return end
+function inkScrollController:GetScrollPosition() end
 
 ---@return Vector2
-function inkScrollController:GetViewportSize() return end
+function inkScrollController:GetViewportSize() end
 
 ---@return Bool
-function inkScrollController:IsEnabled() return end
+function inkScrollController:IsEnabled() end
 
 ---@param enabled Bool
 ---@return nil
-function inkScrollController:SetEnabled(enabled) return end
+function inkScrollController:SetEnabled(enabled) end
 
 ---@param height Float
 ---@return nil
-function inkScrollController:SetViewportHeight(height) return end
+function inkScrollController:SetViewportHeight(height) end
 
 ---@param size Vector2
 ---@return nil
-function inkScrollController:SetViewportSize(size) return end
+function inkScrollController:SetViewportSize(size) end
 
 ---@param width Float
 ---@return nil
-function inkScrollController:SetViewportWidth(width) return end
+function inkScrollController:SetViewportWidth(width) end

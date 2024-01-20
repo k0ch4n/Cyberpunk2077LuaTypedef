@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class HighlightEditableData: IScriptable
----@field public highlightType EFocusForcedHighlightType
----@field public outlineType EFocusOutlineType
----@field public priority EPriority
----@field public inTransitionTime Float
----@field public outTransitionTime Float
----@field public isRevealed Bool
----@field public patternType gameVisionModePatternType
+---@field highlightType EFocusForcedHighlightType
+---@field outlineType EFocusOutlineType
+---@field priority EPriority
+---@field inTransitionTime Float
+---@field outTransitionTime Float
+---@field isRevealed Bool
+---@field patternType gameVisionModePatternType
 HighlightEditableData = {}
 
 ---@param fields? HighlightEditableData
 ---@return HighlightEditableData
-function HighlightEditableData.new(fields) return end
+function HighlightEditableData.new(fields) end

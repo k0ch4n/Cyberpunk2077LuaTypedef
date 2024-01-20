@@ -1,43 +1,36 @@
 ---@meta
 
 ---@class EntityAttachementComponent: gameScriptableComponent
----@field public parentAttachementData EntityAttachementData
+---@field parentAttachementData EntityAttachementData
 EntityAttachementComponent = {}
 
 ---@param fields? EntityAttachementComponent
 ---@return EntityAttachementComponent
-function EntityAttachementComponent.new(fields) return end
+function EntityAttachementComponent.new(fields) end
 
----@protected
 ---@param evt EntityAttachementRequestEvent
 ---@return Bool
-function EntityAttachementComponent:OnChildAttachementRequest(evt) return end
+function EntityAttachementComponent:OnChildAttachementRequest(evt) end
 
----@private
 ---@param data EntityAttachementData
 ---@return nil
-function EntityAttachementComponent:AttachChild(data) return end
+function EntityAttachementComponent:AttachChild(data) end
 
----@private
 ---@param data EntityAttachementData
 ---@return nil
-function EntityAttachementComponent:AttachToParent(data) return end
+function EntityAttachementComponent:AttachToParent(data) end
 
----@private
 ---@return EntityAttachementComponentPS
-function EntityAttachementComponent:GetMyPS() return end
+function EntityAttachementComponent:GetMyPS() end
 
 ---@return EntityAttachementData
-function EntityAttachementComponent:GetParentAttachementData() return end
+function EntityAttachementComponent:GetParentAttachementData() end
 
----@protected
 ---@return nil
-function EntityAttachementComponent:OnGameAttach() return end
+function EntityAttachementComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function EntityAttachementComponent:RestoreAttachements() return end
+function EntityAttachementComponent:RestoreAttachements() end
 
----@private
 ---@return nil
-function EntityAttachementComponent:RestoreChildAttachements() return end
+function EntityAttachementComponent:RestoreChildAttachements() end

@@ -1,64 +1,55 @@
 ---@meta
 
 ---@class SimpleMessengerItemVirtualController: inkVirtualCompoundItemController
----@field private label inkTextWidgetReference
----@field private msgPreview inkTextWidgetReference
----@field private msgIndicator inkWidgetReference
----@field private replyAlertIcon inkWidgetReference
----@field private collapseIcon inkWidgetReference
----@field private image inkImageWidgetReference
----@field private type MessengerContactType
----@field private contactData ContactData
----@field private activeItemSync MessengerContactSyncData
----@field private isContactActive Bool
----@field private isItemHovered Bool
----@field private isItemToggled Bool
+---@field label inkTextWidgetReference
+---@field msgPreview inkTextWidgetReference
+---@field msgIndicator inkWidgetReference
+---@field replyAlertIcon inkWidgetReference
+---@field collapseIcon inkWidgetReference
+---@field image inkImageWidgetReference
+---@field type MessengerContactType
+---@field contactData ContactData
+---@field activeItemSync MessengerContactSyncData
+---@field isContactActive Bool
+---@field isItemHovered Bool
+---@field isItemToggled Bool
 SimpleMessengerItemVirtualController = {}
 
 ---@param fields? SimpleMessengerItemVirtualController
 ---@return SimpleMessengerItemVirtualController
-function SimpleMessengerItemVirtualController.new(fields) return end
+function SimpleMessengerItemVirtualController.new(fields) end
 
----@protected
 ---@param evt MessengerContactSyncBackEvent
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnContactSyncData(evt) return end
+function SimpleMessengerItemVirtualController:OnContactSyncData(evt) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnDataChanged(value) return end
+function SimpleMessengerItemVirtualController:OnDataChanged(value) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnDeselected(itemController) return end
+function SimpleMessengerItemVirtualController:OnDeselected(itemController) end
 
----@protected
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnInitialize() return end
+function SimpleMessengerItemVirtualController:OnInitialize() end
 
----@protected
 ---@param evt MessengerThreadSelectedEvent
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnMessengerThreadSelectedEvent(evt) return end
+function SimpleMessengerItemVirtualController:OnMessengerThreadSelectedEvent(evt) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@param discreteNav Bool
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnSelected(itemController, discreteNav) return end
+function SimpleMessengerItemVirtualController:OnSelected(itemController, discreteNav) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnToggledOff(itemController) return end
+function SimpleMessengerItemVirtualController:OnToggledOff(itemController) end
 
----@protected
 ---@param itemController inkVirtualCompoundItemController
 ---@return Bool
-function SimpleMessengerItemVirtualController:OnToggledOn(itemController) return end
+function SimpleMessengerItemVirtualController:OnToggledOn(itemController) end
 
----@private
 ---@return nil
-function SimpleMessengerItemVirtualController:UpdateState() return end
+function SimpleMessengerItemVirtualController:UpdateState() end

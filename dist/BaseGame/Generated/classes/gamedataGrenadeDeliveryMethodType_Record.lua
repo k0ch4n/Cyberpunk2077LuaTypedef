@@ -5,13 +5,13 @@ gamedataGrenadeDeliveryMethodType_Record = {}
 
 ---@param fields? gamedataGrenadeDeliveryMethodType_Record
 ---@return gamedataGrenadeDeliveryMethodType_Record
-function gamedataGrenadeDeliveryMethodType_Record.new(fields) return end
+function gamedataGrenadeDeliveryMethodType_Record.new(fields) end
 
 ---@return String
-function gamedataGrenadeDeliveryMethodType_Record:EnumComment() return end
+function gamedataGrenadeDeliveryMethodType_Record:EnumComment() end
 
 ---@return CName
-function gamedataGrenadeDeliveryMethodType_Record:EnumName() return end
+function gamedataGrenadeDeliveryMethodType_Record:EnumName() end
 
 ---@return gamedataGrenadeDeliveryMethodType
-function gamedataGrenadeDeliveryMethodType_Record:Type() return end
+function gamedataGrenadeDeliveryMethodType_Record:Type() end

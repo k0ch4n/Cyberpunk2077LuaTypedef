@@ -5,39 +5,32 @@ NcartTrainInkControllerBase = {}
 
 ---@param fields? NcartTrainInkControllerBase
 ---@return NcartTrainInkControllerBase
-function NcartTrainInkControllerBase.new(fields) return end
+function NcartTrainInkControllerBase.new(fields) end
 
----@protected
 ---@param district ENcartDistricts
 ---@return Color
-function NcartTrainInkControllerBase:GetDistrictColor(district) return end
+function NcartTrainInkControllerBase:GetDistrictColor(district) end
 
----@protected
 ---@param district ENcartDistricts
 ---@return String
-function NcartTrainInkControllerBase:GetDistrictLocalizedName(district) return end
+function NcartTrainInkControllerBase:GetDistrictLocalizedName(district) end
 
----@protected
 ---@param stationName ENcartStations
 ---@return ENcartDistricts
-function NcartTrainInkControllerBase:GetMetroStationDistrict(stationName) return end
+function NcartTrainInkControllerBase:GetMetroStationDistrict(stationName) end
 
----@protected
 ---@param stationNumber Int32
 ---@return ENcartStations
-function NcartTrainInkControllerBase:GetMetroStationEnumFromNumber(stationNumber) return end
+function NcartTrainInkControllerBase:GetMetroStationEnumFromNumber(stationNumber) end
 
----@protected
 ---@param stationName ENcartStations
 ---@return String
-function NcartTrainInkControllerBase:GetMetroStationLocalizedName(stationName) return end
+function NcartTrainInkControllerBase:GetMetroStationLocalizedName(stationName) end
 
----@protected
 ---@param stationNumber Int32
 ---@return String
-function NcartTrainInkControllerBase:GetMetroStationLocalizedNameByNumber(stationNumber) return end
+function NcartTrainInkControllerBase:GetMetroStationLocalizedNameByNumber(stationNumber) end
 
----@protected
 ---@param stationName ENcartStations
 ---@return Int32
-function NcartTrainInkControllerBase:GetMetroStationNumber(stationName) return end
+function NcartTrainInkControllerBase:GetMetroStationNumber(stationName) end

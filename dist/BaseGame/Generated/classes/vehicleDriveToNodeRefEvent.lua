@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class vehicleDriveToNodeRefEvent: redEvent
----@field public targetRef NodeRef
----@field public useTraffic Bool
----@field public speedInTraffic Float
+---@field targetRef NodeRef
+---@field useTraffic Bool
+---@field speedInTraffic Float
 vehicleDriveToNodeRefEvent = {}
 
 ---@param fields? vehicleDriveToNodeRefEvent
 ---@return vehicleDriveToNodeRefEvent
-function vehicleDriveToNodeRefEvent.new(fields) return end
+function vehicleDriveToNodeRefEvent.new(fields) end

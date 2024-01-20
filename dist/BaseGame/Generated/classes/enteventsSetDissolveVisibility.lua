@@ -5,4 +5,4 @@ enteventsSetDissolveVisibility = {}
 
 ---@param fields? enteventsSetDissolveVisibility
 ---@return enteventsSetDissolveVisibility
-function enteventsSetDissolveVisibility.new(fields) return end
+function enteventsSetDissolveVisibility.new(fields) end

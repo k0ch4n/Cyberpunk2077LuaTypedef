@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class GetCurrentPatrolSpotActionPath: AIbehaviortaskScript
----@field public outPathArgument AIArgumentMapping
+---@field outPathArgument AIArgumentMapping
 GetCurrentPatrolSpotActionPath = {}
 
 ---@param fields? GetCurrentPatrolSpotActionPath
 ---@return GetCurrentPatrolSpotActionPath
-function GetCurrentPatrolSpotActionPath.new(fields) return end
+function GetCurrentPatrolSpotActionPath.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetCurrentPatrolSpotActionPath:Activate(context) return end
+function GetCurrentPatrolSpotActionPath:Activate(context) end

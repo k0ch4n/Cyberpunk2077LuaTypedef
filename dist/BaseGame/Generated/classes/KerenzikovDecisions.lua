@@ -1,53 +1,47 @@
 ---@meta
 
 ---@class KerenzikovDecisions: TimeDilationTransitions
----@field public statListener DefaultTransitionStatListener
----@field public activationGracePeriod Float
+---@field statListener DefaultTransitionStatListener
+---@field activationGracePeriod Float
 KerenzikovDecisions = {}
 
 ---@param fields? KerenzikovDecisions
 ---@return KerenzikovDecisions
-function KerenzikovDecisions.new(fields) return end
+function KerenzikovDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function KerenzikovDecisions:EnterCondition(stateContext, scriptInterface) return end
+function KerenzikovDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function KerenzikovDecisions:IsRequiredLocomotionStateActive(stateContext, scriptInterface) return end
+function KerenzikovDecisions:IsRequiredLocomotionStateActive(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function KerenzikovDecisions:IsRequiredVehicleAction(stateContext, scriptInterface) return end
+function KerenzikovDecisions:IsRequiredVehicleAction(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function KerenzikovDecisions:OnAttach(stateContext, scriptInterface) return end
+function KerenzikovDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function KerenzikovDecisions:OnDetach(stateContext, scriptInterface) return end
+function KerenzikovDecisions:OnDetach(stateContext, scriptInterface) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function KerenzikovDecisions:OnStatChanged(ownerID, statType, diff, total) return end
+function KerenzikovDecisions:OnStatChanged(ownerID, statType, diff, total) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function KerenzikovDecisions:ToTimeDilationReady(stateContext, scriptInterface) return end
+function KerenzikovDecisions:ToTimeDilationReady(stateContext, scriptInterface) end

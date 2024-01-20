@@ -1,55 +1,49 @@
 ---@meta
 
 ---@class RoachRaceGameController: gameuiSideScrollerMiniGameController
----@field private gameMenu inkWidgetReference
----@field private scoreboardMenu inkWidgetReference
----@field private isCutsceneInProgress Bool
+---@field gameMenu inkWidgetReference
+---@field scoreboardMenu inkWidgetReference
+---@field isCutsceneInProgress Bool
 RoachRaceGameController = {}
 
 ---@param fields? RoachRaceGameController
 ---@return RoachRaceGameController
-function RoachRaceGameController.new(fields) return end
+function RoachRaceGameController.new(fields) end
 
----@protected
 ---@return Bool
-function RoachRaceGameController:OnInitialize() return end
+function RoachRaceGameController:OnInitialize() end
 
 ---@param e inkanimProxy
 ---@return nil
-function RoachRaceGameController:FinishCutscene(e) return end
+function RoachRaceGameController:FinishCutscene(e) end
 
 ---@param e inkanimProxy
 ---@return nil
-function RoachRaceGameController:GameStart(e) return end
+function RoachRaceGameController:GameStart(e) end
 
----@protected
 ---@param gameFinishEvent gameuiOnGameFinishEvent
 ---@return nil
-function RoachRaceGameController:OnGameFinishLogic(gameFinishEvent) return end
+function RoachRaceGameController:OnGameFinishLogic(gameFinishEvent) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function RoachRaceGameController:OnOpenMenuClick(e) return end
+function RoachRaceGameController:OnOpenMenuClick(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function RoachRaceGameController:OnStartGameClick(e) return end
+function RoachRaceGameController:OnStartGameClick(e) end
 
----@private
 ---@return nil
-function RoachRaceGameController:OpenGameplay() return end
+function RoachRaceGameController:OpenGameplay() end
 
----@private
 ---@return nil
-function RoachRaceGameController:OpenMenu() return end
+function RoachRaceGameController:OpenMenu() end
 
----@private
 ---@param playerScore Int32
 ---@return nil
-function RoachRaceGameController:OpenScoreboard(playerScore) return end
+function RoachRaceGameController:OpenScoreboard(playerScore) end
 
----@private
 ---@param component inkWidgetReference
 ---@param isEnabled Bool
 ---@return nil
-function RoachRaceGameController:SetEnableComponent(component, isEnabled) return end
+function RoachRaceGameController:SetEnableComponent(component, isEnabled) end

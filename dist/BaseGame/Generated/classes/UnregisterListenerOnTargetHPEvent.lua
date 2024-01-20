@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UnregisterListenerOnTargetHPEvent: redEvent
----@field public listener TargetedObjectDeathListener
----@field public isFromListenerEvent Bool
+---@field listener TargetedObjectDeathListener
+---@field isFromListenerEvent Bool
 UnregisterListenerOnTargetHPEvent = {}
 
 ---@param fields? UnregisterListenerOnTargetHPEvent
 ---@return UnregisterListenerOnTargetHPEvent
-function UnregisterListenerOnTargetHPEvent.new(fields) return end
+function UnregisterListenerOnTargetHPEvent.new(fields) end

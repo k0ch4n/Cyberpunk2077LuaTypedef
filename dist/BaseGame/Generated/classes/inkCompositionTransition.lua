@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkCompositionTransition
----@field public targetState CName
----@field public interpolators inkCompositionInterpolator[]
+---@field targetState CName
+---@field interpolators inkCompositionInterpolator[]
 inkCompositionTransition = {}
 
 ---@param fields? inkCompositionTransition
 ---@return inkCompositionTransition
-function inkCompositionTransition.new(fields) return end
+function inkCompositionTransition.new(fields) end

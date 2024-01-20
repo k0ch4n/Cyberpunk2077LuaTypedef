@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class PerksSkillsLevelDisplayController: inkWidgetLogicController
----@field protected tint inkWidgetReference
+---@field tint inkWidgetReference
 PerksSkillsLevelDisplayController = {}
 
 ---@param fields? PerksSkillsLevelDisplayController
 ---@return PerksSkillsLevelDisplayController
-function PerksSkillsLevelDisplayController.new(fields) return end
+function PerksSkillsLevelDisplayController.new(fields) end
 
 ---@param data AreaDisplayData
 ---@return nil
-function PerksSkillsLevelDisplayController:Setup(data) return end
+function PerksSkillsLevelDisplayController:Setup(data) end

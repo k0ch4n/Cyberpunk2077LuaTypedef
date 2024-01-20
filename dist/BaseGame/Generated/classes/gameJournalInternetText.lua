@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalInternetText: gameJournalInternetBase
----@field public text LocalizationString
+---@field text LocalizationString
 gameJournalInternetText = {}
 
 ---@param fields? gameJournalInternetText
 ---@return gameJournalInternetText
-function gameJournalInternetText.new(fields) return end
+function gameJournalInternetText.new(fields) end
 
 ---@return String
-function gameJournalInternetText:GetText() return end
+function gameJournalInternetText:GetText() end

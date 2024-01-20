@@ -5,7 +5,7 @@ DataTermController = {}
 
 ---@param fields? DataTermController
 ---@return DataTermController
-function DataTermController.new(fields) return end
+function DataTermController.new(fields) end
 
 ---@return DataTermControllerPS
-function DataTermController:GetPS() return end
+function DataTermController:GetPS() end

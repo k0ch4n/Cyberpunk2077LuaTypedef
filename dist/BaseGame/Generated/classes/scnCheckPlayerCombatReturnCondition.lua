@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnCheckPlayerCombatReturnCondition: scnIReturnCondition
----@field public params scnCheckPlayerCombatReturnConditionParams
+---@field params scnCheckPlayerCombatReturnConditionParams
 scnCheckPlayerCombatReturnCondition = {}
 
 ---@param fields? scnCheckPlayerCombatReturnCondition
 ---@return scnCheckPlayerCombatReturnCondition
-function scnCheckPlayerCombatReturnCondition.new(fields) return end
+function scnCheckPlayerCombatReturnCondition.new(fields) end

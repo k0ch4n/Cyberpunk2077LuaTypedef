@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class entLookAtLimits
----@field public softLimitDegrees Float
----@field public hardLimitDegrees Float
----@field public hardLimitDistance Float
----@field public backLimitDegrees Float
+---@field softLimitDegrees Float
+---@field hardLimitDegrees Float
+---@field hardLimitDistance Float
+---@field backLimitDegrees Float
 entLookAtLimits = {}
 
 ---@param fields? entLookAtLimits
 ---@return entLookAtLimits
-function entLookAtLimits.new(fields) return end
+function entLookAtLimits.new(fields) end

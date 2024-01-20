@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestMoveToPrevFloor: ActionBool
----@field public floor NodeRef
+---@field floor NodeRef
 QuestMoveToPrevFloor = {}
 
 ---@param fields? QuestMoveToPrevFloor
 ---@return QuestMoveToPrevFloor
-function QuestMoveToPrevFloor.new(fields) return end
+function QuestMoveToPrevFloor.new(fields) end
 
 ---@return nil
-function QuestMoveToPrevFloor:SetProperties() return end
+function QuestMoveToPrevFloor:SetProperties() end

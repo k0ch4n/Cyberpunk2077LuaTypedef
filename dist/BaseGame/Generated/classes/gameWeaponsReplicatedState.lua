@@ -5,4 +5,4 @@ gameWeaponsReplicatedState = {}
 
 ---@param fields? gameWeaponsReplicatedState
 ---@return gameWeaponsReplicatedState
-function gameWeaponsReplicatedState.new(fields) return end
+function gameWeaponsReplicatedState.new(fields) end

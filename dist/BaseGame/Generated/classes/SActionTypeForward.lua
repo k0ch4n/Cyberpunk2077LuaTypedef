@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SActionTypeForward
----@field public qHack Bool
----@field public techie Bool
----@field public master Bool
+---@field qHack Bool
+---@field techie Bool
+---@field master Bool
 SActionTypeForward = {}
 
 ---@param fields? SActionTypeForward
 ---@return SActionTypeForward
-function SActionTypeForward.new(fields) return end
+function SActionTypeForward.new(fields) end

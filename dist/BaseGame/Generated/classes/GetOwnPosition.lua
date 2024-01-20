@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class GetOwnPosition: AIbehaviortaskScript
----@field protected outPosition AIArgumentMapping
+---@field outPosition AIArgumentMapping
 GetOwnPosition = {}
 
 ---@param fields? GetOwnPosition
 ---@return GetOwnPosition
-function GetOwnPosition.new(fields) return end
+function GetOwnPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetOwnPosition:Activate(context) return end
+function GetOwnPosition:Activate(context) end

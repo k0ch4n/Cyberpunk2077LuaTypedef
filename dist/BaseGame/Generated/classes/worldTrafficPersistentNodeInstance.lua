@@ -5,4 +5,4 @@ worldTrafficPersistentNodeInstance = {}
 
 ---@param fields? worldTrafficPersistentNodeInstance
 ---@return worldTrafficPersistentNodeInstance
-function worldTrafficPersistentNodeInstance.new(fields) return end
+function worldTrafficPersistentNodeInstance.new(fields) end

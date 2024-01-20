@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnSceneMarker: worldIMarker
----@field public markers scnSceneMarkerInternalsAnimEventEntry[]
----@field public workspotMarkers scnSceneMarkerInternalsWorkspotEntry[]
+---@field markers scnSceneMarkerInternalsAnimEventEntry[]
+---@field workspotMarkers scnSceneMarkerInternalsWorkspotEntry[]
 scnSceneMarker = {}
 
 ---@param fields? scnSceneMarker
 ---@return scnSceneMarker
-function scnSceneMarker.new(fields) return end
+function scnSceneMarker.new(fields) end

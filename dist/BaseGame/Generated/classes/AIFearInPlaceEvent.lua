@@ -5,4 +5,4 @@ AIFearInPlaceEvent = {}
 
 ---@param fields? AIFearInPlaceEvent
 ---@return AIFearInPlaceEvent
-function AIFearInPlaceEvent.new(fields) return end
+function AIFearInPlaceEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CraftingNotificationEvent: redEvent
----@field public notificationType CraftingNotificationType
----@field public perkName String
+---@field notificationType CraftingNotificationType
+---@field perkName String
 CraftingNotificationEvent = {}
 
 ---@param fields? CraftingNotificationEvent
 ---@return CraftingNotificationEvent
-function CraftingNotificationEvent.new(fields) return end
+function CraftingNotificationEvent.new(fields) end

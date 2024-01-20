@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlaybackOptionsUpdateData: IScriptable
----@field public playbackOptions inkanimPlaybackOptions
+---@field playbackOptions inkanimPlaybackOptions
 PlaybackOptionsUpdateData = {}
 
 ---@param fields? PlaybackOptionsUpdateData
 ---@return PlaybackOptionsUpdateData
-function PlaybackOptionsUpdateData.new(fields) return end
+function PlaybackOptionsUpdateData.new(fields) end

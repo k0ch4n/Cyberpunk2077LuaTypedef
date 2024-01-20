@@ -5,4 +5,4 @@ KnifeLookAtDecisions = {}
 
 ---@param fields? KnifeLookAtDecisions
 ---@return KnifeLookAtDecisions
-function KnifeLookAtDecisions.new(fields) return end
+function KnifeLookAtDecisions.new(fields) end

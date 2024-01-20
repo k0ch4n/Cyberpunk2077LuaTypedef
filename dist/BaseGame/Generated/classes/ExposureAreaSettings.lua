@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class ExposureAreaSettings: IAreaSettings
----@field public exposureAdaptationSpeedUp curveData
----@field public exposureAdaptationSpeedDown curveData
----@field public exposurePercentageThresholdLow curveData
----@field public exposurePercentageThresholdHigh curveData
----@field public exposureCompensation curveData
----@field public exposureSkyImpact curveData
----@field public exposureMin curveData
----@field public exposureMax curveData
----@field public exposureCenterImportance curveData
----@field public cameraVelocityFaloff Float
+---@field exposureAdaptationSpeedUp curveData
+---@field exposureAdaptationSpeedDown curveData
+---@field exposurePercentageThresholdLow curveData
+---@field exposurePercentageThresholdHigh curveData
+---@field exposureCompensation curveData
+---@field exposureSkyImpact curveData
+---@field exposureMin curveData
+---@field exposureMax curveData
+---@field exposureCenterImportance curveData
+---@field cameraVelocityFaloff Float
 ExposureAreaSettings = {}
 
 ---@param fields? ExposureAreaSettings
 ---@return ExposureAreaSettings
-function ExposureAreaSettings.new(fields) return end
+function ExposureAreaSettings.new(fields) end

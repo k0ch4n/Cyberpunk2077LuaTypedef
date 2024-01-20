@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class CheckElapsedTimeFromArgumentFloat: CheckArguments
----@field public customVar Float
----@field public comparator ECompareOp
+---@field customVar Float
+---@field comparator ECompareOp
 CheckElapsedTimeFromArgumentFloat = {}
 
 ---@param fields? CheckElapsedTimeFromArgumentFloat
 ---@return CheckElapsedTimeFromArgumentFloat
-function CheckElapsedTimeFromArgumentFloat.new(fields) return end
+function CheckElapsedTimeFromArgumentFloat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckElapsedTimeFromArgumentFloat:Check(context) return end
+function CheckElapsedTimeFromArgumentFloat:Check(context) end

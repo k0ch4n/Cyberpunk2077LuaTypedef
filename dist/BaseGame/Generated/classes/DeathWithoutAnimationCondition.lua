@@ -5,9 +5,8 @@ DeathWithoutAnimationCondition = {}
 
 ---@param fields? DeathWithoutAnimationCondition
 ---@return DeathWithoutAnimationCondition
-function DeathWithoutAnimationCondition.new(fields) return end
+function DeathWithoutAnimationCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function DeathWithoutAnimationCondition:Check(context) return end
+function DeathWithoutAnimationCondition:Check(context) end

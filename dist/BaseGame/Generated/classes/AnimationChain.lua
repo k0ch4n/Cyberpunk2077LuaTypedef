@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AnimationChain: IScriptable
----@field public data AnimationElement[]
----@field public name CName
+---@field data AnimationElement[]
+---@field name CName
 AnimationChain = {}
 
 ---@param fields? AnimationChain
 ---@return AnimationChain
-function AnimationChain.new(fields) return end
+function AnimationChain.new(fields) end
 
 ---@param name CName|string
 ---@param options inkanimPlaybackOptions
 ---@return nil
-function AnimationChain:AddAnimation(name, options) return end
+function AnimationChain:AddAnimation(name, options) end

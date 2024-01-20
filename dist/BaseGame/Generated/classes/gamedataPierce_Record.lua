@@ -5,4 +5,4 @@ gamedataPierce_Record = {}
 
 ---@param fields? gamedataPierce_Record
 ---@return gamedataPierce_Record
-function gamedataPierce_Record.new(fields) return end
+function gamedataPierce_Record.new(fields) end

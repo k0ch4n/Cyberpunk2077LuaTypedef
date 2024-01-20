@@ -5,4 +5,4 @@ DpadWheelGameController = {}
 
 ---@param fields? DpadWheelGameController
 ---@return DpadWheelGameController
-function DpadWheelGameController.new(fields) return end
+function DpadWheelGameController.new(fields) end

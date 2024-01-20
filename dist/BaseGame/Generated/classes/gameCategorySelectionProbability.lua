@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCategorySelectionProbability
----@field public probabilities gameSpotSequenceCategory[]
+---@field probabilities gameSpotSequenceCategory[]
 gameCategorySelectionProbability = {}
 
 ---@param fields? gameCategorySelectionProbability
 ---@return gameCategorySelectionProbability
-function gameCategorySelectionProbability.new(fields) return end
+function gameCategorySelectionProbability.new(fields) end

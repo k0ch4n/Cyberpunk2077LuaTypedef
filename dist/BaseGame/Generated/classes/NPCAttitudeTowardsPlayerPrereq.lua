@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class NPCAttitudeTowardsPlayerPrereq: gameIScriptablePrereq
----@field public attitude EAIAttitude
+---@field attitude EAIAttitude
 NPCAttitudeTowardsPlayerPrereq = {}
 
 ---@param fields? NPCAttitudeTowardsPlayerPrereq
 ---@return NPCAttitudeTowardsPlayerPrereq
-function NPCAttitudeTowardsPlayerPrereq.new(fields) return end
+function NPCAttitudeTowardsPlayerPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCAttitudeTowardsPlayerPrereq:Initialize(recordID) return end
+function NPCAttitudeTowardsPlayerPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCAttitudeTowardsPlayerPrereq:IsFulfilled(context) return end
+function NPCAttitudeTowardsPlayerPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCAttitudeTowardsPlayerPrereq:OnApplied(state, context) return end
+function NPCAttitudeTowardsPlayerPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function NPCAttitudeTowardsPlayerPrereq:OnRegister(state, context) return end
+function NPCAttitudeTowardsPlayerPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCAttitudeTowardsPlayerPrereq:OnUnregister(state, context) return end
+function NPCAttitudeTowardsPlayerPrereq:OnUnregister(state, context) end

@@ -5,4 +5,4 @@ VehicleBodyDisposalPerformedEvent = {}
 
 ---@param fields? VehicleBodyDisposalPerformedEvent
 ---@return VehicleBodyDisposalPerformedEvent
-function VehicleBodyDisposalPerformedEvent.new(fields) return end
+function VehicleBodyDisposalPerformedEvent.new(fields) end

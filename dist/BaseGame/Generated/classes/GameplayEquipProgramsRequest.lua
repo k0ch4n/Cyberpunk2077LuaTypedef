@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class GameplayEquipProgramsRequest: gamePlayerScriptableSystemRequest
----@field public programIDs gameItemID[]
+---@field programIDs gameItemID[]
 GameplayEquipProgramsRequest = {}
 
 ---@param fields? GameplayEquipProgramsRequest
 ---@return GameplayEquipProgramsRequest
-function GameplayEquipProgramsRequest.new(fields) return end
+function GameplayEquipProgramsRequest.new(fields) end

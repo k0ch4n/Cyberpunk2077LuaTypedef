@@ -5,4 +5,4 @@ FunctionalTestsInputManager = {}
 
 ---@param fields? FunctionalTestsInputManager
 ---@return FunctionalTestsInputManager
-function FunctionalTestsInputManager.new(fields) return end
+function FunctionalTestsInputManager.new(fields) end

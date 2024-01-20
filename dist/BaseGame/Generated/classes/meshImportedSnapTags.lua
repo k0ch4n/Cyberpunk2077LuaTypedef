@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class meshImportedSnapTags
----@field public includeTags CName[]
----@field public excludeTags CName[]
+---@field includeTags CName[]
+---@field excludeTags CName[]
 meshImportedSnapTags = {}
 
 ---@param fields? meshImportedSnapTags
 ---@return meshImportedSnapTags
-function meshImportedSnapTags.new(fields) return end
+function meshImportedSnapTags.new(fields) end

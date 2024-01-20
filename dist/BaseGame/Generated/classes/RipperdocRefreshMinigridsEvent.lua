@@ -5,4 +5,4 @@ RipperdocRefreshMinigridsEvent = {}
 
 ---@param fields? RipperdocRefreshMinigridsEvent
 ---@return RipperdocRefreshMinigridsEvent
-function RipperdocRefreshMinigridsEvent.new(fields) return end
+function RipperdocRefreshMinigridsEvent.new(fields) end

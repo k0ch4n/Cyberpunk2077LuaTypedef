@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ReactionOutput
----@field public reactionBehavior gamedataOutput
----@field public reactionPriority Int32
----@field public AIbehaviorPriority Float
----@field public reactionCooldown Float
----@field public startedInWorkspot Bool
----@field public workspotReaction Bool
----@field public workspotReactionType CName
+---@field reactionBehavior gamedataOutput
+---@field reactionPriority Int32
+---@field AIbehaviorPriority Float
+---@field reactionCooldown Float
+---@field startedInWorkspot Bool
+---@field workspotReaction Bool
+---@field workspotReactionType CName
 ReactionOutput = {}
 
 ---@param fields? ReactionOutput
 ---@return ReactionOutput
-function ReactionOutput.new(fields) return end
+function ReactionOutput.new(fields) end

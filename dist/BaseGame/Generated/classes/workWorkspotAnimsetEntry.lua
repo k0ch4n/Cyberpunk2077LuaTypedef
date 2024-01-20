@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class workWorkspotAnimsetEntry
----@field public rig animRig
----@field public animations animAnimSetup
----@field public loadingHandles animAnimSet[]
+---@field rig animRig
+---@field animations animAnimSetup
+---@field loadingHandles animAnimSet[]
 workWorkspotAnimsetEntry = {}
 
 ---@param fields? workWorkspotAnimsetEntry
 ---@return workWorkspotAnimsetEntry
-function workWorkspotAnimsetEntry.new(fields) return end
+function workWorkspotAnimsetEntry.new(fields) end

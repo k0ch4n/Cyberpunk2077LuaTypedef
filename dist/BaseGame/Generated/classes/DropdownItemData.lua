@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class DropdownItemData: IScriptable
----@field public identifier Variant
----@field public labelKey CName
----@field public direction DropdownItemDirection
+---@field identifier Variant
+---@field labelKey CName
+---@field direction DropdownItemDirection
 DropdownItemData = {}
 
 ---@param fields? DropdownItemData
 ---@return DropdownItemData
-function DropdownItemData.new(fields) return end
+function DropdownItemData.new(fields) end

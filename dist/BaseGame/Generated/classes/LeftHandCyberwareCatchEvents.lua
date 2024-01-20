@@ -5,21 +5,20 @@ LeftHandCyberwareCatchEvents = {}
 
 ---@param fields? LeftHandCyberwareCatchEvents
 ---@return LeftHandCyberwareCatchEvents
-function LeftHandCyberwareCatchEvents.new(fields) return end
+function LeftHandCyberwareCatchEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareCatchEvents:OnEnter(stateContext, scriptInterface) return end
+function LeftHandCyberwareCatchEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareCatchEvents:OnExit(stateContext, scriptInterface) return end
+function LeftHandCyberwareCatchEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LeftHandCyberwareCatchEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function LeftHandCyberwareCatchEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

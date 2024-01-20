@@ -5,7 +5,7 @@ ExitLightController = {}
 
 ---@param fields? ExitLightController
 ---@return ExitLightController
-function ExitLightController.new(fields) return end
+function ExitLightController.new(fields) end
 
 ---@return ExitLightControllerPS
-function ExitLightController:GetPS() return end
+function ExitLightController:GetPS() end

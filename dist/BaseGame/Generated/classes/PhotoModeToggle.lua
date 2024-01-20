@@ -1,47 +1,42 @@
 ---@meta
 
 ---@class PhotoModeToggle: inkToggleController
----@field private SelectedWidget inkWidgetReference
----@field private FrameWidget inkWidgetReference
----@field private IconWidget inkImageWidgetReference
----@field private LabelWidget inkTextWidgetReference
----@field public photoModeGroupController PhotoModeTopBarController
----@field private fadeAnim inkanimProxy
----@field private fade2Anim inkanimProxy
+---@field SelectedWidget inkWidgetReference
+---@field FrameWidget inkWidgetReference
+---@field IconWidget inkImageWidgetReference
+---@field LabelWidget inkTextWidgetReference
+---@field photoModeGroupController PhotoModeTopBarController
+---@field fadeAnim inkanimProxy
+---@field fade2Anim inkanimProxy
 PhotoModeToggle = {}
 
 ---@param fields? PhotoModeToggle
 ---@return PhotoModeToggle
-function PhotoModeToggle.new(fields) return end
+function PhotoModeToggle.new(fields) end
 
----@protected
 ---@return Bool
-function PhotoModeToggle:OnInitialize() return end
+function PhotoModeToggle:OnInitialize() end
 
----@protected
 ---@param controller inkToggleController
 ---@param isToggled Bool
 ---@return Bool
-function PhotoModeToggle:OnToggleChanged(controller, isToggled) return end
+function PhotoModeToggle:OnToggleChanged(controller, isToggled) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PhotoModeToggle:OnToggleClick(e) return end
-
----@protected
----@return Bool
-function PhotoModeToggle:OnUninitialize() return end
+function PhotoModeToggle:OnToggleClick(e) end
 
 ---@return Bool
-function PhotoModeToggle:GetEnabledOnTopBar() return end
+function PhotoModeToggle:OnUninitialize() end
 
----@private
+---@return Bool
+function PhotoModeToggle:GetEnabledOnTopBar() end
+
 ---@param widget inkWidgetReference
 ---@param opacity Float
 ---@return inkanimProxy
-function PhotoModeToggle:PlayFadeAnimation(widget, opacity) return end
+function PhotoModeToggle:PlayFadeAnimation(widget, opacity) end
 
 ---@param enabled Bool
 ---@return nil
-function PhotoModeToggle:SetEnabledOnTopBar(enabled) return end
+function PhotoModeToggle:SetEnabledOnTopBar(enabled) end

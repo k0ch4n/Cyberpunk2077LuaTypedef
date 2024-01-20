@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameHitRepresentationComponent: entSlotComponent
----@field public representations gameHitShapeContainer[]
----@field public physicsMaterial CName
----@field public bvhRoot gameHitShapeBVH
----@field public useResourceData Bool
----@field public resource gameHitRepresentationResource
----@field public appearanceOverrides gameHitRepresentationOverride[]
+---@field representations gameHitShapeContainer[]
+---@field physicsMaterial CName
+---@field bvhRoot gameHitShapeBVH
+---@field useResourceData Bool
+---@field resource gameHitRepresentationResource
+---@field appearanceOverrides gameHitRepresentationOverride[]
 gameHitRepresentationComponent = {}
 
 ---@param fields? gameHitRepresentationComponent
 ---@return gameHitRepresentationComponent
-function gameHitRepresentationComponent.new(fields) return end
+function gameHitRepresentationComponent.new(fields) end

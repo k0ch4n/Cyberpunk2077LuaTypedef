@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class FelledEvents: LocomotionGroundEvents
----@field private animFeatureFelled AnimFeature_Felled
+---@field animFeatureFelled AnimFeature_Felled
 FelledEvents = {}
 
 ---@param fields? FelledEvents
 ---@return FelledEvents
-function FelledEvents.new(fields) return end
+function FelledEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FelledEvents:OnEnter(stateContext, scriptInterface) return end
+function FelledEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function FelledEvents:OnExit(stateContext, scriptInterface) return end
+function FelledEvents:OnExit(stateContext, scriptInterface) end

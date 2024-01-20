@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkPropertyManager: ISerializable
----@field public bindings inkPropertyBinding[]
+---@field bindings inkPropertyBinding[]
 inkPropertyManager = {}
 
 ---@param fields? inkPropertyManager
 ---@return inkPropertyManager
-function inkPropertyManager.new(fields) return end
+function inkPropertyManager.new(fields) end

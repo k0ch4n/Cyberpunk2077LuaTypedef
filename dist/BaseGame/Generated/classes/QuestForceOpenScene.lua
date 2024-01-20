@@ -5,7 +5,7 @@ QuestForceOpenScene = {}
 
 ---@param fields? QuestForceOpenScene
 ---@return QuestForceOpenScene
-function QuestForceOpenScene.new(fields) return end
+function QuestForceOpenScene.new(fields) end
 
 ---@return nil
-function QuestForceOpenScene:SetProperties() return end
+function QuestForceOpenScene:SetProperties() end

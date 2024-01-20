@@ -5,4 +5,4 @@ AIOwnerAngleCoverSelection = {}
 
 ---@param fields? AIOwnerAngleCoverSelection
 ---@return AIOwnerAngleCoverSelection
-function AIOwnerAngleCoverSelection.new(fields) return end
+function AIOwnerAngleCoverSelection.new(fields) end

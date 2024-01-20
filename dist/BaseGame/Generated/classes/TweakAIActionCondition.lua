@@ -1,22 +1,21 @@
 ---@meta
 
 ---@class TweakAIActionCondition: TweakAIActionConditionAbstract
----@field public record TweakDBID
+---@field record TweakDBID
 TweakAIActionCondition = {}
 
 ---@param fields? TweakAIActionCondition
 ---@return TweakAIActionCondition
-function TweakAIActionCondition.new(fields) return end
+function TweakAIActionCondition.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionDebugName String
 ---@return Bool, gamedataAIAction_Record actionRecord
-function TweakAIActionCondition:GetActionRecord(context, actionDebugName) return end
+function TweakAIActionCondition:GetActionRecord(context, actionDebugName) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String
-function TweakAIActionCondition:GetDescription(context) return end
+function TweakAIActionCondition:GetDescription(context) end
 
 ---@return String
-function TweakAIActionCondition:GetFriendlyName() return end
+function TweakAIActionCondition:GetFriendlyName() end

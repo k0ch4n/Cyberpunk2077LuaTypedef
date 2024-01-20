@@ -5,4 +5,4 @@ AICTreeNodeDynamicBindDefinition = {}
 
 ---@param fields? AICTreeNodeDynamicBindDefinition
 ---@return AICTreeNodeDynamicBindDefinition
-function AICTreeNodeDynamicBindDefinition.new(fields) return end
+function AICTreeNodeDynamicBindDefinition.new(fields) end

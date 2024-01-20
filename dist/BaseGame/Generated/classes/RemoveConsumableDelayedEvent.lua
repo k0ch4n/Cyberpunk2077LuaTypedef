@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RemoveConsumableDelayedEvent: redEvent
----@field public consumeAction ConsumeAction
+---@field consumeAction ConsumeAction
 RemoveConsumableDelayedEvent = {}
 
 ---@param fields? RemoveConsumableDelayedEvent
 ---@return RemoveConsumableDelayedEvent
-function RemoveConsumableDelayedEvent.new(fields) return end
+function RemoveConsumableDelayedEvent.new(fields) end

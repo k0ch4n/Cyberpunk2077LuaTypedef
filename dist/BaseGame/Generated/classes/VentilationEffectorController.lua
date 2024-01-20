@@ -5,7 +5,7 @@ VentilationEffectorController = {}
 
 ---@param fields? VentilationEffectorController
 ---@return VentilationEffectorController
-function VentilationEffectorController.new(fields) return end
+function VentilationEffectorController.new(fields) end
 
 ---@return VentilationEffectorControllerPS
-function VentilationEffectorController:GetPS() return end
+function VentilationEffectorController:GetPS() end

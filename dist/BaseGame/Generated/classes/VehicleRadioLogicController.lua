@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class VehicleRadioLogicController: inkWidgetLogicController
----@field public isSoundStopped Bool
+---@field isSoundStopped Bool
 VehicleRadioLogicController = {}
 
 ---@param fields? VehicleRadioLogicController
 ---@return VehicleRadioLogicController
-function VehicleRadioLogicController.new(fields) return end
+function VehicleRadioLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function VehicleRadioLogicController:OnUninitialize() return end
+function VehicleRadioLogicController:OnUninitialize() end
 
 ---@return nil
-function VehicleRadioLogicController:StopSound() return end
+function VehicleRadioLogicController:StopSound() end

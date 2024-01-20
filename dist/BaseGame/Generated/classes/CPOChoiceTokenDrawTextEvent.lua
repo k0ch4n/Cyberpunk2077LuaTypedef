@@ -5,4 +5,4 @@ CPOChoiceTokenDrawTextEvent = {}
 
 ---@param fields? CPOChoiceTokenDrawTextEvent
 ---@return CPOChoiceTokenDrawTextEvent
-function CPOChoiceTokenDrawTextEvent.new(fields) return end
+function CPOChoiceTokenDrawTextEvent.new(fields) end

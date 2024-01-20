@@ -1,37 +1,37 @@
 ---@meta
 
 ---@class CallElevator: ActionBool
----@field public destination Int32
+---@field destination Int32
 CallElevator = {}
 
 ---@param fields? CallElevator
 ---@return CallElevator
-function CallElevator.new(fields) return end
+function CallElevator.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function CallElevator.IsAvailable(device) return end
+function CallElevator.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function CallElevator.IsClearanceValid(clearance) return end
+function CallElevator.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function CallElevator.IsDefaultConditionMet(device, context) return end
+function CallElevator.IsDefaultConditionMet(device, context) end
 
 ---@param isElevatorAtThisFloor Bool
 ---@return nil
-function CallElevator:CreateActionWidgetPackage(isElevatorAtThisFloor) return end
+function CallElevator:CreateActionWidgetPackage(isElevatorAtThisFloor) end
 
 ---@param isElevatorAtThisFloor Bool
 ---@return TweakDBID
-function CallElevator:GetInkWidgetTweakDBID(isElevatorAtThisFloor) return end
+function CallElevator:GetInkWidgetTweakDBID(isElevatorAtThisFloor) end
 
 ---@return String
-function CallElevator:GetTweakDBChoiceRecord() return end
+function CallElevator:GetTweakDBChoiceRecord() end
 
 ---@param destination Int32
 ---@return nil
-function CallElevator:SetProperties(destination) return end
+function CallElevator:SetProperties(destination) end

@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class RipperdocCategoryTooltip: AGenericTooltipController
----@field private desc inkTextWidgetReference
----@field private availableLabelCounter inkTextWidgetReference
----@field private ownedLabelCounter inkTextWidgetReference
----@field private ownedLabel inkWidgetReference
----@field private availableLabel inkWidgetReference
----@field private NALabel inkWidgetReference
+---@field desc inkTextWidgetReference
+---@field availableLabelCounter inkTextWidgetReference
+---@field ownedLabelCounter inkTextWidgetReference
+---@field ownedLabel inkWidgetReference
+---@field availableLabel inkWidgetReference
+---@field NALabel inkWidgetReference
 RipperdocCategoryTooltip = {}
 
 ---@param fields? RipperdocCategoryTooltip
 ---@return RipperdocCategoryTooltip
-function RipperdocCategoryTooltip.new(fields) return end
+function RipperdocCategoryTooltip.new(fields) end
 
----@private
 ---@param category gamedataEquipmentArea
 ---@return String
-function RipperdocCategoryTooltip:GetCategoryLockey(category) return end
+function RipperdocCategoryTooltip:GetCategoryLockey(category) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function RipperdocCategoryTooltip:SetData(tooltipData) return end
+function RipperdocCategoryTooltip:SetData(tooltipData) end

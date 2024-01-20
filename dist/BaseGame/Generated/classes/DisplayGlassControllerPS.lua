@@ -1,93 +1,83 @@
 ---@meta
 
 ---@class DisplayGlassControllerPS: ScriptableDeviceComponentPS
----@field protected isTinted Bool
----@field protected useAppearances Bool
----@field protected clearAppearance CName
----@field protected tintedAppearance CName
+---@field isTinted Bool
+---@field useAppearances Bool
+---@field clearAppearance CName
+---@field tintedAppearance CName
 DisplayGlassControllerPS = {}
 
 ---@param fields? DisplayGlassControllerPS
 ---@return DisplayGlassControllerPS
-function DisplayGlassControllerPS.new(fields) return end
+function DisplayGlassControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function DisplayGlassControllerPS:OnInstantiated() return end
+function DisplayGlassControllerPS:OnInstantiated() end
 
----@private
 ---@return QuestForceClearGlass
-function DisplayGlassControllerPS:ActionQuestForceClearGlass() return end
+function DisplayGlassControllerPS:ActionQuestForceClearGlass() end
 
----@private
 ---@return QuestForceTintGlass
-function DisplayGlassControllerPS:ActionQuestForceTintGlass() return end
+function DisplayGlassControllerPS:ActionQuestForceTintGlass() end
 
----@protected
 ---@return ToggleGlassTint
-function DisplayGlassControllerPS:ActionToggleGlassTint() return end
+function DisplayGlassControllerPS:ActionToggleGlassTint() end
 
----@protected
 ---@return ToggleGlassTintHack
-function DisplayGlassControllerPS:ActionToggleGlassTintHack() return end
+function DisplayGlassControllerPS:ActionToggleGlassTintHack() end
 
----@protected
 ---@return Bool
-function DisplayGlassControllerPS:CanCreateAnyQuickHackActions() return end
+function DisplayGlassControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function DisplayGlassControllerPS:GameAttached() return end
+function DisplayGlassControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function DisplayGlassControllerPS:GetActions(context) return end
+function DisplayGlassControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function DisplayGlassControllerPS:GetBackgroundTextureTweakDBID() return end
+function DisplayGlassControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return CName
-function DisplayGlassControllerPS:GetClearAppearance() return end
+function DisplayGlassControllerPS:GetClearAppearance() end
 
----@protected
 ---@return TweakDBID
-function DisplayGlassControllerPS:GetDeviceIconTweakDBID() return end
+function DisplayGlassControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function DisplayGlassControllerPS:GetQuestActionByName(actionName) return end
+function DisplayGlassControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function DisplayGlassControllerPS:GetQuestActions(context) return end
+function DisplayGlassControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function DisplayGlassControllerPS:GetQuickHackActions(context) return end
+function DisplayGlassControllerPS:GetQuickHackActions(context) end
 
 ---@return CName
-function DisplayGlassControllerPS:GetTintAppearance() return end
+function DisplayGlassControllerPS:GetTintAppearance() end
 
 ---@return Bool
-function DisplayGlassControllerPS:IsTinted() return end
+function DisplayGlassControllerPS:IsTinted() end
 
 ---@param evt QuestForceClearGlass
 ---@return EntityNotificationType
-function DisplayGlassControllerPS:OnQuestForceClearGlass(evt) return end
+function DisplayGlassControllerPS:OnQuestForceClearGlass(evt) end
 
 ---@param evt QuestForceTintGlass
 ---@return EntityNotificationType
-function DisplayGlassControllerPS:OnQuestForceTintGlass(evt) return end
+function DisplayGlassControllerPS:OnQuestForceTintGlass(evt) end
 
 ---@param evt ToggleGlassTint
 ---@return EntityNotificationType
-function DisplayGlassControllerPS:OnToggleGlassTint(evt) return end
+function DisplayGlassControllerPS:OnToggleGlassTint(evt) end
 
 ---@param evt ToggleGlassTintHack
 ---@return EntityNotificationType
-function DisplayGlassControllerPS:OnToggleGlassTintHack(evt) return end
+function DisplayGlassControllerPS:OnToggleGlassTintHack(evt) end
 
 ---@return Bool
-function DisplayGlassControllerPS:UsesAppearances() return end
+function DisplayGlassControllerPS:UsesAppearances() end

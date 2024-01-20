@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CharacterBrighteningAreaSettings: IAreaSettings
----@field public effectStrengthMultiplier Float
----@field public minDistance Float
----@field public maxDistance Float
----@field public envMultiplier curveData
+---@field effectStrengthMultiplier Float
+---@field minDistance Float
+---@field maxDistance Float
+---@field envMultiplier curveData
 CharacterBrighteningAreaSettings = {}
 
 ---@param fields? CharacterBrighteningAreaSettings
 ---@return CharacterBrighteningAreaSettings
-function CharacterBrighteningAreaSettings.new(fields) return end
+function CharacterBrighteningAreaSettings.new(fields) end

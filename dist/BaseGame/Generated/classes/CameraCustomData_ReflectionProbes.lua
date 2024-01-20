@@ -5,4 +5,4 @@ CameraCustomData_ReflectionProbes = {}
 
 ---@param fields? CameraCustomData_ReflectionProbes
 ---@return CameraCustomData_ReflectionProbes
-function CameraCustomData_ReflectionProbes.new(fields) return end
+function CameraCustomData_ReflectionProbes.new(fields) end

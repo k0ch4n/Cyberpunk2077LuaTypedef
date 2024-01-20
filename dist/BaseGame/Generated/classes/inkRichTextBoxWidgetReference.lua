@@ -5,4 +5,4 @@ inkRichTextBoxWidgetReference = {}
 
 ---@param fields? inkRichTextBoxWidgetReference
 ---@return inkRichTextBoxWidgetReference
-function inkRichTextBoxWidgetReference.new(fields) return end
+function inkRichTextBoxWidgetReference.new(fields) end

@@ -4,7 +4,7 @@
 gamemappinsIArea = {}
 
 ---@return entEntityID
-function gamemappinsIArea:GetEntityID() return end
+function gamemappinsIArea:GetEntityID() end
 
 ---@return CName
-function gamemappinsIArea:GetType() return end
+function gamemappinsIArea:GetType() end

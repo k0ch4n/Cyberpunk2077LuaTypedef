@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animLookAtPreset_Eyes: animLookAtPreset
----@field public softLimitAngle Float
+---@field softLimitAngle Float
 animLookAtPreset_Eyes = {}
 
 ---@param fields? animLookAtPreset_Eyes
 ---@return animLookAtPreset_Eyes
-function animLookAtPreset_Eyes.new(fields) return end
+function animLookAtPreset_Eyes.new(fields) end

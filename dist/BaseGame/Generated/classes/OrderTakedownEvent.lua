@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class OrderTakedownEvent: redEvent
----@field public target gameObject
+---@field target gameObject
 OrderTakedownEvent = {}
 
 ---@param fields? OrderTakedownEvent
 ---@return OrderTakedownEvent
-function OrderTakedownEvent.new(fields) return end
+function OrderTakedownEvent.new(fields) end

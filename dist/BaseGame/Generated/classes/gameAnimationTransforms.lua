@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameAnimationTransforms
----@field public extractedMotion Transform[]
----@field public gatePosition Transform
----@field public boneOffset Transform
----@field public animsetHash Uint64
+---@field extractedMotion Transform[]
+---@field gatePosition Transform
+---@field boneOffset Transform
+---@field animsetHash Uint64
 gameAnimationTransforms = {}
 
 ---@param fields? gameAnimationTransforms
 ---@return gameAnimationTransforms
-function gameAnimationTransforms.new(fields) return end
+function gameAnimationTransforms.new(fields) end

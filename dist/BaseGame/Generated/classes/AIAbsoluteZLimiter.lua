@@ -5,4 +5,4 @@ AIAbsoluteZLimiter = {}
 
 ---@param fields? AIAbsoluteZLimiter
 ---@return AIAbsoluteZLimiter
-function AIAbsoluteZLimiter.new(fields) return end
+function AIAbsoluteZLimiter.new(fields) end

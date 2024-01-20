@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleModificatorAlphaByDistance: IParticleModificator
----@field public nearBlendDistance Vector2
----@field public farBlendDistance Vector2
+---@field nearBlendDistance Vector2
+---@field farBlendDistance Vector2
 CParticleModificatorAlphaByDistance = {}
 
 ---@param fields? CParticleModificatorAlphaByDistance
 ---@return CParticleModificatorAlphaByDistance
-function CParticleModificatorAlphaByDistance.new(fields) return end
+function CParticleModificatorAlphaByDistance.new(fields) end

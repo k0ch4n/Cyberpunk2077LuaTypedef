@@ -5,9 +5,8 @@ KillEntity = {}
 
 ---@param fields? KillEntity
 ---@return KillEntity
-function KillEntity.new(fields) return end
+function KillEntity.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function KillEntity:Activate(context) return end
+function KillEntity:Activate(context) end

@@ -5,10 +5,10 @@ QuickHackDistractExplosive = {}
 
 ---@param fields? QuickHackDistractExplosive
 ---@return QuickHackDistractExplosive
-function QuickHackDistractExplosive.new(fields) return end
+function QuickHackDistractExplosive.new(fields) end
 
 ---@return Int32
-function QuickHackDistractExplosive:GetBaseCost() return end
+function QuickHackDistractExplosive:GetBaseCost() end
 
 ---@return nil
-function QuickHackDistractExplosive:SetProperties() return end
+function QuickHackDistractExplosive:SetProperties() end

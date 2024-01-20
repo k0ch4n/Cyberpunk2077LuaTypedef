@@ -5,4 +5,4 @@ gameGOGRewardsSystem = {}
 
 ---@param fields? gameGOGRewardsSystem
 ---@return gameGOGRewardsSystem
-function gameGOGRewardsSystem.new(fields) return end
+function gameGOGRewardsSystem.new(fields) end

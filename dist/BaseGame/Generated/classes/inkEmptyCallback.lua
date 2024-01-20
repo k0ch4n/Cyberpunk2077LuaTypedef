@@ -5,4 +5,4 @@ inkEmptyCallback = {}
 
 ---@param fields? inkEmptyCallback
 ---@return inkEmptyCallback
-function inkEmptyCallback.new(fields) return end
+function inkEmptyCallback.new(fields) end

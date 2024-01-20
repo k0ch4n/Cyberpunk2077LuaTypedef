@@ -5,4 +5,4 @@ inkMenuLogicController = {}
 
 ---@param fields? inkMenuLogicController
 ---@return inkMenuLogicController
-function inkMenuLogicController.new(fields) return end
+function inkMenuLogicController.new(fields) end

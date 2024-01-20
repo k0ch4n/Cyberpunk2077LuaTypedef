@@ -1,368 +1,307 @@
 ---@meta
 
 ---@class TweakAIActionAbstract: AIbehaviortaskScript
----@field private actionRecord gamedataAIAction_Record
----@field private actionDebugName String
----@field private actionActivationTimeStamp Float
----@field private startActionTimeStamp Float
----@field protected hasGracefulInterruptionConditions Bool
----@field protected gracefulInterruptionCheckRandomizedInterval Float
----@field protected gracefullyInterrupted Bool
----@field private actionPhase EAIActionPhase
----@field private phaseRecord gamedataAIActionPhase_Record
----@field private nextPhaseConditionCount Int32
----@field private repeatPhaseConditionCount Int32
----@field private phaseActivationTimeStamp Float
----@field private phaseConditionSuccessfulCheckTimeStamp Float
----@field private phaseConditionCheckTimeStamp Float
----@field private phaseConditionCheckRandomizedInterval Float
----@field private phaseIteration Uint32
----@field private phaseDuration Float
----@field private phaseAnimationDuration Float
----@field private lookatEvents entLookAtAddEvent[]
----@field private movePolicy movePolicies
----@field private generalSubActionsResults AIbehaviorUpdateOutcome[]
----@field private phaseSubActionsResults AIbehaviorUpdateOutcome[]
----@field private phaseSubActionsCount Int32
----@field private phaseForceZeroUpdateInterval Bool
----@field private generalSubActionsCount Int32
----@field private repeatPhaseConditionsCount Int32
----@field private tickForActionDurationOnly Bool
----@field private tickForActionDurationActivePhase EAIActionPhase
----@field private hasTicketDeactivationConditions Bool
----@field private isActionImmediate Bool
----@field private lookatActivated Bool
----@field private ticketsCommited Bool
----@field private ticketsAcknowledged Bool
----@field private failureStatus Bool
----@field private animationLoaded Bool
----@field private initializedAfterActivation Bool
----@field protected shouldCallGetActionRecordAgain Bool
+---@field actionRecord gamedataAIAction_Record
+---@field actionDebugName String
+---@field actionActivationTimeStamp Float
+---@field startActionTimeStamp Float
+---@field hasGracefulInterruptionConditions Bool
+---@field gracefulInterruptionCheckRandomizedInterval Float
+---@field gracefullyInterrupted Bool
+---@field actionPhase EAIActionPhase
+---@field phaseRecord gamedataAIActionPhase_Record
+---@field nextPhaseConditionCount Int32
+---@field repeatPhaseConditionCount Int32
+---@field phaseActivationTimeStamp Float
+---@field phaseConditionSuccessfulCheckTimeStamp Float
+---@field phaseConditionCheckTimeStamp Float
+---@field phaseConditionCheckRandomizedInterval Float
+---@field phaseIteration Uint32
+---@field phaseDuration Float
+---@field phaseAnimationDuration Float
+---@field lookatEvents entLookAtAddEvent[]
+---@field movePolicy movePolicies
+---@field generalSubActionsResults AIbehaviorUpdateOutcome[]
+---@field phaseSubActionsResults AIbehaviorUpdateOutcome[]
+---@field phaseSubActionsCount Int32
+---@field phaseForceZeroUpdateInterval Bool
+---@field generalSubActionsCount Int32
+---@field repeatPhaseConditionsCount Int32
+---@field tickForActionDurationOnly Bool
+---@field tickForActionDurationActivePhase EAIActionPhase
+---@field hasTicketDeactivationConditions Bool
+---@field isActionImmediate Bool
+---@field lookatActivated Bool
+---@field ticketsCommited Bool
+---@field ticketsAcknowledged Bool
+---@field failureStatus Bool
+---@field animationLoaded Bool
+---@field initializedAfterActivation Bool
+---@field shouldCallGetActionRecordAgain Bool
 TweakAIActionAbstract = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActionUpdateIntervalCheck(context) return end
+function TweakAIActionAbstract:ActionUpdateIntervalCheck(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:Activate(context) return end
+function TweakAIActionAbstract:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActivateAnimData(context) return end
+function TweakAIActionAbstract:ActivateAnimData(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActivateAnimationWrapperOverrides(context) return end
+function TweakAIActionAbstract:ActivateAnimationWrapperOverrides(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActivateGeneralSubActions(context) return end
+function TweakAIActionAbstract:ActivateGeneralSubActions(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActivateLookat(context) return end
+function TweakAIActionAbstract:ActivateLookat(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActivateLoopSubActions(context) return end
+function TweakAIActionAbstract:ActivateLoopSubActions(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActivateRecoverySubActions(context) return end
+function TweakAIActionAbstract:ActivateRecoverySubActions(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ActivateStartupSubActions(context) return end
+function TweakAIActionAbstract:ActivateStartupSubActions(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param phaseDurationFromAnimSlot? Float
 ---@return nil
-function TweakAIActionAbstract:CalculatePhaseDuration(context, phaseDurationFromAnimSlot) return end
+function TweakAIActionAbstract:CalculatePhaseDuration(context, phaseDurationFromAnimSlot) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ChangeNPCState(context) return end
+function TweakAIActionAbstract:ChangeNPCState(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param newPhase EAIActionPhase
 ---@return Bool
-function TweakAIActionAbstract:ChangePhaseTo(context, newPhase) return end
+function TweakAIActionAbstract:ChangePhaseTo(context, newPhase) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function TweakAIActionAbstract:ChangeToNextPhase(context) return end
+function TweakAIActionAbstract:ChangeToNextPhase(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param status AIbehaviorCompletionStatus
 ---@return nil
-function TweakAIActionAbstract:ChildCompleted(context, status) return end
+function TweakAIActionAbstract:ChildCompleted(context, status) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:Deactivate(context) return end
+function TweakAIActionAbstract:Deactivate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:DeactivateAnimData(context) return end
+function TweakAIActionAbstract:DeactivateAnimData(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:DeactivateAnimationWrapperOverrides(context) return end
+function TweakAIActionAbstract:DeactivateAnimationWrapperOverrides(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@return nil
-function TweakAIActionAbstract:DeactivateGeneralSubActions(context, duration) return end
+function TweakAIActionAbstract:DeactivateGeneralSubActions(context, duration) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:DeactivateLookat(context) return end
+function TweakAIActionAbstract:DeactivateLookat(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@return nil
-function TweakAIActionAbstract:DeactivateLoopSubActions(context, duration) return end
+function TweakAIActionAbstract:DeactivateLoopSubActions(context, duration) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@return nil
-function TweakAIActionAbstract:DeactivateRecoverySubActions(context, duration) return end
+function TweakAIActionAbstract:DeactivateRecoverySubActions(context, duration) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@return nil
-function TweakAIActionAbstract:DeactivateStartupSubActions(context, duration) return end
+function TweakAIActionAbstract:DeactivateStartupSubActions(context, duration) end
 
----@private
 ---@return TweakDBID
-function TweakAIActionAbstract:Debug_GetBaseActionId() return end
+function TweakAIActionAbstract:Debug_GetBaseActionId() end
 
----@private
 ---@return TweakDBID
-function TweakAIActionAbstract:Debug_GetCompositeId() return end
+function TweakAIActionAbstract:Debug_GetCompositeId() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function TweakAIActionAbstract:GetActionDuration(context) return end
+function TweakAIActionAbstract:GetActionDuration(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionDebugName String
 ---@return Bool, gamedataAIAction_Record actionRecord, Bool shouldCallAgain
-function TweakAIActionAbstract:GetActionRecord(context, actionDebugName) return end
+function TweakAIActionAbstract:GetActionRecord(context, actionDebugName) end
 
----@private
 ---@return Float
-function TweakAIActionAbstract:GetAllowBlendDuration() return end
+function TweakAIActionAbstract:GetAllowBlendDuration() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param animDirection gamedataAIActionAnimDirection_Record
 ---@return Float
-function TweakAIActionAbstract:GetAnimDirection(context, animDirection) return end
+function TweakAIActionAbstract:GetAnimDirection(context, animDirection) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return animAnimFeature_AIAction
-function TweakAIActionAbstract:GetAnimFeature(context) return end
+function TweakAIActionAbstract:GetAnimFeature(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String
-function TweakAIActionAbstract:GetDescription(context) return end
+function TweakAIActionAbstract:GetDescription(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function TweakAIActionAbstract:GetPhaseDuration(context) return end
+function TweakAIActionAbstract:GetPhaseDuration(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function TweakAIActionAbstract:GetPhaseDurationWithoutFrameDelta(context) return end
+function TweakAIActionAbstract:GetPhaseDurationWithoutFrameDelta(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param slideTarget gameObject
 ---@return gameActionAnimationSlideParams
-function TweakAIActionAbstract:GetSlideParams(context, slideTarget) return end
+function TweakAIActionAbstract:GetSlideParams(context, slideTarget) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool, gameObject slideTarget, gamedataTrackingMode slideTargetTrackingMode
-function TweakAIActionAbstract:GetSlideTarget(context) return end
+function TweakAIActionAbstract:GetSlideTarget(context) end
 
----@private
 ---@return Float
-function TweakAIActionAbstract:GetTotalActionDuration() return end
+function TweakAIActionAbstract:GetTotalActionDuration() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function TweakAIActionAbstract:HasTicketDeactivationCondition(context) return end
+function TweakAIActionAbstract:HasTicketDeactivationCondition(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:Initialize(context) return end
+function TweakAIActionAbstract:Initialize(context) end
 
----@private
 ---@return Bool
-function TweakAIActionAbstract:IsActionImmediate() return end
+function TweakAIActionAbstract:IsActionImmediate() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@return nil
-function TweakAIActionAbstract:OnPhaseEnded(context, duration) return end
+function TweakAIActionAbstract:OnPhaseEnded(context, duration) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:OnPhaseStarted(context) return end
+function TweakAIActionAbstract:OnPhaseStarted(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param animFeature animAnimFeature_AIAction
 ---@return nil
-function TweakAIActionAbstract:PlayAnimationOnSlot(context, animFeature) return end
+function TweakAIActionAbstract:PlayAnimationOnSlot(context, animFeature) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ReactOnAllPhaseSubActionsCompleted(context) return end
+function TweakAIActionAbstract:ReactOnAllPhaseSubActionsCompleted(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function TweakAIActionAbstract:RepeatPhase(context) return end
+function TweakAIActionAbstract:RepeatPhase(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function TweakAIActionAbstract:RequestGracefulInterruption(context) return end
+function TweakAIActionAbstract:RequestGracefulInterruption(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:ResetNPCState(context) return end
+function TweakAIActionAbstract:ResetNPCState(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function TweakAIActionAbstract:RetryGetActionRecord(context) return end
+function TweakAIActionAbstract:RetryGetActionRecord(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:SendAnimData(context) return end
+function TweakAIActionAbstract:SendAnimData(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param value Float
 ---@return nil
-function TweakAIActionAbstract:SetAnimationWrapperOverrides(context, value) return end
+function TweakAIActionAbstract:SetAnimationWrapperOverrides(context, value) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param subActionsOutcome AIbehaviorUpdateOutcome
 ---@param generalSubActionsOutcome AIbehaviorUpdateOutcome
 ---@return nil
-function TweakAIActionAbstract:SetPhaseUpdateInterval(context, subActionsOutcome, generalSubActionsOutcome) return end
+function TweakAIActionAbstract:SetPhaseUpdateInterval(context, subActionsOutcome, generalSubActionsOutcome) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:StartActionTimeStamp(context) return end
+function TweakAIActionAbstract:StartActionTimeStamp(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TweakAIActionAbstract:StartCooldowns(context) return end
+function TweakAIActionAbstract:StartCooldowns(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param stop Bool
 ---@return nil
-function TweakAIActionAbstract:TrackCommands(context, stop) return end
+function TweakAIActionAbstract:TrackCommands(context, stop) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionAbstract:Update(context) return end
+function TweakAIActionAbstract:Update(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool, AIbehaviorUpdateOutcome subActionsOutcome, Bool phaseChanged
-function TweakAIActionAbstract:UpdateActivePhase(context) return end
+function TweakAIActionAbstract:UpdateActivePhase(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionAbstract:UpdateGeneralSubActions(context, duration) return end
+function TweakAIActionAbstract:UpdateGeneralSubActions(context, duration) end
 
----@private
----@param context AIbehaviorScriptExecutionContext
----@param duration Float
----@param subActionCount Int32
----@return AIbehaviorUpdateOutcome
-function TweakAIActionAbstract:UpdateLoopSubActions(context, duration, subActionCount) return end
-
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@param subActionCount Int32
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionAbstract:UpdateRecoverySubActions(context, duration, subActionCount) return end
+function TweakAIActionAbstract:UpdateLoopSubActions(context, duration, subActionCount) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param duration Float
 ---@param subActionCount Int32
 ---@return AIbehaviorUpdateOutcome
-function TweakAIActionAbstract:UpdateStartupSubActions(context, duration, subActionCount) return end
+function TweakAIActionAbstract:UpdateRecoverySubActions(context, duration, subActionCount) end
 
----@private
+---@param context AIbehaviorScriptExecutionContext
+---@param duration Float
+---@param subActionCount Int32
+---@return AIbehaviorUpdateOutcome
+function TweakAIActionAbstract:UpdateStartupSubActions(context, duration, subActionCount) end
+
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome, AIbehaviorUpdateOutcome generalResult
-function TweakAIActionAbstract:UpdateSubActions(context) return end
+function TweakAIActionAbstract:UpdateSubActions(context) end
 
----@protected
 ---@return Bool
-function TweakAIActionAbstract:VerifyActionRecord() return end
+function TweakAIActionAbstract:VerifyActionRecord() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function TweakAIActionAbstract:WaitForAnimToLoad(context) return end
+function TweakAIActionAbstract:WaitForAnimToLoad(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param value Int32
 ---@return nil
-function TweakAIActionAbstract:WeaponOverride(context, value) return end
+function TweakAIActionAbstract:WeaponOverride(context, value) end

@@ -5,4 +5,4 @@ gameEffectorObject = {}
 
 ---@param fields? gameEffectorObject
 ---@return gameEffectorObject
-function gameEffectorObject.new(fields) return end
+function gameEffectorObject.new(fields) end

@@ -5,4 +5,4 @@ inkButtonHoldCompleteCallback = {}
 
 ---@param fields? inkButtonHoldCompleteCallback
 ---@return inkButtonHoldCompleteCallback
-function inkButtonHoldCompleteCallback.new(fields) return end
+function inkButtonHoldCompleteCallback.new(fields) end

@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class sampleUIStatusWidgetLogicController: inkWidgetLogicController
----@field public enableStateColor Color
----@field public disableStateColor Color
----@field private textWidget inkTextWidget
----@field private iconWidget inkRectangleWidget
+---@field enableStateColor Color
+---@field disableStateColor Color
+---@field textWidget inkTextWidget
+---@field iconWidget inkRectangleWidget
 sampleUIStatusWidgetLogicController = {}
 
 ---@param fields? sampleUIStatusWidgetLogicController
 ---@return sampleUIStatusWidgetLogicController
-function sampleUIStatusWidgetLogicController.new(fields) return end
+function sampleUIStatusWidgetLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUIStatusWidgetLogicController:OnInitialize() return end
+function sampleUIStatusWidgetLogicController:OnInitialize() end
 
 ---@param on Bool
 ---@return nil
-function sampleUIStatusWidgetLogicController:SetStatus(on) return end
+function sampleUIStatusWidgetLogicController:SetStatus(on) end

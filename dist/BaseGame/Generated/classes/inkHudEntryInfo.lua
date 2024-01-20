@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class inkHudEntryInfo: inkUserData
----@field public size Vector2
----@field public offset Vector2
+---@field size Vector2
+---@field offset Vector2
 inkHudEntryInfo = {}
 
 ---@param fields? inkHudEntryInfo
 ---@return inkHudEntryInfo
-function inkHudEntryInfo.new(fields) return end
+function inkHudEntryInfo.new(fields) end
 
 ---@return nil
-function inkHudEntryInfo:SetSize() return end
+function inkHudEntryInfo:SetSize() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameImpostorComponent: entIComponent
----@field public isCharacterReplica Bool
----@field public addHead Bool
----@field public ignorePlayerHeadSlot Bool
----@field public slotIDsToOmit TweakDBID[]
+---@field isCharacterReplica Bool
+---@field addHead Bool
+---@field ignorePlayerHeadSlot Bool
+---@field slotIDsToOmit TweakDBID[]
 gameImpostorComponent = {}
 
 ---@param fields? gameImpostorComponent
 ---@return gameImpostorComponent
-function gameImpostorComponent.new(fields) return end
+function gameImpostorComponent.new(fields) end

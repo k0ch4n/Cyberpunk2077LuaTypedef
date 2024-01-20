@@ -5,4 +5,4 @@ gamedataReactionPresetCivilian_Record = {}
 
 ---@param fields? gamedataReactionPresetCivilian_Record
 ---@return gamedataReactionPresetCivilian_Record
-function gamedataReactionPresetCivilian_Record.new(fields) return end
+function gamedataReactionPresetCivilian_Record.new(fields) end

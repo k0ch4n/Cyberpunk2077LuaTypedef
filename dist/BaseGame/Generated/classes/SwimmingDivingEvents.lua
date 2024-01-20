@@ -1,40 +1,37 @@
 ---@meta
 
 ---@class SwimmingDivingEvents: LocomotionSwimmingEvents
----@field public lapsedTime Float
+---@field lapsedTime Float
 SwimmingDivingEvents = {}
 
 ---@param fields? SwimmingDivingEvents
 ---@return SwimmingDivingEvents
-function SwimmingDivingEvents.new(fields) return end
+function SwimmingDivingEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingDivingEvents:OnEnter(stateContext, scriptInterface) return end
+function SwimmingDivingEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingDivingEvents:OnExit(stateContext, scriptInterface) return end
+function SwimmingDivingEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingDivingEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SwimmingDivingEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingDivingEvents:UpdateAscendingDescending(timeDelta, stateContext, scriptInterface) return end
+function SwimmingDivingEvents:UpdateAscendingDescending(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SwimmingDivingEvents:UpdateDivingStroke(timeDelta, stateContext, scriptInterface) return end
+function SwimmingDivingEvents:UpdateDivingStroke(timeDelta, stateContext, scriptInterface) end

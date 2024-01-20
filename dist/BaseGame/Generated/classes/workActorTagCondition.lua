@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class workActorTagCondition: workIWorkspotCondition
----@field public tag CName
+---@field tag CName
 workActorTagCondition = {}
 
 ---@param fields? workActorTagCondition
 ---@return workActorTagCondition
-function workActorTagCondition.new(fields) return end
+function workActorTagCondition.new(fields) end

@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class inkDefaultLoadingScreenLogicController: inkILoadingLogicController
----@field private progressBarRoot inkWidgetReference
----@field private progressBarController LoadingScreenProgressBarController
+---@field progressBarRoot inkWidgetReference
+---@field progressBarController LoadingScreenProgressBarController
 inkDefaultLoadingScreenLogicController = {}
 
 ---@param fields? inkDefaultLoadingScreenLogicController
 ---@return inkDefaultLoadingScreenLogicController
-function inkDefaultLoadingScreenLogicController.new(fields) return end
+function inkDefaultLoadingScreenLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function inkDefaultLoadingScreenLogicController:OnInitialize() return end
+function inkDefaultLoadingScreenLogicController:OnInitialize() end
 
----@protected
 ---@param progress Float
 ---@return nil
-function inkDefaultLoadingScreenLogicController:SetLoadProgress(progress) return end
+function inkDefaultLoadingScreenLogicController:SetLoadProgress(progress) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function inkDefaultLoadingScreenLogicController:SetProgressIndicatorVisibility(visible) return end
+function inkDefaultLoadingScreenLogicController:SetProgressIndicatorVisibility(visible) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function inkDefaultLoadingScreenLogicController:SetSpinnerVisiblility(visible) return end
+function inkDefaultLoadingScreenLogicController:SetSpinnerVisiblility(visible) end

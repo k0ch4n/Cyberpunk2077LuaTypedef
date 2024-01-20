@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIForceShootCommandParams: questScriptedAICommandParams
----@field public targetOverrideNodeRef NodeRef
----@field public targetOverridePuppetRef gameEntityReference
----@field public duration Float
+---@field targetOverrideNodeRef NodeRef
+---@field targetOverridePuppetRef gameEntityReference
+---@field duration Float
 AIForceShootCommandParams = {}
 
 ---@param fields? AIForceShootCommandParams
 ---@return AIForceShootCommandParams
-function AIForceShootCommandParams.new(fields) return end
+function AIForceShootCommandParams.new(fields) end
 
 ---@return AICommand
-function AIForceShootCommandParams:CreateCommand() return end
+function AIForceShootCommandParams:CreateCommand() end
 
 ---@return String
-function AIForceShootCommandParams:GetCommandName() return end
+function AIForceShootCommandParams:GetCommandName() end

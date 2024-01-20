@@ -5,11 +5,11 @@ SendSpiderbotToTogglePower = {}
 
 ---@param fields? SendSpiderbotToTogglePower
 ---@return SendSpiderbotToTogglePower
-function SendSpiderbotToTogglePower.new(fields) return end
+function SendSpiderbotToTogglePower.new(fields) end
 
 ---@return String
-function SendSpiderbotToTogglePower:GetTweakDBChoiceRecord() return end
+function SendSpiderbotToTogglePower:GetTweakDBChoiceRecord() end
 
 ---@param status EDeviceStatus
 ---@return nil
-function SendSpiderbotToTogglePower:SetProperties(status) return end
+function SendSpiderbotToTogglePower:SetProperties(status) end

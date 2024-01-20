@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiPanzerEnemyAV: gameuiPanzerEnemy
----@field public speed Float
----@field public shotsAmount Uint32
----@field public longShotInterval Float
----@field public shortShotInterval Float
+---@field speed Float
+---@field shotsAmount Uint32
+---@field longShotInterval Float
+---@field shortShotInterval Float
 gameuiPanzerEnemyAV = {}
 
 ---@param fields? gameuiPanzerEnemyAV
 ---@return gameuiPanzerEnemyAV
-function gameuiPanzerEnemyAV.new(fields) return end
+function gameuiPanzerEnemyAV.new(fields) end

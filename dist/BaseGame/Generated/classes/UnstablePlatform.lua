@@ -5,19 +5,16 @@ UnstablePlatform = {}
 
 ---@param fields? UnstablePlatform
 ---@return UnstablePlatform
-function UnstablePlatform.new(fields) return end
+function UnstablePlatform.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function UnstablePlatform:OnAreaEnter(evt) return end
+function UnstablePlatform:OnAreaEnter(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function UnstablePlatform:OnRequestComponents(ri) return end
+function UnstablePlatform:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function UnstablePlatform:OnTakeControl(ri) return end
+function UnstablePlatform:OnTakeControl(ri) end

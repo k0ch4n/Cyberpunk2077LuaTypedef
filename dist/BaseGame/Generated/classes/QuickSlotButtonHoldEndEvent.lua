@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class QuickSlotButtonHoldEndEvent: redEvent
----@field public dPadItemDirection EDPadSlot
----@field public rightStickAngle Float
----@field public tryExecuteCommand Bool
+---@field dPadItemDirection EDPadSlot
+---@field rightStickAngle Float
+---@field tryExecuteCommand Bool
 QuickSlotButtonHoldEndEvent = {}
 
 ---@param fields? QuickSlotButtonHoldEndEvent
 ---@return QuickSlotButtonHoldEndEvent
-function QuickSlotButtonHoldEndEvent.new(fields) return end
+function QuickSlotButtonHoldEndEvent.new(fields) end

@@ -1,66 +1,61 @@
 ---@meta
 
 ---@class gameMuppet: gamePuppetBase
----@field private hitRepresantation entSlotComponent
----@field private slotComponent entSlotComponent
----@field public highDamageThreshold Float
----@field public medDamageThreshold Float
----@field public lowDamageThreshold Float
----@field public effectTimeStamp Float
+---@field hitRepresantation entSlotComponent
+---@field slotComponent entSlotComponent
+---@field highDamageThreshold Float
+---@field medDamageThreshold Float
+---@field lowDamageThreshold Float
+---@field effectTimeStamp Float
 gameMuppet = {}
 
 ---@param fields? gameMuppet
 ---@return gameMuppet
-function gameMuppet.new(fields) return end
+function gameMuppet.new(fields) end
 
 ---@return gameAttitudeAgent
-function gameMuppet:GetAttitude() return end
+function gameMuppet:GetAttitude() end
 
 ---@param itemId gameItemID
 ---@return Int32
-function gameMuppet:GetItemQuantity(itemId) return end
+function gameMuppet:GetItemQuantity(itemId) end
 
 ---@return nil
-function gameMuppet:GetRecordID() return end
+function gameMuppet:GetRecordID() end
 
 ---@return Bool
-function gameMuppet:IsMuppetIncapacitated() return end
+function gameMuppet:IsMuppetIncapacitated() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function gameMuppet:OnRequestComponents(ri) return end
+function gameMuppet:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function gameMuppet:OnTakeControl(ri) return end
+function gameMuppet:OnTakeControl(ri) end
 
 ---@return gameAttitudeAgent
-function gameMuppet:GetAttitudeAgent() return end
+function gameMuppet:GetAttitudeAgent() end
 
----@private
 ---@return nil
-function gameMuppet:GetDamageThresholdParams() return end
+function gameMuppet:GetDamageThresholdParams() end
 
 ---@return entSlotComponent
-function gameMuppet:GetHitRepresantationSlotComponent() return end
+function gameMuppet:GetHitRepresantationSlotComponent() end
 
 ---@return entSlotComponent
-function gameMuppet:GetSlotComponent() return end
+function gameMuppet:GetSlotComponent() end
 
 ---@return Bool
-function gameMuppet:IsIncapacitated() return end
+function gameMuppet:IsIncapacitated() end
 
 ---@return Bool
-function gameMuppet:IsPlayer() return end
+function gameMuppet:IsPlayer() end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameMuppet:OnHitSounds(hitEvent) return end
+function gameMuppet:OnHitSounds(hitEvent) end
 
----@private
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function gameMuppet:OnHitVFX(hitEvent) return end
+function gameMuppet:OnHitVFX(hitEvent) end

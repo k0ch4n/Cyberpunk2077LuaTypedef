@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiWorldMapGameObject: gameObject
----@field public districts gameuiDistrictTriggerData[]
+---@field districts gameuiDistrictTriggerData[]
 gameuiWorldMapGameObject = {}
 
 ---@param fields? gameuiWorldMapGameObject
 ---@return gameuiWorldMapGameObject
-function gameuiWorldMapGameObject.new(fields) return end
+function gameuiWorldMapGameObject.new(fields) end

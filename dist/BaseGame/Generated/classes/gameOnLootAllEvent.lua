@@ -5,4 +5,4 @@ gameOnLootAllEvent = {}
 
 ---@param fields? gameOnLootAllEvent
 ---@return gameOnLootAllEvent
-function gameOnLootAllEvent.new(fields) return end
+function gameOnLootAllEvent.new(fields) end

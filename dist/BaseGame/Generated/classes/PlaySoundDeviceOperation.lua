@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class PlaySoundDeviceOperation: DeviceOperationBase
----@field public SFXs SSFXOperationData[]
+---@field SFXs SSFXOperationData[]
 PlaySoundDeviceOperation = {}
 
 ---@param fields? PlaySoundDeviceOperation
 ---@return PlaySoundDeviceOperation
-function PlaySoundDeviceOperation.new(fields) return end
+function PlaySoundDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function PlaySoundDeviceOperation:Execute(owner) return end
+function PlaySoundDeviceOperation:Execute(owner) end
 
----@private
 ---@param SFXsArg SSFXOperationData[]
 ---@param owner gameObject
 ---@return nil
-function PlaySoundDeviceOperation:ResolveSFXs(SFXsArg, owner) return end
+function PlaySoundDeviceOperation:ResolveSFXs(SFXsArg, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function PlaySoundDeviceOperation:Restore(owner) return end
+function PlaySoundDeviceOperation:Restore(owner) end

@@ -1,72 +1,72 @@
 ---@meta
 
 ---@class gameuiHackingMinigameLogicController: inkWidgetLogicController
----@field public grid inkUniformGridWidgetReference
----@field public buffer inkCompoundWidgetReference
----@field public programs inkCompoundWidgetReference
----@field public timer inkTextWidgetReference
----@field public timerProgressBar inkWidgetReference
----@field public timerContainer inkWidgetReference
----@field public timerPlaceholder inkWidgetReference
----@field public accessInformationText inkTextWidgetReference
----@field public activatedTraps inkCompoundWidgetReference
----@field public gridVerticalHiglight inkWidgetReference
----@field public gridHorizontalHiglight inkWidgetReference
----@field public programsColumnHiglight inkWidgetReference
----@field public successScreenWidget inkCompoundWidgetReference
----@field public failScreenWidget inkCompoundWidgetReference
----@field public successExitTerminalText inkTextWidgetReference
----@field public failedExitTerminalText inkTextWidgetReference
----@field public successExitButton inkWidgetReference
----@field public failureExitButton inkWidgetReference
----@field public resetButton inkWidgetReference
----@field public introAnimName CName
----@field public loopAnimName CName
----@field public cursorAnimName CName
----@field public higlightAnimName CName
----@field public gameWonAnimName CName
----@field public gameLostAnimName CName
----@field public terminalShutdownAnimName CName
----@field public trapActivatedAnimName CName
----@field public programSucceedAnimName CName
----@field public programFailedAnimName CName
----@field public programResetFromFailedAnimName CName
----@field public gridCellHoverAnimName CName
----@field public gridCellClickFlashAnimName CName
----@field public bufferCellHoverAnimName CName
----@field public bufferCellClickFlashAnimName CName
----@field public programCellClickFlashAnimName CName
----@field public activatedTrapIconLibraryName CName
----@field public bufferCellLibraryName CName
----@field public programCellLibraryName CName
----@field public gridCellLibraryName CName
----@field public programEntryLibraryName CName
----@field public trapIconsContainerRelativePath CName
----@field public bufferCellTextWidgetRelativePath CName
----@field public programCellTextWidgetRelativePath CName
----@field public gridCellTrapIconWidgetRelativePath CName
----@field public gridCellTrapIconContainerRelativePath CName
----@field public gridCellTextWidgetRelativePath CName
----@field public gridCellProgramHighlightRelativePath CName
----@field public programEntryTextWidgetRelativePath CName
----@field public programEntryNoteWidgetRelativePath CName
----@field public programEntryInstructionContainerRelativePath CName
----@field public programEntryIconPath CName
----@field public cursorWidgetRelativePath CName
----@field public gridCellDefaultStateName CName
----@field public gridCellHoveredStateName CName
----@field public gridCellSelectedStateName CName
----@field public gridCellDisabledStateName CName
----@field public programSucceedStateName CName
----@field public programFailedStateName CName
----@field public programCellReadyStateName CName
----@field public programCellHighlightStateName CName
----@field public mainHiglightBarStateName CName
----@field public secondaryHiglightBarStateName CName
----@field public inactiveHiglightBarStateName CName
----@field public gridCellDisabledSymbol String
+---@field grid inkUniformGridWidgetReference
+---@field buffer inkCompoundWidgetReference
+---@field programs inkCompoundWidgetReference
+---@field timer inkTextWidgetReference
+---@field timerProgressBar inkWidgetReference
+---@field timerContainer inkWidgetReference
+---@field timerPlaceholder inkWidgetReference
+---@field accessInformationText inkTextWidgetReference
+---@field activatedTraps inkCompoundWidgetReference
+---@field gridVerticalHiglight inkWidgetReference
+---@field gridHorizontalHiglight inkWidgetReference
+---@field programsColumnHiglight inkWidgetReference
+---@field successScreenWidget inkCompoundWidgetReference
+---@field failScreenWidget inkCompoundWidgetReference
+---@field successExitTerminalText inkTextWidgetReference
+---@field failedExitTerminalText inkTextWidgetReference
+---@field successExitButton inkWidgetReference
+---@field failureExitButton inkWidgetReference
+---@field resetButton inkWidgetReference
+---@field introAnimName CName
+---@field loopAnimName CName
+---@field cursorAnimName CName
+---@field higlightAnimName CName
+---@field gameWonAnimName CName
+---@field gameLostAnimName CName
+---@field terminalShutdownAnimName CName
+---@field trapActivatedAnimName CName
+---@field programSucceedAnimName CName
+---@field programFailedAnimName CName
+---@field programResetFromFailedAnimName CName
+---@field gridCellHoverAnimName CName
+---@field gridCellClickFlashAnimName CName
+---@field bufferCellHoverAnimName CName
+---@field bufferCellClickFlashAnimName CName
+---@field programCellClickFlashAnimName CName
+---@field activatedTrapIconLibraryName CName
+---@field bufferCellLibraryName CName
+---@field programCellLibraryName CName
+---@field gridCellLibraryName CName
+---@field programEntryLibraryName CName
+---@field trapIconsContainerRelativePath CName
+---@field bufferCellTextWidgetRelativePath CName
+---@field programCellTextWidgetRelativePath CName
+---@field gridCellTrapIconWidgetRelativePath CName
+---@field gridCellTrapIconContainerRelativePath CName
+---@field gridCellTextWidgetRelativePath CName
+---@field gridCellProgramHighlightRelativePath CName
+---@field programEntryTextWidgetRelativePath CName
+---@field programEntryNoteWidgetRelativePath CName
+---@field programEntryInstructionContainerRelativePath CName
+---@field programEntryIconPath CName
+---@field cursorWidgetRelativePath CName
+---@field gridCellDefaultStateName CName
+---@field gridCellHoveredStateName CName
+---@field gridCellSelectedStateName CName
+---@field gridCellDisabledStateName CName
+---@field programSucceedStateName CName
+---@field programFailedStateName CName
+---@field programCellReadyStateName CName
+---@field programCellHighlightStateName CName
+---@field mainHiglightBarStateName CName
+---@field secondaryHiglightBarStateName CName
+---@field inactiveHiglightBarStateName CName
+---@field gridCellDisabledSymbol String
 gameuiHackingMinigameLogicController = {}
 
 ---@param fields? gameuiHackingMinigameLogicController
 ---@return gameuiHackingMinigameLogicController
-function gameuiHackingMinigameLogicController.new(fields) return end
+function gameuiHackingMinigameLogicController.new(fields) end

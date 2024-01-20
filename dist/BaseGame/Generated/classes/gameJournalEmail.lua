@@ -1,32 +1,32 @@
 ---@meta
 
 ---@class gameJournalEmail: gameJournalEntry
----@field public sender LocalizationString
----@field public addressee LocalizationString
----@field public title LocalizationString
----@field public content LocalizationString
----@field public videoResource Bink
----@field public pictureTweak TweakDBID
+---@field sender LocalizationString
+---@field addressee LocalizationString
+---@field title LocalizationString
+---@field content LocalizationString
+---@field videoResource Bink
+---@field pictureTweak TweakDBID
 gameJournalEmail = {}
 
 ---@param fields? gameJournalEmail
 ---@return gameJournalEmail
-function gameJournalEmail.new(fields) return end
+function gameJournalEmail.new(fields) end
 
 ---@return String
-function gameJournalEmail:GetAddressee() return end
+function gameJournalEmail:GetAddressee() end
 
 ---@return String
-function gameJournalEmail:GetContent() return end
+function gameJournalEmail:GetContent() end
 
 ---@return TweakDBID
-function gameJournalEmail:GetImageTweak() return end
+function gameJournalEmail:GetImageTweak() end
 
 ---@return String
-function gameJournalEmail:GetSender() return end
+function gameJournalEmail:GetSender() end
 
 ---@return String
-function gameJournalEmail:GetTitle() return end
+function gameJournalEmail:GetTitle() end
 
 ---@return redResourceReferenceScriptToken
-function gameJournalEmail:GetVideoResourcePath() return end
+function gameJournalEmail:GetVideoResourcePath() end

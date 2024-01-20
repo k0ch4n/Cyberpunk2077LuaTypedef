@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsControllerHit
----@field public worldPos Vector4
----@field public worldNormal Vector4
+---@field worldPos Vector4
+---@field worldNormal Vector4
 physicsControllerHit = {}
 
 ---@param fields? physicsControllerHit
 ---@return physicsControllerHit
-function physicsControllerHit.new(fields) return end
+function physicsControllerHit.new(fields) end

@@ -5,4 +5,4 @@ inkTextInputWidgetReference = {}
 
 ---@param fields? inkTextInputWidgetReference
 ---@return inkTextInputWidgetReference
-function inkTextInputWidgetReference.new(fields) return end
+function inkTextInputWidgetReference.new(fields) end

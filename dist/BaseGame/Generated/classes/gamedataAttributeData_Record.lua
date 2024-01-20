@@ -5,49 +5,49 @@ gamedataAttributeData_Record = {}
 
 ---@param fields? gamedataAttributeData_Record
 ---@return gamedataAttributeData_Record
-function gamedataAttributeData_Record.new(fields) return end
+function gamedataAttributeData_Record.new(fields) end
 
 ---@return gamedataUIIcon_Record
-function gamedataAttributeData_Record:AttrIcon() return end
+function gamedataAttributeData_Record:AttrIcon() end
 
 ---@return gamedataUIIcon_Record
-function gamedataAttributeData_Record:AttrIconHandle() return end
+function gamedataAttributeData_Record:AttrIconHandle() end
 
 ---@return gamedataAttribute_Record
-function gamedataAttributeData_Record:Attribute() return end
+function gamedataAttributeData_Record:Attribute() end
 
 ---@return gamedataAttribute_Record
-function gamedataAttributeData_Record:AttributeHandle() return end
+function gamedataAttributeData_Record:AttributeHandle() end
 
 ---@return String
-function gamedataAttributeData_Record:EnumComment() return end
+function gamedataAttributeData_Record:EnumComment() end
 
 ---@return CName
-function gamedataAttributeData_Record:EnumName() return end
+function gamedataAttributeData_Record:EnumName() end
 
 ---@return Int32
-function gamedataAttributeData_Record:GetPerksCount() return end
+function gamedataAttributeData_Record:GetPerksCount() end
 
 ---@param index Int32
 ---@return gamedataNewPerk_Record
-function gamedataAttributeData_Record:GetPerksItem(index) return end
+function gamedataAttributeData_Record:GetPerksItem(index) end
 
 ---@param index Int32
 ---@return gamedataNewPerk_Record
-function gamedataAttributeData_Record:GetPerksItemHandle(index) return end
+function gamedataAttributeData_Record:GetPerksItemHandle(index) end
 
 ---@return String
-function gamedataAttributeData_Record:Loc_desc_key() return end
+function gamedataAttributeData_Record:Loc_desc_key() end
 
 ---@return String
-function gamedataAttributeData_Record:Loc_name_key() return end
+function gamedataAttributeData_Record:Loc_name_key() end
 
 ---@return nil, gamedataNewPerk_Record[] outList
-function gamedataAttributeData_Record:Perks() return end
+function gamedataAttributeData_Record:Perks() end
 
 ---@param item gamedataNewPerk_Record
 ---@return Bool
-function gamedataAttributeData_Record:PerksContains(item) return end
+function gamedataAttributeData_Record:PerksContains(item) end
 
 ---@return gamedataAttributeDataType
-function gamedataAttributeData_Record:Type() return end
+function gamedataAttributeData_Record:Type() end

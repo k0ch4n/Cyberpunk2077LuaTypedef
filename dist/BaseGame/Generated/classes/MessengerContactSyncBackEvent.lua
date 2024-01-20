@@ -5,4 +5,4 @@ MessengerContactSyncBackEvent = {}
 
 ---@param fields? MessengerContactSyncBackEvent
 ---@return MessengerContactSyncBackEvent
-function MessengerContactSyncBackEvent.new(fields) return end
+function MessengerContactSyncBackEvent.new(fields) end

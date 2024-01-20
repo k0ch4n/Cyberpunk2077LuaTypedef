@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameprojectileAccelerateTowardsTrajectoryParams: gameprojectileTrajectoryParams
----@field public accelerationSpeed Float
----@field public maxSpeed Float
----@field public decelerateTowardsTargetPositionDistance Float
----@field public maxRotationSpeed Float
----@field public minRotationSpeed Float
----@field public diffForMaxRotation Float
----@field public target gameObject
----@field public targetComponent entIPlacedComponent
----@field public targetPosition Vector4
----@field public targetOffset Vector4
----@field public accuracy Float
+---@field accelerationSpeed Float
+---@field maxSpeed Float
+---@field decelerateTowardsTargetPositionDistance Float
+---@field maxRotationSpeed Float
+---@field minRotationSpeed Float
+---@field diffForMaxRotation Float
+---@field target gameObject
+---@field targetComponent entIPlacedComponent
+---@field targetPosition Vector4
+---@field targetOffset Vector4
+---@field accuracy Float
 gameprojectileAccelerateTowardsTrajectoryParams = {}
 
 ---@param fields? gameprojectileAccelerateTowardsTrajectoryParams
 ---@return gameprojectileAccelerateTowardsTrajectoryParams
-function gameprojectileAccelerateTowardsTrajectoryParams.new(fields) return end
+function gameprojectileAccelerateTowardsTrajectoryParams.new(fields) end

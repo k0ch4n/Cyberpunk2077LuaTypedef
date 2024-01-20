@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ColorGradingLutParams
----@field public LUT CBitmapTexture
----@field public inputMapping EColorMappingFunction
----@field public outputMapping EColorMappingFunction
+---@field LUT CBitmapTexture
+---@field inputMapping EColorMappingFunction
+---@field outputMapping EColorMappingFunction
 ColorGradingLutParams = {}
 
 ---@param fields? ColorGradingLutParams
 ---@return ColorGradingLutParams
-function ColorGradingLutParams.new(fields) return end
+function ColorGradingLutParams.new(fields) end

@@ -5,4 +5,4 @@ inkFastTravelLoadingScreenData = {}
 
 ---@param fields? inkFastTravelLoadingScreenData
 ---@return inkFastTravelLoadingScreenData
-function inkFastTravelLoadingScreenData.new(fields) return end
+function inkFastTravelLoadingScreenData.new(fields) end

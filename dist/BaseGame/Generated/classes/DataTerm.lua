@@ -1,229 +1,188 @@
 ---@meta
 
 ---@class DataTerm: InteractiveDevice
----@field private linkedFastTravelPoint gameFastTravelPointData
----@field private exitNode NodeRef
----@field private metroAnimationNode NodeRef
----@field private SubwayGateBroken Bool
----@field private fastTravelComponent FastTravelComponent
----@field private lockColiderComponent entIPlacedComponent
----@field private mappinID gameNewMappinID
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field private hologramMeshGreen entIPlacedComponent
----@field private hologramMeshRed entIPlacedComponent
+---@field linkedFastTravelPoint gameFastTravelPointData
+---@field exitNode NodeRef
+---@field metroAnimationNode NodeRef
+---@field SubwayGateBroken Bool
+---@field fastTravelComponent FastTravelComponent
+---@field lockColiderComponent entIPlacedComponent
+---@field mappinID gameNewMappinID
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
+---@field hologramMeshGreen entIPlacedComponent
+---@field hologramMeshRed entIPlacedComponent
 DataTerm = {}
 
 ---@param fields? DataTerm
 ---@return DataTerm
-function DataTerm.new(fields) return end
+function DataTerm.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function DataTerm:OnAreaEnter(evt) return end
+function DataTerm:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function DataTerm:OnAreaExit(evt) return end
+function DataTerm:OnAreaExit(evt) end
 
----@protected
 ---@param evt ChangeSubwayGateStateEvent
 ---@return Bool
-function DataTerm:OnChangeSubwayGateStateEvent(evt) return end
+function DataTerm:OnChangeSubwayGateStateEvent(evt) end
 
----@protected
 ---@return Bool
-function DataTerm:OnDetach() return end
+function DataTerm:OnDetach() end
 
----@protected
 ---@param evt FastTravelPointsUpdated
 ---@return Bool
-function DataTerm:OnFastTravelPointsUpdated(evt) return end
+function DataTerm:OnFastTravelPointsUpdated(evt) end
 
----@protected
 ---@return Bool
-function DataTerm:OnGameAttached() return end
+function DataTerm:OnGameAttached() end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function DataTerm:OnHitEvent(hit) return end
+function DataTerm:OnHitEvent(hit) end
 
----@protected
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function DataTerm:OnInteractionActivated(evt) return end
+function DataTerm:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt SetLogicReadyEvent
 ---@return Bool
-function DataTerm:OnLogicReady(evt) return end
+function DataTerm:OnLogicReady(evt) end
 
----@protected
 ---@param evt OpenWorldMapDeviceAction
 ---@return Bool
-function DataTerm:OnOpenWorldMapAction(evt) return end
+function DataTerm:OnOpenWorldMapAction(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DataTerm:OnRequestComponents(ri) return end
+function DataTerm:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function DataTerm:OnStopShortGlitch(evt) return end
+function DataTerm:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DataTerm:OnTakeControl(ri) return end
+function DataTerm:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function DataTerm:ActivateDevice() return end
+function DataTerm:ActivateDevice() end
 
----@private
 ---@return Bool
-function DataTerm:AreCharacterPresentAtSubwayGate() return end
+function DataTerm:AreCharacterPresentAtSubwayGate() end
 
 ---@return nil
-function DataTerm:CloseSubwayGate() return end
+function DataTerm:CloseSubwayGate() end
 
----@protected
 ---@return nil
-function DataTerm:CreateBlackboard() return end
+function DataTerm:CreateBlackboard() end
 
----@protected
 ---@return nil
-function DataTerm:CutPower() return end
+function DataTerm:CutPower() end
 
----@protected
 ---@return nil
-function DataTerm:DeactivateDevice() return end
+function DataTerm:DeactivateDevice() end
 
 ---@return EGameplayRole
-function DataTerm:DeterminGameplayRole() return end
+function DataTerm:DeterminGameplayRole() end
 
 ---@return DataTermDeviceBlackboardDef
-function DataTerm:GetBlackboardDef() return end
+function DataTerm:GetBlackboardDef() end
 
----@protected
 ---@return DataTermController
-function DataTerm:GetController() return end
+function DataTerm:GetController() end
 
 ---@return DataTermControllerPS
-function DataTerm:GetDevicePS() return end
+function DataTerm:GetDevicePS() end
 
 ---@return EFastTravelDeviceType
-function DataTerm:GetFastravelDeviceType() return end
+function DataTerm:GetFastravelDeviceType() end
 
 ---@return gameFastTravelPointData
-function DataTerm:GetFastravelPointData() return end
+function DataTerm:GetFastravelPointData() end
 
----@private
 ---@return gamemappinsMappinSystem
-function DataTerm:GetMappinSystem() return end
+function DataTerm:GetMappinSystem() end
 
 ---@return Bool
-function DataTerm:IsFastTravelPoint() return end
+function DataTerm:IsFastTravelPoint() end
 
 ---@param role EGameplayRole
 ---@return Bool
-function DataTerm:IsGameplayRoleValid(role) return end
-
----@private
----@return Bool
-function DataTerm:IsMappinRegistered() return end
-
----@protected
----@return Bool
-function DataTerm:IsReadyForUI() return end
+function DataTerm:IsGameplayRoleValid(role) end
 
 ---@return Bool
-function DataTerm:IsSubwayGateBroken() return end
+function DataTerm:IsMappinRegistered() end
 
----@private
 ---@return Bool
-function DataTerm:IsSubwayGateOpen() return end
+function DataTerm:IsReadyForUI() end
+
+---@return Bool
+function DataTerm:IsSubwayGateBroken() end
+
+---@return Bool
+function DataTerm:IsSubwayGateOpen() end
 
 ---@return nil
-function DataTerm:OpenSubwayGate() return end
+function DataTerm:OpenSubwayGate() end
 
----@private
 ---@return Bool
-function DataTerm:PrepareMetroAnimEntityPosition() return end
+function DataTerm:PrepareMetroAnimEntityPosition() end
 
----@private
 ---@param increase Bool
 ---@return nil
-function DataTerm:ProcessSubwayGateNPCPresence(increase) return end
+function DataTerm:ProcessSubwayGateNPCPresence(increase) end
 
----@private
 ---@return nil
-function DataTerm:RegisterFastTravelPoints() return end
+function DataTerm:RegisterFastTravelPoints() end
 
----@private
 ---@return nil
-function DataTerm:RegisterMappin() return end
+function DataTerm:RegisterMappin() end
 
----@private
 ---@return nil
-function DataTerm:RequestFastTravelMenu() return end
+function DataTerm:RequestFastTravelMenu() end
 
----@protected
 ---@return nil
-function DataTerm:ResolveGameplayState() return end
+function DataTerm:ResolveGameplayState() end
 
----@private
 ---@return nil
-function DataTerm:ResolveGateApperance() return end
+function DataTerm:ResolveGateApperance() end
 
----@private
 ---@return nil
-function DataTerm:SendThisSubwayGateToFastTravelSystem() return end
+function DataTerm:SendThisSubwayGateToFastTravelSystem() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function DataTerm:StartGlitching(glitchState, intensity) return end
+function DataTerm:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function DataTerm:StartShortGlitch() return end
+function DataTerm:StartShortGlitch() end
 
----@protected
 ---@return nil
-function DataTerm:StopGlitching() return end
+function DataTerm:StopGlitching() end
 
----@private
 ---@param activator gameObject
 ---@return nil
-function DataTerm:TeleportToExitNode(activator) return end
+function DataTerm:TeleportToExitNode(activator) end
 
----@protected
 ---@return nil
-function DataTerm:TurnOffDevice() return end
+function DataTerm:TurnOffDevice() end
 
----@protected
 ---@return nil
-function DataTerm:TurnOffScreen() return end
+function DataTerm:TurnOffScreen() end
 
----@protected
 ---@return nil
-function DataTerm:TurnOnDevice() return end
+function DataTerm:TurnOnDevice() end
 
----@protected
 ---@return nil
-function DataTerm:TurnOnScreen() return end
+function DataTerm:TurnOnScreen() end
 
----@private
 ---@return nil
-function DataTerm:UnregisterMappin() return end
+function DataTerm:UnregisterMappin() end
 
----@private
 ---@return nil
-function DataTerm:UpdateFastTravelPointRecord() return end
+function DataTerm:UpdateFastTravelPointRecord() end

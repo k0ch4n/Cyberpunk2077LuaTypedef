@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuickHackSetDescriptionVisibilityRequest: gameScriptableSystemRequest
----@field public visible Bool
+---@field visible Bool
 QuickHackSetDescriptionVisibilityRequest = {}
 
 ---@param fields? QuickHackSetDescriptionVisibilityRequest
 ---@return QuickHackSetDescriptionVisibilityRequest
-function QuickHackSetDescriptionVisibilityRequest.new(fields) return end
+function QuickHackSetDescriptionVisibilityRequest.new(fields) end

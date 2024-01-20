@@ -1,28 +1,25 @@
 ---@meta
 
 ---@class RipAndTearEffector: ModifyDamageEffector
----@field public sfxName CName
----@field public vfxName CName
----@field public statusEffectToRemove String
----@field public prevCleanupTime EngineTime
+---@field sfxName CName
+---@field vfxName CName
+---@field statusEffectToRemove String
+---@field prevCleanupTime EngineTime
 RipAndTearEffector = {}
 
 ---@param fields? RipAndTearEffector
 ---@return RipAndTearEffector
-function RipAndTearEffector.new(fields) return end
+function RipAndTearEffector.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function RipAndTearEffector:Initialize(record, parentRecord) return end
+function RipAndTearEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function RipAndTearEffector:ProcessAction(owner) return end
+function RipAndTearEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RipAndTearEffector:RepeatedAction(owner) return end
+function RipAndTearEffector:RepeatedAction(owner) end

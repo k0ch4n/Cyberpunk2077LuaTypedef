@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animActionAnimDatabase_AnimationData
----@field public animationName CName
----@field public fallbackAnimationName CName
----@field public inTransitionDuration Float
----@field public inCanRequestInertialization Bool
----@field public outTransitionDuration Float
----@field public outCanRequestInertialization Bool
----@field public streamingContext CName
+---@field animationName CName
+---@field fallbackAnimationName CName
+---@field inTransitionDuration Float
+---@field inCanRequestInertialization Bool
+---@field outTransitionDuration Float
+---@field outCanRequestInertialization Bool
+---@field streamingContext CName
 animActionAnimDatabase_AnimationData = {}
 
 ---@param fields? animActionAnimDatabase_AnimationData
 ---@return animActionAnimDatabase_AnimationData
-function animActionAnimDatabase_AnimationData.new(fields) return end
+function animActionAnimDatabase_AnimationData.new(fields) end

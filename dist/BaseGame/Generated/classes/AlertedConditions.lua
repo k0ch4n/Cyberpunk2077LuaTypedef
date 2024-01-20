@@ -5,14 +5,12 @@ AlertedConditions = {}
 
 ---@param fields? AlertedConditions
 ---@return AlertedConditions
-function AlertedConditions.new(fields) return end
+function AlertedConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AlertedConditions:Activate(context) return end
+function AlertedConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AlertedConditions:Check(context) return end
+function AlertedConditions:Check(context) end

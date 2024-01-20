@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questEnterVisionMode_NodeType: questIVisionModeNodeType
----@field public objectRef gameEntityReference
----@field public visionModeType gameVisionModeType
+---@field objectRef gameEntityReference
+---@field visionModeType gameVisionModeType
 questEnterVisionMode_NodeType = {}
 
 ---@param fields? questEnterVisionMode_NodeType
 ---@return questEnterVisionMode_NodeType
-function questEnterVisionMode_NodeType.new(fields) return end
+function questEnterVisionMode_NodeType.new(fields) end

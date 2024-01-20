@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class AIOffMeshConnectionComponent: entIComponent
----@field public offMeshConnectionNodesRefs NodeRef[]
----@field public agentSize NavGenAgentSize
+---@field offMeshConnectionNodesRefs NodeRef[]
+---@field agentSize NavGenAgentSize
 AIOffMeshConnectionComponent = {}
 
 ---@param fields? AIOffMeshConnectionComponent
 ---@return AIOffMeshConnectionComponent
-function AIOffMeshConnectionComponent.new(fields) return end
+function AIOffMeshConnectionComponent.new(fields) end
 
 ---@return nil
-function AIOffMeshConnectionComponent:DisableForPlayer() return end
+function AIOffMeshConnectionComponent:DisableForPlayer() end
 
 ---@return nil
-function AIOffMeshConnectionComponent:DisableOffMeshConnection() return end
+function AIOffMeshConnectionComponent:DisableOffMeshConnection() end
 
 ---@return nil
-function AIOffMeshConnectionComponent:EnableForPlayer() return end
+function AIOffMeshConnectionComponent:EnableForPlayer() end
 
 ---@return nil
-function AIOffMeshConnectionComponent:EnableOffMeshConnection() return end
+function AIOffMeshConnectionComponent:EnableOffMeshConnection() end

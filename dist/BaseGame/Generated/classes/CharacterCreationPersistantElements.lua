@@ -1,64 +1,59 @@
 ---@meta
 
 ---@class CharacterCreationPersistantElements: inkWidgetLogicController
----@field private headerHolder inkCompoundWidgetReference
----@field private LBBtn inkWidgetReference
----@field private RBBtn inkWidgetReference
----@field private fluffHolderRight inkCompoundWidgetReference
----@field private fluffHolderDown inkCompoundWidgetReference
----@field private fluffHolderLeft inkCompoundWidgetReference
----@field private fluffText1 inkTextWidgetReference
----@field private fluffTextRight inkTextWidgetReference
----@field private fluffTextDown inkTextWidgetReference
----@field private fluffTextLeft inkTextWidgetReference
----@field private headers CharacterCreationTopBarHeader[]
----@field private selectedHeader CharacterCreationTopBarHeader
----@field public c_fluffMaxX Float
----@field public c_fluffMinY Float
----@field public c_fluffMaxY Float
+---@field headerHolder inkCompoundWidgetReference
+---@field LBBtn inkWidgetReference
+---@field RBBtn inkWidgetReference
+---@field fluffHolderRight inkCompoundWidgetReference
+---@field fluffHolderDown inkCompoundWidgetReference
+---@field fluffHolderLeft inkCompoundWidgetReference
+---@field fluffText1 inkTextWidgetReference
+---@field fluffTextRight inkTextWidgetReference
+---@field fluffTextDown inkTextWidgetReference
+---@field fluffTextLeft inkTextWidgetReference
+---@field headers CharacterCreationTopBarHeader[]
+---@field selectedHeader CharacterCreationTopBarHeader
+---@field c_fluffMaxX Float
+---@field c_fluffMinY Float
+---@field c_fluffMaxY Float
 CharacterCreationPersistantElements = {}
 
 ---@param fields? CharacterCreationPersistantElements
 ---@return CharacterCreationPersistantElements
-function CharacterCreationPersistantElements.new(fields) return end
+function CharacterCreationPersistantElements.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationPersistantElements:OnAxisInput(e) return end
+function CharacterCreationPersistantElements:OnAxisInput(e) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function CharacterCreationPersistantElements:OnChangeToHeader_00(e) return end
+function CharacterCreationPersistantElements:OnChangeToHeader_00(e) end
 
----@protected
 ---@return Bool
-function CharacterCreationPersistantElements:OnInitialize() return end
+function CharacterCreationPersistantElements:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CharacterCreationPersistantElements:OnRelativeInput(e) return end
+function CharacterCreationPersistantElements:OnRelativeInput(e) end
 
----@protected
 ---@return Bool
-function CharacterCreationPersistantElements:OnUninitialize() return end
+function CharacterCreationPersistantElements:OnUninitialize() end
 
 ---@param previousBtnAvailable Bool
 ---@param nextBtnAvailable Bool
 ---@return nil
-function CharacterCreationPersistantElements:ChangeNavigationButtonVisibility(previousBtnAvailable, nextBtnAvailable) return end
+function CharacterCreationPersistantElements:ChangeNavigationButtonVisibility(previousBtnAvailable, nextBtnAvailable) end
 
 ---@param selectedIndex Int32
 ---@return nil
-function CharacterCreationPersistantElements:ChangeSelectedHeader(selectedIndex) return end
+function CharacterCreationPersistantElements:ChangeSelectedHeader(selectedIndex) end
 
 ---@param label String
 ---@param icon CName|string
 ---@return nil
-function CharacterCreationPersistantElements:CreateHeader(label, icon) return end
+function CharacterCreationPersistantElements:CreateHeader(label, icon) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function CharacterCreationPersistantElements:SetFluff(e) return end
+function CharacterCreationPersistantElements:SetFluff(e) end

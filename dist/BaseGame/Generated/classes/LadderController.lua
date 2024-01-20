@@ -5,7 +5,7 @@ LadderController = {}
 
 ---@param fields? LadderController
 ---@return LadderController
-function LadderController.new(fields) return end
+function LadderController.new(fields) end
 
 ---@return LadderControllerPS
-function LadderController:GetPS() return end
+function LadderController:GetPS() end

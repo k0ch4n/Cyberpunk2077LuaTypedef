@@ -5,14 +5,12 @@ PatrolAlertedControllerTask = {}
 
 ---@param fields? PatrolAlertedControllerTask
 ---@return PatrolAlertedControllerTask
-function PatrolAlertedControllerTask.new(fields) return end
+function PatrolAlertedControllerTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function PatrolAlertedControllerTask:Activate(context) return end
+function PatrolAlertedControllerTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function PatrolAlertedControllerTask:Update(context) return end
+function PatrolAlertedControllerTask:Update(context) end

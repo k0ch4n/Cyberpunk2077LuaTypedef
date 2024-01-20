@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class redConvexHullEx
----@field public data DataBuffer
+---@field data DataBuffer
 redConvexHullEx = {}
 
 ---@param fields? redConvexHullEx
 ---@return redConvexHullEx
-function redConvexHullEx.new(fields) return end
+function redConvexHullEx.new(fields) end

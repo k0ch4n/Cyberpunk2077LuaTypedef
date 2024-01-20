@@ -5,4 +5,4 @@ gamedataAddStatusEffectToAttackEffector_inline0_Record = {}
 
 ---@param fields? gamedataAddStatusEffectToAttackEffector_inline0_Record
 ---@return gamedataAddStatusEffectToAttackEffector_inline0_Record
-function gamedataAddStatusEffectToAttackEffector_inline0_Record.new(fields) return end
+function gamedataAddStatusEffectToAttackEffector_inline0_Record.new(fields) end

@@ -5,4 +5,4 @@ LmgLookAtDecisions = {}
 
 ---@param fields? LmgLookAtDecisions
 ---@return LmgLookAtDecisions
-function LmgLookAtDecisions.new(fields) return end
+function LmgLookAtDecisions.new(fields) end

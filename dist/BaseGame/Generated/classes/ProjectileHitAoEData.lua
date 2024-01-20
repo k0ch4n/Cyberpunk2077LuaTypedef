@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class ProjectileHitAoEData
----@field public source gameObject
----@field public instigator gameObject
----@field public position Vector4
----@field public radius Float
----@field public duration Float
----@field public attackRecord gamedataAttack_Record
----@field public weapon gameweaponObject
----@field public disableVfx Bool
----@field public enableImpulseFalloff Bool
----@field public impulseFalloffFactor Float
+---@field source gameObject
+---@field instigator gameObject
+---@field position Vector4
+---@field radius Float
+---@field duration Float
+---@field attackRecord gamedataAttack_Record
+---@field weapon gameweaponObject
+---@field disableVfx Bool
+---@field enableImpulseFalloff Bool
+---@field impulseFalloffFactor Float
 ProjectileHitAoEData = {}
 
 ---@param fields? ProjectileHitAoEData
 ---@return ProjectileHitAoEData
-function ProjectileHitAoEData.new(fields) return end
+function ProjectileHitAoEData.new(fields) end

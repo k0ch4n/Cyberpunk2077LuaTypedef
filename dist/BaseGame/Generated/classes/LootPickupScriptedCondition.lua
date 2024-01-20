@@ -5,9 +5,9 @@ LootPickupScriptedCondition = {}
 
 ---@param fields? LootPickupScriptedCondition
 ---@return LootPickupScriptedCondition
-function LootPickupScriptedCondition.new(fields) return end
+function LootPickupScriptedCondition.new(fields) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@return Bool
-function LootPickupScriptedCondition:Test(activatorObject, hotSpotObject) return end
+function LootPickupScriptedCondition:Test(activatorObject, hotSpotObject) end

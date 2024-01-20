@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class inkLinePatternWidget: inkImageWidget
----@field public vertexList inkLineVertex[]
----@field public spacing Float
----@field public looseSpacing Float
----@field public startOffset Float
----@field public endOffset Float
----@field public fadeInLength Float
----@field public rotateWithSegment Bool
----@field public patternDirection inkEChildOrder
+---@field vertexList inkLineVertex[]
+---@field spacing Float
+---@field looseSpacing Float
+---@field startOffset Float
+---@field endOffset Float
+---@field fadeInLength Float
+---@field rotateWithSegment Bool
+---@field patternDirection inkEChildOrder
 inkLinePatternWidget = {}
 
 ---@param fields? inkLinePatternWidget
 ---@return inkLinePatternWidget
-function inkLinePatternWidget.new(fields) return end
+function inkLinePatternWidget.new(fields) end
 
 ---@param value Vector2
 ---@return nil
-function inkLinePatternWidget:AddVertex(value) return end
+function inkLinePatternWidget:AddVertex(value) end

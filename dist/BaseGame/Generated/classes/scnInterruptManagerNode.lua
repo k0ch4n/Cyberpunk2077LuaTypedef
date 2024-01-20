@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnInterruptManagerNode: scnSceneGraphNode
----@field public interruptionOperations scnIInterruptionOperation[]
+---@field interruptionOperations scnIInterruptionOperation[]
 scnInterruptManagerNode = {}
 
 ---@param fields? scnInterruptManagerNode
 ---@return scnInterruptManagerNode
-function scnInterruptManagerNode.new(fields) return end
+function scnInterruptManagerNode.new(fields) end

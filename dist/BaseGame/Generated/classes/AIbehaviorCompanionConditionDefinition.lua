@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class AIbehaviorCompanionConditionDefinition: AIbehaviorConditionDefinition
----@field public spline AIArgumentMapping
----@field public companion AIArgumentMapping
+---@field spline AIArgumentMapping
+---@field companion AIArgumentMapping
 AIbehaviorCompanionConditionDefinition = {}

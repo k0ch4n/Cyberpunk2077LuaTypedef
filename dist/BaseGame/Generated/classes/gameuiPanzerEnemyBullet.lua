@@ -5,4 +5,4 @@ gameuiPanzerEnemyBullet = {}
 
 ---@param fields? gameuiPanzerEnemyBullet
 ---@return gameuiPanzerEnemyBullet
-function gameuiPanzerEnemyBullet.new(fields) return end
+function gameuiPanzerEnemyBullet.new(fields) end

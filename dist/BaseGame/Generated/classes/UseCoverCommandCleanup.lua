@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class UseCoverCommandCleanup: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 UseCoverCommandCleanup = {}
 
 ---@param fields? UseCoverCommandCleanup
 ---@return UseCoverCommandCleanup
-function UseCoverCommandCleanup.new(fields) return end
+function UseCoverCommandCleanup.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UseCoverCommandCleanup:Deactivate(context) return end
+function UseCoverCommandCleanup:Deactivate(context) end

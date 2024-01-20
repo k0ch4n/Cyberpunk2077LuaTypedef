@@ -5,4 +5,4 @@ HackingSkillCheck = {}
 
 ---@param fields? HackingSkillCheck
 ---@return HackingSkillCheck
-function HackingSkillCheck.new(fields) return end
+function HackingSkillCheck.new(fields) end

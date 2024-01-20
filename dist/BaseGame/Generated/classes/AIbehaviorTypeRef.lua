@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorTypeRef
----@field public isSet Bool
----@field public customType CName
----@field public enumeratedType AIArgumentType
+---@field isSet Bool
+---@field customType CName
+---@field enumeratedType AIArgumentType
 AIbehaviorTypeRef = {}
 
 ---@param fields? AIbehaviorTypeRef
 ---@return AIbehaviorTypeRef
-function AIbehaviorTypeRef.new(fields) return end
+function AIbehaviorTypeRef.new(fields) end

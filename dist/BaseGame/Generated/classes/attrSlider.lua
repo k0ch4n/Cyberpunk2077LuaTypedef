@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class attrSlider: attrAttribute
----@field public ep Float
+---@field ep Float
 attrSlider = {}
 
 ---@param fields? attrSlider
 ---@return attrSlider
-function attrSlider.new(fields) return end
+function attrSlider.new(fields) end

@@ -1,39 +1,35 @@
 ---@meta
 
 ---@class gameuiPreviewGameController: gameuiMenuGameController
----@field public yawSpeed Float
----@field public yawDefault Float
----@field protected isRotatable Bool
----@field protected rotationSpeed Float
----@field protected inputDisabled Bool
+---@field yawSpeed Float
+---@field yawDefault Float
+---@field isRotatable Bool
+---@field rotationSpeed Float
+---@field inputDisabled Bool
 gameuiPreviewGameController = {}
 
 ---@param yaw Float
 ---@return nil
-function gameuiPreviewGameController:Rotate(yaw) return end
+function gameuiPreviewGameController:Rotate(yaw) end
 
 ---@param value Vector3
 ---@return nil
-function gameuiPreviewGameController:RotateVector(value) return end
+function gameuiPreviewGameController:RotateVector(value) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiPreviewGameController:OnAxisInput(e) return end
+function gameuiPreviewGameController:OnAxisInput(e) end
 
----@protected
 ---@return Bool
-function gameuiPreviewGameController:OnInitialize() return end
+function gameuiPreviewGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function gameuiPreviewGameController:OnUninitialize() return end
+function gameuiPreviewGameController:OnUninitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function gameuiPreviewGameController:HandleAxisInput(e) return end
+function gameuiPreviewGameController:HandleAxisInput(e) end
 
 ---@param disabled Bool
 ---@return nil
-function gameuiPreviewGameController:SetInputDisabled(disabled) return end
+function gameuiPreviewGameController:SetInputDisabled(disabled) end

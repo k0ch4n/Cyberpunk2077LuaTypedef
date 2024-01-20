@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class TweakAIAction: TweakAIActionAbstract
----@field public record TweakDBID
+---@field record TweakDBID
 TweakAIAction = {}
 
 ---@param fields? TweakAIAction
 ---@return TweakAIAction
-function TweakAIAction.new(fields) return end
+function TweakAIAction.new(fields) end
 
----@private
 ---@return TweakDBID
-function TweakAIAction:Debug_GetBaseActionId() return end
+function TweakAIAction:Debug_GetBaseActionId() end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionDebugName String
 ---@return Bool, gamedataAIAction_Record actionRecord, Bool shouldCallAgain
-function TweakAIAction:GetActionRecord(context, actionDebugName) return end
+function TweakAIAction:GetActionRecord(context, actionDebugName) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String
-function TweakAIAction:GetDescription(context) return end
+function TweakAIAction:GetDescription(context) end
 
 ---@return String
-function TweakAIAction:GetFriendlyName() return end
+function TweakAIAction:GetFriendlyName() end

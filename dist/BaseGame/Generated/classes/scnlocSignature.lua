@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnlocSignature
----@field public val Uint64
+---@field val Uint64
 scnlocSignature = {}
 
 ---@param fields? scnlocSignature
 ---@return scnlocSignature
-function scnlocSignature.new(fields) return end
+function scnlocSignature.new(fields) end

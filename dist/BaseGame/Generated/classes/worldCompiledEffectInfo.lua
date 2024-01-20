@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class worldCompiledEffectInfo
----@field public placementTags CName[]
----@field public componentNames CName[]
----@field public relativePositions Vector3[]
----@field public relativeRotations Quaternion[]
----@field public placementInfos worldCompiledEffectPlacementInfo[]
----@field public eventsSortedByRUID worldCompiledEffectEventInfo[]
+---@field placementTags CName[]
+---@field componentNames CName[]
+---@field relativePositions Vector3[]
+---@field relativeRotations Quaternion[]
+---@field placementInfos worldCompiledEffectPlacementInfo[]
+---@field eventsSortedByRUID worldCompiledEffectEventInfo[]
 worldCompiledEffectInfo = {}
 
 ---@param fields? worldCompiledEffectInfo
 ---@return worldCompiledEffectInfo
-function worldCompiledEffectInfo.new(fields) return end
+function worldCompiledEffectInfo.new(fields) end

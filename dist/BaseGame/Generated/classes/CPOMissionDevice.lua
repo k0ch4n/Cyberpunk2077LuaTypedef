@@ -1,52 +1,45 @@
 ---@meta
 
 ---@class CPOMissionDevice: gameObject
----@field protected compatibleDeviceName CName
----@field protected blockAfterOperation Bool
----@field protected factToUnblock CName
----@field protected isBlocked Bool
----@field private factUnblockCallbackID Uint32
+---@field compatibleDeviceName CName
+---@field blockAfterOperation Bool
+---@field factToUnblock CName
+---@field isBlocked Bool
+---@field factUnblockCallbackID Uint32
 CPOMissionDevice = {}
 
 ---@param fields? CPOMissionDevice
 ---@return CPOMissionDevice
-function CPOMissionDevice.new(fields) return end
+function CPOMissionDevice.new(fields) end
 
----@protected
 ---@return Bool
-function CPOMissionDevice:OnDetach() return end
+function CPOMissionDevice:OnDetach() end
 
----@protected
 ---@param evt gameFactChangedEvent
 ---@return Bool
-function CPOMissionDevice:OnEnabledFactChangeTrigerred(evt) return end
+function CPOMissionDevice:OnEnabledFactChangeTrigerred(evt) end
 
----@protected
 ---@return Bool
-function CPOMissionDevice:OnGameAttached() return end
+function CPOMissionDevice:OnGameAttached() end
 
 ---@return CName
-function CPOMissionDevice:GetCompatibleDeviceName() return end
+function CPOMissionDevice:GetCompatibleDeviceName() end
 
 ---@return Bool
-function CPOMissionDevice:IsBlocked() return end
+function CPOMissionDevice:IsBlocked() end
 
----@protected
 ---@return nil
-function CPOMissionDevice:RegisterFactsListener() return end
+function CPOMissionDevice:RegisterFactsListener() end
 
----@protected
 ---@param factName CName|string
 ---@param factValue Int32
 ---@param factOperationType EMathOperationType
 ---@return nil
-function CPOMissionDevice:SetFact(factName, factValue, factOperationType) return end
+function CPOMissionDevice:SetFact(factName, factValue, factOperationType) end
 
----@protected
 ---@param facts SFactToChange[]
 ---@return nil
-function CPOMissionDevice:SetFacts(facts) return end
+function CPOMissionDevice:SetFacts(facts) end
 
----@protected
 ---@return nil
-function CPOMissionDevice:UnregisterFactsListener() return end
+function CPOMissionDevice:UnregisterFactsListener() end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class interopMaterialListDescriptor
----@field public chunksInfo String
----@field public chunksLODInfo String
----@field public numLayers Uint32
----@field public isForward Bool
----@field public isMultilayer Bool
----@field public isLocalInstance Bool
----@field public isTemplate Bool
----@field public itemMaterialIndex Uint32
----@field public materialName String
----@field public appearanceName String
----@field public availableMaterials String[]
+---@field chunksInfo String
+---@field chunksLODInfo String
+---@field numLayers Uint32
+---@field isForward Bool
+---@field isMultilayer Bool
+---@field isLocalInstance Bool
+---@field isTemplate Bool
+---@field itemMaterialIndex Uint32
+---@field materialName String
+---@field appearanceName String
+---@field availableMaterials String[]
 interopMaterialListDescriptor = {}
 
 ---@param fields? interopMaterialListDescriptor
 ---@return interopMaterialListDescriptor
-function interopMaterialListDescriptor.new(fields) return end
+function interopMaterialListDescriptor.new(fields) end

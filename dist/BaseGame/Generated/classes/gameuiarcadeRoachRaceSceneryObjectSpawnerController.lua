@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiarcadeRoachRaceSceneryObjectSpawnerController: gameuiarcadeArcadeSpawnerController
----@field public sceneryObjectSpawnTime Float
+---@field sceneryObjectSpawnTime Float
 gameuiarcadeRoachRaceSceneryObjectSpawnerController = {}
 
 ---@param fields? gameuiarcadeRoachRaceSceneryObjectSpawnerController
 ---@return gameuiarcadeRoachRaceSceneryObjectSpawnerController
-function gameuiarcadeRoachRaceSceneryObjectSpawnerController.new(fields) return end
+function gameuiarcadeRoachRaceSceneryObjectSpawnerController.new(fields) end

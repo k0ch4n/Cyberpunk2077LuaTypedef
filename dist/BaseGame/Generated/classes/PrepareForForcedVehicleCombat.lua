@@ -5,4 +5,4 @@ PrepareForForcedVehicleCombat = {}
 
 ---@param fields? PrepareForForcedVehicleCombat
 ---@return PrepareForForcedVehicleCombat
-function PrepareForForcedVehicleCombat.new(fields) return end
+function PrepareForForcedVehicleCombat.new(fields) end

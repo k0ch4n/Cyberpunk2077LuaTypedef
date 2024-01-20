@@ -5,4 +5,4 @@ vehicleChangeRadioReceiverStationEvent = {}
 
 ---@param fields? vehicleChangeRadioReceiverStationEvent
 ---@return vehicleChangeRadioReceiverStationEvent
-function vehicleChangeRadioReceiverStationEvent.new(fields) return end
+function vehicleChangeRadioReceiverStationEvent.new(fields) end

@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class gameJournalOnscreen: gameJournalEntry
----@field public tag CName
----@field public title LocalizationString
----@field public description LocalizationString
----@field public iconID TweakDBID
+---@field tag CName
+---@field title LocalizationString
+---@field description LocalizationString
+---@field iconID TweakDBID
 gameJournalOnscreen = {}
 
 ---@param fields? gameJournalOnscreen
 ---@return gameJournalOnscreen
-function gameJournalOnscreen.new(fields) return end
+function gameJournalOnscreen.new(fields) end
 
 ---@return String
-function gameJournalOnscreen:GetDescription() return end
+function gameJournalOnscreen:GetDescription() end
 
 ---@return TweakDBID
-function gameJournalOnscreen:GetIconID() return end
+function gameJournalOnscreen:GetIconID() end
 
 ---@return String
-function gameJournalOnscreen:GetTitle() return end
+function gameJournalOnscreen:GetTitle() end

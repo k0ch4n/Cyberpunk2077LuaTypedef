@@ -1,102 +1,90 @@
 ---@meta
 
 ---@class SmartHouseControllerPS: MasterControllerPS
----@field protected timetable SPresetTimetableEntry[]
----@field protected activePreset SmartHousePreset
----@field protected availablePresets SmartHousePreset[]
----@field protected smartHouseCustomization SmartHouseConfiguration
----@field protected callbackID Uint32
+---@field timetable SPresetTimetableEntry[]
+---@field activePreset SmartHousePreset
+---@field availablePresets SmartHousePreset[]
+---@field smartHouseCustomization SmartHouseConfiguration
+---@field callbackID Uint32
 SmartHouseControllerPS = {}
 
 ---@param fields? SmartHouseControllerPS
 ---@return SmartHouseControllerPS
-function SmartHouseControllerPS.new(fields) return end
+function SmartHouseControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function SmartHouseControllerPS:OnInstantiated() return end
+function SmartHouseControllerPS:OnInstantiated() end
 
----@protected
 ---@return OpenInteriorManager
-function SmartHouseControllerPS:ActionOpenInteriorManager() return end
+function SmartHouseControllerPS:ActionOpenInteriorManager() end
 
----@protected
 ---@param preset SmartHousePreset
 ---@return PresetAction
-function SmartHouseControllerPS:ActionPreset(preset) return end
+function SmartHouseControllerPS:ActionPreset(preset) end
 
 ---@param i Int32
 ---@return nil
-function SmartHouseControllerPS:ActivatePreset(i) return end
+function SmartHouseControllerPS:ActivatePreset(i) end
 
----@protected
 ---@param newTable SPresetTimetableEntry
 ---@param arrayPos Int32
 ---@return nil
-function SmartHouseControllerPS:CheckTimetable(newTable, arrayPos) return end
+function SmartHouseControllerPS:CheckTimetable(newTable, arrayPos) end
 
----@protected
 ---@return nil
-function SmartHouseControllerPS:GameAttached() return end
+function SmartHouseControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function SmartHouseControllerPS:GetActions(context) return end
+function SmartHouseControllerPS:GetActions(context) end
 
----@protected
 ---@return Int32
-function SmartHouseControllerPS:GetActiveTimeTableEntry() return end
+function SmartHouseControllerPS:GetActiveTimeTableEntry() end
 
----@protected
 ---@return GameTime
-function SmartHouseControllerPS:GetCurrentTime() return end
+function SmartHouseControllerPS:GetCurrentTime() end
 
 ---@return CName
-function SmartHouseControllerPS:GetCustomizationFact() return end
+function SmartHouseControllerPS:GetCustomizationFact() end
 
 ---@param context gameGetActionsContext
 ---@return SDeviceWidgetPackage
-function SmartHouseControllerPS:GetDeviceWidget(context) return end
+function SmartHouseControllerPS:GetDeviceWidget(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function SmartHouseControllerPS:GetInkWidgetTweakDBID(context) return end
+function SmartHouseControllerPS:GetInkWidgetTweakDBID(context) end
 
----@protected
 ---@return nil
-function SmartHouseControllerPS:Initialize() return end
+function SmartHouseControllerPS:Initialize() end
 
----@protected
 ---@return nil
-function SmartHouseControllerPS:InitializePreset() return end
+function SmartHouseControllerPS:InitializePreset() end
 
----@protected
 ---@return nil
-function SmartHouseControllerPS:InitializeTimetable() return end
+function SmartHouseControllerPS:InitializeTimetable() end
 
----@protected
 ---@param time SSimpleGameTime
 ---@return GameTime
-function SmartHouseControllerPS:MakeTime(time) return end
+function SmartHouseControllerPS:MakeTime(time) end
 
 ---@param evt OpenInteriorManager
 ---@return EntityNotificationType
-function SmartHouseControllerPS:OnOpenInteriorManager(evt) return end
+function SmartHouseControllerPS:OnOpenInteriorManager(evt) end
 
 ---@param evt PresetAction
 ---@return EntityNotificationType
-function SmartHouseControllerPS:OnPresetAction(evt) return end
+function SmartHouseControllerPS:OnPresetAction(evt) end
 
 ---@param preset CName|string
 ---@return nil
-function SmartHouseControllerPS:QuestForcePreset(preset) return end
+function SmartHouseControllerPS:QuestForcePreset(preset) end
 
 ---@return nil
-function SmartHouseControllerPS:RegisterFactCallback() return end
+function SmartHouseControllerPS:RegisterFactCallback() end
 
 ---@return nil
-function SmartHouseControllerPS:UninitializeTimetable() return end
+function SmartHouseControllerPS:UninitializeTimetable() end
 
 ---@return nil
-function SmartHouseControllerPS:UnregisterFactCallback() return end
+function SmartHouseControllerPS:UnregisterFactCallback() end

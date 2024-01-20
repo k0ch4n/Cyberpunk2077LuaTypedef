@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class OnBeingTarget: redEvent
----@field public objectThatTargets gameObject
----@field public noLongerTarget Bool
+---@field objectThatTargets gameObject
+---@field noLongerTarget Bool
 OnBeingTarget = {}
 
 ---@param fields? OnBeingTarget
 ---@return OnBeingTarget
-function OnBeingTarget.new(fields) return end
+function OnBeingTarget.new(fields) end

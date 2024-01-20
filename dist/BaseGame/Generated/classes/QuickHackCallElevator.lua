@@ -5,7 +5,7 @@ QuickHackCallElevator = {}
 
 ---@param fields? QuickHackCallElevator
 ---@return QuickHackCallElevator
-function QuickHackCallElevator.new(fields) return end
+function QuickHackCallElevator.new(fields) end
 
 ---@return String
-function QuickHackCallElevator:GetTweakDBChoiceRecord() return end
+function QuickHackCallElevator:GetTweakDBChoiceRecord() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class RenderSettingFactors
----@field public resolutionAberrationScale curveData
----@field public resolutionAberrationDispersal curveData
----@field public resolutionFilmGrainScale curveData
----@field public resolutionFilmGrainStrength curveData
+---@field resolutionAberrationScale curveData
+---@field resolutionAberrationDispersal curveData
+---@field resolutionFilmGrainScale curveData
+---@field resolutionFilmGrainStrength curveData
 RenderSettingFactors = {}
 
 ---@param fields? RenderSettingFactors
 ---@return RenderSettingFactors
-function RenderSettingFactors.new(fields) return end
+function RenderSettingFactors.new(fields) end

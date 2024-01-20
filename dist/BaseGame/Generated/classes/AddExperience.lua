@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class AddExperience: gamePlayerScriptableSystemRequest
----@field public amount Int32
----@field public experienceType gamedataProficiencyType
----@field public debug Bool
+---@field amount Int32
+---@field experienceType gamedataProficiencyType
+---@field debug Bool
 AddExperience = {}
 
 ---@param fields? AddExperience
 ---@return AddExperience
-function AddExperience.new(fields) return end
+function AddExperience.new(fields) end
 
 ---@param _owner gameObject
 ---@param expAmount Int32
 ---@param type gamedataProficiencyType
 ---@param isDebug Bool
 ---@return nil
-function AddExperience:Set(_owner, expAmount, type, isDebug) return end
+function AddExperience:Set(_owner, expAmount, type, isDebug) end

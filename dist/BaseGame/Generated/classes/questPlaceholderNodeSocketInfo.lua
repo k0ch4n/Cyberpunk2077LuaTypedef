@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questPlaceholderNodeSocketInfo
----@field public name CName
----@field public type questSocketType
+---@field name CName
+---@field type questSocketType
 questPlaceholderNodeSocketInfo = {}
 
 ---@param fields? questPlaceholderNodeSocketInfo
 ---@return questPlaceholderNodeSocketInfo
-function questPlaceholderNodeSocketInfo.new(fields) return end
+function questPlaceholderNodeSocketInfo.new(fields) end

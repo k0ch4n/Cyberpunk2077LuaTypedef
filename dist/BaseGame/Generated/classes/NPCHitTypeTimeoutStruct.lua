@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class NPCHitTypeTimeoutStruct
----@field public timeout Float
----@field public delayID gameDelayID
+---@field timeout Float
+---@field delayID gameDelayID
 NPCHitTypeTimeoutStruct = {}
 
 ---@param fields? NPCHitTypeTimeoutStruct
 ---@return NPCHitTypeTimeoutStruct
-function NPCHitTypeTimeoutStruct.new(fields) return end
+function NPCHitTypeTimeoutStruct.new(fields) end

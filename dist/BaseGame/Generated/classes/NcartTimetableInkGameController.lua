@@ -1,112 +1,97 @@
 ---@meta
 
 ---@class NcartTimetableInkGameController: DeviceInkGameControllerBase
----@field private defaultUI inkCanvasWidget
----@field private mainDisplayWidget inkVideoWidget
----@field private counterWidget inkTextWidget
----@field private trainImage inkImageWidget
----@field private cachedLine Int32
----@field private lineAIcon inkImageWidgetReference
----@field private lineBIcon inkImageWidgetReference
----@field private lineCIcon inkImageWidgetReference
----@field private lineDIcon inkImageWidgetReference
----@field private lineEIcon inkImageWidgetReference
----@field private onGlitchingStateChangedListener redCallbackObject
----@field private onTimeToDepartChangedListener redCallbackObject
----@field private onCurrentLineNumberChangedListener redCallbackObject
----@field private animProxy inkanimProxy
+---@field defaultUI inkCanvasWidget
+---@field mainDisplayWidget inkVideoWidget
+---@field counterWidget inkTextWidget
+---@field trainImage inkImageWidget
+---@field cachedLine Int32
+---@field lineAIcon inkImageWidgetReference
+---@field lineBIcon inkImageWidgetReference
+---@field lineCIcon inkImageWidgetReference
+---@field lineDIcon inkImageWidgetReference
+---@field lineEIcon inkImageWidgetReference
+---@field onGlitchingStateChangedListener redCallbackObject
+---@field onTimeToDepartChangedListener redCallbackObject
+---@field onCurrentLineNumberChangedListener redCallbackObject
+---@field animProxy inkanimProxy
 NcartTimetableInkGameController = {}
 
 ---@param fields? NcartTimetableInkGameController
 ---@return NcartTimetableInkGameController
-function NcartTimetableInkGameController.new(fields) return end
+function NcartTimetableInkGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function NcartTimetableInkGameController:OnActionWidgetsUpdate(value) return end
+function NcartTimetableInkGameController:OnActionWidgetsUpdate(value) end
 
----@protected
 ---@return Bool
-function NcartTimetableInkGameController:OnInitialize() return end
+function NcartTimetableInkGameController:OnInitialize() end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function NcartTimetableInkGameController:OnTimeToDepartChanged(value) return end
+function NcartTimetableInkGameController:OnTimeToDepartChanged(value) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NcartTimetableInkGameController:OnTrainArrivalAnimationFinished(proxy) return end
+function NcartTimetableInkGameController:OnTrainArrivalAnimationFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function NcartTimetableInkGameController:OnTrainDepartureAnimationFinished(proxy) return end
+function NcartTimetableInkGameController:OnTrainDepartureAnimationFinished(proxy) end
 
----@protected
 ---@return Bool
-function NcartTimetableInkGameController:OnUninitialize() return end
+function NcartTimetableInkGameController:OnUninitialize() end
 
----@protected
 ---@return NcartTimetable
-function NcartTimetableInkGameController:GetOwner() return end
+function NcartTimetableInkGameController:GetOwner() end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@param audioEvent CName|string
 ---@return nil
-function NcartTimetableInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
+function NcartTimetableInkGameController:PlayVideo(videoPath, looped, audioEvent) end
 
 ---@param state EDeviceStatus
 ---@return nil
-function NcartTimetableInkGameController:Refresh(state) return end
+function NcartTimetableInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function NcartTimetableInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function NcartTimetableInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@private
 ---@return nil
-function NcartTimetableInkGameController:ResolvePrologueState() return end
+function NcartTimetableInkGameController:ResolvePrologueState() end
 
----@private
 ---@return nil
-function NcartTimetableInkGameController:SetTrainColor() return end
+function NcartTimetableInkGameController:SetTrainColor() end
 
----@protected
 ---@return nil
-function NcartTimetableInkGameController:SetupWidgets() return end
+function NcartTimetableInkGameController:SetupWidgets() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function NcartTimetableInkGameController:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function NcartTimetableInkGameController:StopGlitchingScreen() return end
+function NcartTimetableInkGameController:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function NcartTimetableInkGameController:StopVideo() return end
+function NcartTimetableInkGameController:StopGlitchingScreen() end
 
 ---@return nil
-function NcartTimetableInkGameController:TurnOff() return end
+function NcartTimetableInkGameController:StopVideo() end
 
 ---@return nil
-function NcartTimetableInkGameController:TurnOn() return end
+function NcartTimetableInkGameController:TurnOff() end
 
----@protected
+---@return nil
+function NcartTimetableInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function NcartTimetableInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function NcartTimetableInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function NcartTimetableInkGameController:UpdateActionWidgets(widgetsData) return end
+function NcartTimetableInkGameController:UpdateActionWidgets(widgetsData) end
 
----@private
 ---@return nil
-function NcartTimetableInkGameController:UpdateLineIconVisiblity() return end
+function NcartTimetableInkGameController:UpdateLineIconVisiblity() end

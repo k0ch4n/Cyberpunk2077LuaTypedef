@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition: AIbehaviorTaskDefinition
----@field public command AIArgumentMapping
----@field public outWorkspotData AIArgumentMapping
+---@field command AIArgumentMapping
+---@field outWorkspotData AIArgumentMapping
 AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition = {}
 
 ---@param fields? AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition
 ---@return AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition
-function AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition.new(fields) return end
+function AIbehaviorConvertCommandToDynamicWorkspotTaskDefinition.new(fields) end

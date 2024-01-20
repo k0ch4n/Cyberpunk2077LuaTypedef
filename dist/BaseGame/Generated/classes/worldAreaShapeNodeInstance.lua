@@ -5,4 +5,4 @@ worldAreaShapeNodeInstance = {}
 
 ---@param fields? worldAreaShapeNodeInstance
 ---@return worldAreaShapeNodeInstance
-function worldAreaShapeNodeInstance.new(fields) return end
+function worldAreaShapeNodeInstance.new(fields) end

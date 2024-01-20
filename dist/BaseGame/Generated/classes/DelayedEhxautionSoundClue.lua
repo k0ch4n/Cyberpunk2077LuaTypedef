@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class DelayedEhxautionSoundClue: gameDelaySystemScriptedDelayCallbackWrapper
----@field private puppet gameObject
----@field private audioEventName CName
+---@field puppet gameObject
+---@field audioEventName CName
 DelayedEhxautionSoundClue = {}
 
 ---@param fields? DelayedEhxautionSoundClue
 ---@return DelayedEhxautionSoundClue
-function DelayedEhxautionSoundClue.new(fields) return end
+function DelayedEhxautionSoundClue.new(fields) end
 
 ---@param puppet gameObject
 ---@param audioEventName CName|string
 ---@return DelayedEhxautionSoundClue
-function DelayedEhxautionSoundClue.Create(puppet, audioEventName) return end
+function DelayedEhxautionSoundClue.Create(puppet, audioEventName) end
 
 ---@return nil
-function DelayedEhxautionSoundClue:Call() return end
+function DelayedEhxautionSoundClue:Call() end

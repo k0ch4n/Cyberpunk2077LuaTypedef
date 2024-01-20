@@ -5,7 +5,7 @@ ResetNetworkBreachState = {}
 
 ---@param fields? ResetNetworkBreachState
 ---@return ResetNetworkBreachState
-function ResetNetworkBreachState.new(fields) return end
+function ResetNetworkBreachState.new(fields) end
 
 ---@return nil
-function ResetNetworkBreachState:SetProperties() return end
+function ResetNetworkBreachState:SetProperties() end

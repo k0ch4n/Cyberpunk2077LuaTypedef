@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class CheckFloatIsValid: AIbehaviorconditionScript
----@field public actionTweakIDMapping AIArgumentMapping
----@field public value Float
+---@field actionTweakIDMapping AIArgumentMapping
+---@field value Float
 CheckFloatIsValid = {}
 
 ---@param fields? CheckFloatIsValid
 ---@return CheckFloatIsValid
-function CheckFloatIsValid.new(fields) return end
+function CheckFloatIsValid.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckFloatIsValid:Check(context) return end
+function CheckFloatIsValid:Check(context) end

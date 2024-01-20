@@ -5,17 +5,17 @@ ProjectileTargetingHelper = {}
 
 ---@param fields? ProjectileTargetingHelper
 ---@return ProjectileTargetingHelper
-function ProjectileTargetingHelper.new(fields) return end
+function ProjectileTargetingHelper.new(fields) end
 
 ---@param obj gameObject
 ---@return Vector4
-function ProjectileTargetingHelper.GetObjectCurrentPosition(obj) return end
+function ProjectileTargetingHelper.GetObjectCurrentPosition(obj) end
 
 ---@param targetComponent entIPlacedComponent
 ---@return Vector4
-function ProjectileTargetingHelper.GetTargetingComponentsWorldPosition(targetComponent) return end
+function ProjectileTargetingHelper.GetTargetingComponentsWorldPosition(targetComponent) end
 
 ---@param ownerObject gameObject
 ---@param filterBy gameTargetSearchQuery
 ---@return entIPlacedComponent, EulerAngles angleDist
-function ProjectileTargetingHelper.GetTargetsTargetingComponent(ownerObject, filterBy) return end
+function ProjectileTargetingHelper.GetTargetsTargetingComponent(ownerObject, filterBy) end

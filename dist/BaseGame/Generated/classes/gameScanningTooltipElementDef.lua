@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameScanningTooltipElementDef
----@field public recordID TweakDBID
----@field public timePct Float
+---@field recordID TweakDBID
+---@field timePct Float
 gameScanningTooltipElementDef = {}
 
 ---@param fields? gameScanningTooltipElementDef
 ---@return gameScanningTooltipElementDef
-function gameScanningTooltipElementDef.new(fields) return end
+function gameScanningTooltipElementDef.new(fields) end

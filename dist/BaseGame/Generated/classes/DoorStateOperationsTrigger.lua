@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class DoorStateOperationsTrigger: DeviceOperationsTrigger
----@field protected triggerData DoorStateOperationTriggerData
----@field private wasStateCached Bool
----@field private cachedState EDoorStatus
+---@field triggerData DoorStateOperationTriggerData
+---@field wasStateCached Bool
+---@field cachedState EDoorStatus
 DoorStateOperationsTrigger = {}
 
 ---@param fields? DoorStateOperationsTrigger
 ---@return DoorStateOperationsTrigger
-function DoorStateOperationsTrigger.new(fields) return end
+function DoorStateOperationsTrigger.new(fields) end
 
 ---@param state EDoorStatus
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
-function DoorStateOperationsTrigger:EvaluateTrigger(state, owner, container) return end
+function DoorStateOperationsTrigger:EvaluateTrigger(state, owner, container) end

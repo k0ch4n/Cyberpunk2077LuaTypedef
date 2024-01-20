@@ -5,188 +5,165 @@ Stash = {}
 
 ---@param fields? Stash
 ---@return Stash
-function Stash.new(fields) return end
+function Stash.new(fields) end
 
----@private
 ---@param stashObj gameObject
 ---@param itemData gameItemData
 ---@return nil
-function Stash.BlockScalingInStash(stashObj, itemData) return end
+function Stash.BlockScalingInStash(stashObj, itemData) end
 
 ---@param stashObj gameObject
 ---@return nil
-function Stash.CheckReginaRewardsPresenceInStash(stashObj) return end
+function Stash.CheckReginaRewardsPresenceInStash(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.ConsumablesRetrofix(stashObj) return end
+function Stash.ConsumablesRetrofix(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@param itemData gameItemData
 ---@param part gameItemID
 ---@return InstallItemPart
-function Stash.CreateInstallPartRequest_Attachment(stashObj, itemData, part) return end
+function Stash.CreateInstallPartRequest_Attachment(stashObj, itemData, part) end
 
----@private
 ---@param stashObj gameObject
 ---@param itemData gameItemData
 ---@param part gameItemID
 ---@return InstallItemPart
-function Stash.CreateInstallPartRequest_Mod(stashObj, itemData, part) return end
+function Stash.CreateInstallPartRequest_Mod(stashObj, itemData, part) end
 
----@private
 ---@param stashObj gameObject
 ---@param item gameItemID
 ---@param slotID TweakDBID|string
 ---@return RemoveItemPart
-function Stash.CreateRemovePartRequest(stashObj, item, slotID) return end
+function Stash.CreateRemovePartRequest(stashObj, item, slotID) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.GiveReginaRefinedCWRewardInStash(stashObj) return end
+function Stash.GiveReginaRefinedCWRewardInStash(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.IconicsReworkCompensateInStash(stashObj) return end
+function Stash.IconicsReworkCompensateInStash(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.InstallModsToRedesignedItems(stashObj) return end
+function Stash.InstallModsToRedesignedItems(stashObj) end
 
 ---@param stashObj gameObject
 ---@param item gameItemID
 ---@return Bool
-function Stash.IsInStash(stashObj, item) return end
-
----@private
----@param stashObj gameObject
----@return nil
-function Stash.ProcessGritModsPurgeInStash(stashObj) return end
-
----@private
----@param stashObj gameObject
----@return nil
-function Stash.ProcessIconicsFactsForBlackMarketerInStash(stashObj) return end
+function Stash.IsInStash(stashObj, item) end
 
 ---@param stashObj gameObject
 ---@return nil
-function Stash.ProcessNonIconicWeaponsRescaleInStash(stashObj) return end
+function Stash.ProcessGritModsPurgeInStash(stashObj) end
 
 ---@param stashObj gameObject
 ---@return nil
-function Stash.ProcessStashRetroFixes(stashObj) return end
-
----@private
----@param stashObj gameObject
----@return nil
-function Stash.ProcessWeaponsAndClothingModsPurgeInStash(stashObj) return end
-
----@private
----@param stashObj gameObject
----@return nil
-function Stash.ProcessWeaponsModsCompensateInStash(stashObj) return end
+function Stash.ProcessIconicsFactsForBlackMarketerInStash(stashObj) end
 
 ---@param stashObj gameObject
 ---@return nil
-function Stash.RasetsuItemPlayerScalingInStash(stashObj) return end
+function Stash.ProcessNonIconicWeaponsRescaleInStash(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.RemoveAllModsFromClothing(stashObj) return end
+function Stash.ProcessStashRetroFixes(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.RemoveDeprecatedReginaCWRewardInStash(stashObj) return end
+function Stash.ProcessWeaponsAndClothingModsPurgeInStash(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.RemoveRedundantScopesFromAchillesRifles(stashObj) return end
+function Stash.ProcessWeaponsModsCompensateInStash(stashObj) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.ReplaceLeftHandVariantWeaponsWithRegularInStash(stashObj) return end
+function Stash.RasetsuItemPlayerScalingInStash(stashObj) end
+
+---@param stashObj gameObject
+---@return nil
+function Stash.RemoveAllModsFromClothing(stashObj) end
+
+---@param stashObj gameObject
+---@return nil
+function Stash.RemoveDeprecatedReginaCWRewardInStash(stashObj) end
+
+---@param stashObj gameObject
+---@return nil
+function Stash.RemoveRedundantScopesFromAchillesRifles(stashObj) end
+
+---@param stashObj gameObject
+---@return nil
+function Stash.ReplaceLeftHandVariantWeaponsWithRegularInStash(stashObj) end
 
 ---@param stashObj gameObject
 ---@param itemData gameItemData
 ---@return nil
-function Stash.RescaleStashedIconicsToPlayerLevel(stashObj, itemData) return end
+function Stash.RescaleStashedIconicsToPlayerLevel(stashObj, itemData) end
 
 ---@param stashObj gameObject
 ---@param itemData gameItemData
 ---@return nil
-function Stash.RetroScaleNonIconicWeaponsInStash(stashObj, itemData) return end
-
----@private
----@param stashObj gameObject
----@return nil
-function Stash.ScaleAndLockLeftHandWeaponsCompensateInStash(stashObj) return end
+function Stash.RetroScaleNonIconicWeaponsInStash(stashObj, itemData) end
 
 ---@param stashObj gameObject
----@param itemData gameItemData
 ---@return nil
-function Stash.ScaleLeftHandCompensateWeaponsToPlayerLevelInStash(stashObj, itemData) return end
+function Stash.ScaleAndLockLeftHandWeaponsCompensateInStash(stashObj) end
 
 ---@param stashObj gameObject
 ---@param itemData gameItemData
 ---@return nil
-function Stash.ScaleRasetsuToProperTierInStash(stashObj, itemData) return end
-
----@param stashObj gameObject
----@return nil
-function Stash.ScaleStashIconicsToPlayerLevel(stashObj) return end
+function Stash.ScaleLeftHandCompensateWeaponsToPlayerLevelInStash(stashObj, itemData) end
 
 ---@param stashObj gameObject
 ---@param itemData gameItemData
 ---@return nil
-function Stash.UnifyIconicWeaponsUpgradesCountWithEffectiveTierInStash(stashObj, itemData) return end
+function Stash.ScaleRasetsuToProperTierInStash(stashObj, itemData) end
 
----@private
 ---@param stashObj gameObject
 ---@return nil
-function Stash.UnifyIconicsUpgradeCountWithEffectiveTierInStash(stashObj) return end
+function Stash.ScaleStashIconicsToPlayerLevel(stashObj) end
 
----@protected
+---@param stashObj gameObject
+---@param itemData gameItemData
+---@return nil
+function Stash.UnifyIconicWeaponsUpgradesCountWithEffectiveTierInStash(stashObj, itemData) end
+
+---@param stashObj gameObject
+---@return nil
+function Stash.UnifyIconicsUpgradeCountWithEffectiveTierInStash(stashObj) end
+
 ---@param evt gameinteractionsInteractionActivationEvent
 ---@return Bool
-function Stash:OnInteractionActivated(evt) return end
+function Stash:OnInteractionActivated(evt) end
 
----@protected
 ---@param evt OpenStash
 ---@return Bool
-function Stash:OnOpenStash(evt) return end
+function Stash:OnOpenStash(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Stash:OnRequestComponents(ri) return end
+function Stash:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Stash:OnTakeControl(ri) return end
+function Stash:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function Stash:DeterminGameplayRole() return end
+function Stash:DeterminGameplayRole() end
 
 ---@param data SDeviceMappinData
 ---@return EMappinVisualState
-function Stash:DeterminGameplayRoleMappinVisuaState(data) return end
+function Stash:DeterminGameplayRoleMappinVisuaState(data) end
 
----@private
 ---@return StashController
-function Stash:GetController() return end
+function Stash:GetController() end
 
 ---@return StashControllerPS
-function Stash:GetDevicePS() return end
+function Stash:GetDevicePS() end
 
 ---@return Bool
-function Stash:IsPlayerStash() return end
+function Stash:IsPlayerStash() end

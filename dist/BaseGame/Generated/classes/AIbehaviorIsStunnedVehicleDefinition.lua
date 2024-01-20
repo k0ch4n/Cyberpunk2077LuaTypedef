@@ -5,4 +5,4 @@ AIbehaviorIsStunnedVehicleDefinition = {}
 
 ---@param fields? AIbehaviorIsStunnedVehicleDefinition
 ---@return AIbehaviorIsStunnedVehicleDefinition
-function AIbehaviorIsStunnedVehicleDefinition.new(fields) return end
+function AIbehaviorIsStunnedVehicleDefinition.new(fields) end

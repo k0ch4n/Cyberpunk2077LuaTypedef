@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ActivatedDeviceNPCSetup
----@field public npcSpawnerNodeRef NodeRef
----@field public npcSpawned NPCPuppet
+---@field npcSpawnerNodeRef NodeRef
+---@field npcSpawned NPCPuppet
 ActivatedDeviceNPCSetup = {}
 
 ---@param fields? ActivatedDeviceNPCSetup
 ---@return ActivatedDeviceNPCSetup
-function ActivatedDeviceNPCSetup.new(fields) return end
+function ActivatedDeviceNPCSetup.new(fields) end

@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class NarrativePlateGameController: gameuiProjectedHUDGameController
----@field private plateHolder inkWidgetReference
----@field private projection inkScreenProjection
----@field private narrativePlateBlackboard gameIBlackboard
----@field private narrativePlateBlackboardText redCallbackObject
----@field private logicController NarrativePlateLogicController
+---@field plateHolder inkWidgetReference
+---@field projection inkScreenProjection
+---@field narrativePlateBlackboard gameIBlackboard
+---@field narrativePlateBlackboardText redCallbackObject
+---@field logicController NarrativePlateLogicController
 NarrativePlateGameController = {}
 
 ---@param fields? NarrativePlateGameController
 ---@return NarrativePlateGameController
-function NarrativePlateGameController.new(fields) return end
+function NarrativePlateGameController.new(fields) end
 
----@protected
 ---@return Bool
-function NarrativePlateGameController:OnInitialize() return end
+function NarrativePlateGameController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function NarrativePlateGameController:OnNarrativePlateChanged(value) return end
+function NarrativePlateGameController:OnNarrativePlateChanged(value) end
 
----@protected
 ---@param projections gameuiScreenProjectionsData
 ---@return Bool
-function NarrativePlateGameController:OnScreenProjectionUpdate(projections) return end
+function NarrativePlateGameController:OnScreenProjectionUpdate(projections) end
 
----@protected
 ---@return Bool
-function NarrativePlateGameController:OnUnitialize() return end
+function NarrativePlateGameController:OnUnitialize() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class OpenInventoryQuantityPickerRequest: redEvent
----@field public itemData gameInventoryItemData
----@field public actionType QuantityPickerActionType
+---@field itemData gameInventoryItemData
+---@field actionType QuantityPickerActionType
 OpenInventoryQuantityPickerRequest = {}
 
 ---@param fields? OpenInventoryQuantityPickerRequest
 ---@return OpenInventoryQuantityPickerRequest
-function OpenInventoryQuantityPickerRequest.new(fields) return end
+function OpenInventoryQuantityPickerRequest.new(fields) end

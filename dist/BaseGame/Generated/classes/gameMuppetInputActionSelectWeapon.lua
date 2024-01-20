@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetInputActionSelectWeapon: gameIMuppetInputAction
----@field public wantedWeapon gameItemID
+---@field wantedWeapon gameItemID
 gameMuppetInputActionSelectWeapon = {}
 
 ---@param fields? gameMuppetInputActionSelectWeapon
 ---@return gameMuppetInputActionSelectWeapon
-function gameMuppetInputActionSelectWeapon.new(fields) return end
+function gameMuppetInputActionSelectWeapon.new(fields) end

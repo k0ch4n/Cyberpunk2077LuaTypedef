@@ -5,9 +5,8 @@ IsNPCAloneInVehicle = {}
 
 ---@param fields? IsNPCAloneInVehicle
 ---@return IsNPCAloneInVehicle
-function IsNPCAloneInVehicle.new(fields) return end
+function IsNPCAloneInVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsNPCAloneInVehicle:Check(context) return end
+function IsNPCAloneInVehicle:Check(context) end

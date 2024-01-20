@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class PlayerElevationPrereqState: gamePrereqState
----@field public minElevationValue Float
----@field public maxElevationValue Float
----@field public minElevationListener redCallbackObject
----@field public maxElevationListener redCallbackObject
----@field public owner gameObject
+---@field minElevationValue Float
+---@field maxElevationValue Float
+---@field minElevationListener redCallbackObject
+---@field maxElevationListener redCallbackObject
+---@field owner gameObject
 PlayerElevationPrereqState = {}
 
 ---@param fields? PlayerElevationPrereqState
 ---@return PlayerElevationPrereqState
-function PlayerElevationPrereqState.new(fields) return end
+function PlayerElevationPrereqState.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function PlayerElevationPrereqState:OnMaxElevationUpdateFloat(value) return end
+function PlayerElevationPrereqState:OnMaxElevationUpdateFloat(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function PlayerElevationPrereqState:OnMinElevationUpdateFloat(value) return end
+function PlayerElevationPrereqState:OnMinElevationUpdateFloat(value) end

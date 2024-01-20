@@ -5,25 +5,21 @@ BodyCarryingPSMPrereq = {}
 
 ---@param fields? BodyCarryingPSMPrereq
 ---@return BodyCarryingPSMPrereq
-function BodyCarryingPSMPrereq.new(fields) return end
+function BodyCarryingPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function BodyCarryingPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function BodyCarryingPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function BodyCarryingPSMPrereq:GetStateMachineEnum() return end
+function BodyCarryingPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function BodyCarryingPSMPrereq:OnRegister(state, context) return end
+function BodyCarryingPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function BodyCarryingPSMPrereq:OnUnregister(state, context) return end
+function BodyCarryingPSMPrereq:OnUnregister(state, context) end

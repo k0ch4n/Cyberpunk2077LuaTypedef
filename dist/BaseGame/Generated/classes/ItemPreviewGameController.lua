@@ -1,51 +1,45 @@
 ---@meta
 
 ---@class ItemPreviewGameController: gameuiItemPreviewGameController
----@field private colliderWidgetRef inkWidgetReference
----@field private colliderWidget inkWidget
----@field private itemNameText inkTextWidgetReference
----@field private itemDescriptionText inkTextWidgetReference
----@field private perkLine inkWidgetReference
----@field private perkIcon inkImageWidgetReference
----@field private perkText inkTextWidgetReference
----@field private typeLine inkWidgetReference
----@field private typeIcon inkImageWidgetReference
----@field private typeText inkTextWidgetReference
----@field private itemLevelText inkTextWidgetReference
----@field private itemRarityWidget inkWidgetReference
----@field private data InventoryItemPreviewData
----@field private isMouseDown Bool
----@field private c_ITEM_ROTATION_SPEED Float
+---@field colliderWidgetRef inkWidgetReference
+---@field colliderWidget inkWidget
+---@field itemNameText inkTextWidgetReference
+---@field itemDescriptionText inkTextWidgetReference
+---@field perkLine inkWidgetReference
+---@field perkIcon inkImageWidgetReference
+---@field perkText inkTextWidgetReference
+---@field typeLine inkWidgetReference
+---@field typeIcon inkImageWidgetReference
+---@field typeText inkTextWidgetReference
+---@field itemLevelText inkTextWidgetReference
+---@field itemRarityWidget inkWidgetReference
+---@field data InventoryItemPreviewData
+---@field isMouseDown Bool
+---@field c_ITEM_ROTATION_SPEED Float
 ItemPreviewGameController = {}
 
 ---@param fields? ItemPreviewGameController
 ---@return ItemPreviewGameController
-function ItemPreviewGameController.new(fields) return end
+function ItemPreviewGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ItemPreviewGameController:OnGlobalRelease(e) return end
+function ItemPreviewGameController:OnGlobalRelease(e) end
 
----@protected
 ---@return Bool
-function ItemPreviewGameController:OnInitialize() return end
+function ItemPreviewGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ItemPreviewGameController:OnPress(e) return end
+function ItemPreviewGameController:OnPress(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function ItemPreviewGameController:OnRelativeInput(e) return end
+function ItemPreviewGameController:OnRelativeInput(e) end
 
----@protected
 ---@return Bool
-function ItemPreviewGameController:OnUninitialize() return end
+function ItemPreviewGameController:OnUninitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function ItemPreviewGameController:HandleAxisInput(e) return end
+function ItemPreviewGameController:HandleAxisInput(e) end

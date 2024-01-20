@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class Spline: ISerializable
----@field public points SplinePoint[]
----@field public looped Bool
----@field public reversed Bool
----@field public hasDirection Bool
+---@field points SplinePoint[]
+---@field looped Bool
+---@field reversed Bool
+---@field hasDirection Bool
 Spline = {}
 
 ---@param fields? Spline
 ---@return Spline
-function Spline.new(fields) return end
+function Spline.new(fields) end

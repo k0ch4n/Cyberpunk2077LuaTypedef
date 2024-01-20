@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class physicsMaterialReference
----@field public name CName
+---@field name CName
 physicsMaterialReference = {}
 
 ---@param fields? physicsMaterialReference
 ---@return physicsMaterialReference
-function physicsMaterialReference.new(fields) return end
+function physicsMaterialReference.new(fields) end

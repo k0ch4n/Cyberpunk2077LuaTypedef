@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RegisterPoliceCaller: gameScriptableSystemRequest
----@field public caller entEntity
----@field public crimePosition Vector4
+---@field caller entEntity
+---@field crimePosition Vector4
 RegisterPoliceCaller = {}
 
 ---@param fields? RegisterPoliceCaller
 ---@return RegisterPoliceCaller
-function RegisterPoliceCaller.new(fields) return end
+function RegisterPoliceCaller.new(fields) end

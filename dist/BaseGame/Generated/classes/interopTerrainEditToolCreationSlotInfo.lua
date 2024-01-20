@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class interopTerrainEditToolCreationSlotInfo
----@field public scale Vector2
----@field public heightMappingOverrideEnable Bool
----@field public heightMappingMin Float
----@field public heightMappingMax Float
+---@field scale Vector2
+---@field heightMappingOverrideEnable Bool
+---@field heightMappingMin Float
+---@field heightMappingMax Float
 interopTerrainEditToolCreationSlotInfo = {}
 
 ---@param fields? interopTerrainEditToolCreationSlotInfo
 ---@return interopTerrainEditToolCreationSlotInfo
-function interopTerrainEditToolCreationSlotInfo.new(fields) return end
+function interopTerrainEditToolCreationSlotInfo.new(fields) end

@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class CheckStanceState: AINPCStanceStateCheck
----@field public state gamedataNPCStanceState
+---@field state gamedataNPCStanceState
 CheckStanceState = {}
 
 ---@param fields? CheckStanceState
 ---@return CheckStanceState
-function CheckStanceState.new(fields) return end
+function CheckStanceState.new(fields) end
 
----@private
 ---@return gamedataNPCStanceState
-function CheckStanceState:GetStateToCheck() return end
+function CheckStanceState:GetStateToCheck() end

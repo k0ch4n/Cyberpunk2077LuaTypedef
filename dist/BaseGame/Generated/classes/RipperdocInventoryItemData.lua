@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class RipperdocInventoryItemData: IScriptable
----@field public InventoryItem gameInventoryItemData
----@field public IsVendor Bool
----@field public IsBuyback Bool
----@field public IsUpgraded Bool
----@field public IsEnoughMoney Bool
----@field public Delay Float
+---@field InventoryItem gameInventoryItemData
+---@field IsVendor Bool
+---@field IsBuyback Bool
+---@field IsUpgraded Bool
+---@field IsEnoughMoney Bool
+---@field Delay Float
 RipperdocInventoryItemData = {}
 
 ---@param fields? RipperdocInventoryItemData
 ---@return RipperdocInventoryItemData
-function RipperdocInventoryItemData.new(fields) return end
+function RipperdocInventoryItemData.new(fields) end

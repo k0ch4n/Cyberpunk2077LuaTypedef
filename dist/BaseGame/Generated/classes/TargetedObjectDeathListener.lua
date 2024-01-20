@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class TargetedObjectDeathListener: gameCustomValueStatPoolsListener
----@field public lsitener SensorDevice
----@field public lsitenTarget gameObject
+---@field lsitener SensorDevice
+---@field lsitenTarget gameObject
 TargetedObjectDeathListener = {}
 
 ---@param fields? TargetedObjectDeathListener
 ---@return TargetedObjectDeathListener
-function TargetedObjectDeathListener.new(fields) return end
+function TargetedObjectDeathListener.new(fields) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function TargetedObjectDeathListener:OnStatPoolMinValueReached(value) return end
+function TargetedObjectDeathListener:OnStatPoolMinValueReached(value) end

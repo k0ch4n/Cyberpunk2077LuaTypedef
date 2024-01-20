@@ -1,98 +1,81 @@
 ---@meta
 
 ---@class VendingTerminal: InteractiveDevice
----@field public position Vector4
----@field protected canMeshComponent entMeshComponent
----@field protected vendingBlacklist EVendorMode[]
+---@field position Vector4
+---@field canMeshComponent entMeshComponent
+---@field vendingBlacklist EVendorMode[]
 VendingTerminal = {}
 
 ---@param fields? VendingTerminal
 ---@return VendingTerminal
-function VendingTerminal.new(fields) return end
+function VendingTerminal.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function VendingTerminal:OnAreaEnter(evt) return end
+function VendingTerminal:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function VendingTerminal:OnAreaExit(evt) return end
+function VendingTerminal:OnAreaExit(evt) end
 
----@protected
 ---@param evt BuyItemFromVendor
 ---@return Bool
-function VendingTerminal:OnBuyItemFromVendor(evt) return end
+function VendingTerminal:OnBuyItemFromVendor(evt) end
 
----@protected
 ---@param evt CraftItemForTarget
 ---@return Bool
-function VendingTerminal:OnCraftItemForTarget(evt) return end
+function VendingTerminal:OnCraftItemForTarget(evt) end
 
----@protected
 ---@return Bool
-function VendingTerminal:OnDetach() return end
+function VendingTerminal:OnDetach() end
 
----@protected
 ---@param evt DispenceItemFromVendor
 ---@return Bool
-function VendingTerminal:OnDispenceItemFromVendor(evt) return end
+function VendingTerminal:OnDispenceItemFromVendor(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function VendingTerminal:OnRequestComponents(ri) return end
+function VendingTerminal:OnRequestComponents(ri) end
 
----@protected
 ---@param evt SellItemToVendor
 ---@return Bool
-function VendingTerminal:OnSellItemToVendor(evt) return end
+function VendingTerminal:OnSellItemToVendor(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function VendingTerminal:OnTakeControl(ri) return end
+function VendingTerminal:OnTakeControl(ri) end
 
----@protected
 ---@param evt VendingMachineFinishedEvent
 ---@return Bool
-function VendingTerminal:OnVendingMachineFinishedEvent(evt) return end
+function VendingTerminal:OnVendingMachineFinishedEvent(evt) end
 
----@protected
 ---@return nil
-function VendingTerminal:CreateBlackboard() return end
+function VendingTerminal:CreateBlackboard() end
 
----@protected
 ---@param time Float
 ---@param itemID gameItemID
 ---@return nil
-function VendingTerminal:DelayVendingMachineEvent(time, itemID) return end
+function VendingTerminal:DelayVendingMachineEvent(time, itemID) end
 
 ---@return VendingMachineDeviceBlackboardDef
-function VendingTerminal:GetBlackboardDef() return end
+function VendingTerminal:GetBlackboardDef() end
 
----@protected
 ---@return VendingTerminalController
-function VendingTerminal:GetController() return end
+function VendingTerminal:GetController() end
 
 ---@return VendingTerminalControllerPS
-function VendingTerminal:GetDevicePS() return end
+function VendingTerminal:GetDevicePS() end
 
----@private
 ---@return nil
-function VendingTerminal:InitializeScreenDefinition() return end
+function VendingTerminal:InitializeScreenDefinition() end
 
----@protected
 ---@return nil
-function VendingTerminal:PushPersistentData() return end
+function VendingTerminal:PushPersistentData() end
 
----@protected
 ---@return nil
-function VendingTerminal:ResolveGameplayState() return end
+function VendingTerminal:ResolveGameplayState() end
 
----@protected
 ---@param TopText String
 ---@param BottomText String
 ---@return nil
-function VendingTerminal:SendDataToUIBlackboard(TopText, BottomText) return end
+function VendingTerminal:SendDataToUIBlackboard(TopText, BottomText) end

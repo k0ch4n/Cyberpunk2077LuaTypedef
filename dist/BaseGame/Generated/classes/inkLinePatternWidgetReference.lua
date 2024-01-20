@@ -5,4 +5,4 @@ inkLinePatternWidgetReference = {}
 
 ---@param fields? inkLinePatternWidgetReference
 ---@return inkLinePatternWidgetReference
-function inkLinePatternWidgetReference.new(fields) return end
+function inkLinePatternWidgetReference.new(fields) end

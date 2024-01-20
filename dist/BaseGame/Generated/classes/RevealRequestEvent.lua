@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class RevealRequestEvent: redEvent
----@field private shouldReveal Bool
----@field private requester entEntityID
----@field private oneFrame Bool
+---@field shouldReveal Bool
+---@field requester entEntityID
+---@field oneFrame Bool
 RevealRequestEvent = {}
 
 ---@param fields? RevealRequestEvent
 ---@return RevealRequestEvent
-function RevealRequestEvent.new(fields) return end
+function RevealRequestEvent.new(fields) end
 
 ---@param doReveal Bool
 ---@param whoWantsToReveal entEntityID
 ---@return nil
-function RevealRequestEvent:CreateRequest(doReveal, whoWantsToReveal) return end
+function RevealRequestEvent:CreateRequest(doReveal, whoWantsToReveal) end
 
 ---@return entEntityID
-function RevealRequestEvent:GetRequester() return end
+function RevealRequestEvent:GetRequester() end
 
 ---@return Bool
-function RevealRequestEvent:GetShouldReveal() return end
+function RevealRequestEvent:GetShouldReveal() end
 
 ---@return Bool
-function RevealRequestEvent:IsOneFrame() return end
+function RevealRequestEvent:IsOneFrame() end
 
 ---@return nil
-function RevealRequestEvent:SetOneFrame() return end
+function RevealRequestEvent:SetOneFrame() end

@@ -5,15 +5,14 @@ ZoomLevelScanEvents = {}
 
 ---@param fields? ZoomLevelScanEvents
 ---@return ZoomLevelScanEvents
-function ZoomLevelScanEvents.new(fields) return end
+function ZoomLevelScanEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomLevelScanEvents:OnEnter(stateContext, scriptInterface) return end
+function ZoomLevelScanEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomLevelScanEvents:OnExitToZoomLevelAim(stateContext, scriptInterface) return end
+function ZoomLevelScanEvents:OnExitToZoomLevelAim(stateContext, scriptInterface) end

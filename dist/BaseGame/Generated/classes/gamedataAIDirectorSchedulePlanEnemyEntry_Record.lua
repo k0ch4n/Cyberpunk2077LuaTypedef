@@ -5,30 +5,30 @@ gamedataAIDirectorSchedulePlanEnemyEntry_Record = {}
 
 ---@param fields? gamedataAIDirectorSchedulePlanEnemyEntry_Record
 ---@return gamedataAIDirectorSchedulePlanEnemyEntry_Record
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record.new(fields) return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record.new(fields) end
 
 ---@return gamedataCharacter_Record
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:Character() return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:Character() end
 
 ---@return gamedataCharacter_Record
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:CharacterHandle() return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:CharacterHandle() end
 
 ---@return Int32
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:GetTagsCount() return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:GetTagsCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:GetTagsItem(index) return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:GetTagsItem(index) end
 
 ---@return Int32
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:MaxAmountConcurrently() return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:MaxAmountConcurrently() end
 
 ---@return Float
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:SpawnChanceFactor() return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:SpawnChanceFactor() end
 
 ---@return CName[]
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:Tags() return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:Tags() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataAIDirectorSchedulePlanEnemyEntry_Record:TagsContains(item) return end
+function gamedataAIDirectorSchedulePlanEnemyEntry_Record:TagsContains(item) end

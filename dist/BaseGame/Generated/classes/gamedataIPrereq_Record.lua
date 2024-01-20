@@ -5,7 +5,7 @@ gamedataIPrereq_Record = {}
 
 ---@param fields? gamedataIPrereq_Record
 ---@return gamedataIPrereq_Record
-function gamedataIPrereq_Record.new(fields) return end
+function gamedataIPrereq_Record.new(fields) end
 
 ---@return CName
-function gamedataIPrereq_Record:PrereqClassName() return end
+function gamedataIPrereq_Record:PrereqClassName() end

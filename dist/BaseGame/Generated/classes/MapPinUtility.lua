@@ -5,10 +5,10 @@ MapPinUtility = {}
 
 ---@param fields? MapPinUtility
 ---@return MapPinUtility
-function MapPinUtility.new(fields) return end
+function MapPinUtility.new(fields) end
 
 ---@param argRoot inkCompoundWidget
 ---@param isClamped Bool
 ---@param isQuest? Bool
 ---@return nil
-function MapPinUtility.OnClampUpdates(argRoot, isClamped, isQuest) return end
+function MapPinUtility.OnClampUpdates(argRoot, isClamped, isQuest) end

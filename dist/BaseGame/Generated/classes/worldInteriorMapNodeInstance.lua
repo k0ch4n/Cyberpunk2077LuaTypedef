@@ -5,4 +5,4 @@ worldInteriorMapNodeInstance = {}
 
 ---@param fields? worldInteriorMapNodeInstance
 ---@return worldInteriorMapNodeInstance
-function worldInteriorMapNodeInstance.new(fields) return end
+function worldInteriorMapNodeInstance.new(fields) end

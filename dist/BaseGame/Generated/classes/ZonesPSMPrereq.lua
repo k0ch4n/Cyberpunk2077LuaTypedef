@@ -5,25 +5,21 @@ ZonesPSMPrereq = {}
 
 ---@param fields? ZonesPSMPrereq
 ---@return ZonesPSMPrereq
-function ZonesPSMPrereq.new(fields) return end
+function ZonesPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function ZonesPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function ZonesPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function ZonesPSMPrereq:GetStateMachineEnum() return end
+function ZonesPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function ZonesPSMPrereq:OnRegister(state, context) return end
+function ZonesPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function ZonesPSMPrereq:OnUnregister(state, context) return end
+function ZonesPSMPrereq:OnUnregister(state, context) end

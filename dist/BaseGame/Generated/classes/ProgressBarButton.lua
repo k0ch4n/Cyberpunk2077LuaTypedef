@@ -1,70 +1,64 @@
 ---@meta
 
 ---@class ProgressBarButton: inkWidgetLogicController
----@field protected craftingFill inkWidgetReference
----@field protected craftingLabel inkTextWidgetReference
----@field protected craftingIconGlyph inkWidgetReference
----@field public ButtonController inkButtonController
----@field private progressController ProgressBarsController
----@field private available Bool
----@field private progress Float
----@field private isLocked Bool
----@field private justFinished Bool
----@field private animProxy inkanimProxy
+---@field craftingFill inkWidgetReference
+---@field craftingLabel inkTextWidgetReference
+---@field craftingIconGlyph inkWidgetReference
+---@field ButtonController inkButtonController
+---@field progressController ProgressBarsController
+---@field available Bool
+---@field progress Float
+---@field isLocked Bool
+---@field justFinished Bool
+---@field animProxy inkanimProxy
 ProgressBarButton = {}
 
 ---@param fields? ProgressBarButton
 ---@return ProgressBarButton
-function ProgressBarButton.new(fields) return end
+function ProgressBarButton.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ProgressBarButton:OnCraftingHoldButton(evt) return end
+function ProgressBarButton:OnCraftingHoldButton(evt) end
 
----@protected
 ---@return Bool
-function ProgressBarButton:OnInitialize() return end
+function ProgressBarButton:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ProgressBarButton:OnPressButton(evt) return end
+function ProgressBarButton:OnPressButton(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ProgressBarButton:OnReleaseButton(evt) return end
+function ProgressBarButton:OnReleaseButton(evt) end
 
----@protected
 ---@return Bool
-function ProgressBarButton:OnUnitialize() return end
+function ProgressBarButton:OnUnitialize() end
 
 ---@return nil
-function ProgressBarButton:Lock() return end
+function ProgressBarButton:Lock() end
 
 ---@return nil
-function ProgressBarButton:Reset() return end
+function ProgressBarButton:Reset() end
 
 ---@param current EProgressBarState
 ---@return nil
-function ProgressBarButton:SetAvaibility(current) return end
+function ProgressBarButton:SetAvaibility(current) end
 
----@private
 ---@return nil
-function ProgressBarButton:SetIconGlyph() return end
+function ProgressBarButton:SetIconGlyph() end
 
 ---@param label String
 ---@param progressController ProgressBarsController
 ---@return nil
-function ProgressBarButton:SetupProgressButton(label, progressController) return end
+function ProgressBarButton:SetupProgressButton(label, progressController) end
 
 ---@return nil
-function ProgressBarButton:Start() return end
+function ProgressBarButton:Start() end
 
 ---@return nil
-function ProgressBarButton:Unlock() return end
+function ProgressBarButton:Unlock() end
 
 ---@param evt inkPointerEvent
 ---@return nil
-function ProgressBarButton:UpdateCraftProcess(evt) return end
+function ProgressBarButton:UpdateCraftProcess(evt) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class effectEffectParameterEvaluatorColor
----@field public evaluator IEvaluatorColor
----@field public inputParameterOverride CName
+---@field evaluator IEvaluatorColor
+---@field inputParameterOverride CName
 effectEffectParameterEvaluatorColor = {}
 
 ---@param fields? effectEffectParameterEvaluatorColor
 ---@return effectEffectParameterEvaluatorColor
-function effectEffectParameterEvaluatorColor.new(fields) return end
+function effectEffectParameterEvaluatorColor.new(fields) end

@@ -5,4 +5,4 @@ gamePuppetStatusEffectListener = {}
 
 ---@param fields? gamePuppetStatusEffectListener
 ---@return gamePuppetStatusEffectListener
-function gamePuppetStatusEffectListener.new(fields) return end
+function gamePuppetStatusEffectListener.new(fields) end

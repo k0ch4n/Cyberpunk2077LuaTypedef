@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class communityVoiceTagInitializer: communitySpawnInitializer
----@field public voiceTagName CName
+---@field voiceTagName CName
 communityVoiceTagInitializer = {}
 
 ---@param fields? communityVoiceTagInitializer
 ---@return communityVoiceTagInitializer
-function communityVoiceTagInitializer.new(fields) return end
+function communityVoiceTagInitializer.new(fields) end

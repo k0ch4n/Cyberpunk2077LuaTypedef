@@ -5,45 +5,45 @@ gameuiItemDataViewWrapper = {}
 
 ---@param fields? gameuiItemDataViewWrapper
 ---@return gameuiItemDataViewWrapper
-function gameuiItemDataViewWrapper.new(fields) return end
+function gameuiItemDataViewWrapper.new(fields) end
 
 ---@param tag CName|string
 ---@return nil
-function gameuiItemDataViewWrapper:AddSkipTag(tag) return end
+function gameuiItemDataViewWrapper:AddSkipTag(tag) end
 
 ---@return nil
-function gameuiItemDataViewWrapper:DisableSorting() return end
+function gameuiItemDataViewWrapper:DisableSorting() end
 
 ---@return nil
-function gameuiItemDataViewWrapper:EnableSorting() return end
+function gameuiItemDataViewWrapper:EnableSorting() end
 
 ---@return nil
-function gameuiItemDataViewWrapper:Filter() return end
+function gameuiItemDataViewWrapper:Filter() end
 
 ---@return Bool
-function gameuiItemDataViewWrapper:IsSortingEnabled() return end
+function gameuiItemDataViewWrapper:IsSortingEnabled() end
 
 ---@param tag CName|string
 ---@return nil
-function gameuiItemDataViewWrapper:RemoveSkipTag(tag) return end
+function gameuiItemDataViewWrapper:RemoveSkipTag(tag) end
 
 ---@return nil
-function gameuiItemDataViewWrapper:ResetItemTypesForSorting() return end
+function gameuiItemDataViewWrapper:ResetItemTypesForSorting() end
 
 ---@return nil
-function gameuiItemDataViewWrapper:ResetSkipTags() return end
+function gameuiItemDataViewWrapper:ResetSkipTags() end
 
 ---@param types gamedataItemType[]
 ---@return nil
-function gameuiItemDataViewWrapper:SetItemTypesForSorting(types) return end
+function gameuiItemDataViewWrapper:SetItemTypesForSorting(types) end
 
 ---@param tags CName[]|string[]
 ---@return nil
-function gameuiItemDataViewWrapper:SetSkipTags(tags) return end
+function gameuiItemDataViewWrapper:SetSkipTags(tags) end
 
 ---@param source gameuiBaseItemDataSource
 ---@return nil
-function gameuiItemDataViewWrapper:SetSource(source) return end
+function gameuiItemDataViewWrapper:SetSource(source) end
 
 ---@return nil
-function gameuiItemDataViewWrapper:Sort() return end
+function gameuiItemDataViewWrapper:Sort() end

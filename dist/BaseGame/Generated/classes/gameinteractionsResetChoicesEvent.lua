@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsResetChoicesEvent: redEvent
----@field public layer CName
+---@field layer CName
 gameinteractionsResetChoicesEvent = {}
 
 ---@param fields? gameinteractionsResetChoicesEvent
 ---@return gameinteractionsResetChoicesEvent
-function gameinteractionsResetChoicesEvent.new(fields) return end
+function gameinteractionsResetChoicesEvent.new(fields) end

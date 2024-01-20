@@ -5,4 +5,4 @@ BraindanceInstance = {}
 
 ---@param fields? BraindanceInstance
 ---@return BraindanceInstance
-function BraindanceInstance.new(fields) return end
+function BraindanceInstance.new(fields) end

@@ -5,25 +5,21 @@ MeleePSMPrereq = {}
 
 ---@param fields? MeleePSMPrereq
 ---@return MeleePSMPrereq
-function MeleePSMPrereq.new(fields) return end
+function MeleePSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function MeleePSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function MeleePSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function MeleePSMPrereq:GetStateMachineEnum() return end
+function MeleePSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function MeleePSMPrereq:OnRegister(state, context) return end
+function MeleePSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function MeleePSMPrereq:OnUnregister(state, context) return end
+function MeleePSMPrereq:OnUnregister(state, context) end

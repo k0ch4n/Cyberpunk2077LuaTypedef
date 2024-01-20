@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class BuyAttribute: gamePlayerScriptableSystemRequest
----@field public attributeType gamedataStatType
----@field public grantAttributePoint Bool
+---@field attributeType gamedataStatType
+---@field grantAttributePoint Bool
 BuyAttribute = {}
 
 ---@param fields? BuyAttribute
 ---@return BuyAttribute
-function BuyAttribute.new(fields) return end
+function BuyAttribute.new(fields) end
 
 ---@param _owner gameObject
 ---@param type gamedataStatType
 ---@param grantAttributePoint? Bool
 ---@return nil
-function BuyAttribute:Set(_owner, type, grantAttributePoint) return end
+function BuyAttribute:Set(_owner, type, grantAttributePoint) end

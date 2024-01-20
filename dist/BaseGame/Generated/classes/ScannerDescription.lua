@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class ScannerDescription: ScannerChunk
----@field private defaultFluffDescription String
----@field private customDescriptions String[]
+---@field defaultFluffDescription String
+---@field customDescriptions String[]
 ScannerDescription = {}
 
 ---@param fields? ScannerDescription
 ---@return ScannerDescription
-function ScannerDescription.new(fields) return end
+function ScannerDescription.new(fields) end
 
 ---@return String[]
-function ScannerDescription:GetCustomDescriptions() return end
+function ScannerDescription:GetCustomDescriptions() end
 
 ---@return String
-function ScannerDescription:GetDefaultDescription() return end
+function ScannerDescription:GetDefaultDescription() end
 
 ---@return ScannerDataType
-function ScannerDescription:GetType() return end
+function ScannerDescription:GetType() end
 
 ---@param defaultDesc String
 ---@param customDesc? String[]
 ---@return nil
-function ScannerDescription:Set(defaultDesc, customDesc) return end
+function ScannerDescription:Set(defaultDesc, customDesc) end

@@ -1,32 +1,31 @@
 ---@meta
 
 ---@class KeyboardHintItemController: AHintItemController
----@field private NumberText inkTextWidgetReference
----@field private Frame inkImageWidgetReference
----@field private DisabledStateName CName
----@field private SelectedStateName CName
----@field private FrameSelectedName CName
----@field private FrameUnselectedName CName
----@field private AnimationName CName
+---@field NumberText inkTextWidgetReference
+---@field Frame inkImageWidgetReference
+---@field DisabledStateName CName
+---@field SelectedStateName CName
+---@field FrameSelectedName CName
+---@field FrameUnselectedName CName
+---@field AnimationName CName
 KeyboardHintItemController = {}
 
 ---@param fields? KeyboardHintItemController
 ---@return KeyboardHintItemController
-function KeyboardHintItemController.new(fields) return end
+function KeyboardHintItemController.new(fields) end
 
 ---@param isEnabled Bool
 ---@return nil
-function KeyboardHintItemController:Animate(isEnabled) return end
+function KeyboardHintItemController:Animate(isEnabled) end
 
----@protected
 ---@return nil
-function KeyboardHintItemController:CacheAnimations() return end
+function KeyboardHintItemController:CacheAnimations() end
 
 ---@param isEnabled Bool
 ---@param isSelected Bool
 ---@return nil
-function KeyboardHintItemController:SetState(isEnabled, isSelected) return end
+function KeyboardHintItemController:SetState(isEnabled, isSelected) end
 
 ---@param itemNumber Int32
 ---@return nil
-function KeyboardHintItemController:Setup(itemNumber) return end
+function KeyboardHintItemController:Setup(itemNumber) end

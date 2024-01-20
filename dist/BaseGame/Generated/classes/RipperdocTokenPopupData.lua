@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class RipperdocTokenPopupData: inkGameNotificationData
----@field public costData CyberwareUpgradeCostData
----@field public baseItemData UIInventoryItem
----@field public option1InventoryItem UIInventoryItem
----@field public option2InventoryItem UIInventoryItem
----@field public option3InventoryItem UIInventoryItem
----@field public cyberwareUpgradeData InventoryTooltiData_CyberwareUpgradeData
----@field public displayContext ItemDisplayContextData
----@field public option1GameItemData gameItemData
----@field public option2GameItemData gameItemData
----@field public option3GameItemData gameItemData
----@field public option1SideItemData gameItemData
----@field public option2SideItemData gameItemData
----@field public option3SideItemData gameItemData
+---@field costData CyberwareUpgradeCostData
+---@field baseItemData UIInventoryItem
+---@field option1InventoryItem UIInventoryItem
+---@field option2InventoryItem UIInventoryItem
+---@field option3InventoryItem UIInventoryItem
+---@field cyberwareUpgradeData InventoryTooltiData_CyberwareUpgradeData
+---@field displayContext ItemDisplayContextData
+---@field option1GameItemData gameItemData
+---@field option2GameItemData gameItemData
+---@field option3GameItemData gameItemData
+---@field option1SideItemData gameItemData
+---@field option2SideItemData gameItemData
+---@field option3SideItemData gameItemData
 RipperdocTokenPopupData = {}
 
 ---@param fields? RipperdocTokenPopupData
 ---@return RipperdocTokenPopupData
-function RipperdocTokenPopupData.new(fields) return end
+function RipperdocTokenPopupData.new(fields) end

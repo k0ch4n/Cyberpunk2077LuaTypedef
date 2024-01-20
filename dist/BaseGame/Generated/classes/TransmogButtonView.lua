@@ -1,24 +1,23 @@
 ---@meta
 
 ---@class TransmogButtonView: BaseButtonView
----@field private container inkWidgetReference
----@field private isActive Bool
+---@field container inkWidgetReference
+---@field isActive Bool
 TransmogButtonView = {}
 
 ---@param fields? TransmogButtonView
 ---@return TransmogButtonView
-function TransmogButtonView.new(fields) return end
+function TransmogButtonView.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function TransmogButtonView:OnButtonStateChanged(controller, oldState, newState) return end
+function TransmogButtonView:OnButtonStateChanged(controller, oldState, newState) end
 
 ---@return Bool
-function TransmogButtonView:IsActive() return end
+function TransmogButtonView:IsActive() end
 
 ---@param value Bool
 ---@return nil
-function TransmogButtonView:SetActive(value) return end
+function TransmogButtonView:SetActive(value) end

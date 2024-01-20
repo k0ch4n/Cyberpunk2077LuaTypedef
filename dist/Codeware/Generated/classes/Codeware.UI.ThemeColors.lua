@@ -4,28 +4,28 @@
 Codeware_UI_ThemeColors = {}
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.Bittersweet() return end
+function Codeware_UI_ThemeColors.Bittersweet() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.BlackPearl() return end
+function Codeware_UI_ThemeColors.BlackPearl() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.Bordeaux() return end
+function Codeware_UI_ThemeColors.Bordeaux() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.Dandelion() return end
+function Codeware_UI_ThemeColors.Dandelion() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.ElectricBlue() return end
+function Codeware_UI_ThemeColors.ElectricBlue() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.LightGreen() return end
+function Codeware_UI_ThemeColors.LightGreen() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.PureBlack() return end
+function Codeware_UI_ThemeColors.PureBlack() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.PureWhite() return end
+function Codeware_UI_ThemeColors.PureWhite() end
 
 ---@return HDRColor
-function Codeware_UI_ThemeColors.RedOxide() return end
+function Codeware_UI_ThemeColors.RedOxide() end

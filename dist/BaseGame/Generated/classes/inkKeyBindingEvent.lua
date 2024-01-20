@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkKeyBindingEvent: redEvent
----@field public keyName CName
+---@field keyName CName
 inkKeyBindingEvent = {}
 
 ---@param fields? inkKeyBindingEvent
 ---@return inkKeyBindingEvent
-function inkKeyBindingEvent.new(fields) return end
+function inkKeyBindingEvent.new(fields) end

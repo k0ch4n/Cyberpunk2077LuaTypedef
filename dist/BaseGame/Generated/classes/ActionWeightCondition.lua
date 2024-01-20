@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class ActionWeightCondition: AIbehaviorconditionScript
----@field public selectedActionIndex AIArgumentMapping
----@field public thisIndex Int32
+---@field selectedActionIndex AIArgumentMapping
+---@field thisIndex Int32
 ActionWeightCondition = {}
 
 ---@param fields? ActionWeightCondition
 ---@return ActionWeightCondition
-function ActionWeightCondition.new(fields) return end
+function ActionWeightCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ActionWeightCondition:Check(context) return end
+function ActionWeightCondition:Check(context) end

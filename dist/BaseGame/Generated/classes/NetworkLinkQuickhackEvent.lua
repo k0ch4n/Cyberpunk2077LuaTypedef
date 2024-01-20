@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class NetworkLinkQuickhackEvent: redEvent
----@field public netrunnerID entEntityID
----@field public proxyID entEntityID
----@field public targetID entEntityID
----@field public from entEntityID
----@field public to entEntityID
+---@field netrunnerID entEntityID
+---@field proxyID entEntityID
+---@field targetID entEntityID
+---@field from entEntityID
+---@field to entEntityID
 NetworkLinkQuickhackEvent = {}
 
 ---@param fields? NetworkLinkQuickhackEvent
 ---@return NetworkLinkQuickhackEvent
-function NetworkLinkQuickhackEvent.new(fields) return end
+function NetworkLinkQuickhackEvent.new(fields) end

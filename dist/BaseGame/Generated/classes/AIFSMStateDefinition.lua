@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AIFSMStateDefinition
----@field public onUpdateTransition AIFSMTransitionListDefinition
----@field public onCompleteTransition AIFSMTransitionListDefinition
----@field public onSuccessTransition AIFSMTransitionListDefinition
----@field public onFailureTransition AIFSMTransitionListDefinition
----@field public onInterruptionTransition AIFSMTransitionListDefinition
----@field public onEventTransitions AIFSMTransitionListDefinition
----@field public childNode AICTreeNodeDefinition
+---@field onUpdateTransition AIFSMTransitionListDefinition
+---@field onCompleteTransition AIFSMTransitionListDefinition
+---@field onSuccessTransition AIFSMTransitionListDefinition
+---@field onFailureTransition AIFSMTransitionListDefinition
+---@field onInterruptionTransition AIFSMTransitionListDefinition
+---@field onEventTransitions AIFSMTransitionListDefinition
+---@field childNode AICTreeNodeDefinition
 AIFSMStateDefinition = {}
 
 ---@param fields? AIFSMStateDefinition
 ---@return AIFSMStateDefinition
-function AIFSMStateDefinition.new(fields) return end
+function AIFSMStateDefinition.new(fields) end

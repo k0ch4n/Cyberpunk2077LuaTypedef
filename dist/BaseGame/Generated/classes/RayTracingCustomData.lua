@@ -5,4 +5,4 @@ RayTracingCustomData = {}
 
 ---@param fields? RayTracingCustomData
 ---@return RayTracingCustomData
-function RayTracingCustomData.new(fields) return end
+function RayTracingCustomData.new(fields) end

@@ -5,4 +5,4 @@ gameSceneTier5Data = {}
 
 ---@param fields? gameSceneTier5Data
 ---@return gameSceneTier5Data
-function gameSceneTier5Data.new(fields) return end
+function gameSceneTier5Data.new(fields) end

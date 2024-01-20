@@ -5,4 +5,4 @@ OpenPatchNotesPopupEvent = {}
 
 ---@param fields? OpenPatchNotesPopupEvent
 ---@return OpenPatchNotesPopupEvent
-function OpenPatchNotesPopupEvent.new(fields) return end
+function OpenPatchNotesPopupEvent.new(fields) end

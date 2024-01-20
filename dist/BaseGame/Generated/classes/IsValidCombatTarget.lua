@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class IsValidCombatTarget: AIbehaviorconditionScript
----@field public considerSourceAVehicleDriver Bool
+---@field considerSourceAVehicleDriver Bool
 IsValidCombatTarget = {}
 
 ---@param fields? IsValidCombatTarget
 ---@return IsValidCombatTarget
-function IsValidCombatTarget.new(fields) return end
+function IsValidCombatTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsValidCombatTarget:Check(context) return end
+function IsValidCombatTarget:Check(context) end
 
----@private
 ---@param instigator ScriptedPuppet
 ---@param source ScriptedPuppet
 ---@return Bool
-function IsValidCombatTarget:IsValidForPrevention(instigator, source) return end
+function IsValidCombatTarget:IsValidForPrevention(instigator, source) end

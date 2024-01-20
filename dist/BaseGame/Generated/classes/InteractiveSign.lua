@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class InteractiveSign: Device
----@field private signShape SignShape
----@field private type SignType
----@field private message String
+---@field signShape SignShape
+---@field type SignType
+---@field message String
 InteractiveSign = {}
 
 ---@param fields? InteractiveSign
 ---@return InteractiveSign
-function InteractiveSign.new(fields) return end
+function InteractiveSign.new(fields) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function InteractiveSign:OnTakeControl(ri) return end
+function InteractiveSign:OnTakeControl(ri) end
 
----@protected
 ---@return InteractiveSignController
-function InteractiveSign:GetController() return end
+function InteractiveSign:GetController() end
 
 ---@return InteractiveSignControllerPS
-function InteractiveSign:GetDevicePS() return end
+function InteractiveSign:GetDevicePS() end

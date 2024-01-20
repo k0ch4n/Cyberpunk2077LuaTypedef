@@ -5,8 +5,7 @@ DropdownItemController = {}
 
 ---@param fields? DropdownItemController
 ---@return DropdownItemController
-function DropdownItemController.new(fields) return end
+function DropdownItemController.new(fields) end
 
----@protected
 ---@return Bool
-function DropdownItemController:OnInitialize() return end
+function DropdownItemController:OnInitialize() end

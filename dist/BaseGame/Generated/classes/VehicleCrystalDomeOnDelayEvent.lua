@@ -5,4 +5,4 @@ VehicleCrystalDomeOnDelayEvent = {}
 
 ---@param fields? VehicleCrystalDomeOnDelayEvent
 ---@return VehicleCrystalDomeOnDelayEvent
-function VehicleCrystalDomeOnDelayEvent.new(fields) return end
+function VehicleCrystalDomeOnDelayEvent.new(fields) end

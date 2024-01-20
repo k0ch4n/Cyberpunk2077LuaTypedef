@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class gameeventsAttitudeChangedEvent: redEvent
----@field public otherAgent gameAttitudeAgent
----@field public attitude EAIAttitude
+---@field otherAgent gameAttitudeAgent
+---@field attitude EAIAttitude
 gameeventsAttitudeChangedEvent = {}

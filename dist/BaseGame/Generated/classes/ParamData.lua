@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ParamData
----@field public name String
----@field public type String
----@field public defaultValue Variant
+---@field name String
+---@field type String
+---@field defaultValue Variant
 ParamData = {}
 
 ---@param fields? ParamData
 ---@return ParamData
-function ParamData.new(fields) return end
+function ParamData.new(fields) end

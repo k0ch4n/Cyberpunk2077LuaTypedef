@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class DebugOutlineEvent: redEvent
----@field public type EOutlineType
----@field public opacity Float
----@field public requester entEntityID
----@field public duration Float
+---@field type EOutlineType
+---@field opacity Float
+---@field requester entEntityID
+---@field duration Float
 DebugOutlineEvent = {}
 
 ---@param fields? DebugOutlineEvent
 ---@return DebugOutlineEvent
-function DebugOutlineEvent.new(fields) return end
+function DebugOutlineEvent.new(fields) end

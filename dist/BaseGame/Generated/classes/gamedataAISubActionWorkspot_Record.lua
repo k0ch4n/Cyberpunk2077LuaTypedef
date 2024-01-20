@@ -5,10 +5,10 @@ gamedataAISubActionWorkspot_Record = {}
 
 ---@param fields? gamedataAISubActionWorkspot_Record
 ---@return gamedataAISubActionWorkspot_Record
-function gamedataAISubActionWorkspot_Record.new(fields) return end
+function gamedataAISubActionWorkspot_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionWorkspot_Record:WorkspotObject() return end
+function gamedataAISubActionWorkspot_Record:WorkspotObject() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionWorkspot_Record:WorkspotObjectHandle() return end
+function gamedataAISubActionWorkspot_Record:WorkspotObjectHandle() end

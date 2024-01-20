@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class AISpiderbotCheckIfFriendlyMoved: AIAutonomousConditions
----@field public maxAllowedDelta AIArgumentMapping
+---@field maxAllowedDelta AIArgumentMapping
 AISpiderbotCheckIfFriendlyMoved = {}
 
 ---@param fields? AISpiderbotCheckIfFriendlyMoved
 ---@return AISpiderbotCheckIfFriendlyMoved
-function AISpiderbotCheckIfFriendlyMoved.new(fields) return end
+function AISpiderbotCheckIfFriendlyMoved.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AISpiderbotCheckIfFriendlyMoved:Activate(context) return end
+function AISpiderbotCheckIfFriendlyMoved:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AISpiderbotCheckIfFriendlyMoved:Check(context) return end
+function AISpiderbotCheckIfFriendlyMoved:Check(context) end

@@ -1,50 +1,42 @@
 ---@meta
 
 ---@class RadialMenuGameController: gameuiHUDGameController
----@field private containerRef inkCompoundWidgetReference
----@field private highlightRef inkWidgetReference
----@field private itemListRef inkWidgetReference[]
----@field private quickSlotsBoard gameIBlackboard
----@field private quickSlotsDef UI_QuickSlotsDataDef
----@field private inputAxisCallbackId redCallbackObject
+---@field containerRef inkCompoundWidgetReference
+---@field highlightRef inkWidgetReference
+---@field itemListRef inkWidgetReference[]
+---@field quickSlotsBoard gameIBlackboard
+---@field quickSlotsDef UI_QuickSlotsDataDef
+---@field inputAxisCallbackId redCallbackObject
 RadialMenuGameController = {}
 
 ---@param fields? RadialMenuGameController
 ---@return RadialMenuGameController
-function RadialMenuGameController.new(fields) return end
+function RadialMenuGameController.new(fields) end
 
----@protected
 ---@param evt QuickSlotButtonHoldEndEvent
 ---@return Bool
-function RadialMenuGameController:OnCloseWheelRequest(evt) return end
+function RadialMenuGameController:OnCloseWheelRequest(evt) end
 
----@protected
 ---@return Bool
-function RadialMenuGameController:OnInitialize() return end
+function RadialMenuGameController:OnInitialize() end
 
----@protected
 ---@param evt QuickSlotButtonHoldStartEvent
 ---@return Bool
-function RadialMenuGameController:OnOpenWheelRequest(evt) return end
+function RadialMenuGameController:OnOpenWheelRequest(evt) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function RadialMenuGameController:OnRadialAngleChanged(value) return end
+function RadialMenuGameController:OnRadialAngleChanged(value) end
 
----@protected
 ---@return Bool
-function RadialMenuGameController:OnUninitialize() return end
+function RadialMenuGameController:OnUninitialize() end
 
----@protected
 ---@return nil
-function RadialMenuGameController:ApplySelection() return end
+function RadialMenuGameController:ApplySelection() end
 
----@protected
 ---@return nil
-function RadialMenuGameController:PopulateData() return end
+function RadialMenuGameController:PopulateData() end
 
----@protected
 ---@param value Bool
 ---@return nil
-function RadialMenuGameController:SetVisible(value) return end
+function RadialMenuGameController:SetVisible(value) end

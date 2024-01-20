@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ThreatPersistanceMemory
----@field public threats entEntity[]
----@field public isPersistent Bool[]
+---@field threats entEntity[]
+---@field isPersistent Bool[]
 ThreatPersistanceMemory = {}
 
 ---@param fields? ThreatPersistanceMemory
 ---@return ThreatPersistanceMemory
-function ThreatPersistanceMemory.new(fields) return end
+function ThreatPersistanceMemory.new(fields) end

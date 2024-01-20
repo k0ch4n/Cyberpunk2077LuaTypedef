@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CreditsData: inkUserData
----@field public isFinalBoards Bool
----@field public showRewardPrompt Bool
+---@field isFinalBoards Bool
+---@field showRewardPrompt Bool
 CreditsData = {}
 
 ---@param fields? CreditsData
 ---@return CreditsData
-function CreditsData.new(fields) return end
+function CreditsData.new(fields) end

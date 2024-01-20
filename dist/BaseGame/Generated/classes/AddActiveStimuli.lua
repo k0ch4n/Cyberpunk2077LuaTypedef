@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class AddActiveStimuli: AIbehaviortaskScript
----@field public stimType gamedataStimType
----@field public lifetime Float
+---@field stimType gamedataStimType
+---@field lifetime Float
 AddActiveStimuli = {}
 
 ---@param fields? AddActiveStimuli
 ---@return AddActiveStimuli
-function AddActiveStimuli.new(fields) return end
+function AddActiveStimuli.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AddActiveStimuli:Activate(context) return end
+function AddActiveStimuli:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AddActiveStimuli:Deactivate(context) return end
+function AddActiveStimuli:Deactivate(context) end

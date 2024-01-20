@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questFlowControlNodeDefinition: questDisableableNodeDefinition
----@field public isOpen Bool
----@field public opensAt Uint16
----@field public closesAt Uint16
+---@field isOpen Bool
+---@field opensAt Uint16
+---@field closesAt Uint16
 questFlowControlNodeDefinition = {}
 
 ---@param fields? questFlowControlNodeDefinition
 ---@return questFlowControlNodeDefinition
-function questFlowControlNodeDefinition.new(fields) return end
+function questFlowControlNodeDefinition.new(fields) end

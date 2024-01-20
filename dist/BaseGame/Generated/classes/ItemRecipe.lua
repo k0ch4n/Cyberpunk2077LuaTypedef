@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ItemRecipe
----@field public targetItem TweakDBID
----@field public hideOnItemsAdded gameItemID[]
----@field public isHidden Bool
----@field public amount Int32
+---@field targetItem TweakDBID
+---@field hideOnItemsAdded gameItemID[]
+---@field isHidden Bool
+---@field amount Int32
 ItemRecipe = {}
 
 ---@param fields? ItemRecipe
 ---@return ItemRecipe
-function ItemRecipe.new(fields) return end
+function ItemRecipe.new(fields) end

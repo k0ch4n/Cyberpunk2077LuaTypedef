@@ -5,16 +5,14 @@ MeleeBodySlamAttackDecisions = {}
 
 ---@param fields? MeleeBodySlamAttackDecisions
 ---@return MeleeBodySlamAttackDecisions
-function MeleeBodySlamAttackDecisions.new(fields) return end
+function MeleeBodySlamAttackDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeBodySlamAttackDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeBodySlamAttackDecisions:ExitCondition(stateContext, scriptInterface) return end
+function MeleeBodySlamAttackDecisions:ExitCondition(stateContext, scriptInterface) end

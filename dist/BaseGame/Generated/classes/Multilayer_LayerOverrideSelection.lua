@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class Multilayer_LayerOverrideSelection
----@field public colorScale CName
----@field public normalStrength CName
----@field public roughLevelsIn CName
----@field public roughLevelsOut CName
----@field public metalLevelsIn CName
----@field public metalLevelsOut CName
+---@field colorScale CName
+---@field normalStrength CName
+---@field roughLevelsIn CName
+---@field roughLevelsOut CName
+---@field metalLevelsIn CName
+---@field metalLevelsOut CName
 Multilayer_LayerOverrideSelection = {}
 
 ---@param fields? Multilayer_LayerOverrideSelection
 ---@return Multilayer_LayerOverrideSelection
-function Multilayer_LayerOverrideSelection.new(fields) return end
+function Multilayer_LayerOverrideSelection.new(fields) end

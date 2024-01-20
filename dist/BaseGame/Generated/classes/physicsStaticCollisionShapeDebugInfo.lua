@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class physicsStaticCollisionShapeDebugInfo
----@field public sourceMeshPathHash Uint64
----@field public prefabPathHash Uint64
----@field public nodeNameHash Uint64
+---@field sourceMeshPathHash Uint64
+---@field prefabPathHash Uint64
+---@field nodeNameHash Uint64
 physicsStaticCollisionShapeDebugInfo = {}
 
 ---@param fields? physicsStaticCollisionShapeDebugInfo
 ---@return physicsStaticCollisionShapeDebugInfo
-function physicsStaticCollisionShapeDebugInfo.new(fields) return end
+function physicsStaticCollisionShapeDebugInfo.new(fields) end

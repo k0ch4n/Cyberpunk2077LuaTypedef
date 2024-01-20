@@ -5,4 +5,4 @@ servicesGameServicesGalaxy = {}
 
 ---@param fields? servicesGameServicesGalaxy
 ---@return servicesGameServicesGalaxy
-function servicesGameServicesGalaxy.new(fields) return end
+function servicesGameServicesGalaxy.new(fields) end

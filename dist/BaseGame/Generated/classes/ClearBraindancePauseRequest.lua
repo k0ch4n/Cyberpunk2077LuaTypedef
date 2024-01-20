@@ -5,4 +5,4 @@ ClearBraindancePauseRequest = {}
 
 ---@param fields? ClearBraindancePauseRequest
 ---@return ClearBraindancePauseRequest
-function ClearBraindancePauseRequest.new(fields) return end
+function ClearBraindancePauseRequest.new(fields) end

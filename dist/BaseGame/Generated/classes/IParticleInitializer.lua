@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class IParticleInitializer: IParticleModule
----@field public seed Uint32
+---@field seed Uint32
 IParticleInitializer = {}

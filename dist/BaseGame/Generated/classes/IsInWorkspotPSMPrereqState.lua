@@ -5,4 +5,4 @@ IsInWorkspotPSMPrereqState = {}
 
 ---@param fields? IsInWorkspotPSMPrereqState
 ---@return IsInWorkspotPSMPrereqState
-function IsInWorkspotPSMPrereqState.new(fields) return end
+function IsInWorkspotPSMPrereqState.new(fields) end

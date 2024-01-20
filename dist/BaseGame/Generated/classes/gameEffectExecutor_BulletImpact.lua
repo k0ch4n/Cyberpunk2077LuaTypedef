@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameEffectExecutor_BulletImpact: gameEffectExecutor
----@field public isBackfaceImpact Bool
----@field public noAudio Bool
----@field public isMeleeAttack Bool
+---@field isBackfaceImpact Bool
+---@field noAudio Bool
+---@field isMeleeAttack Bool
 gameEffectExecutor_BulletImpact = {}
 
 ---@param fields? gameEffectExecutor_BulletImpact
 ---@return gameEffectExecutor_BulletImpact
-function gameEffectExecutor_BulletImpact.new(fields) return end
+function gameEffectExecutor_BulletImpact.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param isMelee Bool
@@ -17,4 +17,4 @@ function gameEffectExecutor_BulletImpact.new(fields) return end
 ---@param hitPosition Vector4
 ---@param hitDirection Vector4
 ---@return CName
-function gameEffectExecutor_BulletImpact:GetImpactMaterialOverride(ctx, isMelee, orginalHitMaterial, target, hitPosition, hitDirection) return end
+function gameEffectExecutor_BulletImpact:GetImpactMaterialOverride(ctx, isMelee, orginalHitMaterial, target, hitPosition, hitDirection) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class GetRandomThreat: AIRandomTasks
----@field public outThreatArgument AIArgumentMapping
+---@field outThreatArgument AIArgumentMapping
 GetRandomThreat = {}
 
 ---@param fields? GetRandomThreat
 ---@return GetRandomThreat
-function GetRandomThreat.new(fields) return end
+function GetRandomThreat.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function GetRandomThreat:Activate(context) return end
+function GetRandomThreat:Activate(context) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioVoiceTagAppearanceMapping: audioAudioMetadata
----@field public mappings audioVoiceTagAppearanceGroup[]
+---@field mappings audioVoiceTagAppearanceGroup[]
 audioVoiceTagAppearanceMapping = {}
 
 ---@param fields? audioVoiceTagAppearanceMapping
 ---@return audioVoiceTagAppearanceMapping
-function audioVoiceTagAppearanceMapping.new(fields) return end
+function audioVoiceTagAppearanceMapping.new(fields) end

@@ -5,4 +5,4 @@ inkVirtualUniformGridController = {}
 
 ---@param fields? inkVirtualUniformGridController
 ---@return inkVirtualUniformGridController
-function inkVirtualUniformGridController.new(fields) return end
+function inkVirtualUniformGridController.new(fields) end

@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class CheckSpawningStrategy: PreventionConditionAbstract
----@field public spawningStrategyToCompare AIArgumentMapping
----@field public spawningStrategyToCompareAsInt Int32
----@field public system PreventionSystem
----@field public vehicle vehicleBaseObject
+---@field spawningStrategyToCompare AIArgumentMapping
+---@field spawningStrategyToCompareAsInt Int32
+---@field system PreventionSystem
+---@field vehicle vehicleBaseObject
 CheckSpawningStrategy = {}
 
 ---@param fields? CheckSpawningStrategy
 ---@return CheckSpawningStrategy
-function CheckSpawningStrategy.new(fields) return end
+function CheckSpawningStrategy.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckSpawningStrategy:Check(context) return end
+function CheckSpawningStrategy:Check(context) end

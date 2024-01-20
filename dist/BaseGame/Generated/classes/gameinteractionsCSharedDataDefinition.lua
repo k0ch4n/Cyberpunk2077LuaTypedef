@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameinteractionsCSharedDataDefinition
----@field public defaultChoices String[]
----@field public visualizer gameuiIChoiceVisualizer
+---@field defaultChoices String[]
+---@field visualizer gameuiIChoiceVisualizer
 gameinteractionsCSharedDataDefinition = {}
 
 ---@param fields? gameinteractionsCSharedDataDefinition
 ---@return gameinteractionsCSharedDataDefinition
-function gameinteractionsCSharedDataDefinition.new(fields) return end
+function gameinteractionsCSharedDataDefinition.new(fields) end

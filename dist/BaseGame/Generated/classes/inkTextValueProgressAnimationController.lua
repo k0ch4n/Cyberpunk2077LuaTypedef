@@ -1,41 +1,41 @@
 ---@meta
 
 ---@class inkTextValueProgressAnimationController: inkTextAnimationController
----@field public baseValue Float
----@field public targetValue Float
----@field public numbersAfterDot Int32
----@field public stepValue Float
----@field public suffix String
+---@field baseValue Float
+---@field targetValue Float
+---@field numbersAfterDot Int32
+---@field stepValue Float
+---@field suffix String
 inkTextValueProgressAnimationController = {}
 
 ---@param fields? inkTextValueProgressAnimationController
 ---@return inkTextValueProgressAnimationController
-function inkTextValueProgressAnimationController.new(fields) return end
+function inkTextValueProgressAnimationController.new(fields) end
 
 ---@return Float
-function inkTextValueProgressAnimationController:GetBaseValue() return end
+function inkTextValueProgressAnimationController:GetBaseValue() end
 
 ---@return Int32
-function inkTextValueProgressAnimationController:GetNumbersAfterDot() return end
+function inkTextValueProgressAnimationController:GetNumbersAfterDot() end
 
 ---@return Float
-function inkTextValueProgressAnimationController:GetStepValue() return end
+function inkTextValueProgressAnimationController:GetStepValue() end
 
 ---@return Float
-function inkTextValueProgressAnimationController:GetTargetValue() return end
+function inkTextValueProgressAnimationController:GetTargetValue() end
 
 ---@param baseValue Float
 ---@return nil
-function inkTextValueProgressAnimationController:SetBaseValue(baseValue) return end
+function inkTextValueProgressAnimationController:SetBaseValue(baseValue) end
 
 ---@param numbersAfterDot Int32
 ---@return nil
-function inkTextValueProgressAnimationController:SetNumbersAfterDot(numbersAfterDot) return end
+function inkTextValueProgressAnimationController:SetNumbersAfterDot(numbersAfterDot) end
 
 ---@param stepValue Float
 ---@return nil
-function inkTextValueProgressAnimationController:SetStepValue(stepValue) return end
+function inkTextValueProgressAnimationController:SetStepValue(stepValue) end
 
 ---@param targetValue Float
 ---@return nil
-function inkTextValueProgressAnimationController:SetTargetValue(targetValue) return end
+function inkTextValueProgressAnimationController:SetTargetValue(targetValue) end

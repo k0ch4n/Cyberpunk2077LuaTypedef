@@ -1,124 +1,104 @@
 ---@meta
 
 ---@class TerminalInkGameControllerBase: MasterDeviceInkGameControllerBase
----@field protected layoutID TweakDBID
----@field protected currentLayoutLibraryID CName
----@field protected mainLayout inkWidget
----@field protected currentlyActiveDevices gamePersistentID[]
----@field private buttonVisibility Bool
----@field private mainDisplayWidget inkVideoWidget
----@field private terminalTitle String
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field layoutID TweakDBID
+---@field currentLayoutLibraryID CName
+---@field mainLayout inkWidget
+---@field currentlyActiveDevices gamePersistentID[]
+---@field buttonVisibility Bool
+---@field mainDisplayWidget inkVideoWidget
+---@field terminalTitle String
+---@field onGlitchingStateChangedListener redCallbackObject
 TerminalInkGameControllerBase = {}
 
 ---@param fields? TerminalInkGameControllerBase
 ---@return TerminalInkGameControllerBase
-function TerminalInkGameControllerBase.new(fields) return end
+function TerminalInkGameControllerBase.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function TerminalInkGameControllerBase:OnMainLayoutSpawned(widget, userData) return end
+function TerminalInkGameControllerBase:OnMainLayoutSpawned(widget, userData) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function TerminalInkGameControllerBase:OnReturnCallback(e) return end
+function TerminalInkGameControllerBase:OnReturnCallback(e) end
 
----@protected
 ---@return Bool
-function TerminalInkGameControllerBase:OnUninitialize() return end
+function TerminalInkGameControllerBase:OnUninitialize() end
 
 ---@return TerminalMainLayoutWidgetController
-function TerminalInkGameControllerBase:GetMainLayoutController() return end
+function TerminalInkGameControllerBase:GetMainLayoutController() end
 
----@protected
 ---@return InteractiveMasterDevice
-function TerminalInkGameControllerBase:GetOwner() return end
+function TerminalInkGameControllerBase:GetOwner() end
 
 ---@return String
-function TerminalInkGameControllerBase:GetTerminalTitle() return end
+function TerminalInkGameControllerBase:GetTerminalTitle() end
 
----@protected
 ---@return nil
-function TerminalInkGameControllerBase:InitializeMainLayout() return end
+function TerminalInkGameControllerBase:InitializeMainLayout() end
 
----@protected
 ---@return Bool
-function TerminalInkGameControllerBase:IsMainLayoutInitialized() return end
+function TerminalInkGameControllerBase:IsMainLayoutInitialized() end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@param audioEvent CName|string
 ---@return nil
-function TerminalInkGameControllerBase:PlayVideo(videoPath, looped, audioEvent) return end
+function TerminalInkGameControllerBase:PlayVideo(videoPath, looped, audioEvent) end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function TerminalInkGameControllerBase:Refresh(state) return end
+function TerminalInkGameControllerBase:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function TerminalInkGameControllerBase:RegisterBlackboardCallbacks(blackboard) return end
+function TerminalInkGameControllerBase:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@return nil
-function TerminalInkGameControllerBase:RegisterReturnButtonCallback() return end
+function TerminalInkGameControllerBase:RegisterReturnButtonCallback() end
 
----@protected
 ---@return nil
-function TerminalInkGameControllerBase:ResolveBreadcrumbLevel() return end
+function TerminalInkGameControllerBase:ResolveBreadcrumbLevel() end
 
----@private
 ---@return nil
-function TerminalInkGameControllerBase:SetupTerminalTitle() return end
+function TerminalInkGameControllerBase:SetupTerminalTitle() end
 
----@protected
 ---@return nil
-function TerminalInkGameControllerBase:SetupWidgets() return end
+function TerminalInkGameControllerBase:SetupWidgets() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function TerminalInkGameControllerBase:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function TerminalInkGameControllerBase:StopGlitchingScreen() return end
+function TerminalInkGameControllerBase:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function TerminalInkGameControllerBase:StopVideo() return end
+function TerminalInkGameControllerBase:StopGlitchingScreen() end
 
----@protected
 ---@return nil
-function TerminalInkGameControllerBase:TurnOff() return end
+function TerminalInkGameControllerBase:StopVideo() end
 
----@protected
 ---@return nil
-function TerminalInkGameControllerBase:TurnOn() return end
+function TerminalInkGameControllerBase:TurnOff() end
 
----@protected
+---@return nil
+function TerminalInkGameControllerBase:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function TerminalInkGameControllerBase:UnRegisterBlackboardCallbacks(blackboard) return end
+function TerminalInkGameControllerBase:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param data SBreadCrumbUpdateData
 ---@return nil
-function TerminalInkGameControllerBase:UpdateBreadCrumbBar(data) return end
+function TerminalInkGameControllerBase:UpdateBreadCrumbBar(data) end
 
----@protected
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
-function TerminalInkGameControllerBase:UpdateDeviceWidgets(widgetsData) return end
+function TerminalInkGameControllerBase:UpdateDeviceWidgets(widgetsData) end
 
----@protected
 ---@return nil
-function TerminalInkGameControllerBase:UpdateReturnButtonVisibility() return end
+function TerminalInkGameControllerBase:UpdateReturnButtonVisibility() end
 
----@protected
 ---@param widgetsData SThumbnailWidgetPackage[]
 ---@return nil
-function TerminalInkGameControllerBase:UpdateThumbnailWidgets(widgetsData) return end
+function TerminalInkGameControllerBase:UpdateThumbnailWidgets(widgetsData) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiGPSGameController: gameuiHUDGameController
----@field public gpsSettings gamegpsSettings
+---@field gpsSettings gamegpsSettings
 gameuiGPSGameController = {}
 
 ---@param fields? gameuiGPSGameController
 ---@return gameuiGPSGameController
-function gameuiGPSGameController.new(fields) return end
+function gameuiGPSGameController.new(fields) end

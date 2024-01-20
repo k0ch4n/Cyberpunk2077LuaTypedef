@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestChangeSecuritySystemAttitudeGroup: redEvent
----@field public newAttitudeGroup TweakDBID
+---@field newAttitudeGroup TweakDBID
 QuestChangeSecuritySystemAttitudeGroup = {}
 
 ---@param fields? QuestChangeSecuritySystemAttitudeGroup
 ---@return QuestChangeSecuritySystemAttitudeGroup
-function QuestChangeSecuritySystemAttitudeGroup.new(fields) return end
+function QuestChangeSecuritySystemAttitudeGroup.new(fields) end
 
 ---@return String
-function QuestChangeSecuritySystemAttitudeGroup:GetFriendlyDescription() return end
+function QuestChangeSecuritySystemAttitudeGroup:GetFriendlyDescription() end

@@ -5,10 +5,10 @@ gamedataCoverSelectionParameters_Record = {}
 
 ---@param fields? gamedataCoverSelectionParameters_Record
 ---@return gamedataCoverSelectionParameters_Record
-function gamedataCoverSelectionParameters_Record.new(fields) return end
+function gamedataCoverSelectionParameters_Record.new(fields) end
 
 ---@return Bool
-function gamedataCoverSelectionParameters_Record:ScoreOnlyForCombatTarget() return end
+function gamedataCoverSelectionParameters_Record:ScoreOnlyForCombatTarget() end
 
 ---@return Bool
-function gamedataCoverSelectionParameters_Record:VaidateOnlyForCombatTarget() return end
+function gamedataCoverSelectionParameters_Record:VaidateOnlyForCombatTarget() end

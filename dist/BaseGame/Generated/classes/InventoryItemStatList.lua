@@ -1,35 +1,33 @@
 ---@meta
 
 ---@class InventoryItemStatList: inkWidgetLogicController
----@field public libraryItemName CName
----@field private container inkCompoundWidget
----@field private data InventoryTooltipData_StatData[]
----@field private itemsList inkWidget[]
+---@field libraryItemName CName
+---@field container inkCompoundWidget
+---@field data InventoryTooltipData_StatData[]
+---@field itemsList inkWidget[]
 InventoryItemStatList = {}
 
 ---@param fields? InventoryItemStatList
 ---@return InventoryItemStatList
-function InventoryItemStatList.new(fields) return end
+function InventoryItemStatList.new(fields) end
 
----@protected
 ---@return Bool
-function InventoryItemStatList:OnInitialize() return end
+function InventoryItemStatList:OnInitialize() end
 
 ---@param toLeave Int32
 ---@return nil
-function InventoryItemStatList:ClearData(toLeave) return end
+function InventoryItemStatList:ClearData(toLeave) end
 
 ---@param data InventoryTooltipData_StatData[]
 ---@return nil
-function InventoryItemStatList:SetData(data) return end
+function InventoryItemStatList:SetData(data) end
 
----@private
 ---@return nil
-function InventoryItemStatList:UpdateLayout() return end
+function InventoryItemStatList:UpdateLayout() end
 
 ---@param force Bool
 ---@return nil
-function InventoryItemStatList:UpdateVisibility(force) return end
+function InventoryItemStatList:UpdateVisibility(force) end
 
 ---@return nil
-function InventoryItemStatList:UpdateVisibility() return end
+function InventoryItemStatList:UpdateVisibility() end

@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class ForceShootCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIForceShootCommand
----@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
----@field protected activationTimeStamp Float
----@field protected commandDuration Float
----@field protected target gameObject
----@field protected targetID entEntityID
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIForceShootCommand
+---@field threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field activationTimeStamp Float
+---@field commandDuration Float
+---@field target gameObject
+---@field targetID entEntityID
 ForceShootCommandTask = {}
 
 ---@param fields? ForceShootCommandTask
 ---@return ForceShootCommandTask
-function ForceShootCommandTask.new(fields) return end
+function ForceShootCommandTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceShootCommandTask:Activate(context) return end
+function ForceShootCommandTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceShootCommandTask:CancelCommand(context) return end
+function ForceShootCommandTask:CancelCommand(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceShootCommandTask:Deactivate(context) return end
+function ForceShootCommandTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ForceShootCommandTask:Update(context) return end
+function ForceShootCommandTask:Update(context) end

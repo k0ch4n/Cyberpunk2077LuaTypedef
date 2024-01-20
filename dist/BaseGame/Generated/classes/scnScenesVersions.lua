@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnScenesVersions: CResource
----@field public currentVersion Uint32
----@field public scenes scnScenesVersionsSceneChanges[]
+---@field currentVersion Uint32
+---@field scenes scnScenesVersionsSceneChanges[]
 scnScenesVersions = {}
 
 ---@param fields? scnScenesVersions
 ---@return scnScenesVersions
-function scnScenesVersions.new(fields) return end
+function scnScenesVersions.new(fields) end

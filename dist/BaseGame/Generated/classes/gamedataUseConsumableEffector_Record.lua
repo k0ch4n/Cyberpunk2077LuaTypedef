@@ -5,4 +5,4 @@ gamedataUseConsumableEffector_Record = {}
 
 ---@param fields? gamedataUseConsumableEffector_Record
 ---@return gamedataUseConsumableEffector_Record
-function gamedataUseConsumableEffector_Record.new(fields) return end
+function gamedataUseConsumableEffector_Record.new(fields) end

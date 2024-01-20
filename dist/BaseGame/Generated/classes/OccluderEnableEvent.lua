@@ -5,4 +5,4 @@ OccluderEnableEvent = {}
 
 ---@param fields? OccluderEnableEvent
 ---@return OccluderEnableEvent
-function OccluderEnableEvent.new(fields) return end
+function OccluderEnableEvent.new(fields) end

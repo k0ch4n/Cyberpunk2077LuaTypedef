@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class gameJournalPhoneChoiceEntry: gameJournalEntry
----@field public text LocalizationString
----@field public isQuestImportant Bool
----@field public questCondition questIBaseCondition
+---@field text LocalizationString
+---@field isQuestImportant Bool
+---@field questCondition questIBaseCondition
 gameJournalPhoneChoiceEntry = {}
 
 ---@param fields? gameJournalPhoneChoiceEntry
 ---@return gameJournalPhoneChoiceEntry
-function gameJournalPhoneChoiceEntry.new(fields) return end
+function gameJournalPhoneChoiceEntry.new(fields) end
 
 ---@return nil
-function gameJournalPhoneChoiceEntry:GetQuestCondition() return end
+function gameJournalPhoneChoiceEntry:GetQuestCondition() end
 
 ---@return String
-function gameJournalPhoneChoiceEntry:GetText() return end
+function gameJournalPhoneChoiceEntry:GetText() end
 
 ---@return Bool
-function gameJournalPhoneChoiceEntry:IsQuestImportant() return end
+function gameJournalPhoneChoiceEntry:IsQuestImportant() end

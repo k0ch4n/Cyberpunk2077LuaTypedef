@@ -5,4 +5,4 @@ inkBaseShapeWidget = {}
 
 ---@param fields? inkBaseShapeWidget
 ---@return inkBaseShapeWidget
-function inkBaseShapeWidget.new(fields) return end
+function inkBaseShapeWidget.new(fields) end

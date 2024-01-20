@@ -5,4 +5,4 @@ EvaluateEncumbranceEvent = {}
 
 ---@param fields? EvaluateEncumbranceEvent
 ---@return EvaluateEncumbranceEvent
-function EvaluateEncumbranceEvent.new(fields) return end
+function EvaluateEncumbranceEvent.new(fields) end

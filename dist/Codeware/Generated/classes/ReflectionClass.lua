@@ -5,37 +5,37 @@ ReflectionClass = {}
 
 ---@param fields? ReflectionClass
 ---@return ReflectionClass
-function ReflectionClass.new(fields) return end
+function ReflectionClass.new(fields) end
 
 ---@return CName
-function ReflectionClass:GetAlias() return end
+function ReflectionClass:GetAlias() end
 
 ---@param name CName|string
 ---@return ReflectionMemberFunc
-function ReflectionClass:GetFunction(name) return end
+function ReflectionClass:GetFunction(name) end
 
 ---@return ReflectionMemberFunc[]
-function ReflectionClass:GetFunctions() return end
+function ReflectionClass:GetFunctions() end
 
 ---@return ReflectionClass
-function ReflectionClass:GetParent() return end
+function ReflectionClass:GetParent() end
 
 ---@return ReflectionProp[]
-function ReflectionClass:GetProperties() return end
+function ReflectionClass:GetProperties() end
 
 ---@param name CName|string
 ---@return ReflectionProp
-function ReflectionClass:GetProperty(name) return end
+function ReflectionClass:GetProperty(name) end
 
 ---@param name CName|string
 ---@return ReflectionStaticFunc
-function ReflectionClass:GetStaticFunction(name) return end
+function ReflectionClass:GetStaticFunction(name) end
 
 ---@return ReflectionStaticFunc[]
-function ReflectionClass:GetStaticFunctions() return end
+function ReflectionClass:GetStaticFunctions() end
 
 ---@return Bool
-function ReflectionClass:IsAbstract() return end
+function ReflectionClass:IsAbstract() end
 
 ---@return Bool
-function ReflectionClass:IsNative() return end
+function ReflectionClass:IsNative() end

@@ -5,4 +5,4 @@ ObjectMoverComponentPS = {}
 
 ---@param fields? ObjectMoverComponentPS
 ---@return ObjectMoverComponentPS
-function ObjectMoverComponentPS.new(fields) return end
+function ObjectMoverComponentPS.new(fields) end

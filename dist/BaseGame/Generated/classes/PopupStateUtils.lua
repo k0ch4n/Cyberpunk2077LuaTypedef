@@ -5,14 +5,14 @@ PopupStateUtils = {}
 
 ---@param fields? PopupStateUtils
 ---@return PopupStateUtils
-function PopupStateUtils.new(fields) return end
+function PopupStateUtils.new(fields) end
 
 ---@param gameCtrl gameuiWidgetGameController
 ---@param enable Bool
 ---@return nil
-function PopupStateUtils.SetBackgroundBlur(gameCtrl, enable) return end
+function PopupStateUtils.SetBackgroundBlur(gameCtrl, enable) end
 
 ---@param gameCtrl gameuiWidgetGameController
 ---@param blendTime Float
 ---@return nil
-function PopupStateUtils.SetBackgroundBlurBlendTime(gameCtrl, blendTime) return end
+function PopupStateUtils.SetBackgroundBlurBlendTime(gameCtrl, blendTime) end

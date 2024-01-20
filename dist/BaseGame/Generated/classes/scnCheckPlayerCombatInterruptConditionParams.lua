@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnCheckPlayerCombatInterruptConditionParams
----@field public isInCombat Bool
+---@field isInCombat Bool
 scnCheckPlayerCombatInterruptConditionParams = {}
 
 ---@param fields? scnCheckPlayerCombatInterruptConditionParams
 ---@return scnCheckPlayerCombatInterruptConditionParams
-function scnCheckPlayerCombatInterruptConditionParams.new(fields) return end
+function scnCheckPlayerCombatInterruptConditionParams.new(fields) end

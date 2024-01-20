@@ -1,91 +1,75 @@
 ---@meta
 
 ---@class Fan: BasicDistractionDevice
----@field public animationType EAnimationType
----@field public rotateClockwise Bool
----@field public randomizeBladesSpeed Bool
----@field public maxRotationSpeed Float
----@field public timeToMaxRotation Float
----@field private animFeature AnimFeature_RotatingObject
----@field private updateComp UpdateComponent
+---@field animationType EAnimationType
+---@field rotateClockwise Bool
+---@field randomizeBladesSpeed Bool
+---@field maxRotationSpeed Float
+---@field timeToMaxRotation Float
+---@field animFeature AnimFeature_RotatingObject
+---@field updateComp UpdateComponent
 Fan = {}
 
 ---@param fields? Fan
 ---@return Fan
-function Fan.new(fields) return end
+function Fan.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function Fan:OnAreaEnter(evt) return end
+function Fan:OnAreaEnter(evt) end
 
----@protected
 ---@param evt gameDeviceVisibilityChangedEvent
 ---@return Bool
-function Fan:OnDeviceVisible(evt) return end
+function Fan:OnDeviceVisible(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Fan:OnRequestComponents(ri) return end
+function Fan:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Fan:OnTakeControl(ri) return end
+function Fan:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function Fan:CutPower() return end
+function Fan:CutPower() end
 
----@private
 ---@param damageType TweakDBID|string
 ---@return nil
-function Fan:DoAttack(damageType) return end
+function Fan:DoAttack(damageType) end
 
----@private
 ---@return FanController
-function Fan:GetController() return end
+function Fan:GetController() end
 
 ---@return FanControllerPS
-function Fan:GetDevicePS() return end
+function Fan:GetDevicePS() end
 
----@private
 ---@return nil
-function Fan:PLayTransformAnimation() return end
+function Fan:PLayTransformAnimation() end
 
----@private
 ---@return nil
-function Fan:PlayRegularAnimation() return end
+function Fan:PlayRegularAnimation() end
 
 ---@param ps gamePersistentState
 ---@return Bool
-function Fan:ResavePersistentData(ps) return end
+function Fan:ResavePersistentData(ps) end
 
----@protected
 ---@return nil
-function Fan:ResolveGameplayState() return end
+function Fan:ResolveGameplayState() end
 
----@private
 ---@return nil
-function Fan:StartFan() return end
+function Fan:StartFan() end
 
----@private
 ---@return nil
-function Fan:StopFan() return end
+function Fan:StopFan() end
 
----@private
 ---@return nil
-function Fan:StopRegularAnimation() return end
+function Fan:StopRegularAnimation() end
 
----@private
 ---@return nil
-function Fan:StopTransformAnimation() return end
+function Fan:StopTransformAnimation() end
 
----@protected
 ---@return nil
-function Fan:TurnOffDevice() return end
+function Fan:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Fan:TurnOnDevice() return end
+function Fan:TurnOnDevice() end

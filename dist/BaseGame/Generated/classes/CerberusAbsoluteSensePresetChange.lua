@@ -5,9 +5,8 @@ CerberusAbsoluteSensePresetChange = {}
 
 ---@param fields? CerberusAbsoluteSensePresetChange
 ---@return CerberusAbsoluteSensePresetChange
-function CerberusAbsoluteSensePresetChange.new(fields) return end
+function CerberusAbsoluteSensePresetChange.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CerberusAbsoluteSensePresetChange:Activate(context) return end
+function CerberusAbsoluteSensePresetChange:Activate(context) end

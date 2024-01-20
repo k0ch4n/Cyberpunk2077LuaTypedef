@@ -5,4 +5,4 @@ MeleePSMPrereqState = {}
 
 ---@param fields? MeleePSMPrereqState
 ---@return MeleePSMPrereqState
-function MeleePSMPrereqState.new(fields) return end
+function MeleePSMPrereqState.new(fields) end

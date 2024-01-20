@@ -1,80 +1,72 @@
 ---@meta
 
 ---@class PerksMenuAttributeDisplayController: BaseButtonView
----@field protected widgetWrapper inkWidgetReference
----@field protected foregroundWrapper inkWidgetReference
----@field protected attributeName inkTextWidgetReference
----@field protected attributeIcon inkImageWidgetReference
----@field protected attributeLevel inkTextWidgetReference
----@field protected frameHovered inkWidgetReference
----@field protected accent1Hovered inkWidgetReference
----@field protected accent1BGHovered inkWidgetReference
----@field protected accent2Hovered inkWidgetReference
----@field protected accent2BGHovered inkWidgetReference
----@field protected topConnectionContainer inkWidgetReference
----@field protected bottomConnectionContainer inkWidgetReference
----@field protected levelContainer inkWidgetReference
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected attribute PerkMenuAttribute
----@field protected attributeData AttributeData
+---@field widgetWrapper inkWidgetReference
+---@field foregroundWrapper inkWidgetReference
+---@field attributeName inkTextWidgetReference
+---@field attributeIcon inkImageWidgetReference
+---@field attributeLevel inkTextWidgetReference
+---@field frameHovered inkWidgetReference
+---@field accent1Hovered inkWidgetReference
+---@field accent1BGHovered inkWidgetReference
+---@field accent2Hovered inkWidgetReference
+---@field accent2BGHovered inkWidgetReference
+---@field topConnectionContainer inkWidgetReference
+---@field bottomConnectionContainer inkWidgetReference
+---@field levelContainer inkWidgetReference
+---@field dataManager PlayerDevelopmentDataManager
+---@field attribute PerkMenuAttribute
+---@field attributeData AttributeData
 PerksMenuAttributeDisplayController = {}
 
 ---@param fields? PerksMenuAttributeDisplayController
 ---@return PerksMenuAttributeDisplayController
-function PerksMenuAttributeDisplayController.new(fields) return end
+function PerksMenuAttributeDisplayController.new(fields) end
 
----@protected
 ---@return Bool
-function PerksMenuAttributeDisplayController:OnInitialize() return end
+function PerksMenuAttributeDisplayController:OnInitialize() end
 
 ---@return AttributeData
-function PerksMenuAttributeDisplayController:GetAttributeData() return end
+function PerksMenuAttributeDisplayController:GetAttributeData() end
 
 ---@return gamedataStatType
-function PerksMenuAttributeDisplayController:GetStatType() return end
+function PerksMenuAttributeDisplayController:GetStatType() end
 
 ---@param animation CName|string
 ---@return inkanimProxy
-function PerksMenuAttributeDisplayController:PlayAnimation(animation) return end
-
----@protected
----@param value Bool
----@return nil
-function PerksMenuAttributeDisplayController:PlayHoverAnimation(value) return end
-
----@private
----@return nil
-function PerksMenuAttributeDisplayController:ResetHoverOpacity() return end
+function PerksMenuAttributeDisplayController:PlayAnimation(animation) end
 
 ---@param value Bool
 ---@return nil
-function PerksMenuAttributeDisplayController:SetHovered(value) return end
+function PerksMenuAttributeDisplayController:PlayHoverAnimation(value) end
+
+---@return nil
+function PerksMenuAttributeDisplayController:ResetHoverOpacity() end
+
+---@param value Bool
+---@return nil
+function PerksMenuAttributeDisplayController:SetHovered(value) end
 
 ---@param attribute PerkMenuAttribute
 ---@param dataManager PlayerDevelopmentDataManager
 ---@return nil
-function PerksMenuAttributeDisplayController:Setup(attribute, dataManager) return end
+function PerksMenuAttributeDisplayController:Setup(attribute, dataManager) end
 
----@protected
 ---@return nil
-function PerksMenuAttributeDisplayController:Update() return end
+function PerksMenuAttributeDisplayController:Update() end
 
----@protected
 ---@return nil
-function PerksMenuAttributeDisplayController:UpdateConnections() return end
+function PerksMenuAttributeDisplayController:UpdateConnections() end
 
 ---@param attributeData AttributeData
 ---@return nil
-function PerksMenuAttributeDisplayController:UpdateData(attributeData) return end
+function PerksMenuAttributeDisplayController:UpdateData(attributeData) end
 
----@protected
 ---@return nil
-function PerksMenuAttributeDisplayController:UpdateIcon() return end
+function PerksMenuAttributeDisplayController:UpdateIcon() end
 
----@protected
 ---@return nil
-function PerksMenuAttributeDisplayController:UpdateLevel() return end
+function PerksMenuAttributeDisplayController:UpdateLevel() end
 
----@protected
 ---@return nil
-function PerksMenuAttributeDisplayController:UpdateName() return end
+function PerksMenuAttributeDisplayController:UpdateName() end

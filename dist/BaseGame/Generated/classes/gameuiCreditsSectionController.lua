@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiCreditsSectionController: inkWidgetLogicController
----@field public sectionName inkTextWidgetReference
+---@field sectionName inkTextWidgetReference
 gameuiCreditsSectionController = {}
 
 ---@param fields? gameuiCreditsSectionController
 ---@return gameuiCreditsSectionController
-function gameuiCreditsSectionController.new(fields) return end
+function gameuiCreditsSectionController.new(fields) end

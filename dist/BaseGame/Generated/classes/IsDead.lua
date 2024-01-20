@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class IsDead: AIbehaviorconditionScript
----@field public statPoolsSystem gameStatPoolsSystem
----@field public entityID entEntityID
+---@field statPoolsSystem gameStatPoolsSystem
+---@field entityID entEntityID
 IsDead = {}
 
 ---@param fields? IsDead
 ---@return IsDead
-function IsDead.new(fields) return end
+function IsDead.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function IsDead:Activate(context) return end
+function IsDead:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsDead:Check(context) return end
+function IsDead:Check(context) end

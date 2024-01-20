@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CMaterialParameterCube: CMaterialParameter
----@field public texture ITexture
+---@field texture ITexture
 CMaterialParameterCube = {}
 
 ---@param fields? CMaterialParameterCube
 ---@return CMaterialParameterCube
-function CMaterialParameterCube.new(fields) return end
+function CMaterialParameterCube.new(fields) end

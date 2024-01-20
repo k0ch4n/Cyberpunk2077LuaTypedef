@@ -5,14 +5,14 @@ MeleeRecoveryEvents = {}
 
 ---@param fields? MeleeRecoveryEvents
 ---@return MeleeRecoveryEvents
-function MeleeRecoveryEvents.new(fields) return end
+function MeleeRecoveryEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeRecoveryEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeRecoveryEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeRecoveryEvents:OnForcedExit(stateContext, scriptInterface) return end
+function MeleeRecoveryEvents:OnForcedExit(stateContext, scriptInterface) end

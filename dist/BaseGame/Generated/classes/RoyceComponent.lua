@@ -1,86 +1,73 @@
 ---@meta
 
 ---@class RoyceComponent: gameScriptableComponent
----@field private owner NPCPuppet
----@field private owner_id entEntityID
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private npcDeathCollisionComponent entSimpleColliderComponent
----@field private npcHitRepresentationComponent entIComponent
----@field private statPoolSystem gameStatPoolsSystem
----@field private hitData animAnimFeature_HitReactionsData
----@field private weakspotDestroyed Bool
+---@field owner NPCPuppet
+---@field owner_id entEntityID
+---@field npcCollisionComponent entSimpleColliderComponent
+---@field npcDeathCollisionComponent entSimpleColliderComponent
+---@field npcHitRepresentationComponent entIComponent
+---@field statPoolSystem gameStatPoolsSystem
+---@field hitData animAnimFeature_HitReactionsData
+---@field weakspotDestroyed Bool
 RoyceComponent = {}
 
 ---@param fields? RoyceComponent
 ---@return RoyceComponent
-function RoyceComponent.new(fields) return end
+function RoyceComponent.new(fields) end
 
----@protected
 ---@param evt entAudioEvent
 ---@return Bool
-function RoyceComponent:OnAudioEvent(evt) return end
+function RoyceComponent:OnAudioEvent(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function RoyceComponent:OnDeath(evt) return end
+function RoyceComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function RoyceComponent:OnDeathAfterDefeatedRoyce(evt) return end
+function RoyceComponent:OnDeathAfterDefeatedRoyce(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function RoyceComponent:OnDefeated(evt) return end
+function RoyceComponent:OnDefeated(evt) end
 
----@protected
 ---@param enableColliderEvent EnableColliderDelayEvent
 ---@return Bool
-function RoyceComponent:OnEnableColliderDelayEvent(enableColliderEvent) return end
+function RoyceComponent:OnEnableColliderDelayEvent(enableColliderEvent) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function RoyceComponent:OnRequestComponents(ri) return end
+function RoyceComponent:OnRequestComponents(ri) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function RoyceComponent:OnShotOnShield(hitEvent) return end
+function RoyceComponent:OnShotOnShield(hitEvent) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function RoyceComponent:OnStatusEffectApplied(evt) return end
+function RoyceComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function RoyceComponent:OnStatusEffectRemoved(evt) return end
+function RoyceComponent:OnStatusEffectRemoved(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function RoyceComponent:OnTakeControl(ri) return end
-
----@private
----@return nil
-function RoyceComponent:DestroyAllWeakspots() return end
-
----@private
----@return nil
-function RoyceComponent:DestroyMainWeakspots() return end
+function RoyceComponent:OnTakeControl(ri) end
 
 ---@return nil
-function RoyceComponent:OnGameAttach() return end
+function RoyceComponent:DestroyAllWeakspots() end
+
+---@return nil
+function RoyceComponent:DestroyMainWeakspots() end
+
+---@return nil
+function RoyceComponent:OnGameAttach() end
 
 ---@param value Float
 ---@return nil
-function RoyceComponent:SetPercentLifeForPhase(value) return end
+function RoyceComponent:SetPercentLifeForPhase(value) end
 
----@private
 ---@param effectName CName|string
 ---@return nil
-function RoyceComponent:StartEffect(effectName) return end
+function RoyceComponent:StartEffect(effectName) end

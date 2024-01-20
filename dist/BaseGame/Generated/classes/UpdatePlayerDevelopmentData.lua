@@ -5,4 +5,4 @@ UpdatePlayerDevelopmentData = {}
 
 ---@param fields? UpdatePlayerDevelopmentData
 ---@return UpdatePlayerDevelopmentData
-function UpdatePlayerDevelopmentData.new(fields) return end
+function UpdatePlayerDevelopmentData.new(fields) end

@@ -1,53 +1,46 @@
 ---@meta
 
 ---@class PickUpEvents: CarriedObjectEvents
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public noCameraControlApplied Bool
----@field public noMovementApplied Bool
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field noCameraControlApplied Bool
+---@field noMovementApplied Bool
 PickUpEvents = {}
 
 ---@param fields? PickUpEvents
 ---@return PickUpEvents
-function PickUpEvents.new(fields) return end
+function PickUpEvents.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PickUpEvents:IsPickUpFromVehicleTrunk(scriptInterface) return end
+function PickUpEvents:IsPickUpFromVehicleTrunk(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PickUpEvents:OnEnter(stateContext, scriptInterface) return end
+function PickUpEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PickUpEvents:OnExit(stateContext, scriptInterface) return end
+function PickUpEvents:OnExit(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PickUpEvents:OnExitCommon(stateContext, scriptInterface) return end
+function PickUpEvents:OnExitCommon(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PickUpEvents:OnForcedExit(stateContext, scriptInterface) return end
+function PickUpEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PickUpEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function PickUpEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PickUpEvents:RestoreCameraControl(stateContext, scriptInterface) return end
+function PickUpEvents:RestoreCameraControl(stateContext, scriptInterface) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class StartGrenadeThrowQueryEvent: redEvent
----@field public queryParams gameGrenadeThrowQueryParams
+---@field queryParams gameGrenadeThrowQueryParams
 StartGrenadeThrowQueryEvent = {}
 
 ---@param fields? StartGrenadeThrowQueryEvent
 ---@return StartGrenadeThrowQueryEvent
-function StartGrenadeThrowQueryEvent.new(fields) return end
+function StartGrenadeThrowQueryEvent.new(fields) end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class DamageStatListener: gameScriptStatsListener
----@field public weapon gameweaponObject
----@field private updateEvt UpdateDamageChangeEvent
+---@field weapon gameweaponObject
+---@field updateEvt UpdateDamageChangeEvent
 DamageStatListener = {}
 
 ---@param fields? DamageStatListener
 ---@return DamageStatListener
-function DamageStatListener.new(fields) return end
+function DamageStatListener.new(fields) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function DamageStatListener:OnStatChanged(ownerID, statType, diff, total) return end
+function DamageStatListener:OnStatChanged(ownerID, statType, diff, total) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DoorReplicatedState: gameDeviceReplicatedState
----@field public isOpen Bool
----@field public wasImmediateChange Bool
+---@field isOpen Bool
+---@field wasImmediateChange Bool
 DoorReplicatedState = {}
 
 ---@param fields? DoorReplicatedState
 ---@return DoorReplicatedState
-function DoorReplicatedState.new(fields) return end
+function DoorReplicatedState.new(fields) end

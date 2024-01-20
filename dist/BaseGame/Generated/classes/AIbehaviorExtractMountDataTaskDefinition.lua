@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorExtractMountDataTaskDefinition: AIbehaviorTaskDefinition
----@field public mountEventData AIArgumentMapping
----@field public outWorkspotData AIArgumentMapping
----@field public outIsInstant AIArgumentMapping
----@field public outAllowFailsafeTeleport AIArgumentMapping
+---@field mountEventData AIArgumentMapping
+---@field outWorkspotData AIArgumentMapping
+---@field outIsInstant AIArgumentMapping
+---@field outAllowFailsafeTeleport AIArgumentMapping
 AIbehaviorExtractMountDataTaskDefinition = {}
 
 ---@param fields? AIbehaviorExtractMountDataTaskDefinition
 ---@return AIbehaviorExtractMountDataTaskDefinition
-function AIbehaviorExtractMountDataTaskDefinition.new(fields) return end
+function AIbehaviorExtractMountDataTaskDefinition.new(fields) end

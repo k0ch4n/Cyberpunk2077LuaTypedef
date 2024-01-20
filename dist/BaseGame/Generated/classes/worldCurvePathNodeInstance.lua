@@ -5,4 +5,4 @@ worldCurvePathNodeInstance = {}
 
 ---@param fields? worldCurvePathNodeInstance
 ---@return worldCurvePathNodeInstance
-function worldCurvePathNodeInstance.new(fields) return end
+function worldCurvePathNodeInstance.new(fields) end

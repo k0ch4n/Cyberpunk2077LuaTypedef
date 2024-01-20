@@ -5,4 +5,4 @@ gameuiOnCollideCallbackAdvanced = {}
 
 ---@param fields? gameuiOnCollideCallbackAdvanced
 ---@return gameuiOnCollideCallbackAdvanced
-function gameuiOnCollideCallbackAdvanced.new(fields) return end
+function gameuiOnCollideCallbackAdvanced.new(fields) end

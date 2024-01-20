@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questPrereq_ConditionType: questISystemConditionType
----@field public objectRef gameEntityReference
----@field public isObjectPlayer Bool
----@field public prereq gameIPrereq
+---@field objectRef gameEntityReference
+---@field isObjectPlayer Bool
+---@field prereq gameIPrereq
 questPrereq_ConditionType = {}
 
 ---@param fields? questPrereq_ConditionType
 ---@return questPrereq_ConditionType
-function questPrereq_ConditionType.new(fields) return end
+function questPrereq_ConditionType.new(fields) end

@@ -5,4 +5,4 @@ gameEffectObjectProvider_QuerySphere_GrowOverTime = {}
 
 ---@param fields? gameEffectObjectProvider_QuerySphere_GrowOverTime
 ---@return gameEffectObjectProvider_QuerySphere_GrowOverTime
-function gameEffectObjectProvider_QuerySphere_GrowOverTime.new(fields) return end
+function gameEffectObjectProvider_QuerySphere_GrowOverTime.new(fields) end

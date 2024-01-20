@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class ShowUIWarningEffector: gameEffector
----@field public duration Float
----@field public primaryText String
----@field public secondaryText String
----@field public owner gameObject
+---@field duration Float
+---@field primaryText String
+---@field secondaryText String
+---@field owner gameObject
 ShowUIWarningEffector = {}
 
 ---@param fields? ShowUIWarningEffector
 ---@return ShowUIWarningEffector
-function ShowUIWarningEffector.new(fields) return end
+function ShowUIWarningEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ShowUIWarningEffector:ActionOn(owner) return end
+function ShowUIWarningEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ShowUIWarningEffector:Initialize(record, parentRecord) return end
+function ShowUIWarningEffector:Initialize(record, parentRecord) end

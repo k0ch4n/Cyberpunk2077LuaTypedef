@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class CodexListVirtualNestedListController: VirtualNestedListController
----@field private currentDataView CodexListVirtualNestedDataView
+---@field currentDataView CodexListVirtualNestedDataView
 CodexListVirtualNestedListController = {}
 
 ---@param fields? CodexListVirtualNestedListController
 ---@return CodexListVirtualNestedListController
-function CodexListVirtualNestedListController.new(fields) return end
+function CodexListVirtualNestedListController.new(fields) end
 
----@protected
 ---@return VirtualNestedListDataView
-function CodexListVirtualNestedListController:GetDataView() return end
+function CodexListVirtualNestedListController:GetDataView() end
 
 ---@param filterType CodexCategoryType
 ---@return nil
-function CodexListVirtualNestedListController:SetFilter(filterType) return end
+function CodexListVirtualNestedListController:SetFilter(filterType) end

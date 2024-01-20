@@ -1,45 +1,42 @@
 ---@meta
 
 ---@class CodexEntryViewController: inkWidgetLogicController
----@field private titleText inkTextWidgetReference
----@field private descriptionText inkTextWidgetReference
----@field private imageWidget inkImageWidgetReference
----@field private imageWidgetFallback inkWidgetReference
----@field private imageWidgetWrapper inkWidgetReference
----@field private expansionWidget inkWidgetReference
----@field private scrollWidget inkWidgetReference
----@field private contentWrapper inkWidgetReference
----@field private noEntrySelectedWidget inkWidgetReference
----@field private data GenericCodexEntryData
----@field private scroll inkScrollController
+---@field titleText inkTextWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field imageWidget inkImageWidgetReference
+---@field imageWidgetFallback inkWidgetReference
+---@field imageWidgetWrapper inkWidgetReference
+---@field expansionWidget inkWidgetReference
+---@field scrollWidget inkWidgetReference
+---@field contentWrapper inkWidgetReference
+---@field noEntrySelectedWidget inkWidgetReference
+---@field data GenericCodexEntryData
+---@field scroll inkScrollController
 CodexEntryViewController = {}
 
 ---@param fields? CodexEntryViewController
 ---@return CodexEntryViewController
-function CodexEntryViewController.new(fields) return end
+function CodexEntryViewController.new(fields) end
 
----@protected
 ---@param evt inkCallbackData
 ---@return Bool
-function CodexEntryViewController:OnIconCallback(evt) return end
+function CodexEntryViewController:OnIconCallback(evt) end
 
----@protected
 ---@return Bool
-function CodexEntryViewController:OnInitialize() return end
+function CodexEntryViewController:OnInitialize() end
 
 ---@param inputDevice inputESimplifiedInputDevice
 ---@param inputScheme inputEInputScheme
 ---@return nil
-function CodexEntryViewController:Refresh(inputDevice, inputScheme) return end
+function CodexEntryViewController:Refresh(inputDevice, inputScheme) end
 
 ---@param data GenericCodexEntryData
 ---@param inputDevice inputESimplifiedInputDevice
 ---@param inputScheme inputEInputScheme
 ---@return nil
-function CodexEntryViewController:ShowEntry(data, inputDevice, inputScheme) return end
+function CodexEntryViewController:ShowEntry(data, inputDevice, inputScheme) end
 
----@private
 ---@param inputDevice inputESimplifiedInputDevice
 ---@param inputScheme inputEInputScheme
 ---@return nil
-function CodexEntryViewController:UpdateDescription(inputDevice, inputScheme) return end
+function CodexEntryViewController:UpdateDescription(inputDevice, inputScheme) end

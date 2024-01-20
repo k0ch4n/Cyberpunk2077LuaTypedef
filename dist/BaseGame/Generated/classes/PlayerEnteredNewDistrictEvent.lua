@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PlayerEnteredNewDistrictEvent: redEvent
----@field public gunshotRange Float
----@field public explosionRange Float
+---@field gunshotRange Float
+---@field explosionRange Float
 PlayerEnteredNewDistrictEvent = {}
 
 ---@param fields? PlayerEnteredNewDistrictEvent
 ---@return PlayerEnteredNewDistrictEvent
-function PlayerEnteredNewDistrictEvent.new(fields) return end
+function PlayerEnteredNewDistrictEvent.new(fields) end

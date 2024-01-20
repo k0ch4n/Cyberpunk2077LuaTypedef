@@ -5,9 +5,9 @@ inkBorderWidgetReference = {}
 
 ---@param fields? inkBorderWidgetReference
 ---@return inkBorderWidgetReference
-function inkBorderWidgetReference.new(fields) return end
+function inkBorderWidgetReference.new(fields) end
 
 ---@param self inkBorderWidgetReference
 ---@param thickness Float
 ---@return nil
-function inkBorderWidgetReference.SetThickness(self, thickness) return end
+function inkBorderWidgetReference.SetThickness(self, thickness) end

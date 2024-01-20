@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkTypographyResource: CResource
----@field public languages inkLanguageDefinition[]
+---@field languages inkLanguageDefinition[]
 inkTypographyResource = {}
 
 ---@param fields? inkTypographyResource
 ---@return inkTypographyResource
-function inkTypographyResource.new(fields) return end
+function inkTypographyResource.new(fields) end

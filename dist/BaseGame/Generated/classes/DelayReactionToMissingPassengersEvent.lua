@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DelayReactionToMissingPassengersEvent: redEvent
----@field public stimEvent senseStimuliEvent
----@field public delayedAlready Bool
+---@field stimEvent senseStimuliEvent
+---@field delayedAlready Bool
 DelayReactionToMissingPassengersEvent = {}
 
 ---@param fields? DelayReactionToMissingPassengersEvent
 ---@return DelayReactionToMissingPassengersEvent
-function DelayReactionToMissingPassengersEvent.new(fields) return end
+function DelayReactionToMissingPassengersEvent.new(fields) end

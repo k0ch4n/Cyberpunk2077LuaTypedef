@@ -5,8 +5,8 @@ SelectedForMultiplayerChoiceDialog = {}
 
 ---@param fields? SelectedForMultiplayerChoiceDialog
 ---@return SelectedForMultiplayerChoiceDialog
-function SelectedForMultiplayerChoiceDialog.new(fields) return end
+function SelectedForMultiplayerChoiceDialog.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function SelectedForMultiplayerChoiceDialog:IsFulfilled(context) return end
+function SelectedForMultiplayerChoiceDialog:IsFulfilled(context) end

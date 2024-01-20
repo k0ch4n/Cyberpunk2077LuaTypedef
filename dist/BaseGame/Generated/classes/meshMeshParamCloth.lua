@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class meshMeshParamCloth: meshMeshParameter
----@field public lodChunkIndices Uint16[][]
----@field public chunks meshPhxClothChunkData[]
----@field public drivers Uint16[][]
----@field public capsules physicsclothClothCapsuleExportData
+---@field lodChunkIndices Uint16[][]
+---@field chunks meshPhxClothChunkData[]
+---@field drivers Uint16[][]
+---@field capsules physicsclothClothCapsuleExportData
 meshMeshParamCloth = {}
 
 ---@param fields? meshMeshParamCloth
 ---@return meshMeshParamCloth
-function meshMeshParamCloth.new(fields) return end
+function meshMeshParamCloth.new(fields) end

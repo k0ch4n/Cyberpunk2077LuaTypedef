@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationBodyPartsController: gameuiICharacterCustomizationBodyPartsController
----@field public isHiddenInFpp Bool
+---@field isHiddenInFpp Bool
 gameuiCharacterCustomizationBodyPartsController = {}

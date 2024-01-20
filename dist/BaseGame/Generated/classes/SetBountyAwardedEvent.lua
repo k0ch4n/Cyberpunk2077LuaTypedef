@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetBountyAwardedEvent: redEvent
----@field public awarded Bool
+---@field awarded Bool
 SetBountyAwardedEvent = {}
 
 ---@param fields? SetBountyAwardedEvent
 ---@return SetBountyAwardedEvent
-function SetBountyAwardedEvent.new(fields) return end
+function SetBountyAwardedEvent.new(fields) end

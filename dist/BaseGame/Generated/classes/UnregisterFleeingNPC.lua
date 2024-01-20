@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UnregisterFleeingNPC: gameScriptableSystemRequest
----@field public runner entEntity
+---@field runner entEntity
 UnregisterFleeingNPC = {}
 
 ---@param fields? UnregisterFleeingNPC
 ---@return UnregisterFleeingNPC
-function UnregisterFleeingNPC.new(fields) return end
+function UnregisterFleeingNPC.new(fields) end

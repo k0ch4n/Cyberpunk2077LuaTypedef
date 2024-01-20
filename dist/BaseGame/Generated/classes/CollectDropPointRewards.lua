@@ -5,7 +5,7 @@ CollectDropPointRewards = {}
 
 ---@param fields? CollectDropPointRewards
 ---@return CollectDropPointRewards
-function CollectDropPointRewards.new(fields) return end
+function CollectDropPointRewards.new(fields) end
 
 ---@return nil
-function CollectDropPointRewards:SetProperties() return end
+function CollectDropPointRewards:SetProperties() end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AIbehaviorMoveAlongTrafficPathActionNodeDefinition: AIbehaviorActionTreeNodeDefinition
----@field public joinTrafficSettings AIArgumentMapping
----@field public ignoreTrafficSpots AIArgumentMapping
----@field public useCrowdAnimationGraph AIArgumentMapping
----@field public workspotData AIArgumentMapping
----@field public workspotExitPositionWS AIArgumentMapping
----@field public workspotReturnPositionVector AIArgumentMapping
----@field public workspotExitTangent AIArgumentMapping
----@field public trafficLaneReturnTangent AIArgumentMapping
----@field public trafficLaneExitTangent AIArgumentMapping
+---@field joinTrafficSettings AIArgumentMapping
+---@field ignoreTrafficSpots AIArgumentMapping
+---@field useCrowdAnimationGraph AIArgumentMapping
+---@field workspotData AIArgumentMapping
+---@field workspotExitPositionWS AIArgumentMapping
+---@field workspotReturnPositionVector AIArgumentMapping
+---@field workspotExitTangent AIArgumentMapping
+---@field trafficLaneReturnTangent AIArgumentMapping
+---@field trafficLaneExitTangent AIArgumentMapping
 AIbehaviorMoveAlongTrafficPathActionNodeDefinition = {}
 
 ---@param fields? AIbehaviorMoveAlongTrafficPathActionNodeDefinition
 ---@return AIbehaviorMoveAlongTrafficPathActionNodeDefinition
-function AIbehaviorMoveAlongTrafficPathActionNodeDefinition.new(fields) return end
+function AIbehaviorMoveAlongTrafficPathActionNodeDefinition.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animStackTransformsExtender_JsonProperties: ISerializable
----@field public entries animStackTransformsExtender_JsonEntry[]
+---@field entries animStackTransformsExtender_JsonEntry[]
 animStackTransformsExtender_JsonProperties = {}
 
 ---@param fields? animStackTransformsExtender_JsonProperties
 ---@return animStackTransformsExtender_JsonProperties
-function animStackTransformsExtender_JsonProperties.new(fields) return end
+function animStackTransformsExtender_JsonProperties.new(fields) end

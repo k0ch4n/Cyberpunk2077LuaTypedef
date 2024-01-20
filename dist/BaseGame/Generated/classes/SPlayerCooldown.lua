@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SPlayerCooldown
----@field public effectID TweakDBID
----@field public instigatorID TweakDBID
+---@field effectID TweakDBID
+---@field instigatorID TweakDBID
 SPlayerCooldown = {}
 
 ---@param fields? SPlayerCooldown
 ---@return SPlayerCooldown
-function SPlayerCooldown.new(fields) return end
+function SPlayerCooldown.new(fields) end

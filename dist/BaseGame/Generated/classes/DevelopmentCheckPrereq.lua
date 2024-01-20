@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class DevelopmentCheckPrereq: gameIScriptablePrereq
----@field protected requiredLevel Float
+---@field requiredLevel Float
 DevelopmentCheckPrereq = {}
 
 ---@param fields? DevelopmentCheckPrereq
 ---@return DevelopmentCheckPrereq
-function DevelopmentCheckPrereq.new(fields) return end
+function DevelopmentCheckPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function DevelopmentCheckPrereq:Initialize(recordID) return end
+function DevelopmentCheckPrereq:Initialize(recordID) end

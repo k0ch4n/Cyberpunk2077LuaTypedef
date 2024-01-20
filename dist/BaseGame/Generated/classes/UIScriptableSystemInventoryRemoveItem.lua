@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemInventoryRemoveItem: gameScriptableSystemRequest
----@field public itemID gameItemID
+---@field itemID gameItemID
 UIScriptableSystemInventoryRemoveItem = {}
 
 ---@param fields? UIScriptableSystemInventoryRemoveItem
 ---@return UIScriptableSystemInventoryRemoveItem
-function UIScriptableSystemInventoryRemoveItem.new(fields) return end
+function UIScriptableSystemInventoryRemoveItem.new(fields) end

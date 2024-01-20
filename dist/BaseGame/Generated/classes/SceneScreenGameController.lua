@@ -1,36 +1,30 @@
 ---@meta
 
 ---@class SceneScreenGameController: gameuiWidgetGameController
----@field private onQuestAnimChangeListener redCallbackObject
+---@field onQuestAnimChangeListener redCallbackObject
 SceneScreenGameController = {}
 
 ---@param fields? SceneScreenGameController
 ---@return SceneScreenGameController
-function SceneScreenGameController.new(fields) return end
+function SceneScreenGameController.new(fields) end
 
----@protected
 ---@return Bool
-function SceneScreenGameController:OnInitialize() return end
+function SceneScreenGameController:OnInitialize() end
 
----@protected
 ---@param value CName|string
 ---@return Bool
-function SceneScreenGameController:OnQuestAnimChange(value) return end
+function SceneScreenGameController:OnQuestAnimChange(value) end
 
----@protected
 ---@return gameIBlackboard
-function SceneScreenGameController:GetBlackboard() return end
+function SceneScreenGameController:GetBlackboard() end
 
----@protected
 ---@return SceneScreen
-function SceneScreenGameController:GetOwner() return end
+function SceneScreenGameController:GetOwner() end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function SceneScreenGameController:RegisterBlackboardCallbacks(blackboard) return end
+function SceneScreenGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@private
 ---@param blackboard gameIBlackboard
 ---@return nil
-function SceneScreenGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function SceneScreenGameController:UnRegisterBlackboardCallbacks(blackboard) end

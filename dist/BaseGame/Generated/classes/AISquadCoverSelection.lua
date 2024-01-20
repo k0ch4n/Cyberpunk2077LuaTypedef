@@ -5,4 +5,4 @@ AISquadCoverSelection = {}
 
 ---@param fields? AISquadCoverSelection
 ---@return AISquadCoverSelection
-function AISquadCoverSelection.new(fields) return end
+function AISquadCoverSelection.new(fields) end

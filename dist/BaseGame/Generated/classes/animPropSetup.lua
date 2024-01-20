@@ -5,4 +5,4 @@ animPropSetup = {}
 
 ---@param fields? animPropSetup
 ---@return animPropSetup
-function animPropSetup.new(fields) return end
+function animPropSetup.new(fields) end

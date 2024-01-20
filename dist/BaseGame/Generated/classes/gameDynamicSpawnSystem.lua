@@ -5,32 +5,29 @@ gameDynamicSpawnSystem = {}
 
 ---@param fields? gameDynamicSpawnSystem
 ---@return gameDynamicSpawnSystem
-function gameDynamicSpawnSystem.new(fields) return end
+function gameDynamicSpawnSystem.new(fields) end
 
 ---@return Int32
-function gameDynamicSpawnSystem:GetNumberOfSpawnedUnits() return end
+function gameDynamicSpawnSystem:GetNumberOfSpawnedUnits() end
 
 ---@param id entEntityID
 ---@return Bool
-function gameDynamicSpawnSystem:IsEntityRegistered(id) return end
+function gameDynamicSpawnSystem:IsEntityRegistered(id) end
 
 ---@param position Vector3
 ---@return Bool
-function gameDynamicSpawnSystem:IsInUnmountingRange(position) return end
+function gameDynamicSpawnSystem:IsInUnmountingRange(position) end
 
----@private
 ---@param owner gameObject
 ---@param target gameObject
 ---@param desiredAttitude EAIAttitude
 ---@return nil
-function gameDynamicSpawnSystem:ChangeAttitude(owner, target, desiredAttitude) return end
+function gameDynamicSpawnSystem:ChangeAttitude(owner, target, desiredAttitude) end
 
----@protected
 ---@param spawnedObject gameObject
 ---@return nil
-function gameDynamicSpawnSystem:SpawnCallback(spawnedObject) return end
+function gameDynamicSpawnSystem:SpawnCallback(spawnedObject) end
 
----@protected
 ---@param requestResult gameDSSSpawnRequestResult
 ---@return nil
-function gameDynamicSpawnSystem:SpawnRequestFinished(requestResult) return end
+function gameDynamicSpawnSystem:SpawnRequestFinished(requestResult) end

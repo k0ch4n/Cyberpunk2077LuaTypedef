@@ -5,4 +5,4 @@ workSlowExitCommandData = {}
 
 ---@param fields? workSlowExitCommandData
 ---@return workSlowExitCommandData
-function workSlowExitCommandData.new(fields) return end
+function workSlowExitCommandData.new(fields) end

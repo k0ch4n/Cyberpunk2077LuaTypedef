@@ -5,23 +5,23 @@ audiouiAudioHandler = {}
 
 ---@param fields? audiouiAudioHandler
 ---@return audiouiAudioHandler
-function audiouiAudioHandler.new(fields) return end
+function audiouiAudioHandler.new(fields) end
 
 ---@return nil
-function audiouiAudioHandler:Initialize() return end
+function audiouiAudioHandler:Initialize() end
 
 ---@param widgetName CName|string
 ---@param eventName CName|string
 ---@param actionKey? CName|string
 ---@return nil
-function audiouiAudioHandler:PlaySound(widgetName, eventName, actionKey) return end
+function audiouiAudioHandler:PlaySound(widgetName, eventName, actionKey) end
 
 ---@param parameterName CName|string
 ---@param parameterValue Float
 ---@return nil
-function audiouiAudioHandler:SetParameter(parameterName, parameterValue) return end
+function audiouiAudioHandler:SetParameter(parameterName, parameterValue) end
 
 ---@param switchName CName|string
 ---@param switchValue Float
 ---@return nil
-function audiouiAudioHandler:SetSwitch(switchName, switchValue) return end
+function audiouiAudioHandler:SetSwitch(switchName, switchValue) end

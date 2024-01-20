@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class EntityNoticedPlayerPrereqState: gamePrereqState
----@field public owner gameObject
----@field public listenerInt redCallbackObject
+---@field owner gameObject
+---@field listenerInt redCallbackObject
 EntityNoticedPlayerPrereqState = {}
 
 ---@param fields? EntityNoticedPlayerPrereqState
 ---@return EntityNoticedPlayerPrereqState
-function EntityNoticedPlayerPrereqState.new(fields) return end
+function EntityNoticedPlayerPrereqState.new(fields) end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function EntityNoticedPlayerPrereqState:OnStateUpdate(value) return end
+function EntityNoticedPlayerPrereqState:OnStateUpdate(value) end

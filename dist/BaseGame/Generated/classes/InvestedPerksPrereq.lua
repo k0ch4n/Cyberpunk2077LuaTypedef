@@ -1,25 +1,24 @@
 ---@meta
 
 ---@class InvestedPerksPrereq: gameIScriptablePrereq
----@field public amount Int32
----@field public proficiency gamedataProficiencyType
+---@field amount Int32
+---@field proficiency gamedataProficiencyType
 InvestedPerksPrereq = {}
 
 ---@param fields? InvestedPerksPrereq
 ---@return InvestedPerksPrereq
-function InvestedPerksPrereq.new(fields) return end
+function InvestedPerksPrereq.new(fields) end
 
 ---@return gamedataProficiencyType
-function InvestedPerksPrereq:GetProficiencyType() return end
+function InvestedPerksPrereq:GetProficiencyType() end
 
 ---@return Int32
-function InvestedPerksPrereq:GetRequiredAmount() return end
+function InvestedPerksPrereq:GetRequiredAmount() end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function InvestedPerksPrereq:Initialize(recordID) return end
+function InvestedPerksPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function InvestedPerksPrereq:IsFulfilled(context) return end
+function InvestedPerksPrereq:IsFulfilled(context) end

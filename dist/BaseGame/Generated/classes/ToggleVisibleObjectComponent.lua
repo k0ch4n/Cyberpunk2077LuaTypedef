@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class ToggleVisibleObjectComponent: StatusEffectTasks
----@field public componentTargetState Bool
----@field public visibleObjectDescription CName
+---@field componentTargetState Bool
+---@field visibleObjectDescription CName
 ToggleVisibleObjectComponent = {}
 
 ---@param fields? ToggleVisibleObjectComponent
 ---@return ToggleVisibleObjectComponent
-function ToggleVisibleObjectComponent.new(fields) return end
+function ToggleVisibleObjectComponent.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ToggleVisibleObjectComponent:Activate(context) return end
+function ToggleVisibleObjectComponent:Activate(context) end

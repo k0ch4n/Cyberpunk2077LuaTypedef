@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameNetAIState
----@field public value Int32
----@field public prevValue Int32
----@field public time Float
+---@field value Int32
+---@field prevValue Int32
+---@field time Float
 gameNetAIState = {}
 
 ---@param fields? gameNetAIState
 ---@return gameNetAIState
-function gameNetAIState.new(fields) return end
+function gameNetAIState.new(fields) end

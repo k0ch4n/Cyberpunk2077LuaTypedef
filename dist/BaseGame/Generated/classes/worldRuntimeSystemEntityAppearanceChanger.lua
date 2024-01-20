@@ -5,4 +5,4 @@ worldRuntimeSystemEntityAppearanceChanger = {}
 
 ---@param fields? worldRuntimeSystemEntityAppearanceChanger
 ---@return worldRuntimeSystemEntityAppearanceChanger
-function worldRuntimeSystemEntityAppearanceChanger.new(fields) return end
+function worldRuntimeSystemEntityAppearanceChanger.new(fields) end

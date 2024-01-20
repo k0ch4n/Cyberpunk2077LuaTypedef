@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorPuppetRefToGameObjectTaskDefinition: AIbehaviorTaskDefinition
----@field public puppetRef AIArgumentMapping
----@field public result AIArgumentMapping
+---@field puppetRef AIArgumentMapping
+---@field result AIArgumentMapping
 AIbehaviorPuppetRefToGameObjectTaskDefinition = {}
 
 ---@param fields? AIbehaviorPuppetRefToGameObjectTaskDefinition
 ---@return AIbehaviorPuppetRefToGameObjectTaskDefinition
-function AIbehaviorPuppetRefToGameObjectTaskDefinition.new(fields) return end
+function AIbehaviorPuppetRefToGameObjectTaskDefinition.new(fields) end

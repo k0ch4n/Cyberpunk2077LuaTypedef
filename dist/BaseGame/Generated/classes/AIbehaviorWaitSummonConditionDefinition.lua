@@ -5,4 +5,4 @@ AIbehaviorWaitSummonConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitSummonConditionDefinition
 ---@return AIbehaviorWaitSummonConditionDefinition
-function AIbehaviorWaitSummonConditionDefinition.new(fields) return end
+function AIbehaviorWaitSummonConditionDefinition.new(fields) end

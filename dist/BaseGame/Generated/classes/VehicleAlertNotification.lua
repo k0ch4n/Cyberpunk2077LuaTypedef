@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class VehicleAlertNotification: GenericNotificationController
----@field private animation inkanimProxy
----@field private zone_data VehicleAlertNotificationViewData
----@field private ZoneLabelText inkTextWidgetReference
+---@field animation inkanimProxy
+---@field zone_data VehicleAlertNotificationViewData
+---@field ZoneLabelText inkTextWidgetReference
 VehicleAlertNotification = {}
 
 ---@param fields? VehicleAlertNotification
 ---@return VehicleAlertNotification
-function VehicleAlertNotification.new(fields) return end
+function VehicleAlertNotification.new(fields) end
 
 ---@param notificationData gameuiGenericNotificationViewData
 ---@return nil
-function VehicleAlertNotification:SetNotificationData(notificationData) return end
+function VehicleAlertNotification:SetNotificationData(notificationData) end

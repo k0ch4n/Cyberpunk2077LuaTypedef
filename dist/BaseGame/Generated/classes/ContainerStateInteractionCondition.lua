@@ -5,9 +5,9 @@ ContainerStateInteractionCondition = {}
 
 ---@param fields? ContainerStateInteractionCondition
 ---@return ContainerStateInteractionCondition
-function ContainerStateInteractionCondition.new(fields) return end
+function ContainerStateInteractionCondition.new(fields) end
 
 ---@param activatorObject gameObject
 ---@param hotSpotObject gameObject
 ---@return Bool
-function ContainerStateInteractionCondition:Test(activatorObject, hotSpotObject) return end
+function ContainerStateInteractionCondition:Test(activatorObject, hotSpotObject) end

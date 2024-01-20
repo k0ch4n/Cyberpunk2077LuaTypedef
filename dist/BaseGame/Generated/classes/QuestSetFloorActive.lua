@@ -5,8 +5,8 @@ QuestSetFloorActive = {}
 
 ---@param fields? QuestSetFloorActive
 ---@return QuestSetFloorActive
-function QuestSetFloorActive.new(fields) return end
+function QuestSetFloorActive.new(fields) end
 
 ---@param floor Int32
 ---@return nil
-function QuestSetFloorActive:SetProperties(floor) return end
+function QuestSetFloorActive:SetProperties(floor) end

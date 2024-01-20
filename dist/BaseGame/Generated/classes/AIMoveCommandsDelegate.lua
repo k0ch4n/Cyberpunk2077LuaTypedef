@@ -1,176 +1,170 @@
 ---@meta
 
 ---@class AIMoveCommandsDelegate: AIbehaviorScriptBehaviorDelegate
----@field protected animMoveOnSplineCommand AIAnimMoveOnSplineCommand
----@field private spline NodeRef
----@field private useStart Bool
----@field private useStop Bool
----@field private reverse Bool
----@field private controllerSetupName CName
----@field private blendTime Float
----@field private globalInBlendTime Float
----@field private globalOutBlendTime Float
----@field private turnCharacterToMatchVelocity Bool
----@field private customStartAnimationName CName
----@field private customMainAnimationName CName
----@field private customStopAnimationName CName
----@field private startSnapToTerrain Bool
----@field private mainSnapToTerrain Bool
----@field private stopSnapToTerrain Bool
----@field private startSnapToTerrainBlendTime Float
----@field private stopSnapToTerrainBlendTime Float
----@field private moveOnSplineCommand AIMoveOnSplineCommand
----@field private strafingTarget gameObject
----@field private movementType moveMovementType
----@field private ignoreNavigation Bool
----@field private startFromClosestPoint Bool
----@field private splineRecalculation Bool
----@field private disableFootIK Bool
----@field private useCombatState Bool
----@field private useAlertedState Bool
----@field private noWaitToEndDistance Float
----@field private noWaitToEndCompanionDistance Float
----@field private lowestCompanionDistanceToEnd Float
----@field private previousCompanionDistanceToEnd Float
----@field private maxCompanionDistanceOnSpline Float
----@field private companion gameObject
----@field private ignoreLineOfSightCheck Bool
----@field private shootingTarget gameObject
----@field private minSearchAngle Float
----@field private maxSearchAngle Float
----@field private desiredDistance Float
----@field private deadZoneRadius Float
----@field private shouldBeInFrontOfCompanion Bool
----@field private useMatchForSpeedForPlayer Bool
----@field private lookAtTarget gameObject
----@field private distanceToCompanion Float
----@field private splineEndPoint Vector4
----@field private hasSplineEndPoint Bool
----@field private playerCompanion PlayerPuppet
----@field private firstWaitingDemandTimestamp Float
----@field private useOffMeshLinkReservation Bool
----@field private allowCrowdOnPath Bool
----@field private sprint Bool
----@field private run Bool
----@field private waitForCompanion Bool
----@field private followTargetCommand AIFollowTargetCommand
----@field private stopWhenDestinationReached Bool
----@field private teleportToTarget Bool
----@field private shouldTeleportNow Bool
----@field private teleportDestination Vector4
----@field private matchTargetSpeed Bool
+---@field animMoveOnSplineCommand AIAnimMoveOnSplineCommand
+---@field spline NodeRef
+---@field useStart Bool
+---@field useStop Bool
+---@field reverse Bool
+---@field controllerSetupName CName
+---@field blendTime Float
+---@field globalInBlendTime Float
+---@field globalOutBlendTime Float
+---@field turnCharacterToMatchVelocity Bool
+---@field customStartAnimationName CName
+---@field customMainAnimationName CName
+---@field customStopAnimationName CName
+---@field startSnapToTerrain Bool
+---@field mainSnapToTerrain Bool
+---@field stopSnapToTerrain Bool
+---@field startSnapToTerrainBlendTime Float
+---@field stopSnapToTerrainBlendTime Float
+---@field moveOnSplineCommand AIMoveOnSplineCommand
+---@field strafingTarget gameObject
+---@field movementType moveMovementType
+---@field ignoreNavigation Bool
+---@field startFromClosestPoint Bool
+---@field splineRecalculation Bool
+---@field disableFootIK Bool
+---@field useCombatState Bool
+---@field useAlertedState Bool
+---@field noWaitToEndDistance Float
+---@field noWaitToEndCompanionDistance Float
+---@field lowestCompanionDistanceToEnd Float
+---@field previousCompanionDistanceToEnd Float
+---@field maxCompanionDistanceOnSpline Float
+---@field companion gameObject
+---@field ignoreLineOfSightCheck Bool
+---@field shootingTarget gameObject
+---@field minSearchAngle Float
+---@field maxSearchAngle Float
+---@field desiredDistance Float
+---@field deadZoneRadius Float
+---@field shouldBeInFrontOfCompanion Bool
+---@field useMatchForSpeedForPlayer Bool
+---@field lookAtTarget gameObject
+---@field distanceToCompanion Float
+---@field splineEndPoint Vector4
+---@field hasSplineEndPoint Bool
+---@field playerCompanion PlayerPuppet
+---@field firstWaitingDemandTimestamp Float
+---@field useOffMeshLinkReservation Bool
+---@field allowCrowdOnPath Bool
+---@field sprint Bool
+---@field run Bool
+---@field waitForCompanion Bool
+---@field followTargetCommand AIFollowTargetCommand
+---@field stopWhenDestinationReached Bool
+---@field teleportToTarget Bool
+---@field shouldTeleportNow Bool
+---@field teleportDestination Vector4
+---@field matchTargetSpeed Bool
 AIMoveCommandsDelegate = {}
 
 ---@param fields? AIMoveCommandsDelegate
 ---@return AIMoveCommandsDelegate
-function AIMoveCommandsDelegate.new(fields) return end
+function AIMoveCommandsDelegate.new(fields) end
 
 ---@return Bool
-function AIMoveCommandsDelegate:DoEndAnimMoveOnSpline() return end
+function AIMoveCommandsDelegate:DoEndAnimMoveOnSpline() end
 
 ---@return Bool
-function AIMoveCommandsDelegate:DoEndMoveOnSpline() return end
+function AIMoveCommandsDelegate:DoEndMoveOnSpline() end
 
 ---@return Bool
-function AIMoveCommandsDelegate:DoEndTeleportToCompanionOnSpline() return end
+function AIMoveCommandsDelegate:DoEndTeleportToCompanionOnSpline() end
 
 ---@return Bool
-function AIMoveCommandsDelegate:DoEndWaitForCompanion() return end
+function AIMoveCommandsDelegate:DoEndWaitForCompanion() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:DoFindClosestPointOnSpline(context) return end
+function AIMoveCommandsDelegate:DoFindClosestPointOnSpline(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:DoFindEndOfTheSpline(context) return end
+function AIMoveCommandsDelegate:DoFindEndOfTheSpline(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:DoFindStartOfTheSpline(context) return end
+function AIMoveCommandsDelegate:DoFindStartOfTheSpline(context) end
 
 ---@return Bool
-function AIMoveCommandsDelegate:DoStartAnimMoveOnSpline() return end
+function AIMoveCommandsDelegate:DoStartAnimMoveOnSpline() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:DoStartFollowTarget(context) return end
+function AIMoveCommandsDelegate:DoStartFollowTarget(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:DoStartMoveOnSpline(context) return end
+function AIMoveCommandsDelegate:DoStartMoveOnSpline(context) end
 
 ---@return Bool
-function AIMoveCommandsDelegate:DoStartWaitForCompanion() return end
+function AIMoveCommandsDelegate:DoStartWaitForCompanion() end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:DoUpdateDistanceToCompanionOnSpline(context) return end
+function AIMoveCommandsDelegate:DoUpdateDistanceToCompanionOnSpline(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIMoveCommandsDelegate:DoUpdateSpeed(context) return end
+function AIMoveCommandsDelegate:DoUpdateSpeed(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:DoUpdateWaitForCompanionOnSpline(context) return end
+function AIMoveCommandsDelegate:DoUpdateWaitForCompanionOnSpline(context) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@param distanceToDestination Float
 ---@param companionDistance Float
 ---@return Bool
-function AIMoveCommandsDelegate:DontWaitToCompanionNearEnd(owner, distanceToDestination, companionDistance) return end
+function AIMoveCommandsDelegate:DontWaitToCompanionNearEnd(owner, distanceToDestination, companionDistance) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:GetIsMoveToSplineNeeded(context) return end
+function AIMoveCommandsDelegate:GetIsMoveToSplineNeeded(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:GetRotateEntity(context) return end
+function AIMoveCommandsDelegate:GetRotateEntity(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function AIMoveCommandsDelegate:GetRunSpeedDistance(context) return end
+function AIMoveCommandsDelegate:GetRunSpeedDistance(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function AIMoveCommandsDelegate:GetSprintSpeedDistance(context) return end
+function AIMoveCommandsDelegate:GetSprintSpeedDistance(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Float
-function AIMoveCommandsDelegate:GetTeleportDistance(context) return end
+function AIMoveCommandsDelegate:GetTeleportDistance(context) end
 
----@private
 ---@param target ScriptedPuppet
 ---@param tolerance Float
 ---@return Bool
-function AIMoveCommandsDelegate:IsOnTheSpline(target, tolerance) return end
+function AIMoveCommandsDelegate:IsOnTheSpline(target, tolerance) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param success Bool
 ---@param isCompanionProgressing Bool
 ---@return nil
-function AIMoveCommandsDelegate:OnWalkingOnSpline(context, success, isCompanionProgressing) return end
+function AIMoveCommandsDelegate:OnWalkingOnSpline(context, success, isCompanionProgressing) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:SelectFollowTeleportTarget(context) return end
+function AIMoveCommandsDelegate:SelectFollowTeleportTarget(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:SelectSplineTeleportTarget(context) return end
+function AIMoveCommandsDelegate:SelectSplineTeleportTarget(context) end
 
----@private
 ---@param owner ScriptedPuppet
 ---@param value Bool
 ---@return nil
-function AIMoveCommandsDelegate:SetWaitForCompanion(owner, value) return end
+function AIMoveCommandsDelegate:SetWaitForCompanion(owner, value) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIMoveCommandsDelegate:ShouldBeWaitingDelayed(context) return end
+function AIMoveCommandsDelegate:ShouldBeWaitingDelayed(context) end

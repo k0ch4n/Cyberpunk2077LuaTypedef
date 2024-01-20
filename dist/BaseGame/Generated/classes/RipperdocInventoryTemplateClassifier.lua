@@ -5,8 +5,8 @@ RipperdocInventoryTemplateClassifier = {}
 
 ---@param fields? RipperdocInventoryTemplateClassifier
 ---@return RipperdocInventoryTemplateClassifier
-function RipperdocInventoryTemplateClassifier.new(fields) return end
+function RipperdocInventoryTemplateClassifier.new(fields) end
 
 ---@param data Variant
 ---@return Uint32
-function RipperdocInventoryTemplateClassifier:ClassifyItem(data) return end
+function RipperdocInventoryTemplateClassifier:ClassifyItem(data) end

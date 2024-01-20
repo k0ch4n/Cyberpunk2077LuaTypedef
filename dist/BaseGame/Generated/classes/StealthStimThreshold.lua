@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class StealthStimThreshold: AIbehaviorconditionScript
----@field public stealthThresholdNumber Int32
+---@field stealthThresholdNumber Int32
 StealthStimThreshold = {}
 
 ---@param fields? StealthStimThreshold
 ---@return StealthStimThreshold
-function StealthStimThreshold.new(fields) return end
+function StealthStimThreshold.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function StealthStimThreshold:Check(context) return end
+function StealthStimThreshold:Check(context) end

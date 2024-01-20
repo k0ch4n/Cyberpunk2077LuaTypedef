@@ -5,4 +5,4 @@ gameTPPRepresentationSlotListener = {}
 
 ---@param fields? gameTPPRepresentationSlotListener
 ---@return gameTPPRepresentationSlotListener
-function gameTPPRepresentationSlotListener.new(fields) return end
+function gameTPPRepresentationSlotListener.new(fields) end

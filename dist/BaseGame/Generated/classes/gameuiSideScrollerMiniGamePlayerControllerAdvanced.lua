@@ -5,7 +5,7 @@ gameuiSideScrollerMiniGamePlayerControllerAdvanced = {}
 
 ---@param fields? gameuiSideScrollerMiniGamePlayerControllerAdvanced
 ---@return gameuiSideScrollerMiniGamePlayerControllerAdvanced
-function gameuiSideScrollerMiniGamePlayerControllerAdvanced.new(fields) return end
+function gameuiSideScrollerMiniGamePlayerControllerAdvanced.new(fields) end
 
 ---@return nil
-function gameuiSideScrollerMiniGamePlayerControllerAdvanced:GetGameState() return end
+function gameuiSideScrollerMiniGamePlayerControllerAdvanced:GetGameState() end

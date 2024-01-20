@@ -5,22 +5,19 @@ WeaponFirstReloadStatePrereq = {}
 
 ---@param fields? WeaponFirstReloadStatePrereq
 ---@return WeaponFirstReloadStatePrereq
-function WeaponFirstReloadStatePrereq.new(fields) return end
+function WeaponFirstReloadStatePrereq.new(fields) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function WeaponFirstReloadStatePrereq:OnApplied(state, context) return end
+function WeaponFirstReloadStatePrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function WeaponFirstReloadStatePrereq:OnRegister(state, context) return end
+function WeaponFirstReloadStatePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function WeaponFirstReloadStatePrereq:OnUnregister(state, context) return end
+function WeaponFirstReloadStatePrereq:OnUnregister(state, context) end

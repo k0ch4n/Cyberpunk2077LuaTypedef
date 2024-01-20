@@ -1,421 +1,421 @@
 ---@meta
 
 ---@class animSermoTestController
----@field public faceEnvelope Float
----@field public upperFace Float
----@field public lowerFace Float
----@field public lipSyncEnvelope Float
----@field public lipSyncLeftEnvelope Float
----@field public lipSyncRightEnvelope Float
----@field public jaliJaw Float
----@field public jaliLips Float
----@field public muzzleLips Float
----@field public muzzleEyes Float
----@field public muzzleBrows Float
----@field public muzzleEyeDirections Float
----@field public eye_l_blink Float
----@field public eye_r_blink Float
----@field public eye_l_widen Float
----@field public eye_r_widen Float
----@field public eye_l_dir_up Float
----@field public eye_l_dir_dn Float
----@field public eye_l_dir_in Float
----@field public eye_l_dir_out Float
----@field public eye_r_dir_up Float
----@field public eye_r_dir_dn Float
----@field public eye_r_dir_in Float
----@field public eye_r_dir_out Float
----@field public eye_l_pupil_narrow Float
----@field public eye_r_pupil_narrow Float
----@field public eye_l_pupil_wide Float
----@field public eye_r_pupil_wide Float
----@field public eye_l_brows_raise_in Float
----@field public eye_r_brows_raise_in Float
----@field public eye_l_brows_raise_out Float
----@field public eye_r_brows_raise_out Float
----@field public eye_l_brows_lower Float
----@field public eye_r_brows_lower Float
----@field public eye_l_brows_lateral Float
----@field public eye_r_brows_lateral Float
----@field public eye_l_oculi_squint_inner Float
----@field public eye_r_oculi_squint_inner Float
----@field public eye_l_oculi_squint_outer_lower Float
----@field public eye_r_oculi_squint_outer_lower Float
----@field public eye_l_oculi_squint_outer_upper Float
----@field public eye_r_oculi_squint_outer_upper Float
----@field public nose_l_compress Float
----@field public nose_r_compress Float
----@field public nose_l_breathe_in Float
----@field public nose_r_breathe_in Float
----@field public nose_l_breathe_out Float
----@field public nose_r_breathe_out Float
----@field public nose_l_snear Float
----@field public nose_r_snear Float
----@field public lips_l_nasolabialDeepener Float
----@field public lips_r_nasolabialDeepener Float
----@field public lips_l_upper_raise Float
----@field public lips_r_upper_raise Float
----@field public lips_l_pull Float
----@field public lips_r_pull Float
----@field public lips_l_corner_up Float
----@field public lips_r_corner_up Float
----@field public lips_l_corner_wide Float
----@field public lips_r_corner_wide Float
----@field public lips_l_corner_stretch Float
----@field public lips_r_corner_stretch Float
----@field public lips_l_stretch Float
----@field public lips_r_stretch Float
----@field public lips_l_corner_sharp_up Float
----@field public lips_r_corner_sharp_up Float
----@field public lips_suck_up Float
----@field public lips_suck_dn Float
----@field public lips_puff_up Float
----@field public lips_puff_dn Float
----@field public lips_apart_up Float
----@field public lips_apart_dn Float
----@field public lips_l_lower_raise Float
----@field public lips_r_lower_raise Float
----@field public lips_l_corner_dn Float
----@field public lips_r_corner_dn Float
----@field public lips_chin_raise Float
----@field public lips_together_up Float
----@field public lips_together_dn Float
----@field public lips_l_purse Float
----@field public lips_r_purse Float
----@field public lips_l_funnel Float
----@field public lips_r_funnel Float
----@field public lips_tighten_up Float
----@field public lips_tighten_dn Float
----@field public lips_mid_shift_l Float
----@field public lips_mid_shift_r Float
----@field public lips_mid_shift_up Float
----@field public lips_mid_shift_dn Float
----@field public lips_corner_sticky Float
----@field public lips_l_corner_up_in_sticky_cutScene Float
----@field public lips_l_corner_dn_in_sticky_cutScene Float
----@field public lips_l_corner_up_out_sticky_cutScene Float
----@field public lips_l_corner_dn_out_sticky_cutScene Float
----@field public lips_r_corner_up_in_sticky_cutScene Float
----@field public lips_r_corner_up_out_sticky_cutScene Float
----@field public lips_r_corner_dn_in_sticky_cutScene Float
----@field public lips_r_corner_dn_out_sticky_cutScene Float
----@field public cheek_l_suck Float
----@field public cheek_r_suck Float
----@field public cheek_l_puff Float
----@field public cheek_r_puff Float
----@field public jaw_mid_open Float
----@field public jaw_mid_close Float
----@field public jaw_mid_shift_l Float
----@field public jaw_mid_shift_r Float
----@field public jaw_mid_shift_fwd Float
----@field public jaw_mid_shift_back Float
----@field public jaw_mid_clench Float
----@field public neck_l_stretch Float
----@field public neck_r_stretch Float
----@field public neck_tighten Float
----@field public neck_l_sternocleidomastoid_flex Float
----@field public neck_r_sternocleidomastoid_flex Float
----@field public neck_l_platysma_flex Float
----@field public neck_r_platysma_flex Float
----@field public neck_throat_adamsApple_up Float
----@field public neck_throat_adamsApple_dn Float
----@field public neck_throat_compress Float
----@field public neck_throat_open Float
----@field public neck_l_turn Float
----@field public neck_r_turn Float
----@field public neck_up_turn Float
----@field public neck_dn_turn Float
----@field public neck_l_tilt Float
----@field public neck_r_tilt Float
----@field public head_neck_up_turn Float
----@field public head_neck_dn_turn Float
----@field public head_neck_l_tilt Float
----@field public head_neck_r_tilt Float
----@field public ear_l_shift_up Float
----@field public ear_r_shift_up Float
----@field public sculp_mid_slide Float
----@field public face_gravity_fwd Float
----@field public face_gravity_back Float
----@field public face_gravity_l Float
----@field public face_gravity_r Float
----@field public tongue_mid_base_l Float
----@field public tongue_mid_base_r Float
----@field public tongue_mid_base_dn Float
----@field public tongue_mid_base_up Float
----@field public tongue_mid_base_fwd Float
----@field public tongue_mid_base_front Float
----@field public tongue_mid_base_back Float
----@field public tongue_mid_fwd Float
----@field public tongue_mid_lift Float
----@field public tongue_mid_tip_l Float
----@field public tongue_mid_tip_r Float
----@field public tongue_mid_tip_dn Float
----@field public tongue_mid_tip_up Float
----@field public tongue_mid_twist_l Float
----@field public tongue_mid_twist_r Float
----@field public tongue_mid_thick Float
----@field public nose_l_snearAnimOverrideWeight Float
----@field public nose_r_snearAnimOverrideWeight Float
----@field public lips_l_nasolabialDeepenerAnimOverrideWeight Float
----@field public lips_r_nasolabialDeepenerAnimOverrideWeight Float
----@field public lips_l_upper_raiseAnimOverrideWeight Float
----@field public lips_r_upper_raiseAnimOverrideWeight Float
----@field public lips_l_pullAnimOverrideWeight Float
----@field public lips_r_pullAnimOverrideWeight Float
----@field public lips_l_corner_upAnimOverrideWeight Float
----@field public lips_r_corner_upAnimOverrideWeight Float
----@field public lips_l_corner_wideAnimOverrideWeight Float
----@field public lips_r_corner_wideAnimOverrideWeight Float
----@field public lips_l_corner_stretchAnimOverrideWeight Float
----@field public lips_r_corner_stretchAnimOverrideWeight Float
----@field public lips_l_stretchAnimOverrideWeight Float
----@field public lips_r_stretchAnimOverrideWeight Float
----@field public lips_l_corner_sharp_upAnimOverrideWeight Float
----@field public lips_r_corner_sharp_upAnimOverrideWeight Float
----@field public lips_suck_upAnimOverrideWeight Float
----@field public lips_suck_dnAnimOverrideWeight Float
----@field public lips_puff_upAnimOverrideWeight Float
----@field public lips_puff_dnAnimOverrideWeight Float
----@field public lips_apart_upAnimOverrideWeight Float
----@field public lips_apart_dnAnimOverrideWeight Float
----@field public lips_l_lower_raiseAnimOverrideWeight Float
----@field public lips_r_lower_raiseAnimOverrideWeight Float
----@field public lips_l_corner_dnAnimOverrideWeight Float
----@field public lips_r_corner_dnAnimOverrideWeight Float
----@field public lips_chin_raiseAnimOverrideWeight Float
----@field public lips_together_upAnimOverrideWeight Float
----@field public lips_together_dnAnimOverrideWeight Float
----@field public lips_l_purseAnimOverrideWeight Float
----@field public lips_r_purseAnimOverrideWeight Float
----@field public lips_l_funnelAnimOverrideWeight Float
----@field public lips_r_funnelAnimOverrideWeight Float
----@field public lips_tighten_upAnimOverrideWeight Float
----@field public lips_tighten_dnAnimOverrideWeight Float
----@field public lips_mid_shift_lAnimOverrideWeight Float
----@field public lips_mid_shift_rAnimOverrideWeight Float
----@field public lips_mid_shift_upAnimOverrideWeight Float
----@field public lips_mid_shift_dnAnimOverrideWeight Float
----@field public cheek_l_puffAnimOverrideWeight Float
----@field public cheek_r_puffAnimOverrideWeight Float
----@field public jaw_mid_openAnimOverrideWeight Float
----@field public jaw_mid_closeAnimOverrideWeight Float
----@field public jaw_mid_shift_lAnimOverrideWeight Float
----@field public jaw_mid_shift_rAnimOverrideWeight Float
----@field public jaw_mid_shift_fwdAnimOverrideWeight Float
----@field public jaw_mid_shift_backAnimOverrideWeight Float
----@field public jaw_mid_clenchAnimOverrideWeight Float
----@field public neck_l_stretchAnimOverrideWeight Float
----@field public neck_r_stretchAnimOverrideWeight Float
----@field public neck_tightenAnimOverrideWeight Float
----@field public neck_l_sternocleidomastoid_flexAnimOverrideWeight Float
----@field public neck_r_sternocleidomastoid_flexAnimOverrideWeight Float
----@field public neck_l_platysma_flexAnimOverrideWeight Float
----@field public neck_r_platysma_flexAnimOverrideWeight Float
----@field public neck_throat_adamsApple_upAnimOverrideWeight Float
----@field public neck_throat_adamsApple_dnAnimOverrideWeight Float
----@field public neck_throat_compressAnimOverrideWeight Float
----@field public neck_throat_openAnimOverrideWeight Float
----@field public lips_corner_stickyAnimOverrideWeight Float
----@field public lips_l_corner_up_in_sticky_cutSceneAnimOverrideWeight Float
----@field public lips_l_corner_dn_in_sticky_cutSceneAnimOverrideWeight Float
----@field public lips_l_corner_up_out_sticky_cutSceneAnimOverrideWeight Float
----@field public lips_l_corner_dn_out_sticky_cutSceneAnimOverrideWeight Float
----@field public lips_r_corner_up_in_sticky_cutSceneAnimOverrideWeight Float
----@field public lips_r_corner_up_out_sticky_cutSceneAnimOverrideWeight Float
----@field public lips_r_corner_dn_in_sticky_cutSceneAnimOverrideWeight Float
----@field public lips_r_corner_dn_out_sticky_cutSceneAnimOverrideWeight Float
----@field public tongue_mid_base_lAnimOverrideWeight Float
----@field public tongue_mid_base_rAnimOverrideWeight Float
----@field public tongue_mid_base_dnAnimOverrideWeight Float
----@field public tongue_mid_base_upAnimOverrideWeight Float
----@field public tongue_mid_base_fwdAnimOverrideWeight Float
----@field public tongue_mid_base_frontAnimOverrideWeight Float
----@field public tongue_mid_base_backAnimOverrideWeight Float
----@field public tongue_mid_fwdAnimOverrideWeight Float
----@field public tongue_mid_liftAnimOverrideWeight Float
----@field public tongue_mid_tip_lAnimOverrideWeight Float
----@field public tongue_mid_tip_rAnimOverrideWeight Float
----@field public tongue_mid_tip_dnAnimOverrideWeight Float
----@field public tongue_mid_tip_upAnimOverrideWeight Float
----@field public tongue_mid_twist_lAnimOverrideWeight Float
----@field public tongue_mid_twist_rAnimOverrideWeight Float
----@field public tongue_mid_thickAnimOverrideWeight Float
----@field public eye_l_blinkLipsyncPoseOutput Float
----@field public eye_r_blinkLipsyncPoseOutput Float
----@field public eye_l_widenLipsyncPoseOutput Float
----@field public eye_r_widenLipsyncPoseOutput Float
----@field public eye_l_dir_upLipsyncPoseOutput Float
----@field public eye_l_dir_dnLipsyncPoseOutput Float
----@field public eye_l_dir_inLipsyncPoseOutput Float
----@field public eye_l_dir_outLipsyncPoseOutput Float
----@field public eye_r_dir_upLipsyncPoseOutput Float
----@field public eye_r_dir_dnLipsyncPoseOutput Float
----@field public eye_r_dir_inLipsyncPoseOutput Float
----@field public eye_r_dir_outLipsyncPoseOutput Float
----@field public eye_l_pupil_narrowLipsyncPoseOutput Float
----@field public eye_r_pupil_narrowLipsyncPoseOutput Float
----@field public eye_l_pupil_wideLipsyncPoseOutput Float
----@field public eye_r_pupil_wideLipsyncPoseOutput Float
----@field public eye_l_brows_raise_inLipsyncPoseOutput Float
----@field public eye_r_brows_raise_inLipsyncPoseOutput Float
----@field public eye_l_brows_raise_outLipsyncPoseOutput Float
----@field public eye_r_brows_raise_outLipsyncPoseOutput Float
----@field public eye_l_brows_lowerLipsyncPoseOutput Float
----@field public eye_r_brows_lowerLipsyncPoseOutput Float
----@field public eye_l_brows_lateralLipsyncPoseOutput Float
----@field public eye_r_brows_lateralLipsyncPoseOutput Float
----@field public eye_l_oculi_squint_innerLipsyncPoseOutput Float
----@field public eye_r_oculi_squint_innerLipsyncPoseOutput Float
----@field public eye_l_oculi_squint_outer_lowerLipsyncPoseOutput Float
----@field public eye_r_oculi_squint_outer_lowerLipsyncPoseOutput Float
----@field public eye_l_oculi_squint_outer_upperLipsyncPoseOutput Float
----@field public eye_r_oculi_squint_outer_upperLipsyncPoseOutput Float
----@field public nose_l_compressLipsyncPoseOutput Float
----@field public nose_r_compressLipsyncPoseOutput Float
----@field public nose_l_breathe_inLipsyncPoseOutput Float
----@field public nose_r_breathe_inLipsyncPoseOutput Float
----@field public nose_l_breathe_outLipsyncPoseOutput Float
----@field public nose_r_breathe_outLipsyncPoseOutput Float
----@field public nose_l_snearLipsyncPoseOutput Float
----@field public nose_r_snearLipsyncPoseOutput Float
----@field public lips_l_nasolabialDeepenerLipsyncPoseOutput Float
----@field public lips_r_nasolabialDeepenerLipsyncPoseOutput Float
----@field public lips_l_upper_raiseLipsyncPoseOutput Float
----@field public lips_r_upper_raiseLipsyncPoseOutput Float
----@field public lips_l_pullLipsyncPoseOutput Float
----@field public lips_r_pullLipsyncPoseOutput Float
----@field public lips_l_corner_upLipsyncPoseOutput Float
----@field public lips_r_corner_upLipsyncPoseOutput Float
----@field public lips_l_corner_wideLipsyncPoseOutput Float
----@field public lips_r_corner_wideLipsyncPoseOutput Float
----@field public lips_l_corner_stretchLipsyncPoseOutput Float
----@field public lips_r_corner_stretchLipsyncPoseOutput Float
----@field public lips_l_stretchLipsyncPoseOutput Float
----@field public lips_r_stretchLipsyncPoseOutput Float
----@field public lips_l_corner_sharp_upLipsyncPoseOutput Float
----@field public lips_r_corner_sharp_upLipsyncPoseOutput Float
----@field public lips_suck_upLipsyncPoseOutput Float
----@field public lips_suck_dnLipsyncPoseOutput Float
----@field public lips_puff_upLipsyncPoseOutput Float
----@field public lips_puff_dnLipsyncPoseOutput Float
----@field public lips_apart_upLipsyncPoseOutput Float
----@field public lips_apart_dnLipsyncPoseOutput Float
----@field public lips_l_lower_raiseLipsyncPoseOutput Float
----@field public lips_r_lower_raiseLipsyncPoseOutput Float
----@field public lips_l_corner_dnLipsyncPoseOutput Float
----@field public lips_r_corner_dnLipsyncPoseOutput Float
----@field public lips_chin_raiseLipsyncPoseOutput Float
----@field public lips_together_upLipsyncPoseOutput Float
----@field public lips_together_dnLipsyncPoseOutput Float
----@field public lips_l_purseLipsyncPoseOutput Float
----@field public lips_r_purseLipsyncPoseOutput Float
----@field public lips_l_funnelLipsyncPoseOutput Float
----@field public lips_r_funnelLipsyncPoseOutput Float
----@field public lips_tighten_upLipsyncPoseOutput Float
----@field public lips_tighten_dnLipsyncPoseOutput Float
----@field public lips_mid_shift_lLipsyncPoseOutput Float
----@field public lips_mid_shift_rLipsyncPoseOutput Float
----@field public lips_mid_shift_upLipsyncPoseOutput Float
----@field public lips_mid_shift_dnLipsyncPoseOutput Float
----@field public lips_corner_stickyLipsyncPoseOutput Float
----@field public lips_l_corner_up_in_sticky_cutSceneLipsyncPoseOutput Float
----@field public lips_l_corner_dn_in_sticky_cutSceneLipsyncPoseOutput Float
----@field public lips_l_corner_up_out_sticky_cutSceneLipsyncPoseOutput Float
----@field public lips_l_corner_dn_out_sticky_cutSceneLipsyncPoseOutput Float
----@field public lips_r_corner_up_in_sticky_cutSceneLipsyncPoseOutput Float
----@field public lips_r_corner_up_out_sticky_cutSceneLipsyncPoseOutput Float
----@field public lips_r_corner_dn_in_sticky_cutSceneLipsyncPoseOutput Float
----@field public lips_r_corner_dn_out_sticky_cutSceneLipsyncPoseOutput Float
----@field public cheek_l_suckLipsyncPoseOutput Float
----@field public cheek_r_suckLipsyncPoseOutput Float
----@field public cheek_l_puffLipsyncPoseOutput Float
----@field public cheek_r_puffLipsyncPoseOutput Float
----@field public jaw_mid_openLipsyncPoseOutput Float
----@field public jaw_mid_closeLipsyncPoseOutput Float
----@field public jaw_mid_shift_lLipsyncPoseOutput Float
----@field public jaw_mid_shift_rLipsyncPoseOutput Float
----@field public jaw_mid_shift_fwdLipsyncPoseOutput Float
----@field public jaw_mid_shift_backLipsyncPoseOutput Float
----@field public jaw_mid_clenchLipsyncPoseOutput Float
----@field public neck_l_stretchLipsyncPoseOutput Float
----@field public neck_r_stretchLipsyncPoseOutput Float
----@field public neck_tightenLipsyncPoseOutput Float
----@field public neck_l_sternocleidomastoid_flexLipsyncPoseOutput Float
----@field public neck_r_sternocleidomastoid_flexLipsyncPoseOutput Float
----@field public neck_l_platysma_flexLipsyncPoseOutput Float
----@field public neck_r_platysma_flexLipsyncPoseOutput Float
----@field public neck_throat_adamsApple_upLipsyncPoseOutput Float
----@field public neck_throat_adamsApple_dnLipsyncPoseOutput Float
----@field public neck_throat_compressLipsyncPoseOutput Float
----@field public neck_throat_openLipsyncPoseOutput Float
----@field public neck_l_turnLipsyncPoseOutput Float
----@field public neck_r_turnLipsyncPoseOutput Float
----@field public neck_up_turnLipsyncPoseOutput Float
----@field public neck_dn_turnLipsyncPoseOutput Float
----@field public neck_l_tiltLipsyncPoseOutput Float
----@field public neck_r_tiltLipsyncPoseOutput Float
----@field public head_neck_up_turnLipsyncPoseOutput Float
----@field public head_neck_dn_turnLipsyncPoseOutput Float
----@field public head_neck_l_tiltLipsyncPoseOutput Float
----@field public head_neck_r_tiltLipsyncPoseOutput Float
----@field public ear_l_shift_upLipsyncPoseOutput Float
----@field public ear_r_shift_upLipsyncPoseOutput Float
----@field public sculp_mid_slideLipsyncPoseOutput Float
----@field public face_gravity_fwdLipsyncPoseOutput Float
----@field public face_gravity_backLipsyncPoseOutput Float
----@field public face_gravity_lLipsyncPoseOutput Float
----@field public face_gravity_rLipsyncPoseOutput Float
----@field public tongue_mid_base_lLipsyncPoseOutput Float
----@field public tongue_mid_base_rLipsyncPoseOutput Float
----@field public tongue_mid_base_dnLipsyncPoseOutput Float
----@field public tongue_mid_base_upLipsyncPoseOutput Float
----@field public tongue_mid_base_fwdLipsyncPoseOutput Float
----@field public tongue_mid_base_frontLipsyncPoseOutput Float
----@field public tongue_mid_base_backLipsyncPoseOutput Float
----@field public tongue_mid_fwdLipsyncPoseOutput Float
----@field public tongue_mid_liftLipsyncPoseOutput Float
----@field public tongue_mid_tip_lLipsyncPoseOutput Float
----@field public tongue_mid_tip_rLipsyncPoseOutput Float
----@field public tongue_mid_tip_dnLipsyncPoseOutput Float
----@field public tongue_mid_tip_upLipsyncPoseOutput Float
----@field public tongue_mid_twist_lLipsyncPoseOutput Float
----@field public tongue_mid_twist_rLipsyncPoseOutput Float
----@field public tongue_mid_thickLipsyncPoseOutput Float
----@field public eye_l_oculi_squint_outer_lowerWrnkl Float
----@field public eye_r_oculi_squint_outer_lowerWrnkl Float
----@field public eye_l_oculi_squint_outer_upperWrnkl Float
----@field public eye_r_oculi_squint_outer_upperWrnkl Float
----@field public eye_l_brows_raise_inWrnkl Float
----@field public eye_r_brows_raise_inWrnkl Float
----@field public eye_l_brows_raise_outWrnkl Float
----@field public eye_r_brows_raise_outWrnkl Float
----@field public eye_l_brows_lowerWrnkl Float
----@field public eye_r_brows_lowerWrnkl Float
----@field public eye_l_brows_lateralWrnkl Float
----@field public eye_r_brows_lateralWrnkl Float
----@field public nose_l_snearWrnkl Float
----@field public nose_r_snearWrnkl Float
----@field public lips_l_upper_raiseWrnkl Float
----@field public lips_r_upper_raiseWrnkl Float
----@field public lips_l_corner_upWrnkl Float
----@field public lips_r_corner_upWrnkl Float
----@field public lips_l_corner_wideWrnkl Float
----@field public lips_r_corner_wideWrnkl Float
----@field public lips_l_corner_stretchWrnkl Float
----@field public lips_r_corner_stretchWrnkl Float
----@field public lips_l_lower_raiseWrnkl Float
----@field public lips_r_lower_raiseWrnkl Float
----@field public lips_chin_raiseWrnkl Float
----@field public lips_l_purseWrnkl Float
----@field public lips_r_purseWrnkl Float
----@field public lips_l_funnelWrnkl Float
----@field public lips_r_funnelWrnkl Float
----@field public jaw_mid_openWrnkl Float
----@field public neck_l_stretchWrnkl Float
----@field public neck_r_stretchWrnkl Float
----@field public head_neck_dn_turnWrnkl Float
+---@field faceEnvelope Float
+---@field upperFace Float
+---@field lowerFace Float
+---@field lipSyncEnvelope Float
+---@field lipSyncLeftEnvelope Float
+---@field lipSyncRightEnvelope Float
+---@field jaliJaw Float
+---@field jaliLips Float
+---@field muzzleLips Float
+---@field muzzleEyes Float
+---@field muzzleBrows Float
+---@field muzzleEyeDirections Float
+---@field eye_l_blink Float
+---@field eye_r_blink Float
+---@field eye_l_widen Float
+---@field eye_r_widen Float
+---@field eye_l_dir_up Float
+---@field eye_l_dir_dn Float
+---@field eye_l_dir_in Float
+---@field eye_l_dir_out Float
+---@field eye_r_dir_up Float
+---@field eye_r_dir_dn Float
+---@field eye_r_dir_in Float
+---@field eye_r_dir_out Float
+---@field eye_l_pupil_narrow Float
+---@field eye_r_pupil_narrow Float
+---@field eye_l_pupil_wide Float
+---@field eye_r_pupil_wide Float
+---@field eye_l_brows_raise_in Float
+---@field eye_r_brows_raise_in Float
+---@field eye_l_brows_raise_out Float
+---@field eye_r_brows_raise_out Float
+---@field eye_l_brows_lower Float
+---@field eye_r_brows_lower Float
+---@field eye_l_brows_lateral Float
+---@field eye_r_brows_lateral Float
+---@field eye_l_oculi_squint_inner Float
+---@field eye_r_oculi_squint_inner Float
+---@field eye_l_oculi_squint_outer_lower Float
+---@field eye_r_oculi_squint_outer_lower Float
+---@field eye_l_oculi_squint_outer_upper Float
+---@field eye_r_oculi_squint_outer_upper Float
+---@field nose_l_compress Float
+---@field nose_r_compress Float
+---@field nose_l_breathe_in Float
+---@field nose_r_breathe_in Float
+---@field nose_l_breathe_out Float
+---@field nose_r_breathe_out Float
+---@field nose_l_snear Float
+---@field nose_r_snear Float
+---@field lips_l_nasolabialDeepener Float
+---@field lips_r_nasolabialDeepener Float
+---@field lips_l_upper_raise Float
+---@field lips_r_upper_raise Float
+---@field lips_l_pull Float
+---@field lips_r_pull Float
+---@field lips_l_corner_up Float
+---@field lips_r_corner_up Float
+---@field lips_l_corner_wide Float
+---@field lips_r_corner_wide Float
+---@field lips_l_corner_stretch Float
+---@field lips_r_corner_stretch Float
+---@field lips_l_stretch Float
+---@field lips_r_stretch Float
+---@field lips_l_corner_sharp_up Float
+---@field lips_r_corner_sharp_up Float
+---@field lips_suck_up Float
+---@field lips_suck_dn Float
+---@field lips_puff_up Float
+---@field lips_puff_dn Float
+---@field lips_apart_up Float
+---@field lips_apart_dn Float
+---@field lips_l_lower_raise Float
+---@field lips_r_lower_raise Float
+---@field lips_l_corner_dn Float
+---@field lips_r_corner_dn Float
+---@field lips_chin_raise Float
+---@field lips_together_up Float
+---@field lips_together_dn Float
+---@field lips_l_purse Float
+---@field lips_r_purse Float
+---@field lips_l_funnel Float
+---@field lips_r_funnel Float
+---@field lips_tighten_up Float
+---@field lips_tighten_dn Float
+---@field lips_mid_shift_l Float
+---@field lips_mid_shift_r Float
+---@field lips_mid_shift_up Float
+---@field lips_mid_shift_dn Float
+---@field lips_corner_sticky Float
+---@field lips_l_corner_up_in_sticky_cutScene Float
+---@field lips_l_corner_dn_in_sticky_cutScene Float
+---@field lips_l_corner_up_out_sticky_cutScene Float
+---@field lips_l_corner_dn_out_sticky_cutScene Float
+---@field lips_r_corner_up_in_sticky_cutScene Float
+---@field lips_r_corner_up_out_sticky_cutScene Float
+---@field lips_r_corner_dn_in_sticky_cutScene Float
+---@field lips_r_corner_dn_out_sticky_cutScene Float
+---@field cheek_l_suck Float
+---@field cheek_r_suck Float
+---@field cheek_l_puff Float
+---@field cheek_r_puff Float
+---@field jaw_mid_open Float
+---@field jaw_mid_close Float
+---@field jaw_mid_shift_l Float
+---@field jaw_mid_shift_r Float
+---@field jaw_mid_shift_fwd Float
+---@field jaw_mid_shift_back Float
+---@field jaw_mid_clench Float
+---@field neck_l_stretch Float
+---@field neck_r_stretch Float
+---@field neck_tighten Float
+---@field neck_l_sternocleidomastoid_flex Float
+---@field neck_r_sternocleidomastoid_flex Float
+---@field neck_l_platysma_flex Float
+---@field neck_r_platysma_flex Float
+---@field neck_throat_adamsApple_up Float
+---@field neck_throat_adamsApple_dn Float
+---@field neck_throat_compress Float
+---@field neck_throat_open Float
+---@field neck_l_turn Float
+---@field neck_r_turn Float
+---@field neck_up_turn Float
+---@field neck_dn_turn Float
+---@field neck_l_tilt Float
+---@field neck_r_tilt Float
+---@field head_neck_up_turn Float
+---@field head_neck_dn_turn Float
+---@field head_neck_l_tilt Float
+---@field head_neck_r_tilt Float
+---@field ear_l_shift_up Float
+---@field ear_r_shift_up Float
+---@field sculp_mid_slide Float
+---@field face_gravity_fwd Float
+---@field face_gravity_back Float
+---@field face_gravity_l Float
+---@field face_gravity_r Float
+---@field tongue_mid_base_l Float
+---@field tongue_mid_base_r Float
+---@field tongue_mid_base_dn Float
+---@field tongue_mid_base_up Float
+---@field tongue_mid_base_fwd Float
+---@field tongue_mid_base_front Float
+---@field tongue_mid_base_back Float
+---@field tongue_mid_fwd Float
+---@field tongue_mid_lift Float
+---@field tongue_mid_tip_l Float
+---@field tongue_mid_tip_r Float
+---@field tongue_mid_tip_dn Float
+---@field tongue_mid_tip_up Float
+---@field tongue_mid_twist_l Float
+---@field tongue_mid_twist_r Float
+---@field tongue_mid_thick Float
+---@field nose_l_snearAnimOverrideWeight Float
+---@field nose_r_snearAnimOverrideWeight Float
+---@field lips_l_nasolabialDeepenerAnimOverrideWeight Float
+---@field lips_r_nasolabialDeepenerAnimOverrideWeight Float
+---@field lips_l_upper_raiseAnimOverrideWeight Float
+---@field lips_r_upper_raiseAnimOverrideWeight Float
+---@field lips_l_pullAnimOverrideWeight Float
+---@field lips_r_pullAnimOverrideWeight Float
+---@field lips_l_corner_upAnimOverrideWeight Float
+---@field lips_r_corner_upAnimOverrideWeight Float
+---@field lips_l_corner_wideAnimOverrideWeight Float
+---@field lips_r_corner_wideAnimOverrideWeight Float
+---@field lips_l_corner_stretchAnimOverrideWeight Float
+---@field lips_r_corner_stretchAnimOverrideWeight Float
+---@field lips_l_stretchAnimOverrideWeight Float
+---@field lips_r_stretchAnimOverrideWeight Float
+---@field lips_l_corner_sharp_upAnimOverrideWeight Float
+---@field lips_r_corner_sharp_upAnimOverrideWeight Float
+---@field lips_suck_upAnimOverrideWeight Float
+---@field lips_suck_dnAnimOverrideWeight Float
+---@field lips_puff_upAnimOverrideWeight Float
+---@field lips_puff_dnAnimOverrideWeight Float
+---@field lips_apart_upAnimOverrideWeight Float
+---@field lips_apart_dnAnimOverrideWeight Float
+---@field lips_l_lower_raiseAnimOverrideWeight Float
+---@field lips_r_lower_raiseAnimOverrideWeight Float
+---@field lips_l_corner_dnAnimOverrideWeight Float
+---@field lips_r_corner_dnAnimOverrideWeight Float
+---@field lips_chin_raiseAnimOverrideWeight Float
+---@field lips_together_upAnimOverrideWeight Float
+---@field lips_together_dnAnimOverrideWeight Float
+---@field lips_l_purseAnimOverrideWeight Float
+---@field lips_r_purseAnimOverrideWeight Float
+---@field lips_l_funnelAnimOverrideWeight Float
+---@field lips_r_funnelAnimOverrideWeight Float
+---@field lips_tighten_upAnimOverrideWeight Float
+---@field lips_tighten_dnAnimOverrideWeight Float
+---@field lips_mid_shift_lAnimOverrideWeight Float
+---@field lips_mid_shift_rAnimOverrideWeight Float
+---@field lips_mid_shift_upAnimOverrideWeight Float
+---@field lips_mid_shift_dnAnimOverrideWeight Float
+---@field cheek_l_puffAnimOverrideWeight Float
+---@field cheek_r_puffAnimOverrideWeight Float
+---@field jaw_mid_openAnimOverrideWeight Float
+---@field jaw_mid_closeAnimOverrideWeight Float
+---@field jaw_mid_shift_lAnimOverrideWeight Float
+---@field jaw_mid_shift_rAnimOverrideWeight Float
+---@field jaw_mid_shift_fwdAnimOverrideWeight Float
+---@field jaw_mid_shift_backAnimOverrideWeight Float
+---@field jaw_mid_clenchAnimOverrideWeight Float
+---@field neck_l_stretchAnimOverrideWeight Float
+---@field neck_r_stretchAnimOverrideWeight Float
+---@field neck_tightenAnimOverrideWeight Float
+---@field neck_l_sternocleidomastoid_flexAnimOverrideWeight Float
+---@field neck_r_sternocleidomastoid_flexAnimOverrideWeight Float
+---@field neck_l_platysma_flexAnimOverrideWeight Float
+---@field neck_r_platysma_flexAnimOverrideWeight Float
+---@field neck_throat_adamsApple_upAnimOverrideWeight Float
+---@field neck_throat_adamsApple_dnAnimOverrideWeight Float
+---@field neck_throat_compressAnimOverrideWeight Float
+---@field neck_throat_openAnimOverrideWeight Float
+---@field lips_corner_stickyAnimOverrideWeight Float
+---@field lips_l_corner_up_in_sticky_cutSceneAnimOverrideWeight Float
+---@field lips_l_corner_dn_in_sticky_cutSceneAnimOverrideWeight Float
+---@field lips_l_corner_up_out_sticky_cutSceneAnimOverrideWeight Float
+---@field lips_l_corner_dn_out_sticky_cutSceneAnimOverrideWeight Float
+---@field lips_r_corner_up_in_sticky_cutSceneAnimOverrideWeight Float
+---@field lips_r_corner_up_out_sticky_cutSceneAnimOverrideWeight Float
+---@field lips_r_corner_dn_in_sticky_cutSceneAnimOverrideWeight Float
+---@field lips_r_corner_dn_out_sticky_cutSceneAnimOverrideWeight Float
+---@field tongue_mid_base_lAnimOverrideWeight Float
+---@field tongue_mid_base_rAnimOverrideWeight Float
+---@field tongue_mid_base_dnAnimOverrideWeight Float
+---@field tongue_mid_base_upAnimOverrideWeight Float
+---@field tongue_mid_base_fwdAnimOverrideWeight Float
+---@field tongue_mid_base_frontAnimOverrideWeight Float
+---@field tongue_mid_base_backAnimOverrideWeight Float
+---@field tongue_mid_fwdAnimOverrideWeight Float
+---@field tongue_mid_liftAnimOverrideWeight Float
+---@field tongue_mid_tip_lAnimOverrideWeight Float
+---@field tongue_mid_tip_rAnimOverrideWeight Float
+---@field tongue_mid_tip_dnAnimOverrideWeight Float
+---@field tongue_mid_tip_upAnimOverrideWeight Float
+---@field tongue_mid_twist_lAnimOverrideWeight Float
+---@field tongue_mid_twist_rAnimOverrideWeight Float
+---@field tongue_mid_thickAnimOverrideWeight Float
+---@field eye_l_blinkLipsyncPoseOutput Float
+---@field eye_r_blinkLipsyncPoseOutput Float
+---@field eye_l_widenLipsyncPoseOutput Float
+---@field eye_r_widenLipsyncPoseOutput Float
+---@field eye_l_dir_upLipsyncPoseOutput Float
+---@field eye_l_dir_dnLipsyncPoseOutput Float
+---@field eye_l_dir_inLipsyncPoseOutput Float
+---@field eye_l_dir_outLipsyncPoseOutput Float
+---@field eye_r_dir_upLipsyncPoseOutput Float
+---@field eye_r_dir_dnLipsyncPoseOutput Float
+---@field eye_r_dir_inLipsyncPoseOutput Float
+---@field eye_r_dir_outLipsyncPoseOutput Float
+---@field eye_l_pupil_narrowLipsyncPoseOutput Float
+---@field eye_r_pupil_narrowLipsyncPoseOutput Float
+---@field eye_l_pupil_wideLipsyncPoseOutput Float
+---@field eye_r_pupil_wideLipsyncPoseOutput Float
+---@field eye_l_brows_raise_inLipsyncPoseOutput Float
+---@field eye_r_brows_raise_inLipsyncPoseOutput Float
+---@field eye_l_brows_raise_outLipsyncPoseOutput Float
+---@field eye_r_brows_raise_outLipsyncPoseOutput Float
+---@field eye_l_brows_lowerLipsyncPoseOutput Float
+---@field eye_r_brows_lowerLipsyncPoseOutput Float
+---@field eye_l_brows_lateralLipsyncPoseOutput Float
+---@field eye_r_brows_lateralLipsyncPoseOutput Float
+---@field eye_l_oculi_squint_innerLipsyncPoseOutput Float
+---@field eye_r_oculi_squint_innerLipsyncPoseOutput Float
+---@field eye_l_oculi_squint_outer_lowerLipsyncPoseOutput Float
+---@field eye_r_oculi_squint_outer_lowerLipsyncPoseOutput Float
+---@field eye_l_oculi_squint_outer_upperLipsyncPoseOutput Float
+---@field eye_r_oculi_squint_outer_upperLipsyncPoseOutput Float
+---@field nose_l_compressLipsyncPoseOutput Float
+---@field nose_r_compressLipsyncPoseOutput Float
+---@field nose_l_breathe_inLipsyncPoseOutput Float
+---@field nose_r_breathe_inLipsyncPoseOutput Float
+---@field nose_l_breathe_outLipsyncPoseOutput Float
+---@field nose_r_breathe_outLipsyncPoseOutput Float
+---@field nose_l_snearLipsyncPoseOutput Float
+---@field nose_r_snearLipsyncPoseOutput Float
+---@field lips_l_nasolabialDeepenerLipsyncPoseOutput Float
+---@field lips_r_nasolabialDeepenerLipsyncPoseOutput Float
+---@field lips_l_upper_raiseLipsyncPoseOutput Float
+---@field lips_r_upper_raiseLipsyncPoseOutput Float
+---@field lips_l_pullLipsyncPoseOutput Float
+---@field lips_r_pullLipsyncPoseOutput Float
+---@field lips_l_corner_upLipsyncPoseOutput Float
+---@field lips_r_corner_upLipsyncPoseOutput Float
+---@field lips_l_corner_wideLipsyncPoseOutput Float
+---@field lips_r_corner_wideLipsyncPoseOutput Float
+---@field lips_l_corner_stretchLipsyncPoseOutput Float
+---@field lips_r_corner_stretchLipsyncPoseOutput Float
+---@field lips_l_stretchLipsyncPoseOutput Float
+---@field lips_r_stretchLipsyncPoseOutput Float
+---@field lips_l_corner_sharp_upLipsyncPoseOutput Float
+---@field lips_r_corner_sharp_upLipsyncPoseOutput Float
+---@field lips_suck_upLipsyncPoseOutput Float
+---@field lips_suck_dnLipsyncPoseOutput Float
+---@field lips_puff_upLipsyncPoseOutput Float
+---@field lips_puff_dnLipsyncPoseOutput Float
+---@field lips_apart_upLipsyncPoseOutput Float
+---@field lips_apart_dnLipsyncPoseOutput Float
+---@field lips_l_lower_raiseLipsyncPoseOutput Float
+---@field lips_r_lower_raiseLipsyncPoseOutput Float
+---@field lips_l_corner_dnLipsyncPoseOutput Float
+---@field lips_r_corner_dnLipsyncPoseOutput Float
+---@field lips_chin_raiseLipsyncPoseOutput Float
+---@field lips_together_upLipsyncPoseOutput Float
+---@field lips_together_dnLipsyncPoseOutput Float
+---@field lips_l_purseLipsyncPoseOutput Float
+---@field lips_r_purseLipsyncPoseOutput Float
+---@field lips_l_funnelLipsyncPoseOutput Float
+---@field lips_r_funnelLipsyncPoseOutput Float
+---@field lips_tighten_upLipsyncPoseOutput Float
+---@field lips_tighten_dnLipsyncPoseOutput Float
+---@field lips_mid_shift_lLipsyncPoseOutput Float
+---@field lips_mid_shift_rLipsyncPoseOutput Float
+---@field lips_mid_shift_upLipsyncPoseOutput Float
+---@field lips_mid_shift_dnLipsyncPoseOutput Float
+---@field lips_corner_stickyLipsyncPoseOutput Float
+---@field lips_l_corner_up_in_sticky_cutSceneLipsyncPoseOutput Float
+---@field lips_l_corner_dn_in_sticky_cutSceneLipsyncPoseOutput Float
+---@field lips_l_corner_up_out_sticky_cutSceneLipsyncPoseOutput Float
+---@field lips_l_corner_dn_out_sticky_cutSceneLipsyncPoseOutput Float
+---@field lips_r_corner_up_in_sticky_cutSceneLipsyncPoseOutput Float
+---@field lips_r_corner_up_out_sticky_cutSceneLipsyncPoseOutput Float
+---@field lips_r_corner_dn_in_sticky_cutSceneLipsyncPoseOutput Float
+---@field lips_r_corner_dn_out_sticky_cutSceneLipsyncPoseOutput Float
+---@field cheek_l_suckLipsyncPoseOutput Float
+---@field cheek_r_suckLipsyncPoseOutput Float
+---@field cheek_l_puffLipsyncPoseOutput Float
+---@field cheek_r_puffLipsyncPoseOutput Float
+---@field jaw_mid_openLipsyncPoseOutput Float
+---@field jaw_mid_closeLipsyncPoseOutput Float
+---@field jaw_mid_shift_lLipsyncPoseOutput Float
+---@field jaw_mid_shift_rLipsyncPoseOutput Float
+---@field jaw_mid_shift_fwdLipsyncPoseOutput Float
+---@field jaw_mid_shift_backLipsyncPoseOutput Float
+---@field jaw_mid_clenchLipsyncPoseOutput Float
+---@field neck_l_stretchLipsyncPoseOutput Float
+---@field neck_r_stretchLipsyncPoseOutput Float
+---@field neck_tightenLipsyncPoseOutput Float
+---@field neck_l_sternocleidomastoid_flexLipsyncPoseOutput Float
+---@field neck_r_sternocleidomastoid_flexLipsyncPoseOutput Float
+---@field neck_l_platysma_flexLipsyncPoseOutput Float
+---@field neck_r_platysma_flexLipsyncPoseOutput Float
+---@field neck_throat_adamsApple_upLipsyncPoseOutput Float
+---@field neck_throat_adamsApple_dnLipsyncPoseOutput Float
+---@field neck_throat_compressLipsyncPoseOutput Float
+---@field neck_throat_openLipsyncPoseOutput Float
+---@field neck_l_turnLipsyncPoseOutput Float
+---@field neck_r_turnLipsyncPoseOutput Float
+---@field neck_up_turnLipsyncPoseOutput Float
+---@field neck_dn_turnLipsyncPoseOutput Float
+---@field neck_l_tiltLipsyncPoseOutput Float
+---@field neck_r_tiltLipsyncPoseOutput Float
+---@field head_neck_up_turnLipsyncPoseOutput Float
+---@field head_neck_dn_turnLipsyncPoseOutput Float
+---@field head_neck_l_tiltLipsyncPoseOutput Float
+---@field head_neck_r_tiltLipsyncPoseOutput Float
+---@field ear_l_shift_upLipsyncPoseOutput Float
+---@field ear_r_shift_upLipsyncPoseOutput Float
+---@field sculp_mid_slideLipsyncPoseOutput Float
+---@field face_gravity_fwdLipsyncPoseOutput Float
+---@field face_gravity_backLipsyncPoseOutput Float
+---@field face_gravity_lLipsyncPoseOutput Float
+---@field face_gravity_rLipsyncPoseOutput Float
+---@field tongue_mid_base_lLipsyncPoseOutput Float
+---@field tongue_mid_base_rLipsyncPoseOutput Float
+---@field tongue_mid_base_dnLipsyncPoseOutput Float
+---@field tongue_mid_base_upLipsyncPoseOutput Float
+---@field tongue_mid_base_fwdLipsyncPoseOutput Float
+---@field tongue_mid_base_frontLipsyncPoseOutput Float
+---@field tongue_mid_base_backLipsyncPoseOutput Float
+---@field tongue_mid_fwdLipsyncPoseOutput Float
+---@field tongue_mid_liftLipsyncPoseOutput Float
+---@field tongue_mid_tip_lLipsyncPoseOutput Float
+---@field tongue_mid_tip_rLipsyncPoseOutput Float
+---@field tongue_mid_tip_dnLipsyncPoseOutput Float
+---@field tongue_mid_tip_upLipsyncPoseOutput Float
+---@field tongue_mid_twist_lLipsyncPoseOutput Float
+---@field tongue_mid_twist_rLipsyncPoseOutput Float
+---@field tongue_mid_thickLipsyncPoseOutput Float
+---@field eye_l_oculi_squint_outer_lowerWrnkl Float
+---@field eye_r_oculi_squint_outer_lowerWrnkl Float
+---@field eye_l_oculi_squint_outer_upperWrnkl Float
+---@field eye_r_oculi_squint_outer_upperWrnkl Float
+---@field eye_l_brows_raise_inWrnkl Float
+---@field eye_r_brows_raise_inWrnkl Float
+---@field eye_l_brows_raise_outWrnkl Float
+---@field eye_r_brows_raise_outWrnkl Float
+---@field eye_l_brows_lowerWrnkl Float
+---@field eye_r_brows_lowerWrnkl Float
+---@field eye_l_brows_lateralWrnkl Float
+---@field eye_r_brows_lateralWrnkl Float
+---@field nose_l_snearWrnkl Float
+---@field nose_r_snearWrnkl Float
+---@field lips_l_upper_raiseWrnkl Float
+---@field lips_r_upper_raiseWrnkl Float
+---@field lips_l_corner_upWrnkl Float
+---@field lips_r_corner_upWrnkl Float
+---@field lips_l_corner_wideWrnkl Float
+---@field lips_r_corner_wideWrnkl Float
+---@field lips_l_corner_stretchWrnkl Float
+---@field lips_r_corner_stretchWrnkl Float
+---@field lips_l_lower_raiseWrnkl Float
+---@field lips_r_lower_raiseWrnkl Float
+---@field lips_chin_raiseWrnkl Float
+---@field lips_l_purseWrnkl Float
+---@field lips_r_purseWrnkl Float
+---@field lips_l_funnelWrnkl Float
+---@field lips_r_funnelWrnkl Float
+---@field jaw_mid_openWrnkl Float
+---@field neck_l_stretchWrnkl Float
+---@field neck_r_stretchWrnkl Float
+---@field head_neck_dn_turnWrnkl Float
 animSermoTestController = {}
 
 ---@param fields? animSermoTestController
 ---@return animSermoTestController
-function animSermoTestController.new(fields) return end
+function animSermoTestController.new(fields) end

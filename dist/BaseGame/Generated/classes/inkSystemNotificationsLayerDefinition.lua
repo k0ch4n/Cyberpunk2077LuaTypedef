@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkSystemNotificationsLayerDefinition: inkLayerDefinition
----@field public cursorResource inkWidgetLibraryResource
+---@field cursorResource inkWidgetLibraryResource
 inkSystemNotificationsLayerDefinition = {}
 
 ---@param fields? inkSystemNotificationsLayerDefinition
 ---@return inkSystemNotificationsLayerDefinition
-function inkSystemNotificationsLayerDefinition.new(fields) return end
+function inkSystemNotificationsLayerDefinition.new(fields) end

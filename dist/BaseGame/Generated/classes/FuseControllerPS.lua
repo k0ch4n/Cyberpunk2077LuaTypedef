@@ -1,193 +1,164 @@
 ---@meta
 
 ---@class FuseControllerPS: MasterControllerPS
----@field protected timeTableSetup DeviceTimeTableManager
----@field protected maxLightsSwitchedAtOnce Int32
----@field protected timeToNextSwitch Float
----@field protected lightSwitchRandomizerType ELightSwitchRandomizerType
----@field private alternativeNameForON TweakDBID
----@field private alternativeNameForOFF TweakDBID
----@field private alternativeNameForPower TweakDBID
----@field private alternativeNameForUnpower TweakDBID
----@field private isCLSInitialized Bool
+---@field timeTableSetup DeviceTimeTableManager
+---@field maxLightsSwitchedAtOnce Int32
+---@field timeToNextSwitch Float
+---@field lightSwitchRandomizerType ELightSwitchRandomizerType
+---@field alternativeNameForON TweakDBID
+---@field alternativeNameForOFF TweakDBID
+---@field alternativeNameForPower TweakDBID
+---@field alternativeNameForUnpower TweakDBID
+---@field isCLSInitialized Bool
 FuseControllerPS = {}
 
 ---@param fields? FuseControllerPS
 ---@return FuseControllerPS
-function FuseControllerPS.new(fields) return end
+function FuseControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function FuseControllerPS:OnInstantiated() return end
+function FuseControllerPS:OnInstantiated() end
 
 ---@return ToggleON
-function FuseControllerPS:ActionToggleON() return end
+function FuseControllerPS:ActionToggleON() end
 
----@protected
 ---@return TogglePower
-function FuseControllerPS:ActionTogglePower() return end
+function FuseControllerPS:ActionTogglePower() end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@return nil
-function FuseControllerPS:CutPowerOnSlaveDevices(devices) return end
+function FuseControllerPS:CutPowerOnSlaveDevices(devices) end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] outActions
-function FuseControllerPS:GetActions(context) return end
+function FuseControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function FuseControllerPS:GetBackgroundTextureTweakDBID() return end
+function FuseControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return gamedeviceClearance
-function FuseControllerPS:GetClearance() return end
+function FuseControllerPS:GetClearance() end
 
----@protected
 ---@return TweakDBID
-function FuseControllerPS:GetDeviceIconTweakDBID() return end
+function FuseControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return EDeviceStatus
-function FuseControllerPS:GetDeviceStateByCLS() return end
+function FuseControllerPS:GetDeviceStateByCLS() end
 
 ---@return EDeviceStatus
-function FuseControllerPS:GetExpectedSlaveState() return end
+function FuseControllerPS:GetExpectedSlaveState() end
 
----@private
 ---@return Float
-function FuseControllerPS:GetLightSwitchDelayValue() return end
+function FuseControllerPS:GetLightSwitchDelayValue() end
 
 ---@return DeviceTimeTableManager
-function FuseControllerPS:GetTimetableSetup() return end
+function FuseControllerPS:GetTimetableSetup() end
 
----@protected
 ---@return nil
-function FuseControllerPS:Initialize() return end
+function FuseControllerPS:Initialize() end
 
----@private
 ---@return nil
-function FuseControllerPS:InitializeCLS() return end
+function FuseControllerPS:InitializeCLS() end
 
 ---@return Bool
-function FuseControllerPS:IsCLSInitialized() return end
+function FuseControllerPS:IsCLSInitialized() end
 
 ---@return Bool
-function FuseControllerPS:IsConnectedToCLS() return end
+function FuseControllerPS:IsConnectedToCLS() end
 
----@protected
 ---@param evt DelayedTimetableEvent
 ---@return EntityNotificationType
-function FuseControllerPS:OnDealyedTimetableEvent(evt) return end
+function FuseControllerPS:OnDealyedTimetableEvent(evt) end
 
----@protected
 ---@param evt DeviceTimetableEvent
 ---@return EntityNotificationType
-function FuseControllerPS:OnDeviceTimetableEvent(evt) return end
+function FuseControllerPS:OnDeviceTimetableEvent(evt) end
 
----@protected
 ---@param evt InitializeCLSEvent
 ---@return EntityNotificationType
-function FuseControllerPS:OnInitializeCLSEvent(evt) return end
+function FuseControllerPS:OnInitializeCLSEvent(evt) end
 
----@protected
 ---@param evt QuestForceOFF
 ---@return EntityNotificationType
-function FuseControllerPS:OnQuestForceOFF(evt) return end
+function FuseControllerPS:OnQuestForceOFF(evt) end
 
----@protected
 ---@param evt QuestForceON
 ---@return EntityNotificationType
-function FuseControllerPS:OnQuestForceON(evt) return end
+function FuseControllerPS:OnQuestForceON(evt) end
 
----@protected
 ---@param evt RefreshCLSOnSlavesEvent
 ---@return EntityNotificationType
-function FuseControllerPS:OnRefreshCLSoNslaves(evt) return end
+function FuseControllerPS:OnRefreshCLSoNslaves(evt) end
 
----@protected
 ---@param evt RefreshPowerOnSlavesEvent
 ---@return EntityNotificationType
-function FuseControllerPS:OnRefreshPowerOnSlavesEvent(evt) return end
+function FuseControllerPS:OnRefreshPowerOnSlavesEvent(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function FuseControllerPS:OnRefreshSlavesEvent(evt) return end
+function FuseControllerPS:OnRefreshSlavesEvent(evt) end
 
----@protected
 ---@param evt SetDeviceOFF
 ---@return EntityNotificationType
-function FuseControllerPS:OnSetDeviceOFF(evt) return end
+function FuseControllerPS:OnSetDeviceOFF(evt) end
 
----@protected
 ---@param evt SetDeviceON
 ---@return EntityNotificationType
-function FuseControllerPS:OnSetDeviceON(evt) return end
+function FuseControllerPS:OnSetDeviceON(evt) end
 
----@protected
 ---@param evt SetDevicePowered
 ---@return EntityNotificationType
-function FuseControllerPS:OnSetDevicePowered(evt) return end
+function FuseControllerPS:OnSetDevicePowered(evt) end
 
----@protected
 ---@param evt SetDeviceUnpowered
 ---@return EntityNotificationType
-function FuseControllerPS:OnSetDeviceUnpowered(evt) return end
+function FuseControllerPS:OnSetDeviceUnpowered(evt) end
 
 ---@param evt ToggleON
 ---@return EntityNotificationType
-function FuseControllerPS:OnToggleON(evt) return end
+function FuseControllerPS:OnToggleON(evt) end
 
----@protected
 ---@return nil
-function FuseControllerPS:PowerDevice() return end
+function FuseControllerPS:PowerDevice() end
 
----@private
 ---@param state EDeviceStatus
 ---@param restorePower Bool
 ---@param devices gameDeviceComponentPS[]
 ---@return nil
-function FuseControllerPS:RefreshCLSoNslaves(state, restorePower, devices) return end
+function FuseControllerPS:RefreshCLSoNslaves(state, restorePower, devices) end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@return nil
-function FuseControllerPS:RefreshPowerOnSlaves(devices) return end
+function FuseControllerPS:RefreshPowerOnSlaves(devices) end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@param force? Bool
 ---@return nil
-function FuseControllerPS:RefreshSlaves(devices, force) return end
+function FuseControllerPS:RefreshSlaves(devices, force) end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@return nil
-function FuseControllerPS:RestorePowerOnSlaveDevices(devices) return end
+function FuseControllerPS:RestorePowerOnSlaveDevices(devices) end
 
----@private
 ---@param devices gameDeviceComponentPS[]
 ---@param state EDeviceStatus
 ---@param restorePower Bool
 ---@param delay Float
 ---@return nil
-function FuseControllerPS:SendCLSRefreshByEvent(devices, state, restorePower, delay) return end
+function FuseControllerPS:SendCLSRefreshByEvent(devices, state, restorePower, delay) end
 
----@private
 ---@param targetID entEntityID
 ---@param state EDeviceStatus
 ---@param restorePower Bool
 ---@return nil
-function FuseControllerPS:SendDeviceTimeTableEvent(targetID, state, restorePower) return end
+function FuseControllerPS:SendDeviceTimeTableEvent(targetID, state, restorePower) end
 
----@private
 ---@param targetID entEntityID
 ---@param state EDeviceStatus
 ---@param restorePower Bool
 ---@param delay Float
 ---@return nil
-function FuseControllerPS:SendDeviceTimeTableEventWithDelay(targetID, state, restorePower, delay) return end
+function FuseControllerPS:SendDeviceTimeTableEventWithDelay(targetID, state, restorePower, delay) end
 
 ---@return nil
-function FuseControllerPS:UnpowerDevice() return end
+function FuseControllerPS:UnpowerDevice() end

@@ -5,4 +5,4 @@ gamestateMachineStateActionDefinition = {}
 
 ---@param fields? gamestateMachineStateActionDefinition
 ---@return gamestateMachineStateActionDefinition
-function gamestateMachineStateActionDefinition.new(fields) return end
+function gamestateMachineStateActionDefinition.new(fields) end

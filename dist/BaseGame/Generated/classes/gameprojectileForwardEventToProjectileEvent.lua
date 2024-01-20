@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameprojectileForwardEventToProjectileEvent: redEvent
----@field public eventToForward redEvent
+---@field eventToForward redEvent
 gameprojectileForwardEventToProjectileEvent = {}
 
 ---@param fields? gameprojectileForwardEventToProjectileEvent
 ---@return gameprojectileForwardEventToProjectileEvent
-function gameprojectileForwardEventToProjectileEvent.new(fields) return end
+function gameprojectileForwardEventToProjectileEvent.new(fields) end

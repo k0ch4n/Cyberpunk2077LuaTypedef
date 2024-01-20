@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioRadioStationMetadataMap: audioAudioMetadata
----@field public radioStations CName[]
----@field public switchStationEvent CName
----@field public turnOnRadioEvent CName
----@field public turnOffRadioEvent CName
----@field public defaultBackgroundJingle audioRadioStationJingleMetadata
+---@field radioStations CName[]
+---@field switchStationEvent CName
+---@field turnOnRadioEvent CName
+---@field turnOffRadioEvent CName
+---@field defaultBackgroundJingle audioRadioStationJingleMetadata
 audioRadioStationMetadataMap = {}
 
 ---@param fields? audioRadioStationMetadataMap
 ---@return audioRadioStationMetadataMap
-function audioRadioStationMetadataMap.new(fields) return end
+function audioRadioStationMetadataMap.new(fields) end

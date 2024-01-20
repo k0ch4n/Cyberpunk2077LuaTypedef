@@ -1,127 +1,109 @@
 ---@meta
 
 ---@class StaminabarWidgetGameController: gameuiHUDGameController
----@field private staminaControllerRef inkWidgetReference
----@field private staminaPercTextPath inkTextWidgetReference
----@field private staminaStatusTextPath inkTextWidgetReference
----@field private bbPSceneTierEventId redCallbackObject
----@field private bbPStaminaPSMEventId redCallbackObject
----@field private bbAreaZoneEventId redCallbackObject
----@field private combatModeListener redCallbackObject
----@field private staminaController NameplateBarLogicController
----@field private RootWidget inkWidget
----@field private currentBarValue Float
----@field private currentStatPool gamedataStatPoolType
----@field private sceneTier GameplayTier
----@field private staminaState gamePSMStamina
----@field private zoneState gamePSMZones
----@field private staminaPoolListener StaminaPoolListener
----@field private statsSystem gameStatsSystem
----@field private forceHidden Bool
----@field private staminaRatioEnterCondition Float
----@field private pulse PulseAnimation
----@field private playerPuppet gameObject
+---@field staminaControllerRef inkWidgetReference
+---@field staminaPercTextPath inkTextWidgetReference
+---@field staminaStatusTextPath inkTextWidgetReference
+---@field bbPSceneTierEventId redCallbackObject
+---@field bbPStaminaPSMEventId redCallbackObject
+---@field bbAreaZoneEventId redCallbackObject
+---@field combatModeListener redCallbackObject
+---@field staminaController NameplateBarLogicController
+---@field RootWidget inkWidget
+---@field currentBarValue Float
+---@field currentStatPool gamedataStatPoolType
+---@field sceneTier GameplayTier
+---@field staminaState gamePSMStamina
+---@field zoneState gamePSMZones
+---@field staminaPoolListener StaminaPoolListener
+---@field statsSystem gameStatsSystem
+---@field forceHidden Bool
+---@field staminaRatioEnterCondition Float
+---@field pulse PulseAnimation
+---@field playerPuppet gameObject
 StaminabarWidgetGameController = {}
 
 ---@param fields? StaminabarWidgetGameController
 ---@return StaminabarWidgetGameController
-function StaminabarWidgetGameController.new(fields) return end
+function StaminabarWidgetGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function StaminabarWidgetGameController:OnAction(action, consumer) return end
+function StaminabarWidgetGameController:OnAction(action, consumer) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function StaminabarWidgetGameController:OnCombatStateChanged(value) return end
+function StaminabarWidgetGameController:OnCombatStateChanged(value) end
 
----@protected
 ---@param evt FocusPerkTriggerd
 ---@return Bool
-function StaminabarWidgetGameController:OnFocusedCoolPerkActive(evt) return end
+function StaminabarWidgetGameController:OnFocusedCoolPerkActive(evt) end
 
----@protected
 ---@return Bool
-function StaminabarWidgetGameController:OnForceHide() return end
+function StaminabarWidgetGameController:OnForceHide() end
 
----@protected
 ---@param tierVisibility Bool
 ---@return Bool
-function StaminabarWidgetGameController:OnForceTierVisibility(tierVisibility) return end
+function StaminabarWidgetGameController:OnForceTierVisibility(tierVisibility) end
 
----@protected
 ---@return Bool
-function StaminabarWidgetGameController:OnInitialize() return end
+function StaminabarWidgetGameController:OnInitialize() end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function StaminabarWidgetGameController:OnPlayerAttach(playerGameObject) return end
+function StaminabarWidgetGameController:OnPlayerAttach(playerGameObject) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function StaminabarWidgetGameController:OnPlayerDetach(playerGameObject) return end
+function StaminabarWidgetGameController:OnPlayerDetach(playerGameObject) end
 
----@protected
 ---@param e ReflexesMasterPerk3Triggerd
 ---@return Bool
-function StaminabarWidgetGameController:OnReflexesMasterPerk3Triggerd(e) return end
+function StaminabarWidgetGameController:OnReflexesMasterPerk3Triggerd(e) end
 
----@protected
 ---@param argTier Int32
 ---@return Bool
-function StaminabarWidgetGameController:OnSceneTierChange(argTier) return end
+function StaminabarWidgetGameController:OnSceneTierChange(argTier) end
 
----@protected
 ---@param arg Int32
 ---@return Bool
-function StaminabarWidgetGameController:OnStaminaPSMChange(arg) return end
+function StaminabarWidgetGameController:OnStaminaPSMChange(arg) end
 
----@protected
 ---@return Bool
-function StaminabarWidgetGameController:OnUninitialize() return end
+function StaminabarWidgetGameController:OnUninitialize() end
 
----@protected
 ---@param arg Int32
 ---@return Bool
-function StaminabarWidgetGameController:OnZoneChange(arg) return end
-
----@private
----@return nil
-function StaminabarWidgetGameController:CreateAnimations() return end
+function StaminabarWidgetGameController:OnZoneChange(arg) end
 
 ---@return nil
-function StaminabarWidgetGameController:EvaluateStaminaBarVisibility() return end
+function StaminabarWidgetGameController:CreateAnimations() end
 
----@private
+---@return nil
+function StaminabarWidgetGameController:EvaluateStaminaBarVisibility() end
+
 ---@return Bool
-function StaminabarWidgetGameController:IsInCombat() return end
+function StaminabarWidgetGameController:IsInCombat() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function StaminabarWidgetGameController:RegisterPSMListeners(playerPuppet) return end
+function StaminabarWidgetGameController:RegisterPSMListeners(playerPuppet) end
 
----@private
 ---@return Bool
-function StaminabarWidgetGameController:ShouldHide() return end
+function StaminabarWidgetGameController:ShouldHide() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function StaminabarWidgetGameController:UnregisterPSMListeners(playerPuppet) return end
+function StaminabarWidgetGameController:UnregisterPSMListeners(playerPuppet) end
 
 ---@param staminaState gamePSMStamina
 ---@return nil
-function StaminabarWidgetGameController:UpdateStaminaLevelWarningFluffTexts(staminaState) return end
+function StaminabarWidgetGameController:UpdateStaminaLevelWarningFluffTexts(staminaState) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@param statPoolType gamedataStatPoolType
 ---@return nil
-function StaminabarWidgetGameController:UpdateStaminaValue(oldValue, newValue, percToPoints, statPoolType) return end
+function StaminabarWidgetGameController:UpdateStaminaValue(oldValue, newValue, percToPoints, statPoolType) end

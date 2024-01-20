@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entContextualLookAtRemoveEvent: entLookAtRemoveEvent
----@field public contextName CName
+---@field contextName CName
 entContextualLookAtRemoveEvent = {}
 
 ---@param fields? entContextualLookAtRemoveEvent
 ---@return entContextualLookAtRemoveEvent
-function entContextualLookAtRemoveEvent.new(fields) return end
+function entContextualLookAtRemoveEvent.new(fields) end

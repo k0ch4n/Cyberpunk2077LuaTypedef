@@ -5,39 +5,33 @@ PocketRadioWheelDecisions = {}
 
 ---@param fields? PocketRadioWheelDecisions
 ---@return PocketRadioWheelDecisions
-function PocketRadioWheelDecisions.new(fields) return end
+function PocketRadioWheelDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function PocketRadioWheelDecisions:OnAction(action, consumer) return end
+function PocketRadioWheelDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PocketRadioWheelDecisions:EnterCondition(stateContext, scriptInterface) return end
+function PocketRadioWheelDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PocketRadioWheelDecisions:IsRadioDisabled(scriptInterface) return end
+function PocketRadioWheelDecisions:IsRadioDisabled(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PocketRadioWheelDecisions:OnAttach(stateContext, scriptInterface) return end
+function PocketRadioWheelDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PocketRadioWheelDecisions:OnDetach(stateContext, scriptInterface) return end
+function PocketRadioWheelDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PocketRadioWheelDecisions:ToQuickSlotsReady(stateContext, scriptInterface) return end
+function PocketRadioWheelDecisions:ToQuickSlotsReady(stateContext, scriptInterface) end

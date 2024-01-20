@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class ComputerSetup: TerminalSetup
----@field public startingMenu EComputerMenuType
----@field public mailsMenu Bool
----@field public filesMenu Bool
----@field public systemMenu Bool
----@field public internetMenu Bool
----@field public newsFeedMenu Bool
----@field public stylePreset TweakDBID
----@field public mailsStructure gamedeviceGenericDataContent[]
----@field public filesStructure gamedeviceGenericDataContent[]
----@field public newsFeed SNewsFeedElementData[]
----@field public newsFeedInterval Float
----@field public internetSubnet SInternetData
----@field public animationState EComputerAnimationState
----@field public animationStateSetFactName CName
----@field public ignoreSleepMode Bool
+---@field startingMenu EComputerMenuType
+---@field mailsMenu Bool
+---@field filesMenu Bool
+---@field systemMenu Bool
+---@field internetMenu Bool
+---@field newsFeedMenu Bool
+---@field stylePreset TweakDBID
+---@field mailsStructure gamedeviceGenericDataContent[]
+---@field filesStructure gamedeviceGenericDataContent[]
+---@field newsFeed SNewsFeedElementData[]
+---@field newsFeedInterval Float
+---@field internetSubnet SInternetData
+---@field animationState EComputerAnimationState
+---@field animationStateSetFactName CName
+---@field ignoreSleepMode Bool
 ComputerSetup = {}
 
 ---@param fields? ComputerSetup
 ---@return ComputerSetup
-function ComputerSetup.new(fields) return end
+function ComputerSetup.new(fields) end

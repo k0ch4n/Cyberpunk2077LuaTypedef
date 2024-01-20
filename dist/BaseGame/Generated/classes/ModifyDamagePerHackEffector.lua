@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class ModifyDamagePerHackEffector: ModifyDamageEffector
----@field public countOnlyUnique Bool
+---@field countOnlyUnique Bool
 ModifyDamagePerHackEffector = {}
 
 ---@param fields? ModifyDamagePerHackEffector
 ---@return ModifyDamagePerHackEffector
-function ModifyDamagePerHackEffector.new(fields) return end
+function ModifyDamagePerHackEffector.new(fields) end
 
----@private
 ---@param list gameStatusEffect[]
 ---@return nil, Float count
-function ModifyDamagePerHackEffector:CountEffects(list) return end
+function ModifyDamagePerHackEffector:CountEffects(list) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyDamagePerHackEffector:Initialize(record, parentRecord) return end
+function ModifyDamagePerHackEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyDamagePerHackEffector:RepeatedAction(owner) return end
+function ModifyDamagePerHackEffector:RepeatedAction(owner) end

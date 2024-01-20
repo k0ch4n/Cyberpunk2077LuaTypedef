@@ -5,4 +5,4 @@ NotifiedSecSysAboutCombat = {}
 
 ---@param fields? NotifiedSecSysAboutCombat
 ---@return NotifiedSecSysAboutCombat
-function NotifiedSecSysAboutCombat.new(fields) return end
+function NotifiedSecSysAboutCombat.new(fields) end

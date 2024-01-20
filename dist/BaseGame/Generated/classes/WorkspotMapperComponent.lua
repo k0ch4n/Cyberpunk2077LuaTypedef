@@ -1,73 +1,63 @@
 ---@meta
 
 ---@class WorkspotMapperComponent: gameScriptableComponent
----@field public workspotsMap WorkspotMapData[]
+---@field workspotsMap WorkspotMapData[]
 WorkspotMapperComponent = {}
 
 ---@param fields? WorkspotMapperComponent
 ---@return WorkspotMapperComponent
-function WorkspotMapperComponent.new(fields) return end
+function WorkspotMapperComponent.new(fields) end
 
----@protected
 ---@param evt OnReleaseWorkspotEvent
 ---@return Bool
-function WorkspotMapperComponent:OnReleaseWorkspot(evt) return end
+function WorkspotMapperComponent:OnReleaseWorkspot(evt) end
 
----@protected
 ---@param evt OnReserveWorkspotEvent
 ---@return Bool
-function WorkspotMapperComponent:OnReserveWorkspot(evt) return end
+function WorkspotMapperComponent:OnReserveWorkspot(evt) end
 
----@private
 ---@param mapEntryIndex Int32
 ---@return WorkspotEntryData
-function WorkspotMapperComponent:FindFreeWorkspotData(mapEntryIndex) return end
+function WorkspotMapperComponent:FindFreeWorkspotData(mapEntryIndex) end
 
----@private
 ---@param mapEntryIndex Int32
 ---@return NodeRef
-function WorkspotMapperComponent:FindFreeWorkspotRef(mapEntryIndex) return end
+function WorkspotMapperComponent:FindFreeWorkspotRef(mapEntryIndex) end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return WorkspotEntryData
-function WorkspotMapperComponent:GetFreeWorkspotDataForAIAction(aiAction) return end
+function WorkspotMapperComponent:GetFreeWorkspotDataForAIAction(aiAction) end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return NodeRef
-function WorkspotMapperComponent:GetFreeWorkspotRefForAIAction(aiAction) return end
+function WorkspotMapperComponent:GetFreeWorkspotRefForAIAction(aiAction) end
 
----@private
 ---@param mapEntryIndex Int32
 ---@return Int32
-function WorkspotMapperComponent:GetFreeWorkspotsCount(mapEntryIndex) return end
+function WorkspotMapperComponent:GetFreeWorkspotsCount(mapEntryIndex) end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return Int32
-function WorkspotMapperComponent:GetFreeWorkspotsCountForAIAction(aiAction) return end
+function WorkspotMapperComponent:GetFreeWorkspotsCountForAIAction(aiAction) end
 
 ---@param aiAction gamedataWorkspotActionType
 ---@return Int32
-function WorkspotMapperComponent:GetNumberOfWorkpotsForAIAction(aiAction) return end
+function WorkspotMapperComponent:GetNumberOfWorkpotsForAIAction(aiAction) end
 
----@private
 ---@param aiAction gamedataWorkspotActionType
 ---@return Int32
-function WorkspotMapperComponent:GetWorkspotMapEntryIdexForAIaction(aiAction) return end
+function WorkspotMapperComponent:GetWorkspotMapEntryIdexForAIaction(aiAction) end
 
----@protected
 ---@return nil
-function WorkspotMapperComponent:OnGameAttach() return end
+function WorkspotMapperComponent:OnGameAttach() end
 
----@protected
 ---@return nil
-function WorkspotMapperComponent:OnGameDetach() return end
+function WorkspotMapperComponent:OnGameDetach() end
 
----@private
 ---@param workspotRef NodeRef
 ---@return nil
-function WorkspotMapperComponent:ReleaseWorkspot(workspotRef) return end
+function WorkspotMapperComponent:ReleaseWorkspot(workspotRef) end
 
----@private
 ---@param workspotRef NodeRef
 ---@return nil
-function WorkspotMapperComponent:ReserveWorkspot(workspotRef) return end
+function WorkspotMapperComponent:ReserveWorkspot(workspotRef) end

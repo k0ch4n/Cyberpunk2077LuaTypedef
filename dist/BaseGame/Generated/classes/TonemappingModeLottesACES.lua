@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TonemappingModeLottesACES: ITonemappingMode
----@field public maxInput Float
----@field public contrast Float
----@field public midIn Float
----@field public midOut Float
+---@field maxInput Float
+---@field contrast Float
+---@field midIn Float
+---@field midOut Float
 TonemappingModeLottesACES = {}
 
 ---@param fields? TonemappingModeLottesACES
 ---@return TonemappingModeLottesACES
-function TonemappingModeLottesACES.new(fields) return end
+function TonemappingModeLottesACES.new(fields) end

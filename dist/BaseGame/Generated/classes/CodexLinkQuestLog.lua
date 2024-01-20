@@ -5,13 +5,11 @@ CodexLinkQuestLog = {}
 
 ---@param fields? CodexLinkQuestLog
 ---@return CodexLinkQuestLog
-function CodexLinkQuestLog.new(fields) return end
+function CodexLinkQuestLog.new(fields) end
 
----@protected
 ---@param value IScriptable
 ---@return Bool
-function CodexLinkQuestLog:OnDataChanged(value) return end
+function CodexLinkQuestLog:OnDataChanged(value) end
 
----@protected
 ---@return Bool
-function CodexLinkQuestLog:OnInitialize() return end
+function CodexLinkQuestLog:OnInitialize() end

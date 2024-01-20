@@ -5,4 +5,4 @@ gameAttachmentSlotEventsItemEquippedInSlot = {}
 
 ---@param fields? gameAttachmentSlotEventsItemEquippedInSlot
 ---@return gameAttachmentSlotEventsItemEquippedInSlot
-function gameAttachmentSlotEventsItemEquippedInSlot.new(fields) return end
+function gameAttachmentSlotEventsItemEquippedInSlot.new(fields) end

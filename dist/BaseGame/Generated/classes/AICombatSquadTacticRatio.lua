@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AICombatSquadTacticRatio
----@field public ratioSum Float
----@field public reachSum Float
----@field public area Float
+---@field ratioSum Float
+---@field reachSum Float
+---@field area Float
 AICombatSquadTacticRatio = {}
 
 ---@param fields? AICombatSquadTacticRatio
 ---@return AICombatSquadTacticRatio
-function AICombatSquadTacticRatio.new(fields) return end
+function AICombatSquadTacticRatio.new(fields) end

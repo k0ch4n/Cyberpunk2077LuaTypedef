@@ -5,16 +5,14 @@ SafeEvents = {}
 
 ---@param fields? SafeEvents
 ---@return SafeEvents
-function SafeEvents.new(fields) return end
+function SafeEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SafeEvents:OnEnter(stateContext, scriptInterface) return end
+function SafeEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SafeEvents:OnExit(stateContext, scriptInterface) return end
+function SafeEvents:OnExit(stateContext, scriptInterface) end

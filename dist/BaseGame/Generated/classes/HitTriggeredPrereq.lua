@@ -5,4 +5,4 @@ HitTriggeredPrereq = {}
 
 ---@param fields? HitTriggeredPrereq
 ---@return HitTriggeredPrereq
-function HitTriggeredPrereq.new(fields) return end
+function HitTriggeredPrereq.new(fields) end

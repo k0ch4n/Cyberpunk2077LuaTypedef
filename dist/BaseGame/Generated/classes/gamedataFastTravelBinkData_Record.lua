@@ -5,25 +5,25 @@ gamedataFastTravelBinkData_Record = {}
 
 ---@param fields? gamedataFastTravelBinkData_Record
 ---@return gamedataFastTravelBinkData_Record
-function gamedataFastTravelBinkData_Record.new(fields) return end
+function gamedataFastTravelBinkData_Record.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataFastTravelBinkData_Record:BinkPath() return end
+function gamedataFastTravelBinkData_Record:BinkPath() end
 
 ---@return gamedataDistrict_Record
-function gamedataFastTravelBinkData_Record:District() return end
+function gamedataFastTravelBinkData_Record:District() end
 
 ---@return gamedataDistrict_Record
-function gamedataFastTravelBinkData_Record:DistrictHandle() return end
+function gamedataFastTravelBinkData_Record:DistrictHandle() end
 
 ---@return gamedataTime_Record
-function gamedataFastTravelBinkData_Record:Time() return end
+function gamedataFastTravelBinkData_Record:Time() end
 
 ---@return gamedataTime_Record
-function gamedataFastTravelBinkData_Record:TimeHandle() return end
+function gamedataFastTravelBinkData_Record:TimeHandle() end
 
 ---@return gamedataWeather_Record
-function gamedataFastTravelBinkData_Record:Weather() return end
+function gamedataFastTravelBinkData_Record:Weather() end
 
 ---@return gamedataWeather_Record
-function gamedataFastTravelBinkData_Record:WeatherHandle() return end
+function gamedataFastTravelBinkData_Record:WeatherHandle() end

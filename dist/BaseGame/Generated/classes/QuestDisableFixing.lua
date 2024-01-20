@@ -5,7 +5,7 @@ QuestDisableFixing = {}
 
 ---@param fields? QuestDisableFixing
 ---@return QuestDisableFixing
-function QuestDisableFixing.new(fields) return end
+function QuestDisableFixing.new(fields) end
 
 ---@return nil
-function QuestDisableFixing:SetProperties() return end
+function QuestDisableFixing:SetProperties() end

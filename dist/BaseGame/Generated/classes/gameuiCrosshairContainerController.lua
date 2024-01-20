@@ -1,90 +1,78 @@
 ---@meta
 
 ---@class gameuiCrosshairContainerController: gameuiHUDGameController
----@field public defaultCrosshair TweakDBID
----@field private bbUIData gameIBlackboard
----@field private bbWeaponInfo gameIBlackboard
----@field private bbPlayerTierEventId redCallbackObject
----@field private bbWeaponEventId redCallbackObject
----@field private interactionBlackboardId redCallbackObject
----@field private visionStateBlackboardId redCallbackObject
----@field private psmVehicleInTPPBlackboardId redCallbackObject
----@field private rootWidget inkCanvasWidget
----@field private fadeOutAnimation inkanimDefinition
----@field private fadeInAnimation inkanimDefinition
----@field private sceneTier GameplayTier
----@field private isUnarmed Bool
----@field private fadeOutValue Float
----@field private wasLastInteractionWithDevice Bool
----@field private CombatStateBlackboardId redCallbackObject
----@field private hiddenAnimProxy inkanimProxy
----@field private Player PlayerPuppet
----@field private HiddenTextCanvas inkWidgetReference
+---@field defaultCrosshair TweakDBID
+---@field bbUIData gameIBlackboard
+---@field bbWeaponInfo gameIBlackboard
+---@field bbPlayerTierEventId redCallbackObject
+---@field bbWeaponEventId redCallbackObject
+---@field interactionBlackboardId redCallbackObject
+---@field visionStateBlackboardId redCallbackObject
+---@field psmVehicleInTPPBlackboardId redCallbackObject
+---@field rootWidget inkCanvasWidget
+---@field fadeOutAnimation inkanimDefinition
+---@field fadeInAnimation inkanimDefinition
+---@field sceneTier GameplayTier
+---@field isUnarmed Bool
+---@field fadeOutValue Float
+---@field wasLastInteractionWithDevice Bool
+---@field CombatStateBlackboardId redCallbackObject
+---@field hiddenAnimProxy inkanimProxy
+---@field Player PlayerPuppet
+---@field HiddenTextCanvas inkWidgetReference
 gameuiCrosshairContainerController = {}
 
 ---@param fields? gameuiCrosshairContainerController
 ---@return gameuiCrosshairContainerController
-function gameuiCrosshairContainerController.new(fields) return end
+function gameuiCrosshairContainerController.new(fields) end
 
 ---@return gameuiCrosshairBaseGameController
-function gameuiCrosshairContainerController:GetActiveCrosshairGameController() return end
+function gameuiCrosshairContainerController:GetActiveCrosshairGameController() end
 
 ---@return inkWidget
-function gameuiCrosshairContainerController:GetActiveCrosshairWidget() return end
+function gameuiCrosshairContainerController:GetActiveCrosshairWidget() end
 
----@protected
 ---@return Bool
-function gameuiCrosshairContainerController:OnInitialize() return end
+function gameuiCrosshairContainerController:OnInitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiCrosshairContainerController:OnInteractionStateChange(value) return end
+function gameuiCrosshairContainerController:OnInteractionStateChange(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiCrosshairContainerController:OnPSMVehicleInTPPChanged(value) return end
+function gameuiCrosshairContainerController:OnPSMVehicleInTPPChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiCrosshairContainerController:OnPSMVisionStateChanged(value) return end
+function gameuiCrosshairContainerController:OnPSMVisionStateChanged(value) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function gameuiCrosshairContainerController:OnPlayerAttach(playerGameObject) return end
+function gameuiCrosshairContainerController:OnPlayerAttach(playerGameObject) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function gameuiCrosshairContainerController:OnPlayerDetach(playerGameObject) return end
+function gameuiCrosshairContainerController:OnPlayerDetach(playerGameObject) end
 
----@protected
 ---@param argTier Int32
 ---@return Bool
-function gameuiCrosshairContainerController:OnSceneTierChange(argTier) return end
+function gameuiCrosshairContainerController:OnSceneTierChange(argTier) end
 
----@protected
 ---@return Bool
-function gameuiCrosshairContainerController:OnUninitialize() return end
+function gameuiCrosshairContainerController:OnUninitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiCrosshairContainerController:OnWeaponSwap(value) return end
+function gameuiCrosshairContainerController:OnWeaponSwap(value) end
 
----@private
 ---@return nil
-function gameuiCrosshairContainerController:CreateAnimations() return end
+function gameuiCrosshairContainerController:CreateAnimations() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiCrosshairContainerController:RegisterPSMListeners(playerPuppet) return end
+function gameuiCrosshairContainerController:RegisterPSMListeners(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiCrosshairContainerController:UnregisterPSMListeners(playerPuppet) return end
+function gameuiCrosshairContainerController:UnregisterPSMListeners(playerPuppet) end

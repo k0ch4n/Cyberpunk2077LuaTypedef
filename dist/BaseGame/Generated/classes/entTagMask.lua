@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entTagMask
----@field public hardTags redTagList
----@field public softTags redTagList
----@field public excludedTags redTagList
+---@field hardTags redTagList
+---@field softTags redTagList
+---@field excludedTags redTagList
 entTagMask = {}
 
 ---@param fields? entTagMask
 ---@return entTagMask
-function entTagMask.new(fields) return end
+function entTagMask.new(fields) end

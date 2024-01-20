@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class animLookAtStateMachineSettings
----@field public partName CName
----@field public partAlias CName
----@field public sphereAttachmentBone CName
----@field public sphereRadius Float
----@field public followingSpeedFactor Float
----@field public followingSpeedByAngleCurve curveData
----@field public enableFloatTrack CName
----@field public eyesOverrideFloatTrack CName
----@field public transitionSpeedMultiplier Float
----@field public blendWeightPowFactor Float
----@field public coneLimitReached CName
----@field public allowToBlendBehindBack Bool
+---@field partName CName
+---@field partAlias CName
+---@field sphereAttachmentBone CName
+---@field sphereRadius Float
+---@field followingSpeedFactor Float
+---@field followingSpeedByAngleCurve curveData
+---@field enableFloatTrack CName
+---@field eyesOverrideFloatTrack CName
+---@field transitionSpeedMultiplier Float
+---@field blendWeightPowFactor Float
+---@field coneLimitReached CName
+---@field allowToBlendBehindBack Bool
 animLookAtStateMachineSettings = {}
 
 ---@param fields? animLookAtStateMachineSettings
 ---@return animLookAtStateMachineSettings
-function animLookAtStateMachineSettings.new(fields) return end
+function animLookAtStateMachineSettings.new(fields) end

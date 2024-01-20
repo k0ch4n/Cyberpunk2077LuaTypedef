@@ -5,4 +5,4 @@ UnfocusSmsMessagerEvent = {}
 
 ---@param fields? UnfocusSmsMessagerEvent
 ---@return UnfocusSmsMessagerEvent
-function UnfocusSmsMessagerEvent.new(fields) return end
+function UnfocusSmsMessagerEvent.new(fields) end

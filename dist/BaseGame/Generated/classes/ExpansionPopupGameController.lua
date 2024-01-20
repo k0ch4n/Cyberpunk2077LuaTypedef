@@ -1,94 +1,80 @@
 ---@meta
 
 ---@class ExpansionPopupGameController: gameuiWidgetGameController
----@field private popupCanvasAnchor inkWidgetReference
----@field private expansionScreenName CName
----@field private thankYouScreenName CName
----@field private reloadingScreenName CName
----@field private preOrderScreenName CName
----@field private closeButtonRef inkWidgetReference
----@field private introAnimationName CName
----@field private uiSystem gameuiGameSystemUI
----@field private data ExpansionPopupData
----@field private requestHandler inkISystemRequestsHandler
----@field private showThankYouPanel Bool
----@field private introAnimProxy inkanimProxy
----@field private featuresExpansionPopupController FeaturesExpansionPopupController
----@field private preOrderPopupController PreOrderPopupController
----@field private reloadingPopupController ReloadingExpansionPopupController
----@field private buyButton inkWidgetReference
----@field private preOrderButton inkWidgetReference
----@field private isProcessingPurchase Bool
+---@field popupCanvasAnchor inkWidgetReference
+---@field expansionScreenName CName
+---@field thankYouScreenName CName
+---@field reloadingScreenName CName
+---@field preOrderScreenName CName
+---@field closeButtonRef inkWidgetReference
+---@field introAnimationName CName
+---@field uiSystem gameuiGameSystemUI
+---@field data ExpansionPopupData
+---@field requestHandler inkISystemRequestsHandler
+---@field showThankYouPanel Bool
+---@field introAnimProxy inkanimProxy
+---@field featuresExpansionPopupController FeaturesExpansionPopupController
+---@field preOrderPopupController PreOrderPopupController
+---@field reloadingPopupController ReloadingExpansionPopupController
+---@field buyButton inkWidgetReference
+---@field preOrderButton inkWidgetReference
+---@field isProcessingPurchase Bool
 ExpansionPopupGameController = {}
 
 ---@param fields? ExpansionPopupGameController
 ---@return ExpansionPopupGameController
-function ExpansionPopupGameController.new(fields) return end
+function ExpansionPopupGameController.new(fields) end
 
----@protected
 ---@param progress Float
 ---@return Bool
-function ExpansionPopupGameController:OnAdditionalContentDataReloadProgress_PopUp(progress) return end
+function ExpansionPopupGameController:OnAdditionalContentDataReloadProgress_PopUp(progress) end
 
----@protected
 ---@return Bool
-function ExpansionPopupGameController:OnInitialize() return end
+function ExpansionPopupGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function ExpansionPopupGameController:OnOutroAnimationFinished(proxy) return end
+function ExpansionPopupGameController:OnOutroAnimationFinished(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionPopupGameController:OnPressBuy(evt) return end
+function ExpansionPopupGameController:OnPressBuy(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionPopupGameController:OnPressClose(evt) return end
+function ExpansionPopupGameController:OnPressClose(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionPopupGameController:OnPressPreOrder(evt) return end
+function ExpansionPopupGameController:OnPressPreOrder(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function ExpansionPopupGameController:OnRelease(evt) return end
+function ExpansionPopupGameController:OnRelease(evt) end
 
----@protected
 ---@param evt ReloadingExpansionPopupCloseEvent
 ---@return Bool
-function ExpansionPopupGameController:OnReloadingExpansionPopupCloseEvent(evt) return end
+function ExpansionPopupGameController:OnReloadingExpansionPopupCloseEvent(evt) end
 
----@protected
 ---@return Bool
-function ExpansionPopupGameController:OnUninitialize() return end
+function ExpansionPopupGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function ExpansionPopupGameController:BuyPressed() return end
+function ExpansionPopupGameController:BuyPressed() end
 
----@private
 ---@return nil
-function ExpansionPopupGameController:Close() return end
+function ExpansionPopupGameController:Close() end
 
----@private
 ---@return CName
-function ExpansionPopupGameController:GetPanelName() return end
+function ExpansionPopupGameController:GetPanelName() end
 
 ---@param id CName|string
 ---@param success Bool
 ---@return nil
-function ExpansionPopupGameController:OnAdditionalContentPurchaseResult_PopUp(id, success) return end
+function ExpansionPopupGameController:OnAdditionalContentPurchaseResult_PopUp(id, success) end
 
----@private
 ---@return nil
-function ExpansionPopupGameController:OpenStorePage() return end
+function ExpansionPopupGameController:OpenStorePage() end
 
----@private
 ---@return nil
-function ExpansionPopupGameController:SetupData() return end
+function ExpansionPopupGameController:SetupData() end

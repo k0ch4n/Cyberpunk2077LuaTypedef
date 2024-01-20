@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class IsHumanPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 IsHumanPrereq = {}
 
 ---@param fields? IsHumanPrereq
 ---@return IsHumanPrereq
-function IsHumanPrereq.new(fields) return end
+function IsHumanPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IsHumanPrereq:Initialize(recordID) return end
+function IsHumanPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function IsHumanPrereq:IsFulfilled(context) return end
+function IsHumanPrereq:IsFulfilled(context) end

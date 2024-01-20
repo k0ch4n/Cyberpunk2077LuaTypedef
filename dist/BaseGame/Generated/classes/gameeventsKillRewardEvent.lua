@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameeventsKillRewardEvent: redEvent
----@field public victim gameObject
----@field public killType gameKillType
+---@field victim gameObject
+---@field killType gameKillType
 gameeventsKillRewardEvent = {}
 
 ---@param fields? gameeventsKillRewardEvent
 ---@return gameeventsKillRewardEvent
-function gameeventsKillRewardEvent.new(fields) return end
+function gameeventsKillRewardEvent.new(fields) end

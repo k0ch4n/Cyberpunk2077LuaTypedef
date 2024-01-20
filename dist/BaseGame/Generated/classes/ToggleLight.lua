@@ -5,8 +5,8 @@ ToggleLight = {}
 
 ---@param fields? ToggleLight
 ---@return ToggleLight
-function ToggleLight.new(fields) return end
+function ToggleLight.new(fields) end
 
 ---@param status worldTrafficLightColor
 ---@return nil
-function ToggleLight:SetProperties(status) return end
+function ToggleLight:SetProperties(status) end

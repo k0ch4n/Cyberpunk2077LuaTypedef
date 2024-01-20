@@ -5,4 +5,4 @@ BlockHealingConsumableDrop = {}
 
 ---@param fields? BlockHealingConsumableDrop
 ---@return BlockHealingConsumableDrop
-function BlockHealingConsumableDrop.new(fields) return end
+function BlockHealingConsumableDrop.new(fields) end

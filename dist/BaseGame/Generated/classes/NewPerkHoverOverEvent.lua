@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class NewPerkHoverOverEvent: redEvent
----@field public controller NewPerksPerkItemLogicController
----@field public evt inkPointerEvent
----@field public perkData NewPerkDisplayData
+---@field controller NewPerksPerkItemLogicController
+---@field evt inkPointerEvent
+---@field perkData NewPerkDisplayData
 NewPerkHoverOverEvent = {}
 
 ---@param fields? NewPerkHoverOverEvent
 ---@return NewPerkHoverOverEvent
-function NewPerkHoverOverEvent.new(fields) return end
+function NewPerkHoverOverEvent.new(fields) end

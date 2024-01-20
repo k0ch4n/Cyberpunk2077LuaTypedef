@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questVoicesetManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questIVoicesetManager_NodeType
+---@field type questIVoicesetManager_NodeType
 questVoicesetManagerNodeDefinition = {}
 
 ---@param fields? questVoicesetManagerNodeDefinition
 ---@return questVoicesetManagerNodeDefinition
-function questVoicesetManagerNodeDefinition.new(fields) return end
+function questVoicesetManagerNodeDefinition.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SpeedIndicatorIconsManager: inkWidgetLogicController
----@field private speedIndicator inkImageWidgetReference
----@field private mirroredSpeedIndicator inkImageWidgetReference
+---@field speedIndicator inkImageWidgetReference
+---@field mirroredSpeedIndicator inkImageWidgetReference
 SpeedIndicatorIconsManager = {}
 
 ---@param fields? SpeedIndicatorIconsManager
 ---@return SpeedIndicatorIconsManager
-function SpeedIndicatorIconsManager.new(fields) return end
+function SpeedIndicatorIconsManager.new(fields) end
 
 ---@param currentSpeed scnPlaySpeed
 ---@param currentDirection scnPlayDirection
 ---@return nil
-function SpeedIndicatorIconsManager:SetBraindanceSpeed(currentSpeed, currentDirection) return end
+function SpeedIndicatorIconsManager:SetBraindanceSpeed(currentSpeed, currentDirection) end

@@ -5,4 +5,4 @@ inkComboBoxVisibleChangedCallback = {}
 
 ---@param fields? inkComboBoxVisibleChangedCallback
 ---@return inkComboBoxVisibleChangedCallback
-function inkComboBoxVisibleChangedCallback.new(fields) return end
+function inkComboBoxVisibleChangedCallback.new(fields) end

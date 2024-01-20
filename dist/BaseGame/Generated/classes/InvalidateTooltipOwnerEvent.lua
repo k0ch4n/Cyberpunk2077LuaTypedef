@@ -5,4 +5,4 @@ InvalidateTooltipOwnerEvent = {}
 
 ---@param fields? InvalidateTooltipOwnerEvent
 ---@return InvalidateTooltipOwnerEvent
-function InvalidateTooltipOwnerEvent.new(fields) return end
+function InvalidateTooltipOwnerEvent.new(fields) end

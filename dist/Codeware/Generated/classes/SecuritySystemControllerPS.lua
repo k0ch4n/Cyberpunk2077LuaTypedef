@@ -5,25 +5,21 @@ SecuritySystemControllerPS = {}
 
 ---@param fields? SecuritySystemControllerPS
 ---@return SecuritySystemControllerPS
-function SecuritySystemControllerPS.new(fields) return end
+function SecuritySystemControllerPS.new(fields) end
 
----@protected
 ---@param evt ResetSecuritySystemNetwork
 ---@return EntityNotificationType
-function SecuritySystemControllerPS:OnResetSecuritySystemNetwork(evt) return end
+function SecuritySystemControllerPS:OnResetSecuritySystemNetwork(evt) end
 
----@protected
 ---@param evt redEvent
 ---@param self? Bool
 ---@return nil
-function SecuritySystemControllerPS:QueueSystemEvent(evt, self) return end
+function SecuritySystemControllerPS:QueueSystemEvent(evt, self) end
 
----@protected
 ---@param evt redEvent
 ---@param self? Bool
 ---@return nil
-function SecuritySystemControllerPS:QueueSystemPSEvent(evt, self) return end
+function SecuritySystemControllerPS:QueueSystemPSEvent(evt, self) end
 
----@protected
 ---@return nil
-function SecuritySystemControllerPS:ReinitializeSecuritySystemAttitudeGroup() return end
+function SecuritySystemControllerPS:ReinitializeSecuritySystemAttitudeGroup() end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ShaftsAreaSettings
----@field public shaftsLevelIndex Uint32
----@field public shaftsIntensity Float
----@field public shaftsThresholdsScale Float
+---@field shaftsLevelIndex Uint32
+---@field shaftsIntensity Float
+---@field shaftsThresholdsScale Float
 ShaftsAreaSettings = {}
 
 ---@param fields? ShaftsAreaSettings
 ---@return ShaftsAreaSettings
-function ShaftsAreaSettings.new(fields) return end
+function ShaftsAreaSettings.new(fields) end

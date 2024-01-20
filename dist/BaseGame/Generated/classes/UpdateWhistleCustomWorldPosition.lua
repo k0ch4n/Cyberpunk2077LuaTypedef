@@ -1,21 +1,19 @@
 ---@meta
 
 ---@class UpdateWhistleCustomWorldPosition: UpdateWhistlePosition
----@field public outPositionArgument AIArgumentMapping
+---@field outPositionArgument AIArgumentMapping
 UpdateWhistleCustomWorldPosition = {}
 
 ---@param fields? UpdateWhistleCustomWorldPosition
 ---@return UpdateWhistleCustomWorldPosition
-function UpdateWhistleCustomWorldPosition.new(fields) return end
+function UpdateWhistleCustomWorldPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param position Vector4
 ---@return nil
-function UpdateWhistleCustomWorldPosition:SetPosition(context, position) return end
+function UpdateWhistleCustomWorldPosition:SetPosition(context, position) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param target gameObject
 ---@return nil
-function UpdateWhistleCustomWorldPosition:SetTarget(context, target) return end
+function UpdateWhistleCustomWorldPosition:SetTarget(context, target) end

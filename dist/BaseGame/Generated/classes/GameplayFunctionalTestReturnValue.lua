@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GameplayFunctionalTestReturnValue
----@field public value String
----@field public errorInfo String
+---@field value String
+---@field errorInfo String
 GameplayFunctionalTestReturnValue = {}
 
 ---@param fields? GameplayFunctionalTestReturnValue
 ---@return GameplayFunctionalTestReturnValue
-function GameplayFunctionalTestReturnValue.new(fields) return end
+function GameplayFunctionalTestReturnValue.new(fields) end

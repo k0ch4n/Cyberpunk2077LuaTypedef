@@ -5,22 +5,22 @@ gamedataNPCEquipmentItemPool_Record = {}
 
 ---@param fields? gamedataNPCEquipmentItemPool_Record
 ---@return gamedataNPCEquipmentItemPool_Record
-function gamedataNPCEquipmentItemPool_Record.new(fields) return end
+function gamedataNPCEquipmentItemPool_Record.new(fields) end
 
 ---@return Int32
-function gamedataNPCEquipmentItemPool_Record:GetPoolCount() return end
+function gamedataNPCEquipmentItemPool_Record:GetPoolCount() end
 
 ---@param index Int32
 ---@return gamedataNPCEquipmentItemsPoolEntry_Record
-function gamedataNPCEquipmentItemPool_Record:GetPoolItem(index) return end
+function gamedataNPCEquipmentItemPool_Record:GetPoolItem(index) end
 
 ---@param index Int32
 ---@return gamedataNPCEquipmentItemsPoolEntry_Record
-function gamedataNPCEquipmentItemPool_Record:GetPoolItemHandle(index) return end
+function gamedataNPCEquipmentItemPool_Record:GetPoolItemHandle(index) end
 
 ---@return nil, gamedataNPCEquipmentItemsPoolEntry_Record[] outList
-function gamedataNPCEquipmentItemPool_Record:Pool() return end
+function gamedataNPCEquipmentItemPool_Record:Pool() end
 
 ---@param item gamedataNPCEquipmentItemsPoolEntry_Record
 ---@return Bool
-function gamedataNPCEquipmentItemPool_Record:PoolContains(item) return end
+function gamedataNPCEquipmentItemPool_Record:PoolContains(item) end

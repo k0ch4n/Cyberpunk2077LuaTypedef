@@ -5,4 +5,4 @@ gameuiSideScrollerSpawnerAdvanced = {}
 
 ---@param fields? gameuiSideScrollerSpawnerAdvanced
 ---@return gameuiSideScrollerSpawnerAdvanced
-function gameuiSideScrollerSpawnerAdvanced.new(fields) return end
+function gameuiSideScrollerSpawnerAdvanced.new(fields) end

@@ -5,4 +5,4 @@ gamedataPersistentLootTable_Record = {}
 
 ---@param fields? gamedataPersistentLootTable_Record
 ---@return gamedataPersistentLootTable_Record
-function gamedataPersistentLootTable_Record.new(fields) return end
+function gamedataPersistentLootTable_Record.new(fields) end

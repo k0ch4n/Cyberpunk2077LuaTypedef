@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class CheckCurrentStatusEffect: AIStatusEffectCondition
----@field public statusEffectTypeToCompare gamedataStatusEffectType
----@field public statusEffectTagToCompare CName
+---@field statusEffectTypeToCompare gamedataStatusEffectType
+---@field statusEffectTagToCompare CName
 CheckCurrentStatusEffect = {}
 
 ---@param fields? CheckCurrentStatusEffect
 ---@return CheckCurrentStatusEffect
-function CheckCurrentStatusEffect.new(fields) return end
+function CheckCurrentStatusEffect.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckCurrentStatusEffect:Check(context) return end
+function CheckCurrentStatusEffect:Check(context) end

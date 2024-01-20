@@ -5,4 +5,4 @@ gameScanningActionFinishedEvent = {}
 
 ---@param fields? gameScanningActionFinishedEvent
 ---@return gameScanningActionFinishedEvent
-function gameScanningActionFinishedEvent.new(fields) return end
+function gameScanningActionFinishedEvent.new(fields) end

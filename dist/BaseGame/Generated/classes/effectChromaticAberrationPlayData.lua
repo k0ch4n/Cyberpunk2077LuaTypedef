@@ -5,4 +5,4 @@ effectChromaticAberrationPlayData = {}
 
 ---@param fields? effectChromaticAberrationPlayData
 ---@return effectChromaticAberrationPlayData
-function effectChromaticAberrationPlayData.new(fields) return end
+function effectChromaticAberrationPlayData.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameTickableEvent: redEvent
----@field public state gameTickableEventState
+---@field state gameTickableEventState
 gameTickableEvent = {}
 
 ---@param fields? gameTickableEvent
 ---@return gameTickableEvent
-function gameTickableEvent.new(fields) return end
+function gameTickableEvent.new(fields) end
 
 ---@return Float
-function gameTickableEvent:GetProgress() return end
+function gameTickableEvent:GetProgress() end
 
 ---@return gameTickableEventState
-function gameTickableEvent:GetState() return end
+function gameTickableEvent:GetState() end

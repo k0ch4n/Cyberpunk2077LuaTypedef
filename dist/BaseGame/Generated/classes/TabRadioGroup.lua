@@ -1,28 +1,26 @@
 ---@meta
 
 ---@class TabRadioGroup: inkRadioGroupController
----@field private root inkCompoundWidgetReference
----@field public toggles TabButtonController[]
----@field private TooltipsManager gameuiTooltipsManager
+---@field root inkCompoundWidgetReference
+---@field toggles TabButtonController[]
+---@field TooltipsManager gameuiTooltipsManager
 TabRadioGroup = {}
 
 ---@param fields? TabRadioGroup
 ---@return TabRadioGroup
-function TabRadioGroup.new(fields) return end
+function TabRadioGroup.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TabRadioGroup:OnHoverOut(evt) return end
+function TabRadioGroup:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function TabRadioGroup:OnHoverOver(evt) return end
+function TabRadioGroup:OnHoverOver(evt) end
 
 ---@param enumCount Int32
 ---@param tooltipsManager? gameuiTooltipsManager
 ---@param labelList? String[]
 ---@param iconList? String[]
 ---@return nil
-function TabRadioGroup:SetData(enumCount, tooltipsManager, labelList, iconList) return end
+function TabRadioGroup:SetData(enumCount, tooltipsManager, labelList, iconList) end

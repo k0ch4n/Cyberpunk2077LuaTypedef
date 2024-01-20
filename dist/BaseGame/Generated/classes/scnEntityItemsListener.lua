@@ -5,4 +5,4 @@ scnEntityItemsListener = {}
 
 ---@param fields? scnEntityItemsListener
 ---@return scnEntityItemsListener
-function scnEntityItemsListener.new(fields) return end
+function scnEntityItemsListener.new(fields) end

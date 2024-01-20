@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class InterestingFacts
----@field public zone CName
+---@field zone CName
 InterestingFacts = {}
 
 ---@param fields? InterestingFacts
 ---@return InterestingFacts
-function InterestingFacts.new(fields) return end
+function InterestingFacts.new(fields) end

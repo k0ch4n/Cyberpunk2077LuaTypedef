@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class scnFindEntityInContextParams
----@field public contextualName scnContextualActorName
----@field public voiceVagId scnVoicetagId
----@field public contextActorName CName
----@field public specRecordId TweakDBID
----@field public forceMaxVisibility Bool
+---@field contextualName scnContextualActorName
+---@field voiceVagId scnVoicetagId
+---@field contextActorName CName
+---@field specRecordId TweakDBID
+---@field forceMaxVisibility Bool
 scnFindEntityInContextParams = {}
 
 ---@param fields? scnFindEntityInContextParams
 ---@return scnFindEntityInContextParams
-function scnFindEntityInContextParams.new(fields) return end
+function scnFindEntityInContextParams.new(fields) end

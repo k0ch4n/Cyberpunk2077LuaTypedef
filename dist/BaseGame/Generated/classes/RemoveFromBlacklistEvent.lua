@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RemoveFromBlacklistEvent: redEvent
----@field public entityIDToRemove entEntityID
----@field public isPlayerEntity Bool
+---@field entityIDToRemove entEntityID
+---@field isPlayerEntity Bool
 RemoveFromBlacklistEvent = {}
 
 ---@param fields? RemoveFromBlacklistEvent
 ---@return RemoveFromBlacklistEvent
-function RemoveFromBlacklistEvent.new(fields) return end
+function RemoveFromBlacklistEvent.new(fields) end

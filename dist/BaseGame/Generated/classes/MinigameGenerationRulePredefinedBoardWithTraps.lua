@@ -5,9 +5,8 @@ MinigameGenerationRulePredefinedBoardWithTraps = {}
 
 ---@param fields? MinigameGenerationRulePredefinedBoardWithTraps
 ---@return MinigameGenerationRulePredefinedBoardWithTraps
-function MinigameGenerationRulePredefinedBoardWithTraps.new(fields) return end
+function MinigameGenerationRulePredefinedBoardWithTraps.new(fields) end
 
----@protected
 ---@param size Uint32
 ---@return Bool, gameuiGridCell[][] grid
-function MinigameGenerationRulePredefinedBoardWithTraps:OnProcessRule(size) return end
+function MinigameGenerationRulePredefinedBoardWithTraps:OnProcessRule(size) end

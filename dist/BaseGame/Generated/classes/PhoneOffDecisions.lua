@@ -5,10 +5,9 @@ PhoneOffDecisions = {}
 
 ---@param fields? PhoneOffDecisions
 ---@return PhoneOffDecisions
-function PhoneOffDecisions.new(fields) return end
+function PhoneOffDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PhoneOffDecisions:EnterCondition(stateContext, scriptInterface) return end
+function PhoneOffDecisions:EnterCondition(stateContext, scriptInterface) end

@@ -5,4 +5,4 @@ OnFocusLost = {}
 
 ---@param fields? OnFocusLost
 ---@return OnFocusLost
-function OnFocusLost.new(fields) return end
+function OnFocusLost.new(fields) end

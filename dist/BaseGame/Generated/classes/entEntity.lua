@@ -1,107 +1,106 @@
 ---@meta
 
 ---@class entEntity: IScriptable
----@field public customCameraTarget ECustomCameraTarget
----@field public renderSceneLayerMask RenderSceneLayerMask
+---@field customCameraTarget ECustomCameraTarget
+---@field renderSceneLayerMask RenderSceneLayerMask
 entEntity = {}
 
 ---@param fields? entEntity
 ---@return entEntity
-function entEntity.new(fields) return end
+function entEntity.new(fields) end
 
 ---@param evtName CName|string
 ---@return Bool
-function entEntity:CanServiceEvent(evtName) return end
+function entEntity:CanServiceEvent(evtName) end
 
 ---@return nil
-function entEntity:Dispose() return end
+function entEntity:Dispose() end
 
 ---@param componentName CName|string
 ---@return entIComponent
-function entEntity:FindComponentByName(componentName) return end
+function entEntity:FindComponentByName(componentName) end
 
 ---@return Uint32
-function entEntity:GetControllingPeerID() return end
+function entEntity:GetControllingPeerID() end
 
 ---@return CName
-function entEntity:GetCurrentAppearanceName() return end
+function entEntity:GetCurrentAppearanceName() end
 
 ---@return entEntityGameInterface
-function entEntity:GetEntity() return end
+function entEntity:GetEntity() end
 
 ---@return entEntityID
-function entEntity:GetEntityID() return end
+function entEntity:GetEntityID() end
 
 ---@return Vector4
-function entEntity:GetWorldForward() return end
+function entEntity:GetWorldForward() end
 
 ---@return Quaternion
-function entEntity:GetWorldOrientation() return end
+function entEntity:GetWorldOrientation() end
 
 ---@return Vector4
-function entEntity:GetWorldPosition() return end
+function entEntity:GetWorldPosition() end
 
 ---@return Vector4
-function entEntity:GetWorldRight() return end
+function entEntity:GetWorldRight() end
 
 ---@return Vector4
-function entEntity:GetWorldUp() return end
+function entEntity:GetWorldUp() end
 
 ---@return Float
-function entEntity:GetWorldYaw() return end
+function entEntity:GetWorldYaw() end
 
 ---@return Bool
-function entEntity:IsAttached() return end
+function entEntity:IsAttached() end
 
 ---@return Bool
-function entEntity:IsControlledByAnotherClient() return end
+function entEntity:IsControlledByAnotherClient() end
 
 ---@return Bool
-function entEntity:IsControlledByAnyPeer() return end
+function entEntity:IsControlledByAnyPeer() end
 
 ---@return Bool
-function entEntity:IsControlledByLocalPeer() return end
+function entEntity:IsControlledByLocalPeer() end
 
 ---@return Bool
-function entEntity:IsReplicated() return end
+function entEntity:IsReplicated() end
 
 ---@param visualTag CName|string
 ---@return Bool
-function entEntity:MatchVisualTag(visualTag) return end
+function entEntity:MatchVisualTag(visualTag) end
 
 ---@param visualTags CName[]|string[]
 ---@return Bool
-function entEntity:MatchVisualTags(visualTags) return end
+function entEntity:MatchVisualTags(visualTags) end
 
 ---@param newAppearanceName CName|string
 ---@return nil
-function entEntity:PrefetchAppearanceChange(newAppearanceName) return end
+function entEntity:PrefetchAppearanceChange(newAppearanceName) end
 
 ---@param evt redEvent
 ---@return nil
-function entEntity:QueueEvent(evt) return end
+function entEntity:QueueEvent(evt) end
 
 ---@param entityID entEntityID
 ---@param evt redEvent
 ---@return Bool
-function entEntity:QueueEventForEntityID(entityID, evt) return end
+function entEntity:QueueEventForEntityID(entityID, evt) end
 
 ---@param nodeID worldGlobalNodeRef
 ---@param evt redEvent
 ---@return Bool
-function entEntity:QueueEventForNodeID(nodeID, evt) return end
+function entEntity:QueueEventForNodeID(nodeID, evt) end
 
 ---@param newAppearanceName CName|string
 ---@return nil
-function entEntity:ScheduleAppearanceChange(newAppearanceName) return end
+function entEntity:ScheduleAppearanceChange(newAppearanceName) end
 
----@protected
 ---@param evt SetGlitchOnUIEvent
 ---@return Bool
-function entEntity:OnSetGlitchOnUIEvent(evt) return end
+function entEntity:OnSetGlitchOnUIEvent(evt) end
 
 ---@return WorldTransform
-function entEntity:GetWorldTransform() return end
+function entEntity:GetWorldTransform() end
 
 ---@return nil, rendInfoBox box
-function entEntity:OnInspectorDebugDraw() return end
+function entEntity:OnInspectorDebugDraw() end

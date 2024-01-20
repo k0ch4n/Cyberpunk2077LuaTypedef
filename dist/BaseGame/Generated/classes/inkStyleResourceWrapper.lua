@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkStyleResourceWrapper: ISerializable
----@field public styleResource inkStyleResource
+---@field styleResource inkStyleResource
 inkStyleResourceWrapper = {}
 
 ---@param fields? inkStyleResourceWrapper
 ---@return inkStyleResourceWrapper
-function inkStyleResourceWrapper.new(fields) return end
+function inkStyleResourceWrapper.new(fields) end

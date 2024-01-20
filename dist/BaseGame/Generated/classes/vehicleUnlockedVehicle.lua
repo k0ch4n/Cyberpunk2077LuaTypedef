@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class vehicleUnlockedVehicle
----@field public vehicleID vehicleGarageVehicleID
----@field public health Float
+---@field vehicleID vehicleGarageVehicleID
+---@field health Float
 vehicleUnlockedVehicle = {}
 
 ---@param fields? vehicleUnlockedVehicle
 ---@return vehicleUnlockedVehicle
-function vehicleUnlockedVehicle.new(fields) return end
+function vehicleUnlockedVehicle.new(fields) end

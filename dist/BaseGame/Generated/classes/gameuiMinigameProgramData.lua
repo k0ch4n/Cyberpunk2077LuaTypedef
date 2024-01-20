@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiMinigameProgramData
----@field public actionID TweakDBID
----@field public programName CName
+---@field actionID TweakDBID
+---@field programName CName
 gameuiMinigameProgramData = {}
 
 ---@param fields? gameuiMinigameProgramData
 ---@return gameuiMinigameProgramData
-function gameuiMinigameProgramData.new(fields) return end
+function gameuiMinigameProgramData.new(fields) end

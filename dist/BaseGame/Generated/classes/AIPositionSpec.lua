@@ -1,40 +1,40 @@
 ---@meta
 
 ---@class AIPositionSpec
----@field public entity entEntity
----@field public worldPosition WorldPosition
+---@field entity entEntity
+---@field worldPosition WorldPosition
 AIPositionSpec = {}
 
 ---@param fields? AIPositionSpec
 ---@return AIPositionSpec
-function AIPositionSpec.new(fields) return end
+function AIPositionSpec.new(fields) end
 
 ---@param position AIPositionSpec
 ---@return entEntity
-function AIPositionSpec.GetEntity(position) return end
+function AIPositionSpec.GetEntity(position) end
 
 ---@param position AIPositionSpec
 ---@return Vector4
-function AIPositionSpec.GetWorldPosition(position) return end
+function AIPositionSpec.GetWorldPosition(position) end
 
 ---@param position AIPositionSpec
 ---@return Bool
-function AIPositionSpec.IsEmpty(position) return end
+function AIPositionSpec.IsEmpty(position) end
 
 ---@param position AIPositionSpec
 ---@return Bool
-function AIPositionSpec.IsEntity(position) return end
+function AIPositionSpec.IsEntity(position) end
 
 ---@param position AIPositionSpec
 ---@return Bool
-function AIPositionSpec.IsWorldPosition(position) return end
+function AIPositionSpec.IsWorldPosition(position) end
 
 ---@param aiPositionSpec AIPositionSpec
 ---@param entity entEntity
 ---@return nil
-function AIPositionSpec.SetEntity(aiPositionSpec, entity) return end
+function AIPositionSpec.SetEntity(aiPositionSpec, entity) end
 
 ---@param aiPositionSpec AIPositionSpec
 ---@param position WorldPosition
 ---@return nil
-function AIPositionSpec.SetWorldPosition(aiPositionSpec, position) return end
+function AIPositionSpec.SetWorldPosition(aiPositionSpec, position) end

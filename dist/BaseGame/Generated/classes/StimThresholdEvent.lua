@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class StimThresholdEvent: redEvent
----@field public reset Bool
----@field public timeThreshold Float
+---@field reset Bool
+---@field timeThreshold Float
 StimThresholdEvent = {}
 
 ---@param fields? StimThresholdEvent
 ---@return StimThresholdEvent
-function StimThresholdEvent.new(fields) return end
+function StimThresholdEvent.new(fields) end

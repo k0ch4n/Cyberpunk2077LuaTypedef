@@ -5,4 +5,4 @@ animAnimNode_EyesReset = {}
 
 ---@param fields? animAnimNode_EyesReset
 ---@return animAnimNode_EyesReset
-function animAnimNode_EyesReset.new(fields) return end
+function animAnimNode_EyesReset.new(fields) end

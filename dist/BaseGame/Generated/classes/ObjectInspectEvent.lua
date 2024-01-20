@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ObjectInspectEvent: redEvent
----@field public showItem Bool
+---@field showItem Bool
 ObjectInspectEvent = {}
 
 ---@param fields? ObjectInspectEvent
 ---@return ObjectInspectEvent
-function ObjectInspectEvent.new(fields) return end
+function ObjectInspectEvent.new(fields) end

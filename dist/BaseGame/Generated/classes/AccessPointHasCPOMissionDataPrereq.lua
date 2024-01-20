@@ -5,8 +5,8 @@ AccessPointHasCPOMissionDataPrereq = {}
 
 ---@param fields? AccessPointHasCPOMissionDataPrereq
 ---@return AccessPointHasCPOMissionDataPrereq
-function AccessPointHasCPOMissionDataPrereq.new(fields) return end
+function AccessPointHasCPOMissionDataPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function AccessPointHasCPOMissionDataPrereq:IsFulfilled(context) return end
+function AccessPointHasCPOMissionDataPrereq:IsFulfilled(context) end

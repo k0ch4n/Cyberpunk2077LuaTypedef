@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehiclePortalsList: IScriptable
----@field public listPoints NodeRef[]
+---@field listPoints NodeRef[]
 vehiclePortalsList = {}
 
 ---@param fields? vehiclePortalsList
 ---@return vehiclePortalsList
-function vehiclePortalsList.new(fields) return end
+function vehiclePortalsList.new(fields) end

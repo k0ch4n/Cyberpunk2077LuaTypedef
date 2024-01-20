@@ -5,4 +5,4 @@ gameuiBodyControllerCustomizationStateUpdater = {}
 
 ---@param fields? gameuiBodyControllerCustomizationStateUpdater
 ---@return gameuiBodyControllerCustomizationStateUpdater
-function gameuiBodyControllerCustomizationStateUpdater.new(fields) return end
+function gameuiBodyControllerCustomizationStateUpdater.new(fields) end

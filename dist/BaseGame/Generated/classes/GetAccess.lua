@@ -5,8 +5,8 @@ GetAccess = {}
 
 ---@param fields? GetAccess
 ---@return GetAccess
-function GetAccess.new(fields) return end
+function GetAccess.new(fields) end
 
 ---@param hasAccess Bool
 ---@return nil
-function GetAccess:SetProperties(hasAccess) return end
+function GetAccess:SetProperties(hasAccess) end

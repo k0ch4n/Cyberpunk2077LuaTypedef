@@ -5,14 +5,12 @@ CombatConditions = {}
 
 ---@param fields? CombatConditions
 ---@return CombatConditions
-function CombatConditions.new(fields) return end
+function CombatConditions.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CombatConditions:Activate(context) return end
+function CombatConditions:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CombatConditions:Check(context) return end
+function CombatConditions:Check(context) end

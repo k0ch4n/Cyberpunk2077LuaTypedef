@@ -5,4 +5,4 @@ inkVirtualCompoundItemSelectControllerCallback = {}
 
 ---@param fields? inkVirtualCompoundItemSelectControllerCallback
 ---@return inkVirtualCompoundItemSelectControllerCallback
-function inkVirtualCompoundItemSelectControllerCallback.new(fields) return end
+function inkVirtualCompoundItemSelectControllerCallback.new(fields) end

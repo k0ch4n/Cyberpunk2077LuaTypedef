@@ -5,4 +5,4 @@ worldCompiledNodeInstanceSetupInfoBuffer = {}
 
 ---@param fields? worldCompiledNodeInstanceSetupInfoBuffer
 ---@return worldCompiledNodeInstanceSetupInfoBuffer
-function worldCompiledNodeInstanceSetupInfoBuffer.new(fields) return end
+function worldCompiledNodeInstanceSetupInfoBuffer.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameReplAnimTransformSkipRequest: gameReplAnimTransformRequestBase
----@field public animName CName
----@field public skipTime Float
+---@field animName CName
+---@field skipTime Float
 gameReplAnimTransformSkipRequest = {}
 
 ---@param fields? gameReplAnimTransformSkipRequest
 ---@return gameReplAnimTransformSkipRequest
-function gameReplAnimTransformSkipRequest.new(fields) return end
+function gameReplAnimTransformSkipRequest.new(fields) end

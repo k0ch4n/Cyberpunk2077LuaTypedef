@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldProxyMeshGroupBuildParams
----@field public overridePrefabBuildParams Bool
----@field public buildParams worldGroupProxyMeshBuildParams
+---@field overridePrefabBuildParams Bool
+---@field buildParams worldGroupProxyMeshBuildParams
 worldProxyMeshGroupBuildParams = {}
 
 ---@param fields? worldProxyMeshGroupBuildParams
 ---@return worldProxyMeshGroupBuildParams
-function worldProxyMeshGroupBuildParams.new(fields) return end
+function worldProxyMeshGroupBuildParams.new(fields) end

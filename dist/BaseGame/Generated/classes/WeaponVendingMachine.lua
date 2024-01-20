@@ -1,58 +1,49 @@
 ---@meta
 
 ---@class WeaponVendingMachine: VendingMachine
----@field protected bigAdScreen IWorldWidgetComponent
+---@field bigAdScreen IWorldWidgetComponent
 WeaponVendingMachine = {}
 
 ---@param fields? WeaponVendingMachine
 ---@return WeaponVendingMachine
-function WeaponVendingMachine.new(fields) return end
+function WeaponVendingMachine.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function WeaponVendingMachine:OnRequestComponents(ri) return end
+function WeaponVendingMachine:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function WeaponVendingMachine:OnTakeControl(ri) return end
+function WeaponVendingMachine:OnTakeControl(ri) end
 
----@protected
 ---@param shouldPay Bool
 ---@param item gameItemID
 ---@return DispenseRequest
-function WeaponVendingMachine:CreateDispenseRequest(shouldPay, item) return end
+function WeaponVendingMachine:CreateDispenseRequest(shouldPay, item) end
 
 ---@return EGameplayRole
-function WeaponVendingMachine:DeterminGameplayRole() return end
+function WeaponVendingMachine:DeterminGameplayRole() end
 
----@protected
 ---@return WeaponVendingMachineController
-function WeaponVendingMachine:GetController() return end
+function WeaponVendingMachine:GetController() end
 
 ---@return WeaponVendingMachineControllerPS
-function WeaponVendingMachine:GetDevicePS() return end
+function WeaponVendingMachine:GetDevicePS() end
 
----@protected
 ---@return gameItemID
-function WeaponVendingMachine:GetJunkItem() return end
+function WeaponVendingMachine:GetJunkItem() end
 
----@protected
 ---@return CName
-function WeaponVendingMachine:GetProcessingSFX() return end
+function WeaponVendingMachine:GetProcessingSFX() end
 
 ---@return TweakDBID
-function WeaponVendingMachine:GetVendorID() return end
+function WeaponVendingMachine:GetVendorID() end
 
----@protected
 ---@return nil
-function WeaponVendingMachine:PlayItemFall() return end
+function WeaponVendingMachine:PlayItemFall() end
 
----@protected
 ---@return nil
-function WeaponVendingMachine:TurnOffDevice() return end
+function WeaponVendingMachine:TurnOffDevice() end
 
----@protected
 ---@return nil
-function WeaponVendingMachine:TurnOnDevice() return end
+function WeaponVendingMachine:TurnOnDevice() end

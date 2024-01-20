@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SamplerStateInfo
----@field public filteringMin ETextureFilteringMin
----@field public filteringMag ETextureFilteringMag
----@field public filteringMip ETextureFilteringMip
----@field public addressU ETextureAddressing
----@field public addressV ETextureAddressing
----@field public addressW ETextureAddressing
----@field public comparisonFunc ETextureComparisonFunction
----@field public register Uint8
+---@field filteringMin ETextureFilteringMin
+---@field filteringMag ETextureFilteringMag
+---@field filteringMip ETextureFilteringMip
+---@field addressU ETextureAddressing
+---@field addressV ETextureAddressing
+---@field addressW ETextureAddressing
+---@field comparisonFunc ETextureComparisonFunction
+---@field register Uint8
 SamplerStateInfo = {}
 
 ---@param fields? SamplerStateInfo
 ---@return SamplerStateInfo
-function SamplerStateInfo.new(fields) return end
+function SamplerStateInfo.new(fields) end

@@ -5,8 +5,7 @@ HeadLookatCombatTarget = {}
 
 ---@param fields? HeadLookatCombatTarget
 ---@return HeadLookatCombatTarget
-function HeadLookatCombatTarget.new(fields) return end
+function HeadLookatCombatTarget.new(fields) end
 
----@private
 ---@return CName
-function HeadLookatCombatTarget:GetLookAtSlotName() return end
+function HeadLookatCombatTarget:GetLookAtSlotName() end

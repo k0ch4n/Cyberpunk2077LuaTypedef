@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldNodesGroupPath
----@field public elements CName[]
+---@field elements CName[]
 worldNodesGroupPath = {}
 
 ---@param fields? worldNodesGroupPath
 ---@return worldNodesGroupPath
-function worldNodesGroupPath.new(fields) return end
+function worldNodesGroupPath.new(fields) end

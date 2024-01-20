@@ -5,4 +5,4 @@ gameSpawnOccupantsEvent = {}
 
 ---@param fields? gameSpawnOccupantsEvent
 ---@return gameSpawnOccupantsEvent
-function gameSpawnOccupantsEvent.new(fields) return end
+function gameSpawnOccupantsEvent.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SetBlockShootingFromVehicle: gameScriptableSystemRequest
----@field public enable Bool
+---@field enable Bool
 SetBlockShootingFromVehicle = {}
 
 ---@param fields? SetBlockShootingFromVehicle
 ---@return SetBlockShootingFromVehicle
-function SetBlockShootingFromVehicle.new(fields) return end
+function SetBlockShootingFromVehicle.new(fields) end
 
 ---@return String
-function SetBlockShootingFromVehicle:GetFriendlyDesctiption() return end
+function SetBlockShootingFromVehicle:GetFriendlyDesctiption() end

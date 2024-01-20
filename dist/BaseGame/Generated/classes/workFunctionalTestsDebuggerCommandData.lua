@@ -5,4 +5,4 @@ workFunctionalTestsDebuggerCommandData = {}
 
 ---@param fields? workFunctionalTestsDebuggerCommandData
 ---@return workFunctionalTestsDebuggerCommandData
-function workFunctionalTestsDebuggerCommandData.new(fields) return end
+function workFunctionalTestsDebuggerCommandData.new(fields) end

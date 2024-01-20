@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamemountingMountingSlotId
----@field public id CName
+---@field id CName
 gamemountingMountingSlotId = {}
 
 ---@param fields? gamemountingMountingSlotId
 ---@return gamemountingMountingSlotId
-function gamemountingMountingSlotId.new(fields) return end
+function gamemountingMountingSlotId.new(fields) end

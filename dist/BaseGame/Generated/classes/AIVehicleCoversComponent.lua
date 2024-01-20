@@ -5,4 +5,4 @@ AIVehicleCoversComponent = {}
 
 ---@param fields? AIVehicleCoversComponent
 ---@return AIVehicleCoversComponent
-function AIVehicleCoversComponent.new(fields) return end
+function AIVehicleCoversComponent.new(fields) end

@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class NetworkBlackboardDef: gamebbScriptDefinition
----@field public MinigameDef gamebbScriptID_Variant
----@field public NetworkName gamebbScriptID_String
----@field public NetworkTDBID gamebbScriptID_Variant
----@field public DevicesCount gamebbScriptID_Int32
----@field public DeviceID gamebbScriptID_EntityID
----@field public OfficerBreach gamebbScriptID_Bool
----@field public SuicideBreach gamebbScriptID_Bool
----@field public RemoteBreach gamebbScriptID_Bool
----@field public ItemBreach gamebbScriptID_Bool
----@field public Attempt gamebbScriptID_Int32
----@field public SelectedMinigameDef gamebbScriptID_Variant
----@field public PersonalLinkStatus gamebbScriptID_Int32
+---@field MinigameDef gamebbScriptID_Variant
+---@field NetworkName gamebbScriptID_String
+---@field NetworkTDBID gamebbScriptID_Variant
+---@field DevicesCount gamebbScriptID_Int32
+---@field DeviceID gamebbScriptID_EntityID
+---@field OfficerBreach gamebbScriptID_Bool
+---@field SuicideBreach gamebbScriptID_Bool
+---@field RemoteBreach gamebbScriptID_Bool
+---@field ItemBreach gamebbScriptID_Bool
+---@field Attempt gamebbScriptID_Int32
+---@field SelectedMinigameDef gamebbScriptID_Variant
+---@field PersonalLinkStatus gamebbScriptID_Int32
 NetworkBlackboardDef = {}
 
 ---@param fields? NetworkBlackboardDef
 ---@return NetworkBlackboardDef
-function NetworkBlackboardDef.new(fields) return end
+function NetworkBlackboardDef.new(fields) end
 
 ---@return Bool
-function NetworkBlackboardDef:AutoCreateInSystem() return end
+function NetworkBlackboardDef:AutoCreateInSystem() end

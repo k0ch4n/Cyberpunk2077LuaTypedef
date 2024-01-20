@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorRepeatNodeDefinition: AIbehaviorDecoratorNodeDefinition
----@field public limit AIArgumentMapping
----@field public repeatChildOnFailure Bool
+---@field limit AIArgumentMapping
+---@field repeatChildOnFailure Bool
 AIbehaviorRepeatNodeDefinition = {}
 
 ---@param fields? AIbehaviorRepeatNodeDefinition
 ---@return AIbehaviorRepeatNodeDefinition
-function AIbehaviorRepeatNodeDefinition.new(fields) return end
+function AIbehaviorRepeatNodeDefinition.new(fields) end

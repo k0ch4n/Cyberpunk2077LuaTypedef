@@ -1,41 +1,35 @@
 ---@meta
 
 ---@class gameuiTutorialOverlayLogicController: inkWidgetLogicController
----@field public hideInMenu Bool
----@field public hideOnInput Bool
----@field private showAnimation CName
----@field private hideAnimation CName
----@field private animProxy inkanimProxy
----@field private tutorialManager questTutorialManager
+---@field hideInMenu Bool
+---@field hideOnInput Bool
+---@field showAnimation CName
+---@field hideAnimation CName
+---@field animProxy inkanimProxy
+---@field tutorialManager questTutorialManager
 gameuiTutorialOverlayLogicController = {}
 
 ---@param fields? gameuiTutorialOverlayLogicController
 ---@return gameuiTutorialOverlayLogicController
-function gameuiTutorialOverlayLogicController.new(fields) return end
+function gameuiTutorialOverlayLogicController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiTutorialOverlayLogicController:OnButtonRelease(evt) return end
+function gameuiTutorialOverlayLogicController:OnButtonRelease(evt) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function gameuiTutorialOverlayLogicController:OnShowFinished(e) return end
+function gameuiTutorialOverlayLogicController:OnShowFinished(e) end
 
----@protected
 ---@return Bool
-function gameuiTutorialOverlayLogicController:OnUninitialize() return end
+function gameuiTutorialOverlayLogicController:OnUninitialize() end
 
----@private
 ---@return inkanimProxy
-function gameuiTutorialOverlayLogicController:PlayHideAnimation() return end
+function gameuiTutorialOverlayLogicController:PlayHideAnimation() end
 
----@private
 ---@return inkanimProxy
-function gameuiTutorialOverlayLogicController:PlayShowAnimation() return end
+function gameuiTutorialOverlayLogicController:PlayShowAnimation() end
 
----@private
 ---@param tutorialManager questITutorialManager
 ---@return nil
-function gameuiTutorialOverlayLogicController:SetupTutorialOverlayLogicController(tutorialManager) return end
+function gameuiTutorialOverlayLogicController:SetupTutorialOverlayLogicController(tutorialManager) end

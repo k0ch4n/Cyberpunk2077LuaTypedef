@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SetCustomObjectDescriptionEvent: redEvent
----@field private objectDescription ObjectScanningDescription
+---@field objectDescription ObjectScanningDescription
 SetCustomObjectDescriptionEvent = {}
 
 ---@param fields? SetCustomObjectDescriptionEvent
 ---@return SetCustomObjectDescriptionEvent
-function SetCustomObjectDescriptionEvent.new(fields) return end
+function SetCustomObjectDescriptionEvent.new(fields) end
 
 ---@return String
-function SetCustomObjectDescriptionEvent:GetFriendlyDescription() return end
+function SetCustomObjectDescriptionEvent:GetFriendlyDescription() end
 
 ---@return ObjectScanningDescription
-function SetCustomObjectDescriptionEvent:GetObjectDescription() return end
+function SetCustomObjectDescriptionEvent:GetObjectDescription() end

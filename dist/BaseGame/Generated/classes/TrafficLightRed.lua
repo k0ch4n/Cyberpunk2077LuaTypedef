@@ -5,7 +5,7 @@ TrafficLightRed = {}
 
 ---@param fields? TrafficLightRed
 ---@return TrafficLightRed
-function TrafficLightRed.new(fields) return end
+function TrafficLightRed.new(fields) end
 
 ---@return nil
-function TrafficLightRed:SetProperties() return end
+function TrafficLightRed:SetProperties() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioVoiceTriggerLimits
----@field public probability Float
----@field public singleNpcMinRepeatTime Float
----@field public allNpcsMinRepeatTime Float
----@field public allNpcsSharingVoicesetMinRepeatTime Float
----@field public combatVolume Float
+---@field probability Float
+---@field singleNpcMinRepeatTime Float
+---@field allNpcsMinRepeatTime Float
+---@field allNpcsSharingVoicesetMinRepeatTime Float
+---@field combatVolume Float
 audioVoiceTriggerLimits = {}
 
 ---@param fields? audioVoiceTriggerLimits
 ---@return audioVoiceTriggerLimits
-function audioVoiceTriggerLimits.new(fields) return end
+function audioVoiceTriggerLimits.new(fields) end

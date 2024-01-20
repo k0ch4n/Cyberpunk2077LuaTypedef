@@ -5,10 +5,10 @@ gamedataVisionGroup_Record = {}
 
 ---@param fields? gamedataVisionGroup_Record
 ---@return gamedataVisionGroup_Record
-function gamedataVisionGroup_Record.new(fields) return end
+function gamedataVisionGroup_Record.new(fields) end
 
 ---@return CName
-function gamedataVisionGroup_Record:GroupName() return end
+function gamedataVisionGroup_Record:GroupName() end
 
 ---@return Float
-function gamedataVisionGroup_Record:Range() return end
+function gamedataVisionGroup_Record:Range() end

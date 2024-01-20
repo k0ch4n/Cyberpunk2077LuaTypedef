@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameAttachmentSlots: entIComponent
----@field public animParams gameAnimParamSlotsOption[]
+---@field animParams gameAnimParamSlotsOption[]
 gameAttachmentSlots = {}
 
 ---@param fields? gameAttachmentSlots
 ---@return gameAttachmentSlots
-function gameAttachmentSlots.new(fields) return end
+function gameAttachmentSlots.new(fields) end

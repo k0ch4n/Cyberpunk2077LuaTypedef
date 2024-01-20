@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class vehiclePersistentDataPS: gameComponentPS
----@field public flags Uint32
----@field public autopilotPos Float
----@field public autopilotCurrentSpeed Float
----@field public isHackable Bool
----@field public wheelRuntimeData vehicleWheelRuntimePSData
----@field public questEnforcedTransform Transform
----@field public destruction vehicleDestructionPSData
----@field public audio vehicleAudioPSData
+---@field flags Uint32
+---@field autopilotPos Float
+---@field autopilotCurrentSpeed Float
+---@field isHackable Bool
+---@field wheelRuntimeData vehicleWheelRuntimePSData
+---@field questEnforcedTransform Transform
+---@field destruction vehicleDestructionPSData
+---@field audio vehicleAudioPSData
 vehiclePersistentDataPS = {}
 
 ---@param fields? vehiclePersistentDataPS
 ---@return vehiclePersistentDataPS
-function vehiclePersistentDataPS.new(fields) return end
+function vehiclePersistentDataPS.new(fields) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class ApplyNewStatusEffectEvent: redEvent
----@field public effectID TweakDBID
----@field public instigatorID TweakDBID
+---@field effectID TweakDBID
+---@field instigatorID TweakDBID
 ApplyNewStatusEffectEvent = {}
 
 ---@param fields? ApplyNewStatusEffectEvent
 ---@return ApplyNewStatusEffectEvent
-function ApplyNewStatusEffectEvent.new(fields) return end
+function ApplyNewStatusEffectEvent.new(fields) end
 
 ---@param effectName String
 ---@return nil
-function ApplyNewStatusEffectEvent:SetEffectID(effectName) return end
+function ApplyNewStatusEffectEvent:SetEffectID(effectName) end

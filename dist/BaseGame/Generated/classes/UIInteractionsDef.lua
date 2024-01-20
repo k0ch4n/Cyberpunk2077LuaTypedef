@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class UIInteractionsDef: gamebbScriptDefinition
----@field public InteractionChoiceHub gamebbScriptID_Variant
----@field public DialogChoiceHubs gamebbScriptID_Variant
----@field public LootData gamebbScriptID_Variant
----@field public ContactsData gamebbScriptID_Variant
----@field public ActiveChoiceHubID gamebbScriptID_Int32
----@field public SelectedIndex gamebbScriptID_Int32
----@field public ActiveInteractions gamebbScriptID_Variant
----@field public InteractionSkillCheckHub gamebbScriptID_Variant
----@field public NameplateOwnerID gamebbScriptID_EntityID
----@field public VisualizersInfo gamebbScriptID_Variant
----@field public ShouldHideClampedMappins gamebbScriptID_Bool
----@field public LastAttemptedChoice gamebbScriptID_Variant
----@field public LookAtTargetVisualizerID gamebbScriptID_Int32
----@field public HasScrollableInteraction gamebbScriptID_Bool
----@field public IsQuestNotificationUp gamebbScriptID_Bool
+---@field InteractionChoiceHub gamebbScriptID_Variant
+---@field DialogChoiceHubs gamebbScriptID_Variant
+---@field LootData gamebbScriptID_Variant
+---@field ContactsData gamebbScriptID_Variant
+---@field ActiveChoiceHubID gamebbScriptID_Int32
+---@field SelectedIndex gamebbScriptID_Int32
+---@field ActiveInteractions gamebbScriptID_Variant
+---@field InteractionSkillCheckHub gamebbScriptID_Variant
+---@field NameplateOwnerID gamebbScriptID_EntityID
+---@field VisualizersInfo gamebbScriptID_Variant
+---@field ShouldHideClampedMappins gamebbScriptID_Bool
+---@field LastAttemptedChoice gamebbScriptID_Variant
+---@field LookAtTargetVisualizerID gamebbScriptID_Int32
+---@field HasScrollableInteraction gamebbScriptID_Bool
+---@field IsQuestNotificationUp gamebbScriptID_Bool
 UIInteractionsDef = {}
 
 ---@param fields? UIInteractionsDef
 ---@return UIInteractionsDef
-function UIInteractionsDef.new(fields) return end
+function UIInteractionsDef.new(fields) end
 
 ---@return Bool
-function UIInteractionsDef:AutoCreateInSystem() return end
+function UIInteractionsDef:AutoCreateInSystem() end

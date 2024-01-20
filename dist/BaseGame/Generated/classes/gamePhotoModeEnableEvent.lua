@@ -5,11 +5,11 @@ gamePhotoModeEnableEvent = {}
 
 ---@param fields? gamePhotoModeEnableEvent
 ---@return gamePhotoModeEnableEvent
-function gamePhotoModeEnableEvent.new(fields) return end
+function gamePhotoModeEnableEvent.new(fields) end
 
 ---@return Bool
-function gamePhotoModeEnableEvent:GetEnable() return end
+function gamePhotoModeEnableEvent:GetEnable() end
 
 ---@param enable Bool
 ---@return nil
-function gamePhotoModeEnableEvent:SetEnable(enable) return end
+function gamePhotoModeEnableEvent:SetEnable(enable) end

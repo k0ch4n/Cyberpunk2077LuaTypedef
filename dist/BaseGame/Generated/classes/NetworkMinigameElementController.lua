@@ -1,50 +1,49 @@
 ---@meta
 
 ---@class NetworkMinigameElementController: inkWidgetLogicController
----@field protected data ElementData
----@field protected text inkTextWidgetReference
----@field protected textNormalColor Color
----@field protected textHighlightColor Color
----@field protected bg inkRectangleWidgetReference
----@field protected colorAccent inkWidgetReference
----@field protected dimmedOpacity Float
----@field protected notDimmedOpacity Float
----@field protected defaultFontSize Int32
----@field protected wasConsumed Bool
----@field private root inkWidget
+---@field data ElementData
+---@field text inkTextWidgetReference
+---@field textNormalColor Color
+---@field textHighlightColor Color
+---@field bg inkRectangleWidgetReference
+---@field colorAccent inkWidgetReference
+---@field dimmedOpacity Float
+---@field notDimmedOpacity Float
+---@field defaultFontSize Int32
+---@field wasConsumed Bool
+---@field root inkWidget
 NetworkMinigameElementController = {}
 
 ---@param fields? NetworkMinigameElementController
 ---@return NetworkMinigameElementController
-function NetworkMinigameElementController.new(fields) return end
+function NetworkMinigameElementController.new(fields) end
 
----@protected
 ---@return Bool
-function NetworkMinigameElementController:OnInitialize() return end
+function NetworkMinigameElementController:OnInitialize() end
 
 ---@return nil
-function NetworkMinigameElementController:Consume() return end
+function NetworkMinigameElementController:Consume() end
 
 ---@return ElementData
-function NetworkMinigameElementController:GetContent() return end
+function NetworkMinigameElementController:GetContent() end
 
 ---@return inkWidgetReference
-function NetworkMinigameElementController:GetContentWidget() return end
+function NetworkMinigameElementController:GetContentWidget() end
 
 ---@return nil
-function NetworkMinigameElementController:RefreshColorAccent() return end
+function NetworkMinigameElementController:RefreshColorAccent() end
 
 ---@return nil
-function NetworkMinigameElementController:SetAsBufferSlot() return end
+function NetworkMinigameElementController:SetAsBufferSlot() end
 
 ---@param toSet ElementData
 ---@return nil
-function NetworkMinigameElementController:SetContent(toSet) return end
+function NetworkMinigameElementController:SetContent(toSet) end
 
 ---@param isDimmed Bool
 ---@return nil
-function NetworkMinigameElementController:SetElementActive(isDimmed) return end
+function NetworkMinigameElementController:SetElementActive(isDimmed) end
 
 ---@param doHighlight Bool
 ---@return nil
-function NetworkMinigameElementController:SetHighlightStatus(doHighlight) return end
+function NetworkMinigameElementController:SetHighlightStatus(doHighlight) end

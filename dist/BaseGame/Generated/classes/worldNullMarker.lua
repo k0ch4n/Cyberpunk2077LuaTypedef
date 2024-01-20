@@ -5,4 +5,4 @@ worldNullMarker = {}
 
 ---@param fields? worldNullMarker
 ---@return worldNullMarker
-function worldNullMarker.new(fields) return end
+function worldNullMarker.new(fields) end

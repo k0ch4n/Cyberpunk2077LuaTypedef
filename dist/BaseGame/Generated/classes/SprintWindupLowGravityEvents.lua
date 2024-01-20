@@ -5,9 +5,9 @@ SprintWindupLowGravityEvents = {}
 
 ---@param fields? SprintWindupLowGravityEvents
 ---@return SprintWindupLowGravityEvents
-function SprintWindupLowGravityEvents.new(fields) return end
+function SprintWindupLowGravityEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SprintWindupLowGravityEvents:OnEnter(stateContext, scriptInterface) return end
+function SprintWindupLowGravityEvents:OnEnter(stateContext, scriptInterface) end

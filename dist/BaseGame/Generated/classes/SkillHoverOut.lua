@@ -5,4 +5,4 @@ SkillHoverOut = {}
 
 ---@param fields? SkillHoverOut
 ---@return SkillHoverOut
-function SkillHoverOut.new(fields) return end
+function SkillHoverOut.new(fields) end

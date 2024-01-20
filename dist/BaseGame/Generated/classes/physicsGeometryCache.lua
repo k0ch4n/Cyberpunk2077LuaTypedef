@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class physicsGeometryCache: CResource
----@field public bufferTableSectors serializationDeferredDataBuffer[]
----@field public sectorEntries physicsSectorEntry[]
----@field public sectorGeometries physicsGeometryKey[]
----@field public sectorCacheEntries physicsSectorCacheEntry[]
----@field public alwaysLoadedSector physicsSectorEntry
----@field public alwaysLoadedSectorDDB serializationDeferredDataBuffer
+---@field bufferTableSectors serializationDeferredDataBuffer[]
+---@field sectorEntries physicsSectorEntry[]
+---@field sectorGeometries physicsGeometryKey[]
+---@field sectorCacheEntries physicsSectorCacheEntry[]
+---@field alwaysLoadedSector physicsSectorEntry
+---@field alwaysLoadedSectorDDB serializationDeferredDataBuffer
 physicsGeometryCache = {}
 
 ---@param fields? physicsGeometryCache
 ---@return physicsGeometryCache
-function physicsGeometryCache.new(fields) return end
+function physicsGeometryCache.new(fields) end

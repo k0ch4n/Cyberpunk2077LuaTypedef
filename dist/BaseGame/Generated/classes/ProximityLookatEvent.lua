@@ -5,4 +5,4 @@ ProximityLookatEvent = {}
 
 ---@param fields? ProximityLookatEvent
 ---@return ProximityLookatEvent
-function ProximityLookatEvent.new(fields) return end
+function ProximityLookatEvent.new(fields) end

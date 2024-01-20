@@ -5,4 +5,4 @@ gameeventsEndTakedownEvent = {}
 
 ---@param fields? gameeventsEndTakedownEvent
 ---@return gameeventsEndTakedownEvent
-function gameeventsEndTakedownEvent.new(fields) return end
+function gameeventsEndTakedownEvent.new(fields) end

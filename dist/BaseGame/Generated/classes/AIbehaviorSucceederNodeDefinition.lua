@@ -5,4 +5,4 @@ AIbehaviorSucceederNodeDefinition = {}
 
 ---@param fields? AIbehaviorSucceederNodeDefinition
 ---@return AIbehaviorSucceederNodeDefinition
-function AIbehaviorSucceederNodeDefinition.new(fields) return end
+function AIbehaviorSucceederNodeDefinition.new(fields) end

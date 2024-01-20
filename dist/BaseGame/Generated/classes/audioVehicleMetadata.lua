@@ -1,31 +1,31 @@
 ---@meta
 
 ---@class audioVehicleMetadata: audioCustomEmitterMetadata
----@field public generalData audioVehicleGeneralData
----@field public mechanicalData audioVehicleMechanicalData
----@field public wheelData audioVehicleWheelData
----@field public emitterPositionData audioVehicleEmitterPositionData
----@field public minRpm Float
----@field public maxRpm Float
----@field public vehicleCollisionSettings CName
----@field public vehicleGridDestructionSettings CName
----@field public vehiclePartSettings CName
----@field public collisionCooldown Float
----@field public maxPlayingDistance Float
----@field public dopplerFactor Float
----@field public suspensionSqueekTimeout Float
----@field public exitDelay Float
----@field public gearSweeteners CName[]
----@field public testWheelMaterial Bool
----@field public hasRadioReceiver Bool
----@field public usesPoliceRadioStation Bool
----@field public acousticIsolationFactor Float
----@field public trafficEmitterMetadata CName
----@field public radioReceiverType CName
----@field public matchingStartupRadioStations CName[]
----@field public radioPlaysWhenEngineStartsProbability Float
+---@field generalData audioVehicleGeneralData
+---@field mechanicalData audioVehicleMechanicalData
+---@field wheelData audioVehicleWheelData
+---@field emitterPositionData audioVehicleEmitterPositionData
+---@field minRpm Float
+---@field maxRpm Float
+---@field vehicleCollisionSettings CName
+---@field vehicleGridDestructionSettings CName
+---@field vehiclePartSettings CName
+---@field collisionCooldown Float
+---@field maxPlayingDistance Float
+---@field dopplerFactor Float
+---@field suspensionSqueekTimeout Float
+---@field exitDelay Float
+---@field gearSweeteners CName[]
+---@field testWheelMaterial Bool
+---@field hasRadioReceiver Bool
+---@field usesPoliceRadioStation Bool
+---@field acousticIsolationFactor Float
+---@field trafficEmitterMetadata CName
+---@field radioReceiverType CName
+---@field matchingStartupRadioStations CName[]
+---@field radioPlaysWhenEngineStartsProbability Float
 audioVehicleMetadata = {}
 
 ---@param fields? audioVehicleMetadata
 ---@return audioVehicleMetadata
-function audioVehicleMetadata.new(fields) return end
+function audioVehicleMetadata.new(fields) end

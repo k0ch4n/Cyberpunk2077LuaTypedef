@@ -5,4 +5,4 @@ ResetBlockAttackHitsReceivedRequest = {}
 
 ---@param fields? ResetBlockAttackHitsReceivedRequest
 ---@return ResetBlockAttackHitsReceivedRequest
-function ResetBlockAttackHitsReceivedRequest.new(fields) return end
+function ResetBlockAttackHitsReceivedRequest.new(fields) end

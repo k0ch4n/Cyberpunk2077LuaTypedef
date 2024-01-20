@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameTaggedSignalUserDataDefinition: gameSignalUserDataDefinition
----@field public tags CName[]
+---@field tags CName[]
 gameTaggedSignalUserDataDefinition = {}
 
 ---@param fields? gameTaggedSignalUserDataDefinition
 ---@return gameTaggedSignalUserDataDefinition
-function gameTaggedSignalUserDataDefinition.new(fields) return end
+function gameTaggedSignalUserDataDefinition.new(fields) end

@@ -5,46 +5,46 @@ gamedataTankEnemySpawnerData_Record = {}
 
 ---@param fields? gamedataTankEnemySpawnerData_Record
 ---@return gamedataTankEnemySpawnerData_Record
-function gamedataTankEnemySpawnerData_Record.new(fields) return end
+function gamedataTankEnemySpawnerData_Record.new(fields) end
 
 ---@return nil, gamedataTankEnemy_Record[] outList
-function gamedataTankEnemySpawnerData_Record:EnemyList() return end
+function gamedataTankEnemySpawnerData_Record:EnemyList() end
 
 ---@param item gamedataTankEnemy_Record
 ---@return Bool
-function gamedataTankEnemySpawnerData_Record:EnemyListContains(item) return end
+function gamedataTankEnemySpawnerData_Record:EnemyListContains(item) end
 
 ---@return Int32
-function gamedataTankEnemySpawnerData_Record:GetEnemyListCount() return end
+function gamedataTankEnemySpawnerData_Record:GetEnemyListCount() end
 
 ---@param index Int32
 ---@return gamedataTankEnemy_Record
-function gamedataTankEnemySpawnerData_Record:GetEnemyListItem(index) return end
+function gamedataTankEnemySpawnerData_Record:GetEnemyListItem(index) end
 
 ---@param index Int32
 ---@return gamedataTankEnemy_Record
-function gamedataTankEnemySpawnerData_Record:GetEnemyListItemHandle(index) return end
+function gamedataTankEnemySpawnerData_Record:GetEnemyListItemHandle(index) end
 
 ---@return Int32
-function gamedataTankEnemySpawnerData_Record:GetLevelListCount() return end
+function gamedataTankEnemySpawnerData_Record:GetLevelListCount() end
 
 ---@param index Int32
 ---@return gamedataTankLevelSpawnableArrangement_Record
-function gamedataTankEnemySpawnerData_Record:GetLevelListItem(index) return end
+function gamedataTankEnemySpawnerData_Record:GetLevelListItem(index) end
 
 ---@param index Int32
 ---@return gamedataTankLevelSpawnableArrangement_Record
-function gamedataTankEnemySpawnerData_Record:GetLevelListItemHandle(index) return end
+function gamedataTankEnemySpawnerData_Record:GetLevelListItemHandle(index) end
 
 ---@return nil, gamedataTankLevelSpawnableArrangement_Record[] outList
-function gamedataTankEnemySpawnerData_Record:LevelList() return end
+function gamedataTankEnemySpawnerData_Record:LevelList() end
 
 ---@param item gamedataTankLevelSpawnableArrangement_Record
 ---@return Bool
-function gamedataTankEnemySpawnerData_Record:LevelListContains(item) return end
+function gamedataTankEnemySpawnerData_Record:LevelListContains(item) end
 
 ---@return CName
-function gamedataTankEnemySpawnerData_Record:ProjectileSpawnerTDBID() return end
+function gamedataTankEnemySpawnerData_Record:ProjectileSpawnerTDBID() end
 
 ---@return Float
-function gamedataTankEnemySpawnerData_Record:SpawnTime() return end
+function gamedataTankEnemySpawnerData_Record:SpawnTime() end

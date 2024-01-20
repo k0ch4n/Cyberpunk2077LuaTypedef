@@ -1,37 +1,37 @@
 ---@meta
 
 ---@class DropPointMappinRegistrationData: IScriptable
----@field private ownerID entEntityID
----@field private position Vector4
----@field private mapinID gameNewMappinID
----@field private trackingAlternativeMappinID gameNewMappinID
+---@field ownerID entEntityID
+---@field position Vector4
+---@field mapinID gameNewMappinID
+---@field trackingAlternativeMappinID gameNewMappinID
 DropPointMappinRegistrationData = {}
 
 ---@param fields? DropPointMappinRegistrationData
 ---@return DropPointMappinRegistrationData
-function DropPointMappinRegistrationData.new(fields) return end
+function DropPointMappinRegistrationData.new(fields) end
 
 ---@return gameNewMappinID
-function DropPointMappinRegistrationData:GetMappinID() return end
+function DropPointMappinRegistrationData:GetMappinID() end
 
 ---@return entEntityID
-function DropPointMappinRegistrationData:GetOwnerID() return end
+function DropPointMappinRegistrationData:GetOwnerID() end
 
 ---@return Vector4
-function DropPointMappinRegistrationData:GetPosition() return end
+function DropPointMappinRegistrationData:GetPosition() end
 
 ---@return gameNewMappinID
-function DropPointMappinRegistrationData:GetTrackingAlternativeMappinID() return end
+function DropPointMappinRegistrationData:GetTrackingAlternativeMappinID() end
 
 ---@param ownerID entEntityID
 ---@param position Vector4
 ---@return nil
-function DropPointMappinRegistrationData:Initalize(ownerID, position) return end
+function DropPointMappinRegistrationData:Initalize(ownerID, position) end
 
 ---@param id gameNewMappinID
 ---@return nil
-function DropPointMappinRegistrationData:SetMappinID(id) return end
+function DropPointMappinRegistrationData:SetMappinID(id) end
 
 ---@param id gameNewMappinID
 ---@return nil
-function DropPointMappinRegistrationData:SetTrackingAlternativeMappinID(id) return end
+function DropPointMappinRegistrationData:SetTrackingAlternativeMappinID(id) end

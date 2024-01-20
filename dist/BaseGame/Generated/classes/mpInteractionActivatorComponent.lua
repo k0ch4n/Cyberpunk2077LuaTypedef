@@ -5,4 +5,4 @@ mpInteractionActivatorComponent = {}
 
 ---@param fields? mpInteractionActivatorComponent
 ---@return mpInteractionActivatorComponent
-function mpInteractionActivatorComponent.new(fields) return end
+function mpInteractionActivatorComponent.new(fields) end

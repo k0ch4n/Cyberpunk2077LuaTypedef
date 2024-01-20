@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ClearItemAppearanceTaskData: gameScriptTaskData
----@field public ts gameTransactionSystem
----@field public area gamedataEquipmentArea
+---@field ts gameTransactionSystem
+---@field area gamedataEquipmentArea
 ClearItemAppearanceTaskData = {}
 
 ---@param fields? ClearItemAppearanceTaskData
 ---@return ClearItemAppearanceTaskData
-function ClearItemAppearanceTaskData.new(fields) return end
+function ClearItemAppearanceTaskData.new(fields) end

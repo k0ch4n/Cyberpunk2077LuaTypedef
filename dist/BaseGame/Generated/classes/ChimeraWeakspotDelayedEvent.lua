@@ -5,4 +5,4 @@ ChimeraWeakspotDelayedEvent = {}
 
 ---@param fields? ChimeraWeakspotDelayedEvent
 ---@return ChimeraWeakspotDelayedEvent
-function ChimeraWeakspotDelayedEvent.new(fields) return end
+function ChimeraWeakspotDelayedEvent.new(fields) end

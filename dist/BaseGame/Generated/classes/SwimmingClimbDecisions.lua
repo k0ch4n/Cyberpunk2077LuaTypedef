@@ -5,23 +5,20 @@ SwimmingClimbDecisions = {}
 
 ---@param fields? SwimmingClimbDecisions
 ---@return SwimmingClimbDecisions
-function SwimmingClimbDecisions.new(fields) return end
+function SwimmingClimbDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SwimmingClimbDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SwimmingClimbDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param climbInfo gamePlayerClimbInfo
 ---@return Bool
-function SwimmingClimbDecisions:ForwardAngleTest(stateContext, scriptInterface, climbInfo) return end
+function SwimmingClimbDecisions:ForwardAngleTest(stateContext, scriptInterface, climbInfo) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param climbInfo gamePlayerClimbInfo
 ---@return Bool
-function SwimmingClimbDecisions:OverlapFitTest(scriptInterface, climbInfo) return end
+function SwimmingClimbDecisions:OverlapFitTest(scriptInterface, climbInfo) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class LocomotionTakedownInitData: IScriptable
----@field public target gameObject
----@field public slideTime Float
----@field public actionName CName
+---@field target gameObject
+---@field slideTime Float
+---@field actionName CName
 LocomotionTakedownInitData = {}
 
 ---@param fields? LocomotionTakedownInitData
 ---@return LocomotionTakedownInitData
-function LocomotionTakedownInitData.new(fields) return end
+function LocomotionTakedownInitData.new(fields) end

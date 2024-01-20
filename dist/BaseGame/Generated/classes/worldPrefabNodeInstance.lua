@@ -5,4 +5,4 @@ worldPrefabNodeInstance = {}
 
 ---@param fields? worldPrefabNodeInstance
 ---@return worldPrefabNodeInstance
-function worldPrefabNodeInstance.new(fields) return end
+function worldPrefabNodeInstance.new(fields) end

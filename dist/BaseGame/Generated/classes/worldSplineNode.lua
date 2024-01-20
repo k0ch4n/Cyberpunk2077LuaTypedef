@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldSplineNode: worldSocketNode
----@field public splineData Spline
----@field public destSnapedNode NodeRef
----@field public destSnapedSocketName CName
----@field public entrySnapedNode NodeRef
----@field public entrySnapedSocketName CName
+---@field splineData Spline
+---@field destSnapedNode NodeRef
+---@field destSnapedSocketName CName
+---@field entrySnapedNode NodeRef
+---@field entrySnapedSocketName CName
 worldSplineNode = {}
 
 ---@param fields? worldSplineNode
 ---@return worldSplineNode
-function worldSplineNode.new(fields) return end
+function worldSplineNode.new(fields) end

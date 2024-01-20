@@ -5,4 +5,4 @@ animIKTargetParams_Update = {}
 
 ---@param fields? animIKTargetParams_Update
 ---@return animIKTargetParams_Update
-function animIKTargetParams_Update.new(fields) return end
+function animIKTargetParams_Update.new(fields) end

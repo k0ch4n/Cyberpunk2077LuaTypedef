@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questAudioSwitchNodeType: questIAudioNodeType
----@field public switch audioAudSwitch
----@field public isMusic Bool
----@field public objectRef gameEntityReference
----@field public isPlayer Bool
+---@field switch audioAudSwitch
+---@field isMusic Bool
+---@field objectRef gameEntityReference
+---@field isPlayer Bool
 questAudioSwitchNodeType = {}
 
 ---@param fields? questAudioSwitchNodeType
 ---@return questAudioSwitchNodeType
-function questAudioSwitchNodeType.new(fields) return end
+function questAudioSwitchNodeType.new(fields) end

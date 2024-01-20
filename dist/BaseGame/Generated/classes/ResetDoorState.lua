@@ -5,7 +5,7 @@ ResetDoorState = {}
 
 ---@param fields? ResetDoorState
 ---@return ResetDoorState
-function ResetDoorState.new(fields) return end
+function ResetDoorState.new(fields) end
 
 ---@return String
-function ResetDoorState:GetFriendlyDescription() return end
+function ResetDoorState:GetFriendlyDescription() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AJournalEntryWrapper: ABaseWrapper
----@field private UniqueId Int32
+---@field UniqueId Int32
 AJournalEntryWrapper = {}
 
 ---@return Int32
-function AJournalEntryWrapper:GetUniqueId() return end
+function AJournalEntryWrapper:GetUniqueId() end
 
 ---@param uniqueId Int32
 ---@return nil
-function AJournalEntryWrapper:SetUniqueId(uniqueId) return end
+function AJournalEntryWrapper:SetUniqueId(uniqueId) end

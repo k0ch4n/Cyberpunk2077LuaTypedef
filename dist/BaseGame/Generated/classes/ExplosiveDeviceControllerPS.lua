@@ -1,168 +1,151 @@
 ---@meta
 
 ---@class ExplosiveDeviceControllerPS: BasicDistractionDeviceControllerPS
----@field protected explosiveSkillChecks EngDemoContainer
----@field protected explosionDefinition ExplosiveDeviceResourceDefinition[]
----@field protected explosiveWithQhacks Bool
----@field protected HealthDecay Float
----@field protected timeToMeshSwap Float
----@field protected shouldDistractionHitVFXIgnoreHitPosition Bool
----@field protected canBeDisabledWithQhacks Bool
----@field protected disarmed Bool
----@field private exploded Bool
----@field protected provideExplodeAction Bool
----@field protected doExplosiveEngineerLogic Bool
+---@field explosiveSkillChecks EngDemoContainer
+---@field explosionDefinition ExplosiveDeviceResourceDefinition[]
+---@field explosiveWithQhacks Bool
+---@field HealthDecay Float
+---@field timeToMeshSwap Float
+---@field shouldDistractionHitVFXIgnoreHitPosition Bool
+---@field canBeDisabledWithQhacks Bool
+---@field disarmed Bool
+---@field exploded Bool
+---@field provideExplodeAction Bool
+---@field doExplosiveEngineerLogic Bool
 ExplosiveDeviceControllerPS = {}
 
 ---@param fields? ExplosiveDeviceControllerPS
 ---@return ExplosiveDeviceControllerPS
-function ExplosiveDeviceControllerPS.new(fields) return end
+function ExplosiveDeviceControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function ExplosiveDeviceControllerPS:OnInstantiated() return end
+function ExplosiveDeviceControllerPS:OnInstantiated() end
 
----@protected
 ---@return ForceDetonate
-function ExplosiveDeviceControllerPS:ActionForceDetonate() return end
+function ExplosiveDeviceControllerPS:ActionForceDetonate() end
 
----@protected
 ---@return QuestForceDetonate
-function ExplosiveDeviceControllerPS:ActionQuestForceDetonate() return end
+function ExplosiveDeviceControllerPS:ActionQuestForceDetonate() end
 
----@protected
 ---@return QuickHackDistractExplosive
-function ExplosiveDeviceControllerPS:ActionQuickHackDistractExplosive() return end
+function ExplosiveDeviceControllerPS:ActionQuickHackDistractExplosive() end
 
----@protected
 ---@return QuickHackExplodeExplosive
-function ExplosiveDeviceControllerPS:ActionQuickHackExplodeExplosive() return end
+function ExplosiveDeviceControllerPS:ActionQuickHackExplodeExplosive() end
 
----@protected
 ---@return QuickHackToggleON
-function ExplosiveDeviceControllerPS:ActionQuickHackToggleON() return end
+function ExplosiveDeviceControllerPS:ActionQuickHackToggleON() end
 
----@protected
 ---@return SpiderbotDistractExplosiveDevice
-function ExplosiveDeviceControllerPS:ActionSpiderbotDistractExplosiveDevice() return end
+function ExplosiveDeviceControllerPS:ActionSpiderbotDistractExplosiveDevice() end
 
----@protected
 ---@return SpiderbotDistractExplosiveDevicePerformed
-function ExplosiveDeviceControllerPS:ActionSpiderbotDistractExplosiveDevicePerformed() return end
+function ExplosiveDeviceControllerPS:ActionSpiderbotDistractExplosiveDevicePerformed() end
 
----@protected
 ---@return SpiderbotExplodeExplosiveDevice
-function ExplosiveDeviceControllerPS:ActionSpiderbotExplodeExplosiveDevice() return end
+function ExplosiveDeviceControllerPS:ActionSpiderbotExplodeExplosiveDevice() end
 
----@protected
 ---@return SpiderbotExplodeExplosiveDevicePerformed
-function ExplosiveDeviceControllerPS:ActionSpiderbotExplodeExplosiveDevicePerformed() return end
+function ExplosiveDeviceControllerPS:ActionSpiderbotExplodeExplosiveDevicePerformed() end
 
----@protected
 ---@return Bool
-function ExplosiveDeviceControllerPS:CanCreateAnyQuickHackActions() return end
+function ExplosiveDeviceControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@param action ScriptableDeviceAction
 ---@return nil
-function ExplosiveDeviceControllerPS:Disarm(action) return end
+function ExplosiveDeviceControllerPS:Disarm(action) end
 
 ---@return Bool
-function ExplosiveDeviceControllerPS:DoExplosiveResolveGameplayLogic() return end
+function ExplosiveDeviceControllerPS:DoExplosiveResolveGameplayLogic() end
 
----@protected
 ---@return nil
-function ExplosiveDeviceControllerPS:GameAttached() return end
+function ExplosiveDeviceControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ExplosiveDeviceControllerPS:GetActions(context) return end
+function ExplosiveDeviceControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function ExplosiveDeviceControllerPS:GetBackgroundTextureTweakDBID() return end
+function ExplosiveDeviceControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function ExplosiveDeviceControllerPS:GetDeviceIconTweakDBID() return end
+function ExplosiveDeviceControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return Bool
-function ExplosiveDeviceControllerPS:GetDistractionHitVFXIgnoreHitPosition() return end
+function ExplosiveDeviceControllerPS:GetDistractionHitVFXIgnoreHitPosition() end
 
 ---@param index Int32
 ---@return ExplosiveDeviceResourceDefinition
-function ExplosiveDeviceControllerPS:GetExplosionDefinition(index) return end
+function ExplosiveDeviceControllerPS:GetExplosionDefinition(index) end
 
 ---@return ExplosiveDeviceResourceDefinition[]
-function ExplosiveDeviceControllerPS:GetExplosionDefinitionArray() return end
+function ExplosiveDeviceControllerPS:GetExplosionDefinitionArray() end
 
 ---@return Float
-function ExplosiveDeviceControllerPS:GetHealthDecay() return end
+function ExplosiveDeviceControllerPS:GetHealthDecay() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function ExplosiveDeviceControllerPS:GetQuestActionByName(actionName) return end
+function ExplosiveDeviceControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ExplosiveDeviceControllerPS:GetQuestActions(context) return end
+function ExplosiveDeviceControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function ExplosiveDeviceControllerPS:GetQuickHackActions(context) return end
+function ExplosiveDeviceControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function ExplosiveDeviceControllerPS:GetSkillCheckContainerForSetup() return end
+function ExplosiveDeviceControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@return Float
-function ExplosiveDeviceControllerPS:GetTimeToMeshSwap() return end
+function ExplosiveDeviceControllerPS:GetTimeToMeshSwap() end
 
 ---@return Bool
-function ExplosiveDeviceControllerPS:IsDisabledWithQhacks() return end
+function ExplosiveDeviceControllerPS:IsDisabledWithQhacks() end
 
 ---@return Bool
-function ExplosiveDeviceControllerPS:IsExploded() return end
+function ExplosiveDeviceControllerPS:IsExploded() end
 
 ---@return Bool
-function ExplosiveDeviceControllerPS:IsExplosiveWithQhacks() return end
+function ExplosiveDeviceControllerPS:IsExplosiveWithQhacks() end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnActionEngineering(evt) return end
+function ExplosiveDeviceControllerPS:OnActionEngineering(evt) end
 
 ---@param evt ForceDetonate
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnForceDetonate(evt) return end
+function ExplosiveDeviceControllerPS:OnForceDetonate(evt) end
 
 ---@param evt QuestForceDetonate
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnQuestForceDetonate(evt) return end
+function ExplosiveDeviceControllerPS:OnQuestForceDetonate(evt) end
 
 ---@param evt QuickHackExplodeExplosive
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnQuickHackExplodeExplosive(evt) return end
+function ExplosiveDeviceControllerPS:OnQuickHackExplodeExplosive(evt) end
 
 ---@param evt SpiderbotDistractExplosiveDevice
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnSpiderbotDistractExplosiveDevice(evt) return end
+function ExplosiveDeviceControllerPS:OnSpiderbotDistractExplosiveDevice(evt) end
 
 ---@param evt SpiderbotDistractExplosiveDevicePerformed
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnSpiderbotDistractExplosiveDevicePerformed(evt) return end
+function ExplosiveDeviceControllerPS:OnSpiderbotDistractExplosiveDevicePerformed(evt) end
 
 ---@param evt SpiderbotExplodeExplosiveDevice
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnSpiderbotExplodeExplosiveDevice(evt) return end
+function ExplosiveDeviceControllerPS:OnSpiderbotExplodeExplosiveDevice(evt) end
 
 ---@param evt SpiderbotExplodeExplosiveDevicePerformed
 ---@return EntityNotificationType
-function ExplosiveDeviceControllerPS:OnSpiderbotExplodeExplosiveDevicePerformed(evt) return end
+function ExplosiveDeviceControllerPS:OnSpiderbotExplodeExplosiveDevicePerformed(evt) end
 
 ---@return nil
-function ExplosiveDeviceControllerPS:PushPersistentData() return end
+function ExplosiveDeviceControllerPS:PushPersistentData() end
 
 ---@param state Bool
 ---@return nil
-function ExplosiveDeviceControllerPS:SetExplodedState(state) return end
+function ExplosiveDeviceControllerPS:SetExplodedState(state) end

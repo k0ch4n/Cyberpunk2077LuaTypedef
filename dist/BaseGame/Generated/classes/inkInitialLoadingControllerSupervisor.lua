@@ -5,4 +5,4 @@ inkInitialLoadingControllerSupervisor = {}
 
 ---@param fields? inkInitialLoadingControllerSupervisor
 ---@return inkInitialLoadingControllerSupervisor
-function inkInitialLoadingControllerSupervisor.new(fields) return end
+function inkInitialLoadingControllerSupervisor.new(fields) end

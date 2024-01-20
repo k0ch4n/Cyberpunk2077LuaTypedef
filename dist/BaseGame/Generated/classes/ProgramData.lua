@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class ProgramData
----@field public id String
----@field public commandLists ElementData[][]
----@field public effects ProgramEffect[]
----@field public type ProgramType
----@field public localizationKey String
----@field public startAsUnknown Bool
----@field public wasCompleted Bool
+---@field id String
+---@field commandLists ElementData[][]
+---@field effects ProgramEffect[]
+---@field type ProgramType
+---@field localizationKey String
+---@field startAsUnknown Bool
+---@field wasCompleted Bool
 ProgramData = {}
 
 ---@param fields? ProgramData
 ---@return ProgramData
-function ProgramData.new(fields) return end
+function ProgramData.new(fields) end

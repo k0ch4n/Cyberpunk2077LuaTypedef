@@ -5,35 +5,30 @@ MorningPreset = {}
 
 ---@param fields? MorningPreset
 ---@return MorningPreset
-function MorningPreset.new(fields) return end
+function MorningPreset.new(fields) end
 
 ---@return CName
-function MorningPreset:GetIconName() return end
+function MorningPreset:GetIconName() end
 
 ---@return CName
-function MorningPreset:GetPresetName() return end
+function MorningPreset:GetPresetName() end
 
----@protected
 ---@param device DoorControllerPS
 ---@return nil
-function MorningPreset:QueueDoorActions(device) return end
+function MorningPreset:QueueDoorActions(device) end
 
----@protected
 ---@param device RadioControllerPS
 ---@return nil
-function MorningPreset:QueueRadioActions(device) return end
+function MorningPreset:QueueRadioActions(device) end
 
----@protected
 ---@param device SimpleSwitchControllerPS
 ---@return nil
-function MorningPreset:QueueSwitchActions(device) return end
+function MorningPreset:QueueSwitchActions(device) end
 
----@protected
 ---@param device TVControllerPS
 ---@return nil
-function MorningPreset:QueueTVActions(device) return end
+function MorningPreset:QueueTVActions(device) end
 
----@protected
 ---@param device WindowBlindersControllerPS
 ---@return nil
-function MorningPreset:QueueWindowBlinderActions(device) return end
+function MorningPreset:QueueWindowBlinderActions(device) end

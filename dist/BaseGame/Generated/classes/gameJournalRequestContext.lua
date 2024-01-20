@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class gameJournalRequestContext
----@field public stateFilter gameJournalRequestStateFilter
----@field public classFilter gameJournalRequestClassFilter
+---@field stateFilter gameJournalRequestStateFilter
+---@field classFilter gameJournalRequestClassFilter
 gameJournalRequestContext = {}
 
 ---@param fields? gameJournalRequestContext
 ---@return gameJournalRequestContext
-function gameJournalRequestContext.new(fields) return end
+function gameJournalRequestContext.new(fields) end
 
 ---@param self gameJournalRequestContext
 ---@param percentMargin Uint32
 ---@return nil
-function gameJournalRequestContext.CreatePlayerLevelBasedQuestRequestFilter(self, percentMargin) return end
+function gameJournalRequestContext.CreatePlayerLevelBasedQuestRequestFilter(self, percentMargin) end
 
 ---@param self gameJournalRequestContext
 ---@param distance Float
 ---@return nil
-function gameJournalRequestContext.CreateQuestDistanceRequestFilter(self, distance) return end
+function gameJournalRequestContext.CreateQuestDistanceRequestFilter(self, distance) end
 
 ---@param self gameJournalRequestContext
 ---@param includeMainQuests Bool
@@ -26,4 +26,4 @@ function gameJournalRequestContext.CreateQuestDistanceRequestFilter(self, distan
 ---@param includeCyberPsycho Bool
 ---@param includeContracts Bool
 ---@return nil
-function gameJournalRequestContext.CreateQuestTypeRequestFilter(self, includeMainQuests, includeSideQuests, includeStreetStories, includeCyberPsycho, includeContracts) return end
+function gameJournalRequestContext.CreateQuestTypeRequestFilter(self, includeMainQuests, includeSideQuests, includeStreetStories, includeCyberPsycho, includeContracts) end

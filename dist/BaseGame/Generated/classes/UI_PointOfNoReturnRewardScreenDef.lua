@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class UI_PointOfNoReturnRewardScreenDef: gamebbScriptDefinition
----@field public Rewards gamebbScriptID_Variant
+---@field Rewards gamebbScriptID_Variant
 UI_PointOfNoReturnRewardScreenDef = {}
 
 ---@param fields? UI_PointOfNoReturnRewardScreenDef
 ---@return UI_PointOfNoReturnRewardScreenDef
-function UI_PointOfNoReturnRewardScreenDef.new(fields) return end
+function UI_PointOfNoReturnRewardScreenDef.new(fields) end
 
 ---@return Bool
-function UI_PointOfNoReturnRewardScreenDef:AutoCreateInSystem() return end
+function UI_PointOfNoReturnRewardScreenDef:AutoCreateInSystem() end

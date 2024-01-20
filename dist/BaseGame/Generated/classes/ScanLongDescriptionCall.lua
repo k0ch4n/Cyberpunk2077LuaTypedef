@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ScanLongDescriptionCall: gameScriptableSystemRequest
----@field public isEnabled Bool
+---@field isEnabled Bool
 ScanLongDescriptionCall = {}
 
 ---@param fields? ScanLongDescriptionCall
 ---@return ScanLongDescriptionCall
-function ScanLongDescriptionCall.new(fields) return end
+function ScanLongDescriptionCall.new(fields) end

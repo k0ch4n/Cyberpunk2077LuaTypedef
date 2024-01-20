@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class EnableDocumentEvent: redEvent
----@field public documentType EDocumentType
----@field public documentName CName
----@field public documentAdress SDocumentAdress
----@field public enable Bool
----@field public entireFolder Bool
+---@field documentType EDocumentType
+---@field documentName CName
+---@field documentAdress SDocumentAdress
+---@field enable Bool
+---@field entireFolder Bool
 EnableDocumentEvent = {}
 
 ---@param fields? EnableDocumentEvent
 ---@return EnableDocumentEvent
-function EnableDocumentEvent.new(fields) return end
+function EnableDocumentEvent.new(fields) end
 
 ---@return String
-function EnableDocumentEvent:GetFriendlyDescription() return end
+function EnableDocumentEvent:GetFriendlyDescription() end

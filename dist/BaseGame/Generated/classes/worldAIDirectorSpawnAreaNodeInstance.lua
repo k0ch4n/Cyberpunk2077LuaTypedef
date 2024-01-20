@@ -5,4 +5,4 @@ worldAIDirectorSpawnAreaNodeInstance = {}
 
 ---@param fields? worldAIDirectorSpawnAreaNodeInstance
 ---@return worldAIDirectorSpawnAreaNodeInstance
-function worldAIDirectorSpawnAreaNodeInstance.new(fields) return end
+function worldAIDirectorSpawnAreaNodeInstance.new(fields) end

@@ -5,4 +5,4 @@ worldRuntimeSystemBinkUpdate = {}
 
 ---@param fields? worldRuntimeSystemBinkUpdate
 ---@return worldRuntimeSystemBinkUpdate
-function worldRuntimeSystemBinkUpdate.new(fields) return end
+function worldRuntimeSystemBinkUpdate.new(fields) end

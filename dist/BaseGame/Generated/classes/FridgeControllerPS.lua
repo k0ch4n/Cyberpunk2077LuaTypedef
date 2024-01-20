@@ -1,35 +1,32 @@
 ---@meta
 
 ---@class FridgeControllerPS: ScriptableDeviceComponentPS
----@field private isOpen Bool
+---@field isOpen Bool
 FridgeControllerPS = {}
 
 ---@param fields? FridgeControllerPS
 ---@return FridgeControllerPS
-function FridgeControllerPS.new(fields) return end
+function FridgeControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function FridgeControllerPS:OnInstantiated() return end
+function FridgeControllerPS:OnInstantiated() end
 
----@protected
 ---@return ToggleOpenFridge
-function FridgeControllerPS:ActionToggleOpenFridge() return end
+function FridgeControllerPS:ActionToggleOpenFridge() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function FridgeControllerPS:GetActions(context) return end
+function FridgeControllerPS:GetActions(context) end
 
 ---@return gamedeviceClearance
-function FridgeControllerPS:GetClearance() return end
+function FridgeControllerPS:GetClearance() end
 
----@protected
 ---@return nil
-function FridgeControllerPS:Initialize() return end
+function FridgeControllerPS:Initialize() end
 
 ---@return Bool
-function FridgeControllerPS:IsOpen() return end
+function FridgeControllerPS:IsOpen() end
 
 ---@param evt ToggleOpenFridge
 ---@return EntityNotificationType
-function FridgeControllerPS:OnOpen(evt) return end
+function FridgeControllerPS:OnOpen(evt) end

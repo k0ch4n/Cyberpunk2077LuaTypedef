@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class CustomEventCondition: AISignalCondition
----@field public eventName CName
+---@field eventName CName
 CustomEventCondition = {}
 
 ---@param fields? CustomEventCondition
 ---@return CustomEventCondition
-function CustomEventCondition.new(fields) return end
+function CustomEventCondition.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String
-function CustomEventCondition:GetDescription(context) return end
+function CustomEventCondition:GetDescription(context) end
 
----@protected
 ---@return CName
-function CustomEventCondition:GetSignalName() return end
+function CustomEventCondition:GetSignalName() end

@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class SlotUserData: IScriptable
----@field public item UIInventoryItem
----@field public index Int32
----@field public area gamedataEquipmentArea
----@field public isLocked Bool
----@field public visibleWhenLocked Bool
----@field public screen CyberwareScreenType
----@field public isPerkRequired Bool
----@field public canUpgrade Bool
----@field public upgradeItem gamedataItem_Record
----@field public upgradeItemQuality gamedataQuality
+---@field item UIInventoryItem
+---@field index Int32
+---@field area gamedataEquipmentArea
+---@field isLocked Bool
+---@field visibleWhenLocked Bool
+---@field screen CyberwareScreenType
+---@field isPerkRequired Bool
+---@field canUpgrade Bool
+---@field upgradeItem gamedataItem_Record
+---@field upgradeItemQuality gamedataQuality
 SlotUserData = {}
 
 ---@param fields? SlotUserData
 ---@return SlotUserData
-function SlotUserData.new(fields) return end
+function SlotUserData.new(fields) end

@@ -5,9 +5,8 @@ SetLastPlayerPositionByDefault = {}
 
 ---@param fields? SetLastPlayerPositionByDefault
 ---@return SetLastPlayerPositionByDefault
-function SetLastPlayerPositionByDefault.new(fields) return end
+function SetLastPlayerPositionByDefault.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetLastPlayerPositionByDefault:Activate(context) return end
+function SetLastPlayerPositionByDefault:Activate(context) end

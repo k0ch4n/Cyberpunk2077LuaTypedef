@@ -1,20 +1,19 @@
 ---@meta
 
 ---@class RequestCLSStateChangeDeviceOperation: DeviceOperationBase
----@field private state ECLSForcedState
----@field private sourceName CName
----@field private priority EPriority
----@field private removePreviousRequests Bool
+---@field state ECLSForcedState
+---@field sourceName CName
+---@field priority EPriority
+---@field removePreviousRequests Bool
 RequestCLSStateChangeDeviceOperation = {}
 
 ---@param fields? RequestCLSStateChangeDeviceOperation
 ---@return RequestCLSStateChangeDeviceOperation
-function RequestCLSStateChangeDeviceOperation.new(fields) return end
+function RequestCLSStateChangeDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function RequestCLSStateChangeDeviceOperation:Execute(owner) return end
+function RequestCLSStateChangeDeviceOperation:Execute(owner) end
 
----@private
 ---@return nil
-function RequestCLSStateChangeDeviceOperation:SendRequest() return end
+function RequestCLSStateChangeDeviceOperation:SendRequest() end

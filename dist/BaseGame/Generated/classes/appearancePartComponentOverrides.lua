@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class appearancePartComponentOverrides
----@field public componentName CName
----@field public meshAppearance CName
----@field public chunkMask Uint64
----@field public useCustomTransform Bool
----@field public initialTransform Transform
----@field public visualScale Vector3
----@field public acceptDismemberment Bool
+---@field componentName CName
+---@field meshAppearance CName
+---@field chunkMask Uint64
+---@field useCustomTransform Bool
+---@field initialTransform Transform
+---@field visualScale Vector3
+---@field acceptDismemberment Bool
 appearancePartComponentOverrides = {}
 
 ---@param fields? appearancePartComponentOverrides
 ---@return appearancePartComponentOverrides
-function appearancePartComponentOverrides.new(fields) return end
+function appearancePartComponentOverrides.new(fields) end

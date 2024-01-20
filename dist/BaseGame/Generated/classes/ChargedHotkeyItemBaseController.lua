@@ -1,105 +1,87 @@
 ---@meta
 
 ---@class ChargedHotkeyItemBaseController: HotkeyItemController
----@field protected chargebarSizeWidget inkWidgetReference
----@field protected chargebarOpacityWidget inkWidgetReference
----@field protected startSize Vector2
----@field protected endSize Vector2
----@field protected chargebarOpacity Float
----@field protected statListener ChargedHotkeyItemStatListener
----@field protected currentProgress Float
----@field private hideChargesAnimProxy inkanimProxy
----@field private showChargesAnimProxy inkanimProxy
----@field protected chargeThreshold Float
+---@field chargebarSizeWidget inkWidgetReference
+---@field chargebarOpacityWidget inkWidgetReference
+---@field startSize Vector2
+---@field endSize Vector2
+---@field chargebarOpacity Float
+---@field statListener ChargedHotkeyItemStatListener
+---@field currentProgress Float
+---@field hideChargesAnimProxy inkanimProxy
+---@field showChargesAnimProxy inkanimProxy
+---@field chargeThreshold Float
 ChargedHotkeyItemBaseController = {}
 
 ---@param fields? ChargedHotkeyItemBaseController
 ---@return ChargedHotkeyItemBaseController
-function ChargedHotkeyItemBaseController.new(fields) return end
+function ChargedHotkeyItemBaseController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function ChargedHotkeyItemBaseController:OnHideChargesAnimFinished(anim) return end
+function ChargedHotkeyItemBaseController:OnHideChargesAnimFinished(anim) end
 
----@protected
 ---@return Bool
-function ChargedHotkeyItemBaseController:OnInitialize() return end
+function ChargedHotkeyItemBaseController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ChargedHotkeyItemBaseController:OnUninitialize() return end
+function ChargedHotkeyItemBaseController:OnUninitialize() end
 
----@private
 ---@return nil
-function ChargedHotkeyItemBaseController:CreateListener() return end
+function ChargedHotkeyItemBaseController:CreateListener() end
 
----@protected
 ---@param itemID gameItemID
 ---@param defaultValue CName|string
 ---@return CName
-function ChargedHotkeyItemBaseController:GetItemType(itemID, defaultValue) return end
+function ChargedHotkeyItemBaseController:GetItemType(itemID, defaultValue) end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemBaseController:GetMaxCharges() return end
+function ChargedHotkeyItemBaseController:GetMaxCharges() end
 
----@protected
 ---@return Float
-function ChargedHotkeyItemBaseController:GetRechargeDuration() return end
+function ChargedHotkeyItemBaseController:GetRechargeDuration() end
 
----@protected
 ---@param statPoolType gamedataStatPoolType
 ---@param inPerc Bool
 ---@return Float
-function ChargedHotkeyItemBaseController:GetStatPoolCurrentValue(statPoolType, inPerc) return end
+function ChargedHotkeyItemBaseController:GetStatPoolCurrentValue(statPoolType, inPerc) end
 
----@protected
 ---@param statPoolType gamedataStatPoolType
 ---@return Float
-function ChargedHotkeyItemBaseController:GetStatPoolMaxPoints(statPoolType) return end
+function ChargedHotkeyItemBaseController:GetStatPoolMaxPoints(statPoolType) end
 
----@protected
 ---@return Bool
-function ChargedHotkeyItemBaseController:IsBerserkActive() return end
+function ChargedHotkeyItemBaseController:IsBerserkActive() end
 
----@protected
 ---@param withCallback Bool
 ---@return nil
-function ChargedHotkeyItemBaseController:PlayHideChargesAnimation(withCallback) return end
+function ChargedHotkeyItemBaseController:PlayHideChargesAnimation(withCallback) end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemBaseController:PlayRechargeFinishedAnimation() return end
+function ChargedHotkeyItemBaseController:PlayRechargeFinishedAnimation() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemBaseController:PlayShowChargesAnimation() return end
+function ChargedHotkeyItemBaseController:PlayShowChargesAnimation() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemBaseController:RegisterStatListener() return end
+function ChargedHotkeyItemBaseController:RegisterStatListener() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemBaseController:ResolveState() return end
+function ChargedHotkeyItemBaseController:ResolveState() end
 
----@protected
 ---@param progress Float
 ---@param valueChanged Bool
 ---@return nil
-function ChargedHotkeyItemBaseController:SetRechargeProgress(progress, valueChanged) return end
+function ChargedHotkeyItemBaseController:SetRechargeProgress(progress, valueChanged) end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemBaseController:StopShowChargesAnimation() return end
+function ChargedHotkeyItemBaseController:StopShowChargesAnimation() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemBaseController:UnregisterStatListener() return end
+function ChargedHotkeyItemBaseController:UnregisterStatListener() end
 
 ---@param newValue Float
 ---@param percToPoints Float
 ---@param valueChanged Bool
 ---@return nil
-function ChargedHotkeyItemBaseController:UpdateChargeValue(newValue, percToPoints, valueChanged) return end
+function ChargedHotkeyItemBaseController:UpdateChargeValue(newValue, percToPoints, valueChanged) end

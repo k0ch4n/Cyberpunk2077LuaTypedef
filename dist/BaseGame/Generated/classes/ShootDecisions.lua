@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class ShootDecisions: WeaponTransition
----@field public stateBodyDone Bool
+---@field stateBodyDone Bool
 ShootDecisions = {}
 
 ---@param fields? ShootDecisions
 ---@return ShootDecisions
-function ShootDecisions.new(fields) return end
+function ShootDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ShootDecisions:ExitCondition(stateContext, scriptInterface) return end
+function ShootDecisions:ExitCondition(stateContext, scriptInterface) end

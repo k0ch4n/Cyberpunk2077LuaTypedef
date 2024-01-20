@@ -5,8 +5,8 @@ inkVerticalPanelWidgetReference = {}
 
 ---@param fields? inkVerticalPanelWidgetReference
 ---@return inkVerticalPanelWidgetReference
-function inkVerticalPanelWidgetReference.new(fields) return end
+function inkVerticalPanelWidgetReference.new(fields) end
 
 ---@param widget inkVerticalPanelWidget
 ---@return inkVerticalPanelWidgetReference
-function inkVerticalPanelWidgetReference.Create(widget) return end
+function inkVerticalPanelWidgetReference.Create(widget) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameuiHudScalingSensitiveWidget
----@field public widget inkWidgetReference
----@field public adjustScale Bool
----@field public adjustTranslation Bool
----@field public adjustMargin Bool
----@field public targetMarginAtDoubleScale inkMargin
----@field public marginToScalecorrectOverride inkMargin
+---@field widget inkWidgetReference
+---@field adjustScale Bool
+---@field adjustTranslation Bool
+---@field adjustMargin Bool
+---@field targetMarginAtDoubleScale inkMargin
+---@field marginToScalecorrectOverride inkMargin
 gameuiHudScalingSensitiveWidget = {}
 
 ---@param fields? gameuiHudScalingSensitiveWidget
 ---@return gameuiHudScalingSensitiveWidget
-function gameuiHudScalingSensitiveWidget.new(fields) return end
+function gameuiHudScalingSensitiveWidget.new(fields) end

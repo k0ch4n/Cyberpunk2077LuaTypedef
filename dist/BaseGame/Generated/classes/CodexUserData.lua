@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CodexUserData: IScriptable
----@field public DataSource CodexDataSource
+---@field DataSource CodexDataSource
 CodexUserData = {}
 
 ---@param fields? CodexUserData
 ---@return CodexUserData
-function CodexUserData.new(fields) return end
+function CodexUserData.new(fields) end
 
 ---@param dataSource CodexDataSource
 ---@return CodexUserData
-function CodexUserData.Make(dataSource) return end
+function CodexUserData.Make(dataSource) end

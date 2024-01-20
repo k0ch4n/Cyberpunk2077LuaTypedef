@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioShockwaveGlobalSettings: audioAudioMetadata
----@field public explosionPropagationSpeed Float
----@field public thumpPropagationSpeed Float
----@field public electroshockPropagationSpeed Float
----@field public revealPropagationSpeed Float
+---@field explosionPropagationSpeed Float
+---@field thumpPropagationSpeed Float
+---@field electroshockPropagationSpeed Float
+---@field revealPropagationSpeed Float
 audioShockwaveGlobalSettings = {}
 
 ---@param fields? audioShockwaveGlobalSettings
 ---@return audioShockwaveGlobalSettings
-function audioShockwaveGlobalSettings.new(fields) return end
+function audioShockwaveGlobalSettings.new(fields) end

@@ -5,9 +5,8 @@ HasVehicleAssigned = {}
 
 ---@param fields? HasVehicleAssigned
 ---@return HasVehicleAssigned
-function HasVehicleAssigned.new(fields) return end
+function HasVehicleAssigned.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HasVehicleAssigned:Check(context) return end
+function HasVehicleAssigned:Check(context) end

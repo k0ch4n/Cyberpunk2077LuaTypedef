@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questUIManagerNodeDefinition: questSignalStoppingNodeDefinition
----@field public type questIUIManagerNodeType
+---@field type questIUIManagerNodeType
 questUIManagerNodeDefinition = {}
 
 ---@param fields? questUIManagerNodeDefinition
 ---@return questUIManagerNodeDefinition
-function questUIManagerNodeDefinition.new(fields) return end
+function questUIManagerNodeDefinition.new(fields) end

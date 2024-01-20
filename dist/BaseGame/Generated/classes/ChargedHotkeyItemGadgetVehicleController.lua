@@ -5,21 +5,17 @@ ChargedHotkeyItemGadgetVehicleController = {}
 
 ---@param fields? ChargedHotkeyItemGadgetVehicleController
 ---@return ChargedHotkeyItemGadgetVehicleController
-function ChargedHotkeyItemGadgetVehicleController.new(fields) return end
+function ChargedHotkeyItemGadgetVehicleController.new(fields) end
 
----@protected
 ---@param evt DPADActionPerformed
 ---@return Bool
-function ChargedHotkeyItemGadgetVehicleController:OnDpadActionPerformed(evt) return end
+function ChargedHotkeyItemGadgetVehicleController:OnDpadActionPerformed(evt) end
 
----@private
 ---@return gamedataStatPoolType
-function ChargedHotkeyItemGadgetVehicleController:GetCurrentItemStatPoolType() return end
+function ChargedHotkeyItemGadgetVehicleController:GetCurrentItemStatPoolType() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetVehicleController:PlayRechargeFinishedAnimation() return end
+function ChargedHotkeyItemGadgetVehicleController:PlayRechargeFinishedAnimation() end
 
----@protected
 ---@return nil
-function ChargedHotkeyItemGadgetVehicleController:UpdateCurrentItem() return end
+function ChargedHotkeyItemGadgetVehicleController:UpdateCurrentItem() end

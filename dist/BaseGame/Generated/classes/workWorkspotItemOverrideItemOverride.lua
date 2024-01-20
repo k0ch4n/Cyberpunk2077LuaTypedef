@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class workWorkspotItemOverrideItemOverride
----@field public prevItemId TweakDBID
----@field public newItemId TweakDBID
+---@field prevItemId TweakDBID
+---@field newItemId TweakDBID
 workWorkspotItemOverrideItemOverride = {}
 
 ---@param fields? workWorkspotItemOverrideItemOverride
 ---@return workWorkspotItemOverrideItemOverride
-function workWorkspotItemOverrideItemOverride.new(fields) return end
+function workWorkspotItemOverrideItemOverride.new(fields) end

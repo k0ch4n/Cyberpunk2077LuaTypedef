@@ -1,38 +1,38 @@
 ---@meta
 
 ---@class AIPatrolRole: AIRole
----@field protected pathParams AIPatrolPathParameters
----@field protected alertedPathParams AIPatrolPathParameters
----@field protected alertedRadius Float
----@field protected alertedSpots AIbehaviorWorkspotList
----@field protected forceAlerted Bool
+---@field pathParams AIPatrolPathParameters
+---@field alertedPathParams AIPatrolPathParameters
+---@field alertedRadius Float
+---@field alertedSpots AIbehaviorWorkspotList
+---@field forceAlerted Bool
 AIPatrolRole = {}
 
 ---@param fields? AIPatrolRole
 ---@return AIPatrolRole
-function AIPatrolRole.new(fields) return end
+function AIPatrolRole.new(fields) end
 
 ---@return AIPatrolPathParameters
-function AIPatrolRole:GetAlertedPathParams() return end
+function AIPatrolRole:GetAlertedPathParams() end
 
 ---@return Float
-function AIPatrolRole:GetAlertedRadius() return end
+function AIPatrolRole:GetAlertedRadius() end
 
 ---@return AIbehaviorWorkspotList
-function AIPatrolRole:GetAlertedSpots() return end
+function AIPatrolRole:GetAlertedSpots() end
 
 ---@return AIPatrolPathParameters
-function AIPatrolRole:GetPathParams() return end
+function AIPatrolRole:GetPathParams() end
 
 ---@return EAIRole
-function AIPatrolRole:GetRoleEnum() return end
+function AIPatrolRole:GetRoleEnum() end
 
 ---@return TweakDBID
-function AIPatrolRole:GetTweakRecordId() return end
+function AIPatrolRole:GetTweakRecordId() end
 
 ---@return Bool
-function AIPatrolRole:IsForceAlerted() return end
+function AIPatrolRole:IsForceAlerted() end
 
 ---@param owner gameObject
 ---@return nil
-function AIPatrolRole:OnRoleSet(owner) return end
+function AIPatrolRole:OnRoleSet(owner) end

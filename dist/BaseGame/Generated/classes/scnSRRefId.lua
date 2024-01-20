@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnSRRefId
----@field public id Uint32
+---@field id Uint32
 scnSRRefId = {}
 
 ---@param fields? scnSRRefId
 ---@return scnSRRefId
-function scnSRRefId.new(fields) return end
+function scnSRRefId.new(fields) end

@@ -5,30 +5,27 @@ Fuse = {}
 
 ---@param fields? Fuse
 ---@return Fuse
-function Fuse.new(fields) return end
+function Fuse.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Fuse:OnRequestComponents(ri) return end
+function Fuse:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Fuse:OnTakeControl(ri) return end
+function Fuse:OnTakeControl(ri) end
 
----@protected
 ---@return FuseController
-function Fuse:GetController() return end
+function Fuse:GetController() end
 
 ---@return FocusForcedHighlightData
-function Fuse:GetDefaultHighlight() return end
+function Fuse:GetDefaultHighlight() end
 
 ---@return FuseControllerPS
-function Fuse:GetDevicePS() return end
+function Fuse:GetDevicePS() end
 
 ---@return Bool
-function Fuse:IsGameplayRelevant() return end
+function Fuse:IsGameplayRelevant() end
 
 ---@return Bool
-function Fuse:ShouldSendGameAttachedEventToPS() return end
+function Fuse:ShouldSendGameAttachedEventToPS() end

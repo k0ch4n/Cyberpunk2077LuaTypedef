@@ -5,4 +5,4 @@ InternalFunctionalTestsRuntimeSystem = {}
 
 ---@param fields? InternalFunctionalTestsRuntimeSystem
 ---@return InternalFunctionalTestsRuntimeSystem
-function InternalFunctionalTestsRuntimeSystem.new(fields) return end
+function InternalFunctionalTestsRuntimeSystem.new(fields) end

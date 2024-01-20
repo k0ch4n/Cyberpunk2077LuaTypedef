@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class NPCAttitudeTowardsPlayerPrereqState: gamePrereqState
----@field public attitudeListener gameScriptedPrereqAttitudeListenerWrapper
+---@field attitudeListener gameScriptedPrereqAttitudeListenerWrapper
 NPCAttitudeTowardsPlayerPrereqState = {}
 
 ---@param fields? NPCAttitudeTowardsPlayerPrereqState
 ---@return NPCAttitudeTowardsPlayerPrereqState
-function NPCAttitudeTowardsPlayerPrereqState.new(fields) return end
+function NPCAttitudeTowardsPlayerPrereqState.new(fields) end
 
----@protected
 ---@return nil
-function NPCAttitudeTowardsPlayerPrereqState:OnAttitudeStateChanged() return end
+function NPCAttitudeTowardsPlayerPrereqState:OnAttitudeStateChanged() end

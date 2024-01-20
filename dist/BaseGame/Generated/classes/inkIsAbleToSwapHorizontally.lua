@@ -5,4 +5,4 @@ inkIsAbleToSwapHorizontally = {}
 
 ---@param fields? inkIsAbleToSwapHorizontally
 ---@return inkIsAbleToSwapHorizontally
-function inkIsAbleToSwapHorizontally.new(fields) return end
+function inkIsAbleToSwapHorizontally.new(fields) end

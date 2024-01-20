@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SDoorStateOperationData
----@field public state EDoorStatus
----@field public operation SBaseDeviceOperationData
+---@field state EDoorStatus
+---@field operation SBaseDeviceOperationData
 SDoorStateOperationData = {}
 
 ---@param fields? SDoorStateOperationData
 ---@return SDoorStateOperationData
-function SDoorStateOperationData.new(fields) return end
+function SDoorStateOperationData.new(fields) end

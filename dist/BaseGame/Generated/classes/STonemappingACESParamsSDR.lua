@@ -5,4 +5,4 @@ STonemappingACESParamsSDR = {}
 
 ---@param fields? STonemappingACESParamsSDR
 ---@return STonemappingACESParamsSDR
-function STonemappingACESParamsSDR.new(fields) return end
+function STonemappingACESParamsSDR.new(fields) end

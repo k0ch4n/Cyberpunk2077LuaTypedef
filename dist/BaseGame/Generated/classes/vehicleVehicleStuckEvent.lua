@@ -5,4 +5,4 @@ vehicleVehicleStuckEvent = {}
 
 ---@param fields? vehicleVehicleStuckEvent
 ---@return vehicleVehicleStuckEvent
-function vehicleVehicleStuckEvent.new(fields) return end
+function vehicleVehicleStuckEvent.new(fields) end

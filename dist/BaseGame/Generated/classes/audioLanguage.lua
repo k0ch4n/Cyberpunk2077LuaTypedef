@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioLanguage
----@field public longName String
----@field public codeName String
----@field public hasVO Bool
+---@field longName String
+---@field codeName String
+---@field hasVO Bool
 audioLanguage = {}
 
 ---@param fields? audioLanguage
 ---@return audioLanguage
-function audioLanguage.new(fields) return end
+function audioLanguage.new(fields) end

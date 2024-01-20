@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questLookAtDrivenTurnsNode: questSignalStoppingNodeDefinition
----@field public mode questLookAtDrivenTurnsMode
----@field public puppetRef gameEntityReference
----@field public targetRef gameEntityReference
----@field public canLookAtDrivenTurnsInterruptGesture Bool
+---@field mode questLookAtDrivenTurnsMode
+---@field puppetRef gameEntityReference
+---@field targetRef gameEntityReference
+---@field canLookAtDrivenTurnsInterruptGesture Bool
 questLookAtDrivenTurnsNode = {}
 
 ---@param fields? questLookAtDrivenTurnsNode
 ---@return questLookAtDrivenTurnsNode
-function questLookAtDrivenTurnsNode.new(fields) return end
+function questLookAtDrivenTurnsNode.new(fields) end

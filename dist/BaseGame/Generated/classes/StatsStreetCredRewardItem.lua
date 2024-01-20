@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class StatsStreetCredRewardItem: inkButtonController
----@field private levelRef inkTextWidgetReference
----@field private iconRef inkImageWidgetReference
----@field private data LevelRewardDisplayData
+---@field levelRef inkTextWidgetReference
+---@field iconRef inkImageWidgetReference
+---@field data LevelRewardDisplayData
 StatsStreetCredRewardItem = {}
 
 ---@param fields? StatsStreetCredRewardItem
 ---@return StatsStreetCredRewardItem
-function StatsStreetCredRewardItem.new(fields) return end
+function StatsStreetCredRewardItem.new(fields) end
 
 ---@return LevelRewardDisplayData
-function StatsStreetCredRewardItem:GetRewardData() return end
+function StatsStreetCredRewardItem:GetRewardData() end
 
 ---@param data LevelRewardDisplayData
 ---@param state? CName|string
 ---@return nil
-function StatsStreetCredRewardItem:SetData(data, state) return end
+function StatsStreetCredRewardItem:SetData(data, state) end

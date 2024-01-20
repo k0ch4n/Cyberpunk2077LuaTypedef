@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameMappinResource: CResource
----@field public cookedData gameCookedMappinData[]
----@field public cookedMultiData gameCookedMultiMappinData[]
----@field public cookedGpsData gameCookedGpsMappinData[]
+---@field cookedData gameCookedMappinData[]
+---@field cookedMultiData gameCookedMultiMappinData[]
+---@field cookedGpsData gameCookedGpsMappinData[]
 gameMappinResource = {}
 
 ---@param fields? gameMappinResource
 ---@return gameMappinResource
-function gameMappinResource.new(fields) return end
+function gameMappinResource.new(fields) end

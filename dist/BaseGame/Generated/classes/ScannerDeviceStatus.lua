@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class ScannerDeviceStatus: ScannerChunk
----@field private deviceStatus String
----@field private deviceStatusFriendlyName String
+---@field deviceStatus String
+---@field deviceStatusFriendlyName String
 ScannerDeviceStatus = {}
 
 ---@param fields? ScannerDeviceStatus
 ---@return ScannerDeviceStatus
-function ScannerDeviceStatus.new(fields) return end
+function ScannerDeviceStatus.new(fields) end
 
 ---@return String
-function ScannerDeviceStatus:GetDeviceStatus() return end
+function ScannerDeviceStatus:GetDeviceStatus() end
 
 ---@return String
-function ScannerDeviceStatus:GetDeviceStatusFriendlyName() return end
+function ScannerDeviceStatus:GetDeviceStatusFriendlyName() end
 
 ---@return ScannerDataType
-function ScannerDeviceStatus:GetType() return end
+function ScannerDeviceStatus:GetType() end
 
 ---@param status String
 ---@return nil
-function ScannerDeviceStatus:Set(status) return end
+function ScannerDeviceStatus:Set(status) end
 
 ---@param status String
 ---@return nil
-function ScannerDeviceStatus:SetFriendlyName(status) return end
+function ScannerDeviceStatus:SetFriendlyName(status) end

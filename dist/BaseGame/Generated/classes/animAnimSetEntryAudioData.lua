@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimSetEntryAudioData: ISerializable
----@field public events animAnimEvent[]
+---@field events animAnimEvent[]
 animAnimSetEntryAudioData = {}
 
 ---@param fields? animAnimSetEntryAudioData
 ---@return animAnimSetEntryAudioData
-function animAnimSetEntryAudioData.new(fields) return end
+function animAnimSetEntryAudioData.new(fields) end

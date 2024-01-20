@@ -5,8 +5,7 @@ BaseInnerBunkerComputerGameController = {}
 
 ---@param fields? BaseInnerBunkerComputerGameController
 ---@return BaseInnerBunkerComputerGameController
-function BaseInnerBunkerComputerGameController.new(fields) return end
+function BaseInnerBunkerComputerGameController.new(fields) end
 
----@protected
 ---@return ScriptGameInstance
-function BaseInnerBunkerComputerGameController:GetGame() return end
+function BaseInnerBunkerComputerGameController:GetGame() end

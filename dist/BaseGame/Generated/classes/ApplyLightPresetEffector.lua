@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class ApplyLightPresetEffector: gameEffector
----@field public lightPreset gamedataLightPreset_Record
+---@field lightPreset gamedataLightPreset_Record
 ApplyLightPresetEffector = {}
 
 ---@param fields? ApplyLightPresetEffector
 ---@return ApplyLightPresetEffector
-function ApplyLightPresetEffector.new(fields) return end
+function ApplyLightPresetEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyLightPresetEffector:ActionOn(owner) return end
+function ApplyLightPresetEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyLightPresetEffector:Initialize(record, parentRecord) return end
+function ApplyLightPresetEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@param colorValues Int32[]
 ---@param strength Float
@@ -27,4 +24,4 @@ function ApplyLightPresetEffector:Initialize(record, parentRecord) return end
 ---@param curve CName|string
 ---@param loop Bool
 ---@return nil
-function ApplyLightPresetEffector:SendChangeLightEvent(owner, colorValues, strength, time, curve, loop) return end
+function ApplyLightPresetEffector:SendChangeLightEvent(owner, colorValues, strength, time, curve, loop) end

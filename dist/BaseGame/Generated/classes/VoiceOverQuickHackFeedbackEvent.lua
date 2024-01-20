@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class VoiceOverQuickHackFeedbackEvent: redEvent
----@field public voName CName
----@field public owner gameObject
+---@field voName CName
+---@field owner gameObject
 VoiceOverQuickHackFeedbackEvent = {}
 
 ---@param fields? VoiceOverQuickHackFeedbackEvent
 ---@return VoiceOverQuickHackFeedbackEvent
-function VoiceOverQuickHackFeedbackEvent.new(fields) return end
+function VoiceOverQuickHackFeedbackEvent.new(fields) end

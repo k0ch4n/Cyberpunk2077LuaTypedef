@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraIssueType
----@field public name String
+---@field name String
 toolsJiraIssueType = {}
 
 ---@param fields? toolsJiraIssueType
 ---@return toolsJiraIssueType
-function toolsJiraIssueType.new(fields) return end
+function toolsJiraIssueType.new(fields) end

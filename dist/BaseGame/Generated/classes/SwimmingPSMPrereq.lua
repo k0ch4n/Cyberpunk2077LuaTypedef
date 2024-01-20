@@ -5,25 +5,21 @@ SwimmingPSMPrereq = {}
 
 ---@param fields? SwimmingPSMPrereq
 ---@return SwimmingPSMPrereq
-function SwimmingPSMPrereq.new(fields) return end
+function SwimmingPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function SwimmingPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function SwimmingPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function SwimmingPSMPrereq:GetStateMachineEnum() return end
+function SwimmingPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function SwimmingPSMPrereq:OnRegister(state, context) return end
+function SwimmingPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function SwimmingPSMPrereq:OnUnregister(state, context) return end
+function SwimmingPSMPrereq:OnUnregister(state, context) end

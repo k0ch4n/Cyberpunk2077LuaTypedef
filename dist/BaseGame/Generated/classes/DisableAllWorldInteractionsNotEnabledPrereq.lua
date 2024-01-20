@@ -5,8 +5,8 @@ DisableAllWorldInteractionsNotEnabledPrereq = {}
 
 ---@param fields? DisableAllWorldInteractionsNotEnabledPrereq
 ---@return DisableAllWorldInteractionsNotEnabledPrereq
-function DisableAllWorldInteractionsNotEnabledPrereq.new(fields) return end
+function DisableAllWorldInteractionsNotEnabledPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function DisableAllWorldInteractionsNotEnabledPrereq:IsFulfilled(context) return end
+function DisableAllWorldInteractionsNotEnabledPrereq:IsFulfilled(context) end

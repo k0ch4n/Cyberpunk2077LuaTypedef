@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class UnequippedWaitingForExternalFactorsDecisions: EquipmentBaseDecisions
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public stateMachineInitData EquipmentInitData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInitData EquipmentInitData
 UnequippedWaitingForExternalFactorsDecisions = {}
 
 ---@param fields? UnequippedWaitingForExternalFactorsDecisions
 ---@return UnequippedWaitingForExternalFactorsDecisions
-function UnequippedWaitingForExternalFactorsDecisions.new(fields) return end
+function UnequippedWaitingForExternalFactorsDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UnequippedWaitingForExternalFactorsDecisions:ExitCondition(stateContext, scriptInterface) return end
+function UnequippedWaitingForExternalFactorsDecisions:ExitCondition(stateContext, scriptInterface) end

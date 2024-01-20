@@ -5,4 +5,4 @@ UIRefreshedEvent = {}
 
 ---@param fields? UIRefreshedEvent
 ---@return UIRefreshedEvent
-function UIRefreshedEvent.new(fields) return end
+function UIRefreshedEvent.new(fields) end

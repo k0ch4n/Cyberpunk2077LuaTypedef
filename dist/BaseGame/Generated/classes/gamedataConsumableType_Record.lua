@@ -5,13 +5,13 @@ gamedataConsumableType_Record = {}
 
 ---@param fields? gamedataConsumableType_Record
 ---@return gamedataConsumableType_Record
-function gamedataConsumableType_Record.new(fields) return end
+function gamedataConsumableType_Record.new(fields) end
 
 ---@return CName
-function gamedataConsumableType_Record:EnumComment() return end
+function gamedataConsumableType_Record:EnumComment() end
 
 ---@return CName
-function gamedataConsumableType_Record:EnumName() return end
+function gamedataConsumableType_Record:EnumName() end
 
 ---@return gamedataConsumableType
-function gamedataConsumableType_Record:Type() return end
+function gamedataConsumableType_Record:Type() end

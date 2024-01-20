@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class SettingsNotificationListener: userSettingsNotificationListener
----@field private ctrl SettingsMainGameController
+---@field ctrl SettingsMainGameController
 SettingsNotificationListener = {}
 
 ---@param fields? SettingsNotificationListener
 ---@return SettingsNotificationListener
-function SettingsNotificationListener.new(fields) return end
+function SettingsNotificationListener.new(fields) end
 
 ---@param status InGameConfigNotificationType
 ---@return nil
-function SettingsNotificationListener:OnNotify(status) return end
+function SettingsNotificationListener:OnNotify(status) end
 
 ---@param ctrl SettingsMainGameController
 ---@return nil
-function SettingsNotificationListener:RegisterController(ctrl) return end
+function SettingsNotificationListener:RegisterController(ctrl) end

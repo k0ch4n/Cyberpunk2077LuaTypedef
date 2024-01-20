@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AIBackgroundCombatStep
----@field public timeMin Float
----@field public timeMax Float
----@field public type EAIBackgroundCombatStep
----@field public argument gameEntityReference
----@field public exposureMethod AICoverExposureMethod
+---@field timeMin Float
+---@field timeMax Float
+---@field type EAIBackgroundCombatStep
+---@field argument gameEntityReference
+---@field exposureMethod AICoverExposureMethod
 AIBackgroundCombatStep = {}
 
 ---@param fields? AIBackgroundCombatStep
 ---@return AIBackgroundCombatStep
-function AIBackgroundCombatStep.new(fields) return end
+function AIBackgroundCombatStep.new(fields) end

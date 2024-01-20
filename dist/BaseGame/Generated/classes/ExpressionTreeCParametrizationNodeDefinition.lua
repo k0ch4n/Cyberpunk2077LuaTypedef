@@ -5,4 +5,4 @@ ExpressionTreeCParametrizationNodeDefinition = {}
 
 ---@param fields? ExpressionTreeCParametrizationNodeDefinition
 ---@return ExpressionTreeCParametrizationNodeDefinition
-function ExpressionTreeCParametrizationNodeDefinition.new(fields) return end
+function ExpressionTreeCParametrizationNodeDefinition.new(fields) end

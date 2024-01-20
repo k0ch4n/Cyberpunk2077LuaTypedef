@@ -5,12 +5,11 @@ UseCorruptedSandevistanAction = {}
 
 ---@param fields? UseCorruptedSandevistanAction
 ---@return UseCorruptedSandevistanAction
-function UseCorruptedSandevistanAction.new(fields) return end
+function UseCorruptedSandevistanAction.new(fields) end
 
----@private
 ---@param lockey String
 ---@return nil
-function UseCorruptedSandevistanAction:SetWarningMessage(lockey) return end
+function UseCorruptedSandevistanAction:SetWarningMessage(lockey) end
 
 ---@return nil
-function UseCorruptedSandevistanAction:StartAction() return end
+function UseCorruptedSandevistanAction:StartAction() end

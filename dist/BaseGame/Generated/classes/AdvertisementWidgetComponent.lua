@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class AdvertisementWidgetComponent: IWorldWidgetComponent
----@field public format AdvertisementFormat
----@field public adGroupTDBID TweakDBID
----@field public enableOverride Bool
----@field public adOverrideTDBID TweakDBID
----@field public adVersion Uint32
----@field public useOnlyAttachedLights Bool
+---@field format AdvertisementFormat
+---@field adGroupTDBID TweakDBID
+---@field enableOverride Bool
+---@field adOverrideTDBID TweakDBID
+---@field adVersion Uint32
+---@field useOnlyAttachedLights Bool
 AdvertisementWidgetComponent = {}
 
 ---@param fields? AdvertisementWidgetComponent
 ---@return AdvertisementWidgetComponent
-function AdvertisementWidgetComponent.new(fields) return end
+function AdvertisementWidgetComponent.new(fields) end
 
 ---@return nil
-function AdvertisementWidgetComponent:GetLocalizedDescription() return end
+function AdvertisementWidgetComponent:GetLocalizedDescription() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnGameplayActionEvent: scnSceneEvent
----@field public performer scnPerformerId
----@field public gameplayActionData scnIGameplayActionData
+---@field performer scnPerformerId
+---@field gameplayActionData scnIGameplayActionData
 scnGameplayActionEvent = {}
 
 ---@param fields? scnGameplayActionEvent
 ---@return scnGameplayActionEvent
-function scnGameplayActionEvent.new(fields) return end
+function scnGameplayActionEvent.new(fields) end

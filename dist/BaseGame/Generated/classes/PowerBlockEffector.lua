@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class PowerBlockEffector: ModifyAttackEffector
----@field private damageReduction Float
+---@field damageReduction Float
 PowerBlockEffector = {}
 
 ---@param fields? PowerBlockEffector
 ---@return PowerBlockEffector
-function PowerBlockEffector.new(fields) return end
+function PowerBlockEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PowerBlockEffector:ActionOn(owner) return end
+function PowerBlockEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function PowerBlockEffector:Initialize(record, parentRecord) return end
+function PowerBlockEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function PowerBlockEffector:ProcessAction(owner) return end
+function PowerBlockEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function PowerBlockEffector:RepeatedAction(owner) return end
+function PowerBlockEffector:RepeatedAction(owner) end

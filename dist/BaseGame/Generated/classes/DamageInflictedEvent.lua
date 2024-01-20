@@ -5,4 +5,4 @@ DamageInflictedEvent = {}
 
 ---@param fields? DamageInflictedEvent
 ---@return DamageInflictedEvent
-function DamageInflictedEvent.new(fields) return end
+function DamageInflictedEvent.new(fields) end

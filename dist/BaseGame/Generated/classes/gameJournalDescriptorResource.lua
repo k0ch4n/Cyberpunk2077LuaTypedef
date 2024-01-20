@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameJournalDescriptorResource: gameJournalBaseResource
----@field public entriesActivatedAtStart String[]
+---@field entriesActivatedAtStart String[]
 gameJournalDescriptorResource = {}
 
 ---@param fields? gameJournalDescriptorResource
 ---@return gameJournalDescriptorResource
-function gameJournalDescriptorResource.new(fields) return end
+function gameJournalDescriptorResource.new(fields) end

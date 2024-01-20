@@ -5,19 +5,19 @@ gamemappinsPointOfInterestMappin = {}
 
 ---@param fields? gamemappinsPointOfInterestMappin
 ---@return gamemappinsPointOfInterestMappin
-function gamemappinsPointOfInterestMappin.new(fields) return end
+function gamemappinsPointOfInterestMappin.new(fields) end
 
 ---@return TweakDBID
-function gamemappinsPointOfInterestMappin:GetCharacterRecordID() return end
+function gamemappinsPointOfInterestMappin:GetCharacterRecordID() end
 
 ---@return Uint32
-function gamemappinsPointOfInterestMappin:GetJournalPathHash() return end
+function gamemappinsPointOfInterestMappin:GetJournalPathHash() end
 
 ---@return Uint32
-function gamemappinsPointOfInterestMappin:GetJournalQuestPathHash() return end
+function gamemappinsPointOfInterestMappin:GetJournalQuestPathHash() end
 
 ---@return CName
-function gamemappinsPointOfInterestMappin:GetSlotName() return end
+function gamemappinsPointOfInterestMappin:GetSlotName() end
 
 ---@return Bool
-function gamemappinsPointOfInterestMappin:IsInsideSecurityAreaTrigger() return end
+function gamemappinsPointOfInterestMappin:IsInsideSecurityAreaTrigger() end

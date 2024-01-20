@@ -5,7 +5,7 @@ EnableVisualOverride = {}
 
 ---@param fields? EnableVisualOverride
 ---@return EnableVisualOverride
-function EnableVisualOverride.new(fields) return end
+function EnableVisualOverride.new(fields) end
 
 ---@return String
-function EnableVisualOverride:GetFriendlyDescription() return end
+function EnableVisualOverride:GetFriendlyDescription() end

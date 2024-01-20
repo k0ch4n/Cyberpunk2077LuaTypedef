@@ -5,4 +5,4 @@ gamestateMachineplayeractionsActionCharge = {}
 
 ---@param fields? gamestateMachineplayeractionsActionCharge
 ---@return gamestateMachineplayeractionsActionCharge
-function gamestateMachineplayeractionsActionCharge.new(fields) return end
+function gamestateMachineplayeractionsActionCharge.new(fields) end

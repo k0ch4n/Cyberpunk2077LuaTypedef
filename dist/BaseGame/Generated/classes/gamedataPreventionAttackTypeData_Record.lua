@@ -5,22 +5,22 @@ gamedataPreventionAttackTypeData_Record = {}
 
 ---@param fields? gamedataPreventionAttackTypeData_Record
 ---@return gamedataPreventionAttackTypeData_Record
-function gamedataPreventionAttackTypeData_Record.new(fields) return end
+function gamedataPreventionAttackTypeData_Record.new(fields) end
 
 ---@return Float
-function gamedataPreventionAttackTypeData_Record:Explosion() return end
+function gamedataPreventionAttackTypeData_Record:Explosion() end
 
 ---@return Float
-function gamedataPreventionAttackTypeData_Record:Hack() return end
+function gamedataPreventionAttackTypeData_Record:Hack() end
 
 ---@return Float
-function gamedataPreventionAttackTypeData_Record:Indirect() return end
+function gamedataPreventionAttackTypeData_Record:Indirect() end
 
 ---@return Float
-function gamedataPreventionAttackTypeData_Record:Kill() return end
+function gamedataPreventionAttackTypeData_Record:Kill() end
 
 ---@return Float
-function gamedataPreventionAttackTypeData_Record:Melee() return end
+function gamedataPreventionAttackTypeData_Record:Melee() end
 
 ---@return Float
-function gamedataPreventionAttackTypeData_Record:Ranged() return end
+function gamedataPreventionAttackTypeData_Record:Ranged() end

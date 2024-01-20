@@ -5,4 +5,4 @@ FinishedPathWithDoors = {}
 
 ---@param fields? FinishedPathWithDoors
 ---@return FinishedPathWithDoors
-function FinishedPathWithDoors.new(fields) return end
+function FinishedPathWithDoors.new(fields) end

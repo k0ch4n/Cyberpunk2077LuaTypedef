@@ -5,4 +5,4 @@ CameraCustomData_RenderProxyData = {}
 
 ---@param fields? CameraCustomData_RenderProxyData
 ---@return CameraCustomData_RenderProxyData
-function CameraCustomData_RenderProxyData.new(fields) return end
+function CameraCustomData_RenderProxyData.new(fields) end

@@ -1,23 +1,22 @@
 ---@meta
 
 ---@class ToggleComponentsDeviceOperation: DeviceOperationBase
----@field public components SComponentOperationData[]
+---@field components SComponentOperationData[]
 ToggleComponentsDeviceOperation = {}
 
 ---@param fields? ToggleComponentsDeviceOperation
 ---@return ToggleComponentsDeviceOperation
-function ToggleComponentsDeviceOperation.new(fields) return end
+function ToggleComponentsDeviceOperation.new(fields) end
 
 ---@param owner gameObject
 ---@return nil
-function ToggleComponentsDeviceOperation:Execute(owner) return end
+function ToggleComponentsDeviceOperation:Execute(owner) end
 
----@private
 ---@param componentsData SComponentOperationData[]
 ---@param owner gameObject
 ---@return nil
-function ToggleComponentsDeviceOperation:ResolveComponents(componentsData, owner) return end
+function ToggleComponentsDeviceOperation:ResolveComponents(componentsData, owner) end
 
 ---@param owner gameObject
 ---@return nil
-function ToggleComponentsDeviceOperation:Restore(owner) return end
+function ToggleComponentsDeviceOperation:Restore(owner) end

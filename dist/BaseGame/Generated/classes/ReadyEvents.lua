@@ -1,41 +1,36 @@
 ---@meta
 
 ---@class ReadyEvents: WeaponEventsTransition
----@field public timeStamp Float
+---@field timeStamp Float
 ReadyEvents = {}
 
 ---@param fields? ReadyEvents
 ---@return ReadyEvents
-function ReadyEvents.new(fields) return end
+function ReadyEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReadyEvents:OnEnter(stateContext, scriptInterface) return end
+function ReadyEvents:OnEnter(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReadyEvents:OnExit(stateContext, scriptInterface) return end
+function ReadyEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReadyEvents:OnForcedExit(stateContext, scriptInterface) return end
+function ReadyEvents:OnForcedExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReadyEvents:OnTick(timeDelta, stateContext, scriptInterface) return end
+function ReadyEvents:OnTick(timeDelta, stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ReadyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function ReadyEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

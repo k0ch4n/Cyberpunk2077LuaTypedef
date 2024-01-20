@@ -5,4 +5,4 @@ gameStatsComponentPS = {}
 
 ---@param fields? gameStatsComponentPS
 ---@return gameStatsComponentPS
-function gameStatsComponentPS.new(fields) return end
+function gameStatsComponentPS.new(fields) end

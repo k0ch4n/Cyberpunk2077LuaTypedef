@@ -1,46 +1,46 @@
 ---@meta
 
 ---@class inkRadioGroupController: inkWidgetLogicController
----@field public toggleRefs inkWidgetReference[]
----@field public alwaysToggled Bool
----@field public selectedIndex Int32
----@field public ValueChanged inkRadioGroupChangedCallback
+---@field toggleRefs inkWidgetReference[]
+---@field alwaysToggled Bool
+---@field selectedIndex Int32
+---@field ValueChanged inkRadioGroupChangedCallback
 inkRadioGroupController = {}
 
 ---@param fields? inkRadioGroupController
 ---@return inkRadioGroupController
-function inkRadioGroupController.new(fields) return end
+function inkRadioGroupController.new(fields) end
 
 ---@param toAdd inkToggleController
 ---@return nil
-function inkRadioGroupController:AddToggle(toAdd) return end
+function inkRadioGroupController:AddToggle(toAdd) end
 
 ---@param index Int32
 ---@return inkToggleController
-function inkRadioGroupController:GetController(index) return end
+function inkRadioGroupController:GetController(index) end
 
 ---@return nil, inkToggleController[] controllers
-function inkRadioGroupController:GetControllers() return end
+function inkRadioGroupController:GetControllers() end
 
 ---@return Int32
-function inkRadioGroupController:GetCurrentIndex() return end
+function inkRadioGroupController:GetCurrentIndex() end
 
 ---@param controller inkToggleController
 ---@return Int32
-function inkRadioGroupController:GetIndexForToggle(controller) return end
+function inkRadioGroupController:GetIndexForToggle(controller) end
 
 ---@param index Int32
 ---@return nil
-function inkRadioGroupController:RemoveToggle(index) return end
+function inkRadioGroupController:RemoveToggle(index) end
 
 ---@param toRemove inkToggleController
 ---@return nil
-function inkRadioGroupController:RemoveToggleController(toRemove) return end
+function inkRadioGroupController:RemoveToggleController(toRemove) end
 
 ---@param toToggle Int32
 ---@return nil
-function inkRadioGroupController:Toggle(toToggle) return end
+function inkRadioGroupController:Toggle(toToggle) end
 
 ---@param toAdd inkToggleController[]
 ---@return nil
-function inkRadioGroupController:AddToggles(toAdd) return end
+function inkRadioGroupController:AddToggles(toAdd) end

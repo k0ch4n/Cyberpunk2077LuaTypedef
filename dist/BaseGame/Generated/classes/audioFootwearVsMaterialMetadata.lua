@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class audioFootwearVsMaterialMetadata: audioAudioMetadata
----@field public footwearType CName
----@field public skidEvent CName
----@field public defaultFootstep CName
----@field public locomotionStates audioLocomotionStateEventDictionary
----@field public customActionEvents audioLocomotionCustomActionEventDictionary
+---@field footwearType CName
+---@field skidEvent CName
+---@field defaultFootstep CName
+---@field locomotionStates audioLocomotionStateEventDictionary
+---@field customActionEvents audioLocomotionCustomActionEventDictionary
 audioFootwearVsMaterialMetadata = {}
 
 ---@param fields? audioFootwearVsMaterialMetadata
 ---@return audioFootwearVsMaterialMetadata
-function audioFootwearVsMaterialMetadata.new(fields) return end
+function audioFootwearVsMaterialMetadata.new(fields) end

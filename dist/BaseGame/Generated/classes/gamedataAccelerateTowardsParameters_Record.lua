@@ -5,25 +5,25 @@ gamedataAccelerateTowardsParameters_Record = {}
 
 ---@param fields? gamedataAccelerateTowardsParameters_Record
 ---@return gamedataAccelerateTowardsParameters_Record
-function gamedataAccelerateTowardsParameters_Record.new(fields) return end
+function gamedataAccelerateTowardsParameters_Record.new(fields) end
 
 ---@return Float
-function gamedataAccelerateTowardsParameters_Record:AccelerationSpeed() return end
+function gamedataAccelerateTowardsParameters_Record:AccelerationSpeed() end
 
 ---@return Float
-function gamedataAccelerateTowardsParameters_Record:Accuracy() return end
+function gamedataAccelerateTowardsParameters_Record:Accuracy() end
 
 ---@return Float
-function gamedataAccelerateTowardsParameters_Record:DecelerateTowardsTargetPositionDistance() return end
+function gamedataAccelerateTowardsParameters_Record:DecelerateTowardsTargetPositionDistance() end
 
 ---@return Float
-function gamedataAccelerateTowardsParameters_Record:DiffForMaxRotation() return end
+function gamedataAccelerateTowardsParameters_Record:DiffForMaxRotation() end
 
 ---@return Float
-function gamedataAccelerateTowardsParameters_Record:MaxRotationSpeed() return end
+function gamedataAccelerateTowardsParameters_Record:MaxRotationSpeed() end
 
 ---@return Float
-function gamedataAccelerateTowardsParameters_Record:MaxSpeed() return end
+function gamedataAccelerateTowardsParameters_Record:MaxSpeed() end
 
 ---@return Float
-function gamedataAccelerateTowardsParameters_Record:MinRotationSpeed() return end
+function gamedataAccelerateTowardsParameters_Record:MinRotationSpeed() end

@@ -5,19 +5,19 @@ gamedataAIExtendTargetCirclingCond_Record = {}
 
 ---@param fields? gamedataAIExtendTargetCirclingCond_Record
 ---@return gamedataAIExtendTargetCirclingCond_Record
-function gamedataAIExtendTargetCirclingCond_Record.new(fields) return end
+function gamedataAIExtendTargetCirclingCond_Record.new(fields) end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIExtendTargetCirclingCond_Record:DestinationTarget() return end
+function gamedataAIExtendTargetCirclingCond_Record:DestinationTarget() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIExtendTargetCirclingCond_Record:DestinationTargetHandle() return end
+function gamedataAIExtendTargetCirclingCond_Record:DestinationTargetHandle() end
 
 ---@return Float
-function gamedataAIExtendTargetCirclingCond_Record:SpreadIncreaseAngle() return end
+function gamedataAIExtendTargetCirclingCond_Record:SpreadIncreaseAngle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIExtendTargetCirclingCond_Record:Target() return end
+function gamedataAIExtendTargetCirclingCond_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAIExtendTargetCirclingCond_Record:TargetHandle() return end
+function gamedataAIExtendTargetCirclingCond_Record:TargetHandle() end

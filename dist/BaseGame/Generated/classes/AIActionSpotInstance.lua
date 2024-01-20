@@ -5,4 +5,4 @@ AIActionSpotInstance = {}
 
 ---@param fields? AIActionSpotInstance
 ---@return AIActionSpotInstance
-function AIActionSpotInstance.new(fields) return end
+function AIActionSpotInstance.new(fields) end

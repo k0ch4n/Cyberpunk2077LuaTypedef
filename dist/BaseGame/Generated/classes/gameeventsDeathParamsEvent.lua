@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameeventsDeathParamsEvent: redEvent
----@field public noAnimation Bool
----@field public noRagdoll Bool
+---@field noAnimation Bool
+---@field noRagdoll Bool
 gameeventsDeathParamsEvent = {}
 
 ---@param fields? gameeventsDeathParamsEvent
 ---@return gameeventsDeathParamsEvent
-function gameeventsDeathParamsEvent.new(fields) return end
+function gameeventsDeathParamsEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DeactivateLinksRequest: gameScriptableSystemRequest
----@field public linksIDs Int32[]
----@field public instant Bool
+---@field linksIDs Int32[]
+---@field instant Bool
 DeactivateLinksRequest = {}
 
 ---@param fields? DeactivateLinksRequest
 ---@return DeactivateLinksRequest
-function DeactivateLinksRequest.new(fields) return end
+function DeactivateLinksRequest.new(fields) end

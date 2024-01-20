@@ -5,4 +5,4 @@ gameMovingPlatformMountableComponent = {}
 
 ---@param fields? gameMovingPlatformMountableComponent
 ---@return gameMovingPlatformMountableComponent
-function gameMovingPlatformMountableComponent.new(fields) return end
+function gameMovingPlatformMountableComponent.new(fields) end

@@ -5,4 +5,4 @@ UpdateVisibilityModifierEvent = {}
 
 ---@param fields? UpdateVisibilityModifierEvent
 ---@return UpdateVisibilityModifierEvent
-function UpdateVisibilityModifierEvent.new(fields) return end
+function UpdateVisibilityModifierEvent.new(fields) end

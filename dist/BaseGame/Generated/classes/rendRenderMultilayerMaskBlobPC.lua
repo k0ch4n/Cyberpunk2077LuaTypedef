@@ -5,4 +5,4 @@ rendRenderMultilayerMaskBlobPC = {}
 
 ---@param fields? rendRenderMultilayerMaskBlobPC
 ---@return rendRenderMultilayerMaskBlobPC
-function rendRenderMultilayerMaskBlobPC.new(fields) return end
+function rendRenderMultilayerMaskBlobPC.new(fields) end

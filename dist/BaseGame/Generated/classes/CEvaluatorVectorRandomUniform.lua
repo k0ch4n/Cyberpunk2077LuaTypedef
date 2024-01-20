@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class CEvaluatorVectorRandomUniform: IEvaluatorVector
----@field public min Vector4
----@field public max Vector4
----@field public lockX Bool
----@field public lockY Bool
----@field public lockZ Bool
----@field public lockW Bool
+---@field min Vector4
+---@field max Vector4
+---@field lockX Bool
+---@field lockY Bool
+---@field lockZ Bool
+---@field lockW Bool
 CEvaluatorVectorRandomUniform = {}
 
 ---@param fields? CEvaluatorVectorRandomUniform
 ---@return CEvaluatorVectorRandomUniform
-function CEvaluatorVectorRandomUniform.new(fields) return end
+function CEvaluatorVectorRandomUniform.new(fields) end

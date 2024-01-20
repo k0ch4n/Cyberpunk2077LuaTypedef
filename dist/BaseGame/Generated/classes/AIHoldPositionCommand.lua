@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIHoldPositionCommand: AIMoveCommand
----@field public duration Float
+---@field duration Float
 AIHoldPositionCommand = {}
 
 ---@param fields? AIHoldPositionCommand
 ---@return AIHoldPositionCommand
-function AIHoldPositionCommand.new(fields) return end
+function AIHoldPositionCommand.new(fields) end

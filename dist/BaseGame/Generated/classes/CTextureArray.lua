@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CTextureArray: ITexture
----@field public setup STextureGroupSetup
----@field public renderResourceBlob IRenderResourceBlob
----@field public renderTextureResource rendRenderTextureResource
+---@field setup STextureGroupSetup
+---@field renderResourceBlob IRenderResourceBlob
+---@field renderTextureResource rendRenderTextureResource
 CTextureArray = {}
 
 ---@param fields? CTextureArray
 ---@return CTextureArray
-function CTextureArray.new(fields) return end
+function CTextureArray.new(fields) end

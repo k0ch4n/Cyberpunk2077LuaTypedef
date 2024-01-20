@@ -5,4 +5,4 @@ effectDataMoshPlayData = {}
 
 ---@param fields? effectDataMoshPlayData
 ---@return effectDataMoshPlayData
-function effectDataMoshPlayData.new(fields) return end
+function effectDataMoshPlayData.new(fields) end

@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class MadnessEffector: gameEffector
----@field public squadMembers entEntityID[]
----@field public owner ScriptedPuppet
+---@field squadMembers entEntityID[]
+---@field owner ScriptedPuppet
 MadnessEffector = {}
 
 ---@param fields? MadnessEffector
 ---@return MadnessEffector
-function MadnessEffector.new(fields) return end
+function MadnessEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function MadnessEffector:ActionOff(owner) return end
+function MadnessEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function MadnessEffector:ActionOn(owner) return end
+function MadnessEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function MadnessEffector:Initialize(record, parentRecord) return end
+function MadnessEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function MadnessEffector:Uninitialize() return end
+function MadnessEffector:Uninitialize() end

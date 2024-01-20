@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class EmissiveColorSettings: IAreaSettings
----@field public tint curveData
----@field public saturation curveData
----@field public brigtness curveData
----@field public exposure curveData
----@field public cameraLuminance curveData
----@field public evBlend curveData
----@field public exposureIBL curveData
----@field public luminanceIBL curveData
----@field public curveRampIBL Float
----@field public exposureScale curveData
+---@field tint curveData
+---@field saturation curveData
+---@field brigtness curveData
+---@field exposure curveData
+---@field cameraLuminance curveData
+---@field evBlend curveData
+---@field exposureIBL curveData
+---@field luminanceIBL curveData
+---@field curveRampIBL Float
+---@field exposureScale curveData
 EmissiveColorSettings = {}
 
 ---@param fields? EmissiveColorSettings
 ---@return EmissiveColorSettings
-function EmissiveColorSettings.new(fields) return end
+function EmissiveColorSettings.new(fields) end

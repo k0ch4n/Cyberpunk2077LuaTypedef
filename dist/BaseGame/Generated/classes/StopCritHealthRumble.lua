@@ -5,4 +5,4 @@ StopCritHealthRumble = {}
 
 ---@param fields? StopCritHealthRumble
 ---@return StopCritHealthRumble
-function StopCritHealthRumble.new(fields) return end
+function StopCritHealthRumble.new(fields) end

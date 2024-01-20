@@ -5,4 +5,4 @@ WakeUpFromRestartEvent = {}
 
 ---@param fields? WakeUpFromRestartEvent
 ---@return WakeUpFromRestartEvent
-function WakeUpFromRestartEvent.new(fields) return end
+function WakeUpFromRestartEvent.new(fields) end

@@ -5,7 +5,7 @@ DestructibleMasterLightController = {}
 
 ---@param fields? DestructibleMasterLightController
 ---@return DestructibleMasterLightController
-function DestructibleMasterLightController.new(fields) return end
+function DestructibleMasterLightController.new(fields) end
 
 ---@return DestructibleMasterLightControllerPS
-function DestructibleMasterLightController:GetPS() return end
+function DestructibleMasterLightController:GetPS() end

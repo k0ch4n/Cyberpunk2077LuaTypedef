@@ -1,32 +1,30 @@
 ---@meta
 
 ---@class IncomingCallLogicController: inkWidgetLogicController
----@field private contactNameWidget inkTextWidgetReference
----@field private buttonHint inkWidgetReference
----@field private avatar inkImageWidgetReference
----@field private animProxy inkanimProxy
+---@field contactNameWidget inkTextWidgetReference
+---@field buttonHint inkWidgetReference
+---@field avatar inkImageWidgetReference
+---@field animProxy inkanimProxy
 IncomingCallLogicController = {}
 
 ---@param fields? IncomingCallLogicController
 ---@return IncomingCallLogicController
-function IncomingCallLogicController.new(fields) return end
+function IncomingCallLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function IncomingCallLogicController:OnInitialize() return end
+function IncomingCallLogicController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function IncomingCallLogicController:OnRingAnimFinished(proxy) return end
+function IncomingCallLogicController:OnRingAnimFinished(proxy) end
 
 ---@param contactName String
 ---@param contactEntry gameJournalContact
 ---@param journalMgr gameJournalManager
 ---@param isRejectable Bool
 ---@return nil
-function IncomingCallLogicController:SetCallInfo(contactName, contactEntry, journalMgr, isRejectable) return end
+function IncomingCallLogicController:SetCallInfo(contactName, contactEntry, journalMgr, isRejectable) end
 
 ---@param pause Bool
 ---@return nil
-function IncomingCallLogicController:SetCallingPaused(pause) return end
+function IncomingCallLogicController:SetCallingPaused(pause) end

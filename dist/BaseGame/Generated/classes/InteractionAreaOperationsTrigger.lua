@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class InteractionAreaOperationsTrigger: DeviceOperationsTrigger
----@field protected triggerData InteractionAreaOperationTriggerData
+---@field triggerData InteractionAreaOperationTriggerData
 InteractionAreaOperationsTrigger = {}
 
 ---@param fields? InteractionAreaOperationsTrigger
 ---@return InteractionAreaOperationsTrigger
-function InteractionAreaOperationsTrigger.new(fields) return end
+function InteractionAreaOperationsTrigger.new(fields) end
 
 ---@param areaTag CName|string
 ---@param owner gameObject
@@ -14,4 +14,4 @@ function InteractionAreaOperationsTrigger.new(fields) return end
 ---@param operationType gameinteractionsEInteractionEventType
 ---@param container DeviceOperationsContainer
 ---@return nil
-function InteractionAreaOperationsTrigger:EvaluateTrigger(areaTag, owner, activator, operationType, container) return end
+function InteractionAreaOperationsTrigger:EvaluateTrigger(areaTag, owner, activator, operationType, container) end

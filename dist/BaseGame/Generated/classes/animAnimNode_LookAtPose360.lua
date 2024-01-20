@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animAnimNode_LookAtPose360: animAnimNode_Base
----@field public speedInDegreesPerSecond Float
----@field public angleOffsetNode animFloatLink
----@field public targetAngleOffsetNode animFloatLink
----@field public weightNode animFloatLink
----@field public animEndEventName CName
----@field public animation CName
----@field public durationCut Float
+---@field speedInDegreesPerSecond Float
+---@field angleOffsetNode animFloatLink
+---@field targetAngleOffsetNode animFloatLink
+---@field weightNode animFloatLink
+---@field animEndEventName CName
+---@field animation CName
+---@field durationCut Float
 animAnimNode_LookAtPose360 = {}
 
 ---@param fields? animAnimNode_LookAtPose360
 ---@return animAnimNode_LookAtPose360
-function animAnimNode_LookAtPose360.new(fields) return end
+function animAnimNode_LookAtPose360.new(fields) end

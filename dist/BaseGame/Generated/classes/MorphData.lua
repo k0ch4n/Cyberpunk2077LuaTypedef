@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MorphData: IScriptable
----@field public changed Bool
+---@field changed Bool
 MorphData = {}
 
 ---@param fields? MorphData
 ---@return MorphData
-function MorphData.new(fields) return end
+function MorphData.new(fields) end

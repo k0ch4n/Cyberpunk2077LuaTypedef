@@ -5,4 +5,4 @@ gameuiFinalBoardsGoToMainMenu = {}
 
 ---@param fields? gameuiFinalBoardsGoToMainMenu
 ---@return gameuiFinalBoardsGoToMainMenu
-function gameuiFinalBoardsGoToMainMenu.new(fields) return end
+function gameuiFinalBoardsGoToMainMenu.new(fields) end

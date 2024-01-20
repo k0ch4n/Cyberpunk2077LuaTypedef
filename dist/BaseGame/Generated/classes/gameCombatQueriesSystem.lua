@@ -5,4 +5,4 @@ gameCombatQueriesSystem = {}
 
 ---@param fields? gameCombatQueriesSystem
 ---@return gameCombatQueriesSystem
-function gameCombatQueriesSystem.new(fields) return end
+function gameCombatQueriesSystem.new(fields) end

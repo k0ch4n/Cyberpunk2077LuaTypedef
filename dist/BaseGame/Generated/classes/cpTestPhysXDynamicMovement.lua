@@ -5,4 +5,4 @@ cpTestPhysXDynamicMovement = {}
 
 ---@param fields? cpTestPhysXDynamicMovement
 ---@return cpTestPhysXDynamicMovement
-function cpTestPhysXDynamicMovement.new(fields) return end
+function cpTestPhysXDynamicMovement.new(fields) end

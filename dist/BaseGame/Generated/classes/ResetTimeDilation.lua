@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ResetTimeDilation: redEvent
----@field public easeOut CName
----@field public global Bool
+---@field easeOut CName
+---@field global Bool
 ResetTimeDilation = {}
 
 ---@param fields? ResetTimeDilation
 ---@return ResetTimeDilation
-function ResetTimeDilation.new(fields) return end
+function ResetTimeDilation.new(fields) end

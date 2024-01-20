@@ -5,8 +5,8 @@ DialerContactTemplateClassifier = {}
 
 ---@param fields? DialerContactTemplateClassifier
 ---@return DialerContactTemplateClassifier
-function DialerContactTemplateClassifier.new(fields) return end
+function DialerContactTemplateClassifier.new(fields) end
 
 ---@param data Variant
 ---@return Uint32
-function DialerContactTemplateClassifier:ClassifyItem(data) return end
+function DialerContactTemplateClassifier:ClassifyItem(data) end

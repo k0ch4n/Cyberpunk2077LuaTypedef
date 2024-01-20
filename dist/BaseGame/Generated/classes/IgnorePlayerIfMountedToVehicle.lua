@@ -5,9 +5,9 @@ IgnorePlayerIfMountedToVehicle = {}
 
 ---@param fields? IgnorePlayerIfMountedToVehicle
 ---@return IgnorePlayerIfMountedToVehicle
-function IgnorePlayerIfMountedToVehicle.new(fields) return end
+function IgnorePlayerIfMountedToVehicle.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function IgnorePlayerIfMountedToVehicle:Process(ctx, filterCtx) return end
+function IgnorePlayerIfMountedToVehicle:Process(ctx, filterCtx) end

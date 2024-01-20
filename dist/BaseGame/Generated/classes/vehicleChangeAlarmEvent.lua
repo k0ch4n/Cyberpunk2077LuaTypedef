@@ -5,4 +5,4 @@ vehicleChangeAlarmEvent = {}
 
 ---@param fields? vehicleChangeAlarmEvent
 ---@return vehicleChangeAlarmEvent
-function vehicleChangeAlarmEvent.new(fields) return end
+function vehicleChangeAlarmEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameTelemetryPostMortemContainer: ISerializable
----@field public postMortem gameTelemetryPostMortem
+---@field postMortem gameTelemetryPostMortem
 gameTelemetryPostMortemContainer = {}
 
 ---@param fields? gameTelemetryPostMortemContainer
 ---@return gameTelemetryPostMortemContainer
-function gameTelemetryPostMortemContainer.new(fields) return end
+function gameTelemetryPostMortemContainer.new(fields) end

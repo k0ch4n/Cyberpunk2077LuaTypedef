@@ -5,4 +5,4 @@ worldRuntimeSystemAudio = {}
 
 ---@param fields? worldRuntimeSystemAudio
 ---@return worldRuntimeSystemAudio
-function worldRuntimeSystemAudio.new(fields) return end
+function worldRuntimeSystemAudio.new(fields) end

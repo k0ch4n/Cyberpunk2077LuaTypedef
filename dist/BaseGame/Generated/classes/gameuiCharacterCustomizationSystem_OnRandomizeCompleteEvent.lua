@@ -5,4 +5,4 @@ gameuiCharacterCustomizationSystem_OnRandomizeCompleteEvent = {}
 
 ---@param fields? gameuiCharacterCustomizationSystem_OnRandomizeCompleteEvent
 ---@return gameuiCharacterCustomizationSystem_OnRandomizeCompleteEvent
-function gameuiCharacterCustomizationSystem_OnRandomizeCompleteEvent.new(fields) return end
+function gameuiCharacterCustomizationSystem_OnRandomizeCompleteEvent.new(fields) end

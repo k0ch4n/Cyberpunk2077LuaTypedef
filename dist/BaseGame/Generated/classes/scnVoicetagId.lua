@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnVoicetagId
----@field public id CRUID
+---@field id CRUID
 scnVoicetagId = {}
 
 ---@param fields? scnVoicetagId
 ---@return scnVoicetagId
-function scnVoicetagId.new(fields) return end
+function scnVoicetagId.new(fields) end

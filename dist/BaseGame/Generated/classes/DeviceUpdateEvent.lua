@@ -5,4 +5,4 @@ DeviceUpdateEvent = {}
 
 ---@param fields? DeviceUpdateEvent
 ---@return DeviceUpdateEvent
-function DeviceUpdateEvent.new(fields) return end
+function DeviceUpdateEvent.new(fields) end

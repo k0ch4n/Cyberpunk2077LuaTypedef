@@ -1,30 +1,28 @@
 ---@meta
 
 ---@class CyberwareTooltip: AGenericTooltipController
----@field private slotList inkCompoundWidgetReference
----@field private label inkTextWidgetReference
----@field private data CyberwareTooltipData
+---@field slotList inkCompoundWidgetReference
+---@field label inkTextWidgetReference
+---@field data CyberwareTooltipData
 CyberwareTooltip = {}
 
 ---@param fields? CyberwareTooltip
 ---@return CyberwareTooltip
-function CyberwareTooltip.new(fields) return end
+function CyberwareTooltip.new(fields) end
 
----@protected
 ---@return Bool
-function CyberwareTooltip:OnInitialize() return end
+function CyberwareTooltip:OnInitialize() end
 
 ---@return nil
-function CyberwareTooltip:OnOutro() return end
+function CyberwareTooltip:OnOutro() end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function CyberwareTooltip:SetData(tooltipData) return end
+function CyberwareTooltip:SetData(tooltipData) end
 
 ---@param data CyberwareTooltipData
 ---@return nil
-function CyberwareTooltip:SetData(data) return end
+function CyberwareTooltip:SetData(data) end
 
----@private
 ---@return nil
-function CyberwareTooltip:UpdateLayout() return end
+function CyberwareTooltip:UpdateLayout() end

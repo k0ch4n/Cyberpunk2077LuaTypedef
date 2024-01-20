@@ -5,4 +5,4 @@ gamePatrolSplineControlPoint = {}
 
 ---@param fields? gamePatrolSplineControlPoint
 ---@return gamePatrolSplineControlPoint
-function gamePatrolSplineControlPoint.new(fields) return end
+function gamePatrolSplineControlPoint.new(fields) end

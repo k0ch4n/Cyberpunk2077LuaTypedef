@@ -5,10 +5,10 @@ gamedataWorkspotReactionType_Record = {}
 
 ---@param fields? gamedataWorkspotReactionType_Record
 ---@return gamedataWorkspotReactionType_Record
-function gamedataWorkspotReactionType_Record.new(fields) return end
+function gamedataWorkspotReactionType_Record.new(fields) end
 
 ---@return CName
-function gamedataWorkspotReactionType_Record:EnumName() return end
+function gamedataWorkspotReactionType_Record:EnumName() end
 
 ---@return gamedataWorkspotReactionType
-function gamedataWorkspotReactionType_Record:Type() return end
+function gamedataWorkspotReactionType_Record:Type() end

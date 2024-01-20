@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class PanzerSmartWeaponTargetController: inkWidgetLogicController
----@field private distanceText inkTextWidgetReference
----@field private lockingAnimationProxy inkanimProxy
+---@field distanceText inkTextWidgetReference
+---@field lockingAnimationProxy inkanimProxy
 PanzerSmartWeaponTargetController = {}
 
 ---@param fields? PanzerSmartWeaponTargetController
 ---@return PanzerSmartWeaponTargetController
-function PanzerSmartWeaponTargetController.new(fields) return end
+function PanzerSmartWeaponTargetController.new(fields) end
 
----@protected
 ---@return Bool
-function PanzerSmartWeaponTargetController:OnInitialize() return end
+function PanzerSmartWeaponTargetController:OnInitialize() end
 
 ---@param data gamesmartGunUITargetParameters
 ---@return nil
-function PanzerSmartWeaponTargetController:SetData(data) return end
+function PanzerSmartWeaponTargetController:SetData(data) end
 
 ---@return nil
-function PanzerSmartWeaponTargetController:StopAnimation() return end
+function PanzerSmartWeaponTargetController:StopAnimation() end

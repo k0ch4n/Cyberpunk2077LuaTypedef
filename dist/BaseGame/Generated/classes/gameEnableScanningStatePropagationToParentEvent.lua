@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameEnableScanningStatePropagationToParentEvent: redEvent
----@field public isEnabled Bool
+---@field isEnabled Bool
 gameEnableScanningStatePropagationToParentEvent = {}
 
 ---@param fields? gameEnableScanningStatePropagationToParentEvent
 ---@return gameEnableScanningStatePropagationToParentEvent
-function gameEnableScanningStatePropagationToParentEvent.new(fields) return end
+function gameEnableScanningStatePropagationToParentEvent.new(fields) end

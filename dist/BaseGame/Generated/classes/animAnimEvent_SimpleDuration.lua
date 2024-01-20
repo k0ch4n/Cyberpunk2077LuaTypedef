@@ -5,4 +5,4 @@ animAnimEvent_SimpleDuration = {}
 
 ---@param fields? animAnimEvent_SimpleDuration
 ---@return animAnimEvent_SimpleDuration
-function animAnimEvent_SimpleDuration.new(fields) return end
+function animAnimEvent_SimpleDuration.new(fields) end

@@ -5,9 +5,9 @@ InactiveCoverEvents = {}
 
 ---@param fields? InactiveCoverEvents
 ---@return InactiveCoverEvents
-function InactiveCoverEvents.new(fields) return end
+function InactiveCoverEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function InactiveCoverEvents:OnEnter(stateContext, scriptInterface) return end
+function InactiveCoverEvents:OnEnter(stateContext, scriptInterface) end

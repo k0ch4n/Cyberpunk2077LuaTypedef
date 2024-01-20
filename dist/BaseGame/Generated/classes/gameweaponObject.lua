@@ -1,224 +1,223 @@
 ---@meta
 
 ---@class gameweaponObject: gameItemObject
----@field public effect gameEffectSet
----@field private hasOverheat Bool
----@field private overheatEffectBlackboard worldEffectBlackboard
----@field private overheatListener OverheatStatListener
----@field private overheatDelaySent Bool
----@field private chargeEffectBlackboard worldEffectBlackboard
----@field private chargeStatListener WeaponChargeStatListener
----@field private triggerEffectName CName
----@field private meleeHitEffectBlackboard worldEffectBlackboard
----@field private meleeHitEffectValue Float
----@field private damageTypeListener DamageStatListener
----@field private trailName String
----@field private maxChargeThreshold Float
----@field private animOwner Int32
----@field private perfectChargeStarted Bool
----@field private perfectChargeReached Bool
----@field private perfectChargeShot Bool
----@field private lowAmmoEffectActive Bool
----@field private hasSecondaryTriggerMode Bool
----@field private weaponRecord gamedataWeaponItem_Record
----@field private isHeavyWeapon Bool
----@field private isMeleeWeapon Bool
----@field private isRangedWeapon Bool
----@field private isShotgunWeapon Bool
----@field private AIBlackboard gameIBlackboard
----@field private isCharged Bool
+---@field effect gameEffectSet
+---@field hasOverheat Bool
+---@field overheatEffectBlackboard worldEffectBlackboard
+---@field overheatListener OverheatStatListener
+---@field overheatDelaySent Bool
+---@field chargeEffectBlackboard worldEffectBlackboard
+---@field chargeStatListener WeaponChargeStatListener
+---@field triggerEffectName CName
+---@field meleeHitEffectBlackboard worldEffectBlackboard
+---@field meleeHitEffectValue Float
+---@field damageTypeListener DamageStatListener
+---@field trailName String
+---@field maxChargeThreshold Float
+---@field animOwner Int32
+---@field perfectChargeStarted Bool
+---@field perfectChargeReached Bool
+---@field perfectChargeShot Bool
+---@field lowAmmoEffectActive Bool
+---@field hasSecondaryTriggerMode Bool
+---@field weaponRecord gamedataWeaponItem_Record
+---@field isHeavyWeapon Bool
+---@field isMeleeWeapon Bool
+---@field isRangedWeapon Bool
+---@field isShotgunWeapon Bool
+---@field AIBlackboard gameIBlackboard
+---@field isCharged Bool
 gameweaponObject = {}
 
 ---@param fields? gameweaponObject
 ---@return gameweaponObject
-function gameweaponObject.new(fields) return end
+function gameweaponObject.new(fields) end
 
 ---@param weapon gameweaponObject
 ---@param fxAction gamedataFxAction
 ---@param fxBlackboard? worldEffectBlackboard
 ---@return nil
-function gameweaponObject.TriggerWeaponEffects(weapon, fxAction, fxBlackboard) return end
+function gameweaponObject.TriggerWeaponEffects(weapon, fxAction, fxBlackboard) end
 
 ---@param self gameweaponObject
 ---@return Bool
-function gameweaponObject.CanCriticallyHit(self) return end
+function gameweaponObject.CanCriticallyHit(self) end
 
 ---@param self gameweaponObject
 ---@return Float
-function gameweaponObject.CanIgnoreArmor(self) return end
+function gameweaponObject.CanIgnoreArmor(self) end
 
 ---@param self gameweaponObject
 ---@return Bool
-function gameweaponObject.CanReload(self) return end
+function gameweaponObject.CanReload(self) end
 
 ---@param self gameweaponObject
 ---@param triggerMode gamedataTriggerMode
 ---@return nil
-function gameweaponObject.ChangeTriggerMode(self, triggerMode) return end
+function gameweaponObject.ChangeTriggerMode(self, triggerMode) end
 
 ---@param weapon gameweaponObject
 ---@return gameItemID
-function gameweaponObject.GetAmmoType(weapon) return end
+function gameweaponObject.GetAmmoType(weapon) end
 
 ---@param weaponID gameItemID
 ---@return gameItemID
-function gameweaponObject.GetAmmoType(weaponID) return end
+function gameweaponObject.GetAmmoType(weaponID) end
 
 ---@param self gameweaponObject
 ---@return Float
-function gameweaponObject.GetBaseMaxChargeThreshold(self) return end
+function gameweaponObject.GetBaseMaxChargeThreshold(self) end
 
 ---@return CName
-function gameweaponObject.GetDriverCombatBikeWeaponTag() return end
+function gameweaponObject.GetDriverCombatBikeWeaponTag() end
 
 ---@return CName
-function gameweaponObject.GetDriverCombatRangedWeaponTag() return end
+function gameweaponObject.GetDriverCombatRangedWeaponTag() end
 
 ---@param self gameweaponObject
 ---@return Float
-function gameweaponObject.GetFullyChargedThreshold(self) return end
-
----@param self gameweaponObject
----@return Uint32
-function gameweaponObject.GetMagazineAmmoCount(self) return end
+function gameweaponObject.GetFullyChargedThreshold(self) end
 
 ---@param self gameweaponObject
 ---@return Uint32
-function gameweaponObject.GetMagazineCapacity(self) return end
+function gameweaponObject.GetMagazineAmmoCount(self) end
+
+---@param self gameweaponObject
+---@return Uint32
+function gameweaponObject.GetMagazineCapacity(self) end
 
 ---@param self gameweaponObject
 ---@return Float
-function gameweaponObject.GetMagazinePercentage(self) return end
+function gameweaponObject.GetMagazinePercentage(self) end
 
 ---@return CName
-function gameweaponObject.GetMeleeWeaponTag() return end
+function gameweaponObject.GetMeleeWeaponTag() end
 
 ---@return CName
-function gameweaponObject.GetOneHandedRangedWeaponTag() return end
+function gameweaponObject.GetOneHandedRangedWeaponTag() end
 
 ---@param self gameweaponObject
 ---@return Float
-function gameweaponObject.GetOverchargeThreshold(self) return end
+function gameweaponObject.GetOverchargeThreshold(self) end
 
 ---@return CName
-function gameweaponObject.GetRangedWeaponTag() return end
+function gameweaponObject.GetRangedWeaponTag() end
 
 ---@return CName
-function gameweaponObject.GetShotgunWeaponTag() return end
+function gameweaponObject.GetShotgunWeaponTag() end
 
 ---@param weapon gameweaponObject
 ---@return Float
-function gameweaponObject.GetWeaponCharge(weapon) return end
+function gameweaponObject.GetWeaponCharge(weapon) end
 
 ---@param weapon gameweaponObject
 ---@return Float
-function gameweaponObject.GetWeaponChargeNormalized(weapon) return end
+function gameweaponObject.GetWeaponChargeNormalized(weapon) end
 
 ---@param weaponID gameItemID
 ---@return gamedataItemType
-function gameweaponObject.GetWeaponType(weaponID) return end
+function gameweaponObject.GetWeaponType(weaponID) end
 
 ---@param self gameweaponObject
 ---@return Bool
-function gameweaponObject.HasAvailableAmmo(self) return end
+function gameweaponObject.HasAvailableAmmo(self) end
 
 ---@param self gameweaponObject
 ---@return Bool
-function gameweaponObject.HasAvailableAmmoInInventory(self) return end
+function gameweaponObject.HasAvailableAmmoInInventory(self) end
 
 ---@param weaponID gameItemID
 ---@return Bool
-function gameweaponObject.IsBlade(weaponID) return end
+function gameweaponObject.IsBlade(weaponID) end
 
 ---@param weaponID gameItemID
 ---@return Bool
-function gameweaponObject.IsBlunt(weaponID) return end
+function gameweaponObject.IsBlunt(weaponID) end
 
 ---@param weaponID gameItemID
 ---@return Bool
-function gameweaponObject.IsCyberwareWeapon(weaponID) return end
+function gameweaponObject.IsCyberwareWeapon(weaponID) end
 
 ---@param weaponID gameItemID
 ---@return Bool
-function gameweaponObject.IsFists(weaponID) return end
+function gameweaponObject.IsFists(weaponID) end
 
 ---@param self gameweaponObject
 ---@return Bool
-function gameweaponObject.IsMagazineEmpty(self) return end
+function gameweaponObject.IsMagazineEmpty(self) end
 
 ---@param self gameweaponObject
 ---@return Bool
-function gameweaponObject.IsMagazineFull(self) return end
+function gameweaponObject.IsMagazineFull(self) end
 
 ---@param weaponID gameItemID
 ---@return Bool
-function gameweaponObject.IsMelee(weaponID) return end
+function gameweaponObject.IsMelee(weaponID) end
 
 ---@param wpnRec gamedataWeaponItem_Record
 ---@return Bool
-function gameweaponObject.IsMelee(wpnRec) return end
+function gameweaponObject.IsMelee(wpnRec) end
 
 ---@param weaponID gameItemID
 ---@param type gamedataItemType
 ---@return Bool
-function gameweaponObject.IsOfType(weaponID, type) return end
+function gameweaponObject.IsOfType(weaponID, type) end
 
 ---@param weaponID gameItemID
 ---@return Bool
-function gameweaponObject.IsOneHandedRanged(weaponID) return end
+function gameweaponObject.IsOneHandedRanged(weaponID) end
 
 ---@param wpnRec gamedataItem_Record
 ---@return Bool
-function gameweaponObject.IsRanged(wpnRec) return end
+function gameweaponObject.IsRanged(wpnRec) end
 
 ---@param weaponID gameItemID
 ---@return Bool
-function gameweaponObject.IsRanged(weaponID) return end
+function gameweaponObject.IsRanged(weaponID) end
 
----@private
 ---@param weapon gameweaponObject
 ---@param weaponFxSet gamedataWeaponVFXSet_Record
 ---@param fxAction gamedataFxAction
 ---@param fxBlackboard? worldEffectBlackboard
 ---@return nil
-function gameweaponObject.KillFXActionFromSet(weapon, weaponFxSet, fxAction, fxBlackboard) return end
+function gameweaponObject.KillFXActionFromSet(weapon, weaponFxSet, fxAction, fxBlackboard) end
 
 ---@param weapon gameweaponObject
 ---@param register Bool
 ---@return nil
-function gameweaponObject.RegisterChargeStatListener(weapon, register) return end
+function gameweaponObject.RegisterChargeStatListener(weapon, register) end
 
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
 ---@return nil
-function gameweaponObject.SendAmmoUpdateEvent(weaponOwner, weapon) return end
+function gameweaponObject.SendAmmoUpdateEvent(weaponOwner, weapon) end
 
 ---@param weapon gameweaponObject
 ---@param owner gameObject
 ---@return nil
-function gameweaponObject.SendMuzzleOffset(weapon, owner) return end
+function gameweaponObject.SendMuzzleOffset(weapon, owner) end
 
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
 ---@param fxAction gamedataFxAction
 ---@param fxBlackboard? worldEffectBlackboard
 ---@return nil
-function gameweaponObject.StopWeaponEffects(weaponOwner, weapon, fxAction, fxBlackboard) return end
+function gameweaponObject.StopWeaponEffects(weaponOwner, weapon, fxAction, fxBlackboard) end
 
 ---@param self gameweaponObject
 ---@return Float
-function gameweaponObject.TechPierceChargeLevel(self) return end
+function gameweaponObject.TechPierceChargeLevel(self) end
 
 ---@return nil
-function gameweaponObject:AI_PlayChargeStartedSound() return end
+function gameweaponObject:AI_PlayChargeStartedSound() end
 
 ---@param isQuickMelee Bool
 ---@return nil
-function gameweaponObject:AI_PlayMeleeAttackSound(isQuickMelee) return end
+function gameweaponObject:AI_PlayMeleeAttackSound(isQuickMelee) end
 
 ---@param attack gameIAttack
 ---@return nil
-function gameweaponObject:AI_SetAttackData(attack) return end
+function gameweaponObject:AI_SetAttackData(attack) end
 
 ---@param targetPositionProvider entIPositionProvider
 ---@param targetObject gameObject
@@ -230,7 +229,7 @@ function gameweaponObject:AI_SetAttackData(attack) return end
 ---@param maxSpread? Float
 ---@param muzzleOffset? Vector4
 ---@return nil
-function gameweaponObject:AI_ShootAt(targetPositionProvider, targetObject, instigator, ammoCost, projectileParams, projectilesPerShot, charge, maxSpread, muzzleOffset) return end
+function gameweaponObject:AI_ShootAt(targetPositionProvider, targetObject, instigator, ammoCost, projectileParams, projectilesPerShot, charge, maxSpread, muzzleOffset) end
 
 ---@param instigator gameObject
 ---@param ammoCost Uint16
@@ -241,7 +240,7 @@ function gameweaponObject:AI_ShootAt(targetPositionProvider, targetObject, insti
 ---@param overrideForward? Vector4
 ---@param muzzleOffset? Vector4
 ---@return nil
-function gameweaponObject:AI_ShootForwards(instigator, ammoCost, projectileParams, projectilesPerShot, charge, overridePos, overrideForward, muzzleOffset) return end
+function gameweaponObject:AI_ShootForwards(instigator, ammoCost, projectileParams, projectilesPerShot, charge, overridePos, overrideForward, muzzleOffset) end
 
 ---@param targetObject gamePuppet
 ---@param ammoCost Uint16
@@ -249,433 +248,386 @@ function gameweaponObject:AI_ShootForwards(instigator, ammoCost, projectileParam
 ---@param projectilesPerShot Uint8
 ---@param charge Float
 ---@return nil
-function gameweaponObject:AI_ShootSelfOffScreen(targetObject, ammoCost, projectileParams, projectilesPerShot, charge) return end
+function gameweaponObject:AI_ShootSelfOffScreen(targetObject, ammoCost, projectileParams, projectilesPerShot, charge) end
 
 ---@return Bool
-function gameweaponObject:DefaultRangedAttackPackage() return end
+function gameweaponObject:DefaultRangedAttackPackage() end
 
 ---@param recordName CName|string
 ---@return gameIAttack
-function gameweaponObject:GetAttack(recordName) return end
+function gameweaponObject:GetAttack(recordName) end
 
 ---@return gameIAttack[]
-function gameweaponObject:GetAttacks() return end
+function gameweaponObject:GetAttacks() end
 
 ---@return gameIAttack
-function gameweaponObject:GetCurrentAttack() return end
+function gameweaponObject:GetCurrentAttack() end
 
 ---@return gamedataRangedAttackPackage_Record
-function gameweaponObject:GetCurrentRangedAttack() return end
+function gameweaponObject:GetCurrentRangedAttack() end
 
 ---@return gamedataTriggerMode_Record
-function gameweaponObject:GetCurrentTriggerMode() return end
+function gameweaponObject:GetCurrentTriggerMode() end
 
 ---@return gameweaponFxPackage
-function gameweaponObject:GetFxPackage() return end
+function gameweaponObject:GetFxPackage() end
 
 ---@return gameweaponFxPackage
-function gameweaponObject:GetFxPackageQuickMelee() return end
+function gameweaponObject:GetFxPackageQuickMelee() end
 
 ---@return Vector4
-function gameweaponObject:GetIronSightOffset() return end
+function gameweaponObject:GetIronSightOffset() end
 
 ---@return Vector4
-function gameweaponObject:GetMuzzleOffset() return end
+function gameweaponObject:GetMuzzleOffset() end
 
 ---@return Transform
-function gameweaponObject:GetMuzzleSlotWorldTransform() return end
+function gameweaponObject:GetMuzzleSlotWorldTransform() end
 
 ---@return Vector4
-function gameweaponObject:GetScopeOffset() return end
+function gameweaponObject:GetScopeOffset() end
 
 ---@return gameIBlackboard
-function gameweaponObject:GetSharedData() return end
+function gameweaponObject:GetSharedData() end
 
 ---@return Int32
-function gameweaponObject:GetTotalAmmoCount() return end
+function gameweaponObject:GetTotalAmmoCount() end
 
 ---@return gamedataTriggerMode_Record[]
-function gameweaponObject:GetTriggerModes() return end
+function gameweaponObject:GetTriggerModes() end
 
 ---@return Bool
-function gameweaponObject:HasAmmoChangeRequest() return end
+function gameweaponObject:HasAmmoChangeRequest() end
 
 ---@return Bool
-function gameweaponObject:HasPendingReload() return end
+function gameweaponObject:HasPendingReload() end
 
 ---@return Bool
-function gameweaponObject:HasScope() return end
+function gameweaponObject:HasScope() end
 
 ---@return Bool
-function gameweaponObject:IsContinuousAttackStarted() return end
+function gameweaponObject:IsContinuousAttackStarted() end
 
 ---@return Bool
-function gameweaponObject:IsControlledByPlayer() return end
+function gameweaponObject:IsControlledByPlayer() end
 
 ---@return Bool
-function gameweaponObject:IsSilenced() return end
+function gameweaponObject:IsSilenced() end
 
 ---@return Bool
-function gameweaponObject:IsTargetLocked() return end
+function gameweaponObject:IsTargetLocked() end
 
 ---@param vehicle gameObject
 ---@return Bool
-function gameweaponObject:IsVehiclePowerWeaponRear(vehicle) return end
+function gameweaponObject:IsVehiclePowerWeaponRear(vehicle) end
 
 ---@param package gamedataRangedAttackPackage_Record
 ---@return Bool
-function gameweaponObject:OverrideRangedAttackPackage(package) return end
+function gameweaponObject:OverrideRangedAttackPackage(package) end
 
 ---@param startPos Vector4
 ---@param startDir Vector4
 ---@return nil
-function gameweaponObject:PrepareContinuousAttack(startPos, startDir) return end
+function gameweaponObject:PrepareContinuousAttack(startPos, startDir) end
 
 ---@return nil
-function gameweaponObject:RemoveWeaponEffects() return end
+function gameweaponObject:RemoveWeaponEffects() end
 
 ---@param attackID TweakDBID|string
 ---@return Bool
-function gameweaponObject:SetAttack(attackID) return end
+function gameweaponObject:SetAttack(attackID) end
 
 ---@param triggerDown Bool
 ---@return nil
-function gameweaponObject:SetTriggerDown(triggerDown) return end
+function gameweaponObject:SetTriggerDown(triggerDown) end
 
 ---@param visible Bool
 ---@return nil
-function gameweaponObject:SetVisible(visible) return end
+function gameweaponObject:SetVisible(visible) end
 
 ---@param weaponVFXActionRecord gamedataWeaponVFXAction_Record[]
 ---@return nil
-function gameweaponObject:SetWeaponEffects(weaponVFXActionRecord) return end
+function gameweaponObject:SetWeaponEffects(weaponVFXActionRecord) end
 
 ---@param numShotsInBurst Int32
 ---@return nil
-function gameweaponObject:SetupBurstFireSound(numShotsInBurst) return end
+function gameweaponObject:SetupBurstFireSound(numShotsInBurst) end
 
 ---@param shootStraight Bool
 ---@return nil
-function gameweaponObject:ShootStraight(shootStraight) return end
+function gameweaponObject:ShootStraight(shootStraight) end
 
 ---@param startPos Vector4
 ---@param startDir Vector4
 ---@return Bool
-function gameweaponObject:StartContinuousAttack(startPos, startDir) return end
+function gameweaponObject:StartContinuousAttack(startPos, startDir) end
 
 ---@return Bool
-function gameweaponObject:StartPreparedContinuousAttack() return end
+function gameweaponObject:StartPreparedContinuousAttack() end
 
 ---@param durationOverride? Float
 ---@return Float
-function gameweaponObject:StartReload(durationOverride) return end
+function gameweaponObject:StartReload(durationOverride) end
 
 ---@return nil
-function gameweaponObject:StopContinuousAttack() return end
+function gameweaponObject:StopContinuousAttack() end
 
 ---@param reloadStatus? gameweaponReloadStatus
 ---@return nil
-function gameweaponObject:StopReload(reloadStatus) return end
+function gameweaponObject:StopReload(reloadStatus) end
 
 ---@param targetID entEntityID
 ---@param targetPosition Vector4
 ---@return Bool
-function gameweaponObject:UpdateTargetingSight(targetID, targetPosition) return end
+function gameweaponObject:UpdateTargetingSight(targetID, targetPosition) end
 
----@protected
 ---@param evt AmmoStateChangeEvent
 ---@return Bool
-function gameweaponObject:OnAmmoStateChangeEvent(evt) return end
+function gameweaponObject:OnAmmoStateChangeEvent(evt) end
 
----@protected
 ---@return Bool
-function gameweaponObject:OnDetach() return end
+function gameweaponObject:OnDetach() end
 
----@protected
 ---@param evt ForceFadeOutlineEventForWeapon
 ---@return Bool
-function gameweaponObject:OnForceFadeOutlineEventForWeapon(evt) return end
+function gameweaponObject:OnForceFadeOutlineEventForWeapon(evt) end
 
----@protected
 ---@return Bool
-function gameweaponObject:OnGameAttached() return end
+function gameweaponObject:OnGameAttached() end
 
----@protected
 ---@param evt MeleeHitEvent
 ---@return Bool
-function gameweaponObject:OnMeleeHitEvent(evt) return end
+function gameweaponObject:OnMeleeHitEvent(evt) end
 
----@protected
 ---@param evt OutlineRequestEvent
 ---@return Bool
-function gameweaponObject:OnOutlineRequestEvent(evt) return end
+function gameweaponObject:OnOutlineRequestEvent(evt) end
 
----@protected
 ---@param evt PlayerWeaponSetupEvent
 ---@return Bool
-function gameweaponObject:OnPlayerWeaponSetupEvent(evt) return end
+function gameweaponObject:OnPlayerWeaponSetupEvent(evt) end
 
----@protected
 ---@param evt gameweaponeventsRemoveActiveWeaponEvent
 ---@return Bool
-function gameweaponObject:OnRemoveActiveWeapon(evt) return end
+function gameweaponObject:OnRemoveActiveWeapon(evt) end
 
----@protected
 ---@param evt gameweaponeventsSetActiveWeaponEvent
 ---@return Bool
-function gameweaponObject:OnSetActiveWeapon(evt) return end
+function gameweaponObject:OnSetActiveWeapon(evt) end
 
----@protected
 ---@param evt SetWeaponOwnerEvent
 ---@return Bool
-function gameweaponObject:OnSetWeaponOwner(evt) return end
+function gameweaponObject:OnSetWeaponOwner(evt) end
 
----@protected
 ---@param evt StartOverheatEffectEvent
 ---@return Bool
-function gameweaponObject:OnStartOverheatEffectEvent(evt) return end
+function gameweaponObject:OnStartOverheatEffectEvent(evt) end
 
----@protected
 ---@param evt UpdateDamageChangeEvent
 ---@return Bool
-function gameweaponObject:OnUpdateDamageChangeEvent(evt) return end
+function gameweaponObject:OnUpdateDamageChangeEvent(evt) end
 
----@protected
 ---@param evt UpdateMeleeTrailEffectEvent
 ---@return Bool
-function gameweaponObject:OnUpdateMeleeTrailEffect(evt) return end
+function gameweaponObject:OnUpdateMeleeTrailEffect(evt) end
 
----@protected
 ---@param evt UpdateOverheatEvent
 ---@return Bool
-function gameweaponObject:OnUpdateOverheat(evt) return end
+function gameweaponObject:OnUpdateOverheat(evt) end
 
----@protected
 ---@param evt UpdateWeaponChargeEvent
 ---@return Bool
-function gameweaponObject:OnUpdateWeaponCharge(evt) return end
+function gameweaponObject:OnUpdateWeaponCharge(evt) end
 
----@protected
 ---@return Bool
-function gameweaponObject:OnVisualSpawnAttached() return end
+function gameweaponObject:OnVisualSpawnAttached() end
 
----@protected
 ---@param evt gameweaponeventsOwnerAimEvent
 ---@return Bool
-function gameweaponObject:OnWaponeventsOwnerAimEvent(evt) return end
+function gameweaponObject:OnWaponeventsOwnerAimEvent(evt) end
 
----@protected
 ---@param evt WeaponRegisterChargeStatListener
 ---@return Bool
-function gameweaponObject:OnWeaponRegisterChargeStatListener(evt) return end
+function gameweaponObject:OnWeaponRegisterChargeStatListener(evt) end
 
----@private
 ---@return nil
-function gameweaponObject:CatcheTriggerEffectFromWeaponType() return end
+function gameweaponObject:CatcheTriggerEffectFromWeaponType() end
 
----@private
 ---@return nil
-function gameweaponObject:CheckLocked() return end
+function gameweaponObject:CheckLocked() end
 
 ---@return gameIBlackboard
-function gameweaponObject:GetAIBlackboard() return end
+function gameweaponObject:GetAIBlackboard() end
 
 ---@param componentName CName|string
 ---@return CName
-function gameweaponObject:GetAppearanceNameFromComponent(componentName) return end
+function gameweaponObject:GetAppearanceNameFromComponent(componentName) end
 
----@private
 ---@param id gamebbScriptID_Int32
 ---@return Int32
-function gameweaponObject:GetBlackboardIntVariable(id) return end
+function gameweaponObject:GetBlackboardIntVariable(id) end
 
 ---@param property TweakDBID|string
 ---@return Bool
-function gameweaponObject:GetBoolPropertyFromWeaponDefinition(property) return end
+function gameweaponObject:GetBoolPropertyFromWeaponDefinition(property) end
 
----@private
 ---@return gamedataDamageType
-function gameweaponObject:GetCurrentDamageType() return end
+function gameweaponObject:GetCurrentDamageType() end
 
 ---@return CName
-function gameweaponObject:GetCurrentMeleeTrailEffectName() return end
+function gameweaponObject:GetCurrentMeleeTrailEffectName() end
 
 ---@return Float
-function gameweaponObject:GetMaxChargeTreshold() return end
+function gameweaponObject:GetMaxChargeTreshold() end
 
 ---@param property TweakDBID|string
 ---@return CName
-function gameweaponObject:GetNamePropertyFromWeaponDefinition(property) return end
+function gameweaponObject:GetNamePropertyFromWeaponDefinition(property) end
 
----@private
 ---@return Int32
-function gameweaponObject:GetNextWeaponOwner() return end
+function gameweaponObject:GetNextWeaponOwner() end
 
----@private
 ---@return Float
-function gameweaponObject:GetPerfectChargeWindow() return end
+function gameweaponObject:GetPerfectChargeWindow() end
 
 ---@return CName
-function gameweaponObject:GetTriggerEffectName() return end
+function gameweaponObject:GetTriggerEffectName() end
 
 ---@return gamedataWeaponItem_Record
-function gameweaponObject:GetWeaponRecord() return end
+function gameweaponObject:GetWeaponRecord() end
 
----@private
 ---@return nil
-function gameweaponObject:HandleVisualEffectsSetup() return end
-
----@protected
----@return Bool
-function gameweaponObject:HasMonowireWithQuickhackSelected() return end
+function gameweaponObject:HandleVisualEffectsSetup() end
 
 ---@return Bool
-function gameweaponObject:HasSecondaryTriggerMode() return end
+function gameweaponObject:HasMonowireWithQuickhackSelected() end
 
 ---@return Bool
-function gameweaponObject:IsBlade() return end
+function gameweaponObject:HasSecondaryTriggerMode() end
 
 ---@return Bool
-function gameweaponObject:IsBlunt() return end
+function gameweaponObject:IsBlade() end
 
 ---@return Bool
-function gameweaponObject:IsCharged() return end
+function gameweaponObject:IsBlunt() end
 
 ---@return Bool
-function gameweaponObject:IsHeavyWeapon() return end
+function gameweaponObject:IsCharged() end
 
 ---@return Bool
-function gameweaponObject:IsMagazineEmpty() return end
+function gameweaponObject:IsHeavyWeapon() end
 
 ---@return Bool
-function gameweaponObject:IsMantisBlades() return end
+function gameweaponObject:IsMagazineEmpty() end
 
 ---@return Bool
-function gameweaponObject:IsMelee() return end
+function gameweaponObject:IsMantisBlades() end
 
 ---@return Bool
-function gameweaponObject:IsMonowire() return end
+function gameweaponObject:IsMelee() end
 
 ---@return Bool
-function gameweaponObject:IsRanged() return end
+function gameweaponObject:IsMonowire() end
 
 ---@return Bool
-function gameweaponObject:IsShotgun() return end
+function gameweaponObject:IsRanged() end
 
 ---@return Bool
-function gameweaponObject:IsThrowable() return end
+function gameweaponObject:IsShotgun() end
 
----@private
+---@return Bool
+function gameweaponObject:IsThrowable() end
+
 ---@return nil
-function gameweaponObject:OnAttachSetStatPools() return end
+function gameweaponObject:OnAttachSetStatPools() end
 
----@private
 ---@param evt UpdateWeaponStatsEvent
 ---@return nil
-function gameweaponObject:OnUpdateWeaponStatsEvent(evt) return end
+function gameweaponObject:OnUpdateWeaponStatsEvent(evt) end
 
----@private
 ---@param self gameObject
 ---@param soundName CName|string
 ---@return nil
-function gameweaponObject:PlayMeleeSound(self, soundName) return end
+function gameweaponObject:PlayMeleeSound(self, soundName) end
 
----@private
 ---@return nil
-function gameweaponObject:PlayMeleeSound() return end
+function gameweaponObject:PlayMeleeSound() end
 
----@private
 ---@param self gameObject
 ---@param type CName|string
 ---@return nil
-function gameweaponObject:PlayPerfectChargeEvent(self, type) return end
+function gameweaponObject:PlayPerfectChargeEvent(self, type) end
 
----@private
 ---@param type CName|string
 ---@return nil
-function gameweaponObject:PlayPerfectChargeUIEvent(type) return end
+function gameweaponObject:PlayPerfectChargeUIEvent(type) end
 
----@private
 ---@return nil
-function gameweaponObject:RegisterChargeStatListener() return end
+function gameweaponObject:RegisterChargeStatListener() end
 
----@private
 ---@return nil
-function gameweaponObject:RegisterStatListeners() return end
+function gameweaponObject:RegisterStatListeners() end
 
----@private
 ---@return nil
-function gameweaponObject:RegisterStatPoolListeners() return end
+function gameweaponObject:RegisterStatPoolListeners() end
 
----@private
 ---@return nil
-function gameweaponObject:SendScopeData() return end
+function gameweaponObject:SendScopeData() end
 
----@private
 ---@return nil
-function gameweaponObject:SendWeaponOwnerVehicleData() return end
+function gameweaponObject:SendWeaponOwnerVehicleData() end
 
----@private
 ---@return nil
-function gameweaponObject:SendWeaponStatsAnimFeature() return end
+function gameweaponObject:SendWeaponStatsAnimFeature() end
 
 ---@param charged Bool
 ---@return nil
-function gameweaponObject:SetCharged(charged) return end
+function gameweaponObject:SetCharged(charged) end
 
----@private
 ---@param damageType gamedataDamageType
 ---@return nil
-function gameweaponObject:SetCurrentMeleeTrailEffect(damageType) return end
+function gameweaponObject:SetCurrentMeleeTrailEffect(damageType) end
 
 ---@param maxCharge Float
 ---@return nil
-function gameweaponObject:SetMaxChargeThreshold(maxCharge) return end
+function gameweaponObject:SetMaxChargeThreshold(maxCharge) end
 
----@private
 ---@return nil
-function gameweaponObject:SetWeaponOwner() return end
+function gameweaponObject:SetWeaponOwner() end
 
----@private
 ---@param owner Int32
 ---@return nil
-function gameweaponObject:SetWeaponOwner(owner) return end
+function gameweaponObject:SetWeaponOwner(owner) end
 
----@private
 ---@return nil
-function gameweaponObject:SetupWeaponEffects() return end
+function gameweaponObject:SetupWeaponEffects() end
 
 ---@param attackSide? String
 ---@return nil
-function gameweaponObject:StartCurrentMeleeTrailEffect(attackSide) return end
+function gameweaponObject:StartCurrentMeleeTrailEffect(attackSide) end
 
----@private
 ---@param damageType gamedataDamageType
 ---@return nil
-function gameweaponObject:StartIdleMeleeEffect(damageType) return end
+function gameweaponObject:StartIdleMeleeEffect(damageType) end
 
----@protected
 ---@return nil
-function gameweaponObject:StartOverheatEffect() return end
+function gameweaponObject:StartOverheatEffect() end
 
 ---@param attackSide? String
 ---@return nil
-function gameweaponObject:StopCurrentMeleeTrailEffect(attackSide) return end
+function gameweaponObject:StopCurrentMeleeTrailEffect(attackSide) end
 
----@private
 ---@param self gameObject
 ---@param soundName CName|string
 ---@return nil
-function gameweaponObject:StopMeleeSound(self, soundName) return end
+function gameweaponObject:StopMeleeSound(self, soundName) end
 
----@private
 ---@return nil
-function gameweaponObject:StopMeleeSound() return end
+function gameweaponObject:StopMeleeSound() end
 
----@private
 ---@return nil
-function gameweaponObject:UnregisterChargeStatListener() return end
+function gameweaponObject:UnregisterChargeStatListener() end
 
 ---@param tag CName|string
 ---@return Bool
-function gameweaponObject:WeaponHasTag(tag) return end
+function gameweaponObject:WeaponHasTag(tag) end

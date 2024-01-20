@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questCharacterWorkspot_ConditionType: questICharacterConditionType
----@field public puppetRef gameEntityReference
----@field public isPlayer Bool
----@field public spotRef NodeRef
----@field public animationName CName
----@field public waitForAnimEnd Bool
+---@field puppetRef gameEntityReference
+---@field isPlayer Bool
+---@field spotRef NodeRef
+---@field animationName CName
+---@field waitForAnimEnd Bool
 questCharacterWorkspot_ConditionType = {}
 
 ---@param fields? questCharacterWorkspot_ConditionType
 ---@return questCharacterWorkspot_ConditionType
-function questCharacterWorkspot_ConditionType.new(fields) return end
+function questCharacterWorkspot_ConditionType.new(fields) end

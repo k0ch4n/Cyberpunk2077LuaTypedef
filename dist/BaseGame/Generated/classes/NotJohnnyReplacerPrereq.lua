@@ -5,8 +5,8 @@ NotJohnnyReplacerPrereq = {}
 
 ---@param fields? NotJohnnyReplacerPrereq
 ---@return NotJohnnyReplacerPrereq
-function NotJohnnyReplacerPrereq.new(fields) return end
+function NotJohnnyReplacerPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function NotJohnnyReplacerPrereq:IsFulfilled(context) return end
+function NotJohnnyReplacerPrereq:IsFulfilled(context) end

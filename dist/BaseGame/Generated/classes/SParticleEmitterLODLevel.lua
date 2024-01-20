@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SParticleEmitterLODLevel
----@field public emitterDurationSettings EmitterDurationSettings
----@field public emitterDelaySettings EmitterDelaySettings
----@field public burstList ParticleBurst[]
----@field public birthRate IEvaluatorFloat
----@field public sortingMode rendEParticleSortingMode
----@field public lodSwitchDistance Float
----@field public isEnabled Bool
+---@field emitterDurationSettings EmitterDurationSettings
+---@field emitterDelaySettings EmitterDelaySettings
+---@field burstList ParticleBurst[]
+---@field birthRate IEvaluatorFloat
+---@field sortingMode rendEParticleSortingMode
+---@field lodSwitchDistance Float
+---@field isEnabled Bool
 SParticleEmitterLODLevel = {}
 
 ---@param fields? SParticleEmitterLODLevel
 ---@return SParticleEmitterLODLevel
-function SParticleEmitterLODLevel.new(fields) return end
+function SParticleEmitterLODLevel.new(fields) end

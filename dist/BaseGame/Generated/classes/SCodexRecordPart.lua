@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SCodexRecordPart
----@field public PartName CName
----@field public PartContent String
----@field public Unlocked Bool
+---@field PartName CName
+---@field PartContent String
+---@field Unlocked Bool
 SCodexRecordPart = {}
 
 ---@param fields? SCodexRecordPart
 ---@return SCodexRecordPart
-function SCodexRecordPart.new(fields) return end
+function SCodexRecordPart.new(fields) end

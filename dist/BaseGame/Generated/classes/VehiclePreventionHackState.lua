@@ -1,29 +1,29 @@
 ---@meta
 
 ---@class VehiclePreventionHackState: IScriptable
----@field public vehicle vehicleBaseObject
----@field public vehicleID entEntityID
----@field public progressBarProgressSoFar Float
----@field public progressBarProgressStart Float
----@field public hacked Bool
----@field public hackInProgress Bool
----@field public stoppedVehicle Bool
----@field public progressBar UploadFromNPCToPlayerListener
----@field public appliedHackSpeed EAppliedTriangulationHackSpeed
+---@field vehicle vehicleBaseObject
+---@field vehicleID entEntityID
+---@field progressBarProgressSoFar Float
+---@field progressBarProgressStart Float
+---@field hacked Bool
+---@field hackInProgress Bool
+---@field stoppedVehicle Bool
+---@field progressBar UploadFromNPCToPlayerListener
+---@field appliedHackSpeed EAppliedTriangulationHackSpeed
 VehiclePreventionHackState = {}
 
 ---@param fields? VehiclePreventionHackState
 ---@return VehiclePreventionHackState
-function VehiclePreventionHackState.new(fields) return end
+function VehiclePreventionHackState.new(fields) end
 
 ---@return TweakDBID
-function VehiclePreventionHackState:GetAppliedHackSpeedHack() return end
+function VehiclePreventionHackState:GetAppliedHackSpeedHack() end
 
 ---@return Float
-function VehiclePreventionHackState:GetTimeToHack() return end
+function VehiclePreventionHackState:GetTimeToHack() end
 
 ---@return Bool
-function VehiclePreventionHackState:HasAppliedHackSpeed() return end
+function VehiclePreventionHackState:HasAppliedHackSpeed() end
 
 ---@return nil
-function VehiclePreventionHackState:IncrementHackSpeed() return end
+function VehiclePreventionHackState:IncrementHackSpeed() end

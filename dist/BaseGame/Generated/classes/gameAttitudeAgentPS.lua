@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameAttitudeAgentPS: gameComponentPS
----@field public currentAttitudeGroup CName
----@field public currentAttitudeGroupUnsavable CName
+---@field currentAttitudeGroup CName
+---@field currentAttitudeGroupUnsavable CName
 gameAttitudeAgentPS = {}
 
 ---@param fields? gameAttitudeAgentPS
 ---@return gameAttitudeAgentPS
-function gameAttitudeAgentPS.new(fields) return end
+function gameAttitudeAgentPS.new(fields) end

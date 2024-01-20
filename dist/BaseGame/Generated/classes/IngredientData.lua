@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class IngredientData
----@field public label String
----@field public quantity Int32
----@field public baseQuantity Int32
----@field public itemAmount Int32
----@field public inventoryQuantity Int32
----@field public id gamedataItem_Record
----@field public icon String
----@field public iconGender gameItemIconGender
----@field public playerSelectableIngredient Bool
----@field public buyableIngredient Bool
----@field public hasEnoughQuantity Bool
+---@field label String
+---@field quantity Int32
+---@field baseQuantity Int32
+---@field itemAmount Int32
+---@field inventoryQuantity Int32
+---@field id gamedataItem_Record
+---@field icon String
+---@field iconGender gameItemIconGender
+---@field playerSelectableIngredient Bool
+---@field buyableIngredient Bool
+---@field hasEnoughQuantity Bool
 IngredientData = {}
 
 ---@param fields? IngredientData
 ---@return IngredientData
-function IngredientData.new(fields) return end
+function IngredientData.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorAgentInfoDebuggerCommand: AIbehaviorIDebuggerCommand
----@field public entityId entEntityID
----@field public agentName String
----@field public isSelected Bool
----@field public entries AIbehaviorAgentInfoDebuggerCommandEntry[]
+---@field entityId entEntityID
+---@field agentName String
+---@field isSelected Bool
+---@field entries AIbehaviorAgentInfoDebuggerCommandEntry[]
 AIbehaviorAgentInfoDebuggerCommand = {}
 
 ---@param fields? AIbehaviorAgentInfoDebuggerCommand
 ---@return AIbehaviorAgentInfoDebuggerCommand
-function AIbehaviorAgentInfoDebuggerCommand.new(fields) return end
+function AIbehaviorAgentInfoDebuggerCommand.new(fields) end

@@ -5,4 +5,4 @@ gameEffectAttachment = {}
 
 ---@param fields? gameEffectAttachment
 ---@return gameEffectAttachment
-function gameEffectAttachment.new(fields) return end
+function gameEffectAttachment.new(fields) end

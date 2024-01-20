@@ -5,35 +5,30 @@ UsingCoverPSMPrereq = {}
 
 ---@param fields? UsingCoverPSMPrereq
 ---@return UsingCoverPSMPrereq
-function UsingCoverPSMPrereq.new(fields) return end
+function UsingCoverPSMPrereq.new(fields) end
 
 ---@param owner gameObject
 ---@param value Bool
 ---@return Bool
-function UsingCoverPSMPrereq:Evaluate(owner, value) return end
+function UsingCoverPSMPrereq:Evaluate(owner, value) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function UsingCoverPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function UsingCoverPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function UsingCoverPSMPrereq:GetStateMachineEnum() return end
+function UsingCoverPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function UsingCoverPSMPrereq:Initialize(recordID) return end
+function UsingCoverPSMPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function UsingCoverPSMPrereq:OnRegister(state, context) return end
+function UsingCoverPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function UsingCoverPSMPrereq:OnUnregister(state, context) return end
+function UsingCoverPSMPrereq:OnUnregister(state, context) end

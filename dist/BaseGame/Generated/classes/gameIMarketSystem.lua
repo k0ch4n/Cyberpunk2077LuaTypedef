@@ -5,21 +5,21 @@ gameIMarketSystem = {}
 
 ---@param fields? gameIMarketSystem
 ---@return gameIMarketSystem
-function gameIMarketSystem.new(fields) return end
+function gameIMarketSystem.new(fields) end
 
 ---@param key entEntityID
 ---@param tweakID TweakDBID|string
 ---@param vendor IScriptable
 ---@return Bool
-function gameIMarketSystem:AddVendorHashMap(key, tweakID, vendor) return end
+function gameIMarketSystem:AddVendorHashMap(key, tweakID, vendor) end
 
 ---@return nil
-function gameIMarketSystem:ClearVendorHashMap() return end
+function gameIMarketSystem:ClearVendorHashMap() end
 
 ---@param key entEntityID
 ---@return IScriptable
-function gameIMarketSystem:GetVendorHashMap(key) return end
+function gameIMarketSystem:GetVendorHashMap(key) end
 
 ---@param key TweakDBID|string
 ---@return IScriptable
-function gameIMarketSystem:GetVendorTBIDHashMap(key) return end
+function gameIMarketSystem:GetVendorTBIDHashMap(key) end

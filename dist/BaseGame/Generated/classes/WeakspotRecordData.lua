@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class WeakspotRecordData
----@field public isInvulnerable Bool
----@field public slotID TweakDBID
----@field public reducedMeleeDamage Bool
+---@field isInvulnerable Bool
+---@field slotID TweakDBID
+---@field reducedMeleeDamage Bool
 WeakspotRecordData = {}
 
 ---@param fields? WeakspotRecordData
 ---@return WeakspotRecordData
-function WeakspotRecordData.new(fields) return end
+function WeakspotRecordData.new(fields) end

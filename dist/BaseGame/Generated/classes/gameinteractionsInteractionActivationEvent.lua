@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameinteractionsInteractionActivationEvent: gameinteractionsInteractionBaseEvent
----@field public eventType gameinteractionsEInteractionEventType
+---@field eventType gameinteractionsEInteractionEventType
 gameinteractionsInteractionActivationEvent = {}
 
 ---@param fields? gameinteractionsInteractionActivationEvent
 ---@return gameinteractionsInteractionActivationEvent
-function gameinteractionsInteractionActivationEvent.new(fields) return end
+function gameinteractionsInteractionActivationEvent.new(fields) end
 
 ---@return Bool
-function gameinteractionsInteractionActivationEvent:IsInputLayerEvent() return end
+function gameinteractionsInteractionActivationEvent:IsInputLayerEvent() end

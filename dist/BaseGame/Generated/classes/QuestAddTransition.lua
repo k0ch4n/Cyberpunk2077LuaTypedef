@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class QuestAddTransition: redEvent
----@field public transition AreaTypeTransition
+---@field transition AreaTypeTransition
 QuestAddTransition = {}
 
 ---@param fields? QuestAddTransition
 ---@return QuestAddTransition
-function QuestAddTransition.new(fields) return end
+function QuestAddTransition.new(fields) end
 
 ---@return String
-function QuestAddTransition:GetFriendlyDescription() return end
+function QuestAddTransition:GetFriendlyDescription() end

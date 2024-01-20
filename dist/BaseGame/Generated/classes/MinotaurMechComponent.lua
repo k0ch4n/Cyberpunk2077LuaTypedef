@@ -1,69 +1,62 @@
 ---@meta
 
 ---@class MinotaurMechComponent: gameScriptableComponent
----@field public deathAttackRecordID TweakDBID
----@field private owner NPCPuppet
----@field private statusEffectListener MinotaurOnStatusEffectAppliedListener
----@field private npcCollisionComponent entSimpleColliderComponent
----@field private npcDeathCollisionComponent entSimpleColliderComponent
----@field private npcSystemCollapseCollisionComponent entSimpleColliderComponent
----@field private currentScanType MechanicalScanType
----@field private currentScanAnimation CName
+---@field deathAttackRecordID TweakDBID
+---@field owner NPCPuppet
+---@field statusEffectListener MinotaurOnStatusEffectAppliedListener
+---@field npcCollisionComponent entSimpleColliderComponent
+---@field npcDeathCollisionComponent entSimpleColliderComponent
+---@field npcSystemCollapseCollisionComponent entSimpleColliderComponent
+---@field currentScanType MechanicalScanType
+---@field currentScanAnimation CName
 MinotaurMechComponent = {}
 
 ---@param fields? MinotaurMechComponent
 ---@return MinotaurMechComponent
-function MinotaurMechComponent.new(fields) return end
+function MinotaurMechComponent.new(fields) end
 
----@protected
 ---@param evt entAudioEvent
 ---@return Bool
-function MinotaurMechComponent:OnAudioEvent(evt) return end
+function MinotaurMechComponent:OnAudioEvent(evt) end
 
----@protected
 ---@param enableColliderEvent EnableColliderDelayEvent
 ---@return Bool
-function MinotaurMechComponent:OnEnableColliderDelayEvent(enableColliderEvent) return end
+function MinotaurMechComponent:OnEnableColliderDelayEvent(enableColliderEvent) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function MinotaurMechComponent:OnMinotaurDeath(evt) return end
+function MinotaurMechComponent:OnMinotaurDeath(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function MinotaurMechComponent:OnRequestComponents(ri) return end
+function MinotaurMechComponent:OnRequestComponents(ri) end
 
----@protected
 ---@param evt gameeventsApplyStatusEffectEvent
 ---@return Bool
-function MinotaurMechComponent:OnStatusEffectApplied(evt) return end
+function MinotaurMechComponent:OnStatusEffectApplied(evt) end
 
----@protected
 ---@param evt gameeventsRemoveStatusEffect
 ---@return Bool
-function MinotaurMechComponent:OnStatusEffectRemoved(evt) return end
+function MinotaurMechComponent:OnStatusEffectRemoved(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function MinotaurMechComponent:OnTakeControl(ri) return end
+function MinotaurMechComponent:OnTakeControl(ri) end
 
 ---@return nil
-function MinotaurMechComponent:DisableWeapons() return end
+function MinotaurMechComponent:DisableWeapons() end
 
 ---@return nil
-function MinotaurMechComponent:EnableSystemCollapse() return end
+function MinotaurMechComponent:EnableSystemCollapse() end
 
 ---@return nil
-function MinotaurMechComponent:EnableWeapons() return end
+function MinotaurMechComponent:EnableWeapons() end
 
 ---@return nil
-function MinotaurMechComponent:FireAttack() return end
+function MinotaurMechComponent:FireAttack() end
 
 ---@return nil
-function MinotaurMechComponent:OnGameAttach() return end
+function MinotaurMechComponent:OnGameAttach() end
 
 ---@return nil
-function MinotaurMechComponent:OnGameDetach() return end
+function MinotaurMechComponent:OnGameDetach() end

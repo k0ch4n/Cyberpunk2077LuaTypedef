@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiCompassWidgetGameController: gameuiHUDGameController
----@field public compassWidget inkWidgetReference
+---@field compassWidget inkWidgetReference
 gameuiCompassWidgetGameController = {}
 
 ---@param fields? gameuiCompassWidgetGameController
 ---@return gameuiCompassWidgetGameController
-function gameuiCompassWidgetGameController.new(fields) return end
+function gameuiCompassWidgetGameController.new(fields) end

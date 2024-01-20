@@ -5,7 +5,7 @@ QuestIncreaseNumber = {}
 
 ---@param fields? QuestIncreaseNumber
 ---@return QuestIncreaseNumber
-function QuestIncreaseNumber.new(fields) return end
+function QuestIncreaseNumber.new(fields) end
 
 ---@return nil
-function QuestIncreaseNumber:SetProperties() return end
+function QuestIncreaseNumber:SetProperties() end

@@ -5,7 +5,7 @@ gamedataAISubActionInAir_Record = {}
 
 ---@param fields? gamedataAISubActionInAir_Record
 ---@return gamedataAISubActionInAir_Record
-function gamedataAISubActionInAir_Record.new(fields) return end
+function gamedataAISubActionInAir_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionInAir_Record:Delay() return end
+function gamedataAISubActionInAir_Record:Delay() end

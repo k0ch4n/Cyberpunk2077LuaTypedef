@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class IceMachineInkGameController: DeviceInkGameControllerBase
----@field private buttonContainer inkWidgetReference
----@field private soldOutText inkTextWidgetReference
+---@field buttonContainer inkWidgetReference
+---@field soldOutText inkTextWidgetReference
 IceMachineInkGameController = {}
 
 ---@param fields? IceMachineInkGameController
 ---@return IceMachineInkGameController
-function IceMachineInkGameController.new(fields) return end
+function IceMachineInkGameController.new(fields) end
 
----@protected
 ---@return IceMachine
-function IceMachineInkGameController:GetOwner() return end
+function IceMachineInkGameController:GetOwner() end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function IceMachineInkGameController:Refresh(state) return end
+function IceMachineInkGameController:Refresh(state) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function IceMachineInkGameController:UpdateActionWidgets(widgetsData) return end
+function IceMachineInkGameController:UpdateActionWidgets(widgetsData) end

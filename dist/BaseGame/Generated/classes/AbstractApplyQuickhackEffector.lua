@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class AbstractApplyQuickhackEffector: ModifyAttackEffector
----@field protected blackboard gameIBlackboard
----@field protected applyQuickhackDelayConst Float
+---@field blackboard gameIBlackboard
+---@field applyQuickhackDelayConst Float
 AbstractApplyQuickhackEffector = {}
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AbstractApplyQuickhackEffector:ActionOn(owner) return end
+function AbstractApplyQuickhackEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function AbstractApplyQuickhackEffector:Initialize(record, parentRecord) return end
+function AbstractApplyQuickhackEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AbstractApplyQuickhackEffector:ProcessAction(owner) return end
+function AbstractApplyQuickhackEffector:ProcessAction(owner) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@param playerPuppet PlayerPuppet
 ---@param targetScriptedPuppet ScriptedPuppet
 ---@return nil
-function AbstractApplyQuickhackEffector:ProcessApplyQuickhackAction(hitEvent, playerPuppet, targetScriptedPuppet) return end
+function AbstractApplyQuickhackEffector:ProcessApplyQuickhackAction(hitEvent, playerPuppet, targetScriptedPuppet) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function AbstractApplyQuickhackEffector:RepeatedAction(owner) return end
+function AbstractApplyQuickhackEffector:RepeatedAction(owner) end
 
 ---@param playerOwnerPuppet PlayerPuppet
 ---@param quickhackData QuickhackData
 ---@param applyQuickhackDelay Float
 ---@return nil
-function AbstractApplyQuickhackEffector:TriggerSpecialQuickHackAttack(playerOwnerPuppet, quickhackData, applyQuickhackDelay) return end
+function AbstractApplyQuickhackEffector:TriggerSpecialQuickHackAttack(playerOwnerPuppet, quickhackData, applyQuickhackDelay) end

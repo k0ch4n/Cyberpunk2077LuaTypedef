@@ -5,4 +5,4 @@ vehicleBikeCurveSet = {}
 
 ---@param fields? vehicleBikeCurveSet
 ---@return vehicleBikeCurveSet
-function vehicleBikeCurveSet.new(fields) return end
+function vehicleBikeCurveSet.new(fields) end

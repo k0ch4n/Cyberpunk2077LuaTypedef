@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class localizationPersistenceCLNumberDateContainer: ISerializable
----@field public clNumber CName
----@field public clTimestamp CName
----@field public clGeneratedIds String[]
+---@field clNumber CName
+---@field clTimestamp CName
+---@field clGeneratedIds String[]
 localizationPersistenceCLNumberDateContainer = {}
 
 ---@param fields? localizationPersistenceCLNumberDateContainer
 ---@return localizationPersistenceCLNumberDateContainer
-function localizationPersistenceCLNumberDateContainer.new(fields) return end
+function localizationPersistenceCLNumberDateContainer.new(fields) end

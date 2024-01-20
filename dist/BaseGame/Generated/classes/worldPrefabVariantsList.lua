@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldPrefabVariantsList: ISerializable
----@field public activeVariants CName[]
+---@field activeVariants CName[]
 worldPrefabVariantsList = {}
 
 ---@param fields? worldPrefabVariantsList
 ---@return worldPrefabVariantsList
-function worldPrefabVariantsList.new(fields) return end
+function worldPrefabVariantsList.new(fields) end

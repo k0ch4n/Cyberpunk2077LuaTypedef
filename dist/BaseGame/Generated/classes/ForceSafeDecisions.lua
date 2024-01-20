@@ -5,22 +5,19 @@ ForceSafeDecisions = {}
 
 ---@param fields? ForceSafeDecisions
 ---@return ForceSafeDecisions
-function ForceSafeDecisions.new(fields) return end
+function ForceSafeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceSafeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ForceSafeDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceSafeDecisions:ToEmptyHands(stateContext, scriptInterface) return end
+function ForceSafeDecisions:ToEmptyHands(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceSafeDecisions:ToSingleWield(stateContext, scriptInterface) return end
+function ForceSafeDecisions:ToSingleWield(stateContext, scriptInterface) end

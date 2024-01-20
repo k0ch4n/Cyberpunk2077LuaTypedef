@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class HubMenuInitData: IScriptable
----@field public menuName CName
----@field public submenuName CName
----@field public combatRestriction Bool
----@field public userData IScriptable
+---@field menuName CName
+---@field submenuName CName
+---@field combatRestriction Bool
+---@field userData IScriptable
 HubMenuInitData = {}
 
 ---@param fields? HubMenuInitData
 ---@return HubMenuInitData
-function HubMenuInitData.new(fields) return end
+function HubMenuInitData.new(fields) end

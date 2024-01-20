@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AnimFeature_SceneGameplayOverrides: animAnimFeature
----@field public aimForced Bool
----@field public safeForced Bool
----@field public isAimOutTimeOverridden Bool
----@field public aimOutTimeOverride Float
+---@field aimForced Bool
+---@field safeForced Bool
+---@field isAimOutTimeOverridden Bool
+---@field aimOutTimeOverride Float
 AnimFeature_SceneGameplayOverrides = {}
 
 ---@param fields? AnimFeature_SceneGameplayOverrides
 ---@return AnimFeature_SceneGameplayOverrides
-function AnimFeature_SceneGameplayOverrides.new(fields) return end
+function AnimFeature_SceneGameplayOverrides.new(fields) end

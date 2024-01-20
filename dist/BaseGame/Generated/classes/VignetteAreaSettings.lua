@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VignetteAreaSettings: IAreaSettings
----@field public vignetteEnabled Bool
----@field public vignetteRadius Float
----@field public vignetteExp Float
----@field public vignetteColor Color
+---@field vignetteEnabled Bool
+---@field vignetteRadius Float
+---@field vignetteExp Float
+---@field vignetteColor Color
 VignetteAreaSettings = {}
 
 ---@param fields? VignetteAreaSettings
 ---@return VignetteAreaSettings
-function VignetteAreaSettings.new(fields) return end
+function VignetteAreaSettings.new(fields) end

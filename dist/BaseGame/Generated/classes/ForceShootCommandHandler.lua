@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class ForceShootCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIForceShootCommand
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIForceShootCommand
 ForceShootCommandHandler = {}
 
 ---@param fields? ForceShootCommandHandler
 ---@return ForceShootCommandHandler
-function ForceShootCommandHandler.new(fields) return end
+function ForceShootCommandHandler.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceShootCommandHandler:Activate(context) return end
+function ForceShootCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ForceShootCommandHandler:Update(context) return end
+function ForceShootCommandHandler:Update(context) end

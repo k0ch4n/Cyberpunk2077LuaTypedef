@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entFallbackSlot
----@field public slotName CName
----@field public boneName CName
+---@field slotName CName
+---@field boneName CName
 entFallbackSlot = {}
 
 ---@param fields? entFallbackSlot
 ---@return entFallbackSlot
-function entFallbackSlot.new(fields) return end
+function entFallbackSlot.new(fields) end

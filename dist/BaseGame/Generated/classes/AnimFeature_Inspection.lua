@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AnimFeature_Inspection: animAnimFeature
----@field public activeInspectionStage Int32
----@field public rotationX Float
----@field public rotationY Float
----@field public offsetX Float
----@field public offsetY Float
+---@field activeInspectionStage Int32
+---@field rotationX Float
+---@field rotationY Float
+---@field offsetX Float
+---@field offsetY Float
 AnimFeature_Inspection = {}
 
 ---@param fields? AnimFeature_Inspection
 ---@return AnimFeature_Inspection
-function AnimFeature_Inspection.new(fields) return end
+function AnimFeature_Inspection.new(fields) end

@@ -1,192 +1,164 @@
 ---@meta
 
 ---@class PreventionSystemHackerLoop: gameScriptableSystem
----@field private firstVehicle vehicleBaseObject
----@field private state EPreventionHackLoopState
----@field private shouldHackLoopBeEnabledOnThisStar Bool
----@field private showingHackingPopUp Bool
----@field private currentVehicle vehicleBaseObject
----@field private previousVehicle vehicleBaseObject
----@field private curentHackDelayId gameDelayID
----@field private futureDelayedUpdateDelayId gameDelayID
----@field private hackedVehicles VehiclePreventionHackState[]
----@field private otherProgressBar UploadFromNPCToPlayerListener
----@field private waitingForUpdate Bool
+---@field firstVehicle vehicleBaseObject
+---@field state EPreventionHackLoopState
+---@field shouldHackLoopBeEnabledOnThisStar Bool
+---@field showingHackingPopUp Bool
+---@field currentVehicle vehicleBaseObject
+---@field previousVehicle vehicleBaseObject
+---@field curentHackDelayId gameDelayID
+---@field futureDelayedUpdateDelayId gameDelayID
+---@field hackedVehicles VehiclePreventionHackState[]
+---@field otherProgressBar UploadFromNPCToPlayerListener
+---@field waitingForUpdate Bool
 PreventionSystemHackerLoop = {}
 
 ---@param fields? PreventionSystemHackerLoop
 ---@return PreventionSystemHackerLoop
-function PreventionSystemHackerLoop.new(fields) return end
+function PreventionSystemHackerLoop.new(fields) end
 
 ---@return Bool
-function PreventionSystemHackerLoop.AVCanBeSpawned() return end
+function PreventionSystemHackerLoop.AVCanBeSpawned() end
 
 ---@return nil
-function PreventionSystemHackerLoop.ForceCarToStop() return end
+function PreventionSystemHackerLoop.ForceCarToStop() end
 
----@private
 ---@return EStarState
-function PreventionSystemHackerLoop.GetCurrentStarState() return end
+function PreventionSystemHackerLoop.GetCurrentStarState() end
 
----@private
 ---@return PreventionSystemHackerLoop
-function PreventionSystemHackerLoop.GetInstance() return end
+function PreventionSystemHackerLoop.GetInstance() end
 
 ---@return Float
-function PreventionSystemHackerLoop.GetProgressBarForcedValue() return end
+function PreventionSystemHackerLoop.GetProgressBarForcedValue() end
 
 ---@return CName
-function PreventionSystemHackerLoop.GetSystemName() return end
+function PreventionSystemHackerLoop.GetSystemName() end
 
 ---@return Bool
-function PreventionSystemHackerLoop.KeepProgressBarAliveAfterCompletion() return end
+function PreventionSystemHackerLoop.KeepProgressBarAliveAfterCompletion() end
 
 ---@return Bool
-function PreventionSystemHackerLoop.ShouldForceUpdateProgressBar() return end
+function PreventionSystemHackerLoop.ShouldForceUpdateProgressBar() end
 
 ---@param newValue Float
 ---@param progressbar UploadFromNPCToPlayerListener
 ---@return nil
-function PreventionSystemHackerLoop.UpdateHackLoopProgressBarValue(newValue, progressbar) return end
+function PreventionSystemHackerLoop.UpdateHackLoopProgressBarValue(newValue, progressbar) end
 
 ---@param shouldHackLoopBeEnabledOnThisStar Bool
 ---@return nil
-function PreventionSystemHackerLoop.UpdateHeatLevel(shouldHackLoopBeEnabledOnThisStar) return end
+function PreventionSystemHackerLoop.UpdateHeatLevel(shouldHackLoopBeEnabledOnThisStar) end
 
 ---@param progressbar UploadFromNPCToPlayerListener
 ---@return nil
-function PreventionSystemHackerLoop.UpdateOtherProgressBarReference(progressbar) return end
+function PreventionSystemHackerLoop.UpdateOtherProgressBarReference(progressbar) end
 
 ---@param currentVehicle vehicleBaseObject
 ---@return nil
-function PreventionSystemHackerLoop.UpdatePlayerVehicle(currentVehicle) return end
+function PreventionSystemHackerLoop.UpdatePlayerVehicle(currentVehicle) end
 
 ---@return nil
-function PreventionSystemHackerLoop.UpdateStarStateUI() return end
+function PreventionSystemHackerLoop.UpdateStarStateUI() end
 
----@private
 ---@return nil
-function PreventionSystemHackerLoop:AbortHacks() return end
+function PreventionSystemHackerLoop:AbortHacks() end
 
----@private
 ---@param request HackLoopReportPlayerLocationRequest
 ---@param delay Float
 ---@return nil
-function PreventionSystemHackerLoop:BroadcastPlayerLocationUntilVehicleExit(request, delay) return end
+function PreventionSystemHackerLoop:BroadcastPlayerLocationUntilVehicleExit(request, delay) end
 
----@private
 ---@param state VehiclePreventionHackState
 ---@param delay Float
 ---@return nil
-function PreventionSystemHackerLoop:DelayForceAboutToExplodeState(state, delay) return end
+function PreventionSystemHackerLoop:DelayForceAboutToExplodeState(state, delay) end
 
----@private
 ---@param vehicle vehicleBaseObject
 ---@return VehiclePreventionHackState
-function PreventionSystemHackerLoop:FindVehicleState(vehicle) return end
+function PreventionSystemHackerLoop:FindVehicleState(vehicle) end
 
----@private
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function PreventionSystemHackerLoop:ForceCloseProgressBar(vehicle) return end
+function PreventionSystemHackerLoop:ForceCloseProgressBar(vehicle) end
 
----@private
 ---@return nil
-function PreventionSystemHackerLoop:HackLoop() return end
+function PreventionSystemHackerLoop:HackLoop() end
 
----@private
 ---@param data VehiclePreventionHackState
 ---@param delay Float
 ---@return nil
-function PreventionSystemHackerLoop:HackTimerCallback(data, delay) return end
+function PreventionSystemHackerLoop:HackTimerCallback(data, delay) end
 
----@private
 ---@return nil
-function PreventionSystemHackerLoop:Idle() return end
+function PreventionSystemHackerLoop:Idle() end
 
----@private
 ---@return nil
-function PreventionSystemHackerLoop:InterruptHackingPopUp() return end
+function PreventionSystemHackerLoop:InterruptHackingPopUp() end
 
----@private
 ---@return nil
-function PreventionSystemHackerLoop:IntroRadio() return end
+function PreventionSystemHackerLoop:IntroRadio() end
 
----@private
 ---@param vehicle vehicleBaseObject
 ---@return Bool
-function PreventionSystemHackerLoop:IsFirstVehicle(vehicle) return end
+function PreventionSystemHackerLoop:IsFirstVehicle(vehicle) end
 
----@private
 ---@return Bool
-function PreventionSystemHackerLoop:IsNearMaxtac() return end
+function PreventionSystemHackerLoop:IsNearMaxtac() end
 
----@private
 ---@param delay Float
 ---@return nil
-function PreventionSystemHackerLoop:LaunchDelayedStateUpdate(delay) return end
+function PreventionSystemHackerLoop:LaunchDelayedStateUpdate(delay) end
 
----@private
 ---@param request DelayedForceAboutToExplodeStateRequest
 ---@return nil
-function PreventionSystemHackerLoop:OnDelayedForceAboutToExplodeState(request) return end
+function PreventionSystemHackerLoop:OnDelayedForceAboutToExplodeState(request) end
 
----@private
 ---@param request DelayedStopVehicle
 ---@return nil
-function PreventionSystemHackerLoop:OnDelayedStopVehicle(request) return end
+function PreventionSystemHackerLoop:OnDelayedStopVehicle(request) end
 
----@private
 ---@param request HackLoopReportPlayerLocationRequest
 ---@return nil
-function PreventionSystemHackerLoop:OnHackLoopReportPlayerLocationRequest(request) return end
+function PreventionSystemHackerLoop:OnHackLoopReportPlayerLocationRequest(request) end
 
----@private
 ---@param request PreventionSystemPlayerCarHackFinishedEvent
 ---@return nil
-function PreventionSystemHackerLoop:OnPreventionSystemPlayerCarHackFinishedEvent(request) return end
+function PreventionSystemHackerLoop:OnPreventionSystemPlayerCarHackFinishedEvent(request) end
 
----@private
 ---@param request PreventionSystemPlayerCarHackTimeOutEvent
 ---@return nil
-function PreventionSystemHackerLoop:OnPreventionSystemPlayerCarHackTimeOutEvent(request) return end
+function PreventionSystemHackerLoop:OnPreventionSystemPlayerCarHackTimeOutEvent(request) end
 
----@private
 ---@param request PreventionSystemUpdateHackLoopStateEvent
 ---@return nil
-function PreventionSystemHackerLoop:OnPreventionSystemUpdateHackLoopStateEvent(request) return end
+function PreventionSystemHackerLoop:OnPreventionSystemUpdateHackLoopStateEvent(request) end
 
----@private
 ---@param newHack VehiclePreventionHackState
 ---@return nil
-function PreventionSystemHackerLoop:PauseHack(newHack) return end
+function PreventionSystemHackerLoop:PauseHack(newHack) end
 
----@private
 ---@param data VehiclePreventionHackState
 ---@return nil
-function PreventionSystemHackerLoop:StartBigHackingPopUp(data) return end
+function PreventionSystemHackerLoop:StartBigHackingPopUp(data) end
 
----@private
 ---@param data VehiclePreventionHackState
 ---@return nil
-function PreventionSystemHackerLoop:StartHackTimer(data) return end
+function PreventionSystemHackerLoop:StartHackTimer(data) end
 
----@private
 ---@param state VehiclePreventionHackState
 ---@param delay Float
 ---@return nil
-function PreventionSystemHackerLoop:StopVehicle(state, delay) return end
+function PreventionSystemHackerLoop:StopVehicle(state, delay) end
 
----@private
 ---@param data VehiclePreventionHackState
 ---@return nil
-function PreventionSystemHackerLoop:StopVehicle_Internal(data) return end
+function PreventionSystemHackerLoop:StopVehicle_Internal(data) end
 
----@private
 ---@param newHack VehiclePreventionHackState
 ---@return nil
-function PreventionSystemHackerLoop:UnpauseHack(newHack) return end
+function PreventionSystemHackerLoop:UnpauseHack(newHack) end
 
----@private
 ---@return nil
-function PreventionSystemHackerLoop:UpdateState() return end
+function PreventionSystemHackerLoop:UpdateState() end

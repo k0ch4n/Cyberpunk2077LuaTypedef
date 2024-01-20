@@ -1,29 +1,26 @@
 ---@meta
 
 ---@class DrillMachineScanManager: gameScriptableComponent
----@field private ppStarting Bool
----@field private ppEnding Bool
----@field private ppCurrentStartTime Float
----@field private ppCurrentEndFrame Int32
----@field private idleToScanTime Float
----@field private ppOffFrameDelay Int32
+---@field ppStarting Bool
+---@field ppEnding Bool
+---@field ppCurrentStartTime Float
+---@field ppCurrentEndFrame Int32
+---@field idleToScanTime Float
+---@field ppOffFrameDelay Int32
 DrillMachineScanManager = {}
 
 ---@param fields? DrillMachineScanManager
 ---@return DrillMachineScanManager
-function DrillMachineScanManager.new(fields) return end
+function DrillMachineScanManager.new(fields) end
 
----@protected
 ---@param evt DrillerScanEvent
 ---@return Bool
-function DrillMachineScanManager:OnDrillerScanEvent(evt) return end
+function DrillMachineScanManager:OnDrillerScanEvent(evt) end
 
----@private
 ---@param dt Float
 ---@return nil
-function DrillMachineScanManager:OnUpdate(dt) return end
+function DrillMachineScanManager:OnUpdate(dt) end
 
----@private
 ---@param isEnabled Bool
 ---@return nil
-function DrillMachineScanManager:QueuePostProcessEvent(isEnabled) return end
+function DrillMachineScanManager:QueuePostProcessEvent(isEnabled) end

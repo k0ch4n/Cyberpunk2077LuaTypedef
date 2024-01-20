@@ -1,71 +1,63 @@
 ---@meta
 
 ---@class ArcadeMachineInkGameController: DeviceInkGameControllerBase
----@field private defaultUI inkCanvasWidget
----@field private mainDisplayWidget inkVideoWidget
----@field private counterWidget inkTextWidget
----@field private onGlitchingStateChangedListener redCallbackObject
+---@field defaultUI inkCanvasWidget
+---@field mainDisplayWidget inkVideoWidget
+---@field counterWidget inkTextWidget
+---@field onGlitchingStateChangedListener redCallbackObject
 ArcadeMachineInkGameController = {}
 
 ---@param fields? ArcadeMachineInkGameController
 ---@return ArcadeMachineInkGameController
-function ArcadeMachineInkGameController.new(fields) return end
+function ArcadeMachineInkGameController.new(fields) end
 
----@protected
 ---@param value String
 ---@return Bool
-function ArcadeMachineInkGameController:OnTimeToDepartChanged(value) return end
+function ArcadeMachineInkGameController:OnTimeToDepartChanged(value) end
 
----@protected
 ---@return Bool
-function ArcadeMachineInkGameController:OnUninitialize() return end
+function ArcadeMachineInkGameController:OnUninitialize() end
 
----@protected
 ---@return ArcadeMachine
-function ArcadeMachineInkGameController:GetOwner() return end
+function ArcadeMachineInkGameController:GetOwner() end
 
 ---@param videoPath redResourceReferenceScriptToken
 ---@param looped Bool
 ---@param audioEvent CName|string
 ---@return nil
-function ArcadeMachineInkGameController:PlayVideo(videoPath, looped, audioEvent) return end
+function ArcadeMachineInkGameController:PlayVideo(videoPath, looped, audioEvent) end
 
 ---@param state EDeviceStatus
 ---@return nil
-function ArcadeMachineInkGameController:Refresh(state) return end
+function ArcadeMachineInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ArcadeMachineInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function ArcadeMachineInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@return nil
-function ArcadeMachineInkGameController:SetupWidgets() return end
+function ArcadeMachineInkGameController:SetupWidgets() end
 
----@private
 ---@param glitchData GlitchData
 ---@return nil
-function ArcadeMachineInkGameController:StartGlitchingScreen(glitchData) return end
-
----@private
----@return nil
-function ArcadeMachineInkGameController:StopGlitchingScreen() return end
+function ArcadeMachineInkGameController:StartGlitchingScreen(glitchData) end
 
 ---@return nil
-function ArcadeMachineInkGameController:StopVideo() return end
+function ArcadeMachineInkGameController:StopGlitchingScreen() end
 
 ---@return nil
-function ArcadeMachineInkGameController:TurnOff() return end
+function ArcadeMachineInkGameController:StopVideo() end
 
 ---@return nil
-function ArcadeMachineInkGameController:TurnOn() return end
+function ArcadeMachineInkGameController:TurnOff() end
 
----@protected
+---@return nil
+function ArcadeMachineInkGameController:TurnOn() end
+
 ---@param blackboard gameIBlackboard
 ---@return nil
-function ArcadeMachineInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function ArcadeMachineInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function ArcadeMachineInkGameController:UpdateActionWidgets(widgetsData) return end
+function ArcadeMachineInkGameController:UpdateActionWidgets(widgetsData) end

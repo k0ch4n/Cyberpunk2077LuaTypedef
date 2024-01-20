@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeBackgroundController: inkWidgetLogicController
----@field public backgroundLayerList inkWidgetReference[]
+---@field backgroundLayerList inkWidgetReference[]
 gameuiarcadeArcadeBackgroundController = {}
 
 ---@param fields? gameuiarcadeArcadeBackgroundController
 ---@return gameuiarcadeArcadeBackgroundController
-function gameuiarcadeArcadeBackgroundController.new(fields) return end
+function gameuiarcadeArcadeBackgroundController.new(fields) end

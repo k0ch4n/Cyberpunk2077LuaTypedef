@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class ActionDemolition: ActionSkillCheck
----@field public slotID gamemountingMountingSlotId
+---@field slotID gamemountingMountingSlotId
 ActionDemolition = {}
 
 ---@param fields? ActionDemolition
 ---@return ActionDemolition
-function ActionDemolition.new(fields) return end
+function ActionDemolition.new(fields) end
 
----@protected
 ---@return CName
-function ActionDemolition:GetDefaultActionName() return end
+function ActionDemolition:GetDefaultActionName() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function ActionDemolition:GetInteractionIcon() return end
+function ActionDemolition:GetInteractionIcon() end

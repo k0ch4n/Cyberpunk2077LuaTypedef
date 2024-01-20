@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RequestTakeControl: gameScriptableSystemRequest
----@field public requestSource entEntityID
----@field public originalEvent ToggleTakeOverControl
+---@field requestSource entEntityID
+---@field originalEvent ToggleTakeOverControl
 RequestTakeControl = {}
 
 ---@param fields? RequestTakeControl
 ---@return RequestTakeControl
-function RequestTakeControl.new(fields) return end
+function RequestTakeControl.new(fields) end

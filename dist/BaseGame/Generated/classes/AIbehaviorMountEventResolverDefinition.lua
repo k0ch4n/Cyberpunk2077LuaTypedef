@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorMountEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public mountData AIArgumentMapping
----@field public workspotData AIArgumentMapping
----@field public isInstant AIArgumentMapping
----@field public behaviorCallbackName CName
+---@field mountData AIArgumentMapping
+---@field workspotData AIArgumentMapping
+---@field isInstant AIArgumentMapping
+---@field behaviorCallbackName CName
 AIbehaviorMountEventResolverDefinition = {}
 
 ---@param fields? AIbehaviorMountEventResolverDefinition
 ---@return AIbehaviorMountEventResolverDefinition
-function AIbehaviorMountEventResolverDefinition.new(fields) return end
+function AIbehaviorMountEventResolverDefinition.new(fields) end

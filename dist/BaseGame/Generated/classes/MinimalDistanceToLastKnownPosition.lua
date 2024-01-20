@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class MinimalDistanceToLastKnownPosition: PreventionConditionAbstract
----@field public desiredDistanceArgument AIArgumentMapping
----@field public desiredDistance Float
----@field public preventionSystem PreventionSystem
+---@field desiredDistanceArgument AIArgumentMapping
+---@field desiredDistance Float
+---@field preventionSystem PreventionSystem
 MinimalDistanceToLastKnownPosition = {}
 
 ---@param fields? MinimalDistanceToLastKnownPosition
 ---@return MinimalDistanceToLastKnownPosition
-function MinimalDistanceToLastKnownPosition.new(fields) return end
+function MinimalDistanceToLastKnownPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function MinimalDistanceToLastKnownPosition:Check(context) return end
+function MinimalDistanceToLastKnownPosition:Check(context) end

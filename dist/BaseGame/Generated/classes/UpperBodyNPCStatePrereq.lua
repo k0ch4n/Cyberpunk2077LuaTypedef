@@ -1,30 +1,26 @@
 ---@meta
 
 ---@class UpperBodyNPCStatePrereq: NPCStatePrereq
----@field public valueToListen gamedataNPCUpperBodyState
+---@field valueToListen gamedataNPCUpperBodyState
 UpperBodyNPCStatePrereq = {}
 
 ---@param fields? UpperBodyNPCStatePrereq
 ---@return UpperBodyNPCStatePrereq
-function UpperBodyNPCStatePrereq.new(fields) return end
+function UpperBodyNPCStatePrereq.new(fields) end
 
----@protected
 ---@return Int32
-function UpperBodyNPCStatePrereq:GetStateToCheck() return end
+function UpperBodyNPCStatePrereq:GetStateToCheck() end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function UpperBodyNPCStatePrereq:Initialize(recordID) return end
+function UpperBodyNPCStatePrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function UpperBodyNPCStatePrereq:OnRegister(state, context) return end
+function UpperBodyNPCStatePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function UpperBodyNPCStatePrereq:OnUnregister(state, context) return end
+function UpperBodyNPCStatePrereq:OnUnregister(state, context) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TurnOffPsychoSquadAvCammoEvent: gameScriptableSystemRequest
----@field public go gameObject
+---@field go gameObject
 TurnOffPsychoSquadAvCammoEvent = {}
 
 ---@param fields? TurnOffPsychoSquadAvCammoEvent
 ---@return TurnOffPsychoSquadAvCammoEvent
-function TurnOffPsychoSquadAvCammoEvent.new(fields) return end
+function TurnOffPsychoSquadAvCammoEvent.new(fields) end

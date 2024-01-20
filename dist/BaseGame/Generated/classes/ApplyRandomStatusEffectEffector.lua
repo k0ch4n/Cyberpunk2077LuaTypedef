@@ -1,40 +1,34 @@
 ---@meta
 
 ---@class ApplyRandomStatusEffectEffector: gameEffector
----@field public targetEntityID entEntityID
----@field public applicationTarget CName
----@field public effects TweakDBID[]
----@field public appliedEffect TweakDBID
+---@field targetEntityID entEntityID
+---@field applicationTarget CName
+---@field effects TweakDBID[]
+---@field appliedEffect TweakDBID
 ApplyRandomStatusEffectEffector = {}
 
 ---@param fields? ApplyRandomStatusEffectEffector
 ---@return ApplyRandomStatusEffectEffector
-function ApplyRandomStatusEffectEffector.new(fields) return end
+function ApplyRandomStatusEffectEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyRandomStatusEffectEffector:ActionOff(owner) return end
+function ApplyRandomStatusEffectEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyRandomStatusEffectEffector:ActionOn(owner) return end
+function ApplyRandomStatusEffectEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyRandomStatusEffectEffector:Initialize(record, parentRecord) return end
+function ApplyRandomStatusEffectEffector:Initialize(record, parentRecord) end
 
----@private
 ---@return nil
-function ApplyRandomStatusEffectEffector:RemoveStatusEffect() return end
+function ApplyRandomStatusEffectEffector:RemoveStatusEffect() end
 
----@private
 ---@return nil
-function ApplyRandomStatusEffectEffector:SetRandomStatusEffect() return end
+function ApplyRandomStatusEffectEffector:SetRandomStatusEffect() end
 
----@protected
 ---@return nil
-function ApplyRandomStatusEffectEffector:Uninitialize() return end
+function ApplyRandomStatusEffectEffector:Uninitialize() end

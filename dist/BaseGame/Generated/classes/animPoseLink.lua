@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animPoseLink
----@field public node animAnimNode_Base
+---@field node animAnimNode_Base
 animPoseLink = {}
 
 ---@param fields? animPoseLink
 ---@return animPoseLink
-function animPoseLink.new(fields) return end
+function animPoseLink.new(fields) end

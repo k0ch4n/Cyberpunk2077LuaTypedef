@@ -5,16 +5,14 @@ PublicSafeToReadyEvents = {}
 
 ---@param fields? PublicSafeToReadyEvents
 ---@return PublicSafeToReadyEvents
-function PublicSafeToReadyEvents.new(fields) return end
+function PublicSafeToReadyEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeToReadyEvents:OnEnter(stateContext, scriptInterface) return end
+function PublicSafeToReadyEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PublicSafeToReadyEvents:OnExit(stateContext, scriptInterface) return end
+function PublicSafeToReadyEvents:OnExit(stateContext, scriptInterface) end

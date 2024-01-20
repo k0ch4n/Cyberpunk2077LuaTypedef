@@ -5,13 +5,13 @@ gamedataNPCQuestAffiliation_Record = {}
 
 ---@param fields? gamedataNPCQuestAffiliation_Record
 ---@return gamedataNPCQuestAffiliation_Record
-function gamedataNPCQuestAffiliation_Record.new(fields) return end
+function gamedataNPCQuestAffiliation_Record.new(fields) end
 
 ---@return String
-function gamedataNPCQuestAffiliation_Record:EnumComment() return end
+function gamedataNPCQuestAffiliation_Record:EnumComment() end
 
 ---@return CName
-function gamedataNPCQuestAffiliation_Record:EnumName() return end
+function gamedataNPCQuestAffiliation_Record:EnumName() end
 
 ---@return gamedataNPCQuestAffiliation
-function gamedataNPCQuestAffiliation_Record:Type() return end
+function gamedataNPCQuestAffiliation_Record:Type() end

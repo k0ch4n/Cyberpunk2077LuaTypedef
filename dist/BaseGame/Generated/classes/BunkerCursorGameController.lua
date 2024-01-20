@@ -5,8 +5,7 @@ BunkerCursorGameController = {}
 
 ---@param fields? BunkerCursorGameController
 ---@return BunkerCursorGameController
-function BunkerCursorGameController.new(fields) return end
+function BunkerCursorGameController.new(fields) end
 
----@protected
 ---@return CName
-function BunkerCursorGameController:GetCursorType() return end
+function BunkerCursorGameController:GetCursorType() end

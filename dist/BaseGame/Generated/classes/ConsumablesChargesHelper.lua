@@ -5,33 +5,33 @@ ConsumablesChargesHelper = {}
 
 ---@param fields? ConsumablesChargesHelper
 ---@return ConsumablesChargesHelper
-function ConsumablesChargesHelper.new(fields) return end
+function ConsumablesChargesHelper.new(fields) end
 
 ---@param tags CName[]|string[]
 ---@return CName
-function ConsumablesChargesHelper.GetConsumableTag(tags) return end
+function ConsumablesChargesHelper.GetConsumableTag(tags) end
 
 ---@param recipeToHide TweakDBID|string
 ---@return nil
-function ConsumablesChargesHelper.HideConsumableRecipe(recipeToHide) return end
+function ConsumablesChargesHelper.HideConsumableRecipe(recipeToHide) end
 
 ---@return nil
-function ConsumablesChargesHelper.HotkeyRefresh() return end
+function ConsumablesChargesHelper.HotkeyRefresh() end
 
 ---@param tag CName|string
 ---@return Bool
-function ConsumablesChargesHelper.LeaveTheBestQualityConsumable(tag) return end
+function ConsumablesChargesHelper.LeaveTheBestQualityConsumable(tag) end
 
 ---@param statPool gamedataStatPoolType
 ---@return nil
-function ConsumablesChargesHelper.RefreshAllCharges(statPool) return end
-
----@param statPool gamedataStatPoolType
----@param amount Int32
----@return nil
-function ConsumablesChargesHelper.RefreshAmountOfCharges(statPool, amount) return end
+function ConsumablesChargesHelper.RefreshAllCharges(statPool) end
 
 ---@param statPool gamedataStatPoolType
 ---@param amount Int32
 ---@return nil
-function ConsumablesChargesHelper.RefreshToSpecificAmount(statPool, amount) return end
+function ConsumablesChargesHelper.RefreshAmountOfCharges(statPool, amount) end
+
+---@param statPool gamedataStatPoolType
+---@param amount Int32
+---@return nil
+function ConsumablesChargesHelper.RefreshToSpecificAmount(statPool, amount) end

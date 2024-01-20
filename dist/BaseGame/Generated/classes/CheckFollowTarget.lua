@@ -5,14 +5,12 @@ CheckFollowTarget = {}
 
 ---@param fields? CheckFollowTarget
 ---@return CheckFollowTarget
-function CheckFollowTarget.new(fields) return end
+function CheckFollowTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckFollowTarget:Activate(context) return end
+function CheckFollowTarget:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckFollowTarget:Check(context) return end
+function CheckFollowTarget:Check(context) end

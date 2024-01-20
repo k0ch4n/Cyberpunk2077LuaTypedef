@@ -5,4 +5,4 @@ worldPackageNodeRefSerializer = {}
 
 ---@param fields? worldPackageNodeRefSerializer
 ---@return worldPackageNodeRefSerializer
-function worldPackageNodeRefSerializer.new(fields) return end
+function worldPackageNodeRefSerializer.new(fields) end

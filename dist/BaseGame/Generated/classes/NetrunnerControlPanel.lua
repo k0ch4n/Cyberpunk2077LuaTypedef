@@ -5,26 +5,22 @@ NetrunnerControlPanel = {}
 
 ---@param fields? NetrunnerControlPanel
 ---@return NetrunnerControlPanel
-function NetrunnerControlPanel.new(fields) return end
+function NetrunnerControlPanel.new(fields) end
 
----@protected
 ---@param evt FactQuickHack
 ---@return Bool
-function NetrunnerControlPanel:OnCreateFactQuickHack(evt) return end
+function NetrunnerControlPanel:OnCreateFactQuickHack(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function NetrunnerControlPanel:OnRequestComponents(ri) return end
+function NetrunnerControlPanel:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function NetrunnerControlPanel:OnTakeControl(ri) return end
+function NetrunnerControlPanel:OnTakeControl(ri) end
 
----@private
 ---@return NetrunnerControlPanelController
-function NetrunnerControlPanel:GetController() return end
+function NetrunnerControlPanel:GetController() end
 
 ---@return NetrunnerControlPanelControllerPS
-function NetrunnerControlPanel:GetDevicePS() return end
+function NetrunnerControlPanel:GetDevicePS() end

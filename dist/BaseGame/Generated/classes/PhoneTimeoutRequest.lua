@@ -5,4 +5,4 @@ PhoneTimeoutRequest = {}
 
 ---@param fields? PhoneTimeoutRequest
 ---@return PhoneTimeoutRequest
-function PhoneTimeoutRequest.new(fields) return end
+function PhoneTimeoutRequest.new(fields) end

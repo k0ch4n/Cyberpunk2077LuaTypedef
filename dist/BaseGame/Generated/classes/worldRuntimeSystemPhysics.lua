@@ -5,4 +5,4 @@ worldRuntimeSystemPhysics = {}
 
 ---@param fields? worldRuntimeSystemPhysics
 ---@return worldRuntimeSystemPhysics
-function worldRuntimeSystemPhysics.new(fields) return end
+function worldRuntimeSystemPhysics.new(fields) end

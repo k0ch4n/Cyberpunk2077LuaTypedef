@@ -5,9 +5,8 @@ UiQuickHackPanelContextDrivingDecisions = {}
 
 ---@param fields? UiQuickHackPanelContextDrivingDecisions
 ---@return UiQuickHackPanelContextDrivingDecisions
-function UiQuickHackPanelContextDrivingDecisions.new(fields) return end
+function UiQuickHackPanelContextDrivingDecisions.new(fields) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function UiQuickHackPanelContextDrivingDecisions:CheckRequiredStates(scriptInterface) return end
+function UiQuickHackPanelContextDrivingDecisions:CheckRequiredStates(scriptInterface) end

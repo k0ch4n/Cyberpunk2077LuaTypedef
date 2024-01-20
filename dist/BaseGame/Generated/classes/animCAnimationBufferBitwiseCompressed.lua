@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class animCAnimationBufferBitwiseCompressed: animIAnimationBuffer
----@field public version Uint32
----@field public bones animSAnimationBufferBitwiseCompressedBoneTrack[]
----@field public tracks animSAnimationBufferBitwiseCompressedData[]
----@field public data Int8[]
----@field public fallbackData Int8[]
----@field public deferredData serializationDeferredDataBuffer
----@field public orientationCompressionMethod SAnimationBufferOrientationCompressionMethod
----@field public duration Float
----@field public numFrames Uint32
----@field public dt Float
----@field public streamingOption SAnimationBufferStreamingOption
----@field public nonStreamableBones Uint32
----@field public extraDataNames CName[]
----@field public numExtraBones Uint32
+---@field version Uint32
+---@field bones animSAnimationBufferBitwiseCompressedBoneTrack[]
+---@field tracks animSAnimationBufferBitwiseCompressedData[]
+---@field data Int8[]
+---@field fallbackData Int8[]
+---@field deferredData serializationDeferredDataBuffer
+---@field orientationCompressionMethod SAnimationBufferOrientationCompressionMethod
+---@field duration Float
+---@field numFrames Uint32
+---@field dt Float
+---@field streamingOption SAnimationBufferStreamingOption
+---@field nonStreamableBones Uint32
+---@field extraDataNames CName[]
+---@field numExtraBones Uint32
 animCAnimationBufferBitwiseCompressed = {}
 
 ---@param fields? animCAnimationBufferBitwiseCompressed
 ---@return animCAnimationBufferBitwiseCompressed
-function animCAnimationBufferBitwiseCompressed.new(fields) return end
+function animCAnimationBufferBitwiseCompressed.new(fields) end

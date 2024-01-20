@@ -5,4 +5,4 @@ gameDestructionPersistencySystem = {}
 
 ---@param fields? gameDestructionPersistencySystem
 ---@return gameDestructionPersistencySystem
-function gameDestructionPersistencySystem.new(fields) return end
+function gameDestructionPersistencySystem.new(fields) end

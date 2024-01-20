@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamePreventionSpawnSystemSavedState: ISerializable
----@field public areaIds Uint64[]
+---@field areaIds Uint64[]
 gamePreventionSpawnSystemSavedState = {}
 
 ---@param fields? gamePreventionSpawnSystemSavedState
 ---@return gamePreventionSpawnSystemSavedState
-function gamePreventionSpawnSystemSavedState.new(fields) return end
+function gamePreventionSpawnSystemSavedState.new(fields) end

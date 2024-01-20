@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CheckArguments: AIbehaviorconditionScript
----@field public argumentVar CName
+---@field argumentVar CName
 CheckArguments = {}
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return String
-function CheckArguments:GetDescription(context) return end
+function CheckArguments:GetDescription(context) end

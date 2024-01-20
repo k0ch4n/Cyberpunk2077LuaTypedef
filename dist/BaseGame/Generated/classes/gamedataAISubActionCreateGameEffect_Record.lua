@@ -5,46 +5,46 @@ gamedataAISubActionCreateGameEffect_Record = {}
 
 ---@param fields? gamedataAISubActionCreateGameEffect_Record
 ---@return gamedataAISubActionCreateGameEffect_Record
-function gamedataAISubActionCreateGameEffect_Record.new(fields) return end
+function gamedataAISubActionCreateGameEffect_Record.new(fields) end
 
 ---@return Vector3
-function gamedataAISubActionCreateGameEffect_Record:ColliderBoxSize() return end
+function gamedataAISubActionCreateGameEffect_Record:ColliderBoxSize() end
 
 ---@return Float
-function gamedataAISubActionCreateGameEffect_Record:Delay() return end
+function gamedataAISubActionCreateGameEffect_Record:Delay() end
 
 ---@return Float
-function gamedataAISubActionCreateGameEffect_Record:Duration() return end
+function gamedataAISubActionCreateGameEffect_Record:Duration() end
 
 ---@return CName
-function gamedataAISubActionCreateGameEffect_Record:EffectName() return end
+function gamedataAISubActionCreateGameEffect_Record:EffectName() end
 
 ---@return CName
-function gamedataAISubActionCreateGameEffect_Record:EffectTag() return end
+function gamedataAISubActionCreateGameEffect_Record:EffectTag() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:PositionObj() return end
+function gamedataAISubActionCreateGameEffect_Record:PositionObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:PositionObjHandle() return end
+function gamedataAISubActionCreateGameEffect_Record:PositionObjHandle() end
 
 ---@return Float
-function gamedataAISubActionCreateGameEffect_Record:Range() return end
+function gamedataAISubActionCreateGameEffect_Record:Range() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:RotationObj() return end
+function gamedataAISubActionCreateGameEffect_Record:RotationObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:RotationObjHandle() return end
+function gamedataAISubActionCreateGameEffect_Record:RotationObjHandle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:Target() return end
+function gamedataAISubActionCreateGameEffect_Record:Target() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:TargetHandle() return end
+function gamedataAISubActionCreateGameEffect_Record:TargetHandle() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:TargetPositionObj() return end
+function gamedataAISubActionCreateGameEffect_Record:TargetPositionObj() end
 
 ---@return gamedataAIActionTarget_Record
-function gamedataAISubActionCreateGameEffect_Record:TargetPositionObjHandle() return end
+function gamedataAISubActionCreateGameEffect_Record:TargetPositionObjHandle() end

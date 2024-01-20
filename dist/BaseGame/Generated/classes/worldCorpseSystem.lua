@@ -5,4 +5,4 @@ worldCorpseSystem = {}
 
 ---@param fields? worldCorpseSystem
 ---@return worldCorpseSystem
-function worldCorpseSystem.new(fields) return end
+function worldCorpseSystem.new(fields) end

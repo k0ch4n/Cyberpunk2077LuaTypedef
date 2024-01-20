@@ -5,10 +5,9 @@ Air = {}
 
 ---@param fields? Air
 ---@return Air
-function Air.new(fields) return end
+function Air.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function Air:EnterCondition(stateContext, scriptInterface) return end
+function Air:EnterCondition(stateContext, scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class rendRenderParticleBlobHeader
----@field public version Uint32
----@field public emitterInfo rendRenderParticleBlobEmitterInfo
+---@field version Uint32
+---@field emitterInfo rendRenderParticleBlobEmitterInfo
 rendRenderParticleBlobHeader = {}
 
 ---@param fields? rendRenderParticleBlobHeader
 ---@return rendRenderParticleBlobHeader
-function rendRenderParticleBlobHeader.new(fields) return end
+function rendRenderParticleBlobHeader.new(fields) end

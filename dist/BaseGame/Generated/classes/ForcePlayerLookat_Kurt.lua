@@ -5,9 +5,8 @@ ForcePlayerLookat_Kurt = {}
 
 ---@param fields? ForcePlayerLookat_Kurt
 ---@return ForcePlayerLookat_Kurt
-function ForcePlayerLookat_Kurt.new(fields) return end
+function ForcePlayerLookat_Kurt.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForcePlayerLookat_Kurt:Activate(context) return end
+function ForcePlayerLookat_Kurt:Activate(context) end

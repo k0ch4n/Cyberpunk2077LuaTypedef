@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class ShardCollectedNotificationViewData: gameuiGenericNotificationViewData
----@field public entry gameJournalOnscreen
----@field public isCrypted Bool
----@field public itemID gameItemID
----@field public shardTitle String
----@field public imageId TweakDBID
+---@field entry gameJournalOnscreen
+---@field isCrypted Bool
+---@field itemID gameItemID
+---@field shardTitle String
+---@field imageId TweakDBID
 ShardCollectedNotificationViewData = {}
 
 ---@param fields? ShardCollectedNotificationViewData
 ---@return ShardCollectedNotificationViewData
-function ShardCollectedNotificationViewData.new(fields) return end
+function ShardCollectedNotificationViewData.new(fields) end
 
 ---@param data gameuiGenericNotificationViewData
 ---@return Bool
-function ShardCollectedNotificationViewData:CanMerge(data) return end
+function ShardCollectedNotificationViewData:CanMerge(data) end

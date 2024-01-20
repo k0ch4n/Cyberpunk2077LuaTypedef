@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemDLCAddedItemInspected: gameScriptableSystemRequest
----@field public itemTDBID TweakDBID
+---@field itemTDBID TweakDBID
 UIScriptableSystemDLCAddedItemInspected = {}
 
 ---@param fields? UIScriptableSystemDLCAddedItemInspected
 ---@return UIScriptableSystemDLCAddedItemInspected
-function UIScriptableSystemDLCAddedItemInspected.new(fields) return end
+function UIScriptableSystemDLCAddedItemInspected.new(fields) end

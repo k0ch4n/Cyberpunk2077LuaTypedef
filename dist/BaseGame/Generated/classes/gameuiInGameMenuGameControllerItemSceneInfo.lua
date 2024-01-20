@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiInGameMenuGameControllerItemSceneInfo
----@field public sceneName CName
----@field public puppetSceneName CName
----@field public prefabRef NodeRef
----@field public markerRef NodeRef
+---@field sceneName CName
+---@field puppetSceneName CName
+---@field prefabRef NodeRef
+---@field markerRef NodeRef
 gameuiInGameMenuGameControllerItemSceneInfo = {}
 
 ---@param fields? gameuiInGameMenuGameControllerItemSceneInfo
 ---@return gameuiInGameMenuGameControllerItemSceneInfo
-function gameuiInGameMenuGameControllerItemSceneInfo.new(fields) return end
+function gameuiInGameMenuGameControllerItemSceneInfo.new(fields) end

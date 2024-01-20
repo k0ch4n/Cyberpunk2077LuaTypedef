@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameStaticAreaShapeComponent: entIPlacedComponent
----@field public outline AreaShapeOutline
----@field public color Color
----@field public isEnabled Bool
+---@field outline AreaShapeOutline
+---@field color Color
+---@field isEnabled Bool
 gameStaticAreaShapeComponent = {}
 
 ---@param fields? gameStaticAreaShapeComponent
 ---@return gameStaticAreaShapeComponent
-function gameStaticAreaShapeComponent.new(fields) return end
+function gameStaticAreaShapeComponent.new(fields) end

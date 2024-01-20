@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class workEquipInventoryWeaponAction: workIWorkspotItemAction
----@field public weaponType workWeaponType
----@field public keepEquippedAfterExit Bool
----@field public fallbackItem TweakDBID
----@field public fallbackSlot TweakDBID
+---@field weaponType workWeaponType
+---@field keepEquippedAfterExit Bool
+---@field fallbackItem TweakDBID
+---@field fallbackSlot TweakDBID
 workEquipInventoryWeaponAction = {}
 
 ---@param fields? workEquipInventoryWeaponAction
 ---@return workEquipInventoryWeaponAction
-function workEquipInventoryWeaponAction.new(fields) return end
+function workEquipInventoryWeaponAction.new(fields) end

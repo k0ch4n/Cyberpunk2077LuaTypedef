@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class UseCoverCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIUseCoverCommand
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIUseCoverCommand
 UseCoverCommandTask = {}
 
 ---@param fields? UseCoverCommandTask
 ---@return UseCoverCommandTask
-function UseCoverCommandTask.new(fields) return end
+function UseCoverCommandTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UseCoverCommandTask:Activate(context) return end
+function UseCoverCommandTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param typedCommand AIUseCoverCommand
 ---@param aiComponent AIHumanComponent
 ---@return nil
-function UseCoverCommandTask:CancelCommand(context, typedCommand, aiComponent) return end
+function UseCoverCommandTask:CancelCommand(context, typedCommand, aiComponent) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UseCoverCommandTask:Deactivate(context) return end
+function UseCoverCommandTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function UseCoverCommandTask:Update(context) return end
+function UseCoverCommandTask:Update(context) end

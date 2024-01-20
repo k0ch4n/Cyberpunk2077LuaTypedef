@@ -5,24 +5,21 @@ VentilationEffectorControllerPS = {}
 
 ---@param fields? VentilationEffectorControllerPS
 ---@return VentilationEffectorControllerPS
-function VentilationEffectorControllerPS.new(fields) return end
+function VentilationEffectorControllerPS.new(fields) end
 
----@private
 ---@return ToggleEffect
-function VentilationEffectorControllerPS:ActionToggleEffect() return end
+function VentilationEffectorControllerPS:ActionToggleEffect() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function VentilationEffectorControllerPS:GetActions(context) return end
+function VentilationEffectorControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function VentilationEffectorControllerPS:GetBackgroundTextureTweakDBID() return end
+function VentilationEffectorControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function VentilationEffectorControllerPS:GetDeviceIconTweakDBID() return end
+function VentilationEffectorControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param evt ToggleEffect
 ---@return EntityNotificationType
-function VentilationEffectorControllerPS:OnToggleEffect(evt) return end
+function VentilationEffectorControllerPS:OnToggleEffect(evt) end

@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class CrossplayInfoPanelController: inkWidgetLogicController
----@field private signOutEnabled Bool
----@field public disconnectBtn inkWidgetReference
+---@field signOutEnabled Bool
+---@field disconnectBtn inkWidgetReference
 CrossplayInfoPanelController = {}
 
 ---@param fields? CrossplayInfoPanelController
 ---@return CrossplayInfoPanelController
-function CrossplayInfoPanelController.new(fields) return end
+function CrossplayInfoPanelController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CrossplayInfoPanelController:OnDisconnectClicked(evt) return end
+function CrossplayInfoPanelController:OnDisconnectClicked(evt) end
 
----@protected
 ---@return Bool
-function CrossplayInfoPanelController:OnInitialize() return end
+function CrossplayInfoPanelController:OnInitialize() end
 
 ---@param value Bool
 ---@return nil
-function CrossplayInfoPanelController:EnableSignOut(value) return end
+function CrossplayInfoPanelController:EnableSignOut(value) end

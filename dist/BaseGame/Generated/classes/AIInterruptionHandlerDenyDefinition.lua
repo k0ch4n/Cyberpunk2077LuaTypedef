@@ -5,4 +5,4 @@ AIInterruptionHandlerDenyDefinition = {}
 
 ---@param fields? AIInterruptionHandlerDenyDefinition
 ---@return AIInterruptionHandlerDenyDefinition
-function AIInterruptionHandlerDenyDefinition.new(fields) return end
+function AIInterruptionHandlerDenyDefinition.new(fields) end

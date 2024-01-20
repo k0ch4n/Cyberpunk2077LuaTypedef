@@ -5,7 +5,7 @@ VehicleTakeBody = {}
 
 ---@param fields? VehicleTakeBody
 ---@return VehicleTakeBody
-function VehicleTakeBody.new(fields) return end
+function VehicleTakeBody.new(fields) end
 
 ---@return nil
-function VehicleTakeBody:SetProperties() return end
+function VehicleTakeBody:SetProperties() end

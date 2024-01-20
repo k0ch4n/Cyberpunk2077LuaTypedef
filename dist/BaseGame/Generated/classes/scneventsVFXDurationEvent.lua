@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class scneventsVFXDurationEvent: scnSceneEvent
----@field public effectEntry scnEffectEntry
----@field public startAction scneventsVFXActionType
----@field public endAction scneventsVFXActionType
----@field public sequenceShift Uint32
----@field public performerId scnPerformerId
----@field public nodeRef NodeRef
----@field public muteSound Bool
+---@field effectEntry scnEffectEntry
+---@field startAction scneventsVFXActionType
+---@field endAction scneventsVFXActionType
+---@field sequenceShift Uint32
+---@field performerId scnPerformerId
+---@field nodeRef NodeRef
+---@field muteSound Bool
 scneventsVFXDurationEvent = {}
 
 ---@param fields? scneventsVFXDurationEvent
 ---@return scneventsVFXDurationEvent
-function scneventsVFXDurationEvent.new(fields) return end
+function scneventsVFXDurationEvent.new(fields) end

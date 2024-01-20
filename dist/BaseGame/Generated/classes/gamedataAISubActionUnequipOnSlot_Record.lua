@@ -5,7 +5,7 @@ gamedataAISubActionUnequipOnSlot_Record = {}
 
 ---@param fields? gamedataAISubActionUnequipOnSlot_Record
 ---@return gamedataAISubActionUnequipOnSlot_Record
-function gamedataAISubActionUnequipOnSlot_Record.new(fields) return end
+function gamedataAISubActionUnequipOnSlot_Record.new(fields) end
 
 ---@return Bool
-function gamedataAISubActionUnequipOnSlot_Record:UseItemSpawnDelayFromWeapon() return end
+function gamedataAISubActionUnequipOnSlot_Record:UseItemSpawnDelayFromWeapon() end

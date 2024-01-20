@@ -1,23 +1,21 @@
 ---@meta
 
 ---@class HitCallback: gameScriptedDamageSystemListener
----@field protected state GenericHitPrereqState
+---@field state GenericHitPrereqState
 HitCallback = {}
 
 ---@param fields? HitCallback
 ---@return HitCallback
-function HitCallback.new(fields) return end
+function HitCallback.new(fields) end
 
----@protected
 ---@param missEvent gameeventsMissEvent
 ---@return nil
-function HitCallback:OnMissTriggered(missEvent) return end
+function HitCallback:OnMissTriggered(missEvent) end
 
 ---@param state gamePrereqState
 ---@return nil
-function HitCallback:RegisterState(state) return end
+function HitCallback:RegisterState(state) end
 
----@protected
 ---@param hitEvent gameeventsHitEvent
 ---@return nil
-function HitCallback:UpdateState(hitEvent) return end
+function HitCallback:UpdateState(hitEvent) end

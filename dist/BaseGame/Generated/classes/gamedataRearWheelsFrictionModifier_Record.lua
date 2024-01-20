@@ -5,28 +5,28 @@ gamedataRearWheelsFrictionModifier_Record = {}
 
 ---@param fields? gamedataRearWheelsFrictionModifier_Record
 ---@return gamedataRearWheelsFrictionModifier_Record
-function gamedataRearWheelsFrictionModifier_Record.new(fields) return end
+function gamedataRearWheelsFrictionModifier_Record.new(fields) end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MaxHelperAcceleration() return end
+function gamedataRearWheelsFrictionModifier_Record:MaxHelperAcceleration() end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MaxLatSlipRatio() return end
+function gamedataRearWheelsFrictionModifier_Record:MaxLatSlipRatio() end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MaxLongSlipRatio() return end
+function gamedataRearWheelsFrictionModifier_Record:MaxLongSlipRatio() end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MaxSpeed() return end
+function gamedataRearWheelsFrictionModifier_Record:MaxSpeed() end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MinLatFrictionCoef() return end
+function gamedataRearWheelsFrictionModifier_Record:MinLatFrictionCoef() end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MinLatSlipRatio() return end
+function gamedataRearWheelsFrictionModifier_Record:MinLatSlipRatio() end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MinLongFrictionCoef() return end
+function gamedataRearWheelsFrictionModifier_Record:MinLongFrictionCoef() end
 
 ---@return Float
-function gamedataRearWheelsFrictionModifier_Record:MinLongSlipRatio() return end
+function gamedataRearWheelsFrictionModifier_Record:MinLongSlipRatio() end

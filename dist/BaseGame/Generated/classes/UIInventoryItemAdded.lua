@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UIInventoryItemAdded: redEvent
----@field public itemID gameItemID
----@field public hash Uint64
+---@field itemID gameItemID
+---@field hash Uint64
 UIInventoryItemAdded = {}
 
 ---@param fields? UIInventoryItemAdded
 ---@return UIInventoryItemAdded
-function UIInventoryItemAdded.new(fields) return end
+function UIInventoryItemAdded.new(fields) end

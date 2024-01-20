@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorWorkspotList: IScriptable
----@field public spots NodeRef[]
+---@field spots NodeRef[]
 AIbehaviorWorkspotList = {}
 
 ---@param fields? AIbehaviorWorkspotList
 ---@return AIbehaviorWorkspotList
-function AIbehaviorWorkspotList.new(fields) return end
+function AIbehaviorWorkspotList.new(fields) end

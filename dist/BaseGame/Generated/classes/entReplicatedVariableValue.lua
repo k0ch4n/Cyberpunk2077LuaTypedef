@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entReplicatedVariableValue
----@field public name CName
----@field public value Float
----@field public applyServerTime netTime
+---@field name CName
+---@field value Float
+---@field applyServerTime netTime
 entReplicatedVariableValue = {}
 
 ---@param fields? entReplicatedVariableValue
 ---@return entReplicatedVariableValue
-function entReplicatedVariableValue.new(fields) return end
+function entReplicatedVariableValue.new(fields) end

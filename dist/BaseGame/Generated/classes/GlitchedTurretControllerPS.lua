@@ -5,24 +5,21 @@ GlitchedTurretControllerPS = {}
 
 ---@param fields? GlitchedTurretControllerPS
 ---@return GlitchedTurretControllerPS
-function GlitchedTurretControllerPS.new(fields) return end
+function GlitchedTurretControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function GlitchedTurretControllerPS:OnInstantiated() return end
+function GlitchedTurretControllerPS:OnInstantiated() end
 
----@protected
 ---@return QuestForceGlitch
-function GlitchedTurretControllerPS:ActionQuestForceGlitch() return end
+function GlitchedTurretControllerPS:ActionQuestForceGlitch() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function GlitchedTurretControllerPS:GetQuestActions(context) return end
+function GlitchedTurretControllerPS:GetQuestActions(context) end
 
----@protected
 ---@return nil
-function GlitchedTurretControllerPS:Initialize() return end
+function GlitchedTurretControllerPS:Initialize() end
 
 ---@param evt QuestForceGlitch
 ---@return EntityNotificationType
-function GlitchedTurretControllerPS:OnQuestForceGlitch(evt) return end
+function GlitchedTurretControllerPS:OnQuestForceGlitch(evt) end

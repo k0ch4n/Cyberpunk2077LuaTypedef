@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class EntityHasVisualTag: gameIScriptablePrereq
----@field private visualTag CName
----@field private hasTag Bool
+---@field visualTag CName
+---@field hasTag Bool
 EntityHasVisualTag = {}
 
 ---@param fields? EntityHasVisualTag
 ---@return EntityHasVisualTag
-function EntityHasVisualTag.new(fields) return end
+function EntityHasVisualTag.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function EntityHasVisualTag:Initialize(recordID) return end
+function EntityHasVisualTag:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function EntityHasVisualTag:IsFulfilled(context) return end
+function EntityHasVisualTag:IsFulfilled(context) end

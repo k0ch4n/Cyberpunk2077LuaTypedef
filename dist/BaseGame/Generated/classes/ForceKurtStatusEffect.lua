@@ -5,9 +5,8 @@ ForceKurtStatusEffect = {}
 
 ---@param fields? ForceKurtStatusEffect
 ---@return ForceKurtStatusEffect
-function ForceKurtStatusEffect.new(fields) return end
+function ForceKurtStatusEffect.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ForceKurtStatusEffect:Activate(context) return end
+function ForceKurtStatusEffect:Activate(context) end

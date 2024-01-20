@@ -5,4 +5,4 @@ ActivateMapLink = {}
 
 ---@param fields? ActivateMapLink
 ---@return ActivateMapLink
-function ActivateMapLink.new(fields) return end
+function ActivateMapLink.new(fields) end

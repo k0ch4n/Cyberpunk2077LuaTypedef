@@ -5,23 +5,23 @@ userSettingsVarFloat = {}
 
 ---@param fields? userSettingsVarFloat
 ---@return userSettingsVarFloat
-function userSettingsVarFloat.new(fields) return end
+function userSettingsVarFloat.new(fields) end
 
 ---@return Float
-function userSettingsVarFloat:GetDefaultValue() return end
+function userSettingsVarFloat:GetDefaultValue() end
 
 ---@return Float
-function userSettingsVarFloat:GetMaxValue() return end
+function userSettingsVarFloat:GetMaxValue() end
 
 ---@return Float
-function userSettingsVarFloat:GetMinValue() return end
+function userSettingsVarFloat:GetMinValue() end
 
 ---@return Float
-function userSettingsVarFloat:GetStepValue() return end
+function userSettingsVarFloat:GetStepValue() end
 
 ---@return Float
-function userSettingsVarFloat:GetValue() return end
+function userSettingsVarFloat:GetValue() end
 
 ---@param value Float
 ---@return nil
-function userSettingsVarFloat:SetValue(value) return end
+function userSettingsVarFloat:SetValue(value) end

@@ -1,111 +1,95 @@
 ---@meta
 
 ---@class CrosshairGameController_Melee: gameuiCrosshairBaseMelee
----@field private targetColorChange inkWidgetReference
----@field private chargeBar inkCanvasWidget
----@field private chargeBarFG inkRectangleWidget
----@field private chargeBarMonoTop inkImageWidget
----@field private chargeBarMonoBottom inkImageWidget
----@field private chargeBarMask inkMaskWidget
----@field private chargeValueL inkTextWidget
----@field private chargeValueR inkTextWidget
----@field private bbcharge Uint32
----@field private meleeResourcePoolListener MeleeResourcePoolListener
----@field private weaponID entEntityID
----@field private displayChargeBar Bool
----@field private currentState Int32
----@field private meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
+---@field targetColorChange inkWidgetReference
+---@field chargeBar inkCanvasWidget
+---@field chargeBarFG inkRectangleWidget
+---@field chargeBarMonoTop inkImageWidget
+---@field chargeBarMonoBottom inkImageWidget
+---@field chargeBarMask inkMaskWidget
+---@field chargeValueL inkTextWidget
+---@field chargeValueR inkTextWidget
+---@field bbcharge Uint32
+---@field meleeResourcePoolListener MeleeResourcePoolListener
+---@field weaponID entEntityID
+---@field displayChargeBar Bool
+---@field currentState Int32
+---@field meleeLeapAttackObjectTagger MeleeLeapAttackObjectTagger
 CrosshairGameController_Melee = {}
 
 ---@param fields? CrosshairGameController_Melee
 ---@return CrosshairGameController_Melee
-function CrosshairGameController_Melee.new(fields) return end
+function CrosshairGameController_Melee.new(fields) end
 
----@protected
 ---@param state Int32
 ---@return Bool
-function CrosshairGameController_Melee:OnGamePSMMeleeWeapon(state) return end
+function CrosshairGameController_Melee:OnGamePSMMeleeWeapon(state) end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Melee:OnInitialize() return end
+function CrosshairGameController_Melee:OnInitialize() end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function CrosshairGameController_Melee:OnPlayerAttach(playerPuppet) return end
+function CrosshairGameController_Melee:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Melee:OnPreIntro() return end
+function CrosshairGameController_Melee:OnPreIntro() end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Melee:OnPreOutro() return end
+function CrosshairGameController_Melee:OnPreOutro() end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Melee:OnUninitialize() return end
+function CrosshairGameController_Melee:OnUninitialize() end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function CrosshairGameController_Melee:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function CrosshairGameController_Melee:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function CrosshairGameController_Melee:GetIntroAnimation(firstEquip) return end
+function CrosshairGameController_Melee:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function CrosshairGameController_Melee:GetOutroAnimation() return end
+function CrosshairGameController_Melee:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_Aim() return end
+function CrosshairGameController_Melee:OnState_Aim() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_GrenadeCharging() return end
+function CrosshairGameController_Melee:OnState_GrenadeCharging() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_HipFire() return end
+function CrosshairGameController_Melee:OnState_HipFire() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_LeftHandCyberware() return end
+function CrosshairGameController_Melee:OnState_LeftHandCyberware() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_Reload() return end
+function CrosshairGameController_Melee:OnState_Reload() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_Safe() return end
+function CrosshairGameController_Melee:OnState_Safe() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_Scanning() return end
+function CrosshairGameController_Melee:OnState_Scanning() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Melee:OnState_Sprint() return end
+function CrosshairGameController_Melee:OnState_Sprint() end
 
 ---@param pct Float
 ---@return nil
-function CrosshairGameController_Melee:SetChargeScale(pct) return end
+function CrosshairGameController_Melee:SetChargeScale(pct) end
 
----@protected
 ---@param show Bool
 ---@return nil
-function CrosshairGameController_Melee:ShowCrosshairFromState(show) return end
+function CrosshairGameController_Melee:ShowCrosshairFromState(show) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function CrosshairGameController_Melee:UpdateResourceValue(oldValue, newValue, percToPoints) return end
+function CrosshairGameController_Melee:UpdateResourceValue(oldValue, newValue, percToPoints) end
 
 ---@return nil
-function CrosshairGameController_Melee:UpdateTargetIndicator() return end
+function CrosshairGameController_Melee:UpdateTargetIndicator() end

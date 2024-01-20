@@ -5,4 +5,4 @@ ClearSubCharacterRequest = {}
 
 ---@param fields? ClearSubCharacterRequest
 ---@return ClearSubCharacterRequest
-function ClearSubCharacterRequest.new(fields) return end
+function ClearSubCharacterRequest.new(fields) end

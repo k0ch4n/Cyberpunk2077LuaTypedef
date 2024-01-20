@@ -5,4 +5,4 @@ navLocomotionPathPointUserData = {}
 
 ---@param fields? navLocomotionPathPointUserData
 ---@return navLocomotionPathPointUserData
-function navLocomotionPathPointUserData.new(fields) return end
+function navLocomotionPathPointUserData.new(fields) end

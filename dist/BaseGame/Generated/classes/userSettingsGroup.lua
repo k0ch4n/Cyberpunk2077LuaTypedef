@@ -5,46 +5,46 @@ userSettingsGroup = {}
 
 ---@param fields? userSettingsGroup
 ---@return userSettingsGroup
-function userSettingsGroup.new(fields) return end
+function userSettingsGroup.new(fields) end
 
 ---@return CName
-function userSettingsGroup:GetDisplayName() return end
+function userSettingsGroup:GetDisplayName() end
 
 ---@param isPreGame Bool
 ---@return userSettingsGroup[]
-function userSettingsGroup:GetGroups(isPreGame) return end
+function userSettingsGroup:GetGroups(isPreGame) end
 
 ---@return CName
-function userSettingsGroup:GetName() return end
+function userSettingsGroup:GetName() end
 
 ---@return Int32
-function userSettingsGroup:GetOrder() return end
+function userSettingsGroup:GetOrder() end
 
 ---@return CName
-function userSettingsGroup:GetParentPath() return end
+function userSettingsGroup:GetParentPath() end
 
 ---@return CName
-function userSettingsGroup:GetPath() return end
+function userSettingsGroup:GetPath() end
 
 ---@param varName CName|string
 ---@return userSettingsVar
-function userSettingsGroup:GetVar(varName) return end
+function userSettingsGroup:GetVar(varName) end
 
 ---@param isPreGame Bool
 ---@return userSettingsVar[]
-function userSettingsGroup:GetVars(isPreGame) return end
+function userSettingsGroup:GetVars(isPreGame) end
 
 ---@return Bool
-function userSettingsGroup:HasGroups() return end
+function userSettingsGroup:HasGroups() end
 
 ---@param varName CName|string
 ---@return Bool
-function userSettingsGroup:HasVar(varName) return end
+function userSettingsGroup:HasVar(varName) end
 
 ---@param isPreGame Bool
 ---@return Bool
-function userSettingsGroup:HasVars(isPreGame) return end
+function userSettingsGroup:HasVars(isPreGame) end
 
 ---@param isPreGame Bool
 ---@return Bool
-function userSettingsGroup:IsEmpty(isPreGame) return end
+function userSettingsGroup:IsEmpty(isPreGame) end

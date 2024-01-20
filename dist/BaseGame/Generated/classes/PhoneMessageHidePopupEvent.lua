@@ -5,4 +5,4 @@ PhoneMessageHidePopupEvent = {}
 
 ---@param fields? PhoneMessageHidePopupEvent
 ---@return PhoneMessageHidePopupEvent
-function PhoneMessageHidePopupEvent.new(fields) return end
+function PhoneMessageHidePopupEvent.new(fields) end

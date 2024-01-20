@@ -5,7 +5,7 @@ AccessPointController = {}
 
 ---@param fields? AccessPointController
 ---@return AccessPointController
-function AccessPointController.new(fields) return end
+function AccessPointController.new(fields) end
 
 ---@return AccessPointControllerPS
-function AccessPointController:GetPS() return end
+function AccessPointController:GetPS() end

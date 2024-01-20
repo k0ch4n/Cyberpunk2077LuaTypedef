@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class UIScriptableSystemAttributeLevel
----@field public stat gamedataStatType
----@field public level Int32
+---@field stat gamedataStatType
+---@field level Int32
 UIScriptableSystemAttributeLevel = {}
 
 ---@param fields? UIScriptableSystemAttributeLevel
 ---@return UIScriptableSystemAttributeLevel
-function UIScriptableSystemAttributeLevel.new(fields) return end
+function UIScriptableSystemAttributeLevel.new(fields) end

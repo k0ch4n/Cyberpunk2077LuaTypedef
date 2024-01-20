@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class EventInventorySlotSelectDelayedInventoryEvent: redEvent
----@field public controller gameInventoryItemData
----@field public target inkWidget
+---@field controller gameInventoryItemData
+---@field target inkWidget
 EventInventorySlotSelectDelayedInventoryEvent = {}
 
 ---@param fields? EventInventorySlotSelectDelayedInventoryEvent
 ---@return EventInventorySlotSelectDelayedInventoryEvent
-function EventInventorySlotSelectDelayedInventoryEvent.new(fields) return end
+function EventInventorySlotSelectDelayedInventoryEvent.new(fields) end

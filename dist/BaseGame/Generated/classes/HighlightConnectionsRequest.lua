@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class HighlightConnectionsRequest: gameScriptableSystemRequest
----@field public shouldHighlight Bool
----@field public isTriggeredByMasterDevice Bool
----@field public highlightTargets NodeRef[]
----@field public requestingDevice entEntityID
+---@field shouldHighlight Bool
+---@field isTriggeredByMasterDevice Bool
+---@field highlightTargets NodeRef[]
+---@field requestingDevice entEntityID
 HighlightConnectionsRequest = {}
 
 ---@param fields? HighlightConnectionsRequest
 ---@return HighlightConnectionsRequest
-function HighlightConnectionsRequest.new(fields) return end
+function HighlightConnectionsRequest.new(fields) end

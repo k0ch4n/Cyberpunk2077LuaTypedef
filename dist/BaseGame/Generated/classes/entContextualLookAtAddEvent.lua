@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entContextualLookAtAddEvent: entLookAtAddEvent
----@field public contextName CName
+---@field contextName CName
 entContextualLookAtAddEvent = {}
 
 ---@param fields? entContextualLookAtAddEvent
 ---@return entContextualLookAtAddEvent
-function entContextualLookAtAddEvent.new(fields) return end
+function entContextualLookAtAddEvent.new(fields) end

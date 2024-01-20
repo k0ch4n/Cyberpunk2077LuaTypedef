@@ -5,13 +5,13 @@ gamedataContainerType_Record = {}
 
 ---@param fields? gamedataContainerType_Record
 ---@return gamedataContainerType_Record
-function gamedataContainerType_Record.new(fields) return end
+function gamedataContainerType_Record.new(fields) end
 
 ---@return String
-function gamedataContainerType_Record:EnumComment() return end
+function gamedataContainerType_Record:EnumComment() end
 
 ---@return String
-function gamedataContainerType_Record:EnumName() return end
+function gamedataContainerType_Record:EnumName() end
 
 ---@return gamedataContainerType
-function gamedataContainerType_Record:Type() return end
+function gamedataContainerType_Record:Type() end

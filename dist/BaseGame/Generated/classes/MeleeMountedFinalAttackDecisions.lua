@@ -5,10 +5,9 @@ MeleeMountedFinalAttackDecisions = {}
 
 ---@param fields? MeleeMountedFinalAttackDecisions
 ---@return MeleeMountedFinalAttackDecisions
-function MeleeMountedFinalAttackDecisions.new(fields) return end
+function MeleeMountedFinalAttackDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeMountedFinalAttackDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeMountedFinalAttackDecisions:EnterCondition(stateContext, scriptInterface) end

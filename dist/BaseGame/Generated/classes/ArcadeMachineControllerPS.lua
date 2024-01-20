@@ -1,73 +1,63 @@
 ---@meta
 
 ---@class ArcadeMachineControllerPS: ScriptableDeviceComponentPS
----@field protected gameVideosPaths redResourceReferenceScriptToken[]
----@field public DEBUG_enableArcadeMinigames Bool
----@field private minigame ArcadeMinigame
----@field private combatStateListener redCallbackObject
+---@field gameVideosPaths redResourceReferenceScriptToken[]
+---@field DEBUG_enableArcadeMinigames Bool
+---@field minigame ArcadeMinigame
+---@field combatStateListener redCallbackObject
 ArcadeMachineControllerPS = {}
 
 ---@param fields? ArcadeMachineControllerPS
 ---@return ArcadeMachineControllerPS
-function ArcadeMachineControllerPS.new(fields) return end
+function ArcadeMachineControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function ArcadeMachineControllerPS:OnInstantiated() return end
+function ArcadeMachineControllerPS:OnInstantiated() end
 
----@protected
 ---@param executor gameObject
 ---@return BeginArcadeMinigameUI
-function ArcadeMachineControllerPS:ActionBeginArcadeMinigame(executor) return end
+function ArcadeMachineControllerPS:ActionBeginArcadeMinigame(executor) end
 
----@protected
 ---@return Bool
-function ArcadeMachineControllerPS:CanCreateAnyQuickHackActions() return end
+function ArcadeMachineControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function ArcadeMachineControllerPS:GetActions(context) return end
+function ArcadeMachineControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function ArcadeMachineControllerPS:GetBackgroundTextureTweakDBID() return end
+function ArcadeMachineControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return ArcadeMachineBlackboardDef
-function ArcadeMachineControllerPS:GetBlackboardDef() return end
+function ArcadeMachineControllerPS:GetBlackboardDef() end
 
----@protected
 ---@return TweakDBID
-function ArcadeMachineControllerPS:GetDeviceIconTweakDBID() return end
+function ArcadeMachineControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return redResourceReferenceScriptToken
-function ArcadeMachineControllerPS:GetGameVideoPath() return end
+function ArcadeMachineControllerPS:GetGameVideoPath() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ArcadeMachineControllerPS:GetQuestActions(context) return end
+function ArcadeMachineControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function ArcadeMachineControllerPS:GetQuickHackActions(context) return end
+function ArcadeMachineControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return Bool
-function ArcadeMachineControllerPS:IsPlayable() return end
+function ArcadeMachineControllerPS:IsPlayable() end
 
----@protected
 ---@return Bool
-function ArcadeMachineControllerPS:IsPlayerInteractingWithDevice() return end
+function ArcadeMachineControllerPS:IsPlayerInteractingWithDevice() end
 
----@protected
 ---@param evt BeginArcadeMinigameUI
 ---@return EntityNotificationType
-function ArcadeMachineControllerPS:OnBeginArcadeMinigameUI(evt) return end
+function ArcadeMachineControllerPS:OnBeginArcadeMinigameUI(evt) end
 
 ---@param minigame ArcadeMinigame
 ---@return nil
-function ArcadeMachineControllerPS:SetArcadeMinigame(minigame) return end
+function ArcadeMachineControllerPS:SetArcadeMinigame(minigame) end
 
----@protected
 ---@return Bool
-function ArcadeMachineControllerPS:ShouldExposePersonalLinkAction() return end
+function ArcadeMachineControllerPS:ShouldExposePersonalLinkAction() end

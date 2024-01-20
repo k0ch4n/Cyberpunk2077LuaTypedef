@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class StatPrereqState: gamePrereqState
----@field public listener StatPrereqListener
----@field public modifiersValueToCheck Float
+---@field listener StatPrereqListener
+---@field modifiersValueToCheck Float
 StatPrereqState = {}
 
 ---@param fields? StatPrereqState
 ---@return StatPrereqState
-function StatPrereqState.new(fields) return end
+function StatPrereqState.new(fields) end
 
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function StatPrereqState:StatUpdate(diff, total) return end
+function StatPrereqState:StatUpdate(diff, total) end
 
 ---@param value Float
 ---@return nil
-function StatPrereqState:UpdateModifiersValueToCheck(value) return end
+function StatPrereqState:UpdateModifiersValueToCheck(value) end

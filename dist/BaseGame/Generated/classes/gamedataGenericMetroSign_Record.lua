@@ -5,27 +5,27 @@ gamedataGenericMetroSign_Record = {}
 
 ---@param fields? gamedataGenericMetroSign_Record
 ---@return gamedataGenericMetroSign_Record
-function gamedataGenericMetroSign_Record.new(fields) return end
+function gamedataGenericMetroSign_Record.new(fields) end
 
 ---@return Int32
-function gamedataGenericMetroSign_Record:GetMetroLineNameCount() return end
+function gamedataGenericMetroSign_Record:GetMetroLineNameCount() end
 
 ---@param index Int32
 ---@return CName
-function gamedataGenericMetroSign_Record:GetMetroLineNameItem(index) return end
+function gamedataGenericMetroSign_Record:GetMetroLineNameItem(index) end
 
 ---@return CName
-function gamedataGenericMetroSign_Record:IconName() return end
+function gamedataGenericMetroSign_Record:IconName() end
 
 ---@return CName[]
-function gamedataGenericMetroSign_Record:MetroLineName() return end
+function gamedataGenericMetroSign_Record:MetroLineName() end
 
 ---@param item CName|string
 ---@return Bool
-function gamedataGenericMetroSign_Record:MetroLineNameContains(item) return end
+function gamedataGenericMetroSign_Record:MetroLineNameContains(item) end
 
 ---@return String
-function gamedataGenericMetroSign_Record:StationName() return end
+function gamedataGenericMetroSign_Record:StationName() end
 
 ---@return String
-function gamedataGenericMetroSign_Record:SubDistrictName() return end
+function gamedataGenericMetroSign_Record:SubDistrictName() end

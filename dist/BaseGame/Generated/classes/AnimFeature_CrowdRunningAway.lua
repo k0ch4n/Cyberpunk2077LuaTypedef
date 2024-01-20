@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AnimFeature_CrowdRunningAway: animAnimFeature
----@field public isRunningAwayFromPlayersCar Bool
+---@field isRunningAwayFromPlayersCar Bool
 AnimFeature_CrowdRunningAway = {}
 
 ---@param fields? AnimFeature_CrowdRunningAway
 ---@return AnimFeature_CrowdRunningAway
-function AnimFeature_CrowdRunningAway.new(fields) return end
+function AnimFeature_CrowdRunningAway.new(fields) end

@@ -5,4 +5,4 @@ entDebugPositionProvider = {}
 
 ---@param fields? entDebugPositionProvider
 ---@return entDebugPositionProvider
-function entDebugPositionProvider.new(fields) return end
+function entDebugPositionProvider.new(fields) end

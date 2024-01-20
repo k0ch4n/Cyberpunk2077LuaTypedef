@@ -5,4 +5,4 @@ GICGIEditSettings = {}
 
 ---@param fields? GICGIEditSettings
 ---@return GICGIEditSettings
-function GICGIEditSettings.new(fields) return end
+function GICGIEditSettings.new(fields) end

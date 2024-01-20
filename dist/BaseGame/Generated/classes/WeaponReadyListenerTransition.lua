@@ -1,117 +1,102 @@
 ---@meta
 
 ---@class WeaponReadyListenerTransition: WeaponTransition
----@field protected executionOwner gameObject
----@field protected callBackIDs redCallbackObject[]
----@field protected beingCreated Bool
----@field private statListener DefaultTransitionStatListener
----@field private statusEffectListener DefaultTransitionStatusEffectListener
----@field private isVaulting Bool
----@field private isDodging Bool
----@field private isInWorkspot Bool
----@field private isSliding Bool
----@field private isSceneAimForced Bool
----@field private isInTakedown Bool
----@field private isUsingCombatGadget Bool
----@field private hasStatusEffectNoCombat Bool
----@field private hasStatusEffectFastForward Bool
----@field private hasStatusEffectVehicleScene Bool
----@field private hasStunnedStatusEffect Bool
----@field private hasJamStatusEffect Bool
----@field private canWeaponShootWhileVaulting Bool
----@field private canShootWhileDodging Bool
----@field private canWeaponShootWhileSliding Bool
----@field private isInSafeSceneTier Bool
----@field protected weaponReadyListenerReturnValue Bool
+---@field executionOwner gameObject
+---@field callBackIDs redCallbackObject[]
+---@field beingCreated Bool
+---@field statListener DefaultTransitionStatListener
+---@field statusEffectListener DefaultTransitionStatusEffectListener
+---@field isVaulting Bool
+---@field isDodging Bool
+---@field isInWorkspot Bool
+---@field isSliding Bool
+---@field isSceneAimForced Bool
+---@field isInTakedown Bool
+---@field isUsingCombatGadget Bool
+---@field hasStatusEffectNoCombat Bool
+---@field hasStatusEffectFastForward Bool
+---@field hasStatusEffectVehicleScene Bool
+---@field hasStunnedStatusEffect Bool
+---@field hasJamStatusEffect Bool
+---@field canWeaponShootWhileVaulting Bool
+---@field canShootWhileDodging Bool
+---@field canWeaponShootWhileSliding Bool
+---@field isInSafeSceneTier Bool
+---@field weaponReadyListenerReturnValue Bool
 WeaponReadyListenerTransition = {}
 
 ---@param fields? WeaponReadyListenerTransition
 ---@return WeaponReadyListenerTransition
-function WeaponReadyListenerTransition.new(fields) return end
+function WeaponReadyListenerTransition.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WeaponReadyListenerTransition:OnCombatGadgetChanged(value) return end
+function WeaponReadyListenerTransition:OnCombatGadgetChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WeaponReadyListenerTransition:OnHighLevelChanged(value) return end
+function WeaponReadyListenerTransition:OnHighLevelChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WeaponReadyListenerTransition:OnLocomotionChanged(value) return end
+function WeaponReadyListenerTransition:OnLocomotionChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WeaponReadyListenerTransition:OnLocomotionDetailedChanged(value) return end
+function WeaponReadyListenerTransition:OnLocomotionDetailedChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function WeaponReadyListenerTransition:OnSceneAimForcedChanged(value) return end
+function WeaponReadyListenerTransition:OnSceneAimForcedChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WeaponReadyListenerTransition:OnTakedownChanged(value) return end
+function WeaponReadyListenerTransition:OnTakedownChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function WeaponReadyListenerTransition:IsWeaponReadyToShoot(stateContext, scriptInterface) return end
+function WeaponReadyListenerTransition:IsWeaponReadyToShoot(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponReadyListenerTransition:OnAttach(stateContext, scriptInterface) return end
+function WeaponReadyListenerTransition:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponReadyListenerTransition:OnDetach(stateContext, scriptInterface) return end
+function WeaponReadyListenerTransition:OnDetach(stateContext, scriptInterface) end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param value Float
 ---@return nil
-function WeaponReadyListenerTransition:OnStatChanged(ownerID, statType, diff, value) return end
+function WeaponReadyListenerTransition:OnStatChanged(ownerID, statType, diff, value) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function WeaponReadyListenerTransition:OnStatusEffectApplied(statusEffect) return end
+function WeaponReadyListenerTransition:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function WeaponReadyListenerTransition:OnStatusEffectRemoved(statusEffect) return end
+function WeaponReadyListenerTransition:OnStatusEffectRemoved(statusEffect) end
 
----@protected
 ---@return nil
-function WeaponReadyListenerTransition:UpdateHasJamStatusEffect() return end
+function WeaponReadyListenerTransition:UpdateHasJamStatusEffect() end
 
----@protected
 ---@return nil
-function WeaponReadyListenerTransition:UpdateHasNoCombatStatusEffect() return end
+function WeaponReadyListenerTransition:UpdateHasNoCombatStatusEffect() end
 
----@protected
 ---@return nil
-function WeaponReadyListenerTransition:UpdateHasStunnedStatusEffect() return end
+function WeaponReadyListenerTransition:UpdateHasStunnedStatusEffect() end
 
----@protected
 ---@return nil
-function WeaponReadyListenerTransition:UpdateHasVehicleSceneStatusEffect() return end
+function WeaponReadyListenerTransition:UpdateHasVehicleSceneStatusEffect() end
 
----@protected
 ---@return nil
-function WeaponReadyListenerTransition:UpdateHastFastForwardStatusEffect() return end
+function WeaponReadyListenerTransition:UpdateHastFastForwardStatusEffect() end
 
----@protected
 ---@return nil
-function WeaponReadyListenerTransition:UpdateWeaponReadyListenerReturnValue() return end
+function WeaponReadyListenerTransition:UpdateWeaponReadyListenerReturnValue() end

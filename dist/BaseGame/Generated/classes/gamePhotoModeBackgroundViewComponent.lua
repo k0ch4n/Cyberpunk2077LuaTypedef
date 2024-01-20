@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamePhotoModeBackgroundViewComponent: entIComponent
----@field public backgroundPrefabRef NodeRef
----@field public targetPointRef NodeRef
+---@field backgroundPrefabRef NodeRef
+---@field targetPointRef NodeRef
 gamePhotoModeBackgroundViewComponent = {}
 
 ---@param fields? gamePhotoModeBackgroundViewComponent
 ---@return gamePhotoModeBackgroundViewComponent
-function gamePhotoModeBackgroundViewComponent.new(fields) return end
+function gamePhotoModeBackgroundViewComponent.new(fields) end

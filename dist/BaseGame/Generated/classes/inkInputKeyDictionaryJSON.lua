@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkInputKeyDictionaryJSON: ISerializable
----@field public devicesMappings inkInputDevicesMappingsJSON[]
+---@field devicesMappings inkInputDevicesMappingsJSON[]
 inkInputKeyDictionaryJSON = {}
 
 ---@param fields? inkInputKeyDictionaryJSON
 ---@return inkInputKeyDictionaryJSON
-function inkInputKeyDictionaryJSON.new(fields) return end
+function inkInputKeyDictionaryJSON.new(fields) end

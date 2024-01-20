@@ -5,4 +5,4 @@ entAppearanceLODsDistanceOverrideEvent = {}
 
 ---@param fields? entAppearanceLODsDistanceOverrideEvent
 ---@return entAppearanceLODsDistanceOverrideEvent
-function entAppearanceLODsDistanceOverrideEvent.new(fields) return end
+function entAppearanceLODsDistanceOverrideEvent.new(fields) end

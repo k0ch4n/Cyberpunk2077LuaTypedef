@@ -1,91 +1,76 @@
 ---@meta
 
 ---@class DataTermInkGameController: DeviceInkGameControllerBase
----@field private fcPointsPanel inkHorizontalPanelWidget
----@field private districtText inkTextWidget
----@field private pointText inkTextWidget
----@field private point gameFastTravelPointData
----@field private onFastTravelPointUpdateListener redCallbackObject
----@field private onToggleHologramListener redCallbackObject
+---@field fcPointsPanel inkHorizontalPanelWidget
+---@field districtText inkTextWidget
+---@field pointText inkTextWidget
+---@field point gameFastTravelPointData
+---@field onFastTravelPointUpdateListener redCallbackObject
+---@field onToggleHologramListener redCallbackObject
 DataTermInkGameController = {}
 
 ---@param fields? DataTermInkGameController
 ---@return DataTermInkGameController
-function DataTermInkGameController.new(fields) return end
+function DataTermInkGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function DataTermInkGameController:OnActionWidgetSpawned(widget, userData) return end
+function DataTermInkGameController:OnActionWidgetSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function DataTermInkGameController:OnFastTravelPointUpdate(value) return end
+function DataTermInkGameController:OnFastTravelPointUpdate(value) end
 
----@protected
 ---@param subwayGateOpen Bool
 ---@return Bool
-function DataTermInkGameController:OnToggleHologram(subwayGateOpen) return end
+function DataTermInkGameController:OnToggleHologram(subwayGateOpen) end
 
----@private
 ---@return inkanimPlaybackOptions
-function DataTermInkGameController:CreateAnimPlaybackOverrideData() return end
+function DataTermInkGameController:CreateAnimPlaybackOverrideData() end
 
----@private
 ---@return FastTravelSystem
-function DataTermInkGameController:GetFastTravelSystem() return end
+function DataTermInkGameController:GetFastTravelSystem() end
 
----@private
 ---@return Bool
-function DataTermInkGameController:GetIsSubwayGate() return end
+function DataTermInkGameController:GetIsSubwayGate() end
 
----@protected
 ---@return DataTerm
-function DataTermInkGameController:GetOwner() return end
+function DataTermInkGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function DataTermInkGameController:Refresh(state) return end
+function DataTermInkGameController:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function DataTermInkGameController:RegisterBlackboardCallbacks(blackboard) return end
+function DataTermInkGameController:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param shouldBeOpen Bool
 ---@param deviceState EDeviceStatus
 ---@return nil
-function DataTermInkGameController:ResolveHologramState(shouldBeOpen, deviceState) return end
+function DataTermInkGameController:ResolveHologramState(shouldBeOpen, deviceState) end
 
----@protected
 ---@return nil
-function DataTermInkGameController:SetupWidgets() return end
+function DataTermInkGameController:SetupWidgets() end
 
----@protected
 ---@return nil
-function DataTermInkGameController:TurnOff() return end
+function DataTermInkGameController:TurnOff() end
 
----@protected
 ---@return nil
-function DataTermInkGameController:TurnOn() return end
+function DataTermInkGameController:TurnOn() end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function DataTermInkGameController:UnRegisterBlackboardCallbacks(blackboard) return end
+function DataTermInkGameController:UnRegisterBlackboardCallbacks(blackboard) end
 
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function DataTermInkGameController:UpdateActionWidgets(widgetsData) return end
+function DataTermInkGameController:UpdateActionWidgets(widgetsData) end
 
----@private
 ---@return nil
-function DataTermInkGameController:UpdatePointText() return end
+function DataTermInkGameController:UpdatePointText() end
 
----@protected
 ---@param deviceState EDeviceStatus
 ---@return nil
-function DataTermInkGameController:UpdateSubwayHologramDefaultState(deviceState) return end
+function DataTermInkGameController:UpdateSubwayHologramDefaultState(deviceState) end

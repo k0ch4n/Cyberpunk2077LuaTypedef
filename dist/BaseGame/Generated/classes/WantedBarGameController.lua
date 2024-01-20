@@ -1,65 +1,57 @@
 ---@meta
 
 ---@class WantedBarGameController: gameuiHUDGameController
----@field private starsWidget inkWidgetReference[]
----@field private wantedBlackboard gameIBlackboard
----@field private wantedBlackboardDef UI_WantedBarDef
----@field private wantedDataCallbackID redCallbackObject
----@field private wantedStateCallbackID redCallbackObject
----@field private wantedZoneCallbackID redCallbackObject
----@field private introAnimProxy inkanimProxy
----@field private bountyStarAnimProxy inkanimProxy[]
----@field private bountyAnimProxy inkanimProxy
----@field private animOptionsLoop inkanimPlaybackOptions
----@field private currentState Int32
----@field private numOfStar Int32
----@field private wantedLevel Int32
----@field private rootWidget inkWidget
----@field private isDogtown Bool
----@field private WANTED_TIER_1 Float
----@field private WANTED_MIN Float
+---@field starsWidget inkWidgetReference[]
+---@field wantedBlackboard gameIBlackboard
+---@field wantedBlackboardDef UI_WantedBarDef
+---@field wantedDataCallbackID redCallbackObject
+---@field wantedStateCallbackID redCallbackObject
+---@field wantedZoneCallbackID redCallbackObject
+---@field introAnimProxy inkanimProxy
+---@field bountyStarAnimProxy inkanimProxy[]
+---@field bountyAnimProxy inkanimProxy
+---@field animOptionsLoop inkanimPlaybackOptions
+---@field currentState Int32
+---@field numOfStar Int32
+---@field wantedLevel Int32
+---@field rootWidget inkWidget
+---@field isDogtown Bool
+---@field WANTED_TIER_1 Float
+---@field WANTED_MIN Float
 WantedBarGameController = {}
 
 ---@param fields? WantedBarGameController
 ---@return WantedBarGameController
-function WantedBarGameController.new(fields) return end
+function WantedBarGameController.new(fields) end
 
----@protected
 ---@return Bool
-function WantedBarGameController:OnInitialize() return end
+function WantedBarGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function WantedBarGameController:OnUninitialize() return end
+function WantedBarGameController:OnUninitialize() end
 
----@protected
 ---@param animationProxy inkanimProxy
 ---@return Bool
-function WantedBarGameController:OnWantedBarHidden(animationProxy) return end
+function WantedBarGameController:OnWantedBarHidden(animationProxy) end
 
----@protected
 ---@param animationProxy inkanimProxy
 ---@return Bool
-function WantedBarGameController:OnWantedBarIntro(animationProxy) return end
+function WantedBarGameController:OnWantedBarIntro(animationProxy) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WantedBarGameController:OnWantedDataChange(value) return end
+function WantedBarGameController:OnWantedDataChange(value) end
 
----@protected
 ---@param value CName|string
 ---@return Bool
-function WantedBarGameController:OnWantedStateChange(value) return end
+function WantedBarGameController:OnWantedStateChange(value) end
 
----@private
 ---@return nil
-function WantedBarGameController:FlashAndHide() return end
+function WantedBarGameController:FlashAndHide() end
 
----@private
 ---@return nil
-function WantedBarGameController:StopBountyAnims() return end
+function WantedBarGameController:StopBountyAnims() end
 
 ---@param newWantedLevel Int32
 ---@return nil
-function WantedBarGameController:UpdateWantedBar(newWantedLevel) return end
+function WantedBarGameController:UpdateWantedBar(newWantedLevel) end

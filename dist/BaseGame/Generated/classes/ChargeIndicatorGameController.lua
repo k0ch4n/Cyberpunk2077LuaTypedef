@@ -1,57 +1,47 @@
 ---@meta
 
 ---@class ChargeIndicatorGameController: ChargedHotkeyItemBaseController
----@field private itemIcon inkImageWidgetReference
----@field private type ChargeIndicatorWidgetType
----@field private statPoolType gamedataStatPoolType
----@field private iconName String
----@field private itemType CName
----@field private eqArea gamedataEquipmentArea
----@field private OnEquipmentChangedIDBBID redCallbackObject
----@field private c_fullChargeOpacity Float
+---@field itemIcon inkImageWidgetReference
+---@field type ChargeIndicatorWidgetType
+---@field statPoolType gamedataStatPoolType
+---@field iconName String
+---@field itemType CName
+---@field eqArea gamedataEquipmentArea
+---@field OnEquipmentChangedIDBBID redCallbackObject
+---@field c_fullChargeOpacity Float
 ChargeIndicatorGameController = {}
 
 ---@param fields? ChargeIndicatorGameController
 ---@return ChargeIndicatorGameController
-function ChargeIndicatorGameController.new(fields) return end
+function ChargeIndicatorGameController.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ChargeIndicatorGameController:OnEquipmentChanged(value) return end
+function ChargeIndicatorGameController:OnEquipmentChanged(value) end
 
----@protected
 ---@return Bool
-function ChargeIndicatorGameController:OnInitialize() return end
+function ChargeIndicatorGameController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ChargeIndicatorGameController:OnUnitialize() return end
+function ChargeIndicatorGameController:OnUnitialize() end
 
----@private
 ---@return Bool
-function ChargeIndicatorGameController:IsCyberwareActive() return end
+function ChargeIndicatorGameController:IsCyberwareActive() end
 
----@private
 ---@return Bool
-function ChargeIndicatorGameController:IsItemEquipped() return end
+function ChargeIndicatorGameController:IsItemEquipped() end
 
----@private
 ---@return nil
-function ChargeIndicatorGameController:RegisterBlackboardListener() return end
+function ChargeIndicatorGameController:RegisterBlackboardListener() end
 
----@protected
 ---@return nil
-function ChargeIndicatorGameController:RegisterStatListener() return end
+function ChargeIndicatorGameController:RegisterStatListener() end
 
----@protected
 ---@return nil
-function ChargeIndicatorGameController:ResolveState() return end
+function ChargeIndicatorGameController:ResolveState() end
 
----@private
 ---@return nil
-function ChargeIndicatorGameController:UnregisterBlackboardListener() return end
+function ChargeIndicatorGameController:UnregisterBlackboardListener() end
 
----@protected
 ---@return nil
-function ChargeIndicatorGameController:UnregisterStatListener() return end
+function ChargeIndicatorGameController:UnregisterStatListener() end

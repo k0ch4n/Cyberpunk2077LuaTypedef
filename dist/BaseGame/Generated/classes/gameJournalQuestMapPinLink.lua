@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameJournalQuestMapPinLink: gameJournalEntry
----@field public path gameJournalPath
+---@field path gameJournalPath
 gameJournalQuestMapPinLink = {}
 
 ---@param fields? gameJournalQuestMapPinLink
 ---@return gameJournalQuestMapPinLink
-function gameJournalQuestMapPinLink.new(fields) return end
+function gameJournalQuestMapPinLink.new(fields) end

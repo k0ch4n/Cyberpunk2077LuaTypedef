@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiDistrictTriggerData
----@field public district gamedataDistrict
----@field public triggerName CName
+---@field district gamedataDistrict
+---@field triggerName CName
 gameuiDistrictTriggerData = {}
 
 ---@param fields? gameuiDistrictTriggerData
 ---@return gameuiDistrictTriggerData
-function gameuiDistrictTriggerData.new(fields) return end
+function gameuiDistrictTriggerData.new(fields) end

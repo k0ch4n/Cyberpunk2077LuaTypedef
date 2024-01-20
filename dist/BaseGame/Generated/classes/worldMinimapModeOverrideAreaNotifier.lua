@@ -5,4 +5,4 @@ worldMinimapModeOverrideAreaNotifier = {}
 
 ---@param fields? worldMinimapModeOverrideAreaNotifier
 ---@return worldMinimapModeOverrideAreaNotifier
-function worldMinimapModeOverrideAreaNotifier.new(fields) return end
+function worldMinimapModeOverrideAreaNotifier.new(fields) end

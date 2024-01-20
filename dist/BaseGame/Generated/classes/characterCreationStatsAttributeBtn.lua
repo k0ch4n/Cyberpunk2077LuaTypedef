@@ -1,104 +1,93 @@
 ---@meta
 
 ---@class characterCreationStatsAttributeBtn: inkWidgetLogicController
----@field public value inkTextWidgetReference
----@field public label inkTextWidgetReference
----@field public icon inkImageWidgetReference
----@field public buttons inkImageWidgetReference
----@field public selector inkImageWidgetReference
----@field public addBtnhitArea inkWidgetReference
----@field public minusBtnhitArea inkWidgetReference
----@field public minMaxLabel inkWidgetReference
----@field public minMaxLabelText inkTextWidgetReference
----@field public data CharacterCreationAttributeData
----@field public animating Bool
----@field public minusEnabled Bool
----@field public addEnabled Bool
----@field public maxed Bool
----@field private isPlusOrMinusBtnHoveredOver Bool
----@field private inputDisabled Bool
+---@field value inkTextWidgetReference
+---@field label inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field buttons inkImageWidgetReference
+---@field selector inkImageWidgetReference
+---@field addBtnhitArea inkWidgetReference
+---@field minusBtnhitArea inkWidgetReference
+---@field minMaxLabel inkWidgetReference
+---@field minMaxLabelText inkTextWidgetReference
+---@field data CharacterCreationAttributeData
+---@field animating Bool
+---@field minusEnabled Bool
+---@field addEnabled Bool
+---@field maxed Bool
+---@field isPlusOrMinusBtnHoveredOver Bool
+---@field inputDisabled Bool
 characterCreationStatsAttributeBtn = {}
 
 ---@param fields? characterCreationStatsAttributeBtn
 ---@return characterCreationStatsAttributeBtn
-function characterCreationStatsAttributeBtn.new(fields) return end
+function characterCreationStatsAttributeBtn.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnAdd(e) return end
+function characterCreationStatsAttributeBtn:OnAdd(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnHitAreaOnHoverOut(e) return end
+function characterCreationStatsAttributeBtn:OnHitAreaOnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnHitAreaOnHoverOver(e) return end
+function characterCreationStatsAttributeBtn:OnHitAreaOnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnInitialize() return end
+function characterCreationStatsAttributeBtn:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnMinus(e) return end
+function characterCreationStatsAttributeBtn:OnMinus(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnMinusHoverOut(e) return end
+function characterCreationStatsAttributeBtn:OnMinusHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnMinusHoverOver(e) return end
+function characterCreationStatsAttributeBtn:OnMinusHoverOver(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnPlusHoverOut(e) return end
+function characterCreationStatsAttributeBtn:OnPlusHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnPlusHoverOver(e) return end
+function characterCreationStatsAttributeBtn:OnPlusHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationStatsAttributeBtn:OnUninitialize() return end
+function characterCreationStatsAttributeBtn:OnUninitialize() end
 
 ---@return nil
-function characterCreationStatsAttributeBtn:Decrement() return end
+function characterCreationStatsAttributeBtn:Decrement() end
 
 ---@return nil
-function characterCreationStatsAttributeBtn:Increment() return end
+function characterCreationStatsAttributeBtn:Increment() end
 
 ---@param addEnabled Bool
 ---@param minusEnabled Bool
 ---@return nil
-function characterCreationStatsAttributeBtn:ManageBtnVisibility(addEnabled, minusEnabled) return end
+function characterCreationStatsAttributeBtn:ManageBtnVisibility(addEnabled, minusEnabled) end
 
 ---@param atMin Bool
 ---@param atMax Bool
 ---@return nil
-function characterCreationStatsAttributeBtn:ManageLabel(atMin, atMax) return end
+function characterCreationStatsAttributeBtn:ManageLabel(atMin, atMax) end
 
 ---@return nil
-function characterCreationStatsAttributeBtn:Refresh() return end
+function characterCreationStatsAttributeBtn:Refresh() end
 
----@private
 ---@return nil
-function characterCreationStatsAttributeBtn:RefreshVisibility() return end
+function characterCreationStatsAttributeBtn:RefreshVisibility() end
 
 ---@param attribute gamedataStatType
 ---@param value Int32
 ---@return nil
-function characterCreationStatsAttributeBtn:SetData(attribute, value) return end
+function characterCreationStatsAttributeBtn:SetData(attribute, value) end
 
 ---@param disable Bool
 ---@return nil
-function characterCreationStatsAttributeBtn:SetInputDisabled(disable) return end
+function characterCreationStatsAttributeBtn:SetInputDisabled(disable) end

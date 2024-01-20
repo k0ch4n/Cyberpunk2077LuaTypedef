@@ -5,4 +5,4 @@ IUpdatableSystem = {}
 
 ---@param fields? IUpdatableSystem
 ---@return IUpdatableSystem
-function IUpdatableSystem.new(fields) return end
+function IUpdatableSystem.new(fields) end

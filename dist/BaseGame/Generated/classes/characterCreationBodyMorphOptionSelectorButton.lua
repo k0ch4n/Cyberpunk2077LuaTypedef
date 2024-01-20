@@ -1,27 +1,23 @@
 ---@meta
 
 ---@class characterCreationBodyMorphOptionSelectorButton: inkWidgetLogicController
----@field private overArrow inkWidgetReference
+---@field overArrow inkWidgetReference
 characterCreationBodyMorphOptionSelectorButton = {}
 
 ---@param fields? characterCreationBodyMorphOptionSelectorButton
 ---@return characterCreationBodyMorphOptionSelectorButton
-function characterCreationBodyMorphOptionSelectorButton.new(fields) return end
+function characterCreationBodyMorphOptionSelectorButton.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionSelectorButton:OnHoverOut(e) return end
+function characterCreationBodyMorphOptionSelectorButton:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function characterCreationBodyMorphOptionSelectorButton:OnHoverOver(e) return end
+function characterCreationBodyMorphOptionSelectorButton:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphOptionSelectorButton:OnInitialize() return end
+function characterCreationBodyMorphOptionSelectorButton:OnInitialize() end
 
----@protected
 ---@return Bool
-function characterCreationBodyMorphOptionSelectorButton:OnUninitialize() return end
+function characterCreationBodyMorphOptionSelectorButton:OnUninitialize() end

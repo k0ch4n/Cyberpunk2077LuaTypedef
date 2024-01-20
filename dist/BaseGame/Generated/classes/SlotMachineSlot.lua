@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class SlotMachineSlot: inkWidgetLogicController
----@field private winningRowIndex Int32
----@field private imagesUpper inkImageWidgetReference[]
----@field private imagesLower inkImageWidgetReference[]
----@field private imagePresets CName[]
+---@field winningRowIndex Int32
+---@field imagesUpper inkImageWidgetReference[]
+---@field imagesLower inkImageWidgetReference[]
+---@field imagePresets CName[]
 SlotMachineSlot = {}
 
 ---@param fields? SlotMachineSlot
 ---@return SlotMachineSlot
-function SlotMachineSlot.new(fields) return end
+function SlotMachineSlot.new(fields) end
 
----@protected
 ---@return Bool
-function SlotMachineSlot:OnInitialize() return end
+function SlotMachineSlot:OnInitialize() end
 
 ---@param isWinning Bool
 ---@return nil
-function SlotMachineSlot:RandomiseImages(isWinning) return end
+function SlotMachineSlot:RandomiseImages(isWinning) end
 
 ---@return nil
-function SlotMachineSlot:RandomiseLowerImages() return end
+function SlotMachineSlot:RandomiseLowerImages() end
 
 ---@return nil
-function SlotMachineSlot:RandomiseUpperImages() return end
+function SlotMachineSlot:RandomiseUpperImages() end
 
 ---@param imagePresets CName[]|string[]
 ---@return nil
-function SlotMachineSlot:SetImagesPresets(imagePresets) return end
+function SlotMachineSlot:SetImagesPresets(imagePresets) end
 
 ---@return nil
-function SlotMachineSlot:SetWinningRow() return end
+function SlotMachineSlot:SetWinningRow() end

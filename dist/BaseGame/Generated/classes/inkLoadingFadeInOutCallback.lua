@@ -5,4 +5,4 @@ inkLoadingFadeInOutCallback = {}
 
 ---@param fields? inkLoadingFadeInOutCallback
 ---@return inkLoadingFadeInOutCallback
-function inkLoadingFadeInOutCallback.new(fields) return end
+function inkLoadingFadeInOutCallback.new(fields) end

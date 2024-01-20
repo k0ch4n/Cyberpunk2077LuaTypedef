@@ -5,4 +5,4 @@ CRenderTerrainCellCollector = {}
 
 ---@param fields? CRenderTerrainCellCollector
 ---@return CRenderTerrainCellCollector
-function CRenderTerrainCellCollector.new(fields) return end
+function CRenderTerrainCellCollector.new(fields) end

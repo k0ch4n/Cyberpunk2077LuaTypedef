@@ -5,14 +5,14 @@ GrappleStruggleEvents = {}
 
 ---@param fields? GrappleStruggleEvents
 ---@return GrappleStruggleEvents
-function GrappleStruggleEvents.new(fields) return end
+function GrappleStruggleEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleStruggleEvents:OnEnter(stateContext, scriptInterface) return end
+function GrappleStruggleEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleStruggleEvents:OnExit(stateContext, scriptInterface) return end
+function GrappleStruggleEvents:OnExit(stateContext, scriptInterface) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class rendScreenshotBatchData
----@field public batchPositionsPath AbsolutePathSerializable
----@field public delayTime Float
----@field public numberOfCoordinatesToDump Uint32
----@field public mergeScreenshots Bool
----@field public streamingObserverMode rendEStreamingObserverMode
+---@field batchPositionsPath AbsolutePathSerializable
+---@field delayTime Float
+---@field numberOfCoordinatesToDump Uint32
+---@field mergeScreenshots Bool
+---@field streamingObserverMode rendEStreamingObserverMode
 rendScreenshotBatchData = {}
 
 ---@param fields? rendScreenshotBatchData
 ---@return rendScreenshotBatchData
-function rendScreenshotBatchData.new(fields) return end
+function rendScreenshotBatchData.new(fields) end

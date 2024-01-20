@@ -5,9 +5,8 @@ IsUnarmedCondition = {}
 
 ---@param fields? IsUnarmedCondition
 ---@return IsUnarmedCondition
-function IsUnarmedCondition.new(fields) return end
+function IsUnarmedCondition.new(fields) end
 
----@protected
 ---@param ent entEntity
 ---@return Bool
-function IsUnarmedCondition:CheckCondition(ent) return end
+function IsUnarmedCondition:CheckCondition(ent) end

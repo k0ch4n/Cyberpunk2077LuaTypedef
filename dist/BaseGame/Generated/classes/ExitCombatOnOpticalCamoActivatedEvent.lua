@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ExitCombatOnOpticalCamoActivatedEvent: redEvent
----@field public npc gameObject
+---@field npc gameObject
 ExitCombatOnOpticalCamoActivatedEvent = {}
 
 ---@param fields? ExitCombatOnOpticalCamoActivatedEvent
 ---@return ExitCombatOnOpticalCamoActivatedEvent
-function ExitCombatOnOpticalCamoActivatedEvent.new(fields) return end
+function ExitCombatOnOpticalCamoActivatedEvent.new(fields) end

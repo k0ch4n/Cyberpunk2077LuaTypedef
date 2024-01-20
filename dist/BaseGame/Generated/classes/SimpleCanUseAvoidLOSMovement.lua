@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SimpleCanUseAvoidLOSMovement: AIbehaviorconditionScript
----@field private initialized Bool
----@field private result Bool
+---@field initialized Bool
+---@field result Bool
 SimpleCanUseAvoidLOSMovement = {}
 
 ---@param fields? SimpleCanUseAvoidLOSMovement
 ---@return SimpleCanUseAvoidLOSMovement
-function SimpleCanUseAvoidLOSMovement.new(fields) return end
+function SimpleCanUseAvoidLOSMovement.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleCanUseAvoidLOSMovement:Activate(context) return end
+function SimpleCanUseAvoidLOSMovement:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function SimpleCanUseAvoidLOSMovement:Check(context) return end
+function SimpleCanUseAvoidLOSMovement:Check(context) end

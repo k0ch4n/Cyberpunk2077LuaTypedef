@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CDistantLightsResource: resStreamedResource
----@field public data DataBuffer
+---@field data DataBuffer
 CDistantLightsResource = {}
 
 ---@param fields? CDistantLightsResource
 ---@return CDistantLightsResource
-function CDistantLightsResource.new(fields) return end
+function CDistantLightsResource.new(fields) end

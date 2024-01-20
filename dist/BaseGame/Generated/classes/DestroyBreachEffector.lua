@@ -5,9 +5,8 @@ DestroyBreachEffector = {}
 
 ---@param fields? DestroyBreachEffector
 ---@return DestroyBreachEffector
-function DestroyBreachEffector.new(fields) return end
+function DestroyBreachEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function DestroyBreachEffector:ActionOn(owner) return end
+function DestroyBreachEffector:ActionOn(owner) end

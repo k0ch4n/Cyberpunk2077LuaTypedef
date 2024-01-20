@@ -5,9 +5,8 @@ IsNPCInCourier = {}
 
 ---@param fields? IsNPCInCourier
 ---@return IsNPCInCourier
-function IsNPCInCourier.new(fields) return end
+function IsNPCInCourier.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsNPCInCourier:Check(context) return end
+function IsNPCInCourier:Check(context) end

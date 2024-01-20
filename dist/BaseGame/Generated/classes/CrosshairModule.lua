@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CrosshairModule: HUDModule
----@field private activeCrosshairs Crosshair[]
+---@field activeCrosshairs Crosshair[]
 CrosshairModule = {}
 
 ---@param fields? CrosshairModule
 ---@return CrosshairModule
-function CrosshairModule.new(fields) return end
+function CrosshairModule.new(fields) end

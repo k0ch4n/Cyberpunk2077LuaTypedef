@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class scnfppGenderSpecificParams
----@field public genderMask scnGenderMask
----@field public transitionBlendInTrajectorySpaceAngles EulerAngles[]
----@field public transitionBlendInCameraSpace Float[]
----@field public transitionEndInputAngles EulerAngles[]
----@field public idleCameraLs EulerAngles
----@field public idleControlCameraMs EulerAngles
+---@field genderMask scnGenderMask
+---@field transitionBlendInTrajectorySpaceAngles EulerAngles[]
+---@field transitionBlendInCameraSpace Float[]
+---@field transitionEndInputAngles EulerAngles[]
+---@field idleCameraLs EulerAngles
+---@field idleControlCameraMs EulerAngles
 scnfppGenderSpecificParams = {}
 
 ---@param fields? scnfppGenderSpecificParams
 ---@return scnfppGenderSpecificParams
-function scnfppGenderSpecificParams.new(fields) return end
+function scnfppGenderSpecificParams.new(fields) end

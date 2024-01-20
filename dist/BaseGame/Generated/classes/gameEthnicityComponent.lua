@@ -5,4 +5,4 @@ gameEthnicityComponent = {}
 
 ---@param fields? gameEthnicityComponent
 ---@return gameEthnicityComponent
-function gameEthnicityComponent.new(fields) return end
+function gameEthnicityComponent.new(fields) end

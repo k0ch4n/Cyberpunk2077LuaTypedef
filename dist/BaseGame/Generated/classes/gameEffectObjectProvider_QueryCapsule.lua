@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameEffectObjectProvider_QueryCapsule: gameEffectObjectProvider
----@field public gatherOnlyPuppets Bool
----@field public queryPreset physicsQueryPreset
+---@field gatherOnlyPuppets Bool
+---@field queryPreset physicsQueryPreset
 gameEffectObjectProvider_QueryCapsule = {}
 
 ---@param fields? gameEffectObjectProvider_QueryCapsule
 ---@return gameEffectObjectProvider_QueryCapsule
-function gameEffectObjectProvider_QueryCapsule.new(fields) return end
+function gameEffectObjectProvider_QueryCapsule.new(fields) end

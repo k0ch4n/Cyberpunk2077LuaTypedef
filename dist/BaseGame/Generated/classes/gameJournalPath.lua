@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameJournalPath: IScriptable
----@field public realPath String
----@field public fileEntryIndex Int32
----@field public className CName
+---@field realPath String
+---@field fileEntryIndex Int32
+---@field className CName
 gameJournalPath = {}
 
 ---@param fields? gameJournalPath
 ---@return gameJournalPath
-function gameJournalPath.new(fields) return end
+function gameJournalPath.new(fields) end
 
 ---@return Uint32
-function gameJournalPath:GetHash() return end
+function gameJournalPath:GetHash() end
 
 ---@return Bool
-function gameJournalPath:IsValid() return end
+function gameJournalPath:IsValid() end

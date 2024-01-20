@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class AIRoleCondition: AIbehaviorconditionScript
----@field public role EAIRole
+---@field role EAIRole
 AIRoleCondition = {}
 
 ---@param fields? AIRoleCondition
 ---@return AIRoleCondition
-function AIRoleCondition.new(fields) return end
+function AIRoleCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AIRoleCondition:Check(context) return end
+function AIRoleCondition:Check(context) end

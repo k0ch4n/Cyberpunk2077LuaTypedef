@@ -5,57 +5,57 @@ gameuiMappinUIUtils = {}
 
 ---@param fields? gameuiMappinUIUtils
 ---@return gameuiMappinUIUtils
-function gameuiMappinUIUtils.new(fields) return end
+function gameuiMappinUIUtils.new(fields) end
 
 ---@return EngineTime
-function gameuiMappinUIUtils.GetEngineTime() return end
+function gameuiMappinUIUtils.GetEngineTime() end
 
 ---@param mappin gamemappinsIMappin
 ---@return Bool
-function gameuiMappinUIUtils.IsPlayerInArea(mappin) return end
+function gameuiMappinUIUtils.IsPlayerInArea(mappin) end
 
 ---@return nil, CName state
-function gameuiMappinUIUtils.CyclePreventionState() return end
+function gameuiMappinUIUtils.CyclePreventionState() end
 
 ---@param questSystem questQuestsSystem
 ---@param mappin gamemappinsIMappin
 ---@return FixerTooltipMapData
-function gameuiMappinUIUtils.GetFixerVariantData(questSystem, mappin) return end
+function gameuiMappinUIUtils.GetFixerVariantData(questSystem, mappin) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@return Bool
-function gameuiMappinUIUtils.IsMappinServicePoint(mappinVariant) return end
+function gameuiMappinUIUtils.IsMappinServicePoint(mappinVariant) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@return CName
-function gameuiMappinUIUtils.MappinToDescriptionString(mappinVariant) return end
+function gameuiMappinUIUtils.MappinToDescriptionString(mappinVariant) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@return CName
-function gameuiMappinUIUtils.MappinToObjectiveString(mappinVariant) return end
+function gameuiMappinUIUtils.MappinToObjectiveString(mappinVariant) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@return CName
-function gameuiMappinUIUtils.MappinToString(mappinVariant) return end
-
----@param mappinVariant gamedataMappinVariant
----@param mappinPhase gamedataMappinPhase
----@return CName
-function gameuiMappinUIUtils.MappinToString(mappinVariant, mappinPhase) return end
-
----@param mappinVariant gamedataMappinVariant
----@return CName
-function gameuiMappinUIUtils.MappinToTexturePart(mappinVariant) return end
+function gameuiMappinUIUtils.MappinToString(mappinVariant) end
 
 ---@param mappinVariant gamedataMappinVariant
 ---@param mappinPhase gamedataMappinPhase
 ---@return CName
-function gameuiMappinUIUtils.MappinToTexturePart(mappinVariant, mappinPhase) return end
+function gameuiMappinUIUtils.MappinToString(mappinVariant, mappinPhase) end
+
+---@param mappinVariant gamedataMappinVariant
+---@return CName
+function gameuiMappinUIUtils.MappinToTexturePart(mappinVariant) end
+
+---@param mappinVariant gamedataMappinVariant
+---@param mappinPhase gamedataMappinPhase
+---@return CName
+function gameuiMappinUIUtils.MappinToTexturePart(mappinVariant, mappinPhase) end
 
 ---@param mappin gamemappinsIMappin
 ---@return CName
-function gameuiMappinUIUtils.MappinToTexturePart(mappin) return end
+function gameuiMappinUIUtils.MappinToTexturePart(mappin) end
 
 ---@param widget inkWidget
 ---@return inkanimProxy, CName initialState
-function gameuiMappinUIUtils.PlayPreventionBlinkAnimation(widget) return end
+function gameuiMappinUIUtils.PlayPreventionBlinkAnimation(widget) end

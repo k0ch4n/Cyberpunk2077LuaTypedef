@@ -5,8 +5,8 @@ NPCIncapacitatedPrereq = {}
 
 ---@param fields? NPCIncapacitatedPrereq
 ---@return NPCIncapacitatedPrereq
-function NPCIncapacitatedPrereq.new(fields) return end
+function NPCIncapacitatedPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCIncapacitatedPrereq:IsFulfilled(context) return end
+function NPCIncapacitatedPrereq:IsFulfilled(context) end

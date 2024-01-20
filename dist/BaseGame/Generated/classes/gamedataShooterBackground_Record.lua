@@ -5,28 +5,28 @@ gamedataShooterBackground_Record = {}
 
 ---@param fields? gamedataShooterBackground_Record
 ---@return gamedataShooterBackground_Record
-function gamedataShooterBackground_Record.new(fields) return end
+function gamedataShooterBackground_Record.new(fields) end
 
 ---@return Int32
-function gamedataShooterBackground_Record:GetLayerListCount() return end
+function gamedataShooterBackground_Record:GetLayerListCount() end
 
 ---@param index Int32
 ---@return gamedataShooterLayerInfo_Record
-function gamedataShooterBackground_Record:GetLayerListItem(index) return end
+function gamedataShooterBackground_Record:GetLayerListItem(index) end
 
 ---@param index Int32
 ---@return gamedataShooterLayerInfo_Record
-function gamedataShooterBackground_Record:GetLayerListItemHandle(index) return end
+function gamedataShooterBackground_Record:GetLayerListItemHandle(index) end
 
 ---@return nil, gamedataShooterLayerInfo_Record[] outList
-function gamedataShooterBackground_Record:LayerList() return end
+function gamedataShooterBackground_Record:LayerList() end
 
 ---@param item gamedataShooterLayerInfo_Record
 ---@return Bool
-function gamedataShooterBackground_Record:LayerListContains(item) return end
+function gamedataShooterBackground_Record:LayerListContains(item) end
 
 ---@return CName
-function gamedataShooterBackground_Record:StartSFX() return end
+function gamedataShooterBackground_Record:StartSFX() end
 
 ---@return CName
-function gamedataShooterBackground_Record:StopSFX() return end
+function gamedataShooterBackground_Record:StopSFX() end

@@ -5,28 +5,24 @@ ChargeJumpDecisions = {}
 
 ---@param fields? ChargeJumpDecisions
 ---@return ChargeJumpDecisions
-function ChargeJumpDecisions.new(fields) return end
+function ChargeJumpDecisions.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function ChargeJumpDecisions:OnAction(action, consumer) return end
+function ChargeJumpDecisions:OnAction(action, consumer) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ChargeJumpDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ChargeJumpDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeJumpDecisions:OnAttach(stateContext, scriptInterface) return end
+function ChargeJumpDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ChargeJumpDecisions:OnDetach(stateContext, scriptInterface) return end
+function ChargeJumpDecisions:OnDetach(stateContext, scriptInterface) end

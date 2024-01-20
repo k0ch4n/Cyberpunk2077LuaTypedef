@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class worldFoliageBakedDestructionMapping: worldFoliageDestructionMapping
----@field public numFrames Float
----@field public frameRate Float
----@field public audioMetadata CName
----@field public destructionEffect worldEffect
----@field public filterDataSource physicsFilterDataSource
----@field public filterData physicsFilterData
+---@field numFrames Float
+---@field frameRate Float
+---@field audioMetadata CName
+---@field destructionEffect worldEffect
+---@field filterDataSource physicsFilterDataSource
+---@field filterData physicsFilterData
 worldFoliageBakedDestructionMapping = {}
 
 ---@param fields? worldFoliageBakedDestructionMapping
 ---@return worldFoliageBakedDestructionMapping
-function worldFoliageBakedDestructionMapping.new(fields) return end
+function worldFoliageBakedDestructionMapping.new(fields) end

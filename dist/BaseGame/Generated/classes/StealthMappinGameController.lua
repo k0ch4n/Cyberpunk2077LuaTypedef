@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class StealthMappinGameController: gameuiWidgetGameController
----@field private controller gameuiStealthMappinController
----@field private ownerNPC NPCPuppet
+---@field controller gameuiStealthMappinController
+---@field ownerNPC NPCPuppet
 StealthMappinGameController = {}
 
 ---@param fields? StealthMappinGameController
 ---@return StealthMappinGameController
-function StealthMappinGameController.new(fields) return end
+function StealthMappinGameController.new(fields) end
 
----@protected
 ---@return Bool
-function StealthMappinGameController:OnInitialize() return end
+function StealthMappinGameController:OnInitialize() end

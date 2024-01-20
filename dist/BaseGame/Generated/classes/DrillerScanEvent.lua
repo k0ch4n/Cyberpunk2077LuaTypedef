@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DrillerScanEvent: redEvent
----@field public newIsScanning Bool
+---@field newIsScanning Bool
 DrillerScanEvent = {}
 
 ---@param fields? DrillerScanEvent
 ---@return DrillerScanEvent
-function DrillerScanEvent.new(fields) return end
+function DrillerScanEvent.new(fields) end

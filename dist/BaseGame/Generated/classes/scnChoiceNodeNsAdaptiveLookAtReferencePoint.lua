@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnChoiceNodeNsAdaptiveLookAtReferencePoint
----@field public referencePoint scnReferencePointId
----@field public constantWeight Float
+---@field referencePoint scnReferencePointId
+---@field constantWeight Float
 scnChoiceNodeNsAdaptiveLookAtReferencePoint = {}
 
 ---@param fields? scnChoiceNodeNsAdaptiveLookAtReferencePoint
 ---@return scnChoiceNodeNsAdaptiveLookAtReferencePoint
-function scnChoiceNodeNsAdaptiveLookAtReferencePoint.new(fields) return end
+function scnChoiceNodeNsAdaptiveLookAtReferencePoint.new(fields) end

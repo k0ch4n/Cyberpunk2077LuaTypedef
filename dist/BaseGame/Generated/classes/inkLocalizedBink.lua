@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkLocalizedBink
----@field public binks inkBinkLanguageDescriptor[]
+---@field binks inkBinkLanguageDescriptor[]
 inkLocalizedBink = {}
 
 ---@param fields? inkLocalizedBink
 ---@return inkLocalizedBink
-function inkLocalizedBink.new(fields) return end
+function inkLocalizedBink.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameJournalSharedStateData
----@field public pathHash Uint32
----@field public entryState gameJournalEntryState
+---@field pathHash Uint32
+---@field entryState gameJournalEntryState
 gameJournalSharedStateData = {}
 
 ---@param fields? gameJournalSharedStateData
 ---@return gameJournalSharedStateData
-function gameJournalSharedStateData.new(fields) return end
+function gameJournalSharedStateData.new(fields) end

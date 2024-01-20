@@ -1,26 +1,25 @@
 ---@meta
 
 ---@class PassengerEvents: VehicleEventsTransition
----@field private noWeaponsRestrictionApplied Bool
+---@field noWeaponsRestrictionApplied Bool
 PassengerEvents = {}
 
 ---@param fields? PassengerEvents
 ---@return PassengerEvents
-function PassengerEvents.new(fields) return end
-
----@protected
----@param stateContext gamestateMachineStateContextScript
----@param scriptInterface gamestateMachineGameScriptInterface
----@return nil
-function PassengerEvents:OnEnter(stateContext, scriptInterface) return end
+function PassengerEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PassengerEvents:OnExit(stateContext, scriptInterface) return end
+function PassengerEvents:OnEnter(stateContext, scriptInterface) end
+
+---@param stateContext gamestateMachineStateContextScript
+---@param scriptInterface gamestateMachineGameScriptInterface
+---@return nil
+function PassengerEvents:OnExit(stateContext, scriptInterface) end
 
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function PassengerEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function PassengerEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AdvanceInteractionStateResolveEvent: redEvent
----@field public toggle Bool
+---@field toggle Bool
 AdvanceInteractionStateResolveEvent = {}
 
 ---@param fields? AdvanceInteractionStateResolveEvent
 ---@return AdvanceInteractionStateResolveEvent
-function AdvanceInteractionStateResolveEvent.new(fields) return end
+function AdvanceInteractionStateResolveEvent.new(fields) end

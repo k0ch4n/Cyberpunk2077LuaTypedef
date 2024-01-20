@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gamePopupData
----@field public title String
----@field public message String
----@field public messageOverrideDataList gameJournalEntryOverrideData[]
----@field public iconID TweakDBID
----@field public isModal Bool
----@field public videoType gameVideoType
----@field public video Bink
+---@field title String
+---@field message String
+---@field messageOverrideDataList gameJournalEntryOverrideData[]
+---@field iconID TweakDBID
+---@field isModal Bool
+---@field videoType gameVideoType
+---@field video Bink
 gamePopupData = {}
 
 ---@param fields? gamePopupData
 ---@return gamePopupData
-function gamePopupData.new(fields) return end
+function gamePopupData.new(fields) end
 
 ---@param self gamePopupData
 ---@return redResourceReferenceScriptToken
-function gamePopupData.GetVideo(self) return end
+function gamePopupData.GetVideo(self) end

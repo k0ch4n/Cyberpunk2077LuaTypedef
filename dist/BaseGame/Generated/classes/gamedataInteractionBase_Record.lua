@@ -5,25 +5,25 @@ gamedataInteractionBase_Record = {}
 
 ---@param fields? gamedataInteractionBase_Record
 ---@return gamedataInteractionBase_Record
-function gamedataInteractionBase_Record.new(fields) return end
+function gamedataInteractionBase_Record.new(fields) end
 
 ---@return String
-function gamedataInteractionBase_Record:Action() return end
+function gamedataInteractionBase_Record:Action() end
 
 ---@return CName
-function gamedataInteractionBase_Record:Caption() return end
+function gamedataInteractionBase_Record:Caption() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function gamedataInteractionBase_Record:CaptionIcon() return end
+function gamedataInteractionBase_Record:CaptionIcon() end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function gamedataInteractionBase_Record:CaptionIconHandle() return end
+function gamedataInteractionBase_Record:CaptionIconHandle() end
 
 ---@return CName
-function gamedataInteractionBase_Record:Description() return end
+function gamedataInteractionBase_Record:Description() end
 
 ---@return String
-function gamedataInteractionBase_Record:Name() return end
+function gamedataInteractionBase_Record:Name() end
 
 ---@return String
-function gamedataInteractionBase_Record:PrereqID() return end
+function gamedataInteractionBase_Record:PrereqID() end

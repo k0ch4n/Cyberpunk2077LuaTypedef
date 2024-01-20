@@ -1,29 +1,28 @@
 ---@meta
 
 ---@class tarotCardLogicController: inkWidgetLogicController
----@field private image inkImageWidgetReference
----@field private highlight inkWidgetReference
----@field public ep1Icon inkWidgetReference
----@field private data TarotCardData
+---@field image inkImageWidgetReference
+---@field highlight inkWidgetReference
+---@field ep1Icon inkWidgetReference
+---@field data TarotCardData
 tarotCardLogicController = {}
 
 ---@param fields? tarotCardLogicController
 ---@return tarotCardLogicController
-function tarotCardLogicController.new(fields) return end
+function tarotCardLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function tarotCardLogicController:OnInitialize() return end
+function tarotCardLogicController:OnInitialize() end
 
 ---@return TarotCardData
-function tarotCardLogicController:GetData() return end
+function tarotCardLogicController:GetData() end
 
 ---@return nil
-function tarotCardLogicController:HoverOut() return end
+function tarotCardLogicController:HoverOut() end
 
 ---@return nil
-function tarotCardLogicController:HoverOver() return end
+function tarotCardLogicController:HoverOver() end
 
 ---@param data TarotCardData
 ---@return nil
-function tarotCardLogicController:SetupData(data) return end
+function tarotCardLogicController:SetupData(data) end

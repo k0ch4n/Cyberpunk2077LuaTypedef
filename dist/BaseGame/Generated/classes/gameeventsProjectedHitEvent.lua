@@ -5,4 +5,4 @@ gameeventsProjectedHitEvent = {}
 
 ---@param fields? gameeventsProjectedHitEvent
 ---@return gameeventsProjectedHitEvent
-function gameeventsProjectedHitEvent.new(fields) return end
+function gameeventsProjectedHitEvent.new(fields) end

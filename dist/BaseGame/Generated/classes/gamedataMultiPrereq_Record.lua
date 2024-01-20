@@ -5,25 +5,25 @@ gamedataMultiPrereq_Record = {}
 
 ---@param fields? gamedataMultiPrereq_Record
 ---@return gamedataMultiPrereq_Record
-function gamedataMultiPrereq_Record.new(fields) return end
+function gamedataMultiPrereq_Record.new(fields) end
 
 ---@return CName
-function gamedataMultiPrereq_Record:AggregationType() return end
+function gamedataMultiPrereq_Record:AggregationType() end
 
 ---@return Int32
-function gamedataMultiPrereq_Record:GetNestedPrereqsCount() return end
+function gamedataMultiPrereq_Record:GetNestedPrereqsCount() end
 
 ---@param index Int32
 ---@return gamedataIPrereq_Record
-function gamedataMultiPrereq_Record:GetNestedPrereqsItem(index) return end
+function gamedataMultiPrereq_Record:GetNestedPrereqsItem(index) end
 
 ---@param index Int32
 ---@return gamedataIPrereq_Record
-function gamedataMultiPrereq_Record:GetNestedPrereqsItemHandle(index) return end
+function gamedataMultiPrereq_Record:GetNestedPrereqsItemHandle(index) end
 
 ---@return nil, gamedataIPrereq_Record[] outList
-function gamedataMultiPrereq_Record:NestedPrereqs() return end
+function gamedataMultiPrereq_Record:NestedPrereqs() end
 
 ---@param item gamedataIPrereq_Record
 ---@return Bool
-function gamedataMultiPrereq_Record:NestedPrereqsContains(item) return end
+function gamedataMultiPrereq_Record:NestedPrereqsContains(item) end

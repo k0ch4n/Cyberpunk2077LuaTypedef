@@ -5,7 +5,7 @@ ComputerController = {}
 
 ---@param fields? ComputerController
 ---@return ComputerController
-function ComputerController.new(fields) return end
+function ComputerController.new(fields) end
 
 ---@return ComputerControllerPS
-function ComputerController:GetPS() return end
+function ComputerController:GetPS() end

@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class gamedataDataNode: ISerializable
----@field public nodeType gamedataDataNodeType
----@field public fileName String
----@field public parent gamedataDataNode
+---@field nodeType gamedataDataNodeType
+---@field fileName String
+---@field parent gamedataDataNode
 gamedataDataNode = {}

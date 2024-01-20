@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkRadialWipeEffect: inkIEffect
----@field public startAngle Float
----@field public transition Float
+---@field startAngle Float
+---@field transition Float
 inkRadialWipeEffect = {}
 
 ---@param fields? inkRadialWipeEffect
 ---@return inkRadialWipeEffect
-function inkRadialWipeEffect.new(fields) return end
+function inkRadialWipeEffect.new(fields) end

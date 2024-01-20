@@ -1,66 +1,56 @@
 ---@meta
 
 ---@class AimingContextDecisions: InputContextTransitionDecisions
----@field private leftHandChargeCallbackID redCallbackObject
----@field private upperBodyCallbackID redCallbackObject
----@field private meleeCallbackID redCallbackObject
----@field private leftHandCharge Bool
----@field private isAiming Bool
----@field private meleeBlockActive Bool
+---@field leftHandChargeCallbackID redCallbackObject
+---@field upperBodyCallbackID redCallbackObject
+---@field meleeCallbackID redCallbackObject
+---@field leftHandCharge Bool
+---@field isAiming Bool
+---@field meleeBlockActive Bool
 AimingContextDecisions = {}
 
 ---@param fields? AimingContextDecisions
 ---@return AimingContextDecisions
-function AimingContextDecisions.new(fields) return end
+function AimingContextDecisions.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AimingContextDecisions:OnLeftHandCyberwareChanged(value) return end
+function AimingContextDecisions:OnLeftHandCyberwareChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AimingContextDecisions:OnMeleeChanged(value) return end
+function AimingContextDecisions:OnMeleeChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function AimingContextDecisions:OnUpperBodyChanged(value) return end
+function AimingContextDecisions:OnUpperBodyChanged(value) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function AimingContextDecisions:EnterCondition(stateContext, scriptInterface) return end
+function AimingContextDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingContextDecisions:OnAttach(stateContext, scriptInterface) return end
+function AimingContextDecisions:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function AimingContextDecisions:OnDetach(stateContext, scriptInterface) return end
+function AimingContextDecisions:OnDetach(stateContext, scriptInterface) end
 
----@protected
 ---@param value Int32
 ---@return nil
-function AimingContextDecisions:UpdateLeftHandCyberware(value) return end
+function AimingContextDecisions:UpdateLeftHandCyberware(value) end
 
----@protected
 ---@param value Int32
 ---@return nil
-function AimingContextDecisions:UpdateMeleeState(value) return end
+function AimingContextDecisions:UpdateMeleeState(value) end
 
----@protected
 ---@return nil
-function AimingContextDecisions:UpdateNeedsToBeChecked() return end
+function AimingContextDecisions:UpdateNeedsToBeChecked() end
 
----@protected
 ---@param value Int32
 ---@return nil
-function AimingContextDecisions:UpdateUpperBodyState(value) return end
+function AimingContextDecisions:UpdateUpperBodyState(value) end

@@ -5,4 +5,4 @@ gameAttachmentSlotEventsItemVisualsAddedToSlot = {}
 
 ---@param fields? gameAttachmentSlotEventsItemVisualsAddedToSlot
 ---@return gameAttachmentSlotEventsItemVisualsAddedToSlot
-function gameAttachmentSlotEventsItemVisualsAddedToSlot.new(fields) return end
+function gameAttachmentSlotEventsItemVisualsAddedToSlot.new(fields) end

@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class interopEntityEffectSpawnerSyncData
----@field public componentID EditorObjectID
----@field public componentParentID EditorObjectID
----@field public componentName CName
----@field public effects interopEntityEffectSelectionSyncData[]
----@field public templatePath String
----@field public templateColor Color
----@field public included Bool
+---@field componentID EditorObjectID
+---@field componentParentID EditorObjectID
+---@field componentName CName
+---@field effects interopEntityEffectSelectionSyncData[]
+---@field templatePath String
+---@field templateColor Color
+---@field included Bool
 interopEntityEffectSpawnerSyncData = {}
 
 ---@param fields? interopEntityEffectSpawnerSyncData
 ---@return interopEntityEffectSpawnerSyncData
-function interopEntityEffectSpawnerSyncData.new(fields) return end
+function interopEntityEffectSpawnerSyncData.new(fields) end

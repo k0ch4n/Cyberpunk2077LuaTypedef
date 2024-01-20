@@ -5,4 +5,4 @@ RipperdocMeterCapacityBarHoverEvent = {}
 
 ---@param fields? RipperdocMeterCapacityBarHoverEvent
 ---@return RipperdocMeterCapacityBarHoverEvent
-function RipperdocMeterCapacityBarHoverEvent.new(fields) return end
+function RipperdocMeterCapacityBarHoverEvent.new(fields) end

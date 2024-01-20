@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CW_MuteArmDef: gamebbScriptDefinition
----@field public MuteArmActive gamebbScriptID_Bool
----@field public MuteArmRadius gamebbScriptID_Float
+---@field MuteArmActive gamebbScriptID_Bool
+---@field MuteArmRadius gamebbScriptID_Float
 CW_MuteArmDef = {}
 
 ---@param fields? CW_MuteArmDef
 ---@return CW_MuteArmDef
-function CW_MuteArmDef.new(fields) return end
+function CW_MuteArmDef.new(fields) end
 
 ---@return Bool
-function CW_MuteArmDef:AutoCreateInSystem() return end
+function CW_MuteArmDef:AutoCreateInSystem() end

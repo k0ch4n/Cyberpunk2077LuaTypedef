@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameBinkVideoRecord: ISerializable
----@field public resourceHash Uint64
----@field public binkDuration Float
+---@field resourceHash Uint64
+---@field binkDuration Float
 gameBinkVideoRecord = {}
 
 ---@param fields? gameBinkVideoRecord
 ---@return gameBinkVideoRecord
-function gameBinkVideoRecord.new(fields) return end
+function gameBinkVideoRecord.new(fields) end

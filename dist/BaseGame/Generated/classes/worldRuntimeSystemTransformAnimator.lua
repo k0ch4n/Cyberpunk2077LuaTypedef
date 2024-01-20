@@ -5,4 +5,4 @@ worldRuntimeSystemTransformAnimator = {}
 
 ---@param fields? worldRuntimeSystemTransformAnimator
 ---@return worldRuntimeSystemTransformAnimator
-function worldRuntimeSystemTransformAnimator.new(fields) return end
+function worldRuntimeSystemTransformAnimator.new(fields) end

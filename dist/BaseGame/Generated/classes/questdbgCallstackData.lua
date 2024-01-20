@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class questdbgCallstackData
----@field public resourceHash Uint64
----@field public phases questdbgCallstackPhase[]
----@field public blocks questdbgCallstackBlock[]
----@field public executed Uint64[]
----@field public executedHistory Uint64[]
----@field public failed Uint64[]
----@field public callstackRevision Uint32
+---@field resourceHash Uint64
+---@field phases questdbgCallstackPhase[]
+---@field blocks questdbgCallstackBlock[]
+---@field executed Uint64[]
+---@field executedHistory Uint64[]
+---@field failed Uint64[]
+---@field callstackRevision Uint32
 questdbgCallstackData = {}
 
 ---@param fields? questdbgCallstackData
 ---@return questdbgCallstackData
-function questdbgCallstackData.new(fields) return end
+function questdbgCallstackData.new(fields) end

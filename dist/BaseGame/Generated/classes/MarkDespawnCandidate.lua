@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class MarkDespawnCandidate: AIbehaviortaskScript
----@field public onDeactivation Bool
+---@field onDeactivation Bool
 MarkDespawnCandidate = {}
 
 ---@param fields? MarkDespawnCandidate
 ---@return MarkDespawnCandidate
-function MarkDespawnCandidate.new(fields) return end
+function MarkDespawnCandidate.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MarkDespawnCandidate:Activate(context) return end
+function MarkDespawnCandidate:Activate(context) end

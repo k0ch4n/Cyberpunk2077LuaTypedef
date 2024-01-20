@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameEffectSettings
----@field public advancedTargetHandling Bool
----@field public synchronousProcessingForPlayer Bool
----@field public forceSynchronousProcessing Bool
----@field public tempExecuteOnlyOnce Bool
----@field public tickRate Float
----@field public useSimTimeForTick Bool
+---@field advancedTargetHandling Bool
+---@field synchronousProcessingForPlayer Bool
+---@field forceSynchronousProcessing Bool
+---@field tempExecuteOnlyOnce Bool
+---@field tickRate Float
+---@field useSimTimeForTick Bool
 gameEffectSettings = {}
 
 ---@param fields? gameEffectSettings
 ---@return gameEffectSettings
-function gameEffectSettings.new(fields) return end
+function gameEffectSettings.new(fields) end

@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class HotkeyRadioStatusListener: gameScriptStatusEffectListener
----@field public radioWidgetController HotkeyConsumableWidgetController
+---@field radioWidgetController HotkeyConsumableWidgetController
 HotkeyRadioStatusListener = {}
 
 ---@param fields? HotkeyRadioStatusListener
 ---@return HotkeyRadioStatusListener
-function HotkeyRadioStatusListener.new(fields) return end
+function HotkeyRadioStatusListener.new(fields) end
 
 ---@param radioWidgetController HotkeyConsumableWidgetController
 ---@return nil
-function HotkeyRadioStatusListener:Init(radioWidgetController) return end
+function HotkeyRadioStatusListener:Init(radioWidgetController) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function HotkeyRadioStatusListener:OnStatusEffectApplied(statusEffect) return end
+function HotkeyRadioStatusListener:OnStatusEffectApplied(statusEffect) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function HotkeyRadioStatusListener:OnStatusEffectRemoved(statusEffect) return end
+function HotkeyRadioStatusListener:OnStatusEffectRemoved(statusEffect) end

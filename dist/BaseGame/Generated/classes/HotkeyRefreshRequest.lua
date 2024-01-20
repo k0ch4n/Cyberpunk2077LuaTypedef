@@ -5,4 +5,4 @@ HotkeyRefreshRequest = {}
 
 ---@param fields? HotkeyRefreshRequest
 ---@return HotkeyRefreshRequest
-function HotkeyRefreshRequest.new(fields) return end
+function HotkeyRefreshRequest.new(fields) end

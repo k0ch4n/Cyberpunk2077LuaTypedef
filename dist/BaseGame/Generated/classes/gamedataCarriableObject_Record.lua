@@ -5,4 +5,4 @@ gamedataCarriableObject_Record = {}
 
 ---@param fields? gamedataCarriableObject_Record
 ---@return gamedataCarriableObject_Record
-function gamedataCarriableObject_Record.new(fields) return end
+function gamedataCarriableObject_Record.new(fields) end

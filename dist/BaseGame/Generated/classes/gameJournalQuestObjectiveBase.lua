@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class gameJournalQuestObjectiveBase: gameJournalContainerEntry
----@field public description LocalizationString
----@field public counter Uint32
----@field public optional Bool
----@field public locationPrefabRef NodeRef
----@field public itemID TweakDBID
----@field public districtID String
+---@field description LocalizationString
+---@field counter Uint32
+---@field optional Bool
+---@field locationPrefabRef NodeRef
+---@field itemID TweakDBID
+---@field districtID String
 gameJournalQuestObjectiveBase = {}
 
 ---@return String
-function gameJournalQuestObjectiveBase:GetDescription() return end
+function gameJournalQuestObjectiveBase:GetDescription() end
 
 ---@return TweakDBID
-function gameJournalQuestObjectiveBase:GetItemID() return end
+function gameJournalQuestObjectiveBase:GetItemID() end
 
 ---@return Bool
-function gameJournalQuestObjectiveBase:HasCounter() return end
+function gameJournalQuestObjectiveBase:HasCounter() end

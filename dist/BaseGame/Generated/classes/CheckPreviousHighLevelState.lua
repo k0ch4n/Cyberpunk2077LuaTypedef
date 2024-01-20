@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class CheckPreviousHighLevelState: AINPCPreviousHighLevelStateCheck
----@field public state gamedataNPCHighLevelState
+---@field state gamedataNPCHighLevelState
 CheckPreviousHighLevelState = {}
 
 ---@param fields? CheckPreviousHighLevelState
 ---@return CheckPreviousHighLevelState
-function CheckPreviousHighLevelState.new(fields) return end
+function CheckPreviousHighLevelState.new(fields) end
 
----@private
 ---@return gamedataNPCHighLevelState
-function CheckPreviousHighLevelState:GetStateToCheck() return end
+function CheckPreviousHighLevelState:GetStateToCheck() end

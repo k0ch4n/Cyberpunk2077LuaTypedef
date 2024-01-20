@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questCombatNodeParams_PrimaryWeapon: questCombatNodeParams
----@field public unEquip Bool
+---@field unEquip Bool
 questCombatNodeParams_PrimaryWeapon = {}
 
 ---@param fields? questCombatNodeParams_PrimaryWeapon
 ---@return questCombatNodeParams_PrimaryWeapon
-function questCombatNodeParams_PrimaryWeapon.new(fields) return end
+function questCombatNodeParams_PrimaryWeapon.new(fields) end

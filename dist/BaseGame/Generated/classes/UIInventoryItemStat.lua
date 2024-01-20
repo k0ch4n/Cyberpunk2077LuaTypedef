@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class UIInventoryItemStat: IScriptable
----@field public Type gamedataStatType
----@field public Value Float
----@field public PropertiesProvider IUIInventoryItemStatsProvider
----@field private properties UIItemStatProperties
----@field private propertiesFetched Bool
+---@field Type gamedataStatType
+---@field Value Float
+---@field PropertiesProvider IUIInventoryItemStatsProvider
+---@field properties UIItemStatProperties
+---@field propertiesFetched Bool
 UIInventoryItemStat = {}
 
 ---@param fields? UIInventoryItemStat
 ---@return UIInventoryItemStat
-function UIInventoryItemStat.new(fields) return end
+function UIInventoryItemStat.new(fields) end
 
 ---@return UIItemStatProperties
-function UIInventoryItemStat:GetProperties() return end
+function UIInventoryItemStat:GetProperties() end
 
 ---@param properties UIItemStatProperties
 ---@return nil
-function UIInventoryItemStat:SetProperties(properties) return end
+function UIInventoryItemStat:SetProperties(properties) end

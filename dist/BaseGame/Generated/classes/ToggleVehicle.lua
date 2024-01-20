@@ -5,11 +5,11 @@ ToggleVehicle = {}
 
 ---@param fields? ToggleVehicle
 ---@return ToggleVehicle
-function ToggleVehicle.new(fields) return end
+function ToggleVehicle.new(fields) end
 
 ---@return String
-function ToggleVehicle:GetTweakDBChoiceRecord() return end
+function ToggleVehicle:GetTweakDBChoiceRecord() end
 
 ---@param toggleOn Bool
 ---@return nil
-function ToggleVehicle:SetProperties(toggleOn) return end
+function ToggleVehicle:SetProperties(toggleOn) end

@@ -5,4 +5,4 @@ effectPointLightPlayData = {}
 
 ---@param fields? effectPointLightPlayData
 ---@return effectPointLightPlayData
-function effectPointLightPlayData.new(fields) return end
+function effectPointLightPlayData.new(fields) end

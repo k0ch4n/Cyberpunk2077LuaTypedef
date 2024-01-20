@@ -5,4 +5,4 @@ AIbehaviorCancelWorkspotCommandNodeDefinition = {}
 
 ---@param fields? AIbehaviorCancelWorkspotCommandNodeDefinition
 ---@return AIbehaviorCancelWorkspotCommandNodeDefinition
-function AIbehaviorCancelWorkspotCommandNodeDefinition.new(fields) return end
+function AIbehaviorCancelWorkspotCommandNodeDefinition.new(fields) end

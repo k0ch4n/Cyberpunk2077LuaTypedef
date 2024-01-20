@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class GogRewardsGroupController: inkWidgetLogicController
----@field private label inkTextWidgetReference
----@field private containerWidget inkWidgetReference
+---@field label inkTextWidgetReference
+---@field containerWidget inkWidgetReference
 GogRewardsGroupController = {}
 
 ---@param fields? GogRewardsGroupController
 ---@return GogRewardsGroupController
-function GogRewardsGroupController.new(fields) return end
+function GogRewardsGroupController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GogRewardsGroupController:OnEntryHoverOut(evt) return end
+function GogRewardsGroupController:OnEntryHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GogRewardsGroupController:OnEntryHoverOver(evt) return end
+function GogRewardsGroupController:OnEntryHoverOver(evt) end
 
----@private
 ---@param groupName CName|string
 ---@return String
-function GogRewardsGroupController:GroupNameToLabelText(groupName) return end
+function GogRewardsGroupController:GroupNameToLabelText(groupName) end
 
----@private
 ---@param groupName CName|string
 ---@return CName
-function GogRewardsGroupController:GroupNameToState(groupName) return end
+function GogRewardsGroupController:GroupNameToState(groupName) end
 
 ---@param groupName CName|string
 ---@param rewards GogRewardEntryData[]
 ---@return nil
-function GogRewardsGroupController:UpdateGroup(groupName, rewards) return end
+function GogRewardsGroupController:UpdateGroup(groupName, rewards) end

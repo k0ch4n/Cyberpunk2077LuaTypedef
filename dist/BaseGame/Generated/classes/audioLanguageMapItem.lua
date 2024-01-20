@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioLanguageMapItem: audioAudioMetadata
----@field public language audioLanguage
+---@field language audioLanguage
 audioLanguageMapItem = {}
 
 ---@param fields? audioLanguageMapItem
 ---@return audioLanguageMapItem
-function audioLanguageMapItem.new(fields) return end
+function audioLanguageMapItem.new(fields) end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class CParticleDrawerFacingBeam: IParticleDrawer
----@field public texturesPerUnit Float
----@field public dynamicTexCoords Bool
----@field public transparencyOffset Float
----@field public transparencyLength Float
----@field public numSegments Uint32
----@field public sourceTangent Vector4
----@field public targetTangent Vector4
----@field public debugTargetTranslation Vector3
+---@field texturesPerUnit Float
+---@field dynamicTexCoords Bool
+---@field transparencyOffset Float
+---@field transparencyLength Float
+---@field numSegments Uint32
+---@field sourceTangent Vector4
+---@field targetTangent Vector4
+---@field debugTargetTranslation Vector3
 CParticleDrawerFacingBeam = {}
 
 ---@param fields? CParticleDrawerFacingBeam
 ---@return CParticleDrawerFacingBeam
-function CParticleDrawerFacingBeam.new(fields) return end
+function CParticleDrawerFacingBeam.new(fields) end

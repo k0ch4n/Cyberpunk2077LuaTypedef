@@ -1,26 +1,23 @@
 ---@meta
 
 ---@class BaseToggleView: inkWidgetLogicController
----@field protected ToggleController inkToggleController
----@field protected OldState inkEToggleState
+---@field ToggleController inkToggleController
+---@field OldState inkEToggleState
 BaseToggleView = {}
 
----@protected
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return Bool
-function BaseToggleView:OnButtonStateChanged(controller, oldState, newState) return end
+function BaseToggleView:OnButtonStateChanged(controller, oldState, newState) end
 
----@protected
 ---@return Bool
-function BaseToggleView:OnInitialize() return end
+function BaseToggleView:OnInitialize() end
 
 ---@return inkToggleController
-function BaseToggleView:GetParentButton() return end
+function BaseToggleView:GetParentButton() end
 
----@protected
 ---@param oldState inkEToggleState
 ---@param newState inkEToggleState
 ---@return nil
-function BaseToggleView:ToggleStateChanged(oldState, newState) return end
+function BaseToggleView:ToggleStateChanged(oldState, newState) end

@@ -5,24 +5,24 @@ ZoomEventsTransition = {}
 
 ---@param fields? ZoomEventsTransition
 ---@return ZoomEventsTransition
-function ZoomEventsTransition.new(fields) return end
+function ZoomEventsTransition.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomEventsTransition:OnEnter(stateContext, scriptInterface) return end
+function ZoomEventsTransition:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomEventsTransition:OnExitToNextZoomLevel(stateContext, scriptInterface) return end
+function ZoomEventsTransition:OnExitToNextZoomLevel(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomEventsTransition:OnExitToPreviousZoomLevel(stateContext, scriptInterface) return end
+function ZoomEventsTransition:OnExitToPreviousZoomLevel(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ZoomEventsTransition:OnExitToZoomLevelBase(stateContext, scriptInterface) return end
+function ZoomEventsTransition:OnExitToZoomLevelBase(stateContext, scriptInterface) end

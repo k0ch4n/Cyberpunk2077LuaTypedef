@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class GateSignalInstance
----@field public gateSignal GateSignal
----@field public timeStamp Float
----@field public consumeTags CName[]
+---@field gateSignal GateSignal
+---@field timeStamp Float
+---@field consumeTags CName[]
 GateSignalInstance = {}
 
 ---@param fields? GateSignalInstance
 ---@return GateSignalInstance
-function GateSignalInstance.new(fields) return end
+function GateSignalInstance.new(fields) end

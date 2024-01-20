@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EquipmentChangeTaskData: gameScriptTaskData
----@field public eqData SPaperdollEquipData
+---@field eqData SPaperdollEquipData
 EquipmentChangeTaskData = {}
 
 ---@param fields? EquipmentChangeTaskData
 ---@return EquipmentChangeTaskData
-function EquipmentChangeTaskData.new(fields) return end
+function EquipmentChangeTaskData.new(fields) end

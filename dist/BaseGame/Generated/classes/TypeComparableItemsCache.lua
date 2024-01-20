@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TypeComparableItemsCache: IScriptable
----@field public cache ItemComparableTypesCache
----@field public items gameInventoryItemData[]
+---@field cache ItemComparableTypesCache
+---@field items gameInventoryItemData[]
 TypeComparableItemsCache = {}
 
 ---@param fields? TypeComparableItemsCache
 ---@return TypeComparableItemsCache
-function TypeComparableItemsCache.new(fields) return end
+function TypeComparableItemsCache.new(fields) end

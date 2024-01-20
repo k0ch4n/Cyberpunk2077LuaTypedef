@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class CMaterialTemplate: IMaterialDefinition
----@field public name CName
----@field public parameters array[]
----@field public techniques MaterialTechnique[]
----@field public samplerStates array[]
----@field public usedParameters array[]
----@field public materialPriority EMaterialPriority
----@field public materialType ERenderMaterialType
----@field public audioTag CName
----@field public resourceVersion Uint8
+---@field name CName
+---@field parameters array[]
+---@field techniques MaterialTechnique[]
+---@field samplerStates array[]
+---@field usedParameters array[]
+---@field materialPriority EMaterialPriority
+---@field materialType ERenderMaterialType
+---@field audioTag CName
+---@field resourceVersion Uint8
 CMaterialTemplate = {}
 
 ---@param fields? CMaterialTemplate
 ---@return CMaterialTemplate
-function CMaterialTemplate.new(fields) return end
+function CMaterialTemplate.new(fields) end

@@ -5,4 +5,4 @@ gameAnimationPersistentDataSystem = {}
 
 ---@param fields? gameAnimationPersistentDataSystem
 ---@return gameAnimationPersistentDataSystem
-function gameAnimationPersistentDataSystem.new(fields) return end
+function gameAnimationPersistentDataSystem.new(fields) end

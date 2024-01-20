@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ScrollingText
----@field public textArray String[]
+---@field textArray String[]
 ScrollingText = {}
 
 ---@param fields? ScrollingText
 ---@return ScrollingText
-function ScrollingText.new(fields) return end
+function ScrollingText.new(fields) end

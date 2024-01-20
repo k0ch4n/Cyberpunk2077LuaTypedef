@@ -5,4 +5,4 @@ GrenadeTriggerSmartTrajectoryEvent = {}
 
 ---@param fields? GrenadeTriggerSmartTrajectoryEvent
 ---@return GrenadeTriggerSmartTrajectoryEvent
-function GrenadeTriggerSmartTrajectoryEvent.new(fields) return end
+function GrenadeTriggerSmartTrajectoryEvent.new(fields) end

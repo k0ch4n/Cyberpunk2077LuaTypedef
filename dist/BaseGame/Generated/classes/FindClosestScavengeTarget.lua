@@ -5,15 +5,13 @@ FindClosestScavengeTarget = {}
 
 ---@param fields? FindClosestScavengeTarget
 ---@return FindClosestScavengeTarget
-function FindClosestScavengeTarget.new(fields) return end
+function FindClosestScavengeTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function FindClosestScavengeTarget:Activate(context) return end
+function FindClosestScavengeTarget:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param targets gameObject[]
 ---@return gameObject
-function FindClosestScavengeTarget:GetClosestTarget(context, targets) return end
+function FindClosestScavengeTarget:GetClosestTarget(context, targets) end

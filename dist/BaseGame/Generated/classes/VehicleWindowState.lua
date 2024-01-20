@@ -5,9 +5,8 @@ VehicleWindowState = {}
 
 ---@param fields? VehicleWindowState
 ---@return VehicleWindowState
-function VehicleWindowState.new(fields) return end
+function VehicleWindowState.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gamedataNPCStanceState
-function VehicleWindowState:GetDesiredStanceState(context) return end
+function VehicleWindowState:GetDesiredStanceState(context) end

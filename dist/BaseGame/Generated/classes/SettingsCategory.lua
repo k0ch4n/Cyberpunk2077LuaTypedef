@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class SettingsCategory
----@field public label CName
----@field public subcategories SettingsCategory[]
----@field public options userSettingsVar[]
----@field public isEmpty Bool
----@field public groupPath CName
+---@field label CName
+---@field subcategories SettingsCategory[]
+---@field options userSettingsVar[]
+---@field isEmpty Bool
+---@field groupPath CName
 SettingsCategory = {}
 
 ---@param fields? SettingsCategory
 ---@return SettingsCategory
-function SettingsCategory.new(fields) return end
+function SettingsCategory.new(fields) end

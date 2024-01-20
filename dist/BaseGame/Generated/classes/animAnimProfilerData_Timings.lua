@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimProfilerData_Timings
----@field public className CName
----@field public avarageExclusiveTimeMS Float
----@field public avarageInclusiveTimeMS Float
+---@field className CName
+---@field avarageExclusiveTimeMS Float
+---@field avarageInclusiveTimeMS Float
 animAnimProfilerData_Timings = {}
 
 ---@param fields? animAnimProfilerData_Timings
 ---@return animAnimProfilerData_Timings
-function animAnimProfilerData_Timings.new(fields) return end
+function animAnimProfilerData_Timings.new(fields) end

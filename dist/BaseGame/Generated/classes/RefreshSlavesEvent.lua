@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RefreshSlavesEvent: ProcessDevicesEvent
----@field public onInitialize Bool
----@field public force Bool
+---@field onInitialize Bool
+---@field force Bool
 RefreshSlavesEvent = {}
 
 ---@param fields? RefreshSlavesEvent
 ---@return RefreshSlavesEvent
-function RefreshSlavesEvent.new(fields) return end
+function RefreshSlavesEvent.new(fields) end

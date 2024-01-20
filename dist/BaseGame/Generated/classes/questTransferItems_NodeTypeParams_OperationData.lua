@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questTransferItems_NodeTypeParams_OperationData
----@field public itemTDBID TweakDBID
----@field public quantity Int32
+---@field itemTDBID TweakDBID
+---@field quantity Int32
 questTransferItems_NodeTypeParams_OperationData = {}
 
 ---@param fields? questTransferItems_NodeTypeParams_OperationData
 ---@return questTransferItems_NodeTypeParams_OperationData
-function questTransferItems_NodeTypeParams_OperationData.new(fields) return end
+function questTransferItems_NodeTypeParams_OperationData.new(fields) end

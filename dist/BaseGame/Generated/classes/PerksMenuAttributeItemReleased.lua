@@ -5,4 +5,4 @@ PerksMenuAttributeItemReleased = {}
 
 ---@param fields? PerksMenuAttributeItemReleased
 ---@return PerksMenuAttributeItemReleased
-function PerksMenuAttributeItemReleased.new(fields) return end
+function PerksMenuAttributeItemReleased.new(fields) end

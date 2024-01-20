@@ -1,58 +1,57 @@
 ---@meta
 
 ---@class CaptionImageIconsLogicController: inkWidgetLogicController
----@field private GenericIcon inkImageWidgetReference
----@field private GenericHolder inkCompoundWidgetReference
----@field private LifeIcon inkImageWidgetReference
----@field private LifeDescriptionText inkTextWidgetReference
----@field private LifeBackground inkWidgetReference
----@field private LifeBackgroundFail inkWidgetReference
----@field private LifeWrapper inkCompoundWidgetReference
----@field private LifeHolder inkCompoundWidgetReference
----@field private CheckIcon inkImageWidgetReference
----@field private CheckText inkTextWidgetReference
----@field private CheckHolder inkCompoundWidgetReference
----@field private CheckBackground inkWidgetReference
----@field private CheckBackgroundFail inkWidgetReference
----@field private PayIcon inkImageWidgetReference
----@field private PayText inkTextWidgetReference
----@field private PayBackground inkWidgetReference
----@field private PayBackgroundFail inkWidgetReference
----@field private PayWrapper inkCompoundWidgetReference
----@field private PayHolder inkCompoundWidgetReference
+---@field GenericIcon inkImageWidgetReference
+---@field GenericHolder inkCompoundWidgetReference
+---@field LifeIcon inkImageWidgetReference
+---@field LifeDescriptionText inkTextWidgetReference
+---@field LifeBackground inkWidgetReference
+---@field LifeBackgroundFail inkWidgetReference
+---@field LifeWrapper inkCompoundWidgetReference
+---@field LifeHolder inkCompoundWidgetReference
+---@field CheckIcon inkImageWidgetReference
+---@field CheckText inkTextWidgetReference
+---@field CheckHolder inkCompoundWidgetReference
+---@field CheckBackground inkWidgetReference
+---@field CheckBackgroundFail inkWidgetReference
+---@field PayIcon inkImageWidgetReference
+---@field PayText inkTextWidgetReference
+---@field PayBackground inkWidgetReference
+---@field PayBackgroundFail inkWidgetReference
+---@field PayWrapper inkCompoundWidgetReference
+---@field PayHolder inkCompoundWidgetReference
 CaptionImageIconsLogicController = {}
 
 ---@param fields? CaptionImageIconsLogicController
 ---@return CaptionImageIconsLogicController
-function CaptionImageIconsLogicController.new(fields) return end
+function CaptionImageIconsLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function CaptionImageIconsLogicController:OnInitialize() return end
+function CaptionImageIconsLogicController:OnInitialize() end
 
 ---@return nil
-function CaptionImageIconsLogicController:HideAllHolders() return end
+function CaptionImageIconsLogicController:HideAllHolders() end
 
 ---@param iconRecord gamedataChoiceCaptionIconPart_Record
 ---@return nil
-function CaptionImageIconsLogicController:SetGenericIcon(iconRecord) return end
+function CaptionImageIconsLogicController:SetGenericIcon(iconRecord) end
 
 ---@param argData LifePathBluelinePart
 ---@return nil
-function CaptionImageIconsLogicController:SetLifePath(argData) return end
+function CaptionImageIconsLogicController:SetLifePath(argData) end
 
 ---@param argData PaymentBluelinePart
 ---@return nil
-function CaptionImageIconsLogicController:SetPaymentCheck(argData) return end
+function CaptionImageIconsLogicController:SetPaymentCheck(argData) end
 
 ---@param backgroundColor CName|string
 ---@param iconColor CName|string
 ---@return nil
-function CaptionImageIconsLogicController:SetSelectedColor(backgroundColor, iconColor) return end
+function CaptionImageIconsLogicController:SetSelectedColor(backgroundColor, iconColor) end
 
 ---@param argData BuildBluelinePart
 ---@return nil
-function CaptionImageIconsLogicController:SetSkillCheck(argData) return end
+function CaptionImageIconsLogicController:SetSkillCheck(argData) end
 
 ---@return Bool
-function CaptionImageIconsLogicController:ShouldShowFluffIcon() return end
+function CaptionImageIconsLogicController:ShouldShowFluffIcon() end

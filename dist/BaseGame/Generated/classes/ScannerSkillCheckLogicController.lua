@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class ScannerSkillCheckLogicController: inkWidgetLogicController
----@field private ScannerSkillCheckItemName CName
----@field private SkillCheckObjects inkWidget[]
----@field public Root inkCompoundWidget
+---@field ScannerSkillCheckItemName CName
+---@field SkillCheckObjects inkWidget[]
+---@field Root inkCompoundWidget
 ScannerSkillCheckLogicController = {}
 
 ---@param fields? ScannerSkillCheckLogicController
 ---@return ScannerSkillCheckLogicController
-function ScannerSkillCheckLogicController.new(fields) return end
+function ScannerSkillCheckLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function ScannerSkillCheckLogicController:OnInitialize() return end
+function ScannerSkillCheckLogicController:OnInitialize() end
 
----@protected
 ---@return Bool
-function ScannerSkillCheckLogicController:OnUninitialize() return end
+function ScannerSkillCheckLogicController:OnUninitialize() end
 
----@private
 ---@return inkWidget
-function ScannerSkillCheckLogicController:CreateSkillCheckObject() return end
+function ScannerSkillCheckLogicController:CreateSkillCheckObject() end
 
 ---@param skillCheckInfo UIInteractionSkillCheck[]
 ---@return nil
-function ScannerSkillCheckLogicController:Setup(skillCheckInfo) return end
+function ScannerSkillCheckLogicController:Setup(skillCheckInfo) end

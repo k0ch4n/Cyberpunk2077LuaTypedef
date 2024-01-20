@@ -5,76 +5,76 @@ gamedataRPGDataPackage_Record = {}
 
 ---@param fields? gamedataRPGDataPackage_Record
 ---@return gamedataRPGDataPackage_Record
-function gamedataRPGDataPackage_Record.new(fields) return end
+function gamedataRPGDataPackage_Record.new(fields) end
 
 ---@return nil, gamedataEffector_Record[] outList
-function gamedataRPGDataPackage_Record:Effectors() return end
+function gamedataRPGDataPackage_Record:Effectors() end
 
 ---@param item gamedataEffector_Record
 ---@return Bool
-function gamedataRPGDataPackage_Record:EffectorsContains(item) return end
+function gamedataRPGDataPackage_Record:EffectorsContains(item) end
 
 ---@return Int32
-function gamedataRPGDataPackage_Record:GetEffectorsCount() return end
+function gamedataRPGDataPackage_Record:GetEffectorsCount() end
 
 ---@param index Int32
 ---@return gamedataEffector_Record
-function gamedataRPGDataPackage_Record:GetEffectorsItem(index) return end
+function gamedataRPGDataPackage_Record:GetEffectorsItem(index) end
 
 ---@param index Int32
 ---@return gamedataEffector_Record
-function gamedataRPGDataPackage_Record:GetEffectorsItemHandle(index) return end
+function gamedataRPGDataPackage_Record:GetEffectorsItemHandle(index) end
 
 ---@return Int32
-function gamedataRPGDataPackage_Record:GetStatModifierGroupsCount() return end
+function gamedataRPGDataPackage_Record:GetStatModifierGroupsCount() end
 
 ---@param index Int32
 ---@return gamedataStatModifierGroup_Record
-function gamedataRPGDataPackage_Record:GetStatModifierGroupsItem(index) return end
+function gamedataRPGDataPackage_Record:GetStatModifierGroupsItem(index) end
 
 ---@param index Int32
 ---@return gamedataStatModifierGroup_Record
-function gamedataRPGDataPackage_Record:GetStatModifierGroupsItemHandle(index) return end
+function gamedataRPGDataPackage_Record:GetStatModifierGroupsItemHandle(index) end
 
 ---@return Int32
-function gamedataRPGDataPackage_Record:GetStatModifiersCount() return end
+function gamedataRPGDataPackage_Record:GetStatModifiersCount() end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataRPGDataPackage_Record:GetStatModifiersItem(index) return end
+function gamedataRPGDataPackage_Record:GetStatModifiersItem(index) end
 
 ---@param index Int32
 ---@return gamedataStatModifier_Record
-function gamedataRPGDataPackage_Record:GetStatModifiersItemHandle(index) return end
+function gamedataRPGDataPackage_Record:GetStatModifiersItemHandle(index) end
 
 ---@return Int32
-function gamedataRPGDataPackage_Record:GetStatPoolsCount() return end
+function gamedataRPGDataPackage_Record:GetStatPoolsCount() end
 
 ---@param index Int32
 ---@return gamedataStatPool_Record
-function gamedataRPGDataPackage_Record:GetStatPoolsItem(index) return end
+function gamedataRPGDataPackage_Record:GetStatPoolsItem(index) end
 
 ---@param index Int32
 ---@return gamedataStatPool_Record
-function gamedataRPGDataPackage_Record:GetStatPoolsItemHandle(index) return end
+function gamedataRPGDataPackage_Record:GetStatPoolsItemHandle(index) end
 
 ---@return nil, gamedataStatModifierGroup_Record[] outList
-function gamedataRPGDataPackage_Record:StatModifierGroups() return end
+function gamedataRPGDataPackage_Record:StatModifierGroups() end
 
 ---@param item gamedataStatModifierGroup_Record
 ---@return Bool
-function gamedataRPGDataPackage_Record:StatModifierGroupsContains(item) return end
+function gamedataRPGDataPackage_Record:StatModifierGroupsContains(item) end
 
 ---@return nil, gamedataStatModifier_Record[] outList
-function gamedataRPGDataPackage_Record:StatModifiers() return end
+function gamedataRPGDataPackage_Record:StatModifiers() end
 
 ---@param item gamedataStatModifier_Record
 ---@return Bool
-function gamedataRPGDataPackage_Record:StatModifiersContains(item) return end
+function gamedataRPGDataPackage_Record:StatModifiersContains(item) end
 
 ---@return nil, gamedataStatPool_Record[] outList
-function gamedataRPGDataPackage_Record:StatPools() return end
+function gamedataRPGDataPackage_Record:StatPools() end
 
 ---@param item gamedataStatPool_Record
 ---@return Bool
-function gamedataRPGDataPackage_Record:StatPoolsContains(item) return end
+function gamedataRPGDataPackage_Record:StatPoolsContains(item) end

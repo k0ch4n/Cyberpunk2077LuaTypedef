@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class inkGradientWidget: inkBaseShapeWidget
----@field public gradientMode inkGradientMode
----@field public startColor HDRColor
----@field public endColor HDRColor
----@field public angle Float
+---@field gradientMode inkGradientMode
+---@field startColor HDRColor
+---@field endColor HDRColor
+---@field angle Float
 inkGradientWidget = {}
 
 ---@param fields? inkGradientWidget
 ---@return inkGradientWidget
-function inkGradientWidget.new(fields) return end
+function inkGradientWidget.new(fields) end

@@ -5,4 +5,4 @@ worldDebugColoring_UniqueInstanceMeshNode = {}
 
 ---@param fields? worldDebugColoring_UniqueInstanceMeshNode
 ---@return worldDebugColoring_UniqueInstanceMeshNode
-function worldDebugColoring_UniqueInstanceMeshNode.new(fields) return end
+function worldDebugColoring_UniqueInstanceMeshNode.new(fields) end

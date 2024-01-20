@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class IAreaSettings: ISerializable
----@field public enable Bool
----@field public disabledIndexedProperties Uint64
+---@field enable Bool
+---@field disabledIndexedProperties Uint64
 IAreaSettings = {}

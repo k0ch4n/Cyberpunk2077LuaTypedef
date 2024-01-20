@@ -5,4 +5,4 @@ MeleeLookAtDecisions = {}
 
 ---@param fields? MeleeLookAtDecisions
 ---@return MeleeLookAtDecisions
-function MeleeLookAtDecisions.new(fields) return end
+function MeleeLookAtDecisions.new(fields) end

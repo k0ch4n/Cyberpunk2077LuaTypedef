@@ -1,52 +1,52 @@
 ---@meta
 
 ---@class gameJournalInternetPage: gameJournalEntry
----@field public address String
----@field public factsToSet gameJournalFactNameValue[]
----@field public additionallyFilledFromScripts Bool
----@field public reloadOnZoomIn Bool
----@field public widgetFile inkWidgetLibraryResource
----@field public scale Float
----@field public texts gameJournalInternetText[]
----@field public rectangles gameJournalInternetRectangle[]
----@field public images gameJournalInternetImage[]
----@field public videos gameJournalInternetVideo[]
----@field public canvases gameJournalInternetCanvas[]
+---@field address String
+---@field factsToSet gameJournalFactNameValue[]
+---@field additionallyFilledFromScripts Bool
+---@field reloadOnZoomIn Bool
+---@field widgetFile inkWidgetLibraryResource
+---@field scale Float
+---@field texts gameJournalInternetText[]
+---@field rectangles gameJournalInternetRectangle[]
+---@field images gameJournalInternetImage[]
+---@field videos gameJournalInternetVideo[]
+---@field canvases gameJournalInternetCanvas[]
 gameJournalInternetPage = {}
 
 ---@param fields? gameJournalInternetPage
 ---@return gameJournalInternetPage
-function gameJournalInternetPage.new(fields) return end
+function gameJournalInternetPage.new(fields) end
 
 ---@return String
-function gameJournalInternetPage:GetAddress() return end
+function gameJournalInternetPage:GetAddress() end
 
 ---@return gameJournalInternetCanvas[]
-function gameJournalInternetPage:GetCanvases() return end
+function gameJournalInternetPage:GetCanvases() end
 
 ---@return gameJournalFactNameValue[]
-function gameJournalInternetPage:GetFactsToSet() return end
+function gameJournalInternetPage:GetFactsToSet() end
 
 ---@return gameJournalInternetImage[]
-function gameJournalInternetPage:GetImages() return end
+function gameJournalInternetPage:GetImages() end
 
 ---@return gameJournalInternetRectangle[]
-function gameJournalInternetPage:GetRectangles() return end
+function gameJournalInternetPage:GetRectangles() end
 
 ---@return Float
-function gameJournalInternetPage:GetScale() return end
+function gameJournalInternetPage:GetScale() end
 
 ---@return gameJournalInternetText[]
-function gameJournalInternetPage:GetTexts() return end
+function gameJournalInternetPage:GetTexts() end
 
 ---@return gameJournalInternetVideo[]
-function gameJournalInternetPage:GetVideos() return end
+function gameJournalInternetPage:GetVideos() end
 
 ---@return redResourceReferenceScriptToken
-function gameJournalInternetPage:GetWidgetPath() return end
+function gameJournalInternetPage:GetWidgetPath() end
 
 ---@return Bool
-function gameJournalInternetPage:IsAdditionallyFilledFromScripts() return end
+function gameJournalInternetPage:IsAdditionallyFilledFromScripts() end
 
 ---@return Bool
-function gameJournalInternetPage:ShouldReloadOnZoomIn() return end
+function gameJournalInternetPage:ShouldReloadOnZoomIn() end

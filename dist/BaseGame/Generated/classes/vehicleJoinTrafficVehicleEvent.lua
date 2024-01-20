@@ -5,4 +5,4 @@ vehicleJoinTrafficVehicleEvent = {}
 
 ---@param fields? vehicleJoinTrafficVehicleEvent
 ---@return vehicleJoinTrafficVehicleEvent
-function vehicleJoinTrafficVehicleEvent.new(fields) return end
+function vehicleJoinTrafficVehicleEvent.new(fields) end

@@ -5,4 +5,4 @@ locVoResource = {}
 
 ---@param fields? locVoResource
 ---@return locVoResource
-function locVoResource.new(fields) return end
+function locVoResource.new(fields) end

@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class CurrentStanceNPCStatePrereq: gameIScriptablePrereq
----@field public valueToCheck gamedataNPCStanceState
----@field public invert Bool
+---@field valueToCheck gamedataNPCStanceState
+---@field invert Bool
 CurrentStanceNPCStatePrereq = {}
 
 ---@param fields? CurrentStanceNPCStatePrereq
 ---@return CurrentStanceNPCStatePrereq
-function CurrentStanceNPCStatePrereq.new(fields) return end
+function CurrentStanceNPCStatePrereq.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return nil
-function CurrentStanceNPCStatePrereq:Initialize(record) return end
+function CurrentStanceNPCStatePrereq:Initialize(record) end
 
 ---@param context IScriptable
 ---@return Bool
-function CurrentStanceNPCStatePrereq:IsFulfilled(context) return end
+function CurrentStanceNPCStatePrereq:IsFulfilled(context) end

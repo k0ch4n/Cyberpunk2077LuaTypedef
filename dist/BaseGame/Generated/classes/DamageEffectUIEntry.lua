@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class DamageEffectUIEntry: IScriptable
----@field public damageType gamedataDamageType
----@field public valueStat gamedataStatType
----@field public targetStat gamedataStatType
----@field public displayType DamageEffectDisplayType
----@field public valueToDisplay Float
----@field public effectorDuration Float
----@field public effectorDelay Float
----@field public isContinuous Bool
+---@field damageType gamedataDamageType
+---@field valueStat gamedataStatType
+---@field targetStat gamedataStatType
+---@field displayType DamageEffectDisplayType
+---@field valueToDisplay Float
+---@field effectorDuration Float
+---@field effectorDelay Float
+---@field isContinuous Bool
 DamageEffectUIEntry = {}
 
 ---@param fields? DamageEffectUIEntry
 ---@return DamageEffectUIEntry
-function DamageEffectUIEntry.new(fields) return end
+function DamageEffectUIEntry.new(fields) end

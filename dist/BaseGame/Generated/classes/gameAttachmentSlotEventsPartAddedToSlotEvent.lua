@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameAttachmentSlotEventsPartAddedToSlotEvent: redEvent
----@field public itemID gameItemID
----@field public partID gameItemID
+---@field itemID gameItemID
+---@field partID gameItemID
 gameAttachmentSlotEventsPartAddedToSlotEvent = {}
 
 ---@param fields? gameAttachmentSlotEventsPartAddedToSlotEvent
 ---@return gameAttachmentSlotEventsPartAddedToSlotEvent
-function gameAttachmentSlotEventsPartAddedToSlotEvent.new(fields) return end
+function gameAttachmentSlotEventsPartAddedToSlotEvent.new(fields) end

@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationHeadPartsController: gameuiCharacterCustomizationBodyPartsController
----@field public groupName CName
+---@field groupName CName
 gameuiCharacterCustomizationHeadPartsController = {}

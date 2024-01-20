@@ -5,12 +5,10 @@ vehicleVcarRootLogicController = {}
 
 ---@param fields? vehicleVcarRootLogicController
 ---@return vehicleVcarRootLogicController
-function vehicleVcarRootLogicController.new(fields) return end
+function vehicleVcarRootLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function vehicleVcarRootLogicController:OnInitialize() return end
+function vehicleVcarRootLogicController:OnInitialize() end
 
----@protected
 ---@return Bool
-function vehicleVcarRootLogicController:OnMounted() return end
+function vehicleVcarRootLogicController:OnMounted() end

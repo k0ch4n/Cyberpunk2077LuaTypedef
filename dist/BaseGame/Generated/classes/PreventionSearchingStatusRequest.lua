@@ -5,4 +5,4 @@ PreventionSearchingStatusRequest = {}
 
 ---@param fields? PreventionSearchingStatusRequest
 ---@return PreventionSearchingStatusRequest
-function PreventionSearchingStatusRequest.new(fields) return end
+function PreventionSearchingStatusRequest.new(fields) end

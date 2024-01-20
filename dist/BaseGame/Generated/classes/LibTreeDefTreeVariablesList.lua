@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LibTreeDefTreeVariablesList
----@field public list LibTreeDefTreeVariable[]
+---@field list LibTreeDefTreeVariable[]
 LibTreeDefTreeVariablesList = {}
 
 ---@param fields? LibTreeDefTreeVariablesList
 ---@return LibTreeDefTreeVariablesList
-function LibTreeDefTreeVariablesList.new(fields) return end
+function LibTreeDefTreeVariablesList.new(fields) end

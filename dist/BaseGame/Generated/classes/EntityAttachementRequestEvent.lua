@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class EntityAttachementRequestEvent: redEvent
----@field public attachementData EntityAttachementData
+---@field attachementData EntityAttachementData
 EntityAttachementRequestEvent = {}
 
 ---@param fields? EntityAttachementRequestEvent
 ---@return EntityAttachementRequestEvent
-function EntityAttachementRequestEvent.new(fields) return end
+function EntityAttachementRequestEvent.new(fields) end

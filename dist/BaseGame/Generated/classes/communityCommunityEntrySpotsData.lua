@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class communityCommunityEntrySpotsData
----@field public phasesData communityCommunityEntryPhaseSpotsData[]
----@field public entryName CName
+---@field phasesData communityCommunityEntryPhaseSpotsData[]
+---@field entryName CName
 communityCommunityEntrySpotsData = {}
 
 ---@param fields? communityCommunityEntrySpotsData
 ---@return communityCommunityEntrySpotsData
-function communityCommunityEntrySpotsData.new(fields) return end
+function communityCommunityEntrySpotsData.new(fields) end

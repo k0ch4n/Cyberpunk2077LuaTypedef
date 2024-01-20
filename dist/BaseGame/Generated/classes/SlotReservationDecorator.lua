@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SlotReservationDecorator: AIVehicleTaskAbstract
----@field protected mountData AIArgumentMapping
----@field private mountEventData gameMountEventData
+---@field mountData AIArgumentMapping
+---@field mountEventData gameMountEventData
 SlotReservationDecorator = {}
 
 ---@param fields? SlotReservationDecorator
 ---@return SlotReservationDecorator
-function SlotReservationDecorator.new(fields) return end
+function SlotReservationDecorator.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SlotReservationDecorator:Activate(context) return end
+function SlotReservationDecorator:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SlotReservationDecorator:Deactivate(context) return end
+function SlotReservationDecorator:Deactivate(context) end

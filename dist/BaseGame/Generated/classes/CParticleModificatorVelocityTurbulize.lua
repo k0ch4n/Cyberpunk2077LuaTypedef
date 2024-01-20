@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CParticleModificatorVelocityTurbulize: IParticleModificator
----@field public scale IEvaluatorVector
----@field public timelifeLimit IEvaluatorFloat
----@field public noiseInterval Float
----@field public duration Float
----@field public worldSpace Bool
+---@field scale IEvaluatorVector
+---@field timelifeLimit IEvaluatorFloat
+---@field noiseInterval Float
+---@field duration Float
+---@field worldSpace Bool
 CParticleModificatorVelocityTurbulize = {}
 
 ---@param fields? CParticleModificatorVelocityTurbulize
 ---@return CParticleModificatorVelocityTurbulize
-function CParticleModificatorVelocityTurbulize.new(fields) return end
+function CParticleModificatorVelocityTurbulize.new(fields) end

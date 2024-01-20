@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldSpeedSplineNodeSpeedRestriction
----@field public speed Float
----@field public from Float
----@field public adjustTime Float
+---@field speed Float
+---@field from Float
+---@field adjustTime Float
 worldSpeedSplineNodeSpeedRestriction = {}
 
 ---@param fields? worldSpeedSplineNodeSpeedRestriction
 ---@return worldSpeedSplineNodeSpeedRestriction
-function worldSpeedSplineNodeSpeedRestriction.new(fields) return end
+function worldSpeedSplineNodeSpeedRestriction.new(fields) end

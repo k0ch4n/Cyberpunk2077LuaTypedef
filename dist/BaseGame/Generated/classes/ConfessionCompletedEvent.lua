@@ -5,4 +5,4 @@ ConfessionCompletedEvent = {}
 
 ---@param fields? ConfessionCompletedEvent
 ---@return ConfessionCompletedEvent
-function ConfessionCompletedEvent.new(fields) return end
+function ConfessionCompletedEvent.new(fields) end

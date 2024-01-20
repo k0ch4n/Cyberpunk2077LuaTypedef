@@ -5,7 +5,7 @@ gameScriptableSystemRequest = {}
 
 ---@param fields? gameScriptableSystemRequest
 ---@return gameScriptableSystemRequest
-function gameScriptableSystemRequest.new(fields) return end
+function gameScriptableSystemRequest.new(fields) end
 
 ---@return nil
-function gameScriptableSystemRequest:Cancel() return end
+function gameScriptableSystemRequest:Cancel() end

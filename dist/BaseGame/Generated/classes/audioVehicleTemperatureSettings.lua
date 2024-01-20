@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioVehicleTemperatureSettings
----@field public rpmThreshold Float
----@field public timeToActivateTemperature Float
----@field public cooldownTime Float
+---@field rpmThreshold Float
+---@field timeToActivateTemperature Float
+---@field cooldownTime Float
 audioVehicleTemperatureSettings = {}
 
 ---@param fields? audioVehicleTemperatureSettings
 ---@return audioVehicleTemperatureSettings
-function audioVehicleTemperatureSettings.new(fields) return end
+function audioVehicleTemperatureSettings.new(fields) end

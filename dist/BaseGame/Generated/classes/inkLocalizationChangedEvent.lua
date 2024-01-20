@@ -5,4 +5,4 @@ inkLocalizationChangedEvent = {}
 
 ---@param fields? inkLocalizationChangedEvent
 ---@return inkLocalizationChangedEvent
-function inkLocalizationChangedEvent.new(fields) return end
+function inkLocalizationChangedEvent.new(fields) end

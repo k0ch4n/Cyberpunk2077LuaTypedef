@@ -5,4 +5,4 @@ gsmState_PreGameSession = {}
 
 ---@param fields? gsmState_PreGameSession
 ---@return gsmState_PreGameSession
-function gsmState_PreGameSession.new(fields) return end
+function gsmState_PreGameSession.new(fields) end

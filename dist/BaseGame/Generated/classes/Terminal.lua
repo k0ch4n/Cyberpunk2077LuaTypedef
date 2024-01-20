@@ -1,175 +1,143 @@
 ---@meta
 
 ---@class Terminal: InteractiveMasterDevice
----@field protected cameraFeed ScriptableVirtualCameraViewComponent
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
+---@field cameraFeed ScriptableVirtualCameraViewComponent
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
 Terminal = {}
 
 ---@param fields? Terminal
 ---@return Terminal
-function Terminal.new(fields) return end
+function Terminal.new(fields) end
 
----@protected
 ---@param evt ActionEngineering
 ---@return Bool
-function Terminal:OnActionEngineering(evt) return end
+function Terminal:OnActionEngineering(evt) end
 
----@protected
 ---@param evt AuthorizeUser
 ---@return Bool
-function Terminal:OnAuthorizeUser(evt) return end
+function Terminal:OnAuthorizeUser(evt) end
 
----@protected
 ---@return Bool
-function Terminal:OnDetach() return end
+function Terminal:OnDetach() end
 
----@protected
 ---@param evt DisassembleDevice
 ---@return Bool
-function Terminal:OnDisassembleDevice(evt) return end
+function Terminal:OnDisassembleDevice(evt) end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function Terminal:OnHitEvent(hit) return end
+function Terminal:OnHitEvent(hit) end
 
----@protected
 ---@param evt SetLogicReadyEvent
 ---@return Bool
-function Terminal:OnLogicReady(evt) return end
+function Terminal:OnLogicReady(evt) end
 
----@protected
 ---@param evt GameAttachedEvent
 ---@return Bool
-function Terminal:OnPersitentStateInitialized(evt) return end
+function Terminal:OnPersitentStateInitialized(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Terminal:OnRequestComponents(ri) return end
+function Terminal:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function Terminal:OnStopShortGlitch(evt) return end
+function Terminal:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Terminal:OnTakeControl(ri) return end
+function Terminal:OnTakeControl(ri) end
 
----@protected
 ---@param componentName CName|string
 ---@return Bool
-function Terminal:OnWorkspotFinished(componentName) return end
+function Terminal:OnWorkspotFinished(componentName) end
 
----@protected
 ---@return nil
-function Terminal:BreakDevice() return end
+function Terminal:BreakDevice() end
 
----@protected
 ---@return nil
-function Terminal:CreateBlackboard() return end
+function Terminal:CreateBlackboard() end
 
----@protected
 ---@return nil
-function Terminal:CutPower() return end
+function Terminal:CutPower() end
 
 ---@return EGameplayRole
-function Terminal:DeterminGameplayRole() return end
+function Terminal:DeterminGameplayRole() end
 
 ---@return MasterDeviceBaseBlackboardDef
-function Terminal:GetBlackboardDef() return end
+function Terminal:GetBlackboardDef() end
 
 ---@return redResourceReferenceScriptToken
-function Terminal:GetBroadcastGlitchVideoPath() return end
+function Terminal:GetBroadcastGlitchVideoPath() end
 
----@private
 ---@return TerminalController
-function Terminal:GetController() return end
+function Terminal:GetController() end
 
 ---@return redResourceReferenceScriptToken
-function Terminal:GetDefaultGlitchVideoPath() return end
+function Terminal:GetDefaultGlitchVideoPath() end
 
 ---@return TerminalControllerPS
-function Terminal:GetDevicePS() return end
+function Terminal:GetDevicePS() end
 
----@private
 ---@return nil
-function Terminal:InitializeScreenDefinition() return end
+function Terminal:InitializeScreenDefinition() end
 
 ---@return Bool
-function Terminal:IsAuthorizationModuleOn() return end
+function Terminal:IsAuthorizationModuleOn() end
 
----@protected
 ---@return nil
-function Terminal:ResetScreenToDefault() return end
+function Terminal:ResetScreenToDefault() end
 
----@protected
 ---@return nil
-function Terminal:ResolveGameplayState() return end
+function Terminal:ResolveGameplayState() end
 
----@protected
 ---@param state gameinteractionsReactionState
 ---@return nil
-function Terminal:SetState(state) return end
-
----@protected
----@return Bool
-function Terminal:ShouldAlwasyRefreshUIInLogicAra() return end
-
----@protected
----@return Bool
-function Terminal:ShouldExitZoomOnAuthorization() return end
+function Terminal:SetState(state) end
 
 ---@return Bool
-function Terminal:ShouldShowTerminalTitle() return end
+function Terminal:ShouldAlwasyRefreshUIInLogicAra() end
 
----@protected
+---@return Bool
+function Terminal:ShouldExitZoomOnAuthorization() end
+
+---@return Bool
+function Terminal:ShouldShowTerminalTitle() end
+
 ---@return nil
-function Terminal:ShowScreenSaver() return end
+function Terminal:ShowScreenSaver() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function Terminal:StartGlitching(glitchState, intensity) return end
+function Terminal:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@param executor gameObject
 ---@return nil
-function Terminal:StartHacking(executor) return end
+function Terminal:StartHacking(executor) end
 
----@private
 ---@return nil
-function Terminal:StartShortGlitch() return end
+function Terminal:StartShortGlitch() end
 
----@protected
 ---@return nil
-function Terminal:StopGlitching() return end
+function Terminal:StopGlitching() end
 
----@protected
 ---@return nil
-function Terminal:TurnOffDevice() return end
+function Terminal:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Terminal:TurnOffScreen() return end
+function Terminal:TurnOffScreen() end
 
----@protected
 ---@return nil
-function Terminal:TurnOnDevice() return end
+function Terminal:TurnOnDevice() end
 
----@protected
 ---@return nil
-function Terminal:TurnOnScreen() return end
+function Terminal:TurnOnScreen() end
 
----@private
 ---@return nil
-function Terminal:UnsecureTerminal() return end
+function Terminal:UnsecureTerminal() end
 
----@protected
 ---@param isDelayed? Bool
 ---@return Bool
-function Terminal:UpdateDeviceState(isDelayed) return end
+function Terminal:UpdateDeviceState(isDelayed) end

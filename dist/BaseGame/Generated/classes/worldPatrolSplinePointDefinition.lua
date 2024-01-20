@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldPatrolSplinePointDefinition: ISerializable
----@field public pointType worldPatrolSplinePointTypes
----@field public node NodeRef
----@field public target gameEntityReference
+---@field pointType worldPatrolSplinePointTypes
+---@field node NodeRef
+---@field target gameEntityReference
 worldPatrolSplinePointDefinition = {}
 
 ---@param fields? worldPatrolSplinePointDefinition
 ---@return worldPatrolSplinePointDefinition
-function worldPatrolSplinePointDefinition.new(fields) return end
+function worldPatrolSplinePointDefinition.new(fields) end

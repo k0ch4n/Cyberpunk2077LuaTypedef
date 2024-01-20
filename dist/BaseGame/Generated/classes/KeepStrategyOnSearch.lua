@@ -5,9 +5,8 @@ KeepStrategyOnSearch = {}
 
 ---@param fields? KeepStrategyOnSearch
 ---@return KeepStrategyOnSearch
-function KeepStrategyOnSearch.new(fields) return end
+function KeepStrategyOnSearch.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function KeepStrategyOnSearch:Check(context) return end
+function KeepStrategyOnSearch:Check(context) end

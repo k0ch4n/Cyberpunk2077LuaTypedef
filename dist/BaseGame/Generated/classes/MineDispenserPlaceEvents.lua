@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class MineDispenserPlaceEvents: MineDispenserEventsTransition
----@field private spawnPosition Vector4
----@field private spawnNormal Vector4
+---@field spawnPosition Vector4
+---@field spawnNormal Vector4
 MineDispenserPlaceEvents = {}
 
 ---@param fields? MineDispenserPlaceEvents
 ---@return MineDispenserPlaceEvents
-function MineDispenserPlaceEvents.new(fields) return end
+function MineDispenserPlaceEvents.new(fields) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return physicsTraceResult
-function MineDispenserPlaceEvents:FindPlaceForMine(scriptInterface) return end
+function MineDispenserPlaceEvents:FindPlaceForMine(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MineDispenserPlaceEvents:OnEnter(stateContext, scriptInterface) return end
+function MineDispenserPlaceEvents:OnEnter(stateContext, scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MineDispenserPlaceEvents:PlaceMine(scriptInterface) return end
+function MineDispenserPlaceEvents:PlaceMine(scriptInterface) end
 
----@private
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MineDispenserPlaceEvents:SetupSpawnParams(scriptInterface) return end
+function MineDispenserPlaceEvents:SetupSpawnParams(scriptInterface) end

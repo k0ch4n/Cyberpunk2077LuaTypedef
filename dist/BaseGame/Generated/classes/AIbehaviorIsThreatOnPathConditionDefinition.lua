@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorIsThreatOnPathConditionDefinition: AIbehaviorConditionDefinition
----@field public threatObject AIArgumentMapping
----@field public threatRadius AIArgumentMapping
+---@field threatObject AIArgumentMapping
+---@field threatRadius AIArgumentMapping
 AIbehaviorIsThreatOnPathConditionDefinition = {}
 
 ---@param fields? AIbehaviorIsThreatOnPathConditionDefinition
 ---@return AIbehaviorIsThreatOnPathConditionDefinition
-function AIbehaviorIsThreatOnPathConditionDefinition.new(fields) return end
+function AIbehaviorIsThreatOnPathConditionDefinition.new(fields) end

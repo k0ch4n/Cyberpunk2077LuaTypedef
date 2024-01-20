@@ -1,53 +1,47 @@
 ---@meta
 
 ---@class ApplyStatGroupEffector: gameEffector
----@field public target gameStatsObjectID
----@field public record TweakDBID
----@field public applicationTarget CName
----@field public modGroupID Uint64
----@field public stackCount Uint8
----@field public removeWithEffector Bool
----@field public reapplyOnWeaponChange Bool
----@field public owner gameObject
----@field public ownerSlotCallback ApplyStatGroupEffectorCallback
----@field public ownerSlotListener gameAttachmentSlotsScriptListener
+---@field target gameStatsObjectID
+---@field record TweakDBID
+---@field applicationTarget CName
+---@field modGroupID Uint64
+---@field stackCount Uint8
+---@field removeWithEffector Bool
+---@field reapplyOnWeaponChange Bool
+---@field owner gameObject
+---@field ownerSlotCallback ApplyStatGroupEffectorCallback
+---@field ownerSlotListener gameAttachmentSlotsScriptListener
 ApplyStatGroupEffector = {}
 
 ---@param fields? ApplyStatGroupEffector
 ---@return ApplyStatGroupEffector
-function ApplyStatGroupEffector.new(fields) return end
+function ApplyStatGroupEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatGroupEffector:ActionOff(owner) return end
+function ApplyStatGroupEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyStatGroupEffector:ActionOn(owner) return end
+function ApplyStatGroupEffector:ActionOn(owner) end
 
 ---@return nil
-function ApplyStatGroupEffector:ApplyModifierGroup() return end
+function ApplyStatGroupEffector:ApplyModifierGroup() end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ApplyStatGroupEffector:Initialize(record, parentRecord) return end
-
----@private
----@return nil
-function ApplyStatGroupEffector:ProcessEffector() return end
+function ApplyStatGroupEffector:Initialize(record, parentRecord) end
 
 ---@return nil
-function ApplyStatGroupEffector:RemoveModifierGroup() return end
+function ApplyStatGroupEffector:ProcessEffector() end
 
----@protected
+---@return nil
+function ApplyStatGroupEffector:RemoveModifierGroup() end
+
 ---@param owner gameObject
 ---@return nil
-function ApplyStatGroupEffector:RepeatedAction(owner) return end
+function ApplyStatGroupEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ApplyStatGroupEffector:Uninitialize() return end
+function ApplyStatGroupEffector:Uninitialize() end

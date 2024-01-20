@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AgentBase: IScriptable
----@field public id entEntityID
----@field public gameObject gameObject
----@field public spawnedType gameDynamicVehicleType
+---@field id entEntityID
+---@field gameObject gameObject
+---@field spawnedType gameDynamicVehicleType
 AgentBase = {}
 
 ---@param fields? AgentBase
 ---@return AgentBase
-function AgentBase.new(fields) return end
+function AgentBase.new(fields) end

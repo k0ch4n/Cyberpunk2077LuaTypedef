@@ -5,10 +5,10 @@ gamedataPhotoModeEffect_Record = {}
 
 ---@param fields? gamedataPhotoModeEffect_Record
 ---@return gamedataPhotoModeEffect_Record
-function gamedataPhotoModeEffect_Record.new(fields) return end
+function gamedataPhotoModeEffect_Record.new(fields) end
 
 ---@return CName
-function gamedataPhotoModeEffect_Record:HdrLutPath() return end
+function gamedataPhotoModeEffect_Record:HdrLutPath() end
 
 ---@return CName
-function gamedataPhotoModeEffect_Record:LutPath() return end
+function gamedataPhotoModeEffect_Record:LutPath() end

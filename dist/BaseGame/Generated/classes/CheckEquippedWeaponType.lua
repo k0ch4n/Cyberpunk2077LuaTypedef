@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class CheckEquippedWeaponType: AIItemHandlingCondition
----@field public weaponTypeToCheck CName
+---@field weaponTypeToCheck CName
 CheckEquippedWeaponType = {}
 
 ---@param fields? CheckEquippedWeaponType
 ---@return CheckEquippedWeaponType
-function CheckEquippedWeaponType.new(fields) return end
+function CheckEquippedWeaponType.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckEquippedWeaponType:Activate(context) return end
+function CheckEquippedWeaponType:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckEquippedWeaponType:Check(context) return end
+function CheckEquippedWeaponType:Check(context) end

@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetSkipDeathAnimationTask: AIbehaviortaskScript
----@field public value Bool
+---@field value Bool
 SetSkipDeathAnimationTask = {}
 
 ---@param fields? SetSkipDeathAnimationTask
 ---@return SetSkipDeathAnimationTask
-function SetSkipDeathAnimationTask.new(fields) return end
+function SetSkipDeathAnimationTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetSkipDeathAnimationTask:Activate(context) return end
+function SetSkipDeathAnimationTask:Activate(context) end

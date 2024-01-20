@@ -1,85 +1,74 @@
 ---@meta
 
 ---@class InventoryItemsList: inkWidgetLogicController
----@field protected InventoryItemName CName
----@field protected ItemsLayoutRef inkCompoundWidgetReference
----@field protected TooltipsData ATooltipData[]
----@field protected ItemsOwner gameObject
----@field protected ItemsLayout inkCompoundWidget
----@field protected InventoryItems inkWidget[]
----@field protected IsDevice Bool
----@field protected InventoryManager InventoryDataManagerV2
+---@field InventoryItemName CName
+---@field ItemsLayoutRef inkCompoundWidgetReference
+---@field TooltipsData ATooltipData[]
+---@field ItemsOwner gameObject
+---@field ItemsLayout inkCompoundWidget
+---@field InventoryItems inkWidget[]
+---@field IsDevice Bool
+---@field InventoryManager InventoryDataManagerV2
 InventoryItemsList = {}
 
 ---@param fields? InventoryItemsList
 ---@return InventoryItemsList
-function InventoryItemsList.new(fields) return end
+function InventoryItemsList.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function InventoryItemsList:OnButtonClick(controller) return end
+function InventoryItemsList:OnButtonClick(controller) end
 
----@protected
 ---@return Bool
-function InventoryItemsList:OnInitialize() return end
+function InventoryItemsList:OnInitialize() end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function InventoryItemsList:OnInventoryItemEnter(e) return end
+function InventoryItemsList:OnInventoryItemEnter(e) end
 
----@protected
 ---@param e inkWidget
 ---@return Bool
-function InventoryItemsList:OnInventoryItemExit(e) return end
+function InventoryItemsList:OnInventoryItemExit(e) end
 
----@protected
 ---@return Bool
-function InventoryItemsList:OnUninitialize() return end
+function InventoryItemsList:OnUninitialize() end
 
----@protected
 ---@return inkWidget
-function InventoryItemsList:CreateInventoryDisplay() return end
+function InventoryItemsList:CreateInventoryDisplay() end
 
----@protected
 ---@param itemDisplay inkWidget
 ---@return nil
-function InventoryItemsList:DeleteItemDisplay(itemDisplay) return end
+function InventoryItemsList:DeleteItemDisplay(itemDisplay) end
 
 ---@return ATooltipData[]
-function InventoryItemsList:GetTooltipsData() return end
+function InventoryItemsList:GetTooltipsData() end
 
----@protected
 ---@param e inkWidget
 ---@return nil
-function InventoryItemsList:OnItemClicked(e) return end
+function InventoryItemsList:OnItemClicked(e) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function InventoryItemsList:PrepareInventory(player) return end
+function InventoryItemsList:PrepareInventory(player) end
 
 ---@param player PlayerPuppet
 ---@param owner gameObject
 ---@return nil
-function InventoryItemsList:PrepareInventory(player, owner) return end
+function InventoryItemsList:PrepareInventory(player, owner) end
 
----@private
 ---@param tooltipItemData gameInventoryItemData
 ---@param equippedItemData gameInventoryItemData
 ---@return nil
-function InventoryItemsList:RefreshTooltips(tooltipItemData, equippedItemData) return end
+function InventoryItemsList:RefreshTooltips(tooltipItemData, equippedItemData) end
 
----@protected
 ---@param itemDisplay inkWidget
 ---@param itemData gameItemData
 ---@return nil
-function InventoryItemsList:SetupItemDisplay(itemDisplay, itemData) return end
+function InventoryItemsList:SetupItemDisplay(itemDisplay, itemData) end
 
 ---@param items gameItemData[]
 ---@return nil
-function InventoryItemsList:ShowInventory(items) return end
+function InventoryItemsList:ShowInventory(items) end
 
----@protected
 ---@return nil
-function InventoryItemsList:TooltipDataPostProcess() return end
+function InventoryItemsList:TooltipDataPostProcess() end

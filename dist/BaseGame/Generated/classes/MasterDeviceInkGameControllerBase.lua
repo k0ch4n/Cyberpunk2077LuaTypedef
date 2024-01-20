@@ -1,164 +1,134 @@
 ---@meta
 
 ---@class MasterDeviceInkGameControllerBase: DeviceInkGameControllerBase
----@field protected thumbnailWidgetsData SThumbnailWidgetPackage[]
----@field private onThumbnailWidgetsUpdateListener redCallbackObject
----@field private onCleanPasswordListener redCallbackObject
----@field private keypadController KeypadDeviceController
+---@field thumbnailWidgetsData SThumbnailWidgetPackage[]
+---@field onThumbnailWidgetsUpdateListener redCallbackObject
+---@field onCleanPasswordListener redCallbackObject
+---@field keypadController KeypadDeviceController
 MasterDeviceInkGameControllerBase = {}
 
 ---@param fields? MasterDeviceInkGameControllerBase
 ---@return MasterDeviceInkGameControllerBase
-function MasterDeviceInkGameControllerBase.new(fields) return end
+function MasterDeviceInkGameControllerBase.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function MasterDeviceInkGameControllerBase:OnCleanPassword(value) return end
+function MasterDeviceInkGameControllerBase:OnCleanPassword(value) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function MasterDeviceInkGameControllerBase:OnDeviceWidgetSpawned(widget, userData) return end
+function MasterDeviceInkGameControllerBase:OnDeviceWidgetSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function MasterDeviceInkGameControllerBase:OnInitialize() return end
+function MasterDeviceInkGameControllerBase:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function MasterDeviceInkGameControllerBase:OnThumbnailActionCallback(e) return end
+function MasterDeviceInkGameControllerBase:OnThumbnailActionCallback(e) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function MasterDeviceInkGameControllerBase:OnThumbnailWidgetSpawned(widget, userData) return end
+function MasterDeviceInkGameControllerBase:OnThumbnailWidgetSpawned(widget, userData) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function MasterDeviceInkGameControllerBase:OnThumbnailWidgetsUpdate(value) return end
+function MasterDeviceInkGameControllerBase:OnThumbnailWidgetsUpdate(value) end
 
----@protected
 ---@return Bool
-function MasterDeviceInkGameControllerBase:OnUninitialize() return end
+function MasterDeviceInkGameControllerBase:OnUninitialize() end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SThumbnailWidgetPackage
 ---@return inkWidget
-function MasterDeviceInkGameControllerBase:AddThumbnailWidget(widget, widgetData) return end
+function MasterDeviceInkGameControllerBase:AddThumbnailWidget(widget, widgetData) end
 
----@protected
 ---@param widgetData SThumbnailWidgetPackage
 ---@return nil
-function MasterDeviceInkGameControllerBase:AddThumbnailWidgetData(widgetData) return end
+function MasterDeviceInkGameControllerBase:AddThumbnailWidgetData(widgetData) end
 
----@protected
 ---@param parentWidget inkWidget
 ---@param widgetData SThumbnailWidgetPackage
 ---@return inkWidget
-function MasterDeviceInkGameControllerBase:CreateThumbnailWidget(parentWidget, widgetData) return end
+function MasterDeviceInkGameControllerBase:CreateThumbnailWidget(parentWidget, widgetData) end
 
----@protected
 ---@param parentWidget inkWidget
 ---@param widgetData SThumbnailWidgetPackage
 ---@return nil
-function MasterDeviceInkGameControllerBase:CreateThumbnailWidgetAsync(parentWidget, widgetData) return end
+function MasterDeviceInkGameControllerBase:CreateThumbnailWidgetAsync(parentWidget, widgetData) end
 
----@protected
 ---@return InteractiveMasterDevice
-function MasterDeviceInkGameControllerBase:GetOwner() return end
+function MasterDeviceInkGameControllerBase:GetOwner() end
 
----@protected
 ---@param widgetData SThumbnailWidgetPackage
 ---@return inkWidget
-function MasterDeviceInkGameControllerBase:GetThumbnailWidget(widgetData) return end
+function MasterDeviceInkGameControllerBase:GetThumbnailWidget(widgetData) end
 
----@protected
 ---@param widgetData SThumbnailWidgetPackage
 ---@return Int32
-function MasterDeviceInkGameControllerBase:GetThumbnailWidgetDataIndex(widgetData) return end
+function MasterDeviceInkGameControllerBase:GetThumbnailWidgetDataIndex(widgetData) end
 
----@protected
 ---@param widgetData SThumbnailWidgetPackage
 ---@return Bool
-function MasterDeviceInkGameControllerBase:HasThumbnailWidget(widgetData) return end
+function MasterDeviceInkGameControllerBase:HasThumbnailWidget(widgetData) end
 
----@protected
 ---@param widgetData SThumbnailWidgetPackage
 ---@return Bool
-function MasterDeviceInkGameControllerBase:HasThumbnailWidgetData(widgetData) return end
+function MasterDeviceInkGameControllerBase:HasThumbnailWidgetData(widgetData) end
 
----@protected
 ---@return nil
-function MasterDeviceInkGameControllerBase:HideThumbnailWidgets() return end
+function MasterDeviceInkGameControllerBase:HideThumbnailWidgets() end
 
----@protected
 ---@param widget inkWidget
 ---@param widgetData SThumbnailWidgetPackage
 ---@return nil
-function MasterDeviceInkGameControllerBase:InitializeThumbnailWidget(widget, widgetData) return end
+function MasterDeviceInkGameControllerBase:InitializeThumbnailWidget(widget, widgetData) end
 
----@protected
 ---@param deviceID gamePersistentID
 ---@return Bool
-function MasterDeviceInkGameControllerBase:IsOwner(deviceID) return end
+function MasterDeviceInkGameControllerBase:IsOwner(deviceID) end
 
----@protected
 ---@param state EDeviceStatus
 ---@return nil
-function MasterDeviceInkGameControllerBase:Refresh(state) return end
+function MasterDeviceInkGameControllerBase:Refresh(state) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function MasterDeviceInkGameControllerBase:RegisterBlackboardCallbacks(blackboard) return end
+function MasterDeviceInkGameControllerBase:RegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param devices gamePersistentID[]
 ---@return nil
-function MasterDeviceInkGameControllerBase:RequestDeviceWidgetsUpdate(devices) return end
+function MasterDeviceInkGameControllerBase:RequestDeviceWidgetsUpdate(devices) end
 
----@protected
 ---@param device gamePersistentID
 ---@return nil
-function MasterDeviceInkGameControllerBase:RequestDeviceWidgetsUpdate(device) return end
+function MasterDeviceInkGameControllerBase:RequestDeviceWidgetsUpdate(device) end
 
----@protected
 ---@return nil
-function MasterDeviceInkGameControllerBase:RequestThumbnailWidgetsUpdate() return end
+function MasterDeviceInkGameControllerBase:RequestThumbnailWidgetsUpdate() end
 
----@private
 ---@param widget inkWidget
 ---@return nil
-function MasterDeviceInkGameControllerBase:TrySaveKeypadController(widget) return end
+function MasterDeviceInkGameControllerBase:TrySaveKeypadController(widget) end
 
----@protected
 ---@param blackboard gameIBlackboard
 ---@return nil
-function MasterDeviceInkGameControllerBase:UnRegisterBlackboardCallbacks(blackboard) return end
+function MasterDeviceInkGameControllerBase:UnRegisterBlackboardCallbacks(blackboard) end
 
----@protected
 ---@param widgetsData SActionWidgetPackage[]
 ---@return nil
-function MasterDeviceInkGameControllerBase:UpdateActionWidgets(widgetsData) return end
+function MasterDeviceInkGameControllerBase:UpdateActionWidgets(widgetsData) end
 
----@protected
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
-function MasterDeviceInkGameControllerBase:UpdateDeviceWidgets(widgetsData) return end
+function MasterDeviceInkGameControllerBase:UpdateDeviceWidgets(widgetsData) end
 
----@protected
 ---@param widgetData SThumbnailWidgetPackage
 ---@param index Int32
 ---@return nil
-function MasterDeviceInkGameControllerBase:UpdateThumbnailWidgetData(widgetData, index) return end
+function MasterDeviceInkGameControllerBase:UpdateThumbnailWidgetData(widgetData, index) end
 
----@protected
 ---@param widgetsData SThumbnailWidgetPackage[]
 ---@return nil
-function MasterDeviceInkGameControllerBase:UpdateThumbnailWidgets(widgetsData) return end
+function MasterDeviceInkGameControllerBase:UpdateThumbnailWidgets(widgetsData) end

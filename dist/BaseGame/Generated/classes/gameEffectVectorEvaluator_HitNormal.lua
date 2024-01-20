@@ -5,4 +5,4 @@ gameEffectVectorEvaluator_HitNormal = {}
 
 ---@param fields? gameEffectVectorEvaluator_HitNormal
 ---@return gameEffectVectorEvaluator_HitNormal
-function gameEffectVectorEvaluator_HitNormal.new(fields) return end
+function gameEffectVectorEvaluator_HitNormal.new(fields) end

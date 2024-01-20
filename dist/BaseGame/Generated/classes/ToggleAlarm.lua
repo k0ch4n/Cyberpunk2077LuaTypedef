@@ -5,20 +5,20 @@ ToggleAlarm = {}
 
 ---@param fields? ToggleAlarm
 ---@return ToggleAlarm
-function ToggleAlarm.new(fields) return end
+function ToggleAlarm.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function ToggleAlarm.IsAvailable(device) return end
+function ToggleAlarm.IsAvailable(device) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ToggleAlarm.IsDefaultConditionMet(device, context) return end
+function ToggleAlarm.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function ToggleAlarm:GetTweakDBChoiceRecord() return end
+function ToggleAlarm:GetTweakDBChoiceRecord() end
 
 ---@param status ESecuritySystemState
 ---@return nil
-function ToggleAlarm:SetProperties(status) return end
+function ToggleAlarm:SetProperties(status) end

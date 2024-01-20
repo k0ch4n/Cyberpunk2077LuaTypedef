@@ -5,27 +5,27 @@ gameSourceShootComponent = {}
 
 ---@param fields? gameSourceShootComponent
 ---@return gameSourceShootComponent
-function gameSourceShootComponent.new(fields) return end
+function gameSourceShootComponent.new(fields) end
 
 ---@param lineToAppend String
 ---@return nil
-function gameSourceShootComponent:AppendDebugInformation(lineToAppend) return end
+function gameSourceShootComponent:AppendDebugInformation(lineToAppend) end
 
 ---@param target gameObject
 ---@return Bool
-function gameSourceShootComponent:CanSeeSecondaryPointOfTarget(target) return end
+function gameSourceShootComponent:CanSeeSecondaryPointOfTarget(target) end
 
 ---@return nil
-function gameSourceShootComponent:ClearDebugInformation() return end
+function gameSourceShootComponent:ClearDebugInformation() end
 
 ---@param target gameObject
 ---@return Bool, Float continuousLineOfSight
-function gameSourceShootComponent:GetContinuousLineOfSightToTarget(target) return end
+function gameSourceShootComponent:GetContinuousLineOfSightToTarget(target) end
 
 ---@param target gameObject
 ---@return Float
-function gameSourceShootComponent:GetLineOfSightTBHModifier(target) return end
+function gameSourceShootComponent:GetLineOfSightTBHModifier(target) end
 
 ---@param params TimeBetweenHitsParameters
 ---@return nil
-function gameSourceShootComponent:SetDebugParameters(params) return end
+function gameSourceShootComponent:SetDebugParameters(params) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamedataSimpleValueNode: gamedataValueDataNode
----@field public type gamedataSimpleValueNodeValueType
----@field public data String
+---@field type gamedataSimpleValueNodeValueType
+---@field data String
 gamedataSimpleValueNode = {}
 
 ---@param fields? gamedataSimpleValueNode
 ---@return gamedataSimpleValueNode
-function gamedataSimpleValueNode.new(fields) return end
+function gamedataSimpleValueNode.new(fields) end

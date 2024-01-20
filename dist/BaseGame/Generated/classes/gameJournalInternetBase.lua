@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class gameJournalInternetBase: IScriptable
----@field public name CName
----@field public linkAddress String
----@field public tintColor Color
----@field public hoverTintColor Color
+---@field name CName
+---@field linkAddress String
+---@field tintColor Color
+---@field hoverTintColor Color
 gameJournalInternetBase = {}
 
 ---@return Color
-function gameJournalInternetBase:GetColor() return end
+function gameJournalInternetBase:GetColor() end
 
 ---@return Color
-function gameJournalInternetBase:GetHoverColor() return end
+function gameJournalInternetBase:GetHoverColor() end
 
 ---@return String
-function gameJournalInternetBase:GetLinkAddress() return end
+function gameJournalInternetBase:GetLinkAddress() end
 
 ---@return CName
-function gameJournalInternetBase:GetName() return end
+function gameJournalInternetBase:GetName() end

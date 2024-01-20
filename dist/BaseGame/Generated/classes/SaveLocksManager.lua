@@ -1,36 +1,32 @@
 ---@meta
 
 ---@class SaveLocksManager: gameScriptableSystem
----@field private saveLocks CName[]
+---@field saveLocks CName[]
 SaveLocksManager = {}
 
 ---@param fields? SaveLocksManager
 ---@return SaveLocksManager
-function SaveLocksManager.new(fields) return end
+function SaveLocksManager.new(fields) end
 
 ---@param reason CName|string
 ---@return nil
-function SaveLocksManager.RequestSaveLockAdd(reason) return end
+function SaveLocksManager.RequestSaveLockAdd(reason) end
 
 ---@param reason CName|string
 ---@return nil
-function SaveLocksManager.RequestSaveLockRemove(reason) return end
+function SaveLocksManager.RequestSaveLockRemove(reason) end
 
----@private
 ---@param reason CName|string
 ---@return nil
-function SaveLocksManager:AddSaveLock(reason) return end
+function SaveLocksManager:AddSaveLock(reason) end
 
----@private
 ---@return Bool
-function SaveLocksManager:IsSavingLocked() return end
+function SaveLocksManager:IsSavingLocked() end
 
----@protected
 ---@param request SaveLockRequest
 ---@return nil
-function SaveLocksManager:OnSaveLockRequest(request) return end
+function SaveLocksManager:OnSaveLockRequest(request) end
 
----@private
 ---@param reason CName|string
 ---@return nil
-function SaveLocksManager:RemoveSaveLock(reason) return end
+function SaveLocksManager:RemoveSaveLock(reason) end

@@ -5,4 +5,4 @@ movePoliciesContractMoveToSmartObject = {}
 
 ---@param fields? movePoliciesContractMoveToSmartObject
 ---@return movePoliciesContractMoveToSmartObject
-function movePoliciesContractMoveToSmartObject.new(fields) return end
+function movePoliciesContractMoveToSmartObject.new(fields) end

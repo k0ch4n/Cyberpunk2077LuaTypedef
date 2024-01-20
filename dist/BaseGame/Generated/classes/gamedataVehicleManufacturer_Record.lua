@@ -5,13 +5,13 @@ gamedataVehicleManufacturer_Record = {}
 
 ---@param fields? gamedataVehicleManufacturer_Record
 ---@return gamedataVehicleManufacturer_Record
-function gamedataVehicleManufacturer_Record.new(fields) return end
+function gamedataVehicleManufacturer_Record.new(fields) end
 
 ---@return String
-function gamedataVehicleManufacturer_Record:EnumComment() return end
+function gamedataVehicleManufacturer_Record:EnumComment() end
 
 ---@return String
-function gamedataVehicleManufacturer_Record:EnumName() return end
+function gamedataVehicleManufacturer_Record:EnumName() end
 
 ---@return gamedataVehicleManufacturer
-function gamedataVehicleManufacturer_Record:Type() return end
+function gamedataVehicleManufacturer_Record:Type() end

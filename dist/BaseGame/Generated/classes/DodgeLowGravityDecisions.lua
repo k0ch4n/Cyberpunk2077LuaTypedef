@@ -5,16 +5,14 @@ DodgeLowGravityDecisions = {}
 
 ---@param fields? DodgeLowGravityDecisions
 ---@return DodgeLowGravityDecisions
-function DodgeLowGravityDecisions.new(fields) return end
+function DodgeLowGravityDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DodgeLowGravityDecisions:EnterCondition(stateContext, scriptInterface) return end
+function DodgeLowGravityDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function DodgeLowGravityDecisions:ToStandLowGravity(stateContext, scriptInterface) return end
+function DodgeLowGravityDecisions:ToStandLowGravity(stateContext, scriptInterface) end

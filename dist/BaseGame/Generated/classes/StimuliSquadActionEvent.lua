@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class StimuliSquadActionEvent: senseBaseStimuliEvent
----@field public squadActionName CName
----@field public squadVerb EAISquadVerb
+---@field squadActionName CName
+---@field squadVerb EAISquadVerb
 StimuliSquadActionEvent = {}
 
 ---@param fields? StimuliSquadActionEvent
 ---@return StimuliSquadActionEvent
-function StimuliSquadActionEvent.new(fields) return end
+function StimuliSquadActionEvent.new(fields) end
 
 ---@return String
-function StimuliSquadActionEvent:GetDescription() return end
+function StimuliSquadActionEvent:GetDescription() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class FunctionalTestsTimeChangeEvent: redEvent
----@field public listenerId Uint32
+---@field listenerId Uint32
 FunctionalTestsTimeChangeEvent = {}
 
 ---@param fields? FunctionalTestsTimeChangeEvent
 ---@return FunctionalTestsTimeChangeEvent
-function FunctionalTestsTimeChangeEvent.new(fields) return end
+function FunctionalTestsTimeChangeEvent.new(fields) end

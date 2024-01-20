@@ -1,76 +1,64 @@
 ---@meta
 
 ---@class PonrRewardsGameController: BaseModalListPopupGameController
----@field private gameInstance ScriptGameInstance
----@field private inventoryManager InventoryDataManagerV2
----@field private tooltipsManager gameuiTooltipsManager
----@field private rewardListInventoryItemGrid inkWidgetReference
----@field private rewardListInventoryWeaponGrid inkWidgetReference
----@field private rewardListRipperdocGrid inkWidgetReference
----@field private rewardListInventoryItemHolder inkWidgetReference
----@field private rewardListRipperdocHolder inkWidgetReference
----@field private tooltipsManagerRef inkWidgetReference
----@field private okayButton inkWidgetReference
----@field private endingAchievementArt inkImageWidgetReference
----@field private pointOfNoReturnBB gameIBlackboard
----@field private pointOfNoReturnRewardScreenDef UI_PointOfNoReturnRewardScreenDef
+---@field gameInstance ScriptGameInstance
+---@field inventoryManager InventoryDataManagerV2
+---@field tooltipsManager gameuiTooltipsManager
+---@field rewardListInventoryItemGrid inkWidgetReference
+---@field rewardListInventoryWeaponGrid inkWidgetReference
+---@field rewardListRipperdocGrid inkWidgetReference
+---@field rewardListInventoryItemHolder inkWidgetReference
+---@field rewardListRipperdocHolder inkWidgetReference
+---@field tooltipsManagerRef inkWidgetReference
+---@field okayButton inkWidgetReference
+---@field endingAchievementArt inkImageWidgetReference
+---@field pointOfNoReturnBB gameIBlackboard
+---@field pointOfNoReturnRewardScreenDef UI_PointOfNoReturnRewardScreenDef
 PonrRewardsGameController = {}
 
 ---@param fields? PonrRewardsGameController
 ---@return PonrRewardsGameController
-function PonrRewardsGameController.new(fields) return end
+function PonrRewardsGameController.new(fields) end
 
----@protected
 ---@return Bool
-function PonrRewardsGameController:OnInitialize() return end
+function PonrRewardsGameController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PonrRewardsGameController:OnInventoryItemHoverOut(evt) return end
+function PonrRewardsGameController:OnInventoryItemHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function PonrRewardsGameController:OnInventoryItemHoverOver(evt) return end
+function PonrRewardsGameController:OnInventoryItemHoverOver(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PonrRewardsGameController:OnOkayRelease(e) return end
+function PonrRewardsGameController:OnOkayRelease(e) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function PonrRewardsGameController:OnPlayerAttach(playerPuppet) return end
+function PonrRewardsGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@return Bool
-function PonrRewardsGameController:OnUninitialize() return end
+function PonrRewardsGameController:OnUninitialize() end
 
----@private
 ---@param evt inkPointerEvent
 ---@return InventoryItemDisplayController
-function PonrRewardsGameController:GetInventoryItemDisplayControllerFromTarget(evt) return end
+function PonrRewardsGameController:GetInventoryItemDisplayControllerFromTarget(evt) end
 
----@private
 ---@return nil
-function PonrRewardsGameController:Hide() return end
+function PonrRewardsGameController:Hide() end
 
----@private
 ---@param itemData gameInventoryItemData
 ---@param widget inkWidget
 ---@return nil
-function PonrRewardsGameController:InventoryItemHoverOver(itemData, widget) return end
+function PonrRewardsGameController:InventoryItemHoverOver(itemData, widget) end
 
----@protected
 ---@return nil
-function PonrRewardsGameController:OnClose() return end
+function PonrRewardsGameController:OnClose() end
 
----@private
 ---@return nil
-function PonrRewardsGameController:PopulateData() return end
+function PonrRewardsGameController:PopulateData() end
 
----@private
 ---@return nil
-function PonrRewardsGameController:Show() return end
+function PonrRewardsGameController:Show() end

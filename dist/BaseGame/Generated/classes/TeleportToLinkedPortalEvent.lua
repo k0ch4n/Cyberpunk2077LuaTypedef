@@ -5,4 +5,4 @@ TeleportToLinkedPortalEvent = {}
 
 ---@param fields? TeleportToLinkedPortalEvent
 ---@return TeleportToLinkedPortalEvent
-function TeleportToLinkedPortalEvent.new(fields) return end
+function TeleportToLinkedPortalEvent.new(fields) end

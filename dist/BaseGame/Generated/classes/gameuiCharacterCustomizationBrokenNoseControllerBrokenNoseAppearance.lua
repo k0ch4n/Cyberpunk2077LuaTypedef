@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
----@field public resource appearanceAppearanceResource
----@field public definition CName
+---@field resource appearanceAppearanceResource
+---@field definition CName
 gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance = {}
 
 ---@param fields? gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
 ---@return gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance
-function gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance.new(fields) return end
+function gameuiCharacterCustomizationBrokenNoseControllerBrokenNoseAppearance.new(fields) end

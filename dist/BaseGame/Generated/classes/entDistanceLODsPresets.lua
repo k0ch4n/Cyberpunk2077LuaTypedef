@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entDistanceLODsPresets: ISerializable
----@field public definitions entLODDefinition
+---@field definitions entLODDefinition
 entDistanceLODsPresets = {}
 
 ---@param fields? entDistanceLODsPresets
 ---@return entDistanceLODsPresets
-function entDistanceLODsPresets.new(fields) return end
+function entDistanceLODsPresets.new(fields) end

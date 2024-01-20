@@ -5,4 +5,4 @@ entLocomotionSlideEvent = {}
 
 ---@param fields? entLocomotionSlideEvent
 ---@return entLocomotionSlideEvent
-function entLocomotionSlideEvent.new(fields) return end
+function entLocomotionSlideEvent.new(fields) end

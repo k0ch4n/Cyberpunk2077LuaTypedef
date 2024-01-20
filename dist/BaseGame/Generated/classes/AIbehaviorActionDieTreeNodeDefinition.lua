@@ -5,4 +5,4 @@ AIbehaviorActionDieTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorActionDieTreeNodeDefinition
 ---@return AIbehaviorActionDieTreeNodeDefinition
-function AIbehaviorActionDieTreeNodeDefinition.new(fields) return end
+function AIbehaviorActionDieTreeNodeDefinition.new(fields) end

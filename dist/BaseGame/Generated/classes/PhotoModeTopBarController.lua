@@ -1,41 +1,38 @@
 ---@meta
 
 ---@class PhotoModeTopBarController: inkRadioGroupController
----@field private photoModeTogglesArray inkWidgetReference[]
+---@field photoModeTogglesArray inkWidgetReference[]
 PhotoModeTopBarController = {}
 
 ---@param fields? PhotoModeTopBarController
 ---@return PhotoModeTopBarController
-function PhotoModeTopBarController.new(fields) return end
+function PhotoModeTopBarController.new(fields) end
 
----@protected
 ---@return Bool
-function PhotoModeTopBarController:OnInitialize() return end
+function PhotoModeTopBarController:OnInitialize() end
 
 ---@param e inkPointerEvent
 ---@param gameCtrl? gameuiWidgetGameController
 ---@return nil
-function PhotoModeTopBarController:HandleInput(e, gameCtrl) return end
+function PhotoModeTopBarController:HandleInput(e, gameCtrl) end
 
----@protected
 ---@param currentIndex Int32
 ---@return Bool
-function PhotoModeTopBarController:SelectNextToggle(currentIndex) return end
+function PhotoModeTopBarController:SelectNextToggle(currentIndex) end
 
----@protected
 ---@param currentIndex Int32
 ---@return Bool
-function PhotoModeTopBarController:SelectPreviousToggle(currentIndex) return end
+function PhotoModeTopBarController:SelectPreviousToggle(currentIndex) end
 
 ---@param toggleToSelect PhotoModeToggle
 ---@return nil
-function PhotoModeTopBarController:SelectToggle(toggleToSelect) return end
+function PhotoModeTopBarController:SelectToggle(toggleToSelect) end
 
 ---@param interactive Bool
 ---@return nil
-function PhotoModeTopBarController:SetInteractive(interactive) return end
+function PhotoModeTopBarController:SetInteractive(interactive) end
 
 ---@param index Int32
 ---@param enabled Bool
 ---@return nil
-function PhotoModeTopBarController:SetToggleEnabled(index, enabled) return end
+function PhotoModeTopBarController:SetToggleEnabled(index, enabled) end

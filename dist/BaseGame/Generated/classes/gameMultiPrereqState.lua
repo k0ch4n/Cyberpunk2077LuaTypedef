@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMultiPrereqState: gamePrereqState
----@field public nestedStates gamePrereqState[]
+---@field nestedStates gamePrereqState[]
 gameMultiPrereqState = {}
 
 ---@param fields? gameMultiPrereqState
 ---@return gameMultiPrereqState
-function gameMultiPrereqState.new(fields) return end
+function gameMultiPrereqState.new(fields) end

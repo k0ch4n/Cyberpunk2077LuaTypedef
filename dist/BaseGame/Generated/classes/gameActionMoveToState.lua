@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameActionMoveToState: gameActionReplicatedState
----@field public targetPos Vector3
----@field public toleranceRadius Float
----@field public rotateEntity Bool
----@field public moveStyle Uint32
+---@field targetPos Vector3
+---@field toleranceRadius Float
+---@field rotateEntity Bool
+---@field moveStyle Uint32
 gameActionMoveToState = {}
 
 ---@param fields? gameActionMoveToState
 ---@return gameActionMoveToState
-function gameActionMoveToState.new(fields) return end
+function gameActionMoveToState.new(fields) end

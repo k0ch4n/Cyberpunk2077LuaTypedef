@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questIsAnyAlive_ConditionType: questIDynamicSpawnSystemConditionType
----@field public waveTag CName
----@field public inverted Bool
+---@field waveTag CName
+---@field inverted Bool
 questIsAnyAlive_ConditionType = {}
 
 ---@param fields? questIsAnyAlive_ConditionType
 ---@return questIsAnyAlive_ConditionType
-function questIsAnyAlive_ConditionType.new(fields) return end
+function questIsAnyAlive_ConditionType.new(fields) end

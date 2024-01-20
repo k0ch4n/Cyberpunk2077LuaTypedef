@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameuiSideScrollerMiniGameLogicControllerAdvanced: inkWidgetLogicController
----@field public playerLibraryName CName
----@field public playerColliderPositionOffset Vector2
----@field public playerColliderSizeOffset Vector2
----@field public gameplayRoot inkCompoundWidgetReference
----@field public baseSpeed Float
----@field public layers inkWidgetReference[]
----@field public cheatCodes gameuiSideScrollerCheatCode[]
----@field public acceptableCheatKeys CName[]
+---@field playerLibraryName CName
+---@field playerColliderPositionOffset Vector2
+---@field playerColliderSizeOffset Vector2
+---@field gameplayRoot inkCompoundWidgetReference
+---@field baseSpeed Float
+---@field layers inkWidgetReference[]
+---@field cheatCodes gameuiSideScrollerCheatCode[]
+---@field acceptableCheatKeys CName[]
 gameuiSideScrollerMiniGameLogicControllerAdvanced = {}
 
 ---@return nil
-function gameuiSideScrollerMiniGameLogicControllerAdvanced:FinishGame() return end
+function gameuiSideScrollerMiniGameLogicControllerAdvanced:FinishGame() end

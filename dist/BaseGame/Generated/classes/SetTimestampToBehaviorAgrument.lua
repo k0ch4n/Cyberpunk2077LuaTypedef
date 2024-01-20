@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetTimestampToBehaviorAgrument: AIbehaviortaskScript
----@field public timestampArgument CName
+---@field timestampArgument CName
 SetTimestampToBehaviorAgrument = {}
 
 ---@param fields? SetTimestampToBehaviorAgrument
 ---@return SetTimestampToBehaviorAgrument
-function SetTimestampToBehaviorAgrument.new(fields) return end
+function SetTimestampToBehaviorAgrument.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetTimestampToBehaviorAgrument:Activate(context) return end
+function SetTimestampToBehaviorAgrument:Activate(context) end

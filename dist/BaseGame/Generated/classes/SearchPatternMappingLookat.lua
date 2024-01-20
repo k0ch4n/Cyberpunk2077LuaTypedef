@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class SearchPatternMappingLookat: AISearchingLookat
----@field public targetObjectMapping AIArgumentMapping
----@field protected lookatTargetObject gameObject
+---@field targetObjectMapping AIArgumentMapping
+---@field lookatTargetObject gameObject
 SearchPatternMappingLookat = {}
 
 ---@param fields? SearchPatternMappingLookat
 ---@return SearchPatternMappingLookat
-function SearchPatternMappingLookat.new(fields) return end
+function SearchPatternMappingLookat.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Vector4
-function SearchPatternMappingLookat:GetLookatTargetPosition(context) return end
+function SearchPatternMappingLookat:GetLookatTargetPosition(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function SearchPatternMappingLookat:InitializeMemberVariables(context) return end
+function SearchPatternMappingLookat:InitializeMemberVariables(context) end

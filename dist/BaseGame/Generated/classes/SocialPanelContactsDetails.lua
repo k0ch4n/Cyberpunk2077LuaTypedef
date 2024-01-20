@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SocialPanelContactsDetails: inkWidgetLogicController
----@field private ContactAvatarRef inkImageWidgetReference
----@field private ContactNameRef inkTextWidgetReference
----@field private ContactDescriptionRef inkTextWidgetReference
+---@field ContactAvatarRef inkImageWidgetReference
+---@field ContactNameRef inkTextWidgetReference
+---@field ContactDescriptionRef inkTextWidgetReference
 SocialPanelContactsDetails = {}
 
 ---@param fields? SocialPanelContactsDetails
 ---@return SocialPanelContactsDetails
-function SocialPanelContactsDetails.new(fields) return end
+function SocialPanelContactsDetails.new(fields) end
 
 ---@param contactToShow gameJournalContact
 ---@param journalManager gameIJournalManager
 ---@return nil
-function SocialPanelContactsDetails:ShowContact(contactToShow, journalManager) return end
+function SocialPanelContactsDetails:ShowContact(contactToShow, journalManager) end

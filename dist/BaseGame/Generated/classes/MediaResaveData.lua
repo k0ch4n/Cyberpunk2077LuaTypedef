@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MediaResaveData
----@field public mediaDeviceData MediaDeviceData
+---@field mediaDeviceData MediaDeviceData
 MediaResaveData = {}
 
 ---@param fields? MediaResaveData
 ---@return MediaResaveData
-function MediaResaveData.new(fields) return end
+function MediaResaveData.new(fields) end

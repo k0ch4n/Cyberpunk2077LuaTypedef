@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class DismembermentTriggeredPrereq: gameIScriptablePrereq
----@field public currValue Uint32
+---@field currValue Uint32
 DismembermentTriggeredPrereq = {}
 
 ---@param fields? DismembermentTriggeredPrereq
 ---@return DismembermentTriggeredPrereq
-function DismembermentTriggeredPrereq.new(fields) return end
+function DismembermentTriggeredPrereq.new(fields) end
 
 ---@param value Uint32
 ---@return Bool
-function DismembermentTriggeredPrereq:Evaluate(value) return end
+function DismembermentTriggeredPrereq:Evaluate(value) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function DismembermentTriggeredPrereq:OnRegister(state, context) return end
+function DismembermentTriggeredPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function DismembermentTriggeredPrereq:OnUnregister(state, context) return end
+function DismembermentTriggeredPrereq:OnUnregister(state, context) end

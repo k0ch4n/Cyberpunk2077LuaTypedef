@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class InventoryTypeComparableItemsCache: IScriptable
----@field public itemType gamedataItemType
----@field public cache InventoryItemComparableTypesCache
----@field public items UIInventoryItem[]
+---@field itemType gamedataItemType
+---@field cache InventoryItemComparableTypesCache
+---@field items UIInventoryItem[]
 InventoryTypeComparableItemsCache = {}
 
 ---@param fields? InventoryTypeComparableItemsCache
 ---@return InventoryTypeComparableItemsCache
-function InventoryTypeComparableItemsCache.new(fields) return end
+function InventoryTypeComparableItemsCache.new(fields) end

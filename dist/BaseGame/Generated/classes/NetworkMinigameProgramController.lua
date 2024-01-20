@@ -1,47 +1,45 @@
 ---@meta
 
 ---@class NetworkMinigameProgramController: inkWidgetLogicController
----@field protected text inkTextWidgetReference
----@field protected commandElementSlotsContainer inkWidgetReference[]
----@field protected elementLibraryName CName
----@field protected completedMarker inkWidgetReference
----@field protected imageRef inkImageWidgetReference
----@field protected slotList NetworkMinigameElementController[][]
----@field protected data ProgramData
----@field private animProxy inkanimProxy
+---@field text inkTextWidgetReference
+---@field commandElementSlotsContainer inkWidgetReference[]
+---@field elementLibraryName CName
+---@field completedMarker inkWidgetReference
+---@field imageRef inkImageWidgetReference
+---@field slotList NetworkMinigameElementController[][]
+---@field data ProgramData
+---@field animProxy inkanimProxy
 NetworkMinigameProgramController = {}
 
 ---@param fields? NetworkMinigameProgramController
 ---@return NetworkMinigameProgramController
-function NetworkMinigameProgramController.new(fields) return end
+function NetworkMinigameProgramController.new(fields) end
 
----@protected
 ---@return Bool
-function NetworkMinigameProgramController:OnInitialize() return end
+function NetworkMinigameProgramController:OnInitialize() end
 
 ---@return ProgramData
-function NetworkMinigameProgramController:GetData() return end
+function NetworkMinigameProgramController:GetData() end
 
 ---@param anim CName|string
 ---@return nil
-function NetworkMinigameProgramController:PlayAnim(anim) return end
+function NetworkMinigameProgramController:PlayAnim(anim) end
 
 ---@return nil
-function NetworkMinigameProgramController:RefreshImage() return end
+function NetworkMinigameProgramController:RefreshImage() end
 
----@private
 ---@param lastHighlighted Int32[]
 ---@return nil
-function NetworkMinigameProgramController:SetHighlightedUpUntil(lastHighlighted) return end
+function NetworkMinigameProgramController:SetHighlightedUpUntil(lastHighlighted) end
 
 ---@param revealLocalizedName Bool
 ---@return nil
-function NetworkMinigameProgramController:ShowCompleted(revealLocalizedName) return end
+function NetworkMinigameProgramController:ShowCompleted(revealLocalizedName) end
 
 ---@param data ProgramData
 ---@return nil
-function NetworkMinigameProgramController:Spawn(data) return end
+function NetworkMinigameProgramController:Spawn(data) end
 
 ---@param progress ProgramProgressData
 ---@return nil
-function NetworkMinigameProgramController:UpdatePartialCompletionState(progress) return end
+function NetworkMinigameProgramController:UpdatePartialCompletionState(progress) end

@@ -1,36 +1,34 @@
 ---@meta
 
 ---@class ComputerBannerWidgetController: DeviceInkLogicControllerBase
----@field protected titleWidget inkTextWidgetReference
----@field protected textContentWidget inkTextWidgetReference
----@field protected videoContentWidget inkVideoWidgetReference
----@field protected imageContentWidget inkImageWidgetReference
----@field protected bannerButtonWidget inkWidgetReference
----@field private bannerData SBannerWidgetPackage
----@field private lastPlayedVideo redResourceReferenceScriptToken
+---@field titleWidget inkTextWidgetReference
+---@field textContentWidget inkTextWidgetReference
+---@field videoContentWidget inkVideoWidgetReference
+---@field imageContentWidget inkImageWidgetReference
+---@field bannerButtonWidget inkWidgetReference
+---@field bannerData SBannerWidgetPackage
+---@field lastPlayedVideo redResourceReferenceScriptToken
 ComputerBannerWidgetController = {}
 
 ---@param fields? ComputerBannerWidgetController
 ---@return ComputerBannerWidgetController
-function ComputerBannerWidgetController.new(fields) return end
+function ComputerBannerWidgetController.new(fields) end
 
 ---@return SBannerWidgetPackage
-function ComputerBannerWidgetController:GetBannerData() return end
+function ComputerBannerWidgetController:GetBannerData() end
 
 ---@param gameController ComputerInkGameController
 ---@param widgetData SBannerWidgetPackage
 ---@return nil
-function ComputerBannerWidgetController:Initialize(gameController, widgetData) return end
+function ComputerBannerWidgetController:Initialize(gameController, widgetData) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function ComputerBannerWidgetController:RegisterBannerCallback(gameController) return end
+function ComputerBannerWidgetController:RegisterBannerCallback(gameController) end
 
----@protected
 ---@param content redResourceReferenceScriptToken
 ---@return nil
-function ComputerBannerWidgetController:ResolveContent(content) return end
+function ComputerBannerWidgetController:ResolveContent(content) end
 
 ---@return nil
-function ComputerBannerWidgetController:StopVideo() return end
+function ComputerBannerWidgetController:StopVideo() end

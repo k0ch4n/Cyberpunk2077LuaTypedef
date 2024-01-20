@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameNetrunnerPrototypeStruct
----@field public key CName
----@field public entityTemplate entEntityTemplate
+---@field key CName
+---@field entityTemplate entEntityTemplate
 gameNetrunnerPrototypeStruct = {}
 
 ---@param fields? gameNetrunnerPrototypeStruct
 ---@return gameNetrunnerPrototypeStruct
-function gameNetrunnerPrototypeStruct.new(fields) return end
+function gameNetrunnerPrototypeStruct.new(fields) end

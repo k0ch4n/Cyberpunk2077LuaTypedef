@@ -5,10 +5,10 @@ Codeware_UI_InMenuPopupFooter = {}
 
 ---@param fields? Codeware_UI_InMenuPopupFooter
 ---@return Codeware_UI_InMenuPopupFooter
-function Codeware_UI_InMenuPopupFooter.new(fields) return end
+function Codeware_UI_InMenuPopupFooter.new(fields) end
 
 ---@return Codeware_UI_InMenuPopupFooter
-function Codeware_UI_InMenuPopupFooter.Create() return end
+function Codeware_UI_InMenuPopupFooter.Create() end
 
 ---@return nil
-function Codeware_UI_InMenuPopupFooter:OnCreate() return end
+function Codeware_UI_InMenuPopupFooter:OnCreate() end

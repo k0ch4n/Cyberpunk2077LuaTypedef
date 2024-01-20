@@ -3,38 +3,31 @@
 ---@class BraindanceControlsTransition: DefaultTransition
 BraindanceControlsTransition = {}
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:ApplyBraindanceRestriction(scriptInterface) return end
+function BraindanceControlsTransition:ApplyBraindanceRestriction(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:ApplyNoHubRestrictionOnLocalPlayer(scriptInterface) return end
+function BraindanceControlsTransition:ApplyNoHubRestrictionOnLocalPlayer(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:ApplyNoMovementRestriction(scriptInterface) return end
+function BraindanceControlsTransition:ApplyNoMovementRestriction(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param layer braindanceVisionMode
 ---@return Bool
-function BraindanceControlsTransition:CanBraindanceEnterLayer(scriptInterface, layer) return end
+function BraindanceControlsTransition:CanBraindanceEnterLayer(scriptInterface, layer) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:CheckPlayBackwardInput(scriptInterface) return end
+function BraindanceControlsTransition:CheckPlayBackwardInput(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:CheckPlayForwardInput(scriptInterface) return end
+function BraindanceControlsTransition:CheckPlayForwardInput(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param fppPosition Vector4
 ---@param fppOrientationEuler EulerAngles
@@ -42,281 +35,230 @@ function BraindanceControlsTransition:CheckPlayForwardInput(scriptInterface) ret
 ---@param distance Float
 ---@param radius Float
 ---@return Float, Vector4 outPosition
-function BraindanceControlsTransition:CheckTargetThirdPersonPositionCollisions(scriptInterface, fppPosition, fppOrientationEuler, angle, distance, radius) return end
+function BraindanceControlsTransition:CheckTargetThirdPersonPositionCollisions(scriptInterface, fppPosition, fppOrientationEuler, angle, distance, radius) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:CycleBraindanceVisionMode(scriptInterface) return end
+function BraindanceControlsTransition:CycleBraindanceVisionMode(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param direction scnPlayDirection
 ---@return nil
-function BraindanceControlsTransition:CyclePlaySpeed(scriptInterface, direction) return end
+function BraindanceControlsTransition:CyclePlaySpeed(scriptInterface, direction) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:EnableBraindanceLocomoition(scriptInterface) return end
+function BraindanceControlsTransition:EnableBraindanceLocomoition(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function BraindanceControlsTransition:ForceBraindancePause(scriptInterface, stateContext) return end
+function BraindanceControlsTransition:ForceBraindancePause(scriptInterface, stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetBdCameraToggleInput(scriptInterface) return end
+function BraindanceControlsTransition:GetBdCameraToggleInput(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return SBraindanceInputMask
-function BraindanceControlsTransition:GetBraindanceInputMask(scriptInterface) return end
+function BraindanceControlsTransition:GetBraindanceInputMask(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetBraindancePauseInput(scriptInterface) return end
+function BraindanceControlsTransition:GetBraindancePauseInput(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return scnPlaySpeed
-function BraindanceControlsTransition:GetCachedPlaySpeedPermVariable(stateContext) return end
+function BraindanceControlsTransition:GetCachedPlaySpeedPermVariable(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetChangeBraindanceStateRequest(scriptInterface) return end
+function BraindanceControlsTransition:GetChangeBraindanceStateRequest(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return braindanceVisionMode
-function BraindanceControlsTransition:GetCurrentBraindanceVisionMode(scriptInterface) return end
+function BraindanceControlsTransition:GetCurrentBraindanceVisionMode(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function BraindanceControlsTransition:GetDistanceFromBraindanceTPPCameraToFPPCamera(scriptInterface) return end
+function BraindanceControlsTransition:GetDistanceFromBraindanceTPPCameraToFPPCamera(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return braindanceVisionMode
-function BraindanceControlsTransition:GetLastBraindanceVisionMode(scriptInterface) return end
+function BraindanceControlsTransition:GetLastBraindanceVisionMode(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetPauseBraindanceRequest(scriptInterface) return end
+function BraindanceControlsTransition:GetPauseBraindanceRequest(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetPlayBackwardInput(scriptInterface) return end
+function BraindanceControlsTransition:GetPlayBackwardInput(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetPlayForwardInput(scriptInterface) return end
+function BraindanceControlsTransition:GetPlayForwardInput(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetRequestedEditorState(scriptInterface) return end
+function BraindanceControlsTransition:GetRequestedEditorState(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetRestartInput(scriptInterface) return end
+function BraindanceControlsTransition:GetRestartInput(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:GetSwitchLayerInput(scriptInterface) return end
+function BraindanceControlsTransition:GetSwitchLayerInput(scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function BraindanceControlsTransition:IsCachedPlaySpeedSet(stateContext) return end
+function BraindanceControlsTransition:IsCachedPlaySpeedSet(stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:IsInEditorMode(scriptInterface) return end
+function BraindanceControlsTransition:IsInEditorMode(scriptInterface) end
 
----@protected
 ---@param BlockPerspectiveSwitchTimer Float
 ---@return Bool
-function BraindanceControlsTransition:IsPerspectiveTransitionOn(BlockPerspectiveSwitchTimer) return end
+function BraindanceControlsTransition:IsPerspectiveTransitionOn(BlockPerspectiveSwitchTimer) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:IsProgressAtBeggining(scriptInterface) return end
+function BraindanceControlsTransition:IsProgressAtBeggining(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:IsProgressAtEnd(scriptInterface) return end
+function BraindanceControlsTransition:IsProgressAtEnd(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function BraindanceControlsTransition:IsResetting(scriptInterface) return end
+function BraindanceControlsTransition:IsResetting(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:OnBraindancePerspectiveChangedFromFirstPersonToThirdPerson(scriptInterface) return end
+function BraindanceControlsTransition:OnBraindancePerspectiveChangedFromFirstPersonToThirdPerson(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:PrintDebugInfo(scriptInterface) return end
+function BraindanceControlsTransition:PrintDebugInfo(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:RemoveBraindanceRestriction(scriptInterface) return end
+function BraindanceControlsTransition:RemoveBraindanceRestriction(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:RemoveNoHubRestrictionFromLocalPlayer(scriptInterface) return end
+function BraindanceControlsTransition:RemoveNoHubRestrictionFromLocalPlayer(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:RemoveNoMovementRestriction(scriptInterface) return end
+function BraindanceControlsTransition:RemoveNoMovementRestriction(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:RemoveUiGameContext(scriptInterface) return end
+function BraindanceControlsTransition:RemoveUiGameContext(scriptInterface) end
 
----@protected
 ---@param enable Bool
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:SendAudioEventForBraindance(enable, scriptInterface) return end
+function BraindanceControlsTransition:SendAudioEventForBraindance(enable, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param BdStart Bool
 ---@return nil
-function BraindanceControlsTransition:SendAudioEvents(scriptInterface, BdStart) return end
+function BraindanceControlsTransition:SendAudioEvents(scriptInterface, BdStart) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:SendClearBraindancePauseRequest(scriptInterface) return end
+function BraindanceControlsTransition:SendClearBraindancePauseRequest(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:SendClearBraindanceStateRequest(scriptInterface) return end
+function BraindanceControlsTransition:SendClearBraindanceStateRequest(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@param newState Bool
 ---@return nil, Float blendTime
-function BraindanceControlsTransition:SetBraindanceState(scriptInterface, stateContext, newState) return end
+function BraindanceControlsTransition:SetBraindanceState(scriptInterface, stateContext, newState) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param uiContext UIGameContext
 ---@return nil
-function BraindanceControlsTransition:SetBraindanceUiGameContext(scriptInterface, uiContext) return end
+function BraindanceControlsTransition:SetBraindanceUiGameContext(scriptInterface, uiContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newMode braindanceVisionMode
 ---@return nil
-function BraindanceControlsTransition:SetBraindanceVisionFact(scriptInterface, newMode) return end
+function BraindanceControlsTransition:SetBraindanceVisionFact(scriptInterface, newMode) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newMode braindanceVisionMode
 ---@return nil
-function BraindanceControlsTransition:SetBraindanceVisionMode(scriptInterface, newMode) return end
+function BraindanceControlsTransition:SetBraindanceVisionMode(scriptInterface, newMode) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newMode braindanceVisionMode
 ---@return nil
-function BraindanceControlsTransition:SetBraindaneVisionModeBB(scriptInterface, newMode) return end
+function BraindanceControlsTransition:SetBraindaneVisionModeBB(scriptInterface, newMode) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function BraindanceControlsTransition:SetCachedPlaySpeedPermVariable(scriptInterface, stateContext) return end
+function BraindanceControlsTransition:SetCachedPlaySpeedPermVariable(scriptInterface, stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@param setState Bool
 ---@return nil, Float blendTime
-function BraindanceControlsTransition:SetCameraControl(scriptInterface, stateContext, setState) return end
+function BraindanceControlsTransition:SetCameraControl(scriptInterface, stateContext, setState) end
 
----@protected
 ---@param newState Bool
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:SetEndRecordingNotificationState(newState, scriptInterface) return end
+function BraindanceControlsTransition:SetEndRecordingNotificationState(newState, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param newMode braindanceVisionMode
 ---@return nil
-function BraindanceControlsTransition:SetLastBraindanceVisionMode(scriptInterface, newMode) return end
+function BraindanceControlsTransition:SetLastBraindanceVisionMode(scriptInterface, newMode) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param direction scnPlayDirection
 ---@param speed scnPlaySpeed
 ---@return nil
-function BraindanceControlsTransition:SetPlaySpeedAndDirection(scriptInterface, direction, speed) return end
+function BraindanceControlsTransition:SetPlaySpeedAndDirection(scriptInterface, direction, speed) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param direction scnPlayDirection
 ---@return nil
-function BraindanceControlsTransition:SetPlaybackDirectionInBlackboard(scriptInterface, direction) return end
+function BraindanceControlsTransition:SetPlaybackDirectionInBlackboard(scriptInterface, direction) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param speed scnPlaySpeed
 ---@return nil
-function BraindanceControlsTransition:SetPlaybackSpeedInBlackboard(scriptInterface, speed) return end
+function BraindanceControlsTransition:SetPlaybackSpeedInBlackboard(scriptInterface, speed) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param fxState? Bool
 ---@return nil
-function BraindanceControlsTransition:StartGlitchFx(scriptInterface, fxState) return end
+function BraindanceControlsTransition:StartGlitchFx(scriptInterface, fxState) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function BraindanceControlsTransition:StopGlitchFx(scriptInterface) return end
+function BraindanceControlsTransition:StopGlitchFx(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil, Float blendTime
-function BraindanceControlsTransition:ToggleCameraControlEnabled(scriptInterface, stateContext) return end
+function BraindanceControlsTransition:ToggleCameraControlEnabled(scriptInterface, stateContext) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return nil
-function BraindanceControlsTransition:TogglePausePlayForward(scriptInterface, stateContext) return end
+function BraindanceControlsTransition:TogglePausePlayForward(scriptInterface, stateContext) end
 
----@protected
 ---@param timeDelta Float
 ---@return nil, Float BlockPerspectiveSwitchTimer
-function BraindanceControlsTransition:UpdatePerspectiveTransitionTimer(timeDelta) return end
+function BraindanceControlsTransition:UpdatePerspectiveTransitionTimer(timeDelta) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSItemStackRequirementData
----@field public statType gamedataStatType
----@field public requiredValue Float
+---@field statType gamedataStatType
+---@field requiredValue Float
 gameSItemStackRequirementData = {}
 
 ---@param fields? gameSItemStackRequirementData
 ---@return gameSItemStackRequirementData
-function gameSItemStackRequirementData.new(fields) return end
+function gameSItemStackRequirementData.new(fields) end

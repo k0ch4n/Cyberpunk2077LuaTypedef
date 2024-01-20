@@ -5,4 +5,4 @@ gameuiSetFrameImageEvent = {}
 
 ---@param fields? gameuiSetFrameImageEvent
 ---@return gameuiSetFrameImageEvent
-function gameuiSetFrameImageEvent.new(fields) return end
+function gameuiSetFrameImageEvent.new(fields) end

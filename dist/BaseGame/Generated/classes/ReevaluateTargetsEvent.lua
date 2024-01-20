@@ -5,4 +5,4 @@ ReevaluateTargetsEvent = {}
 
 ---@param fields? ReevaluateTargetsEvent
 ---@return ReevaluateTargetsEvent
-function ReevaluateTargetsEvent.new(fields) return end
+function ReevaluateTargetsEvent.new(fields) end

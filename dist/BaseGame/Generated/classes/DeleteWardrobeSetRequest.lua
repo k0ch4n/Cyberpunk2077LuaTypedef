@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class DeleteWardrobeSetRequest: gamePlayerScriptableSystemRequest
----@field public setID gameWardrobeClothingSetIndex
+---@field setID gameWardrobeClothingSetIndex
 DeleteWardrobeSetRequest = {}
 
 ---@param fields? DeleteWardrobeSetRequest
 ---@return DeleteWardrobeSetRequest
-function DeleteWardrobeSetRequest.new(fields) return end
+function DeleteWardrobeSetRequest.new(fields) end

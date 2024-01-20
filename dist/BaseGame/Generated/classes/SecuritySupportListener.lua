@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class SecuritySupportListener: AIScriptsTargetTrackingListener
----@field public npc ScriptedPuppet
+---@field npc ScriptedPuppet
 SecuritySupportListener = {}
 
 ---@param fields? SecuritySupportListener
 ---@return SecuritySupportListener
-function SecuritySupportListener.new(fields) return end
+function SecuritySupportListener.new(fields) end
 
 ---@param npc ScriptedPuppet
 ---@return SecuritySupportListener
-function SecuritySupportListener.Construct(npc) return end
+function SecuritySupportListener.Construct(npc) end
 
 ---@param above Bool
 ---@return nil
-function SecuritySupportListener:OnAccuracyBoundReached(above) return end
+function SecuritySupportListener:OnAccuracyBoundReached(above) end

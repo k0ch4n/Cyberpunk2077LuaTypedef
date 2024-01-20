@@ -5,10 +5,9 @@ QuickSlotsBusyEvents = {}
 
 ---@param fields? QuickSlotsBusyEvents
 ---@return QuickSlotsBusyEvents
-function QuickSlotsBusyEvents.new(fields) return end
+function QuickSlotsBusyEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function QuickSlotsBusyEvents:OnEnter(stateContext, scriptInterface) return end
+function QuickSlotsBusyEvents:OnEnter(stateContext, scriptInterface) end

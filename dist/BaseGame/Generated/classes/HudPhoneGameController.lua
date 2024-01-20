@@ -1,113 +1,99 @@
 ---@meta
 
 ---@class HudPhoneGameController: gameuiSongbirdAudioCallGameController
----@field private isAudioCall Bool
----@field private AvatarControllerRef inkWidgetReference
----@field private AvatarController HudPhoneAvatarController
----@field private RootWidget inkWidget
----@field private Holder inkWidgetReference
----@field private Owner gameObject
----@field private CurrentFunction EHudPhoneFunction
----@field private CurrentCallInformation questPhoneCallInformation
----@field private CurrentPhoneCallContact gameJournalContact
----@field private DelaySystem gameDelaySystem
----@field private PhoneSystem PhoneSystem
----@field private JournalMgr gameJournalManager
----@field private gameplayRestrictions CName[]
----@field private Blackboard gameIBlackboard
----@field private BlackboardDef UI_ComDeviceDef
----@field private CallInformationBBID redCallbackObject
----@field private StatusNameBBID redCallbackObject
----@field private MinimizedListener redCallbackObject
----@field private DelayedCallbackId gameDelayID
----@field private DelayedTimeoutCallbackId gameDelayID
----@field private TimeoutPeroid Float
----@field private buttonPressed Bool
+---@field isAudioCall Bool
+---@field AvatarControllerRef inkWidgetReference
+---@field AvatarController HudPhoneAvatarController
+---@field RootWidget inkWidget
+---@field Holder inkWidgetReference
+---@field Owner gameObject
+---@field CurrentFunction EHudPhoneFunction
+---@field CurrentCallInformation questPhoneCallInformation
+---@field CurrentPhoneCallContact gameJournalContact
+---@field DelaySystem gameDelaySystem
+---@field PhoneSystem PhoneSystem
+---@field JournalMgr gameJournalManager
+---@field gameplayRestrictions CName[]
+---@field Blackboard gameIBlackboard
+---@field BlackboardDef UI_ComDeviceDef
+---@field CallInformationBBID redCallbackObject
+---@field StatusNameBBID redCallbackObject
+---@field MinimizedListener redCallbackObject
+---@field DelayedCallbackId gameDelayID
+---@field DelayedTimeoutCallbackId gameDelayID
+---@field TimeoutPeroid Float
+---@field buttonPressed Bool
 HudPhoneGameController = {}
 
 ---@param fields? HudPhoneGameController
 ---@return HudPhoneGameController
-function HudPhoneGameController.new(fields) return end
+function HudPhoneGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function HudPhoneGameController:OnAction(action, consumer) return end
+function HudPhoneGameController:OnAction(action, consumer) end
 
----@protected
 ---@param widget inkWidget
 ---@param oldState CName|string
 ---@param newState CName|string
 ---@return Bool
-function HudPhoneGameController:OnElementStateChanged(widget, oldState, newState) return end
+function HudPhoneGameController:OnElementStateChanged(widget, oldState, newState) end
 
----@protected
 ---@return Bool
-function HudPhoneGameController:OnInitialize() return end
+function HudPhoneGameController:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function HudPhoneGameController:OnPhoneMinimize(value) return end
+function HudPhoneGameController:OnPhoneMinimize(value) end
 
----@protected
 ---@param phoneStatus CName|string
 ---@return Bool
-function HudPhoneGameController:OnPhoneStatusChanged(phoneStatus) return end
+function HudPhoneGameController:OnPhoneStatusChanged(phoneStatus) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function HudPhoneGameController:OnPlayerAttach(playerPuppet) return end
+function HudPhoneGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function HudPhoneGameController:OnPlayerDetach(playerPuppet) return end
+function HudPhoneGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param data Variant
 ---@return Bool
-function HudPhoneGameController:OnTriggerCall(data) return end
+function HudPhoneGameController:OnTriggerCall(data) end
 
----@protected
 ---@return Bool
-function HudPhoneGameController:OnUninitialize() return end
-
----@private
----@return nil
-function HudPhoneGameController:CachePredefinedRestrictions() return end
+function HudPhoneGameController:OnUninitialize() end
 
 ---@return nil
-function HudPhoneGameController:CancelQuestFailsafe() return end
+function HudPhoneGameController:CachePredefinedRestrictions() end
 
 ---@return nil
-function HudPhoneGameController:CancelTimeoutFailsafe() return end
+function HudPhoneGameController:CancelQuestFailsafe() end
 
----@private
+---@return nil
+function HudPhoneGameController:CancelTimeoutFailsafe() end
+
 ---@param phoneCallInformation questPhoneCallInformation
 ---@return questTriggerCallRequest
-function HudPhoneGameController:CreateTriggerCallRequestFromPhoneCallInformation(phoneCallInformation) return end
+function HudPhoneGameController:CreateTriggerCallRequestFromPhoneCallInformation(phoneCallInformation) end
 
----@private
 ---@return gameJournalContact
-function HudPhoneGameController:GetIncomingContact() return end
+function HudPhoneGameController:GetIncomingContact() end
 
----@private
 ---@return Bool
-function HudPhoneGameController:IsUsingPhonePrevented() return end
+function HudPhoneGameController:IsUsingPhonePrevented() end
 
 ---@param newFunction EHudPhoneFunction
 ---@return nil
-function HudPhoneGameController:SetPhoneFunction(newFunction) return end
+function HudPhoneGameController:SetPhoneFunction(newFunction) end
 
----@private
 ---@param isPlayerCalling Bool
 ---@param state questPhoneTalkingState
 ---@param visuals questPhoneCallVisuals
 ---@return nil
-function HudPhoneGameController:SetTalkingTrigger(isPlayerCalling, state, visuals) return end
+function HudPhoneGameController:SetTalkingTrigger(isPlayerCalling, state, visuals) end
 
 ---@return nil
-function HudPhoneGameController:StartTimeoutFailsafe() return end
+function HudPhoneGameController:StartTimeoutFailsafe() end

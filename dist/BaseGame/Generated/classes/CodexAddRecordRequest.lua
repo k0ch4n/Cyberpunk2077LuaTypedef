@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CodexAddRecordRequest: gameScriptableSystemRequest
----@field public codexRecordID TweakDBID
+---@field codexRecordID TweakDBID
 CodexAddRecordRequest = {}
 
 ---@param fields? CodexAddRecordRequest
 ---@return CodexAddRecordRequest
-function CodexAddRecordRequest.new(fields) return end
+function CodexAddRecordRequest.new(fields) end

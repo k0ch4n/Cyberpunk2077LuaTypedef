@@ -5,4 +5,4 @@ OnLeave = {}
 
 ---@param fields? OnLeave
 ---@return OnLeave
-function OnLeave.new(fields) return end
+function OnLeave.new(fields) end

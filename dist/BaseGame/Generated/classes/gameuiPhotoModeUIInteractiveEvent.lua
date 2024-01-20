@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiPhotoModeUIInteractiveEvent: redEvent
----@field public interactive Bool
+---@field interactive Bool
 gameuiPhotoModeUIInteractiveEvent = {}
 
 ---@param fields? gameuiPhotoModeUIInteractiveEvent
 ---@return gameuiPhotoModeUIInteractiveEvent
-function gameuiPhotoModeUIInteractiveEvent.new(fields) return end
+function gameuiPhotoModeUIInteractiveEvent.new(fields) end

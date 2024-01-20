@@ -1,52 +1,50 @@
 ---@meta
 
 ---@class NewItemTooltipDetailsModule: NewItemTooltipModuleController
----@field private statsLine inkWidgetReference
----@field private statsWrapper inkWidgetReference
----@field private statsContainer inkCompoundWidgetReference
----@field private dedicatedModsLine inkWidgetReference
----@field private dedicatedModsWrapper inkWidgetReference
----@field private dedicatedModsText inkTextWidgetReference
----@field private modsLine inkWidgetReference
----@field private modsWrapper inkWidgetReference
----@field private modsContainer inkCompoundWidgetReference
----@field private modifierPowerLine inkWidgetReference
----@field private modifierPowerLabel inkTextWidgetReference
----@field private modifierPowerWrapper inkCompoundWidgetReference
----@field private isCrafting Bool
+---@field statsLine inkWidgetReference
+---@field statsWrapper inkWidgetReference
+---@field statsContainer inkCompoundWidgetReference
+---@field dedicatedModsLine inkWidgetReference
+---@field dedicatedModsWrapper inkWidgetReference
+---@field dedicatedModsText inkTextWidgetReference
+---@field modsLine inkWidgetReference
+---@field modsWrapper inkWidgetReference
+---@field modsContainer inkCompoundWidgetReference
+---@field modifierPowerLine inkWidgetReference
+---@field modifierPowerLabel inkTextWidgetReference
+---@field modifierPowerWrapper inkCompoundWidgetReference
+---@field isCrafting Bool
 NewItemTooltipDetailsModule = {}
 
 ---@param fields? NewItemTooltipDetailsModule
 ---@return NewItemTooltipDetailsModule
-function NewItemTooltipDetailsModule.new(fields) return end
+function NewItemTooltipDetailsModule.new(fields) end
 
 ---@param isCrafting Bool
 ---@return nil
-function NewItemTooltipDetailsModule:GetContext(isCrafting) return end
+function NewItemTooltipDetailsModule:GetContext(isCrafting) end
 
 ---@param data UIInventoryItem
 ---@param comparisonData UIInventoryItemComparisonManager
 ---@param hasDedicatedMods Bool
 ---@param hasMods Bool
 ---@return nil
-function NewItemTooltipDetailsModule:NEW_Update(data, comparisonData, hasDedicatedMods, hasMods) return end
+function NewItemTooltipDetailsModule:NEW_Update(data, comparisonData, hasDedicatedMods, hasMods) end
 
----@private
 ---@param modsManager UIInventoryItemModsManager
 ---@return nil
-function NewItemTooltipDetailsModule:NEW_UpdateMods(modsManager) return end
+function NewItemTooltipDetailsModule:NEW_UpdateMods(modsManager) end
 
 ---@param bigFontEnabled Bool
 ---@return nil
-function NewItemTooltipDetailsModule:NEW_UpdateWrapping(bigFontEnabled) return end
+function NewItemTooltipDetailsModule:NEW_UpdateWrapping(bigFontEnabled) end
 
 ---@param data MinimalItemTooltipData
 ---@param hasDedicatedMods Bool
 ---@param hasMods Bool
 ---@return nil
-function NewItemTooltipDetailsModule:Update(data, hasDedicatedMods, hasMods) return end
+function NewItemTooltipDetailsModule:Update(data, hasDedicatedMods, hasMods) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function NewItemTooltipDetailsModule:UpdateMods(data) return end
+function NewItemTooltipDetailsModule:UpdateMods(data) end

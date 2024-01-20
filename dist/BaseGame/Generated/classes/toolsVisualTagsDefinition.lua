@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsVisualTagsDefinition
----@field public name CName
+---@field name CName
 toolsVisualTagsDefinition = {}
 
 ---@param fields? toolsVisualTagsDefinition
 ---@return toolsVisualTagsDefinition
-function toolsVisualTagsDefinition.new(fields) return end
+function toolsVisualTagsDefinition.new(fields) end

@@ -5,4 +5,4 @@ gamePreviewItemData = {}
 
 ---@param fields? gamePreviewItemData
 ---@return gamePreviewItemData
-function gamePreviewItemData.new(fields) return end
+function gamePreviewItemData.new(fields) end

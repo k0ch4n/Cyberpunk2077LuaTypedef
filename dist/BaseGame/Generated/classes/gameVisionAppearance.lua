@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameVisionAppearance
----@field public fill Int32
----@field public outline Int32
----@field public showThroughWalls Bool
----@field public patternType gameVisionModePatternType
+---@field fill Int32
+---@field outline Int32
+---@field showThroughWalls Bool
+---@field patternType gameVisionModePatternType
 gameVisionAppearance = {}
 
 ---@param fields? gameVisionAppearance
 ---@return gameVisionAppearance
-function gameVisionAppearance.new(fields) return end
+function gameVisionAppearance.new(fields) end

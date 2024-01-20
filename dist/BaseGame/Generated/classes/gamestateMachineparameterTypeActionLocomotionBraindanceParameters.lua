@@ -5,12 +5,12 @@ gamestateMachineparameterTypeActionLocomotionBraindanceParameters = {}
 
 ---@param fields? gamestateMachineparameterTypeActionLocomotionBraindanceParameters
 ---@return gamestateMachineparameterTypeActionLocomotionBraindanceParameters
-function gamestateMachineparameterTypeActionLocomotionBraindanceParameters.new(fields) return end
+function gamestateMachineparameterTypeActionLocomotionBraindanceParameters.new(fields) end
 
 ---@param val Float
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionBraindanceParameters:SetLowerMovementLimit(val) return end
+function gamestateMachineparameterTypeActionLocomotionBraindanceParameters:SetLowerMovementLimit(val) end
 
 ---@param val Float
 ---@return nil
-function gamestateMachineparameterTypeActionLocomotionBraindanceParameters:SetUpperMovementLimit(val) return end
+function gamestateMachineparameterTypeActionLocomotionBraindanceParameters:SetUpperMovementLimit(val) end

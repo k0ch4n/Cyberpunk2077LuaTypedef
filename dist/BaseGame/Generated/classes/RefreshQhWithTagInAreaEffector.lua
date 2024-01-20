@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class RefreshQhWithTagInAreaEffector: gameEffector
----@field public tags CName[]
----@field public range Float
+---@field tags CName[]
+---@field range Float
 RefreshQhWithTagInAreaEffector = {}
 
 ---@param fields? RefreshQhWithTagInAreaEffector
 ---@return RefreshQhWithTagInAreaEffector
-function RefreshQhWithTagInAreaEffector.new(fields) return end
+function RefreshQhWithTagInAreaEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RefreshQhWithTagInAreaEffector:ActionOn(owner) return end
+function RefreshQhWithTagInAreaEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function RefreshQhWithTagInAreaEffector:Initialize(record, parentRecord) return end
+function RefreshQhWithTagInAreaEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@param targets NPCPuppet[]
 ---@return nil
-function RefreshQhWithTagInAreaEffector:RefreshQhStatusEffects(owner, targets) return end
+function RefreshQhWithTagInAreaEffector:RefreshQhStatusEffects(owner, targets) end

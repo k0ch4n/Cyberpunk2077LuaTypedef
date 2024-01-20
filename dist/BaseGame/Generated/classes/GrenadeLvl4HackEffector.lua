@@ -1,25 +1,22 @@
 ---@meta
 
 ---@class GrenadeLvl4HackEffector: gameEffector
----@field private grenadeChangeEntity gameObject
----@field private grenadeChangedListener gameAttachmentSlotsScriptListener
+---@field grenadeChangeEntity gameObject
+---@field grenadeChangedListener gameAttachmentSlotsScriptListener
 GrenadeLvl4HackEffector = {}
 
 ---@param fields? GrenadeLvl4HackEffector
 ---@return GrenadeLvl4HackEffector
-function GrenadeLvl4HackEffector.new(fields) return end
+function GrenadeLvl4HackEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function GrenadeLvl4HackEffector:ActionOn(owner) return end
+function GrenadeLvl4HackEffector:ActionOn(owner) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function GrenadeLvl4HackEffector:ProcessEffector(owner) return end
+function GrenadeLvl4HackEffector:ProcessEffector(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function GrenadeLvl4HackEffector:RepeatedAction(owner) return end
+function GrenadeLvl4HackEffector:RepeatedAction(owner) end

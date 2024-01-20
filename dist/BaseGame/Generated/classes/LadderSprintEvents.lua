@@ -5,22 +5,20 @@ LadderSprintEvents = {}
 
 ---@param fields? LadderSprintEvents
 ---@return LadderSprintEvents
-function LadderSprintEvents.new(fields) return end
+function LadderSprintEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderSprintEvents:OnEnter(stateContext, scriptInterface) return end
+function LadderSprintEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderSprintEvents:OnExitToLadder(stateContext, scriptInterface) return end
+function LadderSprintEvents:OnExitToLadder(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function LadderSprintEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function LadderSprintEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questSwitchNodeDefinition: questDisableableNodeDefinition
----@field public behaviour questESwitchBehaviourType
----@field public conditions questConditionItem[]
+---@field behaviour questESwitchBehaviourType
+---@field conditions questConditionItem[]
 questSwitchNodeDefinition = {}
 
 ---@param fields? questSwitchNodeDefinition
 ---@return questSwitchNodeDefinition
-function questSwitchNodeDefinition.new(fields) return end
+function questSwitchNodeDefinition.new(fields) end

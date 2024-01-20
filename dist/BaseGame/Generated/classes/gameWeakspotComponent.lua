@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameWeakspotComponent: entIComponent
----@field public defaultPhysicalDestructionProperties gameWeakspotPhysicalDestructionProperties
+---@field defaultPhysicalDestructionProperties gameWeakspotPhysicalDestructionProperties
 gameWeakspotComponent = {}
 
 ---@param fields? gameWeakspotComponent
 ---@return gameWeakspotComponent
-function gameWeakspotComponent.new(fields) return end
+function gameWeakspotComponent.new(fields) end
 
 ---@return nil, gameWeakspotObject[] outWeakspots
-function gameWeakspotComponent:GetWeakspots() return end
+function gameWeakspotComponent:GetWeakspots() end

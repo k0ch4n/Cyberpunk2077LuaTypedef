@@ -5,13 +5,13 @@ StartCall = {}
 
 ---@param fields? StartCall
 ---@return StartCall
-function StartCall.new(fields) return end
+function StartCall.new(fields) end
 
 ---@return TweakDBID
-function StartCall:GetInkWidgetTweakDBID() return end
+function StartCall:GetInkWidgetTweakDBID() end
 
 ---@return String
-function StartCall:GetTweakDBChoiceRecord() return end
+function StartCall:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function StartCall:SetProperties() return end
+function StartCall:SetProperties() end

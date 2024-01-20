@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HidePuppetDelayEvent: redEvent
----@field public target NPCPuppet
+---@field target NPCPuppet
 HidePuppetDelayEvent = {}
 
 ---@param fields? HidePuppetDelayEvent
 ---@return HidePuppetDelayEvent
-function HidePuppetDelayEvent.new(fields) return end
+function HidePuppetDelayEvent.new(fields) end

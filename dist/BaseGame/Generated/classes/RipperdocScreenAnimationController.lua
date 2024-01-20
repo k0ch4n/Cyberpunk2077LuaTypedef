@@ -1,155 +1,144 @@
 ---@meta
 
 ---@class RipperdocScreenAnimationController: inkWidgetLogicController
----@field private doll inkWidgetReference
----@field private defaultAnimationTab inkWidgetReference
----@field private itemAnimationTab inkWidgetReference
----@field private femaleHovers inkWidgetReference
----@field private maleHovers inkWidgetReference
----@field private F_immuneHoverTexture inkWidgetReference
----@field private F_systemReplacementHoverTexture inkWidgetReference
----@field private F_integumentaryHoverTexture inkWidgetReference
----@field private F_musculoskeletalHoverTexture inkWidgetReference
----@field private F_nervousHoverTexture inkWidgetReference
----@field private F_eyesHoverTexture inkImageWidgetReference
----@field private F_legsHoverTexture inkWidgetReference
----@field private F_frontalCortexHoverTexture inkWidgetReference
----@field private F_handsHoverTexture inkWidgetReference
----@field private F_cardiovascularHoverTexture inkWidgetReference
----@field private F_armsHoverTexture inkWidgetReference
----@field private M_integumentaryHoverTexture inkWidgetReference
----@field private M_armsHoverTexture inkWidgetReference
----@field private M_cardiovascularHoverTexture inkWidgetReference
----@field private M_handsHoverTexture inkWidgetReference
----@field private M_frontalCortexHoverTexture inkWidgetReference
----@field private M_immuneHoverTexture inkWidgetReference
----@field private M_legsHoverTexture inkWidgetReference
----@field private M_systemReplacementHoverTexture inkWidgetReference
----@field private M_musculoskeletalHoverTexture inkWidgetReference
----@field private M_nervousHoverTexture inkWidgetReference
----@field private M_eyesHoverTexture inkImageWidgetReference
----@field private man_wiresTexture inkWidgetReference
----@field private woman_wiresTexture inkWidgetReference
----@field private hoverAnimation inkanimProxy
----@field private hoverOverAnimation inkanimProxy
----@field private introDefaultAnimation inkanimProxy
----@field private outroDefaultAnimation inkanimProxy
----@field private introPaperdollAnimation inkanimProxy
----@field private outroPaperdollAnimation inkanimProxy
----@field private slideAnimation inkanimProxy
----@field private hoveredArea gamedataEquipmentArea
----@field private introArea gamedataEquipmentArea
----@field private isFemale Bool
----@field private area gamedataEquipmentArea
----@field private anim inkanimProxy
----@field private animHover inkanimProxy
----@field private animCancel inkanimProxy
----@field private isHovering Bool
----@field private isSelected Bool
----@field private animName CName
----@field private position inkMargin
----@field private positionOffset Float
----@field private root inkWidget
----@field private isSlidingOut Bool
----@field private zoomOutAnim inkanimProxy
----@field private zoomInAnim inkanimProxy
----@field private slideOutAnim inkanimProxy
----@field private slideInAnim inkanimProxy
----@field private slideDirection Bool
----@field private cancelSlideIn Bool
----@field private isInside Bool
----@field private currentArea gamedataEquipmentArea
----@field private nextArea gamedataEquipmentArea
----@field private midArea gamedataEquipmentArea
----@field private SLIDE_DURATION Float
+---@field doll inkWidgetReference
+---@field defaultAnimationTab inkWidgetReference
+---@field itemAnimationTab inkWidgetReference
+---@field femaleHovers inkWidgetReference
+---@field maleHovers inkWidgetReference
+---@field F_immuneHoverTexture inkWidgetReference
+---@field F_systemReplacementHoverTexture inkWidgetReference
+---@field F_integumentaryHoverTexture inkWidgetReference
+---@field F_musculoskeletalHoverTexture inkWidgetReference
+---@field F_nervousHoverTexture inkWidgetReference
+---@field F_eyesHoverTexture inkImageWidgetReference
+---@field F_legsHoverTexture inkWidgetReference
+---@field F_frontalCortexHoverTexture inkWidgetReference
+---@field F_handsHoverTexture inkWidgetReference
+---@field F_cardiovascularHoverTexture inkWidgetReference
+---@field F_armsHoverTexture inkWidgetReference
+---@field M_integumentaryHoverTexture inkWidgetReference
+---@field M_armsHoverTexture inkWidgetReference
+---@field M_cardiovascularHoverTexture inkWidgetReference
+---@field M_handsHoverTexture inkWidgetReference
+---@field M_frontalCortexHoverTexture inkWidgetReference
+---@field M_immuneHoverTexture inkWidgetReference
+---@field M_legsHoverTexture inkWidgetReference
+---@field M_systemReplacementHoverTexture inkWidgetReference
+---@field M_musculoskeletalHoverTexture inkWidgetReference
+---@field M_nervousHoverTexture inkWidgetReference
+---@field M_eyesHoverTexture inkImageWidgetReference
+---@field man_wiresTexture inkWidgetReference
+---@field woman_wiresTexture inkWidgetReference
+---@field hoverAnimation inkanimProxy
+---@field hoverOverAnimation inkanimProxy
+---@field introDefaultAnimation inkanimProxy
+---@field outroDefaultAnimation inkanimProxy
+---@field introPaperdollAnimation inkanimProxy
+---@field outroPaperdollAnimation inkanimProxy
+---@field slideAnimation inkanimProxy
+---@field hoveredArea gamedataEquipmentArea
+---@field introArea gamedataEquipmentArea
+---@field isFemale Bool
+---@field area gamedataEquipmentArea
+---@field anim inkanimProxy
+---@field animHover inkanimProxy
+---@field animCancel inkanimProxy
+---@field isHovering Bool
+---@field isSelected Bool
+---@field animName CName
+---@field position inkMargin
+---@field positionOffset Float
+---@field root inkWidget
+---@field isSlidingOut Bool
+---@field zoomOutAnim inkanimProxy
+---@field zoomInAnim inkanimProxy
+---@field slideOutAnim inkanimProxy
+---@field slideInAnim inkanimProxy
+---@field slideDirection Bool
+---@field cancelSlideIn Bool
+---@field isInside Bool
+---@field currentArea gamedataEquipmentArea
+---@field nextArea gamedataEquipmentArea
+---@field midArea gamedataEquipmentArea
+---@field SLIDE_DURATION Float
 RipperdocScreenAnimationController = {}
 
 ---@param fields? RipperdocScreenAnimationController
 ---@return RipperdocScreenAnimationController
-function RipperdocScreenAnimationController.new(fields) return end
+function RipperdocScreenAnimationController.new(fields) end
 
----@protected
 ---@return Bool
-function RipperdocScreenAnimationController:OnInitialize() return end
+function RipperdocScreenAnimationController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function RipperdocScreenAnimationController:OnSlideOutFinished(anim) return end
+function RipperdocScreenAnimationController:OnSlideOutFinished(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function RipperdocScreenAnimationController:OnZoomInFinished(anim) return end
+function RipperdocScreenAnimationController:OnZoomInFinished(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function RipperdocScreenAnimationController:OnZoomOutFinished(anim) return end
+function RipperdocScreenAnimationController:OnZoomOutFinished(anim) end
 
----@private
 ---@param anim inkanimProxy
 ---@return nil
-function RipperdocScreenAnimationController:AnimQueue(anim) return end
+function RipperdocScreenAnimationController:AnimQueue(anim) end
 
 ---@return nil
-function RipperdocScreenAnimationController:ForceRestartFaceAnimation() return end
+function RipperdocScreenAnimationController:ForceRestartFaceAnimation() end
 
----@private
 ---@param area gamedataEquipmentArea
 ---@return inkWidget
-function RipperdocScreenAnimationController:GetHoverAnimationTarget(area) return end
+function RipperdocScreenAnimationController:GetHoverAnimationTarget(area) end
 
----@private
 ---@param area gamedataEquipmentArea
 ---@param suffix CName|string
 ---@return CName
-function RipperdocScreenAnimationController:GetName(area, suffix) return end
+function RipperdocScreenAnimationController:GetName(area, suffix) end
 
----@private
 ---@return nil
-function RipperdocScreenAnimationController:HideAllBodyParts() return end
+function RipperdocScreenAnimationController:HideAllBodyParts() end
 
 ---@param female Bool
 ---@return nil
-function RipperdocScreenAnimationController:SetGender(female) return end
+function RipperdocScreenAnimationController:SetGender(female) end
 
 ---@param hasMask Bool
 ---@return nil
-function RipperdocScreenAnimationController:SetMask(hasMask) return end
+function RipperdocScreenAnimationController:SetMask(hasMask) end
 
 ---@return nil
-function RipperdocScreenAnimationController:SetOutside() return end
+function RipperdocScreenAnimationController:SetOutside() end
 
----@private
 ---@param isSlideOut Bool
 ---@return nil
-function RipperdocScreenAnimationController:SlideDoll(isSlideOut) return end
+function RipperdocScreenAnimationController:SlideDoll(isSlideOut) end
 
 ---@param area gamedataEquipmentArea
 ---@return nil
-function RipperdocScreenAnimationController:StartHover(area) return end
+function RipperdocScreenAnimationController:StartHover(area) end
 
 ---@return nil
-function RipperdocScreenAnimationController:StartSelect() return end
+function RipperdocScreenAnimationController:StartSelect() end
 
 ---@param isRight Bool
 ---@param nextArea gamedataEquipmentArea
 ---@return nil
-function RipperdocScreenAnimationController:StartSlide(isRight, nextArea) return end
+function RipperdocScreenAnimationController:StartSlide(isRight, nextArea) end
 
 ---@return nil
-function RipperdocScreenAnimationController:StopHover() return end
+function RipperdocScreenAnimationController:StopHover() end
 
 ---@return nil
-function RipperdocScreenAnimationController:StopSelect() return end
+function RipperdocScreenAnimationController:StopSelect() end
 
----@private
 ---@param name CName|string
 ---@return nil
-function RipperdocScreenAnimationController:TryStartAnimation(name) return end
+function RipperdocScreenAnimationController:TryStartAnimation(name) end
 
----@private
 ---@param isZoomOut Bool
 ---@return nil
-function RipperdocScreenAnimationController:ZoomDoll(isZoomOut) return end
+function RipperdocScreenAnimationController:ZoomDoll(isZoomOut) end

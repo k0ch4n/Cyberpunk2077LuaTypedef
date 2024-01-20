@@ -5,25 +5,21 @@ IsInFocusModePSMPrereq = {}
 
 ---@param fields? IsInFocusModePSMPrereq
 ---@return IsInFocusModePSMPrereq
-function IsInFocusModePSMPrereq.new(fields) return end
+function IsInFocusModePSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function IsInFocusModePSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function IsInFocusModePSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function IsInFocusModePSMPrereq:GetStateMachineEnum() return end
+function IsInFocusModePSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function IsInFocusModePSMPrereq:OnRegister(state, context) return end
+function IsInFocusModePSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IsInFocusModePSMPrereq:OnUnregister(state, context) return end
+function IsInFocusModePSMPrereq:OnUnregister(state, context) end

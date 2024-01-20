@@ -5,4 +5,4 @@ gsmMenuState_ModalPopup = {}
 
 ---@param fields? gsmMenuState_ModalPopup
 ---@return gsmMenuState_ModalPopup
-function gsmMenuState_ModalPopup.new(fields) return end
+function gsmMenuState_ModalPopup.new(fields) end

@@ -1,43 +1,40 @@
 ---@meta
 
 ---@class gameDeviceBase: gameObject
----@field public isLogicReady Bool
+---@field isLogicReady Bool
 gameDeviceBase = {}
 
 ---@param fields? gameDeviceBase
 ---@return gameDeviceBase
-function gameDeviceBase.new(fields) return end
+function gameDeviceBase.new(fields) end
 
 ---@return gameDeviceReplicatedState
-function gameDeviceBase:GetClientState() return end
+function gameDeviceBase:GetClientState() end
 
 ---@return gameDeviceReplicatedState
-function gameDeviceBase:GetServerState() return end
+function gameDeviceBase:GetServerState() end
 
 ---@return Bool
-function gameDeviceBase:IsLogicReady() return end
+function gameDeviceBase:IsLogicReady() end
 
 ---@return nil
-function gameDeviceBase:SetAudioResourceName() return end
+function gameDeviceBase:SetAudioResourceName() end
 
 ---@param obj gameObject
 ---@param inputName CName|string
 ---@param value animAnimFeature
 ---@return nil
-function gameDeviceBase:ApplyAnimFeatureToReplicate(obj, inputName, value) return end
+function gameDeviceBase:ApplyAnimFeatureToReplicate(obj, inputName, value) end
 
----@protected
 ---@param state gameDeviceReplicatedState
 ---@return nil
-function gameDeviceBase:ApplyReplicatedState(state) return end
+function gameDeviceBase:ApplyReplicatedState(state) end
 
 ---@return CName
-function gameDeviceBase:GetDeviceStateClass() return end
+function gameDeviceBase:GetDeviceStateClass() end
 
----@protected
 ---@return Bool
-function gameDeviceBase:IncludeLightsInVisibilityBoundsScript() return end
+function gameDeviceBase:IncludeLightsInVisibilityBoundsScript() end
 
----@protected
 ---@return Bool
-function gameDeviceBase:IsDeviceMovableScript() return end
+function gameDeviceBase:IsDeviceMovableScript() end

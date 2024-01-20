@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIBuffInfo: gameuiBuffInfo
----@field public isBuff Bool
+---@field isBuff Bool
 UIBuffInfo = {}
 
 ---@param fields? UIBuffInfo
 ---@return UIBuffInfo
-function UIBuffInfo.new(fields) return end
+function UIBuffInfo.new(fields) end

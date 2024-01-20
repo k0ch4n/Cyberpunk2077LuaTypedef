@@ -1,174 +1,149 @@
 ---@meta
 
 ---@class gameuiPanzerHUDGameController: gameuiHUDGameController
----@field private vehicle vehicleBaseObject
----@field private vehiclePS VehicleComponentPS
----@field private Date inkTextWidgetReference
----@field private Timer inkTextWidgetReference
----@field private healthStatus inkTextWidgetReference
----@field private healthBar inkWidgetReference
----@field private rightStickX Float
----@field private rightStickY Float
----@field private LeanAngleValue inkCanvasWidgetReference
----@field private CoriRotation inkCanvasWidgetReference
----@field private CompassRotation inkCanvasWidgetReference
----@field private Cori_S inkCanvasWidgetReference
----@field private Cori_M inkCanvasWidgetReference
----@field private trimmerArrow inkImageWidgetReference
----@field private SpeedValue inkTextWidgetReference
----@field private RPMValue inkTextWidgetReference
----@field private scanBlackboard gameIBlackboard
----@field private psmBlackboard gameIBlackboard
----@field private PSM_BBID redCallbackObject
----@field private root inkCompoundWidget
----@field private currentZoom Float
----@field private currentTime GameTime
----@field private vehicleBlackboard gameIBlackboard
----@field private activeVehicleUIBlackboard gameIBlackboard
----@field private vehicleBBStateConectionId redCallbackObject
----@field private speedBBConnectionId redCallbackObject
----@field private gearBBConnectionId redCallbackObject
----@field private tppBBConnectionId redCallbackObject
----@field private rpmValueBBConnectionId redCallbackObject
----@field private leanAngleBBConnectionId redCallbackObject
----@field private playerStateBBConnectionId redCallbackObject
----@field private isTargetingFriendlyConnectionId redCallbackObject
----@field private bbPlayerStats gameIBlackboard
----@field private bbPlayerEventId redCallbackObject
----@field private currentHealth Int32
----@field private previousHealth Int32
----@field private maximumHealth Int32
----@field private quickhacksMemoryPercent Float
----@field private playerObject gameObject
----@field private weaponBlackboard gameIBlackboard
----@field private weaponParamsListenerId redCallbackObject
----@field private targetIndicators TargetIndicatorEntry[]
----@field private targetHolder inkCompoundWidgetReference
----@field private targetWidgetLibraryName CName
----@field private targetWidgetPoolSize Int32
+---@field vehicle vehicleBaseObject
+---@field vehiclePS VehicleComponentPS
+---@field Date inkTextWidgetReference
+---@field Timer inkTextWidgetReference
+---@field healthStatus inkTextWidgetReference
+---@field healthBar inkWidgetReference
+---@field rightStickX Float
+---@field rightStickY Float
+---@field LeanAngleValue inkCanvasWidgetReference
+---@field CoriRotation inkCanvasWidgetReference
+---@field CompassRotation inkCanvasWidgetReference
+---@field Cori_S inkCanvasWidgetReference
+---@field Cori_M inkCanvasWidgetReference
+---@field trimmerArrow inkImageWidgetReference
+---@field SpeedValue inkTextWidgetReference
+---@field RPMValue inkTextWidgetReference
+---@field scanBlackboard gameIBlackboard
+---@field psmBlackboard gameIBlackboard
+---@field PSM_BBID redCallbackObject
+---@field root inkCompoundWidget
+---@field currentZoom Float
+---@field currentTime GameTime
+---@field vehicleBlackboard gameIBlackboard
+---@field activeVehicleUIBlackboard gameIBlackboard
+---@field vehicleBBStateConectionId redCallbackObject
+---@field speedBBConnectionId redCallbackObject
+---@field gearBBConnectionId redCallbackObject
+---@field tppBBConnectionId redCallbackObject
+---@field rpmValueBBConnectionId redCallbackObject
+---@field leanAngleBBConnectionId redCallbackObject
+---@field playerStateBBConnectionId redCallbackObject
+---@field isTargetingFriendlyConnectionId redCallbackObject
+---@field bbPlayerStats gameIBlackboard
+---@field bbPlayerEventId redCallbackObject
+---@field currentHealth Int32
+---@field previousHealth Int32
+---@field maximumHealth Int32
+---@field quickhacksMemoryPercent Float
+---@field playerObject gameObject
+---@field weaponBlackboard gameIBlackboard
+---@field weaponParamsListenerId redCallbackObject
+---@field targetIndicators TargetIndicatorEntry[]
+---@field targetHolder inkCompoundWidgetReference
+---@field targetWidgetLibraryName CName
+---@field targetWidgetPoolSize Int32
 gameuiPanzerHUDGameController = {}
 
 ---@param fields? gameuiPanzerHUDGameController
 ---@return gameuiPanzerHUDGameController
-function gameuiPanzerHUDGameController.new(fields) return end
+function gameuiPanzerHUDGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function gameuiPanzerHUDGameController:OnAction(action, consumer) return end
+function gameuiPanzerHUDGameController:OnAction(action, consumer) end
 
----@protected
 ---@param mode Bool
 ---@return Bool
-function gameuiPanzerHUDGameController:OnCameraModeChanged(mode) return end
+function gameuiPanzerHUDGameController:OnCameraModeChanged(mode) end
 
----@protected
 ---@param evt ForwardVehicleQuestEnableUIEvent
 ---@return Bool
-function gameuiPanzerHUDGameController:OnForwardVehicleQuestEnableUIEvent(evt) return end
+function gameuiPanzerHUDGameController:OnForwardVehicleQuestEnableUIEvent(evt) end
 
----@protected
 ---@param gearValue Int32
 ---@return Bool
-function gameuiPanzerHUDGameController:OnGearValueChanged(gearValue) return end
+function gameuiPanzerHUDGameController:OnGearValueChanged(gearValue) end
 
----@protected
 ---@return Bool
-function gameuiPanzerHUDGameController:OnInitialize() return end
+function gameuiPanzerHUDGameController:OnInitialize() end
 
----@protected
 ---@param isTargetingFriendly Bool
 ---@return Bool
-function gameuiPanzerHUDGameController:OnIsTargetingFriendly(isTargetingFriendly) return end
+function gameuiPanzerHUDGameController:OnIsTargetingFriendly(isTargetingFriendly) end
 
----@protected
 ---@param leanAngle Float
 ---@return Bool
-function gameuiPanzerHUDGameController:OnLeanAngleChanged(leanAngle) return end
+function gameuiPanzerHUDGameController:OnLeanAngleChanged(leanAngle) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPanzerHUDGameController:OnPlayerAttach(playerPuppet) return end
+function gameuiPanzerHUDGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPanzerHUDGameController:OnPlayerDetach(playerPuppet) return end
+function gameuiPanzerHUDGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function gameuiPanzerHUDGameController:OnPlayerVehicleStateChange(value) return end
+function gameuiPanzerHUDGameController:OnPlayerVehicleStateChange(value) end
 
----@protected
 ---@param rpmMax Float
 ---@return Bool
-function gameuiPanzerHUDGameController:OnRpmMaxChanged(rpmMax) return end
+function gameuiPanzerHUDGameController:OnRpmMaxChanged(rpmMax) end
 
----@protected
 ---@param rpmValue Float
 ---@return Bool
-function gameuiPanzerHUDGameController:OnRpmValueChanged(rpmValue) return end
+function gameuiPanzerHUDGameController:OnRpmValueChanged(rpmValue) end
 
----@protected
 ---@param argParams Variant
 ---@return Bool
-function gameuiPanzerHUDGameController:OnSmartGunParams(argParams) return end
+function gameuiPanzerHUDGameController:OnSmartGunParams(argParams) end
 
----@protected
 ---@param speedValue Float
 ---@return Bool
-function gameuiPanzerHUDGameController:OnSpeedValueChanged(speedValue) return end
+function gameuiPanzerHUDGameController:OnSpeedValueChanged(speedValue) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiPanzerHUDGameController:OnStatsChanged(value) return end
+function gameuiPanzerHUDGameController:OnStatsChanged(value) end
 
----@protected
 ---@return Bool
-function gameuiPanzerHUDGameController:OnUninitialize() return end
+function gameuiPanzerHUDGameController:OnUninitialize() end
 
----@protected
 ---@param state Int32
 ---@return Bool
-function gameuiPanzerHUDGameController:OnVehicleStateChanged(state) return end
+function gameuiPanzerHUDGameController:OnVehicleStateChanged(state) end
 
----@protected
 ---@param evt Float
 ---@return Bool
-function gameuiPanzerHUDGameController:OnZoomChange(evt) return end
+function gameuiPanzerHUDGameController:OnZoomChange(evt) end
 
----@private
 ---@param indicatorEntry TargetIndicatorEntry
 ---@return nil
-function gameuiPanzerHUDGameController:DisableTargetIndicator(indicatorEntry) return end
+function gameuiPanzerHUDGameController:DisableTargetIndicator(indicatorEntry) end
 
----@private
 ---@param indicatorEntry TargetIndicatorEntry
 ---@param targetData gamesmartGunUITargetParameters
 ---@return nil
-function gameuiPanzerHUDGameController:EnableTargetIndicator(indicatorEntry, targetData) return end
+function gameuiPanzerHUDGameController:EnableTargetIndicator(indicatorEntry, targetData) end
 
----@private
 ---@return nil
-function gameuiPanzerHUDGameController:EvaluateUIState() return end
+function gameuiPanzerHUDGameController:EvaluateUIState() end
 
----@private
 ---@return nil
-function gameuiPanzerHUDGameController:SpawnTargetIndicators() return end
+function gameuiPanzerHUDGameController:SpawnTargetIndicators() end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function gameuiPanzerHUDGameController:TogglePanzerSpecificFX(toggle) return end
+function gameuiPanzerHUDGameController:TogglePanzerSpecificFX(toggle) end
 
----@private
 ---@return nil
-function gameuiPanzerHUDGameController:TurnOff() return end
+function gameuiPanzerHUDGameController:TurnOff() end
 
----@private
 ---@return nil
-function gameuiPanzerHUDGameController:TurnOn() return end
+function gameuiPanzerHUDGameController:TurnOn() end

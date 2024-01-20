@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questPauseTime_NodeType: questITimeManagerNodeType
----@field public pause Bool
----@field public source CName
+---@field pause Bool
+---@field source CName
 questPauseTime_NodeType = {}
 
 ---@param fields? questPauseTime_NodeType
 ---@return questPauseTime_NodeType
-function questPauseTime_NodeType.new(fields) return end
+function questPauseTime_NodeType.new(fields) end

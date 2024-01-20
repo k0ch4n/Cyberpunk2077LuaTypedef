@@ -5,4 +5,4 @@ entUncontrolledMovementEndEvent = {}
 
 ---@param fields? entUncontrolledMovementEndEvent
 ---@return entUncontrolledMovementEndEvent
-function entUncontrolledMovementEndEvent.new(fields) return end
+function entUncontrolledMovementEndEvent.new(fields) end

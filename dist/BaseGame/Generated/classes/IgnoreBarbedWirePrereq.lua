@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class IgnoreBarbedWirePrereq: gameIScriptablePrereq
----@field public minStateTime Float
----@field public invert Bool
+---@field minStateTime Float
+---@field invert Bool
 IgnoreBarbedWirePrereq = {}
 
 ---@param fields? IgnoreBarbedWirePrereq
 ---@return IgnoreBarbedWirePrereq
-function IgnoreBarbedWirePrereq.new(fields) return end
+function IgnoreBarbedWirePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IgnoreBarbedWirePrereq:Initialize(recordID) return end
+function IgnoreBarbedWirePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function IgnoreBarbedWirePrereq:IsFulfilled(context) return end
+function IgnoreBarbedWirePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IgnoreBarbedWirePrereq:OnApplied(state, context) return end
+function IgnoreBarbedWirePrereq:OnApplied(state, context) end

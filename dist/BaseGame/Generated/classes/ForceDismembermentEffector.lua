@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class ForceDismembermentEffector: gameEffector
----@field public bodyPart gameDismBodyPart
----@field public woundType gameDismWoundType
----@field public isCritical Bool
----@field public skipDeathAnim Bool
----@field public shouldKillNPC Bool
----@field public dismembermentChance Float
----@field public effectorRecord gamedataForceDismembermentEffector_Record
+---@field bodyPart gameDismBodyPart
+---@field woundType gameDismWoundType
+---@field isCritical Bool
+---@field skipDeathAnim Bool
+---@field shouldKillNPC Bool
+---@field dismembermentChance Float
+---@field effectorRecord gamedataForceDismembermentEffector_Record
 ForceDismembermentEffector = {}
 
 ---@param fields? ForceDismembermentEffector
 ---@return ForceDismembermentEffector
-function ForceDismembermentEffector.new(fields) return end
+function ForceDismembermentEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ForceDismembermentEffector:ActionOn(owner) return end
+function ForceDismembermentEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ForceDismembermentEffector:Initialize(record, parentRecord) return end
+function ForceDismembermentEffector:Initialize(record, parentRecord) end

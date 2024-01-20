@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameSEquipmentSet
----@field public setItems gameSItemInfo[]
----@field public setName CName
----@field public setType gameEquipmentSetType
+---@field setItems gameSItemInfo[]
+---@field setName CName
+---@field setType gameEquipmentSetType
 gameSEquipmentSet = {}
 
 ---@param fields? gameSEquipmentSet
 ---@return gameSEquipmentSet
-function gameSEquipmentSet.new(fields) return end
+function gameSEquipmentSet.new(fields) end

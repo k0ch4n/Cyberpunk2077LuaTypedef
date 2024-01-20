@@ -5,8 +5,8 @@ QuestMuteSounds = {}
 
 ---@param fields? QuestMuteSounds
 ---@return QuestMuteSounds
-function QuestMuteSounds.new(fields) return end
+function QuestMuteSounds.new(fields) end
 
 ---@param mute Bool
 ---@return nil
-function QuestMuteSounds:SetProperties(mute) return end
+function QuestMuteSounds:SetProperties(mute) end

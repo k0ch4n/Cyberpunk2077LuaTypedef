@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class gameuiDamageIndicatorGameController: gameuiHUDGameController
----@field public maxVisibleParts Uint8
+---@field maxVisibleParts Uint8
 gameuiDamageIndicatorGameController = {}
 
 ---@param fields? gameuiDamageIndicatorGameController
 ---@return gameuiDamageIndicatorGameController
-function gameuiDamageIndicatorGameController.new(fields) return end
+function gameuiDamageIndicatorGameController.new(fields) end
 
----@private
 ---@param evt gameeventsDamageReceivedEvent
 ---@return Bool
-function gameuiDamageIndicatorGameController:ShouldShowDamage(evt) return end
+function gameuiDamageIndicatorGameController:ShouldShowDamage(evt) end

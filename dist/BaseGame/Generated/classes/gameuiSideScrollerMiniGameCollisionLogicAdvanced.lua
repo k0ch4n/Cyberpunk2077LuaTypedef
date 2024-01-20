@@ -5,7 +5,7 @@ gameuiSideScrollerMiniGameCollisionLogicAdvanced = {}
 
 ---@param fields? gameuiSideScrollerMiniGameCollisionLogicAdvanced
 ---@return gameuiSideScrollerMiniGameCollisionLogicAdvanced
-function gameuiSideScrollerMiniGameCollisionLogicAdvanced.new(fields) return end
+function gameuiSideScrollerMiniGameCollisionLogicAdvanced.new(fields) end
 
 ---@return nil
-function gameuiSideScrollerMiniGameCollisionLogicAdvanced:GetDynObject() return end
+function gameuiSideScrollerMiniGameCollisionLogicAdvanced:GetDynObject() end

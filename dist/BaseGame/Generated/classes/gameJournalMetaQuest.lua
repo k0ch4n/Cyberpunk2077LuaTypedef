@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameJournalMetaQuest: gameJournalFileEntry
----@field public title LocalizationString
+---@field title LocalizationString
 gameJournalMetaQuest = {}
 
 ---@param fields? gameJournalMetaQuest
 ---@return gameJournalMetaQuest
-function gameJournalMetaQuest.new(fields) return end
+function gameJournalMetaQuest.new(fields) end
 
 ---@return String
-function gameJournalMetaQuest:GetTitle() return end
+function gameJournalMetaQuest:GetTitle() end

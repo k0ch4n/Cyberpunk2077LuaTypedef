@@ -4,4 +4,4 @@
 IUIInventoryItemStatsProvider = {}
 
 ---@return UIItemStatProperties
-function IUIInventoryItemStatsProvider:Get() return end
+function IUIInventoryItemStatsProvider:Get() end

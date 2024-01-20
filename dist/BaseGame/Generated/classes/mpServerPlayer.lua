@@ -5,4 +5,4 @@ mpServerPlayer = {}
 
 ---@param fields? mpServerPlayer
 ---@return mpServerPlayer
-function mpServerPlayer.new(fields) return end
+function mpServerPlayer.new(fields) end

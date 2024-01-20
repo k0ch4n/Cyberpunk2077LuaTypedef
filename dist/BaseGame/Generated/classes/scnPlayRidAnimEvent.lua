@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class scnPlayRidAnimEvent: scnPlayFPPControlAnimEvent
----@field public ridVersinon Uint32
----@field public animResRefId scnRidAnimationSRRefId
----@field public animOriginMarker scnMarker
----@field public actorPlacement scnRidActorPlacement
----@field public actorHasCollision Bool
----@field public blendInTrajectoryBone Float
+---@field ridVersinon Uint32
+---@field animResRefId scnRidAnimationSRRefId
+---@field animOriginMarker scnMarker
+---@field actorPlacement scnRidActorPlacement
+---@field actorHasCollision Bool
+---@field blendInTrajectoryBone Float
 scnPlayRidAnimEvent = {}
 
 ---@param fields? scnPlayRidAnimEvent
 ---@return scnPlayRidAnimEvent
-function scnPlayRidAnimEvent.new(fields) return end
+function scnPlayRidAnimEvent.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioAudSimpleParameter
----@field public name CName
----@field public value Float
+---@field name CName
+---@field value Float
 audioAudSimpleParameter = {}
 
 ---@param fields? audioAudSimpleParameter
 ---@return audioAudSimpleParameter
-function audioAudSimpleParameter.new(fields) return end
+function audioAudSimpleParameter.new(fields) end

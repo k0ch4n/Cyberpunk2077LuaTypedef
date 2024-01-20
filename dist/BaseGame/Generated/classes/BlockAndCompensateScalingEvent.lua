@@ -5,4 +5,4 @@ BlockAndCompensateScalingEvent = {}
 
 ---@param fields? BlockAndCompensateScalingEvent
 ---@return BlockAndCompensateScalingEvent
-function BlockAndCompensateScalingEvent.new(fields) return end
+function BlockAndCompensateScalingEvent.new(fields) end

@@ -5,4 +5,4 @@ scnCheckAnyoneDistractedInterruptCondition = {}
 
 ---@param fields? scnCheckAnyoneDistractedInterruptCondition
 ---@return scnCheckAnyoneDistractedInterruptCondition
-function scnCheckAnyoneDistractedInterruptCondition.new(fields) return end
+function scnCheckAnyoneDistractedInterruptCondition.new(fields) end

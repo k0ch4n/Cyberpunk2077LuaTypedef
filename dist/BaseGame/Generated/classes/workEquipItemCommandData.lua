@@ -5,4 +5,4 @@ workEquipItemCommandData = {}
 
 ---@param fields? workEquipItemCommandData
 ---@return workEquipItemCommandData
-function workEquipItemCommandData.new(fields) return end
+function workEquipItemCommandData.new(fields) end

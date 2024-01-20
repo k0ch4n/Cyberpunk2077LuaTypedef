@@ -5,19 +5,16 @@ MenuScenario_ExpansionNewGame = {}
 
 ---@param fields? MenuScenario_ExpansionNewGame
 ---@return MenuScenario_ExpansionNewGame
-function MenuScenario_ExpansionNewGame.new(fields) return end
+function MenuScenario_ExpansionNewGame.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_ExpansionNewGame:OnAccept() return end
+function MenuScenario_ExpansionNewGame:OnAccept() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_ExpansionNewGame:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_ExpansionNewGame:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_ExpansionNewGame:OnLeaveScenario(nextScenario) return end
+function MenuScenario_ExpansionNewGame:OnLeaveScenario(nextScenario) end

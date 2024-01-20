@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class FinisherInitData: IScriptable
----@field public target gameObject
----@field public actionName CName
----@field public IsBossFinisher Bool
+---@field target gameObject
+---@field actionName CName
+---@field IsBossFinisher Bool
 FinisherInitData = {}
 
 ---@param fields? FinisherInitData
 ---@return FinisherInitData
-function FinisherInitData.new(fields) return end
+function FinisherInitData.new(fields) end

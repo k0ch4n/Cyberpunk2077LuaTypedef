@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class CheckEquippedWeapon: AIItemHandlingCondition
----@field public slotID AIArgumentMapping
----@field public itemID AIArgumentMapping
----@field protected slotIDName TweakDBID
----@field protected itemIDName TweakDBID
+---@field slotID AIArgumentMapping
+---@field itemID AIArgumentMapping
+---@field slotIDName TweakDBID
+---@field itemIDName TweakDBID
 CheckEquippedWeapon = {}
 
 ---@param fields? CheckEquippedWeapon
 ---@return CheckEquippedWeapon
-function CheckEquippedWeapon.new(fields) return end
+function CheckEquippedWeapon.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CheckEquippedWeapon:Activate(context) return end
+function CheckEquippedWeapon:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckEquippedWeapon:Check(context) return end
+function CheckEquippedWeapon:Check(context) end

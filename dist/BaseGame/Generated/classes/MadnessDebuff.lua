@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MadnessDebuff: redEvent
----@field public object gameObject
+---@field object gameObject
 MadnessDebuff = {}
 
 ---@param fields? MadnessDebuff
 ---@return MadnessDebuff
-function MadnessDebuff.new(fields) return end
+function MadnessDebuff.new(fields) end

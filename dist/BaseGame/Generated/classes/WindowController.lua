@@ -5,7 +5,7 @@ WindowController = {}
 
 ---@param fields? WindowController
 ---@return WindowController
-function WindowController.new(fields) return end
+function WindowController.new(fields) end
 
 ---@return WindowControllerPS
-function WindowController:GetPS() return end
+function WindowController:GetPS() end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class questMoveOnSpline_NodeType: questIVehicleManagerNodeType
----@field public vehicleRef gameEntityReference
----@field public splineRef NodeRef
----@field public startFrom Float
----@field public blendType vehiclePlayerToAIInterpolationType
----@field public blendTime Float
----@field public reverseGear Bool
----@field public arriveWithPivot Bool
----@field public trafficDeletionMode vehicleAIPathTrafficDeletionMode
----@field public sceneBlendInDistance Float
----@field public sceneBlendOutDistance Float
----@field public overrides questIVehicleMoveOnSpline_Overrides
----@field public audioCurves vehicleAudioVehicleCurveSet
+---@field vehicleRef gameEntityReference
+---@field splineRef NodeRef
+---@field startFrom Float
+---@field blendType vehiclePlayerToAIInterpolationType
+---@field blendTime Float
+---@field reverseGear Bool
+---@field arriveWithPivot Bool
+---@field trafficDeletionMode vehicleAIPathTrafficDeletionMode
+---@field sceneBlendInDistance Float
+---@field sceneBlendOutDistance Float
+---@field overrides questIVehicleMoveOnSpline_Overrides
+---@field audioCurves vehicleAudioVehicleCurveSet
 questMoveOnSpline_NodeType = {}
 
 ---@param fields? questMoveOnSpline_NodeType
 ---@return questMoveOnSpline_NodeType
-function questMoveOnSpline_NodeType.new(fields) return end
+function questMoveOnSpline_NodeType.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameaudioeventsSetParameterOnEmitter: gameaudioeventsEmitterEvent
----@field public paramName CName
----@field public paramValue Float
+---@field paramName CName
+---@field paramValue Float
 gameaudioeventsSetParameterOnEmitter = {}
 
 ---@param fields? gameaudioeventsSetParameterOnEmitter
 ---@return gameaudioeventsSetParameterOnEmitter
-function gameaudioeventsSetParameterOnEmitter.new(fields) return end
+function gameaudioeventsSetParameterOnEmitter.new(fields) end

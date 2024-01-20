@@ -5,66 +5,53 @@ GameplayLight = {}
 
 ---@param fields? GameplayLight
 ---@return GameplayLight
-function GameplayLight.new(fields) return end
+function GameplayLight.new(fields) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function GameplayLight:OnRequestComponents(ri) return end
+function GameplayLight:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function GameplayLight:OnTakeControl(ri) return end
+function GameplayLight:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function GameplayLight:CutPower() return end
+function GameplayLight:CutPower() end
 
 ---@return EGameplayRole
-function GameplayLight:DeterminGameplayRole() return end
+function GameplayLight:DeterminGameplayRole() end
 
----@private
 ---@return GameplayLightController
-function GameplayLight:GetController() return end
+function GameplayLight:GetController() end
 
 ---@return GameplayLightControllerPS
-function GameplayLight:GetDevicePS() return end
+function GameplayLight:GetDevicePS() end
 
----@protected
 ---@return Bool
-function GameplayLight:IncludeLightsInVisibilityBoundsScript() return end
+function GameplayLight:IncludeLightsInVisibilityBoundsScript() end
 
----@protected
 ---@return nil
-function GameplayLight:StartBlinking() return end
+function GameplayLight:StartBlinking() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function GameplayLight:StartGlitching(glitchState, intensity) return end
+function GameplayLight:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function GameplayLight:StopBlinking() return end
+function GameplayLight:StopBlinking() end
 
----@protected
 ---@return nil
-function GameplayLight:StopGlitching() return end
+function GameplayLight:StopGlitching() end
 
----@protected
 ---@return nil
-function GameplayLight:TurnOffDevice() return end
+function GameplayLight:TurnOffDevice() end
 
----@private
 ---@return nil
-function GameplayLight:TurnOffLights() return end
+function GameplayLight:TurnOffLights() end
 
----@protected
 ---@return nil
-function GameplayLight:TurnOnDevice() return end
+function GameplayLight:TurnOnDevice() end
 
----@private
 ---@return nil
-function GameplayLight:TurnOnLights() return end
+function GameplayLight:TurnOnLights() end

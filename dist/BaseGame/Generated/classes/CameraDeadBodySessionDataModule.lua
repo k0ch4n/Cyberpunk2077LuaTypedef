@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class CameraDeadBodySessionDataModule: GameSessionDataModule
----@field public cameraDeadBodyData CameraDeadBodyInternalData[]
+---@field cameraDeadBodyData CameraDeadBodyInternalData[]
 CameraDeadBodySessionDataModule = {}
 
 ---@param fields? CameraDeadBodySessionDataModule
 ---@return CameraDeadBodySessionDataModule
-function CameraDeadBodySessionDataModule.new(fields) return end
+function CameraDeadBodySessionDataModule.new(fields) end
 
 ---@param data Variant
 ---@return nil
-function CameraDeadBodySessionDataModule:AddEntry(data) return end
-
----@param data Variant
----@return Bool
-function CameraDeadBodySessionDataModule:CheckData(data) return end
-
----@return nil
-function CameraDeadBodySessionDataModule:Initialize() return end
+function CameraDeadBodySessionDataModule:AddEntry(data) end
 
 ---@param data Variant
 ---@return Bool
-function CameraDeadBodySessionDataModule:IsDataValid(data) return end
+function CameraDeadBodySessionDataModule:CheckData(data) end
 
 ---@return nil
-function CameraDeadBodySessionDataModule:RefreshDebug() return end
+function CameraDeadBodySessionDataModule:Initialize() end
+
+---@param data Variant
+---@return Bool
+function CameraDeadBodySessionDataModule:IsDataValid(data) end
+
+---@return nil
+function CameraDeadBodySessionDataModule:RefreshDebug() end

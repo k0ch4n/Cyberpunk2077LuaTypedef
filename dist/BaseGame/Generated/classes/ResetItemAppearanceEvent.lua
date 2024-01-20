@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ResetItemAppearanceEvent: redEvent
----@field public itemID gameItemID
+---@field itemID gameItemID
 ResetItemAppearanceEvent = {}
 
 ---@param fields? ResetItemAppearanceEvent
 ---@return ResetItemAppearanceEvent
-function ResetItemAppearanceEvent.new(fields) return end
+function ResetItemAppearanceEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class toolsJiraEditIssueBody: ISerializable
----@field public fields toolsJiraIssueFields
+---@field fields toolsJiraIssueFields
 toolsJiraEditIssueBody = {}
 
 ---@param fields? toolsJiraEditIssueBody
 ---@return toolsJiraEditIssueBody
-function toolsJiraEditIssueBody.new(fields) return end
+function toolsJiraEditIssueBody.new(fields) end

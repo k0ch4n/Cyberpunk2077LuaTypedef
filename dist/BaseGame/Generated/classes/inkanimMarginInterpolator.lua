@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkanimMarginInterpolator: inkanimInterpolator
----@field public startValue inkMargin
----@field public endValue inkMargin
+---@field startValue inkMargin
+---@field endValue inkMargin
 inkanimMarginInterpolator = {}
 
 ---@param fields? inkanimMarginInterpolator
 ---@return inkanimMarginInterpolator
-function inkanimMarginInterpolator.new(fields) return end
+function inkanimMarginInterpolator.new(fields) end
 
 ---@return inkMargin
-function inkanimMarginInterpolator:GetEndMargin() return end
+function inkanimMarginInterpolator:GetEndMargin() end
 
 ---@return inkMargin
-function inkanimMarginInterpolator:GetStartMargin() return end
+function inkanimMarginInterpolator:GetStartMargin() end
 
 ---@param endMargin inkMargin
 ---@return nil
-function inkanimMarginInterpolator:SetEndMargin(endMargin) return end
+function inkanimMarginInterpolator:SetEndMargin(endMargin) end
 
 ---@param startMargin inkMargin
 ---@return nil
-function inkanimMarginInterpolator:SetStartMargin(startMargin) return end
+function inkanimMarginInterpolator:SetStartMargin(startMargin) end

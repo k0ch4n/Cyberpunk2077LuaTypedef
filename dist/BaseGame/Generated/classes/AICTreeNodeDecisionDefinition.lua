@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AICTreeNodeDecisionDefinition: AICTreeNodeCompositeDefinition
----@field public child LibTreeINodeDefinition
----@field public expressions LibTreeINodeDefinition[]
----@field public interruption AIInterruptionSignal
+---@field child LibTreeINodeDefinition
+---@field expressions LibTreeINodeDefinition[]
+---@field interruption AIInterruptionSignal
 AICTreeNodeDecisionDefinition = {}
 
 ---@param fields? AICTreeNodeDecisionDefinition
 ---@return AICTreeNodeDecisionDefinition
-function AICTreeNodeDecisionDefinition.new(fields) return end
+function AICTreeNodeDecisionDefinition.new(fields) end

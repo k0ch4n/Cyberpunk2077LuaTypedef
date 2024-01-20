@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RevokeAuthorization: redEvent
----@field public user entEntityID
----@field public level ESecurityAccessLevel
+---@field user entEntityID
+---@field level ESecurityAccessLevel
 RevokeAuthorization = {}
 
 ---@param fields? RevokeAuthorization
 ---@return RevokeAuthorization
-function RevokeAuthorization.new(fields) return end
+function RevokeAuthorization.new(fields) end

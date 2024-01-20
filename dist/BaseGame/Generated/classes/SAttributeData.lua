@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SAttributeData
----@field public type gamedataAttributeDataType
----@field public unlockedPerks SNewPerk[]
+---@field type gamedataAttributeDataType
+---@field unlockedPerks SNewPerk[]
 SAttributeData = {}
 
 ---@param fields? SAttributeData
 ---@return SAttributeData
-function SAttributeData.new(fields) return end
+function SAttributeData.new(fields) end

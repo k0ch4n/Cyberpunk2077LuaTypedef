@@ -5,13 +5,13 @@ gamedataAIActionType_Record = {}
 
 ---@param fields? gamedataAIActionType_Record
 ---@return gamedataAIActionType_Record
-function gamedataAIActionType_Record.new(fields) return end
+function gamedataAIActionType_Record.new(fields) end
 
 ---@return String
-function gamedataAIActionType_Record:EnumComment() return end
+function gamedataAIActionType_Record:EnumComment() end
 
 ---@return CName
-function gamedataAIActionType_Record:EnumName() return end
+function gamedataAIActionType_Record:EnumName() end
 
 ---@return gamedataAIActionType
-function gamedataAIActionType_Record:Type() return end
+function gamedataAIActionType_Record:Type() end

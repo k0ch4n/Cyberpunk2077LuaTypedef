@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class gameSceneTierData: IScriptable
----@field public tier GameplayTier
----@field public emptyHands Bool
----@field public userDebugInfo String
+---@field tier GameplayTier
+---@field emptyHands Bool
+---@field userDebugInfo String
 gameSceneTierData = {}

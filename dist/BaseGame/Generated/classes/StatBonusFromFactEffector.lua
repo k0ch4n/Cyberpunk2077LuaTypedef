@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class StatBonusFromFactEffector: gameEffector
----@field public applicationTarget CName
----@field public stat gamedataStat_Record
----@field public bonusPerStack Float
----@field public fact CName
----@field public modifier gameConstantStatModifierData_Deprecated
+---@field applicationTarget CName
+---@field stat gamedataStat_Record
+---@field bonusPerStack Float
+---@field fact CName
+---@field modifier gameConstantStatModifierData_Deprecated
 StatBonusFromFactEffector = {}
 
 ---@param fields? StatBonusFromFactEffector
 ---@return StatBonusFromFactEffector
-function StatBonusFromFactEffector.new(fields) return end
+function StatBonusFromFactEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StatBonusFromFactEffector:ActionOff(owner) return end
+function StatBonusFromFactEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StatBonusFromFactEffector:ActionOn(owner) return end
+function StatBonusFromFactEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function StatBonusFromFactEffector:Initialize(record, parentRecord) return end
+function StatBonusFromFactEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StatBonusFromFactEffector:RepeatedAction(owner) return end
+function StatBonusFromFactEffector:RepeatedAction(owner) end

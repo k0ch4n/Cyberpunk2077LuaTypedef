@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class meshMeshParamOccluderData: meshMeshParameter
----@field public occluderResource visIOccluderResource
----@field public defaultOccluderType visWorldOccluderType
----@field public autoHideDistanceScale Uint8
+---@field occluderResource visIOccluderResource
+---@field defaultOccluderType visWorldOccluderType
+---@field autoHideDistanceScale Uint8
 meshMeshParamOccluderData = {}
 
 ---@param fields? meshMeshParamOccluderData
 ---@return meshMeshParamOccluderData
-function meshMeshParamOccluderData.new(fields) return end
+function meshMeshParamOccluderData.new(fields) end

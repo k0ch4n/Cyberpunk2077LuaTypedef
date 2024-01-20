@@ -5,4 +5,4 @@ CameraCustomData_DataMoshing = {}
 
 ---@param fields? CameraCustomData_DataMoshing
 ---@return CameraCustomData_DataMoshing
-function CameraCustomData_DataMoshing.new(fields) return end
+function CameraCustomData_DataMoshing.new(fields) end

@@ -5,14 +5,12 @@ JoinTrafficOnFoot = {}
 
 ---@param fields? JoinTrafficOnFoot
 ---@return JoinTrafficOnFoot
-function JoinTrafficOnFoot.new(fields) return end
+function JoinTrafficOnFoot.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function JoinTrafficOnFoot:Activate(context) return end
+function JoinTrafficOnFoot:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function JoinTrafficOnFoot:Update(context) return end
+function JoinTrafficOnFoot:Update(context) end

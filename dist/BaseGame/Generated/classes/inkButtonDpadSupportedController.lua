@@ -1,39 +1,38 @@
 ---@meta
 
 ---@class inkButtonDpadSupportedController: inkButtonAnimatedController
----@field public targetPath_DpadUp inkWidget
----@field public targetPath_DpadDown inkWidget
----@field public targetPath_DpadLeft inkWidget
----@field public targetPath_DpadRight inkWidget
+---@field targetPath_DpadUp inkWidget
+---@field targetPath_DpadDown inkWidget
+---@field targetPath_DpadLeft inkWidget
+---@field targetPath_DpadRight inkWidget
 inkButtonDpadSupportedController = {}
 
 ---@param fields? inkButtonDpadSupportedController
 ---@return inkButtonDpadSupportedController
-function inkButtonDpadSupportedController.new(fields) return end
+function inkButtonDpadSupportedController.new(fields) end
 
----@protected
 ---@return Bool
-function inkButtonDpadSupportedController:OnInitialize() return end
+function inkButtonDpadSupportedController:OnInitialize() end
 
 ---@param argNew inkWidget
 ---@return nil
-function inkButtonDpadSupportedController:SetDpadDownTarget(argNew) return end
+function inkButtonDpadSupportedController:SetDpadDownTarget(argNew) end
 
 ---@param argNew inkWidget
 ---@return nil
-function inkButtonDpadSupportedController:SetDpadLeftTarget(argNew) return end
+function inkButtonDpadSupportedController:SetDpadLeftTarget(argNew) end
 
 ---@param argNew inkWidget
 ---@return nil
-function inkButtonDpadSupportedController:SetDpadRightTarget(argNew) return end
+function inkButtonDpadSupportedController:SetDpadRightTarget(argNew) end
 
 ---@param argLeft inkWidget
 ---@param argUp inkWidget
 ---@param argRight inkWidget
 ---@param argDown inkWidget
 ---@return nil
-function inkButtonDpadSupportedController:SetDpadTargets(argLeft, argUp, argRight, argDown) return end
+function inkButtonDpadSupportedController:SetDpadTargets(argLeft, argUp, argRight, argDown) end
 
 ---@param argNew inkWidget
 ---@return nil
-function inkButtonDpadSupportedController:SetDpadUpTarget(argNew) return end
+function inkButtonDpadSupportedController:SetDpadUpTarget(argNew) end

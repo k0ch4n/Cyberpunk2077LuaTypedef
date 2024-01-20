@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameuiDamageInfo
----@field public hitPosition Vector4
----@field public damageValue Float
----@field public damageType gamedataDamageType
----@field public hitType gameuiHitType
----@field public entityHit gameObject
----@field public instigator gameObject
----@field public userData gameuiDamageInfoUserData
+---@field hitPosition Vector4
+---@field damageValue Float
+---@field damageType gamedataDamageType
+---@field hitType gameuiHitType
+---@field entityHit gameObject
+---@field instigator gameObject
+---@field userData gameuiDamageInfoUserData
 gameuiDamageInfo = {}
 
 ---@param fields? gameuiDamageInfo
 ---@return gameuiDamageInfo
-function gameuiDamageInfo.new(fields) return end
+function gameuiDamageInfo.new(fields) end

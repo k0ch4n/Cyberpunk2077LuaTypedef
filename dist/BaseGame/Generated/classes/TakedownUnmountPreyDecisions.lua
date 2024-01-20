@@ -5,10 +5,9 @@ TakedownUnmountPreyDecisions = {}
 
 ---@param fields? TakedownUnmountPreyDecisions
 ---@return TakedownUnmountPreyDecisions
-function TakedownUnmountPreyDecisions.new(fields) return end
+function TakedownUnmountPreyDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TakedownUnmountPreyDecisions:EnterCondition(stateContext, scriptInterface) return end
+function TakedownUnmountPreyDecisions:EnterCondition(stateContext, scriptInterface) end

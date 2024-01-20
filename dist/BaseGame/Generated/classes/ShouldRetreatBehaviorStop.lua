@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class ShouldRetreatBehaviorStop: PreventionConditionAbstract
----@field public agentRegistry PoliceAgentRegistry
+---@field agentRegistry PoliceAgentRegistry
 ShouldRetreatBehaviorStop = {}
 
 ---@param fields? ShouldRetreatBehaviorStop
 ---@return ShouldRetreatBehaviorStop
-function ShouldRetreatBehaviorStop.new(fields) return end
+function ShouldRetreatBehaviorStop.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function ShouldRetreatBehaviorStop:Check(context) return end
+function ShouldRetreatBehaviorStop:Check(context) end

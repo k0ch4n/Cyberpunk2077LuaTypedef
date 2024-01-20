@@ -5,4 +5,4 @@ WidgetMenuComponent = {}
 
 ---@param fields? WidgetMenuComponent
 ---@return WidgetMenuComponent
-function WidgetMenuComponent.new(fields) return end
+function WidgetMenuComponent.new(fields) end

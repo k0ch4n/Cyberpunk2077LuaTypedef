@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnSceneWorkspotDataId
----@field public id Uint32
+---@field id Uint32
 scnSceneWorkspotDataId = {}
 
 ---@param fields? scnSceneWorkspotDataId
 ---@return scnSceneWorkspotDataId
-function scnSceneWorkspotDataId.new(fields) return end
+function scnSceneWorkspotDataId.new(fields) end

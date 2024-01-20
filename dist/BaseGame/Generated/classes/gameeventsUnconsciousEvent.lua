@@ -5,4 +5,4 @@ gameeventsUnconsciousEvent = {}
 
 ---@param fields? gameeventsUnconsciousEvent
 ---@return gameeventsUnconsciousEvent
-function gameeventsUnconsciousEvent.new(fields) return end
+function gameeventsUnconsciousEvent.new(fields) end

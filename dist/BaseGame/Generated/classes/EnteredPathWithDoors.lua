@@ -5,4 +5,4 @@ EnteredPathWithDoors = {}
 
 ---@param fields? EnteredPathWithDoors
 ---@return EnteredPathWithDoors
-function EnteredPathWithDoors.new(fields) return end
+function EnteredPathWithDoors.new(fields) end

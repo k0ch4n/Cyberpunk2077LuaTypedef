@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questQuestPrefabEntry
----@field public prefabNodeRef NodeRef
+---@field prefabNodeRef NodeRef
 questQuestPrefabEntry = {}
 
 ---@param fields? questQuestPrefabEntry
 ---@return questQuestPrefabEntry
-function questQuestPrefabEntry.new(fields) return end
+function questQuestPrefabEntry.new(fields) end

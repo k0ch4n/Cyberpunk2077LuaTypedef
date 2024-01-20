@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ChatterKeyValuePair
----@field public Key CRUID
----@field public Value ChatterLineLogicController
----@field public Owner gameObject
+---@field Key CRUID
+---@field Value ChatterLineLogicController
+---@field Owner gameObject
 ChatterKeyValuePair = {}
 
 ---@param fields? ChatterKeyValuePair
 ---@return ChatterKeyValuePair
-function ChatterKeyValuePair.new(fields) return end
+function ChatterKeyValuePair.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ConvexHull
----@field public planes Vector4[]
+---@field planes Vector4[]
 ConvexHull = {}
 
 ---@param fields? ConvexHull
 ---@return ConvexHull
-function ConvexHull.new(fields) return end
+function ConvexHull.new(fields) end

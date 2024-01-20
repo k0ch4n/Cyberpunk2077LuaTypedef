@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SecuritySystemOutputData
----@field public link DeviceLink
----@field public breachOrigin EBreachOrigin
----@field public delayDuration Float
+---@field link DeviceLink
+---@field breachOrigin EBreachOrigin
+---@field delayDuration Float
 SecuritySystemOutputData = {}
 
 ---@param fields? SecuritySystemOutputData
 ---@return SecuritySystemOutputData
-function SecuritySystemOutputData.new(fields) return end
+function SecuritySystemOutputData.new(fields) end

@@ -1,43 +1,37 @@
 ---@meta
 
 ---@class SpiderbotHeavyProjectile: BaseProjectile
----@field private meshComponent entIComponent
----@field private effect gameEffectRef
----@field private startVelocity Float
----@field private lifetime Float
----@field private alive Bool
----@field private hit Bool
+---@field meshComponent entIComponent
+---@field effect gameEffectRef
+---@field startVelocity Float
+---@field lifetime Float
+---@field alive Bool
+---@field hit Bool
 SpiderbotHeavyProjectile = {}
 
 ---@param fields? SpiderbotHeavyProjectile
 ---@return SpiderbotHeavyProjectile
-function SpiderbotHeavyProjectile.new(fields) return end
+function SpiderbotHeavyProjectile.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function SpiderbotHeavyProjectile:OnCollision(eventData) return end
+function SpiderbotHeavyProjectile:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function SpiderbotHeavyProjectile:OnShoot(eventData) return end
+function SpiderbotHeavyProjectile:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function SpiderbotHeavyProjectile:OnShootTarget(eventData) return end
+function SpiderbotHeavyProjectile:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SpiderbotHeavyProjectile:OnTakeControl(ri) return end
+function SpiderbotHeavyProjectile:OnTakeControl(ri) end
 
----@protected
 ---@param hitInstance gameprojectileHitInstance
 ---@return nil
-function SpiderbotHeavyProjectile:Explode(hitInstance) return end
+function SpiderbotHeavyProjectile:Explode(hitInstance) end
 
----@private
 ---@return nil
-function SpiderbotHeavyProjectile:Reset() return end
+function SpiderbotHeavyProjectile:Reset() end

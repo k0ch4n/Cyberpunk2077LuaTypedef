@@ -5,4 +5,4 @@ gamestateMachineplayeractionsLocomotionForceFreeze = {}
 
 ---@param fields? gamestateMachineplayeractionsLocomotionForceFreeze
 ---@return gamestateMachineplayeractionsLocomotionForceFreeze
-function gamestateMachineplayeractionsLocomotionForceFreeze.new(fields) return end
+function gamestateMachineplayeractionsLocomotionForceFreeze.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RevealDevicesGridOnEntityEvent: redEvent
----@field public shouldDraw Bool
+---@field shouldDraw Bool
 RevealDevicesGridOnEntityEvent = {}
 
 ---@param fields? RevealDevicesGridOnEntityEvent
 ---@return RevealDevicesGridOnEntityEvent
-function RevealDevicesGridOnEntityEvent.new(fields) return end
+function RevealDevicesGridOnEntityEvent.new(fields) end

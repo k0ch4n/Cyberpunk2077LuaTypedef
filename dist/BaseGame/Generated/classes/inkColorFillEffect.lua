@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class inkColorFillEffect: inkIEffect
----@field public colorR Float
----@field public colorG Float
----@field public colorB Float
----@field public colorA Float
----@field public saturation Float
+---@field colorR Float
+---@field colorG Float
+---@field colorB Float
+---@field colorA Float
+---@field saturation Float
 inkColorFillEffect = {}
 
 ---@param fields? inkColorFillEffect
 ---@return inkColorFillEffect
-function inkColorFillEffect.new(fields) return end
+function inkColorFillEffect.new(fields) end

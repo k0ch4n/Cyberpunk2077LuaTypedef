@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class animAnimNode_AimConstraint_ObjectRotationUp: animAnimNode_OnePoseInput
----@field public targetTransform animTransformIndex
----@field public upTransform animTransformIndex
----@field public upTransformVector Vector3
----@field public transformIndex animTransformIndex
----@field public forwardAxisLS Vector3
----@field public upAxisLS Vector3
----@field public weightMode animConstraintWeightMode
----@field public weight Float
----@field public weightFloatTrack animNamedTrackIndex
+---@field targetTransform animTransformIndex
+---@field upTransform animTransformIndex
+---@field upTransformVector Vector3
+---@field transformIndex animTransformIndex
+---@field forwardAxisLS Vector3
+---@field upAxisLS Vector3
+---@field weightMode animConstraintWeightMode
+---@field weight Float
+---@field weightFloatTrack animNamedTrackIndex
 animAnimNode_AimConstraint_ObjectRotationUp = {}
 
 ---@param fields? animAnimNode_AimConstraint_ObjectRotationUp
 ---@return animAnimNode_AimConstraint_ObjectRotationUp
-function animAnimNode_AimConstraint_ObjectRotationUp.new(fields) return end
+function animAnimNode_AimConstraint_ObjectRotationUp.new(fields) end

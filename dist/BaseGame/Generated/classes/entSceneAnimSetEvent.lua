@@ -5,4 +5,4 @@ entSceneAnimSetEvent = {}
 
 ---@param fields? entSceneAnimSetEvent
 ---@return entSceneAnimSetEvent
-function entSceneAnimSetEvent.new(fields) return end
+function entSceneAnimSetEvent.new(fields) end

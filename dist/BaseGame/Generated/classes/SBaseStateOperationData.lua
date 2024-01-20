@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SBaseStateOperationData
----@field public state EDeviceStatus
----@field public operation SBaseDeviceOperationData
+---@field state EDeviceStatus
+---@field operation SBaseDeviceOperationData
 SBaseStateOperationData = {}
 
 ---@param fields? SBaseStateOperationData
 ---@return SBaseStateOperationData
-function SBaseStateOperationData.new(fields) return end
+function SBaseStateOperationData.new(fields) end

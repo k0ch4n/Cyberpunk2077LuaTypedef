@@ -5,4 +5,4 @@ worldWaterNullAreaNode = {}
 
 ---@param fields? worldWaterNullAreaNode
 ---@return worldWaterNullAreaNode
-function worldWaterNullAreaNode.new(fields) return end
+function worldWaterNullAreaNode.new(fields) end

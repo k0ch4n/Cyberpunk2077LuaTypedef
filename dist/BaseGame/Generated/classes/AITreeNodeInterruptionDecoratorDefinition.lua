@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AITreeNodeInterruptionDecoratorDefinition: AICTreeNodeDecoratorDefinition
----@field public interruptions AIInterruptionHandlerDefinition[]
+---@field interruptions AIInterruptionHandlerDefinition[]
 AITreeNodeInterruptionDecoratorDefinition = {}
 
 ---@param fields? AITreeNodeInterruptionDecoratorDefinition
 ---@return AITreeNodeInterruptionDecoratorDefinition
-function AITreeNodeInterruptionDecoratorDefinition.new(fields) return end
+function AITreeNodeInterruptionDecoratorDefinition.new(fields) end

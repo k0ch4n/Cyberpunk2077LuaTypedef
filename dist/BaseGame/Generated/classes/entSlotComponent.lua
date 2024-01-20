@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class entSlotComponent: entIPlacedComponent
----@field public slots entSlot[]
----@field public fallbackSlots entFallbackSlot[]
+---@field slots entSlot[]
+---@field fallbackSlots entFallbackSlot[]
 entSlotComponent = {}
 
 ---@param fields? entSlotComponent
 ---@return entSlotComponent
-function entSlotComponent.new(fields) return end
+function entSlotComponent.new(fields) end
 
 ---@param slotName CName|string
 ---@return Bool, WorldTransform worldTransformOut
-function entSlotComponent:GetSlotTransform(slotName) return end
+function entSlotComponent:GetSlotTransform(slotName) end

@@ -1,183 +1,154 @@
 ---@meta
 
 ---@class gameuiMinimapContainerController: gameuiMappinsContainerController
----@field public settings gameMinimapSettings
----@field public clampedMappinContainer inkCompoundWidgetReference
----@field public unclampedMappinContainer inkCompoundWidgetReference
----@field public maskWidget inkMaskWidgetReference
----@field public playerIconWidget inkWidgetReference
----@field public compassWidget inkWidgetReference
----@field public worldGeometryContainer inkCanvasWidgetReference
----@field public worldGeometryCache inkCacheWidgetReference
----@field public geometryLibraryID CName
----@field public timeDisplayWidget inkCompoundWidgetReference
----@field protected rootZoneSafety inkWidget
----@field protected locationTextWidget inkTextWidgetReference
----@field protected fluffText1 inkTextWidgetReference
----@field protected securityAreaVignetteWidget inkWidgetReference
----@field protected securityAreaText inkTextWidgetReference
----@field protected combatModeHighlight inkWidgetReference
----@field protected courierTimerContainer inkWidgetReference
----@field protected courierTimerText inkTextWidgetReference
----@field private rootWidget inkWidget
----@field private zoneVignetteAnimProxy inkanimProxy
----@field private inPublicOrRestrictedZone Bool
----@field private fluffTextCount Int32
----@field private psmBlackboard gameIBlackboard
----@field private mapBlackboard gameIBlackboard
----@field private mapDefinition UI_MapDef
----@field private locationDataCallback redCallbackObject
----@field private countdownTimerBlackboard gameIBlackboard
----@field private countdownTimerDefinition UI_HUDCountdownTimerDef
----@field private countdownTimerActiveCallback redCallbackObject
----@field private countdownTimerTimeCallback redCallbackObject
----@field private securityBlackBoardID redCallbackObject
----@field private remoteControlledVehicleDataCallback redCallbackObject
----@field private remoteControlledVehicleCameraChangedToTPPCallback redCallbackObject
----@field private combatAnimation inkanimProxy
----@field private playerInCombat Bool
----@field private currentZoneType ESecurityAreaType
----@field private messageCounterController inkCompoundWidget
+---@field settings gameMinimapSettings
+---@field clampedMappinContainer inkCompoundWidgetReference
+---@field unclampedMappinContainer inkCompoundWidgetReference
+---@field maskWidget inkMaskWidgetReference
+---@field playerIconWidget inkWidgetReference
+---@field compassWidget inkWidgetReference
+---@field worldGeometryContainer inkCanvasWidgetReference
+---@field worldGeometryCache inkCacheWidgetReference
+---@field geometryLibraryID CName
+---@field timeDisplayWidget inkCompoundWidgetReference
+---@field rootZoneSafety inkWidget
+---@field locationTextWidget inkTextWidgetReference
+---@field fluffText1 inkTextWidgetReference
+---@field securityAreaVignetteWidget inkWidgetReference
+---@field securityAreaText inkTextWidgetReference
+---@field combatModeHighlight inkWidgetReference
+---@field courierTimerContainer inkWidgetReference
+---@field courierTimerText inkTextWidgetReference
+---@field rootWidget inkWidget
+---@field zoneVignetteAnimProxy inkanimProxy
+---@field inPublicOrRestrictedZone Bool
+---@field fluffTextCount Int32
+---@field psmBlackboard gameIBlackboard
+---@field mapBlackboard gameIBlackboard
+---@field mapDefinition UI_MapDef
+---@field locationDataCallback redCallbackObject
+---@field countdownTimerBlackboard gameIBlackboard
+---@field countdownTimerDefinition UI_HUDCountdownTimerDef
+---@field countdownTimerActiveCallback redCallbackObject
+---@field countdownTimerTimeCallback redCallbackObject
+---@field securityBlackBoardID redCallbackObject
+---@field remoteControlledVehicleDataCallback redCallbackObject
+---@field remoteControlledVehicleCameraChangedToTPPCallback redCallbackObject
+---@field combatAnimation inkanimProxy
+---@field playerInCombat Bool
+---@field currentZoneType ESecurityAreaType
+---@field messageCounterController inkCompoundWidget
 gameuiMinimapContainerController = {}
 
 ---@param fields? gameuiMinimapContainerController
 ---@return gameuiMinimapContainerController
-function gameuiMinimapContainerController.new(fields) return end
+function gameuiMinimapContainerController.new(fields) end
 
----@protected
 ---@param active Bool
 ---@return Bool
-function gameuiMinimapContainerController:OnCountdownTimerActiveUpdated(active) return end
+function gameuiMinimapContainerController:OnCountdownTimerActiveUpdated(active) end
 
----@protected
 ---@param time Float
 ---@return Bool
-function gameuiMinimapContainerController:OnCountdownTimerTimeUpdated(time) return end
+function gameuiMinimapContainerController:OnCountdownTimerTimeUpdated(time) end
 
----@protected
 ---@return Bool
-function gameuiMinimapContainerController:OnInitialize() return end
+function gameuiMinimapContainerController:OnInitialize() end
 
----@protected
 ---@param value String
 ---@return Bool
-function gameuiMinimapContainerController:OnLocationUpdated(value) return end
+function gameuiMinimapContainerController:OnLocationUpdated(value) end
 
----@protected
 ---@param psmCombatArg gamePSMCombat
 ---@return Bool
-function gameuiMinimapContainerController:OnPSMCombatChanged(psmCombatArg) return end
+function gameuiMinimapContainerController:OnPSMCombatChanged(psmCombatArg) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiMinimapContainerController:OnPSMRemoteControlledVehicleCameraChangedToTPP(value) return end
+function gameuiMinimapContainerController:OnPSMRemoteControlledVehicleCameraChangedToTPP(value) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiMinimapContainerController:OnPlayerAttach(player) return end
+function gameuiMinimapContainerController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function gameuiMinimapContainerController:OnPlayerDetach(player) return end
+function gameuiMinimapContainerController:OnPlayerDetach(player) end
 
----@protected
 ---@param controller gameuiMinimapSecurityAreaMappinController
 ---@return Bool
-function gameuiMinimapContainerController:OnPlayerEnterArea(controller) return end
+function gameuiMinimapContainerController:OnPlayerEnterArea(controller) end
 
----@protected
 ---@param controller gameuiMinimapSecurityAreaMappinController
 ---@return Bool
-function gameuiMinimapContainerController:OnPlayerExitArea(controller) return end
+function gameuiMinimapContainerController:OnPlayerExitArea(controller) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiMinimapContainerController:OnRemoteControlledVehicleChanged(value) return end
+function gameuiMinimapContainerController:OnRemoteControlledVehicleChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiMinimapContainerController:OnSecurityDataChange(value) return end
+function gameuiMinimapContainerController:OnSecurityDataChange(value) end
 
----@protected
 ---@return Bool
-function gameuiMinimapContainerController:OnUnitialize() return end
+function gameuiMinimapContainerController:OnUnitialize() end
 
 ---@param mappin gamemappinsIMappin
 ---@param mappinVariant gamedataMappinVariant
 ---@param customData gameuiMappinControllerCustomData
 ---@return gameuiMappinUIProfile
-function gameuiMinimapContainerController:CreateMappinUIProfile(mappin, mappinVariant, customData) return end
+function gameuiMinimapContainerController:CreateMappinUIProfile(mappin, mappinVariant, customData) end
 
----@private
 ---@return CName
-function gameuiMinimapContainerController:GetCurrentZoneName() return end
+function gameuiMinimapContainerController:GetCurrentZoneName() end
 
----@private
 ---@return CName
-function gameuiMinimapContainerController:GetFadeInZoneDangerName() return end
+function gameuiMinimapContainerController:GetFadeInZoneDangerName() end
 
----@private
 ---@return CName
-function gameuiMinimapContainerController:GetFadeInZoneSafetyName() return end
+function gameuiMinimapContainerController:GetFadeInZoneSafetyName() end
 
----@private
 ---@param securityAreaData SecurityAreaData
 ---@return ESecurityAreaType
-function gameuiMinimapContainerController:GetSecurityZoneBasedOnAreaData(securityAreaData) return end
+function gameuiMinimapContainerController:GetSecurityZoneBasedOnAreaData(securityAreaData) end
 
----@protected
 ---@param player gameObject
 ---@return nil
-function gameuiMinimapContainerController:InitializePlayer(player) return end
+function gameuiMinimapContainerController:InitializePlayer(player) end
 
----@private
 ---@param animationName CName|string
 ---@return nil
-function gameuiMinimapContainerController:PlayZoneVignetteAnimation(animationName) return end
+function gameuiMinimapContainerController:PlayZoneVignetteAnimation(animationName) end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:SecurityZoneUpdate() return end
+function gameuiMinimapContainerController:SecurityZoneUpdate() end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:SetMinimapVisualsForCombat() return end
+function gameuiMinimapContainerController:SetMinimapVisualsForCombat() end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:TryPlayFadeInAnimation() return end
+function gameuiMinimapContainerController:TryPlayFadeInAnimation() end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:TryStopZoneVignetteAnimation() return end
+function gameuiMinimapContainerController:TryStopZoneVignetteAnimation() end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:UpdateFluffTextCount() return end
+function gameuiMinimapContainerController:UpdateFluffTextCount() end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:UpdateInPublicOrRestricedZoneFlag() return end
+function gameuiMinimapContainerController:UpdateInPublicOrRestricedZoneFlag() end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:UpdateSecurityAreaZoneVignette() return end
+function gameuiMinimapContainerController:UpdateSecurityAreaZoneVignette() end
 
----@private
 ---@return nil
-function gameuiMinimapContainerController:UpdateZoneText() return end
+function gameuiMinimapContainerController:UpdateZoneText() end
 
----@private
 ---@param zone ESecurityAreaType
 ---@return CName
-function gameuiMinimapContainerController:ZoneToState(zone) return end
+function gameuiMinimapContainerController:ZoneToState(zone) end
 
----@private
 ---@param zone ESecurityAreaType
 ---@return CName
-function gameuiMinimapContainerController:ZoneToTextKey(zone) return end
+function gameuiMinimapContainerController:ZoneToTextKey(zone) end

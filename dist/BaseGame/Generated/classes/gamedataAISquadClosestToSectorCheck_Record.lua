@@ -5,4 +5,4 @@ gamedataAISquadClosestToSectorCheck_Record = {}
 
 ---@param fields? gamedataAISquadClosestToSectorCheck_Record
 ---@return gamedataAISquadClosestToSectorCheck_Record
-function gamedataAISquadClosestToSectorCheck_Record.new(fields) return end
+function gamedataAISquadClosestToSectorCheck_Record.new(fields) end

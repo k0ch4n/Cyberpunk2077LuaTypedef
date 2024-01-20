@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class BinkVideoEvent: redEvent
----@field public path redResourceReferenceScriptToken
----@field public startingTime Float
----@field public shouldPlay Bool
+---@field path redResourceReferenceScriptToken
+---@field startingTime Float
+---@field shouldPlay Bool
 BinkVideoEvent = {}
 
 ---@param fields? BinkVideoEvent
 ---@return BinkVideoEvent
-function BinkVideoEvent.new(fields) return end
+function BinkVideoEvent.new(fields) end

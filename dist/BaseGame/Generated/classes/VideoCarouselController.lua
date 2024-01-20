@@ -1,70 +1,62 @@
 ---@meta
 
 ---@class VideoCarouselController: inkWidgetLogicController
----@field private videoTitleRef inkTextWidgetReference
----@field private videoDescriptionRef inkTextWidgetReference
----@field private videoWidgetRef inkVideoWidgetReference
----@field private switchLeftArrow inkWidgetReference
----@field private switchRightArrow inkWidgetReference
----@field private switchDotIndicators inkWidgetReference[]
----@field private videoWidget inkVideoWidget
----@field private videoSwitchLeftArrow inkButtonController
----@field private videoSwitchRightArrow inkButtonController
----@field private videos VideoCarouselData[]
----@field private currentVideo Int32
----@field private isPaused Bool
+---@field videoTitleRef inkTextWidgetReference
+---@field videoDescriptionRef inkTextWidgetReference
+---@field videoWidgetRef inkVideoWidgetReference
+---@field switchLeftArrow inkWidgetReference
+---@field switchRightArrow inkWidgetReference
+---@field switchDotIndicators inkWidgetReference[]
+---@field videoWidget inkVideoWidget
+---@field videoSwitchLeftArrow inkButtonController
+---@field videoSwitchRightArrow inkButtonController
+---@field videos VideoCarouselData[]
+---@field currentVideo Int32
+---@field isPaused Bool
 VideoCarouselController = {}
 
 ---@param fields? VideoCarouselController
 ---@return VideoCarouselController
-function VideoCarouselController.new(fields) return end
+function VideoCarouselController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function VideoCarouselController:OnGlobalRelease(evt) return end
+function VideoCarouselController:OnGlobalRelease(evt) end
 
----@protected
 ---@return Bool
-function VideoCarouselController:OnInitialize() return end
+function VideoCarouselController:OnInitialize() end
 
----@protected
 ---@return Bool
-function VideoCarouselController:OnUninitialize() return end
+function VideoCarouselController:OnUninitialize() end
 
----@protected
 ---@param target inkVideoWidget
 ---@return Bool
-function VideoCarouselController:OnVideoFinished(target) return end
+function VideoCarouselController:OnVideoFinished(target) end
 
----@private
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function VideoCarouselController:OnSwitchLeftArrowClicked(controller, oldState, newState) return end
+function VideoCarouselController:OnSwitchLeftArrowClicked(controller, oldState, newState) end
 
----@private
 ---@param controller inkButtonController
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function VideoCarouselController:OnSwitchRightArrowClicked(controller, oldState, newState) return end
+function VideoCarouselController:OnSwitchRightArrowClicked(controller, oldState, newState) end
 
 ---@param pause Bool
 ---@return nil
-function VideoCarouselController:PauseVideo(pause) return end
+function VideoCarouselController:PauseVideo(pause) end
 
 ---@param videos VideoCarouselData[]
 ---@return nil
-function VideoCarouselController:PopulateVideos(videos) return end
+function VideoCarouselController:PopulateVideos(videos) end
 
----@private
 ---@param index Int32
 ---@return nil
-function VideoCarouselController:SetSwitchDotIndicators(index) return end
+function VideoCarouselController:SetSwitchDotIndicators(index) end
 
----@private
 ---@param option ECustomFilterDPadNavigationOption
 ---@return nil
-function VideoCarouselController:SwapVideo(option) return end
+function VideoCarouselController:SwapVideo(option) end

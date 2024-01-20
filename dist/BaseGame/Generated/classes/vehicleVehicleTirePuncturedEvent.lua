@@ -5,13 +5,13 @@ vehicleVehicleTirePuncturedEvent = {}
 
 ---@param fields? vehicleVehicleTirePuncturedEvent
 ---@return vehicleVehicleTirePuncturedEvent
-function vehicleVehicleTirePuncturedEvent.new(fields) return end
+function vehicleVehicleTirePuncturedEvent.new(fields) end
 
 ---@return gameObject
-function vehicleVehicleTirePuncturedEvent:GetInstigator() return end
+function vehicleVehicleTirePuncturedEvent:GetInstigator() end
 
 ---@return Vector4
-function vehicleVehicleTirePuncturedEvent:GetPuncturePosition() return end
+function vehicleVehicleTirePuncturedEvent:GetPuncturePosition() end
 
 ---@return gameObject
-function vehicleVehicleTirePuncturedEvent:GetPuncturedTire() return end
+function vehicleVehicleTirePuncturedEvent:GetPuncturedTire() end

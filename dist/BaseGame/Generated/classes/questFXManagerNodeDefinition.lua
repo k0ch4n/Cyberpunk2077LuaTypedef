@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questFXManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questIFXManagerNodeType
+---@field type questIFXManagerNodeType
 questFXManagerNodeDefinition = {}
 
 ---@param fields? questFXManagerNodeDefinition
 ---@return questFXManagerNodeDefinition
-function questFXManagerNodeDefinition.new(fields) return end
+function questFXManagerNodeDefinition.new(fields) end

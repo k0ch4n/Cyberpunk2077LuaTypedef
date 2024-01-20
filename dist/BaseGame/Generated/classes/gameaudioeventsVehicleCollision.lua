@@ -5,4 +5,4 @@ gameaudioeventsVehicleCollision = {}
 
 ---@param fields? gameaudioeventsVehicleCollision
 ---@return gameaudioeventsVehicleCollision
-function gameaudioeventsVehicleCollision.new(fields) return end
+function gameaudioeventsVehicleCollision.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class NewCodexEntryUserData: inkGameNotificationData
----@field public data String
+---@field data String
 NewCodexEntryUserData = {}
 
 ---@param fields? NewCodexEntryUserData
 ---@return NewCodexEntryUserData
-function NewCodexEntryUserData.new(fields) return end
+function NewCodexEntryUserData.new(fields) end

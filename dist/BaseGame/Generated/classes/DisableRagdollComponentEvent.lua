@@ -5,4 +5,4 @@ DisableRagdollComponentEvent = {}
 
 ---@param fields? DisableRagdollComponentEvent
 ---@return DisableRagdollComponentEvent
-function DisableRagdollComponentEvent.new(fields) return end
+function DisableRagdollComponentEvent.new(fields) end

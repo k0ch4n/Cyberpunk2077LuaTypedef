@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class CheckStatusEffectState: AIStatusEffectCondition
----@field public statusEffectType gamedataStatusEffectType
----@field public stateToCheck EstatusEffectsState
----@field public topPrioStatusEffect gameStatusEffect
+---@field statusEffectType gamedataStatusEffectType
+---@field stateToCheck EstatusEffectsState
+---@field topPrioStatusEffect gameStatusEffect
 CheckStatusEffectState = {}
 
 ---@param fields? CheckStatusEffectState
 ---@return CheckStatusEffectState
-function CheckStatusEffectState.new(fields) return end
+function CheckStatusEffectState.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckStatusEffectState:Check(context) return end
+function CheckStatusEffectState:Check(context) end

@@ -5,4 +5,4 @@ SendPauseBraindanceRequest = {}
 
 ---@param fields? SendPauseBraindanceRequest
 ---@return SendPauseBraindanceRequest
-function SendPauseBraindanceRequest.new(fields) return end
+function SendPauseBraindanceRequest.new(fields) end

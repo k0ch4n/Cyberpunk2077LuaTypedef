@@ -5,4 +5,4 @@ ClearOutlinesRequestEvent = {}
 
 ---@param fields? ClearOutlinesRequestEvent
 ---@return ClearOutlinesRequestEvent
-function ClearOutlinesRequestEvent.new(fields) return end
+function ClearOutlinesRequestEvent.new(fields) end

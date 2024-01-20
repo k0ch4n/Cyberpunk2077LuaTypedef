@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LibTreeParametersForwarder
----@field public overrides Uint32[]
+---@field overrides Uint32[]
 LibTreeParametersForwarder = {}
 
 ---@param fields? LibTreeParametersForwarder
 ---@return LibTreeParametersForwarder
-function LibTreeParametersForwarder.new(fields) return end
+function LibTreeParametersForwarder.new(fields) end

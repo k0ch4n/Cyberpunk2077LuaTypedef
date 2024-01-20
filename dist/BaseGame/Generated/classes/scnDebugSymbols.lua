@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnDebugSymbols
----@field public performersDebugSymbols scnPerformerSymbol[]
----@field public workspotsDebugSymbols scnWorkspotSymbol[]
----@field public sceneEventsDebugSymbols scnSceneEventSymbol[]
----@field public sceneNodesDebugSymbols scnNodeSymbol[]
+---@field performersDebugSymbols scnPerformerSymbol[]
+---@field workspotsDebugSymbols scnWorkspotSymbol[]
+---@field sceneEventsDebugSymbols scnSceneEventSymbol[]
+---@field sceneNodesDebugSymbols scnNodeSymbol[]
 scnDebugSymbols = {}
 
 ---@param fields? scnDebugSymbols
 ---@return scnDebugSymbols
-function scnDebugSymbols.new(fields) return end
+function scnDebugSymbols.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeShooterBullet: gameuiarcadeShooterObjectController
----@field public customBoundSize Bool
----@field public boundSize Vector2
+---@field customBoundSize Bool
+---@field boundSize Vector2
 gameuiarcadeShooterBullet = {}
 
 ---@param fields? gameuiarcadeShooterBullet
 ---@return gameuiarcadeShooterBullet
-function gameuiarcadeShooterBullet.new(fields) return end
+function gameuiarcadeShooterBullet.new(fields) end

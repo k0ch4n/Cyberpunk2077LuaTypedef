@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioMaterialOverride
----@field public base CName
----@field public override CName
+---@field base CName
+---@field override CName
 audioMaterialOverride = {}
 
 ---@param fields? audioMaterialOverride
 ---@return audioMaterialOverride
-function audioMaterialOverride.new(fields) return end
+function audioMaterialOverride.new(fields) end

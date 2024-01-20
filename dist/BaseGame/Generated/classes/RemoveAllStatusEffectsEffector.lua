@@ -5,9 +5,8 @@ RemoveAllStatusEffectsEffector = {}
 
 ---@param fields? RemoveAllStatusEffectsEffector
 ---@return RemoveAllStatusEffectsEffector
-function RemoveAllStatusEffectsEffector.new(fields) return end
+function RemoveAllStatusEffectsEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function RemoveAllStatusEffectsEffector:ActionOn(owner) return end
+function RemoveAllStatusEffectsEffector:ActionOn(owner) end

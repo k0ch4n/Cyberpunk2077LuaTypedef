@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class QuickWheelStartUIStructure
----@field public WheelItems QuickSlotCommand[]
----@field public dpadSlot EDPadSlot
+---@field WheelItems QuickSlotCommand[]
+---@field dpadSlot EDPadSlot
 QuickWheelStartUIStructure = {}
 
 ---@param fields? QuickWheelStartUIStructure
 ---@return QuickWheelStartUIStructure
-function QuickWheelStartUIStructure.new(fields) return end
+function QuickWheelStartUIStructure.new(fields) end

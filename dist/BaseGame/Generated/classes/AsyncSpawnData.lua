@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class AsyncSpawnData: IScriptable
----@field public callbackTarget IScriptable
----@field public controller IScriptable
----@field public functionName CName
----@field public libraryID CName
----@field public widgetData Variant
+---@field callbackTarget IScriptable
+---@field controller IScriptable
+---@field functionName CName
+---@field libraryID CName
+---@field widgetData Variant
 AsyncSpawnData = {}
 
 ---@param fields? AsyncSpawnData
 ---@return AsyncSpawnData
-function AsyncSpawnData.new(fields) return end
+function AsyncSpawnData.new(fields) end
 
 ---@param callbackTarget IScriptable
 ---@param functionName CName|string
 ---@param widgetData Variant
 ---@param controller? IScriptable
 ---@return nil
-function AsyncSpawnData:Initialize(callbackTarget, functionName, widgetData, controller) return end
+function AsyncSpawnData:Initialize(callbackTarget, functionName, widgetData, controller) end

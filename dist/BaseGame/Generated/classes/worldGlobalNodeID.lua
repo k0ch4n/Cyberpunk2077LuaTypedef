@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class worldGlobalNodeID
----@field public hash Uint64
+---@field hash Uint64
 worldGlobalNodeID = {}
 
 ---@param fields? worldGlobalNodeID
 ---@return worldGlobalNodeID
-function worldGlobalNodeID.new(fields) return end
+function worldGlobalNodeID.new(fields) end
 
 ---@return worldGlobalNodeID
-function worldGlobalNodeID.GetRoot() return end
+function worldGlobalNodeID.GetRoot() end
 
 ---@param id worldGlobalNodeID
 ---@return Bool
-function worldGlobalNodeID.IsDefined(id) return end
+function worldGlobalNodeID.IsDefined(id) end

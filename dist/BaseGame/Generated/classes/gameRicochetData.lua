@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameRicochetData
----@field public count Int32
----@field public range Float
----@field public targetSearchAngle Float
----@field public minAngle Float
----@field public maxAngle Float
----@field public chance Float
+---@field count Int32
+---@field range Float
+---@field targetSearchAngle Float
+---@field minAngle Float
+---@field maxAngle Float
+---@field chance Float
 gameRicochetData = {}
 
 ---@param fields? gameRicochetData
 ---@return gameRicochetData
-function gameRicochetData.new(fields) return end
+function gameRicochetData.new(fields) end

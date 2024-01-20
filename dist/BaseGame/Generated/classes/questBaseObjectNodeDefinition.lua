@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class questBaseObjectNodeDefinition: questDisableableNodeDefinition
----@field public reference NodeRef
+---@field reference NodeRef
 questBaseObjectNodeDefinition = {}

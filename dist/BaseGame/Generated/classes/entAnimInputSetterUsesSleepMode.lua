@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class entAnimInputSetterUsesSleepMode: redEvent
----@field public value Bool
+---@field value Bool
 entAnimInputSetterUsesSleepMode = {}
 
 ---@param fields? entAnimInputSetterUsesSleepMode
 ---@return entAnimInputSetterUsesSleepMode
-function entAnimInputSetterUsesSleepMode.new(fields) return end
+function entAnimInputSetterUsesSleepMode.new(fields) end

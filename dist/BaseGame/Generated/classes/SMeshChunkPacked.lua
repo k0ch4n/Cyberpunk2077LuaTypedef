@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class SMeshChunkPacked
----@field public vertexType EMeshVertexType
----@field public materialID CName[]
----@field public numBonesPerVertex Uint8
----@field public numVertices Uint32
----@field public numIndices Uint32
----@field public firstVertex Uint32
----@field public firstIndex Uint32
----@field public renderMask EMeshChunkRenderMask
----@field public chunkRenderMask EMeshChunkFlags
----@field public useForShadowmesh Bool
----@field public streams SMeshStream[]
----@field public streamMask Uint64
----@field public lodMask Uint8
+---@field vertexType EMeshVertexType
+---@field materialID CName[]
+---@field numBonesPerVertex Uint8
+---@field numVertices Uint32
+---@field numIndices Uint32
+---@field firstVertex Uint32
+---@field firstIndex Uint32
+---@field renderMask EMeshChunkRenderMask
+---@field chunkRenderMask EMeshChunkFlags
+---@field useForShadowmesh Bool
+---@field streams SMeshStream[]
+---@field streamMask Uint64
+---@field lodMask Uint8
 SMeshChunkPacked = {}
 
 ---@param fields? SMeshChunkPacked
 ---@return SMeshChunkPacked
-function SMeshChunkPacked.new(fields) return end
+function SMeshChunkPacked.new(fields) end

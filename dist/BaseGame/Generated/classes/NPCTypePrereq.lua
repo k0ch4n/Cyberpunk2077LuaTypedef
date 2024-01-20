@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class NPCTypePrereq: gameIScriptablePrereq
----@field public allowedTypes gamedataNPCType[]
----@field public invert Bool
+---@field allowedTypes gamedataNPCType[]
+---@field invert Bool
 NPCTypePrereq = {}
 
 ---@param fields? NPCTypePrereq
 ---@return NPCTypePrereq
-function NPCTypePrereq.new(fields) return end
+function NPCTypePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function NPCTypePrereq:Initialize(recordID) return end
+function NPCTypePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCTypePrereq:IsFulfilled(context) return end
+function NPCTypePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function NPCTypePrereq:OnApplied(state, context) return end
+function NPCTypePrereq:OnApplied(state, context) end

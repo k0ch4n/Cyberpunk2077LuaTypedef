@@ -5,4 +5,4 @@ entAppearanceProxyMeshComponent = {}
 
 ---@param fields? entAppearanceProxyMeshComponent
 ---@return entAppearanceProxyMeshComponent
-function entAppearanceProxyMeshComponent.new(fields) return end
+function entAppearanceProxyMeshComponent.new(fields) end

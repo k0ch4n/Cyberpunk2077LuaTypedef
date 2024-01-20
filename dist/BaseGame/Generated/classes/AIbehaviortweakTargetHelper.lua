@@ -5,4 +5,4 @@ AIbehaviortweakTargetHelper = {}
 
 ---@param fields? AIbehaviortweakTargetHelper
 ---@return AIbehaviortweakTargetHelper
-function AIbehaviortweakTargetHelper.new(fields) return end
+function AIbehaviortweakTargetHelper.new(fields) end

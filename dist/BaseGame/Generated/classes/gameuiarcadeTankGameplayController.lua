@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class gameuiarcadeTankGameplayController: gameuiarcadeArcadeGameplayController
----@field public player inkWidgetReference
----@field public enemySpawner inkWidgetReference
----@field public obstacleSpawner inkWidgetReference
----@field public pickupSpawner inkWidgetReference
----@field public projectileSpawner inkWidgetReference
----@field public background inkWidgetReference
----@field public hudCounter inkWidgetReference
----@field public hudScoreMultiplier inkWidgetReference
+---@field player inkWidgetReference
+---@field enemySpawner inkWidgetReference
+---@field obstacleSpawner inkWidgetReference
+---@field pickupSpawner inkWidgetReference
+---@field projectileSpawner inkWidgetReference
+---@field background inkWidgetReference
+---@field hudCounter inkWidgetReference
+---@field hudScoreMultiplier inkWidgetReference
 gameuiarcadeTankGameplayController = {}
 
 ---@param fields? gameuiarcadeTankGameplayController
 ---@return gameuiarcadeTankGameplayController
-function gameuiarcadeTankGameplayController.new(fields) return end
+function gameuiarcadeTankGameplayController.new(fields) end

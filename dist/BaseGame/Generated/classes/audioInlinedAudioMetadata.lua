@@ -5,4 +5,4 @@ audioInlinedAudioMetadata = {}
 
 ---@param fields? audioInlinedAudioMetadata
 ---@return audioInlinedAudioMetadata
-function audioInlinedAudioMetadata.new(fields) return end
+function audioInlinedAudioMetadata.new(fields) end

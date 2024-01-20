@@ -5,75 +5,59 @@ MenuScenario_Idle = {}
 
 ---@param fields? MenuScenario_Idle
 ---@return MenuScenario_Idle
-function MenuScenario_Idle.new(fields) return end
+function MenuScenario_Idle.new(fields) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Idle:OnArcadeMinigameBegin(userData) return end
+function MenuScenario_Idle:OnArcadeMinigameBegin(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnBlockHub() return end
+function MenuScenario_Idle:OnBlockHub() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Idle:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_Idle:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_Idle:OnLeaveScenario(nextScenario) return end
+function MenuScenario_Idle:OnLeaveScenario(nextScenario) end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnNetworkBreachBegin() return end
+function MenuScenario_Idle:OnNetworkBreachBegin() end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnOpenFastTravel() return end
+function MenuScenario_Idle:OnOpenFastTravel() end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnOpenHubMenu() return end
+function MenuScenario_Idle:OnOpenHubMenu() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Idle:OnOpenHubMenu_InitData(userData) return end
+function MenuScenario_Idle:OnOpenHubMenu_InitData(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnOpenPauseMenu() return end
+function MenuScenario_Idle:OnOpenPauseMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnOpenRadialHubMenu() return end
+function MenuScenario_Idle:OnOpenRadialHubMenu() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Idle:OnOpenRadialHubMenu_InitData(userData) return end
+function MenuScenario_Idle:OnOpenRadialHubMenu_InitData(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnOpenTimeSkip() return end
+function MenuScenario_Idle:OnOpenTimeSkip() end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_Idle:OnOpenWardrobeMenu(userData) return end
+function MenuScenario_Idle:OnOpenWardrobeMenu(userData) end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnShowDeathMenu() return end
+function MenuScenario_Idle:OnShowDeathMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnShowStorageMenu() return end
+function MenuScenario_Idle:OnShowStorageMenu() end
 
----@protected
 ---@return Bool
-function MenuScenario_Idle:OnUnlockHub() return end
+function MenuScenario_Idle:OnUnlockHub() end

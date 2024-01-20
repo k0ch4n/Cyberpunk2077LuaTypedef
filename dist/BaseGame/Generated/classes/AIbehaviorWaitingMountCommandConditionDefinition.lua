@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorWaitingMountCommandConditionDefinition: AIbehaviorConditionDefinition
----@field public requestArgument AIArgumentMapping
----@field public callbackName CName
+---@field requestArgument AIArgumentMapping
+---@field callbackName CName
 AIbehaviorWaitingMountCommandConditionDefinition = {}
 
 ---@param fields? AIbehaviorWaitingMountCommandConditionDefinition
 ---@return AIbehaviorWaitingMountCommandConditionDefinition
-function AIbehaviorWaitingMountCommandConditionDefinition.new(fields) return end
+function AIbehaviorWaitingMountCommandConditionDefinition.new(fields) end

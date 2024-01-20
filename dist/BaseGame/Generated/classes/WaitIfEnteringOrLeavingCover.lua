@@ -5,14 +5,12 @@ WaitIfEnteringOrLeavingCover = {}
 
 ---@param fields? WaitIfEnteringOrLeavingCover
 ---@return WaitIfEnteringOrLeavingCover
-function WaitIfEnteringOrLeavingCover.new(fields) return end
+function WaitIfEnteringOrLeavingCover.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function WaitIfEnteringOrLeavingCover:Activate(context) return end
+function WaitIfEnteringOrLeavingCover:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function WaitIfEnteringOrLeavingCover:Update(context) return end
+function WaitIfEnteringOrLeavingCover:Update(context) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameuiMainMenuGameController: gameuiMenuItemListGameController
----@field public backgroundContainer inkCompoundWidgetReference
+---@field backgroundContainer inkCompoundWidgetReference
 gameuiMainMenuGameController = {}
 
 ---@param fields? gameuiMainMenuGameController
 ---@return gameuiMainMenuGameController
-function gameuiMainMenuGameController.new(fields) return end
+function gameuiMainMenuGameController.new(fields) end
 
 ---@param dataID Uint64
 ---@return nil
-function gameuiMainMenuGameController:LoadBackgroundWidget(dataID) return end
+function gameuiMainMenuGameController:LoadBackgroundWidget(dataID) end

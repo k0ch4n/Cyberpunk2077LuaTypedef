@@ -4,4 +4,4 @@
 gameinteractionsChoiceCaptionPart = {}
 
 ---@return gamedataChoiceCaptionPartType
-function gameinteractionsChoiceCaptionPart:GetType() return end
+function gameinteractionsChoiceCaptionPart:GetType() end

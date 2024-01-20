@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class PlayerVisionModeControllerBBListeners
----@field public kerenzikov redCallbackObject
----@field public restrictedScene redCallbackObject
----@field public dead redCallbackObject
----@field public takedown redCallbackObject
----@field public deviceTakeover redCallbackObject
----@field public braindanceFPP redCallbackObject
----@field public braindanceActive redCallbackObject
----@field public veryHardLanding redCallbackObject
----@field public isBriefingActive redCallbackObject
+---@field kerenzikov redCallbackObject
+---@field restrictedScene redCallbackObject
+---@field dead redCallbackObject
+---@field takedown redCallbackObject
+---@field deviceTakeover redCallbackObject
+---@field braindanceFPP redCallbackObject
+---@field braindanceActive redCallbackObject
+---@field veryHardLanding redCallbackObject
+---@field isBriefingActive redCallbackObject
 PlayerVisionModeControllerBBListeners = {}
 
 ---@param fields? PlayerVisionModeControllerBBListeners
 ---@return PlayerVisionModeControllerBBListeners
-function PlayerVisionModeControllerBBListeners.new(fields) return end
+function PlayerVisionModeControllerBBListeners.new(fields) end

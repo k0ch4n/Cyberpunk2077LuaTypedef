@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiScreenProjectionsData: IScriptable
----@field public data inkScreenProjection[]
+---@field data inkScreenProjection[]
 gameuiScreenProjectionsData = {}
 
 ---@param fields? gameuiScreenProjectionsData
 ---@return gameuiScreenProjectionsData
-function gameuiScreenProjectionsData.new(fields) return end
+function gameuiScreenProjectionsData.new(fields) end

@@ -5,13 +5,13 @@ gamedataBuildAttribute_Record = {}
 
 ---@param fields? gamedataBuildAttribute_Record
 ---@return gamedataBuildAttribute_Record
-function gamedataBuildAttribute_Record.new(fields) return end
+function gamedataBuildAttribute_Record.new(fields) end
 
 ---@return gamedataAttribute_Record
-function gamedataBuildAttribute_Record:Attribute() return end
+function gamedataBuildAttribute_Record:Attribute() end
 
 ---@return gamedataAttribute_Record
-function gamedataBuildAttribute_Record:AttributeHandle() return end
+function gamedataBuildAttribute_Record:AttributeHandle() end
 
 ---@return Int32
-function gamedataBuildAttribute_Record:Level() return end
+function gamedataBuildAttribute_Record:Level() end

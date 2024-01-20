@@ -5,4 +5,4 @@ animSBehaviorConstraintNodeFloorIKCommon = {}
 
 ---@param fields? animSBehaviorConstraintNodeFloorIKCommon
 ---@return animSBehaviorConstraintNodeFloorIKCommon
-function animSBehaviorConstraintNodeFloorIKCommon.new(fields) return end
+function animSBehaviorConstraintNodeFloorIKCommon.new(fields) end

@@ -5,16 +5,16 @@ gamedataVehicleWheelDimensionsSetup_Record = {}
 
 ---@param fields? gamedataVehicleWheelDimensionsSetup_Record
 ---@return gamedataVehicleWheelDimensionsSetup_Record
-function gamedataVehicleWheelDimensionsSetup_Record.new(fields) return end
+function gamedataVehicleWheelDimensionsSetup_Record.new(fields) end
 
 ---@return gamedataVehicleWheelDimensionsPreset_Record
-function gamedataVehicleWheelDimensionsSetup_Record:BackPreset() return end
+function gamedataVehicleWheelDimensionsSetup_Record:BackPreset() end
 
 ---@return gamedataVehicleWheelDimensionsPreset_Record
-function gamedataVehicleWheelDimensionsSetup_Record:BackPresetHandle() return end
+function gamedataVehicleWheelDimensionsSetup_Record:BackPresetHandle() end
 
 ---@return gamedataVehicleWheelDimensionsPreset_Record
-function gamedataVehicleWheelDimensionsSetup_Record:FrontPreset() return end
+function gamedataVehicleWheelDimensionsSetup_Record:FrontPreset() end
 
 ---@return gamedataVehicleWheelDimensionsPreset_Record
-function gamedataVehicleWheelDimensionsSetup_Record:FrontPresetHandle() return end
+function gamedataVehicleWheelDimensionsSetup_Record:FrontPresetHandle() end

@@ -1,56 +1,50 @@
 ---@meta
 
 ---@class ItemTooltipHeaderController: ItemTooltipModuleController
----@field private itemNameText inkTextWidgetReference
----@field private itemRarityText inkTextWidgetReference
----@field private itemTypeText inkTextWidgetReference
----@field private itemEvolutionIcon inkImageWidgetReference
----@field private localizedIconicText String
+---@field itemNameText inkTextWidgetReference
+---@field itemRarityText inkTextWidgetReference
+---@field itemTypeText inkTextWidgetReference
+---@field itemEvolutionIcon inkImageWidgetReference
+---@field localizedIconicText String
 ItemTooltipHeaderController = {}
 
 ---@param fields? ItemTooltipHeaderController
 ---@return ItemTooltipHeaderController
-function ItemTooltipHeaderController.new(fields) return end
+function ItemTooltipHeaderController.new(fields) end
 
----@protected
 ---@return Bool
-function ItemTooltipHeaderController:OnInitialize() return end
+function ItemTooltipHeaderController:OnInitialize() end
 
 ---@param data UIInventoryItem
 ---@return nil
-function ItemTooltipHeaderController:NEW_Update(data) return end
+function ItemTooltipHeaderController:NEW_Update(data) end
 
----@private
 ---@param itemName String
 ---@param quantity Int32
 ---@return nil
-function ItemTooltipHeaderController:NEW_UpdateName(itemName, quantity) return end
+function ItemTooltipHeaderController:NEW_UpdateName(itemName, quantity) end
 
----@private
 ---@param data UIInventoryItem
 ---@return nil
-function ItemTooltipHeaderController:NEW_UpdateRarity(data) return end
+function ItemTooltipHeaderController:NEW_UpdateRarity(data) end
 
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipHeaderController:Update(data) return end
+function ItemTooltipHeaderController:Update(data) end
 
----@private
 ---@param itemTypeText inkTextWidgetReference
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipHeaderController:UpdateItemType(itemTypeText, data) return end
+function ItemTooltipHeaderController:UpdateItemType(itemTypeText, data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipHeaderController:UpdateName(data) return end
+function ItemTooltipHeaderController:UpdateName(data) end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function ItemTooltipHeaderController:UpdateRarity(data) return end
+function ItemTooltipHeaderController:UpdateRarity(data) end
 
 ---@param bigFontEnabled Bool
 ---@return nil
-function ItemTooltipHeaderController:UpdateWrapping(bigFontEnabled) return end
+function ItemTooltipHeaderController:UpdateWrapping(bigFontEnabled) end

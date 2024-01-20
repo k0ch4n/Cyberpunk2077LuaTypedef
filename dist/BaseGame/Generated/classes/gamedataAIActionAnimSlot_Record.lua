@@ -5,34 +5,34 @@ gamedataAIActionAnimSlot_Record = {}
 
 ---@param fields? gamedataAIActionAnimSlot_Record
 ---@return gamedataAIActionAnimSlot_Record
-function gamedataAIActionAnimSlot_Record.new(fields) return end
+function gamedataAIActionAnimSlot_Record.new(fields) end
 
 ---@return gamedataAIActionSlideData_Record
-function gamedataAIActionAnimSlot_Record:LoopSlide() return end
+function gamedataAIActionAnimSlot_Record:LoopSlide() end
 
 ---@return gamedataAIActionSlideData_Record
-function gamedataAIActionAnimSlot_Record:LoopSlideHandle() return end
+function gamedataAIActionAnimSlot_Record:LoopSlideHandle() end
 
 ---@return gamedataAIActionSlideData_Record
-function gamedataAIActionAnimSlot_Record:RecoverySlide() return end
+function gamedataAIActionAnimSlot_Record:RecoverySlide() end
 
 ---@return gamedataAIActionSlideData_Record
-function gamedataAIActionAnimSlot_Record:RecoverySlideHandle() return end
+function gamedataAIActionAnimSlot_Record:RecoverySlideHandle() end
 
 ---@return Bool
-function gamedataAIActionAnimSlot_Record:ResetRagdollOnStart() return end
+function gamedataAIActionAnimSlot_Record:ResetRagdollOnStart() end
 
 ---@return gamedataAIActionSlideData_Record
-function gamedataAIActionAnimSlot_Record:StartupSlide() return end
+function gamedataAIActionAnimSlot_Record:StartupSlide() end
 
 ---@return gamedataAIActionSlideData_Record
-function gamedataAIActionAnimSlot_Record:StartupSlideHandle() return end
+function gamedataAIActionAnimSlot_Record:StartupSlideHandle() end
 
 ---@return Bool
-function gamedataAIActionAnimSlot_Record:UseDynamicObjectsCheck() return end
+function gamedataAIActionAnimSlot_Record:UseDynamicObjectsCheck() end
 
 ---@return Bool
-function gamedataAIActionAnimSlot_Record:UsePoseMatching() return end
+function gamedataAIActionAnimSlot_Record:UsePoseMatching() end
 
 ---@return Bool
-function gamedataAIActionAnimSlot_Record:UseRootMotion() return end
+function gamedataAIActionAnimSlot_Record:UseRootMotion() end

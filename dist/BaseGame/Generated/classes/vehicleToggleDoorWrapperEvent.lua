@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class vehicleToggleDoorWrapperEvent: redEvent
----@field public action vehicleEQuestVehicleDoorState
----@field public door vehicleEVehicleDoor
----@field public forceScene Bool
+---@field action vehicleEQuestVehicleDoorState
+---@field door vehicleEVehicleDoor
+---@field forceScene Bool
 vehicleToggleDoorWrapperEvent = {}
 
 ---@param fields? vehicleToggleDoorWrapperEvent
 ---@return vehicleToggleDoorWrapperEvent
-function vehicleToggleDoorWrapperEvent.new(fields) return end
+function vehicleToggleDoorWrapperEvent.new(fields) end

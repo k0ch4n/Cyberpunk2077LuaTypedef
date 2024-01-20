@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorChangeGuardAreaTaskDefinition: AIbehaviorTaskDefinition
----@field public guardAreaNodeRef AIArgumentMapping
+---@field guardAreaNodeRef AIArgumentMapping
 AIbehaviorChangeGuardAreaTaskDefinition = {}
 
 ---@param fields? AIbehaviorChangeGuardAreaTaskDefinition
 ---@return AIbehaviorChangeGuardAreaTaskDefinition
-function AIbehaviorChangeGuardAreaTaskDefinition.new(fields) return end
+function AIbehaviorChangeGuardAreaTaskDefinition.new(fields) end

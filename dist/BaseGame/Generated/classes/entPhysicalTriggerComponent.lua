@@ -1,8 +1,8 @@
 ---@meta
 
 ---@class entPhysicalTriggerComponent: entIPlacedComponent
----@field public simulationType physicsSimulationType
----@field public shape physicsTriggerShape
----@field public filterData physicsFilterData
----@field public isEnabled Bool
+---@field simulationType physicsSimulationType
+---@field shape physicsTriggerShape
+---@field filterData physicsFilterData
+---@field isEnabled Bool
 entPhysicalTriggerComponent = {}

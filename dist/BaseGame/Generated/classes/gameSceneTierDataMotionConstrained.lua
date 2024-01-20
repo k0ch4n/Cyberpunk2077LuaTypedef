@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameSceneTierDataMotionConstrained: gameSceneTierData
----@field public params gameMotionConstrainedTierDataParams
+---@field params gameMotionConstrainedTierDataParams
 gameSceneTierDataMotionConstrained = {}

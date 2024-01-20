@@ -5,14 +5,12 @@ SceneTierIIDecisions = {}
 
 ---@param fields? SceneTierIIDecisions
 ---@return SceneTierIIDecisions
-function SceneTierIIDecisions.new(fields) return end
+function SceneTierIIDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function SceneTierIIDecisions:EnterCondition(stateContext, scriptInterface) return end
+function SceneTierIIDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@return GameplayTier
-function SceneTierIIDecisions:SceneTierToEnter() return end
+function SceneTierIIDecisions:SceneTierToEnter() end

@@ -5,4 +5,4 @@ gameStreamingMonitorSystem = {}
 
 ---@param fields? gameStreamingMonitorSystem
 ---@return gameStreamingMonitorSystem
-function gameStreamingMonitorSystem.new(fields) return end
+function gameStreamingMonitorSystem.new(fields) end

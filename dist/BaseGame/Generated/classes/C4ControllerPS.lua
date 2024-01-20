@@ -1,70 +1,61 @@
 ---@meta
 
 ---@class C4ControllerPS: ExplosiveDeviceControllerPS
----@field private itemTweakDBString CName
+---@field itemTweakDBString CName
 C4ControllerPS = {}
 
 ---@param fields? C4ControllerPS
 ---@return C4ControllerPS
-function C4ControllerPS.new(fields) return end
+function C4ControllerPS.new(fields) end
 
----@private
 ---@return ActivateC4
-function C4ControllerPS:ActionActivate() return end
+function C4ControllerPS:ActionActivate() end
 
----@private
 ---@return DeactivateC4
-function C4ControllerPS:ActionDeactivate() return end
+function C4ControllerPS:ActionDeactivate() end
 
----@private
 ---@return DetonateC4
-function C4ControllerPS:ActionDetonate() return end
+function C4ControllerPS:ActionDetonate() end
 
----@protected
 ---@return Bool
-function C4ControllerPS:CanCreateAnyQuickHackActions() return end
+function C4ControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function C4ControllerPS:GameAttached() return end
+function C4ControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function C4ControllerPS:GetActions(context) return end
+function C4ControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function C4ControllerPS:GetBackgroundTextureTweakDBID() return end
+function C4ControllerPS:GetBackgroundTextureTweakDBID() end
 
----@protected
 ---@return TweakDBID
-function C4ControllerPS:GetDeviceIconTweakDBID() return end
+function C4ControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return gameItemID
-function C4ControllerPS:GetInventoryItemID() return end
+function C4ControllerPS:GetInventoryItemID() end
 
 ---@return CName
-function C4ControllerPS:GetItemTweakDBString() return end
+function C4ControllerPS:GetItemTweakDBString() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function C4ControllerPS:GetQuickHackActions(context) return end
+function C4ControllerPS:GetQuickHackActions(context) end
 
 ---@param evt ActivateC4
 ---@return EntityNotificationType
-function C4ControllerPS:OnActivateC4(evt) return end
+function C4ControllerPS:OnActivateC4(evt) end
 
 ---@param evt DeactivateC4
 ---@return EntityNotificationType
-function C4ControllerPS:OnDeactivateC4(evt) return end
+function C4ControllerPS:OnDeactivateC4(evt) end
 
 ---@param evt DetonateC4
 ---@return EntityNotificationType
-function C4ControllerPS:OnDetonateC4(evt) return end
+function C4ControllerPS:OnDetonateC4(evt) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@param choices gameinteractionsChoice[]
 ---@return nil
-function C4ControllerPS:PushInactiveInteractionChoice(context, choices) return end
+function C4ControllerPS:PushInactiveInteractionChoice(context, choices) end

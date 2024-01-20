@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiSwitchPair
----@field public prevOption gameuiCharacterCustomizationOption
----@field public currOption gameuiCharacterCustomizationOption
+---@field prevOption gameuiCharacterCustomizationOption
+---@field currOption gameuiCharacterCustomizationOption
 gameuiSwitchPair = {}
 
 ---@param fields? gameuiSwitchPair
 ---@return gameuiSwitchPair
-function gameuiSwitchPair.new(fields) return end
+function gameuiSwitchPair.new(fields) end

@@ -5,4 +5,4 @@ AIbehaviorNodeRefToObjectTaskDefinition = {}
 
 ---@param fields? AIbehaviorNodeRefToObjectTaskDefinition
 ---@return AIbehaviorNodeRefToObjectTaskDefinition
-function AIbehaviorNodeRefToObjectTaskDefinition.new(fields) return end
+function AIbehaviorNodeRefToObjectTaskDefinition.new(fields) end

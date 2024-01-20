@@ -5,8 +5,8 @@ gameuiIronsightGameController = {}
 
 ---@param fields? gameuiIronsightGameController
 ---@return gameuiIronsightGameController
-function gameuiIronsightGameController.new(fields) return end
+function gameuiIronsightGameController.new(fields) end
 
 ---@param enable Bool
 ---@return nil
-function gameuiIronsightGameController:EnableUpdate(enable) return end
+function gameuiIronsightGameController:EnableUpdate(enable) end

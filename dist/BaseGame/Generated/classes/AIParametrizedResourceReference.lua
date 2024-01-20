@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIParametrizedResourceReference: AIResourceReference
----@field public overrides LibTreeParametersForwarder
+---@field overrides LibTreeParametersForwarder
 AIParametrizedResourceReference = {}
 
 ---@param fields? AIParametrizedResourceReference
 ---@return AIParametrizedResourceReference
-function AIParametrizedResourceReference.new(fields) return end
+function AIParametrizedResourceReference.new(fields) end

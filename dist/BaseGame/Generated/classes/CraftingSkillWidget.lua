@@ -1,56 +1,48 @@
 ---@meta
 
 ---@class CraftingSkillWidget: gameuiWidgetGameController
----@field protected amountText inkTextWidgetReference
----@field protected expFill inkWidgetReference
----@field protected perkHolder inkWidgetReference
----@field protected levelUpAnimation inkWidgetReference
----@field protected expAnimation inkWidgetReference
----@field protected nextLevelText inkTextWidgetReference
----@field protected expPointText1 inkTextWidgetReference
----@field protected expPointText2 inkTextWidgetReference
----@field private levelUpBlackboard gameIBlackboard
----@field private playerLevelUpListener redCallbackObject
----@field private isLevelUp Bool
----@field private currentExp Int32
+---@field amountText inkTextWidgetReference
+---@field expFill inkWidgetReference
+---@field perkHolder inkWidgetReference
+---@field levelUpAnimation inkWidgetReference
+---@field expAnimation inkWidgetReference
+---@field nextLevelText inkTextWidgetReference
+---@field expPointText1 inkTextWidgetReference
+---@field expPointText2 inkTextWidgetReference
+---@field levelUpBlackboard gameIBlackboard
+---@field playerLevelUpListener redCallbackObject
+---@field isLevelUp Bool
+---@field currentExp Int32
 CraftingSkillWidget = {}
 
 ---@param fields? CraftingSkillWidget
 ---@return CraftingSkillWidget
-function CraftingSkillWidget.new(fields) return end
+function CraftingSkillWidget.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function CraftingSkillWidget:OnCharacterLevelUpdated(value) return end
+function CraftingSkillWidget:OnCharacterLevelUpdated(value) end
 
----@protected
 ---@param evt ProficiencyProgressEvent
 ---@return Bool
-function CraftingSkillWidget:OnCharacterProficiencyUpdated(evt) return end
+function CraftingSkillWidget:OnCharacterProficiencyUpdated(evt) end
 
----@protected
 ---@return Bool
-function CraftingSkillWidget:OnInitialize() return end
+function CraftingSkillWidget:OnInitialize() end
 
----@protected
 ---@return Bool
-function CraftingSkillWidget:OnUninitialize() return end
+function CraftingSkillWidget:OnUninitialize() end
 
----@private
 ---@param toAdd gamedataPerkType
 ---@return nil
-function CraftingSkillWidget:AddPerk(toAdd) return end
+function CraftingSkillWidget:AddPerk(toAdd) end
 
----@private
 ---@param amount Float
 ---@return nil
-function CraftingSkillWidget:SetFill(amount) return end
+function CraftingSkillWidget:SetFill(amount) end
 
----@private
 ---@return nil
-function CraftingSkillWidget:SetLevel() return end
+function CraftingSkillWidget:SetLevel() end
 
----@private
 ---@return nil
-function CraftingSkillWidget:SetProgress() return end
+function CraftingSkillWidget:SetProgress() end

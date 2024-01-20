@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class MaterialUsedParameter
----@field public name CName
----@field public register Uint8
+---@field name CName
+---@field register Uint8
 MaterialUsedParameter = {}
 
 ---@param fields? MaterialUsedParameter
 ---@return MaterialUsedParameter
-function MaterialUsedParameter.new(fields) return end
+function MaterialUsedParameter.new(fields) end

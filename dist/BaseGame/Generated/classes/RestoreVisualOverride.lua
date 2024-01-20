@@ -5,7 +5,7 @@ RestoreVisualOverride = {}
 
 ---@param fields? RestoreVisualOverride
 ---@return RestoreVisualOverride
-function RestoreVisualOverride.new(fields) return end
+function RestoreVisualOverride.new(fields) end
 
 ---@return String
-function RestoreVisualOverride:GetFriendlyDescription() return end
+function RestoreVisualOverride:GetFriendlyDescription() end

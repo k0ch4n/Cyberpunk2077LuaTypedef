@@ -5,10 +5,10 @@ gameGameFeatureManager = {}
 
 ---@param fields? gameGameFeatureManager
 ---@return gameGameFeatureManager
-function gameGameFeatureManager.new(fields) return end
+function gameGameFeatureManager.new(fields) end
 
 ---@return Bool
-function gameGameFeatureManager:AggressiveCrowdsEnabled() return end
+function gameGameFeatureManager:AggressiveCrowdsEnabled() end
 
 ---@return Bool
-function gameGameFeatureManager:NextGenAICombatLogicEnabled() return end
+function gameGameFeatureManager:NextGenAICombatLogicEnabled() end

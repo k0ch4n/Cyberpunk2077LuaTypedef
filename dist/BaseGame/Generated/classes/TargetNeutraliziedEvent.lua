@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class TargetNeutraliziedEvent: redEvent
----@field public type ENeutralizeType
----@field public targetID entEntityID
+---@field type ENeutralizeType
+---@field targetID entEntityID
 TargetNeutraliziedEvent = {}
 
 ---@param fields? TargetNeutraliziedEvent
 ---@return TargetNeutraliziedEvent
-function TargetNeutraliziedEvent.new(fields) return end
+function TargetNeutraliziedEvent.new(fields) end

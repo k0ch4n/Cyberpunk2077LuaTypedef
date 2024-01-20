@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuestListItemHoverOverEvent: redEvent
----@field public isQuestResolved Bool
+---@field isQuestResolved Bool
 QuestListItemHoverOverEvent = {}
 
 ---@param fields? QuestListItemHoverOverEvent
 ---@return QuestListItemHoverOverEvent
-function QuestListItemHoverOverEvent.new(fields) return end
+function QuestListItemHoverOverEvent.new(fields) end

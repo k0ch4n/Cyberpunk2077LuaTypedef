@@ -5,4 +5,4 @@ inkRadioGroupChangedCallback = {}
 
 ---@param fields? inkRadioGroupChangedCallback
 ---@return inkRadioGroupChangedCallback
-function inkRadioGroupChangedCallback.new(fields) return end
+function inkRadioGroupChangedCallback.new(fields) end

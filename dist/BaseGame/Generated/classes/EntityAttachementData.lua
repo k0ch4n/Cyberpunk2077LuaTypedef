@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class EntityAttachementData
----@field public slotName CName
----@field public slotComponentName CName
----@field public nodeRef NodeRef
----@field public attachementComponentName CName
----@field public ownerID entEntityID
+---@field slotName CName
+---@field slotComponentName CName
+---@field nodeRef NodeRef
+---@field attachementComponentName CName
+---@field ownerID entEntityID
 EntityAttachementData = {}
 
 ---@param fields? EntityAttachementData
 ---@return EntityAttachementData
-function EntityAttachementData.new(fields) return end
+function EntityAttachementData.new(fields) end

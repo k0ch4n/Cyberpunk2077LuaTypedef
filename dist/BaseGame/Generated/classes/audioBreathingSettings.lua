@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class audioBreathingSettings: audioAudioMetadata
----@field public exhaustionRtpc CName
----@field public idleFadeOutRtpc CName
----@field public initialState CName
+---@field exhaustionRtpc CName
+---@field idleFadeOutRtpc CName
+---@field initialState CName
 audioBreathingSettings = {}
 
 ---@param fields? audioBreathingSettings
 ---@return audioBreathingSettings
-function audioBreathingSettings.new(fields) return end
+function audioBreathingSettings.new(fields) end

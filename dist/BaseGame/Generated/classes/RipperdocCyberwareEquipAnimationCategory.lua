@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class RipperdocCyberwareEquipAnimationCategory: IScriptable
----@field public factName CName
----@field public equipAreas gamedataEquipmentArea[]
----@field public weight Float
----@field public equipCount Int32
+---@field factName CName
+---@field equipAreas gamedataEquipmentArea[]
+---@field weight Float
+---@field equipCount Int32
 RipperdocCyberwareEquipAnimationCategory = {}
 
 ---@param fields? RipperdocCyberwareEquipAnimationCategory
 ---@return RipperdocCyberwareEquipAnimationCategory
-function RipperdocCyberwareEquipAnimationCategory.new(fields) return end
+function RipperdocCyberwareEquipAnimationCategory.new(fields) end
 
 ---@param factName CName|string
 ---@param equipAreas gamedataEquipmentArea[]
 ---@param weight Float
 ---@return nil
-function RipperdocCyberwareEquipAnimationCategory:SetData(factName, equipAreas, weight) return end
+function RipperdocCyberwareEquipAnimationCategory:SetData(factName, equipAreas, weight) end

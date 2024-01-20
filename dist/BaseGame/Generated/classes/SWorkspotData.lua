@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SWorkspotData
----@field public componentName CName
----@field public freeCamera Bool
----@field public operationType EWorkspotOperationType
+---@field componentName CName
+---@field freeCamera Bool
+---@field operationType EWorkspotOperationType
 SWorkspotData = {}
 
 ---@param fields? SWorkspotData
 ---@return SWorkspotData
-function SWorkspotData.new(fields) return end
+function SWorkspotData.new(fields) end

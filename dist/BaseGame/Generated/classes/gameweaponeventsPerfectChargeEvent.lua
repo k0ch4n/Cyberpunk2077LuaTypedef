@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameweaponeventsPerfectChargeEvent: redEvent
----@field public type CName
+---@field type CName
 gameweaponeventsPerfectChargeEvent = {}
 
 ---@param fields? gameweaponeventsPerfectChargeEvent
 ---@return gameweaponeventsPerfectChargeEvent
-function gameweaponeventsPerfectChargeEvent.new(fields) return end
+function gameweaponeventsPerfectChargeEvent.new(fields) end

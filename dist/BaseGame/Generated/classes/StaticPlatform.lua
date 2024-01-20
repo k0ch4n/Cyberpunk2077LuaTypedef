@@ -1,47 +1,39 @@
 ---@meta
 
 ---@class StaticPlatform: InteractiveDevice
----@field private componentsToToggleNames CName[]
----@field private meshName CName
----@field private sfxOnEnable CName
----@field private componentsToToggle entIComponent[]
+---@field componentsToToggleNames CName[]
+---@field meshName CName
+---@field sfxOnEnable CName
+---@field componentsToToggle entIComponent[]
 StaticPlatform = {}
 
 ---@param fields? StaticPlatform
 ---@return StaticPlatform
-function StaticPlatform.new(fields) return end
+function StaticPlatform.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function StaticPlatform:OnAreaEnter(evt) return end
+function StaticPlatform:OnAreaEnter(evt) end
 
----@protected
 ---@return Bool
-function StaticPlatform:OnGameAttached() return end
+function StaticPlatform:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function StaticPlatform:OnRequestComponents(ri) return end
+function StaticPlatform:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function StaticPlatform:OnTakeControl(ri) return end
+function StaticPlatform:OnTakeControl(ri) end
 
----@private
 ---@return nil
-function StaticPlatform:ActivateComponents() return end
+function StaticPlatform:ActivateComponents() end
 
----@private
 ---@return StaticPlatformController
-function StaticPlatform:GetController() return end
+function StaticPlatform:GetController() end
 
----@private
 ---@return nil
-function StaticPlatform:PlaySfx() return end
+function StaticPlatform:PlaySfx() end
 
----@private
 ---@return nil
-function StaticPlatform:SetVisualsAsActive() return end
+function StaticPlatform:SetVisualsAsActive() end

@@ -5,4 +5,4 @@ AIbehaviortweakInstanceRef = {}
 
 ---@param fields? AIbehaviortweakInstanceRef
 ---@return AIbehaviortweakInstanceRef
-function AIbehaviortweakInstanceRef.new(fields) return end
+function AIbehaviortweakInstanceRef.new(fields) end

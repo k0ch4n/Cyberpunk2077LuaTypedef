@@ -1,44 +1,38 @@
 ---@meta
 
 ---@class TriggerAttackByChanceEffector: gameEffector
----@field protected attackTDBID TweakDBID
----@field protected selfStatusEffectID TweakDBID
----@field protected chance Float
----@field protected statType gamedataStatType
----@field private ownerID entEntityID
----@field private statListener TriggerAttackByChanceStatListener
----@field public statBasedChance Float
+---@field attackTDBID TweakDBID
+---@field selfStatusEffectID TweakDBID
+---@field chance Float
+---@field statType gamedataStatType
+---@field ownerID entEntityID
+---@field statListener TriggerAttackByChanceStatListener
+---@field statBasedChance Float
 TriggerAttackByChanceEffector = {}
 
 ---@param fields? TriggerAttackByChanceEffector
 ---@return TriggerAttackByChanceEffector
-function TriggerAttackByChanceEffector.new(fields) return end
+function TriggerAttackByChanceEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TriggerAttackByChanceEffector:ActionOn(owner) return end
+function TriggerAttackByChanceEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function TriggerAttackByChanceEffector:Initialize(record, parentRecord) return end
+function TriggerAttackByChanceEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function TriggerAttackByChanceEffector:InitializeStatListener(owner) return end
+function TriggerAttackByChanceEffector:InitializeStatListener(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TriggerAttackByChanceEffector:RepeatedAction(owner) return end
+function TriggerAttackByChanceEffector:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function TriggerAttackByChanceEffector:Uninitialize() return end
+function TriggerAttackByChanceEffector:Uninitialize() end
 
----@private
 ---@return nil
-function TriggerAttackByChanceEffector:UninitializeStatListener() return end
+function TriggerAttackByChanceEffector:UninitializeStatListener() end

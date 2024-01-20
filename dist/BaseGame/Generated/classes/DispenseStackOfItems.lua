@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class DispenseStackOfItems: redEvent
----@field public item TweakDBID
----@field public amount Int32
+---@field item TweakDBID
+---@field amount Int32
 DispenseStackOfItems = {}
 
 ---@param fields? DispenseStackOfItems
 ---@return DispenseStackOfItems
-function DispenseStackOfItems.new(fields) return end
+function DispenseStackOfItems.new(fields) end
 
 ---@return String
-function DispenseStackOfItems:GetFriendlyDescription() return end
+function DispenseStackOfItems:GetFriendlyDescription() end

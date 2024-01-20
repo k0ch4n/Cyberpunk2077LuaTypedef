@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class AIPatrolDef: AIBlackboardDef
----@field public patrolPathOverride gamebbScriptID_Variant
----@field public patrolWithWeapon gamebbScriptID_Bool
----@field public forceAlerted gamebbScriptID_Bool
----@field public sprint gamebbScriptID_Bool
----@field public selectedPath gamebbScriptID_Variant
----@field public closestPathPoint gamebbScriptID_Vector4
----@field public workspotData gamebbScriptID_Variant
----@field public workspotEntryPosition gamebbScriptID_Vector4
----@field public workspotExitPosition gamebbScriptID_Vector4
----@field public patrolAction gamebbScriptID_Variant
----@field public patrolInProgress gamebbScriptID_Bool
+---@field patrolPathOverride gamebbScriptID_Variant
+---@field patrolWithWeapon gamebbScriptID_Bool
+---@field forceAlerted gamebbScriptID_Bool
+---@field sprint gamebbScriptID_Bool
+---@field selectedPath gamebbScriptID_Variant
+---@field closestPathPoint gamebbScriptID_Vector4
+---@field workspotData gamebbScriptID_Variant
+---@field workspotEntryPosition gamebbScriptID_Vector4
+---@field workspotExitPosition gamebbScriptID_Vector4
+---@field patrolAction gamebbScriptID_Variant
+---@field patrolInProgress gamebbScriptID_Bool
 AIPatrolDef = {}
 
 ---@param fields? AIPatrolDef
 ---@return AIPatrolDef
-function AIPatrolDef.new(fields) return end
+function AIPatrolDef.new(fields) end

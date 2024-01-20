@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animAnimationSetup
----@field public cinematics animAnimSetCollection
----@field public gameplay animAnimSetCollection
----@field public finalAnimSetCollection animAnimSetCollection
+---@field cinematics animAnimSetCollection
+---@field gameplay animAnimSetCollection
+---@field finalAnimSetCollection animAnimSetCollection
 animAnimationSetup = {}
 
 ---@param fields? animAnimationSetup
 ---@return animAnimationSetup
-function animAnimationSetup.new(fields) return end
+function animAnimationSetup.new(fields) end

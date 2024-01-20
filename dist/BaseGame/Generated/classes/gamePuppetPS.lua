@@ -1,55 +1,55 @@
 ---@meta
 
 ---@class gamePuppetPS: gameObjectPS
----@field public gender CName
----@field public wasQuickHacked Bool
----@field public hasQuickHackBegunUpload Bool
----@field public hasAlternativeName Bool
----@field public isCrouch Bool
----@field public allowVehicleCollisionRagdoll Bool
+---@field gender CName
+---@field wasQuickHacked Bool
+---@field hasQuickHackBegunUpload Bool
+---@field hasAlternativeName Bool
+---@field isCrouch Bool
+---@field allowVehicleCollisionRagdoll Bool
 gamePuppetPS = {}
 
 ---@param fields? gamePuppetPS
 ---@return gamePuppetPS
-function gamePuppetPS.new(fields) return end
+function gamePuppetPS.new(fields) end
 
 ---@return CName
-function gamePuppetPS:GetGender() return end
+function gamePuppetPS:GetGender() end
 
 ---@return Bool
-function gamePuppetPS:GetTpp() return end
+function gamePuppetPS:GetTpp() end
 
 ---@return Bool
-function gamePuppetPS:HasAlternativeName() return end
+function gamePuppetPS:HasAlternativeName() end
 
 ---@return Bool
-function gamePuppetPS:HasNPCTriggeredCombatInSecuritySystem() return end
+function gamePuppetPS:HasNPCTriggeredCombatInSecuritySystem() end
 
 ---@return Bool
-function gamePuppetPS:HasQuickHackBegunUpload() return end
+function gamePuppetPS:HasQuickHackBegunUpload() end
 
 ---@return Bool
-function gamePuppetPS:IsCrouch() return end
+function gamePuppetPS:IsCrouch() end
 
 ---@param set Bool
 ---@return nil
-function gamePuppetPS:SetCrouch(set) return end
+function gamePuppetPS:SetCrouch(set) end
 
 ---@param set Bool
 ---@return nil
-function gamePuppetPS:SetHasNPCTriggeredCombatInSecuritySystem(set) return end
+function gamePuppetPS:SetHasNPCTriggeredCombatInSecuritySystem(set) end
 
 ---@param newValue Bool
 ---@return nil
-function gamePuppetPS:SetHasQuickHackBegunUpload(newValue) return end
+function gamePuppetPS:SetHasQuickHackBegunUpload(newValue) end
 
 ---@param newValue Bool
 ---@return nil
-function gamePuppetPS:SetWasQuickHacked(newValue) return end
+function gamePuppetPS:SetWasQuickHacked(newValue) end
 
 ---@return Bool
-function gamePuppetPS:WasQuickHacked() return end
+function gamePuppetPS:WasQuickHacked() end
 
 ---@param evt NotifiedSecSysAboutCombat
 ---@return EntityNotificationType
-function gamePuppetPS:OnNotifiedSecSysAboutCombat(evt) return end
+function gamePuppetPS:OnNotifiedSecSysAboutCombat(evt) end

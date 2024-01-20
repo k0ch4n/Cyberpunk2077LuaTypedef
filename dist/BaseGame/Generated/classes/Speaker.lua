@@ -1,108 +1,89 @@
 ---@meta
 
 ---@class Speaker: InteractiveDevice
----@field protected soundEventPlaying Bool
----@field protected soundEvent CName
----@field protected effectRef gameEffectRef
----@field protected deafGameEffect gameEffectInstance
----@field protected targets ScriptedPuppet[]
----@field protected statusEffect TweakDBID
+---@field soundEventPlaying Bool
+---@field soundEvent CName
+---@field effectRef gameEffectRef
+---@field deafGameEffect gameEffectInstance
+---@field targets ScriptedPuppet[]
+---@field statusEffect TweakDBID
 Speaker = {}
 
 ---@param fields? Speaker
 ---@return Speaker
-function Speaker.new(fields) return end
+function Speaker.new(fields) end
 
----@protected
 ---@param evt ChangeMusicAction
 ---@return Bool
-function Speaker:OnChangeMusicAction(evt) return end
+function Speaker:OnChangeMusicAction(evt) end
 
----@protected
 ---@param evt DelayEvent
 ---@return Bool
-function Speaker:OnDelayEvent(evt) return end
+function Speaker:OnDelayEvent(evt) end
 
----@protected
 ---@param evt GameAttachedEvent
 ---@return Bool
-function Speaker:OnPersitentStateInitialized(evt) return end
+function Speaker:OnPersitentStateInitialized(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Speaker:OnRequestComponents(ri) return end
+function Speaker:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Speaker:OnTakeControl(ri) return end
+function Speaker:OnTakeControl(ri) end
 
----@protected
 ---@param evt TargetAcquiredEvent
 ---@return Bool
-function Speaker:OnTargetAcquired(evt) return end
+function Speaker:OnTargetAcquired(evt) end
 
----@protected
 ---@param evt TargetLostEvent
 ---@return Bool
-function Speaker:OnTargetLost(evt) return end
+function Speaker:OnTargetLost(evt) end
 
----@protected
 ---@param target gameObject
 ---@return nil
-function Speaker:ApplyStatusEffect(target) return end
+function Speaker:ApplyStatusEffect(target) end
 
----@protected
 ---@return nil
-function Speaker:CreateGameEffect() return end
+function Speaker:CreateGameEffect() end
 
 ---@return EGameplayRole
-function Speaker:DeterminGameplayRole() return end
+function Speaker:DeterminGameplayRole() end
 
----@protected
 ---@return SpeakerController
-function Speaker:GetController() return end
+function Speaker:GetController() end
 
 ---@return SpeakerControllerPS
-function Speaker:GetDevicePS() return end
+function Speaker:GetDevicePS() end
 
----@protected
 ---@return nil
-function Speaker:PlayAllSounds() return end
+function Speaker:PlayAllSounds() end
 
----@protected
 ---@param target gameObject
 ---@return nil
-function Speaker:RemoveStatusEffect(target) return end
+function Speaker:RemoveStatusEffect(target) end
 
----@protected
 ---@param effect ESoundStatusEffects
 ---@return nil
-function Speaker:StartGameEffect(effect) return end
+function Speaker:StartGameEffect(effect) end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function Speaker:StartGlitching(glitchState, intensity) return end
+function Speaker:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function Speaker:StopAllSounds() return end
+function Speaker:StopAllSounds() end
 
----@protected
 ---@return nil
-function Speaker:StopGameEffect() return end
+function Speaker:StopGameEffect() end
 
----@protected
 ---@return nil
-function Speaker:StopGlitching() return end
+function Speaker:StopGlitching() end
 
----@protected
 ---@return nil
-function Speaker:TurnOffDevice() return end
+function Speaker:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Speaker:TurnOnDevice() return end
+function Speaker:TurnOnDevice() end

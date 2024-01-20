@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class VehicleUIactivateEvent: redEvent
----@field public activate Bool
+---@field activate Bool
 VehicleUIactivateEvent = {}
 
 ---@param fields? VehicleUIactivateEvent
 ---@return VehicleUIactivateEvent
-function VehicleUIactivateEvent.new(fields) return end
+function VehicleUIactivateEvent.new(fields) end

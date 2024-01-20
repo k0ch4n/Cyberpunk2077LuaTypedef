@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ProcessVisualTags: gamePlayerScriptableSystemRequest
----@field public itemTDBID TweakDBID
+---@field itemTDBID TweakDBID
 ProcessVisualTags = {}
 
 ---@param fields? ProcessVisualTags
 ---@return ProcessVisualTags
-function ProcessVisualTags.new(fields) return end
+function ProcessVisualTags.new(fields) end

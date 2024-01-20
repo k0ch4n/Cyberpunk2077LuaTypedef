@@ -5,4 +5,4 @@ RenderTexturePreviewData = {}
 
 ---@param fields? RenderTexturePreviewData
 ---@return RenderTexturePreviewData
-function RenderTexturePreviewData.new(fields) return end
+function RenderTexturePreviewData.new(fields) end

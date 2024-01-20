@@ -5,4 +5,4 @@ questPaymentBalanced_ConditionType = {}
 
 ---@param fields? questPaymentBalanced_ConditionType
 ---@return questPaymentBalanced_ConditionType
-function questPaymentBalanced_ConditionType.new(fields) return end
+function questPaymentBalanced_ConditionType.new(fields) end

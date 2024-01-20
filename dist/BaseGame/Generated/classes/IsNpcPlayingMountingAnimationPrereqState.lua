@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class IsNpcPlayingMountingAnimationPrereqState: gamePrereqState
----@field public psListener gameScriptedPrereqPSChangeListenerWrapper
+---@field psListener gameScriptedPrereqPSChangeListenerWrapper
 IsNpcPlayingMountingAnimationPrereqState = {}
 
 ---@param fields? IsNpcPlayingMountingAnimationPrereqState
 ---@return IsNpcPlayingMountingAnimationPrereqState
-function IsNpcPlayingMountingAnimationPrereqState.new(fields) return end
+function IsNpcPlayingMountingAnimationPrereqState.new(fields) end
 
----@protected
 ---@return nil
-function IsNpcPlayingMountingAnimationPrereqState:OnPSStateChanged() return end
+function IsNpcPlayingMountingAnimationPrereqState:OnPSStateChanged() end

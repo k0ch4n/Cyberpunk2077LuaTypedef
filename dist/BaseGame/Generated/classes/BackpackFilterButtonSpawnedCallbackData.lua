@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class BackpackFilterButtonSpawnedCallbackData: IScriptable
----@field public category ItemFilterCategory
----@field public savedFilter Int32
+---@field category ItemFilterCategory
+---@field savedFilter Int32
 BackpackFilterButtonSpawnedCallbackData = {}
 
 ---@param fields? BackpackFilterButtonSpawnedCallbackData
 ---@return BackpackFilterButtonSpawnedCallbackData
-function BackpackFilterButtonSpawnedCallbackData.new(fields) return end
+function BackpackFilterButtonSpawnedCallbackData.new(fields) end

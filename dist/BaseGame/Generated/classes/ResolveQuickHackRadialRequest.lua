@@ -5,4 +5,4 @@ ResolveQuickHackRadialRequest = {}
 
 ---@param fields? ResolveQuickHackRadialRequest
 ---@return ResolveQuickHackRadialRequest
-function ResolveQuickHackRadialRequest.new(fields) return end
+function ResolveQuickHackRadialRequest.new(fields) end

@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class UncontrolledMovementEffector: gameEffector
----@field public recordID TweakDBID
+---@field recordID TweakDBID
 UncontrolledMovementEffector = {}
 
 ---@param fields? UncontrolledMovementEffector
 ---@return UncontrolledMovementEffector
-function UncontrolledMovementEffector.new(fields) return end
+function UncontrolledMovementEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function UncontrolledMovementEffector:ActionOn(owner) return end
+function UncontrolledMovementEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function UncontrolledMovementEffector:Initialize(record, parentRecord) return end
+function UncontrolledMovementEffector:Initialize(record, parentRecord) end

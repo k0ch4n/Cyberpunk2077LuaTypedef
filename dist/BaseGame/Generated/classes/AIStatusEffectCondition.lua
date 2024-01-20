@@ -5,9 +5,8 @@ AIStatusEffectCondition = {}
 
 ---@param fields? AIStatusEffectCondition
 ---@return AIStatusEffectCondition
-function AIStatusEffectCondition.new(fields) return end
+function AIStatusEffectCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return gameIBlackboard
-function AIStatusEffectCondition:GetShootingBlackboard(context) return end
+function AIStatusEffectCondition:GetShootingBlackboard(context) end

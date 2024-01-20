@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIBackgroundCombatCommand: AICommand
----@field public steps AIBackgroundCombatStep[]
+---@field steps AIBackgroundCombatStep[]
 AIBackgroundCombatCommand = {}
 
 ---@param fields? AIBackgroundCombatCommand
 ---@return AIBackgroundCombatCommand
-function AIBackgroundCombatCommand.new(fields) return end
+function AIBackgroundCombatCommand.new(fields) end

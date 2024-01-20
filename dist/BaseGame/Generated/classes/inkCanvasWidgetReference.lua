@@ -5,4 +5,4 @@ inkCanvasWidgetReference = {}
 
 ---@param fields? inkCanvasWidgetReference
 ---@return inkCanvasWidgetReference
-function inkCanvasWidgetReference.new(fields) return end
+function inkCanvasWidgetReference.new(fields) end

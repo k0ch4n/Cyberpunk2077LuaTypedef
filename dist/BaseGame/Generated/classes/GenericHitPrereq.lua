@@ -1,38 +1,34 @@
 ---@meta
 
 ---@class GenericHitPrereq: gameIScriptablePrereq
----@field public isSync Bool
----@field public processMiss Bool
----@field public callbackType gameDamageCallbackType
----@field public pipelineStage gameDamagePipelineStage
----@field public pipelineType gameDamageListenerPipelineType
----@field public attackType gamedataAttackType
----@field public conditions BaseHitPrereqCondition[]
----@field public ignoreSelfInflictedPressureWave Bool
+---@field isSync Bool
+---@field processMiss Bool
+---@field callbackType gameDamageCallbackType
+---@field pipelineStage gameDamagePipelineStage
+---@field pipelineType gameDamageListenerPipelineType
+---@field attackType gamedataAttackType
+---@field conditions BaseHitPrereqCondition[]
+---@field ignoreSelfInflictedPressureWave Bool
 GenericHitPrereq = {}
 
 ---@param fields? GenericHitPrereq
 ---@return GenericHitPrereq
-function GenericHitPrereq.new(fields) return end
+function GenericHitPrereq.new(fields) end
 
----@private
 ---@param record gamedataHitPrereqCondition_Record
 ---@return BaseHitPrereqCondition
-function GenericHitPrereq:CreateHitCondition(record) return end
+function GenericHitPrereq:CreateHitCondition(record) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function GenericHitPrereq:Initialize(recordID) return end
+function GenericHitPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function GenericHitPrereq:OnRegister(state, context) return end
+function GenericHitPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function GenericHitPrereq:OnUnregister(state, context) return end
+function GenericHitPrereq:OnUnregister(state, context) end

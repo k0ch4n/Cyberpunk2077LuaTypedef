@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSmartObjectPoint
----@field public isReachable Bool
+---@field isReachable Bool
 gameSmartObjectPoint = {}
 
 ---@param fields? gameSmartObjectPoint
 ---@return gameSmartObjectPoint
-function gameSmartObjectPoint.new(fields) return end
+function gameSmartObjectPoint.new(fields) end

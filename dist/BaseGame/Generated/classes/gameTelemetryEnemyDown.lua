@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameTelemetryEnemyDown
----@field public enemy gameTelemetryEnemy
----@field public situation gameTelemetryDamageSituation
----@field public killType gameKillType
+---@field enemy gameTelemetryEnemy
+---@field situation gameTelemetryDamageSituation
+---@field killType gameKillType
 gameTelemetryEnemyDown = {}
 
 ---@param fields? gameTelemetryEnemyDown
 ---@return gameTelemetryEnemyDown
-function gameTelemetryEnemyDown.new(fields) return end
+function gameTelemetryEnemyDown.new(fields) end

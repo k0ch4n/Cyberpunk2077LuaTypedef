@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameInventoryPS: gameComponentPS
----@field public isRegisteredShared Bool
----@field public accessible Bool
+---@field isRegisteredShared Bool
+---@field accessible Bool
 gameInventoryPS = {}
 
 ---@param fields? gameInventoryPS
 ---@return gameInventoryPS
-function gameInventoryPS.new(fields) return end
+function gameInventoryPS.new(fields) end

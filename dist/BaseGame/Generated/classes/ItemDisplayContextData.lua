@@ -1,61 +1,61 @@
 ---@meta
 
 ---@class ItemDisplayContextData: IScriptable
----@field private player gameObject
----@field private displayContext gameItemDisplayContext
----@field private displayComparison Bool
----@field private tags CName[]
+---@field player gameObject
+---@field displayContext gameItemDisplayContext
+---@field displayComparison Bool
+---@field tags CName[]
 ItemDisplayContextData = {}
 
 ---@param fields? ItemDisplayContextData
 ---@return ItemDisplayContextData
-function ItemDisplayContextData.new(fields) return end
+function ItemDisplayContextData.new(fields) end
 
 ---@return ItemDisplayContextData
-function ItemDisplayContextData.Make() return end
+function ItemDisplayContextData.Make() end
 
 ---@param player gameObject
 ---@param displayContext gameItemDisplayContext
 ---@param displayComparison? Bool
 ---@return ItemDisplayContextData
-function ItemDisplayContextData.Make(player, displayContext, displayComparison) return end
+function ItemDisplayContextData.Make(player, displayContext, displayComparison) end
 
 ---@param tag CName|string
 ---@return nil
-function ItemDisplayContextData:AddTag(tag) return end
+function ItemDisplayContextData:AddTag(tag) end
 
 ---@return ItemDisplayContextData
-function ItemDisplayContextData:Copy() return end
+function ItemDisplayContextData:Copy() end
 
 ---@return Bool
-function ItemDisplayContextData:GetDisplayComparison() return end
+function ItemDisplayContextData:GetDisplayComparison() end
 
 ---@return gameItemDisplayContext
-function ItemDisplayContextData:GetDisplayContext() return end
+function ItemDisplayContextData:GetDisplayContext() end
 
 ---@return gameObject
-function ItemDisplayContextData:GetPlayer() return end
+function ItemDisplayContextData:GetPlayer() end
 
 ---@return PlayerPuppet
-function ItemDisplayContextData:GetPlayerAsPuppet() return end
+function ItemDisplayContextData:GetPlayerAsPuppet() end
 
 ---@return InventoryTooltipDisplayContext
-function ItemDisplayContextData:GetTooltipDisplayContext() return end
+function ItemDisplayContextData:GetTooltipDisplayContext() end
 
 ---@param tag CName|string
 ---@return Bool
-function ItemDisplayContextData:HasTag(tag) return end
+function ItemDisplayContextData:HasTag(tag) end
 
 ---@return Bool
-function ItemDisplayContextData:IsCraftingItem() return end
+function ItemDisplayContextData:IsCraftingItem() end
 
 ---@return Bool
-function ItemDisplayContextData:IsVendorItem() return end
+function ItemDisplayContextData:IsVendorItem() end
 
 ---@param tag CName|string
 ---@return nil
-function ItemDisplayContextData:RemoveTag(tag) return end
+function ItemDisplayContextData:RemoveTag(tag) end
 
 ---@param value Bool
 ---@return ItemDisplayContextData
-function ItemDisplayContextData:SetDisplayComparison(value) return end
+function ItemDisplayContextData:SetDisplayComparison(value) end

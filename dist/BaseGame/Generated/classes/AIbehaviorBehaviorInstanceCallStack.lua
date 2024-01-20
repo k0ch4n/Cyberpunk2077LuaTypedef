@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorBehaviorInstanceCallStack
----@field public resourceHashes Uint32[]
+---@field resourceHashes Uint32[]
 AIbehaviorBehaviorInstanceCallStack = {}
 
 ---@param fields? AIbehaviorBehaviorInstanceCallStack
 ---@return AIbehaviorBehaviorInstanceCallStack
-function AIbehaviorBehaviorInstanceCallStack.new(fields) return end
+function AIbehaviorBehaviorInstanceCallStack.new(fields) end

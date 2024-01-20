@@ -5,19 +5,19 @@ gamedataAIRingType_Record = {}
 
 ---@param fields? gamedataAIRingType_Record
 ---@return gamedataAIRingType_Record
-function gamedataAIRingType_Record.new(fields) return end
+function gamedataAIRingType_Record.new(fields) end
 
 ---@return Float
-function gamedataAIRingType_Record:Distance() return end
+function gamedataAIRingType_Record:Distance() end
 
 ---@return String
-function gamedataAIRingType_Record:EnumComment() return end
+function gamedataAIRingType_Record:EnumComment() end
 
 ---@return CName
-function gamedataAIRingType_Record:EnumName() return end
+function gamedataAIRingType_Record:EnumName() end
 
 ---@return Float
-function gamedataAIRingType_Record:Tolerance() return end
+function gamedataAIRingType_Record:Tolerance() end
 
 ---@return gamedataAIRingType
-function gamedataAIRingType_Record:Type() return end
+function gamedataAIRingType_Record:Type() end

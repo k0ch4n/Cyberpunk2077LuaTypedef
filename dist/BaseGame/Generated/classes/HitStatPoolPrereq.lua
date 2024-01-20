@@ -1,17 +1,16 @@
 ---@meta
 
 ---@class HitStatPoolPrereq: GenericHitPrereq
----@field public valueToCheck Float
----@field public objectToCheck String
----@field public comparisonType EComparisonType
----@field public statPoolToCompare gamedataStatPoolType
+---@field valueToCheck Float
+---@field objectToCheck String
+---@field comparisonType EComparisonType
+---@field statPoolToCompare gamedataStatPoolType
 HitStatPoolPrereq = {}
 
 ---@param fields? HitStatPoolPrereq
 ---@return HitStatPoolPrereq
-function HitStatPoolPrereq.new(fields) return end
+function HitStatPoolPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitStatPoolPrereq:Initialize(recordID) return end
+function HitStatPoolPrereq:Initialize(recordID) end

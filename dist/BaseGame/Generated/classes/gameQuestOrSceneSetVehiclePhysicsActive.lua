@@ -5,4 +5,4 @@ gameQuestOrSceneSetVehiclePhysicsActive = {}
 
 ---@param fields? gameQuestOrSceneSetVehiclePhysicsActive
 ---@return gameQuestOrSceneSetVehiclePhysicsActive
-function gameQuestOrSceneSetVehiclePhysicsActive.new(fields) return end
+function gameQuestOrSceneSetVehiclePhysicsActive.new(fields) end

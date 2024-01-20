@@ -5,10 +5,10 @@ Flush = {}
 
 ---@param fields? Flush
 ---@return Flush
-function Flush.new(fields) return end
+function Flush.new(fields) end
 
 ---@return String
-function Flush:GetTweakDBChoiceRecord() return end
+function Flush:GetTweakDBChoiceRecord() end
 
 ---@return nil
-function Flush:SetProperties() return end
+function Flush:SetProperties() end

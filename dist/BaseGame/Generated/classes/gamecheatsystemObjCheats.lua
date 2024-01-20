@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamecheatsystemObjCheats
----@field public object gameObject
----@field public flags Int32
+---@field object gameObject
+---@field flags Int32
 gamecheatsystemObjCheats = {}
 
 ---@param fields? gamecheatsystemObjCheats
 ---@return gamecheatsystemObjCheats
-function gamecheatsystemObjCheats.new(fields) return end
+function gamecheatsystemObjCheats.new(fields) end

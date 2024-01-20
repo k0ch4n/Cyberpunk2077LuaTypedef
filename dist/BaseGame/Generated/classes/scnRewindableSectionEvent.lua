@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnRewindableSectionEvent: redEvent
----@field public active Bool
+---@field active Bool
 scnRewindableSectionEvent = {}
 
 ---@param fields? scnRewindableSectionEvent
 ---@return scnRewindableSectionEvent
-function scnRewindableSectionEvent.new(fields) return end
+function scnRewindableSectionEvent.new(fields) end

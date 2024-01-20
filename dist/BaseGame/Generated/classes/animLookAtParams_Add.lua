@@ -5,4 +5,4 @@ animLookAtParams_Add = {}
 
 ---@param fields? animLookAtParams_Add
 ---@return animLookAtParams_Add
-function animLookAtParams_Add.new(fields) return end
+function animLookAtParams_Add.new(fields) end

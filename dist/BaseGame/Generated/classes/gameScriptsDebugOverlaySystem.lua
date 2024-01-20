@@ -5,7 +5,7 @@ gameScriptsDebugOverlaySystem = {}
 
 ---@param fields? gameScriptsDebugOverlaySystem
 ---@return gameScriptsDebugOverlaySystem
-function gameScriptsDebugOverlaySystem.new(fields) return end
+function gameScriptsDebugOverlaySystem.new(fields) end
 
 ---@return gameScriptsDebugOverlaySink
-function gameScriptsDebugOverlaySystem:CreateSink() return end
+function gameScriptsDebugOverlaySystem:CreateSink() end

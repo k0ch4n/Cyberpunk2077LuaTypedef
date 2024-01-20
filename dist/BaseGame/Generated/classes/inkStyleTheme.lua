@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class inkStyleTheme
----@field public themeID CName
----@field public styleResource inkStyleResource
+---@field themeID CName
+---@field styleResource inkStyleResource
 inkStyleTheme = {}
 
 ---@param fields? inkStyleTheme
 ---@return inkStyleTheme
-function inkStyleTheme.new(fields) return end
+function inkStyleTheme.new(fields) end

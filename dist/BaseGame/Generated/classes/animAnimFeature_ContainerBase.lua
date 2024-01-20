@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class animAnimFeature_ContainerBase: animAnimFeature
----@field public opened Bool
----@field public transitionDuration Float
+---@field opened Bool
+---@field transitionDuration Float
 animAnimFeature_ContainerBase = {}
 
 ---@param fields? animAnimFeature_ContainerBase
 ---@return animAnimFeature_ContainerBase
-function animAnimFeature_ContainerBase.new(fields) return end
+function animAnimFeature_ContainerBase.new(fields) end
 
 ---@return nil
-function animAnimFeature_ContainerBase:SetOpened() return end
+function animAnimFeature_ContainerBase:SetOpened() end
 
 ---@return nil
-function animAnimFeature_ContainerBase:SetTransitionDuration() return end
+function animAnimFeature_ContainerBase:SetTransitionDuration() end

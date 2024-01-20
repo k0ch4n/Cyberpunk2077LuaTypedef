@@ -5,4 +5,4 @@ HitOrMissTriggeredPrereq = {}
 
 ---@param fields? HitOrMissTriggeredPrereq
 ---@return HitOrMissTriggeredPrereq
-function HitOrMissTriggeredPrereq.new(fields) return end
+function HitOrMissTriggeredPrereq.new(fields) end

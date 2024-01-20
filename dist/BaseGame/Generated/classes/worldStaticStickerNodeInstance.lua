@@ -5,4 +5,4 @@ worldStaticStickerNodeInstance = {}
 
 ---@param fields? worldStaticStickerNodeInstance
 ---@return worldStaticStickerNodeInstance
-function worldStaticStickerNodeInstance.new(fields) return end
+function worldStaticStickerNodeInstance.new(fields) end

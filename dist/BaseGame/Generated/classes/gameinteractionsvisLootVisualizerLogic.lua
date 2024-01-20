@@ -5,4 +5,4 @@ gameinteractionsvisLootVisualizerLogic = {}
 
 ---@param fields? gameinteractionsvisLootVisualizerLogic
 ---@return gameinteractionsvisLootVisualizerLogic
-function gameinteractionsvisLootVisualizerLogic.new(fields) return end
+function gameinteractionsvisLootVisualizerLogic.new(fields) end

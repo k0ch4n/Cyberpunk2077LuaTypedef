@@ -5,8 +5,7 @@ AutoplayVideoController = {}
 
 ---@param fields? AutoplayVideoController
 ---@return AutoplayVideoController
-function AutoplayVideoController.new(fields) return end
+function AutoplayVideoController.new(fields) end
 
----@protected
 ---@return Bool
-function AutoplayVideoController:OnInitialize() return end
+function AutoplayVideoController:OnInitialize() end

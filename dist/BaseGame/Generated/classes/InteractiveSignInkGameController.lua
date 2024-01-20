@@ -5,24 +5,21 @@ InteractiveSignInkGameController = {}
 
 ---@param fields? InteractiveSignInkGameController
 ---@return InteractiveSignInkGameController
-function InteractiveSignInkGameController.new(fields) return end
+function InteractiveSignInkGameController.new(fields) end
 
----@protected
 ---@return InteractiveSign
-function InteractiveSignInkGameController:GetOwner() return end
+function InteractiveSignInkGameController:GetOwner() end
 
 ---@param state EDeviceStatus
 ---@return nil
-function InteractiveSignInkGameController:Refresh(state) return end
+function InteractiveSignInkGameController:Refresh(state) end
 
----@private
 ---@return nil
-function InteractiveSignInkGameController:TurnOFF() return end
+function InteractiveSignInkGameController:TurnOFF() end
 
----@private
 ---@return nil
-function InteractiveSignInkGameController:TurnON() return end
+function InteractiveSignInkGameController:TurnON() end
 
 ---@param widgetsData SDeviceWidgetPackage[]
 ---@return nil
-function InteractiveSignInkGameController:UpdateDeviceWidgets(widgetsData) return end
+function InteractiveSignInkGameController:UpdateDeviceWidgets(widgetsData) end

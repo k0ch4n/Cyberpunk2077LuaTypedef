@@ -1,35 +1,30 @@
 ---@meta
 
 ---@class ReactionManagerTask: AIbehaviortaskScript
----@field protected reactionData AIReactionData
+---@field reactionData AIReactionData
 ReactionManagerTask = {}
 
 ---@param fields? ReactionManagerTask
 ---@return ReactionManagerTask
-function ReactionManagerTask.new(fields) return end
+function ReactionManagerTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReactionManagerTask:Activate(context) return end
+function ReactionManagerTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReactionManagerTask:Deactivate(context) return end
+function ReactionManagerTask:Deactivate(context) end
 
----@protected
 ---@param owner gameObject
 ---@param status AIbehaviorUpdateOutcome
 ---@return nil
-function ReactionManagerTask:SendBehaviorStatus(owner, status) return end
+function ReactionManagerTask:SendBehaviorStatus(owner, status) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function ReactionManagerTask:Update(context) return end
+function ReactionManagerTask:Update(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function ReactionManagerTask:UpdateArguments(context) return end
+function ReactionManagerTask:UpdateArguments(context) end

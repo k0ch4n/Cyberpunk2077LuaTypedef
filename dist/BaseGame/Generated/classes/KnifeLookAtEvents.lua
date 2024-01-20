@@ -5,4 +5,4 @@ KnifeLookAtEvents = {}
 
 ---@param fields? KnifeLookAtEvents
 ---@return KnifeLookAtEvents
-function KnifeLookAtEvents.new(fields) return end
+function KnifeLookAtEvents.new(fields) end

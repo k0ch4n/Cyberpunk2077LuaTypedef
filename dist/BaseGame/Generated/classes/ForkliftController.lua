@@ -5,7 +5,7 @@ ForkliftController = {}
 
 ---@param fields? ForkliftController
 ---@return ForkliftController
-function ForkliftController.new(fields) return end
+function ForkliftController.new(fields) end
 
 ---@return ForkliftControllerPS
-function ForkliftController:GetPS() return end
+function ForkliftController:GetPS() end

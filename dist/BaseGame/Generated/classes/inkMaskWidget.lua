@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class inkMaskWidget: inkLeafWidget
----@field public textureAtlas inkTextureAtlas
----@field public texturePart CName
----@field public dynamicTextureMask CName
----@field public dataSource inkMaskDataSource
----@field public invertMask Bool
----@field public maskTransparency Float
+---@field textureAtlas inkTextureAtlas
+---@field texturePart CName
+---@field dynamicTextureMask CName
+---@field dataSource inkMaskDataSource
+---@field invertMask Bool
+---@field maskTransparency Float
 inkMaskWidget = {}
 
 ---@param fields? inkMaskWidget
 ---@return inkMaskWidget
-function inkMaskWidget.new(fields) return end
+function inkMaskWidget.new(fields) end
 
 ---@return CName
-function inkMaskWidget:GetTexturePart() return end
+function inkMaskWidget:GetTexturePart() end
 
 ---@param texturePart CName|string
 ---@return Bool
-function inkMaskWidget:IsTexturePartExist(texturePart) return end
+function inkMaskWidget:IsTexturePartExist(texturePart) end
 
 ---@param texturePart CName|string
 ---@return Bool
-function inkMaskWidget:SetTexturePart(texturePart) return end
+function inkMaskWidget:SetTexturePart(texturePart) end

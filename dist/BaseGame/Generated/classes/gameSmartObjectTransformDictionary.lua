@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSmartObjectTransformDictionary: ISerializable
----@field public transforms gameSmartObjectTransformDictionaryTransformEntry[]
+---@field transforms gameSmartObjectTransformDictionaryTransformEntry[]
 gameSmartObjectTransformDictionary = {}
 
 ---@param fields? gameSmartObjectTransformDictionary
 ---@return gameSmartObjectTransformDictionary
-function gameSmartObjectTransformDictionary.new(fields) return end
+function gameSmartObjectTransformDictionary.new(fields) end

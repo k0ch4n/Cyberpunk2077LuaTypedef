@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameprojectileSpawnerAttachExistingEvent: redEvent
----@field public projectile gameObject
----@field public owner gameObject
+---@field projectile gameObject
+---@field owner gameObject
 gameprojectileSpawnerAttachExistingEvent = {}
 
 ---@param fields? gameprojectileSpawnerAttachExistingEvent
 ---@return gameprojectileSpawnerAttachExistingEvent
-function gameprojectileSpawnerAttachExistingEvent.new(fields) return end
+function gameprojectileSpawnerAttachExistingEvent.new(fields) end

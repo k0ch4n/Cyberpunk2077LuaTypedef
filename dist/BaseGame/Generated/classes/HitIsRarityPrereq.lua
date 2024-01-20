@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class HitIsRarityPrereq: GenericHitPrereq
----@field public invert Bool
----@field public rarity gamedataNPCRarity
+---@field invert Bool
+---@field rarity gamedataNPCRarity
 HitIsRarityPrereq = {}
 
 ---@param fields? HitIsRarityPrereq
 ---@return HitIsRarityPrereq
-function HitIsRarityPrereq.new(fields) return end
+function HitIsRarityPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitIsRarityPrereq:Initialize(recordID) return end
+function HitIsRarityPrereq:Initialize(recordID) end

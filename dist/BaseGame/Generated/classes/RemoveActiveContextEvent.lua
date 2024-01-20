@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RemoveActiveContextEvent: redEvent
----@field public context gamedeviceRequestType
+---@field context gamedeviceRequestType
 RemoveActiveContextEvent = {}
 
 ---@param fields? RemoveActiveContextEvent
 ---@return RemoveActiveContextEvent
-function RemoveActiveContextEvent.new(fields) return end
+function RemoveActiveContextEvent.new(fields) end

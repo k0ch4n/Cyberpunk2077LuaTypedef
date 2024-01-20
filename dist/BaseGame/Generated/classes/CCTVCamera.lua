@@ -1,48 +1,41 @@
 ---@meta
 
 ---@class CCTVCamera: gameObject
----@field private mesh entMeshComponent
----@field private camera gameCameraComponent
----@field private isControlled Bool
----@field private cachedPuppetID entEntityID
+---@field mesh entMeshComponent
+---@field camera gameCameraComponent
+---@field isControlled Bool
+---@field cachedPuppetID entEntityID
 CCTVCamera = {}
 
 ---@param fields? CCTVCamera
 ---@return CCTVCamera
-function CCTVCamera.new(fields) return end
+function CCTVCamera.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function CCTVCamera:OnAction(action, consumer) return end
+function CCTVCamera:OnAction(action, consumer) end
 
----@protected
 ---@param trigger entAreaEnteredEvent
 ---@return Bool
-function CCTVCamera:OnAreaEnter(trigger) return end
+function CCTVCamera:OnAreaEnter(trigger) end
 
----@protected
 ---@param trigger entAreaExitedEvent
 ---@return Bool
-function CCTVCamera:OnAreaExit(trigger) return end
+function CCTVCamera:OnAreaExit(trigger) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function CCTVCamera:OnRequestComponents(ri) return end
+function CCTVCamera:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function CCTVCamera:OnTakeControl(ri) return end
+function CCTVCamera:OnTakeControl(ri) end
 
----@protected
 ---@param deltaYaw Float
 ---@return nil
-function CCTVCamera:Rotate(deltaYaw) return end
+function CCTVCamera:Rotate(deltaYaw) end
 
----@protected
 ---@param val Bool
 ---@return nil
-function CCTVCamera:TakeControl(val) return end
+function CCTVCamera:TakeControl(val) end

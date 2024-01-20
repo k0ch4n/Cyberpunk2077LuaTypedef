@@ -1,16 +1,15 @@
 ---@meta
 
 ---@class sampleUIPathAndReferenceGameController: gameuiWidgetGameController
----@field public textWidget inkTextWidgetReference
----@field public imageWidgetPath inkWidgetPath
----@field private imageWidget inkImageWidget
----@field private panelWidget inkBasePanelWidget
+---@field textWidget inkTextWidgetReference
+---@field imageWidgetPath inkWidgetPath
+---@field imageWidget inkImageWidget
+---@field panelWidget inkBasePanelWidget
 sampleUIPathAndReferenceGameController = {}
 
 ---@param fields? sampleUIPathAndReferenceGameController
 ---@return sampleUIPathAndReferenceGameController
-function sampleUIPathAndReferenceGameController.new(fields) return end
+function sampleUIPathAndReferenceGameController.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUIPathAndReferenceGameController:OnInitialize() return end
+function sampleUIPathAndReferenceGameController:OnInitialize() end

@@ -1,43 +1,43 @@
 ---@meta
 
 ---@class entIPlacedComponent: entIComponent
----@field public localTransform WorldTransform
----@field public parentTransform entITransformBinding
+---@field localTransform WorldTransform
+---@field parentTransform entITransformBinding
 entIPlacedComponent = {}
 
 ---@return Quaternion
-function entIPlacedComponent:GetInitialOrientation() return end
+function entIPlacedComponent:GetInitialOrientation() end
 
 ---@return Vector4
-function entIPlacedComponent:GetInitialPosition() return end
+function entIPlacedComponent:GetInitialPosition() end
 
 ---@return Matrix
-function entIPlacedComponent:GetInitialTransform() return end
+function entIPlacedComponent:GetInitialTransform() end
 
 ---@return Quaternion
-function entIPlacedComponent:GetLocalOrientation() return end
+function entIPlacedComponent:GetLocalOrientation() end
 
 ---@return Vector4
-function entIPlacedComponent:GetLocalPosition() return end
+function entIPlacedComponent:GetLocalPosition() end
 
 ---@return Matrix
-function entIPlacedComponent:GetLocalToWorld() return end
+function entIPlacedComponent:GetLocalToWorld() end
 
 ---@return Matrix
-function entIPlacedComponent:GetLocalTransform() return end
+function entIPlacedComponent:GetLocalTransform() end
 
 ---@return nil
-function entIPlacedComponent:GetTransformParent() return end
+function entIPlacedComponent:GetTransformParent() end
 
 ---@param rot Quaternion
 ---@return nil
-function entIPlacedComponent:SetLocalOrientation(rot) return end
+function entIPlacedComponent:SetLocalOrientation(rot) end
 
 ---@param pos Vector4
 ---@return nil
-function entIPlacedComponent:SetLocalPosition(pos) return end
+function entIPlacedComponent:SetLocalPosition(pos) end
 
 ---@param pos Vector4
 ---@param rot Quaternion
 ---@return nil
-function entIPlacedComponent:SetLocalTransform(pos, rot) return end
+function entIPlacedComponent:SetLocalTransform(pos, rot) end

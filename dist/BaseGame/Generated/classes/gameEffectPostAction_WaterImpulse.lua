@@ -5,4 +5,4 @@ gameEffectPostAction_WaterImpulse = {}
 
 ---@param fields? gameEffectPostAction_WaterImpulse
 ---@return gameEffectPostAction_WaterImpulse
-function gameEffectPostAction_WaterImpulse.new(fields) return end
+function gameEffectPostAction_WaterImpulse.new(fields) end

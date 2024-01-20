@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIRootMotionCommand: AIMoveCommand
----@field public params gameSceneAnimationMotionActionParams
+---@field params gameSceneAnimationMotionActionParams
 AIRootMotionCommand = {}
 
 ---@param fields? AIRootMotionCommand
 ---@return AIRootMotionCommand
-function AIRootMotionCommand.new(fields) return end
+function AIRootMotionCommand.new(fields) end

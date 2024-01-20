@@ -5,4 +5,4 @@ gameItemFactorySystem = {}
 
 ---@param fields? gameItemFactorySystem
 ---@return gameItemFactorySystem
-function gameItemFactorySystem.new(fields) return end
+function gameItemFactorySystem.new(fields) end

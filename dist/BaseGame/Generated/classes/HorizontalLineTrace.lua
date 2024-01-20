@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class HorizontalLineTrace: AIbehaviorconditionScript
----@field public source AIArgumentMapping
----@field public target AIArgumentMapping
----@field public offset AIArgumentMapping
----@field public length AIArgumentMapping
----@field public azimuth AIArgumentMapping
+---@field source AIArgumentMapping
+---@field target AIArgumentMapping
+---@field offset AIArgumentMapping
+---@field length AIArgumentMapping
+---@field azimuth AIArgumentMapping
 HorizontalLineTrace = {}
 
 ---@param fields? HorizontalLineTrace
 ---@return HorizontalLineTrace
-function HorizontalLineTrace.new(fields) return end
+function HorizontalLineTrace.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function HorizontalLineTrace:Check(context) return end
+function HorizontalLineTrace:Check(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param queryPosition Vector4
 ---@param queryOrientation Quaternion
 ---@param queryLength Float
 ---@return Bool
-function HorizontalLineTrace:LineTrace(context, queryPosition, queryOrientation, queryLength) return end
+function HorizontalLineTrace:LineTrace(context, queryPosition, queryOrientation, queryLength) end

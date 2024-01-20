@@ -5,4 +5,4 @@ worldRotatingMeshNodeInstance = {}
 
 ---@param fields? worldRotatingMeshNodeInstance
 ---@return worldRotatingMeshNodeInstance
-function worldRotatingMeshNodeInstance.new(fields) return end
+function worldRotatingMeshNodeInstance.new(fields) end

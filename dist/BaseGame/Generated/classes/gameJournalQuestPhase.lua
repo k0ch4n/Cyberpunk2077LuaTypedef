@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameJournalQuestPhase: gameJournalContainerEntry
----@field public locationPrefabRef NodeRef
+---@field locationPrefabRef NodeRef
 gameJournalQuestPhase = {}
 
 ---@param fields? gameJournalQuestPhase
 ---@return gameJournalQuestPhase
-function gameJournalQuestPhase.new(fields) return end
+function gameJournalQuestPhase.new(fields) end

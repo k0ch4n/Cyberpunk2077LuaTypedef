@@ -1,44 +1,42 @@
 ---@meta
 
 ---@class QuestListController: inkWidgetLogicController
----@field private CategoryName inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private QuestListRef inkCompoundWidgetReference
----@field private QuestType gameJournalQuestType
----@field private QuestItems QuestItemController[]
----@field private LastQuestData QuestDataWrapper
+---@field CategoryName inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field QuestListRef inkCompoundWidgetReference
+---@field QuestType gameJournalQuestType
+---@field QuestItems QuestItemController[]
+---@field LastQuestData QuestDataWrapper
 QuestListController = {}
 
 ---@param fields? QuestListController
 ---@return QuestListController
-function QuestListController.new(fields) return end
+function QuestListController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function QuestListController:OnButtonRelease(e) return end
+function QuestListController:OnButtonRelease(e) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function QuestListController:OnQuestItemClick(controller) return end
+function QuestListController:OnQuestItemClick(controller) end
 
 ---@param questData QuestDataWrapper
 ---@param active Bool
 ---@return nil
-function QuestListController:AddQuest(questData, active) return end
+function QuestListController:AddQuest(questData, active) end
 
 ---@param questData QuestDataWrapper
 ---@return Bool
-function QuestListController:CanAddQuest(questData) return end
+function QuestListController:CanAddQuest(questData) end
 
 ---@return nil
-function QuestListController:Clear() return end
+function QuestListController:Clear() end
 
 ---@return QuestDataWrapper
-function QuestListController:GetLastQuestData() return end
+function QuestListController:GetLastQuestData() end
 
 ---@param questType gameJournalQuestType
 ---@param questTypeLocTag String
 ---@return nil
-function QuestListController:Setup(questType, questTypeLocTag) return end
+function QuestListController:Setup(questType, questTypeLocTag) end

@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameIComparisonPrereq: gameIPrereq
----@field public comparisonType gameComparisonType
+---@field comparisonType gameComparisonType
 gameIComparisonPrereq = {}

@@ -1,33 +1,33 @@
 ---@meta
 
 ---@class DropPointPackage: IScriptable
----@field private itemID TweakDBID
----@field private status DropPointPackageStatus
----@field private predefinedDrop gamePersistentID
----@field private statusHistory DropPointPackageStatus[]
+---@field itemID TweakDBID
+---@field status DropPointPackageStatus
+---@field predefinedDrop gamePersistentID
+---@field statusHistory DropPointPackageStatus[]
 DropPointPackage = {}
 
 ---@param fields? DropPointPackage
 ---@return DropPointPackage
-function DropPointPackage.new(fields) return end
+function DropPointPackage.new(fields) end
 
 ---@return gamePersistentID
-function DropPointPackage:Holder() return end
+function DropPointPackage:Holder() end
 
 ---@return TweakDBID
-function DropPointPackage:Record() return end
+function DropPointPackage:Record() end
 
 ---@param _holder gamePersistentID
 ---@return nil
-function DropPointPackage:SetHolder(_holder) return end
+function DropPointPackage:SetHolder(_holder) end
 
 ---@param record TweakDBID|string
 ---@return nil
-function DropPointPackage:SetRecord(record) return end
+function DropPointPackage:SetRecord(record) end
 
 ---@param newStatus DropPointPackageStatus
 ---@return nil
-function DropPointPackage:SetStatus(newStatus) return end
+function DropPointPackage:SetStatus(newStatus) end
 
 ---@return DropPointPackageStatus
-function DropPointPackage:Status() return end
+function DropPointPackage:Status() end

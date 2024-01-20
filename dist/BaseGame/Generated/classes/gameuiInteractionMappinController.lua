@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiInteractionMappinController: gameuiMappinBaseController
----@field public isCurrentlyClamped Bool
----@field public isUnderCrosshair Bool
----@field public canvasWidgetName CName
----@field public arrowWidgetName CName
+---@field isCurrentlyClamped Bool
+---@field isUnderCrosshair Bool
+---@field canvasWidgetName CName
+---@field arrowWidgetName CName
 gameuiInteractionMappinController = {}
 
 ---@param fields? gameuiInteractionMappinController
 ---@return gameuiInteractionMappinController
-function gameuiInteractionMappinController.new(fields) return end
+function gameuiInteractionMappinController.new(fields) end

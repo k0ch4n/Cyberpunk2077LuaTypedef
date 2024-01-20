@@ -5,12 +5,12 @@ inkBaseVariantDataSource = {}
 
 ---@param fields? inkBaseVariantDataSource
 ---@return inkBaseVariantDataSource
-function inkBaseVariantDataSource.new(fields) return end
+function inkBaseVariantDataSource.new(fields) end
 
 ---@param index Uint32
 ---@return Variant
-function inkBaseVariantDataSource:GetItem(index) return end
+function inkBaseVariantDataSource:GetItem(index) end
 
 ---@param data Variant
 ---@return Bool
-function inkBaseVariantDataSource:HasItem(data) return end
+function inkBaseVariantDataSource:HasItem(data) end

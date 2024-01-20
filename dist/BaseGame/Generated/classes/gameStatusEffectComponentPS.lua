@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameStatusEffectComponentPS: gameComponentPS
----@field public statusEffectArray gameStatusEffect[]
----@field public delayedFunctions gameDelayedFunctionsScheduler
----@field public delayedFunctionsNoTd gameDelayedFunctionsScheduler
----@field public isPlayerControlled Bool
----@field public tickComponent Bool
+---@field statusEffectArray gameStatusEffect[]
+---@field delayedFunctions gameDelayedFunctionsScheduler
+---@field delayedFunctionsNoTd gameDelayedFunctionsScheduler
+---@field isPlayerControlled Bool
+---@field tickComponent Bool
 gameStatusEffectComponentPS = {}
 
 ---@param fields? gameStatusEffectComponentPS
 ---@return gameStatusEffectComponentPS
-function gameStatusEffectComponentPS.new(fields) return end
+function gameStatusEffectComponentPS.new(fields) end

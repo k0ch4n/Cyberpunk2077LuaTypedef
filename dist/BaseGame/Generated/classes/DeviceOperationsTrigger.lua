@@ -5,61 +5,54 @@ DeviceOperationsTrigger = {}
 
 ---@param namedOperation OperationExecutionData
 ---@return nil
-function DeviceOperationsTrigger:ClearDelayIdOnNamedOperation(namedOperation) return end
+function DeviceOperationsTrigger:ClearDelayIdOnNamedOperation(namedOperation) end
 
----@protected
 ---@param namedOperation OperationExecutionData
 ---@param owner gameObject
 ---@return nil
-function DeviceOperationsTrigger:DelayTriggerExecution(namedOperation, owner) return end
+function DeviceOperationsTrigger:DelayTriggerExecution(namedOperation, owner) end
 
----@protected
 ---@param operationName CName|string
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
-function DeviceOperationsTrigger:ExecuteOperationByName(operationName, owner, container) return end
+function DeviceOperationsTrigger:ExecuteOperationByName(operationName, owner, container) end
 
----@protected
 ---@param owner gameObject
 ---@return DeviceOperationsContainer
-function DeviceOperationsTrigger:GetOperationsContainer(owner) return end
+function DeviceOperationsTrigger:GetOperationsContainer(owner) end
 
 ---@param owner gameObject
 ---@return nil
-function DeviceOperationsTrigger:Initialize(owner) return end
+function DeviceOperationsTrigger:Initialize(owner) end
 
----@protected
 ---@param activator gameObject
 ---@return Bool
-function DeviceOperationsTrigger:IsPlayerActivator(activator) return end
+function DeviceOperationsTrigger:IsPlayerActivator(activator) end
 
----@protected
 ---@param trigger DeviceOperationTriggerData
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
-function DeviceOperationsTrigger:ResolveOperationsOnTrigger(trigger, owner, container) return end
+function DeviceOperationsTrigger:ResolveOperationsOnTrigger(trigger, owner, container) end
 
----@protected
 ---@param operationName CName|string
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
-function DeviceOperationsTrigger:RestoreOperationByName(operationName, owner, container) return end
+function DeviceOperationsTrigger:RestoreOperationByName(operationName, owner, container) end
 
----@protected
 ---@param trigger DeviceOperationTriggerData
 ---@param owner gameObject
 ---@param container DeviceOperationsContainer
 ---@return nil
-function DeviceOperationsTrigger:RestoreOperationsOnTrigger(trigger, owner, container) return end
+function DeviceOperationsTrigger:RestoreOperationsOnTrigger(trigger, owner, container) end
 
 ---@param delayID gameDelayID
 ---@param namedOperation OperationExecutionData
 ---@return nil
-function DeviceOperationsTrigger:SetDelayIdOnNamedOperation(delayID, namedOperation) return end
+function DeviceOperationsTrigger:SetDelayIdOnNamedOperation(delayID, namedOperation) end
 
 ---@param owner gameObject
 ---@return nil
-function DeviceOperationsTrigger:UnInitialize(owner) return end
+function DeviceOperationsTrigger:UnInitialize(owner) end

@@ -5,8 +5,8 @@ BaseModalListPopupTemplateClassifier = {}
 
 ---@param fields? BaseModalListPopupTemplateClassifier
 ---@return BaseModalListPopupTemplateClassifier
-function BaseModalListPopupTemplateClassifier.new(fields) return end
+function BaseModalListPopupTemplateClassifier.new(fields) end
 
 ---@param data Variant
 ---@return Uint32
-function BaseModalListPopupTemplateClassifier:ClassifyItem(data) return end
+function BaseModalListPopupTemplateClassifier:ClassifyItem(data) end

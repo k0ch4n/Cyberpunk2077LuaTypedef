@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CGIDataResource: resStreamedResource
----@field public data serializationDeferredDataBuffer
----@field public sectorHash Uint64
+---@field data serializationDeferredDataBuffer
+---@field sectorHash Uint64
 CGIDataResource = {}
 
 ---@param fields? CGIDataResource
 ---@return CGIDataResource
-function CGIDataResource.new(fields) return end
+function CGIDataResource.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class CSourceTexture: ISerializable
----@field public width Uint32
----@field public height Uint32
----@field public depth Uint32
----@field public pitch Uint32
----@field public format ETextureRawFormat
+---@field width Uint32
+---@field height Uint32
+---@field depth Uint32
+---@field pitch Uint32
+---@field format ETextureRawFormat
 CSourceTexture = {}
 
 ---@param fields? CSourceTexture
 ---@return CSourceTexture
-function CSourceTexture.new(fields) return end
+function CSourceTexture.new(fields) end

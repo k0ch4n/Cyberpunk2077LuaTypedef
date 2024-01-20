@@ -5,4 +5,4 @@ gameWorldBoundaryNode = {}
 
 ---@param fields? gameWorldBoundaryNode
 ---@return gameWorldBoundaryNode
-function gameWorldBoundaryNode.new(fields) return end
+function gameWorldBoundaryNode.new(fields) end

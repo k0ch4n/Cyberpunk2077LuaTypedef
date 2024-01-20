@@ -5,4 +5,4 @@ UpdateHDRCalibrationScreenEvt = {}
 
 ---@param fields? UpdateHDRCalibrationScreenEvt
 ---@return UpdateHDRCalibrationScreenEvt
-function UpdateHDRCalibrationScreenEvt.new(fields) return end
+function UpdateHDRCalibrationScreenEvt.new(fields) end

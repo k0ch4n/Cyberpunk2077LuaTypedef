@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AIbehaviorStoryEventResolverDefinition: AIbehaviorEventResolverDefinition
----@field public storyTier AIArgumentMapping
+---@field storyTier AIArgumentMapping
 AIbehaviorStoryEventResolverDefinition = {}
 
 ---@param fields? AIbehaviorStoryEventResolverDefinition
 ---@return AIbehaviorStoryEventResolverDefinition
-function AIbehaviorStoryEventResolverDefinition.new(fields) return end
+function AIbehaviorStoryEventResolverDefinition.new(fields) end

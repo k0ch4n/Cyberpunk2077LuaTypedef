@@ -1,34 +1,31 @@
 ---@meta
 
 ---@class DropdownButtonController: inkWidgetLogicController
----@field protected label inkTextWidgetReference
----@field protected icon inkImageWidgetReference
----@field protected frame inkWidgetReference
----@field protected arrow inkImageWidgetReference
+---@field label inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field frame inkWidgetReference
+---@field arrow inkImageWidgetReference
 DropdownButtonController = {}
 
 ---@param fields? DropdownButtonController
 ---@return DropdownButtonController
-function DropdownButtonController.new(fields) return end
+function DropdownButtonController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DropdownButtonController:OnHoverOut(evt) return end
+function DropdownButtonController:OnHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DropdownButtonController:OnHoverOver(evt) return end
+function DropdownButtonController:OnHoverOver(evt) end
 
----@protected
 ---@return Bool
-function DropdownButtonController:OnInitialize() return end
+function DropdownButtonController:OnInitialize() end
 
 ---@param data DropdownItemData
 ---@return nil
-function DropdownButtonController:SetData(data) return end
+function DropdownButtonController:SetData(data) end
 
 ---@param opened Bool
 ---@return nil
-function DropdownButtonController:SetOpened(opened) return end
+function DropdownButtonController:SetOpened(opened) end

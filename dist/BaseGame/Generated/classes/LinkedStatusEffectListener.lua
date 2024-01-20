@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class LinkedStatusEffectListener: gameScriptStatusEffectListener
----@field public instigatorObject gameObject
----@field public linkedEffect TweakDBID
----@field public evt RemoveLinkedStatusEffectsEvent
+---@field instigatorObject gameObject
+---@field linkedEffect TweakDBID
+---@field evt RemoveLinkedStatusEffectsEvent
 LinkedStatusEffectListener = {}
 
 ---@param fields? LinkedStatusEffectListener
 ---@return LinkedStatusEffectListener
-function LinkedStatusEffectListener.new(fields) return end
+function LinkedStatusEffectListener.new(fields) end
 
 ---@param statusEffect gamedataStatusEffect_Record
 ---@return nil
-function LinkedStatusEffectListener:OnStatusEffectRemoved(statusEffect) return end
+function LinkedStatusEffectListener:OnStatusEffectRemoved(statusEffect) end

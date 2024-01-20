@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class MipMapGenParams
----@field public applyToksvig_ShouldInvChannel Bool
----@field public applyToksvig_Channel Uint8
----@field public applyToksvig_sourceNormalMap CBitmapTexture
+---@field applyToksvig_ShouldInvChannel Bool
+---@field applyToksvig_Channel Uint8
+---@field applyToksvig_sourceNormalMap CBitmapTexture
 MipMapGenParams = {}
 
 ---@param fields? MipMapGenParams
 ---@return MipMapGenParams
-function MipMapGenParams.new(fields) return end
+function MipMapGenParams.new(fields) end

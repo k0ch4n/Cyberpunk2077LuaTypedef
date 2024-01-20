@@ -5,10 +5,10 @@ gamedataArcadeMenu_Record = {}
 
 ---@param fields? gamedataArcadeMenu_Record
 ---@return gamedataArcadeMenu_Record
-function gamedataArcadeMenu_Record.new(fields) return end
+function gamedataArcadeMenu_Record.new(fields) end
 
 ---@return CName
-function gamedataArcadeMenu_Record:ArcadeMenuOptionClickedSFX() return end
+function gamedataArcadeMenu_Record:ArcadeMenuOptionClickedSFX() end
 
 ---@return CName
-function gamedataArcadeMenu_Record:ArcadeMenuOptionSelectedSFX() return end
+function gamedataArcadeMenu_Record:ArcadeMenuOptionSelectedSFX() end

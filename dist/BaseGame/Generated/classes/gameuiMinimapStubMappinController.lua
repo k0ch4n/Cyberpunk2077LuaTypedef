@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class gameuiMinimapStubMappinController: gameuiBaseMinimapMappinController
----@field private regularIconContainer inkCompoundWidgetReference
----@field private preventionVehicleIconContainer inkCompoundWidgetReference
----@field private stubMappin gamemappinsStubMappin
----@field private state CName
+---@field regularIconContainer inkCompoundWidgetReference
+---@field preventionVehicleIconContainer inkCompoundWidgetReference
+---@field stubMappin gamemappinsStubMappin
+---@field state CName
 gameuiMinimapStubMappinController = {}
 
 ---@param fields? gameuiMinimapStubMappinController
 ---@return gameuiMinimapStubMappinController
-function gameuiMinimapStubMappinController.new(fields) return end
+function gameuiMinimapStubMappinController.new(fields) end
 
----@protected
 ---@return CName
-function gameuiMinimapStubMappinController:ComputeRootState() return end
+function gameuiMinimapStubMappinController:ComputeRootState() end
 
----@protected
 ---@return nil
-function gameuiMinimapStubMappinController:Intro() return end
+function gameuiMinimapStubMappinController:Intro() end
 
----@private
 ---@return nil
-function gameuiMinimapStubMappinController:SetupStubWidget() return end
+function gameuiMinimapStubMappinController:SetupStubWidget() end

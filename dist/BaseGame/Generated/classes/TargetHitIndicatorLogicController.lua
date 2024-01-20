@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class TargetHitIndicatorLogicController: inkWidgetLogicController
----@field public animName CName
----@field public animationPriority Int32
+---@field animName CName
+---@field animationPriority Int32
 TargetHitIndicatorLogicController = {}
 
 ---@param fields? TargetHitIndicatorLogicController
 ---@return TargetHitIndicatorLogicController
-function TargetHitIndicatorLogicController.new(fields) return end
+function TargetHitIndicatorLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function TargetHitIndicatorLogicController:OnInitialize() return end
+function TargetHitIndicatorLogicController:OnInitialize() end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiSwitcherInfo: gameuiCharacterCustomizationInfo
----@field public uiSlots CName[]
----@field public options gameuiSwitcherOption[]
----@field public switchVisibility Bool
+---@field uiSlots CName[]
+---@field options gameuiSwitcherOption[]
+---@field switchVisibility Bool
 gameuiSwitcherInfo = {}
 
 ---@param fields? gameuiSwitcherInfo
 ---@return gameuiSwitcherInfo
-function gameuiSwitcherInfo.new(fields) return end
+function gameuiSwitcherInfo.new(fields) end

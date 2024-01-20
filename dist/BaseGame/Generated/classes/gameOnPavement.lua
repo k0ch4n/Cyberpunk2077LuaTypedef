@@ -5,4 +5,4 @@ gameOnPavement = {}
 
 ---@param fields? gameOnPavement
 ---@return gameOnPavement
-function gameOnPavement.new(fields) return end
+function gameOnPavement.new(fields) end

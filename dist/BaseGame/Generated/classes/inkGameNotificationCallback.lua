@@ -5,4 +5,4 @@ inkGameNotificationCallback = {}
 
 ---@param fields? inkGameNotificationCallback
 ---@return inkGameNotificationCallback
-function inkGameNotificationCallback.new(fields) return end
+function inkGameNotificationCallback.new(fields) end

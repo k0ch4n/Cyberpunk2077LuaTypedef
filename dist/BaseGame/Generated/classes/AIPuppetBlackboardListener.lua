@@ -5,4 +5,4 @@ AIPuppetBlackboardListener = {}
 
 ---@param fields? AIPuppetBlackboardListener
 ---@return AIPuppetBlackboardListener
-function AIPuppetBlackboardListener.new(fields) return end
+function AIPuppetBlackboardListener.new(fields) end

@@ -5,10 +5,9 @@ LeftHandCyberwareWaitForUnequipDecisions = {}
 
 ---@param fields? LeftHandCyberwareWaitForUnequipDecisions
 ---@return LeftHandCyberwareWaitForUnequipDecisions
-function LeftHandCyberwareWaitForUnequipDecisions.new(fields) return end
+function LeftHandCyberwareWaitForUnequipDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LeftHandCyberwareWaitForUnequipDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) return end
+function LeftHandCyberwareWaitForUnequipDecisions:ToLeftHandCyberwareUnequip(stateContext, scriptInterface) end

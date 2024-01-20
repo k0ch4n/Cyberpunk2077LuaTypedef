@@ -1,35 +1,31 @@
 ---@meta
 
 ---@class InjectCombatTargetCommandTask: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIInjectCombatTargetCommand
----@field protected threatPersistenceSource gamedataAIThreatPersistenceSource_Record
----@field protected activationTimeStamp Float
----@field protected commandDuration Float
----@field protected target gameObject
----@field protected targetID entEntityID
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIInjectCombatTargetCommand
+---@field threatPersistenceSource gamedataAIThreatPersistenceSource_Record
+---@field activationTimeStamp Float
+---@field commandDuration Float
+---@field target gameObject
+---@field targetID entEntityID
 InjectCombatTargetCommandTask = {}
 
 ---@param fields? InjectCombatTargetCommandTask
 ---@return InjectCombatTargetCommandTask
-function InjectCombatTargetCommandTask.new(fields) return end
+function InjectCombatTargetCommandTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InjectCombatTargetCommandTask:Activate(context) return end
+function InjectCombatTargetCommandTask:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InjectCombatTargetCommandTask:CancelCommand(context) return end
+function InjectCombatTargetCommandTask:CancelCommand(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function InjectCombatTargetCommandTask:Deactivate(context) return end
+function InjectCombatTargetCommandTask:Deactivate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function InjectCombatTargetCommandTask:Update(context) return end
+function InjectCombatTargetCommandTask:Update(context) end

@@ -5,7 +5,7 @@ QuestStopGlitch = {}
 
 ---@param fields? QuestStopGlitch
 ---@return QuestStopGlitch
-function QuestStopGlitch.new(fields) return end
+function QuestStopGlitch.new(fields) end
 
 ---@return nil
-function QuestStopGlitch:SetProperties() return end
+function QuestStopGlitch:SetProperties() end

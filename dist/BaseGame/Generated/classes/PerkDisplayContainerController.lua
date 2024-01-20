@@ -1,33 +1,31 @@
 ---@meta
 
 ---@class PerkDisplayContainerController: inkWidgetLogicController
----@field protected index Int32
----@field protected isTrait Bool
----@field protected widget inkWidgetReference
----@field protected data BasePerkDisplayData
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected controller PerkDisplayController
+---@field index Int32
+---@field isTrait Bool
+---@field widget inkWidgetReference
+---@field data BasePerkDisplayData
+---@field dataManager PlayerDevelopmentDataManager
+---@field controller PerkDisplayController
 PerkDisplayContainerController = {}
 
 ---@param fields? PerkDisplayContainerController
 ---@return PerkDisplayContainerController
-function PerkDisplayContainerController.new(fields) return end
+function PerkDisplayContainerController.new(fields) end
 
----@protected
 ---@return Bool
-function PerkDisplayContainerController:OnInitialize() return end
+function PerkDisplayContainerController:OnInitialize() end
 
 ---@return BasePerkDisplayData
-function PerkDisplayContainerController:GetPerkDisplayData() return end
+function PerkDisplayContainerController:GetPerkDisplayData() end
 
 ---@return Int32
-function PerkDisplayContainerController:GetPerkIndex() return end
+function PerkDisplayContainerController:GetPerkIndex() end
 
 ---@param perkData BasePerkDisplayData
 ---@param dataManager PlayerDevelopmentDataManager
 ---@return nil
-function PerkDisplayContainerController:SetData(perkData, dataManager) return end
+function PerkDisplayContainerController:SetData(perkData, dataManager) end
 
----@private
 ---@return nil
-function PerkDisplayContainerController:SpawnController() return end
+function PerkDisplayContainerController:SpawnController() end

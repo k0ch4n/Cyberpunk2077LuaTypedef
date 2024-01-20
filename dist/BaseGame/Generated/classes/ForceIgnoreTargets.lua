@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class ForceIgnoreTargets: ActionBool
----@field public Repeat Bool
----@field public Attitude EAIAttitude
+---@field Repeat Bool
+---@field Attitude EAIAttitude
 ForceIgnoreTargets = {}
 
 ---@param fields? ForceIgnoreTargets
 ---@return ForceIgnoreTargets
-function ForceIgnoreTargets.new(fields) return end
+function ForceIgnoreTargets.new(fields) end
 
 ---@return Int32
-function ForceIgnoreTargets:GetBaseCost() return end
+function ForceIgnoreTargets:GetBaseCost() end
 
 ---@return nil
-function ForceIgnoreTargets:SetProperties() return end
+function ForceIgnoreTargets:SetProperties() end

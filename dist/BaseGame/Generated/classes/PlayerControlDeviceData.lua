@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PlayerControlDeviceData
----@field public currentYawModifier Float
----@field public currentPitchModifier Float
+---@field currentYawModifier Float
+---@field currentPitchModifier Float
 PlayerControlDeviceData = {}
 
 ---@param fields? PlayerControlDeviceData
 ---@return PlayerControlDeviceData
-function PlayerControlDeviceData.new(fields) return end
+function PlayerControlDeviceData.new(fields) end

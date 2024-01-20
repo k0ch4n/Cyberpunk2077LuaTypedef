@@ -5,9 +5,8 @@ SetStressOnTrafficLane = {}
 
 ---@param fields? SetStressOnTrafficLane
 ---@return SetStressOnTrafficLane
-function SetStressOnTrafficLane.new(fields) return end
+function SetStressOnTrafficLane.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetStressOnTrafficLane:Activate(context) return end
+function SetStressOnTrafficLane:Activate(context) end

@@ -1,34 +1,32 @@
 ---@meta
 
 ---@class ShoppingCartListItem: inkWidgetLogicController
----@field private label inkTextWidgetReference
----@field private quantity inkTextWidgetReference
----@field private value inkTextWidgetReference
----@field private removeBtn inkWidgetReference
----@field private data gameInventoryItemData
+---@field label inkTextWidgetReference
+---@field quantity inkTextWidgetReference
+---@field value inkTextWidgetReference
+---@field removeBtn inkWidgetReference
+---@field data gameInventoryItemData
 ShoppingCartListItem = {}
 
 ---@param fields? ShoppingCartListItem
 ---@return ShoppingCartListItem
-function ShoppingCartListItem.new(fields) return end
+function ShoppingCartListItem.new(fields) end
 
----@protected
 ---@return Bool
-function ShoppingCartListItem:OnInitialize() return end
+function ShoppingCartListItem:OnInitialize() end
 
----@protected
 ---@return Bool
-function ShoppingCartListItem:OnUninitialize() return end
+function ShoppingCartListItem:OnUninitialize() end
 
 ---@return gameInventoryItemData
-function ShoppingCartListItem:GetData() return end
+function ShoppingCartListItem:GetData() end
 
 ---@return nil
-function ShoppingCartListItem:OnHoverOut() return end
+function ShoppingCartListItem:OnHoverOut() end
 
 ---@return nil
-function ShoppingCartListItem:OnHoverOver() return end
+function ShoppingCartListItem:OnHoverOver() end
 
 ---@param data gameInventoryItemData
 ---@return nil
-function ShoppingCartListItem:SetupData(data) return end
+function ShoppingCartListItem:SetupData(data) end

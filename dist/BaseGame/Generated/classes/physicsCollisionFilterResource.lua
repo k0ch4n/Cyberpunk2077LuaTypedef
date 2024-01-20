@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class physicsCollisionFilterResource: ISerializable
----@field public collisionPresetJson JsonResource
----@field public overridesJson JsonResource
----@field public queryPresetJson JsonResource
----@field public collisionGroups CName
----@field public queryGroups CName
+---@field collisionPresetJson JsonResource
+---@field overridesJson JsonResource
+---@field queryPresetJson JsonResource
+---@field collisionGroups CName
+---@field queryGroups CName
 physicsCollisionFilterResource = {}
 
 ---@param fields? physicsCollisionFilterResource
 ---@return physicsCollisionFilterResource
-function physicsCollisionFilterResource.new(fields) return end
+function physicsCollisionFilterResource.new(fields) end

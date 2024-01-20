@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class PlayerCombatControllerInvalidateEvent: redEvent
----@field public state PlayerCombatState
+---@field state PlayerCombatState
 PlayerCombatControllerInvalidateEvent = {}
 
 ---@param fields? PlayerCombatControllerInvalidateEvent
 ---@return PlayerCombatControllerInvalidateEvent
-function PlayerCombatControllerInvalidateEvent.new(fields) return end
+function PlayerCombatControllerInvalidateEvent.new(fields) end

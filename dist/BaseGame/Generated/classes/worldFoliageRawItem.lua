@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class worldFoliageRawItem: ISerializable
----@field public Mesh CMesh
----@field public MeshAppearance CName
----@field public Position Vector3
----@field public Rotation Quaternion
----@field public Scale Float
+---@field Mesh CMesh
+---@field MeshAppearance CName
+---@field Position Vector3
+---@field Rotation Quaternion
+---@field Scale Float
 worldFoliageRawItem = {}
 
 ---@param fields? worldFoliageRawItem
 ---@return worldFoliageRawItem
-function worldFoliageRawItem.new(fields) return end
+function worldFoliageRawItem.new(fields) end

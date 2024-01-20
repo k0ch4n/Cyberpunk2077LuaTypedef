@@ -5,10 +5,9 @@ GrappleBreakFreeDecisions = {}
 
 ---@param fields? GrappleBreakFreeDecisions
 ---@return GrappleBreakFreeDecisions
-function GrappleBreakFreeDecisions.new(fields) return end
+function GrappleBreakFreeDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GrappleBreakFreeDecisions:EnterCondition(stateContext, scriptInterface) return end
+function GrappleBreakFreeDecisions:EnterCondition(stateContext, scriptInterface) end

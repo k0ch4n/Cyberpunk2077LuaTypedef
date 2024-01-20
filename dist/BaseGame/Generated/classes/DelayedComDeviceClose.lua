@@ -5,4 +5,4 @@ DelayedComDeviceClose = {}
 
 ---@param fields? DelayedComDeviceClose
 ---@return DelayedComDeviceClose
-function DelayedComDeviceClose.new(fields) return end
+function DelayedComDeviceClose.new(fields) end

@@ -5,4 +5,4 @@ DelayedBikeKnockOffEvent = {}
 
 ---@param fields? DelayedBikeKnockOffEvent
 ---@return DelayedBikeKnockOffEvent
-function DelayedBikeKnockOffEvent.new(fields) return end
+function DelayedBikeKnockOffEvent.new(fields) end

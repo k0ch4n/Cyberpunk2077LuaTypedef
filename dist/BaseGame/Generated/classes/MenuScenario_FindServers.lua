@@ -5,15 +5,13 @@ MenuScenario_FindServers = {}
 
 ---@param fields? MenuScenario_FindServers
 ---@return MenuScenario_FindServers
-function MenuScenario_FindServers.new(fields) return end
+function MenuScenario_FindServers.new(fields) end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_FindServers:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_FindServers:OnEnterScenario(prevScenario, userData) end
 
----@protected
 ---@param nextScenario CName|string
 ---@return Bool
-function MenuScenario_FindServers:OnLeaveScenario(nextScenario) return end
+function MenuScenario_FindServers:OnLeaveScenario(nextScenario) end

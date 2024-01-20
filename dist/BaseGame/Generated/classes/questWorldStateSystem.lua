@@ -5,4 +5,4 @@ questWorldStateSystem = {}
 
 ---@param fields? questWorldStateSystem
 ---@return questWorldStateSystem
-function questWorldStateSystem.new(fields) return end
+function questWorldStateSystem.new(fields) end

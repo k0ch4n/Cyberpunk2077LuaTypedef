@@ -5,24 +5,21 @@ ShootEvents = {}
 
 ---@param fields? ShootEvents
 ---@return ShootEvents
-function ShootEvents.new(fields) return end
+function ShootEvents.new(fields) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param attackRecord gamedataAttack_Record
 ---@param staminaPenaltyMultiplier Float
 ---@param staminaFullChargePenaltyMultiplier Float
 ---@return nil
-function ShootEvents:ConsumeStamina(scriptInterface, attackRecord, staminaPenaltyMultiplier, staminaFullChargePenaltyMultiplier) return end
+function ShootEvents:ConsumeStamina(scriptInterface, attackRecord, staminaPenaltyMultiplier, staminaFullChargePenaltyMultiplier) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ShootEvents:OnEnter(stateContext, scriptInterface) return end
+function ShootEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ShootEvents:OnExit(stateContext, scriptInterface) return end
+function ShootEvents:OnExit(stateContext, scriptInterface) end

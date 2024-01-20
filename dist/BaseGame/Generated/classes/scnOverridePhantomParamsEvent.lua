@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnOverridePhantomParamsEvent: scnSceneEvent
----@field public params scnOverridePhantomParamsEventParams
+---@field params scnOverridePhantomParamsEventParams
 scnOverridePhantomParamsEvent = {}
 
 ---@param fields? scnOverridePhantomParamsEvent
 ---@return scnOverridePhantomParamsEvent
-function scnOverridePhantomParamsEvent.new(fields) return end
+function scnOverridePhantomParamsEvent.new(fields) end

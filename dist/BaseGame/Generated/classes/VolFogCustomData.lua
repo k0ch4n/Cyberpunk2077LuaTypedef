@@ -5,4 +5,4 @@ VolFogCustomData = {}
 
 ---@param fields? VolFogCustomData
 ---@return VolFogCustomData
-function VolFogCustomData.new(fields) return end
+function VolFogCustomData.new(fields) end

@@ -5,7 +5,7 @@ QuestForceTintGlass = {}
 
 ---@param fields? QuestForceTintGlass
 ---@return QuestForceTintGlass
-function QuestForceTintGlass.new(fields) return end
+function QuestForceTintGlass.new(fields) end
 
 ---@return nil
-function QuestForceTintGlass:SetProperties() return end
+function QuestForceTintGlass:SetProperties() end

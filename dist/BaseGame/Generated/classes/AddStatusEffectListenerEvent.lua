@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AddStatusEffectListenerEvent: redEvent
----@field public listener StatusEffectTriggerListener
+---@field listener StatusEffectTriggerListener
 AddStatusEffectListenerEvent = {}
 
 ---@param fields? AddStatusEffectListenerEvent
 ---@return AddStatusEffectListenerEvent
-function AddStatusEffectListenerEvent.new(fields) return end
+function AddStatusEffectListenerEvent.new(fields) end

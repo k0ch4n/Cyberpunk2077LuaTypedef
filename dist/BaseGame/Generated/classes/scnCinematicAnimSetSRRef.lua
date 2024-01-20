@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnCinematicAnimSetSRRef
----@field public asyncAnimSet animAnimSet
----@field public priority Uint8
----@field public isOverride Bool
+---@field asyncAnimSet animAnimSet
+---@field priority Uint8
+---@field isOverride Bool
 scnCinematicAnimSetSRRef = {}
 
 ---@param fields? scnCinematicAnimSetSRRef
 ---@return scnCinematicAnimSetSRRef
-function scnCinematicAnimSetSRRef.new(fields) return end
+function scnCinematicAnimSetSRRef.new(fields) end

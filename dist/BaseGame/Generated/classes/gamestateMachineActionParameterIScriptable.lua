@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamestateMachineActionParameterIScriptable
----@field public name CName
----@field public value IScriptable
+---@field name CName
+---@field value IScriptable
 gamestateMachineActionParameterIScriptable = {}
 
 ---@param fields? gamestateMachineActionParameterIScriptable
 ---@return gamestateMachineActionParameterIScriptable
-function gamestateMachineActionParameterIScriptable.new(fields) return end
+function gamestateMachineActionParameterIScriptable.new(fields) end

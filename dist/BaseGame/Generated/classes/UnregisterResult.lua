@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class UnregisterResult
----@field public success Bool
----@field public isVehicle Bool
----@field public spawnedType gameDynamicVehicleType
+---@field success Bool
+---@field isVehicle Bool
+---@field spawnedType gameDynamicVehicleType
 UnregisterResult = {}
 
 ---@param fields? UnregisterResult
 ---@return UnregisterResult
-function UnregisterResult.new(fields) return end
+function UnregisterResult.new(fields) end

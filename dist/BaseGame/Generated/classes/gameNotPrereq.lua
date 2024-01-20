@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameNotPrereq: gameIPrereq
----@field public negatedPrereq gameIPrereq
+---@field negatedPrereq gameIPrereq
 gameNotPrereq = {}
 
 ---@param fields? gameNotPrereq
 ---@return gameNotPrereq
-function gameNotPrereq.new(fields) return end
+function gameNotPrereq.new(fields) end

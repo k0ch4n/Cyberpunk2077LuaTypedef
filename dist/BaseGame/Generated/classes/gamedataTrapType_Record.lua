@@ -5,7 +5,7 @@ gamedataTrapType_Record = {}
 
 ---@param fields? gamedataTrapType_Record
 ---@return gamedataTrapType_Record
-function gamedataTrapType_Record.new(fields) return end
+function gamedataTrapType_Record.new(fields) end
 
 ---@return CName
-function gamedataTrapType_Record:EnumName() return end
+function gamedataTrapType_Record:EnumName() end

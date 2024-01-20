@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class MicroblendDef
----@field public name CName
----@field public texture CBitmapTexture
+---@field name CName
+---@field texture CBitmapTexture
 MicroblendDef = {}
 
 ---@param fields? MicroblendDef
 ---@return MicroblendDef
-function MicroblendDef.new(fields) return end
+function MicroblendDef.new(fields) end

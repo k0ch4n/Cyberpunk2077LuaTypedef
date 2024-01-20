@@ -1,63 +1,55 @@
 ---@meta
 
 ---@class ScannerBountySystemGameController: BaseChunkGameController
----@field private moneyReward inkTextWidgetReference
----@field private moneyRewardRow inkWidgetReference
----@field private streetCredReward inkTextWidgetReference
----@field private streetCredRewardRow inkWidgetReference
----@field private transgressions inkTextWidgetReference
----@field private transgressionsWidget inkWidgetReference
----@field private rewardPanel inkCompoundWidgetReference
----@field private mugShot inkRectangleWidgetReference
----@field private wanted inkTextWidgetReference
----@field private notFound inkTextWidgetReference
----@field private deadNotice inkTextWidgetReference
----@field private crossedOut inkWidgetReference
----@field private starsWidget inkWidgetReference[]
----@field private bountyCallbackID redCallbackObject
----@field private healthCallbackID redCallbackObject
----@field private objectCallbackID redCallbackObject
----@field private isValidBounty Bool
----@field private isAlive Bool
----@field private objectType ScannerObjectType
----@field private showScanBountyAnimProxy inkanimProxy
+---@field moneyReward inkTextWidgetReference
+---@field moneyRewardRow inkWidgetReference
+---@field streetCredReward inkTextWidgetReference
+---@field streetCredRewardRow inkWidgetReference
+---@field transgressions inkTextWidgetReference
+---@field transgressionsWidget inkWidgetReference
+---@field rewardPanel inkCompoundWidgetReference
+---@field mugShot inkRectangleWidgetReference
+---@field wanted inkTextWidgetReference
+---@field notFound inkTextWidgetReference
+---@field deadNotice inkTextWidgetReference
+---@field crossedOut inkWidgetReference
+---@field starsWidget inkWidgetReference[]
+---@field bountyCallbackID redCallbackObject
+---@field healthCallbackID redCallbackObject
+---@field objectCallbackID redCallbackObject
+---@field isValidBounty Bool
+---@field isAlive Bool
+---@field objectType ScannerObjectType
+---@field showScanBountyAnimProxy inkanimProxy
 ScannerBountySystemGameController = {}
 
 ---@param fields? ScannerBountySystemGameController
 ---@return ScannerBountySystemGameController
-function ScannerBountySystemGameController.new(fields) return end
+function ScannerBountySystemGameController.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerBountySystemGameController:OnBountySystemChanged(value) return end
+function ScannerBountySystemGameController:OnBountySystemChanged(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function ScannerBountySystemGameController:OnHealthChanged(value) return end
+function ScannerBountySystemGameController:OnHealthChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerBountySystemGameController:OnInitialize() return end
+function ScannerBountySystemGameController:OnInitialize() end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ScannerBountySystemGameController:OnObjectTypeChanged(value) return end
+function ScannerBountySystemGameController:OnObjectTypeChanged(value) end
 
----@protected
 ---@return Bool
-function ScannerBountySystemGameController:OnUninitialize() return end
+function ScannerBountySystemGameController:OnUninitialize() end
 
----@private
 ---@return Bool
-function ScannerBountySystemGameController:IsNPC() return end
+function ScannerBountySystemGameController:IsNPC() end
 
----@private
 ---@return nil
-function ScannerBountySystemGameController:ProcessBountyTutorial() return end
+function ScannerBountySystemGameController:ProcessBountyTutorial() end
 
----@private
 ---@return nil
-function ScannerBountySystemGameController:UpdateGlobalVisibility() return end
+function ScannerBountySystemGameController:UpdateGlobalVisibility() end

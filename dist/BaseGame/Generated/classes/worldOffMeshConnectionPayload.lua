@@ -5,4 +5,4 @@ worldOffMeshConnectionPayload = {}
 
 ---@param fields? worldOffMeshConnectionPayload
 ---@return worldOffMeshConnectionPayload
-function worldOffMeshConnectionPayload.new(fields) return end
+function worldOffMeshConnectionPayload.new(fields) end

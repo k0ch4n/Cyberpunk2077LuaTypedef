@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class NewPerksRequirementsLinks: IScriptable
----@field public perk gamedataNewPerkType
----@field public linkedPerks gamedataNewPerkType[]
+---@field perk gamedataNewPerkType
+---@field linkedPerks gamedataNewPerkType[]
 NewPerksRequirementsLinks = {}
 
 ---@param fields? NewPerksRequirementsLinks
 ---@return NewPerksRequirementsLinks
-function NewPerksRequirementsLinks.new(fields) return end
+function NewPerksRequirementsLinks.new(fields) end

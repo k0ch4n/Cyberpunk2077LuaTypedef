@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class questOpenPhotoMode_NodeType: questIUIManagerNodeType
----@field public factName String
----@field public forceFppMode Bool
----@field public alwaysAllowTPP Bool
----@field public lockExitUntilScreenshot Bool
+---@field factName String
+---@field forceFppMode Bool
+---@field alwaysAllowTPP Bool
+---@field lockExitUntilScreenshot Bool
 questOpenPhotoMode_NodeType = {}
 
 ---@param fields? questOpenPhotoMode_NodeType
 ---@return questOpenPhotoMode_NodeType
-function questOpenPhotoMode_NodeType.new(fields) return end
+function questOpenPhotoMode_NodeType.new(fields) end

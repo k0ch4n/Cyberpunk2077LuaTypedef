@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameCompiledNodes: ISerializable
----@field public compiledSmartObjects gameCompiledSmartObjectNode[]
+---@field compiledSmartObjects gameCompiledSmartObjectNode[]
 gameCompiledNodes = {}
 
 ---@param fields? gameCompiledNodes
 ---@return gameCompiledNodes
-function gameCompiledNodes.new(fields) return end
+function gameCompiledNodes.new(fields) end

@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class FocusClueDefinition
----@field public extendedClueRecords ClueRecordData[]
----@field public clueRecord TweakDBID
----@field public factToActivate CName
----@field public facts SFactOperationData[]
----@field public useAutoInspect Bool
----@field public isEnabled Bool
----@field public isProgressing Bool
----@field public clueGroupID CName
----@field public wasInspected Bool
----@field public qDbCallbackID Uint32
----@field public conclusionQuestState EConclusionQuestState
+---@field extendedClueRecords ClueRecordData[]
+---@field clueRecord TweakDBID
+---@field factToActivate CName
+---@field facts SFactOperationData[]
+---@field useAutoInspect Bool
+---@field isEnabled Bool
+---@field isProgressing Bool
+---@field clueGroupID CName
+---@field wasInspected Bool
+---@field qDbCallbackID Uint32
+---@field conclusionQuestState EConclusionQuestState
 FocusClueDefinition = {}
 
 ---@param fields? FocusClueDefinition
 ---@return FocusClueDefinition
-function FocusClueDefinition.new(fields) return end
+function FocusClueDefinition.new(fields) end

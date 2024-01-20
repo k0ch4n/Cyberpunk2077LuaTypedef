@@ -5,9 +5,8 @@ ApplyLegendaryWhistleEffector = {}
 
 ---@param fields? ApplyLegendaryWhistleEffector
 ---@return ApplyLegendaryWhistleEffector
-function ApplyLegendaryWhistleEffector.new(fields) return end
+function ApplyLegendaryWhistleEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ApplyLegendaryWhistleEffector:ActionOn(owner) return end
+function ApplyLegendaryWhistleEffector:ActionOn(owner) end

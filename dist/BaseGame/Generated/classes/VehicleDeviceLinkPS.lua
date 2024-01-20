@@ -5,17 +5,16 @@ VehicleDeviceLinkPS = {}
 
 ---@param fields? VehicleDeviceLinkPS
 ---@return VehicleDeviceLinkPS
-function VehicleDeviceLinkPS.new(fields) return end
+function VehicleDeviceLinkPS.new(fields) end
 
 ---@param entityID entEntityID
 ---@return VehicleDeviceLinkPS
-function VehicleDeviceLinkPS.AcquireVehicleDeviceLink(entityID) return end
+function VehicleDeviceLinkPS.AcquireVehicleDeviceLink(entityID) end
 
 ---@param entityID entEntityID
 ---@return VehicleDeviceLinkPS
-function VehicleDeviceLinkPS.CreateAndAcquirVehicleDeviceLinkPS(entityID) return end
+function VehicleDeviceLinkPS.CreateAndAcquirVehicleDeviceLinkPS(entityID) end
 
----@protected
 ---@param evt DeviceLinkRequest
 ---@return EntityNotificationType
-function VehicleDeviceLinkPS:OnDeviceLinkRequest(evt) return end
+function VehicleDeviceLinkPS:OnDeviceLinkRequest(evt) end

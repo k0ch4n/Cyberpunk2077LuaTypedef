@@ -5,30 +5,30 @@ DoorStatus = {}
 
 ---@param fields? DoorStatus
 ---@return DoorStatus
-function DoorStatus.new(fields) return end
+function DoorStatus.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function DoorStatus.IsAvailable(device) return end
+function DoorStatus.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function DoorStatus.IsClearanceValid(clearance) return end
+function DoorStatus.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function DoorStatus.IsDefaultConditionMet(device, context) return end
+function DoorStatus.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function DoorStatus:GetCurrentDisplayString() return end
+function DoorStatus:GetCurrentDisplayString() end
 
 ---@return Int32
-function DoorStatus:GetStatusValue() return end
+function DoorStatus:GetStatusValue() end
 
 ---@return String
-function DoorStatus:GetTweakDBChoiceRecord() return end
+function DoorStatus:GetTweakDBChoiceRecord() end
 
 ---@param deviceRef ScriptableDeviceComponentPS
 ---@return nil
-function DoorStatus:SetProperties(deviceRef) return end
+function DoorStatus:SetProperties(deviceRef) end

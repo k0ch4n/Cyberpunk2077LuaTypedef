@@ -5,4 +5,4 @@ inkHierarchyPooler = {}
 
 ---@param fields? inkHierarchyPooler
 ---@return inkHierarchyPooler
-function inkHierarchyPooler.new(fields) return end
+function inkHierarchyPooler.new(fields) end

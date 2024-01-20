@@ -5,40 +5,34 @@ LocomotionSwimming = {}
 
 ---@param fields? LocomotionSwimming
 ---@return LocomotionSwimming
-function LocomotionSwimming.new(fields) return end
+function LocomotionSwimming.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionSwimming:CanEnterFastSwimming(stateContext, scriptInterface) return end
+function LocomotionSwimming:CanEnterFastSwimming(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Float
-function LocomotionSwimming:GetCurrentDepth(stateContext, scriptInterface) return end
+function LocomotionSwimming:GetCurrentDepth(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionSwimming:IsDeepEnoughToDive(stateContext, scriptInterface) return end
+function LocomotionSwimming:IsDeepEnoughToDive(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionSwimming:IsDivingBlockedByPhoneCall(stateContext, scriptInterface) return end
+function LocomotionSwimming:IsDivingBlockedByPhoneCall(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionSwimming:IsFallingSpeedToEnterDiveAcceptable(stateContext, scriptInterface) return end
+function LocomotionSwimming:IsFallingSpeedToEnterDiveAcceptable(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function LocomotionSwimming:ShouldExitFastSwimming(stateContext, scriptInterface) return end
+function LocomotionSwimming:ShouldExitFastSwimming(stateContext, scriptInterface) end

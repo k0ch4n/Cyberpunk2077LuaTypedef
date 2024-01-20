@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PlayNewPerksSoundEvent: redEvent
----@field public soundName CName
----@field public rumbleStrength inkRumbleStrength
----@field public stopIfPlaying Bool
+---@field soundName CName
+---@field rumbleStrength inkRumbleStrength
+---@field stopIfPlaying Bool
 PlayNewPerksSoundEvent = {}
 
 ---@param fields? PlayNewPerksSoundEvent
 ---@return PlayNewPerksSoundEvent
-function PlayNewPerksSoundEvent.new(fields) return end
+function PlayNewPerksSoundEvent.new(fields) end

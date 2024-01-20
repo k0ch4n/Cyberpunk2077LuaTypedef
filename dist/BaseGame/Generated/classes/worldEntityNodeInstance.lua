@@ -5,4 +5,4 @@ worldEntityNodeInstance = {}
 
 ---@param fields? worldEntityNodeInstance
 ---@return worldEntityNodeInstance
-function worldEntityNodeInstance.new(fields) return end
+function worldEntityNodeInstance.new(fields) end

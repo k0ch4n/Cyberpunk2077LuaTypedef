@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class EvaluateMinigame: redEvent
----@field public minigameBB gameIBlackboard
----@field public reward TweakDBID
----@field public journalEntry String
----@field public fact CName
----@field public factValue Int32
----@field public item gameItemID
----@field public showPopup Bool
----@field public returnToJournal Bool
+---@field minigameBB gameIBlackboard
+---@field reward TweakDBID
+---@field journalEntry String
+---@field fact CName
+---@field factValue Int32
+---@field item gameItemID
+---@field showPopup Bool
+---@field returnToJournal Bool
 EvaluateMinigame = {}
 
 ---@param fields? EvaluateMinigame
 ---@return EvaluateMinigame
-function EvaluateMinigame.new(fields) return end
+function EvaluateMinigame.new(fields) end

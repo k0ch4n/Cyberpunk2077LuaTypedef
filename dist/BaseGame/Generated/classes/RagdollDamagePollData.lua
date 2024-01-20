@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class RagdollDamagePollData
----@field public worldPosition WorldPosition
----@field public worldNormal Vector4
----@field public maxForceMagnitude Float
----@field public maxImpulseMagnitude Float
----@field public maxVelocityChange Float
----@field public maxZDiff Float
+---@field worldPosition WorldPosition
+---@field worldNormal Vector4
+---@field maxForceMagnitude Float
+---@field maxImpulseMagnitude Float
+---@field maxVelocityChange Float
+---@field maxZDiff Float
 RagdollDamagePollData = {}
 
 ---@param fields? RagdollDamagePollData
 ---@return RagdollDamagePollData
-function RagdollDamagePollData.new(fields) return end
+function RagdollDamagePollData.new(fields) end

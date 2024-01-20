@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioAppearancesGroup: audioAudioMetadata
----@field public appearances CName[]
+---@field appearances CName[]
 audioAppearancesGroup = {}
 
 ---@param fields? audioAppearancesGroup
 ---@return audioAppearancesGroup
-function audioAppearancesGroup.new(fields) return end
+function audioAppearancesGroup.new(fields) end

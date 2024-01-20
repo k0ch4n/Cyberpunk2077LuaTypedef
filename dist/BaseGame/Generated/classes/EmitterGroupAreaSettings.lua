@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class EmitterGroupAreaSettings: IAreaSettings
----@field public emitterGroupParams EmitterGroupParams[]
----@field public EmitterGroupParams EmitterGroupAreaParams[]
+---@field emitterGroupParams EmitterGroupParams[]
+---@field EmitterGroupParams EmitterGroupAreaParams[]
 EmitterGroupAreaSettings = {}
 
 ---@param fields? EmitterGroupAreaSettings
 ---@return EmitterGroupAreaSettings
-function EmitterGroupAreaSettings.new(fields) return end
+function EmitterGroupAreaSettings.new(fields) end

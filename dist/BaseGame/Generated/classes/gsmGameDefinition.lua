@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gsmGameDefinition: CResource
----@field public mainQuests gsmMainQuest[]
----@field public world worldWorld
----@field public streamingWorld CResource
----@field public worldName String
----@field public spawnPointTags redTagList
+---@field mainQuests gsmMainQuest[]
+---@field world worldWorld
+---@field streamingWorld CResource
+---@field worldName String
+---@field spawnPointTags redTagList
 gsmGameDefinition = {}
 
 ---@param fields? gsmGameDefinition
 ---@return gsmGameDefinition
-function gsmGameDefinition.new(fields) return end
+function gsmGameDefinition.new(fields) end

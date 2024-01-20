@@ -5,4 +5,4 @@ ProjectileTickEvent = {}
 
 ---@param fields? ProjectileTickEvent
 ---@return ProjectileTickEvent
-function ProjectileTickEvent.new(fields) return end
+function ProjectileTickEvent.new(fields) end

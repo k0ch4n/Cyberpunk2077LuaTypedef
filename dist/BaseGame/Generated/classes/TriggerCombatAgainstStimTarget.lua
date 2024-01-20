@@ -5,9 +5,8 @@ TriggerCombatAgainstStimTarget = {}
 
 ---@param fields? TriggerCombatAgainstStimTarget
 ---@return TriggerCombatAgainstStimTarget
-function TriggerCombatAgainstStimTarget.new(fields) return end
+function TriggerCombatAgainstStimTarget.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function TriggerCombatAgainstStimTarget:Activate(context) return end
+function TriggerCombatAgainstStimTarget:Activate(context) end

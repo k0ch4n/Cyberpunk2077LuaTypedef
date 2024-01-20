@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimDurationFeature: animAnimFeature
----@field public duration Float
+---@field duration Float
 animAnimDurationFeature = {}
 
 ---@param fields? animAnimDurationFeature
 ---@return animAnimDurationFeature
-function animAnimDurationFeature.new(fields) return end
+function animAnimDurationFeature.new(fields) end

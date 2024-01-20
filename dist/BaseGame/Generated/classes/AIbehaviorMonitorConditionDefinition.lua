@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorMonitorConditionDefinition: ISerializable
----@field public condition AIbehaviorConditionDefinition
----@field public timeout Float
+---@field condition AIbehaviorConditionDefinition
+---@field timeout Float
 AIbehaviorMonitorConditionDefinition = {}
 
 ---@param fields? AIbehaviorMonitorConditionDefinition
 ---@return AIbehaviorMonitorConditionDefinition
-function AIbehaviorMonitorConditionDefinition.new(fields) return end
+function AIbehaviorMonitorConditionDefinition.new(fields) end

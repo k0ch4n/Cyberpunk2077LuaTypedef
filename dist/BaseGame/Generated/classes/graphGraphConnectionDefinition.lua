@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class graphGraphConnectionDefinition: graphIGraphObjectDefinition
----@field public source graphGraphSocketDefinition
----@field public destination graphGraphSocketDefinition
+---@field source graphGraphSocketDefinition
+---@field destination graphGraphSocketDefinition
 graphGraphConnectionDefinition = {}
 
 ---@param fields? graphGraphConnectionDefinition
 ---@return graphGraphConnectionDefinition
-function graphGraphConnectionDefinition.new(fields) return end
+function graphGraphConnectionDefinition.new(fields) end

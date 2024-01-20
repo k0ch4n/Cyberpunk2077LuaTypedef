@@ -5,4 +5,4 @@ GrabReferenceToWeaponEvent = {}
 
 ---@param fields? GrabReferenceToWeaponEvent
 ---@return GrabReferenceToWeaponEvent
-function GrabReferenceToWeaponEvent.new(fields) return end
+function GrabReferenceToWeaponEvent.new(fields) end

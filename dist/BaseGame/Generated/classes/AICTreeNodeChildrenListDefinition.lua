@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AICTreeNodeChildrenListDefinition: AICTreeNodeCompositeDefinition
----@field public children LibTreeINodeDefinition[]
+---@field children LibTreeINodeDefinition[]
 AICTreeNodeChildrenListDefinition = {}
 
 ---@param fields? AICTreeNodeChildrenListDefinition
 ---@return AICTreeNodeChildrenListDefinition
-function AICTreeNodeChildrenListDefinition.new(fields) return end
+function AICTreeNodeChildrenListDefinition.new(fields) end

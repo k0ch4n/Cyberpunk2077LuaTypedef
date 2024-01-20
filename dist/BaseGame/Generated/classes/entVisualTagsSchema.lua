@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entVisualTagsSchema: ISerializable
----@field public visualTags redTagList
----@field public schema CName
+---@field visualTags redTagList
+---@field schema CName
 entVisualTagsSchema = {}
 
 ---@param fields? entVisualTagsSchema
 ---@return entVisualTagsSchema
-function entVisualTagsSchema.new(fields) return end
+function entVisualTagsSchema.new(fields) end

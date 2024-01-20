@@ -5,4 +5,4 @@ DebugRemoteConnectionEvent = {}
 
 ---@param fields? DebugRemoteConnectionEvent
 ---@return DebugRemoteConnectionEvent
-function DebugRemoteConnectionEvent.new(fields) return end
+function DebugRemoteConnectionEvent.new(fields) end

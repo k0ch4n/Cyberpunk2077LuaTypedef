@@ -5,9 +5,8 @@ panzerGameController = {}
 
 ---@param fields? panzerGameController
 ---@return panzerGameController
-function panzerGameController.new(fields) return end
+function panzerGameController.new(fields) end
 
----@protected
 ---@param gameFinishEvent gameuiOnGameFinishEventAdvanced
 ---@return nil
-function panzerGameController:OnGameFinishLogic(gameFinishEvent) return end
+function panzerGameController:OnGameFinishLogic(gameFinishEvent) end

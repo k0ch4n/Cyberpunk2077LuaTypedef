@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class STransformAnimationPlayEventData
----@field public timeScale Float
----@field public looping Bool
----@field public timesPlayed Uint32
+---@field timeScale Float
+---@field looping Bool
+---@field timesPlayed Uint32
 STransformAnimationPlayEventData = {}
 
 ---@param fields? STransformAnimationPlayEventData
 ---@return STransformAnimationPlayEventData
-function STransformAnimationPlayEventData.new(fields) return end
+function STransformAnimationPlayEventData.new(fields) end

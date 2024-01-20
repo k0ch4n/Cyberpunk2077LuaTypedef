@@ -5,4 +5,4 @@ inkInitializeUserScreenState = {}
 
 ---@param fields? inkInitializeUserScreenState
 ---@return inkInitializeUserScreenState
-function inkInitializeUserScreenState.new(fields) return end
+function inkInitializeUserScreenState.new(fields) end

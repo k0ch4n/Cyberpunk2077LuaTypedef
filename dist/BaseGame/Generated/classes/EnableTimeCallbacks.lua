@@ -5,7 +5,7 @@ EnableTimeCallbacks = {}
 
 ---@param fields? EnableTimeCallbacks
 ---@return EnableTimeCallbacks
-function EnableTimeCallbacks.new(fields) return end
+function EnableTimeCallbacks.new(fields) end
 
 ---@return String
-function EnableTimeCallbacks:GetFriendlyDescription() return end
+function EnableTimeCallbacks:GetFriendlyDescription() end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class AIbehaviorDriveToNodeTreeNodeDefinition: AIbehaviorDriveTreeNodeDefinition
----@field public useKinematic AIArgumentMapping
----@field public needDriver AIArgumentMapping
----@field public nodeRef AIArgumentMapping
----@field public stopAtPathEnd AIArgumentMapping
----@field public secureTimeOut AIArgumentMapping
----@field public isPlayer AIArgumentMapping
----@field public useTraffic AIArgumentMapping
----@field public speedInTraffic AIArgumentMapping
----@field public forceGreenLights AIArgumentMapping
----@field public portals AIArgumentMapping
----@field public trafficTryNeighborsForStart AIArgumentMapping
----@field public trafficTryNeighborsForEnd AIArgumentMapping
+---@field useKinematic AIArgumentMapping
+---@field needDriver AIArgumentMapping
+---@field nodeRef AIArgumentMapping
+---@field stopAtPathEnd AIArgumentMapping
+---@field secureTimeOut AIArgumentMapping
+---@field isPlayer AIArgumentMapping
+---@field useTraffic AIArgumentMapping
+---@field speedInTraffic AIArgumentMapping
+---@field forceGreenLights AIArgumentMapping
+---@field portals AIArgumentMapping
+---@field trafficTryNeighborsForStart AIArgumentMapping
+---@field trafficTryNeighborsForEnd AIArgumentMapping
 AIbehaviorDriveToNodeTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDriveToNodeTreeNodeDefinition
 ---@return AIbehaviorDriveToNodeTreeNodeDefinition
-function AIbehaviorDriveToNodeTreeNodeDefinition.new(fields) return end
+function AIbehaviorDriveToNodeTreeNodeDefinition.new(fields) end

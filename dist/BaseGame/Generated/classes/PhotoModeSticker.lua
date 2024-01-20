@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class PhotoModeSticker: inkWidgetLogicController
----@field private image inkImageWidgetReference
----@field public stickersController gameuiPhotoModeStickersController
+---@field image inkImageWidgetReference
+---@field stickersController gameuiPhotoModeStickersController
 PhotoModeSticker = {}
 
 ---@param fields? PhotoModeSticker
 ---@return PhotoModeSticker
-function PhotoModeSticker.new(fields) return end
+function PhotoModeSticker.new(fields) end
 
----@protected
 ---@return Bool
-function PhotoModeSticker:OnInitialize() return end
+function PhotoModeSticker:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PhotoModeSticker:OnStickerHoverOut(e) return end
+function PhotoModeSticker:OnStickerHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PhotoModeSticker:OnStickerHovered(e) return end
+function PhotoModeSticker:OnStickerHovered(e) end
 
 ---@param atlasPath redResourceReferenceScriptToken
 ---@return nil
-function PhotoModeSticker:SetAtlas(atlasPath) return end
+function PhotoModeSticker:SetAtlas(atlasPath) end
 
 ---@param imagePart CName|string
 ---@return nil
-function PhotoModeSticker:SetImage(imagePart) return end
+function PhotoModeSticker:SetImage(imagePart) end

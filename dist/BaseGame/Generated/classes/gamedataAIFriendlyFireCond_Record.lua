@@ -5,7 +5,7 @@ gamedataAIFriendlyFireCond_Record = {}
 
 ---@param fields? gamedataAIFriendlyFireCond_Record
 ---@return gamedataAIFriendlyFireCond_Record
-function gamedataAIFriendlyFireCond_Record.new(fields) return end
+function gamedataAIFriendlyFireCond_Record.new(fields) end
 
 ---@return Bool
-function gamedataAIFriendlyFireCond_Record:CheckPlayer() return end
+function gamedataAIFriendlyFireCond_Record:CheckPlayer() end

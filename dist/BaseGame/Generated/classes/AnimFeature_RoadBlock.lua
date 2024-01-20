@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AnimFeature_RoadBlock: animAnimFeature
----@field public isOpening Bool
----@field public duration Float
----@field public initOpen Bool
+---@field isOpening Bool
+---@field duration Float
+---@field initOpen Bool
 AnimFeature_RoadBlock = {}
 
 ---@param fields? AnimFeature_RoadBlock
 ---@return AnimFeature_RoadBlock
-function AnimFeature_RoadBlock.new(fields) return end
+function AnimFeature_RoadBlock.new(fields) end

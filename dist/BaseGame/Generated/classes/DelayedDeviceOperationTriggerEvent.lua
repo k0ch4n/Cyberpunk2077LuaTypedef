@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DelayedDeviceOperationTriggerEvent: redEvent
----@field public triggerHandler DeviceOperationsTrigger
----@field public namedOperation OperationExecutionData
+---@field triggerHandler DeviceOperationsTrigger
+---@field namedOperation OperationExecutionData
 DelayedDeviceOperationTriggerEvent = {}
 
 ---@param fields? DelayedDeviceOperationTriggerEvent
 ---@return DelayedDeviceOperationTriggerEvent
-function DelayedDeviceOperationTriggerEvent.new(fields) return end
+function DelayedDeviceOperationTriggerEvent.new(fields) end

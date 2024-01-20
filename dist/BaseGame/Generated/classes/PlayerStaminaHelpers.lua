@@ -4,48 +4,48 @@
 PlayerStaminaHelpers = {}
 
 ---@return Float
-function PlayerStaminaHelpers.GetAirDodgeStaminaCost() return end
+function PlayerStaminaHelpers.GetAirDodgeStaminaCost() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetAirLeapAttackStaminaCost() return end
+function PlayerStaminaHelpers.GetAirLeapAttackStaminaCost() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetBlockStaminaDelay() return end
+function PlayerStaminaHelpers.GetBlockStaminaDelay() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetCrouchSprintStaminaCost() return end
+function PlayerStaminaHelpers.GetCrouchSprintStaminaCost() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetDodgeStaminaCost() return end
+function PlayerStaminaHelpers.GetDodgeStaminaCost() end
 
 ---@return TweakDBID
-function PlayerStaminaHelpers.GetExhaustedStatusEffectID() return end
+function PlayerStaminaHelpers.GetExhaustedStatusEffectID() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetJumpStaminaCost() return end
+function PlayerStaminaHelpers.GetJumpStaminaCost() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetLeapAttackStaminaCost() return end
+function PlayerStaminaHelpers.GetLeapAttackStaminaCost() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetSlideStaminaCost() return end
+function PlayerStaminaHelpers.GetSlideStaminaCost() end
 
 ---@return Float
-function PlayerStaminaHelpers.GetSprintStaminaCost() return end
+function PlayerStaminaHelpers.GetSprintStaminaCost() end
 
 ---@param player PlayerPuppet
 ---@param delta Float
 ---@param perc? Bool
 ---@return nil
-function PlayerStaminaHelpers.ModifyStamina(player, delta, perc) return end
+function PlayerStaminaHelpers.ModifyStamina(player, delta, perc) end
 
 ---@param player PlayerPuppet
 ---@param isPlayerOnGround Bool
 ---@param targetDistance Float
 ---@param targetMaxDistance Float
 ---@return nil
-function PlayerStaminaHelpers.ModifyStaminaBasedOnLeapAttackDistance(player, isPlayerOnGround, targetDistance, targetMaxDistance) return end
+function PlayerStaminaHelpers.ModifyStaminaBasedOnLeapAttackDistance(player, isPlayerOnGround, targetDistance, targetMaxDistance) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function PlayerStaminaHelpers.OnPlayerBlock(player) return end
+function PlayerStaminaHelpers.OnPlayerBlock(player) end

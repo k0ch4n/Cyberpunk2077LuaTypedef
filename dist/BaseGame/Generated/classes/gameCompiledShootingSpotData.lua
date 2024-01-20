@@ -5,4 +5,4 @@ gameCompiledShootingSpotData = {}
 
 ---@param fields? gameCompiledShootingSpotData
 ---@return gameCompiledShootingSpotData
-function gameCompiledShootingSpotData.new(fields) return end
+function gameCompiledShootingSpotData.new(fields) end

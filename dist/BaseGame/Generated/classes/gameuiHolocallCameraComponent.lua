@@ -5,4 +5,4 @@ gameuiHolocallCameraComponent = {}
 
 ---@param fields? gameuiHolocallCameraComponent
 ---@return gameuiHolocallCameraComponent
-function gameuiHolocallCameraComponent.new(fields) return end
+function gameuiHolocallCameraComponent.new(fields) end

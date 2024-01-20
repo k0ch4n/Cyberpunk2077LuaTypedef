@@ -5,4 +5,4 @@ SSRCustomData = {}
 
 ---@param fields? SSRCustomData
 ---@return SSRCustomData
-function SSRCustomData.new(fields) return end
+function SSRCustomData.new(fields) end

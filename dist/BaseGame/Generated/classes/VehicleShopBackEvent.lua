@@ -5,4 +5,4 @@ VehicleShopBackEvent = {}
 
 ---@param fields? VehicleShopBackEvent
 ---@return VehicleShopBackEvent
-function VehicleShopBackEvent.new(fields) return end
+function VehicleShopBackEvent.new(fields) end

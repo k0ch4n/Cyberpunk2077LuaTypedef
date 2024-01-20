@@ -5,4 +5,4 @@ worldCollisionAreaNodeInstance = {}
 
 ---@param fields? worldCollisionAreaNodeInstance
 ---@return worldCollisionAreaNodeInstance
-function worldCollisionAreaNodeInstance.new(fields) return end
+function worldCollisionAreaNodeInstance.new(fields) end

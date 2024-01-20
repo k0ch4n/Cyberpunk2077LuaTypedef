@@ -5,4 +5,4 @@ TimeSkipFinishEvent = {}
 
 ---@param fields? TimeSkipFinishEvent
 ---@return TimeSkipFinishEvent
-function TimeSkipFinishEvent.new(fields) return end
+function TimeSkipFinishEvent.new(fields) end

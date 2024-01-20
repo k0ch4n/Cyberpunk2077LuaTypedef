@@ -5,4 +5,4 @@ gameDebugFreeCamera = {}
 
 ---@param fields? gameDebugFreeCamera
 ---@return gameDebugFreeCamera
-function gameDebugFreeCamera.new(fields) return end
+function gameDebugFreeCamera.new(fields) end

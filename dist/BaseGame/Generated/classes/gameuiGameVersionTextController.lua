@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameuiGameVersionTextController: inkWidgetLogicController
----@field public gameVersionText inkTextWidgetReference
----@field public expansionWrapper inkCompoundWidgetReference
----@field public fluffWrapper inkCompoundWidgetReference
+---@field gameVersionText inkTextWidgetReference
+---@field expansionWrapper inkCompoundWidgetReference
+---@field fluffWrapper inkCompoundWidgetReference
 gameuiGameVersionTextController = {}
 
 ---@param fields? gameuiGameVersionTextController
 ---@return gameuiGameVersionTextController
-function gameuiGameVersionTextController.new(fields) return end
+function gameuiGameVersionTextController.new(fields) end

@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class GameEffectTargetVisualizationData: IScriptable
----@field private bucketName CName
----@field private forceHighlightTargets entEntityID[]
+---@field bucketName CName
+---@field forceHighlightTargets entEntityID[]
 GameEffectTargetVisualizationData = {}
 
 ---@param fields? GameEffectTargetVisualizationData
 ---@return GameEffectTargetVisualizationData
-function GameEffectTargetVisualizationData.new(fields) return end
+function GameEffectTargetVisualizationData.new(fields) end
 
 ---@param entityID entEntityID
 ---@return nil
-function GameEffectTargetVisualizationData:AddTargetToBucket(entityID) return end
+function GameEffectTargetVisualizationData:AddTargetToBucket(entityID) end
 
 ---@return nil
-function GameEffectTargetVisualizationData:ClearBucket() return end
+function GameEffectTargetVisualizationData:ClearBucket() end
 
 ---@return CName
-function GameEffectTargetVisualizationData:GetBucketName() return end
+function GameEffectTargetVisualizationData:GetBucketName() end
 
 ---@param evt redEvent
 ---@return nil
-function GameEffectTargetVisualizationData:SendEventToAll(evt) return end
+function GameEffectTargetVisualizationData:SendEventToAll(evt) end
 
 ---@param _bucketName CName|string
 ---@return nil
-function GameEffectTargetVisualizationData:SetBucketName(_bucketName) return end
+function GameEffectTargetVisualizationData:SetBucketName(_bucketName) end

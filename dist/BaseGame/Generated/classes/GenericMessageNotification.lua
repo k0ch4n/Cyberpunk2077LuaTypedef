@@ -1,37 +1,36 @@
 ---@meta
 
 ---@class GenericMessageNotification: gameuiWidgetGameController
----@field private title inkTextWidgetReference
----@field private message inkTextWidgetReference
----@field private buttonConfirm inkWidgetReference
----@field private buttonCancel inkWidgetReference
----@field private buttonOk inkWidgetReference
----@field private buttonYes inkWidgetReference
----@field private buttonNo inkWidgetReference
----@field private root inkWidgetReference
----@field private background inkWidgetReference
----@field private buttonHintsRoot inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field private data GenericMessageNotificationData
----@field private isNegativeHovered Bool
----@field private isPositiveHovered Bool
----@field private libraryPath inkWidgetLibraryReference
----@field private closeData GenericMessageNotificationCloseData
+---@field title inkTextWidgetReference
+---@field message inkTextWidgetReference
+---@field buttonConfirm inkWidgetReference
+---@field buttonCancel inkWidgetReference
+---@field buttonOk inkWidgetReference
+---@field buttonYes inkWidgetReference
+---@field buttonNo inkWidgetReference
+---@field root inkWidgetReference
+---@field background inkWidgetReference
+---@field buttonHintsRoot inkWidgetReference
+---@field buttonHintsController ButtonHints
+---@field data GenericMessageNotificationData
+---@field isNegativeHovered Bool
+---@field isPositiveHovered Bool
+---@field libraryPath inkWidgetLibraryReference
+---@field closeData GenericMessageNotificationCloseData
 GenericMessageNotification = {}
 
 ---@param fields? GenericMessageNotification
 ---@return GenericMessageNotification
-function GenericMessageNotification.new(fields) return end
+function GenericMessageNotification.new(fields) end
 
----@private
 ---@return GenericMessageNotificationData
-function GenericMessageNotification.GetBaseData() return end
+function GenericMessageNotification.GetBaseData() end
 
 ---@param controller worlduiIWidgetGameController
 ---@param title String
 ---@param message String
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, title, message) return end
+function GenericMessageNotification.Show(controller, title, message) end
 
 ---@param controller worlduiIWidgetGameController
 ---@param identifier Int32
@@ -39,116 +38,101 @@ function GenericMessageNotification.Show(controller, title, message) return end
 ---@param message String
 ---@param type GenericMessageNotificationType
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, identifier, title, message, type) return end
+function GenericMessageNotification.Show(controller, identifier, title, message, type) end
 
 ---@param controller worlduiIWidgetGameController
 ---@param identifier Int32
 ---@param message String
 ---@param type GenericMessageNotificationType
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, identifier, message, type) return end
+function GenericMessageNotification.Show(controller, identifier, message, type) end
 
 ---@param controller worlduiIWidgetGameController
 ---@param title String
 ---@param message String
 ---@param type GenericMessageNotificationType
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, title, message, type) return end
+function GenericMessageNotification.Show(controller, title, message, type) end
 
 ---@param controller worlduiIWidgetGameController
 ---@param identifier Int32
 ---@param title String
 ---@param message String
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, identifier, title, message) return end
+function GenericMessageNotification.Show(controller, identifier, title, message) end
 
 ---@param controller worlduiIWidgetGameController
 ---@param identifier Int32
 ---@param message String
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, identifier, message) return end
+function GenericMessageNotification.Show(controller, identifier, message) end
 
 ---@param controller worlduiIWidgetGameController
 ---@param message String
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, message) return end
+function GenericMessageNotification.Show(controller, message) end
 
 ---@param controller worlduiIWidgetGameController
 ---@param message String
 ---@param type GenericMessageNotificationType
 ---@return inkGameNotificationToken
-function GenericMessageNotification.Show(controller, message, type) return end
+function GenericMessageNotification.Show(controller, message, type) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnCancelClick(evt) return end
+function GenericMessageNotification:OnCancelClick(evt) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function GenericMessageNotification:OnCloseAnimationFinished(proxy) return end
+function GenericMessageNotification:OnCloseAnimationFinished(proxy) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnConfirmClick(evt) return end
+function GenericMessageNotification:OnConfirmClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnHandlePressInput(evt) return end
+function GenericMessageNotification:OnHandlePressInput(evt) end
 
----@protected
 ---@return Bool
-function GenericMessageNotification:OnInitialize() return end
+function GenericMessageNotification:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnNegativeHoverOut(evt) return end
+function GenericMessageNotification:OnNegativeHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnNegativeHoverOver(evt) return end
+function GenericMessageNotification:OnNegativeHoverOver(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnNoClick(evt) return end
+function GenericMessageNotification:OnNoClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnOkClick(evt) return end
+function GenericMessageNotification:OnOkClick(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnPositiveHoverOut(evt) return end
+function GenericMessageNotification:OnPositiveHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnPositiveHoverOver(evt) return end
+function GenericMessageNotification:OnPositiveHoverOver(evt) end
 
----@protected
 ---@return Bool
-function GenericMessageNotification:OnUninitialize() return end
+function GenericMessageNotification:OnUninitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericMessageNotification:OnYesClick(evt) return end
+function GenericMessageNotification:OnYesClick(evt) end
 
----@private
 ---@param actionName CName|string
 ---@param label String
 ---@return nil
-function GenericMessageNotification:AddButtonHints(actionName, label) return end
+function GenericMessageNotification:AddButtonHints(actionName, label) end
 
----@private
 ---@param result GenericMessageNotificationResult
 ---@return nil
-function GenericMessageNotification:Close(result) return end
+function GenericMessageNotification:Close(result) end

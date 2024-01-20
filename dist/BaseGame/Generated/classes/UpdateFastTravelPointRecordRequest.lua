@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UpdateFastTravelPointRecordRequest: gameScriptableSystemRequest
----@field public markerRef NodeRef
+---@field markerRef NodeRef
 UpdateFastTravelPointRecordRequest = {}
 
 ---@param fields? UpdateFastTravelPointRecordRequest
 ---@return UpdateFastTravelPointRecordRequest
-function UpdateFastTravelPointRecordRequest.new(fields) return end
+function UpdateFastTravelPointRecordRequest.new(fields) end

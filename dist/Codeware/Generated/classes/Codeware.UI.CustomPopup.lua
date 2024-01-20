@@ -1,79 +1,79 @@
 ---@meta
 
 ---@class Codeware_UI_CustomPopup: Codeware_UI_inkCustomController
----@field public notificationData inkGameNotificationData
----@field public notificationToken inkGameNotificationToken
----@field public transitionAnimProxy inkanimProxy
----@field public closeAction CName
+---@field notificationData inkGameNotificationData
+---@field notificationToken inkGameNotificationToken
+---@field transitionAnimProxy inkanimProxy
+---@field closeAction CName
 Codeware_UI_CustomPopup = {}
 
 ---@return nil
-function Codeware_UI_CustomPopup:OnAttach() return end
+function Codeware_UI_CustomPopup:OnAttach() end
 
 ---@return nil
-function Codeware_UI_CustomPopup:OnDetach() return end
+function Codeware_UI_CustomPopup:OnDetach() end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function Codeware_UI_CustomPopup:OnGlobalReleaseInput(evt) return end
+function Codeware_UI_CustomPopup:OnGlobalReleaseInput(evt) end
 
 ---@return nil
-function Codeware_UI_CustomPopup:OnHidden() return end
+function Codeware_UI_CustomPopup:OnHidden() end
 
 ---@return nil
-function Codeware_UI_CustomPopup:OnHide() return end
+function Codeware_UI_CustomPopup:OnHide() end
 
 ---@param animProxy inkanimProxy
 ---@return Bool
-function Codeware_UI_CustomPopup:OnHideFinish(animProxy) return end
+function Codeware_UI_CustomPopup:OnHideFinish(animProxy) end
 
 ---@return nil
-function Codeware_UI_CustomPopup:OnInitialize() return end
+function Codeware_UI_CustomPopup:OnInitialize() end
 
 ---@return nil
-function Codeware_UI_CustomPopup:OnShow() return end
+function Codeware_UI_CustomPopup:OnShow() end
 
 ---@param animProxy inkanimProxy
 ---@return Bool
-function Codeware_UI_CustomPopup:OnShowFinish(animProxy) return end
+function Codeware_UI_CustomPopup:OnShowFinish(animProxy) end
 
 ---@return nil
-function Codeware_UI_CustomPopup:OnShown() return end
+function Codeware_UI_CustomPopup:OnShown() end
 
 ---@param rootWidget inkCanvasWidget
 ---@param gameController gameuiWidgetGameController
 ---@param notificationData inkGameNotificationData
 ---@return nil
-function Codeware_UI_CustomPopup:Attach(rootWidget, gameController, notificationData) return end
+function Codeware_UI_CustomPopup:Attach(rootWidget, gameController, notificationData) end
 
 ---@return nil
-function Codeware_UI_CustomPopup:Close() return end
+function Codeware_UI_CustomPopup:Close() end
 
 ---@return nil
-function Codeware_UI_CustomPopup:Detach() return end
+function Codeware_UI_CustomPopup:Detach() end
 
 ---@return CName
-function Codeware_UI_CustomPopup:GetName() return end
+function Codeware_UI_CustomPopup:GetName() end
 
 ---@return CName
-function Codeware_UI_CustomPopup:GetQueueName() return end
+function Codeware_UI_CustomPopup:GetQueueName() end
 
 ---@return Bool
-function Codeware_UI_CustomPopup:IsBlocking() return end
+function Codeware_UI_CustomPopup:IsBlocking() end
 
 ---@return Bool
-function Codeware_UI_CustomPopup:IsTopPopup() return end
+function Codeware_UI_CustomPopup:IsTopPopup() end
 
 ---@param requester gameuiWidgetGameController
 ---@return nil
-function Codeware_UI_CustomPopup:Open(requester) return end
+function Codeware_UI_CustomPopup:Open(requester) end
 
 ---@return nil
-function Codeware_UI_CustomPopup:ResetNotificationData() return end
+function Codeware_UI_CustomPopup:ResetNotificationData() end
 
 ---@param notificationData inkGameNotificationData
 ---@return nil
-function Codeware_UI_CustomPopup:SetNotificationData(notificationData) return end
+function Codeware_UI_CustomPopup:SetNotificationData(notificationData) end
 
 ---@return Bool
-function Codeware_UI_CustomPopup:UseCursor() return end
+function Codeware_UI_CustomPopup:UseCursor() end

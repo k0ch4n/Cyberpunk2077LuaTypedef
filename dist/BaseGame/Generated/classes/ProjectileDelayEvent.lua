@@ -5,4 +5,4 @@ ProjectileDelayEvent = {}
 
 ---@param fields? ProjectileDelayEvent
 ---@return ProjectileDelayEvent
-function ProjectileDelayEvent.new(fields) return end
+function ProjectileDelayEvent.new(fields) end

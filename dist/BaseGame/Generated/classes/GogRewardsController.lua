@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class GogRewardsController: inkWidgetLogicController
----@field public containerWidget inkWidgetReference
+---@field containerWidget inkWidgetReference
 GogRewardsController = {}
 
 ---@param fields? GogRewardsController
 ---@return GogRewardsController
-function GogRewardsController.new(fields) return end
+function GogRewardsController.new(fields) end
 
 ---@param rewards GogRewardEntryData[]
 ---@return nil
-function GogRewardsController:UpdateRewardsList(rewards) return end
+function GogRewardsController:UpdateRewardsList(rewards) end

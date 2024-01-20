@@ -5,16 +5,16 @@ inkKeyInputEvent = {}
 
 ---@param fields? inkKeyInputEvent
 ---@return inkKeyInputEvent
-function inkKeyInputEvent.new(fields) return end
+function inkKeyInputEvent.new(fields) end
 
 ---@return EInputAction
-function inkKeyInputEvent:GetAction() return end
+function inkKeyInputEvent:GetAction() end
 
 ---@return String
-function inkKeyInputEvent:GetCharacter() return end
+function inkKeyInputEvent:GetCharacter() end
 
 ---@return EInputKey
-function inkKeyInputEvent:GetKey() return end
+function inkKeyInputEvent:GetKey() end
 
 ---@return Bool
-function inkKeyInputEvent:IsCharacter() return end
+function inkKeyInputEvent:IsCharacter() end

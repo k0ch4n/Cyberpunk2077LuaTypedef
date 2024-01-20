@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleInitializerColor: IParticleInitializer
----@field public color IEvaluatorColor
+---@field color IEvaluatorColor
 CParticleInitializerColor = {}
 
 ---@param fields? CParticleInitializerColor
 ---@return CParticleInitializerColor
-function CParticleInitializerColor.new(fields) return end
+function CParticleInitializerColor.new(fields) end

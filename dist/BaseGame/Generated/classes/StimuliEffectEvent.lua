@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class StimuliEffectEvent: redEvent
----@field public stimuliEventName CName
----@field public targetPoint Vector4
+---@field stimuliEventName CName
+---@field targetPoint Vector4
 StimuliEffectEvent = {}
 
 ---@param fields? StimuliEffectEvent
 ---@return StimuliEffectEvent
-function StimuliEffectEvent.new(fields) return end
+function StimuliEffectEvent.new(fields) end

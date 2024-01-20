@@ -5,4 +5,4 @@ inkTextCallback = {}
 
 ---@param fields? inkTextCallback
 ---@return inkTextCallback
-function inkTextCallback.new(fields) return end
+function inkTextCallback.new(fields) end

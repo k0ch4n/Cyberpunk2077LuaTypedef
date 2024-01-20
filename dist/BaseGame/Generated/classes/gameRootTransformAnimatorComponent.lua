@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameRootTransformAnimatorComponent: entIMoverComponent
----@field public animations gameTransformAnimationDefinition[]
+---@field animations gameTransformAnimationDefinition[]
 gameRootTransformAnimatorComponent = {}
 
 ---@param fields? gameRootTransformAnimatorComponent
 ---@return gameRootTransformAnimatorComponent
-function gameRootTransformAnimatorComponent.new(fields) return end
+function gameRootTransformAnimatorComponent.new(fields) end

@@ -5,7 +5,7 @@ QuestRestoreQuickHacks = {}
 
 ---@param fields? QuestRestoreQuickHacks
 ---@return QuestRestoreQuickHacks
-function QuestRestoreQuickHacks.new(fields) return end
+function QuestRestoreQuickHacks.new(fields) end
 
 ---@return nil
-function QuestRestoreQuickHacks:SetProperties() return end
+function QuestRestoreQuickHacks:SetProperties() end

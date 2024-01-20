@@ -5,4 +5,4 @@ prvFunctionalTestsTrigger = {}
 
 ---@param fields? prvFunctionalTestsTrigger
 ---@return prvFunctionalTestsTrigger
-function prvFunctionalTestsTrigger.new(fields) return end
+function prvFunctionalTestsTrigger.new(fields) end

@@ -5,4 +5,4 @@ gameStatsBundle = {}
 
 ---@param fields? gameStatsBundle
 ---@return gameStatsBundle
-function gameStatsBundle.new(fields) return end
+function gameStatsBundle.new(fields) end

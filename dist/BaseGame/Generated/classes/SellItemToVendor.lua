@@ -1,30 +1,30 @@
 ---@meta
 
 ---@class SellItemToVendor: ActionBool
----@field public itemID gameItemID
+---@field itemID gameItemID
 SellItemToVendor = {}
 
 ---@param fields? SellItemToVendor
 ---@return SellItemToVendor
-function SellItemToVendor.new(fields) return end
+function SellItemToVendor.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function SellItemToVendor.IsDefaultConditionMet(device, context) return end
+function SellItemToVendor.IsDefaultConditionMet(device, context) end
 
 ---@param displayText String
 ---@param additionalText String
 ---@param imageAtlasImageID CName|string
 ---@param actions? gamedeviceAction[]
 ---@return nil
-function SellItemToVendor:CreateActionWidgetPackage(displayText, additionalText, imageAtlasImageID, actions) return end
+function SellItemToVendor:CreateActionWidgetPackage(displayText, additionalText, imageAtlasImageID, actions) end
 
 ---@return CName
-function SellItemToVendor:GetInkWidgetLibraryID() return end
+function SellItemToVendor:GetInkWidgetLibraryID() end
 
 ---@return TweakDBID
-function SellItemToVendor:GetInkWidgetTweakDBID() return end
+function SellItemToVendor:GetInkWidgetTweakDBID() end
 
 ---@return nil
-function SellItemToVendor:SetProperties() return end
+function SellItemToVendor:SetProperties() end

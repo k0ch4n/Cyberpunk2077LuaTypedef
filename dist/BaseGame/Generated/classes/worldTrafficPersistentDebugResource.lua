@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldTrafficPersistentDebugResource: resStreamedResource
----@field public brokenUIDs worldTrafficLaneUID[]
----@field public brokenUIDsDeadEnds worldTrafficLaneUID[]
+---@field brokenUIDs worldTrafficLaneUID[]
+---@field brokenUIDsDeadEnds worldTrafficLaneUID[]
 worldTrafficPersistentDebugResource = {}
 
 ---@param fields? worldTrafficPersistentDebugResource
 ---@return worldTrafficPersistentDebugResource
-function worldTrafficPersistentDebugResource.new(fields) return end
+function worldTrafficPersistentDebugResource.new(fields) end

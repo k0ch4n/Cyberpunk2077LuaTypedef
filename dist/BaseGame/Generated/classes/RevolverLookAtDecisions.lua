@@ -5,4 +5,4 @@ RevolverLookAtDecisions = {}
 
 ---@param fields? RevolverLookAtDecisions
 ---@return RevolverLookAtDecisions
-function RevolverLookAtDecisions.new(fields) return end
+function RevolverLookAtDecisions.new(fields) end

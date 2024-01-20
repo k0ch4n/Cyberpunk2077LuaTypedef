@@ -5,4 +5,4 @@ AIbehaviorDriveCreateTrafficSlotTreeNodeDefinition = {}
 
 ---@param fields? AIbehaviorDriveCreateTrafficSlotTreeNodeDefinition
 ---@return AIbehaviorDriveCreateTrafficSlotTreeNodeDefinition
-function AIbehaviorDriveCreateTrafficSlotTreeNodeDefinition.new(fields) return end
+function AIbehaviorDriveCreateTrafficSlotTreeNodeDefinition.new(fields) end

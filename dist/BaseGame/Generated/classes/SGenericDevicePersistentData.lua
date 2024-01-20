@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SGenericDevicePersistentData
----@field public genericActions SGenericDeviceActionsData
----@field public customActions SCustomDeviceActionsData
+---@field genericActions SGenericDeviceActionsData
+---@field customActions SCustomDeviceActionsData
 SGenericDevicePersistentData = {}
 
 ---@param fields? SGenericDevicePersistentData
 ---@return SGenericDevicePersistentData
-function SGenericDevicePersistentData.new(fields) return end
+function SGenericDevicePersistentData.new(fields) end

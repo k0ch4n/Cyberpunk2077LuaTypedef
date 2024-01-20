@@ -5,8 +5,7 @@ InNormalUpperBodyState = {}
 
 ---@param fields? InNormalUpperBodyState
 ---@return InNormalUpperBodyState
-function InNormalUpperBodyState.new(fields) return end
+function InNormalUpperBodyState.new(fields) end
 
----@private
 ---@return gamedataNPCUpperBodyState
-function InNormalUpperBodyState:GetStateToCheck() return end
+function InNormalUpperBodyState:GetStateToCheck() end

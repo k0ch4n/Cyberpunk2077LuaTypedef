@@ -1,107 +1,94 @@
 ---@meta
 
 ---@class IntercomControllerPS: ScriptableDeviceComponentPS
----@field protected isCalling Bool
----@field protected sceneStarted Bool
----@field protected endingCall Bool
----@field private forceLookAt entEntityID
----@field private forceFollow Bool
+---@field isCalling Bool
+---@field sceneStarted Bool
+---@field endingCall Bool
+---@field forceLookAt entEntityID
+---@field forceFollow Bool
 IntercomControllerPS = {}
 
 ---@param fields? IntercomControllerPS
 ---@return IntercomControllerPS
-function IntercomControllerPS.new(fields) return end
+function IntercomControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function IntercomControllerPS:OnInstantiated() return end
+function IntercomControllerPS:OnInstantiated() end
 
----@protected
 ---@return QuestLookAtTarget
-function IntercomControllerPS:ActionForceFollowTarget() return end
+function IntercomControllerPS:ActionForceFollowTarget() end
 
----@protected
 ---@return QuestHangUpCall
-function IntercomControllerPS:ActionQuestHangUpCall() return end
+function IntercomControllerPS:ActionQuestHangUpCall() end
 
----@protected
 ---@return QuestPickUpCall
-function IntercomControllerPS:ActionQuestPickUpCall() return end
+function IntercomControllerPS:ActionQuestPickUpCall() end
 
----@protected
 ---@return DelayEvent
-function IntercomControllerPS:ActionResetIntercom() return end
+function IntercomControllerPS:ActionResetIntercom() end
 
----@protected
 ---@return StartCall
-function IntercomControllerPS:ActionStartCall() return end
+function IntercomControllerPS:ActionStartCall() end
 
----@protected
 ---@return QuestStopLookAtTarget
-function IntercomControllerPS:ActionStopFollowingTarget() return end
+function IntercomControllerPS:ActionStopFollowingTarget() end
 
 ---@return Bool
-function IntercomControllerPS:CallStarted() return end
+function IntercomControllerPS:CallStarted() end
 
----@protected
 ---@return Bool
-function IntercomControllerPS:CanCreateAnyQuickHackActions() return end
+function IntercomControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function IntercomControllerPS:GameAttached() return end
+function IntercomControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function IntercomControllerPS:GetActions(context) return end
+function IntercomControllerPS:GetActions(context) end
 
 ---@return IntercomBlackboardDef
-function IntercomControllerPS:GetBlackboardDef() return end
+function IntercomControllerPS:GetBlackboardDef() end
 
 ---@return gameDeviceComponentPS[]
-function IntercomControllerPS:GetImmediateSlaves() return end
+function IntercomControllerPS:GetImmediateSlaves() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function IntercomControllerPS:GetQuestActionByName(actionName) return end
+function IntercomControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function IntercomControllerPS:GetQuestActions(context) return end
+function IntercomControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function IntercomControllerPS:GetQuickHackActions(context) return end
+function IntercomControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return nil
-function IntercomControllerPS:Initialize() return end
+function IntercomControllerPS:Initialize() end
 
 ---@param evt QuestHangUpCall
 ---@return EntityNotificationType
-function IntercomControllerPS:OnQuestHangUpCall(evt) return end
+function IntercomControllerPS:OnQuestHangUpCall(evt) end
 
 ---@param evt QuestPickUpCall
 ---@return EntityNotificationType
-function IntercomControllerPS:OnQuestPickUpCall(evt) return end
+function IntercomControllerPS:OnQuestPickUpCall(evt) end
 
----@protected
 ---@param evt RefreshSlavesEvent
 ---@return EntityNotificationType
-function IntercomControllerPS:OnRefreshSlavesEvent(evt) return end
+function IntercomControllerPS:OnRefreshSlavesEvent(evt) end
 
 ---@param evt DelayEvent
 ---@return EntityNotificationType
-function IntercomControllerPS:OnResetIntercom(evt) return end
+function IntercomControllerPS:OnResetIntercom(evt) end
 
 ---@param evt StartCall
 ---@return EntityNotificationType
-function IntercomControllerPS:OnStartCall(evt) return end
-
----@private
----@return nil
-function IntercomControllerPS:RefreshSlaves() return end
+function IntercomControllerPS:OnStartCall(evt) end
 
 ---@return nil
-function IntercomControllerPS:RefreshSlaves_Event() return end
+function IntercomControllerPS:RefreshSlaves() end
+
+---@return nil
+function IntercomControllerPS:RefreshSlaves_Event() end

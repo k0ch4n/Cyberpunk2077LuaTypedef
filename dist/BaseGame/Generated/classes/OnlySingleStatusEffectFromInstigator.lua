@@ -5,9 +5,9 @@ OnlySingleStatusEffectFromInstigator = {}
 
 ---@param fields? OnlySingleStatusEffectFromInstigator
 ---@return OnlySingleStatusEffectFromInstigator
-function OnlySingleStatusEffectFromInstigator.new(fields) return end
+function OnlySingleStatusEffectFromInstigator.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param filterCtx gameEffectSingleFilterScriptContext
 ---@return Bool
-function OnlySingleStatusEffectFromInstigator:Process(ctx, filterCtx) return end
+function OnlySingleStatusEffectFromInstigator:Process(ctx, filterCtx) end

@@ -5,4 +5,4 @@ gameCoverInstance = {}
 
 ---@param fields? gameCoverInstance
 ---@return gameCoverInstance
-function gameCoverInstance.new(fields) return end
+function gameCoverInstance.new(fields) end

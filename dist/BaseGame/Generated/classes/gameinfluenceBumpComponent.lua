@@ -1,32 +1,31 @@
 ---@meta
 
 ---@class gameinfluenceBumpComponent: entIPlacedComponent
----@field public isPlayerControlled Bool
----@field public movementSpreadDistance Float
----@field public movementSpreadRadius Float
----@field public distanceToReactBack Float
----@field public distanceToReactFront Float
----@field public reactionSettings gameinfluenceBumpReactionSetting[]
----@field public autoPlayBumpAnimation Bool
----@field public isEnabled Bool
----@field public isBumpable Bool
+---@field isPlayerControlled Bool
+---@field movementSpreadDistance Float
+---@field movementSpreadRadius Float
+---@field distanceToReactBack Float
+---@field distanceToReactFront Float
+---@field reactionSettings gameinfluenceBumpReactionSetting[]
+---@field autoPlayBumpAnimation Bool
+---@field isEnabled Bool
+---@field isBumpable Bool
 gameinfluenceBumpComponent = {}
 
 ---@param fields? gameinfluenceBumpComponent
 ---@return gameinfluenceBumpComponent
-function gameinfluenceBumpComponent.new(fields) return end
+function gameinfluenceBumpComponent.new(fields) end
 
 ---@param puppet ScriptedPuppet
 ---@return nil
-function gameinfluenceBumpComponent.ToggleComponentOn(puppet) return end
+function gameinfluenceBumpComponent.ToggleComponentOn(puppet) end
 
 ---@param policy AIinfluenceEBumpPolicy
 ---@return nil
-function gameinfluenceBumpComponent:SetBumpPolicy(policy) return end
-
----@private
----@return nil
-function gameinfluenceBumpComponent:OnAttach() return end
+function gameinfluenceBumpComponent:SetBumpPolicy(policy) end
 
 ---@return nil
-function gameinfluenceBumpComponent:ToggleComponentOn() return end
+function gameinfluenceBumpComponent:OnAttach() end
+
+---@return nil
+function gameinfluenceBumpComponent:ToggleComponentOn() end

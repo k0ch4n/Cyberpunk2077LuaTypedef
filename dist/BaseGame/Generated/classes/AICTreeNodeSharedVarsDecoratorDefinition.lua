@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AICTreeNodeSharedVarsDecoratorDefinition: AICTreeNodeSharedVarsBaseDecoratorDefinition
----@field public sharedVars AISharedVarTableDefinition
+---@field sharedVars AISharedVarTableDefinition
 AICTreeNodeSharedVarsDecoratorDefinition = {}
 
 ---@param fields? AICTreeNodeSharedVarsDecoratorDefinition
 ---@return AICTreeNodeSharedVarsDecoratorDefinition
-function AICTreeNodeSharedVarsDecoratorDefinition.new(fields) return end
+function AICTreeNodeSharedVarsDecoratorDefinition.new(fields) end

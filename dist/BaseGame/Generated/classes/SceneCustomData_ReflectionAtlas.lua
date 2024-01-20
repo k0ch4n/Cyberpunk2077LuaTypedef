@@ -5,4 +5,4 @@ SceneCustomData_ReflectionAtlas = {}
 
 ---@param fields? SceneCustomData_ReflectionAtlas
 ---@return SceneCustomData_ReflectionAtlas
-function SceneCustomData_ReflectionAtlas.new(fields) return end
+function SceneCustomData_ReflectionAtlas.new(fields) end

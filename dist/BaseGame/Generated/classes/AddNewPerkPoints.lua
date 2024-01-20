@@ -5,4 +5,4 @@ AddNewPerkPoints = {}
 
 ---@param fields? AddNewPerkPoints
 ---@return AddNewPerkPoints
-function AddNewPerkPoints.new(fields) return end
+function AddNewPerkPoints.new(fields) end

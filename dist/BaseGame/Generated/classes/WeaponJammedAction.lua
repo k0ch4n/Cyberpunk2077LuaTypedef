@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class WeaponJammedAction: StatusEffectActions
----@field public jammedWeaponDuration Float
----@field public jammedWeaponStartTimeStamp Float
+---@field jammedWeaponDuration Float
+---@field jammedWeaponStartTimeStamp Float
 WeaponJammedAction = {}
 
 ---@param fields? WeaponJammedAction
 ---@return WeaponJammedAction
-function WeaponJammedAction.new(fields) return end
+function WeaponJammedAction.new(fields) end

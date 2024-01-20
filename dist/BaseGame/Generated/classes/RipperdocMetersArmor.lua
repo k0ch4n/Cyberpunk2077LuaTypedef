@@ -1,114 +1,98 @@
 ---@meta
 
 ---@class RipperdocMetersArmor: RipperdocMetersBase
----@field private barScale Float
----@field private currentArmorLabelContainer inkWidgetReference
----@field private currentArmorLabelBackground inkWidgetReference
----@field private costArmorLabelContainer inkWidgetReference
----@field private costArmorLabelBackground inkWidgetReference
----@field private costArmorLabelValue inkTextWidgetReference
----@field private maxArmorLabel inkWidgetReference
----@field private maxArmorLabelContainer inkWidgetReference
----@field private maxArmorLabelValue inkTextWidgetReference
----@field private maxArmor Float
----@field private curEquippedArmor Float
----@field private newEquippedArmor Float
----@field private maxArmorPossible Float
----@field private maxDamageReduction Float
----@field private currentArmorLabel RipperdocFillLabel
----@field private currentArmorLabelAnimation inkanimProxy
----@field private costArmorLabelAnimation inkanimProxy
----@field private currentArmorLabelPulseAnimation PulseAnimation
----@field private costArmorLabelPulseAnimation PulseAnimation
----@field private maxBaseBar Int32
----@field private currentBars Int32
----@field private barsSpawned Bool
----@field private C_costLabelAnchorPoint_ADD Vector2
----@field private C_costLabelAnchorPoint_SUBTRACT Vector2
----@field private C_costLabelAnchorPoint_EQUIPPED Vector2
+---@field barScale Float
+---@field currentArmorLabelContainer inkWidgetReference
+---@field currentArmorLabelBackground inkWidgetReference
+---@field costArmorLabelContainer inkWidgetReference
+---@field costArmorLabelBackground inkWidgetReference
+---@field costArmorLabelValue inkTextWidgetReference
+---@field maxArmorLabel inkWidgetReference
+---@field maxArmorLabelContainer inkWidgetReference
+---@field maxArmorLabelValue inkTextWidgetReference
+---@field maxArmor Float
+---@field curEquippedArmor Float
+---@field newEquippedArmor Float
+---@field maxArmorPossible Float
+---@field maxDamageReduction Float
+---@field currentArmorLabel RipperdocFillLabel
+---@field currentArmorLabelAnimation inkanimProxy
+---@field costArmorLabelAnimation inkanimProxy
+---@field currentArmorLabelPulseAnimation PulseAnimation
+---@field costArmorLabelPulseAnimation PulseAnimation
+---@field maxBaseBar Int32
+---@field currentBars Int32
+---@field barsSpawned Bool
+---@field C_costLabelAnchorPoint_ADD Vector2
+---@field C_costLabelAnchorPoint_SUBTRACT Vector2
+---@field C_costLabelAnchorPoint_EQUIPPED Vector2
 RipperdocMetersArmor = {}
 
 ---@param fields? RipperdocMetersArmor
 ---@return RipperdocMetersArmor
-function RipperdocMetersArmor.new(fields) return end
+function RipperdocMetersArmor.new(fields) end
 
----@protected
 ---@param evt RipperdocMeterArmorApplyEvent
 ---@return Bool
-function RipperdocMetersArmor:OnApply(evt) return end
+function RipperdocMetersArmor:OnApply(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocMetersArmor:OnBarHoverOut(evt) return end
+function RipperdocMetersArmor:OnBarHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function RipperdocMetersArmor:OnBarHoverOver(evt) return end
+function RipperdocMetersArmor:OnBarHoverOver(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param data IScriptable
 ---@return Bool
-function RipperdocMetersArmor:OnBarSpawned(widget, data) return end
+function RipperdocMetersArmor:OnBarSpawned(widget, data) end
 
----@protected
 ---@param evt RipperdocMeterArmorHoverEvent
 ---@return Bool
-function RipperdocMetersArmor:OnHover(evt) return end
+function RipperdocMetersArmor:OnHover(evt) end
 
----@protected
 ---@return Bool
-function RipperdocMetersArmor:OnInitialize() return end
+function RipperdocMetersArmor:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function RipperdocMetersArmor:OnIntroAnimationFinished_METER(proxy) return end
+function RipperdocMetersArmor:OnIntroAnimationFinished_METER(proxy) end
 
----@protected
 ---@param animProxy inkanimProxy
 ---@return Bool
-function RipperdocMetersArmor:OnLastBarIntroFinished(animProxy) return end
+function RipperdocMetersArmor:OnLastBarIntroFinished(animProxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function RipperdocMetersArmor:OnMeterIntroFinished_RIGHT(proxy) return end
+function RipperdocMetersArmor:OnMeterIntroFinished_RIGHT(proxy) end
 
----@protected
 ---@param evt RipperdocMeterArmorBarHoverEvent
 ---@return Bool
-function RipperdocMetersArmor:OnRipperdocMeterArmorBarHoverEvent(evt) return end
+function RipperdocMetersArmor:OnRipperdocMeterArmorBarHoverEvent(evt) end
 
----@protected
 ---@return Bool
-function RipperdocMetersArmor:OnUninitialize() return end
+function RipperdocMetersArmor:OnUninitialize() end
 
----@private
 ---@param change Float
 ---@param isHover Bool
 ---@param isCyberwareEquipped Bool
 ---@return nil
-function RipperdocMetersArmor:PreviewChange(change, isHover, isCyberwareEquipped) return end
+function RipperdocMetersArmor:PreviewChange(change, isHover, isCyberwareEquipped) end
 
----@private
 ---@return nil
-function RipperdocMetersArmor:SetArmor() return end
+function RipperdocMetersArmor:SetArmor() end
 
----@private
 ---@param newEquippedArmor Float
 ---@param maxCurrentArmor Float
 ---@param maxArmorPossible Float
 ---@param maxDamageReduction Float
 ---@return nil
-function RipperdocMetersArmor:SetArmorData(newEquippedArmor, maxCurrentArmor, maxArmorPossible, maxDamageReduction) return end
+function RipperdocMetersArmor:SetArmorData(newEquippedArmor, maxCurrentArmor, maxArmorPossible, maxDamageReduction) end
 
----@private
 ---@return nil
-function RipperdocMetersArmor:SetMaxBar() return end
+function RipperdocMetersArmor:SetMaxBar() end
 
----@private
 ---@return nil
-function RipperdocMetersArmor:SpawnBars() return end
+function RipperdocMetersArmor:SpawnBars() end

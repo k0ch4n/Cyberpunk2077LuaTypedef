@@ -1,36 +1,31 @@
 ---@meta
 
 ---@class AutocraftSystem: gameScriptableSystem
----@field private active Bool
----@field private cycleDuration Float
----@field private currentDelayID gameDelayID
----@field private itemsUsed gameItemID[]
+---@field active Bool
+---@field cycleDuration Float
+---@field currentDelayID gameDelayID
+---@field itemsUsed gameItemID[]
 AutocraftSystem = {}
 
 ---@param fields? AutocraftSystem
 ---@return AutocraftSystem
-function AutocraftSystem.new(fields) return end
+function AutocraftSystem.new(fields) end
 
----@private
 ---@return gameItemID[]
-function AutocraftSystem:GetItemsToAutocraft() return end
+function AutocraftSystem:GetItemsToAutocraft() end
 
----@private
 ---@param request AutocraftEndCycleRequest
 ---@return nil
-function AutocraftSystem:OnCycleEnd(request) return end
+function AutocraftSystem:OnCycleEnd(request) end
 
----@private
 ---@param request RegisterItemUsedRequest
 ---@return nil
-function AutocraftSystem:OnItemUsed(request) return end
+function AutocraftSystem:OnItemUsed(request) end
 
----@private
 ---@param request AutocraftActivateRequest
 ---@return nil
-function AutocraftSystem:OnSystemActivate(request) return end
+function AutocraftSystem:OnSystemActivate(request) end
 
----@private
 ---@param request AutocraftDeactivateRequest
 ---@return nil
-function AutocraftSystem:OnSystemDeactivate(request) return end
+function AutocraftSystem:OnSystemDeactivate(request) end

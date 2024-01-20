@@ -1,40 +1,34 @@
 ---@meta
 
 ---@class gameuiPlayerListGameController: gameuiHUDGameController
----@field private playerEntries PlayerListEntryData[]
----@field private container inkCompoundWidgetReference
+---@field playerEntries PlayerListEntryData[]
+---@field container inkCompoundWidgetReference
 gameuiPlayerListGameController = {}
 
 ---@param fields? gameuiPlayerListGameController
 ---@return gameuiPlayerListGameController
-function gameuiPlayerListGameController.new(fields) return end
+function gameuiPlayerListGameController.new(fields) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPlayerListGameController:OnPlayerAttach(playerPuppet) return end
+function gameuiPlayerListGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPlayerListGameController:OnPlayerDetach(playerPuppet) return end
+function gameuiPlayerListGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPlayerListGameController:OnRemotePlayerAttach(playerPuppet) return end
+function gameuiPlayerListGameController:OnRemotePlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiPlayerListGameController:OnRemotePlayerDetach(playerPuppet) return end
+function gameuiPlayerListGameController:OnRemotePlayerDetach(playerPuppet) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiPlayerListGameController:AddPlayerToList(playerPuppet) return end
+function gameuiPlayerListGameController:AddPlayerToList(playerPuppet) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiPlayerListGameController:RemovePlayerFromList(playerPuppet) return end
+function gameuiPlayerListGameController:RemovePlayerFromList(playerPuppet) end

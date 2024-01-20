@@ -5,4 +5,4 @@ HammerLookAtEvents = {}
 
 ---@param fields? HammerLookAtEvents
 ---@return HammerLookAtEvents
-function HammerLookAtEvents.new(fields) return end
+function HammerLookAtEvents.new(fields) end

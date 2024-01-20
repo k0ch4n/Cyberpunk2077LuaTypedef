@@ -4,7 +4,7 @@
 UIInventoryHelper = {}
 
 ---@return TweakDBID[]
-function UIInventoryHelper.GetCommonCraftingMaterials() return end
+function UIInventoryHelper.GetCommonCraftingMaterials() end
 
 ---@return TweakDBID[]
-function UIInventoryHelper.GetHackingCraftingMaterials() return end
+function UIInventoryHelper.GetHackingCraftingMaterials() end

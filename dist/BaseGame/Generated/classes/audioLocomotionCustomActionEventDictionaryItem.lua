@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioLocomotionCustomActionEventDictionaryItem: audioInlinedAudioMetadata
----@field public key CName
----@field public value CName
+---@field key CName
+---@field value CName
 audioLocomotionCustomActionEventDictionaryItem = {}
 
 ---@param fields? audioLocomotionCustomActionEventDictionaryItem
 ---@return audioLocomotionCustomActionEventDictionaryItem
-function audioLocomotionCustomActionEventDictionaryItem.new(fields) return end
+function audioLocomotionCustomActionEventDictionaryItem.new(fields) end

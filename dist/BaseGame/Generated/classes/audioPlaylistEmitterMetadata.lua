@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioPlaylistEmitterMetadata: audioEmitterMetadata
----@field public receiverType CName
----@field public playlistMetadataName CName
+---@field receiverType CName
+---@field playlistMetadataName CName
 audioPlaylistEmitterMetadata = {}
 
 ---@param fields? audioPlaylistEmitterMetadata
 ---@return audioPlaylistEmitterMetadata
-function audioPlaylistEmitterMetadata.new(fields) return end
+function audioPlaylistEmitterMetadata.new(fields) end

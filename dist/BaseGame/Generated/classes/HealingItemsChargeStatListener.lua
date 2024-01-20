@@ -5,12 +5,11 @@ HealingItemsChargeStatListener = {}
 
 ---@param fields? HealingItemsChargeStatListener
 ---@return HealingItemsChargeStatListener
-function HealingItemsChargeStatListener.new(fields) return end
+function HealingItemsChargeStatListener.new(fields) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function HealingItemsChargeStatListener:Init(player) return end
+function HealingItemsChargeStatListener:Init(player) end
 
----@private
 ---@return nil
-function HealingItemsChargeStatListener:Recharged() return end
+function HealingItemsChargeStatListener:Recharged() end

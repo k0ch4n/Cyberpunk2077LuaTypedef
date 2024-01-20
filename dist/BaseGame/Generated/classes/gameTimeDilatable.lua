@@ -5,20 +5,20 @@ gameTimeDilatable = {}
 
 ---@param fields? gameTimeDilatable
 ---@return gameTimeDilatable
-function gameTimeDilatable.new(fields) return end
+function gameTimeDilatable.new(fields) end
 
 ---@return Float
-function gameTimeDilatable:GetTimeDilationValue() return end
+function gameTimeDilatable:GetTimeDilationValue() end
 
 ---@param reason? CName|string
 ---@return Bool
-function gameTimeDilatable:HasIndividualTimeDilation(reason) return end
+function gameTimeDilatable:HasIndividualTimeDilation(reason) end
 
 ---@return Bool
-function gameTimeDilatable:IsIgnoringGlobalTimeDilation() return end
+function gameTimeDilatable:IsIgnoringGlobalTimeDilation() end
 
 ---@return Bool
-function gameTimeDilatable:IsIgnoringTimeDilation() return end
+function gameTimeDilatable:IsIgnoringTimeDilation() end
 
 ---@param reason CName|string
 ---@param dilation Float
@@ -28,8 +28,8 @@ function gameTimeDilatable:IsIgnoringTimeDilation() return end
 ---@param ignoreGlobalDilation? Bool
 ---@param useRealTime? Bool
 ---@return nil
-function gameTimeDilatable:SetIndividualTimeDilation(reason, dilation, duration, easeInCurve, easeOutCurve, ignoreGlobalDilation, useRealTime) return end
+function gameTimeDilatable:SetIndividualTimeDilation(reason, dilation, duration, easeInCurve, easeOutCurve, ignoreGlobalDilation, useRealTime) end
 
 ---@param easeOutCurve? CName|string
 ---@return nil
-function gameTimeDilatable:UnsetIndividualTimeDilation(easeOutCurve) return end
+function gameTimeDilatable:UnsetIndividualTimeDilation(easeOutCurve) end

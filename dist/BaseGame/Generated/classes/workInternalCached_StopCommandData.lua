@@ -5,4 +5,4 @@ workInternalCached_StopCommandData = {}
 
 ---@param fields? workInternalCached_StopCommandData
 ---@return workInternalCached_StopCommandData
-function workInternalCached_StopCommandData.new(fields) return end
+function workInternalCached_StopCommandData.new(fields) end

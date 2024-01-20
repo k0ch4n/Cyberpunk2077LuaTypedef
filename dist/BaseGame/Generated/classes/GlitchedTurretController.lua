@@ -5,7 +5,7 @@ GlitchedTurretController = {}
 
 ---@param fields? GlitchedTurretController
 ---@return GlitchedTurretController
-function GlitchedTurretController.new(fields) return end
+function GlitchedTurretController.new(fields) end
 
 ---@return GlitchedTurretControllerPS
-function GlitchedTurretController:GetPS() return end
+function GlitchedTurretController:GetPS() end

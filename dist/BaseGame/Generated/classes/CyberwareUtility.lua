@@ -5,20 +5,20 @@ CyberwareUtility = {}
 
 ---@param fields? CyberwareUtility
 ---@return CyberwareUtility
-function CyberwareUtility.new(fields) return end
+function CyberwareUtility.new(fields) end
 
 ---@param player PlayerPuppet
 ---@return TweakDBID
-function CyberwareUtility.GetActiveCyberwareItem(player) return end
+function CyberwareUtility.GetActiveCyberwareItem(player) end
 
 ---@param item TweakDBID|string
 ---@return Float
-function CyberwareUtility.GetMaxActiveTimeFromTweak(item) return end
+function CyberwareUtility.GetMaxActiveTimeFromTweak(item) end
 
 ---@param player PlayerPuppet
 ---@return Bool
-function CyberwareUtility.IsCurrentCyberwareOnCooldown(player) return end
+function CyberwareUtility.IsCurrentCyberwareOnCooldown(player) end
 
 ---@param player PlayerPuppet
 ---@return nil
-function CyberwareUtility.StartGenericCwCooldown(player) return end
+function CyberwareUtility.StartGenericCwCooldown(player) end

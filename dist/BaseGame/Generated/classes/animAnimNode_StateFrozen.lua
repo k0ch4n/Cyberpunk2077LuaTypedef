@@ -5,4 +5,4 @@ animAnimNode_StateFrozen = {}
 
 ---@param fields? animAnimNode_StateFrozen
 ---@return animAnimNode_StateFrozen
-function animAnimNode_StateFrozen.new(fields) return end
+function animAnimNode_StateFrozen.new(fields) end

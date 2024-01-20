@@ -5,4 +5,4 @@ CuttingGrenadeDespawnEffectsEvent = {}
 
 ---@param fields? CuttingGrenadeDespawnEffectsEvent
 ---@return CuttingGrenadeDespawnEffectsEvent
-function CuttingGrenadeDespawnEffectsEvent.new(fields) return end
+function CuttingGrenadeDespawnEffectsEvent.new(fields) end

@@ -5,21 +5,21 @@ exEntitySpawner = {}
 
 ---@param fields? exEntitySpawner
 ---@return exEntitySpawner
-function exEntitySpawner.new(fields) return end
+function exEntitySpawner.new(fields) end
 
 ---@param entity entEntity
 ---@return nil
-function exEntitySpawner.Despawn(entity) return end
+function exEntitySpawner.Despawn(entity) end
 
 ---@param entityPath CResource
 ---@param worldTransform WorldTransform
 ---@param appearance? CName|string
 ---@param recordID? TweakDBID|string
 ---@return entEntityID
-function exEntitySpawner.Spawn(entityPath, worldTransform, appearance, recordID) return end
+function exEntitySpawner.Spawn(entityPath, worldTransform, appearance, recordID) end
 
 ---@param recordID TweakDBID|string
 ---@param worldTransform WorldTransform
 ---@param appearance? CName|string
 ---@return entEntityID
-function exEntitySpawner.SpawnRecord(recordID, worldTransform, appearance) return end
+function exEntitySpawner.SpawnRecord(recordID, worldTransform, appearance) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UIScriptableSystemAddAvailableCar: gameScriptableSystemRequest
----@field public carFact CName
+---@field carFact CName
 UIScriptableSystemAddAvailableCar = {}
 
 ---@param fields? UIScriptableSystemAddAvailableCar
 ---@return UIScriptableSystemAddAvailableCar
-function UIScriptableSystemAddAvailableCar.new(fields) return end
+function UIScriptableSystemAddAvailableCar.new(fields) end

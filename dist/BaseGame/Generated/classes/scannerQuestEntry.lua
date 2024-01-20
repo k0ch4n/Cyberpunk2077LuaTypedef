@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scannerQuestEntry
----@field public categoryName CName
----@field public entryName CName
----@field public recordID TweakDBID
+---@field categoryName CName
+---@field entryName CName
+---@field recordID TweakDBID
 scannerQuestEntry = {}
 
 ---@param fields? scannerQuestEntry
 ---@return scannerQuestEntry
-function scannerQuestEntry.new(fields) return end
+function scannerQuestEntry.new(fields) end

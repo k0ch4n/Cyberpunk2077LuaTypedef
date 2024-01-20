@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class locVoiceoverMap: ISerializable
----@field public entries locVoLineEntry[]
+---@field entries locVoLineEntry[]
 locVoiceoverMap = {}
 
 ---@param fields? locVoiceoverMap
 ---@return locVoiceoverMap
-function locVoiceoverMap.new(fields) return end
+function locVoiceoverMap.new(fields) end

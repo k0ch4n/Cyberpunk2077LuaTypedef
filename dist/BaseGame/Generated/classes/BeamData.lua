@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class BeamData
----@field public startDirection Vector4
----@field public endDirection Vector4
----@field public effect gameEffectInstance
----@field public target gameObject
+---@field startDirection Vector4
+---@field endDirection Vector4
+---@field effect gameEffectInstance
+---@field target gameObject
 BeamData = {}
 
 ---@param fields? BeamData
 ---@return BeamData
-function BeamData.new(fields) return end
+function BeamData.new(fields) end

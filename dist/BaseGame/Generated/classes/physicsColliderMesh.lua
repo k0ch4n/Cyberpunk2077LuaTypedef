@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsColliderMesh: physicsICollider
----@field public faceMaterials CName[]
----@field public compiledGeometryBuffer DataBuffer
+---@field faceMaterials CName[]
+---@field compiledGeometryBuffer DataBuffer
 physicsColliderMesh = {}
 
 ---@param fields? physicsColliderMesh
 ---@return physicsColliderMesh
-function physicsColliderMesh.new(fields) return end
+function physicsColliderMesh.new(fields) end

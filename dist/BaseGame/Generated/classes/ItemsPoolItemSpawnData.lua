@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class ItemsPoolItemSpawnData: IScriptable
----@field public index Int32
----@field public requestVersion Int32
+---@field index Int32
+---@field requestVersion Int32
 ItemsPoolItemSpawnData = {}
 
 ---@param fields? ItemsPoolItemSpawnData
 ---@return ItemsPoolItemSpawnData
-function ItemsPoolItemSpawnData.new(fields) return end
+function ItemsPoolItemSpawnData.new(fields) end

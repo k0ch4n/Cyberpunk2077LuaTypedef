@@ -5,9 +5,9 @@ SetTemporaryIndividualTimeDilation = {}
 
 ---@param fields? SetTemporaryIndividualTimeDilation
 ---@return SetTemporaryIndividualTimeDilation
-function SetTemporaryIndividualTimeDilation.new(fields) return end
+function SetTemporaryIndividualTimeDilation.new(fields) end
 
 ---@param ctx gameEffectScriptContext
 ---@param applierCtx gameEffectExecutionScriptContext
 ---@return Bool
-function SetTemporaryIndividualTimeDilation:Process(ctx, applierCtx) return end
+function SetTemporaryIndividualTimeDilation:Process(ctx, applierCtx) end

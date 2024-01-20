@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CParticleModificatorRotationRateOverLife: IParticleModificator
----@field public rotationRate IEvaluatorFloat
----@field public modulate Bool
+---@field rotationRate IEvaluatorFloat
+---@field modulate Bool
 CParticleModificatorRotationRateOverLife = {}
 
 ---@param fields? CParticleModificatorRotationRateOverLife
 ---@return CParticleModificatorRotationRateOverLife
-function CParticleModificatorRotationRateOverLife.new(fields) return end
+function CParticleModificatorRotationRateOverLife.new(fields) end

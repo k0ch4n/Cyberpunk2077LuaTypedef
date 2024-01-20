@@ -1,246 +1,212 @@
 ---@meta
 
 ---@class CyberdeckTooltip: AGenericTooltipController
----@field protected itemNameText inkTextWidgetReference
----@field protected nameTextContainer inkWidgetReference
----@field protected nameForRecipeText inkTextWidgetReference
----@field protected itemRarityText inkTextWidgetReference
----@field protected rarityBars inkWidgetReference
----@field protected categoriesWrapper inkCompoundWidgetReference
----@field protected topContainer inkCompoundWidgetReference
----@field protected headerContainer inkCompoundWidgetReference
----@field protected statsContainer inkCompoundWidgetReference
----@field protected hacksContainer inkCompoundWidgetReference
----@field protected descriptionContainer inkCompoundWidgetReference
----@field protected bottomContainer inkCompoundWidgetReference
----@field protected statsList inkCompoundWidgetReference
----@field protected priceContainer inkCompoundWidgetReference
----@field protected descriptionText inkTextWidgetReference
----@field protected priceText inkTextWidgetReference
----@field protected equipedWrapper inkWidgetReference
----@field protected itemTypeText inkTextWidgetReference
----@field protected itemWeightWrapper inkWidgetReference
----@field protected itemWeightText inkTextWidgetReference
----@field protected cybderdeckBaseMemoryValue inkTextWidgetReference
----@field protected cybderdeckBufferValue inkTextWidgetReference
----@field protected cybderdeckSlotsValue inkTextWidgetReference
----@field protected deviceHacksGrid inkCompoundWidgetReference
----@field protected deviceHackHeader inkTextWidgetReference
----@field protected namesTextContainer inkWidgetReference
----@field protected deviceHackNamesText inkTextWidgetReference
----@field protected textBG inkWidgetReference
----@field protected namesTextContainer2 inkWidgetReference
----@field protected deviceHackNamesText2 inkTextWidgetReference
----@field protected textBG2 inkWidgetReference
----@field protected namesTextContainer3 inkWidgetReference
----@field protected deviceHackNamesText3 inkTextWidgetReference
----@field protected textBG3 inkWidgetReference
----@field protected namesTextContainer4 inkWidgetReference
----@field protected deviceHackNamesText4 inkTextWidgetReference
----@field protected textBG4 inkWidgetReference
----@field protected itemIconImage inkImageWidgetReference
----@field protected itemAttributeRequirementsWrapper inkWidgetReference
----@field protected itemAttributeRequirements inkWidgetReference
----@field protected itemAttributeRequirementsText inkTextWidgetReference
----@field protected allocationCostsWrapper inkCompoundWidgetReference
----@field protected iconicLines inkImageWidgetReference
----@field protected equipedCorner inkWidgetReference
----@field protected root inkWidgetReference
----@field protected iconicBG inkWidgetReference
----@field protected recipeWrapper inkWidgetReference
----@field protected recipeBG inkWidgetReference
----@field protected illegalBG inkWidgetReference
----@field protected cyberwareUpgradeContainer inkWidgetReference
----@field protected itemCWQuickHackMenuLinkContainer inkWidgetReference
----@field protected additionalModulesLibraryRes redResourceReferenceScriptToken
----@field protected cyberwareUpgradeModuleName CName
----@field protected rarityBarsController LevelBarsController
----@field protected data InventoryTooltipData
----@field private itemDisplayContext gameItemDisplayContext
----@field protected player PlayerPuppet
----@field protected cyberwareUpgradeController ItemTooltipCyberwareUpgradeController
----@field protected hasVehiclePerk Bool
----@field protected animProxy inkanimProxy
----@field protected settings userSettingsUserSettings
----@field protected settingsListener CyberdeckTooltipSettingsListener
----@field protected groupPath CName
----@field protected minWidth inkWidgetReference
----@field protected bigFontEnabled Bool
----@field protected itemData UIInventoryItem
----@field protected displayContext ItemDisplayContextData
----@field protected comparisonData UIInventoryItemComparisonManager
----@field protected tooltipDisplayContext InventoryTooltipDisplayContext
+---@field itemNameText inkTextWidgetReference
+---@field nameTextContainer inkWidgetReference
+---@field nameForRecipeText inkTextWidgetReference
+---@field itemRarityText inkTextWidgetReference
+---@field rarityBars inkWidgetReference
+---@field categoriesWrapper inkCompoundWidgetReference
+---@field topContainer inkCompoundWidgetReference
+---@field headerContainer inkCompoundWidgetReference
+---@field statsContainer inkCompoundWidgetReference
+---@field hacksContainer inkCompoundWidgetReference
+---@field descriptionContainer inkCompoundWidgetReference
+---@field bottomContainer inkCompoundWidgetReference
+---@field statsList inkCompoundWidgetReference
+---@field priceContainer inkCompoundWidgetReference
+---@field descriptionText inkTextWidgetReference
+---@field priceText inkTextWidgetReference
+---@field equipedWrapper inkWidgetReference
+---@field itemTypeText inkTextWidgetReference
+---@field itemWeightWrapper inkWidgetReference
+---@field itemWeightText inkTextWidgetReference
+---@field cybderdeckBaseMemoryValue inkTextWidgetReference
+---@field cybderdeckBufferValue inkTextWidgetReference
+---@field cybderdeckSlotsValue inkTextWidgetReference
+---@field deviceHacksGrid inkCompoundWidgetReference
+---@field deviceHackHeader inkTextWidgetReference
+---@field namesTextContainer inkWidgetReference
+---@field deviceHackNamesText inkTextWidgetReference
+---@field textBG inkWidgetReference
+---@field namesTextContainer2 inkWidgetReference
+---@field deviceHackNamesText2 inkTextWidgetReference
+---@field textBG2 inkWidgetReference
+---@field namesTextContainer3 inkWidgetReference
+---@field deviceHackNamesText3 inkTextWidgetReference
+---@field textBG3 inkWidgetReference
+---@field namesTextContainer4 inkWidgetReference
+---@field deviceHackNamesText4 inkTextWidgetReference
+---@field textBG4 inkWidgetReference
+---@field itemIconImage inkImageWidgetReference
+---@field itemAttributeRequirementsWrapper inkWidgetReference
+---@field itemAttributeRequirements inkWidgetReference
+---@field itemAttributeRequirementsText inkTextWidgetReference
+---@field allocationCostsWrapper inkCompoundWidgetReference
+---@field iconicLines inkImageWidgetReference
+---@field equipedCorner inkWidgetReference
+---@field root inkWidgetReference
+---@field iconicBG inkWidgetReference
+---@field recipeWrapper inkWidgetReference
+---@field recipeBG inkWidgetReference
+---@field illegalBG inkWidgetReference
+---@field cyberwareUpgradeContainer inkWidgetReference
+---@field itemCWQuickHackMenuLinkContainer inkWidgetReference
+---@field additionalModulesLibraryRes redResourceReferenceScriptToken
+---@field cyberwareUpgradeModuleName CName
+---@field rarityBarsController LevelBarsController
+---@field data InventoryTooltipData
+---@field itemDisplayContext gameItemDisplayContext
+---@field player PlayerPuppet
+---@field cyberwareUpgradeController ItemTooltipCyberwareUpgradeController
+---@field hasVehiclePerk Bool
+---@field animProxy inkanimProxy
+---@field settings userSettingsUserSettings
+---@field settingsListener CyberdeckTooltipSettingsListener
+---@field groupPath CName
+---@field minWidth inkWidgetReference
+---@field bigFontEnabled Bool
+---@field itemData UIInventoryItem
+---@field displayContext ItemDisplayContextData
+---@field comparisonData UIInventoryItemComparisonManager
+---@field tooltipDisplayContext InventoryTooltipDisplayContext
 CyberdeckTooltip = {}
 
 ---@param fields? CyberdeckTooltip
 ---@return CyberdeckTooltip
-function CyberdeckTooltip.new(fields) return end
+function CyberdeckTooltip.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CyberdeckTooltip:OnCyberwareUpgradeModuleSpawned(widget, userData) return end
+function CyberdeckTooltip:OnCyberwareUpgradeModuleSpawned(widget, userData) end
 
----@protected
 ---@return Bool
-function CyberdeckTooltip:OnInitialize() return end
+function CyberdeckTooltip:OnInitialize() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:FixLines() return end
+function CyberdeckTooltip:FixLines() end
 
----@protected
 ---@param itemData gameItemData
 ---@param itemRecord gamedataItem_Record
 ---@return gameInventoryItemAbility[]
-function CyberdeckTooltip:GetAbilities(itemData, itemRecord) return end
+function CyberdeckTooltip:GetAbilities(itemData, itemRecord) end
 
----@protected
 ---@param itemRecord gamedataItem_Record
 ---@return CyberdeckDeviceQuickhackData[]
-function CyberdeckTooltip:GetCyberdeckDeviceQuickhacks(itemRecord) return end
+function CyberdeckTooltip:GetCyberdeckDeviceQuickhacks(itemRecord) end
 
----@protected
 ---@param itemData gameItemData
 ---@param itemRecord gamedataItem_Record
 ---@return nil
-function CyberdeckTooltip:GetDeviceHackNames(itemData, itemRecord) return end
+function CyberdeckTooltip:GetDeviceHackNames(itemData, itemRecord) end
 
----@private
 ---@param data UIInventoryItem
 ---@param player PlayerPuppet
 ---@return nil
-function CyberdeckTooltip:NEW_UpdateAttributeAllocationStats(data, player) return end
+function CyberdeckTooltip:NEW_UpdateAttributeAllocationStats(data, player) end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:NEW_UpdateCyberdeckStats() return end
+function CyberdeckTooltip:NEW_UpdateCyberdeckStats() end
 
----@private
 ---@return nil
-function CyberdeckTooltip:NEW_UpdateCyberwareQuickHackMenuLinkModule() return end
+function CyberdeckTooltip:NEW_UpdateCyberwareQuickHackMenuLinkModule() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:NEW_UpdateIcon() return end
+function CyberdeckTooltip:NEW_UpdateIcon() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:NEW_UpdateLayout() return end
+function CyberdeckTooltip:NEW_UpdateLayout() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:NEW_UpdateName() return end
+function CyberdeckTooltip:NEW_UpdateName() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:NEW_UpdatePrice() return end
+function CyberdeckTooltip:NEW_UpdatePrice() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:NEW_UpdateRarity() return end
+function CyberdeckTooltip:NEW_UpdateRarity() end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function CyberdeckTooltip:OnVarModified(groupPath, varName, varType, reason) return end
+function CyberdeckTooltip:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function CyberdeckTooltip:SetData(tooltipData) return end
+function CyberdeckTooltip:SetData(tooltipData) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function CyberdeckTooltip:SetTooltipSize(value) return end
+function CyberdeckTooltip:SetTooltipSize(value) end
 
----@protected
 ---@param itemRecord gamedataItem_Record
 ---@return nil
-function CyberdeckTooltip:SetupDeviceHacks(itemRecord) return end
+function CyberdeckTooltip:SetupDeviceHacks(itemRecord) end
 
 ---@return nil
-function CyberdeckTooltip:Show() return end
+function CyberdeckTooltip:Show() end
 
----@protected
 ---@param itemData gameItemData
 ---@param itemRecord gamedataItem_Record
 ---@return nil
-function CyberdeckTooltip:UpdateAbilities(itemData, itemRecord) return end
+function CyberdeckTooltip:UpdateAbilities(itemData, itemRecord) end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdateAllocationStats() return end
+function CyberdeckTooltip:UpdateAllocationStats() end
 
----@private
 ---@param data MinimalItemTooltipData
 ---@return nil
-function CyberdeckTooltip:UpdateAttributeAllocationStats(data) return end
+function CyberdeckTooltip:UpdateAttributeAllocationStats(data) end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdateCyberdeckStats() return end
+function CyberdeckTooltip:UpdateCyberdeckStats() end
 
----@private
 ---@return nil
-function CyberdeckTooltip:UpdateCyberwareQuickHackMenuLinkModule() return end
+function CyberdeckTooltip:UpdateCyberwareQuickHackMenuLinkModule() end
 
----@private
 ---@return nil
-function CyberdeckTooltip:UpdateCyberwareUpgradeModule() return end
+function CyberdeckTooltip:UpdateCyberwareUpgradeModule() end
 
----@protected
 ---@param description String
 ---@return nil
-function CyberdeckTooltip:UpdateDescription(description) return end
+function CyberdeckTooltip:UpdateDescription(description) end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdateIcon() return end
+function CyberdeckTooltip:UpdateIcon() end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function CyberdeckTooltip:UpdateIconicBG(visible) return end
+function CyberdeckTooltip:UpdateIconicBG(visible) end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function CyberdeckTooltip:UpdateIllegalBG(visible) return end
+function CyberdeckTooltip:UpdateIllegalBG(visible) end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdateLayout() return end
+function CyberdeckTooltip:UpdateLayout() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdateName() return end
+function CyberdeckTooltip:UpdateName() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdatePrice() return end
+function CyberdeckTooltip:UpdatePrice() end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdateRarity() return end
+function CyberdeckTooltip:UpdateRarity() end
 
----@protected
 ---@param visible Bool
 ---@return nil
-function CyberdeckTooltip:UpdateRecipeBG(visible) return end
+function CyberdeckTooltip:UpdateRecipeBG(visible) end
 
----@protected
 ---@return nil
-function CyberdeckTooltip:UpdateRequirements() return end
+function CyberdeckTooltip:UpdateRequirements() end
 
----@private
 ---@return nil
-function CyberdeckTooltip:UpdateTooltipSize() return end
+function CyberdeckTooltip:UpdateTooltipSize() end
 
----@protected
 ---@param weight Float
 ---@return nil
-function CyberdeckTooltip:UpdateWeight(weight) return end
+function CyberdeckTooltip:UpdateWeight(weight) end

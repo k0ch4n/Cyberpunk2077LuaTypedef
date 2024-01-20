@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class GameplayItemCondition: GameplayConditionBase
----@field public itemToCheck TweakDBID
+---@field itemToCheck TweakDBID
 GameplayItemCondition = {}
 
 ---@param fields? GameplayItemCondition
 ---@return GameplayItemCondition
-function GameplayItemCondition.new(fields) return end
+function GameplayItemCondition.new(fields) end
 
 ---@param requester gameObject
 ---@return Bool
-function GameplayItemCondition:Evaluate(requester) return end
+function GameplayItemCondition:Evaluate(requester) end
 
----@private
 ---@return String
-function GameplayItemCondition:GetConditionDescription() return end
+function GameplayItemCondition:GetConditionDescription() end
 
 ---@param requester gameObject
 ---@return Condition
-function GameplayItemCondition:GetDescription(requester) return end
+function GameplayItemCondition:GetDescription(requester) end

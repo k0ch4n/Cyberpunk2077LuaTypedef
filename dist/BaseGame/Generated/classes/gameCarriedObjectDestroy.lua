@@ -5,4 +5,4 @@ gameCarriedObjectDestroy = {}
 
 ---@param fields? gameCarriedObjectDestroy
 ---@return gameCarriedObjectDestroy
-function gameCarriedObjectDestroy.new(fields) return end
+function gameCarriedObjectDestroy.new(fields) end

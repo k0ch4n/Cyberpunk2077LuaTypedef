@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameinteractionsvisDialogChoiceHubs
----@field public choiceHubs gameinteractionsvisListChoiceHubData[]
+---@field choiceHubs gameinteractionsvisListChoiceHubData[]
 gameinteractionsvisDialogChoiceHubs = {}
 
 ---@param fields? gameinteractionsvisDialogChoiceHubs
 ---@return gameinteractionsvisDialogChoiceHubs
-function gameinteractionsvisDialogChoiceHubs.new(fields) return end
+function gameinteractionsvisDialogChoiceHubs.new(fields) end

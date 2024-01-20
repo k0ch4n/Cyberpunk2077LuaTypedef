@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnScenesVersionsChangedRecord
----@field public changeInVersion Uint32
----@field public sceneBeforeChange scnSceneResource
+---@field changeInVersion Uint32
+---@field sceneBeforeChange scnSceneResource
 scnScenesVersionsChangedRecord = {}
 
 ---@param fields? scnScenesVersionsChangedRecord
 ---@return scnScenesVersionsChangedRecord
-function scnScenesVersionsChangedRecord.new(fields) return end
+function scnScenesVersionsChangedRecord.new(fields) end

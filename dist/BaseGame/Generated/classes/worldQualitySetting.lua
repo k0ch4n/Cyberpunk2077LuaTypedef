@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldQualitySetting
----@field public QualityLevel ConfigGraphicsQualityLevel
----@field public xEntitiesBudget Uint32
+---@field QualityLevel ConfigGraphicsQualityLevel
+---@field xEntitiesBudget Uint32
 worldQualitySetting = {}
 
 ---@param fields? worldQualitySetting
 ---@return worldQualitySetting
-function worldQualitySetting.new(fields) return end
+function worldQualitySetting.new(fields) end

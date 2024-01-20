@@ -5,4 +5,4 @@ SceneCustomData_ColorFadeParams = {}
 
 ---@param fields? SceneCustomData_ColorFadeParams
 ---@return SceneCustomData_ColorFadeParams
-function SceneCustomData_ColorFadeParams.new(fields) return end
+function SceneCustomData_ColorFadeParams.new(fields) end

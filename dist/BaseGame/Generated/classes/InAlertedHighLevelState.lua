@@ -5,8 +5,7 @@ InAlertedHighLevelState = {}
 
 ---@param fields? InAlertedHighLevelState
 ---@return InAlertedHighLevelState
-function InAlertedHighLevelState.new(fields) return end
+function InAlertedHighLevelState.new(fields) end
 
----@private
 ---@return gamedataNPCHighLevelState
-function InAlertedHighLevelState:GetStateToCheck() return end
+function InAlertedHighLevelState:GetStateToCheck() end

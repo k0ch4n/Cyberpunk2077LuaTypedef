@@ -1,53 +1,48 @@
 ---@meta
 
 ---@class GenericButtonController: inkWidgetLogicController
----@field private label inkTextWidgetReference
----@field private frameHovered inkWidgetReference
----@field private itemHovered Bool
----@field private enabled Bool
+---@field label inkTextWidgetReference
+---@field frameHovered inkWidgetReference
+---@field itemHovered Bool
+---@field enabled Bool
 GenericButtonController = {}
 
 ---@param fields? GenericButtonController
 ---@return GenericButtonController
-function GenericButtonController.new(fields) return end
+function GenericButtonController.new(fields) end
 
 ---@param label inkTextWidgetReference
 ---@param root inkWidget
 ---@return nil
-function GenericButtonController.ApplyDisabledLayout(label, root) return end
+function GenericButtonController.ApplyDisabledLayout(label, root) end
 
 ---@param label inkTextWidgetReference
 ---@param root inkWidget
 ---@return nil
-function GenericButtonController.ApplyEnabledLayout(label, root) return end
+function GenericButtonController.ApplyEnabledLayout(label, root) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericButtonController:OnButtonHoverOut(evt) return end
+function GenericButtonController:OnButtonHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function GenericButtonController:OnButtonHoverOver(evt) return end
+function GenericButtonController:OnButtonHoverOver(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function GenericButtonController:OnButtonRelease(e) return end
+function GenericButtonController:OnButtonRelease(e) end
 
----@protected
 ---@return Bool
-function GenericButtonController:OnInitialize() return end
+function GenericButtonController:OnInitialize() end
 
----@protected
 ---@return Bool
-function GenericButtonController:OnUninitialize() return end
+function GenericButtonController:OnUninitialize() end
 
 ---@param label String
 ---@return nil
-function GenericButtonController:Init(label) return end
+function GenericButtonController:Init(label) end
 
 ---@param label String
 ---@return nil
-function GenericButtonController:UpdateButton(label) return end
+function GenericButtonController:UpdateButton(label) end

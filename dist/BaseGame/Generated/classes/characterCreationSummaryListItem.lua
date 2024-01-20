@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class characterCreationSummaryListItem: inkListItemController
----@field public headerLabel inkTextWidgetReference
----@field public descLabel inkTextWidgetReference
----@field public data CharacterCreationSummaryListItemData
+---@field headerLabel inkTextWidgetReference
+---@field descLabel inkTextWidgetReference
+---@field data CharacterCreationSummaryListItemData
 characterCreationSummaryListItem = {}
 
 ---@param fields? characterCreationSummaryListItem
 ---@return characterCreationSummaryListItem
-function characterCreationSummaryListItem.new(fields) return end
+function characterCreationSummaryListItem.new(fields) end
 
----@protected
 ---@return Bool
-function characterCreationSummaryListItem:OnInitialize() return end
+function characterCreationSummaryListItem:OnInitialize() end
 
 ---@param newData IScriptable
 ---@return nil
-function characterCreationSummaryListItem:Refresh(newData) return end
+function characterCreationSummaryListItem:Refresh(newData) end

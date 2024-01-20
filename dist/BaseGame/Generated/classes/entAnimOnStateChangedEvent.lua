@@ -5,4 +5,4 @@ entAnimOnStateChangedEvent = {}
 
 ---@param fields? entAnimOnStateChangedEvent
 ---@return entAnimOnStateChangedEvent
-function entAnimOnStateChangedEvent.new(fields) return end
+function entAnimOnStateChangedEvent.new(fields) end

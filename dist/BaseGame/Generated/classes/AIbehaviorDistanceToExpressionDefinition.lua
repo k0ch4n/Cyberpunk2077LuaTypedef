@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class AIbehaviorDistanceToExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public target AIbehaviorExpressionSocket
----@field public tolerance Float
----@field public updatePeriod Float
+---@field target AIbehaviorExpressionSocket
+---@field tolerance Float
+---@field updatePeriod Float
 AIbehaviorDistanceToExpressionDefinition = {}
 
 ---@param fields? AIbehaviorDistanceToExpressionDefinition
 ---@return AIbehaviorDistanceToExpressionDefinition
-function AIbehaviorDistanceToExpressionDefinition.new(fields) return end
+function AIbehaviorDistanceToExpressionDefinition.new(fields) end

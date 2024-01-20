@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class gameuiarcadeArcadePlayerController: inkWidgetLogicController
----@field public colliderList gameuiarcadeArcadeColliderData[]
+---@field colliderList gameuiarcadeArcadeColliderData[]
 gameuiarcadeArcadePlayerController = {}

@@ -5,20 +5,20 @@ SetAuthorizationModuleOFF = {}
 
 ---@param fields? SetAuthorizationModuleOFF
 ---@return SetAuthorizationModuleOFF
-function SetAuthorizationModuleOFF.new(fields) return end
+function SetAuthorizationModuleOFF.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function SetAuthorizationModuleOFF.IsAvailable(device) return end
+function SetAuthorizationModuleOFF.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function SetAuthorizationModuleOFF.IsClearanceValid(clearance) return end
+function SetAuthorizationModuleOFF.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function SetAuthorizationModuleOFF.IsDefaultConditionMet(device, context) return end
+function SetAuthorizationModuleOFF.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function SetAuthorizationModuleOFF:SetProperties() return end
+function SetAuthorizationModuleOFF:SetProperties() end

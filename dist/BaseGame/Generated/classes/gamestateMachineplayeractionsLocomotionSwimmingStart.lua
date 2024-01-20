@@ -5,4 +5,4 @@ gamestateMachineplayeractionsLocomotionSwimmingStart = {}
 
 ---@param fields? gamestateMachineplayeractionsLocomotionSwimmingStart
 ---@return gamestateMachineplayeractionsLocomotionSwimmingStart
-function gamestateMachineplayeractionsLocomotionSwimmingStart.new(fields) return end
+function gamestateMachineplayeractionsLocomotionSwimmingStart.new(fields) end

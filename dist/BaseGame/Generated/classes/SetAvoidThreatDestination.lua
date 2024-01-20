@@ -5,9 +5,8 @@ SetAvoidThreatDestination = {}
 
 ---@param fields? SetAvoidThreatDestination
 ---@return SetAvoidThreatDestination
-function SetAvoidThreatDestination.new(fields) return end
+function SetAvoidThreatDestination.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetAvoidThreatDestination:Activate(context) return end
+function SetAvoidThreatDestination:Activate(context) end

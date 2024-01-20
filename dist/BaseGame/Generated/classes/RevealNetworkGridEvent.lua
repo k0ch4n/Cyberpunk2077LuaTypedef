@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class RevealNetworkGridEvent: redEvent
----@field public shouldDraw Bool
----@field public ownerEntityPosition Vector4
----@field public fxDefault gameFxResource
----@field public fxBreached gameFxResource
----@field public revealSlave Bool
----@field public revealMaster Bool
+---@field shouldDraw Bool
+---@field ownerEntityPosition Vector4
+---@field fxDefault gameFxResource
+---@field fxBreached gameFxResource
+---@field revealSlave Bool
+---@field revealMaster Bool
 RevealNetworkGridEvent = {}
 
 ---@param fields? RevealNetworkGridEvent
 ---@return RevealNetworkGridEvent
-function RevealNetworkGridEvent.new(fields) return end
+function RevealNetworkGridEvent.new(fields) end

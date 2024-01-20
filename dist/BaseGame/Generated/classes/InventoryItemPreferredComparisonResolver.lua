@@ -1,89 +1,85 @@
 ---@meta
 
 ---@class InventoryItemPreferredComparisonResolver: IScriptable
----@field private cacheadAreaItems InventoryItemPreferredAreaItems[]
----@field private cachedComparableTypes InventoryItemComparableTypesCache[]
----@field private typeComparableItemsCache InventoryTypeComparableItemsCache[]
----@field private inventoryScriptableSystem UIInventoryScriptableSystem
----@field private forcedCompareItem UIInventoryItem
----@field private useForceCompare Bool
+---@field cacheadAreaItems InventoryItemPreferredAreaItems[]
+---@field cachedComparableTypes InventoryItemComparableTypesCache[]
+---@field typeComparableItemsCache InventoryTypeComparableItemsCache[]
+---@field inventoryScriptableSystem UIInventoryScriptableSystem
+---@field forcedCompareItem UIInventoryItem
+---@field useForceCompare Bool
 InventoryItemPreferredComparisonResolver = {}
 
 ---@param fields? InventoryItemPreferredComparisonResolver
 ---@return InventoryItemPreferredComparisonResolver
-function InventoryItemPreferredComparisonResolver.new(fields) return end
+function InventoryItemPreferredComparisonResolver.new(fields) end
 
 ---@param inventoryScriptableSystem UIInventoryScriptableSystem
 ---@return InventoryItemPreferredComparisonResolver
-function InventoryItemPreferredComparisonResolver.Make(inventoryScriptableSystem) return end
+function InventoryItemPreferredComparisonResolver.Make(inventoryScriptableSystem) end
 
----@private
 ---@param item UIInventoryItem
 ---@return InventoryItemComparableTypesCache
-function InventoryItemPreferredComparisonResolver:CacheComparableType(item) return end
+function InventoryItemPreferredComparisonResolver:CacheComparableType(item) end
 
 ---@param lhs UIInventoryItem
 ---@param rhs UIInventoryItem
 ---@return gameItemComparisonState
-function InventoryItemPreferredComparisonResolver:CompareItemsByQuality(lhs, rhs) return end
+function InventoryItemPreferredComparisonResolver:CompareItemsByQuality(lhs, rhs) end
 
 ---@param lhs UIInventoryItem
 ---@param rhs UIInventoryItem
 ---@return gameItemComparisonState
-function InventoryItemPreferredComparisonResolver:CompareItemsByStats(lhs, rhs) return end
+function InventoryItemPreferredComparisonResolver:CompareItemsByStats(lhs, rhs) end
 
 ---@return nil
-function InventoryItemPreferredComparisonResolver:DisableForceComparedItem() return end
+function InventoryItemPreferredComparisonResolver:DisableForceComparedItem() end
 
 ---@return nil
-function InventoryItemPreferredComparisonResolver:FlushCache() return end
+function InventoryItemPreferredComparisonResolver:FlushCache() end
 
 ---@param item UIInventoryItem
 ---@return nil
-function InventoryItemPreferredComparisonResolver:ForceComparedItem(item) return end
+function InventoryItemPreferredComparisonResolver:ForceComparedItem(item) end
 
----@private
 ---@param equipmentArea gamedataEquipmentArea
 ---@return InventoryItemPreferredAreaItems
-function InventoryItemPreferredComparisonResolver:GetAreaItems(equipmentArea) return end
+function InventoryItemPreferredComparisonResolver:GetAreaItems(equipmentArea) end
 
 ---@param item UIInventoryItem
 ---@return UIInventoryItem[]
-function InventoryItemPreferredComparisonResolver:GetComparableItems(item) return end
+function InventoryItemPreferredComparisonResolver:GetComparableItems(item) end
 
----@private
 ---@param item UIInventoryItem
 ---@return InventoryItemComparableTypesCache
-function InventoryItemPreferredComparisonResolver:GetComparableTypes(item) return end
+function InventoryItemPreferredComparisonResolver:GetComparableTypes(item) end
 
 ---@param item UIInventoryItem
 ---@return gameItemComparisonState
-function InventoryItemPreferredComparisonResolver:GetItemComparisonState(item) return end
+function InventoryItemPreferredComparisonResolver:GetItemComparisonState(item) end
 
 ---@param item UIInventoryItem
 ---@return UIInventoryItem
-function InventoryItemPreferredComparisonResolver:GetPreferredComparisonItem(item) return end
+function InventoryItemPreferredComparisonResolver:GetPreferredComparisonItem(item) end
 
 ---@param item UIInventoryItem
 ---@param itemsToCompare UIInventoryItem[]
 ---@return Int32
-function InventoryItemPreferredComparisonResolver:GetPrefferedEquipedItemToCompare(item, itemsToCompare) return end
+function InventoryItemPreferredComparisonResolver:GetPrefferedEquipedItemToCompare(item, itemsToCompare) end
 
----@private
 ---@param item UIInventoryItem
 ---@return InventoryTypeComparableItemsCache
-function InventoryItemPreferredComparisonResolver:GetTypeComparableItems(item) return end
+function InventoryItemPreferredComparisonResolver:GetTypeComparableItems(item) end
 
 ---@param uiScriptableSystem UIScriptableSystem
 ---@param item UIInventoryItem
 ---@return Bool
-function InventoryItemPreferredComparisonResolver:IsBetterComparableNewItem(uiScriptableSystem, item) return end
+function InventoryItemPreferredComparisonResolver:IsBetterComparableNewItem(uiScriptableSystem, item) end
 
 ---@param item UIInventoryItem
 ---@return Bool
-function InventoryItemPreferredComparisonResolver:IsComparable(item) return end
+function InventoryItemPreferredComparisonResolver:IsComparable(item) end
 
 ---@param baseItem UIInventoryItem
 ---@param comparedType gamedataItemType
 ---@return Bool
-function InventoryItemPreferredComparisonResolver:IsTypeComparable(baseItem, comparedType) return end
+function InventoryItemPreferredComparisonResolver:IsTypeComparable(baseItem, comparedType) end

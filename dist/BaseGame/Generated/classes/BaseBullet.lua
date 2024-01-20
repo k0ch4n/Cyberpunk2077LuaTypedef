@@ -1,67 +1,56 @@
 ---@meta
 
 ---@class BaseBullet: BaseProjectile
----@field private meshComponent entIComponent
----@field protected countTime Float
----@field protected startVelocity Float
----@field protected acceleration Float
----@field protected lifetime Float
----@field private alive Bool
+---@field meshComponent entIComponent
+---@field countTime Float
+---@field startVelocity Float
+---@field acceleration Float
+---@field lifetime Float
+---@field alive Bool
 BaseBullet = {}
 
 ---@param fields? BaseBullet
 ---@return BaseBullet
-function BaseBullet.new(fields) return end
+function BaseBullet.new(fields) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return Bool
-function BaseBullet:OnCollision(eventData) return end
+function BaseBullet:OnCollision(eventData) end
 
----@protected
 ---@param eventData gameprojectileSetUpEvent
 ---@return Bool
-function BaseBullet:OnProjectileInitialize(eventData) return end
+function BaseBullet:OnProjectileInitialize(eventData) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function BaseBullet:OnRequestComponents(ri) return end
+function BaseBullet:OnRequestComponents(ri) end
 
----@protected
 ---@param eventData gameprojectileShootEvent
 ---@return Bool
-function BaseBullet:OnShoot(eventData) return end
+function BaseBullet:OnShoot(eventData) end
 
----@protected
 ---@param eventData gameprojectileShootTargetEvent
 ---@return Bool
-function BaseBullet:OnShootTarget(eventData) return end
+function BaseBullet:OnShootTarget(eventData) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BaseBullet:OnTakeControl(ri) return end
+function BaseBullet:OnTakeControl(ri) end
 
----@protected
 ---@param eventData gameprojectileTickEvent
 ---@return Bool
-function BaseBullet:OnTick(eventData) return end
+function BaseBullet:OnTick(eventData) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return nil
-function BaseBullet:DealDamage(eventData) return end
+function BaseBullet:DealDamage(eventData) end
 
----@protected
 ---@param eventData gameprojectileHitEvent
 ---@return nil
-function BaseBullet:PerformAttack(eventData) return end
+function BaseBullet:PerformAttack(eventData) end
 
----@private
 ---@return nil
-function BaseBullet:Reset() return end
+function BaseBullet:Reset() end
 
----@private
 ---@return nil
-function BaseBullet:StartTrailEffect() return end
+function BaseBullet:StartTrailEffect() end

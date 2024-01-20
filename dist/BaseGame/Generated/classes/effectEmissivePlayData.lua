@@ -5,4 +5,4 @@ effectEmissivePlayData = {}
 
 ---@param fields? effectEmissivePlayData
 ---@return effectEmissivePlayData
-function effectEmissivePlayData.new(fields) return end
+function effectEmissivePlayData.new(fields) end

@@ -5,4 +5,4 @@ inkEditorModeState = {}
 
 ---@param fields? inkEditorModeState
 ---@return inkEditorModeState
-function inkEditorModeState.new(fields) return end
+function inkEditorModeState.new(fields) end

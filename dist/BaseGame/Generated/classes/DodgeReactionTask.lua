@@ -5,9 +5,8 @@ DodgeReactionTask = {}
 
 ---@param fields? DodgeReactionTask
 ---@return DodgeReactionTask
-function DodgeReactionTask.new(fields) return end
+function DodgeReactionTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function DodgeReactionTask:Deactivate(context) return end
+function DodgeReactionTask:Deactivate(context) end

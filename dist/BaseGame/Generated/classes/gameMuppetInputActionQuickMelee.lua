@@ -5,4 +5,4 @@ gameMuppetInputActionQuickMelee = {}
 
 ---@param fields? gameMuppetInputActionQuickMelee
 ---@return gameMuppetInputActionQuickMelee
-function gameMuppetInputActionQuickMelee.new(fields) return end
+function gameMuppetInputActionQuickMelee.new(fields) end

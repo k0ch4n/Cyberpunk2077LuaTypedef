@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questInspectListenerEvent: redEvent
----@field public listener questObjectInspectListener
----@field public register Bool
+---@field listener questObjectInspectListener
+---@field register Bool
 questInspectListenerEvent = {}
 
 ---@param fields? questInspectListenerEvent
 ---@return questInspectListenerEvent
-function questInspectListenerEvent.new(fields) return end
+function questInspectListenerEvent.new(fields) end

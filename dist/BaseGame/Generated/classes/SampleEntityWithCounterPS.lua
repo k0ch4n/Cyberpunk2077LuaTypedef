@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SampleEntityWithCounterPS: gameObjectPS
----@field protected counter Int32
+---@field counter Int32
 SampleEntityWithCounterPS = {}
 
 ---@param fields? SampleEntityWithCounterPS
 ---@return SampleEntityWithCounterPS
-function SampleEntityWithCounterPS.new(fields) return end
+function SampleEntityWithCounterPS.new(fields) end
 
 ---@param evt SampleBumpEvent
 ---@return EntityNotificationType
-function SampleEntityWithCounterPS:OnBumpTheCounter(evt) return end
+function SampleEntityWithCounterPS:OnBumpTheCounter(evt) end
 
 ---@return Int32
-function SampleEntityWithCounterPS:ReadTheCounter() return end
+function SampleEntityWithCounterPS:ReadTheCounter() end

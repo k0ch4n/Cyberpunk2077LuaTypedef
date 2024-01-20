@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldDeviceNode: worldEntityNode
----@field public deviceClassName CName
----@field public alphaHackStreamingDistanceOverride Float
----@field public deviceConnections worldDeviceConnections[]
+---@field deviceClassName CName
+---@field alphaHackStreamingDistanceOverride Float
+---@field deviceConnections worldDeviceConnections[]
 worldDeviceNode = {}
 
 ---@param fields? worldDeviceNode
 ---@return worldDeviceNode
-function worldDeviceNode.new(fields) return end
+function worldDeviceNode.new(fields) end

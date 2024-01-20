@@ -1,43 +1,40 @@
 ---@meta
 
 ---@class PayActionWidgetController: DeviceActionWidgetControllerBase
----@field protected priceContainer inkWidgetReference
----@field protected moneyStatusContainer inkWidgetReference
----@field protected processingStatusContainer inkWidgetReference
----@field protected moneyStatusAnimName CName
----@field protected processingAnimName CName
----@field private isProcessingPayment Bool
+---@field priceContainer inkWidgetReference
+---@field moneyStatusContainer inkWidgetReference
+---@field processingStatusContainer inkWidgetReference
+---@field moneyStatusAnimName CName
+---@field processingAnimName CName
+---@field isProcessingPayment Bool
 PayActionWidgetController = {}
 
 ---@param fields? PayActionWidgetController
 ---@return PayActionWidgetController
-function PayActionWidgetController.new(fields) return end
+function PayActionWidgetController.new(fields) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function PayActionWidgetController:OnNoMoneyShowed(e) return end
+function PayActionWidgetController:OnNoMoneyShowed(e) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function PayActionWidgetController:OnPaymentProcessed(e) return end
+function PayActionWidgetController:OnPaymentProcessed(e) end
 
 ---@return Bool
-function PayActionWidgetController:CanExecuteAction() return end
+function PayActionWidgetController:CanExecuteAction() end
 
 ---@param executor gameObject
 ---@param action gamedeviceAction
 ---@return nil
-function PayActionWidgetController:FinalizeActionExecution(executor, action) return end
+function PayActionWidgetController:FinalizeActionExecution(executor, action) end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SActionWidgetPackage
 ---@return nil
-function PayActionWidgetController:Initialize(gameController, widgetData) return end
+function PayActionWidgetController:Initialize(gameController, widgetData) end
 
----@protected
 ---@param action Pay
 ---@param executor gameObject
 ---@return nil
-function PayActionWidgetController:ProcessPayment(action, executor) return end
+function PayActionWidgetController:ProcessPayment(action, executor) end

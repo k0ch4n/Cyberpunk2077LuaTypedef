@@ -5,4 +5,4 @@ RestoreRevealStateEvent = {}
 
 ---@param fields? RestoreRevealStateEvent
 ---@return RestoreRevealStateEvent
-function RestoreRevealStateEvent.new(fields) return end
+function RestoreRevealStateEvent.new(fields) end

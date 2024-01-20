@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldAutoFoliageMappingItem
----@field public Material CName
----@field public LayerIndex Uint32
----@field public FoliageBrush worldFoliageBrush
+---@field Material CName
+---@field LayerIndex Uint32
+---@field FoliageBrush worldFoliageBrush
 worldAutoFoliageMappingItem = {}
 
 ---@param fields? worldAutoFoliageMappingItem
 ---@return worldAutoFoliageMappingItem
-function worldAutoFoliageMappingItem.new(fields) return end
+function worldAutoFoliageMappingItem.new(fields) end

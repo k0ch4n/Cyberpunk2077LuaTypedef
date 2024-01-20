@@ -1,93 +1,85 @@
 ---@meta
 
 ---@class InnerSubsystemScreenGameController: BaseInnerBunkerComputerGameController
----@field public loopAnimName CName[]
----@field public adminAccessPopupAnimName CName
----@field public unrecognizedPopupAnimName CName
----@field public preAuthorizingPopupAnimName CName
----@field public postAuthorizingPopupAnimName CName
----@field public deniedPopupAnimName CName
----@field public successPopupAnimName CName
----@field public errorPopupAnimName CName
----@field public icePopupAnimName CName
----@field public shutdownButton inkWidgetReference[]
----@field public adminPanelButton inkWidgetReference[]
----@field public adminPanelPopupButton inkWidgetReference
----@field public transitionToAuthorization inkWidgetReference
----@field public transitionToMinigame inkWidgetReference
----@field public transitionToAdminPanel inkWidgetReference
----@field public subsystemIndex Int32
----@field public adminAccessPopupAnimProxy inkanimProxy
----@field public successPopupAnimProxy inkanimProxy
----@field public errorPopupAnimProxy inkanimProxy
+---@field loopAnimName CName[]
+---@field adminAccessPopupAnimName CName
+---@field unrecognizedPopupAnimName CName
+---@field preAuthorizingPopupAnimName CName
+---@field postAuthorizingPopupAnimName CName
+---@field deniedPopupAnimName CName
+---@field successPopupAnimName CName
+---@field errorPopupAnimName CName
+---@field icePopupAnimName CName
+---@field shutdownButton inkWidgetReference[]
+---@field adminPanelButton inkWidgetReference[]
+---@field adminPanelPopupButton inkWidgetReference
+---@field transitionToAuthorization inkWidgetReference
+---@field transitionToMinigame inkWidgetReference
+---@field transitionToAdminPanel inkWidgetReference
+---@field subsystemIndex Int32
+---@field adminAccessPopupAnimProxy inkanimProxy
+---@field successPopupAnimProxy inkanimProxy
+---@field errorPopupAnimProxy inkanimProxy
 InnerSubsystemScreenGameController = {}
 
 ---@param fields? InnerSubsystemScreenGameController
 ---@return InnerSubsystemScreenGameController
-function InnerSubsystemScreenGameController.new(fields) return end
+function InnerSubsystemScreenGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function InnerSubsystemScreenGameController:OnAdminPanelButtonClicked(e) return end
+function InnerSubsystemScreenGameController:OnAdminPanelButtonClicked(e) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function InnerSubsystemScreenGameController:OnDeniedPopupAnimFinished(proxy) return end
+function InnerSubsystemScreenGameController:OnDeniedPopupAnimFinished(proxy) end
 
----@protected
 ---@param fact CName|string
 ---@param value Int32
 ---@return Bool
-function InnerSubsystemScreenGameController:OnFactChanged(fact, value) return end
+function InnerSubsystemScreenGameController:OnFactChanged(fact, value) end
 
----@protected
 ---@return Bool
-function InnerSubsystemScreenGameController:OnInitialize() return end
+function InnerSubsystemScreenGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function InnerSubsystemScreenGameController:OnShowPostAuthorizingPopupAnimFinished(proxy) return end
+function InnerSubsystemScreenGameController:OnShowPostAuthorizingPopupAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function InnerSubsystemScreenGameController:OnShowPreAuthorizingPopupAnimFinished(proxy) return end
+function InnerSubsystemScreenGameController:OnShowPreAuthorizingPopupAnimFinished(proxy) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function InnerSubsystemScreenGameController:OnShutdownButtonClicked(e) return end
+function InnerSubsystemScreenGameController:OnShutdownButtonClicked(e) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function InnerSubsystemScreenGameController:OnUnrecognizedUserPopupEndLoop(proxy) return end
+function InnerSubsystemScreenGameController:OnUnrecognizedUserPopupEndLoop(proxy) end
 
 ---@return nil
-function InnerSubsystemScreenGameController:DisableButtons() return end
+function InnerSubsystemScreenGameController:DisableButtons() end
 
 ---@return nil
-function InnerSubsystemScreenGameController:ShowAdminAccessPopup() return end
+function InnerSubsystemScreenGameController:ShowAdminAccessPopup() end
 
 ---@return nil
-function InnerSubsystemScreenGameController:ShowDeniedPopup() return end
+function InnerSubsystemScreenGameController:ShowDeniedPopup() end
 
 ---@return nil
-function InnerSubsystemScreenGameController:ShowErrorPopup() return end
+function InnerSubsystemScreenGameController:ShowErrorPopup() end
 
 ---@return nil
-function InnerSubsystemScreenGameController:ShowPostAuthorizingPopup() return end
+function InnerSubsystemScreenGameController:ShowPostAuthorizingPopup() end
 
 ---@param startMinigame Bool
 ---@return nil
-function InnerSubsystemScreenGameController:ShowPreAuthorizingPopup(startMinigame) return end
+function InnerSubsystemScreenGameController:ShowPreAuthorizingPopup(startMinigame) end
 
 ---@return nil
-function InnerSubsystemScreenGameController:ShowSuccessPopup() return end
+function InnerSubsystemScreenGameController:ShowSuccessPopup() end
 
 ---@param fromInit Bool
 ---@return nil
-function InnerSubsystemScreenGameController:ShowUnrecognizedUserPopup(fromInit) return end
+function InnerSubsystemScreenGameController:ShowUnrecognizedUserPopup(fromInit) end

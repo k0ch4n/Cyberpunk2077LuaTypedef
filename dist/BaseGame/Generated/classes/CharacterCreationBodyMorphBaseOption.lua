@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class CharacterCreationBodyMorphBaseOption: inkWidgetLogicController
----@field protected isPrevOrNextBtnHoveredOver Bool
+---@field isPrevOrNextBtnHoveredOver Bool
 CharacterCreationBodyMorphBaseOption = {}
 
 ---@param fields? CharacterCreationBodyMorphBaseOption
 ---@return CharacterCreationBodyMorphBaseOption
-function CharacterCreationBodyMorphBaseOption.new(fields) return end
+function CharacterCreationBodyMorphBaseOption.new(fields) end
 
 ---@return Bool
-function CharacterCreationBodyMorphBaseOption:IsPrevOrNextBtnHoveredOver() return end
+function CharacterCreationBodyMorphBaseOption:IsPrevOrNextBtnHoveredOver() end

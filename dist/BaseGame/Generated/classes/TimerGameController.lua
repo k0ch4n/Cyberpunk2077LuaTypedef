@@ -1,59 +1,51 @@
 ---@meta
 
 ---@class TimerGameController: gameuiHUDGameController
----@field private value inkTextWidgetReference
----@field private rootWidget inkWidget
----@field private timerBB gameIBlackboard
----@field private timerDef UIGameDataDef
----@field private activeBBID redCallbackObject
----@field private progressBBID redCallbackObject
+---@field value inkTextWidgetReference
+---@field rootWidget inkWidget
+---@field timerBB gameIBlackboard
+---@field timerDef UIGameDataDef
+---@field activeBBID redCallbackObject
+---@field progressBBID redCallbackObject
 TimerGameController = {}
 
 ---@param fields? TimerGameController
 ---@return TimerGameController
-function TimerGameController.new(fields) return end
+function TimerGameController.new(fields) end
 
----@protected
 ---@return Bool
-function TimerGameController:OnInitialize() return end
+function TimerGameController:OnInitialize() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function TimerGameController:OnTimerActiveUpdated(value) return end
+function TimerGameController:OnTimerActiveUpdated(value) end
 
----@protected
 ---@param value Float
 ---@return Bool
-function TimerGameController:OnTimerProgressUpdated(value) return end
+function TimerGameController:OnTimerProgressUpdated(value) end
 
----@protected
 ---@return Bool
-function TimerGameController:OnUninitialize() return end
+function TimerGameController:OnUninitialize() end
 
 ---@return nil
-function TimerGameController:Hide() return end
+function TimerGameController:Hide() end
 
----@private
 ---@return nil
-function TimerGameController:Intro() return end
+function TimerGameController:Intro() end
 
----@private
 ---@return nil
-function TimerGameController:Outro() return end
+function TimerGameController:Outro() end
 
----@private
 ---@return nil
-function TimerGameController:SetupBB() return end
+function TimerGameController:SetupBB() end
 
----@private
 ---@return nil
-function TimerGameController:UnregisterFromBB() return end
+function TimerGameController:UnregisterFromBB() end
 
 ---@param value Float
 ---@return nil
-function TimerGameController:UpdateTimerActive(value) return end
+function TimerGameController:UpdateTimerActive(value) end
 
 ---@param time Float
 ---@return nil
-function TimerGameController:UpdateTimerProgress(time) return end
+function TimerGameController:UpdateTimerProgress(time) end

@@ -1,19 +1,17 @@
 ---@meta
 
 ---@class SimpleShouldEvadeCondition: AIbehaviorconditionScript
----@field private hitReactionComponent HitReactionComponent
+---@field hitReactionComponent HitReactionComponent
 SimpleShouldEvadeCondition = {}
 
 ---@param fields? SimpleShouldEvadeCondition
 ---@return SimpleShouldEvadeCondition
-function SimpleShouldEvadeCondition.new(fields) return end
+function SimpleShouldEvadeCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SimpleShouldEvadeCondition:Activate(context) return end
+function SimpleShouldEvadeCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function SimpleShouldEvadeCondition:Check(context) return end
+function SimpleShouldEvadeCondition:Check(context) end

@@ -5,4 +5,4 @@ gameClientEntitySpawnSystem = {}
 
 ---@param fields? gameClientEntitySpawnSystem
 ---@return gameClientEntitySpawnSystem
-function gameClientEntitySpawnSystem.new(fields) return end
+function gameClientEntitySpawnSystem.new(fields) end

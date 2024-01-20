@@ -5,4 +5,4 @@ gamedataDestructibleObject_Record = {}
 
 ---@param fields? gamedataDestructibleObject_Record
 ---@return gamedataDestructibleObject_Record
-function gamedataDestructibleObject_Record.new(fields) return end
+function gamedataDestructibleObject_Record.new(fields) end

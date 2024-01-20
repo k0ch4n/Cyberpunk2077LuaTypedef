@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class physicsclothPhaseConfig
----@field public stiffness Float
----@field public stiffnessMultiplier Float
----@field public compressionLimit Float
----@field public stretchLimit Float
+---@field stiffness Float
+---@field stiffnessMultiplier Float
+---@field compressionLimit Float
+---@field stretchLimit Float
 physicsclothPhaseConfig = {}
 
 ---@param fields? physicsclothPhaseConfig
 ---@return physicsclothPhaseConfig
-function physicsclothPhaseConfig.new(fields) return end
+function physicsclothPhaseConfig.new(fields) end

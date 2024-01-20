@@ -1,40 +1,35 @@
 ---@meta
 
 ---@class SceneScreen: gameObject
----@field public uiAnimationsData SceneScreenUIAnimationsData
----@field protected blackboard gameIBlackboard
+---@field uiAnimationsData SceneScreenUIAnimationsData
+---@field blackboard gameIBlackboard
 SceneScreen = {}
 
 ---@param fields? SceneScreen
 ---@return SceneScreen
-function SceneScreen.new(fields) return end
+function SceneScreen.new(fields) end
 
----@protected
 ---@param evt ChangeUIAnimEvent
 ---@return Bool
-function SceneScreen:OnChangeUIAnimEvent(evt) return end
+function SceneScreen:OnChangeUIAnimEvent(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function SceneScreen:OnRequestComponents(ri) return end
+function SceneScreen:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function SceneScreen:OnTakeControl(ri) return end
+function SceneScreen:OnTakeControl(ri) end
 
----@protected
 ---@return nil
-function SceneScreen:CreateBlackboard() return end
+function SceneScreen:CreateBlackboard() end
 
 ---@return gameIBlackboard
-function SceneScreen:GetBlackboard() return end
+function SceneScreen:GetBlackboard() end
 
 ---@return SceneScreenUIAnimationsData
-function SceneScreen:GetUIAnimationData() return end
+function SceneScreen:GetUIAnimationData() end
 
----@protected
 ---@param animName CName|string
 ---@return nil
-function SceneScreen:SendDataToUIBlackboard(animName) return end
+function SceneScreen:SendDataToUIBlackboard(animName) end

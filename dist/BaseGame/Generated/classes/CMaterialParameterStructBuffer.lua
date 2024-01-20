@@ -5,4 +5,4 @@ CMaterialParameterStructBuffer = {}
 
 ---@param fields? CMaterialParameterStructBuffer
 ---@return CMaterialParameterStructBuffer
-function CMaterialParameterStructBuffer.new(fields) return end
+function CMaterialParameterStructBuffer.new(fields) end

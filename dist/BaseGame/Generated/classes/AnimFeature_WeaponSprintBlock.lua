@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AnimFeature_WeaponSprintBlock: animAnimFeature
----@field public active Bool
+---@field active Bool
 AnimFeature_WeaponSprintBlock = {}
 
 ---@param fields? AnimFeature_WeaponSprintBlock
 ---@return AnimFeature_WeaponSprintBlock
-function AnimFeature_WeaponSprintBlock.new(fields) return end
+function AnimFeature_WeaponSprintBlock.new(fields) end

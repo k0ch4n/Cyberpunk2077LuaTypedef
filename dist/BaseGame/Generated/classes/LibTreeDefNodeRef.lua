@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class LibTreeDefNodeRef
----@field public variableId Uint16
----@field public treeVariable CName
----@field public v NodeRef
+---@field variableId Uint16
+---@field treeVariable CName
+---@field v NodeRef
 LibTreeDefNodeRef = {}
 
 ---@param fields? LibTreeDefNodeRef
 ---@return LibTreeDefNodeRef
-function LibTreeDefNodeRef.new(fields) return end
+function LibTreeDefNodeRef.new(fields) end

@@ -5,11 +5,11 @@ gamePingSystem = {}
 
 ---@param fields? gamePingSystem
 ---@return gamePingSystem
-function gamePingSystem.new(fields) return end
+function gamePingSystem.new(fields) end
 
 ---@return Bool
-function gamePingSystem.IsPingSystemEnabled() return end
+function gamePingSystem.IsPingSystemEnabled() end
 
 ---@param instigator gameObject
 ---@return nil
-function gamePingSystem:TriggerPing(instigator) return end
+function gamePingSystem:TriggerPing(instigator) end

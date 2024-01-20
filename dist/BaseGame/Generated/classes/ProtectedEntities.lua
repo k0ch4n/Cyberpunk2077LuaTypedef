@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ProtectedEntities: MorphData
----@field public protectedEntities entEntityID[]
+---@field protectedEntities entEntityID[]
 ProtectedEntities = {}
 
 ---@param fields? ProtectedEntities
 ---@return ProtectedEntities
-function ProtectedEntities.new(fields) return end
+function ProtectedEntities.new(fields) end

@@ -5,26 +5,22 @@ BarbedWire = {}
 
 ---@param fields? BarbedWire
 ---@return BarbedWire
-function BarbedWire.new(fields) return end
+function BarbedWire.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function BarbedWire:OnAreaEnter(evt) return end
+function BarbedWire:OnAreaEnter(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function BarbedWire:OnTakeControl(ri) return end
+function BarbedWire:OnTakeControl(ri) end
 
----@protected
 ---@param activator gameObject
 ---@return Bool
-function BarbedWire:CanAttackActivator(activator) return end
+function BarbedWire:CanAttackActivator(activator) end
 
----@protected
 ---@return BarbedWireController
-function BarbedWire:GetController() return end
+function BarbedWire:GetController() end
 
 ---@return BarbedWireControllerPS
-function BarbedWire:GetDevicePS() return end
+function BarbedWire:GetDevicePS() end

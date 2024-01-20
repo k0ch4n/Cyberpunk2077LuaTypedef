@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class PlayerTotalDamageAgainstHealth
----@field public player gameObject
----@field public totalDamage Float
----@field public targetHealth Float
+---@field player gameObject
+---@field totalDamage Float
+---@field targetHealth Float
 PlayerTotalDamageAgainstHealth = {}
 
 ---@param fields? PlayerTotalDamageAgainstHealth
 ---@return PlayerTotalDamageAgainstHealth
-function PlayerTotalDamageAgainstHealth.new(fields) return end
+function PlayerTotalDamageAgainstHealth.new(fields) end

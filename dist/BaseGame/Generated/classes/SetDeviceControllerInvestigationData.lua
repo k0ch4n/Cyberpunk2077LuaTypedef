@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class SetDeviceControllerInvestigationData: AIbehaviortaskScript
----@field public ownerPuppet ScriptedPuppet
+---@field ownerPuppet ScriptedPuppet
 SetDeviceControllerInvestigationData = {}
 
 ---@param fields? SetDeviceControllerInvestigationData
 ---@return SetDeviceControllerInvestigationData
-function SetDeviceControllerInvestigationData.new(fields) return end
+function SetDeviceControllerInvestigationData.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetDeviceControllerInvestigationData:Activate(context) return end
+function SetDeviceControllerInvestigationData:Activate(context) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AgentDistanceToTarget
----@field public distance Float
----@field public index Int32
+---@field distance Float
+---@field index Int32
 AgentDistanceToTarget = {}
 
 ---@param fields? AgentDistanceToTarget
 ---@return AgentDistanceToTarget
-function AgentDistanceToTarget.new(fields) return end
+function AgentDistanceToTarget.new(fields) end

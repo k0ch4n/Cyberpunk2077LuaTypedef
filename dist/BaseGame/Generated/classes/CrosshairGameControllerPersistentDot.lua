@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class CrosshairGameControllerPersistentDot: gameuiHUDGameController
----@field private settings userSettingsUserSettings
----@field private settingsListener PersistentDotSettingsListener
----@field private groupPath CName
----@field private isAiming Bool
----@field private psmUpperBodyStateCallback redCallbackObject
+---@field settings userSettingsUserSettings
+---@field settingsListener PersistentDotSettingsListener
+---@field groupPath CName
+---@field isAiming Bool
+---@field psmUpperBodyStateCallback redCallbackObject
 CrosshairGameControllerPersistentDot = {}
 
 ---@param fields? CrosshairGameControllerPersistentDot
 ---@return CrosshairGameControllerPersistentDot
-function CrosshairGameControllerPersistentDot.new(fields) return end
+function CrosshairGameControllerPersistentDot.new(fields) end
 
----@protected
 ---@return Bool
-function CrosshairGameControllerPersistentDot:OnInitialize() return end
+function CrosshairGameControllerPersistentDot:OnInitialize() end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function CrosshairGameControllerPersistentDot:OnPSMUpperBodyStateChanged(value) return end
+function CrosshairGameControllerPersistentDot:OnPSMUpperBodyStateChanged(value) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function CrosshairGameControllerPersistentDot:OnPlayerAttach(player) return end
+function CrosshairGameControllerPersistentDot:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function CrosshairGameControllerPersistentDot:OnPlayerDetach(player) return end
+function CrosshairGameControllerPersistentDot:OnPlayerDetach(player) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function CrosshairGameControllerPersistentDot:OnVarModified(groupPath, varName, varType, reason) return end
+function CrosshairGameControllerPersistentDot:OnVarModified(groupPath, varName, varType, reason) end
 
----@private
 ---@return nil
-function CrosshairGameControllerPersistentDot:UpdateRootVisibility() return end
+function CrosshairGameControllerPersistentDot:UpdateRootVisibility() end

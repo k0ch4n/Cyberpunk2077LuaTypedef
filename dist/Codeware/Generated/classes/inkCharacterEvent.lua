@@ -5,7 +5,7 @@ inkCharacterEvent = {}
 
 ---@param fields? inkCharacterEvent
 ---@return inkCharacterEvent
-function inkCharacterEvent.new(fields) return end
+function inkCharacterEvent.new(fields) end
 
 ---@return EInputAction
-function inkCharacterEvent:GetAction() return end
+function inkCharacterEvent:GetAction() end

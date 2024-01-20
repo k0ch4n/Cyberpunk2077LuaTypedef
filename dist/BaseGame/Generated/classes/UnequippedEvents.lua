@@ -1,22 +1,20 @@
 ---@meta
 
 ---@class UnequippedEvents: EquipmentBaseEvents
----@field public stateMachineInstanceData gamestateMachineStateMachineInstanceData
----@field public stateMachineInitData EquipmentInitData
+---@field stateMachineInstanceData gamestateMachineStateMachineInstanceData
+---@field stateMachineInitData EquipmentInitData
 UnequippedEvents = {}
 
 ---@param fields? UnequippedEvents
 ---@return UnequippedEvents
-function UnequippedEvents.new(fields) return end
+function UnequippedEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UnequippedEvents:OnEnter(stateContext, scriptInterface) return end
+function UnequippedEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function UnequippedEvents:OnExit(stateContext, scriptInterface) return end
+function UnequippedEvents:OnExit(stateContext, scriptInterface) end

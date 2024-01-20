@@ -1,41 +1,38 @@
 ---@meta
 
 ---@class RevealRequestsStorage: IScriptable
----@field private currentRequestersAmount Int32
----@field private requestersList entEntityID[]
+---@field currentRequestersAmount Int32
+---@field requestersList entEntityID[]
 RevealRequestsStorage = {}
 
 ---@param fields? RevealRequestsStorage
 ---@return RevealRequestsStorage
-function RevealRequestsStorage.new(fields) return end
+function RevealRequestsStorage.new(fields) end
 
 ---@return nil
-function RevealRequestsStorage:ClearAllRequests() return end
+function RevealRequestsStorage:ClearAllRequests() end
 
 ---@param requester entEntityID
 ---@param addsRequest Bool
 ---@return Bool
-function RevealRequestsStorage:IsRequesterLegal(requester, addsRequest) return end
+function RevealRequestsStorage:IsRequesterLegal(requester, addsRequest) end
 
----@private
 ---@param requester entEntityID
 ---@return Bool
-function RevealRequestsStorage:IsRequesterOnTheList(requester) return end
+function RevealRequestsStorage:IsRequesterOnTheList(requester) end
 
----@private
 ---@param requester entEntityID
 ---@return nil
-function RevealRequestsStorage:LegalRequestAdd(requester) return end
+function RevealRequestsStorage:LegalRequestAdd(requester) end
 
----@private
 ---@param requester entEntityID
 ---@return nil
-function RevealRequestsStorage:LegalRequestRemove(requester) return end
+function RevealRequestsStorage:LegalRequestRemove(requester) end
 
 ---@param requester entEntityID
 ---@param shouldAdd Bool
 ---@return nil
-function RevealRequestsStorage:RegisterLegalRequest(requester, shouldAdd) return end
+function RevealRequestsStorage:RegisterLegalRequest(requester, shouldAdd) end
 
 ---@return Bool
-function RevealRequestsStorage:ShouldReveal() return end
+function RevealRequestsStorage:ShouldReveal() end

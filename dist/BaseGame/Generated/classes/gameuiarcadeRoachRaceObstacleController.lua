@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiarcadeRoachRaceObstacleController: gameuiarcadeArcadeObjectController
----@field public collider gameuiarcadeBoundingRect
+---@field collider gameuiarcadeBoundingRect
 gameuiarcadeRoachRaceObstacleController = {}
 
 ---@param fields? gameuiarcadeRoachRaceObstacleController
 ---@return gameuiarcadeRoachRaceObstacleController
-function gameuiarcadeRoachRaceObstacleController.new(fields) return end
+function gameuiarcadeRoachRaceObstacleController.new(fields) end

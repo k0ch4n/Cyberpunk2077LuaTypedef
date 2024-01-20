@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class VehicleQuestAVThrusterEvent: redEvent
----@field public enable Bool
+---@field enable Bool
 VehicleQuestAVThrusterEvent = {}
 
 ---@param fields? VehicleQuestAVThrusterEvent
 ---@return VehicleQuestAVThrusterEvent
-function VehicleQuestAVThrusterEvent.new(fields) return end
+function VehicleQuestAVThrusterEvent.new(fields) end
 
 ---@return String
-function VehicleQuestAVThrusterEvent:GetFriendlyDescription() return end
+function VehicleQuestAVThrusterEvent:GetFriendlyDescription() end

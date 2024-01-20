@@ -5,4 +5,4 @@ inkDebugSystemAccessor = {}
 
 ---@param fields? inkDebugSystemAccessor
 ---@return inkDebugSystemAccessor
-function inkDebugSystemAccessor.new(fields) return end
+function inkDebugSystemAccessor.new(fields) end

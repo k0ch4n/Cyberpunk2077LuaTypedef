@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AICTreeLazyNodeDefinition: AICTreeNodeDefinition
----@field public tree LibTreeCTreeResource
+---@field tree LibTreeCTreeResource
 AICTreeLazyNodeDefinition = {}
 
 ---@param fields? AICTreeLazyNodeDefinition
 ---@return AICTreeLazyNodeDefinition
-function AICTreeLazyNodeDefinition.new(fields) return end
+function AICTreeLazyNodeDefinition.new(fields) end

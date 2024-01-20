@@ -5,4 +5,4 @@ IsPlayerReachablePrereqState = {}
 
 ---@param fields? IsPlayerReachablePrereqState
 ---@return IsPlayerReachablePrereqState
-function IsPlayerReachablePrereqState.new(fields) return end
+function IsPlayerReachablePrereqState.new(fields) end

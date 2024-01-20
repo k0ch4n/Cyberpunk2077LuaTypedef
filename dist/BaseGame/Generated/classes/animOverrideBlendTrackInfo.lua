@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animOverrideBlendTrackInfo
----@field public track animNamedTrackIndex
----@field public weight Float
+---@field track animNamedTrackIndex
+---@field weight Float
 animOverrideBlendTrackInfo = {}
 
 ---@param fields? animOverrideBlendTrackInfo
 ---@return animOverrideBlendTrackInfo
-function animOverrideBlendTrackInfo.new(fields) return end
+function animOverrideBlendTrackInfo.new(fields) end

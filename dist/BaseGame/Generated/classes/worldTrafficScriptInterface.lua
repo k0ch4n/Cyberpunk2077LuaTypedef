@@ -5,7 +5,7 @@ worldTrafficScriptInterface = {}
 
 ---@param fields? worldTrafficScriptInterface
 ---@return worldTrafficScriptInterface
-function worldTrafficScriptInterface.new(fields) return end
+function worldTrafficScriptInterface.new(fields) end
 
 ---@param queryEntity entEntity
 ---@param queryBoxPoints Vector4[]
@@ -15,9 +15,9 @@ function worldTrafficScriptInterface.new(fields) return end
 ---@param maxEntityCount Uint32
 ---@param entityIDs entEntity[]
 ---@return Uint32
-function worldTrafficScriptInterface:FindEntitiesNearPlane(queryEntity, queryBoxPoints, planePoint, planeNormal, planeDistanceMax, maxEntityCount, entityIDs) return end
+function worldTrafficScriptInterface:FindEntitiesNearPlane(queryEntity, queryBoxPoints, planePoint, planeNormal, planeDistanceMax, maxEntityCount, entityIDs) end
 
 ---@param path Vector4[]
 ---@param distanceFromTraffic Float
 ---@return Bool, Vector4 intersection
-function worldTrafficScriptInterface:IsPathIntersectingWithTraffic(path, distanceFromTraffic) return end
+function worldTrafficScriptInterface:IsPathIntersectingWithTraffic(path, distanceFromTraffic) end

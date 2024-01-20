@@ -5,17 +5,14 @@ TrapComponent = {}
 
 ---@param fields? TrapComponent
 ---@return TrapComponent
-function TrapComponent.new(fields) return end
+function TrapComponent.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function TrapComponent:OnAreaEnter(evt) return end
+function TrapComponent:OnAreaEnter(evt) end
 
----@private
 ---@return nil
-function TrapComponent:OnGameAttach() return end
+function TrapComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function TrapComponent:SpawnAttack() return end
+function TrapComponent:SpawnAttack() end

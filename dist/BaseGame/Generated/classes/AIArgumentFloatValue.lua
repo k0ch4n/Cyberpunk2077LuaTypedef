@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIArgumentFloatValue: AIArgumentDefinition
----@field public type AIArgumentType
----@field public defaultValue Float
+---@field type AIArgumentType
+---@field defaultValue Float
 AIArgumentFloatValue = {}
 
 ---@param fields? AIArgumentFloatValue
 ---@return AIArgumentFloatValue
-function AIArgumentFloatValue.new(fields) return end
+function AIArgumentFloatValue.new(fields) end

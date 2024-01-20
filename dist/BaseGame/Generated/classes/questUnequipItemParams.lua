@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questUnequipItemParams
----@field public slotId TweakDBID
----@field public unequipDurationOverride Float
+---@field slotId TweakDBID
+---@field unequipDurationOverride Float
 questUnequipItemParams = {}
 
 ---@param fields? questUnequipItemParams
 ---@return questUnequipItemParams
-function questUnequipItemParams.new(fields) return end
+function questUnequipItemParams.new(fields) end

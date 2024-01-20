@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class CyberdeckDeviceQuickhackData
----@field public UIIcon gamedataUIIcon_Record
----@field public ObjectActionRecord gamedataObjectAction_Record
----@field public ObjectActionName CName
----@field public ObjectActionLocName CName
----@field public ObjectActionTier gamedataDeviceHackTier
----@field public ObjectActionCategory gamedataDeviceHackCategory
----@field public ObjectActionType gamedataObjectActionType
----@field public Priority Float
+---@field UIIcon gamedataUIIcon_Record
+---@field ObjectActionRecord gamedataObjectAction_Record
+---@field ObjectActionName CName
+---@field ObjectActionLocName CName
+---@field ObjectActionTier gamedataDeviceHackTier
+---@field ObjectActionCategory gamedataDeviceHackCategory
+---@field ObjectActionType gamedataObjectActionType
+---@field Priority Float
 CyberdeckDeviceQuickhackData = {}
 
 ---@param fields? CyberdeckDeviceQuickhackData
 ---@return CyberdeckDeviceQuickhackData
-function CyberdeckDeviceQuickhackData.new(fields) return end
+function CyberdeckDeviceQuickhackData.new(fields) end

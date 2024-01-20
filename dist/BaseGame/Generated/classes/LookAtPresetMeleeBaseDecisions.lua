@@ -5,4 +5,4 @@ LookAtPresetMeleeBaseDecisions = {}
 
 ---@param fields? LookAtPresetMeleeBaseDecisions
 ---@return LookAtPresetMeleeBaseDecisions
-function LookAtPresetMeleeBaseDecisions.new(fields) return end
+function LookAtPresetMeleeBaseDecisions.new(fields) end

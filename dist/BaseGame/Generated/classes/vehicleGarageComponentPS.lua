@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class vehicleGarageComponentPS: gameComponentPS
----@field public spawnedVehiclesData vehicleGarageComponentVehicleData[]
----@field public unlockedVehicles vehicleGarageVehicleID[]
----@field public unlockedVehicleArray vehicleUnlockedVehicle[]
----@field public uiFavoritedVehicles vehicleGarageVehicleID[]
----@field public activeVehicles vehicleGarageVehicleID
----@field public mountedVehicleData vehicleGarageComponentVehicleData
----@field public mountedVehicleStolen Bool
+---@field spawnedVehiclesData vehicleGarageComponentVehicleData[]
+---@field unlockedVehicles vehicleGarageVehicleID[]
+---@field unlockedVehicleArray vehicleUnlockedVehicle[]
+---@field uiFavoritedVehicles vehicleGarageVehicleID[]
+---@field activeVehicles vehicleGarageVehicleID
+---@field mountedVehicleData vehicleGarageComponentVehicleData
+---@field mountedVehicleStolen Bool
 vehicleGarageComponentPS = {}
 
 ---@param fields? vehicleGarageComponentPS
 ---@return vehicleGarageComponentPS
-function vehicleGarageComponentPS.new(fields) return end
+function vehicleGarageComponentPS.new(fields) end

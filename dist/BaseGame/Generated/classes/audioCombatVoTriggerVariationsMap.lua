@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioCombatVoTriggerVariationsMap: audioAudioMetadata
----@field public voTriggerVariations audioCombatVoTriggerVariationsMapItem[]
+---@field voTriggerVariations audioCombatVoTriggerVariationsMapItem[]
 audioCombatVoTriggerVariationsMap = {}
 
 ---@param fields? audioCombatVoTriggerVariationsMap
 ---@return audioCombatVoTriggerVariationsMap
-function audioCombatVoTriggerVariationsMap.new(fields) return end
+function audioCombatVoTriggerVariationsMap.new(fields) end

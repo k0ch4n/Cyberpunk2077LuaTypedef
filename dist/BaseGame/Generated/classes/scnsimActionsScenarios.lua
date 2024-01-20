@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnsimActionsScenarios
----@field public allScenarios scnsimActionsScenariosNodeScenarios[]
+---@field allScenarios scnsimActionsScenariosNodeScenarios[]
 scnsimActionsScenarios = {}
 
 ---@param fields? scnsimActionsScenarios
 ---@return scnsimActionsScenarios
-function scnsimActionsScenarios.new(fields) return end
+function scnsimActionsScenarios.new(fields) end

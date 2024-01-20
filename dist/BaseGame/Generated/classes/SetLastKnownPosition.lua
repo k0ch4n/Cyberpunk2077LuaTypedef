@@ -5,9 +5,8 @@ SetLastKnownPosition = {}
 
 ---@param fields? SetLastKnownPosition
 ---@return SetLastKnownPosition
-function SetLastKnownPosition.new(fields) return end
+function SetLastKnownPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetLastKnownPosition:Activate(context) return end
+function SetLastKnownPosition:Activate(context) end

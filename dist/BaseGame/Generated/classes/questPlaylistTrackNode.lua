@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questPlaylistTrackNode: questIAudioNodeType
----@field public playlistEvents audioPlaylistTrackEventStruct[]
+---@field playlistEvents audioPlaylistTrackEventStruct[]
 questPlaylistTrackNode = {}
 
 ---@param fields? questPlaylistTrackNode
 ---@return questPlaylistTrackNode
-function questPlaylistTrackNode.new(fields) return end
+function questPlaylistTrackNode.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class questSetFocusClueState_NodeType: questIVisionModeNodeType
----@field public objectRef gameEntityReference
----@field public clueId Int32
----@field public clueState Bool
+---@field objectRef gameEntityReference
+---@field clueId Int32
+---@field clueState Bool
 questSetFocusClueState_NodeType = {}
 
 ---@param fields? questSetFocusClueState_NodeType
 ---@return questSetFocusClueState_NodeType
-function questSetFocusClueState_NodeType.new(fields) return end
+function questSetFocusClueState_NodeType.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class animDyngConstraintEllipsoid: animIDyngConstraint
----@field public bone animTransformIndex
----@field public ellipsoidTransformLS QsTransform
----@field public constraintRadius Float
----@field public constraintScale1 Float
----@field public constraintScale2 Float
+---@field bone animTransformIndex
+---@field ellipsoidTransformLS QsTransform
+---@field constraintRadius Float
+---@field constraintScale1 Float
+---@field constraintScale2 Float
 animDyngConstraintEllipsoid = {}
 
 ---@param fields? animDyngConstraintEllipsoid
 ---@return animDyngConstraintEllipsoid
-function animDyngConstraintEllipsoid.new(fields) return end
+function animDyngConstraintEllipsoid.new(fields) end

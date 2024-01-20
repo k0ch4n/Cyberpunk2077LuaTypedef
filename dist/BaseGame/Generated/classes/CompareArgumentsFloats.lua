@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CompareArgumentsFloats: CompareArguments
----@field public comparator ECompareOp
+---@field comparator ECompareOp
 CompareArgumentsFloats = {}
 
 ---@param fields? CompareArgumentsFloats
 ---@return CompareArgumentsFloats
-function CompareArgumentsFloats.new(fields) return end
+function CompareArgumentsFloats.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CompareArgumentsFloats:Check(context) return end
+function CompareArgumentsFloats:Check(context) end

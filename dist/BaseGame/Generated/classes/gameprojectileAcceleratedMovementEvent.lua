@@ -5,4 +5,4 @@ gameprojectileAcceleratedMovementEvent = {}
 
 ---@param fields? gameprojectileAcceleratedMovementEvent
 ---@return gameprojectileAcceleratedMovementEvent
-function gameprojectileAcceleratedMovementEvent.new(fields) return end
+function gameprojectileAcceleratedMovementEvent.new(fields) end

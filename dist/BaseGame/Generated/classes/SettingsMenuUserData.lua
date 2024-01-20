@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SettingsMenuUserData: gameuiMenuGameController
----@field public isDlcSettings Bool
----@field public isBenchmarkSettings Bool
+---@field isDlcSettings Bool
+---@field isBenchmarkSettings Bool
 SettingsMenuUserData = {}
 
 ---@param fields? SettingsMenuUserData
 ---@return SettingsMenuUserData
-function SettingsMenuUserData.new(fields) return end
+function SettingsMenuUserData.new(fields) end

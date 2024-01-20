@@ -5,4 +5,4 @@ CGameEngine = {}
 
 ---@param fields? CGameEngine
 ---@return CGameEngine
-function CGameEngine.new(fields) return end
+function CGameEngine.new(fields) end

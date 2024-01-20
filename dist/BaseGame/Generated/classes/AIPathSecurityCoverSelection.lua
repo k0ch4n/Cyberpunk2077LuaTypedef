@@ -5,4 +5,4 @@ AIPathSecurityCoverSelection = {}
 
 ---@param fields? AIPathSecurityCoverSelection
 ---@return AIPathSecurityCoverSelection
-function AIPathSecurityCoverSelection.new(fields) return end
+function AIPathSecurityCoverSelection.new(fields) end

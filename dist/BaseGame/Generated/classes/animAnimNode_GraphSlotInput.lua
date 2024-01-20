@@ -5,4 +5,4 @@ animAnimNode_GraphSlotInput = {}
 
 ---@param fields? animAnimNode_GraphSlotInput
 ---@return animAnimNode_GraphSlotInput
-function animAnimNode_GraphSlotInput.new(fields) return end
+function animAnimNode_GraphSlotInput.new(fields) end

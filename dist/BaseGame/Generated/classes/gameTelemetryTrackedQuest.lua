@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameTelemetryTrackedQuest
----@field public name String
----@field public objectiveName String
----@field public type String
----@field public distance Float
----@field public questName String
----@field public questType String
+---@field name String
+---@field objectiveName String
+---@field type String
+---@field distance Float
+---@field questName String
+---@field questType String
 gameTelemetryTrackedQuest = {}
 
 ---@param fields? gameTelemetryTrackedQuest
 ---@return gameTelemetryTrackedQuest
-function gameTelemetryTrackedQuest.new(fields) return end
+function gameTelemetryTrackedQuest.new(fields) end

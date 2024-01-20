@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class RequestDismembermentEvent: AIAIEvent
----@field public bodyPart gameDismBodyPart
----@field public dismembermentType gameDismWoundType
----@field public hitPosition Vector4
----@field public isCritical Bool
+---@field bodyPart gameDismBodyPart
+---@field dismembermentType gameDismWoundType
+---@field hitPosition Vector4
+---@field isCritical Bool
 RequestDismembermentEvent = {}
 
 ---@param fields? RequestDismembermentEvent
 ---@return RequestDismembermentEvent
-function RequestDismembermentEvent.new(fields) return end
+function RequestDismembermentEvent.new(fields) end

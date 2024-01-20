@@ -5,19 +5,19 @@ gamedataPurchaseOffer_Record = {}
 
 ---@param fields? gamedataPurchaseOffer_Record
 ---@return gamedataPurchaseOffer_Record
-function gamedataPurchaseOffer_Record.new(fields) return end
+function gamedataPurchaseOffer_Record.new(fields) end
 
 ---@return String
-function gamedataPurchaseOffer_Record:Name() return end
+function gamedataPurchaseOffer_Record:Name() end
 
 ---@return gamedataJournalIcon_Record
-function gamedataPurchaseOffer_Record:PreviewImage() return end
+function gamedataPurchaseOffer_Record:PreviewImage() end
 
 ---@return gamedataJournalIcon_Record
-function gamedataPurchaseOffer_Record:PreviewImageHandle() return end
+function gamedataPurchaseOffer_Record:PreviewImageHandle() end
 
 ---@return gamedataValueAssignment_Record
-function gamedataPurchaseOffer_Record:Price() return end
+function gamedataPurchaseOffer_Record:Price() end
 
 ---@return gamedataValueAssignment_Record
-function gamedataPurchaseOffer_Record:PriceHandle() return end
+function gamedataPurchaseOffer_Record:PriceHandle() end

@@ -5,4 +5,4 @@ ShortBladeLookAtEvents = {}
 
 ---@param fields? ShortBladeLookAtEvents
 ---@return ShortBladeLookAtEvents
-function ShortBladeLookAtEvents.new(fields) return end
+function ShortBladeLookAtEvents.new(fields) end

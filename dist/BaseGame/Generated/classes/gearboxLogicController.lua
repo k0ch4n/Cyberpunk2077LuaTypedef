@@ -1,34 +1,32 @@
 ---@meta
 
 ---@class gearboxLogicController: IVehicleModuleController
----@field private gearboxRImageWidget inkImageWidgetReference
----@field private gearboxNImageWidget inkImageWidgetReference
----@field private gearboxDImageWidget inkImageWidgetReference
----@field private gearboxBBConnectionId redCallbackObject
----@field private vehBB gameIBlackboard
+---@field gearboxRImageWidget inkImageWidgetReference
+---@field gearboxNImageWidget inkImageWidgetReference
+---@field gearboxDImageWidget inkImageWidgetReference
+---@field gearboxBBConnectionId redCallbackObject
+---@field vehBB gameIBlackboard
 gearboxLogicController = {}
 
 ---@param fields? gearboxLogicController
 ---@return gearboxLogicController
-function gearboxLogicController.new(fields) return end
+function gearboxLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function gearboxLogicController:OnUninitialize() return end
+function gearboxLogicController:OnUninitialize() end
 
----@protected
 ---@return nil
-function gearboxLogicController:ForceUpdate() return end
+function gearboxLogicController:ForceUpdate() end
 
 ---@param gear Int32
 ---@return nil
-function gearboxLogicController:OnGearBoxChanged(gear) return end
+function gearboxLogicController:OnGearBoxChanged(gear) end
 
 ---@param vehicle vehicleBaseObject
 ---@param vehBB gameIBlackboard
 ---@param gameController vehicleUIGameController
 ---@return nil
-function gearboxLogicController:RegisterCallbacks(vehicle, vehBB, gameController) return end
+function gearboxLogicController:RegisterCallbacks(vehicle, vehBB, gameController) end
 
 ---@return nil
-function gearboxLogicController:UnregisterCallbacks() return end
+function gearboxLogicController:UnregisterCallbacks() end

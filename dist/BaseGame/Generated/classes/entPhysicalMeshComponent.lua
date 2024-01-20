@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class entPhysicalMeshComponent: entMeshComponent
----@field public visibilityAnimationParam CName
----@field public simulationType physicsSimulationType
----@field public useResourceSimulationType Bool
----@field public startInactive Bool
----@field public filterDataSource physicsFilterDataSource
----@field public filterData physicsFilterData
+---@field visibilityAnimationParam CName
+---@field simulationType physicsSimulationType
+---@field useResourceSimulationType Bool
+---@field startInactive Bool
+---@field filterDataSource physicsFilterDataSource
+---@field filterData physicsFilterData
 entPhysicalMeshComponent = {}
 
 ---@param fields? entPhysicalMeshComponent
 ---@return entPhysicalMeshComponent
-function entPhysicalMeshComponent.new(fields) return end
+function entPhysicalMeshComponent.new(fields) end
 
 ---@param bodyIndex? Int32
 ---@return entPhysicalBodyInterface
-function entPhysicalMeshComponent:CreatePhysicalBodyInterface(bodyIndex) return end
+function entPhysicalMeshComponent:CreatePhysicalBodyInterface(bodyIndex) end
 
 ---@param enabled Bool
 ---@return nil
-function entPhysicalMeshComponent:ToggleCollision(enabled) return end
+function entPhysicalMeshComponent:ToggleCollision(enabled) end

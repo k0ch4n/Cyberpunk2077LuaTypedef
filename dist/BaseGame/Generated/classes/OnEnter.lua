@@ -5,4 +5,4 @@ OnEnter = {}
 
 ---@param fields? OnEnter
 ---@return OnEnter
-function OnEnter.new(fields) return end
+function OnEnter.new(fields) end

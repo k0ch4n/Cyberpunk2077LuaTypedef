@@ -1,89 +1,84 @@
 ---@meta
 
 ---@class UIInventoryItemModsManager: IScriptable
----@field private emptySlots TweakDBID[]
----@field private usedSlots TweakDBID[]
----@field private mods UIInventoryItemMod[]
----@field private attachments UIInventoryItemModAttachment[]
----@field private dedicatedMod UIInventoryItemModAttachment
----@field private transactionSystem gameTransactionSystem
+---@field emptySlots TweakDBID[]
+---@field usedSlots TweakDBID[]
+---@field mods UIInventoryItemMod[]
+---@field attachments UIInventoryItemModAttachment[]
+---@field dedicatedMod UIInventoryItemModAttachment
+---@field transactionSystem gameTransactionSystem
 UIInventoryItemModsManager = {}
 
 ---@param fields? UIInventoryItemModsManager
 ---@return UIInventoryItemModsManager
-function UIInventoryItemModsManager.new(fields) return end
+function UIInventoryItemModsManager.new(fields) end
 
 ---@param inventoryItem UIInventoryItem
 ---@param transactionSystem gameTransactionSystem
 ---@return UIInventoryItemModsManager
-function UIInventoryItemModsManager.Make(inventoryItem, transactionSystem) return end
+function UIInventoryItemModsManager.Make(inventoryItem, transactionSystem) end
 
 ---@param slotName TweakDBID|string
 ---@return Bool
-function UIInventoryItemModsManager:EmptySlotsContains(slotName) return end
+function UIInventoryItemModsManager:EmptySlotsContains(slotName) end
 
----@private
 ---@param inventoryItem UIInventoryItem
 ---@return nil
-function UIInventoryItemModsManager:FetchModsDataPackages(inventoryItem) return end
+function UIInventoryItemModsManager:FetchModsDataPackages(inventoryItem) end
 
----@private
 ---@param itemRecord gamedataItem_Record
 ---@param abilities gameInventoryItemAbility[]
 ---@param itemData? gameItemData
 ---@param partItemData? gameInnerItemData
 ---@return nil
-function UIInventoryItemModsManager:FillSpecialAbilities(itemRecord, abilities, itemData, partItemData) return end
+function UIInventoryItemModsManager:FillSpecialAbilities(itemRecord, abilities, itemData, partItemData) end
 
----@private
 ---@param inventoryItem UIInventoryItem
 ---@return nil
-function UIInventoryItemModsManager:FilterNanoWireSlot(inventoryItem) return end
+function UIInventoryItemModsManager:FilterNanoWireSlot(inventoryItem) end
 
----@private
 ---@return nil
-function UIInventoryItemModsManager:FilterProgramSlots() return end
+function UIInventoryItemModsManager:FilterProgramSlots() end
 
 ---@return Int32
-function UIInventoryItemModsManager:GetAllSlotsSize() return end
+function UIInventoryItemModsManager:GetAllSlotsSize() end
 
----@private
 ---@param owner gameObject
 ---@param inventoryItem UIInventoryItem
 ---@return nil
-function UIInventoryItemModsManager:GetAttachements(owner, inventoryItem) return end
+function UIInventoryItemModsManager:GetAttachements(owner, inventoryItem) end
 
 ---@param index Int32
 ---@return UIInventoryItemModAttachment
-function UIInventoryItemModsManager:GetAttachment(index) return end
+function UIInventoryItemModsManager:GetAttachment(index) end
 
 ---@return Int32
-function UIInventoryItemModsManager:GetAttachmentsSize() return end
+function UIInventoryItemModsManager:GetAttachmentsSize() end
 
 ---@return UIInventoryItemModAttachment
-function UIInventoryItemModsManager:GetDedicatedMod() return end
+function UIInventoryItemModsManager:GetDedicatedMod() end
 
 ---@param index Int32
 ---@return TweakDBID
-function UIInventoryItemModsManager:GetEmptySlot(index) return end
+function UIInventoryItemModsManager:GetEmptySlot(index) end
 
 ---@return Int32
-function UIInventoryItemModsManager:GetEmptySlotsSize() return end
+function UIInventoryItemModsManager:GetEmptySlotsSize() end
 
 ---@param index Int32
 ---@return UIInventoryItemMod
-function UIInventoryItemModsManager:GetMod(index) return end
+function UIInventoryItemModsManager:GetMod(index) end
 
 ---@return Int32
-function UIInventoryItemModsManager:GetModsSize() return end
+function UIInventoryItemModsManager:GetModsSize() end
 
 ---@param index Int32
 ---@return TweakDBID
-function UIInventoryItemModsManager:GetUsedSlot(index) return end
+function UIInventoryItemModsManager:GetUsedSlot(index) end
 
 ---@return Int32
-function UIInventoryItemModsManager:GetUsedSlotsSize() return end
+function UIInventoryItemModsManager:GetUsedSlotsSize() end
 
 ---@param slotName TweakDBID|string
 ---@return Bool
-function UIInventoryItemModsManager:UsedSlotsContains(slotName) return end
+function UIInventoryItemModsManager:UsedSlotsContains(slotName) end

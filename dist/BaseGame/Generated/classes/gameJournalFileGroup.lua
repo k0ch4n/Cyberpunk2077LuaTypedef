@@ -5,4 +5,4 @@ gameJournalFileGroup = {}
 
 ---@param fields? gameJournalFileGroup
 ---@return gameJournalFileGroup
-function gameJournalFileGroup.new(fields) return end
+function gameJournalFileGroup.new(fields) end

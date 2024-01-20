@@ -1,69 +1,61 @@
 ---@meta
 
 ---@class NcartTimetableControllerPS: ScriptableDeviceComponentPS
----@field private ncartTimetableSetup NcartTimetableSetup
----@field private currentTimeToDepart Int32
----@field private currentLine Int32
+---@field ncartTimetableSetup NcartTimetableSetup
+---@field currentTimeToDepart Int32
+---@field currentLine Int32
 NcartTimetableControllerPS = {}
 
 ---@param fields? NcartTimetableControllerPS
 ---@return NcartTimetableControllerPS
-function NcartTimetableControllerPS.new(fields) return end
+function NcartTimetableControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function NcartTimetableControllerPS:OnInstantiated() return end
+function NcartTimetableControllerPS:OnInstantiated() end
 
----@protected
 ---@return Bool
-function NcartTimetableControllerPS:CanCreateAnyQuickHackActions() return end
+function NcartTimetableControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return TweakDBID
-function NcartTimetableControllerPS:GetBackgroundTextureTweakDBID() return end
+function NcartTimetableControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return NcartTimetableBlackboardDef
-function NcartTimetableControllerPS:GetBlackboardDef() return end
+function NcartTimetableControllerPS:GetBlackboardDef() end
 
 ---@return Int32
-function NcartTimetableControllerPS:GetCurrentLine() return end
+function NcartTimetableControllerPS:GetCurrentLine() end
 
 ---@return Int32
-function NcartTimetableControllerPS:GetCurrentTimeToDepart() return end
+function NcartTimetableControllerPS:GetCurrentTimeToDepart() end
 
 ---@return String
-function NcartTimetableControllerPS:GetCurrentTimeToDepartAsString() return end
+function NcartTimetableControllerPS:GetCurrentTimeToDepartAsString() end
 
 ---@return Int32
-function NcartTimetableControllerPS:GetDepartFrequency() return end
+function NcartTimetableControllerPS:GetDepartFrequency() end
 
----@protected
 ---@return TweakDBID
-function NcartTimetableControllerPS:GetDeviceIconTweakDBID() return end
+function NcartTimetableControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function NcartTimetableControllerPS:GetQuestActions(context) return end
+function NcartTimetableControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function NcartTimetableControllerPS:GetQuickHackActions(context) return end
+function NcartTimetableControllerPS:GetQuickHackActions(context) end
 
 ---@return Float
-function NcartTimetableControllerPS:GetUiUpdateFrequency() return end
+function NcartTimetableControllerPS:GetUiUpdateFrequency() end
 
----@protected
 ---@return nil
-function NcartTimetableControllerPS:Initialize() return end
+function NcartTimetableControllerPS:Initialize() end
 
----@private
 ---@return nil
-function NcartTimetableControllerPS:ResetTimeToDepart() return end
+function NcartTimetableControllerPS:ResetTimeToDepart() end
 
----@private
 ---@return Int32
-function NcartTimetableControllerPS:SelectNewRandomLine() return end
+function NcartTimetableControllerPS:SelectNewRandomLine() end
 
 ---@return nil
-function NcartTimetableControllerPS:UpdateCurrentTimeToDepart() return end
+function NcartTimetableControllerPS:UpdateCurrentTimeToDepart() end

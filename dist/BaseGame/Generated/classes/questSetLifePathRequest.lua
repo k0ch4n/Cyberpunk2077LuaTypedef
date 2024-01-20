@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questSetLifePathRequest: gamePlayerScriptableSystemRequest
----@field public lifePathID TweakDBID
+---@field lifePathID TweakDBID
 questSetLifePathRequest = {}
 
 ---@param fields? questSetLifePathRequest
 ---@return questSetLifePathRequest
-function questSetLifePathRequest.new(fields) return end
+function questSetLifePathRequest.new(fields) end

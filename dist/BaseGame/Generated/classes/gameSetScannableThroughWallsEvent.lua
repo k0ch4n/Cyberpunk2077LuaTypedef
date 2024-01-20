@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameSetScannableThroughWallsEvent: redEvent
----@field public isScannableThroughWalls Bool
+---@field isScannableThroughWalls Bool
 gameSetScannableThroughWallsEvent = {}
 
 ---@param fields? gameSetScannableThroughWallsEvent
 ---@return gameSetScannableThroughWallsEvent
-function gameSetScannableThroughWallsEvent.new(fields) return end
+function gameSetScannableThroughWallsEvent.new(fields) end

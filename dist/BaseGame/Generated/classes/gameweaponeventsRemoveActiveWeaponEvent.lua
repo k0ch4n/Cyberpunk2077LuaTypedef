@@ -5,4 +5,4 @@ gameweaponeventsRemoveActiveWeaponEvent = {}
 
 ---@param fields? gameweaponeventsRemoveActiveWeaponEvent
 ---@return gameweaponeventsRemoveActiveWeaponEvent
-function gameweaponeventsRemoveActiveWeaponEvent.new(fields) return end
+function gameweaponeventsRemoveActiveWeaponEvent.new(fields) end

@@ -5,4 +5,4 @@ TargetLockedEvent = {}
 
 ---@param fields? TargetLockedEvent
 ---@return TargetLockedEvent
-function TargetLockedEvent.new(fields) return end
+function TargetLockedEvent.new(fields) end

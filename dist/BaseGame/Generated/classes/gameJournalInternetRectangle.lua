@@ -5,4 +5,4 @@ gameJournalInternetRectangle = {}
 
 ---@param fields? gameJournalInternetRectangle
 ---@return gameJournalInternetRectangle
-function gameJournalInternetRectangle.new(fields) return end
+function gameJournalInternetRectangle.new(fields) end

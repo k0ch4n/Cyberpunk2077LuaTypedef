@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class questMultiplayerTeleportPuppetParams
----@field public teleportAllPlayers Bool
----@field public spawnPointTag CName
----@field public destinationRef gameEntityReference
----@field public destinationOffset Vector3
----@field public areaNodeTriggerRef gameEntityReference
+---@field teleportAllPlayers Bool
+---@field spawnPointTag CName
+---@field destinationRef gameEntityReference
+---@field destinationOffset Vector3
+---@field areaNodeTriggerRef gameEntityReference
 questMultiplayerTeleportPuppetParams = {}
 
 ---@param fields? questMultiplayerTeleportPuppetParams
 ---@return questMultiplayerTeleportPuppetParams
-function questMultiplayerTeleportPuppetParams.new(fields) return end
+function questMultiplayerTeleportPuppetParams.new(fields) end

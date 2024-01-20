@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class PerksSkillLabelContentContainer: HubMenuLabelContentContainer
----@field protected levelLabel inkTextWidgetReference
----@field protected levelBar inkWidgetReference
----@field public skillData ProficiencyDisplayData
+---@field levelLabel inkTextWidgetReference
+---@field levelBar inkWidgetReference
+---@field skillData ProficiencyDisplayData
 PerksSkillLabelContentContainer = {}
 
 ---@param fields? PerksSkillLabelContentContainer
 ---@return PerksSkillLabelContentContainer
-function PerksSkillLabelContentContainer.new(fields) return end
+function PerksSkillLabelContentContainer.new(fields) end
 
----@protected
 ---@param evt PerkBoughtEvent
 ---@return Bool
-function PerksSkillLabelContentContainer:OnPerkPurchased(evt) return end
+function PerksSkillLabelContentContainer:OnPerkPurchased(evt) end
 
----@private
 ---@param skill ProficiencyDisplayData
 ---@return nil
-function PerksSkillLabelContentContainer:RefreshSkillData(skill) return end
+function PerksSkillLabelContentContainer:RefreshSkillData(skill) end
 
 ---@param data MenuData
 ---@return nil
-function PerksSkillLabelContentContainer:SetData(data) return end
+function PerksSkillLabelContentContainer:SetData(data) end

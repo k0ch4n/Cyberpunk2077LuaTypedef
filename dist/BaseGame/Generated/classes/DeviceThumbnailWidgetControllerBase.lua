@@ -1,28 +1,27 @@
 ---@meta
 
 ---@class DeviceThumbnailWidgetControllerBase: DeviceButtonLogicControllerBase
----@field protected deviceIconRef inkImageWidgetReference
----@field protected statusNameWidget inkTextWidgetReference
----@field private thumbnailAction ThumbnailUI
+---@field deviceIconRef inkImageWidgetReference
+---@field statusNameWidget inkTextWidgetReference
+---@field thumbnailAction ThumbnailUI
 DeviceThumbnailWidgetControllerBase = {}
 
 ---@param fields? DeviceThumbnailWidgetControllerBase
 ---@return DeviceThumbnailWidgetControllerBase
-function DeviceThumbnailWidgetControllerBase.new(fields) return end
+function DeviceThumbnailWidgetControllerBase.new(fields) end
 
 ---@return ThumbnailUI
-function DeviceThumbnailWidgetControllerBase:GetAction() return end
+function DeviceThumbnailWidgetControllerBase:GetAction() end
 
 ---@param gameController DeviceInkGameControllerBase
 ---@param widgetData SThumbnailWidgetPackage
 ---@return nil
-function DeviceThumbnailWidgetControllerBase:Initialize(gameController, widgetData) return end
+function DeviceThumbnailWidgetControllerBase:Initialize(gameController, widgetData) end
 
----@protected
 ---@param gameController DeviceInkGameControllerBase
 ---@return nil
-function DeviceThumbnailWidgetControllerBase:RegisterThumbnailActionCallback(gameController) return end
+function DeviceThumbnailWidgetControllerBase:RegisterThumbnailActionCallback(gameController) end
 
 ---@param action ThumbnailUI
 ---@return nil
-function DeviceThumbnailWidgetControllerBase:SetAction(action) return end
+function DeviceThumbnailWidgetControllerBase:SetAction(action) end

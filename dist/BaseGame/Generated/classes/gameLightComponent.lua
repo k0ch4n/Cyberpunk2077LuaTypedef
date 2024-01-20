@@ -1,28 +1,28 @@
 ---@meta
 
 ---@class gameLightComponent: entLightComponent
----@field public emissiveOnly Bool
----@field public materialZone gameEMaterialZone
----@field public meshBrokenAppearance CName
----@field public onStrength Float
----@field public turnOnByDefault Bool
----@field public turnOnTime Float
----@field public turnOnCurve CName
----@field public turnOffTime Float
----@field public turnOffCurve CName
----@field public loopTime Float
----@field public loopCurve CName
----@field public synchronizedLoop Bool
----@field public isDestructible Bool
----@field public colliderName CName
----@field public colliderTag CName
----@field public destructionEffect worldEffect
----@field public genericCurveSetOverride CurveSet
+---@field emissiveOnly Bool
+---@field materialZone gameEMaterialZone
+---@field meshBrokenAppearance CName
+---@field onStrength Float
+---@field turnOnByDefault Bool
+---@field turnOnTime Float
+---@field turnOnCurve CName
+---@field turnOffTime Float
+---@field turnOffCurve CName
+---@field loopTime Float
+---@field loopCurve CName
+---@field synchronizedLoop Bool
+---@field isDestructible Bool
+---@field colliderName CName
+---@field colliderTag CName
+---@field destructionEffect worldEffect
+---@field genericCurveSetOverride CurveSet
 gameLightComponent = {}
 
 ---@param fields? gameLightComponent
 ---@return gameLightComponent
-function gameLightComponent.new(fields) return end
+function gameLightComponent.new(fields) end
 
 ---@param owner gameObject
 ---@param settings ScriptLightSettings
@@ -30,7 +30,7 @@ function gameLightComponent.new(fields) return end
 ---@param curve? CName|string
 ---@param loop? Bool
 ---@return nil
-function gameLightComponent.ChangeAllLightsSettings(owner, settings, time, curve, loop) return end
+function gameLightComponent.ChangeAllLightsSettings(owner, settings, time, curve, loop) end
 
 ---@param lightRefs gameLightComponent[]
 ---@param setting ScriptLightSettings
@@ -38,116 +38,109 @@ function gameLightComponent.ChangeAllLightsSettings(owner, settings, time, curve
 ---@param interpolationCurve? CName|string
 ---@param loop? Bool
 ---@return nil
-function gameLightComponent.ChangeLightSettingByRefs(lightRefs, setting, inTime, interpolationCurve, loop) return end
+function gameLightComponent.ChangeLightSettingByRefs(lightRefs, setting, inTime, interpolationCurve, loop) end
 
 ---@param forceDestroy? Bool
 ---@param skipVFX? Bool
 ---@return nil
-function gameLightComponent:Destroy(forceDestroy, skipVFX) return end
+function gameLightComponent:Destroy(forceDestroy, skipVFX) end
 
 ---@return gameLightSettings
-function gameLightComponent:GetCurrentSettings() return end
+function gameLightComponent:GetCurrentSettings() end
 
 ---@return gameLightSettings
-function gameLightComponent:GetDefaultSettings() return end
+function gameLightComponent:GetDefaultSettings() end
 
 ---@return Bool
-function gameLightComponent:GetOnStrength() return end
+function gameLightComponent:GetOnStrength() end
 
 ---@return CName
-function gameLightComponent:GetTurnOffCurve() return end
+function gameLightComponent:GetTurnOffCurve() end
 
 ---@return Float
-function gameLightComponent:GetTurnOffTime() return end
+function gameLightComponent:GetTurnOffTime() end
 
 ---@return CName
-function gameLightComponent:GetTurnOnCurve() return end
+function gameLightComponent:GetTurnOnCurve() end
 
 ---@return Float
-function gameLightComponent:GetTurnOnTime() return end
+function gameLightComponent:GetTurnOnTime() end
 
 ---@return Bool
-function gameLightComponent:IsDestroyed() return end
+function gameLightComponent:IsDestroyed() end
 
 ---@return Bool
-function gameLightComponent:IsDestructible() return end
+function gameLightComponent:IsDestructible() end
 
 ---@return Bool
-function gameLightComponent:IsOn() return end
+function gameLightComponent:IsOn() end
 
 ---@param innerAngle Float
 ---@param outerAngle Float
 ---@param inTime? Float
 ---@return nil
-function gameLightComponent:SetAngles(innerAngle, outerAngle, inTime) return end
+function gameLightComponent:SetAngles(innerAngle, outerAngle, inTime) end
 
 ---@param color Color
 ---@param inTime? Float
 ---@return nil
-function gameLightComponent:SetColor(color, inTime) return end
+function gameLightComponent:SetColor(color, inTime) end
 
 ---@param isDestructible Bool
 ---@return nil
-function gameLightComponent:SetDestructible(isDestructible) return end
+function gameLightComponent:SetDestructible(isDestructible) end
 
 ---@param intensity Float
 ---@param inTime? Float
 ---@return nil
-function gameLightComponent:SetIntensity(intensity, inTime) return end
+function gameLightComponent:SetIntensity(intensity, inTime) end
 
 ---@param settings gameLightSettings
 ---@param inTime? Float
 ---@param interpolationCurve? CName|string
 ---@param loop? Bool
 ---@return nil
-function gameLightComponent:SetParameters(settings, inTime, interpolationCurve, loop) return end
+function gameLightComponent:SetParameters(settings, inTime, interpolationCurve, loop) end
 
 ---@param radius Float
 ---@param inTime? Float
 ---@return nil
-function gameLightComponent:SetRadius(radius, inTime) return end
+function gameLightComponent:SetRadius(radius, inTime) end
 
 ---@param strength Float
 ---@param inTime? Float
 ---@return nil
-function gameLightComponent:SetStrength(strength, inTime) return end
+function gameLightComponent:SetStrength(strength, inTime) end
 
 ---@param on Bool
 ---@param loop? Bool
 ---@return nil
-function gameLightComponent:ToggleLight(on, loop) return end
+function gameLightComponent:ToggleLight(on, loop) end
 
----@protected
 ---@param evt AdvanceChangeLightEvent
 ---@return Bool
-function gameLightComponent:OnAdvanceChangeLight(evt) return end
+function gameLightComponent:OnAdvanceChangeLight(evt) end
 
----@protected
 ---@param evt ChangeCurveEvent
 ---@return Bool
-function gameLightComponent:OnChangeCurveEvent(evt) return end
+function gameLightComponent:OnChangeCurveEvent(evt) end
 
----@protected
 ---@param evt ChangeLightEvent
 ---@return Bool
-function gameLightComponent:OnChangeLight(evt) return end
+function gameLightComponent:OnChangeLight(evt) end
 
----@protected
 ---@param evt ChangeLightByNameEvent
 ---@return Bool
-function gameLightComponent:OnChangeLightByName(evt) return end
+function gameLightComponent:OnChangeLightByName(evt) end
 
----@protected
 ---@param evt ToggleLightEvent
 ---@return Bool
-function gameLightComponent:OnToggleLight(evt) return end
+function gameLightComponent:OnToggleLight(evt) end
 
----@protected
 ---@param evt ToggleLightByNameEvent
 ---@return Bool
-function gameLightComponent:OnToggleLightByName(evt) return end
+function gameLightComponent:OnToggleLightByName(evt) end
 
----@private
 ---@param inputData EditableGameLightSettings
 ---@return nil, gameLightSettings outputData
-function gameLightComponent:SetupLightSettings(inputData) return end
+function gameLightComponent:SetupLightSettings(inputData) end

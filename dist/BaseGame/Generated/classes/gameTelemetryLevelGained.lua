@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class gameTelemetryLevelGained
----@field public playerPuppet gameObject
----@field public proficiencyType gamedataProficiencyType
----@field public proficiencyValue Int32
----@field public perkPointsAwarded Int32
----@field public attributePointsAwarded Int32
----@field public isDebugEvt Bool
+---@field playerPuppet gameObject
+---@field proficiencyType gamedataProficiencyType
+---@field proficiencyValue Int32
+---@field perkPointsAwarded Int32
+---@field attributePointsAwarded Int32
+---@field isDebugEvt Bool
 gameTelemetryLevelGained = {}
 
 ---@param fields? gameTelemetryLevelGained
 ---@return gameTelemetryLevelGained
-function gameTelemetryLevelGained.new(fields) return end
+function gameTelemetryLevelGained.new(fields) end

@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class animAnimFeature_HitReactionsData: animAnimFeature
----@field public hitIntensity Int32
----@field public hitSource Int32
----@field public hitType Int32
----@field public hitBodyPart Int32
----@field public npcMovementSpeed Int32
----@field public hitDirection Int32
----@field public npcMovementDirection Int32
----@field public stance Int32
----@field public animVariation Int32
----@field public useInitialRotation Bool
----@field public hitDirectionWs Vector4
----@field public angleToAttack Float
----@field public initialRotationDuration Float
+---@field hitIntensity Int32
+---@field hitSource Int32
+---@field hitType Int32
+---@field hitBodyPart Int32
+---@field npcMovementSpeed Int32
+---@field hitDirection Int32
+---@field npcMovementDirection Int32
+---@field stance Int32
+---@field animVariation Int32
+---@field useInitialRotation Bool
+---@field hitDirectionWs Vector4
+---@field angleToAttack Float
+---@field initialRotationDuration Float
 animAnimFeature_HitReactionsData = {}
 
 ---@param fields? animAnimFeature_HitReactionsData
 ---@return animAnimFeature_HitReactionsData
-function animAnimFeature_HitReactionsData.new(fields) return end
+function animAnimFeature_HitReactionsData.new(fields) end

@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class gameuiBaseMenuGameController: gameuiWidgetGameController
----@field public puppetSceneInfos gameuiBaseMenuGameControllerPuppetSceneInfo[]
+---@field puppetSceneInfos gameuiBaseMenuGameControllerPuppetSceneInfo[]
 gameuiBaseMenuGameController = {}
 
 ---@param fields? gameuiBaseMenuGameController
 ---@return gameuiBaseMenuGameController
-function gameuiBaseMenuGameController.new(fields) return end
+function gameuiBaseMenuGameController.new(fields) end
 
 ---@param sceneName CName|string
 ---@return gamePuppet
-function gameuiBaseMenuGameController:GetPuppet(sceneName) return end
+function gameuiBaseMenuGameController:GetPuppet(sceneName) end
 
 ---@param eventName CName|string
 ---@param userData IScriptable
 ---@return nil
-function gameuiBaseMenuGameController:SpawnMenuInstanceDataEvent(eventName, userData) return end
+function gameuiBaseMenuGameController:SpawnMenuInstanceDataEvent(eventName, userData) end
 
 ---@param eventName CName|string
 ---@return nil
-function gameuiBaseMenuGameController:SpawnMenuInstanceEvent(eventName) return end
+function gameuiBaseMenuGameController:SpawnMenuInstanceEvent(eventName) end

@@ -5,4 +5,4 @@ HighLevelNPCStatePrereqState = {}
 
 ---@param fields? HighLevelNPCStatePrereqState
 ---@return HighLevelNPCStatePrereqState
-function HighLevelNPCStatePrereqState.new(fields) return end
+function HighLevelNPCStatePrereqState.new(fields) end

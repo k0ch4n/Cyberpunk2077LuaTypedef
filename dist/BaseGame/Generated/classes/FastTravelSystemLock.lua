@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class FastTravelSystemLock
----@field public lockReason CName
----@field public linkedStatusEffectID TweakDBID
+---@field lockReason CName
+---@field linkedStatusEffectID TweakDBID
 FastTravelSystemLock = {}
 
 ---@param fields? FastTravelSystemLock
 ---@return FastTravelSystemLock
-function FastTravelSystemLock.new(fields) return end
+function FastTravelSystemLock.new(fields) end

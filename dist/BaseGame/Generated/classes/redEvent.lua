@@ -5,4 +5,4 @@ redEvent = {}
 
 ---@param fields? redEvent
 ---@return redEvent
-function redEvent.new(fields) return end
+function redEvent.new(fields) end

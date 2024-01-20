@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class PuppetActionContext
----@field public requesterID entEntityID
----@field public requestType gamedeviceRequestType
+---@field requesterID entEntityID
+---@field requestType gamedeviceRequestType
 PuppetActionContext = {}
 
 ---@param fields? PuppetActionContext
 ---@return PuppetActionContext
-function PuppetActionContext.new(fields) return end
+function PuppetActionContext.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiHUDVideoPlayerController: gameuiHUDGameController
----@field public playOnHud Bool
+---@field playOnHud Bool
 gameuiHUDVideoPlayerController = {}
 
 ---@param fields? gameuiHUDVideoPlayerController
 ---@return gameuiHUDVideoPlayerController
-function gameuiHUDVideoPlayerController.new(fields) return end
+function gameuiHUDVideoPlayerController.new(fields) end

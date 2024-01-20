@@ -5,4 +5,4 @@ AIMusicSystemSquadAudioMember = {}
 
 ---@param fields? AIMusicSystemSquadAudioMember
 ---@return AIMusicSystemSquadAudioMember
-function AIMusicSystemSquadAudioMember.new(fields) return end
+function AIMusicSystemSquadAudioMember.new(fields) end

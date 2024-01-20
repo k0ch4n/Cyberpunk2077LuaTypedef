@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameFxResource
----@field public effect worldEffect
+---@field effect worldEffect
 gameFxResource = {}
 
 ---@param fields? gameFxResource
 ---@return gameFxResource
-function gameFxResource.new(fields) return end
+function gameFxResource.new(fields) end
 
 ---@param self gameFxResource
 ---@return Bool
-function gameFxResource.IsValid(self) return end
+function gameFxResource.IsValid(self) end

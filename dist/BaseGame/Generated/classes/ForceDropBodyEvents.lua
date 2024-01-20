@@ -5,10 +5,9 @@ ForceDropBodyEvents = {}
 
 ---@param fields? ForceDropBodyEvents
 ---@return ForceDropBodyEvents
-function ForceDropBodyEvents.new(fields) return end
+function ForceDropBodyEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function ForceDropBodyEvents:OnEnter(stateContext, scriptInterface) return end
+function ForceDropBodyEvents:OnEnter(stateContext, scriptInterface) end

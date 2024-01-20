@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class SquadTicketReceipt
----@field public acknowledgedTimeStamp Float
----@field public conditionDeactivationCheckTimeStamp Float
----@field public conditionDeactivationSuccessfulCheckTimeStamp Float
----@field public conditionCheckRandomizedInterval Float
----@field public lastRecipient entEntityID
----@field public acknowledgesInQueue Int32
----@field public numberOfOrders Int32
----@field public cooldownID Int32
+---@field acknowledgedTimeStamp Float
+---@field conditionDeactivationCheckTimeStamp Float
+---@field conditionDeactivationSuccessfulCheckTimeStamp Float
+---@field conditionCheckRandomizedInterval Float
+---@field lastRecipient entEntityID
+---@field acknowledgesInQueue Int32
+---@field numberOfOrders Int32
+---@field cooldownID Int32
 SquadTicketReceipt = {}
 
 ---@param fields? SquadTicketReceipt
 ---@return SquadTicketReceipt
-function SquadTicketReceipt.new(fields) return end
+function SquadTicketReceipt.new(fields) end

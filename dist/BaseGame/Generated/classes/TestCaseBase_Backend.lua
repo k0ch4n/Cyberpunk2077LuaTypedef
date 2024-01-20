@@ -5,34 +5,34 @@ TestCaseBase_Backend = {}
 
 ---@param fields? TestCaseBase_Backend
 ---@return TestCaseBase_Backend
-function TestCaseBase_Backend.new(fields) return end
+function TestCaseBase_Backend.new(fields) end
 
 ---@return nil
-function TestCaseBase_Backend:AddStep() return end
+function TestCaseBase_Backend:AddStep() end
 
 ---@return nil
-function TestCaseBase_Backend:CreateStep() return end
+function TestCaseBase_Backend:CreateStep() end
 
 ---@return nil
-function TestCaseBase_Backend:EngineSetup() return end
+function TestCaseBase_Backend:EngineSetup() end
 
 ---@return nil
-function TestCaseBase_Backend:GTFManager() return end
+function TestCaseBase_Backend:GTFManager() end
 
 ---@return nil
-function TestCaseBase_Backend:GetGamedef() return end
+function TestCaseBase_Backend:GetGamedef() end
 
 ---@return nil
-function TestCaseBase_Backend:GetVariantInfo() return end
+function TestCaseBase_Backend:GetVariantInfo() end
 
 ---@return nil
-function TestCaseBase_Backend:PrepareTestSteps() return end
+function TestCaseBase_Backend:PrepareTestSteps() end
 
 ---@return nil
-function TestCaseBase_Backend:TestBody() return end
+function TestCaseBase_Backend:TestBody() end
 
 ---@return nil
-function TestCaseBase_Backend:TestSetup() return end
+function TestCaseBase_Backend:TestSetup() end
 
 ---@return nil
-function TestCaseBase_Backend:TestWrapup() return end
+function TestCaseBase_Backend:TestWrapup() end

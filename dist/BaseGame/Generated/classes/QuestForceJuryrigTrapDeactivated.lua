@@ -5,7 +5,7 @@ QuestForceJuryrigTrapDeactivated = {}
 
 ---@param fields? QuestForceJuryrigTrapDeactivated
 ---@return QuestForceJuryrigTrapDeactivated
-function QuestForceJuryrigTrapDeactivated.new(fields) return end
+function QuestForceJuryrigTrapDeactivated.new(fields) end
 
 ---@return nil
-function QuestForceJuryrigTrapDeactivated:SetProperties() return end
+function QuestForceJuryrigTrapDeactivated:SetProperties() end

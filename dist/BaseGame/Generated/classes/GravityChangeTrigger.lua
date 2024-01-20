@@ -1,31 +1,27 @@
 ---@meta
 
 ---@class GravityChangeTrigger: gameObject
----@field public gravityType EGravityType
----@field public regularStateMachineName CName
----@field public lowGravityStateMachineName CName
+---@field gravityType EGravityType
+---@field regularStateMachineName CName
+---@field lowGravityStateMachineName CName
 GravityChangeTrigger = {}
 
 ---@param fields? GravityChangeTrigger
 ---@return GravityChangeTrigger
-function GravityChangeTrigger.new(fields) return end
+function GravityChangeTrigger.new(fields) end
 
----@protected
 ---@param trigger entAreaEnteredEvent
 ---@return Bool
-function GravityChangeTrigger:OnAreaEnter(trigger) return end
+function GravityChangeTrigger:OnAreaEnter(trigger) end
 
----@protected
 ---@param trigger entAreaExitedEvent
 ---@return Bool
-function GravityChangeTrigger:OnAreaExit(trigger) return end
+function GravityChangeTrigger:OnAreaExit(trigger) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function GravityChangeTrigger:OnRequestComponents(ri) return end
+function GravityChangeTrigger:OnRequestComponents(ri) end
 
----@private
 ---@param gravityType EGravityType
 ---@return nil
-function GravityChangeTrigger:SwitchGravity(gravityType) return end
+function GravityChangeTrigger:SwitchGravity(gravityType) end

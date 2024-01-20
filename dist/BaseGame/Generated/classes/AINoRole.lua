@@ -5,4 +5,4 @@ AINoRole = {}
 
 ---@param fields? AINoRole
 ---@return AINoRole
-function AINoRole.new(fields) return end
+function AINoRole.new(fields) end

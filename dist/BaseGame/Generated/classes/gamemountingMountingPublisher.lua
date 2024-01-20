@@ -5,4 +5,4 @@ gamemountingMountingPublisher = {}
 
 ---@param fields? gamemountingMountingPublisher
 ---@return gamemountingMountingPublisher
-function gamemountingMountingPublisher.new(fields) return end
+function gamemountingMountingPublisher.new(fields) end

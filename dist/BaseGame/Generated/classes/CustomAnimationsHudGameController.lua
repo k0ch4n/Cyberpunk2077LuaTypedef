@@ -1,51 +1,45 @@
 ---@meta
 
 ---@class CustomAnimationsHudGameController: gameuiHUDGameController
----@field protected customAnimations WidgetAnimationManager
----@field protected onSpawnAnimations CName[]
----@field protected defaultLibraryItemName CName
----@field protected defaultLibraryItemAnchor inkEAnchor
----@field protected spawnedLibrararyItem inkWidget
----@field protected curentLibraryItemName CName
----@field protected currentLibraryItemAnchor inkEAnchor
----@field protected root inkCompoundWidget
----@field protected isInitialized Bool
----@field private ownerID entEntityID
+---@field customAnimations WidgetAnimationManager
+---@field onSpawnAnimations CName[]
+---@field defaultLibraryItemName CName
+---@field defaultLibraryItemAnchor inkEAnchor
+---@field spawnedLibrararyItem inkWidget
+---@field curentLibraryItemName CName
+---@field currentLibraryItemAnchor inkEAnchor
+---@field root inkCompoundWidget
+---@field isInitialized Bool
+---@field ownerID entEntityID
 CustomAnimationsHudGameController = {}
 
 ---@param fields? CustomAnimationsHudGameController
 ---@return CustomAnimationsHudGameController
-function CustomAnimationsHudGameController.new(fields) return end
+function CustomAnimationsHudGameController.new(fields) end
 
----@protected
 ---@param evt CustomUIAnimationEvent
 ---@return Bool
-function CustomAnimationsHudGameController:OnCustomUIAnimationEvent(evt) return end
+function CustomAnimationsHudGameController:OnCustomUIAnimationEvent(evt) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CustomAnimationsHudGameController:OnInitialSpawnLibrararyItem(widget, userData) return end
+function CustomAnimationsHudGameController:OnInitialSpawnLibrararyItem(widget, userData) end
 
----@protected
 ---@return Bool
-function CustomAnimationsHudGameController:OnInitialize() return end
+function CustomAnimationsHudGameController:OnInitialize() end
 
----@protected
 ---@param animationName CName|string
 ---@param playbackOption EInkAnimationPlaybackOption
 ---@return nil
-function CustomAnimationsHudGameController:PlayAnimation(animationName, playbackOption) return end
+function CustomAnimationsHudGameController:PlayAnimation(animationName, playbackOption) end
 
----@private
 ---@return nil
-function CustomAnimationsHudGameController:PlayOnSpawnAnimations() return end
+function CustomAnimationsHudGameController:PlayOnSpawnAnimations() end
 
----@private
 ---@param itemName CName|string
 ---@param anchor inkEAnchor
 ---@param async? Bool
 ---@param forceRespawnLibraryItem? Bool
 ---@return Bool
-function CustomAnimationsHudGameController:ResolveLibraryItemSpawn(itemName, anchor, async, forceRespawnLibraryItem) return end
+function CustomAnimationsHudGameController:ResolveLibraryItemSpawn(itemName, anchor, async, forceRespawnLibraryItem) end

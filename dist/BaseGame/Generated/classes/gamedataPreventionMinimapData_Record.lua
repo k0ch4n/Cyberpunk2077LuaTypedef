@@ -5,16 +5,16 @@ gamedataPreventionMinimapData_Record = {}
 
 ---@param fields? gamedataPreventionMinimapData_Record
 ---@return gamedataPreventionMinimapData_Record
-function gamedataPreventionMinimapData_Record.new(fields) return end
+function gamedataPreventionMinimapData_Record.new(fields) end
 
 ---@return Float
-function gamedataPreventionMinimapData_Record:MaxRadius() return end
+function gamedataPreventionMinimapData_Record:MaxRadius() end
 
 ---@return Float
-function gamedataPreventionMinimapData_Record:MaxSpeed() return end
+function gamedataPreventionMinimapData_Record:MaxSpeed() end
 
 ---@return Float
-function gamedataPreventionMinimapData_Record:MinRadius() return end
+function gamedataPreventionMinimapData_Record:MinRadius() end
 
 ---@return Float
-function gamedataPreventionMinimapData_Record:MinSpeed() return end
+function gamedataPreventionMinimapData_Record:MinSpeed() end

@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gameuiQuestMappinController: gameuiInteractionMappinController
----@field public nameplateVisible Bool
----@field public distanceText inkTextWidgetReference
----@field public displayName inkTextWidgetReference
+---@field nameplateVisible Bool
+---@field distanceText inkTextWidgetReference
+---@field displayName inkTextWidgetReference
 gameuiQuestMappinController = {}
 
 ---@param fields? gameuiQuestMappinController
 ---@return gameuiQuestMappinController
-function gameuiQuestMappinController.new(fields) return end
+function gameuiQuestMappinController.new(fields) end
 
 ---@return nil
-function gameuiQuestMappinController:UpdateDisplayName() return end
+function gameuiQuestMappinController:UpdateDisplayName() end
 
 ---@return nil
-function gameuiQuestMappinController:UpdateDistanceText() return end
+function gameuiQuestMappinController:UpdateDistanceText() end

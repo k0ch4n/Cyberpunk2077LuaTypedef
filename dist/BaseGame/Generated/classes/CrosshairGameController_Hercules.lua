@@ -5,4 +5,4 @@ CrosshairGameController_Hercules = {}
 
 ---@param fields? CrosshairGameController_Hercules
 ---@return CrosshairGameController_Hercules
-function CrosshairGameController_Hercules.new(fields) return end
+function CrosshairGameController_Hercules.new(fields) end

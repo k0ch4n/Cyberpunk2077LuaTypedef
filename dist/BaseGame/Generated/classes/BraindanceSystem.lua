@@ -1,129 +1,109 @@
 ---@meta
 
 ---@class BraindanceSystem: gameScriptableSystem
----@field private inputMask SBraindanceInputMask
----@field private requestCameraToggle Bool
----@field private requestEditorState Bool
----@field private pauseBraindanceRequest Bool
----@field private isInBraindance Bool
----@field private debugFFSceneThrehsold Int32
+---@field inputMask SBraindanceInputMask
+---@field requestCameraToggle Bool
+---@field requestEditorState Bool
+---@field pauseBraindanceRequest Bool
+---@field isInBraindance Bool
+---@field debugFFSceneThrehsold Int32
 BraindanceSystem = {}
 
 ---@param fields? BraindanceSystem
 ---@return BraindanceSystem
-function BraindanceSystem.new(fields) return end
+function BraindanceSystem.new(fields) end
 
----@private
 ---@param mask SBraindanceInputMask
 ---@return nil
-function BraindanceSystem:ApplyInvertedANDMask(mask) return end
+function BraindanceSystem:ApplyInvertedANDMask(mask) end
 
----@private
 ---@param mask SBraindanceInputMask
 ---@return nil
-function BraindanceSystem:ApplyORMask(mask) return end
+function BraindanceSystem:ApplyORMask(mask) end
 
----@private
 ---@return nil
-function BraindanceSystem:ClearEditorStateRequest() return end
+function BraindanceSystem:ClearEditorStateRequest() end
 
----@private
 ---@return nil
-function BraindanceSystem:ClearPauseRequest() return end
+function BraindanceSystem:ClearPauseRequest() end
 
 ---@return Int32
-function BraindanceSystem:GetDebugFFSceneThreshold() return end
+function BraindanceSystem:GetDebugFFSceneThreshold() end
 
 ---@return SBraindanceInputMask
-function BraindanceSystem:GetInputMask() return end
+function BraindanceSystem:GetInputMask() end
 
 ---@return Bool
-function BraindanceSystem:GetIsInBraindance() return end
+function BraindanceSystem:GetIsInBraindance() end
 
 ---@return Bool
-function BraindanceSystem:GetPauseBraindanceRequest() return end
+function BraindanceSystem:GetPauseBraindanceRequest() end
 
 ---@return Bool
-function BraindanceSystem:GetRequestEditorState() return end
+function BraindanceSystem:GetRequestEditorState() end
 
 ---@return Bool
-function BraindanceSystem:GetRequstCameraToggle() return end
+function BraindanceSystem:GetRequstCameraToggle() end
 
----@private
 ---@return Bool
-function BraindanceSystem:IsSavingLocked() return end
+function BraindanceSystem:IsSavingLocked() end
 
----@private
 ---@param request ClearBraindancePauseRequest
 ---@return nil
-function BraindanceSystem:OnClearBraindancePauseRequest(request) return end
+function BraindanceSystem:OnClearBraindancePauseRequest(request) end
 
----@private
 ---@param request ClearBraindanceStateRequest
 ---@return nil
-function BraindanceSystem:OnClearBraindanceStateRequest(request) return end
+function BraindanceSystem:OnClearBraindanceStateRequest(request) end
 
----@private
 ---@param request DisableFields
 ---@return nil
-function BraindanceSystem:OnDisableFields(request) return end
+function BraindanceSystem:OnDisableFields(request) end
 
----@private
 ---@param request EnableFields
 ---@return nil
-function BraindanceSystem:OnEnableFields(request) return end
+function BraindanceSystem:OnEnableFields(request) end
 
----@private
 ---@param request gamePlayerAttachRequest
 ---@return nil
-function BraindanceSystem:OnPlayerAttach(request) return end
+function BraindanceSystem:OnPlayerAttach(request) end
 
----@private
 ---@param saveVersion Int32
 ---@param gameVersion Int32
 ---@return nil
-function BraindanceSystem:OnRestored(saveVersion, gameVersion) return end
+function BraindanceSystem:OnRestored(saveVersion, gameVersion) end
 
----@private
 ---@param request SendPauseBraindanceRequest
 ---@return nil
-function BraindanceSystem:OnSendPauseBraindanceRequest(request) return end
+function BraindanceSystem:OnSendPauseBraindanceRequest(request) end
 
----@private
 ---@param request SetBraindanceState
 ---@return nil
-function BraindanceSystem:OnSetBraindanceState(request) return end
+function BraindanceSystem:OnSetBraindanceState(request) end
 
----@private
 ---@param request SetDebugSceneThrehsold
 ---@return nil
-function BraindanceSystem:OnSetDebugSceneThrehsold(request) return end
+function BraindanceSystem:OnSetDebugSceneThrehsold(request) end
 
----@private
 ---@param request SetIsInBraindance
 ---@return nil
-function BraindanceSystem:OnSetIsInBraindance(request) return end
+function BraindanceSystem:OnSetIsInBraindance(request) end
 
----@private
 ---@param newThreshold Int32
 ---@return nil
-function BraindanceSystem:SetDebugFFSceneThreshold(newThreshold) return end
+function BraindanceSystem:SetDebugFFSceneThreshold(newThreshold) end
 
----@private
 ---@param newState Bool
 ---@return nil
-function BraindanceSystem:SetEditorStateRequest(newState) return end
+function BraindanceSystem:SetEditorStateRequest(newState) end
 
----@private
 ---@param newMask SBraindanceInputMask
 ---@return nil
-function BraindanceSystem:SetInputMask(newMask) return end
+function BraindanceSystem:SetInputMask(newMask) end
 
----@private
 ---@param newState Bool
 ---@return nil
-function BraindanceSystem:SetIsInBraindance(newState) return end
+function BraindanceSystem:SetIsInBraindance(newState) end
 
----@private
 ---@return nil
-function BraindanceSystem:SetPauseRequest() return end
+function BraindanceSystem:SetPauseRequest() end

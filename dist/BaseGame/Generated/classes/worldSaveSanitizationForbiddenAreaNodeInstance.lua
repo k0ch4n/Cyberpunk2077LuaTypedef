@@ -5,4 +5,4 @@ worldSaveSanitizationForbiddenAreaNodeInstance = {}
 
 ---@param fields? worldSaveSanitizationForbiddenAreaNodeInstance
 ---@return worldSaveSanitizationForbiddenAreaNodeInstance
-function worldSaveSanitizationForbiddenAreaNodeInstance.new(fields) return end
+function worldSaveSanitizationForbiddenAreaNodeInstance.new(fields) end

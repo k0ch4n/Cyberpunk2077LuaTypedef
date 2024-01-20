@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorResource: CResource
----@field public root AIbehaviorTreeNodeDefinition
----@field public arguments AITreeArgumentsDefinition
----@field public delegate AIbehaviorBehaviorDelegate
----@field public initializationEvents CName[]
+---@field root AIbehaviorTreeNodeDefinition
+---@field arguments AITreeArgumentsDefinition
+---@field delegate AIbehaviorBehaviorDelegate
+---@field initializationEvents CName[]
 AIbehaviorResource = {}
 
 ---@param fields? AIbehaviorResource
 ---@return AIbehaviorResource
-function AIbehaviorResource.new(fields) return end
+function AIbehaviorResource.new(fields) end

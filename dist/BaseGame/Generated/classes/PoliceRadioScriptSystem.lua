@@ -5,61 +5,56 @@ PoliceRadioScriptSystem = {}
 
 ---@param fields? PoliceRadioScriptSystem
 ---@return PoliceRadioScriptSystem
-function PoliceRadioScriptSystem.new(fields) return end
+function PoliceRadioScriptSystem.new(fields) end
 
----@private
 ---@param heatStage EPreventionHeatStage
 ---@param currentDistrict District
 ---@return CName
-function PoliceRadioScriptSystem.GetHeatStageRadioEntryName(heatStage, currentDistrict) return end
+function PoliceRadioScriptSystem.GetHeatStageRadioEntryName(heatStage, currentDistrict) end
 
 ---@return CName
-function PoliceRadioScriptSystem.GetSystemName() return end
+function PoliceRadioScriptSystem.GetSystemName() end
 
----@private
 ---@param entryName CName|string
 ---@return Bool
-function PoliceRadioScriptSystem.IsARecentEntry(entryName) return end
+function PoliceRadioScriptSystem.IsARecentEntry(entryName) end
 
----@private
 ---@param line CName|string
 ---@param currentDistrict District
 ---@return Bool
-function PoliceRadioScriptSystem.IsHeat1Line(line, currentDistrict) return end
+function PoliceRadioScriptSystem.IsHeat1Line(line, currentDistrict) end
 
----@private
 ---@return Bool
-function PoliceRadioScriptSystem.IsPlayerInVehicle() return end
+function PoliceRadioScriptSystem.IsPlayerInVehicle() end
 
 ---@param entryName CName|string
 ---@return nil
-function PoliceRadioScriptSystem.PlayRadio(entryName) return end
+function PoliceRadioScriptSystem.PlayRadio(entryName) end
 
 ---@param args PlayRadioArgs
 ---@return nil
-function PoliceRadioScriptSystem.PlayRadio(args) return end
+function PoliceRadioScriptSystem.PlayRadio(args) end
 
 ---@param currentDistrict District
 ---@param heatStage EPreventionHeatStage
 ---@return nil
-function PoliceRadioScriptSystem.UpdatePoliceRadioOnDistrictChange(currentDistrict, heatStage) return end
+function PoliceRadioScriptSystem.UpdatePoliceRadioOnDistrictChange(currentDistrict, heatStage) end
 
 ---@param heatStage EPreventionHeatStage
 ---@param currentDistrict District
 ---@return nil
-function PoliceRadioScriptSystem.UpdatePoliceRadioOnHeatChange(heatStage, currentDistrict) return end
+function PoliceRadioScriptSystem.UpdatePoliceRadioOnHeatChange(heatStage, currentDistrict) end
 
 ---@param lastStarChangeStartTimeStamp Float
 ---@param currentHeatState EPreventionHeatStage
 ---@param currentVisibilityState EStarState
 ---@param futureVisibilityState EStarState
 ---@return nil
-function PoliceRadioScriptSystem.UpdatePoliceRadioOnPlayerVisibilityChanged(lastStarChangeStartTimeStamp, currentHeatState, currentVisibilityState, futureVisibilityState) return end
+function PoliceRadioScriptSystem.UpdatePoliceRadioOnPlayerVisibilityChanged(lastStarChangeStartTimeStamp, currentHeatState, currentVisibilityState, futureVisibilityState) end
 
 ---@return nil
-function PoliceRadioScriptSystem.UpdatePoliceRadioOnVehicleEntrance() return end
+function PoliceRadioScriptSystem.UpdatePoliceRadioOnVehicleEntrance() end
 
----@private
 ---@param request RadioDelayedRequest
 ---@return nil
-function PoliceRadioScriptSystem:OnRadioDelayedRequest(request) return end
+function PoliceRadioScriptSystem:OnRadioDelayedRequest(request) end

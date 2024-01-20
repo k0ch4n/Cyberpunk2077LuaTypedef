@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class VenodrRequestQueueEntry: IScriptable
----@field public requestID Int32
----@field public itemID gameItemID
+---@field requestID Int32
+---@field itemID gameItemID
 VenodrRequestQueueEntry = {}
 
 ---@param fields? VenodrRequestQueueEntry
 ---@return VenodrRequestQueueEntry
-function VenodrRequestQueueEntry.new(fields) return end
+function VenodrRequestQueueEntry.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entRagdollComponentReplicatedState: netIComponentState
----@field public transforms Transform[]
----@field public isSleeping Bool
+---@field transforms Transform[]
+---@field isSleeping Bool
 entRagdollComponentReplicatedState = {}
 
 ---@param fields? entRagdollComponentReplicatedState
 ---@return entRagdollComponentReplicatedState
-function entRagdollComponentReplicatedState.new(fields) return end
+function entRagdollComponentReplicatedState.new(fields) end

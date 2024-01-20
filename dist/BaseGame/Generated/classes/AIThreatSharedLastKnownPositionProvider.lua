@@ -5,4 +5,4 @@ AIThreatSharedLastKnownPositionProvider = {}
 
 ---@param fields? AIThreatSharedLastKnownPositionProvider
 ---@return AIThreatSharedLastKnownPositionProvider
-function AIThreatSharedLastKnownPositionProvider.new(fields) return end
+function AIThreatSharedLastKnownPositionProvider.new(fields) end

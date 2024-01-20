@@ -5,10 +5,10 @@ inkCharacterEvent = {}
 
 ---@param fields? inkCharacterEvent
 ---@return inkCharacterEvent
-function inkCharacterEvent.new(fields) return end
+function inkCharacterEvent.new(fields) end
 
 ---@return Uint8
-function inkCharacterEvent:GetCharacter() return end
+function inkCharacterEvent:GetCharacter() end
 
 ---@return nil
-function inkCharacterEvent:GetType() return end
+function inkCharacterEvent:GetType() end

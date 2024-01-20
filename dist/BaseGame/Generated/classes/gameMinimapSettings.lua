@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class gameMinimapSettings: IScriptable
----@field public globalVisionRadiusBounds gameRange
----@field public visionRadiusVehicle gameRange
----@field public visionRadiusCombat gameRange
----@field public visionRadiusQuestArea gameRange
----@field public visionRadiusSecurityArea gameRange
----@field public visionRadiusInterior gameRange
----@field public visionRadiusExterior gameRange
----@field public speedBoundsSprint gameRange
----@field public speedBoundsVehicle gameRange
----@field public smoothingStrengthOnZoomIn Float
----@field public smoothingStrengthOnZoomOut Float
----@field public playerMarkerTransitionSpeedOnVehicleMount Float
----@field public playerMarkerTransitionSpeedOnVehicleUnmount Float
----@field public visionRadiusLocked Bool
----@field public dynamicVisionRadiusEnabled Bool
----@field public smoothingEnabled Bool
+---@field globalVisionRadiusBounds gameRange
+---@field visionRadiusVehicle gameRange
+---@field visionRadiusCombat gameRange
+---@field visionRadiusQuestArea gameRange
+---@field visionRadiusSecurityArea gameRange
+---@field visionRadiusInterior gameRange
+---@field visionRadiusExterior gameRange
+---@field speedBoundsSprint gameRange
+---@field speedBoundsVehicle gameRange
+---@field smoothingStrengthOnZoomIn Float
+---@field smoothingStrengthOnZoomOut Float
+---@field playerMarkerTransitionSpeedOnVehicleMount Float
+---@field playerMarkerTransitionSpeedOnVehicleUnmount Float
+---@field visionRadiusLocked Bool
+---@field dynamicVisionRadiusEnabled Bool
+---@field smoothingEnabled Bool
 gameMinimapSettings = {}
 
 ---@param fields? gameMinimapSettings
 ---@return gameMinimapSettings
-function gameMinimapSettings.new(fields) return end
+function gameMinimapSettings.new(fields) end

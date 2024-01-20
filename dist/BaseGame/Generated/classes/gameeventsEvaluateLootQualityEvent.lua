@@ -5,4 +5,4 @@ gameeventsEvaluateLootQualityEvent = {}
 
 ---@param fields? gameeventsEvaluateLootQualityEvent
 ---@return gameeventsEvaluateLootQualityEvent
-function gameeventsEvaluateLootQualityEvent.new(fields) return end
+function gameeventsEvaluateLootQualityEvent.new(fields) end

@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class PerkDisplayTooltipSettingsListener: userSettingsVarListener
----@field private ctrl PerkDisplayTooltipController
+---@field ctrl PerkDisplayTooltipController
 PerkDisplayTooltipSettingsListener = {}
 
 ---@param fields? PerkDisplayTooltipSettingsListener
 ---@return PerkDisplayTooltipSettingsListener
-function PerkDisplayTooltipSettingsListener.new(fields) return end
+function PerkDisplayTooltipSettingsListener.new(fields) end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function PerkDisplayTooltipSettingsListener:OnVarModified(groupPath, varName, varType, reason) return end
+function PerkDisplayTooltipSettingsListener:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@param ctrl PerkDisplayTooltipController
 ---@return nil
-function PerkDisplayTooltipSettingsListener:RegisterController(ctrl) return end
+function PerkDisplayTooltipSettingsListener:RegisterController(ctrl) end

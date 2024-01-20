@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SThumbnailWidgetPackage: SWidgetPackage
----@field public thumbnailAction ThumbnailUI
----@field public deviceStatus String
+---@field thumbnailAction ThumbnailUI
+---@field deviceStatus String
 SThumbnailWidgetPackage = {}
 
 ---@param fields? SThumbnailWidgetPackage
 ---@return SThumbnailWidgetPackage
-function SThumbnailWidgetPackage.new(fields) return end
+function SThumbnailWidgetPackage.new(fields) end

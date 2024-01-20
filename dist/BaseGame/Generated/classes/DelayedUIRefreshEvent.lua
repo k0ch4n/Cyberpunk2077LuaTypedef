@@ -5,4 +5,4 @@ DelayedUIRefreshEvent = {}
 
 ---@param fields? DelayedUIRefreshEvent
 ---@return DelayedUIRefreshEvent
-function DelayedUIRefreshEvent.new(fields) return end
+function DelayedUIRefreshEvent.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animCurvePathBakerAdvancedUserInput
----@field public partsInputs animCurvePathPartInput
+---@field partsInputs animCurvePathPartInput
 animCurvePathBakerAdvancedUserInput = {}
 
 ---@param fields? animCurvePathBakerAdvancedUserInput
 ---@return animCurvePathBakerAdvancedUserInput
-function animCurvePathBakerAdvancedUserInput.new(fields) return end
+function animCurvePathBakerAdvancedUserInput.new(fields) end

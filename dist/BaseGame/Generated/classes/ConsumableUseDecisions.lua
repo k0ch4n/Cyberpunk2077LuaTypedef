@@ -5,10 +5,9 @@ ConsumableUseDecisions = {}
 
 ---@param fields? ConsumableUseDecisions
 ---@return ConsumableUseDecisions
-function ConsumableUseDecisions.new(fields) return end
+function ConsumableUseDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ConsumableUseDecisions:ToConsumableCleanup(stateContext, scriptInterface) return end
+function ConsumableUseDecisions:ToConsumableCleanup(stateContext, scriptInterface) end

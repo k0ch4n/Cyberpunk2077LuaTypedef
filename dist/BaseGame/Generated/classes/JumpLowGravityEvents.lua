@@ -5,16 +5,14 @@ JumpLowGravityEvents = {}
 
 ---@param fields? JumpLowGravityEvents
 ---@return JumpLowGravityEvents
-function JumpLowGravityEvents.new(fields) return end
+function JumpLowGravityEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpLowGravityEvents:OnEnter(stateContext, scriptInterface) return end
+function JumpLowGravityEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function JumpLowGravityEvents:OnExit(stateContext, scriptInterface) return end
+function JumpLowGravityEvents:OnExit(stateContext, scriptInterface) end

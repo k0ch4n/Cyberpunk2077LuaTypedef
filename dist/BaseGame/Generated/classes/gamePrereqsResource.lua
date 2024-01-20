@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamePrereqsResource: CResource
----@field public prereqs gamePrereqDefinition[]
+---@field prereqs gamePrereqDefinition[]
 gamePrereqsResource = {}
 
 ---@param fields? gamePrereqsResource
 ---@return gamePrereqsResource
-function gamePrereqsResource.new(fields) return end
+function gamePrereqsResource.new(fields) end

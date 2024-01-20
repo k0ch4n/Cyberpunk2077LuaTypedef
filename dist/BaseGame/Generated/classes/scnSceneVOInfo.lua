@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnSceneVOInfo
----@field public inVoTrigger CName
----@field public outVoTrigger CName
----@field public duration Float
----@field public id Uint16
+---@field inVoTrigger CName
+---@field outVoTrigger CName
+---@field duration Float
+---@field id Uint16
 scnSceneVOInfo = {}
 
 ---@param fields? scnSceneVOInfo
 ---@return scnSceneVOInfo
-function scnSceneVOInfo.new(fields) return end
+function scnSceneVOInfo.new(fields) end

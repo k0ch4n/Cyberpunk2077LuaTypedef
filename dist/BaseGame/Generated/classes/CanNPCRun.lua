@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CanNPCRun: AIbehaviorconditionScript
----@field public maxRunners Int32
+---@field maxRunners Int32
 CanNPCRun = {}
 
 ---@param fields? CanNPCRun
 ---@return CanNPCRun
-function CanNPCRun.new(fields) return end
+function CanNPCRun.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CanNPCRun:Check(context) return end
+function CanNPCRun:Check(context) end

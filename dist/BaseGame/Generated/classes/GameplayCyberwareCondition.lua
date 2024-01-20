@@ -1,21 +1,20 @@
 ---@meta
 
 ---@class GameplayCyberwareCondition: GameplayConditionBase
----@field public cyberwareToCheck TweakDBID
+---@field cyberwareToCheck TweakDBID
 GameplayCyberwareCondition = {}
 
 ---@param fields? GameplayCyberwareCondition
 ---@return GameplayCyberwareCondition
-function GameplayCyberwareCondition.new(fields) return end
+function GameplayCyberwareCondition.new(fields) end
 
 ---@param requester gameObject
 ---@return Bool
-function GameplayCyberwareCondition:Evaluate(requester) return end
+function GameplayCyberwareCondition:Evaluate(requester) end
 
----@private
 ---@return String
-function GameplayCyberwareCondition:GetConditionDescription() return end
+function GameplayCyberwareCondition:GetConditionDescription() end
 
 ---@param requester gameObject
 ---@return Condition
-function GameplayCyberwareCondition:GetDescription(requester) return end
+function GameplayCyberwareCondition:GetDescription(requester) end

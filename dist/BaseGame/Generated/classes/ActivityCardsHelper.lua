@@ -5,10 +5,10 @@ ActivityCardsHelper = {}
 
 ---@param fields? ActivityCardsHelper
 ---@return ActivityCardsHelper
-function ActivityCardsHelper.new(fields) return end
+function ActivityCardsHelper.new(fields) end
 
 ---@return Bool
-function ActivityCardsHelper:CanPlayerSkipTime() return end
+function ActivityCardsHelper:CanPlayerSkipTime() end
 
 ---@return String
-function ActivityCardsHelper:GetCurrentDisctrictName() return end
+function ActivityCardsHelper:GetCurrentDisctrictName() end

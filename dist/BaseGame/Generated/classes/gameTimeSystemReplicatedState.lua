@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameTimeSystemReplicatedState: gameIGameSystemReplicatedState
----@field public paused Bool
----@field public gameTime GameTime
+---@field paused Bool
+---@field gameTime GameTime
 gameTimeSystemReplicatedState = {}
 
 ---@param fields? gameTimeSystemReplicatedState
 ---@return gameTimeSystemReplicatedState
-function gameTimeSystemReplicatedState.new(fields) return end
+function gameTimeSystemReplicatedState.new(fields) end

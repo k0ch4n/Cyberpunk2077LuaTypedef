@@ -1,32 +1,29 @@
 ---@meta
 
 ---@class StatsViewController: inkWidgetLogicController
----@field private StatLabelRef inkTextWidgetReference
----@field private StatValueRef inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private stat gameStatViewData
+---@field StatLabelRef inkTextWidgetReference
+---@field StatValueRef inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field stat gameStatViewData
 StatsViewController = {}
 
 ---@param fields? StatsViewController
 ---@return StatsViewController
-function StatsViewController.new(fields) return end
+function StatsViewController.new(fields) end
 
----@protected
 ---@param hoverEvenet inkPointerEvent
 ---@return Bool
-function StatsViewController:OnButtonClick(hoverEvenet) return end
+function StatsViewController:OnButtonClick(hoverEvenet) end
 
----@protected
 ---@return Bool
-function StatsViewController:OnInitialize() return end
+function StatsViewController:OnInitialize() end
 
----@protected
 ---@return Bool
-function StatsViewController:OnUninitialize() return end
+function StatsViewController:OnUninitialize() end
 
 ---@return gameStatViewData
-function StatsViewController:GetStatType() return end
+function StatsViewController:GetStatType() end
 
 ---@param stat gameStatViewData
 ---@return nil
-function StatsViewController:Setup(stat) return end
+function StatsViewController:Setup(stat) end

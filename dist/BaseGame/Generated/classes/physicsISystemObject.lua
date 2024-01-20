@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class physicsISystemObject: ISerializable
----@field public name CName
+---@field name CName
 physicsISystemObject = {}

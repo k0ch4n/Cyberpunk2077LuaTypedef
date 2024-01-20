@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class MeleeAttackCommandHandler: AIbehaviortaskScript
----@field protected inCommand AIArgumentMapping
----@field protected currentCommand AIMeleeAttackCommand
+---@field inCommand AIArgumentMapping
+---@field currentCommand AIMeleeAttackCommand
 MeleeAttackCommandHandler = {}
 
 ---@param fields? MeleeAttackCommandHandler
 ---@return MeleeAttackCommandHandler
-function MeleeAttackCommandHandler.new(fields) return end
+function MeleeAttackCommandHandler.new(fields) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function MeleeAttackCommandHandler:Activate(context) return end
+function MeleeAttackCommandHandler:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function MeleeAttackCommandHandler:Update(context) return end
+function MeleeAttackCommandHandler:Update(context) end

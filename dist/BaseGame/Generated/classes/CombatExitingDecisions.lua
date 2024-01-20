@@ -5,9 +5,9 @@ CombatExitingDecisions = {}
 
 ---@param fields? CombatExitingDecisions
 ---@return CombatExitingDecisions
-function CombatExitingDecisions.new(fields) return end
+function CombatExitingDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CombatExitingDecisions:EnterCondition(stateContext, scriptInterface) return end
+function CombatExitingDecisions:EnterCondition(stateContext, scriptInterface) end

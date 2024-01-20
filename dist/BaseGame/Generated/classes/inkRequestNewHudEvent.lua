@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkRequestNewHudEvent: redEvent
----@field public entriesResource inkHudEntriesResource
+---@field entriesResource inkHudEntriesResource
 inkRequestNewHudEvent = {}
 
 ---@param fields? inkRequestNewHudEvent
 ---@return inkRequestNewHudEvent
-function inkRequestNewHudEvent.new(fields) return end
+function inkRequestNewHudEvent.new(fields) end

@@ -1,31 +1,26 @@
 ---@meta
 
 ---@class MenuScenario_CharacterCustomizationMirror: MenuScenario_BaseMenu
----@field private morphMenuUserData MorphMenuUserData
+---@field morphMenuUserData MorphMenuUserData
 MenuScenario_CharacterCustomizationMirror = {}
 
 ---@param fields? MenuScenario_CharacterCustomizationMirror
 ---@return MenuScenario_CharacterCustomizationMirror
-function MenuScenario_CharacterCustomizationMirror.new(fields) return end
+function MenuScenario_CharacterCustomizationMirror.new(fields) end
 
----@protected
 ---@return Bool
-function MenuScenario_CharacterCustomizationMirror:OnAccept() return end
+function MenuScenario_CharacterCustomizationMirror:OnAccept() end
 
----@protected
 ---@return Bool
-function MenuScenario_CharacterCustomizationMirror:OnBack() return end
+function MenuScenario_CharacterCustomizationMirror:OnBack() end
 
----@protected
 ---@return Bool
-function MenuScenario_CharacterCustomizationMirror:OnCCOPuppetReady() return end
+function MenuScenario_CharacterCustomizationMirror:OnCCOPuppetReady() end
 
----@protected
 ---@return Bool
-function MenuScenario_CharacterCustomizationMirror:OnCancel() return end
+function MenuScenario_CharacterCustomizationMirror:OnCancel() end
 
----@protected
 ---@param prevScenario CName|string
 ---@param userData IScriptable
 ---@return Bool
-function MenuScenario_CharacterCustomizationMirror:OnEnterScenario(prevScenario, userData) return end
+function MenuScenario_CharacterCustomizationMirror:OnEnterScenario(prevScenario, userData) end

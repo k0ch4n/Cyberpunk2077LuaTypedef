@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameHitRepresentationResource: CResource
----@field public representations gameHitShapeContainer[]
----@field public overrides gameHitRepresentationVisualTaggedOverride[]
+---@field representations gameHitShapeContainer[]
+---@field overrides gameHitRepresentationVisualTaggedOverride[]
 gameHitRepresentationResource = {}
 
 ---@param fields? gameHitRepresentationResource
 ---@return gameHitRepresentationResource
-function gameHitRepresentationResource.new(fields) return end
+function gameHitRepresentationResource.new(fields) end

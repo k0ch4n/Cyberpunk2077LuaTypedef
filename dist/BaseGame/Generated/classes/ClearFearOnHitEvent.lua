@@ -5,4 +5,4 @@ ClearFearOnHitEvent = {}
 
 ---@param fields? ClearFearOnHitEvent
 ---@return ClearFearOnHitEvent
-function ClearFearOnHitEvent.new(fields) return end
+function ClearFearOnHitEvent.new(fields) end

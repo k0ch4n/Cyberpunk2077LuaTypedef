@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class UIMenuNotificationQueue: gameuiGenericNotificationGameController
----@field private duration Float
+---@field duration Float
 UIMenuNotificationQueue = {}
 
 ---@param fields? UIMenuNotificationQueue
 ---@return UIMenuNotificationQueue
-function UIMenuNotificationQueue.new(fields) return end
+function UIMenuNotificationQueue.new(fields) end
 
----@protected
 ---@param evt UIMenuNotificationEvent
 ---@return Bool
-function UIMenuNotificationQueue:OnUINotification(evt) return end
+function UIMenuNotificationQueue:OnUINotification(evt) end
 
----@protected
 ---@param evt UINotificationRemoveEvent
 ---@return Bool
-function UIMenuNotificationQueue:OnUINotificationRemove(evt) return end
+function UIMenuNotificationQueue:OnUINotificationRemove(evt) end
 
 ---@return Int32
-function UIMenuNotificationQueue:GetID() return end
+function UIMenuNotificationQueue:GetID() end
 
 ---@return Bool
-function UIMenuNotificationQueue:GetShouldSaveState() return end
+function UIMenuNotificationQueue:GetShouldSaveState() end

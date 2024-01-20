@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class worldNavigationScriptPath: IScriptable
----@field public path Vector4[]
+---@field path Vector4[]
 worldNavigationScriptPath = {}
 
 ---@param fields? worldNavigationScriptPath
 ---@return worldNavigationScriptPath
-function worldNavigationScriptPath.new(fields) return end
+function worldNavigationScriptPath.new(fields) end
 
 ---@return Float
-function worldNavigationScriptPath:CalculateLength() return end
+function worldNavigationScriptPath:CalculateLength() end

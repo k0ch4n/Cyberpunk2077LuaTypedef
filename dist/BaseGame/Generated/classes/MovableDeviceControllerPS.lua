@@ -1,37 +1,35 @@
 ---@meta
 
 ---@class MovableDeviceControllerPS: ScriptableDeviceComponentPS
----@field private MovableDeviceSetup MovableDeviceSetup
----@field protected movableDeviceSkillChecks DemolitionContainer
+---@field MovableDeviceSetup MovableDeviceSetup
+---@field movableDeviceSkillChecks DemolitionContainer
 MovableDeviceControllerPS = {}
 
 ---@param fields? MovableDeviceControllerPS
 ---@return MovableDeviceControllerPS
-function MovableDeviceControllerPS.new(fields) return end
+function MovableDeviceControllerPS.new(fields) end
 
----@protected
 ---@param interactionTweak TweakDBID|string
 ---@return MoveObstacle
-function MovableDeviceControllerPS:ActionMoveObstacle(interactionTweak) return end
+function MovableDeviceControllerPS:ActionMoveObstacle(interactionTweak) end
 
 ---@return String
-function MovableDeviceControllerPS:GetActionName() return end
+function MovableDeviceControllerPS:GetActionName() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function MovableDeviceControllerPS:GetActions(context) return end
+function MovableDeviceControllerPS:GetActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function MovableDeviceControllerPS:GetSkillCheckContainerForSetup() return end
+function MovableDeviceControllerPS:GetSkillCheckContainerForSetup() end
 
 ---@param evt ActionDemolition
 ---@return EntityNotificationType
-function MovableDeviceControllerPS:OnActionDemolition(evt) return end
+function MovableDeviceControllerPS:OnActionDemolition(evt) end
 
 ---@param evt MoveObstacle
 ---@return EntityNotificationType
-function MovableDeviceControllerPS:OnActionMoveObstacle(evt) return end
+function MovableDeviceControllerPS:OnActionMoveObstacle(evt) end
 
 ---@return Bool
-function MovableDeviceControllerPS:WasDeviceMoved() return end
+function MovableDeviceControllerPS:WasDeviceMoved() end

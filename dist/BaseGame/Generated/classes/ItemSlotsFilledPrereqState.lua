@@ -1,19 +1,18 @@
 ---@meta
 
 ---@class ItemSlotsFilledPrereqState: gamePrereqState
----@field public equipmentBlackboardCallback redCallbackObject
----@field public owner gameObject
----@field public equipAreas gamedataEquipmentArea[]
+---@field equipmentBlackboardCallback redCallbackObject
+---@field owner gameObject
+---@field equipAreas gamedataEquipmentArea[]
 ItemSlotsFilledPrereqState = {}
 
 ---@param fields? ItemSlotsFilledPrereqState
 ---@return ItemSlotsFilledPrereqState
-function ItemSlotsFilledPrereqState.new(fields) return end
+function ItemSlotsFilledPrereqState.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function ItemSlotsFilledPrereqState:OnEquipAreaChanged(value) return end
+function ItemSlotsFilledPrereqState:OnEquipAreaChanged(value) end
 
 ---@return nil
-function ItemSlotsFilledPrereqState:CheckEquipAreaSlots() return end
+function ItemSlotsFilledPrereqState:CheckEquipAreaSlots() end

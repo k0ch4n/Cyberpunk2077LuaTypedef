@@ -5,4 +5,4 @@ inkanimTextOffsetInterpolator = {}
 
 ---@param fields? inkanimTextOffsetInterpolator
 ---@return inkanimTextOffsetInterpolator
-function inkanimTextOffsetInterpolator.new(fields) return end
+function inkanimTextOffsetInterpolator.new(fields) end

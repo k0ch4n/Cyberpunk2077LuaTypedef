@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class VehicleWindowOpen: ActionBool
----@field public slotID CName
----@field public speed CName
+---@field slotID CName
+---@field speed CName
 VehicleWindowOpen = {}
 
 ---@param fields? VehicleWindowOpen
 ---@return VehicleWindowOpen
-function VehicleWindowOpen.new(fields) return end
+function VehicleWindowOpen.new(fields) end
 
 ---@param slotString String
 ---@return nil
-function VehicleWindowOpen:SetProperties(slotString) return end
+function VehicleWindowOpen:SetProperties(slotString) end

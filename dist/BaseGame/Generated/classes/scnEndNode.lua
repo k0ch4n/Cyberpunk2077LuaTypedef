@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnEndNode: scnSceneGraphNode
----@field public type scnEndNodeNsType
+---@field type scnEndNodeNsType
 scnEndNode = {}
 
 ---@param fields? scnEndNode
 ---@return scnEndNode
-function scnEndNode.new(fields) return end
+function scnEndNode.new(fields) end

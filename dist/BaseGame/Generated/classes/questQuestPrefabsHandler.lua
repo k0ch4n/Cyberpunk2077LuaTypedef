@@ -5,4 +5,4 @@ questQuestPrefabsHandler = {}
 
 ---@param fields? questQuestPrefabsHandler
 ---@return questQuestPrefabsHandler
-function questQuestPrefabsHandler.new(fields) return end
+function questQuestPrefabsHandler.new(fields) end

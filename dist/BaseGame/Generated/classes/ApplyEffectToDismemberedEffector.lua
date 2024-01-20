@@ -5,8 +5,7 @@ ApplyEffectToDismemberedEffector = {}
 
 ---@param fields? ApplyEffectToDismemberedEffector
 ---@return ApplyEffectToDismemberedEffector
-function ApplyEffectToDismemberedEffector.new(fields) return end
+function ApplyEffectToDismemberedEffector.new(fields) end
 
----@protected
 ---@return DismembermentInstigatedInfo
-function ApplyEffectToDismemberedEffector:GetDismembermentInfo() return end
+function ApplyEffectToDismemberedEffector:GetDismembermentInfo() end

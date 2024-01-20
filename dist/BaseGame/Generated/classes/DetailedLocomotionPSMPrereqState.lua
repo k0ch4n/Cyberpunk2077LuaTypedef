@@ -5,4 +5,4 @@ DetailedLocomotionPSMPrereqState = {}
 
 ---@param fields? DetailedLocomotionPSMPrereqState
 ---@return DetailedLocomotionPSMPrereqState
-function DetailedLocomotionPSMPrereqState.new(fields) return end
+function DetailedLocomotionPSMPrereqState.new(fields) end

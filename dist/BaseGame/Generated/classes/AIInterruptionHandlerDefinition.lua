@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class AIInterruptionHandlerDefinition: LibTreeINodeDefinition
----@field public signal AIInterruptionSignal
----@field public supportLessImportantSignals Bool
+---@field signal AIInterruptionSignal
+---@field supportLessImportantSignals Bool
 AIInterruptionHandlerDefinition = {}

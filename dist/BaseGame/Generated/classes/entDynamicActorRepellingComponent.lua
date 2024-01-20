@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class entDynamicActorRepellingComponent: entIPlacedComponent
----@field public type entRepellingType
----@field public shape entRepellingShape
----@field public magnitude Float
----@field public bendIntensity Float
----@field public anchorPointVert rendWindShapeAnchorPointVert
----@field public anchorPointHorz rendWindShapeAnchorPointHorz
----@field public anchorPointDepth rendWindShapeAnchorPointDepth
----@field public radius Float
----@field public capsuleRadius Float
----@field public capsuleHeight Float
+---@field type entRepellingType
+---@field shape entRepellingShape
+---@field magnitude Float
+---@field bendIntensity Float
+---@field anchorPointVert rendWindShapeAnchorPointVert
+---@field anchorPointHorz rendWindShapeAnchorPointHorz
+---@field anchorPointDepth rendWindShapeAnchorPointDepth
+---@field radius Float
+---@field capsuleRadius Float
+---@field capsuleHeight Float
 entDynamicActorRepellingComponent = {}
 
 ---@param fields? entDynamicActorRepellingComponent
 ---@return entDynamicActorRepellingComponent
-function entDynamicActorRepellingComponent.new(fields) return end
+function entDynamicActorRepellingComponent.new(fields) end

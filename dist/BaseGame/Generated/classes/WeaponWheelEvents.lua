@@ -5,29 +5,25 @@ WeaponWheelEvents = {}
 
 ---@param fields? WeaponWheelEvents
 ---@return WeaponWheelEvents
-function WeaponWheelEvents.new(fields) return end
+function WeaponWheelEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponWheelEvents:OnEnter(stateContext, scriptInterface) return end
+function WeaponWheelEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponWheelEvents:OnExit(stateContext, scriptInterface) return end
+function WeaponWheelEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponWheelEvents:OnExitToQuickSlotsBusy(stateContext, scriptInterface) return end
+function WeaponWheelEvents:OnExitToQuickSlotsBusy(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function WeaponWheelEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function WeaponWheelEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

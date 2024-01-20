@@ -5,4 +5,4 @@ gameMuppetUpperBodyRequestsComponent = {}
 
 ---@param fields? gameMuppetUpperBodyRequestsComponent
 ---@return gameMuppetUpperBodyRequestsComponent
-function gameMuppetUpperBodyRequestsComponent.new(fields) return end
+function gameMuppetUpperBodyRequestsComponent.new(fields) end

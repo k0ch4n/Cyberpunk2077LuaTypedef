@@ -5,7 +5,7 @@ ActionAnimationScriptProxy = {}
 
 ---@param fields? ActionAnimationScriptProxy
 ---@return ActionAnimationScriptProxy
-function ActionAnimationScriptProxy.new(fields) return end
+function ActionAnimationScriptProxy.new(fields) end
 
 ---@param animFeatureName CName|string
 ---@param animFeature animAnimFeature_AIAction
@@ -18,12 +18,12 @@ function ActionAnimationScriptProxy.new(fields) return end
 ---@param marginToPlayer Float
 ---@param tagetPositionProvider? entIPositionProvider
 ---@return nil
-function ActionAnimationScriptProxy:ForceLaunch(animFeatureName, animFeature, useRootMotion, usePoseMatching, resetRagdollOnStart, motionDynamicObjectsCheck, slideParams, targetObject, marginToPlayer, tagetPositionProvider) return end
+function ActionAnimationScriptProxy:ForceLaunch(animFeatureName, animFeature, useRootMotion, usePoseMatching, resetRagdollOnStart, motionDynamicObjectsCheck, slideParams, targetObject, marginToPlayer, tagetPositionProvider) end
 
 ---@param animFeatureName CName|string
 ---@param animFeature animAnimFeature_AIAction
 ---@return Float
-function ActionAnimationScriptProxy:GetPhaseDuration(animFeatureName, animFeature) return end
+function ActionAnimationScriptProxy:GetPhaseDuration(animFeatureName, animFeature) end
 
 ---@param animFeatureName CName|string
 ---@param animFeature animAnimFeature_AIAction
@@ -37,7 +37,7 @@ function ActionAnimationScriptProxy:GetPhaseDuration(animFeatureName, animFeatur
 ---@param marginToPlayer Float
 ---@param tagetPositionProvider? entIPositionProvider
 ---@return Bool
-function ActionAnimationScriptProxy:Setup(animFeatureName, animFeature, useRootMotion, usePoseMatching, resetRagdollOnStart, motionDynamicObjectsCheck, updadeMovePolicy, slideParams, targetObject, marginToPlayer, tagetPositionProvider) return end
+function ActionAnimationScriptProxy:Setup(animFeatureName, animFeature, useRootMotion, usePoseMatching, resetRagdollOnStart, motionDynamicObjectsCheck, updadeMovePolicy, slideParams, targetObject, marginToPlayer, tagetPositionProvider) end
 
 ---@return nil
-function ActionAnimationScriptProxy:Terminate() return end
+function ActionAnimationScriptProxy:Terminate() end

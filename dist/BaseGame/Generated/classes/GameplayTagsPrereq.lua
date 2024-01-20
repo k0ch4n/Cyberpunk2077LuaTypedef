@@ -1,25 +1,23 @@
 ---@meta
 
 ---@class GameplayTagsPrereq: gameIScriptablePrereq
----@field public allowedTags CName[]
----@field public invert Bool
+---@field allowedTags CName[]
+---@field invert Bool
 GameplayTagsPrereq = {}
 
 ---@param fields? GameplayTagsPrereq
 ---@return GameplayTagsPrereq
-function GameplayTagsPrereq.new(fields) return end
+function GameplayTagsPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function GameplayTagsPrereq:Initialize(recordID) return end
+function GameplayTagsPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function GameplayTagsPrereq:IsFulfilled(context) return end
+function GameplayTagsPrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function GameplayTagsPrereq:OnApplied(state, context) return end
+function GameplayTagsPrereq:OnApplied(state, context) end

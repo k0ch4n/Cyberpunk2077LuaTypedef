@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class animAnimDatabaseCollection
----@field public animDatabases animAnimDatabaseCollectionEntry[]
+---@field animDatabases animAnimDatabaseCollectionEntry[]
 animAnimDatabaseCollection = {}
 
 ---@param fields? animAnimDatabaseCollection
 ---@return animAnimDatabaseCollection
-function animAnimDatabaseCollection.new(fields) return end
+function animAnimDatabaseCollection.new(fields) end

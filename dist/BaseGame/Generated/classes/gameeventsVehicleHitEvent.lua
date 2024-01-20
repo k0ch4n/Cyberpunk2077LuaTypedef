@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameeventsVehicleHitEvent: gameeventsHitEvent
----@field public vehicleVelocity Vector4
----@field public preyVelocity Vector4
+---@field vehicleVelocity Vector4
+---@field preyVelocity Vector4
 gameeventsVehicleHitEvent = {}
 
 ---@param fields? gameeventsVehicleHitEvent
 ---@return gameeventsVehicleHitEvent
-function gameeventsVehicleHitEvent.new(fields) return end
+function gameeventsVehicleHitEvent.new(fields) end

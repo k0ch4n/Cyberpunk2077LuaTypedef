@@ -1,113 +1,113 @@
 ---@meta
 
 ---@class Codeware_UI_CustomButton: Codeware_UI_inkCustomController
----@field public root inkCompoundWidget
----@field public label inkTextWidget
----@field public useAnimations Bool
----@field public useSounds Bool
----@field public isDisabled Bool
----@field public isHovered Bool
----@field public isPressed Bool
+---@field root inkCompoundWidget
+---@field label inkTextWidget
+---@field useAnimations Bool
+---@field useSounds Bool
+---@field isDisabled Bool
+---@field isHovered Bool
+---@field isPressed Bool
 Codeware_UI_CustomButton = {}
 
 ---@return nil
-function Codeware_UI_CustomButton:OnCreate() return end
+function Codeware_UI_CustomButton:OnCreate() end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function Codeware_UI_CustomButton:OnHoverOut(evt) return end
+function Codeware_UI_CustomButton:OnHoverOut(evt) end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function Codeware_UI_CustomButton:OnHoverOver(evt) return end
+function Codeware_UI_CustomButton:OnHoverOver(evt) end
 
 ---@return nil
-function Codeware_UI_CustomButton:OnInitialize() return end
+function Codeware_UI_CustomButton:OnInitialize() end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function Codeware_UI_CustomButton:OnPress(evt) return end
+function Codeware_UI_CustomButton:OnPress(evt) end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function Codeware_UI_CustomButton:OnRelease(evt) return end
+function Codeware_UI_CustomButton:OnRelease(evt) end
 
 ---@return nil
-function Codeware_UI_CustomButton:ApplyDisabledState() return end
+function Codeware_UI_CustomButton:ApplyDisabledState() end
 
 ---@return nil
-function Codeware_UI_CustomButton:ApplyHoveredState() return end
+function Codeware_UI_CustomButton:ApplyHoveredState() end
 
 ---@return nil
-function Codeware_UI_CustomButton:ApplyPressedState() return end
+function Codeware_UI_CustomButton:ApplyPressedState() end
 
 ---@return nil
-function Codeware_UI_CustomButton:CreateAnimations() return end
+function Codeware_UI_CustomButton:CreateAnimations() end
 
 ---@return nil
-function Codeware_UI_CustomButton:CreateWidgets() return end
+function Codeware_UI_CustomButton:CreateWidgets() end
 
 ---@return CName
-function Codeware_UI_CustomButton:GetName() return end
+function Codeware_UI_CustomButton:GetName() end
 
 ---@return inkEButtonState
-function Codeware_UI_CustomButton:GetState() return end
+function Codeware_UI_CustomButton:GetState() end
 
 ---@return String
-function Codeware_UI_CustomButton:GetText() return end
+function Codeware_UI_CustomButton:GetText() end
 
 ---@return Bool
-function Codeware_UI_CustomButton:IsDisabled() return end
+function Codeware_UI_CustomButton:IsDisabled() end
 
 ---@return Bool
-function Codeware_UI_CustomButton:IsEnabled() return end
+function Codeware_UI_CustomButton:IsEnabled() end
 
 ---@return Bool
-function Codeware_UI_CustomButton:IsHovered() return end
+function Codeware_UI_CustomButton:IsHovered() end
 
 ---@return Bool
-function Codeware_UI_CustomButton:IsPressed() return end
+function Codeware_UI_CustomButton:IsPressed() end
 
 ---@return nil
-function Codeware_UI_CustomButton:RegisterListeners() return end
+function Codeware_UI_CustomButton:RegisterListeners() end
 
 ---@param isDisabled Bool
 ---@return nil
-function Codeware_UI_CustomButton:SetDisabled(isDisabled) return end
+function Codeware_UI_CustomButton:SetDisabled(isDisabled) end
 
 ---@param isDisabled Bool
 ---@return nil
-function Codeware_UI_CustomButton:SetDisabledState(isDisabled) return end
+function Codeware_UI_CustomButton:SetDisabledState(isDisabled) end
 
 ---@param isHovered Bool
 ---@return nil
-function Codeware_UI_CustomButton:SetHoveredState(isHovered) return end
+function Codeware_UI_CustomButton:SetHoveredState(isHovered) end
 
 ---@param name CName|string
 ---@return nil
-function Codeware_UI_CustomButton:SetName(name) return end
+function Codeware_UI_CustomButton:SetName(name) end
 
 ---@param x Float
 ---@param y Float
 ---@return nil
-function Codeware_UI_CustomButton:SetPosition(x, y) return end
+function Codeware_UI_CustomButton:SetPosition(x, y) end
 
 ---@param isPressed Bool
 ---@return nil
-function Codeware_UI_CustomButton:SetPressedState(isPressed) return end
+function Codeware_UI_CustomButton:SetPressedState(isPressed) end
 
 ---@param text String
 ---@return nil
-function Codeware_UI_CustomButton:SetText(text) return end
+function Codeware_UI_CustomButton:SetText(text) end
 
 ---@param width Float
 ---@return nil
-function Codeware_UI_CustomButton:SetWidth(width) return end
+function Codeware_UI_CustomButton:SetWidth(width) end
 
 ---@param useAnimations Bool
 ---@return nil
-function Codeware_UI_CustomButton:ToggleAnimations(useAnimations) return end
+function Codeware_UI_CustomButton:ToggleAnimations(useAnimations) end
 
 ---@param useSounds Bool
 ---@return nil
-function Codeware_UI_CustomButton:ToggleSounds(useSounds) return end
+function Codeware_UI_CustomButton:ToggleSounds(useSounds) end

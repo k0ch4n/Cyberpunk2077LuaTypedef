@@ -5,31 +5,31 @@ gamedataShooterRangeGrenade_Record = {}
 
 ---@param fields? gamedataShooterRangeGrenade_Record
 ---@return gamedataShooterRangeGrenade_Record
-function gamedataShooterRangeGrenade_Record.new(fields) return end
+function gamedataShooterRangeGrenade_Record.new(fields) end
 
 ---@return redResourceReferenceScriptToken
-function gamedataShooterRangeGrenade_Record:AnimalVariant() return end
+function gamedataShooterRangeGrenade_Record:AnimalVariant() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataShooterRangeGrenade_Record:AnimalVariant2() return end
+function gamedataShooterRangeGrenade_Record:AnimalVariant2() end
 
 ---@return Float
-function gamedataShooterRangeGrenade_Record:DetectionRange() return end
+function gamedataShooterRangeGrenade_Record:DetectionRange() end
 
 ---@return Float
-function gamedataShooterRangeGrenade_Record:FireRate() return end
+function gamedataShooterRangeGrenade_Record:FireRate() end
 
 ---@return Float
-function gamedataShooterRangeGrenade_Record:HeliDetectionRange() return end
+function gamedataShooterRangeGrenade_Record:HeliDetectionRange() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataShooterRangeGrenade_Record:TigerVariant() return end
+function gamedataShooterRangeGrenade_Record:TigerVariant() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataShooterRangeGrenade_Record:TigerVariant2() return end
+function gamedataShooterRangeGrenade_Record:TigerVariant2() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataShooterRangeGrenade_Record:WraithVariant() return end
+function gamedataShooterRangeGrenade_Record:WraithVariant() end
 
 ---@return redResourceReferenceScriptToken
-function gamedataShooterRangeGrenade_Record:WraithVariant2() return end
+function gamedataShooterRangeGrenade_Record:WraithVariant2() end

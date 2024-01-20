@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class PerksMenuAttributeItemClicked: redEvent
----@field public widget inkWidget
----@field public attributeType PerkMenuAttribute
----@field public attributeData AttributeData
----@field public isHeld Bool
+---@field widget inkWidget
+---@field attributeType PerkMenuAttribute
+---@field attributeData AttributeData
+---@field isHeld Bool
 PerksMenuAttributeItemClicked = {}
 
 ---@param fields? PerksMenuAttributeItemClicked
 ---@return PerksMenuAttributeItemClicked
-function PerksMenuAttributeItemClicked.new(fields) return end
+function PerksMenuAttributeItemClicked.new(fields) end

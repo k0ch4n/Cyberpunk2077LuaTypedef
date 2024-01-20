@@ -5,28 +5,28 @@ gamedataShooterNinja_Record = {}
 
 ---@param fields? gamedataShooterNinja_Record
 ---@return gamedataShooterNinja_Record
-function gamedataShooterNinja_Record.new(fields) return end
+function gamedataShooterNinja_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterNinja_Record:ChargeCoolDown() return end
+function gamedataShooterNinja_Record:ChargeCoolDown() end
 
 ---@return Float
-function gamedataShooterNinja_Record:DashChargeRate() return end
+function gamedataShooterNinja_Record:DashChargeRate() end
 
 ---@return Int32
-function gamedataShooterNinja_Record:DashCount() return end
+function gamedataShooterNinja_Record:DashCount() end
 
 ---@return Int32
-function gamedataShooterNinja_Record:EnragedDashCount() return end
+function gamedataShooterNinja_Record:EnragedDashCount() end
 
 ---@return Int32
-function gamedataShooterNinja_Record:EnragedWaveCount() return end
+function gamedataShooterNinja_Record:EnragedWaveCount() end
 
 ---@return Float
-function gamedataShooterNinja_Record:FireRate() return end
+function gamedataShooterNinja_Record:FireRate() end
 
 ---@return Float
-function gamedataShooterNinja_Record:WaveCoolDown() return end
+function gamedataShooterNinja_Record:WaveCoolDown() end
 
 ---@return Int32
-function gamedataShooterNinja_Record:WaveCount() return end
+function gamedataShooterNinja_Record:WaveCount() end

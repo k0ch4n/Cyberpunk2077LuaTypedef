@@ -1,90 +1,75 @@
 ---@meta
 
 ---@class PauseMenuGameController: gameuiMenuItemListGameController
----@field private baseLogoContainer inkCompoundWidgetReference
----@field private ep1LogoContainer inkCompoundWidgetReference
----@field private buttonHintsManagerRef inkWidgetReference
----@field private expansionNotyficationRef inkWidgetReference
----@field private buttonHintsController ButtonHints
----@field public gameInstance ScriptGameInstance
----@field private savesCount Int32
----@field private quickSaveInProgress Bool
----@field private setCursorOnInit Bool
----@field private axisInputReceived Bool
----@field private dpadInputReceived Bool
+---@field baseLogoContainer inkCompoundWidgetReference
+---@field ep1LogoContainer inkCompoundWidgetReference
+---@field buttonHintsManagerRef inkWidgetReference
+---@field expansionNotyficationRef inkWidgetReference
+---@field buttonHintsController ButtonHints
+---@field gameInstance ScriptGameInstance
+---@field savesCount Int32
+---@field quickSaveInProgress Bool
+---@field setCursorOnInit Bool
+---@field axisInputReceived Bool
+---@field dpadInputReceived Bool
 PauseMenuGameController = {}
 
 ---@param fields? PauseMenuGameController
 ---@return PauseMenuGameController
-function PauseMenuGameController.new(fields) return end
+function PauseMenuGameController.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PauseMenuGameController:OnGlobalAxisInput(e) return end
+function PauseMenuGameController:OnGlobalAxisInput(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PauseMenuGameController:OnGlobalRelease(e) return end
+function PauseMenuGameController:OnGlobalRelease(e) end
 
----@protected
 ---@return Bool
-function PauseMenuGameController:OnInitialize() return end
+function PauseMenuGameController:OnInitialize() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function PauseMenuGameController:OnIntroFinished(proxy) return end
+function PauseMenuGameController:OnIntroFinished(proxy) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function PauseMenuGameController:OnListRelease(e) return end
+function PauseMenuGameController:OnListRelease(e) end
 
----@protected
 ---@param index Int32
 ---@param target inkListItemController
 ---@return Bool
-function PauseMenuGameController:OnMenuItemActivated(index, target) return end
+function PauseMenuGameController:OnMenuItemActivated(index, target) end
 
----@protected
 ---@return Bool
-function PauseMenuGameController:OnRedrawRequested() return end
+function PauseMenuGameController:OnRedrawRequested() end
 
----@protected
 ---@param success Bool
 ---@param locks gameSaveLock[]
 ---@return Bool
-function PauseMenuGameController:OnSavingComplete(success, locks) return end
+function PauseMenuGameController:OnSavingComplete(success, locks) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function PauseMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function PauseMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function PauseMenuGameController:OnUninitialize() return end
+function PauseMenuGameController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function PauseMenuGameController:OnUnitialize() return end
+function PauseMenuGameController:OnUnitialize() end
 
----@private
 ---@return nil
-function PauseMenuGameController:HandlePressToQuickSaveGame() return end
+function PauseMenuGameController:HandlePressToQuickSaveGame() end
 
----@private
 ---@param target inkWidget
 ---@return nil
-function PauseMenuGameController:HandlePressToSaveGame(target) return end
+function PauseMenuGameController:HandlePressToSaveGame(target) end
 
----@private
 ---@return nil
-function PauseMenuGameController:PopulateMenuItemList() return end
+function PauseMenuGameController:PopulateMenuItemList() end
 
----@private
 ---@param isEP1Installed Bool
 ---@return nil
-function PauseMenuGameController:SwitchGameLogo(isEP1Installed) return end
+function PauseMenuGameController:SwitchGameLogo(isEP1Installed) end

@@ -1,46 +1,39 @@
 ---@meta
 
 ---@class QuestUpdateGameController: gameuiHUDGameController
----@field private header inkTextWidgetReference
----@field private label inkTextWidgetReference
----@field private icon inkImageWidgetReference
----@field private animationProxy inkanimProxy
----@field private data QuestUpdateUserData
----@field private owner gameObject
----@field private journalMgr gameJournalManager
+---@field header inkTextWidgetReference
+---@field label inkTextWidgetReference
+---@field icon inkImageWidgetReference
+---@field animationProxy inkanimProxy
+---@field data QuestUpdateUserData
+---@field owner gameObject
+---@field journalMgr gameJournalManager
 QuestUpdateGameController = {}
 
 ---@param fields? QuestUpdateGameController
 ---@return QuestUpdateGameController
-function QuestUpdateGameController.new(fields) return end
+function QuestUpdateGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function QuestUpdateGameController:OnButtonRelease(evt) return end
+function QuestUpdateGameController:OnButtonRelease(evt) end
 
----@protected
 ---@return Bool
-function QuestUpdateGameController:OnInitialize() return end
+function QuestUpdateGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function QuestUpdateGameController:OnOutroAnimFinished(anim) return end
+function QuestUpdateGameController:OnOutroAnimFinished(anim) end
 
----@protected
 ---@return Bool
-function QuestUpdateGameController:OnUninitialize() return end
+function QuestUpdateGameController:OnUninitialize() end
 
----@private
 ---@return nil
-function QuestUpdateGameController:OpenQuestMenu() return end
+function QuestUpdateGameController:OpenQuestMenu() end
 
----@private
 ---@param animName CName|string
 ---@return nil
-function QuestUpdateGameController:PlayAnimation(animName) return end
+function QuestUpdateGameController:PlayAnimation(animName) end
 
----@private
 ---@return nil
-function QuestUpdateGameController:Setup() return end
+function QuestUpdateGameController:Setup() end

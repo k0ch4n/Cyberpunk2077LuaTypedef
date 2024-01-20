@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class inkIEffect: ISerializable
----@field public isEnabled Bool
----@field public effectName CName
+---@field isEnabled Bool
+---@field effectName CName
 inkIEffect = {}

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class audioAudioEventMetadataArrayElement: ISerializable
----@field public redId CName
----@field public wwiseId Uint32
----@field public maxAttenuation Float
----@field public minDuration Float
----@field public maxDuration Float
----@field public isLooping Bool
----@field public stopActionEvents CName[]
----@field public tags CName[]
+---@field redId CName
+---@field wwiseId Uint32
+---@field maxAttenuation Float
+---@field minDuration Float
+---@field maxDuration Float
+---@field isLooping Bool
+---@field stopActionEvents CName[]
+---@field tags CName[]
 audioAudioEventMetadataArrayElement = {}
 
 ---@param fields? audioAudioEventMetadataArrayElement
 ---@return audioAudioEventMetadataArrayElement
-function audioAudioEventMetadataArrayElement.new(fields) return end
+function audioAudioEventMetadataArrayElement.new(fields) end

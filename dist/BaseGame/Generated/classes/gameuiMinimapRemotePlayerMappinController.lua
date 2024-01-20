@@ -1,28 +1,24 @@
 ---@meta
 
 ---@class gameuiMinimapRemotePlayerMappinController: gameuiBaseMinimapMappinController
----@field public rootWidget inkWidgetReference
----@field public shapeWidget inkWidgetReference
----@field public dataWidget inkWidgetReference
----@field protected playerMappin gamemappinsRemotePlayerMappin
+---@field rootWidget inkWidgetReference
+---@field shapeWidget inkWidgetReference
+---@field dataWidget inkWidgetReference
+---@field playerMappin gamemappinsRemotePlayerMappin
 gameuiMinimapRemotePlayerMappinController = {}
 
 ---@param fields? gameuiMinimapRemotePlayerMappinController
 ---@return gameuiMinimapRemotePlayerMappinController
-function gameuiMinimapRemotePlayerMappinController.new(fields) return end
+function gameuiMinimapRemotePlayerMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiMinimapRemotePlayerMappinController:OnInitialize() return end
+function gameuiMinimapRemotePlayerMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function gameuiMinimapRemotePlayerMappinController:OnUpdate() return end
+function gameuiMinimapRemotePlayerMappinController:OnUpdate() end
 
----@protected
 ---@return nil
-function gameuiMinimapRemotePlayerMappinController:Intro() return end
+function gameuiMinimapRemotePlayerMappinController:Intro() end
 
----@protected
 ---@return nil
-function gameuiMinimapRemotePlayerMappinController:Update() return end
+function gameuiMinimapRemotePlayerMappinController:Update() end

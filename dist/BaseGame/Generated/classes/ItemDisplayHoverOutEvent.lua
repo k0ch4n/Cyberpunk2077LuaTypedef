@@ -5,4 +5,4 @@ ItemDisplayHoverOutEvent = {}
 
 ---@param fields? ItemDisplayHoverOutEvent
 ---@return ItemDisplayHoverOutEvent
-function ItemDisplayHoverOutEvent.new(fields) return end
+function ItemDisplayHoverOutEvent.new(fields) end

@@ -5,9 +5,8 @@ IsPlayerInAPoliceCarChaseCondition = {}
 
 ---@param fields? IsPlayerInAPoliceCarChaseCondition
 ---@return IsPlayerInAPoliceCarChaseCondition
-function IsPlayerInAPoliceCarChaseCondition.new(fields) return end
+function IsPlayerInAPoliceCarChaseCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPlayerInAPoliceCarChaseCondition:Check(context) return end
+function IsPlayerInAPoliceCarChaseCondition:Check(context) end

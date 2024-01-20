@@ -5,10 +5,10 @@ ReflectionEnum = {}
 
 ---@param fields? ReflectionEnum
 ---@return ReflectionEnum
-function ReflectionEnum.new(fields) return end
+function ReflectionEnum.new(fields) end
 
 ---@return ReflectionConst[]
-function ReflectionEnum:GetConstants() return end
+function ReflectionEnum:GetConstants() end
 
 ---@return Bool
-function ReflectionEnum:IsNative() return end
+function ReflectionEnum:IsNative() end

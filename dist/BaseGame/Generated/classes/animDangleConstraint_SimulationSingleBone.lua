@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class animDangleConstraint_SimulationSingleBone: animDangleConstraint_Simulation
----@field public dangleBone animTransformIndex
+---@field dangleBone animTransformIndex
 animDangleConstraint_SimulationSingleBone = {}

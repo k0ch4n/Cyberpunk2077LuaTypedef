@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ToggleTargetingComponentsEvent: redEvent
----@field public toggle Bool
+---@field toggle Bool
 ToggleTargetingComponentsEvent = {}
 
 ---@param fields? ToggleTargetingComponentsEvent
 ---@return ToggleTargetingComponentsEvent
-function ToggleTargetingComponentsEvent.new(fields) return end
+function ToggleTargetingComponentsEvent.new(fields) end

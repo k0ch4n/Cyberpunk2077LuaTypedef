@@ -5,4 +5,4 @@ VeryHardLandDecisions = {}
 
 ---@param fields? VeryHardLandDecisions
 ---@return VeryHardLandDecisions
-function VeryHardLandDecisions.new(fields) return end
+function VeryHardLandDecisions.new(fields) end

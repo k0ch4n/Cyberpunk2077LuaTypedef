@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SComponentOperationData
----@field public componentName CName
----@field public operationType EComponentOperation
+---@field componentName CName
+---@field operationType EComponentOperation
 SComponentOperationData = {}
 
 ---@param fields? SComponentOperationData
 ---@return SComponentOperationData
-function SComponentOperationData.new(fields) return end
+function SComponentOperationData.new(fields) end

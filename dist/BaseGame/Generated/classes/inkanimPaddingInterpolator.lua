@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class inkanimPaddingInterpolator: inkanimInterpolator
----@field public startValue inkMargin
----@field public endValue inkMargin
+---@field startValue inkMargin
+---@field endValue inkMargin
 inkanimPaddingInterpolator = {}
 
 ---@param fields? inkanimPaddingInterpolator
 ---@return inkanimPaddingInterpolator
-function inkanimPaddingInterpolator.new(fields) return end
+function inkanimPaddingInterpolator.new(fields) end
 
 ---@return inkMargin
-function inkanimPaddingInterpolator:GetEndPadding() return end
+function inkanimPaddingInterpolator:GetEndPadding() end
 
 ---@return inkMargin
-function inkanimPaddingInterpolator:GetStartPadding() return end
+function inkanimPaddingInterpolator:GetStartPadding() end
 
 ---@param endPadding inkMargin
 ---@return nil
-function inkanimPaddingInterpolator:SetEndPadding(endPadding) return end
+function inkanimPaddingInterpolator:SetEndPadding(endPadding) end
 
 ---@param startPadding inkMargin
 ---@return nil
-function inkanimPaddingInterpolator:SetStartPadding(startPadding) return end
+function inkanimPaddingInterpolator:SetStartPadding(startPadding) end

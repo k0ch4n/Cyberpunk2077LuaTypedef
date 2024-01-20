@@ -5,4 +5,4 @@ questDisableTeleportingMonitoring_NodeType = {}
 
 ---@param fields? questDisableTeleportingMonitoring_NodeType
 ---@return questDisableTeleportingMonitoring_NodeType
-function questDisableTeleportingMonitoring_NodeType.new(fields) return end
+function questDisableTeleportingMonitoring_NodeType.new(fields) end

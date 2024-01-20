@@ -5,9 +5,8 @@ CasinoTableObject = {}
 
 ---@param fields? CasinoTableObject
 ---@return CasinoTableObject
-function CasinoTableObject.new(fields) return end
+function CasinoTableObject.new(fields) end
 
----@protected
 ---@param evt ChangeCasinoTableStateEvent
 ---@return Bool
-function CasinoTableObject:OnChangeCasinoTableState(evt) return end
+function CasinoTableObject:OnChangeCasinoTableState(evt) end

@@ -1,113 +1,100 @@
 ---@meta
 
 ---@class PerkScreenController: inkWidgetLogicController
----@field protected hubSelector inkWidgetReference
----@field protected connectionLinesContainer inkCompoundWidgetReference
----@field protected boughtConnectionLinesContainer inkCompoundWidgetReference
----@field protected maxedConnectionLinesContainer inkCompoundWidgetReference
----@field protected boughtMaskContainer inkCanvasWidgetReference
----@field protected maxedMaskContainer inkCanvasWidgetReference
----@field protected attributeNameText inkTextWidgetReference
----@field protected attributeLevelText inkTextWidgetReference
----@field protected levelControllerRef inkWidgetReference
----@field protected rewardsControllerRef inkWidgetReference
----@field protected TooltipsManagerRef inkWidgetReference
----@field protected proficiencyRootRef inkWidgetReference
----@field protected proficiencyDescriptionText inkTextWidgetReference
----@field protected dataManager PlayerDevelopmentDataManager
----@field protected displayData AttributeDisplayData
----@field private proficiencyRoot TabRadioGroup
----@field private widgetMap PerkDisplayContainerController[]
----@field private traitController PerkDisplayContainerController
----@field private currentIndex Int32
----@field private connectionLines Int32[]
----@field private levelController StatsProgressController
----@field private rewardsController StatsStreetCredReward
----@field private tooltipsManager gameuiTooltipsManager
+---@field hubSelector inkWidgetReference
+---@field connectionLinesContainer inkCompoundWidgetReference
+---@field boughtConnectionLinesContainer inkCompoundWidgetReference
+---@field maxedConnectionLinesContainer inkCompoundWidgetReference
+---@field boughtMaskContainer inkCanvasWidgetReference
+---@field maxedMaskContainer inkCanvasWidgetReference
+---@field attributeNameText inkTextWidgetReference
+---@field attributeLevelText inkTextWidgetReference
+---@field levelControllerRef inkWidgetReference
+---@field rewardsControllerRef inkWidgetReference
+---@field TooltipsManagerRef inkWidgetReference
+---@field proficiencyRootRef inkWidgetReference
+---@field proficiencyDescriptionText inkTextWidgetReference
+---@field dataManager PlayerDevelopmentDataManager
+---@field displayData AttributeDisplayData
+---@field proficiencyRoot TabRadioGroup
+---@field widgetMap PerkDisplayContainerController[]
+---@field traitController PerkDisplayContainerController
+---@field currentIndex Int32
+---@field connectionLines Int32[]
+---@field levelController StatsProgressController
+---@field rewardsController StatsStreetCredReward
+---@field tooltipsManager gameuiTooltipsManager
 PerkScreenController = {}
 
 ---@param fields? PerkScreenController
 ---@return PerkScreenController
-function PerkScreenController.new(fields) return end
+function PerkScreenController.new(fields) end
 
----@protected
 ---@return Bool
-function PerkScreenController:OnInitialize() return end
+function PerkScreenController:OnInitialize() end
 
----@protected
 ---@param evt PerkBoughtEvent
 ---@return Bool
-function PerkScreenController:OnPerkBoughtEvent(evt) return end
+function PerkScreenController:OnPerkBoughtEvent(evt) end
 
----@protected
 ---@param evt PerkDisplayContainerCreatedEvent
 ---@return Bool
-function PerkScreenController:OnPerkDisplayContainerCreated(evt) return end
+function PerkScreenController:OnPerkDisplayContainerCreated(evt) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function PerkScreenController:OnSetUserData(userData) return end
+function PerkScreenController:OnSetUserData(userData) end
 
----@protected
 ---@param evt TraitBoughtEvent
 ---@return Bool
-function PerkScreenController:OnTraitBoughtEvent(evt) return end
+function PerkScreenController:OnTraitBoughtEvent(evt) end
 
----@protected
 ---@return Bool
-function PerkScreenController:OnUninitialize() return end
+function PerkScreenController:OnUninitialize() end
 
----@protected
 ---@param evt UnlimitedUnlocked
 ---@return Bool
-function PerkScreenController:OnUnlimitedUnlocked(evt) return end
+function PerkScreenController:OnUnlimitedUnlocked(evt) end
 
----@protected
 ---@param controller inkRadioGroupController
 ---@param selectedIndex Int32
 ---@return Bool
-function PerkScreenController:OnValueChanged(controller, selectedIndex) return end
+function PerkScreenController:OnValueChanged(controller, selectedIndex) end
 
 ---@return inkWidget
-function PerkScreenController:GetHubSelectorWidget() return end
+function PerkScreenController:GetHubSelectorWidget() end
 
----@private
 ---@param data ProficiencyDisplayData
 ---@return MenuData
-function PerkScreenController:GetMenuData(data) return end
+function PerkScreenController:GetMenuData(data) end
 
 ---@return ProficiencyDisplayData
-function PerkScreenController:GetProficiencyDisplayData() return end
+function PerkScreenController:GetProficiencyDisplayData() end
 
----@private
 ---@return nil
-function PerkScreenController:ProcessTutorialFact() return end
+function PerkScreenController:ProcessTutorialFact() end
 
 ---@param index Int32
 ---@return nil
-function PerkScreenController:RebuildPerks(index) return end
+function PerkScreenController:RebuildPerks(index) end
 
----@protected
 ---@param attributeDisplayData AttributeDisplayData
 ---@param startingIndex Int32
 ---@return nil
-function PerkScreenController:RegisterProficiencyButtons(attributeDisplayData, startingIndex) return end
+function PerkScreenController:RegisterProficiencyButtons(attributeDisplayData, startingIndex) end
 
 ---@param displayData AttributeDisplayData
 ---@param dataManager PlayerDevelopmentDataManager
 ---@param startingIndex Int32
 ---@return nil
-function PerkScreenController:Setup(displayData, dataManager, startingIndex) return end
+function PerkScreenController:Setup(displayData, dataManager, startingIndex) end
 
----@private
 ---@param lineContainer inkCompoundWidgetReference
 ---@param show Bool
 ---@param lineNumber Int32
 ---@return nil
-function PerkScreenController:ShowLineWidget(lineContainer, show, lineNumber) return end
+function PerkScreenController:ShowLineWidget(lineContainer, show, lineNumber) end
 
----@private
 ---@param controller PerkDisplayContainerController
 ---@return nil
-function PerkScreenController:SpawnConnectionGradiantMask(controller) return end
+function PerkScreenController:SpawnConnectionGradiantMask(controller) end

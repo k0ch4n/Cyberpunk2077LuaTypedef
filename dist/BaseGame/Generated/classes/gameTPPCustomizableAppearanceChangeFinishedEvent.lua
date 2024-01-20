@@ -5,4 +5,4 @@ gameTPPCustomizableAppearanceChangeFinishedEvent = {}
 
 ---@param fields? gameTPPCustomizableAppearanceChangeFinishedEvent
 ---@return gameTPPCustomizableAppearanceChangeFinishedEvent
-function gameTPPCustomizableAppearanceChangeFinishedEvent.new(fields) return end
+function gameTPPCustomizableAppearanceChangeFinishedEvent.new(fields) end

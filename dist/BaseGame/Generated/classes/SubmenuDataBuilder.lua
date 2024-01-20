@@ -1,25 +1,25 @@
 ---@meta
 
 ---@class SubmenuDataBuilder: IScriptable
----@field private menuBuilder MenuDataBuilder
----@field private menuDataIndex Int32
+---@field menuBuilder MenuDataBuilder
+---@field menuDataIndex Int32
 SubmenuDataBuilder = {}
 
 ---@param fields? SubmenuDataBuilder
 ---@return SubmenuDataBuilder
-function SubmenuDataBuilder.new(fields) return end
+function SubmenuDataBuilder.new(fields) end
 
 ---@param menuBuilder MenuDataBuilder
 ---@param menuDataIndex Int32
 ---@return SubmenuDataBuilder
-function SubmenuDataBuilder.Make(menuBuilder, menuDataIndex) return end
+function SubmenuDataBuilder.Make(menuBuilder, menuDataIndex) end
 
 ---@param identifier Int32
 ---@param fullscreenName CName|string
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return SubmenuDataBuilder
-function SubmenuDataBuilder:AddSubmenu(identifier, fullscreenName, labelKey, userData) return end
+function SubmenuDataBuilder:AddSubmenu(identifier, fullscreenName, labelKey, userData) end
 
 ---@param condition Bool
 ---@param identifier Int32
@@ -27,7 +27,7 @@ function SubmenuDataBuilder:AddSubmenu(identifier, fullscreenName, labelKey, use
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return SubmenuDataBuilder
-function SubmenuDataBuilder:AddSubmenuIf(condition, identifier, fullscreenName, labelKey, userData) return end
+function SubmenuDataBuilder:AddSubmenuIf(condition, identifier, fullscreenName, labelKey, userData) end
 
 ---@return MenuDataBuilder
-function SubmenuDataBuilder:GetMenuBuilder() return end
+function SubmenuDataBuilder:GetMenuBuilder() end

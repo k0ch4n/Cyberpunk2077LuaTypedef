@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class EquipPrimaryWeaponCommandDelegate: AIbehaviorScriptBehaviorDelegate
----@field public command AISwitchToPrimaryWeaponCommand
----@field public unEquip Bool
+---@field command AISwitchToPrimaryWeaponCommand
+---@field unEquip Bool
 EquipPrimaryWeaponCommandDelegate = {}
 
 ---@param fields? EquipPrimaryWeaponCommandDelegate
 ---@return EquipPrimaryWeaponCommandDelegate
-function EquipPrimaryWeaponCommandDelegate.new(fields) return end
+function EquipPrimaryWeaponCommandDelegate.new(fields) end
 
 ---@return Bool
-function EquipPrimaryWeaponCommandDelegate:DoEndCommand() return end
+function EquipPrimaryWeaponCommandDelegate:DoEndCommand() end
 
 ---@return Bool
-function EquipPrimaryWeaponCommandDelegate:DoSetupCommand() return end
+function EquipPrimaryWeaponCommandDelegate:DoSetupCommand() end

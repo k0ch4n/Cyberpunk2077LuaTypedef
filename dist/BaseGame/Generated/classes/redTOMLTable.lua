@@ -5,4 +5,4 @@ redTOMLTable = {}
 
 ---@param fields? redTOMLTable
 ---@return redTOMLTable
-function redTOMLTable.new(fields) return end
+function redTOMLTable.new(fields) end

@@ -5,4 +5,4 @@ AIbehaviorTrueConditionDefinition = {}
 
 ---@param fields? AIbehaviorTrueConditionDefinition
 ---@return AIbehaviorTrueConditionDefinition
-function AIbehaviorTrueConditionDefinition.new(fields) return end
+function AIbehaviorTrueConditionDefinition.new(fields) end

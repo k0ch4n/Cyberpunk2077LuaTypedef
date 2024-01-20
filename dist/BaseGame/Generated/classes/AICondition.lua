@@ -6,364 +6,363 @@ AICondition = {}
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionRecord gamedataAIAction_Record
 ---@return Bool
-function AICondition.ActivationCheck(context, actionRecord) return end
+function AICondition.ActivationCheck(context, actionRecord) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param actionRecord gamedataAIAction_Record
 ---@return Bool
-function AICondition.AnimationStreamedInCheck(context, actionRecord) return end
+function AICondition.AnimationStreamedInCheck(context, actionRecord) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIIsShootingBlockedFromPrevention_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIVelocitiesDotCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAICanShootInCarChaseCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIVehicleCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIOptimalDistanceCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIExtendTargetCirclingCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIEverPerformedChase_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAISpatialCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIMovementCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAICoverCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIDodgeCountCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIStatusEffectCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIVelocityDotCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAISignalCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIGoToCoverCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAISecurityCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAITargetCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIAssignedVehicleInRace_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAITresspassingCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIFriendlyFireCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAINPCRarityCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAINPCTypeCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIIsFromDynamicSpawnSystem_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAITargetInPreventionFreeArea_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIDriverCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIReactionCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIIsOnNavmeshCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAILookAtCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAICalculatePathCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIStateCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIHitCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAINPCDifficultyCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIAssignedVehicleInPanicDriving_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIAssignedVehicleCanReachTargetCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAITargetStandingOnTopOfMovingVehicleCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIWeakSpotCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIRestrictedMovementAreaCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIItemCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIAbilityCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAISlotCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAICalculateLineOfSightVector_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIMovingInCirclesCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIThrowCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAISquadCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIPreviousAttackCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIAmmoCountCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIStatPoolCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIIsHeatStage5Active_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAITargetInUnmountingRangeCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIIsFromPreventionSystem_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIWeaponLockedOnTargetCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIHasWeapon_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIVelocityCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIBlockCountCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIInTacticPositionCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAICommandCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIPercentageChanceCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIVehicleInsideInnerAreaOfAreaSpeedLimiter_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAILoSPositionCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIInArmedVehicleCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIValidCoversCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIGameDifficultyCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIIsInActiveCameraCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIWorkspotCond_Record
 ---@return Bool
-function AICondition.Check(context, condition) return end
+function AICondition.Check(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckAbilities(context, condition) return end
+function AICondition.CheckAbilities(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param ability gamedataGameplayAbility_Record
 ---@return Bool
-function AICondition.CheckAbility(context, ability) return end
+function AICondition.CheckAbility(context, ability) end
 
 ---@param puppet ScriptedPuppet
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckActionCondition(puppet, condition) return end
+function AICondition.CheckActionCondition(puppet, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckActionCondition(context, condition) return end
+function AICondition.CheckActionCondition(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param conditions gamedataAIActionCondition_Record[]
 ---@return Bool
-function AICondition.CheckActionConditions(context, conditions) return end
+function AICondition.CheckActionConditions(context, conditions) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckAmmoCounts(context, condition) return end
+function AICondition.CheckAmmoCounts(context, condition) end
 
----@private
 ---@param owner gamePuppet
 ---@param source gameObject
 ---@param sourcePosition Vector4
@@ -374,9 +373,8 @@ function AICondition.CheckAmmoCounts(context, condition) return end
 ---@param coneAngleRange Vector2
 ---@param condition gamedataAISpatialCond_Record
 ---@return Bool, Bool returnVal
-function AICondition.CheckAngle2ObjInternal(owner, source, sourcePosition, sourceCoverID, target, targetPosition, targetCoverID, coneAngleRange, condition) return end
+function AICondition.CheckAngle2ObjInternal(owner, source, sourcePosition, sourceCoverID, target, targetPosition, targetCoverID, coneAngleRange, condition) end
 
----@private
 ---@param owner gamePuppet
 ---@param source gameObject
 ---@param sourcePosition Vector4
@@ -390,161 +388,154 @@ function AICondition.CheckAngle2ObjInternal(owner, source, sourcePosition, sourc
 ---@param coneAngleRange Vector2
 ---@param condition gamedataAISpatialCond_Record
 ---@return Bool, Bool returnVal
-function AICondition.CheckAngle3ObjInternal(owner, source, sourcePosition, sourceCoverID, target, targetPosition, targetCoverID, targetOpt, targetPositionOpt, targetCoverIDOpt, coneAngleRange, condition) return end
+function AICondition.CheckAngle3ObjInternal(owner, source, sourcePosition, sourceCoverID, target, targetPosition, targetCoverID, targetOpt, targetPositionOpt, targetCoverIDOpt, coneAngleRange, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckCalculateLineOfSightVector(context, condition) return end
+function AICondition.CheckCalculateLineOfSightVector(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckCalculatePaths(context, condition) return end
+function AICondition.CheckCalculatePaths(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckCommands(context, condition) return end
+function AICondition.CheckCommands(context, condition) end
 
----@private
 ---@param owner gamePuppet
 ---@param sourcePosition Vector4
 ---@param targetPosition Vector4
 ---@param distanceRange Vector2
 ---@param condition gamedataAISpatialCond_Record
 ---@return Bool, Bool returnVal
-function AICondition.CheckDistanceInternal(owner, sourcePosition, targetPosition, distanceRange, condition) return end
+function AICondition.CheckDistanceInternal(owner, sourcePosition, targetPosition, distanceRange, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckItems(context, condition) return end
+function AICondition.CheckItems(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckLookats(context, condition) return end
+function AICondition.CheckLookats(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckMovements(context, condition) return end
+function AICondition.CheckMovements(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckReactions(context, condition) return end
+function AICondition.CheckReactions(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckRestrictedMovementAreas(context, condition) return end
+function AICondition.CheckRestrictedMovementAreas(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckSignals(context, condition) return end
+function AICondition.CheckSignals(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckSlots(context, condition) return end
+function AICondition.CheckSlots(context, condition) end
 
 ---@param ownerContext AIbehaviorScriptExecutionContext
 ---@param targetContext AIbehaviorScriptExecutionContext
 ---@param condition gamedataAISpatialCond_Record
 ---@return Bool
-function AICondition.CheckSpatial(ownerContext, targetContext, condition) return end
+function AICondition.CheckSpatial(ownerContext, targetContext, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckSpatials(context, condition) return end
+function AICondition.CheckSpatials(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckStatPools(context, condition) return end
+function AICondition.CheckStatPools(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckStates(context, condition) return end
+function AICondition.CheckStates(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckStatusEffects(context, condition) return end
+function AICondition.CheckStatusEffects(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckTickets(context, condition) return end
+function AICondition.CheckTickets(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckTresspassings(context, condition) return end
+function AICondition.CheckTresspassings(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckVehicles(context, condition) return end
+function AICondition.CheckVehicles(context, condition) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param condition gamedataAIActionCondition_Record
 ---@return Bool
-function AICondition.CheckWeakSpots(context, condition) return end
+function AICondition.CheckWeakSpots(context, condition) end
 
----@private
 ---@param sourcePosition Vector4
 ---@param targetPosition Vector4
 ---@param ZDiffRange Vector2
 ---@param condition gamedataAISpatialCond_Record
 ---@return Bool, Bool returnVal
-function AICondition.CheckZDiffInternal(sourcePosition, targetPosition, ZDiffRange, condition) return end
+function AICondition.CheckZDiffInternal(sourcePosition, targetPosition, ZDiffRange, condition) end
 
----@private
 ---@param difficulty gameDifficulty
 ---@return Int32
-function AICondition.GetDifficultyValue(difficulty) return end
+function AICondition.GetDifficultyValue(difficulty) end
 
----@private
 ---@param difficulty gameEPowerDifferential
 ---@return Int32
-function AICondition.GetPowerDifferentialValue(difficulty) return end
+function AICondition.GetPowerDifferentialValue(difficulty) end
 
----@private
 ---@param puppet ScriptedPuppet
 ---@param timePeriod Float
 ---@return Vector4
-function AICondition.GetPuppetVelocity(puppet, timePeriod) return end
+function AICondition.GetPuppetVelocity(puppet, timePeriod) end
 
----@private
 ---@param ownerPuppet ScriptedPuppet
 ---@param threats AITrackedLocation[]
 ---@return Bool
-function AICondition.IsAwareOfBeingFlankedByAnyThreat(ownerPuppet, threats) return end
+function AICondition.IsAwareOfBeingFlankedByAnyThreat(ownerPuppet, threats) end
 
----@private
 ---@param ownerPuppet ScriptedPuppet
 ---@param threat AITrackedLocation
 ---@return Bool
-function AICondition.IsAwareOfBeingFlankedByThreat(ownerPuppet, threat) return end
+function AICondition.IsAwareOfBeingFlankedByThreat(ownerPuppet, threat) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param phase Uint32
 ---@param actionRecord gamedataAIAction_Record
 ---@return Bool
-function AICondition.NextPhaseCheck(context, phase, actionRecord) return end
+function AICondition.NextPhaseCheck(context, phase, actionRecord) end
 
 ---@param conditionName CName|string
 ---@return nil
-function AICondition.OnCantFindProperCheck(conditionName) return end
+function AICondition.OnCantFindProperCheck(conditionName) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@param phase Uint32
 ---@param actionRecord gamedataAIAction_Record
 ---@return Bool
-function AICondition.RepeatPhaseCheck(context, phase, actionRecord) return end
+function AICondition.RepeatPhaseCheck(context, phase, actionRecord) end

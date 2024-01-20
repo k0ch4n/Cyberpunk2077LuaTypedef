@@ -1,20 +1,20 @@
 ---@meta
 
 ---@class SocialPanelContactsListItem: inkToggleController
----@field private Label inkTextWidgetReference
----@field private ContactInfo SocialPanelContactInfo
+---@field Label inkTextWidgetReference
+---@field ContactInfo SocialPanelContactInfo
 SocialPanelContactsListItem = {}
 
 ---@param fields? SocialPanelContactsListItem
 ---@return SocialPanelContactsListItem
-function SocialPanelContactsListItem.new(fields) return end
+function SocialPanelContactsListItem.new(fields) end
 
 ---@return gameJournalContact
-function SocialPanelContactsListItem:GetContact() return end
+function SocialPanelContactsListItem:GetContact() end
 
 ---@return Int32
-function SocialPanelContactsListItem:GetHash() return end
+function SocialPanelContactsListItem:GetHash() end
 
 ---@param contactInfo SocialPanelContactInfo
 ---@return nil
-function SocialPanelContactsListItem:Setup(contactInfo) return end
+function SocialPanelContactsListItem:Setup(contactInfo) end

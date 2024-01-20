@@ -5,7 +5,7 @@ QuestHangUpCall = {}
 
 ---@param fields? QuestHangUpCall
 ---@return QuestHangUpCall
-function QuestHangUpCall.new(fields) return end
+function QuestHangUpCall.new(fields) end
 
 ---@return nil
-function QuestHangUpCall:SetProperties() return end
+function QuestHangUpCall:SetProperties() end

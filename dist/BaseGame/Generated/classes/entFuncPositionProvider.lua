@@ -5,4 +5,4 @@ entFuncPositionProvider = {}
 
 ---@param fields? entFuncPositionProvider
 ---@return entFuncPositionProvider
-function entFuncPositionProvider.new(fields) return end
+function entFuncPositionProvider.new(fields) end

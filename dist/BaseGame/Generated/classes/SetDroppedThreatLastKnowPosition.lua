@@ -5,14 +5,12 @@ SetDroppedThreatLastKnowPosition = {}
 
 ---@param fields? SetDroppedThreatLastKnowPosition
 ---@return SetDroppedThreatLastKnowPosition
-function SetDroppedThreatLastKnowPosition.new(fields) return end
+function SetDroppedThreatLastKnowPosition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetDroppedThreatLastKnowPosition:Activate(context) return end
+function SetDroppedThreatLastKnowPosition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function SetDroppedThreatLastKnowPosition:Deactivate(context) return end
+function SetDroppedThreatLastKnowPosition:Deactivate(context) end

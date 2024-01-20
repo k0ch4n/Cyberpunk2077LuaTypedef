@@ -5,4 +5,4 @@ gamedataAISubActionSetEquipSecondaryWeapons_Record = {}
 
 ---@param fields? gamedataAISubActionSetEquipSecondaryWeapons_Record
 ---@return gamedataAISubActionSetEquipSecondaryWeapons_Record
-function gamedataAISubActionSetEquipSecondaryWeapons_Record.new(fields) return end
+function gamedataAISubActionSetEquipSecondaryWeapons_Record.new(fields) end

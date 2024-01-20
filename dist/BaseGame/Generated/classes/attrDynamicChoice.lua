@@ -5,4 +5,4 @@ attrDynamicChoice = {}
 
 ---@param fields? attrDynamicChoice
 ---@return attrDynamicChoice
-function attrDynamicChoice.new(fields) return end
+function attrDynamicChoice.new(fields) end

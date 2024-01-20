@@ -1,34 +1,30 @@
 ---@meta
 
 ---@class AIBehaviorCallbackExpression: AIbehaviorexpressionScript
----@field protected callbackName CName
----@field protected initialValue Bool
----@field protected callbackAction ECallbackExpressionActions
----@field protected callbackId Uint32
----@field protected value Bool
+---@field callbackName CName
+---@field initialValue Bool
+---@field callbackAction ECallbackExpressionActions
+---@field callbackId Uint32
+---@field value Bool
 AIBehaviorCallbackExpression = {}
 
 ---@param fields? AIBehaviorCallbackExpression
 ---@return AIBehaviorCallbackExpression
-function AIBehaviorCallbackExpression.new(fields) return end
+function AIBehaviorCallbackExpression.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIBehaviorCallbackExpression:Activate(context) return end
+function AIBehaviorCallbackExpression:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Variant
-function AIBehaviorCallbackExpression:CalculateValue(context) return end
+function AIBehaviorCallbackExpression:CalculateValue(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIBehaviorCallbackExpression:Deactivate(context) return end
+function AIBehaviorCallbackExpression:Deactivate(context) end
 
----@protected
 ---@param cbName CName|string
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIBehaviorCallbackExpression:OnBehaviorCallback(cbName, context) return end
+function AIBehaviorCallbackExpression:OnBehaviorCallback(cbName, context) end

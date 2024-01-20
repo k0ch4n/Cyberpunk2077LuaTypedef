@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiOnMiniGameStateUpdateEventAdvanced: redEvent
----@field public gameState gameuiSideScrollerMiniGameStateAdvanced
----@field public propertyNames CName[]
+---@field gameState gameuiSideScrollerMiniGameStateAdvanced
+---@field propertyNames CName[]
 gameuiOnMiniGameStateUpdateEventAdvanced = {}
 
 ---@param fields? gameuiOnMiniGameStateUpdateEventAdvanced
 ---@return gameuiOnMiniGameStateUpdateEventAdvanced
-function gameuiOnMiniGameStateUpdateEventAdvanced.new(fields) return end
+function gameuiOnMiniGameStateUpdateEventAdvanced.new(fields) end

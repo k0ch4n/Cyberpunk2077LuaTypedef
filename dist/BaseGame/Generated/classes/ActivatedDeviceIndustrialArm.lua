@@ -1,72 +1,60 @@
 ---@meta
 
 ---@class ActivatedDeviceIndustrialArm: ActivatedDeviceTrap
----@field public loopAnimation EIndustrialArmAnimations
+---@field loopAnimation EIndustrialArmAnimations
 ActivatedDeviceIndustrialArm = {}
 
 ---@param fields? ActivatedDeviceIndustrialArm
 ---@return ActivatedDeviceIndustrialArm
-function ActivatedDeviceIndustrialArm.new(fields) return end
+function ActivatedDeviceIndustrialArm.new(fields) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function ActivatedDeviceIndustrialArm:OnAreaEnter(evt) return end
+function ActivatedDeviceIndustrialArm:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function ActivatedDeviceIndustrialArm:OnAreaExit(evt) return end
+function ActivatedDeviceIndustrialArm:OnAreaExit(evt) end
 
----@protected
 ---@param evt IndustrialArmDamageEvent
 ---@return Bool
-function ActivatedDeviceIndustrialArm:OnIndustrialArmDamageEvent(evt) return end
+function ActivatedDeviceIndustrialArm:OnIndustrialArmDamageEvent(evt) end
 
----@protected
 ---@param evt QuestSetIndustrialArmAnimationOverride
 ---@return Bool
-function ActivatedDeviceIndustrialArm:OnQuestSetIndustrialArmAnimationOverride(evt) return end
+function ActivatedDeviceIndustrialArm:OnQuestSetIndustrialArmAnimationOverride(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ActivatedDeviceIndustrialArm:OnRequestComponents(ri) return end
+function ActivatedDeviceIndustrialArm:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ActivatedDeviceIndustrialArm:OnTakeControl(ri) return end
+function ActivatedDeviceIndustrialArm:OnTakeControl(ri) end
 
 ---@return EGameplayRole
-function ActivatedDeviceIndustrialArm:DeterminGameplayRole() return end
+function ActivatedDeviceIndustrialArm:DeterminGameplayRole() end
 
----@protected
 ---@return nil
-function ActivatedDeviceIndustrialArm:RefreshAnimation() return end
+function ActivatedDeviceIndustrialArm:RefreshAnimation() end
 
----@protected
 ---@return nil
-function ActivatedDeviceIndustrialArm:ResolveGameplayState() return end
+function ActivatedDeviceIndustrialArm:ResolveGameplayState() end
 
----@protected
 ---@param idleAnimNumber Int32
 ---@param isRotate Bool
 ---@param isDistraction Bool
 ---@param isPoke Bool
 ---@return nil
-function ActivatedDeviceIndustrialArm:SendIndustrialArmAnimFeature(idleAnimNumber, isRotate, isDistraction, isPoke) return end
+function ActivatedDeviceIndustrialArm:SendIndustrialArmAnimFeature(idleAnimNumber, isRotate, isDistraction, isPoke) end
 
----@protected
 ---@return nil
-function ActivatedDeviceIndustrialArm:SendIndustrialArmDamageEvent() return end
+function ActivatedDeviceIndustrialArm:SendIndustrialArmDamageEvent() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function ActivatedDeviceIndustrialArm:StartGlitching(glitchState, intensity) return end
+function ActivatedDeviceIndustrialArm:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function ActivatedDeviceIndustrialArm:StopGlitching() return end
+function ActivatedDeviceIndustrialArm:StopGlitching() end

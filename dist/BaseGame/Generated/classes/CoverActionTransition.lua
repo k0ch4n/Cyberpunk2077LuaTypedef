@@ -1,61 +1,52 @@
 ---@meta
 
 ---@class CoverActionTransition: LocomotionTransition
----@field protected gameInstance ScriptGameInstance
----@field protected locomotionStateCallbackID redCallbackObject
----@field protected lastSlidingTime Float
----@field protected isSliding Bool
+---@field gameInstance ScriptGameInstance
+---@field locomotionStateCallbackID redCallbackObject
+---@field lastSlidingTime Float
+---@field isSliding Bool
 CoverActionTransition = {}
 
----@protected
 ---@param value Int32
 ---@return Bool
-function CoverActionTransition:OnLocomotionChanged(value) return end
+function CoverActionTransition:OnLocomotionChanged(value) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Float
-function CoverActionTransition:GetManualLeanIdleTime(scriptInterface, stateContext) return end
+function CoverActionTransition:GetManualLeanIdleTime(scriptInterface, stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param actionName CName|string
 ---@return Bool
-function CoverActionTransition:IsManualLeanInputPressed(stateContext, scriptInterface, actionName) return end
+function CoverActionTransition:IsManualLeanInputPressed(stateContext, scriptInterface, actionName) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CoverActionTransition:IsManualLeanLeftInputPressed(stateContext, scriptInterface) return end
+function CoverActionTransition:IsManualLeanLeftInputPressed(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CoverActionTransition:IsManualLeanRightInputPressed(stateContext, scriptInterface) return end
+function CoverActionTransition:IsManualLeanRightInputPressed(stateContext, scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function CoverActionTransition:IsMeleeLeaningInputCorrect(scriptInterface) return end
+function CoverActionTransition:IsMeleeLeaningInputCorrect(scriptInterface) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function CoverActionTransition:IsPlayerInCorrectStateToPeek(scriptInterface, stateContext) return end
+function CoverActionTransition:IsPlayerInCorrectStateToPeek(scriptInterface, stateContext) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CoverActionTransition:OnAttach(stateContext, scriptInterface) return end
+function CoverActionTransition:OnAttach(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function CoverActionTransition:OnDetach(stateContext, scriptInterface) return end
+function CoverActionTransition:OnDetach(stateContext, scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorSelectCombatTargetTaskDefinition: AIbehaviorTaskDefinition
----@field public target AIArgumentMapping
----@field public targetClosest Bool
+---@field target AIArgumentMapping
+---@field targetClosest Bool
 AIbehaviorSelectCombatTargetTaskDefinition = {}
 
 ---@param fields? AIbehaviorSelectCombatTargetTaskDefinition
 ---@return AIbehaviorSelectCombatTargetTaskDefinition
-function AIbehaviorSelectCombatTargetTaskDefinition.new(fields) return end
+function AIbehaviorSelectCombatTargetTaskDefinition.new(fields) end

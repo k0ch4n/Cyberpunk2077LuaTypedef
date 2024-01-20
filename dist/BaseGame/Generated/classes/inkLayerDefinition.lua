@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class inkLayerDefinition
----@field public enabled Bool
----@field public rootLibrary inkWidgetLibraryResource
----@field public activeByDefault Bool
----@field public isPermanent Bool
----@field public useGlobalStyleTheme Bool
----@field public isAffectedByFadeout Bool
----@field public useGameInput Bool
----@field public inputContext CName
+---@field enabled Bool
+---@field rootLibrary inkWidgetLibraryResource
+---@field activeByDefault Bool
+---@field isPermanent Bool
+---@field useGlobalStyleTheme Bool
+---@field isAffectedByFadeout Bool
+---@field useGameInput Bool
+---@field inputContext CName
 inkLayerDefinition = {}
 
 ---@param fields? inkLayerDefinition
 ---@return inkLayerDefinition
-function inkLayerDefinition.new(fields) return end
+function inkLayerDefinition.new(fields) end

@@ -5,4 +5,4 @@ vehicleAudioVehicleCurveSet = {}
 
 ---@param fields? vehicleAudioVehicleCurveSet
 ---@return vehicleAudioVehicleCurveSet
-function vehicleAudioVehicleCurveSet.new(fields) return end
+function vehicleAudioVehicleCurveSet.new(fields) end

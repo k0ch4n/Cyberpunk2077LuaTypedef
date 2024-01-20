@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class UI_BriefingDef: gamebbScriptDefinition
----@field public BriefingToOpen gamebbScriptID_String
----@field public BriefingSize gamebbScriptID_Variant
----@field public BriefingAlignment gamebbScriptID_Variant
+---@field BriefingToOpen gamebbScriptID_String
+---@field BriefingSize gamebbScriptID_Variant
+---@field BriefingAlignment gamebbScriptID_Variant
 UI_BriefingDef = {}
 
 ---@param fields? UI_BriefingDef
 ---@return UI_BriefingDef
-function UI_BriefingDef.new(fields) return end
+function UI_BriefingDef.new(fields) end
 
 ---@return Bool
-function UI_BriefingDef:AutoCreateInSystem() return end
+function UI_BriefingDef:AutoCreateInSystem() end

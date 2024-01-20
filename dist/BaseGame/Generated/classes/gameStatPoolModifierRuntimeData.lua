@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameStatPoolModifierRuntimeData
----@field public modifier gameStatPoolModifier
----@field public modificationDelay Float
----@field public inRange Bool
----@field public recordID TweakDBID
+---@field modifier gameStatPoolModifier
+---@field modificationDelay Float
+---@field inRange Bool
+---@field recordID TweakDBID
 gameStatPoolModifierRuntimeData = {}
 
 ---@param fields? gameStatPoolModifierRuntimeData
 ---@return gameStatPoolModifierRuntimeData
-function gameStatPoolModifierRuntimeData.new(fields) return end
+function gameStatPoolModifierRuntimeData.new(fields) end

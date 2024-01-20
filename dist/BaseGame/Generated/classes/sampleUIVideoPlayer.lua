@@ -1,69 +1,66 @@
 ---@meta
 
 ---@class sampleUIVideoPlayer: inkWidgetLogicController
----@field public videoWidgetPath CName
----@field public counterWidgetPath CName
----@field public lastFramePath CName
----@field public currentFramePath CName
----@field private videoWidget inkVideoWidget
----@field private framesToSkipCounterWidget inkTextWidget
----@field private lastFrameWidget inkTextWidget
----@field private currentFrameWidget inkTextWidget
----@field private numberOfFrames Uint32
+---@field videoWidgetPath CName
+---@field counterWidgetPath CName
+---@field lastFramePath CName
+---@field currentFramePath CName
+---@field videoWidget inkVideoWidget
+---@field framesToSkipCounterWidget inkTextWidget
+---@field lastFrameWidget inkTextWidget
+---@field currentFrameWidget inkTextWidget
+---@field numberOfFrames Uint32
 sampleUIVideoPlayer = {}
 
 ---@param fields? sampleUIVideoPlayer
 ---@return sampleUIVideoPlayer
-function sampleUIVideoPlayer.new(fields) return end
+function sampleUIVideoPlayer.new(fields) end
 
----@protected
 ---@return Bool
-function sampleUIVideoPlayer:OnInitialize() return end
+function sampleUIVideoPlayer:OnInitialize() end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:FastForward(e) return end
+function sampleUIVideoPlayer:FastForward(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:JumpToFrame(e) return end
+function sampleUIVideoPlayer:JumpToFrame(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:JumpToTime(e) return end
+function sampleUIVideoPlayer:JumpToTime(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:LowerFramesCounter(e) return end
+function sampleUIVideoPlayer:LowerFramesCounter(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:PauseVideo(e) return end
+function sampleUIVideoPlayer:PauseVideo(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:PlayPauseVideo(e) return end
+function sampleUIVideoPlayer:PlayPauseVideo(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:ResumeVideo(e) return end
+function sampleUIVideoPlayer:ResumeVideo(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:Rewind(e) return end
+function sampleUIVideoPlayer:Rewind(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:RiseFramesCounter(e) return end
+function sampleUIVideoPlayer:RiseFramesCounter(e) end
 
 ---@param e inkPointerEvent
 ---@return nil
-function sampleUIVideoPlayer:StopVideo(e) return end
+function sampleUIVideoPlayer:StopVideo(e) end
 
----@private
 ---@return nil
-function sampleUIVideoPlayer:UpdateCounter() return end
+function sampleUIVideoPlayer:UpdateCounter() end
 
----@private
 ---@return nil
-function sampleUIVideoPlayer:UpdateTextWidgets() return end
+function sampleUIVideoPlayer:UpdateTextWidgets() end

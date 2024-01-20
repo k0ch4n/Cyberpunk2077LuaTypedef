@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioMeleeAttackSettings
----@field public hitEvent CName
----@field public penetratingHitEvent CName
----@field public criticalHitEvent CName
----@field public killingHitEvent CName
+---@field hitEvent CName
+---@field penetratingHitEvent CName
+---@field criticalHitEvent CName
+---@field killingHitEvent CName
 audioMeleeAttackSettings = {}
 
 ---@param fields? audioMeleeAttackSettings
 ---@return audioMeleeAttackSettings
-function audioMeleeAttackSettings.new(fields) return end
+function audioMeleeAttackSettings.new(fields) end

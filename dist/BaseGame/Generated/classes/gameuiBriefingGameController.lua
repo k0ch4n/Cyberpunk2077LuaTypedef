@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiBriefingGameController: gameuiWidgetGameController
----@field public briefingPlayerType questBriefingPlayerType
+---@field briefingPlayerType questBriefingPlayerType
 gameuiBriefingGameController = {}
 
 ---@param fields? gameuiBriefingGameController
 ---@return gameuiBriefingGameController
-function gameuiBriefingGameController.new(fields) return end
+function gameuiBriefingGameController.new(fields) end

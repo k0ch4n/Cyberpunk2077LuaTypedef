@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameVisionAppearanceForcedEvent: redEvent
----@field public state Bool
+---@field state Bool
 gameVisionAppearanceForcedEvent = {}
 
 ---@param fields? gameVisionAppearanceForcedEvent
 ---@return gameVisionAppearanceForcedEvent
-function gameVisionAppearanceForcedEvent.new(fields) return end
+function gameVisionAppearanceForcedEvent.new(fields) end

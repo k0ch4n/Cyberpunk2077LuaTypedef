@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class IsAVSpawned: PreventionConditionAbstract
----@field public agentRegistry PoliceAgentRegistry
----@field public prevSys PreventionSystem
+---@field agentRegistry PoliceAgentRegistry
+---@field prevSys PreventionSystem
 IsAVSpawned = {}
 
 ---@param fields? IsAVSpawned
 ---@return IsAVSpawned
-function IsAVSpawned.new(fields) return end
+function IsAVSpawned.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsAVSpawned:Check(context) return end
+function IsAVSpawned:Check(context) end

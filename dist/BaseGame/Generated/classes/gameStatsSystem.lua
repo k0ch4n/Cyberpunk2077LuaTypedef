@@ -5,131 +5,131 @@ gameStatsSystem = {}
 
 ---@param fields? gameStatsSystem
 ---@return gameStatsSystem
-function gameStatsSystem.new(fields) return end
+function gameStatsSystem.new(fields) end
 
 ---@param objID gameStatsObjectID
 ---@param modifierData gameStatModifierData_Deprecated
 ---@return Bool
-function gameStatsSystem:AddModifier(objID, modifierData) return end
+function gameStatsSystem:AddModifier(objID, modifierData) end
 
 ---@param objID gameStatsObjectID
 ---@param modifierData gameStatModifierData_Deprecated[]
 ---@return Bool
-function gameStatsSystem:AddModifiers(objID, modifierData) return end
+function gameStatsSystem:AddModifiers(objID, modifierData) end
 
 ---@param objID gameStatsObjectID
 ---@param modifierData gameStatModifierData_Deprecated
 ---@return Bool
-function gameStatsSystem:AddSavedModifier(objID, modifierData) return end
+function gameStatsSystem:AddSavedModifier(objID, modifierData) end
 
 ---@param objID gameStatsObjectID
 ---@param groupID Uint64
 ---@return Bool
-function gameStatsSystem:ApplyModifierGroup(objID, groupID) return end
+function gameStatsSystem:ApplyModifierGroup(objID, groupID) end
 
 ---@param objID gameStatsObjectID
 ---@param modifierData gamedataStatModifier_Record[]
 ---@return Float
-function gameStatsSystem:CalculateModifierListValue(objID, modifierData) return end
+function gameStatsSystem:CalculateModifierListValue(objID, modifierData) end
 
 ---@param groupID Uint64
 ---@param recordID TweakDBID|string
 ---@return Bool
-function gameStatsSystem:DefineModifierGroupFromRecord(groupID, recordID) return end
+function gameStatsSystem:DefineModifierGroupFromRecord(groupID, recordID) end
 
 ---@param objID gameStatsObjectID
 ---@param modifierData gameStatModifierData_Deprecated
 ---@return Bool
-function gameStatsSystem:ForceModifier(objID, modifierData) return end
+function gameStatsSystem:ForceModifier(objID, modifierData) end
 
 ---@param damageTypeRecordId TweakDBID|string
 ---@return gamedataDamageType_Record
-function gameStatsSystem:GetDamageRecordFromId(damageTypeRecordId) return end
+function gameStatsSystem:GetDamageRecordFromId(damageTypeRecordId) end
 
 ---@param damageType gamedataDamageType
 ---@return gamedataDamageType_Record
-function gameStatsSystem:GetDamageRecordFromType(damageType) return end
+function gameStatsSystem:GetDamageRecordFromType(damageType) end
 
 ---@param damageType gamedataDamageType
 ---@return TweakDBID
-function gameStatsSystem:GetDamageRecordId(damageType) return end
+function gameStatsSystem:GetDamageRecordId(damageType) end
 
 ---@param statType gamedataStatType
 ---@return gamedataDamageType
-function gameStatsSystem:GetDamageType(statType) return end
+function gameStatsSystem:GetDamageType(statType) end
 
 ---@param damageTypeRecordId TweakDBID|string
 ---@return gamedataDamageType
-function gameStatsSystem:GetDamageTypeByRecordID(damageTypeRecordId) return end
+function gameStatsSystem:GetDamageTypeByRecordID(damageTypeRecordId) end
 
 ---@param objID gameStatsObjectID
 ---@return nil, CName[] outThemes
-function gameStatsSystem:GetSortedStatsThemes(objID) return end
+function gameStatsSystem:GetSortedStatsThemes(objID) end
 
 ---@param objID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@return Bool
-function gameStatsSystem:GetStatBoolValue(objID, statType) return end
+function gameStatsSystem:GetStatBoolValue(objID, statType) end
 
 ---@param objID gameStatsObjectID
 ---@return gameStatDetailedData[]
-function gameStatsSystem:GetStatDetails(objID) return end
+function gameStatsSystem:GetStatDetails(objID) end
 
 ---@param damageType gamedataDamageType
 ---@return gamedataStatType
-function gameStatsSystem:GetStatType(damageType) return end
+function gameStatsSystem:GetStatType(damageType) end
 
 ---@param objID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@return Float
-function gameStatsSystem:GetStatValue(objID, statType) return end
+function gameStatsSystem:GetStatValue(objID, statType) end
 
 ---@param objId gameStatsObjectID
 ---@param damageType gamedataDamageType
 ---@return Float
-function gameStatsSystem:GetStatValueFromDamageType(objId, damageType) return end
+function gameStatsSystem:GetStatValueFromDamageType(objId, damageType) end
 
 ---@param objID gameStatsObjectID
 ---@param listener gameIStatsListener
 ---@return nil
-function gameStatsSystem:RegisterListener(objID, listener) return end
+function gameStatsSystem:RegisterListener(objID, listener) end
 
 ---@param objID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param removeSavedModifiers? Bool
 ---@return Bool
-function gameStatsSystem:RemoveAllModifiers(objID, statType, removeSavedModifiers) return end
+function gameStatsSystem:RemoveAllModifiers(objID, statType, removeSavedModifiers) end
 
 ---@param objID gameStatsObjectID
 ---@param modifierData gameStatModifierData_Deprecated
 ---@return Bool
-function gameStatsSystem:RemoveAndUncacheModifier(objID, modifierData) return end
+function gameStatsSystem:RemoveAndUncacheModifier(objID, modifierData) end
 
 ---@param objID gameStatsObjectID
 ---@param modifierData gameStatModifierData_Deprecated
 ---@return Bool
-function gameStatsSystem:RemoveModifier(objID, modifierData) return end
+function gameStatsSystem:RemoveModifier(objID, modifierData) end
 
 ---@param objID gameStatsObjectID
 ---@param groupID Uint64
 ---@return Bool
-function gameStatsSystem:RemoveModifierGroup(objID, groupID) return end
+function gameStatsSystem:RemoveModifierGroup(objID, groupID) end
 
 ---@param objID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@return Bool
-function gameStatsSystem:RemoveSavedModifiers(objID, statType) return end
+function gameStatsSystem:RemoveSavedModifiers(objID, statType) end
 
 ---@param groupID Uint64
 ---@return Bool
-function gameStatsSystem:UndefineModifierGroup(groupID) return end
+function gameStatsSystem:UndefineModifierGroup(groupID) end
 
 ---@param objID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@return Bool
-function gameStatsSystem:UnforceStat(objID, statType) return end
+function gameStatsSystem:UnforceStat(objID, statType) end
 
 ---@param objID gameStatsObjectID
 ---@param listener gameIStatsListener
 ---@return nil
-function gameStatsSystem:UnregisterListener(objID, listener) return end
+function gameStatsSystem:UnregisterListener(objID, listener) end

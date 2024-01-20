@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class appearanceCensorshipEntry
----@field public Original CName
----@field public Censored CName
----@field public CensorFlags Uint32
+---@field Original CName
+---@field Censored CName
+---@field CensorFlags Uint32
 appearanceCensorshipEntry = {}
 
 ---@param fields? appearanceCensorshipEntry
 ---@return appearanceCensorshipEntry
-function appearanceCensorshipEntry.new(fields) return end
+function appearanceCensorshipEntry.new(fields) end

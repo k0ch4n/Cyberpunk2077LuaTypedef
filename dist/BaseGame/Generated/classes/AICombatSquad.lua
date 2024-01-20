@@ -5,4 +5,4 @@ AICombatSquad = {}
 
 ---@param fields? AICombatSquad
 ---@return AICombatSquad
-function AICombatSquad.new(fields) return end
+function AICombatSquad.new(fields) end

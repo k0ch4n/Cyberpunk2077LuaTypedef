@@ -5,19 +5,19 @@ KeyInputEvent = {}
 
 ---@param fields? KeyInputEvent
 ---@return KeyInputEvent
-function KeyInputEvent.new(fields) return end
+function KeyInputEvent.new(fields) end
 
 ---@return EInputAction
-function KeyInputEvent:GetAction() return end
+function KeyInputEvent:GetAction() end
 
 ---@return EInputKey
-function KeyInputEvent:GetKey() return end
+function KeyInputEvent:GetKey() end
 
 ---@return Bool
-function KeyInputEvent:IsAltDown() return end
+function KeyInputEvent:IsAltDown() end
 
 ---@return Bool
-function KeyInputEvent:IsControlDown() return end
+function KeyInputEvent:IsControlDown() end
 
 ---@return Bool
-function KeyInputEvent:IsShiftDown() return end
+function KeyInputEvent:IsShiftDown() end

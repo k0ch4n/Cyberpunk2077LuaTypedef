@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class SmartHousePreset: IScriptable
----@field protected timetable SPresetTimetableEntry
+---@field timetable SPresetTimetableEntry
 SmartHousePreset = {}
 
 ---@param devices gameDeviceComponentPS[]
 ---@return nil
-function SmartHousePreset:ExecutePresetActions(devices) return end
+function SmartHousePreset:ExecutePresetActions(devices) end
 
 ---@return CName
-function SmartHousePreset:GetIconName() return end
+function SmartHousePreset:GetIconName() end
 
 ---@return CName
-function SmartHousePreset:GetPresetName() return end
+function SmartHousePreset:GetPresetName() end
 
 ---@return SPresetTimetableEntry
-function SmartHousePreset:GetTimeTable() return end
+function SmartHousePreset:GetTimeTable() end
 
----@protected
 ---@param device DoorControllerPS
 ---@return nil
-function SmartHousePreset:QueueDoorActions(device) return end
+function SmartHousePreset:QueueDoorActions(device) end
 
----@protected
 ---@param device RadioControllerPS
 ---@return nil
-function SmartHousePreset:QueueRadioActions(device) return end
+function SmartHousePreset:QueueRadioActions(device) end
 
----@protected
 ---@param device SimpleSwitchControllerPS
 ---@return nil
-function SmartHousePreset:QueueSwitchActions(device) return end
+function SmartHousePreset:QueueSwitchActions(device) end
 
----@protected
 ---@param device TVControllerPS
 ---@return nil
-function SmartHousePreset:QueueTVActions(device) return end
+function SmartHousePreset:QueueTVActions(device) end
 
----@protected
 ---@param device WindowBlindersControllerPS
 ---@return nil
-function SmartHousePreset:QueueWindowBlinderActions(device) return end
+function SmartHousePreset:QueueWindowBlinderActions(device) end

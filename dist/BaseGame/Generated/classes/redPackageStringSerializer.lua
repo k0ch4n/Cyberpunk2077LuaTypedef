@@ -5,4 +5,4 @@ redPackageStringSerializer = {}
 
 ---@param fields? redPackageStringSerializer
 ---@return redPackageStringSerializer
-function redPackageStringSerializer.new(fields) return end
+function redPackageStringSerializer.new(fields) end

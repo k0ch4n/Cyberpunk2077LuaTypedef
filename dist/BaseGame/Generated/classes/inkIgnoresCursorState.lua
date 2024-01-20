@@ -5,4 +5,4 @@ inkIgnoresCursorState = {}
 
 ---@param fields? inkIgnoresCursorState
 ---@return inkIgnoresCursorState
-function inkIgnoresCursorState.new(fields) return end
+function inkIgnoresCursorState.new(fields) end

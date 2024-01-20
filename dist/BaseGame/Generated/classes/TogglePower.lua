@@ -1,36 +1,36 @@
 ---@meta
 
 ---@class TogglePower: ActionBool
----@field protected TrueRecordName String
----@field protected FalseRecordName String
+---@field TrueRecordName String
+---@field FalseRecordName String
 TogglePower = {}
 
 ---@param fields? TogglePower
 ---@return TogglePower
-function TogglePower.new(fields) return end
+function TogglePower.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function TogglePower.IsAvailable(device) return end
+function TogglePower.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function TogglePower.IsClearanceValid(clearance) return end
+function TogglePower.IsClearanceValid(clearance) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function TogglePower.IsDefaultConditionMet(device, context) return end
+function TogglePower.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function TogglePower:GetTweakDBChoiceRecord() return end
+function TogglePower:GetTweakDBChoiceRecord() end
 
 ---@param status EDeviceStatus
 ---@return nil
-function TogglePower:SetProperties(status) return end
+function TogglePower:SetProperties(status) end
 
 ---@param status EDeviceStatus
 ---@param nameOnTrue TweakDBID|string
 ---@param nameOnFalse TweakDBID|string
 ---@return nil
-function TogglePower:SetProperties(status, nameOnTrue, nameOnFalse) return end
+function TogglePower:SetProperties(status, nameOnTrue, nameOnFalse) end

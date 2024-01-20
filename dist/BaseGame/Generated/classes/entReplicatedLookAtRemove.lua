@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class entReplicatedLookAtRemove: entReplicatedLookAtData
----@field public ref animLookAtRef
----@field public hasOutTransition Float
----@field public outTransitionSpeed Float
+---@field ref animLookAtRef
+---@field hasOutTransition Float
+---@field outTransitionSpeed Float
 entReplicatedLookAtRemove = {}
 
 ---@param fields? entReplicatedLookAtRemove
 ---@return entReplicatedLookAtRemove
-function entReplicatedLookAtRemove.new(fields) return end
+function entReplicatedLookAtRemove.new(fields) end

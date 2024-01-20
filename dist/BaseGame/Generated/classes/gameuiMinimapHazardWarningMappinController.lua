@@ -5,4 +5,4 @@ gameuiMinimapHazardWarningMappinController = {}
 
 ---@param fields? gameuiMinimapHazardWarningMappinController
 ---@return gameuiMinimapHazardWarningMappinController
-function gameuiMinimapHazardWarningMappinController.new(fields) return end
+function gameuiMinimapHazardWarningMappinController.new(fields) end

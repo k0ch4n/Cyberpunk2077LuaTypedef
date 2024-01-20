@@ -5,22 +5,19 @@ ForcedKnockdownDecisions = {}
 
 ---@param fields? ForcedKnockdownDecisions
 ---@return ForcedKnockdownDecisions
-function ForcedKnockdownDecisions.new(fields) return end
+function ForcedKnockdownDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForcedKnockdownDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ForcedKnockdownDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return String
-function ForcedKnockdownDecisions:GetForcedStatusEffectName(stateContext, scriptInterface) return end
+function ForcedKnockdownDecisions:GetForcedStatusEffectName(stateContext, scriptInterface) end
 
----@private
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForcedKnockdownDecisions:HasForcedStatusEffect(stateContext, scriptInterface) return end
+function ForcedKnockdownDecisions:HasForcedStatusEffect(stateContext, scriptInterface) end

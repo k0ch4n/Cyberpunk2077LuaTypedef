@@ -5,7 +5,7 @@ ActionsSequencerController = {}
 
 ---@param fields? ActionsSequencerController
 ---@return ActionsSequencerController
-function ActionsSequencerController.new(fields) return end
+function ActionsSequencerController.new(fields) end
 
 ---@return ActionsSequencerControllerPS
-function ActionsSequencerController:GetPS() return end
+function ActionsSequencerController:GetPS() end

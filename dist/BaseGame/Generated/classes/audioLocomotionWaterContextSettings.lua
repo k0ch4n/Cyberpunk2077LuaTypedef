@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioLocomotionWaterContextSettings
----@field public minDistanceBetweenImpulsesSquared Float
----@field public impulseStrength Float
----@field public impulseMinRadius Float
----@field public impulseMaxRadius Float
+---@field minDistanceBetweenImpulsesSquared Float
+---@field impulseStrength Float
+---@field impulseMinRadius Float
+---@field impulseMaxRadius Float
 audioLocomotionWaterContextSettings = {}
 
 ---@param fields? audioLocomotionWaterContextSettings
 ---@return audioLocomotionWaterContextSettings
-function audioLocomotionWaterContextSettings.new(fields) return end
+function audioLocomotionWaterContextSettings.new(fields) end

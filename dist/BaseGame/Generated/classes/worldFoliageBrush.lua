@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldFoliageBrush: CResource
----@field public items worldFoliageBrushItem[]
+---@field items worldFoliageBrushItem[]
 worldFoliageBrush = {}
 
 ---@param fields? worldFoliageBrush
 ---@return worldFoliageBrush
-function worldFoliageBrush.new(fields) return end
+function worldFoliageBrush.new(fields) end

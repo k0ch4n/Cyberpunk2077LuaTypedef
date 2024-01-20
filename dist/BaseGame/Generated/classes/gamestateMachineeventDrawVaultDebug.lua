@@ -5,4 +5,4 @@ gamestateMachineeventDrawVaultDebug = {}
 
 ---@param fields? gamestateMachineeventDrawVaultDebug
 ---@return gamestateMachineeventDrawVaultDebug
-function gamestateMachineeventDrawVaultDebug.new(fields) return end
+function gamestateMachineeventDrawVaultDebug.new(fields) end

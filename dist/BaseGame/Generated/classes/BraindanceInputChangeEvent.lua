@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class BraindanceInputChangeEvent: redEvent
----@field public bdSystem BraindanceSystem
+---@field bdSystem BraindanceSystem
 BraindanceInputChangeEvent = {}
 
 ---@param fields? BraindanceInputChangeEvent
 ---@return BraindanceInputChangeEvent
-function BraindanceInputChangeEvent.new(fields) return end
+function BraindanceInputChangeEvent.new(fields) end
 
 ---@return String
-function BraindanceInputChangeEvent:GetFriendlyDescription() return end
+function BraindanceInputChangeEvent:GetFriendlyDescription() end

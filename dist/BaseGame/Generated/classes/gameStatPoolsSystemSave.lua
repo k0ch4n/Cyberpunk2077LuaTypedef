@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameStatPoolsSystemSave: ISerializable
----@field public mapping gameStatsObjectID[]
----@field public statPools gameStatPoolData[]
+---@field mapping gameStatsObjectID[]
+---@field statPools gameStatPoolData[]
 gameStatPoolsSystemSave = {}
 
 ---@param fields? gameStatPoolsSystemSave
 ---@return gameStatPoolsSystemSave
-function gameStatPoolsSystemSave.new(fields) return end
+function gameStatPoolsSystemSave.new(fields) end

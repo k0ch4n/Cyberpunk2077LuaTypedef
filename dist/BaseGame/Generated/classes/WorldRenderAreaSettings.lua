@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class WorldRenderAreaSettings
----@field public areaParameters IAreaSettings[]
+---@field areaParameters IAreaSettings[]
 WorldRenderAreaSettings = {}
 
 ---@param fields? WorldRenderAreaSettings
 ---@return WorldRenderAreaSettings
-function WorldRenderAreaSettings.new(fields) return end
+function WorldRenderAreaSettings.new(fields) end

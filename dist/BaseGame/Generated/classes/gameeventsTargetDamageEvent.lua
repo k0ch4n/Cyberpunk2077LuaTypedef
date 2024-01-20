@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameeventsTargetDamageEvent: gameeventsTargetHitEvent
----@field public damage Float
+---@field damage Float
 gameeventsTargetDamageEvent = {}
 
 ---@param fields? gameeventsTargetDamageEvent
 ---@return gameeventsTargetDamageEvent
-function gameeventsTargetDamageEvent.new(fields) return end
+function gameeventsTargetDamageEvent.new(fields) end

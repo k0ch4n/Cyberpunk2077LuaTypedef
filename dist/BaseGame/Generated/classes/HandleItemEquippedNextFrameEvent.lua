@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class HandleItemEquippedNextFrameEvent: redEvent
----@field public itemID gameItemID
+---@field itemID gameItemID
 HandleItemEquippedNextFrameEvent = {}
 
 ---@param fields? HandleItemEquippedNextFrameEvent
 ---@return HandleItemEquippedNextFrameEvent
-function HandleItemEquippedNextFrameEvent.new(fields) return end
+function HandleItemEquippedNextFrameEvent.new(fields) end

@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class TriggerHackingMinigameEffector: gameEffector
----@field public owner gameObject
----@field public listener redCallbackObject
----@field public item gameItemID
----@field public reward TweakDBID
----@field public journalEntry String
----@field public fact CName
----@field public factValue Int32
----@field public showPopup Bool
----@field public returnToJournal Bool
+---@field owner gameObject
+---@field listener redCallbackObject
+---@field item gameItemID
+---@field reward TweakDBID
+---@field journalEntry String
+---@field fact CName
+---@field factValue Int32
+---@field showPopup Bool
+---@field returnToJournal Bool
 TriggerHackingMinigameEffector = {}
 
 ---@param fields? TriggerHackingMinigameEffector
 ---@return TriggerHackingMinigameEffector
-function TriggerHackingMinigameEffector.new(fields) return end
+function TriggerHackingMinigameEffector.new(fields) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function TriggerHackingMinigameEffector:OnItemCracked(value) return end
+function TriggerHackingMinigameEffector:OnItemCracked(value) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function TriggerHackingMinigameEffector:ActionOn(owner) return end
+function TriggerHackingMinigameEffector:ActionOn(owner) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function TriggerHackingMinigameEffector:Initialize(record, parentRecord) return end
+function TriggerHackingMinigameEffector:Initialize(record, parentRecord) end
 
----@protected
 ---@return nil
-function TriggerHackingMinigameEffector:Uninitialize() return end
+function TriggerHackingMinigameEffector:Uninitialize() end

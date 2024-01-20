@@ -1,153 +1,132 @@
 ---@meta
 
 ---@class hubSelectorSingleCarouselController: inkSelectorController
----@field protected NUMBER_OF_WIDGETS Int32
----@field protected WIDGETS_PADDING Float
----@field protected SMALL_WIDGET_SCALE Float
----@field protected SMALL_WIDGET_OPACITY Float
----@field protected ANIMATION_TIME Float
----@field protected DEFAULT_WIDGET_COLOR HDRColor
----@field protected SELECTED_WIDGET_COLOR HDRColor
----@field protected leftArrowWidget inkWidgetReference
----@field protected rightArrowWidget inkWidgetReference
----@field protected container inkWidgetReference
----@field protected defaultColorDummy inkWidgetReference
----@field protected activeColorDummy inkWidgetReference
----@field public leftArrowController inkInputDisplayController
----@field public rightArrowController inkInputDisplayController
----@field protected elements MenuData[]
----@field protected centerElementIndex Int32
----@field protected widgetsControllers HubMenuLabelContentContainer[]
----@field protected waitForSizes Bool
----@field protected translationOnce Bool
----@field protected currentIndex Int32
----@field protected activeAnimations inkanimProxy[]
+---@field NUMBER_OF_WIDGETS Int32
+---@field WIDGETS_PADDING Float
+---@field SMALL_WIDGET_SCALE Float
+---@field SMALL_WIDGET_OPACITY Float
+---@field ANIMATION_TIME Float
+---@field DEFAULT_WIDGET_COLOR HDRColor
+---@field SELECTED_WIDGET_COLOR HDRColor
+---@field leftArrowWidget inkWidgetReference
+---@field rightArrowWidget inkWidgetReference
+---@field container inkWidgetReference
+---@field defaultColorDummy inkWidgetReference
+---@field activeColorDummy inkWidgetReference
+---@field leftArrowController inkInputDisplayController
+---@field rightArrowController inkInputDisplayController
+---@field elements MenuData[]
+---@field centerElementIndex Int32
+---@field widgetsControllers HubMenuLabelContentContainer[]
+---@field waitForSizes Bool
+---@field translationOnce Bool
+---@field currentIndex Int32
+---@field activeAnimations inkanimProxy[]
 hubSelectorSingleCarouselController = {}
 
 ---@param fields? hubSelectorSingleCarouselController
 ---@return hubSelectorSingleCarouselController
-function hubSelectorSingleCarouselController.new(fields) return end
+function hubSelectorSingleCarouselController.new(fields) end
 
----@protected
 ---@return Bool
-function hubSelectorSingleCarouselController:OnArrangeChildrenComplete() return end
+function hubSelectorSingleCarouselController:OnArrangeChildrenComplete() end
 
----@protected
 ---@return Bool
-function hubSelectorSingleCarouselController:OnInitialize() return end
+function hubSelectorSingleCarouselController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function hubSelectorSingleCarouselController:OnMenuLabelClick(e) return end
+function hubSelectorSingleCarouselController:OnMenuLabelClick(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function hubSelectorSingleCarouselController:OnMenuLabelHover(e) return end
+function hubSelectorSingleCarouselController:OnMenuLabelHover(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function hubSelectorSingleCarouselController:OnMenuLabelHoverOut(e) return end
+function hubSelectorSingleCarouselController:OnMenuLabelHoverOut(e) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function hubSelectorSingleCarouselController:OnTranslationCompleted(anim) return end
+function hubSelectorSingleCarouselController:OnTranslationCompleted(anim) end
 
----@protected
 ---@param value String
 ---@param index Int32
 ---@param changeDirection inkSelectorChangeDirection
 ---@return Bool
-function hubSelectorSingleCarouselController:OnUpdateValue(value, index, changeDirection) return end
+function hubSelectorSingleCarouselController:OnUpdateValue(value, index, changeDirection) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return nil
-function hubSelectorSingleCarouselController:AddActiveProxy(proxy) return end
+function hubSelectorSingleCarouselController:AddActiveProxy(proxy) end
 
----@protected
 ---@param proxies inkanimProxy[]
 ---@return nil
-function hubSelectorSingleCarouselController:AddActiveProxy(proxies) return end
+function hubSelectorSingleCarouselController:AddActiveProxy(proxies) end
 
----@protected
 ---@param targetIndex Int32
 ---@param direction inkSelectorChangeDirection
 ---@return nil
-function hubSelectorSingleCarouselController:Animate(targetIndex, direction) return end
+function hubSelectorSingleCarouselController:Animate(targetIndex, direction) end
 
----@protected
 ---@param targetWidgets inkWidget[]
 ---@param startColor HDRColor
 ---@param endColor HDRColor
 ---@return inkanimProxy[]
-function hubSelectorSingleCarouselController:ColorAnimation(targetWidgets, startColor, endColor) return end
+function hubSelectorSingleCarouselController:ColorAnimation(targetWidgets, startColor, endColor) end
 
----@protected
 ---@param value Int32
 ---@param limit Int32
 ---@return Int32
-function hubSelectorSingleCarouselController:GetLoopedValue(value, limit) return end
+function hubSelectorSingleCarouselController:GetLoopedValue(value, limit) end
 
----@protected
 ---@param targetIndex Int32
 ---@return Float
-function hubSelectorSingleCarouselController:GetMaskTargetWidth(targetIndex) return end
+function hubSelectorSingleCarouselController:GetMaskTargetWidth(targetIndex) end
 
----@protected
 ---@param targetIndex Int32
 ---@return Float[]
-function hubSelectorSingleCarouselController:GetTranslations(targetIndex) return end
+function hubSelectorSingleCarouselController:GetTranslations(targetIndex) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param startOpacity Float
 ---@param endOpacity Float
 ---@return inkanimProxy
-function hubSelectorSingleCarouselController:OpacityAnimation(targetWidget, startOpacity, endOpacity) return end
+function hubSelectorSingleCarouselController:OpacityAnimation(targetWidget, startOpacity, endOpacity) end
 
----@protected
 ---@return nil
-function hubSelectorSingleCarouselController:ResetAnimatedStates() return end
+function hubSelectorSingleCarouselController:ResetAnimatedStates() end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param startScale Float
 ---@param endScale Float
 ---@return inkanimProxy
-function hubSelectorSingleCarouselController:ScaleAnimation(targetWidget, startScale, endScale) return end
+function hubSelectorSingleCarouselController:ScaleAnimation(targetWidget, startScale, endScale) end
 
 ---@param data MenuData
 ---@return nil
-function hubSelectorSingleCarouselController:ScrollTo(data) return end
+function hubSelectorSingleCarouselController:ScrollTo(data) end
 
----@protected
 ---@param selectedIndex Int32
 ---@return nil
-function hubSelectorSingleCarouselController:SetFinishedValues(selectedIndex) return end
+function hubSelectorSingleCarouselController:SetFinishedValues(selectedIndex) end
 
 ---@param data MenuData[]
 ---@param startIdentifier Int32
 ---@return nil
-function hubSelectorSingleCarouselController:SetupMenu(data, startIdentifier) return end
+function hubSelectorSingleCarouselController:SetupMenu(data, startIdentifier) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param startSize Vector2
 ---@param endSize Vector2
 ---@return inkanimProxy
-function hubSelectorSingleCarouselController:SizeAnimation(targetWidget, startSize, endSize) return end
+function hubSelectorSingleCarouselController:SizeAnimation(targetWidget, startSize, endSize) end
 
----@protected
 ---@param targetWidget inkWidget
 ---@param startTranslation Float
 ---@param endTranslation Float
 ---@return inkanimProxy
-function hubSelectorSingleCarouselController:TranslationAnimation(targetWidget, startTranslation, endTranslation) return end
+function hubSelectorSingleCarouselController:TranslationAnimation(targetWidget, startTranslation, endTranslation) end
 
----@private
 ---@return nil
-function hubSelectorSingleCarouselController:UpdateArrowsVisibility() return end
+function hubSelectorSingleCarouselController:UpdateArrowsVisibility() end

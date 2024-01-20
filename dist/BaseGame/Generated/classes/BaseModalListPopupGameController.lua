@@ -1,134 +1,109 @@
 ---@meta
 
 ---@class BaseModalListPopupGameController: gameuiWidgetGameController
----@field protected content inkWidgetReference
----@field protected listController inkVirtualListController
----@field protected playerPuppet gameObject
----@field protected popupData inkGameNotificationData
----@field protected timeDilationProfile String
----@field protected canPlaySwitchAnimation Bool
----@field private templateClassifier BaseModalListPopupTemplateClassifier
----@field private systemRequestsHandler inkISystemRequestsHandler
----@field private switchAnimProxy inkanimProxy
----@field private inoutTransitionAnimProxy inkanimProxy
----@field private isInMenuCallbackID redCallbackObject
----@field private c_scrollInputThreshold Float
----@field private firstInit Bool
+---@field content inkWidgetReference
+---@field listController inkVirtualListController
+---@field playerPuppet gameObject
+---@field popupData inkGameNotificationData
+---@field timeDilationProfile String
+---@field canPlaySwitchAnimation Bool
+---@field templateClassifier BaseModalListPopupTemplateClassifier
+---@field systemRequestsHandler inkISystemRequestsHandler
+---@field switchAnimProxy inkanimProxy
+---@field inoutTransitionAnimProxy inkanimProxy
+---@field isInMenuCallbackID redCallbackObject
+---@field c_scrollInputThreshold Float
+---@field firstInit Bool
 BaseModalListPopupGameController = {}
 
 ---@param fields? BaseModalListPopupGameController
 ---@return BaseModalListPopupGameController
-function BaseModalListPopupGameController.new(fields) return end
+function BaseModalListPopupGameController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function BaseModalListPopupGameController:OnAction(action, consumer) return end
+function BaseModalListPopupGameController:OnAction(action, consumer) end
 
----@protected
 ---@return Bool
-function BaseModalListPopupGameController:OnAllElementsSpawned() return end
+function BaseModalListPopupGameController:OnAllElementsSpawned() end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function BaseModalListPopupGameController:OnHideAnimFinished(proxy) return end
+function BaseModalListPopupGameController:OnHideAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function BaseModalListPopupGameController:OnInitialize() return end
+function BaseModalListPopupGameController:OnInitialize() end
 
----@protected
 ---@param param Bool
 ---@return Bool
-function BaseModalListPopupGameController:OnIsInMenuChanged(param) return end
+function BaseModalListPopupGameController:OnIsInMenuChanged(param) end
 
----@protected
 ---@param previous inkVirtualCompoundItemController
 ---@param next inkVirtualCompoundItemController
 ---@return Bool
-function BaseModalListPopupGameController:OnItemSelected(previous, next) return end
+function BaseModalListPopupGameController:OnItemSelected(previous, next) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function BaseModalListPopupGameController:OnPlayerAttach(playerPuppet) return end
+function BaseModalListPopupGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function BaseModalListPopupGameController:OnPlayerDetach(playerPuppet) return end
+function BaseModalListPopupGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function BaseModalListPopupGameController:OnShowAnimFinished(proxy) return end
+function BaseModalListPopupGameController:OnShowAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function BaseModalListPopupGameController:OnUninitialize() return end
+function BaseModalListPopupGameController:OnUninitialize() end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:Activate() return end
+function BaseModalListPopupGameController:Activate() end
 
----@private
 ---@return nil
-function BaseModalListPopupGameController:BaseSetupVirtualList() return end
+function BaseModalListPopupGameController:BaseSetupVirtualList() end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:CleanVirtualList() return end
+function BaseModalListPopupGameController:CleanVirtualList() end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:Close() return end
+function BaseModalListPopupGameController:Close() end
 
----@private
 ---@param axisData Float
 ---@return nil
-function BaseModalListPopupGameController:HandleScroll(axisData) return end
+function BaseModalListPopupGameController:HandleScroll(axisData) end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:OnClose() return end
+function BaseModalListPopupGameController:OnClose() end
 
----@private
 ---@return nil
-function BaseModalListPopupGameController:ScrollNext() return end
+function BaseModalListPopupGameController:ScrollNext() end
 
----@private
 ---@return nil
-function BaseModalListPopupGameController:ScrollPrior() return end
+function BaseModalListPopupGameController:ScrollPrior() end
 
----@protected
 ---@param previous inkVirtualCompoundItemController
 ---@param next inkVirtualCompoundItemController
 ---@return nil
-function BaseModalListPopupGameController:Select(previous, next) return end
+function BaseModalListPopupGameController:Select(previous, next) end
 
----@private
 ---@return nil
-function BaseModalListPopupGameController:SendPSMRadialCloseRequest() return end
+function BaseModalListPopupGameController:SendPSMRadialCloseRequest() end
 
----@protected
 ---@param enable Bool
 ---@return nil
-function BaseModalListPopupGameController:SetTimeDilatation(enable) return end
+function BaseModalListPopupGameController:SetTimeDilatation(enable) end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:SetupData() return end
+function BaseModalListPopupGameController:SetupData() end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:SetupTimeModifierConfig() return end
+function BaseModalListPopupGameController:SetupTimeModifierConfig() end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:SetupVirtualList() return end
+function BaseModalListPopupGameController:SetupVirtualList() end
 
----@protected
 ---@return nil
-function BaseModalListPopupGameController:VirtualListReady() return end
+function BaseModalListPopupGameController:VirtualListReady() end

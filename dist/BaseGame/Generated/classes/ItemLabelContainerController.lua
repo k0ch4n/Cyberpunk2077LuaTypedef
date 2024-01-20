@@ -1,29 +1,28 @@
 ---@meta
 
 ---@class ItemLabelContainerController: inkWidgetLogicController
----@field protected items ItemLabelController[]
+---@field items ItemLabelController[]
 ItemLabelContainerController = {}
 
 ---@param fields? ItemLabelContainerController
 ---@return ItemLabelContainerController
-function ItemLabelContainerController.new(fields) return end
+function ItemLabelContainerController.new(fields) end
 
 ---@param type ItemLabelType
 ---@param params? String
 ---@return nil
-function ItemLabelContainerController:Add(type, params) return end
+function ItemLabelContainerController:Add(type, params) end
 
 ---@return nil
-function ItemLabelContainerController:Clear() return end
+function ItemLabelContainerController:Clear() end
 
 ---@param type ItemLabelType
 ---@return Bool
-function ItemLabelContainerController:Has(type) return end
+function ItemLabelContainerController:Has(type) end
 
 ---@param type ItemLabelType
 ---@return nil
-function ItemLabelContainerController:Remove(type) return end
+function ItemLabelContainerController:Remove(type) end
 
----@protected
 ---@return nil
-function ItemLabelContainerController:Reorder() return end
+function ItemLabelContainerController:Reorder() end

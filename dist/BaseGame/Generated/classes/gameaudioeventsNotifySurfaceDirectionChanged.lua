@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameaudioeventsNotifySurfaceDirectionChanged: redEvent
----@field public surfaceDirection gameaudioeventsSurfaceDirection
+---@field surfaceDirection gameaudioeventsSurfaceDirection
 gameaudioeventsNotifySurfaceDirectionChanged = {}
 
 ---@param fields? gameaudioeventsNotifySurfaceDirectionChanged
 ---@return gameaudioeventsNotifySurfaceDirectionChanged
-function gameaudioeventsNotifySurfaceDirectionChanged.new(fields) return end
+function gameaudioeventsNotifySurfaceDirectionChanged.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class UpdateEquippedWeaponsHandlingEvent: redEvent
----@field public currentStaminaValue Float
+---@field currentStaminaValue Float
 UpdateEquippedWeaponsHandlingEvent = {}
 
 ---@param fields? UpdateEquippedWeaponsHandlingEvent
 ---@return UpdateEquippedWeaponsHandlingEvent
-function UpdateEquippedWeaponsHandlingEvent.new(fields) return end
+function UpdateEquippedWeaponsHandlingEvent.new(fields) end

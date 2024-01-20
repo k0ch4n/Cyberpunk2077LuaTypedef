@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class garmentBendingParams
----@field public bendPowerOffsetInCM Float
+---@field bendPowerOffsetInCM Float
 garmentBendingParams = {}
 
 ---@param fields? garmentBendingParams
 ---@return garmentBendingParams
-function garmentBendingParams.new(fields) return end
+function garmentBendingParams.new(fields) end

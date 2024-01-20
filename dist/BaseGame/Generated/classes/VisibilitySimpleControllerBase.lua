@@ -1,37 +1,31 @@
 ---@meta
 
 ---@class VisibilitySimpleControllerBase: inkWidgetLogicController
----@field public affectedWidgets CName[]
----@field private isVisible Bool
----@field private widget inkWidget
+---@field affectedWidgets CName[]
+---@field isVisible Bool
+---@field widget inkWidget
 VisibilitySimpleControllerBase = {}
 
 ---@param fields? VisibilitySimpleControllerBase
 ---@return VisibilitySimpleControllerBase
-function VisibilitySimpleControllerBase.new(fields) return end
+function VisibilitySimpleControllerBase.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function VisibilitySimpleControllerBase:OnHoverOut(e) return end
+function VisibilitySimpleControllerBase:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function VisibilitySimpleControllerBase:OnHoverOver(e) return end
+function VisibilitySimpleControllerBase:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function VisibilitySimpleControllerBase:OnInitialize() return end
+function VisibilitySimpleControllerBase:OnInitialize() end
 
----@protected
 ---@return Bool
-function VisibilitySimpleControllerBase:OnUninitialize() return end
+function VisibilitySimpleControllerBase:OnUninitialize() end
 
----@protected
 ---@return nil
-function VisibilitySimpleControllerBase:Hide() return end
+function VisibilitySimpleControllerBase:Hide() end
 
----@protected
 ---@return nil
-function VisibilitySimpleControllerBase:Show() return end
+function VisibilitySimpleControllerBase:Show() end

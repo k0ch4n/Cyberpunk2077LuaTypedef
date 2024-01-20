@@ -1,15 +1,14 @@
 ---@meta
 
 ---@class RootMotionCommandHandler: AICommandHandlerBase
----@field protected params AIArgumentMapping
+---@field params AIArgumentMapping
 RootMotionCommandHandler = {}
 
 ---@param fields? RootMotionCommandHandler
 ---@return RootMotionCommandHandler
-function RootMotionCommandHandler.new(fields) return end
+function RootMotionCommandHandler.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param command AICommand
 ---@return AIbehaviorUpdateOutcome
-function RootMotionCommandHandler:UpdateCommand(context, command) return end
+function RootMotionCommandHandler:UpdateCommand(context, command) end

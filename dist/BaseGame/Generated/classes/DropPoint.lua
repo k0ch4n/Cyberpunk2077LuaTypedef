@@ -1,140 +1,114 @@
 ---@meta
 
 ---@class DropPoint: BasicDistractionDevice
----@field private isShortGlitchActive Bool
----@field private shortGlitchDelayID gameDelayID
----@field private mappinID gameNewMappinID
----@field private mappinInSystem Bool
+---@field isShortGlitchActive Bool
+---@field shortGlitchDelayID gameDelayID
+---@field mappinID gameNewMappinID
+---@field mappinInSystem Bool
 DropPoint = {}
 
 ---@param fields? DropPoint
 ---@return DropPoint
-function DropPoint.new(fields) return end
+function DropPoint.new(fields) end
 
----@protected
 ---@return Bool
-function DropPoint:OnDetach() return end
+function DropPoint:OnDetach() end
 
----@protected
 ---@return Bool
-function DropPoint:OnGameAttached() return end
+function DropPoint:OnGameAttached() end
 
----@protected
 ---@param hit gameeventsHitEvent
 ---@return Bool
-function DropPoint:OnHitEvent(hit) return end
+function DropPoint:OnHitEvent(hit) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function DropPoint:OnRequestComponents(ri) return end
+function DropPoint:OnRequestComponents(ri) end
 
----@protected
 ---@param evt StopShortGlitchEvent
 ---@return Bool
-function DropPoint:OnStopShortGlitch(evt) return end
+function DropPoint:OnStopShortGlitch(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function DropPoint:OnTakeControl(ri) return end
+function DropPoint:OnTakeControl(ri) end
 
----@protected
 ---@param evt UpdateDropPointEvent
 ---@return Bool
-function DropPoint:OnUpdateDropPointEvent(evt) return end
+function DropPoint:OnUpdateDropPointEvent(evt) end
 
----@protected
 ---@return nil
-function DropPoint:CutPower() return end
+function DropPoint:CutPower() end
 
----@protected
 ---@return nil
-function DropPoint:DeactivateDevice() return end
+function DropPoint:DeactivateDevice() end
 
 ---@return EGameplayRole
-function DropPoint:DeterminGameplayRole() return end
+function DropPoint:DeterminGameplayRole() end
 
----@private
 ---@return DropPointController
-function DropPoint:GetController() return end
+function DropPoint:GetController() end
 
 ---@return DropPointControllerPS
-function DropPoint:GetDevicePS() return end
+function DropPoint:GetDevicePS() end
 
 ---@return DropPointSystem
-function DropPoint:GetDropPointSystem() return end
+function DropPoint:GetDropPointSystem() end
 
----@private
 ---@return gamemappinsMappinSystem
-function DropPoint:GetMappinSystem() return end
+function DropPoint:GetMappinSystem() end
 
----@private
 ---@param show Bool
 ---@param force? Bool
 ---@return nil
-function DropPoint:HandleMappinRregistration(show, force) return end
+function DropPoint:HandleMappinRregistration(show, force) end
 
----@private
 ---@param show Bool
 ---@return nil
-function DropPoint:HandleMappinVisibility(show) return end
+function DropPoint:HandleMappinVisibility(show) end
 
 ---@return Bool
-function DropPoint:IsDropPoint() return end
+function DropPoint:IsDropPoint() end
 
----@private
 ---@return Bool
-function DropPoint:IsMappinRegistered() return end
+function DropPoint:IsMappinRegistered() end
 
----@private
 ---@param force? Bool
 ---@return nil
-function DropPoint:RegisterDropPointMappinInSystem(force) return end
+function DropPoint:RegisterDropPointMappinInSystem(force) end
 
----@private
 ---@return nil
-function DropPoint:RegisterMappin() return end
+function DropPoint:RegisterMappin() end
 
----@protected
 ---@return nil
-function DropPoint:ResolveGameplayState() return end
+function DropPoint:ResolveGameplayState() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function DropPoint:StartGlitching(glitchState, intensity) return end
+function DropPoint:StartGlitching(glitchState, intensity) end
 
----@private
 ---@return nil
-function DropPoint:StartShortGlitch() return end
+function DropPoint:StartShortGlitch() end
 
----@protected
 ---@return nil
-function DropPoint:StopGlitching() return end
+function DropPoint:StopGlitching() end
 
----@protected
 ---@return nil
-function DropPoint:TurnOffDevice() return end
+function DropPoint:TurnOffDevice() end
 
----@protected
 ---@return nil
-function DropPoint:TurnOffScreen() return end
+function DropPoint:TurnOffScreen() end
 
----@protected
 ---@return nil
-function DropPoint:TurnOnDevice() return end
+function DropPoint:TurnOnDevice() end
 
----@protected
 ---@return nil
-function DropPoint:TurnOnScreen() return end
+function DropPoint:TurnOnScreen() end
 
----@private
 ---@param force? Bool
 ---@return nil
-function DropPoint:UnregisterDropPointMappinInSystem(force) return end
+function DropPoint:UnregisterDropPointMappinInSystem(force) end
 
----@private
 ---@return nil
-function DropPoint:UnregisterMappin() return end
+function DropPoint:UnregisterMappin() end

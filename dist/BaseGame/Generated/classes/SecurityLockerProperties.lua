@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class SecurityLockerProperties
----@field public securityLevelAccessGranted ESecurityAccessLevel
----@field public disableCyberware Bool
----@field public storeWeaponSFX CName
----@field public pickUpWeaponSFX CName
+---@field securityLevelAccessGranted ESecurityAccessLevel
+---@field disableCyberware Bool
+---@field storeWeaponSFX CName
+---@field pickUpWeaponSFX CName
 SecurityLockerProperties = {}
 
 ---@param fields? SecurityLockerProperties
 ---@return SecurityLockerProperties
-function SecurityLockerProperties.new(fields) return end
+function SecurityLockerProperties.new(fields) end

@@ -5,4 +5,4 @@ gameContainerFilledEvent = {}
 
 ---@param fields? gameContainerFilledEvent
 ---@return gameContainerFilledEvent
-function gameContainerFilledEvent.new(fields) return end
+function gameContainerFilledEvent.new(fields) end

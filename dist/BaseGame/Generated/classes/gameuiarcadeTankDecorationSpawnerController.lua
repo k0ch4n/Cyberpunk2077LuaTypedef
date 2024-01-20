@@ -5,4 +5,4 @@ gameuiarcadeTankDecorationSpawnerController = {}
 
 ---@param fields? gameuiarcadeTankDecorationSpawnerController
 ---@return gameuiarcadeTankDecorationSpawnerController
-function gameuiarcadeTankDecorationSpawnerController.new(fields) return end
+function gameuiarcadeTankDecorationSpawnerController.new(fields) end

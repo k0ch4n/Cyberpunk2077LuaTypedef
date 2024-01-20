@@ -5,4 +5,4 @@ FocusSmsMessagerEvent = {}
 
 ---@param fields? FocusSmsMessagerEvent
 ---@return FocusSmsMessagerEvent
-function FocusSmsMessagerEvent.new(fields) return end
+function FocusSmsMessagerEvent.new(fields) end

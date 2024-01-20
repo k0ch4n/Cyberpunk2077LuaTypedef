@@ -5,4 +5,4 @@ UpperBodyPSMPrereqState = {}
 
 ---@param fields? UpperBodyPSMPrereqState
 ---@return UpperBodyPSMPrereqState
-function UpperBodyPSMPrereqState.new(fields) return end
+function UpperBodyPSMPrereqState.new(fields) end

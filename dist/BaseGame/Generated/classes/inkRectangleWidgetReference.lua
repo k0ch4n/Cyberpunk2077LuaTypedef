@@ -5,4 +5,4 @@ inkRectangleWidgetReference = {}
 
 ---@param fields? inkRectangleWidgetReference
 ---@return inkRectangleWidgetReference
-function inkRectangleWidgetReference.new(fields) return end
+function inkRectangleWidgetReference.new(fields) end

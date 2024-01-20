@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class HUDJob
----@field public actor gameHudActor
----@field public instruction HUDInstruction
+---@field actor gameHudActor
+---@field instruction HUDInstruction
 HUDJob = {}
 
 ---@param fields? HUDJob
 ---@return HUDJob
-function HUDJob.new(fields) return end
+function HUDJob.new(fields) end

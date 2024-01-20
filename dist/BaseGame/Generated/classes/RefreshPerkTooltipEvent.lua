@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class RefreshPerkTooltipEvent: redEvent
----@field public target inkWidget
----@field public perkData NewPerkDisplayData
+---@field target inkWidget
+---@field perkData NewPerkDisplayData
 RefreshPerkTooltipEvent = {}
 
 ---@param fields? RefreshPerkTooltipEvent
 ---@return RefreshPerkTooltipEvent
-function RefreshPerkTooltipEvent.new(fields) return end
+function RefreshPerkTooltipEvent.new(fields) end

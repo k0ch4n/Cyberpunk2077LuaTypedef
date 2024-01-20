@@ -1,92 +1,80 @@
 ---@meta
 
 ---@class PerkMenuTooltipController: AGenericTooltipController
----@field protected titleContainer inkWidgetReference
----@field protected titleText inkTextWidgetReference
----@field protected typeContainer inkWidgetReference
----@field protected typeText inkTextWidgetReference
----@field protected desc1Container inkWidgetReference
----@field protected desc1Text inkTextWidgetReference
----@field protected desc2Container inkWidgetReference
----@field protected desc2Text inkTextWidgetReference
----@field protected desc2TextNextLevel inkTextWidgetReference
----@field protected desc2TextNextLevelDesc inkTextWidgetReference
----@field protected holdToUpgrade inkWidgetReference
----@field protected openPerkScreen inkWidgetReference
----@field protected videoContainerWidget inkWidgetReference
----@field protected videoWidget inkVideoWidgetReference
----@field private data BasePerksMenuTooltipData
----@field public maxProficiencyLevel Int32
+---@field titleContainer inkWidgetReference
+---@field titleText inkTextWidgetReference
+---@field typeContainer inkWidgetReference
+---@field typeText inkTextWidgetReference
+---@field desc1Container inkWidgetReference
+---@field desc1Text inkTextWidgetReference
+---@field desc2Container inkWidgetReference
+---@field desc2Text inkTextWidgetReference
+---@field desc2TextNextLevel inkTextWidgetReference
+---@field desc2TextNextLevelDesc inkTextWidgetReference
+---@field holdToUpgrade inkWidgetReference
+---@field openPerkScreen inkWidgetReference
+---@field videoContainerWidget inkWidgetReference
+---@field videoWidget inkVideoWidgetReference
+---@field data BasePerksMenuTooltipData
+---@field maxProficiencyLevel Int32
 PerkMenuTooltipController = {}
 
 ---@param fields? PerkMenuTooltipController
 ---@return PerkMenuTooltipController
-function PerkMenuTooltipController.new(fields) return end
+function PerkMenuTooltipController.new(fields) end
 
----@private
 ---@param outString String
 ---@param line String
 ---@return nil
-function PerkMenuTooltipController:AppendLine(outString, line) return end
+function PerkMenuTooltipController:AppendLine(outString, line) end
 
----@private
 ---@param outString String
 ---@return nil
-function PerkMenuTooltipController:AppendNewLine(outString) return end
+function PerkMenuTooltipController:AppendNewLine(outString) end
 
----@private
 ---@param data BasePerksMenuTooltipData
 ---@return nil
-function PerkMenuTooltipController:PlayVideo(data) return end
+function PerkMenuTooltipController:PlayVideo(data) end
 
 ---@return nil
-function PerkMenuTooltipController:Refresh() return end
+function PerkMenuTooltipController:Refresh() end
 
----@private
 ---@param value Bool
 ---@return nil
-function PerkMenuTooltipController:SetCanOpenPerks(value) return end
+function PerkMenuTooltipController:SetCanOpenPerks(value) end
 
----@private
 ---@param value Bool
 ---@return nil
-function PerkMenuTooltipController:SetCanUpgrade(value) return end
+function PerkMenuTooltipController:SetCanUpgrade(value) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function PerkMenuTooltipController:SetData(tooltipData) return end
+function PerkMenuTooltipController:SetData(tooltipData) end
 
----@private
 ---@param value String
 ---@return nil
-function PerkMenuTooltipController:SetDesc1(value) return end
+function PerkMenuTooltipController:SetDesc1(value) end
 
----@private
 ---@param value String
 ---@return nil
-function PerkMenuTooltipController:SetDesc2(value) return end
+function PerkMenuTooltipController:SetDesc2(value) end
 
----@private
 ---@param value String
 ---@return nil
-function PerkMenuTooltipController:SetTitle(value) return end
+function PerkMenuTooltipController:SetTitle(value) end
 
----@private
 ---@param value String
 ---@return nil
-function PerkMenuTooltipController:SetType(value) return end
+function PerkMenuTooltipController:SetType(value) end
 
----@private
 ---@param data AttributeTooltipData
 ---@return nil
-function PerkMenuTooltipController:SetupCustom(data) return end
+function PerkMenuTooltipController:SetupCustom(data) end
 
----@private
 ---@param data SkillTooltipData
 ---@return nil
-function PerkMenuTooltipController:SetupCustom(data) return end
+function PerkMenuTooltipController:SetupCustom(data) end
 
----@private
 ---@param data BasePerksMenuTooltipData
 ---@return nil
-function PerkMenuTooltipController:SetupShared(data) return end
+function PerkMenuTooltipController:SetupShared(data) end

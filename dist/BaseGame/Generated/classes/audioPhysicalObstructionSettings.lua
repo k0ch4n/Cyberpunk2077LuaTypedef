@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class audioPhysicalObstructionSettings: audioAudioMetadata
----@field public initialAbsorbtion Float
----@field public absorptionPerMeter Float
+---@field initialAbsorbtion Float
+---@field absorptionPerMeter Float
 audioPhysicalObstructionSettings = {}
 
 ---@param fields? audioPhysicalObstructionSettings
 ---@return audioPhysicalObstructionSettings
-function audioPhysicalObstructionSettings.new(fields) return end
+function audioPhysicalObstructionSettings.new(fields) end

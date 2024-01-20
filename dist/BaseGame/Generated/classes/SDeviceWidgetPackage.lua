@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SDeviceWidgetPackage: SWidgetPackage
----@field public deviceStatus String
----@field public deviceState EDeviceStatus
----@field public actionWidgets SActionWidgetPackage[]
+---@field deviceStatus String
+---@field deviceState EDeviceStatus
+---@field actionWidgets SActionWidgetPackage[]
 SDeviceWidgetPackage = {}
 
 ---@param fields? SDeviceWidgetPackage
 ---@return SDeviceWidgetPackage
-function SDeviceWidgetPackage.new(fields) return end
+function SDeviceWidgetPackage.new(fields) end

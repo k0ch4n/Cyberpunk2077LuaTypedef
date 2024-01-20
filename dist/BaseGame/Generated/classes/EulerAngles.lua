@@ -1,63 +1,63 @@
 ---@meta
 
 ---@class EulerAngles
----@field public Pitch Float
----@field public Yaw Float
----@field public Roll Float
+---@field Pitch Float
+---@field Yaw Float
+---@field Roll Float
 EulerAngles = {}
 
 ---@param fields? EulerAngles
 ---@return EulerAngles
-function EulerAngles.new(fields) return end
+function EulerAngles.new(fields) end
 
 ---@param a EulerAngles
 ---@param b EulerAngles
 ---@param epsilon Float
 ---@return Bool
-function EulerAngles.AlmostEqual(a, b, epsilon) return end
+function EulerAngles.AlmostEqual(a, b, epsilon) end
 
 ---@param a EulerAngles
 ---@param b EulerAngles
 ---@return Float
-function EulerAngles.Dot(a, b) return end
+function EulerAngles.Dot(a, b) end
 
 ---@param rotation EulerAngles
 ---@return nil, Vector4 forward, Vector4 right, Vector4 up
-function EulerAngles.GetAxes(rotation) return end
+function EulerAngles.GetAxes(rotation) end
 
 ---@param rotation EulerAngles
 ---@return Vector4
-function EulerAngles.GetForward(rotation) return end
+function EulerAngles.GetForward(rotation) end
 
 ---@param rotation EulerAngles
 ---@return Vector4
-function EulerAngles.GetRight(rotation) return end
+function EulerAngles.GetRight(rotation) end
 
 ---@param rotation EulerAngles
 ---@return Vector4
-function EulerAngles.GetUp(rotation) return end
+function EulerAngles.GetUp(rotation) end
 
 ---@param rotation EulerAngles
 ---@return Vector4
-function EulerAngles.GetXAxis(rotation) return end
+function EulerAngles.GetXAxis(rotation) end
 
 ---@param rotation EulerAngles
 ---@return Vector4
-function EulerAngles.GetYAxis(rotation) return end
+function EulerAngles.GetYAxis(rotation) end
 
 ---@param rotation EulerAngles
 ---@return Vector4
-function EulerAngles.GetZAxis(rotation) return end
+function EulerAngles.GetZAxis(rotation) end
 
 ---@param min Float
 ---@param max Float
 ---@return EulerAngles
-function EulerAngles.Rand(min, max) return end
+function EulerAngles.Rand(min, max) end
 
 ---@param rotation EulerAngles
 ---@return Matrix
-function EulerAngles.ToMatrix(rotation) return end
+function EulerAngles.ToMatrix(rotation) end
 
 ---@param rotation EulerAngles
 ---@return Quaternion
-function EulerAngles.ToQuat(rotation) return end
+function EulerAngles.ToQuat(rotation) end

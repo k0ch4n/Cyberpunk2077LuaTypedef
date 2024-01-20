@@ -1,26 +1,24 @@
 ---@meta
 
 ---@class WeaponFirstReloadStatePrereqState: gamePrereqState
----@field public listenerWeaponInt redCallbackObject
----@field public listenerActiveWeaponVariant redCallbackObject
----@field public weaponObj gameweaponObject
----@field public owner gameObject
----@field public reloaded Bool
+---@field listenerWeaponInt redCallbackObject
+---@field listenerActiveWeaponVariant redCallbackObject
+---@field weaponObj gameweaponObject
+---@field owner gameObject
+---@field reloaded Bool
 WeaponFirstReloadStatePrereqState = {}
 
 ---@param fields? WeaponFirstReloadStatePrereqState
 ---@return WeaponFirstReloadStatePrereqState
-function WeaponFirstReloadStatePrereqState.new(fields) return end
+function WeaponFirstReloadStatePrereqState.new(fields) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function WeaponFirstReloadStatePrereqState:OnInventoryChangeStateUpdate(value) return end
+function WeaponFirstReloadStatePrereqState:OnInventoryChangeStateUpdate(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function WeaponFirstReloadStatePrereqState:OnWeaponStateUpdate(value) return end
+function WeaponFirstReloadStatePrereqState:OnWeaponStateUpdate(value) end
 
 ---@return nil
-function WeaponFirstReloadStatePrereqState:CheckIfPlayerWeaponChanged() return end
+function WeaponFirstReloadStatePrereqState:CheckIfPlayerWeaponChanged() end

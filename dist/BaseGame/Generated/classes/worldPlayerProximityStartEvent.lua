@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldPlayerProximityStartEvent: redEvent
----@field public profile CName
+---@field profile CName
 worldPlayerProximityStartEvent = {}
 
 ---@param fields? worldPlayerProximityStartEvent
 ---@return worldPlayerProximityStartEvent
-function worldPlayerProximityStartEvent.new(fields) return end
+function worldPlayerProximityStartEvent.new(fields) end

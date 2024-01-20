@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class WoundedInstigated: redEvent
----@field public bodyPart EHitReactionZone
+---@field bodyPart EHitReactionZone
 WoundedInstigated = {}
 
 ---@param fields? WoundedInstigated
 ---@return WoundedInstigated
-function WoundedInstigated.new(fields) return end
+function WoundedInstigated.new(fields) end

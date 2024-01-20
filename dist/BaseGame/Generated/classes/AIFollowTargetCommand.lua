@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AIFollowTargetCommand: AIMoveCommand
----@field public target gameObject
----@field public desiredDistance Float
----@field public tolerance Float
----@field public stopWhenDestinationReached Bool
----@field public movementType moveMovementType
----@field public lookAtTarget gameObject
----@field public matchSpeed Bool
----@field public teleport Bool
+---@field target gameObject
+---@field desiredDistance Float
+---@field tolerance Float
+---@field stopWhenDestinationReached Bool
+---@field movementType moveMovementType
+---@field lookAtTarget gameObject
+---@field matchSpeed Bool
+---@field teleport Bool
 AIFollowTargetCommand = {}
 
 ---@param fields? AIFollowTargetCommand
 ---@return AIFollowTargetCommand
-function AIFollowTargetCommand.new(fields) return end
+function AIFollowTargetCommand.new(fields) end

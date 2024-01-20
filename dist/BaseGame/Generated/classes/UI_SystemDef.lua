@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class UI_SystemDef: gamebbScriptDefinition
----@field public IsInMenu gamebbScriptID_Bool
----@field public CircularBlurEnabled gamebbScriptID_Bool
----@field public CircularBlurBlendTime gamebbScriptID_Float
----@field public TrackedMappin gamebbScriptID_Variant
+---@field IsInMenu gamebbScriptID_Bool
+---@field CircularBlurEnabled gamebbScriptID_Bool
+---@field CircularBlurBlendTime gamebbScriptID_Float
+---@field TrackedMappin gamebbScriptID_Variant
 UI_SystemDef = {}
 
 ---@param fields? UI_SystemDef
 ---@return UI_SystemDef
-function UI_SystemDef.new(fields) return end
+function UI_SystemDef.new(fields) end
 
 ---@return Bool
-function UI_SystemDef:AutoCreateInSystem() return end
+function UI_SystemDef:AutoCreateInSystem() end

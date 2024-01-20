@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameinteractionsCPredicateDefinition
----@field public predicateType gameinteractionsIPredicateType
----@field public binaryOperator gameinteractionsEBinaryOperator
----@field public functor1DataDefinition gameinteractionsCFunctorDefinition
----@field public functor2DataDefinition gameinteractionsCFunctorDefinition
+---@field predicateType gameinteractionsIPredicateType
+---@field binaryOperator gameinteractionsEBinaryOperator
+---@field functor1DataDefinition gameinteractionsCFunctorDefinition
+---@field functor2DataDefinition gameinteractionsCFunctorDefinition
 gameinteractionsCPredicateDefinition = {}
 
 ---@param fields? gameinteractionsCPredicateDefinition
 ---@return gameinteractionsCPredicateDefinition
-function gameinteractionsCPredicateDefinition.new(fields) return end
+function gameinteractionsCPredicateDefinition.new(fields) end

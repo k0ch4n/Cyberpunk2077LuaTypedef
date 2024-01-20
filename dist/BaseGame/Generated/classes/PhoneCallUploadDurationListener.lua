@@ -1,42 +1,35 @@
 ---@meta
 
 ---@class PhoneCallUploadDurationListener: gameCustomValueStatPoolsListener
----@field public gameInstance ScriptGameInstance
----@field public requesterPuppet ScriptedPuppet
----@field public requesterID entEntityID
----@field public duration Float
----@field public statPoolType gamedataStatPoolType
+---@field gameInstance ScriptGameInstance
+---@field requesterPuppet ScriptedPuppet
+---@field requesterID entEntityID
+---@field duration Float
+---@field statPoolType gamedataStatPoolType
 PhoneCallUploadDurationListener = {}
 
 ---@param fields? PhoneCallUploadDurationListener
 ---@return PhoneCallUploadDurationListener
-function PhoneCallUploadDurationListener.new(fields) return end
+function PhoneCallUploadDurationListener.new(fields) end
 
----@protected
 ---@return Bool
-function PhoneCallUploadDurationListener:OnStatPoolAdded() return end
+function PhoneCallUploadDurationListener:OnStatPoolAdded() end
 
----@protected
 ---@param value Float
 ---@return Bool
-function PhoneCallUploadDurationListener:OnStatPoolMaxValueReached(value) return end
+function PhoneCallUploadDurationListener:OnStatPoolMaxValueReached(value) end
 
----@protected
 ---@return Bool
-function PhoneCallUploadDurationListener:OnStatPoolRemoved() return end
+function PhoneCallUploadDurationListener:OnStatPoolRemoved() end
 
----@protected
 ---@return nil
-function PhoneCallUploadDurationListener:SendUploadFinishedEvent() return end
+function PhoneCallUploadDurationListener:SendUploadFinishedEvent() end
 
----@private
 ---@return nil
-function PhoneCallUploadDurationListener:SendUploadStartedEvent() return end
+function PhoneCallUploadDurationListener:SendUploadStartedEvent() end
 
----@protected
 ---@return nil
-function PhoneCallUploadDurationListener:SetRegenBehavior() return end
+function PhoneCallUploadDurationListener:SetRegenBehavior() end
 
----@private
 ---@return nil
-function PhoneCallUploadDurationListener:UnregisterListener() return end
+function PhoneCallUploadDurationListener:UnregisterListener() end

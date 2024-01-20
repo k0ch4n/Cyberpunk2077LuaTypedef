@@ -1,18 +1,16 @@
 ---@meta
 
 ---@class InventoryRipperdocDisplayController: InventoryItemDisplayController
----@field private ownedBackground inkWidgetReference
----@field private ownedSign inkWidgetReference
+---@field ownedBackground inkWidgetReference
+---@field ownedSign inkWidgetReference
 InventoryRipperdocDisplayController = {}
 
 ---@param fields? InventoryRipperdocDisplayController
 ---@return InventoryRipperdocDisplayController
-function InventoryRipperdocDisplayController.new(fields) return end
+function InventoryRipperdocDisplayController.new(fields) end
 
----@protected
 ---@return nil
-function InventoryRipperdocDisplayController:RefreshUI() return end
+function InventoryRipperdocDisplayController:RefreshUI() end
 
----@protected
 ---@return nil
-function InventoryRipperdocDisplayController:UpdatePrice() return end
+function InventoryRipperdocDisplayController:UpdatePrice() end

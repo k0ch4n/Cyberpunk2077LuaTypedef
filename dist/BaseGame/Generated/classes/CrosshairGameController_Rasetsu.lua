@@ -1,134 +1,112 @@
 ---@meta
 
 ---@class CrosshairGameController_Rasetsu: gameuiCrosshairBaseGameController
----@field public hipFire inkWidgetReference
----@field public aimFire inkWidgetReference
----@field public showAdsAnimName CName
----@field public hideAdsAnimName CName
----@field public loopAdsAnimName CName
----@field public targetHitAnimationName CName
----@field public shootAnimationName CName
----@field public hipFireLogicController CrosshairLogicController_RasetsuHipFire
----@field public aimFireLogicController CrosshairLogicController_RasetsuAimFire
----@field public weaponLocalBB gameIBlackboard
----@field public uiGameDataBB gameIBlackboard
----@field public onChargeChangeBBID redCallbackObject
----@field public onChargeTriggerModeBBID redCallbackObject
----@field public weaponDataTargetHitBBID redCallbackObject
----@field public weaponDataShootBBID redCallbackObject
----@field public targetHitAnimation inkanimProxy
----@field public shootAnimation inkanimProxy
----@field public visibilityAnimProxy inkanimProxy
----@field public rootAnimProxy inkanimProxy
----@field public isRootVisible Bool
+---@field hipFire inkWidgetReference
+---@field aimFire inkWidgetReference
+---@field showAdsAnimName CName
+---@field hideAdsAnimName CName
+---@field loopAdsAnimName CName
+---@field targetHitAnimationName CName
+---@field shootAnimationName CName
+---@field hipFireLogicController CrosshairLogicController_RasetsuHipFire
+---@field aimFireLogicController CrosshairLogicController_RasetsuAimFire
+---@field weaponLocalBB gameIBlackboard
+---@field uiGameDataBB gameIBlackboard
+---@field onChargeChangeBBID redCallbackObject
+---@field onChargeTriggerModeBBID redCallbackObject
+---@field weaponDataTargetHitBBID redCallbackObject
+---@field weaponDataShootBBID redCallbackObject
+---@field targetHitAnimation inkanimProxy
+---@field shootAnimation inkanimProxy
+---@field visibilityAnimProxy inkanimProxy
+---@field rootAnimProxy inkanimProxy
+---@field isRootVisible Bool
 CrosshairGameController_Rasetsu = {}
 
 ---@param fields? CrosshairGameController_Rasetsu
 ---@return CrosshairGameController_Rasetsu
-function CrosshairGameController_Rasetsu.new(fields) return end
+function CrosshairGameController_Rasetsu.new(fields) end
 
----@protected
 ---@param spread Vector2
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnBulletSpreadChanged(spread) return end
+function CrosshairGameController_Rasetsu:OnBulletSpreadChanged(spread) end
 
----@protected
 ---@param argCharge Float
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnChargeChanged(argCharge) return end
+function CrosshairGameController_Rasetsu:OnChargeChanged(argCharge) end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnInitialize() return end
+function CrosshairGameController_Rasetsu:OnInitialize() end
 
----@protected
 ---@param evt PerfectChargeUIEvent
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnPerfectChargeUIEvent(evt) return end
+function CrosshairGameController_Rasetsu:OnPerfectChargeUIEvent(evt) end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnPreIntro() return end
+function CrosshairGameController_Rasetsu:OnPreIntro() end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnPreOutro() return end
+function CrosshairGameController_Rasetsu:OnPreOutro() end
 
----@protected
 ---@param arg Variant
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnShoot(arg) return end
+function CrosshairGameController_Rasetsu:OnShoot(arg) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnStartLoop(proxy) return end
+function CrosshairGameController_Rasetsu:OnStartLoop(proxy) end
 
----@protected
 ---@param arg Variant
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnTargetHit(arg) return end
+function CrosshairGameController_Rasetsu:OnTargetHit(arg) end
 
----@protected
 ---@param triggerMode Variant
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnTriggerModeChanged(triggerMode) return end
+function CrosshairGameController_Rasetsu:OnTriggerModeChanged(triggerMode) end
 
----@protected
 ---@return Bool
-function CrosshairGameController_Rasetsu:OnUninitialize() return end
+function CrosshairGameController_Rasetsu:OnUninitialize() end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function CrosshairGameController_Rasetsu:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function CrosshairGameController_Rasetsu:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
----@private
 ---@param value Bool
 ---@return nil
-function CrosshairGameController_Rasetsu:ApplyWeaponSwayToCamera(value) return end
+function CrosshairGameController_Rasetsu:ApplyWeaponSwayToCamera(value) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function CrosshairGameController_Rasetsu:GetIntroAnimation(firstEquip) return end
+function CrosshairGameController_Rasetsu:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function CrosshairGameController_Rasetsu:GetOutroAnimation() return end
+function CrosshairGameController_Rasetsu:GetOutroAnimation() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_Aim() return end
+function CrosshairGameController_Rasetsu:OnState_Aim() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_GrenadeCharging() return end
+function CrosshairGameController_Rasetsu:OnState_GrenadeCharging() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_HipFire() return end
+function CrosshairGameController_Rasetsu:OnState_HipFire() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_LeftHandCyberware() return end
+function CrosshairGameController_Rasetsu:OnState_LeftHandCyberware() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_Reload() return end
+function CrosshairGameController_Rasetsu:OnState_Reload() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_Safe() return end
+function CrosshairGameController_Rasetsu:OnState_Safe() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_Scanning() return end
+function CrosshairGameController_Rasetsu:OnState_Scanning() end
 
----@protected
 ---@return nil
-function CrosshairGameController_Rasetsu:OnState_Sprint() return end
+function CrosshairGameController_Rasetsu:OnState_Sprint() end
 
----@private
 ---@param isVisible Bool
 ---@return nil
-function CrosshairGameController_Rasetsu:ShowRootWidget(isVisible) return end
+function CrosshairGameController_Rasetsu:ShowRootWidget(isVisible) end

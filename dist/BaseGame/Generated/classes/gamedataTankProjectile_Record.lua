@@ -5,10 +5,10 @@ gamedataTankProjectile_Record = {}
 
 ---@param fields? gamedataTankProjectile_Record
 ---@return gamedataTankProjectile_Record
-function gamedataTankProjectile_Record.new(fields) return end
+function gamedataTankProjectile_Record.new(fields) end
 
 ---@return Int32
-function gamedataTankProjectile_Record:Damage() return end
+function gamedataTankProjectile_Record:Damage() end
 
 ---@return Float
-function gamedataTankProjectile_Record:Velocity() return end
+function gamedataTankProjectile_Record:Velocity() end

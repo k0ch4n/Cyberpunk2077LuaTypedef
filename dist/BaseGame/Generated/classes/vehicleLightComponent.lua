@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class vehicleLightComponent: gameLightComponent
----@field public allowSeparateEmissiveColor Bool
----@field public emissiveColor Color
----@field public lightType vehicleELightType
----@field public highBeamPitchAngle Float
----@field public highBeamRadiusMultiplier Float
----@field public highBeamConeMultiplier Float
+---@field allowSeparateEmissiveColor Bool
+---@field emissiveColor Color
+---@field lightType vehicleELightType
+---@field highBeamPitchAngle Float
+---@field highBeamRadiusMultiplier Float
+---@field highBeamConeMultiplier Float
 vehicleLightComponent = {}
 
 ---@param fields? vehicleLightComponent
 ---@return vehicleLightComponent
-function vehicleLightComponent.new(fields) return end
+function vehicleLightComponent.new(fields) end

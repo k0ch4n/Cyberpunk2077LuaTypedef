@@ -1,109 +1,92 @@
 ---@meta
 
 ---@class scannerDetailsGameController: gameuiHUDGameController
----@field private scannerCountainer inkCompoundWidgetReference
----@field private quickhackContainer inkCompoundWidgetReference
----@field private cluesContainer inkCompoundWidgetReference
----@field private toggleDescirptionHackPart inkWidgetReference
----@field private kiroshiLogo inkWidgetReference
----@field private player gameObject
----@field private scanningState gameScanningState
----@field private scannedObjectType ScannerObjectType
----@field private currentTab ScannerDetailTab
----@field private isQuickHackAble Bool
----@field private isQuickHackPanelOpened Bool
----@field private asyncSpawnRequests inkAsyncSpawnRequest[]
----@field private uiScannedObjectTypeChangedCallbackID redCallbackObject
----@field private uiScanningStateChangedCallbackID redCallbackObject
----@field private uiScannedObjectChangedCallbackID redCallbackObject
----@field private uiQHDescriptionChangedCallbackID redCallbackObject
----@field private uiQHPanelOpenedCallbackID redCallbackObject
----@field private uiSystemIsInMenuCallbackID redCallbackObject
----@field private introAnimProxy inkanimProxy
----@field private outroAnimProxy inkanimProxy
----@field private scannerToggleTabAnimProxy inkanimProxy
+---@field scannerCountainer inkCompoundWidgetReference
+---@field quickhackContainer inkCompoundWidgetReference
+---@field cluesContainer inkCompoundWidgetReference
+---@field toggleDescirptionHackPart inkWidgetReference
+---@field kiroshiLogo inkWidgetReference
+---@field player gameObject
+---@field scanningState gameScanningState
+---@field scannedObjectType ScannerObjectType
+---@field currentTab ScannerDetailTab
+---@field isQuickHackAble Bool
+---@field isQuickHackPanelOpened Bool
+---@field asyncSpawnRequests inkAsyncSpawnRequest[]
+---@field uiScannedObjectTypeChangedCallbackID redCallbackObject
+---@field uiScanningStateChangedCallbackID redCallbackObject
+---@field uiScannedObjectChangedCallbackID redCallbackObject
+---@field uiQHDescriptionChangedCallbackID redCallbackObject
+---@field uiQHPanelOpenedCallbackID redCallbackObject
+---@field uiSystemIsInMenuCallbackID redCallbackObject
+---@field introAnimProxy inkanimProxy
+---@field outroAnimProxy inkanimProxy
+---@field scannerToggleTabAnimProxy inkanimProxy
 scannerDetailsGameController = {}
 
 ---@param fields? scannerDetailsGameController
 ---@return scannerDetailsGameController
-function scannerDetailsGameController.new(fields) return end
+function scannerDetailsGameController.new(fields) end
 
----@protected
 ---@return Bool
-function scannerDetailsGameController:OnInitialize() return end
+function scannerDetailsGameController:OnInitialize() end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function scannerDetailsGameController:OnMenuUpdate(value) return end
+function scannerDetailsGameController:OnMenuUpdate(value) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function scannerDetailsGameController:OnPlayerAttach(player) return end
+function scannerDetailsGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function scannerDetailsGameController:OnQHDescriptionChanged(value) return end
+function scannerDetailsGameController:OnQHDescriptionChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function scannerDetailsGameController:OnQHPanelOpened(value) return end
+function scannerDetailsGameController:OnQHPanelOpened(value) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function scannerDetailsGameController:OnScannedObjectChanged(value) return end
+function scannerDetailsGameController:OnScannedObjectChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function scannerDetailsGameController:OnScannedObjectTypeChanged(value) return end
+function scannerDetailsGameController:OnScannedObjectTypeChanged(value) end
 
----@protected
 ---@param animationProxy inkanimProxy
 ---@return Bool
-function scannerDetailsGameController:OnScannerDetailsHidden(animationProxy) return end
+function scannerDetailsGameController:OnScannerDetailsHidden(animationProxy) end
 
----@protected
 ---@param animationProxy inkanimProxy
 ---@return Bool
-function scannerDetailsGameController:OnScannerDetailsShown(animationProxy) return end
+function scannerDetailsGameController:OnScannerDetailsShown(animationProxy) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function scannerDetailsGameController:OnScanningStateChanged(value) return end
+function scannerDetailsGameController:OnScanningStateChanged(value) end
 
----@protected
 ---@return Bool
-function scannerDetailsGameController:OnUnitialize() return end
+function scannerDetailsGameController:OnUnitialize() end
 
----@private
 ---@param scannerWidgetLibraryName CName|string
 ---@return nil
-function scannerDetailsGameController:AsyncSpawnScannerModule(scannerWidgetLibraryName) return end
+function scannerDetailsGameController:AsyncSpawnScannerModule(scannerWidgetLibraryName) end
 
----@private
 ---@return nil
-function scannerDetailsGameController:PlayOutroAnimation() return end
+function scannerDetailsGameController:PlayOutroAnimation() end
 
----@private
 ---@return nil
-function scannerDetailsGameController:RefreshLayout() return end
+function scannerDetailsGameController:RefreshLayout() end
 
----@private
 ---@param scannerDetailTab ScannerDetailTab
 ---@param isForceSkippingToggleAnimation? Bool
 ---@return nil
-function scannerDetailsGameController:SetTab(scannerDetailTab, isForceSkippingToggleAnimation) return end
+function scannerDetailsGameController:SetTab(scannerDetailTab, isForceSkippingToggleAnimation) end
 
----@private
 ---@return nil
-function scannerDetailsGameController:StopAnimations() return end
+function scannerDetailsGameController:StopAnimations() end
 
----@private
 ---@return nil
-function scannerDetailsGameController:ToggleQHTabVisibility() return end
+function scannerDetailsGameController:ToggleQHTabVisibility() end

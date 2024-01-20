@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class scnPerformerSymbol
----@field public performerId scnPerformerId
----@field public entityRef gameEntityReference
----@field public editorPerformerId CRUID
+---@field performerId scnPerformerId
+---@field entityRef gameEntityReference
+---@field editorPerformerId CRUID
 scnPerformerSymbol = {}
 
 ---@param fields? scnPerformerSymbol
 ---@return scnPerformerSymbol
-function scnPerformerSymbol.new(fields) return end
+function scnPerformerSymbol.new(fields) end

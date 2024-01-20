@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questSpawnManagerNodeDefinition: questSignalStoppingNodeDefinition
----@field public actions questSpawnManagerNodeActionEntry[]
+---@field actions questSpawnManagerNodeActionEntry[]
 questSpawnManagerNodeDefinition = {}
 
 ---@param fields? questSpawnManagerNodeDefinition
 ---@return questSpawnManagerNodeDefinition
-function questSpawnManagerNodeDefinition.new(fields) return end
+function questSpawnManagerNodeDefinition.new(fields) end

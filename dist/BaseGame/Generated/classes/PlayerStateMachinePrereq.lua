@@ -1,42 +1,38 @@
 ---@meta
 
 ---@class PlayerStateMachinePrereq: gameIScriptablePrereq
----@field private previousState Bool
----@field private isInState Bool
----@field private skipWhenApplied Bool
----@field public valueToListen Int32
+---@field previousState Bool
+---@field isInState Bool
+---@field skipWhenApplied Bool
+---@field valueToListen Int32
 PlayerStateMachinePrereq = {}
 
 ---@param fields? PlayerStateMachinePrereq
 ---@return PlayerStateMachinePrereq
-function PlayerStateMachinePrereq.new(fields) return end
+function PlayerStateMachinePrereq.new(fields) end
 
 ---@param owner gameObject
 ---@param newValue Int32
 ---@param prevValue Int32
 ---@return Bool
-function PlayerStateMachinePrereq:Evaluate(owner, newValue, prevValue) return end
+function PlayerStateMachinePrereq:Evaluate(owner, newValue, prevValue) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function PlayerStateMachinePrereq:GetCurrentPSMStateIndex(bb) return end
+function PlayerStateMachinePrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function PlayerStateMachinePrereq:GetStateMachineEnum() return end
+function PlayerStateMachinePrereq:GetStateMachineEnum() end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function PlayerStateMachinePrereq:Initialize(recordID) return end
+function PlayerStateMachinePrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function PlayerStateMachinePrereq:IsFulfilled(context) return end
+function PlayerStateMachinePrereq:IsFulfilled(context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function PlayerStateMachinePrereq:OnApplied(state, context) return end
+function PlayerStateMachinePrereq:OnApplied(state, context) end

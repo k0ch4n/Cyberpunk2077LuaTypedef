@@ -5,34 +5,29 @@ PreCrouchLowGravityDecisions = {}
 
 ---@param fields? PreCrouchLowGravityDecisions
 ---@return PreCrouchLowGravityDecisions
-function PreCrouchLowGravityDecisions.new(fields) return end
+function PreCrouchLowGravityDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PreCrouchLowGravityDecisions:EnterCondition(stateContext, scriptInterface) return end
+function PreCrouchLowGravityDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PreCrouchLowGravityDecisions:ToCrouchLowGravity(stateContext, scriptInterface) return end
+function PreCrouchLowGravityDecisions:ToCrouchLowGravity(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PreCrouchLowGravityDecisions:ToDodgeCrouchLowGravity(stateContext, scriptInterface) return end
+function PreCrouchLowGravityDecisions:ToDodgeCrouchLowGravity(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PreCrouchLowGravityDecisions:ToDodgeLowGravity(stateContext, scriptInterface) return end
+function PreCrouchLowGravityDecisions:ToDodgeLowGravity(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function PreCrouchLowGravityDecisions:ToStandLowGravity(stateContext, scriptInterface) return end
+function PreCrouchLowGravityDecisions:ToStandLowGravity(stateContext, scriptInterface) end

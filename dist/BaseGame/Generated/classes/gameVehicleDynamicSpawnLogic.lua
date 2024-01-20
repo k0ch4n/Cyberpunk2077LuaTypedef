@@ -5,4 +5,4 @@ gameVehicleDynamicSpawnLogic = {}
 
 ---@param fields? gameVehicleDynamicSpawnLogic
 ---@return gameVehicleDynamicSpawnLogic
-function gameVehicleDynamicSpawnLogic.new(fields) return end
+function gameVehicleDynamicSpawnLogic.new(fields) end

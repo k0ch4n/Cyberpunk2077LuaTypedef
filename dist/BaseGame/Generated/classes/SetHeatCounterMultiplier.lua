@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class SetHeatCounterMultiplier: gameScriptableSystemRequest
----@field public heatMultiplier Float
----@field public reset Bool
----@field public source CName
+---@field heatMultiplier Float
+---@field reset Bool
+---@field source CName
 SetHeatCounterMultiplier = {}
 
 ---@param fields? SetHeatCounterMultiplier
 ---@return SetHeatCounterMultiplier
-function SetHeatCounterMultiplier.new(fields) return end
+function SetHeatCounterMultiplier.new(fields) end
 
 ---@return String
-function SetHeatCounterMultiplier:GetFriendlyDesctiption() return end
+function SetHeatCounterMultiplier:GetFriendlyDesctiption() end

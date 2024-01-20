@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class GrenadeTrackerTargetAcquiredEvent: redEvent
----@field public target ScriptedPuppet
----@field public targetSlot CName
+---@field target ScriptedPuppet
+---@field targetSlot CName
 GrenadeTrackerTargetAcquiredEvent = {}
 
 ---@param fields? GrenadeTrackerTargetAcquiredEvent
 ---@return GrenadeTrackerTargetAcquiredEvent
-function GrenadeTrackerTargetAcquiredEvent.new(fields) return end
+function GrenadeTrackerTargetAcquiredEvent.new(fields) end

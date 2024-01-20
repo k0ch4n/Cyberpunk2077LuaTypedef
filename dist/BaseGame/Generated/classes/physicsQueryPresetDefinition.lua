@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsQueryPresetDefinition: ISerializable
----@field public name CName
----@field public queryGroups CName[]
+---@field name CName
+---@field queryGroups CName[]
 physicsQueryPresetDefinition = {}
 
 ---@param fields? physicsQueryPresetDefinition
 ---@return physicsQueryPresetDefinition
-function physicsQueryPresetDefinition.new(fields) return end
+function physicsQueryPresetDefinition.new(fields) end

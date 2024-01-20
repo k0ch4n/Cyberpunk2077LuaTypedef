@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class LiftStatus: BaseDeviceStatus
----@field public libraryName CName
+---@field libraryName CName
 LiftStatus = {}
 
 ---@param fields? LiftStatus
 ---@return LiftStatus
-function LiftStatus.new(fields) return end
+function LiftStatus.new(fields) end
 
 ---@param libraryName CName|string
 ---@param authorizationTextOverride String
 ---@return nil
-function LiftStatus:CreateActionWidgetPackage(libraryName, authorizationTextOverride) return end
+function LiftStatus:CreateActionWidgetPackage(libraryName, authorizationTextOverride) end
 
 ---@return TweakDBID
-function LiftStatus:GetInkWidgetTweakDBID() return end
+function LiftStatus:GetInkWidgetTweakDBID() end

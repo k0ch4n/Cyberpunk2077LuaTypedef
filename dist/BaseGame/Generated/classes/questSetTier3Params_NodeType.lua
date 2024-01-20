@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class questSetTier3Params_NodeType: questISceneManagerNodeType
----@field public yawLeftLimit Float
----@field public yawRightLimit Float
----@field public pitchUpLimit Float
----@field public pitchDownLimit Float
----@field public yawSpeedMultiplier Float
----@field public pitchSpeedMultiplier Float
----@field public objectRef gameEntityReference
----@field public slotName CName
----@field public offsetPos Vector3
----@field public rotationTime Float
----@field public rotateHeadOnly Bool
----@field public usePlayerWorkspot Bool
----@field public useEnterAnim Bool
----@field public useExitAnim Bool
+---@field yawLeftLimit Float
+---@field yawRightLimit Float
+---@field pitchUpLimit Float
+---@field pitchDownLimit Float
+---@field yawSpeedMultiplier Float
+---@field pitchSpeedMultiplier Float
+---@field objectRef gameEntityReference
+---@field slotName CName
+---@field offsetPos Vector3
+---@field rotationTime Float
+---@field rotateHeadOnly Bool
+---@field usePlayerWorkspot Bool
+---@field useEnterAnim Bool
+---@field useExitAnim Bool
 questSetTier3Params_NodeType = {}
 
 ---@param fields? questSetTier3Params_NodeType
 ---@return questSetTier3Params_NodeType
-function questSetTier3Params_NodeType.new(fields) return end
+function questSetTier3Params_NodeType.new(fields) end

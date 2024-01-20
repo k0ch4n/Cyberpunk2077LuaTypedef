@@ -5,22 +5,22 @@ gamedataShooterLevelList_Record = {}
 
 ---@param fields? gamedataShooterLevelList_Record
 ---@return gamedataShooterLevelList_Record
-function gamedataShooterLevelList_Record.new(fields) return end
+function gamedataShooterLevelList_Record.new(fields) end
 
 ---@return nil, gamedataShooterLevel_Record[] outList
-function gamedataShooterLevelList_Record:Data() return end
+function gamedataShooterLevelList_Record:Data() end
 
 ---@param item gamedataShooterLevel_Record
 ---@return Bool
-function gamedataShooterLevelList_Record:DataContains(item) return end
+function gamedataShooterLevelList_Record:DataContains(item) end
 
 ---@return Int32
-function gamedataShooterLevelList_Record:GetDataCount() return end
+function gamedataShooterLevelList_Record:GetDataCount() end
 
 ---@param index Int32
 ---@return gamedataShooterLevel_Record
-function gamedataShooterLevelList_Record:GetDataItem(index) return end
+function gamedataShooterLevelList_Record:GetDataItem(index) end
 
 ---@param index Int32
 ---@return gamedataShooterLevel_Record
-function gamedataShooterLevelList_Record:GetDataItemHandle(index) return end
+function gamedataShooterLevelList_Record:GetDataItemHandle(index) end

@@ -5,4 +5,4 @@ gameJournalQuestObjective = {}
 
 ---@param fields? gameJournalQuestObjective
 ---@return gameJournalQuestObjective
-function gameJournalQuestObjective.new(fields) return end
+function gameJournalQuestObjective.new(fields) end

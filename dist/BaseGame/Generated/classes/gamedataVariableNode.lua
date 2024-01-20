@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class gamedataVariableNode: gamedataDataNode
----@field public hashedName CName
----@field public type String
----@field public name String
----@field public isForeignKey Bool
----@field public isArray Bool
----@field public hasArrayValues Bool
----@field public isAddition Bool
----@field public typeEnum gamedataTweakDBType
----@field public values gamedataVariableNodeVariableValue[]
+---@field hashedName CName
+---@field type String
+---@field name String
+---@field isForeignKey Bool
+---@field isArray Bool
+---@field hasArrayValues Bool
+---@field isAddition Bool
+---@field typeEnum gamedataTweakDBType
+---@field values gamedataVariableNodeVariableValue[]
 gamedataVariableNode = {}
 
 ---@param fields? gamedataVariableNode
 ---@return gamedataVariableNode
-function gamedataVariableNode.new(fields) return end
+function gamedataVariableNode.new(fields) end

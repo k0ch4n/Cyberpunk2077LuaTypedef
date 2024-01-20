@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class worldBlockoutData: ISerializable
----@field public points worldBlockoutPoint[]
----@field public edges worldBlockoutEdge[]
----@field public areas worldBlockoutArea[]
----@field public worldSize Vector2
----@field public freePoints Uint32[]
----@field public freeEdges Uint32[]
----@field public freeAreas Uint32[]
+---@field points worldBlockoutPoint[]
+---@field edges worldBlockoutEdge[]
+---@field areas worldBlockoutArea[]
+---@field worldSize Vector2
+---@field freePoints Uint32[]
+---@field freeEdges Uint32[]
+---@field freeAreas Uint32[]
 worldBlockoutData = {}
 
 ---@param fields? worldBlockoutData
 ---@return worldBlockoutData
-function worldBlockoutData.new(fields) return end
+function worldBlockoutData.new(fields) end

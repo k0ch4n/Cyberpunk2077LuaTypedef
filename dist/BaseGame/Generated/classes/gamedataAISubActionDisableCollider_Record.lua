@@ -5,13 +5,13 @@ gamedataAISubActionDisableCollider_Record = {}
 
 ---@param fields? gamedataAISubActionDisableCollider_Record
 ---@return gamedataAISubActionDisableCollider_Record
-function gamedataAISubActionDisableCollider_Record.new(fields) return end
+function gamedataAISubActionDisableCollider_Record.new(fields) end
 
 ---@return Float
-function gamedataAISubActionDisableCollider_Record:Delay() return end
+function gamedataAISubActionDisableCollider_Record:Delay() end
 
 ---@return Bool
-function gamedataAISubActionDisableCollider_Record:Disable() return end
+function gamedataAISubActionDisableCollider_Record:Disable() end
 
 ---@return Bool
-function gamedataAISubActionDisableCollider_Record:EnableOnDeactivate() return end
+function gamedataAISubActionDisableCollider_Record:EnableOnDeactivate() end

@@ -1,34 +1,34 @@
 ---@meta
 
 ---@class audioAmbientAreaSettings: audioAudioMetadata
----@field public MetadataParent CName
----@field public EmitterDecorator CName
----@field public Priority Int32
----@field public EventsOnEnter audioAudEventStruct[]
----@field public EventsOnExit audioAudEventStruct[]
----@field public EventsOnActive audioAudEventStruct[]
----@field public SoundBanks audioSoundBankStruct[]
----@field public Switches audioAudSwitch[]
----@field public Parameters audioAudParameter[]
----@field public Reverb CName
----@field public reverbTransitionTime Float
----@field public VoReverb CName
----@field public FootstepMaterialOverride CName
----@field public soundsLimitingSettings CName
----@field public isMusic Bool
----@field public groupingSettings audioAmbientAreaGroupingSettings
----@field public quadSettings audioQuadEmitterSettings
----@field public outerDistance Float
----@field public verticalOuterDistance Float
----@field public insideSourceDistance Float
----@field public eventOverrides CName
----@field public outdoornessOverride Bool
----@field public outdoorness Float
----@field public mergeRoomsWithinArea Bool
----@field public mixingContext CName
----@field public ambientPaletteEntries audioAmbientPaletteEntry[]
+---@field MetadataParent CName
+---@field EmitterDecorator CName
+---@field Priority Int32
+---@field EventsOnEnter audioAudEventStruct[]
+---@field EventsOnExit audioAudEventStruct[]
+---@field EventsOnActive audioAudEventStruct[]
+---@field SoundBanks audioSoundBankStruct[]
+---@field Switches audioAudSwitch[]
+---@field Parameters audioAudParameter[]
+---@field Reverb CName
+---@field reverbTransitionTime Float
+---@field VoReverb CName
+---@field FootstepMaterialOverride CName
+---@field soundsLimitingSettings CName
+---@field isMusic Bool
+---@field groupingSettings audioAmbientAreaGroupingSettings
+---@field quadSettings audioQuadEmitterSettings
+---@field outerDistance Float
+---@field verticalOuterDistance Float
+---@field insideSourceDistance Float
+---@field eventOverrides CName
+---@field outdoornessOverride Bool
+---@field outdoorness Float
+---@field mergeRoomsWithinArea Bool
+---@field mixingContext CName
+---@field ambientPaletteEntries audioAmbientPaletteEntry[]
 audioAmbientAreaSettings = {}
 
 ---@param fields? audioAmbientAreaSettings
 ---@return audioAmbientAreaSettings
-function audioAmbientAreaSettings.new(fields) return end
+function audioAmbientAreaSettings.new(fields) end

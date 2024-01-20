@@ -5,14 +5,14 @@ GunnerDecisions = {}
 
 ---@param fields? GunnerDecisions
 ---@return GunnerDecisions
-function GunnerDecisions.new(fields) return end
+function GunnerDecisions.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GunnerDecisions:EnterCondition(stateContext, scriptInterface) return end
+function GunnerDecisions:EnterCondition(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function GunnerDecisions:ToExiting(stateContext, scriptInterface) return end
+function GunnerDecisions:ToExiting(stateContext, scriptInterface) end

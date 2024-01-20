@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class LockDeviceChainCreation: gameScriptableSystemRequest
----@field public isLocked Bool
----@field public source CName
+---@field isLocked Bool
+---@field source CName
 LockDeviceChainCreation = {}
 
 ---@param fields? LockDeviceChainCreation
 ---@return LockDeviceChainCreation
-function LockDeviceChainCreation.new(fields) return end
+function LockDeviceChainCreation.new(fields) end
 
 ---@return String
-function LockDeviceChainCreation:GetFriendlyDescription() return end
+function LockDeviceChainCreation:GetFriendlyDescription() end

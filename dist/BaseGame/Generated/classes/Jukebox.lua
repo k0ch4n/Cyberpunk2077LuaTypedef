@@ -1,101 +1,84 @@
 ---@meta
 
 ---@class Jukebox: InteractiveDevice
----@field protected uiComponentBig IWorldWidgetComponent
+---@field uiComponentBig IWorldWidgetComponent
 Jukebox = {}
 
 ---@param fields? Jukebox
 ---@return Jukebox
-function Jukebox.new(fields) return end
+function Jukebox.new(fields) end
 
----@protected
 ---@param evt NextStation
 ---@return Bool
-function Jukebox:OnNextStation(evt) return end
+function Jukebox:OnNextStation(evt) end
 
----@protected
 ---@param evt PreviousStation
 ---@return Bool
-function Jukebox:OnPreviousStation(evt) return end
+function Jukebox:OnPreviousStation(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function Jukebox:OnRequestComponents(ri) return end
+function Jukebox:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function Jukebox:OnTakeControl(ri) return end
+function Jukebox:OnTakeControl(ri) end
 
----@protected
 ---@param evt TogglePlay
 ---@return Bool
-function Jukebox:OnTogglePlay(evt) return end
+function Jukebox:OnTogglePlay(evt) end
 
----@protected
 ---@param start Bool
 ---@param data GlitchData
 ---@return nil
-function Jukebox:AdvertGlitch(start, data) return end
+function Jukebox:AdvertGlitch(start, data) end
 
----@protected
 ---@return nil
-function Jukebox:CreateBlackboard() return end
+function Jukebox:CreateBlackboard() end
 
 ---@return EGameplayRole
-function Jukebox:DeterminGameplayRole() return end
+function Jukebox:DeterminGameplayRole() end
 
 ---@return JukeboxBlackboardDef
-function Jukebox:GetBlackboardDef() return end
+function Jukebox:GetBlackboardDef() end
 
----@protected
 ---@return JukeboxController
-function Jukebox:GetController() return end
+function Jukebox:GetController() end
 
 ---@return JukeboxControllerPS
-function Jukebox:GetDevicePS() return end
+function Jukebox:GetDevicePS() end
 
----@protected
 ---@param glitchState EGlitchState
 ---@return GlitchData
-function Jukebox:GetGlitchData(glitchState) return end
+function Jukebox:GetGlitchData(glitchState) end
 
 ---@return Bool
-function Jukebox:IsPlaying() return end
+function Jukebox:IsPlaying() end
 
----@protected
 ---@return nil
-function Jukebox:PlayGivenStation() return end
+function Jukebox:PlayGivenStation() end
 
----@protected
 ---@param isPlaying Bool
 ---@return nil
-function Jukebox:SendDataToUIBlackboard(isPlaying) return end
+function Jukebox:SendDataToUIBlackboard(isPlaying) end
 
----@protected
 ---@param on Bool
 ---@return nil
-function Jukebox:SimpleGlitch(on) return end
+function Jukebox:SimpleGlitch(on) end
 
----@protected
 ---@param glitchState EGlitchState
 ---@param intensity? Float
 ---@return nil
-function Jukebox:StartGlitching(glitchState, intensity) return end
+function Jukebox:StartGlitching(glitchState, intensity) end
 
----@protected
 ---@return nil
-function Jukebox:StopGlitching() return end
+function Jukebox:StopGlitching() end
 
----@protected
 ---@return nil
-function Jukebox:StopPlayingStation() return end
+function Jukebox:StopPlayingStation() end
 
----@protected
 ---@return nil
-function Jukebox:TurnOffDevice() return end
+function Jukebox:TurnOffDevice() end
 
----@protected
 ---@return nil
-function Jukebox:TurnOnDevice() return end
+function Jukebox:TurnOnDevice() end

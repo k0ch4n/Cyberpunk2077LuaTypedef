@@ -5,10 +5,10 @@ PhysicsFunctionalTests = {}
 
 ---@param fields? PhysicsFunctionalTests
 ---@return PhysicsFunctionalTests
-function PhysicsFunctionalTests.new(fields) return end
+function PhysicsFunctionalTests.new(fields) end
 
 ---@return nil
-function PhysicsFunctionalTests:CreateTrigger() return end
+function PhysicsFunctionalTests:CreateTrigger() end
 
 ---@return nil
-function PhysicsFunctionalTests:QueryOverlapBox() return end
+function PhysicsFunctionalTests:QueryOverlapBox() end

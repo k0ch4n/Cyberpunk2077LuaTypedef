@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class AIScanTargetTask: AIbehaviortaskScript
----@field public inCommand AIArgumentMapping
+---@field inCommand AIArgumentMapping
 AIScanTargetTask = {}
 
 ---@param fields? AIScanTargetTask
 ---@return AIScanTargetTask
-function AIScanTargetTask.new(fields) return end
+function AIScanTargetTask.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param typedCommand AIScanTargetCommand
 ---@return nil
-function AIScanTargetTask:CancelCommand(context, typedCommand) return end
+function AIScanTargetTask:CancelCommand(context, typedCommand) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIScanTargetTask:Update(context) return end
+function AIScanTargetTask:Update(context) end

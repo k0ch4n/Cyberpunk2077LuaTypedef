@@ -5,4 +5,4 @@ worldRuntimeEntityRegistry = {}
 
 ---@param fields? worldRuntimeEntityRegistry
 ---@return worldRuntimeEntityRegistry
-function worldRuntimeEntityRegistry.new(fields) return end
+function worldRuntimeEntityRegistry.new(fields) end

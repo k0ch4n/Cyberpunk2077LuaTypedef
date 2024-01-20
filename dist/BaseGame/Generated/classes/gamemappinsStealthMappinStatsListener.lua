@@ -5,4 +5,4 @@ gamemappinsStealthMappinStatsListener = {}
 
 ---@param fields? gamemappinsStealthMappinStatsListener
 ---@return gamemappinsStealthMappinStatsListener
-function gamemappinsStealthMappinStatsListener.new(fields) return end
+function gamemappinsStealthMappinStatsListener.new(fields) end

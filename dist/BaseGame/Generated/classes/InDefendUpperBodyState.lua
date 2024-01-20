@@ -5,8 +5,7 @@ InDefendUpperBodyState = {}
 
 ---@param fields? InDefendUpperBodyState
 ---@return InDefendUpperBodyState
-function InDefendUpperBodyState.new(fields) return end
+function InDefendUpperBodyState.new(fields) end
 
----@private
 ---@return gamedataNPCUpperBodyState
-function InDefendUpperBodyState:GetStateToCheck() return end
+function InDefendUpperBodyState:GetStateToCheck() end

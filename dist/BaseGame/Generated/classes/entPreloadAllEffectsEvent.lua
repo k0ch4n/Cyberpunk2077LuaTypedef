@@ -5,4 +5,4 @@ entPreloadAllEffectsEvent = {}
 
 ---@param fields? entPreloadAllEffectsEvent
 ---@return entPreloadAllEffectsEvent
-function entPreloadAllEffectsEvent.new(fields) return end
+function entPreloadAllEffectsEvent.new(fields) end

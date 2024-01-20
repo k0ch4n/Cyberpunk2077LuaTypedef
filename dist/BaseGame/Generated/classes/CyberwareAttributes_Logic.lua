@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class CyberwareAttributes_Logic: inkWidgetLogicController
----@field protected textValue inkTextWidgetReference
----@field protected buttonRef inkWidgetReference
----@field protected tooltipRef inkWidgetReference
----@field protected connectorRef inkWidgetReference
+---@field textValue inkTextWidgetReference
+---@field buttonRef inkWidgetReference
+---@field tooltipRef inkWidgetReference
+---@field connectorRef inkWidgetReference
 CyberwareAttributes_Logic = {}
 
 ---@param fields? CyberwareAttributes_Logic
 ---@return CyberwareAttributes_Logic
-function CyberwareAttributes_Logic.new(fields) return end
+function CyberwareAttributes_Logic.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CyberwareAttributes_Logic:OnButtonHoverOut(e) return end
+function CyberwareAttributes_Logic:OnButtonHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function CyberwareAttributes_Logic:OnButtonHoverOver(e) return end
+function CyberwareAttributes_Logic:OnButtonHoverOver(e) end
 
----@protected
 ---@return Bool
-function CyberwareAttributes_Logic:OnInitialize() return end
+function CyberwareAttributes_Logic:OnInitialize() end
 
 ---@param value String
 ---@return nil
-function CyberwareAttributes_Logic:SetAttributeValue(value) return end
+function CyberwareAttributes_Logic:SetAttributeValue(value) end

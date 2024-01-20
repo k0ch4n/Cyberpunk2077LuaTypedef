@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SWeaponPlaneParams
----@field public weaponNearPlaneCM Float
----@field public blurIntensity Float
+---@field weaponNearPlaneCM Float
+---@field blurIntensity Float
 SWeaponPlaneParams = {}
 
 ---@param fields? SWeaponPlaneParams
 ---@return SWeaponPlaneParams
-function SWeaponPlaneParams.new(fields) return end
+function SWeaponPlaneParams.new(fields) end

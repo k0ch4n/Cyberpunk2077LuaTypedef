@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameMuppetInputActionDebugCommand: gameIMuppetInputAction
----@field public debugCommand gameMuppetDebugCommand
+---@field debugCommand gameMuppetDebugCommand
 gameMuppetInputActionDebugCommand = {}
 
 ---@param fields? gameMuppetInputActionDebugCommand
 ---@return gameMuppetInputActionDebugCommand
-function gameMuppetInputActionDebugCommand.new(fields) return end
+function gameMuppetInputActionDebugCommand.new(fields) end

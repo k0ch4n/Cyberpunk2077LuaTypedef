@@ -1,73 +1,72 @@
 ---@meta
 
 ---@class ItemCategoryFliterManager: IScriptable
----@field private filtersToCheck ItemFilterCategory[]
----@field private filters ItemFilterCategory[]
----@field private sharedFiltersToCheck ItemFilterCategory[]
----@field private isOrderDirty Bool
+---@field filtersToCheck ItemFilterCategory[]
+---@field filters ItemFilterCategory[]
+---@field sharedFiltersToCheck ItemFilterCategory[]
+---@field isOrderDirty Bool
 ItemCategoryFliterManager = {}
 
 ---@param fields? ItemCategoryFliterManager
 ---@return ItemCategoryFliterManager
-function ItemCategoryFliterManager.new(fields) return end
+function ItemCategoryFliterManager.new(fields) end
 
 ---@param skipDefaultFilters? Bool
 ---@return ItemCategoryFliterManager
-function ItemCategoryFliterManager.Make(skipDefaultFilters) return end
+function ItemCategoryFliterManager.Make(skipDefaultFilters) end
 
 ---@param filter ItemFilterCategory
 ---@return nil
-function ItemCategoryFliterManager:AddFilter(filter) return end
+function ItemCategoryFliterManager:AddFilter(filter) end
 
 ---@param filter ItemFilterCategory
 ---@return nil
-function ItemCategoryFliterManager:AddFilterToCheck(filter) return end
+function ItemCategoryFliterManager:AddFilterToCheck(filter) end
 
 ---@param itemData gameItemData
 ---@return nil
-function ItemCategoryFliterManager:AddItem(itemData) return end
+function ItemCategoryFliterManager:AddItem(itemData) end
 
 ---@param itemCategory ItemFilterCategory
 ---@return nil
-function ItemCategoryFliterManager:AddItem(itemCategory) return end
+function ItemCategoryFliterManager:AddItem(itemCategory) end
 
 ---@param skipDefaultFilters? Bool
 ---@return nil
-function ItemCategoryFliterManager:Clear(skipDefaultFilters) return end
+function ItemCategoryFliterManager:Clear(skipDefaultFilters) end
 
 ---@param category ItemFilterCategory
 ---@return Bool
-function ItemCategoryFliterManager:Contains(category) return end
+function ItemCategoryFliterManager:Contains(category) end
 
 ---@param index Int32
 ---@return ItemFilterCategory
-function ItemCategoryFliterManager:GetAt(index) return end
+function ItemCategoryFliterManager:GetAt(index) end
 
 ---@return ItemFilterCategory[]
-function ItemCategoryFliterManager:GetFiltersList() return end
+function ItemCategoryFliterManager:GetFiltersList() end
 
 ---@return Int32[]
-function ItemCategoryFliterManager:GetIntFiltersList() return end
+function ItemCategoryFliterManager:GetIntFiltersList() end
 
 ---@return ItemFilterCategory[]
-function ItemCategoryFliterManager:GetSortedFiltersList() return end
+function ItemCategoryFliterManager:GetSortedFiltersList() end
 
 ---@return Int32[]
-function ItemCategoryFliterManager:GetSortedIntFiltersList() return end
+function ItemCategoryFliterManager:GetSortedIntFiltersList() end
 
 ---@param position Int32
 ---@param filter ItemFilterCategory
 ---@return nil
-function ItemCategoryFliterManager:InsertFilter(position, filter) return end
+function ItemCategoryFliterManager:InsertFilter(position, filter) end
 
----@private
 ---@param filter ItemFilterCategory
 ---@return Bool
-function ItemCategoryFliterManager:IsSharedFilter(filter) return end
+function ItemCategoryFliterManager:IsSharedFilter(filter) end
 
 ---@param filter ItemFilterCategory
 ---@return nil
-function ItemCategoryFliterManager:RemvoeFilterToCheck(filter) return end
+function ItemCategoryFliterManager:RemvoeFilterToCheck(filter) end
 
 ---@return nil
-function ItemCategoryFliterManager:SortFiltersList() return end
+function ItemCategoryFliterManager:SortFiltersList() end

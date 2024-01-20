@@ -5,4 +5,4 @@ inkItemPositionProviderWrapper = {}
 
 ---@param fields? inkItemPositionProviderWrapper
 ---@return inkItemPositionProviderWrapper
-function inkItemPositionProviderWrapper.new(fields) return end
+function inkItemPositionProviderWrapper.new(fields) end

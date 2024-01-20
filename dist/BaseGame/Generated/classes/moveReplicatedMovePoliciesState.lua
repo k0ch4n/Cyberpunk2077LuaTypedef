@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class moveReplicatedMovePoliciesState
----@field public items moveReplicatedMovePolicies[]
----@field public lastAppliedActionsTime netTime
+---@field items moveReplicatedMovePolicies[]
+---@field lastAppliedActionsTime netTime
 moveReplicatedMovePoliciesState = {}
 
 ---@param fields? moveReplicatedMovePoliciesState
 ---@return moveReplicatedMovePoliciesState
-function moveReplicatedMovePoliciesState.new(fields) return end
+function moveReplicatedMovePoliciesState.new(fields) end

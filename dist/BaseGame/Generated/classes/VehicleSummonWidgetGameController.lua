@@ -1,128 +1,107 @@
 ---@meta
 
 ---@class VehicleSummonWidgetGameController: gameuiHUDGameController
----@field private vehicleNameLabel inkTextWidgetReference
----@field private vehicleTypeIcon inkImageWidgetReference
----@field private vehicleManufactorIcon inkImageWidgetReference
----@field private distanceLabel inkTextWidgetReference
----@field private subText inkTextWidgetReference
----@field private radioStationName inkTextWidgetReference
----@field private loopCounter Uint32
----@field private rootWidget inkWidget
----@field private player PlayerPuppet
----@field private vehicle vehicleBaseObject
----@field private vehicleRecord gamedataVehicle_Record
----@field private gameInstance ScriptGameInstance
----@field private vehicleSummonDataBB gameIBlackboard
----@field private mountCallback redCallbackObject
----@field private vehicleSummonStateCallback redCallbackObject
----@field private vehiclePurchaseStateCallback redCallbackObject
----@field private currentAnimation CName
----@field private animationProxy inkanimProxy
----@field private animationCounterProxy inkanimProxy
+---@field vehicleNameLabel inkTextWidgetReference
+---@field vehicleTypeIcon inkImageWidgetReference
+---@field vehicleManufactorIcon inkImageWidgetReference
+---@field distanceLabel inkTextWidgetReference
+---@field subText inkTextWidgetReference
+---@field radioStationName inkTextWidgetReference
+---@field loopCounter Uint32
+---@field rootWidget inkWidget
+---@field player PlayerPuppet
+---@field vehicle vehicleBaseObject
+---@field vehicleRecord gamedataVehicle_Record
+---@field gameInstance ScriptGameInstance
+---@field vehicleSummonDataBB gameIBlackboard
+---@field mountCallback redCallbackObject
+---@field vehicleSummonStateCallback redCallbackObject
+---@field vehiclePurchaseStateCallback redCallbackObject
+---@field currentAnimation CName
+---@field animationProxy inkanimProxy
+---@field animationCounterProxy inkanimProxy
 VehicleSummonWidgetGameController = {}
 
 ---@param fields? VehicleSummonWidgetGameController
 ---@return VehicleSummonWidgetGameController
-function VehicleSummonWidgetGameController.new(fields) return end
+function VehicleSummonWidgetGameController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function VehicleSummonWidgetGameController:OnEndLoop(anim) return end
+function VehicleSummonWidgetGameController:OnEndLoop(anim) end
 
----@protected
 ---@return Bool
-function VehicleSummonWidgetGameController:OnInitialize() return end
+function VehicleSummonWidgetGameController:OnInitialize() end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function VehicleSummonWidgetGameController:OnIntroFinished(anim) return end
+function VehicleSummonWidgetGameController:OnIntroFinished(anim) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function VehicleSummonWidgetGameController:OnPlayerAttach(player) return end
+function VehicleSummonWidgetGameController:OnPlayerAttach(player) end
 
----@protected
 ---@param player gameObject
 ---@return Bool
-function VehicleSummonWidgetGameController:OnPlayerDetach(player) return end
+function VehicleSummonWidgetGameController:OnPlayerDetach(player) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function VehicleSummonWidgetGameController:OnTimeOut(anim) return end
+function VehicleSummonWidgetGameController:OnTimeOut(anim) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function VehicleSummonWidgetGameController:OnVehicleEnterDone(anim) return end
+function VehicleSummonWidgetGameController:OnVehicleEnterDone(anim) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function VehicleSummonWidgetGameController:OnVehicleMount(value) return end
+function VehicleSummonWidgetGameController:OnVehicleMount(value) end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function VehicleSummonWidgetGameController:OnVehiclePurchased(value) return end
+function VehicleSummonWidgetGameController:OnVehiclePurchased(value) end
 
----@protected
 ---@param evt vehicleRadioSongChanged
 ---@return Bool
-function VehicleSummonWidgetGameController:OnVehicleRadioSongChanged(evt) return end
+function VehicleSummonWidgetGameController:OnVehicleRadioSongChanged(evt) end
 
----@protected
 ---@param value Uint32
 ---@return Bool
-function VehicleSummonWidgetGameController:OnVehicleSummonStateChanged(value) return end
+function VehicleSummonWidgetGameController:OnVehicleSummonStateChanged(value) end
 
----@private
 ---@param update? Bool
 ---@return Bool
-function VehicleSummonWidgetGameController:IsVehicleDataValid(update) return end
+function VehicleSummonWidgetGameController:IsVehicleDataValid(update) end
 
----@private
 ---@param animation CName|string
 ---@param options? inkanimPlaybackOptions
 ---@param callback? CName|string
 ---@return nil
-function VehicleSummonWidgetGameController:PlayAnimation(animation, options, callback) return end
+function VehicleSummonWidgetGameController:PlayAnimation(animation, options, callback) end
 
----@private
 ---@return nil
-function VehicleSummonWidgetGameController:Reset() return end
+function VehicleSummonWidgetGameController:Reset() end
 
----@private
 ---@return nil
-function VehicleSummonWidgetGameController:ShowVehicleSummonNotification() return end
+function VehicleSummonWidgetGameController:ShowVehicleSummonNotification() end
 
----@private
 ---@return nil
-function VehicleSummonWidgetGameController:ShowVehicleWaitingNotification() return end
+function VehicleSummonWidgetGameController:ShowVehicleWaitingNotification() end
 
----@private
 ---@param isStoppingBothAnimations Bool
 ---@return nil
-function VehicleSummonWidgetGameController:StopAnimation(isStoppingBothAnimations) return end
+function VehicleSummonWidgetGameController:StopAnimation(isStoppingBothAnimations) end
 
----@private
 ---@return Bool
-function VehicleSummonWidgetGameController:TryShowVehicleRadioNotification() return end
+function VehicleSummonWidgetGameController:TryShowVehicleRadioNotification() end
 
----@private
 ---@param id entEntityID
 ---@return Bool
-function VehicleSummonWidgetGameController:TryUpdateActiveVehicleData(id) return end
+function VehicleSummonWidgetGameController:TryUpdateActiveVehicleData(id) end
 
----@private
 ---@return nil
-function VehicleSummonWidgetGameController:UpdateDistanceLabel() return end
+function VehicleSummonWidgetGameController:UpdateDistanceLabel() end
 
----@private
 ---@param id TweakDBID|string
 ---@return nil
-function VehicleSummonWidgetGameController:UpdateVehicleNotificationData(id) return end
+function VehicleSummonWidgetGameController:UpdateVehicleNotificationData(id) end

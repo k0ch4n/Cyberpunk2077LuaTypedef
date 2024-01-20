@@ -5,4 +5,4 @@ gameuiPhotoModeRegisaterCallbacksEvent = {}
 
 ---@param fields? gameuiPhotoModeRegisaterCallbacksEvent
 ---@return gameuiPhotoModeRegisaterCallbacksEvent
-function gameuiPhotoModeRegisaterCallbacksEvent.new(fields) return end
+function gameuiPhotoModeRegisaterCallbacksEvent.new(fields) end

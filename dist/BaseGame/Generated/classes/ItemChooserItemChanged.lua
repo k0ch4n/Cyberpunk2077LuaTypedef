@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ItemChooserItemChanged: redEvent
----@field public itemData gameInventoryItemData
----@field public itemEquipmentArea gamedataEquipmentArea
----@field public slotIndex Int32
----@field public slotID TweakDBID
+---@field itemData gameInventoryItemData
+---@field itemEquipmentArea gamedataEquipmentArea
+---@field slotIndex Int32
+---@field slotID TweakDBID
 ItemChooserItemChanged = {}
 
 ---@param fields? ItemChooserItemChanged
 ---@return ItemChooserItemChanged
-function ItemChooserItemChanged.new(fields) return end
+function ItemChooserItemChanged.new(fields) end

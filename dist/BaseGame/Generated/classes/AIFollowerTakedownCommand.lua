@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIFollowerTakedownCommand: AIFollowerCommand
----@field public targetRef gameEntityReference
----@field public approachBeforeTakedown Bool
----@field public doNotTeleportIfTargetIsVisible Bool
----@field public target gameObject
+---@field targetRef gameEntityReference
+---@field approachBeforeTakedown Bool
+---@field doNotTeleportIfTargetIsVisible Bool
+---@field target gameObject
 AIFollowerTakedownCommand = {}
 
 ---@param fields? AIFollowerTakedownCommand
 ---@return AIFollowerTakedownCommand
-function AIFollowerTakedownCommand.new(fields) return end
+function AIFollowerTakedownCommand.new(fields) end

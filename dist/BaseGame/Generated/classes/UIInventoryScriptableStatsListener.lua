@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class UIInventoryScriptableStatsListener: gameScriptStatsListener
----@field private uiInventoryScriptableSystem UIInventoryScriptableSystem
+---@field uiInventoryScriptableSystem UIInventoryScriptableSystem
 UIInventoryScriptableStatsListener = {}
 
 ---@param fields? UIInventoryScriptableStatsListener
 ---@return UIInventoryScriptableStatsListener
-function UIInventoryScriptableStatsListener.new(fields) return end
+function UIInventoryScriptableStatsListener.new(fields) end
 
 ---@return nil
-function UIInventoryScriptableStatsListener:AttachScriptableSystem() return end
+function UIInventoryScriptableStatsListener:AttachScriptableSystem() end
 
 ---@param ownerID gameStatsObjectID
 ---@param statType gamedataStatType
 ---@param diff Float
 ---@param total Float
 ---@return nil
-function UIInventoryScriptableStatsListener:OnStatChanged(ownerID, statType, diff, total) return end
+function UIInventoryScriptableStatsListener:OnStatChanged(ownerID, statType, diff, total) end

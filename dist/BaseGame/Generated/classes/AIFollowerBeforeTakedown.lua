@@ -5,9 +5,8 @@ AIFollowerBeforeTakedown = {}
 
 ---@param fields? AIFollowerBeforeTakedown
 ---@return AIFollowerBeforeTakedown
-function AIFollowerBeforeTakedown.new(fields) return end
+function AIFollowerBeforeTakedown.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorUpdateOutcome
-function AIFollowerBeforeTakedown:Update(context) return end
+function AIFollowerBeforeTakedown:Update(context) end

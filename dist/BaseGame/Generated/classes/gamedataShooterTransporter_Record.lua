@@ -5,7 +5,7 @@ gamedataShooterTransporter_Record = {}
 
 ---@param fields? gamedataShooterTransporter_Record
 ---@return gamedataShooterTransporter_Record
-function gamedataShooterTransporter_Record.new(fields) return end
+function gamedataShooterTransporter_Record.new(fields) end
 
 ---@return Float
-function gamedataShooterTransporter_Record:DropSpeed() return end
+function gamedataShooterTransporter_Record:DropSpeed() end

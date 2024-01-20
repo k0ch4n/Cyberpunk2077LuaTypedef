@@ -1,105 +1,90 @@
 ---@meta
 
 ---@class CursorGameController: gameuiWidgetGameController
----@field private cursorRoot CursorRootController
----@field private currentContext CName
----@field private margin inkMargin
----@field private data MenuCursorUserData
----@field private isCursorVisible Bool
----@field private cursorType CName
----@field private cursorForDevice CName
----@field private dpadAnimProxy inkanimProxy
----@field private clickAnimProxy inkanimProxy
+---@field cursorRoot CursorRootController
+---@field currentContext CName
+---@field margin inkMargin
+---@field data MenuCursorUserData
+---@field isCursorVisible Bool
+---@field cursorType CName
+---@field cursorForDevice CName
+---@field dpadAnimProxy inkanimProxy
+---@field clickAnimProxy inkanimProxy
 CursorGameController = {}
 
 ---@param fields? CursorGameController
 ---@return CursorGameController
-function CursorGameController.new(fields) return end
+function CursorGameController.new(fields) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function CursorGameController:OnCursorSpawned(widget, userData) return end
+function CursorGameController:OnCursorSpawned(widget, userData) end
 
----@protected
 ---@param angle Float
 ---@return Bool
-function CursorGameController:OnDpadCursorMoved(angle) return end
+function CursorGameController:OnDpadCursorMoved(angle) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CursorGameController:OnHold(evt) return end
+function CursorGameController:OnHold(evt) end
 
----@protected
 ---@return Bool
-function CursorGameController:OnInitialize() return end
+function CursorGameController:OnInitialize() end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function CursorGameController:OnRelease(evt) return end
+function CursorGameController:OnRelease(evt) end
 
----@protected
 ---@param context CName|string
 ---@param data inkUserData
 ---@return Bool
-function CursorGameController:OnSetCursorContext(context, data) return end
+function CursorGameController:OnSetCursorContext(context, data) end
 
----@protected
 ---@param type CName|string
 ---@return Bool
-function CursorGameController:OnSetCursorForDevice(type) return end
+function CursorGameController:OnSetCursorForDevice(type) end
 
----@protected
 ---@param pos Vector2
 ---@return Bool
-function CursorGameController:OnSetCursorPosition(pos) return end
+function CursorGameController:OnSetCursorPosition(pos) end
 
----@protected
 ---@param scale Vector2
 ---@return Bool
-function CursorGameController:OnSetCursorScale(scale) return end
+function CursorGameController:OnSetCursorScale(scale) end
 
----@protected
 ---@param type CName|string
 ---@return Bool
-function CursorGameController:OnSetCursorType(type) return end
+function CursorGameController:OnSetCursorType(type) end
 
----@protected
 ---@param isVisible Bool
 ---@return Bool
-function CursorGameController:OnSetCursorVisibility(isVisible) return end
+function CursorGameController:OnSetCursorVisibility(isVisible) end
 
----@protected
 ---@return Bool
-function CursorGameController:OnUnitialize() return end
+function CursorGameController:OnUnitialize() end
 
----@private
 ---@param evt inkPointerEvent
 ---@param actionsList CName[]|string[]
 ---@return Bool
-function CursorGameController:DoesActionMatch(evt, actionsList) return end
+function CursorGameController:DoesActionMatch(evt, actionsList) end
 
----@protected
 ---@return CName
-function CursorGameController:GetCursorType() return end
+function CursorGameController:GetCursorType() end
 
----@private
 ---@param context CName|string
 ---@param data inkUserData
 ---@param force? Bool
 ---@return nil
-function CursorGameController:ProcessCursorContext(context, data, force) return end
+function CursorGameController:ProcessCursorContext(context, data, force) end
 
 ---@return nil
-function CursorGameController:SpawnCursor() return end
+function CursorGameController:SpawnCursor() end
 
 ---@param percent Float
 ---@return nil
-function CursorGameController:UpdateFillPercent(percent) return end
+function CursorGameController:UpdateFillPercent(percent) end
 
 ---@param evt inkPointerEvent
 ---@return Bool
-function CursorGameController:isClickAction(evt) return end
+function CursorGameController:isClickAction(evt) end

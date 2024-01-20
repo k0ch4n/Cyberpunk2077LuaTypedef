@@ -5,4 +5,4 @@ gameAndroidTurnOn = {}
 
 ---@param fields? gameAndroidTurnOn
 ---@return gameAndroidTurnOn
-function gameAndroidTurnOn.new(fields) return end
+function gameAndroidTurnOn.new(fields) end

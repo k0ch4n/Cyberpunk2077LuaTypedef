@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameweaponeventsSetAmmoCountEvent: redEvent
----@field public ammoTypeID gameItemID
----@field public count Uint32
+---@field ammoTypeID gameItemID
+---@field count Uint32
 gameweaponeventsSetAmmoCountEvent = {}
 
 ---@param fields? gameweaponeventsSetAmmoCountEvent
 ---@return gameweaponeventsSetAmmoCountEvent
-function gameweaponeventsSetAmmoCountEvent.new(fields) return end
+function gameweaponeventsSetAmmoCountEvent.new(fields) end

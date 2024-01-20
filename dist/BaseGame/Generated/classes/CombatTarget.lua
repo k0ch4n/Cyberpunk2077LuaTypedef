@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class CombatTarget
----@field public puppet ScriptedPuppet
----@field public hasTime Bool
----@field public highlightTime Float
+---@field puppet ScriptedPuppet
+---@field hasTime Bool
+---@field highlightTime Float
 CombatTarget = {}
 
 ---@param fields? CombatTarget
 ---@return CombatTarget
-function CombatTarget.new(fields) return end
+function CombatTarget.new(fields) end

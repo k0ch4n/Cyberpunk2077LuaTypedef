@@ -1,24 +1,24 @@
 ---@meta
 
 ---@class HUDActorUpdateData: IScriptable
----@field public updateVisibility Bool
----@field public visibilityValue ActorVisibilityStatus
----@field public updateIsRevealed Bool
----@field public isRevealedValue Bool
----@field public updateIsTagged Bool
----@field public isTaggedValue Bool
----@field public updateClueData Bool
----@field public clueDataValue HUDClueData
----@field public updateIsRemotelyAccessed Bool
----@field public isRemotelyAccessedValue Bool
----@field public updateCanOpenScannerInfo Bool
----@field public canOpenScannerInfoValue Bool
----@field public updateIsInIconForcedVisibilityRange Bool
----@field public isInIconForcedVisibilityRangeValue Bool
----@field public updateIsIconForcedVisibleThroughWalls Bool
----@field public isIconForcedVisibleThroughWallsValue Bool
+---@field updateVisibility Bool
+---@field visibilityValue ActorVisibilityStatus
+---@field updateIsRevealed Bool
+---@field isRevealedValue Bool
+---@field updateIsTagged Bool
+---@field isTaggedValue Bool
+---@field updateClueData Bool
+---@field clueDataValue HUDClueData
+---@field updateIsRemotelyAccessed Bool
+---@field isRemotelyAccessedValue Bool
+---@field updateCanOpenScannerInfo Bool
+---@field canOpenScannerInfoValue Bool
+---@field updateIsInIconForcedVisibilityRange Bool
+---@field isInIconForcedVisibilityRangeValue Bool
+---@field updateIsIconForcedVisibleThroughWalls Bool
+---@field isIconForcedVisibleThroughWallsValue Bool
 HUDActorUpdateData = {}
 
 ---@param fields? HUDActorUpdateData
 ---@return HUDActorUpdateData
-function HUDActorUpdateData.new(fields) return end
+function HUDActorUpdateData.new(fields) end

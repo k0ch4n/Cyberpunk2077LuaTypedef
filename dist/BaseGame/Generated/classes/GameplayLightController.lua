@@ -5,7 +5,7 @@ GameplayLightController = {}
 
 ---@param fields? GameplayLightController
 ---@return GameplayLightController
-function GameplayLightController.new(fields) return end
+function GameplayLightController.new(fields) end
 
 ---@return GameplayLightControllerPS
-function GameplayLightController:GetPS() return end
+function GameplayLightController:GetPS() end

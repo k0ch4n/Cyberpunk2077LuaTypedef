@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gamedamageServerKillData: IScriptable
----@field public id Uint32
----@field public killInfo gameuiKillInfo
+---@field id Uint32
+---@field killInfo gameuiKillInfo
 gamedamageServerKillData = {}
 
 ---@param fields? gamedamageServerKillData
 ---@return gamedamageServerKillData
-function gamedamageServerKillData.new(fields) return end
+function gamedamageServerKillData.new(fields) end

@@ -5,8 +5,7 @@ InSwimStanceState = {}
 
 ---@param fields? InSwimStanceState
 ---@return InSwimStanceState
-function InSwimStanceState.new(fields) return end
+function InSwimStanceState.new(fields) end
 
----@private
 ---@return gamedataNPCStanceState
-function InSwimStanceState:GetStateToCheck() return end
+function InSwimStanceState:GetStateToCheck() end

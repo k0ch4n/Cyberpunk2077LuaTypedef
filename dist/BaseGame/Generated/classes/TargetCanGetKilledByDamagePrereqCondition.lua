@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class TargetCanGetKilledByDamagePrereqCondition: BaseHitPrereqCondition
----@field private lastTarget gameObject
+---@field lastTarget gameObject
 TargetCanGetKilledByDamagePrereqCondition = {}
 
 ---@param fields? TargetCanGetKilledByDamagePrereqCondition
 ---@return TargetCanGetKilledByDamagePrereqCondition
-function TargetCanGetKilledByDamagePrereqCondition.new(fields) return end
+function TargetCanGetKilledByDamagePrereqCondition.new(fields) end
 
 ---@param hitEvent gameeventsHitEvent
 ---@return Bool
-function TargetCanGetKilledByDamagePrereqCondition:Evaluate(hitEvent) return end
+function TargetCanGetKilledByDamagePrereqCondition:Evaluate(hitEvent) end

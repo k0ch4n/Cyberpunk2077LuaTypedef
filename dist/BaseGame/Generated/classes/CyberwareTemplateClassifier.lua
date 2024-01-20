@@ -5,8 +5,8 @@ CyberwareTemplateClassifier = {}
 
 ---@param fields? CyberwareTemplateClassifier
 ---@return CyberwareTemplateClassifier
-function CyberwareTemplateClassifier.new(fields) return end
+function CyberwareTemplateClassifier.new(fields) end
 
 ---@param data Variant
 ---@return Uint32
-function CyberwareTemplateClassifier:ClassifyItem(data) return end
+function CyberwareTemplateClassifier:ClassifyItem(data) end

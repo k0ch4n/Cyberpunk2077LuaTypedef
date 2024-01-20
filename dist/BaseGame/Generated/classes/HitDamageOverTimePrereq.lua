@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class HitDamageOverTimePrereq: GenericHitPrereq
----@field public dotType gamedataStatusEffectType
+---@field dotType gamedataStatusEffectType
 HitDamageOverTimePrereq = {}
 
 ---@param fields? HitDamageOverTimePrereq
 ---@return HitDamageOverTimePrereq
-function HitDamageOverTimePrereq.new(fields) return end
+function HitDamageOverTimePrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function HitDamageOverTimePrereq:Initialize(recordID) return end
+function HitDamageOverTimePrereq:Initialize(recordID) end

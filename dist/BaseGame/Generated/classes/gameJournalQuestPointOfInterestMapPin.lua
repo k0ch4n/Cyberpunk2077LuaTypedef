@@ -5,4 +5,4 @@ gameJournalQuestPointOfInterestMapPin = {}
 
 ---@param fields? gameJournalQuestPointOfInterestMapPin
 ---@return gameJournalQuestPointOfInterestMapPin
-function gameJournalQuestPointOfInterestMapPin.new(fields) return end
+function gameJournalQuestPointOfInterestMapPin.new(fields) end

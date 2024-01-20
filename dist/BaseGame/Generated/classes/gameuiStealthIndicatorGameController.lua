@@ -1,13 +1,12 @@
 ---@meta
 
 ---@class gameuiStealthIndicatorGameController: gameuiHUDGameController
----@field private rootWidget inkCompoundWidget
+---@field rootWidget inkCompoundWidget
 gameuiStealthIndicatorGameController = {}
 
 ---@param fields? gameuiStealthIndicatorGameController
 ---@return gameuiStealthIndicatorGameController
-function gameuiStealthIndicatorGameController.new(fields) return end
+function gameuiStealthIndicatorGameController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiStealthIndicatorGameController:OnInitialize() return end
+function gameuiStealthIndicatorGameController:OnInitialize() end

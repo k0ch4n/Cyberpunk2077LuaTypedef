@@ -1,41 +1,36 @@
 ---@meta
 
 ---@class NanoTechPlatesEffector: ModifyAttackEffector
----@field private chanceToTrigger Float
----@field private chanceIncrement Float
----@field private nanoPlatesStacks Int32
----@field private timeWindow Float
----@field private minTimeBetweenBlocks Float
----@field private timeStamps Float[]
+---@field chanceToTrigger Float
+---@field chanceIncrement Float
+---@field nanoPlatesStacks Int32
+---@field timeWindow Float
+---@field minTimeBetweenBlocks Float
+---@field timeStamps Float[]
 NanoTechPlatesEffector = {}
 
 ---@param fields? NanoTechPlatesEffector
 ---@return NanoTechPlatesEffector
-function NanoTechPlatesEffector.new(fields) return end
+function NanoTechPlatesEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function NanoTechPlatesEffector:ActionOn(owner) return end
+function NanoTechPlatesEffector:ActionOn(owner) end
 
----@private
 ---@param owner gameObject
 ---@param currentTime Float
 ---@return nil
-function NanoTechPlatesEffector:CleanUpTimeStamps(owner, currentTime) return end
+function NanoTechPlatesEffector:CleanUpTimeStamps(owner, currentTime) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function NanoTechPlatesEffector:Initialize(record, parentRecord) return end
+function NanoTechPlatesEffector:Initialize(record, parentRecord) end
 
----@private
 ---@param owner gameObject
 ---@return nil
-function NanoTechPlatesEffector:ProcessAction(owner) return end
+function NanoTechPlatesEffector:ProcessAction(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function NanoTechPlatesEffector:RepeatedAction(owner) return end
+function NanoTechPlatesEffector:RepeatedAction(owner) end

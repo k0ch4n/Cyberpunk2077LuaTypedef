@@ -5,4 +5,4 @@ scnBluelineSelectedRequest = {}
 
 ---@param fields? scnBluelineSelectedRequest
 ---@return scnBluelineSelectedRequest
-function scnBluelineSelectedRequest.new(fields) return end
+function scnBluelineSelectedRequest.new(fields) end

@@ -1,69 +1,66 @@
 ---@meta
 
 ---@class ItemTooltipStatController: inkWidgetLogicController
----@field protected statName inkTextWidgetReference
----@field protected statValue inkTextWidgetReference
----@field protected statComparedContainer inkWidgetReference
----@field protected statComparedValue inkTextWidgetReference
----@field protected arrow inkImageWidgetReference
----@field private measurementUnit EMeasurementUnit
----@field protected settings userSettingsUserSettings
----@field protected settingsListener ItemTooltipStatSettingsListener
----@field protected groupPath CName
----@field protected bigFontEnabled Bool
----@field protected inCrafting Bool
+---@field statName inkTextWidgetReference
+---@field statValue inkTextWidgetReference
+---@field statComparedContainer inkWidgetReference
+---@field statComparedValue inkTextWidgetReference
+---@field arrow inkImageWidgetReference
+---@field measurementUnit EMeasurementUnit
+---@field settings userSettingsUserSettings
+---@field settingsListener ItemTooltipStatSettingsListener
+---@field groupPath CName
+---@field bigFontEnabled Bool
+---@field inCrafting Bool
 ItemTooltipStatController = {}
 
 ---@param fields? ItemTooltipStatController
 ---@return ItemTooltipStatController
-function ItemTooltipStatController.new(fields) return end
+function ItemTooltipStatController.new(fields) end
 
 ---@param isCrafting Bool
 ---@return nil
-function ItemTooltipStatController:GetContext(isCrafting) return end
+function ItemTooltipStatController:GetContext(isCrafting) end
 
----@protected
 ---@param value Bool
 ---@return nil
-function ItemTooltipStatController:NewSetTooltipSize(value) return end
+function ItemTooltipStatController:NewSetTooltipSize(value) end
 
----@private
 ---@return nil
-function ItemTooltipStatController:NewUpdateTooltipSize() return end
+function ItemTooltipStatController:NewUpdateTooltipSize() end
 
 ---@param groupPath CName|string
 ---@param varName CName|string
 ---@param varType InGameConfigVarType
 ---@param reason InGameConfigChangeReason
 ---@return nil
-function ItemTooltipStatController:OnVarModified(groupPath, varName, varType, reason) return end
+function ItemTooltipStatController:OnVarModified(groupPath, varName, varType, reason) end
 
 ---@param data InventoryTooltipData_StatData
 ---@return nil
-function ItemTooltipStatController:SetData(data) return end
+function ItemTooltipStatController:SetData(data) end
 
 ---@param data MinimalItemTooltipStatData
 ---@param disableComparison? Bool
 ---@return nil
-function ItemTooltipStatController:SetData(data, disableComparison) return end
+function ItemTooltipStatController:SetData(data, disableComparison) end
 
 ---@param data UIInventoryItemStat
 ---@return nil
-function ItemTooltipStatController:SetData(data) return end
+function ItemTooltipStatController:SetData(data) end
 
 ---@param data UIInventoryItemStat
 ---@param comparisonData UIInventoryItemStatComparison
 ---@return nil
-function ItemTooltipStatController:SetData(data, comparisonData) return end
+function ItemTooltipStatController:SetData(data, comparisonData) end
 
 ---@param newState CName|string
 ---@return nil
-function ItemTooltipStatController:SetTextState(newState) return end
+function ItemTooltipStatController:SetTextState(newState) end
 
 ---@return nil
-function ItemTooltipStatController:SetZeroData() return end
+function ItemTooltipStatController:SetZeroData() end
 
----@private
 ---@param diff Int32
 ---@param displayPercent Bool
 ---@param displayPlus Bool
@@ -71,4 +68,4 @@ function ItemTooltipStatController:SetZeroData() return end
 ---@param inSeconds Bool
 ---@param inSpeed Bool
 ---@return nil
-function ItemTooltipStatController:UpdateComparedValue(diff, displayPercent, displayPlus, inMeters, inSeconds, inSpeed) return end
+function ItemTooltipStatController:UpdateComparedValue(diff, displayPercent, displayPlus, inMeters, inSeconds, inSpeed) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questRemoveAllContacts_NodeType: questIPhoneManagerNodeType
----@field public excludedContacts gameJournalPath[]
+---@field excludedContacts gameJournalPath[]
 questRemoveAllContacts_NodeType = {}
 
 ---@param fields? questRemoveAllContacts_NodeType
 ---@return questRemoveAllContacts_NodeType
-function questRemoveAllContacts_NodeType.new(fields) return end
+function questRemoveAllContacts_NodeType.new(fields) end

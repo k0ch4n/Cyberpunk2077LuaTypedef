@@ -5,4 +5,4 @@ gameRemains = {}
 
 ---@param fields? gameRemains
 ---@return gameRemains
-function gameRemains.new(fields) return end
+function gameRemains.new(fields) end

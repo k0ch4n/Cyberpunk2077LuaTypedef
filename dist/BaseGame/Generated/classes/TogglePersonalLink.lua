@@ -1,41 +1,41 @@
 ---@meta
 
 ---@class TogglePersonalLink: ActionBool
----@field public cachedStatus EPersonalLinkConnectionStatus
----@field public shouldSkipMiniGame Bool
+---@field cachedStatus EPersonalLinkConnectionStatus
+---@field shouldSkipMiniGame Bool
 TogglePersonalLink = {}
 
 ---@param fields? TogglePersonalLink
 ---@return TogglePersonalLink
-function TogglePersonalLink.new(fields) return end
+function TogglePersonalLink.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@return Bool
-function TogglePersonalLink.IsAvailable(device) return end
+function TogglePersonalLink.IsAvailable(device) end
 
 ---@param clearance gamedeviceClearance
 ---@return Bool
-function TogglePersonalLink.IsClearanceValid(clearance) return end
+function TogglePersonalLink.IsClearanceValid(clearance) end
 
 ---@param context gameGetActionsContext
 ---@return Bool
-function TogglePersonalLink.IsContextValid(context) return end
+function TogglePersonalLink.IsContextValid(context) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function TogglePersonalLink.IsDefaultConditionMet(device, context) return end
+function TogglePersonalLink.IsDefaultConditionMet(device, context) end
 
 ---@return gamedataChoiceCaptionIconPart_Record
-function TogglePersonalLink:GetInteractionIcon() return end
+function TogglePersonalLink:GetInteractionIcon() end
 
 ---@return String
-function TogglePersonalLink:GetTweakDBChoiceRecord() return end
+function TogglePersonalLink:GetTweakDBChoiceRecord() end
 
 ---@param personalLinkStatus EPersonalLinkConnectionStatus
 ---@param shouldSkipMinigame Bool
 ---@return nil
-function TogglePersonalLink:SetProperties(personalLinkStatus, shouldSkipMinigame) return end
+function TogglePersonalLink:SetProperties(personalLinkStatus, shouldSkipMinigame) end
 
 ---@return Bool
-function TogglePersonalLink:ShouldConnect() return end
+function TogglePersonalLink:ShouldConnect() end

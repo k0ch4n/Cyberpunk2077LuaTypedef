@@ -5,7 +5,7 @@ SecurityAlarmController = {}
 
 ---@param fields? SecurityAlarmController
 ---@return SecurityAlarmController
-function SecurityAlarmController.new(fields) return end
+function SecurityAlarmController.new(fields) end
 
 ---@return SecurityAlarmControllerPS
-function SecurityAlarmController:GetPS() return end
+function SecurityAlarmController:GetPS() end

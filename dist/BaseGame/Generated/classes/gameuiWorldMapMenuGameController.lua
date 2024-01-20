@@ -1,643 +1,558 @@
 ---@meta
 
 ---@class gameuiWorldMapMenuGameController: gameuiMappinsContainerController
----@field public settingsRecordID TweakDBID
----@field public selectedMappin gameuiBaseWorldMapMappinController
----@field public playerOnTop Bool
----@field public entityPreviewLibraryID CName
----@field public entityPreviewSpawnContainer inkCompoundWidgetReference
----@field public floorPlanSpawnContainer inkCompoundWidgetReference
----@field public compassWidget inkWidgetReference
----@field public districtsContainer inkCompoundWidgetReference
----@field public subdistrictsContainer inkCompoundWidgetReference
----@field public mappinOutlinesContainer inkCompoundWidgetReference
----@field public groupOutlinesContainer inkCompoundWidgetReference
----@field public tooltipContainer inkCompoundWidgetReference
----@field public tooltipOffset inkMargin
----@field public tooltipDistrictOffset inkMargin
----@field public districtView gameuiEWorldMapDistrictView
----@field public hoveredDistrict gamedataDistrict
----@field public hoveredSubDistrict gamedataDistrict
----@field public selectedDistrict gamedataDistrict
----@field public canChangeCustomFilter Bool
----@field public isZoomToMappinEnabled Bool
----@field private preloaderWidget inkWidgetReference
----@field private gameTimeText inkTextWidgetReference
----@field private fastTravelInstructions inkWidgetReference
----@field private filterSelector inkWidgetReference
----@field private filterSelectorWarning inkWidgetReference
----@field private filterText inkTextWidgetReference
----@field private districtIconImageContainer inkWidgetReference
----@field private districtIconImage inkImageWidgetReference
----@field private districtNameText inkTextWidgetReference
----@field private subdistrictNameText inkTextWidgetReference
----@field private locationAndGangsContainer inkWidgetReference
----@field private gangsInfoContainer inkWidgetReference
----@field private gangsList inkCompoundWidgetReference
----@field private questContainer inkWidgetReference
----@field private questName inkTextWidgetReference
----@field private openInJournalButton inkWidgetReference
----@field private objectiveName inkTextWidgetReference
----@field private objectiveBackground inkWidgetReference
----@field private objectiveFrame inkWidgetReference
----@field private topShadow inkWidgetReference
----@field private rightAxisZoomThreshold Float
----@field private customFilters inkWidgetReference
----@field private filtersList inkVerticalPanelWidgetReference
----@field private filterLeftArrow inkWidgetReference
----@field private filterRightArrow inkWidgetReference
----@field private quickFilterIndicators inkWidgetReference[]
----@field private customFiltersListAnimationDelay Float
----@field private cameraMode gameuiEWorldMapCameraMode
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private tooltipController WorldMapTooltipContainer
----@field private gameTimeTextParams textTextParameterSet
----@field private previousHoveredDistrict gamedataDistrict
----@field private currentHoveredDistrict gamedataDistrict
----@field private showedSubdistrictGangs Bool
----@field private player gameObject
----@field private audioSystem gameGameAudioSystem
----@field private journalManager gameJournalManager
----@field private mappinSystem gamemappinsMappinSystem
----@field private mapBlackboard gameIBlackboard
----@field private mapDefinition UI_MapDef
----@field private trackedObjective gameJournalQuestObjectiveBase
----@field private trackedQuest gameJournalQuest
----@field private mappinsPositions Vector3[]
----@field private lastRightAxisYAmount Float
----@field private justOpenedQuestJournal Bool
----@field public initMappinFocus MapMenuUserData
----@field private currentQuickFilterIndex Int32
----@field private currentCustomFilterIndex Int32
----@field private spawnedCustomFilterIndex Int32
----@field private gangsAsyncSpawnRequests inkAsyncSpawnRequest[]
----@field private customFiltersList WorldMapFiltersListItem[]
----@field private animationProxy inkanimProxy
----@field private entityAttached Bool
----@field private readyToZoom Bool
----@field private isHoveringOverFilters Bool
----@field private isPanning Bool
----@field private isZooming Bool
----@field private pressedRMB Bool
----@field private startedFastTraveling Bool
+---@field settingsRecordID TweakDBID
+---@field selectedMappin gameuiBaseWorldMapMappinController
+---@field playerOnTop Bool
+---@field entityPreviewLibraryID CName
+---@field entityPreviewSpawnContainer inkCompoundWidgetReference
+---@field floorPlanSpawnContainer inkCompoundWidgetReference
+---@field compassWidget inkWidgetReference
+---@field districtsContainer inkCompoundWidgetReference
+---@field subdistrictsContainer inkCompoundWidgetReference
+---@field mappinOutlinesContainer inkCompoundWidgetReference
+---@field groupOutlinesContainer inkCompoundWidgetReference
+---@field tooltipContainer inkCompoundWidgetReference
+---@field tooltipOffset inkMargin
+---@field tooltipDistrictOffset inkMargin
+---@field districtView gameuiEWorldMapDistrictView
+---@field hoveredDistrict gamedataDistrict
+---@field hoveredSubDistrict gamedataDistrict
+---@field selectedDistrict gamedataDistrict
+---@field canChangeCustomFilter Bool
+---@field isZoomToMappinEnabled Bool
+---@field preloaderWidget inkWidgetReference
+---@field gameTimeText inkTextWidgetReference
+---@field fastTravelInstructions inkWidgetReference
+---@field filterSelector inkWidgetReference
+---@field filterSelectorWarning inkWidgetReference
+---@field filterText inkTextWidgetReference
+---@field districtIconImageContainer inkWidgetReference
+---@field districtIconImage inkImageWidgetReference
+---@field districtNameText inkTextWidgetReference
+---@field subdistrictNameText inkTextWidgetReference
+---@field locationAndGangsContainer inkWidgetReference
+---@field gangsInfoContainer inkWidgetReference
+---@field gangsList inkCompoundWidgetReference
+---@field questContainer inkWidgetReference
+---@field questName inkTextWidgetReference
+---@field openInJournalButton inkWidgetReference
+---@field objectiveName inkTextWidgetReference
+---@field objectiveBackground inkWidgetReference
+---@field objectiveFrame inkWidgetReference
+---@field topShadow inkWidgetReference
+---@field rightAxisZoomThreshold Float
+---@field customFilters inkWidgetReference
+---@field filtersList inkVerticalPanelWidgetReference
+---@field filterLeftArrow inkWidgetReference
+---@field filterRightArrow inkWidgetReference
+---@field quickFilterIndicators inkWidgetReference[]
+---@field customFiltersListAnimationDelay Float
+---@field cameraMode gameuiEWorldMapCameraMode
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field tooltipController WorldMapTooltipContainer
+---@field gameTimeTextParams textTextParameterSet
+---@field previousHoveredDistrict gamedataDistrict
+---@field currentHoveredDistrict gamedataDistrict
+---@field showedSubdistrictGangs Bool
+---@field player gameObject
+---@field audioSystem gameGameAudioSystem
+---@field journalManager gameJournalManager
+---@field mappinSystem gamemappinsMappinSystem
+---@field mapBlackboard gameIBlackboard
+---@field mapDefinition UI_MapDef
+---@field trackedObjective gameJournalQuestObjectiveBase
+---@field trackedQuest gameJournalQuest
+---@field mappinsPositions Vector3[]
+---@field lastRightAxisYAmount Float
+---@field justOpenedQuestJournal Bool
+---@field initMappinFocus MapMenuUserData
+---@field currentQuickFilterIndex Int32
+---@field currentCustomFilterIndex Int32
+---@field spawnedCustomFilterIndex Int32
+---@field gangsAsyncSpawnRequests inkAsyncSpawnRequest[]
+---@field customFiltersList WorldMapFiltersListItem[]
+---@field animationProxy inkanimProxy
+---@field entityAttached Bool
+---@field readyToZoom Bool
+---@field isHoveringOverFilters Bool
+---@field isPanning Bool
+---@field isZooming Bool
+---@field pressedRMB Bool
+---@field startedFastTraveling Bool
 gameuiWorldMapMenuGameController = {}
 
 ---@param fields? gameuiWorldMapMenuGameController
 ---@return gameuiWorldMapMenuGameController
-function gameuiWorldMapMenuGameController.new(fields) return end
+function gameuiWorldMapMenuGameController.new(fields) end
 
 ---@return Bool
-function gameuiWorldMapMenuGameController:AreDistrictsVisible() return end
+function gameuiWorldMapMenuGameController:AreDistrictsVisible() end
 
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanDebugTeleport() return end
+function gameuiWorldMapMenuGameController:CanDebugTeleport() end
 
 ---@param filter gamedataWorldMapFilter
 ---@return nil
-function gameuiWorldMapMenuGameController:ClearCustomFilter(filter) return end
+function gameuiWorldMapMenuGameController:ClearCustomFilter(filter) end
 
 ---@param hash Uint32
 ---@param transitionTime Float
 ---@param margin? inkMargin
 ---@return nil
-function gameuiWorldMapMenuGameController:FrameMappinPath(hash, transitionTime, margin) return end
+function gameuiWorldMapMenuGameController:FrameMappinPath(hash, transitionTime, margin) end
 
 ---@return Float
-function gameuiWorldMapMenuGameController:GetCurrentZoom() return end
+function gameuiWorldMapMenuGameController:GetCurrentZoom() end
 
 ---@return Uint32
-function gameuiWorldMapMenuGameController:GetCustomFilters() return end
+function gameuiWorldMapMenuGameController:GetCustomFilters() end
 
 ---@return gameuiWorldMapPreviewGameController
-function gameuiWorldMapMenuGameController:GetEntityPreview() return end
+function gameuiWorldMapMenuGameController:GetEntityPreview() end
 
 ---@return gamedataWorldMapFilter
-function gameuiWorldMapMenuGameController:GetQuickFilter() return end
+function gameuiWorldMapMenuGameController:GetQuickFilter() end
 
 ---@return gamedataWorldMapSettings_Record
-function gameuiWorldMapMenuGameController:GetSettings() return end
+function gameuiWorldMapMenuGameController:GetSettings() end
 
 ---@param filter gamedataWorldMapFilter
 ---@return Bool
-function gameuiWorldMapMenuGameController:HasCustomFilter(filter) return end
+function gameuiWorldMapMenuGameController:HasCustomFilter(filter) end
 
 ---@return Bool
-function gameuiWorldMapMenuGameController:IsEntityAttachedAndSetup() return end
+function gameuiWorldMapMenuGameController:IsEntityAttachedAndSetup() end
 
 ---@return Bool
-function gameuiWorldMapMenuGameController:IsEntitySetup() return end
+function gameuiWorldMapMenuGameController:IsEntitySetup() end
 
 ---@return nil
-function gameuiWorldMapMenuGameController:MoveToPlayer() return end
+function gameuiWorldMapMenuGameController:MoveToPlayer() end
 
 ---@return nil
-function gameuiWorldMapMenuGameController:SaveFilters() return end
+function gameuiWorldMapMenuGameController:SaveFilters() end
 
 ---@param filter gamedataWorldMapFilter
 ---@return nil
-function gameuiWorldMapMenuGameController:SetCustomFilter(filter) return end
+function gameuiWorldMapMenuGameController:SetCustomFilter(filter) end
 
 ---@return nil
-function gameuiWorldMapMenuGameController:SetFloorPlanVisible() return end
+function gameuiWorldMapMenuGameController:SetFloorPlanVisible() end
 
 ---@param enabled Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:SetMapCursorEnabled(enabled) return end
+function gameuiWorldMapMenuGameController:SetMapCursorEnabled(enabled) end
 
 ---@param mappinController gameuiBaseWorldMapMappinController
 ---@return nil
-function gameuiWorldMapMenuGameController:SetMappinVisited(mappinController) return end
+function gameuiWorldMapMenuGameController:SetMappinVisited(mappinController) end
 
 ---@param enabled Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:SetMousePanEnabled(enabled) return end
+function gameuiWorldMapMenuGameController:SetMousePanEnabled(enabled) end
 
 ---@param enabled Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:SetMouseRotateEnabled(enabled) return end
+function gameuiWorldMapMenuGameController:SetMouseRotateEnabled(enabled) end
 
 ---@param filter gamedataWorldMapFilter
 ---@return nil
-function gameuiWorldMapMenuGameController:SetQuickFilter(filter) return end
+function gameuiWorldMapMenuGameController:SetQuickFilter(filter) end
 
 ---@param filterGroup gamedataMappinUIFilterGroup_Record
 ---@return nil
-function gameuiWorldMapMenuGameController:SetQuickFilterFromRecord(filterGroup) return end
+function gameuiWorldMapMenuGameController:SetQuickFilterFromRecord(filterGroup) end
 
 ---@param mappinController gameuiBaseWorldMapMappinController
 ---@return nil
-function gameuiWorldMapMenuGameController:SetSelectedMappin(mappinController) return end
+function gameuiWorldMapMenuGameController:SetSelectedMappin(mappinController) end
 
 ---@return nil
-function gameuiWorldMapMenuGameController:TrackCustomPositionMappin() return end
+function gameuiWorldMapMenuGameController:TrackCustomPositionMappin() end
 
 ---@param mappinController gameuiMappinBaseController
 ---@return nil
-function gameuiWorldMapMenuGameController:TrackMappin(mappinController) return end
+function gameuiWorldMapMenuGameController:TrackMappin(mappinController) end
 
 ---@return nil
-function gameuiWorldMapMenuGameController:UntrackCustomPositionMappin() return end
+function gameuiWorldMapMenuGameController:UntrackCustomPositionMappin() end
 
 ---@return nil
-function gameuiWorldMapMenuGameController:UntrackMappin() return end
+function gameuiWorldMapMenuGameController:UntrackMappin() end
 
 ---@param mappinController gameuiBaseWorldMapMappinController
 ---@return nil
-function gameuiWorldMapMenuGameController:ZoomToMappin(mappinController) return end
+function gameuiWorldMapMenuGameController:ZoomToMappin(mappinController) end
 
 ---@param zoomIn Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:ZoomWithMouse(zoomIn) return end
+function gameuiWorldMapMenuGameController:ZoomWithMouse(zoomIn) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnAxisInput(e) return end
+function gameuiWorldMapMenuGameController:OnAxisInput(e) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnBack(userData) return end
+function gameuiWorldMapMenuGameController:OnBack(userData) end
 
----@protected
 ---@param flag Bool
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnCanChangeCustomFilterChanged(flag) return end
+function gameuiWorldMapMenuGameController:OnCanChangeCustomFilterChanged(flag) end
 
----@protected
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnCustomFilterChanged() return end
+function gameuiWorldMapMenuGameController:OnCustomFilterChanged() end
 
----@protected
 ---@param oldView gameuiEWorldMapDistrictView
 ---@param newView gameuiEWorldMapDistrictView
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnDistrictViewChanged(oldView, newView) return end
+function gameuiWorldMapMenuGameController:OnDistrictViewChanged(oldView, newView) end
 
----@protected
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnEntityAttached() return end
+function gameuiWorldMapMenuGameController:OnEntityAttached() end
 
----@protected
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnEntityDetached() return end
+function gameuiWorldMapMenuGameController:OnEntityDetached() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnFilterArrowHoverOut(e) return end
+function gameuiWorldMapMenuGameController:OnFilterArrowHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnFilterArrowHoverOver(e) return end
+function gameuiWorldMapMenuGameController:OnFilterArrowHoverOver(e) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnFilterLeftArrowClicked(evt) return end
+function gameuiWorldMapMenuGameController:OnFilterLeftArrowClicked(evt) end
 
----@protected
 ---@param filterWidget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnFilterListItemSpawned(filterWidget, userData) return end
+function gameuiWorldMapMenuGameController:OnFilterListItemSpawned(filterWidget, userData) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnFilterRightArrowClicked(evt) return end
+function gameuiWorldMapMenuGameController:OnFilterRightArrowClicked(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnFilterSwitched(evt) return end
+function gameuiWorldMapMenuGameController:OnFilterSwitched(evt) end
 
----@protected
 ---@param gangWidget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnGangListItemSpawned(gangWidget, userData) return end
+function gameuiWorldMapMenuGameController:OnGangListItemSpawned(gangWidget, userData) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnHoldInput(e) return end
+function gameuiWorldMapMenuGameController:OnHoldInput(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnHoverOutMappin(e) return end
+function gameuiWorldMapMenuGameController:OnHoverOutMappin(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnHoverOverMappin(e) return end
+function gameuiWorldMapMenuGameController:OnHoverOverMappin(e) end
 
----@protected
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnInitialize() return end
+function gameuiWorldMapMenuGameController:OnInitialize() end
 
----@protected
 ---@param evt MapNavigationDelay
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnMapNavigationDelay(evt) return end
+function gameuiWorldMapMenuGameController:OnMapNavigationDelay(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnPressInput(e) return end
+function gameuiWorldMapMenuGameController:OnPressInput(e) end
 
----@protected
 ---@param filterGroup gamedataMappinUIFilterGroup_Record
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnQuickFilterChanged(filterGroup) return end
+function gameuiWorldMapMenuGameController:OnQuickFilterChanged(filterGroup) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnReleaseInput(e) return end
+function gameuiWorldMapMenuGameController:OnReleaseInput(e) end
 
----@protected
 ---@param widget inkWidget
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnRemovePreloader(widget) return end
+function gameuiWorldMapMenuGameController:OnRemovePreloader(widget) end
 
----@protected
 ---@param oldController gameuiBaseWorldMapMappinController
 ---@param newController gameuiBaseWorldMapMappinController
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnSelectedMappinChanged(oldController, newController) return end
+function gameuiWorldMapMenuGameController:OnSelectedMappinChanged(oldController, newController) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function gameuiWorldMapMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@param userData IScriptable
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnSetUserData(userData) return end
+function gameuiWorldMapMenuGameController:OnSetUserData(userData) end
 
----@protected
 ---@param eventData SetZoomLevelEvent
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnSetZoomLevelEvent(eventData) return end
+function gameuiWorldMapMenuGameController:OnSetZoomLevelEvent(eventData) end
 
----@protected
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnShowSpinner() return end
+function gameuiWorldMapMenuGameController:OnShowSpinner() end
 
----@protected
 ---@param hash Uint32
 ---@param className CName|string
 ---@param notifyOption gameJournalNotifyOption
 ---@param changeType gameJournalChangeType
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) return end
+function gameuiWorldMapMenuGameController:OnTrackedEntryChanges(hash, className, notifyOption, changeType) end
 
----@protected
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnUninitialize() return end
+function gameuiWorldMapMenuGameController:OnUninitialize() end
 
----@protected
 ---@param district gamedataDistrict
 ---@param subdistrict gamedataDistrict
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnUpdateHoveredDistricts(district, subdistrict) return end
+function gameuiWorldMapMenuGameController:OnUpdateHoveredDistricts(district, subdistrict) end
 
----@protected
 ---@param oldLevel Int32
 ---@param newLevel Int32
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnZoomLevelChanged(oldLevel, newLevel) return end
+function gameuiWorldMapMenuGameController:OnZoomLevelChanged(oldLevel, newLevel) end
 
----@protected
 ---@param flag Bool
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnZoomToMappinEnabledChanged(flag) return end
+function gameuiWorldMapMenuGameController:OnZoomToMappinEnabledChanged(flag) end
 
----@protected
 ---@return Bool
-function gameuiWorldMapMenuGameController:OnZoomTransitionFinished() return end
+function gameuiWorldMapMenuGameController:OnZoomTransitionFinished() end
 
----@protected
 ---@param show Bool
 ---@param action CName|string
 ---@param locKey String
 ---@return nil, gameuiUpdateInputHintMultipleEvent evt, Int32 priority
-function gameuiWorldMapMenuGameController:AddInputHintUpdate(show, action, locKey) return end
+function gameuiWorldMapMenuGameController:AddInputHintUpdate(show, action, locKey) end
 
----@private
 ---@param mappin gamemappinsIMappin
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanOpenCodexPopup(mappin) return end
+function gameuiWorldMapMenuGameController:CanOpenCodexPopup(mappin) end
 
----@private
 ---@param mappin gamemappinsIMappin
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanOpenJournalForMappin(mappin) return end
+function gameuiWorldMapMenuGameController:CanOpenJournalForMappin(mappin) end
 
 ---@param controller gameuiBaseWorldMapMappinController
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanPlayerTrackMappin(controller) return end
+function gameuiWorldMapMenuGameController:CanPlayerTrackMappin(controller) end
 
 ---@param mappin gamemappinsIMappin
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanPlayerTrackMappin(mappin) return end
+function gameuiWorldMapMenuGameController:CanPlayerTrackMappin(mappin) end
 
 ---@param controller gameuiBaseWorldMapMappinController
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanQuestTrackMappin(controller) return end
+function gameuiWorldMapMenuGameController:CanQuestTrackMappin(controller) end
 
 ---@param mappin gamemappinsIMappin
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanQuestTrackMappin(mappin) return end
+function gameuiWorldMapMenuGameController:CanQuestTrackMappin(mappin) end
 
 ---@param controller gameuiBaseWorldMapMappinController
 ---@return Bool
-function gameuiWorldMapMenuGameController:CanZoomToMappin(controller) return end
+function gameuiWorldMapMenuGameController:CanZoomToMappin(controller) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:ClearAllAsyncSpawnRequests() return end
+function gameuiWorldMapMenuGameController:ClearAllAsyncSpawnRequests() end
 
 ---@param mappin gamemappinsIMappin
 ---@param mappinVariant gamedataMappinVariant
 ---@param customData gameuiMappinControllerCustomData
 ---@return gameuiMappinUIProfile
-function gameuiWorldMapMenuGameController:CreateMappinUIProfile(mappin, mappinVariant, customData) return end
+function gameuiWorldMapMenuGameController:CreateMappinUIProfile(mappin, mappinVariant, customData) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:CycleQuickFilterNext() return end
+function gameuiWorldMapMenuGameController:CycleQuickFilterNext() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:CycleQuickFilterPrev() return end
+function gameuiWorldMapMenuGameController:CycleQuickFilterPrev() end
 
----@private
 ---@param cycleNext Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:CycleWorldMapFilter(cycleNext) return end
+function gameuiWorldMapMenuGameController:CycleWorldMapFilter(cycleNext) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:DEBUG_Teleport() return end
+function gameuiWorldMapMenuGameController:DEBUG_Teleport() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:FastTravel() return end
+function gameuiWorldMapMenuGameController:FastTravel() end
 
----@private
 ---@param mappin gamemappinsIMappin
 ---@return gameJournalEntry
-function gameuiWorldMapMenuGameController:GetCodexEntryForMappin(mappin) return end
+function gameuiWorldMapMenuGameController:GetCodexEntryForMappin(mappin) end
 
----@private
 ---@param view gameuiEWorldMapDistrictView
 ---@param show Bool
 ---@return CName
-function gameuiWorldMapMenuGameController:GetDistrictAnimation(view, show) return end
+function gameuiWorldMapMenuGameController:GetDistrictAnimation(view, show) end
 
----@private
 ---@return FastTravelSystem
-function gameuiWorldMapMenuGameController:GetFastTravelSystem() return end
+function gameuiWorldMapMenuGameController:GetFastTravelSystem() end
 
 ---@return gameJournalManager
-function gameuiWorldMapMenuGameController:GetJournalManager() return end
+function gameuiWorldMapMenuGameController:GetJournalManager() end
 
----@private
 ---@param mappin gamemappinsIMappin
 ---@return gameJournalEntry
-function gameuiWorldMapMenuGameController:GetMappinJournalEntry(mappin) return end
+function gameuiWorldMapMenuGameController:GetMappinJournalEntry(mappin) end
 
----@private
 ---@param mappin gamemappinsIMappin
 ---@return Uint32
-function gameuiWorldMapMenuGameController:GetMappinJournalPathHash(mappin) return end
-
----@private
----@return gameObject
-function gameuiWorldMapMenuGameController:GetOwner() return end
+function gameuiWorldMapMenuGameController:GetMappinJournalPathHash(mappin) end
 
 ---@return gameObject
-function gameuiWorldMapMenuGameController:GetPlayer() return end
+function gameuiWorldMapMenuGameController:GetOwner() end
 
----@private
+---@return gameObject
+function gameuiWorldMapMenuGameController:GetPlayer() end
+
 ---@param mappinVariant gamedataMappinVariant
 ---@return WorldMapTooltipType
-function gameuiWorldMapMenuGameController:GetTooltipType(mappinVariant) return end
+function gameuiWorldMapMenuGameController:GetTooltipType(mappinVariant) end
 
----@private
 ---@return Int32
-function gameuiWorldMapMenuGameController:GetTotalZoomLevels() return end
+function gameuiWorldMapMenuGameController:GetTotalZoomLevels() end
 
----@private
 ---@param e inkPointerEvent
 ---@return nil
-function gameuiWorldMapMenuGameController:HandleAxisInput(e) return end
+function gameuiWorldMapMenuGameController:HandleAxisInput(e) end
 
----@private
 ---@param e inkPointerEvent
 ---@return nil
-function gameuiWorldMapMenuGameController:HandleHoldInput(e) return end
+function gameuiWorldMapMenuGameController:HandleHoldInput(e) end
 
----@private
 ---@param e inkPointerEvent
 ---@return nil
-function gameuiWorldMapMenuGameController:HandlePressInput(e) return end
+function gameuiWorldMapMenuGameController:HandlePressInput(e) end
 
----@private
 ---@param e inkPointerEvent
 ---@return nil
-function gameuiWorldMapMenuGameController:HandleReleaseInput(e) return end
+function gameuiWorldMapMenuGameController:HandleReleaseInput(e) end
 
----@private
 ---@return Bool
-function gameuiWorldMapMenuGameController:HasSelectedMappin() return end
+function gameuiWorldMapMenuGameController:HasSelectedMappin() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:HideAllTooltips() return end
+function gameuiWorldMapMenuGameController:HideAllTooltips() end
 
----@private
 ---@param controller gameuiBaseWorldMapMappinController
 ---@return nil
-function gameuiWorldMapMenuGameController:HideMappinTooltip(controller) return end
+function gameuiWorldMapMenuGameController:HideMappinTooltip(controller) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:InitializeCustomFiltersList() return end
+function gameuiWorldMapMenuGameController:InitializeCustomFiltersList() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:InitializeQuickFiltersList() return end
+function gameuiWorldMapMenuGameController:InitializeQuickFiltersList() end
 
 ---@return Bool
-function gameuiWorldMapMenuGameController:IsFastTravelEnabled() return end
+function gameuiWorldMapMenuGameController:IsFastTravelEnabled() end
 
 ---@param controller gameuiBaseWorldMapMappinController
 ---@return Bool
-function gameuiWorldMapMenuGameController:IsMappinQuestTracked(controller) return end
+function gameuiWorldMapMenuGameController:IsMappinQuestTracked(controller) end
 
 ---@param mappin gamemappinsIMappin
 ---@return Bool
-function gameuiWorldMapMenuGameController:IsMappinQuestTracked(mappin) return end
+function gameuiWorldMapMenuGameController:IsMappinQuestTracked(mappin) end
 
----@private
 ---@param mappinVariant gamedataMappinVariant
 ---@return Bool
-function gameuiWorldMapMenuGameController:IsPoliceTooltip(mappinVariant) return end
+function gameuiWorldMapMenuGameController:IsPoliceTooltip(mappinVariant) end
 
----@private
 ---@param option ECustomFilterDPadNavigationOption
 ---@return nil
-function gameuiWorldMapMenuGameController:NavigateCustomFilters(option) return end
+function gameuiWorldMapMenuGameController:NavigateCustomFilters(option) end
 
----@private
 ---@param jurnalEntry gameJournalEntry
 ---@return nil
-function gameuiWorldMapMenuGameController:OpenCodexPopup(jurnalEntry) return end
+function gameuiWorldMapMenuGameController:OpenCodexPopup(jurnalEntry) end
 
----@private
 ---@param questEntry gameJournalEntry
 ---@return nil
-function gameuiWorldMapMenuGameController:OpenQuestInJournal(questEntry) return end
+function gameuiWorldMapMenuGameController:OpenQuestInJournal(questEntry) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:OpenSelectedQuest() return end
+function gameuiWorldMapMenuGameController:OpenSelectedQuest() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:OpenTrackedQuest() return end
+function gameuiWorldMapMenuGameController:OpenTrackedQuest() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:PlayCustomFiltersAnimations() return end
+function gameuiWorldMapMenuGameController:PlayCustomFiltersAnimations() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:PrepFastTravel() return end
+function gameuiWorldMapMenuGameController:PrepFastTravel() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:RefreshInputHints() return end
+function gameuiWorldMapMenuGameController:RefreshInputHints() end
 
----@private
 ---@param visible Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:SetMappinIconsVisible(visible) return end
+function gameuiWorldMapMenuGameController:SetMappinIconsVisible(visible) end
 
----@private
 ---@param index Int32
 ---@return nil
-function gameuiWorldMapMenuGameController:SetQuickFilterIndicator(index) return end
+function gameuiWorldMapMenuGameController:SetQuickFilterIndicator(index) end
 
----@private
 ---@param mappinVariant gamedataMappinVariant
 ---@return Bool
-function gameuiWorldMapMenuGameController:ShouldDisplayInHud(mappinVariant) return end
+function gameuiWorldMapMenuGameController:ShouldDisplayInHud(mappinVariant) end
 
----@private
 ---@param district gamedataDistrict
 ---@param sub gamedataDistrict
 ---@return nil
-function gameuiWorldMapMenuGameController:ShowGangsInfo(district, sub) return end
+function gameuiWorldMapMenuGameController:ShowGangsInfo(district, sub) end
 
----@private
 ---@param controller gameuiBaseWorldMapMappinController
 ---@return nil
-function gameuiWorldMapMenuGameController:ShowMappinTooltip(controller) return end
+function gameuiWorldMapMenuGameController:ShowMappinTooltip(controller) end
 
----@private
 ---@param toggle Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:ToggleQuickFilterIndicatorsVsibility(toggle) return end
+function gameuiWorldMapMenuGameController:ToggleQuickFilterIndicatorsVsibility(toggle) end
 
----@private
 ---@param controller gameuiMappinBaseController
 ---@return nil
-function gameuiWorldMapMenuGameController:TrackQuestMappin(controller) return end
+function gameuiWorldMapMenuGameController:TrackQuestMappin(controller) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:TryFastTravel() return end
+function gameuiWorldMapMenuGameController:TryFastTravel() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:TryTrackQuestOrSetWaypoint() return end
+function gameuiWorldMapMenuGameController:TryTrackQuestOrSetWaypoint() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:UninitializeCustomFiltersList() return end
+function gameuiWorldMapMenuGameController:UninitializeCustomFiltersList() end
 
----@private
 ---@param filter gamedataWorldMapFilter
 ---@param enable Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:UpdateCustomFilter(filter, enable) return end
+function gameuiWorldMapMenuGameController:UpdateCustomFilter(filter, enable) end
 
----@private
 ---@param fastTravelEnabled Bool
 ---@return nil
-function gameuiWorldMapMenuGameController:UpdateFastTravelVisiblity(fastTravelEnabled) return end
+function gameuiWorldMapMenuGameController:UpdateFastTravelVisiblity(fastTravelEnabled) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:UpdateGameTime() return end
+function gameuiWorldMapMenuGameController:UpdateGameTime() end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:UpdateSelectedMappinTooltip() return end
+function gameuiWorldMapMenuGameController:UpdateSelectedMappinTooltip() end
 
----@private
 ---@param tooltipType WorldMapTooltipType
 ---@param controller gameuiBaseWorldMapMappinController
 ---@return nil
-function gameuiWorldMapMenuGameController:UpdateTooltip(tooltipType, controller) return end
+function gameuiWorldMapMenuGameController:UpdateTooltip(tooltipType, controller) end
 
----@private
 ---@return nil
-function gameuiWorldMapMenuGameController:UpdateTrackedQuest() return end
+function gameuiWorldMapMenuGameController:UpdateTrackedQuest() end

@@ -5,18 +5,17 @@ MeleeJumpAttackEvents = {}
 
 ---@param fields? MeleeJumpAttackEvents
 ---@return MeleeJumpAttackEvents
-function MeleeJumpAttackEvents.new(fields) return end
+function MeleeJumpAttackEvents.new(fields) end
 
----@protected
 ---@return EMeleeAttackType
-function MeleeJumpAttackEvents:GetAttackType() return end
+function MeleeJumpAttackEvents:GetAttackType() end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeJumpAttackEvents:OnEnter(stateContext, scriptInterface) return end
+function MeleeJumpAttackEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function MeleeJumpAttackEvents:OnExit(stateContext, scriptInterface) return end
+function MeleeJumpAttackEvents:OnExit(stateContext, scriptInterface) end

@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class CSkinProfile: CResource
----@field public blurSize Float
----@field public diffuse Color
----@field public falloff Color
----@field public roughness0 Float
----@field public roughness1 Float
----@field public lobeMix Float
+---@field blurSize Float
+---@field diffuse Color
+---@field falloff Color
+---@field roughness0 Float
+---@field roughness1 Float
+---@field lobeMix Float
 CSkinProfile = {}
 
 ---@param fields? CSkinProfile
 ---@return CSkinProfile
-function CSkinProfile.new(fields) return end
+function CSkinProfile.new(fields) end

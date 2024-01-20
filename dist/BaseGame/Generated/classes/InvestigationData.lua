@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class InvestigationData
----@field public globalNodeRef worldGlobalNodeRef
----@field public investigationPositionsArray Vector4[]
+---@field globalNodeRef worldGlobalNodeRef
+---@field investigationPositionsArray Vector4[]
 InvestigationData = {}
 
 ---@param fields? InvestigationData
 ---@return InvestigationData
-function InvestigationData.new(fields) return end
+function InvestigationData.new(fields) end

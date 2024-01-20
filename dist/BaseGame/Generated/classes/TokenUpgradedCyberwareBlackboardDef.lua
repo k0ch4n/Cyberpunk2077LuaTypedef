@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class TokenUpgradedCyberwareBlackboardDef: gamebbScriptDefinition
----@field public CyberwareTypes gamebbScriptID_Variant
+---@field CyberwareTypes gamebbScriptID_Variant
 TokenUpgradedCyberwareBlackboardDef = {}
 
 ---@param fields? TokenUpgradedCyberwareBlackboardDef
 ---@return TokenUpgradedCyberwareBlackboardDef
-function TokenUpgradedCyberwareBlackboardDef.new(fields) return end
+function TokenUpgradedCyberwareBlackboardDef.new(fields) end
 
 ---@return Bool
-function TokenUpgradedCyberwareBlackboardDef:AutoCreateInSystem() return end
+function TokenUpgradedCyberwareBlackboardDef:AutoCreateInSystem() end

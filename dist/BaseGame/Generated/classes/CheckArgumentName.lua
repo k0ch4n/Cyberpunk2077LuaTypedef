@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class CheckArgumentName: CheckArguments
----@field public customVar CName
+---@field customVar CName
 CheckArgumentName = {}
 
 ---@param fields? CheckArgumentName
 ---@return CheckArgumentName
-function CheckArgumentName.new(fields) return end
+function CheckArgumentName.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CheckArgumentName:Check(context) return end
+function CheckArgumentName:Check(context) end

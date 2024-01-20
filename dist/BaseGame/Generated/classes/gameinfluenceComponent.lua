@@ -1,27 +1,27 @@
 ---@meta
 
 ---@class gameinfluenceComponent: entIPlacedComponent
----@field public isEnabled Bool
+---@field isEnabled Bool
 gameinfluenceComponent = {}
 
 ---@param fields? gameinfluenceComponent
 ---@return gameinfluenceComponent
-function gameinfluenceComponent.new(fields) return end
+function gameinfluenceComponent.new(fields) end
 
 ---@param startPoint Vector4
 ---@param endPoint Vector4
 ---@param ignoredObject? gameObject
 ---@return gameinfluenceTestLineResult
-function gameinfluenceComponent:IsLineEmpty(startPoint, endPoint, ignoredObject) return end
+function gameinfluenceComponent:IsLineEmpty(startPoint, endPoint, ignoredObject) end
 
 ---@param startPoint Vector4
 ---@param ignoredObject? gameObject
 ---@return gameinfluenceCollisionTestOutcome
-function gameinfluenceComponent:IsPositionEmpty(startPoint, ignoredObject) return end
+function gameinfluenceComponent:IsPositionEmpty(startPoint, ignoredObject) end
 
 ---@return nil
-function gameinfluenceComponent:PerformVehicleDepenetration() return end
+function gameinfluenceComponent:PerformVehicleDepenetration() end
 
 ---@param radius Float
 ---@return nil
-function gameinfluenceComponent:SetReservationRadius(radius) return end
+function gameinfluenceComponent:SetReservationRadius(radius) end

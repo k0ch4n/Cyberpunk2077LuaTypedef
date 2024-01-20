@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class gameHitShapeBVH
----@field public nodeName CName
----@field public childrenNodes gameHitShapeBVH[]
----@field public childrenShapeNames CName[]
+---@field nodeName CName
+---@field childrenNodes gameHitShapeBVH[]
+---@field childrenShapeNames CName[]
 gameHitShapeBVH = {}
 
 ---@param fields? gameHitShapeBVH
 ---@return gameHitShapeBVH
-function gameHitShapeBVH.new(fields) return end
+function gameHitShapeBVH.new(fields) end

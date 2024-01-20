@@ -5,9 +5,9 @@ inkShapeWidgetReference = {}
 
 ---@param fields? inkShapeWidgetReference
 ---@return inkShapeWidgetReference
-function inkShapeWidgetReference.new(fields) return end
+function inkShapeWidgetReference.new(fields) end
 
 ---@param self inkShapeWidgetReference
 ---@param shapeName CName|string
 ---@return nil
-function inkShapeWidgetReference.ChangeShape(self, shapeName) return end
+function inkShapeWidgetReference.ChangeShape(self, shapeName) end

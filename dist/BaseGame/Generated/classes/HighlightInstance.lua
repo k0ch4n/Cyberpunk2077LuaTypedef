@@ -1,23 +1,23 @@
 ---@meta
 
 ---@class HighlightInstance: ModuleInstance
----@field public context HighlightContext
----@field public instant Bool
+---@field context HighlightContext
+---@field instant Bool
 HighlightInstance = {}
 
 ---@param fields? HighlightInstance
 ---@return HighlightInstance
-function HighlightInstance.new(fields) return end
+function HighlightInstance.new(fields) end
 
 ---@return HighlightContext
-function HighlightInstance:GetContext() return end
+function HighlightInstance:GetContext() end
 
 ---@return Bool
-function HighlightInstance:IsInstant() return end
+function HighlightInstance:IsInstant() end
 
 ---@param newContext HighlightContext
 ---@param _isLookedAt Bool
 ---@param _isRevealed Bool
 ---@param _instant? Bool
 ---@return nil
-function HighlightInstance:SetContext(newContext, _isLookedAt, _isRevealed, _instant) return end
+function HighlightInstance:SetContext(newContext, _isLookedAt, _isRevealed, _instant) end

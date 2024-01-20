@@ -1,48 +1,41 @@
 ---@meta
 
 ---@class InspectableObjectComponent: gameScriptableComponent
----@field public factToAdd CName
----@field public itemID String
----@field public offset Float
----@field public adsOffset Float
----@field public timeToScan Float
----@field private slot String
+---@field factToAdd CName
+---@field itemID String
+---@field offset Float
+---@field adsOffset Float
+---@field timeToScan Float
+---@field slot String
 InspectableObjectComponent = {}
 
 ---@param fields? InspectableObjectComponent
 ---@return InspectableObjectComponent
-function InspectableObjectComponent.new(fields) return end
+function InspectableObjectComponent.new(fields) end
 
----@protected
 ---@param evt ObjectInspectEvent
 ---@return Bool
-function InspectableObjectComponent:OnInspectEvent(evt) return end
+function InspectableObjectComponent:OnInspectEvent(evt) end
 
----@protected
 ---@param evt InspectItemInspectionEvent
 ---@return Bool
-function InspectableObjectComponent:OnInspectItem(evt) return end
+function InspectableObjectComponent:OnInspectItem(evt) end
 
----@protected
 ---@param evt InspectItemInspectionEvent
 ---@return Bool
-function InspectableObjectComponent:OnLootItem(evt) return end
+function InspectableObjectComponent:OnLootItem(evt) end
 
----@protected
 ---@return InspectableObjectComponentPS
-function InspectableObjectComponent:GetPS() return end
+function InspectableObjectComponent:GetPS() end
 
----@private
 ---@param activator gameObject
 ---@return nil
-function InspectableObjectComponent:GiveInspectableItem(activator) return end
+function InspectableObjectComponent:GiveInspectableItem(activator) end
 
----@private
 ---@param activator gameObject
 ---@return nil
-function InspectableObjectComponent:InspectObject(activator) return end
+function InspectableObjectComponent:InspectObject(activator) end
 
----@private
 ---@param b Bool
 ---@return nil
-function InspectableObjectComponent:SetInspectableObjectState(b) return end
+function InspectableObjectComponent:SetInspectableObjectState(b) end

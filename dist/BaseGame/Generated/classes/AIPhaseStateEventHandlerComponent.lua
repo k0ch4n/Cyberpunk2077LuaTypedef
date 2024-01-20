@@ -1,14 +1,13 @@
 ---@meta
 
 ---@class AIPhaseStateEventHandlerComponent: AIRelatedComponents
----@field public phaseStateValue ENPCPhaseState
+---@field phaseStateValue ENPCPhaseState
 AIPhaseStateEventHandlerComponent = {}
 
 ---@param fields? AIPhaseStateEventHandlerComponent
 ---@return AIPhaseStateEventHandlerComponent
-function AIPhaseStateEventHandlerComponent.new(fields) return end
+function AIPhaseStateEventHandlerComponent.new(fields) end
 
----@protected
 ---@param evt WeakspotOnDestroyEvent
 ---@return Bool
-function AIPhaseStateEventHandlerComponent:OnWeakspotDestroyEvent(evt) return end
+function AIPhaseStateEventHandlerComponent:OnWeakspotDestroyEvent(evt) end

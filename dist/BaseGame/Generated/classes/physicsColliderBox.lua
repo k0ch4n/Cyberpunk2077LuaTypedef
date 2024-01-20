@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class physicsColliderBox: physicsICollider
----@field public halfExtents Vector3
----@field public isObstacle Bool
+---@field halfExtents Vector3
+---@field isObstacle Bool
 physicsColliderBox = {}
 
 ---@param fields? physicsColliderBox
 ---@return physicsColliderBox
-function physicsColliderBox.new(fields) return end
+function physicsColliderBox.new(fields) end

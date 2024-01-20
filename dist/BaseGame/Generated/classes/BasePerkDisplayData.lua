@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class BasePerkDisplayData: IDisplayData
----@field public attributeId TweakDBID
----@field public name CName
----@field public localizedName String
----@field public localizedDescription String
----@field public iconID TweakDBID
----@field public binkRef redResourceReferenceScriptToken
----@field public level Int32
----@field public maxLevel Int32
----@field public locked Bool
----@field public proficiency gamedataProficiencyType
+---@field attributeId TweakDBID
+---@field name CName
+---@field localizedName String
+---@field localizedDescription String
+---@field iconID TweakDBID
+---@field binkRef redResourceReferenceScriptToken
+---@field level Int32
+---@field maxLevel Int32
+---@field locked Bool
+---@field proficiency gamedataProficiencyType
 BasePerkDisplayData = {}
 
 ---@param fields? BasePerkDisplayData
 ---@return BasePerkDisplayData
-function BasePerkDisplayData.new(fields) return end
+function BasePerkDisplayData.new(fields) end

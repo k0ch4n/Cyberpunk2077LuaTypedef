@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class worldInstancedMeshNode: worldNode
----@field public mesh CMesh
----@field public meshAppearance CName
----@field public castShadows shadowsShadowCastingMode
----@field public castLocalShadows shadowsShadowCastingMode
----@field public occluderType visWorldOccluderType
----@field public meshLODScales Uint32
----@field public occluderAutohideDistanceScale Uint8
----@field public worldTransformsBuffer worldRenderProxyTransformBuffer
----@field public version Uint8
+---@field mesh CMesh
+---@field meshAppearance CName
+---@field castShadows shadowsShadowCastingMode
+---@field castLocalShadows shadowsShadowCastingMode
+---@field occluderType visWorldOccluderType
+---@field meshLODScales Uint32
+---@field occluderAutohideDistanceScale Uint8
+---@field worldTransformsBuffer worldRenderProxyTransformBuffer
+---@field version Uint8
 worldInstancedMeshNode = {}
 
 ---@param fields? worldInstancedMeshNode
 ---@return worldInstancedMeshNode
-function worldInstancedMeshNode.new(fields) return end
+function worldInstancedMeshNode.new(fields) end

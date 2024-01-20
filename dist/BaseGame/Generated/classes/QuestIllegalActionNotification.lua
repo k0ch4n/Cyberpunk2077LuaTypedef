@@ -5,7 +5,7 @@ QuestIllegalActionNotification = {}
 
 ---@param fields? QuestIllegalActionNotification
 ---@return QuestIllegalActionNotification
-function QuestIllegalActionNotification.new(fields) return end
+function QuestIllegalActionNotification.new(fields) end
 
 ---@return String
-function QuestIllegalActionNotification:GetFriendlyDescription() return end
+function QuestIllegalActionNotification:GetFriendlyDescription() end

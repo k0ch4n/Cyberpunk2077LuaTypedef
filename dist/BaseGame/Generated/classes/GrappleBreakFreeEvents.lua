@@ -1,27 +1,26 @@
 ---@meta
 
 ---@class GrappleBreakFreeEvents: GrappleStandEvents
----@field public playerPositionVerified Bool
----@field public shouldPushPlayerAway Bool
+---@field playerPositionVerified Bool
+---@field shouldPushPlayerAway Bool
 GrappleBreakFreeEvents = {}
 
 ---@param fields? GrappleBreakFreeEvents
 ---@return GrappleBreakFreeEvents
-function GrappleBreakFreeEvents.new(fields) return end
+function GrappleBreakFreeEvents.new(fields) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleBreakFreeEvents:OnEnter(stateContext, scriptInterface) return end
+function GrappleBreakFreeEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleBreakFreeEvents:OnExit(stateContext, scriptInterface) return end
+function GrappleBreakFreeEvents:OnExit(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function GrappleBreakFreeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function GrappleBreakFreeEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

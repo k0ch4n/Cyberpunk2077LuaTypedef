@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameprojectileBroadPhaseHitEvent: redEvent
----@field public traceResult physicsTraceResult
----@field public position Vector4
----@field public hitObject entEntity
----@field public hitComponent entIComponent
+---@field traceResult physicsTraceResult
+---@field position Vector4
+---@field hitObject entEntity
+---@field hitComponent entIComponent
 gameprojectileBroadPhaseHitEvent = {}
 
 ---@param fields? gameprojectileBroadPhaseHitEvent
 ---@return gameprojectileBroadPhaseHitEvent
-function gameprojectileBroadPhaseHitEvent.new(fields) return end
+function gameprojectileBroadPhaseHitEvent.new(fields) end

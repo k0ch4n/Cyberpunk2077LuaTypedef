@@ -5,8 +5,8 @@ QuestToggleAds = {}
 
 ---@param fields? QuestToggleAds
 ---@return QuestToggleAds
-function QuestToggleAds.new(fields) return end
+function QuestToggleAds.new(fields) end
 
 ---@param toggle Bool
 ---@return nil
-function QuestToggleAds:SetProperties(toggle) return end
+function QuestToggleAds:SetProperties(toggle) end

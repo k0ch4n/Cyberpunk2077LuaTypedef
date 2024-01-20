@@ -5,4 +5,4 @@ AICTreeNodeActionReloadWeaponDefinition = {}
 
 ---@param fields? AICTreeNodeActionReloadWeaponDefinition
 ---@return AICTreeNodeActionReloadWeaponDefinition
-function AICTreeNodeActionReloadWeaponDefinition.new(fields) return end
+function AICTreeNodeActionReloadWeaponDefinition.new(fields) end

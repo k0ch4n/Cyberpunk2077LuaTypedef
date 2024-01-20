@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class entFacialCustomizationComponent: entIComponent
----@field public debugIgnoreComponent Bool
----@field public customizationSet animFacialCustomizationSet
----@field public eyes Uint32
----@field public nose Uint32
----@field public mouth Uint32
----@field public jaw Uint32
----@field public ears Uint32
+---@field debugIgnoreComponent Bool
+---@field customizationSet animFacialCustomizationSet
+---@field eyes Uint32
+---@field nose Uint32
+---@field mouth Uint32
+---@field jaw Uint32
+---@field ears Uint32
 entFacialCustomizationComponent = {}
 
 ---@param fields? entFacialCustomizationComponent
 ---@return entFacialCustomizationComponent
-function entFacialCustomizationComponent.new(fields) return end
+function entFacialCustomizationComponent.new(fields) end

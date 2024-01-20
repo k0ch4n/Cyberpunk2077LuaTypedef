@@ -5,9 +5,8 @@ OneTimeCollisionLogic = {}
 
 ---@param fields? OneTimeCollisionLogic
 ---@return OneTimeCollisionLogic
-function OneTimeCollisionLogic.new(fields) return end
+function OneTimeCollisionLogic.new(fields) end
 
----@protected
 ---@param gameState gameuiQuadRacerGameState
 ---@return nil
-function OneTimeCollisionLogic:ChangeGameState(gameState) return end
+function OneTimeCollisionLogic:ChangeGameState(gameState) end

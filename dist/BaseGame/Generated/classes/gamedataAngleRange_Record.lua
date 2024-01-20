@@ -5,16 +5,16 @@ gamedataAngleRange_Record = {}
 
 ---@param fields? gamedataAngleRange_Record
 ---@return gamedataAngleRange_Record
-function gamedataAngleRange_Record.new(fields) return end
+function gamedataAngleRange_Record.new(fields) end
 
 ---@return Float
-function gamedataAngleRange_Record:Angle() return end
+function gamedataAngleRange_Record:Angle() end
 
 ---@return Float
-function gamedataAngleRange_Record:HalfHeight() return end
+function gamedataAngleRange_Record:HalfHeight() end
 
 ---@return Vector3
-function gamedataAngleRange_Record:Position() return end
+function gamedataAngleRange_Record:Position() end
 
 ---@return Float
-function gamedataAngleRange_Record:Range() return end
+function gamedataAngleRange_Record:Range() end

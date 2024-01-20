@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gamestateMachineTransition: graphGraphConnectionDefinition
----@field public transitionCondition gamestateMachineFunctor
+---@field transitionCondition gamestateMachineFunctor
 gamestateMachineTransition = {}
 
 ---@param fields? gamestateMachineTransition
 ---@return gamestateMachineTransition
-function gamestateMachineTransition.new(fields) return end
+function gamestateMachineTransition.new(fields) end

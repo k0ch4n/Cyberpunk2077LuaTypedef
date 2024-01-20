@@ -5,4 +5,4 @@ gameSetupWorkspotActionEvent = {}
 
 ---@param fields? gameSetupWorkspotActionEvent
 ---@return gameSetupWorkspotActionEvent
-function gameSetupWorkspotActionEvent.new(fields) return end
+function gameSetupWorkspotActionEvent.new(fields) end

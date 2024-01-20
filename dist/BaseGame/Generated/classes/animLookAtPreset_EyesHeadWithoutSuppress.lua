@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animLookAtPreset_EyesHeadWithoutSuppress: animLookAtPreset
----@field public headMobility Float
----@field public softLimitAngle Float
+---@field headMobility Float
+---@field softLimitAngle Float
 animLookAtPreset_EyesHeadWithoutSuppress = {}
 
 ---@param fields? animLookAtPreset_EyesHeadWithoutSuppress
 ---@return animLookAtPreset_EyesHeadWithoutSuppress
-function animLookAtPreset_EyesHeadWithoutSuppress.new(fields) return end
+function animLookAtPreset_EyesHeadWithoutSuppress.new(fields) end

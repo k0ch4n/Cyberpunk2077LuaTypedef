@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class scnlocLangId
----@field public langId Uint8
+---@field langId Uint8
 scnlocLangId = {}
 
 ---@param fields? scnlocLangId
 ---@return scnlocLangId
-function scnlocLangId.new(fields) return end
+function scnlocLangId.new(fields) end

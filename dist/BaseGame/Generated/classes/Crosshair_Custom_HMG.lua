@@ -1,71 +1,64 @@
 ---@meta
 
 ---@class Crosshair_Custom_HMG: gameuiCrosshairBaseGameController
----@field private leftPart inkWidgetReference
----@field private rightPart inkWidgetReference
----@field private topPart inkWidgetReference
----@field private bottomPart inkWidgetReference
----@field private horiPart inkWidgetReference
----@field private vertPart inkWidgetReference
----@field private overheatContainer inkWidgetReference
----@field private overheatWarning inkWidgetReference
----@field private overheatMask inkWidgetReference
----@field private overheatValueL inkTextWidgetReference
----@field private overheatValueR inkTextWidgetReference
----@field private leftPartExtra inkImageWidgetReference
----@field private rightPartExtra inkImageWidgetReference
----@field private crosshairContainer inkCanvasWidgetReference
----@field private offsetLeftRight Float
----@field private offsetLeftRightExtra Float
----@field private latchVertical Float
----@field private weaponLocalBB gameIBlackboard
----@field private overheatBBID redCallbackObject
----@field private forcedOverheatBBID redCallbackObject
----@field private targetColorChange inkWidgetReference
----@field private forcedCooldownProxy inkanimProxy
----@field private forcedCooldownOptions inkanimPlaybackOptions
+---@field leftPart inkWidgetReference
+---@field rightPart inkWidgetReference
+---@field topPart inkWidgetReference
+---@field bottomPart inkWidgetReference
+---@field horiPart inkWidgetReference
+---@field vertPart inkWidgetReference
+---@field overheatContainer inkWidgetReference
+---@field overheatWarning inkWidgetReference
+---@field overheatMask inkWidgetReference
+---@field overheatValueL inkTextWidgetReference
+---@field overheatValueR inkTextWidgetReference
+---@field leftPartExtra inkImageWidgetReference
+---@field rightPartExtra inkImageWidgetReference
+---@field crosshairContainer inkCanvasWidgetReference
+---@field offsetLeftRight Float
+---@field offsetLeftRightExtra Float
+---@field latchVertical Float
+---@field weaponLocalBB gameIBlackboard
+---@field overheatBBID redCallbackObject
+---@field forcedOverheatBBID redCallbackObject
+---@field targetColorChange inkWidgetReference
+---@field forcedCooldownProxy inkanimProxy
+---@field forcedCooldownOptions inkanimPlaybackOptions
 Crosshair_Custom_HMG = {}
 
 ---@param fields? Crosshair_Custom_HMG
 ---@return Crosshair_Custom_HMG
-function Crosshair_Custom_HMG.new(fields) return end
+function Crosshair_Custom_HMG.new(fields) end
 
----@protected
 ---@param spread Vector2
 ---@return Bool
-function Crosshair_Custom_HMG:OnBulletSpreadChanged(spread) return end
+function Crosshair_Custom_HMG:OnBulletSpreadChanged(spread) end
 
----@protected
 ---@return Bool
-function Crosshair_Custom_HMG:OnInitialize() return end
+function Crosshair_Custom_HMG:OnInitialize() end
 
----@protected
 ---@param argValue Bool
 ---@return Bool
-function Crosshair_Custom_HMG:OnIsInForcedOverheatCooldown(argValue) return end
+function Crosshair_Custom_HMG:OnIsInForcedOverheatCooldown(argValue) end
 
----@protected
 ---@param argValue Float
 ---@return Bool
-function Crosshair_Custom_HMG:OnOverheatChanged(argValue) return end
+function Crosshair_Custom_HMG:OnOverheatChanged(argValue) end
 
----@protected
 ---@return Bool
-function Crosshair_Custom_HMG:OnPreIntro() return end
+function Crosshair_Custom_HMG:OnPreIntro() end
 
----@protected
 ---@return Bool
-function Crosshair_Custom_HMG:OnPreOutro() return end
+function Crosshair_Custom_HMG:OnPreOutro() end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function Crosshair_Custom_HMG:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function Crosshair_Custom_HMG:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function Crosshair_Custom_HMG:GetIntroAnimation(firstEquip) return end
+function Crosshair_Custom_HMG:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function Crosshair_Custom_HMG:GetOutroAnimation() return end
+function Crosshair_Custom_HMG:GetOutroAnimation() end

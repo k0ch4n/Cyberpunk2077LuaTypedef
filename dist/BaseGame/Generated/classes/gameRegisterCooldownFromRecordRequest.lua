@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameRegisterCooldownFromRecordRequest
----@field public owner entEntity
----@field public ownerItemId gameItemID
----@field public ownerRecord TweakDBID
----@field public cooldownRecord gamedataCooldown_Record
+---@field owner entEntity
+---@field ownerItemId gameItemID
+---@field ownerRecord TweakDBID
+---@field cooldownRecord gamedataCooldown_Record
 gameRegisterCooldownFromRecordRequest = {}
 
 ---@param fields? gameRegisterCooldownFromRecordRequest
 ---@return gameRegisterCooldownFromRecordRequest
-function gameRegisterCooldownFromRecordRequest.new(fields) return end
+function gameRegisterCooldownFromRecordRequest.new(fields) end

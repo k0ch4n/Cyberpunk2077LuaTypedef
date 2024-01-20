@@ -5,4 +5,4 @@ gamebbScriptID_Quaternion = {}
 
 ---@param fields? gamebbScriptID_Quaternion
 ---@return gamebbScriptID_Quaternion
-function gamebbScriptID_Quaternion.new(fields) return end
+function gamebbScriptID_Quaternion.new(fields) end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnSceneMarkerInternalsWorkspotEntry
----@field public instanceId CRUID
----@field public instanceOrigin Transform
----@field public entries scnSceneMarkerInternalsWorkspotEntrySocket[]
----@field public exits scnSceneMarkerInternalsWorkspotEntrySocket[]
+---@field instanceId CRUID
+---@field instanceOrigin Transform
+---@field entries scnSceneMarkerInternalsWorkspotEntrySocket[]
+---@field exits scnSceneMarkerInternalsWorkspotEntrySocket[]
 scnSceneMarkerInternalsWorkspotEntry = {}
 
 ---@param fields? scnSceneMarkerInternalsWorkspotEntry
 ---@return scnSceneMarkerInternalsWorkspotEntry
-function scnSceneMarkerInternalsWorkspotEntry.new(fields) return end
+function scnSceneMarkerInternalsWorkspotEntry.new(fields) end

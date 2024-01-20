@@ -5,16 +5,16 @@ gamedataVehicleTrafficSuspension_Record = {}
 
 ---@param fields? gamedataVehicleTrafficSuspension_Record
 ---@return gamedataVehicleTrafficSuspension_Record
-function gamedataVehicleTrafficSuspension_Record.new(fields) return end
+function gamedataVehicleTrafficSuspension_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleTrafficSuspension_Record:LatDampingRatio() return end
+function gamedataVehicleTrafficSuspension_Record:LatDampingRatio() end
 
 ---@return Float
-function gamedataVehicleTrafficSuspension_Record:LatPeriod() return end
+function gamedataVehicleTrafficSuspension_Record:LatPeriod() end
 
 ---@return Float
-function gamedataVehicleTrafficSuspension_Record:LongDampingRatio() return end
+function gamedataVehicleTrafficSuspension_Record:LongDampingRatio() end
 
 ---@return Float
-function gamedataVehicleTrafficSuspension_Record:LongPeriod() return end
+function gamedataVehicleTrafficSuspension_Record:LongPeriod() end

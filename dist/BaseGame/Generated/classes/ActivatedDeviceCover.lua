@@ -1,24 +1,21 @@
 ---@meta
 
 ---@class ActivatedDeviceCover: ActivatedDeviceTransfromAnim
----@field protected offMeshConnection AIOffMeshConnectionComponent
+---@field offMeshConnection AIOffMeshConnectionComponent
 ActivatedDeviceCover = {}
 
 ---@param fields? ActivatedDeviceCover
 ---@return ActivatedDeviceCover
-function ActivatedDeviceCover.new(fields) return end
+function ActivatedDeviceCover.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function ActivatedDeviceCover:OnActivateDevice(evt) return end
+function ActivatedDeviceCover:OnActivateDevice(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ActivatedDeviceCover:OnRequestComponents(ri) return end
+function ActivatedDeviceCover:OnRequestComponents(ri) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ActivatedDeviceCover:OnTakeControl(ri) return end
+function ActivatedDeviceCover:OnTakeControl(ri) end

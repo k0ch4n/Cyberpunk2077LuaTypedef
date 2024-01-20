@@ -5,4 +5,4 @@ gameDebugDrawHistorySystem = {}
 
 ---@param fields? gameDebugDrawHistorySystem
 ---@return gameDebugDrawHistorySystem
-function gameDebugDrawHistorySystem.new(fields) return end
+function gameDebugDrawHistorySystem.new(fields) end

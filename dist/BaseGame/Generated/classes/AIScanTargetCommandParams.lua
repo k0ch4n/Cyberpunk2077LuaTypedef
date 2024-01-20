@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AIScanTargetCommandParams: questScriptedAICommandParams
----@field public targetPuppetRef gameEntityReference
+---@field targetPuppetRef gameEntityReference
 AIScanTargetCommandParams = {}
 
 ---@param fields? AIScanTargetCommandParams
 ---@return AIScanTargetCommandParams
-function AIScanTargetCommandParams.new(fields) return end
+function AIScanTargetCommandParams.new(fields) end
 
 ---@return AICommand
-function AIScanTargetCommandParams:CreateCommand() return end
+function AIScanTargetCommandParams:CreateCommand() end
 
 ---@return String
-function AIScanTargetCommandParams:GetCommandName() return end
+function AIScanTargetCommandParams:GetCommandName() end

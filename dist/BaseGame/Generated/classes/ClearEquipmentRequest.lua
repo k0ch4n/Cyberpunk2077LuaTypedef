@@ -5,4 +5,4 @@ ClearEquipmentRequest = {}
 
 ---@param fields? ClearEquipmentRequest
 ---@return ClearEquipmentRequest
-function ClearEquipmentRequest.new(fields) return end
+function ClearEquipmentRequest.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetIgnoreAutoDoorCloseEvent: redEvent
----@field public set Bool
+---@field set Bool
 SetIgnoreAutoDoorCloseEvent = {}
 
 ---@param fields? SetIgnoreAutoDoorCloseEvent
 ---@return SetIgnoreAutoDoorCloseEvent
-function SetIgnoreAutoDoorCloseEvent.new(fields) return end
+function SetIgnoreAutoDoorCloseEvent.new(fields) end

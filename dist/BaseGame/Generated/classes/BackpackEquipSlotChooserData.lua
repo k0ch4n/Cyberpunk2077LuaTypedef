@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class BackpackEquipSlotChooserData: inkGameNotificationData
----@field public item UIInventoryItem
----@field public inventoryScriptableSystem UIInventoryScriptableSystem
+---@field item UIInventoryItem
+---@field inventoryScriptableSystem UIInventoryScriptableSystem
 BackpackEquipSlotChooserData = {}
 
 ---@param fields? BackpackEquipSlotChooserData
 ---@return BackpackEquipSlotChooserData
-function BackpackEquipSlotChooserData.new(fields) return end
+function BackpackEquipSlotChooserData.new(fields) end

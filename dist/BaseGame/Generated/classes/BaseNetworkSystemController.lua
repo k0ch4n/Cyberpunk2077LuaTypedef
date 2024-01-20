@@ -5,7 +5,7 @@ BaseNetworkSystemController = {}
 
 ---@param fields? BaseNetworkSystemController
 ---@return BaseNetworkSystemController
-function BaseNetworkSystemController.new(fields) return end
+function BaseNetworkSystemController.new(fields) end
 
 ---@return BaseNetworkSystemControllerPS
-function BaseNetworkSystemController:GetPS() return end
+function BaseNetworkSystemController:GetPS() end

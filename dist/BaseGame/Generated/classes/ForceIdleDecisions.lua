@@ -5,16 +5,14 @@ ForceIdleDecisions = {}
 
 ---@param fields? ForceIdleDecisions
 ---@return ForceIdleDecisions
-function ForceIdleDecisions.new(fields) return end
+function ForceIdleDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceIdleDecisions:EnterCondition(stateContext, scriptInterface) return end
+function ForceIdleDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function ForceIdleDecisions:ToStand(stateContext, scriptInterface) return end
+function ForceIdleDecisions:ToStand(stateContext, scriptInterface) end

@@ -1,53 +1,47 @@
 ---@meta
 
 ---@class HubTimeSkipController: inkWidgetLogicController
----@field private gameTimeText inkTextWidgetReference
----@field private timeSkipText inkTextWidgetReference
----@field private cantSkipTimeContainer inkWidgetReference
----@field private timeSkipButton inkWidgetReference
----@field private gameCtrlRef gameuiMenuGameController
----@field private timeSystem gameTimeSystem
----@field private timeSkipPopupToken inkGameNotificationToken
----@field private cantSkipTimeAnim inkanimProxy
----@field private gameTimeTextParams textTextParameterSet
----@field private canSkipTime Bool
+---@field gameTimeText inkTextWidgetReference
+---@field timeSkipText inkTextWidgetReference
+---@field cantSkipTimeContainer inkWidgetReference
+---@field timeSkipButton inkWidgetReference
+---@field gameCtrlRef gameuiMenuGameController
+---@field timeSystem gameTimeSystem
+---@field timeSkipPopupToken inkGameNotificationToken
+---@field cantSkipTimeAnim inkanimProxy
+---@field gameTimeTextParams textTextParameterSet
+---@field canSkipTime Bool
 HubTimeSkipController = {}
 
 ---@param fields? HubTimeSkipController
 ---@return HubTimeSkipController
-function HubTimeSkipController.new(fields) return end
+function HubTimeSkipController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function HubTimeSkipController:OnTimeSkipButtonHoverOut(evt) return end
+function HubTimeSkipController:OnTimeSkipButtonHoverOut(evt) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function HubTimeSkipController:OnTimeSkipButtonHoverOver(evt) return end
+function HubTimeSkipController:OnTimeSkipButtonHoverOver(evt) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function HubTimeSkipController:OnTimeSkipButtonPressed(e) return end
+function HubTimeSkipController:OnTimeSkipButtonPressed(e) end
 
----@protected
 ---@param data inkGameNotificationData
 ---@return Bool
-function HubTimeSkipController:OnTimeSkipPopupClosed(data) return end
+function HubTimeSkipController:OnTimeSkipPopupClosed(data) end
 
 ---@param isEnabled Bool
 ---@param timeSystem gameTimeSystem
 ---@param gameController gameuiMenuGameController
 ---@return nil
-function HubTimeSkipController:Init(isEnabled, timeSystem, gameController) return end
+function HubTimeSkipController:Init(isEnabled, timeSystem, gameController) end
 
----@private
 ---@param visible Bool
 ---@return nil
-function HubTimeSkipController:SetCursorVisibility(visible) return end
+function HubTimeSkipController:SetCursorVisibility(visible) end
 
----@private
 ---@return nil
-function HubTimeSkipController:UpdateGameTime() return end
+function HubTimeSkipController:UpdateGameTime() end

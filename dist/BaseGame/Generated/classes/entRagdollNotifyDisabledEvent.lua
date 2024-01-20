@@ -5,4 +5,4 @@ entRagdollNotifyDisabledEvent = {}
 
 ---@param fields? entRagdollNotifyDisabledEvent
 ---@return entRagdollNotifyDisabledEvent
-function entRagdollNotifyDisabledEvent.new(fields) return end
+function entRagdollNotifyDisabledEvent.new(fields) end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class AreaDisplayData: IDisplayData
----@field public attributeId TweakDBID
----@field public perks PerkDisplayData[]
----@field public locked Bool
----@field public proficency gamedataProficiencyType
----@field public area gamedataPerkArea
+---@field attributeId TweakDBID
+---@field perks PerkDisplayData[]
+---@field locked Bool
+---@field proficency gamedataProficiencyType
+---@field area gamedataPerkArea
 AreaDisplayData = {}
 
 ---@param fields? AreaDisplayData
 ---@return AreaDisplayData
-function AreaDisplayData.new(fields) return end
+function AreaDisplayData.new(fields) end

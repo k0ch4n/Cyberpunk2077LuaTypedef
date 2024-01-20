@@ -1,29 +1,27 @@
 ---@meta
 
 ---@class QuestMappinLinkController: BaseCodexLinkController
----@field private mappinEntry gameJournalQuestMapPinBase
----@field private mappinEntryHash gameJournalQuestMapPinBase
----@field private jumpTo Vector3
----@field private hash Int32
----@field private isTracked Bool
+---@field mappinEntry gameJournalQuestMapPinBase
+---@field mappinEntryHash gameJournalQuestMapPinBase
+---@field jumpTo Vector3
+---@field hash Int32
+---@field isTracked Bool
 QuestMappinLinkController = {}
 
 ---@param fields? QuestMappinLinkController
 ---@return QuestMappinLinkController
-function QuestMappinLinkController.new(fields) return end
+function QuestMappinLinkController.new(fields) end
 
----@protected
 ---@param e ActivateMapLink
 ---@return Bool
-function QuestMappinLinkController:OnActivateLink(e) return end
+function QuestMappinLinkController:OnActivateLink(e) end
 
----@private
 ---@return nil
-function QuestMappinLinkController:Activate() return end
+function QuestMappinLinkController:Activate() end
 
 ---@param mappinEntry gameJournalQuestMapPinBase
 ---@param mappinHash Int32
 ---@param jumpTo Vector3
 ---@param isTracked Bool
 ---@return nil
-function QuestMappinLinkController:Setup(mappinEntry, mappinHash, jumpTo, isTracked) return end
+function QuestMappinLinkController:Setup(mappinEntry, mappinHash, jumpTo, isTracked) end

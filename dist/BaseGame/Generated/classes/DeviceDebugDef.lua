@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class DeviceDebugDef: gamebbScriptDefinition
----@field public CurrentlyDebuggedDevice gamebbScriptID_CName
----@field public DebuggedEntityIDAsString gamebbScriptID_String
+---@field CurrentlyDebuggedDevice gamebbScriptID_CName
+---@field DebuggedEntityIDAsString gamebbScriptID_String
 DeviceDebugDef = {}
 
 ---@param fields? DeviceDebugDef
 ---@return DeviceDebugDef
-function DeviceDebugDef.new(fields) return end
+function DeviceDebugDef.new(fields) end
 
 ---@return Bool
-function DeviceDebugDef:AutoCreateInSystem() return end
+function DeviceDebugDef:AutoCreateInSystem() end

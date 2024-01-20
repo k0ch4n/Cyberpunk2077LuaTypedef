@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class UploadFromNPCToNPCListener: QuickHackUploadListener
----@field public npcPuppet ScriptedPuppet
+---@field npcPuppet ScriptedPuppet
 UploadFromNPCToNPCListener = {}
 
 ---@param fields? UploadFromNPCToNPCListener
 ---@return UploadFromNPCToNPCListener
-function UploadFromNPCToNPCListener.new(fields) return end
+function UploadFromNPCToNPCListener.new(fields) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function UploadFromNPCToNPCListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function UploadFromNPCToNPCListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end

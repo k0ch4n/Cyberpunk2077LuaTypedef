@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class gameuiarcadeArcadeGameplayController: gameuiarcadeIArcadeScreenController
----@field public score inkWidgetReference
----@field public pauseText inkWidgetReference
+---@field score inkWidgetReference
+---@field pauseText inkWidgetReference
 gameuiarcadeArcadeGameplayController = {}

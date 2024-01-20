@@ -5,24 +5,23 @@ VaultEvents = {}
 
 ---@param fields? VaultEvents
 ---@return VaultEvents
-function VaultEvents.new(fields) return end
+function VaultEvents.new(fields) end
 
----@protected
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return gamestateMachineparameterTypeVaultParameters
-function VaultEvents:GetVaultParameter(scriptInterface) return end
+function VaultEvents:GetVaultParameter(scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VaultEvents:OnEnter(stateContext, scriptInterface) return end
+function VaultEvents:OnEnter(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VaultEvents:OnEnterFromCrouchSprint(stateContext, scriptInterface) return end
+function VaultEvents:OnEnterFromCrouchSprint(stateContext, scriptInterface) end
 
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function VaultEvents:OnExit(stateContext, scriptInterface) return end
+function VaultEvents:OnExit(stateContext, scriptInterface) end

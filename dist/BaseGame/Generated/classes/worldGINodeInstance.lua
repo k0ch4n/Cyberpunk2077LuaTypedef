@@ -5,4 +5,4 @@ worldGINodeInstance = {}
 
 ---@param fields? worldGINodeInstance
 ---@return worldGINodeInstance
-function worldGINodeInstance.new(fields) return end
+function worldGINodeInstance.new(fields) end

@@ -1,26 +1,22 @@
 ---@meta
 
 ---@class RemotePlayerMappinController: gameuiInteractionMappinController
----@field private mappin gamemappinsRemotePlayerMappin
----@field private root inkWidget
+---@field mappin gamemappinsRemotePlayerMappin
+---@field root inkWidget
 RemotePlayerMappinController = {}
 
 ---@param fields? RemotePlayerMappinController
 ---@return RemotePlayerMappinController
-function RemotePlayerMappinController.new(fields) return end
+function RemotePlayerMappinController.new(fields) end
 
----@protected
 ---@return Bool
-function RemotePlayerMappinController:OnInitialize() return end
+function RemotePlayerMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function RemotePlayerMappinController:OnIntro() return end
+function RemotePlayerMappinController:OnIntro() end
 
----@protected
 ---@return Bool
-function RemotePlayerMappinController:OnUninitialize() return end
+function RemotePlayerMappinController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function RemotePlayerMappinController:OnUpdate() return end
+function RemotePlayerMappinController:OnUpdate() end

@@ -5,4 +5,4 @@ RipperdocRefreshInventoryEvent = {}
 
 ---@param fields? RipperdocRefreshInventoryEvent
 ---@return RipperdocRefreshInventoryEvent
-function RipperdocRefreshInventoryEvent.new(fields) return end
+function RipperdocRefreshInventoryEvent.new(fields) end

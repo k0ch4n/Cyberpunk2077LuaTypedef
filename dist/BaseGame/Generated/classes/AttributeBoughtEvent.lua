@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AttributeBoughtEvent: redEvent
----@field public attributeType gamedataStatType
+---@field attributeType gamedataStatType
 AttributeBoughtEvent = {}
 
 ---@param fields? AttributeBoughtEvent
 ---@return AttributeBoughtEvent
-function AttributeBoughtEvent.new(fields) return end
+function AttributeBoughtEvent.new(fields) end

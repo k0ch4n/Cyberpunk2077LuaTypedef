@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questVisionModesManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questIVisionModeNodeType
+---@field type questIVisionModeNodeType
 questVisionModesManagerNodeDefinition = {}
 
 ---@param fields? questVisionModesManagerNodeDefinition
 ---@return questVisionModesManagerNodeDefinition
-function questVisionModesManagerNodeDefinition.new(fields) return end
+function questVisionModesManagerNodeDefinition.new(fields) end

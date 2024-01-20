@@ -5,4 +5,4 @@ GrenadeProximitySensorTargetAcquiredEvent = {}
 
 ---@param fields? GrenadeProximitySensorTargetAcquiredEvent
 ---@return GrenadeProximitySensorTargetAcquiredEvent
-function GrenadeProximitySensorTargetAcquiredEvent.new(fields) return end
+function GrenadeProximitySensorTargetAcquiredEvent.new(fields) end

@@ -1,164 +1,142 @@
 ---@meta
 
 ---@class ScriptedWeakspotObject: gameWeakspotObject
----@field protected weakspotOnDestroyProperties WeakspotOnDestroyProperties
----@field protected mesh entMeshComponent
----@field protected interaction gameinteractionsComponent
----@field protected targeting gameTargetingComponent
----@field protected collider entIPlacedComponent
----@field protected instigator gameObject
----@field protected weakspotRecordData WeakspotRecordData
----@field protected alive Bool
----@field protected hasBeenScanned Bool
----@field private statPoolSystem gameStatPoolsSystem
----@field private statPoolType gamedataStatPoolType
----@field private healthListener WeakspotHealthChangeListener
----@field private parentMaxhealth Float
----@field private blockHighlight Bool
----@field private blockDamage Bool
+---@field weakspotOnDestroyProperties WeakspotOnDestroyProperties
+---@field mesh entMeshComponent
+---@field interaction gameinteractionsComponent
+---@field targeting gameTargetingComponent
+---@field collider entIPlacedComponent
+---@field instigator gameObject
+---@field weakspotRecordData WeakspotRecordData
+---@field alive Bool
+---@field hasBeenScanned Bool
+---@field statPoolSystem gameStatPoolsSystem
+---@field statPoolType gamedataStatPoolType
+---@field healthListener WeakspotHealthChangeListener
+---@field parentMaxhealth Float
+---@field blockHighlight Bool
+---@field blockDamage Bool
 ScriptedWeakspotObject = {}
 
 ---@param fields? ScriptedWeakspotObject
 ---@return ScriptedWeakspotObject
-function ScriptedWeakspotObject.new(fields) return end
+function ScriptedWeakspotObject.new(fields) end
 
 ---@param weakspot gameObject
 ---@param instigator? gameObject
 ---@return nil
-function ScriptedWeakspotObject.Kill(weakspot, instigator) return end
+function ScriptedWeakspotObject.Kill(weakspot, instigator) end
 
----@protected
 ---@return Bool
-function ScriptedWeakspotObject:OnGameAttached() return end
+function ScriptedWeakspotObject:OnGameAttached() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return Bool
-function ScriptedWeakspotObject:OnHit(evt) return end
+function ScriptedWeakspotObject:OnHit(evt) end
 
----@protected
 ---@param evt gameinteractionsChoiceEvent
 ---@return Bool
-function ScriptedWeakspotObject:OnInteractionChoice(evt) return end
+function ScriptedWeakspotObject:OnInteractionChoice(evt) end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function ScriptedWeakspotObject:OnRequestComponents(ri) return end
+function ScriptedWeakspotObject:OnRequestComponents(ri) end
 
----@protected
 ---@param evt gameScanningLookAtEvent
 ---@return Bool
-function ScriptedWeakspotObject:OnScanninOwner(evt) return end
+function ScriptedWeakspotObject:OnScanninOwner(evt) end
 
----@protected
 ---@param owner gameObject
 ---@return Bool
-function ScriptedWeakspotObject:OnSetOwner(owner) return end
+function ScriptedWeakspotObject:OnSetOwner(owner) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function ScriptedWeakspotObject:OnTakeControl(ri) return end
+function ScriptedWeakspotObject:OnTakeControl(ri) end
 
----@protected
 ---@param evt gameWeakspotDestroyedEvent
 ---@return Bool
-function ScriptedWeakspotObject:OnWeakspotDestroy(evt) return end
+function ScriptedWeakspotObject:OnWeakspotDestroy(evt) end
 
----@protected
 ---@param evt DestroyWeakspotDelayedEvent
 ---@return Bool
-function ScriptedWeakspotObject:OnWeakspotDestroyDelay(evt) return end
+function ScriptedWeakspotObject:OnWeakspotDestroyDelay(evt) end
 
----@protected
 ---@param evt RevealStateChangedEvent
 ---@return Bool
-function ScriptedWeakspotObject:OnWeakspotPinged(evt) return end
+function ScriptedWeakspotObject:OnWeakspotPinged(evt) end
 
----@protected
 ---@param evt WeakspotRequestAttributeChangeEvent
 ---@return Bool
-function ScriptedWeakspotObject:OnWeakspotRequestAttributeChange(evt) return end
+function ScriptedWeakspotObject:OnWeakspotRequestAttributeChange(evt) end
 
----@protected
 ---@param appName CName|string
 ---@return nil
-function ScriptedWeakspotObject:ChangeAppearance(appName) return end
+function ScriptedWeakspotObject:ChangeAppearance(appName) end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function ScriptedWeakspotObject:DamagePipelineFinalized(evt) return end
+function ScriptedWeakspotObject:DamagePipelineFinalized(evt) end
 
 ---@param instigator? gameObject
 ---@return nil
-function ScriptedWeakspotObject:DestroyWeakspot(instigator) return end
+function ScriptedWeakspotObject:DestroyWeakspot(instigator) end
 
 ---@param instigator? gameObject
 ---@return nil
-function ScriptedWeakspotObject:DestroyWeakspotOnLoad(instigator) return end
-
----@protected
----@return nil
-function ScriptedWeakspotObject:DisableCollider() return end
-
----@protected
----@return nil
-function ScriptedWeakspotObject:DisableTargeting() return end
-
----@protected
----@return nil
-function ScriptedWeakspotObject:EnableTargeting() return end
+function ScriptedWeakspotObject:DestroyWeakspotOnLoad(instigator) end
 
 ---@return nil
-function ScriptedWeakspotObject:FireAttack() return end
+function ScriptedWeakspotObject:DisableCollider() end
+
+---@return nil
+function ScriptedWeakspotObject:DisableTargeting() end
+
+---@return nil
+function ScriptedWeakspotObject:EnableTargeting() end
+
+---@return nil
+function ScriptedWeakspotObject:FireAttack() end
 
 ---@return WeakspotRecordData
-function ScriptedWeakspotObject:GetWeakspotRecordData() return end
+function ScriptedWeakspotObject:GetWeakspotRecordData() end
 
 ---@return Bool
-function ScriptedWeakspotObject:IsDead() return end
+function ScriptedWeakspotObject:IsDead() end
 
 ---@return Bool
-function ScriptedWeakspotObject:IsInternal() return end
+function ScriptedWeakspotObject:IsInternal() end
 
 ---@return Bool
-function ScriptedWeakspotObject:IsInvulnerable() return end
+function ScriptedWeakspotObject:IsInvulnerable() end
 
----@protected
 ---@param evt gameeventsHitEvent
 ---@return nil
-function ScriptedWeakspotObject:ProcessDamagePipeline(evt) return end
+function ScriptedWeakspotObject:ProcessDamagePipeline(evt) end
 
----@protected
 ---@return nil
-function ScriptedWeakspotObject:ReadTweakData() return end
+function ScriptedWeakspotObject:ReadTweakData() end
 
----@private
 ---@return nil
-function ScriptedWeakspotObject:ResolveWeakspotOnLoad() return end
+function ScriptedWeakspotObject:ResolveWeakspotOnLoad() end
 
----@protected
 ---@param animFeatureName CName|string
 ---@param value Int32
 ---@return nil
-function ScriptedWeakspotObject:SendAIActionAnimFeature(animFeatureName, value) return end
+function ScriptedWeakspotObject:SendAIActionAnimFeature(animFeatureName, value) end
 
----@protected
 ---@param parameterName CName|string
 ---@return nil
-function ScriptedWeakspotObject:SendHideMeshParameterValue(parameterName) return end
+function ScriptedWeakspotObject:SendHideMeshParameterValue(parameterName) end
 
 ---@return nil
-function ScriptedWeakspotObject:SetHighlight() return end
+function ScriptedWeakspotObject:SetHighlight() end
 
 ---@return nil
-function ScriptedWeakspotObject:SetPercentLife() return end
+function ScriptedWeakspotObject:SetPercentLife() end
 
 ---@return nil
-function ScriptedWeakspotObject:UnSetHighlight() return end
+function ScriptedWeakspotObject:UnSetHighlight() end
 
----@protected
 ---@return nil
-function ScriptedWeakspotObject:WeakspotInitialized() return end
+function ScriptedWeakspotObject:WeakspotInitialized() end

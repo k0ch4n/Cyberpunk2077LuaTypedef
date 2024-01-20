@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameSlotDataHolder: IScriptable
----@field public ammoData gameAmmoData[]
----@field public weapon gameSlotWeaponData
+---@field ammoData gameAmmoData[]
+---@field weapon gameSlotWeaponData
 gameSlotDataHolder = {}
 
 ---@param fields? gameSlotDataHolder
 ---@return gameSlotDataHolder
-function gameSlotDataHolder.new(fields) return end
+function gameSlotDataHolder.new(fields) end

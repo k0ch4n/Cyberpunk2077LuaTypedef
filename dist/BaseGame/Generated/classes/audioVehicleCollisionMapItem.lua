@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioVehicleCollisionMapItem
----@field public name CName
----@field public impactEvent CName
----@field public scrapingLoopStart CName
----@field public scrapingLoopEnd CName
+---@field name CName
+---@field impactEvent CName
+---@field scrapingLoopStart CName
+---@field scrapingLoopEnd CName
 audioVehicleCollisionMapItem = {}
 
 ---@param fields? audioVehicleCollisionMapItem
 ---@return audioVehicleCollisionMapItem
-function audioVehicleCollisionMapItem.new(fields) return end
+function audioVehicleCollisionMapItem.new(fields) end

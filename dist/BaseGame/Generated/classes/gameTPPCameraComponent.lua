@@ -5,4 +5,4 @@ gameTPPCameraComponent = {}
 
 ---@param fields? gameTPPCameraComponent
 ---@return gameTPPCameraComponent
-function gameTPPCameraComponent.new(fields) return end
+function gameTPPCameraComponent.new(fields) end

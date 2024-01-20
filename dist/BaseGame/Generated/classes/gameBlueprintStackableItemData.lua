@@ -5,4 +5,4 @@ gameBlueprintStackableItemData = {}
 
 ---@param fields? gameBlueprintStackableItemData
 ---@return gameBlueprintStackableItemData
-function gameBlueprintStackableItemData.new(fields) return end
+function gameBlueprintStackableItemData.new(fields) end

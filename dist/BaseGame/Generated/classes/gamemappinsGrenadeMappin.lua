@@ -5,4 +5,4 @@ gamemappinsGrenadeMappin = {}
 
 ---@param fields? gamemappinsGrenadeMappin
 ---@return gamemappinsGrenadeMappin
-function gamemappinsGrenadeMappin.new(fields) return end
+function gamemappinsGrenadeMappin.new(fields) end

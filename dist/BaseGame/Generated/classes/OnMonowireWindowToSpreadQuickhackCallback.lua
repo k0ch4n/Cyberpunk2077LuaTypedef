@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class OnMonowireWindowToSpreadQuickhackCallback: gameDelaySystemScriptedDelayCallbackWrapper
----@field public MonoWireApplyQuickhackEffector MonoWireQuickHackApplyEffector
----@field public PlayerPuppet PlayerPuppet
+---@field MonoWireApplyQuickhackEffector MonoWireQuickHackApplyEffector
+---@field PlayerPuppet PlayerPuppet
 OnMonowireWindowToSpreadQuickhackCallback = {}
 
 ---@param fields? OnMonowireWindowToSpreadQuickhackCallback
 ---@return OnMonowireWindowToSpreadQuickhackCallback
-function OnMonowireWindowToSpreadQuickhackCallback.new(fields) return end
+function OnMonowireWindowToSpreadQuickhackCallback.new(fields) end
 
 ---@param effector MonoWireQuickHackApplyEffector
 ---@param playerPuppet PlayerPuppet
 ---@return OnMonowireWindowToSpreadQuickhackCallback
-function OnMonowireWindowToSpreadQuickhackCallback.Create(effector, playerPuppet) return end
+function OnMonowireWindowToSpreadQuickhackCallback.Create(effector, playerPuppet) end
 
 ---@return nil
-function OnMonowireWindowToSpreadQuickhackCallback:Call() return end
+function OnMonowireWindowToSpreadQuickhackCallback:Call() end

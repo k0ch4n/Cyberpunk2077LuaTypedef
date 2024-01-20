@@ -5,4 +5,4 @@ gameEnvironmentDamageSystem = {}
 
 ---@param fields? gameEnvironmentDamageSystem
 ---@return gameEnvironmentDamageSystem
-function gameEnvironmentDamageSystem.new(fields) return end
+function gameEnvironmentDamageSystem.new(fields) end

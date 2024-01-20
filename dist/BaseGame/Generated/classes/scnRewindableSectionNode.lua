@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class scnRewindableSectionNode: scnSceneGraphNode
----@field public events scnSceneEvent[]
----@field public sectionDuration scnSceneTime
----@field public actorBehaviors scnSectionInternalsActorBehavior[]
----@field public playSpeedModifiers scnRewindableSectionPlaySpeedModifiers
+---@field events scnSceneEvent[]
+---@field sectionDuration scnSceneTime
+---@field actorBehaviors scnSectionInternalsActorBehavior[]
+---@field playSpeedModifiers scnRewindableSectionPlaySpeedModifiers
 scnRewindableSectionNode = {}
 
 ---@param fields? scnRewindableSectionNode
 ---@return scnRewindableSectionNode
-function scnRewindableSectionNode.new(fields) return end
+function scnRewindableSectionNode.new(fields) end

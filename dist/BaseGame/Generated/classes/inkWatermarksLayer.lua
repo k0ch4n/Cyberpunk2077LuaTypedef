@@ -5,4 +5,4 @@ inkWatermarksLayer = {}
 
 ---@param fields? inkWatermarksLayer
 ---@return inkWatermarksLayer
-function inkWatermarksLayer.new(fields) return end
+function inkWatermarksLayer.new(fields) end

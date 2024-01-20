@@ -5,17 +5,15 @@ SemiAutoEvents = {}
 
 ---@param fields? SemiAutoEvents
 ---@return SemiAutoEvents
-function SemiAutoEvents.new(fields) return end
+function SemiAutoEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SemiAutoEvents:OnEnter(stateContext, scriptInterface) return end
+function SemiAutoEvents:OnEnter(stateContext, scriptInterface) end
 
----@protected
 ---@param timeDelta Float
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SemiAutoEvents:OnUpdate(timeDelta, stateContext, scriptInterface) return end
+function SemiAutoEvents:OnUpdate(timeDelta, stateContext, scriptInterface) end

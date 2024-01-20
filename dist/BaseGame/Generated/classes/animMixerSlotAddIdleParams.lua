@@ -5,4 +5,4 @@ animMixerSlotAddIdleParams = {}
 
 ---@param fields? animMixerSlotAddIdleParams
 ---@return animMixerSlotAddIdleParams
-function animMixerSlotAddIdleParams.new(fields) return end
+function animMixerSlotAddIdleParams.new(fields) end

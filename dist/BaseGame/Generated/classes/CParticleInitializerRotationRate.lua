@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CParticleInitializerRotationRate: IParticleInitializer
----@field public rotationRate IEvaluatorFloat
+---@field rotationRate IEvaluatorFloat
 CParticleInitializerRotationRate = {}
 
 ---@param fields? CParticleInitializerRotationRate
 ---@return CParticleInitializerRotationRate
-function CParticleInitializerRotationRate.new(fields) return end
+function CParticleInitializerRotationRate.new(fields) end

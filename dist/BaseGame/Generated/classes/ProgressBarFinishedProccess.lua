@@ -5,4 +5,4 @@ ProgressBarFinishedProccess = {}
 
 ---@param fields? ProgressBarFinishedProccess
 ---@return ProgressBarFinishedProccess
-function ProgressBarFinishedProccess.new(fields) return end
+function ProgressBarFinishedProccess.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class worldEditorForceAutoHideDistance: ISerializable
----@field public minAutoHideDistance Float
----@field public multiplier Float
+---@field minAutoHideDistance Float
+---@field multiplier Float
 worldEditorForceAutoHideDistance = {}
 
 ---@param fields? worldEditorForceAutoHideDistance
 ---@return worldEditorForceAutoHideDistance
-function worldEditorForceAutoHideDistance.new(fields) return end
+function worldEditorForceAutoHideDistance.new(fields) end

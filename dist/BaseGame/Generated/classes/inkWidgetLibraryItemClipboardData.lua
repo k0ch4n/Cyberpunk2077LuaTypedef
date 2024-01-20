@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkWidgetLibraryItemClipboardData: ISerializable
----@field public libraryItem inkWidgetLibraryItemUnpackedView
+---@field libraryItem inkWidgetLibraryItemUnpackedView
 inkWidgetLibraryItemClipboardData = {}
 
 ---@param fields? inkWidgetLibraryItemClipboardData
 ---@return inkWidgetLibraryItemClipboardData
-function inkWidgetLibraryItemClipboardData.new(fields) return end
+function inkWidgetLibraryItemClipboardData.new(fields) end

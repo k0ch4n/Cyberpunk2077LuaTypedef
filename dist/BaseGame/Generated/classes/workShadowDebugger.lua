@@ -5,4 +5,4 @@ workShadowDebugger = {}
 
 ---@param fields? workShadowDebugger
 ---@return workShadowDebugger
-function workShadowDebugger.new(fields) return end
+function workShadowDebugger.new(fields) end

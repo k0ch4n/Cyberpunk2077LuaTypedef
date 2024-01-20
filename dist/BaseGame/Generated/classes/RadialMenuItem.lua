@@ -5,4 +5,4 @@ RadialMenuItem = {}
 
 ---@param fields? RadialMenuItem
 ---@return RadialMenuItem
-function RadialMenuItem.new(fields) return end
+function RadialMenuItem.new(fields) end

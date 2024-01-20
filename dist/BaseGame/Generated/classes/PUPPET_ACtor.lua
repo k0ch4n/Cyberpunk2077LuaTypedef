@@ -5,4 +5,4 @@ PUPPET_ACtor = {}
 
 ---@param fields? PUPPET_ACtor
 ---@return PUPPET_ACtor
-function PUPPET_ACtor.new(fields) return end
+function PUPPET_ACtor.new(fields) end

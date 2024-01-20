@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIStackSignalConditionData
----@field public callbackId Uint32
----@field public lastValue Bool
+---@field callbackId Uint32
+---@field lastValue Bool
 AIStackSignalConditionData = {}
 
 ---@param fields? AIStackSignalConditionData
 ---@return AIStackSignalConditionData
-function AIStackSignalConditionData.new(fields) return end
+function AIStackSignalConditionData.new(fields) end

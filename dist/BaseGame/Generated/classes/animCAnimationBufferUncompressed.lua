@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class animCAnimationBufferUncompressed: animIAnimationBuffer
----@field public transforms QsTransform[][]
----@field public tracks Float[][]
----@field public duration Float
+---@field transforms QsTransform[][]
+---@field tracks Float[][]
+---@field duration Float
 animCAnimationBufferUncompressed = {}
 
 ---@param fields? animCAnimationBufferUncompressed
 ---@return animCAnimationBufferUncompressed
-function animCAnimationBufferUncompressed.new(fields) return end
+function animCAnimationBufferUncompressed.new(fields) end

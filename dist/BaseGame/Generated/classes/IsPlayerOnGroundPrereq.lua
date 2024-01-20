@@ -1,31 +1,28 @@
 ---@meta
 
 ---@class IsPlayerOnGroundPrereq: gameIScriptablePrereq
----@field public invert Bool
+---@field invert Bool
 IsPlayerOnGroundPrereq = {}
 
 ---@param fields? IsPlayerOnGroundPrereq
 ---@return IsPlayerOnGroundPrereq
-function IsPlayerOnGroundPrereq.new(fields) return end
+function IsPlayerOnGroundPrereq.new(fields) end
 
 ---@param owner gameObject
 ---@param value Bool
 ---@return Bool
-function IsPlayerOnGroundPrereq:Evaluate(owner, value) return end
+function IsPlayerOnGroundPrereq:Evaluate(owner, value) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function IsPlayerOnGroundPrereq:Initialize(recordID) return end
+function IsPlayerOnGroundPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function IsPlayerOnGroundPrereq:OnRegister(state, context) return end
+function IsPlayerOnGroundPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function IsPlayerOnGroundPrereq:OnUnregister(state, context) return end
+function IsPlayerOnGroundPrereq:OnUnregister(state, context) end

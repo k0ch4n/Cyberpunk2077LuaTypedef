@@ -5,9 +5,8 @@ AIDeviceFeedbackData = {}
 
 ---@param fields? AIDeviceFeedbackData
 ---@return AIDeviceFeedbackData
-function AIDeviceFeedbackData.new(fields) return end
+function AIDeviceFeedbackData.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIDeviceFeedbackData:Activate(context) return end
+function AIDeviceFeedbackData:Activate(context) end

@@ -1,101 +1,86 @@
 ---@meta
 
 ---@class VentilationArea: InteractiveMasterDevice
----@field protected areaComponent gameStaticTriggerAreaComponent
----@field protected RestartGameEffectOnAttach Bool
----@field protected AttackRecord String
----@field private gameEffectRef gameEffectRef
----@field private gameEffect gameEffectInstance
----@field private highLightActive Bool
+---@field areaComponent gameStaticTriggerAreaComponent
+---@field RestartGameEffectOnAttach Bool
+---@field AttackRecord String
+---@field gameEffectRef gameEffectRef
+---@field gameEffect gameEffectInstance
+---@field highLightActive Bool
 VentilationArea = {}
 
 ---@param fields? VentilationArea
 ---@return VentilationArea
-function VentilationArea.new(fields) return end
+function VentilationArea.new(fields) end
 
----@protected
 ---@param evt ActivateDevice
 ---@return Bool
-function VentilationArea:OnActivateDevice(evt) return end
+function VentilationArea:OnActivateDevice(evt) end
 
----@protected
 ---@param evt entAreaEnteredEvent
 ---@return Bool
-function VentilationArea:OnAreaEnter(evt) return end
+function VentilationArea:OnAreaEnter(evt) end
 
----@protected
 ---@param evt entAreaExitedEvent
 ---@return Bool
-function VentilationArea:OnAreaExit(evt) return end
+function VentilationArea:OnAreaExit(evt) end
 
----@protected
 ---@return Bool
-function VentilationArea:OnDetach() return end
+function VentilationArea:OnDetach() end
 
----@protected
 ---@return Bool
-function VentilationArea:OnGameAttached() return end
+function VentilationArea:OnGameAttached() end
 
----@protected
 ---@param ri entEntityRequestComponentsInterface
 ---@return Bool
-function VentilationArea:OnRequestComponents(ri) return end
+function VentilationArea:OnRequestComponents(ri) end
 
----@protected
 ---@param evt RevealDeviceRequest
 ---@return Bool
-function VentilationArea:OnRevealDeviceRequest(evt) return end
+function VentilationArea:OnRevealDeviceRequest(evt) end
 
----@protected
 ---@param ri entEntityResolveComponentsInterface
 ---@return Bool
-function VentilationArea:OnTakeControl(ri) return end
+function VentilationArea:OnTakeControl(ri) end
 
----@protected
 ---@param effectTDBID String
 ---@return nil
-function VentilationArea:ApplyStatusEffect(effectTDBID) return end
+function VentilationArea:ApplyStatusEffect(effectTDBID) end
 
----@private
 ---@param highlightType EFocusForcedHighlightType
 ---@return FocusForcedHighlightData
-function VentilationArea:CreateHighlight(highlightType) return end
+function VentilationArea:CreateHighlight(highlightType) end
 
----@private
 ---@return VentilationAreaController
-function VentilationArea:GetController() return end
+function VentilationArea:GetController() end
 
 ---@return FocusForcedHighlightData
-function VentilationArea:GetDefaultHighlight() return end
+function VentilationArea:GetDefaultHighlight() end
 
 ---@return VentilationAreaControllerPS
-function VentilationArea:GetDevicePS() return end
+function VentilationArea:GetDevicePS() end
 
 ---@param effectData? AreaEffectData
 ---@return entEntity
-function VentilationArea:GetDistractionControllerSource(effectData) return end
+function VentilationArea:GetDistractionControllerSource(effectData) end
 
 ---@return entEntity[]
-function VentilationArea:GetEntitiesInArea() return end
+function VentilationArea:GetEntitiesInArea() end
 
 ---@return gameObject
-function VentilationArea:GetStimTarget() return end
+function VentilationArea:GetStimTarget() end
 
----@private
 ---@return nil
-function VentilationArea:PlayGameEffect() return end
+function VentilationArea:PlayGameEffect() end
 
----@private
 ---@return nil
-function VentilationArea:StopGameEffect() return end
+function VentilationArea:StopGameEffect() end
 
----@private
 ---@param toogle Bool
 ---@param id entEntityID
 ---@return nil
-function VentilationArea:ToggleHighlightOnSingleTarget(toogle, id) return end
+function VentilationArea:ToggleHighlightOnSingleTarget(toogle, id) end
 
----@private
 ---@param toogle Bool
 ---@return nil
-function VentilationArea:ToggleHighlightOnTargets(toogle) return end
+function VentilationArea:ToggleHighlightOnTargets(toogle) end

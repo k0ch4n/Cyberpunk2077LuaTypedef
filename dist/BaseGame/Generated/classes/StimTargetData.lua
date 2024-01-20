@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class StimTargetData
----@field public spawnerRef NodeRef
----@field public entryID CName
+---@field spawnerRef NodeRef
+---@field entryID CName
 StimTargetData = {}
 
 ---@param fields? StimTargetData
 ---@return StimTargetData
-function StimTargetData.new(fields) return end
+function StimTargetData.new(fields) end
 
 ---@param self StimTargetData
 ---@return Bool
-function StimTargetData.IsValid(self) return end
+function StimTargetData.IsValid(self) end

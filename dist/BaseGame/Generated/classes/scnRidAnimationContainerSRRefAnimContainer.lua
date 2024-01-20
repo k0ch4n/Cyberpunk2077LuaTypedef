@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnRidAnimationContainerSRRefAnimContainer
----@field public animation scnRidAnimationSRRefId
----@field public context scnRidAnimationContainerSRRefAnimContainerContext
+---@field animation scnRidAnimationSRRefId
+---@field context scnRidAnimationContainerSRRefAnimContainerContext
 scnRidAnimationContainerSRRefAnimContainer = {}
 
 ---@param fields? scnRidAnimationContainerSRRefAnimContainer
 ---@return scnRidAnimationContainerSRRefAnimContainer
-function scnRidAnimationContainerSRRefAnimContainer.new(fields) return end
+function scnRidAnimationContainerSRRefAnimContainer.new(fields) end

@@ -5,46 +5,46 @@ questQuestsSystem = {}
 
 ---@param fields? questQuestsSystem
 ---@return questQuestsSystem
-function questQuestsSystem.new(fields) return end
+function questQuestsSystem.new(fields) end
 
 ---@param factName CName|string
 ---@return Int32
-function questQuestsSystem:GetFact(factName) return end
+function questQuestsSystem:GetFact(factName) end
 
 ---@param factName String
 ---@return Int32
-function questQuestsSystem:GetFactStr(factName) return end
+function questQuestsSystem:GetFactStr(factName) end
 
 ---@return nil, Float seconds, Float percent
-function questQuestsSystem:GetGameplayTimerData() return end
+function questQuestsSystem:GetGameplayTimerData() end
 
 ---@param factName CName|string
 ---@param entityId entEntityID
 ---@return Uint32
-function questQuestsSystem:RegisterEntity(factName, entityId) return end
+function questQuestsSystem:RegisterEntity(factName, entityId) end
 
 ---@param factName CName|string
 ---@param listener IScriptable
 ---@param funcName CName|string
 ---@return Uint32
-function questQuestsSystem:RegisterListener(factName, listener, funcName) return end
+function questQuestsSystem:RegisterListener(factName, listener, funcName) end
 
 ---@param factName CName|string
 ---@param value Int32
 ---@return nil
-function questQuestsSystem:SetFact(factName, value) return end
+function questQuestsSystem:SetFact(factName, value) end
 
 ---@param factName String
 ---@param value Int32
 ---@return nil
-function questQuestsSystem:SetFactStr(factName, value) return end
+function questQuestsSystem:SetFactStr(factName, value) end
 
 ---@param factName CName|string
 ---@param callbackId Uint32
 ---@return nil
-function questQuestsSystem:UnregisterEntity(factName, callbackId) return end
+function questQuestsSystem:UnregisterEntity(factName, callbackId) end
 
 ---@param factName CName|string
 ---@param id Uint32
 ---@return nil
-function questQuestsSystem:UnregisterListener(factName, id) return end
+function questQuestsSystem:UnregisterListener(factName, id) end

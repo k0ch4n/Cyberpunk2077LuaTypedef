@@ -1,5 +1,5 @@
 ---@meta
 
 ---@class animIRigIkSetup: ISerializable
----@field public name CName
+---@field name CName
 animIRigIkSetup = {}

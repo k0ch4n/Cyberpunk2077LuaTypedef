@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questMinimizeCallRequest: gameScriptableSystemRequest
----@field public minimized Bool
+---@field minimized Bool
 questMinimizeCallRequest = {}
 
 ---@param fields? questMinimizeCallRequest
 ---@return questMinimizeCallRequest
-function questMinimizeCallRequest.new(fields) return end
+function questMinimizeCallRequest.new(fields) end

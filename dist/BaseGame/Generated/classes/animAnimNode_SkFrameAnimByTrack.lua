@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class animAnimNode_SkFrameAnimByTrack: animAnimNode_SkFrameAnim
----@field public progressFloatTrack animNamedTrackIndex
----@field public timeFloatTrack animNamedTrackIndex
----@field public frameFloatTrack animNamedTrackIndex
----@field public inputWithTracks animPoseLink
+---@field progressFloatTrack animNamedTrackIndex
+---@field timeFloatTrack animNamedTrackIndex
+---@field frameFloatTrack animNamedTrackIndex
+---@field inputWithTracks animPoseLink
 animAnimNode_SkFrameAnimByTrack = {}
 
 ---@param fields? animAnimNode_SkFrameAnimByTrack
 ---@return animAnimNode_SkFrameAnimByTrack
-function animAnimNode_SkFrameAnimByTrack.new(fields) return end
+function animAnimNode_SkFrameAnimByTrack.new(fields) end

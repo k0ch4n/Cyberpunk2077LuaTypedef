@@ -5,7 +5,7 @@ CandleController = {}
 
 ---@param fields? CandleController
 ---@return CandleController
-function CandleController.new(fields) return end
+function CandleController.new(fields) end
 
 ---@return CandleControllerPS
-function CandleController:GetPS() return end
+function CandleController:GetPS() end

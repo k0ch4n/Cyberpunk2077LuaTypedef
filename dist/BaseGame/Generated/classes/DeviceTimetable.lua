@@ -1,29 +1,25 @@
 ---@meta
 
 ---@class DeviceTimetable: gameScriptableComponent
----@field public timeTableSetup DeviceTimeTableManager
+---@field timeTableSetup DeviceTimeTableManager
 DeviceTimetable = {}
 
 ---@param fields? DeviceTimetable
 ---@return DeviceTimetable
-function DeviceTimetable.new(fields) return end
+function DeviceTimetable.new(fields) end
 
----@private
 ---@return nil
-function DeviceTimetable:InitializeTimetable() return end
+function DeviceTimetable:InitializeTimetable() end
 
----@private
 ---@return nil
-function DeviceTimetable:OnGameAttach() return end
+function DeviceTimetable:OnGameAttach() end
 
----@private
 ---@return nil
-function DeviceTimetable:OnGameDetach() return end
+function DeviceTimetable:OnGameDetach() end
 
 ---@param timetable DeviceTimeTableManager
 ---@return nil
-function DeviceTimetable:SetTimetable(timetable) return end
+function DeviceTimetable:SetTimetable(timetable) end
 
----@private
 ---@return nil
-function DeviceTimetable:UninitializeTimetable() return end
+function DeviceTimetable:UninitializeTimetable() end

@@ -5,4 +5,4 @@ vehicleAudio = {}
 
 ---@param fields? vehicleAudio
 ---@return vehicleAudio
-function vehicleAudio.new(fields) return end
+function vehicleAudio.new(fields) end

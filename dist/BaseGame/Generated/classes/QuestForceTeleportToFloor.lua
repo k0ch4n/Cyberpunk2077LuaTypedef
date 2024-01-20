@@ -5,8 +5,8 @@ QuestForceTeleportToFloor = {}
 
 ---@param fields? QuestForceTeleportToFloor
 ---@return QuestForceTeleportToFloor
-function QuestForceTeleportToFloor.new(fields) return end
+function QuestForceTeleportToFloor.new(fields) end
 
 ---@param floor Int32
 ---@return nil
-function QuestForceTeleportToFloor:SetProperties(floor) return end
+function QuestForceTeleportToFloor:SetProperties(floor) end

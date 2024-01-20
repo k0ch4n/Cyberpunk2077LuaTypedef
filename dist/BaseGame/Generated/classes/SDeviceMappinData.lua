@@ -1,22 +1,22 @@
 ---@meta
 
 ---@class SDeviceMappinData
----@field public mappinName CName
----@field public mappinType TweakDBID
----@field public mappinVariant gamedataMappinVariant
----@field public enabled Bool
----@field public range Float
----@field public caption String
----@field public offset Vector4
----@field public position Vector4
----@field public permanent Bool
----@field public checkIfIsTarget Bool
----@field public id gameNewMappinID
----@field public active Bool
----@field public gameplayRole EGameplayRole
----@field public visualStateData GameplayRoleMappinData
+---@field mappinName CName
+---@field mappinType TweakDBID
+---@field mappinVariant gamedataMappinVariant
+---@field enabled Bool
+---@field range Float
+---@field caption String
+---@field offset Vector4
+---@field position Vector4
+---@field permanent Bool
+---@field checkIfIsTarget Bool
+---@field id gameNewMappinID
+---@field active Bool
+---@field gameplayRole EGameplayRole
+---@field visualStateData GameplayRoleMappinData
 SDeviceMappinData = {}
 
 ---@param fields? SDeviceMappinData
 ---@return SDeviceMappinData
-function SDeviceMappinData.new(fields) return end
+function SDeviceMappinData.new(fields) end

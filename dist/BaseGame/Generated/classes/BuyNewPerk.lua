@@ -5,4 +5,4 @@ BuyNewPerk = {}
 
 ---@param fields? BuyNewPerk
 ---@return BuyNewPerk
-function BuyNewPerk.new(fields) return end
+function BuyNewPerk.new(fields) end

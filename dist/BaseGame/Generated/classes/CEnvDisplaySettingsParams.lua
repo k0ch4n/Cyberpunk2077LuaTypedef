@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class CEnvDisplaySettingsParams
----@field public enableInstantAdaptation Bool
----@field public enableGlobalLightingTrajectory Bool
----@field public enableEnvProbeInstantUpdate Bool
----@field public allowEnvProbeUpdate Bool
----@field public allowBloom Bool
----@field public allowColorMod Bool
----@field public allowAntialiasing Bool
----@field public allowGlobalFog Bool
----@field public allowDOF Bool
----@field public allowSSAO Bool
----@field public allowCloudsShadow Bool
----@field public allowWaterShader Bool
----@field public gamma Float
+---@field enableInstantAdaptation Bool
+---@field enableGlobalLightingTrajectory Bool
+---@field enableEnvProbeInstantUpdate Bool
+---@field allowEnvProbeUpdate Bool
+---@field allowBloom Bool
+---@field allowColorMod Bool
+---@field allowAntialiasing Bool
+---@field allowGlobalFog Bool
+---@field allowDOF Bool
+---@field allowSSAO Bool
+---@field allowCloudsShadow Bool
+---@field allowWaterShader Bool
+---@field gamma Float
 CEnvDisplaySettingsParams = {}
 
 ---@param fields? CEnvDisplaySettingsParams
 ---@return CEnvDisplaySettingsParams
-function CEnvDisplaySettingsParams.new(fields) return end
+function CEnvDisplaySettingsParams.new(fields) end

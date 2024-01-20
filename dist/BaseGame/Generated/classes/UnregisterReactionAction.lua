@@ -1,20 +1,18 @@
 ---@meta
 
 ---@class UnregisterReactionAction: AIbehaviortaskScript
----@field public reactionName CName
----@field public onDeactivation Bool
+---@field reactionName CName
+---@field onDeactivation Bool
 UnregisterReactionAction = {}
 
 ---@param fields? UnregisterReactionAction
 ---@return UnregisterReactionAction
-function UnregisterReactionAction.new(fields) return end
+function UnregisterReactionAction.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UnregisterReactionAction:Activate(context) return end
+function UnregisterReactionAction:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UnregisterReactionAction:Deactivate(context) return end
+function UnregisterReactionAction:Deactivate(context) end

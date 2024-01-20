@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class redTaskProgressMessage
----@field public id Uint32
----@field public parent Uint32
----@field public progress Float
----@field public processingTime Float
+---@field id Uint32
+---@field parent Uint32
+---@field progress Float
+---@field processingTime Float
 redTaskProgressMessage = {}
 
 ---@param fields? redTaskProgressMessage
 ---@return redTaskProgressMessage
-function redTaskProgressMessage.new(fields) return end
+function redTaskProgressMessage.new(fields) end

@@ -5,27 +5,22 @@ KurtzComponent = {}
 
 ---@param fields? KurtzComponent
 ---@return KurtzComponent
-function KurtzComponent.new(fields) return end
+function KurtzComponent.new(fields) end
 
----@protected
 ---@param aiEvent AIAIEvent
 ---@return Bool
-function KurtzComponent:OnAIEvent(aiEvent) return end
+function KurtzComponent:OnAIEvent(aiEvent) end
 
----@protected
 ---@param evt gameeventsDeathEvent
 ---@return Bool
-function KurtzComponent:OnDeath(evt) return end
+function KurtzComponent:OnDeath(evt) end
 
----@protected
 ---@param evt gameeventsDefeatedEvent
 ---@return Bool
-function KurtzComponent:OnDefeated(evt) return end
+function KurtzComponent:OnDefeated(evt) end
 
----@private
 ---@return nil
-function KurtzComponent:OnGameAttach() return end
+function KurtzComponent:OnGameAttach() end
 
----@private
 ---@return nil
-function KurtzComponent:OnGameDetach() return end
+function KurtzComponent:OnGameDetach() end

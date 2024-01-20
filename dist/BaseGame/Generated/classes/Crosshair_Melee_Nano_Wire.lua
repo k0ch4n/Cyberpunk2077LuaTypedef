@@ -1,37 +1,35 @@
 ---@meta
 
 ---@class Crosshair_Melee_Nano_Wire: CrosshairGameController_Melee
----@field private animEnterADS inkanimProxy
----@field private inAimDownSight Bool
----@field private isHoveringOfficer Bool
----@field private inChargedHold Bool
----@field private anim_EnterHipFire inkanimProxy
----@field private anim_HoverEnterEnemy inkanimProxy
----@field private anim_EnterStrongAttack inkanimProxy
----@field private anim_EnterThrowAttack inkanimProxy
----@field private anim_EnterEveryOtherAttack inkanimProxy
----@field private anim_EnterChargedHold inkanimProxy
----@field private anim_HoverExitEnemy inkanimProxy
+---@field animEnterADS inkanimProxy
+---@field inAimDownSight Bool
+---@field isHoveringOfficer Bool
+---@field inChargedHold Bool
+---@field anim_EnterHipFire inkanimProxy
+---@field anim_HoverEnterEnemy inkanimProxy
+---@field anim_EnterStrongAttack inkanimProxy
+---@field anim_EnterThrowAttack inkanimProxy
+---@field anim_EnterEveryOtherAttack inkanimProxy
+---@field anim_EnterChargedHold inkanimProxy
+---@field anim_HoverExitEnemy inkanimProxy
 Crosshair_Melee_Nano_Wire = {}
 
 ---@param fields? Crosshair_Melee_Nano_Wire
 ---@return Crosshair_Melee_Nano_Wire
-function Crosshair_Melee_Nano_Wire.new(fields) return end
+function Crosshair_Melee_Nano_Wire.new(fields) end
 
----@protected
 ---@param state CName|string
 ---@param aimedAtEntity entEntity
 ---@return nil
-function Crosshair_Melee_Nano_Wire:ApplyCrosshairGUIState(state, aimedAtEntity) return end
+function Crosshair_Melee_Nano_Wire:ApplyCrosshairGUIState(state, aimedAtEntity) end
 
 ---@param firstEquip Bool
 ---@return inkanimProxy
-function Crosshair_Melee_Nano_Wire:GetIntroAnimation(firstEquip) return end
+function Crosshair_Melee_Nano_Wire:GetIntroAnimation(firstEquip) end
 
 ---@return inkanimProxy
-function Crosshair_Melee_Nano_Wire:GetOutroAnimation() return end
+function Crosshair_Melee_Nano_Wire:GetOutroAnimation() end
 
----@protected
 ---@param value gamePSMMeleeWeapon
 ---@return nil
-function Crosshair_Melee_Nano_Wire:OnMeleeState_Update(value) return end
+function Crosshair_Melee_Nano_Wire:OnMeleeState_Update(value) end

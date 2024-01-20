@@ -5,4 +5,4 @@ inkRectangleWidget = {}
 
 ---@param fields? inkRectangleWidget
 ---@return inkRectangleWidget
-function inkRectangleWidget.new(fields) return end
+function inkRectangleWidget.new(fields) end

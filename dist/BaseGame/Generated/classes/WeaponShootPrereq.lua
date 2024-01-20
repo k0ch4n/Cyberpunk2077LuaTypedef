@@ -1,37 +1,33 @@
 ---@meta
 
 ---@class WeaponShootPrereq: gameIScriptablePrereq
----@field public howManyAttacks Int32
+---@field howManyAttacks Int32
 WeaponShootPrereq = {}
 
 ---@param fields? WeaponShootPrereq
 ---@return WeaponShootPrereq
-function WeaponShootPrereq.new(fields) return end
+function WeaponShootPrereq.new(fields) end
 
 ---@param owner gameObject
 ---@param remainingAttacks Int32
 ---@return Bool
-function WeaponShootPrereq:Evaluate(owner, remainingAttacks) return end
+function WeaponShootPrereq:Evaluate(owner, remainingAttacks) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function WeaponShootPrereq:Initialize(recordID) return end
+function WeaponShootPrereq:Initialize(recordID) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function WeaponShootPrereq:OnApplied(state, context) return end
+function WeaponShootPrereq:OnApplied(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function WeaponShootPrereq:OnRegister(state, context) return end
+function WeaponShootPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function WeaponShootPrereq:OnUnregister(state, context) return end
+function WeaponShootPrereq:OnUnregister(state, context) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class CharacterCreationTooltipData: MessageTooltipData
----@field public attribiuteLevel String
----@field public maxedOrMinimumLabelText String
+---@field attribiuteLevel String
+---@field maxedOrMinimumLabelText String
 CharacterCreationTooltipData = {}
 
 ---@param fields? CharacterCreationTooltipData
 ---@return CharacterCreationTooltipData
-function CharacterCreationTooltipData.new(fields) return end
+function CharacterCreationTooltipData.new(fields) end

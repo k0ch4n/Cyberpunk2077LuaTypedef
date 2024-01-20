@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class localizationPersistenceOnScreenEntries: ISerializable
----@field public entries localizationPersistenceOnScreenEntry[]
+---@field entries localizationPersistenceOnScreenEntry[]
 localizationPersistenceOnScreenEntries = {}
 
 ---@param fields? localizationPersistenceOnScreenEntries
 ---@return localizationPersistenceOnScreenEntries
-function localizationPersistenceOnScreenEntries.new(fields) return end
+function localizationPersistenceOnScreenEntries.new(fields) end

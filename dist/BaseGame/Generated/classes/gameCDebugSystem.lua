@@ -5,4 +5,4 @@ gameCDebugSystem = {}
 
 ---@param fields? gameCDebugSystem
 ---@return gameCDebugSystem
-function gameCDebugSystem.new(fields) return end
+function gameCDebugSystem.new(fields) end

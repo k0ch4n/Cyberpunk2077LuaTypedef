@@ -1,100 +1,91 @@
 ---@meta
 
 ---@class gameuiWardrobeSetPreviewGameController: gameuiBaseGarmentItemPreviewGameController
----@field private colliderWidgetRef inkWidgetReference
----@field private colliderWidget inkWidget
----@field private data InventoryItemPreviewData
----@field private isMouseDown Bool
----@field private isNotification Bool
----@field private c_GARMENT_ROTATION_SPEED Float
+---@field colliderWidgetRef inkWidgetReference
+---@field colliderWidget inkWidget
+---@field data InventoryItemPreviewData
+---@field isMouseDown Bool
+---@field isNotification Bool
+---@field c_GARMENT_ROTATION_SPEED Float
 gameuiWardrobeSetPreviewGameController = {}
 
 ---@param fields? gameuiWardrobeSetPreviewGameController
 ---@return gameuiWardrobeSetPreviewGameController
-function gameuiWardrobeSetPreviewGameController.new(fields) return end
+function gameuiWardrobeSetPreviewGameController.new(fields) end
 
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:ClearPuppet() return end
+function gameuiWardrobeSetPreviewGameController:ClearPuppet() end
 
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:HandleUnderwearVisualTags() return end
-
----@param itemID gameItemID
----@return nil
-function gameuiWardrobeSetPreviewGameController:PreviewEquipAndForceShowItem(itemID) return end
+function gameuiWardrobeSetPreviewGameController:HandleUnderwearVisualTags() end
 
 ---@param itemID gameItemID
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:PreviewEquipItem(itemID) return end
+function gameuiWardrobeSetPreviewGameController:PreviewEquipAndForceShowItem(itemID) end
+
+---@param itemID gameItemID
+---@return nil
+function gameuiWardrobeSetPreviewGameController:PreviewEquipItem(itemID) end
 
 ---@param equipmentArea gamedataEquipmentArea
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:PreviewUnequipFromEquipmentArea(equipmentArea) return end
+function gameuiWardrobeSetPreviewGameController:PreviewUnequipFromEquipmentArea(equipmentArea) end
 
 ---@param slotID TweakDBID|string
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:PreviewUnequipFromSlot(slotID) return end
+function gameuiWardrobeSetPreviewGameController:PreviewUnequipFromSlot(slotID) end
 
 ---@param itemID gameItemID
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:PreviewUnequipItem(itemID) return end
+function gameuiWardrobeSetPreviewGameController:PreviewUnequipItem(itemID) end
 
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:RestorePuppetWeapons() return end
+function gameuiWardrobeSetPreviewGameController:RestorePuppetWeapons() end
 
 ---@param visualItems gameItemID[]
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:SetUpPuppet(visualItems) return end
+function gameuiWardrobeSetPreviewGameController:SetUpPuppet(visualItems) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWardrobeSetPreviewGameController:OnGlobalRelease(e) return end
+function gameuiWardrobeSetPreviewGameController:OnGlobalRelease(e) end
 
----@protected
 ---@return Bool
-function gameuiWardrobeSetPreviewGameController:OnInitialize() return end
+function gameuiWardrobeSetPreviewGameController:OnInitialize() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWardrobeSetPreviewGameController:OnPress(e) return end
+function gameuiWardrobeSetPreviewGameController:OnPress(e) end
 
----@protected
 ---@return Bool
-function gameuiWardrobeSetPreviewGameController:OnPreviewInitialized() return end
+function gameuiWardrobeSetPreviewGameController:OnPreviewInitialized() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function gameuiWardrobeSetPreviewGameController:OnRelativeInput(e) return end
+function gameuiWardrobeSetPreviewGameController:OnRelativeInput(e) end
 
----@protected
 ---@return Bool
-function gameuiWardrobeSetPreviewGameController:OnUninitialize() return end
+function gameuiWardrobeSetPreviewGameController:OnUninitialize() end
 
----@protected
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:CleanUpPuppet() return end
+function gameuiWardrobeSetPreviewGameController:CleanUpPuppet() end
 
 ---@param slotID TweakDBID|string
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:DelayedResetItemAppearanceInSlot(slotID) return end
+function gameuiWardrobeSetPreviewGameController:DelayedResetItemAppearanceInSlot(slotID) end
 
 ---@return gameItemID[]
-function gameuiWardrobeSetPreviewGameController:GetVisualItems() return end
+function gameuiWardrobeSetPreviewGameController:GetVisualItems() end
 
----@protected
 ---@param e inkPointerEvent
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:HandleAxisInput(e) return end
+function gameuiWardrobeSetPreviewGameController:HandleAxisInput(e) end
 
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:RestorePuppetEquipment() return end
+function gameuiWardrobeSetPreviewGameController:RestorePuppetEquipment() end
 
 ---@return nil
-function gameuiWardrobeSetPreviewGameController:SyncUnderwearToEquipmentSystem() return end
+function gameuiWardrobeSetPreviewGameController:SyncUnderwearToEquipmentSystem() end
 
----@protected
 ---@return Bool
-function gameuiWardrobeSetPreviewGameController:TryRestoreActiveWardrobeSet() return end
+function gameuiWardrobeSetPreviewGameController:TryRestoreActiveWardrobeSet() end

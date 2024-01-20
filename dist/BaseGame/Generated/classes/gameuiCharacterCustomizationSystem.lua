@@ -5,4 +5,4 @@ gameuiCharacterCustomizationSystem = {}
 
 ---@param fields? gameuiCharacterCustomizationSystem
 ---@return gameuiCharacterCustomizationSystem
-function gameuiCharacterCustomizationSystem.new(fields) return end
+function gameuiCharacterCustomizationSystem.new(fields) end

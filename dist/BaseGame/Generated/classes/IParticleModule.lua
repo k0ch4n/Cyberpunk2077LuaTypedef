@@ -1,7 +1,7 @@
 ---@meta
 
 ---@class IParticleModule: ISerializable
----@field public editorName String
----@field public editorGroup String
----@field public isEnabled Bool
+---@field editorName String
+---@field editorGroup String
+---@field isEnabled Bool
 IParticleModule = {}

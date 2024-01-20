@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class meshMeshParamDestructionChunkIndicesOffsets: meshMeshParameter
----@field public offsets meshChunkIndicesOffset[]
----@field public chunkOffsets Uint32[]
----@field public indices DataBuffer[]
+---@field offsets meshChunkIndicesOffset[]
+---@field chunkOffsets Uint32[]
+---@field indices DataBuffer[]
 meshMeshParamDestructionChunkIndicesOffsets = {}
 
 ---@param fields? meshMeshParamDestructionChunkIndicesOffsets
 ---@return meshMeshParamDestructionChunkIndicesOffsets
-function meshMeshParamDestructionChunkIndicesOffsets.new(fields) return end
+function meshMeshParamDestructionChunkIndicesOffsets.new(fields) end

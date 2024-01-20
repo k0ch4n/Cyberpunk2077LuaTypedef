@@ -5,9 +5,8 @@ TestConditon = {}
 
 ---@param fields? TestConditon
 ---@return TestConditon
-function TestConditon.new(fields) return end
+function TestConditon.new(fields) end
 
----@protected
 ---@param ent entEntity
 ---@return Bool
-function TestConditon:CheckCondition(ent) return end
+function TestConditon:CheckCondition(ent) end

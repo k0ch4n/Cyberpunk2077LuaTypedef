@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class SetPoliceSearchArea: gameScriptableSystemRequest
----@field public SearchAreaRadius Float
----@field public ChaseDistance Float
----@field public resetToDefault Bool
----@field public source CName
+---@field SearchAreaRadius Float
+---@field ChaseDistance Float
+---@field resetToDefault Bool
+---@field source CName
 SetPoliceSearchArea = {}
 
 ---@param fields? SetPoliceSearchArea
 ---@return SetPoliceSearchArea
-function SetPoliceSearchArea.new(fields) return end
+function SetPoliceSearchArea.new(fields) end
 
 ---@return String
-function SetPoliceSearchArea:GetFriendlyDesctiption() return end
+function SetPoliceSearchArea:GetFriendlyDesctiption() end

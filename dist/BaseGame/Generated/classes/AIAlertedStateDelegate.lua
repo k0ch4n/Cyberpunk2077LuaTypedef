@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class AIAlertedStateDelegate: AIbehaviorScriptBehaviorDelegate
----@field public attackInstigatorPosition Vector4
+---@field attackInstigatorPosition Vector4
 AIAlertedStateDelegate = {}
 
 ---@param fields? AIAlertedStateDelegate
 ---@return AIAlertedStateDelegate
-function AIAlertedStateDelegate.new(fields) return end
+function AIAlertedStateDelegate.new(fields) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIAlertedStateDelegate:DoLowerWeapon(context) return end
+function AIAlertedStateDelegate:DoLowerWeapon(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIAlertedStateDelegate:DoSetExplosionInstigatorPositionAsStimSource(context) return end
+function AIAlertedStateDelegate:DoSetExplosionInstigatorPositionAsStimSource(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIAlertedStateDelegate:DoSetRandomAimPointLeft(context) return end
+function AIAlertedStateDelegate:DoSetRandomAimPointLeft(context) end
 
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIAlertedStateDelegate:DoSetRandomAimPointRight(context) return end
+function AIAlertedStateDelegate:DoSetRandomAimPointRight(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param xOffset Float
 ---@param yOffset Float
 ---@param zOffset Float
 ---@return Vector4
-function AIAlertedStateDelegate:GetPositionAroundInstigator(context, xOffset, yOffset, zOffset) return end
+function AIAlertedStateDelegate:GetPositionAroundInstigator(context, xOffset, yOffset, zOffset) end

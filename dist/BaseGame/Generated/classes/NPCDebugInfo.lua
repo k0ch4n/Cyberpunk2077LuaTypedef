@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class NPCDebugInfo
----@field public spawnerID entEntityID
----@field public communityName CName
----@field public characterRecord gamedataCharacter_Record
+---@field spawnerID entEntityID
+---@field communityName CName
+---@field characterRecord gamedataCharacter_Record
 NPCDebugInfo = {}
 
 ---@param fields? NPCDebugInfo
 ---@return NPCDebugInfo
-function NPCDebugInfo.new(fields) return end
+function NPCDebugInfo.new(fields) end
 
 ---@param self NPCDebugInfo
 ---@return Bool
-function NPCDebugInfo.IsValid(self) return end
+function NPCDebugInfo.IsValid(self) end

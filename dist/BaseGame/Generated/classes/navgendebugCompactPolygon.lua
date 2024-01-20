@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class navgendebugCompactPolygon: ISerializable
----@field public index Uint16
----@field public indices Uint16[]
----@field public neighbors Uint16[]
----@field public area Uint8
----@field public region Uint16
----@field public flags Uint16
+---@field index Uint16
+---@field indices Uint16[]
+---@field neighbors Uint16[]
+---@field area Uint8
+---@field region Uint16
+---@field flags Uint16
 navgendebugCompactPolygon = {}
 
 ---@param fields? navgendebugCompactPolygon
 ---@return navgendebugCompactPolygon
-function navgendebugCompactPolygon.new(fields) return end
+function navgendebugCompactPolygon.new(fields) end

@@ -5,4 +5,4 @@ AIStopCoverCommand = {}
 
 ---@param fields? AIStopCoverCommand
 ---@return AIStopCoverCommand
-function AIStopCoverCommand.new(fields) return end
+function AIStopCoverCommand.new(fields) end

@@ -5,9 +5,8 @@ GlobalDeathCondition = {}
 
 ---@param fields? GlobalDeathCondition
 ---@return GlobalDeathCondition
-function GlobalDeathCondition.new(fields) return end
+function GlobalDeathCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function GlobalDeathCondition:Check(context) return end
+function GlobalDeathCondition:Check(context) end

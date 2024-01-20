@@ -5,4 +5,4 @@ genScriptedRandomizationSupervisor = {}
 
 ---@param fields? genScriptedRandomizationSupervisor
 ---@return genScriptedRandomizationSupervisor
-function genScriptedRandomizationSupervisor.new(fields) return end
+function genScriptedRandomizationSupervisor.new(fields) end

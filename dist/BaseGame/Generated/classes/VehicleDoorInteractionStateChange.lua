@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class VehicleDoorInteractionStateChange: ActionBool
----@field public door vehicleEVehicleDoor
----@field public newState vehicleVehicleDoorInteractionState
----@field public source String
+---@field door vehicleEVehicleDoor
+---@field newState vehicleVehicleDoorInteractionState
+---@field source String
 VehicleDoorInteractionStateChange = {}
 
 ---@param fields? VehicleDoorInteractionStateChange
 ---@return VehicleDoorInteractionStateChange
-function VehicleDoorInteractionStateChange.new(fields) return end
+function VehicleDoorInteractionStateChange.new(fields) end
 
 ---@param doorToChange vehicleEVehicleDoor
 ---@param desiredState vehicleVehicleDoorInteractionState
 ---@param reason String
 ---@return nil
-function VehicleDoorInteractionStateChange:SetProperties(doorToChange, desiredState, reason) return end
+function VehicleDoorInteractionStateChange:SetProperties(doorToChange, desiredState, reason) end

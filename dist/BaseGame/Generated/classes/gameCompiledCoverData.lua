@@ -5,4 +5,4 @@ gameCompiledCoverData = {}
 
 ---@param fields? gameCompiledCoverData
 ---@return gameCompiledCoverData
-function gameCompiledCoverData.new(fields) return end
+function gameCompiledCoverData.new(fields) end

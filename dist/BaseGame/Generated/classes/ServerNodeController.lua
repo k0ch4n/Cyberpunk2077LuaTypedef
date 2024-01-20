@@ -5,7 +5,7 @@ ServerNodeController = {}
 
 ---@param fields? ServerNodeController
 ---@return ServerNodeController
-function ServerNodeController.new(fields) return end
+function ServerNodeController.new(fields) end
 
 ---@return ServerNodeControllerPS
-function ServerNodeController:GetPS() return end
+function ServerNodeController:GetPS() end

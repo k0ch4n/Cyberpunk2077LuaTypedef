@@ -5,7 +5,7 @@ gameAttack_GameEffect = {}
 
 ---@param fields? gameAttack_GameEffect
 ---@return gameAttack_GameEffect
-function gameAttack_GameEffect.new(fields) return end
+function gameAttack_GameEffect.new(fields) end
 
 ---@param attackIniattackRecord gamedataAttack_Record
 ---@param weapon gameweaponObject
@@ -14,25 +14,25 @@ function gameAttack_GameEffect.new(fields) return end
 ---@param position Vector4
 ---@param duration? Float
 ---@return gamedataAttack_GameEffect_Record
-function gameAttack_GameEffect.SpawnExplosionAttack(attackIniattackRecord, weapon, instigator, source, position, duration) return end
+function gameAttack_GameEffect.SpawnExplosionAttack(attackIniattackRecord, weapon, instigator, source, position, duration) end
 
 ---@param timeDilatable gameTimeDilatable
 ---@return Bool
-function gameAttack_GameEffect:OverrideTimeDilationDriver(timeDilatable) return end
+function gameAttack_GameEffect:OverrideTimeDilationDriver(timeDilatable) end
 
 ---@param instigator gameObject
 ---@return gameEffectInstance
-function gameAttack_GameEffect:PrepareAttack(instigator) return end
+function gameAttack_GameEffect:PrepareAttack(instigator) end
 
 ---@return Bool
-function gameAttack_GameEffect:ResetTimeDilationDriver() return end
+function gameAttack_GameEffect:ResetTimeDilationDriver() end
 
 ---@param pos Vector4
 ---@return nil
-function gameAttack_GameEffect:SetAttackPosition(pos) return end
+function gameAttack_GameEffect:SetAttackPosition(pos) end
 
 ---@return nil
-function gameAttack_GameEffect:StartAttackContinous() return end
+function gameAttack_GameEffect:StartAttackContinous() end
 
 ---@return Bool
-function gameAttack_GameEffect:StopAttack() return end
+function gameAttack_GameEffect:StopAttack() end

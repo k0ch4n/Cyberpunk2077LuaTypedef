@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiarcadeTankScoreMultiplierHUDController: inkWidgetLogicController
----@field public scoreMultiplierBarFill inkImageWidgetReference
+---@field scoreMultiplierBarFill inkImageWidgetReference
 gameuiarcadeTankScoreMultiplierHUDController = {}
 
 ---@param fields? gameuiarcadeTankScoreMultiplierHUDController
 ---@return gameuiarcadeTankScoreMultiplierHUDController
-function gameuiarcadeTankScoreMultiplierHUDController.new(fields) return end
+function gameuiarcadeTankScoreMultiplierHUDController.new(fields) end

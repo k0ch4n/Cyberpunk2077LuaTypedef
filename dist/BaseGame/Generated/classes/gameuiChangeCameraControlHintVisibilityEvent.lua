@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiChangeCameraControlHintVisibilityEvent: redEvent
----@field public visible Bool
+---@field visible Bool
 gameuiChangeCameraControlHintVisibilityEvent = {}
 
 ---@param fields? gameuiChangeCameraControlHintVisibilityEvent
 ---@return gameuiChangeCameraControlHintVisibilityEvent
-function gameuiChangeCameraControlHintVisibilityEvent.new(fields) return end
+function gameuiChangeCameraControlHintVisibilityEvent.new(fields) end

@@ -1,43 +1,38 @@
 ---@meta
 
 ---@class DebugHubMenuGameController: gameuiMenuGameController
----@field private menuCtrl DebugHubMenuLogicController
----@field private selectorCtrl hubSelectorController
----@field private menuEventDispatcher inkMenuEventDispatcher
----@field private player PlayerPuppet
----@field private PDS PlayerDevelopmentSystem
----@field private currencyListener Uint32
----@field private characterCredListener Uint32
----@field private characterLevelListener Uint32
----@field private characterCurrentXPListener Uint32
----@field private characterCredPointsListener Uint32
----@field private Transaction gameTransactionSystem
+---@field menuCtrl DebugHubMenuLogicController
+---@field selectorCtrl hubSelectorController
+---@field menuEventDispatcher inkMenuEventDispatcher
+---@field player PlayerPuppet
+---@field PDS PlayerDevelopmentSystem
+---@field currencyListener Uint32
+---@field characterCredListener Uint32
+---@field characterLevelListener Uint32
+---@field characterCurrentXPListener Uint32
+---@field characterCredPointsListener Uint32
+---@field Transaction gameTransactionSystem
 DebugHubMenuGameController = {}
 
 ---@param fields? DebugHubMenuGameController
 ---@return DebugHubMenuGameController
-function DebugHubMenuGameController.new(fields) return end
+function DebugHubMenuGameController.new(fields) end
 
----@protected
 ---@param evt inkPointerEvent
 ---@return Bool
-function DebugHubMenuGameController:OnButtonRelease(evt) return end
+function DebugHubMenuGameController:OnButtonRelease(evt) end
 
----@protected
 ---@return Bool
-function DebugHubMenuGameController:OnInitialize() return end
+function DebugHubMenuGameController:OnInitialize() end
 
----@protected
 ---@param index Int32
 ---@param value String
 ---@return Bool
-function DebugHubMenuGameController:OnMenuChanged(index, value) return end
+function DebugHubMenuGameController:OnMenuChanged(index, value) end
 
----@protected
 ---@param menuEventDispatcher inkMenuEventDispatcher
 ---@return Bool
-function DebugHubMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) return end
+function DebugHubMenuGameController:OnSetMenuEventDispatcher(menuEventDispatcher) end
 
----@protected
 ---@return Bool
-function DebugHubMenuGameController:OnUninitialize() return end
+function DebugHubMenuGameController:OnUninitialize() end

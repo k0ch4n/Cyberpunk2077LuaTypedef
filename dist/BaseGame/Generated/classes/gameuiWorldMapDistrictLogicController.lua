@@ -1,32 +1,28 @@
 ---@meta
 
 ---@class gameuiWorldMapDistrictLogicController: inkWidgetLogicController
----@field public record gamedataDistrict_Record
----@field public type gamedataDistrict
----@field public selected Bool
----@field public outlineWidget inkLinePatternWidgetReference
----@field public iconWidget inkImageWidgetReference
----@field private selectAnim inkanimProxy
----@field private rootWidget inkWidget
+---@field record gamedataDistrict_Record
+---@field type gamedataDistrict
+---@field selected Bool
+---@field outlineWidget inkLinePatternWidgetReference
+---@field iconWidget inkImageWidgetReference
+---@field selectAnim inkanimProxy
+---@field rootWidget inkWidget
 gameuiWorldMapDistrictLogicController = {}
 
 ---@param fields? gameuiWorldMapDistrictLogicController
 ---@return gameuiWorldMapDistrictLogicController
-function gameuiWorldMapDistrictLogicController.new(fields) return end
+function gameuiWorldMapDistrictLogicController.new(fields) end
 
----@protected
 ---@return Bool
-function gameuiWorldMapDistrictLogicController:OnInitDistrict() return end
+function gameuiWorldMapDistrictLogicController:OnInitDistrict() end
 
----@protected
 ---@param inSelected Bool
 ---@return Bool
-function gameuiWorldMapDistrictLogicController:OnSetSelected(inSelected) return end
+function gameuiWorldMapDistrictLogicController:OnSetSelected(inSelected) end
 
----@private
 ---@return gamedataDistrict_Record
-function gameuiWorldMapDistrictLogicController:GetParentDistrictRecord() return end
+function gameuiWorldMapDistrictLogicController:GetParentDistrictRecord() end
 
----@private
 ---@return Bool
-function gameuiWorldMapDistrictLogicController:IsSubDistrict() return end
+function gameuiWorldMapDistrictLogicController:IsSubDistrict() end

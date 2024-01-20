@@ -5,37 +5,37 @@ gamedataVehicleSteeringSettings_Record = {}
 
 ---@param fields? gamedataVehicleSteeringSettings_Record
 ---@return gamedataVehicleSteeringSettings_Record
-function gamedataVehicleSteeringSettings_Record.new(fields) return end
+function gamedataVehicleSteeringSettings_Record.new(fields) end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:ErrorMagnitudeForFullSteering() return end
+function gamedataVehicleSteeringSettings_Record:ErrorMagnitudeForFullSteering() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:ErrorMagnitudeForMildSteering() return end
+function gamedataVehicleSteeringSettings_Record:ErrorMagnitudeForMildSteering() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:FullSteeringSpeed() return end
+function gamedataVehicleSteeringSettings_Record:FullSteeringSpeed() end
 
 ---@return Bool
-function gamedataVehicleSteeringSettings_Record:IncreaseSteeringDistForAvoidance() return end
+function gamedataVehicleSteeringSettings_Record:IncreaseSteeringDistForAvoidance() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:MaxTargetDistance() return end
+function gamedataVehicleSteeringSettings_Record:MaxTargetDistance() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:MildSteeringSpeed() return end
+function gamedataVehicleSteeringSettings_Record:MildSteeringSpeed() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:MinTargetDistance() return end
+function gamedataVehicleSteeringSettings_Record:MinTargetDistance() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:SpeedForMaxDistance() return end
+function gamedataVehicleSteeringSettings_Record:SpeedForMaxDistance() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:SpeedForMinDistance() return end
+function gamedataVehicleSteeringSettings_Record:SpeedForMinDistance() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:VehicleMaxTurnSpeed() return end
+function gamedataVehicleSteeringSettings_Record:VehicleMaxTurnSpeed() end
 
 ---@return Float
-function gamedataVehicleSteeringSettings_Record:VehicleMinTurnSpeed() return end
+function gamedataVehicleSteeringSettings_Record:VehicleMinTurnSpeed() end

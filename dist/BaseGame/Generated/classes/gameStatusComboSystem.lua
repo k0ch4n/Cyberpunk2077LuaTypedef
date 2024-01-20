@@ -5,4 +5,4 @@ gameStatusComboSystem = {}
 
 ---@param fields? gameStatusComboSystem
 ---@return gameStatusComboSystem
-function gameStatusComboSystem.new(fields) return end
+function gameStatusComboSystem.new(fields) end

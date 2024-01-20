@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class FeatureFlagsMask
----@field public flags Uint64
+---@field flags Uint64
 FeatureFlagsMask = {}
 
 ---@param fields? FeatureFlagsMask
 ---@return FeatureFlagsMask
-function FeatureFlagsMask.new(fields) return end
+function FeatureFlagsMask.new(fields) end

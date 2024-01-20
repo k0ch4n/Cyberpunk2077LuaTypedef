@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SDeviceTimetableEntry
----@field public time SSimpleGameTime
----@field public state EDeviceStatus
----@field public entryID Uint32
+---@field time SSimpleGameTime
+---@field state EDeviceStatus
+---@field entryID Uint32
 SDeviceTimetableEntry = {}
 
 ---@param fields? SDeviceTimetableEntry
 ---@return SDeviceTimetableEntry
-function SDeviceTimetableEntry.new(fields) return end
+function SDeviceTimetableEntry.new(fields) end

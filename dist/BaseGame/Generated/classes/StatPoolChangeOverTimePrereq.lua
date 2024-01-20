@@ -1,30 +1,27 @@
 ---@meta
 
 ---@class StatPoolChangeOverTimePrereq: gameIScriptablePrereq
----@field public statPoolType gamedataStatPoolType
----@field public timeFrame Float
----@field public valueToCheck Float
----@field public comparePercentage Bool
----@field public checkGain Bool
+---@field statPoolType gamedataStatPoolType
+---@field timeFrame Float
+---@field valueToCheck Float
+---@field comparePercentage Bool
+---@field checkGain Bool
 StatPoolChangeOverTimePrereq = {}
 
 ---@param fields? StatPoolChangeOverTimePrereq
 ---@return StatPoolChangeOverTimePrereq
-function StatPoolChangeOverTimePrereq.new(fields) return end
+function StatPoolChangeOverTimePrereq.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@return nil
-function StatPoolChangeOverTimePrereq:Initialize(record) return end
+function StatPoolChangeOverTimePrereq:Initialize(record) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function StatPoolChangeOverTimePrereq:OnRegister(state, context) return end
+function StatPoolChangeOverTimePrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function StatPoolChangeOverTimePrereq:OnUnregister(state, context) return end
+function StatPoolChangeOverTimePrereq:OnUnregister(state, context) end

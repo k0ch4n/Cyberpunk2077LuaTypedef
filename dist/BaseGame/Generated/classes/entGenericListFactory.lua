@@ -5,4 +5,4 @@ entGenericListFactory = {}
 
 ---@param fields? entGenericListFactory
 ---@return entGenericListFactory
-function entGenericListFactory.new(fields) return end
+function entGenericListFactory.new(fields) end

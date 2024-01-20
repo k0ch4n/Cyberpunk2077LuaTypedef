@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class SDamageOperationData
----@field public range Float
----@field public offset Vector4
----@field public damageType TweakDBID
+---@field range Float
+---@field offset Vector4
+---@field damageType TweakDBID
 SDamageOperationData = {}
 
 ---@param fields? SDamageOperationData
 ---@return SDamageOperationData
-function SDamageOperationData.new(fields) return end
+function SDamageOperationData.new(fields) end

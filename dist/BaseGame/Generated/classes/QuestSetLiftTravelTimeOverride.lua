@@ -5,8 +5,8 @@ QuestSetLiftTravelTimeOverride = {}
 
 ---@param fields? QuestSetLiftTravelTimeOverride
 ---@return QuestSetLiftTravelTimeOverride
-function QuestSetLiftTravelTimeOverride.new(fields) return end
+function QuestSetLiftTravelTimeOverride.new(fields) end
 
 ---@param speed Float
 ---@return nil
-function QuestSetLiftTravelTimeOverride:SetProperties(speed) return end
+function QuestSetLiftTravelTimeOverride:SetProperties(speed) end

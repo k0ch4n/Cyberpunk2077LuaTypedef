@@ -5,34 +5,29 @@ TemporaryUnequipDecisions = {}
 
 ---@param fields? TemporaryUnequipDecisions
 ---@return TemporaryUnequipDecisions
-function TemporaryUnequipDecisions.new(fields) return end
+function TemporaryUnequipDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TemporaryUnequipDecisions:EnterCondition(stateContext, scriptInterface) return end
+function TemporaryUnequipDecisions:EnterCondition(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TemporaryUnequipDecisions:IsTemporaryUnequipRequested(stateContext, scriptInterface) return end
+function TemporaryUnequipDecisions:IsTemporaryUnequipRequested(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TemporaryUnequipDecisions:ToEmptyHands(stateContext, scriptInterface) return end
+function TemporaryUnequipDecisions:ToEmptyHands(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TemporaryUnequipDecisions:ToSingleWield(stateContext, scriptInterface) return end
+function TemporaryUnequipDecisions:ToSingleWield(stateContext, scriptInterface) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function TemporaryUnequipDecisions:ToWaitForEquip(stateContext, scriptInterface) return end
+function TemporaryUnequipDecisions:ToWaitForEquip(stateContext, scriptInterface) end

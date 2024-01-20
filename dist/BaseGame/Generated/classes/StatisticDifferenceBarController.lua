@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class StatisticDifferenceBarController: inkWidgetLogicController
----@field private filled inkWidgetReference
----@field private difference inkWidgetReference
----@field private empty inkWidgetReference
+---@field filled inkWidgetReference
+---@field difference inkWidgetReference
+---@field empty inkWidgetReference
 StatisticDifferenceBarController = {}
 
 ---@param fields? StatisticDifferenceBarController
 ---@return StatisticDifferenceBarController
-function StatisticDifferenceBarController.new(fields) return end
+function StatisticDifferenceBarController.new(fields) end
 
 ---@param dataObject InventoryTooltipData_StatData
 ---@return nil
-function StatisticDifferenceBarController:Setup(dataObject) return end
+function StatisticDifferenceBarController:Setup(dataObject) end

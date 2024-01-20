@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class ElevatorDeviceBlackboardDef: DeviceBaseBlackboardDef
----@field public CurrentFloor gamebbScriptID_String
----@field public isPlayerScanned gamebbScriptID_Bool
----@field public isPaused gamebbScriptID_Bool
+---@field CurrentFloor gamebbScriptID_String
+---@field isPlayerScanned gamebbScriptID_Bool
+---@field isPaused gamebbScriptID_Bool
 ElevatorDeviceBlackboardDef = {}
 
 ---@param fields? ElevatorDeviceBlackboardDef
 ---@return ElevatorDeviceBlackboardDef
-function ElevatorDeviceBlackboardDef.new(fields) return end
+function ElevatorDeviceBlackboardDef.new(fields) end

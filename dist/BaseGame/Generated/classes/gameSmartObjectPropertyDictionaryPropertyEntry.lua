@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class gameSmartObjectPropertyDictionaryPropertyEntry
----@field public id Uint16
----@field public usage Uint32
----@field public animationName CName
----@field public sourceAnimset Uint64
----@field public type gameSmartObjectPointType
----@field public movementType moveMovementType
----@field public movementOrientation moveMovementOrientationType
----@field public isOnNavmesh Bool
----@field public isReachable Bool
----@field public overObstacle Bool
+---@field id Uint16
+---@field usage Uint32
+---@field animationName CName
+---@field sourceAnimset Uint64
+---@field type gameSmartObjectPointType
+---@field movementType moveMovementType
+---@field movementOrientation moveMovementOrientationType
+---@field isOnNavmesh Bool
+---@field isReachable Bool
+---@field overObstacle Bool
 gameSmartObjectPropertyDictionaryPropertyEntry = {}
 
 ---@param fields? gameSmartObjectPropertyDictionaryPropertyEntry
 ---@return gameSmartObjectPropertyDictionaryPropertyEntry
-function gameSmartObjectPropertyDictionaryPropertyEntry.new(fields) return end
+function gameSmartObjectPropertyDictionaryPropertyEntry.new(fields) end

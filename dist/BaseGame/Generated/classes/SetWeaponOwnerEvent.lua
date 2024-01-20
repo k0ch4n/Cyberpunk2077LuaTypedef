@@ -5,4 +5,4 @@ SetWeaponOwnerEvent = {}
 
 ---@param fields? SetWeaponOwnerEvent
 ---@return SetWeaponOwnerEvent
-function SetWeaponOwnerEvent.new(fields) return end
+function SetWeaponOwnerEvent.new(fields) end

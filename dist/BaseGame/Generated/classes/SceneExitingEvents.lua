@@ -5,10 +5,9 @@ SceneExitingEvents = {}
 
 ---@param fields? SceneExitingEvents
 ---@return SceneExitingEvents
-function SceneExitingEvents.new(fields) return end
+function SceneExitingEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function SceneExitingEvents:OnEnter(stateContext, scriptInterface) return end
+function SceneExitingEvents:OnEnter(stateContext, scriptInterface) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questLootTokenManager_NodeTypeParams
----@field public tokenNodeRef NodeRef
----@field public lootTokenState questLootTokenState
+---@field tokenNodeRef NodeRef
+---@field lootTokenState questLootTokenState
 questLootTokenManager_NodeTypeParams = {}
 
 ---@param fields? questLootTokenManager_NodeTypeParams
 ---@return questLootTokenManager_NodeTypeParams
-function questLootTokenManager_NodeTypeParams.new(fields) return end
+function questLootTokenManager_NodeTypeParams.new(fields) end

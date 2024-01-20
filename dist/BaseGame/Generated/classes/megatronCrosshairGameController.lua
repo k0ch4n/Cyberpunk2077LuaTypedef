@@ -1,90 +1,79 @@
 ---@meta
 
 ---@class megatronCrosshairGameController: gameuiWidgetGameController
----@field private bulletSpreedBlackboardId redCallbackObject
----@field private crosshairStateBlackboardId redCallbackObject
----@field private leftPart inkImageWidget
----@field private rightPart inkImageWidget
----@field private nearCenterPart inkImageWidget
----@field private farCenterPart inkImageWidget
----@field private bufferedSpread Vector2
----@field private orgSideSize Vector2
----@field public minSpread Float
----@field public gameplaySpreadMultiplier Float
----@field private crosshairState gamePSMCrosshairStates
+---@field bulletSpreedBlackboardId redCallbackObject
+---@field crosshairStateBlackboardId redCallbackObject
+---@field leftPart inkImageWidget
+---@field rightPart inkImageWidget
+---@field nearCenterPart inkImageWidget
+---@field farCenterPart inkImageWidget
+---@field bufferedSpread Vector2
+---@field orgSideSize Vector2
+---@field minSpread Float
+---@field gameplaySpreadMultiplier Float
+---@field crosshairState gamePSMCrosshairStates
 megatronCrosshairGameController = {}
 
 ---@param fields? megatronCrosshairGameController
 ---@return megatronCrosshairGameController
-function megatronCrosshairGameController.new(fields) return end
+function megatronCrosshairGameController.new(fields) end
 
----@protected
 ---@param spread Vector2
 ---@return Bool
-function megatronCrosshairGameController:OnBulletSpreadChanged(spread) return end
+function megatronCrosshairGameController:OnBulletSpreadChanged(spread) end
 
----@protected
 ---@return Bool
-function megatronCrosshairGameController:OnInitialize() return end
+function megatronCrosshairGameController:OnInitialize() end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function megatronCrosshairGameController:OnPSMCrosshairStateChanged(value) return end
+function megatronCrosshairGameController:OnPSMCrosshairStateChanged(value) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function megatronCrosshairGameController:OnPlayerAttach(playerGameObject) return end
+function megatronCrosshairGameController:OnPlayerAttach(playerGameObject) end
 
----@protected
 ---@param playerGameObject gameObject
 ---@return Bool
-function megatronCrosshairGameController:OnPlayerDetach(playerGameObject) return end
+function megatronCrosshairGameController:OnPlayerDetach(playerGameObject) end
 
----@protected
 ---@return Bool
-function megatronCrosshairGameController:OnUninitialize() return end
+function megatronCrosshairGameController:OnUninitialize() end
 
 ---@param full Bool
 ---@param duration Float
 ---@return nil
-function megatronCrosshairGameController:ColapseCrosshair(full, duration) return end
+function megatronCrosshairGameController:ColapseCrosshair(full, duration) end
 
 ---@param full Bool
 ---@param duration Float
 ---@return nil
-function megatronCrosshairGameController:ExpandCrosshair(full, duration) return end
+function megatronCrosshairGameController:ExpandCrosshair(full, duration) end
 
 ---@return gameIBlackboard
-function megatronCrosshairGameController:GetUIActiveWeaponBlackboard() return end
+function megatronCrosshairGameController:GetUIActiveWeaponBlackboard() end
 
----@private
 ---@param oldState gamePSMCrosshairStates
 ---@param newState gamePSMCrosshairStates
 ---@return nil
-function megatronCrosshairGameController:OnCrosshairStateChange(oldState, newState) return end
-
----@private
----@return nil
-function megatronCrosshairGameController:OnState_Aim() return end
+function megatronCrosshairGameController:OnCrosshairStateChange(oldState, newState) end
 
 ---@return nil
-function megatronCrosshairGameController:OnState_HipFire() return end
-
----@private
----@return nil
-function megatronCrosshairGameController:OnState_Reload() return end
+function megatronCrosshairGameController:OnState_Aim() end
 
 ---@return nil
-function megatronCrosshairGameController:OnState_Sprint() return end
+function megatronCrosshairGameController:OnState_HipFire() end
 
----@protected
+---@return nil
+function megatronCrosshairGameController:OnState_Reload() end
+
+---@return nil
+function megatronCrosshairGameController:OnState_Sprint() end
+
 ---@param playerPuppet gameObject
 ---@return nil
-function megatronCrosshairGameController:RegisterPSMListeners(playerPuppet) return end
+function megatronCrosshairGameController:RegisterPSMListeners(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return nil
-function megatronCrosshairGameController:UnregisterPSMListeners(playerPuppet) return end
+function megatronCrosshairGameController:UnregisterPSMListeners(playerPuppet) end

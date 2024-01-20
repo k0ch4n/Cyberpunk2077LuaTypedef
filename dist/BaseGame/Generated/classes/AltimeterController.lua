@@ -1,33 +1,32 @@
 ---@meta
 
 ---@class AltimeterController: inkWidgetLogicController
----@field private faceUp inkWidgetReference
----@field private faceDown inkWidgetReference
----@field private textWidget inkTextWidgetReference
----@field private decimalPrecision Uint32
----@field private faceUpStartPosition Vector2
----@field private faceDownStartPosition Vector2
----@field private playerPuppet gameObject
----@field private warpDistance Float
----@field private alitimeterValue Float
----@field private precisionEpsilon Float
+---@field faceUp inkWidgetReference
+---@field faceDown inkWidgetReference
+---@field textWidget inkTextWidgetReference
+---@field decimalPrecision Uint32
+---@field faceUpStartPosition Vector2
+---@field faceDownStartPosition Vector2
+---@field playerPuppet gameObject
+---@field warpDistance Float
+---@field alitimeterValue Float
+---@field precisionEpsilon Float
 AltimeterController = {}
 
 ---@param fields? AltimeterController
 ---@return AltimeterController
-function AltimeterController.new(fields) return end
+function AltimeterController.new(fields) end
 
----@protected
 ---@return Bool
-function AltimeterController:OnUpdate() return end
+function AltimeterController:OnUpdate() end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function AltimeterController:OnPlayerAttach(playerPuppet) return end
+function AltimeterController:OnPlayerAttach(playerPuppet) end
 
 ---@param playerPuppet gameObject
 ---@return nil
-function AltimeterController:OnPlayerDetach(playerPuppet) return end
+function AltimeterController:OnPlayerDetach(playerPuppet) end
 
 ---@return nil
-function AltimeterController:Update() return end
+function AltimeterController:Update() end

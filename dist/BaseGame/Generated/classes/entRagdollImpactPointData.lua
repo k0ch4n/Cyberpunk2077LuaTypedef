@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class entRagdollImpactPointData
----@field public worldPosition WorldPosition
----@field public worldNormal Vector4
----@field public forceMagnitude Float
----@field public impulseMagnitude Float
----@field public maxForceMagnitude Float
----@field public maxImpulseMagnitude Float
----@field public velocityChange Float
----@field public ragdollProxyActorIndex Uint32
----@field public otherProxyActorIndex Uint32
+---@field worldPosition WorldPosition
+---@field worldNormal Vector4
+---@field forceMagnitude Float
+---@field impulseMagnitude Float
+---@field maxForceMagnitude Float
+---@field maxImpulseMagnitude Float
+---@field velocityChange Float
+---@field ragdollProxyActorIndex Uint32
+---@field otherProxyActorIndex Uint32
 entRagdollImpactPointData = {}
 
 ---@param fields? entRagdollImpactPointData
 ---@return entRagdollImpactPointData
-function entRagdollImpactPointData.new(fields) return end
+function entRagdollImpactPointData.new(fields) end

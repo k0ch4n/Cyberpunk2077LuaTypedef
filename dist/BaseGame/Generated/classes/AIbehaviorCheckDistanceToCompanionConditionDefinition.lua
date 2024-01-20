@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class AIbehaviorCheckDistanceToCompanionConditionDefinition: AIbehaviorCompanionConditionDefinition
----@field public distance AIArgumentMapping
----@field public comparisonOperator EComparisonType
+---@field distance AIArgumentMapping
+---@field comparisonOperator EComparisonType
 AIbehaviorCheckDistanceToCompanionConditionDefinition = {}
 
 ---@param fields? AIbehaviorCheckDistanceToCompanionConditionDefinition
 ---@return AIbehaviorCheckDistanceToCompanionConditionDefinition
-function AIbehaviorCheckDistanceToCompanionConditionDefinition.new(fields) return end
+function AIbehaviorCheckDistanceToCompanionConditionDefinition.new(fields) end

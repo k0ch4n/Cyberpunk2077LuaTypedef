@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class LockTakeControlAction: gameScriptableSystemRequest
----@field public isLocked Bool
+---@field isLocked Bool
 LockTakeControlAction = {}
 
 ---@param fields? LockTakeControlAction
 ---@return LockTakeControlAction
-function LockTakeControlAction.new(fields) return end
+function LockTakeControlAction.new(fields) end
 
 ---@return String
-function LockTakeControlAction:GetFriendlyDescription() return end
+function LockTakeControlAction:GetFriendlyDescription() end

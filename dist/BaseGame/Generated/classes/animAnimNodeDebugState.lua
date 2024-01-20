@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class animAnimNodeDebugState: ISerializable
----@field public nodeId Uint32
----@field public active Bool
+---@field nodeId Uint32
+---@field active Bool
 animAnimNodeDebugState = {}
 
 ---@param fields? animAnimNodeDebugState
 ---@return animAnimNodeDebugState
-function animAnimNodeDebugState.new(fields) return end
+function animAnimNodeDebugState.new(fields) end

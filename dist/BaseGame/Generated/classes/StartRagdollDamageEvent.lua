@@ -5,4 +5,4 @@ StartRagdollDamageEvent = {}
 
 ---@param fields? StartRagdollDamageEvent
 ---@return StartRagdollDamageEvent
-function StartRagdollDamageEvent.new(fields) return end
+function StartRagdollDamageEvent.new(fields) end

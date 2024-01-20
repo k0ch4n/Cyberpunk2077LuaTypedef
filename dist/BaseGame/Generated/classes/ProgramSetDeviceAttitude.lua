@@ -5,12 +5,12 @@ ProgramSetDeviceAttitude = {}
 
 ---@param fields? ProgramSetDeviceAttitude
 ---@return ProgramSetDeviceAttitude
-function ProgramSetDeviceAttitude.new(fields) return end
+function ProgramSetDeviceAttitude.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function ProgramSetDeviceAttitude.IsDefaultConditionMet(device, context) return end
+function ProgramSetDeviceAttitude.IsDefaultConditionMet(device, context) end
 
 ---@return nil
-function ProgramSetDeviceAttitude:SetProperties() return end
+function ProgramSetDeviceAttitude:SetProperties() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class WardrobeOutfitInfoTooltipController: AGenericTooltipController
----@field public videoWidget inkVideoWidgetReference
+---@field videoWidget inkVideoWidgetReference
 WardrobeOutfitInfoTooltipController = {}
 
 ---@param fields? WardrobeOutfitInfoTooltipController
 ---@return WardrobeOutfitInfoTooltipController
-function WardrobeOutfitInfoTooltipController.new(fields) return end
+function WardrobeOutfitInfoTooltipController.new(fields) end
 
 ---@param tooltipData ATooltipData
 ---@return nil
-function WardrobeOutfitInfoTooltipController:SetData(tooltipData) return end
+function WardrobeOutfitInfoTooltipController:SetData(tooltipData) end

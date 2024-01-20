@@ -1,119 +1,107 @@
 ---@meta
 
 ---@class WindowBlindersControllerPS: ScriptableDeviceComponentPS
----@field private windowBlindersSkillChecks EngDemoContainer
----@field protected windowBlindersData WindowBlindersData
----@field protected cachedState EWindowBlindersStates
----@field protected alarmRaised Bool
+---@field windowBlindersSkillChecks EngDemoContainer
+---@field windowBlindersData WindowBlindersData
+---@field cachedState EWindowBlindersStates
+---@field alarmRaised Bool
 WindowBlindersControllerPS = {}
 
 ---@param fields? WindowBlindersControllerPS
 ---@return WindowBlindersControllerPS
-function WindowBlindersControllerPS.new(fields) return end
+function WindowBlindersControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function WindowBlindersControllerPS:OnInstantiated() return end
+function WindowBlindersControllerPS:OnInstantiated() end
 
----@private
 ---@return QuestForceClose
-function WindowBlindersControllerPS:ActionQuestForceClose() return end
+function WindowBlindersControllerPS:ActionQuestForceClose() end
 
----@private
 ---@return QuestForceOpen
-function WindowBlindersControllerPS:ActionQuestForceOpen() return end
+function WindowBlindersControllerPS:ActionQuestForceOpen() end
 
----@protected
 ---@return QuickHackToggleOpen
-function WindowBlindersControllerPS:ActionQuickHackToggleOpen() return end
+function WindowBlindersControllerPS:ActionQuickHackToggleOpen() end
 
 ---@return ToggleOpen
-function WindowBlindersControllerPS:ActionToggleOpen() return end
+function WindowBlindersControllerPS:ActionToggleOpen() end
 
 ---@return ToggleTiltBlinders
-function WindowBlindersControllerPS:ActionToggleTiltBlinders() return end
+function WindowBlindersControllerPS:ActionToggleTiltBlinders() end
 
----@protected
 ---@return Bool
-function WindowBlindersControllerPS:CanCreateAnyQuickHackActions() return end
+function WindowBlindersControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return nil
-function WindowBlindersControllerPS:GameAttached() return end
+function WindowBlindersControllerPS:GameAttached() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function WindowBlindersControllerPS:GetActions(context) return end
+function WindowBlindersControllerPS:GetActions(context) end
 
----@protected
 ---@return TweakDBID
-function WindowBlindersControllerPS:GetBackgroundTextureTweakDBID() return end
+function WindowBlindersControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return String
-function WindowBlindersControllerPS:GetDeviceIconPath() return end
+function WindowBlindersControllerPS:GetDeviceIconPath() end
 
----@protected
 ---@return TweakDBID
-function WindowBlindersControllerPS:GetDeviceIconTweakDBID() return end
+function WindowBlindersControllerPS:GetDeviceIconTweakDBID() end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function WindowBlindersControllerPS:GetQuestActions(context) return end
+function WindowBlindersControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function WindowBlindersControllerPS:GetQuickHackActions(context) return end
+function WindowBlindersControllerPS:GetQuickHackActions(context) end
 
----@protected
 ---@return BaseSkillCheckContainer
-function WindowBlindersControllerPS:GetSkillCheckContainerForSetup() return end
+function WindowBlindersControllerPS:GetSkillCheckContainerForSetup() end
 
----@protected
 ---@return nil
-function WindowBlindersControllerPS:Initialize() return end
+function WindowBlindersControllerPS:Initialize() end
 
 ---@return Bool
-function WindowBlindersControllerPS:IsClosed() return end
+function WindowBlindersControllerPS:IsClosed() end
 
 ---@return Bool
-function WindowBlindersControllerPS:IsNonInteractive() return end
+function WindowBlindersControllerPS:IsNonInteractive() end
 
 ---@return Bool
-function WindowBlindersControllerPS:IsOpen() return end
+function WindowBlindersControllerPS:IsOpen() end
 
 ---@return Bool
-function WindowBlindersControllerPS:IsTilted() return end
+function WindowBlindersControllerPS:IsTilted() end
 
 ---@param evt ActionDemolition
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnActionDemolition(evt) return end
+function WindowBlindersControllerPS:OnActionDemolition(evt) end
 
 ---@param evt ActionEngineering
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnActionEngineering(evt) return end
+function WindowBlindersControllerPS:OnActionEngineering(evt) end
 
 ---@param evt QuestForceClose
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnQuestForceClose(evt) return end
+function WindowBlindersControllerPS:OnQuestForceClose(evt) end
 
 ---@param evt QuestForceOpen
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnQuestForceOpen(evt) return end
+function WindowBlindersControllerPS:OnQuestForceOpen(evt) end
 
 ---@param evt QuickHackToggleOpen
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnQuickHackToggleOpen(evt) return end
+function WindowBlindersControllerPS:OnQuickHackToggleOpen(evt) end
 
 ---@param evt SecuritySystemOutput
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnSecuritySystemOutput(evt) return end
+function WindowBlindersControllerPS:OnSecuritySystemOutput(evt) end
 
 ---@param evt ToggleOpen
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnToggleOpen(evt) return end
+function WindowBlindersControllerPS:OnToggleOpen(evt) end
 
 ---@param evt ToggleTiltBlinders
 ---@return EntityNotificationType
-function WindowBlindersControllerPS:OnToggleTiltBlinders(evt) return end
+function WindowBlindersControllerPS:OnToggleTiltBlinders(evt) end

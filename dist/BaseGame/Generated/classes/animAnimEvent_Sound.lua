@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class animAnimEvent_Sound: animAnimEvent
----@field public switches audioAudSwitch[]
----@field public params audioAudParameter[]
----@field public dynamicParams CName[]
----@field public metadataContext CName
----@field public onlyPlayOn CName
----@field public dontPlayOn CName
----@field public playerGenderAlt animAnimEventGenderAlt
+---@field switches audioAudSwitch[]
+---@field params audioAudParameter[]
+---@field dynamicParams CName[]
+---@field metadataContext CName
+---@field onlyPlayOn CName
+---@field dontPlayOn CName
+---@field playerGenderAlt animAnimEventGenderAlt
 animAnimEvent_Sound = {}
 
 ---@param fields? animAnimEvent_Sound
 ---@return animAnimEvent_Sound
-function animAnimEvent_Sound.new(fields) return end
+function animAnimEvent_Sound.new(fields) end

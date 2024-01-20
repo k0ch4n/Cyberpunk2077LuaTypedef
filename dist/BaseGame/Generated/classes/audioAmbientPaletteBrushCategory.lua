@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class audioAmbientPaletteBrushCategory: audioAudioMetadata
----@field public brushes audioAmbientPaletteBrushDictionary
+---@field brushes audioAmbientPaletteBrushDictionary
 audioAmbientPaletteBrushCategory = {}
 
 ---@param fields? audioAmbientPaletteBrushCategory
 ---@return audioAmbientPaletteBrushCategory
-function audioAmbientPaletteBrushCategory.new(fields) return end
+function audioAmbientPaletteBrushCategory.new(fields) end

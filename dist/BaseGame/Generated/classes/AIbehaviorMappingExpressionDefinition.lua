@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class AIbehaviorMappingExpressionDefinition: AIbehaviorPassiveExpressionDefinition
----@field public mapping AIArgumentMapping
----@field public update Bool
----@field public updatePeriod Float
----@field public behaviorCallbackNames CName[]
+---@field mapping AIArgumentMapping
+---@field update Bool
+---@field updatePeriod Float
+---@field behaviorCallbackNames CName[]
 AIbehaviorMappingExpressionDefinition = {}
 
 ---@param fields? AIbehaviorMappingExpressionDefinition
 ---@return AIbehaviorMappingExpressionDefinition
-function AIbehaviorMappingExpressionDefinition.new(fields) return end
+function AIbehaviorMappingExpressionDefinition.new(fields) end

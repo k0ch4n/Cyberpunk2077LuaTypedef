@@ -5,4 +5,4 @@ AIThrowGrenadeForcedCommand = {}
 
 ---@param fields? AIThrowGrenadeForcedCommand
 ---@return AIThrowGrenadeForcedCommand
-function AIThrowGrenadeForcedCommand.new(fields) return end
+function AIThrowGrenadeForcedCommand.new(fields) end

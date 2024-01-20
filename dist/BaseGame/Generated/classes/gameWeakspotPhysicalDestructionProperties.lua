@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameWeakspotPhysicalDestructionProperties
----@field public velocity Float
+---@field velocity Float
 gameWeakspotPhysicalDestructionProperties = {}
 
 ---@param fields? gameWeakspotPhysicalDestructionProperties
 ---@return gameWeakspotPhysicalDestructionProperties
-function gameWeakspotPhysicalDestructionProperties.new(fields) return end
+function gameWeakspotPhysicalDestructionProperties.new(fields) end

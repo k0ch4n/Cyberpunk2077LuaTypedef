@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldLocationAreaNode: worldTriggerAreaNode
----@field public locationName String
+---@field locationName String
 worldLocationAreaNode = {}
 
 ---@param fields? worldLocationAreaNode
 ---@return worldLocationAreaNode
-function worldLocationAreaNode.new(fields) return end
+function worldLocationAreaNode.new(fields) end

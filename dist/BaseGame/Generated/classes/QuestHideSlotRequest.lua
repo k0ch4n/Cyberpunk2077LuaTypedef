@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class QuestHideSlotRequest: gamePlayerScriptableSystemRequest
----@field public slot gamedataEquipmentArea
+---@field slot gamedataEquipmentArea
 QuestHideSlotRequest = {}
 
 ---@param fields? QuestHideSlotRequest
 ---@return QuestHideSlotRequest
-function QuestHideSlotRequest.new(fields) return end
+function QuestHideSlotRequest.new(fields) end

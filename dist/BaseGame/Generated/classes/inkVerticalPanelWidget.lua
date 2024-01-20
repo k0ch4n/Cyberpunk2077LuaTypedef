@@ -5,4 +5,4 @@ inkVerticalPanelWidget = {}
 
 ---@param fields? inkVerticalPanelWidget
 ---@return inkVerticalPanelWidget
-function inkVerticalPanelWidget.new(fields) return end
+function inkVerticalPanelWidget.new(fields) end

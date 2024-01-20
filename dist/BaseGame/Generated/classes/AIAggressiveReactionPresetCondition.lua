@@ -5,14 +5,12 @@ AIAggressiveReactionPresetCondition = {}
 
 ---@param fields? AIAggressiveReactionPresetCondition
 ---@return AIAggressiveReactionPresetCondition
-function AIAggressiveReactionPresetCondition.new(fields) return end
+function AIAggressiveReactionPresetCondition.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIAggressiveReactionPresetCondition:Activate(context) return end
+function AIAggressiveReactionPresetCondition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function AIAggressiveReactionPresetCondition:Check(context) return end
+function AIAggressiveReactionPresetCondition:Check(context) end

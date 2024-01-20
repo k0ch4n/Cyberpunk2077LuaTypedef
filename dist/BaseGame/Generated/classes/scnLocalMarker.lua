@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnLocalMarker
----@field public transformLS Transform
----@field public name CName
+---@field transformLS Transform
+---@field name CName
 scnLocalMarker = {}
 
 ---@param fields? scnLocalMarker
 ---@return scnLocalMarker
-function scnLocalMarker.new(fields) return end
+function scnLocalMarker.new(fields) end

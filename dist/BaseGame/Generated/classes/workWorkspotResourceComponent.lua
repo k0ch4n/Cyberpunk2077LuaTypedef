@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class workWorkspotResourceComponent: entIPlacedComponent
----@field public workspotResource workWorkspotResource
----@field public npcWorkspotResourceSync workWorkspotResource
----@field public deviceWorkspotResourceSync workWorkspotResource
----@field public syncSlotName CName
----@field public shouldCrouch Bool
+---@field workspotResource workWorkspotResource
+---@field npcWorkspotResourceSync workWorkspotResource
+---@field deviceWorkspotResourceSync workWorkspotResource
+---@field syncSlotName CName
+---@field shouldCrouch Bool
 workWorkspotResourceComponent = {}
 
 ---@param fields? workWorkspotResourceComponent
 ---@return workWorkspotResourceComponent
-function workWorkspotResourceComponent.new(fields) return end
+function workWorkspotResourceComponent.new(fields) end

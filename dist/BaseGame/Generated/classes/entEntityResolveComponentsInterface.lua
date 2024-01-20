@@ -5,9 +5,9 @@ entEntityResolveComponentsInterface = {}
 
 ---@param fields? entEntityResolveComponentsInterface
 ---@return entEntityResolveComponentsInterface
-function entEntityResolveComponentsInterface.new(fields) return end
+function entEntityResolveComponentsInterface.new(fields) end
 
 ---@param self entEntityResolveComponentsInterface
 ---@param componentName CName|string
 ---@return entIComponent
-function entEntityResolveComponentsInterface.GetComponent(self, componentName) return end
+function entEntityResolveComponentsInterface.GetComponent(self, componentName) end

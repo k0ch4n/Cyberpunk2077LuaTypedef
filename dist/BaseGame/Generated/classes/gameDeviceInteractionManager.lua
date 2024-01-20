@@ -5,4 +5,4 @@ gameDeviceInteractionManager = {}
 
 ---@param fields? gameDeviceInteractionManager
 ---@return gameDeviceInteractionManager
-function gameDeviceInteractionManager.new(fields) return end
+function gameDeviceInteractionManager.new(fields) end

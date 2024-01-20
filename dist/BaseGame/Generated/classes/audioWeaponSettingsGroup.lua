@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioWeaponSettingsGroup: audioAudioMetadata
----@field public playerSettings CName
----@field public playerSilenced CName
----@field public npcSettings CName
----@field public npcSilenced CName
+---@field playerSettings CName
+---@field playerSilenced CName
+---@field npcSettings CName
+---@field npcSilenced CName
 audioWeaponSettingsGroup = {}
 
 ---@param fields? audioWeaponSettingsGroup
 ---@return audioWeaponSettingsGroup
-function audioWeaponSettingsGroup.new(fields) return end
+function audioWeaponSettingsGroup.new(fields) end

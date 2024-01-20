@@ -1,6 +1,6 @@
 ---@meta
 
 ---@class gameStatModifierData_Deprecated: IScriptable
----@field public statType gamedataStatType
----@field public modifierType gameStatModifierType
+---@field statType gamedataStatType
+---@field modifierType gameStatModifierType
 gameStatModifierData_Deprecated = {}

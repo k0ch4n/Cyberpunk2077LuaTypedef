@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnEffectEntry
----@field public effectInstanceId scnEffectInstanceId
----@field public effectName CName
+---@field effectInstanceId scnEffectInstanceId
+---@field effectName CName
 scnEffectEntry = {}
 
 ---@param fields? scnEffectEntry
 ---@return scnEffectEntry
-function scnEffectEntry.new(fields) return end
+function scnEffectEntry.new(fields) end

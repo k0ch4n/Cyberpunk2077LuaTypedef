@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class BlacklistPlayer: redEvent
----@field public blacklist Bool
----@field public reason BlacklistReason
----@field public forceRemoveAuthorization Bool
+---@field blacklist Bool
+---@field reason BlacklistReason
+---@field forceRemoveAuthorization Bool
 BlacklistPlayer = {}
 
 ---@param fields? BlacklistPlayer
 ---@return BlacklistPlayer
-function BlacklistPlayer.new(fields) return end
+function BlacklistPlayer.new(fields) end
 
 ---@return String
-function BlacklistPlayer:GetFriendlyDescription() return end
+function BlacklistPlayer:GetFriendlyDescription() end

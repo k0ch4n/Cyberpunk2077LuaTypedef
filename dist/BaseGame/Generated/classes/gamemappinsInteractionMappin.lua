@@ -5,7 +5,7 @@ gamemappinsInteractionMappin = {}
 
 ---@param fields? gamemappinsInteractionMappin
 ---@return gamemappinsInteractionMappin
-function gamemappinsInteractionMappin.new(fields) return end
+function gamemappinsInteractionMappin.new(fields) end
 
 ---@return TweakDBID
-function gamemappinsInteractionMappin:GetIconRecordID() return end
+function gamemappinsInteractionMappin:GetIconRecordID() end

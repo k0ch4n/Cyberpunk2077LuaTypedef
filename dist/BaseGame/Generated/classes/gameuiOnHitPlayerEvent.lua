@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiOnHitPlayerEvent: redEvent
----@field public gameState gameuiMinigameState
+---@field gameState gameuiMinigameState
 gameuiOnHitPlayerEvent = {}
 
 ---@param fields? gameuiOnHitPlayerEvent
 ---@return gameuiOnHitPlayerEvent
-function gameuiOnHitPlayerEvent.new(fields) return end
+function gameuiOnHitPlayerEvent.new(fields) end

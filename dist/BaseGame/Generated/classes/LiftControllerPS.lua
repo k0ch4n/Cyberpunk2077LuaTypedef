@@ -1,42 +1,39 @@
 ---@meta
 
 ---@class LiftControllerPS: MasterControllerPS
----@field protected liftSetup LiftSetup
----@field private activeFloor Int32
----@field private targetFloor Int32
----@field private movementState gamePlatformMovementState
----@field private floors ElevatorFloorSetup[]
----@field private floorIDs entEntityID[]
----@field private floorPSIDs gamePersistentID[]
----@field private floorsAuthorization Bool[]
----@field private timeOnPause Float
----@field private isPlayerInsideLift Bool
----@field private isPlayerInsideLift_RealOne Bool
----@field private isSpeakerDestroyed Bool
----@field private hasSpeaker Bool
----@field private cachedGoToFloorAction Int32
----@field private isAllDoorsClosed Bool
----@field private isAdsDisabled Bool
+---@field liftSetup LiftSetup
+---@field activeFloor Int32
+---@field targetFloor Int32
+---@field movementState gamePlatformMovementState
+---@field floors ElevatorFloorSetup[]
+---@field floorIDs entEntityID[]
+---@field floorPSIDs gamePersistentID[]
+---@field floorsAuthorization Bool[]
+---@field timeOnPause Float
+---@field isPlayerInsideLift Bool
+---@field isPlayerInsideLift_RealOne Bool
+---@field isSpeakerDestroyed Bool
+---@field hasSpeaker Bool
+---@field cachedGoToFloorAction Int32
+---@field isAllDoorsClosed Bool
+---@field isAdsDisabled Bool
 LiftControllerPS = {}
 
 ---@param fields? LiftControllerPS
 ---@return LiftControllerPS
-function LiftControllerPS.new(fields) return end
+function LiftControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function LiftControllerPS:OnInstantiated() return end
+function LiftControllerPS:OnInstantiated() end
 
----@protected
 ---@param isForced? Bool
 ---@return AuthorizeUser
-function LiftControllerPS:ActionAuthorizeUser(isForced) return end
+function LiftControllerPS:ActionAuthorizeUser(isForced) end
 
----@private
 ---@param isElevatorAtThisFloor Bool
 ---@param destination Int32
 ---@return CallElevator
-function LiftControllerPS:ActionCallElevator(isElevatorAtThisFloor, destination) return end
+function LiftControllerPS:ActionCallElevator(isElevatorAtThisFloor, destination) end
 
 ---@param numberOfFloors Int32
 ---@param currentFloor Int32
@@ -44,391 +41,375 @@ function LiftControllerPS:ActionCallElevator(isElevatorAtThisFloor, destination)
 ---@param displayFloor String
 ---@param IsAuthorized Bool
 ---@return GoToFloor
-function LiftControllerPS:ActionGoToFloor(numberOfFloors, currentFloor, floor, displayFloor, IsAuthorized) return end
+function LiftControllerPS:ActionGoToFloor(numberOfFloors, currentFloor, floor, displayFloor, IsAuthorized) end
 
----@protected
 ---@param libraryName? CName|string
 ---@return LiftStatus
-function LiftControllerPS:ActionLiftStatus(libraryName) return end
+function LiftControllerPS:ActionLiftStatus(libraryName) end
 
 ---@param value Bool
 ---@return QuestCloseAllDoors
-function LiftControllerPS:ActionQuestCloseAllDoors(value) return end
+function LiftControllerPS:ActionQuestCloseAllDoors(value) end
 
 ---@return QuestDisableLiftTravelTimeOverride
-function LiftControllerPS:ActionQuestDisableLiftTravelTimeOverride() return end
+function LiftControllerPS:ActionQuestDisableLiftTravelTimeOverride() end
 
 ---@return QuestDisableRadio
-function LiftControllerPS:ActionQuestDisableRadio() return end
+function LiftControllerPS:ActionQuestDisableRadio() end
 
 ---@return QuestEnableLiftTravelTimeOverride
-function LiftControllerPS:ActionQuestEnableLiftTravelTimeOverride() return end
+function LiftControllerPS:ActionQuestEnableLiftTravelTimeOverride() end
 
 ---@return QuestForceGoToFloor
-function LiftControllerPS:ActionQuestForceGoToFloor() return end
+function LiftControllerPS:ActionQuestForceGoToFloor() end
 
 ---@return QuestForceTeleportToFloor
-function LiftControllerPS:ActionQuestForceTeleportToFloor() return end
+function LiftControllerPS:ActionQuestForceTeleportToFloor() end
 
 ---@return QuestGoToFloor
-function LiftControllerPS:ActionQuestGoToFloor() return end
+function LiftControllerPS:ActionQuestGoToFloor() end
 
 ---@return QuestHideFloor
-function LiftControllerPS:ActionQuestHideFloor() return end
+function LiftControllerPS:ActionQuestHideFloor() end
 
 ---@return QuestResumeElevator
-function LiftControllerPS:ActionQuestResumeElevator() return end
+function LiftControllerPS:ActionQuestResumeElevator() end
 
 ---@return QuestSetFloorActive
-function LiftControllerPS:ActionQuestSetFloorActive() return end
+function LiftControllerPS:ActionQuestSetFloorActive() end
 
 ---@return QuestSetFloorInactive
-function LiftControllerPS:ActionQuestSetFloorInactive() return end
+function LiftControllerPS:ActionQuestSetFloorInactive() end
 
 ---@return QuestSetLiftSpeed
-function LiftControllerPS:ActionQuestSetLiftSpeed() return end
+function LiftControllerPS:ActionQuestSetLiftSpeed() end
 
 ---@return QuestSetLiftTravelTimeOverride
-function LiftControllerPS:ActionQuestSetLiftTravelTimeOverride() return end
+function LiftControllerPS:ActionQuestSetLiftTravelTimeOverride() end
 
 ---@return QuestSetRadioStation
-function LiftControllerPS:ActionQuestSetRadioStation() return end
+function LiftControllerPS:ActionQuestSetRadioStation() end
 
 ---@return QuestShowFloor
-function LiftControllerPS:ActionQuestShowFloor() return end
+function LiftControllerPS:ActionQuestShowFloor() end
 
 ---@return QuestStopElevator
-function LiftControllerPS:ActionQuestStopElevator() return end
+function LiftControllerPS:ActionQuestStopElevator() end
 
 ---@param value Bool
 ---@return QuestToggleAds
-function LiftControllerPS:ActionQuestToggleAds(value) return end
+function LiftControllerPS:ActionQuestToggleAds(value) end
 
 ---@return QuickHackAuthorization
-function LiftControllerPS:ActionQuickHackAuthorization() return end
+function LiftControllerPS:ActionQuickHackAuthorization() end
 
----@protected
 ---@return Bool
-function LiftControllerPS:CanCreateAnyQuickHackActions() return end
+function LiftControllerPS:CanCreateAnyQuickHackActions() end
 
 ---@param newFloor Int32
 ---@return nil
-function LiftControllerPS:ChangeActiveFloor(newFloor) return end
+function LiftControllerPS:ChangeActiveFloor(newFloor) end
 
----@private
 ---@return nil
-function LiftControllerPS:EvaluateFloors() return end
+function LiftControllerPS:EvaluateFloors() end
 
----@protected
 ---@return nil
-function LiftControllerPS:GameAttached() return end
+function LiftControllerPS:GameAttached() end
 
 ---@param context gameGetActionsContext
 ---@return Bool, gamedeviceAction[] actions
-function LiftControllerPS:GetActions(context) return end
+function LiftControllerPS:GetActions(context) end
 
 ---@return Int32
-function LiftControllerPS:GetActiveFloor() return end
+function LiftControllerPS:GetActiveFloor() end
 
 ---@return String
-function LiftControllerPS:GetActiveFloorDisplayName() return end
+function LiftControllerPS:GetActiveFloorDisplayName() end
 
 ---@return Int32
-function LiftControllerPS:GetActiveRadioStationNumber() return end
+function LiftControllerPS:GetActiveRadioStationNumber() end
 
 ---@return ElevatorDeviceBlackboardDef
-function LiftControllerPS:GetBlackboardDef() return end
+function LiftControllerPS:GetBlackboardDef() end
 
 ---@return Int32
-function LiftControllerPS:GetCachedGoToFloorAction() return end
+function LiftControllerPS:GetCachedGoToFloorAction() end
 
 ---@return String
-function LiftControllerPS:GetDeviceIconPath() return end
+function LiftControllerPS:GetDeviceIconPath() end
 
 ---@param context gameGetActionsContext
 ---@return SDeviceWidgetPackage
-function LiftControllerPS:GetDeviceWidget(context) return end
+function LiftControllerPS:GetDeviceWidget(context) end
 
 ---@return EffectFiringData
-function LiftControllerPS:GetExtraFX() return end
+function LiftControllerPS:GetExtraFX() end
 
 ---@return Float
-function LiftControllerPS:GetExtraVerificationErrorMargin() return end
+function LiftControllerPS:GetExtraVerificationErrorMargin() end
 
 ---@return nil
-function LiftControllerPS:GetFloorAuthorizationFromSlaves() return end
+function LiftControllerPS:GetFloorAuthorizationFromSlaves() end
 
 ---@return nil
-function LiftControllerPS:GetFloorDataFromSlaves() return end
+function LiftControllerPS:GetFloorDataFromSlaves() end
 
 ---@param number Int32
 ---@return entEntityID
-function LiftControllerPS:GetFloorID(number) return end
+function LiftControllerPS:GetFloorID(number) end
 
 ---@param floorNumber Int32
 ---@return NodeRef
-function LiftControllerPS:GetFloorMarker(floorNumber) return end
+function LiftControllerPS:GetFloorMarker(floorNumber) end
 
 ---@param number Int32
 ---@return gamePersistentID
-function LiftControllerPS:GetFloorPSID(number) return end
+function LiftControllerPS:GetFloorPSID(number) end
 
 ---@return ElevatorFloorSetup[]
-function LiftControllerPS:GetFloors() return end
+function LiftControllerPS:GetFloors() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return TweakDBID
-function LiftControllerPS:GetInkWidgetTweakDBID(context) return end
+function LiftControllerPS:GetInkWidgetTweakDBID(context) end
 
 ---@return Float
-function LiftControllerPS:GetLiftSpeed() return end
+function LiftControllerPS:GetLiftSpeed() end
 
 ---@return Float
-function LiftControllerPS:GetLiftStartingDelay() return end
+function LiftControllerPS:GetLiftStartingDelay() end
 
 ---@return Float
-function LiftControllerPS:GetLiftTravelTimeOverride() return end
+function LiftControllerPS:GetLiftTravelTimeOverride() end
 
 ---@return gamePlatformMovementState
-function LiftControllerPS:GetMovementState() return end
+function LiftControllerPS:GetMovementState() end
 
 ---@return CName
-function LiftControllerPS:GetMovingCurve() return end
+function LiftControllerPS:GetMovingCurve() end
 
 ---@param actionName CName|string
 ---@return gamedeviceAction
-function LiftControllerPS:GetQuestActionByName(actionName) return end
+function LiftControllerPS:GetQuestActionByName(actionName) end
 
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function LiftControllerPS:GetQuestActions(context) return end
+function LiftControllerPS:GetQuestActions(context) end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] actions
-function LiftControllerPS:GetQuickHackActions(context) return end
+function LiftControllerPS:GetQuickHackActions(context) end
 
 ---@return CName
-function LiftControllerPS:GetSpeakerDestroyedQuestFact() return end
+function LiftControllerPS:GetSpeakerDestroyedQuestFact() end
 
 ---@return CName
-function LiftControllerPS:GetSpeakerDestroyedVFX() return end
+function LiftControllerPS:GetSpeakerDestroyedVFX() end
 
 ---@return Int32
-function LiftControllerPS:GetStartingFloor() return end
+function LiftControllerPS:GetStartingFloor() end
 
 ---@return Int32
-function LiftControllerPS:GetTargetFloor() return end
+function LiftControllerPS:GetTargetFloor() end
 
 ---@return Float
-function LiftControllerPS:GetTimeWhenPaused() return end
+function LiftControllerPS:GetTimeWhenPaused() end
 
 ---@return Bool
-function LiftControllerPS:HasSpeaker() return end
+function LiftControllerPS:HasSpeaker() end
 
----@protected
 ---@return nil
-function LiftControllerPS:Initialize() return end
+function LiftControllerPS:Initialize() end
 
----@private
 ---@return nil
-function LiftControllerPS:InitializeFloorsData() return end
+function LiftControllerPS:InitializeFloorsData() end
 
 ---@return Bool
-function LiftControllerPS:IsAdsDisabled() return end
+function LiftControllerPS:IsAdsDisabled() end
 
 ---@return Bool
-function LiftControllerPS:IsAdsEnabled() return end
+function LiftControllerPS:IsAdsEnabled() end
 
 ---@return Bool
-function LiftControllerPS:IsAllDoorsClosed() return end
+function LiftControllerPS:IsAllDoorsClosed() end
 
 ---@param floorNumber Int32
 ---@return Bool
-function LiftControllerPS:IsAtFloor(floorNumber) return end
+function LiftControllerPS:IsAtFloor(floorNumber) end
 
 ---@param floor Int32
 ---@return Bool
-function LiftControllerPS:IsFloorSelected(floor) return end
+function LiftControllerPS:IsFloorSelected(floor) end
 
 ---@return Bool
-function LiftControllerPS:IsLiftTravelTimeOverride() return end
+function LiftControllerPS:IsLiftTravelTimeOverride() end
 
 ---@return Bool
-function LiftControllerPS:IsMoving() return end
+function LiftControllerPS:IsMoving() end
 
 ---@return Bool
-function LiftControllerPS:IsPlayerAuthorized() return end
+function LiftControllerPS:IsPlayerAuthorized() end
 
 ---@return Bool
-function LiftControllerPS:IsPlayerInsideLift() return end
+function LiftControllerPS:IsPlayerInsideLift() end
 
 ---@return Bool
-function LiftControllerPS:IsSpeakerDestroyed() return end
+function LiftControllerPS:IsSpeakerDestroyed() end
 
 ---@param evt CallElevator
 ---@return EntityNotificationType
-function LiftControllerPS:OnCallElevator(evt) return end
+function LiftControllerPS:OnCallElevator(evt) end
 
 ---@param evt GoToFloor
 ---@return EntityNotificationType
-function LiftControllerPS:OnGoToFloor(evt) return end
+function LiftControllerPS:OnGoToFloor(evt) end
 
----@protected
 ---@param evt LiftSetMovementStateEvent
 ---@return EntityNotificationType
-function LiftControllerPS:OnLiftSetMovementStateEvent(evt) return end
+function LiftControllerPS:OnLiftSetMovementStateEvent(evt) end
 
 ---@param evt LiftStatus
 ---@return EntityNotificationType
-function LiftControllerPS:OnLiftStatus(evt) return end
+function LiftControllerPS:OnLiftStatus(evt) end
 
 ---@param evt QuestCloseAllDoors
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestCloseAllDoors(evt) return end
+function LiftControllerPS:OnQuestCloseAllDoors(evt) end
 
 ---@param evt QuestDisableLiftTravelTimeOverride
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestDisableLiftTravelTimeOverride(evt) return end
+function LiftControllerPS:OnQuestDisableLiftTravelTimeOverride(evt) end
 
 ---@param evt QuestDisableRadio
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestDisableRadio(evt) return end
+function LiftControllerPS:OnQuestDisableRadio(evt) end
 
 ---@param evt QuestEnableLiftTravelTimeOverride
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestEnableLiftTravelTimeOverride(evt) return end
+function LiftControllerPS:OnQuestEnableLiftTravelTimeOverride(evt) end
 
 ---@param evt QuestForceGoToFloor
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestForceGoToFloor(evt) return end
+function LiftControllerPS:OnQuestForceGoToFloor(evt) end
 
 ---@param evt QuestForceTeleportToFloor
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestForceTeleportToFloor(evt) return end
+function LiftControllerPS:OnQuestForceTeleportToFloor(evt) end
 
 ---@param evt QuestGoToFloor
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestGoToFloor(evt) return end
+function LiftControllerPS:OnQuestGoToFloor(evt) end
 
 ---@param evt QuestHideFloor
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestHideFloor(evt) return end
+function LiftControllerPS:OnQuestHideFloor(evt) end
 
 ---@param evt QuestResumeElevator
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestResumeElevator(evt) return end
+function LiftControllerPS:OnQuestResumeElevator(evt) end
 
 ---@param evt QuestSetFloorActive
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestSetFloorActive(evt) return end
+function LiftControllerPS:OnQuestSetFloorActive(evt) end
 
 ---@param evt QuestSetFloorInactive
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestSetFloorInactive(evt) return end
+function LiftControllerPS:OnQuestSetFloorInactive(evt) end
 
 ---@param evt QuestSetLiftSpeed
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestSetLiftSpeed(evt) return end
+function LiftControllerPS:OnQuestSetLiftSpeed(evt) end
 
 ---@param evt QuestSetLiftTravelTimeOverride
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestSetLiftTravelTimeOverride(evt) return end
+function LiftControllerPS:OnQuestSetLiftTravelTimeOverride(evt) end
 
 ---@param evt QuestSetRadioStation
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestSetRadioStation(evt) return end
+function LiftControllerPS:OnQuestSetRadioStation(evt) end
 
 ---@param evt QuestShowFloor
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestShowFloor(evt) return end
+function LiftControllerPS:OnQuestShowFloor(evt) end
 
 ---@param evt QuestStopElevator
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestStopElevator(evt) return end
+function LiftControllerPS:OnQuestStopElevator(evt) end
 
 ---@param evt QuestToggleAds
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuestToggleAds(evt) return end
+function LiftControllerPS:OnQuestToggleAds(evt) end
 
 ---@param evt QuickHackAuthorization
 ---@return EntityNotificationType
-function LiftControllerPS:OnQuickHackAuthorization(evt) return end
+function LiftControllerPS:OnQuickHackAuthorization(evt) end
 
 ---@param evt RefreshFloorAuthorizationDataEvent
 ---@return EntityNotificationType
-function LiftControllerPS:OnRefreshFloorsAuthorizationData(evt) return end
+function LiftControllerPS:OnRefreshFloorsAuthorizationData(evt) end
 
 ---@param evt RefreshFloorDataEvent
 ---@return EntityNotificationType
-function LiftControllerPS:OnRefreshFloorsData(evt) return end
+function LiftControllerPS:OnRefreshFloorsData(evt) end
 
 ---@param evt RefreshPlayerAuthorizationEvent
 ---@return EntityNotificationType
-function LiftControllerPS:OnRefreshPlayerAuthorizationEvent(evt) return end
+function LiftControllerPS:OnRefreshPlayerAuthorizationEvent(evt) end
 
----@protected
 ---@param evt SetIsPlayerInsideLiftEvent
 ---@return EntityNotificationType
-function LiftControllerPS:OnSetIsPlayerInsideLiftEvent(evt) return end
+function LiftControllerPS:OnSetIsPlayerInsideLiftEvent(evt) end
 
----@protected
 ---@param floor Int32
 ---@return nil
-function LiftControllerPS:ProcessUnstreamedLiftMovement(floor) return end
+function LiftControllerPS:ProcessUnstreamedLiftMovement(floor) end
 
----@private
 ---@param passToEntity Bool
 ---@return nil
-function LiftControllerPS:RefreshFloorsAuthorizationData_Event(passToEntity) return end
+function LiftControllerPS:RefreshFloorsAuthorizationData_Event(passToEntity) end
 
----@private
 ---@param passToEntity Bool
 ---@return nil
-function LiftControllerPS:RefreshFloorsData_Event(passToEntity) return end
+function LiftControllerPS:RefreshFloorsData_Event(passToEntity) end
 
----@private
 ---@param activeFloor Int32
 ---@return nil
-function LiftControllerPS:SendLiftDepartedEvent(activeFloor) return end
+function LiftControllerPS:SendLiftDepartedEvent(activeFloor) end
 
----@protected
 ---@return nil
-function LiftControllerPS:SendSetAuthorizationModuleOFFToSlaves() return end
+function LiftControllerPS:SendSetAuthorizationModuleOFFToSlaves() end
 
 ---@param value Int32
 ---@return nil
-function LiftControllerPS:SetCachedGoToFloorAction(value) return end
+function LiftControllerPS:SetCachedGoToFloorAction(value) end
 
 ---@param value Bool
 ---@return nil
-function LiftControllerPS:SetHasSpeaker(value) return end
+function LiftControllerPS:SetHasSpeaker(value) end
 
 ---@param state Bool
 ---@return nil
-function LiftControllerPS:SetIsPlayerInsideLift(state) return end
+function LiftControllerPS:SetIsPlayerInsideLift(state) end
 
 ---@param state gamePlatformMovementState
 ---@return nil
-function LiftControllerPS:SetMovementState(state) return end
+function LiftControllerPS:SetMovementState(state) end
 
 ---@param value Bool
 ---@return nil
-function LiftControllerPS:SetSpeakerDestroyed(value) return end
+function LiftControllerPS:SetSpeakerDestroyed(value) end
 
 ---@param terminalNumber Int32
 ---@return nil
-function LiftControllerPS:SetStartingFloor(terminalNumber) return end
+function LiftControllerPS:SetStartingFloor(terminalNumber) end
 
 ---@param time Float
 ---@return nil
-function LiftControllerPS:SetTimeWhenPaused(time) return end
+function LiftControllerPS:SetTimeWhenPaused(time) end
 
 ---@return Bool
-function LiftControllerPS:ShouldUseExtraVerification() return end
+function LiftControllerPS:ShouldUseExtraVerification() end
 
----@protected
 ---@param terminalNumber Int32
 ---@return nil
-function LiftControllerPS:SyncDataWithFloorTerminal(terminalNumber) return end
+function LiftControllerPS:SyncDataWithFloorTerminal(terminalNumber) end

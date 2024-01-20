@@ -1,148 +1,128 @@
 ---@meta
 
 ---@class gameuiScannerGameController: gameuiHUDGameController
----@field public currentTarget entEntityID
----@field public scanLock Bool
----@field public percentValue Float
----@field public oldPercentValue Float
----@field private bbWeaponInfo gameIBlackboard
----@field private BraindanceBB gameIBlackboard
----@field private bbWeaponEventId redCallbackObject
----@field private BBID_BraindanceActive redCallbackObject
----@field private scannerscannerObjectStatsId redCallbackObject
----@field private scannerScannablesId redCallbackObject
----@field private scannerCurrentProgressId redCallbackObject
----@field private scannerCurrentStateId redCallbackObject
----@field private scannerScannedObjectId redCallbackObject
----@field private scannerData scannerDataStructure
----@field private curObj GameObjectScanStats
----@field private scannerBorderMain inkCompoundWidget
----@field private scannerBorderController scannerBorderLogicController
----@field private scannerProgressMain inkCompoundWidget
----@field private scannerFullScreenOverlay inkWidget
----@field private center_frame inkImageWidget
----@field private squares inkImageWidget[]
----@field private squaresFilled inkImageWidget[]
----@field private isUnarmed Bool
----@field private isEnabled Bool
----@field private isFinish Bool
----@field private isScanned Bool
----@field private isBraindanceActive Bool
----@field private border_show inkanimDefinition
----@field private center_show inkanimDefinition
----@field private center_hide inkanimDefinition
----@field private dots_show inkanimDefinition
----@field private dots_hide inkanimDefinition
----@field private BorderAnimProxy inkanimProxy
----@field private soundFinishedOn CName
----@field private soundFinishedOff CName
----@field private playerSpawnedCallbackID Uint32
----@field private BBID_IsEnabledChange redCallbackObject
----@field private gameInstance ScriptGameInstance
----@field private isShown Bool
----@field private playerPuppet gameObject
+---@field currentTarget entEntityID
+---@field scanLock Bool
+---@field percentValue Float
+---@field oldPercentValue Float
+---@field bbWeaponInfo gameIBlackboard
+---@field BraindanceBB gameIBlackboard
+---@field bbWeaponEventId redCallbackObject
+---@field BBID_BraindanceActive redCallbackObject
+---@field scannerscannerObjectStatsId redCallbackObject
+---@field scannerScannablesId redCallbackObject
+---@field scannerCurrentProgressId redCallbackObject
+---@field scannerCurrentStateId redCallbackObject
+---@field scannerScannedObjectId redCallbackObject
+---@field scannerData scannerDataStructure
+---@field curObj GameObjectScanStats
+---@field scannerBorderMain inkCompoundWidget
+---@field scannerBorderController scannerBorderLogicController
+---@field scannerProgressMain inkCompoundWidget
+---@field scannerFullScreenOverlay inkWidget
+---@field center_frame inkImageWidget
+---@field squares inkImageWidget[]
+---@field squaresFilled inkImageWidget[]
+---@field isUnarmed Bool
+---@field isEnabled Bool
+---@field isFinish Bool
+---@field isScanned Bool
+---@field isBraindanceActive Bool
+---@field border_show inkanimDefinition
+---@field center_show inkanimDefinition
+---@field center_hide inkanimDefinition
+---@field dots_show inkanimDefinition
+---@field dots_hide inkanimDefinition
+---@field BorderAnimProxy inkanimProxy
+---@field soundFinishedOn CName
+---@field soundFinishedOff CName
+---@field playerSpawnedCallbackID Uint32
+---@field BBID_IsEnabledChange redCallbackObject
+---@field gameInstance ScriptGameInstance
+---@field isShown Bool
+---@field playerPuppet gameObject
 gameuiScannerGameController = {}
 
 ---@param fields? gameuiScannerGameController
 ---@return gameuiScannerGameController
-function gameuiScannerGameController.new(fields) return end
+function gameuiScannerGameController.new(fields) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function gameuiScannerGameController:OnBraindanceToggle(value) return end
+function gameuiScannerGameController:OnBraindanceToggle(value) end
 
----@protected
 ---@return Bool
-function gameuiScannerGameController:OnInitialize() return end
+function gameuiScannerGameController:OnInitialize() end
 
----@protected
 ---@param val Int32
 ---@return Bool
-function gameuiScannerGameController:OnIsEnabledChange(val) return end
+function gameuiScannerGameController:OnIsEnabledChange(val) end
 
----@protected
 ---@param val Variant
 ---@return Bool
-function gameuiScannerGameController:OnObjectData(val) return end
+function gameuiScannerGameController:OnObjectData(val) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiScannerGameController:OnPlayerAttach(playerPuppet) return end
+function gameuiScannerGameController:OnPlayerAttach(playerPuppet) end
 
----@protected
 ---@param playerPuppet gameObject
 ---@return Bool
-function gameuiScannerGameController:OnPlayerDetach(playerPuppet) return end
+function gameuiScannerGameController:OnPlayerDetach(playerPuppet) end
 
----@protected
 ---@param val entEntityID
 ---@return Bool
-function gameuiScannerGameController:OnScannedObjectChanged(val) return end
+function gameuiScannerGameController:OnScannedObjectChanged(val) end
 
----@protected
 ---@param widget inkWidget
 ---@param userData IScriptable
 ---@return Bool
-function gameuiScannerGameController:OnScannerHudSpawned(widget, userData) return end
+function gameuiScannerGameController:OnScannerHudSpawned(widget, userData) end
 
----@protected
 ---@param val Variant
 ---@return Bool
-function gameuiScannerGameController:OnStateChanged(val) return end
+function gameuiScannerGameController:OnStateChanged(val) end
 
----@protected
 ---@return Bool
-function gameuiScannerGameController:OnUnitialize() return end
+function gameuiScannerGameController:OnUnitialize() end
 
----@protected
 ---@param value Variant
 ---@return Bool
-function gameuiScannerGameController:OnWeaponSwap(value) return end
+function gameuiScannerGameController:OnWeaponSwap(value) end
 
----@private
 ---@param cat CName|string
 ---@param entry CName|string
 ---@param recordID TweakDBID|string
 ---@return nil
-function gameuiScannerGameController:AddQuestData(cat, entry, recordID) return end
+function gameuiScannerGameController:AddQuestData(cat, entry, recordID) end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiScannerGameController:ConnectToPlayerRelatedBlackboards(playerPuppet) return end
+function gameuiScannerGameController:ConnectToPlayerRelatedBlackboards(playerPuppet) end
 
----@private
 ---@return nil
-function gameuiScannerGameController:CreateAnimationTemplates() return end
+function gameuiScannerGameController:CreateAnimationTemplates() end
 
----@private
 ---@param playerPuppet gameObject
 ---@return nil
-function gameuiScannerGameController:DisconnectFromPlayerRelatedBlackboards(playerPuppet) return end
+function gameuiScannerGameController:DisconnectFromPlayerRelatedBlackboards(playerPuppet) end
 
----@private
 ---@param val Float
 ---@return nil
-function gameuiScannerGameController:OnProgressChange(val) return end
+function gameuiScannerGameController:OnProgressChange(val) end
 
----@private
 ---@param val Variant
 ---@return nil
-function gameuiScannerGameController:OnScannablesChange(val) return end
+function gameuiScannerGameController:OnScannablesChange(val) end
 
----@private
 ---@param SoundEffect CName|string
 ---@return nil
-function gameuiScannerGameController:PlaySound(SoundEffect) return end
+function gameuiScannerGameController:PlaySound(SoundEffect) end
 
----@private
 ---@param val Bool
 ---@return nil
-function gameuiScannerGameController:ShowScanBorder(val) return end
+function gameuiScannerGameController:ShowScanBorder(val) end
 
----@private
 ---@param show Bool
 ---@return nil
-function gameuiScannerGameController:ShowScanner(show) return end
+function gameuiScannerGameController:ShowScanner(show) end

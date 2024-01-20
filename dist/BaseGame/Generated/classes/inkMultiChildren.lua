@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inkMultiChildren: inkChildren
----@field public children inkWidget[]
+---@field children inkWidget[]
 inkMultiChildren = {}
 
 ---@param fields? inkMultiChildren
 ---@return inkMultiChildren
-function inkMultiChildren.new(fields) return end
+function inkMultiChildren.new(fields) end

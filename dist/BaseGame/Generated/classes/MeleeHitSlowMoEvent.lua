@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class MeleeHitSlowMoEvent: redEvent
----@field public isStrongAttack Bool
+---@field isStrongAttack Bool
 MeleeHitSlowMoEvent = {}
 
 ---@param fields? MeleeHitSlowMoEvent
 ---@return MeleeHitSlowMoEvent
-function MeleeHitSlowMoEvent.new(fields) return end
+function MeleeHitSlowMoEvent.new(fields) end

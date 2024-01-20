@@ -1,27 +1,24 @@
 ---@meta
 
 ---@class ModifyDamageWithDistance: ModifyDamageEffector
----@field public percentMult Float
----@field public minDistance Float
----@field public maxDistance Float
----@field public improveWithDistance Bool
+---@field percentMult Float
+---@field minDistance Float
+---@field maxDistance Float
+---@field improveWithDistance Bool
 ModifyDamageWithDistance = {}
 
 ---@param fields? ModifyDamageWithDistance
 ---@return ModifyDamageWithDistance
-function ModifyDamageWithDistance.new(fields) return end
+function ModifyDamageWithDistance.new(fields) end
 
----@protected
 ---@param record TweakDBID|string
 ---@param parentRecord TweakDBID|string
 ---@return nil
-function ModifyDamageWithDistance:Initialize(record, parentRecord) return end
+function ModifyDamageWithDistance:Initialize(record, parentRecord) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function ModifyDamageWithDistance:RepeatedAction(owner) return end
+function ModifyDamageWithDistance:RepeatedAction(owner) end
 
----@protected
 ---@return nil
-function ModifyDamageWithDistance:Uninitialize() return end
+function ModifyDamageWithDistance:Uninitialize() end

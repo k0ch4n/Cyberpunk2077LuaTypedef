@@ -5,32 +5,27 @@ EveningPreset = {}
 
 ---@param fields? EveningPreset
 ---@return EveningPreset
-function EveningPreset.new(fields) return end
+function EveningPreset.new(fields) end
 
 ---@return CName
-function EveningPreset:GetPresetName() return end
+function EveningPreset:GetPresetName() end
 
----@protected
 ---@param device DoorControllerPS
 ---@return nil
-function EveningPreset:QueueDoorActions(device) return end
+function EveningPreset:QueueDoorActions(device) end
 
----@protected
 ---@param device RadioControllerPS
 ---@return nil
-function EveningPreset:QueueRadioActions(device) return end
+function EveningPreset:QueueRadioActions(device) end
 
----@protected
 ---@param device SimpleSwitchControllerPS
 ---@return nil
-function EveningPreset:QueueSwitchActions(device) return end
+function EveningPreset:QueueSwitchActions(device) end
 
----@protected
 ---@param device TVControllerPS
 ---@return nil
-function EveningPreset:QueueTVActions(device) return end
+function EveningPreset:QueueTVActions(device) end
 
----@protected
 ---@param device WindowBlindersControllerPS
 ---@return nil
-function EveningPreset:QueueWindowBlinderActions(device) return end
+function EveningPreset:QueueWindowBlinderActions(device) end

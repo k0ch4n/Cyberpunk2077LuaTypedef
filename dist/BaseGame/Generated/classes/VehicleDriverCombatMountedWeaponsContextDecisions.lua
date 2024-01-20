@@ -5,17 +5,14 @@ VehicleDriverCombatMountedWeaponsContextDecisions = {}
 
 ---@param fields? VehicleDriverCombatMountedWeaponsContextDecisions
 ---@return VehicleDriverCombatMountedWeaponsContextDecisions
-function VehicleDriverCombatMountedWeaponsContextDecisions.new(fields) return end
+function VehicleDriverCombatMountedWeaponsContextDecisions.new(fields) end
 
----@protected
 ---@return Bool
-function VehicleDriverCombatMountedWeaponsContextDecisions:CameraPerspectiveEnterCondition() return end
+function VehicleDriverCombatMountedWeaponsContextDecisions:CameraPerspectiveEnterCondition() end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@return Bool
-function VehicleDriverCombatMountedWeaponsContextDecisions:DriverCombatTypeEnterCondition(stateContext) return end
+function VehicleDriverCombatMountedWeaponsContextDecisions:DriverCombatTypeEnterCondition(stateContext) end
 
----@protected
 ---@return Bool
-function VehicleDriverCombatMountedWeaponsContextDecisions:IsAimingEnterCondition() return end
+function VehicleDriverCombatMountedWeaponsContextDecisions:IsAimingEnterCondition() end

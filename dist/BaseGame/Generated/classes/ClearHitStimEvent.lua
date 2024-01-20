@@ -5,4 +5,4 @@ ClearHitStimEvent = {}
 
 ---@param fields? ClearHitStimEvent
 ---@return ClearHitStimEvent
-function ClearHitStimEvent.new(fields) return end
+function ClearHitStimEvent.new(fields) end

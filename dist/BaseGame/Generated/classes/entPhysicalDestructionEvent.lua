@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class entPhysicalDestructionEvent: redEvent
----@field public componentName CName
----@field public levelOfDestruction Uint8
+---@field componentName CName
+---@field levelOfDestruction Uint8
 entPhysicalDestructionEvent = {}
 
 ---@param fields? entPhysicalDestructionEvent
 ---@return entPhysicalDestructionEvent
-function entPhysicalDestructionEvent.new(fields) return end
+function entPhysicalDestructionEvent.new(fields) end

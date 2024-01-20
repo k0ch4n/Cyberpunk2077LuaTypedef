@@ -5,4 +5,4 @@ questToggleSwitchSeatsForPlayer_NodeType = {}
 
 ---@param fields? questToggleSwitchSeatsForPlayer_NodeType
 ---@return questToggleSwitchSeatsForPlayer_NodeType
-function questToggleSwitchSeatsForPlayer_NodeType.new(fields) return end
+function questToggleSwitchSeatsForPlayer_NodeType.new(fields) end

@@ -5,4 +5,4 @@ gameWorldSpaceBlendCamera = {}
 
 ---@param fields? gameWorldSpaceBlendCamera
 ---@return gameWorldSpaceBlendCamera
-function gameWorldSpaceBlendCamera.new(fields) return end
+function gameWorldSpaceBlendCamera.new(fields) end

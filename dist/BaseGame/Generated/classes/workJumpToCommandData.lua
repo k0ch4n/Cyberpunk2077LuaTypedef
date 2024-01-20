@@ -5,4 +5,4 @@ workJumpToCommandData = {}
 
 ---@param fields? workJumpToCommandData
 ---@return workJumpToCommandData
-function workJumpToCommandData.new(fields) return end
+function workJumpToCommandData.new(fields) end

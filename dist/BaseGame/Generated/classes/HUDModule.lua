@@ -1,87 +1,76 @@
 ---@meta
 
 ---@class HUDModule: IScriptable
----@field protected hud HUDManager
----@field protected state ModuleState
----@field protected instancesList ModuleInstance[]
+---@field hud HUDManager
+---@field state ModuleState
+---@field instancesList ModuleInstance[]
 HUDModule = {}
 
----@protected
 ---@param actor gameHudActor
 ---@return ModuleInstance
-function HUDModule:DuplicateLastInstance(actor) return end
+function HUDModule:DuplicateLastInstance(actor) end
 
----@protected
 ---@return ActiveMode
-function HUDModule:GetActiveMode() return end
+function HUDModule:GetActiveMode() end
 
----@protected
 ---@return gameObject
-function HUDModule:GetPlayer() return end
+function HUDModule:GetPlayer() end
 
 ---@return ModuleState
-function HUDModule:GetState() return end
+function HUDModule:GetState() end
 
----@protected
 ---@return Bool
-function HUDModule:HasCurrentTarget() return end
+function HUDModule:HasCurrentTarget() end
 
 ---@param hud HUDManager
 ---@param state ModuleState
 ---@return nil
-function HUDModule:InitializeModule(hud, state) return end
+function HUDModule:InitializeModule(hud, state) end
 
----@protected
 ---@param actor gameHudActor
 ---@return Bool
-function HUDModule:IsActorLookedAt(actor) return end
+function HUDModule:IsActorLookedAt(actor) end
 
----@protected
 ---@param actor gameHudActor
 ---@return Bool
-function HUDModule:IsActorLooted(actor) return end
+function HUDModule:IsActorLooted(actor) end
 
----@protected
 ---@param actor gameHudActor
 ---@return Bool
-function HUDModule:IsActorQuickHackTarget(actor) return end
+function HUDModule:IsActorQuickHackTarget(actor) end
 
----@protected
 ---@param index Int32
 ---@return Bool
-function HUDModule:IsIndexOK(index) return end
+function HUDModule:IsIndexOK(index) end
 
 ---@return Bool
-function HUDModule:IsModuleOperational() return end
+function HUDModule:IsModuleOperational() end
 
 ---@param forcedMode? ActiveMode
 ---@return nil, HUDJob[] jobs
-function HUDModule:Iterate(forcedMode) return end
+function HUDModule:Iterate(forcedMode) end
 
 ---@param forcedMode? ActiveMode
 ---@return nil, HUDJob job
-function HUDModule:Iterate(forcedMode) return end
+function HUDModule:Iterate(forcedMode) end
 
----@protected
 ---@param index Int32
 ---@param instance ModuleInstance
 ---@return nil
-function HUDModule:OverrideInstance(index, instance) return end
+function HUDModule:OverrideInstance(index, instance) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob[] jobs
-function HUDModule:Process(mode) return end
+function HUDModule:Process(mode) end
 
----@protected
 ---@param mode ActiveMode
 ---@return nil, HUDJob task
-function HUDModule:Process(mode) return end
+function HUDModule:Process(mode) end
 
 ---@param jobs HUDJob[]
 ---@return nil
-function HUDModule:Suppress(jobs) return end
+function HUDModule:Suppress(jobs) end
 
 ---@param actor gameHudActor
 ---@return nil
-function HUDModule:UnregisterActor(actor) return end
+function HUDModule:UnregisterActor(actor) end

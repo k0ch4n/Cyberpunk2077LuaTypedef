@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SHitStatusEffect
----@field public stacks Float
----@field public id TweakDBID
+---@field stacks Float
+---@field id TweakDBID
 SHitStatusEffect = {}
 
 ---@param fields? SHitStatusEffect
 ---@return SHitStatusEffect
-function SHitStatusEffect.new(fields) return end
+function SHitStatusEffect.new(fields) end

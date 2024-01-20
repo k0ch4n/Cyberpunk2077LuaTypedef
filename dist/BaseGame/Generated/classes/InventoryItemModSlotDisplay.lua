@@ -1,18 +1,18 @@
 ---@meta
 
 ---@class InventoryItemModSlotDisplay: inkWidgetLogicController
----@field private slotBorder inkWidgetReference
----@field private slotBackground inkWidgetReference
+---@field slotBorder inkWidgetReference
+---@field slotBackground inkWidgetReference
 InventoryItemModSlotDisplay = {}
 
 ---@param fields? InventoryItemModSlotDisplay
 ---@return InventoryItemModSlotDisplay
-function InventoryItemModSlotDisplay.new(fields) return end
+function InventoryItemModSlotDisplay.new(fields) end
 
 ---@param inventoryItemData gameInventoryItemData
 ---@return nil
-function InventoryItemModSlotDisplay:Setup(inventoryItemData) return end
+function InventoryItemModSlotDisplay:Setup(inventoryItemData) end
 
 ---@param modInfo UIInventoryItemMod
 ---@return nil
-function InventoryItemModSlotDisplay:Setup(modInfo) return end
+function InventoryItemModSlotDisplay:Setup(modInfo) end

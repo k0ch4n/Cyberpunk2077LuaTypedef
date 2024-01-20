@@ -1,19 +1,19 @@
 ---@meta
 
 ---@class PerfectDischargePrereqListener: gameScriptStatPoolsListener
----@field protected state PerfectDischargePrereqState
+---@field state PerfectDischargePrereqState
 PerfectDischargePrereqListener = {}
 
 ---@param fields? PerfectDischargePrereqListener
 ---@return PerfectDischargePrereqListener
-function PerfectDischargePrereqListener.new(fields) return end
+function PerfectDischargePrereqListener.new(fields) end
 
 ---@param oldValue Float
 ---@param newValue Float
 ---@param percToPoints Float
 ---@return nil
-function PerfectDischargePrereqListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) return end
+function PerfectDischargePrereqListener:OnStatPoolValueChanged(oldValue, newValue, percToPoints) end
 
 ---@param state gamePrereqState
 ---@return nil
-function PerfectDischargePrereqListener:RegisterState(state) return end
+function PerfectDischargePrereqListener:RegisterState(state) end

@@ -5,4 +5,4 @@ gamedataAIIsFromDynamicSpawnSystem_Record = {}
 
 ---@param fields? gamedataAIIsFromDynamicSpawnSystem_Record
 ---@return gamedataAIIsFromDynamicSpawnSystem_Record
-function gamedataAIIsFromDynamicSpawnSystem_Record.new(fields) return end
+function gamedataAIIsFromDynamicSpawnSystem_Record.new(fields) end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class MessagePopupDisplayController: inkWidgetLogicController
----@field protected title inkTextWidgetReference
----@field protected message inkTextWidgetReference
----@field protected image inkImageWidgetReference
+---@field title inkTextWidgetReference
+---@field message inkTextWidgetReference
+---@field image inkImageWidgetReference
 MessagePopupDisplayController = {}
 
 ---@param fields? MessagePopupDisplayController
 ---@return MessagePopupDisplayController
-function MessagePopupDisplayController.new(fields) return end
+function MessagePopupDisplayController.new(fields) end
 
 ---@param data gamePopupData
 ---@param settings? gamePopupSettings
 ---@return nil
-function MessagePopupDisplayController:SetData(data, settings) return end
+function MessagePopupDisplayController:SetData(data, settings) end

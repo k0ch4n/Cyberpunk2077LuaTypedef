@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class worldTriggerAreaNode: worldAreaShapeNode
----@field public notifiers worldITriggerAreaNotifer[]
+---@field notifiers worldITriggerAreaNotifer[]
 worldTriggerAreaNode = {}
 
 ---@param fields? worldTriggerAreaNode
 ---@return worldTriggerAreaNode
-function worldTriggerAreaNode.new(fields) return end
+function worldTriggerAreaNode.new(fields) end

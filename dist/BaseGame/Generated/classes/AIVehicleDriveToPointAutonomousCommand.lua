@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class AIVehicleDriveToPointAutonomousCommand: AIVehicleCommand
----@field public targetPosition Vector3
----@field public maxSpeed Float
----@field public minSpeed Float
----@field public clearTrafficOnPath Bool
----@field public minimumDistanceToTarget Float
----@field public forcedStartSpeed Float
----@field public driveDownTheRoadIndefinitely Bool
+---@field targetPosition Vector3
+---@field maxSpeed Float
+---@field minSpeed Float
+---@field clearTrafficOnPath Bool
+---@field minimumDistanceToTarget Float
+---@field forcedStartSpeed Float
+---@field driveDownTheRoadIndefinitely Bool
 AIVehicleDriveToPointAutonomousCommand = {}
 
 ---@param fields? AIVehicleDriveToPointAutonomousCommand
 ---@return AIVehicleDriveToPointAutonomousCommand
-function AIVehicleDriveToPointAutonomousCommand.new(fields) return end
+function AIVehicleDriveToPointAutonomousCommand.new(fields) end

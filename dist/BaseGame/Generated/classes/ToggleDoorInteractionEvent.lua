@@ -5,4 +5,4 @@ ToggleDoorInteractionEvent = {}
 
 ---@param fields? ToggleDoorInteractionEvent
 ---@return ToggleDoorInteractionEvent
-function ToggleDoorInteractionEvent.new(fields) return end
+function ToggleDoorInteractionEvent.new(fields) end

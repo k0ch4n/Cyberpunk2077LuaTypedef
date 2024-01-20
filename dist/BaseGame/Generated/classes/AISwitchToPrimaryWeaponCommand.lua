@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class AISwitchToPrimaryWeaponCommand: AICommand
----@field public unEquip Bool
+---@field unEquip Bool
 AISwitchToPrimaryWeaponCommand = {}
 
 ---@param fields? AISwitchToPrimaryWeaponCommand
 ---@return AISwitchToPrimaryWeaponCommand
-function AISwitchToPrimaryWeaponCommand.new(fields) return end
+function AISwitchToPrimaryWeaponCommand.new(fields) end

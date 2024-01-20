@@ -5,4 +5,4 @@ AlwaysTruePrereqState = {}
 
 ---@param fields? AlwaysTruePrereqState
 ---@return AlwaysTruePrereqState
-function AlwaysTruePrereqState.new(fields) return end
+function AlwaysTruePrereqState.new(fields) end

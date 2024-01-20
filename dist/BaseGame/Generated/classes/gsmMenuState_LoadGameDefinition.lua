@@ -5,4 +5,4 @@ gsmMenuState_LoadGameDefinition = {}
 
 ---@param fields? gsmMenuState_LoadGameDefinition
 ---@return gsmMenuState_LoadGameDefinition
-function gsmMenuState_LoadGameDefinition.new(fields) return end
+function gsmMenuState_LoadGameDefinition.new(fields) end

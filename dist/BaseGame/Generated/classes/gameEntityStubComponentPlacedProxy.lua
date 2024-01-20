@@ -5,4 +5,4 @@ gameEntityStubComponentPlacedProxy = {}
 
 ---@param fields? gameEntityStubComponentPlacedProxy
 ---@return gameEntityStubComponentPlacedProxy
-function gameEntityStubComponentPlacedProxy.new(fields) return end
+function gameEntityStubComponentPlacedProxy.new(fields) end

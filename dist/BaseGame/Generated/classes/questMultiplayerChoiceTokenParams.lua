@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questMultiplayerChoiceTokenParams
----@field public timeout Uint32
----@field public compatibleDeviceName CName
+---@field timeout Uint32
+---@field compatibleDeviceName CName
 questMultiplayerChoiceTokenParams = {}
 
 ---@param fields? questMultiplayerChoiceTokenParams
 ---@return questMultiplayerChoiceTokenParams
-function questMultiplayerChoiceTokenParams.new(fields) return end
+function questMultiplayerChoiceTokenParams.new(fields) end

@@ -5,8 +5,8 @@ ProjectileHitHelper = {}
 
 ---@param fields? ProjectileHitHelper
 ---@return ProjectileHitHelper
-function ProjectileHitHelper.new(fields) return end
+function ProjectileHitHelper.new(fields) end
 
 ---@param hitInstance gameprojectileHitInstance
 ---@return gameObject
-function ProjectileHitHelper.GetHitObject(hitInstance) return end
+function ProjectileHitHelper.GetHitObject(hitInstance) end

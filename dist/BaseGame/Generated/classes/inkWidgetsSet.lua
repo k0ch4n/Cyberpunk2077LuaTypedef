@@ -5,17 +5,17 @@ inkWidgetsSet = {}
 
 ---@param fields? inkWidgetsSet
 ---@return inkWidgetsSet
-function inkWidgetsSet.new(fields) return end
+function inkWidgetsSet.new(fields) end
 
 ---@param other inkWidgetsSet
 ---@return inkWidgetsSet
-function inkWidgetsSet:FromSet(other) return end
+function inkWidgetsSet:FromSet(other) end
 
 ---@return inkWidget[]
-function inkWidgetsSet:Get() return end
+function inkWidgetsSet:Get() end
 
 ---@param widget inkWidget
 ---@param selectionRule? inkSelectionRule
 ---@param param? String
 ---@return inkWidgetsSet
-function inkWidgetsSet:Select(widget, selectionRule, param) return end
+function inkWidgetsSet:Select(widget, selectionRule, param) end

@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class AdHocAnimationDef: gamebbScriptDefinition
----@field public IsActive gamebbScriptID_Bool
----@field public AnimationIndex gamebbScriptID_Int32
----@field public UseBothHands gamebbScriptID_Bool
----@field public UnequipWeapon gamebbScriptID_Bool
----@field public AnimationDuration gamebbScriptID_Float
+---@field IsActive gamebbScriptID_Bool
+---@field AnimationIndex gamebbScriptID_Int32
+---@field UseBothHands gamebbScriptID_Bool
+---@field UnequipWeapon gamebbScriptID_Bool
+---@field AnimationDuration gamebbScriptID_Float
 AdHocAnimationDef = {}
 
 ---@param fields? AdHocAnimationDef
 ---@return AdHocAnimationDef
-function AdHocAnimationDef.new(fields) return end
+function AdHocAnimationDef.new(fields) end
 
 ---@return Bool
-function AdHocAnimationDef:AutoCreateInSystem() return end
+function AdHocAnimationDef:AutoCreateInSystem() end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class RemoveFromChainRequest: gameScriptableSystemRequest
----@field public requestSource entEntityID
+---@field requestSource entEntityID
 RemoveFromChainRequest = {}
 
 ---@param fields? RemoveFromChainRequest
 ---@return RemoveFromChainRequest
-function RemoveFromChainRequest.new(fields) return end
+function RemoveFromChainRequest.new(fields) end

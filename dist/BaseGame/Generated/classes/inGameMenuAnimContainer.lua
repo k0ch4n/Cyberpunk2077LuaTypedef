@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class inGameMenuAnimContainer: IScriptable
----@field public animProxy inkanimProxy
+---@field animProxy inkanimProxy
 inGameMenuAnimContainer = {}
 
 ---@param fields? inGameMenuAnimContainer
 ---@return inGameMenuAnimContainer
-function inGameMenuAnimContainer.new(fields) return end
+function inGameMenuAnimContainer.new(fields) end

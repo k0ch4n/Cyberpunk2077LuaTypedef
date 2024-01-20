@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class entTriggerActivatorComponent: entIPlacedComponent
----@field public radius Float
----@field public height Float
----@field public channels TriggerChannel
----@field public maxContinousDistance Float
----@field public enableCCD Bool
----@field public isEnabled Bool
+---@field radius Float
+---@field height Float
+---@field channels TriggerChannel
+---@field maxContinousDistance Float
+---@field enableCCD Bool
+---@field isEnabled Bool
 entTriggerActivatorComponent = {}
 
 ---@param fields? entTriggerActivatorComponent
 ---@return entTriggerActivatorComponent
-function entTriggerActivatorComponent.new(fields) return end
+function entTriggerActivatorComponent.new(fields) end

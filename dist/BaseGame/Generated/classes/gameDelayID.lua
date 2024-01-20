@@ -5,4 +5,4 @@ gameDelayID = {}
 
 ---@param fields? gameDelayID
 ---@return gameDelayID
-function gameDelayID.new(fields) return end
+function gameDelayID.new(fields) end

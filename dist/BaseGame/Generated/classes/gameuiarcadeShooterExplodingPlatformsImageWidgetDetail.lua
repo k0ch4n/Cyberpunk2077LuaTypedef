@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeShooterExplodingPlatformsImageWidgetDetail
----@field public platformName CName
----@field public platformImageDetails gameuiarcadeShooterPlatformImageDetail[]
+---@field platformName CName
+---@field platformImageDetails gameuiarcadeShooterPlatformImageDetail[]
 gameuiarcadeShooterExplodingPlatformsImageWidgetDetail = {}
 
 ---@param fields? gameuiarcadeShooterExplodingPlatformsImageWidgetDetail
 ---@return gameuiarcadeShooterExplodingPlatformsImageWidgetDetail
-function gameuiarcadeShooterExplodingPlatformsImageWidgetDetail.new(fields) return end
+function gameuiarcadeShooterExplodingPlatformsImageWidgetDetail.new(fields) end

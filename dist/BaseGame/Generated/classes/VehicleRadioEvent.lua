@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class VehicleRadioEvent: redEvent
----@field public toggle Bool
----@field public setStation Bool
----@field public station Int32
+---@field toggle Bool
+---@field setStation Bool
+---@field station Int32
 VehicleRadioEvent = {}
 
 ---@param fields? VehicleRadioEvent
 ---@return VehicleRadioEvent
-function VehicleRadioEvent.new(fields) return end
+function VehicleRadioEvent.new(fields) end
 
 ---@return String
-function VehicleRadioEvent:GetFriendlyDescription() return end
+function VehicleRadioEvent:GetFriendlyDescription() end

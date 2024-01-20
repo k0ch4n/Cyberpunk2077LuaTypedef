@@ -5,4 +5,4 @@ inkLeafWidgetReference = {}
 
 ---@param fields? inkLeafWidgetReference
 ---@return inkLeafWidgetReference
-function inkLeafWidgetReference.new(fields) return end
+function inkLeafWidgetReference.new(fields) end

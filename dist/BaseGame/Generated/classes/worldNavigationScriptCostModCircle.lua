@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class worldNavigationScriptCostModCircle: IScriptable
----@field public pos Vector4
----@field public range Float
----@field public cost Float
+---@field pos Vector4
+---@field range Float
+---@field cost Float
 worldNavigationScriptCostModCircle = {}
 
 ---@param fields? worldNavigationScriptCostModCircle
 ---@return worldNavigationScriptCostModCircle
-function worldNavigationScriptCostModCircle.new(fields) return end
+function worldNavigationScriptCostModCircle.new(fields) end

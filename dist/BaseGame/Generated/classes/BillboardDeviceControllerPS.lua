@@ -1,48 +1,43 @@
 ---@meta
 
 ---@class BillboardDeviceControllerPS: ScriptableDeviceComponentPS
----@field public glitchSFX CName
----@field public useLights Bool
----@field public lightsSettings EditableGameLightSettings[]
----@field public useDeviceAppearence Bool
+---@field glitchSFX CName
+---@field useLights Bool
+---@field lightsSettings EditableGameLightSettings[]
+---@field useDeviceAppearence Bool
 BillboardDeviceControllerPS = {}
 
 ---@param fields? BillboardDeviceControllerPS
 ---@return BillboardDeviceControllerPS
-function BillboardDeviceControllerPS.new(fields) return end
+function BillboardDeviceControllerPS.new(fields) end
 
----@protected
 ---@return Bool
-function BillboardDeviceControllerPS:OnInstantiated() return end
+function BillboardDeviceControllerPS:OnInstantiated() end
 
----@protected
 ---@return Bool
-function BillboardDeviceControllerPS:CanCreateAnyQuickHackActions() return end
+function BillboardDeviceControllerPS:CanCreateAnyQuickHackActions() end
 
----@protected
 ---@return TweakDBID
-function BillboardDeviceControllerPS:GetBackgroundTextureTweakDBID() return end
+function BillboardDeviceControllerPS:GetBackgroundTextureTweakDBID() end
 
 ---@return gamedeviceClearance
-function BillboardDeviceControllerPS:GetClearance() return end
+function BillboardDeviceControllerPS:GetClearance() end
 
----@protected
 ---@return TweakDBID
-function BillboardDeviceControllerPS:GetDeviceIconTweakDBID() return end
+function BillboardDeviceControllerPS:GetDeviceIconTweakDBID() end
 
 ---@return CName
-function BillboardDeviceControllerPS:GetGlitchSFX() return end
+function BillboardDeviceControllerPS:GetGlitchSFX() end
 
 ---@return EditableGameLightSettings[]
-function BillboardDeviceControllerPS:GetLightsSettings() return end
+function BillboardDeviceControllerPS:GetLightsSettings() end
 
----@protected
 ---@param context gameGetActionsContext
 ---@return nil, gamedeviceAction[] outActions
-function BillboardDeviceControllerPS:GetQuickHackActions(context) return end
+function BillboardDeviceControllerPS:GetQuickHackActions(context) end
 
 ---@return Bool
-function BillboardDeviceControllerPS:IsUsingDeviceAppearence() return end
+function BillboardDeviceControllerPS:IsUsingDeviceAppearence() end
 
 ---@return Bool
-function BillboardDeviceControllerPS:IsUsingLights() return end
+function BillboardDeviceControllerPS:IsUsingLights() end

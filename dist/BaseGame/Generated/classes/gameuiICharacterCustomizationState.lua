@@ -5,57 +5,57 @@ gameuiICharacterCustomizationState = {}
 
 ---@param type gamedataStatType
 ---@return Uint32
-function gameuiICharacterCustomizationState:GetAttribute(type) return end
+function gameuiICharacterCustomizationState:GetAttribute(type) end
 
 ---@return Uint32
-function gameuiICharacterCustomizationState:GetAttributePointsAvailable() return end
+function gameuiICharacterCustomizationState:GetAttributePointsAvailable() end
 
 ---@return gameuiCharacterCustomizationAttribute[]
-function gameuiICharacterCustomizationState:GetAttributes() return end
+function gameuiICharacterCustomizationState:GetAttributes() end
 
 ---@return TweakDBID
-function gameuiICharacterCustomizationState:GetLifePath() return end
+function gameuiICharacterCustomizationState:GetLifePath() end
 
 ---@param groupName CName|string
 ---@param optionName CName|string
 ---@param isFPP Bool
 ---@return Bool
-function gameuiICharacterCustomizationState:HasOption(groupName, optionName, isFPP) return end
+function gameuiICharacterCustomizationState:HasOption(groupName, optionName, isFPP) end
 
 ---@param tag CName|string
 ---@return Bool
-function gameuiICharacterCustomizationState:HasTag(tag) return end
+function gameuiICharacterCustomizationState:HasTag(tag) end
 
 ---@return Bool
-function gameuiICharacterCustomizationState:IsBodyGenderMale() return end
+function gameuiICharacterCustomizationState:IsBodyGenderMale() end
 
 ---@return Bool
-function gameuiICharacterCustomizationState:IsBrainGenderMale() return end
+function gameuiICharacterCustomizationState:IsBrainGenderMale() end
 
 ---@return Bool
-function gameuiICharacterCustomizationState:IsExpansionStandalone() return end
+function gameuiICharacterCustomizationState:IsExpansionStandalone() end
 
 ---@param type gamedataStatType
 ---@param value Uint32
 ---@return nil
-function gameuiICharacterCustomizationState:SetAttribute(type, value) return end
+function gameuiICharacterCustomizationState:SetAttribute(type, value) end
 
 ---@param value Uint32
 ---@return nil
-function gameuiICharacterCustomizationState:SetAttributePointsAvailable(value) return end
+function gameuiICharacterCustomizationState:SetAttributePointsAvailable(value) end
 
 ---@param isMale Bool
 ---@return nil
-function gameuiICharacterCustomizationState:SetIsBodyGenderMale(isMale) return end
+function gameuiICharacterCustomizationState:SetIsBodyGenderMale(isMale) end
 
 ---@param isMale Bool
 ---@return nil
-function gameuiICharacterCustomizationState:SetIsBrainGenderMale(isMale) return end
+function gameuiICharacterCustomizationState:SetIsBrainGenderMale(isMale) end
 
 ---@param isExpansionStandalone Bool
 ---@return nil
-function gameuiICharacterCustomizationState:SetIsExpansionStandalone(isExpansionStandalone) return end
+function gameuiICharacterCustomizationState:SetIsExpansionStandalone(isExpansionStandalone) end
 
 ---@param lifepath TweakDBID|string
 ---@return nil
-function gameuiICharacterCustomizationState:SetLifePath(lifepath) return end
+function gameuiICharacterCustomizationState:SetLifePath(lifepath) end

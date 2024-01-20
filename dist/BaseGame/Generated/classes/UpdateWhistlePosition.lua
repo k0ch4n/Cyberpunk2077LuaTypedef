@@ -5,26 +5,23 @@ UpdateWhistlePosition = {}
 
 ---@param fields? UpdateWhistlePosition
 ---@return UpdateWhistlePosition
-function UpdateWhistlePosition.new(fields) return end
+function UpdateWhistlePosition.new(fields) end
 
 ---@param owner gameObject
 ---@param playerPosition Vector4
 ---@return Bool, Vector4 position, gameObject proxy
-function UpdateWhistlePosition.TryGetDesiredWhistlePosition(owner, playerPosition) return end
+function UpdateWhistlePosition.TryGetDesiredWhistlePosition(owner, playerPosition) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function UpdateWhistlePosition:Activate(context) return end
+function UpdateWhistlePosition:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param position Vector4
 ---@return nil
-function UpdateWhistlePosition:SetPosition(context, position) return end
+function UpdateWhistlePosition:SetPosition(context, position) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@param target gameObject
 ---@return nil
-function UpdateWhistlePosition:SetTarget(context, target) return end
+function UpdateWhistlePosition:SetTarget(context, target) end

@@ -1,35 +1,30 @@
 ---@meta
 
 ---@class gameuiMinimapDynamicEventMappinController: gameuiBaseMinimapMappinController
----@field public pulseEnabled Bool
----@field public pulseWidget inkWidgetReference
----@field public hideAtDistance Float
----@field public hideInCombat Bool
----@field private pulseAnim inkanimProxy
+---@field pulseEnabled Bool
+---@field pulseWidget inkWidgetReference
+---@field hideAtDistance Float
+---@field hideInCombat Bool
+---@field pulseAnim inkanimProxy
 gameuiMinimapDynamicEventMappinController = {}
 
 ---@param fields? gameuiMinimapDynamicEventMappinController
 ---@return gameuiMinimapDynamicEventMappinController
-function gameuiMinimapDynamicEventMappinController.new(fields) return end
+function gameuiMinimapDynamicEventMappinController.new(fields) end
 
----@protected
 ---@param anim inkanimProxy
 ---@return Bool
-function gameuiMinimapDynamicEventMappinController:OnPulseAnimLoop(anim) return end
+function gameuiMinimapDynamicEventMappinController:OnPulseAnimLoop(anim) end
 
----@protected
 ---@param enabled Bool
 ---@return Bool
-function gameuiMinimapDynamicEventMappinController:OnPulseEnabledChanged(enabled) return end
+function gameuiMinimapDynamicEventMappinController:OnPulseEnabledChanged(enabled) end
 
----@protected
 ---@return CName
-function gameuiMinimapDynamicEventMappinController:ComputeRootState() return end
+function gameuiMinimapDynamicEventMappinController:ComputeRootState() end
 
----@private
 ---@return nil
-function gameuiMinimapDynamicEventMappinController:PlayPulseAnimation() return end
+function gameuiMinimapDynamicEventMappinController:PlayPulseAnimation() end
 
----@private
 ---@return nil
-function gameuiMinimapDynamicEventMappinController:StopPulseAnimation() return end
+function gameuiMinimapDynamicEventMappinController:StopPulseAnimation() end

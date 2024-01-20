@@ -1,18 +1,17 @@
 ---@meta
 
 ---@class RarityOfEquippedCyberdeckPrereq: gameIScriptablePrereq
----@field public minimumQuality Int32
+---@field minimumQuality Int32
 RarityOfEquippedCyberdeckPrereq = {}
 
 ---@param fields? RarityOfEquippedCyberdeckPrereq
 ---@return RarityOfEquippedCyberdeckPrereq
-function RarityOfEquippedCyberdeckPrereq.new(fields) return end
+function RarityOfEquippedCyberdeckPrereq.new(fields) end
 
----@protected
 ---@param recordID TweakDBID|string
 ---@return nil
-function RarityOfEquippedCyberdeckPrereq:Initialize(recordID) return end
+function RarityOfEquippedCyberdeckPrereq:Initialize(recordID) end
 
 ---@param context IScriptable
 ---@return Bool
-function RarityOfEquippedCyberdeckPrereq:IsFulfilled(context) return end
+function RarityOfEquippedCyberdeckPrereq:IsFulfilled(context) end

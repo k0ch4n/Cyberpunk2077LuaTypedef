@@ -5,8 +5,8 @@ QuestForceAttitude = {}
 
 ---@param fields? QuestForceAttitude
 ---@return QuestForceAttitude
-function QuestForceAttitude.new(fields) return end
+function QuestForceAttitude.new(fields) end
 
 ---@param atttitudeName CName|string
 ---@return nil
-function QuestForceAttitude:SetProperties(atttitudeName) return end
+function QuestForceAttitude:SetProperties(atttitudeName) end

@@ -5,4 +5,4 @@ animAnimNode_DisableLunaticMode = {}
 
 ---@param fields? animAnimNode_DisableLunaticMode
 ---@return animAnimNode_DisableLunaticMode
-function animAnimNode_DisableLunaticMode.new(fields) return end
+function animAnimNode_DisableLunaticMode.new(fields) end

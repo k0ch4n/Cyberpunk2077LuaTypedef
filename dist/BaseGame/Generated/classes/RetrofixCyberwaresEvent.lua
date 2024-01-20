@@ -5,4 +5,4 @@ RetrofixCyberwaresEvent = {}
 
 ---@param fields? RetrofixCyberwaresEvent
 ---@return RetrofixCyberwaresEvent
-function RetrofixCyberwaresEvent.new(fields) return end
+function RetrofixCyberwaresEvent.new(fields) end

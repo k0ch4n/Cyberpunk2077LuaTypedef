@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class gameuiarcadeShooterTransporterSpawnerController: inkWidgetLogicController
----@field public spawnDelay Float
----@field public isRandomSpawn Bool
----@field public choosenMounts gameuiarcadeShooterTransporterSpawnData[]
----@field public choosenOnes gameuiarcadeShooterTransporterSpawnData[]
+---@field spawnDelay Float
+---@field isRandomSpawn Bool
+---@field choosenMounts gameuiarcadeShooterTransporterSpawnData[]
+---@field choosenOnes gameuiarcadeShooterTransporterSpawnData[]
 gameuiarcadeShooterTransporterSpawnerController = {}
 
 ---@param fields? gameuiarcadeShooterTransporterSpawnerController
 ---@return gameuiarcadeShooterTransporterSpawnerController
-function gameuiarcadeShooterTransporterSpawnerController.new(fields) return end
+function gameuiarcadeShooterTransporterSpawnerController.new(fields) end

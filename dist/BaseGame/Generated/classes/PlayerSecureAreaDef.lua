@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class PlayerSecureAreaDef: gamebbScriptDefinition
----@field public inside gamebbScriptID_Bool
+---@field inside gamebbScriptID_Bool
 PlayerSecureAreaDef = {}
 
 ---@param fields? PlayerSecureAreaDef
 ---@return PlayerSecureAreaDef
-function PlayerSecureAreaDef.new(fields) return end
+function PlayerSecureAreaDef.new(fields) end
 
 ---@return Bool
-function PlayerSecureAreaDef:AutoCreateInSystem() return end
+function PlayerSecureAreaDef:AutoCreateInSystem() end

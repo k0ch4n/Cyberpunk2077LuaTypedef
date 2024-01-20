@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DelayStimEvent: redEvent
----@field public stimEvent senseStimuliEvent
----@field public fullEventPipeline Bool
+---@field stimEvent senseStimuliEvent
+---@field fullEventPipeline Bool
 DelayStimEvent = {}
 
 ---@param fields? DelayStimEvent
 ---@return DelayStimEvent
-function DelayStimEvent.new(fields) return end
+function DelayStimEvent.new(fields) end

@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkMenuResource: CResource
----@field public menusEntries inkMenuEntry[]
----@field public scenariosNames CName[]
----@field public initialScenarioName CName
+---@field menusEntries inkMenuEntry[]
+---@field scenariosNames CName[]
+---@field initialScenarioName CName
 inkMenuResource = {}
 
 ---@param fields? inkMenuResource
 ---@return inkMenuResource
-function inkMenuResource.new(fields) return end
+function inkMenuResource.new(fields) end

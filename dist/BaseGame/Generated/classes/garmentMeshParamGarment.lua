@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class garmentMeshParamGarment: meshMeshParameter
----@field public chunks garmentMeshParamGarmentChunkData[]
+---@field chunks garmentMeshParamGarmentChunkData[]
 garmentMeshParamGarment = {}
 
 ---@param fields? garmentMeshParamGarment
 ---@return garmentMeshParamGarment
-function garmentMeshParamGarment.new(fields) return end
+function garmentMeshParamGarment.new(fields) end

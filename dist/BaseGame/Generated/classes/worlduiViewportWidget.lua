@@ -5,4 +5,4 @@ worlduiViewportWidget = {}
 
 ---@param fields? worlduiViewportWidget
 ---@return worlduiViewportWidget
-function worlduiViewportWidget.new(fields) return end
+function worlduiViewportWidget.new(fields) end

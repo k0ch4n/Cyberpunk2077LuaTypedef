@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class LookedAtEvent: redEvent
----@field public isLookedAt Bool
+---@field isLookedAt Bool
 LookedAtEvent = {}
 
 ---@param fields? LookedAtEvent
 ---@return LookedAtEvent
-function LookedAtEvent.new(fields) return end
+function LookedAtEvent.new(fields) end

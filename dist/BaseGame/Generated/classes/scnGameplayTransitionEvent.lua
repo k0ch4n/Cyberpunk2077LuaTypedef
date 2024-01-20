@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class scnGameplayTransitionEvent: scnSceneEvent
----@field public performer scnPerformerId
----@field public vehState scnPuppetVehicleState
+---@field performer scnPerformerId
+---@field vehState scnPuppetVehicleState
 scnGameplayTransitionEvent = {}
 
 ---@param fields? scnGameplayTransitionEvent
 ---@return scnGameplayTransitionEvent
-function scnGameplayTransitionEvent.new(fields) return end
+function scnGameplayTransitionEvent.new(fields) end

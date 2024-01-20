@@ -5,4 +5,4 @@ ExplosiveDeviceHideDeviceEvent = {}
 
 ---@param fields? ExplosiveDeviceHideDeviceEvent
 ---@return ExplosiveDeviceHideDeviceEvent
-function ExplosiveDeviceHideDeviceEvent.new(fields) return end
+function ExplosiveDeviceHideDeviceEvent.new(fields) end

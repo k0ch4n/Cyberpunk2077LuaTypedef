@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questVariantState
----@field public name CName
----@field public show Bool
+---@field name CName
+---@field show Bool
 questVariantState = {}
 
 ---@param fields? questVariantState
 ---@return questVariantState
-function questVariantState.new(fields) return end
+function questVariantState.new(fields) end

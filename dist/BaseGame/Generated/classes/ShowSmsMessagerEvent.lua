@@ -5,4 +5,4 @@ ShowSmsMessagerEvent = {}
 
 ---@param fields? ShowSmsMessagerEvent
 ---@return ShowSmsMessagerEvent
-function ShowSmsMessagerEvent.new(fields) return end
+function ShowSmsMessagerEvent.new(fields) end

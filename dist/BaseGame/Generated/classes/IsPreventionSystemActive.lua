@@ -5,9 +5,8 @@ IsPreventionSystemActive = {}
 
 ---@param fields? IsPreventionSystemActive
 ---@return IsPreventionSystemActive
-function IsPreventionSystemActive.new(fields) return end
+function IsPreventionSystemActive.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function IsPreventionSystemActive:Check(context) return end
+function IsPreventionSystemActive:Check(context) end

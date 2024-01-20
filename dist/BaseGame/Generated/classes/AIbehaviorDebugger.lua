@@ -5,4 +5,4 @@ AIbehaviorDebugger = {}
 
 ---@param fields? AIbehaviorDebugger
 ---@return AIbehaviorDebugger
-function AIbehaviorDebugger.new(fields) return end
+function AIbehaviorDebugger.new(fields) end

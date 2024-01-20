@@ -5,10 +5,9 @@ DodgeAirLowGravityEvents = {}
 
 ---@param fields? DodgeAirLowGravityEvents
 ---@return DodgeAirLowGravityEvents
-function DodgeAirLowGravityEvents.new(fields) return end
+function DodgeAirLowGravityEvents.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return nil
-function DodgeAirLowGravityEvents:OnEnter(stateContext, scriptInterface) return end
+function DodgeAirLowGravityEvents:OnEnter(stateContext, scriptInterface) end

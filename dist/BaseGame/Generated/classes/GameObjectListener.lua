@@ -1,26 +1,26 @@
 ---@meta
 
 ---@class GameObjectListener: IScriptable
----@field public prereqOwner gamePrereqState
----@field public e3HackBlock Bool
+---@field prereqOwner gamePrereqState
+---@field e3HackBlock Bool
 GameObjectListener = {}
 
 ---@param fields? GameObjectListener
 ---@return GameObjectListener
-function GameObjectListener.new(fields) return end
+function GameObjectListener.new(fields) end
 
 ---@param owner gamePrereqState
 ---@return nil
-function GameObjectListener:ModifyOwner(owner) return end
+function GameObjectListener:ModifyOwner(owner) end
 
 ---@param shouldReveal Bool
 ---@return nil
-function GameObjectListener:OnRevealAccessPoint(shouldReveal) return end
+function GameObjectListener:OnRevealAccessPoint(shouldReveal) end
 
 ---@param shouldTrigger Bool
 ---@return nil
-function GameObjectListener:OnStatusEffectTrigger(shouldTrigger) return end
+function GameObjectListener:OnStatusEffectTrigger(shouldTrigger) end
 
 ---@param owner gamePrereqState
 ---@return Bool
-function GameObjectListener:RegisterOwner(owner) return end
+function GameObjectListener:RegisterOwner(owner) end

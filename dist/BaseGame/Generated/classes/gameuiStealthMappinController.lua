@@ -1,215 +1,189 @@
 ---@meta
 
 ---@class gameuiStealthMappinController: gameuiInteractionMappinController
----@field private arrow inkImageWidgetReference
----@field private fill inkWidgetReference
----@field private eyeFillWhite inkWidgetReference
----@field private eyeFillBlack inkWidgetReference
----@field private markExclamation inkTextWidgetReference
----@field private distance inkTextWidgetReference
----@field private mainArt inkWidgetReference
----@field private frame inkImageWidgetReference
----@field private eliteFrameName CName
----@field private eliteFrameSize Vector2
----@field private objectMarker inkWidgetReference
----@field private levelIcon inkImageWidgetReference
----@field private taggedContainer inkWidgetReference
----@field private background inkCompoundWidgetReference
----@field private contagiousQuickhackArrows inkCompoundWidgetReference
----@field private statusEffectMain inkWidgetReference
----@field private statusEffectIcon inkImageWidgetReference
----@field private statusEffectFill inkWidgetReference
----@field private statusEffectBackground inkWidgetReference
----@field private ownerObject gameObject
----@field private ownerNPC NPCPuppet
----@field private ownerDevice Device
----@field private mappin gamemappinsStealthMappin
----@field private root inkWidget
----@field private canvas inkWidget
----@field private nameplateController gameuiNpcNameplateGameController
----@field private isFriendly Bool
----@field private isFriendlyFromHack Bool
----@field private isHostile Bool
----@field private isAggressive Bool
----@field private isNCPD Bool
----@field private isDevice Bool
----@field private isDrone Bool
----@field private isMech Bool
----@field private isCamera Bool
----@field private isTurret Bool
----@field private isHiddenByQuest Bool
----@field private hideUIElements Bool
----@field private puppetStateBlackboard gameIBlackboard
----@field private highLevelState gamedataNPCHighLevelState
----@field private numberOfCombatants Int32
----@field private waitingToExitCombat Bool
----@field private reaction gamedataOutput
----@field private lastState gamedataNPCHighLevelState
----@field private lastReaction gamedataOutput
----@field private lastPercent Float
----@field private canSeePlayer Bool
----@field private squadInCombat Bool
----@field private archetypeTextureName CName
----@field private isTagged Bool
----@field private canHaveObjectMarker Bool
----@field private canShowObjectMarker Bool
----@field private objectMarkerVisible Bool
----@field private nameplateVisible Bool
----@field private detectionVisible Bool
----@field private inNameplateMode Bool
----@field private objectMarkerFirstShowing Bool
----@field private statusEffectShowing Bool
----@field private statusEffectCurrentPriority Float
----@field private isInCombatWithPlayer Bool
----@field private animationIsPlaying Bool
----@field private animationProxy inkanimProxy
----@field private nameplateAnimationProxy inkanimProxy
----@field private nameplateAnimationIsPlaying Bool
----@field private reprimandAnimationProxy inkanimProxy
----@field private reprimandAnimationIsPlaying Bool
----@field private reprimandAnimationState gameReprimandMappinAnimationState
----@field private monowireHackAnimationProxy inkanimProxy
----@field private currentAnimState gameEnemyStealthAwarenessState
----@field private c_emptyThreshold Float
----@field private c_awareToCombatThreshold Float
----@field private c_combatToAwareThreshold Float
----@field private c_deviceCombatToAwareThreshold Float
----@field private c_objectMarkerMaxDistance Float
----@field private c_objectMarkerMaxCameraDistance Float
----@field private statusEffectStartTime Float
----@field private statusEffectTextureName String
+---@field arrow inkImageWidgetReference
+---@field fill inkWidgetReference
+---@field eyeFillWhite inkWidgetReference
+---@field eyeFillBlack inkWidgetReference
+---@field markExclamation inkTextWidgetReference
+---@field distance inkTextWidgetReference
+---@field mainArt inkWidgetReference
+---@field frame inkImageWidgetReference
+---@field eliteFrameName CName
+---@field eliteFrameSize Vector2
+---@field objectMarker inkWidgetReference
+---@field levelIcon inkImageWidgetReference
+---@field taggedContainer inkWidgetReference
+---@field background inkCompoundWidgetReference
+---@field contagiousQuickhackArrows inkCompoundWidgetReference
+---@field statusEffectMain inkWidgetReference
+---@field statusEffectIcon inkImageWidgetReference
+---@field statusEffectFill inkWidgetReference
+---@field statusEffectBackground inkWidgetReference
+---@field ownerObject gameObject
+---@field ownerNPC NPCPuppet
+---@field ownerDevice Device
+---@field mappin gamemappinsStealthMappin
+---@field root inkWidget
+---@field canvas inkWidget
+---@field nameplateController gameuiNpcNameplateGameController
+---@field isFriendly Bool
+---@field isFriendlyFromHack Bool
+---@field isHostile Bool
+---@field isAggressive Bool
+---@field isNCPD Bool
+---@field isDevice Bool
+---@field isDrone Bool
+---@field isMech Bool
+---@field isCamera Bool
+---@field isTurret Bool
+---@field isHiddenByQuest Bool
+---@field hideUIElements Bool
+---@field puppetStateBlackboard gameIBlackboard
+---@field highLevelState gamedataNPCHighLevelState
+---@field numberOfCombatants Int32
+---@field waitingToExitCombat Bool
+---@field reaction gamedataOutput
+---@field lastState gamedataNPCHighLevelState
+---@field lastReaction gamedataOutput
+---@field lastPercent Float
+---@field canSeePlayer Bool
+---@field squadInCombat Bool
+---@field archetypeTextureName CName
+---@field isTagged Bool
+---@field canHaveObjectMarker Bool
+---@field canShowObjectMarker Bool
+---@field objectMarkerVisible Bool
+---@field nameplateVisible Bool
+---@field detectionVisible Bool
+---@field inNameplateMode Bool
+---@field objectMarkerFirstShowing Bool
+---@field statusEffectShowing Bool
+---@field statusEffectCurrentPriority Float
+---@field isInCombatWithPlayer Bool
+---@field animationIsPlaying Bool
+---@field animationProxy inkanimProxy
+---@field nameplateAnimationProxy inkanimProxy
+---@field nameplateAnimationIsPlaying Bool
+---@field reprimandAnimationProxy inkanimProxy
+---@field reprimandAnimationIsPlaying Bool
+---@field reprimandAnimationState gameReprimandMappinAnimationState
+---@field monowireHackAnimationProxy inkanimProxy
+---@field currentAnimState gameEnemyStealthAwarenessState
+---@field c_emptyThreshold Float
+---@field c_awareToCombatThreshold Float
+---@field c_combatToAwareThreshold Float
+---@field c_deviceCombatToAwareThreshold Float
+---@field c_objectMarkerMaxDistance Float
+---@field c_objectMarkerMaxCameraDistance Float
+---@field statusEffectStartTime Float
+---@field statusEffectTextureName String
 gameuiStealthMappinController = {}
 
 ---@param fields? gameuiStealthMappinController
 ---@return gameuiStealthMappinController
-function gameuiStealthMappinController.new(fields) return end
+function gameuiStealthMappinController.new(fields) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiStealthMappinController:OnBasicAnimFinished(proxy) return end
+function gameuiStealthMappinController:OnBasicAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function gameuiStealthMappinController:OnInitialize() return end
+function gameuiStealthMappinController:OnInitialize() end
 
----@protected
 ---@return Bool
-function gameuiStealthMappinController:OnIntro() return end
+function gameuiStealthMappinController:OnIntro() end
 
----@protected
 ---@param isNameplateVisible Bool
 ---@param nameplateController gameuiNpcNameplateGameController
 ---@return Bool
-function gameuiStealthMappinController:OnNameplate(isNameplateVisible, nameplateController) return end
+function gameuiStealthMappinController:OnNameplate(isNameplateVisible, nameplateController) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiStealthMappinController:OnNameplateAnimFinished(proxy) return end
+function gameuiStealthMappinController:OnNameplateAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiStealthMappinController:OnPotentialCombatAnimFinished(proxy) return end
+function gameuiStealthMappinController:OnPotentialCombatAnimFinished(proxy) end
 
----@protected
 ---@param proxy inkanimProxy
 ---@return Bool
-function gameuiStealthMappinController:OnPotentialRelaxedAnimFinished(proxy) return end
+function gameuiStealthMappinController:OnPotentialRelaxedAnimFinished(proxy) end
 
----@protected
 ---@return Bool
-function gameuiStealthMappinController:OnUninitialize() return end
+function gameuiStealthMappinController:OnUninitialize() end
 
----@protected
 ---@return Bool
-function gameuiStealthMappinController:OnUpdate() return end
+function gameuiStealthMappinController:OnUpdate() end
 
 ---@return inkWidget
-function gameuiStealthMappinController:GetWidgetForNameplateSlot() return end
+function gameuiStealthMappinController:GetWidgetForNameplateSlot() end
 
----@private
 ---@return Bool
-function gameuiStealthMappinController:IsObjectOffScreen() return end
+function gameuiStealthMappinController:IsObjectOffScreen() end
 
----@private
 ---@return nil
-function gameuiStealthMappinController:NotifyDroneAboutStartingDetection() return end
+function gameuiStealthMappinController:NotifyDroneAboutStartingDetection() end
 
----@private
 ---@return nil
-function gameuiStealthMappinController:NotifyDroneAboutStoppingDetection() return end
+function gameuiStealthMappinController:NotifyDroneAboutStoppingDetection() end
 
----@private
 ---@param animName CName|string
 ---@param callBack CName|string
 ---@return nil
-function gameuiStealthMappinController:PlayAnim(animName, callBack) return end
+function gameuiStealthMappinController:PlayAnim(animName, callBack) end
 
----@private
 ---@param animName CName|string
 ---@param callBack CName|string
 ---@return nil
-function gameuiStealthMappinController:PlayNameplateAnim(animName, callBack) return end
+function gameuiStealthMappinController:PlayNameplateAnim(animName, callBack) end
 
 ---@return nil
-function gameuiStealthMappinController:SetGameInstance() return end
+function gameuiStealthMappinController:SetGameInstance() end
 
----@private
 ---@return Bool
-function gameuiStealthMappinController:ShouldDisableMappin() return end
+function gameuiStealthMappinController:ShouldDisableMappin() end
 
----@private
 ---@param show Bool
 ---@return nil
-function gameuiStealthMappinController:ShowStatusEffect(show) return end
+function gameuiStealthMappinController:ShowStatusEffect(show) end
 
----@private
 ---@param show Bool
 ---@return nil
-function gameuiStealthMappinController:TriggerStatusEffectAnimation(show) return end
+function gameuiStealthMappinController:TriggerStatusEffectAnimation(show) end
 
----@private
 ---@return nil
-function gameuiStealthMappinController:UpdateCanvasOpacity() return end
+function gameuiStealthMappinController:UpdateCanvasOpacity() end
 
----@private
 ---@param percent Float
 ---@return nil
-function gameuiStealthMappinController:UpdateDetectionMeter(percent) return end
+function gameuiStealthMappinController:UpdateDetectionMeter(percent) end
 
----@private
 ---@param percent Float
 ---@return nil
-function gameuiStealthMappinController:UpdateDeviceDetection(percent) return end
+function gameuiStealthMappinController:UpdateDeviceDetection(percent) end
 
----@private
 ---@param percent Float
 ---@return nil
-function gameuiStealthMappinController:UpdateNPCDetection(percent) return end
+function gameuiStealthMappinController:UpdateNPCDetection(percent) end
 
----@private
 ---@param isHostile Bool
 ---@return nil
-function gameuiStealthMappinController:UpdateNameplateColor(isHostile) return end
+function gameuiStealthMappinController:UpdateNameplateColor(isHostile) end
 
----@private
 ---@return nil
-function gameuiStealthMappinController:UpdateObjectMarkerAndTagging() return end
+function gameuiStealthMappinController:UpdateObjectMarkerAndTagging() end
 
----@private
 ---@param canHaveObjectMarker Bool
 ---@param objectMarkerVisible Bool
 ---@return nil
-function gameuiStealthMappinController:UpdateObjectMarkerVisibility(canHaveObjectMarker, objectMarkerVisible) return end
+function gameuiStealthMappinController:UpdateObjectMarkerVisibility(canHaveObjectMarker, objectMarkerVisible) end
 
----@private
 ---@param percent Float
 ---@param forceStop Bool
 ---@return nil
-function gameuiStealthMappinController:UpdateReprimandAnimation(percent, forceStop) return end
+function gameuiStealthMappinController:UpdateReprimandAnimation(percent, forceStop) end
 
----@private
 ---@return nil
-function gameuiStealthMappinController:UpdateStatusEffectIcon() return end
+function gameuiStealthMappinController:UpdateStatusEffectIcon() end

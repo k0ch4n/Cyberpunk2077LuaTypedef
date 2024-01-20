@@ -1,21 +1,21 @@
 ---@meta
 
 ---@class animAnimNode_Ik2Constraint: animAnimNode_OnePoseInput
----@field public inputTarget animIAnimNodeSourceChannel_Vector
----@field public inputPoleVector animIAnimNodeSourceChannel_Vector
----@field public inputTargetOrientation animAnimNodeSourceChannel_WeightedQuat
----@field public firstBoneIndex animTransformIndex
----@field public secondBoneIndex animTransformIndex
----@field public endBoneIndex animTransformIndex
----@field public hingeAxis animAxis
----@field public twistValue Float
----@field public weight Float
----@field public weightFloatTrack animNamedTrackIndex
----@field public weightNode animFloatLink
----@field public twistNode animFloatLink
----@field public maxHingeAngle Float
+---@field inputTarget animIAnimNodeSourceChannel_Vector
+---@field inputPoleVector animIAnimNodeSourceChannel_Vector
+---@field inputTargetOrientation animAnimNodeSourceChannel_WeightedQuat
+---@field firstBoneIndex animTransformIndex
+---@field secondBoneIndex animTransformIndex
+---@field endBoneIndex animTransformIndex
+---@field hingeAxis animAxis
+---@field twistValue Float
+---@field weight Float
+---@field weightFloatTrack animNamedTrackIndex
+---@field weightNode animFloatLink
+---@field twistNode animFloatLink
+---@field maxHingeAngle Float
 animAnimNode_Ik2Constraint = {}
 
 ---@param fields? animAnimNode_Ik2Constraint
 ---@return animAnimNode_Ik2Constraint
-function animAnimNode_Ik2Constraint.new(fields) return end
+function animAnimNode_Ik2Constraint.new(fields) end

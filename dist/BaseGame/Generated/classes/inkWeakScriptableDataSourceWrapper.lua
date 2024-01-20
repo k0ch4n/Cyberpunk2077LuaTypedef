@@ -5,31 +5,31 @@ inkWeakScriptableDataSourceWrapper = {}
 
 ---@param fields? inkWeakScriptableDataSourceWrapper
 ---@return inkWeakScriptableDataSourceWrapper
-function inkWeakScriptableDataSourceWrapper.new(fields) return end
+function inkWeakScriptableDataSourceWrapper.new(fields) end
 
 ---@param data IScriptable
 ---@return nil
-function inkWeakScriptableDataSourceWrapper:AppendItem(data) return end
+function inkWeakScriptableDataSourceWrapper:AppendItem(data) end
 
 ---@return nil
-function inkWeakScriptableDataSourceWrapper:Clear() return end
+function inkWeakScriptableDataSourceWrapper:Clear() end
 
 ---@return IScriptable[]
-function inkWeakScriptableDataSourceWrapper:GetArray() return end
+function inkWeakScriptableDataSourceWrapper:GetArray() end
 
 ---@param index Uint32
 ---@param data IScriptable
 ---@return nil
-function inkWeakScriptableDataSourceWrapper:InsertItemAt(index, data) return end
+function inkWeakScriptableDataSourceWrapper:InsertItemAt(index, data) end
 
 ---@param data IScriptable
 ---@return nil
-function inkWeakScriptableDataSourceWrapper:RemoveItem(data) return end
+function inkWeakScriptableDataSourceWrapper:RemoveItem(data) end
 
 ---@param index Uint32
 ---@return nil
-function inkWeakScriptableDataSourceWrapper:RemoveItemAt(index) return end
+function inkWeakScriptableDataSourceWrapper:RemoveItemAt(index) end
 
 ---@param scriptables IScriptable[]
 ---@return nil
-function inkWeakScriptableDataSourceWrapper:Reset(scriptables) return end
+function inkWeakScriptableDataSourceWrapper:Reset(scriptables) end

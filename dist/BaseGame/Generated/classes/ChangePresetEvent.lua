@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class ChangePresetEvent: redEvent
----@field public presetID ESmartHousePreset
+---@field presetID ESmartHousePreset
 ChangePresetEvent = {}
 
 ---@param fields? ChangePresetEvent
 ---@return ChangePresetEvent
-function ChangePresetEvent.new(fields) return end
+function ChangePresetEvent.new(fields) end
 
 ---@return String
-function ChangePresetEvent:GetFriendlyDescription() return end
+function ChangePresetEvent:GetFriendlyDescription() end

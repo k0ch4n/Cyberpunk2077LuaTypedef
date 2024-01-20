@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class vehicleGlassDestructionEvent: redEvent
----@field public glassName CName
+---@field glassName CName
 vehicleGlassDestructionEvent = {}
 
 ---@param fields? vehicleGlassDestructionEvent
 ---@return vehicleGlassDestructionEvent
-function vehicleGlassDestructionEvent.new(fields) return end
+function vehicleGlassDestructionEvent.new(fields) end

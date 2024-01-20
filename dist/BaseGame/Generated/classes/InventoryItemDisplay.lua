@@ -1,109 +1,98 @@
 ---@meta
 
 ---@class InventoryItemDisplay: BaseButtonView
----@field protected RarityRoot inkWidgetReference
----@field protected ModsRoot inkCompoundWidgetReference
----@field protected RarityWrapper inkWidgetReference
----@field protected IconImage inkImageWidgetReference
----@field protected IconShadowImage inkImageWidgetReference
----@field protected IconFallback inkImageWidgetReference
----@field protected BackgroundShape inkImageWidgetReference
----@field protected BackgroundHighlight inkImageWidgetReference
----@field protected BackgroundFrame inkImageWidgetReference
----@field protected QuantityText inkTextWidgetReference
----@field protected ModName CName
----@field protected toggleHighlight inkWidgetReference
----@field protected equippedIcon inkWidgetReference
----@field protected DefaultCategoryIconName String
----@field protected ItemData gameInventoryItemData
----@field protected AttachementsDisplay InventoryItemAttachmentDisplay[]
----@field protected smallSize Vector2
----@field protected bigSize Vector2
----@field private owner gameObject
+---@field RarityRoot inkWidgetReference
+---@field ModsRoot inkCompoundWidgetReference
+---@field RarityWrapper inkWidgetReference
+---@field IconImage inkImageWidgetReference
+---@field IconShadowImage inkImageWidgetReference
+---@field IconFallback inkImageWidgetReference
+---@field BackgroundShape inkImageWidgetReference
+---@field BackgroundHighlight inkImageWidgetReference
+---@field BackgroundFrame inkImageWidgetReference
+---@field QuantityText inkTextWidgetReference
+---@field ModName CName
+---@field toggleHighlight inkWidgetReference
+---@field equippedIcon inkWidgetReference
+---@field DefaultCategoryIconName String
+---@field ItemData gameInventoryItemData
+---@field AttachementsDisplay InventoryItemAttachmentDisplay[]
+---@field smallSize Vector2
+---@field bigSize Vector2
+---@field owner gameObject
 InventoryItemDisplay = {}
 
 ---@param fields? InventoryItemDisplay
 ---@return InventoryItemDisplay
-function InventoryItemDisplay.new(fields) return end
+function InventoryItemDisplay.new(fields) end
 
----@protected
 ---@param controller inkButtonController
 ---@return Bool
-function InventoryItemDisplay:OnButtonClick(controller) return end
+function InventoryItemDisplay:OnButtonClick(controller) end
 
----@protected
 ---@return Bool
-function InventoryItemDisplay:OnInitialize() return end
+function InventoryItemDisplay:OnInitialize() end
 
----@protected
 ---@param oldState inkEButtonState
 ---@param newState inkEButtonState
 ---@return nil
-function InventoryItemDisplay:ButtonStateChanged(oldState, newState) return end
+function InventoryItemDisplay:ButtonStateChanged(oldState, newState) end
 
 ---@return gameInventoryItemData
-function InventoryItemDisplay:GetItemData() return end
+function InventoryItemDisplay:GetItemData() end
 
----@protected
 ---@param shapeType gameInventoryItemShape
 ---@return Vector2
-function InventoryItemDisplay:GetShapeSize(shapeType) return end
+function InventoryItemDisplay:GetShapeSize(shapeType) end
 
 ---@return inkWidget
-function InventoryItemDisplay:GetWidgetForTooltip() return end
+function InventoryItemDisplay:GetWidgetForTooltip() end
 
 ---@param index Int32
 ---@return nil
-function InventoryItemDisplay:Mark(index) return end
+function InventoryItemDisplay:Mark(index) end
 
 ---@param delay Float
 ---@param duration Float
 ---@return nil
-function InventoryItemDisplay:PlayIntroAnimation(delay, duration) return end
-
----@protected
----@return nil
-function InventoryItemDisplay:RefreshUI() return end
+function InventoryItemDisplay:PlayIntroAnimation(delay, duration) end
 
 ---@return nil
-function InventoryItemDisplay:SelectItem() return end
+function InventoryItemDisplay:RefreshUI() end
+
+---@return nil
+function InventoryItemDisplay:SelectItem() end
 
 ---@param equipped Bool
 ---@return nil
-function InventoryItemDisplay:SetEquippedState(equipped) return end
+function InventoryItemDisplay:SetEquippedState(equipped) end
 
----@protected
 ---@return nil
-function InventoryItemDisplay:SetItemSize() return end
+function InventoryItemDisplay:SetItemSize() end
 
----@protected
 ---@param itemQuantity Int32
 ---@return nil
-function InventoryItemDisplay:SetQuantity(itemQuantity) return end
+function InventoryItemDisplay:SetQuantity(itemQuantity) end
 
----@protected
 ---@param quality CName|string
 ---@return nil
-function InventoryItemDisplay:SetRarity(quality) return end
+function InventoryItemDisplay:SetRarity(quality) end
 
----@protected
 ---@param shapeType gameInventoryItemShape
 ---@return nil
-function InventoryItemDisplay:SetShape(shapeType) return end
+function InventoryItemDisplay:SetShape(shapeType) end
 
 ---@param itemData gameInventoryItemData
 ---@param ownerEntity? entEntity
 ---@return nil
-function InventoryItemDisplay:Setup(itemData, ownerEntity) return end
+function InventoryItemDisplay:Setup(itemData, ownerEntity) end
 
----@protected
 ---@param attachements gameInventoryItemAttachments[]
 ---@return nil
-function InventoryItemDisplay:ShowMods(attachements) return end
+function InventoryItemDisplay:ShowMods(attachements) end
 
 ---@return nil
-function InventoryItemDisplay:UnselectItem() return end
+function InventoryItemDisplay:UnselectItem() end
 
----@protected
 ---@return nil
-function InventoryItemDisplay:UpdateIcon() return end
+function InventoryItemDisplay:UpdateIcon() end

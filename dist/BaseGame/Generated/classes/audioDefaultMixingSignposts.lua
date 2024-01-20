@@ -1,14 +1,14 @@
 ---@meta
 
 ---@class audioDefaultMixingSignposts: audioAudioMetadata
----@field public endOfCombat CName
----@field public inCombat CName
----@field public inStealth CName
----@field public aiAlerted CName
----@field public sceneBootstrapSignpost CName
----@field public reservedSignposts CName[]
+---@field endOfCombat CName
+---@field inCombat CName
+---@field inStealth CName
+---@field aiAlerted CName
+---@field sceneBootstrapSignpost CName
+---@field reservedSignposts CName[]
 audioDefaultMixingSignposts = {}
 
 ---@param fields? audioDefaultMixingSignposts
 ---@return audioDefaultMixingSignposts
-function audioDefaultMixingSignposts.new(fields) return end
+function audioDefaultMixingSignposts.new(fields) end

@@ -5,12 +5,12 @@ HubMenuUtils = {}
 
 ---@param fields? HubMenuUtils
 ---@return HubMenuUtils
-function HubMenuUtils.new(fields) return end
+function HubMenuUtils.new(fields) end
 
 ---@param menuButton inkWidgetReference
 ---@param data MenuData
 ---@return MenuItemController
-function HubMenuUtils.SetMenuData(menuButton, data) return end
+function HubMenuUtils.SetMenuData(menuButton, data) end
 
 ---@param menuButton inkWidgetReference
 ---@param identifier HubMenuItems
@@ -20,7 +20,7 @@ function HubMenuUtils.SetMenuData(menuButton, data) return end
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return MenuItemController
-function HubMenuUtils.SetMenuData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) return end
+function HubMenuUtils.SetMenuData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) end
 
 ---@param menuButton inkWidgetReference
 ---@param identifier HubMenuItems
@@ -30,12 +30,12 @@ function HubMenuUtils.SetMenuData(menuButton, identifier, parentIdentifier, full
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return MenuItemController
-function HubMenuUtils.SetMenuHyperlinkData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) return end
+function HubMenuUtils.SetMenuHyperlinkData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) end
 
 ---@param menuButton inkWidgetReference
 ---@param data MenuData
 ---@return RadialMenuItemController
-function HubMenuUtils.SetRadialMenuData(menuButton, data) return end
+function HubMenuUtils.SetRadialMenuData(menuButton, data) end
 
 ---@param menuButton inkWidgetReference
 ---@param identifier HubMenuItems
@@ -45,7 +45,7 @@ function HubMenuUtils.SetRadialMenuData(menuButton, data) return end
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return RadialMenuItemController
-function HubMenuUtils.SetRadialMenuData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) return end
+function HubMenuUtils.SetRadialMenuData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) end
 
 ---@param menuButton inkWidgetReference
 ---@param identifier HubMenuItems
@@ -55,4 +55,4 @@ function HubMenuUtils.SetRadialMenuData(menuButton, identifier, parentIdentifier
 ---@param labelKey CName|string
 ---@param userData? IScriptable
 ---@return RadialMenuItemController
-function HubMenuUtils.SetRadialMenuHyperlinkData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) return end
+function HubMenuUtils.SetRadialMenuHyperlinkData(menuButton, identifier, parentIdentifier, fullscreenName, icon, labelKey, userData) end

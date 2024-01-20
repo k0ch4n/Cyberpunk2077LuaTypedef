@@ -5,4 +5,4 @@ animAnimNode_SelectiveJoin = {}
 
 ---@param fields? animAnimNode_SelectiveJoin
 ---@return animAnimNode_SelectiveJoin
-function animAnimNode_SelectiveJoin.new(fields) return end
+function animAnimNode_SelectiveJoin.new(fields) end

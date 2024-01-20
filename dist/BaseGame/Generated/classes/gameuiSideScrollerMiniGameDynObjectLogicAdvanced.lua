@@ -5,7 +5,7 @@ gameuiSideScrollerMiniGameDynObjectLogicAdvanced = {}
 
 ---@param fields? gameuiSideScrollerMiniGameDynObjectLogicAdvanced
 ---@return gameuiSideScrollerMiniGameDynObjectLogicAdvanced
-function gameuiSideScrollerMiniGameDynObjectLogicAdvanced.new(fields) return end
+function gameuiSideScrollerMiniGameDynObjectLogicAdvanced.new(fields) end
 
 ---@return nil
-function gameuiSideScrollerMiniGameDynObjectLogicAdvanced:GetGameState() return end
+function gameuiSideScrollerMiniGameDynObjectLogicAdvanced:GetGameState() end

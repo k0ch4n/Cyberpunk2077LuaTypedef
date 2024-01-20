@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class physicsQueryPresetResource: ISerializable
----@field public presets physicsQueryPresetDefinition[]
+---@field presets physicsQueryPresetDefinition[]
 physicsQueryPresetResource = {}
 
 ---@param fields? physicsQueryPresetResource
 ---@return physicsQueryPresetResource
-function physicsQueryPresetResource.new(fields) return end
+function physicsQueryPresetResource.new(fields) end

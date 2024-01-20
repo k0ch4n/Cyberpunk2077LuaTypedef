@@ -5,4 +5,4 @@ gameCyberspaceBoundaryNodeInstance = {}
 
 ---@param fields? gameCyberspaceBoundaryNodeInstance
 ---@return gameCyberspaceBoundaryNodeInstance
-function gameCyberspaceBoundaryNodeInstance.new(fields) return end
+function gameCyberspaceBoundaryNodeInstance.new(fields) end

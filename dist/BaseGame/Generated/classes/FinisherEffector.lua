@@ -5,13 +5,11 @@ FinisherEffector = {}
 
 ---@param fields? FinisherEffector
 ---@return FinisherEffector
-function FinisherEffector.new(fields) return end
+function FinisherEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function FinisherEffector:ActionOn(owner) return end
+function FinisherEffector:ActionOn(owner) end
 
----@protected
 ---@return nil
-function FinisherEffector:Uninitialize() return end
+function FinisherEffector:Uninitialize() end

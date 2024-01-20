@@ -1,199 +1,164 @@
 ---@meta
 
 ---@class PlayerVisionModeController: IScriptable
----@field private gameplayActiveFlagsRefreshPolicy PlayerVisionModeControllerRefreshPolicy
----@field private blackboardIds PlayerVisionModeControllerBBIds
----@field private blackboardValuesIds PlayerVisionModeControllerBBValuesIds
----@field private blackboardListenersFunctions PlayerVisionModeControllerBlackboardListenersFunctions
----@field private blackboardListeners PlayerVisionModeControllerBBListeners
----@field private gameplayActiveFlags PlayerVisionModeControllerActiveFlags
----@field private inputActionsNames PlayerVisionModeControllerInputActionsNames
----@field private inputListeners PlayerVisionModeControllerInputListeners
----@field private inputActiveFlags PlayerVisionModeControllerInputActiveFlags
----@field private otherVars PlayerVisionModeControllerOtherVars
----@field private owner gameObject
+---@field gameplayActiveFlagsRefreshPolicy PlayerVisionModeControllerRefreshPolicy
+---@field blackboardIds PlayerVisionModeControllerBBIds
+---@field blackboardValuesIds PlayerVisionModeControllerBBValuesIds
+---@field blackboardListenersFunctions PlayerVisionModeControllerBlackboardListenersFunctions
+---@field blackboardListeners PlayerVisionModeControllerBBListeners
+---@field gameplayActiveFlags PlayerVisionModeControllerActiveFlags
+---@field inputActionsNames PlayerVisionModeControllerInputActionsNames
+---@field inputListeners PlayerVisionModeControllerInputListeners
+---@field inputActiveFlags PlayerVisionModeControllerInputActiveFlags
+---@field otherVars PlayerVisionModeControllerOtherVars
+---@field owner gameObject
 PlayerVisionModeController = {}
 
 ---@param fields? PlayerVisionModeController
 ---@return PlayerVisionModeController
-function PlayerVisionModeController.new(fields) return end
+function PlayerVisionModeController.new(fields) end
 
----@protected
 ---@param action gameinputScriptListenerAction
 ---@param consumer gameinputScriptListenerActionConsumer
 ---@return Bool
-function PlayerVisionModeController:OnAction(action, consumer) return end
+function PlayerVisionModeController:OnAction(action, consumer) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function PlayerVisionModeController:OnBraindanceActiveChanged(value) return end
+function PlayerVisionModeController:OnBraindanceActiveChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function PlayerVisionModeController:OnBraindanceFPPChanged(value) return end
+function PlayerVisionModeController:OnBraindanceFPPChanged(value) end
 
----@protected
 ---@param value Bool
 ---@return Bool
-function PlayerVisionModeController:OnBriefingChange(value) return end
+function PlayerVisionModeController:OnBriefingChange(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PlayerVisionModeController:OnDeadChanged(value) return end
+function PlayerVisionModeController:OnDeadChanged(value) end
 
----@protected
 ---@param value entEntityID
 ---@return Bool
-function PlayerVisionModeController:OnDeviceTakeoverChanged(value) return end
+function PlayerVisionModeController:OnDeviceTakeoverChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PlayerVisionModeController:OnKerenzikovChanged(value) return end
+function PlayerVisionModeController:OnKerenzikovChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PlayerVisionModeController:OnRestrictedSceneChanged(value) return end
+function PlayerVisionModeController:OnRestrictedSceneChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PlayerVisionModeController:OnTakedownChanged(value) return end
+function PlayerVisionModeController:OnTakedownChanged(value) end
 
----@protected
 ---@param value Int32
 ---@return Bool
-function PlayerVisionModeController:OnVeryHardLandingChanged(value) return end
-
----@private
----@return nil
-function PlayerVisionModeController:ActivateVisionMode() return end
-
----@private
----@return nil
-function PlayerVisionModeController:ApplyFocusModeLocomotionRestriction() return end
-
----@private
----@return nil
-function PlayerVisionModeController:DeactivateVisionMode() return end
+function PlayerVisionModeController:OnVeryHardLandingChanged(value) end
 
 ---@return nil
-function PlayerVisionModeController:ForceInputOff() return end
+function PlayerVisionModeController:ActivateVisionMode() end
 
----@private
+---@return nil
+function PlayerVisionModeController:ApplyFocusModeLocomotionRestriction() end
+
+---@return nil
+function PlayerVisionModeController:DeactivateVisionMode() end
+
+---@return nil
+function PlayerVisionModeController:ForceInputOff() end
+
 ---@return gameaimAssistAimRequest
-function PlayerVisionModeController:GetVisionAimSnapParams() return end
+function PlayerVisionModeController:GetVisionAimSnapParams() end
 
----@private
 ---@return Bool
-function PlayerVisionModeController:HasMeleeWeaponEquipped() return end
+function PlayerVisionModeController:HasMeleeWeaponEquipped() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:InitBlackboardFunctions() return end
+function PlayerVisionModeController:InitBlackboardFunctions() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:InitBlackboardIds() return end
+function PlayerVisionModeController:InitBlackboardIds() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:InitBlackboardValuesIds() return end
+function PlayerVisionModeController:InitBlackboardValuesIds() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:InitInputActionsNames() return end
+function PlayerVisionModeController:InitInputActionsNames() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:InitPlayerVisionModeControllerRefreshPolicy() return end
+function PlayerVisionModeController:InitPlayerVisionModeControllerRefreshPolicy() end
 
----@private
 ---@param active Bool
 ---@return nil
-function PlayerVisionModeController:InvalidateActivationState(active) return end
+function PlayerVisionModeController:InvalidateActivationState(active) end
 
----@private
 ---@return Bool
-function PlayerVisionModeController:IsPlayerInDriverCombat() return end
+function PlayerVisionModeController:IsPlayerInDriverCombat() end
 
 ---@param enable Bool
 ---@return nil
-function PlayerVisionModeController:OnEnablePhotoMode(enable) return end
+function PlayerVisionModeController:OnEnablePhotoMode(enable) end
 
 ---@param evt PlayerVisionModeControllerInvalidateEvent
 ---@return nil
-function PlayerVisionModeController:OnInvalidateActiveState(evt) return end
+function PlayerVisionModeController:OnInvalidateActiveState(evt) end
 
----@private
 ---@return nil
-function PlayerVisionModeController:ProcessFlagsRefreshPolicy() return end
+function PlayerVisionModeController:ProcessFlagsRefreshPolicy() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:RegisterBlackboardListeners() return end
+function PlayerVisionModeController:RegisterBlackboardListeners() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:RegisterInputListeners() return end
+function PlayerVisionModeController:RegisterInputListeners() end
 
 ---@param owner gameObject
 ---@return nil
-function PlayerVisionModeController:RegisterOwner(owner) return end
+function PlayerVisionModeController:RegisterOwner(owner) end
 
----@private
 ---@return nil
-function PlayerVisionModeController:RemoveFocusModeLocomotionRestriction() return end
+function PlayerVisionModeController:RemoveFocusModeLocomotionRestriction() end
 
----@protected
 ---@param id CName|string
 ---@param value Bool
 ---@param aspect gamestateMachineParameterAspect
 ---@return nil
-function PlayerVisionModeController:SendPSMBoolParameter(id, value, aspect) return end
+function PlayerVisionModeController:SendPSMBoolParameter(id, value, aspect) end
 
----@private
 ---@param definition gamebbScriptDefinition
 ---@param id gamebbScriptID_Int32
 ---@param value Int32
 ---@return nil
-function PlayerVisionModeController:SetBlackboardIntVariable(definition, id, value) return end
+function PlayerVisionModeController:SetBlackboardIntVariable(definition, id, value) end
 
----@private
 ---@param newState Bool
 ---@return nil
-function PlayerVisionModeController:SetFocusModeAnimFeature(newState) return end
-
----@protected
----@return nil
-function PlayerVisionModeController:SetupLockHoldInput() return end
-
----@protected
----@return nil
-function PlayerVisionModeController:SetupLockToggleInput() return end
-
----@private
----@return nil
-function PlayerVisionModeController:UnregisterBlackboardListeners() return end
-
----@private
----@return nil
-function PlayerVisionModeController:UnregisterInputListeners() return end
+function PlayerVisionModeController:SetFocusModeAnimFeature(newState) end
 
 ---@return nil
-function PlayerVisionModeController:UnregisterOwner() return end
-
----@private
----@return nil
-function PlayerVisionModeController:UpdateBlackboardValues() return end
+function PlayerVisionModeController:SetupLockHoldInput() end
 
 ---@return nil
-function PlayerVisionModeController:UpdateNoScanningRestriction() return end
+function PlayerVisionModeController:SetupLockToggleInput() end
 
----@private
 ---@return nil
-function PlayerVisionModeController:VerifyActivation() return end
+function PlayerVisionModeController:UnregisterBlackboardListeners() end
+
+---@return nil
+function PlayerVisionModeController:UnregisterInputListeners() end
+
+---@return nil
+function PlayerVisionModeController:UnregisterOwner() end
+
+---@return nil
+function PlayerVisionModeController:UpdateBlackboardValues() end
+
+---@return nil
+function PlayerVisionModeController:UpdateNoScanningRestriction() end
+
+---@return nil
+function PlayerVisionModeController:VerifyActivation() end

@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class ForceVisionApperanceEvent: redEvent
----@field public forcedHighlight FocusForcedHighlightData
----@field public apply Bool
----@field public forceCancel Bool
----@field public ignoreStackEvaluation Bool
----@field public responseData IScriptable
+---@field forcedHighlight FocusForcedHighlightData
+---@field apply Bool
+---@field forceCancel Bool
+---@field ignoreStackEvaluation Bool
+---@field responseData IScriptable
 ForceVisionApperanceEvent = {}
 
 ---@param fields? ForceVisionApperanceEvent
 ---@return ForceVisionApperanceEvent
-function ForceVisionApperanceEvent.new(fields) return end
+function ForceVisionApperanceEvent.new(fields) end

@@ -5,10 +5,10 @@ gamedataWeather_Record = {}
 
 ---@param fields? gamedataWeather_Record
 ---@return gamedataWeather_Record
-function gamedataWeather_Record.new(fields) return end
+function gamedataWeather_Record.new(fields) end
 
 ---@return String
-function gamedataWeather_Record:EnumComment() return end
+function gamedataWeather_Record:EnumComment() end
 
 ---@return CName
-function gamedataWeather_Record:EnumName() return end
+function gamedataWeather_Record:EnumName() end

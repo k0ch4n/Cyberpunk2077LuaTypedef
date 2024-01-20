@@ -5,4 +5,4 @@ RequestDeviceWidgetUpdateEvent = {}
 
 ---@param fields? RequestDeviceWidgetUpdateEvent
 ---@return RequestDeviceWidgetUpdateEvent
-function RequestDeviceWidgetUpdateEvent.new(fields) return end
+function RequestDeviceWidgetUpdateEvent.new(fields) end

@@ -5,19 +5,19 @@ Distraction = {}
 
 ---@param fields? Distraction
 ---@return Distraction
-function Distraction.new(fields) return end
+function Distraction.new(fields) end
 
 ---@param device ScriptableDeviceComponentPS
 ---@param context gameGetActionsContext
 ---@return Bool
-function Distraction.IsDefaultConditionMet(device, context) return end
+function Distraction.IsDefaultConditionMet(device, context) end
 
 ---@return String
-function Distraction:GetTweakDBChoiceRecord() return end
+function Distraction:GetTweakDBChoiceRecord() end
 
 ---@param action_name CName|string
 ---@return nil
-function Distraction:SetProperties(action_name) return end
+function Distraction:SetProperties(action_name) end
 
 ---@return nil
-function Distraction:SetProperties() return end
+function Distraction:SetProperties() end

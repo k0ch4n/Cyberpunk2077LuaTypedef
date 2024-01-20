@@ -5,4 +5,4 @@ GrenadeStopDrillingRequestEvent = {}
 
 ---@param fields? GrenadeStopDrillingRequestEvent
 ---@return GrenadeStopDrillingRequestEvent
-function GrenadeStopDrillingRequestEvent.new(fields) return end
+function GrenadeStopDrillingRequestEvent.new(fields) end

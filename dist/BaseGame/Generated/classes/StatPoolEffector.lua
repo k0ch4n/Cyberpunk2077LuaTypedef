@@ -5,14 +5,12 @@ StatPoolEffector = {}
 
 ---@param fields? StatPoolEffector
 ---@return StatPoolEffector
-function StatPoolEffector.new(fields) return end
+function StatPoolEffector.new(fields) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StatPoolEffector:ActionOff(owner) return end
+function StatPoolEffector:ActionOff(owner) end
 
----@protected
 ---@param owner gameObject
 ---@return nil
-function StatPoolEffector:ActionOn(owner) return end
+function StatPoolEffector:ActionOn(owner) end

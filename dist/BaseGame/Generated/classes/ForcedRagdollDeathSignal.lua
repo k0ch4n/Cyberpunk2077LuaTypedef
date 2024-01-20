@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class ForcedRagdollDeathSignal: gameTaggedSignalUserData
----@field public value Bool
+---@field value Bool
 ForcedRagdollDeathSignal = {}
 
 ---@param fields? ForcedRagdollDeathSignal
 ---@return ForcedRagdollDeathSignal
-function ForcedRagdollDeathSignal.new(fields) return end
+function ForcedRagdollDeathSignal.new(fields) end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class DoorTriggerDelayedEvent: redEvent
----@field public activator gameObject
----@field public force Bool
+---@field activator gameObject
+---@field force Bool
 DoorTriggerDelayedEvent = {}
 
 ---@param fields? DoorTriggerDelayedEvent
 ---@return DoorTriggerDelayedEvent
-function DoorTriggerDelayedEvent.new(fields) return end
+function DoorTriggerDelayedEvent.new(fields) end

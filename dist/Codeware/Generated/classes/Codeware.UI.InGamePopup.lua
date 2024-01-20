@@ -1,48 +1,48 @@
 ---@meta
 
 ---@class Codeware_UI_InGamePopup: Codeware_UI_CustomPopup
----@field public vignette inkImageWidget
----@field public container inkCompoundWidget
+---@field vignette inkImageWidget
+---@field container inkCompoundWidget
 Codeware_UI_InGamePopup = {}
 
 ---@return nil
-function Codeware_UI_InGamePopup:OnCreate() return end
+function Codeware_UI_InGamePopup:OnCreate() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:OnHide() return end
+function Codeware_UI_InGamePopup:OnHide() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:OnShow() return end
+function Codeware_UI_InGamePopup:OnShow() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:CreateContainer() return end
+function Codeware_UI_InGamePopup:CreateContainer() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:CreateVignette() return end
+function Codeware_UI_InGamePopup:CreateVignette() end
 
 ---@return CName
-function Codeware_UI_InGamePopup:GetQueueName() return end
+function Codeware_UI_InGamePopup:GetQueueName() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:PlayHideSound() return end
+function Codeware_UI_InGamePopup:PlayHideSound() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:PlayShowSound() return end
+function Codeware_UI_InGamePopup:PlayShowSound() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:ResetBackgroundBlur() return end
+function Codeware_UI_InGamePopup:ResetBackgroundBlur() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:ResetTimeDilation() return end
+function Codeware_UI_InGamePopup:ResetTimeDilation() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:ResetUIContext() return end
+function Codeware_UI_InGamePopup:ResetUIContext() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:SetBackgroundBlur() return end
+function Codeware_UI_InGamePopup:SetBackgroundBlur() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:SetTimeDilation() return end
+function Codeware_UI_InGamePopup:SetTimeDilation() end
 
 ---@return nil
-function Codeware_UI_InGamePopup:SetUIContext() return end
+function Codeware_UI_InGamePopup:SetUIContext() end

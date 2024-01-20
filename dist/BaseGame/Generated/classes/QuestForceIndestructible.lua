@@ -5,7 +5,7 @@ QuestForceIndestructible = {}
 
 ---@param fields? QuestForceIndestructible
 ---@return QuestForceIndestructible
-function QuestForceIndestructible.new(fields) return end
+function QuestForceIndestructible.new(fields) end
 
 ---@return nil
-function QuestForceIndestructible:SetProperties() return end
+function QuestForceIndestructible:SetProperties() end

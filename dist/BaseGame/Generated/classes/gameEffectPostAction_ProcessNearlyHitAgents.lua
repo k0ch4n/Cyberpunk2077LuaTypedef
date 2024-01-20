@@ -5,4 +5,4 @@ gameEffectPostAction_ProcessNearlyHitAgents = {}
 
 ---@param fields? gameEffectPostAction_ProcessNearlyHitAgents
 ---@return gameEffectPostAction_ProcessNearlyHitAgents
-function gameEffectPostAction_ProcessNearlyHitAgents.new(fields) return end
+function gameEffectPostAction_ProcessNearlyHitAgents.new(fields) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questItemManagerNodeDefinition: questDisableableNodeDefinition
----@field public type questIItemManagerNodeType
+---@field type questIItemManagerNodeType
 questItemManagerNodeDefinition = {}
 
 ---@param fields? questItemManagerNodeDefinition
 ---@return questItemManagerNodeDefinition
-function questItemManagerNodeDefinition.new(fields) return end
+function questItemManagerNodeDefinition.new(fields) end

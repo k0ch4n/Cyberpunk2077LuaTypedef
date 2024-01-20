@@ -1,17 +1,17 @@
 ---@meta
 
 ---@class questProximityProgressBar_NodeType: questIUIManagerNodeType
----@field public show Bool
----@field public duration Float
----@field public reset Bool
----@field public distance Float
----@field public distanceComparisonType EComparisonType
----@field public target gameEntityReference
----@field public isPlayerActivator Bool
----@field public activator gameEntityReference
----@field public appearance CName
+---@field show Bool
+---@field duration Float
+---@field reset Bool
+---@field distance Float
+---@field distanceComparisonType EComparisonType
+---@field target gameEntityReference
+---@field isPlayerActivator Bool
+---@field activator gameEntityReference
+---@field appearance CName
 questProximityProgressBar_NodeType = {}
 
 ---@param fields? questProximityProgressBar_NodeType
 ---@return questProximityProgressBar_NodeType
-function questProximityProgressBar_NodeType.new(fields) return end
+function questProximityProgressBar_NodeType.new(fields) end

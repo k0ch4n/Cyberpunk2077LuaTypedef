@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class SpreadFearEvent: redEvent
----@field public player Bool
----@field public phase Int32
+---@field player Bool
+---@field phase Int32
 SpreadFearEvent = {}
 
 ---@param fields? SpreadFearEvent
 ---@return SpreadFearEvent
-function SpreadFearEvent.new(fields) return end
+function SpreadFearEvent.new(fields) end

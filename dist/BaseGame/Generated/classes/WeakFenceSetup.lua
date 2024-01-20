@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class WeakFenceSetup
----@field public hasGenericInteraction Bool
+---@field hasGenericInteraction Bool
 WeakFenceSetup = {}
 
 ---@param fields? WeakFenceSetup
 ---@return WeakFenceSetup
-function WeakFenceSetup.new(fields) return end
+function WeakFenceSetup.new(fields) end

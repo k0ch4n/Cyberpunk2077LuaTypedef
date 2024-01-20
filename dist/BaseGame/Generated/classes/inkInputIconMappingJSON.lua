@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkInputIconMappingJSON
----@field public id CName
----@field public part CName
----@field public hold Bool
+---@field id CName
+---@field part CName
+---@field hold Bool
 inkInputIconMappingJSON = {}
 
 ---@param fields? inkInputIconMappingJSON
 ---@return inkInputIconMappingJSON
-function inkInputIconMappingJSON.new(fields) return end
+function inkInputIconMappingJSON.new(fields) end

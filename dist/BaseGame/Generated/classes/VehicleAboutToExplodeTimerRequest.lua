@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class VehicleAboutToExplodeTimerRequest: gameScriptableSystemRequest
----@field public red Bool
----@field public speed Float
----@field public abort Bool
+---@field red Bool
+---@field speed Float
+---@field abort Bool
 VehicleAboutToExplodeTimerRequest = {}
 
 ---@param fields? VehicleAboutToExplodeTimerRequest
 ---@return VehicleAboutToExplodeTimerRequest
-function VehicleAboutToExplodeTimerRequest.new(fields) return end
+function VehicleAboutToExplodeTimerRequest.new(fields) end

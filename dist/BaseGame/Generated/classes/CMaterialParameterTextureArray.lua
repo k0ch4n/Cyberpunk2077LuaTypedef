@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class CMaterialParameterTextureArray: CMaterialParameter
----@field public texture ITexture
+---@field texture ITexture
 CMaterialParameterTextureArray = {}
 
 ---@param fields? CMaterialParameterTextureArray
 ---@return CMaterialParameterTextureArray
-function CMaterialParameterTextureArray.new(fields) return end
+function CMaterialParameterTextureArray.new(fields) end

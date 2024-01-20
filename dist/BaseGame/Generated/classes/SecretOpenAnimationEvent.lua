@@ -5,4 +5,4 @@ SecretOpenAnimationEvent = {}
 
 ---@param fields? SecretOpenAnimationEvent
 ---@return SecretOpenAnimationEvent
-function SecretOpenAnimationEvent.new(fields) return end
+function SecretOpenAnimationEvent.new(fields) end

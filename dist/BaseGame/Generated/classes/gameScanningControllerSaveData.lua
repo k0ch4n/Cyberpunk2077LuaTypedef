@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameScanningControllerSaveData: ISerializable
----@field public taggedObjectIDs entEntityID[]
+---@field taggedObjectIDs entEntityID[]
 gameScanningControllerSaveData = {}
 
 ---@param fields? gameScanningControllerSaveData
 ---@return gameScanningControllerSaveData
-function gameScanningControllerSaveData.new(fields) return end
+function gameScanningControllerSaveData.new(fields) end

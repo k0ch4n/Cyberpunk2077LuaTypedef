@@ -5,4 +5,4 @@ inkWaitingSignLayer = {}
 
 ---@param fields? inkWaitingSignLayer
 ---@return inkWaitingSignLayer
-function inkWaitingSignLayer.new(fields) return end
+function inkWaitingSignLayer.new(fields) end

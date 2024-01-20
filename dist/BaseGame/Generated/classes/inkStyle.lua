@@ -1,11 +1,11 @@
 ---@meta
 
 ---@class inkStyle
----@field public styleID CName
----@field public state CName
----@field public properties inkStyleProperty[]
+---@field styleID CName
+---@field state CName
+---@field properties inkStyleProperty[]
 inkStyle = {}
 
 ---@param fields? inkStyle
 ---@return inkStyle
-function inkStyle.new(fields) return end
+function inkStyle.new(fields) end

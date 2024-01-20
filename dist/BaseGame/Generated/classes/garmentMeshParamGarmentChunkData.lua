@@ -1,16 +1,16 @@
 ---@meta
 
 ---@class garmentMeshParamGarmentChunkData
----@field public numVertices Uint32
----@field public lodMask Uint8
----@field public isTwoSided Bool
----@field public vertices DataBuffer
----@field public indices DataBuffer
----@field public morphOffsets DataBuffer
----@field public garmentFlags DataBuffer
----@field public uv DataBuffer
+---@field numVertices Uint32
+---@field lodMask Uint8
+---@field isTwoSided Bool
+---@field vertices DataBuffer
+---@field indices DataBuffer
+---@field morphOffsets DataBuffer
+---@field garmentFlags DataBuffer
+---@field uv DataBuffer
 garmentMeshParamGarmentChunkData = {}
 
 ---@param fields? garmentMeshParamGarmentChunkData
 ---@return garmentMeshParamGarmentChunkData
-function garmentMeshParamGarmentChunkData.new(fields) return end
+function garmentMeshParamGarmentChunkData.new(fields) end

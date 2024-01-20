@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class TerminalSetState: redEvent
----@field public state gameinteractionsReactionState
+---@field state gameinteractionsReactionState
 TerminalSetState = {}
 
 ---@param fields? TerminalSetState
 ---@return TerminalSetState
-function TerminalSetState.new(fields) return end
+function TerminalSetState.new(fields) end

@@ -5,4 +5,4 @@ workIdleOnlyModeCommandData = {}
 
 ---@param fields? workIdleOnlyModeCommandData
 ---@return workIdleOnlyModeCommandData
-function workIdleOnlyModeCommandData.new(fields) return end
+function workIdleOnlyModeCommandData.new(fields) end

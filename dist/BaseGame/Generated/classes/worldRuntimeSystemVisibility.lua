@@ -5,4 +5,4 @@ worldRuntimeSystemVisibility = {}
 
 ---@param fields? worldRuntimeSystemVisibility
 ---@return worldRuntimeSystemVisibility
-function worldRuntimeSystemVisibility.new(fields) return end
+function worldRuntimeSystemVisibility.new(fields) end

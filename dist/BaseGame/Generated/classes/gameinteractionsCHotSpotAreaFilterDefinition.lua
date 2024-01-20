@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameinteractionsCHotSpotAreaFilterDefinition: gameinteractionsNodeDefinition
----@field public slotName CName
----@field public transform Transform
----@field public functor gameinteractionsCFunctorDefinition
----@field public shapes gameinteractionsIShapeDefinition[]
----@field public negativeShapes gameinteractionsIShapeDefinition[]
+---@field slotName CName
+---@field transform Transform
+---@field functor gameinteractionsCFunctorDefinition
+---@field shapes gameinteractionsIShapeDefinition[]
+---@field negativeShapes gameinteractionsIShapeDefinition[]
 gameinteractionsCHotSpotAreaFilterDefinition = {}
 
 ---@param fields? gameinteractionsCHotSpotAreaFilterDefinition
 ---@return gameinteractionsCHotSpotAreaFilterDefinition
-function gameinteractionsCHotSpotAreaFilterDefinition.new(fields) return end
+function gameinteractionsCHotSpotAreaFilterDefinition.new(fields) end

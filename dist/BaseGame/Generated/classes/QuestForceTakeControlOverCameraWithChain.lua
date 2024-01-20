@@ -5,7 +5,7 @@ QuestForceTakeControlOverCameraWithChain = {}
 
 ---@param fields? QuestForceTakeControlOverCameraWithChain
 ---@return QuestForceTakeControlOverCameraWithChain
-function QuestForceTakeControlOverCameraWithChain.new(fields) return end
+function QuestForceTakeControlOverCameraWithChain.new(fields) end
 
 ---@return nil
-function QuestForceTakeControlOverCameraWithChain:SetProperties() return end
+function QuestForceTakeControlOverCameraWithChain:SetProperties() end

@@ -5,4 +5,4 @@ gameActivateTPPRepresentationEvent = {}
 
 ---@param fields? gameActivateTPPRepresentationEvent
 ---@return gameActivateTPPRepresentationEvent
-function gameActivateTPPRepresentationEvent.new(fields) return end
+function gameActivateTPPRepresentationEvent.new(fields) end

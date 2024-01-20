@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class questToggleStealthMappinVisibility_NodeSubType: questIUIManagerNodeType
----@field public entityReference gameEntityReference
----@field public show Bool
+---@field entityReference gameEntityReference
+---@field show Bool
 questToggleStealthMappinVisibility_NodeSubType = {}
 
 ---@param fields? questToggleStealthMappinVisibility_NodeSubType
 ---@return questToggleStealthMappinVisibility_NodeSubType
-function questToggleStealthMappinVisibility_NodeSubType.new(fields) return end
+function questToggleStealthMappinVisibility_NodeSubType.new(fields) end

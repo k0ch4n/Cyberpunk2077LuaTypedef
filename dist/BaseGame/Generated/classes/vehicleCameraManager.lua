@@ -5,13 +5,13 @@ vehicleCameraManager = {}
 
 ---@param fields? vehicleCameraManager
 ---@return vehicleCameraManager
-function vehicleCameraManager.new(fields) return end
+function vehicleCameraManager.new(fields) end
 
 ---@return vehicleCameraPerspective
-function vehicleCameraManager:GetActivePerspective() return end
+function vehicleCameraManager:GetActivePerspective() end
 
 ---@return vehicleCameraPerspective
-function vehicleCameraManager:GetPersistentPerspective() return end
+function vehicleCameraManager:GetPersistentPerspective() end
 
 ---@return Bool
-function vehicleCameraManager:IsTPPActive() return end
+function vehicleCameraManager:IsTPPActive() end

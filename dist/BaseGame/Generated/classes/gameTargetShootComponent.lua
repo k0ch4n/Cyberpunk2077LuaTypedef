@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class gameTargetShootComponent: entIComponent
----@field public weaponRecord gamedataWeaponItem_Record
----@field public weaponTDBID TweakDBID
----@field public characterRecord gamedataCharacter_Record
----@field public characterTDBID TweakDBID
+---@field weaponRecord gamedataWeaponItem_Record
+---@field weaponTDBID TweakDBID
+---@field characterRecord gamedataCharacter_Record
+---@field characterTDBID TweakDBID
 gameTargetShootComponent = {}
 
 ---@param fields? gameTargetShootComponent
 ---@return gameTargetShootComponent
-function gameTargetShootComponent.new(fields) return end
+function gameTargetShootComponent.new(fields) end
 
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
@@ -19,103 +19,90 @@ function gameTargetShootComponent.new(fields) return end
 ---@param forcedMissZOffset Float
 ---@param isInLowCover Bool
 ---@return Vector4
-function gameTargetShootComponent:CalculateMissOffset(weaponOwner, weapon, shootAtPointWS, maxSpread, useForcedMissZOffset, forcedMissZOffset, isInLowCover) return end
+function gameTargetShootComponent:CalculateMissOffset(weaponOwner, weapon, shootAtPointWS, maxSpread, useForcedMissZOffset, forcedMissZOffset, isInLowCover) end
 
 ---@param weaponOwner gameObject
 ---@return Float
-function gameTargetShootComponent:GetBasicGroupCoefficient(weaponOwner) return end
+function gameTargetShootComponent:GetBasicGroupCoefficient(weaponOwner) end
 
 ---@return Float
-function gameTargetShootComponent:GetLastHitTime() return end
+function gameTargetShootComponent:GetLastHitTime() end
 
 ---@return String
-function gameTargetShootComponent:GetPackageName() return end
+function gameTargetShootComponent:GetPackageName() end
 
 ---@param weaponOwner gameObject
 ---@return nil
-function gameTargetShootComponent:InsertRecentHitter(weaponOwner) return end
+function gameTargetShootComponent:InsertRecentHitter(weaponOwner) end
 
 ---@return Bool
-function gameTargetShootComponent:IsDebugEnabled() return end
+function gameTargetShootComponent:IsDebugEnabled() end
 
 ---@return Bool
-function gameTargetShootComponent:IsTimeBetweenHitsEnabled() return end
+function gameTargetShootComponent:IsTimeBetweenHitsEnabled() end
 
 ---@param value Float
 ---@return nil
-function gameTargetShootComponent:SetLastHitTime(value) return end
+function gameTargetShootComponent:SetLastHitTime(value) end
 
----@private
 ---@param params TimeBetweenHitsParameters
 ---@return Float
-function gameTargetShootComponent:CalculateTimeBetweenHits(params) return end
+function gameTargetShootComponent:CalculateTimeBetweenHits(params) end
 
----@private
 ---@param weaponOwner gameObject
 ---@param weaponRecord gamedataWeaponItem_Record
 ---@param target gameObject
 ---@return Float
-function gameTargetShootComponent:GetCoverCoefficient(weaponOwner, weaponRecord, target) return end
+function gameTargetShootComponent:GetCoverCoefficient(weaponOwner, weaponRecord, target) end
 
----@private
 ---@return Float
-function gameTargetShootComponent:GetDifficultyLevelCoefficient() return end
+function gameTargetShootComponent:GetDifficultyLevelCoefficient() end
 
----@private
 ---@param weapon gameweaponObject
 ---@param targetPosition Vector4
 ---@return Float
-function gameTargetShootComponent:GetDistanceCoefficient(weapon, targetPosition) return end
+function gameTargetShootComponent:GetDistanceCoefficient(weapon, targetPosition) end
 
----@private
 ---@param curveName CName|string
 ---@param lookupValue Float
 ---@return Float
-function gameTargetShootComponent:GetDistanceCoefficientFromCurve(curveName, lookupValue) return end
+function gameTargetShootComponent:GetDistanceCoefficientFromCurve(curveName, lookupValue) end
 
----@private
 ---@return gameObject
-function gameTargetShootComponent:GetGameObject() return end
+function gameTargetShootComponent:GetGameObject() end
 
----@private
 ---@param weaponOwner gameObject
 ---@return Float
-function gameTargetShootComponent:GetGroupCoefficient(weaponOwner) return end
+function gameTargetShootComponent:GetGroupCoefficient(weaponOwner) end
 
----@private
 ---@return Float
-function gameTargetShootComponent:GetHMGGroupMultiplier() return end
+function gameTargetShootComponent:GetHMGGroupMultiplier() end
 
----@private
 ---@param weaponOwner gameObject
 ---@return Float
-function gameTargetShootComponent:GetPlayersNumCoefficient(weaponOwner) return end
+function gameTargetShootComponent:GetPlayersNumCoefficient(weaponOwner) end
 
----@private
 ---@param curveName CName|string
 ---@param lookupValue Float
 ---@return Float
-function gameTargetShootComponent:GetValueFromCurve(curveName, lookupValue) return end
+function gameTargetShootComponent:GetValueFromCurve(curveName, lookupValue) end
 
----@private
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
 ---@param target gameObject
 ---@param visibilityThresholdCoefficient Float
 ---@return Float
-function gameTargetShootComponent:GetVisibilityCoefficient(weaponOwner, weapon, target, visibilityThresholdCoefficient) return end
+function gameTargetShootComponent:GetVisibilityCoefficient(weaponOwner, weapon, target, visibilityThresholdCoefficient) end
 
----@private
 ---@param curveName CName|string
 ---@param lookupValue Float
 ---@return Float
-function gameTargetShootComponent:GetVisibilityCoefficientFromCurve(curveName, lookupValue) return end
+function gameTargetShootComponent:GetVisibilityCoefficientFromCurve(curveName, lookupValue) end
 
----@private
 ---@param weaponOwner gameObject
 ---@param target gameObject
 ---@return Float
-function gameTargetShootComponent:GetVisionBlockersCoefficient(weaponOwner, target) return end
+function gameTargetShootComponent:GetVisionBlockersCoefficient(weaponOwner, target) end
 
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
@@ -123,7 +110,7 @@ function gameTargetShootComponent:GetVisionBlockersCoefficient(weaponOwner, targ
 ---@param maxSpread Float
 ---@param coefficientMultiplier Float
 ---@return Vector4, Bool miss
-function gameTargetShootComponent:HandleBeingShot(weaponOwner, weapon, shootAtPoint, maxSpread, coefficientMultiplier) return end
+function gameTargetShootComponent:HandleBeingShot(weaponOwner, weapon, shootAtPoint, maxSpread, coefficientMultiplier) end
 
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
@@ -131,20 +118,18 @@ function gameTargetShootComponent:HandleBeingShot(weaponOwner, weapon, shootAtPo
 ---@param maxSpread Float
 ---@param coefficientMultiplier Float
 ---@return Vector4
-function gameTargetShootComponent:HandleBeingShot(weaponOwner, weapon, shootAtPoint, maxSpread, coefficientMultiplier) return end
+function gameTargetShootComponent:HandleBeingShot(weaponOwner, weapon, shootAtPoint, maxSpread, coefficientMultiplier) end
 
----@private
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
 ---@param shootAtPoint Vector4
 ---@param maxSpread Float
 ---@return Vector4
-function gameTargetShootComponent:HandleMissed(weaponOwner, weapon, shootAtPoint, maxSpread) return end
+function gameTargetShootComponent:HandleMissed(weaponOwner, weapon, shootAtPoint, maxSpread) end
 
----@private
 ---@param weaponOwner gameObject
 ---@param weapon gameweaponObject
 ---@param weaponRecord gamedataWeaponItem_Record
 ---@param visibilityThresholdCoefficient Float
 ---@return Bool
-function gameTargetShootComponent:ShouldBeHit(weaponOwner, weapon, weaponRecord, visibilityThresholdCoefficient) return end
+function gameTargetShootComponent:ShouldBeHit(weaponOwner, weapon, weaponRecord, visibilityThresholdCoefficient) end

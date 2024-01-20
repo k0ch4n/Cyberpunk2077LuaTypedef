@@ -5,25 +5,21 @@ LocomotionPSMPrereq = {}
 
 ---@param fields? LocomotionPSMPrereq
 ---@return LocomotionPSMPrereq
-function LocomotionPSMPrereq.new(fields) return end
+function LocomotionPSMPrereq.new(fields) end
 
----@protected
 ---@param bb gameIBlackboard
 ---@return Int32
-function LocomotionPSMPrereq:GetCurrentPSMStateIndex(bb) return end
+function LocomotionPSMPrereq:GetCurrentPSMStateIndex(bb) end
 
----@protected
 ---@return String
-function LocomotionPSMPrereq:GetStateMachineEnum() return end
+function LocomotionPSMPrereq:GetStateMachineEnum() end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return Bool
-function LocomotionPSMPrereq:OnRegister(state, context) return end
+function LocomotionPSMPrereq:OnRegister(state, context) end
 
----@protected
 ---@param state gamePrereqState
 ---@param context IScriptable
 ---@return nil
-function LocomotionPSMPrereq:OnUnregister(state, context) return end
+function LocomotionPSMPrereq:OnUnregister(state, context) end

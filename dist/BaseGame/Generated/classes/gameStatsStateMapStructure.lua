@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameStatsStateMapStructure
----@field public keys gameStatsObjectID[]
----@field public values gameSavedStatsData[]
+---@field keys gameStatsObjectID[]
+---@field values gameSavedStatsData[]
 gameStatsStateMapStructure = {}
 
 ---@param fields? gameStatsStateMapStructure
 ---@return gameStatsStateMapStructure
-function gameStatsStateMapStructure.new(fields) return end
+function gameStatsStateMapStructure.new(fields) end

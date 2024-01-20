@@ -5,19 +5,16 @@ CanNPCMountVehicle = {}
 
 ---@param fields? CanNPCMountVehicle
 ---@return CanNPCMountVehicle
-function CanNPCMountVehicle.new(fields) return end
+function CanNPCMountVehicle.new(fields) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function CanNPCMountVehicle:Activate(context) return end
+function CanNPCMountVehicle:Activate(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return AIbehaviorConditionOutcomes
-function CanNPCMountVehicle:Check(context) return end
+function CanNPCMountVehicle:Check(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function CanNPCMountVehicle:CheckForPolice(context) return end
+function CanNPCMountVehicle:CheckForPolice(context) end

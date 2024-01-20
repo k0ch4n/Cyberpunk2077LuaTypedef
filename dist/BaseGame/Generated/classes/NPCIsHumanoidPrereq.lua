@@ -5,8 +5,8 @@ NPCIsHumanoidPrereq = {}
 
 ---@param fields? NPCIsHumanoidPrereq
 ---@return NPCIsHumanoidPrereq
-function NPCIsHumanoidPrereq.new(fields) return end
+function NPCIsHumanoidPrereq.new(fields) end
 
 ---@param context IScriptable
 ---@return Bool
-function NPCIsHumanoidPrereq:IsFulfilled(context) return end
+function NPCIsHumanoidPrereq:IsFulfilled(context) end

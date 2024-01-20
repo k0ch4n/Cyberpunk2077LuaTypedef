@@ -1,159 +1,134 @@
 ---@meta
 
 ---@class BossHealthBarGameController: gameuiHUDGameController
----@field private healthControllerRef inkWidgetReference
----@field private healthPercentage inkTextWidgetReference
----@field private bossName inkTextWidgetReference
----@field private dividerContainerRef inkCompoundWidgetReference
----@field private statListener BossHealthStatListener
----@field private boss NPCPuppet
----@field private healthController NameplateBarLogicController
----@field private thresholds Float[]
----@field private root inkWidget
----@field private unfoldAnimation inkanimProxy
----@field private foldAnimation inkanimProxy
----@field private fastTravelCallbackID redCallbackObject
----@field private bossPuppets NPCPuppet[]
+---@field healthControllerRef inkWidgetReference
+---@field healthPercentage inkTextWidgetReference
+---@field bossName inkTextWidgetReference
+---@field dividerContainerRef inkCompoundWidgetReference
+---@field statListener BossHealthStatListener
+---@field boss NPCPuppet
+---@field healthController NameplateBarLogicController
+---@field thresholds Float[]
+---@field root inkWidget
+---@field unfoldAnimation inkanimProxy
+---@field foldAnimation inkanimProxy
+---@field fastTravelCallbackID redCallbackObject
+---@field bossPuppets NPCPuppet[]
 BossHealthBarGameController = {}
 
 ---@param fields? BossHealthBarGameController
 ---@return BossHealthBarGameController
-function BossHealthBarGameController.new(fields) return end
+function BossHealthBarGameController.new(fields) end
 
 ---@param puppet NPCPuppet
 ---@param target gameObject
 ---@param combatEnded? Bool
 ---@return nil
-function BossHealthBarGameController.ReevaluateBossHealthBar(puppet, target, combatEnded) return end
+function BossHealthBarGameController.ReevaluateBossHealthBar(puppet, target, combatEnded) end
 
 ---@param puppet NPCPuppet
 ---@param targetTracker TargetTrackingExtension
 ---@param combatEnded? Bool
 ---@return nil
-function BossHealthBarGameController.ReevaluateBossHealthBar(puppet, targetTracker, combatEnded) return end
+function BossHealthBarGameController.ReevaluateBossHealthBar(puppet, targetTracker, combatEnded) end
 
----@protected
 ---@param e inkanimProxy
 ---@return Bool
-function BossHealthBarGameController:OnAnimationEnd(e) return end
+function BossHealthBarGameController:OnAnimationEnd(e) end
 
----@protected
 ---@param evt BossCombatNotifier
 ---@return Bool
-function BossHealthBarGameController:OnBossCombatNotifier(evt) return end
+function BossHealthBarGameController:OnBossCombatNotifier(evt) end
 
----@protected
 ---@param evt gameeventsTargetDamageEvent
 ---@return Bool
-function BossHealthBarGameController:OnDamageDealt(evt) return end
+function BossHealthBarGameController:OnDamageDealt(evt) end
 
----@protected
 ---@return Bool
-function BossHealthBarGameController:OnInitialize() return end
+function BossHealthBarGameController:OnInitialize() end
 
----@protected
 ---@param evt AIThreatDefeated
 ---@return Bool
-function BossHealthBarGameController:OnThreatDefeated(evt) return end
+function BossHealthBarGameController:OnThreatDefeated(evt) end
 
----@protected
 ---@param evt AIThreatInvalid
 ---@return Bool
-function BossHealthBarGameController:OnThreatInvalid(evt) return end
+function BossHealthBarGameController:OnThreatInvalid(evt) end
 
----@protected
 ---@param evt AIThreatDeath
 ---@return Bool
-function BossHealthBarGameController:OnThreatKilled(evt) return end
+function BossHealthBarGameController:OnThreatKilled(evt) end
 
----@protected
 ---@param evt AIThreatRemoved
 ---@return Bool
-function BossHealthBarGameController:OnThreatRemoved(evt) return end
+function BossHealthBarGameController:OnThreatRemoved(evt) end
 
----@protected
 ---@param evt AIThreatUnconscious
 ---@return Bool
-function BossHealthBarGameController:OnThreatUnconscious(evt) return end
+function BossHealthBarGameController:OnThreatUnconscious(evt) end
 
----@protected
 ---@return Bool
-function BossHealthBarGameController:OnUninitialize() return end
+function BossHealthBarGameController:OnUninitialize() end
 
----@private
 ---@param boss NPCPuppet
 ---@return nil
-function BossHealthBarGameController:AddBoss(boss) return end
+function BossHealthBarGameController:AddBoss(boss) end
 
----@private
 ---@return nil
-function BossHealthBarGameController:HideBossHealthBar() return end
+function BossHealthBarGameController:HideBossHealthBar() end
 
----@private
 ---@return nil
-function BossHealthBarGameController:MoveDividers() return end
+function BossHealthBarGameController:MoveDividers() end
 
----@private
 ---@param value Bool
 ---@return nil
-function BossHealthBarGameController:OnFastTravelFinished(value) return end
+function BossHealthBarGameController:OnFastTravelFinished(value) end
 
----@private
 ---@return nil
-function BossHealthBarGameController:ReevaluateBossArray() return end
+function BossHealthBarGameController:ReevaluateBossArray() end
 
----@private
 ---@return nil
-function BossHealthBarGameController:ReevaluatePlayerInBossCombat() return end
+function BossHealthBarGameController:ReevaluatePlayerInBossCombat() end
 
----@private
 ---@return nil
-function BossHealthBarGameController:RegisterFastTravelCallback() return end
+function BossHealthBarGameController:RegisterFastTravelCallback() end
 
----@private
 ---@param boss NPCPuppet
 ---@param useSilentUpdate Bool
 ---@return nil
-function BossHealthBarGameController:RegisterToNewBoss(boss, useSilentUpdate) return end
+function BossHealthBarGameController:RegisterToNewBoss(boss, useSilentUpdate) end
 
----@private
 ---@param boss NPCPuppet
 ---@return nil
-function BossHealthBarGameController:RemoveBoss(boss) return end
+function BossHealthBarGameController:RemoveBoss(boss) end
 
----@private
 ---@param value Float
 ---@param inMin Float
 ---@param inMax Float
 ---@param outMin Float
 ---@param outMax Float
 ---@return Float
-function BossHealthBarGameController:ScaleBetween(value, inMin, inMax, outMin, outMax) return end
+function BossHealthBarGameController:ScaleBetween(value, inMin, inMax, outMin, outMax) end
 
----@private
 ---@param boss gamedataCharacter_Record
 ---@return nil
-function BossHealthBarGameController:SetUpThresholds(boss) return end
+function BossHealthBarGameController:SetUpThresholds(boss) end
 
----@private
 ---@param puppet NPCPuppet
 ---@param useSilentUpdate Bool
 ---@return nil
-function BossHealthBarGameController:ShowBossHealthBar(puppet, useSilentUpdate) return end
+function BossHealthBarGameController:ShowBossHealthBar(puppet, useSilentUpdate) end
 
----@private
 ---@return nil
-function BossHealthBarGameController:SortThresholds() return end
+function BossHealthBarGameController:SortThresholds() end
 
----@private
 ---@return nil
-function BossHealthBarGameController:UnregisterFastTravelCallback() return end
+function BossHealthBarGameController:UnregisterFastTravelCallback() end
 
----@private
 ---@return nil
-function BossHealthBarGameController:UnregisterPreviousBoss() return end
+function BossHealthBarGameController:UnregisterPreviousBoss() end
 
 ---@param newValue Float
 ---@param silent? Bool
 ---@return nil
-function BossHealthBarGameController:UpdateHealthValue(newValue, silent) return end
+function BossHealthBarGameController:UpdateHealthValue(newValue, silent) end

@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class localizationPersistenceSubtitleMap: ISerializable
----@field public entries localizationPersistenceSubtitleMapEntry[]
+---@field entries localizationPersistenceSubtitleMapEntry[]
 localizationPersistenceSubtitleMap = {}
 
 ---@param fields? localizationPersistenceSubtitleMap
 ---@return localizationPersistenceSubtitleMap
-function localizationPersistenceSubtitleMap.new(fields) return end
+function localizationPersistenceSubtitleMap.new(fields) end

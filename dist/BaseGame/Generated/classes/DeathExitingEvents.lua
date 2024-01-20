@@ -5,4 +5,4 @@ DeathExitingEvents = {}
 
 ---@param fields? DeathExitingEvents
 ---@return DeathExitingEvents
-function DeathExitingEvents.new(fields) return end
+function DeathExitingEvents.new(fields) end

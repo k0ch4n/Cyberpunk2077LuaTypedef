@@ -1,34 +1,29 @@
 ---@meta
 
 ---@class AIGenericStaticLookatTask: AIGenericLookatTask
----@field private lookAtEvent entLookAtAddEvent
----@field private activationTimeStamp Float
----@field private lookatTarget Vector4
----@field private currentLookatTarget Vector4
+---@field lookAtEvent entLookAtAddEvent
+---@field activationTimeStamp Float
+---@field lookatTarget Vector4
+---@field currentLookatTarget Vector4
 AIGenericStaticLookatTask = {}
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIGenericStaticLookatTask:Activate(context) return end
+function AIGenericStaticLookatTask:Activate(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@return nil
-function AIGenericStaticLookatTask:ActivateLookat(context) return end
+function AIGenericStaticLookatTask:ActivateLookat(context) end
 
----@private
 ---@param context AIbehaviorScriptExecutionContext
 ---@param instant? Bool
 ---@return nil
-function AIGenericStaticLookatTask:DeactivateLookat(context, instant) return end
+function AIGenericStaticLookatTask:DeactivateLookat(context, instant) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Vector4
-function AIGenericStaticLookatTask:GetAimingLookatTarget(context) return end
+function AIGenericStaticLookatTask:GetAimingLookatTarget(context) end
 
----@protected
 ---@param context AIbehaviorScriptExecutionContext
 ---@return Bool
-function AIGenericStaticLookatTask:ShouldLookatBeActive(context) return end
+function AIGenericStaticLookatTask:ShouldLookatBeActive(context) end

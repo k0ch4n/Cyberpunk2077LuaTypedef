@@ -5,10 +5,9 @@ MeleeCrouchAttackDecisions = {}
 
 ---@param fields? MeleeCrouchAttackDecisions
 ---@return MeleeCrouchAttackDecisions
-function MeleeCrouchAttackDecisions.new(fields) return end
+function MeleeCrouchAttackDecisions.new(fields) end
 
----@protected
 ---@param stateContext gamestateMachineStateContextScript
 ---@param scriptInterface gamestateMachineGameScriptInterface
 ---@return Bool
-function MeleeCrouchAttackDecisions:EnterCondition(stateContext, scriptInterface) return end
+function MeleeCrouchAttackDecisions:EnterCondition(stateContext, scriptInterface) end

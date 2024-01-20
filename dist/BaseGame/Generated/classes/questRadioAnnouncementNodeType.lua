@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class questRadioAnnouncementNodeType: questIAudioNodeType
----@field public radioStationEvents questRadioStationAnnouncementEventStruct[]
+---@field radioStationEvents questRadioStationAnnouncementEventStruct[]
 questRadioAnnouncementNodeType = {}
 
 ---@param fields? questRadioAnnouncementNodeType
 ---@return questRadioAnnouncementNodeType
-function questRadioAnnouncementNodeType.new(fields) return end
+function questRadioAnnouncementNodeType.new(fields) end

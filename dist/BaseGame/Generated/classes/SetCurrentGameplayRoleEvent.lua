@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class SetCurrentGameplayRoleEvent: redEvent
----@field public gameplayRole EGameplayRole
+---@field gameplayRole EGameplayRole
 SetCurrentGameplayRoleEvent = {}
 
 ---@param fields? SetCurrentGameplayRoleEvent
 ---@return SetCurrentGameplayRoleEvent
-function SetCurrentGameplayRoleEvent.new(fields) return end
+function SetCurrentGameplayRoleEvent.new(fields) end

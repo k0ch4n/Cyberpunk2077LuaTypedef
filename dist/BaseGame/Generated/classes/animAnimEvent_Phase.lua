@@ -5,4 +5,4 @@ animAnimEvent_Phase = {}
 
 ---@param fields? animAnimEvent_Phase
 ---@return animAnimEvent_Phase
-function animAnimEvent_Phase.new(fields) return end
+function animAnimEvent_Phase.new(fields) end

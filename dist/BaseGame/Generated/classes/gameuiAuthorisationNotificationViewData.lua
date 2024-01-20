@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gameuiAuthorisationNotificationViewData: gameuiGenericNotificationViewData
----@field public authType gameuiAuthorisationNotificationType
+---@field authType gameuiAuthorisationNotificationType
 gameuiAuthorisationNotificationViewData = {}
 
 ---@param fields? gameuiAuthorisationNotificationViewData
 ---@return gameuiAuthorisationNotificationViewData
-function gameuiAuthorisationNotificationViewData.new(fields) return end
+function gameuiAuthorisationNotificationViewData.new(fields) end

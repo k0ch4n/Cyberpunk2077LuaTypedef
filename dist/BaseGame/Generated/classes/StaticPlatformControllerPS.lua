@@ -1,15 +1,15 @@
 ---@meta
 
 ---@class StaticPlatformControllerPS: ScriptableDeviceComponentPS
----@field private isTriggered Bool
+---@field isTriggered Bool
 StaticPlatformControllerPS = {}
 
 ---@param fields? StaticPlatformControllerPS
 ---@return StaticPlatformControllerPS
-function StaticPlatformControllerPS.new(fields) return end
+function StaticPlatformControllerPS.new(fields) end
 
 ---@return Bool
-function StaticPlatformControllerPS:IsTriggered() return end
+function StaticPlatformControllerPS:IsTriggered() end
 
 ---@return nil
-function StaticPlatformControllerPS:SetAsTriggered() return end
+function StaticPlatformControllerPS:SetAsTriggered() end

@@ -1,12 +1,12 @@
 ---@meta
 
 ---@class audioPhysicalPropSettings: audioAudioMetadata
----@field public shockwaveSound CName
----@field public damagedSound CName
----@field public destroyedSound CName
----@field public materialOverrides CName[]
+---@field shockwaveSound CName
+---@field damagedSound CName
+---@field destroyedSound CName
+---@field materialOverrides CName[]
 audioPhysicalPropSettings = {}
 
 ---@param fields? audioPhysicalPropSettings
 ---@return audioPhysicalPropSettings
-function audioPhysicalPropSettings.new(fields) return end
+function audioPhysicalPropSettings.new(fields) end

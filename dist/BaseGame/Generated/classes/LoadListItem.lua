@@ -1,95 +1,92 @@
 ---@meta
 
 ---@class LoadListItem: AnimatedListItemController
----@field private imageReplacement inkImageWidgetReference
----@field private label inkTextWidgetReference
----@field private labelDate inkTextWidgetReference
----@field private type inkTextWidgetReference
----@field private quest inkTextWidgetReference
----@field private level inkTextWidgetReference
----@field private lifepath inkImageWidgetReference
----@field private cloudStatus inkImageWidgetReference
----@field private playTime inkTextWidgetReference
----@field private characterLevel inkTextWidgetReference
----@field private characterLevelLabel inkTextWidgetReference
----@field private gameVersion inkTextWidgetReference
----@field private emptySlotWrapper inkWidgetReference
----@field private wrapper inkWidgetReference
----@field private versionParams textTextParameterSet
----@field private index Int32
----@field private emptySlot Bool
----@field private validSlot Bool
----@field private initialLoadingID Uint64
----@field private metadata inkSaveMetadataInfo
----@field private defaultAtlasPath redResourceReferenceScriptToken
----@field private tranistionAnimProxy inkanimProxy
+---@field imageReplacement inkImageWidgetReference
+---@field label inkTextWidgetReference
+---@field labelDate inkTextWidgetReference
+---@field type inkTextWidgetReference
+---@field quest inkTextWidgetReference
+---@field level inkTextWidgetReference
+---@field lifepath inkImageWidgetReference
+---@field cloudStatus inkImageWidgetReference
+---@field playTime inkTextWidgetReference
+---@field characterLevel inkTextWidgetReference
+---@field characterLevelLabel inkTextWidgetReference
+---@field gameVersion inkTextWidgetReference
+---@field emptySlotWrapper inkWidgetReference
+---@field wrapper inkWidgetReference
+---@field versionParams textTextParameterSet
+---@field index Int32
+---@field emptySlot Bool
+---@field validSlot Bool
+---@field initialLoadingID Uint64
+---@field metadata inkSaveMetadataInfo
+---@field defaultAtlasPath redResourceReferenceScriptToken
+---@field tranistionAnimProxy inkanimProxy
 LoadListItem = {}
 
 ---@param fields? LoadListItem
 ---@return LoadListItem
-function LoadListItem.new(fields) return end
+function LoadListItem.new(fields) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function LoadListItem:OnHoverOut(e) return end
+function LoadListItem:OnHoverOut(e) end
 
----@protected
 ---@param e inkPointerEvent
 ---@return Bool
-function LoadListItem:OnHoverOver(e) return end
+function LoadListItem:OnHoverOver(e) end
 
----@protected
 ---@return Bool
-function LoadListItem:OnInitialize() return end
+function LoadListItem:OnInitialize() end
 
 ---@param IsBuildCensored Bool
 ---@return nil
-function LoadListItem:CheckThumbnailCensorship(IsBuildCensored) return end
+function LoadListItem:CheckThumbnailCensorship(IsBuildCensored) end
 
 ---@return Bool
-function LoadListItem:EmptySlot() return end
+function LoadListItem:EmptySlot() end
 
 ---@return Uint64
-function LoadListItem:GetInitialLoadingID() return end
+function LoadListItem:GetInitialLoadingID() end
 
 ---@return String
-function LoadListItem:GetPlatform() return end
+function LoadListItem:GetPlatform() end
 
 ---@return inkImageWidget
-function LoadListItem:GetPreviewImageWidget() return end
+function LoadListItem:GetPreviewImageWidget() end
 
 ---@return Int32
-function LoadListItem:Index() return end
+function LoadListItem:Index() end
 
 ---@return Bool
-function LoadListItem:IsCloud() return end
+function LoadListItem:IsCloud() end
 
 ---@return Bool
-function LoadListItem:IsModded() return end
+function LoadListItem:IsModded() end
 
 ---@return Bool
-function LoadListItem:IsVisible() return end
+function LoadListItem:IsVisible() end
 
 ---@param animName CName|string
 ---@param animOptions inkanimPlaybackOptions
 ---@return nil
-function LoadListItem:PlayTransitionAnimation(animName, animOptions) return end
+function LoadListItem:PlayTransitionAnimation(animName, animOptions) end
 
 ---@param index Int32
 ---@param emptySlot? Bool
 ---@param allSlotsTaken? Bool
 ---@return nil
-function LoadListItem:SetData(index, emptySlot, allSlotsTaken) return end
+function LoadListItem:SetData(index, emptySlot, allSlotsTaken) end
 
 ---@param label String
 ---@return nil
-function LoadListItem:SetInvalid(label) return end
+function LoadListItem:SetInvalid(label) end
 
 ---@param metadata inkSaveMetadataInfo
 ---@param isEp1Enabled? Bool
 ---@return nil
-function LoadListItem:SetMetadata(metadata, isEp1Enabled) return end
+function LoadListItem:SetMetadata(metadata, isEp1Enabled) end
 
 ---@return Bool
-function LoadListItem:ValidSlot() return end
+function LoadListItem:ValidSlot() end

@@ -1,10 +1,10 @@
 ---@meta
 
 ---@class gameuiarcadeShooterExplodingPlatformSpawnDetail
----@field public spawnPlatformName CName
----@field public explodingPlatformsNames CName[]
+---@field spawnPlatformName CName
+---@field explodingPlatformsNames CName[]
 gameuiarcadeShooterExplodingPlatformSpawnDetail = {}
 
 ---@param fields? gameuiarcadeShooterExplodingPlatformSpawnDetail
 ---@return gameuiarcadeShooterExplodingPlatformSpawnDetail
-function gameuiarcadeShooterExplodingPlatformSpawnDetail.new(fields) return end
+function gameuiarcadeShooterExplodingPlatformSpawnDetail.new(fields) end

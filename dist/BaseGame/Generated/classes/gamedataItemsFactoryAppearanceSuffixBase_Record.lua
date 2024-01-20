@@ -5,13 +5,13 @@ gamedataItemsFactoryAppearanceSuffixBase_Record = {}
 
 ---@param fields? gamedataItemsFactoryAppearanceSuffixBase_Record
 ---@return gamedataItemsFactoryAppearanceSuffixBase_Record
-function gamedataItemsFactoryAppearanceSuffixBase_Record.new(fields) return end
+function gamedataItemsFactoryAppearanceSuffixBase_Record.new(fields) end
 
 ---@return Bool
-function gamedataItemsFactoryAppearanceSuffixBase_Record:InstantSwitch() return end
+function gamedataItemsFactoryAppearanceSuffixBase_Record:InstantSwitch() end
 
 ---@return CName
-function gamedataItemsFactoryAppearanceSuffixBase_Record:ScriptedFunction() return end
+function gamedataItemsFactoryAppearanceSuffixBase_Record:ScriptedFunction() end
 
 ---@return CName
-function gamedataItemsFactoryAppearanceSuffixBase_Record:ScriptedSystem() return end
+function gamedataItemsFactoryAppearanceSuffixBase_Record:ScriptedSystem() end

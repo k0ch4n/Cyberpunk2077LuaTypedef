@@ -1,13 +1,13 @@
 ---@meta
 
 ---@class gameEffectObjectProvider_TargetingObjectsInCone: gameEffectObjectProvider
----@field public filterData physicsFilterData
----@field public queryPreset physicsQueryPreset
----@field public searchQuery gameTargetSearchQuery
----@field public maxTargets Uint32
----@field public usePlayerPosAndForward Bool
+---@field filterData physicsFilterData
+---@field queryPreset physicsQueryPreset
+---@field searchQuery gameTargetSearchQuery
+---@field maxTargets Uint32
+---@field usePlayerPosAndForward Bool
 gameEffectObjectProvider_TargetingObjectsInCone = {}
 
 ---@param fields? gameEffectObjectProvider_TargetingObjectsInCone
 ---@return gameEffectObjectProvider_TargetingObjectsInCone
-function gameEffectObjectProvider_TargetingObjectsInCone.new(fields) return end
+function gameEffectObjectProvider_TargetingObjectsInCone.new(fields) end

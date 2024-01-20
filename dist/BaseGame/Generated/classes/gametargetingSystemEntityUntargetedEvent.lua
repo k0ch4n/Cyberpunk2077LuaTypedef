@@ -1,9 +1,9 @@
 ---@meta
 
 ---@class gametargetingSystemEntityUntargetedEvent: redEvent
----@field public targetingEntity entEntity
+---@field targetingEntity entEntity
 gametargetingSystemEntityUntargetedEvent = {}
 
 ---@param fields? gametargetingSystemEntityUntargetedEvent
 ---@return gametargetingSystemEntityUntargetedEvent
-function gametargetingSystemEntityUntargetedEvent.new(fields) return end
+function gametargetingSystemEntityUntargetedEvent.new(fields) end

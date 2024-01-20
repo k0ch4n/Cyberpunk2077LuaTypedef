@@ -5,4 +5,4 @@ questBriefingSequencePlayerEvent = {}
 
 ---@param fields? questBriefingSequencePlayerEvent
 ---@return questBriefingSequencePlayerEvent
-function questBriefingSequencePlayerEvent.new(fields) return end
+function questBriefingSequencePlayerEvent.new(fields) end
